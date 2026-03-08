@@ -874,7 +874,7 @@ Giao dịch lặp lại (B2B, subscription):
 | Compliance derived | Core.md §8.3 | Fairness = subjective per overlap |
 | Chunk Topology | Core.md §8.9 | Convergence × value creation (§10) |
 | ECP | Core.md §9 | Market norm pressure |
-| Giáo dục | Research/Education.md | Bootstrapping trong trường học |
+| Giáo dục | Applications/Education.md | Bootstrapping trong trường học |
 | HR Management | Applications/HR-Management.md | Reward design trong công ty |
 | Macro-Civilization | Research/Macro-Civilization.md | Bất bình đẳng PE access |
 | Neurochemistry | Core-Deep-Dive/Neurochemistry.md | Cortisol × dopamine interaction |

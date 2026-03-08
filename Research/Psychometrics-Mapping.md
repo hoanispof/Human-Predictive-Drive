@@ -894,7 +894,7 @@ GAP 6 — Per domain:
 | Misidentification | Core-Deep-Dive/Chunk-Patterns.md §8-9 | Tại sao source quan trọng — cùng hành vi, khác cơ chế |
 | HR Assessment | Applications/HR-Assessment-Gamedev.md | Ứng dụng battery vào tuyển dụng game dev |
 | HR Management | Applications/HR-Management.md | Mapping battery → team composition |
-| Education | Research/Education.md | Đo chunk config học sinh → giáo dục per config |
+| Education | Applications/Education.md | Đo chunk config học sinh → giáo dục per config |
 | Mismatch Patterns | Research/Mismatch-Patterns.md | Pathological configs → đo risk factors |
 
 ---

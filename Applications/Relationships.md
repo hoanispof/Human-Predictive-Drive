@@ -574,7 +574,7 @@ Escalation đồng nghiệp → bạn thân → bạn đời:
   Anh em khác vị trí: cùng gia đình + khác gen mix
     → So sánh "anh ngoan, sao em không" = so sánh 2 vị trí KHÁC nhau.
 
-  ⚠️ v5.5: Xem Research/Education.md §8-10 cho phân tích chi tiết
+  ⚠️ v5.5: Xem Applications/Education.md §8-10 cho phân tích chi tiết
     bối cảnh gia đình × trường, parent×child config matrix.
 ```
 
@@ -932,7 +932,7 @@ SCHEMA:
 | Cortisol inverted-U | Core.md §6.4 | Conflict cascade + cortisol-driven attraction |
 | ECP | Core.md §9 | External Chunk Pressure trong quan hệ |
 | 4 pattern chi tiết | Core-Deep-Dive/Chunk-Patterns.md | Pattern interactions → vị trí Vuông |
-| Bố mẹ × con × trường | Research/Education.md §8-10 | Gia đình × giáo dục |
+| Bố mẹ × con × trường | Applications/Education.md §8-10 | Gia đình × giáo dục |
 | Oxytocin chi tiết | Core-Deep-Dive/Neurochemistry.md §1.3 | Bonding mechanism |
 | HR context | Applications/HR-Management.md | Đồng nghiệp → team compatibility |
 | Psychometrics | Research/Psychometrics-Mapping.md | Đo depth composite + convergence |

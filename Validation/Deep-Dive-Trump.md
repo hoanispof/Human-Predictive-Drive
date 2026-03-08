@@ -1629,7 +1629,7 @@ P21  "Winner" schema persists TO DEATH                🟡 Cực cao Lifetime
 ```
 Core.md                         §3-9 (kênh gốc, phụ gia, schema, Mô Hình Vuông, ECP)
 Neurochemistry.md               §5 (Serotonin), §6 (Cortisol inverted-U),
-                                §6.11 (Phổ Hành Vi Lặp — Trump cortisol regulation khác)
+                                §6.11 (Sequential Defense — Trump cortisol regulation khác)
 Compliance.md                   Compliance per reference group
 Chunk-Patterns.md               Phase Model, Soldier/Architect variants
 Characters.md                   §8 (Trump tóm tắt), §9 (cross-character patterns)

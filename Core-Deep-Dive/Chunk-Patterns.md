@@ -993,7 +993,7 @@ TEST: sau 25 tuổi (PFC mature), vẫn phá + tạo internal rules không?
   Architect thật: vẫn phá + tạo rules riêng.
 
 Ý nghĩa: ĐỪNG label teen "Architect" quá sớm — đợi PFC mature (25+).
-→ Xem chi tiết giáo dục: Research/Education.md
+→ Xem chi tiết giáo dục: Applications/Education.md
 ```
 
 ---
@@ -1105,7 +1105,7 @@ INSIGHT TỪ MAPPING:
 
 5. Compliance ở trẻ em: đo reliable từ tuổi nào?
    (6? 10? 12? PFC chưa mature → compliance chưa ổn)
-   → Ưu tiên: TB. Liên quan Research/Education.md.
+   → Ưu tiên: TB. Liên quan Applications/Education.md.
 
 6. Cross-culture: 4 pattern phân bố có stable không?
    (VN, US, Japan — cùng gen distribution, khác biểu hiện?)
@@ -1123,7 +1123,7 @@ INSIGHT TỪ MAPPING:
 | **Core.md §11** | Emergence Phase — cách chunk config thật nổi lên |
 | **Core-Deep-Dive/Neurochemistry.md** | Cơ chế sinh hóa nền cho mỗi pattern (file "phần cứng") |
 | **Core-Deep-Dive/Society-Dynamics.md** | External Pressure × xã hội: per era, phân cực, bất bình đẳng |
-| **Research/Education.md** | Giáo dục calibrate chunk config pattern trẻ em |
+| **Applications/Education.md** | Giáo dục calibrate chunk config pattern trẻ em |
 | **Applications/Relationships.md** | Ma trận tương tác 4×4 trong quan hệ |
 | **Applications/HR-Management.md** | Chunk config pattern trong quản lý nhân sự |
 | **Validation/Examples.md** | 35+ ví dụ đối chiếu pattern × hành vi thực tế |

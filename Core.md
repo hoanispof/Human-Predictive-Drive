@@ -1287,7 +1287,6 @@ Human Predictive Drive/
 │   └── Compliance.md               ← Cross-layer: compliance v5.5 (4 pathways, diagnostic, dynamics)
 │
 ├── Research/                       ← Nghiên cứu chuyên sâu per topic qua framework lens
-│   ├── Education.md                ← Giáo dục qua framework lens
 │   ├── Religion.md                 ← Tôn giáo: 7 functions + so sánh
 │   ├── Psychometrics-Mapping.md    ← Mapping 18 bài test → framework parameters + 5 GAPs
 │   ├── Mismatch-Patterns.md        ← ★ Hành vi "bệnh lý" = cơ chế đúng × môi trường sai
@@ -1297,7 +1296,10 @@ Human Predictive Drive/
 │   ├── Relationships.md            ← Tương thích quan hệ
 │   ├── HR-Management.md            ← Quản lý nhân sự
 │   ├── HR-Assessment-Gamedev.md    ← Đánh giá nhân sự gamedev
-│   └── Reward-Economics.md         ← Hệ thống thưởng: PE cá nhân → kinh tế
+│   ├── Reward-Economics.md         ← Hệ thống thưởng: PE cá nhân → kinh tế
+│   ├── Education.md                ← Giáo dục qua framework lens
+│   └── Education/                  ← Giáo dục ứng dụng chi tiết
+│       └── 00_Overview.md          ← 7 nguyên tắc + 5 tầng thiết kế
 │
 ├── Validation/                     ← Kiểm chứng framework
 │   ├── Examples.md                 ← 35+ ví dụ đối chiếu

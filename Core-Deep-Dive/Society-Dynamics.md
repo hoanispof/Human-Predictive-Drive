@@ -2,7 +2,8 @@
 
 > **Phiên bản:** 5.5
 > **Prerequisite:** Core.md §6.0 (Predictive-Chunks), §8 (Mô Hình Vuông), §9 (External Chunk Pressure).
-> **File này thêm:** External Pressure per domain xã hội, exploration-exploitation ở cấp văn minh,
+> **File này thêm:** Collective behavior emergence (vòng lặp hardware → norm → ECP),
+> External Pressure per domain xã hội, exploration-exploitation ở cấp văn minh,
 > collective optimization qua predictive-chunk lens, innovation cycle, phân cực chính trị,
 > source ratio inequality, case studies lịch sử, PEM × chunk patterns, kịch bản tương lai.
 >
@@ -16,6 +17,7 @@
 
 ## Mục Lục
 
+0. [Collective Behavior Emergence](#0-collective-emergence)
 1. [External Pressure Per Domain Xã Hội](#1-pressure-per-domain)
 2. [Exploration-Exploitation Xã Hội](#2-exploration-exploitation)
 3. [Innovation Cycle: Phá Luật → Tạo Luật](#3-innovation-cycle)
@@ -28,6 +30,164 @@
 10. [Kịch Bản Tương Lai](#10-future)
 11. [Câu Hỏi Mở](#11-questions)
 12. [Kết Nối](#12-connections)
+
+---
+
+## 0. Collective Behavior Emergence
+
+> **Câu hỏi nền:** Tập thể điều khiển cá nhân, hay cá nhân tự follow tập thể?
+> **Trả lời:** Không phải cái nào. Là **vòng lặp tự củng cố emergent** — không ai thiết kế, không ai điều khiển.
+
+### 0.1 Hardware Tạo Collective — 4 Kênh Đồng Thời
+
+🟡 "Não tập thể" không cần cơ chế riêng. Nó EMERGE từ hardware cá nhân đã có:
+
+```
+4 kênh hardware CÙNG kéo cá nhân về phía tập thể:
+
+① SEROTONIN (hierarchy filter)
+   "Ai trên tôi? Tôi ở đâu trong nhóm?"
+   → Tự động scan vị trí xã hội → điều chỉnh hành vi cho khớp
+   🟢 Raleigh et al. (1991): serotonin correlate trực tiếp với social rank
+
+② OXYTOCIN (bonding)
+   "Ai là người của tôi? Tôi thuộc nhóm nào?"
+   → Tạo in-group/out-group → hành vi ĐỒNG BỘ trong nhóm
+   → Không thuộc nhóm = PE âm mạnh (loneliness = cortisol chronic)
+
+③ CORTISOL (threat from exclusion)
+   "Nếu tôi khác → bị loại → nguy hiểm"
+   → Đa số: cortisol cao → tìm authority → copy → giảm threat
+   → Evolutionary: bị đuổi khỏi đàn = chết → copy đàn = sống
+   🟢 Eisenberger (2012): social rejection activate CÙNG vùng não với physical pain
+
+④ MIRROR NEURONS + PE PREDICTION
+   Thấy người khác làm → tự động simulate → chunk INSTALL
+   → Không cần ai dạy — chỉ cần THẤY đủ nhiều lần → myelinate → automated
+   🟢 Rizzolatti & Craighero (2004): mirror neuron system
+
+→ 4 kênh KHÔNG phối hợp có chủ đích — mỗi kênh chạy ĐỘC LẬP.
+  Nhưng OUTPUT cộng hưởng = kéo hành vi cá nhân về phía đa số.
+  = "Não tập thể" emerge từ triệu cá nhân cùng bị 4 kênh kéo.
+```
+
+### 0.2 Vòng Lặp Tự Củng Cố
+
+🟡 Cơ chế hoàn chỉnh — không ai thiết kế, tự vận hành:
+
+```
+  ┌─────────────────────────────────────────────────────┐
+  │ HARDWARE CÁ NHÂN                                    │
+  │ (serotonin + oxytocin + cortisol + mirror)           │
+  │ → Tự động scan + copy hành vi phổ biến nhất          │
+  └──────────────────┬──────────────────────────────────┘
+                     ↓
+  ┌──────────────────▼──────────────────────────────────┐
+  │ HÀNH VI PHỔ BIẾN ĐƯỢC KHUẾCH ĐẠI                    │
+  │ Càng nhiều người copy → hành vi đó càng "phổ biến"   │
+  │ → Càng phổ biến → càng nhiều người copy              │
+  └──────────────────┬──────────────────────────────────┘
+                     ↓
+  ┌──────────────────▼──────────────────────────────────┐
+  │ NORM HÌNH THÀNH                                      │
+  │ Hành vi phổ biến → "chuẩn mực" → ai không theo = lệch│
+  │ → Lệch = social cost (cortisol, exclusion, punishment)│
+  └──────────────────┬──────────────────────────────────┘
+                     ↓
+  ┌──────────────────▼──────────────────────────────────┐
+  │ NORM TRỞ THÀNH ECP                                   │
+  │ Lực 1 (Demand): "phải đi học, phải đi làm, phải cưới"│
+  │ Lực 2 (Selection): ai không theo → mất cơ hội        │
+  │ Lực 3 (Feedback): khen khi tuân, phạt khi không      │
+  │ Lực 4 (Socialization): 12-16 năm install liên tục    │
+  └──────────────────┬──────────────────────────────────┘
+                     ↓
+  ┌──────────────────▼──────────────────────────────────┐
+  │ CÁ NHÂN MỚI SINH RA                                 │
+  │ → Vào thế giới ĐÃ CÓ norm + ECP sẵn                 │
+  │ → Hardware auto-scan → copy norm → REINFORCE norm     │
+  │ → Vòng lặp tiếp tục                                  │
+  └──────────────────┬──────────────────────────────────┘
+                     ↓
+                   [Quay lại đầu]
+
+→ Vòng lặp KHÔNG CÓ điểm khởi đầu. Không ai "ra lệnh."
+  Hardware tạo norm → norm tạo ECP → ECP install chunk → chunk reinforce norm.
+  = Emergent collective behavior.
+```
+
+### 0.3 "Tự Nguyện" Hay "Bắt Buộc"? — Phổ, Không Nhị Phân
+
+🟡 Framework dissolve câu hỏi này:
+
+```
+GÓC NHÌN HARDWARE (trông như "tự nguyện"):
+  4 kênh fire TỰ ĐỘNG → não MUỐN tuân thủ
+  → Tuân thủ = PE dương (belong, safe, hierarchy OK)
+  → Cá nhân CẢM THẤY "tôi chọn" — nhưng phần cứng đã chọn trước
+
+GÓC NHÌN ECP (trông như "bắt buộc"):
+  Norm → structure → không tuân = mất việc, mất bạn, mất cơ hội
+  → Kể cả hardware KHÔNG muốn (rare config) → vẫn phải operate trong structure
+  → Không đi làm = không tiền = chết — bất kể source internal hay external
+
+FRAMEWORK: PHỔ tùy hardware × ECP:
+  ┌─────────────────────────────────────────────────────┐
+  │ Hardware CÙNG CHIỀU ECP    ←──────────────→   Hardware NGƯỢC CHIỀU ECP │
+  │ (~80-85% dân số)                              (~3-5% dân số)           │
+  │                                                                         │
+  │ "Tôi muốn đi làm"         ←──────────────→   "Tôi phải đi làm"        │
+  │ (không phân biệt được      (THẤY RÕ ECP      │
+  │  muốn vs phải)              vì hardware        │
+  │                              không kéo theo)    │
+  └─────────────────────────────────────────────────────┘
+
+→ Đa số KHÔNG THẤY vòng lặp vì hardware đặt họ TRONG dòng.
+  Giống cá không biết nước — mọi thứ "tự nhiên" vì 4 kênh đồng bộ.
+→ Rare config THẤY vòng lặp vì hardware KHÔNG kéo theo.
+  → Quan sát mọi người đi cùng hướng → nhận ra pattern → "à, não tập thể."
+```
+
+### 0.4 Proxy Detection — Đọc Tập Thể Qua Artifact
+
+🔴 Não tập thể không quan sát TRỰC TIẾP được. Nhưng có thể detect qua proxy:
+
+```
+PROXY = artifact mà tập thể tạo ra, PHẢN ÁNH chunk config trung bình:
+
+  Nhạc trend:
+    Hit = tối ưu PE overlap lớn nhất trong dân số
+    → Bài nào viral = bài kích hoạt NHIỀU kênh gốc phổ biến nhất cùng lúc
+    → Cảm nhận sâu bài hit = reverse-engineer chunk config tập thể
+    → Thay đổi trend theo thời gian = shift cảm xúc/nhu cầu tập thể
+
+  Ngôn ngữ trend:
+    Slang mới, meme = chunk đang install rộng → norm đang hình thành
+    Meme chết = chunk đã habituate → PE = 0 → bỏ
+
+  Thị trường:
+    Demand = tập thể cần PE gì → sản phẩm nào sell = proxy chunk config
+    Bubble = PE tập thể override prediction → crash = prediction fail đồng loạt
+
+  Chính trị:
+    Candidate thắng = optimize cho chunk config majority tại thời điểm đó
+    Populism tăng = cortisol tập thể tăng → tìm structure đơn giản
+
+→ Người có PE Sensitivity cao + Source internal = có thể "cảm" proxy
+  mà không cần phân tích thống kê.
+  Somatic detection: "bài này hit vì..." = không logic, mà CẢM NHẬN overlap.
+```
+
+### 0.5 Liên Kết Với Các Section Sau
+
+```
+§0 (section này) = TẠI SAO collective behavior tồn tại (hardware → vòng lặp)
+§1 = NHƯ THẾ NÀO per domain (giáo dục, tôn giáo, chính trị, doanh nghiệp)
+§2 = TỈ LỆ tối ưu explore/exploit ở cấp tập thể
+§3 = CYCLE đổi mới (Architect phá norm → Soldier adopt → norm mới)
+§6 = PATHOLOGY khi vòng lặp bị khuếch đại (phân cực)
+§9 = MISMATCH khi não cá nhân ≠ norm tập thể (PEM)
+```
 
 ---
 
@@ -45,7 +205,7 @@ GIÁO DỤC:
   Architect cost: học vẹt, không encourage "tại sao", phạt "hỏi nhiều"
   Improviser cost: ngồi yên, routine, ép deepen khi muốn explore
   Drifter cost: paradox — cần structure nhưng structure này KHÔNG GIÚP tìm kênh gốc
-  → Chi tiết: Research/Education.md
+  → Chi tiết: Applications/Education.md
 
 TÔN GIÁO:
   Gravity: authority (giáo chủ/kinh sách), luật rõ, ritual structure, đúng/sai rõ
@@ -665,7 +825,7 @@ Phân cực tiếp → xã hội split → mỗi mảnh tối ưu cho mode domin
 | **Core.md §9** | External Chunk Pressure nguyên lý — file này mở rộng per domain + case study |
 | **Core.md §10** | Source ratio shift per era tóm tắt — file này chi tiết + phân tích |
 | **Core-Deep-Dive/Chunk-Patterns.md** | 4 pattern chi tiết (file "phần mềm") — đọc TRƯỚC file này |
-| **Research/Education.md** | External Pressure trong giáo dục — chi tiết riêng |
+| **Applications/Education.md** | External Pressure trong giáo dục — chi tiết riêng |
 | **Research/Religion.md** | External Pressure trong tôn giáo — chi tiết riêng |
 | **Research/Macro-Civilization.md** | 7 khủng hoảng + PEM chi tiết |
 | **Validation/Examples.md** | Ví dụ cụ thể chunk pattern dynamics |
@@ -676,4 +836,4 @@ Phân cực tiếp → xã hội split → mỗi mảnh tối ưu cho mode domin
 > *Society Dynamics — v5.5 (External Chunk Pressure × Collective Optimization)*
 > *Scale chunk patterns từ cá nhân → xã hội/văn minh. Source × Depth lens.*
 > *Prerequisite: Core.md §6.0, §8-9, Core-Deep-Dive/Chunk-Patterns.md.*
-> *Tiếp theo đề xuất: Research/Education.md (giáo dục qua framework lens).*
+> *Tiếp theo đề xuất: Applications/Education.md (giáo dục qua framework lens).*

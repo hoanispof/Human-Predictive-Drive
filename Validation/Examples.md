@@ -955,7 +955,7 @@ Phân tích v5.5:
 |------|-----------|
 | **Core.md** | Drive equation §7, Mô Hình Vuông §8.2, Depth §8.9, Compliance §8.3, DA inverted-U §6.6, Habituation §6.7 |
 | **Core-Deep-Dive/Chunk-Patterns.md** | 4 nhãn chi tiết + variants + misidentification |
-| **Research/Education.md** | B1, B2 — giáo dục × ECP |
+| **Applications/Education.md** | B1, B2 — giáo dục × ECP |
 | **Applications/HR-Management.md** | A1-A6, E2 — quản lý per vị trí Vuông |
 | **Applications/Relationships.md** | C1-C5 — tương thích + habituation |
 | **Applications/Reward-Economics.md** | F2, I2 — thưởng + habituation + 6 paths |

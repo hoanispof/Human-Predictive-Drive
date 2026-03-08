@@ -1090,7 +1090,7 @@ NGUY CƠ:
 | **Core-Deep-Dive/Chunk-Patterns.md** | Architect-Dormant — dormant qua tôn giáo |
 | **Core-Deep-Dive/Society-Dynamics.md** | ECP per domain, innovation cycle (reformer) |
 | **Core-Deep-Dive/Compliance.md** | Compliance dynamics — compliance in religious context |
-| **Research/Education.md** | ECP Lực 4 (giáo dục), distribution bottleneck |
+| **Applications/Education.md** | ECP Lực 4 (giáo dục), distribution bottleneck |
 | **Research/Mismatch-Patterns.md** | Mismatch patterns liên quan (addiction, trauma bonding) |
 | **Research/Macro-Civilization.md** | 7 khủng hoảng — mất meaning = crisis 7 |
 

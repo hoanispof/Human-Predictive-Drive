@@ -879,7 +879,7 @@ Institutional ritual  ·   ·     ✓         ·      ✓         ·      ✓
 | **Core-Deep-Dive/Neurochemistry.md** | Cortisol inverted-U chi tiết, DA system |
 | **Core-Deep-Dive/Chunk-Patterns.md** | Per pattern chi tiết |
 | **Core-Deep-Dive/Society-Dynamics.md** | ECP xã hội, compliance inequality, phân cực chi tiết |
-| **Research/Education.md** | Giáo dục meta — giải pháp #6, ECP Lực 4 |
+| **Applications/Education.md** | Giáo dục meta — giải pháp #6, ECP Lực 4 |
 | **Research/Religion.md** | Secularization, shared foundation chunks, opioid crisis |
 | **Applications/Reward-Economics.md** | Chuỗi phân phối, bất bình đẳng kinh tế |
 

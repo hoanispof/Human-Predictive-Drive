@@ -710,7 +710,7 @@ v5.5 THÊM SAI LẦM:
 | ECP | Core.md §9 | Tại sao tệp 1 chiếm đa số |
 | Kênh gốc, threshold | Core.md §3, §5 | Phần cứng → PE source → tệp nào |
 | 4 pattern chi tiết | Core-Deep-Dive/Chunk-Patterns.md | Biến thể, shift, phase model |
-| Giáo dục | Research/Education.md | Trường tạo tệp 1 mặc định |
+| Giáo dục | Applications/Education.md | Trường tạo tệp 1 mặc định |
 | Đánh giá gamedev | Applications/HR-Assessment-Gamedev.md | Hệ thống đánh giá per role |
 | Đồng nghiệp tương thích | Applications/Relationships.md §9 | Team compatibility |
 | Psychometrics | Research/Psychometrics-Mapping.md | Battery đo chunk config |

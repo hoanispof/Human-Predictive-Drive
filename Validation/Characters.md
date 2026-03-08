@@ -516,7 +516,7 @@ DOMAIN XÃ HỘI — Vị trí: DRIFTER → recluse
      at once building it up in my imagination"
   → Đây CÓ THỂ là hardware parameter mà framework chưa formalize
   → OCD-like symptoms cuối đời: xem phân tích §5.3b dưới
-    (Neurochemistry.md §6.11 — Phổ Hành Vi Lặp Dưới Cortisol)
+    (Neurochemistry.md §6.11 Sequential Defense + Mismatch-Patterns.md §P12)
 ```
 
 ### 5.2 Schema + Drive Equation
@@ -605,15 +605,16 @@ PREDICTION 5: Cuối đời → Habituation Blindness + prediction xa quá xa
   → Nhưng schema buffer → không sụp tinh thần, chỉ sụp tài chính/xã hội
   CHECK: ✅ ĐÚNG (reframe v5.5 — xem §5.3b dưới)
   🟡 Đúng: nghèo, cô đơn, funding mất
-  🟡 OCD-like symptoms cuối đời: GIỜ ĐÃ GIẢI THÍCH (Neurochemistry.md §6.11)
+  🟡 OCD-like symptoms cuối đời: GIỜ ĐÃ GIẢI THÍCH
+    (Neurochemistry.md §6.11 Sequential Defense + Mismatch-Patterns.md §P12)
     → Tesla cuối đời: cortisol mãn tính (cô đơn, nghèo, funding mất)
       + hardware aging (PFC suy giảm) + eidetic visualization hardware
-    → Hành vi lặp ban đầu = CẤP 1-3 regulation (functional)
-    → Aging: PFC↓↓ → mất metacognition override → habituate thành CẤP 3→4
-    → Số CỐ ĐỊNH (chia hết cho 3) = dấu hiệu mất somatic resonance flexibility
-      → trượt từ regulation (cấp 3) sang compulsion (gần cấp 4)
+    → Hành vi lặp ban đầu = Tuyến 2 cấp 2-3 (functional ritual)
+    → Aging: PFC↓↓ + OFC-caudate suy yếu → "done" detector mất độ tin cậy
+    → Số CỐ ĐỊNH (chia hết cho 3) = dấu hiệu "done" detector lỗi
+      → trượt từ Tuyến 2 functional → OCD-like (P12 trajectory)
     → = Hardware aging × cortisol mãn tính × chunks cực sâu cực hẹp
-    → KHÔNG PHẢI "OCD bẩm sinh" — là TRAJECTORY từ regulation → pathology
+    → KHÔNG PHẢI "OCD bẩm sinh" — là TRAJECTORY từ functional → breakdown
 
   → TỔNG TESLA: 5/5 ✅
     So sánh Einstein: CÙNG Internal-Deep, KHÁC abstraction level + cross-domain sync
@@ -622,7 +623,7 @@ PREDICTION 5: Cuối đời → Habituation Blindness + prediction xa quá xa
     → INSIGHT: cross-domain sync (dù nhẹ) = SURVIVAL ADVANTAGE cho Architects
 ```
 
-### 5.3b Tesla OCD-like — Giải thích qua Phổ Hành Vi Lặp (Neurochemistry.md §6.11)
+### 5.3b Tesla OCD-like — Sequential Defense Trajectory (P12)
 
 ```
 🟡 v5.0 gắn ⚠️ vì "framework chưa giải thích rõ" — v5.5 ĐÃ GIẢI THÍCH:
@@ -630,32 +631,29 @@ PREDICTION 5: Cuối đời → Habituation Blindness + prediction xa quá xa
 Tesla cuối đời (1930s-1943):
   Eidetic visualization = hardware cực mạnh cho somatic processing
   + Cortisol mãn tính (nghèo, cô đơn, bị exploit, funding mất)
-  + Hardware aging (PFC suy giảm tự nhiên theo tuổi)
+  + Hardware aging (PFC + OFC-caudate suy giảm tự nhiên theo tuổi)
 
-TRAJECTORY trên Phổ Hành Vi Lặp:
-  Trẻ:   Có thể đã ở CẤP 1-3 (regulation functional)
-         → Visualization hardware = somatic processing CỰC MẠNH
-         → Repetitive behavior = regulation tool
+TRAJECTORY (P12 Block 5 — applied cho Tesla):
+  Trẻ:   Tuyến 2 cấp 2-3 (functional ritual)
+         Visualization hardware = somatic processing CỰC MẠNH
+         "Done" detector INTACT → endpoint ĐẠT → functional
 
-  Già:   PFC↓↓ (aging) → mất metacognition override (giai đoạn 4 extinction)
-         + Cortisol mãn tính → regulation càng cần thiết
+  Già:   Giai đoạn 2→3 (escalation → breakdown):
+         OFC-caudate suy yếu (aging) → "done" detector mất độ tin cậy
+         + dlPFC↓↓ → mất metacognition override → DOUBLE FAILURE
+         + Cortisol mãn tính → regulation càng cần nhưng hardware càng yếu
          + Chunks CỰC SÂU CỰC HẸP → flexibility thấp
-         → Regulation HABITUATE → mất somatic resonance flexibility
-         → Số trở thành CỐ ĐỊNH (luôn chia hết cho 3)
-         → TRƯỢT từ cấp 3 (regulation) → gần cấp 4 (compulsion)
+         → Số trở thành CỐ ĐỊNH (luôn chia hết cho 3) = mất somatic resonance
+         → TRƯỢT từ functional → OCD-like
 
-  = KHÔNG phải "OCD bẩm sinh"
-  = Hardware aging × cortisol mãn tính × mất PFC override
-  = Trajectory: regulation → habit → partial pathology
+  = KHÔNG phải "OCD bẩm sinh" (không phải OFC/dlPFC predisposition từ đầu)
+  = Hardware aging → "done" detector SUY YẾU DẦN × cortisol mãn tính
+  = Trajectory: functional → escalation → partial breakdown (P12 model)
 
-SO SÁNH:
-  Tesla cuối đời: số CỐ ĐỊNH + KHÔNG cortisol-gated → gần cấp 4
-  OCD lâm sàng:   số cố định + không cortisol-gated + fear-driven → cấp 4
-  IsPof hiện tại:  số CẢM NHẬN + cortisol-gated + functional → cấp 3
-
-  → Tesla = TRƯỢT từ cấp 3→4 do aging + cortisol + mất metacognition
-  → Khác OCD bẩm sinh (basal ganglia pathology từ đầu)
-  → Khác IsPof (vẫn cortisol-gated, metacognition intact, functional)
+SO SÁNH (tất cả cùng Tuyến 2, khác hardware "done" detector):
+  Tesla cuối đời: "done" detector SUY YẾU (aging) → OCD-like
+  OCD lâm sàng:   "done" detector LỖI BẨM SINH (double failure) → P12
+  IsPof hiện tại:  "done" detector INTACT → functional → AN TOÀN
 ```
 
 ---

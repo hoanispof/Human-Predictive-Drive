@@ -35,8 +35,9 @@
 11. [P9: Doom Scrolling](#p9)
 12. [P10: Revenge / Grudge Holding](#p10)
 13. [P11: Hoarding](#p11)
-14. [Nguồn Tham Khảo](#14-refs)
-15. [Kết Nối](#15-kết-nối)
+14. [P12: Repetitive Behavior — Tính Năng Bình Thường → OCD Mismatch](#p12)
+15. [Nguồn Tham Khảo](#15-refs)
+16. [Kết Nối](#16-kết-nối)
 
 ---
 
@@ -879,7 +880,386 @@ CAN THIỆP:
 
 ---
 
-## 14. Nguồn Tham Khảo
+## P12: Repetitive Behavior — Tính Năng Bình Thường → OCD Mismatch
+
+```
+NHÃN PHỔ BIẾN:  "OCD" / "hay kiểm tra quá" / "dở hơi" / "thói quen lạ"
+FRAMEWORK LABEL: Sequential Defense — TÍNH NĂNG bình thường (stimming → ritual)
+                 → BỆNH LÝ khi hardware "done" detector LỖI × cortisol mãn tính
+```
+
+```
+BLOCK 1 — MÔ HÌNH THỐNG NHẤT: SEQUENTIAL DEFENSE UNDER CORTISOL
+═══════════════════════════════════════════════════════════════
+
+🟡 Não có hệ phòng thủ SEQUENTIAL chống lại cortisol/uncertainty.
+Cortisol tăng → não tuyển dụng mạch ĐƠN GIẢN trước, PHỨC TẠP sau.
+Toàn bộ dải này = 1 hệ thống, KHÔNG phải nhiều bệnh riêng lẻ.
+
+  ┌────────────────────────────────────────────────────────────────────┐
+  │ Cortisol       │ Tuyến recruited   │ Behavior    │ Outcome        │
+  │────────────────│──────────────────│─────────────│────────────────│
+  │ Thấp           │ Không cần         │ Không có    │ Bình thường    │
+  │ Moderate       │ Tuyến 1 (additive)│ Stimming    │ Arousal↓ → ok  │
+  │ Cao (ngắn)     │ Tuyến 1 đủ        │ Stimming+   │ Arousal↓ → ok  │
+  │ Cao (kéo dài)  │ T1 KHÔNG đủ → T2  │ Ritual      │ Endpoint → done│
+  │ Mãn tính       │ T2 quá tải        │ Loop        │ OCD (nếu hw lỗi)│
+  └────────────────────────────────────────────────────────────────────┘
+
+  Savanna design:
+    Người check kỹ hơn = sống sót NHIỀU hơn → selective pressure giữ lại.
+    Stress acute → defense tăng → stress qua → defense giảm → reset.
+    Chu kỳ TỰ GIỚI HẠN. Không bao giờ thành pathological loop.
+
+  PREVALENCE — CỰC KỲ PHỔ BIẾN (framework synthesis 🔴):
+    Stimming: ~100% dân số (ai cũng rung chân, nghiến hàm khi stress)
+    Verbal ritual: near-universal ("ổn rồi" × 2-3, "bình tĩnh bình tĩnh")
+      🟢 Hatzigeorgiadis 2011 meta-analysis, Hardy 2006
+      → Xã hội NORMALIZE → không ai thấy "lạ"
+    Somatic ritual: phổ biến nhưng INVISIBLE trong literature
+      🟡 Ước tính >50% (extrapolation: Rachman 1978: 80-90% intrusive thoughts,
+        Muris 1997: 25-30% subclinical OCD, Lang 2015)
+      KHÔNG ĐƯỢC GHI NHẬN vì: giấu (social bias) + quá nhẹ + không vào clinical data
+      🔴 Prediction: survey anonymous + câu hỏi cụ thể → tỷ lệ CAO HƠN NHIỀU.
+
+    → BASELINE: hầu như AI CŨNG CÓ repetitive behavior dưới stress.
+      Câu hỏi không phải "có không?" mà là "endpoint đạt không?"
+
+  🟡 CHANNEL NHẤT QUÁN XUYÊN SUỐT TOÀN DẢI:
+    Processing channel (verbal vs somatic) = hardware STABLE → KHÔNG đổi qua các giai đoạn.
+    Tuyến 1 (stimming) = GIỐNG NHAU ở cả 2 nhóm (motor thuần, chưa tới cognitive).
+    Phân tách chỉ xảy ra từ Tuyến 2 trở đi — khi mạch cognitive chạy qua kênh ưu tiên:
+
+    VERBAL-PRIMARY:                    SOMATIC-PRIMARY:
+    Tuyến 1: rung chân (giống nhau)    Tuyến 1: rung chân (giống nhau)
+    Tuyến 2: "ổn rồi" × 3 → done      Tuyến 2: đặt cốc 5 lần → done
+    OCD:     "ổn rồi" × 200 → mệt     OCD:     rửa tay 50 lần → mệt
+             → dừng vì MỆT                      → dừng vì MỆT
+             (Pure-O — INVISIBLE)                (overt OCD — VISIBLE)
+
+    ⚠️ OCD dừng vì KIỆT SỨC, KHÔNG phải vì "done" signal fire.
+       Functional: dừng → yên tâm → chuyển task.
+       OCD: dừng → KHÔNG yên → anxiety CÒN → loop lại sau.
+```
+
+```
+BLOCK 2 — TUYẾN 1: STIMMING (Arousal Homeostasis)
+══════════════════════════════════════════════════
+
+Mạch: cerebellum, proprioceptive, additive channels (NE/Cortisol)
+Chức năng: tự điều chỉnh arousal về vùng tối ưu inverted-U
+KHÔNG có intent, structure, hay symbolic function.
+
+🟢 Fidgeting tăng dưới stress tasks (Mohiyeddini 2013; Mehrabian 1969)
+🟢 Fidgeting GIÚP cognitive performance ở ADHD (Sarver 2015)
+
+Cấp 0 — Micro-Motor Discharge:
+  Rung chân, nghiến hàm, siết tay, thay đổi tư thế
+  Ý thức: hầu như KHÔNG | ~100% dân số
+  🟢 Motor overflow thuần. Ai cũng làm.
+
+Cấp 1 — Object Manipulation (bấm bút, gõ bàn, xoay nhẫn):
+  Ý thức: BÁN Ý THỨC (dừng được nếu nhắc, rồi lại làm) | ~60-80% dân số
+
+  3 CƠ CHẾ ĐỒNG THỜI (không phải chỉ "calming"):
+
+  A1. AROUSAL DOWN-REGULATION (calming):
+    Cortisol TRÊN tối ưu → rhythmic proprioceptive → cerebellum → parasympathetic
+    Hướng: DESCENDING → MID. Ví dụ: bấm bút khi lo lắng.
+
+  A2. AROUSAL UP-REGULATION (activating):
+    Arousal DƯỚI tối ưu → motor activity → reticular activating system → NE↑
+    Hướng: ASCENDING → MID. Ví dụ: bấm bút khi nghe họp buồn.
+    🟢 Optimal Stimulation Theory (Zentall & Zentall, 1983)
+
+  A3. MICRO-REWARD (sensory PE tự thân):
+    Tactile + auditory + rhythmic → opioid micro-PE + novelty micro-PE
+    Ví dụ: gõ bàn có nhịp = MICRO-DRUMMING → xu hướng phức tạp dần = TẠO NHẠC
+    → Sướng hơn bấm bút vì NHIỀU kênh PE hơn (opioid + novelty)
+
+  A1+A2: HOMEOSTATIC (cùng target mid, ngược hướng). A3: REWARD.
+  Cả 3 chạy ĐỒNG THỜI.
+
+  MOTOR SURPLUS DISCHARGE (bổ sung):
+    PFC focus mạnh → motor cortex tích surplus → fidgeting = XẢ surplus
+    → Motor cortex bớt "tranh" bandwidth PFC → focus dễ hơn.
+    🟡 Lý do fidget tools được dùng trong creative meetings.
+
+STIMMING HABITUATION PATHWAY:
+  🟡
+  GĐ1 KHÁM PHÁ: cortisol → thử → works → reinforcement (cortisol-gated)
+  GĐ2 HỌC:      threshold hạ dần → làm ở cortisol thấp hơn (Schultz 1997)
+  GĐ3 HABIT:     basal ganglia automate → cortisol-independent (Schwabe & Wolf 2009)
+                  → "thói quen" — functional value còn ít. KHÔNG phải nghiện.
+  GĐ4 EXTINCTION: metacognition → override → suy yếu dần
+                   → NHƯNG stress CAO → PFC↓ → habit QUAY LẠI
+
+  ⚠️ Stimming thư giãn hoàn toàn → GIẢM RÕ RỆT hoặc BIẾN MẤT (functional).
+  Habituated stimming: giảm đáng kể nhưng có thể còn residue nhẹ.
+  → Đây là evidence: stimming TRACK cortisol = tuyến phòng thủ, không phải bệnh.
+```
+
+```
+BLOCK 3 — TUYẾN 2: RITUAL (WM Management — Check → Endpoint "Done")
+════════════════════════════════════════════════════════════════════
+
+Mạch: OFC (error detection) → basal ganglia (action loop) → dlPFC (override/endpoint)
+Chức năng: calibrate đóng task, WM anchor/purge uncertainty
+CÓ intent, CÓ structure. = TÍNH NĂNG, không phải bệnh.
+
+🟢 Boyer & Liénard (2006): ritualized behavior = evolved precaution system
+🟢 Eilam et al. (2012): ritual = normal behavioral strategy (cả động vật lẫn người)
+
+CƠ CHẾ CHECK → DONE:
+  Não detect uncertainty → ACTION lặp → OFC evaluate → "DONE" signal
+  → Basal ganglia RELEASE → WM transition → move on.
+
+KHI NÀO TUYẾN 2 ĐƯỢC TUYỂN DỤNG (thay vì chỉ stimming):
+  Cortisol cao + KÉO DÀI → tuyến 1 (stimming) KHÔNG ĐỦ → não cần tool mạnh hơn
+  → TUYỂN mạch OFC/basal ganglia/dlPFC = structured repetition
+  → KHÔNG phải stimming "biến thành" ritual (khác mạch thần kinh)
+  → Mà là não THẤT BẠI ở tool đơn giản → TÌM tool phức tạp hơn
+
+Cấp 2 — Verbal Ritual:
+  "Ổn rồi" × 2-3, đếm 1-2-3, hít thở 4-7-8, self-talk lặp
+  Ý thức: CAO | Trigger: cortisol trung bình-cao | near-universal
+  Cơ chế: verbal loop → WM occupied → endpoint "done"
+  → Xã hội KHUYẾN KHÍCH: "đếm tới 10", "hít thở sâu" = formalized ritual
+
+Cấp 3 — Somatic Ritual (có Intent + Counting):
+  Đặt cốc x lần, mở/đóng cửa x lần, chạm đồ vật x lần
+  Ý thức: CAO (biết lạ, giấu người khác) | Trigger: cortisol CAO
+  Thông tin: encode INTENT vào somatic pattern:
+    → "Giữ" suy nghĩ: somatic pattern "hoàn chỉnh" (resolution → anchor WM)
+    → "Bỏ" suy nghĩ: somatic pattern "phá" (disruption → purge WM)
+  Số lần = SOMATIC RESONANCE ("cảm nhận đúng thì dừng"), KHÔNG cố định
+  🟡 Cơ chế: PFC↓ dưới cortisol → verbal yếu → somatic TAKEOVER → Chunk Anchoring/Purging
+  🔴 Phổ biến hơn data hiện tại vì underreported (Block 1)
+
+CẤP 3 KHÔNG HABITUATE (khác stimming — 🔴 nghịch lý quan trọng):
+  ① Effort cao → basal ganglia khó automate
+  ② Social cost → suppression liên tục (chỉ làm khi không ai thấy)
+  ③ Metacognition mạnh → PFC giám sát → không cho automate
+  → GIỮ cortisol-gated = GIỮ FUNCTIONAL
+  → Hành vi càng "dở hơi" → càng KHÔNG habituate → càng GIỮ ĐƯỢC chức năng
+  → Bấm bút "bình thường" → habituate → mất chức năng
+  → Mở cửa 5 lần "dở hơi" → không habituate → VẪN functional
+
+3 BIẾN QUYẾT ĐỊNH AI Ở TUYẾN/CẤP NÀO:
+  ① PE Sensitivity: thấp → stimming đủ | cao → cần tuyến 2
+  ② Cortisol level + duration:
+     moderate/ngắn → tuyến 1 đủ
+     cao/dài → tuyến 1 thất bại → tuyển tuyến 2
+     PFC còn → verbal (cấp 2) | PFC↓ → somatic takeover (cấp 3) | PFC↓↓ → freeze
+  ③ Processing channel: verbal-primary → cấp 2 (invisible) | somatic → cấp 3 (visible)
+  → CÙNG CƠ CHẾ, chỉ khác kênh output → khác visibility → khác "bình thường/dở hơi"
+
+NGƯỠNG CÁ NHÂN — tại sao mỗi người khác nhau:
+  🟡 4 biến tạo ngưỡng escalation riêng:
+  ① Cortisol baseline: thấp → cần stress lớn mới stimming | cao → stress nhẹ đã stimming
+  ② Cortisol receptor density (MR/GR ratio, De Kloet 2005):
+     cao → buffer tốt → chịu stress nhiều hơn | thấp → buffer yếu → escalate sớm
+  ③ dlPFC capacity: mạnh → override lâu → ít cần ritual | yếu → escalate nhanh
+  ④ PE Sensitivity: thấp → stimming đủ | cao → ritual cần thiết
+  → Người A: deadline 3 tháng vẫn chỉ rung chân
+  → Người B: deadline 1 tuần đã phải "ổn rồi ổn rồi" × 5
+  → CÙNG mechanism, KHÁC threshold
+```
+
+```
+BLOCK 4 — KHI TUYẾN 2 HỎNG: BUG + MISMATCH → OCD
+═══════════════════════════════════════════════════
+
+🟢 BUG: HARDWARE "DONE" DETECTOR — Double Failure Model
+
+  "Done" detector = 2 thành phần phối hợp:
+    OFC: phát "error signal" — "chưa đúng, check thêm"
+    dlPFC: phát "override signal" — "đủ rồi, dừng đi"
+    Bình thường: OFC báo lỗi → dlPFC evaluate → override nếu đủ → DONE
+
+  🟡 DOUBLE FAILURE — OCD predisposition:
+    OFC/dlPFC ratio BASELINE cao hơn bình thường:
+      OFC↑ = cảnh báo quá nhạy → "chưa xong" liên tục (false positive)
+      dlPFC↓ = phanh yếu → không đủ mạnh override false positive
+    = Thermostat lỗi: vừa đọc sai nhiệt độ, vừa nút điều chỉnh kẹt.
+
+  🟢 Evidence:
+    Menzies (2008): OFC hyperactive + structural abnormalities 🟢
+    Rotge (2008): dlPFC hypoactive during cognitive control 🟢
+  🟢 Gen: SLC1A1, SERT. Heritability ~40-65% (Pauls 2010).
+  ⚠️ KHÔNG phải "thiếu ý chí dừng." Hardware BỊ LỖI ở 2 chiều.
+
+MISMATCH 1 — Uncertainty Trừu Tượng (exit condition MẤT):
+  Savanna: "Có rắn không?" → NHÌN → thấy/không thấy → DONE. 1 lần, xong.
+  Hiện đại: "Tay có vi khuẩn không?" → NHÌN → KHÔNG THẤY → rửa → "sạch chưa?"
+    → KHÔNG THỂ BIẾT bằng giác quan → loop KHÔNG CÓ exit condition
+  Bug savanna: check 2-3 lần thay vì 1 → hơi chậm nhưng KHÔNG pathological
+  Bug hiện đại: check 50 lần VẪN không endpoint → PATHOLOGICAL
+  🟢 OCD themes = uncertainty KHÔNG THỂ resolve bằng giác quan:
+    contamination, harm (tương lai), symmetry (perfect = impossible). (Abramowitz 2009)
+
+MISMATCH 2 — Cortisol Mãn Tính (recovery cycle BỊ PHÁ):
+  Savanna: stress ACUTE → check tăng → stress qua → check giảm → reset.
+  Hiện đại: stress MÃN TÍNH → cortisol KHÔNG hạ → loop LIÊN TỤC
+    → Loop đủ lâu → basal ganglia AUTOMATE (Schwabe & Wolf 2009)
+    → Cortisol hạ → loop VẪN CHẠY vì đã automated → cần ERP để untrain.
+
+MISMATCH 3 — Thông Tin Hiện Đại (uncertainty sources × 1000):
+  "Vi khuẩn everywhere", "1001 thứ có thể sai", tin tức 24/7
+  → SỐ uncertainty sources TĂNG × 1000 → loop feed NHIỀU hơn.
+
+  → 3 mismatch × hardware predisposition = từ "kỹ tính" → pathology.
+  → Code KHÔNG thay đổi. Environment thay đổi. = MISMATCH.
+```
+
+```
+BLOCK 5 — TRAJECTORY: FUNCTIONAL → PATHOLOGICAL
+════════════════════════════════════════════════
+
+🟡 3 giai đoạn (cortisol inverted-U applied cho toàn dải):
+
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ FUNCTIONAL          ESCALATION           BREAKDOWN             │
+  │ cortisol moderate   cortisol high+dài    cortisol mãn tính     │
+  │ stimming đủ         stimming→ritual      ritual→compulsion     │
+  │ endpoint ĐẠT       endpoint CẦN NHIỀU   endpoint KHÔNG ĐẠT    │
+  │ dlPFC intact        dlPFC suy yếu dần   dlPFC↓↓ + OFC↑        │
+  │ goal-directed       shifting→habitual    automated loop        │
+  │ DỪNG ĐƯỢC           dừng khó hơn         KHÔNG DỪNG ĐƯỢC       │
+  └─────────────────────────────────────────────────────────────────┘
+
+  Giai đoạn 1 — FUNCTIONAL (đa số mọi người, đa số thời gian):
+    Cortisol moderate → stimming đủ (hoặc ritual nhẹ) → endpoint ĐẠT → done
+    Tuyến phòng thủ = TOOL hữu ích. Dùng xong, bỏ xuống.
+    PFC intact → metacognition giám sát.
+    ⏱️ Cortisol bất ngờ tăng vài giờ/ngày → KHÔNG SAO → recovery cycle works.
+
+  Giai đoạn 2 — ESCALATION (cortisol high KÉO DÀI tuần → tháng):
+    Stimming KHÔNG ĐỦ → não tuyển tuyến 2 (ritual)
+    dlPFC BẮT ĐẦU suy yếu (Arnsten 2009: dendritic atrophy)
+    Basal ganglia BẮT ĐẦU ghi nhận pattern (Schwabe & Wolf 2009)
+    Endpoint vẫn ĐẠT nhưng cần NHIỀU LẦN HƠN.
+    ⚠️ TÍN HIỆU CẢNH BÁO: "Trước 2 lần là yên, giờ phải 5 lần."
+    ⚠️ ĐÂY = CỬA SỔ CAN THIỆP. Hạ cortisol → recovery → về giai đoạn 1.
+
+  Giai đoạn 3 — BREAKDOWN (cortisol mãn tính, tháng → năm):
+    dlPFC atrophy đáng kể + OFC không bị atrophy → DOUBLE FAILURE
+    Ritual HABITUATE → endpoint KHÔNG ĐẠT → loop automated
+    Cortisol hạ CŨNG KHÔNG TỰ DỪNG → = OCD clinical → cần ERP.
+
+  🟢 EVIDENCE (từng mảnh confirmed, trajectory = framework synthesis 🔴):
+    Arnsten (2009): chronic stress → PFC dendritic atrophy 🟢
+    Schwabe & Wolf (2009): stress → habitual behavior shift 🟢
+    Menzies (2008): OCD = dlPFC↓ + OFC hyperactivity 🟢
+    Gothelf (2004): 62% OCD onset preceded by prolonged life stress 🟢
+    Adams (2018): childhood adversity → OCD risk 🟢
+    Sousa-Lima (2019): HPA axis dysregulated in OCD 🟢
+    Rotge (2008): dlPFC hypoactive in OCD 🟢
+    🔴 Chưa có longitudinal study theo dõi cùng người từ healthy → clinical.
+```
+
+```
+BLOCK 6 — PHỔ + VULNERABILITY + SELF-ASSESSMENT
+════════════════════════════════════════════════
+
+PHỔ LIÊN TỤC (cả 2 channel):
+  🟢 DSM-5: dimensional approach. 🟢 Muris (1997): ~20-30% subclinical.
+
+  SOMATIC CHANNEL (visible — dễ chẩn đoán):
+  ─────────────────────────────────────────────────────
+  Functional             Subclinical                Clinical
+  Đặt cốc 3 lần →       Kiểm tra khóa 2-3 lần →   Kiểm tra 50 lần, mất 2h
+  dừng, yên tâm          hơi lo nhưng dừng được     KHÔNG DỪNG ĐƯỢC
+
+  VERBAL CHANNEL (invisible — KHÓ chẩn đoán):
+  ─────────────────────────────────────────────────────
+  Functional             Subclinical                Clinical
+  "Ổn rồi" × 3 →        "Ổn rồi" × 10 →           "Ổn rồi" × 200 →
+  yên tâm, chuyển task   hơi lo nhưng dừng          vẫn không ổn, loop 6h/ngày
+
+  🟢 "Pure-O" OCD: tất cả loop TRONG ĐẦU. Bề ngoài bình thường.
+    Khó chẩn đoán vì INVISIBLE. Bị nhầm "hay lo" hoặc "overthinking."
+    🟢 Williams (2011): Pure-O underdiagnosed 7-10 năm so với overt OCD.
+
+  🟡 HỆ QUẢ CỦA CHANNEL NHẤT QUÁN — rủi ro detection rất khác nhau:
+
+    SOMATIC-PRIMARY: trajectory VISIBLE ở mọi giai đoạn
+      Tuyến 2: người khác CÓ THỂ thấy hành vi lặp → nhận ra sớm
+      OCD: rửa tay/kiểm tra VISIBLE → chẩn đoán nhanh
+      → Giai đoạn 2 (escalation) CÓ CƠ HỘI được nhận ra → can thiệp sớm
+
+    VERBAL-PRIMARY: trajectory INVISIBLE ở MỌI giai đoạn
+      Tuyến 2: "ổn rồi" trong đầu → KHÔNG AI THẤY
+      OCD: verbal loop trong đầu → KHÔNG AI THẤY → Pure-O
+      → Giai đoạn 2 KHÔNG ĐƯỢC NHẬN RA → trượt sang giai đoạn 3 mà không ai biết
+      → 🔴 Verbal-primary = RỦI RO CAO HƠN bị bỏ qua ở cửa sổ can thiệp
+         KHÔNG PHẢI vì bệnh nặng hơn — mà vì kênh output INVISIBLE
+
+BIẾN SỐ quyết định vị trí:
+  ① Hardware: OFC/dlPFC ratio — cao → dễ trượt
+  ② Cortisol duration: acute ok, mãn tính → breakdown
+  ③ Thời gian loop: đủ lâu → automated → khó untrain
+  ④ Channel: somatic (visible, chẩn đoán sớm) vs verbal (invisible, rủi ro bỏ qua cao)
+
+VULNERABILITY (Mô Hình Vuông):
+  🟡 OCD cross-cut — cortisol mãn tính tăng vulnerability cho MỌI NGƯỜI.
+  Soldier-Deep: checking blend vào workflow → khó nhận → muộn chẩn đoán.
+  Architect: Pure-O dễ develop → khó phân biệt với "suy nghĩ sâu."
+  Improviser: ít vulnerable hơn (nhảy domain → loop không kịp automate).
+
+SELF-ASSESSMENT (3 câu hỏi):
+  ① Ritual có endpoint (dừng được, yên tâm)?         → BÌNH THƯỜNG (giai đoạn 1)
+  ② Cần nhiều lần hơn trước để yên tâm?              → CẢNH BÁO (giai đoạn 2)
+  ③ Ritual không dừng được / gây distress / cản trở?  → CẦN CHUYÊN GIA (giai đoạn 3)
+```
+
+```
+BLOCK 7 — DỄ NHẦM + CAN THIỆP + LIÊN KẾT
+══════════════════════════════════════════
+
+DỄ NHẦM:
+  ✗ Stimming (tuyến 1): KHÔNG có intent, KHÔNG check→done, chỉ arousal regulation.
+    Stimming = tuyến phòng thủ 1. Ritual = tuyến 2. Khác mạch, cùng driver (cortisol).
+  ✗ Functional ritual (tuyến 2): endpoint ĐẠT, cortisol-gated, HỖ TRỢ cuộc sống.
+    TEST: bỏ stress 2 tuần → functional ritual BIẾN MẤT.
+  ✗ "Kỹ tính": preference (dừng được). Subclinical OCD: dừng = anxiety.
+  ✗ GAD: lo LẮNG nhiều chủ đề, KHÔNG có compulsion. OCD: loop CỤ THỂ + compulsion.
+  ✗ Rumination: lặp CHỦ ĐỀ (không ritual). Pure-O: lặp CÂU/HÌNH ẢNH (mental ritual).
+
+CAN THIỆP (theo trajectory):
+
+  Giai đoạn 1 — KHÔNG CẦN can thiệp. Đây là tính năng:
+    ① Normalization: hiểu cơ chế → bớt lo "bị bệnh" → giảm meta-anxiety
+       = Positive loop: hiểu → bớt stress → cơ chế tốt hơn.
+    ② Self-monitoring: biết baseline cá nhân.
+
+  Giai đoạn 2 — CỬA SỔ CAN THIỆP (rẻ, dễ, hiệu quả nhất):
+    ③ Cortisol management ƯU TIÊN (Core.md §11.3):
+       Hạ cortisol TRƯỚC KHI loop automate.
+       → Giảm workload, sleep, exercise, social support.
+    ④ Awareness: nhận biết "cần nhiều lần hơn" = đang escalate.
+
+  Giai đoạn 3 — CẦN CHUYÊN GIA:
+    ⑤ ERP — 🟢 gold standard (Foa 2005):
+       Đối mặt trigger MÀ KHÔNG check → anxiety spike → CHỊU → habituation
+       → "Done" detector LEARN endpoint mới. Tuần → tháng.
+    ⑥ SSRI — 🟢 first-line pharmacological:
+       OFC activity↓ → "check thêm" signal yếu đi. Không cure — hỗ trợ ERP.
+    ⑦ Cortisol management — hỗ trợ:
+       Loop automated → cortisol hạ CHƯA ĐỦ → cần ERP. Nhưng hạ = ERP dễ hơn.
+    ⚠️ "Cố dừng bằng ý chí" = vô ích (double failure, ý chí KHÔNG override hardware).
+
+LIÊN KẾT FRAMEWORK:
+  Sequential defense: Neurochemistry.md §6.11 (mô hình thống nhất, cơ chế ngắn gọn)
+  Cortisol inverted-U: Core.md §4 (driver cho toàn bộ dải)
+  Cortisol management: Core.md §11.3 (can thiệp giai đoạn 2)
+  Tesla trajectory: Characters.md §5.3b (aging → "done" detector suy yếu → OCD-like)
+  Savanna design: §1 Nguyên Lý (code đúng × environment sai)
+```
+
+---
+
+## 15. Nguồn Tham Khảo
 
 ### Self-harm
 - Nock & Prinstein (2004) — Four-function model of self-injury 🟢
@@ -909,8 +1289,34 @@ CAN THIỆP:
 - Maier & Seligman (2016) — Controllability 🟢
 - Koob & Le Moal (2008) — Addiction allostatic model 🟢
 
+### Repetitive Behavior Spectrum (P12)
+- Mohiyeddini et al. (2013) — Fidgeting increases under stress tasks 🟢
+- Mehrabian (1969) — Nonverbal communication + fidgeting under stress 🟢
+- Sarver et al. (2015) — Fidgeting helps cognitive performance in ADHD 🟢
+- Zentall & Zentall (1983) — Optimal Stimulation Theory 🟢
+- Schultz (1997) — Dopamine prediction error + reinforcement learning 🟢
+- De Kloet (2005) — MR/GR ratio determines cortisol sensitivity 🟢
+- Boyer & Liénard (2006) — Ritualized behavior as evolved precaution system 🟢
+- Eilam et al. (2012) — Ritual behavior in animals/humans = normal strategy 🟢
+- Hatzigeorgiadis et al. (2011) — Self-talk meta-analysis (verbal ritual prevalence) 🟢
+- Hardy (2006) — Self-talk taxonomy (motivational/instructional) 🟢
+- Rachman & de Silva (1978) — Intrusive thoughts in 80-90% normal population 🟢
+- Menzies et al. (2008) — OFC hyperactivity + structural abnormalities in OCD 🟢
+- Rotge et al. (2008) — dlPFC hypoactive in OCD (meta-analysis neuroimaging) 🟢
+- Pauls (2010) — OCD heritability ~40-65%, SLC1A1, SERT 🟢
+- Abramowitz et al. (2009) — OCD themes + uncertainty intolerance 🟢
+- Foa et al. (2005) — ERP as gold standard treatment 🟢
+- Muris et al. (1997) — Subclinical OCD ~20-30% population 🟢
+- Schwabe & Wolf (2009) — Habit formation under stress (loop automation) 🟢
+- Arnsten (2009) — Chronic stress → PFC dendritic atrophy 🟢
+- Gothelf et al. (2004) — Life stress precedes OCD onset (62%) 🟢
+- Adams et al. (2018) — Childhood adversity → OCD risk 🟢
+- Sousa-Lima et al. (2019) — HPA axis dysregulation in OCD 🟢
+- Williams et al. (2011) — Pure-O underdiagnosed 7-10 years 🟢
+- Meichenbaum (1985) — Stress inoculation + coping development 🟡
+
 ### Framework synthesis (confidence)
-- 11 patterns: mechanism đúng × environment sai 🔴
+- 12 patterns: mechanism đúng × environment sai 🔴
 - 3 love addiction types 🔴
 - Self-harm triple mechanism 🟡
 - Outrage triple PE 🟡
@@ -921,10 +1327,15 @@ CAN THIỆP:
 - Doom Scrolling = threat scan + micro-novelty 🟡
 - Revenge = fairness enforcement + unresolved prediction 🟡
 - Hoarding = scarcity prediction + loss aversion 🟡
+- Sequential defense model (stimming → ritual → OCD = 1 dải) 🔴
+- OCD = endpoint dysfunction × uncertainty mismatch × cortisol mismatch 🟡
+- OCD trajectory (functional → escalation → breakdown) 🔴
+- Ritual prevalence near-universal (verbal confirmed, somatic underreported) 🔴
+- Double failure model (dlPFC↓ + OFC↑) 🟡
 
 ---
 
-## 15. Kết Nối
+## 16. Kết Nối
 
 | Tham khảo | File | Mối liên hệ |
 |-----------|------|-------------|
@@ -941,10 +1352,14 @@ CAN THIỆP:
 | Emergence Phase | Core.md §11 | Can thiệp bước 1 (cortisol → PFC) |
 | Oxytocin + in-group | Core-Deep-Dive/Neurochemistry.md §1.3 | P3, P6, P7 |
 | Quan hệ tương thích | Applications/Relationships.md | P3, P4 (romantic context) |
+| Sequential defense | Core-Deep-Dive/Neurochemistry.md §6.11 | P12 (mô hình thống nhất stimming→ritual→OCD) |
+| Double failure model | Menzies (2008), Rotge (2008) | P12 (OFC↑ + dlPFC↓ = hardware bug) |
+| Habit automation | Schwabe & Wolf (2009), Arnsten (2009) | P12 (trajectory: cortisol → dlPFC atrophy → loop) |
+| Prevalence | Boyer & Liénard (2006), Eilam (2012) | P12 (tính năng bình thường, không phải bệnh) |
 
 ---
 
 > *Mismatch Patterns — Research v5.5*
 > *"Không phải bug — là feature chạy sai environment."*
 > *Mô hình, không chẩn đoán. Cơ chế, không judgment.*
-> *11 patterns — 7 chiều phân tích — vulnerability per Mô Hình Vuông.*
+> *12 patterns — 7 chiều phân tích — vulnerability per Mô Hình Vuông.*

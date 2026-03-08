@@ -22,7 +22,7 @@
 3. [Opioid — Hệ Thống "Thích"](#3-opioid)
 4. [Oxytocin — Hệ Thống "Kết Nối"](#4-oxytocin)
 5. [Serotonin — Lọc Vị Thế](#5-serotonin)
-6. [Cortisol/GABA — Trục An Toàn](#6-cortisol) *(bao gồm §6.11 Repetitive Self-Regulation)*
+6. [Cortisol/GABA — Trục An Toàn](#6-cortisol) *(bao gồm §6.11 Sequential Defense)*
 7. [Norepinephrine — Volume](#7-ne)
 8. [Vasopressin — Bảo Vệ Gắn Bó](#8-vasopressin)
 9. [Prolactin — Phanh + Giả Thuyết Healthy/Pathological](#9-prolactin)
@@ -835,231 +835,48 @@ HÀNH VI CƯỠNG CHẾ (không phải chất):
     → KHÔNG CẦN chất hóa học ngoại sinh. Cortisol mãn tính ĐỦ để tạo compulsive behavior.
 ```
 
-### 6.11 Repetitive Self-Regulation — Phổ Hành Vi Lặp Dưới Cortisol
+### 6.11 Repetitive Behavior — Sequential Defense Under Cortisol
+
+> Não có hệ phòng thủ SEQUENTIAL chống lại cortisol/uncertainty.
+> Cortisol tăng → não tuyển dụng mạch ĐƠN GIẢN trước, PHỨC TẠP sau.
+> Đây là TÍNH NĂNG bình thường. Chỉ trở thành bệnh lý khi hardware lỗi + cortisol mãn tính.
+> **Phân tích toàn phổ (stimming → ritual → OCD):** Research/Mismatch-Patterns.md §P12.
 
 ```
-CƠ CHẾ GỐC:
-🟢 Cortisol cao → PFC↓ → verbal self-regulation yếu (Core.md §6.4)
-🟡 Não tìm kênh thay thế → REPETITIVE ACTION = kênh còn hoạt động
-   → Rhythmic proprioceptive input → cerebellum + basal ganglia → calming
-   → Tạo ENDPOINT nhân tạo → cortisol↓ nhẹ → WM transition
-🟢 Bằng chứng: fidgeting tăng đáng kể dưới stress tasks
-   (Mohiyeddini et al., 2013; Mehrabian, 1969)
-🟢 Fidgeting GIÚP cognitive performance ở ADHD (Sarver et al., 2015)
-   → Repetitive action = arousal regulation, KHÔNG PHẢI "xấu"
-```
+MÔ HÌNH THỐNG NHẤT — SEQUENTIAL CIRCUIT RECRUITMENT:
 
-**Phổ 5 cấp — cùng cơ chế gốc, khác mức tinh vi:**
+  ┌────────────────────────────────────────────────────────────────────┐
+  │ Cortisol       │ Circuit recruited │ Behavior   │ Outcome         │
+  │────────────────│──────────────────│────────────│─────────────────│
+  │ Thấp           │ Không cần         │ Không có   │ Bình thường     │
+  │ Moderate       │ Tuyến 1 (additive)│ Stimming   │ Arousal ↓ → ok  │
+  │ Cao (ngắn)     │ Tuyến 1 đủ        │ Stimming+  │ Arousal ↓ → ok  │
+  │ Cao (dài)      │ Tuyến 1 KHÔNG đủ  │ → Tuyến 2  │ Ritual → done   │
+  │ Mãn tính       │ Tuyến 2 quá tải   │ → Lỗi      │ OCD (nếu hw lỗi)│
+  └────────────────────────────────────────────────────────────────────┘
 
-```
-CẤP 0 — MICRO-MOTOR DISCHARGE
-────────────────────────────────
-  Gì:       Rung chân, nghiến hàm, siết tay, thay đổi tư thế
-  Ý thức:   Hầu như KHÔNG
-  Effort:   Cực thấp
-  Thông tin: Không encode gì — chỉ motor overflow
-  Trigger:  Arousal BẤT KỲ (cortisol CAO hoặc arousal THẤP)
-  Tần suất: ~100% dân số
+TUYẾN 1 — STIMMING (arousal homeostasis):
+  Mạch: cerebellum, proprioceptive, additive channels (NE/Cortisol)
+  3 sub-functions đồng thời: calming (↓) + activating (↑) + micro-reward
+  + Motor surplus discharge (xả motor → PFC focus tốt hơn)
+  ~100% dân số. Habituate thành habit nếu lặp đủ lâu.
+  🟢 Mohiyeddini 2013, Sarver 2015, Zentall & Zentall 1983
 
-  🟢 Không phải ritual — đây là discharge thần kinh vận động
-  → Ai cũng làm. Không cần ý thức. Không có intent.
+TUYẾN 2 — RITUAL (WM management):
+  Mạch: OFC → basal ganglia → dlPFC → endpoint "done" signal
+  Verbal (cấp 2): "ổn rồi" × 3 → done | near-universal
+  Somatic (cấp 3): đặt cốc x lần → somatic resonance → done | underreported
+  🔴 Cực kỳ phổ biến — xã hội normalize verbal, giấu somatic.
+  🟢 Boyer & Liénard 2006, Hatzigeorgiadis 2011, Eilam 2012
 
-CẤP 1 — REPETITIVE OBJECT MANIPULATION
-────────────────────────────────────────
-  Gì:       Bấm bút, xoay nhẫn, xoắn tóc, cắn móng, gõ bàn có nhịp
-  Ý thức:   BÁN Ý THỨC (dừng được nếu nhắc, rồi lại làm)
-  Effort:   Thấp (1 đối tượng, 1 động tác đơn giản)
-  Thông tin: Thấp (chỉ "nhịp → calming", không encode intent)
-  Trigger:  Cortisol trung bình-cao HOẶC boredom
-  Tần suất: ~60-80% dân số
+BRIDGE: cortisol DURATION quyết định tuyến nào được tuyển dụng.
+  Ngắn hạn → tuyến 1 đủ → recovery. Kéo dài → tuyến 2 được tuyển.
+  Biến cá nhân: PE Sensitivity, cortisol baseline, PFC capacity, processing channel.
 
-  🟢 Cơ chế: rhythmic proprioceptive input → cerebellum → calming loop
-  → Xã hội chấp nhận: "thói quen", "nervous habit"
-  → Fidget spinner, stress ball = sản phẩm hóa cơ chế này
-
-CẤP 2 — VERBAL/MENTAL REPETITION
-──────────────────────────────────
-  Gì:       Đếm 1-2-3 trong đầu, lẩm nhẩm "bình tĩnh",
-            hít thở đếm 4-7-8, hát thầm, self-talk lặp lại
-  Ý thức:   Ý THỨC (chủ động làm)
-  Effort:   Trung bình (cần verbal WM)
-  Thông tin: Trung bình (có intent: "bình tĩnh" hoặc "quên đi")
-  Trigger:  Cortisol trung bình-cao (ít khi dùng cho boredom)
-  Tần suất: ~40-60%? — phổ biến nhưng INVISIBLE (trong đầu)
-
-  🟡 Cơ chế: verbal loop → WM occupied → intrusive thought displaced
-     + rhythmic verbal pattern → calming
-  → Xã hội KHUYẾN KHÍCH: "đếm tới 10", "hít thở sâu"
-  → "Breathing exercise" = formalized version
-
-CẤP 3 — SOMATIC REPETITION VỚI INTENT + COUNTING
-──────────────────────────────────────────────────
-  Gì:       Lặp hành vi vật lý x lần — x khác nhau tùy intent
-            (ví dụ: đặt cốc x lần, mở/đóng cửa x lần, chạm đồ vật x lần)
-  Ý thức:   CAO (biết lạ, metacognition mạnh, giấu người khác)
-  Effort:   Cao (hành vi tốn công, lặp nhiều lần)
-  Thông tin: CAO — encode INTENT vào somatic pattern:
-    → "Giữ" suy nghĩ: somatic pattern "hoàn chỉnh" (resolution)
-    → "Bỏ" suy nghĩ: somatic pattern "phá" (disruption)
-    → Số lần = SOMATIC RESONANCE ("cảm nhận đúng thì dừng"),
-      KHÔNG PHẢI counting rule cố định
-  Trigger:  Cortisol CAO (CHỈ khi căng thẳng, biến mất khi bớt)
-  Tần suất: 🔴 Hiếm — hoặc phổ biến nhưng mọi người GIẤU hoàn toàn
-
-  🟡 Cơ chế: Somatic Chunk Anchoring/Purging
-    → PFC↓ dưới cortisol → verbal channel yếu → somatic TAKEOVER
-    → Hành vi lặp = tạo PE pattern qua proprioceptive channel
-    → Khi tổng PE đạt ngưỡng somatic → "yên tâm" → WM anchor/purge
-  🟡 Tại sao ENCODE INTENT (khác cấp 1):
-    → PE Sensitivity somatic CỰC CAO → cấp 1 = tín hiệu quá yếu
-    → Novelty/pattern-seeking hardware → não tự phát triển hệ encode
-    → = WM management TINH VI qua somatic channel
-
-CẤP 4 — OCD COMPULSION (lâm sàng)
-───────────────────────────────────
-  Gì:       Rửa tay 50 lần, kiểm tra khóa 20 lần, sắp xếp đối xứng
-  Ý thức:   Ý thức nhưng KHÔNG KIỂM SOÁT ĐƯỢC
-  Effort:   Cực cao (chiếm hàng giờ/ngày, CẢN TRỞ cuộc sống)
-  Thông tin: BỊ LỆCH ("nếu không làm → disaster" — false prediction)
-  Trigger:  Intrusive thought (BẤT KỲ LÚC NÀO, không cần cortisol)
-  Tần suất: 🟢 ~2-3% dân số (DSM-5)
-
-  🟢 CƠ CHẾ KHÁC HOÀN TOÀN: basal ganglia loop pathology
-    → Anxiety → ritual → temporary relief → anxiety return → repeat
-    → KHÔNG phải regulation — đây là pathological loop
-    🟢 Menzies et al. (2008): neuroimaging xác nhận OFC-caudate hyperactivity
-```
-
-**Phân biệt cơ chế cấp 0-3 vs cấp 4:**
-
-```
-CẤP 0-3 (Regulation Spectrum):
-  ✓ Arousal/cortisol-GATED (tăng khi stress, giảm khi bớt)
-  ✓ FUNCTIONAL (giúp regulation, không cản trở)
-  ✓ Cùng cơ chế gốc: repetitive action → proprioceptive feedback → calming
-  ✓ Khác nhau ở: kênh (motor/somatic/verbal), effort, mức encode thông tin
-  ✓ PE Sensitivity quyết định CẤP nào đủ (§6.11b dưới)
-
-CẤP 4 (OCD — Pathological):
-  ✗ KHÔNG cortisol-gated (xuất hiện bất kỳ lúc nào)
-  ✗ KHÔNG functional (CẢN TRỞ cuộc sống)
-  ✗ CƠ CHẾ KHÁC: OFC-caudate loop, không phải proprioceptive calming
-  ✗ Fear-driven ("nếu không làm → xấu"), không phải regulation-driven
-
-⚠️ BỀ MẶT giống nhau (lặp hành vi) → dễ NHẦM cấp 3 = OCD nhẹ.
-   THỰC TẾ: cấp 3 = regulation TINH VI, cấp 4 = pathology.
-   Phân biệt: cortisol-gated? Functional? Metacognition intact? Số cố định hay cảm nhận?
-```
-
-**§6.11b Tại sao khác người khác cấp — 3 biến quyết định:**
-
-```
-🟡
-
-① PE SENSITIVITY (quyết định cấp TỐI THIỂU cần thiết):
-  PE Sensitivity thấp:
-    → Cortisol tăng → lo nhẹ → "kệ đi" WORKS → không cần ritual
-    → Hoặc cấp 0-1 đã đủ (gõ bàn = calming đủ mạnh)
-  PE Sensitivity trung bình:
-    → Cấp 1 hoặc 2 đủ
-  PE Sensitivity CAO:
-    → Cấp 1 = tín hiệu YẾU → không đủ endpoint
-    → "Kệ đi" KHÔNG WORKS (somatic signal quá mạnh để ignore)
-    → Não PHẢI nâng lên cấp 2 (verbal) hoặc 3 (somatic encode)
-    → Kênh nào mạnh hơn → cấp đó
-
-② CORTISOL LEVEL (quyết định kênh nào CÒN hoạt động):
-  Cortisol vừa: PFC còn → verbal (cấp 2) works → dùng verbal
-  Cortisol cao: PFC↓ → verbal yếu → somatic (cấp 1 hoặc 3) takeover
-  Cortisol cực cao: PFC↓↓ → freeze (không cấp nào works)
-
-③ PROCESSING CHANNEL (somatic-primary vs verbal-primary):
-  Verbal-primary: ưu tiên cấp 2 (lẩm nhẩm, đếm trong đầu) → INVISIBLE
-  Somatic-primary: ưu tiên cấp 1 hoặc 3 (hành động vật lý) → VISIBLE
-  Mixed: dùng cả hai tùy context
-
-→ CÙNG cortisol level + CÙNG PE Sensitivity → kênh KHÁC → cấp KHÁC
-→ Giải thích tại sao verbal people "bình thường" còn somatic people "dở hơi"
-→ Thực tế: CÙNG CƠ CHẾ, chỉ khác kênh output → khác visibility
-```
-
-**§6.11c Habituation Pathway — từ regulation → habit → extinction:**
-
-```
-🟡
-
-GIAI ĐOẠN 1 — KHÁM PHÁ (cortisol-gated, functional):
-  Cortisol cao → não thử repetitive action → cortisol↓
-  → Dopamine reward: "cái này works!" → reinforcement
-  → Chỉ xuất hiện khi stress
-
-GIAI ĐOẠN 2 — HỌC (trigger threshold hạ dần):
-  Dopamine learning: "repetitive action = feel better" (Schultz, 1997)
-  → Bắt đầu làm ở cortisol THẤP HƠN (threshold trigger giảm)
-  → Bấm bút khi hơi bồn chồn, không cần stress thật sự
-  → Vẫn CÓ chức năng, nhưng trigger RỘNG hơn
-
-GIAI ĐOẠN 3 — HABIT (cortisol-independent):
-  🟢 Schwabe & Wolf (2009): lặp đủ nhiều → basal ganglia automate
-  Cue → action → relief loop ĐÃ AUTOMATED
-  → Làm KHÔNG CẦN cortisol trigger nữa
-  → "Thói quen" — functional value CÒN RẤT ÍT
-  → Dừng = "thiếu thiếu" (habit loop expect reward signal)
-  → Đây là trạng thái PHẦN LỚN fidgeting cấp 1 ở người trưởng thành:
-    Bấm bút, xoay nhẫn thường xuyên = ĐÃ habituate thành habit
-
-GIAI ĐOẠN 4 — AWARENESS EXTINCTION (metacognition → giảm):
-  PFC nhận diện: "mình đang bấm bút vô lý" → override
-  → Dần extinction (không reinforce → habit suy yếu)
-  → NHƯNG: dưới stress CAO → PFC↓ → habit QUAY LẠI
-  → Giải thích: "tưởng bỏ rồi mà stress lại làm lại"
-
-TẠI SAO MỘT SỐ HÀNH VI KHÔNG HABITUATE (giữ cortisol-gated):
-  3 yếu tố NGĂN habit loop hình thành:
-  ① Effort cao: hành vi tốn công → basal ganglia khó automate
-  ② Social cost: chỉ làm khi không ai thấy → suppression liên tục
-  ③ Metacognition mạnh: PFC giám sát → không cho automate
-
-  → Effort CAO + social cost + metacognition = giữ cortisol-gated
-  → = GIỮ FUNCTIONAL (không degrade thành habit vô nghĩa)
-  → 🔴 Nghịch lý: hành vi càng "dở hơi" → càng KHÔNG habituate
-    → càng GIỮ ĐƯỢC chức năng regulation ban đầu
-    → Bấm bút "bình thường" → habituate → mất chức năng
-    → Mở cửa 5 lần "dở hơi" → không habituate → VẪN functional
-```
-
-**§6.11d Kết nối framework:**
-
-```
-LIÊN KẾT VỚI CÁC KHÁI NIỆM V5.5:
-
-1. Cortisol inverted-U (§6.1-6.3):
-   → Vùng ascending: PFC còn → verbal regulation works → cấp 2
-   → Vùng descending: PFC↓ → somatic takeover → cấp 1/3
-   → Vùng cực: freeze → không cấp nào works
-
-2. PE Sensitivity (Core.md §5.3):
-   → PE Sensitivity = biến SỐ 1 quyết định cần cấp nào
-   → Cao = cấp cao hơn | Thấp = cấp thấp hoặc không cần
-
-3. Somatic vs Verbal processing:
-   → Không chỉ khác ở PE detection (Core.md §5.3)
-   → Còn khác ở REGULATION channel
-   → Somatic-primary: regulate bằng hành động (visible)
-   → Verbal-primary: regulate bằng self-talk (invisible)
-   → = Tại sao cùng cơ chế mà xã hội nhìn nhận KHÁC NHAU
-
-4. Habituation (Core.md §6.7 Habituation Blindness):
-   → Cơ chế habituation CHUNG áp dụng cho cả self-regulation:
-   → Ban đầu functional → lặp → habituate → mất chức năng
-   → Song song Habituation Blindness: PE=0 ≠ Value=0
-   → Regulation habituated ≠ regulation không cần thiết
-
-5. Hành vi cưỡng chế (§6.10 trên):
-   → Cấp 0-3 = regulation (goal-directed)
-   → Cấp 3 habituate → NGUY CƠ trượt về cấp 4 (habitual, ko nhạy outcome)
-   → NHƯNG: cấp 4 = thêm YẾU TỐ pathology (OFC-caudate), không chỉ habituation
-   → Habituation ALONE không đủ tạo OCD — cần predisposition hardware
+KHI TUYẾN 2 HỎNG → OCD:
+  Hardware: OFC/dlPFC ratio lỗi (double failure) + cortisol mãn tính + uncertainty trừu tượng
+  → Endpoint không đạt → loop automated → OCD.
+  → Chi tiết đầy đủ: Research/Mismatch-Patterns.md §P12.
 ```
 
 ---
@@ -1405,7 +1222,7 @@ BƯỚC 6: Nhận diện chunk config thật PER DOMAIN → thiết kế environ
 | Predictive-chunk config (depth × source × sync) | Core.md §6.0 |
 | 4 pattern chi tiết + variants | Core-Deep-Dive/Chunk-Patterns.md |
 | Soldier gravity + xã hội | Core-Deep-Dive/Society-Dynamics.md |
-| Giáo dục qua framework lens | Research/Education.md |
+| Giáo dục qua framework lens | Applications/Education.md |
 | Tôn giáo qua framework lens | Research/Religion.md |
 | Ví dụ đối chiếu | Validation/Examples.md |
 | Nhân vật lịch sử | Validation/Characters-Historical.md |
