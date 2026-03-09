@@ -1,6 +1,6 @@
 # Lịch Sử Phiên Bản — Version History
 
-> **Vai trò:** Theo dõi quá trình phát triển framework từ v1 → v5.5.
+> **Vai trò:** Theo dõi quá trình phát triển framework từ v1 → v6.0.
 > Ghi nhận các insight quan trọng được thêm vào mỗi phiên bản,
 > câu hỏi đã resolved, và hướng phát triển.
 
@@ -254,6 +254,52 @@ FILE RENAME (v5.5):
   - Validation/ files: terminology consistency
 ```
 
+### v6.0 — Novelty Reframe + PE Sensitivity ④ Generalization Scope ★
+
+```
+Thời gian: 3/2026
+Files: ~25 files (thêm PE-Sensitivity.md, Depression-Predictive-Model.md,
+       Social-Pressure-Tradeoff.md, Education/, Curriculum/)
+       Validation/Characters-*.md → gộp thành Characters.md
+
+NỘI DUNG MỚI — PE SENSITIVITY DEEP DIVE:
+  1. PE Sensitivity ④ — Generalization Scope (v6.0 core):
+     Sub-parameter thứ 4: phạm vi PE lan tỏa (hẹp ↔ rộng).
+     ④ hẹp → deep expression (chuyên gia). ④ rộng → broad expression (đa lĩnh vực).
+     Structural vs Creative = NHÃN downstream, KHÔNG PHẢI sub-type.
+     → Giải quyết: "cùng Novelty cao + Threshold cao mà biểu hiện khác nhau"
+
+  2. Novelty Reframe:
+     Novelty ≠ "ý tưởng mới". Novelty = PE từ chunk MỚI (bất kỳ chunk chưa predicted).
+     Bao gồm cả explore (domain mới) lẫn deepen (kết nối mới trong domain cũ).
+
+  3. Encoding Modality — Mixing Board Model:
+     4 kênh encoding: somatic, motor, spatial, verbal.
+     Chạy SONG SONG (mixing board), không phải sub-type.
+     Kênh cao nhất = dominant, nhưng kênh thấp vẫn chạy.
+     → Giải quyết: "encoding modality: 1 chiều hay multi-dimensional?"
+
+FILES MỚI:
+  - Core-Deep-Dive/PE-Sensitivity.md: ★ PE Sensitivity deep-dive (4 sub + encoding modality)
+  - Research/Depression-Predictive-Model.md: Trầm cảm = learned prediction suppression
+    (4 cơ chế can thiệp A/B/C/D, 19 phương pháp mapping, 5 case studies, 13 predictions)
+  - Research/Social-Pressure-Tradeoff.md: Trade-off áp lực xã hội (system-level)
+  - Applications/Education.md: Giáo dục qua framework lens (moved from Research/)
+  - Applications/Education/: Curriculum chi tiết + 00_Overview.md
+
+FILE CHANGES:
+  - Validation/Characters-Historical.md + Characters-Modern.md + Characters-Questions.md
+    → gộp thành Characters.md
+  - Core.md: header v6.0, §5.3 PE Sensitivity thêm ④, §14 resolved questions cập nhật
+
+CORE.MD CHANGES (v6.0):
+  - Header: v5.5 → v6.0 (Novelty Reframe + PE Sensitivity ④ Generalization Scope)
+  - §5.3: PE Sensitivity thêm sub ④ generalization scope
+  - §13: File map cập nhật (PE-Sensitivity.md, Depression, Social-Pressure, Education/)
+  - §14.1: Thêm câu hỏi mở #13, #14 (generalization scope verification)
+  - §14.2: 3 câu hỏi resolved mới (novelty, ④, encoding modality)
+```
+
 ---
 
 ## Câu Hỏi Đã Resolved
@@ -275,6 +321,9 @@ FILE RENAME (v5.5):
 | 13 | 4 nhãn = 4 ô / 4 góc? | v5.5 | KHÔNG — 4 nhãn = 4 CẠNH trên Mô Hình Vuông (phổ liên tục bên trong) |
 | 14 | Compliance là trục cơ bản? | v5.5 | KHÔNG — Chỉ số PHÁI SINH = chunk_overlap(person, group). Hàm 2 biến |
 | 15 | "Soldier-Deep" (external + deep) có vị trí hợp lệ? | v5.5 | CÓ — vị trí phải-trên trên Mô Hình Vuông. Grid cũ không biểu diễn được |
+| 16 | Novelty = ý tưởng mới? | v5.5→v6.0 | KHÔNG — Novelty = PE từ chunk MỚI (bất kỳ). Bao gồm explore + deepen |
+| 17 | Cùng Novelty + Threshold cao mà biểu hiện khác? | v6.0 | PE Sensitivity ④ generalization scope: hẹp → deep, rộng → broad. Structural vs Creative = nhãn downstream |
+| 18 | Encoding modality: 1 chiều hay multi-dimensional? | v6.0 | Multi-dimensional. 4 kênh (somatic, motor, spatial, verbal) chạy SONG SONG (mixing board) |
 
 ---
 
@@ -288,6 +337,8 @@ FILE RENAME (v5.5):
 | 4 | Therapy × mode: RCT evidence? | Open |
 | 5 | Compliance mode phân bố per quốc gia/văn hóa? | Open |
 | 6 | Framework apply cho AI consciousness? | Open |
+| 7 | ④ Generalization scope: encoding modality → ④ confirm? Mixing board cần verify thực nghiệm | Open |
+| 8 | ④ generalization: tách biệt với ③ habituation rate chắc chắn? Cần counterexample | Open |
 
 ---
 
@@ -380,7 +431,60 @@ Human Predictive Drive/
 
 ---
 
-> *Version History — v5.5*
-> *Lịch sử v1 → v5.5: từ khái niệm → hệ thống 19 files.*
-> *v5.5: Square Model (Source × Depth), Compliance demoted, External Chunk Pressure.*
-> *15 câu hỏi resolved. 6 câu hỏi mở.*
+## Cấu Trúc Files v6.0
+
+```
+THAY ĐỔI TỪ v5.5 → v6.0:
+  Core-Deep-Dive/ + PE-Sensitivity.md (MỚI — PE Sensitivity deep-dive)
+  Research/ + Depression-Predictive-Model.md (MỚI — trầm cảm qua framework)
+  Research/ + Social-Pressure-Tradeoff.md (MỚI — áp lực xã hội system-level)
+  Research/Education.md → Applications/Education.md (tính chất application > research)
+  Applications/Education/ (MỚI — curriculum chi tiết)
+  Validation/ gộp 3 Characters files → Characters.md
+
+Human Predictive Drive/
+│
+├── Core.md                         ★ FILE CHÍNH (v6.0)
+│
+├── Core-Deep-Dive/                 ← Đào sâu từng tầng Core.md
+│   ├── Neurochemistry.md           ← Tầng 0 (hardware)
+│   ├── PE-Sensitivity.md           ← ★ PE Sensitivity deep-dive: 4 sub + encoding modality (v6.0)
+│   ├── Chunk-Patterns.md           ← Tầng 1A+2 (software)
+│   ├── Society-Dynamics.md         ← External Pressure × xã hội
+│   └── Compliance.md               ← Cross-layer: compliance v5.5 (4 pathways, diagnostic, dynamics)
+│
+├── Research/                       ← Nghiên cứu chuyên sâu per topic
+│   ├── Religion.md                 ← 7 functions + so sánh + tương lai
+│   ├── Psychometrics-Mapping.md    ← 18 tests → chunk config mapping
+│   ├── Mismatch-Patterns.md        ← 6 patterns mismatch phổ biến
+│   ├── Depression-Predictive-Model.md ← ★ Trầm cảm = learned prediction suppression (v0.3)
+│   ├── Social-Pressure-Tradeoff.md ← ★ Trade-off áp lực xã hội
+│   └── Macro-Civilization.md       ← 7 khủng hoảng + PEM
+│
+├── Applications/                   ← Ứng dụng thực tế (protocol cụ thể)
+│   ├── Relationships.md
+│   ├── HR-Management.md
+│   ├── HR-Assessment-Gamedev.md
+│   ├── Reward-Economics.md
+│   ├── Education.md                ← Giáo dục qua framework lens
+│   └── Education/                  ← Curriculum chi tiết
+│       ├── 00_Overview.md
+│       └── Curriculum/             ← Thiết kế chương trình
+│
+├── Validation/                     ← Kiểm chứng framework
+│   ├── Examples.md
+│   ├── Classic-Questions.md
+│   ├── Characters.md               ← Gộp từ Historical + Modern + Questions
+│   ├── Deep-Dive-Trump.md
+│   └── Deep-Dive-Musk.md
+│
+└── Meta/
+    └── Version-History.md
+```
+
+---
+
+> *Version History — v6.0*
+> *Lịch sử v1 → v6.0: từ khái niệm → hệ thống ~25 files.*
+> *v6.0: Novelty Reframe, PE Sensitivity ④ Generalization Scope, Encoding Modality mixing board.*
+> *18 câu hỏi resolved. 8 câu hỏi mở.*

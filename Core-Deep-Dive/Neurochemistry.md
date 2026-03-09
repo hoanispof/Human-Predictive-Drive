@@ -913,11 +913,12 @@ NE không tạo "muốn/thích/kết nối" — nó tăng VOLUME:
 → PE Sensitivity trong Core.md §5.3 có CƠ SỞ SINH HỌC từ NE + DRD4.
 ```
 
-### 7.2b PE Sensitivity — 3 Sub-Mechanisms (v5.5)
+### 7.2b PE Sensitivity — Neurochemistry Basis (v6.0)
 
 🟡 Core.md §5.3 gộp PE Sensitivity thành 1 tham số cho ứng dụng.
-→ Core.md §5.4: Sensitivity quyết định SYNC (thấp → ở lại domain lâu → chunks sync; cao → nhảy domain → chunks không sync).
-→ 3 sub-mechanisms dưới đây = CƠ SỞ SINH HỌC cho tham số PE Sensitivity đó. Gộp khi ứng dụng, tách khi phân tích sâu.
+→ **Chi tiết đầy đủ 4 sub-mechanisms + encoding modality: PE-Sensitivity.md**
+→ Section này giữ phần NEUROCHEMISTRY thuần (①②③). Sub ④ (generalization scope) và encoding modality xem PE-Sensitivity.md §5-7.
+→ 3 sub-mechanisms dưới đây = CƠ SỞ SINH HỌC cho tham số PE Sensitivity. Gộp khi ứng dụng, tách khi phân tích sâu.
 
 ```
 SUB 1 — AMPLITUDE (hóa học, hardware):

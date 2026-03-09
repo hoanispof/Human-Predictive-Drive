@@ -1159,6 +1159,228 @@ BLOCK 5 — TRAJECTORY: FUNCTIONAL → PATHOLOGICAL
 ```
 
 ```
+BLOCK 5b — OPEN LOOP MODEL: ĐIỂM PHÂN NHÁNH OCD vs BURNOUT
+═══════════════════════════════════════════════════════════
+
+🟡 Suy luận framework. Consistent với Zeigarnik (1927), Maslach (1981),
+   Menzies (2008), Gothelf (2004). Chưa có research trực tiếp so sánh
+   open loop count giữa OCD vs burnout population.
+
+ĐỊNH NGHĨA — OPEN LOOP:
+  Open loop = prediction đang mở mà não CHƯA đánh dấu "done."
+  Bao gồm:
+    - Task đang làm dở (project, bài tập, công việc)
+    - Tình huống chưa giải quyết (mâu thuẫn, chờ phản hồi)
+    - Knowledge gap não đang cố fill ("tại sao X?")
+    - Prediction tương lai chưa verify (tiền, sức khỏe, kế hoạch)
+    - Quyết định chưa chọn (mua gì, đi đâu, làm gì tiếp)
+
+  Mỗi open loop = prediction ACTIVE trong WM hoặc background processing
+  → TIÊU TỐN resource → tạo cortisol feedback nhẹ (uncertainty = threat)
+  🟢 Zeigarnik (1927): task chưa xong ở lại memory lâu hơn task đã xong.
+
+4 CÁCH ĐÓNG OPEN LOOP:
+  ① Giải quyết thật: làm xong task → prediction resolved → đóng
+  ② Tích hợp chunk: hiểu rõ → chunk integrate → gap biến mất → đóng
+  ③ PFC buông bỏ: quyết định có ý thức "không quan trọng" → đóng
+     (cần dlPFC intact để override)
+  ④ Ritual: tạo fake "done" signal → não ĐÁNH DẤU đóng → tạm đóng
+     → Nhưng trigger quay lại → prediction mở lại → cần ritual lại
+     → = Giải thích tại sao OCD LOOP: đóng → mở → đóng → mở
+
+  ⚠️ Cách ①②③ = đóng THẬT. Cách ④ = đóng TẠM.
+     Khi PFC sụp (cortisol mãn tính): cách ③ MẤT (dlPFC↓).
+     → Chỉ còn ①② (nếu có thể) hoặc ④ (ritual).
+
+ĐIỂM PHÂN NHÁNH — CÙNG PFC SỤP, KHÁC KẾT QUẢ:
+
+  PFC sụp = cách ③ mất. Câu hỏi: BÂY GIỜ CHUYỆN GÌ XẢY RA?
+
+  TRƯỜNG HỢP A — NHIỀU open loop:
+    Nhiều prediction đang mở → resource drain lớn → cortisol feedback
+    → Cách ③ mất → não BẮT BUỘC tìm cách khác để đóng bớt
+    → Ritual phát triển (cách ④) → đóng tạm từng loop
+    → Cortisol GIẢM TỪNG PHẦN → KHÔNG sụp hẳn
+    → Nhưng: ritual = đóng tạm → mở lại → loop mãi
+    → = OCD TRAJECTORY (khó chịu, mệt, nhưng không shutdown)
+
+  TRƯỜNG HỢP B — ÍT open loop (tập trung):
+    Ít prediction mở, hầu hết nằm trong 1 domain
+    → Não KHÔNG CẦN ritual (ít thứ cần đóng) → không phát triển
+    → Khi domain đó quá tải → tất cả prediction sụp CÙNG LÚC
+    → KHÔNG CÓ cơ chế giảm tải (ritual không có, PFC đã mất)
+    → = BURNOUT (shutdown hoàn toàn, não tắt để repair)
+
+  ┌──────────────────────────────────────────────────────────────┐
+  │              Cortisol mãn tính → PFC sụp                    │
+  │                        │                                     │
+  │            ┌───────────┴───────────┐                         │
+  │      Nhiều open loop         Ít open loop                    │
+  │            │                       │                         │
+  │     Cần đóng bớt            Không cần đóng                   │
+  │            │                       │                         │
+  │     Ritual phát triển       Ritual không phát triển           │
+  │            │                       │                         │
+  │     Cortisol giảm tạm       Cortisol không giảm              │
+  │            │                       │                         │
+  │     Loop (không sụp)         Sụp thẳng                       │
+  │            │                       │                         │
+  │        OCD PATH              BURNOUT PATH                    │
+  └──────────────────────────────────────────────────────────────┘
+
+TẠI SAO SỐ OPEN LOOP KHÁC NHAU GIỮA MỌI NGƯỜI:
+
+  Số open loop = f(tốc độ TẠO mới × khó ĐÓNG)
+  Không phải "nhiều domain = nhiều open loop" — 1 domain vẫn có thể
+  có 50 sub-task dở. Biến thật = SỐ PREDICTION ĐANG MỞ.
+
+  Tham số hardware ảnh hưởng:
+    PE Sensitivity cao → não TẠO nhiều prediction hơn → nhiều open loop
+    Threshold cao → mỗi prediction khó thỏa mãn → khó đóng (cách ①②)
+    Generalization rộng (somatic) → đóng prediction cũ nhanh
+      nhưng MỞ prediction mới ở nơi khác → tổng open loop dao động cao
+    Generalization hẹp (specialist) → ít prediction mới
+      nhưng mỗi prediction SÂU → khi sụp = sụp hết cùng lúc
+
+  → Sensitivity cao + threshold cao + generalization rộng = NHIỀU open loop
+    → OCD risk > burnout risk
+  → Sensitivity TB + threshold TB + generalization hẹp = ÍT open loop
+    → Burnout risk > OCD risk
+
+3 YẾU TỐ PHỐI HỢP QUYẾT ĐỊNH KẾT QUẢ:
+
+  ① OPEN LOOP COUNT — quyết định PATH (OCD hay burnout)
+     Nhiều → ritual phát triển → OCD trajectory
+     Ít → ritual không phát triển → burnout trajectory
+
+  ② HARDWARE OFC/dlPFC — quyết định SEVERITY
+     OFC↑ + dlPFC↓ (gen) → ritual không đạt endpoint → OCD clinical
+     OFC bình thường → ritual đạt endpoint → functional ritual (subclinical)
+     → Hardware = yếu tố SEVERITY, không phải yếu tố PHÂN NHÁNH
+
+  ③ ENCODING MODALITY — quyết định LOẠI ritual
+     Somatic/motor dominant → ritual HÀNH VI (đặt cốc, rửa tay) → overt OCD
+     Verbal dominant → ritual LỜI ("ổn rồi" × N trong đầu) → Pure-O
+     → Encoding = yếu tố TYPE, không phải yếu tố PATH hay SEVERITY
+
+  MATRIX:
+  ┌────────────────┬────────────────────┬────────────────────┐
+  │                │ OFC bình thường    │ OFC↑ (hardware)    │
+  │────────────────│────────────────────│────────────────────│
+  │ Nhiều open loop│ Functional ritual  │ OCD clinical       │
+  │ (OCD path)     │ (subclinical,      │ (loop không dừng,  │
+  │                │  đóng được, ok)    │  cần ERP)          │
+  │────────────────│────────────────────│────────────────────│
+  │ Ít open loop   │ BURNOUT            │ OCD trong 1 domain │
+  │ (burnout path) │ (shutdown, recovery│ (hiếm, cần data)   │
+  │                │  rõ ràng)          │                    │
+  └────────────────┴────────────────────┴────────────────────┘
+
+RITUAL = CƠ CHẾ NÃO TỰ PHÁT TRIỂN:
+  ⚠️ Ritual KHÔNG PHẢI "bệnh tự nhiên xuất hiện."
+  Ritual = kỹ thuật não TỰ HỌC để xử lý network cụ thể của người đó.
+  Ai có network nhiều open loop → não tự học ritual → "van xả áp."
+  Ai có network ít open loop → não không cần → không học.
+  → Khi PFC sụp: người có "van xả" → chịu được lâu hơn → không sụp hẳn.
+                  người không có "van xả" → sụp thẳng → burnout.
+
+  → Burnout = cơ chế BẢO VỆ (shutdown để repair). Đau nhưng CÓ RECOVERY.
+  → OCD = mắc kẹt giữa "sụp" và "ok" — KHÔNG recovery rõ ràng.
+  → Về mặt nào đó, burnout "sạch" hơn OCD: sụp → nghỉ → hồi.
+
+  ⚠️ NHƯNG: BURNOUT CÓ THỂ TÁI PHÁT (framework prediction + literature confirm)
+  Recovery = PFC hồi chức năng. Nhưng HARDWARE không đổi:
+    PE sensitivity = trait → không thay đổi sau burnout
+    Threshold = trait → không thay đổi
+    Generalization pattern = trait → không thay đổi
+  → Cùng hardware + cùng điều kiện môi trường = TẠO LẠI cùng số open loop
+  → Cortisol tích lũy lại → PFC sụp lại → burnout cycle
+
+  Burnout thật sự "hồi" chỉ khi THAY ĐỔI ÍT NHẤT 1:
+    ① Môi trường: giảm workload, đổi context, giảm nguồn cortisol
+    ② Cách quản lý: học cortisol management (Core.md §11.3),
+       học đóng open loop chủ động (cách ① ② ③ ở trên)
+    ③ Tự hiểu hardware: biết mình sensitivity cao → thiết kế lại
+       cấu trúc công việc phù hợp (preventive, không phải reactive)
+  Nếu không thay đổi gì → recurrence rate CAO.
+  🟢 Confirmed: Brill & Bayer (2006): burnout recurrence phổ biến
+     khi quay lại cùng điều kiện. Maslach & Leiter (2016): burnout
+     = chronic workplace mismatch, không tự hết nếu mismatch còn.
+
+🔴 RESEARCH GAP:
+  - Chưa có study so sánh open loop count (fMRI connectivity)
+    giữa OCD vs burnout population
+  - Chưa có longitudinal: ritual use TRƯỚC burnout onset
+    (người burnout có dùng ritual trước đó không?)
+  - Chưa có study: somatic-dominant có burnout rate thấp hơn không?
+  - Chưa có study: burnout recurrence có correlate với PE sensitivity
+    trait level không? (framework predict: sensitivity cao = recurrence cao)
+```
+
+```
+BLOCK 5c — DEPRESSION: ĐƯỜNG THỨ 3 (TÓM TẮT)
+═══════════════════════════════════════════════
+⚠️ SCOPE: Framework chỉ mô hình hóa PREDICTION-BASED PATHWAY vào trầm cảm.
+   Không claim giải thích toàn bộ depression (có yếu tố genetic, hormonal,
+   neuroinflammation nằm ngoài scope). Xem chi tiết: Depression-Predictive-Model.md
+
+CƠ CHẾ: LEARNED PREDICTION SUPPRESSION
+  OCD     = não predict MẠNH nhưng SAI CHỖ (ritual)
+  Burnout = não KHÔNG THỂ predict (PFC shutdown — hardware)
+  Trầm cảm = não CÓ THỂ nhưng KHÔNG predict (learned suppression — functional)
+
+  Đường đi:
+  Open loop + mismatch lặp nhiều lần
+  → não học: "predict cũng không thay đổi kết quả"
+  → GIẢM prediction activity (không phải tắt hẳn — giảm dần)
+  → ít predict = ít motivation = ít action = phẳng cảm xúc
+
+ĐIỀU KIỆN VÀO ĐƯỜNG TRẦM CẢM (thay vì OCD/burnout):
+  ① Open loop TRỪU TƯỢNG — không có "handle" để ritual hóa
+    VD: "mình có giá trị không?", "tương lai sẽ ra sao?", kỳ vọng xã hội
+  ② Không đóng được bằng 4 cách (Block 5b):
+    Giải (không giải được) | Chunk (quá trừu tượng)
+    Release (quá quan trọng — identity/survival) | Ritual (không có handle)
+  ③ Cortisol mãn tính nhưng DƯỚI NGƯỠNG sụp PFC
+    → Không sụp hẳn (burnout) — cũng không đủ intense để tạo ritual (OCD)
+    → Drain chậm, kéo dài
+
+PHÂN NHÁNH TỪ CÙNG GỐC:
+
+  Cortisol mãn tính từ open loop không resolve
+                    │
+     ┌──────────────┼──────────────┐
+     │              │              │
+  Loop CỤ THỂ   Loop ÍT +     Loop TRỪU TƯỢNG +
+  + não active   cortisol CAO   cortisol TB-thấp
+     │              │              │
+   RITUAL        SHUTDOWN      SUPPRESSION
+     │              │              │
+    OCD          BURNOUT      TRẦM CẢM
+  (mắc kẹt)    (sụp → hồi)  (phẳng dần)
+
+KHÁC BIỆT CHÍNH:
+  Burnout: bỏ stress → HỒI (PFC repair)
+  Trầm cảm: bỏ stress → KHÔNG HỒI (suppression đã LEARNED, encode trong não)
+  → Cần RE-TEACH prediction: therapy (CBT), medication (SSRIs), hoặc cả hai
+
+COMORBIDITY:
+  OCD → Trầm cảm: CÓ ĐƯỜNG TỰ NHIÊN
+    Ritual thất bại lặp lại → não học predict vô ích → suppression chồng lên
+    🟢 Literature: ~67% OCD patients có depressive episodes
+  Trầm cảm → OCD: RẤT HIẾM
+    Prediction đã suppressed → không đủ activity để TẠO ritual
+    Cần bật lại predict trước (thuốc/therapy) + gặp loop cụ thể có handle
+
+PHỔ XÃ HỘI HIỆN ĐẠI:
+  Xã hội hiện đại tạo open loop trừu tượng LIÊN TỤC:
+    So sánh xã hội (mạng xã hội), kỳ vọng thành công, identity pressure,
+    thông tin quá tải (news cycle), bất định kinh tế/tương lai
+  → Framework predict: hầu như ai cũng ở đâu đó trên phổ nhẹ
+  → Phân tích chi tiết: xem Depression-Predictive-Model.md
+```
+
+```
 BLOCK 6 — PHỔ + VULNERABILITY + SELF-ASSESSMENT
 ════════════════════════════════════════════════
 
@@ -1200,12 +1422,53 @@ BIẾN SỐ quyết định vị trí:
   ② Cortisol duration: acute ok, mãn tính → breakdown
   ③ Thời gian loop: đủ lâu → automated → khó untrain
   ④ Channel: somatic (visible, chẩn đoán sớm) vs verbal (invisible, rủi ro bỏ qua cao)
+  ⑤ Open loop count: số prediction chưa resolved đang giữ trong WM (xem Block 5b)
+     → Nhiều open loop = dễ phát triển ritual (giai đoạn 2)
+     → Ít open loop = dễ burnout hơn OCD
 
-VULNERABILITY (Mô Hình Vuông):
-  🟡 OCD cross-cut — cortisol mãn tính tăng vulnerability cho MỌI NGƯỜI.
-  Soldier-Deep: checking blend vào workflow → khó nhận → muộn chẩn đoán.
-  Architect: Pure-O dễ develop → khó phân biệt với "suy nghĩ sâu."
-  Improviser: ít vulnerable hơn (nhảy domain → loop không kịp automate).
+VULNERABILITY — PHÂN BIỆT 2 ĐƯỜNG:
+
+  🟡 NGUYÊN TẮC CHUNG:
+  Cortisol mãn tính tăng vulnerability cho MỌI NGƯỜI.
+  Nhưng KẾT QUẢ khác nhau tùy open loop count (Block 5b):
+    Nhiều open loop → ritual phát triển → ĐƯỜNG OCD
+    Ít open loop → không có gì để ritual hóa → ĐƯỜNG BURNOUT
+
+  VULNERABILITY THEO PROFILE:
+
+  Improviser (nhảy domain, nhiều project song song):
+    Open loop count: CAO (nhiều task chưa xong, nhiều domain mở)
+    Giai đoạn 2 (ritual): DỄ — não tự phát triển ritual để đóng loop giả
+    Giai đoạn 3 (OCD clinical): KHÓ — nhảy domain → loop không kịp automate
+      tại 1 vị trí đủ lâu để trở thành compulsion cố định
+    Burnout: HIẾM — luôn có domain mới để chuyển sang, tự reset cortisol
+    → 🟡 Dễ MẮC ritual nhưng khó TIẾN sang OCD clinical
+    → Detection: ritual phân tán nhiều domain → khó nhận ra pattern tổng thể
+
+  Soldier chuyên sâu (1-2 domain, đào sâu):
+    Open loop count: THẤP (ít task, nhưng mỗi task nặng)
+    Giai đoạn 2 (ritual): KHÓ — ít loop → ít material để ritual hóa
+    Giai đoạn 3 (OCD clinical): NẾU CÓ ritual → DỄ automate
+      (lặp cùng context → nhanh chóng cố định)
+    Burnout: DỄ — cortisol tích lũy + không có domain khác để chuyển
+    → 🟡 Checking blend vào workflow → khó nhận → muộn chẩn đoán
+    → Detection: burnout dễ nhầm với "chán việc" hoặc "lười"
+
+  Architect đang build (hệ thống đang mở rộng):
+    Open loop count: CAO (nhiều module chưa hoàn thiện, nhiều kết nối pending)
+    Giai đoạn 2 (ritual): DỄ — nhiều loop mở = nhiều material
+    Giai đoạn 3 (OCD clinical): DỄ — loop verbal/spatial lặp trong đầu
+      = Pure-O dễ develop, khó phân biệt với "suy nghĩ sâu"
+    Burnout: TRUNG BÌNH — có thể chuyển focus giữa các module
+    → 🔴 Profile RỦI RO CAO NHẤT cho OCD trajectory
+    → Detection: Pure-O invisible + blend với tư duy hệ thống
+
+  Architect mature (hệ thống đã ổn định):
+    Open loop count: THẤP (đã integrate phần lớn)
+    Giai đoạn 2 (ritual): THẤP
+    Giai đoạn 3 (OCD clinical): THẤP
+    Burnout: CÓ THỂ — nếu cortisol từ nguồn khác (xã hội, sức khỏe)
+    → Ổn định nhất trong các profile, nhưng không miễn nhiễm
 
 SELF-ASSESSMENT (3 câu hỏi):
   ① Ritual có endpoint (dừng được, yên tâm)?         → BÌNH THƯỜNG (giai đoạn 1)
