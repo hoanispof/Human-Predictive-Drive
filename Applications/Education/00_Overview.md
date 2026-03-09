@@ -668,6 +668,63 @@ CẠM BẪY:
      → CÙNG bài thi nhưng KHÁC cortisol baseline → KHÁC performance
      → Trẻ cortisol cao → PFC bị suppress → DƯỚI khả năng thật
      → "Thi công bằng" trên đầu vào ≠ công bằng trên ĐẦU RA
+
+  ⑤ CORTISOL × NOVELTY — HAI ĐỘNG LỰC, HAI VAI TRÒ:
+     (Ref: Core.md §6.4 — Gradient 5 mức + Vai trò bổ sung)
+
+     Cortisol = ĐÁNH THỨC PFC:
+       "Có việc cần làm" → PFC activate → sẵn sàng xử lý
+       Không có cortisol → PFC tiết kiệm năng lượng → không engage
+       → Kỷ luật cơ bản (deadline, quy tắc, kỳ vọng) = cortisol mức ②
+
+     Novelty = HƯỚNG DẪN PFC:
+       "Cái này hay, khám phá tiếp" → PFC có direction → depth tăng
+       Không có novelty → PFC thức nhưng chỉ "tránh rủi ro" → dừng sớm
+       → Exploration, curiosity, tự chọn, hands-on = novelty source
+
+     HÀM Ý CHO DEPTH CEILING:
+       Cortisol-only learning:
+         → Ceiling ≈ Stage 1-2 ("đủ để an toàn / đủ điểm / đủ qua")
+         → Khi áp lực HẾT → DỪNG (vì mục đích đã đạt)
+         → VD: học sinh giỏi vì bị ép → vào ĐH → bỏ học / đổi ngành
+       Novelty-driven learning:
+         → Ceiling MỞ (depth tạo thêm novelty → self-sustaining)
+         → Khi đạt Stage 2 → "chắc còn sâu hơn?" → tự tạo target
+         → VD: học sinh thích Toán → tự đào sâu dù không ai ép
+       Cortisol moderate + Novelty:
+         → TỐI ƯU: PFC vừa thức (urgency) vừa có hướng (curiosity)
+         → = Trạng thái gần flow nhất
+         → VD: deadline vừa sức + bài toán hay = productive peak
+
+     GRADIENT 5 MỨC ÁP DỤNG GIÁO DỤC:
+       ① Quá thấp: "không ai quan tâm, không deadline, tự do hoàn toàn"
+          → PFC ngủ → Drifter risk → CẦN thêm structure nhẹ
+       ② Sweet spot: "kỳ vọng rõ, deadline hợp lý, được sai an toàn"
+          → PFC optimal → kết hợp novelty = chunk building tốt nhất
+          → MỤC TIÊU THIẾT KẾ: đưa MỌI học sinh về mức này
+       ③ Hơi cao: "áp lực thi, so sánh nhẹ, bố mẹ kỳ vọng"
+          → PFC vẫn hoạt động nhưng chunks gắn negative affect
+          → = Tiger parenting zone: "học giỏi nhưng ghét học"
+          → Chunks hình thành NHƯNG bị ghét → bỏ khi hết ép
+          → Novelty bị CHẶN vì "ghét = không muốn explore thêm"
+       ④ Cao: "bị chửi, bị phạt, bị so sánh nặng, bị đe dọa"
+          → PFC suy yếu → amygdala chiếm → chunks = phòng thủ
+          → Học được RẤT ÍT kiến thức, học NHIỀU nỗi sợ
+          → VD: trẻ bị chửi khi sai → chunk "sai = nguy hiểm"
+            → KHÔNG DÁM thử → death of exploration
+       ⑤ Quá cao: "bạo lực, trauma, bỏ rơi hoàn toàn"
+          → PFC sụp → learned helplessness → không can thiệp giáo dục
+            được cho đến khi hạ cortisol (cần therapeutic intervention trước)
+
+     THIẾT KẾ HỆ THỐNG — 2 BƯỚC:
+       Bước 1: Đảm bảo cortisol ≤ mức ② cho MỌI học sinh
+         → Hạ cortisol TRƯỚC khi dạy (nếu trẻ ở ③④⑤)
+         → An toàn tâm lý, không phạt khi sai, không so sánh
+         → = Prerequisite, không phải bonus
+       Bước 2: Maximize novelty TRÊN NỀN cortisol ②
+         → Exploration, choice, curiosity-driven activities
+         → Teacher role: tạo novelty opportunities, không ép content
+         → = Engine cho depth > Stage 2
 ```
 
 ### 2.6 Nguyên Lý 6: 3 Trục Đồng Bộ — Học Sinh × Giáo Viên × Phụ Huynh

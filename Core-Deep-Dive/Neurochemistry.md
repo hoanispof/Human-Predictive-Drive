@@ -570,10 +570,10 @@ KẾT QUẢ:
   + NE đồng thời từ LC → attention narrowing (Easterbrook, 1959)
   → = TRẠNG THÁI "DEADLINE PRODUCTIVE" — tập trung, năng động, hiệu quả.
 
-→ QUAN TRỌNG cho framework: cortisol-driven và dopamine-driven KHÔNG ĐỐI LẬP hoàn toàn.
-  Cortisol moderate = TĂNG dopamine. Chúng CỘNG TÁC ở mức vừa.
-  Chỉ khi cortisol CAO thì chúng mới đối lập (cortisol ức chế DA).
-  → Core.md §6.4 "cortisol-driven vs dopamine-driven" cần hiểu là PHỔ, không binary.
+→ QUAN TRỌNG cho framework: cortisol và dopamine là 2 HỆ ĐỘC LẬP, có cross-talk.
+  KHÔNG PHẢI inverse (cái này tăng ≠ cái kia giảm). CẢ HAI có thể cùng cao hoặc cùng thấp.
+  Cortisol moderate = TĂNG dopamine (cộng tác). Cortisol cao = ức chế DA (đối lập).
+  → Core.md §6.4: "cortisol-driven" / "dopamine-driven" = ai đang dominant, không phải 2 đầu 1 phổ.
 ```
 
 ### 6.5 Cortisol Mãn Tính: Tại Sao Stress Dài Giết Động Lực

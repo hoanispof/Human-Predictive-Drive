@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HPD Framework v6.0</title>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<style>
+:root {
+  --bg: #0d1117; --bg2: #161b22; --bg3: #21262d; --bg4: #30363d;
+  --text: #e6edf3; --text2: #8b949e; --text3: #6e7681;
+  --blue: #58a6ff; --green: #3fb950; --yellow: #d29922; --red: #f85149;
+  --purple: #bc8cff; --orange: #f0883e; --pink: #f778ba; --cyan: #39d2c0;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:var(--bg); color:var(--text); font-family:'Segoe UI',system-ui,sans-serif; line-height:1.6; }
+h1 { font-size:1.8rem; font-weight:700; }
+h2 { font-size:1.1rem; font-weight:600; color:var(--blue); margin-bottom:.5rem; text-transform:uppercase; letter-spacing:.5px; }
+h3 { font-size:.95rem; font-weight:600; color:var(--text); margin-bottom:.3rem; }
+
+.app { max-width:1000px; margin:0 auto; padding:1.5rem 1rem 4rem; }
+.header { text-align:center; padding:2rem 0 1rem; border-bottom:1px solid var(--bg4); margin-bottom:2rem; }
+.header p { color:var(--text2); font-size:.85rem; margin-top:.3rem; }
+.badge { display:inline-block; font-size:.65rem; padding:2px 7px; border-radius:10px; font-weight:600; margin-left:6px; vertical-align:middle; }
+.bg { background:var(--green); color:#000; } .by { background:var(--yellow); color:#000; } .br { background:var(--red); color:#fff; }
+
+/* Section */
+.section { background:var(--bg2); border:1px solid var(--bg4); border-radius:12px; padding:1.2rem 1.4rem; margin-bottom:1rem; }
+.section:hover { border-color:var(--bg4); }
+
+/* Cards */
+.cards { display:grid; gap:.6rem; margin-top:.6rem; }
+.cards-2 { grid-template-columns:1fr 1fr; }
+.cards-3 { grid-template-columns:1fr 1fr 1fr; }
+.cards-4 { grid-template-columns:1fr 1fr; }
+.cards-5 { grid-template-columns:1fr 1fr 1fr; }
+@media(max-width:700px) { .cards-2,.cards-3,.cards-4,.cards-5 { grid-template-columns:1fr; } }
+.card { background:var(--bg3); border-radius:8px; padding:.7rem .9rem; border-left:3px solid var(--bg4); }
+.card-title { font-size:.8rem; font-weight:700; margin-bottom:.2rem; }
+.card-desc { font-size:.75rem; color:var(--text2); line-height:1.4; }
+
+/* Square */
+.square-wrap { display:flex; justify-content:center; margin:.8rem 0; }
+.square { position:relative; width:280px; height:280px; border:2px solid var(--bg4); border-radius:4px; background:var(--bg); }
+.sq-label { position:absolute; font-size:.75rem; font-weight:700; text-align:center; }
+.sq-top { top:-22px; left:50%; transform:translateX(-50%); color:var(--purple); }
+.sq-bot { bottom:-22px; left:50%; transform:translateX(-50%); color:var(--text3); }
+.sq-left { left:-80px; top:50%; transform:translateY(-50%); color:var(--orange); }
+.sq-right { right:-80px; top:50%; transform:translateY(-50%); color:var(--cyan); }
+.sq-axis-x { position:absolute; bottom:8px; width:100%; text-align:center; font-size:.6rem; color:var(--text3); }
+.sq-axis-y { position:absolute; left:8px; top:50%; transform:translateY(-50%) rotate(-90deg); font-size:.6rem; color:var(--text3); white-space:nowrap; }
+.sq-gradient { position:absolute; inset:0; border-radius:2px;
+  background: linear-gradient(to top, rgba(88,166,255,0.03), rgba(188,140,255,0.12)),
+              linear-gradient(to right, rgba(240,136,62,0.08), rgba(57,210,192,0.08)); }
+
+/* Tower */
+.tower { display:flex; flex-direction:column; gap:2px; margin:.6rem 0; }
+.tower-layer { padding:.6rem .9rem; border-radius:6px; border-left:4px solid; }
+.tower-label { font-size:.7rem; font-weight:700; opacity:.7; }
+.tower-content { font-size:.78rem; color:var(--text2); margin-top:.15rem; }
+
+/* Formula */
+.formula { background:var(--bg); border:1px solid var(--bg4); border-radius:8px; padding:.8rem 1rem; margin:.6rem 0; font-family:'Cascadia Code','Fira Code',monospace; font-size:.78rem; line-height:1.6; color:var(--cyan); }
+
+/* Table */
+table { width:100%; border-collapse:collapse; font-size:.78rem; margin-top:.5rem; }
+th { text-align:left; color:var(--text2); font-weight:600; padding:.4rem .5rem; border-bottom:1px solid var(--bg4); }
+td { padding:.4rem .5rem; border-bottom:1px solid var(--bg3); color:var(--text2); }
+tr:hover td { background:var(--bg3); }
+
+/* Inverted-U SVG */
+.curve-wrap { display:flex; justify-content:center; margin:.5rem 0; }
+svg text { font-family:'Segoe UI',sans-serif; }
+
+/* Tag */
+.tag { display:inline-block; font-size:.6rem; padding:1px 6px; border-radius:4px; background:var(--bg4); color:var(--text2); margin-right:4px; margin-bottom:2px; }
+
+/* Numbered list */
+.steps { counter-reset:step; margin:.5rem 0; }
+.step { display:flex; gap:.6rem; margin-bottom:.4rem; font-size:.78rem; color:var(--text2); }
+.step::before { counter-increment:step; content:counter(step); background:var(--bg4); color:var(--text); width:20px; height:20px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:.65rem; font-weight:700; flex-shrink:0; margin-top:2px; }
+
+.note { font-size:.72rem; color:var(--text3); font-style:italic; margin-top:.4rem; }
+.highlight { color:var(--yellow); font-weight:600; }
+.divider { border:none; border-top:1px solid var(--bg3); margin:.3rem 0; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+
+const { useState } = React;
+
+/* ── Reusable ── */
+const Badge = ({level}) => {
+  const cls = level === 'g' ? 'bg' : level === 'y' ? 'by' : 'br';
+  const txt = level === 'g' ? '🟢 Nghiên cứu' : level === 'y' ? '🟡 Suy luận' : '🔴 Giả thuyết';
+  return <span className={`badge ${cls}`}>{txt}</span>;
+};
+
+const Card = ({title, desc, color, children}) => (
+  <div className="card" style={{borderLeftColor: color || 'var(--bg4)'}}>
+    <div className="card-title" style={{color: color || 'var(--text)'}}>{title}</div>
+    {desc && <div className="card-desc">{desc}</div>}
+    {children}
+  </div>
+);
+
+/* ── Section 1: Overview ── */
+const Overview = () => (
+  <div className="section">
+    <h2>§1 Tổng Quan</h2>
+    <p style={{fontSize:'.85rem',color:'var(--text2)'}}>
+      <strong style={{color:'var(--text)'}}>Não = máy dự đoán.</strong> Mọi hành vi = kết quả của hệ thống prediction.
+      Framework mô tả <strong style={{color:'var(--text)'}}>CƠ CHẾ</strong> tạo động lực — không phân loại tính cách.
+    </p>
+    <div className="cards cards-3" style={{marginTop:'.6rem'}}>
+      <Card title="Công thức, không đáp án" desc="Giống F=ma: ai có biến số → tự tính" color="var(--blue)" />
+      <Card title="Per domain" desc="Cùng 1 người, khác domain = khác config" color="var(--purple)" />
+      <Card title="Phổ liên tục" desc="4 nhãn trên 4 cạnh, không phải 4 loại người" color="var(--orange)" />
+    </div>
+  </div>
+);
+
+/* ── Section 2: Architecture ── */
+const Architecture = () => (
+  <div className="section">
+    <h2>§2 Kiến Trúc 4 Tầng</h2>
+    <div className="tower">
+      <div className="tower-layer" style={{background:'rgba(88,166,255,0.08)',borderColor:'var(--blue)'}}>
+        <div className="tower-label" style={{color:'var(--blue)'}}>TẦNG 2 — HÀNH VI QUAN SÁT</div>
+        <div className="tower-content">Mô Hình Vuông: Source × Depth → Soldier · Architect · Improviser · Drifter</div>
+      </div>
+      <div className="tower-layer" style={{background:'rgba(188,140,255,0.08)',borderColor:'var(--purple)'}}>
+        <div className="tower-label" style={{color:'var(--purple)'}}>TẦNG 1B — DRIVE EQUATION</div>
+        <div className="tower-content">DRIVE = Reward − Cost · Cortisol × Dopamine: 2 hệ độc lập, cân bằng riêng</div>
+      </div>
+      <div className="tower-layer" style={{background:'rgba(188,140,255,0.08)',borderColor:'var(--purple)'}}>
+        <div className="tower-label" style={{color:'var(--purple)'}}>TẦNG 1A — PREDICTIVE-CHUNKS</div>
+        <div className="tower-content">Schema · Chunk config (source × depth) per domain · Deepen ↔ Explore</div>
+      </div>
+      <div className="tower-layer" style={{background:'rgba(63,185,80,0.08)',borderColor:'var(--green)'}}>
+        <div className="tower-label" style={{color:'var(--green)'}}>TẦNG 0 — PHẦN CỨNG SINH HÓA</div>
+        <div className="tower-content">3 Kênh gốc · 5 Phụ gia · 3 Tham số · Baseline Drive</div>
+      </div>
+      <div className="tower-layer" style={{background:'rgba(139,148,158,0.06)',borderColor:'var(--text3)'}}>
+        <div className="tower-label" style={{color:'var(--text3)'}}>TẦNG -1 — BỐI CẢNH</div>
+        <div className="tower-content">Văn hóa · Gia đình · Kinh tế · Thời đại → nguyên liệu xây chunks</div>
+      </div>
+    </div>
+    <div className="formula">
+      Hành vi = Chunk config (source × depth) per domain<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;× DRIVE (reward − cost)<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;× Bối cảnh
+    </div>
+  </div>
+);
+
+/* ── Section 3: Root Channels ── */
+const RootChannels = () => (
+  <div className="section">
+    <h2>§3 Phần Cứng: 3 Kênh Gốc <Badge level="g"/></h2>
+    <p className="card-desc">Nguồn PE (Prediction Error) mạnh nhất. Gen quyết định. Mỗi người = MIX.</p>
+    <div className="cards cards-3">
+      <Card title="💡 Novelty (Dopamine)" color="var(--purple)"
+        desc="PE từ CHUNK MỚI — bất kỳ prediction chưa có. Cả explore lẫn deepen. PE ∝ chunk size." />
+      <Card title="😌 Opioid" color="var(--orange)"
+        desc="PE từ CẢM NHẬN — thẩm mỹ, giác quan. 'Đẹp quá!' Runner's high." />
+      <Card title="🤝 Oxytocin" color="var(--pink)"
+        desc="PE từ GẮN BÓ — kết nối, thuộc về. Có mặt tối: in-group bias." />
+    </div>
+  </div>
+);
+
+/* ── Section 4: Additives ── */
+const Additives = () => (
+  <div className="section">
+    <h2>§4 Phần Cứng: 5 Phụ Gia</h2>
+    <p className="card-desc">Không tạo PE — ĐIỀU CHỈNH cách kênh gốc vận hành.</p>
+    <table>
+      <thead><tr><th>Phụ gia</th><th>Chức năng</th><th>Cao</th><th>Thấp</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Serotonin</strong></td><td>Lọc thứ bậc</td><td>Không cần so</td><td>So sánh liên tục</td></tr>
+        <tr><td><strong>Cortisol/GABA</strong></td><td>An toàn ↔ Hành động</td><td>Lo âu / Bình tĩnh</td><td>Thiếu drive / Không phanh</td></tr>
+        <tr><td><strong>NE</strong></td><td>Volume cường độ</td><td>Mãnh liệt (Van Gogh)</td><td>Nhẹ nhàng (Darwin)</td></tr>
+        <tr><td><strong>Vasopressin</strong></td><td>Bảo vệ gắn bó</td><td>Ghen, chiếm hữu</td><td>Dễ buông</td></tr>
+        <tr><td><strong>Prolactin</strong></td><td>Phanh "đủ rồi"</td><td>Biết dừng</td><td>Không dừng được</td></tr>
+      </tbody>
+    </table>
+    <p className="note">Cortisol Inverted-U: moderate = drive (deadline productive) · cao mãn tính = paralysis (PFC bị chặn)</p>
+  </div>
+);
+
+/* ── Section 5: Parameters ── */
+const Parameters = () => (
+  <div className="section">
+    <h2>§5 Phần Cứng: 3 Tham Số + Baseline Drive</h2>
+    <div className="cards cards-2">
+      <Card title="📦 Capacity" color="var(--blue)"
+        desc="Trần chunk size (PFC + WM). Capacity = hardware ceiling. Activation Level = % đang dùng. Trade-off: cao = chunk tốt nhưng mất detail." />
+      <Card title="📏 Threshold ★" color="var(--yellow)">
+        <div className="card-desc">
+          <strong style={{color:'var(--yellow)'}}>Tham số QUAN TRỌNG NHẤT.</strong> Mức PE tối thiểu để thỏa mãn.
+          Cao → buộc xây chunk lớn / internal. Thấp → chunk nhỏ external đủ.
+          <br/>MXH tăng threshold (chậm). Thiền giảm threshold (chậm).
+        </div>
+      </Card>
+      <Card title="📡 PE Sensitivity" color="var(--purple)">
+        <div className="card-desc">
+          Biên độ phản ứng với PE + tốc độ habituation + phạm vi habituation.
+          <br/>Cao = phản ứng mạnh + quen nhanh → buộc explore. Thấp = quen chậm → deepen tự nhiên.
+        </div>
+      </Card>
+      <Card title="🔋 Baseline Drive" color="var(--text3)"
+        desc="Luôn > 0. Adaptive: PE deficit → giảm (apathy). PE surplus → tăng (bồn chồn). 'Chán' = PE < baseline." />
+    </div>
+    <div className="formula" style={{marginTop:'.6rem'}}>
+      Bộ Ba Dự Đoán: Threshold × PE Sensitivity × Kênh gốc = predict HẦU HẾT hành vi
+    </div>
+
+    <h3 style={{marginTop:'.8rem'}}>PE Sensitivity — 4 Sub-Mechanisms</h3>
+    <p className="card-desc">Gộp cho ứng dụng, tách cho phân tích sâu. Edge cases: amplitude cao + precision thận trọng = Architect intense.</p>
+    <div className="cards cards-2" style={{marginTop:'.4rem'}}>
+      <Card title="① Amplitude" color="var(--blue)">
+        <div className="card-desc">Volume tín hiệu DA. Cùng chunk mới: người A "WOW!", người B "à, ok." <Badge level="g"/></div>
+      </Card>
+      <Card title="② Precision Weighting" color="var(--blue)">
+        <div className="card-desc">PE đáng tin cỡ nào trước khi thưởng. Cao = verify trước khi accept. <Badge level="g"/></div>
+      </Card>
+      <Card title="③ Habituation Rate" color="var(--blue)">
+        <div className="card-desc">Tốc độ 1 chunk CỤ THỂ mất PE. Nhanh: "biết rồi" ngày mai. Chậm: vẫn PE tuần sau. <Badge level="g"/></div>
+      </Card>
+      <Card title="④ Generalization Scope ★" color="var(--yellow)">
+        <div className="card-desc">
+          Khi habituate chunk A → chunk TƯƠNG TỰ B có bị theo? <Badge level="y"/><br/>
+          Hẹp: chỉ A cũ, B vẫn mới → ở lại domain lâu → <strong>deep expression</strong><br/>
+          Rộng: cả "loại A" cũ luôn → phải sang domain khác → <strong>broad expression</strong><br/>
+          <em style={{color:'var(--text3)'}}>④ giải thích tại sao cùng Novelty + Threshold cao mà biểu hiện khác nhau.</em>
+        </div>
+      </Card>
+    </div>
+
+    <h3 style={{marginTop:'.8rem'}}>④ ← Encoding Modality (Mixing Board) <Badge level="r"/></h3>
+    <p className="card-desc" style={{marginBottom:'.4rem'}}>Giả thuyết: ④ là HỆ QUẢ của cách não mã hóa chunk. 4 kênh chạy SONG SONG, mỗi người có tỉ lệ mix khác. ≠ "learning style."</p>
+    <div className="cards cards-2">
+      <Card title="Somatic — cảm giác tổng thể" color="var(--orange)">
+        <div className="card-desc">
+          Compression CAO → nhiều input → 1 feeling → ④ RỘNG<br/>
+          Encode nhanh, detail thấp, cần kênh phụ để refine<br/>
+          <span className="tag">gut feeling</span><span className="tag">empathy</span><span className="tag">creative leap</span>
+        </div>
+      </Card>
+      <Card title="Visual-Spatial — map + vị trí" color="var(--cyan)">
+        <div className="card-desc">
+          Compression THẤP → mỗi arrangement unique → ④ HẸP<br/>
+          Encode chậm, detail cao, tự iterate refine được<br/>
+          <span className="tag">toán</span><span className="tag">kiến trúc</span><span className="tag">lập trình</span><span className="tag">cờ vua</span>
+        </div>
+      </Card>
+      <Card title="Verbal-Analytical — lời + logic" color="var(--green)">
+        <div className="card-desc">
+          Compression TRUNG BÌNH → ④ tùy context<br/>
+          Self-refine tốt (narrative loop), lossy khi dịch từ modality khác<br/>
+          <span className="tag">viết</span><span className="tag">luật</span><span className="tag">triết</span><span className="tag">debate</span>
+        </div>
+      </Card>
+      <Card title="Motor-Procedural — chuỗi hành động" color="var(--purple)">
+        <div className="card-desc">
+          Compression THẤP per sequence → ④ HẸP per skill<br/>
+          Refine bằng lặp lại, "learning by doing" cho cả domain non-motor<br/>
+          <span className="tag">thể thao</span><span className="tag">nhạc cụ</span><span className="tag">phẫu thuật</span><span className="tag">craft</span>
+        </div>
+      </Card>
+    </div>
+    <p className="note">③ vs ④: ③ = chunk A cháy bao NHANH (temporal). ④ = chunk A cháy → chunk B tương tự có cháy theo không (spatial). Hai cái KHÁC NHAU.</p>
+  </div>
+);
+
+/* ── Section 6: Software ── */
+const Software = () => (
+  <div className="section">
+    <h2>§6 Phần Mềm: Chunks + Schema + Domain</h2>
+
+    <h3>Predictive-Chunk Configuration</h3>
+    <div className="cards cards-2" style={{marginBottom:'.6rem'}}>
+      <Card title="SOURCE" color="var(--cyan)" desc="External (copy) ↔ Internal (tự xây). Threshold thấp → external đủ. Cao → buộc internal." />
+      <Card title="DEPTH (composite)" color="var(--purple)">
+        <div className="card-desc">
+          <span className="tag">① Chunk quality</span>
+          <span className="tag">② Connectivity (sync)</span>
+          <span className="tag">③ Cluster formation</span>
+          <span className="tag">④ Cluster maturity</span>
+          <br/>Sync EMERGE từ depth đủ cao, không phải trục riêng.
+        </div>
+      </Card>
+    </div>
+
+    <h3>Schema = Meta-Chunk</h3>
+    <div className="cards cards-4" style={{marginBottom:'.6rem'}}>
+      <Card title="Bản thân" desc='"tôi giỏi/kém" → prediction confidence' color="var(--text3)" />
+      <Card title="Thế giới" desc='"an toàn/nguy hiểm" → prediction cost' color="var(--text3)" />
+      <Card title="Người khác" desc='"đáng tin/không" → external source' color="var(--text3)" />
+      <Card title="Tương lai" desc='"kiểm soát được/không" → prediction horizon' color="var(--text3)" />
+    </div>
+
+    <h3>Deepen ↔ Explore</h3>
+    <p className="card-desc">Deepen = chunk mới TRONG domain. Explore = chunk mới Ở domain khác. Cả hai = tạo chunk MỚI, khác ở ĐÂU. Tỷ lệ phụ thuộc ④ generalization scope.</p>
+
+    <hr className="divider" style={{margin:'.6rem 0'}} />
+
+    <h3>Cortisol × Dopamine — 2 Hệ Độc Lập</h3>
+    <p className="card-desc" style={{marginBottom:'.4rem'}}>2 hệ thống RIÊNG BIỆT, không phải inverse. Có cross-talk nhưng CẢ HAI luôn có mặt. "Driven" = ai đang DOMINANT.</p>
+    <table style={{marginBottom:'.5rem'}}>
+      <thead><tr><th></th><th>DA thấp</th><th>DA cao</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Cortisol thấp</strong></td><td>Apathy — không drive</td><td>Enjoyment thuần (hobby, curiosity)</td></tr>
+        <tr><td><strong>Cortisol cao (acute)</strong></td><td>Stress thuần (deadline vô nghĩa)</td><td>Flow dưới áp lực (clutch moment)</td></tr>
+        <tr><td><strong>Cortisol cao (mãn tính)</strong></td><td>Paralysis — PFC chặn</td><td>Treadmill — tưởng đam mê, thực ra sợ dừng</td></tr>
+      </tbody>
+    </table>
+    <div className="cards cards-2">
+      <Card title="Cortisol moderate → DA TĂNG" desc="GR kích thích VTA → cộng tác. Deadline vừa sức = 2 hệ cộng tác → năng suất cao nhất." color="var(--green)" />
+      <Card title="Cortisol cao mãn tính → DA GIẢM" desc="PFC bị ức chế, D1/D2 giảm. Cross-talk ức chế, không phải inverse." color="var(--red)" />
+    </div>
+
+    <hr className="divider" style={{margin:'.6rem 0'}} />
+
+    <h3>Bridge vs Trap — 3 Tiêu Chí</h3>
+    <div className="cards cards-3">
+      <Card title="Channel Match?" desc="Thưởng ngắn cùng kênh gốc với target xa?" color="var(--text3)" />
+      <Card title="Reward Dosage?" desc="Liều PE ngắn hạn có chừng mực?" color="var(--text3)" />
+      <Card title="Có WHY?" desc="Có prediction xa đằng sau?" color="var(--text3)" />
+    </div>
+
+    <hr className="divider" style={{margin:'.6rem 0'}} />
+
+    <h3>Habituation Blindness</h3>
+    <p className="card-desc">PE=0 ≠ Value=0. Reward ổn định → predicted → signal TẮT. Loss → PE âm spike → "tiếc."</p>
+  </div>
+);
+
+/* ── Section 7: Drive Equation ── */
+const DriveEquation = () => (
+  <div className="section">
+    <h2>§7 Drive Equation</h2>
+    <div className="formula">
+      DRIVE = Reward − Cost<br/><br/>
+      Reward = PE dự kiến × confidence × channel match + urgency bonus<br/>
+      Cost &nbsp;&nbsp;= effort + threat + social cost + opportunity cost
+    </div>
+    <div className="cards cards-2" style={{marginTop:'.6rem'}}>
+      <Card title='"Biết mà không làm"' color="var(--yellow)"
+        desc='Reward yếu (đã biết kết quả → ít PE) − Cost nguyên → Drive ÂM. Không phải "lười" — là math âm.' />
+      <Card title="Schema Override" color="var(--red)"
+        desc='Schema cực mạnh override toàn bộ cost. Van Gogh vẽ dù đói. Tesla 20h/ngày. = drive equation VỚI schema weight khác.' />
+    </div>
+  </div>
+);
+
+/* ── Section 8: Square Model ── */
+const SquareModel = () => {
+  const [hover, setHover] = useState(null);
+  const details = {
+    architect: { color:'var(--purple)', text:'Depth SÂU, thiên INTERNAL. Chunks dài, tự xây + verify. PE từ coherence. PE Sensitivity THẤP HƠN → ở lại domain lâu → sync emerge.' },
+    soldier: { color:'var(--cyan)', text:'Source EXTERNAL. Chunks copy/follow. Depth TĂNG ĐƯỢC qua training. PE từ hoàn thành, clarity, thuộc về. Professor 30 năm = Soldier-Deep = hợp lệ.' },
+    improviser: { color:'var(--orange)', text:'Source INTERNAL, depth variable. Chunks tự tạo, per domain sâu nhưng cross-domain thấp (đảo). PE Sensitivity CAO → nhảy domain nhanh.' },
+    drifter: { color:'var(--text3)', text:'Depth NÔNG, source chưa ổn định. Chunks ngắn, rải rác. PE từ variety ngắn hạn. Chưa assembly domain sâu.' },
+  };
+  return (
+    <div className="section">
+      <h2>§8 Mô Hình Vuông — Source × Depth</h2>
+      <p className="card-desc" style={{marginBottom:'.5rem'}}>4 nhãn = 4 CẠNH (extreme), bên trong = phổ liên tục per domain. Compliance = chunk_overlap(person, group) — chỉ số phái sinh, không phải cơ chế.</p>
+
+      <div className="square-wrap">
+        <div className="square">
+          <div className="sq-gradient"></div>
+          <div className="sq-label sq-top" style={{cursor:'pointer'}} onMouseEnter={()=>setHover('architect')} onMouseLeave={()=>setHover(null)}>▲ ARCHITECT</div>
+          <div className="sq-label sq-bot" style={{cursor:'pointer'}} onMouseEnter={()=>setHover('drifter')} onMouseLeave={()=>setHover(null)}>▼ DRIFTER</div>
+          <div className="sq-label sq-left" style={{cursor:'pointer'}} onMouseEnter={()=>setHover('improviser')} onMouseLeave={()=>setHover(null)}>◄ IMPROVISER</div>
+          <div className="sq-label sq-right" style={{cursor:'pointer'}} onMouseEnter={()=>setHover('soldier')} onMouseLeave={()=>setHover(null)}>SOLDIER ►</div>
+          <div className="sq-axis-x">Internal ←── SOURCE ──→ External</div>
+          <div className="sq-axis-y">Shallow ── DEPTH ──→ Deep</div>
+        </div>
+      </div>
+
+      {hover && (
+        <div className="card" style={{borderLeftColor:details[hover].color, marginTop:'.5rem'}}>
+          <div className="card-title" style={{color:details[hover].color}}>{hover.toUpperCase()}</div>
+          <div className="card-desc">{details[hover].text}</div>
+        </div>
+      )}
+
+      <h3 style={{marginTop:'.8rem'}}>Profile Variants</h3>
+      <div className="cards cards-2">
+        <Card title="Soldier-Cortisol (giả)" desc="PFC bị chặn → default external. Hạ cortisol → pattern thật nổi lên." color="var(--red)" />
+        <Card title="Soldier-Dopamine (thật)" desc="Chunks external = PE source thật. Thích clarity, hoàn thành." color="var(--green)" />
+        <Card title="Architect-Dormant" desc="CÓ chunks internal nhưng bị suppress bởi cost. Lộ ra trong safe space." color="var(--yellow)" />
+        <Card title="Improviser → Architect" desc="Chunks internal + sync thấp → deepen 1 domain đủ lâu → sync emerge." color="var(--purple)" />
+      </div>
+
+      <h3 style={{marginTop:'.8rem'}}>Chunk Topology — Convergence</h3>
+      <p className="card-desc">
+        Improviser: clusters ĐỘC LẬP (đảo, overlap ≈ 0). Cross-domain Architect: clusters SHARE chunks nền (convergence cao).
+        First principles = chunks abstraction cao → tự nhiên tạo overlap → sync cross-domain.
+      </p>
+    </div>
+  );
+};
+
+/* ── Section 9: External Pressure ── */
+const ExternalPressure = () => (
+  <div className="section">
+    <h2>§9 External Chunk Pressure</h2>
+    <p className="card-desc">Lực kéo có hệ thống về phía EXTERNAL (cạnh phải). Không phải conspiracy — population dynamics thuần túy.</p>
+    <h3 style={{marginTop:'.5rem'}}>4 Lực Kéo</h3>
+    <div className="cards cards-2">
+      <Card title="Demand Dynamics" desc="50-60% cần structure → thị trường phục vụ majority" color="var(--text3)" />
+      <Card title="Selection Pressure" desc="Institution tuyển người follow quy trình" color="var(--text3)" />
+      <Card title="Feedback Loop" desc="Soldier vận hành → structure reinforced → loop" color="var(--text3)" />
+      <Card title="Socialization" desc="12-16 năm giáo dục train external pattern" color="var(--text3)" />
+    </div>
+    <h3 style={{marginTop:'.5rem'}}>Anti-Pressure</h3>
+    <p className="card-desc">
+      <span className="tag">Crisis</span> <span className="tag">Technology</span> <span className="tag">Education</span>
+      — tạm thời cho phép explore tăng. Nhưng gravity luôn reconsolidate trừ khi thiết kế.
+    </p>
+    <h3 style={{marginTop:'.5rem'}}>Collective Optimization <Badge level="y"/></h3>
+    <p className="card-desc">~50-60% Soldier = explore-exploit tradeoff tối ưu ở mức quần thể. Không phải ngẫu nhiên — tiến hóa.</p>
+  </div>
+);
+
+/* ── Section 10: Source Ratio Shift ── */
+const SourceRatio = () => (
+  <div className="section">
+    <h2>§10 Source Ratio Per Thời Đại <Badge level="r"/></h2>
+    <p className="card-desc" style={{marginBottom:'.4rem'}}>Thiên hướng gen ~constant. Biểu hiện shift theo External Pressure mỗi era.</p>
+    <table>
+      <thead><tr><th>Thời đại</th><th>Soldier</th><th>Architect</th><th>Improviser</th><th>Drifter</th></tr></thead>
+      <tbody>
+        <tr><td>Săn bắn hái lượm</td><td>40-50%</td><td>15-20%</td><td>20-25%</td><td>~10%</td></tr>
+        <tr><td>Nông nghiệp</td><td>70-80%</td><td>5-8%</td><td>10-12%</td><td>~5%</td></tr>
+        <tr><td>Công nghiệp</td><td>60-70%</td><td>10-12%</td><td>12-15%</td><td>5-8%</td></tr>
+        <tr><td>Hậu công nghiệp</td><td>50-60%</td><td>12-15%</td><td>18-22%</td><td>8-12%</td></tr>
+        <tr style={{color:'var(--yellow)'}}><td>AI Era (?)</td><td>40-50%</td><td>~15%</td><td>~20%</td><td>15-20%</td></tr>
+      </tbody>
+    </table>
+  </div>
+);
+
+/* ── Section 11: Emergence ── */
+const Emergence = () => (
+  <div className="section">
+    <h2>§11 Emergence Phase</h2>
+    <p className="card-desc">Bỏ prediction ngắn bắt buộc → External Pressure giảm → chunk config thật nổi lên.</p>
+    <div className="cards cards-3" style={{marginTop:'.5rem'}}>
+      <Card title="GĐ 1: Recovery" desc="1-4 tuần. Hạ cortisol. PFC bắt đầu hoạt động." color="var(--red)" />
+      <Card title="GĐ 2: Habituation" desc="4-12 tuần. PE ngắn cạn dần. Bồn chồn, 'chán'." color="var(--yellow)" />
+      <Card title="GĐ 3: Emergence" desc="3+ tháng. Config thật lộ ra: Soldier/Architect/Improviser." color="var(--green)" />
+    </div>
+    <h3 style={{marginTop:'.6rem'}}>6 Bước Can Thiệp</h3>
+    <div className="steps">
+      <div className="step">Tối ưu cortisol → PFC hoạt động (LUÔN BƯỚC 1)</div>
+      <div className="step">Sửa schema (bản thân, authority, thế giới, tương lai)</div>
+      <div className="step">Xây prediction xa + giảm cost + cân bằng deepen/explore</div>
+      <div className="step">Bảo vệ prediction xa (tránh overjustification)</div>
+      <div className="step">Calibrate threshold</div>
+      <div className="step">Nhận diện chunk config thật per domain → thiết kế environment</div>
+    </div>
+  </div>
+);
+
+/* ── Section 12: Calibration ── */
+const Calibration = () => (
+  <div className="section">
+    <h2>§12 Calibration Notes</h2>
+    <div className="cards cards-2">
+      <Card title="Soldier Bias" desc="Prior mặc định: P(Soldier) ≈ 55%. Adjust theo population cụ thể." color="var(--yellow)" />
+      <Card title="Threshold = #1" desc="Nếu chỉ biết 1 tham số → chọn Threshold." color="var(--yellow)" />
+      <Card title="Cortisol Inverted-U" desc="'Lười' = low reactor (cần stimulus) HOẶC cortisol mãn tính (cần hạ). Can thiệp NGƯỢC NHAU." color="var(--orange)" />
+      <Card title="Mô hình ≠ Thực tế" desc="Không predict exact. Không label người. Cho HƯỚNG, không cho VALUE." color="var(--text3)" />
+    </div>
+  </div>
+);
+
+/* ── Section 14: Limitations ── */
+const Limitations = () => (
+  <div className="section">
+    <h2>§14 Giới Hạn</h2>
+    <div className="cards cards-2">
+      <Card title="Framework LÀM ĐƯỢC" color="var(--green)">
+        <div className="card-desc">
+          ✓ Giải thích CƠ CHẾ (tại sao)<br/>
+          ✓ Dự đoán HƯỚNG<br/>
+          ✓ Thiết kế can thiệp per mode<br/>
+          ✓ Giảm judgment ("lười" → drive âm)
+        </div>
+      </Card>
+      <Card title="Framework KHÔNG LÀM ĐƯỢC" color="var(--red)">
+        <div className="card-desc">
+          ✗ Predict chính xác 1 hành vi cụ thể<br/>
+          ✗ Thay thế clinical assessment<br/>
+          ✗ Cho "đáp án" hạnh phúc<br/>
+          ✗ Label người ("anh ấy LÀ Soldier")
+        </div>
+      </Card>
+    </div>
+  </div>
+);
+
+/* ── Inverted-U Diagrams ── */
+const InvertedUSection = () => (
+  <div className="section">
+    <h2>2 Inverted-U Độc Lập</h2>
+    <p className="card-desc" style={{marginBottom:'.6rem'}}>2 hệ thống riêng biệt, mỗi cái có inverted-U riêng. Có cross-talk nhưng KHÔNG inverse. Cả hai luôn có mặt đồng thời.</p>
+    <div className="cards cards-2">
+      <Card title="Cortisol Inverted-U → HƯỚNG hành vi" color="var(--orange)">
+        <div className="card-desc">
+          ① Quá thấp → PFC idle, không drive<br/>
+          ② Sweet spot → focused, sẵn sàng<br/>
+          ③ Hơi cao → vẫn học nhưng gắn negative affect<br/>
+          ④ Cao → amygdala chiếm quyền<br/>
+          ⑤ Quá cao → trauma, dissociation
+        </div>
+      </Card>
+      <Card title="Dopamine Inverted-U → ĐỘ SÂU hành vi" color="var(--purple)">
+        <div className="card-desc">
+          Quá thấp → anhedonia (Drifter)<br/>
+          Tối ưu → tonic/phasic cân bằng (Architect possible)<br/>
+          Hơi cao → phasic thắng → explore luôn thắng (Improviser trap)<br/>
+          Quá cao → D2 down → addiction spiral
+        </div>
+      </Card>
+    </div>
+    <p className="note">Cross-talk: cortisol moderate → DA tăng (cộng tác). Cortisol cao mãn tính → DA giảm (ức chế). Không phải bập bênh — là 2 curve chạy song song.</p>
+  </div>
+);
+
+/* ── App ── */
+const App = () => (
+  <div className="app">
+    <div className="header">
+      <h1>Human Predictive Drive <span style={{color:'var(--text3)',fontSize:'1rem'}}>v6.0</span></h1>
+      <p>Công thức, không đáp án · Mô hình, không dogma</p>
+      <div style={{marginTop:'.4rem'}}>
+        <Badge level="g"/> <Badge level="y"/> <Badge level="r"/>
+      </div>
+    </div>
+
+    <Overview />
+    <Architecture />
+    <RootChannels />
+    <Additives />
+    <Parameters />
+    <InvertedUSection />
+    <Software />
+    <DriveEquation />
+    <SquareModel />
+    <ExternalPressure />
+    <SourceRatio />
+    <Emergence />
+    <Calibration />
+    <Limitations />
+
+    <div style={{textAlign:'center',padding:'2rem 0',color:'var(--text3)',fontSize:'.75rem'}}>
+      HPD Framework v6.0 — Visual Reference
+    </div>
+  </div>
+);
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>
