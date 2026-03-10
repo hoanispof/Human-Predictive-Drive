@@ -23,6 +23,7 @@
 ## Mục Lục
 
 1. [Nguyên Lý: Mismatch, Không Phải Bug](#1-nguyên-lý)
+1b. [3 Con Đường Encoding](#1b-3-con-đường-encoding--amygdala-luôn-ghi-pfc-thêm-context)
 2. [Template Phân Tích](#2-template)
 3. [P1: Stress Addiction](#p1)
 4. [P2: Self-Harm](#p2)
@@ -58,6 +59,222 @@ CAN THIỆP KHÁC NHAU:
 
 MỖI PATTERN = 1+ cơ chế cụ thể đang chạy đúng spec nhưng sai context.
 Chi tiết evolutionary mismatch cốt lõi: Neurochemistry.md §6.6.
+```
+
+---
+
+## 1b. 3 Con Đường Encoding — Amygdala Luôn Ghi, PFC Thêm Context
+
+🟡 Tóm tắt: Core.md §6.5 (CHẠY vs GHI).
+
+```
+NGUYÊN TẮC NỀN TẢNG:
+══════════════════════════════════════════════════════════════
+Amygdala ghi emotional valence SONG SONG với PFC — KHÔNG PHẢI "chỉ ghi khi PFC tắt."
+
+🟢 LeDoux (1996): Thalamus → amygdala ("low road") NHANH hơn cortical pathway.
+  → Amygdala nhận input TRƯỚC PFC, xử lý KHÔNG cần cortex.
+  → Mọi sự kiện có đe dọa / đau → amygdala GHI, bất kể PFC đang làm gì.
+
+PFC không NGĂN amygdala ghi — PFC chỉ THÊM CONTEXT vào chunk.
+  Amygdala ghi: {giọng lớn = nguy hiểm}
+  PFC thêm:    {giọng lớn = nguy hiểm, NHƯNG đang ở sân bóng, cổ vũ, không phải đe dọa}
+  → Context từ PFC cho phép phân biệt → giảm amygdala reactivity về sau.
+  → THIẾU context → amygdala reactivity giữ nguyên hoặc tích lũy.
+══════════════════════════════════════════════════════════════
+```
+
+Não có **3 con đường encoding**, khác nhau ở mức độ PFC tham gia
+và cách chunks được hình thành.
+
+```
+CON ĐƯỜNG ①: SCHEMA ENCODING (top-down → automated)
+══════════════════════════════════════════════════════════════
+Hình thành:
+  PFC xây dựng CÓ Ý THỨC → lặp lại → myelin hóa → tự động hóa dần.
+  Ví dụ: học lái xe — PFC chú ý từng bước → vài tháng → chạy tự động.
+
+Trigger kích hoạt:
+  Context / mục tiêu — nhận diện tình huống phù hợp.
+  "Ngồi vào xe" → schema lái xe tự kích hoạt.
+
+Đặc tính thực thi:
+  "Smooth" — chạy mượt, có trình tự, tiết kiệm năng lượng.
+  PFC có thể can thiệp / override bất cứ lúc nào.
+
+Cơ chế ghi nhớ:
+  Procedural memory (basal ganglia) + declarative (hippocampus ban đầu).
+  GHI DẦN DẦN qua repetition — không phải 1 sự kiện đơn lẻ.
+
+Amygdala: ghi ÍT (cường độ cảm xúc thấp mỗi lần).
+══════════════════════════════════════════════════════════════
+```
+
+```
+CON ĐƯỜNG ②: TRAUMA ENCODING (bottom-up, PFC offline, one-trial)
+══════════════════════════════════════════════════════════════
+Hình thành:
+  Sự kiện CƯỜNG ĐỘ CỰC CAO → cortisol spike → PFC bị ức chế (§6.4 gradient ④-⑤).
+  Amygdala + hippocampus GHI TRỰC TIẾP — không qua PFC xử lý.
+  🟢 Van der Kolk (2014): "The body keeps the score" — trauma stored somatically.
+
+Trigger kích hoạt:
+  STATE-DEPENDENT RETRIEVAL — kích hoạt bởi:
+    ① Cortisol state tương tự lúc encoding (không cần context giống)
+    ② Sensory cue (mùi, âm thanh, cảm giác cơ thể) match lúc ghi
+  → Đây là lý do flashback xảy ra "vô cớ" — không phải vô cớ,
+    mà cortisol state hoặc sensory input KHỚP với lúc encoding.
+
+Đặc tính thực thi:
+  "Flood" — tràn ngập, không theo trình tự, amygdala hijack.
+  PFC RẤT KHÓ can thiệp — vì chunk CHƯA BAO GIỜ được PFC xử lý,
+  nên PFC không có "handle" để nắm.
+
+Cơ chế ghi nhớ:
+  Amygdala (fear conditioning) + hippocampus (nhưng thiếu context marker).
+  GHI 1 LẦN, cường độ cao — "one-trial learning."
+  🟢 LeDoux (1996): amygdala fear conditioning không cần cortex.
+══════════════════════════════════════════════════════════════
+```
+
+```
+CON ĐƯỜNG ③: REPEATED SUB-THRESHOLD ENCODING (tích lũy, context blur)
+══════════════════════════════════════════════════════════════
+🟡 Con đường này THIẾU trong hầu hết framework — nhưng phổ biến nhất trong thực tế.
+
+Hình thành:
+  Sự kiện cường độ VỪA, lặp lại NHIỀU LẦN.
+  Mỗi lần KHÔNG đủ mạnh để PFC shutdown hoàn toàn,
+  NHƯNG amygdala vẫn ghi mỗi lần (amygdala LUÔN ghi emotional valence).
+
+  Đặc biệt mạnh khi PFC CHƯA ĐỦ (trẻ em):
+    🟢 Casey et al. (2008): PFC chưa mature đầy đủ cho tới ~25 tuổi.
+    → Trẻ em: PFC yếu sẵn → cortisol vừa CŨNG ĐỦ để PFC giảm đáng kể.
+    → Không cần "hổ đuổi" — bị la mắng lặp lại = đủ.
+    → PFC trẻ con THIẾU knowledge base để contextualize
+      ("người lớn đôi khi mất kiểm soát" — trẻ không biết điều này).
+
+Cơ chế tích lũy:
+  Lần 1: amygdala ghi {la mắng = nguy hiểm} + PFC thêm ít context
+  Lần 2: amygdala ghi thêm → chunk strengthen
+  ...
+  Lần 100: amygdala chunk ĐÃ MẠNH + hippocampus bắt đầu MẤT context cụ thể
+    → Nhớ PATTERN CHUNG {người lớn giận = nguy hiểm cho mình}
+    → QUÊN chi tiết (lần nào, vì sao, ai đúng ai sai)
+    = CONTEXT BLUR — context mất dần, chỉ còn association thô.
+
+Trigger kích hoạt:
+  PATTERN MATCHING — kích hoạt bởi:
+    ① Tình huống tương tự pattern chung (không cần giống chính xác)
+    ② Cortisol state vừa phải (không cần cao như trauma ②)
+    ③ Social cue: giọng nói, biểu cảm, vị trí quyền lực
+  → Trigger RỘNG hơn trauma ② (vì pattern chung, không phải sự kiện cụ thể).
+
+Đặc tính thực thi:
+  KHÔNG flood như trauma ② — mà "PHẢN XẠ NÉ TRÁNH" tự động.
+  Ví dụ: tự động đồng ý, tránh xung đột, giữ im lặng, cố gắng làm hài lòng.
+  Cảm giác: "tôi là người như vậy" — KHÔNG nhận ra đây là chunk tích lũy.
+
+PFC can thiệp:
+  KHÓ HƠN schema ① (vì context đã blur, PFC thiếu "handle" rõ ràng)
+  DỄ HƠN trauma ② (vì PFC đã xử lý PHẦN NÀO mỗi lần — không phải raw hoàn toàn)
+══════════════════════════════════════════════════════════════
+```
+
+```
+SO SÁNH 3 CON ĐƯỜNG:
+┌──────────────┬─────────────────────┬─────────────────────┬─────────────────────────┐
+│              │ ① Schema            │ ② Trauma (kinh điển)│ ③ Repeated sub-threshold│
+├──────────────┼─────────────────────┼─────────────────────┼─────────────────────────┤
+│ Cường độ/lần │ Thấp                │ Cực cao             │ Vừa                     │
+│ Số lần       │ Nhiều (có ý thức)   │ 1 (one-trial)       │ Nhiều (tích lũy)        │
+│ PFC lúc ghi  │ Online đầy đủ       │ Offline             │ Giảm / chưa đủ (trẻ con)│
+│ Amygdala     │ Ghi ít              │ Ghi mạnh 1 lần      │ Ghi vừa × nhiều lần     │
+│ Context      │ Đầy đủ              │ Thiếu hoàn toàn     │ Mất dần (context blur)   │
+│ Kết quả      │ Automated skill     │ Flashback, flood    │ "Tính cách", phản xạ né │
+│ Cảm giác     │ "Tôi đang làm"      │ "Nó xảy ra với tôi"│ "Tôi là người như vậy"   │
+│ PFC override │ Dễ                  │ Rất khó             │ Trung bình (context blur)│
+└──────────────┴─────────────────────┴─────────────────────┴─────────────────────────┘
+
+GIỐNG: Cả 3 đều có amygdala tham gia encoding. Cả 3 BYPASS PFC khi thực thi.
+KHÁC:
+  ① Schema = PFC TẠO RA → giao lại → automated CÓ context.
+  ② Trauma = PFC OFFLINE → amygdala ghi raw → KHÔNG context → flood.
+  ③ Repeated = PFC có nhưng KHÔNG ĐỦ → amygdala tích lũy → context BLUR DẦN
+     → kết quả: chunks MẠNH nhưng KHÔNG CÓ SỰ KIỆN CỤ THỂ để "chỉ vào."
+```
+
+```
+TẠI SAO CON ĐƯỜNG ③ NGUY HIỂM ĐẶC BIỆT:
+══════════════════════════════════════════════════════════════
+1. KHÔNG NHẬN RA LÀ "VẾT THƯƠNG"
+   Không có sự kiện dramatic → không fit định nghĩa "trauma" thông thường.
+   → Người ta không tìm help vì "có gì đâu mà trauma."
+
+2. CẢM GIÁC NHƯ "TÍNH CÁCH"
+   Vì chunks tích lũy dần + context blur → phản ứng cảm giác như bản chất.
+   "Tôi vốn là người hay lo / sợ xung đột / cần làm hài lòng người khác."
+   → KHÔNG PHẢI tính cách — mà là chunk library tích lũy từ bối cảnh cũ.
+
+3. PFC XÁC NHẬN "SỰ THẬT"
+   Khi PFC người lớn scan chunk library → thấy pattern mạnh, nhất quán
+   → đánh giá đó là "sự thật về mình" (§5.1 inner critic).
+   PFC đánh giá ĐÚNG dựa trên data nó có — nhưng data bị bias bởi bối cảnh encoding.
+
+4. TRIGGER RỘNG
+   Pattern chung (không phải sự kiện cụ thể) → match NHIỀU tình huống hiện tại.
+   Ví dụ: {người có quyền + không hài lòng = nguy hiểm} → trigger ở sếp, đối tác,
+   bạn bè, bất kỳ ai trong vị trí quyền lực tương đối.
+
+5. KHÓ XÁC ĐỊNH "NGUỒN GỐC"
+   Trauma ② có sự kiện cụ thể để process. Con đường ③ KHÔNG CÓ — vì không phải 1 sự kiện,
+   mà là TỔNG TÍCH LŨY hàng trăm sự kiện nhỏ, context đã blur.
+══════════════════════════════════════════════════════════════
+```
+
+```
+HÀM Ý CHO CAN THIỆP — THEO TỪNG CON ĐƯỜNG:
+══════════════════════════════════════════════════════════════
+① Schema không hiệu quả:
+  → PFC re-evaluate → reframe → tạo schema thay thế.
+  → Ví dụ: CBT thay đổi thought pattern.
+  → Hiệu quả cao — PFC có full handle.
+
+② Trauma chưa xử lý:
+  → CẦN đưa chunk qua PFC lần đầu (processing).
+  → Ví dụ: EMDR = kích hoạt trauma chunk + giữ PFC online
+    → PFC xử lý chunk lần đầu → thêm context → giảm amygdala reactivity.
+  → 🟢 Shapiro (2001): EMDR reprocessing model.
+  → Xem thêm: Depression-Predictive-Model.md §8 (EMDR + trauma therapy).
+
+③ Repeated sub-threshold:
+  → CẦN KẾT HỢP cả hai approach:
+    a) Nhận diện: đây KHÔNG phải "tính cách" — mà là chunks tích lũy (cognitive reframe).
+    b) Tạo trải nghiệm mới TÍCH CỰC trong cùng domain → chunk library dần rebalance.
+       Ví dụ: {người có quyền + không hài lòng = AN TOÀN} cần TRẢI NGHIỆM THỰC,
+       không chỉ logic "tôi biết sếp không nguy hiểm."
+    c) Body-based awareness: nhận ra phản xạ né tránh KHI NÓ XẢY RA
+       → PFC can thiệp real-time → dần thêm context vào chunks cũ.
+  → Chậm hơn ① (vì context đã blur) nhưng khả thi hơn ② (vì PFC có partial handle).
+
+⚠️ SAI LẦM PHỔ BIẾN:
+  Dùng can thiệp schema (logic, reframe) cho trauma/sub-threshold encoding.
+  "Tôi biết nó không nguy hiểm, nhưng cơ thể vẫn phản ứng."
+  → Đúng — vì chunks đó thiếu context. Logic ALONE không chạm được.
+  → ② cần processing (EMDR, somatic). ③ cần trải nghiệm mới + awareness.
+══════════════════════════════════════════════════════════════
+```
+
+```
+LIÊN KẾT VỚI CÁC PATTERN:
+  P1 (Stress Addiction): cortisol treadmill → con đường ③ encoding thiếu context liên tục.
+  P3 (Trauma Bonding): con đường ② + oxytocin co-fire → bond mà PFC không override được.
+  P7 (Fawn Response): thường con đường ③ từ childhood — automated, cảm giác "tính cách."
+  P8 (Imposter Syndrome): có thể ① (schema) hoặc ③ (sub-threshold từ so sánh lặp lại).
+  Core.md §5.1: "Inner critic" = PFC scan chunk library — nếu library chứa chunks ③
+    → PFC đánh giá "tôi là người hay thất bại" vì data nó scan TOÀN chunks ③
+    (cường độ vừa, nhất quán, context blur → trông như "sự thật khách quan").
+  Core.md §6.5: CHẠY vs GHI — schema override hành vi nhưng encoding vẫn tích lũy (③).
 ```
 
 ---
@@ -1246,6 +1463,110 @@ TẠI SAO SỐ OPEN LOOP KHÁC NHAU GIỮA MỌI NGƯỜI:
     → OCD risk > burnout risk
   → Sensitivity TB + threshold TB + generalization hẹp = ÍT open loop
     → Burnout risk > OCD risk
+
+SCHEMA LIFECYCLE × OPEN LOOP — cơ chế đóng loop tự nhiên:
+🟡
+  Open loop KHÔNG PHẢI schema — nhưng CŨNG KHÔNG PHẢI "thiếu schema."
+  Open loop = prediction đang mở. Nguyên nhân có thể là:
+
+  ① Schema RỜI RẠC (tồn tại nhưng chưa đồng bộ):
+    Nhiều schema nhỏ chạy riêng → mỗi cái tạo prediction riêng → mỗi prediction = 1 loop.
+    Không phải thiếu — mà THỪA schema chưa kết nối.
+    → Giải pháp: CONNECT (phase ③), không phải tạo thêm.
+
+  ② Schema THỪA (tồn tại nhưng không cần thiết nữa, chưa đóng):
+    PFC chưa đánh giá "cái này không quan trọng nữa" → schema vẫn chạy nền
+    → prediction vẫn mở → loop vẫn tốn resource.
+    → Giải pháp: PFC BUÔNG BỎ / PRUNE (cách đóng loop ③: release có ý thức).
+
+  ③ Schema CHƯA HOÀN THIỆN (đang xây dở):
+    Schema ở phase ② chưa xong → prediction chưa resolve → loop mở.
+    → Giải pháp: DEEPEN tiếp hoặc BUÔNG nếu không cần.
+
+  Meta-schema tốt (kết nối, có cấu trúc) = VAN ĐÓNG open loop:
+    Task đã có chỗ trong meta-schema → PFC không cần hỏi "cái này để làm gì?"
+    → prediction resolve tự nhiên → loop đóng.
+
+  Schema Lifecycle (Core.md §6.1) × Open loop count:
+  ┌────────┬──────────────────────────────────┬───────────────────────┐
+  │ Phase  │ Trạng thái schema               │ Open loop count       │
+  ├────────┼──────────────────────────────────┼───────────────────────┤
+  │①Explore│ Nhiều schema nhỏ, RỜI RẠC       │ CAO — mỗi schema =   │
+  │        │ Chưa kết nối + schema thừa chưa │ 1 cluster loops riêng │
+  │        │ đóng/prune.                      │ Tuổi trẻ: plasticity │
+  │        │                                  │ cao → recovery tốt.  │
+  │        │                                  │ ★ RỦI RO nếu KÉO DÀI│
+  ├────────┼──────────────────────────────────┼───────────────────────┤
+  │②Deepen│ Từng schema được hoàn thiện      │ GIẢM DẦN per schema   │
+  │        │ Myelin hóa → Tier 2             │ (schema đóng loop nội │
+  │        │                                  │  bộ của nó)           │
+  ├────────┼──────────────────────────────────┼───────────────────────┤
+  │③Connect│ Schema nhỏ kết nối → meta-schema│ GIẢM RÕ RỆT — task   │
+  │        │ Mục tiêu ĐỒNG HƯỚNG            │ có chỗ, prediction có │
+  │        │                                  │ cấu trúc → đóng tự   │
+  │        │                                  │ nhiên.                │
+  ├────────┼──────────────────────────────────┼───────────────────────┤
+  │④Monitor│ Meta-schema automated            │ THẤP — hầu hết loops │
+  │        │ PFC chỉ giám sát               │ đã đóng hoặc có cách │
+  │        │                                  │ đóng sẵn trong schema.│
+  └────────┴──────────────────────────────────┴───────────────────────┘
+
+  → Phase ①→④ = quá trình GIẢM open loop qua 2 cơ chế:
+    a) Connect (③): đồng bộ schema rời rạc → meta-schema → loop đóng tự nhiên.
+    b) Prune: PFC release schema không cần thiết nữa → loop đóng chủ động.
+
+  → Phase ① ở tuổi trẻ (18-25): open loop CAO nhưng neuroplasticity cũng CAO.
+    🟢 Kolb & Gibb (2011): neuroplasticity giảm theo tuổi.
+    PFC đang mature + plasticity cao → recovery nhanh dù bị quá tải.
+    → Đây KHÔNG phải "OCD risk window" tuyệt đối.
+
+  → Rủi ro thật: phase ① KÉO DÀI vào tuổi lớn (30s-40s+):
+    PFC plasticity GIẢM + open loop tích lũy LÂU + schema thừa không prune
+    → recovery khó hơn → Connect khó hơn → OCD risk thật sự CAO.
+    → "Risk window" không phải phase ① per se — mà là phase ① KÉO DÀI.
+
+  → Phase ③ (Connect) = bước QUYẾT ĐỊNH: kết nối thành công → loop giảm mạnh.
+    Không kết nối được → loop tiếp tục tích lũy.
+
+  SOLDIER vs IMPROVISER:
+  ┌────────────┬──────────────────────────────┬──────────────────────┐
+  │            │ Soldier                      │ Improviser           │
+  ├────────────┼──────────────────────────────┼──────────────────────┤
+  │ Source     │ External — copy schema từ    │ Internal — tự tạo    │
+  │            │ reference group              │ schema từ đầu        │
+  ├────────────┼──────────────────────────────┼──────────────────────┤
+  │ Cấu trúc  │ Schema external ĐÃ CÓ cấu   │ Schema tự tạo ban    │
+  │ ban đầu   │ trúc sẵn (quy trình, logic,  │ đầu RỜI RẠC — cần   │
+  │            │ best practice đã verify)     │ PFC tự kết nối.      │
+  ├────────────┼──────────────────────────────┼──────────────────────┤
+  │ Open loop  │ THẤP — schema external đóng  │ CAO — nhiều domain × │
+  │ baseline   │ loop thay cho PFC           │ thiếu cấu trúc ×    │
+  │            │                              │ prediction liên tục  │
+  ├────────────┼──────────────────────────────┼──────────────────────┤
+  │ Phase ①    │ NGẮN — schema nhận sẵn,     │ DÀI — explore tự     │
+  │ duration   │ không cần explore nhiều     │ nhiên, nhiều domain  │
+  ├────────────┼──────────────────────────────┼──────────────────────┤
+  │ Phase ③    │ TỰ NHIÊN — external schema   │ CẦN CHỦ ĐỘNG — PFC  │
+  │ difficulty │ đã nhất quán, dễ connect    │ phải tìm intersection│
+  │            │                              │ giữa schema rời rạc. │
+  ├────────────┼──────────────────────────────┼──────────────────────┤
+  │ OCD risk   │ THẤP hơn (ít open loop)     │ CAO hơn (nhiều open  │
+  │            │ Nhưng: burnout risk nếu 1    │ loop × phase ① dài)  │
+  │            │ domain sụp.                  │                      │
+  └────────────┴──────────────────────────────┴──────────────────────┘
+
+  ⚠️ HÀM Ý CAN THIỆP:
+  2 cơ chế phòng ngừa OCD tự nhiên:
+    a) Connect (phase ③): đồng bộ schema rời rạc → meta-schema → loop đóng.
+    b) Prune: đóng/buông schema không cần thiết nữa → giảm loop nền.
+
+  Người có open loop count cao (đặc biệt Improviser ở phase ① kéo dài):
+    → Ưu tiên: Connect (③) + Prune schema thừa.
+    → Khi PFC còn khỏe + plasticity còn cao = cơ hội tốt nhất.
+    → Phase ① ở tuổi trẻ: dù loop cao, recovery tốt → không cần hoảng.
+    → Phase ① kéo vào 35+ mới thật sự cần ưu tiên Connect + Prune.
+    → Nếu PFC sụp trước khi Connect → open loops tồn đọng
+      → ritual phát triển (cách ④) → OCD trajectory.
 
 3 YẾU TỐ PHỐI HỢP QUYẾT ĐỊNH KẾT QUẢ:
 

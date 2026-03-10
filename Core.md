@@ -268,7 +268,13 @@ Activation Level (mức)  = % Capacity ĐANG DÙNG tại thời điểm hiện t
 ```
 Activation quá thấp  → không đủ processing → drift, "chả muốn làm gì"
 Activation vừa       → optimal → flow, hiệu quả cao nhất
-Activation quá cao   → over-evaluation, inner critic dominant → paralysis
+Activation quá cao   → over-evaluation, "inner critic" dominant → paralysis
+  ⚠️ "Inner critic" KHÔNG phải tham số hay cơ chế riêng.
+    = PFC risk-assessment BÌNH THƯỜNG + chunk library nhiều chunk tiêu cực gần đây.
+    PFC scan chunks gần → thấy {hành vi X = mệt, ghê} → đánh giá "X = rủi ro."
+    → Đánh giá ĐÚNG dựa trên data nó có — không phải lỗi PFC.
+    → Can thiệp: thay đổi CHUNK LIBRARY (tạo trải nghiệm mới tích cực),
+      không phải "tắt inner critic" (= tắt PFC evaluation = mất khả năng đánh giá).
 
 Cortisol modulate Activation (§4):
   Cortisol thấp  → Activation thấp  → ascending limb
@@ -310,6 +316,8 @@ Activation Level thấp = PFC FILTER yếu:
 ```
 
 **Capacity × Threshold interaction:** Capacity cao + Threshold cao → CẦN chunk lớn VÀ LÀM ĐƯỢC → drive mạnh (Architect territory). Capacity thấp + Threshold cao → CẦN nhưng KHÔNG LÀM ĐƯỢC → frustration mãn tính.
+
+**Capacity × Schema interaction:** Capacity ảnh hưởng **scope** (phạm vi) meta-schema, không phải giá trị — schema hẹp mà đồng bộ vẫn hiệu quả cao (§6.1). ⚠️ Buffer risk: capacity cao = chịu được nhiều schema rời rạc / open loop mà CHƯA CẢM THẤY quá tải → dễ tích lũy fragmentation không nhận ra → khi vượt buffer, sụp muộn nhưng NẶNG hơn. Capacity thấp → tín hiệu quá tải đến SỚM → buộc connect/prune sớm hơn.
 
 ### 5.2 Threshold — THAM SỐ QUAN TRỌNG NHẤT
 
@@ -460,7 +468,55 @@ Depth  ← Capacity × Threshold × Training (luyện tập per domain)
 4. Schema tương lai: "tương lai kiểm soát được/không" → set prediction horizon nền
 ```
 
-**Override power:** Schema cực mạnh CÓ THỂ override cost survival. 🟢 Identity fusion (Swann et al., 2012): lính tự nguyện chết cho đồng đội = schema "nhóm > bản thân" override survival prediction. Đây là schema override, KHÔNG PHẢI "dũng cảm."
+**Override power:** Schema cực mạnh CÓ THỂ override cost survival. 🟢 Identity fusion (Swann et al., 2012): lính tự nguyện chết cho đồng đội = schema "nhóm > bản thân" override survival prediction. Đây là schema override, KHÔNG PHẢI "dũng cảm." Schema có thể được PFC **xây có chủ đích** — bao gồm dự đoán trước phản ứng sợ của chính mình và xây schema cụ thể để override (meta-cognition). Chi tiết competition model + 3 yếu tố quyết định: §7.4.
+
+```
+SCHEMA LIFECYCLE — 4 giai đoạn hình thành meta-schema:
+🟡
+┌────────┬──────────────────────────────────┬───────────────────────────┐
+│ Phase  │ Quá trình                        │ PFC role                  │
+├────────┼──────────────────────────────────┼───────────────────────────┤
+│① Explore│ Thử nhiều domain → nhiều schema │ NGƯỜI LÁI — chọn, đổi    │
+│        │ nhỏ RỜI RẠC. PFC load cao:      │ context, điều hướng liên  │
+│        │ mỗi lần phải chọn schema nào    │ tục giữa các schema nhỏ.  │
+│        │ chạy, đổi context liên tục.     │                           │
+├────────┼──────────────────────────────────┼───────────────────────────┤
+│② Deepen│ Đi sâu từng schema → hoàn thiện │ NGƯỜI XÂY — tập trung     │
+│        │ → myelin hóa từng cái.          │ per domain, ít đổi context│
+│        │ PFC load giảm dần per schema.   │ hơn ①.                    │
+├────────┼──────────────────────────────────┼───────────────────────────┤
+│③Connect│ Kết nối schema nhỏ với nhau     │ NGƯỜI KẾT NỐI — tìm      │
+│        │ → meta-schema: mỗi hành động    │ intersection giữa các     │
+│        │ phục vụ NHIỀU mục tiêu cùng lúc.│ schema, xây cấu trúc     │
+│        │ PFC load giảm rõ rệt: ít phải  │ tổng thể.                 │
+│        │ chọn vì các mục tiêu ĐỒNG HƯỚNG.│                          │
+├────────┼──────────────────────────────────┼───────────────────────────┤
+│④Monitor│ Meta-schema myelin hóa → Tier 2 │ NGƯỜI GIÁM SÁT — chỉ     │
+│        │ automated. Tự bật, tự chạy,     │ can thiệp khi gặp tình   │
+│        │ tự chọn task phù hợp thời điểm. │ huống chưa lường trước    │
+│        │ PFC load CỰC THẤP.             │ hoặc cần điều chỉnh.      │
+└────────┴──────────────────────────────────┴───────────────────────────┘
+
+Không phải ai cũng đi tuần tự ①→④. Tùy phần cứng (§5) + bối cảnh:
+  - Improviser (explore tự nhiên): ① dài, nhiều schema nhỏ → cần ③ chủ động.
+  - Architect (deepen tự nhiên): ② nhanh, ít schema nhưng sâu → ③ tự nhiên hơn.
+  - Schema nhỏ có thể BỎ (không cần tất cả phải kết nối vào meta-schema).
+  - Meta-schema ④ KHÔNG cố định — PFC quay lại ① khi environment thay đổi.
+
+⚠️ PFC không làm ÍT hơn qua lifecycle — nó làm KHÁC đi.
+  ① PFC = chọn + điều hướng (executive control)
+  ② PFC = xây + kiểm tra (construction)
+  ③ PFC = kết nối + tối ưu (integration)
+  ④ PFC = giám sát + điều chỉnh (monitoring)
+  → Mỗi phase cần PFC KHÁC LOẠI, không phải PFC ÍT HƠN.
+
+⚠️ Lifecycle × Open loop: Phase ① = open loop count CAO (nhiều schema rời rạc
+  = nhiều prediction chưa resolve + schema thừa chưa đóng/prune).
+  Phase ③ Connect + PFC release = 2 cơ chế đóng loop tự nhiên.
+  Phase ① ở tuổi trẻ: open loop cao NHƯNG neuroplasticity cũng cao → recovery tốt.
+  Rủi ro thật: phase ① KÉO DÀI vào tuổi lớn (PFC plasticity giảm + loop tích lũy lâu).
+  Chi tiết: Research/Mismatch-Patterns.md P12 Block 5b.
+```
 
 **Lưu ý thuật ngữ:** Trong các Core-Deep-Dive files, "schema nỗ lực = được đền đáp" là biểu hiện phổ biến nhất của schema tương lai (controllability → nỗ lực có ý nghĩa). Tôn giáo install NỘI DUNG cụ thể vào 4 schema cấu trúc này (xem Research/Religion.md). Các "schema domain" (vd: "schema quan hệ") là phiên bản chuyên biệt của 4 schema nền áp dụng cho domain cụ thể (xem Applications/Relationships.md).
 
@@ -494,6 +550,10 @@ Mọi người cần cả hai — tỷ lệ khác nhau per phần cứng:
   (Tỷ lệ cũ ~90/10 vs ~60/40 vẫn đúng ước lượng, nhưng cơ chế = ④ generalization)
 Explore ẩn trong deepen: "đọc sách mỗi ngày" nhưng nội dung thay đổi worldview
   = tạo chunk mới, rồi SYNC vào hệ thống chunk hiện có.
+
+→ Deepen + Explore = nguyên liệu cho Schema Lifecycle (§6.1):
+  Explore tạo schema nhỏ rời rạc (phase ①) → Deepen hoàn thiện từng cái (phase ②)
+  → Connect kết nối thành meta-schema (phase ③).
 ```
 
 ### 6.3 Cầu Nối vs Bẫy (Bridge vs Trap)
@@ -626,6 +686,43 @@ PREDICTION TỰ ĐỘNG (myelinate): lái xe, workflow quen. Nhẹ. SDT gọi: I
 🟢 Myelinate: 2-8 tháng (Lally et al., 2010). Mất sau cùng khi não suy thoái.
 Người lớn: ~70% tự động, ~20% active, ~10% reflex.
 Alzheimer: mất từ trên xuống (active → tự động phức tạp → reflex).
+
+CHẠY vs GHI — 2 process SONG SONG, KHÔNG phụ thuộc nhau:
+  🟡
+  CHẠY (execution): Schema/tự động chạy hành vi → không cần PFC.
+  GHI  (encoding):  Hippocampus + amygdala + insula ghi chunk mới → không cần PFC.
+  PFC:  THÊM CONTEXT vào chunk ("mệt VÌ thiếu ngủ, không phải VÌ code").
+
+  Khi PFC giảm → CHẠY vẫn ok (schema drive) + GHI vẫn xảy ra (hippocampus/amygdala)
+    NHƯNG ghi THIẾU CONTEXT → chunk thô: {hành vi = cảm xúc} không có lý do.
+    Ví dụ: {code = mệt, ghê} thay vì {code khi thiếu ngủ 12h = mệt}.
+  → Lần sau PFC khỏe → scan chunk thô → đánh giá "code = rủi ro" (§5.1 inner critic).
+
+  ⚠️ Hàm ý: Schema override HÀNH VI (vẫn làm) nhưng KHÔNG override ENCODING
+    (vẫn ghi chunk tiêu cực). Kết quả: LÀM ĐƯỢC VIỆC + TÍCH chunk tiêu cực.
+    = Cơ chế sâu của gradient mức ③ (§6.4): chunks hình thành + ghét.
+
+  3 CON ĐƯỜNG ENCODING — amygdala LUÔN ghi, PFC THÊM context:
+  🟡
+  ⚠️ Amygdala ghi emotional valence SONG SONG với PFC — không phải "chỉ ghi khi PFC tắt."
+    🟢 LeDoux (1996): thalamus → amygdala ("low road") NHANH hơn và KHÔNG qua cortex.
+    → Mọi sự kiện có đe dọa/đau → amygdala GHI, bất kể PFC đang làm gì.
+    → PFC không NGĂN amygdala ghi — PFC chỉ THÊM CONTEXT vào chunk.
+
+  ┌──────────────┬─────────────────────┬─────────────────────┬─────────────────────────┐
+  │              │ ① Schema            │ ② Trauma (kinh điển)│ ③ Repeated sub-threshold│
+  ├──────────────┼─────────────────────┼─────────────────────┼─────────────────────────┤
+  │ Cường độ/lần │ Thấp                │ Cực cao             │ Vừa                     │
+  │ Số lần       │ Nhiều (có ý thức)   │ 1 (one-trial)       │ Nhiều (tích lũy)        │
+  │ PFC lúc ghi  │ Online đầy đủ       │ Offline             │ Giảm / chưa đủ (trẻ con)│
+  │ Amygdala     │ Ghi ít              │ Ghi mạnh 1 lần      │ Ghi vừa × nhiều lần     │
+  │ Context      │ Đầy đủ              │ Thiếu hoàn toàn     │ Mất dần (context blur)   │
+  │ Kết quả      │ Automated skill     │ Flashback, flood    │ "Tính cách", phản xạ né │
+  │ Cảm giác     │ "Tôi đang làm"      │ "Nó xảy ra với tôi"│ "Tôi là người như vậy"   │
+  └──────────────┴─────────────────────┴─────────────────────┴─────────────────────────┘
+  Con đường ③ đặc biệt nguy hiểm: không có sự kiện dramatic → không nhận ra là "vết thương"
+    → cảm giác như tính cách → PFC sau này scan → đánh giá đó là "sự thật về mình."
+  → Chi tiết cơ chế + can thiệp: Research/Mismatch-Patterns.md §1b.
 ```
 
 > Chi tiết phần mềm + interaction matrix → Core-Deep-Dive/Neurochemistry.md
@@ -692,11 +789,39 @@ PE bonus = uncertainty TĂNG khi prediction XA → reward TĂNG.
   → Đây là lý do "người tham vọng" = threshold cao, KHÔNG PHẢI "giỏi hơn."
 ```
 
-### 7.4 Schema Override
+### 7.4 Schema Override — Competition Model
 
 ```
-Schema cực mạnh CÓ THỂ override TOÀN BỘ cost calculation:
+Override KHÔNG PHẢI binary (bật/tắt) — mà là CẠNH TRANH giữa 2 tín hiệu:
 
+  Khi gặp tình huống → kích hoạt ĐỒNG THỜI:
+    Chunk library: {tình huống X = sợ/nguy hiểm} → amygdala + Tier 2 → NÉ
+    Schema:        {tình huống X = mục tiêu}      → Tier 2 → LÀM
+  → Tín hiệu nào MẠNH hơn → hành vi đó thắng.
+
+3 YẾU TỐ QUYẾT ĐỊNH AI THẮNG:
+══════════════════════════════════════════════════════════════
+① ĐỘ MẠNH SCHEMA (PFC đã đầu tư bao nhiêu):
+  - Lặp lại: nghĩ/rehearsal nhiều → myelin hóa → Tier 2 automated
+  - Cụ thể: schema TỪNG tình huống → match chunk đối lập chính xác
+  - Gắn mục tiêu: schema gắn identity / meaning → dopamine reinforce
+
+② ĐỘ MẠNH CHUNKS ĐỐI LẬP (amygdala tích lũy bao nhiêu):
+  - Chunks con đường ③ (repeated sub-threshold, §6.5): mạnh, pattern rộng
+  - Chunks con đường ② (trauma): rất mạnh, flood response
+  - Chunks ít / yếu → schema dễ thắng. Chunks nhiều / mạnh → schema khó thắng.
+
+③ TÀI NGUYÊN PFC LÚC ĐÓ (trọng tài nghiêng bên nào):
+  - PFC khỏe (ngủ đủ, cortisol thấp) → hỗ trợ schema → schema mạnh hơn
+  - PFC yếu (mệt, cortisol cao) → amygdala/chunks chiếm ưu thế
+  → CÙNG 1 schema, ngày khỏe override được, ngày mệt thì không.
+══════════════════════════════════════════════════════════════
+```
+
+```
+SCHEMA CỰC MẠNH — TRƯỜNG HỢP ĐẶC BIỆT:
+
+  Khi schema ĐỦ MẠNH, nó thắng competition ngay cả khi chunks đối lập cực mạnh:
   Schema "nghệ thuật > mạng sống" → Van Gogh vẽ dù đói.
   Schema "trung thành > bản thân" → lính chết cho đồng đội.
   Schema "sứ mệnh > thoải mái" → Tesla làm việc 20h/ngày.
@@ -706,7 +831,55 @@ Schema cực mạnh CÓ THỂ override TOÀN BỘ cost calculation:
   → Đây KHÔNG PHẢI phi lý — là drive equation VỚI schema weight khác bình thường.
 ```
 
+```
+META-COGNITION — PFC LẬP TRÌNH CHÍNH MÌNH TRƯỚC:
+🟡
+  PFC có khả năng DỰ ĐOÁN phản ứng sợ của chính mình trong tương lai
+  → xây schema CỤ THỂ để override từng nỗi sợ đó TRƯỚC KHI NÓ XẢY RA.
+
+  Cơ chế:
+  1. PFC dự đoán: "tình huống Y sẽ kích hoạt chunk {Y = sợ}"
+  2. PFC xây schema: "khi gặp Y → làm Z, vì lý do W" (cụ thể, có kế hoạch)
+  3. Rehearsal lặp lại → schema myelin hóa → Tier 2 automated
+  4. Khi Y thật xảy ra → chunks sợ kích hoạt + schema đã sẵn sàng ở Tier 2
+     → CẠNH TRANH, schema có lợi thế vì đã chuẩn bị cụ thể.
+
+  = PFC dùng khả năng PREDICTIVE để lập trình phản ứng tương lai của chính mình.
+  → Hiệu quả phụ thuộc: schema có LƯỜNG TRƯỚC ĐÚNG chunks nào sẽ fire không.
+    Schema chung chung "sẽ ổn thôi" < Schema cụ thể "khi sợ X → làm Y vì Z."
+  → Meta-cognition = PFC ở phase ②③ của Schema Lifecycle (§6.1):
+    xây schema cụ thể (②) + kết nối vào meta-schema (③) → override mạnh hơn.
+  → Tại sao ②③ là optimal window:
+    Phase ① chưa có schema tích hợp → chỉ có fragments, chưa đủ để override.
+    Phase ④ meta-schema đã automated → myelin cứng, khó sửa đổi.
+    → ②③ = PFC còn đang XÂY + KẾT NỐI = cơ hội tốt nhất để lập trình.
+```
+
+```
+PFC CHỌN KHÔNG CHIẾN ĐẤU — KHÔNG PHẢI "THUA":
+
+  Không phải mọi chunk đối lập đều cần override.
+  PFC có thể ĐÁNH GIÁ: cost xây schema override > benefit → KHÔNG XÂY.
+  → Chunks thắng mặc định → hành vi né tránh.
+  → Đây là QUYẾT ĐỊNH CÓ Ý THỨC, không phải "yếu đuối" hay "thua."
+
+  Ví dụ: sợ code sau quá trình dài tích lũy chunks tiêu cực (§6.5 con đường ③)
+    + thấy có lựa chọn khác hiệu quả hơn
+    → PFC đánh giá: override sợ code = cost cao, benefit không rõ
+    → KHÔNG XÂY schema override → né code = quyết định hợp lý, không phải thất bại.
+```
+
+```
+  ⚠️ Schema override HÀNH VI, không override ENCODING (§6.5):
+    Van Gogh vẽ dù đói (schema drive) + GHI {vẽ = đói, khổ} (encoding vẫn chạy).
+    → Kết quả: sản phẩm CÓ + chunk tiêu cực CŨNG CÓ.
+    → Schema KHÔNG bảo vệ khỏi burnout — chỉ trì hoãn nó.
+    → Override CÀNG MẠNH + CÀNG LÂU → chunks tiêu cực tích lũy CÀNG NHIỀU
+      → khi schema suy yếu (PFC mệt) → chunks tích lũy BÙNG → collapse đột ngột.
+```
+
 > Chi tiết drive equation per mode + per kênh gốc → Core-Deep-Dive/Chunk-Patterns.md
+> Chi tiết navigate giữa nhiều schemas + 6 levels + risks → Core-Deep-Dive/Schema-Navigation.md
 
 ---
 
@@ -801,6 +974,13 @@ IMPROVISER (cạnh trái) = Source INTERNAL, depth variable per domain
 DRIFTER (cạnh dưới) = Depth NÔNG, source chưa ổn định
   Chunks ngắn, rải rác, chưa tích lũy đủ. Source mix (chưa hình thành xu hướng rõ).
   PE từ: variety, mới lạ ngắn hạn. Chưa assembly domain sâu.
+
+→ Pattern ảnh hưởng schema override capacity (§7.4):
+  Soldier (external, có cấu trúc sẵn) → schema nhất quán → override ổn định hơn.
+  Architect (internal, deep) → schema mạnh per domain → override mạnh nhưng hẹp.
+  Improviser (internal, broad) → nhiều schema rời rạc → cần Connect (§6.1 phase ③)
+    để tạo meta-schema đủ mạnh override.
+  Drifter (shallow) → schema chưa đủ sâu → override yếu, dễ bị chunks thắng.
 ```
 
 ### 8.3 Compliance = CHỈ SỐ PHÁI SINH, Không Phải Cơ Chế Gốc (v5.5)
@@ -1438,7 +1618,6 @@ FRAMEWORK LÀM ĐƯỢC:
 ```
 Human Predictive Drive/
 │
-├── Plan.md                         ← Kế hoạch triển khai v4.0 → v5.0 → v5.5
 ├── Core.md                         ← ★ FILE NÀY (v6.0) — đọc = hiểu framework
 │
 ├── Core-Deep-Dive/                 ← Đào sâu từng tầng Core.md
@@ -1446,7 +1625,9 @@ Human Predictive Drive/
 │   ├── PE-Sensitivity.md           ← ★ PE Sensitivity deep-dive: 4 sub + encoding modality (v6.0)
 │   ├── Chunk-Patterns.md           ← Tầng 1A+2 (software): 4 pattern deep-dive + diagnostics
 │   ├── Society-Dynamics.md         ← External Pressure × xã hội + source ratio per era
-│   └── Compliance.md               ← Cross-layer: compliance v5.5 (4 pathways, diagnostic, dynamics)
+│   ├── Compliance.md               ← Cross-layer: compliance v5.5 (4 pathways, diagnostic, dynamics)
+│   └── Schema-Navigation.md       ← ★ Điều hướng schema theo hoàn cảnh: 6 levels,
+│                                        cost curve, trainability, risks, authenticity paradox
 │
 ├── Research/                       ← Nghiên cứu chuyên sâu per topic qua framework lens
 │   ├── Religion.md                 ← Tôn giáo: 7 functions + so sánh
@@ -1456,6 +1637,8 @@ Human Predictive Drive/
 │   ├── Depression-Predictive-Model.md ← ★ Trầm cảm = learned prediction suppression
 │   │                                    (4 cơ chế can thiệp, 19 phương pháp mapping, v0.3)
 │   ├── Social-Pressure-Tradeoff.md ← ★ Trade-off áp lực xã hội (system-level analysis)
+│   ├── Conflict-Dynamics.md        ← Xung đột: 3 điều kiện (Overlap × Scarcity × Commitment)
+│   ├── Meta-Impact.md             ← Meta: framework predict tác động khi public
 │   └── Macro-Civilization.md       ← 7 khủng hoảng + PEM
 │
 ├── Applications/                   ← Ứng dụng thực tế (protocol cụ thể)
@@ -1470,11 +1653,11 @@ Human Predictive Drive/
 ├── Validation/                     ← Kiểm chứng framework
 │   ├── Examples.md                 ← 35+ ví dụ đối chiếu
 │   ├── Classic-Questions.md        ← 10 câu hỏi kinh điển + philosopher mapping
-│   ├── Characters-Historical.md    ← 4 nhân vật lịch sử
-│   ├── Characters-Modern.md        ← 3 nhân vật hiện đại + kiểm chứng
-│   ├── Characters-Questions.md     ← 10 cặp {câu hỏi × nhân vật}
+│   ├── Characters.md               ← Phân tích nhân vật tổng hợp (integrated v5.5)
 │   ├── Deep-Dive-Trump.md          ← ★ Case study chuyên sâu Trump
-│   └── Deep-Dive-Musk.md           ← ★ Case study chuyên sâu Musk
+│   ├── Deep-Dive-Musk.md           ← ★ Case study chuyên sâu Musk
+│   └── Deep-Dive-Xi.md             ← ★ Case study chuyên sâu Tập Cận Bình
+│                                        (Architect-Dormant 32 năm, data filtered)
 │
 └── Meta/
     └── Version-History.md          ← Lịch sử v1 → v6

@@ -5,7 +5,7 @@
 > và cung cấp đáp án CÓ CẤU TRÚC thay vì 1 đáp án chung.
 > **Prerequisite:** Core.md (Drive Equation §7, Mô Hình Vuông §8.2, Depth composite §8.9,
 > Compliance derived §8.3, Dopamine inverted-U §6.6, Habituation Blindness §6.7).
-> **Liên quan:** Characters-Historical.md, Characters-Modern.md, Characters-Questions.md.
+> **Liên quan:** Characters.md, Deep-Dive-Musk.md, Deep-Dive-Trump.md, Deep-Dive-Xi.md.
 >
 > **⚠️ QUY ƯỚC ĐỌC (v5.5):**
 > - **Compliance** = CHỈ SỐ PHÁI SINH (chunk_overlap person × group), KHÔNG phải thuộc tính.

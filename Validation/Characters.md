@@ -526,7 +526,7 @@ SCHEMA: "Vision > tất cả"
   → Schema CỰC MẠNH + CỰC THUẦN (hơn Einstein — không có domain phụ nào)
   → "The future, for which I really worked, is mine"
   → Schema drive: prediction xa ĐÚNG = meaning CỰC LỚN
-  → Schema override TOÀN BỘ cost (đói, nghèo, cô đơn = irrelevant)
+  → Schema thắng competition với chunks cost (đói, nghèo, cô đơn) — §7.4 competition model
 
 DRIVE EQUATION:
   Kỹ thuật: Reward CỰC CAO − Cost THẤP (chỉ cần suy nghĩ + lab đơn giản)
@@ -652,7 +652,7 @@ TRAJECTORY (P12 Block 5 — applied cho Tesla):
 
 SO SÁNH (tất cả cùng Tuyến 2, khác hardware "done" detector):
   Tesla cuối đời: "done" detector SUY YẾU (aging) → OCD-like
-  OCD lâm sàng:   "done" detector LỖI BẨM SINH (double failure) → P12
+  OCD lâm sàng:   "done" detector LỖI BẨM SINH (double failure: hardware × competition failure, §7.4) → P12
   IsPof hiện tại:  "done" detector INTACT → functional → AN TOÀN
 ```
 

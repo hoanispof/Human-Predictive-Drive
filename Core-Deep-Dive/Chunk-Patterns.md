@@ -678,6 +678,15 @@ TẦNG DOMAIN (fine-tune) — tuần → tháng
   Prediction xa THU HẸP → focus prediction ngắn hơn.
   Architect già CÓ THỂ mềm hơn (PFC yếu → bớt override).
   Soldier già THOẢI MÁI HƠN (đã có structure suốt đời → secure).
+
+→ Timeline này map với Schema Lifecycle (Core.md §6.1):
+  18-25: chủ yếu phase ① (Explore) — thử domain, tạo schema nhỏ rời rạc.
+  25-40: phase ②③ (Deepen + Connect) — hoàn thiện schema + kết nối meta-schema.
+  40+:   phase ④ (Monitor) nếu Connect thành công, hoặc phase ① mới nếu midlife shift.
+  → Improviser ở phase ① DÀI hơn Soldier/Architect → cần phase ③ CHỦ ĐỘNG.
+  → Open loop count cao nhất ở phase ① — nhưng tuổi trẻ neuroplasticity cao → recovery tốt.
+    Rủi ro thật: phase ① KÉO DÀI vào 35+ (plasticity giảm + loop tích lũy lâu).
+    Cần đồng bộ schema (③) + đóng/prune schema thừa. Chi tiết: Mismatch-Patterns.md P12.
 ```
 
 ---

@@ -1226,7 +1226,7 @@ BƯỚC 6: Nhận diện chunk config thật PER DOMAIN → thiết kế environ
 | Giáo dục qua framework lens | Applications/Education.md |
 | Tôn giáo qua framework lens | Research/Religion.md |
 | Ví dụ đối chiếu | Validation/Examples.md |
-| Nhân vật lịch sử | Validation/Characters-Historical.md |
+| Nhân vật lịch sử + hiện đại | Validation/Characters.md |
 
 ---
 

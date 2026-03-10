@@ -1,0 +1,11 @@
+Data.md
+Phase 1: lấy thông tin cơ bản về nhân vật
+		Dự đoán mức độ công khai của tin tức(tỉ lệ thật(cảm tính)/ giả vờ(tuân thủ))
+		Dự đoán tỉ lệ nhiễu(thông tin bị ảnh hưởng bởi tập thể(bản thân muốn giấu, đảng phái, công ty) trước khi cho phép công khai)
+Phase 2: Lấy thông tin từ trên mạng, sắp xếp theo cấu trúc
+
+Profile.md - Phân tích chi tiết tất cả tham số theo cấu trúc + Độ chính xác + Gợi ý tham số chưa đủ thông tin
+Phase 1: Phân tích tổng thể data, liệt kê các đề mục sẽ triển khai
+Chia thành nhiều phase, phân tích chuyên sâu từng phần để tăng độ chính xác
+
+Predict.md - Hỏi phân tích => phân tích tâm lý, dự đoán hành vi, dự đoán tương lai

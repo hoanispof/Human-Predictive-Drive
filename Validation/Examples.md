@@ -4,7 +4,7 @@
 > **Prerequisite:** Core.md (Drive Equation §7, Mô Hình Vuông §8.2, Depth composite §8.9,
 > Compliance derived §8.3, Dopamine inverted-U §6.6, Habituation Blindness §6.7).
 > **Mỗi ví dụ:** vị trí Mô Hình Vuông per domain, drive equation analysis, v5.5 concepts khi relevant.
-> **Liên quan:** Characters-Historical.md, Characters-Modern.md, Characters-Questions.md.
+> **Liên quan:** Characters.md, Deep-Dive-Musk.md, Deep-Dive-Trump.md, Deep-Dive-Xi.md.
 >
 > **⚠️ QUY ƯỚC ĐỌC (v5.5):**
 > - **Compliance** = CHỈ SỐ PHÁI SINH (chunk_overlap person × group), KHÔNG phải thuộc tính.
@@ -898,7 +898,7 @@ Phân tích v5.5:
 
   v5.5: Convergence = MEASURABLE (ít nhất qualitatively):
     Hỏi "domain A giúp gì cho domain B?" → có answer = convergence evidence
-    Chi tiết: Characters-Modern.md, Deep-Dive-Musk.md
+    Chi tiết: Characters.md, Deep-Dive-Musk.md
 ```
 
 ### J2. ECP — tại sao "ai cũng follow trend"
@@ -960,8 +960,7 @@ Phân tích v5.5:
 | **Applications/Relationships.md** | C1-C5 — tương thích + habituation |
 | **Applications/Reward-Economics.md** | F2, I2 — thưởng + habituation + 6 paths |
 | **Validation/Classic-Questions.md** | A1 ↔ "ổn định", A2 ↔ "đam mê", I5 ↔ "muốn gì" |
-| **Validation/Characters-Historical.md** | Nhân vật lịch sử — cùng phương pháp |
-| **Validation/Characters-Modern.md** | J1 Musk convergence — chi tiết |
+| **Validation/Characters.md** | Nhân vật lịch sử + hiện đại — cùng phương pháp |
 
 ---
 

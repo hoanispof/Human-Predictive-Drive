@@ -1,0 +1,3 @@
+Ask.md - Xây dựng cấu trúc hỏi theo từng layer, để lấp đầy dần profile. Cấu trúc hỏi, bất kỳ ai từ trẻ-già, nam-nữ, bất kỳ nghề nghiệp, hỏi để lấp đầy profile
+Profile.md - Phân tích chi tiết tất cả tham số theo cấu trúc + Độ chính xác + Câu hỏi tiếp theo(chưa đủ thông tin)
+Predict.md - Hỏi về tâm lý, tính cách, phù hợp nghề nghiệp tương lai

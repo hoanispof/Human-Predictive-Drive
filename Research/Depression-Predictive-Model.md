@@ -119,6 +119,14 @@ Trầm cảm = open loop KHÔNG CÓ handle:
 
 → Loop mở VĨNH VIỄN → drain liên tục → suppression dần dần
 
+⚠️ Open loop ≠ schema (Mismatch-Patterns.md P12 Block 5b):
+  Open loop = prediction đang mở. Không phải "thiếu schema" — thường là schema
+  rời rạc (chưa đồng bộ) hoặc schema thừa (chưa đóng/prune).
+  Schema Lifecycle phase ③ Connect (Core.md §6.1) = cơ chế đóng loop tự nhiên.
+  Trầm cảm: loop quá TRỪU TƯỢNG → không có schema cụ thể để kết nối vào
+  → phase ③ không hoạt động + PFC không release được (quá quan trọng: identity, survival)
+  → loop tồn đọng vĩnh viễn → suppression thay vì resolution.
+
 ### 2.3 Cortisol ở mức "vừa đủ hại"
 
 ```
