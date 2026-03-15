@@ -31,7 +31,7 @@ Vô thức cố ĐỒNG BỘ chính nó
   → Phát sinh DESIRE (mong muốn kết quả cụ thể)
   → PFC phục vụ: giả lập HOẶC hành động thực tế
   → Kết quả feedback → vô thức evaluate: "match desire?"
-    → YES → Opioid/Oxytocin fire → sướng → desire fulfilled
+    → YES → Experience/Connection fire → sướng → desire fulfilled
     → NO  → UD âm → thử cách khác → loop
     → PARTIAL → Dopamine signal "gần đúng, tiếp tục"
 
@@ -46,7 +46,7 @@ Container + 3 tầng + Domain:
 
   MÔI TRƯỜNG (Container)  — bao quanh, cung cấp stimuli + context cho UD
   ┌─ CON NGƯỜI ─────────────────────────────────────────────────────┐
-  │  T1: HARDWARE   — set PHẠM VI + nơi DESIRE hình thành           │
+  │  T1: HARDWARE   — Não predict + Cơ thể trả thưởng (ground truth) │
   │  T2: SOFTWARE   — SCHEMA tạo desire states, PFC serve desire     │
   │  T3: HÀNH VI    — execute strategy để FULFILL desire             │
   └─────────────────────────────────────────────────────────────────┘
@@ -57,7 +57,7 @@ KHÔNG PHẢI personality test. Phổ liên tục, per domain, thay đổi theo 
 
 UD = THAM SỐ GỐC DUY NHẤT:
   Mọi thứ trong framework PHỤC VỤ UD:
-    Opioid/Oxytocin = PHƯƠNG TIỆN fulfill desire (reward channels)
+    Experience/Connection (opioid/oxytocin) = PHƯƠNG TIỆN fulfill desire
     Dopamine = SIGNAL "desire approaching/matched" (infrastructure)
     Serotonin = AMPLIFIER (mạnh hơn khi status tốt)
     PFC = CÔNG CỤ giả lập + hành động (servant of UD)
@@ -82,14 +82,14 @@ UD = THAM SỐ GỐC DUY NHẤT:
 ║  ┌────────────────────────────────────────────────────────────┐  ║
 ║  │  CON NGƯỜI (Internal system)                               │  ║
 ║  │                                                            │  ║
-║  │  🧬 T1: HARDWARE (Sinh hóa — Nền tảng)                    │  ║
-║  │  "Não được trang bị gì — nơi DESIRE hình thành"            │  ║
+║  │  🧬 T1: HARDWARE (Não + Cơ thể — Nền tảng)                │  ║
+║  │  "Não predict + cơ thể trả thưởng — desire hình thành ở cả 2"│  ║
 ║  │  ┌─ Lớp 1: SOURCE (nơi desire sống) ──────────────────┐   │  ║
-║  │  │ 😌 Opioid (desire cảm nhận) · 🤝 Oxytocin (desire gắn bó) │  ║
+║  │  │ 😌 Experience (opioid) · 🤝 Connection (oxytocin)        │  ║
 ║  │  │ = 2 nguồn DESIRE duy nhất                           │  │  ║
 ║  │  └──────────────────────────────────────────────────────┘  │  ║
 ║  │  ┌─ Lớp 2: AMPLIFIER (signal + khuếch đại) ───────────┐  │  ║
-║  │  │ 💡 Dopamine ("desire matched!") · Serotonin (×)      │  │  ║
+║  │  │ 💡 Novelty (dopamine) · Status (serotonin)            │  │  ║
 ║  │  └──────────────────────────────────────────────────────┘  │  ║
 ║  │  ┌─ Lớp 3: MODULATOR (fine-tuning) ───────────────────┐   │  ║
 ║  │  │ Cortisol · NE · Vasopressin · Prolactin · Endo-CB   │  │  ║
@@ -98,8 +98,8 @@ UD = THAM SỐ GỐC DUY NHẤT:
 ║  │  │ WM Capacity · Threshold · UD Sensitivity             │  │  ║
 ║  │  └──────────────────────────────────────────────────────┘  │  ║
 ║  │  ┌─ Processing Infrastructure ──────────────────────────┐  │  ║
-║  │  │ PFC (conductor OF desire) · Amygdala · BG · DMN · ...│  │  ║
-║  │  │ PFC = nhạc trưởng PHỤC VỤ vô thức, không tự compute │  │  ║
+║  │  │ PFC (arbitrator) · Amygdala · BG · DMN · Insula · ACC │  │  ║
+║  │  │ PFC = trọng tài phân xử giữa schemas, không tự compute│  │  ║
 ║  │  └──────────────────────────────────────────────────────┘  │  ║
 ║  │                                                            │  ║
 ║  │          ↓ desire states formed                            │  ║
@@ -121,7 +121,7 @@ UD = THAM SỐ GỐC DUY NHẤT:
 ║  │  └──────────────────────────────────────────────────────┘  │  ║
 ║  │  ┌─ Emotion ───────────────────────────────────────────┐   │  ║
 ║  │  │ READOUT of UD state (cross-cutting signal)           │  │  ║
-║  │  │ Vui=Exp(+) · Buồn=Exp(−)+Desire(+,blocked) · Lo=Des(−)│  │  ║
+║  │  │ Vui=Pres(+) · Buồn=Pres(−)+Des(+,blocked) · Lo=Des(−) │  │  ║
 ║  │  └──────────────────────────────────────────────────────┘  │  ║
 ║  │                                                            │  ║
 ║  │          ↓ decision (serve desire)                         │  ║
@@ -150,12 +150,15 @@ Hành Vi (T3) = Strategy to FULFILL Desire (T2)
 
 Luồng:
   Vô thức (T1+T2) → desire hình thành (schema không đồng bộ)
-  → PFC (T1) chọn strategy (giả lập hoặc hành động)
+  → PFC (T1-não) predict: "hành vi nào tốt cho CƠ THỂ?"
+    → PFC mạnh: predict dài hạn (sustainable body reward)
+    → PFC yếu: default schema mạnh nhất (short-term body reward)
+  → Giả lập trước (optional): body respond NHẸ → preview → decide
   → Execute (T3) trong Container
-  → Kết quả feedback → vô thức evaluate: match desire?
-  → Match → Opioid/Oxytocin fire → desire fulfilled → schema đồng bộ
-  → Mismatch → UD âm → PFC thử strategy khác → loop
-  → Domain = benchmark: match domain = effective, mismatch = fail
+  → CƠ THỂ (T1-body) nhận kết quả THỰC TẾ → opioid/oxytocin respond
+  → Body signal LÊN não: "tốt/không tốt" (ground truth)
+  → Schema update based on BODY response → loop
+  → Domain = benchmark: match domain = body reward effective
 ```
 
 ### 1.1 UD Vocabulary — Thay thế "PE" bằng thuật ngữ chính xác
@@ -165,11 +168,13 @@ THAY VÌ 1 từ "PE" gánh 7 nghĩa, UD dùng NHIỀU từ:
 
   UD Signal:      Dopamine fire (desire approaching/matched)
   UD per schema:  desire state CỦA 1 schema cụ thể
-  UD State:       {Experience, Desire, Coherence} aggregate tổng thể
-    Experience:   hiện tại đang trải nghiệm gì (+/0/−) ↔ Opioid/Oxytocin
-    Desire:       tương lai mong muốn gì (+/0/−/blocked) ↔ Dopamine seeking
+  UD State:       {Present, Desire, Coherence} aggregate tổng thể
+    Present:      hiện tại đang trải nghiệm gì (+/0/−) ↔ Experience/Connection
+    Desire:       tương lai mong muốn gì (+/0/−/blocked) ↔ Novelty seeking
     Coherence:    schemas đồng hướng hay conflict (high/low)
-  UD Drive:       Desire → motivation cho hành vi cụ thể
+  UD Arbitration: PFC phân xử giữa schemas → chọn schema → Drive
+                  PFC mạnh: predict xa, fair. PFC yếu: loudest wins.
+  UD Drive:       KẾT QUẢ arbitration → motivation cho hành vi cụ thể
   UD Readout:     Emotion = đọc UD State ra conscious
 
 "Chán" decompose thành 3 loại:
@@ -179,7 +184,7 @@ THAY VÌ 1 từ "PE" gánh 7 nghĩa, UD dùng NHIỀU từ:
 
 "Đồng bộ chunk xấu":
   PE: predicted correct → PE = 0 → nên bình thường? ❌
-  UD: desire VIOLATED → Experience(−) → buồn/đau ✅
+  UD: desire VIOLATED → Present(−) → buồn/đau ✅
       Nếu desire VẪN active + blocked → buồn (muốn nhưng không được)
       Nếu desire dead → đau (chịu vậy)
 
@@ -209,7 +214,7 @@ UD-specific insight:
 
 ---
 
-## 4. T1: Hardware — Nơi Desire Hình Thành
+## 4. T1: Hardware — Não + Cơ Thể (Nơi Desire Hình Thành + Trả Thưởng)
 
 ### 4.1 Neurochemistry 3 Lớp
 
@@ -217,18 +222,23 @@ UD-specific insight:
 ╔══════════════════════════════════════════════════════╗
 ║  LỚP 1: SOURCE — "Con người muốn gì?"               ║
 ║                                                      ║
-║  OPIOID                    OXYTOCIN                  ║
+║  EXPERIENCE (opioid)       CONNECTION (oxytocin)     ║
 ║  Desire về CẢM NHẬN        Desire về GẮN BÓ          ║
 ║  taste, beauty, warmth,    connection, belonging,     ║
 ║  coherence, pleasure       understanding, being seen  ║
 ║                                                      ║
 ║  = 2 nguồn DESIRE duy nhất                           ║
-║  = NƠI UD SỐNG                                       ║
+║  = CẢM NHẬN CƠ THỂ — nơi THỰC SỰ trả thưởng        ║
+║    (opioid/oxytocin receptors: não + ruột + da + cơ)  ║
+║  = Body = người ĐÁNH GIÁ cuối cùng (ground truth)    ║
+║  = PFC chỉ PREDICT, body mới CONFIRM reward          ║
+║  = Giả lập (imagination) → body respond NHẸ (preview)║
+║    Thực tế (reality) → body respond MẠNH (confirm)   ║
 ║  = Mọi hành vi cuối cùng serve 1 trong 2 (hoặc cả 2)║
 ╠══════════════════════════════════════════════════════╣
 ║  LỚP 2: AMPLIFIER — "Signal + khuếch đại"           ║
 ║                                                      ║
-║  DOPAMINE                  SEROTONIN                 ║
+║  NOVELTY (dopamine)        STATUS (serotonin)        ║
 ║  "Desire matched!"         "Tôi ở vị trí tốt!"      ║
 ║  Detect + signal           Multiply + stabilize      ║
 ║  Mở rộng tìm kiếm         Củng cố confidence        ║
@@ -318,21 +328,27 @@ BASELINE DRIVE — Observable metric (EMERGENT, không phải parameter input)
 ### 4.3 Processing Infrastructure
 
 ```
-PFC = Conductor OF DESIRE (không phải conductor of prediction)
-  → PFC KHÔNG tạo desire — PFC PHỤC VỤ desire
-  → Vô thức desire → PFC chọn strategy → execute → evaluate
+PFC = TRỌNG TÀI phục vụ BODY (không phải decision-maker)
+  → PFC KHÔNG tạo desire, KHÔNG trả thưởng, KHÔNG tự tính toán
+  → PFC chỉ PHÂN XỬ: "schema nào → body reward tốt nhất?"
+  → Body (opioid/oxytocin) = người ĐÁNH GIÁ cuối cùng (ground truth)
+  → Chi tiết PFC sub-regions + profiles + training: Research/PFC-Analysis.md
 
-  1. Vô thức: "có gì đó cần fulfill" (desire signal)
-  2. PFC: chọn strategy (try approach X)
-  3. PFC: giả lập hoặc execute
-  4. Vô thức: evaluate result ("match desire?")
-  5. Match → opioid/oxytocin. Mismatch → try again.
+  1. Body + vô thức: "có gì đó cần fulfill" (desire signal)
+  2. PFC: predict strategy (hành vi nào → body reward?)
+     → PFC mạnh: predict dài hạn (sustainable reward)
+     → PFC yếu: default schema mạnh nhất (short-term reward)
+  3. PFC: giả lập trước → body respond NHẸ (preview)
+  4. PFC: execute hành vi thật
+  5. Body: nhận kết quả → opioid/oxytocin respond (ground truth)
+  6. Body signal lên não → schema update → PFC learn
 
-  = Giám đốc PHỤC VỤ team:
-    Team (vô thức) nói "cần cái này"
-    Giám đốc (PFC) tìm cách đáp ứng
-    Team evaluate kết quả
-    Giám đốc NGHĨ mình quyết định — thực ra team drive
+  = GPS phục vụ XE:
+    GPS (PFC) predict đường tốt nhất
+    Xe (body) ĐI đường đó → CẢM NHẬN đường
+    Đường tốt → xe êm (opioid) → GPS: "đường này tốt, nhớ"
+    Đường xấu → xe xóc (cortisol) → GPS: "tránh đường này"
+    GPS NGHĨ mình chọn đường — thực ra xe quyết định đường nào "tốt"
 
   PFC Activation Level — DYNAMIC STATE (không phải parameter):
     = PFC đang AVAILABLE bao nhiêu % TẠI THỜI ĐIỂM NÀY
@@ -389,6 +405,8 @@ Modality Channels — hardware infrastructure cho encoding:
     → Fix desire = fix ở ĐÚNG modality, không chỉ nói/nghĩ
     → CBT fix verbal. Exposure fix somatic + emotional. Practice fix motor.
     → Deep desire = encoded ở NHIỀU modalities → khó fix → cần NHIỀU approaches
+
+→ Chi tiết PFC sub-regions + profiles + training: Research/PFC-Analysis.md
 ```
 
 ---
@@ -449,15 +467,23 @@ Schema Override Power:
 ### 5.3 Drive Equation — UD Version
 
 ```
-DRIVE = UD Fulfillment Expected − Cost
+DRIVE = PFC predict BODY REWARD − Cost
 
-  UD_expected = Σ(desire_i × predicted_match_i) − Σ(pre_simulated_i)
+  PFC predict: "hành vi này → body (opioid/oxytocin) respond bao nhiêu?"
 
-  desire_i:        unconscious desire thứ i (Lớp 1: opioid/oxytocin)
-  predicted_match:  reality/action sẽ match desire bao nhiêu? (0→1)
-  pre_simulated:   đã tưởng tượng/trải qua bao nhiêu? (giảm remaining desire)
+  UD_expected = Σ(desire_i × predicted_body_reward_i) − Σ(pre_simulated_i)
+
+  desire_i:            body desire thứ i (opioid: cảm nhận / oxytocin: gắn bó)
+  predicted_body_reward: PFC predict body sẽ reward bao nhiêu? (0→1)
+  pre_simulated:        đã giả lập → body đã preview respond → giảm remaining
 
   Cost = effort (PFC load) + threat (cortisol) + social + opportunity
+
+  PFC predict HORIZON quyết định hành vi:
+    PFC yếu:      predict 5 phút  → chọn body reward NGAY (ăn junk, scroll MXH)
+    PFC vừa:      predict 1 ngày  → balance ngắn/dài hạn
+    PFC mạnh:     predict tháng/năm → chọn SUSTAINABLE body reward
+    PFC cực mạnh: predict cả đời  → "legacy", "meaning" (L5 desire)
 
 So sánh:
   PE-centric:  DRIVE = Surprise expected − Cost
@@ -510,7 +536,7 @@ Emotion = SIGNAL về trạng thái UD (không phải PE):
                 └────────────────────┴────────────────────┘
 
 ⚠️ Table trên dùng "UD âm/dương" = view ĐƠN GIẢN (1 chiều).
-   Xem §5.6 cho model chi tiết hơn: Experience × Desire × Coherence (3 chiều).
+   Xem §5.6 cho model chi tiết hơn: Present × Desire × Coherence (3 chiều).
 
 UD-specific insights:
   Xúc động = deep desire CONFIRMED → opioid + oxytocin burst
@@ -521,15 +547,15 @@ UD-specific insights:
   → UD giải thích trực tiếp (confirming = desire match → dopamine)
 ```
 
-### 5.6 UD State — Trạng Thái Tổng Thể {Experience, Desire, Coherence}
+### 5.6 UD State — Trạng Thái Tổng Thể {Present, Desire, Coherence}
 
 ```
 Nhiều schema chạy SONG SONG → nhiều UD SONG SONG → cần AGGREGATE.
 
-UD State = trạng thái tổng thể = {Experience, Desire, Coherence}
+UD State = trạng thái tổng thể = {Present, Desire, Coherence}
 
-CHIỀU 1 — EXPERIENCE (hiện tại):
-  = Opioid/Oxytocin ĐANG được đáp ứng hay không?
+CHIỀU 1 — PRESENT (hiện tại):
+  = Experience/Connection ĐANG được đáp ứng hay không?
   (+): đang tốt (ăn ngon, ôm người thân, yên tâm có người yêu)
   (0): bình thường, baseline (có oxy thở — không nghĩ tới)
   (−): đang bị vi phạm (đau, bị bỏ rơi, mất mát)
@@ -546,42 +572,45 @@ CHIỀU 3 — COHERENCE (bổ sung):
   Cao: decisive, rõ ràng
   Thấp: conflicted, rối
 
-Ma trận Experience × Desire:
+Ma trận Present × Desire:
 
                  Desire (+)         Desire (0)         Desire (−)
                  (muốn thêm)       (không mong gì)    (dự đoán xấu)
               ┌─────────────────┬─────────────────┬─────────────────┐
-Experience(+) │ HÁNG HÁI        │ THỎA MÃN        │ HẠNH PHÚC + LO │
+Present (+)   │ HÁNG HÁI        │ THỎA MÃN        │ HẠNH PHÚC + LO │
 (đang tốt)    │ excited          │ content          │ anxious joy    │
               ├─────────────────┼─────────────────┼─────────────────┤
-Experience(0) │ MONG CHỜ         │ BÌNH THƯỜNG      │ LO ÂU          │
+Present (0)   │ MONG CHỜ         │ BÌNH THƯỜNG      │ LO ÂU          │
 (bình thường) │ anticipation     │ neutral          │ anxiety        │
               ├─────────────────┼─────────────────┼─────────────────┤
-Experience(−) │ BUỒN             │ ĐAU              │ TUYỆT VỌNG     │
+Present (−)   │ BUỒN             │ ĐAU              │ TUYỆT VỌNG     │
 (đang xấu)    │ sadness          │ pain             │ despair        │
               │ (muốn nhưng      │ (chịu vậy)       │ (xấu + sẽ      │
               │  không được)     │                  │  xấu hơn)      │
               └─────────────────┴─────────────────┴─────────────────┘
 
 Neurochemistry map:
-  Experience ↔ Opioid/Oxytocin hiện tại (Lớp 1 Source)
-  Desire     ↔ Dopamine seeking (Lớp 2 Amplifier)
+  Present    ↔ Experience + Connection hiện tại (Lớp 1 Source)
+  Desire     ↔ Novelty seeking (Lớp 2 Amplifier)
   Coherence  ↔ Schema alignment (Software layer)
 
 "Chán" decompose thành 3 loại:
-  Type A: UD EXHAUSTED → bình an, đủ rồi (Experience 0, Desire 0, Coherence HIGH)
-  Type B: UD MISMATCH → restless, muốn thêm (Experience 0, Desire +, context trống)
-  Type C: UD SUPPRESSED → anhedonia (Experience −, Desire suppressed, dopamine broken)
+  Type A: UD EXHAUSTED → bình an, đủ rồi (Present 0, Desire 0, Coherence HIGH)
+  Type B: UD MISMATCH → restless, muốn thêm (Present 0, Desire +, context trống)
+  Type C: UD SUPPRESSED → anhedonia (Present −, Desire suppressed, Novelty broken)
   → PE cũ: cả 3 = "PE=0". UD: 3 loại khác nhau → 3 treatments khác nhau.
 
 Luồng:
-  Schemas → UD per schema → UD State {Experience, Desire, Coherence}
+  Schemas → UD per schema → UD State {Present, Desire, Coherence}
     ├→ Emotion: readout UD State ra conscious
-    │   Vui = Experience(+). Buồn = Experience(−) + Desire(+, blocked).
+    │   Vui = Present(+). Buồn = Present(−) + Desire(+, blocked).
     │   Lo = Desire(−). Chán = 3 types khác nhau.
-    ├→ Drive per action: extract motivation cụ thể
-    │   DRIVE = Desire(specific) − Cost
-    └→ PFC: monitor, điều phối coherence
+    ├→ UD Arbitration: PFC phân xử giữa schemas (xem §5.8)
+    │   PFC predict body reward per option → CHỌN schema → Drive
+    │   Level 1 (PFC off): loudest wins. Level 2: short-term. Level 3: long-term.
+    ├→ Drive per action: KẾT QUẢ arbitration → motivation cụ thể
+    │   DRIVE = Desire(selected by arbitration) − Cost
+    └→ Execute → Body respond → Schema update → loop
 
 → Chi tiết: UD-Hypothesis.md §4.8 + §4.9
 ```
@@ -592,11 +621,11 @@ Luồng:
 CASE 1: Sáng thứ 2 đi làm — Multi-schema conflict phổ biến nhất
 
   Schema A (career): "phải productive" → Desire(+)
-  Schema B (comfort): "muốn ngủ thêm" → Experience(+, giường ấm)
+  Schema B (comfort): "muốn ngủ thêm" → Present(+, giường ấm)
   Schema C (social): "sếp sẽ đánh giá" → Desire(−, threat)
   Schema D (identity): "tôi là người có trách nhiệm" → Desire(+)
 
-  UD State: Experience(+) × Desire(mixed) × Coherence(LOW)
+  UD State: Present(+) × Desire(mixed) × Coherence(LOW)
   → Mâu thuẫn → khó chịu → ai thắng TÙY HÔM ĐÓ:
     Ngủ đủ → PFC available → Schema D win → dậy đi làm
     Thiếu ngủ → PFC yếu → Schema B win → snooze
@@ -610,7 +639,7 @@ CASE 2: Lướt MXH lúc 11 đêm — Micro-desire loop
   Schema B: "thêm 1 post nữa" → micro-desire liên tục RENEW
   Schema C: "sợ miss gì đó" → Desire(−, FOMO)
 
-  UD State: Experience(0) × Desire(mixed, micro) × Coherence(LOW)
+  UD State: Present(0) × Desire(mixed, micro) × Coherence(LOW)
   → Mỗi scroll = micro UD fulfill → dopamine nhẹ → desire MỚI ngay
   → Không bao giờ "xong" vì desire RENEW mỗi post
   → PFC: "nên ngủ" nhưng THUA micro-dopamine loop
@@ -625,12 +654,12 @@ CASE 3: Cãi nhau với người yêu xong im lặng — Multi-blocked desire
   Schema A (connection): desire ôm, làm hòa → Desire(+, BLOCKED bởi pride)
   Schema B (pride): "mình đúng" → Desire(+, win)
   Schema C (fear): "xin lỗi = yếu thế" → Desire(−, threat)
-  Schema D (love): "mình yêu họ" → Experience(−, đang thiếu connection)
+  Schema D (love): "mình yêu họ" → Present(−, đang thiếu connection)
 
-  UD State: Experience(−) × Desire(+, MULTI-BLOCKED) × Coherence(RẤT THẤP)
+  UD State: Present(−) × Desire(+, MULTI-BLOCKED) × Coherence(RẤT THẤP)
   → CỰC KHÓ CHỊU — muốn nhiều thứ MÂU THUẪN NHAU
   → Thường: ai có Schema C (fear) yếu hơn → nhượng bộ trước
-  → Hoặc: đủ lâu → Experience(−) tích lũy vượt Schema B → "thôi xin lỗi"
+  → Hoặc: đủ lâu → Present(−) tích lũy vượt Schema B → "thôi xin lỗi"
   → Tại sao cãi nhau lâu = KHỔ: Coherence thấp + Experience âm + Desire blocked
 ```
 
@@ -642,13 +671,13 @@ CASE 4: Cùng event, khác schema depth → khác hành vi
   Người A (schema sâu: "tôi có giá trị"):
     L5 stable → Experience baseline ok
     Surface: "sếp sai" → Desire(+, chứng minh)
-    UD State: Exp(−, nhẹ) × Des(+, clear) × Coh(HIGH)
+    UD State: Pres(−, nhẹ) × Des(+, clear) × Coh(HIGH)
     → Motivated anger → hành vi: chứng minh sếp sai
 
   Người B (schema sâu: "tôi vô giá trị"):
     L5 bất ổn → Experience baseline đã thấp
     Surface: "sếp đúng, mình kém" → Desire(+, blocked)
-    UD State: Exp(−, nặng) × Des(+, blocked) × Coh(LOW)
+    UD State: Pres(−, nặng) × Des(+, blocked) × Coh(LOW)
     → Depression trigger → hành vi: im lặng, tránh né
 
   → CÙNG event, KHÁC schema profile → KHÁC UD State → KHÁC hành vi
@@ -657,6 +686,81 @@ CASE 4: Cùng event, khác schema depth → khác hành vi
 INSIGHT: "Tính cách" = pattern ỔN ĐỊNH của schema + UD,
          không phải label cố định.
          Thay đổi schema → thay đổi UD pattern → thay đổi "tính cách"
+```
+
+### 5.8 UD Arbitration — PFC Phân Xử Giữa Các Schema
+
+```
+ĐỊNH NGHĨA:
+  UD State = BẢNG TỶ SỐ (passive, mô tả trạng thái)
+  UD Arbitration = TRỌNG TÀI (active, phân xử → quyết định hành vi)
+
+  PFC = trọng tài giữa các schemas:
+    → PFC KHÔNG có desire riêng
+    → PFC nghe TẤT CẢ schemas → predict body reward mỗi option → PHÂN XỬ
+    → Giống trọng tài: không đá bóng, chỉ phân xử ai thắng
+
+LUỒNG HOÀN CHỈNH:
+  Schemas → UD per schema → UD State (aggregate)
+    → UD Arbitration (PFC predict + phân xử)
+      → Drive (specific action)
+        → T3 Hành Vi
+          → Body respond (ground truth)
+            → Schema update → loop
+
+3 LEVELS CỦA UD ARBITRATION:
+
+  LEVEL 1 — PFC OFFLINE (yếu/mệt/say/stress):
+    → KHÔNG có arbitration thực sự
+    → Schema MẠNH NHẤT tự win (loudest signal)
+    → = Autopilot: BG (habit) hoặc Amygdala (threat) điều khiển
+    → Ví dụ: mệt → ăn junk food (schema "ngon" loudest)
+    → Ví dụ: say → nói thật (schema suppressed lúc tỉnh → release)
+
+  LEVEL 2 — PFC MODERATE (bình thường):
+    → PFC scan UD States → predict NGẮN-TRUNG HẠN
+    → Chọn schema có predicted body reward CAO NHẤT trong 1 ngày-1 tuần
+    → Suppress tạm schemas khác (tốn PFC resource)
+    → Ví dụ: "đói nhưng deadline → làm xong rồi ăn ngon hẳn"
+
+  LEVEL 3 — PFC STRONG (trained/rested/high capacity):
+    → PFC scan UD States → predict DÀI HẠN (tháng-năm-đời)
+    → Có thể CHỌN schema ÂM bây giờ vì DƯƠNG về sau
+    → Có thể phân xử giữa nhiều options PHỨC TẠP + mâu thuẫn
+    → Thậm chí: chọn điều CHÍNH MÌNH CŨNG THẤY ĐAU khi chọn
+    → Ví dụ: nguyên thủ ra quyết định hy sinh chiến thuật
+      Schema "bảo vệ quân": UD = −5
+      Schema "cứu dân dài hạn": UD = +8
+      → PFC predict: net body reward dài hạn (+4) > không hy sinh (−8)
+      → CHỌN dù Experience NGAY = cực âm
+      → = "Quyết định khó khăn" = Level 3 arbitration
+
+PFC PREDICT HORIZON quyết định chất lượng arbitration:
+  PFC yếu:       predict 5 phút → body reward NGAY
+  PFC vừa:       predict 1 ngày → balance ngắn/dài
+  PFC mạnh:      predict tháng/năm → sustainable reward
+  PFC cực mạnh:  predict cả đời → legacy, meaning (L5 desire)
+
+  → "Delayed gratification" KHÔNG phải "chịu khó"
+  → = PFC predict CHÍNH XÁC rằng body reward DÀI HẠN > ngắn hạn
+  → Marshmallow test: trẻ wait = PFC đủ mature predict xa
+  → Trẻ không wait = PFC chưa đủ predict horizon
+
+ARBITRATION vs SUPPRESSION — khác nhau:
+  Arbitration: CHỌN schema A, schema B TẠM CHỜ (acknowledged, sẽ quay lại)
+    → Cost: vừa phải, sustainable
+    → Schema B biết "sẽ đến lượt" → UD âm nhẹ
+
+  Suppression: CHỌN schema A, schema B BỊ ÉP IM (denied, pretend không có)
+    → Cost: CAO, PFC resource bị tiêu hao liên tục
+    → Schema B bị suppress → tích lũy → explosion hoặc burnout
+    → Tại sao suppress MÃI → mệt: PFC resource FINITE
+
+  → Trọng tài GIỎI: "B chờ, A đi trước, B sẽ đến lượt sau"
+  → Trọng tài TỆ: "B câm đi!" → B tích lũy → nổ
+
+  ⚠️ Journaling/therapy giúp: externalize schemas → PFC bớt giữ
+     → Arbitration DỄ HƠN khi schemas được NHÌN THẤY rõ ràng
 ```
 
 ---
@@ -669,24 +773,29 @@ INSIGHT: "Tính cách" = pattern ỔN ĐỊNH của schema + UD,
 Hành vi KHÔNG phải "response to prediction error"
 Hành vi = STRATEGY để FULFILL desire
 
-3 con đường fulfill:
+3 con đường fulfill — khác nhau ở BODY RESPONSE fidelity:
 
   A. IMAGINATION (Con đường giả lập):
-     → PFC tưởng tượng → vô thức evaluate → opioid NHẸ
-     → Nhanh, không tốn effort. UD fulfillment nhẹ (simulation fidelity < reality).
-     → Risk: over-simulate → desire pre-fulfilled → gặp thật hết hứng.
+     → PFC tưởng tượng → body respond NHẸ (preview, ~20-40% fidelity)
+     → Evolutionary advantage: test 100 scenarios × body preview → chọn 1
+     → Nhanh, không tốn effort, giảm risk.
+     → Limitation: body BIẾT là giả → reward không bền (= draft, chưa final)
+     → Risk: over-simulate → body đã preview đủ → gặp thật hết hứng
 
   B. REALITY (Con đường thực tế):
-     → PFC execute hành vi → kết quả thật → vô thức evaluate
-     → Opioid/Oxytocin MẠNH (reality fidelity cao).
-     → Multi-modal encoding → nhiều desire channels cùng lúc.
+     → Execute hành vi → body nhận kết quả THẬT → opioid/oxytocin MẠNH (~100%)
+     → Multi-modal: da cảm nhận, mắt thấy, tai nghe → body TOÀN DIỆN respond
+     → = Final version. Body confirm: "ĐÚNG, cái này tốt thật"
+     → Tại sao thực tế > tưởng tượng: body fidelity 100% vs 20-40%
 
   C. EXTERNAL VALIDATION (Con đường xác nhận):
-     → Người khác confirm → opioid + oxytocin DOUBLE fire
-     → Mạnh nhất: coherence (opioid) + "được hiểu" (oxytocin)
-     → Tại sao nhà khoa học cần publish, nghệ sĩ cần khán giả
+     → Người khác confirm → opioid (coherence) + oxytocin (connection) DOUBLE
+     → Body nhận THÊM signal: "không chỉ tôi thấy đúng — DOMAIN cũng confirm"
+     → Mạnh nhất vì: body reward từ 2 channels + external ground truth
+     → Tại sao nhà khoa học cần publish, nghệ sĩ cần khán giả:
+       body MUỐN reality confirm, không chỉ self-confirm
 
-  Ideal cycle: A (imagine) → B (do) → C (validate) = full fulfillment
+  Ideal cycle: A (preview) → B (confirm) → C (validate) = full body reward
 ```
 
 ### 6.2 Mô Hình Vuông — Giữ nguyên
@@ -855,7 +964,7 @@ Trẻ nhỏ (2-6):
 
 Thiếu niên (12-18):
   UD identity + belonging + status
-  → Serotonin bắt đầu matter. Oxytocin desire MẠNH.
+  → Status (serotonin) bắt đầu matter. Connection desire MẠNH.
   → L5 firmware LAST MAJOR REVISION
 
 Trưởng thành:
@@ -913,8 +1022,11 @@ Human Predictive Drive/
 │   ├── UD-Hypothesis.md                 ← UD giả thiết chi tiết + 24 cases
 │   ├── UD-Parenting.md                  ← UD trong phát triển trẻ em
 │   ├── Threshold-Analysis.md            ← Threshold decompose + 6 cases
-│   ├── Component-Interaction-Map.md     ← Schema + brain analysis
-│   ├── Emotion-Map.md                   ← Emotion mapping
+│   ├── Drive-Optimization.md           ← ★ Amplifier Trap + Sustainable Peak
+│   ├── PFC-Analysis.md                 ← ★ PFC sub-regions + profiles + training
+│   ├── Parameters-Review.md            ← Tham số cần clarify (①②③④)
+│   ├── Component-Interaction-Map.md    ← Schema + brain analysis
+│   ├── Emotion-Map.md                  ← Emotion mapping
 │   └── ...
 ├── Core-Deep-Dive/                      ← Đào sâu per component
 └── Validation/                          ← Kiểm chứng
@@ -940,7 +1052,7 @@ Framework-specific:
   3 con đường fulfill (Imagination/Reality/Validation) 🔴
   UD Parenting (attachment = UD calibration) 🔴
   Container model 🔴
-  PFC as conductor OF desire 🟡
+  PFC as arbitrator OF desire (trọng tài, không phải nhạc trưởng) 🟡
 ```
 
 ---

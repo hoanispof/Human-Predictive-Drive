@@ -1,5 +1,8 @@
 # Layer Architecture Draft — Tái Cấu Trúc Framework
 
+> **⚠️ TERMINOLOGY NOTE:** File này dùng thuật ngữ CŨ (PE, conductor, Opioid/Oxytocin channels).
+> Thuật ngữ MỚI (UD, arbitrator/trọng tài, Experience/Connection): xem Core-v7-UD.md
+>
 > **Trạng thái:** DRAFT v4 — tài liệu nghiên cứu tạm, chưa thay thế Core.md
 > **Ngày:** 2026-03-12
 > **Nguồn gốc:** Phân tích sâu từ conversation về PE Sensitivity ③ Habituation Rate,

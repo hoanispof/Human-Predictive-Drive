@@ -101,7 +101,7 @@ Phân biệt REAL contentment vs Suppression:
   Real contentment:                    Suppression:
   ──────────────────                   ──────────────────
   "Tôi đủ rồi" + bình an             "Mặc kệ" + flat/numb
-  Desire thấp + Experience(+)         Desire suppressed + Experience(0/−)
+  Desire thấp + Present(+)            Desire suppressed + Present(0/−)
   Có thể articulate "tôi vui vì..."  Khó articulate "tôi vui vì..."
   Khi cơ hội đến → "ok, thử cũng vui" Khi cơ hội đến → "để làm gì"
   Energy bình thường                   Energy thấp

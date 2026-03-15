@@ -1,5 +1,8 @@
 # Component Interaction Map — Bản Đồ Tương Tác Giữa Các Thành Phần
 
+> **⚠️ TERMINOLOGY NOTE:** File này dùng thuật ngữ CŨ (PE, conductor/nhạc trưởng, Opioid/Oxytocin channels).
+> Thuật ngữ MỚI (UD, arbitrator/trọng tài, Experience/Connection): xem Core-v7-UD.md
+>
 > **DRAFT v9** — Mục đích: map TẤT CẢ tương tác giữa các thành phần framework,
 > giúp tìm kiến trúc sắp xếp hợp lý để quan sát phần lớn tương tác.
 > v2: Thêm §9 Schema Decomposition — phân tích "schema" có phải 1 thứ hay nhiều thứ gộp.

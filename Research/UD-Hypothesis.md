@@ -729,9 +729,10 @@ PFC KHÔNG tạo desire — PFC PHỤC VỤ desire:
 6. Loop cho đến desire fulfilled
 
 → PFC = công cụ CỦA vô thức, không phải chủ nhân
-→ Consistent với phân tích trước: PFC = conductor, không compute
-→ UD add thêm: conductor nhận DIRECTION từ orchestra (vô thức),
-   không phải conductor RA LỆNH cho orchestra
+→ Consistent với phân tích trước: PFC = trọng tài, không compute
+→ UD add thêm: trọng tài nhận SIGNAL từ các schemas (vô thức),
+   không phải trọng tài RA LỆNH cho schemas
+   (đổi từ "conductor/nhạc trưởng" → "arbitrator/trọng tài" — xem PFC-Analysis.md §1)
 ```
 
 ### 4.5 Case Study: Einstein qua lăng kính UD
@@ -1436,7 +1437,7 @@ QUA LENS UD, 7 thứ đó là CÁC THÀNH PHẦN KHÁC NHAU:
   Động lực        →  UD DRIVE (desire unfulfilled → tìm fulfillment)
 ```
 
-#### 4.9.1 Experience × Desire — Refinement của Valence
+#### 4.9.1 Present × Desire — Refinement của Valence
 
 ```
 ⚠️ GHI CHÚ ĐẶT TÊN:
@@ -1480,23 +1481,23 @@ Map vào neurochemistry:
   Desire     ↔ Dopamine MUỐN fire, ĐANG seek (Lớp 2 Amplifier)
 ```
 
-#### 4.9.2 Ma Trận Cảm Xúc — Experience × Desire
+#### 4.9.2 Ma Trận Cảm Xúc — Present × Desire
 
 ```
                  Desire (+)          Desire (0)         Desire (−)
                  (muốn thêm)        (không mong gì)    (dự đoán xấu)
               ┌──────────────────┬──────────────────┬──────────────────┐
-Experience(+) │ HÁNG HÁI         │ THỎA MÃN         │ HẠNH PHÚC + LO  │
+Present(+) │ HÁNG HÁI         │ THỎA MÃN         │ HẠNH PHÚC + LO  │
 (đang tốt)    │ "Đang vui VÀ     │ "Đang tốt,       │ "Đang tốt nhưng │
               │  muốn thêm"      │  đủ rồi"         │  sợ mất"        │
               │ = excited         │ = content         │ = anxious joy   │
               ├──────────────────┼──────────────────┼──────────────────┤
-Experience(0) │ MONG CHỜ          │ BÌNH THƯỜNG       │ LO ÂU           │
+Present(0) │ MONG CHỜ          │ BÌNH THƯỜNG       │ LO ÂU           │
 (bình thường) │ "Bình thường      │ "Bình thường,    │ "Bình thường     │
               │  nhưng muốn hơn" │  không sao"      │  nhưng sắp xấu" │
               │ = anticipation    │ = neutral         │ = anxiety       │
               ├──────────────────┼──────────────────┼──────────────────┤
-Experience(−) │ BUỒN              │ ĐAU               │ TUYỆT VỌNG      │
+Present(−) │ BUỒN              │ ĐAU               │ TUYỆT VỌNG      │
 (đang xấu)    │ "Đang xấu VÀ     │ "Đang xấu,       │ "Đang xấu VÀ    │
               │  muốn tốt hơn    │  chịu vậy"       │  sẽ còn xấu hơn"│
               │  nhưng khó"       │ = pain            │ = despair       │
@@ -1510,7 +1511,7 @@ Experience(−) │ BUỒN              │ ĐAU               │ TUYỆT VỌN
 PE cũ: cả 4 = "PE âm" → same label → khác treatment? Không biết.
 UD mới: 4 ô KHÁC NHAU → khác cơ chế → khác treatment.
 
-BUỒN = Experience(−) + Desire(+, BLOCKED)
+BUỒN = Present(−) + Desire(+, BLOCKED)
   = "Đang thiếu/đau" + "Vẫn muốn nhưng BIẾT không được"
   = Desire VẪN ACTIVE + Fulfillment CONFIRMED IMPOSSIBLE
   Cơ chế: Vô thức VẪN chạy loop "muốn → tìm cách → không có cách → muốn"
@@ -1520,7 +1521,7 @@ BUỒN = Experience(−) + Desire(+, BLOCKED)
   → Mỗi phương án thay thế: không match desire gốc → buồn thêm
   → Loop cho đến desire DẦN EXTINCT (grief process)
 
-ĐAU = Experience(−) + Desire(0)
+ĐAU = Present(−) + Desire(0)
   = "Đang xấu" + "Chịu vậy, không mong gì"
   = Desire KHÔNG active, chỉ có violation hiện tại
   Cơ chế: Opioid violated, nhưng không có seeking loop
@@ -1528,7 +1529,7 @@ BUỒN = Experience(−) + Desire(+, BLOCKED)
   Ví dụ: bệnh mãn tính — đau nhưng không mong "hết đau" nữa
   → Resigned pain, không có loop → stable nhưng negative
 
-LO ÂU = Experience(0) + Desire(−)
+LO ÂU = Present(0) + Desire(−)
   = "Hiện tại bình thường" + "Dự đoán tương lai xấu"
   = Desire an toàn THREATENED bởi prediction
   Cơ chế: Dopamine scan cho threat, cortisol tăng, PFC worry loop
@@ -1536,7 +1537,7 @@ LO ÂU = Experience(0) + Desire(−)
   Ví dụ: sắp thi — hiện tại ok, nhưng predict có thể fail
   → Loop tìm cách prevent → CÓ EXIT (chuẩn bị, study)
 
-TUYỆT VỌNG = Experience(−) + Desire(−)
+TUYỆT VỌNG = Present(−) + Desire(−)
   = "Đang xấu" + "Sẽ CÒN xấu hơn"
   = TẤT CẢ desire predicted impossible + hiện tại đã tệ
   Cơ chế: Dopamine COLLAPSED, opioid violated, no exit predicted
@@ -1624,37 +1625,37 @@ UD: 3 loại → 3 strategies → chính xác hơn
 Fulfilled × Unfulfilled = 2 chiều CỤ THỂ (thay thế Valence chung chung)
 Coherence = chiều THỨ 3 (bổ sung)
 
-UD State đầy đủ = {Experience, Desire, Coherence}
+UD State đầy đủ = {Present, Desire, Coherence}
 
-  Experience: hiện tại đang trải nghiệm gì (+/0/−) ↔ Opioid/Oxytocin
-  Desire:     tương lai mong muốn gì (+/0/−/blocked) ↔ Dopamine seeking
+  Present:    hiện tại đang trải nghiệm gì (+/0/−) ↔ Experience/Connection
+  Desire:     tương lai mong muốn gì (+/0/−/blocked) ↔ Novelty seeking
   Coherence:  các schema đồng hướng hay conflict (high/low)
 
 Ví dụ mapping:
 
   Flow state:
-    Experience(+) + Desire(+) + Coherence(HIGH)
+    Present(+) + Desire(+) + Coherence(HIGH)
     "Đang tốt, muốn thêm, biết rõ hướng"
 
   Quarter-life crisis:
-    Experience(+) + Desire(+, CONFUSED) + Coherence(LOW)
+    Present(+) + Desire(+, CONFUSED) + Coherence(LOW)
     "Đang ổn, muốn thêm, nhưng muốn QUÁ NHIỀU THỨ conflict"
 
   Grief:
-    Experience(−) + Desire(+, BLOCKED) + Coherence(HIGH)
+    Present(−) + Desire(+, BLOCKED) + Coherence(HIGH)
     "Đang đau, muốn người đó, biết rõ thiếu gì — nhưng impossible"
 
   Depression:
-    Experience(−) + Desire(0 or suppressed) + Coherence(LOW)
+    Present(−) + Desire(0 or suppressed) + Coherence(LOW)
     "Đang tệ, không muốn gì, không hiểu tại sao"
 
   Anxiety:
-    Experience(0) + Desire(−) + Coherence(HIGH or LOW)
+    Present(0) + Desire(−) + Coherence(HIGH or LOW)
     High coherence: "Biết sợ cái gì" = specific anxiety
     Low coherence: "Sợ nhưng không biết sợ gì" = generalized anxiety
 
 Quan hệ với §4.8:
-  Valence ≈ Experience (nhưng Experience cụ thể hơn — "đang trải nghiệm")
+  Valence ≈ Present (nhưng Present cụ thể hơn — "đang trải nghiệm")
   Coherence = giữ nguyên
   Desire = refine từ "Unfulfilled" — chiều tương lai mà Valence không capture
   → §4.9 REFINE §4.8, không phủ định
@@ -1669,12 +1670,12 @@ Luồng đầy đủ (refined):
     → Mỗi schema có UD riêng:
       UD_i = {desire_strength, experience_now?, desire_predicted?}
     → Aggregate:
-      Experience = Σ(opioid/oxytocin states hiện tại)
+      Present = Σ(Experience/Connection states hiện tại)
       Desire = Σ(desire states tương lai)
       Coherence = mức độ schemas đồng hướng
-    → UD State = {Experience, Desire, Coherence}
+    → UD State = {Present, Desire, Coherence}
       ├→ EMOTION: readout UD State ra conscious
-      │   Vui = Experience(+). Buồn = Experience(−) + Desire(+, blocked).
+      │   Vui = Present(+). Buồn = Present(−) + Desire(+, blocked).
       │   Lo = Desire(−). Chán = 3 types (A/B/C).
       │
       ├→ DRIVE per action: extract từ UD State cho hành vi cụ thể
@@ -1951,7 +1952,7 @@ Active Inference:     UD ≈ conceptual version. Friston = mathematical version.
 Berridge wanting:     UD build ON wanting. Wanting = desire signal.
 Panksepp SEEKING:     UD rất aligned. SEEKING = active desire pursuit.
 Damasio somatic:      Support UD. Body knows (desire) before conscious mind.
-Kahneman System 1/2:  System 1 = unconscious desire system. System 2 = PFC conductor.
+Kahneman System 1/2:  System 1 = unconscious desire system. System 2 = PFC arbitrator.
 Beck schemas:         Schemas have DESIRE component (not just prediction).
 Maslow hierarchy:     Needs = organized desires. UD explains mechanism.
 ```
