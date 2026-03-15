@@ -878,6 +878,831 @@ Einstein tiếp cận từ INTERNAL THOUGHT EXPERIMENT:
    và UD cho explanation COHERENT hơn RPE cho creative process.
 ```
 
+### 4.6 UD là Tham Số Gốc Duy Nhất
+
+```
+Mọi thành phần trong framework cuối cùng PHỤC VỤ một thứ duy nhất:
+  VÔ THỨC CỐ ĐỒNG BỘ CHÍNH NÓ → phát sinh DESIRE → tìm kiếm FULFILLMENT
+
+UD = emergent property từ quá trình vô thức tự đồng bộ.
+Không ai lập trình desire — desire XUẤT HIỆN khi vô thức detect
+"chưa đồng bộ" (thiếu coherence, thiếu connection, thiếu cảm nhận).
+```
+
+#### Mọi thành phần phục vụ UD
+
+```
+Opioid/Oxytocin: PHƯƠNG TIỆN fulfill (2 reward channels duy nhất)
+  → Opioid: fulfill desire về CẢM NHẬN (taste, beauty, coherence)
+  → Oxytocin: fulfill desire về GẮN BÓ (connection, belonging)
+
+Dopamine: SIGNAL "desire approaching/matched" (infrastructure)
+  → Không tạo desire, không fulfill — chỉ BÁO HIỆU
+
+Serotonin: AMPLIFIER cho fulfillment experience
+  → Status tốt → fulfillment CẢM NHẬN mạnh hơn
+
+PFC: CÔNG CỤ giả lập và hành động (servant of UD)
+  → PFC KHÔNG tạo desire — PFC phục vụ desire
+  → PFC chọn strategy, giả lập, hành động — vô thức evaluate
+
+Schema: CẤU TRÚC vô thức — nơi desire HÌNH THÀNH
+  → Schema không đồng bộ → desire xuất hiện
+  → Schema đồng bộ → desire fulfilled → bình an
+
+Hành vi (T3): OUTPUT cuối cùng để fulfill desire trong thực tại
+  → Hành vi = PFC execute strategy → thay đổi môi trường → feedback
+
+→ TẤT CẢ chỉ để phục vụ 1 thứ: UD
+```
+
+#### 3 Con Đường Fulfill Desire
+
+```
+CON ĐƯỜNG A — Giả lập (Imagination):
+  Vô thức desire "quán đẹp"
+  → PFC tưởng tượng quán đẹp
+  → Vô thức evaluate: "ừ, hợp"
+  → Opioid fire NHẸ (simulation fidelity thấp hơn thực tế)
+
+  Đặc điểm:
+    - Nhanh, không tốn effort vật lý
+    - PE THẤP (simulation fidelity < reality)
+    - Nhưng VẪN cho PE — tại sao mơ mộng satisfying nhẹ
+    - Lặp nhiều → pre-simulated tăng → PE giảm dần
+    - Risk: simulate quá nhiều → khi thực tế đến → PE giảm
+      ("tưởng tượng quá kỹ → gặp thật hết hứng")
+
+CON ĐƯỜNG B — Thực tế (Reality):
+  Vô thức desire "quán đẹp"
+  → PFC: đi tìm quán → ĐẾN quán đẹp thật
+  → Vô thức evaluate: "ĐÚNG! Match!"
+  → Opioid fire MẠNH (reality fidelity cao)
+
+  Đặc điểm:
+    - Tốn effort (thời gian, di chuyển, tiền)
+    - PE CAO (reality > simulation)
+    - Multi-modal encoding: visual + somatic + taste + smell
+      → Nhiều modality match = nhiều desire channels fulfilled cùng lúc
+    - Tại sao "trải nghiệm thật" > "đọc về nó"
+
+CON ĐƯỜNG C — Xác nhận bên ngoài (External Validation):
+  Vô thức desire "E=mc² đúng" (desire for coherence)
+  → PFC: viết paper, publish
+  → Cộng đồng xác nhận: "đúng!"
+  → Vô thức evaluate: "domain thực tại CONFIRM!"
+  → Opioid + Oxytocin MASSIVE fire
+
+  Đặc điểm:
+    - Mạnh nhất — vì DOUBLE channel:
+      Opioid (coherence confirmed) + Oxytocin (được HIỂU bởi người khác)
+    - Self-validation chỉ fire Opioid (tự biết đúng)
+    - External validation thêm Oxytocin ("họ cũng thấy đúng!")
+    - Tại sao:
+      Nhà khoa học cần publish
+      Nghệ sĩ cần khán giả
+      Builder cần user
+      → Không phải ego — vì external fulfill THÊM channel
+        mà self-validation không reach được
+```
+
+#### So sánh 3 con đường
+
+```
+                 Imagination    Reality       External Validation
+─────────────────────────────────────────────────────────────────
+Effort           Thấp           Cao           Rất cao
+Fidelity         Thấp           Cao           Cao nhất
+PE strength      Nhẹ            Mạnh          Mạnh nhất
+Channels         1 (opioid nhẹ) Multi-modal   Opioid + Oxytocin
+Risk             Over-simulate  Có thể fail   Có thể bị reject
+Pre-simulation   Nhanh habituate Chậm hơn     Chậm nhất
+Dependency       Tự thân        Môi trường    Người khác
+
+→ Con đường C mạnh nhất nhưng PHỤU THUỘC người khác
+→ Con đường B balance tốt nhất
+→ Con đường A dễ nhất nhưng yếu nhất
+→ Lý tưởng: A (imagine) → B (do) → C (validate) = full cycle
+```
+
+#### UD giải thích drive toàn bộ cuộc đời
+
+```
+Trẻ sơ sinh:
+  UD: desire for warmth (opioid) + connection (oxytocin)
+  → Khóc (hành vi) → mẹ ôm → UD fulfilled → opioid + oxytocin fire
+  → Đơn giản, 2 desire chính, PFC chưa phát triển
+
+Trẻ nhỏ:
+  UD: desire EXPAND — tò mò mọi thứ
+  → Schema ít → nhiều thứ chưa đồng bộ → NHIỀU desire
+  → Dopamine HIGH (liên tục detect "approaching match")
+  → Tại sao trẻ con tò mò VÔ TẬN
+
+Thiếu niên:
+  UD: desire for identity, belonging, status xuất hiện mạnh
+  → Oxytocin desire + Serotonin amplify
+  → Schema đang HÌNH THÀNH ở L4-L5 → turbulent
+
+Trưởng thành:
+  UD: desire CHUYÊN SÂU hơn — career, relationship, meaning
+  → Schema đã stable hơn → ít desire random, nhiều desire targeted
+  → PFC mature → serve UD hiệu quả hơn
+
+Về già:
+  UD: desire GIẢM (nhiều schema đã đồng bộ) + desire "legacy" tăng
+  → Wisdom = nhiều desire đã fulfilled → ít cần thêm
+  → Nostalgia = re-activate old desire → re-fulfill (con đường A)
+  → "Truyền lại kinh nghiệm" = con đường C (external validation cuối đời)
+
+→ UD giải thích TOÀN BỘ trajectory motivation cả đời
+  bằng 1 cơ chế duy nhất: desire hình thành → tìm fulfillment → đồng bộ
+```
+
+### 4.7 PE Decomposition — Tại Sao "PE" Cần Được Thay Thế
+
+```
+⚠️ VẤN ĐỀ GỐC: "PE" (Prediction Error) đang gánh 7 nghĩa khác nhau
+trong 1 từ — giống "schema" trước khi decompose.
+
+PE đang gánh:
+  1. "PE dương mạnh" = cực sướng (eureka)
+  2. "PE dương nhẹ" = vui vui (ăn ngon)
+  3. "PE âm" = buồn/sợ/tức
+  4. "PE = 0" = chán
+  5. "PE" = tín hiệu dopamine
+  6. "PE" = cảm xúc kết quả
+  7. "PE" = động lực hành vi
+
+→ 1 từ gánh 7 nghĩa → phải qualify liên tục
+   ("PE mạnh", "PE nhẹ", "PE âm", "PE = 0")
+→ Confusing, imprecise, error-prone
+```
+
+#### 4.7.1 UD Vocabulary — Thay thế PE bằng thuật ngữ chính xác
+
+```
+THAY VÌ 1 từ "PE", UD dùng NHIỀU từ cho NHIỀU hiện tượng:
+
+THUẬT NGỮ        │ ĐỊNH NGHĨA                           │ THAY THẾ CHO
+═════════════════╪═══════════════════════════════════════╪══════════════
+UD Signal        │ Dopamine fire khi desire              │ "PE signal"
+                 │ approaching/matched (detection)       │
+─────────────────┼───────────────────────────────────────┼──────────────
+UD State         │ Fulfilled / Unfulfilled /             │ "PE dương/âm"
+                 │ Threatened / Exhausted                │
+─────────────────┼───────────────────────────────────────┼──────────────
+UD Drive         │ Unfulfilled desire → motivation       │ "PE drives
+                 │ to seek fulfillment                   │  behavior"
+─────────────────┼───────────────────────────────────────┼──────────────
+UD Readout       │ Emotion = đọc UD state ra conscious   │ "PE = cảm xúc"
+─────────────────┼───────────────────────────────────────┼──────────────
+UD Intensity     │ Mức độ fulfill: nhẹ/vừa/mạnh/        │ "PE mạnh/nhẹ"
+                 │ overwhelming                          │
+─────────────────┼───────────────────────────────────────┼──────────────
+UD Valence       │ Dương (fulfilled) / Âm (unfulfilled   │ "PE dương/âm"
+                 │ hoặc violated)                        │
+```
+
+#### 4.7.2 Mapping cũ → mới chi tiết
+
+```
+CŨ (PE)                MỚI (UD)                    TẠI SAO RÕ HƠN
+──────────────────────────────────────────────────────────────────────
+"PE dương mạnh"        UD fulfilled,               Nói rõ: SỨC MẠNH
+ (eureka, bất ngờ)     high intensity,             từ đâu? = desire
+                       positive valence,            MATCH + BẤT NGỜ +
+                       low pre-simulation           MULTI-CHANNEL
+
+"PE dương nhẹ"         UD fulfilled,               Nói rõ: NHẸL vì đã
+ (ăn ngon quen)        low intensity,              pre-simulated 1 phần
+                       positive valence,            nhưng desire VẪN renew
+                       high pre-simulation          (body desire reset)
+
+"PE âm"                UD violated/                Nói rõ: ÂM vì desire
+ (buồn, sợ, tức)      unfulfilled,                BỊ PHÁ hoặc KHÔNG
+                       negative valence             ĐƯỢC ĐÁP ỨNG
+
+"PE = 0" (chán)        (CẦN DECOMPOSE              PE gộp 3 loại chán
+                        thành 3 loại —              khác nhau thành 1
+                        xem §4.7.3)                 → sai treatment)
+
+"PE từ chunk mới"      UD signal:                  Chunk mới ALONE ≠ PE
+                       "desire approaching"         Phải MATCH desire
+                                                    mới fire
+
+"PE predict hành vi"   UD drive:                   Desire unfulfilled
+                       seek fulfillment             → tìm kiếm. Rõ hơn
+                                                    "PE predict"
+```
+
+#### 4.7.3 Decompose "Chán" — PE gộp, UD tách
+
+```
+⚠️ PE framework: chán = PE = 0. Chỉ 1 loại. 1 treatment.
+UD framework: chán có ÍT NHẤT 3 loại khác nhau:
+
+TYPE A — UD CONTENT (Contentment / bình an):
+  Desire đã fulfilled đủ. Vô thức KHÔNG kỳ vọng thêm.
+  Opioid ổn, Oxytocin ổn. Schema đồng bộ.
+  → KHÔNG thực sự "chán" — đây là BÌNH AN
+  → Trông giống chán từ bên ngoài nhưng BÊN TRONG thoải mái
+  → KHÔNG CẦN can thiệp — đây là trạng thái HEALTHY
+
+  Ví dụ: Sau kỳ nghỉ dài, nằm yên, không muốn gì → contentment
+  PE framework: PE = 0 → "chán" → cần thêm stimulus ❌
+  UD framework: desire fulfilled → content → để yên ✅
+
+TYPE B — UD RESTLESS (Restless boredom / chán bồn chồn):
+  Opioid VẪN MUỐN thêm. Oxytocin VẪN MUỐN thêm.
+  Nhưng context hiện tại KHÔNG cung cấp con đường fulfill.
+  → Desire CÓ nhưng không có TARGET → bồn chồn
+  → CẦN thay đổi context hoặc tìm domain mới
+
+  Ví dụ: Ngồi nhà weekend, "chán nhưng không biết muốn gì"
+  → Vô thức muốn (restless) nhưng PFC không tìm được target
+  → Can thiệp: explore (đi ra ngoài, thử cái mới, gặp người)
+
+  PE framework: PE = 0 → "cần novelty" → đúng nhưng KHÔNG ĐỦ
+  UD framework: desire có nhưng targetless → cần tìm target ✅
+
+TYPE C — UD SUPPRESSED (Anhedonia / chán tê liệt):
+  Desire CÓ ở Lớp 1 (opioid/oxytocin VẪN muốn)
+  Nhưng Lớp 2 BROKEN (dopamine KHÔNG signal, serotonin KHÔNG amplify)
+  → "Biết mình muốn nhưng không thể muốn"
+  → = Depression's anhedonia
+
+  Ví dụ: "Biết đồ ăn ngon nhưng không muốn ăn"
+  → Lớp 1 desire intact. Lớp 2 signal broken.
+  → Can thiệp: Lớp 2 repair (medication SSRIs, behavioral activation)
+    KHÔNG phải "thêm novelty" (PE treatment) — sai target
+
+  PE framework: PE = 0 → "cần novelty" ❌ (novelty KHÔNG fix dopamine broken)
+  UD framework: Lớp 2 broken → fix Lớp 2 ✅ (đúng target)
+
+→ PE gộp 3 loại → cùng treatment → SAI cho Type A (không cần) và Type C (sai target)
+→ UD tách 3 loại → khác treatment → CHÍNH XÁC hơn
+→ Đây là 1 trong những lợi thế mạnh nhất của UD so với PE
+```
+
+#### 4.7.4 Case Quyết Định: "Đồng bộ chunk xấu"
+
+```
+Tình huống: Bạn NGHI người yêu ngoại tình. Bạn hỏi. Đúng thật.
+
+PE framework:
+  Prediction: "anh ấy ngoại tình" (đã nghi)
+  Reality: đúng thật
+  PE = actual − predicted = 0 (prediction ĐÚNG)
+  → PE = 0 → nên BÌNH THƯỜNG? ❌
+  → Nhưng thực tế: CỰC KỲ BUỒN, đau khổ
+  → PE phải thêm "reward PE" vs "non-reward PE" vs "emotional value"
+    → Ad hoc, patch lên patch
+
+UD framework:
+  Desire: "anh ấy yêu tôi, chung thủy" (oxytocin desire)
+  Reality: "anh ấy ngoại tình" (desire VIOLATED)
+  UD = desire CONFIRMED UNFULFILLED
+  → UD âm CỰC MẠNH (desire connection bị phá)
+  → Buồn, đau khổ → TRỰC TIẾP, không cần qualify
+
+  Bạn đã "predict đúng" (PE = 0) nhưng "desire bị phá" (UD âm)
+  → PE và UD cho prediction KHÁC NHAU ở case này
+  → Thực tế match UD, không match PE
+
+Tương tự:
+  Bác sĩ nói "bạn bị ung thư" → bạn đã nghi → PE = 0 (predicted)
+  → Nhưng UD: desire "tôi khỏe mạnh" VIOLATED → devastated
+  → PE: nên bình thường vì predicted. UD: đau vì desire violated. ✅UD
+
+  Biết trước sẽ mất việc → đến ngày mất → PE = 0 (predicted)
+  → UD: desire "tôi có việc làm, an toàn" VIOLATED → buồn
+  → PE: predicted → nên ok. UD: desire violated → buồn. ✅UD
+
+→ "Đồng bộ chunk xấu" =
+  PREDICTION correct (PE = 0) nhưng DESIRE violated (UD âm)
+  PE KHÔNG giải thích được tại sao "biết trước mà vẫn đau"
+  UD giải thích TRỰC TIẾP: đau vì desire bị phá, không phải vì surprise
+```
+
+#### 4.7.5 Tóm Tắt: Tại Sao UD Vocabulary Tốt Hơn PE
+
+```
+1. CHÍNH XÁC hơn: 7 thuật ngữ cho 7 hiện tượng (vs 1 từ PE cho tất cả)
+2. DECOMPOSE "chán": 3 loại khác nhau → 3 treatments khác nhau
+3. GIẢI THÍCH "đồng bộ chunk xấu": PE = 0 nhưng UD âm → đau
+4. KHÔNG CẦN qualify: không cần "PE mạnh/nhẹ/âm/zero" nữa
+5. MECHANISM rõ hơn:
+   - Tại sao sướng? → desire MATCHED
+   - Tại sao buồn? → desire VIOLATED
+   - Tại sao chán? → desire EXHAUSTED / TARGETLESS / SUPPRESSED
+   - Tại sao lo? → desire THREATENED (chưa xảy ra nhưng predicted)
+   - Tại sao sướng DÙ đã biết trước? → desire RENEW (body reset)
+   - Tại sao buồn DÙ đã biết trước? → desire STILL VIOLATED
+
+⚠️ CAVEAT: UD vocabulary phức tạp hơn PE (7 từ vs 1 từ)
+  → Complexity cost. Nhưng: precision gain > complexity cost
+  → Giống: "schema" → 5 layers = phức tạp hơn nhưng chính xác hơn
+```
+
+### 4.8 UD State — Aggregate Multi-UD (2 Chiều)
+
+```
+⚠️ VẤN ĐỀ: Nhiều schema chạy SONG SONG, mỗi schema có UD riêng.
+   UD per schema có thể XUNG ĐỘT nhau.
+   Cần khái niệm cho TỔNG THỂ.
+```
+
+#### 4.8.1 UD là kết quả của Schema
+
+```
+UD KHÔNG tồn tại độc lập — UD là OUTPUT của schema processing:
+
+  Schema A (yêu người X)     → UD_A: desire connection fulfilled? → vui/buồn
+  Schema B (muốn giỏi code)  → UD_B: desire mastery fulfilled? → sướng/frustrate
+  Schema C (muốn an toàn)    → UD_C: desire safety fulfilled? → bình an/lo
+  Schema D (muốn tự do)      → UD_D: desire autonomy fulfilled? → thoải mái/bức bối
+
+  → Mỗi schema CÓ desire riêng → CÓ UD riêng
+  → Multi-schema song song → Multi-UD song song
+  → Có thể XUNG ĐỘT: hành vi X fulfill UD_A nhưng violate UD_C
+```
+
+#### 4.8.2 PFC cân đối Multi-UD
+
+```
+Tình huống: Được mời đi party tối nay
+
+  Schema A (social):    UD_A = +3 (muốn gặp bạn)
+  Schema B (work):      UD_B = -4 (deadline threatened)
+  Schema C (health):    UD_C = -2 (sleep threatened)
+  Schema D (identity):  UD_D = +1 (confirm "tôi vui vẻ")
+
+  PFC cân đối: tổng hợp weights → quyết định
+  → Nếu PFC strong: cân nhắc tất cả → chọn optimal
+  → Nếu PFC yếu (mệt, cortisol cao): schema MẠNH NHẤT thắng
+     → Auto-response, có thể không optimal
+
+  Schema depth ảnh hưởng weight:
+  → Schema sâu (L5) UD weight > Schema nông (L1) UD weight
+  → "Biết nên ở nhà làm việc" (L1-L2) vs "muốn gặp bạn thân" (L4)
+  → L4 có thể thắng L1-L2 dù logic nói ngược
+  → = "Biết nhưng không làm được" — qua lens UD
+```
+
+#### 4.8.3 UD State = {Valence, Coherence}
+
+```
+UD State = trạng thái TỔNG THỂ tại thời điểm
+         = aggregate TẤT CẢ active UD per schema
+         = 2 CHIỀU, không phải 1:
+
+CHIỀU 1: VALENCE (dương / âm)
+  = Σ(UD_i × weight_i)
+  = "Tổng thể, desire đang fulfilled hay unfulfilled?"
+
+  Dương: nhiều schema fulfilled > unfulfilled → wellbeing
+  Âm: nhiều schema unfulfilled/violated > fulfilled → distress
+
+CHIỀU 2: COHERENCE (rõ ràng / rối)
+  = Mức độ schemas ĐỒNG HƯỚNG hay XUNG ĐỘT
+  = "Các desire có chỉ cùng hướng không?"
+
+  Cao: schemas aligned → hành vi rõ ràng, decisive
+  Thấp: schemas conflict → hành vi mâu thuẫn, do dự
+
+→ PE cũ chỉ có 1 chiều (dương/âm) → miss chiều COHERENCE
+→ UD State cần 2 chiều → richer, chính xác hơn
+```
+
+#### 4.8.4 Bốn Trạng Thái Tổng Thể
+
+```
+                    Coherence CAO              Coherence THẤP
+                 ┌─────────────────────────┬─────────────────────────┐
+                 │                         │                         │
+  Valence DƯƠNG  │  FULFILLED + CLEAR      │  FULFILLED + CONFUSED   │
+                 │                         │                         │
+                 │  "Biết muốn gì,         │  "Vui nhưng không hiểu  │
+                 │   đang có nó"           │   tại sao / bất an"     │
+                 │                         │                         │
+                 │  Ví dụ:                 │  Ví dụ:                 │
+                 │  - Chuyên gia yêu nghề  │  - Người may mắn ngẫu   │
+                 │  - Monk đã giác ngộ     │    nhiên, lottery winner │
+                 │  - Flow state           │  - "Có hết mà sao       │
+                 │                         │    vẫn thấy thiếu?"     │
+                 │  Cảm giác: bình an,     │  Cảm giác: vui nhưng    │
+                 │  contentment, flow      │  restless, uneasy       │
+                 │                         │                         │
+                 ├─────────────────────────┼─────────────────────────┤
+                 │                         │                         │
+  Valence ÂM     │  UNFULFILLED + CLEAR    │  UNFULFILLED + CONFUSED │
+                 │                         │                         │
+                 │  "Biết thiếu gì,        │  "Khó chịu mà không    │
+                 │   biết cần làm gì"      │   biết tại sao"        │
+                 │                         │                         │
+                 │  Ví dụ:                 │  Ví dụ:                 │
+                 │  - Startup founder chưa  │  - Anxiety disorder     │
+                 │    thành công (đang cố)  │  - Quarter/mid-life     │
+                 │  - Sinh viên trước thi  │    crisis               │
+                 │  - Athlete đang training │  - "Rối bời, mệt mỏi   │
+                 │                         │    không lý do"         │
+                 │  Cảm giác: motivated    │  Cảm giác: anxious,     │
+                 │  suffering, driven       │  depressed, lost        │
+                 │                         │                         │
+                 └─────────────────────────┴─────────────────────────┘
+```
+
+#### 4.8.5 Giải thích hiện tượng PE KHÔNG giải thích
+
+```
+1. "Tại sao có người giàu vẫn khổ?"
+   PE: PE dương nhiều (thành công) → nên vui → ???
+   UD State: Valence dương (fulfilled materially)
+             Coherence THẤP (nhiều schema conflict:
+             muốn tự do nhưng trapped, muốn yêu nhưng bị lừa)
+   → (+, Low) = Fulfilled + Confused = khổ dù giàu ✅
+
+2. "Tại sao có người nghèo vẫn vui?"
+   PE: PE dương ít → nên buồn → ???
+   UD State: Valence vừa (gia đình + cơm + bình an)
+             Coherence CAO (ít schema, aligned)
+   → (+modest, High) = vui dù nghèo ✅
+
+3. "Quarter-life / Mid-life crisis — đang ổn mà?"
+   PE: đang ổn → PE ok → tại sao crisis?
+   UD State: Valence có thể dương (career ok, relationship ok)
+             Coherence ĐỘT NGỘT GIẢM
+             Schema identity conflict: "Đây có phải cuộc đời tôi muốn?"
+   → (+, Low suddenly) = crisis dù mọi thứ ổn ✅
+
+4. "Tại sao burnout khác depression?"
+   Burnout: Valence ÂM + Coherence CAO
+     "Tôi biết tôi kiệt sức, biết cần nghỉ" → clear, dù đau
+   Depression: Valence ÂM + Coherence THẤP
+     "Không biết gì sai, chỉ thấy tệ" → confused, deeper
+   → 2 diagnoses KHÁC → cần KHÁC treatment
+   PE: cả hai = "PE thấp" → không phân biệt được ❌
+
+5. "Tại sao người đa tài thường restless?"
+   UD State: Valence dương (nhiều domain fulfilled)
+             Coherence GIẢM (nhiều desires pointing khác hướng)
+   → (+, Medium) = vui nhưng scattered
+   → Giải pháp: không phải "bỏ bớt" mà "align" (tăng coherence)
+```
+
+#### 4.8.6 UD State trong Kiến Trúc Tổng Thể
+
+```
+Luồng đầy đủ:
+
+  Schemas (multi, parallel)
+    → UD per schema (desire fulfilled/unfulfilled mỗi schema)
+      → UD State = {Valence, Coherence} (aggregate)
+        ├→ EMOTION: readout UD State ra conscious
+        │   "Tôi đang cảm thấy thế nào?" = đọc UD State
+        │
+        ├→ DRIVE per action: UD State + specific action → motivation
+        │   "Tôi có muốn LÀM cái này không?" = extract từ UD State
+        │
+        └→ PFC MONITORING: observe UD State → điều phối
+            "Coherence thấp → cần giải quyết conflict"
+            "Valence âm → cần tìm fulfillment"
+
+Tốc độ thay đổi:
+  UD per schema: giây → phút (per event)
+  UD State: phút → giờ → ngày (aggregate, smoothed)
+  Drive: giây (per decision, real-time)
+  Emotion: giây → phút (readout, responsive)
+
+Mapping vào kiến trúc 3 tầng:
+  T1 Hardware: NƠI desire HÌNH THÀNH (Opioid, Oxytocin systems)
+  T2 Software: NƠI UD State TỔNG HỢP (Schema layer, aggregate)
+               NƠI Drive TÍNH TOÁN (evaluation, decision)
+               NƠI Emotion READOUT (conscious access)
+  T3 Hành Vi:  NƠI Drive THỰC HIỆN (output)
+```
+
+#### 4.8.7 Tại Sao Coherence Là Chiều Mới Quan Trọng
+
+```
+PE framework: 1 chiều (dương/âm)
+  → Không phân biệt: aligned-positive vs conflicted-positive
+  → Treatment cho "PE thấp" = "tăng PE" → đúng cho 2/4 góc, SAI cho 2/4
+
+UD framework: 2 chiều (Valence × Coherence)
+  → 4 trạng thái → 4 strategies KHÁC NHAU:
+
+  (+, High): KHÔNG CẦN can thiệp → đang tốt
+  (+, Low):  Cần ALIGN schemas → therapy tìm "thực sự muốn gì?"
+  (-, High): Cần RESOURCE → hỗ trợ, kế hoạch, execution
+  (-, Low):  Cần CLARITY TRƯỚC → trước khi resource, phải hiểu vấn đề
+
+  Therapist giỏi vô thức ĐÃ LÀM điều này:
+  → Hỏi "bạn đang cảm thấy thế nào?" = đo Valence
+  → Hỏi "bạn có biết tại sao không?" = đo Coherence
+  → Adjust approach tùy 2 chiều
+  → UD framework FORMALIZE cái therapist đang làm bằng intuition
+```
+
+### 4.9 PE Decomposition — Từ 1 Khái Niệm Thành Nhiều Thành Phần
+
+```
+⚠️ VẤN ĐỀ GỐC: "PE" đang gánh 7 nghĩa khác nhau
+   (giống "schema" trước khi decompose)
+
+Trong framework cũ, "PE" = TẤT CẢ:
+  1. "PE dương mạnh"  = cực sướng (eureka, bất ngờ quà)
+  2. "PE dương nhẹ"   = vui vui (ăn ngon, gặp bạn)
+  3. "PE âm"          = buồn/sợ/tức
+  4. "PE = 0"         = chán
+  5. "PE"             = tín hiệu dopamine
+  6. "PE"             = cảm xúc kết quả
+  7. "PE"             = động lực hành vi
+
+→ 1 từ gánh 7 nghĩa → phải qualify liên tục ("PE mạnh", "PE nhẹ", "PE âm")
+→ Giống dùng 1 biến chứa 7 loại data → code smell
+
+QUA LENS UD, 7 thứ đó là CÁC THÀNH PHẦN KHÁC NHAU:
+
+  PE cũ           →  UD mới
+  ──────────────      ────────────────────────────────────
+  PE dương mạnh   →  UD fulfilled BẤT NGỜ + MẠNH (multi-channel)
+  PE dương nhẹ    →  UD fulfilled EXPECTED hoặc NHẸ (pre-simulated)
+  PE âm           →  UD VIOLATED hoặc THREATENED
+  PE = 0 (chán)   →  UD EXHAUSTED hoặc UD ABSENT
+  Dopamine signal →  UD DETECTION ("desire approaching/matched")
+  Cảm xúc         →  UD STATE READOUT (emotion = đọc trạng thái UD)
+  Động lực        →  UD DRIVE (desire unfulfilled → tìm fulfillment)
+```
+
+#### 4.9.1 Experience × Desire — Refinement của Valence
+
+```
+⚠️ GHI CHÚ ĐẶT TÊN:
+  Tên chính:  Experience / Desire
+  Phương án khác đã cân nhắc:
+    - Fulfilled / Unfulfilled  → "Fulfilled" nghe quá "kết thúc", thiếu "đang tiếp tục"
+    - Having / Wanting         → trùng Berridge nhưng "Having" hơi tĩnh
+    - Present / Desire         → "Present" hơi chung
+    - Liking / Wanting         → Berridge terms, nhưng "Liking" hẹp hơn Experience
+  Lý do chọn Experience / Desire:
+    - Cả 2 đều ACTIVE, đang diễn ra
+    - Experience bao gồm tốt/xấu/bình thường (rộng hơn "Liking")
+    - Desire = đã dùng trong UD framework, nhất quán
+    - Berridge-compatible: Experience ≈ Liking (expanded), Desire ≈ Wanting
+
+"Valence" (§4.8.3) có thể decompose chính xác hơn
+thành 2 trục THỜI GIAN:
+
+EXPERIENCE = HIỆN TẠI — đang trải nghiệm gì?
+  = Opioid/Oxytocin ĐANG active hay không
+
+  Experience (+): đang ăn ngon, đang ôm người thân, bố mẹ yêu thương ở bên
+                  = opioid/oxytocin ĐANG fire
+                  Bao gồm cả: yên tâm có người yêu (dù không ở cạnh lúc đó)
+                  = oxytocin baseline active, có thể vô tình quên (nhưng VẪN CÓ)
+  Experience (−): đang bị đánh, đang bị bỏ rơi, mất mát
+                  = opioid/oxytocin ĐANG bị violated
+  Experience (0): bình thường, baseline
+                  = có sẵn oxy để thở (bình thường, chưa thiếu thì chưa thấy gì)
+
+DESIRE = TƯƠNG LAI — vô thức MONG MUỐN / DỰ ĐOÁN gì?
+  = Dopamine MUỐN, ĐANG seek
+
+  Desire (+): mong đợi gì tốt = desire approaching
+  Desire (+, BLOCKED): muốn nhưng BIẾT không được = buồn
+  Desire (0): không mong đợi gì = no active desire
+  Desire (−): dự đoán gì đó xấu = desire threatened
+
+Map vào neurochemistry:
+  Experience ↔ Opioid/Oxytocin ĐANG fire hay không (Lớp 1 Source)
+  Desire     ↔ Dopamine MUỐN fire, ĐANG seek (Lớp 2 Amplifier)
+```
+
+#### 4.9.2 Ma Trận Cảm Xúc — Experience × Desire
+
+```
+                 Desire (+)          Desire (0)         Desire (−)
+                 (muốn thêm)        (không mong gì)    (dự đoán xấu)
+              ┌──────────────────┬──────────────────┬──────────────────┐
+Experience(+) │ HÁNG HÁI         │ THỎA MÃN         │ HẠNH PHÚC + LO  │
+(đang tốt)    │ "Đang vui VÀ     │ "Đang tốt,       │ "Đang tốt nhưng │
+              │  muốn thêm"      │  đủ rồi"         │  sợ mất"        │
+              │ = excited         │ = content         │ = anxious joy   │
+              ├──────────────────┼──────────────────┼──────────────────┤
+Experience(0) │ MONG CHỜ          │ BÌNH THƯỜNG       │ LO ÂU           │
+(bình thường) │ "Bình thường      │ "Bình thường,    │ "Bình thường     │
+              │  nhưng muốn hơn" │  không sao"      │  nhưng sắp xấu" │
+              │ = anticipation    │ = neutral         │ = anxiety       │
+              ├──────────────────┼──────────────────┼──────────────────┤
+Experience(−) │ BUỒN              │ ĐAU               │ TUYỆT VỌNG      │
+(đang xấu)    │ "Đang xấu VÀ     │ "Đang xấu,       │ "Đang xấu VÀ    │
+              │  muốn tốt hơn    │  chịu vậy"       │  sẽ còn xấu hơn"│
+              │  nhưng khó"       │ = pain            │ = despair       │
+              │ = sadness         │                   │                 │
+              └──────────────────┴──────────────────┴──────────────────┘
+```
+
+#### 4.9.3 Phân Tích: Buồn ≠ Đau ≠ Lo ≠ Tuyệt Vọng
+
+```
+PE cũ: cả 4 = "PE âm" → same label → khác treatment? Không biết.
+UD mới: 4 ô KHÁC NHAU → khác cơ chế → khác treatment.
+
+BUỒN = Experience(−) + Desire(+, BLOCKED)
+  = "Đang thiếu/đau" + "Vẫn muốn nhưng BIẾT không được"
+  = Desire VẪN ACTIVE + Fulfillment CONFIRMED IMPOSSIBLE
+  Cơ chế: Vô thức VẪN chạy loop "muốn → tìm cách → không có cách → muốn"
+  = UD loop KHÔNG CÓ EXIT
+
+  Ví dụ: chia tay — desire connection VẪN active, person KHÔNG còn
+  → Mỗi phương án thay thế: không match desire gốc → buồn thêm
+  → Loop cho đến desire DẦN EXTINCT (grief process)
+
+ĐAU = Experience(−) + Desire(0)
+  = "Đang xấu" + "Chịu vậy, không mong gì"
+  = Desire KHÔNG active, chỉ có violation hiện tại
+  Cơ chế: Opioid violated, nhưng không có seeking loop
+
+  Ví dụ: bệnh mãn tính — đau nhưng không mong "hết đau" nữa
+  → Resigned pain, không có loop → stable nhưng negative
+
+LO ÂU = Experience(0) + Desire(−)
+  = "Hiện tại bình thường" + "Dự đoán tương lai xấu"
+  = Desire an toàn THREATENED bởi prediction
+  Cơ chế: Dopamine scan cho threat, cortisol tăng, PFC worry loop
+
+  Ví dụ: sắp thi — hiện tại ok, nhưng predict có thể fail
+  → Loop tìm cách prevent → CÓ EXIT (chuẩn bị, study)
+
+TUYỆT VỌNG = Experience(−) + Desire(−)
+  = "Đang xấu" + "Sẽ CÒN xấu hơn"
+  = TẤT CẢ desire predicted impossible + hiện tại đã tệ
+  Cơ chế: Dopamine COLLAPSED, opioid violated, no exit predicted
+
+  Ví dụ: depression nặng — hiện tại đau + tương lai không có gì
+  → KHÔNG có loop (không search, không try) → system shutdown
+
+SO SÁNH BUỒN vs LO vs TỨC vs TUYỆT VỌNG:
+
+  Buồn:       Desire ACTIVE + Exit BLOCKED (muốn nhưng không được)
+  Lo:         Desire ACTIVE + Exit UNCERTAIN (có thể mất)
+  Tức:        Desire ACTIVE + Exit BLOCKED BY AGENT (ai đó chặn)
+  Tuyệt vọng: Desire DEAD + Exit NONE (không muốn gì, không có gì)
+
+  Buồn: còn muốn → còn đau → CÓ THỂ heal (desire extinction over time)
+  Tuyệt vọng: hết muốn → hết tìm → NGUY HIỂM (system shutdown)
+```
+
+#### 4.9.4 Grief Process Qua UD — Desire Extinction
+
+```
+Grief = QUÁ TRÌNH desire DẦN EXTINCT sau mất mát
+
+  Ngày 1:   Desire +10, Fulfillment impossible → buồn CỰC ĐỘ
+  Tuần 1:   Desire +9, pre-simulation "không có" tăng → buồn mạnh
+  Tháng 1:  Desire +7, schema adjust → buồn vừa
+  Tháng 6:  Desire +4, schema mới hình thành → buồn nhẹ, có lúc ok
+  Năm 1:    Desire +2, schema cũ gần extinct → nhớ nhưng chịu được
+  Năm 2+:   Desire +0.5, schema mới dominant → bình an, occasionally nhớ
+
+Tại sao grief KHÔNG THỂ RUSH:
+  → Desire extinction cần repetitive "muốn → không được → update"
+  → Mỗi cycle giảm desire strength MỘT CHÚT
+  → PFC KHÔNG control desire intensity (vô thức quyết định)
+  → "Quên đi" = PFC command → vô thức KHÔNG listen
+  → "Thời gian chữa lành" = thời gian vô thức CHẤP NHẬN
+
+Tại sao bài hát cũ trigger nhớ:
+  → Desire KHÔNG BAO GIỜ = 0 hoàn toàn (residual ~0.5)
+  → Bài hát = context trigger → residual desire RE-ACTIVATE nhẹ
+  → Nhớ → buồn nhẹ → rồi thôi (vì desire chỉ còn 0.5, không đủ loop)
+
+Tại sao "rebound relationship" thường fail:
+  → Desire cho NGƯỜI CŨ vẫn active (+7, +8)
+  → Người mới KHÔNG match desire gốc (desire specific to ex)
+  → → Frustrated: "sao không giống anh/cô ấy?"
+  → Cần: desire cũ extinct TRƯỚC → rồi desire MỚI mới organic
+```
+
+#### 4.9.5 "Chán" Decomposition — 3 Loại Khác Nhau
+
+```
+PE cũ: chán = "PE = 0" → 1 loại → 1 treatment
+UD mới: chán có 3 loại → 3 cơ chế → 3 treatments KHÁC NHAU
+
+CHÁN TYPE A: UD EXHAUSTED (contentment)
+  → Desire fulfilled HẾT, pre-simulated hết
+  → Vô thức KHÔNG kỳ vọng thêm
+  → = "Thoải mái, đủ rồi" = bình an
+  → KHÔNG cần treatment — đây là trạng thái tốt
+  → Ví dụ: sau bữa ăn ngon, sau kỳ nghỉ thoải mái
+
+CHÁN TYPE B: UD MISMATCH (restless boredom)
+  → Opioid/Oxytocin VẪN MUỐN thêm nhưng context KHÔNG cung cấp
+  → "Thoải mái nhưng vẫn muốn thêm" = desire active, no stimulus
+  → = Drive tìm context mới, explore, change environment
+  → Treatment: thay đổi môi trường, tìm stimulus mới
+  → Ví dụ: chiều chủ nhật, không biết làm gì, "chán nhưng muốn gì đó"
+
+CHÁN TYPE C: UD SUPPRESSED (anhedonia)
+  → Desire CÓ ở Lớp 1 (opioid/oxytocin vẫn capable)
+  → Nhưng Lớp 2 (dopamine) BROKEN → desire không được SIGNAL
+  → "Biết mình nên muốn nhưng không thể muốn"
+  → = Hardware issue, không phải software
+  → Treatment: medical (SSRIs, dopamine pathway intervention)
+  → Ví dụ: depression — TV show hay, biết hay, nhưng "mặc kệ"
+
+PE: cả 3 = "PE = 0" → therapist: "hãy tìm niềm vui" → đúng cho B, SAI cho A và C
+UD: 3 loại → 3 strategies → chính xác hơn
+```
+
+#### 4.9.6 Fulfilled × Unfulfilled + Coherence = 3 Chiều Đầy Đủ
+
+```
+Fulfilled × Unfulfilled = 2 chiều CỤ THỂ (thay thế Valence chung chung)
+Coherence = chiều THỨ 3 (bổ sung)
+
+UD State đầy đủ = {Experience, Desire, Coherence}
+
+  Experience: hiện tại đang trải nghiệm gì (+/0/−) ↔ Opioid/Oxytocin
+  Desire:     tương lai mong muốn gì (+/0/−/blocked) ↔ Dopamine seeking
+  Coherence:  các schema đồng hướng hay conflict (high/low)
+
+Ví dụ mapping:
+
+  Flow state:
+    Experience(+) + Desire(+) + Coherence(HIGH)
+    "Đang tốt, muốn thêm, biết rõ hướng"
+
+  Quarter-life crisis:
+    Experience(+) + Desire(+, CONFUSED) + Coherence(LOW)
+    "Đang ổn, muốn thêm, nhưng muốn QUÁ NHIỀU THỨ conflict"
+
+  Grief:
+    Experience(−) + Desire(+, BLOCKED) + Coherence(HIGH)
+    "Đang đau, muốn người đó, biết rõ thiếu gì — nhưng impossible"
+
+  Depression:
+    Experience(−) + Desire(0 or suppressed) + Coherence(LOW)
+    "Đang tệ, không muốn gì, không hiểu tại sao"
+
+  Anxiety:
+    Experience(0) + Desire(−) + Coherence(HIGH or LOW)
+    High coherence: "Biết sợ cái gì" = specific anxiety
+    Low coherence: "Sợ nhưng không biết sợ gì" = generalized anxiety
+
+Quan hệ với §4.8:
+  Valence ≈ Experience (nhưng Experience cụ thể hơn — "đang trải nghiệm")
+  Coherence = giữ nguyên
+  Desire = refine từ "Unfulfilled" — chiều tương lai mà Valence không capture
+  → §4.9 REFINE §4.8, không phủ định
+```
+
+#### 4.9.7 UD State Trong Kiến Trúc — Updated
+
+```
+Luồng đầy đủ (refined):
+
+  Schemas (multi, parallel)
+    → Mỗi schema có UD riêng:
+      UD_i = {desire_strength, experience_now?, desire_predicted?}
+    → Aggregate:
+      Experience = Σ(opioid/oxytocin states hiện tại)
+      Desire = Σ(desire states tương lai)
+      Coherence = mức độ schemas đồng hướng
+    → UD State = {Experience, Desire, Coherence}
+      ├→ EMOTION: readout UD State ra conscious
+      │   Vui = Experience(+). Buồn = Experience(−) + Desire(+, blocked).
+      │   Lo = Desire(−). Chán = 3 types (A/B/C).
+      │
+      ├→ DRIVE per action: extract từ UD State cho hành vi cụ thể
+      │   DRIVE = Desire(specific) − Cost
+      │
+      └→ PFC MONITORING: observe UD State → điều phối
+          Coherence thấp → cần resolve conflict
+          Experience âm → cần tìm relief
+          Desire blocked → grief process, cần thời gian
+
+Mapping vào kiến trúc 3 tầng:
+  T1 Hardware:
+    Lớp 1 Source: Opioid + Oxytocin = NƠI Fulfilled HÌNH THÀNH
+    Lớp 2 Amplifier: Dopamine = NƠI Unfulfilled SIGNAL
+    Lớp 3 Modulator: Cortisol, NE = ĐIỀU CHỈNH priority
+
+  T2 Software:
+    Schema layer: NƠI UD per schema SỐNG
+    Aggregate: NƠI UD State TỔNG HỢP
+    Drive: NƠI quyết định hành vi TÍNH TOÁN
+    Emotion: NƠI UD State được READOUT ra conscious
+
+  T3 Hành Vi:
+    Execute strategy để FULFILL desire
+    3 con đường: Imagine / Reality / Validation
+    Kết quả → feedback → update Fulfilled + Unfulfilled → loop
+```
+
 ---
 
 ## 5. Bằng Chứng Gián Tiếp
@@ -1154,6 +1979,15 @@ PRIORITY 4 — Refine công thức UD
   → Σ(desire_i × match_i) − Σ(pre_simulated_i) = quá simplified
   → Cần: interaction effects, time decay, desire renewal mechanics
   → Cần: distinguish desire types (biological vs cognitive vs social)
+
+PRIORITY 5 — UD Applications
+  → Parenting: UD-Parenting.md (DRAFT v1 — attachment theory + UD)
+    4 attachment styles = 4 UD profiles
+    5 parenting patterns → UD outcomes
+    UD Parenting Principle: fulfill cơ bản, train mở rộng, calibrate thực tại
+  → Education: UD Calibration trong trường học (chưa viết)
+  → Therapy: UD-based intervention design (chưa viết)
+  → Product design: UX qua UD lens (chưa viết)
 ```
 
 ---

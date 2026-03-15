@@ -309,79 +309,114 @@ Biểu hiện thay đổi theo environment:
 
 ---
 
-## 4. Hardware: 3 Kênh Gốc (Root Channels)
+## 4. Hardware: Neurochemistry — Kiến Trúc 3 Lớp
 
-Kênh gốc = nguồn PE (Prediction Error / thưởng bất ngờ) MẠNH NHẤT tự nhiên. Gen quy định. Mỗi người = MIX, không phải 1 kênh duy nhất.
+### 4.0 Tổng Quan 3 Lớp
 
-**Test:** Chặn kênh gốc → MẤT hoàn toàn 1 loại PE. Chặn phụ gia → kênh gốc vẫn CÓ nhưng biểu hiện KHÁC.
+```
+╔══════════════════════════════════════════════════════╗
+║  LỚP 1: NGUỒN (Source) — "Con người muốn gì?"       ║
+║  Opioid (cảm nhận) · Oxytocin (gắn bó)              ║
+║  = 2 nguồn DESIRE duy nhất                           ║
+╠══════════════════════════════════════════════════════╣
+║  LỚP 2: KHUẾCH ĐẠI (Amplifier) — "Mạnh thế nào?"   ║
+║  Dopamine/Novelty (detect+signal) · Serotonin (×)    ║
+║  = 2 amplifier mạnh nhất, ảnh hưởng hành vi rõ nhất  ║
+╠══════════════════════════════════════════════════════╣
+║  LỚP 3: ĐIỀU CHỈNH (Modulator) — "Fine-tuning"      ║
+║  Cortisol · NE · Vasopressin · Prolactin · Endo-CB   ║
+║  = Tác động QUA lớp 1 + 2, không tạo desire riêng    ║
+╚══════════════════════════════════════════════════════╝
 
-### 4.1 Novelty (Dopamine)
+Mọi hành vi = tìm kiếm Opioid hoặc Oxytocin (Lớp 1).
+Dopamine + Serotonin quyết định CƯỜNG ĐỘ và HƯỚNG (Lớp 2).
+Lớp 3 = fine-tuning cho từng context.
+```
 
-PE từ CHUNK MỚI — bất kỳ chunk nào chưa có trong hệ thống chunk của người đó.
-"À! Nên thế à!" = Novelty PE.
+### 4.1 Lớp 1: Source Channels — 2 Nguồn Desire Duy Nhất
+
+**Opioid** — Desire về CẢM NHẬN
+PE từ taste, beauty, warmth, coherence, pleasure, trải nghiệm giác quan.
+"Đẹp quá!" = Opioid. Runner's high = endorphin.
+
+🟢 Hệ opioid nội sinh, mu-receptor. "Liking" system (Berridge & Robinson, 1998). Gen: OPRM1.
+
+**Oxytocin** — Desire về GẮN BÓ
+PE từ connection, quan tâm, được hiểu, thuộc về.
+Bao gồm cả gắn bó không lành mạnh (trauma bonding = oxytocin + cortisol).
+
+🟢 Feedback loop: kết nối → oxytocin → ấm áp → muốn thêm (Young & Wang, 2004). Gen: OXTR.
+
+```
+⚠️ Mọi thứ con người muốn cuối cùng đều về 1 trong 2:
+  Ăn ngon (opioid) + ăn cùng bạn (+ oxytocin)
+  Sáng tạo (opioid coherence) + được công nhận (+ oxytocin)
+  Sex (opioid pleasure + oxytocin bonding)
+  → 2 channels gốc = đủ giải thích mọi desire
+```
+
+### 4.2 Lớp 2: Amplifiers — 2 Khuếch Đại Mạnh Nhất
+
+**Novelty / Dopamine** — Detect + Signal + Mở rộng
 
 🟢 Dopamine = prediction error signal (Schultz et al., 1997). Gen: DRD4, COMT, DAT1.
 
 ```
-Chunk mới = bất kỳ prediction mới nào não chưa có:
-  - Concept hoàn toàn mới (explore sang domain khác) = chunk mới ✅
-  - Kết nối mới giữa concepts cũ (deepen trong domain) = chunk mới ✅
-  - Hiểu sâu hơn cái đã biết sơ (refine chi tiết) = chunk mới ✅
-  → Não KHÔNG phân biệt "mới ở đâu" — chỉ detect: predicted hay chưa?
+Dopamine gánh HAI vai trò:
+  1. INFRASTRUCTURE: fire cho prediction error ở MỌI channel
+     → "Có cái mới!" → signal cho hệ thống biết
+  2. AMPLIFIER: khuếch đại desire fulfillment signal
+     → "Desire vừa được match!" → dopamine amplify
 
-PE ∝ chunk size: chunk mới kết nối càng NHIỀU chunk cũ → PE càng LỚN.
-"Eureka moment" = 1 chunk mới giải đáp đồng loạt nhiều chunk cũ = PE cực lớn.
+Novelty detect → cảm xúc GÌ xuất hiện?
+  "Aha! Hiểu rồi!"      → SƯỚNG (opioid)
+  "Wow chỗ này đẹp!"     → SƯỚNG (opioid)
+  "Gặp người hay!"       → ẤM (oxytocin)
+  → Novelty LUÔN dẫn tới opioid hoặc oxytocin
+  → Novelty alone = trung tính, cần Lớp 1 để có DẤU (+/–)
+
+⚠️ GIỮA channel gốc VÀ infrastructure:
+  Bản chất: có thể là infrastructure (detect, không tạo desire)
+  Framework: treat as channel gốc vì predictive power (novelty-seeking = observable)
+  → Xem UD-Hypothesis.md §Q-NEW-7 cho phân tích chi tiết
 ```
 
-### 4.2 Opioid
-
-PE từ CẢM NHẬN — màu sắc, âm thanh, kết cấu, mùi vị, vẻ đẹp, trải nghiệm giác quan.
-"Đẹp quá!" = Opioid PE. Runner's high = endorphin sau đau.
-
-🟢 Hệ opioid nội sinh, mu-receptor. "Liking" system (Berridge & Robinson, 1998). Gen: OPRM1.
-
-### 4.3 Oxytocin
-
-PE từ GẮN BÓ — kết nối, quan tâm, được hiểu, thuộc về.
-Bao gồm cả gắn bó không lành mạnh (trauma bonding = oxytocin + cortisol đồng thời).
-
-🟢 Feedback loop: kết nối → oxytocin → ấm áp → muốn kết nối thêm (Young & Wang, 2004). Gen: OXTR.
-
-→ Chi tiết kênh + tương tác → Core-Deep-Dive/Neurochemistry.md
-
----
-
-## 5. Hardware: Phụ Gia (Additives)
-
-Phụ gia KHÔNG tạo PE trực tiếp — ĐIỀU CHỈNH cách kênh gốc vận hành.
-
-| Phụ gia | Chức năng | Cao | Thấp |
-|---------|----------|-----|------|
-| Serotonin | Multiplier trên kênh gốc, lọc hierarchy | "Mình ổn" | So sánh, nhạy đánh giá |
-| Cortisol/GABA | Trục an toàn ↔ hành động | Lo âu ↔ Bình tĩnh | Thiếu drive ↔ Không phanh |
-| NE | Volume / cường độ | Mãnh liệt | Bình lặng |
-| Vasopressin | Bảo vệ gắn bó | Bảo vệ, ghen | Dễ buông |
-| Prolactin | Phanh ("đủ rồi") | Dễ dừng | Không dừng được |
+**Serotonin** — Multiply + Stabilize
 
 ```
-⚠️ Serotonin ≠ channel, là MULTIPLIER:
-  Serotonin = khuếch đại trên kênh gốc, không tạo PE độc lập.
+Serotonin = MULTIPLIER trên Lớp 1, không tạo PE độc lập:
   "Nghiện địa vị" = nghiện MULTI-CHANNEL PE BURST mà status mang lại.
-  Strip hết kênh gốc → status alone không sustain.
+  Strip hết Lớp 1 → status alone = 0 PE.
+  Serotonin cao → "mình ổn" → amplify fulfillment.
+  Serotonin thấp → so sánh, nhạy đánh giá.
+```
 
+### 4.3 Lớp 3: Modulators — Fine-Tuning
+
+| Modulator | Chức năng | Tác động qua |
+|-----------|----------|-------------|
+| Cortisol/GABA | Phanh / threat signal | Tất cả Lớp 1 + 2 |
+| NE | Arousal / alertness | Chủ yếu Dopamine (Lớp 2) |
+| Vasopressin | Territorial / protective | Oxytocin (Lớp 1) |
+| Prolactin | Nurturing / phanh | Opioid + Oxytocin (Lớp 1) |
+| Endocannabinoid | Relaxation / reward modulation | Opioid (Lớp 1) |
+
+```
 ⚠️ Cortisol = Inverted-U (QUAN TRỌNG):
   Quá thấp → PFC idle, không drive
   Moderate → PFC tối ưu, focused ★
   Quá cao  → PFC sụp, amygdala chiếm, freeze/trauma
   3 biến: liều, thời gian, controllability (quan trọng nhất)
 
-  Cortisol × Dopamine = 2 hệ SONG SONG, không inverse:
-    Cortisol moderate + Dopamine → flow dưới áp lực
-    Cortisol cao mãn tính → ức chế DA → paralysis
-
 ⚠️ NE = Volume, không phải loại:
   Novelty + NE cao = tò mò DỮ DỘI (Van Gogh)
   Novelty + NE thấp = tò mò NHẸ NHÀNG (Darwin)
+
+⚠️ Depression qua 3 lớp:
+  Lớp 1 VẪN CÓ desire → nhưng Lớp 2 KHÔNG truyền tải
+  → Dopamine giảm → không detect desire match
+  → Serotonin giảm → không amplify
+  → "Biết mình muốn nhưng không thể muốn" = wanting broken, desire intact
 ```
 
 → Chi tiết hóa chất + interaction → Core-Deep-Dive/Neurochemistry.md
@@ -687,18 +722,28 @@ Cơ chế: Pre-installed Counter-Signal
 ### 10.1 Công Thức
 
 ```
-DRIVE = Prediction Reward − Prediction Cost
+DRIVE = Desire Fulfillment Expected − Cost
 
-  Reward = PE dự kiến × prediction confidence × kênh gốc match
-         + urgency bonus (cortisol moderate → DA↑)
-  Cost   = effort (PFC load) + threat (cortisol cao) + social cost + opportunity cost
+  Fulfillment = Σ(desire_i × predicted_match_i) − Σ(pre_simulated_i)
+    desire_i      = unconscious desire thứ i (Lớp 1: opioid/oxytocin)
+    match_i       = reality/simulation match desire bao nhiêu (0→1)
+    pre_simulated = đã tưởng tượng/giả lập trước bao nhiêu (giảm PE)
+
+  Cost = effort (PFC load) + threat (cortisol) + social cost + opportunity cost
 
 Drive lấy input XUYÊN TẦNG:
   T1 (hardware state): cortisol level, dopamine level, energy
-  T2 (predictions): schema predict PE dự kiến, confidence
+  T2 (predictions): schema predict fulfillment dự kiến, confidence
   Container (môi trường): threat thực tế, social context, opportunity
   → Kết quả Drive = INTERNAL (không ai thấy từ bên ngoài)
   → Drive → T3 Hành Vi (execute action)
+
+⚠️ UD Reframe (Research/UD-Hypothesis.md):
+  CŨ (RPE): Drive = PE expected (surprise-based)
+  MỚI (UD): Drive = Desire Fulfillment expected (desire-based)
+  → RPE = special case khi desire = simple + conscious (Schultz's monkey)
+  → UD = generalized cho human complex desires
+  → Giả thiết, chưa validated — nhưng predict hành vi tốt hơn ở edge cases
 ```
 
 ### 10.2 "Biết Mà Không Làm" — 2 Cơ Chế
@@ -1026,6 +1071,9 @@ Schema encoded ở nhiều modalities → cần intervention PHÙ HỢP modality
 | R3 | Emotion spectrum: 6 chiều (channel/sign/time/depth/certainty/intensity) đủ? | TB |
 | R4 | Tình yêu 3 giai đoạn: transition timing predictable? | Thấp |
 | R5 | Novelty: channel gốc hay infrastructure (PE detection)? Simple test + fMRI verify | Cao |
+| R6 | UD (Unconscious Desire): RPE special case hay UD sai? Cần experiment tách 2 predictions | Cao |
+| R7 | UD Parenting: attachment styles = UD profiles? Cần longitudinal study | TB |
+| R8 | Neurochemistry 3 lớp (Source/Amplifier/Modulator): consistent với pharmacology? | Cao |
 
 ---
 
@@ -1050,6 +1098,8 @@ Human Predictive Drive/
 ├── Research/                       ← Nghiên cứu per topic
 │   ├── Component-Interaction-Map.md ← ★ Interaction analysis + schema decomposition
 │   ├── Emotion-Map.md              ← ★ Emotion mapping (PE × channels × brain)
+│   ├── UD-Hypothesis.md            ← ★ Unconscious Desire hypothesis (reframe PE → desire)
+│   ├── UD-Parenting.md             ← ★ UD trong phát triển trẻ em + attachment theory
 │   ├── Layer-Architecture-Draft.md  ← Architecture analysis (v4)
 │   ├── Religion.md                 ← Tôn giáo: 7 functions
 │   ├── Mismatch-Patterns.md        ← OCD, burnout, open loops
@@ -1116,6 +1166,9 @@ Human Predictive Drive/
 - Multi-modal encoding → difficulty to change 🟡
 - Emotion = PE readout, cross-cutting signal 🟡
 - 5 Processing Systems (H, K, R, E, I) 🔴
+- Neurochemistry 3 lớp: Source (Opioid+Oxytocin) / Amplifier (DA+5HT) / Modulator 🔴
+- UD hypothesis: desire fulfillment > prediction error (for complex cases) 🔴
+- UD Parenting: attachment styles = UD calibration outcomes 🟡 (attachment = 🟢, UD mapping = 🔴)
 
 ---
 
