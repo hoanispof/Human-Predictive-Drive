@@ -197,6 +197,13 @@ Serotonin thấp → so sánh liên tục → PE bị lọc/giảm → bất mã
 
 Serotonin sensitivity cao → nhạy hierarchy → nhạy authority → THIÊN external compliance (Soldier tendency).
 
+⚠️ **Serotonin ≠ channel (phụ gia, chưa rõ cơ chế chính xác):**
+Serotonin = MULTIPLIER trên các kênh gốc, không tạo PE độc lập.
+"Nghiện địa vị" thực chất = nghiện MULTI-CHANNEL PE BURST mà status gains mang lại
+(novelty vị trí mới + opioid access + oxytocin thu hút) — giống "nghiện tiền" = nghiện cái tiền mua được.
+Strip hết kênh gốc → status alone không sustain (CEO cô đơn + nhàm chán = depressed dù có vị trí).
+→ Xem thêm: Layer-Architecture-Draft.md §4.1 (Confidence Meter), §4.6 (Self-Efficacy).
+
 ### Cortisol/GABA — Trục An Toàn ↔ Hành Động + "Nút Reset Soldier"
 
 **Inverted-U (đường cong chữ U ngược):** Cortisol KHÔNG chỉ xấu. 🟢 (de Kloet et al., 1998).
@@ -338,7 +345,7 @@ Thiền, tự nhiên, dopamine fasting → D2 up-regulate (chậm) → threshold
 
 ### 5.3 PE Sensitivity — Cách Não Xử Lý Tín Hiệu PE
 
-Biên độ phản ứng với PE + tốc độ habituation + phạm vi habituation.
+Biên độ phản ứng với PE + tốc độ PE decay + phạm vi habituation.
 
 Sensitivity cao = phản ứng MẠNH + quen NHANH → chunk hiện tại mất PE nhanh → buộc explore chunk mới liên tục.
 Sensitivity thấp = phản ứng NHẸ + quen CHẬM → cùng chunk cho PE lâu hơn → deepen tự nhiên.
@@ -355,9 +362,14 @@ Sensitivity thấp = phản ứng NHẸ + quen CHẬM → cùng chunk cho PE lâ
 ① Amplitude — volume tín hiệu DA. Cùng chunk mới, người A "WOW!", người B "à, ok."
 ② Precision weighting — PE đáng tin cỡ nào trước khi thưởng.
    🟢 Feldman & Friston 2010.
-③ Habituation rate — tốc độ 1 chunk CỤ THỂ mất PE.
-   Nhanh: chunk mới hôm nay → "biết rồi" ngày mai.
-   Chậm: chunk mới hôm nay → vẫn cho PE tuần sau.
+③ PE Decay Rate — tốc độ 1 chunk CỤ THỂ mất PE, KHÁC NHAU per kênh.
+   🟡 Reframe: "tốc độ chán" observable = EMERGENT METRIC, không chỉ ③.
+   Chunk lifespan phụ thuộc: (a) per-channel PE decay rate (③),
+   (b) Channel Anchoring — số kênh đồng thời active trên chunk,
+   (c) hedonic adaptation, (d) complexity/renewal capacity.
+   Multi-channel chunk sống LÂU HƠN single-channel (xem Channel Anchoring).
+   ⚠️ Cơ sở cũ (Thompson & Spencer 1966) nói về reflex habituation, không trực tiếp
+   về chunk-level PE — bước suy luận cần ghi nhận. Xem PE-Sensitivity.md §4.
 ④ Generalization scope — khi habituate chunk A, chunk TƯƠNG TỰ B có bị theo? 🟡
    Hẹp: chỉ chunk A cũ, chunk B (tương tự) vẫn mới → ở lại domain lâu.
    Rộng: chunk A cũ → cả "loại A" cũ luôn → phải sang domain/loại khác.

@@ -1102,7 +1102,11 @@ CAN THIỆP:
 ```
 NHÃN PHỔ BIẾN:  "OCD" / "hay kiểm tra quá" / "dở hơi" / "thói quen lạ"
 FRAMEWORK LABEL: Sequential Defense — TÍNH NĂNG bình thường (stimming → ritual)
-                 → BỆNH LÝ khi hardware "done" detector LỖI × cortisol mãn tính
+                 → BỆNH LÝ khi CSTC circuit + serotonin + GABA hardware LỖI
+                    × cortisol mãn tính (trigger/amplifier)
+                 ⚠️ v2 REFRAME: OCD = HARDWARE REQUIRED.
+                    Environment = trigger, KHÔNG phải cause.
+                    Xem thêm: Emotion-Map.md §4.1 (yêu = cùng serotonin mechanism)
 ```
 
 ```
@@ -1287,24 +1291,67 @@ NGƯỠNG CÁ NHÂN — tại sao mỗi người khác nhau:
 BLOCK 4 — KHI TUYẾN 2 HỎNG: BUG + MISMATCH → OCD
 ═══════════════════════════════════════════════════
 
-🟢 BUG: HARDWARE "DONE" DETECTOR — Double Failure Model
+🟢 BUG: HARDWARE PREDISPOSITION — CSTC Circuit + Neurochemical Dysfunction
 
-  "Done" detector = 2 thành phần phối hợp:
-    OFC: phát "error signal" — "chưa đúng, check thêm"
-    dlPFC: phát "override signal" — "đủ rồi, dừng đi"
-    Bình thường: OFC báo lỗi → dlPFC evaluate → override nếu đủ → DONE
+  ⚠️ REFRAME (v2): OCD = HARDWARE REQUIRED.
+  Environment (stress, trauma) = TRIGGER/AMPLIFIER, KHÔNG phải CAUSE.
+  Người KHÔNG có hardware predisposition → stress mãn tính → anxiety, burnout,
+  depression — nhưng KHÔNG OCD. OCD cần hardware lỗi ở ≥1 trong 3 hệ dưới.
+  Heritability: ~47-58% (twin studies). Bimodal onset: adolescence + early adulthood.
+  ~50% OCD onset không có first-degree relative → polygenic + de novo mutations.
 
-  🟡 DOUBLE FAILURE — OCD predisposition:
-    OFC/dlPFC ratio BASELINE cao hơn bình thường:
-      OFC↑ = cảnh báo quá nhạy → "chưa xong" liên tục (false positive)
-      dlPFC↓ = phanh yếu → không đủ mạnh override false positive
-    = Thermostat lỗi: vừa đọc sai nhiệt độ, vừa nút điều chỉnh kẹt.
+  HỆ 1 — CSTC CIRCUIT DYSFUNCTION (Cortico-Striato-Thalamo-Cortical):
+  ──────────────────────────────────────────────────────────────────
+  "Done" detector = nhiều thành phần phối hợp trong 1 LOOP:
+
+    ┌─→ OFC (error signal: "chưa đúng, check thêm")
+    │     ↓
+    │   Striatum/Caudate (action selection: thực hiện check)
+    │     ↓
+    │   Pallidum → Thalamus (gate: cho signal quay lại cortex không?)
+    │     ↓
+    └─── dlPFC (override signal: "đủ rồi, dừng đi") ←── nếu ĐỦ MẠNH → DONE
+
+  OCD predisposition — MULTI-POINT FAILURE trong loop:
+    OFC↑ = error signal quá nhạy → "chưa xong" liên tục (false positive)
+    dlPFC↓ = override/phanh yếu → không đủ mạnh cancel false positive
+    Caudate↑ = habit loop quá mạnh → checking tự automate
+    Thalamic gate↓ = filtering kém → signal lặp quay vòng không bị chặn
+  = Không chỉ thermostat lỗi — toàn bộ LOOP có nhiều điểm failure.
 
   🟢 Evidence:
     Menzies (2008): OFC hyperactive + structural abnormalities 🟢
     Rotge (2008): dlPFC hypoactive during cognitive control 🟢
-  🟢 Gen: SLC1A1, SERT. Heritability ~40-65% (Pauls 2010).
-  ⚠️ KHÔNG phải "thiếu ý chí dừng." Hardware BỊ LỖI ở 2 chiều.
+    Baxter (1996): Caudate hyperactivity in OCD 🟢
+
+  HỆ 2 — SEROTONIN SYSTEM DYSFUNCTION:
+  ──────────────────────────────────────
+  Serotonin transporter bất thường → cognitive flexibility GIẢM
+  → Não KHÔNG THỂ shift khỏi intrusive thoughts → loop duy trì
+  → SSRIs = first-line medication VÌ restore serotonin → restore flexibility
+
+  ⚠️ CROSS-REFERENCE QUAN TRỌNG:
+    Não CÓ "chương trình giảm serotonin" hợp lệ: KHI YÊU (infatuation).
+    Marazziti et al. (1999): người đang yêu say đắm có serotonin
+    transporter GIẢM ~40% — BẰNG người OCD.
+    → Obsessive thinking về partner = CÙNG cơ chế với OCD obsession.
+    → KHÁC: khi yêu = có TARGET cụ thể + TỰ TẮT sau 12-18 tháng (feature).
+           OCD = target mơ hồ/random + KHÔNG TỰ TẮT (bug).
+    → Giống: sốt là feature (chống nhiễm trùng) → sốt mãn tính = bug (autoimmune).
+
+  🟢 Evidence:
+    Marazziti (1999): serotonin transporter ↓40% in both OCD and early love 🟢
+    Bloch (2008): SRI/SSRI meta-analysis confirms serotonergic basis 🟢
+
+  HỆ 3 — GABAergic UNDERACTIVITY:
+  ────────────────────────────────
+  GABA = chất ức chế chính trong não.
+  GABA yếu trong OFC, ACC, striatal nodes → inhibitory gating MẤT
+  → Signal lặp không bị chặn → intrusive thoughts + compulsive motor programs
+
+  🟢 Gen: SLC1A1, SERT, DLGAP1, PTPRD. Heritability ~47-58% (Pauls 2010, IOCDF 2025).
+  ⚠️ KHÔNG phải "thiếu ý chí dừng." Hardware BỊ LỖI ở NHIỀU điểm trong CSTC loop
+     + neurochemistry (serotonin + GABA).
 
 MISMATCH 1 — Uncertainty Trừu Tượng (exit condition MẤT):
   Savanna: "Có rắn không?" → NHÌN → thấy/không thấy → DONE. 1 lần, xong.
@@ -1345,11 +1392,12 @@ BLOCK 5 — TRAJECTORY: FUNCTIONAL → PATHOLOGICAL
   │ DỪNG ĐƯỢC           dừng khó hơn         KHÔNG DỪNG ĐƯỢC       │
   └─────────────────────────────────────────────────────────────────┘
 
-  Giai đoạn 1 — FUNCTIONAL (đa số mọi người, đa số thời gian):
+  Giai đoạn 1 — FUNCTIONAL (MỌI NGƯỜI, đa số thời gian):
     Cortisol moderate → stimming đủ (hoặc ritual nhẹ) → endpoint ĐẠT → done
     Tuyến phòng thủ = TOOL hữu ích. Dùng xong, bỏ xuống.
     PFC intact → metacognition giám sát.
     ⏱️ Cortisol bất ngờ tăng vài giờ/ngày → KHÔNG SAO → recovery cycle works.
+    → Không cần hardware predisposition. Feature cho TẤT CẢ.
 
   Giai đoạn 2 — ESCALATION (cortisol high KÉO DÀI tuần → tháng):
     Stimming KHÔNG ĐỦ → não tuyển tuyến 2 (ritual)
@@ -1358,11 +1406,36 @@ BLOCK 5 — TRAJECTORY: FUNCTIONAL → PATHOLOGICAL
     Endpoint vẫn ĐẠT nhưng cần NHIỀU LẦN HƠN.
     ⚠️ TÍN HIỆU CẢNH BÁO: "Trước 2 lần là yên, giờ phải 5 lần."
     ⚠️ ĐÂY = CỬA SỔ CAN THIỆP. Hạ cortisol → recovery → về giai đoạn 1.
+    → Cũng KHÔNG cần hardware predisposition. BẤT KỲ AI dưới stress kéo dài.
 
-  Giai đoạn 3 — BREAKDOWN (cortisol mãn tính, tháng → năm):
-    dlPFC atrophy đáng kể + OFC không bị atrophy → DOUBLE FAILURE
+  ═══ ĐIỂM PHÂN NHÁNH ═══ (v2 REFRAME)
+
+  Giai đoạn 2 → 3: CHỈ XẢY RA Ở NGƯỜI CÓ HARDWARE PREDISPOSITION.
+
+    KHÔNG có predisposition (đa số):
+      Cortisol mãn tính → ritual tăng → NHƯNG:
+        "Done" detector VẪN HOẠT ĐỘNG (OFC normal, dlPFC normal baseline)
+        Serotonin system BÌ THƯỜNG → cognitive flexibility CÒN
+        GABA inhibitory gating BÌNH THƯỜNG → signal lặp bị chặn
+      → Hạ cortisol → ritual GIẢM → về giai đoạn 1
+      → Không hạ cortisol → trajectory sang BURNOUT, ANXIETY, DEPRESSION
+      → NHƯNG KHÔNG PHẢI OCD (loop vẫn có endpoint, chỉ khó chịu)
+
+    CÓ predisposition (~2-3% dân số):
+      Cortisol mãn tính → ritual tăng → VÀ:
+        "Done" detector ĐÃ YẾU SẴN (OFC↑, dlPFC↓ baseline)
+        Serotonin dysfunction → khó shift khỏi intrusive thoughts
+        GABA underactivity → signal lặp KHÔNG bị chặn
+        Cortisol atrophy THÊM trên dlPFC ĐÃ YẾU → vượt ngưỡng
+      → Loop KHÔNG CÓ EXIT → automated → OCD clinical
+      → Hạ cortisol CŨNG KHÔNG TỰ DỪNG (đã automated) → cần ERP
+
+  Giai đoạn 3 — BREAKDOWN (CHỈ với hardware predisposition):
+    CSTC loop failure: OFC↑↑ + dlPFC↓↓ + Caudate automated + Thalamus gate↓
+    Serotonin↓ → cognitive flexibility MẤT → stuck in thought loop
+    GABA↓ → inhibitory gating MẤT → compulsive motor programs
     Ritual HABITUATE → endpoint KHÔNG ĐẠT → loop automated
-    Cortisol hạ CŨNG KHÔNG TỰ DỪNG → = OCD clinical → cần ERP.
+    Cortisol hạ CŨNG KHÔNG TỰ DỪNG → = OCD clinical → cần ERP + SSRI.
 
   🟢 EVIDENCE (từng mảnh confirmed, trajectory = framework synthesis 🔴):
     Arnsten (2009): chronic stress → PFC dendritic atrophy 🟢
@@ -1372,7 +1445,12 @@ BLOCK 5 — TRAJECTORY: FUNCTIONAL → PATHOLOGICAL
     Adams (2018): childhood adversity → OCD risk 🟢
     Sousa-Lima (2019): HPA axis dysregulated in OCD 🟢
     Rotge (2008): dlPFC hypoactive in OCD 🟢
+    Bloch (2008): SRI/SSRI meta-analysis → serotonergic basis 🟢
+    Marazziti (1999): serotonin transporter ↓40% in OCD (= early love) 🟢
+    Twin studies: heritability 47-58% 🟢
     🔴 Chưa có longitudinal study theo dõi cùng người từ healthy → clinical.
+    🔴 Chưa có study tách rõ: cùng cortisol mãn tính, predisposition vs không
+       → ai thành OCD, ai thành burnout/anxiety?
 ```
 
 ```

@@ -13,7 +13,7 @@
 1. [Tổng Quan](#1-tổng-quan)
 2. [① Amplitude](#2-amplitude)
 3. [② Precision Weighting](#3-precision-weighting)
-4. [③ Habituation Rate](#4-habituation-rate)
+4. [③ PE Decay Rate](#4-pe-decay-rate)
 5. [④ Generalization Scope](#5-generalization-scope)
 6. [Encoding Modality](#6-encoding-modality)
 7. [Encoding Profile — Mỗi Người = Mix](#7-encoding-profile)
@@ -114,27 +114,47 @@ Precision THẤP (gán chậm, cần kiểm thêm):
 
 ---
 
-## 4. ③ Habituation Rate — Tốc Độ Chunk "Cháy"
+## 4. ③ PE Decay Rate — Tốc Độ Chunk "Cháy"
 
-🟡 (suy luận từ 🟢 Thompson & Spencer 1966 — habituation; synaptic plasticity research)
+🟡 Reframe từ "Habituation Rate".
+   Cơ sở cũ (Thompson & Spencer 1966) nói về reflex-level habituation ở spinal circuits,
+   không trực tiếp về chunk-level PE decay — bước suy luận cần ghi nhận.
+   Xem Research-References/PE-Sensitivity/Thompson-Spencer-1966-habituation.md.
 
 ```
-= Tốc độ update prediction model → PE BIẾN MẤT khi model đã cập nhật.
-  Sau khi chunk mới hình thành, bao lâu nó trở thành "đã biết" (PE → 0)?
+= Tốc độ 1 chunk CỤ THỂ mất PE, KHÁC NHAU per kênh.
 
 NHANH: chunk mới hôm nay → "biết rồi" ngày mai
-  → Model update nhanh → PE cháy nhanh → cần chunk MỚI sớm
-  → Chunk LIFESPAN ngắn (vòng đời ngắn)
+  → PE cháy nhanh → cần chunk MỚI sớm
+  → Chunk LIFESPAN ngắn
 
 CHẬM: chunk mới hôm nay → vẫn cho PE tuần sau
-  → Model update chậm → PE cháy chậm → cùng chunk vẫn thú vị lâu
-  → Chunk LIFESPAN dài (vòng đời dài)
+  → PE cháy chậm → cùng chunk vẫn thú vị lâu
+  → Chunk LIFESPAN dài
+
+⚠️ QUAN TRỌNG: "Tốc độ chán" observable = EMERGENT METRIC, không chỉ ③.
+   Chunk lifespan thực tế phụ thuộc:
+   (a) per-channel PE decay rate (③ — parameter này)
+   (b) Channel Anchoring — số kênh đồng thời active trên chunk
+       Multi-channel chunk sống LÂU HƠN single-channel
+       (xem Layer-Architecture-Draft.md §6.1)
+   (c) hedonic adaptation
+   (d) complexity/renewal capacity của chunk
+   → ③ chỉ là 1 THÀNH PHẦN của chunk lifespan, không phải toàn bộ.
+
+Per-channel distinction:
+  Wanting (DA) decay ≠ Liking (opioid) decay cho cùng chunk.
+  Chunk có thể wanting-dead nhưng liking-alive (hoặc ngược lại).
+  (Berridge 2009 — wanting/liking dissociation)
 
 Cơ sở sinh học:
   Synaptic plasticity rate — tốc độ synapse thay đổi strength
   BDNF (Brain-Derived Neurotrophic Factor) — hỗ trợ plasticity
   NMDA receptor function — gate cho synaptic change
   → Hardware, nhưng KHÔNG hoàn toàn cố định (exercise, sleep ảnh hưởng)
+  ⚠️ Cơ sở này dựa trên long-term plasticity (LTP/LTD),
+     khác với "polysynaptic low-frequency depression" trong Thompson & Spencer.
+     Bước nhảy suy luận cần ghi nhận.
 ```
 
 **③ vs ④ — Tại sao cần phân biệt:**
@@ -946,7 +966,7 @@ Encoding modality QUYẾT ĐỊNH loop mạnh hay yếu per domain:
 ### 9.1 Câu Hỏi Ưu Tiên Cao
 
 ```
-Q1: ④ Generalization scope TÁCH BIỆT với ③ Habituation rate chắc chắn?
+Q1: ④ Generalization scope TÁCH BIỆT với ③ PE Decay Rate chắc chắn?
     Test: tìm người ③ chậm + ④ rộng (chunk PE lâu nhưng generalize cả loại)
     Nếu tìm được → ③ và ④ independent. Nếu không → có thể correlated.
     Status: 🟡 logic tách biệt, chưa có counterexample data

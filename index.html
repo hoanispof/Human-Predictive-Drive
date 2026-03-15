@@ -1,21 +1,43 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="vi" data-theme="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HPD Framework v6.0</title>
+<script>
+  /* Apply saved theme before render — avoids flash */
+  (function(){
+    var t = localStorage.getItem('hpd-theme') || 'light';
+    document.documentElement.setAttribute('data-theme', t);
+  })();
+</script>
 <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <style>
+/* ── Light mode (default) ── */
 :root {
+  --bg: #ffffff; --bg2: #f6f8fa; --bg3: #eaeef2; --bg4: #d0d7de;
+  --text: #1f2328; --text2: #57606a; --text3: #8c959f;
+  --blue: #0969da; --green: #1a7f37; --yellow: #9a6700; --red: #cf222e;
+  --purple: #8250df; --orange: #bc4c00; --pink: #bf3989; --cyan: #1b7c83;
+  --shadow: rgba(31,35,40,0.08);
+}
+/* ── Dark mode ── */
+[data-theme="dark"] {
   --bg: #0d1117; --bg2: #161b22; --bg3: #21262d; --bg4: #30363d;
   --text: #e6edf3; --text2: #8b949e; --text3: #6e7681;
   --blue: #58a6ff; --green: #3fb950; --yellow: #d29922; --red: #f85149;
   --purple: #bc8cff; --orange: #f0883e; --pink: #f778ba; --cyan: #39d2c0;
+  --shadow: rgba(0,0,0,0.3);
 }
+
 * { margin:0; padding:0; box-sizing:border-box; }
-body { background:var(--bg); color:var(--text); font-family:'Segoe UI',system-ui,sans-serif; line-height:1.6; }
+body {
+  background:var(--bg); color:var(--text);
+  font-family:'Segoe UI',system-ui,sans-serif; line-height:1.6;
+  transition: background .2s, color .2s;
+}
 h1 { font-size:1.8rem; font-weight:700; }
 h2 { font-size:1.1rem; font-weight:600; color:var(--blue); margin-bottom:.5rem; text-transform:uppercase; letter-spacing:.5px; }
 h3 { font-size:.95rem; font-weight:600; color:var(--text); margin-bottom:.3rem; }
@@ -23,12 +45,34 @@ h3 { font-size:.95rem; font-weight:600; color:var(--text); margin-bottom:.3rem; 
 .app { max-width:1000px; margin:0 auto; padding:1.5rem 1rem 4rem; }
 .header { text-align:center; padding:2rem 0 1rem; border-bottom:1px solid var(--bg4); margin-bottom:2rem; }
 .header p { color:var(--text2); font-size:.85rem; margin-top:.3rem; }
-.badge { display:inline-block; font-size:.65rem; padding:2px 7px; border-radius:10px; font-weight:600; margin-left:6px; vertical-align:middle; }
-.bg { background:var(--green); color:#000; } .by { background:var(--yellow); color:#000; } .br { background:var(--red); color:#fff; }
+
+/* Badge — light mode: pastel pill */
+.badge { display:inline-block; font-size:.65rem; padding:2px 8px; border-radius:10px; font-weight:600; margin-left:6px; vertical-align:middle; }
+.bg { background:#dafbe1; color:#1a7f37; border:1px solid #aaefc4; }
+.by { background:#fff3cd; color:#7d4e00; border:1px solid #f0c060; }
+.br { background:#ffebe9; color:#a40e26; border:1px solid #ffb8b0; }
+/* Dark mode: bright solid */
+[data-theme="dark"] .bg { background:#238636; color:#fff; border-color:#2ea043; }
+[data-theme="dark"] .by { background:#9e6a03; color:#fff; border-color:#d29922; }
+[data-theme="dark"] .br { background:#b91c1c; color:#fff; border-color:#f85149; }
+
+/* Theme toggle */
+.theme-toggle {
+  display:inline-flex; align-items:center; gap:.4rem;
+  background:var(--bg3); border:1px solid var(--bg4); color:var(--text2);
+  padding:.3rem .9rem; border-radius:20px; cursor:pointer;
+  font-size:.8rem; margin-top:.8rem; transition:background .15s, color .15s;
+  font-family:inherit;
+}
+.theme-toggle:hover { background:var(--bg4); color:var(--text); }
 
 /* Section */
-.section { background:var(--bg2); border:1px solid var(--bg4); border-radius:12px; padding:1.2rem 1.4rem; margin-bottom:1rem; }
-.section:hover { border-color:var(--bg4); }
+.section {
+  background:var(--bg2); border:1px solid var(--bg4);
+  border-radius:12px; padding:1.2rem 1.4rem; margin-bottom:1rem;
+  box-shadow: 0 1px 3px var(--shadow);
+  transition: background .2s, border-color .2s;
+}
 
 /* Cards */
 .cards { display:grid; gap:.6rem; margin-top:.6rem; }
@@ -37,13 +81,18 @@ h3 { font-size:.95rem; font-weight:600; color:var(--text); margin-bottom:.3rem; 
 .cards-4 { grid-template-columns:1fr 1fr; }
 .cards-5 { grid-template-columns:1fr 1fr 1fr; }
 @media(max-width:700px) { .cards-2,.cards-3,.cards-4,.cards-5 { grid-template-columns:1fr; } }
-.card { background:var(--bg3); border-radius:8px; padding:.7rem .9rem; border-left:3px solid var(--bg4); }
+.card {
+  background:var(--bg); border-radius:8px; padding:.7rem .9rem;
+  border-left:3px solid var(--bg4); border:1px solid var(--bg4);
+  border-left:3px solid var(--bg4);
+  transition: background .2s;
+}
 .card-title { font-size:.8rem; font-weight:700; margin-bottom:.2rem; }
 .card-desc { font-size:.75rem; color:var(--text2); line-height:1.4; }
 
 /* Square */
 .square-wrap { display:flex; justify-content:center; margin:.8rem 0; }
-.square { position:relative; width:280px; height:280px; border:2px solid var(--bg4); border-radius:4px; background:var(--bg); }
+.square { position:relative; width:280px; height:280px; border:2px solid var(--bg4); border-radius:4px; background:var(--bg2); }
 .sq-label { position:absolute; font-size:.75rem; font-weight:700; text-align:center; }
 .sq-top { top:-22px; left:50%; transform:translateX(-50%); color:var(--purple); }
 .sq-bot { bottom:-22px; left:50%; transform:translateX(-50%); color:var(--text3); }
@@ -52,22 +101,28 @@ h3 { font-size:.95rem; font-weight:600; color:var(--text); margin-bottom:.3rem; 
 .sq-axis-x { position:absolute; bottom:8px; width:100%; text-align:center; font-size:.6rem; color:var(--text3); }
 .sq-axis-y { position:absolute; left:8px; top:50%; transform:translateY(-50%) rotate(-90deg); font-size:.6rem; color:var(--text3); white-space:nowrap; }
 .sq-gradient { position:absolute; inset:0; border-radius:2px;
-  background: linear-gradient(to top, rgba(88,166,255,0.03), rgba(188,140,255,0.12)),
-              linear-gradient(to right, rgba(240,136,62,0.08), rgba(57,210,192,0.08)); }
+  background: linear-gradient(to top, rgba(88,166,255,0.04), rgba(188,140,255,0.1)),
+              linear-gradient(to right, rgba(240,136,62,0.06), rgba(57,210,192,0.06)); }
 
 /* Tower */
 .tower { display:flex; flex-direction:column; gap:2px; margin:.6rem 0; }
 .tower-layer { padding:.6rem .9rem; border-radius:6px; border-left:4px solid; }
-.tower-label { font-size:.7rem; font-weight:700; opacity:.7; }
+.tower-label { font-size:.7rem; font-weight:700; opacity:.8; }
 .tower-content { font-size:.78rem; color:var(--text2); margin-top:.15rem; }
 
 /* Formula */
-.formula { background:var(--bg); border:1px solid var(--bg4); border-radius:8px; padding:.8rem 1rem; margin:.6rem 0; font-family:'Cascadia Code','Fira Code',monospace; font-size:.78rem; line-height:1.6; color:var(--cyan); }
+.formula {
+  background:var(--bg3); border:1px solid var(--bg4);
+  border-radius:8px; padding:.8rem 1rem; margin:.6rem 0;
+  font-family:'Cascadia Code','Fira Code',monospace; font-size:.78rem;
+  line-height:1.6; color:var(--cyan);
+  transition: background .2s;
+}
 
 /* Table */
 table { width:100%; border-collapse:collapse; font-size:.78rem; margin-top:.5rem; }
-th { text-align:left; color:var(--text2); font-weight:600; padding:.4rem .5rem; border-bottom:1px solid var(--bg4); }
-td { padding:.4rem .5rem; border-bottom:1px solid var(--bg3); color:var(--text2); }
+th { text-align:left; color:var(--text2); font-weight:600; padding:.4rem .5rem; border-bottom:2px solid var(--bg4); }
+td { padding:.4rem .5rem; border-bottom:1px solid var(--bg4); color:var(--text2); }
 tr:hover td { background:var(--bg3); }
 
 /* Inverted-U SVG */
@@ -80,11 +135,11 @@ svg text { font-family:'Segoe UI',sans-serif; }
 /* Numbered list */
 .steps { counter-reset:step; margin:.5rem 0; }
 .step { display:flex; gap:.6rem; margin-bottom:.4rem; font-size:.78rem; color:var(--text2); }
-.step::before { counter-increment:step; content:counter(step); background:var(--bg4); color:var(--text); width:20px; height:20px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:.65rem; font-weight:700; flex-shrink:0; margin-top:2px; }
+.step::before { counter-increment:step; content:counter(step); background:var(--blue); color:#fff; width:20px; height:20px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:.65rem; font-weight:700; flex-shrink:0; margin-top:2px; }
 
 .note { font-size:.72rem; color:var(--text3); font-style:italic; margin-top:.4rem; }
 .highlight { color:var(--yellow); font-weight:600; }
-.divider { border:none; border-top:1px solid var(--bg3); margin:.3rem 0; }
+.divider { border:none; border-top:1px solid var(--bg4); margin:.3rem 0; }
 </style>
 </head>
 <body>
@@ -92,6 +147,25 @@ svg text { font-family:'Segoe UI',sans-serif; }
 <script type="text/babel">
 
 const { useState } = React;
+
+/* ── Theme Toggle ── */
+const ThemeToggle = () => {
+  const [dark, setDark] = useState(
+    document.documentElement.getAttribute('data-theme') === 'dark'
+  );
+  const toggle = () => {
+    const next = !dark;
+    setDark(next);
+    const theme = next ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('hpd-theme', theme);
+  };
+  return (
+    <button className="theme-toggle" onClick={toggle} title="Đổi giao diện">
+      {dark ? '☀️ Sáng' : '🌙 Tối'}
+    </button>
+  );
+};
 
 /* ── Reusable ── */
 const Badge = ({level}) => {
@@ -546,6 +620,7 @@ const App = () => (
       <div style={{marginTop:'.4rem'}}>
         <Badge level="g"/> <Badge level="y"/> <Badge level="r"/>
       </div>
+      <ThemeToggle />
     </div>
 
     <Overview />

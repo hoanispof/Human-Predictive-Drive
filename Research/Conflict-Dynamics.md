@@ -53,6 +53,19 @@ và R là finite → prediction của agent A trở thành **threat** cho predic
 
 PE (prediction error) bật lên ở cả hai → cortisol tăng → phản ứng bảo vệ model → xung đột.
 
+### Lưu ý quan trọng: Scarcity = PERCEIVED per agent
+
+Biến ② Scarcity trong công thức = **perceived scarcity của từng agent**, không phải scarcity khách quan.
+
+```
+Actual abundance + cả 2 perceive đủ     → KHÔNG xung đột
+Actual abundance + 1 bên perceive thiếu  → VẪN xung đột
+Actual scarcity  + cả 2 perceive đủ     → KHÔNG xung đột (hiếm, nhưng có thể)
+```
+
+Hệ quả: bất kỳ yếu tố nào thay đổi **perception** về scarcity đều thay đổi xung đột —
+dù resource thực tế không đổi. (Chi tiết: §7 — Perceived vs Actual Scarcity)
+
 ---
 
 ## 2. KHÁC BIỆT ≠ XUNG ĐỘT
@@ -152,6 +165,75 @@ Liên kết: Mismatch-Patterns.md — khi xung đột nội tâm mãn tính.
 | Pháp → VN (thuộc địa) | Quyền kiểm soát lãnh thổ VN | Chiến tranh → độc lập (phá Overlap bằng force) |
 | US → Trung Đông | Dầu mỏ (finite, strategic) | Năng lượng tái tạo (phá Scarcity dài hạn) |
 | Tranh chấp biển đảo | Vùng biển + tài nguyên dưới đáy | Luật quốc tế phân chia (phá Overlap bằng quy tắc) |
+
+#### Cùng công thức, khác tham số
+
+Xung đột quốc tế dùng **cùng 3 điều kiện** (Overlap × Scarcity × Commitment),
+nhưng các tham số hoạt động khác cá nhân:
+
+**a) Agent = tập thể, không phải 1 não**
+
+```
+Cá nhân: 1 brain → quyết định nhanh, coherent
+Quốc gia: leader + bộ máy + dư luận + media → quyết định emergent
+
+Hệ quả:
+  - Perceived scarcity bị ẢNH HƯỞNG bởi narrative
+    → Media/propaganda có thể THỔI PHỒNG scarcity ("họ đang lấy mất X của ta")
+    → Hoặc GIẢM scarcity ("chúng ta đủ mạnh, không cần tranh")
+  - Commitment bị KHUẾCH ĐẠI bởi identity tập thể (nationalism)
+    → Chunk "quốc gia phải mạnh" gắn vào identity của TRIỆU người
+    → Khó phá hơn chunk cá nhân gấp nhiều lần
+```
+
+**b) Feedback loop chậm và méo**
+
+```
+Cá nhân: nói chuyện trực tiếp → biết ngay đối phương muốn gì
+Quốc gia: qua ngoại giao, tình báo, media → delay + distortion
+
+Hệ quả:
+  - Misperception TĂNG → perceived scarcity bị thổi phồng cả 2 bên
+  - Mỗi bên predict sai intention của bên kia → PE tăng → phản ứng phòng vệ
+  - Security dilemma: A tăng quân phòng thủ → B perceive threat → B tăng quân → loop
+```
+
+**c) De-commit cost cực cao**
+
+```
+Cá nhân: bỏ qua, đổi việc, nhường → cost thấp, reversible
+Quốc gia: nhượng bộ = leader mất mặt + mất quyền lực nội bộ + tiền lệ yếu
+
+Hệ quả:
+  - Commitment bị LOCK — leader CÓ THỂ muốn de-commit nhưng KHÔNG THỂ
+    (vì dư luận đã chunk, nationalism đã kích hoạt)
+  - Escalation trap: mỗi bước leo thang tăng commitment cả 2 bên
+    → De-commit cost tăng theo từng bước → khó quay lại
+```
+
+**d) Enforcement — factor ảnh hưởng ②③**
+
+```
+Enforcement = hegemon / liên minh / luật quốc tế đủ mạnh để:
+  → Giảm perceived scarcity (②): đảm bảo access qua hệ thống thương mại
+    VD: WTO, tự do hàng hải → ai cũng có đường tới resource → perceived đủ
+  → Tăng commitment cost (③): trừng phạt bên gây xung đột
+    VD: NATO deterrence → cost of attack > benefit → agent tự de-commit
+
+Enforcement KHÔNG phải biến thứ 4 — nó tác động THÔNG QUA ② và ③.
+Khi enforcement suy yếu → perceived scarcity tăng + commitment cost giảm
+→ Cả 2 điều kiện dễ thỏa mãn → xung đột tăng.
+```
+
+#### Đối chiếu lịch sử qua công thức
+
+| Giai đoạn | ① Overlap | ② Perceived Scarcity | ③ Commitment | Enforcement | Kết quả |
+|---|---|---|---|---|---|
+| Cuối TK19 (trước WW1) | CAO — cường quốc cùng target thuộc địa, thị trường | CAO — Đức perceived thiếu dù tổng pie lớn | CAO — nationalism, danh dự quốc gia | YẾU — không hegemon rõ ràng | → WW1 |
+| 1945-1991 (Cold War) | CAO — Mỹ vs Liên Xô cùng target ảnh hưởng toàn cầu | GIẢM (mỗi bên có bloc riêng) | CAO — ideology | CAO — MAD (vũ khí hạt nhân) | → Chiến tranh proxy, không trực tiếp |
+| 1991-2008 (Pax Americana) | THẤP — Mỹ dominant, ít ai thách thức | THẤP — toàn cầu hóa, access rộng | THẤP — hội nhập kinh tế | RẤT CAO — Mỹ unipolar | → Hòa bình tương đối |
+| 2015-nay | TĂNG — Trung Quốc thách thức Mỹ | TĂNG — công nghệ, thị trường, chip | TĂNG — nationalism 2 bên | GIẢM — Mỹ suy yếu tương đối | → Căng thẳng tăng |
+| AI future (dự đoán) | ? — phụ thuộc ai kiểm soát AI | Nếu AI benefit phân phối đều → GIẢM; nếu tập trung → TĂNG | ? | ? — AI military có thể thay đổi cân bằng | → Phụ thuộc phân phối |
 
 ---
 
@@ -261,6 +343,8 @@ Nhiều xung đột xảy ra vì **perceived scarcity** — tưởng rằng khô
 3. **Commitment inertia**: Khi đã commit mạnh vào resource, cần gì để detach? Liên hệ chunk dissolution speed?
 4. **Evolutionary angle**: Conflict có phải evolved mechanism để phân bổ scarce resources? Nếu vậy, cooperation emerged khi nào?
 5. **Conflict escalation**: Khi nào xung đột nhỏ (argument) leo thang thành xung đột lớn (violence)? Cơ chế cortisol cascade?
+6. **Scale transition**: Tại điểm nào tham số quốc tế (feedback chậm, de-commit cost cao, enforcement) thay đổi dynamics đủ để cần chiến lược khác? Có continuum hay có ngưỡng rõ ràng?
+7. **Innovation-conflict cycle**: Liệu innovation cycle (tăng tổng pie → giảm perceived scarcity → hòa bình) có predictive power đủ khi kết hợp với enforcement + phân phối? Cần data lịch sử đối chiếu chi tiết hơn.
 
 ---
 
@@ -272,5 +356,14 @@ v0.1 — 2026-03-09
   Giả thuyết gốc từ thảo luận: "xung đột không phải vì khác,
   mà vì cùng tranh giành"
   8 sections, 5 open questions
+
+v0.2 — 2026-03-10
+  §1: Clarify Scarcity = PERCEIVED per agent (không phải objective)
+  §4.4: Mở rộng phân tích quốc tế — cùng công thức, khác tham số
+    (agent tập thể, feedback chậm, de-commit cost cao, enforcement)
+  §4.4: Thêm bảng đối chiếu lịch sử (WW1 → hiện tại → AI future)
+  §9: Thêm 2 câu hỏi mở (scale transition, innovation-conflict cycle)
+  Kết luận chính: Enforcement KHÔNG phải biến thứ 4,
+    mà tác động THÔNG QUA perceived scarcity (②) và commitment cost (③)
 ══════════════════════════════════════════════════════════════
 ```
