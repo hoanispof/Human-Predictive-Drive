@@ -223,71 +223,328 @@ mỗi sub phục vụ UD Arbitration theo cách khác:
 
 ---
 
-## 3. Các Dạng PFC Profile
+## 3. Các Dạng PFC Profile — State Profiles
 
 ```
 ⚠️ KHÔNG phải personality types — là PATTERNS observable tại thời điểm.
-   Cùng người: ngủ đủ = Profile A, thiếu ngủ = Profile E.
+   Cùng người: ngủ đủ = Balanced, thiếu ngủ = Impulsive.
    PFC profile THAY ĐỔI theo state, không phải fixed trait.
    (Nhưng MỖI NGƯỜI có default profile khi điều kiện bình thường)
 
-PROFILE A: "Balanced" — Toàn diện
+Xem thêm §3.2 Mẫu Người Phổ Thông — map profiles vào tỉ lệ dân số.
+
+BALANCED — Toàn diện (peak state)
   dlPFC ●●●● vmPFC ●●●● OFC ●●●● ACC ●●●● mPFC ●●●●
-  Arbitration: toàn diện, quality cao
   → Plan tốt + value đúng + flexible + detect conflict + self-aware
-  → Predict horizon: dài, informed, holistic
   → Hiếm: cần hardware tốt + training + ngủ đủ + stress thấp
-  → Ví dụ: leader giỏi ở peak state
-  → Ưu: quyết định tốt nhất ở MỌI domain
-  → Nhược: HIẾM + KHÔNG duy trì được 24/7
+  → Đa số người có thể ĐẠT ở peak state, không DUY TRÌ 24/7
 
-PROFILE B: "Analyst" — dlPFC dominant
+ANALYST — dlPFC dominant
   dlPFC ●●●●● vmPFC ●●○○ OFC ●●●○ ACC ●●●○ mPFC ●●○○
-  Arbitration: logic mạnh, value assessment vừa
-  → Plan GIỎI, compare NHIỀU options, abstract reasoning MẠNH
-  → NHƯNG: đôi khi chọn sai vì không CHECK body (vmPFC vừa)
-  → "Spreadsheet nói option A, nhưng gut feeling nói B → chọn A → hối hận"
-  → Ví dụ: engineer, scientist, data analyst
-  → Ưu: systematic, thorough, data-driven
-  → Nhược: "analysis paralysis" nếu kết hợp ACC mạnh
+  → Logic mạnh, compare NHIỀU options, systematic
+  → Nhược: đôi khi chọn sai vì không CHECK body (vmPFC vừa)
 
-PROFILE C: "Empath" — vmPFC + mPFC dominant
+EMPATH — vmPFC + mPFC dominant
   dlPFC ●●○○ vmPFC ●●●●● OFC ●●●○ ACC ●●●● mPFC ●●●●●
-  Arbitration: value mạnh, social awareness cao, plan vừa
   → HIỂU mọi người, CẢM NHẬN giá trị, empathy CAO
-  → NHƯNG: plan thiếu structure, bị overwhelm bởi others' needs
-  → "Biết ai cần gì nhưng không organize được HOW"
-  → Ví dụ: therapist, counselor, HR, caretaker
-  → Ưu: relationship quality CAO, trust building
-  → Nhược: burnout từ absorb others' emotions (vmPFC quá sensitive)
+  → Nhược: plan thiếu structure, overwhelm bởi others' needs
 
-PROFILE D: "Rigid" — dlPFC ok, OFC yếu
+RIGID — dlPFC ok, OFC yếu
   dlPFC ●●●○ vmPFC ●●●○ OFC ●○○○ ACC ●●○○ mPFC ●●●○
-  Arbitration: CAN plan nhưng KHÔNG update khi context thay đổi
-  → Follow plan CŨ dù situation đã khác
-  → "Cách này work 5 năm trước → vẫn dùng → dù thế giới đổi"
-  → Ví dụ: manager cứng nhắc, người khó adapt, "old school"
-  → Ưu: consistent, reliable, disciplined
-  → Nhược: miss opportunities, resist change → left behind
+  → Follow plan CŨ, không update khi context đổi
+  → Nhược: miss opportunities, resist change
 
-PROFILE E: "Impulsive" — ACC yếu + dlPFC yếu
+IMPULSIVE — ACC yếu + dlPFC yếu
   dlPFC ●●○○ vmPFC ●●●○ OFC ●●●○ ACC ●○○○ mPFC ●●○○
-  Arbitration: GẦN NHƯ KHÔNG CÓ → loudest schema auto-win
-  → Không detect conflict + không hold options → react ngay
-  → "Act trước, nghĩ sau" — hoặc: "biết sai vẫn làm"
-  → Ví dụ: ADHD pattern, mệt cuối ngày, say, thiếu ngủ
-  → Ưu: fast action (đôi khi đúng bằng intuition)
-  → Nhược: inconsistent, regret nhiều, khó maintain goals
+  → GẦN NHƯ không arbitration → loudest schema auto-win
+  → Ai cũng VÀO profile này khi: mệt, thiếu ngủ, say, stress cực
 
-PROFILE F: "Overthinking" — mPFC + ACC hyperactive
+OVERTHINKING — mPFC + ACC hyperactive
   dlPFC ●●●○ vmPFC ●●●○ OFC ●●●○ ACC ●●●●● mPFC ●●●●●
-  Arbitration: DETECT conflict liên tục + self-reference liên tục
-  → Mọi option đều có vấn đề → không chọn được
-  → "Nghĩ quá nhiều, act quá ít" → paralysis by analysis
-  → Self-conscious: "mọi người sẽ nghĩ gì?" liên tục
-  → Ví dụ: anxiety disorder, perfectionist, social anxiety
-  → Ưu: thorough, cautious, risk-averse
-  → Nhược: miss deadlines, avoidant, exhausted từ overthinking
+  → Detect conflict liên tục + self-reference liên tục → paralysis
+  → Ví dụ: anxiety, perfectionism, social anxiety
+```
+
+---
+
+## 3.1 PFC Operating Modes — Worker / Director / Monitor
+
+```
+PFC không chỉ có MẠNH/YẾU — còn có STYLE sử dụng:
+
+MODE 1: WORKER — PFC tự effortful compute
+  = PFC active CỰC CAO, từng bước conscious
+  = "Hmm, nếu A thì B, nhưng C thì..."
+  = Cảm nhận: NẶNG ĐẦU, tốn năng lượng, mệt sau khi nghĩ
+  = Kahneman's System 2
+
+  Khi nào: task MỚI, domain CHƯA compiled, beginner stage
+  Ưu: explicable (giải thích được reasoning), teachable
+  Nhược: CHẬM, mệt, WM-limited
+
+MODE 2: DIRECTOR — PFC set direction, vô thức fill details
+  = PFC set framework → vô thức execute trong framework đó
+  = "Mục tiêu là X, approach Y, vô thức xử lý chi tiết"
+  = Cảm nhận: VỪA effort, strategic, "biết mình đang làm gì"
+  = Không có tên rõ trong Kahneman (giữa System 1 và 2)
+
+  Khi nào: domain có KINH NGHIỆM, schemas compiled ĐỦ để delegate
+  Ưu: efficient, balance control + delegation
+  Nhược: cần experience, không phải ai cũng đạt
+
+MODE 3: MONITOR — PFC chỉ check kết quả, vô thức làm hết
+  = PFC passive, CHỈ re-engage khi bất thường
+  = Vô thức generate → PFC: "có hợp lý không?" → ok hoặc flag
+  = Cảm nhận: NHẸ, nhanh, "tự nhiên biết", "mờ mờ ảo ảo"
+  = Kahneman's System 1 nhưng CÓ conscious check (khác pure System 1)
+
+  Khi nào: domain EXPERT (10,000+ giờ), schemas deeply compiled
+  Ưu: fast, accurate (cho trained domains), low energy
+  Nhược: khó giải thích ("chả hiểu kiểu gì"), domain-specific
+
+EXPERT TRAJECTORY:
+  Beginner: Worker (phải nghĩ từng bước)
+  → Intermediate: Director (set framework, delegate details)
+  → Expert: Monitor (vô thức làm hết, PFC flag bất thường)
+  → = PFC activity GIẢM khi expertise TĂNG (Dietrich, 2003: transient hypofrontality)
+  → = Musicians: dlPFC deactivate during expert improvisation (BrainFacts, 2024)
+  → = Skills transfer: PFC + hippocampus → striatum/BG (Simon, Chase, Gobet)
+
+MỖI NGƯỜI CÓ:
+  DEFAULT MODE:    mode thoải mái nhất (least effort)
+  AVAILABLE MODES: modes CÓ THỂ switch sang
+  SWITCH COST:     mệt bao nhiêu khi switch
+  SWITCH TRIGGER:  gì khiến switch (deadline, curiosity, threat, new domain)
+
+  → Cùng người có thể dùng CẢ 3 modes tùy context:
+    Domain quen: Monitor mode → nhẹ nhàng, nhanh
+    Domain mới: Worker mode → mệt, chậm, nhưng cần thiết
+    Manage project: Director mode → balance
+
+  → DEFAULT phụ thuộc:
+    Hardware: sub-region strengths (trait)
+    Software: chunking level per domain (compiled → Monitor available)
+    State: sleep, cortisol, glucose (dynamic)
+```
+
+```
+🟢 Nghiên cứu hỗ trợ:
+  Arne Dietrich (2003) — Transient Hypofrontality: PFC GIẢM → flow + creativity
+  BrainFacts (2024) — Expert musicians: dlPFC deactivate, sensorimotor tăng
+  Chassy & Gobet (2011) — Expert intuition = chunking + somatic (bypass PFC effortful)
+  Cerebral Cortex (2017) — Expert: giảm PFC + tăng connectivity task-specific
+  Kahneman (2011) — System 1/2 nhưng THIẾU mode Director (framework thêm)
+
+🟡 Framework thêm:
+  Mode 2 "Director" — reasonable inference, chưa có label riêng trong literature
+  DEFAULT + AVAILABLE + SWITCH COST model — chưa formalized trong research
+```
+
+---
+
+## 3.2 Mẫu Người Phổ Thông — PFC Profile + UD Pattern
+
+```
+⚠️ CAVEAT:
+  - Tỉ lệ % = ƯỚC LƯỢNG, KHÔNG có data chính xác từ research
+  - Research cho thấy: normal distribution, heavily individual-dependent
+  - Mẫu = simplified clusters, thực tế = phổ liên tục
+  - Cùng 1 người có thể SHIFT giữa mẫu theo giai đoạn đời
+  - ~10-15% dân số KHÔNG fit rõ mẫu nào → phân bố rải rác
+```
+
+```
+MẪU 1: "Người đi làm bình thường" (~35-40% dân số)
+
+  DEFAULT MODE: Worker (dlPFC effortful cho tasks mới hàng ngày)
+  PFC PROFILE:
+    dlPFC ●●●○○  vmPFC ●●●○○  OFC ●●○○○  ACC ●●○○○  mPFC ●●●○○
+
+  Đặc điểm hành vi:
+    → Làm theo quy trình, hướng dẫn, SOP
+    → Cần instruction rõ ràng → execute
+    → PFC mệt cuối ngày → về nhà System 1 takeover (TV, MXH, ăn)
+    → Switch mode: KHÓ (ít compiled chunks ngoài domain công việc)
+
+  UD Pattern:
+    → UD phổ biến: stability, comfort, routine, social belonging
+    → Threshold: vừa (schema pressure từ xã hội vừa phải)
+    → Drive: moderate, consistent, day-to-day
+    → Arbitration: Level 2 cho work, Level 1 khi mệt
+
+  Tại sao phổ biến nhất:
+    → Giáo dục TRAIN Worker mode (nghe → ghi → repeat)
+    → Đa số công việc YÊU CẦU Worker mode (follow process)
+    → KHÔNG SAI — phù hợp nhiều contexts, ổn định xã hội
+
+
+MẪU 2: "Manager / Coordinator" (~15-20%)
+
+  DEFAULT MODE: Director (dlPFC + mPFC lead)
+  PFC PROFILE:
+    dlPFC ●●●●○  vmPFC ●●●○○  OFC ●●●○○  ACC ●●●○○  mPFC ●●●●○
+
+  Đặc điểm hành vi:
+    → Giỏi plan, delegate, coordinate people
+    → Đọc người tốt (mPFC), hold nhiều tasks (dlPFC)
+    → Switch: Worker khi cần hands-on → cost TRUNG BÌNH
+
+  UD Pattern:
+    → UD phổ biến: achievement, recognition, team success
+    → Threshold: cao vừa (career-driven schema pressure)
+    → Drive: sustained, goal-oriented
+    → Arbitration: Level 2-3 cho work decisions
+
+  Tại sao ~15-20%:
+    → Cần training + experience + social skills
+    → Gravitate vào leadership/coordination roles tự nhiên
+
+
+MẪU 3: "Chuyên gia / Specialist" (~10-15%)
+
+  DEFAULT MODE: Monitor TRONG 1 DOMAIN (dlPFC compiled cho domain đó)
+  PFC PROFILE (trong domain):
+    dlPFC ●●●●○  vmPFC ●●●○○  OFC ●●○○○  ACC ●●○○○  mPFC ●●○○○
+
+  Đặc điểm hành vi:
+    → TRONG domain: Monitor mode (tự động, nhanh, chính xác)
+    → NGOÀI domain: Worker mode (chậm, mệt, giống mẫu 1)
+    → OFC thấp → rigid trong chuyên môn, khó switch domain
+    → ACC thấp → ít detect cross-domain mâu thuẫn
+
+  UD Pattern:
+    → UD phổ biến: mastery, depth, coherence TRONG domain
+    → Threshold: cao nhưng reachable trong domain (expertise = know how)
+    → Drive: CỰC CAO trong domain, thấp ngoài domain
+    → Arbitration: Level 3 trong domain, Level 1-2 ngoài
+
+  Tại sao ~10-15%:
+    → Cần 10,000+ giờ (Ericsson) → ít người đầu tư đủ
+    → Self-selecting: người phù hợp domain → stay → become expert
+
+
+MẪU 4: "Entrepreneur / Creative" (~5-8%)
+
+  DEFAULT MODE: Director-Monitor hybrid (OFC + ACC lead)
+  PFC PROFILE:
+    dlPFC ●●●○○  vmPFC ●●●●○  OFC ●●●●●  ACC ●●●●○  mPFC ●●●○○
+
+  Đặc điểm hành vi:
+    → OFC cực mạnh: pivot nhanh, adapt nhanh, flexible
+    → ACC mạnh: detect opportunity/problem sớm
+    → vmPFC mạnh: "gut feeling" tốt, body-connected
+    → dlPFC VỪA: plan đủ nhưng không overthink
+    → Switch: dễ dàng giữa modes → versatile
+
+  UD Pattern:
+    → UD phổ biến: creation, impact, novelty, autonomy
+    → Threshold: cao (high standards) nhưng flexible (OFC adjust)
+    → Drive: BURSTS + pivots (không linear)
+    → Arbitration: Level 2-3, FLEXIBLE arbitration style
+    → Risk: Amplifier Trap (chase Lớp 2, bỏ bê Lớp 1)
+
+  Tại sao ~5-8%:
+    → Cần OFC + ACC mạnh = relatively rare hardware
+    → Nhiều người CÓ profile nhưng không có environment → không manifest
+
+
+MẪU 5: "Scholar / Analyst" (~5-8%)
+
+  DEFAULT MODE: Worker mode MẠNH (dlPFC dominant)
+  PFC PROFILE:
+    dlPFC ●●●●●  vmPFC ●●○○○  OFC ●●●○○  ACC ●●●○○  mPFC ●●○○○
+
+  Đặc điểm hành vi:
+    → Verbal reasoning CỰC MẠNH
+    → Systematic, logical, methodical
+    → vmPFC thấp: "biết đúng nhưng không CẢM đúng" (cerebral)
+    → Giỏi phân tích → academic success CAO
+
+  UD Pattern:
+    → UD phổ biến: understanding, correctness, logical consistency
+    → Threshold: cao (dlPFC detect imperfection dễ)
+    → Drive: sustained, methodical
+    → Arbitration: Level 3 cho logic, Level 1-2 cho emotional decisions
+    → Risk: "analysis paralysis", disconnected from body
+
+  Tại sao ~5-8%:
+    → Academic system SELECT profile này (dlPFC = exam success)
+    → PhD, researcher, consultant, analyst roles
+
+
+MẪU 6: "Empath / Caregiver" (~8-12%)
+
+  DEFAULT MODE: Monitor qua vmPFC + mPFC (social intuition)
+  PFC PROFILE:
+    dlPFC ●●○○○  vmPFC ●●●●●  OFC ●●●○○  ACC ●●●○○  mPFC ●●●●●
+
+  Đặc điểm hành vi:
+    → CẢM người cực tốt (vmPFC + mPFC)
+    → "Biết" ai buồn/vui trước khi nói
+    → dlPFC thấp: plan/logic VỪA → chọn "vì người khác" đôi khi thiệt mình
+
+  UD Pattern:
+    → UD phổ biến: connection, being needed, harmony
+    → Threshold: thấp cho social reward (dễ fulfill qua caring)
+    → Drive: relationship-driven
+    → Arbitration: vmPFC dominant → gut-based, social-first
+    → Risk: absorb others' UD → burnout empathy
+
+  Tại sao ~8-12%:
+    → vmPFC + mPFC mạnh = partially genetic
+    → Culture reinforce (đặc biệt nữ — socialized to care)
+
+
+MẪU 7: "Rebel / Nonconformist" (~3-5%)
+
+  DEFAULT MODE: Anti-default (ACC hyperactive, OFC extreme)
+  PFC PROFILE:
+    dlPFC ●●●○○  vmPFC ●●●○○  OFC ●●●●●  ACC ●●●●●  mPFC ●●○○○
+
+  Đặc điểm hành vi:
+    → ACC: detect mâu thuẫn LIÊN TỤC (self vs system)
+    → OFC: switch nhanh, reject old patterns, try new
+    → mPFC thấp: ÍT care "người khác nghĩ gì"
+    → Thường: activist, artist, disruptor, iconoclast
+    → Hoặc label tiêu cực: "khó ở", "chống đối"
+
+  UD Pattern:
+    → UD phổ biến: authenticity, freedom, coherence (internal standard)
+    → Threshold: cao (ACC detect mâu thuẫn dễ → cần nhiều coherence)
+    → Drive: INTENSE nhưng hướng THAY ĐỔI, không maintain
+    → Arbitration: ACC-driven → "có gì sai" → investigate → disrupt
+    → Risk: isolation (mPFC thấp → ít social buffer)
+
+  Tại sao ~3-5%:
+    → ACC + OFC mạnh = relatively rare
+    → Society KHÔNG reward → nhiều người suppress → ẩn
+
+
+CÒN LẠI (~10-15%): Mixed / Unique patterns
+  → Các combination KHÔNG fit rõ mẫu nào
+  → Ví dụ: vmPFC●●●●● + ACC●●●●● + OFC●●●●○ (Rebel + Empath for concepts)
+  → Phổ liên tục, framework không gom hết
+  → ĐÚNG predict: con người PHỨC TẠP hơn 7 mẫu
+```
+
+```
+TỔNG TỈ LỆ ƯỚC LƯỢNG:
+  Mẫu 1 (Worker bình thường):     ~35-40%
+  Mẫu 2 (Manager/Director):       ~15-20%
+  Mẫu 3 (Specialist/Expert):      ~10-15%
+  Mẫu 4 (Entrepreneur/Creative):  ~5-8%
+  Mẫu 5 (Scholar/Analyst):        ~5-8%
+  Mẫu 6 (Empath/Caregiver):       ~8-12%
+  Mẫu 7 (Rebel/Nonconformist):    ~3-5%
+  Mixed/Unique:                    ~10-15%
+                                   ≈ 100%
+
+⚠️ Tỉ lệ = ước lượng dựa trên:
+  - Phân bố nghề nghiệp (BLS, ILO data)
+  - Cognitive style research (normal distribution trên I-A continuum)
+  - Personality trait distributions (Big Five — rough proxy)
+  - KHÔNG có research nào đo chính xác PFC profile distribution
+  → Treat as APPROXIMATE, not definitive
 ```
 
 ---
@@ -537,15 +794,27 @@ PFC-5: PFC profiles có di truyền bao nhiêu %?
   Casey et al. (2008) — PFC development in adolescence
   Lazar et al. (2005) — Meditation → PFC structural changes
 
+  Dietrich (2003, 2024) — Transient Hypofrontality: PFC giảm → flow, creativity
+  BrainFacts (2024) — Musicians: dlPFC deactivate during expert improvisation
+  Chassy & Gobet (2011) — Expert intuition = chunking + somatic markers
+  Cerebral Cortex (2017) — Expert: giảm PFC + tăng connectivity task-specific
+  Kahneman (2011) — System 1/2: dual process theory
+  Stanovich & West (2000) — Individual differences in System 2: 15-25% variance
+  PMC (2024) — 4 distinct intuitive-analytic thinking styles (not continuum)
+  Hodgkinson & Sadler-Smith (2003) — Intuition vs Analysis = 2 chiều ĐỘC LẬP
+
 🟡 Suy luận có cơ sở:
-  PFC as "conductor of desire" (framework synthesis)
+  PFC as "arbitrator of desire" (framework synthesis)
   6 PFC profiles (simplified from continuous variation)
   PFC training hierarchy (state > software > hardware)
+  3 Operating Modes: Worker/Director/Monitor (extends System 1/2)
+  7 mẫu người phổ thông + tỉ lệ ước lượng (approximate)
 
 🔴 Giả thuyết:
   PFC predict FOR body, not for "self" (UD-specific)
   Body = ground truth evaluator, PFC = servant
   PFC profiles map to UD Arbitration quality
+  DEFAULT + AVAILABLE + SWITCH COST model
 ```
 
 ---

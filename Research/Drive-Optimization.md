@@ -626,6 +626,107 @@ O5: Áp dụng cho tổ chức:
 
 ---
 
+## 8. Endpoint: Hạnh Phúc = Lớp 1 Sustained 🟡
+
+```
+"HẠNH PHÚC" QUA LENS FRAMEWORK:
+
+  Hạnh phúc = Lớp 1 thỏa mãn BỀN VỮNG + Lớp 2 phục vụ Lớp 1 (coupled)
+            + Schemas aligned (Coherence HIGH) + Threshold về baseline
+
+  KHÔNG PHẢI:
+    "Không làm gì"     → có thể hạnh phúc VÀ productive (Pattern C)
+    "Đạt mọi mục tiêu" → chase goal = chase Lớp 2 = có thể MISS Lớp 1
+    "Giàu có"           → giàu + Lớp 1 mất = trống rỗng
+    "Nổi tiếng"         → status + Lớp 1 mất = celebrity depression
+
+  MÀ LÀ:
+    Body (opioid/oxytocin) được feed ĐỀU ĐẶN, bền vững
+    Lớp 2 drive ĐỦ để cuộc sống có hướng, KHÔNG đủ để hijack
+    Schemas ít conflict → PFC ít việc → nhẹ đầu
+    Threshold hardware baseline (schema pressure ≈ 0)
+```
+
+```
+NGHIỆN vs HẠNH PHÚC — 2 đầu CỦA CÙNG PHỔI:
+
+  Nghiện:     Lớp 2 fire BẤT CHẤP Lớp 1 → wanting without liking
+  Hạnh phúc:  Lớp 2 phục vụ Lớp 1 → wanting BECAUSE liking
+
+  Nghiện:     Decoupled (Lớp 2 chạy riêng)
+  Hạnh phúc:  Coupled (Lớp 2 phục vụ Lớp 1)
+
+  Nghiện:     "CẦN nhưng KHÔNG sướng"
+  Hạnh phúc:  "Sướng mà KHÔNG CẦN chase thêm"
+
+  → Recovery từ nghiện = HƯỚNG VỀ hạnh phúc (re-couple)
+  → Prevention nghiện = MAINTAIN hạnh phúc (giữ coupling)
+  → Hạnh phúc và nghiện = 2 mặt của CÙNG CƠ CHẾ Lớp 1 × Lớp 2
+```
+
+```
+NGƯỜI VỀ HƯU HEALTHY — ENDPOINT TỰ NHIÊN:
+
+  Đã đi qua cycle đầy đủ:
+    Trẻ:       Lớp 2 MẠNH (drive career, build life) → tốn Lớp 1
+    Trung niên: Lớp 2 peak → risk Pattern B
+    Về hưu:    Lớp 2 GIẢM tự nhiên (biology: dopamine/serotonin settle)
+               → Lớp 1 TRỞ LẠI dominant
+               → Ăn ngon, ngủ đủ, con cháu, làm vườn, đi bộ
+               → = Lớp 1 sustained → CONTENTMENT THẬT
+
+  ⚠️ NHƯNG: không phải mọi người về hưu đều hạnh phúc:
+    Schema "giá trị = output" → về hưu = mất identity → depression
+    Schema "dừng = chết" → về hưu = bị buộc dừng → khủng hoảng
+    → Hạnh phúc về hưu CẦN: schemas resolved TRƯỚC khi dừng drive
+    → Chưa resolve → về hưu = TỆ HƠN (mất Lớp 2 lẫn Lớp 1)
+```
+
+```
+INSIGHT CUỐI — HẠNH PHÚC = BYPRODUCT, KHÔNG PHẢI MỤC TIÊU:
+
+  Ai chase "hạnh phúc" như destination → = chase Lớp 2 → MISS Lớp 1
+    → "Tôi sẽ hạnh phúc KHI..." = Lớp 2 prediction → always moving goalpost
+
+  Ai maintain Lớp 1 hàng ngày → hạnh phúc TỰ ĐẾN
+    → Giống ngủ: càng cố ngủ → càng khó ngủ → thả lỏng → tự ngủ
+    → Hạnh phúc = TRẠNG THÁI tự nhiên KHI Lớp 1 sustained
+    → Không "tìm" được, chỉ "tạo điều kiện" cho nó xuất hiện
+
+  MỤC TIÊU THỰC SỰ:
+    → Maintain Lớp 1 BỀN VỮNG (daily body reward)
+    → Keep Lớp 2 COUPLED (drive phục vụ body, không phải ngược lại)
+    → Resolve schema conflicts (giảm Coherence noise)
+    → Calibrate threshold (fix schema pressure)
+    → → Hạnh phúc = KẾT QUẢ TỰ NHIÊN của 4 điều trên
+    → → KHÔNG phải điều thứ 5 cần chase thêm
+```
+
+```
+TẠI SAO NGHIỆN LÀ NGƯỢC CỦA HẠNH PHÚC:
+
+  Tính năng GỐC (evolutionary):
+    Lớp 2 drive: "tìm thức ăn, tìm bạn, explore"
+    → TÌM XONG → Lớp 1 reward → DỪNG → satisfied → hạnh phúc
+
+  Trong tự nhiên (10,000 năm trước):
+    Đói → dopamine drive tìm ăn → TÌM ĐƯỢC → ăn → opioid → DỪNG
+    → Delay TỰ NHIÊN (phải đi tìm) → coupling tự nhiên
+    → "Hạnh phúc" = default state SAU khi need met
+
+  Hiện đại:
+    → Delay = 0 (tủ lạnh, MXH, porn, 1-click buy)
+    → Lớp 2 KHÔNG BAO GIỜ dừng (infinite stimulus)
+    → → "Hạnh phúc" bị XÓA vì Lớp 2 loop VÔ HẠN
+    → → Nghiện = hạnh phúc bị HIJACK
+
+  → Nghiện và hạnh phúc = CÙNG cơ chế, KHÁC coupling state
+  → Xem chi tiết: Research/Addiction-Analysis.md
+```
+
+---
+
 > *Drive Optimization — DRAFT*
 > *"Vặn volume loa mà không có nhạc = im lặng dù loa to."*
 > *"Feed body ĐỒNG THỜI với chase — không phải sau."*
+> *"Hạnh phúc không tìm được — chỉ tạo điều kiện cho nó xuất hiện."*

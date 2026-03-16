@@ -88,6 +88,88 @@ HPD = attempt to draw the graph.
     = Hai thứ bổ sung nhau, không loại trừ.
 ```
 
+### 1.1 Tại Sao Hội Tụ CHƯA Xảy Ra — Qua Lens UD (v7.0+)
+
+```
+⚠️ Section này dùng UD framework (v7.0) để giải thích §1.
+   UD = giả thiết. Nhưng nếu đúng → giải thích CƠ CHẾ đằng sau vấn đề cấu trúc.
+
+ACADEMIC SYSTEM QUA LENS UD:
+
+  Chuyên gia = CHÍNH HỌ bị drive bởi Lớp 2 (Amplifier):
+    Novelty (dopamine): "paper mới, phát hiện mới, citation mới"
+    Status (serotonin): "tenure, grants, h-index, conference invited"
+    → Academic career = DESIGNED để reward Lớp 2
+    → "Publish or perish" = dopamine + serotonin DOMINANT
+    → = Pattern B (Amplifier Trap) ở cấp hệ thống
+
+  Lớp 1 (Source) của chuyên gia:
+    Experience (opioid): "hiểu sâu, coherence, beauty of theory"
+      → CÓ, nhưng bị SUBORDINATE cho publication pressure
+      → "Hiểu sâu nhưng không publishable" = opioid có, career không reward
+    Connection (oxytocin): "cộng đồng, mentor, student"
+      → CÓ, nhưng bị competitive environment DAMPEN
+      → "Collaborate nhưng cũng compete for grants" = mixed signal
+
+  → Hệ thống TỰ NÓ suppress cross-domain synthesis:
+    Synthesis = BROAD → khó publish → Lớp 2 KHÔNG reward
+    Specialist = NARROW → dễ publish → Lớp 2 REWARD
+    → Chuyên gia KHÔNG LỰA CHỌN narrow — SYSTEM select narrow
+    → Ai broad → ít publication → mất tenure → bị loại
+    → Ai narrow → nhiều publication → tenure → survive
+    → = Natural selection FOR silos, AGAINST integration
+
+CÁC RESEARCHER ĐÃ THẤY PHẦN NÀO — nhưng không hội tụ:
+
+  Berridge (Michigan): "Liking vs Wanting" → tách opioid vs dopamine ✅
+    → Nhưng: focus addiction research, không generalize ra motivation tổng thể
+    → Lớp 2 reward: addiction = hot topic = grants = publications
+    → Cross-domain application (education, parenting) = KHÔNG có grant program
+
+  Panksepp (1998): 7 emotional systems → có CARE (oxytocin) + SEEKING (dopamine)
+    → Gần nhất: identify system-level architecture
+    → NHƯNG: bị mainstream IGNORE nhiều năm ("animal emotion = unscientific")
+    → Lớp 2 punishment: paradigm-breaking = risky cho career
+
+  Damasio: somatic markers → body-level decision making ✅
+    → Gần nhất: "body = ground truth" insight
+    → NHƯNG: focus decision-making, không connect sang reward/motivation
+    → Academic silo: neurology dept ≠ motivation dept
+
+  Friston: Free Energy Principle → unify everything under 1 principle ✅
+    → GẦN NHẤT về tham vọng tổng hợp
+    → NHƯNG: quá toán → ít người hiểu → ít impact thực tế
+    → Lớp 2 reward: mathematical elegance = status trong subfield
+    → Cross-domain accessibility = KHÔNG được reward
+
+  → Mỗi người thấy 1 PHẦN:
+    Berridge: opioid ≠ dopamine (Source ≠ Amplifier)
+    Panksepp: emotional systems (multiple channels)
+    Damasio: body matters (body = ground truth)
+    Friston: prediction mechanism (PE foundation)
+    → KHÔNG AI kết nối thành: "2 Source + 2 Amplifier + body = ground truth"
+    → Vì: system KHÔNG REWARD kết nối, chỉ reward DEPTH
+
+TẠI SAO OUTSIDER CÓ THỂ THẤY:
+  Outsider (game dev, engineer, non-specialist):
+    → KHÔNG có Lớp 2 academic reward → không bị system constrain
+    → KHÔNG có deep schemas TRONG 1 domain → không bị paradigm lock
+    → ACC + OFC free: detect cross-domain patterns mà insiders miss
+    → AI cung cấp L2 chunks → compensate depth thiếu
+    → = Einstein pattern: outsider + strong L4 + no paradigm lock
+
+  NHƯNG: outsider CÓ risk:
+    → Thiếu L2 depth → false connections possible
+    → No peer review → confirmation bias unchecked
+    → Best approach: outsider PROPOSE + expert CHALLENGE = strongest output
+
+⚠️ CAVEAT:
+  Phân tích trên DÙNG framework để giải thích TẠI SAO framework cần outsider.
+  = Self-referential argument → cần cẩn thận.
+  Có thể đúng. Có thể là rationalization.
+  Cách check: expert review → nếu expert thấy value → not just rationalization.
+```
+
 ---
 
 ## 2. Latent Variable — Epistemological Status Của Channels
