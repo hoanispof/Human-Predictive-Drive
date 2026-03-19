@@ -4,13 +4,20 @@
 > **Ngày:** 2026-03-15
 > **Khác biệt với PE-centric:**
 > - Nguyên lý cốt lõi: "Não = máy mong muốn" thay vì "Não = máy dự đoán"
-> - PE (Prediction Error) → UD (Unconscious Desire fulfillment signal)
+> - PE (Prediction Error) → UD (Underlying Drive — drive NẰM DƯỚI mọi hành vi, mọi depth)
+> - UD KHÔNG binary (conscious/unconscious) → GRADIENT theo schema depth + modality
 > - Prediction VẪN CÓ nhưng PHỤC VỤ desire, không phải mục đích tự thân
 > - Dopamine = desire fulfillment signal, không phải surprise signal
 >
 > **⚠️ UD là GIẢ THIẾT — chưa validated.**
 > File này tồn tại SONG SONG với PE-centric để so sánh.
 > Chi tiết giả thiết UD: Research/UD-Hypothesis.md
+>
+> **🔄 ĐỔI TÊN TRONG v8.0:**
+> "UD" (Underlying Drive) sẽ đổi thành **"Schema-Drive"** trong phiên bản v8.0.
+> Lý do: Schema-Drive CHÍNH XÁC hơn — mọi drive ĐỀU từ schema (không phải PFC, không phải "unconscious").
+> Schema mạnh = drive mạnh. Schema xung đột = drive xung đột. PFC chỉ brake/workspace/translate.
+> Hiện tại giữ "UD" trong draft → v8.0 sẽ search-replace + rename + review consistency 1 lần.
 >
 > **Nguyên tắc:** Công thức, không đáp án. Mô hình, không dogma.
 > **Quy ước:** 🟢 Nghiên cứu vững | 🟡 Suy luận có cơ sở | 🔴 Giả thuyết
@@ -94,8 +101,10 @@ UD = THAM SỐ GỐC DUY NHẤT:
 ║  │  ┌─ Lớp 3: MODULATOR (fine-tuning) ───────────────────┐   │  ║
 ║  │  │ Cortisol · NE · Vasopressin · Prolactin · Endo-CB   │  │  ║
 ║  │  └──────────────────────────────────────────────────────┘  │  ║
-║  │  ┌─ Parameters ────────────────────────────────────────┐   │  ║
-║  │  │ WM Capacity · Threshold · UD Sensitivity             │  │  ║
+║  │  ┌─ Hardware Parameter ─────────────────────────────────┐   │  ║
+║  │  │ WM Capacity (workspace size, fixed, đo được)         │  │  ║
+║  │  │ PFC Activation Level (dynamic state: sleep/stress/..)│  │  ║
+║  │  │ Emergent: Threshold · Baseline Drive · Decay Rate    │  │  ║
 ║  │  └──────────────────────────────────────────────────────┘  │  ║
 ║  │  ┌─ Processing Infrastructure ──────────────────────────┐  │  ║
 ║  │  │ PFC (arbitrator) · Amygdala · BG · DMN · Insula · ACC │  │  ║
@@ -283,44 +292,45 @@ WM CAPACITY — Working Memory slots (HARDWARE, FIXED)
     = KẾT QUẢ, không phải INPUT — giống Baseline Drive
     = Thay đổi inputs → ceiling tự thay đổi
 
-THRESHOLD — Mức UD fulfillment tối thiểu để "đủ" (COMPOSITE)
-  Threshold_observed = Threshold_hardware + Schema_pressure − Schema_suppression
+  ⚠️ Threshold: xem EMERGENT METRICS bên dưới (không phải parameter cố định)
+    → Threshold = per domain, emergent từ schema profile
+    → Chi tiết: Research/Threshold-Analysis.md
 
-  Threshold_hardware:  D2 receptors, genetic (T1, cố định ~)
-  Schema_pressure:     Schema âm đẩy threshold LÊN (T2, SỬA ĐƯỢC)
-                       "Phải hơn người khác", "dừng = thất bại",...
-  Schema_suppression:  Resign kéo threshold XUỐNG — FAKE contentment (T2, cần phát hiện)
-                       "Mặc kệ, cố gì cũng vô ích"
+  ⚠️ UD Sensitivity (v6 cũ: 4 sub-parameters) — ĐÃ BỎ:
+    ① Amplitude → BỎ: oversimplified. Reaction intensity = emergent từ
+      schema depth × modality encoding × body state × hardware receptor.
+      Không có 1 số đại diện.
+    ② Precision → BỎ: = PFC brake strength (đã có trong §4.3 PFC Analysis)
+    ③ Decay Rate → CHUYỂN emergent metric (xem dưới)
+    ④ Generalization → BỎ: = modality profile + OFC flexibility (đã có)
+    → UD Sensitivity KHÔNG còn là parameter category
+    → Mỗi "sub" đã nằm đúng chỗ hơn trong components KHÁC
 
-  → Fix schema pressure → threshold TỰ GIẢM → dễ thỏa mãn → hạnh phúc hơn
-  → Accept hardware floor → match environment phù hợp
-  → Phát hiện suppression → unlock hidden desire → fix đúng hướng
+EMERGENT METRICS — Observable, KHÔNG set trực tiếp, thay đổi INPUTS → metrics tự đổi:
 
-  ⚠️ Cùng "threshold cao" nhưng KHÁC nguyên nhân → KHÁC treatment:
-    Hardware cao → match environment (nghệ sĩ cần art, không cần therapy)
-    Schema pressure → fix schema (CEO cần therapy, không cần art)
-    Suppression → unlock trước, fix sau
+  Threshold — mức "đủ" per domain
+    = Aggregate "schema yêu cầu bao nhiêu mới đủ" PER DOMAIN
+    = KHÔNG phải 1 số chung → khác per domain (ăn: thấp, career: cao)
+    = Emergent từ: schema profile (pressure vs contentment) + hardware receptor
+    = Fix schema pressure → threshold TỰ GIẢM → hạnh phúc hơn
+    → Chi tiết: Research/Threshold-Analysis.md
 
-  → Chi tiết: Research/Threshold-Analysis.md
+  Baseline Drive — mức drive nền
+    = f(Threshold × Schema × Environment) — KẾT QUẢ, không phải INPUT
+    UD deficit kéo dài → baseline GIẢM → apathy
+    UD surplus → baseline TĂNG → bồn chồn
+    "Chán" = desire hiện tại < threshold
 
-UD SENSITIVITY — Cách não respond UD signal (≈ PE Sensitivity)
-  4 sub-mechanisms:
-    ① Amplitude:      volume UD signal (cùng desire, khác reaction)
-    ② Precision:      UD signal đáng tin cỡ nào trước khi act
-    ③ UD Decay Rate:  tốc độ desire "hết hứng" sau fulfillment
-                      = pre-simulation tăng → remaining desire GIẢM
-    ④ Generalization: fulfill desire A → desire tương tự B có giảm?
+  Schema Ceiling — phức tạp tối đa có thể xây
+    = f(WM × knowledge × time × domain) — KẾT QUẢ, không phải INPUT
+    Thay đổi WM (khó), knowledge (học), time (kinh nghiệm) → ceiling tự đổi
 
-  ⚠️ ③ UD Decay Rate giải thích TRỰC TIẾP hơn PE Decay Rate:
-    PE: "chunk mất PE vì đã predict" (tại sao predict = boring?)
-    UD: "desire mất vì đã pre-simulated đủ" (clear: simulate = partially fulfill)
-    → UD cho mechanism RÕ RÀNG hơn cho habituation
-
-BASELINE DRIVE — Observable metric (EMERGENT, không phải parameter input)
-  = f(Threshold × Schema × Environment) — KẾT QUẢ, không phải INPUT
-  UD deficit kéo dài → baseline GIẢM → apathy
-  UD surplus → baseline TĂNG → bồn chồn
-  "Chán" = desire hiện tại < threshold (không có gì đáng fulfill)
+  Decay Rate — tốc độ "hết hứng" sau fulfillment
+    = f(modality count × novelty × context × hardware receptor adaptation)
+    Chunk nhiều modalities → decay CHẬM (nhiều nơi phải "done")
+    Chunk 1 modality → decay NHANH (1 nơi done = xong)
+    Context MỚI → decay RESET (dù cùng schema)
+    UD reframe: "desire hết vì body ĐÃ preview đủ" (simulate = partially fulfill)
   → Đo được (quan sát hành vi) nhưng KHÔNG SET trực tiếp
   → Thay đổi inputs (fix schema, match environment) → baseline TỰ THAY ĐỔI
 ```
@@ -328,27 +338,84 @@ BASELINE DRIVE — Observable metric (EMERGENT, không phải parameter input)
 ### 4.3 Processing Infrastructure
 
 ```
-PFC = TRỌNG TÀI phục vụ BODY (không phải decision-maker)
-  → PFC KHÔNG tạo desire, KHÔNG trả thưởng, KHÔNG tự tính toán
-  → PFC chỉ PHÂN XỬ: "schema nào → body reward tốt nhất?"
+PFC = WORKSPACE + BRAKE + TRANSLATOR (không phải computer hay decision-maker) 🔴
+  → 🔴 HYPOTHESIS (working model) — mỗi component có evidence riêng 🟢,
+    nhưng narrative tổng thể chưa proven. Xem PFC-Analysis.md §7 cho 5 kịch bản + tests.
+  → PFC KHÔNG tạo strategy, KHÔNG chain schemas, KHÔNG evaluate, KHÔNG khởi tạo hành vi
+  → Vô thức làm TẤT CẢ: tạo strategy, chain, evaluate (qua body)
+  → PFC chỉ: MỞ WORKSPACE + CHẶN output + DỊCH kết quả ra lời
   → Body (opioid/oxytocin) = người ĐÁNH GIÁ cuối cùng (ground truth)
-  → Chi tiết PFC sub-regions + profiles + training: Research/PFC-Analysis.md
+  → Chi tiết: Research/PFC-Analysis.md
 
-  1. Body + vô thức: "có gì đó cần fulfill" (desire signal)
-  2. PFC: predict strategy (hành vi nào → body reward?)
-     → PFC mạnh: predict dài hạn (sustainable reward)
-     → PFC yếu: default schema mạnh nhất (short-term reward)
-  3. PFC: giả lập trước → body respond NHẸ (preview)
-  4. PFC: execute hành vi thật
-  5. Body: nhận kết quả → opioid/oxytocin respond (ground truth)
-  6. Body signal lên não → schema update → PFC learn
+  PFC = 3 FUNCTIONS DUY NHẤT:
 
-  = GPS phục vụ XE:
-    GPS (PFC) predict đường tốt nhất
-    Xe (body) ĐI đường đó → CẢM NHẬN đường
-    Đường tốt → xe êm (opioid) → GPS: "đường này tốt, nhớ"
-    Đường xấu → xe xóc (cortisol) → GPS: "tránh đường này"
-    GPS NGHĨ mình chọn đường — thực ra xe quyết định đường nào "tốt"
+  ① WORKSPACE — Mở + duy trì không gian cho vô thức xử lý
+    → PFC tạo WM space → vô thức compute BÊN TRONG space đó
+    → PFC KHÔNG compute → PFC DUY TRÌ NƠI computation xảy ra
+    → Schema mới: cần workspace (PFC active, effortful, chậm)
+    → Schema compiled: không cần workspace (auto, PFC freed)
+    → = PFC = phòng họp. Vô thức = người họp. PFC KHÔNG họp, PFC MỞ phòng.
+    → "Suy nghĩ kỹ" = PFC hold workspace LÂU HƠN → vô thức thêm thời gian
+    → "Đừng quyết ngay, ngủ rồi tính" = cho vô thức thêm time trong workspace/DMN
+
+  ② BRAKE — Chặn output schema không phù hợp (VETO)
+    → Schemas fire TỰ ĐỘNG (~50ms) → body ĐÃ bắt đầu react
+    → PFC nhận SAU (~200-500ms) → CHẶN hành vi TIẾP THEO nếu cần
+    → KHÔNG tắt schema (schema VẪN chạy bên trong) → chỉ chặn OUTPUT
+    → = Trẻ chờ marshmallow = brake ĐỦ. Trẻ ăn ngay = brake CHƯA đủ.
+    → = "Kiềm chế" = brake LIÊN TỤC body đã activated → TỐN energy → MỆT
+    → KHÔNG CÓ schema predict hậu quả → brake KHÔNG biết chặn gì
+      → Trẻ đánh nhau = THIẾU schemas hậu quả, không phải PFC yếu
+
+  ③ TRANSLATOR — Dịch kết quả vô thức thành ngôn ngữ (post-hoc)
+    → Vô thức quyết định → PFC NHẬN → dịch thành lời giải thích
+    → "Tại sao tôi làm vậy?" = PFC TẠO lý do SAU KHI vô thức đã chọn
+    → Lý do có thể ĐÚNG hoặc SAI (post-hoc rationalization — Gazzaniga)
+    → Trẻ 3-4: chain 160+ strategies nhưng KHÔNG verbalize → translator chưa develop
+    → Người lớn: chain + verbalize → TƯỞNG PFC tạo strategy → thực ra PFC chỉ dịch
+
+  PFC KHÔNG làm (evidence):
+    ❌ Tạo strategy (trẻ 3-4 tạo 160+ strategies mà PFC ~20% → vô thức tạo)
+    ❌ Chain schemas (spreading activation tự động, không cần PFC)
+    ❌ Evaluate (body evaluate qua somatic markers — Damasio)
+    ❌ Khởi tạo hành vi (Libet: quyết định 350ms TRƯỚC PFC aware)
+    ❌ Tắt schema (chặn OUTPUT, schema VẪN chạy → tốn energy đôi)
+
+  ⚠️ "PFC tính toán" thực ra = gì?
+    "Đấm → bị phạt → mất việc":
+      → 3 schemas ĐÃ CÓ → spreading activation TỰ chain
+      → PFC: HOLD workspace cho chain xảy ra + NHẬN kết quả cuối
+      → PFC KHÔNG nối → associations TỰ nối → PFC chỉ GIỮA space + NHẬN
+      → TRÔNG NHƯ "PFC tính toán" → thực ra "PFC mở phòng, vô thức họp"
+
+  THỨ TỰ thực tế (Libet 1983):
+    1. Schemas fire TỰ ĐỘNG (~50ms) → body BẮT ĐẦU react
+       (tim đập, cortisol, muscle — TRƯỚC khi PFC biết)
+    2. Vô thức chain associations → propose options
+    3. PFC NHẬN signal (~200-500ms) → workspace hold options
+    4. Body evaluate options (somatic markers → "cái nào feel right?")
+    5. PFC: BRAKE output schema có body response âm
+    6. Schema còn lại → execute → body nhận kết quả thật
+    7. Body feedback → schema update → loop
+    8. PFC: TRANSLATE ("tôi chọn vì...") → post-hoc rationalization
+
+    → "Giữ bình tĩnh" KHÔNG phải "không phản ứng"
+    → = Body ĐÃ phản ứng + PFC BRAKE hành vi tiếp + body DẦN hạ
+
+  DUAL MODE (tùy schema maturity):
+    Schema MỚI: PFC = WORKSPACE mode (hold space, effortful, conscious)
+      → Vô thức compute trong workspace → PFC sustain → chậm, mệt
+    Schema CŨ (compiled): PFC = BRAKE-ONLY mode (veto nếu cần, nhẹ)
+      → Schema fire auto → PFC chỉ brake nếu bất thường → nhanh, nhẹ
+    Học = chuyển từ WORKSPACE → BRAKE-ONLY (PFC freed dần)
+    Expert = gần hết schemas ở BRAKE-ONLY → PFC gần rảnh
+
+  Developmental evidence (hỗ trợ mạnh nhất):
+    0-4 tuổi: PFC ~20% → VẪN chain 160+ strategies (vô thức) ✅
+    4-7 tuổi: PFC ~40% → brake bắt đầu (marshmallow) + translator bắt đầu ✅
+    7-12 tuổi: PFC ~60% → workspace mở → "trông như tính toán" ✅
+    13-18 tuổi: PFC ~80% → workspace rộng nhưng body connection chưa đủ ✅
+    25+: PFC ~100% → full workspace + brake + translator + body connected ✅
 
   PFC Activation Level — DYNAMIC STATE (không phải parameter):
     = PFC đang AVAILABLE bao nhiêu % TẠI THỜI ĐIỂM NÀY
@@ -394,19 +461,48 @@ ACC (Anterior Cingulate Cortex): conflict monitor
 Hierarchy ưu tiên:
   SURVIVAL (Amygdala) > DESIRE (UD) > HABIT (BG) > CONSCIOUS (PFC)
 
-Modality Channels — hardware infrastructure cho encoding:
-  Verbal · Visual · Auditory · Somatic · Motor · Emotional
-  → Mỗi vùng não xử lý 1 modality RIÊNG
-  → 1 schema/desire có thể encoded ở NHIỀU modalities đồng thời
+Modality Channels — NỀN TẢNG encoding cho chunks + schemas:
+
+  2 LOẠI KHÁC BẢN CHẤT:
+
+  5 Experience Modalities (encode TRẢI NGHIỆM — DATA gốc):
+    Visual · Auditory · Somatic · Motor · Emotional
+    → Mỗi vùng não xử lý 1 modality RIÊNG
+    → Body cảm nhận → não lưu → DATA gốc cho mọi hiểu biết
+    → MỌI sinh vật có thần kinh đều có (mức độ khác nhau)
+
+  1 Communication Modality (encode LABELS — INDEX):
+    Verbal / Gesture / Writing / Drawing / Video / ...
+    → KHÔNG encode experience → encode REFERENCES tới experience
+    → 3 functions: LABEL (compress chunk) + TRANSFER (share) + GHÉP (combine labels)
+    → CHỈ NGƯỜI có ở mức phức tạp → EVOLUTIONARY ADVANTAGE
+    → "Nghĩ bằng lời" = verbal NARRATE kết quả vô thức → KHÔNG phải verbal "nghĩ"
+
+  1 chunk/schema có thể encoded ở NHIỀU modalities đồng thời
+  Modality = NỀN TẢNG → Chunks build TRÊN modality → Schema build TRÊN chunks
+
+  Modality Count = DEPTH (đo được):
+    → 1 modality = SURFACE → dễ learn, dễ forget, dễ change
+    → 5 experience modalities = DEEP → khó learn, khó forget, khó change
+    → "Schema sâu" = LITERALLY encoded ở NHIỀU NƠI trong não + body
+    → Communication labels = NÔNG (hướng đúng, fidelity thấp)
+    → Experience encoding = SÂU (body respond thật, fidelity cao)
+
+  Experience Modality Dominant = HƯỚNG TƯ DUY:
+    → Somatic dominant → chain NGANG (pattern match, improviser)
+    → Visual-spatial dominant → chain NGANG (structural match)
+    → Motor dominant → chain DỌC (sequential skills)
+    → Communication dominant → chain DỌC (verbal narrate sequential)
+    → Mixed → T-shaped (sâu 1 + rộng vài)
 
   Implications cho UD:
     → Desire fulfilled ở 1 modality ≠ fulfilled ở tất cả
-    → "Biết nhưng không làm được" = verbal fulfilled, somatic chưa
-    → Fix desire = fix ở ĐÚNG modality, không chỉ nói/nghĩ
-    → CBT fix verbal. Exposure fix somatic + emotional. Practice fix motor.
-    → Deep desire = encoded ở NHIỀU modalities → khó fix → cần NHIỀU approaches
+    → "Biết nhưng không làm được" = verbal label fixed, body experience chưa
+    → Fix = fix ở ĐÚNG modality: CBT (verbal labels), Exposure (somatic+emotional), Practice (motor)
+    → Match therapy modality với chunk modality profile → effective
 
-→ Chi tiết PFC sub-regions + profiles + training: Research/PFC-Analysis.md
+→ Chi tiết modality: Research/Modality-Analysis.md
+→ Chi tiết PFC: Research/PFC-Analysis.md
 ```
 
 ---
@@ -416,7 +512,7 @@ Modality Channels — hardware infrastructure cho encoding:
 ### 5.1 Predictive-Chunks — Phục Vụ Desire
 
 ```
-Chunks = đơn vị prediction. Multi-modal. Muôn hình vạn trạng.
+Chunks = đơn vị prediction. ENCODED trên modalities. Muôn hình vạn trạng.
 
 UD reframe:
   Chunks KHÔNG tồn tại "vì prediction" — tồn tại vì SERVE DESIRE
@@ -424,8 +520,15 @@ UD reframe:
   → Chunks chính xác = tìm fulfillment nhanh hơn
   → Chunks sai = tìm sai → UD âm → update chunks
 
+Modality Profile — mỗi chunk có "bộ encoding" riêng:
+  → Chunk đơn giản: 1-2 modalities (verbal: "nước sôi 100°C") → NÔNG, dễ sửa
+  → Chunk phức tạp: 4-6 modalities (verbal+visual+somatic+emotional+motor) → SÂU, khó sửa
+  → Depth ≈ Modality Count (đo được conceptually)
+  → Sửa chunk = phải sửa ở MỌI modality đã encode → nhiều modality = nhiều effort
+  → Chi tiết: Research/Modality-Analysis.md §3
+
 Source: external (copy) ←→ internal (tự xây)
-Depth: composite (quality × connectivity × cluster × maturity)
+Depth: composite (modality count × connectivity × cluster × maturity)
 Per domain: cùng 1 người, khác config per domain
 ```
 
@@ -454,6 +557,19 @@ UD-centric definition:
   3. Schema người khác: "tin được" → UD "connection" baseline
   4. Schema tương lai: "kiểm soát được" → UD "agency" baseline
   → 4 schema = 4 UD BASELINES — set mức desire MẶC ĐỊNH
+
+⚠️ SCHEMA SÂU NHẤT = BODY BASELINE STATE (chỉ CÓ 1):
+  → Tất cả L1-L5 schemas → build TRÊN 1 nền tảng: body baseline state
+  → Body baseline = tổng hợp TOÀN BỘ cơ thể ở trạng thái nghỉ:
+    cortisol baseline + opioid tone + oxytocin level + muscle tension
+    + gut state + HRV + sleep quality + immune baseline
+  → = "Khi không có gì xảy ra, cơ thể TÔI feel thế nào?"
+  → CHỈ CÓ 1 (body = 1 → baseline = 1 → ground truth = 1)
+  → 4 Schema Nền = VERBAL LABELS cho body baseline (interpretation)
+  → Fix body baseline → 4 schema nền + MỌI schemas TỰ UPDATE
+  → Fix verbal labels mà KHÔNG fix body → "biết mà không đổi"
+  → → Nhóm 1 Body-Needs = fix body baseline = fix GỐC mọi thứ
+  → Chi tiết: Research/Schema-Atlas.md §5
 
 Schema Override Power:
   Schema cực mạnh CÓ THỂ override survival instinct
@@ -688,21 +804,33 @@ INSIGHT: "Tính cách" = pattern ỔN ĐỊNH của schema + UD,
          Thay đổi schema → thay đổi UD pattern → thay đổi "tính cách"
 ```
 
-### 5.8 UD Arbitration — PFC Phân Xử Giữa Các Schema
+### 5.8 UD Arbitration — PFC Workspace + Brake + Translate
 
 ```
 ĐỊNH NGHĨA:
   UD State = BẢNG TỶ SỐ (passive, mô tả trạng thái)
-  UD Arbitration = TRỌNG TÀI (active, phân xử → quyết định hành vi)
+  UD Arbitration = quá trình PFC WORKSPACE + BRAKE → hành vi được chọn
 
-  PFC = trọng tài giữa các schemas:
-    → PFC KHÔNG có desire riêng
-    → PFC nghe TẤT CẢ schemas → predict body reward mỗi option → PHÂN XỬ
-    → Giống trọng tài: không đá bóng, chỉ phân xử ai thắng
+  Schemas fire TỰ ĐỘNG → body react → vô thức chain (spreading activation)
+  → PFC NHẬN proposals (~200-500ms) → WORKSPACE hold options
+  → Body evaluate: somatic markers cho mỗi option ("feel right?")
+  → PFC: BRAKE options có body response âm
+  → Option còn lại → execute
+  → PFC: TRANSLATE ("tôi chọn vì...") → post-hoc rationalization
+
+  → PFC KHÔNG chọn → PFC CHẶN cái không nên → cái còn lại = "được chọn"
+  → PFC KHÔNG evaluate → body evaluate → PFC nhận kết quả body
+  → PFC KHÔNG chain → vô thức chain → PFC hold workspace cho chain xảy ra
 
 LUỒNG HOÀN CHỈNH:
-  Schemas → UD per schema → UD State (aggregate)
-    → UD Arbitration (PFC predict + phân xử)
+  1. Schemas fire TỰ ĐỘNG (~50ms) → body react
+  2. Vô thức chain (spreading activation) → propose multiple options
+  3. PFC nhận (~200-500ms) → WORKSPACE hold options
+  4. Body evaluate mỗi option (somatic markers)
+  5. PFC: BRAKE options body không thích
+  6. Option còn lại → Drive → T3 Hành Vi
+  7. Body respond THẬT (ground truth) → Schema update → loop
+  8. PFC: TRANSLATE kết quả thành lời (post-hoc)
       → Drive (specific action)
         → T3 Hành Vi
           → Body respond (ground truth)
@@ -711,40 +839,39 @@ LUỒNG HOÀN CHỈNH:
 3 LEVELS CỦA UD ARBITRATION:
 
   LEVEL 1 — PFC OFFLINE (yếu/mệt/say/stress):
-    → KHÔNG có arbitration thực sự
-    → Schema MẠNH NHẤT tự win (loudest signal)
-    → = Autopilot: BG (habit) hoặc Amygdala (threat) điều khiển
-    → Ví dụ: mệt → ăn junk food (schema "ngon" loudest)
-    → Ví dụ: say → nói thật (schema suppressed lúc tỉnh → release)
+    → Workspace ĐÓNG, Brake KHÔNG hoạt động
+    → Schema MẠNH NHẤT tự win (loudest, không ai chặn)
+    → = Autopilot: BG (habit) hoặc Amygdala (threat)
+    → Ví dụ: mệt → ăn junk food (schema "ngon" loudest, brake off)
+    → Ví dụ: say → nói thật (brake off → schema suppressed THOÁT)
 
   LEVEL 2 — PFC MODERATE (bình thường):
-    → PFC scan UD States → predict NGẮN-TRUNG HẠN
-    → Chọn schema có predicted body reward CAO NHẤT trong 1 ngày-1 tuần
-    → Suppress tạm schemas khác (tốn PFC resource)
-    → Ví dụ: "đói nhưng deadline → làm xong rồi ăn ngon hẳn"
+    → Workspace MỞ (nhỏ) → vô thức propose vài options
+    → Body evaluate ngắn hạn (somatic: "cái nào feel ok?")
+    → Brake HOẠT ĐỘNG: chặn options body không thích
+    → Ví dụ: "đói nhưng deadline → body: làm xong rồi ăn ngon hẳn feel tốt hơn"
 
   LEVEL 3 — PFC STRONG (trained/rested/high capacity):
-    → PFC scan UD States → predict DÀI HẠN (tháng-năm-đời)
-    → Có thể CHỌN schema ÂM bây giờ vì DƯƠNG về sau
-    → Có thể phân xử giữa nhiều options PHỨC TẠP + mâu thuẫn
-    → Thậm chí: chọn điều CHÍNH MÌNH CŨNG THẤY ĐAU khi chọn
-    → Ví dụ: nguyên thủ ra quyết định hy sinh chiến thuật
-      Schema "bảo vệ quân": UD = −5
-      Schema "cứu dân dài hạn": UD = +8
-      → PFC predict: net body reward dài hạn (+4) > không hy sinh (−8)
-      → CHỌN dù Experience NGAY = cực âm
-      → = "Quyết định khó khăn" = Level 3 arbitration
+    → Workspace MỞ RỘNG → hold NHIỀU options phức tạp
+    → Vô thức chain DÀI (spreading activation rộng hơn vì workspace lớn)
+    → Body evaluate: somatic markers cho options DÀI HẠN
+    → Brake: chặn options body predict âm DÀI HẠN (dù ngắn hạn dương)
+    → Thậm chí: brake option DƯƠNG NGAY vì body predict âm về SAU
+    → Ví dụ: nguyên thủ — workspace hold 5 schemas →
+      vô thức chain hậu quả mỗi option → body evaluate mỗi chain →
+      brake options net âm → option còn lại = "quyết định"
+      → DÙ Experience NGAY = đau → body predict: dài hạn tốt hơn
 
-PFC PREDICT HORIZON quyết định chất lượng arbitration:
-  PFC yếu:       predict 5 phút → body reward NGAY
-  PFC vừa:       predict 1 ngày → balance ngắn/dài
-  PFC mạnh:      predict tháng/năm → sustainable reward
-  PFC cực mạnh:  predict cả đời → legacy, meaning (L5 desire)
+WORKSPACE SIZE quyết định chất lượng arbitration:
+  PFC yếu:       workspace NHỎ → vô thức chain NGẮN → options ÍT → body reward NGAY
+  PFC vừa:       workspace VỪA → chain vừa → body evaluate ngắn-trung hạn
+  PFC mạnh:      workspace RỘNG → chain DÀI → body evaluate dài hạn
+  PFC cực mạnh:  workspace CỰC RỘNG → chain cực dài → "legacy", "meaning"
 
   → "Delayed gratification" KHÔNG phải "chịu khó"
-  → = PFC predict CHÍNH XÁC rằng body reward DÀI HẠN > ngắn hạn
-  → Marshmallow test: trẻ wait = PFC đủ mature predict xa
-  → Trẻ không wait = PFC chưa đủ predict horizon
+  → = Workspace ĐỦ RỘNG cho vô thức chain DÀI → body evaluate: dài hạn TỐT HƠN
+  → Marshmallow: trẻ chờ = workspace ĐỦ cho chain "chờ → 2 kẹo" → body: ok
+  → Trẻ không chờ = workspace CHƯA ĐỦ → chỉ thấy "1 kẹo NGAY" → body: ăn
 
 ARBITRATION vs SUPPRESSION — khác nhau:
   Arbitration: CHỌN schema A, schema B TẠM CHỜ (acknowledged, sẽ quay lại)
@@ -1002,7 +1129,55 @@ U4: UD trong AI: máy có "desire" không?
     → Objective function ≈ desire? Loss minimization ≈ UD?
 ```
 
-### 11.2 Kiến trúc (giữ từ PE-centric)
+### 11.2 Tham số CHỈ ước lượng — KHÔNG THỂ chính xác tuyệt đối
+
+```
+⚠️ Framework = CÔNG CỤ NAVIGATE (bản đồ sơ), KHÔNG phải GPS chính xác.
+Nhiều tham số BIẾT CÓ nhưng CHỈ ƯỚC LƯỢNG — không đo chính xác được:
+
+1. Schema content: muôn hình vạn trạng → không liệt kê hết
+   → Verbal mô tả ≈ 20% schema thật (multi-modal, chỉ verbal capture 1/6)
+   → Mỗi người KHÁC → không có "danh sách schema chuẩn"
+   → Chỉ có thể: nhận diện PATTERN + suy ngược + ước lượng nhóm
+
+2. Body Baseline State: biết TỒN TẠI nhưng không đo trực tiếp
+   → Tổng hợp toàn bộ cơ thể → không có 1 con số đại diện
+   → Suy ngược từ: hành vi lặp + môi trường + body signals → ước lượng
+   → Chi tiết: Schema-Atlas.md §5
+
+3. Schema Depth (modality count): khái niệm rõ, đo thì không
+   → Không scan được "chunk này encoded ở bao nhiêu modalities?"
+   → Ước lượng: khó sửa cỡ nào → sâu cỡ đó. Body respond mạnh cỡ nào → sâu cỡ đó.
+
+4. PFC Sub-region profile: ước lượng từ hành vi
+   → fMRI đo vùng active nhưng KHÔNG đo "mạnh cỡ nào" per person
+   → Ước lượng: behavior patterns + history + self-report
+   → Chi tiết: PFC-Analysis.md §5
+
+5. Modality Profile: self-report thiếu chính xác
+   → Người somatic dominant: thường KHÔNG BIẾT mình somatic
+   → "Bạn nghĩ bằng gì?" → majority trả lời "bằng lời" (verbal bias)
+   → Chi tiết: Modality-Analysis.md §4
+
+6. Threshold: composite 3 biến ước lượng
+   → Hardware baseline + schema pressure − suppression → MỖI biến đều ước lượng
+   → Chi tiết: Threshold-Analysis.md
+
+7. Schema conflict intensity: predict HƯỚNG nhưng không predict ĐỘ
+   → 2 schemas xung đột → biết ĐAU → không biết ĐAU BAO NHIÊU
+   → Vector sum concept → nhưng không có SỐ chính xác
+
+8. Drive Equation: conceptual, không tính ra SỐ
+   → DRIVE = predicted body reward − cost → HƯỚNG đúng → SỐ không có
+   → = Compass (hướng) không phải speedometer (số)
+
+→ Framework cho: CẤU TRÚC + HƯỚNG + DIAGNOSTIC FRAMEWORK
+→ Framework KHÔNG cho: SỐ CHÍNH XÁC + CHẨN ĐOÁN TUYỆT ĐỐI
+→ = "Có bản đồ sơ" > "không có bản đồ" > "tưởng GPS mà thực ra sai"
+→ HONEST hơn = HỮU ÍCH hơn (không overclaim → người dùng biết giới hạn)
+```
+
+### 11.3 Kiến trúc (giữ từ PE-centric)
 
 ```
 A1-A8: Giữ nguyên (không phụ thuộc PE hay UD)
@@ -1017,19 +1192,50 @@ Câu hỏi kế thừa: Giữ nguyên
 Human Predictive Drive/
 ├── Core.md                              ← v6.0 (production, PE-based)
 ├── Research/
-│   ├── Core-v7-Draft-Good.md            ← v7.0 DRAFT PE-centric
-│   ├── Core-v7-UD.md                    ← ★ FILE NÀY — v7.0 DRAFT UD-centric
-│   ├── UD-Hypothesis.md                 ← UD giả thiết chi tiết + 24 cases
-│   ├── UD-Parenting.md                  ← UD trong phát triển trẻ em
-│   ├── Threshold-Analysis.md            ← Threshold decompose + 6 cases
-│   ├── Drive-Optimization.md           ← ★ Amplifier Trap + Sustainable Peak
-│   ├── PFC-Analysis.md                 ← ★ PFC sub-regions + profiles + training
-│   ├── Parameters-Review.md            ← Tham số cần clarify (①②③④)
-│   ├── Component-Interaction-Map.md    ← Schema + brain analysis
-│   ├── Emotion-Map.md                  ← Emotion mapping
-│   └── ...
-├── Core-Deep-Dive/                      ← Đào sâu per component
-└── Validation/                          ← Kiểm chứng
+│   ├── Core-v7-UD.md                    ← ★ FILE NÀY — v7.0 DRAFT (→ v8 Schema-Drive)
+│   ├── Core-v7-Draft-Good.md            ← v7.0 DRAFT PE-centric (song song)
+│   │
+│   ├── ★ CORE THEORY:
+│   ├── UD-Hypothesis.md                 ← Schema-Drive giả thiết + 24 cases + Einstein
+│   ├── Schema-Atlas.md                  ← ★ Schema axes + body baseline + diagnostic
+│   ├── Modality-Analysis.md             ← ★ 5 Experience + 1 Communication modality
+│   ├── PFC-Analysis.md                  ← ★ Workspace+Brake+Translator + profiles
+│   ├── Imagination-Analysis.md          ← Tưởng tượng + modality→chain direction
+│   ├── Emotion-Map.md                   ← Cảm xúc map theo UD
+│   ├── Threshold-Analysis.md            ← Threshold decompose (hw+schema+suppress)
+│   ├── Parameters-Review.md             ← Tham số cần clarify
+│   │
+│   ├── ★ ỨNG DỤNG CÁ NHÂN:
+│   ├── Body-Needs.md                    ← ★ 6 nhóm nhu cầu + tăng/giảm + diagnostic
+│   ├── Body-Needs-ByAge.md              ← 6 nhóm theo độ tuổi
+│   ├── Drive-Optimization.md            ← ★ Amplifier Trap + Sustainable Peak
+│   ├── Addiction-Analysis.md            ← Nghiện: 3 nhóm + 4 giai đoạn + recovery
+│   ├── UD-Parenting.md                  ← Phát triển trẻ em + attachment
+│   ├── Hidden-Genius.md                 ← Tiềm năng ẩn + Einstein/Ramanujan/Tesla/Jobs
+│   │
+│   ├── ★ ỨNG DỤNG XÃ HỘI:
+│   ├── Industry-Serve-BodyNeeds.md      ← ★ Phân tích ngành qua body-needs lens
+│   │
+│   ├── ★ LEGACY (từ phiên bản cũ, tham khảo):
+│   ├── Component-Interaction-Map.md     ← Schema + brain analysis (v6-v7 early)
+│   ├── Layer-Architecture-Draft.md      ← Kiến trúc cũ (tham khảo)
+│   │
+│   └── Meta-Impact/                     ← Vị trí framework trong học thuật
+│       ├── Epistemological-Position.md
+│       ├── Creator-Lens.md
+│       └── Meta-Impact.md
+│
+├── Game-Industry/                        ← ★ ỨNG DỤNG GAME
+│   ├── Core-Principles.md               ← Nguyên lý gốc (3 lớp reward)
+│   ├── Player-Psychology.md             ← 8 channels player desire
+│   ├── Gameplay-Design.md               ← Feel tuning + loops + difficulty
+│   ├── Visual-Audio.md                  ← Art + sound serve feel
+│   ├── Analytics-Guide.md               ← Đo lường + ABTest
+│   ├── Monetization-Ethics.md           ← Kiếm tiền ethical
+│   └── Team-Workflow.md                 ← Quy trình team casual game
+│
+├── Core-Deep-Dive/                       ← Đào sâu per component (v6)
+└── Validation/                           ← Kiểm chứng (v6)
 ```
 
 ---

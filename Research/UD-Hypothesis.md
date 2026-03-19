@@ -1,4 +1,8 @@
-# Unconscious Desire (UD) — Giả Thiết Thay Thế Prediction Error
+# Underlying Drive (UD) — Giả Thiết Thay Thế Prediction Error
+
+> **Lịch sử tên:** Ban đầu "Unconscious Desire" → đổi thành "Underlying Drive"
+> Lý do: "Unconscious" gợi binary (biết/không biết). Framework dùng GRADIENT
+> (schema depth + modality) → "Underlying" phù hợp hơn (drive NẰM DƯỚI mọi hành vi, mọi depth).
 
 **DRAFT v1 — Giả thiết mới, chưa kiểm chứng**
 **Trạng thái: Speculative — cần peer review và experimental validation**
@@ -87,7 +91,7 @@ Defense 3: "Value khác nhau nên PE khác nhau"
 
 ---
 
-## 2. Giả Thiết UD — Unconscious Desire
+## 2. Giả Thiết UD — Underlying Drive
 
 ### 2.1 Core Concept
 
@@ -645,7 +649,7 @@ Ngoài scope (reflex): 1  (F1-layer1 — hardware reflex, không thuộc PE/UD)
 
 ## 4. Cơ Chế UD Chi Tiết
 
-### 4.1 Unconscious Desire là gì?
+### 4.1 Underlying Drive là gì?
 
 ```
 Unconscious desire = TRẠNG THÁI MẶC ĐỊNH của schema system
@@ -1856,15 +1860,17 @@ POSSIBLE APPROACH:
 ## 7. Đặt Tên — Ghi Chú
 
 ```
-Tên chính: Unconscious Desire (UD)
+Tên chính: Underlying Drive (UD)
 
-Ưu:
-  - Gọn, dễ nhớ, dễ đọc (2 từ)
-  - "Unconscious" = nhấn mạnh đây là vô thức, không phải conscious want
-  - "Desire" = nhấn mạnh khác "prediction" (RPE)
-  - "Match" đã implicit trong cơ chế — không cần nói thừa
+Lịch sử: ban đầu "Unconscious Desire" → đổi thành "Underlying Drive"
+Lý do đổi:
+  - "Unconscious" gợi binary (biết/không biết) → framework dùng GRADIENT
+  - "Desire" vẫn ok nhưng "Drive" bao quát hơn (drive MỌI depth, không chỉ deep)
+  - "Underlying" = NẰM DƯỚI mọi hành vi → đúng cho cả surface lẫn deep desire
+  - Viết tắt VẪN "UD" → không phải sửa toàn bộ files
 
-Các tên thay thế đã cân nhắc (lưu lại để reference):
+Các tên đã cân nhắc (lưu lại để reference):
+  - Unconscious Desire (UD): tên gốc ban đầu, Freud-ish, binary
   - Unconscious Desire Match (UDM): dài hơn, "match" thừa
   - Desire Fulfillment Signal (DFS): nhấn mạnh fulfillment
   - Prediction Fulfillment (PF): gần RPE hơn, dễ hiểu cho academic

@@ -16,18 +16,67 @@ MỌI NGƯỜI NGHĨ:
   "Tôi dùng não để suy nghĩ" = PFC tự tính toán, tự quyết định
 
 THỰC TẾ:
-  PFC = TRỌNG TÀI, không phải CẦU THỦ
-  → PFC KHÔNG tạo desire (Lớp 1: opioid/oxytocin)
-  → PFC KHÔNG tạo ý tưởng (vô thức generate, PFC nhận)
-  → PFC KHÔNG trả thưởng (body: opioid/oxytocin respond)
+  PFC = WORKSPACE + BRAKE + TRANSLATOR
 
-  PFC chỉ:
-    1. NHẬN desire signals từ vô thức
-    2. GIỮ nhiều schemas cùng lúc (Working Memory)
-    3. PREDICT: "hành vi nào → body reward tốt nhất?"
-    4. CHỌN schema nào execute (UD Arbitration)
-    5. SUPPRESS tạm schemas không chọn
-    6. MONITOR kết quả → learn cho lần sau
+  PFC KHÔNG:
+    ❌ Tạo strategy (trẻ 3-4 tạo 160+ strategies mà PFC ~20% → vô thức tạo)
+    ❌ Chain schemas (spreading activation TỰ ĐỘNG, không cần PFC)
+    ❌ Evaluate options (body evaluate qua somatic markers — Damasio)
+    ❌ Khởi tạo hành vi (Libet 1983: quyết định 350ms TRƯỚC PFC aware)
+    ❌ Tắt schema (chỉ chặn OUTPUT, schema VẪN chạy → tốn energy đôi)
+    ❌ Tạo desire (Lớp 1: opioid/oxytocin)
+    ❌ Trả thưởng (body respond, PFC chỉ nhận signal)
+
+  PFC CHỈ 3 functions:
+
+  ① WORKSPACE — Mở + duy trì space cho vô thức xử lý
+    → WM = "phòng họp" → vô thức compute BÊN TRONG
+    → PFC KHÔNG compute → PFC DUY TRÌ NƠI compute xảy ra
+    → Schema mới: cần workspace (PFC active, effortful)
+    → Schema compiled: không cần (auto, PFC freed)
+    → "Suy nghĩ kỹ" = PFC hold workspace LÂU cho vô thức thêm time
+    → "Ngủ rồi tính" = vô thức process trong DMN khi PFC nghỉ
+
+  ② BRAKE — Chặn output không phù hợp (VETO)
+    → Schemas fire TỰ ĐỘNG (~50ms) → body ĐÃ react
+    → PFC nhận SAU (~200-500ms) → CHẶN hành vi TIẾP THEO
+    → KHÔNG tắt schema (vẫn chạy) → chỉ chặn output ra bên ngoài
+    → Không có schema predict hậu quả → brake KHÔNG biết chặn gì
+      → Trẻ đánh nhau = THIẾU schema hậu quả, không phải PFC yếu
+    → "Kiềm chế" = brake LIÊN TỤC body activated → mệt (energy đôi)
+
+  ③ TRANSLATOR — Dịch kết quả vô thức thành ngôn ngữ
+    → Vô thức quyết định → PFC nhận → dịch thành lời
+    → "Tại sao tôi làm vậy?" = PFC TẠO lý do SAU (post-hoc — Gazzaniga)
+    → Lý do có thể ĐÚNG hoặc SAI (rationalization)
+    → Trẻ 3-4: strategy TINH VI nhưng KHÔNG giải thích → translator chưa develop
+    → Người lớn: TƯỞNG PFC tạo strategy → thực ra PFC chỉ dịch
+
+  ⚠️ "PFC tính toán" thực ra là gì?
+    "Đấm → bị phạt → mất việc":
+      → 3 schemas ĐÃ CÓ → spreading activation TỰ chain
+      → PFC: hold WORKSPACE cho chain xảy ra → nhận kết quả
+      → TRÔNG NHƯ "PFC nối" → thực ra associations TỰ nối trong workspace
+
+  ⚠️ THỨ TỰ thực tế (Libet 1983):
+    1. Schemas fire TỰ ĐỘNG (~50ms) → body react
+    2. Vô thức chain (spreading activation) → propose options
+    3. PFC nhận (~200-500ms) → workspace hold options
+    4. Body evaluate (somatic markers: "cái nào feel right?")
+    5. PFC: BRAKE schema có body response âm
+    6. Execute → body respond → schema update → loop
+    7. PFC: TRANSLATE ("tôi chọn vì...") → post-hoc
+
+  DUAL MODE:
+    Schema mới → WORKSPACE mode (PFC hold space, effortful, conscious)
+    Schema cũ → BRAKE-ONLY mode (PFC chỉ veto nếu cần, nhẹ)
+    Học = chuyển từ WORKSPACE → BRAKE-ONLY → PFC freed dần
+
+  Developmental evidence (hỗ trợ MẠNH NHẤT):
+    0-4 tuổi (PFC ~20%): 160+ strategies VÔ THỨC → chain KHÔNG CẦN PFC ✅
+    4-7 tuổi (PFC ~40%): brake bắt đầu (marshmallow) + translator bắt đầu ✅
+    7-12 tuổi (PFC ~60%): workspace mở → trông như "tính toán" ✅
+    25+ (PFC ~100%): workspace + brake + translator + body connected = "wise" ✅
 
 ⚠️ Tại sao "TRỌNG TÀI" chứ không phải "NHẠC TRƯỞNG" (conductor)?
   Framework trước đó dùng "nhạc trưởng" — nhưng SAI vì:
@@ -93,6 +142,162 @@ BẰNG CHỨNG 6 — Libet's Experiment (1983):
   Giám đốc (PFC) tổng hợp, lựa chọn, điều phối
   Team GIỎI = nỗ lực điều phối của giám đốc từ nhỏ đến lớn
   Giám đốc NGHĨ mình thông minh — thực ra team drive
+```
+
+### 1.2 "Nhưng người ta VẪN suy nghĩ nhiều mà?" — PFC = Project Manager
+
+```
+Người quản lý, CEO, nguyên thủ "suy nghĩ nhiều" — PFC họ tính toán?
+KHÔNG. PFC họ QUẢN LÝ quá trình tính toán PHỨC TẠP.
+
+Cái mọi người gọi "suy nghĩ" thực ra là:
+  BƯỚC 1: PFC đặt câu hỏi → "phương án nào tốt nhất?"
+  BƯỚC 2: Vô thức generate options (schemas propose)
+  BƯỚC 3: PFC HOLD options trong WM (dlPFC) → so sánh
+  BƯỚC 4: vmPFC evaluate: "body thích cái nào?" → gut feeling
+  BƯỚC 5: Nếu chưa đủ → PFC REQUEST thêm → bước 2 lại
+  BƯỚC 6: Nếu conflict → ACC fire → PFC request resolution
+  BƯỚC 7: Vô thức process conflict → propose resolution
+  BƯỚC 8: PFC evaluate → chọn hoặc request thêm
+  → MỖI BƯỚC: PFC chỉ HOLD + EVALUATE + REQUEST
+  → KHÔNG BƯỚC NÀO PFC tự COMPUTE answer
+
+PFC = PROJECT MANAGER, không phải ENGINEER:
+  PM không code — PM quản lý engineers code
+  PM giỏi = manage NHIỀU engineers, PHỨC TẠP projects
+  PM giỏi TRÔNG NHƯ "giỏi kỹ thuật" — thực ra giỏi QUẢN LÝ
+
+Ví dụ CEO quyết định mở rộng thị trường:
+  1. PFC: "nên mở rộng VN không?" (đặt câu hỏi — PM set task)
+  2. Schema kinh nghiệm: "lần trước mở TL → ok" (team propose — engineer report)
+  3. Schema rủi ro: "VN khác TL" (team flag risk — engineer alert)
+  4. PFC: HOLD + compare (PM review — không tự phân tích market)
+  5. PFC: "chưa đủ info" → REQUEST data (PM yêu cầu team nghiên cứu thêm)
+  6. New data → new schemas → PFC evaluate lại (PM review round 2)
+  7. vmPFC: "feels ~60% khả thi" (PM gut check)
+  8. PFC: "chưa confident → thêm round" → loop
+  9. vmPFC: "feels right" → QUYẾT ĐỊNH (PM approve)
+  → "Suy nghĩ nhiều tháng" = PFC LẶP request-evaluate NHIỀU LẦN
+  → KHÔNG phải PFC chạy liên tục — PFC hỏi, vô thức trả lời, PFC check
+
+Trọng tài ĐƠN GIẢN (daily):
+  2 schemas → PFC chọn 1 → 1 loop → nhanh
+
+Trọng tài PHỨC TẠP (CEO, nguyên thủ):
+  20 schemas → PFC hold + evaluate + request + sequence + integrate
+  = NHIỀU loops, nested → CHẬM + MỆT
+  = TRÔNG NHƯ "tính toán" — thực ra = "quản lý phức tạp"
+
+"Suy nghĩ nhiều" = MỆT vì:
+  → HOLD nhiều schemas (dlPFC load — giống PM hold nhiều dự án)
+  → EVALUATE nhiều rounds (vmPFC — giống PM review nhiều lần)
+  → SUPPRESS schemas xen vào (PFC resource drain — giống PM filter noise)
+  → CONFLICT liên tục (ACC fire — giống PM giải quyết tranh chấp)
+  = Mệt vì QUẢN LÝ, không phải vì TÍNH TOÁN
+  = PM mệt vì HỌP + REVIEW + CONFLICT, không phải vì CODE
+
+Tại sao eureka đến khi KHÔNG "nghĩ":
+  → PFC offline (đi dạo, tắm, sắp ngủ) = PM đi nghỉ
+  → Vô thức: "PM đừng cản, để tôi làm" = team tự chạy
+  → Process xong → push lên PFC → "Ồ!" = team gửi kết quả khi PM về
+  = Team làm tốt nhất khi PM KHÔNG MICROMANAGE
+
+→ "PFC mạnh" KHÔNG phải "tính toán giỏi"
+→ = "Quản lý vô thức HIỆU QUẢ":
+  1. HOLD nhiều schemas (dlPFC WM rộng)
+  2. EVALUATE chính xác body response (vmPFC)
+  3. REQUEST đúng thông tin (OFC)
+  4. DETECT conflict sớm (ACC)
+  5. SEQUENCE đúng thứ tự (dlPFC planning)
+  6. PERSIST qua nhiều loops (PFC endurance)
+  7. INTEGRATE across rounds (PFC coherence)
+```
+
+### 1.3 Tiến trình học cái mới — PFC Worker → Monitor (bằng chứng PFC không compute)
+
+```
+Nếu PFC tự tính toán → học cái mới nên KHÔNG MỆT (PFC "tính" là xong).
+Thực tế: học cái mới CỰC MỆT → VÌ PFC đang QUẢN LÝ, không tính.
+
+Ví dụ 1: Trẻ 7 tuổi học PHÉP CHIA lần đầu
+
+  GĐ1 — "Cái gì đây?" (PFC Worker mode FULL):
+    Cô giáo: "12 ÷ 3 = ?"
+    PFC: "Task mới, chưa có schema nào"
+      → dlPFC: HOLD "12", "÷", "3" cùng lúc (WM load CAO)
+      → PFC REQUEST vô thức: "liên quan gì đã biết? chia kẹo? chia nhóm?"
+      → Vô thức propose: "chia 12 thành 3 nhóm?"
+      → PFC: "ok thử" → vô thức đếm: 4, 4, 4 → "mỗi nhóm 4"
+      → PFC: HOLD kết quả → "12 ÷ 3 = 4"
+      → Cô giáo: "Đúng!" → opioid NHẸ (body reward)
+    Mệt vì: PFC micromanage MỌI bước → drain
+
+  GĐ2 — "Làm quen" (PFC Worker nhẹ hơn):
+    "15 ÷ 5 = ?"
+    PFC: "à, giống hôm qua" → load schema "chia nhóm" (1 chunk, không phải 3 items)
+    → Vô thức: pathway có sẵn → trả nhanh hơn
+    → PFC: monitor nhẹ → done
+    Bớt mệt vì: chunk compiled → WM load GIẢM → PFC request ÍT hơn
+
+  GĐ3 — "Thành thạo" (PFC → Director):
+    "24 ÷ 6 = ?"
+    PFC: set direction "chia" → vô thức TỰ chạy → "4" xuất hiện
+    → PFC chỉ CHECK: "4 × 6 = 24? đúng" → done
+    Nhẹ vì: PFC chỉ verify, không manage từng bước
+
+  GĐ4 — "Tự động" (PFC → Monitor → gần offline):
+    "42 ÷ 7 = ?" → "6" XUẤT HIỆN → PFC gần không cần check
+    → Giống 8 × 9 = 72 → vô thức trả ngay
+    Không mệt: schema compiled → BG execute → PFC không tham gia
+
+  → PFC involvement: 100% → 50% → 10% → ~0% qua 4 giai đoạn
+  → NẾU PFC tự tính → involvement nên KHÔNG ĐỔI (vẫn phải "tính")
+  → Thực tế: involvement GIẢM VỀ 0 → PFC KHÔNG tính → PFC chỉ manage
+
+Ví dụ 2: Người lớn học lái xe
+
+  GĐ1 (bài đầu): PFC Worker
+    → HOLD 5+ items: ga, phanh, lái, gương, xi nhan...
+    → MỌI hành động conscious → 30 phút = kiệt sức
+    = PM mới + team mới + project mới → micromanage
+
+  GĐ2 (tuần 2-4): Worker → Director
+    → "Ga+phanh" chunk thành 1. "Lái thẳng" chunk thành 1.
+    → PFC: "rẽ trái" → vô thức: ga-phanh-vô lăng TỰ CHẠY
+    → 1 giờ ok (bớt mệt)
+
+  GĐ3 (tháng 3-6): Director → Monitor
+    → Lái + nghe nhạc + nghĩ việc khác
+    → PFC: chỉ flag bất thường ("xe trước phanh gấp!")
+
+  GĐ4 (năm 1+): Monitor → Automatic
+    → "Lái về nhà mà không nhớ đã lái" (highway hypnosis)
+    → PFC OFFLINE cho lái xe → dùng cho task KHÁC
+
+PHỔI QUÁT: MỌI học cái mới đều follow Worker → Director → Monitor → Automatic
+  Timeline:
+    GĐ1 → GĐ2: ngày → tuần (chunks bắt đầu compile)
+    GĐ2 → GĐ3: tuần → tháng (chunks → routines)
+    GĐ3 → GĐ4: tháng → năm (routines → BG automatic)
+
+  Tốc độ compile phụ thuộc:
+    WM capacity (hardware): WM cao → GĐ1 dễ hơn
+    Repetition (practice): lặp đủ → compile nhanh
+    UD reward (motivation): vui khi học → opioid → compile NHANH hơn
+    Sleep (consolidation): ngủ = compile time (replay → strengthen)
+    Prior schemas (foundation): có base → chunk mới attach DỄ
+    Stress (cortisol): cao → PFC giảm → compile CHẬM
+
+  → "Talent" có thể ≈ compile speed
+  → Compile speed ≈ UD match + prior schemas + sleep + repetition
+  → Không hẳn "bẩm sinh giỏi" — mà "điều kiện compile tốt"
+
+⚠️ BẰNG CHỨNG MẠNH NHẤT cho "PFC không compute":
+  Nếu PFC COMPUTE phép chia → GĐ4 vẫn phải dùng PFC để "tính"
+  Thực tế: GĐ4 PFC OFFLINE → "42÷7=6" xuất hiện KHÔNG CẦN PFC
+  → Ai "tính" ở GĐ4? VÔ THỨC (BG + compiled schemas)
+  → PFC KHÔNG BAO GIỜ "tính" → PFC chỉ MANAGE quá trình vô thức build
+  → Khi vô thức build XONG → PFC rút → vô thức tự serve
 ```
 
 ---
@@ -752,7 +957,115 @@ PFC ACTIVATION LEVEL modulate TOÀN BỘ luồng:
 
 ---
 
-## 7. Câu Hỏi Mở
+## 7. PFC Compute Hay Chỉ Gate? — 5 Kịch Bản Kiến Trúc
+
+> ⚠️ Đây là CÂU HỎI MỞ QUAN TRỌNG NHẤT về PFC.
+> Khoa học CHƯA settled. Neuroscience community CŨNG chưa consensus:
+>   Dehaene: "Global Workspace Theory" — gần KB3
+>   Friston: "Active Inference" — gần KB2/4
+>   Tononi: "IIT" — khác hoàn toàn
+> Framework liệt kê 5 kịch bản để thử nghiệm. KB4 = WORKING MODEL, chưa phải fact.
+>
+> CONFIDENCE LEVELS:
+> 🟢 PROVEN: PFC veto (Libet, Go/No-Go), Expert PFC↓, Trẻ chain không cần PFC
+> 🟡 WELL-SUPPORTED: Body evaluate trước PFC (Damasio), Eureka khi PFC relax
+> 🔴 HYPOTHESIS: PFC HOÀN TOÀN không compute, PFC CHỈ 3 functions, KB4 tổng thể
+>
+> ⚠️ Mỗi finding RIÊNG LẺ = proven. NARRATIVE TỔNG THỂ = framework CONSTRUCT.
+> Cùng findings, KHÁC cách ghép → KHÁC narrative. KB4 = cách ghép CỦA FRAMEWORK.
+> Có thể đúng. Có thể sai. Cần thử nghiệm xác nhận (xem 5 TESTS bên dưới).
+
+```
+5 KỊCH BẢN:
+
+  KB1: PURE GATE — PFC chỉ veto/allow, KHÔNG compute gì
+    Vô thức: chain + evaluate + create TẤT CẢ
+    PFC: nhận kết quả → thổi còi chặn hoặc cho qua
+    Evidence: Libet ✅, expert PFC↓ ✅, eureka offline ✅
+    Counter: dlPFC reasoning ❌, PFC damage mất planning ❌
+    Verdict: giải thích PHẦN LỚN nhưng thiếu planning explanation
+
+  KB2: FULL COMPUTER — PFC tính toán mọi thứ
+    PFC: nhận input → compute → output
+    Vô thức: chỉ raw data
+    Evidence: dlPFC reasoning ✅, PFC damage ✅
+    Counter: Libet ❌, expert PFC↓ ❌, eureka offline ❌
+    Verdict: ĐÃ BỊ BÁC BỎ phần lớn bởi neuroscience hiện đại
+
+  KB3: WORKSPACE MANAGER — PFC tạo space, vô thức compute TRONG space
+    PFC: MỞ + DUY TRÌ workspace (WM). KHÔNG tự compute.
+    Vô thức: compute BÊN TRONG workspace PFC duy trì
+    PFC: observe kết quả → veto/allow
+    Evidence: 9/9 tests pass. Giải thích gần hết.
+    = "PFC = phòng họp. Vô thức = người họp. PFC không họp, PFC MỞ phòng."
+
+  KB4: DUAL ROLE — gate cho cũ, workspace cho mới ★ CHÍNH XÁC NHẤT
+    Schema ĐÃ compiled: PFC = GATE (veto/allow, ít effort)
+    Schema CHƯA compiled: PFC = WORKSPACE MANAGER (hold space, effortful)
+    Học = chuyển schema từ workspace → gate (PFC freed dần)
+    Evidence: 9/9 tests pass + giải thích learning trajectory
+    = System 2 (workspace) → lặp lại → System 1 (gate)
+    = "Suy nghĩ kỹ" = PFC hold workspace LÂU HƠN cho vô thức thêm thời gian
+
+  KB5: ATTENTION SPOTLIGHT — PFC chỉ chiếu đèn chọn focus
+    PFC = không compute, không gate → chỉ CHỌN attend gì
+    "Ý thức" = cái PFC đang chiếu spotlight
+    Evidence: attention ✅, ý thức ✅. Counter: planning ❌, veto ❌
+    Verdict: PARTIAL — attention là 1 function, không phải duy nhất
+
+SO SÁNH:
+              Gate  Computer  Workspace  Dual Role  Spotlight
+  Score:      5/9   4/9       9/9        9/9        5/9
+  → KB4 (Dual Role) = FIT evidence TỐT NHẤT → framework ADOPT làm working model 🔴
+  → 🔴 = HYPOTHESIS — chưa proven tổng thể, dù mỗi component có evidence riêng
+  → NHƯNG: vẫn cần thử nghiệm xác nhận (xem 5 TESTS bên dưới)
+  → NẾU KB4 sai → framework vẫn hoạt động (chỉ refine PFC role, không ảnh hưởng UD/schema)
+
+KB4 MAP VÀO FRAMEWORK:
+  Schema mới → PFC WORKSPACE mode:
+    PFC mở WM → vô thức compute → PFC hold kết quả → veto/allow
+    = "Suy nghĩ" = PFC duy trì workspace → effortful, conscious, chậm
+  Schema cũ → PFC GATE mode:
+    Schema fire tự động → PFC chỉ veto/allow → nhanh, ít effort
+    = "Phản xạ có kiểm soát" = automatic + PFC vẫn chặn được
+  Chuyển đổi:
+    Mới → lặp → compiled → workspace → gate → PFC freed
+    = "Học" = chuyển schemas sang gate mode
+    = "Expert" = gần hết schemas ở gate → PFC gần rảnh
+
+  Ý thức / Vô thức = GRADIENT:
+    Schema trong PFC workspace = "ý thức" (đang process)
+    Schema ngoài workspace = "vô thức" (compiled hoặc background)
+    Ranh giới KHÔNG binary → cùng schema: lúc ý thức, lúc vô thức
+
+5 THỰC NGHIỆM PHÂN BIỆT:
+
+  TEST 1 — Gate vs Workspace:
+    Task mới vs task cũ → đo PFC activation
+    KB4 predict: mới = PFC CAO (workspace), cũ = PFC THẤP (gate)
+    Đã có data: expert PFC thấp ✅ → consistent KB4
+
+  TEST 2 — Workspace vs Compute:
+    Puzzle trong scanner → PFC active ĐỀU (compute) hay GIỮA steps (hold)?
+    KB4 predict: active GIỮA steps (hold intermediate results)
+
+  TEST 3 — Compiled bypass PFC:
+    Expert vs beginner → PFC activation
+    Đã proven: expert PFC THẤP ✅ → consistent KB4
+
+  TEST 4 — Veto independent:
+    Go/No-Go task → veto vùng KHÁC allow?
+    Đã proven: right inferior frontal gyrus = veto region ✅
+
+  TEST 5 — "Suy nghĩ kỹ" = workspace TIME:
+    TMS disrupt PFC giữa chừng → cho thêm thời gian → recover?
+    KB4: KHÔNG recover (workspace MẤT, time không giúp)
+    KB2: recover (PFC compute lại khi TMS off)
+```
+
+---
+
+## 8. Câu Hỏi Mở
 
 ```
 PFC-1: vmPFC damage → psychopathy. Có SPECTRUM không?
