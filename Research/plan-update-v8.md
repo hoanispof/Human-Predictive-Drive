@@ -91,6 +91,36 @@ CHECK + UPDATE trong TẤT CẢ files:
     Baseline Drive → BỎ → emergent metric
     Schema Ceiling → BỎ → emergent metric
     "Chán" 3 loại → MỞ RỘNG thành 5 loại (Fulfilled/Over/Hijacked/Stagnant/Suppressed)
+
+  ĐÃ ĐỔI/THÊM TRONG V7 (sessions gần đây):
+    "Prolactin = nút dừng" → "Satisfaction Signal = cơ chế body báo đủ"
+      → Framework bind CHỨC NĂNG (Satisfaction Signal), không bind HORMONE (prolactin)
+      → Prolactin = candidate chính (proven sex/food), có thể có hormone khác
+      → Core dùng "Satisfaction Signal" → files chuyên sâu dùng "prolactin" + caveat
+    "Dopamine = desire fulfillment signal" → "Prediction Improvement Signal"
+      → Dopamine = imagine predict "TỐT HƠN cho body" → fire
+      → Khác RPE "Prediction Error": error = vô hướng, improvement = có hướng (tốt cho body)
+    Reward Dual System (insight MỚI):
+      → Hệ thống 1: Imagine predict → dopamine → DRIVE (nhanh, có thể sai)
+      → Hệ thống 2: Body confirm → Satisfaction Signal → SATISFY (chậm, chính xác)
+      → Body feedback → imagine calibrate → predict chính xác dần
+    Status tách 2 tham số:
+      → Status Position (serotonin): "đang ở ĐÂU" → amplify mọi channel
+      → Status Aspiration (schema): "muốn ở ĐÂU" → gap = drive chase
+    4 loại drive (không chỉ cortisol):
+      → Cortisol drive (sợ/survive) + Dopamine drive (tò mò/muốn)
+      → Opioid drive (sướng/tiếp tục) + Oxytocin drive (ấm/kết nối)
+      → Cortisol = activation energy phổ biến, KHÔNG phải drive duy nhất
+
+  CÂN NHẮC BỎ TRONG V8:
+    Threshold → ĐỔI TÊN "Satisfaction Threshold"
+      → "Dễ thỏa mãn hay khó thỏa mãn" = emergent từ:
+        prolactin capacity + schema suppress/drive + pressure/challenge + channel count
+      → VẪN GIỮ như mục lục (nhiều người quan tâm, dễ hiểu, dễ trao đổi)
+      → NHƯNG: ghi rõ = EMERGENT metric, không phải parameter đơn
+      → Phân biệt: "đủ thật" (prolactin) vs "ép đủ" (schema suppress)
+      → Threshold-Analysis.md → rename "Satisfaction-Threshold.md"
+      → Search "Threshold" trong tất cả files → replace/update context phù hợp
 ```
 
 ---
@@ -166,10 +196,46 @@ Body-Needs.md:
   □ §11: 5 loại chán (Fulfilled/Over/Hijacked/Stagnant/Suppressed) — ĐÃ thêm
   □ §11.7: Sweet Spot Chart — check consistent
 
+Reward-Dual-System.md (FILE MỚI):
+  □ Toàn bộ: 2 hệ thống reward (Imagine + Body) + luồng tương tác
+  □ §4: "Prediction Improvement" thay "Prediction Error" — check
+  □ §6: So sánh AlphaGo vs Con người — check
+  □ Check: consistent với Core §4.1 (dopamine update)
+
+Status-Analysis.md (FILE MỚI):
+  □ Toàn bộ: Status Position + Aspiration tách 2
+  □ Check: consistent với Core §4.1 (Lớp 2 Status update)
+  □ Check: consistent với Neurochemistry-v8 §3 (Serotonin)
+
+Prolactin-Analysis.md (FILE MỚI):
+  □ Toàn bộ: Satisfaction Signal reasoning + tại sao không phải "phanh"
+  □ §3.1: 4 loại drive — check consistent
+  □ §4: Prolactin chỉ fire khi body REQUEST — check
+  □ Check: consistent với Neurochemistry-v8 §4.4
+
+Body-Listening.md (FILE MỚI):
+  □ Toàn bộ: kỹ năng nghe body + 4 levels + bài tập
+  □ Check: consistent với Reward-Dual-System + Layer1-Channels
+
+Neurochemistry-v8-Draft.md (FILE MỚI — Core-Deep-Dive):
+  □ Toàn bộ: kiến trúc 3 Lớp mới + chi tiết từng hormone
+  □ §4.4: Satisfaction Signal caveat (chức năng vs hormone)
+  □ Check: consistent với Core §4.1
+
+Ask-AI.md + Ask-AI-Parent.md + Ask-AI-Guide.md (FILES MỚI):
+  □ Wrappers cho phổ thông dùng framework qua AI
+  □ Check: instructions consistent với Core final
+
+Imagination-Analysis.md (ĐÃ UPDATE):
+  □ §2: Verbal = communication note — ĐÃ thêm
+  □ §7: Reward Dual System reference — ĐÃ thêm
+  □ Check: consistent với Modality-Analysis + Reward-Dual-System
+
 Các files khác:
   □ Search "UD" → replace per context (TẤT CẢ files)
   □ Search "ô trống" → replace "mong muốn" (nếu có)
   □ Search "schema âm" → check context (đổi nếu binary, giữ nếu correct)
+  □ Search "prolactin" trong Core → đã đổi "Satisfaction Signal" → verify
   □ Check cross-references vẫn đúng sau rename
   □ Game-Industry/ files: ít mention "UD" → nhanh
 ```
@@ -195,6 +261,12 @@ Các files khác:
 □ Ngẫm thêm: Schema gradient body→domain — có cases nào KHÔNG fit?
 □ Ngẫm thêm: "Không có schema âm" — có edge case nào phản bác?
 □ Ngẫm thêm: Schema Diagnostic 5 bước — test trên người thật?
+□ Ngẫm thêm: Reward Dual System — imagine predict vs body confirm ĐỦ chưa? Thiếu hệ thống 3?
+□ Ngẫm thêm: "Prediction Improvement" vs "Prediction Error" — experiment nào tách biệt?
+□ Ngẫm thêm: Satisfaction Signal — prolactin CHỈ 1 candidate? Hormone nào khác?
+□ Ngẫm thêm: Status Position vs Aspiration — tách ĐÚNG chưa? Có dimension thứ 3?
+□ Ngẫm thêm: Body-Listening 4 levels — có level 4+ (beyond thiền sư)?
+□ Ngẫm thêm: 4 loại drive (cortisol/dopamine/opioid/oxytocin) — đủ chưa?
 
 → v8 = "production ready" — draft v7 hiện tại = "research draft"
 → KHÔNG rush v8 — v7 draft CẦN test trước
@@ -216,9 +288,13 @@ Human-Predictive-Drive/
 │   │   ├── PFC-Analysis.md              ← Workspace + Brake + Translator
 │   │   ├── Imagination-Analysis.md      ← Tưởng tượng + chain direction
 │   │   ├── Emotion-Map.md               ← Cảm xúc map
-│   │   ├── Threshold-Analysis.md        ← Threshold = f(Pressure, Challenge) + Calibrate
-│   │   ├── Layer1-Channels.md           ← 10 sub-channels (5 Experience + 5 Connection) [MỚI]
-│   │   └── Schema-Diagnostic.md         ← 5 bước diagnostic + calibrate [MỚI]
+│   │   ├── Threshold-Analysis.md        ← Satisfaction Threshold + Calibrate
+│   │   ├── Layer1-Channels.md           ← 10 sub-channels (5 Experience + 5 Connection)
+│   │   ├── Schema-Diagnostic.md         ← 5 bước diagnostic + calibrate
+│   │   ├── Reward-Dual-System.md        ← 2 hệ thống: Imagine(dopamine) + Body(prolactin) [MỚI]
+│   │   ├── Status-Analysis.md           ← Position + Aspiration tách 2 [MỚI]
+│   │   ├── Prolactin-Analysis.md        ← Satisfaction Signal reasoning [MỚI]
+│   │   └── Body-Listening.md            ← Cách nghe body + 4 levels + bài tập [MỚI]
 │   ├── Applications/
 │   │   ├── Body-Needs.md                ← 6 nhóm nhu cầu + 5 loại chán + chiều giảm
 │   │   ├── Body-Needs-ByAge.md          ← Theo độ tuổi
@@ -235,6 +311,11 @@ Human-Predictive-Drive/
 │       ├── Core-v7-Draft-Good.md
 │       ├── Component-Interaction-Map.md
 │       └── ...
+├── Core-Deep-Dive/
+│   └── Neurochemistry-v8-Draft.md       ← 3 Lớp chi tiết [MỚI thay v6 cũ]
+├── Ask-AI.md                             ← Wrapper phổ thông [MỚI]
+├── Ask-AI-Parent.md                      ← Wrapper phụ huynh [MỚI]
+├── Ask-AI-Guide.md                       ← Hướng dẫn tạo wrappers [MỚI]
 ├── Game-Industry/                        ← Giữ nguyên (ít thay đổi)
 └── Validation/                           ← Test results khi có
 ```

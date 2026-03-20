@@ -3,8 +3,12 @@
 > **Trạng thái:** DRAFT
 > **Ngày:** 2026-03-18
 > **Mục đích:** Phân tích cơ chế tưởng tượng qua lens UD framework
-> **Reference:** Core-v7-UD.md §4.3 (PFC Workspace), §6.1 (3 con đường fulfill)
+> **Reference:** Core-v7-UD.md §4.3 (PFC Workspace), §6.1 (3 con đường fulfill),
+> Reward-Dual-System.md (imagine = Hệ thống 1 predict), Body-Listening.md (nghe body respond),
+> Modality-Analysis.md §2.0 (5 Experience + 1 Communication modality)
 > **Insight gốc:** Tưởng tượng = PFC workspace mở → vô thức simulate → body respond NHẸ (preview)
+> **Update:** Imagine = Hệ thống 1 trong Reward Dual System:
+> imagine predict "tốt cho body?" → dopamine → drive → reality → body confirm (prolactin)
 
 ---
 
@@ -84,6 +88,14 @@ Tưởng tượng KHÔNG chỉ "thấy hình trong đầu" — có 6 modalities:
     → "Nếu tôi nói vậy thì..." → plan conversation trong đầu
     → Phổ biến NHẤT ở người lớn (school train verbal > other modalities)
     → ⚠️ Có người KHÔNG CÓ inner monologue → nghĩ bằng hình/cảm nhận thay lời
+
+  ⚠️ UPDATE (từ Modality-Analysis.md):
+    → Verbal thực ra = COMMUNICATION modality, KHÔNG phải EXPERIENCE modality
+    → Verbal KHÔNG "tưởng tượng" → verbal NARRATE kết quả tưởng tượng (post-hoc)
+    → 5 modalities GỐC (①-⑤) = THẬT SỰ tưởng tượng (body simulate)
+    → Verbal (⑥) = DỊCH kết quả tưởng tượng ra lời (translate, không generate)
+    → → "Nghĩ bằng lời" = verbal ĐANG narrate cái 5 modalities khác ĐÃ simulate
+    → → Chi tiết: Modality-Analysis.md §2.0
 ```
 
 ---
@@ -402,6 +414,16 @@ MAP VÀO KIẾN TRÚC:
     → Daydream: body preview mixed → UD mixed
     → = Imagination SHAPE body state dù KHÔNG CÓ external stimulus
     → → "Thay đổi suy nghĩ = thay đổi body" = ĐÚNG (vì imagination → body respond)
+
+  ⚠️ UPDATE — Imagination = HỆ THỐNG 1 trong Reward Dual System:
+    → Imagine predict "cái này TỐT HƠN cho body?" → dopamine fire → DRIVE hành vi
+    → Hành vi → reality → body evaluate (Hệ thống 2) → prolactin nếu ĐỦ
+    → Body feedback → imagine CALIBRATE → predict CHÍNH XÁC hơn lần sau
+    → = Imagine = PRE-EVALUATION (nhanh, có thể sai)
+    → = Body = POST-EVALUATION (chậm, chính xác — ground truth)
+    → → "Kinh nghiệm" = imagine ĐÃ calibrate bởi NHIỀU body feedbacks
+    → Chi tiết: Reward-Dual-System.md §2-§5
+    → Cách nghe body feedback: Body-Listening.md
 ```
 
 ---

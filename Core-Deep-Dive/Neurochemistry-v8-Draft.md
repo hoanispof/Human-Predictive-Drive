@@ -170,23 +170,39 @@ HARDWARE VARIANTS ảnh hưởng dopamine:
 → Chi tiết: Neurochemistry.md (v6) §2
 ```
 
-### 3.2 Serotonin — Status Multiplier
+### 3.2 Serotonin — Status Position Amplifier
 
 ```
 HỆ THỐNG: raphe nuclei → widespread (brain + GUT — 90% serotonin ở ruột!)
-CHỨC NĂNG: MULTIPLY toàn bộ experience khi STATUS tốt
+CHỨC NĂNG: AMPLIFY toàn bộ channels khi STATUS POSITION cao
 
-  Serotonin CAO: "tôi ở vị trí tốt" → MỌI THỨ feel BETTER
-    → Ăn NGON hơn, người ĐẸP hơn, work HIỆU QUẢ hơn
-    → = Amplifier: không tạo reward mới → NHÂN ĐÔI reward có sẵn
+  ⚠️ STATUS = 2 THAM SỐ TÁCH BIỆT (framework đề xuất):
 
-  Serotonin THẤP: "tôi ở vị trí tệ" → MỌI THỨ feel WORSE
-    → So sánh nhiều, bất mãn, "chưa đủ"
-    → OCD-like: serotonin thấp → repetitive thinking (giống yêu say đắm!)
+  STATUS POSITION (serotonin — NẰM Ở ĐÂY, Lớp 2 Amplifier):
+    = "Tôi ĐANG ở vị trí NÀO trong tập thể?"
+    = Mức TỰ TIN hiện tại → body CẢM NHẬN (không phải PFC logic)
+    = AMPLIFY MỌI channel: mở/đóng "cửa" cho schemas drive
+
+    Serotonin CAO (Position cao): "tôi xứng đáng"
+      → MỞ CỬA: nhiều schemas "dám" drive → hành vi PHONG PHÚ
+      → Amplify: ăn NGON hơn, explore RỘNG hơn, connect DỄ hơn
+      → = KHÔNG tạo reward → NHÂN ĐÔI reward có sẵn
+
+    Serotonin THẤP (Position thấp): "tôi chưa xứng"
+      → ĐÓNG CỬA: ít schemas "dám" → hành vi HẠN CHẾ
+      → "Không dám" dù schema CÓ → vì "cửa" đóng
+      → So sánh nhiều, bất mãn, "chưa đủ tư cách"
+
+  STATUS ASPIRATION (schema — KHÔNG nằm ở đây, nằm trong Schema-Drive):
+    = "Tôi MUỐN ở vị trí NÀO?"
+    = Gap = Aspiration − Position → TẠO drive (nếu gap > 0)
+    = KHÁC kênh hóa học: cortisol (gap stress) + dopamine (chase)
+    = NẰM trong Schema-Drive vì: aspiration = 1 loại "mong muốn của schema"
+    → Chi tiết: Status-Analysis.md
 
   ⚠️ Serotonin ≠ channel gốc:
     Strip hết opioid + oxytocin → serotonin ALONE = NOTHING
-    "Nghiện địa vị" thực chất = nghiện MULTI-CHANNEL PE BURST mà status mang lại
+    "Nghiện địa vị" thực chất = nghiện MULTI-CHANNEL reward mà status mang lại
     CEO cô đơn + nhàm chán = depressed DÙ status cao → vì Lớp 1 TRỐNG
     → Serotonin × 0 (Lớp 1 thiếu) = vẫn 0
 
@@ -195,9 +211,12 @@ CHỨC NĂNG: MULTIPLY toàn bộ experience khi STATUS tốt
     → "Nghĩ về người đó MÃI" = serotonin thấp → không filter được
     → Feature: tạm "hack" để pair-bonding → 12-18 tháng → normalize
 
+🟢 Research: Raleigh et al. (1991) — khỉ alpha → serotonin +200%
 🟢 Research: Crockett et al. (2008) — serotonin + social behavior
 🟢 Research: Marazziti et al. (1999) — serotonin giảm khi yêu ≈ OCD
-→ Chi tiết: Neurochemistry.md (v6) §5
+🔴 Framework: tách Position vs Aspiration — chưa có research trực tiếp
+→ Chi tiết suy luận: Status-Analysis.md
+→ Chi tiết legacy: Neurochemistry.md (v6) §5
 ```
 
 ---
@@ -307,9 +326,18 @@ CHỨC NĂNG: BẢO VỆ những gì oxytocin đã kết nối
 → Chi tiết: Neurochemistry.md (v6) §8
 ```
 
-### 4.4 Prolactin — Nút Dừng Tự Nhiên
+### 4.4 Satisfaction Signal (Prolactin = candidate chính)
 
 ```
+⚠️ PHÂN BIỆT CHỨC NĂNG vs HORMONE:
+  CHỨC NĂNG: "Satisfaction Signal" = cơ chế body báo "ĐỦ RỒI"
+    → Framework bind CHỨC NĂNG → đúng bất kể hormone nào thực hiện
+    → Core dùng "Satisfaction Signal" (chức năng)
+  HORMONE: Prolactin = candidate CHÍNH (proven: sex, food)
+    → CÓ THỂ có hormone KHÁC cùng tham gia (chưa biết hết)
+    → File này dùng "prolactin" vì phân tích CHUYÊN SÂU hormone cụ thể
+    → Chi tiết suy luận: Prolactin-Analysis.md
+
 HỆ THỐNG: pituitary gland → widespread
 CHỨC NĂNG: "ĐỦ RỒI" signal → dừng chase → chuyển sang rest
 

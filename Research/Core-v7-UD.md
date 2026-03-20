@@ -80,7 +80,7 @@ UD = THAM SỐ GỐC DUY NHẤT:
   Mọi thứ trong framework PHỤC VỤ UD:
     Experience/Connection (opioid/oxytocin) = PHƯƠNG TIỆN fulfill desire
     Dopamine = SIGNAL "desire approaching/matched" (infrastructure)
-    Serotonin = AMPLIFIER (mạnh hơn khi status tốt)
+    Serotonin = AMPLIFIER (Status Position — "cửa" mở/đóng cho schemas)
     PFC = CÔNG CỤ giả lập + hành động (servant of UD)
     Schema = CẤU TRÚC vô thức tạo ra desire
     Hành vi = OUTPUT để fulfill desire trong thực tại
@@ -292,17 +292,33 @@ UD-specific insight:
 ╠══════════════════════════════════════════════════════╣
 ║  LỚP 2: AMPLIFIER — "Signal + khuếch đại"           ║
 ║                                                      ║
-║  NOVELTY (dopamine)        STATUS (serotonin)        ║
-║  "Desire matched!"         "Tôi ở vị trí tốt!"      ║
-║  Detect + signal           Multiply + stabilize      ║
-║  Mở rộng tìm kiếm         Củng cố confidence        ║
+║  NOVELTY (dopamine)        STATUS POSITION (serotonin)║
+║  "Desire matched!"         "Tôi ở vị trí NÀY"       ║
+║  Detect + signal           Amplify MỌI channel       ║
+║  Mở rộng tìm kiếm         Mở/đóng "cửa" cho schemas ║
 ║                                                      ║
-║  Dopamine = NHIÊN LIỆU SÁNG TẠO + UD SIGNAL:        ║
-║    Fire khi desire approaching/matched                ║
-║    Suppress khi desire NOT matched                    ║
+║  Status = 2 THAM SỐ (tách):                          ║
+║    Position (serotonin): "đang ở đâu" → AMPLIFY      ║
+║      → Cao: nhiều schemas "dám" drive → hành vi RỘNG ║
+║      → Thấp: ít schemas "dám" → hành vi HẠN CHẾ     ║
+║    Aspiration (schema): "muốn ở đâu" → DRIVE         ║
+║      → Gap = Aspiration − Position → drive chase      ║
+║      → Gap=0: content. Gap>0: chase. Gap<0: imposter  ║
+║      → Aspiration NẰM TRONG Schema-Drive (không riêng)║
+║    → Chi tiết: Status-Analysis.md                     ║
+║                                                      ║
+║  Dopamine = IMAGINE PREDICT SIGNAL + NHIÊN LIỆU SÁNG TẠO:║
+║    Fire khi imagine predict "TỐT HƠN cho body"       ║
+║    Suppress khi predict "TỆ HƠN"                     ║
+║    = Hệ thống 1 (IMAGINE) trong Reward Dual System:  ║
+║      Imagine predict → dopamine → DRIVE hành vi       ║
+║      → Reality → Body confirm (Satisfaction Signal = Hệ thống 2)║
+║      → Body feedback → imagine CALIBRATE → chính xác ║
 ║    BUILD schema: explore, learn, connect, imagine     ║
 ║    ≠ "surprise signal" (RPE)                          ║
-║    = "desire fulfillment signal" (Schema-Drive)       ║
+║    ≠ "desire fulfillment signal" (UD cũ — chưa đủ)   ║
+║    = "prediction improvement signal" (Reward Dual)    ║
+║    → Chi tiết: Reward-Dual-System.md                  ║
 ║                                                      ║
 ║  ⚠️ Dopamine + Cortisol BỔ SUNG nhau:                ║
 ║    Dopamine = BUILD schema (sáng tạo, học, explore)   ║
@@ -341,12 +357,16 @@ UD-specific insight:
 ║    Ghen tuông, territorial, protective = vasopressin  ║
 ║    Hardware: AVPR1A gene → sensitivity khác per person ║
 ║                                                      ║
-║  Prolactin = "nút dừng tự nhiên":                    ║
-║    Desire fulfill → prolactin release → "đủ rồi"     ║
+║  "Satisfaction Signal" = cơ chế body báo "ĐỦ RỒI":   ║
+║    Desire fulfill → body release signal → "đủ rồi"   ║
+║    ⚠️ Prolactin = candidate CHÍNH (proven: sex, food) ║
+║    ⚠️ Có thể CÒN hormone khác tham gia (chưa biết hết)║
+║    ⚠️ Framework bind CHỨC NĂNG (báo đủ), KHÔNG bind   ║
+║       1 hormone → đúng bất kể hormone nào thực hiện   ║
 ║    = TRIGGER chuyển GĐ3(Sướng) → GĐ4(Ok) trong cycle ║
-║    Multi-channel fulfill (E+C): prolactin MẠNH → dừng DỄ║
-║    Single dopamine loop: prolactin YẾU → khó dừng    ║
-║    Addiction = prolactin system BỊ BYPASS → "không dừng"║
+║    Multi-channel fulfill (E+C): signal MẠNH → dừng DỄ ║
+║    Single dopamine loop: signal YẾU → khó dừng       ║
+║    Addiction = Satisfaction Signal BỊ BYPASS → "không dừng"║
 ║    Hardware (~50%) + Context (~50%)                   ║
 ║                                                      ║
 ║  Endocannabinoid = "giảm xóc body":                  ║
@@ -390,16 +410,24 @@ WM CAPACITY — Working Memory slots (HARDWARE, FIXED)
 
 EMERGENT METRICS — Observable, KHÔNG set trực tiếp, thay đổi INPUTS → metrics tự đổi:
 
-  Threshold — mức "đủ" per domain
+  Threshold → v8: "Satisfaction Threshold" — "dễ thỏa mãn hay khó thỏa mãn?"
     = DYNAMIC per (person × domain × mục tiêu × thời điểm)
-    = KHÔNG phải 1 số chung → khác per domain (ăn: thấp, career: cao)
-    = Emergent từ: Hardware_baseline + Pressure_context + Challenge_perceived
-                   + Body_baseline_carry − Suppression
-    = 2 loại drive: Pressure→cortisol (fear-based) vs Challenge→dopamine (curiosity-based)
-    = Pressure TẠO context → Challenge emerge TRONG context → Autonomy cho sustainability
-    = Body baseline MANG THEO khi switch domain (hormone đã quen → filter cách tiếp cận)
-    = Fix: giảm schema pressure SAI + unlock suppression + reframe challenge + match domain
+    = KHÔNG phải 1 số — là EMERGENT từ nhiều thành phần:
+      Satisfaction Signal capacity: hardware "báo đủ" dễ fire hay khó (Neurochemistry Lớp 3)
+      Schema suppress: "thôi kệ" defense → ÉP đủ dù body CHƯA đủ (Schema-Atlas §6.3)
+      Schema drive: "phải đạt!" push → ÉP threshold lên (Schema-Drive)
+      Pressure + Challenge: cortisol/dopamine → suppress/boost Satisfaction Signal
+      Channel count: multi-channel → signal dễ fire → threshold GIẢM tạm
+      Body baseline carry: hormone nền MANG THEO khi switch context
+    = "Dễ thỏa mãn" CÓ THỂ: Satisfaction Signal đủ thật ✅ HOẶC schema chặn desire ❌
+    = "Khó thỏa mãn" CÓ THỂ: signal khó fire ✅ HOẶC schema push quá ❌
+    = → Phân biệt: "đủ thật" vs "ép đủ" → xem Schema-Diagnostic.md
     → Chi tiết: Research/Threshold-Analysis.md
+
+    ⚠️ V8.0: CÂN NHẮC bỏ "Threshold" như tên tham số riêng
+    → Vì: emergent từ quá nhiều thành phần → không đo được → gây hiểu lầm "1 số"
+    → THAY BẰNG: mô tả trực tiếp thành phần (Satisfaction Signal + schema + pressure/challenge)
+    → Giống: Amplitude, Precision ĐÃ BỎ vì emergent → Threshold CŨNG emergent
 
   Baseline Drive — mức drive nền
     = f(Threshold × Schema × Environment) — KẾT QUẢ, không phải INPUT
@@ -1152,7 +1180,7 @@ Domain = CỰC KỲ PHỨC TẠP → framework KHÔNG chứa domain data:
    → Schema sai → desire hướng SAI → fulfill không hiệu quả
    → "Tôi vô giá trị" → desire "chứng minh" mãn tính → never enough
 
-4. CALIBRATE THRESHOLD (composite: hardware + schema_pressure − suppression)
+4. CALIBRATE SATISFACTION THRESHOLD (emergent: Satisfaction Signal + schema + pressure/challenge)
    → Identify: threshold cao vì HARDWARE hay vì SCHEMA PRESSURE?
    → Hardware cao → match environment phù hợp (không cần fix)
    → Schema pressure → fix schema âm → threshold TỰ GIẢM
