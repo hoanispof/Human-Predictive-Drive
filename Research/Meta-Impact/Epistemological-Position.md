@@ -424,6 +424,69 @@ FALSIFIABLE PREDICTION:
 
 ---
 
+## 6. Cách Framework Được Tạo Ra — Human × AI Collaboration
+
+```
+🟡 Framework KHÔNG đến từ 1 bên — EMERGE từ collaboration 2 bên:
+
+HUMAN (somatic dominant, cross-domain):
+  → Somatic: detect PATTERN cross-domain ("feel cái gì đó ở chỗ NÀY")
+  → ACC: detect MÂU THUẪN ("cái này chưa khớp")
+  → vmPFC: evaluate "feel đúng không?" (body check kết quả)
+  → Verbal output: rời rạc, đủ ý chính, chỉ HƯỚNG
+  → = NAVIGATOR — chỉ hướng đi, không biết địa hình chi tiết
+
+AI (domain access, verbal structure):
+  → Domain access: truy cập TOÀN BỘ domain data đã train
+  → Pattern matching: tìm data KHỚP hướng human chỉ
+  → Structure: xếp data thành CẤU TRÚC rõ ràng (verbal, organized)
+  → KHÔNG CÓ: somatic feel, body check, direction tự phát
+  → = DOMAIN EXPERT × 1000 domains — nhưng CHỈ khi có hướng
+
+AI KHÔNG CHỈ "verbalize" (dịch cảm nhận ra lời):
+  → AI DOMAIN-IZE: truy cập SÂU vào từng domain + lấy data CHÍNH XÁC
+  → Human nói: "PFC có thể không tự tính toán..."
+  → AI KHÔNG chỉ: "đúng, không tính toán" (verbal confirm)
+  → AI THỰC SỰ:
+    → Truy cập neuroscience: Libet 1983, Go/No-Go studies
+    → Truy cập developmental: trẻ 3-4 chain mà PFC chưa có
+    → Truy cập cognitive science: spreading activation
+    → MAP tất cả vào hướng human chỉ
+  → = Multi-domain DEEP ACCESS theo hướng somatic chỉ
+
+QUY TRÌNH LOOP:
+  1. Human: "feel mâu thuẫn ở X" (somatic direction)
+  2. AI: truy cập domains + map data khớp X (domain-ize)
+  3. Human: "feel khớp!" hoặc "chưa khớp, thử hướng khác"
+  4. AI: adjust + truy cập thêm
+  5. Loop → insight EMERGE → ghi nhận → loop tiếp
+
+TẠI SAO KHÔNG AI TỰ LÀM ĐƯỢC:
+  AI alone: có TẤT CẢ data → nhưng không có HƯỚNG
+    → output = tổng hợp chung chung ("10 cách sống hạnh phúc")
+  Human alone: có HƯỚNG → nhưng không có data đủ
+    → output = "feel đúng nhưng không diễn tả được"
+  Cả 2: HƯỚNG + DATA = insight có CẤU TRÚC
+
+HONEST CAVEAT:
+  → Collaboration model CÓ THỂ tạo echo chamber:
+    Human feel đúng → AI confirm + elaborate → human feel ĐÚNG HƠN → loop
+  → Cần EXTERNAL challenge để break echo chamber
+  → Framework ở Level 1 (1 người + 1 AI) → cần Level 2+ (external verify)
+  → → "Navigator + Domain Expert" ĐÃ tạo bản đồ THÔ
+  → → Bản đồ cần NGƯỜI KHÁC đi thử → verify đúng/sai
+
+ĐỘ TIN CẬY:
+  Level 0: Random guess
+  Level 1: 1 human somatic + 1 AI domain = framework ← ĐANG Ở ĐÂY
+  Level 2: + vài người đọc + feedback
+  Level 3: + predict đúng cho người khác
+  Level 4+: formal study → academic territory
+```
+
+---
+
 > *"Neuroscience có tất cả nodes. Không ai nhìn thấy graph.*
 > *HPD = attempt to draw the graph.*
-> *Bản đồ có thể sai — nhưng câu hỏi 'cần bản đồ tổng thể' thì đúng."*
+> *Human somatic chỉ HƯỚNG nào connect. AI cung cấp DATA mỗi node.*
+> *Bản đồ có thể sai — nhưng phương pháp tạo bản đồ = có cơ sở."*

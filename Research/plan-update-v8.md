@@ -69,12 +69,28 @@ CHECK + UPDATE trong TẤT CẢ files:
     Workspace + Brake + Translator (PFC)
     Present / Desire / Coherence (SD State)
     Body Baseline State (schema sâu nhất)
+    5 Experience Modalities + 1 Communication Modality
+    "Mong muốn của schema" (thay "ô trống" — dynamic, không static)
 
   ĐÃ ĐỔI TRONG V7 (không cần sửa lại):
-    "Conductor/nhạc trưởng" → đã đổi thành "Workspace+Brake+Translator"
-    "Opioid/Oxytocin" → đã thêm "Experience/Connection" labels
-    "PE" → đã đổi thành "UD" (sẽ thành "Schema-Drive")
-    "Fulfilled/Unfulfilled" → đã đổi thành "Present/Desire"
+    "Conductor/nhạc trưởng" → "Workspace+Brake+Translator"
+    "Opioid/Oxytocin" → thêm "Experience/Connection" labels
+    "PE" → "UD" (sẽ thành "Schema-Drive")
+    "Fulfilled/Unfulfilled" → "Present/Desire"
+    "Ô trống" → "Mong muốn của schema" (schema desire)
+    "Schema âm/dương" → "Schema xung đột trong context" (không có schema âm cố định)
+    "6 modalities ngang hàng" → "5 Experience + 1 Communication"
+    "Verbal = modality tư duy" → "Verbal = label/transfer/compress (không compute)"
+
+  ĐÃ BỎ TRONG V7:
+    UD Sensitivity (cả 4 sub-parameters):
+      ① Amplitude → BỎ → emergent "Cường Độ Phản Ứng"
+      ② Precision → BỎ → emergent từ schema quality × conflict × PFC
+      ③ Decay Rate → BỎ → emergent "Tốc Độ Quen" (5 giai đoạn cycle)
+      ④ Generalization → BỎ → spreading activation mechanism
+    Baseline Drive → BỎ → emergent metric
+    Schema Ceiling → BỎ → emergent metric
+    "Chán" 3 loại → MỞ RỘNG thành 5 loại (Fulfilled/Over/Hijacked/Stagnant/Suppressed)
 ```
 
 ---
@@ -86,19 +102,74 @@ CÁC SECTION CẦN CHECK khi build v8:
 
 Core-v8.md (từ Core-v7-UD.md):
   □ Header: remove "DRAFT", update version
-  □ §1: update definition Schema-Drive
-  □ §4.3: PFC definition final (Workspace+Brake+Translator — check vẫn consistent)
-  □ §5.2: Schema valence note → check consistent với Schema-Atlas.md
+  □ §1: update definition Schema-Drive + "mong muốn của schema" (không phải "ô trống")
+  □ §1.1: vocabulary final — 5 loại chán + Schema-Drive terms
+  □ §4.2: parameters final — UD Sensitivity ĐÃ BỎ, emergent metrics note
+  □ §4.3: PFC definition final (Workspace+Brake+Translator)
+  □ §5.2: "Không có schema âm" + "mong muốn" + Body Baseline
+  □ §5.3: Drive Equation với "mong muốn" concept
+  □ §5.6: SD State (Experience × Desire × Coherence) — rename UD→SD
+  □ §5.7: 5 giai đoạn cycle + portfolio of cycles (nếu thêm)
+  □ §5.8: SD Arbitration → Schema-Drive Arbitration
+  □ §11.2: tham số ước lượng — check consistent
   □ §12 File Map: update tên files mới
   □ §13 References: update
 
 Schema-Drive-Hypothesis.md (từ UD-Hypothesis.md):
   □ Toàn bộ "UD" → "Schema-Drive"
-  □ §10 Naming: update lịch sử tên (thêm "Schema-Drive" là tên cuối)
+  □ §10 Naming: update lịch sử tên
   □ Công thức: update notation
+  □ "Ô trống" → "mong muốn" nếu có mention
+
+Schema-Atlas.md:
+  □ §1.2 Valence: check "không có schema âm" consistent
+  □ §1.2 Trade-off: check "mong muốn" consistent
+  □ §5 Body Baseline: check references
+  □ §5.6 Diagnostic: check "suy ngược" 3 con đường
+
+Modality-Analysis.md:
+  □ §2.0: "5 Experience + 1 Communication" — đã có
+  □ §3: Encode types + depth metric — check
+  □ §5+: Verbal = label/transfer/compress — check consistent
+
+PFC-Analysis.md:
+  □ §1.2: Workspace+Brake+Translator — đã có
+  □ §7: 5 kịch bản — KB4 + evidence
+  □ §8: Hardware receptor variants (DRD4, COMT, MAO-A) — đã có
+  □ §9: Developmental evidence — check
+
+Industry-Serve-BodyNeeds.md:
+  □ §4: Baseline + 6 Hướng Mở Rộng — check template final
+  □ §10: Hướng dẫn cho AI — check actionable
+
+Threshold-Analysis.md:
+  □ §2: Threshold = f(Pressure, Challenge) per domain — ĐÃ refine
+  □ §3: Pressure Drive vs Challenge Drive — check consistent
+  □ §3.4: Body Baseline Carry + Calibrate Skill 4 levels — ĐÃ thêm
+  □ §4: Ví dụ + kiểm chứng — check
+
+Schema-Diagnostic.md (FILE MỚI):
+  □ Toàn bộ: quy trình 5 bước diagnostic + 3 con đường suy ngược
+  □ §5.5: Calibrate Level assessment — ĐÃ thêm
+  □ Check: consistent với Schema-Atlas + Threshold-Analysis
+
+Layer1-Channels.md (FILE MỚI):
+  □ Toàn bộ: 10 sub-channels (5 Experience + 5 Connection)
+  □ Check: consistent với Core §4.1 (Neurochemistry 3 Lớp)
+
+Drive-Optimization.md:
+  □ §9: 3 Layers (Pressure + Challenge + Autonomy) — ĐÃ refine
+  □ §6: Endpoint hạnh phúc — check
+  □ Check: consistent với Threshold-Analysis (Pressure × Challenge)
+
+Body-Needs.md:
+  □ §11: 5 loại chán (Fulfilled/Over/Hijacked/Stagnant/Suppressed) — ĐÃ thêm
+  □ §11.7: Sweet Spot Chart — check consistent
 
 Các files khác:
-  □ Search "UD" → replace per context
+  □ Search "UD" → replace per context (TẤT CẢ files)
+  □ Search "ô trống" → replace "mong muốn" (nếu có)
+  □ Search "schema âm" → check context (đổi nếu binary, giữ nếu correct)
   □ Check cross-references vẫn đúng sau rename
   □ Game-Industry/ files: ít mention "UD" → nhanh
 ```
@@ -113,9 +184,21 @@ Các files khác:
 □ Ít nhất 1 external review (ai đó có background đọc qua)
 □ Ghi nhận: cases nào framework predict ĐÚNG, cases nào SAI
 □ Fix issues từ testing → update draft v7 → RỒI mới build v8
+□ Ngẫm thêm: "mong muốn của schema" concept đã chính xác chưa?
+□ Ngẫm thêm: 5 giai đoạn cycle có đủ chưa? Thiếu giai đoạn nào?
+□ Ngẫm thêm: Hardware receptor insight CÓ thay đổi gì thêm?
+□ Ngẫm thêm: Industry-Serve template ĐÃ đủ chưa? Test thêm vài ngành?
+□ Ngẫm thêm: Threshold = f(Pressure, Challenge) per domain — đủ chính xác chưa?
+□ Ngẫm thêm: 3 Layers (Pressure + Challenge + Autonomy) — đủ hay thiếu layer?
+□ Ngẫm thêm: Calibrate Skill 4 levels — có level nào thiếu?
+□ Ngẫm thêm: 10 sub-channels Lớp 1 — đủ chưa? Có sub-channel nào miss?
+□ Ngẫm thêm: Schema gradient body→domain — có cases nào KHÔNG fit?
+□ Ngẫm thêm: "Không có schema âm" — có edge case nào phản bác?
+□ Ngẫm thêm: Schema Diagnostic 5 bước — test trên người thật?
 
 → v8 = "production ready" — draft v7 hiện tại = "research draft"
 → KHÔNG rush v8 — v7 draft CẦN test trước
+→ Nhiều insights MỚI từ sessions gần đây — cần ngẫm + verify trước khi commit v8
 ```
 
 ---
@@ -128,20 +211,22 @@ Human-Predictive-Drive/
 ├── Research/
 │   ├── Core Theory/
 │   │   ├── Schema-Drive-Hypothesis.md   ← Giả thiết gốc + evidence
-│   │   ├── Schema-Atlas.md              ← Schema axes + body baseline
+│   │   ├── Schema-Atlas.md              ← Schema axes + gradient + body baseline + 6 nhóm gốc
 │   │   ├── Modality-Analysis.md         ← 5 Experience + 1 Communication
 │   │   ├── PFC-Analysis.md              ← Workspace + Brake + Translator
 │   │   ├── Imagination-Analysis.md      ← Tưởng tượng + chain direction
 │   │   ├── Emotion-Map.md               ← Cảm xúc map
-│   │   └── Threshold-Analysis.md        ← Threshold decompose
+│   │   ├── Threshold-Analysis.md        ← Threshold = f(Pressure, Challenge) + Calibrate
+│   │   ├── Layer1-Channels.md           ← 10 sub-channels (5 Experience + 5 Connection) [MỚI]
+│   │   └── Schema-Diagnostic.md         ← 5 bước diagnostic + calibrate [MỚI]
 │   ├── Applications/
-│   │   ├── Body-Needs.md                ← 6 nhóm nhu cầu
+│   │   ├── Body-Needs.md                ← 6 nhóm nhu cầu + 5 loại chán + chiều giảm
 │   │   ├── Body-Needs-ByAge.md          ← Theo độ tuổi
-│   │   ├── Drive-Optimization.md        ← Tối ưu drive bền vững
+│   │   ├── Drive-Optimization.md        ← Tối ưu drive + 3 Layers (P+C+A) + endpoint
 │   │   ├── Addiction-Analysis.md         ← Cơ chế nghiện
 │   │   ├── Schema-Drive-Parenting.md    ← Phát triển trẻ em
 │   │   ├── Hidden-Genius.md             ← Tiềm năng ẩn
-│   │   └── Industry-Serve-BodyNeeds.md  ← Phân tích ngành nghề
+│   │   └── Industry-Serve-BodyNeeds.md  ← Phân tích ngành nghề + template 6 hướng
 │   ├── Meta/
 │   │   ├── Epistemological-Position.md
 │   │   ├── Creator-Lens.md

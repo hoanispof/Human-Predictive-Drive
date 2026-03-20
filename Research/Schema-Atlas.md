@@ -911,7 +911,336 @@ QUY TRÌNH TỔNG HỢP — DIAGNOSTIC BODY BASELINE:
 
 ---
 
-## 6. Câu Hỏi Mở
+## 6. Schema Gốc — Gom Theo 6 Nhóm Body-Needs
+
+> Schema muôn hình vạn trạng → KHÔNG liệt kê hết NỘI DUNG được.
+> NHƯNG: mọi schema đều PHỤC VỤ body-needs → gom theo CHỨC NĂNG (6 nhóm) → ĐƯỢC.
+> = Vô hạn BIẾN THỂ, hữu hạn NHÓM.
+
+### 6.1 Tại Sao Gom Được?
+
+```
+Schema sâu = phục vụ BODY-NEED cụ thể
+Body-needs = HỮU HẠN (6 nhóm)
+→ Schema sâu PHẢI nằm trong 1/6 nhóm (vì phải serve 1/6 body-needs)
+→ GOM ĐƯỢC vì: body-needs hữu hạn → schemas hữu hạn NHÓM
+
+Giống: vô hạn loại xe → nhưng TẤT CẢ đều cần động cơ + bánh + ghế + vô lăng
+→ Gom xe theo CHỨC NĂNG → được (4 loại)
+→ Gom xe theo THIẾT KẾ → vô hạn → không được
+
+→ Gom schema theo BODY-NEED nó serve → ĐƯỢC (6 nhóm)
+→ Gom schema theo NỘI DUNG cụ thể → KHÔNG ĐƯỢC (vô hạn)
+→ = Framework gom theo FUNCTION (phục vụ gì) không phải FORM (nội dung gì)
+
+⚠️ QUAN TRỌNG: cùng label "sợ chết" → KHÁC nhóm tùy người:
+  Người A "sợ chết" = sợ MẤT NGƯỜI THÂN → Nhóm 2 (Connection)
+  Người B "sợ chết" = sợ ĐAU khi chết → Nhóm 1 (Survival)
+  Người C "sợ chết" = sợ CHƯA LÀM GÌ ĐÓ → Nhóm 5 (Meaning)
+  → Cùng từ → KHÁC body-need → KHÁC nhóm → KHÁC treatment
+  → → PHẢI hỏi "sợ gì CỤ THỂ?" → mới biết NHÓM nào
+```
+
+### 6.2 Sáu Nhóm Schema Gốc
+
+```
+NHÓM 1 — SCHEMAS SURVIVAL (Body Basics):
+  Serve: body CẦN tồn tại, an toàn, sức khỏe, tài nguyên
+
+  Ví dụ schemas trong nhóm:
+    "Sợ chết/bệnh/đau"      → TRÁNH mối đe dọa thể chất
+    "Cần tiền/nhà/ăn"        → TÌM tài nguyên sinh tồn
+    "Sợ nghèo"               → TRÁNH mất tài nguyên
+    "Cần an toàn"             → TÌM môi trường không nguy hiểm
+
+  Đặc điểm:
+    → MẠNH NHẤT khi thiếu (đói/bệnh/nghèo → override mọi nhóm khác)
+    → BACKGROUND khi đủ (có tiền + khỏe → ít active)
+    → Hardware gốc: Amygdala (threat), Hypothalamus (homeostasis)
+
+  Khi QUÁ MẠNH: anxiety mãn tính dù ĐÃ an toàn, tích trữ quá mức
+
+NHÓM 2 — SCHEMAS CONNECTION (Gắn bó):
+  Serve: body CẦN kết nối, thuộc về, được hiểu, được yêu
+
+  Ví dụ schemas trong nhóm:
+    "Sợ bị bỏ rơi"           → TRÁNH mất connection
+    "Cần được yêu/hiểu"      → TÌM intimate connection
+    "Sợ phản bội"             → FILTER trust (bảo vệ connection)
+    "Cần thuộc về nhóm"       → TÌM belonging
+    "Sợ cô đơn"              → TRÁNH isolation
+    "Sợ bị lãng quên"        → TÌM legacy connection
+
+  Đặc điểm:
+    → Attachment theory MAP ở đây: secure/anxious/avoidant = KHÁC schemas nhóm này
+    → Oxytocin-driven: thiếu = body LITERAL pain (cùng circuits physical pain)
+    → Formed SỚM NHẤT (0-2 tuổi): sâu nhất, khó sửa nhất
+    → Hardware gốc: Oxytocin system, Insula, Mirror neurons
+
+  Khi QUÁ MẠNH: phụ thuộc, clingy, không thể 1 mình
+
+  So sánh Young: ≈ Nhóm 1 Young (Disconnection/Rejection) ✅
+
+NHÓM 3 — SCHEMAS EXPERIENCE (Cảm nhận):
+  Serve: body CẦN khoái cảm, vẻ đẹp, mastery, thưởng thức
+
+  Ví dụ schemas trong nhóm:
+    "Muốn ăn ngon"           → TÌM taste pleasure
+    "Muốn đẹp"               → TÌM aesthetic pleasure
+    "Muốn giỏi"              → TÌM mastery pleasure
+    "Sợ nhàm chán"           → TRÁNH no-stimulation
+    "Cần thoải mái"          → TÌM comfort
+    "Muốn khám phá"          → TÌM sensory novelty
+
+  Đặc điểm:
+    → Opioid-driven: body reward trực tiếp (taste, beauty, mastery feel)
+    → Threshold QUAN TRỌNG: cao = cần nhiều, thấp = dễ thỏa mãn
+    → Nhiều "nghiện" thuộc nhóm này (nghiện ăn, nghiện game, nghiện shopping)
+
+  Khi QUÁ MẠNH: hedonism, threshold leo thang, nghiện stimulation
+
+  ⚠️ Young gần MISS nhóm này hoàn toàn (Young chỉ focus "maladaptive" → miss schemas DƯƠNG)
+
+NHÓM 4 — SCHEMAS PROGRESS (Phát triển):
+  Serve: body CẦN phát triển, thăng tiến, vị thế, cạnh tranh
+
+  Ví dụ schemas trong nhóm:
+    "Sợ thất bại"            → TRÁNH mất position
+    "Cần thành công"         → TÌM achievement
+    "Sợ tụt hậu"             → COMPARE + chase
+    "Cần được công nhận"     → TÌM validation
+    "Phải giỏi hơn mọi người" → COMPETE
+    "Sợ vô dụng"             → TRÁNH no-contribution
+
+  Đặc điểm:
+    → Dopamine + Serotonin driven: novelty (dopamine) + status (serotonin)
+    → DOMINANT NHẤT ở 18-40 tuổi → giảm tự nhiên sau
+    → Amplifier Trap thường ở nhóm này: chase mãi không dừng
+    → Hardware gốc: VTA-Striatum (reward), mPFC (social comparison)
+
+  Khi QUÁ MẠNH: workaholic, burnout, never enough, status obsession
+
+  So sánh Young: ≈ phần Failure (Nhóm 2) + Unrelenting Standards (Nhóm 5)
+
+NHÓM 5 — SCHEMAS MEANING (Ý nghĩa):
+  Serve: body CẦN ý nghĩa, mục đích, bản sắc, trật tự vũ trụ
+
+  Ví dụ schemas trong nhóm:
+    "Sống phải có ý nghĩa"  → TÌM purpose
+    "Tôi là ai?"             → BUILD identity
+    "Thế giới phải hợp lý"  → TÌM coherence
+    "Phải công bằng"         → EXPECT justice
+    "Sợ vô nghĩa"           → TRÁNH nihilism
+    "Tôi có giá trị"        → PROTECT self-worth
+    "Để lại di sản"          → BUILD legacy
+
+  Đặc điểm:
+    → Schema TĂNG theo tuổi (gần zero trẻ con → peak về già)
+    → Crisis NÀY = existential crisis (quarter-life, mid-life)
+    → L5 core beliefs THUỘC nhóm này (identity, worldview)
+    → Framework builder (bạn): schema nhóm này CỰC MẠNH
+
+  Khi QUÁ MẠNH: mọi thứ phải meaningful → không enjoy simple pleasures
+
+  ⚠️ Young gần MISS nhóm này → thiếu lớn nhất của Young's 18 schemas
+
+NHÓM 6 — SCHEMAS REGULATION (Cân bằng):
+  Serve: body CẦN kiểm soát, dự đoán, trật tự, kỷ luật
+
+  Ví dụ schemas trong nhóm:
+    "Phải kiểm soát mọi thứ" → CONTROL environment
+    "Sợ hỗn loạn"            → TRÁNH unpredictability
+    "Phải hoàn hảo"          → PREVENT errors
+    "Phải đúng luật"         → FOLLOW rules
+    "Cần kỷ luật"            → ENFORCE self-discipline
+    "Sợ mất kiểm soát"      → PROTECT agency
+
+  Đặc điểm:
+    → PFC-driven: PFC = regulation organ → schemas nhóm này = PFC EXPRESSION
+    → OCD nằm ở đây: regulation schemas HYPERACTIVE
+    → Perfectionism nằm ở đây: "no error" schema CỰC MẠNH
+
+  Khi QUÁ MẠNH: over-control, OCD, paralysis by analysis
+
+  So sánh Young: ≈ Nhóm 5 Young (Overvigilance/Inhibition) ✅
+```
+
+### 6.3 So Sánh với Young (1990s)
+
+```
+Young: 18 schemas CỐ ĐỊNH, 5 nhóm, CHỈ "maladaptive" (âm)
+Framework: VÔ HẠN biến thể, 6 nhóm body-needs, CẢ dương LẪN âm
+
+                        Young 5 nhóm                    Framework 6 nhóm
+─────────────────────────────────────────────────────────────────────────
+Connection schemas      ✅ Nhóm 1 (Disconnection)       ✅ Nhóm 2 ✅
+Survival schemas        ◐ Nhóm 2 (partial)              ✅ Nhóm 1 ✅
+Experience schemas      ❌ GẦN NHƯ MISS                  ✅ Nhóm 3 ✅
+Progress schemas        ◐ Rải rác (Failure, Standards)   ✅ Nhóm 4 ✅
+Meaning schemas         ❌ GẦN NHƯ MISS                  ✅ Nhóm 5 ✅
+Regulation schemas      ✅ Nhóm 5 (Overvigilance)        ✅ Nhóm 6 ✅
+Schemas DƯƠNG           ❌ KHÔNG CÓ                      ✅ CÓ ✅
+Body-level schemas      ❌ Chỉ cognitive                 ✅ CÓ ✅
+
+→ Young MISS 2 nhóm lớn (Experience + Meaning) + toàn bộ schemas dương
+→ Framework cover TẤT CẢ vì gốc = body-needs (không phải "bệnh")
+→ Young hữu ích cho THERAPY (focus bệnh) → Framework hữu ích cho TOÀN BỘ CUỘC SỐNG
+```
+
+### 6.4 Từ Hành Vi → Ước Lượng Nhóm Schema
+
+```
+HÀNH VI quan sát được → POINTER tới nhóm → dig deeper xác định schema cụ thể:
+
+Hành vi: "luôn kiểm tra khóa cửa 3 lần"
+  → Nhóm 1 (Survival)? → "sợ trộm → sợ mất tài sản → survival"
+  → Nhóm 6 (Regulation)? → "sợ mất kiểm soát → phải chắc chắn"
+  → Cách phân biệt: "sợ gì cụ thể khi không khóa?"
+    "Sợ mất đồ" → Nhóm 1 ✅
+    "Sợ không chắc chắn" → Nhóm 6 ✅
+  → CÙNG hành vi → KHÁC nhóm → KHÁC gốc
+
+Hành vi: "luôn làm việc 12 tiếng"
+  → Nhóm 1? → "sợ nghèo → cần tiền → survival"
+  → Nhóm 4? → "phải thành công → cần status → progress"
+  → Nhóm 5? → "không biết làm gì khác → work = identity → meaning"
+  → Nhóm 6? → "phải productive → self-regulation"
+  → Cách phân biệt: "nếu ĐÃ ĐỦ tiền, VẪN làm 12h?"
+    "Không, nghỉ ngay" → Nhóm 1 (survival, tiền đủ = dừng) ✅
+    "Vẫn làm" → Nhóm 4 hoặc 5 hoặc 6 ✅ → hỏi tiếp
+
+QUY TRÌNH:
+  Bước 1: Quan sát hành vi LẶP LẠI (pattern)
+  Bước 2: Hỏi/suy: "phục vụ body-need NÀO?" → narrow xuống 1-2 nhóm
+  Bước 3: Hỏi deeper: "nếu body-need đã ĐỦ, VẪN làm?" → xác định nhóm CHÍNH XÁC
+  Bước 4: Trong nhóm: schema CỤ THỂ = GÌ? (cần thời gian + trust + exploration)
+
+→ Framework cho: CÁCH narrow down (6 nhóm) + HƯỚNG dig (body-need nào)
+→ Framework KHÔNG cho: schema CHÍNH XÁC (mỗi người khác → tự explore)
+→ = Compass (hướng) không phải GPS (chính xác)
+```
+
+---
+
+### 6.5 Schema = Gradient Body → Domain
+
+> Schema KHÔNG phải "danh sách" hay "layers cứng".
+> Schema = PHỔ GRADIENT liên tục từ body-need (sâu) đến domain skill (nông).
+> 2 CỰC gom được. GIỮA = muôn hình vạn trạng → không gom.
+
+```
+KIẾN TRÚC GRADIENT:
+
+  CỰC SÂU (gom theo body-need — 6 nhóm):
+    = "Tôi CẦN gì?" → body-level → hardware embedded
+    → Thay đổi: cực chậm (năm → thập kỷ)
+    → Survival · Connection · Experience · Progress · Meaning · Regulation
+
+  GIỮA (gradient — muôn hình vạn trạng, KHÔNG GOM):
+    = "Body-need được thực hiện BẰNG CÁCH NÀO?"
+    → Interpretation → Rules → Strategies → Habits
+    → Mỗi người KHÁC → mỗi context KHÁC → vô hạn variant
+    → Thay đổi: vừa (tháng → năm, therapy + experience)
+
+  CỰC NÔNG (gom theo domain — per domain):
+    = "Trong domain NÀY làm gì cụ thể?"
+    → Domain skills, knowledge, context reactions
+    → Thay đổi: nhanh (ngày → tuần, learn + practice)
+
+  TOÀN BỘ:
+    Body-need (sâu) ←―[gradient functions]―→ Domain skill (nông)
+    6 nhóm          ←―muôn hình vạn trạng―→ per domain
+    chậm đổi        ←――――――――――――――――――――→ nhanh đổi
+    gom được         ←―――KHÔNG gom được――――→ gom per domain
+```
+
+```
+GRADIENT CHI TIẾT — 7 bước từ body → action:
+
+  Bước 1: BODY-NEED      "Tôi CẦN gì?"           (body-level, hardware)
+  Bước 2: INTERPRETATION  "VÌ SAO cần?"            (tại sao body-need này)
+  Bước 3: RULE            "LÀM THẾ NÀO đáp ứng?"  (quy tắc thực hiện)
+  Bước 4: STRATEGY        "CÁCH NÀO hiệu quả?"    (chiến lược cụ thể)
+  Bước 5: HABIT           "LÚC NÀO? ĐỀU ĐẶN?"    (thói quen auto)
+  Bước 6: DOMAIN SKILL    "TRONG domain NÀY?"      (kỹ năng domain)
+  Bước 7: ACTION          "NGAY BÂY GIỜ làm gì?"  (hành vi cụ thể nhất)
+
+  Bước 1-2: CỰC SÂU → gom theo body-need ✅
+  Bước 3-5: GIỮA → muôn hình → không gom
+  Bước 6-7: CỰC NÔNG → gom theo domain ✅
+
+  ⚠️ 7 bước = ước lượng, có thể 5 hoặc 9 tùy trace
+  ⚠️ Schema COMPILED: bước 1-6 invisible → chỉ thấy bước 7 (auto)
+  ⚠️ Schema MỚI: tất cả 7 bước visible (PFC manage từng bước)
+```
+
+```
+TRACE KIỂM CHỨNG:
+
+TRACE 1: "Sợ bị bỏ rơi" (Nhóm 2 Connection)
+  1. Body-need:      "cần người" (oxytocin deficit → cortisol khi alone)
+  2. Interpretation:  "nếu tôi không đủ tốt → người ta bỏ"
+  3. Rule:            "phải làm hài lòng mọi người"
+  4. Strategy:        "tránh conflict, đồng ý mọi thứ"
+  5. Habit:           "kiểm tra phone liên tục (partner reply chưa?)"
+  6. Domain skill:    Relationship: "nhắn 3 lần/ngày". Work: "đồng ý sếp mọi thứ"
+  7. Action:          "nấu phở tối nay cho partner" / "nói 'vâng' với sếp"
+
+  → 7 bước ✅ → CỰC SÂU rõ → CỰC NÔNG rõ → GIỮA muôn hình ✅
+
+TRACE 2: "Cần mastery" (Nhóm 3 Experience)
+  1. Body-need:      "sướng khi giỏi" (opioid từ mastery)
+  2. Interpretation:  "giỏi = có giá trị"
+  3. Rule:            "phải giỏi nhất, không trung bình"
+  4. Strategy:        "so sánh + benchmark với người giỏi"
+  5. Habit:           "luyện tập mỗi tối 2 tiếng"
+  6. Domain skill:    Coding: "refactor clean". Game: "replay boss 50 lần"
+  7. Action:          "refactor function X tối nay"
+
+  → 7 bước ✅ → CÙNG structure, KHÁC content ✅
+
+TRACE 3: "Thế giới phải hợp lý" (Nhóm 5 Meaning)
+  1. Body-need:      "sướng khi coherent" (opioid coherence + ACC detect conflict)
+  2. Interpretation:  "mâu thuẫn = solvable, phải có lý do"
+  3. Rule:            "phải hiểu TẠI SAO, không chỉ BIẾT"
+  4. Strategy:        "hỏi liên tục cho đến khi đồng bộ"
+  5. Habit:           "mỗi ngày hỏi AI 1 chút"
+  6. Domain skill:    Framework: "map concept vào kiến trúc"
+  7. Action:          "hỏi về schema gradient hôm nay"
+
+  → 7 bước ✅ → trace NÀY = CHÍNH XÁC tác giả framework ✅
+
+TRACE 4: "Đèn đỏ dừng" (Nhóm 1 Survival — COMPILED, đơn giản)
+  1. Body-need:      "cần sống" (survival)
+  2. Interpretation:  "xe đâm = chết"
+  3. Rule:            "tuân tín hiệu giao thông"
+  4. Strategy:        "nhìn đèn trước khi qua đường"
+  5. Habit:           "tự động nhìn đèn" (BG compiled)
+  6. Domain skill:    Traffic: "đèn đỏ = dừng"
+  7. Action:          "dừng xe ngay"
+
+  → 7 bước ✅ → dù COMPILED (bước 1-6 invisible, chỉ thấy bước 7)
+
+→ 4/4 traces ĐỀU fit gradient 7 bước ✅
+→ PATTERN ROBUST: body-need → gradient → domain → action
+```
+
+```
+SCHEMA = HỆ THỐNG FUNCTION LINH HOẠT ĐỂ BODY GIAO TIẾP VỚI DOMAIN
+
+  → Schema KHÔNG phải "data trong não" (quá static)
+  → Schema = LIVING FUNCTIONS: tự update, multi-modal, body-embedded
+  → MỌI schema-drive PHỤC VỤ body-needs (confirm 100%)
+  → Gradient từ body → domain = cách body REACH vào thế giới thực
+  → Fix hiệu quả nhất: càng SÂU càng tốt (nhưng càng KHÓ)
+    Fix nông (skill): nhanh, dễ, chỉ fix TRONG 1 domain
+    Fix giữa (rule): vừa, tất cả domains TỰ adjust
+    Fix sâu (body-need): khó, nhưng MỌI THỨ tự adjust
+```
+
+---
+
+## 7. Câu Hỏi Mở
 
 ```
 S1: Có bao nhiêu "universal" schemas (gần ĐÚNG cho MỌI NGƯỜI)?

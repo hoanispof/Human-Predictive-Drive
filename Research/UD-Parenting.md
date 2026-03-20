@@ -886,7 +886,196 @@ Trường học hiện tại (phổ biến) = UD MISMATCH cho nhiều trẻ:
 
 ---
 
-## 8. Câu Hỏi Mở
+## 8. Học Tập Qua Lens Schema-Drive
+
+> Nguyên lý gốc: SƯỚNG KHI HỌC không đến từ THÔNG TIN → đến từ THÔNG TIN GHÉP VÀO SCHEMA ĐANG CHỜ.
+> Thông tin tự thân = trung tính. Body chỉ reward khi info serve schema active.
+
+### 8.1 Nguyên Lý: Info + Schema Chờ = Reward
+
+```
+THÔNG TIN EXTERNAL = ZERO reward tự thân:
+
+  "Nước sôi ở 100°C" → vào não → body respond: KHÔNG GÌ
+  → Vì: thông tin này CHƯA connect schema nào đang active
+  → Data vào nhưng KHÔNG AI cần → body im lặng → MỆT (cost mà no reward)
+
+  NHƯNG NẾU đang TÒ MÒ "tại sao nồi sôi?":
+  → Schema "muốn hiểu" ĐANG ACTIVE → "100°C!" connect → desire FULFILLED
+  → Body: opioid! "À HA!" → SƯỚNG
+  → = Cùng thông tin → CÓ schema chờ = sướng → KHÔNG có schema chờ = mệt
+
+CÔNG THỨC:
+  Learning Reward = f(schema_importance × match_degree × surprise_bonus)
+
+  schema_importance: schema đó SÂU + ACTIVE cỡ nào → YẾU TỐ QUAN TRỌNG NHẤT
+  match_degree:      info match schema bao nhiêu % (partial → full)
+  surprise_bonus:    PFC chưa predict info này → thêm novelty dopamine
+
+  → Không có schema chờ → importance = 0 → reward = 0 → DÙ info hay cỡ nào
+  → Schema sâu + match cao + bất ngờ = EUREKA (mạnh nhất)
+  → Schema nhẹ + match vừa + expected = "à ok" (nhẹ)
+```
+
+### 8.2 Ứng Dụng: Giáo Dục Tối Ưu vs Hiện Tại
+
+```
+GIÁO DỤC TỐI ƯU (đúng quy trình Schema-Drive):
+
+  Bước 1: TẠO SCHEMA CHỜ (desire/tò mò) TRƯỚC
+    → "Tại sao bầu trời xanh?" → trẻ TÒ MÒ (schema "muốn biết" ACTIVE)
+    → "Hãy tưởng tượng nếu chúng ta bay được?" → trẻ MUỐN biết (desire)
+    → "Nhìn cái này — lạ không?" → trẻ ACC fire "ủa?" (conflict detect)
+    → = TẠO desire TRƯỚC → brain SẴN SÀNG nhận info
+
+  Bước 2: CUNG CẤP INFO phù hợp schema đang chờ
+    → "Bầu trời xanh VÌ..." → info CONNECT schema tò mò → SƯỚNG
+    → "Để bay, người ta phải..." → info FULFILL desire → SƯỚNG
+    → = Info = ANSWER cho câu hỏi đã có → body reward → NHỚ
+
+  Bước 3: MỞ RỘNG — tạo schema chờ MỚI từ info vừa có
+    → "Vậy tại sao hoàng hôn lại ĐỎ?" → schema MỚI → loop tiếp
+    → = Mỗi answer → tạo question MỚI → desire MỚI → learn tiếp
+
+  → = "Gây tò mò → dạy → gây tò mò tiếp" = NATURAL LOOP
+  → = Đúng cách NÃO HOẠT ĐỘNG: desire → seek → fulfill → desire mới
+
+GIÁO DỤC HIỆN TẠI (ngược quy trình):
+
+  Bước 1: CHO INFO TRƯỚC (chưa có schema chờ)
+    → "Bầu trời xanh vì tán xạ Rayleigh" → trẻ: "...hả?" → no schema chờ → MỆT
+    → "Mở sách trang 47, đọc định nghĩa" → trẻ: body KHÔNG respond → CHÁN
+
+  Bước 2: HY VỌNG schema tự hình thành
+    → "Sau khi đọc xong sẽ hiểu" → CÓ THỂ → nhưng cost CAO
+    → Trẻ phải TỰ TẠO schema chờ TRONG KHI nạp → double effort
+    → Một số trẻ LÀM ĐƯỢC (verbal dominant → nạp nhẹ → auto-connect)
+    → Đa số: MỆT → chán → "ghét học"
+
+  Bước 3: THI → ÉP nhớ
+    → Không sướng khi học → nhưng PHẢI nhớ cho thi → rote memorize
+    → Body: cortisol (sợ thi) → encode qua CORTISOL không phải OPIOID
+    → = "Nhớ vì SỢ" thay vì "nhớ vì SƯỚNG"
+    → Thi xong → cortisol giảm → info MẤT (vì chỉ encode qua cortisol, không qua opioid)
+    → → Tại sao "học xong quên hết" = encode SAI modality (sợ thay vì hiểu)
+
+  → = "Cho câu trả lời trước, hy vọng có câu hỏi sau"
+  → = NGƯỢC quy trình tự nhiên → phần lớn: mệt, chán, "học để làm gì?"
+```
+
+### 8.3 Ép Học Bằng Hình Phạt — "Schema Chờ Tiêu Cực"
+
+```
+⚠️ ĐẶC BIỆT PHỔ BIẾN ở Châu Á — và CÓ HIỆU QUẢ ngắn hạn, nhưng HẠI dài hạn.
+
+CƠ CHẾ:
+  Bố mẹ TẠO schema chờ → nhưng bằng HÌNH PHẠT thay vì TÒ MÒ:
+
+  Thay vì: "Tại sao bầu trời xanh?" → tò mò → desire → learn → sướng
+  Là: "Không học giỏi → bị đánh / bị phạt / không được yêu thương"
+  → Schema chờ HÌNH THÀNH: "PHẢI biết info này → TRÁNH bị hại body"
+  → = Desire TIÊU CỰC: không phải "muốn BIẾT" → mà "muốn TRÁNH ĐAU"
+
+  Khi nạp info:
+    → Info → connect schema "tránh bị phạt" → cortisol GIẢM (relief) → "sướng" nhẹ
+    → NHƯNG: "sướng" này = RELIEF (bớt đau) → KHÔNG phải REWARD (body sướng thật)
+    → = Painkiller ≠ Pleasure. Hết đau ≠ Hạnh phúc.
+
+TẠI SAO "CÓ HIỆU QUẢ" NGẮN HẠN:
+  → Trẻ HỌC THẬT (vì sợ) → điểm CAO → bố mẹ: "thấy chưa, ép đúng rồi!"
+  → Behavior OUTPUT = giống trẻ thích học → nhưng GỐC khác hoàn toàn:
+    Trẻ thích học: desire(+) → seek → fulfill → opioid → NHỚ VÌ SƯỚNG
+    Trẻ bị ép:    desire(−, tránh phạt) → comply → relief → KHÔNG CÓ opioid → NHỚ VÌ SỢ
+  → Điểm số GIỐNG → cơ chế KHÁC → hậu quả KHÁC
+
+HẬU QUẢ DÀI HẠN:
+
+  1. "Học = đau" schema hình thành:
+     → Mỗi lần mở sách → body: cortisol (liên tưởng bị phạt)
+     → Dù bố mẹ KHÔNG CÒN ép → schema ĐÃ installed → body VẪN respond
+     → Trưởng thành: "ghét học" dù KHÔNG AI ÉP nữa → vì body VẪN đau khi học
+     → = Schema outdated nhưng VẪN active (body baseline đã embed)
+
+  2. Extrinsic thay Intrinsic motivation:
+     → "Học VÌ phần thưởng bên ngoài (tránh phạt, được khen)"
+     → KHÔNG phải "học VÌ tò mò bên trong (desire, opioid)"
+     → Khi bỏ phần thưởng/hình phạt → DỪNG HỌC (không còn motivation)
+     → Trưởng thành: KHÔNG TỰ HỌC được (chỉ học khi BỊ ÉP)
+     → = Dependent on external pressure mãi mãi
+
+  3. "Giỏi nhưng không vui":
+     → Điểm cao → trường tốt → công việc tốt → NHƯNG:
+     → Body CHƯA BAO GIỜ sướng vì HỌC → schema "thành tích = relief, không phải joy"
+     → Trưởng thành: thành công → "sao tôi vẫn không vui?"
+     → Vì: MỌI thành tích = relief (bớt lo) → KHÔNG có opioid (sướng thật)
+     → = Achiever burnout GỐC từ childhood: drive bằng SỢ, không bằng MUỐN
+
+  4. Relationship damage:
+     → "Bố mẹ yêu tôi KHI tôi học giỏi" = conditional love schema
+     → L5: "giá trị tôi = thành tích" → dừng thành tích = mất giá trị
+     → Connection với bố mẹ = CONDITIONAL → trust damage
+     → → Chi tiết: xem §6.1 Case 1 (Tiger Parenting)
+
+SO SÁNH 3 PHƯƠNG PHÁP:
+
+  PHƯƠNG PHÁP       │ CƠ CHẾ                │ NGẮN HẠN  │ DÀI HẠN
+  ══════════════════╪════════════════════════╪═══════════╪═══════════
+  Tạo tò mò trước  │ Schema(+) → info →     │ Vừa       │ TỐT NHẤT
+  rồi dạy          │ opioid (sướng thật)    │ (chậm hơn)│ (tự học, yêu học)
+  ──────────────────┼────────────────────────┼───────────┼───────────
+  Ép bằng hình phạt│ Schema(−) → info →     │ CAO       │ TỆ NHẤT
+                    │ relief (hết đau)       │ (nhanh)   │ (ghét học, burnout)
+  ──────────────────┼────────────────────────┼───────────┼───────────
+  Cho info tự do    │ Không schema → info →  │ THẤP      │ TRUNG BÌNH
+  (không ép, ko tạo │ random connect         │ (chậm     │ (tự khám phá,
+  tò mò)            │                        │  nhất)    │  thiếu direction)
+  ──────────────────┴────────────────────────┴───────────┴───────────
+
+  → TỐI ƯU = Phương pháp 1: tốn thời gian hơn → nhưng output BỀN VỮNG nhất
+  → Phương pháp 2 TRÔNG nhanh → nhưng trả giá DÀI HẠN cực đắt
+  → Phương pháp 3 nhẹ nhàng → nhưng thiếu direction → tùy trẻ (improviser ok, others lost)
+```
+
+### 8.4 Ứng Dụng Thực Tế — Dạy Con/Dạy Người
+
+```
+QUY TẮC ĐƠN GIẢN:
+
+  1. TẠO CÂU HỎI trước khi cho CÂU TRẢ LỜI:
+     ❌ "Hôm nay học về quang hợp. Quang hợp là..."
+     ✅ "Tại sao lá cây xanh? Các con nghĩ tại sao? ... OK, nghe này..."
+     → 30 giây tạo tò mò → 30 phút learn HIỆU QUẢ
+
+  2. LIÊN KẾT info mới với CÁI TRẺ ĐÃ BIẾT + ĐÃ QUAN TÂM:
+     ❌ "Hôm nay học phân số" (trẻ: "phân số là gì? ai cần?")
+     ✅ "Nếu có 1 chiếc pizza, chia cho 4 bạn, mỗi bạn được bao nhiêu?"
+     → Pizza = schema ĐÃ CÓ + ĐÃ CARE → info mới ATTACH vào schema có sẵn
+
+  3. CHO PHÉP thất bại TRƯỚC khi cho đáp án:
+     ❌ "Đáp án là 7. Nhớ nhé."
+     ✅ "Thử đi. ... Sai rồi? Tại sao sai? Thử lại? ... ĐÚNG RỒI!"
+     → Thử → fail → schema chờ "đáp án đúng" HÌNH THÀNH
+     → Đáp án → fulfill → SƯỚNG (opioid mastery)
+     → = "Đánh vật" trước → "À HA!" sau → NHỚ MÃI
+
+  4. KHÔNG dùng hình phạt để TẠO schema chờ:
+     ❌ "Không thuộc bài = bị đánh" → schema: "học = tránh đau"
+     ✅ "Thuộc bài rồi → cùng chơi game/đi chơi" → schema: "học = ĐƯỢC phần thưởng"
+     → VẪN external motivation → nhưng DƯƠNG (towards) thay vì ÂM (away from)
+     → Tốt nhất: dần chuyển sang intrinsic (tò mò tự nhiên)
+
+  5. MATCH modality profile CỦA TRẺ:
+     → Trẻ visual: dạy bằng HÌNH
+     → Trẻ motor: dạy bằng LÀM (lab, thí nghiệm, thực hành)
+     → Trẻ somatic: dạy bằng TRẢI NGHIỆM (field trip, cảm nhận)
+     → Trẻ auditory: dạy bằng NGHE (kể chuyện, thảo luận)
+     → Trẻ verbal: dạy bằng ĐỌC/VIẾT (phổ biến nhất, school default)
+     → ⚠️ School MẶC ĐỊNH verbal → miss 60-70% trẻ KHÔNG verbal dominant
+```
+
+---
+
+## 9. Câu Hỏi Mở
 
 ```
 Q1: UD calibration có CRITICAL PERIOD không?

@@ -29,13 +29,18 @@ MỚI: Threshold = COMPOSITE — pha trộn hardware + schema
 ### 2.1 Threshold_hardware — Sàn sinh học
 
 ```
-= D2 receptor density + dopamine system sensitivity
-= Genetic + developmental (dinh dưỡng, stress thai kỳ, tuổi)
+= Tổng hợp NHIỀU hardware factors:
+  D2 receptor density + dopamine system sensitivity
+  + Prolactin receptor sensitivity + dopamine-prolactin balance
+  + Genetic + developmental (dinh dưỡng, stress thai kỳ, tuổi)
 = TƯƠNG ĐỐI CỐ ĐỊNH (thay đổi: năm → thập kỷ)
 
 Đặc điểm:
   - Set FLOOR (mức tối thiểu, không thể giảm dưới bằng therapy)
   - Khác nhau giữa người: DRD4 7-repeat → hardware threshold CAO bẩm sinh
+  - Prolactin influence: prolactin receptor nhạy → dễ "đủ" → threshold EFFECTIVELY thấp hơn
+                         prolactin receptor kém → khó "đủ" → threshold EFFECTIVELY cao hơn
+                         Dopamine CAO suppress prolactin → khó "đủ" → threshold tăng thêm
   - Thay đổi CHẬM: dopamine fasting → D2 upregulate (tháng-năm)
                      dopamine flooding → D2 downregulate (tuần-tháng)
   - Thay đổi theo tuổi: giảm dần (receptor density giảm tự nhiên)
@@ -119,23 +124,158 @@ Phân biệt REAL contentment vs Suppression:
 
 ## 3. Công Thức
 
+### 3.1 Công thức gốc (vẫn đúng cho TỔNG THỂ)
+
 ```
 Threshold_observed = Threshold_hardware + Schema_pressure − Schema_suppression
 
 Trong đó:
-  Threshold_hardware = D2 baseline + genetic factors     (T1, cố định ~)
+  Threshold_hardware = D2 baseline + prolactin capacity + genetic factors  (T1, cố định ~)
   Schema_pressure    = Σ(schema_âm_i × depth_i × act_i)  (T2, sửa được)
   Schema_suppression = Σ(desire_suppressed_j)             (T2, cần phát hiện)
 
 Threshold_healthy = Threshold_hardware + 0 − 0
   = Mức hardware thuần — không bị schema đẩy lên hay suppress xuống
   = "Bạn THẬT SỰ cần bao nhiêu?" — chỉ biết sau khi fix schema
+```
 
-Hướng can thiệp:
-  Giảm Schema_pressure → giảm threshold → dễ thỏa mãn hơn
-  Phát hiện Schema_suppression → unlock hidden desire → có thể tăng threshold
-    tạm thời (vì desire bị suppress giờ ACTIVE) → rồi giảm về healthy
-  Calibrate Threshold_hardware → meditation, dopamine fasting (chậm)
+### 3.2 Threshold PER DOMAIN (refinement quan trọng) 🔴
+
+```
+⚠️ Threshold KHÔNG phải 1 số CHUNG cho cả người → mà KHÁC per domain/mục tiêu:
+
+  Threshold_domain_X =
+    Hardware_baseline (DRD4, COMT → set range cho MỌI domain)
+    + Pressure_context_X (cortisol từ vấn đề THẬT trong domain X)
+    + Challenge_perceived_X (dopamine từ thấy THÚ VỊ trong domain X)
+    + Body_baseline_carry (xu hướng hormone từ HISTORY — mang theo khi switch)
+    − Suppression_X (nếu có: "mặc kệ domain này" → giảm cả P lẫn C)
+
+  Ví dụ — CÙNG 1 NGƯỜI:
+    Domain framework: Pressure(bứt rứt) + Challenge(hiểu con người) → threshold CAO → drive MẠNH
+    Domain giao tiếp: Pressure(bố mẹ ép) + Challenge(không thú vị) → threshold ÂM → avoid
+    → CÙNG hardware → KHÁC threshold per domain → vì P+C KHÁC per domain
+
+  → Threshold = STATE per (person × domain × thời điểm), KHÔNG phải TRAIT cố định
+```
+
+### 3.3 Pressure và Challenge — 2 loại drive KHÁC NHAU 🔴
+
+```
+Pressure và Challenge KHÔNG cộng/nhân đơn giản — tạo 2 LOẠI DRIVE:
+
+  PRESSURE → CORTISOL DRIVE:
+    = "Phải làm vì SỢ hậu quả"
+    → Cortisol tạo: urgency, fear, avoidance, "không làm → bị phạt/nghèo/chết"
+    → Drive CÓ nhưng: short-term, high cost, schema xung đột tích lũy
+    → = FEAR-BASED → produce compliance, KHÔNG produce creativity
+
+  CHALLENGE → DOPAMINE DRIVE:
+    = "Muốn làm vì THÍCH"
+    → Dopamine tạo: curiosity, excitement, approach, "thử xem giải được không?"
+    → Drive BỀN: long-term, low cost, schema dương tích lũy
+    → = CURIOSITY-BASED → produce creativity + sustainable growth
+
+  Threshold drive = DOMINANT của 2 cái:
+    Pressure > Challenge → cortisol lead → LÀM vì sợ → compliance, not creative
+    Challenge > Pressure → dopamine lead → LÀM vì thích → creative, sustainable
+    Pressure ≈ Challenge → CẢ HAI → MẠNH NHẤT (vừa phải vừa thích)
+
+  VÀ: Pressure TẠO CONTEXT cho Challenge:
+    → "Nghèo" (pressure) → "làm sao kiếm tiền THÔNG MINH?" (challenge emerge)
+    → Không có "nghèo" → câu hỏi "kiếm tiền thông minh" KHÔNG xuất hiện
+    → = Pressure = SEED BED → Challenge = FLOWER trong seed bed
+    → Không có seed bed → flower không mọc (thường)
+    → Có seed bed + hardware novelty drive → flower CÓ THỂ mọc
+
+  → Pressure KHÔNG harmful khi ở mức VỪA + có Challenge framing + có Autonomy
+  → Pressure harmful khi: QUÁ cao (overwhelm) HOẶC không có Challenge (pure fear)
+  → → Chi tiết: Drive-Optimization.md §9 (3 Layers: Pressure + Challenge + Autonomy)
+```
+
+### 3.4 Body Baseline Carry — Hormone mang theo khi switch domain 🔴
+
+```
+Khi switch domain → P×C thay đổi → nhưng body baseline MANG THEO:
+
+  Người PRESSURE-trained (cortisol baseline cao):
+    → Switch từ domain A sang B → cortisol VẪN CAO (body adapted)
+    → "Đi đâu cũng thấy áp lực" → vì body MANG THEO cortisol baseline
+    → VÀ: cortisol quen → threshold CỦA pressure TĂNG (cần pressure MẠNH HƠN)
+    → = "Người quen khổ → bình thường hóa khổ → cần khổ HƠN mới drive"
+
+  Người CHALLENGE-trained (dopamine seeking cao):
+    → Switch domain → VẪN TÌM challenge mới (dopamine drive mang theo)
+    → "Đi đâu cũng tìm thứ thú vị" → vì body MANG THEO novelty drive
+    → = Chouinard: leo núi → rèn sắt → business → môi trường → TẤT CẢ tìm challenge
+
+  → Body baseline carry = FILTER cách tiếp cận domain MỚI:
+    Pressure-trained → domain mới = "vấn đề gì cần SỢ?" (cortisol lens)
+    Challenge-trained → domain mới = "gì THÚ VỊ ở đây?" (dopamine lens)
+    → = CÙNG domain MỚI → 2 người tiếp cận HOÀN TOÀN KHÁC → output KHÁC
+
+  VÀ: hardware receptor ảnh hưởng baseline carry:
+    DRD4 7-repeat: dopamine receptor kém → cần MỚI liên tục → switch nhanh
+    COMT Val/Val: dopamine clear NHANH → challenge fades NHANH → switch nhanh
+    → = "Chán nhanh" = hardware + baseline carry → KHÔNG fix được hoàn toàn
+    → → Match domain phù hợp hardware > fix hardware (thích nghi > sửa chữa)
+    → Chi tiết: PFC-Analysis.md §8 (Hardware Receptor Variants)
+
+  CALIBRATE KHI SWITCH = KỸ NĂNG (train được, 4 levels):
+
+    Level 0 — Không biết: baseline TRÀN vào mọi context
+      → "Ở đâu cũng vậy" → 100% carry → CEO căng thẳng cả ở nhà
+      → Không nhận ra đang carry → không fix được
+
+    Level 1 — Biết nhưng chưa làm được: nhận ra đang carry SAI context
+      → "Biết đang căng thẳng ở nhà... nhưng không dừng được"
+      → PFC aware → body VẪN carry → awareness ≠ change (chưa)
+      → Framework awareness giúp: 0→1 (biết mình đang carry)
+
+    Level 2 — Calibrate CHỦ ĐỘNG: có routine switch giữa contexts
+      → "Trước khi về nhà: đi bộ 10 phút + thở sâu + set intention"
+      → PFC tạo transition ritual → body DẦN recalibrate → 60-70% hiệu quả
+      → Practice routine giúp: 1→2 (tạo ritual + lặp lại)
+
+    Level 3 — Calibrate TỰ ĐỘNG: body ĐÃ compiled switch
+      → Về tới nhà → body TỰ downshift (compiled qua years practice)
+      → Giống lái xe: lần đầu conscious → lần 1000 automatic
+      → Years practice giúp: 2→3 (compiled → automatic)
+
+    → Ai cũng CÓ THỂ 0→2 (biết + practice = tuần-tháng)
+    → 2→3 cần thời gian DÀI (compile = tháng-năm)
+    → Ước lượng calibrate level = predict hành vi khi switch context
+```
+
+### 3.5 Hướng can thiệp (update)
+
+```
+CÙNG mục tiêu — 4 HƯỚNG can thiệp:
+
+  1. Giảm Schema_pressure (therapy):
+     → Identify schema nào PUSH threshold lên (§2.2)
+     → Fix schema → pressure giảm → threshold TỰ GIẢM
+     → Ưu: bền vững. Nhược: chậm (tháng-năm cho schema sâu).
+
+  2. Phát hiện Schema_suppression (unlock):
+     → "Mặc kệ" có phải resign không? (§2.3, §5)
+     → Unlock → desire LỘ → threshold tạm TĂNG → rồi giảm về healthy
+     → Ưu: phát hiện vấn đề thật. Nhược: đau tạm khi unlock.
+
+  3. Tăng Challenge framing (reframe):
+     → Cùng pressure → NHÌN thành "thú vị" thay vì "đáng sợ"
+     → Cortisol drive → Dopamine drive → sustainable + creative
+     → Ưu: nhanh, actionable. Nhược: cần mentor/coach/self-awareness.
+
+  4. Match domain (design):
+     → Tìm domain mà hardware + P×C = MATCH
+     → Hardware threshold CAO → tìm domain HIGH challenge → match → thrive
+     → Hardware threshold THẤP → tìm domain LOW pressure → match → content
+     → Ưu: structural fix. Nhược: không phải lúc nào cũng switch domain được.
+
+  → CAN THIỆP TỐT NHẤT = CẢ 4 đồng thời:
+    Giảm pressure SAI (schema âm) + Unlock suppression + Reframe challenge + Match domain
+    → Threshold về HEALTHY + drive SUSTAINABLE + output CREATIVE
 ```
 
 ---
@@ -596,6 +736,27 @@ INSIGHT:
   Hạnh phúc = Threshold_observed ≤ UD fulfillment available
   → 2 cách: giảm threshold (fix schema) HOẶC tăng fulfillment (match environment)
   → Best: cả hai — fix schema + match environment
+```
+
+---
+
+### 6.5 Prolactin — Ảnh Hưởng Threshold Toàn Bộ Channels
+
+```
+Prolactin = "nút dừng" → ảnh hưởng TRỰC TIẾP threshold:
+
+  Prolactin hardware MẠNH (receptor nhạy + dopamine thấp):
+    → Dễ "đủ" → threshold EFFECTIVELY THẤP hơn
+    → = Specialist tendency: "đủ rồi, ở lại domain này"
+
+  Prolactin hardware YẾU (receptor kém + dopamine cao):
+    → Khó "đủ" → threshold EFFECTIVELY CAO hơn
+    → = Improviser tendency: "chưa đủ, tiếp tục tìm"
+
+  → Prolactin = 1 BIẾN NỮA trong Threshold composite:
+    Threshold = f(Hardware_receptor, Pressure, Challenge, Body_carry, Prolactin_capacity,...)
+    → Quá nhiều biến → chỉ ƯỚC LƯỢNG, không tính chính xác
+    → Chi tiết prolactin: Neurochemistry-v8-Draft.md §4.4
 ```
 
 ---

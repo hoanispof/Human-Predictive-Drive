@@ -1065,7 +1065,111 @@ KB4 MAP VÀO FRAMEWORK:
 
 ---
 
-## 8. Câu Hỏi Mở
+## 8. Hardware Receptor Variants — Tại Sao Chán Nhanh vs Chán Chậm
+
+> Improviser vs Specialist KHÔNG chỉ do thói quen — HARDWARE receptor/enzyme KHÁC nhau.
+> Gen set TENDENCY → training build ON TOP → nhưng hardware = floor + ceiling.
+
+```
+3 GEN CHÍNH ảnh hưởng Schema-Drive switching:
+
+① DRD4 (Dopamine Receptor D4) 🟢 proven
+   → Gen DRD4 có nhiều variant: 2-repeat, 4-repeat, 7-repeat
+   → 7-repeat: receptor KÉMHIỆU QUẢ → cùng dopamine → FEEL ÍT HƠN
+   → = Cần MORE stimulation để cùng mức reward → "chán nhanh"
+   → Tần suất 7-repeat: ~20% dân số → consistent ~15-20% improviser
+   → Research: Ebstein et al. (1996), Benjamin et al. (1996)
+
+   4-repeat (phổ biến ~60%):
+     Dopamine: đủ reward từ stimulus VỪA → ở lại lâu → specialist tendency
+   7-repeat (~20%):
+     Dopamine: cần stimulus MẠNH hơn/MỚI hơn → switch nhanh → improviser tendency
+
+② COMT (Catechol-O-Methyltransferase) 🟢 proven
+   → Enzyme phân hủy dopamine TẠI PFC (chỉ ở PFC, không toàn não)
+   → Val/Val: enzyme NHANH → dopamine ở PFC clear NHANH → PFC flexible nhưng unstable
+   → Met/Met: enzyme CHẬM → dopamine ở PFC tồn tại LÂU → PFC stable nhưng less flexible
+   → Research: Egan et al. (2001) — well-replicated
+
+   Met/Met:
+     PFC dopamine GIỮ LÂU → maintain focus → deep work dễ → specialist
+     NHƯNG: switch context KHÓ → "stuck" khi cần change
+   Val/Val:
+     PFC dopamine CLEAR NHANH → switch dễ → flexible → improviser
+     NHƯNG: maintain focus KHÓ → "nhảy" liên tục
+
+③ MAO-A (Monoamine Oxidase A) 🟢 proven
+   → Enzyme phân hủy dopamine + serotonin TOÀN NÃO
+   → LOW activity: dopamine + serotonin TỒN TẠI LÂU hơn
+   → HIGH activity: dopamine + serotonin BỊ CLEAR NHANH hơn
+   → HIGH MAO-A: dopamine spike → clear NHANH → cần spike MỚI sớm
+   → Research: Shih et al. (1999)
+
+COMBINATION → profile:
+  DRD4 7-repeat + COMT Val/Val + MAO-A high:
+    = CẦN NHIỀU stimulus + CLEAR NHANH + SWITCH DỄ
+    = Hardware improviser → chán nhanh, switch nhanh, cross-domain
+    = ~15-20% dân số
+
+  DRD4 4-repeat + COMT Met/Met + MAO-A low:
+    = ĐỦ VỚI ÍT stimulus + GIỮ LÂU + MAINTAIN TỐT
+    = Hardware specialist → chán chậm, ở lại lâu, deep domain
+    = ~60-70% dân số
+
+  Mixed variants:
+    = T-shaped, balanced, hoặc context-dependent
+    = ~15-20% dân số
+
+⚠️ CƠ CHẾ CHÍNH XÁC:
+  KHÔNG phải "hormone biến động NHANH hơn" (fluctuation speed ≈ giống nhau)
+  MÀ LÀ: receptor/enzyme XỬ LÝ hormone KHÁC nhau:
+    → Cùng dopamine release → receptor KHÁC → FEEL khác → behavior KHÁC
+    → Cùng dopamine release → enzyme KHÁC → DURATION khác → switching KHÁC
+  = Cùng input → KHÁC hardware processing → KHÁC output
+  = Giống: 2 người cùng nghe 1 bài → tai KHÁC nhạy → 1 người "hay!" 1 người "chán"
+```
+
+### 8.1 Implications cho Framework
+
+```
+1. Improviser vs Specialist = HARDWARE + TRAINING (không chỉ 1 trong 2):
+   Hardware (gen): ~50-60% contribution → set TENDENCY
+   Training (experience): ~30-40% → reinforce hoặc compensate
+   Context (environment): ~10-20% → kích thích hoặc hạn chế
+
+2. "Chán nhanh" = HARDWARE VARIANT, không phải "lỗi":
+   → 15-20% dân số DESIGNED cho explore, switch, cross-domain
+   → 60-70% DESIGNED cho maintain, deepen, specialize
+   → CẢ HAI cần thiết: explorer TÌM mới + specialist ĐÀO SÂU mới
+   → → "Chán nhanh" = feature CHO innovator, không phải bug
+
+3. School design cho MAJORITY (specialist hardware):
+   → 4-repeat + Met/Met = maintain focus dễ → school match
+   → 7-repeat + Val/Val = switch muốn → school MISMATCH
+   → → "Học kém" CÓ THỂ = hardware mismatch, không phải ability thiếu
+
+4. Matching environment = TỐI ƯU:
+   → Improviser hardware + novelty-rich environment: THRIVE
+   → Improviser hardware + routine environment: SUFFER
+   → Specialist hardware + stable environment: THRIVE
+   → Specialist hardware + chaotic environment: SUFFER
+   → → "Đúng người đúng chỗ" = MATCH hardware + environment
+
+5. Threshold liên quan TRỰC TIẾP:
+   → DRD4 7-repeat → dopamine threshold HARDWARE CAO → cần nhiều stimulation
+   → COMT Val/Val → dopamine clear nhanh → threshold RESET nhanh → cần mới nhanh
+   → = Threshold KHÔNG chỉ schema pressure → CÓ hardware component rõ ràng
+   → → Threshold-Analysis.md: "hardware baseline" = CÓ THỂ = receptor/enzyme profile
+
+6. Decay Rate liên quan:
+   → COMT Val/Val: dopamine clear nhanh → decay NHANH (opioid reward cũng shorter)
+   → MAO-A high: dopamine+serotonin clear nhanh → reward SHORTER
+   → = "Chán nhanh" = LITERALLY reward NGẮN hơn (enzyme clear nhanh hơn)
+```
+
+---
+
+## 9. Câu Hỏi Mở
 
 ```
 PFC-1: vmPFC damage → psychopathy. Có SPECTRUM không?
@@ -1095,7 +1199,7 @@ PFC-5: PFC profiles có di truyền bao nhiêu %?
 
 ---
 
-## 8. References
+## 10. References
 
 ```
 🟢 Nghiên cứu vững:

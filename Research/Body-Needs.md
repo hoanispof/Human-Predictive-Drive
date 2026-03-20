@@ -32,6 +32,14 @@ Neurochemistry map:
   Nhóm 4: Dopamine (novelty — Lớp 2) + Serotonin (status — Lớp 2)
   Nhóm 5: Schema depth (L4-L5) + opioid coherence
   Nhóm 6: PFC regulation + cortisol management (meta-need)
+
+⚠️ "Chán" có 5 LOẠI KHÁC NHAU — khác loại cần khác xử lý:
+  A: Fulfilled Done (đủ rồi, move on) → lành mạnh, không cần fix
+  B: Over-Fulfilled (body bị ép thêm) → cần DỪNG
+  C: Hijacked Empty (dopamine mà opioid=0) → cần Lớp 1 thật
+  D: Stagnant Restless (muốn nhưng không có gì mới) → cần domain mới
+  E: Suppressed (desire bị ém) → cần nhận diện
+  → Chi tiết: Core-v7-UD.md §1.1
 ```
 
 ---

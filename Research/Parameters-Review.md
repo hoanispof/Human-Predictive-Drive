@@ -18,11 +18,17 @@
   ✅ Schema Ceiling — ghi rõ emergent metric
   ✅ PFC Activation Level — ghi rõ dynamic state, không phải parameter
 
-CẦN PHÂN TÍCH SÂU:
-  🟡 ① Amplitude — có trùng Threshold không?
-  🟡 ② Precision — có trùng PFC Activation không?
-  🟡 ④ Generalization — rõ concept, mờ mechanism
-  🟡 ③ UD Decay Rate — rõ nhất nhưng cần clarify hardware vs software
+ĐÃ RESOLVED (tất cả 4 sub-parameters BỎ — xem lý do bên dưới):
+  ✅ ① Amplitude → BỎ: = emergent "Cường Độ Phản Ứng" (receptor + schema + context + body state)
+  ✅ ② Precision → BỎ: = emergent từ schema quality × conflict × PFC state
+  ✅ ③ Decay Rate → BỎ: = emergent "Tốc Độ Quen" (receptor/enzyme + modality + schema importance)
+  ✅ ④ Generalization → BỎ: = spreading activation mechanism, implicit trong schema
+
+  → Category "UD Sensitivity" / "PE Sensitivity" = HOÀN TOÀN BỎ
+  → ① và ③ vẫn GIỮ tên mới (Cường Độ Phản Ứng, Tốc Độ Quen) vì mọi người HAY HỎI
+  → Nhưng = emergent metrics, KHÔNG phải parameter đơn
+  → Hardware receptor insight (DRD4, COMT, MAO-A) giải thích GỐC → PFC-Analysis §8
+  → Chi tiết: Core-v7-UD.md §4.2 (Emergent Metrics)
 ```
 
 ---

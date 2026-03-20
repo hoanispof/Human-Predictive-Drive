@@ -194,6 +194,36 @@ HỆ QUẢ:
   Giai đoạn 2 (trung): Soldier adopt → mainstream → asymmetry GIẢM.
   Giai đoạn 3 (muộn): Equilibrium mới — ai cũng biết → advantage = DEPTH hiểu, không phải biết/chưa biết.
   → Lúc đó: framework literacy = bình thường. Khác biệt = ai HIỂU SÂU hơn.
+
+CON ĐƯỜNG ADOPTION THỰC TẾ — Bottom-Up (không phải Top-Down):
+
+  Top-down (academic): paper → peer review → textbook → phổ thông
+    → CHẬM (10-20 năm) + cần credentials
+    → Con đường NÀY đóng nếu tác giả KHÔNG có academic background
+
+  Bottom-up (viral): phổ thông → hữu ích → spread → expert chú ý → verify → formal
+    → NHANH hơn + không cần credentials ban đầu
+    → CẦN: content DỄ HIỂU + ĐÚNG ĐỦ để expert không dismiss ngay
+    → = Con đường MỞ — giống game casual: "mọi người chơi TRƯỚC → hay → viral"
+
+  4 giai đoạn thực tế:
+    GĐ1: Phổ thông tiếp cận (web dễ hiểu → "à hay, có ích")
+      → Community hình thành → signal "nhiều người thấy hữu ích"
+    GĐ2: Expert chú ý (vì community đủ lớn → expert xem thử)
+      → Engage hoặc dismiss → nhưng community VẪN dùng nếu hữu ích
+    GĐ3: Verify formal (expert test predictions → paper → peer review)
+      → KHÔNG phải việc tác giả → việc researcher NẾU họ thấy đáng
+    GĐ4: Policy/Education (chính phủ + giáo dục → nếu evidence đủ)
+      → 5-20 năm sau GĐ3 → rất lâu nhưng đúng quy trình
+
+  → Giống mọi innovation bottom-up:
+    Wikipedia: phổ thông viết → expert chê → nhưng MỌI NGƯỜI dùng → expert cuối cùng accept
+    Linux: 1 người code → community build → enterprise adopt → giờ chạy 90% server
+    Yoga: "hippie stuff" → phổ thông practice → research confirm → giờ bác sĩ recommend
+
+  → Framework adoption CÓ THỂ theo pattern tương tự:
+    Draft → web phổ thông → community → expert notice → verify → formal → education
+    → Mỗi bước: organic, KHÔNG ÉP → spread nếu HỮU ÍCH THẬT → tự chết nếu KHÔNG ĐỦ TỐT
 ```
 
 ---
