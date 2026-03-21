@@ -1075,6 +1075,225 @@ QUY TẮC ĐƠN GIẢN:
 
 ---
 
+### 8.5 Áp Lực Phù Hợp Theo Tuổi — 3 Layers (Pressure + Challenge + Autonomy)
+
+```
+⚠️ "Áp lực" KHÔNG phải "ép" — là TẠO ĐIỀU KIỆN cho growth:
+  Pressure = context có vấn đề CẦN giải quyết (cortisol nhẹ → activation energy)
+  Challenge = frame vấn đề thành THÚ VỊ (dopamine → drive sáng tạo)
+  Autonomy = cho TỰ CHỌN cách giải quyết (internal drive → bền vững)
+  → 3 Layers ĐỒNG THỜI → growth TỐI ƯU
+  → Thiếu Layer nào → growth GIẢM hoặc DAMAGE
+  → Chi tiết cơ chế: Drive-Optimization.md §9
+
+BẢNG ÁP LỰC THEO TUỔI:
+
+TUỔI     │ PRESSURE               │ CHALLENGE             │ AUTONOMY
+─────────┼────────────────────────┼───────────────────────┼────────────────
+0-2      │ ZERO                   │ ZERO                  │ N/A
+         │ Chỉ yêu thương +      │ Trẻ TỰ explore:       │ Trẻ chưa có
+         │ an toàn + đáp ứng     │ sờ, nếm, bò, đi      │ PFC để "chọn"
+         │ ⚠️ Áp lực BẤT KỲ     │ Bố mẹ: safe boundary  │ → chỉ cần:
+         │ = cortisol → damage   │ (không ép, cho khám   │ respond khi
+         │ hardware ĐANG XÂY     │ phá TỰ DO)            │ trẻ cần
+─────────┼────────────────────────┼───────────────────────┼────────────────
+2-6      │ TỰ NHIÊN từ explore   │ TỰ TẠO (leo cây,     │ TOÀN PHẦN
+         │ Trẻ TỰ gặp "khó":    │ xếp hình, pretend    │ Trẻ CHỌN:
+         │ leo → sợ → cố → ok   │ play, hỏi "tại sao?")│ chơi gì, thử gì
+         │ Bố mẹ: CHO PHÉP      │ Bố mẹ: trả lời hỏi  │ Bố mẹ: KHÔNG ép
+         │ (không giải cứu NGAY  │ + gợi ý KHÔNG ép     │ hướng nào
+         │ khi trẻ hơi khó)     │                       │
+         │ ⚠️ ÉP học chữ/số    │ ⚠️ Ép theo schedule   │ ⚠️ Ép "phải
+         │ = PFC Worker forced   │ cứng = KILL explore   │ thích cái này"
+         │ → mệt → "ghét học"   │ → synapse bị cắt     │ → mất interest
+─────────┼────────────────────────┼───────────────────────┼────────────────
+6-12     │ NHẸ — có structure    │ VỪA SỨC (Vygotsky)   │ CHỌN CÁCH
+         │ Homework, chores,     │ Bài tập/task: khó     │ "Phải làm bài"
+         │ trách nhiệm nhỏ      │ NHƯNG làm được nếu CỐ│ (không chọn)
+         │ = cortisol NHẸ =     │ = "gần được!" =       │ "Làm KIỂU NÀO
+         │ activation energy    │ drive MẠNH NHẤT       │ thì tùy con"
+         │                      │ Quá dễ → chán         │ (có chọn)
+         │ VD TỐT: "con rửa    │ Quá khó → sợ + bỏ    │
+         │ bát giúp mẹ nhé"    │ VD: "thử bài này,     │ VD TỐT: "con
+         │ (nhẹ, rõ, có ý nghĩa)│ khó đấy, xem nào!"  │ muốn làm bài
+         │                      │ (frame thú vị)        │ trước hay rửa
+         │ VD TỆ: "PHẢI rửa   │                       │ bát trước?"
+         │ NGAY không là bị    │ VD TỆ: "SAI là bị    │
+         │ đánh" (cortisol CAO) │ phạt" (fear frame)   │ VD TỆ: "làm
+         │                      │                       │ ĐÚNG CÁCH NÀY"
+─────────┼────────────────────────┼───────────────────────┼────────────────
+12-18    │ TEEN TỰ TẠO          │ TEEN TỰ TÌM          │ CỰC CAO
+         │ Áp lực từ CHÍNH      │ Sở thích, passion,    │ Teen CHỌN:
+         │ teen: thi cử, bạn bè,│ domain khám phá      │ học gì, làm gì,
+         │ identity, tương lai  │ Bố mẹ: SUPPORT       │ bạn với ai
+         │ Bố mẹ: CHỈ boundary │ resource (sách, khóa  │ Bố mẹ: CHỈ
+         │ (an toàn, pháp luật) │ học, mentor) KHÔNG ÉP│ safe boundary
+         │ KHÔNG thêm áp lực   │ hướng                 │ (không kiểm soát)
+         │ (teen ĐÃ ĐỦ áp lực) │                       │
+         │                      │ Hỏi: "con MUỐN gì?   │ Hỏi: "con nghĩ
+         │ ⚠️ Thêm áp lực =   │ Cần gì để đạt?"      │ sao?" (thay vì
+         │ cortisol QUÁ → rebel │ (teen TỰ tìm drive)  │ "phải thế này")
+         │ hoặc collapse       │                       │
+─────────┼────────────────────────┼───────────────────────┼────────────────
+18+      │ CUỘC SỐNG tự có      │ TỰ TÌM domain       │ TOÀN PHẦN
+         │ Career, tài chính,   │ Career, sở thích,    │ Self-manage
+         │ relationship → ĐỦ   │ meaning, mastery     │ 100% tự chọn
+         │ Không cần AI tạo    │ Self-calibrate        │
+         │ → self-regulate     │ → Drive-Optimization  │
+         │                      │   3 Layers            │
+
+NGUYÊN TẮC XUYÊN SUỐT:
+
+  1. Áp lực TĂNG DẦN theo PFC capacity (PFC tăng → chịu được hơn)
+  2. Autonomy TĂNG DẦN theo tuổi (PFC mature → tự manage tốt hơn)
+  3. Challenge LUÔN = "khó nhưng làm ĐƯỢC nếu cố" (Zone of Proximal Development)
+  4. Nguồn áp lực SHIFT: bố mẹ ép → bố mẹ frame → teen tự → cuộc sống
+  5. Bố mẹ vai trò SHIFT: protect (0-2) → allow (2-6) → frame (6-12) → support (12-18) → let go (18+)
+
+  ⚠️ "Áp lực giúp phát triển" = ĐÚNG → NHƯNG:
+    Áp lực PHẢI có Challenge (frame thú vị) + Autonomy (tự chọn)
+    Áp lực ALONE (chỉ Pressure, không Challenge, không Autonomy) = DAMAGE
+    = Tiger parenting: Pressure ✅ + Challenge ❌ + Autonomy ❌ = compliance, không growth
+    = "Mẹ Einstein": Pressure nhẹ ✅ + Challenge ✅ + Autonomy ✅ = creative growth ✅
+
+VÀ: PFC capacity THEO TUỔI quyết định "chịu được BAO NHIÊU":
+  0-2 (PFC ~10%):   ZERO pressure → hardware đang xây → cortisol = DAMAGE
+  2-6 (PFC ~25%):   Chỉ pressure TỰ NHIÊN → synapses đang overproduction → ép = prune sai
+  6-12 (PFC ~60%):  Pressure NHẸ + challenge VỪA → PFC ĐỦ để handle → growth
+  12-18 (PFC ~80%): Pressure VỪA → PFC gần mature → CÓ THỂ handle → NHƯNG emotion override
+  18+ (PFC ~100%):  Pressure theo cuộc sống → PFC mature → self-regulate
+
+  → KHÔNG "càng nhiều áp lực càng tốt" → "ĐỦ cho PFC capacity HIỆN TẠI"
+  → Quá ít: không growth. Quá nhiều: PFC overwhelm → damage.
+  → VỪA ĐỦ = Yerkes-Dodson sweet spot PER AGE
+  → Chi tiết: Body-Needs-ByAge.md
+
+⚠️ QUAN TRỌNG: Bảng trên = TRUNG BÌNH theo tuổi.
+MỖI TRẺ KHÁC NHAU (hardware, attachment, schema đã build, modality dominant).
+→ Tuổi = HƯỚNG DẪN → KHÔNG phải rule cứng → cần CALIBRATE per trẻ.
+→ Xem §8.6 bên dưới: cách nhận biết REALTIME.
+```
+
+### 8.6 Nhận Biết Ngưỡng Áp Lực Per Trẻ — Quan Sát Realtime
+
+```
+MỖI TRẺ có ngưỡng KHÁC → cùng tuổi, KHÁC áp lực tối ưu:
+  Hardware khác: DRD4, COMT → threshold KHÁC
+  Attachment khác: secure vs anxious → capacity KHÁC
+  Schema đã build khác: trải nghiệm trước → nền tảng KHÁC
+  → Bảng theo tuổi = trung bình → mỗi trẻ cần DÒ ngưỡng RIÊNG
+
+3 MỨC SIGNAL ĐỂ NHẬN BIẾT:
+```
+
+#### Signal 1 — Body Response TRONG task (quan sát NGAY)
+
+```
+ÁP LỰC VỪA ĐỦ (sweet spot) — trẻ biểu hiện:
+  → Mắt sáng, tập trung, hơi cau mày nhưng KHÔNG SỢ
+  → Body: hơi nghiêng về phía task (engage, không rụt)
+  → "Khó... nhưng thử tiếp!" → cố gắng, không bỏ cuộc
+  → Thở bình thường, cơ không gồng quá
+  → = "Đang ở sweet spot" → GIỮ NGUYÊN mức này ✅
+
+ÁP LỰC QUÁ NHIỀU — trẻ biểu hiện:
+  → Mắt sợ, rưng rưng, tránh nhìn task
+  → Body: rụt lại, quay đi, co người, vai gồng
+  → "Không biết! Không làm được!" → bỏ cuộc nhanh hoặc ĐÔNG CỨNG
+  → Thở nhanh/nông, có thể run tay
+  → = "Quá nhiều" → GIẢM NGAY: "ok, thử cái dễ hơn chút nhé" ❌
+
+ÁP LỰC QUÁ ÍT — trẻ biểu hiện:
+  → Mắt lơ đãng, nhìn chỗ khác, ngáp
+  → Body: ngả ra sau, uể oải, fidget VÌ CHÁN (khác fidget vì sợ)
+  → "Xong rồi" quá nhanh, không effort
+  → = "Quá ít" → TĂNG NHẸ: "thử cái khó hơn xem?" ⬆️
+
+→ BỐ MẸ: QUAN SÁT body trẻ TRONG LÚC task → adjust NGAY:
+  Thấy sợ → giảm. Thấy chán → tăng. Thấy engage → giữ.
+  = Calibrate REALTIME → không đợi xong mới biết
+```
+
+#### Signal 2 — Hành Vi SAU task (theo dõi vài giờ/ngày)
+
+```
+Áp lực VỪA — sau task trẻ:
+  → VUI, kể lại "con làm được!", MUỐN thử lại
+  → Ngủ bình thường, ăn bình thường
+  → = Schema "task = thú vị, tôi capable" đang BUILD ✅
+
+Áp lực QUÁ — sau task trẻ:
+  → TRÁNH nhắc tới task, hoặc NÓI "ghét", "sợ", "không muốn"
+  → Ngủ kém, ác mộng, hoặc clingy hơn bình thường
+  → Ăn kém hoặc ăn quá (comfort eating)
+  → = Schema "task = đau, tôi không capable" đang BUILD ❌
+  → → GIẢM áp lực lần sau + reassure: "con giỏi mà, thử cái nhẹ hơn"
+
+Áp lực QUÁ ÍT — sau task trẻ:
+  → KHÔNG nhắc (quên luôn, không ấn tượng gì)
+  → "Mẹ, chán quá, làm gì bây giờ?" → tìm stimulation KHÁC
+  → = Schema "task = boring" → KHÔNG build gì cả
+  → → TĂNG challenge lần sau
+```
+
+#### Signal 3 — Xu Hướng DÀI HẠN (review tuần/tháng)
+
+```
+Calibrate ĐÚNG (xu hướng tốt):
+  → Tự tin TĂNG DẦN → dám thử cái KHÓ HƠN → "con muốn thử!"
+  → Mastery thường xuyên: "con LÀM ĐƯỢC!" → self-efficacy BUILD
+  → Quan hệ bố mẹ: TIN TƯỞNG → "bố mẹ hiểu mình, cho vừa sức"
+  → = Trẻ + bố mẹ = TEAM → calibrate loop hoạt động ✅
+
+Calibrate SAI — quá áp lực dài hạn:
+  → TRÁNH thử cái mới → "không, sợ, không dám" → self-efficacy GIẢM
+  → Anxiety TĂNG: lo lắng TRƯỚC task (dù chưa bắt đầu)
+  → Quan hệ bố mẹ: SỢ → "bố mẹ cho cái QUÁ KHÓ" → xa cách
+  → → CẦN: GIẢM đáng kể + rebuild trust + bắt đầu từ CỰC DỄ → tăng từ từ
+
+Calibrate SAI — quá ít áp lực dài hạn:
+  → KHÔNG chịu được KHÓ → frustration tolerance ≈ 0
+  → "Khó quá! Không làm!" → bỏ cuộc NGAY khi hơi khó
+  → = Spoiled pattern (§3.1)
+  → → CẦN: tăng DẦN (stepped) → KHÔNG tăng đột ngột
+```
+
+#### Thực Hành — Bố Mẹ Làm Gì
+
+```
+QUY TRÌNH "DÒ NGƯỠNG" per trẻ:
+
+  BƯỚC 1: Bắt đầu NHẸ → tăng DẦN
+    → Cho task DỄ trước → trẻ succeed → tự tin → tăng khó 1 chút
+    → KHÔNG assume "tuổi này phải chịu mức này" → DÒ per trẻ
+    → = "Test ngưỡng" an toàn: bắt đầu thấp → nâng dần → tìm sweet spot
+
+  BƯỚC 2: Quan sát body TRONG task
+    → Mắt, tư thế, thở, giọng nói → Signal 1
+    → Adjust NGAY: sợ = giảm. Chán = tăng. Engage = giữ.
+    → KHÔNG đợi xong mới đánh giá → đánh giá LIÊN TỤC
+
+  BƯỚC 3: Check SAU task (vài giờ/ngày)
+    → "Con thấy sao?" + quan sát hành vi tự nhiên → Signal 2
+    → Vui = ok. Sợ/tránh = giảm. Quên/chán = tăng.
+
+  BƯỚC 4: Review hàng tháng
+    → Tự tin tăng? Anxiety tăng? Bỏ cuộc dễ? → Signal 3
+    → Adjust HƯỚNG dài hạn (không chỉ per task)
+
+  → = FEEDBACK LOOP liên tục: observe → adjust → observe → adjust
+  → KHÔNG "set 1 lần xong" → trẻ THAY ĐỔI → calibrate LIÊN TỤC
+  → Giống lái xe: adjust VÔ LĂNG liên tục theo đường → không set 1 lần
+
+  ⚠️ VÀ: mỗi DOMAIN có thể KHÁC ngưỡng cho CÙNG trẻ:
+    Toán: trẻ giỏi → sweet spot = KHÓ hơn avg
+    Thể thao: trẻ yếu → sweet spot = NHẸ hơn avg
+    Social: trẻ nhút nhát → sweet spot = NHẸ hơn avg
+    → KHÔNG 1 mức cho TẤT CẢ domains → calibrate PER DOMAIN per trẻ
+```
+
+---
+
 ## 9. Câu Hỏi Mở
 
 ```

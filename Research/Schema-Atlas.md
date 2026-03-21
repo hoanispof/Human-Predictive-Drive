@@ -561,6 +561,62 @@ Ví dụ: Công việc chán → burnout trajectory
   → Sửa body → deep fix (nhưng chậm — body adapt chậm cả 2 chiều)
 ```
 
+### 5.2.1 Hai Con Đường Hình Thành Schema
+
+```
+Schema hình thành qua 2 CON ĐƯỜNG khác nhau — CẢ HAI cần thiết:
+
+CON ĐƯỜNG 1 — VÔ THỨC TỰ BUILD (không cần PFC):
+  = Association learning: stimulus → body respond → schema TỰ ĐỘNG hình thành
+
+  Ví dụ: chạm lửa → nóng → schema "lửa = đau" (1 lần = đủ)
+  Ví dụ: trẻ 3-4 tuổi build 160+ strategies MÀ PFC chỉ ~20%
+  Ví dụ: "gut feeling" về người lạ → body evaluate → schema form VÔ THỨC
+
+  Đặc điểm:
+    → NHANH (1 lần experience CÓ THỂ đủ, đặc biệt nếu emotional mạnh)
+    → KHÔNG TỐN PFC effort (vô thức tự xử lý)
+    → NHƯNG: chỉ từ TRẢI NGHIỆM TRỰC TIẾP (phải tự gặp/làm/thấy)
+    → NÔNG → SÂU: lặp lại nhiều → embed vào body → DẦN sâu
+    → Scope: TRONG domain đã trải nghiệm → KHÓ cross-domain
+
+  Evidence: trẻ 0-4 tuổi PFC gần zero → VẪN build schemas phức tạp
+    → Chứng minh: schema CÓ THỂ hình thành HOÀN TOÀN không cần PFC ✅
+
+CON ĐƯỜNG 2 — PFC DRAFT + COMPILE (có PFC tham gia):
+  = PFC tạo draft schema → test với vùng chuyên gia → route (pass/fail) → compile xuống sâu
+
+  Ví dụ: "nếu tôi nói thẳng với sếp → sẽ thế nào?" → PFC simulate → decide
+  Ví dụ: Einstein thought experiment "cưỡi tia sáng" → PFC draft → test → insight
+  Ví dụ: lập kế hoạch kinh doanh → PFC draft nhiều scenario → chọn tốt nhất
+
+  Đặc điểm:
+    → CHẬM hơn (PFC draft → test → route = nhiều steps)
+    → TỐN PFC effort (working memory load, attention cost)
+    → NHƯNG: từ IMAGINE — không cần trải nghiệm trực tiếp
+    → CHẤT LƯỢNG CAO hơn (test nhiều draft → chọn tốt nhất)
+    → PREDICT XA hơn (simulate tương lai → schema cho tình huống CHƯA xảy ra)
+    → AN TOÀN hơn (simulate hậu quả TRƯỚC → tránh hậu quả thật)
+    → CROSS-DOMAIN possible (PFC connect nhiều vùng → draft cross-domain schema)
+
+  Evidence: người trưởng thành plan + predict tương lai = PFC active (fMRI) ✅
+
+CẢ HAI CẦN MẠNH — thiếu 1 = bottleneck:
+  Vô thức mạnh + PFC yếu: nhiều schemas cơ bản + ÍT schemas predict xa → "giỏi tay nhưng thiếu plan"
+  Vô thức yếu + PFC mạnh: ÍT schemas cơ bản + draft HAY nhưng KHÔNG verify → "plan giỏi nhưng xa rời thực tế"
+  CẢ HAI mạnh: nền RỘNG (vô thức) + đỉnh CAO (PFC) = expert/genius
+  → = PFC build TRÊN NỀN vô thức đã xây → thiếu nền → PFC "xây trên cát"
+
+VÀ: schema hình thành = GRADIENT (không binary):
+  100% vô thức: reflex (chạm nóng → rụt) → trẻ sơ sinh
+  Chủ yếu vô thức + PFC nhẹ: thói quen (đi làm → quen đường) → đa số daily
+  50/50: skill mới (lái xe: PFC guide → vô thức compile dần) → learning phase
+  Chủ yếu PFC: plan phức tạp (kinh doanh, framework) → expert mode
+  100% PFC: KHÔNG tồn tại (PFC luôn cần vô thức compute per step)
+  → = Gradient từ "100% vô thức" → "chủ yếu PFC" → nhưng KHÔNG BAO GIỜ "100% PFC"
+  → Chi tiết PFC functions: PFC-Analysis.md §1
+```
+
 ### 5.3 Tốc độ thay đổi theo lớp — Ước lượng
 
 ```

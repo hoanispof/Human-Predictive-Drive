@@ -264,7 +264,103 @@ BIẾT 2 hệ thống → predict ĐÚNG HƠN:
 
 ---
 
-## 9. Giới Hạn + Honest Assessment
+## 9. Evidence — Body THẬT SỰ Respond Với Imagination
+
+> 2 hệ thống KHÔNG tách biệt — Imagine CÓ tương tác body THẬT.
+
+### 9.1 Research Chứng Minh Body Respond Với Tưởng Tượng
+
+```
+5 LĨNH VỰC research PROVEN:
+
+① Sexual imagination → body arousal ĐO ĐƯỢC:
+  → Tưởng tượng sex → genital arousal THẬT (plethysmograph đo)
+  → Heart rate TĂNG, blood pressure TĂNG, pupil DILATE
+  → Body KHÔNG phân biệt imagine vs real ở mức autonomic
+  → Research: Stock & Geer (1982), Laan & Everaerd (1995) 🟢
+
+② Fear imagination → cortisol + stress response THẬT:
+  → Tưởng tượng nhện (phobia) → body respond NHƯ thấy nhện thật
+  → PTSD flashback: tưởng tượng trauma → cortisol spike + freeze THẬT
+  → Body treat flashback NHƯ ĐANG XẢY RA
+  → Research: Pitman et al. (1987), Shin & Liberzon (2010) 🟢
+
+③ Food imagination → body CHUẨN BỊ ĐỒ ĂN:
+  → Tưởng tượng chanh → nước miếng CHẢY (đo được)
+  → Insulin CÓ THỂ tăng nhẹ (cephalic phase insulin response)
+  → Body chuẩn bị ĐÓN THỨC ĂN dù CHƯA ăn
+  → Research: Morewedge et al. (2010), Power & Schulkin (2009) 🟢
+
+④ Motor imagination → cơ ACTIVATE NHẸ:
+  → Tưởng tượng ném bóng → EMG detect: cơ tay ACTIVATE nhẹ
+  → Ranganathan et al. (2004): tưởng tượng tập cơ 12 tuần
+    → SỨC MẠNH TĂNG 35% (KHÔNG tập thật, CHỈ tưởng tượng!)
+  → Motor cortex fire khi imagine → cơ respond → dù PFC brake output
+  → Research: Yue & Cole (1992), Ranganathan et al. (2004) 🟢
+
+⑤ Placebo = imagination → body HEAL THẬT:
+  → Thuốc giả + bệnh nhân TIN → body respond: đau GIẢM, bệnh CẢI THIỆN
+  → Opioid system FIRE khi placebo (body TỰ produce painkiller)
+  → Imagination "sẽ khỏi" → body chemistry THAY ĐỔI THẬT
+  → Research: Wager et al. (2004), Benedetti (2008) 🟢
+```
+
+### 9.2 Fidelity — Imagine Bao Nhiêu % So Với Thật
+
+```
+  Real experience:     body respond 100%
+  Vivid imagination:   body respond ~20-60% (tùy modality + training)
+  Vague imagination:   body respond ~5-15%
+  No imagination:      body respond 0%
+
+  THEO MODALITY:
+    Emotional imagine: ~50-80% (MẠNH NHẤT — Amygdala KHÔNG phân biệt imagine vs real)
+    Somatic imagine:   ~40-70% (mạnh nếu vmPFC mạnh)
+    Visual imagine:    ~30-50%
+    Motor imagine:     ~20-40%
+
+  → Emotional scenarios → body respond GẦN NHƯ THẬT
+  → Tại sao WORRY = body damage THẬT: imagine xấu × lặp lại = cortisol MÃN TÍNH
+  → Tại sao VISUALIZATION = body benefit THẬT: imagine tốt × lặp = body prep
+```
+
+### 9.3 Implications Cho Reward Dual System
+
+```
+LUỒNG ĐẦY ĐỦ (update):
+
+  1. Schema mong muốn: "muốn X"
+  2. Imagine simulate: "nếu có X → thế nào?"
+  3. Body PREVIEW respond: X → body respond 20-60% fidelity ← EVIDENCE MỚI
+  4. Dopamine evaluate preview: "body SẼ thích!" → fire → DRIVE
+  5. Execute hành vi trong reality
+  6. Body FULL respond: 100% fidelity
+  7. Satisfaction Signal: "đủ chưa?" → đủ → dừng
+
+  → Bước 3 = BODY THẬT SỰ tham gia IMAGINE → không chỉ "trong đầu"
+  → Body "nếm thử" (preview 20-60%) → decide → rồi "ăn thật" (reality 100%)
+  → Imagine KHÔNG tách biệt body → imagine DÙNG body để evaluate
+
+VÀ: 3 cách DÙNG imagination → body:
+
+  WORRY (hại): imagine xấu → body respond cortisol THẬT → damage
+    = "Tự đánh mình bằng tưởng tượng" → body KHÔNG biết là giả
+
+  VISUALIZATION (lợi): imagine tốt → body respond opioid/motor prep → benefit
+    = "Tự luyện bằng tưởng tượng" → body THẬT SỰ prep/compile
+
+  DAYDREAM (mixed): imagine tự do → body respond tùy nội dung → mixed
+    = "Brain explore tự do" → có thể tốt (creative) hoặc tệ (worry)
+
+  → CÙNG mechanism → KHÁC hướng → KHÁC kết quả
+  → Ai KIỂM SOÁT hướng imagination → dùng body response CÓ LỢI
+  → Ai KHÔNG kiểm soát → imagination dùng NGƯỢC (worry loop)
+  → Chi tiết: Body-Listening.md (cách kiểm soát) + Imagination-Analysis.md (cách hoạt động)
+```
+
+---
+
+## 10. Giới Hạn + Honest Assessment (cập nhật)
 
 ```
 ĐÃ CÓ CƠ SỞ (từ research):
@@ -292,7 +388,7 @@ CÁCH XÁC THỰC:
 
 ---
 
-## 10. Câu Hỏi Mở
+## 11. Câu Hỏi Mở (cập nhật)
 
 ```
 RDS-1: Imagine system nằm Ở ĐÂU chính xác trong não?

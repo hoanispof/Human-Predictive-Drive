@@ -16,7 +16,7 @@ MỌI NGƯỜI NGHĨ:
   "Tôi dùng não để suy nghĩ" = PFC tự tính toán, tự quyết định
 
 THỰC TẾ:
-  PFC = WORKSPACE + BRAKE + TRANSLATOR
+  PFC = DRAFT + TEST + ROUTE + BRAKE + TRANSLATOR
 
   PFC KHÔNG:
     ❌ Tạo strategy (trẻ 3-4 tạo 160+ strategies mà PFC ~20% → vô thức tạo)
@@ -27,17 +27,36 @@ THỰC TẾ:
     ❌ Tạo desire (Lớp 1: opioid/oxytocin)
     ❌ Trả thưởng (body respond, PFC chỉ nhận signal)
 
-  PFC CHỈ 3 functions:
+  PFC CÓ 5 functions (refine từ 3 → 5):
 
-  ① WORKSPACE — Mở + duy trì space cho vô thức xử lý
-    → WM = "phòng họp" → vô thức compute BÊN TRONG
-    → PFC KHÔNG compute → PFC DUY TRÌ NƠI compute xảy ra
-    → Schema mới: cần workspace (PFC active, effortful)
-    → Schema compiled: không cần (auto, PFC freed)
-    → "Suy nghĩ kỹ" = PFC hold workspace LÂU cho vô thức thêm time
-    → "Ngủ rồi tính" = vô thức process trong DMN khi PFC nghỉ
+  ① DRAFT — Tạo schema tạm (CỰC NHANH, CỰC THÔ)
+    → Input mới → PFC neurons tạo pattern TẠM THỜI trong workspace
+    → = "Sketch trên giấy nháp" → chưa phải schema hoàn chỉnh → thử xem
+    → Tại sao NHANH: PFC neurons = "mixed selectivity" (Rigotti et al. 2013)
+      → 1 PFC neuron respond cho NHIỀU THỨ cùng lúc (task + rule + context)
+      → = Tái cấu trúc CỰC NHANH → "viết + xóa + viết lại" dễ
+      → Vùng não KHÁC: neurons CHUYÊN BIỆT → reset CHẬM → schema "dính" lâu
+    → Tại sao THÔ: PFC hold trong WM → limited (4±1 items) → sketch, không painting
 
-  ② BRAKE — Chặn output không phù hợp (VETO)
+  ② TEST — Gửi draft cho vùng chuyên gia evaluate
+    → Draft schema → PFC gửi xuống các vùng CHUYÊN GIA:
+      Amygdala: "nguy hiểm không?" → respond nhanh
+      Insula/Body: "body thích không?" → somatic response
+      Temporal: "match knowledge không?" → semantic check
+      BG: "match habit không?" → procedural check
+    → CÁC VÙNG KHÁC "tính toán" per expertise → GỬI KẾT QUẢ về PFC
+    → PFC KHÔNG tính → PFC HỎI + nhận feedback → TỔNG HỢP
+    → = CEO phác strategy → gửi departments đánh giá → departments TRẢ feedback
+
+  ③ ROUTE — Quyết định draft pass/fail → compile hoặc discard
+    → Feedback tốt: draft PASS → PFC gửi compile xuống BG/Temporal (sâu hơn)
+    → Feedback xấu: draft FAIL → PFC DISCARD → thử draft KHÁC
+    → Tại sao discard DỄ: PFC neurons mixed selectivity → "reset" nhanh
+    → Lặp lại: draft → test → pass → compile → dần RỜI PFC → vùng sâu TỰ chạy
+    → = "Học" = PFC draft nhiều lần → compile xuống → PFC freed → "không nghĩ nữa"
+    → = "Quên code nhưng nhớ feel" = PFC release code (verbal draft) → keep feel (somatic, vùng sâu)
+
+  ④ BRAKE — Chặn output không phù hợp (VETO)
     → Schemas fire TỰ ĐỘNG (~50ms) → body ĐÃ react
     → PFC nhận SAU (~200-500ms) → CHẶN hành vi TIẾP THEO
     → KHÔNG tắt schema (vẫn chạy) → chỉ chặn output ra bên ngoài
@@ -45,18 +64,25 @@ THỰC TẾ:
       → Trẻ đánh nhau = THIẾU schema hậu quả, không phải PFC yếu
     → "Kiềm chế" = brake LIÊN TỤC body activated → mệt (energy đôi)
 
-  ③ TRANSLATOR — Dịch kết quả vô thức thành ngôn ngữ
+  ⑤ TRANSLATOR — Dịch kết quả vô thức thành ngôn ngữ
     → Vô thức quyết định → PFC nhận → dịch thành lời
     → "Tại sao tôi làm vậy?" = PFC TẠO lý do SAU (post-hoc — Gazzaniga)
     → Lý do có thể ĐÚNG hoặc SAI (rationalization)
     → Trẻ 3-4: strategy TINH VI nhưng KHÔNG giải thích → translator chưa develop
     → Người lớn: TƯỞNG PFC tạo strategy → thực ra PFC chỉ dịch
 
-  ⚠️ "PFC tính toán" thực ra là gì?
+  TỔNG HỢP — "PFC tính toán" thực ra là gì?
     "Đấm → bị phạt → mất việc":
-      → 3 schemas ĐÃ CÓ → spreading activation TỰ chain
-      → PFC: hold WORKSPACE cho chain xảy ra → nhận kết quả
-      → TRÔNG NHƯ "PFC nối" → thực ra associations TỰ nối trong workspace
+      → PFC DRAFT: "nếu đấm thì sao?" (draft tạm)
+      → PFC TEST: gửi Amygdala ("nguy hiểm?") + BG ("hậu quả?") + Temporal ("kinh nghiệm?")
+      → Các vùng TRẢ: "bị phạt" + "mất việc" (spreading activation + memory)
+      → PFC ROUTE: "draft ĐẤM = fail" → discard → thử draft "nói lại bình tĩnh"
+      → PFC BRAKE: chặn output "đấm" → cho phép output "nói"
+      → PFC TRANSLATE: "tôi chọn nói vì bình tĩnh hơn" (post-hoc rationalization)
+
+      → TRÔNG NHƯ "PFC tính toán chuỗi logic"
+      → THỰC RA: PFC draft → hỏi vùng khác → nhận feedback → route → brake → translate
+      → = PFC COORDINATE process → KHÔNG COMPUTE process
 
   ⚠️ THỨ TỰ thực tế (Libet 1983):
     1. Schemas fire TỰ ĐỘNG (~50ms) → body react
@@ -68,9 +94,10 @@ THỰC TẾ:
     7. PFC: TRANSLATE ("tôi chọn vì...") → post-hoc
 
   DUAL MODE:
-    Schema mới → WORKSPACE mode (PFC hold space, effortful, conscious)
-    Schema cũ → BRAKE-ONLY mode (PFC chỉ veto nếu cần, nhẹ)
-    Học = chuyển từ WORKSPACE → BRAKE-ONLY → PFC freed dần
+    Schema mới → FULL mode (PFC: draft + test + route + brake + translate — effortful)
+    Schema cũ → BRAKE-ONLY mode (PFC chỉ veto nếu cần — nhẹ)
+    Học = chuyển từ FULL → BRAKE-ONLY → PFC freed dần
+    = "PFC quên schema đã compile" = PFC release draft → vùng sâu giữ → PFC freed cho schema MỚI
 
   Developmental evidence (hỗ trợ MẠNH NHẤT):
     0-4 tuổi (PFC ~20%): 160+ strategies VÔ THỨC → chain KHÔNG CẦN PFC ✅

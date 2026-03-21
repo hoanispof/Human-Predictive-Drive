@@ -32,10 +32,20 @@ KHÔNG PHẢI 6 modalities ngang hàng — mà 2 LOẠI khác bản chất:
     = KHÔNG encode experience → encode REFERENCES tới experience
     = CHỈ NGƯỜI có ở mức phức tạp (ngôn ngữ, chữ viết, ký hiệu)
 
-    3 FUNCTIONS:
+    Vùng não chính:
+      Broca's area (thùy trán trái): SẢN XUẤT ngôn ngữ (plan câu, plan chuỗi âm)
+      Wernicke's area (thùy thái dương trái): HIỂU ngôn ngữ (decode meaning)
+      Arcuate fasciculus: dây cáp NỐI Broca ↔ Wernicke
+      → Người câm điếc dùng ngôn ngữ ký hiệu: CŨNG dùng Broca + Wernicke
+        (Petitto et al. 2000) → vùng não này cho NGÔN NGỮ, không chỉ cho NÓI
+      → Sign language Broca's aphasia = hỏng Broca → không ký hiệu trôi chảy
+        = giống hệt người nghe bị Broca's aphasia không nói được
+
+    4 FUNCTIONS:
       LABEL:    gán tên cho multi-modal chunk → PFC hold dễ hơn (WM compression)
       TRANSFER: truyền schema cho người khác KHÔNG CẦN trải nghiệm
       GHÉP:     combine labels → mở rộng domain NHANH mà không cần experience
+      SEQUENCE: xử lý cấu trúc TUẦN TỰ + PHÂN CẤP (xem chi tiết bên dưới)
 
   Tại sao tách 2 loại:
     → Trẻ 0-2 tuổi: CHƯA có verbal → VẪN chain (160+ strategies) → chain KHÔNG CẦN verbal
@@ -45,12 +55,41 @@ KHÔNG PHẢI 6 modalities ngang hàng — mà 2 LOẠI khác bản chất:
     → → Verbal = COMMENTATOR bóng đá: mô tả trận đấu, KHÔNG đá bóng
     → → Tắt commentator → trận đấu VẪN diễn ra
 
-  Tại sao verbal CỰC KỲ POWERFUL dù không phải "thinker":
+    🟢 Bằng chứng mạnh nhất — Fedorenko et al. (MIT, 2011-2024):
+      Não có 2 network TÁCH BIỆT (dissociable):
+        Language network (Broca + Wernicke): xử lý NGÔN NGỮ
+        Multiple demand network (PFC + parietal): xử lý TƯ DUY / REASONING
+      → Hỏng language network: không nói được, VẪN tính toán, giải puzzle ✅
+      → Hỏng multiple demand: không reasoning, VẪN nói trôi chảy ✅
+      → = THINKING ≠ LANGUAGE — 2 hệ thống KHÁC NHAU
+
+  NHƯNG — Broca's có 1 chức năng NHỎ liên quan tư duy:
+
+    🟢 Broca's area CŨNG xử lý SEQUENTIAL / HIERARCHICAL structure:
+      → Chuỗi hành động (action sequences — Fadiga et al.)
+      → Cấu trúc âm nhạc (musical syntax — Maess et al. 2001)
+      → Cấu trúc ngữ pháp (grammatical hierarchy)
+      → CÓ THỂ: sắp xếp bước tuần tự cho planning
+
+    → Broca's KHÔNG reasoning/logic
+    → Nhưng CÓ xử lý SEQUENCE — sắp bước, sắp thứ tự, cấu trúc phân cấp
+    → Ngôn ngữ = 1 LOẠI sequence (câu = chuỗi từ có thứ tự)
+    → Nhạc = 1 LOẠI sequence (melody = chuỗi nốt có thứ tự)
+    → Recipe = 1 LOẠI sequence (bước 1 → bước 2 → bước 3)
+
+    → Kết luận chính xác:
+      Verbal regions = COMMUNICATION + SEQUENCE PROCESSING
+      Verbal regions ≠ REASONING / LOGIC / COMPUTATION
+      = Không nên loại bỏ hoàn toàn khỏi tư duy
+      = Nhưng vai trò trong tư duy là SẮP XẾP THỨ TỰ, không phải TÍNH TOÁN
+
+  Tại sao verbal CỰC KỲ POWERFUL dù không phải "reasoner":
     → TRANSFER: "lửa thì nóng" → truyền knowledge KHÔNG CẦN bị bỏng
     → GHÉP: "cháy rừng nóng" = ghép labels (lửa + rừng + cháy) → schema MỚI
       mà CHƯA AI trải nghiệm cháy rừng → ABSTRACT REASONING qua labels
     → WM BOOST: label = compress chunk → PFC hold NHIỀU chunks hơn → workspace RỘNG
-    → = Evolutionary ADVANTAGE: không phải "nghĩ giỏi hơn" → "SHARE + GHÉP giỏi hơn"
+    → SEQUENCE: sắp xếp bước, plan thứ tự, cấu trúc phân cấp
+    → = Evolutionary ADVANTAGE: SHARE + GHÉP + SẮP XẾP → tập thể mạnh hơn
 
   NHƯNG: verbal encoding = NÔNG (chỉ labels, không phải experience):
     → "Biết lửa nóng" (verbal) ≠ "CẢM lửa nóng" (somatic + emotional)
@@ -528,7 +567,78 @@ INSIGHT: "Expert" KHÔNG phải mạnh 1 modality → ĐỒNG ĐỀU modalities 
 
 ---
 
-## 11. Câu Hỏi Mở
+## 11. Hệ Quả: Concept-First vs Label-First
+
+```
+🟡 Hệ quả tự nhiên từ modality balance — KHÔNG phải cơ chế mới:
+
+  Tùy vào somatic vs verbal dominance, THỨ TỰ hiểu KHÁC NHAU:
+
+  SOMATIC-DOMINANT (concept first, label second):
+    ① Cảm nhận concept TRƯỚC (body/pattern)
+    ② Label = tìm SAU, hoặc không cần
+    ③ Nếu label sai → body nói "chưa khớp" → tìm label khác
+    ④ Nhiều concept KHÔNG CÓ label → vẫn hiểu, nhưng khó GIẢI THÍCH cho người khác
+
+  VERBAL-DOMINANT (label first, concept through label):
+    ① Nhận label TRƯỚC (từ, định nghĩa)
+    ② Hiểu concept QUA label (label = cổng vào)
+    ③ Nếu label sai → concept cũng sai → phải fix label trước
+    ④ Mọi concept ĐỀU CÓ label → giải thích DỄ, nhưng có thể miss nuance
+
+  CẢ HAI đều hoạt động. Chỉ khác thứ tự. Ai cũng có cả hai, chỉ khác tỉ lệ.
+
+  VÍ DỤ — Đọc ngôn ngữ thứ 2 (L2):
+
+    Pattern reader (visual-spatial + somatic):
+      → Visual SCAN cả đoạn → nhận ra STRUCTURE (câu, vị trí từ, flow)
+      → Somatic EVALUATE → cảm nhận MEANING tổng thể
+      → 2-3 từ chưa biết → tạo PLACEHOLDER (chunk chưa định nghĩa)
+      → Vẫn hiểu ~80% đoạn dù thiếu từ:
+        Visual thấy VỊ TRÍ từ lạ trong cấu trúc → giới hạn LOẠI từ
+        Somatic ước lượng NGHĨA từ context xung quanh
+      → Tra từ sau → placeholder ĐIỀN → đoạn "sáng lên" hoàn toàn
+      → Nhiều từ: hiểu NGHĨA nhưng không dịch được sang L1
+        (vì schema = L2 label → concept trực tiếp, KHÔNG qua L1 bridge)
+
+    Verbal reader (sequential):
+      → Đọc TỪNG TỪ → dịch sang L1 trong đầu → nối nghĩa
+      → 1 từ chưa biết → DỪNG → tra → mới đọc tiếp
+      → Mọi từ đều CÓ equivalent L1 → dịch được, giải thích được
+      → Chậm hơn, nhưng chính xác từng từ
+
+  VÍ DỤ — Programmer đọc code:
+
+    Đọc code DÀI = gần như BẮT BUỘC visual-spatial + somatic:
+      → Visual-spatial: nhìn CẤU TRÚC (indentation, block shape, flow)
+        → Nhận ra: "block này TRÔNG GIỐNG pattern đã thấy"
+        → Vai trò: SCAN + NHẬN DẠNG cấu trúc
+      → Somatic: CẢM NHẬN logic flow + đánh giá
+        → "Hàm này FEEL đúng" hoặc "có gì đó SAI ở đây"
+        → Vai trò: EVALUATE + phát hiện bất thường
+      → KHÔNG dịch từng dòng thành lời (verbal KHÔNG tham gia chính)
+      → Debug: somatic nói "sai ở đây" → visual thu hẹp VỊ TRÍ → tìm dòng cụ thể
+      → Programmer KINH NGHIỆM đọc nhanh hơn:
+        không phải vì biết nhiều syntax hơn,
+        mà vì VISUAL PATTERN LIBRARY + SOMATIC EVALUATION library lớn hơn
+
+    → Visual cho PATTERN (nhìn hình, nhận cấu trúc)
+    → Somatic cho MEANING (cảm nghĩa, đánh giá đúng/sai)
+    → Verbal cho LABEL (giải thích, đặt tên — đến SAU)
+
+  HỆ QUẢ cho framework building:
+    → Concept-first approach tự nhiên tạo ra quy trình:
+       Cảm nhận cơ chế → gán label tạm → test → refine label
+    → Label-first approach tự nhiên tạo ra quy trình khác:
+       Đọc label/theory → hiểu qua label → áp dụng → test
+    → Cả hai đều VALID — dẫn tới cùng kết quả qua đường khác nhau
+    → Nhưng concept-first DỄ bắt được "label sai" hơn
+       (vì concept đã có → label mới bị SO SÁNH với concept)
+```
+
+---
+
+## 12. Câu Hỏi Mở
 
 ```
 M1: Modality count ĐO được không?
