@@ -639,6 +639,88 @@ Ví dụ "trúng số" kiểm chứng:
   → Vì: L4-L5 + body KHÔNG đổi → surface euphoria fades → deep schema PULL BACK
 ```
 
+### 5.3.1 Schema Decay & Reactivation — Compiled Schema Cũng Mờ Dần
+
+```
+🟢 Compiled schema KHÔNG vĩnh viễn — mờ dần khi không dùng:
+
+  PFC draft: XÓA NGAY khi không dùng (giây → phút)
+    → Working memory clear = draft biến mất
+    → Thiết kế đúng: draft = tạm
+
+  Compiled schema: MỜ DẦN khi không dùng (tháng → năm)
+    → Synapse KHÔNG bị xóa → bị YẾU DẦN (less reinforcement)
+    → Myelin KHÔNG bị tháo → bị MỎNG DẦN (slower transmission)
+    → Schema VẪN CÒN → nhưng fire yếu hơn, chậm hơn, kém chính xác
+    → Cơ chế: synaptic pruning — não cắt tỉa synapse yếu để tiết kiệm resource
+    → Giống đường mòn trong rừng: đi thường xuyên = rõ,
+      không đi = cỏ mọc lấp dần, vẫn có vệt nhưng mờ
+
+
+GRADIENT DEPTH — schema sâu mờ CHẬM hơn schema nông:
+
+  NÔNG (ít lặp, ít modality):
+    Ví dụ: lái xe số sàn, lái 2 năm, bỏ 10 năm
+    → Quay lại: vụng, "nhớ lại" 30 phút → 1 giờ
+    → Schema mờ nhưng CHƯA MẤT → reactivate NHANH hơn học mới từ đầu
+
+  TRUNG BÌNH (nhiều lặp, vài modality):
+    Ví dụ: bơi, học hồi bé, bơi 5 năm, bỏ 15 năm
+    → Quay lại: vụng vài phút đầu → body "nhớ lại" khá nhanh
+    → Motor memory sâu hơn (body toàn thân tham gia)
+    → Nhiều modality BACKUP lẫn nhau → mờ ÍT hơn
+
+  SÂU (cực nhiều lặp, nhiều modality, emotional weight):
+    Ví dụ: tiếng mẹ đẻ, đi bộ, nét mặt mẹ
+    → GẦN NHƯ KHÔNG MỜ — dù 50 năm không dùng
+    → Compile quá sâu + quá nhiều modality + emotional reinforcement
+    → 🟢 Alzheimer's: mất schema MỚI trước, schema CŨ NHẤT mất SAU CÙNG
+      → = Bằng chứng gradient depth (decay = nghịch với depth)
+
+  → Depth = f(số lần lặp × số modality × emotional weight)
+  → Depth CAO = mờ CHẬM = gần permanent
+  → Depth THẤP = mờ NHANH = cần maintain
+
+
+INTERFERENCE — Schema mới ĐÈ schema cũ:
+
+  Không chỉ decay tự nhiên — còn bị CẠNH TRANH:
+    Não có resource HỮU HẠN (synapse, myelin, glucose)
+    → Schema đang dùng = reinforce = mạnh hơn
+    → Schema không dùng = không reinforce = yếu dần
+    → Schema mới CÓ THỂ dùng cùng neurons/pathways
+    → = Schema mới "chiếm chỗ" schema cũ
+
+  Ví dụ: lái xe số sàn → chuyển số tự động 10 năm
+    → Schema "đạp côn + vào số" BỊ ĐÈ bởi "chỉ cần D + ga"
+    → Không chỉ mờ vì không dùng
+    → Còn bị INTERFERENCE từ schema mới tương tự nhưng khác
+
+  🟢 2 loại interference (established cognitive psychology):
+    Proactive interference: schema CŨ cản schema MỚI
+      ("quen số sàn → khó học số tự động ban đầu")
+    Retroactive interference: schema MỚI đè schema CŨ
+      ("quen số tự động rồi → quên số sàn dần")
+
+
+REACTIVATION — Schema mờ có thể LÀM RÕ lại:
+
+  Schema mờ ≠ schema mất:
+    → Synapse yếu nhưng VẪN CÒN → reactivate DỄ HƠN học mới
+    → "Học lại" nhanh hơn "học lần đầu" = savings effect 🟢
+    → Vì: không cần build pathway mới → chỉ REINFORCE pathway cũ
+
+  Ví dụ: bơi sau 15 năm
+    → Học bơi lần đầu: 3 tháng
+    → Học lại sau 15 năm: 1-2 buổi body "nhớ lại"
+    → Savings = ~95% — pathway CÒN, chỉ cần kích hoạt
+
+  → INSIGHT: schema compiled = INVESTMENT dài hạn
+  → Dù không dùng → vẫn có giá trị khi cần
+  → Não KHÔNG xóa — chỉ giảm priority
+  → Reactivate khi cần = rẻ hơn nhiều so với học mới
+```
+
 ### 5.4 Sửa đúng lớp = sửa đúng MODALITY
 
 ```

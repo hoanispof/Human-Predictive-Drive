@@ -253,6 +253,48 @@ Nhiều người nói "muốn tiền" hoặc "muốn an toàn" — nhưng GỐC 
     Schema xã hội: translate thành "muốn TIỀN" hoặc "muốn QUYỀN" (verbal label)
     → Verbal label ĐÚNG 1 PHẦN → nhưng miss: tiền/quyền = PROXY, body-needs = GỐC
     → → Có tiền nhưng Lớp 1 THIẾU → "có tiền mà VẪN KHỔ" → vì proxy ≠ gốc
+
+  EVIDENCE — Status → Sinh tồn + Hưởng thụ (confirmed by research):
+
+  🟢 Whitehall Studies (Michael Marmot, 1978-2004):
+    → 18,000 công chức Anh, theo dõi 25+ năm
+    → TẤT CẢ đều có lương ổn + bảo hiểm y tế (loại bỏ yếu tố nghèo)
+    → Phát hiện: rank CAO hơn = sống LÂU hơn, bệnh ÍT hơn
+    → GRADIENT rõ ràng: MỖI bậc rank cao hơn = tuổi thọ tăng thêm
+    → Rank thấp: cortisol baseline CAO hơn = stress mãn tính
+    → = Status TRỰC TIẾP thay đổi sinh lý → ảnh hưởng tuổi thọ
+    → Không phải vì tiền (tất cả đều đủ sống) → vì RANK
+
+  🟢 Robert Sapolsky — Baboon research (30+ năm, Kenya):
+    → Khỉ đầu chó rank THẤP: cortisol mãn tính CAO
+      → Tim mạch xấu hơn, miễn dịch yếu hơn
+      → Béo bụng nhiều hơn, vết thương lành chậm hơn
+    → Khỉ rank CAO: cortisol THẤP, sức khỏe TỐT hơn mọi chỉ số
+    → KEY FINDING: khi rank THAY ĐỔI → sinh lý THAY ĐỔI THEO
+      → Khỉ được lên rank → cortisol giảm, sức khỏe cải thiện
+      → Khỉ bị hạ rank → cortisol tăng, sức khỏe xấu đi
+    → = Status không chỉ "cảm giác" — nó THAY ĐỔI BODY thật sự
+
+  🟢 Pattern xuyên loài + xuyên lịch sử:
+    → Mọi loài xã hội: rank cao = ăn ngon hơn, giao phối nhiều hơn, sống lâu hơn
+    → Mọi nền văn minh: vua/quý tộc = thức ăn tốt nhất, y tế tốt nhất, nhà tốt nhất
+    → Hiện đại: CEO tuổi thọ trung bình CAO hơn nhân viên
+    → = "Khát danh vọng" KHÔNG phải lỗi → là FEATURE tiến hóa:
+      Tổ tiên không khát status → ít sinh tồn → ít gen truyền lại
+      Chúng ta = hậu duệ của những người KHÁT STATUS NHẤT
+
+  → Tại sao danh vọng luôn được đề cao trong LỊCH SỬ:
+    Status = amplifier → access body-needs DỄ HƠN → sống lâu hơn + sướng hơn
+    → NÃO tiến hóa: serotonin system = theo dõi status LIÊN TỤC
+    → Vì status THẬT SỰ quyết định sinh tồn + hưởng thụ (evidence ở trên)
+    → KHÔNG phải "xã hội dạy phải muốn status" → MÀ "body BIẾT status = sống tốt hơn"
+
+  → NHƯNG framework cũng nói:
+    Status = AMPLIFIER (Lớp 2), không phải SOURCE (Lớp 1)
+    Amplify cái TRỐNG = vẫn trống
+    Status cao + Lớp 1 thiếu = "thành công nhưng trống rỗng"
+    → Danh vọng HOẠT ĐỘNG (tăng access) → nên được đề cao
+    → Danh vọng KHÔNG ĐỦ (chỉ amplify, không source) → nên không phải đích cuối
 ```
 
 ### 4.2 Tại sao Status AMPLIFY được — cơ chế

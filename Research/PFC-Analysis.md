@@ -857,6 +857,107 @@ THAI NHI → 2 TUỔI:
 
 ---
 
+### 4.1 PFC Qua Tiến Hóa — Từ Tăng → Peak → Optimize
+
+> §4 mô tả PFC qua ĐỜI NGƯỜI. §4.1 mô tả PFC qua LOÀI NGƯỜI.
+> 2 timeline khác nhau, cùng pattern: tăng → peak → optimize.
+
+```
+🟢 Timeline tiến hóa não + PFC (từ fossil endocasts):
+
+  Homo habilis (~2.5 triệu năm):
+    Não: ~600 cm³ | PFC: nhỏ, thùy trán chưa phát triển
+    → Công cụ đá đơn giản
+
+  Homo erectus (~1.8 triệu năm):
+    Não: ~900 cm³ (+50%) | PFC: bắt đầu mở rộng
+    → Lửa, công cụ phức tạp, di cư xa
+
+  Homo heidelbergensis (~600,000 năm):
+    Não: ~1200 cm³ (+33%) | PFC: tiếp tục mở rộng
+    → Tổ tiên chung Neanderthal + Sapiens
+
+  Neanderthal (~400,000 năm):
+    Não: ~1500 cm³ (LỚN NHẤT trong Homo)
+    Nhưng: visual cortex lớn hơn, PFC KHÔNG lớn hơn tương đối
+    Hộp sọ: dài, dẹt phía trước
+
+  Homo sapiens (~300,000 năm):
+    Não: ~1350 cm³ (nhỏ hơn Neanderthal)
+    Nhưng: PFC TỈ LỆ lớn nhất so với tất cả species
+    Hộp sọ: tròn, cao phía trước = chứa PFC lớn
+    + Language areas + social processing areas PHÁT TRIỂN
+
+  → TREND 2.5 triệu năm: não TĂNG + PFC TĂNG TỈ LỆ
+
+
+🟢 Bất ngờ: não Sapiens ĐÃ GIẢM 30,000 năm gần đây
+
+  Sapiens ~100,000 năm trước: ~1500 cm³
+  Sapiens ~30,000 năm trước:  ~1500 cm³ (PEAK)
+  Sapiens hiện đại:           ~1350 cm³ (-10%)
+
+  → Established từ fossil record — không tranh cãi
+  → "Encephalization reversal" — não ĐANG nhỏ lại
+
+
+🟡 Tại sao giảm? — 4 hypothesis (chưa settled, có thể kết hợp):
+
+  ① Efficiency > Size:
+     Não nhỏ hơn nhưng WIRED TỐT HƠN (synapse quality > quantity)
+     Giống laptop 2025 nhỏ hơn mainframe 1990 nhưng mạnh hơn
+     = Optimization, không phải degradation
+
+  ② Externalization (outsource):
+     Chữ viết = external memory → não bớt cần nhớ
+     Xã hội = external PFC → cá nhân bớt cần plan MỌI THỨ
+     Công cụ = external motor → não bớt cần compute motor
+     = Não GIẢM vì CÔNG CỤ + XÃ HỘI làm thay 1 phần function
+
+  ③ Self-domestication (tự thuần hóa):
+     Sống tập thể → người hung hăng bị loại (giết/đuổi)
+     Chọn lọc cho cooperative > aggressive
+     Domesticated animals cũng não nhỏ hơn wild (chó < sói ~15%)
+     = Con người "tự thuần hóa" → não nhỏ hơn nhưng social hơn
+
+  ④ Energy optimization:
+     Não = 2% body weight nhưng 20% energy
+     Khi có agriculture → không cần brain power CỰC LỚN để survive
+     Giảm size → tiết kiệm calories → survival advantage
+     = Nhỏ hơn nhưng đủ dùng
+
+
+🟡 Map vào framework — Outsource trajectory:
+
+  Con người ĐÃ outsource brain function ra ngoài suốt lịch sử:
+
+  ~100,000 năm: language = outsource COMMUNICATION
+    → Không cần gestures phức tạp → verbal transfer schemas
+  ~5,000 năm: chữ viết = outsource MEMORY
+    → Không cần nhớ hết → ghi ra → đọc lại
+  ~500 năm: in ấn = outsource KNOWLEDGE DISTRIBUTION
+    → Không cần gặp trực tiếp → sách transfer chunks
+  ~50 năm: máy tính = outsource CALCULATION
+    → Không cần tính nhẩm → máy tính nhanh hơn
+  ~30 năm: internet = outsource KNOWLEDGE ACCESS
+    → Không cần thư viện vật lý → search online
+  BÂY GIỜ: AI = outsource PFC DRAFT
+    → Không cần draft 1 mình → AI draft + cross-reference
+
+  Mỗi lần outsource:
+    → Não CÓ THỂ giảm phần đó (energy saving)
+    → HOẶC redirect resource sang việc khác (social, creative)
+    → Trend 30,000 năm: giảm size, tăng efficiency, tăng outsource
+
+  Câu hỏi mở:
+    AI outsource PFC draft → não sẽ redirect resource sang ĐÂU?
+    → Social processing? Emotional depth? Somatic awareness?
+    → Hay: não GIẢM TIẾP vì AI làm thay đủ?
+    → Chưa ai biết — nhưng TREND rõ ràng
+```
+
+---
+
 ## 5. PFC Training — Improve Arbitration
 
 ### 5.1 Cái gì KHÔNG train được (hardware ceiling)
@@ -1088,6 +1189,164 @@ KB4 MAP VÀO FRAMEWORK:
     TMS disrupt PFC giữa chừng → cho thêm thời gian → recover?
     KB4: KHÔNG recover (workspace MẤT, time không giúp)
     KB2: recover (PFC compute lại khi TMS off)
+```
+
+---
+
+## 7.1 Tại Sao Không 100% PFC? — Trade-off Linh Hoạt vs Tốc Độ
+
+> Câu hỏi tự nhiên: nếu PFC linh hoạt, draft bất kỳ gì, tại sao evolution
+> không biến TOÀN BỘ não thành PFC cho tiện?
+> Câu trả lời: vì PHYSICS không cho phép cùng 1 neuron vừa cố định vừa linh hoạt.
+
+```
+🟢 TRADE-OFF PHẦN CỨNG — không thể có cả hai:
+
+  PFC (Draft mode — linh hoạt):
+    ✅ Draft BẤT KỲ pattern nào — xóa nhanh, tạo mới trong giây
+    ✅ Cross-domain — kết nối bất kỳ gì với bất kỳ gì
+    ✅ Handle tình huống MỚI — chưa gặp bao giờ vẫn draft được
+    ❌ CHẬM — mỗi draft build from scratch
+    ❌ TỐN NĂNG LƯỢNG — neurons fire pattern MỚI mỗi lần (glucose + oxygen)
+    ❌ KHÔNG CHÍNH XÁC — draft = ước lượng, chưa tinh chỉnh
+    ❌ CAPACITY NHỎ — chỉ hold ~7 items cùng lúc
+    ❌ MỆT NHANH — dùng nhiều = kiệt sức
+
+  Vô thức (Compiled mode — cố định):
+    ✅ CỰC NHANH — pattern wired sẵn, fire tức thì
+    ✅ CỰC CHÍNH XÁC — tinh chỉnh qua hàng nghìn lần lặp
+    ✅ TIẾT KIỆM — synapse myelin hóa, ít năng lượng
+    ✅ CHẠY SONG SONG — nhiều schemas đồng thời
+    ✅ KHÔNG MỆT — tự động, không tốn "effort"
+    ❌ CỨNG — đổi 1 compiled schema = cực khó, cực lâu
+    ❌ HỌC CHẬM — cần 100-10,000 lần lặp để compile
+    ❌ Tình huống MỚI = KHÔNG xử lý được (chỉ pattern cũ)
+
+  TẠI SAO không thể có cả hai ở CÙNG 1 neuron:
+    Synapse MẠNH (nhanh, chính xác) = CỐ ĐỊNH hướng → mất linh hoạt
+    Synapse YẾU (linh hoạt, temporary) = CHẬM, thiếu chính xác
+    → Cùng 1 synapse KHÔNG THỂ vừa mạnh-cố-định vừa yếu-linh-hoạt
+    → Phải TÁCH vùng não: vùng chuyên cố định + vùng chuyên linh hoạt
+    → = Vô thức (~90% cortex) + PFC (~10% cortex)
+
+  Tỉ lệ ~10% PFC / ~90% vô thức = evolution optimization:
+    → Loài PFC quá lớn: tốn năng lượng quá → không sống sót
+    → Loài PFC quá nhỏ: không adapt tình huống mới → cũng chết
+    → Con người = sweet spot: PFC ĐỦ LỚN draft complex + vô thức ĐỦ RỘNG execute nhanh
+```
+
+### 7.1.1 Pipeline: PFC Draft Từ Vô Thức, Không Từ Hư Không
+
+```
+🟡 Suy luận từ framework + consistent với neuroscience:
+
+  PFC KHÔNG tạo schema từ zero:
+    → PFC LẤY patterns từ vô thức (kinh nghiệm, body memory)
+    → REMIX: "pattern A từ domain X + pattern B từ domain Y → thử ghép?"
+    → Draft = REMIX existing, không phải invention from nothing
+
+  PIPELINE hoàn chỉnh:
+
+    ① VÔ THỨC có sẵn patterns (nguyên liệu)
+       → Tích lũy từ mọi experience trước đó
+       → Đây là KHO NGUYÊN LIỆU cho PFC
+       ↓
+    ② PFC LẤY + REMIX (draft prototype)
+       → Kết hợp patterns từ nhiều vùng vô thức
+       → Tạo draft schema MỚI (chưa test)
+       ↓
+    ③ GỬI DRAFT XUỐNG vô thức + body TEST
+       → Vô thức simulate: "pattern này chạy có ổn không?"
+       → Body response: "feel đúng" hoặc "feel sai"
+       ↓
+    ④ PFC NHẬN feedback → adjust draft
+       → Sai → sửa draft → gửi test lại (loop)
+       → Đúng → tiếp tục
+       ↓
+    ⑤ Draft OK + lặp lại nhiều lần → COMPILE
+       → Synapse mạnh dần → myelin dày dần
+       → Chuyển từ PFC workspace → vô thức
+       ↓
+    ⑥ PFC GIẢI PHÓNG → sẵn sàng draft việc MỚI
+       → Workspace trống → capacity cho task tiếp theo
+
+  3 thành phần KHÔNG AI TỰ ĐỦ:
+    PFC không có vô thức → draft từ hư không = rác
+    Vô thức không có PFC → chạy pattern cũ mãi, không adapt
+    Body không có cả hai → chỉ có nhu cầu, không có giải pháp
+
+  METAPHOR:
+    PFC = Xưởng chế tạo PROTOTYPE (tốn kém, chậm, linh hoạt, 1 cái/lần)
+    Vô thức = Dây chuyền SẢN XUẤT (rẻ, nhanh, cố định, triệu cái/lần)
+    Body = Khách hàng cuối (accept hoặc reject sản phẩm)
+
+    Chế cái xe ĐẦU TIÊN = xưởng prototype tốn cực kỳ
+    Khi đã có thiết kế → dây chuyền chạy triệu cái = gần zero effort mỗi cái
+    PFC "sản xuất xong" schema → giao vô thức → giải phóng capacity
+
+  VÍ DỤ CỤ THỂ — Lái xe:
+    Ngày 1:   PFC draft TỪNG BƯỚC (gương, côn, số, ga, phanh...)
+              → Chậm, mệt, sai liên tục, phải NGHĨ từng động tác
+    Tháng 6:  Compiled → vô thức chạy tự động
+              → Nhanh, không mệt, chính xác, ĐỒNG THỜI nói chuyện được
+    → PFC "giao xong" schema lái xe → workspace TRỐNG → draft việc khác
+
+  VÍ DỤ — PFC giữ hết, không compile (giả sử):
+    10 năm lái xe vẫn phải NGHĨ từng bước
+    PFC workspace BỊ CHIẾM bởi lái xe
+    KHÔNG CÒN chỗ draft cái mới
+    = THẢM HỌA capacity
+```
+
+### 7.1.2 Sửa Vô Thức = Áp Thêm, Không Xóa
+
+```
+🟡 Consistent với exposure therapy research + schema theory:
+
+  Compiled schema (vô thức) KHÔNG BỊ "XÓA + VIẾT LẠI":
+    → Synapse đã mạnh = rất khó phá
+    → Evolution KHÔNG thiết kế "nút xóa" cho compiled schemas
+    → Vì: schema compiled = đã CHỨNG MINH hữu ích ít nhất 1 lần
+    → Xóa = MẤT kinh nghiệm sống sót → nguy hiểm
+
+  Thay vào đó: ÁP SCHEMA PHỤ bên cạnh
+
+    Ví dụ: "sợ chó" (compiled từ bé bị chó cắn)
+      → PFC KHÔNG XÓA được "sợ chó" (synapse quá mạnh)
+      → PFC tạo draft: "chó hiền, ok" (schema phụ)
+      → Lặp lại nhiều lần (gặp chó hiền → OK → gặp lại → OK)
+      → Schema phụ COMPILE dần
+      → Giờ có 2 schemas: "sợ chó" + "chó hiền ok"
+      → 2 schemas CẠNH TRANH nhau mỗi khi gặp chó
+      → Context quyết định: chó lạ → "sợ" thắng. Chó quen → "ok" thắng
+      → Qua thời gian: "chó ok" thắng nhiều hơn → "sợ chó" YẾU DẦN
+      → NHƯNG "sợ chó" KHÔNG BAO GIỜ mất hẳn
+
+    → = Exposure therapy hoạt động CHÍNH XÁC theo cơ chế này 🟢
+    → Tạo schema MỚI cạnh tranh với schema CŨ, không xóa schema cũ
+
+  Hệ quả quan trọng — Tại sao RELAPSE:
+    → Stress cao / mệt / PFC offline → schema MỚI (yếu hơn) bị suppress
+    → Schema CŨ (mạnh hơn, sâu hơn) QUAY LẠI
+    → = "Tưởng đã hết sợ chó → stress → sợ lại"
+    → Không phải "trị không hết" → mà schema cũ VẪN CÒN, chỉ bị ÁT
+
+    METAPHOR:
+      Không phá máy cũ trong nhà máy
+      → Xây máy MỚI bên cạnh → máy mới chạy nhiều hơn → máy cũ ít dùng
+      → Nhưng máy cũ VẪN CÒN → cúp điện máy mới = máy cũ chạy lại
+      → Cúp điện = stress/mệt → PFC offline → schema mới tắt → schema cũ ON
+
+  Compiled schema cũng MỜ DẦN khi không dùng:
+    → Chi tiết: Schema-Atlas.md §5.3.1 (Schema Decay & Reactivation)
+    → Synapse yếu dần + bị schema mới đè (interference)
+    → Nhưng KHÔNG mất hẳn → reactivate rẻ hơn học mới (savings effect)
+
+  Hệ quả cho learning/thay đổi thói quen:
+    → "Bỏ thói quen xấu" = KHÔNG XÓA thói quen xấu
+    → = TẠO thói quen MỚI ĐỦ MẠNH để THẮNG thói quen cũ ĐỦ THƯỜNG XUYÊN
+    → Cần: lặp lại đủ nhiều + đủ lâu + maintain (vì schema cũ vẫn còn)
+    → Nếu dừng maintain quá lâu → schema cũ có thể quay lại
 ```
 
 ---

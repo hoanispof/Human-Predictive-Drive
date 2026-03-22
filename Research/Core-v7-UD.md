@@ -60,6 +60,53 @@ MỚI (Schema-Drive): Schema phát hiện body CẦN gì → MONG MUỐN cụ th
   → Predict chính xác = tìm cách đáp ứng mong muốn NHANH hơn
   → Predict sai = đáp ứng SAI = body reject = update prediction
   → Learning = cải thiện prediction để ĐÁP ỨNG mong muốn HIỆU QUẢ hơn
+
+  VÒNG PHẢN HỒI 2 CHIỀU (Schema ↔ Body Feedback Loop):
+  ┌─────────────────────────────────────────────────────────────┐
+  │                                                             │
+  │  Body-need ──→ Schema DRIVE hành vi ──→ Body trải nghiệm   │
+  │      ↑                                        │             │
+  │      │          Body đánh giá: "đủ chưa?"     ↓             │
+  │      │                                        │             │
+  │      └──── Satisfaction Signal ←── Body xác nhận "đủ"       │
+  │            (body báo schema dừng)                            │
+  │                                                             │
+  │  → Schema-Drive mới nổi lên → loop tiếp                    │
+  └─────────────────────────────────────────────────────────────┘
+
+  ASYMMETRY quan trọng:
+    DRIVE:    Schema → Body  (schema ĐIỀU KHIỂN body — phức tạp, nhiều kênh)
+    SATISFY:  Body → Schema  (body BÁO schema đủ rồi — đơn giản, 1 signal)
+
+    Chiều DRIVE (Schema → Body) = phức tạp:
+      Schema "muốn X" → kéo ĐỒNG THỜI nhiều hệ thống:
+        Hormone (cortisol, dopamine, NE → urgency + motivation)
+        Motor (plan + thực hiện chuyển động)
+        Attention (visual/auditory shift tới target)
+        Memory (recall thông tin liên quan)
+        PFC (plan strategy, simulate options)
+        Autonomic (nhịp tim, tiêu hóa, hô hấp adjust)
+      → Giống KÉO DÂY CON RỐI — nhiều dây cùng lúc, mỗi dây 1 hệ thống
+      → KHÔNG phải 1 tín hiệu → mà là ORCHESTRATION phức tạp
+
+    Chiều SATISFY (Body → Schema) = đơn giản hơn:
+      Body xác nhận "đủ" → release signal (prolactin candidate)
+      → 1 MESSAGE rõ: "dừng"
+      → Schema nhận → drive GIẢM → hành vi dừng
+
+    → 2 chiều NGƯỢC NHAU, 2 NGUỒN KHÁC NHAU, 2 ĐỘ PHỨC TẠP KHÁC NHAU
+    → Schema KHÔNG TỰ biết đủ — phải CHỜ body báo (signal đơn giản)
+    → Body KHÔNG TỰ drive — phải CHỜ schema điều khiển (orchestration phức tạp)
+    → KHÔNG chiều nào tự đủ — cả hai PHỤ THUỘC lẫn nhau
+    → Đây là lý do giữ tên "Satisfaction Signal" (body phát, đơn giản)
+      thay vì "Schema-Satisfaction" (sai nguồn phát)
+
+  SHORTHAND:
+    Drive ↔ Satisfy = 2 chiều của loop
+    Drive   = gọn cho Schema-Drive         (schema → body, phức tạp)
+    Satisfy = gọn cho Satisfaction Signal   (body → schema, đơn giản)
+    → Dùng shorthand khi nói về LOOP, overview
+    → Dùng tên đầy đủ khi PHÂN TÍCH cơ chế chi tiết
 ```
 
 ```
