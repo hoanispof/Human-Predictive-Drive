@@ -1356,101 +1356,341 @@ KB4 MAP VÀO FRAMEWORK:
 > Improviser vs Specialist KHÔNG chỉ do thói quen — HARDWARE receptor/enzyme KHÁC nhau.
 > Gen set TENDENCY → training build ON TOP → nhưng hardware = floor + ceiling.
 
+### 8.0 2 Thuộc Tính PFC Hardware Chính — Độc Lập Nhau
+
 ```
-3 GEN CHÍNH ảnh hưởng Schema-Drive switching:
+🟢 PFC KHÔNG phải 1 "nút chỉnh" duy nhất.
+   Có ÍT NHẤT 2 thuộc tính hardware CHÍNH:
 
-① DRD4 (Dopamine Receptor D4) 🟢 proven
-   → Gen DRD4 có nhiều variant: 2-repeat, 4-repeat, 7-repeat
-   → 7-repeat: receptor KÉMHIỆU QUẢ → cùng dopamine → FEEL ÍT HƠN
-   → = Cần MORE stimulation để cùng mức reward → "chán nhanh"
-   → Tần suất 7-repeat: ~20% dân số → consistent ~15-20% improviser
-   → Research: Ebstein et al. (1996), Benjamin et al. (1996)
+   ⚠️ LƯU Ý: Capacity và Clear Speed là HIỆN TƯỢNG CÓ THẬT
+   (quan sát được, đo được — người khác nhau rõ ràng).
+   Research (COMT, DRD4,...) là CANDIDATE tốt nhất hiện tại
+   để giải thích cơ chế — KHẢNĂNG CAO map đúng, nhưng chưa chắc
+   TUYỆT ĐỐI chính xác. Cần nhiều người xác nhận + replicate thêm.
+   Framework dùng với mức tin cậy này, không treat như fact tuyệt đối.
 
-   4-repeat (phổ biến ~60%):
-     Dopamine: đủ reward từ stimulus VỪA → ở lại lâu → specialist tendency
-   7-repeat (~20%):
-     Dopamine: cần stimulus MẠNH hơn/MỚI hơn → switch nhanh → improviser tendency
+  ┌─────────────┬──────────────┬──────────────┐
+  │             │ ① CAPACITY   │ ② CLEAR SPEED│
+  ├─────────────┼──────────────┼──────────────┤
+  │ Là gì       │ Workspace    │ Tốc độ xóa   │
+  │             │ size: hold   │ draft cũ để  │
+  │             │ bao nhiêu    │ nhường chỗ   │
+  │             │ items cùng   │ draft mới    │
+  │             │ lúc          │              │
+  ├─────────────┼──────────────┼──────────────┤
+  │ Hardware    │ PFC size +   │ COMT variant │
+  │             │ connection   │ (PFC-specific│
+  │             │ density      │ enzyme)      │
+  ├─────────────┼──────────────┼──────────────┤
+  │ CAO =       │ Hold nhiều   │ Clear nhanh  │
+  │             │ items →      │ → workspace  │
+  │             │ complex      │ TRỐNG nhanh  │
+  │             │ draft        │ → fresh      │
+  │             │              │ rebuild      │
+  ├─────────────┼──────────────┼──────────────┤
+  │ THẤP =      │ Hold ít      │ Clear chậm   │
+  │             │ items →      │ → draft GIỮA │
+  │             │ simple       │ LÂU →        │
+  │             │ draft        │ incremental  │
+  │             │              │ modify       │
+  ├─────────────┼──────────────┼──────────────┤
+  │ Ảnh hưởng   │ CẢ improviser│ CHÍNH cho    │
+  │             │ VÀ specialist│ Improviser   │
+  │             │ đều lợi     │ vs Specialist│
+  │             │              │ tendency     │
+  ├─────────────┼──────────────┼──────────────┤
+  │ Evidence    │ Neuroanatomy │ COMT research│
+  │             │ established  │ well-        │
+  │             │              │ replicated   │
+  └─────────────┴──────────────┴──────────────┘
 
-② COMT (Catechol-O-Methyltransferase) 🟢 proven
+  → COMT Clear Speed = yếu tố CHÍNH cho Improviser vs Specialist (confirmed)
+  → Capacity = yếu tố chung (cả hai đều lợi khi capacity lớn)
+  → 2 thuộc tính INDEPENDENT → tạo ra NHIỀU profiles
+  → Improviser/Specialist = 2 ĐẦU CỰC, hầu hết người ở GIỮA
+  → Capacity lớn + Clear nhanh = "improviser có chiều sâu"
+  → Capacity lớn + Clear chậm = "specialist có chiều rộng"
+  → Capacity nhỏ + Clear nhanh = "nhảy lung tung, không sâu"
+  → Capacity nhỏ + Clear chậm = "chậm và hẹp"
+
+  ℹ️ DRD4 có thể là thuộc tính thứ 3 — nhưng CHƯA CHẮC:
+  → Data: 7R receptor kém nhạy (measured) + 7R novelty seek cao (observed)
+  → Nếu Hypothesis A đúng (DRD4 ảnh hưởng PFC draft retention):
+    → DRD4 = "nút chỉnh" THỨ 2 cho Clear Speed (qua receptor, thay vì enzyme)
+    → COMT clear bằng ENZYME (phân hủy dopamine ngoài synapse)
+    → DRD4 clear bằng RECEPTOR (nhận dopamine yếu hơn → signal yếu → draft yếu)
+    → 2 con đường KHÁC NHAU → CÙNG EFFECT: draft retention thay đổi
+    → Nếu đúng: COMT + DRD4 = compound effect, không phải 2 thuộc tính riêng
+  → Nếu Hypothesis B/C đúng: DRD4 ảnh hưởng qua pathway khác hoặc chỉ là marker
+  → → Chờ research thêm — framework KHÔNG dựa vào DRD4 cho kết luận
+```
+
+### 8.0.1 Clear Speed — Cơ Chế PFC Draft Khác Biệt Giữa Improviser vs Specialist
+
+```
+🟡 Hypothesis (supported by COMT research):
+
+  COMT Met/Met (clear CHẬM) = SPECIALIST draft mode:
+  ┌──────────────────────────────────────────────────────┐
+  │ Dopamine ở LÂU trong PFC                             │
+  │ → Draft KHÔNG bị xóa nhanh                           │
+  │ → Working memory GIỮ draft → sửa TRÊN NỀN draft cũ  │
+  │                                                       │
+  │ Quy trình:                                           │
+  │   Draft v1: [A]-[B]-[C]-[D]                          │
+  │   Sửa: xóa [C] → viết [C'] (liên quan A,B,D)       │
+  │   Draft v2: [A]-[B]-[C']-[D]                         │
+  │   Sửa: xóa [B] → viết [B'] (liên quan A,C',D)      │
+  │   → INCREMENTAL modification                         │
+  │   → Mỗi phần mới BUỘC liên quan phần còn lại        │
+  │   → = ĐÀO SÂU trong 1 hướng                        │
+  │   → Mạnh: chính xác, nhất quán, deep                 │
+  │   → Yếu: khó break khỏi hướng đã chọn (tunnel vision)│
+  └──────────────────────────────────────────────────────┘
+
+  COMT Val/Val (clear NHANH) = IMPROVISER draft mode:
+  ┌──────────────────────────────────────────────────────┐
+  │ Dopamine bị CLEAR NHANH khỏi PFC                     │
+  │ → Draft bị "xóa" trước khi sửa xong                 │
+  │ → Workspace TRỐNG → sẵn sàng draft HOÀN TOÀN MỚI    │
+  │                                                       │
+  │ Quy trình:                                           │
+  │   Draft v1: [A]-[B]-[C]-[D]                          │
+  │   Clear: [ ]-[ ]-[ ]-[ ] (workspace trống)           │
+  │   Input mới từ vô thức → context mới                  │
+  │   Draft v2: [X]-[Y]-[Z]-[W] (KHÁC HẲN v1)           │
+  │   → FRESH rebuild từ input mới                        │
+  │   → KHÔNG bị constrain bởi draft cũ                  │
+  │   → = NHẢY sang hướng hoàn toàn khác                 │
+  │   → Mạnh: cross-domain, creative, unexpected          │
+  │   → Yếu: thiếu depth, inconsistent, "nhảy lung tung" │
+  └──────────────────────────────────────────────────────┘
+
+  → Specialist: SỬA bản vẽ (refine cái ĐÃ CÓ)
+  → Improviser: VẼ LẠI hoàn toàn (tạo MỚI từ input mới)
+  → KHÔNG phải ai "giỏi hơn" — 2 CHIẾN LƯỢC khác nhau
+  → Cả hai đều CẦN: improviser TÌM hướng mới + specialist ĐÀO SÂU hướng đó
+```
+
+### 8.1 Chi Tiết Các Gen Liên Quan
+
+```
+CÁC GEN ảnh hưởng PFC behavior — xếp theo EVIDENCE STRENGTH:
+
+① COMT (Catechol-O-Methyltransferase) 🟢 CHÍNH — well-replicated
    → Enzyme phân hủy dopamine TẠI PFC (chỉ ở PFC, không toàn não)
    → Val/Val: enzyme NHANH → dopamine ở PFC clear NHANH → PFC flexible nhưng unstable
    → Met/Met: enzyme CHẬM → dopamine ở PFC tồn tại LÂU → PFC stable nhưng less flexible
-   → Research: Egan et al. (2001) — well-replicated
+   → = YẾU TỐ CHÍNH tạo improviser vs specialist behavior
 
-   Met/Met:
-     PFC dopamine GIỮ LÂU → maintain focus → deep work dễ → specialist
+   Research gốc — Egan et al. (2001):
+     "Effect of COMT Val108/158Met genotype on frontal lobe function
+      and risk for schizophrenia"
+     → fMRI khi làm working memory tasks (Wisconsin Card Sort, N-back)
+     → Val/Val: PFC activation HIỆU QUẢ hơn khi SWITCH tasks
+     → Met/Met: PFC activation HIỆU QUẢ hơn khi MAINTAIN focus
+     → = 2 strategies, KHÔNG phải 1 giỏi 1 kém
+     → Well-replicated across multiple studies ✅
+
+   Met/Met (specialist hardware):
+     PFC dopamine GIỮ LÂU → draft PERSIST → incremental modify
+     → Sửa TỪNG PHẦN trên nền draft cũ → đi SÂU
      NHƯNG: switch context KHÓ → "stuck" khi cần change
-   Val/Val:
-     PFC dopamine CLEAR NHANH → switch dễ → flexible → improviser
+
+   Val/Val (improviser hardware):
+     PFC dopamine CLEAR NHANH → draft BIẾN MẤT → fresh rebuild
+     → Workspace TRỐNG → input mới từ vô thức → draft HOÀN TOÀN MỚI
      NHƯNG: maintain focus KHÓ → "nhảy" liên tục
 
-③ MAO-A (Monoamine Oxidase A) 🟢 proven
+   Logic KHÔNG mâu thuẫn:
+     Val/Val switch nhiều KHÔNG phải vì "muốn" switch
+     → Mà vì draft CŨ MẤT → BUỘC phải build mới → mới CÓ THỂ từ domain khác
+     Met/Met ở lại KHÔNG phải vì "không muốn" switch
+     → Mà vì draft CŨ CÒN → chưa có chỗ cho draft mới → buộc đi sâu
+
+② MAO-A (Monoamine Oxidase A) 🟢 BỔ SUNG — replicated
    → Enzyme phân hủy dopamine + serotonin TOÀN NÃO
    → LOW activity: dopamine + serotonin TỒN TẠI LÂU hơn
    → HIGH activity: dopamine + serotonin BỊ CLEAR NHANH hơn
-   → HIGH MAO-A: dopamine spike → clear NHANH → cần spike MỚI sớm
    → Research: Shih et al. (1999)
 
-COMBINATION → profile:
-  DRD4 7-repeat + COMT Val/Val + MAO-A high:
-    = CẦN NHIỀU stimulus + CLEAR NHANH + SWITCH DỄ
-    = Hardware improviser → chán nhanh, switch nhanh, cross-domain
-    = ~15-20% dân số
+   → Khác COMT ở SCOPE:
+     COMT = clear dopamine trong PFC (local, PFC-specific)
+     MAO-A = clear dopamine + serotonin TOÀN NÃO (global)
+     → 2 "nút chỉnh" KHÁC NHAU:
+       COMT = PFC draft management (improviser/specialist)
+       MAO-A = mood + energy overall (stable/volatile)
+     → Có thể COMT nhanh + MAO-A chậm = improviser PFC + stable mood
+     → Hoặc COMT chậm + MAO-A nhanh = specialist PFC + mood dao động
 
-  DRD4 4-repeat + COMT Met/Met + MAO-A low:
-    = ĐỦ VỚI ÍT stimulus + GIỮ LÂU + MAINTAIN TỐT
-    = Hardware specialist → chán chậm, ở lại lâu, deep domain
-    = ~60-70% dân số
+③ DRD4 (Dopamine Receptor D4) ⚠️ CÓ VẤN ĐỀ — evidence YẾU + logic MÂU THUẪN
+
+   ⚠️ FRAMEWORK KHÔNG SỬ DỤNG DRD4 LÀM CƠ CHẾ CHÍNH.
+   Ghi lại để tham khảo và giải thích TẠI SAO KHÔNG DÙNG.
+
+   Narrative phổ biến (pop science):
+     → 7-repeat receptor kém nhạy → cần nhiều dopamine → seek novelty nhiều
+     → 4-repeat receptor nhạy → đủ dopamine dễ → ở lại trong routine
+
+   LỖ HỔNG LOGIC (phát hiện khi phân tích framework):
+     Nếu 7R receptor kém nhạy dopamine:
+       → Novelty CŨNG cho ÍT reward hơn (novelty dùng cùng dopamine system)
+       → Gặp khó trong domain mới → reward ÍT → phải BỎ CUỘC sớm hơn?
+       → Switch domain cần XÂY schema nền → effort LỚN, reward NHỎ → tại sao chịu?
+     Nếu 4R receptor nhạy hơn:
+       → Novelty cho reward NHIỀU hơn → tại sao KHÔNG switch liên tục?
+       → Scroll MXH = sướng hơn → phải NGHIỆN hơn?
+       → Gặp khó → reward VẪN đủ → phải mò SÂU được → tại sao lại "specialist"?
+
+     → Logic "kém nhạy → seek MORE" có mâu thuẫn nội tại
+     → COMT giải thích cùng behavior KHÔNG mâu thuẫn:
+       Val/Val switch vì draft BỊ XÓA (hardware buộc), không phải vì "muốn" switch
+       Met/Met ở lại vì draft CÒN (hardware giữ), không phải vì "không muốn" switch
+
+   Evidence yếu:
+     → Ebstein et al. (1996): 124 người, effect size CHỈ ~10% variance
+     → Nhiều studies SAU không replicate (Munafò et al. 2008 meta-analysis)
+     → Publication bias: studies tìm thấy link dễ publish hơn
+     → Chỉ đo GENE ↔ BEHAVIOR correlation (tự báo cáo)
+     → KHÔNG đo: dopamine level, receptor binding in vivo, subjective pleasure
+
+   Hardware evidence — Van Tol et al. (1992):
+     → DRD4-7R gắn dopamine YẾU HƠN 4R ở mức phân tử (in vitro)
+     → = Receptor kém nhạy THẬT ở mức phân tử
+     → NHƯNG: in vitro (đĩa petri) ≠ in vivo (não thật)
+     → VÀ: receptor kém nhạy ≠ tự động giải thích behavior
+       (vì lỗ hổng logic ở trên)
+
+   TÁCH RÕ: DATA vs INTERPRETATION
+
+   🟢 DATA (đo đạc được — không thể bác bỏ):
+     → DRD4-7R receptor gắn dopamine YẾU HƠN 4R ở mức phân tử
+       (Van Tol et al. 1992 — in vitro, measured) = FACT
+     → Người mang DRD4-7R CÓ XU HƯỚNG score Novelty Seeking CAO hơn
+       (Ebstein 1996 + một số studies sau) = OBSERVATION có thật
+       (dù effect nhỏ ~10% và replication không hoàn toàn consistent)
+     → 2 data points này ĐỨNG VỮNG — bằng chứng đo đạc được
+
+   ❌ INTERPRETATION CŨ (có lỗ hổng — framework KHÔNG dùng):
+     "Vì kém nhạy → ít sướng → phải novelty nhiều hơn để bù cho bằng"
+     → MÂU THUẪN: kém nhạy = TẤT CẢ stimulation đều giảm, kể cả novelty
+     → Novelty CŨNG qua cùng receptor → CŨNG bị giảm
+     → Không có lý do logic để PREFER novelty over familiar
+     → (Xem chi tiết lỗ hổng ở phần trên)
+
+   🟡 INTERPRETATION MỚI (hypothesis — framework đề xuất):
+     Nếu data đúng (7R kém nhạy VÀ 7R novelty seek nhiều hơn),
+     thì cơ chế PHẢI KHÁC "kém nhạy → bù bằng seek more":
+
+     Hypothesis A — DRD4 ảnh hưởng PFC draft retention (khớp nhất):
+       → DRD4 receptor có NHIỀU ở PFC (không chỉ reward areas)
+       → 7R ở PFC = dopamine signal yếu hơn TRONG PFC cục bộ
+       → = PFC HOLD draft YẾU hơn (tương tự COMT Val/Val effect)
+       → = Draft clear dễ hơn → switch dễ hơn
+       → Novelty seeking KHÔNG phải vì "muốn reward hơn"
+       → Mà vì PFC KHÔNG GIỮ ĐƯỢC draft lâu → buộc phải switch
+       → = Cùng mechanism với COMT nhưng qua RECEPTOR thay vì ENZYME
+       → Nếu đúng: DRD4 + COMT = 2 "nút chỉnh" cho cùng 1 function (draft retention)
+
+     Hypothesis B — Tonic vs Phasic dopamine:
+       → 7R kém nhạy ở TONIC (baseline) → "ở yên = khó chịu" (baseline wanting thấp)
+       → Nhưng PHASIC spike (novelty) vẫn đủ lớn để vượt threshold dù 7R
+       → → "Ở yên = chán (tonic dưới threshold), novelty = OK (phasic trên threshold)"
+       → = Không phải "muốn nhiều hơn" → mà "ở yên KHÓ CHỊU hơn"
+
+     Hypothesis C — Gene linkage:
+       → 7R nằm trên chromosome 11 → gene KHÁC gần đó mới là driver
+       → DRD4 = MARKER, không phải CAUSE trực tiếp
+       → GWAS studies gần đây KHÔNG tìm DRD4 significant cho novelty
+       → = Ủng hộ hypothesis này
+
+     → Framework prefer Hypothesis A (khớp với COMT mechanism)
+     → Nhưng ghi cả 3 vì chưa ai chứng minh cái nào đúng
+
+   ℹ️ Berridge & Robinson (1998, 2003) — Wanting vs Liking:
+     Dopamine = WANTING (motivation tìm kiếm), KHÔNG phải LIKING (pleasure khi nhận)
+     Liking = chủ yếu opioid system
+     → Chuột block dopamine: vẫn THÍCH đường, nhưng KHÔNG TÌM đường
+     → Chuột kích thích dopamine: TÌM không ngừng, nhưng KHÔNG sướng hơn
+     → Phát hiện này QUAN TRỌNG cho framework (dùng ở Reward-Dual-System.md)
+     → NHƯNG không đủ giải quyết lỗ hổng DRD4 interpretation cũ:
+       Dù "wanting" chứ không phải "liking" — 7R vẫn "wanting" ÍT hơn 4R
+       → Vậy phải seek ÍT hơn, không phải nhiều hơn
+       → Lỗ hổng VẪN CÒN ở interpretation cũ
+       → Hypothesis A (PFC draft retention) giải quyết lỗ hổng này:
+         Không phải wanting nhiều/ít → mà HOLD draft được/không được
+
+COMBINATION đơn giản (không dùng DRD4):
+  COMT Val/Val + MAO-A high:
+    = CLEAR NHANH (PFC + toàn não) → draft turnover nhanh + mood shifts
+    = Hardware improviser → switch nhanh, cross-domain
+    = ~15-20% dân số (ước lượng)
+
+  COMT Met/Met + MAO-A low:
+    = GIỮ LÂU (PFC + toàn não) → draft stable + mood stable
+    = Hardware specialist → deep focus, trong domain
+    = ~60-70% dân số (ước lượng)
 
   Mixed variants:
     = T-shaped, balanced, hoặc context-dependent
-    = ~15-20% dân số
+    = ~15-20% dân số (ước lượng)
 
-⚠️ CƠ CHẾ CHÍNH XÁC:
-  KHÔNG phải "hormone biến động NHANH hơn" (fluctuation speed ≈ giống nhau)
-  MÀ LÀ: receptor/enzyme XỬ LÝ hormone KHÁC nhau:
-    → Cùng dopamine release → receptor KHÁC → FEEL khác → behavior KHÁC
-    → Cùng dopamine release → enzyme KHÁC → DURATION khác → switching KHÁC
-  = Cùng input → KHÁC hardware processing → KHÁC output
-  = Giống: 2 người cùng nghe 1 bài → tai KHÁC nhạy → 1 người "hay!" 1 người "chán"
+⚠️ CƠ CHẾ TÓM GỌN:
+  IMPROVISER vs SPECIALIST = chủ yếu do COMT (PFC clear speed):
+    → Cùng dopamine release → enzyme KHÁC → DURATION draft khác → behavior KHÁC
+    → Val/Val: draft CLEAR nhanh → BUỘC rebuild → cross-domain
+    → Met/Met: draft LINGER → tiếp tục trên draft cũ → deep domain
+    → = Hardware quản lý DRAFT, không phải hardware quản lý REWARD
+
+  KHÔNG phải:
+    ❌ "Hormone biến động NHANH hơn" (fluctuation speed ≈ giống nhau)
+    ❌ "Sướng ít hơn" (liking/opioid có thể giống nhau)
+    ❌ "Cần nhiều dopamine" (narrative DRD4 có lỗ hổng logic)
+
+  MÀ LÀ:
+    ✅ Draft bị XÓA nhanh hay GIỮA lâu trong PFC workspace
+    ✅ = Vấn đề DRAFT MANAGEMENT, không phải REWARD SENSITIVITY
 ```
 
-### 8.1 Implications cho Framework
+### 8.2 Implications cho Framework
 
 ```
-1. Improviser vs Specialist = HARDWARE + TRAINING (không chỉ 1 trong 2):
-   Hardware (gen): ~50-60% contribution → set TENDENCY
-   Training (experience): ~30-40% → reinforce hoặc compensate
-   Context (environment): ~10-20% → kích thích hoặc hạn chế
+1. Improviser vs Specialist = COMT (chính) + TRAINING + CONTEXT:
+   COMT variant: set TENDENCY (draft clear nhanh hay chậm)
+   MAO-A variant: modulate (mood stable hay volatile)
+   Training (experience): reinforce hoặc compensate hardware tendency
+   Context (environment): kích thích hoặc hạn chế
+   → DRD4: KHÔNG dùng làm cơ chế (evidence yếu + logic có lỗ hổng)
 
-2. "Chán nhanh" = HARDWARE VARIANT, không phải "lỗi":
-   → 15-20% dân số DESIGNED cho explore, switch, cross-domain
-   → 60-70% DESIGNED cho maintain, deepen, specialize
-   → CẢ HAI cần thiết: explorer TÌM mới + specialist ĐÀO SÂU mới
-   → → "Chán nhanh" = feature CHO innovator, không phải bug
+2. "Chán nhanh" = DRAFT CLEAR NHANH, không phải "lỗi" hay "thiếu reward":
+   → COMT Val/Val: draft bị xóa → BUỘC phải build mới → hành vi = "nhảy"
+   → Không phải "muốn" nhảy → mà draft CŨ MẤT → không có lựa chọn khác
+   → 15-20% dân số có hardware này → designed cho explore, cross-domain
+   → 60-70% có hardware ngược → designed cho maintain, deep focus
+   → CẢ HAI cần thiết: improviser TÌM hướng mới + specialist ĐÀO SÂU hướng đó
+   → → "Chán nhanh" = feature draft management, không phải bug reward system
 
 3. School design cho MAJORITY (specialist hardware):
-   → 4-repeat + Met/Met = maintain focus dễ → school match
-   → 7-repeat + Val/Val = switch muốn → school MISMATCH
+   → COMT Met/Met = draft linger → maintain focus dễ → school MATCH
+   → COMT Val/Val = draft clear → maintain focus khó → school MISMATCH
    → → "Học kém" CÓ THỂ = hardware mismatch, không phải ability thiếu
 
 4. Matching environment = TỐI ƯU:
-   → Improviser hardware + novelty-rich environment: THRIVE
-   → Improviser hardware + routine environment: SUFFER
-   → Specialist hardware + stable environment: THRIVE
-   → Specialist hardware + chaotic environment: SUFFER
+   → Improviser hardware (Val/Val) + novelty-rich environment: THRIVE
+   → Improviser hardware (Val/Val) + routine environment: SUFFER
+   → Specialist hardware (Met/Met) + stable environment: THRIVE
+   → Specialist hardware (Met/Met) + chaotic environment: SUFFER
    → → "Đúng người đúng chỗ" = MATCH hardware + environment
 
-5. Threshold liên quan TRỰC TIẾP:
-   → DRD4 7-repeat → dopamine threshold HARDWARE CAO → cần nhiều stimulation
-   → COMT Val/Val → dopamine clear nhanh → threshold RESET nhanh → cần mới nhanh
-   → = Threshold KHÔNG chỉ schema pressure → CÓ hardware component rõ ràng
-   → → Threshold-Analysis.md: "hardware baseline" = CÓ THỂ = receptor/enzyme profile
-
-6. Decay Rate liên quan:
-   → COMT Val/Val: dopamine clear nhanh → decay NHANH (opioid reward cũng shorter)
-   → MAO-A high: dopamine+serotonin clear nhanh → reward SHORTER
-   → = "Chán nhanh" = LITERALLY reward NGẮN hơn (enzyme clear nhanh hơn)
+5. Draft Duration liên quan Threshold (không phải Reward Intensity):
+   → COMT Val/Val: dopamine clear nhanh → draft BIẾN MẤT sớm
+     → KHÔNG phải "sướng ít hơn" hay "cần nhiều dopamine hơn"
+     → MÀ LÀ: draft existence time NGẮN hơn
+     → = Vấn đề WORKSPACE MANAGEMENT, không phải REWARD
+   → MAO-A high: dopamine+serotonin clear nhanh toàn não → mood shift nhanh hơn
+   → = Threshold-Analysis.md: "hardware baseline" = enzyme profile (COMT + MAO-A)
+   → ⚠️ KHÔNG phải "wanting threshold" (DRD4 narrative có lỗ hổng)
+   → MÀ LÀ "draft duration threshold" → COMT giải thích tốt hơn
 ```
 
 ---

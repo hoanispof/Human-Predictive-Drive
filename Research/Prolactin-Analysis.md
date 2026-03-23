@@ -97,33 +97,58 @@ LUỒNG:
 ⚠️ Giả thiết ban đầu: "cortisol = duy nhất drive schema" → SAI
    Cortisol = MẠNH NHẤT ngắn hạn → nhưng KHÔNG phải duy nhất.
 
-4 LOẠI DRIVE khác nhau:
+⚠️ Refine quan trọng: SCHEMA = TRIGGER, HORMONE = ENERGY + SUSTAIN
+   Drive luôn BẮT ĐẦU từ schema fire (trừ exception baseline lệch).
+   Hormone KHÔNG khởi động drive — hormone CUNG CẤP energy + duy trì drive.
 
-  CORTISOL DRIVE: "CẦN phải làm vì NGUY HIỂM nếu không"
-    → Đói, sợ, deadline, nghèo → threat-based
-    → MẠNH + NGẮN HẠN + TỐN (body stress)
-    → Ví dụ: đói → cortisol → "phải ăn NGAY" → drive cực mạnh
+   Ví dụ chứng minh: đang đi chơi vui → bỗng nhớ "hôm nay thi!"
+     → Schema fire: "thi = quan trọng + trễ = hậu quả"
+     → NGAY LẬP TỨC biết phải chạy — cortisol LÚC NÀY VẪN THẤP
+     → NE spike (0.5-2s): energy cho hành động tức thì
+     → Cortisol peak SAU (5-20 phút): DUY TRÌ alert
+     → = Schema trigger TRƯỚC, hormone đến SAU
+
+4 LOẠI SCHEMA DRIVE (trigger) + HORMONE tương ứng (energy/sustain):
+
+  THREAT DRIVE: "CẦN phải làm vì NGUY HIỂM nếu không"
+    → Schema predict: nguy hiểm / mất mát / hậu quả xấu
+    → Hormone energy: NE + Adrenaline (tức thì) + Cortisol (sustain)
+    → 3 nguồn trigger khác nhau:
+      Physical threat: đau, nguy hiểm vật lý → reflex + NE + cortisol
+      Social threat: bị quát, bị từ chối → schema + NE + cortisol (không endorphin)
+      Anticipation: imagine hậu quả tương lai → PFC draft + cortisol NHẸ
+    → MẠNH + TỐN (body stress) + ngắn hoặc mãn tính tùy nguồn
 
   DOPAMINE DRIVE: "MUỐN vì thú vị/mới"
-    → Tò mò, explore, novelty → curiosity-based
+    → Schema predict: có cái mới / improvement / thú vị phía trước
+    → Hormone energy: Dopamine (motivation seek + focus)
     → VỪA + BỀN + NHẸ
-    → Ví dụ: "cái gì đây?" → dopamine → "muốn biết" → drive explore
+    → Ví dụ: "cái gì đây?" → schema predict novelty → dopamine → drive explore
 
   OPIOID DRIVE: "MUỐN vì sướng"
-    → Ăn ngon, nhạc hay, mastery → pleasure-based
+    → Schema predict: trải nghiệm tốt phía trước (ăn ngon, nhạc hay, mastery)
+    → Hormone energy: Dopamine (seek) + Opioid khi nhận (enjoy)
     → VỪA + BỀN + TÍCH CỰC
-    → Ví dụ: nhớ vị phở → opioid → "muốn ăn phở" → drive tìm quán
+    → Ví dụ: nhớ vị phở → schema predict sướng → drive tìm quán
 
   OXYTOCIN DRIVE: "MUỐN vì ấm áp"
-    → Ôm, gặp bạn, connection → connection-based
+    → Schema predict: connection / gần gũi phía trước
+    → Hormone energy: Oxytocin (pull toward) + Dopamine nhẹ (seek)
     → NHẸ + RẤT BỀN
-    → Ví dụ: nhớ bạn → oxytocin → "muốn gặp" → drive gọi điện
+    → Ví dụ: nhớ bạn → schema predict ấm áp → drive gọi điện
 
   VÀ: để HÀNH VI thực sự XẢY RA (từ "muốn" → "làm"):
     → CẦN chút ACTIVATION ENERGY (NE + cortisol nhẹ)
-    → Nằm "muốn ăn phở" (opioid drive) → nhưng ĐỨNG DẬY đi ăn = cần NE/cortisol nhẹ
-    → = Cortisol KHÔNG phải drive DUY NHẤT → nhưng là ACTIVATION ENERGY phổ biến
-    → Thiếu activation hoàn toàn → "muốn nhưng không làm" → depression pattern
+    → Nằm "muốn ăn phở" (opioid drive) → nhưng ĐỨNG DẬY đi ăn = cần NE nhẹ
+    → = NE là ACTIVATION ENERGY phổ biến nhất (không phải cortisol)
+    → Thiếu NE hoàn toàn → "muốn nhưng không làm" → depression pattern
+
+  EXCEPTION — hormone drive KHÔNG CẦN schema:
+    → Cortisol baseline CAO mãn tính → body LUÔN alert → anxiety không rõ lý do
+    → Dopamine hijack (addiction) → seeking không có schema "muốn" rõ ràng
+    → = Khi hormone baseline BỊ LỆCH → hormone CÓ THỂ drive trực tiếp
+    → = Bình thường: Schema → Hormone → Behavior
+    → = Bất thường: Hormone (lệch) → Behavior (không có schema rõ)
 
   → LIÊN QUAN PROLACTIN:
     Prolactin fire cho TẤT CẢ 4 loại drive (khi body-need fulfilled)

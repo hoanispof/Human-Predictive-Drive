@@ -227,9 +227,22 @@ CHỨC NĂNG: AMPLIFY toàn bộ channels khi STATUS POSITION cao
 
 ```
 HỆ THỐNG: HPA axis (hypothalamus → pituitary → adrenal glands)
-CHỨC NĂNG: KÍCH HOẠT schema triển khai hành vi thực tế
+CHỨC NĂNG: ENERGY + SUSTAIN cho schema drive (không phải trigger)
 
-  = "Nhiên liệu cho schema CHẠY" — không chỉ "phanh/threat"
+  ⚠️ QUAN TRỌNG: Schema fire TRƯỚC → cortisol đến SAU
+  = "Nhiên liệu cho schema CHẠY" — schema KHỞI ĐỘNG, cortisol DUY TRÌ
+
+  Ví dụ: đang vui → nhớ "hôm nay thi!" → schema fire NGAY (cortisol vẫn thấp)
+  → NE spike (0.5-2s) → adrenaline → cortisol peak SAU 5-20 phút
+  → Schema = TRIGGER, NE = ENERGY tức thì, Cortisol = SUSTAIN kéo dài
+  → Exception: cortisol baseline lệch (mãn tính) → cortisol CÓ THỂ drive trực tiếp
+  (Chi tiết: Prolactin-Analysis.md §3.1)
+
+  3 NGUỒN TRIGGER cho cortisol response:
+    Physical threat: đau, nguy hiểm → reflex + NE + cortisol (có endorphin buffer)
+    Social threat: bị quát, bị từ chối → schema + NE + cortisol (KHÔNG có endorphin)
+    Anticipation: PFC imagine hậu quả → cortisol NHẸ nhưng có thể MÃN TÍNH
+    → 3 nguồn KHÁC nhau → pattern KHÁC → cách xử lý KHÁC
 
   3 MỨC:
     VỪA ĐỦ: schema KÍCH HOẠT + PFC VẪN available
