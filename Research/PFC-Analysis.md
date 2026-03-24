@@ -36,7 +36,9 @@ THỰC TẾ:
       → 1 PFC neuron respond cho NHIỀU THỨ cùng lúc (task + rule + context)
       → = Tái cấu trúc CỰC NHANH → "viết + xóa + viết lại" dễ
       → Vùng não KHÁC: neurons CHUYÊN BIỆT → reset CHẬM → schema "dính" lâu
-    → Tại sao THÔ: PFC hold trong WM → limited (4±1 items) → sketch, không painting
+    → Tại sao THÔ: PFC hold ~3-5 CHIỀU cùng lúc (interference limit, không phải thiếu neurons)
+      → Mỗi "chiều" = 1 dimension so sánh → 3-5 = sketch, không painting
+      → Capacity khác nhau ở CHẤT LƯỢNG per-chiều (resolution, compression), không phải SỐ chiều
 
   ② TEST — Gửi draft cho vùng chuyên gia evaluate
     → Draft schema → PFC gửi xuống các vùng CHUYÊN GIA:
@@ -127,6 +129,210 @@ PFC = ~30% vỏ não ở người (~5% ở chuột)
   → = Tại sao người "thông minh hơn" động vật
   → = Tại sao thiếu niên quyết định kém (PFC chưa xong)
 ```
+
+### 1.5 Giá Trị PFC — Phòng Thí Nghiệm Giả Lập
+
+```
+⚠️ HYPOTHESIS — logic consistent với research established, gom lại = framework contribution.
+   Giới khoa học vẫn tranh cãi về vai trò chính xác PFC.
+   Ghi chi tiết để test/phản bác được.
+
+TẠI SAO PFC TỒN TẠI — trả lời bằng so sánh:
+
+  KHÔNG CÓ PFC (vô thức + body only):
+  ┌─────────────────────────────────────────────────────────────┐
+  │ Học bằng: thử THẬT → fail THẬT → body feedback → điều chỉnh│
+  │ Tốc độ: CHẬM (mỗi vòng = 1 lần thử TRONG domain thật)     │
+  │ Cost: CAO (fail = đau, mất resource, có thể chết)           │
+  │                                                              │
+  │ Vô thức VẪN tối ưu dao động (neuron patterns):              │
+  │   → Thử thật → body check → dao động ĐIỀU CHỈNH            │
+  │   → Nhưng MỖI VÒNG = 1 lần thử THẬT = tốn thật             │
+  │   → = Trial-error trong domain real = hoạt động, nhưng TỐN  │
+  │                                                              │
+  │ BẰNG CHỨNG — sinh vật KHÔNG có PFC mạnh VẪN học:            │
+  │                                                              │
+  │   Chuột trong maze (🟢 established):                         │
+  │     Lần 1: chạy vào 50 ngõ cụt (trial-error thật)           │
+  │     Lần 10: chỉ còn 5 lỗi (vô thức ĐÃ tối ưu dao động)    │
+  │     Lần 50: 0 lỗi (dao động COMPILED → chạy tự động)        │
+  │     → = Vô thức ALONE đủ học → chỉ CHẬM (50 vòng thật)     │
+  │                                                              │
+  │   Quạ giải puzzle (🟢 established):                          │
+  │     Bẻ que → chọc thức ăn → fail → thử cách khác → thành   │
+  │     → PFC rất nhỏ → nhưng giải được puzzle phức tạp         │
+  │     → = Trial-error thật, TỐN nhiều vòng, nhưng HOẠT ĐỘNG  │
+  │     → Quạ KHÔNG "imagine trước" → thử LIÊN TỤC → body learn │
+  │                                                              │
+  │   Trẻ 1 tuổi học đi (PFC ~10%):                             │
+  │     Đứng → ngã → đứng → ngã → ... × ~1000 lần              │
+  │     → KHÔNG imagine "cách đi" → THỬ THẬT 1000 lần           │
+  │     → Mỗi lần ngã = body feedback → dao động vô thức ADJUST │
+  │     → Lần 1000: đi được (dao động compiled)                  │
+  │     → = "Mất" 1000 vòng thử thật → nhưng XONG              │
+  │                                                              │
+  │   Trẻ 2 tuổi và bếp nóng:                                   │
+  │     Chạm bếp → BỎNG → khóc → vô thức: "bếp = đau"          │
+  │     → Lần sau: thấy bếp → dao động "TRÁNH" tự động          │
+  │     → = 1 vòng thật ĐỦ (vì body feedback CỰC MẠNH = đau)   │
+  │     → KHÔNG cần PFC imagine "bếp nóng → sẽ bỏng"           │
+  │     → = Body feedback MẠNH = ÍT vòng cần thiết              │
+  │                                                              │
+  │ ĐỦ TỒN TẠI: ✅ (mọi sinh vật + trẻ nhỏ chứng minh)        │
+  │ TỐI ƯU: ❌ (chậm + tốn + nguy hiểm cho trường hợp phức tạp)│
+  └─────────────────────────────────────────────────────────────┘
+
+  CÓ PFC (vô thức + body + imagine — con người trưởng thành):
+  ┌─────────────────────────────────────────────────────────────┐
+  │ Học bằng: giả lập TRƯỚC → body simulate (20-60% fidelity)  │
+  │           → lọc options → rồi MỚI thử THẬT (ít lần hơn)   │
+  │ Tốc độ: NHANH HƠN (imagine = giây, thử thật = giờ-ngày)   │
+  │ Cost: THẤP HƠN (fail trong đầu = không đau, không mất gì)  │
+  │                                                              │
+  │ VÍ DỤ — các tình huống THỰC TẾ phổ biến:                    │
+  │                                                              │
+  │   Nấu món mới:                                               │
+  │     Không PFC: nấu 999 lần dở → lần 1000 ngon              │
+  │     Có PFC: "bao nhiêu đường? thịt gì? trộn → mùi gì?"     │
+  │       → Imagine 20 công thức → body simulate vị từ kinh nghiệm│
+  │       → Chọn 3 khả thi → nấu thật 3 lần → 1-2 lần ngon    │
+  │       = 20 imagine + 3 thật (thay vì 999 thật)              │
+  │                                                              │
+  │   Lái xe ở nước ngoài (lái trái → phải):                    │
+  │     Không PFC: cứ lái → gần đâm → sửa → gần đâm (nguy hiểm)│
+  │     Có PFC: imagine "bên phải = ngược" → simulate rẽ        │
+  │       → simulate nhìn gương → simulate vòng xuyến           │
+  │       → Thử thật lần 1 đã khá ok (vì đã imagine)            │
+  │       = 10 imagine + 5 thử thật cẩn thận (thay vì 100 suýt đâm)│
+  │                                                              │
+  │   Phỏng vấn xin việc:                                       │
+  │     Không PFC: đi phỏng vấn → nói bừa → fail → lần sau khác│
+  │     Có PFC: imagine "họ hỏi gì? tôi trả lời gì? react sao?"│
+  │       → Simulate nhiều scenarios → chọn cách tốt nhất       │
+  │       → Lần đầu phỏng vấn MÀ "như đã phỏng vấn nhiều lần"  │
+  │       = Dao động vô thức ĐÃ pre-build qua imagine           │
+  │                                                              │
+  │   Giao tiếp hàng ngày:                                      │
+  │     Imagine: "nói thế này → họ react sao?"                  │
+  │       → Simulate → chọn cách → thử thật → fine-tune        │
+  │       = Ít lần gây xung đột + mối quan hệ tốt hơn          │
+  │                                                              │
+  │ TỒN TẠI: ✅ (tốt hơn vô thức alone)                        │
+  │ TỐI ƯU HƠN: ✅ (nhanh + rẻ + an toàn hơn)                 │
+  │                                                              │
+  │ SO SÁNH TỔNG:                                                │
+  │   Chuột maze: 50 vòng thật → 0 lỗi                         │
+  │   Trẻ học đi: ~1000 vòng thật → đi được                    │
+  │   Người + PFC nấu ăn: 3 vòng thật → món ngon               │
+  │   Người + PFC phỏng vấn: 1 vòng thật → performance tốt     │
+  │   → PFC GIẢM vòng thật: 50-1000 → 1-5 (giảm ~100-1000x)   │
+  └─────────────────────────────────────────────────────────────┘
+
+  → PFC = "PHÒNG THÍ NGHIỆM GIẢ LẬP" trước khi ra domain thật
+  → Vô thức = "NHÀ MÁY" chạy trong domain thật
+  → PFC GIẢM SỐ VÒNG body-check THẬT cần thiết:
+    Không PFC: 999 vòng thật → 1 kết quả tốt
+    Có PFC: 100 imagine + 3-5 thật → 1 kết quả tốt
+    PFC cao + chunks nhiều: 50 imagine + 1-2 thật → xong
+    AI + PFC: 20 imagine + 1-2 thật → xong
+    → = Trend: giảm DẦN số vòng thật qua evolution → technology → AI
+
+
+⭐ INSIGHT QUAN TRỌNG — Imagine ĐỒNG THỜI build dao động vô thức:
+
+  Khi PFC imagine → KHÔNG CHỈ "test ý tưởng":
+    → PFC spotlight vùng liên quan → vô thức fire THEO HƯỚNG PFC chỉ
+    → Neurons vô thức ĐỒNG THỜI tạo kết nối MỚI theo simulate
+    → = Imagine = test ý tưởng + BUILD dao động vô thức CÙNG LÚC
+    → = 2 OUTPUT song song từ 1 quá trình imagine
+
+  Hệ quả:
+    → Imagine XONG → vô thức ĐÃ CÓ SẴN dao động mới (pre-compiled)
+    → Thực hiện THẬT → vô thức CHỈ CẦN chạy dao động đã tạo → NHANH
+    → = "Cảm thấy làm được" = dao động vô thức ĐÃ SẴN SÀNG
+    → = "Tuồn tuột chả phải nghĩ" = PFC chỉ execute dao động đã có
+
+  Ví dụ:
+    Imagine nấu món 20 lần trong đầu:
+      → PFC test: "bao nhiêu đường? thịt gì? mùi gì?"
+      → ĐỒNG THỜI: vô thức tạo dao động "nấu món này" (motor + sensory)
+      → Khi nấu thật: tay TỰ BIẾT làm (dao động đã pre-compiled)
+      → = "Chưa nấu lần nào mà tay như quen" = imagine đã build dao động
+
+    Imagine giao tiếp:
+      → PFC test: "nói thế này → họ react sao?"
+      → ĐỒNG THỜI: vô thức tạo dao động "giao tiếp kiểu này"
+      → Khi gặp thật: lời TỰ RA (dao động đã pre-compiled)
+      → Nếu OK → body confirm → dao động REINFORCE → skill
+      → Nếu KHÔNG OK → body feedback → dao động ADJUST → thử lại
+
+  → = Imagine CÓ GIÁ TRỊ dù "chưa làm thật":
+    Giá trị 1: test ý tưởng (lọc options sai)
+    Giá trị 2: pre-build dao động vô thức (chuẩn bị execute)
+    → "Mơ mộng" KHÔNG vô ích — NẾU mơ mộng CÓ HƯỚNG (body-need drive)
+
+
+PFC QUALITY = HIỆU SUẤT GIẢ LẬP:
+
+  PFC-Capacity CAO (resolution + noise filter + retrieval + compress):
+    → Simulate CHÍNH XÁC hơn → ít vòng thật cần thiết
+    → = Capacity = "chất lượng phòng thí nghiệm giả lập"
+
+  PFC-Clear-Speed (COMT):
+    → Val/Val (fast): clear draft nhanh → thử NHIỀU options imagine → RỘNG
+    → Met/Met (slow): giữ draft lâu → test 1 option SÂU → CHI TIẾT
+    → = Clear-Speed = "thử nhiều sơ sơ hay ít nhưng kỹ"
+
+  PFC-Chunk-Size (DRD4):
+    → 7R (big): nhận chunk LỚN → simulate ĐỘT PHÁ nhưng HIẾM
+    → 4R (small): nhận chunk NHỎ → simulate CHI TIẾT + LIÊN TỤC
+    → = Chunk-Size = "breakthrough hay incremental improvement"
+
+  → 3 parameters CÙNG ảnh hưởng "phòng thí nghiệm tốt thế nào"
+  → KHÔNG CÓ combination "tốt nhất" → tùy domain + context:
+    Research đột phá: Capacity cao + Clear nhanh + Chunk lớn = TỐT
+    Craft precision: Capacity cao + Clear chậm + Chunk nhỏ = TỐT
+    → "Tốt" = MATCH với domain, không phải tuyệt đối
+
+
+CẢ HAI CẦN NHAU — PFC + Body:
+
+  CHỈ PFC (imagine mãi, không body check):
+    → Simulate → "logic đúng!" → simulate thêm → "hoàn hảo!"
+    → NHƯNG: chưa check domain thật → có thể HOÀN TOÀN SAI
+    → = "Philosopher trap" — nghĩ hay nhưng không thử → không biết sai
+    → = Overthink: imagine loop vô hạn, không output
+
+  CHỈ Body (thử mãi, không imagine):
+    → Thử → fail → thử → fail → chậm cực kỳ
+    → = "Trial-error primitive" — hoạt động nhưng tốn
+    → = Mọi sinh vật không có PFC mạnh
+
+  PFC + Body = TỐI ƯU:
+    → PFC imagine → lọc bớt options sai (rẻ, nhanh)
+    → Body thử thật → confirm options còn lại (đắt, chắc)
+    → = "Mơ ít, thử ít, kết quả nhiều"
+    → = Giá trị THẬT SỰ của PFC: GIẢM cost thử thật
+
+  🟢 Research support (từng phần established):
+    → Imagination → body respond 20-60% (established — Reward-Dual-System.md §6)
+    → Motor imagery → muscle activation thật (Jeannerod 2001) ✅
+    → Mental rehearsal → performance improvement (sport psychology) ✅
+    → Planning → reduce errors (executive function literature) ✅
+    → Sleep replay → consolidate + optimize patterns (Wilson & McNaughton 1994) ✅
+
+  🟡 Framework contribution:
+    → GOM lại: PFC = phòng thí nghiệm giả lập
+    → THÊM: imagine đồng thời build dao động vô thức (pre-compile)
+    → THÊM: PFC quality = hiệu suất giả lập (3 parameters)
+    → THÊM: giá trị PFC = GIẢM SỐ VÒNG body-check THẬT
+
+  ⚠️ CHƯA AI MÔ TẢ toàn bộ flow NHƯ TRÊN:
+    Mỗi phần = established riêng
+    Gom lại + "imagine = test + pre-build dao động" = framework hypothesis
+```
+
+---
 
 ### 1.1 Bằng chứng PFC không tự tính toán
 
@@ -1369,49 +1575,78 @@ KB4 MAP VÀO FRAMEWORK:
    TUYỆT ĐỐI chính xác. Cần nhiều người xác nhận + replicate thêm.
    Framework dùng với mức tin cậy này, không treat như fact tuyệt đối.
 
-  ┌─────────────┬──────────────┬──────────────┐
-  │             │ ① CAPACITY   │ ② CLEAR SPEED│
-  ├─────────────┼──────────────┼──────────────┤
-  │ Là gì       │ Workspace    │ Tốc độ xóa   │
-  │             │ size: hold   │ draft cũ để  │
-  │             │ bao nhiêu    │ nhường chỗ   │
-  │             │ items cùng   │ draft mới    │
-  │             │ lúc          │              │
-  ├─────────────┼──────────────┼──────────────┤
-  │ Hardware    │ PFC size +   │ COMT variant │
-  │             │ connection   │ (PFC-specific│
-  │             │ density      │ enzyme)      │
-  ├─────────────┼──────────────┼──────────────┤
-  │ CAO =       │ Hold nhiều   │ Clear nhanh  │
-  │             │ items →      │ → workspace  │
-  │             │ complex      │ TRỐNG nhanh  │
-  │             │ draft        │ → fresh      │
-  │             │              │ rebuild      │
-  ├─────────────┼──────────────┼──────────────┤
-  │ THẤP =      │ Hold ít      │ Clear chậm   │
-  │             │ items →      │ → draft GIỮA │
-  │             │ simple       │ LÂU →        │
-  │             │ draft        │ incremental  │
-  │             │              │ modify       │
-  ├─────────────┼──────────────┼──────────────┤
-  │ Ảnh hưởng   │ CẢ improviser│ CHÍNH cho    │
-  │             │ VÀ specialist│ Improviser   │
-  │             │ đều lợi     │ vs Specialist│
-  │             │              │ tendency     │
-  ├─────────────┼──────────────┼──────────────┤
-  │ Evidence    │ Neuroanatomy │ COMT research│
-  │             │ established  │ well-        │
-  │             │              │ replicated   │
-  └─────────────┴──────────────┴──────────────┘
+  ┌─────────────┬──────────────────────────────┬──────────────┐
+  │             │ ① CAPACITY                   │ ② CLEAR SPEED│
+  ├─────────────┼──────────────────────────────┼──────────────┤
+  │ Là gì       │ CHẤT LƯỢNG workspace:        │ Tốc độ xóa   │
+  │             │ Mọi người đều hold ~3-5 CHIỀU│ draft cũ để  │
+  │             │ (dimensions) cùng lúc.       │ nhường chỗ   │
+  │             │ (do interference limit —     │ draft mới    │
+  │             │ physics, KHÔNG phải thiếu    │              │
+  │             │ neurons). Capacity KHÔNG ảnh │              │
+  │             │ hưởng SỐ chiều mà ảnh hưởng │              │
+  │             │ CHẤT LƯỢNG xử lý per-chiều:  │              │
+  │             │ ① Resolution: rõ hay mờ      │              │
+  │             │ ② Noise filter: giữ sạch     │              │
+  │             │    dù có nhiễu hay dễ mất    │              │
+  │             │ ③ Retrieval: lấy chunk từ    │              │
+  │             │    vô thức nhanh/đúng hay    │              │
+  │             │    chậm/sai                  │              │
+  │             │ ④ Compression: compile chunk  │              │
+  │             │    chặt → mỗi item chứa NHIỀU│              │
+  │             │ Lặp compile: 4 items → compile│             │
+  │             │ → 4 mới → compile → pyramidal│              │
+  │             │ → 4 meta-chunks = hàng trăm  │              │
+  │             │ thông tin gốc compressed     │              │
+  ├─────────────┼──────────────────────────────┼──────────────┤
+  │ Hardware    │ PFC connection density +     │ COMT variant │
+  │             │ wiring quality (KHÔNG phải   │ (PFC-specific│
+  │             │ số neurons — 10 tỉ vs 12 tỉ │ enzyme)      │
+  │             │ vẫn ~3-5 chiều, nhưng chất  │              │
+  │             │ lượng per-chiều KHÁC)        │              │
+  ├─────────────┼──────────────────────────────┼──────────────┤
+  │ CAO =       │ 3-5 chiều × high resolution │ Clear nhanh  │
+  │             │ × clean × fast retrieve     │ → workspace  │
+  │             │ × deep compression          │ TRỐNG nhanh  │
+  │             │ = "Nhìn 4 thứ nhưng THẤY   │ → fresh      │
+  │             │ cả vũ trụ" (expert)         │ rebuild      │
+  ├─────────────┼──────────────────────────────┼──────────────┤
+  │ THẤP =      │ 3-5 chiều × low resolution  │ Clear chậm   │
+  │             │ × noisy × slow retrieve     │ → draft GIỮA │
+  │             │ × shallow compression       │ LÂU →        │
+  │             │ = "Nhìn 4 thứ chỉ THẤY 4   │ incremental  │
+  │             │ thứ" (novice)               │ modify       │
+  ├─────────────┼──────────────────────────────┼──────────────┤
+  │ Ảnh hưởng   │ CẢ improviser VÀ specialist │ CHÍNH cho    │
+  │             │ đều lợi khi quality CAO     │ Improviser   │
+  │             │                              │ vs Specialist│
+  │             │                              │ tendency     │
+  ├─────────────┼──────────────────────────────┼──────────────┤
+  │ Evidence    │ Cowan (2001): ~3-5 items     │ COMT research│
+  │             │ Bays & Husain (2008):        │ well-        │
+  │             │ interference = precision drop│ replicated   │
+  │             │ Kane & Engle (2002):         │              │
+  │             │ WM capacity = noise filter   │              │
+  │             │ Chase & Simon (1973):        │              │
+  │             │ expert = compression quality │              │
+  └─────────────┴──────────────────────────────┴──────────────┘
+
+  ⚠️ QUAN TRỌNG: "3-5 chiều" = CỐ ĐỊNH do physics (interference limit)
+     Dù não có 10 tỉ hay 20 tỉ neurons PFC → VẪN ~3-5 chiều
+     Vì: giữ RIÊNG BIỆT nhiều patterns cùng lúc = INTERFERENCE tăng
+     Thêm chiều = combinations BÙng nổ → noise > signal
+     4 chiều = sweet spot: đủ phức tạp cho pattern, chưa quá nhiễu
+     → Evolution giải quyết giới hạn 3-5 bằng: compile → stack → pyramidal
+     → KHÔNG cần PFC lớn hơn → cần compile CHẤT LƯỢNG hơn
 
   → COMT Clear Speed = yếu tố CHÍNH cho Improviser vs Specialist (confirmed)
-  → Capacity = yếu tố chung (cả hai đều lợi khi capacity lớn)
+  → Capacity = CHẤT LƯỢNG per-chiều (resolution, filter, retrieval, compression)
   → 2 thuộc tính INDEPENDENT → tạo ra NHIỀU profiles
   → Improviser/Specialist = 2 ĐẦU CỰC, hầu hết người ở GIỮA
-  → Capacity lớn + Clear nhanh = "improviser có chiều sâu"
-  → Capacity lớn + Clear chậm = "specialist có chiều rộng"
-  → Capacity nhỏ + Clear nhanh = "nhảy lung tung, không sâu"
-  → Capacity nhỏ + Clear chậm = "chậm và hẹp"
+  → Capacity cao + Clear nhanh = "improviser có chiều sâu"
+  → Capacity cao + Clear chậm = "specialist có chiều rộng"
+  → Capacity thấp + Clear nhanh = "nhảy lung tung, không sâu"
+  → Capacity thấp + Clear chậm = "chậm và hẹp"
 
   ℹ️ DRD4 có thể là thuộc tính thứ 3 — nhưng CHƯA CHẮC:
   → Data: 7R receptor kém nhạy (measured) + 7R novelty seek cao (observed)
@@ -1604,8 +1839,120 @@ CÁC GEN ảnh hưởng PFC behavior — xếp theo EVIDENCE STRENGTH:
        → GWAS studies gần đây KHÔNG tìm DRD4 significant cho novelty
        → = Ủng hộ hypothesis này
 
-     → Framework prefer Hypothesis A (khớp với COMT mechanism)
-     → Nhưng ghi cả 3 vì chưa ai chứng minh cái nào đúng
+     Hypothesis D — Chunk Threshold (framework v7.5 đề xuất) ⭐:
+       → Hypothesis MẠNH NHẤT — giải quyết MỌI mâu thuẫn
+
+       CƠ SỞ:
+         Berridge (1998, 2003): dopamine ≠ reward, dopamine = signal
+         → Dopamine KHÔNG gây sướng → chỉ THÔNG BÁO "chunk mới có giá trị"
+         → Sướng thật = opioid = body-base response khi confirm chunk có giá trị
+         → Dopamine hoạt động VÔ THỨC (VTA subcortical, PFC nhận không gửi)
+
+       MÔ HÌNH:
+         ① Vô thức: neurons fire liên tục → thử đồng bộ → patterns hình thành dần
+         ② VTA (cụm ~400K neurons, giữa não) detect ĐỒNG BỘ MẠNH BẤT THƯỜNG:
+            → VTA KHÔNG biết "mới hay cũ" — chỉ detect "VƯỢT BASELINE bình thường"
+            → Schema cũ compiled fire ĐỀU → VTA QUEN → không fire
+            → Thêm neurons sync (pattern mới/mở rộng) → VƯỢT baseline → VTA fire
+            → = VTA = smoke detector: detect THAY ĐỔI, không phải "mới"
+            → NOTE: có thể KHÔNG CẦN "predict → compare → error" phức tạp
+              như Prediction Error theory (Schultz 1997)
+              → "Baseline → vượt baseline → fire" = simpler, same observable result
+         ③ VTA fire → dopamine gửi tới PFC qua axon ĐÃ CÓ SẴN
+         ④ Dopamine gắn DRD4 receptor TRÊN PFC neuron:
+            → 7R receptor kém nhạy → DISTURBANCE THRESHOLD CAO:
+              Chỉ biến động LỚN (nhiều neurons thêm sync) mới vượt
+              Biến động nhỏ = PFC THẬT SỰ KHÔNG BIẾT (receptor không mở = neuron không fire)
+              → PFC nhận ÍT signal → nhưng mỗi signal = biến động LỚN
+            → 4R receptor nhạy → DISTURBANCE THRESHOLD THẤP:
+              Biến động NHỎ cũng vượt → PFC nhận NHIỀU signal
+         ⑤ PFC spotlight xuống vùng có signal → vô thức respond RÕ hơn
+         ⑥ PFC nhận chunk → giả lập với body-base:
+            → Chunk LỚN (7R) → match body-need LỚN → opioid reward CAO
+            → Chunk nhỏ (4R) → match body-need nhỏ → opioid reward THẤP hơn
+         ⑦ Kết quả:
+            → 7R: ÍT detect (threshold cao) → mỗi lần = reward CAO → THÍCH novelty
+            → 4R: NHIỀU detect (threshold thấp) → mỗi lần = reward NHỎ → ĐỦ với routine
+            → 7R: "........ AHA!" (chờ lâu, 1 insight lớn)
+            → 4R: "ồ... ồ... ồ..." (nhiều, nhỏ, liên tục)
+
+       XÁC THỰC — TEST VỚI CASES ĐÃ MÂU THUẪN:
+
+         Scroll MXH:
+           7R: scroll → vô thức tạo chunk NHỎ liên tục (mỗi post)
+             → 7R threshold CAO → chunk nhỏ KHÔNG vượt → "chán, không hay"
+             → DỪNG scroll sớm → tìm novelty LỚN hơn
+           4R: chunk nhỏ VƯỢT threshold → mỗi post = reward nhẹ → tiếp tục
+           → ✅ 7R scroll ÍT, 4R scroll NHIỀU (ngược interpretation cũ nhưng ĐÚNG hơn)
+
+         Cờ bạc:
+           7R: vô thức tạo chunk dự đoán → chunk LỚN (threshold cao)
+             → Near-miss = chunk lớn → body-base tưởng "GẦN THẮNG"
+             → Reward MẠNH dù thực tế thua → hook MẠNH
+           4R: chunk nhỏ → near-miss = body "hmm, gần" nhưng KHÔNG mạnh
+           → ✅ 7R dễ bị hook near-miss → consistent với gambling observation
+
+         Gặp vấn đề khó:
+           7R: chờ vô thức tạo chunk LỚN → CẦN thời gian
+             → NẾU chunks nền ĐỦ → chunk lớn xuất hiện → "AHA!" → reward CỰC CAO
+             → NẾU chunks nền THIẾU → chờ mãi → frustrate → bỏ
+           4R: chunk nhỏ liên tục → mỗi bước nhỏ = reward → steady progress
+           → ✅ 7R = breakthrough OR frustrate (ít middle ground)
+              4R = incremental steady progress
+
+         → MỌI CASE đều consistent ✅
+         → KHÔNG còn mâu thuẫn ở bất kỳ scenario nào ✅
+
+       TẠI SAO HYPOTHESIS NÀY MẠNH HƠN A, B, C:
+         Hypothesis A (PFC draft retention):
+           ✅ Giải thích SWITCH behavior (tại sao switch)
+           ❌ KHÔNG giải thích tại sao 7R THÍCH novelty hơn (motivation)
+         Hypothesis B (tonic vs phasic):
+           ✅ Giải thích "ở yên = khó chịu"
+           ❌ KHÔNG giải thích gambling near-miss hook
+         Hypothesis C (gene linkage):
+           ✅ Giải thích data inconsistency
+           ❌ KHÔNG giải thích mechanism gì cả (chỉ nói "không phải DRD4")
+         Hypothesis D (chunk threshold) ⭐:
+           ✅ Giải thích SWITCH (7R bỏ qua chunk nhỏ → tìm chunk lớn)
+           ✅ Giải thích MOTIVATION (chunk lớn → reward lớn → thích)
+           ✅ Giải thích GAMBLING (near-miss = chunk lớn → body tưởng thật)
+           ✅ Giải thích SCROLL (chunk nhỏ < threshold → chán nhanh)
+           ✅ Giải thích DEEP WORK (cần chunks nền + thời gian → AHA or frustrate)
+           ✅ Dựa trên: Berridge (dopamine ≠ reward) = established ✅
+           ✅ Consistent với TẤT CẢ data đo được (Van Tol + Ebstein) ✅
+           → = Hypothesis MẠNH NHẤT hiện tại
+
+       ĐIỀU KIỆN BẮT BUỘC (hypothesis ĐÚNG chỉ khi TẤT CẢ đúng):
+         ✅ Dopamine vô thức (VTA subcortical, PFC nhận không gửi) — established
+         ✅ Dopamine ≠ reward (Berridge: wanting ≠ liking) — established
+         ✅ Chunk giả lập với body-base mới có reward — consistent Reward-Dual-System
+         ✅ Schema phục vụ body-base → body-base trả reward — consistent Architecture v7.5
+         ✅ Reward body-base → drive tiếp tục Novelty — consistent Drive ↔ Satisfy loop
+         → TẤT CẢ 5 điều kiện đều consistent với research + framework ✅
+
+       ⚠️ VẪN LÀ HYPOTHESIS — chưa ai test trực tiếp:
+         Cần study: DRD4 variant × chunk complexity × body reward response
+         Predict 1: 7R respond MẠNH HƠN 4R khi chunk LỚN
+                    7R respond YẾU HƠN 4R khi chunk NHỎ
+                    4R respond ĐỀU cho mọi size chunk
+         Predict 2: Chất kích thích (dopamine boost):
+                    7R cần LIỀU CAO hơn 4R để cảm thấy effect
+                    Vì: threshold 7R cao → cần dopamine signal MẠNH hơn
+                    🟢 Có support nhẹ: ADHD medication — 7R carriers
+                       thường cần liều CAO hơn stimulant
+                    🟡 Substance use studies: 7R response THẤP hơn
+                       ở liều thấp → cần nhiều hơn (không nhất quán)
+                    ⚠️ CẢ HAI đều không sướng THẬT:
+                       Chất tạo signal giả → body check → không có chunk thật
+                       → = Cơ chế nghiện: signal mạnh + chunk giả → body không bao giờ "đủ"
+         → Nếu predict đúng = confirm hypothesis
+         → Nếu predict sai = cần revise
+
+     → Framework prefer Hypothesis D (chunk threshold) ⭐
+     → Hypothesis A (PFC draft retention) vẫn có thể BỔ SUNG cho D
+       (7R draft clear nhanh VÀ chunk threshold cao → 2 effects chồng lấp)
+     → Ghi cả 4 vì chưa ai chứng minh cái nào đúng tuyệt đối
 
    ℹ️ Berridge & Robinson (1998, 2003) — Wanting vs Liking:
      Dopamine = WANTING (motivation tìm kiếm), KHÔNG phải LIKING (pleasure khi nhận)
@@ -1660,7 +2007,9 @@ COMBINATION đơn giản (không dùng DRD4):
    MAO-A variant: modulate (mood stable hay volatile)
    Training (experience): reinforce hoặc compensate hardware tendency
    Context (environment): kích thích hoặc hạn chế
-   → DRD4: KHÔNG dùng làm cơ chế (evidence yếu + logic có lỗ hổng)
+   → DRD4: data ĐÚNG, interpretation cũ CÓ LỖ HỔNG
+     → Framework đề xuất Hypothesis D (chunk threshold) giải quyết mâu thuẫn
+     → Chi tiết: §8.1 ③ DRD4
 
 2. "Chán nhanh" = DRAFT CLEAR NHANH, không phải "lỗi" hay "thiếu reward":
    → COMT Val/Val: draft bị xóa → BUỘC phải build mới → hành vi = "nhảy"
@@ -1691,6 +2040,261 @@ COMBINATION đơn giản (không dùng DRD4):
    → = Threshold-Analysis.md: "hardware baseline" = enzyme profile (COMT + MAO-A)
    → ⚠️ KHÔNG phải "wanting threshold" (DRD4 narrative có lỗ hổng)
    → MÀ LÀ "draft duration threshold" → COMT giải thích tốt hơn
+```
+
+### 8.3 VTA Detection Mechanism — Delta Detection + PFC Spotlight Loop
+
+```
+⚠️ HYPOTHESIS — logic consistent với research, chưa ai xác thực trực tiếp.
+   Ghi chi tiết để AI + người đọc hình dung ĐÚNG cơ chế framework mô tả.
+   Nếu sai → có đủ chi tiết để chỉ ra chỗ sai cụ thể.
+
+TIẾN TRÌNH ĐẦY ĐỦ — từ vô thức tới PFC detect tới body confirm:
+
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ BƯỚC 1 — VÔ THỨC: neurons fire liên tục (24/7, kể cả ngủ)    │
+  │                                                                 │
+  │   86 tỷ neurons fire → signal lan qua ~7000 neighbors mỗi neuron│
+  │   → Sóng hoạt động liên tục khắp não                           │
+  │   → Neurons THỬ đồng bộ (fire cùng nhịp) với nhau              │
+  │   → Phần lớn thử FAIL → tan → biến mất                        │
+  │   → Một số thử THÀNH → đồng bộ ổn định → pattern hình thành   │
+  │   → Pattern = "chunk" (nhóm neurons fire đồng bộ)              │
+  │   → KHÔNG ai điều khiển — self-organizing (mỗi neuron phản ứng │
+  │     theo neighbors, giống Mexican wave trong sân vận động)      │
+  │                                                                 │
+  │   ⭐ CORTISOL = CALIBRATION ENERGY cho vô thức:                 │
+  │   → Cortisol tăng → neurons khắp não fire MẠNH HƠN (arousal)   │
+  │   → Schemas đang compiled → bị RUNG LẮC (fire khác bình thường)│
+  │   → Rung lắc = THỬ patterns MỚI (vô thức cố calibrate)        │
+  │   → = Cortisol KHÔNG ép PFC trực tiếp                          │
+  │   → = Cortisol làm VÔ THỨC dao động → VTA detect → dopamine    │
+  │     → PFC THẤY dao động → tham gia (GIÁN TIẾP)                │
+  │   → = Cortisol phục vụ VÔ THỨC, PFC là bên PHỤ được thông báo │
+  │   → Chi tiết: Architecture-v7.5-Draft.md §3                    │
+  └─────────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ BƯỚC 2 — VTA: detect BIẾN ĐỘNG (delta), không detect cường độ  │
+  │                                                                 │
+  │   VTA (Ventral Tegmental Area):                                 │
+  │     Vị trí: cụm NHỎ ~400,000 neurons ở giữa não (midbrain)    │
+  │     Chức năng: "seismograph" — detect rung chấn bất thường     │
+  │                                                                 │
+  │   VTA hoạt động theo HABITUATION:                               │
+  │     → Vùng X fire ổn định (schema compiled) → VTA QUEN → lờ đi│
+  │     → Vùng X bỗng fire KHÁC (thêm neurons sync, pattern mới)  │
+  │       → VTA detect: "BIẾN ĐỘNG!" → fire                        │
+  │     → Vùng X lại ổn định ở mức mới → VTA QUEN LẠI → lờ đi    │
+  │     → Vùng Y bỗng thay đổi → VTA detect: "BIẾN ĐỘNG khác!"   │
+  │                                                                 │
+  │   ⭐ KEY INSIGHT: VTA detect DELTA (thay đổi), không ABSOLUTE: │
+  │     → Schema cũ compiled fire MẠNH nhưng ĐỀU → VTA quen → im  │
+  │     → Pattern mới fire YẾU nhưng KHÁC → VTA detect → fire      │
+  │     → = "Mới" = khác so với CÁI VTA ĐÃ QUEN                   │
+  │     → KHÔNG CẦN "predict → compare → error" phức tạp           │
+  │       (Prediction Error theory, Schultz 1997)                   │
+  │     → CHỈ CẦN: "quen → khác quen → fire" (habituation + delta)│
+  │     → = Simpler mechanism, CÙNG observable result               │
+  │                                                                 │
+  │   VTA fire → sản xuất dopamine:                                 │
+  │     Tyrosine (từ thức ăn) → enzyme TH → L-DOPA → Dopamine     │
+  │     → Đóng gói vesicle → NẰM CHỜ ở đầu axon                  │
+  │     → VTA fire → xung ĐIỆN chạy dọc axon
+       (axon = dây cáp VẬT LÝ, mọc từ thai nhi, CỐ ĐỊNH suốt đời
+        → KHÔNG mọc mới khi có dao động → chỉ thay đổi LƯỢNG dopamine gửi qua)  │
+  │     → Tới đầu axon ở PFC → Ca2+ → vesicle mở → dopamine tràn  │
+  │     → Dopamine tràn vào KHE SYNAPSE (20nm) → trôi tới receptor │
+  │                                                                 │
+  │   VTA gửi TỚI ĐÂU:                                             │
+  │     Axon VTA phân nhánh → mỗi nhánh tới 1 vùng:               │
+  │       PFC (prefrontal cortex), Nucleus Accumbens, Hippocampus  │
+  │     = BROADCAST cùng lúc nhiều vùng                             │
+  │     VTA neurons KHÁC NHAU → nối tới vùng PFC KHÁC              │
+  │     → PFC nhận dopamine ở vùng ROUGHLY tương ứng vùng vô thức  │
+  └─────────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ BƯỚC 3 — RECEPTOR FILTER: DRD4 quyết định ngưỡng              │
+  │                                                                 │
+  │   Dopamine trong khe synapse → gắn DRD4 receptor trên PFC neuron│
+  │   DRD4 receptor = protein trên bề mặt → dopamine "khớp" vào   │
+  │   → Receptor đổi hình → protein cascade → ion channels mở      │
+  │   → NẾU đủ receptor activate → PFC neuron FIRE → "nghe thấy!" │
+  │   → NẾU không đủ → PFC neuron KHÔNG fire → "điếc" (literally)  │
+  │                                                                 │
+  │   7R receptor (kém nhạy — protein DÀI, cồng kềnh):             │
+  │     → Dopamine gắn LỎNG hơn → cần NHIỀU phân tử cùng gắn      │
+  │     → Biến động NHỎ → ít dopamine → KHÔNG đủ → PFC KHÔNG BIẾT │
+  │     → Biến động LỚN → nhiều dopamine → ĐỦ → PFC BIẾT          │
+  │     → = "Noise-cancelling MẠNH: chỉ nghe tiếng hét"            │
+  │                                                                 │
+  │   4R receptor (nhạy — protein VỪA):                             │
+  │     → Dopamine gắn DỄ → ít phân tử cũng đủ                    │
+  │     → Biến động NHỎ → ít dopamine → ĐỦ → PFC BIẾT             │
+  │     → = "Noise-cancelling NHẸ: nghe cả thì thầm"              │
+  │                                                                 │
+  │   ⭐ PFC KHÔNG "chọn bỏ qua" chunk nhỏ:                        │
+  │     → 7R PFC THẬT SỰ KHÔNG BIẾT chunk nhỏ tồn tại             │
+  │     → Receptor KHÔNG mở = neuron KHÔNG fire = information       │
+  │       KHÔNG TỒN TẠI đối với PFC                                │
+  │     → = Vấn đề HARDWARE (receptor protein), không SOFTWARE      │
+  │     → = Threshold KHÔNG thay đổi được bằng "cố gắng"           │
+  │       (chỉ thay đổi nhẹ bằng chemical: nicotine, caffeine      │
+  │        boost dopamine NỀN → signal mạnh hơn → detect THÊM     │
+  │        chunk TRUNG BÌNH, không phải hạ threshold)               │
+  └─────────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ BƯỚC 4 — PFC SPOTLIGHT: top-down boost vùng target             │
+  │                                                                 │
+  │   PFC neuron fire (đã vượt threshold) → PFC biết "có biến động"│
+  │   PFC biết ROUGHLY vùng nào (dựa trên VTA neuron nào fire)     │
+  │                                                                 │
+  │   PFC gửi XUỐNG vô thức (top-down):                            │
+  │     → PFC axon kéo XUỐNG cortex → tới vùng target              │
+  │     → Gửi bằng: ĐIỆN qua axon → HÓA HỌC tại synapse           │
+  │     → Effect: boost NE + Acetylcholine tại vùng target          │
+  │     → Neurons vùng target fire MẠNH HƠN bình thường            │
+  │     → = "Spotlight" — vùng được chiếu → RÕ hơn                 │
+  │                                                                 │
+  │   PFC KHÔNG "bảo" vô thức tính gì:                             │
+  │     → PFC chỉ "TĂNG ÂM LƯỢNG" vùng đó                        │
+  │     → Neurons vùng đó TỰ fire pattern theo kết nối CỦA CHÚNG  │
+  │     → Spreading activation: boost vùng A → neighbors A fire    │
+  │       → có thể kích hoạt chunks LIÊN QUAN (tự động)            │
+  │     → = "Nhìn vào A → tự thấy A', A''..." (mạng kết nối sẵn) │
+  │                                                                 │
+  │   ⭐ CHIỀU LÊN vs CHIỀU XUỐNG — bất đối xứng:                  │
+  │     Lên: vô thức → VTA (trung gian) → dopamine → PFC           │
+  │       = Nhiều nguồn → cần VTA lọc + tổng hợp → 1 signal        │
+  │     Xuống: PFC → TRỰC TIẾP → vùng target (không qua VTA)       │
+  │       = PFC đã biết muốn hỏi vùng NÀO → gọi thẳng            │
+  └─────────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ BƯỚC 5 — BODY-BASE CHECK: domain reality test                  │
+  │                                                                 │
+  │   PFC nhận chunk → integrate vào workspace (3-5 chiều)         │
+  │   PFC gửi chunk XUỐNG body-base: "giả lập → body feel gì?"    │
+  │   Body-base simulate:                                           │
+  │     → Chunk KHỚP body-need → opioid release → reward THẬT     │
+  │     → Chunk KHÔNG khớp → body "meh" → PFC discard              │
+  │   → Reward thật = body-base confirm, KHÔNG phải dopamine       │
+  │   → Dopamine = signal "có biến động" (chuông cửa)              │
+  │   → Opioid = reward "có giá trị thật" (quà đằng sau cửa)      │
+  └─────────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ BƯỚC 6 — REINFORCE + LOOP                                      │
+  │                                                                 │
+  │   NẾU body reward (opioid) → vùng đó được REINFORCE:           │
+  │     PFC spotlight tiếp + NE tăng + dopamine reinforce           │
+  │     → Neurons vùng đó fire MẠNH + kết nối CHẶT hơn            │
+  │     → Pattern MỚI ỔN ĐỊNH hơn → trở thành "baseline mới"      │
+  │     → VTA habituate → lờ → PFC giảm attention                  │
+  │     → NHƯNG: trên NỀN ổn định mới → vô thức THỬ TIẾP          │
+  │     → Biến động MỚI trên nền mới → VTA detect → dopamine       │
+  │     → PFC nhận → body check → reward nếu OK → reinforce tiếp  │
+  │     → LOOP: thử → detect → check → reinforce → thử tiếp       │
+  │                                                                 │
+  │   SAU NHIỀU VÒNG:                                               │
+  │     → Pattern ban đầu (thô) → qua nhiều vòng body check        │
+  │     → Mỗi vòng: biến động nhỏ + body confirm → tinh chỉnh     │
+  │     → Tổng năng lượng: GIỐNG (cùng neurons, cùng resource)     │
+  │     → Hình thức dao động: ĐÃ THAY ĐỔI (từ random → khớp domain)│
+  │     → = Schema chất lượng cao = nhiều vòng body-check          │
+  │     → = "Cùng nhạc cụ, cùng energy → melody đã khác"          │
+  │                                                                 │
+  │   KHI NÀO DỪNG:                                                │
+  │     → Draft ĐỦ → compile xuống vô thức → PFC freed             │
+  │     → Satisfaction Signal (body báo "đủ") → schema dừng drive  │
+  │     → PFC MỆT (glucose hết) → PFC offline → nghỉ              │
+  │     → Interrupt (ai gọi, xe bấm còi) → PFC switch              │
+  └─────────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ BƯỚC 7 — DỌN DẸP (clear dopamine sau signal)                   │
+  │                                                                 │
+  │   Dopamine trong khe synapse KHÔNG ở mãi:                      │
+  │     COMT enzyme (ở PFC): phân hủy dopamine → chất thải         │
+  │       Val/Val: dọn NHANH → signal NGẮN → draft clear nhanh    │
+  │       Met/Met: dọn CHẬM → signal DÀI → draft linger           │
+  │     DAT transporter (ở striatum): hút dopamine về neuron cũ    │
+  │       PFC: ÍT DAT → COMT là chính                             │
+  │       Striatum: NHIỀU DAT → DAT là chính                       │
+  │       Cocaine BLOCK DAT → dopamine ở LÂU → signal CỰC DÀI     │
+  │   → Sau dọn: khe synapse SẠCH → sẵn sàng signal MỚI          │
+  └─────────────────────────────────────────────────────────────────┘
+
+TÓM GỌN VÒNG LẶP:
+  ① Vô thức: neurons tự fire + tự đồng bộ → patterns hình thành
+  ② VTA: detect BIẾN ĐỘNG (habituation) → fire → dopamine → PFC
+  ③ Receptor: 4R nhận biến động nhỏ / 7R chỉ nhận lớn (HARDWARE filter)
+  ④ PFC: spotlight XUỐNG vùng target → boost → vô thức respond RÕ
+  ⑤ Body-base: check chunk → reward (opioid) nếu khớp body-need
+  ⑥ Reinforce: reward → pattern mạnh → ổn định → vô thức thử tiếp → LOOP
+  ⑦ COMT: dọn dopamine → clear speed → ảnh hưởng draft duration
+
+  = Bottom-up (dopamine signal) ↔ Top-down (PFC spotlight)
+  = KHÔNG AI điều khiển toàn bộ
+  = Mỗi phần TỰ hoạt động + phản ứng lẫn nhau
+  = Self-organizing network
+
+ỨNG DỤNG:
+  Switch context: toàn bộ pattern THAY ĐỔI → VTA spike LỚN → dopamine LỚN
+    → PFC hưng phấn vài phút → VTA habituate → bình thường
+    → = "Tới nơi mới = hào hứng → rồi quen" ← mechanism giải thích
+
+  Novelty flow: vô thức thử → VTA detect biến động → PFC check → body reward
+    → Reinforce → vô thức thử tiếp trên nền mới → VTA detect → loop
+    → = "Càng biết → càng thấy mới → càng sướng → càng tìm" ← mechanism giải thích
+
+  Creative "chờ 1-2 ngày": PFC set hướng → vô thức process background
+    → Chunks tích tụ DẦN → tới khi đủ lớn (7R threshold) → VTA fire → PFC detect
+    → = "........ AHA!" → ngồi vào execute tuồn tuột ← mechanism giải thích
+
+  PFC SỤP — 2 mechanisms chồng lấp:
+    M1 — Ngập signal (NHANH, recover NHANH):
+      Cortisol spike cực mạnh → vô thức rung cực mạnh → VTA fire liên tục
+      → PFC nhận signal MỌI HƯỚNG cùng lúc → workspace 3-5 chiều OVERLOAD
+      → PFC freeze / panic → NHƯNG PFC NGUYÊN VẸN → recover khi cortisol giảm
+      → = "Shock → đờ → vài phút → bình tĩnh lại"
+
+    M2 — Tổn thương synapse (CHẬM, recover CHẬM):
+      Cortisol baseline CAO MÃN TÍNH → PFC neurons bị ĂN MÒN DẦN
+      → 🟢 Arnsten (2009): cortisol → PFC synapses yếu
+      → 🟢 McEwen (2007): stress mãn tính → PFC dendrites co lại
+      → PFC capacity GIẢM THẬT (tuần → tháng → năm)
+      → Phục hồi PHẦN NÀO (neuroplasticity) → damage nặng = không hoàn toàn
+      → = "Burnout" = M2 tích lũy đủ lâu
+
+    Timeline:
+      Stress 1 lần: M1 → recover nhanh
+      Stress 1 tuần: M1 lặp + M2 bắt đầu nhẹ
+      Stress 1 tháng: M2 đáng kể → PFC yếu THẬT
+      Stress 1 năm+: M2 nặng → PFC damage → burnout
+      Stress thời thơ ấu: M2 CỰC NẶNG (PFC đang phát triển → bị phá khi chưa xong)
+    → Chi tiết: Architecture-v7.5-Draft.md §3
+
+  🟢 RESEARCH SUPPORT (established, dùng riêng lẻ):
+    Habituation: established neuroscience ✅
+    VTA detect novelty/surprise: Schultz (1997) + nhiều studies ✅
+    Dopamine ≠ reward: Berridge & Robinson (1998, 2003) ✅
+    Top-down attention (PFC → cortex): Desimone & Duncan (1995) ✅
+    Working memory 3-5 items: Cowan (2001) ✅
+    Body reward = opioid: established ✅
+
+  🟡 FRAMEWORK CONTRIBUTION (gom + reinterpret):
+    VTA = delta detector (habituation-based) thay vì prediction error calculator
+    DRD4 = disturbance threshold (Hypothesis D) thay vì "kém nhạy → seek more"
+    PFC spotlight = tăng volume vùng target, không phải "ra lệnh tính toán"
+    Toàn bộ loop: self-organizing, không có central controller
+
+  ⚠️ CHƯA AI XÁC THỰC TRỰC TIẾP tiến trình ĐẦY ĐỦ NHƯ MÔ TẢ
+    Mỗi bước = established riêng lẻ
+    GOM LẠI thành 1 flow = framework hypothesis
+    Cần: study đo TOÀN BỘ chain (VTA → dopamine → PFC → body reward) cùng lúc
 ```
 
 ---

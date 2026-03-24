@@ -4,6 +4,7 @@
 > **Ngày:** 2026-03-23
 > **Mục đích:** Kiến trúc mới cho Human-Predictive-Drive framework
 > **Nguyên tắc:**
+> - Hardware Profile: Modality Balance + PFC Parameters + Receptor Variants
 > - Body-Base 4 layers: L0(Alive) + L1(Survival) + L2(Quality) + L3(Pattern)
 > - L0 Alive = MẠNH NHẤT (emergency, protect gene)
 > - L3 bộ ba: Novelty(expand) + Status(map) + Protect(defend) — mọi động vật xã hội có
@@ -23,6 +24,28 @@
 │                                                                      │
 │  ┌────────────────────────────────────────────────────────────────┐  │
 │  │ HUMAN (con người)                                              │  │
+│  │                                                                │  │
+│  │  ┌──────────────────────────────────────────────────────────┐  │  │
+│  │  │ HARDWARE PROFILE (specs — mỗi người KHÁC, thay đổi CHẬM)  │  │  │
+│  │  │                                                          │  │  │
+│  │  │  Modality Balance:                                       │  │  │
+│  │  │    Experience: Visual, Auditory, Somatic, Motor, Emotional│  │  │
+│  │  │    Communication: Verbal (label + transfer + compress)   │  │  │
+│  │  │    → Mỗi người tỉ lệ KHÁC → encode/process KHÁC        │  │  │
+│  │  │                                                          │  │  │
+│  │  │  Cognitive Parameters:                                     │  │  │
+│  │  │    PFC Parameters:                                       │  │  │
+│  │  │      PFC-Capacity:    chất lượng 3-5 chiều workspace    │  │  │
+│  │  │        (resolution, noise filter, retrieval, compress) │  │  │
+│  │  │      PFC-Clear-Speed: COMT (Val/Val fast ↔ Met/Met slow) │  │  │
+│  │  │      PFC-Chunk-Size:  DRD4 — ngưỡng biến động não detect  │  │  │
+│  │  │        7R: chỉ detect biến động LỚN (big+slow)          │  │  │
+│  │  │        4R: detect cả biến động NHỎ (small+fast)          │  │  │
+│  │  │    Mood-Stability: MAO-A (toàn não, không phải PFC)     │  │  │
+│  │  │      high activity = dao động ↔ low activity = ổn định  │  │  │
+│  │  │                                                          │  │  │
+│  │  │  → Hardware set RANGE, experience chọn VỊ TRÍ trong range│  │  │
+│  │  └──────────────────────────────────────────────────────────┘  │  │
 │  │                                                                │  │
 │  │  ┌──────────────────────────────────────────────────────────┐  │  │
 │  │  │ BODY-BASE (nền tảng — mọi sinh vật có, sâu dần lên)      │  │  │
@@ -86,12 +109,116 @@
 │  └────────────────────────────────────────────────────────────────┘  │
 │                                                                      │
 │  ┌────────────────────────────────────────────────────────────────┐  │
-│  │ DOMAIN (thuộc môi trường — bên ngoài Human)                    │  │
-│  │  Nghề nghiệp, học thuật, gia đình, xã hội, tài chính,...     │  │
-│  │  Ghi nhận sự tồn tại. AI hỗ trợ khi cần phân tích sâu.      │  │
+│  │ DOMAIN (thực tế bên ngoài Human — vô tận, có điểm hội tụ)     │  │
+│  │  Tồn tại KHÔNG phụ thuộc não biết hay không                  │  │
+│  │  Não chỉ chứa FRAGMENTS (chunks) — không bao giờ chứa hết   │  │
+│  │  Có ATTRACTOR POINTS (patterns tối ưu tự hội tụ)             │  │
+│  │  Body-Base = giao diện DUY NHẤT giữa Human và Domain         │  │
+│  │  Schema quality = mức hội tụ với domain reality               │  │
 │  └────────────────────────────────────────────────────────────────┘  │
 │                                                                      │
 └──────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 1.5 HARDWARE PROFILE — Sơ Lược
+
+```
+Mỗi người có "specs" KHÁC NHAU — ảnh hưởng CÁCH xử lý mọi thứ:
+
+MODALITY BALANCE — cách encode/process thông tin:
+  5 Experience modalities: Visual, Auditory, Somatic, Motor, Emotional
+  1 Communication modality: Verbal (label + transfer + compress, KHÔNG compute)
+  → Mỗi người tỉ lệ KHÁC → cùng input → process KHÁC → output KHÁC
+  → Somatic-dominant: concept trước, label sau → cross-domain → improviser
+  → Verbal-dominant: label trước, concept qua label → sequential → specialist
+  → Visual-spatial: structural pattern match → architect/physicist
+  → Chi tiết: Modality-Analysis.md
+
+COGNITIVE PARAMETERS — ảnh hưởng chéo lẫn nhau:
+
+  PFC PARAMETERS (3 tham số thuộc PFC):
+
+    ① PFC-Capacity — chất lượng workspace 3-5 chiều:
+       → Mọi người hold ~3-5 CHIỀU cùng lúc (physics limit: interference)
+       → 10 tỉ vs 12 tỉ neurons PFC → VẪN ~3-5 chiều (KHÔNG thêm)
+       → Capacity KHÁC NHAU ở CHẤT LƯỢNG per-chiều:
+         Resolution: mỗi chiều RÕ hay MỜ
+         Noise filter: giữ sạch dù nhiễu hay dễ mất
+         Retrieval: lấy chunk từ vô thức nhanh/đúng hay chậm/sai
+         Compression: compile chunk chặt → mỗi item CHỨA NHIỀU
+       → Capacity CAO: "nhìn 4 thứ, THẤY cả vũ trụ" (expert compression)
+       → Capacity THẤP: "nhìn 4 thứ, chỉ THẤY 4 thứ" (raw, no compression)
+       → Giải quyết 3-5 limit bằng: draft → compile → stack → pyramidal
+         (4×4×4 = 64 thông tin gốc compressed thành 4 meta-chunks)
+       → Hardware: PFC connection density + wiring quality (không phải số neurons)
+
+    ② PFC-Clear-Speed — draft retention (COMT enzyme, PFC-specific):
+       → Val/Val: clear NHANH → draft mất → BUỘC rebuild fresh → improviser tendency
+       → Met/Met: linger LÂU → draft giữ → tiếp tục trên nền cũ → specialist tendency
+       → = KHÔNG phải "chọn" improviser/specialist — hardware BIAS, experience fine-tune
+
+    ③ PFC-Chunk-Size — ngưỡng biến động não mà PFC detect được (DRD4 receptor):
+
+       CƠ CHẾ:
+       → Vô thức: neurons fire liên tục → thử đồng bộ → patterns hình thành
+       → VTA (cụm nhỏ ~400K neurons, giữa não): detect BIẾN ĐỘNG (delta)
+         → VTA hoạt động theo HABITUATION: quen cái gì → lờ đi
+         → Schema cũ fire ĐỀU → VTA QUEN → im (dù mạnh)
+         → Pattern THAY ĐỔI (thêm/bớt neurons sync) → VTA detect → fire
+         → = Detect THAY ĐỔI so với hiện tại, không phải "mới" hay "mạnh"
+       → Dopamine gửi tới PFC qua axon ĐÃ MỌC SẴN
+       → Dopamine gắn DRD4 receptor TRÊN PFC neuron:
+
+       7R receptor kém nhạy → DISTURBANCE THRESHOLD CAO:
+         → Chỉ biến động LỚN (nhiều neurons thêm vào sync) mới vượt threshold
+         → PFC nhận ÍT signal → nhưng mỗi signal = biến động LỚN
+         → PFC spotlight xuống → chunk thường LỚN → body-base reward LỚN per detect
+         → Phải ĐỢI LÂU hơn (vô thức cần thời gian tích lũy đồng bộ đủ lớn)
+         → "........ AHA!" (chờ lâu, 1 insight lớn)
+
+       4R receptor nhạy → DISTURBANCE THRESHOLD THẤP:
+         → Biến động NHỎ cũng vượt threshold
+         → PFC nhận NHIỀU signal → mỗi signal = biến động NHỎ
+         → Body-base reward NHỎ per detect → nhưng LIÊN TỤC
+         → "ồ... ồ... ồ..." (nhiều, nhỏ, liên tục)
+
+       → Hypothesis D (Disturbance Threshold) — framework đề xuất ⭐
+         Giải quyết mâu thuẫn interpretation cũ "kém nhạy → seek more":
+         CŨ: "7R kém nhạy → ít sướng → seek more để bù" → MÂU THUẪN logic
+         MỚI: "7R threshold cao → chỉ detect lớn → mỗi lần reward LỚN → THÍCH novelty"
+         → Mọi case consistent: scroll MXH, cờ bạc, gặp khó, chất kích thích ✅
+
+       → Dopamine = SIGNAL "có biến động đáng chú ý" (KHÔNG phải reward)
+       → Reward thật = body-base confirm chunk có giá trị → opioid
+       → "Nghiện dopamine" = pop science SAI — thực ra nghiện BODY REWARD (opioid)
+
+       NOTE: VTA detect BIẾN ĐỘNG qua habituation (quen → khác quen → fire)
+         Có thể KHÔNG cần "predict → compare → error" phức tạp (Schultz 1997)
+         "Quen → khác quen → fire" = simpler mechanism, CÙNG observable result
+         Chi tiết: PFC-Analysis.md §8.3
+
+  MOOD-STABILITY (KHÔNG phải PFC — toàn não):
+
+    ④ Mood-Stability (MAO-A enzyme, brain-wide):
+       → MAO-A high activity: clear dopamine+serotonin+NE NHANH → mood DAO ĐỘNG
+       → MAO-A low activity: clear CHẬM → mood ỔN ĐỊNH
+       → Khác COMT: COMT chỉ PFC (local), MAO-A toàn não (global)
+       → Ảnh hưởng "nền" mood, KHÔNG trực tiếp ảnh hưởng PFC draft
+
+  → 4 parameters TƯƠNG TÁC với nhau:
+    PFC-Cap cao + Clear nhanh + Chunk lớn + Mood ổn = "improviser mạnh, đột phá"
+    PFC-Cap cao + Clear chậm + Chunk nhỏ + Mood ổn = "specialist sâu, stable"
+    PFC-Cap thấp + Clear nhanh + Chunk lớn + Mood dao động = "restless, frustrated"
+    ...nhiều combinations → mỗi người UNIQUE
+  → Chi tiết: PFC-Analysis.md §8
+
+TỔNG THỂ:
+  Hardware set RANGE → experience chọn VỊ TRÍ trong range
+  → Mỗi người = combination UNIQUE của modality + 4 cognitive parameters
+  → = "Specs máy" quyết định "software (schema) chạy thế nào"
+  → KHÔNG quyết định "muốn gì" (body-base) — chỉ quyết định "xử lý thế nào"
 ```
 
 ---
@@ -704,6 +831,99 @@ CƠ CHẾ TĂNG/GIẢM:
     = Body "cảm thấy nguy hiểm" dù "biết an toàn"
     = Cortisol baseline ĐÃ TÍCH LŨY quá nhiều spike
     = Cần body THẬT SỰ cảm thấy an toàn (không phải verbal "ổn mà")
+
+
+⭐ CƠ CHẾ CORTISOL — Calibration Energy Cho Vô Thức:
+
+  ⚠️ HYPOTHESIS — logic consistent, chưa ai xác thực trực tiếp.
+
+  Cách hiểu PHỔ BIẾN (oversimplified):
+    "Cortisol cao → đẩy PFC imagine" (cortisol ép PFC trực tiếp)
+    → Gợi ý: cortisol CHUI VÀO PFC → bắt PFC làm việc
+    → = Oversimplified
+
+  Cách hiểu FRAMEWORK (chính xác hơn):
+    Cortisol KHÔNG ép PFC trực tiếp → cortisol làm VÔ THỨC dao động
+    → Vô thức dao động → VTA detect biến động → dopamine → PFC THẤY
+    → PFC tham gia vì VTA BÁO CÁO, không phải vì cortisol ÉP
+
+  TIẾN TRÌNH CHI TIẾT:
+    ① Cortisol tăng → neurons KHẮP NÃO fire MẠNH hơn (arousal)
+    ② VÔ THỨC: schemas đang compiled → bị RUNG LẮC
+       → Cortisol = "rung lắc hệ thống" → neurons fire KHÁC bình thường
+       → Schemas rung = THỬ patterns MỚI (cố tìm cách giảm threat)
+    ③ Rung lắc → VTA detect BIẾN ĐỘNG (habituation-based) → dopamine
+    ④ Dopamine → PFC → PFC "thấy" vô thức đang dao động → tham gia
+    ⑤ PFC spotlight → hỗ trợ vô thức calibrate CHÍNH XÁC hơn
+    ⑥ Calibrate xong → dao động ỔN ĐỊNH → VTA hết detect → PFC offline
+
+    = Cortisol → Vô thức rung → VTA → Dopamine → PFC (GIÁN TIẾP)
+    ≠ Cortisol → PFC (TRỰC TIẾP)
+
+  TẠI SAO QUAN TRỌNG:
+    → Cortisol = "năng lượng calibrate" cho vô thức, không phải "lệnh cho PFC"
+    → PFC = bên PHỤ được VTA thông báo, không phải bên NHẬN LỆNH
+    → = Consistent với: "PFC = giám đốc nhìn báo cáo, không bị ai ép"
+    → = Consistent với: VTA delta detection mechanism (§8.3 PFC-Analysis)
+
+  VÍ DỤ:
+    Hổ đuổi:
+      Cortisol spike → VÔ THỨC rung CỰC MẠNH (mọi schema re-evaluate)
+      → VTA fire liên tục → dopamine → PFC: "CHẠY hay FIGHT?"
+      → PFC không bị cortisol ÉP nghĩ → PFC THẤY vô thức đang panic → tham gia hỗ trợ
+
+    Học cái mới (cortisol nhẹ):
+      Cortisol tăng nhẹ (challenge) → vô thức rung NHẸ (thử patterns mới)
+      → VTA detect biến động → dopamine NHẸ → PFC tham gia NHẸ
+      → = "Khó chịu nhẹ khi học" = cortisol làm vô thức rung → BÌNH THƯỜNG
+
+    Thiên tài (cortisol baseline cao mãn tính):
+      Cortisol LUÔN cao (trauma) → vô thức LUÔN dao động mạnh
+      → VTA LUÔN detect → dopamine LIÊN TỤC → PFC LUÔN thấy biến động
+      → PFC: tham gia liên tục → imagine liên tục → "obsessive thinker"
+      → = KHÔNG phải "yêu khoa học" → vô thức BUỘC phải rung → PFC BUỘC phải thấy
+
+
+  PFC SỤP — 2 MECHANISMS chồng lấp:
+
+    MECHANISM 1 — Ngập signal (NHANH, phục hồi NHANH):
+      Cortisol spike CỰC MẠNH → vô thức rung CỰC MẠNH → VTA fire liên tục
+      → PFC nhận signal từ MỌI HƯỚNG cùng lúc → workspace 3-5 chiều OVERLOAD
+      → PFC: freeze / panic / "không nghĩ được gì"
+      → PFC VẪN NGUYÊN VẸN → chỉ bị overload TẠM THỜI
+      → Cortisol giảm → signal giảm → PFC PHỤC HỒI nhanh (phút → giờ)
+      → = "Shock → đờ → vài phút → bình tĩnh lại"
+
+    MECHANISM 2 — Tổn thương synapse (CHẬM, phục hồi CHẬM):
+      Cortisol baseline CAO MÃN TÍNH → PFC neurons bị ăn mòn DẦN
+      → 🟢 Arnsten (2009): cortisol cao → PFC synapses YẾU DẦN
+      → 🟢 McEwen (2007): stress mãn tính → PFC dendrites CO LẠI
+      → PFC capacity GIẢM DẦN (tuần → tháng → năm)
+      → = "Sao mình nghĩ chậm hơn trước" = PFC bị ăn mòn
+      → Cortisol giảm → phục hồi PHẦN NÀO (neuroplasticity)
+      → Damage nặng = KHÔNG phục hồi hoàn toàn
+      → = "Burnout" = mechanism 2 đã tích lũy đủ lâu
+
+    TIMELINE:
+      Stress 1 lần: M1 (ngập) → recover nhanh
+      Stress 1 tuần: M1 lặp lại + M2 bắt đầu nhẹ
+      Stress 1 tháng: M2 đáng kể → PFC bắt đầu yếu THẬT
+      Stress 1 năm+: M2 nặng → PFC damage → burnout
+      Stress thời thơ ấu: M2 CỰC NẶNG (PFC đang phát triển → bị phá khi chưa xong)
+
+  THIÊN TÀI = sống ở BIÊN nguy hiểm:
+    → Sweet spot thường: cortisol vừa → insight trung bình → PFC safe
+    → Thiên tài: cortisol CAO → insight CAO → PFC ĐANG bị ăn mòn
+    → = "Siêu xe bị ăn mòn vẫn nhanh hơn xe thường nguyên vẹn"
+    → = Newton: paranoia + physics đỉnh cao = PFC bị damage + capacity gốc cực cao
+    → = "Thiên tài và điên cách 1 bước" = ĐÚNG biochemistry:
+      Cortisol ở BIÊN sweet spot → insight peak + damage bắt đầu
+      Lệch sang phải chút → crash (điên)
+      Lệch sang trái chút → bình thường (không breakthrough)
+    → Einstein BỀN hơn Newton/Tesla vì: cortisol THẤP HƠN (có social/connection)
+      → PFC ÍT bị ăn mòn → produce LÂU hơn → sống LÂU hơn
+
+  → Chi tiết VTA mechanism: PFC-Analysis.md §8.3
 ```
 
 ---
@@ -993,18 +1213,105 @@ LỊCH SỬ + TƯƠNG LAI:
 
 ---
 
-## 7. DOMAIN — Thuộc Môi Trường Thực
+## 7. DOMAIN — Thực Tế Bên Ngoài Human
 
 ```
-Domain = lĩnh vực thực tế mà schema APPLY vào
-  Nghề nghiệp, học thuật, gia đình, sức khỏe, xã hội, tài chính,...
+DOMAIN — chỉ ghi CÁI CHẮC CHẮN (không đóng khung hình dung):
 
-  → Ghi nhận sự tồn tại — không phân tích sâu trong framework
-  → Giải thích cơ bản nếu cần (benchmark cho schema level)
-  → AI hỗ trợ khi cần phân tích chi tiết domain cụ thể
-  → Mỗi domain = 1 "sân chơi" có rules riêng
-  → Schema domain = bề mặt nhất trong gradient
-  → Nhiều domains share body-needs + values ở tầng sâu hơn
+  ① Domain = thực tế bên ngoài Human, bên trong Environment:
+     → Tồn tại KHÔNG PHỤ THUỘC vào não biết hay không
+     → Não không biết → domain VẪN CÒN, VẪN hoạt động
+
+  ② Domain = vô tận:
+     → Không thể chứa hết trong não (86 tỷ neurons vẫn quá nhỏ)
+     → Não chỉ chứa FRAGMENTS (chunks) của domain
+     → Mọi kiến thức con người = MỘT PHẦN CỰC NHỎ của domain
+
+  ③ Domain có ĐIỂM HỘI TỤ (attractor points):
+     → Nhiều hệ thống khác nhau giải quyết cùng constraint
+       → TỰ TỤ VỀ cùng pattern tối ưu — KHÔNG AI thiết kế
+     → Ví dụ: não (VTA+PFC+neurons), công ty (thư ký+CEO+nhân viên),
+       quân đội (cấp phó+tướng+lính) → CÙNG pattern "leader+filter+workers"
+       → Vì CÙNG constraint: "1 quyết định + triệu input + bandwidth hạn chế"
+     → Attractors = patterns TỐI ƯU tự nổi lên từ constraints
+     → Trước khi phát hiện = "innovation", sau khi phát hiện = "hiển nhiên"
+     → Cross-domain insight = phát hiện 2 domain CÙNG attractor
+
+  ④ Body-Base = giao diện DUY NHẤT giữa Human và Domain:
+     → Não KHÔNG tiếp xúc domain trực tiếp
+     → Body tiếp xúc (mắt thấy, tay chạm, tai nghe,...) → body feedback → não biết
+     → Imagine có thể draft schema "hoàn hảo" → nhưng CHƯA CHECK domain
+       → có thể hoàn toàn SAI mà PFC KHÔNG BIẾT
+     → CHỈ khi body EXECUTE trong domain → body NHẬN feedback
+       → NÃO mới biết schema ĐÚNG hay SAI
+
+  ⑤ Schema quality = mức hội tụ với domain reality:
+     → Chưa check domain (chỉ imagine): có thể xa thực tế → quality THẤP
+     → Check 1 vòng (thử 1 lần): biết phần nào → quality TRUNG BÌNH
+     → Check nhiều vòng (kinh nghiệm): gần attractor → quality CAO
+     → "Kinh nghiệm" = CHÍNH XÁC là số vòng body đã check với domain
+     → "Chuyên gia" = người đã lặp ĐỦ VÒNG để schema tụ về attractor
+
+  ⑥ KHÔNG mô tả domain "trông như thế nào":
+     → Bất kỳ mô tả nào = đóng khung = sai
+     → Domain lớn hơn mọi mô tả mà con người có thể tạo
+     → Framework chỉ cần biết: có domain, có attractors, body check
+     → Chi tiết domain cụ thể: thuộc về TỪNG lĩnh vực riêng
+     → AI hỗ trợ khi cần phân tích domain cụ thể
+
+  → Nghề nghiệp, học thuật, gia đình, xã hội, tài chính,...
+    = CÁC VÙNG trong domain mà con người ĐÃ ĐẶT TÊN
+    = Nhưng domain KHÔNG giới hạn ở những gì đã đặt tên
+
+  ⑦ CƠ CHẾ tương tác Human ↔ Domain — UNIVERSAL pattern:
+
+     Não tiếp cận domain LUÔN bằng CÙNG 1 cơ chế:
+
+       BASE (pattern ổn định hiện tại)
+         → SHIFT nhẹ (thử cái mới, khác chút so với base)
+           → BODY CHECK (domain reality confirm: đúng/sai, ngon/dở, hay/chán?)
+             → ACCEPT: khớp domain → opioid → base UPDATE nhẹ
+             → REJECT: không khớp → quay về base cũ
+               → BASE MỚI (đã update) → shift tiếp → check tiếp → ...
+
+     = INCREMENTAL CALIBRATION: mỗi bước NHẸ + body verify
+
+     Pattern này GIỐNG HỆT cho MỌI domain:
+       Ăn: base quen (cơm) + món mới → ngon? (body check) → giữ/bỏ
+       Nhạc: thể loại quen + bài mới → hay? (body check) → giữ/bỏ
+       Học: kiến thức có + info mới → đúng? (body check) → giữ/bỏ
+       Game: core loop + content mới → vui? (body check) → giữ/bỏ
+       Người: bạn quen + gặp mới → hợp? (body check) → giữ/bỏ
+
+     Tại sao LUÔN pattern này:
+       → Neurons = pattern ổn định (compiled) + cortisol rung nhẹ (shift)
+       → VTA detect biến động → PFC → body evaluate → reward/reject
+       → = CÙNG hardware (neurons + dopamine + opioid) → CÙNG mechanism
+       → = Khác nhau CHỈ ở vùng cortex NÀO check (visual/auditory/somatic/...)
+
+     Tại sao KHÔNG "nhảy" từ A → Z:
+       → Quá xa = neurons noise (pattern quá khác → không evaluate được)
+       → Body KHÔNG có reference để check (chưa bao giờ trải nghiệm Z)
+       → = PHẢI incremental: A → A' → A'' → ... → dần tới Z
+       → = "Leo núi mỗi bước 1 chút, kiểm tra chỗ đặt chân, rồi bước tiếp"
+       → KHÔNG thể "nhảy lên đỉnh" (quá xa = noise = không biết đúng sai)
+
+     Và: "base" DỊCH DẦN theo thời gian:
+       → Base hôm nay = kết quả HÀNG NGHÌN shifts + checks trước đó
+       → Base 5 năm trước ≠ base hôm nay (đã shift qua nhiều steps)
+       → = "Khẩu vị thay đổi" = base ĐÃ shift dần qua năm ăn + check
+       → = "Người thay đổi" = schemas ĐÃ shift dần qua năm sống + check
+
+     ⭐ Đây cũng là ATTRACTOR PATTERN:
+       Constraint: phải THÍCH ỨNG domain (thay đổi) + KHÔNG thể quá nhanh (neurons cần ổn định)
+       → Giải pháp tối ưu = incremental shift + feedback check
+       → CÙNG pattern xuất hiện ở:
+         Evolution: mutation nhỏ + selection → species change dần
+         Science: hypothesis + experiment → knowledge dần
+         Market: product + feedback → improvement dần
+         AI training: weights adjust + loss function → model dần
+       → = UNIVERSAL optimization algorithm
+       → = Bất kỳ hệ thống nào có constraint "thích ứng + ổn định" → TỤ VỀ pattern này
 ```
 
 ---
