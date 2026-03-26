@@ -632,6 +632,39 @@ KỊCH BẢN C — SYMBIOSIS (hướng tối ưu):
 
 ---
 
+### 11.5 Tại Sao Con Người PHẢI Ra Vũ Trụ
+
+```
+🟡 Framework predict: ra vũ trụ = KHÔNG phải "muốn" → là "PHẢI":
+
+  2 lý do CÙNG VALID, KHÁC timeline:
+
+  LÝ DO 1 — Threat Survive (thế kỷ này):
+    → "Tất cả trứng trong 1 giỏ (trái đất)" = risk L0 Alive toàn loài
+    → Thiên thạch / pandemic / chiến tranh hạt nhân = CÓ THỂ xóa loài
+    → Backup planet (sao Hỏa) = giảm risk → ĐANG làm (SpaceX, NASA)
+    → = Threat-drive ở mức LOÀI → urgent
+
+  LÝ DO 2 — Novelty Domain (nghìn+ năm):
+    → Domain trái đất = LỚN nhưng HỮU HẠN
+    → Novelty liên tục qua thế hệ → DẦN map domain trái đất
+    → Khi "gần hết" → Novelty chậm → body reward giảm → lệch lạc hoặc suy thoái
+    → Vũ trụ = domain VÔ TẬN → Novelty KHÔNG BAO GIỜ hết
+    → NHƯNG: lý do 1 SẼ đẩy ra vũ trụ TRƯỚC khi lý do 2 xảy ra
+    → = "Ra vì sợ chết TRƯỚC → rồi ở lại vì CÒN NHIỀU CÁI MỚI"
+
+  AI × Vũ trụ:
+    → AI accelerate: thiết kế tàu, habitat, life support → ra NHANH hơn
+    → AI mở rộng domain trái đất: tìm thêm patterns → Novelty THÊM (tạm)
+    → = AI giúp tìm thêm cái mới TRÊN trái đất → lý do 2 chưa cấp bách (tạm)
+        + AI giúp thiết kế tàu/habitat → lý do 1 triển khai NHANH hơn
+
+  → = "Dù sao con người CŨNG sẽ ra vũ trụ — con người không thể dừng khám phá"
+  → (Chi tiết: Knowledge-Accumulation.md §6)
+```
+
+---
+
 ## 12. Câu Hỏi Mở {#12-questions}
 
 ```

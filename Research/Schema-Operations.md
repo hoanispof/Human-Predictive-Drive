@@ -697,6 +697,99 @@ PFC = SPOTLIGHT quay liên tục trên gradient schemas:
 
 ---
 
+## 8.8 Input Control — Tắt vs Mở: Accuracy vs Magnitude
+
+```
+🟡 Não evaluate PER-INPUT → Body reward TỔNG THỂ:
+
+  CƠ CHẾ:
+    → Mỗi cortex evaluate input CỦA NÓ riêng:
+      Visual cortex: "đẹp?" → signal
+      Auditory cortex: "hay?" → signal
+      Somatic: "sướng?" → signal
+    → TỔNG HỢP signals → opioid release → TOÀN THÂN "feel"
+    → 1 vùng evaluate "tốt": opioid NHẸ
+    → NHIỀU vùng evaluate "tốt" CÙNG LÚC: opioid MẠNH (multi-modal bonus)
+    → = "Bonus đồng bộ": 1+1+1 ≠ 3 → CÓ THỂ = 4-5 (synergy)
+
+
+⭐ PFC WORKSPACE CÓ HẠN → mỗi input CHIẾM workspace:
+
+    Visual: ~30% workspace (nếu mở mắt)
+    Auditory: ~20% (nếu có âm thanh)
+    Somatic: ~20% (nếu có cảm giác body)
+    Verbal: ~20% (nếu đang nói/nghe lời)
+    Motor: ~10% (nếu đang cử động)
+    → TỔNG > 100% → workspace BỊ CHIA → mỗi input KHÔNG được full
+
+  → TẮT 1 input = FREED workspace → input còn lại ĐƯỢC NHIỀU hơn:
+    Nhắm mắt: visual freed → auditory CÓ THỂ gấp đôi workspace
+    → = "Nghe RÕ HƠN" — không phải tai MẠNH hơn → PFC DÀNH nhiều hơn cho tai
+
+  🟢 Research:
+    → Người mù: auditory + somatic MẠNH hơn người sáng (neuroplasticity)
+    → Người điếc: visual MẠNH hơn người nghe
+    → = TẮT 1 kênh VĨNH VIỄN → kênh khác MẠNH LÊN (cortex repurpose)
+    → = TẮT 1 kênh TẠM THỜI → kênh khác SẮC NÉT hơn (attention shift)
+
+
+  2 CHIẾN LƯỢC — tùy MỤC ĐÍCH:
+
+  ① TẮT input → TĂNG ACCURACY (đánh giá CHÍNH XÁC 1 kênh):
+    → Nhắm mắt nghe nhạc: audio ĐƯỢC toàn bộ attention → nghe RÕ mọi chi tiết
+      → "Hay HƠN" = detect nhiều detail hay hơn (nhưng dở CŨNG rõ hơn)
+      → = ✅ Phổ biến — nhiều người nhắm mắt nghe nhạc hay
+    → Tắt đèn khi thân mật: visual TẮT → somatic ĐƯỢC toàn bộ attention
+      → Cảm nhận chạm RÕ HƠN + bớt visual self-judgment ("body tôi trông thế nào?")
+      → = ✅ Phổ biến — 2 lý do: focus somatic + bớt self-consciousness
+    → Ôm im lặng: verbal TẮT → somatic ĐƯỢC toàn bộ
+      → Cảm nhận ôm RÕ NHẤT → oxytocin response MẠNH nhất
+      → ✅ Sướng hơn nếu body-need LÚC ĐÓ = Touch/Connection
+      → 🟡 Nhưng: nếu cần "được nghe" (Being Seen) → nói QUANTRỌNG hơn ôm im
+
+    → KHI NÀO TẮT:
+      Tinh chỉnh creative (anim, nhạc, thiết kế): TẮT noise → focus 1 kênh → accuracy
+      Thiền / body-listening: TẮT tất cả → focus somatic → body signal RÕ nhất
+      Evaluate chất lượng: TẮT distraction → focus sản phẩm → body check CHÍNH XÁC
+      → = "Cần ĐÁNH GIÁ chính xác → TẮT noise"
+
+  ② MỞ multi-modal → TĂNG MAGNITUDE (sướng NHIỀU, nhiều kênh cùng reward):
+    → Concert live: visual (thấy nghệ sĩ) + audio (nghe nhạc) + somatic (bass rung body)
+      + social (mọi người cùng enjoy) → 4 kênh ĐỒNG BỘ → reward CỰC MẠNH
+      → = "Concert live SƯỚNG HƠN tai nghe" vì multi-modal sync
+    → Nhà hàng fine dining: taste + visual (presentation) + audio (nhạc nền) + somatic (texture)
+      → 4 kênh đồng bộ → "ngon HƠN ăn ở nhà" dù CÙNG MÓN
+    → Du lịch: visual (cảnh mới) + somatic (khí hậu mới) + social (bạn đồng hành)
+      + novelty (experience mới) → multi-modal → "nhớ MÃI"
+      → = Tại sao "trải nghiệm > đồ vật": trải nghiệm = multi-modal → reward SÂU hơn
+
+    → KHI NÀO MỞ:
+      Enjoy / celebrate: MỞ HẾT → multi-modal → magnitude CAO
+      Social bonding: MỞ → nhiều kênh connection → oxytocin MẠNH
+      Travel / explore: MỞ → nhiều kênh novelty → chunks ĐA DẠNG nhất
+      → = "Cần SƯỚNG NHIỀU → MỞ nhiều kênh đồng bộ"
+
+
+  ⭐ ACCURACY vs MAGNITUDE — trade-off:
+
+    TẮT: accuracy CAO + magnitude THẤP ("biết RÕ 1 thứ")
+    MỞ: accuracy VỪA + magnitude CAO ("sướng NHIỀU nhưng mờ hơn per-kênh")
+    → KHÔNG ai "đúng" → TÙY MỤC ĐÍCH:
+      Cần đánh giá → TẮT (accuracy)
+      Cần enjoy → MỞ (magnitude)
+      Cần sáng tạo → TẮT lúc evaluate + MỞ lúc brainstorm (XENLẪN)
+      → = "Tốt nhất = BIẾT KHI NÀO TẮT, KHI NÀO MỞ"
+
+  ⚠️ "Bịt tai xem video" = trường hợp ĐẶC BIỆT:
+    → Video THIẾT KẾ cho visual + audio CÙNG LÚC (nội dung từ CẢ 2)
+    → Bịt tai = MẤT 50% nội dung (dialogue, nhạc, sound effects)
+    → Thấy visual RÕ hơn → NHƯNG hiểu KÉMHƠN → ❌ KHÔNG hay hơn
+    → NGOẠI TRỪ: video THUẦN visual (dance, art, nature) → bịt tai CÓ THỂ focus visual hơn
+    → = "TẮT input chỉ TỐT khi input đó là NOISE → XẤU khi input đó là CONTENT"
+```
+
+---
+
 ## 9. Ví Dụ Tổng Hợp — Archimedes "EUREKA"
 
 ```
