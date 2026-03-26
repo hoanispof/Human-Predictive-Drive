@@ -69,7 +69,7 @@ MỚI (Schema-Drive): Schema phát hiện body CẦN gì → MONG MUỐN cụ th
   │      │          Body đánh giá: "đủ chưa?"     ↓             │
   │      │                                        │             │
   │      └──── Satisfaction Signal ←── Body xác nhận "đủ"       │
-  │            (body báo schema dừng)                            │
+  │            (body báo VÔ THỨC schema dừng — PFC không biết)  │
   │                                                             │
   │  → Schema-Drive mới nổi lên → loop tiếp                    │
   └─────────────────────────────────────────────────────────────┘
@@ -96,14 +96,17 @@ MỚI (Schema-Drive): Schema phát hiện body CẦN gì → MONG MUỐN cụ th
         Exception: hormone baseline lệch (anxiety, addiction) → hormone drive trực tiếp
         (Chi tiết: Prolactin-Analysis.md §3.1)
 
-    Chiều SATISFY (Body → Schema) = đơn giản hơn:
-      Body xác nhận "đủ" → release signal (prolactin candidate)
-      → 1 MESSAGE rõ: "dừng"
-      → Schema nhận → drive GIẢM → hành vi dừng
+    Chiều SATISFY (Body → VÔ THỨC Schema) = đơn giản hơn:
+      Body xác nhận "đủ" → release signal (nhiều hormones per body-need: prolactin, CCK, leptin,...)
+      → VÔ THỨC schema nhận → schema auto DỪNG
+      → PFC KHÔNG biết signal fire → PFC chỉ thấy "hết muốn" (kết quả)
+      → PFC CÓ THỂ override "hết muốn" bằng reward hoặc threat
+      (Chi tiết 3 loại signal: Schema-Atlas-v2.md §2.5)
 
     → 2 chiều NGƯỢC NHAU, 2 NGUỒN KHÁC NHAU, 2 ĐỘ PHỨC TẠP KHÁC NHAU
-    → Schema KHÔNG TỰ biết đủ — phải CHỜ body báo (signal đơn giản)
+    → Schema KHÔNG TỰ biết đủ — phải CHỜ body báo (signal đơn giản, vô thức nhận)
     → Body KHÔNG TỰ drive — phải CHỜ schema điều khiển (orchestration phức tạp)
+    → PFC: KHÔNG biết "đủ chưa" — PFC chỉ biết "sướng" (reward) và "đau" (pain)
     → KHÔNG chiều nào tự đủ — cả hai PHỤ THUỘC lẫn nhau
     → Đây là lý do giữ tên "Satisfaction Signal" (body phát, đơn giản)
       thay vì "Schema-Satisfaction" (sai nguồn phát)

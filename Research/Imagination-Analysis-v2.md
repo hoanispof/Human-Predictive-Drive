@@ -664,7 +664,7 @@ CHUNK ASSOCIATION ẢNH HƯỞNG IMAGINE QUALITY:
 IMAGINE OUTPUT → SCHEMA UPDATE:
 
   Imagine → draft → body check → compile → schema UPDATE:
-    ① PFC draft (thô, 3-5 chiều)
+    ① PFC draft (thô, 4±1 dimensions)
     ② Body simulate → feedback → draft adjust
     ③ Lặp nhiều vòng → draft TINH CHỈNH
     ④ Đủ tốt → compile xuống vô thức → schema mới/updated
@@ -698,10 +698,15 @@ IMAGINE OUTPUT → SCHEMA UPDATE:
 
 ---
 
-## 8. Imagine × Baseline-Drive — Cortisol Quyết Định Mode
+## 8. Imagine × Change-Readiness — Cortisol Quyết Định Mode
 
 ```
-BASELINE-DRIVE (cortisol) ẢNH HƯỞNG imagine hoạt động THẾ NÀO:
+CHANGE-READINESS (cortisol baseline) ẢNH HƯỞNG imagine hoạt động THẾ NÀO:
+
+  Change-Readiness = BIẾN ẢO (function, nhiều hormones map vào):
+    ① Baseline (cortisol chính): "neurons sẵn sàng thay đổi" → quyết định mode imagine
+    ② Emergency-Alert (NE+Adrenaline chính, cortisol sau): "rung chấn đột ngột" → PFC noise + amygdala lead
+    ③ Neural-Wear (side effect, không hormone riêng): "hao mòn" khi balance lệch
 
   ⭐ CƠ CHẾ: cortisol KHÔNG ép PFC imagine trực tiếp:
     Cortisol tăng → VÔ THỨC dao động mạnh hơn (neurons fire khác bình thường)
@@ -710,22 +715,23 @@ BASELINE-DRIVE (cortisol) ẢNH HƯỞNG imagine hoạt động THẾ NÀO:
     → = PFC tham gia vì VTA BÁO CÁO, không vì cortisol ÉP
     → Chi tiết: Architecture-v7.5-Draft.md §3, PFC-Analysis.md §8.3
 
-  Cortisol ở MỨC NÀO → imagine ở MODE NÀO:
+  Change-Readiness ở MỨC NÀO → imagine ở MODE NÀO:
 
   ┌─────────────────────────────────────────────────────────────┐
-  │ Cortisol   │ Imagine MODE         │ Body-Base              │
+  │ Change-    │ Imagine MODE         │ Body-Base              │
+  │ Readiness  │                      │                        │
   ├────────────┼──────────────────────┼────────────────────────┤
   │ Cực thấp   │ IDLE: imagine yếu    │ Body ok, thưởng thức  │
-  │ (IDLE)     │ Chỉ imagine khi CÓ   │ Ăn ngon, ngủ ngon     │
-  │            │ reward hấp dẫn       │ "Đời đẹp quá"          │
+  │ (IDLE)     │ Internal ❌ Ext 🟡   │ Ăn ngon, ngủ ngon     │
+  │            │ Chỉ react external   │ "Đời đẹp quá"          │
   ├────────────┼──────────────────────┼────────────────────────┤
   │ Thấp       │ LAZY: imagine nhẹ    │ Body ok, relaxed       │
-  │ (LAZY)     │ Chỉ drive khi thích  │ "Lười nhưng thoải mái" │
-  │            │ (PULL only)          │                        │
+  │ (LAZY)     │ Internal 🟡 Ext ✅   │ "Lười nhưng thoải mái" │
+  │            │ PULL only, shallow   │ Game/MXH = external đủ │
   ├────────────┼──────────────────────┼────────────────────────┤
   │ Vừa        │ ACTIVE: imagine tốt  │ Body "cần tốt hơn"    │
-  │ (ACTIVE)   │ PULL + PUSH ok       │ Drive vừa đủ           │
-  │            │ Flow possible        │ = SWEET SPOT            │
+  │ (ACTIVE)   │ Internal ✅ Ext ✅    │ Drive vừa đủ           │
+  │            │ DEEP possible        │ = SWEET SPOT            │
   ├────────────┼──────────────────────┼────────────────────────┤
   │ Hơi cao    │ FOCUSED: imagine sâu │ Body hơi căng           │
   │ (FOCUSED)  │ Novelty SÂU + HẸP   │ "Deadline tạo focus"   │
@@ -745,13 +751,43 @@ BASELINE-DRIVE (cortisol) ẢNH HƯỞNG imagine hoạt động THẾ NÀO:
   └────────────┴──────────────────────┴────────────────────────┘
 
 
+⭐ NOVELTY CẦN "NĂNG LƯỢNG RUNG" — 2 nguồn trigger imagine:
+
+  NGUỒN 1 — INTERNAL (cortisol baseline → rung → novelty):
+    → Cortisol đủ → neurons fire MẠNH + KHÁC → cross-connection tự xảy ra
+    → VTA detect → dopamine → PFC → insight
+    → = "Não TỰ tìm pattern mới" — KHÔNG cần input bên ngoài
+    → = DEEP novelty: cross-domain, abstract, multi-step
+    → CẦN: cortisol đủ + chunks đủ + PFC capacity
+    → Ví dụ: Einstein suy nghĩ tại bàn → relativity (internal drive)
+
+  NGUỒN 2 — EXTERNAL (input sensory → trigger):
+    → Cortisol CÓ THỂ thấp → não ổn định → NHƯNG:
+    → Mắt/tai/da nhận input MỚI → neurons fire KHÁC → VTA detect
+    → = "Não PHẢN ỨNG với cái mới bên ngoài"
+    → = SHALLOW novelty thường (react to external, không tự tạo)
+    → = Con chó thấy đồ ăn, trẻ thấy đồ chơi, thấy cô gái đẹp
+    → CÓ THỂ trigger cortisol → dẫn tới deep novelty
+
+  NGUỒN 3 — COMBINATION (phổ biến nhất hàng ngày):
+    → External thú vị → cortisol nhẹ (curiosity) → internal rung → deeper
+    → = "Thấy cái hay → tò mò → nghĩ sâu → insight"
+
+  NÃO LUÔN CỐ ỔN ĐỊNH (tiết kiệm năng lượng):
+    → Novelty = PHẢI phá ổn định → TỐN energy
+    → Não CHỈ phá khi CÓ LÝ DO: cortisol (internal) hoặc input (external)
+    → Không lý do → giữ ổn định → KHÔNG novelty deep
+    → = "Thoải mái hoàn toàn + không input mới = KHÔNG novelty deep"
+    → = Tại sao "con nằm chơi game cả ngày": cortisol thấp + game = external vừa đủ
+
+
 SWEET SPOT — imagine phục vụ body đúng:
 
-  Quá thấp: body ok → imagine YẾU → không cải thiện
-  Sweet spot: body "cần tốt hơn" → imagine ACTIVE → phục vụ body → body confirm
+  Quá thấp: body ok → imagine YẾU (chỉ react external) → không deep novelty
+  Sweet spot: body "cần tốt hơn" → imagine ACTIVE (internal + external) → DEEP novelty
   Quá cao: body căng → imagine MẠNH nhưng DISCONNECT body
 
-  = Baseline-drive = "dây cương" nối imagine với body:
+  = Change-Readiness = "dây cương" nối imagine với body:
     Dây vừa: imagine đi đúng hướng body cần
     Dây đứt (cortisol quá cao): imagine chạy TỰ DO → body bị bỏ quên
 
@@ -1027,7 +1063,7 @@ IM7: Imagine + AI: AI có thể BOOST imagine fidelity?
 → Modality-Analysis.md: 5 experience + 1 communication modality chi tiết
 → Body-Listening.md: cách nghe body feedback (dùng cho §8 disconnect recovery)
 → Schema-Atlas.md: schema properties, gradient, formation
-→ Threshold-Analysis.md: baseline-drive sweet spot
+→ Threshold-Analysis.md: Change-Readiness sweet spot
 → Drive-Optimization.md §9: Pressure + Challenge + Autonomy
 → Education-AI-Era-Draft.md: Imagine × Education × AI
 → Addiction-Analysis-v2.md: Imagine hijack (MXH, chất kích thích)

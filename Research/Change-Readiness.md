@@ -1,8 +1,10 @@
-# Cortisol Analysis — Năng Lượng Kích Thích Của Não Bộ
+# Change-Readiness — Sẵn Sàng Thay Đổi: Function Thiết Yếu Của Não Bộ
 
 > **Trạng thái:** DRAFT — insight mới, logic consistent, cần xác thực
-> **Ngày:** 2026-03-24
-> **Mục đích:** Phân tích toàn diện cortisol — hormone kích thích THIẾT YẾU cho hoạt động não bộ.
+> **Ngày:** 2026-03-24 (updated 2026-03-25: đổi tên Cortisol-Analysis → Change-Readiness)
+> **Mục đích:** Phân tích toàn diện Change-Readiness — function "sẵn sàng thay đổi" THIẾT YẾU
+> cho hoạt động não bộ. Nhiều hormones tham gia (cortisol chính cho baseline,
+> NE+Adrenaline chính cho emergency). Function-first, hormone-second.
 > KHÔNG phải "hormone stress xấu". Vấn đề KHÔNG phải cortisol level → mà là BALANCE
 > giữa hoạt động (kích thích) và repair (nghỉ ngơi).
 > **Insight cốt lõi:**
@@ -17,7 +19,7 @@
 
 ---
 
-## 1. Cortisol Là Gì — Redefine
+## 1. Change-Readiness Là Gì — Redefine
 
 ```
 HIỂU PHỔ BIẾN (sai):
@@ -34,7 +36,44 @@ FRAMEWORK REDEFINE:
   → = Cortisol = "lệnh tái cấu trúc" cho neurons → thích ứng cái MỚI
   → Không có cortisol → neurons VẪN chạy pattern CŨ → nhưng KHÔNG thích ứng
 
-  CHI TIẾT — 3 trạng thái:
+  ⭐ CHANGE-READINESS = BIẾN ẢO (function name):
+    → "Mức độ sẵn sàng thay đổi pattern của toàn hệ thống"
+    → KHÔNG phải 1 hormone → TỔNG HỢP nhiều hormones map vào
+    → Function CHẮC CHẮN CÓ → hormone map CÓ THỂ thêm/sửa khi có research mới
+
+    ① CHANGE-READINESS BASELINE:
+       = "Nền sẵn sàng thay đổi hàng ngày"
+       → Hormone CHÍNH: cortisol baseline
+       → Hormone PHỤ: NE tonic (nền), serotonin nền, và có thể khác
+       → Level thấp → ổn định → Level vừa → linh hoạt → Level cao → rung mạnh
+       → Quyết định 7 modes: IDLE→LAZY→ACTIVE→FOCUSED→PUSH→FREEZE→CRASH
+       → = FUNCTION CHÍNH — nền tảng cho mọi hoạt động não
+
+    ② EMERGENCY-ALERT (spike tức thì):
+       = "Rung chấn mạnh đột ngột"
+       → Hormone CHÍNH: NE + Adrenaline (NHANH — giây đầu tiên)
+       → Hormone PHỤ: cortisol tới SAU (CHẬM — phút) → sustain → merge ① baseline
+       → Timeline: reflex (50ms) → NE+Adrenaline (giây) → cortisol (phút)
+       → Threat tức thì → toàn não rung → amygdala lead → fight/flight/freeze
+       → PFC: noise (quá nhiều signal) → primitive behavior
+       → Sau spike: NE+Adrenaline giảm NHANH → cortisol sustain → merge ① baseline
+       → Nhiều spikes → baseline TÍCH LŨY lên dần
+
+    ③ NEURAL-WEAR (side effect — KHÔNG phải function riêng):
+       = "Hao mòn tích lũy khi balance lệch"
+       → KHÔNG có hormone riêng → EMERGENT từ: ① cao × time - repair
+       → PFC hư trước (gradient ngoài→trong) + body signal suppress dần
+       → = "Gym quá mạnh + không nghỉ = chấn thương"
+       → KHÔNG phải hormone "gây hại" → HẠI từ IMBALANCE (hoạt động > repair)
+
+  ⚠️ 3 trạng thái = CÙNG biến CHANGE-READINESS, KHÁC mức độ + hormones:
+    "Change-Readiness baseline cao → tốt cho novelty" = RÕ ✅
+    "Emergency-Alert → PFC freeze tạm (NE+Adrenaline chính)" = RÕ ✅
+    "Neural-Wear tích lũy → PFC damage (side effect)" = RÕ ✅
+    → KHÔNG gom "cortisol = xấu" hay "cortisol = tốt"
+    → Mọi hormone = KÍCH THÍCH → tốt/xấu TÙY balance
+
+  CHI TIẾT — 3 trạng thái Change-Readiness:
 
   Cortisol ZERO: vô thức VẪN chạy (neurons fire bằng ion channels riêng)
     → Compiled schemas VẪN fire ĐỀU → "sống" auto
@@ -596,46 +635,49 @@ Cortisol phân bổ ĐỀU qua máu → MỌI vùng não nhận GẦN BẰNG NHA
 
 ---
 
-## 5. 3 Phases Tối Ưu — Spike + Baseline + Repair
+## 5. 3 Phases Tối Ưu — Emergency-Alert + Change-Readiness + Repair
 
 ```
-CYCLE TỐI ƯU cho neuron bền vững:
+CYCLE TỐI ƯU cho neuron bền vững (dùng 3 function names):
 
-  PHASE 1 — SPIKE (emergency, giây → phút):
-    → Cortisol spike CỰC MẠNH → TOÀN NÃO rung mạnh
+  PHASE 1 — EMERGENCY-ALERT (spike, giây → phút):
+    → NE + Adrenaline spike TRƯỚC (giây đầu tiên — first responders)
+    → Cortisol tới SAU (phút) → sustain alert → rồi merge baseline
+    → TOÀN NÃO rung mạnh (NE kích thích + cortisol sustain)
     → PFC: gần noise trắng (quá nhiều signal → không thấy pattern rõ)
     → Amygdala: dao động MẠNH nhưng RÕ (compiled cứng → pattern VẪN rõ dù rung)
     → Não "thấy" amygdala output rõ nhất → hành vi PRIMITIVE (fight/flight)
-    → = "Spike = PFC tạm mù + Amygdala dẫn đường"
-    → Duration: ngắn → cortisol giảm → PFC recover NHANH (phút → giờ)
-    → Damage: GẦN ZERO (quá ngắn để ăn mòn)
+    → = "Emergency-Alert = NE+Adrenaline TRƯỚC + cortisol sustain SAU"
+    → Sau spike: NE+Adrenaline giảm NHANH → cortisol sustain → merge baseline
+    → Neural-Wear: GẦN ZERO (quá ngắn để hao mòn)
     → Ví dụ: xe sắp đâm, tin sốc, tiếng động lớn bất ngờ
 
-  PHASE 2 — BASELINE (daily operation, giờ):
+  PHASE 2 — CHANGE-READINESS (baseline daily operation, giờ):
     → Cortisol circadian: cao SÁNG (thức) → giảm dần CHIỀU
     → Vô thức rung VỪA ĐỦ → calibrate → VTA detect → PFC tham gia
     → PFC: clear signal → draft + test + imagine OK
     → Body: hoạt động bình thường → neurons MỆT VỪA PHẢI
-    → = "Tần số hoạt động bình thường" = neurons được "tập gym"
-    → Damage: CÓ nhưng NHẸ → repair ĐÊM sẽ bù
+    → = "Change-Readiness VỪA" = neurons được "tập gym" → hormesis
+    → Neural-Wear: CÓ nhưng NHẸ → repair ĐÊM sẽ bù
     → Ví dụ: ngày làm việc bình thường, học, sáng tạo, giao tiếp
 
   PHASE 3 — REPAIR (sleep + relax, giờ):
     → Cortisol GIẢM về mức THẤP NHẤT (deep sleep)
     → BDNF TĂNG → repair synapses + regrow dendrites
     → Sleep consolidation: schemas compiled CHẶT hơn
-    → Neurons: damage ban ngày được BÙ → net health ≥ 0
+    → Neurons: Neural-Wear ban ngày được BÙ → net health ≥ 0
     → ⭐ CẦN: cảm giác AN TOÀN thật sự tại thời điểm đó:
       Chỗ ngủ thoải mái ✅
       Không threat schema đang văng vẳng ✅
       Body CẢM THẤY an toàn (không phải "biết" an toàn) ✅
       → Biết an toàn (verbal) + body vẫn sợ = cortisol VẪN CAO = KHÔNG repair
     → Duration: 7-9 giờ ngủ sâu = TỐI ƯU
-    → = DUY NHẤT thời gian REPAIR > DAMAGE
+    → = DUY NHẤT thời gian REPAIR > NEURAL-WEAR
 
   CYCLE LẶP:
-    Spike (khi cần) → Baseline (ban ngày) → Repair (ban đêm) → lặp
+    Emergency-Alert (khi cần) → Change-Readiness (ban ngày) → Repair (ban đêm) → lặp
     → = Đúng cycle TỐI ƯU cho neuron bền vững
+    → Neural-Wear chỉ xảy ra khi: cycle BỊ PHÁ (thiếu repair, hoặc Change-Readiness quá cao quá lâu)
     → Phá cycle (thiếu ngủ, stress mãn tính) = phá REPAIR = damage tích lũy
 
 
@@ -751,7 +793,7 @@ PFC "sụp" = damage TÍCH LŨY vượt repair capacity:
 
   GIAI ĐOẠN 1 — Ngập signal (nhanh, recover nhanh):
     Cortisol spike CỰC MẠNH → glutamate CỰC CAO → PFC overload
-    → PFC: freeze / panic (workspace 3-5 chiều NGẬP)
+    → PFC: freeze / panic (workspace 4±1 dimensions NGẬP)
     → PFC NGUYÊN VẸN — chỉ quá tải TẠM
     → Cortisol giảm → repair nhanh (phút → giờ)
     → = "Shock → đờ → bình tĩnh lại"
@@ -783,20 +825,24 @@ PFC "sụp" = damage TÍCH LŨY vượt repair capacity:
 
 ---
 
-## 8. 7 Modes — Cortisol Baseline
+## 8. 7 Modes — Change-Readiness Levels
 
 ```
 (Tóm tắt — chi tiết: Architecture-v7.5-Draft.md §3)
 
-  Cortisol    Mode      Hoạt động neuron  Repair kịp?   PFC
+  Change-     Mode      Novelty           Repair kịp?   PFC
+  Readiness
   ─────────── ──────── ────────────────── ──────────── ────────
-  Cực thấp    IDLE      Rất nhẹ           Dư           Offline
-  Thấp        LAZY      Nhẹ               Dư           Minimal
-  Vừa         ACTIVE    VỪA ĐỦ ⭐         KỊP (+ grow) Optimal
-  Hơi cao     FOCUSED   Mạnh              Gần kịp      Focused
-  Cao         PUSH      Quá mạnh          Không kịp    Biased
-  Rất cao     FREEZE    Cực mạnh          Không kịp    Squeeze
-  Cực cao     CRASH     Quá tải           Không kịp    Offline
+  Cực thấp    IDLE      Int ❌ Ext 🟡     Dư           Offline
+  Thấp        LAZY      Int 🟡 Ext ✅     Dư           Minimal
+  Vừa         ACTIVE    Int ✅ Ext ✅ ⭐   KỊP (+ grow) Optimal
+  Hơi cao     FOCUSED   Int ✅ sâu+hẹp    Gần kịp      Focused
+  Cao         PUSH      Int 🟡 Ext ❌     Không kịp    Biased
+  Rất cao     FREEZE    Int ❌ Ext ❌      Không kịp    Squeeze
+  Cực cao     CRASH     ❌                 Không kịp    Offline
+
+  Int = Internal novelty (cortisol → rung → cross-connection → deep)
+  Ext = External novelty (input sensory → react → shallow thường)
 ```
 
 ---
@@ -1112,10 +1158,10 @@ C5: VTA habituation + cortisol calibration — xác thực trực tiếp?
 ## 12. Kết Nối
 
 ```
-→ Architecture-v7.5-Draft.md §3: Baseline-drive (cortisol trong kiến trúc)
+→ Architecture-v7.5-Draft.md §3: Change-Readiness (cortisol trong kiến trúc)
 → PFC-Analysis.md §1.5: PFC = phòng thí nghiệm giả lập
 → PFC-Analysis.md §8.3: VTA mechanism + cortisol calibration note
-→ Imagination-Analysis-v2.md §8: Imagine × Baseline-drive modes
+→ Imagination-Analysis-v2.md §8: Imagine × Change-Readiness modes
 → Status-Analysis-v2.md: cortisol suppress serotonin
 → Addiction-Analysis-v2.md: withdrawal cortisol
 → Education-AI-Era-Draft.md: threat-learn × cortisol × chunks

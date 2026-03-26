@@ -1602,16 +1602,16 @@ KB4 MAP VÀO FRAMEWORK:
   │ Hardware    │ PFC connection density +     │ COMT variant │
   │             │ wiring quality (KHÔNG phải   │ (PFC-specific│
   │             │ số neurons — 10 tỉ vs 12 tỉ │ enzyme)      │
-  │             │ vẫn ~3-5 chiều, nhưng chất  │              │
+  │             │ vẫn ~4±1 dimensions, nhưng chất  │              │
   │             │ lượng per-chiều KHÁC)        │              │
   ├─────────────┼──────────────────────────────┼──────────────┤
-  │ CAO =       │ 3-5 chiều × high resolution │ Clear nhanh  │
+  │ CAO =       │ 4±1 dimensions × high resolution │ Clear nhanh  │
   │             │ × clean × fast retrieve     │ → workspace  │
   │             │ × deep compression          │ TRỐNG nhanh  │
   │             │ = "Nhìn 4 thứ nhưng THẤY   │ → fresh      │
   │             │ cả vũ trụ" (expert)         │ rebuild      │
   ├─────────────┼──────────────────────────────┼──────────────┤
-  │ THẤP =      │ 3-5 chiều × low resolution  │ Clear chậm   │
+  │ THẤP =      │ 4±1 dimensions × low resolution  │ Clear chậm   │
   │             │ × noisy × slow retrieve     │ → draft GIỮA │
   │             │ × shallow compression       │ LÂU →        │
   │             │ = "Nhìn 4 thứ chỉ THẤY 4   │ incremental  │
@@ -1622,7 +1622,7 @@ KB4 MAP VÀO FRAMEWORK:
   │             │                              │ vs Specialist│
   │             │                              │ tendency     │
   ├─────────────┼──────────────────────────────┼──────────────┤
-  │ Evidence    │ Cowan (2001): ~3-5 items     │ COMT research│
+  │ Evidence    │ Cowan (2001): ~4±1 items     │ COMT research│
   │             │ Bays & Husain (2008):        │ well-        │
   │             │ interference = precision drop│ replicated   │
   │             │ Kane & Engle (2002):         │              │
@@ -1631,8 +1631,8 @@ KB4 MAP VÀO FRAMEWORK:
   │             │ expert = compression quality │              │
   └─────────────┴──────────────────────────────┴──────────────┘
 
-  ⚠️ QUAN TRỌNG: "3-5 chiều" = CỐ ĐỊNH do physics (interference limit)
-     Dù não có 10 tỉ hay 20 tỉ neurons PFC → VẪN ~3-5 chiều
+  ⚠️ QUAN TRỌNG: "4±1 dimensions" = CỐ ĐỊNH do physics (interference limit)
+     Dù não có 10 tỉ hay 20 tỉ neurons PFC → VẪN ~4±1 dimensions
      Vì: giữ RIÊNG BIỆT nhiều patterns cùng lúc = INTERFERENCE tăng
      Thêm chiều = combinations BÙng nổ → noise > signal
      4 chiều = sweet spot: đủ phức tạp cho pattern, chưa quá nhiễu
@@ -2175,7 +2175,7 @@ TIẾN TRÌNH ĐẦY ĐỦ — từ vô thức tới PFC detect tới body confi
   ┌─────────────────────────────────────────────────────────────────┐
   │ BƯỚC 5 — BODY-BASE CHECK: domain reality test                  │
   │                                                                 │
-  │   PFC nhận chunk → integrate vào workspace (3-5 chiều)         │
+  │   PFC nhận chunk → integrate vào workspace (4±1 dimensions)         │
   │   PFC gửi chunk XUỐNG body-base: "giả lập → body feel gì?"    │
   │   Body-base simulate:                                           │
   │     → Chunk KHỚP body-need → opioid release → reward THẬT     │
@@ -2257,7 +2257,7 @@ TÓM GỌN VÒNG LẶP:
   PFC SỤP — 2 mechanisms chồng lấp:
     M1 — Ngập signal (NHANH, recover NHANH):
       Cortisol spike cực mạnh → vô thức rung cực mạnh → VTA fire liên tục
-      → PFC nhận signal MỌI HƯỚNG cùng lúc → workspace 3-5 chiều OVERLOAD
+      → PFC nhận signal MỌI HƯỚNG cùng lúc → workspace 4±1 dimensions OVERLOAD
       → PFC freeze / panic → NHƯNG PFC NGUYÊN VẸN → recover khi cortisol giảm
       → = "Shock → đờ → vài phút → bình tĩnh lại"
 
@@ -2282,7 +2282,7 @@ TÓM GỌN VÒNG LẶP:
     VTA detect novelty/surprise: Schultz (1997) + nhiều studies ✅
     Dopamine ≠ reward: Berridge & Robinson (1998, 2003) ✅
     Top-down attention (PFC → cortex): Desimone & Duncan (1995) ✅
-    Working memory 3-5 items: Cowan (2001) ✅
+    Working memory 4±1 items: Cowan (2001) ✅
     Body reward = opioid: established ✅
 
   🟡 FRAMEWORK CONTRIBUTION (gom + reinterpret):

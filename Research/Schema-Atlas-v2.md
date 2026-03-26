@@ -4,7 +4,7 @@
 > **Ngày:** 2026-03-25
 > **Mục đích:** Phân tích toàn diện Schema — patterns hành vi xuyên suốt Body→Imagine
 > **Reference:** Architecture-v7.5-Draft.md, PFC-Analysis.md, Imagination-Analysis-v2.md,
-> Cortisol-Analysis.md, Modality-Analysis.md
+> Change-Readiness.md, Modality-Analysis.md
 > **⚠️ Mỗi phần riêng = established research, gom lại = framework hypothesis**
 
 ---
@@ -35,6 +35,15 @@ DEFINE:
     → Software = patterns dao động (thay đổi được, compile/update)
     → Cùng hardware → KHÁC schema → KHÁC hành vi
     → = 2 người cùng não "giống nhau" → schemas KHÁC → sống KHÁC hoàn toàn
+
+  METAPHOR ÂM NHẠC — hình dung cách schema tương tác:
+    → Schema = bài nhạc (nhiều nhạc cụ chơi CÙNG LÚC = parallel)
+    → Chunk = track nhạc cụ (guitar line, drum pattern = đơn vị ghép)
+    → Cải tiến = đổi từng note → nghe lại → hay hơn? → giữ/bỏ
+    → Trauma = bài nhạc kinh dị XEN VÀO bài đang nghe (cross-contamination)
+    → Novelty = viết bài MỚI từ tracks có sẵn (cross-domain remix)
+    → Schema tự chạy = earworm (bài dính trong đầu, không chủ động)
+    → (Chi tiết + ví dụ: Schema-Example.md §7)
 ```
 
 ### 1.1 Chunk — Đơn Vị Nhỏ Nhất Của Schema
@@ -200,8 +209,57 @@ GRADIENT hình thành (không binary):
     ① Compiled SÂU (emotional weight lớn → synapses mạnh)
     ② Chunks rộng (sợ, hồi hộp, bất an = chunks PHỔ BIẾN → shared nhiều)
     ③ Amygdala reinforce (cortisol kéo dài → amygdala mạnh → fire dễ)
-  → = Trauma = "ô nhiễm" DỄNHẤT cho schemas mới
+  → = Trauma = "ô nhiễm" DỄ NHẤT cho schemas mới
   → (Chi tiết ví dụ: Schema-Example.md §1.4 và §1.7)
+```
+
+### 2.5 Schema Dừng Thế Nào — 3 Loại Body Signal
+
+```
+Schema KHÔNG dừng bằng 1 cơ chế duy nhất — có 3 loại signal KHÁC NHAU:
+
+  ① SATISFACTION SIGNAL ("đủ rồi") — VÔ THỨC tự dừng:
+     → Body confirm: body-need ĐÃ MET → signal fire
+     → VÔ THỨC nhận → schema auto DỪNG
+     → ⭐ PFC KHÔNG BIẾT signal tồn tại → PFC chỉ thấy KẾT QUẢ "hết muốn"
+     → Ví dụ: ăn no → "tự nhiên hết muốn ăn" (PFC không quyết → body tự dừng)
+     → Ví dụ: ngủ đủ → "tự nhiên tỉnh dậy" (body tự biết → PFC không set alarm)
+     → = Body quyết "đủ" → schema dừng → PFC chỉ observe kết quả
+     → Rõ nhất ở PULL channels: no, thoải mái, đủ ôm = rõ "đủ"
+     → Mơ hồ ở PUSH channels: "đủ an toàn chưa?" = khó xác định → khó dừng
+
+  ② BODY-REWARD ("sướng") — CẢ HAI biết, PFC CHỌN:
+     → Body reward (opioid/oxytocin) → CẢ vô thức VÀ PFC nhận
+     → Vô thức: auto drive "thêm!" (ăn ngon → ăn tiếp tự động)
+     → PFC: observe → CHỌN: "sướng, nhưng NÊN tiếp không?"
+     → = PFC = trọng tài cho reward → "ăn thêm hay dừng?"
+     → Ví dụ: ăn ngon → PFC: "ngon nhưng đang diet → dừng" (override)
+     → Ví dụ: scroll MXH → PFC: "hay nhưng phải làm → dừng" (override)
+
+  ③ BODY-PAIN ("đau/khó chịu") — CẢ HAI biết, PFC CHỌN:
+     → Body pain (nociception/mismatch) → CẢ vô thức VÀ PFC nhận
+     → Vô thức: reflex TRƯỚC PFC (rút tay, 50ms)
+     → PFC: observe → CHỌN: "đau, nhưng NÊN: sửa? chịu? chạy? đổi context?"
+     → = PFC = trọng tài cho pain → "chịu đau hay tìm cách khác?"
+
+  TÓM GỌN:
+    Satisfaction: VÔ THỨC tự xử → PFC không biết → healthy khi ĐỂ YÊN
+    Reward: CẢ HAI biết → PFC chọn → healthy khi PFC WISE
+    Pain: CẢ HAI biết → PFC chọn → healthy khi PFC có OPTIONS
+
+  ⚠️ PFC CÓ THỂ OVERRIDE Satisfaction (disconnect mechanism):
+    → Body: "đủ rồi" → PFC: "CHƯA! deadline/ngon/thêm!"
+    → = PFC override "hết muốn" → schema FORCE tiếp dù body nói đủ
+    → = Quên ăn vì deadline, ăn quá no vì ngon, scroll MXH quá giờ
+    → = Spectrum override: nhẹ (quên ăn) → nặng (anorexia, tử vì đạo)
+    → (Chi tiết: Architecture-v7.5-Draft.md §2.5 Priority Exceptions)
+
+  ⚠️ "LẮNG NGHE BODY" = gì chính xác?
+    → KHÔNG phải "nghe Satisfaction Signal" (PFC không nghe được)
+    → MÀ LÀ: tôn trọng KẾT QUẢ "hết muốn" → ĐỪNG override
+    → = "Hết muốn ăn → DỪNG" thay vì "hết muốn nhưng ngon → ăn thêm"
+    → = Meditation practice: nhận ra "hết muốn" → không thêm → không override
+    → (Chi tiết: Body-Listening.md)
 ```
 
 ### 3.1 Gradient Depth (sâu → nông)
@@ -464,7 +522,7 @@ GRADIENT hình thành (không binary):
     → Chunk từ threat VỪA: nền tảng tốt, update ĐƯỢC (cần thời gian)
     → Chunk từ threat NẶNG: nền tảng CÓ nhưng body phản đối → KHÓ dùng
     → = Threat-learn VẪN CÓ GIÁ TRỊ nếu ĐÚNG NGƯỠNG
-    → = Chi tiết: Cortisol-Analysis.md §3.5, Education-AI-Era-Draft.md
+    → = Chi tiết: Change-Readiness.md §3.5, Education-AI-Era-Draft.md
 ```
 
 ---
@@ -604,7 +662,7 @@ S4: Schema × gene (epigenetics):
 → PFC-Analysis.md §8: Cognitive Parameters (Capacity, Clear-Speed, Chunk-Size)
 → PFC-Analysis.md §8.3: VTA mechanism + cortisol calibration
 → Imagination-Analysis-v2.md: Imagine = hệ thống hỗ trợ schema shift
-→ Cortisol-Analysis.md: cortisol × schema (calibration energy + chunk association)
+→ Change-Readiness.md: cortisol × schema (calibration energy + chunk association)
 → Modality-Analysis.md: modality encoding per schema
 → Status-Analysis-v2.md: Status = schema access map
 → Addiction-Analysis-v2.md: schema hijack

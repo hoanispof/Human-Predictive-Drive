@@ -162,7 +162,7 @@ Tại sao CẦN 2 tham số (giữ từ v7, vẫn đúng):
       Status-Threat: aspiration > position → "sợ tụt" (Threat-Schema)
 
   GAP = Aspiration - Position:
-    Gap > 0: drive (chase hoặc anxiety, tùy baseline-drive mode)
+    Gap > 0: drive (chase hoặc anxiety, tùy Change-Readiness mode)
     Gap ≈ 0: content (thỏa mãn)
     Gap < 0: "quá nhiều" → có thể CHO BỚT (Chouinard pattern)
 
@@ -456,7 +456,7 @@ TRONG THẾ GIỚI HIỆN ĐẠI — status baseline KHÁC BIỆT NHỎ hơn tư
 
 ---
 
-## 10. Status × Cortisol — Khi Baseline-drive Cao
+## 10. Status × Cortisol — Khi Change-Readiness Cao
 
 ```
 Cortisol cao → status SUPPRESS (quan sát được, hormone candidate chưa chắc):

@@ -10,7 +10,9 @@
 > - L3 bộ ba: Novelty(expand) + Status(map) + Protect(defend) — mọi động vật xã hội có
 > - Imagine (Novelty-Schema + Threat-Schema) = PFC layer, LUÔN phục vụ Body-Base
 > - Schema xuyên suốt body → imagine, chunk = đơn vị nhỏ nhất
-> - Baseline-drive (cortisol) quyết định "mode" hoạt động của imagine
+> - Change-Readiness (cortisol baseline) quyết định "mode" hoạt động của imagine
+> - Change-Readiness = biến ảo (function), nhiều hormones map vào:
+>   Baseline (cortisol chính) + Emergency-Alert (NE+Adrenaline chính) + Neural-Wear (side effect)
 > - Priority khi conflict: L0 > L1 > L2 > L3 (schema override ĐƯỢC nếu redefine alive)
 > **⚠️ Chưa quyết định. Cần test với nhiều case trước khi thay Core.**
 
@@ -35,12 +37,14 @@
 │  │  │                                                          │  │  │
 │  │  │  Cognitive Parameters:                                     │  │  │
 │  │  │    PFC Parameters:                                       │  │  │
-│  │  │      PFC-Capacity:    chất lượng 3-5 chiều workspace    │  │  │
+│  │  │      PFC-Capacity:    chất lượng 4±1 dimensions workspace    │  │  │
 │  │  │        (resolution, noise filter, retrieval, compress) │  │  │
 │  │  │      PFC-Clear-Speed: COMT (Val/Val fast ↔ Met/Met slow) │  │  │
-│  │  │      PFC-Chunk-Size:  DRD4 — ngưỡng biến động não detect  │  │  │
+│  │  │      Attention-Threshold (PFC-Chunk-Size):                 │  │  │
+│  │  │        DRD4 — ngưỡng biến động não mà PFC detect được   │  │  │
 │  │  │        7R: chỉ detect biến động LỚN (big+slow)          │  │  │
 │  │  │        4R: detect cả biến động NHỎ (small+fast)          │  │  │
+│  │  │        (chi tiết: Attention-Spectrum.md)                  │  │  │
 │  │  │    Mood-Stability: MAO-A (toàn não, không phải PFC)     │  │  │
 │  │  │      high activity = dao động ↔ low activity = ổn định  │  │  │
 │  │  │                                                          │  │  │
@@ -75,7 +79,8 @@
 │  │  └──────────────────────────────────────────────────────────┘  │  │
 │  │                                                                │  │
 │  │  ┌──────────────────────────────────────────────────────────┐  │  │
-│  │  │ BASELINE-DRIVE (cortisol baseline)                        │  │  │
+│  │  │ CHANGE-READINESS (cortisol baseline)                       │  │  │
+│  │  │  = "Neurons sẵn sàng thay đổi pattern"                  │  │  │
 │  │  │  7 modes: IDLE→LAZY→ACTIVE→FOCUSED→PUSH→FREEZE→CRASH   │  │  │
 │  │  │  Sweet spot: VỪA→HƠI CAO = imagine phục vụ body tốt nhất│  │  │
 │  │  └──────────────────────────────────────────────────────────┘  │  │
@@ -89,8 +94,12 @@
 │  │  ┌──────────────────────────────────────────────────────────┐  │  │
 │  │  │ HORMONE PHỤ GIA (hỗ trợ toàn hệ thống)                   │  │  │
 │  │  │  Activation: NE, Adrenaline, Dopamine (cross-cutting)   │  │  │
-│  │  │  Sustain:    Cortisol (spike + sustain)                  │  │  │
-│  │  │  Feedback:   Satisfaction Signal (bridge body→schema)    │  │  │
+│  │  │  Change-Readiness = BIẾN ẢO (function, nhiều hormones):   │  │  │
+│  │  │    Baseline (cortisol chính — sẵn sàng thay đổi nền)  │  │  │
+│  │  │    Emergency-Alert (NE+Adrenaline — spike tức thì,     │  │  │
+│  │  │      cortisol tới SAU sustain rồi merge baseline)      │  │  │
+│  │  │    Neural-Wear (side effect kéo dài × thiếu repair)    │  │  │
+│  │  │  Feedback:   Satisfaction Signal (bridge body→vô thức)   │  │  │
 │  │  │  Recovery:   Endorphin, Endocannabinoid                  │  │  │
 │  │  │  Social:     Vasopressin (Protect), Oxytocin (boost)     │  │  │
 │  │  │  Mood:       Serotonin (ruột 95%)                        │  │  │
@@ -140,9 +149,9 @@ COGNITIVE PARAMETERS — ảnh hưởng chéo lẫn nhau:
 
   PFC PARAMETERS (3 tham số thuộc PFC):
 
-    ① PFC-Capacity — chất lượng workspace 3-5 chiều:
+    ① PFC-Capacity — chất lượng workspace 4±1 dimensions:
        → Mọi người hold ~3-5 CHIỀU cùng lúc (physics limit: interference)
-       → 10 tỉ vs 12 tỉ neurons PFC → VẪN ~3-5 chiều (KHÔNG thêm)
+       → 10 tỉ vs 12 tỉ neurons PFC → VẪN ~4±1 dimensions (KHÔNG thêm)
        → Capacity KHÁC NHAU ở CHẤT LƯỢNG per-chiều:
          Resolution: mỗi chiều RÕ hay MỜ
          Noise filter: giữ sạch dù nhiễu hay dễ mất
@@ -159,7 +168,8 @@ COGNITIVE PARAMETERS — ảnh hưởng chéo lẫn nhau:
        → Met/Met: linger LÂU → draft giữ → tiếp tục trên nền cũ → specialist tendency
        → = KHÔNG phải "chọn" improviser/specialist — hardware BIAS, experience fine-tune
 
-    ③ PFC-Chunk-Size — ngưỡng biến động não mà PFC detect được (DRD4 receptor):
+    ③ Attention-Threshold (PFC-Chunk-Size) — ngưỡng biến động não mà PFC detect được:
+       (DRD4 receptor — chi tiết: Attention-Spectrum.md)
 
        CƠ CHẾ:
        → Vô thức: neurons fire liên tục → thử đồng bộ → patterns hình thành
@@ -653,42 +663,98 @@ Xác thực — MỌI schema, MỌI hành vi trace về body-base:
 
 ---
 
-## 3. BASELINE-DRIVE — Nền Năng Lượng
+## 3. CHANGE-READINESS — Neurons Sẵn Sàng Thay Đổi Pattern
 
 ```
-"Hệ thống đang ở mức sẵn sàng nào"
+"Hệ thống đang ở mức sẵn sàng THAY ĐỔI nào"
 Hormone chính: Cortisol baseline
+(Tên cũ: "Baseline-drive" → đổi thành "Change-Readiness" cho rõ function)
 
-CHỨC NĂNG:
-  → Duy trì sự SẴN SÀNG cho schema hoạt động
-  → Thường ổn định (kết hợp duy trì cho nhiều schema đang active)
+⭐ CHANGE-READINESS = BIẾN ẢO (function name):
+  → "Mức độ sẵn sàng thay đổi pattern của toàn hệ thống"
+  → KHÔNG phải 1 hormone → là TỔNG HỢP nhiều hormones
+  → KHÔNG bind vào cortisol riêng → cortisol là candidate CHÍNH cho baseline
+  → Function CHẮC CHẮN CÓ → hormone map CÓ THỂ thêm/sửa khi có research mới
+
+  3 TRẠNG THÁI (cùng biến, KHÁC mức độ + hormones):
+
+  ① CHANGE-READINESS BASELINE:
+     → "Nền sẵn sàng thay đổi hàng ngày"
+     → Hormone CHÍNH: cortisol baseline
+     → Hormone PHỤ: NE tonic (nền), serotonin nền, và có thể khác
+     → Cortisol baseline → glutamate tăng → neurons fire MẠNH + KHÁC bình thường
+     → = "Năng lượng rung" cho vô thức thử pattern mới
+     → Level thấp: ổn định, không thay đổi → Level cao: rung mạnh, linh hoạt
+     → Quyết định "mode" mà Imagine hoạt động (7 modes bên dưới)
+
+  ② EMERGENCY-ALERT (spike tức thì):
+     → "Rung chấn mạnh đột ngột" — threat tức thì
+     → Hormone CHÍNH: NE + Adrenaline (NHANH — giây đầu tiên)
+     → Hormone PHỤ: cortisol tới SAU (CHẬM — phút) → sustain → merge vào ① baseline
+     → Timeline: reflex (50ms) → NE+Adrenaline (giây) → cortisol (phút)
+     → PFC: noise (spike quá mạnh → quá nhiều signal cùng lúc)
+     → Amygdala: VẪN RÕ (compiled sâu → pattern giữ dù rung mạnh)
+     → → Hành vi theo amygdala: fight/flight/freeze (primitive)
+     → Cực mạnh: tonic immobility (amygdala CHỌN freeze, không phải sụp)
+     → Sau spike: NE+Adrenaline giảm NHANH → cortisol sustain → merge ① baseline
+     → Nhiều spikes tích lũy → baseline DỊCH LÊN dần
+     → ⚠️ Emergency-Alert từ ĐAU VẬT LÝ vs ĐAU SCHEMA = KHÁC:
+       Vật lý: CÓ endorphin buffer → đau mạnh nhưng TỰ GIẢM
+       Schema: KHÔNG CÓ endorphin → đau KÉO DÀI + có thể loop
+       (chi tiết: Change-Readiness.md §10.6)
+
+  ③ NEURAL-WEAR (side effect — khi balance lệch):
+     → "Hao mòn tích lũy" — KHÔNG phải function riêng → là HỆ QUẢ
+     → KHÔNG có hormone riêng → là EMERGENT từ: ① cao × time - repair
+     → = Neurons hoạt động quá mạnh + không nghỉ → mệt → damage
+     → PFC hư TRƯỚC (synapses yếu nhất → gradient ngoài→trong)
+     → Body signal bị suppress DẦN (disconnect mechanism)
+     → = "Gym quá mạnh + không nghỉ = chấn thương"
+     → KHÔNG phải cortisol hay NE "gây hại" → hormone chỉ kích thích
+     → HẠI từ: IMBALANCE (hoạt động > repair), KHÔNG từ hormone bản thân
+
+  ⚠️ AI note: CHANGE-READINESS = BIẾN ẢO:
+     → Nhiều hormones tham gia: cortisol (baseline), NE+Adrenaline (spike), và khác
+     → KHÔNG gom "cortisol = Change-Readiness" (cortisol chỉ là 1 candidate chính)
+     → KHÔNG gom "cortisol = xấu" hay "cortisol = tốt"
+     → Mọi hormone = KÍCH THÍCH → tốt/xấu TÙY balance hoạt động + repair
+
+CHỨC NĂNG CHANGE-READINESS (baseline):
+  → Duy trì sự SẴN SÀNG THAY ĐỔI cho neurons
+  → Thường ổn định (thay đổi chậm, tích lũy từ threat spikes)
   → Quyết định "mode" mà Imagine hoạt động
 
 7 MODES (theo mức cortisol baseline):
 
   CỰC THẤP → IDLE:
     → Threat-drive: ❌ (không phản ứng threat)
-    → Novelty/PULL: ✅ nếu đủ hấp dẫn (dopamine vẫn hoạt động)
+    → Novelty INTERNAL: ❌ (cortisol quá thấp → không đủ rung → không deep novelty)
+    → Novelty EXTERNAL: 🟡 nếu input đủ hấp dẫn (dopamine vẫn phản ứng input)
     → Body-need: ✅ nếu có (đói vẫn ăn, đau vẫn tránh)
-    → PFC: gần offline cho planning, chỉ respond reward trực tiếp
+    → PFC: gần offline cho planning, chỉ respond external input trực tiếp
     → Trạng thái: "không care" — trống, flat, vegetative
     → Ví dụ: trầm cảm nặng, kiệt sức hoàn toàn
 
   THẤP → LAZY:
     → Threat-drive: ❌ ("biết phải làm nhưng không làm")
-    → Novelty/PULL: ✅ (thích thì làm, không thích thì thôi)
+    → Novelty INTERNAL: 🟡 yếu (cortisol thấp → ít rung → ít deep novelty)
+    → Novelty EXTERNAL: ✅ (input thú vị → react → shallow novelty)
     → Body-need: ✅
-    → PFC: minimal — chỉ draft cho việc thích
+    → PFC: minimal — chỉ draft cho việc CÓ external input thú vị
     → Trạng thái: scroll MXH, xem phim, trì hoãn, "lười nhưng thoải mái"
     → Ví dụ: cuối tuần rảnh, kỳ nghỉ dài
+    → ⭐ "Con nằm chơi game cả ngày" = ĐÚNG mode này:
+      cortisol thấp + game = external input VỪA ĐỦ → shallow novelty
 
   VỪA → ACTIVE (optimal zone):
     → Threat-drive: ✅
-    → Novelty/PULL: ✅
+    → Novelty INTERNAL: ✅ (cortisol VỪA → rung ĐỦ → cross-connection → deep novelty)
+    → Novelty EXTERNAL: ✅
     → Body-need: ✅
     → PFC: optimal — draft + test linh hoạt, flow possible
     → Trạng thái: làm việc hiệu quả, "trong zone", sẵn sàng
     → Ví dụ: ngày làm việc tốt, project hứng thú + deadline hợp lý
+    → ⭐ SWEET SPOT: cortisol đủ cho internal novelty + chưa đủ damage PFC
 
   HƠI CAO → FOCUSED:
     → Threat-drive: ✅ (hỗ trợ urgency)
@@ -746,7 +812,7 @@ CHỨC NĂNG:
 
 SWEET SPOT — Imagine phục vụ Body đúng:
 
-  Baseline-drive là "dây cương" nối imagine với body:
+  Change-Readiness là "dây cương" nối imagine với body:
 
   Quá thấp:  imagine YẾU → body enjoy tốt nhưng không CẢI THIỆN
              → Virtuous cho wellbeing, nhưng không grow
@@ -765,7 +831,7 @@ SWEET SPOT — Imagine phục vụ Body đúng:
              → = "Amplifier Trap" ở mức SYSTEM
 
   Ví dụ disconnect:
-    Ban đầu: body "mệt, cần nghỉ" → baseline-drive tăng → imagine "xong deadline đã"
+    Ban đầu: body "mệt, cần nghỉ" → Change-Readiness tăng → imagine "xong deadline đã"
     Cortisol tăng: body signal YẾU DẦN → imagine MẠNH DẦN
     Cortisol cao: body "..." (suppress) → imagine "scroll/hustle/overthink!"
     Kết quả: ăn qua loa, ngủ ít, scroll liên tục, hustle liên tục
@@ -814,7 +880,8 @@ VIRTUOUS vs VICIOUS CYCLE:
 CƠ CHẾ TĂNG/GIẢM:
 
   Tăng:
-    → Mỗi cortisol spike (threat event) → baseline TĂNG 1 CHÚT
+    → Mỗi Emergency-Alert spike (NE+Adrenaline → cortisol sustain sau)
+      → baseline TĂNG 1 CHÚT (cortisol sustain merge vào baseline)
     → Spike giảm nhưng baseline KHÔNG giảm hết về mức cũ
     → Tích lũy qua nhiều threats → baseline LÊN DẦN
     → = "Mỗi lần stress → nền stress cao hơn 1 chút"
@@ -888,7 +955,7 @@ CƠ CHẾ TĂNG/GIẢM:
 
     MECHANISM 1 — Ngập signal (NHANH, phục hồi NHANH):
       Cortisol spike CỰC MẠNH → vô thức rung CỰC MẠNH → VTA fire liên tục
-      → PFC nhận signal từ MỌI HƯỚNG cùng lúc → workspace 3-5 chiều OVERLOAD
+      → PFC nhận signal từ MỌI HƯỚNG cùng lúc → workspace 4±1 dimensions OVERLOAD
       → PFC: freeze / panic / "không nghĩ được gì"
       → PFC VẪN NGUYÊN VẸN → chỉ bị overload TẠM THỜI
       → Cortisol giảm → signal giảm → PFC PHỤC HỒI nhanh (phút → giờ)
@@ -965,7 +1032,71 @@ Hormone: Dopamine (seeking + prediction reward)
     → PULL: kéo tới cái tốt hơn
     → PFC tham gia: draft plan mới, simulate options, cross-domain
     → Satisfaction Signal: MƠ HỒ ("đủ mới" khó xác định)
-    → = Drive khi baseline-drive ở MỌI vùng (kể cả thấp)
+
+  ⭐ Novelty CẦN "năng lượng rung" — 2 nguồn:
+
+    NGUỒN 1 — INTERNAL (cortisol baseline → rung → novelty):
+      → Cortisol đủ cao → neurons khắp não fire MẠNH + KHÁC bình thường
+      → Cross-connection giữa domains TỰ xảy ra (vì nhiều vùng rung)
+      → VTA detect → dopamine → PFC → insight
+      → = "Não TỰ tìm pattern mới" — KHÔNG cần input bên ngoài
+      → = DEEP novelty: cross-domain, abstract, multi-step chain
+      → = Einstein, Newton, Tesla: internal drive từ cortisol baseline cao
+      → CẦN: cortisol đủ + chunks đủ + PFC capacity đủ
+
+    NGUỒN 2 — EXTERNAL (input sensory → trigger):
+      → Cortisol CÓ THỂ thấp → não ổn định → NHƯNG:
+      → Mắt/tai/da NHẬN input MỚI → neurons fire KHÁC (vì input mới)
+      → VTA detect → dopamine NHẸ → PFC → "ồ, cái mới"
+      → = "Não PHẢN ỨNG với cái mới bên ngoài"
+      → = SHALLOW novelty thường (react, không tự tạo)
+      → = Con chó thấy đồ ăn, trẻ thấy đồ chơi, cô gái đẹp đi qua
+      → Đặc biệt: external CÓ THỂ trigger → cortisol tăng → dẫn tới deep novelty
+
+    NGUỒN 3 — COMBINATION (phổ biến nhất):
+      → External input thú vị → cortisol tăng nhẹ (curiosity)
+      → Cortisol → internal rung → deeper processing
+      → = "Thấy cái hay → tò mò → nghĩ sâu → insight"
+
+    NÃO LUÔN CỐ ỔN ĐỊNH (tiết kiệm năng lượng):
+      → Novelty = PHẢI phá ổn định → TỐN energy
+      → Não CHỈ phá ổn định khi CÓ LÝ DO:
+        ① Cortisol: "CÓ GÌ ĐÓ SAI/THIẾU → tìm pattern mới"
+        ② External: "CÓ CÁI MỚI → process"
+      → KHÔNG lý do → não GIỮ ỔN ĐỊNH → KHÔNG novelty deep
+      → = "Thoải mái hoàn toàn + không input mới = KHÔNG novelty deep"
+      → = Einstein relax bãi biển = người bình thường (nếu cortisol zero)
+
+    → (Chi tiết: Imagination-Analysis-v2.md, Change-Readiness.md)
+```
+
+### 4.1.5 Novelty × Threat = CÙNG Mechanism
+
+```
+⭐ Novelty và Threat KHÔNG phải 2 hệ thống riêng biệt:
+
+  CÙNG CƠ CHẾ:
+    Schema simulate pattern → body-base evaluate:
+      Body: "pattern này TỐT cho tôi" → opioid → NOVELTY REWARD
+      Body: "pattern này XẤU cho tôi" → cortisol/NE → THREAT SIGNAL
+      Body: "chưa biết" → dopamine seek → chờ body confirm
+    → = 1 hệ thống (imagine + body check) → 2 KẾT QUẢ (tùy body đánh giá)
+
+  KHI VƯỢT QUA — reward KHÁC NHAU:
+    Threat giải quyết: cortisol DROP → NHẸ NHÕM (hết đau, KHÔNG có opioid mới)
+    Novelty confirm: opioid + dopamine → SƯỚNG (body reward THẬT)
+    → = "Hết khổ" ≠ "sướng" — 2 trải nghiệm KHÁC NHAU
+
+  TỈ LỆ threat:novelty QUYẾT ĐỊNH mức sướng khi xong:
+    95% threat + 5% novelty → xong = nhẹ nhõm → "phù" → đờ
+    50% threat + 50% novelty → xong = nhẹ + sướng → "yeahhh!"
+    20% threat + 80% novelty → xong = SƯỚNG CỰC → "đỉnh!"
+    → = Cùng nỗ lực, KHÁC tỉ lệ → KHÁC mức sướng khi hoàn thành
+    → = "Quyết tâm" KHÔNG đủ → "quyết tâm VÌ CÁI GÌ" mới quyết định sướng
+
+  → MỌI hành vi = MIX threat + novelty (tỉ lệ khác nhau, §3.5)
+  → Kết quả = TỔNG: nhẹ nhõm (threat hết) + sướng (novelty confirm)
+  → (Chi tiết: Novelty-Loop.md)
 ```
 
 ### 4.2 Threat-Schema (PUSH — bảo vệ Body-Base qua PFC)
@@ -995,12 +1126,44 @@ Hormone: NE (activation) + Cortisol spike → cortisol sustain
     → PFC tham gia: simulate hậu quả, plan tránh
     → Reward = absence of bad (cortisol drop, "phù nhẹ nhõm")
     → Satisfaction Signal: GẦN NHƯ KHÔNG CÓ → drive khó dừng → anxiety
-    → = Drive CHỈ khi baseline-drive ĐỦ CAO (quá thấp → "mặc kệ")
+    → = Drive CHỈ khi Change-Readiness ĐỦ CAO (quá thấp → "mặc kệ")
 
-  3 nguồn Threat (timeline):
-    Physical:      ĐANG xảy ra → reflex + NE (ms) → cortisol spike (min)
-    Social:        từ NGƯỜI KHÁC → schema + NE (s) → cortisol (min)
-    Anticipation:  TƯƠNG LAI → PFC loop + cortisol sustain (giờ→ngày→mãn tính)
+  3 nguồn Threat (timeline — Emergency-Alert → Change-Readiness):
+    Physical:      ĐANG xảy ra → reflex (ms) → NE+Adrenaline (s) → cortisol sustain (min)
+    Social:        từ NGƯỜI KHÁC → schema + NE (s) → cortisol sustain (min)
+    Anticipation:  TƯƠNG LAI → PFC loop → cortisol baseline TĂNG DẦN (giờ→ngày→mãn tính)
+
+  4 dạng Threat-Schema (CÙNG cơ chế, KHÁC mức độ rõ ràng):
+  ┌──────────────────┬──────────────────────────┬──────────────────────┐
+  │ Dạng             │ Đặc điểm                 │ Resolve được?        │
+  ├──────────────────┼──────────────────────────┼──────────────────────┤
+  │ Threat CỤ THỂ    │ Biết sợ CÁI GÌ          │ ✅ CÓ THỂ           │
+  │                  │ Biết action NÀO           │ Plan → action → done│
+  │                  │ VD: deadline ngày mai     │                     │
+  ├──────────────────┼──────────────────────────┼──────────────────────┤
+  │ Anxiety          │ "Có gì đó SAI..."        │ 🟡 KHÓ              │
+  │ (lo mơ hồ)      │ KHÔNG biết sợ cái gì RÕ  │ Không biết fix gì   │
+  │                  │ KHÔNG biết action nào     │ → loop KHÓ dừng     │
+  │                  │ VD: "tương lai thế nào?"  │                     │
+  ├──────────────────┼──────────────────────────┼──────────────────────┤
+  │ Worry loop       │ PFC imagine WORST CASE    │ ❌ TỰ AMPLIFY       │
+  │ (lo cuốn)       │ Worst case → cortisol↑    │ Càng nghĩ càng sợ  │
+  │                  │ → imagine TỆ hơn → loop   │ Cần BREAK bên ngoài│
+  │                  │ VD: "bị đuổi→hết tiền    │                     │
+  │                  │   →vô gia cư→chết"       │                     │
+  ├──────────────────┼──────────────────────────┼──────────────────────┤
+  │ Phobia           │ Threat GẮN object CỤ THỂ  │ 🟡 Cần therapy     │
+  │ (ám ảnh)        │ Compiled CỰC SÂU          │ Exposure + re-assoc │
+  │                  │ KHÔNG hợp lý (biết vậy    │ Logic không fix được│
+  │                  │ MÀ VẪN sợ)               │ (PFC biết, body VẪN)│
+  │                  │ VD: sợ nhện dù biết       │                     │
+  │                  │ nhện nhỏ vô hại           │                     │
+  └──────────────────┴──────────────────────────┴──────────────────────┘
+
+  → TẤT CẢ 4 dạng = CÙNG cơ chế: schema predict rủi ro cho body-base
+  → KHÁC ở: mức độ RÕ RÀNG (cụ thể → mơ hồ → loop → irrational)
+  → KHÁC ở: khả năng RESOLVE (dễ → khó → tự amplify → cần therapy)
+  → = Threat-Schema = UMBRELLA bao gồm tất cả
 ```
 
 ### 4.3 PULL vs PUSH — Hệ Quả Wellbeing
@@ -1048,12 +1211,53 @@ ACTIVATION (khởi động hành vi):
     ⚠️ AI note: "dopamine ở đâu?" → ở KHẮP NƠI, giống điện trong tòa nhà
        Không đặt ở 1 tầng — phục vụ mọi tầng khi cần tìm kiếm
 
-FEEDBACK:
-  Satisfaction Signal (prolactin candidate):
-    → Sinh ở Body → nhận bởi Schema
-    → Body confirm "đủ" → schema dừng drive
-    → BRIDGE quan trọng nhất: Body → Schema
-    → Hoạt động TỐT ở PULL, KÉM ở PUSH
+FEEDBACK — 3 loại signal từ Body (KHÁC NHAU):
+
+  ① Satisfaction Signal (FUNCTION name — KHÔNG phải 1 hormone duy nhất):
+    → Sinh ở Body → nhận bởi VÔ THỨC → schema auto DỪNG
+    → PFC KHÔNG BIẾT signal tồn tại → PFC chỉ thấy KẾT QUẢ "hết muốn"
+    → Ví dụ: ăn no → bụng báo "đủ" → schema "tìm ăn" TỰ dừng
+      → PFC không nghĩ "satisfaction fire" → chỉ "tự nhiên hết muốn ăn"
+    → Hoạt động TỐT ở PULL (no = rõ, thoải mái = rõ)
+    → Hoạt động KÉM ở PUSH ("đủ an toàn" khó xác định → khó dừng)
+    → ⚠️ Hormone KHÁC per body-need (KHÔNG phải 1 hormone cho mọi "đủ"):
+      Đủ sex: prolactin (evidence mạnh nhất — spike 400% sau orgasm)
+      Đủ ăn (bụng đầy): CCK (cholecystokinin — meal termination)
+      Đủ ăn (energy): leptin (từ mỡ — long-term energy satiety)
+      Đủ glucose: insulin
+      Đủ stress: endocannabinoid (recovery)
+      → = "Satisfaction Signal" = TÊN FUNCTION, mỗi channel có HORMONE RIÊNG
+      → = Framework bind FUNCTION (chắc chắn có), KHÔNG bind 1 hormone
+    → ⚠️ Khi Satisfaction CHƯA fire (body-need chưa met):
+      → Body TỰ kích hoạt body-threat signal: "THIẾU → khó chịu"
+      → Ví dụ: đói (satisfaction "đủ ăn" chưa fire) → body: "khó chịu bụng"
+      → Ví dụ: mệt (satisfaction "đủ ngủ" chưa fire) → body: "nặng đầu, buồn ngủ"
+      → Ví dụ: cô đơn (satisfaction "đủ connection" chưa fire) → body: "trống, lạnh"
+      → PFC nhận body-threat (khó chịu) → suy luận nguồn: "à, chắc đói" → hành động fix
+      → = PFC biết "khó chịu" (body-threat) → KHÔNG biết "tại sao" (satisfaction thiếu)
+      → = PFC phải SUY LUẬN từ context + experience → có thể suy SAI
+      → = "Stress mà không biết vì sao" = body-threat từ satisfaction thiếu + PFC suy sai nguồn
+    → ⚠️ PFC CÓ THỂ OVERRIDE "hết muốn":
+      → "No nhưng ngon → ăn thêm" = PFC override bằng reward
+      → "Mệt nhưng deadline → làm tiếp" = PFC override bằng threat
+      → = Disconnect mechanism: PFC ignore body "đủ" signal
+
+  ② Body-Reward (opioid/oxytocin):
+    → Sinh ở Body → CẢ vô thức VÀ PFC đều nhận
+    → Vô thức: auto drive "thêm!" (ăn ngon → ăn tiếp tự động)
+    → PFC: observe reward → CHỌN tiếp hay dừng
+    → = PFC = trọng tài cho reward: "sướng, nhưng NÊN tiếp không?"
+
+  ③ Body-Pain (nociception/mismatch):
+    → Sinh ở Body → CẢ vô thức VÀ PFC đều nhận
+    → Vô thức: reflex (rút tay, 50ms — trước PFC)
+    → PFC: observe pain → CHỌN response (sửa/chịu/chạy/đổi context)
+    → = PFC = trọng tài cho pain: "đau, nhưng NÊN làm gì?"
+
+  → Satisfaction: VÔ THỨC tự xử → PFC không biết
+  → Reward + Pain: CẢ HAI biết → PFC chọn hành động
+  → = PFC = trọng tài cho reward/pain → KHÔNG phải trọng tài cho "đủ chưa"
+  → = "Đủ chưa" = body TỰ biết, TỰ dừng, PFC KHÔNG tham gia
 
 RECOVERY:
   Endorphin:
@@ -1083,7 +1287,7 @@ MOOD BASELINE:
 
 CORTISOL (3 chế độ — xuyên suốt):
   Spike:    phản ứng threat tức thì → đóng góp tăng baseline
-  Baseline: = baseline-drive (§3) → nhịp ngày đêm + tích lũy
+  Baseline: = Change-Readiness (§3) → nhịp ngày đêm + tích lũy
   Sustain:  duy trì schema active kéo dài
 
 ...các hormone khác chưa liệt kê hết
@@ -1219,8 +1423,13 @@ LỊCH SỬ + TƯƠNG LAI:
 DOMAIN — chỉ ghi CÁI CHẮC CHẮN (không đóng khung hình dung):
 
   ① Domain = thực tế bên ngoài Human, bên trong Environment:
+     → VẬT CHẤT THẬT + KIẾN TRÚC THẬT (dù trừu tượng):
+       Vật lý (gravity, lượng tử,...) = THẬT dù con người chưa thấy hết
+       Kiến trúc (leader+filter+workers,...) = THẬT dù không ai thiết kế
+       Toán học (E=mc²,...) = patterns THẬT trong domain dù chưa ai phát hiện
      → Tồn tại KHÔNG PHỤ THUỘC vào não biết hay không
      → Não không biết → domain VẪN CÒN, VẪN hoạt động
+     → Toàn bộ vũ trụ = domain → con người chỉ thấy 1 PHẦN CỰC NHỎ
 
   ② Domain = vô tận:
      → Không thể chứa hết trong não (86 tỷ neurons vẫn quá nhỏ)
@@ -1251,6 +1460,9 @@ DOMAIN — chỉ ghi CÁI CHẮC CHẮN (không đóng khung hình dung):
      → Check nhiều vòng (kinh nghiệm): gần attractor → quality CAO
      → "Kinh nghiệm" = CHÍNH XÁC là số vòng body đã check với domain
      → "Chuyên gia" = người đã lặp ĐỦ VÒNG để schema tụ về attractor
+     → Nỗ lực con người = làm "melody" schema CỦA MÌNH
+       chơi ĐÚNG NHẤT trên domain mình thấy
+       (chi tiết metaphor: Global-Melody.md)
 
   ⑥ KHÔNG mô tả domain "trông như thế nào":
      → Bất kỳ mô tả nào = đóng khung = sai
@@ -1325,7 +1537,7 @@ CÔNG THỨC:
      → Experience? Connection? Status?
      → 1 hay nhiều?
 
-  ② Baseline-drive đang ở MỨC NÀO?
+  ② Change-Readiness đang ở MỨC NÀO?
      → Thấp: chỉ drive khi thích (PULL)
      → Vừa: cả Novelty + Threat OK
      → Cao: Threat dominant, PFC có thể bị squeeze
@@ -1343,21 +1555,21 @@ VÍ DỤ:
 
   Nhân viên văn phòng:
     Body-Base: Exp OK, Con thiếu nhẹ, Sta bị threat
-    Baseline-drive: CAO (deadline liên tục)
+    Change-Readiness: CAO (deadline liên tục)
     Active: Threat-{Sta} + Novelty-{Exp}(scroll MXH giải tỏa)
     Predict: làm việc stress, scroll break, muốn nghỉ nhưng sợ
     Wellbeing: PUSH dominant → burnout risk
 
   Trẻ 8 tuổi bị bắt học:
     Body-Base: Exp thiếu (ngồi 1 chỗ), Con OK, Sta bị threat
-    Baseline-drive: TĂNG DẦN (quát mắng tích lũy)
+    Change-Readiness: TĂNG DẦN (quát mắng tích lũy)
     Active: Threat-{Sta}(điểm) + Threat-{Con}(sợ mắng)
     Predict: comply bề ngoài, mất tập trung, stress nền
     Wellbeing: PUSH dominant → hại development
 
   Người vừa nghỉ hưu:
     Body-Base: Exp OK, Con giảm (mất đồng nghiệp), Sta giảm (mất vai trò)
-    Baseline-drive: CÓ THỂ thấp (mất urgency) hoặc cao (lo tài chính)
+    Change-Readiness: CÓ THỂ thấp (mất urgency) hoặc cao (lo tài chính)
     Active: phụ thuộc baseline — nếu thấp: không drive → trầm cảm
     Predict: cần tìm Novelty-{Con}(nhóm mới) + Novelty-{Exp}(hobby)
     Wellbeing: cần chuyển sang PULL chủ động
@@ -1365,7 +1577,7 @@ VÍ DỤ:
   Người nghiện game:
     Body-Base: Exp ĐANG được game fill, Con thiếu thật nhưng game fill ảo,
               Sta game fill (rank)
-    Baseline-drive: thấp (game = safe environment, ít threat)
+    Change-Readiness: thấp (game = safe environment, ít threat)
     Active: Novelty-{Exp+Con+Sta} qua game liên tục
     Predict: chơi liên tục, bỏ bê body thật
     Wellbeing: PULL nhưng IMAGINE-ONLY → body-base thật bị thiếu dần
@@ -1409,7 +1621,7 @@ THAY ĐỔI:
   ⑨ Intimate, Shared Exp: channels riêng → Emergent (spectrum depth)
   ⑩ Touch: đổi tên → Connection (rộng hơn: skin, eye, ear, presence)
   ⑪ Imagine = Novelty-Schema(PULL) + Threat-Schema(PUSH) → phục vụ L0→L3
-  ⑫ Baseline-drive: KHÔNG CÓ → tách riêng (cortisol baseline, 7 modes)
+  ⑫ Change-Readiness: KHÔNG CÓ → tách riêng (cortisol baseline, 7 modes)
   ⑬ Threat-Schema: KHÔNG CÓ → thêm mới (PUSH drive, PHỔ BIẾN NHẤT hiện đại)
   ⑭ "Imagine LUÔN phục vụ Body-Base" — verified, không ngoại lệ
   ⑮ Schema override spectrum: quên ăn → tử vì đạo (cùng cơ chế, khác mức độ)
@@ -1449,7 +1661,7 @@ BACKWARD COMPATIBILITY:
       → Aesthetic: ĐÃ GIẢI QUYẾT ✅ (body phản ứng TRƯỚC lý do, L2 đúng)
       → L0 Alive vs L1 Survival: ranh giới escalation chính xác?
       → L3 Protect vs L0 Protect Gene: khi nào escalate?
-  Q2: Baseline-drive có phải LUÔN cortisol hay có hormone khác?
+  Q2: Change-Readiness có phải LUÔN cortisol hay có hormone khác?
   Q3: Body-level Novelty vs Imagine-level Novelty: ranh giới ở đâu chính xác?
       → Chuột: body-level (trial-error)
       → Người: body-level + PFC-level (cross-domain)

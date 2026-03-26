@@ -4,7 +4,7 @@
 > **Ngày:** 2026-03-24
 > **Mục đích:** HOW TO — kỹ năng thực hành cảm nhận body signals
 > **Reference:** Architecture-v7.5-Draft.md (Body-Base L1-L3),
-> Cortisol-Analysis.md (cortisol = calibration energy),
+> Change-Readiness.md (cortisol = calibration energy),
 > Schema-Atlas-v2.md (schema states + mismatch),
 > Crying-Analysis.md (khóc = body repair mechanism)
 > **Nguyên tắc:** Body LUÔN NÓI — vấn đề là: có NGHE được không?
@@ -104,7 +104,7 @@ TOÀN THÂN:
     → = Cortisol TĂNG SAU ĐÓ: để kích thích recalibrate (fix mismatch)
     → = Cortisol = PHẢN ỨNG (thuốc chữa), KHÔNG phải NGUYÊN NHÂN (bệnh)
 
-  3 nguồn khó chịu THẬT SỰ (chi tiết: Cortisol-Analysis.md §10):
+  3 nguồn khó chịu THẬT SỰ (chi tiết: Change-Readiness.md §10):
     ① Đau vật lý: nociceptors → signal đau → cortisol tới SAU
     ② Mismatch: schema ≠ reality → body feel "sai" → cortisol tới SAU
     ③ Recalibration: neurons ĐANG thay đổi pattern → không ổn định tạm → khó chịu
@@ -124,7 +124,9 @@ TOÀN THÂN:
 ## 4. Satisfaction Signal — Nghe "Đủ Rồi"
 
 ```
-Satisfaction Signal (prolactin candidate) = body NÓI "đủ rồi":
+Satisfaction Signal = body NÓI "đủ rồi" → VÔ THỨC schema auto dừng:
+  (FUNCTION name — nhiều hormones per body-need: prolactin, CCK, leptin,...)
+  (PFC KHÔNG biết signal fire — PFC chỉ thấy "hết muốn")
   → KHÁC opioid "sướng" (active pleasure)
   → Satisfaction Signal = "đủ, KHÔNG CẦN thêm" (calm, content)
 
@@ -152,7 +154,7 @@ CÁCH NGHE:
   → CẢM NHẬN: "body đang nói gì?" → "à, thật ra... đủ rồi"
   → = "Đủ rồi" = CẢM GIÁC, không phải LỜI → body FEEL, không phải PFC NÓI
 
-⚠️ Satisfaction Signal KHÁC per channel (Cortisol-Analysis.md §5):
+⚠️ Satisfaction Signal KHÁC per channel (Change-Readiness.md §5):
   PULL channels (Experience, Connection): Signal RÕ → dễ nghe
   PUSH channels (Threat, Status): Signal MƠ HỒ → khó nghe → loop dễ
   → = PULL: "ăn no → đủ → nghe rõ" ✅
@@ -388,8 +390,8 @@ BL5: Body-listening × AI era?
 ## 11. Kết Nối
 
 ```
-→ Architecture-v7.5-Draft.md: Body-Base L0-L3 + Baseline-drive
-→ Cortisol-Analysis.md: cortisol = calibration energy, 3 nguồn khó chịu
+→ Architecture-v7.5-Draft.md: Body-Base L0-L3 + Change-Readiness
+→ Change-Readiness.md: cortisol = calibration energy, 3 nguồn khó chịu
 → Schema-Atlas-v2.md: schema states, mismatch mechanism
 → Crying-Analysis.md: khóc = body repair signal (cùng folder)
 → Imagination-Analysis-v2.md: imagine × body check loop

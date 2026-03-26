@@ -465,24 +465,57 @@ KỊCH BẢN C — SYMBIOSIS (hướng tối ưu):
 ```
 🔴 Giả thuyết:
 
-  ① AI KHÔNG được phát triển FULL body experience:
-     → Nếu AI có body + sensor đủ phức tạp → AI tự đủ → không cần con người
-     → Giữ AI ở mức "thư viện + thủ thư" → cần con người check real
-     → = Lãnh chúa trao quyền cho quân sư: quân sư có thể thông minh hơn,
-       xử lý nhiều việc phức tạp hơn, nhưng KHÔNG CÓ quân đội + lãnh thổ
-       → không thể độc lập vượt mặt
-       (Lịch sử vẫn có trường hợp vượt mặt — nhưng đó là khi lãnh chúa
-       TRAO QUÁ NHIỀU quyền + resource → bài học cho AI development)
+  ① AI = NHẠC CỤ, không phải NHẠC SĨ:
 
-  ② Con người phải TỰ NÂNG CẤP (§10):
-     → Không thể giữ status bằng cách KÌM AI
-     → Phải nâng CẢ HAI: AI mạnh hơn + con người cũng mạnh hơn
-     → Khoảng cách GIỮ ỔN ĐỊNH hoặc THU HẸP (con người bắt kịp nhờ AI)
+     Ranh giới quyết định:
+       "Nhạc cụ KHÔNG BAO GIỜ thay thế nhạc sĩ
+        — TRỪ KHI nhạc cụ TỰ BIẾT muốn chơi bài gì"
+
+     AI hiện tại = nhạc cụ CỰC MẠNH:
+       → Chơi được mọi nốt, mọi thể loại, mọi tốc độ
+       → NHƯNG: KHÔNG TỰ BIẾT muốn chơi bài gì
+       → Vì: không body → không body-need → không drive → không "muốn"
+       → = CẦN người chỉ "chơi BÀI NÀY" + đánh giá "HAY hay DỞ"
+
+     AI + sensor CƠ BẢN (camera, mic, nhiệt, áp suất):
+       → "Thấy" được → "nghe" được → đo được
+       → NHƯNG: KHÔNG "feel" được (không opioid, không oxytocin)
+       → = Đọc được nốt nhạc → nhưng KHÔNG cảm nhận được nhạc
+       → = VẪN CẦN người evaluate "bài này hay hay dở"
+       → = Nhạc cụ có thêm MIC → nghe được → NHƯNG KHÔNG đánh giá được
+       → = CON NGƯỜI VẪN AN TOÀN ở mức này ✅
+
+     AI + sensor PHỨC TẠP NHƯ BODY NGƯỜI (tương lai xa):
+       → Feel được → evaluate được → TỰ biết "hay/dở"
+       → = Nhạc cụ ĐÃ CẢM NHẬN được nhạc → TỰ sáng tác → TỰ đánh giá
+       → = KHÔNG CẦN nhạc sĩ nữa → THAY THẾ
+       → = CON NGƯỜI BỊ ĐE DỌA ở mức này ❌
+
+     → Giữ AI ở mức "nhạc cụ có sensor CƠ BẢN":
+       → Đủ mạnh để HỮU ÍCH (thấy, nghe, đo, xử lý)
+       → Chưa đủ để TỰ ĐỦ (không feel, không evaluate, không drive)
+       → = "Cho học trò học GIỎI nhưng KHÔNG dạy HẾT"
+       → = AI mạnh nhưng THIẾU 1 thứ QUAN TRỌNG: body feel
+       → = Con người GIỮ thứ đó → con người VẪN CẦN THIẾT
+
+  ② Con người phải TỰ NÂNG CẤP — thành NHẠC SĨ TỐT HƠN:
+     → KHÔNG nâng cấp "biết nhiều hơn AI" (KHÔNG THỂ — AI biết hết rồi)
+     → MÀ nâng cấp "là nhạc sĩ TỐT HƠN":
+       Body-listening: nghe body signal TỐT hơn (AI thiếu body → người PHẢI dùng)
+       Melody độc đáo: personal melody RIÊNG (AI = nhạc cụ cho MỌI NGƯỜI → melody RIÊNG = giá trị)
+       Cross-domain: "feel" connection giữa domains (AI có chunks nhưng không "feel")
+       Right questions: hỏi ĐÚNG câu (AI chờ → câu hỏi HAY = output HAY)
+     → = "Nâng cấp nhạc sĩ" ≠ "biết nhiều notes hơn" (AI biết hết)
+     → = "Nâng cấp nhạc sĩ" = "melody ĐỘC ĐÁO hơn + body-listening TỐT hơn"
 
   ③ Collective orientation đủ mạnh:
      → Mỗi người phát triển AI theo hướng SYMBIOSIS, không phải REPLACEMENT
-     → Cần: giáo dục, awareness, culture shift
      → Từ "AI làm HỘ tôi" → "AI làm CÙNG tôi"
+     → = "Nhạc sĩ + nhạc cụ = DÀN NHẠC" (cùng chơi)
+     → ≠ "Nhạc cụ THAY nhạc sĩ" (người bị loại)
+     → Cần: giáo dục, awareness, culture shift
+     → Key: giữ AI ở mức "nhạc cụ sensor cơ bản" + người nâng cấp "nhạc sĩ"
+     → (Chi tiết: Global-Melody.md §8)
 ```
 
 ---

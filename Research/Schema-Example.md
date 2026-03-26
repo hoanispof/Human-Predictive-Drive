@@ -4,7 +4,7 @@
 > **Ngày:** 2026-03-24
 > **Mục đích:** Ví dụ cụ thể minh họa schema lifecycle, states, interactions
 > **Đọc SONG SONG với:** Schema-Atlas-v2.md (lý thuyết) + file này (ví dụ)
-> **Reference:** Architecture-v7.5-Draft.md, Cortisol-Analysis.md, Status-Analysis-v2.md
+> **Reference:** Architecture-v7.5-Draft.md, Change-Readiness.md, Status-Analysis-v2.md
 > **Cách dùng:** Đọc Schema-Atlas → chỗ nào cần hình dung → qua file này → đọc lại Atlas
 
 ---
@@ -284,7 +284,7 @@ Gặp người → body PHẢN ỨNG → vô thức ráp schema:
 ## 3. Công Việc — Schema Burnout Timeline
 
 ```
-(Reference: Cortisol-Analysis.md §10.6)
+(Reference: Change-Readiness.md §10.6)
 ```
 
 ### 3.1 Tháng 1-6: Hưng phấn
@@ -468,7 +468,162 @@ Gặp người → body PHẢN ỨNG → vô thức ráp schema:
 
 ---
 
-## 7. Câu Hỏi Mở — Ví Dụ Cần Thêm
+## 7. Metaphor Âm Nhạc — Hình Dung Schema Như Bài Nhạc
+
+```
+TẠI SAO dùng metaphor nhạc:
+  → Schema = nhiều thành phần tương tác CÙNG LÚC → giống dàn nhạc
+  → Mỗi schema có "giai điệu" riêng → body feel hay/dở
+  → Schema thay đổi DẦN (chỉnh từng note) → giống cải tiến bài nhạc
+  → Trauma = bài nhạc kinh dị XEN VÀO bài đang nghe → cross-contamination
+  → = Giúp hình dung TƯƠNG TÁC giữa schemas mà text khó mô tả
+
+  ⚠️ NOTE: metaphor KHÔNG 1-1 chính xác:
+    Nhạc thật: nhạc sĩ CHỦ ĐỘNG chơi
+    Schema: TỰ ĐỘNG chạy (vô thức fire) → giống "earworm" (bài dính trong đầu) hơn
+    Nhạc thật: nghe TUẦN TỰ (nốt 1 → 2 → 3)
+    Schema: fire SONG SONG (nhiều neurons cùng lúc) → giống DÀN NHẠC (nhiều nhạc cụ cùng lúc)
+    → Nghĩ "dàn nhạc tự chơi" (earworm × orchestra) → ĐÚNG nhất
+```
+
+### 7.1 Schema = Bài nhạc
+
+```
+  Bài nhạc tổng thể = Schema:
+    → Giai điệu (melody) + nhịp (rhythm) + hòa âm (harmony) + lời (lyrics)
+    → = Nhiều thành phần KẾT HỢP → tạo 1 "tổng thể" có meaning
+    → Mỗi bài = UNIQUE (combination riêng)
+    → Mỗi schema = UNIQUE (combination chunks riêng)
+
+  Track / chuỗi nhỏ = Chunk:
+    → Guitar track = 1 chunk (chuỗi pattern riêng)
+    → Drum track = 1 chunk (chuỗi pattern riêng)
+    → Vocal track = 1 chunk
+    → Ghép tracks khác nhau = bài KHÁC
+    → Cùng tracks + ghép KHÁC = REMIX (same chunks, different schema)
+    → = Chunks = đơn vị nhỏ, schema = tổ hợp chunks
+
+  Nhạc cụ ≈ Modality (gần đúng):
+    → Piano = visual (thấy phím, spatial)
+    → Guitar = auditory (nghe rõ nhất)
+    → Trống = somatic (feel nhịp trong body)
+    → Percussion = motor (tay đánh, body movement)
+    → Giọng hát = verbal (lời, ngôn ngữ)
+    → Mỗi người: "nhạc cụ MẠNHnhất" = modality DOMINANT
+    → Bài nhạc hay = balance nhạc cụ → schema tốt = balance modalities
+```
+
+### 7.2 Cải tiến bài nhạc = Incremental Schema Update
+
+```
+  Đang có bài nhạc (schema hiện tại):
+    → Nghe đi nghe lại → "chỗ này HAY" (body reward) → GIỮ
+    → "Chỗ kia chưa hay" (body not reward) → THỬ ĐỔI
+    → Đổi 1 note → nghe lại → "hay hơn?" → giữ/bỏ
+    → Đổi thêm 1 note → nghe lại → "hay hơn?" → giữ/bỏ
+    → = Base → shift 1 note → body check → accept/reject → new base
+
+  KHÔNG bao giờ "viết lại cả bài 1 lần":
+    → Đổi CẢ BÀI cùng lúc = bài MỚI hoàn toàn → body KHÔNG nhận ra
+    → = "Quá lạ" → body reject → chán/khó chịu
+    → Phải đổi TỪNG CHÚT → body adapt DẦN → bài DẦN hay hơn
+    → = Đúng: "stable base + incremental shift + body check"
+
+  Nhiều thể loại nhạc = switch context:
+    → Người thích 1 thể loại: specialist (chỉ nghe jazz)
+    → Người thích nhiều thể loại: improviser (jazz + rock + classical)
+    → Switch thể loại = switch schema set → PFC load map khác
+    → Có người switch DỄ (COMT Val/Val) → có người switch KHÓ (Met/Met)
+```
+
+### 7.3 Threat-Schema = Bài nhạc khó chịu
+
+```
+  Schema threat = bài nhạc mà body KHÔNG THÍCH nhưng VẪN phải nghe:
+    → "Phải học toán" = bài nhạc buồn chán → nhưng bị BẮT nghe (threat)
+    → Nghe đi nghe lại → KHÔNG thích hơn → chỉ QUEN hơn
+    → Body: "bài này = khó chịu" → association = cortisol
+    → Sau này: nghe 1 note GIỐNG → body nhớ "bài khó chịu" → cortisol nhẹ
+    → = "Ghét toán" = body associate "melody toán" với cortisol
+
+  Threat nhẹ = bài nhạc "không thích lắm":
+    → Nghe được, không hay, nhưng CHỊU ĐƯỢC
+    → = "Phải làm bài tập → rồi MỚI đi chơi" → chán chút → ok
+
+  Threat nặng = bài nhạc "kinh khủng":
+    → Nghe = ĐAU → body muốn TẮT → nhưng KHÔNG TẮT ĐƯỢC
+    → = "Không học là ăn đòn. Mỗi ngày." → body associate cực mạnh
+    → Schema compile CỰC SÂU (vì cortisol + đau + lặp lại)
+```
+
+### 7.4 Trauma = Bài nhạc kinh dị XEN VÀO
+
+```
+  Trauma schema = bài nhạc kinh dị ĐÃ COMPILED cực sâu:
+    → Nghe 1 LẦN (trauma event) → body GHI NHỚ CẢ BÀI
+    → Không muốn nghe lại → NHƯNG: brain VẪN LƯU
+    → = "Bài nhạc kinh dị KHÔNG XÓA ĐƯỢC — chỉ có thể làm cho NHỎ DẦN"
+
+  Cross-contamination (lẫn vào bài khác):
+    → Đang nghe bài HAY (schema tình yêu, schema sáng tạo)
+    → Bỗng 1 note GIỐNG bài kinh dị (trigger chunk):
+      Giọng sếp GIỐNG giọng bố ngày xưa
+      Mùi nước hoa GIỐNG người đã phản bội
+      Cảm giác bị kiểm soát GIỐNG bị mẹ bắt ép
+    → Bài kinh dị BẬT LÊN xen vào bài đang nghe:
+      Đang yêu vui vẻ → bỗng LO SỢ VÔ CỚ (bài kinh dị chen ngang)
+      Đang làm việc tốt → bỗng THẤ TỰ TIN (bài "mình kém" chen ngang)
+    → = "Nghe 2 bài CÙNG LÚC" = 2 schemas fire CÙNG LÚC = CONFLICT
+
+  "Chữa" trauma = KHÔNG xóa bài kinh dị:
+    → Xóa = KHÔNG THỂ (compiled quá sâu)
+    → NHƯNG có thể:
+      Giảm VOLUME bài kinh dị (thuốc, therapy → fire yếu hơn)
+      TÁCH note trigger khỏi bài kinh dị (EMDR → "nhớ nhưng không đau")
+      Viết bài MỚI MẠNH HƠN override (re-associate → "note này giờ = an toàn")
+      Nhận RA đang nghe bài kinh dị (meta-cognition → "à, đây là trauma cũ, không phải hiện tại")
+    → = "Bài kinh dị VẪN CÒN → nhưng VOLUME nhỏ + bài mới MẠNH hơn"
+
+  Ví dụ cụ thể:
+    Bố đánh khi bé (trauma = bài kinh dị: tiếng quát + cái roi + đau)
+    → 20 năm sau: sếp quát (voice GIỐNG) → não: "NOTE NÀY!"
+    → Bài kinh dị BẬT: tim đập, tay run, muốn khóc (body replay)
+    → NHƯNG: sếp KHÔNG phải bố → situation KHÁC → PFC biết
+    → NẾU meta-cognition tốt: "à, body đang play bài CŨ, sếp KHÔNG phải bố"
+    → → Volume bài kinh dị GIẢM → body settle → xử lý sếp bình thường
+    → NẾU meta-cognition yếu: "SẾP ĐÁNH TÔI!" → panic → phản ứng QUÁ MỨC
+```
+
+### 7.5 Novelty = Viết bài nhạc MỚI
+
+```
+  Sáng tạo = viết bài nhạc MỚI từ chunks (tracks) có sẵn:
+    → Cần: biết NHIỀU tracks (chunks đủ lớn) → mới ghép được bài MỚI
+    → Chunks ít = "chỉ biết 2 nhạc cụ" → bài đơn giản
+    → Chunks nhiều = "biết 10 nhạc cụ" → bài PHỨC TẠP + hay hơn có thể
+
+  PFC = nhạc sĩ THỬ ghép:
+    → Lấy track A + track B → ghép → nghe thử (body check)
+    → "Hay!" → giữ → ghép thêm track C → nghe thử
+    → "Chưa hay" → bỏ C → thử track D → nghe thử
+    → = Draft → body check → accept/reject → draft tiếp
+
+  Flow = viết nhạc TUỒN TUỘT:
+    → Chunks ĐỦ + body confirm LIÊN TỤC → note 1 hay → note 2 hay → note 3 hay
+    → = "Cả bài TỰ CHẢY ra" → PFC chỉ execute, không cần draft từng note
+    → = Vì: chunks ĐÃ SẴN SÀNG + body reward MỖI note → dopamine + opioid liên tục
+    → = "Cảm hứng sáng tác" = chunks tích lũy đủ + body ready → bài TỰ RA
+
+  Cross-domain = MIX thể loại:
+    → Jazz chunks + Classical chunks → "Jazz-Classical fusion" = bài CHƯA AI VIẾT
+    → = Innovation = ghép chunks từ domains KHÁC → pattern MỚI
+    → = Einstein: physics track + philosophy track + thought experiment track
+      → = "Bài nhạc vật lý" chưa ai viết → E=mc²
+```
+
+---
+
+## 8. Câu Hỏi Mở — Ví Dụ Cần Thêm
 
 ```
 SE1: Ví dụ về GHẸ TUÔNG chi tiết (vasopressin × status × trauma)
@@ -487,7 +642,7 @@ SE6: Ví dụ về CULTURE SHOCK (schema xã hội BỊ MIS-MATCH hoàn toàn)
 ```
 → Schema-Atlas-v2.md: lý thuyết schema (đọc SONG SONG)
 → Architecture-v7.5-Draft.md: Body-Base layers (L0-L3)
-→ Cortisol-Analysis.md: cortisol × schema states
+→ Change-Readiness.md: cortisol × schema states
 → Status-Analysis-v2.md: status = schema access map
 → Imagination-Analysis-v2.md: imagine × schema formation
 → Body-Listening.md: cách nghe body signals trong schema states
