@@ -680,4 +680,5 @@ Q5: Thế hệ chuyển tiếp (hiện tại) làm gì?
 → Status-Analysis-v2.md: Status calibration trong education context
 → Hidden-Genius.md: genius = hardware + chunks + drive (update needed)
 → Chemical-Enhancement-Notes.md: cortisol × PFC × creativity
+→ Education-Bridge.md: Motivation Bridge calibration — carrot/threat dosing per child per age
 ```

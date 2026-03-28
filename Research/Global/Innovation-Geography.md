@@ -16,7 +16,7 @@
 ## Mục Lục
 
 1. [Core Hypothesis](#1-hypothesis)
-2. [Cơ Chế — Tại Sao Trade Hub = Innovation Hub](#2-mechanism)
+2. [Cơ Chế — Tại Sao Trade Hub = Innovation Hub](#2-mechanism) — incl. §2.4 Competition-Driven Domain Expansion ⭐ NEW
 3. [Timeline — Map Innovation Clusters Qua Lịch Sử](#3-timeline)
 4. [Modern Era — Pattern Vẫn Đúng](#4-modern)
 5. [Châu Âu Post-1400 — Convergence Chưa Từng Có](#5-europe)
@@ -135,6 +135,105 @@ FORMULA:
     Italy Renaissance: nhiều city-states (Florence, Venice, Milan) → innovation race
     Châu Âu 1500-1900: nhiều quốc gia cạnh tranh → innovation race
     → GIỐNG pattern: fragmented + trading + competing = MAX innovation
+```
+
+### 2.4 Competition-Driven Domain Expansion — Tại Sao Domain PHẢI Mở Rộng
+
+```
+⭐ INSIGHT: Domain expansion KHÔNG phải ngẫu nhiên — là KẾT QUẢ TẤT YẾU
+   của cạnh tranh trong cùng domain.
+
+CƠ CHẾ NHÂN QUẢ (nối Conflict-Dynamics.md vào):
+
+  ① Domain A bão hòa:
+     → Nhiều cá thể có chunks GIỐNG NHAU trong domain A
+     → Predict giống → output giống → differentiation THẤP
+     → = Overlap CAO (Conflict-Dynamics: yếu tố 1/3 của conflict)
+
+  ② Scarcity xuất hiện:
+     → Cùng domain = cùng resource pool (jobs, customers, funding, status)
+     → Resource KHÔNG tăng theo tốc độ người tham gia
+     → = Scarcity (Conflict-Dynamics: yếu tố 2/3)
+
+  ③ Commitment locked:
+     → Mỗi cá thể đã compile chunks SÂU trong domain A
+     → "Đây là nghề của tôi" → identity gắn liền domain
+     → = Commitment (Conflict-Dynamics: yếu tố 3/3)
+
+  ④ Conflict formula đầy đủ:
+     → Overlap × Scarcity × Commitment = CONFLICT
+     → Cạnh tranh trực tiếp → cortisol ↑ → status threat ↑
+
+  ⑤ 3 EXIT STRATEGIES (từ Conflict-Dynamics):
+
+     A. Phá Overlap → DOMAIN EXPANSION:
+        → Một số cá thể TÌM domain mới (ít người, ít overlap)
+        → Chunks CŨ từ domain A + chunks MỚI từ domain B
+        → = Cross-domain innovation (Innovation-Geography §2.2)
+        → = KHÔNG ai quy hoạch — thị trường TỰ PHÂN BỔ
+
+     B. Phá Scarcity → MỞ RỘNG PIE:
+        → Innovation TẠO resource mới (technology, new market)
+        → Ví dụ: internet tạo domain hoàn toàn mới (e-commerce, social media)
+        → = Pie LỚN hơn → scarcity GIẢM tạm → hòa bình tạm
+
+     C. Phá Commitment → REFRAME:
+        → Cá thể "buông" domain cũ → chuyển sang domain mới
+        → Khó nhất (identity crisis) nhưng nhanh nhất khi xảy ra
+
+     → THƯỜNG = combo A+B: expand domain + create new resource
+
+  🟡 = SPECIATION ANALOGY (evolution):
+
+     Sinh học: 1 niche → quá đông → cạnh tranh → 1 số di cư sang niche khác
+              → adapt → trở thành species MỚI → niche diversity TĂNG
+
+     Domain:  1 domain → quá đông → cạnh tranh → 1 số thử domain khác
+              → develop new chunks → trở thành specialist MỚI → domain diversity TĂNG
+
+     = CÙNG CƠ CHẾ: competition trong cùng niche → forced diversification
+     = KHÔNG CẦN ai "thiết kế" domain mới — emergence từ áp lực cạnh tranh
+
+CASCADING DOMAIN EXPANSION — chuỗi phản ứng dây chuyền:
+
+  Domain A bão hòa → người Y chuyển sang domain B
+  → Domain B bổ sung chunks từ A → innovation MỚI trong B
+  → Domain B phát triển → thu hút thêm người
+  → Domain B bão hòa → một số chuyển sang domain C
+  → Domain C = chunks từ A + B + MỚI → innovation SÂU HƠN
+  → ...
+  → = TĂNG TỐC theo thời gian (mỗi domain mới = chunks RỘNG hơn)
+  → = Giải thích §6: TẠI SAO innovation speed TĂNG exponential
+
+  Ví dụ lịch sử:
+    Nông nghiệp bão hòa → thủ công nghiệp
+    Thủ công bão hòa → công nghiệp
+    Công nghiệp bão hòa → dịch vụ/CNTT
+    CNTT bão hòa (early 2020s) → AI + cross-domain
+    = MỖI BƯỚC: bão hòa domain cũ → ép sang domain mới
+
+VÍ DỤ HIỆN ĐẠI — AI ERA:
+
+  Domain "lập trình truyền thống" (2015-2023):
+    → Hàng triệu developer → chunks OVERLAP rất cao
+    → AI code tốt hơn junior dev → scarcity TĂNG MẠNH
+    → → Developer buộc phải EXPAND:
+       A. Chuyên sâu hơn (niche specialization — giảm overlap)
+       B. Cross-domain (dev + domain X — unique combination)
+       C. Chuyển sang domain mới hoàn toàn
+    → = Competition-driven domain expansion đang xảy ra REAL-TIME
+
+  🟢 Historical evidence:
+    Hy Lạp: city-states cạnh tranh → mỗi city CHUYÊN 1 thứ
+      (Athens = philosophy, Sparta = military, Corinth = trade)
+    Italy Renaissance: Florence = art, Venice = trade, Milan = engineering
+    → = Domain specialization per city = reduce overlap = reduce conflict
+    → = Conflict-Dynamics formula IN ACTION
+
+  Liên kết:
+    → Conflict-Dynamics.md: Conflict = Overlap × Scarcity × Commitment
+    → Knowledge-Accumulation.md §3: baseline shift → old domain → new domain
+    → Global-Melody.md §6: domain match → center crowded → edge differentiation
 ```
 
 ---
@@ -1025,6 +1124,11 @@ FRAMEWORK CONNECTIONS:
   Imagination-Analysis.md: imagination quality = f(chunks available)
   Climate-Cognition.md: climate = modifier nhỏ ở macro, lớn hơn ở micro
   Drive-Optimization.md: competition = optimal Pressure for innovation
+  Conflict-Dynamics.md: Conflict = Overlap × Scarcity × Commitment
+    → §2.4 nối formula vào: competition trong domain → forced expansion
+    → Speciation analogy: cùng niche → cạnh tranh → niche split
+  Knowledge-Accumulation.md §3: baseline shift → old domain obsolete → new domain
+  Global-Melody.md §6: domain melody + center crowded → edge differentiation
   Macro-Civilization.md: civilization innovation patterns
   Chemical-Enhancement-Notes.md: chemicals help PROCESS chunks, nhưng chunks phải CÓ trước
 

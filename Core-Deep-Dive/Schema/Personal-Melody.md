@@ -308,7 +308,375 @@ MỖI NGƯỜI = 1 BÀI NHẠC RIÊNG (unique melody):
 
 ---
 
-## 6. Creative Melody — Cách Sáng Tạo
+## 6. Two-Axis Tension — Body-Base vs Domain
+
+```
+🟡 Schema bị kéo bởi 2 LỰC đối nhau — đây là động lực chính của mọi schema evolution:
+
+  LỰC 1 — BODY-BASE PULL (hướng NỘI, muốn SMOOTH):
+    → Body muốn melody hiện tại SMOOTH, comfortable, harmony
+    → Mỗi chunk mới body chưa quen → dissonance → cortisol nhẹ → "KHÓ CHỊU"
+    → Body-base = BẢO THỦ — muốn giữ cái đã quen, đã hay, đã compiled
+    → = "Khán giả trong người bạn muốn nghe BÀI CŨ hay"
+    → = Lý do "comfort zone" tồn tại: body ĐÃ CÓ melody smooth → tại sao phải đổi?
+
+  LỰC 2 — DOMAIN PULL (hướng NGOẠI, đòi ADAPT):
+    → Domain reality KHÔNG CARE melody bạn có smooth không
+    → Domain ĐỨNG IM — physics đúng là đúng, market cần là cần, xã hội đòi là đòi
+    → Muốn map vào domain tốt hơn → PHẢI nạp chunks mà body CHƯA thích
+    → = "Sân khấu đòi bài MỚI — khán giả cũ trong người bạn chưa quen"
+    → = Lý do phải HỌC, phải LUYỆN, phải CHỊU KHÓ: domain không đợi bạn sẵn sàng
+
+  TENSION = 2 lực KÉO NGƯỢC:
+    → Body-base: "giữ nguyên đi, ĐANG HAY"
+    → Domain: "thế giới đòi BÀI KHÁC, bạn phải shift"
+    → = MỌI NGƯỜI sống trong tension này SUỐT ĐỜI
+    → = Đây là BÌNH THƯỜNG — không phải lỗi, mà là ĐỘNG LỰC tiến hóa schema
+
+  ⭐ "PASSION" = khi 2 LỰC CÙNG HƯỚNG:
+    → Personal melody VỪA smooth (body thích) VỪA map domain đẹp (domain accept)
+    → = "Tôi THÍCH làm cái mà thế giới CŨNG CẦN"
+    → = Hiếm → nên khi tìm được = cực kỳ quý giá
+    → (xem §1: personal melody × domain melody match)
+```
+
+### 6.1 Investment Cost — Tại Sao Phải Chấp Nhận Khó Chịu
+
+```
+🟡 Nạp chunk mới = INVESTMENT — có chi phí tức thời, lãi về sau:
+
+  1 CHUNK ĐƠN LẺ = có thể PHÁ melody hiện tại:
+    → Giống thêm 1 nốt lạ vào giữa bài → nghe CHỐI
+    → Body: "cái gì vậy? KHÔNG HAY" → cortisol → muốn BỎ
+    → = Học ngày đầu tiên: 1 concept mới → chưa liên kết gì → "không hiểu" → khó chịu
+
+  CHUỖI CHUNKS ĐỦ LỚN = TỰ TẠO melody mới bên trong:
+    → Giống thêm cả đoạn E1-G1-F2-D1 đúng chỗ → thành HIGHLIGHT cả bài
+    → Mỗi chunk đơn lẻ nghe CHỐI → nhưng đủ chuỗi → chúng LIÊN KẾT nhau
+    → Chuỗi tự tạo pattern → body bắt đầu nghe ra melody → "à! HAY!"
+    → = "Aha moment" = chunks vừa đủ → melody MỚI emerge → body accept
+
+  INVESTMENT COST = khoảng GIỮA "bắt đầu nạp" và "aha moment":
+    → Có thể VÀI PHÚT (chunk đơn giản, gần melody hiện tại)
+    → Có thể VÀI GIỜ (skill mới, cần nhiều chunks liên kết)
+    → Có thể VÀI THÁNG (domain mới, cần hệ thống chunks hoàn chỉnh)
+    → Có thể VÀI NĂM (chuyên gia, cần thousands of chunks compiled)
+    → = Trong khoảng này: body KHÓ CHỊU liên tục → nhiều người BỎ → "không phải nghề của tôi"
+
+  NHƯNG nếu vượt qua:
+    → Chunks đủ → melody mới EMERGE → body: "hay hơn melody CŨ!"
+    → Schema MỚI map domain TỐT HƠN → vị trí domain NÂNG
+    → Investment HOÀN VỐN → và melody mới trở thành base MỚI
+    → = "Khổ luyện thành tài" = investment cost → melody upgrade → domain map tốt hơn
+
+  → Mọi người buộc phải XÂY melody chạy hay nhất trên hardware CỦA MÌNH
+  → VÀ map đẹp nhất vào domain tốt nhất CÓ THỂ VỚI TỚI
+  → = 2 mục tiêu ĐỒNG THỜI: smooth bên trong + fit bên ngoài
+  → = Schema cứ phải vừa "chơi hay" vừa "nâng cấp" — đôi khi mâu thuẫn
+```
+
+### 6.2 Einstein — Ví Dụ Two-Axis Tension
+
+```
+🟡 EINSTEIN qua lens two-axis tension:
+
+  HARDWARE riêng:
+    → Spatial-visual dominant cực mạnh
+    → Nói chậm (verbal develop muộn)
+    → Start melody: RẤT KHÁC center xã hội
+
+  BODY-BASE SMOOTH (có, nhưng GIỚI HẠN):
+    → Mẹ (Pauline): chơi piano → melody phù hợp → body Albert smooth khi ở cùng
+    → Chú (Jakob): chơi toán như puzzle → melody phù hợp → body smooth
+    → = Body-base CÓ harmony — nhưng CHỈ với 2 người cụ thể
+
+  DOMAIN PULL (khắc nghiệt):
+    → Academic melody: thuộc lòng, kỷ luật, lặp → KHÔNG match Albert
+    → Bạn bè: social melody → Albert khó sync → body dissonance
+    → = Domain đòi melody mà hardware Albert KHÔNG chạy smooth
+
+  BUỘC PHẢI NẠP CHUNKS KHÓ CHỊU:
+    → Mẹ + chú không chơi với ông mãi → phải ra ngoài
+    → Ra ngoài = nạp chunks academic, social mà body CHƯA thích
+    → = Investment cost: dissonance KÉO DÀI nhiều năm
+    → Nhiều người cùng hardware → BỎ CUỘC ở bước này
+
+  CHUNKS TÍCH LŨY ĐỦ LỚN:
+    → Math chunks + physics chunks + spatial chunks → DẦN DẦN liên kết
+    → Vô thức compile → melody physics RIÊNG hình thành
+    → Melody này: match hardware Albert (spatial) + match domain physics (reality)
+    → = 2 lực CÙNG HƯỚNG lần đầu → Novelty kéo dài → Flow
+
+  OUTPUT = E=mc²:
+    → Melody smooth VỚI CHÍNH ÔNG (body-base: "đây là bài CỦA TÔI")
+    → Melody map ĐÚNG domain physics (reality: test = đúng)
+    → Thế giới buộc accept output vì domain reality confirm
+    → Mọi người tôn trọng melody của ông → ông có domain position
+    → = Two-axis tension GIẢI → passion = body smooth + domain fit
+
+  ⚠️ NOTE:
+    → Einstein KHÔNG thể skip investment cost
+    → ÔNG CŨNG phải nạp chunks khó chịu (academic, social, isolation)
+    → Sự khác biệt: hardware ông → melody ông KHÁC → output KHÁC
+    → KHÔNG phải "thiên tài = không cần khổ" → mà "thiên tài = khổ KHÁC + output KHÁC"
+```
+
+### 6.3 Imagine Final — Compass Của Melody
+
+```
+⭐ Tại sao CẦN imagine final — không chỉ per-task mà PER-LIFE:
+
+  Mọi hành động có chủ đích ĐỀU bắt đầu bằng hình dung về đích.
+  Imagine final = PFC simulate trạng thái SAU KHI chunks merge xong
+    → Body preview reward → "MUỐN tới đó" → chịu dissonance để tiến tới.
+
+  Imagine final KHÔNG CHỈ là bridge cho 1 task.
+  Imagine final = COMPASS tổ chức toàn bộ melody:
+
+    CÓ compass → melody BUILD CÓ HƯỚNG:
+      → Mỗi arc nhỏ HƯỚNG VỀ 1 phía → chunks TÍCH LŨY có ý nghĩa
+      → Dissonance hàng ngày CÓ MỤC ĐÍCH ("khổ để tiến tới đích")
+      → Thủ lĩnh: thắng trận → imagine lớn hơn → thắng tiếp → thành vua
+        (imagine final TIẾN HÓA: "thắng trận" → "thống nhất" → "đế chế")
+      → = Mỗi mốc → imagine final UPDATE, RÕ hơn, LỚN hơn
+
+    KHÔNG CÓ compass → melody TRÔI:
+      → "Đi làm vì ai cũng thế" = SOCIAL bridge thay cho imagine final
+      → "Cưới vì ai cũng thế" = SOCIAL bridge thay cho imagine final
+      → = Chunks nạp theo KHUÔN MẪU XÃ HỘI, không theo melody CÁ NHÂN
+      → = "Sống đời người khác" — nạp chunks cho melody NGƯỜI KHÁC
+      → Khi khuôn mẫu MẤT: "mình đang làm gì?" → melody rỗng
+      → = Quarter-life crisis, midlife crisis = melody không có compass RIÊNG
+
+    Compass SAI → melody build về phía SAI:
+      → "Muốn giàu" → có tiền → body KHÔNG harmony → "thành công mà trống rỗng"
+        (imagine final "giàu" ≠ body-base thực sự cần: connection, meaning)
+      → "Con phải làm bác sĩ" → imagine final CỦA BỐ MẸ, không phải con
+        → Chunks có, body association xấu → "giỏi nhưng ghét"
+
+
+  3 MỨC compass:
+    ① Per-task: "xong bài tập" → compass ngắn hạn (ai cũng có)
+    ② Per-domain: "thành expert" → compass trung hạn (nhiều người có)
+    ③ Per-life: "cuộc sống tôi MUỐN sống" → compass dài hạn (ÍT người rõ)
+    → KHÔNG CÓ ③ → ① và ② chạy nhưng KHÔNG NỐI thành melody thống nhất
+    → = "Bận rộn mà không đi đâu" = nhiều arc nhỏ, không có hướng lớn
+
+
+  TẠI SAO "biết mình muốn gì" KHÓ:
+    → Body-Satisfaction → PFC KHÔNG BIẾT (Core-v7.5 §5)
+    → Xã hội inject imagine final LIÊN TỤC ("phải giàu, đẹp, thành công")
+    → Social signal = TO, RÕ (nhiều người reinforce, media amplify)
+    → Body signal = NHỎ, MỜ (body nói KHÔNG bằng lời, chỉ bằng cảm giác)
+    → PFC nghe XÃ HỘI to hơn BODY → chọn compass CỦA XÃ HỘI
+
+  CÁCH TÌM compass ĐÚNG — lắng nghe 3 body signals:
+    → Body-Reward fire khi làm gì? → ĐÓ là HƯỚNG imagine final
+    → Body-Dissonance từ MEANINGLESS? → compass THIẾU hoặc SAI
+    → Body-Satisfaction sau khi xong gì? → ĐÓ là final harmony THẬT
+    → = Meditation, journaling, therapy, mentor = giảm noise xã hội → body signal RÕ hơn
+    → = Không phải "tìm đam mê" (quá cao siêu) → mà "lắng nghe body khi nào reward"
+```
+
+### 6.4 Motivation Bridge — Cái Gì Giữ Bạn Qua Investment Cost
+
+```
+🟡 Trong khoảng investment cost, body nói "KHÓ CHỊU, DỪNG ĐI".
+   Chunks chưa đủ để melody mới emerge.
+   CẦN 1 thứ gì đó MẠNH HƠN dissonance → giữ lại đủ lâu.
+   = MOTIVATION BRIDGE — cầu nối tạm qua khoảng khó chịu.
+
+  5 LOẠI BRIDGE — xếp theo sức mạnh tăng dần:
+
+    ① Curiosity (micro-novelty từ chunks gần melody hiện tại):
+       → VTA fire nhẹ từ mỗi chunk mới → "ồ cái này hay" → tiếp
+       → CHỈ HOẠT ĐỘNG khi chunks MỚI gần melody CŨ (shift nhỏ)
+       → Investment xa → VTA không fire đủ → curiosity TẮT
+       → = Yếu nhất, nhưng LÀ MẠC (lành mạnh nhất, tự duy trì)
+
+    ② External reward (carrot):
+       → "Học xong cho kẹo", "xong project → bonus", "đạt A → quà"
+       → Anticipated opioid/dopamine > cortisol dissonance → TIẾP TỤC
+       → Hiệu quả cho investment NGẮN (vài ngày → vài tuần)
+       → DÀI QUÁ → carrot mất novelty → VTA adapt → không còn drive
+
+    ③ Identity schema:
+       → "Tôi LÀ người không bỏ cuộc" → compiled belief
+       → Muốn dừng → identity conflict → cortisol NỘI → "phải tiếp"
+       → = Tự tạo threat từ identity (mất identity = threat)
+       → Mạnh hơn carrot vì: compiled, tự chạy, không cần external
+
+    ④ Social schema (oxytocin-backed):
+       → "Team tôi phụ thuộc vào tôi", "bố mẹ kỳ vọng"
+       → Bỏ = phản bội connection → cortisol xã hội → "phải tiếp"
+       → Rất mạnh (L2 connection = deep drive)
+       → Nhưng: nếu quá nặng → guilt-driven → burnout
+
+    ⑤ Threat schema (cortisol trực tiếp):
+       → "Nếu không tiến → đối thủ nuốt", "không học → mất việc"
+       → Cortisol từ threat > cortisol từ dissonance → TIẾP TỤC
+       → Mạnh nhất vì: cortisol = survival priority, brain xử lý TRƯỚC pleasure
+       → Nhưng: đắt nhất (cortisol mãn tính → health cost)
+       → (xem Novelty-Loop.md §3.2: threat = sàn giữ loop)
+
+  ⭐ SCALING LAW — investment lớn hơn → bridge MẠNH hơn:
+
+    ┌──────────────────┬──────────────────┬──────────────────────────┐
+    │ Investment cost   │ Thời gian        │ Bridge cần               │
+    ├──────────────────┼──────────────────┼──────────────────────────┤
+    │ Rất nhỏ          │ phút → giờ       │ Curiosity đủ             │
+    │ Nhỏ              │ ngày → tuần      │ Carrot (kẹo, lời khen)   │
+    │ Trung bình       │ tháng            │ Identity + Social         │
+    │ Lớn              │ năm              │ Threat schema cần thiết   │
+    │ Rất lớn          │ nhiều năm        │ Threat + Identity + Social│
+    └──────────────────┴──────────────────┴──────────────────────────┘
+
+    → CEO tập đoàn: investment CỰC LỚN → tự tạo threat L3 (bật/tắt được)
+       (xem Novelty-Loop.md §4: Self-Created Threat Drive)
+    → Đứa trẻ học đếm: investment NHỎ → carrot (kẹo) đủ
+    → Sinh viên ngành mới: TRUNG BÌNH → identity + social + deadline
+
+  ⭐ RÚT BRIDGE KHI ĐỦ — nguyên tắc quan trọng nhất:
+
+    Khi chunks tích lũy ĐỦ → melody mới EMERGE → body tự thưởng (intrinsic)
+    → LÚC NÀY: rút bridge NGAY
+    → Cho carrot tiếp = LẠM PHÁT (carrot mất giá trị, VTA adapt)
+    → Giữ threat tiếp = CORTISOL THỪA (body đã có melody mới, threat không cần)
+    → Giữ social pressure tiếp = PHỤ THUỘC (không phát triển intrinsic drive)
+
+    DẤU HIỆU "chunks đã đủ" — khi nào rút bridge:
+    → Body BẮT ĐẦU enjoy process (opioid tự fire khi làm)
+    → Tự làm KHÔNG CẦN nhắc (schema bắt đầu compiled)
+    → "Aha moment" xuất hiện (chunks liên kết thành pattern)
+    → Tự TÌM thêm (novelty drive TỰ bật — VTA fire từ task, không từ carrot)
+
+    = Mục tiêu tối ưu: BRIDGE NHỎ NHẤT có thể → đợi intrinsic take over → rút
+
+  ⚠️ HARDWARE-DEPENDENT — mỗi người cần bridge KHÁC:
+
+    → Hardware respond nhanh với novelty (DRD4 cao?) → curiosity bridge đủ lâu hơn
+    → Hardware respond chậm → cần carrot/social mạnh hơn, lâu hơn
+    → Somatic-dominant → body reward khi "cảm nhận" được chunks → bridge ngắn hơn cho skill vật lý
+    → Verbal-dominant → cần "hiểu bằng lời" trước khi body accept → bridge dài hơn cho skill trừu tượng
+    → = KHÔNG CÓ 1 công thức bridge cho tất cả mọi người
+    → = Cần ƯỚC LƯỢNG hardware + investment cost → chọn bridge phù hợp
+    → (ứng dụng giáo dục: xem Education-Bridge.md)
+```
+
+---
+
+### 6.5 Melody Drop — Khi Schema Bị Kéo Xuống
+
+```
+🟡 Melody KHÔNG CHỈ đi lên — cũng có thể DROP:
+
+  NGUYÊN NHÂN DROP:
+    → Bệnh tật: hardware bị hỏng → melody chạy trên hardware yếu hơn → body-base shift xấu
+    → Tiêu cực xã hội: bị bắt nạt, phản bội, mất việc → chunks tiêu cực nạp VÀO
+    → Mất môi trường: mẹ/chú Einstein "biến mất" → nguồn harmony BỊ CẮT
+    → Stress kéo dài: cortisol baseline CAO → body-base đánh giá MỌI THỨ = "dở"
+    → Trauma: nốt chói xen vào → phá melody đang smooth (xem §5)
+
+  MECHANISM:
+    → Drop = chunks tiêu cực CHIA CẮT melody hiện tại
+    → Giống: ai đó XÓA vài nốt quan trọng khỏi bài → bài mất mạch
+    → HOẶC: THÊM nốt chói mà body không thể ignore → melody bị dominate
+    → Body-base: "melody này DỞ" → cortisol → motivation DROP → nạp chunk càng khó
+
+  RECOVERY = rebuild melody:
+    → KHÔNG "quay về bài cũ" (chunks mới ĐÃ có, không xóa được)
+    → MÀ: viết bài MỚI có chứa chunks cũ + chunks khó chịu + chunks phục hồi
+    → = Melody sau drop KHÁC melody trước drop — nhưng có thể HAY HƠN
+    → = "Người trải qua khó khăn → bài nhạc PHỨC TẠP hơn → nếu rebuild được → SÂU hơn"
+    → (chi tiết: Mismatch-Patterns/Trauma-Recovery.md)
+
+  → NHÌN CHUNG: xu hướng là NÂNG (vì body + domain ĐỀU thưởng cho upgrade)
+  → Nhưng drop LUÔN CÓ THỂ xảy ra → không ai miễn nhiễm
+  → Khác biệt: hardware + base chunks + support system → quyết định recovery speed
+```
+
+---
+
+### 6.6 Predict Melody Người Khác — Tại Sao Hiểu Và Không Hiểu
+
+```
+🟡 "Hiểu ai đó" = SIMULATE melody CỦA HỌ bằng melody CỦA MÌNH:
+
+  MỖI NGƯỜI = melody RIÊNG (§1) → predict người khác = so sánh melody:
+    → Melody TÔI overlap melody HỌ ở đâu → predict ĐÚNG ở đó
+    → Melody TÔI KHÁC melody HỌ ở đâu → predict SAI ở đó
+    → = "Empathy" = KHÔNG phải kỹ năng riêng → là OVERLAP giữa 2 melodies
+
+  3 LỚP OVERLAP (từ rộng đến hẹp):
+
+    ① Species overlap (~70-90%): cùng loài → body-base GẦN GIỐNG
+       → Đói = Body-Dissonance (ai cũng vậy)
+       → Mất người thân = buồn (ai cũng vậy)
+       → = "Đồng cảm cơ bản" — không cần BIẾT gì về người đó
+       → = Tầng này GẦN NHƯ miễn phí → ai cũng có
+
+    ② Culture overlap (0-80%): shared domain → chunks CHUNG
+       → Cùng VN: chunk [mất mặt] compiled GIỐNG → predict "đau" = ĐÚNG
+       → Cùng dev: chunk [deadline] compiled GIỐNG → predict "stress" = ĐÚNG
+       → KHÁC culture: chunk THIẾU → predict mặc định = projection CỦA MÌNH
+       → = "Hiểu người cùng giới" — miễn phí nếu cùng culture, COSTLY nếu khác
+
+    ③ Personal overlap (0-90%): thời gian × attention → chunks VỀ NGƯỜI ĐÓ
+       → 10 năm sống cùng → chunks NHIỀU → simulate CHI TIẾT
+       → Giống §8.7 expertise (Schema-Operations.md): chunks NHIỀU → evaluate DETAILED
+       → = "Hiểu sâu" = CHUYÊN GIA về người đó — phải ĐẦU TƯ thời gian
+
+  TẠI SAO NÔNG vs SÂU:
+
+    NÔNG = predict HÀNH VI (surface melody):
+      → "Biết em sẽ cáu khi X" = chunk [X → cáu] compiled từ observation
+      → KHÔNG cần hiểu tại sao → pattern matching thuần
+      → Vợ chồng 30 năm có thể NÔNG cực cao + SÂU thấp:
+        "Biết sẽ cáu nhưng KHÔNG hiểu tại sao"
+
+    SÂU = predict MELODY (body-base + compiled schema + TẠI SAO):
+      → "Biết em cáu VÌ em sợ bị bỏ rơi" = hiểu ROOT (deep schema)
+      → CẦN chunks về NGUYÊN NHÂN: childhood, hardware, deep compiled schema
+      → CẦN tạm gác melody MÌNH → dùng model ĐÃ BUILD về họ
+      → = Therapist / bạn thân SÂU: predict melody, không chỉ hành vi
+
+
+⭐ NGƯỜI KHÁC THẤY MELODY BẠN RÕ HƠN BẠN:
+
+  PARADOX: PFC chủ nhân KHÔNG thấy melody chính mình rõ.
+
+  TẠI SAO:
+    → Schema compiled SÂU = vô thức chạy → PFC KHÔNG observe
+    → PFC evaluate mình = dùng melody CỦA MÌNH đo melody CỦA MÌNH
+    → = Thước CONG đo xem thước có cong không → luôn nói "thẳng!"
+
+  OBSERVER thấy rõ hơn vì:
+    → KHÔNG bị schema CỦA BẠN filter
+    → Bạn = 1 "input" → observer evaluate bạn (dùng chunks CỦA HỌ)
+    → Pattern LẶP LẠI mà bạn không thấy → observer THẤY
+      VD: "Bạn hay tự sabotage khi gần thành công"
+      VD: "Em luôn chọn người giống bố"
+
+  GIÁ TRỊ NGƯỜI KHÁC = "GƯƠNG":
+    → Cho bạn chunks VỀ CHÍNH BẠN mà PFC bạn không tự build
+    → Chunks mới về mình → PFC observe → body re-evaluate → melody CÓ THỂ shift
+    → = Therapy / coaching / bạn thân thẳng tính = external melody check
+    → = "Bạn không thấy mặt mình nếu không có gương"
+
+
+  "JUDGEMENTAL" = ĐÓNG GAP NHANH thay vì HIỂU:
+    → Gặp người KHÁC melody → information gap → Body-Dissonance nhẹ
+    → 2 phản ứng:
+      ① Tò mò → tìm thêm chunks → LEARN melody họ → hiểu SÂU dần
+      ② Label → "người kỳ lạ" / "người xấu" → ĐÓNG gap bằng schema sẵn
+    → Label = close gap NHANH → giảm Body-Dissonance → nhưng predict NÔNG mãi
+    → = "Phán xét = lười hiểu" — dùng melody MÌNH áp lên melody HỌ
+    → = Diversity problem: melody KHÁC = TỐT cho domain nhưng KHÓCHỊU cho body-base
+```
+
+---
+
+## 7. Creative Melody — Cách Sáng Tạo
 
 ```
 🟡 Sáng tạo = VIẾT đoạn melody MỚI:
@@ -348,7 +716,7 @@ MỖI NGƯỜI = 1 BÀI NHẠC RIÊNG (unique melody):
 
 ---
 
-## 7. Nghe Nhạc × Làm Việc — Ứng Dụng
+## 8. Nghe Nhạc × Làm Việc — Ứng Dụng
 
 ```
 🟡 Nhạc ẢNH HƯỞNG melody PFC thế nào:
@@ -396,7 +764,7 @@ MỖI NGƯỜI = 1 BÀI NHẠC RIÊNG (unique melody):
 
 ---
 
-## 8. Honest Assessment
+## 9. Honest Assessment
 
 ```
   ĐÃ CÓ research support:
@@ -411,6 +779,32 @@ MỖI NGƯỜI = 1 BÀI NHẠC RIÊNG (unique melody):
     🟡 "Gu = personal melody match" — logic consistent, chưa test
     🟡 "Trauma = nốt chói" — metaphor, cơ chế thật phức tạp hơn
     🟡 "Creative = remix chunks" — consistent với creativity research, chưa proven 1-1
+    🟡 "Two-axis tension" (body-base vs domain) — logic consistent, maps tốt vào
+        comfort zone research + deliberate practice literature (Ericsson)
+    🟡 "Investment cost" (chunk accumulation → aha moment) — consistent với
+        learning curve research + insight problem-solving literature
+    🟡 "Passion = 2 lực cùng hướng" — maps vào self-determination theory
+        (intrinsic motivation = competence + autonomy + relatedness)
+    🟡 "Motivation Bridge scaling" — consistent với: overjustification effect
+        (Deci 1971: external reward → giảm intrinsic motivation khi rút),
+        Yerkes-Dodson (optimal arousal), deliberate practice (Ericsson 1993)
+    🟡 "Rút bridge khi đủ" — maps vào scaffolding theory (Vygotsky ZPD):
+        hỗ trợ tạm → rút dần khi tự làm được → independent
+    🟡 "Predict melody người khác = overlap giữa 2 melodies" — consistent với
+        simulation theory of mind (Goldman 2006) + shared representations (Gallese 2005)
+    🟡 "Observer thấy melody rõ hơn chủ nhân" — consistent với blind spot bias
+        (Pronin 2002) + self-serving bias literature
+    🟡 "Judgemental = đóng gap nhanh thay vì hiểu" — consistent với
+        stereotyping as cognitive shortcut (Fiske & Taylor 1991)
+    🟡 "Imagine final = compass tổ chức melody" — consistent với goal-setting theory
+        (Locke & Latham 1990), prospection (Seligman 2013: humans are driven by
+        future simulation), purpose/meaning literature (Frankl, Deci & Ryan SDT)
+    🟡 "Không có compass → melody trôi → crisis" — consistent với existential psychology
+        (Frankl: meaning vacuum → neurosis), identity crisis (Erikson stages)
+    🟡 "Compass sai → thành công mà trống rỗng" — consistent với hedonic treadmill
+        (Brickman & Campbell 1971) + extrinsic goal pursuit literature
+    🟡 "Tìm compass bằng lắng nghe body" — consistent với somatic marker hypothesis
+        (Damasio 1994) + mindfulness-based interventions (Kabat-Zinn)
 
   Melody = METAPHOR:
     → GIÚP hình dung cách schema hoạt động, pha trộn, thay đổi
@@ -422,7 +816,7 @@ MỖI NGƯỜI = 1 BÀI NHẠC RIÊNG (unique melody):
 
 ---
 
-## 9. Kết Nối
+## 10. Kết Nối
 
 ```
 → Global-Melody.md: personal melody → group → culture → global
@@ -436,6 +830,19 @@ MỖI NGƯỜI = 1 BÀI NHẠC RIÊNG (unique melody):
 → Novelty-Loop.md: loop sáng tạo
 → Change-Readiness.md: Change-Readiness (key/tone melody)
 → Mismatch-Patterns/Trauma-Recovery.md: trauma = nốt chói
+→ Schema-Atlas-v2.md §6: Schema × Domain (base → shift → check loop)
+→ Knowledge-Accumulation.md: chunk tích lũy → compile → aha moment
+→ Innovation-Geography.md: domain position + competition-driven expansion
+→ Novelty-Loop.md §3.2: threat = sàn giữ loop (motivation bridge mechanism)
+→ Novelty-Loop.md §4: Self-Created Threat Drive (CEO bật/tắt)
+→ Threat-Drive-Analysis.md §12: threat-drive tốt khi nào (investment bridge use case)
+→ Schema-Operations.md §8.9: simulate người khác — cơ chế + accuracy formula
+→ PFC-Analysis.md §2.2.1: mPFC × Theory of Mind — hardware + social cognition
+→ Relationships.md §4: "hiểu nhau" 4 sub-params (predict, connect, model, mature)
+→ Relationships.md §5: convergence = shared foundation chunks → "nói gì cũng hay"
+→ Melody-Arc.md: tối ưu hóa arc + imagine final = organizing principle of melody
+→ Imagine-Final-Gradient.md: 14 ngưỡng imagine final — từ Wish đến Obsession
+→ Core-v7.5-Draft.md §5: Body-Satisfaction, Body-Reward, Body-Dissonance (3 signals → tìm compass)
 ```
 
 ---

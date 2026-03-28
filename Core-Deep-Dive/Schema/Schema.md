@@ -68,6 +68,39 @@ DEFINE:
     → Vô thức: experience trực tiếp → neurons fire → chunk TỰ HÌNH THÀNH
     → PFC: imagine → draft → body check → chunk ĐƯỢC TẠO có chủ đích
     → Cả 2 đều tạo chunks → khác ở TỐC ĐỘ và CHẤT LƯỢNG
+
+  → (Chi tiết chunk mechanism: Chunk-And-PFC.md — compile, decay, search, hierarchy)
+
+
+  ⭐ SCHEMA = CHUNKS + LINKS + PURPOSE:
+
+    CHUNK = atom (1 đơn vị, không có purpose riêng)
+    SCHEMA = molecule (nhiều atoms linked → có FUNCTION)
+
+    → Chunk [đạp phanh] = 1 unit, không có purpose riêng
+    → Schema [lái xe] = MẠNG chunks linked → PURPOSE: di chuyển an toàn
+    → = Schema KHÁC chunk ở: có PURPOSE — chunks chỉ là NGUYÊN LIỆU
+
+    3 TRẠNG THÁI schema:
+
+      COMPILED (vô thức, auto-run):
+        → Chuỗi chunks fire TỰ ĐỘNG khi trigger match
+        → PFC KHÔNG tham gia — giống "macro" tự chạy
+        → VD: thấy chó → schema [threat-chó] auto-run → chạy
+        → VD: cầm cốc → schema [uống nước] auto-run → uống
+        → = PHẦN LỚN hành vi hàng ngày = compiled schemas
+
+      ACTIVE (PFC đang dùng):
+        → PFC hold chunks TỪ schema → search TRONG / GIỮA schemas
+        → VD: PFC hold [stickman]+[combat] → search trong schema [game design]
+        → VD: PFC hold [ý nghĩa]+[cuộc đời] → search across nhiều schemas
+        → = "Suy nghĩ" = PFC ĐANG DÙNG schema, không phải schema tự chạy
+
+      MONITOR (nền, luôn chạy nhẹ):
+        → Schema chạy BACKGROUND → chỉ alert PFC khi detect mismatch
+        → VD: schema [con tôi an toàn?] chạy nền → con khóc → VTA alert PFC
+        → VD: schema [deadline] chạy nền → gần hạn → VTA alert PFC
+        → = Schema-Operations.md §7: always-on monitors
 ```
 
 ### 1.2 Schema KHÔNG THỂ Phân Tích Chính Xác
@@ -563,6 +596,12 @@ Schema KHÔNG dừng bằng 1 cơ chế duy nhất — có 3 loại signal KHÁC
   → = "Khẩu vị thay đổi" = base ĐÃ shift qua nhiều năm ăn + check
   → = Đây là ATTRACTOR PATTERN: "stable base + incremental shift + feedback check"
   → = Bất kỳ hệ thống nào có constraint "thích ứng + ổn định" → TỤ VỀ pattern này
+
+  ⭐ TWO-AXIS TENSION (xem Personal-Melody.md §6):
+  → Body-base PULL: muốn giữ melody smooth, comfortable → BẢO THỦ
+  → Domain PULL: đòi adapt, nạp chunks mới → ĐÒI HỎI
+  → = Schema luôn bị KÉO giữa "chơi hay" (body) và "nâng cấp" (domain)
+  → = Investment cost: chấp nhận dissonance tạm → chunks đủ → melody mới emerge
 ```
 
 ---

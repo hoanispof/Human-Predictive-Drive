@@ -790,6 +790,146 @@ PFC = SPOTLIGHT quay liên tục trên gradient schemas:
 
 ---
 
+## 8.9 Simulate Người Khác — Theory of Mind Qua Schema
+
+```
+⭐ "Hiểu người khác" = PFC simulate BẰNG chunks CỦA MÌNH:
+
+  CƠ CHẾ (cùng §8 MODE 1 — không có hệ thống riêng):
+    PFC: "sếp sẽ react thế nào nếu tôi nói X?"
+    → PFC kích hoạt chunks [sếp] + chunks [tình huống X]
+    → CÙNG pathway thật fire: emotional (amygdala), visual (mặt sếp), somatic (body response)
+    → Body simulate: "feel" reaction CỦA SẾP → nhưng dùng ĐƯỜNG DÂY CỦA TÔI
+    → = "Tôi simulate PHIÊN BẢN TÔI đóng vai sếp" ≠ "simulate SẾP"
+
+  → GỐC RỄ GIỚI HẠN:
+    ① Hardware KHÁC: DRD4, cortisol baseline, modality dominance — tôi và sếp KHÁC
+    ② Compiled schema KHÁC: trải nghiệm khác → chunk association KHÁC
+    ③ Body-base KHÁC: body-need states khác → melody KHÁC
+    ④ §8.5 áp dụng: "KHÔNG THỂ imagine cái CHƯA TỪNG experience"
+       → Tôi CHƯA experience being sếp → simulate sếp = REMIX chunks CỦA TÔI về sếp
+    → = Simulate người khác LUÔN bị filter qua schema CỦA MÌNH
+
+
+⭐ TẠI SAO CÓ THỂ PREDICT ĐÚNG (một phần):
+
+  OVERLAP SPECIES — body-base CHUNG ~70-90%:
+    → Đói = Body-Dissonance (ai cũng vậy — cùng loài)
+    → Bị đánh = đau (ai cũng vậy — cùng nociception)
+    → Mất người thân = buồn (ai cũng vậy — connection need)
+    → = Body-base GIỐNG → simulate body response CỦA MÌNH ≈ body response CỦA HỌ
+    → = "Đồng cảm cơ bản" = predict body-level reactions = CHÍNH XÁC CAO
+
+  OVERLAP CULTURE — shared domain chunks:
+    → Cùng VN → chunk [mất mặt] compiled GIỐNG → predict "mất mặt = đau" = ĐÚNG
+    → Cùng dev → chunk [deadline dí] compiled GIỐNG → predict "stress" = ĐÚNG
+    → KHÁC culture → chunk THIẾU → predict SAI
+      (VD: người VN predict người Nhật → thiếu chunk [nemawashi] → hiểu sai quy trình)
+
+  OVERLAP CÁ NHÂN — thời gian × depth:
+    → Sống cùng 10 năm → tích lũy NHIỀU chunks về người đó
+    → Chunks NHIỀU → body evaluate CHI TIẾT hơn (giống §8.7 expertise)
+    → = "Hiểu ai đó SÂU" = tích lũy ĐỦ chunks → simulate người đó CHÍNH XÁC hơn
+    → = "Người lạ" = ÍT chunks → simulate = default CULTURE chunks + SPECIES overlap
+
+
+  ACCURACY FORMULA (conceptual):
+
+    predict_accuracy(A→B) ≈ species_overlap
+                            + culture_overlap(A, B)
+                            + personal_chunks(A về B) × chunk_quality
+                            − hardware_delta(A, B)
+                            − schema_depth_mismatch(A, B)
+
+    → Species overlap: CAO, gần constant (~70-90% body-level)
+    → Culture overlap: tùy shared domain (0-80%)
+    → Personal chunks: tùy thời gian + attention (0-90%)
+    → Hardware delta: NE BIẾT ĐƯỢC → source of SYSTEMATIC ERROR
+    → Schema depth mismatch: compiled sâu nhất = khó predict nhất
+
+
+⭐ NÔNG vs SÂU — 2 mức predict KHÁC NHAU:
+
+  NÔNG — predict HÀNH VI (surface schema):
+    → Cơ chế: observation pattern matching
+    → "Thấy em cáu 10 lần khi X → predict lần 11 em cáu" = chunk quality cao
+    → KHÔNG cần hiểu TẠI SAO → chỉ cần chunks [X → cáu] compiled
+    → = Giống §8.7 "người nghe nhiều nhạc": predict bài hay/dở → KHÔNG biết vì sao
+    → Quan hệ lâu năm nhưng "không hiểu nhau" = nông cao, sâu thấp
+
+  SÂU — predict MELODY (body-base + compiled schema + tại sao):
+    → Cơ chế: simulate body-state CỦA HỌ (không phải body-state CỦA MÌNH)
+    → "Biết em cáu VÌ em sợ bị bỏ rơi" = connectivity cao (hiểu cơ chế)
+    → CẦN: chunks về NGUYÊN NHÂN (childhood, hardware, deep schema)
+    → CỰC KHÓ — vì phải TẠM GÁC schema mình → dùng model ĐÃ BUILD về họ
+    → = Giống §8.7 "đầu bếp": KHÔNG CHỈ "mặn" → mà "mặn VÌ X → fix BẰNG Y"
+    → Therapist/bạn thân GIỎi = predict sâu → "biết TẠI SAO" người đó phản ứng
+
+  KHÁC BIỆT THỰC TẾ:
+    Vợ chồng 30 năm: NÔNG cực cao (predict hành vi gần 100%)
+                      SÂU có thể THẤP ("biết sẽ cáu nhưng KHÔNG hiểu tại sao")
+    Therapist 6 tháng: NÔNG trung bình (gặp ít → ít observation)
+                       SÂU có thể CAO (trained simulate body-state người khác)
+
+
+⭐ NGƯỜI KHÁC BIẾT SCHEMA MÀ PFC CHỦ NHÂN KHÔNG BIẾT:
+
+  CƠ CHẾ:
+    → Schema compiled SÂU = chạy ở VÔ THỨC → PFC KHÔNG observe được
+    → PFC chỉ thấy ĐẦU RA (hành vi, cảm xúc surface)
+    → Observer BÊN NGOÀI: thấy PATTERN hành vi lặp lại → build chunks VỀ pattern đó
+    → = Observer có chunk MÀ chủ nhân KHÔNG CÓ
+
+  VÍ DỤ:
+    → "Bạn hay tự sabotage khi gần thành công"
+      Chủ nhân: schema [gần thành công → lo → tự phá] compiled SÂU → PFC KHÔNG THẤY
+      Bạn thân: THẤY pattern 5 lần → build chunk [A sabotage khi gần xong] → NÓI CHO A
+      = Bạn thân có chunk VỀ A mà PFC CỦA A chưa bao giờ build
+    → "Mày nói chuyện hay nhíu mày"
+      Chủ nhân: motor schema compiled → PFC KHÔNG monitor (auto)
+      Observer: visual pattern → build chunk → báo cho chủ nhân
+    → "Em luôn chọn người giống bố"
+      Chủ nhân: schema [partner selection] compiled từ childhood → PFC KHÔNG THẤY pattern
+      Therapist: THẤY pattern qua nhiều câu chuyện → build chunk → insight MỚI cho client
+
+  TẠI SAO OBSERVER THẤY MÀ CHỦ NHÂN KHÔNG:
+    ① PFC chỉ observe ĐẦU RA → schema compiled = hộp đen
+    ② Observer = "camera ngoài" — KHÔNG bị schema CỦA A filter
+    ③ Observer TÁCH được pattern vì: A = 1 "input" → observer evaluate A (giống §8.7)
+       Còn A evaluate CHÍNH MÌNH = self-referencing loop → BIAS cực mạnh
+    ④ Self-referencing bias: PFC evaluate mình = dùng schema CỦA MÌNH evaluate schema CỦA MÌNH
+       → Giống: dùng thước CONG đo xem thước có CONG không → luôn nói "thẳng!"
+
+  GIÁ TRỊ = CHO CHUNKS VỀ CHÍNH BẠN:
+    → Therapist / mentor / bạn thân: giá trị CHÍNH = external observer
+    → Cho bạn chunks VỀ CHÍNH BẠN mà PFC bạn không tự build được
+    → = "Gương" — bạn không thấy mặt mình nếu không có gương
+    → Chunks mới VỀ MÌNH → PFC observe → có thể BẮT ĐẦU modify schema
+    → = Therapy hiệu quả = therapist cho chunks → PFC observe → body re-evaluate → schema shift
+
+
+⭐ TÒ MÒ VỀ NGƯỜI KHÁC — drive state đặc biệt:
+
+  → Information gap VỀ NGƯỜI = Body-Dissonance nhẹ + Dopamine seeking
+  → "Người này NGHĨ GÌ?" = schema simulate → KHÔNG match → gap → muốn biết thêm
+  → Khi predict ĐÚNG: gap đóng → Body-Dissonance TẮT + Body-Reward → "À HA, understood!"
+  → Khi predict SAI: gap MỞ → Body-Dissonance TĂNG → 2 hướng:
+    ① Tò mò hơn → tìm thêm chunks → learn
+    ② Frustrated → label "người kỳ lạ" → DỪNG tìm hiểu (close gap bằng label)
+  → = "Judgemental" = dùng label ĐÓNG gap NHANH thay vì tích lũy chunks → predict NÔNG mãi
+
+
+  HARDWARE ẢNH HƯỞNG ToM:
+    → mPFC mạnh (PFC-Analysis.md §2.2): social cognition TỐT → predict người khác CHÍNH XÁC hơn
+    → Oxytocin sensitivity cao: social reward MẠNH → MUỐN hiểu người hơn → tích lũy chunks NHIỀU hơn
+    → DRD4 high: curiosity VỀ NGƯỜI cũng cao → information gap drive MẠNH
+    → Somatic-dominant: empathy SÂU hơn (body simulate MẠNH → feel người khác rõ hơn)
+    → Verbal-dominant: empathy NHẸ hơn (logic hiểu → nhưng body feel YẾU)
+    → = Hardware KHÔNG quyết định "tốt/xấu" → quyết định KÊNH nào predict mạnh nhất
+```
+
+---
+
 ## 9. Ví Dụ Tổng Hợp — Archimedes "EUREKA"
 
 ```
@@ -905,6 +1045,11 @@ TOÀN BỘ tiến trình "khát → uống" qua gradient:
     → Always-on monitors at 10-20% PFC: logical, chưa đo chính xác
     → Body reward TRONG LÚC schema (không chỉ khi xong): consistent, observation-based
     → DRD4 × gradient: Hypothesis D — chưa proven trực tiếp
+    → Simulate người khác = dùng chunks CỦA MÌNH: consistent với simulation theory
+      of mind (Goldman 2006) + shared neural representations (Gallese 2005)
+    → Accuracy ≈ overlap (species + culture + personal): logical, chưa formalize
+    → Observer advantage (thấy pattern chủ nhân không thấy): consistent với
+      blind spot bias (Pronin 2002) + self-serving bias literature
 
   METAPHOR (⚠️):
     → "Spotlight PFC": hữu ích nhưng PFC KHÔNG phải literal spotlight
@@ -926,6 +1071,9 @@ TOÀN BỘ tiến trình "khát → uống" qua gradient:
 → Novelty-Loop.md: vòng lặp khi schema CHƯA resolve
 → Change-Readiness.md: cortisol/NE → "năng lượng" cho gradient shift
 → Personal-Melody.md: schema tổng thể cá nhân = melody
+→ Personal-Melody.md §6.6: predict melody người khác — overlap + nông/sâu
+→ PFC-Analysis.md §2.2.1: mPFC × Theory of Mind hardware
+→ Relationships.md §4-5: "hiểu nhau" 4 sub-params + convergence
 → Why-Body-Knows.md: tại sao body check ĐÁNG TIN
 ```
 

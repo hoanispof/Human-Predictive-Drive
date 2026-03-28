@@ -215,7 +215,7 @@
     → Tránh xong threat A → Schema predict threat B
     → Threat B xong → Schema predict threat C
     → → KHÔNG CÓ "done" rõ ràng
-    → → Satisfaction Signal KHÓ fire (vì không có body-need FULFILLED)
+    → → Body-Satisfaction KHÓ fire (vì không có body-need FULFILLED)
     → → Chỉ có "threat tạm thời HẾT" → nhưng THREAT MỚI có thể xuất hiện
 
   → 3 drive kia: có ĐÍCH (nhận reward → done)
@@ -435,7 +435,7 @@
   └──────────────────────────────────────┘
 
   → Loop tự TĂNG CƯỜNG: lo → imagine threat → lo hơn → imagine hơn
-  → KHÔNG TỰ DỪNG (không có Satisfaction Signal — vì không có body-need fulfilled)
+  → KHÔNG TỰ DỪNG (không có Body-Satisfaction — vì không có body-need fulfilled)
   → Chỉ dừng khi:
     PFC bị exhaust (kiệt sức → sleep/crash)
     External interrupt (ai đó gọi, event khác distract)
@@ -469,12 +469,22 @@
      → KHÔNG loop (hành động giải quyết → threat giảm → cortisol giảm)
      → Threat → Action → Resolve → Done ✅
 
+  ④ Investment bridge: threat giữ qua giai đoạn "chưa đủ chunks"
+     → Học domain mới, build skill lớn → body nói "khó chịu, dừng đi"
+     → Threat VỪA ĐỦ: "nếu dừng → mất cơ hội/vị trí" → cortisol > dissonance → TIẾP
+     → Chunks tích lũy → melody mới emerge → intrinsic reward take over
+     → LÚC ĐÓ: RÚT threat → nhiệm vụ bridge XONG
+     → = Threat-Drive tốt nhất khi nó LÀ TẠM THỜI, KHÔNG phải mãn tính
+     → = CEO tự tạo threat L3 bật/tắt = dạng bridge kiểm soát được (Novelty-Loop §4)
+     → (chi tiết scaling law: Personal-Melody.md §6.4)
+
   ĐIỀU KIỆN để Threat-Drive LÀ TỐT:
     ✅ Threat CỤ THỂ (không abstract vô hạn)
     ✅ Có ENDPOINT rõ (deadline, mục tiêu cụ thể)
     ✅ Có ACTION giải quyết được (không helpless)
-    ✅ NGẮN HẠN (không mãn tính)
+    ✅ NGẮN HẠN hoặc BẬT/TẮT được (không mãn tính không kiểm soát)
     ✅ Cortisol VỪA ĐỦ (không quá cao)
+    ✅ RÚT KHI ĐỦ — khi intrinsic reward đã take over (§6.4 bridge principle)
     → = Pressure hợp lý trong Drive-Optimization.md §9
 ```
 
@@ -502,7 +512,7 @@
   ❌ Threat-Drive = drive DUY NHẤT (không có pull drives)
     → Toàn bộ cuộc sống = "phải"
     → Không có "muốn" → không có enjoy → burnout
-    → Satisfaction Signal gần như KHÔNG fire
+    → Body-Satisfaction gần như KHÔNG fire
     → Vì: tránh threat ≠ body-need fulfilled
 
   → = ĐÂY LÀ TRẠNG THÁI PHỔ BIẾN NHẤT CỦA CON NGƯỜI HIỆN ĐẠI
@@ -536,7 +546,7 @@ TD4: Ratio pull/push drive optimal là bao nhiêu?
     → Sweet spot? 70% pull + 30% push? → chưa ai biết
     → Có thể khác nhau mỗi người (hardware + schema)
 
-TD5: Tại sao Satisfaction Signal KHÓ fire cho Threat-Drive?
+TD5: Tại sao Body-Satisfaction KHÓ fire cho Threat-Drive?
     → Pull drive: nhận reward → body confirm "đủ" → signal fire
     → Push drive: tránh threat → body confirm "an toàn TẠM"
     → Nhưng "an toàn tạm" ≠ "đủ" → signal KHÔNG fire
@@ -561,4 +571,6 @@ TD5: Tại sao Satisfaction Signal KHÓ fire cho Threat-Drive?
 → Threshold-Analysis.md: Cortisol baseline carry between contexts
 → Body-Listening.md: Skill để nhận biết cortisol baseline
 → plan-update-v8.md: Ghi note restructure kiến trúc Core (chờ settle)
+→ Personal-Melody.md §6.4: Motivation Bridge — threat as investment bridge + scaling + rút khi đủ
+→ Novelty-Loop.md §3.2: Threat = sàn giữ loop + scaling note
 ```

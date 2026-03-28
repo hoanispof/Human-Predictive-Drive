@@ -66,6 +66,8 @@
 │  │  │  Layer 2 — QUALITY (chất lượng — sensory input):        │  │  │
 │  │  │    Experience: Sensory, Aesthetic, Comfort               │  │  │
 │  │  │    Connection: skin, eye, ear, presence (người/đ.vật)   │  │  │
+│  │  │      ⭐ Connection = drive ở L2 + emergent giữa melodies│  │  │
+│  │  │      (amplify ALL layers — chi tiết: Connection.md)    │  │  │
 │  │  │                                                          │  │  │
 │  │  │  Layer 3 — PATTERN (tối ưu — xử lý trên input):        │  │  │
 │  │  │    Novelty:  Mastery, Coherence     — CẢI THIỆN (expand)│  │  │
@@ -76,6 +78,11 @@
 │  │  │    Shared Exp ──rep × time──→ Intimate                  │  │  │
 │  │  │                                                          │  │  │
 │  │  │  Priority: L0 > L1 > L2 > L3 (⚠️ exceptions: §2.5)   │  │  │
+│  │  │                                                          │  │  │
+│  │  │  FEEDBACK (3 signal từ Body — mỗi cái = function name): │  │  │
+│  │  │    Body-Satisfaction: "đủ rồi, dừng"  (PFC KHÔNG biết)  │  │  │
+│  │  │    Body-Reward:      "hay, tiếp tục"  (PFC + vô thức)   │  │  │
+│  │  │    Body-Dissonance:  "chưa ổn, đổi"   (PFC + vô thức)   │  │  │
 │  │  └──────────────────────────────────────────────────────────┘  │  │
 │  │                                                                │  │
 │  │  ┌──────────────────────────────────────────────────────────┐  │  │
@@ -99,7 +106,6 @@
 │  │  │    Emergency-Alert (NE+Adrenaline — spike tức thì,     │  │  │
 │  │  │      cortisol tới SAU sustain rồi merge baseline)      │  │  │
 │  │  │    Neural-Wear (side effect kéo dài × thiếu repair)    │  │  │
-│  │  │  Feedback:   Satisfaction Signal (bridge body→vô thức)   │  │  │
 │  │  │  Recovery:   Endorphin, Endocannabinoid                  │  │  │
 │  │  │  Social:     Vasopressin (Protect), Oxytocin (boost)     │  │  │
 │  │  │  Mood:       Serotonin (ruột 95%)                        │  │  │
@@ -319,7 +325,7 @@ TỔNG THỂ:
     → Vô thức hoàn toàn: brainstem + tủy sống, TRƯỚC não cortex
     → Mọi sinh vật có (kể cả côn trùng, cá, giun) ✅
     → Reward = RELIEF (hết đói = nhẹ), không phải PLEASURE (ăn ngon)
-    → Satisfaction Signal RÕ NHẤT: no = dừng ăn, đủ oxy = dừng thở gấp
+    → Body-Satisfaction RÕ NHẤT: no = dừng ăn, đủ oxy = dừng thở gấp
 
   Xã hội hiện đại:
     → Hầu hết đã met → invisible → không ai nghĩ tới
@@ -358,7 +364,7 @@ EXPERIENCE (input từ thế giới — opioid reward):
 
   → 3 channels = PURE sensory input → opioid TRỰC TIẾP
   → Mọi động vật có ✅ (không cần PFC, không cần xã hội)
-  → Satisfaction Signal RÕ (ăn no = đủ, thoải mái = đủ)
+  → Body-Satisfaction RÕ (ăn no = đủ, thoải mái = đủ)
 
 
 CONNECTION (input từ người/động vật khác — oxytocin reward):
@@ -376,7 +382,7 @@ CONNECTION (input từ người/động vật khác — oxytocin reward):
     → = "Có thú cưng bớt cô đơn nhưng vẫn thiếu gì đó"
 
   → Tất cả động vật xã hội có ✅
-  → Satisfaction Signal RÕ (ôm đủ = body relaxed = đủ)
+  → Body-Satisfaction RÕ (ôm đủ = body relaxed = đủ)
 
 TỔNG LAYER 2:
   Experience: 3 channels (Sensory, Aesthetic, Comfort) — input từ thế giới
@@ -411,7 +417,7 @@ NOVELTY (detect mới + cải thiện — dopamine + opioid):
   → 2 Novelty channels = PROCESS trên Layer2 input → improve behavior
   → Mọi động vật có ở mức cơ bản ✅ (trial-error, pattern detect)
   → Người: PFC NÂNG CẤP thêm (cross-domain coherence, complex mastery)
-  → Satisfaction Signal MƠ HỒ ("đủ giỏi" và "đủ hiểu" khó xác định)
+  → Body-Satisfaction MƠ HỒ ("đủ giỏi" và "đủ hiểu" khó xác định)
 
 
 STATUS (schema access map — serotonin candidate, chưa proven ở người):
@@ -453,7 +459,7 @@ STATUS (schema access map — serotonin candidate, chưa proven ở người):
 
   → Mỗi người calibrate range KHÁC (ổn định ↔ dao động) → Status Flexibility
   → Mọi động vật xã hội có ✅
-  → Satisfaction Signal MƠ HỒ ("đủ respect" khó xác định)
+  → Body-Satisfaction MƠ HỒ ("đủ respect" khó xác định)
 
 
 PROTECT (bảo vệ "CỦA TÔI" — vasopressin candidate):
@@ -497,7 +503,7 @@ PROTECT (bảo vệ "CỦA TÔI" — vasopressin candidate):
   → Mọi động vật có ✅ (chó giữ xương, chim giữ tổ, khỉ giữ lãnh thổ)
   → Body-level, trước PFC ✅
   → Hormone: Vasopressin = candidate chính, có thể kết hợp hormone khác
-  → Satisfaction Signal: RÕ khi threat QUA ("an toàn rồi" → cortisol drop)
+  → Body-Satisfaction: RÕ khi threat QUA ("an toàn rồi" → cortisol drop)
     nhưng MƠ HỒ khi threat TIỀM ẨN ("có thật sự an toàn?")
 
 TỔNG LAYER 3: Novelty(Mastery, Coherence) + Status(Being Seen, Belonging) + Protect
@@ -1031,7 +1037,7 @@ Hormone: Dopamine (seeking + prediction reward)
   Đặc điểm:
     → PULL: kéo tới cái tốt hơn
     → PFC tham gia: draft plan mới, simulate options, cross-domain
-    → Satisfaction Signal: MƠ HỒ ("đủ mới" khó xác định)
+    → Body-Satisfaction: MƠ HỒ ("đủ mới" khó xác định)
 
   ⭐ Novelty CẦN "năng lượng rung" — 2 nguồn:
 
@@ -1077,8 +1083,8 @@ Hormone: Dopamine (seeking + prediction reward)
 
   CÙNG CƠ CHẾ:
     Schema simulate pattern → body-base evaluate:
-      Body: "pattern này TỐT cho tôi" → opioid → NOVELTY REWARD
-      Body: "pattern này XẤU cho tôi" → cortisol/NE → THREAT SIGNAL
+      Body: "pattern này TỐT cho tôi" → Body-Reward (opioid + dopamine)
+      Body: "pattern này XẤU cho tôi" → Body-Dissonance (NE + adrenaline + CRH)
       Body: "chưa biết" → dopamine seek → chờ body confirm
     → = 1 hệ thống (imagine + body check) → 2 KẾT QUẢ (tùy body đánh giá)
 
@@ -1125,7 +1131,7 @@ Hormone: NE (activation) + Cortisol spike → cortisol sustain
     → PUSH: đẩy khỏi cái xấu
     → PFC tham gia: simulate hậu quả, plan tránh
     → Reward = absence of bad (cortisol drop, "phù nhẹ nhõm")
-    → Satisfaction Signal: GẦN NHƯ KHÔNG CÓ → drive khó dừng → anxiety
+    → Body-Satisfaction: GẦN NHƯ KHÔNG CÓ → drive khó dừng → anxiety
     → = Drive CHỈ khi Change-Readiness ĐỦ CAO (quá thấp → "mặc kệ")
 
   3 nguồn Threat (timeline — Emergency-Alert → Change-Readiness):
@@ -1170,12 +1176,12 @@ Hormone: NE (activation) + Cortisol spike → cortisol sustain
 
 ```
 PULL (Novelty):
-  → Có Satisfaction Signal (dù mơ hồ) → CÓ THỂ dừng
+  → Có Body-Satisfaction (dù mơ hồ) → CÓ THỂ dừng
   → Reward = opioid/dopamine → body SƯỚNG
   → Drive by positive → wellbeing TỐT
 
 PUSH (Threat):
-  → Satisfaction Signal GẦN NHƯ KHÔNG CÓ → KHÓ dừng
+  → Body-Satisfaction GẦN NHƯ KHÔNG CÓ → KHÓ dừng
   → Reward = cortisol drop → body NHẸ nhưng KHÔNG SƯỚNG
   → Drive by negative → wellbeing XẤU nếu kéo dài
 
@@ -1213,7 +1219,8 @@ ACTIVATION (khởi động hành vi):
 
 FEEDBACK — 3 loại signal từ Body (KHÁC NHAU):
 
-  ① Satisfaction Signal (FUNCTION name — KHÔNG phải 1 hormone duy nhất):
+  ① Body-Satisfaction (FUNCTION name — KHÔNG phải 1 hormone duy nhất):
+    → "Đủ rồi, dừng" — body đánh giá need ĐÃ MET
     → Sinh ở Body → nhận bởi VÔ THỨC → schema auto DỪNG
     → PFC KHÔNG BIẾT signal tồn tại → PFC chỉ thấy KẾT QUẢ "hết muốn"
     → Ví dụ: ăn no → bụng báo "đủ" → schema "tìm ăn" TỰ dừng
@@ -1226,38 +1233,134 @@ FEEDBACK — 3 loại signal từ Body (KHÁC NHAU):
       Đủ ăn (energy): leptin (từ mỡ — long-term energy satiety)
       Đủ glucose: insulin
       Đủ stress: endocannabinoid (recovery)
-      → = "Satisfaction Signal" = TÊN FUNCTION, mỗi channel có HORMONE RIÊNG
+      → = "Body-Satisfaction" = TÊN FUNCTION, mỗi channel có HORMONE RIÊNG
       → = Framework bind FUNCTION (chắc chắn có), KHÔNG bind 1 hormone
     → ⚠️ Khi Satisfaction CHƯA fire (body-need chưa met):
-      → Body TỰ kích hoạt body-threat signal: "THIẾU → khó chịu"
+      → Body TỰ kích hoạt Body-Dissonance: "THIẾU → khó chịu"
       → Ví dụ: đói (satisfaction "đủ ăn" chưa fire) → body: "khó chịu bụng"
       → Ví dụ: mệt (satisfaction "đủ ngủ" chưa fire) → body: "nặng đầu, buồn ngủ"
       → Ví dụ: cô đơn (satisfaction "đủ connection" chưa fire) → body: "trống, lạnh"
-      → PFC nhận body-threat (khó chịu) → suy luận nguồn: "à, chắc đói" → hành động fix
-      → = PFC biết "khó chịu" (body-threat) → KHÔNG biết "tại sao" (satisfaction thiếu)
+      → PFC nhận dissonance (khó chịu) → suy luận nguồn: "à, chắc đói" → hành động fix
+      → = PFC biết "khó chịu" (dissonance) → KHÔNG biết "tại sao" (satisfaction thiếu)
       → = PFC phải SUY LUẬN từ context + experience → có thể suy SAI
-      → = "Stress mà không biết vì sao" = body-threat từ satisfaction thiếu + PFC suy sai nguồn
+      → = "Stress mà không biết vì sao" = dissonance từ satisfaction thiếu + PFC suy sai nguồn
     → ⚠️ PFC CÓ THỂ OVERRIDE "hết muốn":
       → "No nhưng ngon → ăn thêm" = PFC override bằng reward
       → "Mệt nhưng deadline → làm tiếp" = PFC override bằng threat
       → = Disconnect mechanism: PFC ignore body "đủ" signal
 
-  ② Body-Reward (opioid/oxytocin):
+  ② Body-Reward (FUNCTION name — KHÔNG phải 1 hormone duy nhất):
+    → "Hay, tiếp tục" — body đánh giá pattern ĐANG diễn ra = TỐT
     → Sinh ở Body → CẢ vô thức VÀ PFC đều nhận
     → Vô thức: auto drive "thêm!" (ăn ngon → ăn tiếp tự động)
     → PFC: observe reward → CHỌN tiếp hay dừng
     → = PFC = trọng tài cho reward: "sướng, nhưng NÊN tiếp không?"
+    → ⚠️ Hormone KHÁC per context (KHÔNG phải 1 hormone cho mọi "hay"):
+      Ăn ngon: opioid (endorphin — taste reward)
+      Gần người thân: oxytocin (social bonding reward)
+      Vận động smooth: endorphin + endocannabinoid (runner's high)
+      Novelty confirm: opioid + dopamine (prediction reward)
+      → = "Body-Reward" = TÊN FUNCTION, mỗi context có HORMONE RIÊNG
+    → Kích hoạt DURING action (khác Satisfaction = completion)
 
-  ③ Body-Pain (nociception/mismatch):
+  ③ Body-Dissonance (FUNCTION name — KHÔNG phải 1 hormone duy nhất):
+    → "Chưa ổn, thay đổi" — body phát hiện MISMATCH giữa trạng thái hiện tại vs mong đợi
     → Sinh ở Body → CẢ vô thức VÀ PFC đều nhận
     → Vô thức: reflex (rút tay, 50ms — trước PFC)
-    → PFC: observe pain → CHỌN response (sửa/chịu/chạy/đổi context)
-    → = PFC = trọng tài cho pain: "đau, nhưng NÊN làm gì?"
+    → PFC: observe dissonance → CHỌN response (sửa/chịu/chạy/đổi context)
+    → = PFC = trọng tài cho dissonance: "khó chịu, nhưng NÊN làm gì?"
+
+    → ⚠️ TẠI SAO "DISSONANCE" THAY VÌ "DISCOMFORT":
+      → Trong melody framework: Satisfaction = harmony đạt, Reward = harmony đang build
+      → Dissonance = harmony BỊ PHÁ → bộ 3 signal = bộ 3 trạng thái melody
+      → "Dissonance" mô tả CƠ CHẾ (mismatch) — không chỉ feeling (khó chịu)
+
+    → ⚠️ Dissonance = COMPOSITE body-state delta, KHÔNG phải cortisol:
+      NE spike (0.5-2s) — locus coeruleus → alert
+      Adrenaline (1-3s) — adrenal medulla → body mobilize
+      Sympathetic activation (1-5s) — nhịp tim, thở, mồ hôi
+      CRH (seconds) — hypothalamus → khởi động HPA axis
+      Muscle tension — jaw, shoulders, gut
+      → Insula (anterior insular cortex) TỔNG HỢP tất cả → "body-state delta"
+      → = "Khó chịu" = delta giữa body-state hiện tại vs baseline
+      → Cortisol tới SAU (5-20 phút) → SUSTAIN trạng thái, KHÔNG gây khó chịu
+
+    → ⚠️ SPECTRUM DISSONANCE — body CẦN phân biệt rõ LOẠI mismatch:
+
+      NHẸ (thông tin — chưa cần hành động ngay):
+        Lấn cấn     — "có gì đó không ổn nhưng chưa biết gì"
+        Bứt rứt     — "muốn làm gì đó nhưng không biết gì"
+        Băn khoăn   — "chưa chắc, cần thêm info"
+        Chán         — "thiếu novelty, melody quá phẳng"
+
+      TRUNG BÌNH (cần chú ý — có thể cần hành động):
+        Khó chịu    — "body-state delta rõ: đói, mệt, nóng, lạnh"
+        Bực         — "expectation violated: sao lại thế?"
+        Bất an      — "something wrong, chưa biết cụ thể"
+        Lo lắng     — "anticipate threat, chưa xảy ra nhưng body đã prepare"
+
+      MẠNH (cần hành động — body yêu cầu response):
+        Sợ          — "threat detected, cần react NGAY hoặc TRÁNH"
+        Tức giận    — "boundary violated, cần bảo vệ"
+        Đau         — "tissue damage, có location cụ thể" (pain ⊂ dissonance)
+        Ghê tởm    — "body reject: độc hại, phải tránh xa"
+
+      CỰC MẠNH (emergency — suppress mọi thứ khác):
+        Hoảng loạn  — "overwhelming mismatch, system overload"
+        Đau cực     — "toàn bộ body screaming, chỉ có 1 signal"
+
+      → = Dissonance có spectrum RỘNG vì body CẦN phân biệt LOẠI mismatch
+        → Mỗi loại → response KHÁC (sợ → chạy, bực → sửa, đau → tránh,...)
+      → Trong khi: Body-Reward chỉ cần "tiếp tục" → ít gradient
+      → Và: Body-Satisfaction → PFC không nghe thấy → KHÔNG CÓ gradient cho PFC
+
+    → ⚠️ KHÁC "Pain" (nociception) — Pain ⊂ Dissonance:
+      Pain = tissue damage signal (A-delta, C fibers) → specific location
+      Dissonance = body-state mismatch → diffuse, whole-body HOẶC local
+      Đói, mệt, stressed, confused = dissonance (KHÔNG phải pain)
+      → Pain là 1 LOẠI dissonance (mạnh, có location) — không phải toàn bộ
+      → (Chi tiết spectrum: Body-Dissonance.md)
 
   → Satisfaction: VÔ THỨC tự xử → PFC không biết
-  → Reward + Pain: CẢ HAI biết → PFC chọn hành động
-  → = PFC = trọng tài cho reward/pain → KHÔNG phải trọng tài cho "đủ chưa"
+  → Reward + Dissonance: CẢ HAI biết → PFC chọn hành động
+  → = PFC = trọng tài cho reward/dissonance → KHÔNG phải trọng tài cho "đủ chưa"
   → = "Đủ chưa" = body TỰ biết, TỰ dừng, PFC KHÔNG tham gia
+  → = 3 SIGNAL song song — mỗi signal = 1 FUNCTION, bind nhiều hormone tùy context
+
+  ⭐ SIGNAL = DIRECTION × MAGNITUDE:
+
+    3 signal cho biết DIRECTION (đi đâu):
+      Satisfaction: "DỪNG"   Reward: "TIẾP"   Dissonance: "ĐỔI"
+
+    Mỗi signal có MAGNITUDE (mạnh cỡ nào) — spectrum liên tục:
+
+    ┌──────────────┬──────────┬───────────┬──────────┬──────────┬──────────┐
+    │              │ micro    │ nhẹ-trung │ mạnh     │ cực      │ SHUTDOWN │
+    ├──────────────┼──────────┼───────────┼──────────┼──────────┼──────────┤
+    │ Satisfaction │ hết muốn │ no, đủ    │ rất no   │ kiệt sức │ ngủ     │
+    │ "DỪNG"      │ PFC:     │ PFC:      │ PFC:     │ PFC:     │ thiếp   │
+    │              │ ko biết  │ ko biết   │ hơi biết │ phải ngủ │ (repair)│
+    ├──────────────┼──────────┼───────────┼──────────┼──────────┼──────────┤
+    │ Reward       │ dễ chịu  │ sướng     │ phê      │ cực      │ NGẤT    │
+    │ "TIẾP"      │          │           │          │ khoái    │ (vui quá│
+    │              │          │           │          │          │ fan idol)│
+    ├──────────────┼──────────┼───────────┼──────────┼──────────┼──────────┤
+    │ Dissonance   │ lấn cấn  │ bực,      │ sợ, đau  │ panic    │ NGẤT    │
+    │ "ĐỔI"       │ bứt rứt  │ lo lắng   │ tức giận │ hoảng    │ /FREEZE │
+    └──────────────┴──────────┴───────────┴──────────┴──────────┴──────────┘
+
+    SHUTDOWN = CIRCUIT BREAKER — không thuộc signal NÀO:
+      → Body: "delta QUÁ LỚN — bất kể hướng nào — CẮT ĐIỆN"
+      → Reward cực (vui quá) → NGẤT (vagal syncope)
+      → Dissonance cực (sợ quá) → NGẤT / FREEZE (amygdala hijack)
+      → Satisfaction cực (kiệt quá) → NGỦ THIẾP (repair shutdown)
+      → = Cầu dao điện: quá tải → NGẮT — không care dòng đi đâu
+      → 🟢 Vasovagal syncope: ~40% người trải nghiệm ít nhất 1 lần (Sheldon 2015)
+      → 🟢 Tonic immobility: freeze response ở nhiều loài (Gallup 1977)
+
+    → = 3 signal MÔ TẢ ĐÚNG cho 99% cuộc sống (magnitude bình thường)
+    → = SHUTDOWN = edge case khi magnitude VƯỢT ngưỡng chịu đựng body
+    → (Chi tiết per-signal spectrum: Body-Dissonance.md)
 
 RECOVERY:
   Endorphin:
@@ -1602,7 +1705,7 @@ v7.5:
     Body-Base Emergent: Shared Exp ↔ Intimate (spectrum)
     Baseline-Drive:   Cortisol baseline (nền energy, 7 modes)
     Imagine:          Novelty-Schema(PULL) + Threat-Schema(PUSH) → phục vụ L0→L3
-    Hormone Phụ Gia:  NE, Dopamine, Sat.Signal, Cortisol 3 mode,...
+    Hormone Phụ Gia:  NE, Dopamine, Body-Sat/Reward/Dissonance, Cortisol 3 mode,...
     Schema:           chunk → schema, xuyên suốt body→imagine, gradient, AI-assisted
   Domain (ngoài Human, trong Environment)
 
@@ -1688,4 +1791,61 @@ Files KHÔNG cần thay đổi:
   PFC-Analysis.md, Schema-Atlas.md, Modality-Analysis.md,
   Innovation-Geography.md, Climate-Cognition.md, Human-AI-Future.md,
   Body-Neural-Network.md
+```
+
+---
+
+## 12. v8.0 Note — 3 Signal Standardization
+
+```
+⭐ THAY ĐỔI CHÍNH cho v8.0:
+
+  3 BODY SIGNAL được chuẩn hóa thành TÊN FUNCTION chính thức:
+
+  ┌──────────────────────┬────────────────────┬──────────────────────────────┐
+  │ SIGNAL               │ Ý NGHĨA            │ HORMONE (mô tả chi tiết)    │
+  ├──────────────────────┼────────────────────┼──────────────────────────────┤
+  │ Body-Satisfaction    │ "Đủ rồi, dừng"    │ prolactin, CCK, leptin,      │
+  │                      │ PFC KHÔNG biết     │ insulin, endocannabinoid...  │
+  ├──────────────────────┼────────────────────┼──────────────────────────────┤
+  │ Body-Reward          │ "Hay, tiếp tục"    │ opioid, oxytocin,            │
+  │                      │ spectrum rộng:     │ endorphin, dopamine...       │
+  │                      │ thú vị → đồng bộ  │                              │
+  │                      │ melody → sướng     │                              │
+  ├──────────────────────┼────────────────────┼──────────────────────────────┤
+  │ Body-Dissonance      │ "Chưa ổn, thay đổi"│ NE, adrenaline, CRH,       │
+  │                      │ spectrum rộng:     │ sympathetic activation...    │
+  │                      │ bứt rứt → bực →   │                              │
+  │                      │ đau → khó chịu     │                              │
+  └──────────────────────┴────────────────────┴──────────────────────────────┘
+
+  QUY TẮC:
+    → Khi nói về FUNCTION (cái gì xảy ra) → dùng TÊN SIGNAL (Body-X)
+    → Khi nói về CƠ CHẾ (tại sao/như thế nào) → dùng TÊN HORMONE cụ thể
+    → Mỗi signal = BIẾN ẢO (virtual parameter) — bind nhiều hormone tùy context
+    → Prefix "Body-" nhấn mạnh: cả 3 đều SINH TỪ BODY, không phải PFC tạo ra
+
+  LÝ DO ĐỔI TÊN (Body-Pain → Body-Discomfort → Body-Dissonance):
+    → v7.5: "Body-Pain" quá hẹp — chỉ gợi nociception, bỏ sót bứt rứt/bực/mismatch
+    → v7.5 mid: "Body-Discomfort" tốt hơn — bao hàm spectrum rộng
+    → v8.0: "Body-Dissonance" TỐT NHẤT vì:
+      ① NỐI trực tiếp melody framework: Satisfaction=harmony đạt, Reward=harmony build,
+         Dissonance=harmony BỊ PHÁ → bộ 3 = bộ 3 trạng thái melody
+      ② "Dissonance" mô tả CƠ CHẾ (mismatch) — không chỉ feeling
+      ③ Spectrum tự nhiên rộng: lấn cấn → bứt rứt → khó chịu → sợ → đau → hoảng loạn
+      ④ Body CÓ spectrum rộng nhất cho dissonance (vì survival cần PHÂN BIỆT rõ loại mismatch)
+    → Cortisol KHÔNG gây khó chịu — cortisol SUSTAIN trạng thái mobilized
+    → Khó chịu = body-state delta (NE + adrenaline + CRH + sympathetic)
+      được insula tổng hợp thành "cảm giác chưa ổn"
+    → (Chi tiết spectrum: Body-Dissonance.md)
+
+  ⭐ TÒ MÒ = DRIVE STATE, không phải signal:
+    → Tò mò = Body-Dissonance NHẸ (information gap) + Dopamine Seeking (anticipation)
+    → Khi gap đóng: Body-Dissonance TẮT + Body-Reward FIRE = "À HA!" moment
+    → Thuộc Dopamine Seeking layer (cross-cutting), KHÔNG thuộc feedback layer
+
+  CẬP NHẬT CẦN LÀM (v8.0):
+    → Toàn bộ framework files: chuẩn hóa "Body-Satisfaction", "Body-Reward", "Body-Dissonance"
+    → Thay "body-pain/body-threat" → "Body-Dissonance"
+    → Hormone chỉ được nhắc khi mô tả chi tiết phản ứng cụ thể
 ```

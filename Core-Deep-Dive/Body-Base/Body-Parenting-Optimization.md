@@ -407,6 +407,7 @@ Chunks: NHIỀU (school + internet + social + experience + AI)
 → Mismatch-Patterns/Trauma-Recovery.md: khi parenting GÂY trauma
 → UD-Parenting.md (file cũ): pressure by age + realtime calibration signals
 → Body-Listening.md: chi tiết cách nghe body (dạy con từ nhỏ)
+→ Education-Bridge.md: Motivation Bridge — cách chọn carrot/threat/social per child per task
 ```
 
 ---

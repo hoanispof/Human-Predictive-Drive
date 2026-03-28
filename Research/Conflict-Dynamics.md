@@ -333,6 +333,7 @@ Nhiều xung đột xảy ra vì **perceived scarcity** — tưởng rằng khô
 | **Price war** | Overlap: cùng target customer segment |
 | **Religious conflict** | Overlap: cùng target quyền kiểm soát territory / chính trị — không phải vì khác tín ngưỡng |
 | **Complementary partnership** | Zero overlap → zero conflict → bổ sung tự nhiên |
+| **Domain speciation** | Overlap quá cao trong 1 domain → buộc phải mở rộng/tách domain mới → xem Innovation-Geography.md §2.4, Global-Melody.md §6 |
 
 ---
 

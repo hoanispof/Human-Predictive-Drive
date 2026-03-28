@@ -213,7 +213,8 @@ Start melody → SHIFT DẦN theo experience:
     DISSONANCE (xung đột):
       → A melody mạnh + B melody mạnh + KHÁC KEY → "cãi nhau"
       → = "2 bài nhạc chơi CÙNG LÚC mà KHÁC NHỊP" → tai KHÔNG CHỊU ĐƯỢC
-      → Body: cortisol (dissonance = mismatch = khó chịu)
+      → Body: Body-Dissonance (dissonance = mismatch → NE + adrenaline + CRH → khó chịu)
+      → (cortisol tới SAU sustain, KHÔNG phải nguyên nhân gây khó chịu)
       → = "Gia đình xung đột" = melodies KHÔNG harmony
 
     Con TIẾP THU melody bố mẹ:
@@ -435,6 +436,18 @@ Start melody → SHIFT DẦN theo experience:
     → = "Tôi THÍCH game design" = personal melody HARMONY với domain melody
     → = "Tôi GHÉT kế toán" = personal melody DISSONANCE với domain melody
     → = PREDICT nghề phù hợp: biết personal melody → tìm domain melody match
+
+  DOMAIN SPLIT — Tại Sao Domain PHẢI Sinh Sôi:
+    → Khi 1 domain melody CENTER quá đông người chơi:
+    → = Overlap CAO × Scarcity CAO × Commitment CAO → CONFLICT tăng
+    → (xem Conflict-Dynamics.md: Conflict = Overlap × Scarcity × Commitment)
+    → 3 lối thoát: (1) thắng center, (2) rời domain, (3) TẠO EDGE MỚI
+    → Lối (3) = speciation: edge melody KHÁC ĐỦ → thành domain melody MỚI
+    → Ví dụ: "lập trình" quá đông → edge = "AI engineering" → domain MỚI
+    → Ví dụ: "rock" quá đông → edge = "punk", "metal", "grunge" → domain MỚI
+    → = Domain melody KHÔNG cố định — chúng SPLIT khi center quá crowded
+    → = Giải thích tốc độ innovation tăng tốc: mỗi split → thêm domain → thêm edge mới
+    → (xem Innovation-Geography.md §2.4: Competition-Driven Domain Expansion)
 ```
 
 ---
@@ -592,6 +605,8 @@ GM5: Group melody có ATTRACTOR không?
 → Education-AI-Era-Draft.md: education = cách shape personal melody
 → Attention-Spectrum.md: DRD4 variant = 1 parameter của start melody
 → Change-Readiness.md: cortisol = "năng lượng rung" cho melody shift
+→ Conflict-Dynamics.md: Conflict = Overlap × Scarcity × Commitment → domain split mechanism (§6)
+→ Innovation-Geography.md §2.4: Competition-Driven Domain Expansion → domain speciation
 → Macro-Civilization.md (legacy): civilization = global melody history
 ```
 

@@ -659,6 +659,53 @@ mỗi sub phục vụ UD Arbitration theo cách khác:
 ╚═══════════════════════════════════════════════════════════════╝
 ```
 
+### 2.2.1 mPFC × Theory of Mind — Tại Sao Hiểu Và Không Hiểu Người Khác
+
+```
+⭐ mPFC = NƠI simulate người khác, nhưng DÙNG schema CỦA MÌNH:
+
+  CƠ CHẾ mPFC trong Theory of Mind:
+    ① mPFC nhận input: "người này đang làm X"
+    ② mPFC kích hoạt chunks [người đó] + chunks [tình huống]
+    ③ mPFC fire CÙNG pathway thật: amygdala, somatic, visual
+       → = "Cảm nhận" người khác = body TÔI fire patterns TÔI CÓ
+    ④ Body respond → mPFC interpret → "predict: họ sẽ làm Y"
+    → 🟢 Đã có evidence: mPFC activate khi think about others' mental states
+       (Frith & Frith 2006, Saxe 2006) ✅
+
+  GIỚI HẠN CỐ HỮU:
+    → mPFC dùng CHUNKS CỦA TÔI → simulate "phiên bản tôi đóng vai họ"
+    → Hardware delta (DRD4, cortisol baseline) = KHÔNG simulate được
+    → Compiled schema sâu = KHÔNG access được (vô thức CỦA HỌ = hộp đen)
+    → = "Empathy ceiling" = giới hạn bởi chunk overlap giữa 2 người
+
+  mPFC MẠNH vs YẾU — ảnh hưởng ToM:
+    mPFC mạnh + chunks VỀ NGƯỜI NHIỀU:
+      → Predict chính xác + hiểu tại sao + adjust khi sai
+      → = Leader giỏi, therapist giỏi, diplomat
+    mPFC mạnh + chunks VỀ NGƯỜI ÍT:
+      → Predict bằng projection (chiếu schema CỦA MÌNH lên họ)
+      → "Tôi sẽ cáu → chắc họ cũng cáu" → SAI nếu họ khác tôi
+    mPFC yếu:
+      → KHÔNG tự động simulate người khác → "quên" họ có cảm xúc
+      → Logic OK nhưng social prediction KÉM → hurt mà không biết
+
+  mPFC × DMN (Default Mode Network):
+    → Khi REST: mPFC auto-process social information
+    → = "Nghĩ về người khác" KHÔNG CẦN PFC cố gắng → mPFC TỰ LÀM
+    → Tại sao "ngồi không" → hay nghĩ về quan hệ:
+      mPFC = DMN hub → REST = mPFC active → simulate social scenarios
+    → mPFC overactive: social anxiety ("họ nghĩ gì về mình?" loop)
+    → mPFC balanced: self-awareness + empathy tự nhiên
+
+  ⭐ OBSERVER ADVANTAGE — tại sao NGƯỜI KHÁC thấy schema bạn KHÔNG thấy:
+    → PFC evaluate MÌNH = self-referencing loop (dùng thước cong đo thước cong)
+    → mPFC evaluate NGƯỜI KHÁC = external observation (dùng thước khác đo)
+    → Observer KHÔNG bị schema CỦA BẠN filter → thấy pattern bạn bỏ qua
+    → = Therapist, mentor, bạn thân = "gương" cho PFC bạn
+    → (Chi tiết cơ chế: Schema-Operations.md §8.9)
+```
+
 ---
 
 ## 3. Các Dạng PFC Profile — State Profiles
@@ -2362,6 +2409,11 @@ PFC-5: PFC profiles có di truyền bao nhiêu %?
   Body = ground truth evaluator, PFC = servant
   PFC profiles map to UD Arbitration quality
   DEFAULT + AVAILABLE + SWITCH COST model
+
+Kết nối ToM (§2.2.1):
+  → Schema-Operations.md §8.9: simulate người khác — cơ chế chi tiết + accuracy formula
+  → Personal-Melody.md §6.6: predict melody người khác — overlap 3 lớp + nông/sâu
+  → Relationships.md §4-5: "hiểu nhau" 4 sub-params + convergence = shared foundation chunks
 ```
 
 ---
