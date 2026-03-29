@@ -4,7 +4,7 @@
 > **Ngày:** 2026-03-24
 > **Mục đích:** Ví dụ cụ thể minh họa schema lifecycle, states, interactions
 > **Đọc SONG SONG với:** Schema-Atlas-v2.md (lý thuyết) + file này (ví dụ)
-> **Reference:** Architecture-v7.5-Draft.md, Change-Readiness.md, Status-Analysis-v2.md
+> **Reference:** Architecture-v7.5-Draft.md, Cortisol-Baseline.md, Status-Analysis-v2.md
 > **Cách dùng:** Đọc Schema-Atlas → chỗ nào cần hình dung → qua file này → đọc lại Atlas
 
 ---
@@ -284,7 +284,7 @@ Gặp người → body PHẢN ỨNG → vô thức ráp schema:
 ## 3. Công Việc — Schema Burnout Timeline
 
 ```
-(Reference: Change-Readiness.md §10.6)
+(Reference: Cortisol-Baseline.md §10.6)
 ```
 
 ### 3.1 Tháng 1-6: Hưng phấn
@@ -642,7 +642,7 @@ SE6: Ví dụ về CULTURE SHOCK (schema xã hội BỊ MIS-MATCH hoàn toàn)
 ```
 → Schema-Atlas-v2.md: lý thuyết schema (đọc SONG SONG)
 → Architecture-v7.5-Draft.md: Body-Base layers (L0-L3)
-→ Change-Readiness.md: cortisol × schema states
+→ Cortisol-Baseline.md: cortisol × schema states
 → Status-Analysis-v2.md: status = schema access map
 → Imagination-Analysis-v2.md: imagine × schema formation
 → Body-Listening.md: cách nghe body signals trong schema states

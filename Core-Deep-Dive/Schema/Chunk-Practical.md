@@ -121,6 +121,25 @@
     → 🟢 Rumination (Nolen-Hoeksema 2000)
 
 
+  ①bis "VỪA CHƠI VỪA LO" — Active Schema Lock:
+
+    Cơ chế:
+      PFC hold [task chưa xong] → VTA fire liên tục → cortisol tăng
+      Thử đi chơi → PFC VẪN hold → body [chơi] ≠ PFC [task]
+      → 2 schemas fight → DOUBLE dissonance → WORST state
+      → "Vừa chơi không sướng, việc chả làm được"
+
+    Tại sao PFC KHÔNG thả:
+      Cortisol: "quan trọng!" + Dopamine: "gần reward!" + Sợ quên idea
+      → 3 lực giữ PFC lock → phải HOÀN THÀNH mới release
+
+    Fix:
+      → LÀM task → alignment → single dissonance → manageable → xong → nhẹ
+      → HOẶC: HOÀN TOÀN thả (write down idea → PFC release → incubate)
+      → KHÔNG có middle ground "vừa chơi vừa giữ" → đó = WORST
+    → 🟢 Zeigarnik Effect (1927): unfinished tasks = more tension than finished
+
+
   ② "ĐẦU TRỐNG" — không nghĩ được gì:
 
     3 nguyên nhân KHÁC → 3 fix KHÁC:
@@ -238,7 +257,7 @@
 → Melody-Arc.md §4: anchor, mini-arc, body-base maintenance
 → Education-Bridge.md §5.5: arc design cho learning
 → Body-Dissonance.md: dissonance from interference + failure modes
-→ Change-Readiness.md: cortisol × thinking quality
+→ Cortisol-Baseline.md: cortisol × thinking quality
 ```
 
 ---

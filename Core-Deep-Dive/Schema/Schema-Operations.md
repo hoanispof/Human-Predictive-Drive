@@ -672,7 +672,7 @@ PFC = SPOTLIGHT quay liên tục trên gradient schemas:
       → Threat chunks: body có nhưng KHÔNG thích dùng → evaluate MIỄNCƯỠNG
       → Novelty chunks: body CÓ + THÍCH dùng → evaluate THOẢI MÁI + CHÍNH XÁC
       → = "10,000 giờ VUI" > "10,000 giờ KHỔ" vì chunk ASSOCIATION khác
-      → (Chi tiết: Change-Readiness.md §3.5)
+      → (Chi tiết: Cortisol-Baseline.md §3.5)
 
 
   AI ERA × EXPERTISE:
@@ -1069,7 +1069,7 @@ TOÀN BỘ tiến trình "khát → uống" qua gradient:
 → Attention-Spectrum.md: DRD4 threshold → gradient position KHÁC per-person
 → Imagination-Analysis-v2.md: imagine = PFC simulate mode 1
 → Novelty-Loop.md: vòng lặp khi schema CHƯA resolve
-→ Change-Readiness.md: cortisol/NE → "năng lượng" cho gradient shift
+→ Cortisol-Baseline.md: cortisol/NE → "năng lượng" cho gradient shift
 → Personal-Melody.md: schema tổng thể cá nhân = melody
 → Personal-Melody.md §6.6: predict melody người khác — overlap + nông/sâu
 → PFC-Analysis.md §2.2.1: mPFC × Theory of Mind hardware

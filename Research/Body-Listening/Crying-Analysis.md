@@ -3,7 +3,7 @@
 > **Trạng thái:** DRAFT — phân tích dựa trên framework + research
 > **Ngày:** 2026-03-24
 > **Mục đích:** Phân tích khóc như 1 body mechanism — khi nào tốt, khi nào xấu
-> **Reference:** Change-Readiness.md (cortisol mechanism), Schema-Atlas-v2.md (schema states),
+> **Reference:** Cortisol-Baseline.md (cortisol mechanism), Schema-Atlas-v2.md (schema states),
 > Architecture-v7.5-Draft.md (Body-Base layers)
 > **⚠️ Framework hypothesis + established research. Cần thêm xác thực.**
 > **Quy ước:** 🟢 Có research | 🟡 Suy luận từ framework | 🔴 Giả thuyết
@@ -354,7 +354,7 @@ CR4: AI era: ít social crying (remote work, ít gặp) → mất social signal 
 ## 11. Kết Nối
 
 ```
-→ Change-Readiness.md §10.6: khóc trong context burnout timeline
+→ Cortisol-Baseline.md §10.6: khóc trong context burnout timeline
 → Schema-Atlas-v2.md §5: schema states + giọt nước tràn ly
 → Architecture-v7.5-Draft.md §3: Change-Readiness modes (cortisol)
 → Body-Listening.md: cách nghe body signal (khóc = 1 signal)

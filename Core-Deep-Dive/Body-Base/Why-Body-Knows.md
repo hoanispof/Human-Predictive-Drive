@@ -341,7 +341,7 @@
 → Schema-Atlas-v2.md §2: Schema formation + body check
 → Global-Melody.md: 8 tỷ melodies × domain check = global melody
 → Personal-Melody.md §3: multi-modal sync = body detect coherence
-→ Change-Readiness.md §2.5: 3 nguồn khó chịu (KHÔNG phải cortisol)
+→ Cortisol-Baseline.md §2.5: 3 nguồn khó chịu (KHÔNG phải cortisol)
 → Imagination-Analysis-v2.md: imagine = simulate trước, body check sau
 → Addiction-Analysis-v2.md: schema override body check
 → Education-AI-Era-Draft.md: AI = tầng 4 calibrate

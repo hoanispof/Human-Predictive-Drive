@@ -19,22 +19,28 @@
 ```
 🟡 Search KHÔNG phải "hit or miss" — mà là RESONANCE:
 
-  Chunks ĐÚNG (compiled, khớp): HẤP THỤ dao động → fire RÕ NÉT → SIGNAL
+  ⭐ PFC = PRIMARY, CORTISOL = AMPLIFIER:
+    → PFC HOLD [task] → khởi tạo SEARCH (spreading activation = sóng CÓ HƯỚNG)
+    → Cortisol = KHUẾCH ĐẠI sóng (neurons fire mạnh hơn → sóng lan RỘNG hơn)
+    → = PFC quyết định TÌM GÌ. Cortisol quyết định tìm MẠNH cỡ nào.
+    → = KHÔNG phải "cortisol tạo dao động random" → mà "PFC search + cortisol amplify"
+
+  Chunks ĐÚNG (compiled, khớp): hấp thụ sóng search → fire RÕ NÉT → SIGNAL
     → "Ồ, có vẻ đúng" → body feel TRƯỚC PFC label
     → PFC chú ý → focus → chunk RÕ THÊM → "đúng rồi!"
 
-  Chunks SAI (random, không khớp): dao động PHẢN LẠI → NOISE
+  Chunks SAI (random, không khớp): sóng PHẢN LẠI → NOISE
     → Quá nhiều noise → "căng đầu, rối"
 
   SIGNAL-TO-NOISE RATIO:
-    Cortisol CAO + ÍT chunks = noise >> signal → RỐI, đau đầu
+    Cortisol CAO + ÍT chunks = search amplified + few matches → NOISE, RỐI
       → Fix: DỪNG, hạ cortisol, HOẶC nạp chunks trước
-    Cortisol CAO + NHIỀU chunks = signal >> noise → INSIGHT
-      → Kết nối lờ mờ → dao động kích → fire rõ → chunk MỚI
-    Cortisol THẤP + NHIỀU chunks = signal yếu → "biết nhưng lười nghĩ"
+    Cortisol CAO + NHIỀU chunks = search amplified + many matches → INSIGHT
+      → Kết nối lờ mờ → amplified search kích → fire rõ → chunk MỚI
+    Cortisol THẤP + NHIỀU chunks = search YẾU → "biết nhưng lười nghĩ"
     Cortisol VỪA + NHIỀU chunks = SWEET SPOT → Flow state
 
-  → = "Sáng tạo" = signal-to-noise ratio ĐỦ CAO
+  → = "Sáng tạo" = PFC hold ĐÚNG terms + cortisol amplify ĐỦ + chunks MATCH
   → = Chunks đủ + dao động đủ → hit. Thiếu 1 = không ra gì.
 ```
 

@@ -295,7 +295,7 @@ Chunks: NHIỀU (school + internet + social + experience + AI)
 ⭐ KHÔNG CÓ 1 công thức cho TẤT CẢ:
 
   Mỗi trẻ: hardware KHÁC (DRD4, COMT, modality, PFC capacity)
-  → Attention-Threshold KHÁC → Novelty drive KHÁC → phản ứng KHÁC
+  → PFC-Attention (VTA-Chunk-Size) KHÁC → Novelty drive KHÁC → phản ứng KHÁC
 
   Trẻ 4R (detail, steady):
     → Classroom: OK (chunk nhỏ = đủ)
@@ -402,7 +402,7 @@ Chunks: NHIỀU (school + internet + social + experience + AI)
 → Education-AI-Era-Draft.md: AI era education approach chi tiết
 → Architecture-v7.5-Draft.md: kiến trúc Body-Base + Imagine
 → Attention-Spectrum.md: DRD4 spectrum per-child (tại sao mỗi trẻ KHÁC)
-→ Change-Readiness.md: cortisol / threat level phù hợp per-age
+��� Cortisol-Baseline.md: cortisol / threat level phù hợp per-age
 → Schema-Atlas-v2.md: schema formation + trauma chunks
 → Mismatch-Patterns/Trauma-Recovery.md: khi parenting GÂY trauma
 → UD-Parenting.md (file cũ): pressure by age + realtime calibration signals

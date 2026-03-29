@@ -5,7 +5,7 @@
 > **Mục đích:** Hướng dẫn cá nhân NÂNG CẤP accuracy của body reward system,
 > từ ~90% (evolution default) lên ~95%+ (có ý thức bổ sung)
 > **Tiền đề:** Body reward ĐÚNG ~90% (Why-Body-Knows.md) → file này BỔ SUNG 10% còn lại
-> **Reference:** Why-Body-Knows.md, Architecture-v7.5-Draft.md, Change-Readiness.md,
+> **Reference:** Why-Body-Knows.md, Architecture-v7.5-Draft.md, Cortisol-Baseline.md,
 > Body-Listening.md, Schema-Atlas-v2.md, Novelty-Loop.md
 > **⚠️ Đây là HƯỚNG DẪN từ framework — KHÔNG thay thế chuyên gia y tế/tâm lý**
 
@@ -428,7 +428,7 @@ KHÔNG CẦN phức tạp — cần ĐỀU ĐẶN:
 → Why-Body-Knows.md: TẠI SAO body đáng tin (foundation cho file này)
 → Body-Listening.md: CHI TIẾT cách nghe body signal
 → Architecture-v7.5-Draft.md: kiến trúc Body-Base + Imagine + Schema
-→ Change-Readiness.md: cortisol / Change-Readiness modes
+→ Cortisol-Baseline.md: cortisol / Change-Readiness modes
 → Novelty-Loop.md: loop sáng tạo + cách tối ưu
 → Schema-Atlas-v2.md: schema formation + body check
 → Addiction-Analysis-v2.md: khi body reward bị hijack

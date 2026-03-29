@@ -76,7 +76,7 @@ DEFINE:
     "Fidgeting = output tự nhiên của CHANGE-READINESS system khi bị block"
     → Mô tả CƠ CHẾ GỐC — giải thích TẠI SAO fidgeting xảy ra
 
-  CHANGE-READINESS (xem: Change-Readiness.md):
+  CHANGE-READINESS (xem: Cortisol-Baseline.md):
     → Cortisol ↑ → signal: "MÔI TRƯỜNG CẦN THAY ĐỔI → HÀNH ĐỘNG ĐỂ THAY ĐỔI NÓ"
     → = Không phải "stress" chung chung
     → = Signal CỤ THỂ: "hành động để change cái gì đó"
@@ -1149,7 +1149,7 @@ FDG-10: Change-readiness vs arousal — distinguishable?
 ## 15. Kết Nối {#15-kết-nối}
 
 ```
-→ Change-Readiness.md ⭐ (CORE CONNECTION):
+→ Cortisol-Baseline.md ⭐ (CORE CONNECTION):
     Fidgeting = output tự nhiên của change-readiness khi bị block
     Change-readiness (cortisol) = GỐC → fidget = thỏa mãn ở mức tối thiểu
     Exercise = scheduled discharge → cortisol baseline ↓ → fidget need ↓

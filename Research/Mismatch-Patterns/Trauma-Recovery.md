@@ -4,7 +4,7 @@
 > **Ngày:** 2026-03-24
 > **Mục đích:** Hiểu trauma = gì ở mức schema, tại sao khó chữa, các hướng chữa
 > **Reference:** Schema-Atlas-v2.md (schema formation + cross-contamination),
-> Schema-Example.md §1 (tình yêu × trauma), Change-Readiness.md (cortisol mechanism),
+> Schema-Example.md §1 (tình yêu × trauma), Cortisol-Baseline.md (cortisol mechanism),
 > Architecture-v7.5-Draft.md (Body-Base layers), Body-Listening.md (nghe body signals)
 > **⚠️ File này KHÔNG thay thế therapy chuyên nghiệp.**
 > **⚠️ Trauma nặng CẦN chuyên gia. File này giải thích MECHANISM để HIỂU.**
@@ -409,7 +409,7 @@ TR5: Medication-assisted therapy mới (MDMA, psilocybin)?
 ```
 → Schema-Atlas-v2.md §2: schema formation + cross-contamination (trauma chunks lẫn vào)
 → Schema-Example.md §1: tình yêu × trauma (full lifecycle)
-→ Change-Readiness.md: cortisol × PFC damage × Amygdala strengthen
+→ Cortisol-Baseline.md: cortisol × PFC damage × Amygdala strengthen
 → Architecture-v7.5-Draft.md §2.5: schema override spectrum
 → Body-Listening.md: nghe body signals (hướng D foundation)
 → Crying-Analysis.md: khóc = body repair signal khi trauma fire

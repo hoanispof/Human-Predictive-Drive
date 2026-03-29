@@ -643,7 +643,7 @@ AS6: AI diagnostic — có thể dùng attention pattern để ước lượng s
 ## 11. Kết Nối
 
 ```
-→ Architecture-v7.5-Draft.md §1.5: Cognitive Parameters (PFC-Chunk-Size = DRD4)
+→ Architecture-v7.5-Draft.md §1.5: Cognitive Parameters (PFC-Attention / VTA-Chunk-Size = DRD4)
 → PFC-Analysis.md §8: Hypothesis D chi tiết (mechanism + evidence)
 → PFC-Analysis.md §8.3: VTA delta detection (tại sao VTA là "Google Maps")
 → Education-AI-Era-Draft.md: Classroom × spectrum implications
@@ -651,7 +651,7 @@ AS6: AI diagnostic — có thể dùng attention pattern để ước lượng s
 → Innovation-Geography.md: 7R + di cư + innovation
 → Addiction-Analysis-v2.md: 7R × gambling (near-miss chunk lớn)
 → Status-Analysis-v2.md: Status calibrate × spectrum
-→ Change-Readiness.md: Change-Readiness × spectrum position
+→ Cortisol-Baseline.md: Change-Readiness × spectrum position
 ```
 
 ---

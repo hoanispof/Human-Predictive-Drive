@@ -660,7 +660,7 @@ KỊCH BẢN C — SYMBIOSIS (hướng tối ưu):
         + AI giúp thiết kế tàu/habitat → lý do 1 triển khai NHANH hơn
 
   → = "Dù sao con người CŨNG sẽ ra vũ trụ — con người không thể dừng khám phá"
-  → (Chi tiết: Knowledge-Accumulation.md §6)
+  → (Chi tiết: Knowledge-Flow.md §8)
 ```
 
 ---

@@ -283,7 +283,7 @@ PFC QUALITY = HIỆU SUẤT GIẢ LẬP:
     → Met/Met (slow): giữ draft lâu → test 1 option SÂU → CHI TIẾT
     → = Clear-Speed = "thử nhiều sơ sơ hay ít nhưng kỹ"
 
-  PFC-Chunk-Size (DRD4):
+  PFC-Attention / VTA-Chunk-Size (DRD4):
     → 7R (big): nhận chunk LỚN → simulate ĐỘT PHÁ nhưng HIẾM
     → 4R (small): nhận chunk NHỎ → simulate CHI TIẾT + LIÊN TỤC
     → = Chunk-Size = "breakthrough hay incremental improvement"

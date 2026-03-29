@@ -482,7 +482,7 @@
 → Imagine-Final-Gradient.md: imagine final → dissonance CÓ NGHĨA → chịu được lâu hơn
 → Education-Bridge.md §0: con cần ước mơ TRƯỚC bridge
 → Education-Bridge.md §5.5 ④: the valley = dissonance peak
-→ Change-Readiness.md: cortisol baseline × dissonance sensitivity
+→ Cortisol-Baseline.md: cortisol baseline × dissonance sensitivity
 → Threat-Drive-Analysis.md: threat = intentional dissonance cho motivation
 → Why-Body-Knows.md: tại sao body signal ĐÁNG TIN
 → Mismatch-Patterns/Trauma-Recovery.md: trauma = dissonance compiled quá sâu

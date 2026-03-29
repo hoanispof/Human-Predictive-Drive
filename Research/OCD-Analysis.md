@@ -872,7 +872,7 @@ OCD-8: Lifestyle intervention → đo tuyến nào improve?
 → Core-v7.5-Draft.md §3: Change-Readiness → cortisol × OCD interaction
 → Schema-Example.md §1: Love lifecycle + serotonin giảm khi yêu
 → Status-Analysis-v2.md: Serotonin = certainty bias → foundation cho §5
-→ Change-Readiness.md: Cortisol mãn tính → PFC suy giảm → tuyến 3 yếu
+→ Cortisol-Baseline.md: Cortisol mãn tính → PFC suy giảm → tuyến 3 yếu
 → Mismatch-Patterns.md §P12: OCD as mismatch pattern + Marazziti reference
 → Characters.md §5.3b: Tesla OCD-like trajectory analysis
 → Novelty-Loop.md §3: Threat-schema + tension → link với OCD tension

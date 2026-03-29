@@ -38,6 +38,31 @@
     → Body respond: preview reward (opioid nhẹ) HOẶC không feel gì
     → Body response CÀNG MẠNH → motivation CÀNG MẠNH → chịu khó chịu CÀNG LÂU
 
+  ⭐ IMAGINE FINAL = DORMANT KHI HARMONY, FIRE KHI DISSONANCE:
+
+    Imagine final KHÔNG "always on" — nó KÍCH HOẠT bởi Body-Dissonance:
+
+    Cortisol THẤP (bãi biển, thoải mái):
+      → Body-base: MỌI layers met → dissonance ≈ 0
+      → Imagine final: NGỦ — compiled nhưng KHÔNG fire
+      → = Không ai nằm bãi biển hỏi "tôi nằm đây để làm gì?"
+      → = Body: "mọi thứ ỔN" → compass KHÔNG CẦN → dormant
+
+    Cortisol VỪA (đi làm, daily life):
+      → Dissonance nhẹ → imagine final ACTIVE NHẸ
+      → = "Tôi làm cái này VÌ..." → bridge daily dissonance
+
+    Cortisol CAO (khủng hoảng, đau khổ):
+      → Dissonance MẠNH → "TẠI SAO tôi chịu đựng?"
+      → Imagine final: CRITICAL — "tôi chịu VÌ CÁI NÀY"
+      → CÓ imagine final: "đau nhưng CÓ Ý NGHĨA" → chịu được
+      → KHÔNG imagine final: "đau VÀ VÔ NGHĨA" → sụp đổ
+
+    → = Người cortisol baseline THẤP: ÍT nghĩ "ý nghĩa cuộc đời"
+    → = Người cortisol baseline CAO: LUÔN nghĩ "ý nghĩa"
+    → = Triết gia thường KHỔ: cortisol cao → luôn hỏi "tại sao?"
+    → = Người "bình thường hạnh phúc": cortisol thấp → "sống vui là được"
+
   VÌ SAO CẦN PHÂN MỨC:
     → "Tôi có mục tiêu" ≠ "Tôi CẢM NHẬN được đích đến"
     → 2 người cùng nói "tôi muốn mở nhà hàng" — 1 người ở level Wish, 1 người ở level Vision
@@ -250,6 +275,30 @@
     → Khó khăn = nhiên liệu  → Level 5 (body fire mạnh hơn dissonance)
 
 
+  ⭐ PFC RECHECK — "vẫn đáng không?" (liên tục, không phải 1 lần):
+
+    PFC LIÊN TỤC cân: dissonance HIỆN TẠI vs imagine final STRENGTH
+
+    Imagine-Final strength > dissonance → TIẾP ("đáng chịu")
+    Imagine-Final strength < dissonance → BỎ ("không đáng")
+    Imagine-Final strength ≈ dissonance → SÁT → 1 event nhỏ = "giọt nước tràn ly"
+
+    VD: nhân viên + lương (Imagine-Final = tiền):
+      Mệt (dissonance 40) < tiền (IF 60) → tiếp
+      Sếp xúc phạm (dissonance SPIKE 90) > tiền (IF 60) → BỎ NGAY
+      → = Dissonance SPIKE vượt IF → PFC: "KHÔNG ĐÁNG" → quit
+
+    Imagine-Final STRENGTH phụ thuộc:
+      Unfalsifiable (tôn giáo) → strength ≈ vô hạn → gần như LUÔN > dissonance
+      Results confirm (CEO thành công) → strength TĂNG dần
+      Results KHÔNG (startup fail) → strength GIẢM dần → cuối cùng BỎ
+      Childhood compiled → strength CỰC CAO (khó lung lay)
+      Chỉ PFC tạo chưa body → strength THẤP (giai đoạn "fake it")
+
+    → = "Bỏ cuộc" KHÔNG BAO GIỜ bất ngờ — luôn có TÍCH LŨY trước đó
+    → = "Giọt nước tràn ly" = dissonance đã SÁT IF → 1 event nhỏ = tip
+
+
   ⚠️ CÙNG 1 NGƯỜI có thể ở NHIỀU LEVEL cho NHIỀU THỨ:
     → Career: Level 4 (vision rõ)
     → Health: Level 1 (wish "giá mà khỏe hơn")
@@ -320,6 +369,32 @@
       → 3 ngày sau: quên → vì body chưa bao giờ experience → simulate KHÔNG RÕ
     → = Tại sao "đi thực tập" MẠNH HƠN "đọc sách ngành":
       Thực tập = body experience thật → chunks THẬT → simulate RÕ → imagine final TĂNG
+
+
+  ⭐ IMAGINE-FINAL BOOTSTRAP — "fake it till you make it":
+
+    Imagine-Final CÓ THỂ TỰ NÂNG CẤP: chiến lược → action → results → genuine:
+
+    Bước 1: PFC TẠO IF (chưa body confirm): "mình SẼ build cái này"
+      → Level 2-3: Goal/Ambition — PFC biết, body chưa chắc
+    Bước 2: ACT AS IF → build → kết quả NHỎ → body: "ồ, có vẻ đúng"
+      → Level 3 → body BẮT ĐẦU confirm → Imagine-Final tăng
+    Bước 3: Kết quả TĂNG → body compile [nó hoạt động] → Imagine-Final MẠNH hơn
+      → Level 4: Vision → body THẤY + FEEL đích
+    Bước 4: Kết quả ĐỦ → body THẬT SỰ tin → Imagine-Final = genuine
+      → Level 4-5: Imagine-Final THẬT → không cần "fake" nữa
+
+    → = Imagine-Final CÓ THỂ TỰ BOOTSTRAP: PFC khởi đầu → results confirm → body take over
+    → = "Fake it till you make it" WORK khi: direction ĐÚNG + results ĐẾN
+    → = FAIL khi: direction SAI + results KHÔNG → fake mãi → delusion
+    → = Real-check (Melody-Arc §2 ⑥) phân biệt: bootstrap vs delusion
+
+    VD Jensen Huang (NVIDIA):
+      ~1993: "GPU sẽ quan trọng" → Imagine-Final chiến lược (thị trường nhỏ, chưa chắc)
+      ~2000s: GPU gaming THÀNH CÔNG → body: "đúng hướng" → Imagine-Final tăng
+      ~2012: GPU cho deep learning → results BẤT NGỜ → Imagine-Final NHẢY
+      ~2023: AI boom → Imagine-Final = 100% genuine (body + PFC + market cùng confirm)
+      → = IF bootstrap thành công: ~30 năm từ chiến lược → genuine
 ```
 
 ---
@@ -454,7 +529,7 @@
 → Education-Bridge.md §5.5: imagine final cho trẻ (per-age guide)
 → Education-Bridge.md §9 ⑦: compass CỦA BỐ MẸ ≠ compass CỦA CON
 → Core-v7.5-Draft.md §5: Body-Satisfaction, Body-Reward, Body-Dissonance (3 signals đo compass)
-→ Change-Readiness.md: cortisol modes (body-base state ảnh hưởng simulation quality)
+→ Cortisol-Baseline.md: cortisol modes (body-base state ảnh hưởng simulation quality)
 ```
 
 ---

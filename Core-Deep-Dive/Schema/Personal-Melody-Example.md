@@ -307,7 +307,7 @@ PROFILE: start melody center, thuận lợi ban đầu → NHƯNG gặp biến c
 → Global-Melody.md: melody cá nhân → tập thể
 → Schema-Atlas-v2.md: schema properties (không metaphor)
 → Attention-Spectrum.md: hardware profile KHÁC → start melody KHÁC
-→ Change-Readiness.md: cortisol modes → melody "tone"
+→ Cortisol-Baseline.md: cortisol modes → melody "tone"
 → Novelty-Loop.md: creative loop → melody sprint phase
 → Personal-Optimization.md: cách tối ưu melody CÁ NHÂN
 → Mismatch-Patterns/Trauma-Recovery.md: recovery khi melody bị gián đoạn

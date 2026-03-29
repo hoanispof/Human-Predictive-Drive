@@ -294,6 +294,16 @@ F7 — SHARED FOUNDATION CHUNKS → MELODY COHERENCE:
     → = KHÔNG ai "đúng" — 2 strategy KHÁC cho 2 mục đích KHÁC
     → = Đa số người CẦN stability hơn accuracy → tôn giáo FIT đa số
 
+  TẠI SAO IMAGINE-FINAL TÔN GIÁO GẦN NHƯ "VÔ TẬN" (PFC recheck model):
+    → PFC LIÊN TỤC cân: dissonance HIỆN TẠI vs Imagine-Final strength
+    → Imagine-Final bình thường (tiền, career): falsifiable → results CÓ THỂ disprove → GIẢM
+    → Imagine-Final tôn giáo: unfalsifiable → KHÔNG BAO GIỜ disprove → LUÔN ≈ vô hạn
+    → = Bên PHẢI cân = vô hạn → bên trái (dissonance) KHÔNG BAO GIỜ vượt
+    → = "Dù khổ cỡ nào → thiên đàng VẪN chờ" → PFC: "ĐÁNG" → tiếp
+    → = CEO: Imagine-Final = tiền → đạt → "rồi sao?" → TRỐNG (hết)
+    → = Tín đồ: Imagine-Final = thiên đàng → KHÔNG BAO GIỜ "rồi sao?" (chưa chết → chưa tới)
+    → (Chi tiết PFC recheck: Imagine-Final-Gradient.md §3)
+
   TẠI SAO EVIDENCE-BASED KHÔNG THAY ĐƯỢC FAITH:
     → Evidence = disconfirmable → foundation CÓ THỂ sụp
     → = "Mục đích sống based on science" → science ĐỔI → mục đích SỤP

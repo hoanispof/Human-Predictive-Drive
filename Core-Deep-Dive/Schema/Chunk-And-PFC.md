@@ -5,9 +5,9 @@
 > → Tìm thấy chunk [2+3=5] đã compiled → output "5."
 > Nếu KHÔNG tìm thấy → tách nhỏ → tìm lại → sequential.
 >
-> Não = DATABASE + SEARCH ENGINE.
-> PFC = người gõ tìm kiếm (tối đa 4 từ khóa cùng lúc).
-> "Thông minh" = database LỚN + chunks compiled SÂU → search HIT nhanh.
+> Não = DATABASE + 2 OPERATORS.
+> Vô thức = operator CHÍNH (~95%): compile, run, evaluate, process nền.
+> PFC = operator PHỤ (~5%): search, hold, direct — nhưng quyết định HƯỚNG.
 >
 > File này = CORE mechanism. Chi tiết search: Chunk-Search-Advanced.md.
 > Ứng dụng + failure modes: Chunk-Practical.md.
@@ -16,8 +16,6 @@
 
 > **Trạng thái:** DRAFT — hypothesis từ framework + neuroscience foundations
 > **Ngày:** 2026-03-28
-> **Mục đích:** Giải thích chunk LÀ GÌ, PFC DÙNG chunk thế nào,
-> và tại sao "tính toán" = "chuỗi tìm kiếm." CẦN VÀ ĐỦ — không thừa.
 > **Reference:** Schema-Operations.md, PFC-Analysis.md, Core-v7.5-Draft.md §5
 > **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
 
@@ -32,9 +30,9 @@
 
   CHƯA compiled (neurons rời):
     Thấy số "3" lần đầu:
-      → Neuron nhóm A: hình dạng "3" (visual cortex)
-      → Neuron nhóm B: âm "ba" (auditory cortex)
-      → Neuron nhóm C: ý nghĩa "số lượng 3" (association cortex)
+      → Nhóm A: hình dạng "3" (visual cortex)
+      → Nhóm B: âm "ba" (auditory cortex)
+      → Nhóm C: ý nghĩa "số lượng 3" (association cortex)
       → = 3 nhóm RIÊNG LẺ → PFC phải hold CẢ 3 → tốn 3 dimensions
 
   ĐÃ compiled (neurons wired):
@@ -44,25 +42,23 @@
       → = "Chunk" = compressed package
 
   CHUNK vs SCHEMA:
-    → Chunk = ATOM (1 đơn vị nhỏ nhất, không có purpose riêng)
+    → Chunk = ATOM (1 đơn vị, không có purpose riêng)
     → Schema = MOLECULE (nhiều chunks linked → có PURPOSE/FUNCTION)
-    → VD: chunk [đạp phanh] = 1 unit. Schema [lái xe] = mạng chunks → PURPOSE: di chuyển
-    → Schema có 3 trạng thái: compiled (auto-run), active (PFC dùng), monitor (nền)
-    → = File này focus CHUNK + PFC search. Schema chi tiết: Schema.md §1.1
+    → VD: chunk [đạp phanh]. Schema [lái xe] = mạng chunks → PURPOSE: di chuyển
+    → Schema chi tiết: Schema.md §1.1
 
   CHUNK MULTI-MODAL — span NHIỀU cortex:
     → VD: chunk "mẹ" = mặt (visual) + giọng (auditory) + ôm (somatic) + ấm (emotional)
-    → = 1 chunk DISTRIBUTED across toàn não
     → Fire 1 phần (nghe giọng mẹ) → KÉO cả chunk fire (nhớ mặt, nhớ ôm,...)
     → 🟢 Distributed representations (Rumelhart & McClelland 1986)
 ```
 
 ---
 
-## 2. Chunk Compilation — CÁCH Neurons Wire
+## 2. Chunk Lifecycle — Tạo, Sửa, Yếu (Không Xóa)
 
 ```
-🟡 4 CÁCH COMPILE:
+🟡 4 CÁCH COMPILE (tạo chunk mới):
 
   ① REPETITION — lặp lại nhiều lần:
     → Fire pattern 50 lần → connections strengthen → auto
@@ -88,173 +84,226 @@
     Expert lái xe: [LÁI XE] = 1 meta-chunk → fire 1 = tất cả auto → PFC freed
     → = Expert: 1 PFC slot = 1 meta-chunk = CỰC NHIỀU operations
 
-  CHUNK RECONSOLIDATION — sửa chunk đã compiled:
+  RECONSOLIDATION — sửa chunk đã compiled:
     → Khi chunk được RECALL → TẠM THỜI unstable (~vài giờ)
     → Trong window đó → CÓ THỂ modify → re-compile
     → = Therapy: recall trauma → reframe → re-compile = bớt đau
     → ⚠️ Recall MÀ KHÔNG modify → chunk STRENGTHEN → TỆ HƠN
     → 🟢 Memory reconsolidation (Nader 2000)
 
-  CHUNK DECAY — không dùng yếu dần:
+  DECAY — không dùng yếu dần:
     → "Quên" ≠ mất → "quên" = retrieval path YẾU
     → Re-exposure → "ồ NHỚ RỒI!" = path reactivate
     → Chunk compiled SÂU (childhood, emotional) = gần như không decay
     → 🟢 Savings in relearning (Ebbinghaus 1885)
+
+  ⚠️ KHÔNG AI XÓA ĐƯỢC CHUNK:
+    → Không có cơ chế "unwire" chủ động
+    → Chunk chỉ: STRENGTHEN / WEAKEN / MODIFY — KHÔNG delete
+    → = "Bỏ thói cũ" ≠ xóa → = chunk MỚI compile ĐỦ MẠNH → ĐÈ chunk cũ
+    → = Stress → PFC yếu → chunk cũ CÓ THỂ fire lại ("tái phát khi mệt")
 ```
 
 ---
 
-## 3. PFC = Search Engine, Không Phải Calculator
+## 3. Hai Operator — Vô Thức Chính, PFC Phụ
 
 ```
-🟡 PFC KHÔNG "tính" — PFC ORCHESTRATE quá trình tìm kiếm:
+🟡 CHUNK = DATA. Hai operator làm việc với CÙNG database:
 
-  MÔ HÌNH:
-    Não = DATABASE hàng tỉ chunks đã compiled
-    PFC = NGƯỜI GÕ tìm kiếm (tối đa ~4 từ khóa cùng lúc)
-    "Suy nghĩ" = gõ từ khóa → database search → output
 
-  VTA = CHUÔNG BÁO cho PFC:
-    → PFC KHÔNG tự biết khi nào cần search → VTA BÁO
-    → VTA detect: "input KHÁC prediction" → fire dopamine → PFC ALERT
-    → KHÔNG CÓ VTA alert → PFC KHÔNG BIẾT → compiled schemas tự chạy
+  ⭐ VÔ THỨC = OPERATOR CHÍNH (~95% processing):
 
-  PFC 4 DIMENSIONS = 4 TỪ KHÓA TÌM KIẾM:
-    → PFC hold tối đa ~4 chunks ACTIVE cùng lúc
-    → 4 chunks active = 4 search terms gửi vào database
-    → Database search pattern MATCH → output emerge
-    → 🟢 Working memory ~4 items (Cowan 2001)
+    COMPILE tự động: experience → neurons fire cùng → wire → chunk hình thành
+      → KHÔNG CẦN PFC → body TỰ wire
+      → = Đa số chunks = vô thức compile (không phải PFC tạo)
 
-  VD:
-    "2+3=?" → PFC hold [2]+[3]+[cộng] → search → HIT [2+3=5] → "5"
-    "247+389=?" → search MISS → tách nhỏ → 3 searches sequential → "636"
-    Game design: hold [stickman]+[combat]+[nhạc]+[2 bên] → search → HIT combo MỚI
+    RUN compiled schemas tự động: trigger match → schema fire → hành vi tự động
+      → VD: thấy chó → chạy. Cầm đũa → ăn. PFC KHÔNG tham gia.
 
-  → Search xong → output emerge → CHƯA XONG
-  → Body phải DUYỆT output (§6) → PFC chọn dựa trên body evaluation
-```
+    EVALUATE qua body signals:
+      → Body-Reward: "hay!" / Body-Dissonance: "kỳ kỳ" / Body-Satisfaction: "đủ"
+      → Vô thức evaluate TRƯỚC PFC biết (body feel trước PFC label)
 
----
+    PROCESS NỀN: đi bộ → sắp xếp chunks. Ngủ → hippocampus replay → consolidate.
+      → = "Sáng mai rõ hơn" = vô thức ĐÃ xử lý trong đêm
 
-## 4. "Tính" = Chuỗi Recall — Không Có Raw Computation
+    STRENGTHEN/WEAKEN tự động: dùng nhiều → mạnh. Không dùng → yếu (Hebbian).
 
-```
-🟡 MỌI "tính toán" ở level chunk = RECALL:
 
-  1 BƯỚC RECALL (compiled): "2+3=?" → [2+3=5] fire → "5" → INSTANT
-  SEQUENTIAL RECALL (chưa compiled): "(1+2)+4=?" → [1+2=3] → [3+4=7] → 2 bước
-  PROCEDURAL RECALL (dùng procedure): đếm ngón tay = recall [đếm] procedure
+  ⭐ PFC = OPERATOR PHỤ (~5% — nhưng quyết định HƯỚNG):
 
-  → = "Tính" = CHUỖI pattern matching, mỗi step = 1 recall
-  → = "Tính nhanh" = ÍT steps (chunks compiled lớn)
-  → = "Tính chậm" = NHIỀU steps (chunks nhỏ, phải tách)
+    SEARCH: hold 4 search terms → tìm chunks match
+    HOLD: giữ chunks active (4 modes — xem §4)
+    CREATE: imagine chunk MỚI → body check → compile
+    MODIFY: recall → window unstable → thay đổi → re-compile
+    DIRECT: chọn attention → quyết định chunks NÀO fire
 
-  SEQUENTIAL LIMIT:
-    → Mỗi step: output hold 1 slot → ÍT slots cho search terms
-    → Chuỗi 5+ steps → PFC HẾT slots → CẦN giấy / tools
-    → = Tại sao toán phức tạp CẦN viết ra — PFC alone KHÔNG đủ
+    → = Vô thức xây nhà (95%), PFC chọn XÂY Ở ĐÂU (5%)
+    → = CEO quyết định direction → team execute
 
-  VẬY "TÍNH" THẬT SỰ Ở ĐÂU:
-    Level NEURON: CÓ (voltage threshold → fire/not) = PHYSICS
-    Level CHUNK: KHÔNG (chunk fire hoặc không — pattern match)
-    Level PFC: KHÔNG (PFC orchestrate, không compute)
-    → = "Tính toán" conscious = ILLUSION — thật ra = chuỗi pattern matching
+
+  PHỐI HỢP 3 VAI:
+    PFC chỉ hướng: "TÌM CÁI NÀY" (hold search terms)
+    Vô thức tìm: spreading activation → match → "đây này!"
+    Body duyệt: evaluate kết quả → "đúng!" hoặc "kỳ kỳ"
+    PFC chọn: dựa trên body → giữ hoặc tìm tiếp
+
+    VTA = alert system: vô thức detect mismatch → alert PFC → "ồ, cái gì?"
+      → = Nhân viên thấy vấn đề → gọi sếp → sếp xử lý
 ```
 
 ---
 
-## 5. Dao Động — Search Mechanism Cơ Bản
+## 4. PFC Search — 4 Modes + Cortisol Amplify
 
 ```
-🟡 PFC hold 4 chunks → tạo ACTIVATION PATTERN → "sóng" lan database:
+🟡 PFC search = hold chunks → spreading activation = sóng CÓ HƯỚNG.
 
-  CƠ CHẾ:
-    → 4 chunks FIRE cùng lúc → kích hoạt neurons CONNECTED
-    → = "Sóng" lan từ 4 điểm → giao nhau ở đâu → ĐÓ là pattern match
-    → Giống: ném 4 viên đá vào hồ → sóng giao nhau = hit
-    → 🟢 Spreading activation (Collins & Loftus 1975)
+  PFC hold 4 chunks → sóng lan database → giao nhau ở đâu = hit
+  → 🟢 Spreading activation (Collins & Loftus 1975)
+  → 🟢 Working memory ~4 items (Cowan 2001)
 
-  RESONANCE — tinh tế hơn "hit or miss":
-    → Chunks ĐÚNG: HẤP THỤ dao động → fire RÕ NÉT → SIGNAL
-    → Chunks SAI: dao động PHẢN LẠI → TẠO NHIỄU → NOISE
-    → Output = signal-to-noise ratio đủ CAO → chunk rõ nhất = answer
 
-  CORTISOL × CHUNKS:
-    Cortisol CAO + ÍT chunks = noise >> signal → RỐI, đau đầu
-    Cortisol CAO + NHIỀU chunks = signal >> noise → INSIGHT
-    Cortisol THẤP + NHIỀU chunks = signal yếu → "biết nhưng lười nghĩ"
-    Cortisol VỪA + NHIỀU chunks = SWEET SPOT → Flow
+  ⭐ 4 MODES — cách PFC hold KHÁC → output KHÁC:
 
-  → = "Sáng tạo" = chunks đủ + dao động đủ = signal/noise CAO
+    QUICK SEARCH (giây — recall xong quên):
+      PFC hold [2+3] → hit [5] → RELEASE → quên
+      Cortisol: không tăng (quá nhanh)
+      VD: nhớ tên, tính nhẩm, lookup thông tin
+      → "Tính" = CHUỖI quick searches: (1+2)+4 → [1+2=3] recall → [3+4=7] recall
+
+    BODY NOVELTY (vô thức thuần — PFC KHÔNG tham gia):
+      External input → body fire TỰ ĐỘNG → dopamine → "thú vị!"
+      PFC KHÔNG hold → body TỰ absorb → không cần "nghĩ"
+      VD: trẻ vào cửa hàng đồ chơi, cặp đôi ở CÙNG nhau calibrate melody
+      = INPUT-DRIVEN: cơ chế CỔ NHẤT (mọi động vật có)
+
+    LOOSE HOLD (phút-giờ — vừa đi vừa nghĩ):
+      PFC hold NHẸ [vấn đề] → body RELAX (đi bộ, tắm)
+      Sóng GENTLE, lan RỘNG nhưng NHẸ → insight BẤT NGỜ
+      CÓ THỂ thả bất kỳ lúc nào → KHÔNG có threat
+      VD: Archimedes bồn tắm, Einstein đi bộ, cặp đôi xa nhau nhớ nhau
+      = CREATIVE mode → Novelty-dominant THƯỜNG ở mode này
+      → Phát sinh TRỰC TIẾP từ curiosity, HOẶC từ active lock NỚI
+
+    ACTIVE LOCK (giờ-ngày — ép body thực thi):
+      = LOOSE HOLD + THREAT gắn vào → biến loose thành LOCK
+      → "Sợ quên idea" / "Deadline mai" / "Để lâu càng lười" = threat
+      → THREAT khiến PFC KHÔNG THỂ thả → phải HOÀN THÀNH
+      → Body BỊ ÉP align → LÀM hoặc double dissonance
+      = EXECUTION mode — "vừa chơi vừa lo" = PFC lock + body chơi = WORST
+      → Fix: LÀM (alignment) hoặc GHI RA GIẤY (remove "sợ quên" → release)
+      → 🟢 Zeigarnik Effect (1927)
+
+  ⭐ THREAT = CÔNG TẮC loose ↔ lock:
+    LOOSE + threat = LOCK. LOCK − threat = LOOSE.
+    CEO giỏi = TOGGLE đúng lúc + đúng mức:
+      BẬT khi execute / TẮT khi creative / TINH CHỈNH: vừa = productive, quá = freeze
+    → (Novelty-Loop.md §3.2, Threat-Drive-Analysis.md §12)
+
+
+  ⭐ CORTISOL = VOLUME LOA (amplifier, KHÔNG phải driver):
+
+    PFC = người gõ search (TÌM GÌ). Cortisol = volume (tìm MẠNH cỡ nào).
+    → KHÔNG phải "cortisol TẠO dao động" → mà "cortisol AMPLIFY search"
+
+    Cortisol THẤP: sóng yếu → hit ít → "biết nhưng lười nghĩ"
+    Cortisol VỪA: sóng vừa → hit rõ + noise thấp → SWEET SPOT (flow)
+    Cortisol CAO + NHIỀU chunks: sóng mạnh + hits nhiều → INSIGHT cross-domain
+      VD: Einstein → physics+toán+triết → hit chéo → E=mc²
+    Cortisol CAO + ÍT chunks: sóng mạnh + không gì match → NOISE, RỐI
+      VD: sinh viên năm nhất → stress → "rối, đau đầu"
+
+    → = CÙNG căng thẳng → GIỎI ra insight, MỚI ra rối
+    → = Không "căng thẳng tốt/xấu" → mà "căng thẳng + CHUNKS cỡ nào"
+
+
+  ⭐ KẾT QUẢ — chunks SÁNG hay không:
+
+    Sóng tới chunk KHỚP → chunk SÁNG → "ồ, cái này!"
+    Sóng tới chunk KHÔNG khớp → lướt qua
+
+    VD hit: [game+combat+nhạc+2 bên] → [rhythm game] SÁNG + [side-scroll] SÁNG
+      → "Rhythm combat side-scroll!" = INSIGHT
+
+    VD miss: [kiếm tiền+nhanh+ít vốn] → KHÔNG gì sáng
+      → "Nghĩ mãi không ra" = database THIẾU
+
+  → = "Sáng tạo" = PFC hold ĐÚNG + cortisol ĐỦ + chunks MATCH
   → (Chi tiết: Chunk-Search-Advanced.md)
 ```
 
 ---
 
-## 6. Body Evaluate — PFC Tìm, Body Duyệt
+## 5. Body Evaluate — PFC Tìm, Body Duyệt
 
 ```
 🟡 PFC search → output emerge → body DUYỆT:
 
-  → PFC present output → body simulate → body check "feel ĐÚNG?"
-  → Body-Reward: "HAY!" → PFC giữ output
-  → Body-Dissonance: "KỲ KỲ" → PFC discard → search lại
+  → Body-Reward: "HAY!" → PFC giữ
+  → Body-Dissonance: "KỲ KỲ" → PFC search lại
   → Body neutral: "hmm" → PFC hold → tìm thêm data
-  → = PFC TÌM, body DUYỆT, PFC CHỌN dựa trên body
   → = "Trực giác" = body evaluate TRƯỚC PFC articulate
 
-  ⚠️ Body evaluate CÓ THỂ SAI (confirmation bias):
-    → Body evaluate bằng chunks ĐÃ CÓ → chunks cũ SAI → evaluate SAI
-    → Fix: real-check + đa dạng experience → build chunks mới
+  ⚠️⚠️⚠️ "FEEL MƯỢT" ≠ "ĐÚNG":
+
+    Body evaluate bằng chunks ĐÃ CÓ → chunks sai → evaluate SAI
+
+    3 cấp: cá nhân bias → nhóm bias → toàn cầu bias
+      VD toàn cầu: "cortisol = stress" → ngàn papers → "hiển nhiên" → thật ra giản lược
+
+    MƯỢT GIẢ: mâu thuẫn → DISMISS → mãi mâu thuẫn ngầm
+    MƯỢT THẬT: mâu thuẫn → FIX → mượt HƠN → thấy mâu thuẫn MỚI sâu hơn → fix tiếp
+
+    Fix: real-check, đa dạng input, challenge, honest assessment 🟡🔴
     → (Chi tiết: Chunk-Practical.md)
 ```
 
 ---
 
-## 7. Attention = Query Design — Chọn TÌM CÁI GÌ
+## 6. Attention = Query Design
 
 ```
 🟡 PFC hold 4 terms — nhưng CHỌN 4 terms NÀO?
 
-  ATTENTION = PFC chọn 4 chunks NÀO để search = THIẾT KẾ CÂU HỎI:
-    Expert: chọn terms CỤ THỂ → hit NHANH
-    Beginner: chọn terms MƠ HỒ → miss hoặc noise
+  ATTENTION = thiết kế CÂU HỎI:
+    Expert: terms CỤ THỂ → hit NHANH
+    Beginner: terms MƠ HỒ → miss
     → = "Hỏi đúng câu hỏi = NỬA đáp án"
     → = "Biết cách tìm" = META-CHUNK compiled qua kinh nghiệm
 
-  ⚠️ EMOTIONAL TAGS = "search term NGẦM" mà PFC không biết:
-    → Chunks có EMOTIONAL TAG từ amygdala (nguy hiểm / an toàn / vui / buồn)
-    → Emotional state hiện tại BIAS search:
-      Đang sợ → chunks tagged [threat] fire MẠNH → thấy nguy hiểm KHẮP NƠI
-      Đang vui → chunks tagged [reward] fire MẠNH → thấy cơ hội KHẮP NƠI
-    → = PFC TƯỞNG search neutral → emotional tag ĐÃ filter SẴN
+  ⚠️ EMOTIONAL TAGS = search term NGẦM:
+    Chunks có TAG từ amygdala → emotional state BIAS search:
+    Đang sợ → chunks [threat] fire MẠNH → thấy nguy hiểm KHẮP NƠI
+    Đang vui → chunks [reward] fire MẠNH → thấy cơ hội KHẮP NƠI
+    → = PFC TƯỞNG neutral → emotional tag ĐÃ filter SẴN
     → (Chi tiết: Chunk-Search-Advanced.md)
 ```
 
 ---
 
-## 8. Expert vs Beginner — Cùng PFC, Khác Database + Query
+## 7. Expert vs Beginner — Cùng PFC, Khác Database
 
 ```
-🟡 "Thông minh" = database GIÀU + query design TỐT:
+🟡 "Thông minh" = database GIÀU + query TỐT:
 
-  BEGINNER: database NHỎ + query MƠ HỒ → search CHẬM, HẸP
-  EXPERT:   database LỚN + query CỤ THỂ → search NHANH, CHÍNH XÁC
-  THIÊN TÀI: database CROSS-DOMAIN + query MỚI → hit ở chỗ CHƯA AI THỬ
+  BEGINNER: database NHỎ + query MƠ HỒ → CHẬM, HẸP
+  EXPERT:   database LỚN + query CỤ THỂ → NHANH, CHÍNH XÁC
+  THIÊN TÀI: database CROSS-DOMAIN + query MỚI → hit CHƯA AI THỬ
 
-  → CÙNG PFC (~4 slots) nhưng:
-    Beginner: mỗi slot = chunk NHỎ → ít info per search
-    Expert: mỗi slot = meta-chunk (§2 hierarchy) → CỰC NHIỀU info per search
-    → = "Cùng 4 slots — khác KÍCH THƯỚC mỗi slot"
+  → CÙNG PFC (~4 slots):
+    Beginner: slot = chunk NHỎ → ít info
+    Expert: slot = meta-chunk → CỰC NHIỀU info
+    → = "Cùng 4 slots — khác SIZE mỗi slot"
 
-  → = "Thông minh" KHÔNG phải "PFC mạnh hơn"
-  → = "Thông minh" = database lớn + compiled sâu + query design giỏi
-  → = TẤT CẢ đều TRAINABLE (không phải talent cố định)
+  → = "Thông minh" = database + compiled depth + query skill
+  → = TẤT CẢ TRAINABLE (không phải talent cố định)
 ```
 
 ---
 
-## 9. Honest Assessment
+## 8. Honest Assessment
 
 ```
   ESTABLISHED (🟢):
@@ -269,45 +318,53 @@
     🟢 Distributed representations (Rumelhart & McClelland 1986)
     🟢 Sleep consolidation (Walker 2017)
     🟢 Savings in relearning (Ebbinghaus 1885)
+    🟢 Zeigarnik Effect (1927)
 
   FRAMEWORK SUY LUẬN (🟡):
     🟡 "Não = search engine" — consistent với connectionist models
     🟡 "Tính = chuỗi recall" — consistent với ACT-R (Anderson 1993)
-    🟡 "4 dimensions = 4 search terms" — consistent với content-addressable retrieval
-    🟡 "Resonance signal/noise" — consistent với signal detection theory
-    🟡 "Attention = query design" — consistent với biased competition (Desimone 1995)
-    🟡 "Emotional tags = hidden search term" — consistent với affect-as-information
-    🟡 "Expert = database + query" — consistent với expertise research
+    🟡 "4 modes hold" — consistent với working memory + incubation research
+    🟡 "Vô thức chính (~95%), PFC phụ (~5%)" — consistent với
+        unconscious processing literature (Dijksterhuis 2004)
+    🟡 "Threat = công tắc loose↔lock" — consistent với Zeigarnik + motivation
+    🟡 "Cortisol = amplifier" — consistent với arousal × performance
+    🟡 "Không xóa chunk" — consistent với memory persistence research
+    🟡 "Attention = query design" — consistent với biased competition
+    🟡 "Emotional tags = hidden search" — consistent với affect-as-information
+    🟡 "Feel mượt ≠ đúng" — consistent với confirmation bias literature
 
   HYPOTHESIS (🔴):
-    🔴 "KHÔNG CÓ true computation ở level chunk" — debate ongoing in cognitive science
-    🔴 "Resonance" metaphor — neural dynamics phức tạp hơn
-    🔴 "Cortisol → sóng rộng → insight" — logical, chưa directly measured
+    🔴 "KHÔNG CÓ true computation ở level chunk" — debate ongoing
+    🔴 "~95%/5% split" — ước lượng, chưa đo chính xác
+    🔴 "Cortisol AMPLIFY search" — logical nhưng chưa directly measured
 ```
 
 ---
 
-## 10. Kết Nối
+## 9. Kết Nối
 
 ```
-→ Chunk-Search-Advanced.md: resonance chi tiết, aha mechanism, incubation, priming, emotional tags
-→ Chunk-Practical.md: external tools, transfer, interference, failure modes, ứng dụng
-→ Schema-Operations.md §8: PFC simulate (= search + body evaluate)
-→ Schema-Operations.md §4: VTA detect biến động (= alert PFC search)
-→ PFC-Analysis.md §2: PFC sub-regions (hardware for orchestration)
-→ Core-v7.5-Draft.md §4.1.4: cortisol → neurons fire mạnh → cross-connection
-→ Personal-Melody.md §6.1: investment cost = BUILD database
-→ Melody-Arc.md §4 ①: anchor first = link chunk mới với database CŨ
-→ Education-Bridge.md §5.5: mini-arcs = build chunks từ nhỏ → lớn
-→ Imagine-Final-Gradient.md §4: nâng level = NẠP chunks THẬT
-→ Body-Dissonance.md: dissonance = body signal khi search MISS hoặc CONFLICT
+→ Chunk-Search-Advanced.md: resonance, aha, incubation, priming, emotional tags
+→ Chunk-Practical.md: tools, transfer, interference, failure modes, ứng dụng
+→ Schema.md §1.1: schema = mạng chunks có purpose (3 trạng thái)
+→ Schema-Operations.md §8: PFC simulate = search + body evaluate
+→ Schema-Operations.md §4: VTA detect biến động
+→ PFC-Analysis.md §2: PFC sub-regions
+→ Core-v7.5-Draft.md §3: Cortisol-Baseline (7 modes, amplifier)
+→ Personal-Melody.md §6.1: investment cost = build database
+→ Melody-Arc.md §4: anchor first, mini-arc
+→ Education-Bridge.md §5.5: arc design cho learning
+→ Imagine-Final-Gradient.md §4: nạp chunks THẬT
+→ Body-Dissonance.md: dissonance = body signal khi mismatch
 → Connection.md §3: virtual chunks = access database NGƯỜI KHÁC
+→ Novelty-Loop.md §3.2: threat = sàn giữ loop (threat toggle)
+→ Threat-Drive-Analysis.md §12: threat-drive tốt khi nào
 ```
 
 ---
 
-> *Chunk & PFC — "Não không phải máy tính. Não là Google.
-> Mỗi lần 'suy nghĩ' = gõ tìm kiếm (4 từ khóa max).
-> Kết quả = pattern match từ database chunks đã compiled.
-> 'Thông minh' = database lớn + query giỏi.
-> 'Sáng tạo' = search terms MỚI → hit ở chỗ chưa ai thử."*
+> *Chunk & PFC — "Não = database + 2 operators.
+> Vô thức xây 95% (compile, run, evaluate). PFC chỉ 5% (search, hold, direct).
+> Nhưng 5% đó quyết định HƯỚNG. 'Thông minh' = database lớn + query giỏi.
+> 'Sáng tạo' = search terms MỚI → hit ở chỗ chưa ai thử.
+> Threat = công tắc: bật → ép làm, tắt → creative. Toggle đúng lúc = CEO giỏi."*

@@ -741,8 +741,8 @@
 → Education-Bridge.md: calibration per-age, per-hardware (apply melody arc cho giáo dục)
 → PFC-Analysis.md §2.2.1: mPFC × Theory of Mind (observer capability)
 → Core-v7.5-Draft.md §5: Body-Satisfaction, Body-Reward, Body-Dissonance (3 signals trong arc)
-→ Change-Readiness.md: cortisol 7 modes (body-base state during arc)
-→ Knowledge-Accumulation.md: chunk accumulation → compile → aha moment
+→ Cortisol-Baseline.md: cortisol 7 modes (body-base state during arc)
+→ Knowledge-Flow.md: chunk accumulation → compile → aha moment
 → Novelty-Loop.md §3.2: threat as floor (bridge in valley)
 → Threat-Drive-Analysis.md §12: when threat-drive is good (bridge for large arcs)
 ```

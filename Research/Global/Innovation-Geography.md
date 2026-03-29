@@ -232,7 +232,7 @@ VÍ DỤ HIỆN ĐẠI — AI ERA:
 
   Liên kết:
     → Conflict-Dynamics.md: Conflict = Overlap × Scarcity × Commitment
-    → Knowledge-Accumulation.md §3: baseline shift → old domain → new domain
+    → Knowledge-Flow.md §3: baseline shift → old domain → new domain
     → Global-Melody.md §6: domain match → center crowded → edge differentiation
 ```
 
@@ -1127,7 +1127,7 @@ FRAMEWORK CONNECTIONS:
   Conflict-Dynamics.md: Conflict = Overlap × Scarcity × Commitment
     → §2.4 nối formula vào: competition trong domain → forced expansion
     → Speciation analogy: cùng niche → cạnh tranh → niche split
-  Knowledge-Accumulation.md §3: baseline shift → old domain obsolete → new domain
+  Knowledge-Flow.md §3: baseline shift → old domain obsolete → new domain
   Global-Melody.md §6: domain melody + center crowded → edge differentiation
   Macro-Civilization.md: civilization innovation patterns
   Chemical-Enhancement-Notes.md: chemicals help PROCESS chunks, nhưng chunks phải CÓ trước

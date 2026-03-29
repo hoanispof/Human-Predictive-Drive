@@ -10,9 +10,9 @@
 > - L3 bộ ba: Novelty(expand) + Status(map) + Protect(defend) — mọi động vật xã hội có
 > - Imagine (Novelty-Schema + Threat-Schema) = PFC layer, LUÔN phục vụ Body-Base
 > - Schema xuyên suốt body → imagine, chunk = đơn vị nhỏ nhất
-> - Change-Readiness (cortisol baseline) quyết định "mode" hoạt động của imagine
-> - Change-Readiness = biến ảo (function), nhiều hormones map vào:
->   Baseline (cortisol chính) + Emergency-Alert (NE+Adrenaline chính) + Neural-Wear (side effect)
+> - Cortisol-Baseline quyết định "mode" hoạt động của imagine (7 modes: IDLE→CRASH)
+> - Cortisol = hormone SUSTAIN (không gây stress ban đầu — NE+adrenaline gây)
+> - Cortisol-Baseline = mức cortisol NỀN, shift từ từ (giờ→ngày), quyết định mode
 > - Priority khi conflict: L0 > L1 > L2 > L3 (schema override ĐƯỢC nếu redefine alive)
 > **⚠️ Chưa quyết định. Cần test với nhiều case trước khi thay Core.**
 
@@ -40,8 +40,8 @@
 │  │  │      PFC-Capacity:    chất lượng 4±1 dimensions workspace    │  │  │
 │  │  │        (resolution, noise filter, retrieval, compress) │  │  │
 │  │  │      PFC-Clear-Speed: COMT (Val/Val fast ↔ Met/Met slow) │  │  │
-│  │  │      Attention-Threshold (PFC-Chunk-Size):                 │  │  │
-│  │  │        DRD4 — ngưỡng biến động não mà PFC detect được   │  │  │
+│  │  │      PFC-Attention (VTA-Chunk-Size):                        │  │  │
+│  │  │        DRD4 — VTA detect chunk size nào → PFC attend theo│  │  │
 │  │  │        7R: chỉ detect biến động LỚN (big+slow)          │  │  │
 │  │  │        4R: detect cả biến động NHỎ (small+fast)          │  │  │
 │  │  │        (chi tiết: Attention-Spectrum.md)                  │  │  │
@@ -86,8 +86,8 @@
 │  │  └──────────────────────────────────────────────────────────┘  │  │
 │  │                                                                │  │
 │  │  ┌──────────────────────────────────────────────────────────┐  │  │
-│  │  │ CHANGE-READINESS (cortisol baseline)                       │  │  │
-│  │  │  = "Neurons sẵn sàng thay đổi pattern"                  │  │  │
+│  │  │ CORTISOL-BASELINE                                            │  │  │
+│  │  │  = Mức cortisol NỀN → quyết định "mode" neurons          │  │  │
 │  │  │  7 modes: IDLE→LAZY→ACTIVE→FOCUSED→PUSH→FREEZE→CRASH   │  │  │
 │  │  │  Sweet spot: VỪA→HƠI CAO = imagine phục vụ body tốt nhất│  │  │
 │  │  └──────────────────────────────────────────────────────────┘  │  │
@@ -101,8 +101,8 @@
 │  │  ┌──────────────────────────────────────────────────────────┐  │  │
 │  │  │ HORMONE PHỤ GIA (hỗ trợ toàn hệ thống)                   │  │  │
 │  │  │  Activation: NE, Adrenaline, Dopamine (cross-cutting)   │  │  │
-│  │  │  Change-Readiness = BIẾN ẢO (function, nhiều hormones):   │  │  │
-│  │  │    Baseline (cortisol chính — sẵn sàng thay đổi nền)  │  │  │
+│  │  │  Cortisol-Baseline:                                        │  │  │
+│  │  │    = Mức cortisol NỀN (shift từ từ, quyết định mode)   │  │  │
 │  │  │    Emergency-Alert (NE+Adrenaline — spike tức thì,     │  │  │
 │  │  │      cortisol tới SAU sustain rồi merge baseline)      │  │  │
 │  │  │    Neural-Wear (side effect kéo dài × thiếu repair)    │  │  │
@@ -120,6 +120,16 @@
 │  │  ║  Gradient: body-need (sâu) → values (giữa) → skills (nông)║  │
 │  │  ║  Vô tận — AI hỗ trợ bắt buộc                            ║  │  │
 │  │  ╚══════════════════════════════════════════════════════════╝  │  │
+│  │                                                                │  │
+│  │  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄  │  │
+│  │  ┊ MELODY (emergent — KHÔNG phải component riêng)            ┊  │  │
+│  │  ┊  = Total state khi TẤT CẢ ở trên chạy CÙNG LÚC          ┊  │  │
+│  │  ┊  = Hardware × Body-Base × Cortisol × Imagine × Schema     ┊  │  │
+│  │  ┊  Mỗi người = 1 melody RIÊNG (unique combination)         ┊  │  │
+│  │  ┊  Bị kéo bởi 2 trục: Body-Base (smooth) ↔ Domain (adapt)  ┊  │  │
+│  │  ┊  Build qua sóng: peak (dissonance) → trough (smooth)      ┊  │  │
+│  │  ┊  (chi tiết: Personal-Melody.md, Global-Melody.md)         ┊  │  │
+│  │  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄  │  │
 │  │                                                                │  │
 │  └────────────────────────────────────────────────────────────────┘  │
 │                                                                      │
@@ -174,7 +184,7 @@ COGNITIVE PARAMETERS — ảnh hưởng chéo lẫn nhau:
        → Met/Met: linger LÂU → draft giữ → tiếp tục trên nền cũ → specialist tendency
        → = KHÔNG phải "chọn" improviser/specialist — hardware BIAS, experience fine-tune
 
-    ③ Attention-Threshold (PFC-Chunk-Size) — ngưỡng biến động não mà PFC detect được:
+    ③ PFC-Attention (VTA-Chunk-Size) — VTA detect chunk size nào → PFC attend theo:
        (DRD4 receptor — chi tiết: Attention-Spectrum.md)
 
        CƠ CHẾ:
@@ -669,28 +679,29 @@ Xác thực — MỌI schema, MỌI hành vi trace về body-base:
 
 ---
 
-## 3. CHANGE-READINESS — Neurons Sẵn Sàng Thay Đổi Pattern
+## 3. CORTISOL-BASELINE — Mức Cortisol Nền Quyết Định Mode
 
 ```
 "Hệ thống đang ở mức sẵn sàng THAY ĐỔI nào"
-Hormone chính: Cortisol baseline
-(Tên cũ: "Baseline-drive" → đổi thành "Change-Readiness" cho rõ function)
 
-⭐ CHANGE-READINESS = BIẾN ẢO (function name):
-  → "Mức độ sẵn sàng thay đổi pattern của toàn hệ thống"
-  → KHÔNG phải 1 hormone → là TỔNG HỢP nhiều hormones
-  → KHÔNG bind vào cortisol riêng → cortisol là candidate CHÍNH cho baseline
-  → Function CHẮC CHẮN CÓ → hormone map CÓ THỂ thêm/sửa khi có research mới
+⭐ CORTISOL-BASELINE = mức cortisol NỀN trong body:
+  → Cortisol = hormone SUSTAIN (giữ neurons sẵn sàng thay đổi pattern)
+  → ⚠️ Cortisol KHÔNG GÂY stress ban đầu (NE + adrenaline gây — trong giây)
+  → ⚠️ Cortisol TỚI SAU (phút) → SUSTAIN trạng thái mobilized → merge vào baseline
+  → Baseline SHIFT TỪ TỪ (giờ → ngày → tháng) — KHÔNG spike như NE
+  → Baseline quyết định "MODE" hoạt động của toàn hệ thống (7 modes bên dưới)
 
-  3 TRẠNG THÁI (cùng biến, KHÁC mức độ + hormones):
+  (Tên cũ: "Change-Readiness" → đổi thành "Cortisol-Baseline" cho cụ thể hơn.
+   Cortisol = dominant mechanism. Dùng tên hormone trực tiếp thay vì function name.)
 
-  ① CHANGE-READINESS BASELINE:
-     → "Nền sẵn sàng thay đổi hàng ngày"
-     → Hormone CHÍNH: cortisol baseline
-     → Hormone PHỤ: NE tonic (nền), serotonin nền, và có thể khác
+
+  3 TRẠNG THÁI liên quan cortisol (cùng hormone, KHÁC timeline):
+
+  ① CORTISOL-BASELINE (nền, shift từ từ):
+     → Mức cortisol NỀN hàng ngày
      → Cortisol baseline → glutamate tăng → neurons fire MẠNH + KHÁC bình thường
      → = "Năng lượng rung" cho vô thức thử pattern mới
-     → Level thấp: ổn định, không thay đổi → Level cao: rung mạnh, linh hoạt
+     → Level thấp: ổn định, ít thay đổi → Level cao: rung mạnh, linh hoạt
      → Quyết định "mode" mà Imagine hoạt động (7 modes bên dưới)
 
   ② EMERGENCY-ALERT (spike tức thì):
@@ -707,7 +718,7 @@ Hormone chính: Cortisol baseline
      → ⚠️ Emergency-Alert từ ĐAU VẬT LÝ vs ĐAU SCHEMA = KHÁC:
        Vật lý: CÓ endorphin buffer → đau mạnh nhưng TỰ GIẢM
        Schema: KHÔNG CÓ endorphin → đau KÉO DÀI + có thể loop
-       (chi tiết: Change-Readiness.md §10.6)
+       (chi tiết: Cortisol-Baseline.md §10.6)
 
   ③ NEURAL-WEAR (side effect — khi balance lệch):
      → "Hao mòn tích lũy" — KHÔNG phải function riêng → là HỆ QUẢ
@@ -719,16 +730,46 @@ Hormone chính: Cortisol baseline
      → KHÔNG phải cortisol hay NE "gây hại" → hormone chỉ kích thích
      → HẠI từ: IMBALANCE (hoạt động > repair), KHÔNG từ hormone bản thân
 
-  ⚠️ AI note: CHANGE-READINESS = BIẾN ẢO:
-     → Nhiều hormones tham gia: cortisol (baseline), NE+Adrenaline (spike), và khác
-     → KHÔNG gom "cortisol = Change-Readiness" (cortisol chỉ là 1 candidate chính)
-     → KHÔNG gom "cortisol = xấu" hay "cortisol = tốt"
-     → Mọi hormone = KÍCH THÍCH → tốt/xấu TÙY balance hoạt động + repair
+  ⚠️ LƯU Ý VỀ CORTISOL:
+     → Cortisol = hormone DOMINANT cho baseline → dùng tên trực tiếp
+     → KHÔNG phải "cortisol = xấu" hay "cortisol = tốt"
+     → Cortisol = SUSTAINER (giữ neurons mobilized) → tốt/xấu TÙY MỨC ĐỘ + THỜI GIAN
+     → Vừa đủ + có recovery: TỐT (neurons linh hoạt, sáng tạo)
+     → Quá cao + không recovery: XẤU (PFC suppress, neural wear)
+     → Mọi hormone = CÔNG CỤ → tốt/xấu TÙY balance hoạt động + repair
 
-CHỨC NĂNG CHANGE-READINESS (baseline):
+CHỨC NĂNG CORTISOL-BASELINE (baseline):
   → Duy trì sự SẴN SÀNG THAY ĐỔI cho neurons
   → Thường ổn định (thay đổi chậm, tích lũy từ threat spikes)
   → Quyết định "mode" mà Imagine hoạt động
+
+  ⭐ PFC HOLD = PRIMARY, CORTISOL = AMPLIFIER:
+
+    FLOW ĐÚNG:
+      PFC HOLD [task/goal] → VTA "chưa xong!" → cortisol TĂNG (side effect)
+      → PFC SEARCH (4 terms, spreading activation = sóng CÓ HƯỚNG)
+      → Cortisol AMPLIFY (neurons fire mạnh hơn → sóng lan RỘNG hơn)
+      → Chunks MATCH → fire rõ → solution. KHÔNG match → noise.
+
+    = PFC = người gõ search (CHỦ ĐỘNG, khởi tạo)
+    = Cortisol = volume loa (KHUẾCH ĐẠI sóng search)
+    = Chunks = database (MATCH hoặc MISS)
+    = KHÔNG PHẢI "cortisol tạo dao động random" → mà "PFC search + cortisol amplify"
+
+    Cortisol CAO + NHIỀU chunks = search amplified + hits NHIỀU = INSIGHT
+    Cortisol CAO + ÍT chunks = search amplified + hits ÍT = NOISE, RỐI
+    Cortisol THẤP + NHIỀU chunks = search YẾU + hits có nhưng MỜ = "biết mà lười nghĩ"
+    → = CÙNG cortisol → KHÁC output TÙY database chunks
+    → (Chi tiết: Chunk-And-PFC.md §4, Chunk-Search-Advanced.md §1)
+
+  ⭐ ACTIVE SCHEMA LOCK — PFC hold task chưa xong → cortisol TĂNG:
+    → PFC hold [task chưa xong] → VTA fire LIÊN TỤC "chưa giải quyết!"
+    → Cortisol-Baseline TĂNG DẦN cho đến khi task XONG
+    → Thử đi chơi khi PFC vẫn hold = DOUBLE dissonance (task + mismatch)
+    → LÀM task = SINGLE dissonance (chỉ difficulty) = manageable
+    → = "Vừa chơi vừa lo" = PFC hold + body misalignment → WORST state
+    → = 🟢 Zeigarnik Effect (1927): unfinished tasks tạo tension hơn finished
+    → (Chi tiết: Chunk-And-PFC.md §4, Chunk-Practical.md §3)
 
 7 MODES (theo mức cortisol baseline):
 
@@ -818,7 +859,7 @@ CHỨC NĂNG CHANGE-READINESS (baseline):
 
 SWEET SPOT — Imagine phục vụ Body đúng:
 
-  Change-Readiness là "dây cương" nối imagine với body:
+  Cortisol-Baseline là "dây cương" nối imagine với body:
 
   Quá thấp:  imagine YẾU → body enjoy tốt nhưng không CẢI THIỆN
              → Virtuous cho wellbeing, nhưng không grow
@@ -837,7 +878,7 @@ SWEET SPOT — Imagine phục vụ Body đúng:
              → = "Amplifier Trap" ở mức SYSTEM
 
   Ví dụ disconnect:
-    Ban đầu: body "mệt, cần nghỉ" → Change-Readiness tăng → imagine "xong deadline đã"
+    Ban đầu: body "mệt, cần nghỉ" → Cortisol-Baseline tăng → imagine "xong deadline đã"
     Cortisol tăng: body signal YẾU DẦN → imagine MẠNH DẦN
     Cortisol cao: body "..." (suppress) → imagine "scroll/hustle/overthink!"
     Kết quả: ăn qua loa, ngủ ít, scroll liên tục, hustle liên tục
@@ -1073,7 +1114,7 @@ Hormone: Dopamine (seeking + prediction reward)
       → = "Thoải mái hoàn toàn + không input mới = KHÔNG novelty deep"
       → = Einstein relax bãi biển = người bình thường (nếu cortisol zero)
 
-    → (Chi tiết: Imagination-Analysis-v2.md, Change-Readiness.md)
+    → (Chi tiết: Imagination-Analysis-v2.md, Cortisol-Baseline.md)
 ```
 
 ### 4.1.5 Novelty × Threat = CÙNG Mechanism
@@ -1132,9 +1173,9 @@ Hormone: NE (activation) + Cortisol spike → cortisol sustain
     → PFC tham gia: simulate hậu quả, plan tránh
     → Reward = absence of bad (cortisol drop, "phù nhẹ nhõm")
     → Body-Satisfaction: GẦN NHƯ KHÔNG CÓ → drive khó dừng → anxiety
-    → = Drive CHỈ khi Change-Readiness ĐỦ CAO (quá thấp → "mặc kệ")
+    → = Drive CHỈ khi Cortisol-Baseline ĐỦ CAO (quá thấp → "mặc kệ")
 
-  3 nguồn Threat (timeline — Emergency-Alert → Change-Readiness):
+  3 nguồn Threat (timeline — Emergency-Alert → Cortisol-Baseline):
     Physical:      ĐANG xảy ra → reflex (ms) → NE+Adrenaline (s) → cortisol sustain (min)
     Social:        từ NGƯỜI KHÁC → schema + NE (s) → cortisol sustain (min)
     Anticipation:  TƯƠNG LAI → PFC loop → cortisol baseline TĂNG DẦN (giờ→ngày→mãn tính)
@@ -1390,7 +1431,7 @@ MOOD BASELINE:
 
 CORTISOL (3 chế độ — xuyên suốt):
   Spike:    phản ứng threat tức thì → đóng góp tăng baseline
-  Baseline: = Change-Readiness (§3) → nhịp ngày đêm + tích lũy
+  Baseline: = Cortisol-Baseline (§3) → nhịp ngày đêm + tích lũy
   Sustain:  duy trì schema active kéo dài
 
 ...các hormone khác chưa liệt kê hết
@@ -1520,6 +1561,72 @@ LỊCH SỬ + TƯƠNG LAI:
 
 ---
 
+## 6.7 MELODY — Emergent Total State
+
+```
+MELODY = KHÔNG phải component mới — là EMERGENT từ tất cả components:
+
+  Melody = "music playing" khi Hardware + Body-Base + Cortisol + Imagine + Schema
+           chạy CÙNG LÚC trên 1 người.
+  Schema = "sheet music" (patterns compiled, nằm im — chưa phát ra tiếng)
+  Melody = "music playing" (patterns ĐANG CHẠY, đang phát, tại thời điểm này)
+
+  → Thay đổi BẤT KỲ component → melody thay đổi:
+    Hardware đổi (bệnh, tuổi) → melody KHÁC
+    Cortisol đổi (stress, thư giãn) → melody KHÁC key/tone
+    Schema đổi (học mới, quên cũ) → melody KHÁC notes
+    Body-base đổi (đói, no, connection) → melody KHÁC "khán giả đánh giá"
+
+  MỖI NGƯỜI = 1 melody RIÊNG (unique combination of all components)
+
+
+  "MELODY HAY" ≠ melody sướng nhất cho body:
+
+    "Melody hay" = đạt CẢ 4 tiêu chí cùng lúc:
+      ① Mượt mà trên hardware CỦA MÌNH (body-base comfortable)
+      ② Map domain CHÍNH XÁC (phản ánh thực tế đúng)
+      ③ Map domain NHIỀU nhất có thể (cover rộng, linh hoạt)
+      ④ Chơi LÂU DÀI nhất (bền vững trong thế giới thực)
+
+    Body-base reward (~90% đúng) ≠ domain reward (luôn đúng):
+      → CHỈ body-base: sướng nhưng có thể sai domain → không bền
+      → CHỈ domain: đúng nhưng body khổ → burnout
+      → CẢ HAI: mượt trên hardware + đúng domain = bền vững + sướng
+
+
+  TWO-AXIS TENSION — động lực chính:
+
+    Body-Base Pull (hướng nội): muốn melody SMOOTH, giữ cái đã quen
+    Domain Pull (hướng ngoại): đòi ADAPT, nạp chunks mới dù body chưa thích
+    → Tension này = SUỐT ĐỜI — không phải lỗi, mà là động lực
+    → "Passion" = khi 2 lực CÙNG HƯỚNG (hiếm, quý giá)
+
+
+  MELODY BUILD QUA SÓNG (Arc Dynamics):
+
+    Arc = 1 chu kỳ: dissonance → build → output stable → smooth hơn
+    Nhiều Arcs cluster → WAVE: peak (dồn dập) → trough (mượt)
+    Mỗi trough CAO hơn trough trước (baseline melody tăng)
+    Cùng pattern ở mọi scale: 1 skill, 1 career, 1 đời, toàn cầu
+    (= attractor pattern, ref §7.③)
+
+
+  MELODY × OTHERS = KNOWLEDGE FLOW:
+
+    Internal (tốn kém) → Output (compressed) → External Chunk (rẻ cho người sau)
+    → Mỗi output = baseline mới cho vòng sau → thế hệ sau TIẾN hơn
+    → Domain bất biến, schema biến — luôn tối ưu: min cost × max coverage
+    (chi tiết: Knowledge-Flow.md)
+
+
+  → = Melody là METAPHOR giúp hình dung TOÀN BỘ hệ thống đang chạy
+  → = Không thêm mechanism mới — chỉ thêm CÁCH NHÌN tổng thể
+  → = Chi tiết: Personal-Melody.md (cá nhân), Global-Melody.md (tập thể),
+      Knowledge-Flow.md (dòng chảy giữa các melodies)
+```
+
+---
+
 ## 7. DOMAIN — Thực Tế Bên Ngoài Human
 
 ```
@@ -1640,7 +1747,7 @@ CÔNG THỨC:
      → Experience? Connection? Status?
      → 1 hay nhiều?
 
-  ② Change-Readiness đang ở MỨC NÀO?
+  ② Cortisol-Baseline đang ở MỨC NÀO?
      → Thấp: chỉ drive khi thích (PULL)
      → Vừa: cả Novelty + Threat OK
      → Cao: Threat dominant, PFC có thể bị squeeze
@@ -1658,21 +1765,21 @@ VÍ DỤ:
 
   Nhân viên văn phòng:
     Body-Base: Exp OK, Con thiếu nhẹ, Sta bị threat
-    Change-Readiness: CAO (deadline liên tục)
+    Cortisol-Baseline: CAO (deadline liên tục)
     Active: Threat-{Sta} + Novelty-{Exp}(scroll MXH giải tỏa)
     Predict: làm việc stress, scroll break, muốn nghỉ nhưng sợ
     Wellbeing: PUSH dominant → burnout risk
 
   Trẻ 8 tuổi bị bắt học:
     Body-Base: Exp thiếu (ngồi 1 chỗ), Con OK, Sta bị threat
-    Change-Readiness: TĂNG DẦN (quát mắng tích lũy)
+    Cortisol-Baseline: TĂNG DẦN (quát mắng tích lũy)
     Active: Threat-{Sta}(điểm) + Threat-{Con}(sợ mắng)
     Predict: comply bề ngoài, mất tập trung, stress nền
     Wellbeing: PUSH dominant → hại development
 
   Người vừa nghỉ hưu:
     Body-Base: Exp OK, Con giảm (mất đồng nghiệp), Sta giảm (mất vai trò)
-    Change-Readiness: CÓ THỂ thấp (mất urgency) hoặc cao (lo tài chính)
+    Cortisol-Baseline: CÓ THỂ thấp (mất urgency) hoặc cao (lo tài chính)
     Active: phụ thuộc baseline — nếu thấp: không drive → trầm cảm
     Predict: cần tìm Novelty-{Con}(nhóm mới) + Novelty-{Exp}(hobby)
     Wellbeing: cần chuyển sang PULL chủ động
@@ -1680,7 +1787,7 @@ VÍ DỤ:
   Người nghiện game:
     Body-Base: Exp ĐANG được game fill, Con thiếu thật nhưng game fill ảo,
               Sta game fill (rank)
-    Change-Readiness: thấp (game = safe environment, ít threat)
+    Cortisol-Baseline: thấp (game = safe environment, ít threat)
     Active: Novelty-{Exp+Con+Sta} qua game liên tục
     Predict: chơi liên tục, bỏ bê body thật
     Wellbeing: PULL nhưng IMAGINE-ONLY → body-base thật bị thiếu dần
@@ -1724,7 +1831,7 @@ THAY ĐỔI:
   ⑨ Intimate, Shared Exp: channels riêng → Emergent (spectrum depth)
   ⑩ Touch: đổi tên → Connection (rộng hơn: skin, eye, ear, presence)
   ⑪ Imagine = Novelty-Schema(PULL) + Threat-Schema(PUSH) → phục vụ L0→L3
-  ⑫ Change-Readiness: KHÔNG CÓ → tách riêng (cortisol baseline, 7 modes)
+  ⑫ Cortisol-Baseline: KHÔNG CÓ → tách riêng (cortisol baseline, 7 modes)
   ⑬ Threat-Schema: KHÔNG CÓ → thêm mới (PUSH drive, PHỔ BIẾN NHẤT hiện đại)
   ⑭ "Imagine LUÔN phục vụ Body-Base" — verified, không ngoại lệ
   ⑮ Schema override spectrum: quên ăn → tử vì đạo (cùng cơ chế, khác mức độ)
@@ -1764,7 +1871,8 @@ BACKWARD COMPATIBILITY:
       → Aesthetic: ĐÃ GIẢI QUYẾT ✅ (body phản ứng TRƯỚC lý do, L2 đúng)
       → L0 Alive vs L1 Survival: ranh giới escalation chính xác?
       → L3 Protect vs L0 Protect Gene: khi nào escalate?
-  Q2: Change-Readiness có phải LUÔN cortisol hay có hormone khác?
+  Q2: Cortisol-Baseline: cortisol DOMINANT, nhưng có hormone phụ nào đáng kể?
+      → NE tonic (nền), serotonin nền có thể contribute nhưng vai trò CHƯA RÕ
   Q3: Body-level Novelty vs Imagine-level Novelty: ranh giới ở đâu chính xác?
       → Chuột: body-level (trial-error)
       → Người: body-level + PFC-level (cross-domain)

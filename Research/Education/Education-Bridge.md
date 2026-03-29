@@ -1005,8 +1005,8 @@ EB-7: Cortisol baseline cao — bridge protocol KHÁC thế nào?
 → Body-Parenting-Optimization.md: Body-listening preservation per age
 → Body-Parenting-Optimization.md §4: 6-12 filter training (cùng giai đoạn)
 → Schema-Atlas-v2.md §6: Schema × Domain base→shift→check loop
-→ Knowledge-Accumulation.md: Chunk tích lũy → compile → aha moment
-→ Change-Readiness.md: Cortisol = change signal (bridge = cách channel change-readiness)
+→ Knowledge-Flow.md: Chunk tích lũy → compile → aha moment
+→ Cortisol-Baseline.md: Cortisol = change signal (bridge = cách channel change-readiness)
 → Attention-Spectrum.md: DRD4 spectrum (hardware → bridge adjustment)
 → Modality-Analysis.md: Modality dominant (hardware → bridge adjustment)
 ```

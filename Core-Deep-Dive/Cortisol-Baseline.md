@@ -1,12 +1,12 @@
-# Change-Readiness — Sẵn Sàng Thay Đổi: Function Thiết Yếu Của Não Bộ
+# Cortisol-Baseline — Mức Cortisol Nền Quyết Định Mode Hoạt Động
 
 > **Trạng thái:** DRAFT — insight mới, logic consistent, cần xác thực
-> **Ngày:** 2026-03-24 (updated 2026-03-25: đổi tên Cortisol-Analysis → Change-Readiness)
-> **Mục đích:** Phân tích toàn diện Change-Readiness — function "sẵn sàng thay đổi" THIẾT YẾU
-> cho hoạt động não bộ. Nhiều hormones tham gia (cortisol chính cho baseline,
-> NE+Adrenaline chính cho emergency). Function-first, hormone-second.
-> KHÔNG phải "hormone stress xấu". Vấn đề KHÔNG phải cortisol level → mà là BALANCE
-> giữa hoạt động (kích thích) và repair (nghỉ ngơi).
+> **Ngày:** 2026-03-24 (updated 2026-03-28: đổi tên Change-Readiness → Cortisol-Baseline)
+> **Mục đích:** Phân tích toàn diện Cortisol-Baseline — mức cortisol NỀN quyết định
+> "mode" hoạt động của toàn hệ thống (7 modes: IDLE → CRASH).
+> Cortisol = hormone SUSTAIN (giữ neurons mobilized), KHÔNG GÂY stress ban đầu.
+> NE+Adrenaline gây stress tức thì (giây). Cortisol tới SAU (phút) và SUSTAIN.
+> KHÔNG phải "cortisol = xấu". Vấn đề = MỨC ĐỘ + THỜI GIAN (quá cao + quá lâu = hại).
 > **Insight cốt lõi:**
 > - Cortisol = kích thích neuron hoạt động (giống điện cho máy, gym cho cơ)
 > - Cortisol KHÔNG gây đau/khó chịu — 3 nguồn thật: đau vật lý, mismatch, recalibration

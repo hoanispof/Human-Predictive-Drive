@@ -4,7 +4,7 @@
 > **Ngày:** 2026-03-25
 > **Mục đích:** Phân tích toàn diện Schema — patterns hành vi xuyên suốt Body→Imagine
 > **Reference:** Architecture-v7.5-Draft.md, PFC-Analysis.md, Imagination-Analysis-v2.md,
-> Change-Readiness.md, Modality-Analysis.md
+> Cortisol-Baseline.md, Modality-Analysis.md
 > **⚠️ Mỗi phần riêng = established research, gom lại = framework hypothesis**
 
 ---
@@ -555,7 +555,7 @@ Schema KHÔNG dừng bằng 1 cơ chế duy nhất — có 3 loại signal KHÁC
     → Chunk từ threat VỪA: nền tảng tốt, update ĐƯỢC (cần thời gian)
     → Chunk từ threat NẶNG: nền tảng CÓ nhưng body phản đối → KHÓ dùng
     → = Threat-learn VẪN CÓ GIÁ TRỊ nếu ĐÚNG NGƯỠNG
-    → = Chi tiết: Change-Readiness.md §3.5, Education-AI-Era-Draft.md
+    → = Chi tiết: Cortisol-Baseline.md §3.5, Education-AI-Era-Draft.md
 ```
 
 ---
@@ -701,7 +701,7 @@ S4: Schema × gene (epigenetics):
 → PFC-Analysis.md §8: Cognitive Parameters (Capacity, Clear-Speed, Chunk-Size)
 → PFC-Analysis.md §8.3: VTA mechanism + cortisol calibration
 → Imagination-Analysis-v2.md: Imagine = hệ thống hỗ trợ schema shift
-→ Change-Readiness.md: cortisol × schema (calibration energy + chunk association)
+→ Cortisol-Baseline.md: cortisol × schema (calibration energy + chunk association)
 → Modality-Analysis.md: modality encoding per schema
 → Status-Analysis-v2.md: Status = schema access map
 → Addiction-Analysis-v2.md: schema hijack

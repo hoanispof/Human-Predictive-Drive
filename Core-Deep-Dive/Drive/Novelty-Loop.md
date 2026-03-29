@@ -34,7 +34,7 @@
 DEFINE:
 
   Novelty Loop = vòng lặp KHÔNG CHỦ ĐỘNG:
-    Mismatch (chưa xong) → cortisol (Change-Readiness) → imagine (tìm giải pháp)
+    Mismatch (chưa xong) → cortisol (Cortisol-Baseline) → imagine (tìm giải pháp)
     → chưa ra → mismatch VẪN CÒN → cortisol VẪN CÒN → imagine TIẾP → ...
 
   ĐẶC ĐIỂM:
@@ -85,7 +85,7 @@ LOOP CHI TIẾT:
      → Cortisol cao → neurons rung CẢ khi ngủ → REM quality GIẢM
      → Vô thức VẪN "brainstorm" (🟢 REM = vô thức process tự do)
      → NHƯNG: sleep quality KÉM → repair THIẾU → sáng dậy: MỆT + chưa ra
-     → = "Nằm giường mà đầu vẫn chạy" = Change-Readiness CAO + VTA vẫn fire
+     → = "Nằm giường mà đầu vẫn chạy" = Cortisol-Baseline CAO + VTA vẫn fire
      → = Neural Wear TÍCH LŨY qua mỗi đêm thiếu repair
 
   TẠI SAO KHÔNG TỰ DỪNG:
@@ -611,7 +611,7 @@ PHÂN BIỆT QUAN TRỌNG — cùng loop nhưng KHÁC:
 ```
 PARADOX:
 
-  Muốn giải vấn đề → CẦN imagine → CẦN Change-Readiness (cortisol)
+  Muốn giải vấn đề → CẦN imagine → CẦN Cortisol-Baseline (cortisol)
   Muốn repair não → CẦN sleep → CẦN cortisol THẤP
   → = CẦN cortisol CAO (imagine) VÀ THẤP (sleep) CÙNG 1 ngày
   → NẾU loop KHÔNG dừng buổi tối → cortisol VẪN CAO → sleep KÉM
@@ -661,14 +661,14 @@ NHƯNG — REM = "THỜI GIAN VÀNG" CỦA NOVELTY LOOP:
 2 MODES — tùy cortisol level (cả 2 đều CẦN THIẾT):
 
   MODE "TẬN HƯỞNG" (cortisol THẤP — ngủ đủ, body ok):
-    → Change-Readiness: THẤP → vô thức ỔN ĐỊNH → VTA ít fire
+    → Cortisol-Baseline: THẤP → vô thức ỔN ĐỊNH → VTA ít fire
     → PFC: TRỐNG → không có gì process → MUỐN external novelty (đi chơi)
     → Cố làm việc creative: PFC phải TỰ draft → MỆT → "không ra gì"
     → = Body ĐANG ở mode ENJOY → ĐÚNG khi để body enjoy
     → = "Ngủ đủ thì đi chơi" = body nói đúng
 
   MODE "SÁNG TẠO" (cortisol CAO — mismatch + có blueprint):
-    → Change-Readiness: CAO → vô thức ĐANG rung → VTA fire
+    → Cortisol-Baseline: CAO → vô thức ĐANG rung → VTA fire
     → NẾU blueprint ĐÃ CÓ (REM compiled / chunks đủ):
       → PFC: nhận blueprint → CHỈ execute → NHẸ ĐẦU
       → Vô thức feed liên tục → output MƯỢT
@@ -732,7 +732,7 @@ KHI mismatch BIẾN MẤT (hoàn thành task, đỗ thi, giải quyết xong):
       Vài giờ sau: "nhẹ nhưng body vẫn hơi căng" (cortisol quán tính)
       Vài ngày: body DẦN relax (cortisol re-calibrate)
       Vài tuần: "đờ ra, chán, không biết làm gì"
-        (cortisol ĐÃ THẤP + mismatch ZERO = Change-Readiness ZERO = không drive)
+        (cortisol ĐÃ THẤP + mismatch ZERO = Cortisol-Baseline ZERO = không drive)
 
   VÍ DỤ — Hoàn thành project:
     Code game cả tháng → xong → publish:
@@ -1033,9 +1033,9 @@ NL8: Threat-drive per age trong parenting?
 ## 14. Kết Nối {#14-kết-nối}
 
 ```
-→ Core-v7.5-Draft.md §3: Change-Readiness (cortisol baseline) + 3 states
+→ Core-v7.5-Draft.md §3: Cortisol-Baseline (cortisol baseline) + 3 states
 → Core-v7.5-Draft.md §4: Imagine layer — Novelty-Schema + Threat-Schema
-→ Change-Readiness.md: Change-Readiness + Neural Wear + cortisol functions
+→ Cortisol-Baseline.md: Cortisol-Baseline + Neural Wear + cortisol functions
 → Imagination-Analysis-v2.md §2: PFC = phòng thí nghiệm giả lập
 → Imagination-Analysis-v2.md §8: Baseline-drive × Imagine modes
 → Schema-Operations.md §8: Simulate = cùng pathway → threat tự tạo = body respond NHƯ THẬT
