@@ -253,7 +253,7 @@
 → Chunk-And-PFC.md: CORE mechanism (đọc TRƯỚC)
 → Chunk-Search-Advanced.md: search mechanism chi tiết
 → Connection.md §3: virtual chunks = external database
-→ Imagine-Final-Gradient.md §4: nạp chunks THẬT
+→ Imagine-Final.md §4: nạp chunks THẬT
 → Melody-Arc.md §4: anchor, mini-arc, body-base maintenance
 → Education-Bridge.md §5.5: arc design cho learning
 → Body-Dissonance.md: dissonance from interference + failure modes

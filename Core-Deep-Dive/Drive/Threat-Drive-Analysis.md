@@ -476,7 +476,7 @@
      → LÚC ĐÓ: RÚT threat → nhiệm vụ bridge XONG
      → = Threat-Drive tốt nhất khi nó LÀ TẠM THỜI, KHÔNG phải mãn tính
      → = CEO tự tạo threat L3 bật/tắt = dạng bridge kiểm soát được (Novelty-Loop §4)
-     → (chi tiết scaling law: Personal-Melody.md §6.4)
+     → (chi tiết scaling law: Personal-Melody.md §5)
 
   ĐIỀU KIỆN để Threat-Drive LÀ TỐT:
     ✅ Threat CỤ THỂ (không abstract vô hạn)
@@ -571,6 +571,6 @@ TD5: Tại sao Body-Satisfaction KHÓ fire cho Threat-Drive?
 → Threshold-Analysis.md: Cortisol baseline carry between contexts
 → Body-Listening.md: Skill để nhận biết cortisol baseline
 → plan-update-v8.md: Ghi note restructure kiến trúc Core (chờ settle)
-→ Personal-Melody.md §6.4: Motivation Bridge — threat as investment bridge + scaling + rút khi đủ
+→ Personal-Melody.md §5: Motivation Bridge — threat as investment bridge + scaling + rút khi đủ
 → Novelty-Loop.md §3.2: Threat = sàn giữ loop + scaling note
 ```

@@ -434,7 +434,8 @@
 
 ```
 → Core-v7.5-Draft.md §2: Body-Base layers (Connection hiện ở L2 — cần review)
-→ Personal-Melody.md §6.6: predict melody người khác (connection prerequisite)
+→ Personal-Melody.md §12: predict melody người khác (connection prerequisite)
+→ Love-Analysis.md: limerence = bonding mechanism + PFC suppress (connection × romance)
 → Schema-Operations.md §8.9: simulate melody người khác (empathy mechanism)
 → Schema-Operations.md §8.7: expertise = chunks nhiều (virtual chunks extend this)
 → PFC-Analysis.md §2.2.1: mPFC × Theory of Mind (hardware for connection)
@@ -444,7 +445,7 @@
 → Empathy-Education.md §3.6: 1 anchor person đủ (= 1 deep connection đủ seed)
 → Compliance-Floor.md §5.5: empathy = internal compliance (connection → self-regulate)
 → Body-Dissonance.md: loneliness = dissonance from connection THIẾU
-→ Imagine-Final-Gradient.md §6: mentor/bạn tốt nâng imagine final (= calibration)
+→ Imagine-Final.md §6: mentor/bạn tốt nâng imagine final (= calibration)
 → Education-Bridge.md §0: con cần ước mơ + §5.5 social mirror
 → Global-Melody.md: melody cá nhân → melody nhóm → melody văn hóa (connection at scale)
 → Conflict-Dynamics.md: xung đột = dissonance GIỮA melodies (connection gone wrong)

@@ -16,7 +16,7 @@
 > **Mục đích:** Phân tích toàn diện hiện tượng idol qua framework lens.
 > Từ drive fan → cơ chế attachment → lợi ích thật → tác hại → industry → self-made idol.
 > **Reference:** Connection.md, Personal-Melody.md, Schema-Operations.md §8.5-8.9,
-> Imagine-Final-Gradient.md, Body-Dissonance.md
+> Imagine-Final.md, Body-Dissonance.md
 > **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
 
 ---
@@ -145,7 +145,7 @@
   ② IMAGINE FINAL CHO NGƯỜI THIẾU:
     → Trẻ không có bố mẹ guide → idol = template DUYY NHẤT
     → "Idol từ zero thành hero" = imagine final CỤ THỂ + EVIDENCE-BASED
-    → Tốt hơn KHÔNG imagine final (melody trôi — Personal-Melody §6.3)
+    → Tốt hơn KHÔNG imagine final (melody trôi — Personal-Melody §6)
     → Nhiều người thành công NÓI: "hồi nhỏ tôi thần tượng X → muốn GIỐNG X"
 
   ③ CONNECTION CHO NGƯỜI CÔ ĐƠN:
@@ -331,10 +331,10 @@
 → Connection.md: parasocial = connection 1 chiều, thiếu calibration 2 chiều
 → Connection.md §7: 1 drive × N contexts — idol = context "connection qua media"
 → Personal-Melody.md §4: "Gu" — hardware match giải thích tại sao KHÁC fan KHÁC idol
-→ Personal-Melody.md §6.3: Imagine Final compass — idol inject template
+→ Personal-Melody.md §6: Imagine Final compass — idol inject template
 → Schema-Operations.md §8.5: imagine = same pathway → parasocial FEEL thật
 → Schema-Operations.md §8.7: expertise = chunks nhiều → fan "expert" về idol
-→ Imagine-Final-Gradient.md §4: nâng level = nạp chunks THẬT → idol cho verbal/visual chunks
+→ Imagine-Final.md §4: nâng level = nạp chunks THẬT → idol cho verbal/visual chunks
 → Education-Bridge.md §9 ⑦: compass NGƯỜI KHÁC ≠ compass CỦA MÌNH
 → Melody-Arc.md §2 ⑦: pure imagination trap → fan imagine idol quá lâu không real-check
 → Compliance-Floor.md §3: narrative/idol concept → inject compliance

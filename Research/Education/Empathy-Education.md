@@ -578,7 +578,7 @@
 → Education-Bridge.md §0: con cần ước mơ → empathy cần EXPERIENCE, không cần RULE
 → Education-Bridge.md §5.5: anchor first, mini-arcs → apply cho empathy curriculum
 → Body-Dissonance.md: spectrum dissonance → empathy = simulate dissonance NGƯỜI KHÁC
-→ Imagine-Final-Gradient.md: positive-sum imagine final → "xã hội tốt = mình tốt"
+→ Imagine-Final.md: positive-sum imagine final → "xã hội tốt = mình tốt"
 → Relationships.md §4: "hiểu nhau" 4 sub-params → empathy depth measurement
 → Mismatch-Patterns/Trauma-Recovery.md: childhood trauma → empathy deficit → recovery path
 ```

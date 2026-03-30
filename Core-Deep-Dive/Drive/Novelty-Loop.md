@@ -210,7 +210,7 @@ KHI NOVELTY REWARD TẠM = 0 (giai đoạn tension):
   → = Threat-schema là SÀN: giữ drive KHÔNG RƠI xuống ÂM
   → = Khi novelty spike → sàn + spike = TỔNG rất cao → euphoria
 
-  ⭐ SCALING + RÚT SÀN (xem Personal-Melody.md §6.4):
+  ⭐ SCALING + RÚT SÀN (xem Personal-Melody.md §5):
   → Investment cost NHỎ → không cần threat sàn (curiosity/carrot đủ)
   → Investment cost LỚN → threat sàn CẦN THIẾT (carrot không đủ mạnh)
   → Khi chunks ĐỦ → melody mới emerge → intrinsic reward take over
@@ -1048,7 +1048,7 @@ NL8: Threat-drive per age trong parenting?
 → Global-Melody.md §2: Personal melody shift qua loop
 → Education-AI-Era-Draft.md: Challenge design → healthy Novelty Loop cho trẻ
 → Parenting-Optimization.md: Dạy SKILL → link với §5 parenting examples
-→ Personal-Melody.md §6.4: Motivation Bridge — scaling law + rút bridge khi chunks đủ
+→ Personal-Melody.md §5: Motivation Bridge — scaling law + rút bridge khi chunks đủ
 → Addiction-Analysis-v2.md: Novelty Loop vs Addiction Loop (cùng mechanism?)
 → Body-Listening.md: Nghe body signal "loop đang đáng hay không đáng"
 → Human-AI-Future.md: AI × loop → verbal displacement + nhạc sĩ + nhạc cụ

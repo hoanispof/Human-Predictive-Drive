@@ -15,7 +15,7 @@
 
 > **Trạng thái:** DRAFT v2 — viết lại toàn bộ từ v1 (phiên bản cũ v5.5) với kiến trúc mới
 > **Ngày:** 2026-03-28
-> **Reference:** Connection.md, Imagine-Final-Gradient.md, Compliance-Floor.md,
+> **Reference:** Connection.md, Imagine-Final.md, Compliance-Floor.md,
 > Personal-Melody.md, Melody-Arc.md, Body-Dissonance.md, Empathy-Education.md,
 > Idol-Phenomenon.md, Education-Bridge.md
 > **⚠️ KHÔNG phán xét truth claim. "Hoạt động" = phục vụ melody, không = "đúng."**
@@ -58,7 +58,7 @@
 F1 — IMAGINE FINAL VĨNH CỬU:
 
   "Thiên đường / Niết bàn / Đầu thai / Thiên mệnh"
-  = Imagine final Level 4-5 (Imagine-Final-Gradient.md: Vision → Ideal → Calling)
+  = Imagine final Level 4-5 (Imagine-Final.md: Vision → Ideal → Calling)
 
   Đặc biệt: UNFALSIFIABLE — không bao giờ bị chứng minh sai (chết mới biết)
   → Imagine final thường: CÓ THỂ sai → real-check → adjust → stress
@@ -69,7 +69,7 @@ F1 — IMAGINE FINAL VĨNH CỬU:
     Rửa bát bình thường: "mệt, chán" → dissonance nhẹ → drive thấp
     Rửa bát + "phụng sự gia đình → phước lành" → dissonance CÓ NGHĨA → drive cao hơn
     → = Mọi hành vi NHỎ đều có MEANING → melody TOÀN BỘ cuộc đời có hướng
-    → = Personal-Melody §6.3: không có compass → melody trôi
+    → = Personal-Melody §6: không có compass → melody trôi
     → = Tôn giáo = compass SẴN, install miễn phí
 
   ⭐ KILLER FEATURE — DEATH MANAGEMENT:
@@ -153,7 +153,7 @@ F4 — DISSONANCE MANAGEMENT:
                                                     F4.5 — PRAYER / MEDITATION = BODY-LISTENING:
 
                                                       → Cầu nguyện / thiền = TẮT noise → body signal RÕ hơn
-                                                        → Personal-Melody §6.3: tìm compass = lắng nghe body
+                                                        → Personal-Melody §6: tìm compass = lắng nghe body
                                                           → Tôn giáo VÔ TÌNH dạy body-listening qua contemplative practice:
                                                               "Im lặng + hướng nội + focus" = reduce external noise → body signal EMERGE
                                                                 → = F6 (reward schedule) + bonus: CALIBRATE melody qua quiet time
@@ -302,7 +302,7 @@ F7 — SHARED FOUNDATION CHUNKS → MELODY COHERENCE:
     → = "Dù khổ cỡ nào → thiên đàng VẪN chờ" → PFC: "ĐÁNG" → tiếp
     → = CEO: Imagine-Final = tiền → đạt → "rồi sao?" → TRỐNG (hết)
     → = Tín đồ: Imagine-Final = thiên đàng → KHÔNG BAO GIỜ "rồi sao?" (chưa chết → chưa tới)
-    → (Chi tiết PFC recheck: Imagine-Final-Gradient.md §3)
+    → (Chi tiết PFC recheck: Imagine-Final.md §3)
 
   TẠI SAO EVIDENCE-BASED KHÔNG THAY ĐƯỢC FAITH:
     → Evidence = disconfirmable → foundation CÓ THỂ sụp
@@ -420,7 +420,7 @@ F7 — SHARED FOUNDATION CHUNKS → MELODY COHERENCE:
 
   ✅ CHO imagine final khi KHÔNG CÓ:
     → Người "không biết sống để làm gì" → tôn giáo cho compass → melody có hướng
-    → = Personal-Melody §6.3: không có compass → trôi → tôn giáo FIX
+    → = Personal-Melody §6: không có compass → trôi → tôn giáo FIX
 
   ✅ CHO connection khi CÔ ĐƠN:
     → Người cô đơn → nhà thờ = nhóm SẴN → connection NGAY
@@ -521,7 +521,7 @@ F7 — SHARED FOUNDATION CHUNKS → MELODY COHERENCE:
 
   ⚠️ REBUILD CÓ THỂ TỐT HƠN:
     → Melody MỚI build từ body-base RIÊNG (không từ template)
-    → = Imagine final CỦA MÌNH (Personal-Melody §6.3)
+    → = Imagine final CỦA MÌNH (Personal-Melody §6)
     → NẾU rebuild thành công → melody AUTHENTIC hơn (fit hardware)
     → NHƯNG: quá trình rebuild = Melody Arc CỰC DÀI + KHÓ + cần support
 ```
@@ -680,10 +680,10 @@ F7 — SHARED FOUNDATION CHUNKS → MELODY COHERENCE:
 ```
 → Connection.md: F3 (community) = connection có cấu trúc + shared melody sync
 → Connection.md §7: 1 drive × N contexts — tôn giáo = context "shared meaning"
-→ Imagine-Final-Gradient.md: F1 = imagine final Level 4-5 (Vision/Ideal/Calling)
+→ Imagine-Final.md: F1 = imagine final Level 4-5 (Vision/Ideal/Calling)
 → Compliance-Floor.md: F2 = compliance floor toàn diện per-domain
 → Compliance-Floor.md §5.5: luật = bridge, empathy = intrinsic → tôn giáo = bridge MẠNH
-→ Personal-Melody.md §6.3: compass CỦA MÌNH → tôn giáo cho compass SẴN
+→ Personal-Melody.md §6: compass CỦA MÌNH → tôn giáo cho compass SẴN
 → Melody-Arc.md §2: imagine final + real-check → tôn giáo = imagine final KHÔNG real-check
 → Body-Dissonance.md: F4 = dissonance management (biến uncontrollable → controllable)
 → Education-Bridge.md §0: con cần ước mơ → tôn giáo cho ước mơ SẴN

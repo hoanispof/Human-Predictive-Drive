@@ -588,7 +588,7 @@
 → Global-Melody.md §6: domain split — cạnh tranh → mở rộng → cần rule
 → Conflict-Dynamics.md: xung đột melody ↔ melody → tại sao CẦN nền
 → Personal-Melody.md §6: Two-Axis Tension (body-base vs domain) — luật = domain constraint
-→ Personal-Melody.md §6.3: Imagine Final — luật CỦA NGƯỜI CÓ QUYỀN vs luật CHO DÂN
+→ Personal-Melody.md §6: Imagine Final — luật CỦA NGƯỜI CÓ QUYỀN vs luật CHO DÂN
 → Melody-Arc.md §2 ⑦: pure imagination trap — cascade TƯỞNG TƯỢNG vs cascade THẬT
 → Education-Bridge.md §0: nền cho trẻ — bố mẹ set compliance floor per-age
 → Education-Bridge.md §9 ⑦: compass CỦA BỐ MẸ ≠ compass CỦA CON (inject nền sai chủ)

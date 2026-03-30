@@ -205,7 +205,7 @@
      → Chunk isolated (không liên kết gì) → nên đi SAU (khi đã có context)
      → = Observer có thể THIẾT KẾ sequence → giảm peak dissonance
 
-  ⑤ BRIDGE GIỮ QUA DISSONANCE (từ Personal-Melody §6.4)
+  ⑤ BRIDGE GIỮ QUA DISSONANCE (từ Personal-Melody §5)
      → Imagine final (①) + bridges bên ngoài (carrot/threat/identity/social)
      → Bridge PHẢI scale theo arc size + RÚT khi chunks đã đủ merge
      → = Imagine final là bridge NỀN (luôn có), bridges khác là bridge PHỤ (tùy chọn)
@@ -481,7 +481,7 @@
     │ Threat           │ ARC LỚN + deadline thật + NGẮN HẠN│
     └─────────────────┴──────────────────────────────────┘
 
-    → ⚠️ Bridge PHẢI scale theo arc (Personal-Melody.md §6.4)
+    → ⚠️ Bridge PHẢI scale theo arc (Personal-Melody.md §5)
     → ⚠️ RÚT bridge khi chunks đã đủ merge (Education-Bridge.md §8)
 
   BƯỚC 6 — ĐẶT REAL-CHECK POINTS:
@@ -615,7 +615,7 @@
     → Đã có: "chunks tích lũy → đủ → merge"
     → Melody Arc THÊM: HÌNH DẠNG arc + thứ tự chunks + mini-arcs
 
-  Motivation Bridge (Personal-Melody §6.4):
+  Motivation Bridge (Personal-Melody §5):
     → Đã có: 5 bridge types (curiosity → threat)
     → Melody Arc NÂNG: imagine final = nền tảng (không chỉ 1 trong 5 bridge)
     → Melody Arc THÊM: real-check protocol + imagine final tiến hóa
@@ -731,8 +731,8 @@
 
 ```
 → Personal-Melody.md §6: Two-Axis Tension, Investment Cost, Motivation Bridge
-→ Personal-Melody.md §6.3: Imagine Final = compass của melody (per-life organizing principle)
-→ Imagine-Final-Gradient.md: 14 ngưỡng imagine final — self-assessment tool
+→ Personal-Melody.md §6: Imagine Final = compass của melody (per-life organizing principle)
+→ Imagine-Final.md: 14 ngưỡng imagine final — self-assessment tool
 → Personal-Melody.md §6.6: predict melody người khác (observer prerequisite)
 → Schema-Operations.md §8: PFC simulate (cơ chế imagine final)
 → Schema-Operations.md §8.5: imagine = fire cùng pathway (imagine final mechanism)

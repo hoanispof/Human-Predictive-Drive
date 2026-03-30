@@ -389,7 +389,7 @@
     Có imagine final rõ → dissonance CÓ Ý NGHĨA → chịu được LÂU hơn
     Không có imagine final → dissonance VÔ NGHĨA → chịu NGẮN → bỏ cuộc
     → = CÙNG dissonance → KHÁC meaning → KHÁC tolerance
-    → (Chi tiết: Imagine-Final-Gradient.md)
+    → (Chi tiết: Imagine-Final.md)
 ```
 
 ---
@@ -479,7 +479,7 @@
 → Personal-Melody.md §6.1: Investment Cost (dissonance during chunk accumulation)
 → Melody-Arc.md §3: arc shape — dissonance peak ở valley
 → Melody-Arc.md §2 ②: body-base luôn muốn harmony (= tránh dissonance)
-→ Imagine-Final-Gradient.md: imagine final → dissonance CÓ NGHĨA → chịu được lâu hơn
+→ Imagine-Final.md: imagine final → dissonance CÓ NGHĨA → chịu được lâu hơn
 → Education-Bridge.md §0: con cần ước mơ TRƯỚC bridge
 → Education-Bridge.md §5.5 ④: the valley = dissonance peak
 → Cortisol-Baseline.md: cortisol baseline × dissonance sensitivity

@@ -9,7 +9,7 @@
 > **Khác Global-Melody:** Global = BỨC ẢNH tập thể (emergent state)
 > **File này:** BÊN TRONG 1 người — từ start melody tới output
 > **Deep-dive files:** Melody-Arc.md (thiết kế arc tối ưu),
-> Imagine-Final-Gradient.md (14 ngưỡng imagine final),
+> Imagine-Final.md (14 ngưỡng imagine final),
 > Personal-Melody-Example.md (3 profiles ví dụ)
 > **Reference:** Architecture-v7.5-Draft.md, Schema-Operations.md,
 > Chunk-And-PFC.md, Modality-Analysis.md, Attention-Spectrum.md
@@ -304,35 +304,31 @@ MỖI NGƯỜI = 1 BÀI NHẠC RIÊNG (unique melody):
 
 ---
 
-## 6. Imagine Final — Compass Của Melody
+## 6. Imagine-Final — Compass Của Melody
 
 ```
-⭐ IMAGINE FINAL = PFC simulate trạng thái SAU KHI chunks merge xong:
+⭐ IMAGINE-FINAL = REFERENCE PATTERN mà toàn bộ hệ thống dùng để navigate:
 
-  Body preview reward → "MUỐN tới đó" → chịu dissonance để tiến.
-  = COMPASS tổ chức TOÀN BỘ melody — không chỉ per-task.
+  → KHÔNG CHỈ "mục tiêu trong đầu"
+  → MÀ LÀ: 1 PATTERN mà body ĐÃ PRE-FEEL (opioid preview)
+  → Mỗi chunk mới PHẢN XẠ với pattern này: "đúng hướng" hay "vô nghĩa"
+  → PFC LIÊN TỤC check: "dissonance NÀY xứng với melody update TIỀM NĂNG?"
 
-  ⚠️ Compass KHÔNG "always on":
-    Cortisol thấp (harmony): compass NGỦ → body ok → không hỏi "tại sao?"
-    Cortisol vừa (daily): compass ACTIVE NHẸ → "tôi làm vì..."
-    Cortisol cao (khổ): compass CRITICAL → "tôi chịu VÌ CÁI NÀY"
-    → Imagine final = schema DORMANT → fire khi dissonance ĐỦ CAO
+  (Chi tiết cơ chế: Imagine-Final.md §1 — reference pattern, cost-benefit,
+   tiến hóa, external trigger)
 
 
   CÓ COMPASS → melody BUILD CÓ HƯỚNG:
     → Mỗi arc HƯỚNG VỀ 1 phía → chunks tích lũy có ý nghĩa
-    → Dissonance hàng ngày CÓ MỤC ĐÍCH ("khổ để tiến tới đích")
-    → Mỗi mốc → imagine final UPDATE, rõ hơn, lớn hơn
+    → Dissonance hàng ngày CÓ MỤC ĐÍCH → "khó nhưng xứng đáng"
 
   KHÔNG CÓ COMPASS → melody TRÔI:
-    → "Đi làm vì ai cũng thế" = social bridge THAY cho imagine final
-    → Chunks nạp theo khuôn mẫu xã hội, không theo melody CÁ NHÂN
-    → = "Sống đời người khác" — nạp chunks cho melody NGƯỜI KHÁC
-    → Khi khuôn mẫu MẤT: "mình đang làm gì?" → crisis
+    → Chunks nạp random → "sống đời người khác" → crisis khi khuôn mẫu mất
+    → "Chán" = L2 đói + KHÔNG CÓ Imagine-Final (ref: Boredom-Analysis §3)
 
   COMPASS SAI → melody build về phía SAI:
-    → "Muốn giàu" → có tiền → body KHÔNG harmony → "thành công mà trống rỗng"
-    → "Con phải làm bác sĩ" → imagine final CỦA BỐ MẸ, không phải con
+    → "Muốn giàu" → có tiền → body trống rỗng
+    → "Con phải làm bác sĩ" → Imagine-Final CỦA BỐ MẸ, không phải con
 
 
   3 MỨC COMPASS:
@@ -342,12 +338,11 @@ MỖI NGƯỜI = 1 BÀI NHẠC RIÊNG (unique melody):
     → Không có ③ → ① và ② chạy nhưng KHÔNG NỐI thành melody thống nhất
 
   CÁCH TÌM COMPASS ĐÚNG:
-    → Body-Reward fire khi làm gì? → ĐÓ là hướng
-    → Body-Dissonance từ meaningless? → compass thiếu hoặc sai
-    → Body-Satisfaction sau khi xong gì? → ĐÓ là final harmony thật
-    → = Không phải "tìm đam mê" → mà "lắng nghe body khi nào reward"
+    → Lắng nghe body: khi nào reward? khi nào satisfaction? → ĐÓ là hướng
+    → EXPOSE bản thân (du lịch, đọc, gặp người mới):
+      vì Imagine-Final CẦN external trigger → không thấy = không imagine
 
-  → (Chi tiết 14 ngưỡng imagine final: Imagine-Final-Gradient.md)
+  → (Chi tiết cơ chế + 14 ngưỡng: Imagine-Final.md)
   → (Cách thiết kế arc có compass: Melody-Arc.md §2)
 ```
 
@@ -817,8 +812,16 @@ MỖI NGƯỜI = 1 BÀI NHẠC RIÊNG (unique melody):
     → "Consume vs build reward": consistent với hedonic vs eudaimonic
        wellbeing (Ryan & Deci 2001)
     → "Observer thấy rõ hơn": consistent với blind spot bias (Pronin 2002)
-    → "Imagine final = compass": consistent với goal-setting theory
+    → "Imagine-Final = compass": consistent với goal-setting theory
        (Locke & Latham), prospection (Seligman 2013), Frankl
+    → "Imagine-Final = reference pattern body pre-feel": consistent với
+       somatic marker hypothesis (Damasio) — body PREVIEW outcomes
+    → "PFC cost-benefit liên tục": consistent với expected utility theory
+       + Yerkes-Dodson (effort vs reward tradeoff)
+    → "Imagine-Final tiến hóa qua mốc": consistent với goal-setting:
+       proximal → distal goal shift (Bandura 1997)
+    → "External input trigger Imagine-Final": consistent với
+       self-expansion theory (Aron) — exposure creates new possible selves
     → "Predict melody người khác = overlap": consistent với
        simulation theory of mind (Goldman 2006)
 
@@ -843,7 +846,7 @@ MỖI NGƯỜI = 1 BÀI NHẠC RIÊNG (unique melody):
 → Attention-Spectrum.md: DRD4 spectrum (tai nhạc)
 → Cortisol-Baseline.md: cortisol (key/tone melody)
 → Melody-Arc.md: thiết kế arc tối ưu (chi tiết §5 Investment Cost)
-→ Imagine-Final-Gradient.md: 14 ngưỡng imagine final (chi tiết §6)
+→ Imagine-Final.md: 14 ngưỡng imagine final (chi tiết §6)
 → Personal-Melody-Example.md: 3 profiles ví dụ
 → Novelty-Loop.md: loop sáng tạo (chi tiết §13)
 → Mismatch-Patterns/Trauma-Recovery.md: trauma + recovery (chi tiết §11)

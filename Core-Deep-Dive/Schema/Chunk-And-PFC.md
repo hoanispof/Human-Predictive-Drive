@@ -151,6 +151,46 @@
 
     VTA = alert system: vô thức detect mismatch → alert PFC → "ồ, cái gì?"
       → = Nhân viên thấy vấn đề → gọi sếp → sếp xử lý
+
+
+  ⭐ GIỚI HẠN CƠ BẢN — mỗi operator CÓ THỂ và KHÔNG THỂ gì:
+
+    VÔ THỨC CÓ THỂ:
+      → Detect: body-base smooth hay không (current state)
+      → Compile: patterns từ experience (match/mismatch)
+      → Run: compiled schemas tự động
+      → = Giỏi: "BÂY GIỜ body thấy thế nào?" → trả lời NGAY, CHÍNH XÁC
+
+    VÔ THỨC KHÔNG THỂ:
+      → Check: "smooth NÀY có đúng với domain không?"
+      → Simulate: "5 năm sau có sao không?"
+      → Compare: "body thích nhưng THẬT SỰ hợp không?"
+      → = Vô thức CHỈ ĐO body-base → KHÔNG ĐO domain accuracy
+      → = Nếu body sướng → vô thức nói "OK" → DÙ domain có thể SAI
+      → VD: nghiện = body sướng → vô thức "OK" → domain PHẠT
+      → VD: limerence = body cực sướng → vô thức "hoàn hảo" → chưa test domain
+
+    PFC CÓ THỂ (mà vô thức KHÔNG):
+      → Simulate tương lai: "nếu tiếp tục → kết quả gì?"
+      → So sánh ký ức: "lần trước pattern này → kết quả tệ"
+      → Check domain: "body thích NHƯNG thực tế có bền không?"
+      → Tạo chunks evaluative MỚI → NẠP VÀO vô thức → UPDATE database
+      → = PFC "DẠY" vô thức cái mà vô thức tự KHÔNG THỂ biết
+
+    PFC KHÔNG THỂ (mà vô thức CÓ):
+      → Feel trực tiếp: PFC KHÔNG cảm nhận → phải NHẬN từ body
+      → Process 95% nền: PFC bandwidth quá nhỏ cho toàn bộ
+      → Compile tự động: PFC chỉ draft → vô thức mới compile thật
+
+    → = VÔ THỨC: giỏi "bây giờ body thế nào" (state detection)
+    → = PFC: giỏi "bây giờ có ĐÚNG với thực tế không" (domain check)
+    → = CẦN CẢ HAI: vô thức feel + PFC verify = "melody hay" (Personal-Melody §5)
+    → = TẮT PFC = mất bộ CHECK DOMAIN DUY NHẤT → body-base unchecked
+      (VD: limerence, nghiện, comfort zone — chi tiết: Love-Analysis.md)
+
+    → Ở ĐỘNG VẬT: vô thức ĐỦ DÙNG (domain đơn giản, body-base calibrate tốt qua evolution)
+    → Ở CON NGƯỜI: domain PHỨC TẠP hơn body-base calibrate được (~10% lệch)
+      → PFC tiến hóa ĐỂ BÙ 10% đó → PFC = bộ check domain mà vô thức THIẾU
 ```
 
 ---
@@ -332,6 +372,13 @@
     🟡 "Attention = query design" — consistent với biased competition
     🟡 "Emotional tags = hidden search" — consistent với affect-as-information
     🟡 "Feel mượt ≠ đúng" — consistent với confirmation bias literature
+    🟡 "Vô thức chỉ đo body-base, PFC đo domain" — consistent với
+        somatic marker hypothesis (Damasio): body = heuristic, not perfect (~90%)
+        + dual process theory (Kahneman): System 1 fast/heuristic, System 2 slow/analytical
+    🟡 "PFC dạy vô thức qua chunks evaluative" — consistent với
+        deliberate practice → compiled expertise (Ericsson)
+    🟡 "Động vật đủ vô thức, con người cần PFC thêm" — consistent với
+        PFC expansion across species + domain complexity increase
 
   HYPOTHESIS (🔴):
     🔴 "KHÔNG CÓ true computation ở level chunk" — debate ongoing
@@ -351,10 +398,13 @@
 → Schema-Operations.md §4: VTA detect biến động
 → PFC-Analysis.md §2: PFC sub-regions
 → Core-v7.5-Draft.md §3: Cortisol-Baseline (7 modes, amplifier)
+→ Personal-Melody.md §5: "melody hay" = body-base smooth + domain accurate (cần CẢ HAI operator)
 → Personal-Melody.md §6.1: investment cost = build database
+→ Love-Analysis.md §3: limerence = PFC suppress → mất domain check → body-base unchecked
+→ Why-Body-Knows.md: body ~90% đúng → 10% sai = chỗ PFC CẦN bù
 → Melody-Arc.md §4: anchor first, mini-arc
 → Education-Bridge.md §5.5: arc design cho learning
-→ Imagine-Final-Gradient.md §4: nạp chunks THẬT
+→ Imagine-Final.md §4: nạp chunks THẬT
 → Body-Dissonance.md: dissonance = body signal khi mismatch
 → Connection.md §3: virtual chunks = access database NGƯỜI KHÁC
 → Novelty-Loop.md §3.2: threat = sàn giữ loop (threat toggle)

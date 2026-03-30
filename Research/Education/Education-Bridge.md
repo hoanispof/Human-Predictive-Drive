@@ -7,7 +7,7 @@
 > VÀ CÁCH thiết kế tiến trình học (arc) để con ÍT KHÓ CHỊU NHẤT có thể
 > **Core insight:** Bridge = scaffolding TẠM THỜI — cho quá nhiều = hỏng, cho quá ít = bỏ cuộc
 > Arc design TỐT = cần ÍT bridge hơn — giảm khó chịu thay vì chỉ chịu đựng khó chịu
-> **Reference:** Personal-Melody.md §6.4 (Motivation Bridge mechanism),
+> **Reference:** Personal-Melody.md §5 (Motivation Bridge mechanism),
 > Novelty-Loop.md §3.2 (threat = sàn), Threat-Drive-Analysis.md §12 (threat tốt khi nào),
 > Education-AI-Era-Draft.md §5 (challenge-product method),
 > Body-Parenting-Optimization.md (per-age body-listening)
@@ -29,7 +29,7 @@
 6. [Per-Age Bridge Design](#6)
 7. [Per-Hardware Adjustment](#7)
 8. [Rút Bridge Protocol — Khi Nào và Cách Nào](#8)
-9. [Common Mistakes — 6 Sai Lầm Phổ Biến](#9)
+9. [Common Mistakes — 7 Sai Lầm Phổ Biến](#9)
 10. [Honest Assessment](#10)
 11. [Câu Hỏi Mở](#11)
 12. [Kết Nối](#12)
@@ -107,7 +107,7 @@
 
   → = §0 này là NỀN TẢNG — §1-8 SAU ĐÓ mới có ý nghĩa.
   → = Không có ước mơ → mọi bridge đều là "ép cho xong."
-  → (Chi tiết gradient imagine final: Imagine-Final-Gradient.md)
+  → (Chi tiết gradient imagine final: Imagine-Final.md)
 ```
 
 ---
@@ -127,9 +127,9 @@
     → Học: cần bridge TẠM → chunks đủ → melody emerge → intrinsic TỰ DUY TRÌ
     → = Bridge KHÔNG phải mục đích → bridge LÀ CÔNG CỤ TẠM
 
-  5 LOẠI BRIDGE (xếp theo sức mạnh — Personal-Melody.md §6.4):
+  5 LOẠI BRIDGE (xếp theo sức mạnh — Personal-Melody.md §5):
     ① Curiosity — VTA fire từ micro-novelty trong task
-    ② Carrot — phần thưởng bên ngoài (kẹo, lời khen, quà, điểm)
+    ② External reward ("Carrot") — phần thưởng bên ngoài (kẹo, lời khen, quà, điểm)
     ③ Identity — "tôi là người giỏi X" (compiled belief)
     ④ Social — "bố mẹ kỳ vọng", "bạn bè cùng làm"
     ⑤ Threat — "nếu không học → hậu quả" (cortisol trực tiếp)
@@ -411,36 +411,20 @@
 
 ⭐ NGUYÊN TẮC 1 — GIÚP CON HÌNH DUNG ĐÍCH (Imagine Final):
 
-  Hầu hết bố mẹ/cô giáo: "Học đi!" (ép) hoặc "Học xong cho kẹo" (carrot)
-  Nhưng THIẾU: "Con thử hình dung xem — khi biết đếm, con TỰ đi mua kẹo được!"
+  (Chi tiết per-age: §0 — Nền Tảng Đầu Tiên)
 
-  TẠI SAO hiệu quả:
-    → Não con simulate trạng thái "XONG" → body preview reward
-    → = Con MUỐN tới đích vì BODY CẢM NHẬN được đích — không chỉ vì carrot/threat
-    → = Khác carrot: carrot = "bố cho quà", imagine final = "con THẤY mình ĐÃ LÀM ĐƯỢC"
+  TRONG ARC DESIGN, imagine final phục vụ 2 vai trò:
 
-  CÁCH LÀM (theo tuổi):
+    ① TRƯỚC arc: con MUỐN bắt đầu (body preview reward → motivation)
+       → "Khi con biết đếm → con TỰ đi mua kẹo!" → body simulate → MUỐN học
+       → KHÁC carrot: carrot = "bố cho quà", imagine final = "con THẤY mình LÀM ĐƯỢC"
 
-    0-3: Chưa simulate rõ → imagine final YẾU → dùng body experience trực tiếp
-         → Cho con THẤY kết quả bằng mắt: anh/chị tự buộc dây giày → "con cũng sẽ làm được!"
+    ② GIỮA arc: con CHỊU ĐƯỢC valley (imagine final giữ qua dissonance)
+       → Đang khó → nhớ đích → "chịu vì MUỐN tới" (investment, không phải chán)
+       → = Imagine-Final biến dissonance thành investment cost (Boredom-Analysis §3)
 
-    3-6: Simulate bắt đầu → imagine final từ MÔ TẢ CỤ THỂ
-         → "Khi con biết đếm → con tự đi mua kẹo → tự chọn cái con thích!"
-         → CÀNG CỤ THỂ càng tốt (không phải "con sẽ giỏi" → mà "con sẽ LÀM ĐƯỢC CÁI NÀY")
-
-    6-12: Simulate rõ → imagine final từ TRẢI NGHIỆM GẦN
-         → "Em đã biết cộng → khi biết nhân → em tính NHANH GẤP 10 → em sẽ thắng ai cũng được!"
-         → Cho thấy NGƯỜI THẬT đã làm được: bạn lớp trên, anh chị, video
-
-    12-18: Simulate mạnh → imagine final TỰ BUILD
-         → KHÔNG cần inject nữa → DẠY con TỰ imagine: "con muốn 5 năm nữa thế nào?"
-         → Giúp con imagine CỤ THỂ (không phải "thành công" → mà "làm GÌ, ở ĐÂU, với AI")
-
-  ⚠️ SAI LẦM phổ biến:
-    → Imagine final QUÁ MỜ: "học cho giỏi" → body con KHÔNG simulate được → vô dụng
-    → Imagine final CỦA BỐ MẸ: "con sẽ làm bác sĩ!" → đó là imagine CỦA BỐ MẸ, KHÔNG phải con
-    → Imagine final mà KHÔNG có mini-arc: "5 năm nữa con sẽ..." → quá xa → body không feel
-    → Fix: imagine final NGẮN HẠN + CỤ THỂ + CỦA CON (không phải của bố mẹ)
+  → = Arc design TỐT bắt đầu bằng imagine final CỤ THỂ + NGẮN HẠN + CỦA CON
+  → = Không có imagine final → bridge phải gánh 100% → dễ inflation/overdose
 
 
 ⭐ NGUYÊN TẮC 2 — BẮT ĐẦU TỪ CÁI CON ĐÃ BIẾT (Anchor First):
@@ -646,6 +630,7 @@
     → "Hôm nay ở trường con thấy gì HAY?" (kích curiosity, không "con được mấy điểm?")
     → Challenge ngoài school: dự án tự chọn, hobby, maker projects
     → = BALANCE giữa school threat-bridge + home curiosity-bridge
+    → (ref: Boredom-Analysis §3 ④: forced mismatch = phải làm cái KHÔNG match → "chán")
 
   TRANSITION DẦN — từ external bridge sang internal:
     → 6-8: bố mẹ set bridge 70% + trẻ tự 30%
@@ -674,7 +659,7 @@
     → Tự chọn: "học với bạn" (social) / "set deadline cho mình" (pressure) /
       "nhắc mình vì sao muốn" (identity) / "tìm phần hay" (curiosity)
     → = META-SKILL: biết calibrate bridge CHO CHÍNH MÌNH
-    → = Skill suốt đời (Personal-Melody §6.4 cho người lớn)
+    → = Skill suốt đời (Personal-Melody §5 cho người lớn)
 
   THREAT ở tuổi này:
     → L3 threat BẮT ĐẦU effective (PFC đủ → hiểu hậu quả trừu tượng)
@@ -991,9 +976,8 @@ EB-7: Cortisol baseline cao — bridge protocol KHÁC thế nào?
 ## 12. Kết Nối {#12}
 
 ```
-→ Personal-Melody.md §6.4: Motivation Bridge mechanism (LÝ THUYẾT GỐC)
-→ Personal-Melody.md §6: Two-Axis Tension (body-base vs domain pull)
-→ Personal-Melody.md §6.1: Investment Cost (WHY bridge cần thiết)
+→ Personal-Melody.md §5: Two-Axis Tension (chứa Motivation Bridge + Investment Cost — LÝ THUYẾT GỐC)
+→ Personal-Melody.md §6: Imagine-Final = compass (nền tảng §0 — con cần có ước mơ)
 → Novelty-Loop.md §3.2: Threat = sàn giữ loop + scaling note
 → Novelty-Loop.md §4: Self-Created Threat Drive (CEO skill = §6.4 self-bridge)
 → Threat-Drive-Analysis.md §12: Threat-drive tốt khi nào (investment bridge)
@@ -1004,7 +988,6 @@ EB-7: Cortisol baseline cao — bridge protocol KHÁC thế nào?
 → Melody-Arc.md: thiết kế arc tối ưu — 7 kỹ thuật, mini-arcs, imagine final
 → Body-Parenting-Optimization.md: Body-listening preservation per age
 → Body-Parenting-Optimization.md §4: 6-12 filter training (cùng giai đoạn)
-→ Schema-Atlas-v2.md §6: Schema × Domain base→shift→check loop
 → Knowledge-Flow.md: Chunk tích lũy → compile → aha moment
 → Cortisol-Baseline.md: Cortisol = change signal (bridge = cách channel change-readiness)
 → Attention-Spectrum.md: DRD4 spectrum (hardware → bridge adjustment)

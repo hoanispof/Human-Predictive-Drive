@@ -1,21 +1,23 @@
-# Imagine Final Gradient — Bạn Đang Ở Ngưỡng Nào?
+# Imagine-Final — Reference Pattern Của Melody
 
 > **Bạn có "mục tiêu", "ước mơ", "tầm nhìn", "lý tưởng"...**
 > Nhưng tất cả những từ đó chỉ là CÁC MỨC KHÁC NHAU của cùng 1 thứ:
-> **Imagine Final — não bạn hình dung đích đến RÕ và SÂU đến đâu.**
+> **Imagine-Final — não bạn hình dung đích đến RÕ và SÂU đến đâu.**
 >
-> Mức thấp: bạn BIẾT mình muốn gì (trong đầu).
-> Mức cao: bạn CẢM NHẬN được cuộc sống ở đích đến (trong cơ thể).
+> Imagine-Final KHÔNG CHỈ là "mục tiêu". Nó là REFERENCE PATTERN —
+> 1 bản preview melody tương lai mà body ĐÃ PRE-FEEL.
+> Mỗi chunk mới bạn nạp đều PHẢN XẠ với pattern này: "đúng hướng" hay "vô nghĩa".
+> Không có nó → "chán". Có nó → cùng khó khăn nhưng "xứng đáng".
 >
-> File này giúp bạn tự hỏi: **"Cái mình đang nghĩ — nó ở mức nào?"**
-> Và quan trọng hơn: **"Làm sao để NÂNG lên mức cao hơn?"**
+> File này: CƠ CHẾ hoạt động + ĐO LƯỜNG (14 ngưỡng) + CÁCH NÂNG level.
 
 ---
 
 > **Trạng thái:** DRAFT — hypothesis từ framework, chưa xác thực trực tiếp
-> **Ngày:** 2026-03-27
-> **Góc nhìn:** Self-assessment tool — human tự đo imagine final của mình
-> **Reference:** Melody-Arc.md §2, Personal-Melody.md §6.3, Schema-Operations.md §8.5
+> **Ngày:** 2026-03-27 (updated 2026-03-30: thêm mechanism + reference pattern)
+> **Góc nhìn:** Cơ chế + Self-assessment tool
+> **Reference:** Personal-Melody.md §6, Melody-Arc.md §2, Schema-Operations.md §8.5,
+> Boredom-Analysis.md §3 (Imagine-Final modifier), Chunk-And-PFC.md §3 (PFC vs vô thức)
 > **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
 
 ---
@@ -32,13 +34,57 @@
   Tất cả = PFC simulate 1 trạng thái TƯƠNG LAI.
   Khác nhau = body THAM GIA simulation đó ĐẾN ĐÂU.
 
+  ⚠️ QUY ƯỚC: luôn viết "Imagine-Final" đầy đủ, KHÔNG viết tắt "IF"
+     (vì "IF" dễ nhầm với "if" trong tiếng Anh hoặc programming)
+
   CƠ CHẾ (Schema-Operations §8.5):
     → PFC kích hoạt chunks về tương lai
     → Cùng pathway fire: visual, auditory, somatic, emotional
     → Body respond: preview reward (opioid nhẹ) HOẶC không feel gì
     → Body response CÀNG MẠNH → motivation CÀNG MẠNH → chịu khó chịu CÀNG LÂU
 
-  ⭐ IMAGINE FINAL = DORMANT KHI HARMONY, FIRE KHI DISSONANCE:
+
+  ⭐ REFERENCE PATTERN — cơ chế cốt lõi:
+
+    Imagine-Final = 1 PATTERN dao động PREVIEW trong vô thức:
+      → PFC simulate: "nếu CÓ chunks NÀY → melody sẽ NGHE THẾ NÀY"
+      → Body PRE-FEEL: "melody preview CÓ mượt hơn hiện tại không?"
+      → Nếu body: "CÓ VẺ mượt hơn" → opioid preview → "MUỐN tới đó"
+      → = KHÔNG CHỈ "mục tiêu trong đầu" → body ĐÃ cảm nhận trước
+
+    Mỗi chunk MỚI PHẢN XẠ với reference pattern:
+      → Chunk phù hợp → body: "đúng hướng!" → chịu dissonance
+      → Chunk KHÔNG phù hợp → body: "vô nghĩa" → irritated
+      → VD: học đếm để được xe cần cẩu:
+        Chunk "đếm 1-10" → so sánh: "cần cho mục tiêu!" → chịu học
+        Chunk "dọn phòng" → so sánh: "KHÔNG liên quan" → không muốn
+
+    PFC cost-benefit LIÊN TỤC (không chỉ 1 lần):
+      → Mỗi moment: "dissonance BÂY GIỜ vs delta-melody-update TIỀM NĂNG?"
+      → Dissonance nhẹ + delta lớn → "xứng, tiếp"
+      → Dissonance nặng + delta nhỏ → "không xứng" → muốn dừng
+      → = Imagine-Final RÕ = delta lớn = PFC luôn thấy "xứng" = chịu LÂU hơn
+
+    Imagine-Final TIẾN HÓA:
+      → Càng build → hiểu domain thêm → Imagine-Final EXPAND + RÕ hơn
+      → Rõ hơn → motivation mạnh hơn → build nhiều hơn → RÕ HƠN NỮA
+      → = POSITIVE FEEDBACK LOOP
+      → Đạt mốc → Imagine-Final cũ HẾT drive → cần UPDATE mới lớn hơn
+
+    External input TRIGGER Imagine-Final mới:
+      → Thấy cái gì MỚI → PFC simulate → body preview → "MUỐN!"
+      → = Imagine-Final SINH RA từ: external input + PFC simulate + body confirm
+      → = TẠI SAO exposure quan trọng: không thấy → không imagine → không có compass
+      → = Du lịch, đọc sách, gặp người mới = potential triggers
+
+
+  KHÔNG CÓ Imagine-Final → "CHÁN" (ref: Boredom-Analysis §3):
+    → L2 đói + KHÔNG CÓ Imagine-Final → PFC không biết fix gì → "chán"
+    → L2 đói + CÓ Imagine-Final rõ → "investment cost" (khó nhưng xứng đáng)
+    → = Imagine-Final biến "chán vô hướng" thành "đầu tư có mục đích"
+
+
+  ⭐ IMAGINE-FINAL = DORMANT KHI HARMONY, FIRE KHI DISSONANCE:
 
     Imagine final KHÔNG "always on" — nó KÍCH HOẠT bởi Body-Dissonance:
 
@@ -243,7 +289,7 @@
 ║  │ Không imagine → không compass → melody TRÔI                     │   ║
 ║  │ Sống bằng bridge của XÃ HỘI: "ai cũng thế thì mình cũng thế" │   ║
 ║  │                                                                  │   ║
-║  │ (Chi tiết: Personal-Melody.md §6.3 — tại sao thiếu compass)    │   ║
+║  │ (Chi tiết: Personal-Melody.md §6 — tại sao thiếu compass)      │   ║
 ║  └─────────────────────────────────────────────────────────────────┘   ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
@@ -334,7 +380,7 @@
   AMBITION → PURPOSE: thêm MEANING
     → "Tại sao tôi làm điều này?" → kết nối với body-base THẬT
     → Không phải "vì tiền" hay "vì xã hội" → mà "vì BODY TÔI feel đúng"
-    → = Lắng nghe body signals (Personal-Melody §6.3)
+    → = Lắng nghe body signals (Personal-Melody §6)
 
   PURPOSE → VISION: thêm MULTI-MODAL simulation
     → Không chỉ "biết mục đích" → THẤY, NGHE, CẢM NHẬN tương lai đó
@@ -475,6 +521,15 @@
     🟢 Expertise = experience-based (Ericsson): chunks from practice, not theory
 
   FRAMEWORK SUY LUẬN (🟡):
+    🟡 "Reference pattern body pre-feel": consistent với
+        somatic marker hypothesis (Damasio) — body PREVIEW outcomes
+    🟡 "PFC cost-benefit liên tục": consistent với expected utility theory
+    🟡 "Imagine-Final tiến hóa qua mốc": consistent với
+        proximal → distal goal shift (Bandura 1997)
+    🟡 "External input trigger": consistent với
+        self-expansion theory (Aron) — exposure creates new possible selves
+    🟡 "Không Imagine-Final = chán": consistent với Boredom-Analysis
+        (L2 đói + no direction = "chán")
     🟡 14 ngưỡng trên 1 gradient — logic consistent, chưa có research
         ranking chính xác body simulation fidelity per concept
     🟡 "Nâng level = nạp chunks thật" — consistent với expertise development,
@@ -522,8 +577,10 @@
 
 ```
 → Melody-Arc.md §2 ①: imagine final = organizing principle (lý thuyết gốc)
-→ Personal-Melody.md §6.3: imagine final = compass của melody
-→ Personal-Melody.md §6.4: Motivation Bridge (bridges HỖ TRỢ imagine final)
+→ Personal-Melody.md §6: Imagine-Final = compass của melody (overview, ref tới file này)
+→ Personal-Melody.md §5: Motivation Bridge (bridges HỖ TRỢ Imagine-Final)
+→ Boredom-Analysis.md §3: Imagine-Final modifier (biến "chán" → "investment")
+→ Chunk-And-PFC.md §3: vô thức chỉ đo body-base, PFC đo domain (Imagine-Final CẦN PFC)
 → Schema-Operations.md §8.5: imagine = fire cùng pathway (cơ chế body simulation)
 → Schema-Operations.md §8.7: expertise = chunks nhiều → evaluate detailed
 → Education-Bridge.md §5.5: imagine final cho trẻ (per-age guide)
@@ -534,7 +591,9 @@
 
 ---
 
-> *Imagine Final Gradient — "Mọi 'mục tiêu', 'ước mơ', 'tầm nhìn' là CÙNG 1 thứ.
-> Khác nhau chỉ ở: body bạn THAM GIA hình dung đó đến đâu.
-> Biết mình đang ở mức nào → biết cần gì để tiến lên.
-> Nâng level = KHÔNG phải nghĩ nhiều hơn — mà TRẢI NGHIỆM nhiều hơn."*
+> *Imagine-Final — "Không chỉ là 'mục tiêu'. Là REFERENCE PATTERN mà body ĐÃ pre-feel.
+> Mỗi chunk mới PHẢN XẠ với pattern này: 'đúng hướng' hay 'vô nghĩa'.
+> PFC liên tục check: 'dissonance NÀY có xứng với melody update TIỀM NĂNG?'
+> Càng build → Imagine-Final càng rõ → motivation càng mạnh (positive loop).
+> Không có nó → 'chán'. Có nó → cùng khó nhưng 'xứng đáng'.
+> Nâng level = KHÔNG phải nghĩ nhiều hơn — mà TRẢI NGHIỆM + EXPOSE nhiều hơn."*
