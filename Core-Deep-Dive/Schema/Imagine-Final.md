@@ -173,6 +173,31 @@
       → = POSITIVE FEEDBACK LOOP
       → Đạt mốc → Imagine-Final cũ HẾT drive → cần UPDATE mới lớn hơn
 
+
+    ⭐ IMAGINE-FINAL HOÀN CHỈNH = BODY MUỐN × DOMAIN CONFIRM:
+
+      Imagine-Final KHÔNG CHỈ "body muốn gì":
+        → Body muốn + domain KHÔNG confirm = ẢO TƯỞNG (delusion)
+          VD: "muốn bay" → body muốn → domain: không thể → ảo tưởng
+        → Body KHÔNG muốn + domain confirm = ÉP BUỘC (external inject)
+          VD: "bố mẹ bảo làm bác sĩ" → domain ok → body không feel → trống rỗng
+        → Body muốn + domain confirm = IMAGINE-FINAL HOÀN CHỈNH
+          VD: "muốn nấu ăn giỏi" → body feel + domain cho phép + kết quả thật
+
+      = Imagine-Final hay nhất = CẢ HAI CÙNG LÚC:
+        → Body: "melody preview SMOOTH" (motivation từ bên trong)
+        → Domain: "kết quả CÓ THẬT" (confirmation từ bên ngoài)
+        → = "Melody hay" 4 tiêu chí (Personal-Melody §5):
+          ① Smooth trên hardware ② Map domain chính xác
+          ③ Cover nhiều domain ④ Bền vững dài hạn
+
+      → = Imagine-Final là BRIDGE giữa body (muốn) và domain (thật)
+      → = Không có Imagine-Final → body không có hướng → "chán"
+      → = Imagine-Final chỉ body → có thể sai domain → "ảo tưởng"
+      → = Imagine-Final chỉ domain → body không feel → "ép buộc"
+      → = Imagine-Final body + domain → HOÀN CHỈNH → "passion", "calling"
+
+
     External input TRIGGER Imagine-Final mới:
       → Thấy cái gì MỚI → PFC simulate → body preview → "MUỐN!"
       → = Imagine-Final SINH RA từ: external input + PFC simulate + body confirm
@@ -439,9 +464,9 @@
     Imagine-Final strength ≈ dissonance → SÁT → 1 event nhỏ = "giọt nước tràn ly"
 
     VD: nhân viên + lương (Imagine-Final = tiền):
-      Mệt (dissonance 40) < tiền (IF 60) → tiếp
-      Sếp xúc phạm (dissonance SPIKE 90) > tiền (IF 60) → BỎ NGAY
-      → = Dissonance SPIKE vượt IF → PFC: "KHÔNG ĐÁNG" → quit
+      Mệt (dissonance 40) < tiền (Imagine-Final 60) → tiếp
+      Sếp xúc phạm (dissonance SPIKE 90) > tiền (Imagine-Final 60) → BỎ NGAY
+      → = Dissonance SPIKE vượt Imagine-Final → PFC: "KHÔNG ĐÁNG" → quit
 
     Imagine-Final STRENGTH phụ thuộc:
       Unfalsifiable (tôn giáo) → strength ≈ vô hạn → gần như LUÔN > dissonance
@@ -451,7 +476,7 @@
       Chỉ PFC tạo chưa body → strength THẤP (giai đoạn "fake it")
 
     → = "Bỏ cuộc" KHÔNG BAO GIỜ bất ngờ — luôn có TÍCH LŨY trước đó
-    → = "Giọt nước tràn ly" = dissonance đã SÁT IF → 1 event nhỏ = tip
+    → = "Giọt nước tràn ly" = dissonance đã SÁT Imagine-Final → 1 event nhỏ = tip
 
 
   ⚠️ CÙNG 1 NGƯỜI có thể ở NHIỀU LEVEL cho NHIỀU THỨ:
@@ -530,9 +555,9 @@
 
     Imagine-Final CÓ THỂ TỰ NÂNG CẤP: chiến lược → action → results → genuine:
 
-    Bước 1: PFC TẠO IF (chưa body confirm): "mình SẼ build cái này"
+    Bước 1: PFC TẠO Imagine-Final (chưa body confirm): "mình SẼ build cái này"
       → Level 2-3: Goal/Ambition — PFC biết, body chưa chắc
-    Bước 2: ACT AS IF → build → kết quả NHỎ → body: "ồ, có vẻ đúng"
+    Bước 2: ACT theo Imagine-Final → build → kết quả NHỎ → body: "ồ, có vẻ đúng"
       → Level 3 → body BẮT ĐẦU confirm → Imagine-Final tăng
     Bước 3: Kết quả TĂNG → body compile [nó hoạt động] → Imagine-Final MẠNH hơn
       → Level 4: Vision → body THẤY + FEEL đích
@@ -549,7 +574,7 @@
       ~2000s: GPU gaming THÀNH CÔNG → body: "đúng hướng" → Imagine-Final tăng
       ~2012: GPU cho deep learning → results BẤT NGỜ → Imagine-Final NHẢY
       ~2023: AI boom → Imagine-Final = 100% genuine (body + PFC + market cùng confirm)
-      → = IF bootstrap thành công: ~30 năm từ chiến lược → genuine
+      → = Imagine-Final bootstrap thành công: ~30 năm từ chiến lược → genuine
 ```
 
 ---
@@ -622,40 +647,83 @@
     ┌──────────────────┬──────────────────────────────────────────────┐
     │ Scale            │ Quan hệ                                      │
     ├──────────────────┼──────────────────────────────────────────────┤
-    │ Micro-IF         │ Xã giao (phút→giờ)                          │
-    │ (phút→giờ)       │ Cả 2 body preview: "cuộc nói chuyện dễ chịu"│
-    │                  │ Match → smooth → gặp vui. Không match → rút. │
+    │ Micro-Imagine-   │ Xã giao (phút→giờ)                          │
+    │ Final            │ Cả 2 body preview: "cuộc nói chuyện dễ chịu"│
+    │ (phút→giờ)       │ Match → smooth → gặp vui. Không match → rút.│
     ├──────────────────┼──────────────────────────────────────────────┤
-    │ Normal-IF        │ Bạn thân (tháng→năm)                        │
-    │ (tháng→năm)      │ Share hướng sống, values, body reward TƯƠNG TỰ│
-    │                  │ "Click" = body detect IF aligned VÔ THỨC     │
+    │ Normal-Imagine-  │ Bạn thân (tháng→năm)                        │
+    │ Final            │ Share hướng sống, values, body reward TƯƠNG TỰ│
+    │ (tháng→năm)      │ "Click" = body detect Imagine-Final aligned VÔ THỨC │
     ├──────────────────┼──────────────────────────────────────────────┤
-    │ Big-IF           │ Đồng nghiệp/co-founder (năm→thập kỷ)       │
-    │ (năm→thập kỷ)    │ Share mission/project → chịu XUNG ĐỘT melody│
-    │                  │ vì big-IF chung → dissonance = investment    │
+    │ Big-Imagine-     │ Đồng nghiệp/co-founder (năm→thập kỷ)       │
+    │ Final            │ Share mission/project → chịu XUNG ĐỘT melody│
+    │ (năm→thập kỷ)    │ vì shared Imagine-Final → dissonance = invest│
     ├──────────────────┼──────────────────────────────────────────────┤
-    │ Life-IF          │ "Tri kỷ" (cả đời) — cực hiếm                │
-    │ (cả đời)         │ 2 body preview cùng life direction           │
-    │                  │ Gặp lại sau 10 năm vẫn "gần" = IF vẫn match │
+    │ Life-Imagine-    │ "Tri kỷ" (cả đời) — cực hiếm                │
+    │ Final            │ 2 body preview cùng life direction           │
+    │ (cả đời)         │ Gặp lại sau 10 năm vẫn "gần" = vẫn match   │
     └──────────────────┴──────────────────────────────────────────────┘
 
-    ⚠️ KHÁC MELODY, CÙNG IF = VẪN HỢP:
+    ⚠️ KHÁC MELODY, CÙNG IMAGINE-FINAL = VẪN HỢP:
       → 2 người hành vi HOÀN TOÀN KHÁC (hardware khác, style khác)
       → Nhưng preview cùng kết quả → complement nhau → MẠNH hơn giống nhau
       → VD: 1 người code, 1 người design → CÙNG muốn "sản phẩm đẹp"
-      → = Diverse teams hoạt động tốt: khác melody + cùng IF = bổ sung
+      → = Diverse teams hoạt động tốt: khác melody + cùng Imagine-Final = bổ sung
 
-    ⚠️ IF SHIFT GIẢI THÍCH QUAN HỆ THAY ĐỔI:
-      → Bạn thân drift apart: không xung đột, IF dần LỆCH → body feel "xa"
-      → Đồng nghiệp bỗng thân: cùng project → big-IF shared → body feel "gần"
-      → Vợ chồng "hết yêu": IF diverge từ từ → "không còn chung hướng"
-      → = Quan hệ thay đổi = IF alignment thay đổi, KHÔNG nhất thiết do xung đột
+    ⚠️ IMAGINE-FINAL SHIFT GIẢI THÍCH QUAN HỆ THAY ĐỔI:
+      → Bạn thân drift apart: không xung đột, Imagine-Final dần LỆCH → body feel "xa"
+      → Đồng nghiệp bỗng thân: cùng project → shared Imagine-Final → body feel "gần"
+      → Vợ chồng "hết yêu": Imagine-Final diverge từ từ → "không còn chung hướng"
+      → = Quan hệ thay đổi = Imagine-Final alignment thay đổi, KHÔNG nhất thiết do xung đột
 
-    ⚠️ BODY DETECT IF-COMPATIBILITY VÔ THỨC:
-      → "Cảm giác click" = body detect IF aligned TRƯỚC PFC biết
+    ⚠️ BODY DETECT IMAGINE-FINAL COMPATIBILITY VÔ THỨC:
+      → "Cảm giác click" = body detect Imagine-Final aligned TRƯỚC PFC biết
       → PFC rationalize SAU: "vì cùng sở thích", "vì nói chuyện hay"
       → Gốc thật: 2 body preview CÙNG HƯỚNG → oxytocin → "thích người này"
       → = Cùng cơ chế Love-Analysis §1: body evaluate trước, PFC giải thích sau
+
+
+  ⭐ SHARED IMAGINE-FINAL = COLLABORATE. LỆCH + SCARCE = CONFLICT:
+
+    CÙNG Imagine-Final + KHÁC melody = BỔ SUNG (mạnh nhất):
+
+      VD vợ chồng nuôi con:
+        → Chồng: melody logic → focus dạy con học, tư duy
+        → Vợ: melody cảm xúc → focus chăm con khỏe, vui
+        → 2 melody KHÁC → 2 Imagine-Final CÙNG HƯỚNG: "con thrive"
+        → Mỗi người cover MẢNG KHÁC → con vừa giỏi vừa khỏe
+        → = Kết quả VƯỢT mong đợi CẢ HAI — vì tổng > từng phần
+
+      VD sếp + nhân viên:
+        → Sếp: muốn chứng minh giá trị, build company
+        → Nhân viên: muốn kiếm tiền, học skill mới
+        → 2 Imagine-Final KHÁC chi tiết → CÙNG ĐÍCH domain real: tạo giá trị thật
+        → = Collaborate vì domain result CHIA ĐƯỢC cho cả 2
+
+      → = "Khác biệt = GIẢI PHÁP, không phải nguyên nhân xung đột"
+        (Conflict-Dynamics.md §2.3)
+
+    XUNG ĐỘT CHỈ KHI — 1 trong 2 trường hợp:
+
+      ① Imagine-Final THẬT SỰ LỆCH (khác ĐÍCH, không chỉ khác ĐƯỜNG):
+        → Chồng: "con PHẢI giỏi" (chấp nhận áp lực)
+        → Vợ: "con PHẢI vui" (không chấp nhận áp lực)
+        → 2 Imagine-Final XUNG ĐỘT ở method → tranh giành CÁCH nuôi con
+        → ⚠️ CÓ THỂ "tưởng lệch mà không lệch":
+          → "Giỏi" + "vui" = CÓ THỂ cùng lúc → thay đổi perception = giải quyết
+          → (ref: Conflict-Dynamics §7: perceived vs actual scarcity)
+
+      ② CÙNG Imagine-Final + RESOURCE SCARCE (không đủ chia):
+        → Sếp + nhân viên CÙNG muốn "kiếm tiền"
+        → Nhưng: lợi nhuận = FINITE → phân chia = tranh giành
+        → = Collaborate VÌ cùng Imagine-Final → xung đột VÌ resource allocation
+        → (ref: Conflict-Dynamics §1: Overlap × Scarcity × Commitment)
+
+    → = Imagine-Final là BIẾN QUYẾT ĐỊNH:
+      → Cùng Imagine-Final + đủ resource = collaborate (win-win)
+      → Cùng Imagine-Final + thiếu resource = compete (zero-sum)
+      → Khác Imagine-Final = không liên quan (peace)
+      → Lệch Imagine-Final + cùng domain = conflict
 ```
 
 ---
@@ -739,6 +807,9 @@
 → Education-Bridge.md §9 ⑦: compass CỦA BỐ MẸ ≠ compass CỦA CON
 → Core-v7.5-Draft.md §2: Body-Satisfaction, Body-Reward, Body-Dissonance (3 signals đo compass)
 → Love-Analysis.md §6 ④: Imagine-Final = bộ lọc tự nhiên cho partner
+→ Connection.md §7.5: Connection × Imagine-Final per layer (L0→L3, locking, durability)
+→ Conflict-Dynamics.md §1: Overlap × Scarcity × Commitment (shared Imagine-Final = collaborate/conflict)
+→ Conflict-Dynamics.md §2: khác biệt = bổ sung (khác melody + cùng Imagine-Final = mạnh nhất)
 → Cortisol-Baseline.md: cortisol modes (body-base state ảnh hưởng simulation quality)
 ```
 

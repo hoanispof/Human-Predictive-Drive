@@ -488,7 +488,7 @@
     🟡 "1 drive × N contexts" — logical reframe, chưa có
         neuroscience test phân biệt "nhiều drives riêng" vs "1 drive × contexts"
     🟡 "Connection × Imagine-Final per layer" — consistent với
-        attachment theory (Bowlby: proximity seeking = survival IF),
+        attachment theory (Bowlby: proximity seeking = survival Imagine-Final),
         goal-setting (shared goals predict team cohesion),
         self-determination theory (intrinsic > extrinsic bonding).
         "External lock" mechanism consistent với extrinsic motivation research.
@@ -552,7 +552,7 @@
 → Compliance-Floor.md §5.5: empathy = internal compliance (connection → self-regulate)
 → Body-Dissonance.md: loneliness = dissonance from connection THIẾU
 → Imagine-Final.md §1: 2 tầng Imagine-Final (vô thức BASE + PFC EXTENSION)
-→ Imagine-Final.md §6: Social Scale of IF (micro→life) + mentor nâng IF
+→ Imagine-Final.md §6: Social Scale of Imagine-Final (micro→life) + mentor nâng Imagine-Final
 → Education-Bridge.md §0: con cần ước mơ + §5.5 social mirror
 → Global-Melody.md: melody cá nhân → melody nhóm → melody văn hóa (connection at scale)
 → Conflict-Dynamics.md: xung đột = dissonance GIỮA melodies (connection gone wrong)

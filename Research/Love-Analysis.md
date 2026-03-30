@@ -97,16 +97,78 @@
       → = Nghĩ về họ LIÊN TỤC, không dừng được = serotonin thấp
       🟢 Marazziti et al. 1999
 
-  BỊ SUPPRESS (RIÊNG CON NGƯỜI — vì PFC mạnh sẽ cản bonding):
-    PFC lateral (judgment): GIẢM hoạt động
-      → = Không thấy khuyết điểm, không đánh giá logic
-      → = "Mù quáng khi yêu" = NÃO THẬT SỰ TẮT phần đánh giá
-      → ⚠️ Ở động vật PFC yếu: KHÔNG CẦN suppress (không có gì để tắt)
-      → Ở con người: PFC MẠNH → sẽ cản → evolution PHẢI suppress
+  PFC + AMYGDALA GIẢM KHI YÊU — nhưng TẠI SAO?
 
-    Amygdala (threat detection): GIẢM hoạt động
-      → = Không cảm nhận nguy hiểm từ người kia
-      → = Red flags BỊ BỎ QUA — không phải "không thấy" mà NÃO TẮT phần "thấy"
+    🟢 ĐO ĐƯỢC (không thể chối cãi):
+      → fMRI: lateral PFC ↓ + amygdala ↓ KHI XEM ẢNH người yêu
+        (Bartels & Zeki 2000, 2004; Fisher et al. 2005)
+      → ⚠️ Đo TRONG CONTEXT "nhìn/nghĩ về partner" — KHÔNG phải 24/7
+      → ⚠️ Người đang yêu VẪN làm việc bình thường, đánh giá đồng nghiệp OK
+      → = PFC giảm CHỈ TRONG CONTEXT partner, không phải MỌI context
+
+      → Serotonin ↓ ~40% (mãn tính — baseline thay đổi) → obsessive thinking
+        (Marazziti 1999)
+      → Oxytocin tiêm → amygdala giảm (Kirsch et al. 2005)
+
+    🟡 MAINSTREAM SUY ĐOÁN (có thể đúng, có thể sai):
+      → "Chemicals TRỰC TIẾP suppress PFC" — chemicals → ép tắt PFC
+      → ⚠️ VẤN ĐỀ: hormones KHÔNG biết phân biệt schema
+        → Hormones flood TOÀN BỘ não → không target "chỉ suy nghĩ về partner"
+        → NẾU suppress toàn cục → sao vẫn làm việc bình thường ở công ty?
+        → NẾU suppress toàn cục → sao chỉ "mù" về partner mà không mù mọi thứ?
+        → = "Selective blindness" KHÓ GIẢI THÍCH bằng global chemical suppress
+
+    🟡 FRAMEWORK HYPOTHESIS (giải thích selective blindness tốt hơn):
+
+      PFC KHÔNG BỊ ÉP TẮT — PFC TỰ GIẢM VÌ EVIDENCE QUÁ RÕ TRONG CONTEXT:
+
+        Khi ở cùng/nghĩ về partner:
+          → L1, L2, L3 channels ĐỒNG LOẠT filled (reward flooding ở trên)
+          → PFC nhận: "MỌI channel smooth, reward THẬT, RÕ RÀNG"
+          → PFC reactive (Imagine-Final.md §1): body smooth → PFC không được gọi
+          → Không có schema chuẩn bị (red flags) → KHÔNG CÓ counter-evidence
+          → PFC: "không có data để nghi ngờ" → TỰ GIẢM evaluate
+          → = PFC ĐÚNG dựa trên data hiện có — data KHÔNG ĐẦY ĐỦ thôi
+
+        Khi ở công ty (context khác):
+          → Body-base channels KHÁC hoạt động → reward flood KHÔNG CÓ
+          → PFC CÓ VIỆC (công việc) → evaluate bình thường
+          → = PFC KHÔNG bị suppress ở context này → selective blindness TỰ NHIÊN
+
+        Serotonin ↓ = KÉO attention VỀ partner context:
+          → Obsessive thinking → attention CỨ QUAY LẠI partner
+          → Mỗi lần quay lại → reward flood → PFC: "smooth!" → giảm evaluate
+          → = Serotonin không "tắt PFC" → serotonin KÉO PFC vào context smooth
+
+      TẠI SAO MODEL NÀY TỐT HƠN:
+        → Giải thích selective blindness (chỉ mù về partner)
+        → Giải thích vẫn function bình thường ở context khác
+        → Chỉ cần 1 cơ chế (reward flood → PFC tự giảm) thay vì 2
+        → Consistent với PFC reactive model (Imagine-Final.md §1)
+
+    ⚠️ NHƯNG: có thể CẢ HAI (chưa tách rõ được):
+      → Kirsch 2005: oxytocin tiêm → amygdala giảm → có vẻ DIRECT
+      → Nhưng: oxytocin có thể tạo "safe feeling" → amygdala tự giảm (không có threat)
+      → fMRI KHÔNG PHÂN BIỆT ĐƯỢC: "bị ép tắt" vs "không có việc" → nhìn GIỐNG NHAU
+      → Cần study: tiêm oxytocin + cho xem red flags → amygdala có fire không?
+        → Fire: amygdala không bị ép → chỉ "không có việc" → framework đúng
+        → Không fire: có yếu tố direct suppress → mainstream đúng phần này
+
+    ⭐ HỆ QUẢ QUAN TRỌNG — compiled schemas VẪN CHẠY:
+
+      Dù cơ chế nào đúng → compiled schemas ở VÔ THỨC (tầng 1) vẫn có giá trị:
+        → PFC giảm (dù tự giảm hay bị ép) → COMPILED SCHEMAS vẫn chạy ở vô thức
+        → Vô thức KHÔNG CẦN PFC để fire patterns đã compile
+        → = Red flags ĐÃ COMPILED → VẪN fire: body "KỲ KỲ"
+        → = Body "kỳ kỳ" = counter-evidence → PFC CÓ DATA để evaluate ngược
+        → = Tại sao MỘT SỐ người vẫn detect bad partner dù đang limerence
+        → = Và tại sao compile red flags TRƯỚC khi yêu = QUAN TRỌNG (§6)
+
+      NẾU framework hypothesis đúng (PFC tự giảm, không bị ép):
+        → Compiled schemas CÒN MẠNH HƠN mainstream dự đoán
+        → Vì PFC chỉ "không có việc" → cho thêm DATA (red flag fire) → PFC CÓ VIỆC → BẬT
+        → = Compiled red flags KHÔNG CHỈ "vẫn chạy" → CÒN CÓ THỂ KÉO PFC BẬT LẠI
+        → = Đây là hy vọng lớn nhất cho "bảo vệ khi yêu"
 ```
 
 ---
@@ -141,15 +203,22 @@
     L3 Protect: "người này CỦA TÔI" → vasopressin (bảo vệ bond)
     Imagine: PFC simulate tương lai CÓ NGƯỜI NÀY → opioid preview
 
-    ĐỒNG THỜI: PFC judgment TẮT + threat detection TẮT
-    = TOÀN BỘ reward ON + TOÀN BỘ evaluation OFF
+    ĐỒNG THỜI: PFC judgment GIẢM MẠNH + threat detection GIẢM MẠNH
+    = Reward ON ở hầu hết channels + evaluation GIẢM ~60-70%
     = Trạng thái ĐỒNG BỘ multi-channel MẠNH NHẤT con người trải nghiệm
     = Melody bỗng chơi TẤT CẢ nhạc cụ cùng lúc → body: "CỰC HAY!"
 
+    ⚠️ KHÔNG phải "tắt 100%" — PFC CÒN ~30-40% (§2: 2 cơ chế chồng):
+      → Body smooth → PFC tự giảm (không có dissonance để scan)
+      → Chemical suppress thêm (oxytocin, dopamine trực tiếp)
+      → = Compiled schemas ở vô thức VẪN CÓ THỂ fire (red flags)
+
   ⚠️ SO SÁNH VỚI THREAT-SCHEMA HIJACK (Core §6.5):
     Threat hijack: cortisol suppress body-base → ép nạp chunks → PUSH
-    Love hijack: salience+oxytocin suppress judgment → ép bonding → PULL
-    = 2 loại hijack, 2 mục đích, CÙNG CƠ CHẾ: suppress PFC → drive behavior
+    Love hijack: reward flood + chemical suppress → giảm evaluation → PULL
+    = 2 loại hijack, 2 mục đích, KHÁC CƠ CHẾ:
+      Threat: cortisol TRỰC TIẾP suppress (1 cơ chế)
+      Love: body smooth TỰ GIẢM + chemical suppress THÊM (2 cơ chế chồng)
 
   ⚠️ NHƯNG "suppress PFC" KHÔNG TẠO RA tình yêu:
     → Bonding mechanism (oxytocin/vasopressin receptor) = CƠ CHẾ GỐC (§1)
@@ -416,8 +485,20 @@
       → Body FEEL khi nghe: "khó chịu vì ai đó bị đối xử tệ" = chunks ĐANG compile
       → Qua thời gian: pattern "red flag" → compiled → body DETECT TỰ ĐỘNG
       → = Gặp người có red flag → body feel "kỳ kỳ" TRƯỚC PFC phân tích
-      → ⚠️ CHỈ ĐỌC list red flags = PFC biết → CHƯA ĐỦ (limerence tắt PFC)
-      → Phải FEEL qua nhiều câu chuyện → VÔ THỨC mới compile
+
+      ⭐ TẠI SAO PHẢI COMPILE VÀO VÔ THỨC (không chỉ PFC biết):
+        → Limerence GIẢM PFC ~60-70% (§2: 2 cơ chế chồng)
+        → Red flags CHỈ Ở PFC (đọc list) → PFC giảm → red flags MẤT
+        → Red flags ĐÃ COMPILED vào vô thức → CHẠY Ở TẦNG 1 (Imagine-Final.md §1)
+        → Tầng 1 KHÔNG CẦN PFC → VẪN fire dù PFC đang giảm
+        → = Compiled schemas = "hàng rào BẢO VỆ" VẪN HOẠT ĐỘNG khi yêu
+        → = Tại sao MỘT SỐ người vẫn detect bad partner dù đang limerence
+        → = Và tại sao "chỉ đọc" red flags = KHÔNG ĐỦ → phải FEEL để compile
+
+      CÁCH compile: FEEL, không chỉ BIẾT:
+        → Nghe NHIỀU câu chuyện thật (bạn bè, sách, podcast) → chunks tích lũy
+        → Body FEEL khi nghe: "khó chịu vì ai đó bị đối xử tệ" = chunks ĐANG compile
+        → Qua thời gian: pattern "red flag" → compiled → body DETECT TỰ ĐỘNG
 
 
   ② BUILD "GREEN FLAGS" SCHEMA — biết mình CẦN gì:
@@ -773,7 +854,9 @@
     → Serotonin giảm ~40% khi yêu ≈ OCD levels (Marazziti et al. 1999)
     → Limerence duration: 18 tháng → 3 năm (Tennov 1979, Fisher)
     → Love rejection = cocaine withdrawal pattern (Fisher 2010)
-    → PFC + amygdala suppressed during limerence (Zeki 2007)
+    → PFC + amygdala GIẢM hoạt động khi xem ảnh partner (Zeki 2007)
+      ⚠️ Đo TRONG CONTEXT partner — mainstream suy đoán "suppressed"
+      nhưng fMRI không phân biệt "bị ép tắt" vs "không có việc"
     → Novel activities boost relationship satisfaction (Aron et al. 2000)
     → Romeo & Juliet effect: parental interference × love (Driscoll et al. 1972)
     → Misattribution of arousal: arousal nhầm thành attraction (Dutton & Aron 1974)
@@ -782,7 +865,16 @@
   FRAMEWORK (🟡):
     → "Multi-channel hijack" framing: consistent với data, chưa mainstream term
     → "Melody đồng loạt": metaphor hữu ích cho multi-channel activation
-    → "Love hijack vs threat hijack — cùng cơ chế": logical inference
+    → "PFC tự giảm vì body smooth, KHÔNG bị ép tắt" (§2):
+       CHALLENGE mainstream "direct chemical suppress".
+       Giải thích selective blindness tốt hơn (mù CHỈ về partner).
+       Giải thích vẫn function bình thường ở context khác.
+       Parsimony: 1 cơ chế (reward flood → PFC tự giảm) thay vì 2.
+       Testable: tiêm oxytocin + cho xem red flags → amygdala fire hay không?
+    → "Compiled schemas KÉO PFC BẬT LẠI" (§2 + §6):
+       Nếu PFC tự giảm (không bị ép) → compiled red flags fire → body "kỳ"
+       → PFC CÓ DATA mới → PFC BẬT LẠI để evaluate → có thể detect bad partner
+    → "Love hijack vs threat hijack — KHÁC cơ chế": logical inference
     → "Hụt hẫng = intensity × (kỳ vọng − thực tế)": logical model
     → "Trauma chunks làm lệch chọn partner": consistent với
        attachment theory (Bowlby) + repetition compulsion (Freud)
@@ -812,6 +904,10 @@
     → Attachment style (secure/anxious/avoidant) map vào framework thế nào?
     → "Shared chunks" có ĐO ĐƯỢC? (predict relationship durability?)
     → Optimal no-contact duration = f(limerence intensity)?
+    → PFC "bị ép tắt" hay "tự giảm vì smooth"? → cần fMRI study:
+      tiêm oxytocin + cho xem red flags → amygdala fire hay không?
+    → Compiled red flags CÓ kéo PFC bật lại khi đang limerence?
+      → Testable: so sánh người có red flag training vs không
 ```
 
 ---

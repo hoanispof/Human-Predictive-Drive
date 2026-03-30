@@ -116,6 +116,33 @@
     → = "Chọn bạn = chọn melody HỢP" (không bị ép)
     → = Bạn thân HIẾM: tìm melody ĐÚng hợp = khó
     → Tìm được: "à, người này HIỂU mình!" = melody HARMONY → oxytocin
+
+
+  ⭐ TẠI SAO NHÓM HOẠT ĐỘNG = SHARED IMAGINE-FINAL (Imagine-Final.md §6):
+
+    Melody KHÁC nhau + Imagine-Final CÙNG HƯỚNG = dàn nhạc TỐT NHẤT:
+
+      Gia đình: bố focus kỷ luật, mẹ focus chăm sóc
+        → 2 melody khác → cùng Imagine-Final: "con thrive"
+        → Mỗi người cover MẢNG KHÁC → con vừa giỏi vừa khỏe
+
+      Công ty: CEO vision, engineer build, designer UX
+        → Nhiều melody khác → cùng Imagine-Final: "sản phẩm thành công"
+        → = Diverse team = mạnh nhất (khác melody, cùng Imagine-Final)
+
+      Nhóm bạn: mỗi người style khác
+        → Imagine-Final cùng scale: "cuộc sống vui, có ý nghĩa"
+        → = Body detect Imagine-Final aligned VÔ THỨC → "click"
+
+    Xung đột CHỈ khi: Imagine-Final LỆCH hoặc resource SCARCE
+      → Bố mẹ lệch: "con phải giỏi" vs "con phải vui" → tranh cách nuôi
+      → Công ty: cùng muốn lợi nhuận → nhưng chia KHÔNG đều → conflict
+      → (ref: Conflict-Dynamics.md §1: Overlap × Scarcity × Commitment)
+
+    → = "Culture fit" THẬT RA = Imagine-Final alignment
+    → = "Chọn bạn" THẬT RA = body detect shared Imagine-Final
+    → = Nhóm BỀN = shared Imagine-Final ở L3 (intrinsic, nâng cấp được)
+    → = Nhóm FRAGILE = shared Imagine-Final chỉ ở L1/L2 (tắt khi met)
 ```
 
 ---
@@ -459,6 +486,8 @@
 
 ```
 → Personal-Melody.md: melody BÊN TRONG 1 người (tầng 1)
+→ Imagine-Final.md §6: Social Scale + shared Imagine-Final = collaborate/conflict
+→ Connection.md §7.5: Connection × Imagine-Final per layer (L0→L3, locking)
 → Knowledge-Flow.md: DÒNG CHẢY giữa melodies (process qua thời gian)
 → Architecture-v7.5-Draft.md §7: Domain = thực tế bên ngoài
 → Status-Analysis-v2.md: status = schema access map (bao nhiêu melody được chơi)

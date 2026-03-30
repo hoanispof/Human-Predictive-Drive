@@ -154,7 +154,7 @@ NHƯNG: Novelty flow CẦN chunks ĐỦ LỚN:
 
   → Giải thích "nghèo khổ → sáng tạo" (stereotype):
     KHÔNG phải nghèo = sáng tạo
-    Mà: nghèo → cortisol cao → IF PFC cao + chunks đủ → flow possible
+    Mà: nghèo → cortisol cao → NẾU PFC cao + chunks đủ → flow possible
     Nghèo + PFC thấp + chunks thiếu = chỉ anxiety → KHÔNG sáng tạo
     → = "Nghèo → sáng tạo" chỉ đúng cho subset: PFC cao + chunks đủ
 ```
