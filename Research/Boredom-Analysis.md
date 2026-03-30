@@ -50,6 +50,12 @@ MAINSTREAM NÓI: "chán = thiếu stimulation / thiếu novelty"
   → = "CHÁN" = LABEL mà PFC đặt cho "body uncomfortable NHẸ + KHÔNG biết tại sao"
   → = KHÔNG phải 1 emotion riêng → là TÌNH TRẠNG PFC không identify được need
 
+  ⚠️ QUA LENS IMAGINE-FINAL (Imagine-Final.md §1):
+    → Vô thức LUÔN CÓ expectation patterns (Imagine-Final vô thức)
+    → "Chán" = vô thức CÓ Imagine-Final nhưng QUÁ MỜ → body: "muốn gì đó..."
+    → PFC nhận signal MỜ → không đủ rõ để act → label: "chán"
+    → = "Chán" = Imagine-Final vô thức DƯỚI ngưỡng PFC nhận biết
+
   ⚠️ VTA / DOPAMINE KHÔNG LIÊN QUAN TỚI "CHÁN":
     → VTA fire = "CÓ GÌ ĐÓ ĐÁNG CHÚ Ý" (salience signal)
     → VTA KHÔNG fire = "không có gì đáng chú ý" → BÌNH THƯỜNG

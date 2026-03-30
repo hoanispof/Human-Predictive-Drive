@@ -361,6 +361,106 @@
 
 ---
 
+## 7.5 Connection × Imagine-Final — Tại Sao Seek Ai, Bond Sâu Bao Nhiêu
+
+```
+🟡 MỌI connection đều có Imagine-Final — vô thức tạo, body check:
+
+  ⭐ CƠ CHẾ GỐC:
+
+    Body-base LUÔN CÓ expectation patterns về NGƯỜI KHÁC (Imagine-Final.md §1):
+      → Vô thức preview: "gặp người này → melody sẽ thế nào?"
+      → Preview tốt → approach. Preview xấu → avoid.
+      → = Mọi quyết định "gặp ai, tránh ai" đều có Imagine-Final VÔ THỨC
+
+    "Buồn bần bật → nghĩ tới 1 người → gặp → thoải mái thật":
+      → Body đang dissonance → scan vô thức: "AI fix được?"
+      → Body tìm ra: người X → simulate gặp → opioid preview → "MUỐN gặp"
+      → Gặp thật → reward CONFIRM hoặc VƯỢT preview
+      → "Sướng hơn tưởng tượng" = gặp trực tiếp có NHIỀU channels hơn simulate
+      → = Body tạo CONNECTION-SPECIFIC Imagine-Final theo nhu cầu hiện tại
+
+
+  ⭐ CONNECTION ĐÁP ỨNG L0→L3 — Imagine-Final TƯƠNG ỨNG KHÁC NHAU:
+
+    ┌───────┬─────────────────────────────┬──────────────────────────────┐
+    │ Layer │ Connection đáp ứng GÌ       │ Imagine-Final tương ứng      │
+    ├───────┼─────────────────────────────┼──────────────────────────────┤
+    │ L0    │ Sống sót: đàn bảo vệ       │ Cực ngắn, vô thức hoàn toàn │
+    │       │ Baby cần mẹ = L0            │ "Không chết" → seek proximity│
+    ├───────┼─────────────────────────────┼──────────────────────────────┤
+    │ L1    │ Comfort: ôm, ấm, co-regulate│ Ngắn hạn: "body thoải mái" │
+    │       │ Cortisol giảm khi có người  │ Tắt khi met, lặp lại       │
+    ├───────┼─────────────────────────────┼──────────────────────────────┤
+    │ L2    │ Quality: nói chuyện vui,    │ Trung hạn: "cảm giác tốt   │
+    │       │ được hiểu, sensory feed     │ khi ở cùng người này"       │
+    │       │                             │ Body preview → approach      │
+    ├───────┼─────────────────────────────┼──────────────────────────────┤
+    │ L3    │ Growth: học từ nhau         │ Dài hạn: "cùng BUILD, cùng  │
+    │       │ Status: được công nhận     │ GROW, cùng tạo legacy"       │
+    │       │ Mission: cùng mục tiêu     │ NÂNG CẤP được → bền nhất    │
+    └───────┴─────────────────────────────┴──────────────────────────────┘
+
+
+  ⭐ LAYER QUYẾT ĐỊNH DURABILITY CỦA BOND:
+
+    L0/L1 Imagine-Final = NGẮN HẠN tự nhiên:
+      → Body-base met → body-satisfaction → Imagine-Final DORMANT
+      → Đói → gặp người cho ăn → no → Imagine-Final "ăn" tắt
+      → Cô đơn → gặp bạn → vui → Imagine-Final "gặp" tắt
+      → = Chu kỳ: đói → seek → met → tắt → đói lại → seek lại
+
+    L3 Imagine-Final = BỀN NHẤT:
+      → Đạt mốc → Imagine-Final KHÔNG TẮT → NÂNG CẤP
+      → Co-founders đạt milestone → "tiếp BUILD bigger!"
+      → L3 Novelty không có ceiling → Imagine-Final tiến hóa mãi
+      → CHỊU ĐƯỢC L2 dissonance: cãi nhau (L2) nhưng cùng mission (L3)
+      → = Dissonance = investment cost cho Imagine-Final chung
+      → (ref: Boredom-Analysis §3: Imagine-Final biến "chán" → "investment")
+
+
+  ⚠️ EXTERNAL LOCK — L1/L2 bị KÉO DÀI nhân tạo:
+
+    Bình thường: L1/L2 Imagine-Final ngắn, tắt khi met.
+    NHƯNG external constraint có thể KHÓA connection vào L1/L2:
+
+      KHÓA L1 — "không làm → không có lương → không ăn":
+        → Imagine-Final connection với sếp/công ty = bị khóa vào L1
+        → Chịu L2 dissonance (ghét sếp) VÌ L1 Imagine-Final mạnh hơn
+        → THÁO KHÓA (tìm việc mới) → connection BIẾN MẤT ngay
+        → = Connection KHÔNG có gốc → chỉ có KHÓA
+
+      KHÓA L2 — "con phải học → mẹ mới chơi với con":
+        → Connection mẹ-con bị khóa vào compliance
+        → Con chịu dissonance (ghét học) VÌ L2 connection mạnh hơn
+        → Rủi ro: compile "connection = có điều kiện" → damage trust
+        → (ref: Education-Bridge.md §3: threat overdose)
+
+      KHÓA L0 — "không nghe lời → bỏ rơi":
+        → Connection bị khóa vào SURVIVAL
+        → Con chịu MỌI THỨ vì L0 > tất cả
+        → = TOXIC nhất: connection gắn threat → trauma chunks compile
+        → (ref: Love-Analysis §5: trauma chunks làm lệch)
+
+    → = Connection bị khóa = FRAGILE: tháo khóa → mất ngay
+    → = Nhân viên nghỉ việc → quên sếp. Con lớn → xa bố mẹ kiểm soát.
+    → = Connection BỀN NHẤT = L3 Imagine-Final shared (tự nguyện, intrinsic)
+
+
+  ⭐ HỆ QUẢ — predict bond depth:
+
+    Biết 2 người share Imagine-Final ở LAYER NÀO → predict bond DEPTH:
+      → Chỉ L1/L2: bond tắt khi need met hoặc khóa mở → "đồng nghiệp cũ, quên"
+      → L2 + L3: bond trung bình, có thể bền nếu L3 align → "bạn tốt"
+      → L3 deep: bond bền nhất, chịu xung đột, nâng cấp cùng → "tri kỷ, co-founder"
+
+    Biết 2 người CÓ KHÓA hay KHÔNG → predict fragility:
+      → Có khóa (lương, threat, điều kiện) → bond FRAGILE
+      → Không khóa (tự nguyện, intrinsic L3) → bond DURABLE
+```
+
+---
+
 ## 8. Honest Assessment
 
 ```
@@ -387,6 +487,12 @@
         nhưng mechanism chưa fully mapped
     🟡 "1 drive × N contexts" — logical reframe, chưa có
         neuroscience test phân biệt "nhiều drives riêng" vs "1 drive × contexts"
+    🟡 "Connection × Imagine-Final per layer" — consistent với
+        attachment theory (Bowlby: proximity seeking = survival IF),
+        goal-setting (shared goals predict team cohesion),
+        self-determination theory (intrinsic > extrinsic bonding).
+        "External lock" mechanism consistent với extrinsic motivation research.
+        Layer → durability mapping = framework-specific, cần validate.
 
   HYPOTHESIS (🔴):
     🔴 "Connection KHÔNG phải layer" — strong restructure claim, cần verify
@@ -445,7 +551,8 @@
 → Empathy-Education.md §3.6: 1 anchor person đủ (= 1 deep connection đủ seed)
 → Compliance-Floor.md §5.5: empathy = internal compliance (connection → self-regulate)
 → Body-Dissonance.md: loneliness = dissonance from connection THIẾU
-→ Imagine-Final.md §6: mentor/bạn tốt nâng imagine final (= calibration)
+→ Imagine-Final.md §1: 2 tầng Imagine-Final (vô thức BASE + PFC EXTENSION)
+→ Imagine-Final.md §6: Social Scale of IF (micro→life) + mentor nâng IF
 → Education-Bridge.md §0: con cần ước mơ + §5.5 social mirror
 → Global-Melody.md: melody cá nhân → melody nhóm → melody văn hóa (connection at scale)
 → Conflict-Dynamics.md: xung đột = dissonance GIỮA melodies (connection gone wrong)

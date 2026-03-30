@@ -314,8 +314,13 @@ MỖI NGƯỜI = 1 BÀI NHẠC RIÊNG (unique melody):
   → Mỗi chunk mới PHẢN XẠ với pattern này: "đúng hướng" hay "vô nghĩa"
   → PFC LIÊN TỤC check: "dissonance NÀY xứng với melody update TIỀM NĂNG?"
 
-  (Chi tiết cơ chế: Imagine-Final.md §1 — reference pattern, cost-benefit,
-   tiến hóa, external trigger)
+  ⚠️ Imagine-Final KHÔNG CHỈ conscious (PFC):
+    → Body-base LUÔN CÓ expectation patterns VÔ THỨC ở mọi scale
+    → Vô thức = check chính, yêu cầu chính, trả thưởng chính (~95%)
+    → PFC = extension: conscious hóa, check domain, chọn thực thi
+    → = "Compass" chạy VÔ THỨC — PFC chỉ "đọc" compass khi cần
+
+  (Chi tiết cơ chế + 2 tầng: Imagine-Final.md §1 — vô thức BASE + PFC EXTENSION)
 
 
   CÓ COMPASS → melody BUILD CÓ HƯỚNG:

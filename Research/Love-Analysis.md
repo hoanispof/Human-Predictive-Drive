@@ -22,6 +22,9 @@
     → Cùng level với đói, khát → KHÔNG thể "chọn" yêu hay không
     → Body DRIVE trước → PFC "giải thích" sau
     → = "Tại sao yêu?" → "vì yêu" = PFC verbalize CÁI body ĐÃ quyết
+    → = Body CÓ unconscious Imagine-Final về partner: preview "melody chung"
+      → Preview tốt → approach + bonding. Preview xấu → avoid.
+      → "Thích" = body ĐÃ simulate melody chung + opioid preview (Imagine-Final.md §1)
 
   MỤC ĐÍCH EVOLUTION:
     → 2 người LẠ → ở lại CÙNG NHAU đủ lâu → giao phối → nuôi con sơ sinh

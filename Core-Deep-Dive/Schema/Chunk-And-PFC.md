@@ -159,7 +159,12 @@
       → Detect: body-base smooth hay không (current state)
       → Compile: patterns từ experience (match/mismatch)
       → Run: compiled schemas tự động
-      → = Giỏi: "BÂY GIỜ body thấy thế nào?" → trả lời NGAY, CHÍNH XÁC
+      → Tạo Imagine-Final: expectation patterns ở MỌI scale
+        (micro: "vài giây tới" → long: "hướng đời" — Imagine-Final.md §1)
+      → Check Imagine-Final BODY-BASE: "reality có match expectation không?"
+      → Trả thưởng/phạt: opioid khi match, cortisol khi mismatch
+      → = Giỏi: "BÂY GIỜ body thấy thế nào?" + "CÓ ĐÚNG HƯỚNG không?"
+        → Trả lời NGAY, CHÍNH XÁC — ở mức BODY-BASE
 
     VÔ THỨC KHÔNG THỂ:
       → Check: "smooth NÀY có đúng với domain không?"
@@ -174,6 +179,10 @@
       → Simulate tương lai: "nếu tiếp tục → kết quả gì?"
       → So sánh ký ức: "lần trước pattern này → kết quả tệ"
       → Check domain: "body thích NHƯNG thực tế có bền không?"
+      → Check Imagine-Final DOMAIN: "body muốn hướng này → domain có cho phép?"
+        → = Vô thức CÓ Imagine-Final nhưng KHÔNG check domain accuracy
+        → = PFC là HỆ THỐNG DUY NHẤT verify: Imagine-Final có khả thi không
+      → Chọn giữa competing Imagine-Finals: ngắn hạn vs dài hạn
       → Tạo chunks evaluative MỚI → NẠP VÀO vô thức → UPDATE database
       → = PFC "DẠY" vô thức cái mà vô thức tự KHÔNG THỂ biết
 

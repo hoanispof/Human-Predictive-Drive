@@ -1044,6 +1044,14 @@ CƠ CHẾ TĂNG/GIẢM:
 
 ## 4. IMAGINE — Chi Tiết
 
+```
+⚠️ NOTE: "Imagine" ở đây mô tả tầng CONSCIOUS (PFC-driven).
+   Body-base CÓ expectation patterns VÔ THỨC ở mọi scale
+   (micro→life) — đó cũng là Imagine-Final, chạy ở background.
+   PFC = extension: conscious hóa, check domain, chọn thực thi.
+   (Chi tiết: Imagine-Final.md §1 — 2 tầng vô thức BASE + PFC EXTENSION)
+```
+
 ### 4.1 Novelty-Schema (PULL — cải thiện Body-Base qua PFC)
 
 ```

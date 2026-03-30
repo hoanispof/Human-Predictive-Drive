@@ -31,14 +31,116 @@
   tham vọng, khát vọng, mục đích sống, sứ mệnh, tầm nhìn,
   lý tưởng, tiếng gọi, ám ảnh...
 
-  Tất cả = PFC simulate 1 trạng thái TƯƠNG LAI.
+  Tất cả = HỆ THỐNG simulate 1 trạng thái TƯƠNG LAI.
   Khác nhau = body THAM GIA simulation đó ĐẾN ĐÂU.
 
   ⚠️ QUY ƯỚC: luôn viết "Imagine-Final" đầy đủ, KHÔNG viết tắt "IF"
      (vì "IF" dễ nhầm với "if" trong tiếng Anh hoặc programming)
 
-  CƠ CHẾ (Schema-Operations §8.5):
-    → PFC kích hoạt chunks về tương lai
+
+  ⭐ 2 TẦNG CỦA IMAGINE-FINAL — vô thức là GỐC, PFC là MỞ RỘNG:
+
+    TẦNG 1 — VÔ THỨC (BASE, luôn chạy, PFC KHÔNG CẦN biết):
+
+      Body-base LUÔN CÓ expectation patterns — ở MỌI scale:
+
+        Micro (giây→phút):
+          → Đang ăn → body preview "no" → tiếp tục ăn
+          → Gặp ai đó → body preview "nói chuyện → thoải mái" → approach
+          → = Mọi hành vi đều có micro-Imagine-Final VÔ THỨC
+
+        Short (phút→giờ):
+          → "Gặp người này → melody sẽ mượt hơn" → seek connection
+          → "Ăn xong → sẽ thoải mái" → chịu đợi
+
+        Medium (ngày→tháng):
+          → "Làm xong project → body sẽ reward" → chịu dissonance hàng ngày
+          → "Học xong kỹ năng → sẽ dùng được" → chịu investment cost
+
+        Long (năm→đời):
+          → Compiled DEEP → body feel "hướng này ĐÚNG" mà PFC không name được
+          → "Tiếng gọi", "passion" = body ĐÃ CÓ long-Imagine-Final từ lâu
+
+      VÔ THỨC LÀ PHẦN CHÍNH:
+        → CHECK chính: body so sánh hiện tại vs expectation liên tục
+        → YÊU CẦU chính: body signal "thiếu" khi reality < expectation
+        → TRẢ THƯỞNG chính: body opioid khi reality ≥ expectation
+        → = ~95% Imagine-Final hoạt động HOÀN TOÀN vô thức
+        → = PFC chỉ "biết" những Imagine-Final ĐỦ LỚN / đủ dissonance
+
+
+    ⭐ TRIGGER — KHI NÀO PFC BẬT (PFC = REACTIVE, không proactive):
+
+      PFC KHÔNG tự khởi động → BODY GỌI PFC khi cần:
+
+        Body MET (expectation ≈ reality) → PFC KHÔNG engage:
+          → Ăn đúng giờ, không đói → PFC không nghĩ tới đồ ăn
+          → Gặp bạn thường xuyên, vui → PFC không scan "gặp ai"
+          → Công việc smooth, lương ổn → PFC không hỏi "đi đâu"
+          → = "Autopilot" — vô thức chạy, PFC để yên
+
+        Body UNMET (reality < expectation) → dissonance signal → PFC BẬT:
+          → Đói → PFC: "đồ ăn ở đâu?" → scan + plan
+          → Cô đơn → PFC: "gặp ai sẽ bớt?" → scan người
+          → Chán việc → PFC: "có gì tốt hơn không?" → scan options
+          → = Body GỌI → PFC SCAN → tìm Imagine-Final để fix
+
+      4 KẾT QUẢ KHI PFC SCAN:
+
+        ① TÌM ĐƯỢC + KHẢ THI → hành động → hết dissonance:
+           → "Đói → ăn cái này" / "Cô đơn → gọi bạn X"
+           → PFC tìm target RÕ + domain cho phép → ACT → body met
+           → = KHÔNG CHÁN — có target, có action, sẽ fix
+
+        ② TÌM ĐƯỢC + KHÔNG KHẢ THI → frustrated / stuck:
+           → "Chán việc → muốn đổi nghề" → nhưng cơm áo gạo tiền
+           → PFC BIẾT Imagine-Final → domain KHÔNG cho phép ngay
+           → = "BIẾT muốn gì + KHÔNG LÀM ĐƯỢC" = bất lực, stress
+
+        ③ TÌM SAI TARGET → thử mãi không hết:
+           → "Khó chịu gì đó..." → scroll phone → tạm bớt → chán lại
+           → PFC thử micro-Imagine-Final (video? kênh? ăn vặt?)
+           → KHÔNG fix gốc (gốc = ② motor / ③ connection — Boredom-Analysis §3)
+           → = "THỬ MÃI + KHÔNG HẾT" — PFC fix sai channel
+
+        ④ KHÔNG TÌM ĐƯỢC GÌ → "chán" dạng nặng:
+           → "Muốn gì đó... nhưng CÁI GÌ?"
+           → Body signal MỜ → PFC scan → không đủ data tạo target
+           → = "CHÁN + KHÔNG BIẾT TẠI SAO" = Imagine-Final DƯỚI ngưỡng PFC
+           → (ref: Boredom-Analysis §1: "chán" = PFC không identify need)
+
+      → = VÔ THỨC trigger → PFC scan → BODY verify kết quả
+      → = 3 bước PHỐI HỢP, không phải 2 tầng tách biệt
+      → = PFC MẠNH (tỉnh, khỏe, chunks nhiều) → scan TỐT → tìm đúng target
+      → = PFC YẾU (mệt, say, stress) → scan KÉM → ③ sai target hoặc ④ không tìm
+
+
+    TẦNG 2 — PFC (EXTENSION, khi body gọi):
+
+      PFC KHÔNG TẠO RA Imagine-Final — PFC LÀM 3 VIỆC:
+
+        ① CONSCIOUS HÓA: gọi tên Imagine-Final vô thức đã có
+           → Body đã feel "muốn hướng này" → PFC: "à, tôi muốn làm X"
+           → = PFC PHÁT HIỆN, không phải PFC TẠO
+
+        ② SIMULATE DOMAIN: check Imagine-Final có đúng thực tế không
+           → Body muốn X → PFC: "X có khả thi không? Domain có cho phép?"
+           → = PFC = THẨM ĐỊNH VIÊN duy nhất check domain accuracy
+           → (ref: Chunk-And-PFC.md §3: vô thức không check domain)
+
+        ③ CHỌN THỰC THI: giữa competing Imagine-Finals
+           → Body muốn ăn ngay (micro) vs body muốn khỏe (long-term)
+           → PFC quyết: "chịu đói bây giờ VÌ sức khỏe dài hạn"
+           → = PFC = EXECUTIVE chọn giữa Imagine-Final ngắn hạn vs dài hạn
+           → = Tại sao PFC yếu (mệt, say) → chọn ngắn hạn (instant gratification)
+
+      → = PFC QUAN TRỌNG — nhưng là EXTENSION, không phải SOURCE
+      → = Không có PFC: vô thức VẪN có Imagine-Final (động vật CÓ)
+      → = Có PFC: Imagine-Final được CHECK domain + CHỌN chiến lược
+
+
+  CƠ CHẾ Ở TẦNG CONSCIOUS (Schema-Operations §8.5):
+    → PFC kích hoạt chunks về tương lai (tầng 2 — conscious simulation)
     → Cùng pathway fire: visual, auditory, somatic, emotional
     → Body respond: preview reward (opioid nhẹ) HOẶC không feel gì
     → Body response CÀNG MẠNH → motivation CÀNG MẠNH → chịu khó chịu CÀNG LÂU
@@ -109,6 +211,13 @@
     → = Triết gia thường KHỔ: cortisol cao → luôn hỏi "tại sao?"
     → = Người "bình thường hạnh phúc": cortisol thấp → "sống vui là được"
 
+    → EXISTENTIAL BOREDOM = cortisol CAO + Imagine-Final KHÔNG CÓ:
+      → Body: "CÓ GÌ ĐÓ THIẾU... lớn lắm" → PFC: "KHÔNG biết fix gì"
+      → = "Đau VÀ vô nghĩa" — dạng nặng nhất
+      → KHÁC "chán hàng ngày" (L2 đói → fix = feed channels)
+      → Existential cần: TÌM Imagine-Final, không phải feed sensory
+      → (ref: Boredom-Analysis §6: existential boredom chi tiết)
+
   VÌ SAO CẦN PHÂN MỨC:
     → "Tôi có mục tiêu" ≠ "Tôi CẢM NHẬN được đích đến"
     → 2 người cùng nói "tôi muốn mở nhà hàng" — 1 người ở level Wish, 1 người ở level Vision
@@ -153,7 +262,7 @@
 ║  │     "Từ nhỏ đã thích tháo lắp — bây giờ là kỹ sư, tự nhiên"   │   ║
 ║  │                                                                  │   ║
 ║  │ Body-base + hardware + imagine final = CÙNG HƯỚNG               │   ║
-║  │ = "Passion" trong Personal-Melody §6 (2 lực cùng hướng)        │   ║
+║  │ = "Passion" trong Personal-Melody §5 (2 lực cùng hướng)        │   ║
 ║  └─────────────────────────────────────────────────────────────────┘   ║
 ╠══════════════════════════════════════════════════════════════════════════╣
 ║  LEVEL 4 — BODY SIMULATE THƯỜNG XUYÊN (60-80% fidelity)              ║
@@ -272,7 +381,7 @@
 ║  │ động. Phụ thuộc vào bên ngoài thay đổi.                         │   ║
 ║  │                                                                  │   ║
 ║  │ VD: "Hy vọng năm sau kiếm nhiều hơn" → không plan cụ thể      │   ║
-║  └─────────────────────────────────────────────────────────────────┘   ║
+║  └─────────────��───────────────────────────────────────────────────┘   ║
 ║  ┌─────────────────────────────────────────────────────────────────┐   ║
 ║  │ Wish (ước muốn) — ~0-5%                                          │   ║
 ║  │                                                                  │   ║
@@ -487,7 +596,7 @@
   BỐ MẸ inject imagine final cho CON:
     → Tốt: "Con thử hình dung khi biết bơi..." → giúp con BUILD imagine
     → Xấu: "Con PHẢI làm bác sĩ" → inject imagine CỦA BỐ MẸ → con build sai hướng
-    → (Chi tiết: Education-Bridge.md §5.5, §9 ⑦)
+    → (Chi tiết: Education-Bridge.md §0 per-age guide, §9 ⑦)
 
   XÃ HỘI inject imagine final cho MỌI NGƯỜI:
     → Media: "Thành công = giàu + nổi tiếng" → inject imagine final ĐỒNG PHỤC
@@ -504,6 +613,49 @@
     → AI CÓ THỂ giúp simulate cụ thể hơn: "nếu bạn đạt X → cuộc sống sẽ..."
     → AI KHÔNG THỂ cho body experience thật → body chunks VẪN cần tự nạp
     → = AI boost Level 1-3 (verbal/visual chunks) → Level 4-5 CẦN body experience thật
+
+
+  ⭐ SOCIAL SCALE — Imagine-Final quyết định DEPTH quan hệ:
+
+    🟡 2 người "hợp nhau" = body detect CÙNG Imagine-Final ở scale nào đó:
+
+    ┌──────────────────┬──────────────────────────────────────────────┐
+    │ Scale            │ Quan hệ                                      │
+    ├──────────────────┼──────────────────────────────────────────────┤
+    │ Micro-IF         │ Xã giao (phút→giờ)                          │
+    │ (phút→giờ)       │ Cả 2 body preview: "cuộc nói chuyện dễ chịu"│
+    │                  │ Match → smooth → gặp vui. Không match → rút. │
+    ├──────────────────┼──────────────────────────────────────────────┤
+    │ Normal-IF        │ Bạn thân (tháng→năm)                        │
+    │ (tháng→năm)      │ Share hướng sống, values, body reward TƯƠNG TỰ│
+    │                  │ "Click" = body detect IF aligned VÔ THỨC     │
+    ├──────────────────┼──────────────────────────────────────────────┤
+    │ Big-IF           │ Đồng nghiệp/co-founder (năm→thập kỷ)       │
+    │ (năm→thập kỷ)    │ Share mission/project → chịu XUNG ĐỘT melody│
+    │                  │ vì big-IF chung → dissonance = investment    │
+    ├──────────────────┼──────────────────────────────────────────────┤
+    │ Life-IF          │ "Tri kỷ" (cả đời) — cực hiếm                │
+    │ (cả đời)         │ 2 body preview cùng life direction           │
+    │                  │ Gặp lại sau 10 năm vẫn "gần" = IF vẫn match │
+    └──────────────────┴──────────────────────────────────────────────┘
+
+    ⚠️ KHÁC MELODY, CÙNG IF = VẪN HỢP:
+      → 2 người hành vi HOÀN TOÀN KHÁC (hardware khác, style khác)
+      → Nhưng preview cùng kết quả → complement nhau → MẠNH hơn giống nhau
+      → VD: 1 người code, 1 người design → CÙNG muốn "sản phẩm đẹp"
+      → = Diverse teams hoạt động tốt: khác melody + cùng IF = bổ sung
+
+    ⚠️ IF SHIFT GIẢI THÍCH QUAN HỆ THAY ĐỔI:
+      → Bạn thân drift apart: không xung đột, IF dần LỆCH → body feel "xa"
+      → Đồng nghiệp bỗng thân: cùng project → big-IF shared → body feel "gần"
+      → Vợ chồng "hết yêu": IF diverge từ từ → "không còn chung hướng"
+      → = Quan hệ thay đổi = IF alignment thay đổi, KHÔNG nhất thiết do xung đột
+
+    ⚠️ BODY DETECT IF-COMPATIBILITY VÔ THỨC:
+      → "Cảm giác click" = body detect IF aligned TRƯỚC PFC biết
+      → PFC rationalize SAU: "vì cùng sở thích", "vì nói chuyện hay"
+      → Gốc thật: 2 body preview CÙNG HƯỚNG → oxytocin → "thích người này"
+      → = Cùng cơ chế Love-Analysis §1: body evaluate trước, PFC giải thích sau
 ```
 
 ---
@@ -583,9 +735,10 @@
 → Chunk-And-PFC.md §3: vô thức chỉ đo body-base, PFC đo domain (Imagine-Final CẦN PFC)
 → Schema-Operations.md §8.5: imagine = fire cùng pathway (cơ chế body simulation)
 → Schema-Operations.md §8.7: expertise = chunks nhiều → evaluate detailed
-→ Education-Bridge.md §5.5: imagine final cho trẻ (per-age guide)
+→ Education-Bridge.md §0: imagine final cho trẻ (per-age guide, nền tảng)
 → Education-Bridge.md §9 ⑦: compass CỦA BỐ MẸ ≠ compass CỦA CON
-→ Core-v7.5-Draft.md §5: Body-Satisfaction, Body-Reward, Body-Dissonance (3 signals đo compass)
+→ Core-v7.5-Draft.md §2: Body-Satisfaction, Body-Reward, Body-Dissonance (3 signals đo compass)
+→ Love-Analysis.md §6 ④: Imagine-Final = bộ lọc tự nhiên cho partner
 → Cortisol-Baseline.md: cortisol modes (body-base state ảnh hưởng simulation quality)
 ```
 
