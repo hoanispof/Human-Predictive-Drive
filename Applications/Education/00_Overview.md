@@ -188,7 +188,7 @@ ECP Inverted-U (ứng dụng từ cortisol inverted-U — Core.md §4.1):
 ║  Tối ưu:                                                              ║
 ║    ✅ Attachment an toàn (responsive caregiving) → cortisol baseline ↓ ║
 ║    ✅ Sensory exposure đa dạng (âm, hình, xúc giác) → kênh gốc lộ    ║
-║    ✅ AN TOÀN = ưu tiên #1 (cortisol thấp = PFC phát triển tốt)      ║
+║    ✅ AN TOÀN = ưu tiên #1 (repair cycle lành mạnh = PFC phát triển)  ║
 ║    ❌ KHÔNG ép learn sớm (não chưa ready cho structured chunks)        ║
 ║                                                                       ║
 ║  Ai chịu trách nhiệm: PHỤ HUYNH (100%)                              ║

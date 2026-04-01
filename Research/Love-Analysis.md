@@ -146,6 +146,30 @@
         → Chỉ cần 1 cơ chế (reward flood → PFC tự giảm) thay vì 2
         → Consistent với PFC reactive model (Imagine-Final.md §1)
 
+      ⭐ VERIFICATION — so sánh PFC suppress THẬT (threat) vs limerence:
+
+        PFC suppress THẬT (hổ nhảy ra / bị cướp cầm dao):
+          → Amygdala fire CỰC MẠNH → cortisol + adrenaline SPIKE
+          → PFC OFFLINE thật: KHÔNG tính toán, KHÔNG nói logic, KHÔNG tiếp tục task
+          → Body tự động: chạy / đứng im / ngất → có thể KHÔNG nhớ sau
+          → Scope: TOÀN BỘ cognitive offline → KHÔNG LÀM GÌ ĐƯỢC
+          → Thời gian: giây → phút (acute)
+
+        Limerence ("suppress"):
+          → VẪN làm việc bình thường, VẪN nói chuyện logic
+          → VẪN lái xe, nấu ăn, viết code, tính toán
+          → CHỈ không evaluate PARTNER → mọi thứ khác OK
+          → Scope: CHỈ 1 context (partner) → phần còn lại BÌNH THƯỜNG
+          → Thời gian: tháng → năm (chronic)
+
+        → = 2 cái HOÀN TOÀN KHÁC NHAU
+        → = NẾU limerence suppress PFC giống threat:
+            → Người yêu KHÔNG THỂ làm việc → SAI
+            → Người yêu KHÔNG THỂ nói logic → SAI
+            → Người yêu fight/flight/freeze → SAI (vui và hào hứng)
+        → = Limerence KHÔNG suppress PFC giống threat
+        → = Framework hypothesis consistent: PFC TỰ GIẢM (selective) ≠ PFC BỊ TẮT (global)
+
     ⚠️ NHƯNG: có thể CẢ HAI (chưa tách rõ được):
       → Kirsch 2005: oxytocin tiêm → amygdala giảm → có vẻ DIRECT
       → Nhưng: oxytocin có thể tạo "safe feeling" → amygdala tự giảm (không có threat)
@@ -869,6 +893,9 @@
        CHALLENGE mainstream "direct chemical suppress".
        Giải thích selective blindness tốt hơn (mù CHỈ về partner).
        Giải thích vẫn function bình thường ở context khác.
+       VERIFICATION: so sánh threat suppress (global, acute, offline thật)
+       vs limerence (selective, chronic, vẫn function) → 2 cơ chế KHÁC NHAU.
+       Reductio ad absurdum: nếu cùng cơ chế → người yêu phải fight/flight → SAI.
        Parsimony: 1 cơ chế (reward flood → PFC tự giảm) thay vì 2.
        Testable: tiêm oxytocin + cho xem red flags → amygdala fire hay không?
     → "Compiled schemas KÉO PFC BẬT LẠI" (§2 + §6):

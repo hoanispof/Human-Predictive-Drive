@@ -1639,6 +1639,7 @@ MELODY = KHÔNG phải component mới — là EMERGENT từ tất cả componen
 
 ```
 DOMAIN — chỉ ghi CÁI CHẮC CHẮN (không đóng khung hình dung):
+  (Deep-dive: Domain.md — 8 đặc điểm phản chiếu từ human interaction)
 
   ① Domain = thực tế bên ngoài Human, bên trong Environment:
      → VẬT CHẤT THẬT + KIẾN TRÚC THẬT (dù trừu tượng):
@@ -1649,10 +1650,21 @@ DOMAIN — chỉ ghi CÁI CHẮC CHẮN (không đóng khung hình dung):
      → Não không biết → domain VẪN CÒN, VẪN hoạt động
      → Toàn bộ vũ trụ = domain → con người chỉ thấy 1 PHẦN CỰC NHỎ
 
-  ② Domain = vô tận:
+  ② Domain = vô tận TỔNG THỂ, nhưng FINITE tại mỗi ĐIỂM:
      → Không thể chứa hết trong não (86 tỷ neurons vẫn quá nhỏ)
      → Não chỉ chứa FRAGMENTS (chunks) của domain
      → Mọi kiến thức con người = MỘT PHẦN CỰC NHỎ của domain
+
+     ⚠️ NHƯNG: mỗi ĐIỂM CỤ THỂ trong domain = FINITE:
+       → 1 miếng đất: chỉ 1 người dùng tại 1 thời điểm
+       → 1 vị trí: chỉ 1 người ngồi
+       → 1 con mồi: chỉ 1 người ăn
+       → = Domain vô tận NHƯNG resource tại mỗi điểm KHÔNG share vô tận
+       → = Đây là GỐC của xung đột: 2 agent cùng muốn 1 điểm finite
+       → = Và cũng là ENGINE: scarcity tại điểm A BUỘC agent mở rộng sang B
+       → = Scarcity → đa dạng → map domain rộng hơn → tổng pie lớn hơn
+       → (ref: Conflict-Dynamics.md §1 + §7: Overlap × Scarcity × Commitment,
+              scarcity = engine buộc expand domain)
 
   ③ Domain có ĐIỂM HỘI TỤ (attractor points):
      → Nhiều hệ thống khác nhau giải quyết cùng constraint
@@ -1742,6 +1754,43 @@ DOMAIN — chỉ ghi CÁI CHẮC CHẮN (không đóng khung hình dung):
          AI training: weights adjust + loss function → model dần
        → = UNIVERSAL optimization algorithm
        → = Bất kỳ hệ thống nào có constraint "thích ứng + ổn định" → TỤ VỀ pattern này
+
+  ⑧ Domain COMBINATION — khi 2 vùng đã map NỐI NHAU:
+
+     ⑦ mô tả: cách map 1 vùng domain (incremental calibration)
+     ⑧ mô tả: cách 2 vùng ĐÃ MAP nối nhau → THẤY vùng MỚI giữa
+
+     CƠ CHẾ:
+       → Vùng A đã map (VD: dầu mỏ — biết khai thác, tinh chế)
+       → Vùng B đã map (VD: máy móc — biết chế tạo, vận hành)
+       → A và B TỒN TẠI TÁCH RỜI trong domain → chưa ai nối
+       → Con người TÌM RA connection: "dầu + máy = CHẠY ĐƯỢC"
+       → Connection đó = vùng C — LUÔN Ở ĐÓ trong domain
+         → Nhưng chỉ THẤY ĐƯỢC khi ĐÃ map A VÀ B trước
+
+     → = "Domain mới" KHÔNG PHẢI xuất hiện từ hư không
+     → = "Domain mới" = vùng GIỮA 2 vùng đã map — LUÔN CÓ, mới TÌM RA
+
+     VÍ DỤ:
+       Điện (A) + Truyền thông (B) → Internet (C)
+       Silicon (A) + Logic (B) → Computing (C)
+       Tâm lý (A) + Neuroscience (B) → Framework này (C)
+       → Mỗi C LUÔN khả thi trong domain → nhưng cần map A + B trước
+
+     TẠI SAO ĐÂY LÀ CƠ CHẾ QUAN TRỌNG:
+       → Đây là cách TỔNG PIE tăng lên (Conflict-Dynamics.md §7)
+       → Scarcity ở A → buộc tìm B → nối A+B → C emerge → resource MỚI
+       → = Scarcity → exploration → combination → expansion
+       → = Mỗi combination MỞ RA nhiều connection tiềm năng MỚI
+       → = Tốc độ expansion TĂNG TỐC (vì nhiều vùng map = nhiều nối tiềm năng)
+
+     VAI TRÒ CỦA IMAGINE-FINAL TRONG COMBINATION:
+       → PFC simulate: "NẾU nối A + B → kết quả gì?" (Imagine-Final.md §1)
+       → Body preview: "sẽ smooth hơn" → muốn thử
+       → Thử → domain confirm → connection thành
+       → = Imagine-Final = BRIDGE giữa 2 vùng domain chưa nối
+       → = Con người có PFC → simulate cross-domain → TÌM combination
+       → = Tại sao PFC lớn = advantage: simulate NHIỀU combination tiềm năng
 ```
 
 ---
@@ -1907,6 +1956,11 @@ Files KHÔNG cần thay đổi:
   PFC-Analysis.md, Schema-Atlas.md, Modality-Analysis.md,
   Innovation-Geography.md, Climate-Cognition.md, Human-AI-Future.md,
   Body-Neural-Network.md
+
+Deep-Dive files (Core-Deep-Dive/):
+  → Imagine-Final.md: reference pattern + 2 tầng (vô thức BASE + PFC EXTENSION)
+  → Conflict-Dynamics.md: Overlap × Scarcity × Commitment + scarcity = engine
+  → Connection.md: emergent property + Connection × Imagine-Final per layer
 ```
 
 ---
