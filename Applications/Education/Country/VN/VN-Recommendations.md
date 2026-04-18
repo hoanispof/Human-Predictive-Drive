@@ -37,7 +37,7 @@ CÁCH DERIVE:
   Global Imagine-Final (Education-System.md §0):
     → "Mỗi người = best version CỦA MÌNH + đóng góp có ý nghĩa"
     → System: mechanism-based, per-individual, depth, adaptable
-    → Society: True Soldiers > Forced Soldiers
+    → Society: True-Fits > Forced-Fits
 
   + VN CONTEXT (File 1 + File 2):
     → Strengths: foundation literacy, teacher trust, family involvement,
@@ -46,7 +46,7 @@ CÁCH DERIVE:
       credential culture, passive learning
     → Cultural levers: ① teacher trust, ② family redirect, ③ "đổi đời" expand
     → Cultural risks: cortisol chồng chất (5/8 factors), passive (4/8),
-      Forced Soldier (4/8)
+      Forced-Fit (4/8)
 
   + ERA CONTEXT (Era-Analysis-2025.md):
     → Chunk threshold ~4x giảm → "biết hỏi" > "biết"
@@ -108,9 +108,9 @@ IMAGINE-FINAL VN — NẾU LÀM ĐÚNG: 🟡→🔴
      = "Gia đình VN: involvement CAO + hướng ĐÚNG + emotional support"
 
   ④ CHO XÃ HỘI VN:
-     → True Soldier rate TĂNG: nhiều người hơn ở ĐÚNG vị trí
+     → True-Fit rate TĂNG: nhiều người hơn ở ĐÚNG vị trí
        → 60% trái ngành → giảm dần → mỗi % giảm = gain xã hội
-     → Forced Soldier rate GIẢM: ít lãng phí talent hơn
+     → Forced-Fit rate GIẢM: ít lãng phí talent hơn
        → 100K+ cử nhân thất nghiệp → giảm dần
      → Adaptable workforce: era đổi → workforce KHÔNG panic
        → Meta-learning + foundation → tự chuyển đổi
@@ -121,7 +121,7 @@ IMAGINE-FINAL VN — NẾU LÀM ĐÚNG: 🟡→🔴
        → Collectivism + per-individual = "mỗi người đóng góp BẰNG
          thế mạnh CỦA MÌNH cho nhóm"
      = "XH VN: ít lãng phí người + workforce adaptable
-       + mental health tốt hơn + True Soldier > Forced Soldier"
+       + mental health tốt hơn + True-Fit > Forced-Fit"
 
   ⑤ CHO DTTS + RURAL:
      → Foundation ĐẦU TIÊN: literacy + language access
@@ -210,7 +210,7 @@ QW-1: GIẢM CORTISOL — ƯU TIÊN TUYỆT ĐỐI 🔴
 
 ```
 QW-2: NGỪNG MISLABEL — "lười/kém" → "hardware khác" 🟡
-  Rationale: Labels sai → miscalibration → Forced Soldier
+  Rationale: Labels sai → miscalibration → Forced-Fit
   NL targeted: NL3 (per-individual calibration)
   Cultural leverage: ① Teacher trust → GV nói → HS + PH tin
 
@@ -239,7 +239,7 @@ QW-2: NGỪNG MISLABEL — "lười/kém" → "hardware khác" 🟡
      → Cost: $0 (chỉ cần awareness)
      → TALIS 2024: GV hài lòng 97% → SẴN SÀNG thử
 
-  Impact: ★★★★☆ (giảm Forced Soldier + mislabel)
+  Impact: ★★★★☆ (giảm Forced-Fit + mislabel)
   Feasibility: ★★★★☆ (training nhẹ + GV willing)
   Timeline: Bắt đầu ngay → build-up qua nhiều năm
 ```
@@ -383,7 +383,7 @@ MT-3: IMAGINE-FINAL PROGRAM — CAREER EXPLORATION 🟡
      → Trước khi chọn ngành ĐH: workshop "tôi muốn trở thành AI?"
      → KHÔNG phải "nghề hot nào?" → MÀ: "hardware tôi + interest tôi
        + xã hội cần gì = OVERLAP ở đâu?"
-     → Role models: mời người ĐÃ tìm đúng hướng (True Soldier examples)
+     → Role models: mời người ĐÃ tìm đúng hướng (True-Fit examples)
      → Include: "trái ngành = OKAY nếu TÌM LẠI ĐƯỢC → nhưng TỐT HƠN
        nếu chọn ĐÚNG TỪ ĐẦU"
      → Cultural reframe: "chọn đúng = HIẾU THẢO" (vì không lãng phí
@@ -396,7 +396,7 @@ MT-3: IMAGINE-FINAL PROGRAM — CAREER EXPLORATION 🟡
      → Cost: LOW (integrate vào họp PH)
      → Cultural leverage: ④ Family involvement = sẵn sàng attend
 
-  Impact: ★★★★☆ (giảm Forced Soldier + waste)
+  Impact: ★★★★☆ (giảm Forced-Fit + waste)
   Feasibility: ★★★★☆ (low cost + integrate existing channels)
   Timeline: Pilot year 1-2 → Standard program year 3-5
 ```
@@ -462,7 +462,7 @@ LT-3: PER-INDIVIDUAL TRACKING SYSTEM 🔴
   → Cost: HIGH (infrastructure + software + privacy framework)
   → Barrier: digital divide (rural/DTTS)
   → Timeline: 10+ năm
-  → Vision: mỗi HS = 1 learning path → True Soldier at scale
+  → Vision: mỗi HS = 1 learning path → True-Fit at scale
 
 LT-4: DTTS FOUNDATION PROGRAM 🟡
   → Priority: 3M+ illiterate → literacy FIRST
@@ -599,7 +599,7 @@ TRANSITION ROADMAP: 🔴
   │  │ MT-3: Imagine-Final program — scale THCS + THPT             │  │
   │  │ MT-4: Tutoring reform — enforce + reduce demand             │  │
   │  │ → MEASURE: PISA depth scores, mental health surveys,       │  │
-  │  │   Forced Soldier proxy (% trái ngành), teacher feedback    │  │
+  │  │   Forced-Fit proxy (% trái ngành), teacher feedback    │  │
   │  └─────────────────────────────────────────────────────────────┘  │
   │                                                                   │
   │  Đồng thời CHUẨN BỊ:                                             │
@@ -620,7 +620,7 @@ TRANSITION ROADMAP: 🔴
   │  │ LT-3 begin: AI tracking pilot (urban)                      │  │
   │  │ LT-4 scale: DTTS program toàn quốc                         │  │
   │  │ → MEASURE: full outcome data (PISA, employment, mental     │  │
-  │  │   health, Forced Soldier rate, depth assessment scores)    │  │
+  │  │   health, Forced-Fit rate, depth assessment scores)    │  │
   │  └─────────────────────────────────────────────────────────────┘  │
   │                                                                   │
   ├───────────────────────────────────────────────────────────────────┤
@@ -634,7 +634,7 @@ TRANSITION ROADMAP: 🔴
   │  │ LT-3 scale: AI tracking toàn quốc                          │  │
   │  │ LT-5: Cultural shift bắt đầu thấy (generation mới)        │  │
   │  │ → VN education = DIFFERENT from today                       │  │
-  │  │ → True Soldier rate >> Forced Soldier rate                  │  │
+  │  │ → True-Fit rate >> Forced-Fit rate                  │  │
   │  │ → PISA depth ≥ OECD average                                │  │
   │  │ → Mental health metrics IMPROVE significantly              │  │
   │  └─────────────────────────────────────────────────────────────┘  │
@@ -746,7 +746,7 @@ TRƯỜNG / HIỆU TRƯỞNG:
     □ PD days: brain basics + 6 hardware dimensions cho GV (QW-2a)
     □ Peer learning: GV giỏi mentor GV mới
     □ Pilot: portfolio assessment cho 1-2 môn
-    □ Career day: mời True Soldier role models
+    □ Career day: mời True-Fit role models
     □ Pilot: Imagine-Final workshop cho THPT (MT-3b)
 
   TẠO VĂN HÓA:

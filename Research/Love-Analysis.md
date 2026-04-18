@@ -6,7 +6,7 @@
 > CÁC GIAI ĐOẠN diễn ra thế nào, và LÀM SAO tối ưu cho cuộc sống bền vững
 > **Reference:** Architecture-v7.5-Draft.md (Body-Base, Schema, Imagine),
 > Personal-Melody.md §5 (Two-Axis Tension), Schema-Example.md §1 (ví dụ ngắn),
-> Cortisol-Baseline.md (hormone mechanism), Chunk-And-PFC.md (compile)
+> Cortisol-Baseline.md (hormone mechanism), Chunk.md (compile)
 > **⚠️ File này giải thích MECHANISM — KHÔNG nói "tình yêu chỉ là hóa chất".**
 > **Cơ chế ≠ trải nghiệm. Biết cơ chế giúp NAVIGATE, không giảm giá trị trải nghiệm.**
 > **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
@@ -375,7 +375,7 @@
     → = Trauma chunks fire → body: "QUEN → SƯỚNG" → vô thức: "OK!"
     → = Vô thức ĐÚNG ở mức body-base (body THẬT SỰ feel quen)
     → = Vô thức SAI ở mức domain (quen ≠ hợp, comfortable ≠ healthy)
-    → = PFC là HỆ THỐNG DUY NHẤT check domain accuracy (ref: Chunk-And-PFC.md §3)
+    → = PFC là HỆ THỐNG DUY NHẤT check domain accuracy (ref: Chunk.md §3)
     → = Nhưng limerence TẮT PFC → không còn ai check → "nhầm" kéo dài
 
   ⚠️ PFC CÓ THỂ LÀM GÌ TRƯỚC:
@@ -862,7 +862,7 @@
   CÓ NÊN CẮT HOÀN TOÀN (no contact)?
     → 🟡 Framework perspective: CÓ, trong phase 1-2
     → Vì: mỗi lần contact = chunks REACTIVATE → STRENGTHEN (thay vì weaken)
-    → = Recall mà không modify → chunk MẠNH HƠN (Chunk-And-PFC §2: reconsolidation)
+    → = Recall mà không modify → chunk MẠNH HƠN (Chunk §2: reconsolidation)
     → No contact = cho chunks WEAKEN tự nhiên → recovery NHANH hơn
     → Sau phase 3: contact CÓ THỂ ok (chunks đã yếu đủ → không hijack)
 ```
@@ -949,12 +949,12 @@
 → Personal-Melody.md §11: Melody Drop (toxic relationship = drop)
 → Schema-Example.md §1: Tình Yêu — Full Schema Lifecycle (ví dụ ngắn)
 → Cortisol-Baseline.md: hormone mechanism chi tiết
-→ Chunk-And-PFC.md §2: reconsolidation (no contact mechanism)
+→ Chunk.md §2: reconsolidation (no contact mechanism)
 → Mismatch-Patterns/Trauma-Recovery.md: trauma × partner choice
 → Relationships.md: predict + connect melody người khác
 → OCD-Analysis.md: serotonin × obsessive patterns (link OCD ↔ limerence)
 → Boredom-Analysis.md §2+§5: "chán nhau" = L2 đói, không phải "smooth quá"
-→ Chunk-And-PFC.md §3: vô thức chỉ đo body-base, PFC đo domain (limerence tắt PFC)
+→ Chunk.md §3: vô thức chỉ đo body-base, PFC đo domain (limerence tắt PFC)
 ```
 
 ---

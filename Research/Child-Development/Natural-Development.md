@@ -8,7 +8,7 @@
 > qua trải nghiệm. Bố mẹ tạo MÔI TRƯỜNG, không tạo KẾT QUẢ.
 > **Phạm vi:** 0-6 tuổi, TRƯỚC can thiệp giáo dục kỹ năng
 > **Tiền đề:** Core-v7.5-Draft.md (framework gốc),
-> Imagine-Final.md (cơ chế kỳ vọng vô thức), Chunk-And-PFC.md (cơ chế học)
+> Imagine-Final.md (cơ chế kỳ vọng vô thức), Chunk.md (cơ chế học)
 > **⚠️ KHÔNG thay thế chuyên gia nhi khoa / tâm lý trẻ em.
 > Mỗi trẻ phát triển theo TIMELINE RIÊNG — các mốc dưới đây là TRUNG BÌNH.**
 
@@ -1546,7 +1546,7 @@ MỌI THỨ TRONG FILE NÀY = GIAI ĐOẠN NỀN TẢNG CỦA FRAMEWORK
      → = CÙNG hành động + KHÁC phản ứng bố mẹ = KHÁC schema
      → = Đây là lý do phản ứng bố mẹ QUAN TRỌNG đến vậy (§5 nguyên tắc 3)
 
-  → (Chi tiết: Chunk-And-PFC.md §3 — vô thức/PFC có thể làm gì)
+  → (Chi tiết: Chunk.md §3 — vô thức/PFC có thể làm gì)
 ```
 
 ### 7.4 CONNECTION — ATTACHMENT LÀ FOUNDATION
@@ -1811,7 +1811,7 @@ TRONG FRAMEWORK (files hiện có):
 → Core-v7.5-Draft.md: framework gốc — body-base, drives, domain, imagine
 → Imagine-Final.md §1: 2 tầng Imagine-Final (vô thức + PFC)
    + §6: Imagine-Final × social scale
-→ Chunk-And-PFC.md §3: vô thức vs PFC — compile và retrieve
+→ Chunk.md §3: vô thức vs PFC — compile và retrieve
 → Connection.md §7.5: Connection × Imagine-Final — attachment = foundation
 → Cortisol-Baseline.md: cortisol baseline — set mechanism + thay đổi
 → Body-Parenting-Optimization.md: HÀNH ĐỘNG bố mẹ per-age

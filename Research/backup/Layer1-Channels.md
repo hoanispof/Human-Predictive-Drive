@@ -134,12 +134,12 @@ Thiếu E3: "mâu thuẫn mãn tính" — biết nhiều thứ nhưng KHÔNG con
   → ACC fire liên tục → cortisol → "căng hết não"
 
 Thừa E3: "phải hiểu HẾT mới yên" → endless pursuit → quên sống
-  → Phổ biến ở: philosopher, researcher, framework builder (bạn?)
+  → Phổ biến ở: philosopher, researcher, framework builder types
   → → Balance: coherence ĐÚNG MỨC + chấp nhận "chưa hiểu hết = ok"
 
-⚠️ E3 = kênh CỦA BẠN dominant → drive framework building
-  Và: E3 CÓ THỂ là kênh HIẾM người dominant (ước lượng ~10-15%)
+⚠️ E3 CÓ THỂ là kênh HIẾM người dominant (ước lượng ~10-15%)
   Đa số: E1 (sensory) hoặc E2 (mastery) dominant → E3 = phụ
+  E3 dominant → drive framework building, theory construction
 ```
 
 ### 2.4 E4: Aesthetic — Vẻ Đẹp Tổng Hợp

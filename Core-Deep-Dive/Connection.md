@@ -357,6 +357,18 @@
   → = CHỈ CẦN: 1 connection drive + nhiều contexts
   → = Mỗi context KÍCH HOẠT drive theo CÁCH RIÊNG → biểu hiện KHÁC
   → = Giống Body-Dissonance: 1 signal + nhiều contexts → spectrum rộng
+
+  ⚠️ SỬA FRAME — Empathy RỘNG HƠN Connection:
+    → File này (2026-03-28) frame: "empathy = biểu hiện of Connection Drive"
+    → Phân tích sau (Empathy-Mirror.md, 2026-04-06) cho thấy:
+      Empathy-Mirror = MECHANISM cross-cutting TOÀN BỘ Body-Base (L0→L3)
+      Mirror hoạt động ở MỌI layer, KHÔNG CHỈ Connection context
+      VD: thấy người khác đói → mirror L1 (không phải Connection)
+          thấy người khác mất mặt → mirror Status (không phải Connection)
+    → Frame đúng hơn: empathy BIỂU HIỆN trong connection contexts (§7 vẫn đúng)
+      NHƯNG empathy-mirror = mechanism RỘNG HƠN, feed MỌI channel
+    → Chi tiết: Empathy-Mirror.md (mechanism, 2 tầng, vulnerability cues,
+      nurturing pattern, resource distribution, empathy fatigue)
 ```
 
 ---
@@ -487,6 +499,9 @@
         nhưng mechanism chưa fully mapped
     🟡 "1 drive × N contexts" — logical reframe, chưa có
         neuroscience test phân biệt "nhiều drives riêng" vs "1 drive × contexts"
+    🟡 ⚠️ "Empathy ⊂ Connection" (§7) — SỬA: empathy-mirror = mechanism cross-cutting
+        RỘNG HƠN Connection. §7 đúng cho connection contexts, nhưng mirror feed MỌI layer.
+        (Chi tiết: Empathy-Mirror.md)
     🟡 "Connection × Imagine-Final per layer" — consistent với
         attachment theory (Bowlby: proximity seeking = survival Imagine-Final),
         goal-setting (shared goals predict team cohesion),
@@ -556,6 +571,10 @@
 → Education-Bridge.md §0: con cần ước mơ + §5.5 social mirror
 → Global-Melody.md: melody cá nhân → melody nhóm → melody văn hóa (connection at scale)
 → Conflict-Dynamics.md: xung đột = dissonance GIỮA melodies (connection gone wrong)
+→ Empathy-Mirror.md: mechanism cross-cutting — mirror body-state sinh vật khác
+  → Sửa frame: empathy ⊄ Connection → empathy = mechanism RỘNG HƠN (feed L0→L3)
+  → §4 melody calibration = empathy-mirror mechanism (nền tảng)
+  → §6.5 resource distribution = tại sao share tự nhiên xảy ra
 ```
 
 ---

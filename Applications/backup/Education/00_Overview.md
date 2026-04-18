@@ -319,7 +319,7 @@ TIMING:
   → Calibration lúc não đang xây = MẠNH HƠN mọi can thiệp lúc não đã xây xong
   → PFC mature ~25 tuổi → chunk config hình thành TRONG quá trình giáo dục
   → Sửa SAU giáo dục = tốn 10-100x so với ĐÚNG trong giáo dục
-  → VD cụ thể: IsPof Profile — cortisol calibrate từ tuổi thơ → 15+ năm mới shift
+  → Pattern phổ biến: cortisol calibrate từ tuổi thơ → 15+ năm mới shift
 
 SCALE:
   Giáo dục = Lực 4 Socialization (Core.md §9.2) — ảnh hưởng TOÀN BỘ dân số

@@ -10,7 +10,7 @@
 > Education-Bridge.md (motivation mechanism),
 > Core-v7.5-Draft.md (brain mechanisms),
 > Child-Development bộ 3 (foundation 0-6 — Stage 1)
-> **Tham chiếu:** backup/Education/00_Overview.md (concepts: True/Forced Soldier, ECP, profiles)
+> **Tham chiếu:** backup/Education/00_Overview.md (concepts: True/Forced-Fit, ECP, profiles)
 > **⚠️ File này = IDEAL DESIGN — reality có constraints (§10).
 > Đây là HƯỚNG ĐI, không phải blueprint cứng.**
 > **⚠️ SEMI-DURABLE: Brain design = decades / Era format = cần update mỗi 3-5 năm**
@@ -59,7 +59,7 @@ FILE NÀY KHÁC GÌ VỚI backup 00_Overview.md (v5.5):
 
   GIỐNG (concepts GIỮ LẠI):
     ✓ "Education = chunk config optimization at population scale"
-    ✓ True Soldier vs Forced Soldier distinction
+    ✓ True-Fit vs Forced-Fit distinction
     ✓ ECP inverted-U (→ nay = NL6 cortisol inverted-U)
     ✓ Per-hardware identification loop
     ✓ Teacher system + Parent system
@@ -98,7 +98,7 @@ IMAGINE-FINAL — NẾU LÀM ĐÚNG:
      → Balance: đủ người cho roles xã hội CẦN + per-individual thriving (NL9)
      → Cross-generational transmission = CÓ MỤC ĐÍCH (NL4)
      → Adaptable workforce → era đổi → workforce KHÔNG collapse (NL7)
-     → True Soldiers > Forced Soldiers → productivity + wellbeing đều tăng
+     → True-Fits > Forced-Fits → productivity + wellbeing đều tăng
      = "Xã hội có người ĐÚNG CHỖ, MUỐN làm, VÀ biết adapt"
 
 
@@ -393,7 +393,7 @@ PER-HARDWARE: BẮT ĐẦU IDENTIFY + ADJUST (NL3):
       → "Hiện tại" → vì tendency CÓ THỂ shift (brain still developing)
 
   MISCALIBRATION PHỔ BIẾN:
-    (ref: backup 00_Overview.md §1.3 — True Soldier vs Forced Soldier)
+    (ref: backup 00_Overview.md §1.3 — True-Fit vs Forced-Fit)
     → "Lazy" label = thường là sai Imagine-Final hoặc sai bridge
     → "Stupid" label = thường là sai timing hoặc sai method
     → "Hyperactive" label = thường là high VTA + monotonous environment
@@ -544,7 +544,7 @@ MỤC TIÊU STAGE 3:
        → 22-28 tuổi: quarter-life crisis — "tôi là ai thật?"
        → Emergence Phase cần (backup §1.3): 3+ tháng để chunk config thật lộ
        → = 12+ năm education → chunk config SAI → recovery = expensive
-       → = TRÁNH Forced Soldier = ROI CAO NHẤT của Stage 3
+       → = TRÁNH Forced-Fit = ROI CAO NHẤT của Stage 3
 
 
 METHOD — CÁCH NÃO 12-18 HỌC TỐT NHẤT:
@@ -597,14 +597,14 @@ STAGE 3 SUMMARY — Imagine-Final output:
     ✓ Imagine-Final: CÓ DIRECTION → "tôi muốn hướng về..."
       (chưa cần cụ thể → direction > destination ở tuổi này)
     ✓ Meta-learning: TỰ BIẾT "tôi học thế nào, mạnh gì, cần gì"
-    ✓ True Soldier alignment: direction MATCH hardware (not forced)
+    ✓ True-Fit alignment: direction MATCH hardware (not forced)
     ✓ Bridge: GIẢM ĐÁNG KỂ → intrinsic drive > external pressure
     ✓ Identity: "tôi biết tôi là ai" (evolving nhưng có base)
 
   🟡 Trên đây = IDEAL.
     → Thực tế: nhiều learner ở 18 vẫn chưa rõ direction → BÌNH THƯỜNG
     → ≠ Fail → = "cần thêm exploration ở early Stage 4"
-    → NHƯNG: nếu 18 tuổi VẪN = Forced Soldier + zero Imagine-Final
+    → NHƯNG: nếu 18 tuổi VẪN = Forced-Fit + zero Imagine-Final
       + bridge-dependent + "ghét học" → system ĐÃ FAIL ở Stage 2-3
 ```
 
@@ -698,9 +698,9 @@ METHOD — Stage 4:
 
 
 EMERGENCE PHASE — KHI DIRECTION CHƯA RÕ:
-  (ref: backup 00_Overview.md §1.3 — Forced Soldier → Emergence)
+  (ref: backup 00_Overview.md §1.3 — Forced-Fit → Emergence)
 
-  Nếu learner ở 18-20 tuổi VẪN Forced Soldier / KHÔNG CÓ direction:
+  Nếu learner ở 18-20 tuổi VẪN Forced-Fit / KHÔNG CÓ direction:
     → KHÔNG phải panic → = common product of current education systems
     → = System failed TRƯỚC đó (Stage 2-3) → giờ cần RECOVERY
 
@@ -713,7 +713,7 @@ EMERGENCE PHASE — KHI DIRECTION CHƯA RÕ:
         → Cần: exposure + experimentation + mentorship → BUILD from scratch
 
   ⚠️ XÃ HỘI THƯỜNG KHÔNG CHO PHÉP Emergence Phase:
-    → "Đã 20 tuổi phải biết muốn gì" → áp lực → Forced Soldier tiếp tục
+    → "Đã 20 tuổi phải biết muốn gì" → áp lực → Forced-Fit tiếp tục
     → Nghỉ gap year → bị judge → cortisol → sabotage emergence
     → = System IDEAL → ALLOW emergence phase khi cần (NL6: recovery = phần của education)
 
@@ -724,7 +724,7 @@ BRIDGE — Stage 4:
   → Intrinsic drive (Imagine-Final + depth satisfaction) = DOMINANT
   → NẾU vẫn heavily bridge-dependent ở 20+ → signal:
     → System FAILED ở stages trước (NL5: bridge phải rút dần)
-    → HOẶC: direction sai (Forced Soldier) → cần reassess
+    → HOẶC: direction sai (Forced-Fit) → cần reassess
   → Bridge còn lại: deadline, professional standards = structure, NOT threat
   → = "Pressure từ REALITY" > "pressure từ SYSTEM"
 
@@ -747,7 +747,7 @@ STAGE 4 SUMMARY:
     ✓ Self-directed: TỰ design learning path → lifelong
     ✓ Cross-domain: deep in 1 + connect với related domains
     ✓ Bridge: GẦN NHƯ KHÔNG CẦN → self-motivated
-    ✓ True Soldier: direction MATCH hardware → sustainable thriving
+    ✓ True-Fit: direction MATCH hardware → sustainable thriving
 
   🟡 Reality: nhiều người ở 25+ vẫn đang tìm direction
     → ≠ "Thất bại cá nhân" → = "sản phẩm của system sub-optimal"
@@ -794,7 +794,7 @@ BRIDGE FLOW XUYÊN STAGES:
   Stage 4 (18-25+): ██░░░░░░░░ Intrinsic dominant
     → Bridges: gần như không cần → chỉ structure (deadline, standards)
     → Imagine-Final: crystallized → drive = SELF-SUSTAINING
-    → Nếu vẫn cần bridge mạnh → signal Forced Soldier hoặc stage trước fail
+    → Nếu vẫn cần bridge mạnh → signal Forced-Fit hoặc stage trước fail
     → = "Giàn giáo ĐÃ BỎ — nhà TỰ ĐỨNG"
 
 
@@ -1118,7 +1118,7 @@ PER-STAGE PARENT ROLE:
     → Support qua turbulence: puberty = emotional → parent = ANCHOR
       → ≠ "Dẹp đi" → = "Bố/mẹ hiểu, bình thường" (normalize)
     → ⚠️ VN/Asian context đặc biệt:
-      → Filial piety + "học để đổi đời" = bridge MẠNH nhưng risk Forced Soldier
+      → Filial piety + "học để đổi đời" = bridge MẠNH nhưng risk Forced-Fit
       → "Con phải giỏi vì bố mẹ VẤT VẢ" = guilt bridge → cortisol + identity trap
       → = Cultural factor → chi tiết → VN-Cultural-Factors.md
 
@@ -1127,7 +1127,7 @@ PER-STAGE PARENT ROLE:
     → Financial support (nếu có thể) → giảm survival cortisol
     → Emotional support: "bố/mẹ support bất kể con chọn gì"
     → ⚠️ KHÔNG: "con đã 20 tuổi, phải biết muốn gì" = pressure
-      → NẾU Forced Soldier → cần Emergence Phase → parent ALLOW it
+      → NẾU Forced-Fit → cần Emergence Phase → parent ALLOW it
     → = "Bệ phóng đã launch → giờ = control center ở xa, sẵn sàng support"
 
 
@@ -1136,7 +1136,7 @@ DOUBLE-BIND PROBLEM:
 
   Tệ nhất: parent ÉP hướng A + school ÉP hướng A + trẻ hardware = hướng B
     → CẢ 2 environment ĐÈ cùng lúc → cortisol MÃN TÍNH
-    → Trẻ internal tendency → suppressed → Forced Soldier
+    → Trẻ internal tendency → suppressed → Forced-Fit
     → = Root cause nhiều quarter-life crisis
 
   Cũng tệ: parent KHÔNG structure + school KHÔNG structure + trẻ cần structure
@@ -1396,7 +1396,7 @@ REALITY CHECK — cái CÓ THỂ làm NGAY:
      → Từ "giáo dục ĐANG thế nào" → "NÊN thế nào" → "bắt đầu từ đâu"
   ✅ Kết nối: Core (brain) → Child-Dev (0-6) → Principles → System (file này)
      → Architecture rõ ràng, modular
-  ✅ Nhận diện True Soldier vs Forced Soldier
+  ✅ Nhận diện True-Fit vs Forced-Fit
      → Pattern recognition cho hậu quả dài hạn của education
   ✅ Address constraints thực tế
      → §10: không chỉ lý tưởng → biết khó ở đâu
@@ -1441,7 +1441,7 @@ REALITY CHECK — cái CÓ THỂ làm NGAY:
       → Consistent logic → chưa tested in training programs
     → §9: 4-channel integration
       → Logical architecture → implementation chưa proven at scale
-    → §3-§4: True Soldier vs Forced Soldier pattern
+    → §3-§4: True-Fit vs Forced-Fit pattern
       → Consistent with observed outcomes → nhưng = framework label, not clinical diagnosis
 
   ĐỘ TIN CẬY THẤP HƠN 🔴:
@@ -1497,7 +1497,7 @@ REALITY CHECK — cái CÓ THỂ làm NGAY:
 ```
 TẦNG 1 — CORE (brain mechanisms):
   → Core-v7.5-Draft.md — framework gốc
-  → Chunk-And-PFC.md — chunk compilation, PFC vs unconscious
+  → Chunk.md — chunk compilation, PFC vs unconscious
   → Cortisol-Baseline.md — stress, change-readiness, inverted-U
   → Imagine-Final.md — purpose engine, body simulation
   → Novelty-Loop.md — VTA, dopamine, motivation
@@ -1547,7 +1547,7 @@ CROSS-REFERENCES TRONG FILE NÀY:
   │ §0 Purpose       │ Education-Principles.md, backup v5.5    │
   │ §1 Architecture  │ Natural-Development.md, Principles §8   │
   │ §2 Stage 2       │ Principles §2 (8 constants), Bridge.md  │
-  │ §3 Stage 3       │ backup §1.3 (True/Forced Soldier)       │
+  │ §3 Stage 3       │ backup §1.3 (True/Forced-Fit)       │
   │ §4 Stage 4       │ backup §1.3 (Emergence Phase)           │
   │ §5 Bridge        │ Education-Bridge.md (chi tiết)           │
   │ §6 Assessment    │ Principles NL8, backup §2.7              │

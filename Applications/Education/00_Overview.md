@@ -44,7 +44,7 @@ KIẾN TRÚC TỔNG THỂ — 5 TẦNG:
   ┌─────────────────────────────────────────────────────────────┐
   │ TẦNG 1: Core/                                               │
   │   Não hoạt động thế nào (KHÔNG ĐỔI)                        │
-  │   Core-v7.5-Draft.md, Chunk-And-PFC.md, Cortisol-Baseline, │
+  │   Core-v7.5-Draft.md, Chunk.md, Cortisol-Baseline, │
   │   Imagine-Final.md, Novelty-Loop.md                         │
   ├─────────────────────────────────────────────────────────────┤
   │ TẦNG 2: Child-Development/                                  │
@@ -200,7 +200,7 @@ NẾU MUỐN CẬP NHẬT (era đổi):
 
     Key Core files referenced:
       Core-v7.5-Draft.md — hardware parameters, body-base, cortisol modes
-      Chunk-And-PFC.md — chunk compilation, PFC vs unconscious
+      Chunk.md — chunk compilation, PFC vs unconscious
       Cortisol-Baseline.md — inverted-U, change-readiness
       Imagine-Final.md — purpose engine, body simulation
       Novelty-Loop.md — VTA, dopamine, motivation

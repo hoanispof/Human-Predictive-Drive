@@ -1,19 +1,38 @@
 # Education Bridge — Calibrate Motivation Cho Từng Trẻ Từng Giai Đoạn
 
-> **Trạng thái:** DRAFT — ứng dụng motivation bridge mechanism cho giáo dục
-> **Ngày:** 2026-03-27
-> **Mục đích:** Hướng dẫn CÁCH chọn, liều lượng, và rút motivation bridge
+> **Trạng thái:** DRAFT v1.1 (refined 2026-04-11 từ v1.0 2026-03-27)
+> **Ngày:** 2026-04-11
+> **Mục đích:** Hướng dẫn CÁCH chọn, liều lượng, và transition motivation bridge
 > (carrot / threat / social / identity) phù hợp cho từng trẻ, từng task, từng giai đoạn
 > VÀ CÁCH thiết kế tiến trình học (arc) để con ÍT KHÓ CHỊU NHẤT có thể
-> **Core insight:** Bridge = scaffolding TẠM THỜI — cho quá nhiều = hỏng, cho quá ít = bỏ cuộc
+> **Core insight:** Bridge = nguồn ④ External Inject fill Anchor — TẠM THỜI,
+> cần transition sang nguồn ①②③ (PFC Imagine-Final / Hippocampus / Compiled)
 > Arc design TỐT = cần ÍT bridge hơn — giảm khó chịu thay vì chỉ chịu đựng khó chịu
-> **Reference:** Personal-Melody.md §5 (Motivation Bridge mechanism),
-> Novelty-Loop.md §3.2 (threat = sàn), Threat-Drive-Analysis.md §12 (threat tốt khi nào),
-> Education-AI-Era-Draft.md §5 (challenge-product method),
-> Body-Parenting-Optimization.md (per-age body-listening)
+> **Reference:**
+>   Education-Principles.md v1.1 (nền lý thuyết — đặc biệt §2.9 + NL5 + NL6)
+>   Anchor-Schema.md (4 nguồn fill — §3)
+>   Imagine-Final.md + §1.5 Lifecycle
+>   Imagine-Final-Evaluation.md v1.1 (4 góc Quality)
+>   Threat.md §5.5 (3 ORIGIN taxonomy)
+>   Domain-Mapping-Drive.md §7.2 (3 loại threat applied cho education)
+>   Personal-Melody.md §5, Novelty-Loop.md §3.2,
+>   Threat-Drive-Analysis.md §9 (parenting refined), §12,
+>   Body-Parenting-Optimization.md
 > **⚠️ Framework hypothesis — logic consistent, cần validate thực nghiệm**
 > **⚠️ KHÔNG thay thế chuyên gia giáo dục / tâm lý trẻ em**
 > **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
+>
+> **Refinement v1.1 (2026-04-11) — sync với framework expansion:**
+>   → §0 Nền tảng ước mơ: refine với Lifecycle (5 phases) + Quality 4 góc
+>     + 3D framework (Clarity × Quality × Trust)
+>   → §1 Bridge reframe: 5 bridges → 4 nguồn fill taxonomy
+>     (insight: curiosity KHÔNG phải bridge, nó là nguồn ①② target)
+>   → §3 Threat Overdose: integrate 3 ORIGIN taxonomy (Domain/Peer/Imposed)
+>   → §4 Goldilocks: không chỉ liều lượng, còn cần ORIGIN awareness
+>   → §6 Per-Age: integrate Lifecycle phases + 4 nguồn distribution trajectory
+>   → §8 Rút Bridge: reframe "withdrawal" → "transitioning tỉ lệ 4 nguồn"
+>   → §9 Mistake ③: update với 3 ORIGIN taxonomy
+>   → §12 Kết nối: bổ sung 7+ new files
 
 ---
 
@@ -105,9 +124,125 @@
     → Bố mẹ tạo imagine final QUÁ MỜ: "học để thành công"
     → (Chi tiết: §9 ⑦ Compass Của Bố Mẹ)
 
+
+⭐ v1.1 EXTENSION — 3 REFINEMENT TỪ FRAMEWORK EXPANSION:
+
+(Bổ sung §0 với 3 concept mới từ Education-Principles v1.1 §2.6 refined)
+
+
+REFINEMENT 1 — IMAGINE-FINAL CÓ LIFECYCLE (không static):
+
+  Imagine-Final KHÔNG phải "goal cố định" cần cài vào đầu trẻ 1 lần.
+  Nó đi qua 5 phases lặp lại (Imagine-Final.md §1.5):
+
+    Phase 1 BUILD    — PFC active draft
+    Phase 2 SAVE     — PFC switch sang task khác, Imagine-Final dormant
+    Phase 3 BACKGROUND — vô thức process (REM sleep, DMN, spreading activation)
+    Phase 4 RELOAD   — PFC pull lại, có chunks mới integrated
+    Phase 5 REFINE   — re-build với context mới → loop về Phase 1
+
+  HỆ QUẢ CHO BỐ MẸ:
+    → Imagine-Final trẻ sẽ THAY ĐỔI qua thời gian (Phase 5 REFINE)
+    → Thay đổi KHÔNG phải "flakiness" — đây là natural maturation
+    → Đừng LOCK Imagine-Final sớm ("con phải quyết định từ 12 tuổi")
+    → Đừng panic khi trẻ đổi hướng ở tuổi 15, 17, 20 — đó là lifecycle
+    → Respect Phase 2-3 — cho phép rest, play, day-dream
+      → Không ép học 24/7 → cho vô thức Phase 3 BACKGROUND làm việc
+      → "Đi chơi 1 ngày" hoặc "ngủ đủ" thường sau đó có "aha" (Phase 4 RELOAD)
+
+  ⭐ 3 OUTCOMES của Imagine-Final (Imagine-Final.md §1.5):
+    → COMPILE — lặp nhiều vòng → schema compiled deep → long-term mastery
+    → ACHIEVE & FORGET — đạt mục tiêu cụ thể → không cần lặp
+    → ABANDON — cost > benefit → bỏ
+
+  → CẢ 3 đều là outcomes BÌNH THƯỜNG
+  → "Trẻ bỏ Imagine-Final" không phải failure — có thể là ABANDON healthy
+  → Đừng shame trẻ khi bỏ 1 hướng — đó là phần của lifecycle natural
+
+
+REFINEMENT 2 — IMAGINE-FINAL CẦN CÓ QUALITY (4 GÓC):
+
+  Imagine-Final rõ + body-preview mạnh CHƯA ĐỦ — còn phải hỏi: "HƯỚNG về đâu?"
+  Imagine-Final-Evaluation.md v1.1 phân loại Imagine-Final trên 2 trục:
+
+    Trục 1 DOMAIN FIT: "Cái con muốn có THẬT trong thế giới không?"
+    Trục 2 HARDWARE FIT: "Con có tới được + có MUỐN khi tới không?"
+
+  4 góc:
+
+    SWEET SPOT (Domain ✓ + Hardware ✓) — mục tiêu:
+      → Cái con muốn CÓ thật + con FIT với nó
+      → Ví dụ: trẻ somatic-dominant muốn làm thợ mộc (domain thật, hardware match)
+      → Drive tự nhiên, bridge ít cần
+
+    MISMATCH (Domain ✓ + Hardware ✗) — cạm bẫy phổ biến nhất:
+      → Cái có thật (nghề bác sĩ) nhưng trẻ không fit (somatic-dominant bị ép
+        verbal-academic)
+      → Cần bridge NẶNG để maintain → damage long-term
+      → Dấu hiệu: trẻ "giỏi nhưng ghét"
+
+    DELUSION (Domain ✗ + Hardware ✓) — cạm bẫy nguy hiểm nhất:
+      → Cái con muốn KHÔNG thật (ví dụ: "ai cũng sẽ admire con khi con làm X")
+      → Con làm được (hardware fit) nhưng outcome không đến
+      → Progress tạo ảo giác đúng hướng
+      → Dài hạn: crash khi vỡ ảo tưởng
+
+    FANTASY (Domain ✗ + Hardware ✗) — thường vô hại:
+      → "Con sẽ làm superhero" (trẻ 5 tuổi)
+      → Body không invest lâu → tự tắt → không cần bridge
+
+  HỆ QUẢ CHO BỐ MẸ — 4 CÂU HỎI NAVIGATION:
+    1. "Cái con muốn có THẬT không?" (check Domain)
+    2. "Con CÓ THỂ tới được không?" (check Hardware Capacity)
+    3. "Tới rồi con CÓ MUỐN không?" (check Hardware Compatibility)
+    4. "Làm sao con biết chắc?" (mini-test, real-check)
+
+  → 4 câu này là TOOLS NAVIGATE 4 góc, KHÔNG phải để dictate answer
+  → Bố mẹ hỏi → trẻ tự check → trẻ tự kết luận
+  → Mục tiêu: giúp trẻ DI CHUYỂN từ Fantasy/Delusion → Sweet Spot của chính mình
+
+  ⚠️ ĐỪNG inject Imagine-Final của bố mẹ:
+    → Bố mẹ hardware A → Sweet Spot của bố mẹ ≠ Sweet Spot của con hardware B
+    → Inject sẽ tạo Mismatch trong con
+    → Dù "có thật" (Domain ✓) nhưng "không phải mình" (Hardware ✗)
+
+
+REFINEMENT 3 — IMAGINE-FINAL CẦN CÓ TRUST BUILT RIGHT:
+
+  Imagine-Final-Evaluation.md §0 giới thiệu 3D framework:
+    → CLARITY (rõ tới đâu) — Imagine-Final.md 14 ngưỡng
+    → QUALITY (hướng về đâu) — Imagine-Final-Evaluation.md 4 góc
+    → TRUST (hệ thống bind vào schema tới đâu) — Anchor-Schema.md
+
+  3 chiều ĐỘC LẬP. Combinations important:
+
+    CAO Clarity + CAO Quality + CAO Trust = SWEET SPOT COMPILED (lý tưởng)
+    CAO Clarity + XẤU Quality + CAO Trust = HARDWARE-FIRST HARM (nguy hiểm nhất)
+      → Imagine-Final rõ + sai hướng + commit cứng → body skip → invisible damage
+      → Ví dụ: trẻ "cuồng" 1 Imagine-Final inject từ bố mẹ (sai hướng) → chạy
+        mạnh → sập sau 20 năm
+    CAO Clarity + CAO Quality + THẤP Trust = TIỀM NĂNG (đúng nhưng chưa commit)
+      → Cần build Trust qua action + body-confirm
+
+  HỆ QUẢ CHO BỐ MẸ:
+    → Đừng chỉ "làm rõ" Imagine-Final (nâng CLARITY) mà không check hướng
+    → Đừng chỉ "xác quyết" Imagine-Final (nâng TRUST) mà không check hướng
+    → Cả 2 mà không check QUALITY → Hardware-First Harm risk
+    → Trust phải được BUILD qua action + body-confirm, không từ lời bố mẹ
+      → "Con phải tin mình làm được" (inject Trust) = fragile hoặc toxic
+      → "Con thử xem" (body-confirm build Trust) = sustainable
+
+  → Bridge task: không chỉ help trẻ tới Imagine-Final
+  → Còn: help trẻ BUILD Trust đúng cách (qua body-confirmed action)
+  → Đây là shift từ "push harder" sang "calibrate process"
+
+
   → = §0 này là NỀN TẢNG — §1-8 SAU ĐÓ mới có ý nghĩa.
   → = Không có ước mơ → mọi bridge đều là "ép cho xong."
-  → (Chi tiết gradient imagine final: Imagine-Final.md)
+  → = Có ước mơ + Lifecycle respect + Quality navigation + Trust build right
+    = Sweet Spot trajectory sustainable
+  → (Chi tiết: Imagine-Final.md + Imagine-Final-Evaluation.md v1.1 +
+    Education-Principles.md §2.6 refined)
 ```
 
 ---
@@ -127,23 +262,82 @@
     → Học: cần bridge TẠM → chunks đủ → melody emerge → intrinsic TỰ DUY TRÌ
     → = Bridge KHÔNG phải mục đích → bridge LÀ CÔNG CỤ TẠM
 
-  5 LOẠI BRIDGE (xếp theo sức mạnh — Personal-Melody.md §5):
-    ① Curiosity — VTA fire từ micro-novelty trong task
-    ② External reward ("Carrot") — phần thưởng bên ngoài (kẹo, lời khen, quà, điểm)
-    ③ Identity — "tôi là người giỏi X" (compiled belief)
-    ④ Social — "bố mẹ kỳ vọng", "bạn bè cùng làm"
-    ⑤ Threat — "nếu không học → hậu quả" (cortisol trực tiếp)
 
-  NGUYÊN TẮC VÀNG:
-    → Bridge NHỎ NHẤT có thể → đợi intrinsic take over → RÚT
-    → Thừa bridge = DAMAGE (inflation hoặc cortisol mãn tính)
-    → Thiếu bridge = BỎ CUỘC (chunks không đủ, mãi không "aha")
+⭐ v1.1 REFRAME — BRIDGE = NGUỒN ④ EXTERNAL INJECT:
+
+  Từ Education-Principles v1.1 NL5 + Anchor-Schema.md §3, framework giờ có
+  1 lens precise hơn để nhìn bridge:
+
+  Anchor (sync point cho hệ vô thức) được FILL từ 4 nguồn:
+    ① PFC Imagine-Final — top-down self-directed ("tôi muốn gì?")
+    ② Hippocampus — experiential memory từ việc trẻ TỰ LÀM
+    ③ Compiled schemas — routine, habits từ repeated practice
+    ④ External Inject — lời người khác, văn hoá, media, authority
+
+  → BRIDGE CHÍNH LÀ 1 DẠNG CỦA NGUỒN ④:
+    → Carrot ("kẹo khi làm xong") = external inject reward
+    → Threat ("không học thì phạt") = external inject consequence
+    → Identity ("con là học sinh giỏi") = external inject label
+    → Social ("bố mẹ kỳ vọng") = external inject relational
+
+  → 4 cái này cùng mechanism: fill nguồn ④ vào anchor → motivate behavior
+
+  → NHƯNG KHÔNG PHẢI TẤT CẢ "BRIDGES" Ở LIST CŨ ĐỀU LÀ NGUỒN ④:
+    → "Curiosity" (VTA fire từ micro-novelty trong task) KHÔNG phải external inject
+    → Curiosity = body-intrinsic drive từ ① ② ③
+    → = Curiosity KHÔNG phải BRIDGE theo định nghĩa mới
+    → = Curiosity là TARGET của bridge transition — cái mà bridge chuyển sang
+
+  ⭐ REFRAMED LIST:
+
+  4 LOẠI BRIDGE THẬT (all are nguồn ④ External Inject):
+    ① Carrot — external reward (kẹo, lời khen, quà, điểm, privilege)
+    ② Identity (inject) — label từ external ("con là học sinh giỏi", "con ngoan")
+       ⚠️ Note: identity tự emerge từ experience (nguồn ②) khác với identity inject
+         - Emerged identity: trẻ tự feel "tôi làm tốt" từ body-confirm (nguồn ②)
+         - Injected identity: bố mẹ nói "con là giỏi" → trẻ chấp nhận (nguồn ④)
+    ③ Social expectation — relational pressure ("bố mẹ kỳ vọng", "bạn bè cùng làm")
+    ④ Threat — negative consequence (cortisol-based drive)
+
+  CURIOSITY KHÔNG LÀ BRIDGE — nó là nguồn nội tại:
+    → Từ nguồn ①: PFC tự có Imagine-Final quan tâm domain
+    → Từ nguồn ②: hippocampus remember "làm X thì sướng" (past experience)
+    → Từ nguồn ③: compiled habits chạy auto mà không cần ngoại lực
+    → = Curiosity là OUTCOME khi 1 hoặc nhiều trong ①②③ active
+    → = Bridge task là HELP trẻ build ①②③ → curiosity tự emerge
+
+
+  5 LOẠI BRIDGE CŨ (Personal-Melody.md §5) — v1.1 classification:
+    ① Curiosity → ⚠️ KHÔNG phải bridge, là nguồn ①②③ target
+    ② External reward ("Carrot") → ✓ Bridge (nguồn ④ sub-type reward)
+    ③ Identity → ✓ Bridge NẾU inject; KHÔNG bridge nếu emerged
+    ④ Social → ✓ Bridge (nguồn ④ sub-type relational)
+    ⑤ Threat → ✓ Bridge (nguồn ④ sub-type negative)
+    → = Reframed: 4 bridges thật, + curiosity là target, không phải bridge
+
+
+  NGUYÊN TẮC VÀNG (refined):
+    → Bridge NHỎ NHẤT có thể → đợi ①②③ take over → phase out bridge
+    → Bridge TOO MUCH = DAMAGE (nguồn ④ dominate → compile cứng → Hardware-First Harm)
+    → Bridge TOO LITTLE = BỎ CUỘC (chunks không đủ, mãi không "aha")
     → = Goldilocks: không quá nhiều, không quá ít, VỪA ĐỦ
+
+  ⭐ PHASE OUT ≠ RÚT BINARY:
+    v1.0: "Rút bridge" (binary, bridge đặt hoặc rút)
+    v1.1: "Transition tỉ lệ 4 nguồn" — bridge nguồn ④ giảm dần, ①②③ tăng dần
+    → Nhiều gradient thay vì on/off
+    → Chi tiết: §8 Rút Bridge Protocol (refined v1.1)
+
 
   TƯƠNG TỰ Vygotsky ZPD (Zone of Proximal Development):
     🟢 ZPD: task vừa ngoài khả năng → cần HỖ TRỢ → tự làm được → RÚT hỗ trợ
     Bridge: chunks vừa ngoài melody → cần BRIDGE → melody emerge → RÚT bridge
     = Cùng nguyên tắc scaffolding, khác DIMENSION (ZPD = cognitive, bridge = motivational)
+
+  🟡 "Bridge = nguồn ④" reframing = framework integration v1.1
+  🟡 "Curiosity không phải bridge" = framework clarification
+  🟢 Intrinsic vs extrinsic motivation: Deci & Ryan SDT
+  🟢 Overjustification effect: Deci 1971, Lepper 1973
 ```
 
 ---
@@ -229,19 +423,111 @@
     → Cortisol baseline CAO → anxiety, perfectionism, fear of failure
     → = "Giỏi nhưng không hạnh phúc" = chunks có nhưng melody bệnh
 
+
+⭐ v1.1 REFINEMENT — 3 ORIGIN TAXONOMY (Threat.md §5.5):
+
+  "Threat overdose" là framing CHƯA ĐỦ chính xác. Framework v1.1 phân biệt
+  3 loại threat theo ORIGIN (threat đến TỪ ĐÂU):
+
+  TYPE 1 — DOMAIN THREATS (từ reality vật lý):
+    → Xe đạp đứt xích, bút hết mực, bài toán khó, task realistic deadline
+    → REAL, body-confirmable, agency high
+    → Framework action: KEEP + enable exposure
+    → Đây KHÔNG phải "overdose" problem — đây là chất liệu học tự nhiên
+    → Trẻ học cách solve real problems → chunks về competence + resilience
+
+  TYPE 2 — PEER SOCIAL THREATS (từ peer dynamics):
+    → Bạn trêu nhẹ, tranh đồ chơi, bị loại khỏi game
+    → Real L2 Connection navigation practice
+    → Framework action: KEEP (monitor bullying)
+    → Đây cũng KHÔNG phải "overdose" problem nếu ở mức normal
+    → Trẻ build social skills từ peer dynamics
+
+  TYPE 3 — IMPOSED ADULT THREATS (từ authority áp xuống):
+    → "Không học thì bị đánh" / "sẽ bị phạt" / so sánh với bạn / public shame
+    → ARTIFICIAL, asymmetric power, often chronic
+    → Framework action: REDUCE gradually
+    → ĐÂY MỚI LÀ "overdose problem" THẬT SỰ
+
+  → "Threat overdose" = toxic Type 3 overdose
+  → KHÔNG phải về "threat nói chung quá nhiều"
+
+
+⭐ TẠI SAO DISTINCTION QUAN TRỌNG:
+
+  Cùng cortisol level, khác origin → khác chunk association → khác long-term:
+
+  Moderate cortisol từ Domain threat:
+    → Body-confirmable problem → actionable
+    → Trẻ solve → chunks compile với "problem → tôi solve được" (positive)
+    → Anchor: "tôi có agency" → self-efficacy
+    → Long-term: resilience + competence
+
+  Moderate cortisol từ Peer social threat:
+    → Real L2 navigation practice
+    → Chunks compile với "conflict solvable, relationships complex"
+    → Anchor: "tôi can handle social"
+    → Long-term: social skill + emotional intelligence
+
+  Moderate cortisol từ Imposed adult threat (same level):
+    → Authority = connection source đồng thời = threat source
+    → Chunks compile với "authority dangerous, học = shame risk"
+    → Anchor: "tôi có thể bị punished bất cứ lúc nào" → hypervigilance
+    → Long-term: anxiety, attachment issues, learned helplessness
+
+  → CÙNG CORTISOL LEVEL. KHÁC ORIGIN. KHÁC KẾT QUẢ HOÀN TOÀN.
+  → Đây là tại sao "moderate pressure = optimal" CHƯA ĐỦ
+  → Phải hỏi "moderate TỪ ĐÂU?"
+
+
+⭐ TẠI SAO IMPOSED ADULT THREAT ĐẶC BIỆT DAMAGING:
+
+  (Từ Threat-Drive-Analysis.md §9 refined v1.1)
+
+  Parent = primary source of L2 Connection (Anchor-Schema cho trẻ)
+  Khi parent dùng imposed threat:
+    → Connection source ĐỒNG THỜI = threat source
+    → Trẻ không có "safe harbor" để recover
+    → Cortisol không drop properly (không có co-regulation)
+    → Chronic exposure → schema compile "attachment = dangerous"
+    → Long-term: anxious attachment, difficulty trust trong adult relationships
+
+  So với domain threats:
+    → Domain threats có AGENCY (trẻ solve được)
+    → Imposed parent threats: không có agency (parent quyết định)
+    → = Learned helplessness mechanism (Seligman)
+
+  So với peer threats:
+    → Peer threats trẻ có thể recover về với parent để co-regulation
+    → Imposed parent threats: không có fallback
+    → = Damaging nhất về mặt neurological (Slavich 2010)
+
+
   🟢 RESEARCH SUPPORT:
     → Cortisol impairs hippocampal neurogenesis (Sapolsky 2004)
       = Stress mãn tính → hippocampus (bộ nhớ) bị tổn thương → GIẢM khả năng học
     → Punitive parenting → higher cortisol baseline (Bugental 2003)
     → Fear-based learning → context-dependent retrieval (Godden & Baddeley 1975 extended)
       = Chunks gắn threat → chỉ nhớ khi TRONG CONTEXT threat → ngoài context → quên
+    → Authority-based shame most damaging (Slavich 2010)
 
-  THREAT CÓ THỂ DÙNG — nhưng phải VỪA ĐỦ:
-    → Pressure NHẸ (deadline, tiêu chí rõ) → cortisol vừa → Yerkes-Dodson optimal
-    → Pressure NẶNG (phạt, mắng, so sánh) → cortisol quá cao → damage
+  THREAT CÓ THỂ DÙNG — VỚI CONSTRAINTS:
+    → KEEP Type 1 Domain exposure (don't over-shelter)
+    → KEEP Type 2 Peer exposure (monitor bullying)
+    → REDUCE Type 3 Imposed to minimum (transition reality — không eliminate instantly)
+    → Type 3 reasonable acceptable: reasonable rules, explained, natural consequence
+    → Type 3 toxic avoid: physical, shame, comparison, guilt, impossible standards
     → Ranh giới: trẻ CÒN enjoy process → OK / trẻ CHỈ sợ hậu quả → quá mạnh
     → = "Pressure" ≠ "Threat" — pressure là constraint, threat là punishment
-    → (xem Threat-Drive-Analysis.md §12-13: điều kiện threat tốt vs độc hại)
+    → (xem Threat.md §5.5 cho 3 ORIGIN taxonomy đầy đủ)
+    → (xem Threat-Drive-Analysis.md §9 refined cho parenting application)
+
+  ⭐ KEY INSIGHT MỚI CHO PARENTS:
+    → Đừng shield trẻ khỏi MỌI domain threats (xe hỏng, bài khó)
+    → Đừng shield trẻ khỏi MỌI peer conflicts (mild teasing)
+    → DO reduce chronic imposed threats (yelling, shame)
+    → = Pattern ngược với helicopter parenting hiện tại
+    → Helicopter pattern = over-shelter natural + over-use imposed = worst combo
 ```
 
 ---
@@ -285,6 +571,66 @@
     → Task khác → zone KHÁC
     → Giai đoạn khác → zone KHÁC
     → = KHÔNG CÓ 1 công thức cho tất cả → phải CALIBRATE per child per task
+
+
+⭐ v1.1 REFINEMENT — GOLDILOCKS CẦN ORIGIN AWARENESS (không chỉ liều lượng):
+
+  Mô hình v1.0 trên chỉ có 1 trục (liều lượng threat vs carrot).
+  V1.1 thêm chiều thứ 2: ORIGIN của threat (§3 refined).
+
+  ┌──────────────────────────────────────────────────────────────────┐
+  │  2D GOLDILOCKS MAP:                                              │
+  │                                                                  │
+  │                       ORIGIN OF PRESSURE                         │
+  │                  Domain  |  Peer  |  Imposed Adult              │
+  │                 Natural  |  Social|   Artificial                │
+  │   LIỀU          ─────────────────────────────────────           │
+  │   LƯỢNG  Nhẹ      HEALTHY │ HEALTHY│  BRIDGE ZONE              │
+  │                   keep    │ keep   │  (reasonable,              │
+  │                           │        │  phase out dần)            │
+  │          Vừa      GROWTH  │ COMPLEX│  ⚠️ CAREFUL ZONE          │
+  │                   zone    │ zone   │  (dễ drift sang toxic)    │
+  │          Nặng     RESCUE  │⚠️BULLY │  ❌ TOXIC ZONE             │
+  │                   needed  │ watch  │  (chronic = damage)        │
+  │                                                                  │
+  └──────────────────────────────────────────────────────────────────┘
+
+  ĐỌC MATRIX:
+    → Domain + Light = healthy chất liệu hằng ngày (xe hỏng, bài khó vừa)
+    → Domain + Medium = growth zone (Yerkes-Dodson optimal cho growth)
+    → Domain + Heavy = rescue needed (thật sự quá khó, need support)
+    → Peer + Light/Medium = healthy social navigation learning
+    → Peer + Heavy = bullying watch (intervene if asymmetric)
+    → Imposed + Light = bridge zone (reasonable rules, acceptable tạm thời)
+    → Imposed + Medium = ⚠️ careful (dễ drift toxic, should be temporary)
+    → Imposed + Heavy = ❌ TOXIC (chronic damage, avoid)
+
+  → GOLDILOCKS ZONE ≠ 1 điểm
+  → Mà là 1 VÙNG phức hợp phụ thuộc ORIGIN + LIỀU LƯỢNG
+  → 6 cells healthy/bridge/growth (green)
+  → 3 cells warn/toxic (orange/red)
+
+  INSIGHT QUAN TRỌNG:
+    → "Vừa đủ" với Domain threat CÓ THỂ ở mức cao hơn than "vừa đủ" với Imposed
+    → 1 bài toán thật khó (Domain heavy) có thể healthy nếu có support
+    → 1 câu "con NGU quá!" (Imposed even light) đã là toxic (shame-based)
+    → → Không thể dùng 1 số "liều lượng cortisol tối ưu" cho mọi origin
+    → → Phải đánh giá ORIGIN trước khi đánh giá liều lượng
+
+  CHO BRIDGES CỤ THỂ:
+    → Carrot = chỉ 1 thái Imposed (external inject reward) → matrix column 3
+    → Threat bridge = Imposed sub-type → matrix column 3
+    → Pressure natural (deadline từ task thật) = Domain → matrix column 1
+    → Social expectation từ peer = Peer → matrix column 2
+    → Social expectation từ parent/authority = Imposed → matrix column 3
+
+  → Calibration chi tiết: xem §5 Calibration Framework
+  → Per-Age phase out strategy: xem §6 Per-Age Bridge Design
+  → Rút (transition) strategy: xem §8 Rút Bridge Protocol (refined v1.1)
+
+  🟡 "2D Goldilocks map" = framework formulation v1.1
+  🟡 9-cell matrix = framework synthesis
+  🟢 Yerkes-Dodson + ZPD + SDT (đã cited ở trên)
 ```
 
 ---
@@ -559,6 +905,91 @@
   │ 12-18 tuổi │ ~70-90%      │ Identity + social + threat nhẹ (L3)   │
   │ 18+        │ ~90-100%     │ Self-bridge (tự tạo — Personal-Melody)│
   └────────────┴──────────────┴────────────────────────────────────────┘
+
+
+⭐ v1.1 EXTENSION — 4 NGUỒN FILL DISTRIBUTION TRAJECTORY:
+
+  Từ Anchor-Schema.md §3 + Education-Principles v1.1 NL5, per-age table
+  expanded với 4 nguồn fill distribution (healthy development):
+
+  ┌────────────┬─────────┬─────────┬─────────┬─────────┬────────────┐
+  │ Giai đoạn  │ Nguồn ① │ Nguồn ② │ Nguồn ③ │ Nguồn ④ │ Đặc trưng  │
+  │            │ PFC     │ Hippo.  │ Comp.   │ External│            │
+  ├────────────┼─────────┼─────────┼─────────┼─────────┼────────────┤
+  │ 0-3 tuổi   │   ~0%   │  ~60%   │  ~10%   │  ~30%   │ Experiential│
+  │            │         │         │         │         │ dominant    │
+  ├────────────┼─────────┼─────────┼─────────┼─────────┼────────────┤
+  │ 3-6 tuổi   │  ~5%    │  ~50%   │  ~15%   │  ~30%   │ Exp. + Parent│
+  │            │         │         │         │         │ guidance    │
+  ├────────────┼─────────┼─────────┼─────────┼─────────┼────────────┤
+  │ 6-12 tuổi  │  ~15%   │  ~30%   │  ~25%   │  ~30%   │ Balanced   │
+  │            │         │         │         │         │ (critical) │
+  ├────────────┼─────────┼─────────┼─────────┼─────────┼────────────┤
+  │ 12-18 tuổi │  ~35%   │  ~25%   │  ~25%   │  ~15%   │ Self-direct│
+  │            │         │         │         │         │ emerging   │
+  ├────────────┼─────────┼─────────┼─────────┼─────────┼────────────┤
+  │ 18+ (healthy)│~40-50%│  ~20%   │  ~25%   │  ~5-10% │ Self-direct│
+  │            │         │         │         │         │ mature     │
+  └────────────┴─────────┴─────────┴─────────┴─────────┴────────────┘
+
+  PATTERN QUAN TRỌNG:
+  → Nguồn ④ External Inject GIẢM DẦN theo tuổi (30% → 5-10%)
+  → Nguồn ① PFC Imagine-Final TĂNG DẦN (0% → 40-50%)
+  → Nguồn ② Hippocampus CAO ở trẻ nhỏ (body experience dominant)
+  → Nguồn ③ Compiled TĂNG DẦN qua accumulated habits
+  → = Bridge giảm = nguồn ④ rút, nhưng nguồn ① ② ③ TĂNG song song
+  → "Rút bridge" KHÔNG phải rút về 0 tổng motivation —
+    là chuyển từ external sang internal sources
+
+  CẢNH BÁO — MASS SCHOOLING PATTERN (không healthy):
+  ┌────────────┬─────────┬─────────┬─────────┬─────────┐
+  │ Giai đoạn  │ Nguồn ① │ Nguồn ② │ Nguồn ③ │ Nguồn ④ │
+  ├────────────┼─────────┼─────────┼─────────┼─────────┤
+  │ 6-12 mass  │  ~5%    │  ~15%   │  ~20%   │  ~60%   │
+  │ schooling  │         │         │         │         │
+  ├────────────┼─────────┼─────────┼─────────┼─────────┤
+  │ 12-18 mass │  ~10%   │  ~15%   │  ~20%   │  ~55%   │
+  │ schooling  │         │         │         │         │
+  ├────────────┼─────────┼─────────┼─────────┼─────────┤
+  │ 18+ crash  │  ~5-10% │  ~15%   │  ~25%   │  ~50%→  │
+  │ (nguồn ④   │         │         │         │  bỗng   │
+  │ rút đột    │         │         │         │  ~10%   │
+  │ ngột)      │         │         │         │         │
+  └────────────┴─────────┴─────────┴─────────┴─────────┘
+
+  → Nguồn ④ dominate suốt 12+ năm (test, điểm, expectation, authority)
+  → Nguồn ① bị suppressed (không tự chọn, không tự direct)
+  → Nguồn ② yếu (ít hands-on experience sâu)
+  → Khi ra đời 18+ → nguồn ④ rút (không còn parent/teacher push)
+  → Anchor crash: ~50-60% motivation biến mất, không có replacement
+  → = QUARTER-LIFE CRISIS mechanism
+
+
+⭐ LIFECYCLE RESPECT CHO TẤT CẢ GIAI ĐOẠN:
+
+  Imagine-Final.md §1.5 Lifecycle applies cho mọi tuổi:
+  Phase 1 BUILD → Phase 2 SAVE → Phase 3 BACKGROUND → Phase 4 RELOAD → Phase 5 REFINE
+
+  Mỗi giai đoạn cần respect tất cả 5 phases, đặc biệt Phase 2-3 (rest,
+  sleep, unstructured play, day-dreaming):
+
+  0-3 tuổi:    napping + play + sleep 12-14h/ngày → heavy Phase 2-3
+  3-6 tuổi:    play + sleep 11-13h/ngày → Phase 2-3 vẫn mạnh
+  6-12 tuổi:   sleep 9-11h/ngày + unstructured time → critical giai đoạn
+  12-18 tuổi:  sleep 9-10h/ngày + down-time → vẫn cần (hay bị cắt ở VN!)
+  18+:         sleep 7-9h/ngày + rest weekends → sustainable
+
+  NGUYÊN TẮC LIFECYCLE:
+  → Respect sleep không negotiable (Phase 3 heavy)
+  → Cho phép unstructured play/time → DMN active (Phase 3)
+  → Không schedule dày đặc 100% → cần gap cho BACKGROUND processing
+  → "Ngủ một đêm có ý tưởng" = Phase 3→4 RELOAD — cơ chế natural
+
+  VI PHẠM LIFECYCLE:
+  → Ép học 14 giờ/ngày → giết Phase 2-3 → chunks không consolidate sâu
+  → Cắt sleep → Phase 3 BACKGROUND giảm → giảm retention + insight
+  → Overschedule → không Phase 3 → hết "aha moments"
+  → Kết quả: effort nhiều nhưng outcome thấp + exhausted
 ```
 
 ### 6.1 Giai đoạn 0-3 — Không Cần Bridge
@@ -766,6 +1197,29 @@
 ## 8. Rút Bridge Protocol — Khi Nào và Cách Nào {#8}
 
 ```
+⭐ v1.1 REFRAME — "RÚT BRIDGE" = TRANSITIONING TỈ LỆ 4 NGUỒN FILL:
+
+  v1.0 framing: "rút bridge" là binary operation (đặt → rút)
+  v1.1 framing: "rút bridge" = giảm tỉ lệ nguồn ④ External Inject dần,
+    cho phép nguồn ①②③ (PFC / Hippocampus / Compiled) tăng song song
+
+  KHÁC NHAU THẾ NÀO:
+  v1.0: "Tháng 1 cho kẹo → Tháng 6 hết kẹo → Tháng 12 kẹo 0"
+  v1.1: "Tháng 1: nguồn ④ 80% + ①②③ 20%
+         Tháng 6: nguồn ④ 50% + ①②③ 50%
+         Tháng 12: nguồn ④ 15% + ①②③ 85%
+         Năm 2: nguồn ④ 5% + ①②③ 95%"
+
+  → Binary thinking (có/không) → gradient thinking (tỉ lệ)
+  → Focus shift: "RÚT gì" → "CHUYỂN sang đâu"
+  → Implication: nếu ①②③ chưa build, đừng rút ④ (anchor crash)
+
+  TRANSITION NÀY LÀ NATURAL NẾU:
+  → Đồng thời invest vào nguồn ① (let child choose, explore)
+  → Đồng thời invest vào nguồn ② (hands-on experience, real action)
+  → Đồng thời invest vào nguồn ③ (allow habits to form from choice, not force)
+  → = "Rút ④" chỉ là 1 mặt của transition — mặt kia là "build ①②③"
+
 🟡 RÚT BRIDGE = bước quan trọng BẰNG hoặc HƠN đặt bridge:
 
   4 DẤU HIỆU "CHUNKS ĐÃ ĐỦ" — khi nào rút:
@@ -815,12 +1269,66 @@
     → Chunks chưa đủ → melody chưa emerge → trẻ MẤT motivation → bỏ
     → = Rỡ giàn giáo khi nhà CHƯA xây xong → sập
     → Dấu hiệu: trẻ vẫn KHÔNG tự làm khi rút → bridge vẫn CẦN → đặt lại
+    → v1.1 lens: nguồn ①②③ chưa đủ để take over → ④ rút quá sớm
 
   ⚠️ RÚT QUÁ MUỘN:
     → Melody đã emerge NHƯNG vẫn cho carrot → inflation
     → HOẶC: trẻ đã enjoy nhưng vẫn pressure → "tại sao vẫn ép? tôi tự làm mà!"
     → = Giàn giáo vẫn đứng khi nhà đã xong → cản trở, che nhà
     → Dấu hiệu: trẻ PHẢN đối bridge ("đừng nhắc con nữa!") → nên rút
+    → v1.1 lens: nguồn ①②③ đã mạnh nhưng ④ vẫn dominate → compile "ai cũng cần ép"
+
+
+⭐ v1.1 NEW — 3 HỖ TRỢ TRANSITION NGUỒN ④ → NGUỒN ①②③:
+
+  Rút bridge chỉ là 1 mặt. Phải ĐỒNG THỜI build 3 nguồn còn lại. Cách cụ thể:
+
+  BUILD NGUỒN ① PFC Imagine-Final (self-directed):
+    → Ask "con muốn gì?" thay vì "con phải gì"
+    → Let child choose between options (autonomy)
+    → Respect child's emerging interests (don't override)
+    → Encourage future self thinking ("con hình dung 5 năm nữa thế nào?")
+    → KHÔNG inject adult Imagine-Final vào trẻ (→ Mismatch risk)
+
+  BUILD NGUỒN ② Hippocampus Experiential:
+    → Hands-on projects (make, build, cook, repair, grow)
+    → Let child face DOMAIN threats (xe hỏng, task khó) → solve
+    → Allow mistakes + reflection (don't fix for them)
+    → Build episodic memory "tôi đã làm được cái này" (identity từ experience)
+    → = Nguồn ② là nền cho self-efficacy chunks
+
+  BUILD NGUỒN ③ Compiled Habits:
+    → Habits từ CHOICE, không từ force
+    → Child chooses routine (với guidance) → compile naturally
+    → Repeated practice trong enjoyable context
+    → KHÔNG force habits nhàm chán ("ngồi 1 chỗ 2 giờ học") → compile trauma
+
+  → 3 builds này SONG SONG với rút nguồn ④
+  → Không có 3 builds = rút ④ = crash
+  → Có 3 builds = rút ④ natural + anchor healthy
+
+⭐ v1.1 NEW — DISTINGUISH GIỮA "EMERGED" VÀ "INJECTED" IDENTITY:
+
+  Khi rút bridge, watch phân biệt 2 loại identity:
+
+  EMERGED IDENTITY (từ nguồn ②):
+    → "Tôi CẢM THẤY tôi là thợ mộc" (vì đã làm mộc nhiều năm, body knows)
+    → Built từ repeated experience + body-confirm
+    → Stable, resilient, authentic
+    → Trẻ không mất identity khi gặp criticism
+    → = Healthy self-concept
+
+  INJECTED IDENTITY (từ nguồn ④):
+    → "Bố mẹ nói tôi là học sinh giỏi" (chấp nhận từ external)
+    → Built từ others' words, not own experience
+    → Fragile, defensive, requires maintenance
+    → Trẻ mất identity khi bị criticism
+    → = Contingent self-worth
+
+  → Bridge ③ "Identity" trong v1.0 có thể là EITHER type
+  → v1.1 clarify: chỉ "identity inject" là bridge (nguồn ④)
+  → "Identity emerged" KHÔNG phải bridge → đó là nguồn ② output
+  → Target của transition: move từ injected → emerged identity
 ```
 
 ---
@@ -844,6 +1352,18 @@
      Sai: threat là bridge chính suốt 18 năm → cortisol mãn tính
      Hậu quả: chunks NẠP + điểm CAO → nhưng melody bệnh + "ghét học" suốt đời
      Fix: threat = bridge PHỤ, curiosity/social = bridge chính
+
+     ⭐ v1.1 REFINEMENT — Phải phân biệt 3 loại threat (Threat.md §5.5):
+     → KHÔNG phải TẤT CẢ threat đều "chính" hay "phụ":
+       Domain threats (xe hỏng, bài khó thật) = KEEP — chất liệu học
+       Peer social threats (bạn trêu nhẹ) = KEEP — L2 navigation
+       Imposed adult threats (bố mẹ dọa đánh) = REDUCE gradually
+     → Tiger parenting mistake = dùng Imposed adult threat làm bridge chính
+     → Fix precision: REDUCE Imposed to minimum, KEEP natural Domain + Peer
+     → = Tiger parenting KHÔNG sai vì "quá nhiều threat"
+       Mà sai vì "wrong origin" + "chronic + high dose"
+     → Framework action: mild reasonable imposed rules OK trong transition,
+       nhưng phase out as ①②③ build (§8 refined)
 
   ④ "ZERO BRIDGE" (laissez-faire):
      Sai: "để tự nhiên, tự phát triển" → không bridge gì
@@ -976,22 +1496,104 @@ EB-7: Cortisol baseline cao — bridge protocol KHÁC thế nào?
 ## 12. Kết Nối {#12}
 
 ```
-→ Personal-Melody.md §5: Two-Axis Tension (chứa Motivation Bridge + Investment Cost — LÝ THUYẾT GỐC)
-→ Personal-Melody.md §6: Imagine-Final = compass (nền tảng §0 — con cần có ước mơ)
-→ Novelty-Loop.md §3.2: Threat = sàn giữ loop + scaling note
+═══════════════════════════════════════════════════════
+TẦNG 3 META — NỀN LÝ THUYẾT CHO FILE NÀY
+═══════════════════════════════════════════════════════
+
+→ Education-Principles.md v1.1 ⭐ NỀN
+   Đặc biệt: §2.9 Anchor-Schema (brain constant 9), NL5 Bridge (4 nguồn fill reframe),
+   NL6 Cortisol (3 ORIGIN taxonomy), §2.6 Imagine-Final (Lifecycle + 3D)
+   = File v1.1 này SYNC với v1.1 Principles
+
+→ Domain-Mapping-Drive.md
+   = File META descriptive + mechanistic cho giáo dục
+   Đặc biệt §7.2: 3 loại threat applied cho education (Domain/Peer/Imposed)
+
+═══════════════════════════════════════════════════════
+IMAGINE-FINAL CỤM (3 CHIỀU — nền cho §0)
+═══════════════════════════════════════════════════════
+
+→ Imagine-Final.md — chiều CLARITY
+   + §1.5 Lifecycle: 5 phases + 3 outcomes (COMPILE/ACHIEVE&FORGET/ABANDON)
+   Kết nối: §0 Nền tảng ước mơ (refined với lifecycle)
+
+→ Imagine-Final-Evaluation.md v1.1 — chiều QUALITY
+   + 2 trục × 4 góc (Sweet Spot / Mismatch / Delusion / Fantasy)
+   + 3D framework (§0 Clarity × Quality × Trust)
+   Kết nối: §0 refinement 2 (Quality navigation)
+
+→ Anchor-Schema.md — chiều TRUST
+   + 4 nguồn fill: ① PFC ② Hippocampus ③ Compiled ④ External Inject
+   Kết nối: §1 reframe bridges, §6 per-age distribution, §8 rút bridge transition
+
+═══════════════════════════════════════════════════════
+THREAT CỤM (2 TAXONOMY)
+═══════════════════════════════════════════════════════
+
+→ Threat.md
+   + §5.5 3 ORIGIN taxonomy (Domain/Peer/Imposed) — NEW v1.1
+   + §5 Threat tốt vs xấu
+   Kết nối: §3 Threat Overdose refined, §4 Goldilocks 2D matrix,
+   §9 Mistake ③ refinement
+
+→ Threat-Drive-Analysis.md
+   + §3 MECHANISM taxonomy (Physical/Social/Anticipation)
+   + §9 Parenting refined với 3 mức TOXIC/REASONABLE/NATURAL
+   + §12 Threat-drive tốt khi nào (investment bridge)
+   + §13 Threat-drive độc hại khi nào (overdose)
+   Kết nối: §3, §9
+
+═══════════════════════════════════════════════════════
+IMAGINATION + PROCESS (nền cho §0)
+═══════════════════════════════════════════════════════
+
+→ Imagination-Analysis-v2.md v2.1
+   + Process vs Product distinction
+   + §11 Override body (Hardware-First Harm)
+   Kết nối: §0 refinement 3 (Trust calibration)
+
+═══════════════════════════════════════════════════════
+CORE + DRIVES (tầng 1)
+═══════════════════════════════════════════════════════
+
+→ Personal-Melody.md §5: Two-Axis Tension (Motivation Bridge + Investment Cost)
+→ Personal-Melody.md §6: Imagine-Final = compass
+→ Novelty.md + Drive.md: dual drive system
+→ Novelty-Loop.md §3.2: Threat = sàn giữ loop
 → Novelty-Loop.md §4: Self-Created Threat Drive (CEO skill = §6.4 self-bridge)
-→ Threat-Drive-Analysis.md §12: Threat-drive tốt khi nào (investment bridge)
-→ Threat-Drive-Analysis.md §13: Threat-drive độc hại khi nào (overdose)
-→ Education-AI-Era-Draft.md §5: Challenge-Product Method (task design)
-→ Education-AI-Era-Draft.md §5.2: Per-age plan (complementary)
-→ Education.md: School = ECP (system-level, file này = individual-level)
-→ Melody-Arc.md: thiết kế arc tối ưu — 7 kỹ thuật, mini-arcs, imagine final
-→ Body-Parenting-Optimization.md: Body-listening preservation per age
-→ Body-Parenting-Optimization.md §4: 6-12 filter training (cùng giai đoạn)
 → Knowledge-Flow.md: Chunk tích lũy → compile → aha moment
-→ Cortisol-Baseline.md: Cortisol = change signal (bridge = cách channel change-readiness)
+→ Cortisol-Baseline.md: Cortisol = change signal
 → Attention-Spectrum.md: DRD4 spectrum (hardware → bridge adjustment)
-→ Modality-Analysis.md: Modality dominant (hardware → bridge adjustment)
+→ Modality-Analysis.md: Modality dominant
+
+═══════════════════════════════════════════════════════
+CHILD DEVELOPMENT (0-6 foundation)
+═══════════════════════════════════════════════════════
+
+→ Mother-Optimization.md: trước sinh
+→ Natural-Development.md: 0-6 natural wiring
+→ Skill-Introduction.md: 0-6 skill introduction timing
+→ Body-Parenting-Optimization.md: body-listening preservation per age
+   Kết nối: §6 Per-Age Bridge Design
+
+═══════════════════════════════════════════════════════
+APPLICATION (tầng 4 — specific implementations)
+═══════════════════════════════════════════════════════
+
+→ Education-AI-Era-Draft.md §5: Challenge-Product Method
+→ Education.md: School = ECP (system-level)
+→ Melody-Arc.md: arc design — 7 kỹ thuật
+→ Hardware-Calibration.md: per-hardware calibration tool
+→ VN-Education-Status.md: 22.8% depression data
+→ VN-Cultural-Factors.md: cultural threat pattern
+
+═══════════════════════════════════════════════════════
+ANCHOR EXAMPLES
+═══════════════════════════════════════════════════════
+
+→ Anchor-Schema-Example.md: 20 healthy cases
+→ Anchor-Schema-Extreme-Example.md: 6 extreme cases + Hardware-First Harm
+   Kết nối: §0 refinement 3 (Trust warning), §3 chronic imposed threat
 ```
 
 ---

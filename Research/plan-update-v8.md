@@ -301,7 +301,7 @@ BỎ / THAY ĐỔI TRONG v8:
 SOMATIC CONFIRM:
   □ Đọc lại Architecture-v7.5-Draft.md — body nói "khớp" chưa?
   □ Test: map 10+ hành vi thực tế vào kiến trúc mới → đều trace được?
-  □ Test: map bản thân (IsPof) vào → đúng ko?
+  □ Test: map bản thân vào → đúng ko?
   □ Test: map 2-3 người quen vào → predict đúng ko?
 
 EDGE CASES:

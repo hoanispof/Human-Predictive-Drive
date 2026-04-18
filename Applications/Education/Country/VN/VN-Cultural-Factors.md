@@ -252,9 +252,9 @@ NEGATIVE: 🟡
     → Balance NL9 nghiêng xã hội
   → 66% HS: áp lực PH = nguồn stress chính
 
-  → FRAMEWORK LENS: Forced Soldier risk CAO khi
+  → FRAMEWORK LENS: Forced-Fit risk CAO khi
     Imagine-Final = gia đình gán, không từ hardware learner
-    → 60% trái ngành = evidence cho Forced Soldier at scale
+    → 60% trái ngành = evidence cho Forced-Fit at scale
 
 
 ĐANG ĐỔI? 🟡
@@ -423,7 +423,7 @@ NEGATIVE: 🟡
     → Guilt bridge (NL5 violate) = "con PHẢI vì bố mẹ"
     → = External motivation, KHÔNG rút dần → dependency
     → + Cortisol source (NL6): 66% HS = PH = stress chính
-    → + Forced Soldier risk: gia đình chọn HƯỚNG, không align hardware
+    → + Forced-Fit risk: gia đình chọn HƯỚNG, không align hardware
 
 
 ĐANG ĐỔI? 🟡
@@ -918,7 +918,7 @@ LEVERAGE 3: "ĐỔI ĐỜI" DRIVE → MỞ RỘNG IMAGINE-FINAL
 
   → Mở rộng: "đổi đời" → "trở thành best version of mình"
   → Giữ ENERGY (drive), đổi DIRECTION (broader)
-  → "Đổi đời" + per-hardware = True Soldier:
+  → "Đổi đời" + per-hardware = True-Fit:
     "đổi đời BẰNG CÁCH phù hợp hardware MÌNH"
   → Không xóa "đổi đời" → REDEFINE "đổi đời"
 
@@ -1021,10 +1021,10 @@ RISK 3 [HIGH]: FORCED SOLDIER AT SCALE — VĂN HÓA DRIVE
     ④ Gia đình → PH chọn hướng thay con
     ⑥ Bằng cấp → chọn BẰNG, không chọn phù hợp
 
-  = 4/8 factors CONTRIBUTE to Forced Soldier
+  = 4/8 factors CONTRIBUTE to Forced-Fit
   = 60% SV trái ngành = EVIDENCE at population scale
 
-  → FRAMEWORK: Forced Soldier = hardware ≠ direction system ép
+  → FRAMEWORK: Forced-Fit = hardware ≠ direction system ép
   → VN: direction = gia đình + xã hội ép → hardware ignored
   → = 12+ năm học + 4-6 năm ĐH → wrong direction → waste
   → Per-individual calibration (NL3) = ANTIDOTE → nhưng 4 factors cản
@@ -1162,7 +1162,7 @@ FILE NÀY KẾT NỐI VỚI:
     → PISA paradox: same culture drives achievement AND mental health crisis
     → Top leverage: teacher trust (①), family redirect (④), "đổi đời" expand (②)
     → Top risk: cortisol chồng chất (5/8 factors), passive learning (4/8),
-      Forced Soldier (4/8)
+      Forced-Fit (4/8)
     → Core challenge: "Giữ DRIVE, giảm DAMAGE" — reframe, không xóa
     → Factor ⑥ (bằng cấp) = ROOT CAUSE deepest → cản nhiều NL nhất,
       giúp 0 NL → cần address nhưng RẤT KHÓ (844 năm gốc rễ)

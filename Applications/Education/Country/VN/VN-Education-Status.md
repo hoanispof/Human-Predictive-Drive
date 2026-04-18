@@ -316,9 +316,9 @@ NL3 — PER-INDIVIDUAL CALIBRATION
     🟢 Ethnic minority students: 2x dropout rate, 5x late enrollment
 
   QUA FRAMEWORK LENS: 🟡
-    → Per-individual calibration = NL QUAN TRỌNG NHẤT cho True Soldier
+    → Per-individual calibration = NL QUAN TRỌNG NHẤT cho True-Fit
     → VN hiện tại = gần như KHÔNG CÓ per-individual calibration
-    → Kết quả: Forced Soldier rate cao — nhiều HS bị ÉP vào hướng
+    → Kết quả: Forced-Fit rate cao — nhiều HS bị ÉP vào hướng
       KHÔNG phù hợp hardware
     → HS kém = bị label "lười" / "kém" thay vì "hardware mismatch"
     → HS giỏi = bị label "ngoan" / "giỏi" thay vì "hardware happen to fit"
@@ -355,7 +355,7 @@ NL4 — IMAGINE-FINAL TRƯỚC CONTENT
     → = MẠNH về drive → nhưng NARROW + EXTERNAL
     → Narrow: chỉ = thi đỗ → bằng → việc → tiền
     → External: đến từ gia đình + xã hội, không từ learner
-    → Khi Imagine-Final = external + narrow → Forced Soldier risk CAO
+    → Khi Imagine-Final = external + narrow → Forced-Fit risk CAO
     → 60% làm việc trái ngành = EVIDENCE cho Imagine-Final sai hướng
 ```
 
@@ -535,8 +535,8 @@ NL9 — BALANCE INDIVIDUAL × SOCIETY
     → Balance = society CẦN + individual MUỐN + individual CÓ KHẢ NĂNG
     → VN: society CẦN >>> individual MUỐN
     → Kết quả:
-      → Forced Soldier rate cao (hardware ≠ direction xã hội ép)
-      → True Soldier rate thấp (ít ai được align hardware + direction)
+      → Forced-Fit rate cao (hardware ≠ direction xã hội ép)
+      → True-Fit rate thấp (ít ai được align hardware + direction)
       → 60% trái ngành + 100K+ SV thất nghiệp = waste at scale
     → NHƯNG: VN cũng CÓ strength ở đây — xem File 2 (Cultural Factors)
       → "Đóng góp cho xã hội" = value sâu → nếu kết hợp per-individual
@@ -798,8 +798,8 @@ WEAKNESS 2 [HIGH]: ONE-SIZE-FITS-ALL — KHÔNG PER-INDIVIDUAL (NL3)
     → Rural: 50% thiếu tech cơ bản, 18% poorest có internet (vs 95% richest)
 
   TẠI SAO HIGH:
-    → Per-individual = điều kiện cho True Soldier (align hardware + direction)
-    → Không có per-individual → Forced Soldier rate cao
+    → Per-individual = điều kiện cho True-Fit (align hardware + direction)
+    → Không có per-individual → Forced-Fit rate cao
     → Lớp 50 HS = GV KHÔNG THỂ observe per-individual dù muốn
     → HS khác hardware → cùng 1 method → số HS "fit" = ít
     → Ai "fit" = "giỏi" / Ai không "fit" = "kém" → labels sai (NL3 miscalibration)

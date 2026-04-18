@@ -22,7 +22,7 @@
 > **Reference:** 00_Overview.md (5 trục), 01_South-Korea.md (5/5 trục ÂM),
 > 06_Israel.md (shared Imagine-Final override), 04_France.md (policy ceiling),
 > Imagine-Final.md §1 (2 tầng, compiled schemas),
-> Chunk-And-PFC.md §3 (vô thức vs PFC)
+> Chunk.md §3 (vô thức vs PFC)
 > **⚠️ Data thực + framework interpretation — PHÂN BIỆT RÕ 🟢/🟡/🔴**
 > **Quy ước:** 🟢 Research/data support | 🟡 Suy luận từ framework | 🔴 Hypothesis
 
@@ -795,7 +795,7 @@
   Framework Core:
     → Imagine-Final.md §1: 2 tầng — one-child compiled ở tầng 1 (vô thức)
        → bỏ policy (tầng 2/PFC) → tầng 1 KHÔNG thay đổi
-    → Chunk-And-PFC.md §3: vô thức CÓ THỂ compiled schemas
+    → Chunk.md §3: vô thức CÓ THỂ compiled schemas
        → one-child = largest demonstration of forced compilation
     → Connection.md §7.5: Connection × Imagine-Final
        → 4-2-1 = connection structure BỊ PHÁ by design

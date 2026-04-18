@@ -1177,7 +1177,7 @@ TỔNG HỢP — LABELS → ROOT CAUSES:
   │ Label              │ Root causes (trace back)                  │
   ├────────────────────┼───────────────────────────────────────────┤
   │ "Lười"             │ No Imagine-Final / wrong bridge /         │
-  │                    │ wrong method / cortisol / Forced Soldier  │
+  │                    │ wrong method / cortisol / Forced-Fit  │
   ├────────────────────┼───────────────────────────────────────────┤
   │ "Kém/Ngu"          │ Wrong timing / wrong channel / missing    │
   │                    │ foundation / cortisol / unidentified LD   │
@@ -1186,7 +1186,7 @@ TỔNG HỢP — LABELS → ROOT CAUSES:
   │                    │ actual ADHD / anxiety-driven              │
   ├────────────────────┼───────────────────────────────────────────┤
   │ "Không động lực"   │ No Imagine-Final / bridge-dependent /    │
-  │                    │ Forced Soldier / burnout                  │
+  │                    │ Forced-Fit / burnout                  │
   └────────────────────┴───────────────────────────────────────────┘
 
   PATTERN: mỗi label = nhiều possible root causes
@@ -1425,7 +1425,7 @@ KẾT NỐI:
     → Core-v7.5-Draft.md — hardware parameters (SOURCE)
     → Cortisol-Baseline.md — cortisol mechanism (DIM 3)
     → Novelty-Loop.md — VTA/DRD4 mechanism (DIM 2)
-    → Chunk-And-PFC.md — PFC, chunk compilation (DIM 4)
+    → Chunk.md — PFC, chunk compilation (DIM 4)
 
   TẦNG 2 — CHILD-DEVELOPMENT:
     → Natural-Development.md — early hardware expression (0-6 observation)

@@ -2,6 +2,7 @@
 
 > **Trạng thái:** DRAFT — ứng dụng framework cho giáo dục con cái
 > **Ngày:** 2026-03-25
+> **Last reframe:** 2026-04-15 (N+4 prep — PFC hardware vs compiled content note added)
 > **Mục đích:** Hướng dẫn bố mẹ PHÁT TRIỂN body reward system cho con,
 > từ "body default" → "body + filter skill" → con TỰ tối ưu khi trưởng thành
 > **Nguyên tắc gốc:** DẠY SKILL (cách lọc), KHÔNG DẠY CONTENT (đúng/sai cụ thể)
@@ -12,6 +13,30 @@
 > Education-AI-Era-Draft.md, Architecture-v7.5-Draft.md,
 > UD-Parenting.md (file cũ — một số insight vẫn giữ)
 > **⚠️ KHÔNG thay thế chuyên gia nhi khoa / tâm lý trẻ em**
+
+---
+
+## ⚠️ 0. REFRAME NOTE 2026-04-15 — "PFC ~X%" nghĩa là gì?
+
+> File này (các section §2-§5 dưới đây) dùng cụm "PFC ~10-20%", "PFC ~30-40%", v.v. cho từng độ tuổi. Sau N+4 prep (Chunk-Analysis session), reframe với evidence từ modern neuroscience (Huttenlocher 1979/1997, Grossmann 2013/2015, Werchan et al. 2016, Kouider et al. 2013, Doria et al. 2010, **Hodel 2018**):
+>
+> **SAI interpret**: "PFC ~10% = PFC hardware offline 90%, chưa hoạt động"
+>
+> **ĐÚNG interpret**: "PFC compiled content + WM capacity + integration efficiency đạt ~10% mức adult. **Hardware online từ prenatal**, synaptic density newborn thực ra **đã ở ngưỡng adult**, peak ~15 tháng **cao gấp đôi adult**. fNIRS xác nhận PFC active response eye contact ở 4mo, rule learning ở 8mo, frontal consciousness signature ở 5mo."
+>
+> Điều thực sự develops qua age:
+> 1. **Compiled chunks (content)** — experience-dependent, H10 P2 bottleneck
+> 2. **Myelination (signal speed)** — tới third decade
+> 3. **Pruning (specificity)** — overproduction → adolescence
+> 4. **Long-range integration efficiency** — improves với chunks + myelin
+>
+> **Why trẻ "không làm được X"**: không phải "PFC offline", mà "chunks chưa compile đủ để làm X". Body signal có, PFC có thể observe, chỉ thiếu chunks content để map pattern → action.
+>
+> Cite chính: **Hodel 2018** "Rapid Infant Prefrontal Cortex Development" (*Dev Review* 48:113-144) — quote: "perception of [PFC] as structurally and functionally underdeveloped in young infants and toddlers" là **unfortunate cost** của old "late-developing" view.
+>
+> Chi tiết reframe + 5 evidence pillars: `PFC-Analysis.md` §4.0.
+>
+> Percentages dưới đây **giữ nguyên** cho developmental guidance purposes, interpret qua lens này.
 
 ---
 

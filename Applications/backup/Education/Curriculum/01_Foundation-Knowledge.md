@@ -907,8 +907,8 @@ TẠI SAO ĐÂY LÀ NỀN TẢNG:
 
   Core.md §3 — Cortisol source:
     Tài chính bất ổn = cortisol source MÃN TÍNH phổ biến nhất ở người trưởng thành
-    → IsPof profile (00_Tổng_quan.md): Schema World "dưới ngưỡng tài chính = nguy hiểm"
-    → KHÔNG CHỈ IsPof — đa số người có schema tương tự (survival drive)
+    → Schema World "dưới ngưỡng tài chính = nguy hiểm" là pattern phổ biến
+      ở đa số người (survival drive)
     → Thiếu financial chunks → prediction tài chính SAI → surprise liên tục
       → cortisol liên tục → ảnh hưởng MỌI domain khác
 

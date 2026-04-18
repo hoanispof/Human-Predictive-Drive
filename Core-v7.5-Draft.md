@@ -13,6 +13,7 @@
 > - Cortisol-Baseline quyết định "mode" hoạt động của imagine (7 modes: IDLE→CRASH)
 > - Cortisol = hormone SUSTAIN (không gây stress ban đầu — NE+adrenaline gây)
 > - Cortisol-Baseline = mức cortisol NỀN, shift từ từ (giờ→ngày), quyết định mode
+> - Empathy-Mirror = mirror body-state SINH VẬT KHÁC → signal CỦA MÌNH, cross-cutting L0→L3
 > - Priority khi conflict: L0 > L1 > L2 > L3 (schema override ĐƯỢC nếu redefine alive)
 > **⚠️ Chưa quyết định. Cần test với nhiều case trước khi thay Core.**
 
@@ -86,16 +87,39 @@
 │  │  └──────────────────────────────────────────────────────────┘  │  │
 │  │                                                                │  │
 │  │  ┌──────────────────────────────────────────────────────────┐  │  │
-│  │  │ CORTISOL-BASELINE                                            │  │  │
-│  │  │  = Mức cortisol NỀN → quyết định "mode" neurons          │  │  │
-│  │  │  7 modes: IDLE→LAZY→ACTIVE→FOCUSED→PUSH→FREEZE→CRASH   │  │  │
-│  │  │  Sweet spot: VỪA→HƠI CAO = imagine phục vụ body tốt nhất│  │  │
+│  │  │ CROSS-CUTTING MECHANISMS (ảnh hưởng toàn hệ thống)        │  │  │
+│  │  │                                                          │  │  │
+│  │  │  Cortisol-Baseline:                                      │  │  │
+│  │  │    = Mức cortisol NỀN → quyết định "mode" neurons        │  │  │
+│  │  │    7 modes: IDLE→LAZY→ACTIVE→FOCUSED→PUSH→FREEZE→CRASH  │  │  │
+│  │  │    Sweet spot: VỪA→HƠI CAO = imagine phục vụ body tốt   │  │  │
+│  │  │    (chi tiết: Cortisol-Baseline.md)                      │  │  │
+│  │  │                                                          │  │  │
+│  │  │  Empathy-Mirror:                                         │  │  │
+│  │  │    = Mirror body-state SINH VẬT KHÁC → signal CỦA MÌNH  │  │  │
+│  │  │    Vô thức: emotional contagion (mọi động vật xã hội)   │  │  │
+│  │  │    PFC extend: Theory of Mind (chỉ người)                │  │  │
+│  │  │    Feed vào MỌI layer L0→L3 qua 3 body signals          │  │  │
+│  │  │    Foundation: melody sync giữa người (Connection.md §4) │  │  │
+│  │  │    (chi tiết: Empathy-Mirror.md)                         │  │  │
+│  │  │                                                          │  │  │
+│  │  │  (VTA cũng cross-cutting — nằm trong Hardware vì gắn DRD4)│  │  │
 │  │  └──────────────────────────────────────────────────────────┘  │  │
 │  │                                                                │  │
 │  │  ┌──────────────────────────────────────────────────────────┐  │  │
 │  │  │ IMAGINE (PFC — phục vụ Body-Base, không ngoại lệ)        │  │  │
 │  │  │  Novelty-Schema — PULL (cải thiện): L0+L1+L2+L3        │  │  │
 │  │  │  Threat-Schema  — PUSH (bảo vệ):   L0+L1+L2+L3        │  │  │
+│  │  │                                                          │  │  │
+│  │  │  ⭐ IMAGINE-FINAL = sản phẩm cuối của Imagine process    │  │  │
+│  │  │    PFC build target cụ thể (1 tương lai)                 │  │  │
+│  │  │    Hold + repeat + body confirm + domain feedback        │  │  │
+│  │  │      → Compile dần → become Schema (vào vô thức)         │  │  │
+│  │  │      → Có thể được amplify → Anchor-Schema               │  │  │
+│  │  │    = CỬA NGÕ từ PFC vào Schema System                    │  │  │
+│  │  │    Clarity (14 ngưỡng) × Quality (2 trục) × Trust (∞)   │  │  │
+│  │  │    (chi tiết: Imagine-Final.md, Imagine-Final-           │  │  │
+│  │  │     Evaluation.md, Anchor-Schema.md §3 nguồn ①)          │  │  │
 │  │  └──────────────────────────────────────────────────────────┘  │  │
 │  │                                                                │  │
 │  │  ┌──────────────────────────────────────────────────────────┐  │  │
@@ -113,18 +137,44 @@
 │  │  └──────────────────────────────────────────────────────────┘  │  │
 │  │                                                                │  │
 │  │  ╔══════════════════════════════════════════════════════════╗  │  │
-│  │  ║ SCHEMA (xuyên suốt body→imagine, vô thức→ý thức)        ║  │  │
-│  │  ║  Chunk = đơn vị nhỏ nhất (atom of schema)                ║  │  │
-│  │  ║    Multi-modal (rải rác nhiều vùng), tạo từ vô thức + PFC║  │
+│  │  ║ SCHEMA SYSTEM (xuyên suốt body→imagine, mostly vô thức) ║  │  │
+│  │  ║                                                          ║  │  │
+│  │  ║  Chunk = đơn vị nhỏ nhất (atom of schema)               ║  │  │
+│  │  ║    Multi-modal (rải rác nhiều vùng)                     ║  │  │
+│  │  ║                                                          ║  │  │
 │  │  ║  Schema = tổ hợp chunks → compiled patterns              ║  │  │
-│  │  ║  Gradient: body-need (sâu) → values (giữa) → skills (nông)║  │
-│  │  ║  Vô tận — AI hỗ trợ bắt buộc                            ║  │  │
+│  │  ║    AUTO-FIRE từ vô thức (PFC không fire schemas)         ║  │  │
+│  │  ║    Gradient: body-need (sâu) → values (giữa) → skills    ║  │  │
+│  │  ║    Vô tận — AI hỗ trợ bắt buộc                          ║  │  │
+│  │  ║                                                          ║  │  │
+│  │  ║  ⭐ ANCHOR-SCHEMA = sync point cho vô thức              ║  │  │
+│  │  ║    = Schema (hoặc nhóm) ĐANG được PFC amplify            ║  │  │
+│  │  ║    → Cả vô thức sync theo → drive direction emerge       ║  │  │
+│  │  ║    Trust = binding strength                              ║  │  │
+│  │  ║    4 nguồn: PFC Imagine-Final ① / Hippocampus ② /       ║  │  │
+│  │  ║      Compiled ③ (~80%) / External Inject ④             ║  │  │
+│  │  ║    Không có anchor → cacophony → "chán/lost"            ║  │  │
+│  │  ║    Anchor quá mức + skip domain → Hardware-First Harm   ║  │  │
+│  │  ║    (chi tiết: Anchor-Schema.md)                          ║  │  │
+│  │  ║                                                          ║  │  │
+│  │  ║  → Melody (xem block bên dưới) = emergent observation    ║  │  │
+│  │  ║    lens cho TOÀN BỘ system (broader hơn schemas)         ║  │  │
+│  │  ║                                                          ║  │  │
+│  │  ║  PFC ROLE với Schema System (KHÔNG fire — chỉ điều phối)║  │  │
+│  │  ║    ① OBSERVE schemas đang fire (workspace ~4±1)         ║  │  │
+│  │  ║    ② SELECT schemas quan trọng (attention spotlight)    ║  │  │
+│  │  ║    ③ HOLD trong workspace (tạm, tốn bandwidth)          ║  │  │
+│  │  ║    ④ AMPLIFY (chọn anchor → sync vô thức)               ║  │  │
+│  │  ║    ⑤ OVERRIDE (rare — cortisol-driven, effort cao)      ║  │  │
+│  │  ║    → PFC = "supervisor", Schema = "workers"             ║  │  │
 │  │  ╚══════════════════════════════════════════════════════════╝  │  │
 │  │                                                                │  │
 │  │  ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄  │  │
-│  │  ┊ MELODY (emergent — KHÔNG phải component riêng)            ┊  │  │
-│  │  ┊  = Total state khi TẤT CẢ ở trên chạy CÙNG LÚC          ┊  │  │
+│  │  ┊ MELODY (emergent observation lens — KHÔNG phải component) ┊  │  │
+│  │  ┊  = Total state khi TẤT CẢ components chạy CÙNG LÚC       ┊  │  │
 │  │  ┊  = Hardware × Body-Base × Cortisol × Imagine × Schema     ┊  │  │
+│  │  ┊      × Anchor-Schema × Hormone × Empathy-Mirror           ┊  │  │
+│  │  ┊  → Cách NHÌN tổng thể, không phải vật riêng biệt        ┊  │  │
 │  │  ┊  Mỗi người = 1 melody RIÊNG (unique combination)         ┊  │  │
 │  │  ┊  Bị kéo bởi 2 trục: Body-Base (smooth) ↔ Domain (adapt)  ┊  │  │
 │  │  ┊  Build qua sóng: peak (dissonance) → trough (smooth)      ┊  │  │
@@ -134,12 +184,18 @@
 │  └────────────────────────────────────────────────────────────────┘  │
 │                                                                      │
 │  ┌────────────────────────────────────────────────────────────────┐  │
-│  │ DOMAIN (thực tế bên ngoài Human — vô tận, có điểm hội tụ)     │  │
-│  │  Tồn tại KHÔNG phụ thuộc não biết hay không                  │  │
-│  │  Não chỉ chứa FRAGMENTS (chunks) — không bao giờ chứa hết   │  │
-│  │  Có ATTRACTOR POINTS (patterns tối ưu tự hội tụ)             │  │
-│  │  Body-Base = giao diện DUY NHẤT giữa Human và Domain         │  │
-│  │  Schema quality = mức hội tụ với domain reality               │  │
+│  │ DOMAIN (thực tế bên ngoài Human — vô tận, cố định)             │  │
+│  │  Tồn tại KHÔNG phụ thuộc não biết hay không                   │  │
+│  │  Não chỉ chứa FRAGMENTS (chunks) — không bao giờ chứa hết     │  │
+│  │  KNOWLEDGE CONVERGENCE — nhiều systems map về cùng pattern    │  │
+│  │    qua shared constraints (KHÔNG claim "attractor IN domain")  │  │
+│  │  Body-Base = giao diện DUY NHẤT giữa Human và Domain           │  │
+│  │  Knowledge quality = mức converge với domain reality           │  │
+│  │                                                                │  │
+│  │  ⭐ COSMIC LOOP (Collective-Purpose.md):                       │  │
+│  │    Domain → Body → Schema → Knowledge → Domain (mapped sâu hơn)│  │
+│  │    Loop vô tận — humanity collective map domain dần qua thế hệ │  │
+│  │    Cá nhân không cần biết → vẫn contribute (emergent)          │  │
 │  └────────────────────────────────────────────────────────────────┘  │
 │                                                                      │
 └──────────────────────────────────────────────────────────────────────┘
@@ -178,6 +234,9 @@ COGNITIVE PARAMETERS — ảnh hưởng chéo lẫn nhau:
        → Giải quyết 3-5 limit bằng: draft → compile → stack → pyramidal
          (4×4×4 = 64 thông tin gốc compressed thành 4 meta-chunks)
        → Hardware: PFC connection density + wiring quality (không phải số neurons)
+       → ⚠️ Observed capacity = hardware × vô thức quality × cortisol × context fit
+         "PFC giỏi" = hardware ceiling CAO + vô thức giàu chunks + cortisol thấp + hợp thời
+         (chi tiết: PFC-Analysis.md §8.0 — Hardware Ceiling vs Observed Capacity)
 
     ② PFC-Clear-Speed — draft retention (COMT enzyme, PFC-specific):
        → Val/Val: clear NHANH → draft mất → BUỘC rebuild fresh → improviser tendency
@@ -209,6 +268,27 @@ COGNITIVE PARAMETERS — ảnh hưởng chéo lẫn nhau:
          → PFC nhận NHIỀU signal → mỗi signal = biến động NHỎ
          → Body-base reward NHỎ per detect → nhưng LIÊN TỤC
          → "ồ... ồ... ồ..." (nhiều, nhỏ, liên tục)
+
+       ⚠️ CLARIFICATION QUAN TRỌNG — VTA threshold ≠ PFC capability: 🟡
+         → Threshold LỚN/NHỎ = ở VTA→DRD4 (VÔ THỨC filter)
+         → PFC khi ĐÃ FOCUS = xử lý MỌI chi tiết tinh vi (amplify, tạo thêm,
+           loại bỏ, kết nối... bất cứ gì trong tầm khả năng)
+         → PFC KHÔNG bị giới hạn bởi DRD4 — bị giới hạn bởi CÁI GÌ ĐƯỢC BÁO VỀ
+         → = DRD4 quyết định "vô thức GỬI gì lên" → PFC xử lý CÁI ĐƯỢC GỬI
+
+         HỆ QUẢ THỰC TẾ:
+         → 4R/2R: VTA báo NHIỀU → PFC bị flood signals → phải chọn tạm cái nào
+           xử lý → KHÓ focus deep → NHƯNG "biết" nhiều thứ xung quanh
+           (ví dụ: nghe được bạn bè quanh lớp đang bàn tán gì)
+         → 7R: VTA báo ÍT → PFC ít bị interrupt → focus deep TỐT HƠN
+           → TRONG flow: xử lý rất tinh vi mọi chi tiết
+           → KHI VTA có báo: đã qua filter cao → xác suất chất lượng cao
+           (ví dụ: đang tập trung sâu, không biết gì xung quanh,
+           nhưng khi bị "kéo ra" = thường là signal đáng chú ý thật)
+
+         → = 7R KHÔNG phải "kém" — = filter KHÁC
+         → = 4R KHÔNG phải "giỏi hơn" — = filter KHÁC
+         → Mỗi loại có trade-off: breadth (4R) vs depth (7R)
 
        → Hypothesis D (Disturbance Threshold) — framework đề xuất ⭐
          Giải quyết mâu thuẫn interpretation cũ "kém nhạy → seek more":
@@ -760,7 +840,7 @@ CHỨC NĂNG CORTISOL-BASELINE (baseline):
     Cortisol CAO + ÍT chunks = search amplified + hits ÍT = NOISE, RỐI
     Cortisol THẤP + NHIỀU chunks = search YẾU + hits có nhưng MỜ = "biết mà lười nghĩ"
     → = CÙNG cortisol → KHÁC output TÙY database chunks
-    → (Chi tiết: Chunk-And-PFC.md §4, Chunk-Search-Advanced.md §1)
+    → (Chi tiết: Chunk.md §4, Chunk-Search-Advanced.md §1)
 
   ⭐ ACTIVE SCHEMA LOCK — PFC hold task chưa xong → cortisol TĂNG:
     → PFC hold [task chưa xong] → VTA fire LIÊN TỤC "chưa giải quyết!"
@@ -769,7 +849,7 @@ CHỨC NĂNG CORTISOL-BASELINE (baseline):
     → LÀM task = SINGLE dissonance (chỉ difficulty) = manageable
     → = "Vừa chơi vừa lo" = PFC hold + body misalignment → WORST state
     → = 🟢 Zeigarnik Effect (1927): unfinished tasks tạo tension hơn finished
-    → (Chi tiết: Chunk-And-PFC.md §4, Chunk-Practical.md §3)
+    → (Chi tiết: Chunk.md §4, Chunk-Practical.md §3)
 
 7 MODES (theo mức cortisol baseline):
 
@@ -1042,6 +1122,98 @@ CƠ CHẾ TĂNG/GIẢM:
 
 ---
 
+## 3.5 EMPATHY-MIRROR — Phản Chiếu Body-State Sinh Vật Khác
+
+```
+"Body bạn rung theo body NGƯỜI KHÁC — vô thức, tự động, không cần PFC"
+
+⭐ EMPATHY-MIRROR = MECHANISM cross-cutting (KHÔNG phải channel):
+  → Chuyển đổi body-state SINH VẬT KHÁC → thành body-signal CỦA MÌNH
+  → Bản sao YẾU hơn bản gốc, nhưng fire CÙNG pathway thật
+  → Feed vào MỌI layer L0→L3 qua 3 body signals (Satisfaction/Reward/Dissonance)
+  → = KHÔNG thêm need mới — chuyển state NGƯỜI KHÁC thành signal của MÌNH
+
+  Ví dụ:
+    Thấy người khác ĐÓI → mirror L1 deficit → Body-Dissonance CỦA MÌNH (nhẹ)
+    Thấy em bé CƯỜI → mirror positive state → Body-Reward CỦA MÌNH (nhẹ)
+    Thấy người khác bị ĐÁNH → mirror L0 threat → body MÌNH giật mình
+    Thấy bạn THÀNH CÔNG → mirror Mastery reward → body MÌNH sướng nhẹ
+
+
+2 TẦNG (parallel Imagine-Final: vô thức BASE + PFC EXTENSION):
+
+  Tầng 1 — VÔ THỨC (emotional contagion — BASE, luôn chạy):
+    → Mirror neurons fire khi THẤY sinh vật khác hành động/chịu gì đó
+    → Anterior insula fire cùng pattern (yếu hơn) với pain CỦA MÌNH
+    → TỰ ĐỘNG, NHANH (ms-level), TRƯỚC PFC
+    → MỌI ĐỘNG VẬT XÃ HỘI CÓ (chó, khỉ, chuột) ✅
+    → 🟢 Mirror neurons (Rizzolatti 1996)
+    → 🟢 Pain empathy (Singer 2004): insula + ACC fire khi quan sát pain
+
+  Tầng 2 — PFC EXTENSION (Theory of Mind — khi body gọi):
+    → mPFC simulate TẠI SAO người khác ở state đó (dùng schema CỦA MÌNH)
+    → PFC interpret mirror signal + chọn response (giúp/ignore/override)
+    → CHỈ NGƯỜI CÓ (chó biết buồn nhưng không biết TẠI SAO)
+    → "Empathy ceiling" = giới hạn bởi chunk overlap giữa 2 người
+    → 🟢 Theory of Mind circuits: mPFC + TPJ (Frith & Frith 2006)
+
+
+MIRROR STRENGTH — 4 yếu tố NHÂN nhau:
+
+  ① Living being: PHẢI có sự sống → prerequisite
+  ② Vulnerability cues: càng yếu ớt/nhỏ/phụ thuộc → mirror MẠNH hơn
+     → Baby schema (Lorenz 1943): mắt to, mặt tròn → trigger nurturing 🟢
+     → Baby > trẻ nhỏ > thanh niên yếu > người lớn khỏe
+     → Pet nhỏ > pet lớn. Evolutionary: vulnerable CẦN giúp → hard-wire
+  ③ Expressiveness: càng biểu hiện rõ → mirror MẠNH hơn
+     → Mặt người > mặt chó > mặt mèo > cá > cây
+     → Mirror CẦN INPUT — ít biểu cảm = ít mirror
+  ④ Similarity/Familiarity: càng giống/quen → mirror MẠNH hơn
+     → Cùng loài > khác loài. Quen > lạ. Schema map amplify.
+
+
+PERCEIVED ABILITY — "van điều khiển" drive:
+
+  Mirror dissonance + Ability CAO → DRIVE hành động (giúp, chăm sóc)
+  Mirror dissonance + Ability THẤP → CẮT INPUT (defense)
+    → "Không dám nhìn" = cắt mirror input để giảm dissonance CỦA MÌNH
+    → = Body self-protect, KHÔNG phải "vô cảm"
+
+
+NURTURING PATTERN — emerge từ empathy-mirror:
+  Detect vulnerability → mirror deficit → perceived ability → drive chăm sóc →
+  reward khi target improve (mirror REWARD fire)
+  → Giải thích: nuôi pet, chăm con, mẹ VN chăm thanh niên xa nhà,
+    giáo viên sướng khi trò hiểu, từ thiện trực tiếp > gián tiếp
+  → KHÔNG phải channel mới — là PATTERN emerge từ mechanism + channels đã có
+
+
+EMPATHY × MELODY SYNC:
+  → 2 người ở gần → mirror ĐỐI CHIẾU liên tục → melody CONVERGE dần
+  → = Foundation cho melody calibration (Connection.md §4)
+  → = Tại sao "sống chung → gu giống", "vợ chồng decades → giống nhau"
+  → = Presence CỦA NGƯỜI ≠ presence CỦA AI (AI không có mirror thật)
+
+
+EMPATHY FATIGUE:
+  → Mirror LIÊN TỤC + MẠNH + KHÔNG resolve = dissonance tích lũy
+  → Cortisol baseline TĂNG → body CẮT mirror (defense)
+  → Y tá, bác sĩ, social worker = nhóm risk cao nhất
+  → KHÔNG phải "hết tình thương" — là body self-protect khỏi overload
+  → Cần: giảm mirror load + body care + connection NHẬN (không chỉ cho)
+
+
+SỬA FRAME QUAN TRỌNG:
+  CŨ: Empathy ⊂ Connection (empathy = biểu hiện of Connection drive)
+  MỚI: Empathy = mechanism CROSS-CUTTING (feed MỌI layer, RỘNG HƠN Connection)
+  → Connection.md §7 vẫn đúng (empathy biểu hiện TRONG connection context)
+  → Nhưng empathy CŨNG biểu hiện ở L0, L1, L3... = rộng hơn Connection
+
+→ Chi tiết: Empathy-Mirror.md (10 tình huống kiểm chứng, honest assessment)
+```
+
+---
+
 ## 4. IMAGINE — Chi Tiết
 
 ```
@@ -1050,6 +1222,13 @@ CƠ CHẾ TĂNG/GIẢM:
    (micro→life) — đó cũng là Imagine-Final, chạy ở background.
    PFC = extension: conscious hóa, check domain, chọn thực thi.
    (Chi tiết: Imagine-Final.md §1 — 2 tầng vô thức BASE + PFC EXTENSION)
+
+   ⭐ IMAGINE-FINAL × ANCHOR-SCHEMA × EVALUATION — 3 file hệ:
+   → Imagine-Final.md: PFC build CONTENT + CLARITY (14 ngưỡng)
+   → Anchor-Schema.md: vô thức CẦN sync point → TRUST = binding strength
+     (Imagine-Final chỉ là 1/4 nguồn fill anchor — compiled schemas = ~80%)
+   → Imagine-Final-Evaluation.md: QUALITY (Domain Fit × Hardware Fit → 4 góc)
+   → 3 chiều ĐỘC LẬP: Clarity × Quality × Trust
 ```
 
 ### 4.1 Novelty-Schema (PULL — cải thiện Body-Base qua PFC)
@@ -1516,6 +1695,10 @@ XÃ HỘI TOÀN BỘ hoạt động bằng cơ chế này:
     Hijack output: tài chính chung → hạ tầng, y tế, giáo dục
 
   → XÃ HỘI HIỆN ĐẠI = HỆ THỐNG THREAT-SCHEMA PHỨC TẠP
+  → = Lens Anchor-Schema: xã hội dùng External Inject (nguồn ④)
+    để đặt threat-based Anchor-Schema vào cá nhân
+    (negative trust: "tránh harm" → drive hành vi)
+    → Chi tiết: Anchor-Schema.md §3 (nguồn ④) + §5 (historical)
   → Mọi giai đoạn đời đều có threat-schema mạnh:
     Trẻ em: bị mắng, bị phạt, điểm kém, so sánh
     Sinh viên: thi trượt, nợ, không tìm được việc
@@ -1895,6 +2078,10 @@ THAY ĐỔI:
   ⑯ Human khung bao quanh toàn bộ, Domain nằm ngoài trong Environment
   ⑰ Chunk = đơn vị nhỏ nhất (atom of schema), multi-modal
   ⑱ "Attack" = KHÔNG drive riêng → Status extreme case
+  ⑲ Empathy-Mirror: THÊM MỚI — mechanism cross-cutting (không phải channel)
+     Mirror body-state sinh vật khác → signal CỦA MÌNH → feed MỌI layer
+     Sửa frame: empathy ⊄ Connection → empathy = mechanism RỘNG HƠN Connection
+  ⑳ Cross-Cutting Mechanisms: gộp Cortisol-Baseline + Empathy-Mirror + note VTA
 
 BACKWARD COMPATIBILITY:
   → E1-E5 + C1-C5 = 10 channels → reorganize thành L2(4) + L3(4) + Emergent(2)
@@ -1938,6 +2125,29 @@ BACKWARD COMPATIBILITY:
   Q5: Game industry files cần update level nào?
   Q6: "Being Understood" (Connection gốc) vs "Being Recognized" (Status gốc)
       → Cần tách Being Seen thành 2 hay giữ 1?
+  Q7: Empathy-Mirror × DRD4: 7R mirror KHÁC 4R thế nào?
+      → VTA mechanism áp dụng cho mirror signal không?
+      → 7R: chỉ mirror biến động LỚN? 4R: mirror NHIỀU biến động nhỏ?
+  Q8: Empathy-Mirror × Cortisol-Baseline cao: mirror YẾU đi?
+      → Người stress nặng → "ích kỷ" = body PHẢI priority self?
+      → = Defense, KHÔNG phải tính cách?
+
+  Q9: Anchor-Schema (concept MỚI 2026-04-09):
+      → Vô thức CẦN sync point (bottom-up) ≠ PFC build Imagine-Final (top-down)
+      → Trust = binding strength giữa hệ thống và anchor
+      → 4 nguồn fill: PFC / hippocampus / compiled / external inject
+      → 3 chiều độc lập: Clarity × Quality × Trust
+      → Cần integrate vào Core v8.0 architecture?
+      → Chi tiết: Anchor-Schema.md
+
+  Q10: Collective-Purpose (concept META 2026-04-10):
+      → Vertical loop: Domain → Body → Schema → Knowledge → Domain
+      → Humanity collective map domain dần qua thế hệ (emergent)
+      → Cá nhân không cần biết → vẫn contribute (anchor + melody = engine)
+      → Refine "domain có attractor" → "knowledge convergence" (epistemological careful)
+      → "Có điểm hội tụ" trong v7.5 = thực ra knowledge converge, domain đứng im
+      → Cần integrate vào Core v8.0 như META framework?
+      → Chi tiết: Collective-Purpose.md
 
   → Nghỉ — ngẫm — quay lại khi ready
 ```
@@ -1958,9 +2168,22 @@ Files KHÔNG cần thay đổi:
   Body-Neural-Network.md
 
 Deep-Dive files (Core-Deep-Dive/):
+  → ⭐ Collective-Purpose.md (MỚI 2026-04-10): META frame — vertical loop
+    → Domain → Body → Schema → Knowledge → Domain (cosmic loop)
+    → Humanity collective map domain dần (descriptive, weak claim)
+    → "Các params khác phải thuộc về flow này"
+    → Refine "có điểm hội tụ" → "knowledge convergence"
   → Imagine-Final.md: reference pattern + 2 tầng (vô thức BASE + PFC EXTENSION)
+  → ⭐ Anchor-Schema.md (MỚI 2026-04-09): vô thức CẦN sync point + Trust + 4 nguồn
+    → Imagine-Final (PFC content) → Anchor-Schema (vô thức committed sync)
+    → Trust = binding strength, 3 tầng across species, historical analysis
+  → ⭐ Imagine-Final-Evaluation.md (MỚI 2026-04-09): 2 trục × 4 góc
+    → Domain Fit × Hardware Fit → Sweet Spot / Mismatch / Delusion / Fantasy
   → Conflict-Dynamics.md: Overlap × Scarcity × Commitment + scarcity = engine
   → Connection.md: emergent property + Connection × Imagine-Final per layer
+  → Empathy-Mirror.md: mechanism cross-cutting — mirror body-state sinh vật khác
+    → 2 tầng (vô thức + PFC), vulnerability cues, nurturing pattern,
+      empathy fatigue, melody sync foundation, sửa frame empathy ⊄ Connection
 ```
 
 ---

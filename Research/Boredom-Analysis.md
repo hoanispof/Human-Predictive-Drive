@@ -12,7 +12,7 @@
 
 ---
 
-## 1. "Chán" Là Gì — Refine Mainstream
+## 1. "Chán" Là Gì — Định Nghĩa
 
 ```
 MAINSTREAM NÓI: "chán = thiếu stimulation / thiếu novelty"
@@ -21,55 +21,96 @@ MAINSTREAM NÓI: "chán = thiếu stimulation / thiếu novelty"
   → 🟢 Berlyne 1960: below optimal arousal → bored
   → = Mainstream ĐÚNG — nhưng CHUNG CHUNG (thiếu stimulation NÀO? ở đâu?)
 
-  "Bãi biển paradox": sóng lặp lại, gió lặp lại → KHÔNG chán (content hàng giờ)
-  → Mainstream CÓ THỂ giải thích: "bãi biển CÓ micro-variation (mỗi sóng hơi khác)"
-  → = "Micro-variation" và "sensory channels được feed" CÓ THỂ là CÙNG 1 THỨ
-     nhìn từ 2 góc khác nhau
-
-  → = Framework KHÔNG phản đối mainstream → REFINE nó:
+  Framework KHÔNG phản đối mainstream → REFINE nó:
     Mainstream: "thiếu stimulation" (chung)
-    Framework: "thiếu stimulation Ở CHANNEL NÀO, LAYER NÀO" (cụ thể)
-    + Framework THÊM: giải thích cases mainstream khó cover (xem dưới)
+    Framework: xác định CHÍNH XÁC 2 chiều tạo ra "chán" (cụ thể)
 
 
-🟡 FRAMEWORK NÓI — tách rõ hơn:
+⭐ CÔNG THỨC MỚI:
 
-  "CHÁN" = body-base có nhu cầu UNMET ở mức QUÁ NHẸ để PFC biết fix gì:
+  "CHÁN" = Body-Dissonance + Imagine-Final CHƯA ĐỦ RÕ tại thời điểm đó
 
-    → CÓ layer nào đó THIẾU (L2 Experience, Connection, Motor,...)
-    → NHƯNG: thiếu ở mức NHẸ → không có "signal cụ thể" lên PFC
-    → PFC nhận: "khó chịu nhẹ... nhưng CÁI GÌ?" → KHÔNG TÌM ĐƯỢC target
-    → = Body: "something off" + PFC: "don't know what" = "CHÁN"
+    CHIỀU 1 — Body-Dissonance: body "CÓ GÌ ĐÓ chưa ổn"
+      → Có thể NHẸ (uể oải, bứt rứt) hoặc NẶNG (ghét việc, muốn đổi)
+      → Có thể MỜ (không biết thiếu gì) hoặc RÕ (biết chán cái gì)
+      → Nguồn dissonance = 5 nhóm khác nhau (§3)
 
-  KHÁC VỚI:
-    → Đói: body signal RÕ "ĂN" → PFC biết target → KHÔNG chán, là đói
-    → Đau: body signal RÕ "SỬA" → PFC biết target → KHÔNG chán, là đau
-    → Buồn: body signal RÕ "MẤT MÁT" → PFC biết source → KHÔNG chán, là buồn
-    → Chán: body signal MỜ "gì đó thiếu..." → PFC KHÔNG biết → = "CHÁN"
+    CHIỀU 2 — Imagine-Final CHƯA ĐỦ RÕ: không có GIẢI PHÁP đủ rõ để body COMMIT
+      → Có thể KHÔNG BIẾT muốn gì (mờ hoàn toàn)
+      → Có thể BIẾT muốn gì nhưng CHƯA ĐỦ rõ/tự tin để hành động
+      → Có thể KHÔNG CÓ gì để muốn (trống)
+      → = Anchor-Schema.md §5.5 lens: "chán" = Anchor-Schema THIẾU hoặc YẾU
+        → Mức 1 (anchor yếu) = "thiếu gì đó" = Loại 2 dưới đây
+        → Mức 2 (anchor thiếu) = "chán/lost" = Loại 1 + Loại 3 dưới đây
+        → Trust thấp = "biết muốn gì nhưng không dám commit"
 
-  → = "CHÁN" = LABEL mà PFC đặt cho "body uncomfortable NHẸ + KHÔNG biết tại sao"
-  → = KHÔNG phải 1 emotion riêng → là TÌNH TRẠNG PFC không identify được need
+    → CẢ HAI chiều CÙNG LÚC = "chán"
+    → THIẾU 1 chiều = KHÔNG phải "chán" mà là thứ KHÁC:
+      Dissonance CÓ + Imagine-Final RÕ = "chờ", "chịu", "quyết tâm" (KHÔNG chán)
+      Dissonance KHÔNG + Imagine-Final mờ = "relax", "ổn" (KHÔNG chán)
 
-  ⚠️ QUA LENS IMAGINE-FINAL (Imagine-Final.md §1):
-    → Vô thức LUÔN CÓ expectation patterns (Imagine-Final vô thức)
-    → "Chán" = vô thức CÓ Imagine-Final nhưng QUÁ MỜ → body: "muốn gì đó..."
-    → PFC nhận signal MỜ → không đủ rõ để act → label: "chán"
-    → = "Chán" = Imagine-Final vô thức DƯỚI ngưỡng PFC nhận biết
+
+  ⭐ TẠI SAO CÔNG THỨC 2 CHIỀU — cover TẤT CẢ dạng "chán":
+
+    Mainstream: "chán = thiếu stimulation" → chỉ giải thích khi KHÔNG BIẾT chán gì
+    → KHÔNG giải thích: "chán việc lắm rồi, BIẾT RÕ, nhưng không đổi được"
+      (PFC BIẾT RÕ chán gì — nhưng VẪN chán vì Imagine-Final chưa đủ rõ để act)
+
+    Công thức 2 chiều cover TẤT CẢ:
+      Loại 1 — MƠ HỒ: dissonance nhẹ + Imagine-Final mờ hoàn toàn
+        "Ngồi nhà, chán quá, không biết làm gì"
+      Loại 2 — RÕ RÀNG: dissonance rõ + Imagine-Final CÓ nhưng chưa đủ rõ/dám
+        "Chán việc, muốn đổi, nhưng lương nuôi gia đình, rủi ro cao"
+      Loại 3 — TRỐNG: dissonance từ trống + Imagine-Final gần zero
+        "Nghỉ hưu, không biết sống để làm gì"
+
+    Giống "đau": mọi người verbalize "chán" rất chính xác vì TRẠNG THÁI rõ ràng
+    — nhưng "chán" KHÔNG nói nguyên nhân, giống "đau" không nói đau ĐÂU.
+    Công thức này = CHẨN ĐOÁN: dissonance NÀO (chiều 1) + Imagine-Final clarity NÀO (chiều 2)
+
+
+  ⭐ BẰNG CHỨNG — khi Imagine-Final CHUYỂN từ mờ → rõ → "chán" BIẾN MẤT:
+
+    CÙNG dissonance + KHÁC Imagine-Final clarity = KHÁC trạng thái:
+
+    Ghét việc + chưa biết đi đâu (Imagine-Final mờ) = "chán việc"
+    Ghét việc + ĐÃ nhận offer mới (Imagine-Final rõ) = "đếm ngày" (KHÔNG chán)
+
+    Ngồi nhà + không biết làm gì (Imagine-Final mờ) = "chán"
+    Ngồi nhà + biết 3h sẽ đi gặp bạn (Imagine-Final rõ) = "chờ" (KHÔNG chán)
+
+    Rửa bát + không biết bao giờ xong đời rửa bát (mờ) = "chán"
+    Rửa bát + biết rửa xong sẽ được chơi game (rõ) = "chịu" (ít chán hơn nhiều)
+
+    Công nhân + muốn đổi nhưng chưa biết cụ thể (mờ) = "chán việc"
+    Công nhân + ĐÃ đăng ký khóa học cụ thể + biết 6 tháng sẽ đổi (rõ) = "đầu tư"
+
+    → = Dissonance KHÔNG ĐỔI. Imagine-Final clarity ĐỔI. "Chán" BIẾN MẤT.
+    → = CHỨNG MINH: chiều 2 (Imagine-Final) là yếu tố QUYẾT ĐỊNH
+
+
+  TẠI SAO CẢ 3 LOẠI đều verbalize = "chán":
+
+    Hầu hết ngôn ngữ có 1-2 từ chính cho "chán" (bored, ennui, 退屈,...):
+      → Một số ngôn ngữ có từ PHỤ phân biệt nhẹ:
+        Nhật: 退屈 taikutsu (chán chung) vs 飽きる akiru (chán vì đã đủ cái cụ thể)
+        Đức: Langeweile (thời gian dài) vs Überdruss (chán vì quá nhiều)
+        Pháp: ennui (bao gồm existential) vs lassitude (mệt mỏi chán)
+      → NHƯNG: không ngôn ngữ nào tách rõ 3 loại "mơ hồ / rõ mà bế tắc / trống"
+    → Loại 1: "chán" = body khó chịu nhẹ + không biết gì
+    → Loại 2: "chán" = body khó chịu RÕ + bế tắc (thật ra gần = FRUSTRATED + TRAPPED)
+    → Loại 3: "chán" = body trống + không có hướng (thật ra gần = LOST + AIMLESS)
+    → 3 trạng thái KHÁC → gần như cùng 1 từ → fix SAI vì tưởng cùng 1 thứ
+
 
   ⚠️ VTA / DOPAMINE KHÔNG LIÊN QUAN TỚI "CHÁN":
     → VTA fire = "CÓ GÌ ĐÓ ĐÁNG CHÚ Ý" (salience signal)
     → VTA KHÔNG fire = "không có gì đáng chú ý" → BÌNH THƯỜNG
-    → "Chán" = body-base UNMET → hoàn toàn KHÁC kênh với VTA
-    → Có thể VTA fire (scrolling phone, có novelty) MÀ VẪN chán (② ③ đói)
+    → "Chán" = body-dissonance + Imagine-Final mờ → hoàn toàn KHÁC kênh với VTA
+    → Có thể VTA fire (scrolling phone, có novelty) MÀ VẪN chán (dissonance chưa resolve)
     → Có thể VTA KHÔNG fire (nằm bãi biển) MÀ KHÔNG chán (tất cả layers MET)
     → = VTA = attention signal, KHÔNG phải satisfaction signal
-    → = "Chán" nằm ở BODY-BASE, không nằm ở VTA/dopamine
-
-  ⭐ GỌN NHẤT: "Chán" = L2 đang BỊ ĐÓI (khi L1 đã ổn, L0 không threat):
-    → Body-base priority: L0 > L1 > L2 > L3
-    → L0 ok, L1 ok → body BẮT ĐẦU "nghe" L2
-    → L2 channels nào đó THIẾU input → cortisol nhẹ → LAZY mode → "chán"
-    → (Existential boredom = khác: L3 + direction, xem §6)
+    → = "Chán" nằm ở BODY-BASE × IMAGINE-FINAL, không nằm ở VTA/dopamine
 ```
 
 ---
@@ -133,11 +174,12 @@ MAINSTREAM NÓI: "chán = thiếu stimulation / thiếu novelty"
 
 ---
 
-## 3. Root Causes Thật Sự — 5 Nhóm
+## 3. Chiều 1 — 5 Nguồn Dissonance
 
 ```
-🟡 "CHÁN" = 1 từ cho NHIỀU trạng thái KHÁC NHAU.
-   Phân loại theo BODY-BASE LAYER nào bị UNMET:
+🟡 "CHÁN" = dissonance + Imagine-Final chưa rõ (§1).
+   Chiều 1 = DISSONANCE: body-base layer NÀO đang bị UNMET?
+   5 nguồn dissonance khác nhau → mỗi nguồn cần fix KHÁC:
 
 
   ① L2 EXPERIENCE — sensory channels BỊ ĐÓI (PHỔ BIẾN NHẤT):
@@ -224,29 +266,59 @@ MAINSTREAM NÓI: "chán = thiếu stimulation / thiếu novelty"
       → = Existential boredom — KHÁC HOÀN TOÀN "chán ngồi nhà" (§6)
 
 
-  ⭐ IMAGINE-FINAL = MODIFIER cho TẤT CẢ root causes:
+  ⭐ CHIỀU 2 — IMAGINE-FINAL CLARITY (quyết định "chán" hay không):
 
-    CÙNG L2 đói → KHÁC "chán" hay không → TÙY CÓ Imagine-Final:
+    §1 đã nói: "Chán" = dissonance + Imagine-Final CHƯA ĐỦ RÕ.
+    5 nguồn trên = CHIỀU 1 (dissonance). Đây = CHIỀU 2 (Imagine-Final).
 
-      KHÔNG CÓ Imagine-Final: discomfort = "CHÁN" (aimless — PFC không biết fix gì)
-      CÓ Imagine-Final rõ:   CÙNG discomfort = "INVESTMENT" (purposeful — PFC: "chịu vì mục đích")
+    CÙNG dissonance → KHÁC "chán" hay không → TÙY Imagine-Final clarity:
 
-    VÍ DỤ:
+      Imagine-Final MỜ: discomfort = "CHÁN" (PFC không có target → bế tắc)
+      Imagine-Final RÕ: CÙNG discomfort = "CHỊU" / "ĐẦU TƯ" (PFC có target → chấp nhận)
+
+    VÍ DỤ — CÙNG dissonance, KHÁC Imagine-Final, KHÁC trạng thái:
+
       Cùng ngồi phòng nhỏ 8 tiếng:
-        Không Imagine-Final: "ngồi đây làm gì?" → ① sensory đói → "chán"
-        Có Imagine-Final:    "đang build cái TÔI MUỐN" → ① VẪN đói → nhưng "KHÓ, không chán"
+        Imagine-Final mờ: "ngồi đây làm gì?" → ① sensory đói → "chán"
+        Imagine-Final rõ: "đang build cái TÔI MUỐN" → ① VẪN đói → "KHÓ, không chán"
 
       Cùng công việc lặp lại tháng thứ 6:
-        Không Imagine-Final: ① habituated + ④ mismatch → "chán KHÔNG CHỊU NỔI"
-        Có Imagine-Final:    "tích lũy kinh nghiệm cho mục tiêu X" → CÙNG công việc → "chịu ĐƯỢC"
+        Imagine-Final mờ: ① habituated + ④ mismatch → "chán KHÔNG CHỊU NỔI"
+        Imagine-Final rõ: "tích lũy cho mục tiêu X" → CÙNG việc → "chịu ĐƯỢC"
 
-    → = Imagine-Final KHÔNG xóa discomfort (L2 VẪN đói)
-    → = Imagine-Final THAY ĐỔI cách PFC XỬ LÝ discomfort:
-        Không Imagine-Final: "body khó chịu + PFC không biết tại sao" = CHÁN
-        Có Imagine-Final:    "body khó chịu + PFC BIẾT tại sao + preview reward ĐÍch" = INVESTMENT
-    → = Imagine-Final biến "chán" (vô hướng) thành "investment cost" (có hướng)
+      Cùng rửa bát:
+        Imagine-Final mờ: "phải rửa mãi..." → ④ mismatch → "chán"
+        Imagine-Final rõ: "rửa xong được chơi game" → ④ VẪN CÓ → "chịu, nhanh thôi"
+
+      Cùng ghét công việc:
+        Imagine-Final mờ: "muốn đổi, nhưng đổi gì? rủi ro?" → "chán lắm rồi"
+        Imagine-Final rõ: "đã nhận offer mới, 2 tuần nữa nghỉ" → "đếm ngày" (KHÔNG chán)
+
+    → = Imagine-Final KHÔNG xóa dissonance (body VẪN khó chịu)
+    → = Imagine-Final THAY ĐỔI cách PFC XỬ LÝ dissonance:
+        Mờ: "body khó chịu + PFC KHÔNG GIẢI QUYẾT ĐƯỢC" = CHÁN
+        Rõ: "body khó chịu + PFC BIẾT sẽ giải quyết BẰNG CÁCH NÀO + KHI NÀO" = CHỊU
+    → = Imagine-Final biến "chán" (bế tắc) thành "investment cost" (có hướng)
     → (ref: Personal-Melody §5: Investment Cost, §6: Imagine-Final = compass)
     → (ref: Imagine-Final.md: 14 ngưỡng — Imagine-Final càng RÕ → chịu được lâu hơn)
+
+    3 DẠNG "Imagine-Final chưa đủ rõ":
+
+      LOẠI 1 — MỜ: "muốn gì đó... nhưng CÁI GÌ?"
+        → PFC scan → không tìm được target
+        → VD: ngồi nhà, chuyển kênh TV mãi → không cái nào fix
+        → = Phổ biến nhất hàng ngày
+
+      LOẠI 2 — CÓ HƯỚNG NHƯNG CHƯA ĐỦ RÕ/DÁM: "biết muốn gì, nhưng..."
+        → PFC có target → NHƯNG target chưa đủ chi tiết/tự tin để body commit
+        → VD: công nhân muốn đổi nghề → "nghề gì? lương? rủi ro?" → chưa rõ
+        → VD: học sinh muốn ra chơi → target rõ NHƯNG bị lock (bố mẹ bắt học)
+        → = Imagine-Final BỊ BLOCK bởi threat hoặc uncertainty
+
+      LOẠI 3 — TRỐNG: "không biết muốn gì luôn"
+        → PFC scan → KHÔNG CÓ gì trong menu → trống
+        → VD: nghỉ hưu, mất mục đích, "sống để làm gì"
+        → = Existential boredom (§6) — NẶNG nhất, KHÔNG fix bằng feed channels
 ```
 
 ---
@@ -254,8 +326,12 @@ MAINSTREAM NÓI: "chán = thiếu stimulation / thiếu novelty"
 ## 4. Tình Huống Thực Tế — Phân Tích
 
 ```
-MỖI TÌNH HUỐNG: người ta nói "chán" → root cause THẬT là gì:
+MỖI TÌNH HUỐNG: người ta nói "chán" → phân tích 2 CHIỀU:
+  Chiều 1: Dissonance từ ĐÂU? (5 nguồn §3)
+  Chiều 2: Imagine-Final RÕ hay MỜ? (3 loại §3)
 
+
+  ──── LOẠI 1: CHÁN MƠ HỒ (dissonance nhẹ + Imagine-Final mờ) ────
 
   "Ngồi nhà cả ngày, chán quá":
     Root: ① sensory nghèo + ② motor ứ + có thể ③ connection thiếu
@@ -303,12 +379,6 @@ MỖI TÌNH HUỐNG: người ta nói "chán" → root cause THẬT là gì:
     → = High sensory + motor need + low self-direction = boredom CỰC NHANH
     Fix: cho ra ngoài chơi (① ② met), cho activity có hướng dẫn nhẹ (PFC hỗ trợ)
 
-  "Nghỉ hưu, chán":
-    Root: ⑤ direction mất + ③ connection mất (đồng nghiệp) + ② routine mất (motor schedule)
-    + có thể: status mất (L3 Status: mất vai trò)
-    → = NHIỀU layers unmet CÙNG LÚC → "chán" nặng
-    Fix: tìm hoạt động có meaning (⑤), tìm cộng đồng mới (③), duy trì routine (②)
-
   "Ngồi học bài mà chán, dù bài MỚI":
     Root: ④ mismatch (content không match hardware/interest) + ② motor (forced ngồi)
     + ① auditory monotone (giảng viên đều đều)
@@ -316,8 +386,64 @@ MỖI TÌNH HUỐNG: người ta nói "chán" → root cause THẬT là gì:
     → = Case mainstream KHÓ giải thích ("đã có cái mới, sao vẫn chán?")
     → = Framework: mới nhưng KHÔNG MATCH → channels KHÔNG được feed đúng
 
+
+  ──── LOẠI 2: CHÁN RÕ RÀNG (dissonance rõ + Imagine-Final có nhưng chưa đủ rõ/dám) ────
+
+  "Chán công ty này lắm rồi, nhưng lương nuôi gia đình":
+    Dissonance: ④ mismatch mãn tính (hardware/interest ≠ job) — RẤT RÕ
+    Imagine-Final: CÓ ("muốn đổi nghề") — NHƯNG:
+      → Đổi sang nghề GÌ cụ thể? → chưa rõ
+      → Lương mới bao nhiêu? → chưa biết
+      → Rủi ro gia đình? → threat L1
+      → = Imagine-Final CÓ HƯỚNG nhưng CHƯA ĐỦ chi tiết/tự tin để body COMMIT
+    → = "Chán" VÌ: biết muốn gì + KHÔNG LÀM ĐƯỢC → bế tắc
+    → Nếu nhận offer cụ thể + lương ok → Imagine-Final RÕ → "chán" → "đếm ngày"
+
+  "Chán ngồi soạn văn bản lắm rồi":
+    Dissonance: ④ mismatch (task ≠ interest) — RÕ RÀNG
+    Imagine-Final: có thể mờ ("muốn làm gì khác?") hoặc bị lock ("job description bắt")
+    → Khác loại 1: BIẾT CHÍNH XÁC chán cái gì
+    → Giống loại 1: VẪN chán vì Imagine-Final chưa rõ "thay bằng gì"
+
+  "Chán ngồi học lắm rồi, nhưng bố mẹ bắt":
+    Dissonance: ④ mismatch + ② motor (forced ngồi)
+    Imagine-Final: CÓ rất rõ ("muốn ra chơi!") — NHƯNG bị LOCK bởi threat
+      → Threat: bố mẹ mắng, bị phạt → L2 Connection threat
+      → = Imagine-Final bị BLOCK — không phải mờ, mà bị CẤM
+    → = "Chán" đặc biệt KHÓ CHỊU: biết muốn gì + thấy giải pháp + KHÔNG ĐƯỢC làm
+    → Nếu bố mẹ cho nghỉ 30 phút → Imagine-Final UNLOCK → "chán" biến thành "chờ"
+
+  "Công nhân có sở thích sáng tạo, chán việc nhưng vẫn làm vì gia đình":
+    Dissonance: ④ mismatch SÂU (hardware CẦN novelty, job = lặp lại)
+    Imagine-Final: CÓ ("muốn làm việc sáng tạo") — NHƯNG:
+      → Cụ thể làm GÌ? → chưa rõ
+      → Đổi = mất thu nhập → L1 threat cho gia đình
+      → Thấy người khác đổi thành công → mirror reward + Imagine-Final mạnh hơn
+      → Nhưng: VẪN chưa đủ rõ/dám → vẫn "chán"
+    → = NẶNG nhất trong loại 2: mismatch MÃN TÍNH + threat LOCK + có hướng nhưng chưa đủ rõ
+    → Connection.md §7.5: "External Lock" — việc bị khóa vào L1
+
+  "Rửa bát / dọn nhà — chán nhưng phải làm":
+    Dissonance: ④ mismatch NHẸ + NGẮN
+    Imagine-Final: RÕ (biết khi nào xong + biết sau đó được gì)
+    → = ÍT chán hơn các case trên → vì Imagine-Final CÓ endpoint rõ
+    → = "Chịu" nhiều hơn "chán" — nếu có reward SAU (chơi game, nghỉ)
+    → = Task NGẮN + endpoint RÕ = Imagine-Final đủ → tolerable
+
+
+  ──── LOẠI 3: CHÁN TRỐNG (dissonance từ trống + Imagine-Final gần zero) ────
+
+  "Nghỉ hưu, chán":
+    Dissonance: ⑤ direction mất + ③ connection mất (đồng nghiệp) + ② routine mất
+    + có thể: status mất (L3 Status: mất vai trò)
+    Imagine-Final: GẦN ZERO — không biết sống tiếp ĐỂ LÀM GÌ
+    → = NHIỀU layers unmet CÙNG LÚC + KHÔNG CÓ hướng
+    → ≠ fix bằng feed channels (feed xong VẪN trống)
+    Fix: tìm hoạt động có meaning (⑤ = rebuild Imagine-Final),
+         tìm cộng đồng mới (③), duy trì routine (②)
+
   "Cuộc sống chán, không biết sống để làm gì":
-    Root: ⑤ direction thiếu SÂU (Imagine-Final mờ/không có) → xem §6
+    Dissonance: ⑤ direction thiếu SÂU (Imagine-Final mờ/không có) → xem §6
     → = Dạng NẶNG NHẤT — không phải fix bằng "đi chơi" hay "thay đổi routine"
 ```
 
@@ -422,18 +548,34 @@ MỖI TÌNH HUỐNG: người ta nói "chán" → root cause THẬT là gì:
 ## 7. Cách Hết Chán — Theo Đúng Root Cause
 
 ```
-🟡 FIX SAI root cause = KHÔNG hết chán (hoặc hết TẠM rồi LẠI chán):
+🟡 "Chán" = dissonance + Imagine-Final chưa rõ → FIX = 1 trong 2 chiều (hoặc cả 2):
 
-  CHẨN ĐOÁN TRƯỚC — hỏi body:
+  ⭐ 2 HƯỚNG FIX — tương ứng 2 CHIỀU:
 
-    "Body đang thiếu GÌ?" → thử từng channel:
+    HƯỚNG A — Giảm Dissonance (chiều 1): feed channel đang đói
+    HƯỚNG B — Làm rõ Imagine-Final (chiều 2): tìm/làm rõ giải pháp → "chán" → "chịu"/"quyết tâm"
+
+    Loại 1 (mơ hồ): Hướng A hiệu quả nhất (feed → hết chán)
+    Loại 2 (rõ ràng): Hướng B hiệu quả nhất (làm rõ Imagine-Final → unlock hành động)
+    Loại 3 (trống): Hướng B NHƯNG khó (phải TÌM Imagine-Final từ đầu)
+
+
+  CHẨN ĐOÁN — 2 câu hỏi:
+
+    Câu 1: "Body đang thiếu GÌ?" (Chiều 1 — nguồn dissonance):
       → Muốn ĐỘNG? → ② motor → đi bộ, tập, dọn nhà
       → Muốn THẤY/NGHE gì khác? → ① sensory → ra ngoài, đổi environment
       → Muốn GẶP AI? → ③ connection → gọi bạn, gặp người
-      → Muốn LÀM gì nhưng KHÔNG BIẾT gì? → ⑤ direction → suy nghĩ sâu hơn
       → Đang PHẢI làm cái KHÔNG MUỐN? → ④ mismatch → negotiate hoặc đổi
+      → Không biết thiếu gì nhưng TRỐNG? → ⑤ direction → xem câu 2
 
-    NẾU thử ① ② ③ mà VẪN CHÁN → có thể ⑤ (existential) → cần approach khác
+    Câu 2: "Mình có biết MUỐN GÌ không?" (Chiều 2 — Imagine-Final clarity):
+      → KHÔNG biết muốn gì → Loại 1: fix bằng Hướng A (feed channels)
+      → BIẾT nhưng chưa dám/đủ rõ → Loại 2: fix bằng Hướng B (làm rõ Imagine-Final)
+      → Không có gì để muốn → Loại 3: cần TÌM compass (§6)
+
+    NẾU thử Hướng A (feed ① ② ③) mà VẪN CHÁN → chuyển sang Hướng B
+    NẾU cả A + B đều không work → có thể ⑤ existential (§6) hoặc cần chuyên gia
 
 
   FIX THEO ROOT CAUSE:
@@ -503,8 +645,12 @@ MỖI TÌNH HUỐNG: người ta nói "chán" → root cause THẬT là gì:
     → Aron 2000: novel activities boost satisfaction
 
   FRAMEWORK REFINE (🟡 — không phản đối mainstream, THÊM chi tiết):
-    → "Chán = body-base unmet NHẸ + PFC không identify":
-       consistent với Eastwood "unfulfilled desire", TÁCH RÕ HƠN mechanism
+    → "Chán = Dissonance + Imagine-Final chưa đủ rõ" (công thức 2 chiều):
+       consistent với Eastwood "unfulfilled desire" (= dissonance),
+       THÊM chiều 2 (Imagine-Final clarity) giải thích TẠI SAO cùng dissonance
+       mà lúc "chán" lúc "chịu" — mainstream chưa cover chiều này
+    → Cũ: "chán = unmet NHẸ + PFC không biết" — CHỈ cover loại 1 (mơ hồ)
+       Mới: cover CẢ 3 loại (mơ hồ + rõ ràng + trống) → mạnh hơn
     → "Contentment (IDLE) ≠ boredom (LAZY)": logical từ cortisol modes
     → "Sensory channel đói" và "thiếu novelty" CÓ THỂ cùng 1 thứ:
        → "Novelty" (mainstream) ≈ "sensory variation đủ" (framework)
@@ -520,22 +666,29 @@ MỖI TÌNH HUỐNG: người ta nói "chán" → root cause THẬT là gì:
        clinical distinction in psychology (understimulation vs overwork vs mood disorder)
 
   CONTRIBUTION THẬT CỦA FRAMEWORK (so với mainstream):
-    → ① Tách 5 root causes cụ thể → fix KHÁC nhau (mainstream gộp)
-    → ② Giải thích "có novelty MÀ VẪN chán" (mismatch — mainstream khó explain)
-    → ③ Giải thích "fix giả không work" (feed 1 channel — mainstream chưa frame)
-    → ④ Phân biệt everyday vs existential (L2 vs L3 — cụ thể hơn mainstream)
-    → ⑤ Giải thích relationship boredom = suppress, không phải "quá quen"
+    → ① Công thức 2 chiều: Dissonance × Imagine-Final clarity → gọn, bao trùm
+    → ② Tách 3 loại "chán" (mơ hồ / rõ ràng / trống) → fix KHÁC nhau
+    → ③ Tách 5 nguồn dissonance cụ thể → xác định channel nào đói
+    → ④ Giải thích "biết chán gì MÀ VẪN chán" (Imagine-Final chưa đủ rõ)
+    → ⑤ Giải thích "có novelty MÀ VẪN chán" (mismatch — mainstream khó explain)
+    → ⑥ Giải thích "fix giả không work" (feed 1 channel — mainstream chưa frame)
+    → ⑦ Phân biệt everyday vs existential (L2 vs L3+direction)
+    → ⑧ Giải thích relationship boredom = suppress, không phải "quá quen"
+    → ⑨ 2 hướng fix rõ ràng: giảm dissonance (A) vs làm rõ Imagine-Final (B)
 
   HYPOTHESIS (🔴):
+    → "Chán = dissonance + Imagine-Final chưa rõ": 2-dimension model,
+       logical + consistent với tất cả cases, chưa có formal test trực tiếp
     → "Smooth THẬT = KHÔNG BAO GIỜ chán": strong claim, cần test
     → "'Feed đủ channel' = khác 'novelty' hay chỉ khác góc nhìn?": open question
-    → "L2 là root cause CHÍNH cho everyday boredom": cần verify vs L3
 
   CÂU HỎI MỞ:
-    → Có thể ĐO "sensory channel đói" trực tiếp không?
+    → Có thể ĐO "Imagine-Final clarity" trực tiếp không?
+       (subjective rating? hoặc proxy: decision confidence?)
     → Boredom proneness (trait) map vào hardware thế nào? (DRD4? COMT?)
-    → Threshold "bao lâu smooth → chán" KHÁC per-person? (hardware dependent?)
+    → Loại 2 "chán rõ ràng" có cortisol profile KHÁC loại 1 "chán mơ hồ" không?
     → ADHD boredom = L2 sensory threshold CAO hơn? hay VTA threshold khác?
+    → "Threat lock" (loại 2) = cùng cơ chế Connection.md §7.5 "External Lock"?
 ```
 
 ---
@@ -554,7 +707,7 @@ MỖI TÌNH HUỐNG: người ta nói "chán" → root cause THẬT là gì:
 → Schema-Operations.md §2: gradient chú ý (VTA habituate → channels nghèo)
 → Imagine-Final.md: Imagine-Final càng rõ → chịu discomfort lâu hơn (modifier cho "chán")
 → Cortisol-Baseline.md §8: 7 modes — burnout = FREEZE (khác "chán" = LAZY)
-→ Chunk-And-PFC.md §3: vô thức KHÔNG tự detect domain mismatch → PFC label sai → gọi "chán" thay vì đúng tên
+→ Chunk.md §3: vô thức KHÔNG tự detect domain mismatch → PFC label sai → gọi "chán" thay vì đúng tên
 → Personal-Melody.md §8: Melody Equilibrium — existential boredom = chưa tìm equilibrium
 ```
 

@@ -251,7 +251,7 @@ TIỀN ĐỀ:
   Core framework (brain mechanisms)
   Child-Development bộ 3 (foundation 0-6)
   Education-Bridge.md (motivation mechanism)
-  Backup 00_Overview.md (reference — concepts: True/Forced Soldier,
+  Backup 00_Overview.md (reference — concepts: True/Forced-Fit,
     ECP, student profiles, teacher/parent system)
 
 CONFIDENCE: chủ yếu 🟡 (derived design) + 🔴 (era-specific predictions)
@@ -306,7 +306,7 @@ OUTLINE:
   - Bridge strategy: Imagine-Final should be EMERGING
     → Bridges GIẢM DẦN → intrinsic drive TĂNG (NL5)
     → If no Imagine-Final by ~16 → dedicated support (not panic)
-  - True Soldier vs Forced Soldier distinction
+  - True-Fit vs Forced-Fit distinction
     → True: alignment between hardware + Imagine-Final + society need
     → Forced: hardware says X, system forces Y → burnout, quarter-life crisis
   - Assessment: portfolio, project, demonstration → depth (NL8)
@@ -656,7 +656,7 @@ FILE B: [Country]-Cultural-Factors.md
     §1 — Giá trị văn hóa liên quan đến education
          VD cho VN:
          → "Học để đổi đời" — Imagine-Final phổ biến (mạnh nhưng có thể narrow)
-         → Filial piety — bridge type: social/identity (mạnh nhưng risk Forced Soldier)
+         → Filial piety — bridge type: social/identity (mạnh nhưng risk Forced-Fit)
          → "Thi đua" culture — competitive → cortisol risk (NL6)
          → "Thầy nói trò nghe" — authority-based → risk bỏ meta-learning (NL7)
          → Gia đình mở rộng — support network (strength)
@@ -753,7 +753,7 @@ FILE C: [Country]-Recommendations.md
 ```
 CÁI GIỮ LẠI (concepts từ v5.5 vẫn valid):
   ✓ "Education = chunk config optimization at population scale"
-  ✓ True Soldier vs Forced Soldier distinction
+  ✓ True-Fit vs Forced-Fit distinction
   ✓ Student identification loop (→ Hardware-Calibration.md)
   ✓ Teacher system + Parent system (→ Education-System.md §7-§8)
   ✓ Diagnosis lens (→ Education-Principles.md §6 đã cover)

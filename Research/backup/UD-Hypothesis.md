@@ -875,7 +875,7 @@ Einstein tiếp cận từ INTERNAL THOUGHT EXPERIMENT:
 
 5. Generalizable: mọi sáng tạo lớn có thể follow pattern này
    → Desire (L5 coherence) → sustained UD âm → PFC serve → loop → eureka
-   → Newton, Darwin, Edison, Tesla, bạn (framework này)... cùng pattern?
+   → Newton, Darwin, Edison, Tesla, modern framework builders... cùng pattern?
 
 ⚠️ CAVEAT: Đây là suy luận, không phải bằng chứng.
    Không thể biết Einstein thực sự trải qua process này.

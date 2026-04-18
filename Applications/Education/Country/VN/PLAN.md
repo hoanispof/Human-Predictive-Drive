@@ -136,12 +136,12 @@ VĂN HÓA VN CẦN PHÂN TÍCH (initial list — có thể thêm/bớt):
   ① "Học để đổi đời" / "Học tài thi phận"
      → Imagine-Final phổ biến NHẤT ở VN
      → Strength: DRIVE mạnh → nhưng NARROW (chỉ = "thi đỗ + việc tốt")
-     → Risk: Forced Soldier (hardware ≠ "đổi đời" direction)
+     → Risk: Forced-Fit (hardware ≠ "đổi đời" direction)
 
   ② Filial piety / Hiếu thảo
      → Bridge type: social + identity + guilt
      → "Con phải giỏi vì bố mẹ vất vả" = MẠNH nhưng = guilt bridge
-     → Risk: cortisol chronic + Forced Soldier
+     → Risk: cortisol chronic + Forced-Fit
 
   ③ "Thi đua" / Competitive culture
      → Ranking, xếp hạng, so sánh = EMBEDDED

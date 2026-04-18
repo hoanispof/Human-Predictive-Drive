@@ -110,6 +110,45 @@ HIERARCHY trong kiến trúc:
 
 ---
 
+## 1.5 — ⭐ Hardware Basis: Sensor → Cortex (UPDATE 2026-04-17)
+
+> **Full analysis: [Neural-Processing-Flow.md](Neural-Processing-Flow.md) §1-§4**
+
+```
+⭐ REFRAME: Sensor → Modality mapping KHÔNG phải 1:1. Là MANY-TO-MANY.
+
+  1 SENSOR → NHIỀU cortical areas:
+    Mắt → Visual cortex (hình) + Amygdala (threat, ~12ms) + SCN (circadian)
+    Tai → Auditory cortex + Amygdala (emotional sounds) + Wernicke (speech)
+    Da  → Somatosensory (where/what) + Insula (pleasant/unpleasant, C-tactile riêng)
+    Mũi → Olfactory cortex + Amygdala + Hippocampus (BYPASS thalamus!)
+
+  1 CORTICAL AREA ← NHIỀU sensors:
+    Amygdala ← mắt + tai + da + mũi + nội tạng + hormone + mirror
+
+  → "Modality" = PROCESSING AREA (cách não xử lý), không phải "input source" (sensor nào)
+  → Visual modality = Visual cortex processing (nhận chủ yếu từ mắt + top-down PFC)
+
+HARDWARE:
+  Hầu hết input qua THALAMUS (gateway + gate) trước khi tới cortex.
+  Ngoại lệ: olfaction bypass thalamus, amygdala subcortical pathway (~12ms).
+  PFC control attention qua TRN (Thalamic Reticular Nucleus) — "mở/đóng gate."
+  Toàn bộ neocortex = CẤU TRÚC 6 LỚP GIỐNG NHAU (Mountcastle 1957),
+  khác ở wiring + layer thickness + receptor density.
+
+BINDING (cách modalities sync — 5 cơ chế đồng thời):
+  ① Gamma oscillation ~40Hz (fire cùng phase = cùng object — Singer 1995)
+  ② Multisensory neurons (hardware, có từ sinh — Stein & Meredith 1993)
+  ③ Convergence zones (Parietal spatial + STS social + Insula body — Damasio 1989)
+  ④ Amygdala affective tagging (emotional → bind mạnh — McGaugh 2004)
+  ⑤ DMN scaffolding (long-range connectivity — Doria 2010)
+
+  → KHÔNG CÓ single binder. Binding = emergent từ 5 mechanisms.
+  → Detail: Neural-Processing-Flow.md §2-§4
+```
+
+---
+
 ## 2. Chi Tiết Modalities
 
 ### 2.0 Communication Modality — Verbal/Gesture/Writing (META-MODALITY)
@@ -488,7 +527,7 @@ Tóm tắt:
   Verbal    Motor   Visual-seq  Auditory  Emotional  Visual-spatial  Somatic
 
   Verbal dominant → chain DỌC → specialist, học giỏi, chuyên sâu
-  Somatic dominant → chain NGANG → improviser, cross-domain, framework builder
+  Somatic dominant → chain NGANG → improviser, cross-domain, theorist
   Mixed → T-shaped (sâu 1 + rộng vài)
 
   Modality profile → HƯỚNG TƯ DUY → HƯỚNG PHÁT TRIỂN → CAREER MATCH
@@ -552,7 +591,7 @@ INSIGHT: "Expert" KHÔNG phải mạnh 1 modality → ĐỒNG ĐỀU modalities 
 
   5 KIỂU TƯ DUY (từ 5 experience modalities):
     Visual-spatial thinking:  "cấu trúc giống" → architect, physicist, designer
-    Somatic thinking:         "feel giống" → entrepreneur, therapist, framework builder
+    Somatic thinking:         "feel giống" → entrepreneur, therapist, cross-domain theorist
     Motor thinking:           "làm quen tay" → craftsman, athlete, surgeon
     Emotional thinking:       "cảm xúc giống" → leader, artist, counselor
     Sequential thinking:      "bước tiếp theo" → analyst, programmer, manager

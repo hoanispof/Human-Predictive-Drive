@@ -510,7 +510,7 @@ CHI TIẾT:
     → Body detect PATTERN không qua logic → ANY domain
     → "Cái này FEEL giống cái kia" → dù logic chưa connect → body BIẾT
     → Body KHÔNG care domain boundary → connect BẤT KỲ THỨ GÌ
-    → Career: entrepreneur, therapist, game designer, investigator, framework builder
+    → Career: entrepreneur, therapist, game designer, investigator, cross-domain theorist
     → Ưu: nhanh, cross-domain, detect cái chưa ai thấy
     → Nhược: không giải thích được ("tôi thấy vậy"), có thể sai
 ```
@@ -530,7 +530,7 @@ SPECIALIST / "HỌC GIỎI" (verbal + motor dominant — ~60-70% dân số):
 IMPROVISER / "TÒ MÒ NGANG" (somatic + visual-spatial dominant — ~15-20%):
   Schema building: INTERNAL-OUT (body feel trước → tìm info confirm → hiểu)
   = "Cảm thấy cái gì → rồi tìm hiểu" → school KHÔNG match → "học khó"
-  Chain: NGANG → across domains → connector, framework builder
+  Chain: NGANG → across domains → connector, cross-domain theorist
   Body respond: opioid từ COHERENCE ("mọi thứ connect!")
   Tưởng tượng: imagine ACROSS domains ("cái này GIỐNG cái kia vì...?")
   Ưu: creative, innovation, detect pattern mới, cross-domain insight

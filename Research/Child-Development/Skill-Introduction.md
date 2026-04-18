@@ -1882,7 +1882,7 @@ TRONG FRAMEWORK CHÍNH:
 
 → Core-v7.5-Draft.md: framework gốc — body-base, drives, domain
 → Imagine-Final.md §1: 2 tầng (vô thức + PFC) → §7.2 Natural-Dev = how Imagine-Final forms
-→ Chunk-And-PFC.md §3: vô thức vs PFC → skill learning = chunk compilation
+→ Chunk.md §3: vô thức vs PFC → skill learning = chunk compilation
 → Connection.md §7.5: attachment = safe base cho exploration → prerequisite cho skill learning
 → Personal-Melody.md §5: passion development → skill that matches melody = deep engagement
 → Attention-Spectrum.md: DRD4 spectrum → §7.1 per-hardware → KHÁC nhau rõ ràng

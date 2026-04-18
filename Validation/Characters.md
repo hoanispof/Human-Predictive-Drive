@@ -653,7 +653,7 @@ TRAJECTORY (P12 Block 5 — applied cho Tesla):
 SO SÁNH (tất cả cùng Tuyến 2, khác hardware "done" detector):
   Tesla cuối đời: "done" detector SUY YẾU (aging) → OCD-like
   OCD lâm sàng:   "done" detector LỖI BẨM SINH (double failure: hardware × competition failure, §7.4) → P12
-  IsPof hiện tại:  "done" detector INTACT → functional → AN TOÀN
+  Functional case: "done" detector INTACT → functional → AN TOÀN
 ```
 
 ---

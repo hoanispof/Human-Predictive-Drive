@@ -13,17 +13,33 @@
 
 ---
 
-> **Trạng thái:** v1.0 — cross-cutting analysis
-> **Ngày:** 2026-03-31
+> **Trạng thái:** v1.1 (refined 2026-04-11 từ v1.0 2026-03-31)
+> **Ngày:** 2026-04-11
 > **Mục đích:** Phân tích cơ chế, spectrum, hậu quả, và giải pháp
 > của education arms race qua lens framework + game theory + data thực.
-> **Reference:** Education-Bridge.md (bridges + schemas giáo dục),
-> Birth-Rate-Decline/ (6 case studies — education role in each),
-> Imagine-Final.md §1 (competing Imagine-Finals),
-> Conflict-Dynamics.md §1 (overlap × scarcity),
-> Cortisol-Baseline.md §3 (repair cycle)
+> **Reference:**
+>   Education-Principles.md v1.1 (đặc biệt NL6 — 3 ORIGIN threat, §2.9 Anchor-Schema)
+>   Education-Bridge.md v1.1 (refined)
+>   Domain-Mapping-Drive.md (đặc biệt §7.2, §8 Barriers)
+>   Threat.md §5.5 (3 ORIGIN taxonomy)
+>   Anchor-Schema.md (4 nguồn fill)
+>   Imagine-Final-Evaluation.md v1.1 (Hardware-First Harm pattern)
+>   Anchor-Schema-Extreme-Example.md (Y5 Workaholism — individual parallel)
+>   Birth-Rate-Decline/ (6 case studies),
+>   Conflict-Dynamics.md §1,
+>   Cortisol-Baseline.md §3
 > **⚠️ Data thực + framework interpretation — PHÂN BIỆT RÕ 🟢/🟡/🔴**
 > **Quy ước:** 🟢 Research/data support | 🟡 Suy luận từ framework | 🔴 Hypothesis
+>
+> **Refinement v1.1 (2026-04-11) — sync với framework expansion:**
+>   → §5 Framework Lens MAJOR EXPANSION:
+>     + Arms race = chronic imposed adult threat at SOCIETAL SCALE
+>     + 2 nested levels (society→parents, parents→children)
+>     + Hardware-First Harm pattern ở scale tập thể
+>     + Societal Anchor-Schema + 4 nguồn fill societal distribution
+>   → §6 Giải pháp: integrate Domain-Mapping-Drive §8 Barriers + NL6 policy implications
+>   → §1 small note: framework body-response + Imagine-Final Quality connection
+>   → §10 Kết nối: bổ sung 7+ new files
 
 ---
 
@@ -90,6 +106,13 @@
 
   → = "Chạy nhanh hơn chỉ để ở yên chỗ cũ" (Lewis Carroll)
   → = Bằng cấp TĂNG → yêu cầu TĂNG theo → giá trị GIẢM → cần bằng CAO hơn
+
+  ⭐ v1.1 FRAMEWORK CONNECTION:
+    → Credential inflation không chỉ là economic phenomenon
+    → Nó RESHAPE societal Imagine-Final: "success marker" dịch chuyển liên tục
+    → Body của society chạy theo moving target → never satisfy
+    → = VTA delta never reached (goal post keeps moving)
+    → = Societal hedonic treadmill version của Brickman 1978 individual
 
 
 🟢 SIGNALING THEORY — Michael Spence (Nobel 1973):
@@ -394,6 +417,233 @@
     → ≈ ĂN + Ở cộng lại
     → 1 con = X → 2 con = 2X → PFC: "KHÔNG ĐỦ"
     → = Arms race NHÂN cost nuôi con → nhân birth rate decline
+
+
+⭐ v1.1 MAJOR EXPANSION — ARMS RACE QUA LENS MỚI:
+
+  Phần v1.0 ở trên đã cover các mechanism cơ bản. V1.1 thêm 3 lens mới
+  từ framework expansion gần đây, tất cả đều là SOCIETAL-SCALE versions
+  của concepts individual-level:
+
+
+═══════════════════════════════════════════════════════
+§5.4 — ARMS RACE = CHRONIC IMPOSED THREAT AT SOCIETAL SCALE
+═══════════════════════════════════════════════════════
+
+  Từ Threat.md §5.5 + Education-Principles v1.1 NL6, có 3 loại threat:
+    Type 1 — Domain threats (từ reality): KEEP
+    Type 2 — Peer social threats (từ peers ngang hàng): KEEP
+    Type 3 — Imposed adult threats (từ authority): REDUCE gradually
+
+  Arms race = Type 3 Imposed Adult Threats ở scale MASSIVE + CHRONIC.
+  Nhưng có twist quan trọng: arms race có 2 NESTED LEVELS của imposed:
+
+  LEVEL 1 — PARENTS IMPOSED ON CHILDREN (individual imposed):
+    "Con phải học 14 tiếng/ngày để vào SKY, nếu không con sẽ khổ"
+    → Parent imposed adult threat chronic
+    → Cortisol + connection threat cùng lúc (đặc biệt damaging — Slavich 2010)
+    → Anchor compiled: "học = survival, không học = disaster"
+    → Trẻ Hàn: 12.2% ideation tự tử (2023), abnormal high trong developed countries
+
+  LEVEL 2 — SOCIETY IMPOSED ON PARENTS (meta-imposed):
+    "Nếu con bạn không vào SKY, bạn là bố mẹ tệ, gia đình bạn sẽ thất bại"
+    → Society imposed threat lên parents
+    → Parents không "ác" với con — họ đang BỊ impose từ society
+    → Họ chỉ truyền threat đó xuống
+    → = Chain of imposed threats: Society → Parents → Children
+
+  NESTED DYNAMICS — TẠI SAO KHÔNG DỪNG ĐƯỢC:
+
+    Giả sử 1 gia đình Hàn muốn OPT OUT (không hagwon):
+    → Level 1: cha mẹ muốn dịu xuống cho con
+    → Level 2: nhưng xã hội threat parents: "bạn đang fail con bạn"
+      → Họ hàng: "sao con chị không đi hagwon?"
+      → Bạn bè: "đã quá muộn rồi"
+      → Media: success stories chỉ từ hagwon graduates
+      → School: "con bạn sẽ tụt lại"
+      → Teacher: "con bạn không chuẩn bị cho thi"
+    → Parents' cortisol spike từ Level 2 imposed
+    → Parents' body: "phải hành động" → mua hagwon
+    → → Truyền threat xuống con (Level 1)
+    → = PARENTS BẢN THÂN ĐÃ LÀ NẠN NHÂN của imposed threat Level 2
+    → = Không fair để blame parents một mình
+
+  INSIGHT QUAN TRỌNG:
+    → Arms race KHÔNG phải "bad parenting"
+    → Là "system forcing imposed threat chronic ở mọi level"
+    → Parents trong arms race là đồng nạn nhân với con
+    → Solution không phải "parents nên thay đổi" (they can't individually)
+    → Solution phải là STRUCTURAL (Level 2 source)
+
+  → Mapping với §9 Threat-Drive-Analysis.md parenting:
+    Level 1 parent imposed = Case B/C (toxic) trong Vietnamese typical
+    Level 2 society imposed = META-cause của Level 1
+    → Can't fix Level 1 while Level 2 still active
+    → This is why individual parenting advice fails in arms race contexts
+
+
+═══════════════════════════════════════════════════════
+§5.5 — ARMS RACE = HARDWARE-FIRST HARM Ở SCALE TẬP THỂ
+═══════════════════════════════════════════════════════
+
+  Từ Imagine-Final-Evaluation.md v1.1 §4 expanded — Hardware-First Harm
+  là pattern individual: anchor strong + body smooth + skip body-check
+  → invisible damage chronic.
+
+  Arms race = Hardware-First Harm ở scale XÃ HỘI:
+
+  CƠ CHẾ SCALED-UP:
+
+  Step 1 — Societal anchor strong:
+    → "Thành công = ĐH danh tiếng" compiled into collective belief
+    → Media, culture, family, education system đều reinforce
+    → Schema này không WRONG về mô tả (SKY graduate thật sự có lương cao hơn)
+    → Nhưng compiled DEEP vào societal anchor
+    → = Cả xã hội bind vào 1 Imagine-Final COLLECTIVE
+
+  Step 2 — Society "body smooth":
+    → Economy vận hành (jobs filled, industries functioning)
+    → GDP growing, tech innovation, international competitiveness
+    → Từ surface, society "đang chạy ổn"
+    → = Giống individual Hardware-First Harm: "khoẻ bên ngoài"
+
+  Step 3 — Skip body-check collective:
+    → Body của xã hội = các signals về wellbeing:
+      - TFR (fertility rate)
+      - Suicide rate (especially youth)
+      - Depression + anxiety statistics
+      - Relationships breakdown
+      - Sleep deprivation epidemic
+    → Tất cả những signals này đang SCREAM trong Hàn/Nhật/TQ/VN
+    → Nhưng societal anchor bind cứng → skip/dismiss signals:
+      "TFR giảm vì phụ nữ ích kỷ / kinh tế xấu / young generation lười"
+      (thay vì: "arms race đang destroying reproductive body của xã hội")
+    → = Body signals có nhưng bị rationalized away
+
+  Step 4 — Invisible chronic damage multi-generational:
+    → Hàn TFR 0.72 = mỗi thế hệ giảm 65%
+    → Not an "event" — a slow bleed
+    → Demographic collapse trong 2-3 generations
+    → Elderly crisis + pension collapse + economy shrinkage
+    → → Xã hội tự destroy reproductive capacity while "running successfully"
+    → = ĐÂY LÀ HARDWARE-FIRST HARM HOÀN CHỈNH
+
+  ÁNH XẠ VỚI INDIVIDUAL Y5 WORKAHOLISM (Anchor-Schema-Extreme-Example.md):
+
+    Y5 Workaholism pattern:
+    → Anchor "bận = có giá trị" compiled deep
+    → Body skip hunger/sleep/rest signals
+    → Running smooth (career thành công)
+    → Invisible damage chronic → eventually heart attack / burnout / collapse
+    → Take 10-20 years to manifest
+
+    Arms race societal pattern:
+    → Anchor "phải race" compiled across society
+    → Collective body skip reproduction + wellbeing signals
+    → Running smooth (GDP growth + international ranking)
+    → Invisible damage chronic → demographic collapse + mental health crisis
+    → Take 30-50 years to manifest fully
+
+    → SAME pattern, different scale
+    → Hàn đang ở "stage 3" của societal Hardware-First Harm
+    → TFR 0.72 = first visible symptom
+    → Full collapse chưa xảy ra → nhưng trajectory clear
+
+  TẠI SAO SOCIETAL HARDWARE-FIRST HARM KHÓ THOÁT:
+
+    Individual Hardware-First Harm (§4 Imagine-Final-Evaluation):
+      → Meta-cognition có thể giúp (nếu PFC chưa bị lock hoàn toàn)
+      → External feedback (mentor, therapy, health crisis) có thể break
+      → Recovery 1-5 years possible
+
+    Societal Hardware-First Harm:
+      → Meta-cognition collective không tồn tại (xã hội không "nghĩ")
+      → External feedback = nhìn nước khác (Phần Lan, Đức) — visible but ignored
+      → "Body-check" = TFR data, mental health data — visible but rationalized
+      → Individual attempts to opt out bị Level 2 imposed threat pushback
+      → Recovery: multi-generational (if at all)
+
+    → = ĐÂY LÀ TẠI SAO ARMS RACE KHÔNG THỂ DỪNG (§4 Game Theory Lock-in)
+    → Mechanism sâu hơn game theory: Hardware-First Harm ở scale tập thể
+    → Game theory explains RATIONAL reasons (Nash equilibrium)
+    → Hardware-First Harm explains NEUROLOGICAL reasons (body skipped, anchor locked)
+
+
+═══════════════════════════════════════════════════════
+§5.6 — SOCIETAL ANCHOR-SCHEMA + 4 NGUỒN FILL DISTORTION
+═══════════════════════════════════════════════════════
+
+  Từ Anchor-Schema.md §3, anchor được fill từ 4 nguồn:
+    ① PFC Imagine-Final (self-directed)
+    ② Hippocampus (experiential memory)
+    ③ Compiled schemas (routine, habit)
+    ④ External Inject (lời người khác, văn hoá, media)
+
+  Trong xã hội healthy, 4 nguồn balanced cho cả individual và collective anchor.
+
+  Trong arms race society, nguồn ④ DOMINATE MASSIVELY:
+    → Media continuously inject "success = SKY/Suneung"
+    → School culture reinforces
+    → Family pressure reinforces
+    → Workplace hiring practices reinforce
+    → → Nguồn ④ chiếm 80-90% societal anchor
+    → → Nguồn ①②③ suppressed:
+      ① Individual PFC Imagine-Finals (tự chọn): không được respected
+      ② Experiential memory (thành công từ paths khác): dismissed as outliers
+      ③ Compiled habits from choice: không form được vì choice không có
+
+  → Societal anchor toàn là nguồn ④ → fragile nhưng locked
+  → "Fragile but locked" seems paradox nhưng chính xác:
+    Fragile = không body-confirmed, no experiential base
+    Locked = everyone reinforcing everyone else, no escape
+
+  GIẢI PHÁP CẤU TRÚC TỪ LENS NÀY:
+    → Cần SHIFT nguồn ④ societal
+    → Không phải "cấm nguồn ④" (impossible)
+    → Mà là "diversify nguồn ④" (inject alternative narratives)
+    → + Build nguồn ①②③ societal (bằng cách:
+      - Cho phép alternative paths có respect + pay
+      - Show successful paths không qua SKY
+      - Encourage individual explore + diverse interests)
+    → = Match với §6 solutions (xóa 1-kỳ-thi, vocational track, v.v.)
+
+
+═══════════════════════════════════════════════════════
+§5.7 — IMAGINE-FINAL EVALUATION Ở SCALE TẬP THỂ (4 GÓC)
+═══════════════════════════════════════════════════════
+
+  Societal Imagine-Final "thành công = SKY/Suneung" trên 4 góc:
+
+  Domain Fit? (có thật không?)
+    → Partially — SKY graduates DO có lương cao hơn
+    → Nhưng: không phải EVERY SKY graduate; không phải ONLY SKY graduates
+    → → Domain fit ~50-60% (partial truth, not full)
+
+  Hardware Fit? (mỗi người có tới được + muốn khi tới?)
+    → NO — hardware variation massive
+    → Chỉ 5-10% hardware fit SKY-level academic grinding
+    → 90-95% HS bị ép vào 1 mold họ không fit
+    → → Societal Imagine-Final = Hardware Fit RẤT THẤP
+
+  → Arms race societal Imagine-Final = **MISMATCH góc**:
+    Domain partial ✓ + Hardware ✗
+    → Predictable outcome: burnout, midlife crisis, "giỏi nhưng ghét"
+    → Ở scale tập thể: 90% HS trong Mismatch trajectory
+    → = Societal-level burnout pattern
+
+  KỊCH BẢN IMAGINE-FINAL EVOLUTION:
+    → If society continues: stuck ở Mismatch góc → multi-generational burnout
+    → If society diversifies goals: Mismatch → various Sweet Spots per individual
+    → → Solution = không phải "tìm 1 Imagine-Final tốt hơn cho cả xã hội"
+    → Mà là "cho phép MULTIPLE Imagine-Finals theo hardware diversity"
+
+  → Matches §6 solution ② (vocational track có giá trị) + ③ (ĐH đa dạng)
+
+  🟡 "Societal-scale Hardware-First Harm" framing = framework v1.1 synthesis
+  🟡 "Chain of nested imposed threats" = framework clarification
+  🟡 "Societal anchor + 4 nguồn distortion" = framework extension
+  🟢 Demographic collapse data (Hàn TFR 0.72, Japan etc.)
+  🟢 Mental health data (Slavich 2010, etc. for individual mechanism)
 ```
 
 ---
@@ -444,6 +694,129 @@
     → = NẾU xóa status competition → TFR TĂNG đáng kể
     → NHƯNG: chưa nước nào thành công DỪNG race đã bắt đầu
     → = PREVENTION > CURE → VN CÒN CƠ HỘI
+
+
+⭐ v1.1 EXPANSION — BARRIERS + POLICY IMPLICATIONS TỪ FRAMEWORK:
+
+
+═══════════════════════════════════════════════════════
+§6.6 — CROSS-REF DOMAIN-MAPPING-DRIVE §8 BARRIERS
+═══════════════════════════════════════════════════════
+
+  Domain-Mapping-Drive.md §8 phân tích 6 barriers cho giáo dục tương lai —
+  tất cả ÁP DỤNG cho arms race solutions:
+
+  Barrier 1 — SHORT-TERM BIAS:
+    → Parents/society thấy kết quả 6-month (điểm, ranking) dễ hơn 10-year (wellbeing)
+    → Threat path có results nhanh → reinforce → giữ race
+    → → Solutions cần thời gian LONG để show benefit
+    → → Chính trị: tough sell vì election cycles ngắn hơn trajectory
+
+  Barrier 2 — CULTURAL ANCHOR RIGIDITY:
+    → Anchor "học giỏi = thành công" compiled qua nhiều thế hệ
+    → Hàn/Nhật/VN/TQ: Confucian tradition reinforces
+    → Update anchor cần dissonance mạnh (nhiều years)
+    → → Chỉ có data crisis (TFR 0.72) mới bắt đầu crack anchor này
+    → Good news: VN chưa cứng như Hàn → còn window
+
+  Barrier 3 — MEASUREMENT SYSTEMS REINFORCE:
+    → Standardized tests, rankings, GPA = measure threat path output
+    → New metrics (wellbeing, sustainable learning) khó measure
+    → Hệ thống reward threat path dù không intentional
+    → → Solution §6 ② (multi-path admission) đòi hỏi measurement revolution
+    → → Cực khó chính trị: "giảm chuẩn hoá" = "mất công bằng" trong perception
+
+  Barrier 4 — RICH ENVIRONMENT COST:
+    → Alternative paths (vocational, hands-on, diverse) cần investment
+    → Public spaces, workshops, mentorship networks
+    → Families wealthy có thể afford alternatives, families poor không
+    → → Solution cần public investment (expensive)
+    → → Without: framework chỉ applicable cho upper-middle class
+
+  Barrier 5 — HARDWARE CALIBRATION KHÓ:
+    → §6 ② vocational track assume trẻ có thể CALIBRATE hardware fit sớm
+    → Nhưng calibration cần observation + time + diverse exposure
+    → Most current schools không provide
+    → → Đòi hỏi teacher training + assessment tools + time
+    → → Slow implementation
+
+  Barrier 6 — ECONOMIC + POLITICAL INCENTIVES:
+    → Hagwon industry Hàn: $22.6 tỷ/năm — massive lobby
+    → Standardized test industry
+    → Ranking publishers
+    → Elite schools competing on selectivity
+    → → Entrenched interests resist structural change
+    → → Coalition politics needed (parents, teachers, employers)
+
+  → 6 barriers KHÔNG có 1 cái insurmountable, nhưng CỘNG LẠI = significant
+  → Progress possible nhưng gradual (see Domain-Mapping-Drive §7.7 Transition Reality)
+
+
+═══════════════════════════════════════════════════════
+§6.7 — POLICY IMPLICATIONS TỪ NL6 (3 ORIGIN TAXONOMY)
+═══════════════════════════════════════════════════════
+
+  Từ Education-Principles v1.1 NL6 refined, arms race policy should:
+
+  KEEP — Type 1 Domain threats:
+    → Students still face real academic challenges (bài toán khó, research thật)
+    → Real-world problems (engineering, science, art critique)
+    → Domain pressure KHÔNG phải target của reduction
+    → Actually: nhiều arms race countries có TOO LITTLE real domain
+      (all abstract + memorization, không hands-on)
+
+  KEEP — Type 2 Peer threats (với monitor):
+    → Peer learning dynamics, debate, collaborative projects
+    → Natural social friction → L2 skills build
+    → Monitor bullying separately
+
+  REDUCE — Type 3 Imposed adult threats:
+    → Public ranking → REDUCE (biggest lever)
+    → "1 kỳ thi quyết đời" → REDUCE (biggest structural)
+    → Shame-based teaching → ELIMINATE
+    → Parent-child shame about grades → EDUCATE parents
+    → Teacher punishment for low scores → REFORM
+    → Social comparison as "motivation" → SHIFT narrative
+
+  IMPLEMENTATION priorities từ threat lens:
+    → Easy wins: eliminate public shame (school rankings public)
+    → Medium: restructure single-test systems
+    → Hard: shift cultural anchor about "failure" = shame
+    → Hardest: eliminate wage premium elite vs ordinary
+
+
+═══════════════════════════════════════════════════════
+§6.8 — SHIFT SOCIETAL NGUỒN ④ (từ §5.6)
+═══════════════════════════════════════════════════════
+
+  Societal anchor fill disproportionately từ nguồn ④ External Inject.
+  Policy = shift nguồn ④ toward diverse narratives:
+
+  ① Media diversification:
+    → Show successful paths KHÔNG qua SKY/Suneung
+    → Documentaries về craftsmen, vocational careers, entrepreneurs
+    → Counter "elite path = only path" narrative
+
+  ② Cultural celebration of diversity:
+    → Awards + recognition cho non-elite career paths
+    → Vocational leader visibility
+    → "Everyday heroes" narratives
+
+  ③ Education showing alternatives:
+    → School trips to diverse workplaces (not just offices/hospitals)
+    → Meet craftsmen, chefs, technicians, entrepreneurs
+    → Expose students to range of possible lives
+
+  ④ Concurrent build nguồn ①②③:
+    → Choice in curriculum (nguồn ①)
+    → Project-based hands-on learning (nguồn ②)
+    → Habit formation from interest (nguồn ③)
+    → = Society slowly shifts from ④-dominated → balanced
+
+  → Đây là LONG-TERM cultural shift, không quick fix
+  → Effects sau 10-30 years
+  → Japan đã bắt đầu partially (anime creators, chefs respected)
+  → Korea chưa bắt đầu meaningfully
 ```
 
 ---
@@ -554,25 +927,112 @@
 ## 10. Kết Nối Với Các File Khác
 
 ```
-  Framework Core:
-    → Imagine-Final.md §1: competing Imagine-Finals
-      (education = zero-sum Imagine-Final competition)
-    → Conflict-Dynamics.md §1: overlap × scarcity × commitment
-      (cùng target ĐH + ít slot + bố mẹ all-in = conflict cực mạnh)
-    → Cortisol-Baseline.md §3: NET HEALTH = repair − damage
-      (học 14-16h/ngày + ngủ 5h = repair <<< damage)
+═══════════════════════════════════════════════════════
+TẦNG 3 META — NỀN LÝ THUYẾT (mới thêm v1.1)
+═══════════════════════════════════════════════════════
 
-  Education:
-    → Education-Bridge.md: bridges + 7 sai lầm giáo dục
-      (arms race = Carrot Bridge × Stick Bridge tổng hợp)
+→ Education-Principles.md v1.1 ⭐
+   Đặc biệt: NL6 CORTISOL + THREAT ORIGIN refined (3 types Domain/Peer/Imposed)
+   + §2.9 Anchor-Schema brain constant
+   → Arms race = chronic Imposed adult threat ở scale xã hội
 
-  Birth Rate Decline:
-    → 01_South-Korea: education = cost multiplier CỰC LỚN
-    → 03_China: gaokao + 4-2-1 + tutoring ban thất bại
-    → 04_France: ĐH €178 → education cost ~0 → giữ floor
-    → 05_Finland: 0 race + PISA above-average → education ≠ vấn đề ở Finland
-    → 09_Vietnam: arms race ĐANG bắt đầu → CÒN ngăn
-    → 09_Vietnam_Solution §3: education prevention = priority #3
+→ Education-Bridge.md v1.1 (refined)
+   Đặc biệt: §3 Threat Overdose refined với 3 ORIGIN
+   + §6 Per-Age + §8 Rút Bridge refined với 4 nguồn fill
+   → Bridges nested trong arms race context
+
+→ Domain-Mapping-Drive.md ⭐
+   Đặc biệt: §7.2 (3 loại threat education application)
+   + §8 (6 barriers to transition) — all applicable cho arms race reform
+   → Mechanism-level explanation cho tại sao reform khó
+
+═══════════════════════════════════════════════════════
+THREAT + ANCHOR CỤM (nền cho §5 Framework Lens expanded)
+═══════════════════════════════════════════════════════
+
+→ Threat.md
+   + §5.5 3 ORIGIN taxonomy
+   → Arms race = Imposed Adult threat chronic ở scale tập thể
+
+→ Threat-Drive-Analysis.md
+   + §9 Parenting refined (3 mức TOXIC/REASONABLE/NATURAL)
+   → Arms race parents có thể đang ở TOXIC mà không biết vì Level 2 society pressure
+
+→ Anchor-Schema.md
+   + §3 4 nguồn fill
+   → Societal anchor bị distort: nguồn ④ dominate 80-90%
+
+→ Anchor-Schema-Extreme-Example.md
+   + Y5 Workaholism (individual parallel cho arms race societal)
+   + Hardware-First Harm pattern
+   → Individual version của phenomenon societal
+
+═══════════════════════════════════════════════════════
+IMAGINE-FINAL CỤM
+═══════════════════════════════════════════════════════
+
+→ Imagine-Final.md §1: competing Imagine-Finals
+   (education = zero-sum Imagine-Final competition)
+→ Imagine-Final.md §1.5 Lifecycle: 5 phases
+   → Arms race blocks Phase 3 BACKGROUND (no rest for students)
+→ Imagine-Final-Evaluation.md v1.1
+   + 4 góc — arms race societal Imagine-Final = Mismatch góc dominant
+   + Hardware-First Harm pattern (§4 Delusion expanded)
+   → Societal-level Mismatch + Hardware-First Harm
+
+═══════════════════════════════════════════════════════
+CORE + CONFLICT
+═══════════════════════════════════════════════════════
+
+→ Conflict-Dynamics.md §1: overlap × scarcity × commitment
+   (cùng target ĐH + ít slot + bố mẹ all-in = conflict cực mạnh)
+→ Cortisol-Baseline.md §3: NET HEALTH = repair − damage
+   (học 14-16h/ngày + ngủ 5h = repair <<< damage)
+→ Novelty.md + Drive.md: dual drive system
+   → Arms race = threat drive dominant, novelty drive suppressed
+
+═══════════════════════════════════════════════════════
+EDUCATION APPLICATIONS
+═══════════════════════════════════════════════════════
+
+→ Education-Bridge.md v1.1: bridges + 7 sai lầm giáo dục
+   (arms race = Carrot Bridge × Stick Bridge tổng hợp, ở scale xã hội)
+→ Empathy-Education.md: empathy suppression trong arms race culture
+→ Hardware-Calibration.md: arms race ignores hardware diversity
+→ Education-System.md (Applications): school system architecture alternatives
+
+═══════════════════════════════════════════════════════
+BIRTH RATE DECLINE (file này là cầu nối)
+═══════════════════════════════════════════════════════
+
+→ 01_South-Korea: education = cost multiplier CỰC LỚN
+→ 03_China: gaokao + 4-2-1 + tutoring ban thất bại
+→ 04_France: ĐH €178 → education cost ~0 → giữ floor
+→ 05_Finland: 0 race + PISA above-average → education ≠ vấn đề ở Finland
+→ 06_Japan: senmon gakko vocational track → moderate race
+→ 09_Vietnam: arms race ĐANG bắt đầu → CÒN ngăn
+→ 09_Vietnam_Solution §3: education prevention = priority #3
+
+═══════════════════════════════════════════════════════
+VN COUNTRY FILES
+═══════════════════════════════════════════════════════
+
+→ VN-Education-Status.md: 22.8% depression, PISA paradox
+   → VN đã show signs của societal-level Hardware-First Harm
+→ VN-Cultural-Factors.md: Confucian anchor + "đổi đời" pressure
+   → Cultural anchor fuel cho arms race
+→ VN-Recommendations.md: 12 priority actions
+   → Policies align với §6.6-§6.8 expansion
+
+═══════════════════════════════════════════════════════
+META / COSMIC LOOP
+═══════════════════════════════════════════════════════
+
+→ Collective-Purpose.md: Cosmic Loop framing
+   → Arms race = failure mode của cosmic loop (individual imagine → collective
+     chaos instead of collective mapping)
+→ Knowledge-Flow.md: knowledge accumulation between generations
+   → Arms race damages intergenerational knowledge flow (cortisol chronic)
 ```
 
 ---

@@ -353,7 +353,7 @@ TRỤC B: SCOPE (hẹp → rộng → meta)
 
   Impact:
     Narrow expert = deep nhưng limited (thợ)
-    Meta expert = shallow mỗi cái nhưng CROSS (framework builder)
+    Meta expert = shallow mỗi cái nhưng CROSS (cross-domain theorist)
     → Framework này = meta-domain ("domain about human behavior")
 
 TRỤC C: STABILITY (ổn định → thay đổi)
@@ -1176,7 +1176,7 @@ NHÓM 5 — SCHEMAS MEANING (Ý nghĩa):
     → Schema TĂNG theo tuổi (gần zero trẻ con → peak về già)
     → Crisis NÀY = existential crisis (quarter-life, mid-life)
     → L5 core beliefs THUỘC nhóm này (identity, worldview)
-    → Framework builder (bạn): schema nhóm này CỰC MẠNH
+    → Cross-domain synthesists thường có schema nhóm này cực mạnh
 
   Khi QUÁ MẠNH: mọi thứ phải meaningful → không enjoy simple pleasures
 
