@@ -1061,6 +1061,11 @@ LINK STRENGTH = f(7 factors):
 
 ## §12 — Honest Assessment
 
+> **⚠️ BLACKBOX 1**: Chunk substrate — HOW chunks fire/store/distribute
+> ở neural level — là blackbox cơ bản của framework. Framework hoạt động
+> TRÊN blackbox này (predict pattern), không cần giải mã nó.
+> Chi tiết: Research/Meta-Impact/Framework-Boundaries.md §Blackbox 1.
+
 ### §12.1 — Established claims (🟢)
 
 ```

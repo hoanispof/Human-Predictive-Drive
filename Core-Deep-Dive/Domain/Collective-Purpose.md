@@ -11,8 +11,8 @@
 
 ---
 
-> **Trạng thái:** COMPLETE — v1.0
-> **Ngày:** 2026-04-10
+> **Trạng thái:** COMPLETE — v1.1 (refined 2026-04-24: 3 Forces + Biological Ceiling)
+> **Ngày:** 2026-04-10 | Refined: 2026-04-24
 > **Mục đích:** Frame META-LEVEL — vòng tròn collective humanity ↔ domain.
 > Connect cá nhân (anchor, melody, drive) với collective (knowledge mapping domain).
 > = "Mục đích" có thể infer của humanity (descriptive, không prescriptive).
@@ -277,6 +277,118 @@ CƠ CHẾ EMERGENT:
   → Chỉ cần: cá nhân SỐNG → output happens → loop continues
 
 
+TẠI SAO CÁ NHÂN THAM GIA DÙ KHÔNG THÍCH — 3 FORCES:
+
+  §2 nói: "Chỉ cần sống → output happens → loop continues."
+  Nhưng câu hỏi sâu hơn:
+    → Tại sao mọi người phải đi làm dù không phải ai cũng thích?
+    → Họ vì tập thể hi sinh bản thân? Hay bị ép? Hay cơ chế khác?
+
+  CÂU TRẢ LỜI: KHÔNG phải sacrifice có ý thức, cũng KHÔNG phải
+  thiết kế có chủ đích. Mà là 3 forces body-level ĐỒNG THỜI:
+
+
+  ┌──────────────────────────────────────────────────────────────────┐
+  │  FORCE 1: Pattern-Resonance với tập thể                         │
+  │  FORCE 2: Status = Resource Access Lock                          │
+  │  FORCE 3: Survival Schema compiled từ bé                        │
+  │                                                                  │
+  │  → 3 forces cùng hướng → cá nhân THAM GIA dù không thích       │
+  │  → Kết quả EMERGENT: tập thể cùng map domain                   │
+  │  → KHÔNG ai thiết kế, KHÔNG ai hi sinh có ý thức               │
+  └──────────────────────────────────────────────────────────────────┘
+
+
+  FORCE 1 — PATTERN-RESONANCE VỚI TẬP THỂ:
+
+    Tập thể compile các schema qua thế hệ:
+      → "Lao động là vinh quang"
+      → "Phải học hành đàng hoàng"
+      → "Không đi làm = vô dụng / xấu hổ"
+      → = Chunks compiled trong COLLECTIVE, truyền qua External Install
+        (Chunk-External-Development/00-External-Mechanism.md)
+
+    Cá nhân lớn lên TRONG tập thể:
+      → External chunks từ gia đình, trường học, xã hội install vào
+      → Schema compliance compile từ bé (trước khi PFC đủ evaluate)
+      → Khi trưởng thành: schema ĐÃ COMPILED → body TỰ DRIVE comply
+      → = Không cần ai ép nữa — vô thức đã internalize
+
+    Pattern-Resonance ở scale collective:
+      (Pattern-Resonance.md §0.3: Pattern-Resonance can emerge in larger collectives)
+      → Cá nhân SPM với tập thể: "mọi người đi làm → tôi cũng nên"
+      → Khi tập thể verify "lao động = giá trị" → cá nhân cảm thấy ĐÚNG
+      → Khi cá nhân KHÔNG comply → social dissonance → "lạc lõng"
+      → = Pattern-Resonance with collective = behavioral compliance engine
+
+    ⚠️ LƯU Ý TRUNG THỰC:
+      → Pattern-Resonance with collective có thể ĐÚNG (drive map domain hữu ích)
+      → Pattern-Resonance with collective có thể SAI (cult, propaganda, forced labor)
+      → Cơ chế KHÔNG phân biệt — cùng 1 mechanism, khác content
+      → Phân biệt đúng/sai = domain feedback theo thời gian
+      → = Cơ chế trung tính; kết quả phụ thuộc CONTENT của schema
+
+
+  FORCE 2 — STATUS = RESOURCE ACCESS LOCK:
+
+    Status.md v2.0: status = Resource Access Map
+      → Đi làm = maintain/upgrade status position → access resource
+      → KHÔNG đi làm → status drop → access giảm → body-base signal
+      → Body cho THREAT THẬT khi status giảm
+        (Status.md §11: cortisol × status)
+      → = "Đi làm dù không thích" = body chọn status reward > comfort
+
+    Không cần yêu thích công việc:
+      → Body reward từ STATUS MAINTENANCE đã đủ drive
+      → Status = access thức ăn, chỗ ở, quan hệ xã hội, an toàn
+      → = Body-base need THẬT, không phải abstract motivation
+
+
+  FORCE 3 — SURVIVAL SCHEMA COMPILED:
+
+    Schema "không làm = đói/chết" compiled từ:
+      → Evolutionary hardware (Domain-Mapping-Drive.md §1:
+        gen B survive, gen A satisfied → không sống sót)
+      → Childhood compilation: gia đình dạy, xã hội reinforce
+      → Even in modern safety-net societies: schema VẪN COMPILED
+        (lag effect — body chưa update cho safety net)
+
+    Body fires threat khi imagine "không đi làm":
+      → Predict: income = 0 → threat to body-base → cortisol
+      → = Survival schema override "không thích"
+      → PFC có thể evaluate lại, nhưng compiled schema MẠNH hơn
+        (vì compiled từ BÉ, reinforce hàng ngàn lần)
+
+
+  3 FORCES KẾT HỢP → EMERGENT COMPLIANCE:
+
+    ① Pattern-Resonance with collective → "mọi người làm thì tôi cũng nên"
+    ② Status lock → "không làm = mất access resource"
+    ③ Survival schema → "không làm = đói"
+
+    → Cá nhân KHÔNG cần "hi sinh cho tập thể" (intentional sacrifice)
+    → Cá nhân KHÔNG cần biết về cosmic loop
+    → 3 forces body-level ĐỦ để drive participation
+    → Kết quả EMERGENT: tập thể cùng map domain
+
+    → Đây CŨNG là lý do loop TIẾP TỤC dù nhiều cá nhân không vui:
+      → "Hầu hết đều áp lực" = body cost của 3 forces
+      → "Cùng nhau tiến lên" = emergent output của 3 forces
+      → = Áp lực KHÔNG phải design flaw — là COST của mechanism
+
+    → Connection.md §8.3 đã nhận xét ngắn:
+      "Cơ chế tham gia tập thể dù không thích
+       = Status + survival lock + schema compliance"
+      → Section NÀY = expansion chi tiết của nhận xét đó
+
+  🟢 Schema compliance via socialization (Bandura social learning theory)
+  🟢 Status as resource access drive (Sapolsky, Status.md research)
+  🟢 Survival schema compiled cross-species (Domain-Mapping-Drive.md §1)
+  🟡 "3 forces đồng thời" = framework synthesis
+  🟡 "Pattern-Resonance with collective = compliance engine" = framework analysis
+  🟡 "Áp lực = cost của mechanism" = framework reframe
+
+
 VÍ DỤ — MỖI LOẠI CÁ NHÂN CONTRIBUTE:
 
   Nhà khoa học (intentional contribution):
@@ -342,6 +454,92 @@ STANDING ON SHOULDERS — INDIVIDUAL ↔ GENERATIONS:
   → = Cá nhân KHÔNG cần "ý thức cosmic purpose" để contribute
   → = Chỉ cần SỐNG ĐÚNG MELODY của mình → đã contribute
   → = "Sống đúng mình" = best contribution có thể (vì unique → unique output)
+
+
+BIOLOGICAL CEILING — TẠI SAO BẤT CÔNG BẰNG KHÔNG PHÁ VỠ LOOP:
+
+  CÂU HỎI: Phân phối resource KHÔNG công bằng — vua, chủ tịch, tỷ phú
+  lấy nhiều hơn số đông. Vậy cosmic loop có bị phá không?
+
+  CÂU TRẢ LỜI NGẮN: CHẬM nhưng KHÔNG DỪNG — vì body có CEILING.
+
+
+  CEILING SINH HỌC:
+
+    → 1 ông vua KHÔNG THỂ sống 100,000 tuổi
+    → 1 ông vua KHÔNG THỂ ăn 1 tấn gạo 1 ngày
+    → 1 ông chủ tịch KHÔNG THỂ sống 100,000 năm hơn nhân viên
+    → 1 tỷ phú KHÔNG THỂ ăn 1,000 bữa 1 ngày
+    → = Hardware body giới hạn CONSUMPTION bất kể OWNERSHIP
+
+    → Wealth = accumulated Resource Access Maps (Status.md §1)
+    → Nhưng body chỉ TIÊU THỤ = 1 body / ngày
+    → Surplus PHẢI đi đâu đó — không thể giữ mãi trong 1 body:
+
+    ┌────────────────────┬────────────────────────────────────────┐
+    │ Surplus flow        │ Mechanism                             │
+    ├────────────────────┼────────────────────────────────────────┤
+    │ Tiêu xài           │ Chảy về lao động, dịch vụ, hàng hóa  │
+    │                    │ → phân tán về nhiều người              │
+    ├────────────────────┼────────────────────────────────────────┤
+    │ Thế hệ sau         │ Thừa kế → nếu thế hệ sau kém năng   │
+    │                    │ lực tạo giá trị → tiêu dần → phân tán │
+    ├────────────────────┼────────────────────────────────────────┤
+    │ Đầu tư             │ Tạo job → resource flow về workers    │
+    │                    │ → phân tán qua lương/chi phí vận hành │
+    ├────────────────────┼────────────────────────────────────────┤
+    │ Thuế               │ Redistribution có tổ chức             │
+    ├────────────────────┼────────────────────────────────────────┤
+    │ Knowledge          │ NON-RIVALROUS — share không mất       │
+    │                    │ → disperse tự do, RẺ NHẤT             │
+    └────────────────────┴────────────────────────────────────────┘
+
+    → = Dù phân phối tại thời điểm T không công bằng
+    → QUA THỜI GIAN: resource BẮT BUỘC disperse (biological ceiling)
+
+
+  KNOWLEDGE ĐẶC BIỆT — NON-RIVALROUS:
+
+    → Resource vật chất: 1 cái bánh chia → mỗi người ít hơn (rivalrous)
+    → Knowledge: share không mất — ai cũng có full copy
+    → = Knowledge là ENGINE CHÍNH của cosmic loop
+    → = Knowledge dispersal KHÔNG bị giới hạn biological ceiling
+    → = Đây là lý do loop ACCELERATE theo thời gian
+      (Knowledge-Flow.md §7: compression + baseline shift)
+
+    → Tỷ phú tích lũy tiền = loop CHẬM (rivalrous resource locked)
+    → Nhà khoa học tạo knowledge = loop NHANH (non-rivalrous, free copy)
+    → = Knowledge economy > resource economy cho cosmic loop velocity
+
+
+  NET EFFECT — LOOP CHẬM NHƯNG KHÔNG DỪNG:
+
+    Short-term: bất công bằng → một số cá nhân under-contribute
+      (bị suppress, thiếu access, không đủ resource để develop chunks)
+
+    Long-term: biological ceiling + generational turnover
+      + knowledge non-rivalrous → resource PHẢI disperse → loop TIẾP TỤC
+
+    → Loop CHẬM khi bất công bằng CAO (suppress nhiều cá nhân)
+    → Loop NHANH khi bất công bằng THẤP (nhiều cá nhân contribute)
+    → NHƯNG loop KHÔNG DỪNG chỉ vì bất công bằng
+      (biological ceiling guarantee dispersal over time)
+
+    → §4 Level 3 đã nói: "extreme inequality → underutilize loop"
+    → Section NÀY bổ sung: TẠI SAO loop VẪN TIẾP TỤC dù bất công bằng
+
+
+  ⚠️ LƯU Ý — DESCRIPTIVE, KHÔNG PHẢI JUSTIFY BẤT CÔNG BẰNG:
+    → "Loop vẫn chạy" ≠ "bất công bằng là tốt"
+    → Bất công bằng CHẬM loop → nếu muốn loop NHANH → cần fairness
+    → Nhưng bất công bằng KHÔNG phá vỡ loop hoàn toàn
+    → = Descriptive observation, không phải moral endorsement
+
+  🟢 Biological consumption limits (physiology — established)
+  🟢 Generational wealth dispersal (economic history — established)
+  🟢 Knowledge non-rivalrous (economics — Paul Romer endogenous growth)
+  🟡 "Biological ceiling guarantees dispersal" = framework synthesis
+  🟡 "Loop slow but not stop from inequality" = framework analysis
 
 
 HỆ QUẢ:
@@ -672,6 +870,12 @@ TOÀN FILE — ĐÁNH GIÁ TRUNG THỰC:
   → Knowledge preservation history (libraries, oral traditions)
   → Diversity → innovation (organizational research)
   → Compression in knowledge transmission (Knowledge-Flow.md research)
+  → Schema compliance via socialization (Bandura social learning theory)
+  → Status as resource access drive (Sapolsky, Status.md research)
+  → Survival schema compiled cross-species (Domain-Mapping-Drive.md §1)
+  → Biological consumption limits (physiology — established)
+  → Generational wealth dispersal (economic history — established)
+  → Knowledge non-rivalrous (Paul Romer endogenous growth theory)
 
 
 🟡 FRAMEWORK ANALYSIS (consistent logic, derived):
@@ -685,6 +889,11 @@ TOÀN FILE — ĐÁNH GIÁ TRUNG THỰC:
   → "Diversity functional value" = framework alternative to moral argument
   → "Weak vs strong claim" distinction = framework epistemological stance
   → 3-level implications (individual/framework/social) = framework organization
+  → "3 forces đồng thời drive participation" = framework synthesis (v1.1)
+  → "Pattern-Resonance with collective = compliance engine" = framework analysis (v1.1)
+  → "Áp lực = cost của mechanism" = framework reframe (v1.1)
+  → "Biological ceiling guarantees dispersal" = framework synthesis (v1.1)
+  → "Loop slow but not stop from inequality" = framework analysis (v1.1)
 
 
 🔴 HYPOTHESIS (philosophical, not testable):
@@ -804,6 +1013,30 @@ SONG SONG:
     → Sense → Verify → Scale pipeline
     → Pipeline cá nhân → feed into collective loop
 
+  v1.1 REFERENCES (new):
+
+  Status.md v2.0:
+    → Status = Resource Access Map → FORCE 2 trong §2 (3 Forces)
+    → §15 Status trong tập thể: organizational layer cho cosmic loop
+    → §11 Cortisol × Status: body-level cost khi status drop
+
+  Connection.md v3.0:
+    → §8.3 nhận xét: "tham gia tập thể dù không thích = Status +
+      survival lock + schema compliance" → §2 expand chi tiết
+    → Pattern-Resonance cross-scale (collective Pattern-Resonance)
+
+  Pattern-Resonance.md:
+    → §0.3 claim 7: Pattern-Resonance can emerge in larger collectives
+    → §6.2 + §9: collective effervescence (Durkheim)
+    → = Foundation cho FORCE 1 (Pattern-Resonance with collective)
+
+  Domain-Mapping-Drive.md:
+    → §1 Evolutionary: survival selection pressure = FORCE 3
+    → §6 Cosmic Loop framing: individual within larger loop
+
+  Chunk-External-Development/00-External-Mechanism.md:
+    → 5 cơ chế external install → how collective schemas compile vào cá nhân
+
 
 → ỨNG DỤNG (Application layer):
 
@@ -834,11 +1067,14 @@ SONG SONG:
 
 ---
 
-> *Collective Purpose — "Cá nhân chỉ thấy daily life: anchor, melody, drive.
+> *Collective Purpose v1.1 — "Cá nhân chỉ thấy daily life: anchor, melody, drive.
 > Khi ZOOM OUT toàn humanity qua thời gian: pattern emerge — humanity collective
 > đang map dần Domain reality. Đây là 'mục đích' có thể infer (weak claim).
 > Cá nhân không cần biết về loop để contribute — chỉ cần SỐNG ĐÚNG MELODY của mình.
 > Mỗi vai trò matters: scientist, parent, chef, lao động hạ tầng, thầy giáo.
+> Tại sao cá nhân tham gia dù không thích: 3 forces (Pattern-Resonance collective + Status lock
+> + Survival schema) — không sacrifice có ý thức, mà body-level compliance engine.
+> Bất công bằng chậm loop nhưng không phá: biological ceiling + knowledge non-rivalrous.
 > Diversity = parallel exploration (functional value, không chỉ moral).
 > Domain không đổi. Knowledge thay đổi. Loop vô tận vì domain vô tận.
 > Frame này descriptive, không prescriptive — adopt hay không là choice."*

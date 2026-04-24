@@ -1,12 +1,16 @@
 ---
 title: Valence-Propagation — Hệ Thống Đánh Giá Của Body + Cơ Chế Truyền Qua Schema Network
-version: 1.1
+version: 1.2
 created: 2026-04-18
-updated: 2026-04-18 (v1.1 — thêm §5b WHY chain dài tồn tại)
-status: v1.1 — REFERENCE FILE (kiến trúc tổng thể Valence system)
+updated: 2026-04-24 (v1.2 — §2 thêm Body-Base Extension dimension + 2-luồng reward)
+status: v1.2 — REFERENCE FILE (kiến trúc tổng thể Valence system)
 scope: |
   WHAT valence IS + HOW valence WORKS per-entity + HOW valence PROPAGATES qua schema chain
   + WHY PFC không biết + GIỚI HẠN nền tảng.
+  v1.2 KEY ADDITION: §2 Agent valence có dimension mà object KHÔNG CÓ:
+    Body-Base Extension — agent compiled strong positive → body-base extension.
+    = NƠI "Luồng 2" structural reward SINH RA (Connection.md §3.3).
+    Phân biệt Luồng 1 (SPM-owned, momentary) vs Luồng 2 (Entity-owned, structural).
   Tích hợp: Domain/backup/Valence.md (per-entity, DRAFT v0.5) + phân tích MỚI session N+16
   (propagation, chain properties, PFC blindness, fundamental limits).
 purpose: |
@@ -298,6 +302,90 @@ backup: Domain/backup/Valence.md
   │ PREDICTABLE          │ UNPREDICTABLE                             │
   │ Valence ít bất ngờ   │ Valence có thể FLIP bất ngờ              │
   └─────────────────────┴──────────────────────────────────────────┘
+
+
+  ⭐ AGENT VALENCE CÓ DIMENSION MÀ OBJECT KHÔNG BAO GIỜ CÓ:
+     BODY-BASE EXTENSION
+
+    5 đặc điểm trong bảng trên mô tả sự KHÁC BIỆT giữa object vs agent.
+    Nhưng có 1 bước nhảy CHẤT mà chỉ agent valence tạo được:
+
+    Khi per-agent valence STRONG POSITIVE + compiled SÂU qua nhiều interaction:
+      → Body KHÔNG CHỈ đánh giá "agent X ảnh hưởng tôi thế nào?"
+      → Body chuyển sang: "agent X's wellbeing = MY wellbeing"
+      → = Agent TRỞ THÀNH phần mở rộng body-base CỦA TÔI
+      → = STRUCTURAL, SUSTAINED — không phụ thuộc từng episode tương tác
+
+    BƯỚC NHẢY CHẤT — TẠI SAO KHÔNG PHẢI CHỈ "VALENCE MẠNH":
+
+      Object strong positive (dao tốt, xe quen):
+        → Valence ++, nhưng dao KHÔNG BAO GIỜ = "phần của tôi"
+        → Mất dao = tiếc (resource loss), KHÔNG = đau (body-base loss)
+
+      Agent strong positive (con, mẹ, bạn thân 20 năm):
+        → Valence ++, VÀ agent = body-base extension
+        → Agent's channels ĐƯỢC body treat AS own channels
+        → Con đói = TÔI đói (structural, không chỉ empathy momentary)
+        → Mất agent = PHẦN CỦA TÔI BỊ CẮT
+        → = Tại sao grief ≠ "tiếc" — grief = body-base amputation
+
+    ĐIỀU KIỆN HÌNH THÀNH:
+      ① Nhiều interaction tích lũy → valence compile SÂU
+      ② Trust CAO + Replaceability THẤP + Dependency có
+      ③ SPM fire THÀNH CÔNG nhiều lần → valence reinforce
+      → Body DẦN DẦN treat agent channels AS own channels
+      → = Quá trình COMPILE, không phải quyết định ý thức
+      → = GRADIENT: từ "quen biết" → "thân" → "thân thiết" → "body-base extension"
+
+    ⭐ DIMENSION NÀY TẠO RA "LUỒNG 2" REWARD (Connection.md §3.3):
+
+      Khi interact với agent, body nhận 2 LUỒNG reward ĐỒNG THỜI:
+
+      Luồng 1 (SPM-owned, momentary):
+        = Body-feedback từ MỖI LẦN SPM F1 fire trên target
+        = Có thể + (bạn vui → vui lây) hoặc - (con ốm → khó chịu)
+        = Thuộc về SPM mechanism (Self-Pattern-Match.md §2.1)
+
+      Luồng 2 (Entity-owned, structural) ← SINH RA TỪ DIMENSION NÀY:
+        = COMPILED valence → agent = body-base extension
+        = SUSTAINED — fire BẤT KỂ Luồng 1 positive hay negative
+        = Agent's wellbeing = MY wellbeing (structural, không chỉ momentary)
+        = Thuộc về per-agent valence compiled (section NÀY)
+
+      2 luồng INDEPENDENT, có thể CONFLICT:
+
+        Mẹ chăm con ốm:
+          L1: negative (simulate con suffering → body khó chịu)
+          L2: positive (con = body-base extension → chăm con = feed body-base MÌNH)
+          → L2 > L1 → VẪN CHĂM dù L1 negative
+
+        Bác sĩ chăm bệnh nhân lạ:
+          L1: negative (simulate suffering → cost THẬT)
+          L2: ≈ 0 (bệnh nhân lạ → chưa compiled thành body-base extension)
+          → L1 cost TÍCH LŨY không bù → burnout
+
+        Bạn thân kể chuyện vui:
+          L1: positive (vui lây)
+          L2: positive (bạn = body-base extension)
+          → COMPOUND reward → gặp bạn thân = cực tốt
+
+    ⭐ TẠI SAO CHỈ AGENT, KHÔNG BAO GIỜ OBJECT:
+
+      Object KHÔNG fire SPM → không có L1 episodes tích lũy
+      Object KHÔNG bidirectional → không có mutual reinforcement
+      Object DỄ thay thế → trust/dependency không compile sâu đủ
+      → Body-base extension = EMERGENT property CHỈ CÓ ở agent valence
+      → Object có thể valence CỰC POSITIVE (nhà, xe, sách yêu thích)
+        nhưng KHÔNG BAO GIỜ = "phần mở rộng body-base"
+      → Mất nhà = stress tài chính. Mất con = body-base amputation.
+        2 loại loss KHÁC CĂN BẢN.
+
+    🟢 Grief as body-level pain: Eisenberger 2003 (social pain = physical pain pathways)
+    🟢 Attachment bond = body-level: Bowlby 1969
+    🟢 Protect.md: loss aversion = f(replaceability × attachment depth)
+    🟡 "Body-base extension" as explicit concept = framework synthesis
+    🟡 2-luồng reward separation = framework synthesis (Connection.md §3.3)
+
 
   THÊM: ABSTRACT ENTITY VALENCE:
 
@@ -1244,7 +1332,7 @@ VALENCE UPDATE — 3 LOẠI:
       Einstein NÓI NHƯ THỂ ai không trải nghiệm sự bí ẩn thì chưa sống đúng.
       PFC của Einstein: "the mysterious is the most beautiful experience"
       Body của Einstein: hardware fit + decades of chunk accumulation + Goldilocks zone
-        → Mỗi bí ẩn vật lý = prediction error → VTA delta → dopamine + opioid
+        → Mỗi bí ẩn vật lý = prediction delta → VTA fire → dopamine + opioid
         → = Body fire reward CỰC MẠNH khi gặp mystery → PFC label: "beautiful"
 
       NHƯNG — body-base fire CÙNG CƠ CHẾ cho MỌI NGƯỜI, chỉ khác INPUT:
@@ -1292,7 +1380,7 @@ VALENCE UPDATE — 3 LOẠI:
     Body tính:
       Hardware fit: processing style match physics thinking
       Chunk accumulation: years of practice → Goldilocks zone
-      VTA delta: mỗi insight → prediction error → dopamine
+      VTA delta: mỗi insight → prediction delta → dopamine
       Mastery reward: solve problem → opioid
       Identity: "physicist" = Anchor-Schema compiled
     
@@ -1536,6 +1624,12 @@ HYPOTHESIS (🔴):
     Logic consistent với Hamilton/Trivers, nhưng CHƯA có direct evidence
     cho "chain length" specifically as selection pressure.
     Tầng 1-3 ĐÃ ĐỦ giải thích chain dài ở cá nhân → Tầng 4 = optional.
+
+
+⚠️ BLACKBOX 2: Valence complexity — chuỗi valence dài (trauma compiled mờ
+  + hormone shift + hardware variants + multi-layer interaction) gần như
+  incomputable. Framework predict PATTERN, không predict INSTANCE cụ thể.
+  Chi tiết: Research/Meta-Impact/Framework-Boundaries.md §Blackbox 2.
 
 
 CÂU HỎI MỞ:

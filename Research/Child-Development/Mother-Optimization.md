@@ -1,98 +1,160 @@
-# Mother Optimization — Tối Ưu Hóa Từ Trước Khi Sinh
+---
+title: Mother-Optimization — Tối Ưu Hóa Từ Trước Khi Sinh
+version: 2.0
+created: 2026-04-01
+updated: 2026-04-21
+status: REFERENCE v2.0
+scope: |
+  PRACTICAL FILE: Mẹ = MÔI TRƯỜNG xây dựng HARDWARE cho con.
+  Giải thích CƠ CHẾ: cortisol mẹ, dinh dưỡng, toxins, epigenetics
+  ảnh hưởng não thai NHƯ THẾ NÀO — và mẹ CÓ THỂ tối ưu CÁI GÌ.
+  Nguyên tắc xuyên suốt: "Optimize cái CÓ THỂ, accept cái KHÔNG THỂ."
+  File NÀY = MEDICAL-HEAVY — dựa y khoa chính thống, framework lens nhẹ.
+purpose: |
+  File NÀY cho guidance thực tế prenatal — Mechanism.md giải thích CƠ CHẾ.
+  Mẹ đọc file này để HIỂU + HÀNH ĐỘNG. Muốn hiểu TẠI SAO → đọc Mechanism.
+  ĐẶC THÙ: mẹ = environment → đo lường qua y học, không qua framework parameters.
+  Framework chỉ cung cấp CÁCH NHÌN (cortisol direction, baseline calibration),
+  không cung cấp cơ chế trung tâm (khác Natural-Dev, Skill-Intro).
+position: |
+  Research/Child-Development/ — TẦNG 2 trong kiến trúc 5 tầng.
+  TẦNG 1: Core-Deep-Dive/ (não hoạt động thế nào)
+  TẦNG 2: Research/Child-Development/ (con người phát triển 0-6) ← ĐÂY
+  TẦNG 3: Research/Education/ (nguyên lý giáo dục bất biến)
+  TẦNG 4: Applications/Education/ (ứng dụng per-era)
+  TẦNG 5: Country/ (per-country)
+dependencies:
+  - Child-Development-Mechanism.md — KHUNG NGUYÊN LÝ v7.8 (reference chính)
+  - Core-v7.8-Draft.md — cycle architecture, observation parameters
+  - Cortisol-Baseline.md v2.0 — amplifier reframe, direction > level, 7 modes
+  - Chunk.md v2.0 — chunk substrate, compile, approach/avoidance tag
+  - 02-Womb-to-Birth-Baseline.md — prenatal baseline, birth moment physiology
+  - PFC-Development.md — PFC reframe, 5 empirical pillars, Hodel 2018
+  - Feeling.md v2.0 — 7-layer fidelity gradient
+  - Connection.md — hardware drive, attachment chunks
+supersedes: |
+  Mother-Optimization.md v1.0 (2026-04-01, v7.5 lens)
+  Backup: Research/Child-Development/backup/Mother-Optimization-v1.0-backup.md
+language: Tiếng Việt primary + English technical terms
+confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+caution: |
+  ⚠️ CẢNH BÁO Y TẾ QUAN TRỌNG:
+  File này KHÔNG thay thế bác sĩ sản khoa, bác sĩ dinh dưỡng, hoặc
+  chuyên gia tâm lý. Thai kỳ = LĨNH VỰC Y KHOA — mọi quyết định
+  y tế (thuốc, supplement, chế độ ăn đặc biệt, vận động) CẦN trao đổi
+  với bác sĩ đang theo dõi thai.
+  File này cung cấp FRAMEWORK HIỂU BIẾT — giúp mẹ hiểu CƠ CHẾ,
+  KHÔNG phải phác đồ điều trị.
+  ⚠️ VỀ CẢM GIÁC TỘI LỖI:
+  Nếu bạn đang đọc file này VÀ đã/đang mang thai mà chưa biết
+  những thông tin này — BẠN KHÔNG CÓ LỖI.
+  Não thai nhi CỰC KỲ plastic (linh hoạt). Prenatal ≠ destiny.
+  Mục đích = BIẾT ĐỂ HÀNH ĐỘNG TỐT HƠN TỪ BÂY GIỜ,
+  KHÔNG PHẢI để tự trách quá khứ.
+---
 
-> **Trạng thái:** DRAFT
-> **Ngày:** 2026-04-01
-> **Mục đích:** Hiểu HARDWARE của con hình thành thế nào TRƯỚC khi sinh —
-> và mẹ có thể TỐI ƯU cái gì trong khả năng
-> **Vị trí:** File 1/3 trong bộ Child-Development (TRƯỚC → Natural-Dev → Skill-Intro)
-> **Nguyên tắc:** "Optimize cái CÓ THỂ, accept cái KHÔNG THỂ"
-> **Tiền đề:** Core-v7.5-Draft.md (framework gốc),
-> Natural-Development.md (hardware khi sinh → file này = hardware TRƯỚC sinh)
+# Mother-Optimization — Tối Ưu Hóa Từ Trước Khi Sinh
+
+> **Từ 1 tế bào → 86 tỷ neuron trong 40 tuần.**
+> Mẹ = environment builder → hardware quality.
 >
-> **⚠️ CẢNH BÁO Y TẾ QUAN TRỌNG:**
-> **File này KHÔNG thay thế bác sĩ sản khoa, bác sĩ dinh dưỡng, hoặc
-> chuyên gia tâm lý.** Thai kỳ = LĨNH VỰC Y KHOA — mọi quyết định
-> y tế (thuốc, supplement, chế độ ăn đặc biệt, vận động) CẦN trao đổi
-> với bác sĩ đang theo dõi thai.
+> Nhưng file này KHÁC 3 file còn lại trong bộ Child-Development.
+> Natural-Dev, Skill-Intro: con ĐANG phát triển → đo bằng framework parameters.
+> File này: mẹ = MÔI TRƯỜNG → đo bằng y khoa chính thống.
 >
-> File này cung cấp FRAMEWORK HIỂU BIẾT — giúp mẹ hiểu CƠ CHẾ,
-> KHÔNG phải phác đồ điều trị.
+> Framework chỉ cung cấp CÁCH NHÌN:
+> — Cortisol = amplifier, không phải "stress hormone" (Cortisol-Baseline.md v2.0)
+> — Direction > level: cùng cortisol, novelty-direction ≠ threat-direction
+> — Baseline calibration: HPA axis thai SET UP approach/avoidance tendency sau sinh
+> — PFC hardware online từ prenatal (Hodel 2018) — Mechanism §1
 >
-> **⚠️ VỀ CẢM GIÁC TỘI LỖI:**
-> **Nếu bạn đang đọc file này VÀ đã/đang mang thai mà chưa biết
-> những thông tin này — BẠN KHÔNG CÓ LỖI.**
-> Não thai nhi CỰC KỲ plastic (linh hoạt). Prenatal ≠ destiny.
-> Mục đích = BIẾT ĐỂ HÀNH ĐỘNG TỐT HƠN TỪ BÂY GIỜ,
-> KHÔNG PHẢI để tự trách quá khứ.
->
-> **Quy ước:** 🟢 Research support | 🟡 Framework inference | 🔴 Hypothesis
+> Còn lại = Y KHOA: dinh dưỡng, toxins, epigenetics, thể chất, tinh thần.
+> Mẹ KHÔNG cần hiểu framework để đọc file này.
+> Mẹ CẦN hiểu: optimize cái CÓ THỂ, accept cái KHÔNG THỂ.
+> Good enough IS good enough.
 
 ---
 
 ## Mục lục
 
-0. Mục đích — Tại sao file này quan trọng
-1. Não thai nhi hình thành thế nào — Timeline trimester-by-trimester
-2. 4 yếu tố quyết định hardware — Gen, Fetal Activity, Maternal State, Random
-3. Cortisol mẹ × não thai nhi — Cơ chế stress
-4. Dinh dưỡng × não thai nhi — Building materials
-5. Chất cần tránh — Toxins và rủi ro
-6. Thể chất + Tinh thần mẹ — Hai trụ cột
-7. Epigenetics — Thế hệ trước
-8. Cái mẹ KIỂM SOÁT ĐƯỢC vs KHÔNG — Bảng rõ ràng
-9. Tổng hợp per-trimester — Hướng dẫn thực tế
-10. Honest Assessment
-11. Câu hỏi mở
-12. Kết nối
+- §0 — VỊ TRÍ VÀ CÁCH ĐỌC
+- §1 — NÃO THAI NHI HÌNH THÀNH THẾ NÀO — TIMELINE TRIMESTER-BY-TRIMESTER
+- §2 — 4 YẾU TỐ QUYẾT ĐỊNH HARDWARE
+- §3 — CORTISOL MẸ × NÃO THAI NHI — CƠ CHẾ STRESS
+- §4 — DINH DƯỠNG × NÃO THAI NHI — BUILDING MATERIALS
+- §5 — CHẤT CẦN TRÁNH — TOXINS VÀ RỦI RO
+- §6 — THỂ CHẤT + TINH THẦN MẸ — HAI TRỤ CỘT
+- §7 — EPIGENETICS — THẾ HỆ TRƯỚC
+- §8 — CÁI MẸ KIỂM SOÁT ĐƯỢC vs KHÔNG — BẢNG RÕ RÀNG
+- §9 — TỔNG HỢP PER-TRIMESTER — HƯỚNG DẪN THỰC TẾ
+- §10 — HONEST ASSESSMENT
+- §11 — CÂU HỎI MỞ
+- §12 — CROSS-REFERENCES
 
 ---
 
-## 0. TẠI SAO FILE NÀY QUAN TRỌNG
+## §0 — VỊ TRÍ VÀ CÁCH ĐỌC
+
+### §0.1 — Bản đồ 4 files
 
 ```
-VỊ TRÍ TRONG BỘ 3:
+CẤU TRÚC BỘ 4 FILES:
 
-  Mother-Optimization    → Natural-Development     → Skill-Introduction
-  (HARDWARE formation)    (WIRING qua experience)   (SKILL building)
-  TRƯỚC SINH              SAU SINH 0-6              SONG SONG 0-6
-       [FILE NÀY]
+  Child-Development-Mechanism.md  ← KHUNG NGUYÊN LÝ v7.8
+    ↑ referenced by ↑
+  Mother-Optimization.md  →  Natural-Development.md  →  Skill-Introduction.md
+  (prenatal hardware)         (0-6 tự nhiên)              (0-6 kỹ năng)
+  [FILE NÀY]
 
-  Chất lượng HARDWARE → quyết định RANGE → Natural-Dev + Skill-Intro fill RANGE đó
-  = File này = XUẤT PHÁT ĐIỂM của xuất phát điểm
+  Mother-Opt: mẹ build MÔI TRƯỜNG → hardware con hình thành
+  Natural-Dev: hardware khi sinh → body tự compile chunks qua trải nghiệm
+  Skill-Intro: 4-step progression → kỹ năng build TRÊN hardware + chunks
+  Mechanism: CƠ CHẾ v7.8 đằng sau cả 3 files trên
 
-
-NGHỊCH LÝ:
-  Natural-Dev nói: não sơ sinh có ~86 tỷ neuron, axon chính đã mọc,
-  brainstem hoàn chỉnh, body-base thuần khiết...
-  → Tất cả những thứ đó hình thành Ở ĐÂU?
-  → Trong bụng mẹ. Trong 40 tuần. Từ 1 TẾ BÀO duy nhất.
-
-  = Thai kỳ = "nhà máy sản xuất" toàn bộ PHẦN CỨNG
-  = Chất lượng "nhà máy" → chất lượng "sản phẩm"
-  = Mẹ = NGƯỜI VẬN HÀNH nhà máy (phần lớn, không phải toàn bộ)
-
-
-CÁI FILE NÀY LÀM:
-  ① Giải thích CƠ CHẾ: não thai hình thành thế nào, qua mấy giai đoạn
-  ② Chỉ ra 4 YẾU TỐ quyết định hardware (gen, fetal activity, mẹ, random)
-  ③ Focus vào cái mẹ CÓ THỂ ảnh hưởng: cortisol, dinh dưỡng, toxins, thể chất/tinh thần
-  ④ PHÂN BIỆT RÕ: cái kiểm soát ĐƯỢC vs KHÔNG
-  ⑤ Tổng hợp thành GUIDANCE thực tế per-trimester
-
-
-CÁI FILE NÀY KHÔNG LÀM:
-  ✗ KHÔNG thay thế bác sĩ sản khoa
-  ✗ KHÔNG cho phác đồ y tế cụ thể (liều lượng thuốc, supplement chính xác)
-  ✗ KHÔNG phán xét mẹ nào (mọi hoàn cảnh đều KHÁC)
-  ✗ KHÔNG hứa "làm đúng = con hoàn hảo" (genetics + random = ngoài kiểm soát)
+READER FLOW:
+  Muốn hiểu CƠ CHẾ phát triển → đọc Mechanism trước
+  Muốn hiểu THAI KỲ → đọc file này, quay lại Mechanism khi cần
+  Muốn hiểu SAU SINH → Natural-Dev + Skill-Intro
 ```
 
-### ⚠️ GUILT PREVENTION — ĐỌC TRƯỚC KHI ĐỌC FILE
+### §0.2 — File này KHÁC gì 3 file kia
 
 ```
-LƯU Ý XUYÊN SUỐT FILE NÀY:
+ĐẶC THÙ CỦA MOTHER-OPTIMIZATION:
 
-  ① "File này = framework, KHÔNG PHẢI phán xét"
+  3 FILE KIA: framework parameters = TRUNG TÂM
+    → Approach/avoidance tags, chunk compile channels, PFC reframe,
+      body signal, feeling layers, autonomy arc...
+    → Đo bằng: observation parameters, chunk dynamics, body state
+
+  FILE NÀY: Y KHOA = TRUNG TÂM, framework = CÁCH NHÌN
+    → Cortisol mechanism, dinh dưỡng, toxins, epigenetics
+    → Đo bằng: nghiên cứu y học, khuyến cáo WHO/CDC/ACOG
+    → Framework CHỈ cung cấp:
+      ① Cortisol = amplifier, KHÔNG phải "stress hormone"
+        (Cortisol-Baseline.md v2.0 — reframe quan trọng)
+      ② Direction > level: cùng cortisol nhưng novelty ≠ threat
+        (Mechanism §8.4 — áp dụng cho cortisol MẸ)
+      ③ Baseline calibration: HPA axis thai nhi CALIBRATE
+        từ cortisol environment mẹ → set up approach/avoidance
+        tendency cho cuộc đời sau sinh (Mechanism §8.3)
+      ④ PFC hardware online từ prenatal (Hodel 2018)
+        → Không phải "PFC chưa có" → "chunks chưa compile đủ"
+        (Mechanism §1)
+
+  TẠI SAO KHÁC?
+    → Vì mẹ = MÔI TRƯỜNG, không phải CHỦ THỂ đang phát triển
+    → Không thể áp framework parameters lên mẹ
+    → Chỉ có thể: hiểu y khoa + thêm framework lens nơi HỢP LÝ
+    → = "Bác sĩ + framework" — KHÔNG phải "framework thay bác sĩ"
+```
+
+### §0.3 — Guilt Prevention — ĐỌC TRƯỚC KHI ĐỌC FILE
+
+```
+⚠️ LƯU Ý XUYÊN SUỐT FILE NÀY:
+
+  ① "File này = framework hiểu biết, KHÔNG PHẢI phán xét"
      → Mọi thông tin = để HIỂU CƠ CHẾ
      → KHÔNG để tự trách mình hoặc trách người khác
 
@@ -104,7 +166,7 @@ LƯU Ý XUYÊN SUỐT FILE NÀY:
   ③ "Biết BÂY GIỜ → áp dụng cho tương lai, ĐỪNG dùng để tự trách quá khứ"
      → Con đã sinh? → Postnatal environment CÓ THỂ compensate RẤT NHIỀU
      → Brain plasticity = cơ chế recovery mạnh nhất của não
-     → = File Natural-Development.md + Skill-Introduction.md = bước tiếp theo
+     → = File Natural-Development.md v2.0 + Skill-Introduction.md v2.0 = bước tiếp
 
   ④ "Brain trẻ CỰC plastic → prenatal ≠ destiny"
      → Prenatal = SET UP RANGE (rộng hay hẹp)
@@ -118,20 +180,75 @@ LƯU Ý XUYÊN SUỐT FILE NÀY:
      → "Good enough mother" (Winnicott) = áp dụng ngay từ THAI KỲ
 ```
 
+### §0.4 — Hướng dẫn đọc + Thuật ngữ v7.8
+
+```
+HƯỚNG DẪN ĐỌC:
+
+  Bố mẹ / người quan tâm thực tế:
+    → §0 (hiểu vị trí) → §1 (timeline) → §3-§6 (cơ chế + thực tế)
+    → §8 (bảng kiểm soát) → §9 (per-trimester guide)
+    → Bỏ qua §7 (epigenetics) nếu không cần depth
+
+  Deep reader (muốn hiểu framework + y khoa):
+    → Đọc tuần tự §0 → §12
+    → Cross-ref Mechanism.md, Cortisol-Baseline.md v2.0
+
+  Mẹ đang mang thai + muốn action nhanh:
+    → §9 (tổng hợp per-trimester) → đọc ngược §3-§6 khi cần hiểu thêm
+
+
+THUẬT NGỮ V7.8 DÙNG TRONG FILE (nhẹ — file này y khoa là chính):
+
+  Cortisol = amplifier
+    → KHÔNG phải "stress hormone" → là "change-readiness amplifier"
+    → Vừa phải + recovery = TỐT. Quá nhiều + không recovery = VẤN ĐỀ.
+    → Chi tiết: Cortisol-Baseline.md v2.0
+
+  Direction > level
+    → Cùng mức cortisol, KHÁC direction → KHÁC outcome
+    → Novelty-direction: hào hứng, tò mò → approach
+    → Threat-direction: sợ hãi, áp lực → avoidance
+    → Áp dụng cho mẹ: cortisol từ excitement ≠ cortisol từ lo lắng
+    → Chi tiết: Mechanism §8.4
+
+  Baseline calibration
+    → HPA axis thai nhi "đọc" cortisol environment → calibrate baseline
+    → Mẹ cortisol cao mãn tính → con CÓ THỂ sinh ra với baseline CAO
+    → Baseline ảnh hưởng approach/avoidance tendency suốt đời
+    → NHƯNG: CÓ THỂ recalibrate SAU SINH (brain plastic!)
+    → Chi tiết: Mechanism §8.3
+
+  Chunks compile (thay vì "não wire")
+    → Trải nghiệm → não compile thành chunks (đơn vị kiến thức)
+    → Thai nhi ĐÃ compile chunks: giọng mẹ, nhịp tim, nhịp ngôn ngữ
+    → Chi tiết: Chunk.md v2.0, 02-Womb-to-Birth-Baseline.md
+
+  PFC hardware online từ prenatal
+    → PFC KHÔNG phải "chưa phát triển" → hardware có sẵn từ trong bụng
+    → Cái thiếu = compiled chunks + myelination + pruning
+    → Chi tiết: Mechanism §1, PFC-Development.md
+
+  🟢 🟡 🔴 = 3-tier confidence
+    → 🟢 Research support mạnh (meta-analysis, RCT, guidelines)
+    → 🟡 Framework synthesis / evidence moderate
+    → 🔴 Hypothesis / emerging research
+```
+
 ---
 
-## 1. NÃO THAI NHI HÌNH THÀNH THẾ NÀO — TIMELINE
+## §1 — NÃO THAI NHI HÌNH THÀNH THẾ NÀO — TIMELINE
 
 ```
 TỪ 1 TẾ BÀO → 86 TỶ NEURON TRONG 40 TUẦN
 
-  = Quá trình XÂY DỰNG phức tạp nhất trong cơ thể người
+  = Quá trình xây dựng phức tạp nhất trong cơ thể người
   = Mỗi giai đoạn có vulnerability RIÊNG
   = Không có "1 giai đoạn an toàn" — CẢ THAI KỲ đều quan trọng
   = NHƯNG: mỗi giai đoạn có FOCUS KHÁC → hiểu = biết cái gì cần chú ý KHI NÀO
 ```
 
-### 1.1 Trimester 1 (tuần 1-12) — NỀN TẢNG CẤU TRÚC 🟢
+### §1.1 — Trimester 1 (tuần 1-12) — NỀN TẢNG CẤU TRÚC 🟢
 
 ```
 = "ĐỔ MÓNG NHÀ" — sai ở đây → ảnh hưởng CẤU TRÚC toàn bộ
@@ -150,12 +267,12 @@ TUẦN 3-4: NEURAL TUBE HÌNH THÀNH
   → = Folic acid phải bổ sung TRƯỚC khi có thai (pre-conception)
   → CDC khuyến cáo: tất cả phụ nữ trong độ tuổi sinh đẻ
     nên bổ sung 400μg folic acid/ngày — KHÔNG CHỜ biết có thai
-  → 🟢 Đây là 1 trong các khuyến cáo Y TẾ có evidence MẠNH NHẤT
+  → 🟢 Đây là 1 trong các khuyến cáo y tế có evidence MẠNH NHẤT
 
 TUẦN 5-8: NÃO BẮT ĐẦU PHÂN VÙNG
   → Từ ống thần kinh → phân hóa thành 3 vùng chính:
     → Forebrain (prosencephalon) — tương lai: cerebrum, thalamus
-    → Midbrain (mesencephalon) — tương lai: VTA, substantia nigra (dopamine!)
+    → Midbrain (mesencephalon) — tương lai: VTA, substantia nigra (dopamine)
     → Hindbrain (rhombencephalon) — tương lai: cerebellum, brainstem
   → = "Bản vẽ kiến trúc" đang được triển khai
   → Giai đoạn này rất nhạy cảm với TOXINS và INFECTIONS
@@ -179,7 +296,7 @@ TUẦN 7 TRỞ ĐI: NEUROGENESIS PEAK
   └─────────────────────────────────────────────────────────────┘
 ```
 
-### 1.2 Trimester 2 (tuần 13-26) — DI CƯ + KẾT NỐI 🟢
+### §1.2 — Trimester 2 (tuần 13-26) — DI CƯ + KẾT NỐI 🟢
 
 ```
 = "XÂY TƯỜNG, KÉO DÂY ĐIỆN" — neuron di chuyển tới vị trí và bắt đầu kết nối
@@ -189,41 +306,45 @@ NEURONAL MIGRATION (di cư neuron):
   → Phải DI CƯ tới vị trí chính xác (cortex, cerebellum, etc.)
   → Guided by: gen + chemical signals (giống GPS cho neuron)
   → Migration SAI → neuron ở SAI CHỖ → ảnh hưởng chức năng
-  → = Giai đoạn cần "đường đi thông thoáng" — toxins có thể disrupted paths
+  → = Giai đoạn cần "đường đi thông thoáng" — toxins có thể disrupt paths
 
 AXON GROWTH (mọc sợi trục):
   → Neuron tại vị trí → bắt đầu mọc axon (dây dẫn tín hiệu)
   → Growth cones "dò đường" → tìm target neuron để kết nối
-  → = Bắt đầu WIRING — chưa phải synapse hoàn chỉnh, nhưng đường dẫn ĐANG MỌC
+  → = Bắt đầu tạo CONNECTIONS — chưa phải synapse hoàn chỉnh,
+    nhưng đường dẫn ĐANG MỌC
 
 SYNAPTOGENESIS BẮT ĐẦU (nhưng chưa peak):
   → Synapse (điểm kết nối) bắt đầu hình thành
   → CHƯA bùng nổ — peak sẽ SAU SINH (0-2 tuổi — xem Natural-Dev §1)
-  → Nhưng foundation wiring ĐANG được đặt
+  → Nhưng foundation connections ĐANG được đặt
 
 SENSORY DEVELOPMENT:
   → ~Tuần 20: hệ THÍNH GIÁC bắt đầu hoạt động 🟢
     → Thai NGHE ĐƯỢC: giọng mẹ (rõ nhất), nhịp tim mẹ, tiếng ruột,
       giọng bố (mờ hơn), âm nhạc (mờ), tiếng ồn lớn
-    → = Não đang WIRE vùng thính giác qua input THẬT
+    → = Não đang compile chunks thính giác qua input THẬT
+      (02-Womb-to-Birth-Baseline.md: newborns prefer stories mẹ đọc
+      khi mang thai — DeCasper & Spence 1986 🟢)
     → = Lý do trẻ sơ sinh NHẬN RA giọng mẹ ngay khi sinh (đã nghe ~20 tuần)
   → Thị giác: đang phát triển nhưng ÍT input (bụng = tối)
-    → → Sau sinh: nhìn MỜ (~20-30cm) — chưa wire nhiều
+    → → Sau sinh: nhìn MỜ (~20-30cm) — chưa compile nhiều visual chunks
   → Xúc giác: phát triển sớm → thai cảm nhận chuyển động, áp lực
 
 FETAL MOVEMENT:
   → Thai đạp, xoay, mút ngón tay 🟢
   → = KHÔNG phải "quậy phá" — là TESTING neural circuits
-  → Motor cortex → gửi tín hiệu → cơ → movement → feedback → wire mạnh hơn
+  → Motor cortex → gửi tín hiệu → cơ → movement → feedback
+    → compile motor chunks (Mechanism §2 — compile qua repetition)
   → = "Use it or keep it" ĐÃ BẮT ĐẦU trong bụng
   → Mẹ: cảm nhận thai đạp từ ~tuần 18-25 (lần đầu "bướm bay", sau = rõ)
 
   TRIMESTER 2 — TÓM TẮT:
   ┌─────────────────────────────────────────────────────────────┐
   │ ĐANG XẢY RA:  Neuron di cư + axon mọc + nghe bắt đầu +   │
-  │                thai đạp (testing circuits)                  │
-  │ NHẠY CẢM VỚI: Toxins ảnh hưởng migration, stress ảnh      │
-  │                hưởng cortisol environment                   │
+  │                thai đạp (testing + compiling motor chunks)  │
+  │ NHẠY CẢM VỚI: Toxins ảnh hưởng migration, cortisol mẹ    │
+  │                bắt đầu ảnh hưởng environment               │
   │ MẸ LÀM GÌ:    Dinh dưỡng đủ (DHA, iron, protein)         │
   │                Exercise moderate (blood flow tốt)           │
   │                Stress management bắt đầu quan trọng         │
@@ -231,7 +352,7 @@ FETAL MOVEMENT:
   └─────────────────────────────────────────────────────────────┘
 ```
 
-### 1.3 Trimester 3 (tuần 27-40) — HOÀN THIỆN + CHUẨN BỊ 🟢
+### §1.3 — Trimester 3 (tuần 27-40) — HOÀN THIỆN + CHUẨN BỊ 🟢
 
 ```
 = "HOÀN THIỆN NỘI THẤT, KIỂM TRA CHẤT LƯỢNG" — chuẩn bị "xuất xưởng"
@@ -242,8 +363,12 @@ MYELINATION BẮT ĐẦU:
     → Brainstem TRƯỚC (thở, tim, phản xạ) — cần NGAY khi sinh
     → Sensory tiếp (nghe, thấy cơ bản)
     → Motor sau
-    → PFC CUỐI CÙNG (mãi tới ~25 tuổi mới xong)
-  → = "Ưu tiên cái cần SỐNG TRƯỚC, cái cần SUY NGHĨ SAU"
+    → PFC CUỐI CÙNG về MYELINATION (tới ~25 tuổi mới xong)
+  → ⚠️ V7.8 REFRAME (Mechanism §1): PFC HARDWARE online từ prenatal
+    (Hodel 2018 🟢). Cái chậm = MYELINATION (tốc độ), KHÔNG phải
+    hardware (cấu trúc). PFC có sẵn, chỉ "bandwidth thấp" — giống
+    mạng 2G vẫn gọi được, chỉ chậm hơn 5G.
+  → = "Ưu tiên MYELIN cho cái cần SỐNG TRƯỚC, cái cần NHANH SAU"
   → Myelination cần: cholesterol, lipids, protein → DINH DƯỠNG mẹ quan trọng
 
 SYNAPTOGENESIS TĂNG TỐC:
@@ -258,14 +383,16 @@ BRAIN GROWTH — KÍCH THƯỚC:
     → Gyrification pattern: phần nào ĐÃ có từ gen, phần nào từ development
   → Trọng lượng não: từ ~100g (tuần 28) → ~350-400g khi sinh
     → So sánh: người lớn ~1400g → não sơ sinh = ~25% kích thước adult
-    → Nhưng ~86 tỷ neuron ĐÃ CÓ → sau sinh chủ yếu là WIRE, không phải tạo thêm
+    → Nhưng ~86 tỷ neuron ĐÃ CÓ → sau sinh chủ yếu là compile chunks,
+      không phải tạo thêm neuron
 
 REM SLEEP CỦA THAI NHI:
-  → Thai nhi CÓ REM sleep (chuyển động mắt nhanh)
+  → Thai nhi CÓ REM sleep (chuyển động mắt nhanh) 🟢
   → = Não đang TỰ TEST circuits mà không cần input bên ngoài 🟡
-  → Giống Natural-Dev §3.2: trẻ sơ sinh 50% giấc ngủ = REM (gấp đôi người lớn)
+  → Giống Natural-Dev §3: trẻ sơ sinh 50% giấc ngủ = REM (gấp đôi người lớn)
   → Thai nhi có thể REM CÒN NHIỀU HƠN → não "chạy thử" liên tục
-  → = Đây là lý do: để thai "yên tĩnh" là tốt — não đang LÀM VIỆC trong đó
+  → = Đây là lý do: để thai "yên tĩnh" là tốt — não đang COMPILE trong đó
+  → (02-Womb-to-Birth-Baseline.md: REM từ ~30 tuần, offline testing)
 
 "ASSEMBLY LINE" CUỐI:
   → Kiểm tra chất lượng trước "xuất xưởng":
@@ -279,25 +406,24 @@ REM SLEEP CỦA THAI NHI:
   ┌─────────────────────────────────────────────────────────────┐
   │ ĐANG XẢY RA:  Myelination + brain growth nhanh nhất +      │
   │                cortex folding + REM testing + practice all   │
-  │ NHẠY CẢM VỚI: Dinh dưỡng (não đang GROW), cortisol (HPA   │
-  │                axis đang calibrate), premature birth (chưa  │
-  │                "xong assembly line")                         │
+  │ NHẠY CẢM VỚI: Dinh dưỡng (não đang GROW), cortisol mẹ    │
+  │                (HPA axis thai đang CALIBRATE — §3), sinh    │
+  │                non (chưa "xong assembly line")               │
   │ MẸ LÀM GÌ:    Sleep ưu tiên cao nhất (mẹ nghỉ = não con   │
   │                được build trong điều kiện tốt)              │
   │                Dinh dưỡng duy trì (lipids, protein, DHA)    │
-  │                Cortisol management (cuối thai kỳ: stress     │
-  │                thường tăng — awareness = quan trọng)         │
+  │                Cortisol management (cuối thai kỳ: bộ lọc    │
+  │                nhau thai yếu hơn — §3.1)                    │
   └─────────────────────────────────────────────────────────────┘
 ```
 
-### 1.4 Tổng quan timeline — Visual
+### §1.4 — Tổng quan timeline — Visual
 
 ```
   Tuần:  4     8     12    16    20    24    28    32    36    40
          ├─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
          │     TRIMESTER 1  │     TRIMESTER 2  │    TRIMESTER 3  │
          │                  │                  │                 │
-
   Neural │████│              │                  │                 │
   tube   │    │              │                  │                 │
          │    │              │                  │                 │
@@ -311,7 +437,9 @@ REM SLEEP CỦA THAI NHI:
   growth │    │              │                  │                 │
          │    │              │                  │                 │
   Hearing│    │              │     │████████████████████████│     │
-         │    │              │     (~tuần 20)   │                 │
+  (+chunk│    │              │     (~tuần 20)   │                 │
+  compile│    │              │                  │                 │
+  begins)│    │              │                  │                 │
          │    │              │                  │                 │
   Myeli- │    │              │                  │ │████████→(tiếp │
   nation │    │              │                  │         tục tới │
@@ -321,7 +449,12 @@ REM SLEEP CỦA THAI NHI:
   (size) │    │              │                  │                 │
          │    │              │                  │                 │
   REM    │    │              │              │████████████████████│ │
-  sleep  │    │              │                  │                 │
+  sleep  │    │              │              (offline compile)     │
+  (test) │    │              │                  │                 │
+         │    │              │                  │                 │
+  HPA    │    │              │                  │    │████████████│
+  calib- │    │              │                  │    (baseline    │
+  ration │    │              │                  │     being SET)  │
 
   ⚠️ Vulnerability: CẢ THAI KỲ, nhưng mỗi giai đoạn = vùng KHÁC bị ảnh hưởng
     → Toxin tuần 4 ≠ toxin tuần 30 (khác vùng, khác mức độ)
@@ -330,20 +463,20 @@ REM SLEEP CỦA THAI NHI:
 
 ---
 
-## 2. 4 YẾU TỐ QUYẾT ĐỊNH HARDWARE
+## §2 — 4 YẾU TỐ QUYẾT ĐỊNH HARDWARE
 
 ```
 HARDWARE CỦA CON ĐƯỢC QUYẾT ĐỊNH BỞI 4 YẾU TỐ:
 
   ① GEN (genetics)            — bản thiết kế
-  ② FETAL ACTIVITY             — thai tự test
+  ② FETAL ACTIVITY             — thai tự test + compile
   ③ CƠ ĐỊA MẸ (maternal state) — môi trường xây dựng
   ④ NGẪU NHIÊN (stochastic)    — random variation
 
-  → Mẹ KIỂM SOÁT: ③ (phần lớn) + gián tiếp ②  (qua sức khỏe)
+  → Mẹ KIỂM SOÁT: ③ (phần lớn) + gián tiếp ② (qua sức khỏe)
   → Mẹ KHÔNG KIỂM SOÁT: ① + ④
   → = File này focus vào ③ — cái mẹ CÓ THỂ tối ưu
-  → = §3-§8 sẽ detail CƠ CHẾ và THỰC TẾ của ③
+  → = §3-§7 sẽ detail CƠ CHẾ và THỰC TẾ của ③
 
   ⚠️ QUAN TRỌNG:
   Hiểu 4 yếu tố = hiểu TẠI SAO
@@ -352,7 +485,7 @@ HARDWARE CỦA CON ĐƯỢC QUYẾT ĐỊNH BỞI 4 YẾU TỐ:
     → = ĐỪNG tuyệt đối hóa bất kỳ yếu tố nào
 ```
 
-### 2.1 Gen (Genetics) — Bản thiết kế 🟢
+### §2.1 — Gen (Genetics) — Bản thiết kế 🟢
 
 ```
 GEN = BLUEPRINT, KHÔNG PHẢI DESTINY
@@ -362,7 +495,6 @@ GEN = BLUEPRINT, KHÔNG PHẢI DESTINY
     → Cấu trúc não tổng quát (kích thước vùng, kết nối cơ bản)
     → Receptor types và density:
       → DRD4 (dopamine) — ảnh hưởng novelty-seeking, attention spectrum
-        (xem Attention-Spectrum.md)
       → COMT (enzyme phân hủy dopamine/norepinephrine ở PFC)
         → COMT chậm = PFC "nóng" hơn = tập trung tốt nhưng dễ overwhelm
         → COMT nhanh = PFC "mát" hơn = linh hoạt nhưng dễ phân tán
@@ -379,7 +511,7 @@ GEN = BLUEPRINT, KHÔNG PHẢI DESTINY
   GEN = RANGE, KHÔNG PHẢI FIXED POINT:
     → VD: gen cho IQ range 90-130 (rộng!)
     → Environment quyết định LANDING POINT trong range đó
-    → Mother-Optimization + Natural-Dev + Skill-Intro = FILL range tốt nhất
+    → Mother-Opt + Natural-Dev + Skill-Intro = FILL range tốt nhất
     → = Gen đặt GIỚI HẠN TRÊN, environment quyết định CÓ ĐẠT ĐƯỢC KHÔNG
 
   MẸ VÀ GEN:
@@ -388,19 +520,19 @@ GEN = BLUEPRINT, KHÔNG PHẢI DESTINY
     → = Chấp nhận gen + tối ưu environment = strategy đúng
 ```
 
-### 2.2 Fetal Activity — Thai tự test 🟢
+### §2.2 — Fetal Activity — Thai tự test + compile 🟢
 
 ```
 THAI ĐANG LÀM GÌ TRONG ĐÓ?
 
-  → TESTING neural circuits. Liên tục.
+  → TESTING neural circuits VÀ COMPILING chunks. Liên tục.
 
   HÀNH VI THAI NHI = BRAIN DEVELOPMENT PROGRAM:
-  (giống Natural-Dev §2 — nhưng đây là VERSION TRƯỚC SINH)
+  (Mechanism §2 — chunks compile qua repetition + multi-modal + sleep)
 
-    ① ĐẠP / XỬ ĐỘNG:
+    ① ĐẠP / CỬ ĐỘNG:
        → Motor cortex → gửi tín hiệu → cơ → movement → feedback
-       → = Test motor circuits → circuits ACTIVE → GIỮ LẠI (pruning logic)
+       → = Test motor circuits → circuits ACTIVE → compile motor chunks
        → Tuần 8-9: bắt đầu movements (mẹ chưa cảm nhận)
        → Tuần 18-25: mẹ bắt đầu cảm nhận ("bướm bay" → "đạp rõ")
        → Cuối thai kỳ: ít không gian → ít movement ≠ ít phát triển
@@ -408,7 +540,7 @@ THAI ĐANG LÀM GÌ TRONG ĐÓ?
     ② MÚT NGÓN TAY:
        → Oral motor practice (chuẩn bị cho BÚ)
        → Tactile feedback (xúc giác miệng + tay)
-       → Self-soothing prototype (giống Natural-Dev §2.1)
+       → Self-soothing prototype (giống Natural-Dev §2 — hành vi tự nhiên)
        → Siêu âm thấy: thai mút ngón từ ~tuần 12-14
 
     ③ NUỐT NƯỚC ỐI:
@@ -419,18 +551,19 @@ THAI ĐANG LÀM GÌ TRONG ĐÓ?
     ④ THỞ GIẢ (breathing movements):
        → KHÔNG thở khí — luyện CƠ hô hấp + neural control
        → Chuẩn bị cho HƠI THỞ ĐẦU TIÊN khi sinh
+       → (02-Womb-to-Birth-Baseline.md: cần ~60-100 cm H₂O negative pressure)
 
     ⑤ REM SLEEP:
        → Brain tự test circuits mà KHÔNG CẦN input bên ngoài
-       → Thai nhi ngủ RẤT NHIỀU → phần lớn = brain đang WORK
-       → (chi tiết: xem §1.3 ở trên + Natural-Dev §3)
+       → Thai nhi ngủ RẤT NHIỀU → phần lớn = brain đang compile offline
+       → (Mechanism §2.1 kênh ④: sleep consolidation = compile + repair)
 
   MẸ VÀ FETAL ACTIVITY:
-    → ĐỪNG lo thai đạp nhiều → đó là NÃO đang WIRE
+    → ĐỪNG lo thai đạp nhiều → đó là NÃO đang compile
     → Thai ÍT cử động BẤT THƯỜNG (giảm đột ngột so với pattern bình thường)
       → Nên check bác sĩ (CÓ THỂ bình thường, CÓ THỂ cần kiểm tra)
     → Mẹ khỏe → blood flow tốt → thai có NĂNG LƯỢNG để active
-    → = Sức khỏe mẹ GIÁN TIẾP ảnh hưởng fetal activity
+    → = Sức khỏe mẹ GIÁN TIẾP ảnh hưởng fetal compile rate
 
   ⚠️ MỖI THAI KHÁC NHAU:
     → Có thai đạp nhiều, có thai ít → KHÔNG có "chuẩn đạp"
@@ -438,11 +571,11 @@ THAI ĐANG LÀM GÌ TRONG ĐÓ?
     → ĐỪNG so sánh thai này với thai khác
 ```
 
-### 2.3 Cơ địa mẹ (Maternal State) — Môi trường xây dựng 🟢/🟡
+### §2.3 — Cơ địa mẹ (Maternal State) — Môi trường xây dựng 🟢/🟡
 
 ```
 = YẾU TỐ MẸ CÓ THỂ ẢNH HƯỞNG NHIỀU NHẤT
-= FOCUS CHÍNH CỦA FILE NÀY (§3-§8)
+= FOCUS CHÍNH CỦA FILE NÀY (§3-§7)
 
   CƠ ĐỊA MẸ = MÔI TRƯỜNG mà "nhà máy" vận hành:
 
@@ -450,6 +583,7 @@ THAI ĐANG LÀM GÌ TRONG ĐÓ?
   │ CORTISOL MẸ (§3)                                            │
   │   → Qua nhau thai → ảnh hưởng HPA axis calibration của con │
   │   → Chronic stress = vấn đề / Acute stress = usually OK    │
+  │   → V7.8 lens: direction > level (Mechanism §8.4)          │
   │   → 🟢 mechanism / 🟡 specific long-term outcomes          │
   ├─────────────────────────────────────────────────────────────┤
   │ DINH DƯỠNG (§4)                                            │
@@ -467,7 +601,13 @@ THAI ĐANG LÀM GÌ TRONG ĐÓ?
   │   → Sleep, exercise, mental health, social support         │
   │   → = "Infrastructure" cho 3 yếu tố trên                  │
   │   → Mẹ khỏe → cortisol ổn, dinh dưỡng tốt, ít toxin     │
+  │   → V7.8 lens: sleep = repair mechanism (Mechanism §8.2)   │
   │   → 🟢/🟡 tùy component                                   │
+  ├─────────────────────────────────────────────────────────────┤
+  │ EPIGENETICS (§7)                                            │
+  │   → Cách gen BIỂU HIỆN (không thay đổi DNA)               │
+  │   → Environment mẹ → ảnh hưởng gene expression pattern    │
+  │   → 🟢 mechanism cơ bản / 🔴 cross-generational effects   │
   └─────────────────────────────────────────────────────────────┘
 
   = CƠ ĐỊA MẸ ≠ "MẸ PHẢI HOÀN HẢO"
@@ -476,7 +616,7 @@ THAI ĐANG LÀM GÌ TRONG ĐÓ?
   = Good enough > perfect — MỌI LÚC
 ```
 
-### 2.4 Ngẫu nhiên (Stochastic) — Random variation 🟡
+### §2.4 — Ngẫu nhiên (Stochastic) — Random variation 🟡
 
 ```
 YẾU TỐ ÍT AI NÓI TỚI — NHƯNG CÓ THẬT
@@ -513,7 +653,7 @@ YẾU TỐ ÍT AI NÓI TỚI — NHƯNG CÓ THẬT
     → = Và: "không làm tối ưu" ≠ "con sẽ có vấn đề"
 ```
 
-### 2.5 Bản đồ kiểm soát — Visual
+### §2.5 — Bản đồ kiểm soát — Visual
 
 ```
   4 YẾU TỐ — AI KIỂM SOÁT CÁI GÌ?
@@ -532,13 +672,13 @@ YẾU TỐ ÍT AI NÓI TỚI — NHƯNG CÓ THẬT
   ● = kiểm soát chính   ◐ = kiểm soát 1 phần   ○ = không kiểm soát
 
   = FILE NÀY FOCUS VÀO ③ — phần mẹ ẢNH HƯỞNG ĐƯỢC NHIỀU NHẤT
-  = §3-§8: chi tiết từng component của ③
+  = §3-§7: chi tiết từng component của ③
   = Mục tiêu: optimize ③ TRONG KHẢ NĂNG + accept ①④ + hỗ trợ gián tiếp ②
 ```
 
 ---
 
-## 3. CORTISOL MẸ × NÃO THAI NHI
+## §3 — CORTISOL MẸ × NÃO THAI NHI
 
 ```
 ⚠️ ĐỌC TRƯỚC KHI ĐỌC SECTION NÀY:
@@ -554,9 +694,14 @@ YẾU TỐ ÍT AI NÓI TỚI — NHƯNG CÓ THẬT
 
   = Mục tiêu: HIỂU cơ chế → GIẢM chronic stress TRONG KHẢ NĂNG
   = KHÔNG phải: tránh MỌI stress (bất khả thi + không cần thiết)
+
+  V7.8 LENS CHO SECTION NÀY:
+  → Cortisol = amplifier (Cortisol-Baseline.md v2.0) — KHÔNG phải "stress hormone"
+  → Direction > level (Mechanism §8.4) — novelty-direction ≠ threat-direction
+  → Baseline calibration (Mechanism §8.3) — HPA axis thai đang SET
 ```
 
-### 3.1 Cơ chế: Cortisol mẹ → thai nhi 🟢
+### §3.1 — Cơ chế: Cortisol mẹ → thai nhi 🟢
 
 ```
 ĐƯỜNG ĐI CỦA CORTISOL:
@@ -591,19 +736,38 @@ YẾU TỐ ÍT AI NÓI TỚI — NHƯNG CÓ THẬT
     → Cuối thai kỳ: lưới tự nhiên MỎNG HƠN → cần chú ý hơn
 ```
 
-### 3.2 Cortisol ảnh hưởng thai thế nào 🟡
+### §3.2 — Cortisol ảnh hưởng thai thế nào 🟡
 
 ```
 CORTISOL QUA TỚI THAI → ẢNH HƯỞNG GÌ?
 
   ① HPA AXIS CALIBRATION (quan trọng nhất) 🟡
      → Thai nhi đang "SET" cortisol baseline cho cuộc đời
-       (xem Cortisol-Baseline.md: baseline = mức "change-readiness" hàng ngày)
+       (Cortisol-Baseline.md v2.0: baseline = mức "change-readiness" hàng ngày)
      → Thai "đọc" mức cortisol environment → calibrate HPA axis theo đó
      → Mẹ cortisol cao mãn tính → con CÓ THỂ sinh ra với baseline CAO HƠN
      → Baseline cao = system ở mode "cảnh giác" nhiều hơn mức cần
-       (Cortisol-Baseline.md: mode PUSH thay vì ACTIVE)
-     → = "Cài đặt mặc định" của hệ stress → ảnh hưởng cả đời
+       (Cortisol-Baseline.md v2.0 §8: mode PUSH thay vì ACTIVE)
+
+     ⭐ V7.8 INSIGHT — BASELINE CALIBRATION (Mechanism §8.3):
+       Baseline KHÔNG phải "bẩm sinh xong rồi" — là CALIBRATED ENDPOINT:
+       → TẦNG 1 — Evolution: range ~6-25 μg/dL sáng = không đổi
+       → TẦNG 2 — Development: ⭐ ĐÂY LÀ TẦNG MẸ ẢNH HƯỞNG
+         → Cortisol environment prenatal = INPUT cho calibration
+         → Attachment quality sau sinh = INPUT thứ 2 (Natural-Dev)
+         → Co-regulation history = INPUT thứ 3
+       → = "Cài đặt mặc định" ĐANG ĐƯỢC VIẾT — chưa phải cố định
+
+     ⭐ V7.8 INSIGHT — APPROACH/AVOIDANCE TENDENCY:
+       Baseline calibration prenatal → ảnh hưởng approach/avoidance
+       TENDENCY sau sinh (Mechanism §3, §8.3):
+       → Baseline thấp-vừa: system tend toward NOVELTY-DIRECTION
+         → Con dễ tò mò, explore, compile chunks với approach tag
+       → Baseline cao mãn tính: system tend toward THREAT-DIRECTION
+         → Con dễ cảnh giác, avoid, compile chunks với avoidance tag
+       → = Prenatal cortisol environment → SET UP xu hướng,
+         KHÔNG quyết định tuyệt đối (postnatal CÓ THỂ recalibrate)
+
      → NHƯNG: CÓ THỂ recalibrate SAU SINH (brain plastic!)
        → Postnatal environment an toàn + attachment tốt → recalibrate ↓
 
@@ -611,21 +775,22 @@ CORTISOL QUA TỚI THAI → ẢNH HƯỞNG GÌ?
      → Hippocampus (vùng memory + spatial + stress regulation)
      → CÓ NHIỀU cortisol receptors → nhạy cảm với cortisol cao
      → Cortisol mãn tính → CÓ THỂ ảnh hưởng hippocampus development
-     → = Ảnh hưởng TÌM NĂNG: memory, learning, stress regulation
+     → = Ảnh hưởng TIỀM NĂNG: memory, learning, stress regulation
      → Research: mostly animal studies → human evidence = correlation
 
   ③ AMYGDALA 🟡
      → Amygdala (vùng threat detection, emotion processing)
-     → Cortisol cao mãn tính → amygdala CÓ THỂ reactive HƠN
+     �� Cortisol cao mãn tính → amygdala CÓ THỂ reactive HƠN
      → = Hệ cảnh báo "nhạy" hơn mức cần → dễ lo lắng, sợ hãi
      → Research: animal studies mạnh / human = correlation + confounds
 
-  ④ PFC (Prefrontal Cortex) 🟡
-     → PFC = vùng phát triển CUỐI CÙNG → rất nhạy cảm
-     → Cortisol cao → CÓ THỂ delay PFC development
-       (Cortisol-Baseline.md: PFC fragile synapses, dễ bị neural-wear)
+  ④ PFC SYNAPSES 🟡
+     → PFC hardware online từ prenatal (Mechanism §1, Hodel 2018 🟢)
+     → NHƯNG: PFC synapses = FRAGILE NHẤT (Cortisol-Baseline.md v2.0 §9)
+     → Cortisol cao mãn tính → CÓ THỂ ảnh hưởng PFC synapses
+       → Dendrite retraction, synapse weakening (Arnsten 2009 🟢 — adult data)
      → = Ảnh hưởng TIỀM NĂNG: self-regulation, planning, impulse control
-     → NHƯNG: PFC phát triển chủ yếu SAU SINH → prenatal = 1 yếu tố,
+     → NHƯNG: PFC compile chunks chủ yếu SAU SINH → prenatal = 1 yếu tố,
        không phải yếu tố duy nhất
 
   ⚠️ TẤT CẢ TRÊN LÀ "CÓ THỂ" — KHÔNG PHẢI "CHẮC CHẮN":
@@ -637,13 +802,22 @@ CORTISOL QUA TỚI THAI → ẢNH HƯỞNG GÌ?
     → = Mechanism PLAUSIBLE + evidence SUGGESTIVE → chưa phải PROVEN
 ```
 
-### 3.3 Nuance QUAN TRỌNG — Cortisol KHÔNG hoàn toàn xấu 🟢
+### §3.3 — Direction > Level — Cortisol KHÔNG ho��n toàn xấu 🟢/🟡
 
 ```
-CORTISOL = CẦN THIẾT CHO FETAL DEVELOPMENT
+⭐ V7.8 REFRAME QUAN TRỌNG NHẤT CHO SECTION NÀY:
+
+  Mainstream: "cortisol = stress hormone = xấu = cần giảm"
+  V7.8 (Cortisol-Baseline.md v2.0):
+    → Cortisol = AMPLIFIER của change-readiness
+    → Vừa phải + recovery = GYM cho neurons → MẠNH hơn
+    → Quá nhiều + không recovery = WEAR → hại
 
   → Sai: "mọi cortisol đều hại thai"
   → Đúng: "cortisol ở mức BÌNH THƯỜNG = CẦN cho phát triển"
+
+
+CORTISOL = CẦN THIẾT CHO FETAL DEVELOPMENT
 
   TẠI SAO CẦN CORTISOL BÌNH THƯỜNG?
     → Phổi thai nhi: cortisol KÍCH THÍCH phổi trưởng thành 🟢
@@ -653,7 +827,37 @@ CORTISOL = CẦN THIẾT CHO FETAL DEVELOPMENT
     → Organ maturation: cortisol → giúp nhiều cơ quan "chín" đúng lúc
     → Neural development: mức cortisol bình thường = phần của signaling
 
-  PHÂN BIỆT QUAN TRỌNG:
+
+⭐ DIRECTION > LEVEL (Mechanism §8.4):
+
+  Áp dụng cho MẸ (không chỉ cho trẻ sau sinh):
+
+  ┌──────────────────────────────────────────────────┐
+  │         NOVELTY-DIRECTION CORTISOL MẸ             │
+  │  → Excited về thai, tò mò, plan nursery          │
+  │  → Cortisol hơi cao + dopamine                   │
+  │  → Body state mẹ: approach → environment TỐT     │
+  │  → = ĐỪNG nhầm excitement với harmful stress      │
+  ├──────────────────────────────────────────────────┤
+  │         THREAT-DIRECTION CORTISOL MẸ              │
+  │  → Lo lắng mãn tính, sợ hãi, bạo lực gia đình  │
+  │  → Cortisol cao + NE/adrenaline                  │
+  │  → Body state mẹ: avoidance → environment kém    │
+  │  → = ĐÂY mới là cortisol cần giảm                │
+  └──────────────────────────────────────────────────┘
+
+  → Mẹ "lo lắng" vì đọc file này = ACUTE + NOVELTY-DIRECTION
+    (muốn biết, muốn optimize) → USUALLY OK
+  → Mẹ lo lắng MÃN TÍNH vì bạo lực/nghèo đói/depression
+    = CHRONIC + THREAT-DIRECTION → cần address
+
+  → = CÙNG cortisol level, KHÁC direction → KHÁC outcome
+  → = "Giảm cortisol" KHÔNG phải mục tiêu đúng
+  → = "Chuyển từ threat-direction → novelty-direction" MỚI là đúng
+  → = Và: tăng RECOVERY (sleep, support) = quan trọng hơn giảm stress
+
+
+PHÂN BIỆT THỰC TẾ:
   ┌──────────────────────────────────────────────────┐
   │              CORTISOL BÌNH THƯỜNG                 │
   │  → Nhịp ngày đêm: cao sáng, thấp chiều/tối     │
@@ -675,19 +879,20 @@ CORTISOL = CẦN THIẾT CHO FETAL DEVELOPMENT
   │  → = ĐÂY mới là vấn đề cần address              │
   └──────────────────────────────────────────────────┘
 
-  HORMESIS — CONCEPT TỪ CORTISOL-BASELINE.MD:
-    → Cortisol giống GYM: vừa phải + hồi phục = MẠNH hơn
-    → Quá nhiều + không hồi phục = WEAR
+  HORMESIS — CONCEPT TỪ CORTISOL-BASELINE.MD V2.0:
+    → Cortisol giống GYM: vừa phải + hồi phục = MẠNH hơn (hormesis)
+    → Quá nhiều + không hồi phục = WEAR (neural damage)
     → Công thức: repair - damage > 0 → khỏe mạnh
     → Sleep = yếu tố repair CHÍNH (cho MẸ, và gián tiếp cho THAI)
     → = Mẹ stress vừa + NGỦ ĐỦ → usually OK
     → = Mẹ stress nhiều + THIẾU NGỦ → compounding problem
 ```
 
-### 3.4 Thực tế: Mẹ làm gì? 🟡
+### §3.4 — Thực tế: Mẹ làm gì? 🟡
 
 ```
 MỤC TIÊU: GIẢM chronic stress + TĂNG recovery
+          + CHUYỂN threat-direction → novelty-direction khi có thể
 (KHÔNG PHẢI: tránh mọi stress — bất khả thi + không cần)
 
   GIẢM NGUỒN STRESS (nếu có thể):
@@ -697,14 +902,14 @@ MỤC TIÊU: GIẢM chronic stress + TĂNG recovery
     → Cái không thay đổi được → chuyển sang TĂNG RECOVERY (dưới)
 
   TĂNG RECOVERY (mọi mẹ đều có thể làm PHẦN NÀO):
-    → Sleep: ƯU TIÊN SỐ 1 (repair - damage formula)
+    → Sleep: ƯU TIÊN SỐ 1 (repair - damage formula — Mechanism §8.2)
       → Ngủ 7-9h / hoặc tổng giấc ngủ đủ (kể cả nap)
       → Cuối thai kỳ: khó ngủ = bình thường → nap ban ngày
     → Breathing / relaxation:
       → Thở chậm, sâu → kích hoạt parasympathetic → cortisol ↓
-      → 5 phút/ngày = đã có effect (không cần thiền 1 tiếng)
+      → 5 phút/ngày = đã có effect (không cần thiền 1 tiếng) 🟢
     → Movement: đi bộ, yoga nhẹ → cortisol ↓ + blood flow ↑
-    → Social support: người tin tưởng → buffer cortisol
+    → Social support: người tin tưởng → buffer cortisol 🟢
       → Partner, mẹ, bạn bè, nhóm hỗ trợ
       → Nói chuyện = processing → cortisol ↓
     → Nature: ra ngoài, cây xanh → evidence: cortisol ↓ 🟢
@@ -721,7 +926,7 @@ MỤC TIÊU: GIẢM chronic stress + TĂNG recovery
   ⚠️ GUILT CHECK:
     → Đọc xong section này → cảm thấy lo?
     → Lo = BÌNH THƯỜNG (ironic: lo về cortisol → cortisol ↑)
-    → NHƯNG: lo NGẮN HẠN về thông tin = acute stress = OK
+    → NHƯNG: lo NGẮN HẠN về thông tin = acute stress + novelty-direction = OK
     → Biết cơ chế → HÀNH ĐỘNG (sleep, support, breathe)
     → = Kiến thức + hành động = tốt hơn ignorance
     → = Và nhớ: brain con CỰC plastic → compensate SAU SINH hoàn toàn có thể
@@ -729,7 +934,7 @@ MỤC TIÊU: GIẢM chronic stress + TĂNG recovery
 
 ---
 
-## 4. DINH DƯỠNG × NÃO THAI NHI
+## §4 — DINH DƯỠNG × NÃO THAI NHI
 
 ```
 NÃO = CƠ QUAN ĐÒI HỎI NHIỀU DINH DƯỠNG NHẤT
@@ -750,7 +955,7 @@ NÃO = CƠ QUAN ĐÒI HỎI NHIỀU DINH DƯỠNG NHẤT
     ④ LUÔN trao đổi bác sĩ về supplement cụ thể
 ```
 
-### 4.1 Dưỡng chất quan trọng — Timing + Chức năng 🟢/🟡
+### §4.1 — Dưỡng chất quan trọng — Timing + Chức năng 🟢/🟡
 
 ```
 BẢNG DƯỠNG CHẤT CHÍNH:
@@ -815,7 +1020,7 @@ BẢNG DƯỠNG CHẤT CHÍNH:
     ③ DHA — vì não = 60% lipid + myelination cần lipid
 ```
 
-### 4.2 VN Context — Dinh dưỡng truyền thống 🟡
+### §4.2 — VN Context — Dinh dưỡng truyền thống 🟡
 
 ```
 DINH DƯỠNG TRUYỀN THỐNG VIỆT NAM — FILTER
@@ -844,14 +1049,15 @@ DINH DƯỠNG TRUYỀN THỐNG VIỆT NAM — FILTER
     → Nguyên tắc: nếu "kiêng" = hạn chế nutrition → CÂN NHẮC KỸ
 
   VẤN ĐỀ DINH DƯỠNG PHỔ BIẾN Ở VN:
-    → Thiếu sắt: đặc biệt ở phụ nữ (kinh nguyệt trước thai kỳ, rồi thai kỳ tăng nhu cầu)
+    → Thiếu sắt: đặc biệt ở phụ nữ (kinh nguyệt trước thai kỳ,
+      rồi thai kỳ tăng nhu cầu)
     → Thiếu iodine: vùng núi, vùng xa biển → muối iốt quan trọng
     → Thiếu protein: gia đình thu nhập thấp → cơm nhiều, đạm ít
     → Vitamin D: VN nhiều nắng NHƯNG nhiều mẹ tránh nắng (sợ đen/nóng)
       → Cần cân bằng: 15-20 phút nắng sáng/ngày = đủ
 ```
 
-### 4.3 Ốm nghén và dinh dưỡng trimester 1
+### §4.3 — Ốm nghén và dinh dưỡng trimester 1
 
 ```
 VẤN ĐỀ THỰC TẾ: ỐM NGHÉN TRIMESTER 1
@@ -881,19 +1087,18 @@ VẤN ĐỀ THỰC TẾ: ỐM NGHÉN TRIMESTER 1
     → Không ăn được = cơ thể mẹ ĐANG PHẢN ỨNG tự nhiên
     → (Hypothesis: ốm nghén có thể là mechanism TRÁNH toxins
        cho thai — cơ thể "từ chối" thức ăn potentially harmful) 🔴
-    → = Body signal (xem framework body-base)
 ```
 
 ---
 
-## 5. CHẤT CẦN TRÁNH
+## §5 — CHẤT CẦN TRÁNH
 
 ```
 = PHẦN MẸ CÓ THỂ KIỂM SOÁT RÕ NHẤT
 = "Tránh hại" dễ hơn "thêm lợi" — hành động CỤ THỂ + RÕ RÀNG
 ```
 
-### 5.1 Alcohol — Neurotoxin trực tiếp 🟢
+### §5.1 — Alcohol — Neurotoxin trực tiếp 🟢
 
 ```
 ALCOHOL = CHẤT CÓ EVIDENCE MẠNH NHẤT VỀ HẠI THAI
@@ -903,8 +1108,8 @@ ALCOHOL = CHẤT CÓ EVIDENCE MẠNH NHẤT VỀ HẠI THAI
     → Thai tiếp xúc nồng độ alcohol GẦN BẰNG mẹ
     → Alcohol = neurotoxin trực tiếp:
       → Giết neuron (cell death)
-      → Disrupts migration (neuron di cư sai)
-      → Disrupts synaptogenesis (kết nối bất thường)
+      → Disrupt migration (neuron di cư sai)
+      → Disrupt synaptogenesis (kết nối bất thường)
       → Ảnh hưởng myelination
 
   FETAL ALCOHOL SPECTRUM DISORDER (FASD):
@@ -929,7 +1134,7 @@ ALCOHOL = CHẤT CÓ EVIDENCE MẠNH NHẤT VỀ HẠI THAI
     → Biết bây giờ → dừng = TỐT NHẤT có thể làm
 ```
 
-### 5.2 Thuốc lá — Giảm oxygen 🟢
+### §5.2 — Thuốc lá — Giảm oxygen 🟢
 
 ```
 THUỐC LÁ = HẠN CHẾ "NGUYÊN LIỆU" CHO NÃO
@@ -939,7 +1144,7 @@ THUỐC LÁ = HẠN CHẾ "NGUYÊN LIỆU" CHO NÃO
       → Thai nhận ÍT OXYGEN hơn → não đang grow = CẦN O2 nhiều
     → Nicotine: qua nhau thai → ảnh hưởng receptor development
       → Nicotinic acetylcholine receptors: upregulation (tăng số lượng)
-        → = Thay đổi cách não phát triển circuits liên quan
+      → = Thay đổi cách não phát triển circuits liên quan
     → 4000+ hóa chất trong khói → nhiều chất cross placenta
     → Giảm blood flow tới nhau thai → ít nutrients + O2
 
@@ -962,7 +1167,7 @@ THUỐC LÁ = HẠN CHẾ "NGUYÊN LIỆU" CHO NÃO
       → Partner/chồng hút → nói chuyện, tránh hít → cả nhà cùng protect
 ```
 
-### 5.3 Chất môi trường — Toxins tiềm ẩn 🟢/🟡
+### §5.3 — Chất môi trường — Toxins tiềm ẩn 🟢/🟡
 
 ```
 TOXINS MÔI TRƯỜNG — ÍT THẤY NHƯNG CÓ THẬT
@@ -1001,7 +1206,7 @@ TOXINS MÔI TRƯỜNG — ÍT THẤY NHƯNG CÓ THẬT
     → Phần còn lại: "reasonable caution" — không paranoia
 ```
 
-### 5.4 Thuốc (medications) — LUÔN hỏi bác sĩ 🟢
+### §5.4 — Thuốc (medications) — LUÔN hỏi bác sĩ 🟢
 
 ```
 THUỐC = TERRITORY BÁC SĨ — FILE NÀY KHÔNG CHO PHÁC ĐỒ
@@ -1037,7 +1242,7 @@ THUỐC = TERRITORY BÁC SĨ — FILE NÀY KHÔNG CHO PHÁC ĐỒ
     → = Quyết định = risk/benefit analysis CỦA BS, không phải tự quyết
 ```
 
-### 5.5 Caffeine — Moderate = likely OK 🟢
+### §5.5 — Caffeine — Moderate = likely OK 🟢
 
 ```
 CAFFEINE = KHÔNG CẦN CẮT HOÀN TOÀN
@@ -1055,7 +1260,7 @@ CAFFEINE = KHÔNG CẦN CẮT HOÀN TOÀN
     → 1 miếng socola đen: ~20-30mg
 
   VN CONTEXT:
-    → Cà phê Việt Nam ĐẶNG HƠN cà phê thường → ~150-200mg/ly
+    → Cà phê Việt Nam ĐẬM HƠN cà phê thường → ~150-200mg/ly
     → = 1 ly cà phê Việt/ngày ≈ gần ngưỡng → cân nhắc
     → Trà: thường ít caffeine hơn → an toàn hơn
     → "Bỏ cà phê hoàn toàn?" → KHÔNG BẮT BUỘC, chỉ cần giảm
@@ -1068,7 +1273,7 @@ CAFFEINE = KHÔNG CẦN CẮT HOÀN TOÀN
 
 ---
 
-## 6. THỂ CHẤT + TINH THẦN MẸ — HAI TRỤ CỘT
+## §6 — THỂ CHẤT + TINH THẦN MẸ — HAI TRỤ CỘT
 
 ```
 §3-§5 nói về CÁI GÌ ảnh hưởng thai (cortisol, dinh dưỡng, toxins)
@@ -1078,12 +1283,12 @@ CAFFEINE = KHÔNG CẦN CẮT HOÀN TOÀN
   TINH THẦN MẸ TỐT → cortisol ổn, ăn uống đều, ít dùng chất gây hại
   = 2 trụ cột này = INFRASTRUCTURE cho mọi thứ khác
 
-  Framework: mẹ = "environment builder"
+  Framework lens: mẹ = "environment builder"
   → Environment tốt = hardware con có điều kiện TỐT NHẤT để form
   → NHƯNG: mẹ cũng là NGƯỜI → có giới hạn → "good enough" áp dụng ở đây
 ```
 
-### 6.1 Thể chất — Foundations 🟢/🟡
+### §6.1 — Thể chất — Foundations 🟢/🟡
 
 #### Sleep — ƯU TIÊN SỐ 1
 
@@ -1092,14 +1297,19 @@ SLEEP = YẾU TỐ QUAN TRỌNG NHẤT MÀ MẸ CÓ THỂ KIỂM SOÁT
 
   TẠI SAO SLEEP QUAN TRỌNG ĐẾN VẬY?
 
-    → Cortisol-Baseline.md: repair - damage formula
-      → Sleep = THỜI GIAN REPAIR chính
+    → V7.8 lens (Mechanism §8.2 — sleep = repair mechanism):
+      → Sleep = THỜI GIAN REPAIR chính cho cơ thể mẹ
+      → Cortisol-Baseline.md v2.0: repair - damage formula
+        → repair > damage → khỏe mạnh (hormesis)
+        → damage > repair → wear tích lũy → cortisol baseline ↑
       → Mẹ ngủ đủ → cortisol regulate → fetal environment ỔN ĐỊNH
       → Mẹ thiếu ngủ → cortisol baseline TĂNG → environment kém
-    → Growth hormone: peak khi ngủ → ảnh hưởng cả mẹ và thai
-    → Immune function: ngủ đủ → immune strong → ít bệnh → ít cần thuốc
-    → Mental health: thiếu ngủ mãn tính → anxiety/depression risk ↑
       → = Thiếu ngủ → cascade ảnh hưởng TẤT CẢ yếu tố khác
+
+    → Y khoa:
+      → Growth hormone: peak khi ngủ → ảnh hưởng cả mẹ và thai
+      → Immune function: ngủ đủ → immune strong → ít bệnh → ít cần thuốc
+      → Mental health: thiếu ngủ mãn tính → anxiety/depression risk ↑
 
   THỰC TẾ THAI KỲ — NGỦ KHÓ HƠN:
 
@@ -1119,6 +1329,7 @@ SLEEP = YẾU TỐ QUAN TRỌNG NHẤT MÀ MẸ CÓ THỂ KIỂM SOÁT
       → Heartburn, leg cramps, back pain
       → "Nesting instinct" — lo lắng chuẩn bị → khó relax
       → = GIAI ĐOẠN CẦN CHÚ Ý NHẤT về sleep
+      → = VÀ: bộ lọc 11β-HSD2 yếu nhất (§3.1) → sleep QUAN TRỌNG HƠN
 
   CHIẾN LƯỢC NGỦ (practical):
     → Tổng giấc ngủ đủ > ngủ 1 giấc dài
@@ -1196,7 +1407,8 @@ EXERCISE KHI MANG THAI = TỐT (cho hầu hết mẹ) 🟢
       → Rubella (sởi Đức): ảnh hưởng nặng nếu mắc trimester 1 🟢
         → Vaccine MMR: NÊN tiêm TRƯỚC mang thai (không tiêm khi đang mang)
       → Toxoplasmosis: từ thịt sống, phân mèo → ảnh hưởng brain
-      → CMV (cytomegalovirus): phổ biến, thường nhẹ cho mẹ, có thể nặng cho thai
+      → CMV (cytomegalovirus): phổ biến, thường nhẹ cho mẹ,
+        có thể nặng cho thai
       → Zika: mosquito-borne → microcephaly
     → Phòng: vệ sinh tay, nấu chín, tiêm phòng trước thai, tránh vùng dịch
     → BỊ BỆNH khi mang thai → GẶP BS NGAY (đừng tự điều trị)
@@ -1207,7 +1419,7 @@ EXERCISE KHI MANG THAI = TỐT (cho hầu hết mẹ) 🟢
     → Khám răng TRƯỚC và TRONG thai kỳ = khuyến cáo
 ```
 
-### 6.2 Tinh thần — Foundations 🟢/🟡
+### §6.2 — Tinh thần — Foundations 🟢/🟡
 
 ```
 TINH THẦN MẸ = MÔI TRƯỜNG VÔ HÌNH NHƯNG MẠNH MẼ NHẤT
@@ -1226,6 +1438,7 @@ STRESS MANAGEMENT ≠ TRÁNH STRESS
   NHƯ §3 ĐÃ NÓI:
     → Acute stress = bình thường, usually OK
     → Chronic stress = cần giảm
+    → V7.8: direction > level → chuyển threat → novelty khi có thể
     → Mục tiêu: tăng RECOVERY, không phải loại bỏ stress
 
   CÔNG CỤ THỰC TẾ — XẾP THEO DỄ → KHÓ:
@@ -1279,7 +1492,7 @@ STRESS MANAGEMENT ≠ TRÁNH STRESS
 
   PRENATAL DEPRESSION / ANXIETY:
     → ~10-20% mẹ mang thai có depression hoặc anxiety 🟢
-    → = PHỔBIẾN — không phải hiếm, không phải yếu đuối
+    → = PHỔ BIẾN — không phải hiếm, không phải yếu đuối
     → = ĐÂY LÀ BỆNH — cần ĐIỀU TRỊ, giống như tiểu đường thai kỳ cần điều trị
 
   DẤU HIỆU CẦN CHÚ Ý:
@@ -1355,7 +1568,7 @@ MẸ KHÔNG SỐNG TRONG CHÂN KHÔNG — MÔI TRƯỜNG MẸ = MÔI TRƯỜNG T
 
 ---
 
-## 7. EPIGENETICS — THẾ HỆ TRƯỚC
+## §7 — EPIGENETICS — THẾ HỆ TRƯỚC
 
 ```
 ⚠️ CẢNH BÁO TRƯỚC KHI ĐỌC:
@@ -1366,7 +1579,7 @@ MẸ KHÔNG SỐNG TRONG CHÂN KHÔNG — MÔI TRƯỜNG MẸ = MÔI TRƯỜNG T
   = Đọc với tâm thế: "thú vị + có thể" → KHÔNG PHẢI "chắc chắn + đáng lo"
 ```
 
-### 7.1 Epigenetics là gì 🟢
+### §7.1 — Epigenetics là gì 🟢
 
 ```
 EPIGENETICS = THAY ĐỔI GENE EXPRESSION MÀ KHÔNG THAY ĐỔI DNA
@@ -1390,7 +1603,7 @@ EPIGENETICS = THAY ĐỔI GENE EXPRESSION MÀ KHÔNG THAY ĐỔI DNA
     → = Environment (stress, dinh dưỡng, toxins) CÓ THỂ ảnh hưởng marks
 ```
 
-### 7.2 Environment mẹ → Epigenetic marks thai 🟡
+### §7.2 — Environment mẹ → Epigenetic marks thai 🟡
 
 ```
 ENVIRONMENT MẸ ẢNH HƯỞNG CÁCH GEN THAI BIỂU HIỆN
@@ -1400,7 +1613,7 @@ ENVIRONMENT MẸ ẢNH HƯỞNG CÁCH GEN THAI BIỂU HIỆN
     → = Thiếu folate → methylation patterns bất thường → NTD
     → Dinh dưỡng tổng quát: ảnh hưởng epigenetic landscape 🟡
     → Stress mãn tính: CÓ THỂ thay đổi cortisol receptor gene expression 🟡
-      → = HPA axis "calibration" (§3) có thể MỘT PHẦN qua epigenetics
+      → = HPA axis "calibration" (§3.2) có thể MỘT PHẦN qua epigenetics
 
   DUTCH HUNGER WINTER (1944-45):
     → Nạn đói Hà Lan cuối WWII → mẹ mang thai thiếu ăn nghiêm trọng
@@ -1413,7 +1626,7 @@ ENVIRONMENT MẸ ẢNH HƯỞNG CÁCH GEN THAI BIỂU HIỆN
     → Cortisol cao mãn tính → CÓ THỂ thay đổi methylation pattern
       ở NR3C1 gene (glucocorticoid receptor gene) 🟡
     → = Con sinh ra → receptor pattern KHÁC → cortisol baseline KHÁC
-    → = Một cơ chế CỤ THỂ cho "HPA axis calibration" (§3.2)
+    → = Một cơ chế CỤ THỂ cho "baseline calibration" (§3.2)
     → NHƯNG: human studies = small samples, confounds, correlation
 
   ⚠️ QUAN TRỌNG — PERSPECTIVE:
@@ -1424,7 +1637,7 @@ ENVIRONMENT MẸ ẢNH HƯỞNG CÁCH GEN THAI BIỂU HIỆN
     → = Biết cơ chế = tốt / Lo lắng về nó = KHÔNG cần thiết
 ```
 
-### 7.3 Cross-generational — Thế hệ trước ảnh hưởng 🔴
+### §7.3 — Cross-generational — Thế hệ trước ảnh hưởng 🔴
 
 ```
 ⚠️ SECTION NÀY = HYPOTHESIS — ĐỌC NHƯ "THÚ VỊ", KHÔNG PHẢI "ĐÁNG LO"
@@ -1472,15 +1685,15 @@ ENVIRONMENT MẸ ẢNH HƯỞNG CÁCH GEN THAI BIỂU HIỆN
 
 ---
 
-## 8. CÁI MẸ KIỂM SOÁT ĐƯỢC vs KHÔNG — BẢNG RÕ RÀNG
+## §8 — CÁI MẸ KIỂM SOÁT ĐƯỢC vs KHÔNG — BẢNG RÕ RÀNG
 
 ```
-⭐ ĐÂY LÀ SECTION QUAN TRỌNG NHẤT CỦA FILE
+⭐ ĐÂY LÀ SECTION TÓM TẮT QUAN TRỌNG NHẤT CỦA FILE
 ⭐ TÓM TẮT TOÀN BỘ §0-§7 THÀNH 1 FRAMEWORK HÀNH ĐỘNG
 ⭐ FRAME: "Optimize cái CÓ THỂ, accept cái KHÔNG THỂ"
 ```
 
-### 8.1 Bảng kiểm soát — Chi tiết
+### §8.1 — Bảng kiểm soát — Chi tiết
 
 ```
   ╔═══════════════════════════════════════════════════════════╗
@@ -1503,7 +1716,7 @@ ENVIRONMENT MẸ ẢNH HƯỞNG CÁCH GEN THAI BIỂU HIỆN
   ║    → Vaccine theo hướng dẫn (trước + trong thai kỳ)      ║
   ║                                                           ║
   ║  SLEEP (§6.1):                                            ║
-  ║    → Ưu tiên giấc ngủ                                   ║
+  ║    → Ưu tiên giấc ngủ (repair - damage formula)         ║
   ║    → Sleep hygiene: routine, phòng tối, gối hỗ trợ      ║
   ║                                                           ║
   ║  EXERCISE (§6.1):                                         ║
@@ -1523,7 +1736,8 @@ ENVIRONMENT MẸ ẢNH HƯỞNG CÁCH GEN THAI BIỂU HIỆN
   ║  STRESS LEVEL (§3, §6.2):                                 ║
   ║    → Tools: breathing, nature, support = CÓ THỂ          ║
   ║    → Sources: hoàn cảnh sống, gia đình = KHÔNG LUÔN      ║
-  ║    → = Tăng recovery > loại bỏ nguồn stress              ║
+  ║    → V7.8: tăng recovery > giảm nguồn stress             ║
+  ║    → V7.8: chuyển threat-direction → novelty khi có thể  ║
   ║                                                           ║
   ║  MÔI TRƯỜNG (§5.3):                                       ║
   ║    → Tránh cá lớn, nước lọc = CÓ THỂ                    ║
@@ -1570,7 +1784,7 @@ ENVIRONMENT MẸ ẢNH HƯỞNG CÁCH GEN THAI BIỂU HIỆN
   ╚═══════════════════════════════════════════════════════════╝
 ```
 
-### 8.2 Frame quan trọng nhất
+### §8.2 — Frame quan trọng nhất
 
 ```
   ⭐⭐⭐ MESSAGE XUYÊN SUỐT TOÀN BỘ FILE ⭐⭐⭐
@@ -1599,6 +1813,13 @@ ENVIRONMENT MẸ ẢNH HƯỞNG CÁCH GEN THAI BIỂU HIỆN
   │    → Brain plasticity = cơ chế recovery MẠNH NHẤT          │
   │    → = Bắt đầu từ đâu cũng CHƯA MUỘN                     │
   │                                                             │
+  │  V7.8 addition:                                             │
+  │    → Prenatal cortisol environment SET UP baseline          │
+  │    → Baseline ảnh hưởng approach/avoidance TENDENCY         │
+  │    → NHƯNG: tendency ≠ destiny                              │
+  │    → Postnatal attachment + co-regulation = RECALIBRATE     │
+  │    → = "Xuất phát điểm" CÓ THỂ THAY ĐỔI                  │
+  │                                                             │
   └─────────────────────────────────────────────────────────────┘
 
   ĐỌC XONG FILE NÀY — NÊN CẢM THẤY:
@@ -1613,14 +1834,12 @@ ENVIRONMENT MẸ ẢNH HƯỞNG CÁCH GEN THAI BIỂU HIỆN
     ✗ Lo lắng thêm (ironic nếu file về stress → gây stress)
     ✗ Trách mình hoặc trách người khác
 
-  Nếu cảm thấy nhóm ✗ → đọc lại §0 (Guilt Prevention)
-  → Và nhớ: CÓ AI ĐÓ VIẾT FILE NÀY VỚI THIỆN Ý → giúp bạn BIẾT,
-    không phải để PHÁN XÉT
+  Nếu cảm thấy nhóm ✗ → đọc lại §0.3 (Guilt Prevention)
 ```
 
 ---
 
-## 9. TỔNG HỢP PER-TRIMESTER — HƯỚNG DẪN THỰC TẾ
+## §9 — TỔNG HỢP PER-TRIMESTER — HƯỚNG DẪN THỰC TẾ
 
 ```
 TỔNG HỢP §1-§8 THÀNH GUIDANCE CỤ THỂ CHO MỖI GIAI ĐOẠN
@@ -1630,7 +1849,7 @@ TỔNG HỢP §1-§8 THÀNH GUIDANCE CỤ THỂ CHO MỖI GIAI ĐOẠN
   = NHẮC LẠI: luôn trao đổi bác sĩ cho quyết định y tế cụ thể
 ```
 
-### 9.0 Pre-conception — Trước khi có thai
+### §9.0 — Pre-conception — Trước khi có thai
 
 ```
   NẾU ĐANG PLAN CÓ CON → GIAI ĐOẠN NÀY CÓ GIÁ TRỊ CAO NHẤT
@@ -1660,7 +1879,7 @@ TỔNG HỢP §1-§8 THÀNH GUIDANCE CỤ THỂ CHO MỖI GIAI ĐOẠN
   └─────────────────────────────────────────────────────────────┘
 ```
 
-### 9.1 Trimester 1 (tuần 1-12)
+### §9.1 — Trimester 1 (tuần 1-12)
 
 ```
   NÃO THAI: Đổ móng (neural tube) + phân vùng + neurogenesis bắt đầu — §1.1
@@ -1683,14 +1902,16 @@ TỔNG HỢP §1-§8 THÀNH GUIDANCE CỤ THỂ CHO MỖI GIAI ĐOẠN
   │    → Ốm nghén → ăn ít: thai NHỎ, dùng dự trữ mẹ — §4.3  │
   │    → Mệt + ngủ nhiều: cơ thể đang REDIRECT năng lượng     │
   │    → Uống rượu/cà phê TRƯỚC khi biết: biết → dừng = OK   │
-  │    → Stress vì biết có thai: acute → recovery = OK — §3.3  │
+  │    → Stress vì biết có thai: acute + novelty-direction     │
+  │      = OK — §3.3                                            │
   └─────────────────────────────────────────────────────────────┘
 ```
 
-### 9.2 Trimester 2 (tuần 13-26)
+### §9.2 — Trimester 2 (tuần 13-26)
 
 ```
-  NÃO THAI: Migration + axon growth + nghe bắt đầu + thai đạp — §1.2
+  NÃO THAI: Migration + axon growth + nghe bắt đầu + thai đạp
+  = compiling motor + auditory chunks — §1.2
 
   ┌─────────────────────────────────────────────────────────────┐
   │  ƯU TIÊN CAO:                                              │
@@ -1705,7 +1926,7 @@ TỔNG HỢP §1-§8 THÀNH GUIDANCE CỤ THỂ CHO MỖI GIAI ĐOẠN
   │    → Stress management: tools bắt đầu QUAN TRỌNG — §6.2   │
   │      → Breathing, nature, social support                   │
   │    → Bonding: nói chuyện, hát cho thai (~tuần 20: NGHE     │
-  │      ĐƯỢC!) — §1.2                                         │
+  │      ĐƯỢC → đang compile chunks thính giác!) — §1.2        │
   │    → Sleep: tận dụng GĐ ngủ dễ nhất — §6.1                │
   │                                                             │
   │  ĐỪNG LO QUÁ:                                              │
@@ -1717,21 +1938,23 @@ TỔNG HỢP §1-§8 THÀNH GUIDANCE CỤ THỂ CHO MỖI GIAI ĐOẠN
   └─────────────────────────────────────────────────────────────┘
 ```
 
-### 9.3 Trimester 3 (tuần 27-40)
+### §9.3 — Trimester 3 (tuần 27-40)
 
 ```
   NÃO THAI: Myelination + brain growth NHANH NHẤT + cortex folding
-  + REM testing + "assembly line" cuối — §1.3
+  + REM testing (offline compile) + "assembly line" cuối — §1.3
   ⚠️ 11β-HSD2 GIẢM hiệu suất → thai NHẠY CẢM HƠN với cortisol mẹ — §3.1
+  ⚠️ HPA axis đang CALIBRATE baseline (Mechanism §8.3) — §3.2
 
   ┌─────────────────────────────────────────────────────────────┐
   │  ƯU TIÊN CAO:                                              │
   │    → SLEEP: ưu tiên SỐ 1 — khó ngủ nhất NHƯNG quan trọng │
   │      nhất → nap, gối hỗ trợ, routine — §6.1               │
+  │      (repair - damage formula: sleep = repair chính)        │
   │    → Dinh dưỡng DUY TRÌ: não đang grow nhanh nhất →      │
   │      lipids, DHA, protein liên tục — §4.1                  │
   │    → Cortisol management: bộ lọc nhau thai YẾU HƠN →     │
-  │      stress management quan trọng HƠN bao giờ hết — §3.1  │
+  │      recovery quan trọng HƠN bao giờ hết — §3.1, §3.3    │
   │    → Khám thai thường xuyên hơn: monitoring cuối kỳ        │
   │                                                             │
   │  TỐT NẾU LÀM ĐƯỢC:                                        │
@@ -1748,20 +1971,20 @@ TỔNG HỢP §1-§8 THÀNH GUIDANCE CỤ THỂ CHO MỖI GIAI ĐOẠN
   │      tiểu đêm, heartburn) → tổng giấc ngủ đủ = OK         │
   │    → Thai ít đạp hơn: ÍT KHÔNG GIAN → ít movement ≠ ít   │
   │      phát triển (nhưng GIẢM ĐỘT NGỘT → check BS) — §2.2  │
-  │    → Lo lắng về sinh: acute stress → recovery = OK — §3.3  │
+  │    → Lo lắng về sinh: acute + novelty-direction = OK       │
   │    → "Chưa chuẩn bị đủ": good enough = đủ tốt — §8.2    │
   └─────────────────────────────────────────────────────────────┘
 ```
 
-### 9.4 Bảng tóm tắt nhanh — 1 trang
+### §9.4 — Bảng tóm tắt nhanh — 1 trang
 
 ```
   ╔═══════════════╦═════════════════╦══════════════╦═══════════════╗
   ║               ║  TRIMESTER 1    ║ TRIMESTER 2  ║ TRIMESTER 3   ║
   ╠═══════════════╬═════════════════╬══════════════╬═══════════════╣
   ║ NÃO THAI      ║ Đổ móng +       ║ Migration +  ║ Myelination + ║
-  ║               ║ tạo neuron      ║ wiring +     ║ growth +      ║
-  ║               ║ bắt đầu        ║ nghe 20w     ║ REM testing   ║
+  ║               ║ tạo neuron      ║ connections  ║ growth +      ║
+  ║               ║ bắt đầu        ║ + nghe 20w   ║ REM compile   ║
   ╠═══════════════╬═════════════════╬══════════════╬═══════════════╣
   ║ DINH DƯỠNG   ║ Folic acid !!!  ║ Iron, DHA,   ║ DHA, lipids,  ║
   ║               ║ Ăn được gì     ║ protein      ║ protein DUY   ║
@@ -1778,27 +2001,24 @@ TỔNG HỢP §1-§8 THÀNH GUIDANCE CỤ THỂ CHO MỖI GIAI ĐOẠN
   ║               ║ nghén          ║ tận dụng!    ║ walking,      ║
   ║               ║                 ║              ║ stretching    ║
   ╠═══════════════╬═════════════════╬══════════════╬═══════════════╣
-  ║ STRESS        ║ Biết tin mới →  ║ Tools bắt   ║ Bộ lọc yếu → ║
+  ║ CORTISOL      ║ Biết tin mới →  ║ Tools bắt   ║ Bộ lọc yếu → ║
   ║               ║ acute = OK     ║ đầu quan     ║ QUAN TRỌNG    ║
-  ║               ║                 ║ trọng        ║ NHẤT          ║
+  ║               ║ (novelty-      ║ trọng        ║ NHẤT + HPA    ║
+  ║               ║ direction)     ║              ║ calibrating   ║
   ╠═══════════════╬═════════════════╬══════════════╬═══════════════╣
   ║ Y TẾ          ║ Khám lần đầu   ║ Siêu âm     ║ Monitoring    ║
   ║               ║ + thuốc        ║ dị tật +     ║ thường xuyên  ║
   ║               ║ đang dùng      ║ xét nghiệm   ║ + chuẩn bị   ║
   ╚═══════════════╩═════════════════╩══════════════╩═══════════════╝
 
-  💡 TẤT CẢ TRIMESTER: khám thai ĐỊNH KỲ + trao đổi BS mọi lo lắng
+  TẤT CẢ TRIMESTER: khám thai ĐỊNH KỲ + trao đổi BS mọi lo lắng
 ```
 
 ---
 
-## 10. HONEST ASSESSMENT
+## §10 — HONEST ASSESSMENT
 
-```
-⭐ PHẦN NÀY ĐÁNH GIÁ TRUNG THỰC CÁI FILE NÀY LÀM ĐƯỢC VÀ KHÔNG LÀM ĐƯỢC
-```
-
-### 10.1 Cái file này CÓ THỂ làm
+### §10.1 — Cái file này CÓ THỂ làm
 
 ```
   ✅ CÁI FILE NÀY CÓ THỂ LÀM:
@@ -1807,6 +2027,12 @@ TỔNG HỢP §1-§8 THÀNH GUIDANCE CỤ THỂ CHO MỖI GIAI ĐOẠN
       → Não thai hình thành thế nào (timeline + 4 yếu tố)
       → Cortisol, dinh dưỡng, toxins ảnh hưởng qua CƠ CHẾ nào
       → Cái gì kiểm soát được vs không
+
+    → V7.8 lens THÊM VÀO (nhẹ nhàng, không thay y khoa):
+      → Cortisol = amplifier reframe → bớt sợ cortisol
+      → Direction > level → phân biệt excitement vs chronic stress
+      → Baseline calibration → hiểu prenatal SET UP nhưng KHÔNG fix
+      → PFC reframe → hardware online, chunks missing
 
     → Giúp mẹ PHÂN BIỆT:
       → Cái nào evidence mạnh (🟢) → hành động tự tin
@@ -1818,13 +2044,13 @@ TỔNG HỢP §1-§8 THÀNH GUIDANCE CỤ THỂ CHO MỖI GIAI ĐOẠN
       → "Aware" thay vì "guilty"
       → "Optimize trong khả năng" thay vì "kiểm soát tất cả"
 
-    → Kết nối cơ chế prenatal → postnatal:
-      → Hardware trước sinh → wiring sau sinh (Natural-Dev)
+    → Kết nối prenatal → postnatal:
+      → Hardware trước sinh → compile chunks sau sinh (Natural-Dev)
       → Range từ gen + prenatal → fill bằng environment (Skill-Intro)
       → = Prenatal ≠ destiny → motivate cho giai đoạn tiếp theo
 ```
 
-### 10.2 Cái file này KHÔNG THỂ làm
+### §10.2 — Cái file này KHÔNG THỂ làm
 
 ```
   ❌ CÁI FILE NÀY KHÔNG THỂ LÀM:
@@ -1855,83 +2081,92 @@ TỔNG HỢP §1-§8 THÀNH GUIDANCE CỤ THỂ CHO MỖI GIAI ĐOẠN
       → = File cung cấp xác suất TỐT HƠN, không phải đảm bảo
 ```
 
-### 10.3 Confidence per-section
+### §10.3 — Confidence per-section
 
 ```
   BẢNG TIN CẬY THEO SECTION:
 
-  ⭐ CAO (well-established research):
-    🟢 Neural tube + folic acid (§1.1, §4.1) — decades of evidence, CDC/WHO
-    🟢 Neurogenesis timeline (§1) — developmental neuroscience textbook
-    🟢 Cortisol crosses placenta via 11β-HSD2 (§3.1) — mechanism well-studied
-    🟢 Alcohol = neurotoxin / FASD (§5.1) — overwhelming evidence
-    🟢 Smoking effects (§5.2) — overwhelming evidence
-    🟢 Lead, mercury neurotoxicity (§5.3) — well-established
-    🟢 Exercise benefits during pregnancy (§6.1) — ACOG guidelines
-    🟢 Iron, iodine deficiency effects (§4.1) — well-established
+  ⭐ CAO — 🟢 (well-established research):
+    Neural tube + folic acid (§1.1, §4.1) — decades of evidence, CDC/WHO
+    Neurogenesis timeline (§1) — developmental neuroscience textbook
+    Cortisol crosses placenta via 11β-HSD2 (§3.1) — mechanism well-studied
+    PFC hardware online prenatal (Hodel 2018 — Mechanism §1) — 5 pillars
+    Alcohol = neurotoxin / FASD (§5.1) — overwhelming evidence
+    Smoking effects (§5.2) — overwhelming evidence
+    Lead, mercury neurotoxicity (§5.3) — well-established
+    Exercise benefits during pregnancy (§6.1) — ACOG guidelines
+    Iron, iodine deficiency effects (§4.1) — well-established
+    Sleep = repair mechanism (§6.1) — foundational physiology
 
-  ⭐ TRUNG BÌNH (evidence + framework interpretation):
-    🟡 Cortisol → specific fetal brain effects (§3.2) — mechanism plausible,
+  ⭐ TRUNG BÌNH — 🟡 (evidence + framework interpretation):
+    Cortisol → specific fetal brain effects (§3.2) — mechanism plausible,
        human evidence mostly correlational, animal studies stronger
-    🟡 HPA axis calibration prenatal (§3.2) — some evidence, confounds
-    🟡 DHA specific brain effects (§4.1) — positive evidence nhưng
+    HPA axis baseline calibration prenatal (§3.2) — some evidence, confounds
+    Direction > level principle applied to prenatal (§3.3) — framework
+       synthesis from Cortisol-Baseline.md v2.0, internally consistent
+    Approach/avoidance tendency setup from prenatal (§3.2) — framework
+       inference from Mechanism §3 + §8.3, plausible chain
+    DHA specific brain effects (§4.1) — positive evidence nhưng
        magnitude debated
-    🟡 Choline effects (§4.1) — promising nhưng smaller evidence base
-    🟡 Vitamin D + brain (§4.1) — emerging
-    🟡 BPA/phthalates specific effects (§5.3) — accumulating evidence
-    🟡 Epigenetics: stress → NR3C1 methylation (§7.2) — plausible,
+    Choline effects (§4.1) — promising nhưng smaller evidence base
+    Vitamin D + brain (§4.1) — emerging
+    BPA/phthalates specific effects (§5.3) — accumulating evidence
+    Epigenetics: stress → NR3C1 methylation (§7.2) — plausible,
        small studies
-    🟡 Stress management specific tools effectiveness (§6.2) —
+    Stress management specific tools effectiveness (§6.2) —
        varies by tool + person
 
-  ⭐ FRAMEWORK-SPECIFIC / HYPOTHESIS:
-    🔴 Cross-generational epigenetics (§7.3) — fascinating, mostly animal
+  ⭐ FRAMEWORK-SPECIFIC / HYPOTHESIS — 🔴:
+    Cross-generational epigenetics (§7.3) — fascinating, mostly animal
        + Överkalix, not proven mechanism in humans
-    🔴 Pre-conception paternal effects (§7.3) — very early research
-    🔴 Ốm nghén as toxin avoidance mechanism (§4.3) — hypothesis,
+    Pre-conception paternal effects (§7.3) — very early research
+    Ốm nghén as toxin avoidance mechanism (§4.3) — hypothesis,
        evolutionary speculation
-    🔴 Framework concepts applied to prenatal (Imagine-Final range,
-       body-base purity) — framework lens, not established science
+    Prenatal cortisol environment → specific postnatal approach/avoidance
+       PATTERN (§3.2) — framework chain, each link 🟡 → combined = 🔴
 ```
 
-### 10.4 Rủi ro của file này
+### §10.4 — Rủi ro của file này
 
 ```
   ⚠️ RỦI RO 1: GÂY CẢM GIÁC TỘI LỖI
      → Mặc dù guilt prevention XUYÊN SUỐT → reader vẫn có thể tự trách
      → Đặc biệt: §3 (cortisol), §5 (alcohol/thuốc lá) — "tôi đã làm sai"
-     → Fix: nhắc đi nhắc lại: prenatal ≠ destiny, brain plastic, good enough
-     → Fix: guilt checks ở mỗi section nhạy cảm
+     → Mitigation: guilt checks ở mỗi section nhạy cảm + §0.3
 
   ⚠️ RỦI RO 2: OVERINTERPRETATION
      → Reader có thể đọc 🟡 như 🟢 → lo lắng quá mức
      → VD: cortisol effects (🟡) → reader nghĩ "stress = chắc chắn hại con"
-     → Fix: confidence markers rõ ràng + nuance sections
-     → Fix: §3.3 specifically addresses "cortisol không hoàn toàn xấu"
+     → VD: baseline calibration (🟡) → reader nghĩ "con tôi đã bị set sai"
+     → Mitigation: confidence markers rõ ràng + nuance sections + §3.3
 
   ⚠️ RỦI RO 3: THAY THẾ BÁC SĨ
      → Reader có thể dùng file thay cho tư vấn y tế
      → VD: tự ý bổ sung supplement, tự ý bỏ thuốc
-     → Fix: medical disclaimer MẠNH (header + §0 + §5.4)
-     → Fix: "LUÔN trao đổi BS" repeated at decision points
+     → Mitigation: medical disclaimer (header + §0 + §5.4)
 
   ⚠️ RỦI RO 4: CULTURAL BIAS
      → File viết chủ yếu từ góc nhìn evidence-based Western medicine
      → VN context sections CỐ GẮNG bridge → nhưng không đủ sâu
      → Một số "kiêng cữ" bị dismiss có thể có cultural value khác
-     → Fix: frame = "filter, không phải bỏ hết" (§4.2)
-     → Cần: reader dùng judgement + trao đổi BS + tôn trọng context
+     → Mitigation: frame = "filter, không phải bỏ hết" (§4.2)
 
   ⚠️ RỦI RO 5: PERFECTIONISM NGƯỢC
      → Quá nhiều thông tin → mẹ cố "optimize mọi thứ" → stress ↑
      → Ironic: file về giảm stress → CÓ THỂ gây stress
-     → Fix: §8.2 frame "good enough" + "aware ≠ perfect"
-     → Fix: "ĐỪNG LO QUÁ" sections ở mỗi trimester summary
+     → Mitigation: §8.2 frame "good enough" + "ĐỪNG LO QUÁ" per-trimester
+
+  ⚠️ RỦI RO 6: OVER-INTERPRETING V7.8 CONCEPTS
+     → V7.8 lens trong file này = NHẸ — chỉ cung cấp CÁCH NHÌN
+     → Reader có thể nghĩ "baseline calibration" = science proven
+     → Thực tế: direction > level + baseline calibration = framework
+       synthesis 🟡, KHÔNG phải established medical science
+     → Mitigation: §0.2 + §0.4 + §10.3 nói rõ confidence levels
 ```
 
 ---
 
-## 11. CÂU HỎI MỞ
+## §11 — CÂU HỎI MỞ
 
 ```
 NHỮNG CÂU HỎI MÀ SCIENCE CHƯA TRẢ LỜI ĐỦ — VÀ FRAMEWORK CHƯA ADDRESS
@@ -1943,37 +2178,31 @@ NHỮNG CÂU HỎI MÀ SCIENCE CHƯA TRẢ LỜI ĐỦ — VÀ FRAMEWORK CHƯA A
   ① EPIGENETICS: BAO NHIÊU LÀ REVERSIBLE?
      → Epigenetic marks từ prenatal stress → SAU SINH reverse được bao nhiêu?
      → Postnatal enrichment → "sửa" marks → mức độ? timing?
-     → Nếu reversible → prenatal marks = tạm thời → giảm guilt
-     → Nếu persistent → prenatal optimization = quan trọng HƠN
      → = Research đang active, chưa có conclusive answer
 
   ② PATERNAL CONTRIBUTION: STRESS BỐ ẢNH HƯỞNG THẾ NÀO?
      → Epigenetics bố (tinh trùng) → thai → bao nhiêu?
      → Stress bố → behavior bố → stress mẹ → thai (indirect)
      → vs. Stress bố → epigenetic marks tinh trùng → thai (direct)
-     → = File này focus mẹ, nhưng bố CÓ THỂ là yếu tố lớn chưa khai thác
      → = Research rất mới, mostly animal
 
   ③ MICROBIOME: MẸ → CON QUA BIRTH CANAL → BRAIN-GUT AXIS?
      → Mẹ có microbiome → con nhận qua sinh thường (vaginal)
      → Gut microbiome → brain-gut axis → ảnh hưởng brain development?
-     → Nếu đúng → dinh dưỡng mẹ ảnh hưởng microbiome mẹ
-       → ảnh hưởng microbiome con → ảnh hưởng brain
      → = Chain dài, mỗi mắt xích = 🟡 hoặc 🔴
      → = Emerging field, hype nhiều, evidence đang tích lũy
 
   ④ NÓI CHUYỆN / HÁT / NHẠC CHO THAI: NEURAL EFFECT HAY BONDING ONLY?
      → Thai NGHE ĐƯỢC từ ~tuần 20 — đã rõ 🟢
-     → NHƯNG: nghe → wire thính giác cụ thể → bao nhiêu?
-     → Mozart effect cho thai = MYTH (not even proven cho adults)
      → Giọng mẹ → bonding attachment → chắc chắn GIÁ TRỊ
-     → Neural wiring specific? → chưa clear
-     → = Dù effect là bonding hay neural → LÀM VẪN TỐT → câu hỏi = về CƠ CHẾ
+     → Neural compile specific? → chưa clear
+     → 02-Womb-to-Birth-Baseline.md: newborns prefer stories mẹ đọc
+       (DeCasper & Spence 1986 🟢) → chunks thính giác ĐÃ compile
+     → = Dù effect là bonding hay neural → LÀM VẪN TỐT
 
-  ⑤ SINH NON (PREMATURE BIRTH): HARDWARE "CHƯA XONG" → COMPENSATE THẾ NÀO?
+  ⑤ SINH NON: HARDWARE "CHƯA XONG" → COMPENSATE THẾ NÀO?
      → Sinh non = brain chưa hoàn thành "assembly line" (§1.3)
      → Myelination chưa đủ, synaptogenesis chưa peak, cortex chưa fold xong
-     → NICU environment ≠ bụng mẹ → sensory overload? stress?
      → Kangaroo care (da kề da) → evidence positive 🟢
      → Brain plasticity → compensate bao nhiêu? timeline?
      → = Medical advances → survival ↑ → nhưng long-term optimization chưa clear
@@ -1981,99 +2210,117 @@ NHỮNG CÂU HỎI MÀ SCIENCE CHƯA TRẢ LỜI ĐỦ — VÀ FRAMEWORK CHƯA A
   ⑥ C-SECTION vs VAGINAL: KHÁC BIỆT GÌ VỀ HARDWARE?
      → Vaginal: stress hormones during labor → "activate" systems cho sống ngoài
      → C-section: ít stress hormones → "activation" khác?
-     → Microbiome: vaginal = nhận từ birth canal / C-section = nhận từ skin, hospital
+     → Microbiome: vaginal = nhận từ birth canal / C-section = nhận từ skin
      → Long-term outcomes: research mixed, confounds nhiều
-     → = Quan trọng cho BÁC SĨ quyết định, KHÔNG phải để mẹ guilt
      → = C-section khi CẦN = cứu mạng → KHÔNG phải "sai"
 
-  ⑦ SINH ĐÔI / ĐA THAI: CHIA SẺ TÀI NGUYÊN → HARDWARE IMPLICATIONS?
+  ⑦ SINH ĐÔI / ĐA THAI: CHIA SẺ TÀI NGUYÊN?
      → 2+ thai = chia sẻ dinh dưỡng, không gian, blood supply
      → Mỗi thai nhận ÍT HƠN → hardware implications?
-     → Twin-to-twin transfusion syndrome → bất bình đẳng tài nguyên
      → = Mẹ KHÔNG kiểm soát → medical management
      → = Dinh dưỡng QUAN TRỌNG HƠN (chia cho 2+)
 
   ⑧ POLLUTION + CLIMATE CHANGE: THẾ HỆ TIẾP THEO?
      → Ô nhiễm không khí → particles cross placenta → emerging evidence 🟡
-     → Heat stress → maternal cortisol → fetal effects?
      → Microplastics → tìm thấy trong nhau thai → ảnh hưởng gì?
      → = Câu hỏi CỦA THỜI ĐẠI → research đang bắt đầu
      → = Individual mẹ: control ÍT → cần SYSTEMIC solutions
+
+  ⑨ BASELINE CALIBRATION: CHÍNH XÁC THẾ NÀO?
+     → §3.2 + Mechanism §8.3: HPA axis calibration prenatal → baseline
+     → NHƯNG: chính xác bao nhiêu cortisol mẹ = bao nhiêu baseline con?
+     → Dose-response curve cho HUMAN = chưa established
+     → Animal studies: clear dose-response / Human: confounded
+     → = Framework nói "có ảnh hưởng" → y khoa chưa nói "bao nhiêu"
 ```
 
 ---
 
-## 12. KẾT NỐI
+## §12 — CROSS-REFERENCES
 
 ```
 FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
 ```
 
-### Trong folder Child-Development (bộ 3):
+### Trong folder Child-Development (bộ 4):
 
 ```
-  → Natural-Development.md — Hardware khi sinh → file NÀY = hardware TRƯỚC sinh
+  → Child-Development-Mechanism.md — KHUNG NGUYÊN LÝ v7.8
+     + §1: PFC reframe (Hodel 2018) → áp dụng từ prenatal (§1.3 file này)
+     + §2: 4+1 channel compile → thai ĐÃ compile chunks (§2.2 file này)
+     + §3: approach/avoidance tags → prenatal baseline SET UP tendency (§3.2)
+     + §8: cortisol baseline calibration → prenatal = tầng 2 input (§3.2)
+     + §8.2: sleep = repair mechanism → áp dụng cho MẸ (§6.1)
+     + §8.4: direction > level → áp dụng cho cortisol MẸ (§3.3)
+
+  → Natural-Development.md v2.0 — Hardware khi sinh → compile chunks
      + §1: hardware sơ sinh (86 tỷ neuron, synaptogenesis, myelination order)
        = TIẾP NỐI trực tiếp từ trimester 3 (§1.3 file này)
-     + §2: 8 hành vi tự nhiên = TIẾP TỤC testing circuits bắt đầu trong bụng (§2.2)
-     + §3: sleep/REM = TIẾP TỤC brain-testing bắt đầu từ fetal REM (§1.3)
-     + §7.6: cortisol baseline 0-6 = TIẾP TỤC calibration từ prenatal (§3.2)
+     + §2: 8 hành vi tự nhiên = TIẾP TỤC testing circuits bắt đầu trong bụng
+     + §3: sleep/REM = TIẾP TỤC brain compile bắt đầu từ fetal REM (§1.3)
 
-  → Skill-Introduction.md — Build skills TRÊN hardware
+  → Skill-Introduction.md v2.0 — Build skills TRÊN hardware
      + Hardware quality (file này) → RANGE → Natural-Dev + Skill-Intro FILL range
      + §1: readiness > age = readiness PHẦN NÀO phụ thuộc hardware quality
-     + §7: per-child calibration = PHẦN NÀO từ prenatal hardware (gen, fetal env)
      + §2: 4-step progression = BUILD trên foundation từ 2 files trước
 
-  = BỘ 3 = TIMELINE LIÊN TỤC:
-    Mother-Opt (hardware) → Natural-Dev (wiring) → Skill-Intro (skills)
-    TRƯỚC SINH            → SAU SINH 0-6         → SONG SONG 0-6
-```
-
-### Trong Core framework:
-
-```
-  → Core-v7.5-Draft.md — Framework gốc
-     + Body-base: file này = body-base ĐANG HÌNH THÀNH (fetal body-base purity)
-     + Imagine-Final: prenatal hardware → quyết định RANGE cho
-       Imagine-Final development sau sinh
-     + Cortisol: file này mở rộng cortisol mechanism vào prenatal territory
-
-  → Cortisol-Baseline.md — Cơ chế cortisol chi tiết
-     + §3 file này = prenatal extension của cortisol baseline concept
-     + HPA axis calibration: bắt đầu từ TRONG BỤNG → file này giải thích HOW
-     + Repair - damage formula: áp dụng cho MẸ (sleep = repair) → gián tiếp cho THAI
-     + 7 modes (IDLE → CRASH): baseline SET trong bụng → ảnh hưởng starting mode
+  = BỘ 4 = MECHANISM + TIMELINE LIÊN TỤC:
+    Mechanism (cơ chế) ← referenced by:
+    Mother-Opt (hardware) → Natural-Dev (compile) → Skill-Intro (skills)
+    TRƯỚC SINH            → SAU SINH 0-6          → SONG SONG 0-6
 ```
 
 ### Trong Core-Deep-Dive:
 
 ```
-  → Body-Personal-Optimization.md — Self-care principles
-     + Nguyên tắc self-care → áp dụng cho MẸ (mẹ optimize bản thân = optimize
-       environment cho thai)
-     + Sleep, exercise, nutrition principles → file này = SPECIFIC cho thai kỳ
+  → Core-v7.8-Draft.md — Framework gốc (project root)
+     + Perception-Action Cycle: thai đang chạy loop đơn giản trong bụng
+     + Observation parameters: prenatal SET UP baseline cho emergence sau sinh
 
-  → Body-Parenting-Optimization.md — Parenting approach per age
-     + File này = TRƯỚC file BPO (prenatal → postnatal transition)
-     + BPO bắt đầu SAU SINH → file này kết thúc TẠI SINH
-     + = Handoff: Mother-Opt → BPO + Natural-Dev
+  → Cortisol-Baseline.md v2.0 (Body-Base/Cortisol-Baseline.md)
+     + §3 file này = prenatal extension của cortisol baseline concept
+     + HPA axis calibration: bắt đầu từ TRONG BỤNG → file này giải thích HOW
+     + Repair - damage formula: áp dụng cho MẸ (sleep = repair)
+     + 7 modes: baseline SET trong bụng → ảnh hưởng starting mode
+     + Direction > level: áp dụng cho cortisol MẸ (§3.3)
+
+  → Chunk.md v2.0 (Body-Base/Chunk/Chunk.md)
+     + §2.4 NT7: cortisol = direction gate at compile time
+     + Thai nhi ĐÃ compile chunks (auditory, motor — §2.2 file này)
+
+  → Feeling.md v2.0 (Body-Base/Feeling/Feeling.md)
+     + 7-layer fidelity gradient — sơ sinh bắt đầu từ layer 1-2
+     + Prenatal body-base → foundation cho feeling development sau sinh
+
+  → Imagine-Final.md (PFC/Imagination/Imagine-Final.md)
+     + Prenatal hardware → RANGE cho Imagine-Final development sau sinh
+     + Prenatal ĐẶT RANGE, postnatal FILL range
+
+  → Connection.md (Observation/Connection.md)
+     + Hardware drive có từ lúc sinh → prenatal attachment chunks
+       (giọng mẹ = first connection chunk — §1.2 file này)
+
+  → Body-Feedback-Mechanism.md (Body-Base/Body-Feedback/Body-Feedback-Mechanism.md)
+     + 2 sources × 3 dynamics — áp dụng từ prenatal (fetal movement)
+
+  → PFC-Development.md (PFC/PFC-Development.md)
+     + PFC reframe chi tiết → 5 evidence pillars → Hodel 2018
+
+  → 02-Womb-to-Birth-Baseline.md
+     (Body-Base/Chunk/Child-Chunk-Development/Foundation/02-Womb-to-Birth-Baseline.md)
+     + Prenatal baseline chi tiết: womb environment, prenatal learning,
+       birth moment physiology, first sensory cascade
+     + = File CHUYÊN SÂU cho nội dung §1-§2 file này
+
+  → Attention-Spectrum.md (PFC/Attention-Spectrum.md)
+     + Gen DRD4 (§2.1 file này) → attention spectrum = PRENATAL (genetic)
+     + Mother-Opt → set range / Attention-Spectrum → understand range
 ```
 
 ### Trong Research:
 
 ```
-  → Imagine-Final.md — Cơ chế kỳ vọng vô thức
-     + Hardware prenatal → RANGE cho Imagine-Final capacity
-     + PFC development prenatal (§3.2) → ảnh hưởng Imagine-Final potential
-     + = Prenatal KHÔNG quyết định Imagine-Final → chỉ set STARTING CONDITIONS
-
-  → Attention-Spectrum.md — DRD4 + attention
-     + Gen DRD4 (§2.1 file này) → attention spectrum là PRENATAL (genetic)
-     + = File này giải thích: tại sao DRD4 = RANGE (gen) + environment FILL
-     + Mother-Opt → set range / Attention-Spectrum → understand range
-
-  → Education-Bridge.md — Motivation mechanisms
+  → Education-Bridge.md (Research/Education/Education-Bridge.md)
      + Prenatal cortisol baseline → ảnh hưởng basal motivation state
      + = Indirect connection: hardware → affect → motivation → learning
 ```
@@ -2083,19 +2330,25 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
 ```
   ┌─────────────────────────────────────────────────────────────┐
   │                                                             │
-  │  Mother-Optimization — "Xuất phát điểm của xuất phát       │
-  │  điểm."                                                     │
+  │  Mother-Optimization v2.0                                   │
+  │  "Xuất phát điểm của xuất phát điểm."                      │
   │                                                             │
   │  Từ 1 tế bào → 86 tỷ neuron trong 40 tuần.                │
   │  Mẹ = environment builder → hardware quality.              │
   │  Nhưng mẹ KHÔNG một mình, và mẹ KHÔNG cần hoàn hảo.       │
+  │                                                             │
+  │  V7.8 lens:                                                 │
+  │    Cortisol = amplifier — direction > level.                │
+  │    HPA axis đang calibrate — baseline being SET.            │
+  │    PFC hardware online — chunks chưa compile đủ.            │
+  │    Prenatal = RANGE — postnatal = FILL range.               │
   │                                                             │
   │  Optimize cái CÓ THỂ. Accept cái KHÔNG THỂ.               │
   │  Good enough IS good enough.                                │
   │                                                             │
   │  Và nhớ:                                                    │
   │  Hardware = RANGE, không phải DESTINY.                      │
-  │  Natural-Dev + Skill-Intro = FILL range.                   │
+  │  Natural-Dev v2.0 + Skill-Intro v2.0 = FILL range.         │
   │  Brain plasticity = recovery mechanism mạnh nhất.           │
   │  Bắt đầu từ đâu cũng CHƯA MUỘN.                          │
   │                                                             │

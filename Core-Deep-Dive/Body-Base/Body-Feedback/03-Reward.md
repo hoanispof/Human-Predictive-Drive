@@ -140,7 +140,7 @@ File này cover 12 drill sections:
 │          patterns form via Hebbian synchronization              │
 │                              ↓                                 │
 │  Step 2: VTA DETECTS DELTA — habituation-based                 │
-│          (not prediction error per se)                         │
+│          (prediction delta, not "prediction error")            │
 │          Schema cũ đều → VTA quen → im                         │
 │          Pattern mới → "BIẾN ĐỘNG!" → VTA fire → dopamine      │
 │                              ↓                                 │
@@ -186,9 +186,9 @@ File này cover 12 drill sections:
 
 ### §2.4 — Step 2: VTA Delta Detection (Habituation-Based)
 
-🟡 **Critical framework claim** (PFC-Analysis §8.3 — diverges from Schultz prediction error):
+🟡 **Critical framework claim** (PFC-Analysis §8.3 — diverges from Schultz "prediction error"):
 
-> VTA = **"seismograph"** — detects BIẾN ĐỘNG (delta), not absolute intensity, not prediction error calculation.
+> VTA = **"seismograph"** — detects BIẾN ĐỘNG (prediction delta), not absolute intensity, not "prediction error" calculation.
 >
 > Mechanism: HABITUATION.
 > - Region X fires stably → VTA habituates → ignores
@@ -196,7 +196,7 @@ File này cover 12 drill sections:
 > - Region X stabilizes at new level → VTA habituates again → back to ignore
 > - Region Y changes → "DIFFERENT CHANGE!" → VTA fires again
 
-**Key insight**: Framework's habituation model is **simpler** than Schultz 1997 prediction error theory, but produces same observable result.
+**Key insight**: Framework's habituation model (prediction delta) is **simpler** than Schultz 1997 "prediction error" theory, but produces same observable result.
 
 **Schultz model** (standard): Brain predicts outcome → compares to actual → dopamine fires on error
 **Framework model**: Brain has habituated to stable patterns → new activity differs → fires on difference

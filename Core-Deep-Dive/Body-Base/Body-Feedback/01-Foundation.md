@@ -56,7 +56,7 @@ File này **preview** H10. Formalization đầy đủ ở P5.
 >
 > 1. **Schema pending status** — có schema nào đang chờ được fill/resolve/upgrade?
 > 2. **Chunks base adequacy** — có đủ chunks substrate để decode pattern không?
-> 3. **VTA delta threshold** — biến động có đủ lớn để VTA detect (habituation-based, NOT prediction error)?
+> 3. **VTA delta threshold** — biến động có đủ lớn để VTA detect (habituation-based, prediction delta không phải prediction error)?
 > 4. **Goldilocks zone position** — match 40-70% (neither too familiar nor too alien)?
 > 5. **⭐ Chunk association tag** — chunks đang fire có tag (opioid vs cortisol) determining direction + sustainability?
 >
@@ -146,7 +146,7 @@ Hai lực này KHÔNG phải design flaw. Đây là **architectural tension inte
 
 → Giống **immune system**: vừa nhớ pathogens cũ (memory cells) vừa sẵn sàng response pathogens mới (naive cells). Không thể bỏ bên nào.
 
-Body's 3 signals framework (Body-Dissonance.md §1) map trực tiếp vào dual-pull:
+Body's 3 signals framework map trực tiếp vào dual-pull:
 
 | Signal | Direction | Lực nào dominant |
 |---|---|---|

@@ -16,27 +16,18 @@
 
 ---
 
-> **Trạng thái:** DRAFT v0.5 — synthesis từ 3 sessions phân tích sâu
-> **Ngày:** 2026-04-12
+> **Trạng thái:** v1.1 — refined 2026-04-24 (§2 Connection → Connection.md v3.0)
+> **Ngày:** 2026-04-12 | Refined: 2026-04-24
 > **Mục đích:** Mô tả các EMERGENT PATTERNS từ domain interaction:
-> Connection, Enemy, Nurturing, "Cho đi", Dependency, Mixed Valence,
+> Enemy, Nurturing, "Cho đi", Dependency, Mixed Valence,
 > Group Dynamics, Violation & Recovery.
-> Redefine Connection (từ "channel" → emergent pattern + body-base need).
-> Redefine Empathy behaviors (từ "mechanism riêng" → natural results of agent processing).
-> **Absorb từ:** Connection.md (backup) + Empathy-Mirror.md §6-§8 (backup)
-> **Vị trí:** Core-Deep-Dive/Domain/ (sau Valence.md, trước Domain-Mechanisms.md)
-> **Flow đọc:**
->   Domain-Interaction.md (overview)
->   ├── Object-Agent.md (classification)
->   ├── Logic-Modeling.md (processing)
->   ├── Valence.md (evaluation)
->   ├── **Emergent-Patterns.md** (file NÀY — patterns emerge từ repeated interaction)
->   └── Domain-Mechanisms.md (mirror, imagine-final, feedback)
+> (Connection đã tách thành file riêng: Connection.md v3.0)
+> **Vị trí:** Core-Deep-Dive/Domain/
 > **Tiền đề:**
->   Valence.md (multi-channel assessment → basis cho MỌI patterns)
->   Domain-Interaction.md §6 (Agent Input = body-base need → basis cho Connection)
->   Object-Agent.md (classification → basis cho Agent vs Object patterns)
->   Drive.md (HOW drives combine → action)
+>   Valence-Propagation.md v1.2 (body evaluation, chain propagation)
+>   Connection.md v3.0 (3 Generative Primitives, 8 pathways)
+>   Agent-Mechanism.md (SPM mechanism, body-need feeder)
+>   Observation/Drive.md (HOW drives combine → action)
 >   Imagine-Final.md (preview outcomes → predict bond durability)
 > **Liên quan mainstream:**
 >   🟢 Social Baseline Theory (Coan & Beckes 2015)
@@ -56,7 +47,7 @@
 
 - §0 — VỊ TRÍ TRONG FRAMEWORK
 - §1 — EMERGENT PATTERNS LÀ GÌ
-- §2 — CONNECTION PATTERN
+- §2 — [MOVED → Connection.md v3.0]
 - §3 — ENEMY / THREAT PATTERN
 - §4 — NURTURING PATTERN
 - §5 — "CHO ĐI" PATTERN
@@ -95,7 +86,7 @@
   │   ┌──────────────────────────────────────────────────────────────┐ │
   │   │ EMERGENT PATTERNS (compiled từ repeated interaction)          │ │
   │   │                                                              │ │
-  │   │   Connection — sustained mutual positive valence             │ │
+  │   │   Connection — → Connection.md v3.0 (file riêng)              │ │
   │   │   Enemy — sustained negative valence                         │ │
   │   │   Nurturing — giving + vulnerability amplification           │ │
   │   │   "Cho đi" — surplus + mirror reward > keep reward           │ │
@@ -108,11 +99,10 @@
 
 
   PHÂN BIỆT:
-    Valence.md = HOW body đánh giá 1 entity tại 1 thời điểm
+    Valence-Propagation.md = HOW body đánh giá 1 entity tại 1 thời điểm
     Emergent-Patterns.md = WHAT xảy ra khi valence TÍCH LŨY qua thời gian
-    = 2 file BỔ SUNG:
-      Valence: "Bạn B hiện tại = L3 positive nhẹ" (ảnh chụp)
-      Patterns: "Bạn B sau 2 năm = CONNECTION compiled" (phim)
+    Connection.md v3.0 = CONNECTION pattern riêng (3 Generative Primitives)
+    = Các file BỔ SUNG, không trùng
 ```
 
 ---
@@ -177,516 +167,18 @@
 
 ---
 
-## §2 — CONNECTION PATTERN
-
-> Section LỚN NHẤT — vì Connection là pattern phức tạp nhất,
-> ảnh hưởng sâu nhất, và cần redefine kỹ nhất trong framework.
-> Absorb content từ Connection.md (backup).
-
----
-
-### §2.1 — Agent Input = Body-Base Need
-
-```
-⭐ NỀN TẢNG: connection emerge TRÊN body-base need có sẵn.
-
-  Trước khi hiểu CONNECTION PATTERN, phải hiểu:
-  → Body CẦN agent input ở mức HARDWARE — không phải "tốt khi có"
-  → Agent input thiếu = brain DAMAGE (evidence 🟢 rõ ràng)
-  → Connection pattern emerge TRÊN nhu cầu này — không phải ngược lại
-
-  (Evidence chi tiết: Domain-Interaction.md §6)
-
-
-  TÓM TẮT EVIDENCE:
-
-  🟢 Social Baseline Theory (Coan & Beckes 2015):
-    → Não DEFAULT giả định CÓ agent gần
-    → Ở 1 mình = deviation = não phải làm thêm việc
-    → = Agent input = DEFAULT state, không phải luxury
-
-  🟢 Mere Presence Effect (2024-2025):
-    → CHỈ CẦN có agent gần (không cần tương tác)
-    → Brain networks TỰ ĐỘNG recalibrate
-    → = Tối thiểu Level 0 agent input = ĐÃ có tác dụng
-
-  🟢 Romanian orphans (Bucharest EIP, Nelson et al.):
-    → L1 met (food, shelter) + agent input THIẾU → brain DAMAGE
-    → = Agent input CẦN cho neural development
-
-  🟢 Solitary confinement (Grassian 2006):
-    → L1 met + agent input ≈ 0 → hallucinations trong VÀI NGÀY
-    → = Agent input = need ở level THẤP HƠN cả L2 Quality
-
-  🟢 Harlow (1958):
-    → Khỉ con chọn touch OVER food
-    → = Agent presence = separate need, KHÔNG thay thế bằng L1
-
-
-  AGENT INPUT SPECTRUM:
-
-  ┌──────────┬──────────────────────────────────────────────────────┐
-  │ Level    │ Mô tả                                               │
-  ├──────────┼──────────────────────────────────────────────────────┤
-  │ Level 0  │ MERE PRESENCE — biết có agent gần                    │
-  │          │ Brain auto-recalibrate. Quán cà phê > nhà 1 mình   │
-  ├──────────┼──────────────────────────────────────────────────────┤
-  │ Level 1  │ PASSIVE OBSERVATION — quan sát agents hoạt động     │
-  │          │ Nhặt patterns vô thức, calibrate nhẹ                │
-  ├──────────┼──────────────────────────────────────────────────────┤
-  │ Level 2  │ LIGHT INTERACTION — chào hỏi, xã giao              │
-  │          │ Mirror fire nhẹ, agent PHẢN HỒI → verify mình       │
-  ├──────────┼──────────────────────────────────────────────────────┤
-  │ Level 3  │ REGULAR INTERACTION — bạn bè, đồng nghiệp           │
-  │          │ Chunks exchange, shared novelty, co-regulation nhẹ  │
-  ├──────────┼──────────────────────────────────────────────────────┤
-  │ Level 4  │ DEEP SUSTAINED — bạn thân, gia đình                 │
-  │          │ Melody calibration SÂU, co-regulation MẠNH          │
-  │          │ Virtual chunks RELIABLE, error correction            │
-  └──────────┴──────────────────────────────────────────────────────┘
-
-  Level 0-1 = BODY-BASE NEED (hardware, brain cần để function)
-  Level 2-4 = COMPILED META-DRIVE (ai cụ thể, bao sâu = learned)
-
-  TƯƠNG TỰ HUNGER:
-    "Đói" = body-base need (hardware)
-    "Thèm phở" = compiled preference (learned)
-    "Cần agent input" = body-base need (hardware)
-    "Muốn gặp bạn thân" = compiled preference (learned)
-
-
-  TẠI SAO AGENT INPUT > MỌI INPUT KHÁC (Domain-Interaction.md §6):
-
-    Agent = công cụ map domain HIỆU QUẢ NHẤT:
-      ① Independent sensor — body KHÁC verify cùng domain → dual check
-      ② Chunks tôi không có → domain data MIỄN PHÍ
-      ③ Unpredictable → prediction error tự động → novelty → learning
-      ④ Mirror mechanism → auto-calibrate schema (không cần PFC effort)
-      ⑤ Phản hồi hành vi tôi → biết tôi map domain đúng/sai
-
-    Gương: 0/5 → trẻ chán sau 1 lúc
-    Object: 1-2/5 → cạn novelty nhanh (deterministic)
-    Agent: 5/5 → body PREFER agent input vì RICHEST source
-
-  → §2.1 = NỀN TẢNG — connection pattern emerge TRÊN need này
-```
-
----
-
-### §2.2 — Connection = Emergent Pattern
-
-```
-🟡 ĐỊNH NGHĨA MỚI (redefine từ Connection.md):
-
-  ┌────────────────────────────────────────────────────────────────┐
-  │ CŨ (Connection.md, 2026-03-28):                                │
-  │   Connection = emergent property GIỮA melodies                 │
-  │   = Harmony trong nhạc — xuất hiện khi 2+ melodies cùng chơi  │
-  │   ✓ Đúng hướng (emergent, giữa, không phải channel riêng)     │
-  │   ✗ Chưa đặt trong Domain Interaction framework               │
-  │   ✗ Chưa giải thích WHY emerge (missing: valence + time)      │
-  │                                                                │
-  │ MỚI (file này, 2026-04-12):                                    │
-  │   Connection = EMERGENT PATTERN từ:                             │
-  │     ① Body-base agent input need (Level 0-1, hardware)         │
-  │     ② Sustained mutual POSITIVE valence (multi-channel)        │
-  │     ③ Repeated interaction over TIME                            │
-  │     ④ Compiled vào schema → ổn định                            │
-  │                                                                │
-  │   = Pattern emerge khi 2 agents TƯƠNG TÁC LẶP LẠI             │
-  │     và valence tích lũy POSITIVE cho CẢ HAI bên                │
-  │                                                                │
-  │   Melody metaphor VẪN ĐÚNG — bổ sung:                          │
-  │     Connection = harmony emerge giữa melodies                   │
-  │     + NỀN: body-base NEED agent input (L0-1)                   │
-  │     + CƠ CHẾ: valence tích lũy qua domain interaction          │
-  └────────────────────────────────────────────────────────────────┘
-
-
-  4 ĐIỀU KIỆN ĐỂ CONNECTION EMERGE:
-
-    ① Agent input need CỦA BODY đang active:
-       → Body luôn seek agent input (§2.1)
-       → = Đất đã sẵn — chỉ cần hạt giống đúng
-
-    ② 2 agents TƯƠNG TÁC lặp lại:
-       → 1 lần gặp = valence hình thành, chưa phải pattern
-       → N lần gặp = valence TÍCH LŨY → pattern dần emerge
-
-    ③ Valence tích lũy POSITIVE cho CẢ HAI bên:
-       → 1 bên positive + 1 bên negative = KHÔNG emerge connection
-       → Cả 2 bên positive nhưng KHÁC channels = VẪN OK
-         (A thích B vì novelty, B thích A vì stability = vẫn connection)
-
-    ④ TIME đủ để compile vào schema:
-       → Connection cạn (vài lần gặp): dễ mất, chưa compile sâu
-       → Connection sâu (nhiều năm): compiled SÂU, khó phá
-
-
-  CONNECTION = FORCE MULTIPLIER CHO TOÀN BỘ BODY-BASE:
-
-  🟡 Tại sao connection MẠNH đến vậy? Vì nó AMPLIFY mọi layer:
-
-  ┌──────────┬──────────────────────┬────────────────────────────────┐
-  │ Layer    │ 1 mình               │ Có connection                   │
-  ├──────────┼──────────────────────┼────────────────────────────────┤
-  │ L0 Alive │ Tự bảo vệ → YẾU     │ Đàn bảo vệ → sống sót ↑↑↑     │
-  │          │ 1 đôi mắt canh      │ 20 đôi mắt canh                │
-  ├──────────┼──────────────────────┼────────────────────────────────┤
-  │ L1 Surv. │ Tự kiếm ăn → LIMITED│ Phân công → ăn TỐT hơn ↑↑     │
-  │          │ Làm mọi thứ → dở    │ Mỗi người 1 thứ → giỏi hết   │
-  ├──────────┼──────────────────────┼────────────────────────────────┤
-  │ L2 Qual. │ Tự regulate → HARD  │ Co-regulate → EASIER ↑↑        │
-  │          │ Stress → tự chịu    │ Stress → ôm → oxytocin         │
-  ├──────────┼──────────────────────┼────────────────────────────────┤
-  │ L3 Nov.  │ Tự mò → SLOW        │ Learn từ nhau → FAST ↑↑↑      │
-  │  Status  │ Không ai đánh giá   │ Social calibrate → rõ vị trí  │
-  │  Protect │ Tự bảo vệ "của tôi"│ Group bảo vệ → mạnh hơn       │
-  └──────────┴──────────────────────┴────────────────────────────────┘
-
-  → Connection KHÔNG thay thế L0-L3 (vẫn cần ĂN, THỞ, NGỦ)
-  → Connection AMPLIFY mọi thứ → "1 + 1 > 2"
-  → = Lý do evolution ĐẦU TƯ MẠNH vào social brain:
-    🟢 Social Brain Hypothesis (Dunbar 1998): neocortex size ~ group size
-    → Não lớn KHÔNG phải để giải toán → để QUẢN LÝ connections
-
-
-  CONNECTION × IMAGINE-FINAL — layer nào → bond BỀN bao nhiêu:
-
-  🟡 Mỗi connection có Imagine-Final riêng — body preview "ở cùng người này sẽ thế nào?"
-
-    L0/L1 Imagine-Final = NGẮN HẠN:
-      → Body-base met → Imagine-Final dormant → connection PHAI
-      → Đói → gặp người cho ăn → no → Imagine-Final tắt
-      → = Mối quan hệ chỉ dựa trên L0/L1 = fragile
-
-    L2 Imagine-Final = TRUNG HẠN:
-      → "Cảm giác tốt khi ở cùng" — body preview → approach
-      → Nhưng nếu L2 dissonance tăng → connection GIẢM
-      → = Bạn vui vẻ → bạn hay gây stress → giảm dần
-
-    L3 Imagine-Final = BỀN NHẤT:
-      → Đạt mốc → Imagine-Final NÂNG CẤP (không tắt)
-      → Co-founders đạt milestone → "tiếp, build bigger!"
-      → L3 Novelty không có ceiling → Imagine-Final tiến hóa mãi
-      → CHỊU ĐƯỢC L2 dissonance: cãi nhau nhưng cùng mission
-      → = Dissonance = investment cost cho Imagine-Final chung
-
-    ⚠️ EXTERNAL LOCK — bond bị khóa vào layer thấp:
-
-      Khóa L1: "không làm → không có lương → không ăn"
-        → Connection với sếp BỊ KHÓA vào L1
-        → Nghỉ việc (mở khóa) → connection BIẾN MẤT
-        → = Bond không có gốc, chỉ có khóa
-
-      Khóa L2: "con phải học → mẹ mới chơi với con"
-        → Connection bị khóa vào compliance
-        → Rủi ro: compile "connection = có điều kiện"
-
-      Khóa L0: "không nghe lời → bỏ rơi"
-        → Connection bị khóa vào SURVIVAL
-        → = TOXIC nhất: connection gắn threat → trauma compile
-
-    → Bond bị khóa = FRAGILE: tháo khóa → mất ngay
-    → Bond BỀN NHẤT = L3 Imagine-Final shared (tự nguyện, intrinsic)
-
-
-  ⭐ HỆ QUẢ — predict connection depth:
-
-    Biết 2 người share Imagine-Final ở LAYER NÀO → predict:
-      Chỉ L1/L2: bond tắt khi need met → "đồng nghiệp cũ"
-      L2 + L3: bond trung bình, bền nếu L3 align → "bạn tốt"
-      L3 deep: bond bền nhất, chịu xung đột → "tri kỷ, co-founder"
-
-    Biết CÓ KHÓA hay KHÔNG → predict fragility:
-      Có khóa (lương, threat, điều kiện) → FRAGILE
-      Không khóa (tự nguyện, intrinsic) → DURABLE
-```
-
----
-
-### §2.3 — Virtual Chunks — Mở Rộng Domain Map Ngoài 1 Body
-
-```
-🔴 CONNECTION = MỞ RỘNG CAPACITY NGOÀI GIỚI HẠN 1 BODY:
-
-  1 NGƯỜI = chunks CỦA MÌNH:
-    → Capacity = brain × experience CỦA TÔI
-    → Ceiling CỐ ĐỊNH — 1 não = 1 não
-    → Trên đảo hoang: biết gì → dùng đó → hết
-
-  2 NGƯỜI = chunks CỦA MÌNH + ACCESS chunks BẠN:
-    → "Tôi không biết mài gỗ lấy lửa → bạn biết → CHÚNG TÔI có lửa"
-    → Tôi KHÔNG CẦN compile chunk đó → chỉ cần ACCESS người CÓ
-    → = "VIRTUAL CHUNKS" — chunks tôi DÙNG ĐƯỢC nhưng không NẠP
-
-  N NGƯỜI = chunks MÌNH + ACCESS chunks CẢ NHÓM:
-    → 100 người × 1000 chunks = 100,000 chunks ACCESSIBLE
-    → = Civilization = mạng lưới virtual chunks
-
-  XÃ HỘI HIỆN ĐẠI = virtual chunks ULTIMATE:
-    → Không biết phẫu thuật → bác sĩ biết → tôi VẪN ĐƯỢC phẫu thuật
-    → Không biết xây nhà → thợ biết → tôi VẪN CÓ nhà
-    → 1 người hiện đại ACCESS triệu chunks qua connection
-    → Đảo hoang: MẤT TẤT CẢ virtual chunks → quay về stone age
-
-
-  ⚠️ VIRTUAL CHUNKS CẦN TRUST:
-
-    Chunks CỦA MÌNH: dùng NGAY, tin tuyệt đối (compiled trong body)
-    Virtual chunks: cần TRUST người đó
-
-    → Trust = "BANDWIDTH" cho virtual chunks:
-      Connection deep + trust cao → virtual chunks RELIABLE
-      Connection shallow + trust thấp → virtual chunks UNRELIABLE
-
-    → 3 bạn thân = access SÂU nhưng hẹp (compiled, reliable)
-    → 100 người quen = access NHẸ nhưng rộng (surface info, risky)
-
-    → "Cô đơn giữa đám đông" = 300 connections surface + 0 deep
-    → Body VẪN lonely vì: deep virtual chunks = 0
-
-    🟡 Consistent với:
-      Extended Mind Thesis (Clark & Chalmers 1998):
-        knowledge extends beyond individual brain
-      Distributed Cognition (Hutchins 1995):
-        cognition distributed across people + artifacts
-```
-
----
-
-### §2.4 — Melody Calibration — 2 Bodies Tune Nhau
-
-```
-🟡 CONNECTION KHÔNG CHỈ EXTEND — còn CALIBRATE:
-
-  CƠ CHẾ:
-    → 2 người ở gần → body CẢ HAI fire input từ NHAU liên tục:
-      A nhìn B → visual → adjust → B nhìn A → adjust
-      A nghe B → auditory → adjust → B nghe A → adjust
-      A relax → B thấy → B relax → A thấy B relax → A relax hơn
-    → = Feedback loop LIÊN TỤC giữa 2 bodies
-    → = 2 instruments TỰ tune vào nhau — không cần conductor
-    → Chủ yếu VÔ THỨC — mirror mechanism chạy tự động
-      (chi tiết mirror: Domain-Mechanisms.md §1)
-
-
-  4 CHỨC NĂNG CALIBRATION:
-
-    ① Error correction — sửa lệch:
-       → Bạn stress → body lệch → bạn thân thấy → "ê, sao vậy?"
-       → Body được MIRROR bởi body KHÁC → thấy MÌNH qua gương
-       → = Observer advantage: người khác thấy pattern MÌNH không thấy
-       → PFC mình yếu (mệt) → người kia CALIBRATE HỘ qua input vô thức
-
-    ② Convergence — giống nhau dần:
-       → Mới gặp: 2 melody KHÁC → surface adjust
-       → Thân vài tháng: overlap TĂNG → nói cùng kiểu, cười cùng chỗ
-       → Thân nhiều năm: melody converge SÂU → "hiểu không cần nói"
-       → Vợ chồng decades: melody GẦN NHƯ 1 → giống nhau kỳ lạ
-       → 🟢 Emotional contagion (Hatfield 1994): emotionally converge
-       → 🟢 Interpersonal synchrony (Feldman 2007):
-         heart rate, breathing, brain waves ĐỒNG BỘ khi interact
-
-    ③ Dual real-check — 2 body check thay vì 1:
-       → 1 người imagine → chỉ MÌNH check → có thể sai
-       → 2 người imagine → 2 body check ở 2 vị trí → xác suất đúng TĂNG
-       → "Ê, mày nghĩ sao?" = dùng body BẠN check real cho imagine CỦA MÌNH
-       → = 2 sensors > 1 sensor → domain map accuracy TĂNG
-
-    ④ Complementary — bù khuyết:
-       → A giỏi logic + yếu social → B giỏi social + yếu logic
-       → Cùng nhau → melody CHUNG mạnh hơn cả 2
-       → = "Ăn ý" = 2 melody BỔ SUNG thay vì trùng
-
-
-  ƯU ĐIỂM vs NHƯỢC ĐIỂM:
-
-    ƯU ĐIỂM:
-      → Sửa lỗi (error correction)
-      → Đồng bộ (convergence → hiểu nhau nhanh)
-      → Chính xác hơn (dual check)
-      → Mạnh hơn (complementary)
-
-    NHƯỢC ĐIỂM:
-      → 2 melody khác QUÁ → dissonance mãn tính
-        (vợ chồng xung đột dai dẳng)
-      → 2 melody CÙNG SAI → reinforce sai → echo chamber
-      → Phụ thuộc → 1 mất → melody bị phá nặng
-        (grief = melody THIẾU 1 phần đã compiled)
-      → Converge QUÁ → mất individuality
-        ("sống cuộc đời người kia")
-
-
-  CO-REGULATION — ứng dụng trực tiếp calibration:
-
-    🟡 Co-regulation = 1 agent CALM calibrate 1 agent STRESSED:
-
-    → 1 người stress + 1 người calm → calm mirror vào stressed
-    → Stressed body nhận mirror calm → SHIFT hướng calm dần
-    → = "Ôm ai đó calm → MÌNH calm" = mirror mechanism
-    → 🟢 Social buffering (Kiyokawa 2004): presence giảm stress response
-
-    PRESENCE = channel RIÊNG:
-    → Ngồi cạnh nhau không nói gì → VẪN CALIBRATE
-    → Body detect "có agent gần" qua: nhiệt, breathing, micro-movement
-    → = Channel mà KHÔNG medium nào replicate được
-    → = Tại sao "gặp nhau" KHÁC "video call" dù cùng thấy + nghe
-```
-
----
-
-### §2.5 — Capacity Limits — Tại Sao Không Thể 100 Bạn Thân
-
-```
-🟢 CONNECTION CÓ GIỚI HẠN — Dunbar's Number (Dunbar 1992):
-
-  Neocortex size TƯƠNG QUAN group size across primates.
-  Người: ~150 social connections tối đa có ý nghĩa.
-
-  ┌──────────┬──────────┬────────────────────────────────────────────┐
-  │ Tầng     │ Số người │ Connection depth                            │
-  ├──────────┼──────────┼────────────────────────────────────────────┤
-  │ Intimate │ ~5       │ Deep trust, daily calibration               │
-  │          │          │ Virtual chunks RELIABLE, co-regulate        │
-  │          │          │ "Mất 1 người = melody BỊ PHÁ nặng"         │
-  ├──────────┼──────────┼────────────────────────────────────────────┤
-  │ Close    │ ~15      │ Good trust, weekly calibration              │
-  │          │          │ Virtual chunks OK, share feelings           │
-  │          │          │ "Mất = buồn, nhưng melody sống"            │
-  ├──────────┼──────────┼────────────────────────────────────────────┤
-  │ Friends  │ ~50      │ Moderate trust, monthly contact             │
-  │          │          │ Virtual chunks surface, share news          │
-  │          │          │ "Mất = tiếc, nhưng ít ảnh hưởng"           │
-  ├──────────┼──────────┼────────────────────────────────────────────┤
-  │ Acquaint.│ ~150     │ Low trust, rare contact, xã giao            │
-  │          │          │ Virtual chunks minimal                      │
-  │          │          │ "Mất = gần như không biết"                  │
-  └──────────┴──────────┴────────────────────────────────────────────┘
-
-
-  TẠI SAO CÓ GIỚI HẠN:
-
-    ① Time × Attention = BOTTLENECK:
-       → 1 bạn thân: gặp hàng tuần × nhiều giờ × nhiều năm = chunks SÂU
-       → 100 "bạn thân": 100 × vài giờ/tuần = KHÔNG ĐỦ GIỜ
-       → = THỜI GIAN là bottleneck, không phải "tình cảm"
-
-    ② PFC bandwidth CÓ HẠN:
-       → Model 5 người SÂU = tốn nhiều chunks + update thường xuyên
-       → Model 100 người = chỉ surface (không đủ brain resource)
-       → = Giống PFC ~4 dimensions: CEILING hardware
-
-    ③ Trust build CHẬM, mất NHANH:
-       → Deep trust: months → years để build
-       → Mất trust: 1 lần betray = PHÁ
-       → = 5 deep trust = ĐÃ là investment lớn
-       → = 100 deep trust = KHÔNG KHẢ THI
-
-  → Quality >>> Quantity:
-    3 bạn thân thật = MẠNH HƠN 300 followers
-    3 bạn thân: virtual chunks deep + calibration real + co-regulation
-    300 followers: no virtual chunks + no calibration + no co-regulation
-
-  ⚠️ SOCIAL MEDIA TRAP:
-    → Tạo CẢM GIÁC connection (likes, comments, followers)
-    → NHƯNG: không có body-level calibration (touch, presence, co-regulate)
-    → Body vẫn LONELY (vì body CẦN real calibration, không phải text)
-    → = "Connected online, lonely offline"
-```
-
----
-
-### §2.6 — Distance Spectrum — Khoảng Cách × Calibration Quality
-
-```
-🔴 CONNECTION QUALITY TỈ LỆ THUẬN với số channels hoạt động:
-
-  ┌──────────────────┬──────────┬──────────────────────────────────────┐
-  │ Medium           │ Fidelity │ Channels hoạt động                   │
-  ├──────────────────┼──────────┼──────────────────────────────────────┤
-  │ Gặp trực tiếp    │ ~100%    │ Visual+Auditory+Touch+Smell+Presence │
-  │                  │          │ +Timing → full body sync              │
-  ├──────────────────┼──────────┼──────────────────────────────────────┤
-  │ Video call       │ ~60-70%  │ Visual+Auditory+Timing               │
-  │                  │          │ MẤT: touch, smell, presence           │
-  ├──────────────────┼──────────┼──────────────────────────────────────┤
-  │ Voice call       │ ~40-50%  │ Auditory+Timing                      │
-  │                  │          │ Giọng = rich (tone, pace, breath)     │
-  ├──────────────────┼──────────┼──────────────────────────────────────┤
-  │ Text/Chat        │ ~20-30%  │ Visual (chữ) only                    │
-  │                  │          │ PFC phải imagine tone → DỄ HIỂU SAI  │
-  ├──────────────────┼──────────┼──────────────────────────────────────┤
-  │ Ảnh tĩnh         │ ~10-20%  │ 1 frame visual                       │
-  │                  │          │ Trigger chunks đã có, không tạo mới  │
-  ├──────────────────┼──────────┼──────────────────────────────────────┤
-  │ Nhớ trong đầu    │ ~5-15%   │ Thuần imagine → tùy chunk depth      │
-  │                  │          │ Bạn thân: rõ. Người quen: mờ.        │
-  └──────────────────┴──────────┴──────────────────────────────────────┘
-
-
-  ⭐ CHUNKS ĐÃ CÓ BÙ cho channels THIẾU:
-
-    Bạn thân + text = VẪN hiểu sâu
-      → Chunks deep → imagine ĐÚNG tone
-    Người lạ + video call = VẪN hiểu NÔNG
-      → Chunks thiếu → miss context
-
-    Quy tắc:
-      Chunk depth > channel count ở connection ĐÃ CÓ
-      Channel count > chunk depth ở connection MỚI BUILD
-
-    → GẶP TRỰC TIẾP quan trọng nhất ĐỂ BUILD connection mới
-    → SAU KHI build: medium ít channels VẪN OK (chunks đã compiled)
-```
-
----
-
-### §2.7 — Connection Biểu Hiện Khác Tùy Context
-
-```
-🟡 CONNECTION = 1 PATTERN, NHIỀU BIỂU HIỆN:
-
-  CÙNG 1 connection pattern → KHÁC context → KHÁC biểu hiện:
-
-    Context "agent bị phá":
-      → Mirror dissonance → drive GIÚP
-      → "Thấy bạn khóc → body mình khó chịu → muốn an ủi"
-
-    Context "MÌNH phá harmony":
-      → Social dissonance → drive SỬA
-      → "Nói lỡ lời → mặt bạn tối → xấu hổ → muốn xin lỗi"
-
-    Context "melody đồng bộ tốt":
-      → Body reward → drive GIỮ + LẶP LẠI
-      → "Cả nhóm cười → body sướng → muốn gặp lại"
-
-    Context "MÌNH được HIỂU":
-      → Body reward CỰC MẠNH → feel safe
-      → "Kể chuyện buồn → bạn gật 'ừ, hiểu' → nhẹ người"
-
-    Context "MẤT connection":
-      → Body dissonance → grief / lonely
-      → "Bạn thân chuyển đi → body trống → nhớ"
-
-    Context "bị REJECT khỏi nhóm":
-      → Body dissonance CỰC MẠNH
-      → "Cả lớp tẩy chay → body đau NHƯ đau vật lý"
-      → 🟢 Social pain = physical pain pathway (Eisenberger 2003)
-
-    Context "CÙNG vượt khó":
-      → Body bond CỰC SÂU → "chiến hữu"
-      → "Cùng deadline → xong → bond MẠNH hơn đi chơi 10 lần"
-
-    Context "có agent BÊN CẠNH" (presence only):
-      → Body regulate tốt hơn → cortisol GIẢM
-      → "Ngồi cạnh bạn im lặng → VẪN tốt hơn ngồi 1 mình"
-      → 🟢 Social buffering (Kiyokawa 2004)
-
-  → KHÔNG CẦN liệt kê "bao nhiêu LOẠI connection"
-  → CHỈ CẦN: 1 connection pattern + nhiều contexts
-  → Mỗi context KÍCH HOẠT pattern theo CÁCH RIÊNG → biểu hiện KHÁC
-```
+## §2 — [MOVED] CONNECTION PATTERN → Connection.md v3.0
+
+> **v1.1 (2026-04-24):** Section này đã hoàn thành nhiệm vụ.
+> Connection đã được rewrite thành file riêng với chất lượng cao hơn:
+>
+> → **Connection.md v3.0** (1,951L, Observation/) — 3 Generative Primitives,
+>   8 pathways, SPM × Pattern-Resonance, 2-luồng reward, cô đơn
+> → **Empathy.md v2.0** (1,978L, Observation/) — Connection ⊃ Empathy
+>
+> Nội dung cũ (v0.5): 4 điều kiện, Virtual Chunks, Melody Calibration,
+> Dunbar, Distance Spectrum — đã được tích hợp hoặc supersede bởi v3.0.
+> Backup: nội dung gốc vẫn có trong git history.
 
 ---
 
@@ -756,9 +248,9 @@
        → Bụi cây chiến trường: object → "có thể có agent ẩn" → L0 THREAT
        → Gói bưu phẩm lạ: object → "có thể là bom" → L0 THREAT
        → Bẫy gai, mìn: object MANG Ý ĐỒ agent → valence từ agent, dạng object
-       → = Schema reclassify: Object-Agent.md §4 (schema override)
+       → = Schema reclassify (agent ↔ object override)
 
-       Case bụi cây Việt Cộng (Domain-Interaction.md §2):
+       Case bụi cây Việt Cộng:
          → Bình thường: bụi cây = object, Logic mode, valence neutral
          → Chiến trường: schema "VC ẩn trong bụi" active →
             RECLASSIFY → potential agent container →
@@ -779,7 +271,7 @@
     Cases:
       → "Gooks", "cockroaches" (Rwanda) = ngôn ngữ dehumanize
         → Relabel agent → vermin/object → bypass mirror
-      → "Beef" (Object-Agent.md §4): con bò → thịt
+      → "Beef": con bò → thịt (agent → object reclassify)
         → Agent → object → eat without mirror guilt
       → Bác sĩ phẫu thuật: patient → "ca mổ" → Object-Logic mode
         → CHỨC NĂNG: giảm mirror → tập trung kỹ thuật (healthy context)
@@ -796,7 +288,8 @@
     🟡 Enemy pattern CÓ THỂ TRUYỀN qua schema KHÔNG cần trải nghiệm:
       → Cha mẹ dạy: "rắn = nguy hiểm" → con compile enemy pattern MÀ CHƯA THẤY rắn
       → Văn hóa dạy: "nhóm X = kẻ thù" → compile TRƯỚC KHI gặp ai thuộc nhóm X
-      → = Valence.md §4: schema inheritance = nhanh nhất nhưng ÍT chính xác nhất
+      → = Schema inheritance = nhanh nhất nhưng ÍT chính xác nhất
+        (Valence-Propagation.md)
 
     Risk: enemy pattern inherited → OVERGENERALIZE:
       → "1 người nhóm X hại tôi" → compile "TOÀN BỘ nhóm X = enemy"
@@ -834,7 +327,7 @@
 
     ② MIRROR: body tạo bản sao deficit CỦA HỌ → dissonance CỦA MÌNH
        → Thấy em bé khóc → body MÌNH dissonance (dù mình không đói/đau)
-       → Mirror mechanism: Domain-Mechanisms.md §1
+       → SPM F1 mechanism: Self-Pattern-Match.md §2
 
     ③ PERCEIVED ABILITY: PFC evaluate "tôi có thể giúp không?"
        → Ability CAO → drive MẠNH ("tôi có đồ ăn, tôi bế được")
@@ -1140,7 +633,7 @@
        → Mẹ: L0 (sống) + L1 (ăn, mặc) + L2 (comfort, ôm) + Connection
        → = Positive TRÀN NGẬP nhiều channels
 
-    ② REPLACEABILITY THẤP (Valence.md §2 meta-dimension):
+    ② REPLACEABILITY THẤP (Valence-Propagation.md):
        → Khó hoặc KHÔNG THỂ tìm entity khác thay thế
        → Mẹ: 1 người duy nhất, irreplaceable
        → Bạn thân: khó thay, nhưng CÓ THỂ (qua nhiều năm, bạn mới)
@@ -1316,7 +809,7 @@
     Novelty amplification:
       → 1 người kể chuyện → 1 người nghe → novelty × 1
       → 1 người kể → 5 người phản ứng KHÁC NHAU → novelty × 5
-      → Mỗi phản ứng = prediction error MỚI → more novelty → more reward
+      → Mỗi phản ứng = prediction delta MỚI → more novelty → more reward
       → Case: bàn tán cô giáo áo chấm đỏ — 1 signal → 5 phản ứng → vui gấp bội
 
     Mirror amplification:
@@ -1604,35 +1097,7 @@
        — Framework-specific: "emergent pattern" terminology là framework framing
        — Consistent với: attachment theory, relationship science, schema therapy
 
-    🟡 "Connection = emergent pattern từ 4 điều kiện"
-       (agent input need + mutual positive valence + repeated interaction + time)
-       — Reframe Connection.md: từ "emergent property giữa melodies" →
-         "emergent pattern trong Domain Interaction"
-       — Components đều có evidence riêng; integration = framework
-
-    🟡 "Connection = force multiplier cho toàn bộ body-base"
-       — Consistent với: social support → health outcomes literature,
-         cooperative advantage (division of labor), social buffering
-       — "Force multiplier" table = framework illustration, không phải measured
-
-    🟡 "Virtual chunks" — access chunks người khác qua connection
-       — Consistent với: Extended Mind Thesis (Clark & Chalmers 1998),
-         Distributed Cognition (Hutchins 1995)
-       — Metaphor chưa có formal model hoặc measurement
-
-    🟡 "Melody calibration — 4 functions"
-       (error correction, convergence, dual check, complementary)
-       — Consistent với interpersonal synchrony research, co-regulation literature
-       — 4-function categorization = framework-specific
-
-    🟡 "Connection × Imagine-Final per layer → bond durability"
-       — Logical: deeper shared goals → more durable bonds
-       — Consistent với self-determination theory (intrinsic > extrinsic)
-       — Layer → durability mapping chưa có direct test
-
-    🟡 "External lock" (bond bị khóa vào layer thấp)
-       — Consistent với extrinsic motivation research
-       — "Lock" mechanism = framework framing cho observed dependency
+    🟡 [§2 Connection entries → moved to Connection.md v3.0 Honest Assessment]
 
     🟡 "Enemy hình thành NHANH hơn connection"
        — Directly supported by negativity bias research (🟢 above)
@@ -1687,24 +1152,7 @@
 
   HYPOTHESIS (🔴) — logic hợp lý, cần verify thêm:
 
-    🔴 "Connection KHÔNG phải channel mà là emergent pattern"
-       — Strong restructure claim, thay đổi Core architecture
-       — Cần verify: có testable prediction nào phân biệt
-         "channel" vs "emergent pattern" không?
-
-    🔴 "Virtual chunks" — chunk depth > channel count cho existing connection
-       — Logical nhưng chưa có controlled experiment
-       — Prediction: bạn thân qua text > người lạ qua video —
-         testable nhưng chưa test
-
-    🔴 Distance spectrum % numbers (~100%, ~60-70%, ~40-50%,...)
-       — Ước lượng, KHÔNG phải đo trực tiếp
-       — Relative ordering có thể đúng, absolute % = rough estimate
-
-    🔴 "1 pattern × N contexts" cho connection
-       — Logical reframe nhưng chưa có neuroscience test
-       — Nếu 1 pattern: damage 1 → mất TẤT CẢ biểu hiện cùng lúc
-       — Nếu nhiều mechanisms: damage 1 → cái khác VẪN CÒN → testable
+    🔴 [§2 Connection hypotheses → moved to Connection.md v3.0]
 
     🔴 "Object-as-proxy enemy" (bụi cây → agent container)
        — Logical extension of Object-Agent schema override
@@ -1737,8 +1185,9 @@
     Individual components phần lớn established hoặc well-reasoned.
     INTEGRATION vào "Emergent Patterns" framework = MỚI.
     Cần test: predictions cụ thể từ mỗi pattern có match observations không?
-    Mạnh nhất: Connection redefine (agent input evidence 🟢 rất mạnh).
-    Yếu nhất: Group dynamics, specific % numbers, multiplication model.
+    v1.1: §2 Connection moved to Connection.md v3.0 (comprehensive, 1,951L).
+    Mạnh nhất: Nurturing (baby schema 🟢), Enemy (negativity bias 🟢).
+    Yếu nhất: Group dynamics multiplication model, dependency matrix precision.
 ```
 
 ---
@@ -1746,47 +1195,36 @@
 ## §11 — CROSS-REFERENCES
 
 ```
-  DOMAIN INTERACTION FILES (cùng thư mục):
-  → Domain-Interaction.md: overview flow — file NÀY = §7 (patterns) chi tiết
-  → Object-Agent.md §4: schema override — basis cho §3 dehumanization, §6 reclassify
-  → Valence.md: multi-channel evaluation — basis cho MỌI patterns
-  → Valence.md §2: meta-dimensions (trust, replaceability) → §6 Dependency, §9 Violation
-  → Valence.md §5: update mechanisms → §9 Violation
-  → Domain-Mechanisms.md: mirror mechanism → basis cho §4 Nurturing, §5 "Cho đi"
-     (file sẽ được tạo)
+  CONNECTION (file riêng — §2 đã moved):
+  → Connection.md v3.0 — 3 Generative Primitives, 8 pathways, SPM × Pattern-Resonance
+  → Empathy.md v2.0 — Connection ⊃ Empathy, F1/F2, 2-luồng
 
-  CORE FILES:
-  → Logic-Modeling.md: 2 processing modes — referenced from §3 (enemy reclassify → switch mode)
-  → Drive/Drive.md: HOW drives combine → action (bước SAU patterns)
-  → Drive/Novelty.md: novelty drive → §8 Group amplification
-  → Drive/Threat.md: threat drive → §3 Enemy pattern, §9 Violation
-  → Core-v7.5-Draft.md §2: Body-Base L0-L3 — channels mà patterns ảnh hưởng
-  → Core-v7.5-Draft.md §2.5: schema override spectrum — §5 spectrum parallels
+  CORE MECHANISM FILES:
+  → Agent-Mechanism.md — SPM mechanism, body-need feeder, 2-luồng reward
+  → Self-Pattern-Match.md v2.1 — F1 Feeling + F2 Logic, valence gate
+  → Pattern-Resonance.md — emergent mutual phenomenon
+  → Valence-Propagation.md v1.2 — body evaluation, chain propagation
+  → Logic-Feeling.md — 2 processing modes (Logic + Feeling)
 
-  BACKUP FILES (content absorbed):
-  → Connection.md (backup): §1-§7.5 absorbed vào §2 Connection Pattern
-     Content preserved: emergent property, force multiplier, virtual chunks,
-     melody calibration, Dunbar, distance spectrum, 1 drive × N contexts,
-     Connection × Imagine-Final
-  → Empathy-Mirror.md (backup): §6-§8.5 absorbed vào §4 Nurturing + §5 "Cho đi"
-     Content preserved: nurturing pattern, vulnerability cues, perceived ability,
-     resource distribution, empathy fatigue (partially → Domain-Mechanisms.md),
-     mirror reward override spectrum
+  OBSERVATION FILES:
+  → Observation/Drive.md — HOW drives combine → action
+  → Observation/Novelty.md — novelty drive → §8 Group amplification
+  → Observation/Threat.md — threat drive → §3 Enemy pattern, §9 Violation
+  → Observation/Protect.md — loss aversion, giving balance → §5 "Cho đi"
+  → Observation/Status.md v2.0 — Resource Access Map → §8 Group
 
   RELATED FILES:
-  → Imagine-Final.md §1: 2-tầng structure → §2.2 Connection × Imagine-Final per layer
-  → Imagine-Final.md §6: social scale → §8 Group dynamics
-  → Schema/Anchor-Schema.md: anchor concept → §9 Violation collapse
-  → Cortisol-Baseline.md: sustained stress → §4 mirror overload (fatigue)
-  → Body-Dissonance.md: dissonance signals → §2.7 (contexts create specific dissonance)
-  → Conflict-Dynamics.md §7: scarcity engine → §5 counter-mechanism (distribute surplus)
-  → Knowledge-Flow.md §1: output A→B→C → §5 knowledge distribution
-  → Global-Melody.md §1: melody sync → §2.4 calibration mechanism
-  → Personal-Melody.md §12: predict melody người khác → §2.4 calibration
-  → Relationships.md §4-5: "hiểu nhau" + convergence → §2.4
-  → Empathy-Education.md §3: empathy innate → §4 Nurturing evidence
-  → Empathy-Education.md §3.6: "1 anchor person đủ" → §9 Recovery
-  → Education-Bridge.md §3: threat overdose → §2.2 external lock (khóa L0)
+  → Imagine-Final.md — preview outcomes → §8 Group dynamics
+  → Schema/Anchor-Schema.md — anchor concept → §9 Violation collapse
+  → Cortisol-Baseline.md v2.0 — sustained stress → §4 SPM overload
+  → Conflict-Dynamics.md §7 — scarcity engine → §5 counter-mechanism
+  → Knowledge-Flow.md §1 — output A→B→C → §5 knowledge distribution
+
+  BACKUP (content absorbed — history reference only):
+  → backup/Domain-Interaction.md — overview flow (superseded)
+  → backup/Domain-Mechanisms.md — mirror analysis (superseded by SPM)
+  → backup/Connection.md — §2 Connection content origin
+  → backup/Empathy-Mirror.md — §4 Nurturing + §5 "Cho đi" content origin
 ```
 
 ---

@@ -128,8 +128,8 @@ This file formalizes this sequence into rigorous model with timing, substrate, a
 │  │   Reward: chunk matches body-need → OPIOID                   │   │
 │  │   Dissonance: schema ≠ reality mismatch → cortisol amplify   │   │
 │  │   Neutral: baseline, no salient delta                        │   │
-│  │   Intensity: micro (L3) → mild (L2) → strong (L1) → emergency│   │
-│  │   Direction + magnitude per Body-Dissonance.md 14 levels     │   │
+│  │   Intensity: micro → mild → strong → emergency (14 levels)   │   │
+│  │   Direction + magnitude (14 intensity levels)                │   │
 │  └──────────────────────────┬──────────────────────────────────┘   │
 │                             ↓                                      │
 │  ┌─────────────────────────────────────────────────────────────┐   │
@@ -1187,7 +1187,7 @@ Understanding architecture guides intervention points:
 > Input pattern must produce **sufficient delta** (biến động) relative to recent habituated state để trigger VTA firing and PFC attention allocation.
 
 **Operationalization**:
-- Habituation-based (not prediction error per se, PFC-Analysis §8.3)
+- Habituation-based (prediction delta, not "prediction error" — PFC-Analysis §8.3)
 - DRD4 receptor variant affects threshold (4R sensitive, 7R coarse)
 - Recent history determines what counts as "delta"
 
@@ -1419,8 +1419,8 @@ Per drill convention: 🟢 research-backed / 🟡 framework consistent suy luậ
 - Vô thức chỉ đo body-base, PFC duy nhất check domain — framework position derived from somatic marker + dual process theory
 
 **Dissonance mechanisms**:
-- 14 dissonance intensity levels (Body-Dissonance.md) — framework spectrum, not individually validated
-- 6 nguồn dissonance — framework taxonomy
+- 14 dissonance intensity levels — framework spectrum, not individually validated
+- 3 nguồn khó chịu thật — framework taxonomy (supersedes old 6 nguồn)
 - 3 nguồn khó chịu thật (nociception / mismatch / recalibration) — framework reframe of cortisol
 - Cortisol baseline = change-readiness function — framework reframe, logic consistent
 - Mini dissonance = byproduct of vô thức scan — framework synthesis
@@ -1428,7 +1428,7 @@ Per drill convention: 🟢 research-backed / 🟡 framework consistent suy luậ
 **Reward mechanisms**:
 - 5 H10 preconditions — framework synthesis from scattered sources
 - All 5 required claim — strong framework commitment, testable
-- VTA habituation model (vs Schultz prediction error) — framework alternative, simpler but produces same predictions
+- VTA habituation model (prediction delta vs Schultz "prediction error") — framework alternative, simpler but produces same predictions
 - Body-base opioid vs VTA dopamine split — consistent with Berridge research
 - Chunk association tag concept — framework extension from Cortisol-Baseline §3.5
 - Reward is PERSONALIZED function — framework claim derived from architecture
@@ -1641,24 +1641,12 @@ To avoid over-reach, explicit non-claims:
 
 **Rationale**: Concretizes abstract claim, helps readers remember.
 
-### §12.3 — R3: Body-Dissonance.md add H10 mechanism layer
+### §12.3 — R3: ~~Body-Dissonance.md add H10~~ → ✅ RESOLVED
 
-**Current state**: Body-Dissonance.md has 14 intensity levels + 6 nguồn phenomenology. Mechanism-level explanation scattered.
-
-**Proposed update**: Add §7 "Mechanism layer — H10 preconditions" cross-referencing Body-Feedback-Draft/04-Integration §9.
-
-**Specific edit**: Add new section:
-
-> §7 — Mechanism layer (H10 preconditions)
-> 
-> Body-Dissonance 14 levels describe phenomenology (what feelings emerge). Mechanism is decomposed in `Body-Feedback-Draft/04-Integration.md §9` via H10:
-> - Dissonance fires when any H10 precondition fails for intended reward
-> - Specific dissonance type determined by which precondition(s) failed
-> - See failure mode matrix in 03-Reward.md §5.8
-> 
-> → This file documents WHAT dissonance feels like. Body-Feedback-Draft documents WHY it emerges mechanically.
-
-**Rationale**: Connects phenomenology to mechanism without duplicating either.
+**Status**: Body-Dissonance.md đã superseded → moved to backup/Body-Dissonance-v1.md (2026-04-20).
+Content absorbed into: 02-Dissonance.md (case analyses) + Body-Feedback-Mechanism.md (chunk dynamics).
+H10 mechanism layer = Body-Feedback.md §6 + Body-Feedback-Mechanism.md §7.
+**No further action needed.**
 
 ### §12.4 — R4: Learning-Cycle.md §2.3 cross-ref H10
 
@@ -1819,7 +1807,7 @@ To avoid over-reach, explicit non-claims:
 |---|---|---|---|
 | R1 | Goldilocks cross-ref | Personal-Melody.md §5 | Low |
 | R2 | Ô tô paradox example | Chunk.md §5 | Medium |
-| R3 | H10 mechanism layer | Body-Dissonance.md | Medium |
+| R3 | ~~H10 mechanism layer~~ | ✅ RESOLVED (2026-04-20) | — |
 | R4 | H10 cross-ref for 3 signals | Learning-Cycle.md §2.3 | Medium |
 | R5 | B2.3 case example | Anchor-Schema.md §2 | Low |
 | R6 | Phase 5.6 in master plan | Chunk-Analysis/plan.md | High |

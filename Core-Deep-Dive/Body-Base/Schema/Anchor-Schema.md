@@ -26,7 +26,7 @@
 >   **FILE NÀY (vô thức CẦN gì?)** → Imagine-Final.md (PFC cung cấp gì?)
 >   → Imagine-Final-Evaluation.md (cung cấp đúng hay sai?)
 > **Tiền đề:**
->   Core-v7.5-Draft.md §6 ("Schema KHÔNG tự drive — schema TRIGGER drive")
+>   Core-v7.8-Draft.md §8 (Schema = observation parameter, drives = emergent)
 >   Drive.md §1 (5 inputs vô thức, PFC = navigator)
 >   Imagine-Final.md §1 (mechanism, 2 tầng, reference pattern)
 >   Personal-Melody.md §1 (melody = emergent state từ tất cả)
@@ -1232,7 +1232,7 @@ NÔNG NGHIỆP + THÀNH THỊ (~12,000 → ~300 năm trước)
 
   Thay đổi:
     → Nhóm: 150 → hàng nghìn → hàng triệu
-    → Hierarchy: rank, role, caste → L3 threat XUẤT HIỆN
+    → Hierarchy: rank, role, caste → social threat XUẤT HIỆN
     → Property: "của tôi" → territory → conflict
     → Comparison: "mình so với ai?" → status schemas TĂNG
     → Rules: luật, đạo đức, chuẩn mực → schemas ĐẠO ĐỨC tăng
@@ -1240,7 +1240,7 @@ NÔNG NGHIỆP + THÀNH THỊ (~12,000 → ~300 năm trước)
 
   Anchor-Schema cần: TĂNG RÕ RỆT
     → KHÔNG CHỈ micro (ăn, ngủ) → CẦN: "Tôi LÀ AI trong hệ thống LỚN?"
-    → L3 threats mới: status, role, belonging → cần anchor chống L3
+    → Social threats mới: status, role, belonging → cần anchor chống threats
     → Compiled schemas cũ (prehistoric) KHÔNG ĐỦ cho xã hội mới
     → PFC cần tham gia NHIỀU HƠN → nhưng phần lớn người KHÔNG ĐỦ chunks
     → = CẦN anchor PROVIDER bên ngoài
@@ -1312,7 +1312,7 @@ HIỆN ĐẠI (~300 năm → nay, đặc biệt ~30 năm)
   Thay đổi:
     → Information: TRIỆU lần nhiều hơn 300 năm trước
     → Choices: vô số career, lifestyle, relationship options
-    → Social comparison: 24/7 qua MXH → L3 threat LIÊN TỤC
+    → Social comparison: 24/7 qua MXH → status threat LIÊN TỤC
     → External inject: CỰC NHIỀU sources cùng lúc (MXH, quảng cáo, news, peers)
     → Schemas CẠNH TRANH: CỰC NHIỀU
       (career + relationship + health + finance + social + political + spiritual)
@@ -1322,7 +1322,7 @@ HIỆN ĐẠI (~300 năm → nay, đặc biệt ~30 năm)
     → Nhiều schemas cạnh tranh nhất → cần sync point MẠNH nhất
     → Nhiều external inject nhất → cần INTERNAL anchor MẠNH nhất
       (nếu không → bị external kéo mỗi hướng 1 tí → cacophony)
-    → L3 threat phức tạp nhất → cần direction RÕ nhất
+    → Social threat phức tạp nhất → cần direction RÕ nhất
 
   NHƯNG ANCHOR CŨNG KHÓ TÌM NHẤT:
 
@@ -1351,7 +1351,7 @@ HIỆN ĐẠI (~300 năm → nay, đặc biệt ~30 năm)
         (bằng cách liên tục expose alternatives → §2 Trust Break ④)
 
   ⭐ MODERN PARADOX:
-    → CẦN anchor MẠNH NHẤT (vì complexity + inject + L3 threats)
+    → CẦN anchor MẠNH NHẤT (vì complexity + inject + social threats)
     → NHƯNG anchor KHÓ TÌM NHẤT (mất tôn giáo, meritocracy falsified, MXH phá)
     → = "Meaning crisis" (John Vervaeke):
       → Không còn tin tôn giáo + không còn tin meritocracy → "TIN GÌ?"
@@ -1746,10 +1746,10 @@ THIẾU SÓT (MISSING — cần phát triển):
 ```
 ← INPUT (files cần đọc TRƯỚC):
 
-  Core-v7.5-Draft.md:
-    → §6: "Schema KHÔNG tự drive — schema TRIGGER drive"
-    → §6.7: Melody = emergent từ tất cả
-    → = Nền tảng cho "schema làm anchor cho drive direction"
+  Core-v7.8-Draft.md:
+    → §8: Schema = observation parameter, drives = emergent patterns
+    → §4: Chunk-System = sole substrate
+    → = Nền tảng cho "chunk network làm anchor cho body-feedback direction"
 
   Drive.md:
     → §1: 5 inputs vô thức (đặc biệt Input 4: Imagine-Final)
@@ -1831,10 +1831,9 @@ SONG SONG:
     → Domain reality = ĐÍCH THẬT mà anchor HƯỚNG TỚI
     → = Domain fit (Evaluation.md Trục 1) = anchor có hướng domain real?
 
-  Schema-Operations.md:
-    → §2: Gradient Attention
-    → §3: Parallel Multi-Position
-    → = Technical mechanism cho "nhiều schemas chạy đồng thời → cần anchor sync"
+  Schema.md v2.0:
+    → Schema = observation parameter (named chunk-network pattern)
+    → Chunks chạy parallel → cần anchor sync (Chunk.md v2.0 §4 activation dynamics)
 
 
 → ỨNG DỤNG (Application layer):

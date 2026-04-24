@@ -1,174 +1,326 @@
 # Creator's Lens — Framework Bị Shape Bởi Người Tạo Ra Nó
 
-```
-Version: 0.2 (tách từ Meta-Impact.md §9)
-Framework: Human Predictive Drive v6.0+
-Status: 🟡 Self-awareness — meta-analysis
-Liên kết:
-  - Research/Meta-Impact/Meta-Impact.md (impact predictions)
-  - Research/Meta-Impact/Epistemological-Position.md (positioning)
-  - Core.md §6.1 (Schema Lifecycle — Phase ③ Connect)
-  - Validation/Deep-Dive-Musk.md (parallel: physics lens → multi-domain)
-```
+> Mọi framework đều mang lens của người tạo ra nó.
+> File này phân tích: lens nào built-in, bias nào cần cảnh giác,
+> và quá trình tạo framework diễn ra theo cơ chế nào.
+>
+> Biết lens KHÔNG loại bỏ bias — nhưng giúp người đọc calibrate.
+
+---
+
+> **Trạng thái:** v2.0 (rewrite v7.8)
+> **Ngày:** 2026-04-24
+> **Vị trí:** Research/Meta-Impact/ (meta-analysis)
+> **Liên kết:**
+>   Meta-Impact.md — impact predictions
+>   Epistemological-Position.md — framework vs conventional science
+>   Framework-Boundaries.md — 2 blackbox cơ bản
+
+---
+
+## §1 — Creator Profile
 
 ```
-⚠️ SCOPE
-══════════════════════════════════════════════════════════════
-Câu hỏi: "Creator's background SHAPE framework như thế nào?
-          Bias nào được built-in mà không nhìn thấy từ bên trong?"
+Framework này được tạo bởi 1 người, không phải nhóm nghiên cứu.
 
-Mọi framework đều mang lens của người tạo ra nó.
-Biết lens KHÔNG loại bỏ bias — nhưng giúp người đọc calibrate.
-File này = framework tự phân tích bias của chính nó.
-══════════════════════════════════════════════════════════════
+  Background:
+    Game developer — quen thiết kế hệ thống phức tạp tương tác
+    Somatic processor — cảm pattern trước khi verbalize được
+    Personal crisis drive — căng thẳng cá nhân buộc tìm cơ chế
+    AI-assisted synthesis — dùng AI formalize cảm nhận thành cấu trúc
+
+  Hệ quả của "1 người":
+    → Bias cao hơn: chỉ 1 body check, không có peer challenge
+    → Depth cao hơn: không bị conform mainstream, đào sâu tự do
+    → Consistency cao hơn: 1 lens xuyên suốt, không compromise
+    → Blind spots sâu hơn: không có ai chỉ ra cái mình không thấy
+    → Xem Framework-Boundaries.md — 2 blackbox mà 1 người không đủ năng lực crack
+
+  Profile này SHAPE framework theo cách cụ thể (§2-§3).
 ```
 
 ---
 
-## 1. Creator Profile
+## §2 — Game Architecture → Framework Architecture
 
 ```
-🟡 Framework này được tạo bởi người có profile:
-
-  - Game developer (systems architecture thinking)
-  - Somatic processor (cảm pattern trước khi verbalize)
-  - Personal crisis drive (căng thẳng → buộc phải tìm cơ chế)
-  - AI-assisted synthesis (dùng AI formalize cảm nhận)
-
-→ Profile này SHAPE framework theo cách cụ thể.
+GAME DEV SKILLS              →  FRAMEWORK OUTPUT
+─────────────────────────        ─────────────────────────────
+Code (systems thinking)      →  Chunk-based architecture, observation parameters
+Art ("đủ dùng")              →  Biết khi nào DỪNG abstraction (không over-engineer)
+Gameplay feel (somatic)      →  Body-feedback first approach, feeling = ground truth
+Design cho "số đông"         →  Framework apply MỌI NGƯỜI, không chỉ niche
+Architecture tổng thể        →  Modular: Core → Deep-Dive → Research → Application
+Debug / iterate              →  Predict → test → refine → predict lại
 ```
 
----
-
-## 2. Game Architecture → Framework Architecture
+### §2.1 — Mapping Cụ Thể
 
 ```
-GAME DEV SKILLS             →   HPD FRAMEWORK OUTPUT
-────────────────────────         ────────────────────────
-Code (systems thinking)     →   Cấu trúc hóa: layers, state, events, parameters
-Art ("đủ dùng")             →   Biết khi nào DỪNG abstraction (không over-engineer)
-Gameplay feel (somatic)     →   Cảm hành vi "đúng/sai" trước khi chứng minh
-Design for "số đông"        →   Framework phải apply MỌI NGƯỜI, không chỉ niche
-Architecture tổng thể       →   Core → Deep-Dive → Research → Application (modular)
-Debug / iterate             →   Predict → test → sửa → predict lại
-```
+Framework TRÔNG giống game architecture — vì creator NGHĨ theo game architecture:
 
-### 2.1 Mapping Cụ Thể
+  Game Concept                ↔  Framework Concept
+  ────────────────────────        ────────────────────────────────────
+  Stats / Parameters          ↔  Observation parameters (Novelty, Status, Meaning,...)
+  State Machine               ↔  Chunk lifecycle (Compile → Install → Process → Plan)
+  Event-Driven System         ↔  Body-feedback loop (signal → chunk fire → feeling → action)
+  Component Architecture      ↔  Chunk substrate + Body-Base + PFC
+  Game Loop                   ↔  Interface Loop 6-step (01-Foundation.md)
+  NPC AI (behavior tree)      ↔  Self-Pattern-Match F1/F2 prediction functions
+  Save / Load                 ↔  Anchor-Schema — sync point cho hệ thống
+  Difficulty Curve            ↔  Melody-Arc — dissonance → compile → melody upgrade
+  Player Profile              ↔  Personal-Melody — emergent state toàn bộ chunk network
+  Multiplayer Sync            ↔  Pattern-Resonance — 2+ agents co-fire thành công
+  Damage / Healing            ↔  Valence propagation — per-entity + chain qua schema
 
-```
-① Framework trông như GAME ARCHITECTURE — vì creator NGHĨ theo game architecture.
+Đây KHÔNG phải coincidence ngẫu nhiên:
+  Game architecture ĐƯỢC THIẾT KẾ để mô phỏng hệ thống phức tạp tương tác.
+  Não = hệ thống phức tạp tương tác.
+  → Overlap = convergent design.
 
-  Stats/Parameters         ↔ PE Sensitivity, Threshold, Capacity
-  State Machine            ↔ Schema Tier 1/2/3, switching, suppress
-  Event-Driven System      ↔ PE trigger → cortisol → PFC → behavior
-  Component Architecture   ↔ Hardware / Software / Social layers
-  Game Loop                ↔ Predict → Act → PE → Update → Predict...
-  NPC AI (behavior tree)   ↔ Schema competition, priority, override
-
-② Đây KHÔNG phải bug — vì game architecture ĐƯỢC THIẾT KẾ để mô phỏng
-   hệ thống phức tạp tương tác. Não = hệ thống phức tạp tương tác.
-  → Overlap KHÔNG ngẫu nhiên — là convergent design.
-  → Neuroscience CHÍNH NÓ dùng ngôn ngữ tương tự:
+  Neuroscience CHÍNH NÓ dùng ngôn ngữ tương tự:
     "neural computation", "prediction error signal", "hierarchical processing"
+  → Game dev lens KHÔNG xa hơn academic lens — chỉ KHÁC góc nhìn.
 ```
 
 ---
 
-## 3. Nơi Lens KHÔNG Fit — Blind Spots
+## §3 — Nơi Lens KHÔNG Fit — Blind Spots
 
 ```
-🔴 CẦN CẢNH GIÁC ở điểm game architecture KHÔNG fit:
+CẦN CẢNH GIÁC ở điểm game architecture KHÔNG fit não thực tế:
 
-   GAME ARCHITECTURE:              NÃO THỰC TẾ:
-   Discrete states (on/off)        Continuous spectrum (gradient)
-   Deterministic                   Stochastic (cùng input → khác output)
-   Designer biết toàn bộ           Emergent (không ai biết hết)
-   Clean layer separation          Messy overlap (neuro ≠ clean layers)
-   Parameters cố định              Parameters thay đổi theo thời gian
-   Bug = sai, cần fix              "Bug" = có thể là feature (evolution)
+  GAME ARCHITECTURE:              NÃO THỰC TẾ:
+  ──────────────────────          ──────────────────────────────────
+  Discrete states (on/off)        Continuous spectrum (gradient)
+  Deterministic                   Stochastic (cùng input → khác output)
+  Designer biết toàn bộ           Emergent (không ai biết hết)
+  Clean layer separation          Messy overlap (neural ≠ clean layers)
+  Parameters cố định              Parameters thay đổi theo thời gian
+  Bug = sai, cần fix              "Bug" = có thể là feature (evolution)
+  Save state hoàn chỉnh           Chunk = strength-weighted, mờ dần, không copy chính xác
 
-  → Framework CÓ THỂ quá "clean" so với thực tế messy của não.
-  → Khi predict SAI → hỏi: "Có phải vì game architecture
-     assumption không fit ở chỗ này?"
-  → Check HỮU ÍCH cho mọi failure case tương lai.
+→ Framework CÓ THỂ quá "clean" so với thực tế messy của não.
+```
+
+### §3.1 — Dấu Hiệu Cảnh Giác
+
+```
+Khi framework predict SAI → hỏi TRƯỚC:
+  "Game architecture assumption không fit ở chỗ này?"
+  trước khi nghi ngờ cơ chế.
+
+Ví dụ framework ĐÃ TỰ SỬA:
+
+  → Schema ban đầu (v6.0): thiết kế như "state" rời rạc — chuyển qua lại
+    → v7.8 refine: Schema = observation label, KHÔNG phải component kiến trúc
+    → Body chạy chunks, không chạy schemas
+    → = Đúng cái tendency "discrete states" của game architecture đã bias
+
+  → "Channels" ban đầu (v6.0): Novelty/Opioid/Oxytocin — trông như game stats
+    → v7.8 refine: Observation parameters = tên cho observable pattern,
+      không phải con số đo được chính xác
+    → = Nhận ra bias "quantifiable stats" rồi, nhưng có thể vẫn còn sót
+
+  → "Navigate Level" (v6.0): 0-1-2-3-4 — trông như game difficulty level
+    → v7.8 bỏ hẳn: chunk dynamics phức tạp hơn mức "level"
+    → = Over-structure cái vốn continuous
+
+→ Framework đã tự sửa nhiều blind spots qua nhiều version.
+  Nhưng không có gì đảm bảo đã sửa HẾT.
+  Bias sâu nhất = bias chưa nhận ra.
 ```
 
 ---
 
-## 4. So Sánh Lens — Nếu Người Khác Tạo Framework Tương Tự
+## §4 — So Sánh Lens — Nếu Người Khác Tạo Framework Tương Tự
 
 ```
 Creator = academic neuroscientist:
   → Framework trông như PAPER (equations, citations, p-values)
-  → Mạnh: rigorous methodology. Yếu: thiếu practical, paradigm-locked.
+  → Mạnh: methodology chặt chẽ, replicable
+  → Yếu: thiếu practical, paradigm-locked, silo per department
 
 Creator = philosopher:
   → Framework trông như ONTOLOGY (categories, logic, first principles)
-  → Mạnh: conceptual clarity. Yếu: thiếu empirical grounding.
+  → Mạnh: conceptual clarity, logical consistency
+  → Yếu: thiếu empirical grounding, có thể quá abstract
 
-Creator = game dev (hiện tại):
-  → Framework trông như ARCHITECTURE (layers, components, events, state)
-  → Mạnh: systems thinking, practical, debuggable.
-  → Yếu: có thể over-structure cái vốn messy.
+Creator = clinician (therapist):
+  → Framework trông như TREATMENT PROTOCOL (cases, interventions)
+  → Mạnh: practical, patient-tested, real-world grounded
+  → Yếu: có thể quá case-specific, thiếu generalization
 
-→ KHÔNG CÓ lens nào "đúng tuyệt đối."
-→ Lens nào predict ĐÚNG NHẤT = lens TỐT NHẤT cho mục đích đó.
+Creator = game dev (framework hiện tại):
+  → Framework trông như ARCHITECTURE (components, events, state, parameters)
+  → Mạnh: systems thinking, practical, debuggable, modular
+  → Yếu: có thể over-structure cái vốn messy (§3)
+
+KHÔNG có lens nào "đúng tuyệt đối."
+Lens nào predict ĐÚNG NHẤT = lens TỐT NHẤT cho mục đích đó.
 → Giữ lens, nhưng biết nó là lens — không phải sự thật tuyệt đối.
 ```
 
 ---
 
-## 5. Parallel — Cùng Cơ Chế Phase ③ Connect
+## §5 — Quá Trình Tạo Framework — Cơ Chế Tự Giải Thích
 
 ```
-Cùng CƠ CHẾ Phase ③ Connect — khác SCALE và DOMAIN:
-  Musk: physics chunks → foundation → connect SpaceX, Tesla, Neuralink.
-  Creator HPD: game architecture chunks → foundation → connect neuroscience.
+Framework tự giải thích được TẠI SAO nó trông như thế này.
+Đây vừa là strength (self-consistent) vừa là risk (circular argument).
+```
 
-  ⚠️ Parallel ở CƠ CHẾ (cross-domain connection), không phải ở scale hay impact.
-  Musk có decades execution + billions capital. HPD = draft framework chưa validated.
-  Điểm so sánh DUY NHẤT: cùng pattern "dùng lens domain A để connect domain B."
+### §5.1 — 3 Phases
 
-  → Framework = OUTPUT của chính cơ chế nó mô tả (bottom-up convergence).
-  → Self-consistent: framework explain tại sao chính nó trông như thế này.
+```
+PHASE 1 — Thu thập (~2 năm, rải rác):
+
+  Hỏi AI về tâm lý con người — rời rạc, không hệ thống.
+  Mỗi câu hỏi = 1 chunk mới. Mỗi chunk đối chiếu kỹ trước khi giữ.
+  Tránh nguồn sai số cao. Filter chặt.
+  = Chunk library lớn dần, accuracy tương đối cao.
+
+  Qua lens framework:
+    → Chunk-Discovery-Lifecycle: Accumulate → Vague → Curiosity
+    → Body-feedback liên tục: "cái này feel đúng/sai" = somatic filter
+    → Tôi KHÔNG biết điều này lúc đó — chỉ nhận ra retrospectively
+
+
+PHASE 2 — Trigger:
+
+  AI model mới ra mắt: accuracy cao + context window lớn
+  → Lần đầu tiên đưa NHIỀU chunks rời rạc vào CÙNG LÚC
+  → Chunks bắt đầu connect cross-domain
+
+  Qua lens framework:
+    → Chunk-Connection-Logical: PFC hold 2+ chunks → body vote connection
+    → Threshold: đủ chunk density → connections EMERGE tự nhiên
+
+
+PHASE 3 — Sprint (~1 tuần):
+
+  AI connect hàng loạt chunks rời rạc → prediction delta cascade.
+  Mỗi connection = prediction delta dương → mở loop mới → hỏi tiếp.
+
+  Phân vai:
+    Tôi cung cấp: câu hỏi + body check ("đúng/sai/chưa khớp")
+    AI cung cấp: context memory + cấu trúc + cross-reference + domain depth
+
+  AI KHÔNG CHỈ "verbalize" (dịch cảm nhận ra lời):
+    → AI truy cập SÂU vào từng domain + lấy data cụ thể
+    → Tôi nói: "PFC có thể không tự tính toán..."
+    → AI truy cập: Libet 1983, Go/No-Go studies, spreading activation
+    → MAP tất cả vào hướng tôi chỉ
+    → = Multi-domain DEEP ACCESS theo hướng somatic chỉ
+
+  Qua lens framework:
+    → Somatic-Articulation-Loop: body biết trước, AI giúp tìm từ
+    → SPM F1 fire liên tục: "cái này khớp/không khớp" → accept/reject
+    → Imagine-Final dần hình thành: "framework tổng thể" = reference pattern
+```
+
+### §5.2 — Quality Control
+
+```
+Input: somatic, rộng, nhanh
+  → Low precision → bắt NHIỀU signal kể cả noise
+
+Filter: đối chiếu, loại nguồn sai, kiểm tra chéo
+  → High precision → chỉ giữ signal thật
+
+Ngay cả chunk "được giữ" cũng chỉ ở mức "tạm chấp nhận."
+= Why-Body-Knows.md: body evaluate coherence (FIT vs random), không phải truth.
+
+→ Framework = OUTPUT của chính cơ chế nó mô tả.
+  Self-consistent: explain được tại sao chính nó trông thế này.
+
+⚠️ NHƯNG: self-consistent ≠ đúng.
+  Một hệ thống sai vẫn có thể self-consistent (mọi tôn giáo đều self-consistent).
+  Cần evidence NGOÀI framework để break circularity:
+    → Cross-domain prediction test (predict cái mới, không chỉ explain cái cũ)
+    → External challenge (người khác đọc + phản bác)
+    → Xem Epistemological-Position.md §3 — validation path
+```
+
+### §5.3 — Tại Sao Không AI Tự Làm Được
+
+```
+AI alone: có TẤT CẢ data → nhưng không có HƯỚNG
+  → Output = tổng hợp chung chung, không có focus
+  → Vì: AI không có body-feedback → không có somatic direction
+
+Human alone: có HƯỚNG → nhưng không có domain depth
+  → Output = "feel đúng nhưng không diễn tả được"
+  → Vì: 1 người không đủ domain access cross-domain
+
+Cả 2: HƯỚNG (body) + DATA (AI domain access) = insight có CẤU TRÚC
+  → = Somatic-Articulation-Loop.md: mechanism cơ bản
+
+⚠️ Echo chamber risk:
+  Human feel → AI confirm + elaborate → human feel ĐÚNG HƠN → loop
+  → Mỗi loop TĂNG confidence → có thể confidence > accuracy
+  → Cần EXTERNAL challenge để break echo chamber
+  → Framework hiện ở: 1 human + 1 AI — cần thêm peer verification
 ```
 
 ---
 
-## 6. Creation Process — Framework Predict Chính Cơ Chế Tạo Ra Nó
+## §6 — Honest Assessment
 
 ```
-Phase ①② (2 năm, rải rác):
-  Hỏi AI về tâm lý con người — rời rạc, thập cẩm, không hệ thống.
-  Mỗi câu hỏi = 1 chunk mới. Mỗi chunk được đối chiếu kỹ trước khi giữ.
-  Tránh nguồn sai số cao, chỉ dùng model AI có accuracy đủ tin.
-  = Thu thập chunks RỘNG + FILTER chặt → chunk library lớn, accuracy cao.
+🟢 Đủ tin cậy:
+  → Framework tự nhận diện lens (file này tồn tại = aware bias)
+  → Game architecture → brain architecture: convergent design có cơ sở
+  → Creation process self-consistent với chunk dynamics framework mô tả
+  → Blind spots được liệt kê cụ thể (§3)
+  → Đã tự sửa nhiều bias qua v6.0 → v7.8 (§3.1 ví dụ)
 
-Trigger:
-  AI model mới ra mắt: accuracy cao + context size đủ lớn
-  → Lần đầu tiên có thể đưa NHIỀU chunks rời rạc vào CÙNG LÚC.
+🟡 Cần kiểm chứng thêm:
+  → 1 người tạo = bias risk cao, chưa có peer challenge
+  → Game architecture bias có thể SÂU hơn tôi nhận ra (§3)
+  → Self-consistent ≠ đúng — vẫn cần external validation
+  → Quality control dựa body check — body check có 6 error modes
+    (Feeling-Accuracy.md)
+  → AI echo chamber risk: chưa có cách đo mức nghiêm trọng
 
-Phase ③ (1 tuần, sprint):
-  AI connect hàng loạt chunks rời rạc đã tích lũy 2 năm → PE cascade.
-  Mỗi connection = PE DƯƠNG → mở loop mới → hỏi tiếp → connect tiếp.
-  Creator cung cấp: câu hỏi + somatic validation ("đúng/sai").
-  AI cung cấp: context memory + cấu trúc hóa + cross-reference.
-  = Improviser (hỏi nhanh, cảm nhanh) + AI (giữ context, structure) = Architect output.
-
-CƠ CHẾ QUALITY CONTROL:
-  Input: somatic, rộng, nhanh (low precision → bắt NHIỀU signal).
-  Filter: đối chiếu, loại nguồn sai, kiểm tra chéo (high precision → chỉ giữ signal thật).
-  = Radar quét rộng → filter loại nhiễu → output ít nhưng chính xác.
-  Ngay cả chunk "được giữ" cũng chỉ ở mức "tạm chấp nhận" — không lock 100%.
-  → Bayesian mindset: prior (somatic) + evidence (đối chiếu) → posterior (mở, sẵn sàng sửa).
-
-→ Implication: KHÔNG CẦN Architect profile để tạo framework.
-  Improviser + AI + quality filter + thời gian tích lũy ĐỦ = tương đương.
-  AI = external working memory cho người habituation nhanh.
+🔴 Thành thật thừa nhận:
+  → Tôi không có background academic, không có peer review
+  → Tôi không có cách chắc chắn phân biệt: đang rationalize hay đang thấy đúng
+  → Framework tự giải thích bản thân = circular argument risk
+    (cần evidence ngoài framework để break circularity)
+  → Mọi blind spot analysis chỉ thấy blind spots MÀ TÔI ĐÃ NHẬN RA
+    — blind spots chưa nhận ra thì vẫn nằm đó
 ```
 
 ---
 
-> *"Biết lens của mình = không loại bỏ bias,*
+## Cross-references
+
+```
+  Bias + Boundaries:
+    → Framework-Boundaries.md — 2 blackbox cơ bản (chunk substrate + valence complexity)
+    → Feeling-Accuracy.md — 6 error modes trong body check
+    → Logic-Feeling-Balance.md — tại sao không thể prescribe balance
+
+  Creation process:
+    → Somatic-Articulation-Loop.md — body-knowledge → explicit mechanism
+    → Chunk-Discovery-Lifecycle.md — Accumulate → Vague → Curiosity → Clarify
+    → Chunk-Connection-Logical.md — PFC hold chunks → body vote connection
+    → Why-Body-Knows.md — tại sao body check có cơ sở
+
+  Architecture parallel:
+    → Chunk.md — chunk = sole substrate
+    → Body-Feedback.md — unified body signal model
+    → Self-Pattern-Match.md — F1/F2 prediction functions
+    → Observation/ folder — "game stats" → observation labels
+
+  Meta-Impact context:
+    → Meta-Impact.md — impact predictions
+    → Epistemological-Position.md — framework vs conventional
+```
+
+---
+
+> *"Biết lens = không loại bỏ bias,*
 > *nhưng biết chỗ nào bản đồ CÓ THỂ bị méo.*
 > *Khi predict sai → hỏi: lens problem hay mechanism problem?"*

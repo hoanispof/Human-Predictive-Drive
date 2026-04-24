@@ -1,36 +1,82 @@
+---
+title: Natural-Development — Phát Triển Tự Nhiên Của Trẻ (0-6 Tuổi)
+version: 2.0
+created: 2026-04-01
+updated: 2026-04-21
+status: REFERENCE v2.0
+scope: |
+  PRACTICAL FILE: Mô tả CÁI ĐANG XẢY RA ở trẻ 0-6 tuổi qua lens v7.8.
+  Hành vi tự nhiên, giấc ngủ, timeline, nguyên tắc hỗ trợ, sai lầm phổ biến.
+  KHÔNG phải "dạy gì" — mà "ĐANG XẢY RA GÌ" + "bố mẹ hỗ trợ thế nào".
+purpose: |
+  File NÀY mô tả HIỆN TƯỢNG — Mechanism.md giải thích CƠ CHẾ.
+  Bố mẹ đọc file này để HIỂU con. Muốn hiểu TẠI SAO → đọc Mechanism.
+position: |
+  Research/Child-Development/ — TẦNG 2 trong kiến trúc 5 tầng.
+  TẦNG 1: Core-Deep-Dive/ (não hoạt động thế nào)
+  TẦNG 2: Research/Child-Development/ (con người phát triển 0-6) ← ĐÂY
+  TẦNG 3: Research/Education/ (nguyên lý giáo dục bất biến)
+  TẦNG 4: Applications/Education/ (ứng dụng per-era)
+  TẦNG 5: Country/ (per-country)
+dependencies:
+  - Child-Development-Mechanism.md — KHUNG NGUYÊN LÝ v7.8 (reference chính)
+  - Core-v7.8-Draft.md — cycle architecture, observation parameters
+  - Chunk.md v2.0 — chunk substrate, compile, lifecycle
+  - Body-Feedback.md — dual-pull, interface loop, H10
+  - Cortisol-Baseline.md v2.0 — amplifier reframe, direction > level
+  - Feeling.md v2.0 — 7-layer fidelity gradient
+  - Empathy.md — SPM function, developmental bootstrap
+  - Connection.md — hardware drive, virtual chunks
+  - Autonomy-Hardware.md + Autonomy.md — efference copy, 5-phase arc
+supersedes: |
+  Natural-Development.md v1.0 (2026-04-01, v7.5 lens)
+  Backup: Research/Child-Development/backup/Natural-Development-v7.5-backup.md
+language: Tiếng Việt primary + English technical terms
+confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+caution: |
+  ⚠️ KHÔNG thay thế chuyên gia nhi khoa / tâm lý trẻ em.
+  Mỗi trẻ phát triển theo TIMELINE RIÊNG — các mốc là TRUNG BÌNH.
+---
+
 # Natural Development — Phát Triển Tự Nhiên Của Trẻ (0-6 Tuổi)
 
-> **Trạng thái:** DRAFT
-> **Ngày:** 2026-04-01
-> **Mục đích:** Hiểu quá trình phát triển TỰ NHIÊN của não bộ và cơ thể trẻ —
-> KHÔNG phải "dạy gì", mà "ĐANG XẢY RA GÌ" và "bố mẹ hỗ trợ thế nào"
-> **Nguyên tắc:** Trẻ KHÔNG cần được "lập trình" — não bộ được THIẾT KẾ để tự wire
-> qua trải nghiệm. Bố mẹ tạo MÔI TRƯỜNG, không tạo KẾT QUẢ.
-> **Phạm vi:** 0-6 tuổi, TRƯỚC can thiệp giáo dục kỹ năng
-> **Tiền đề:** Core-v7.5-Draft.md (framework gốc),
-> Imagine-Final.md (cơ chế kỳ vọng vô thức), Chunk.md (cơ chế học)
-> **⚠️ KHÔNG thay thế chuyên gia nhi khoa / tâm lý trẻ em.
-> Mỗi trẻ phát triển theo TIMELINE RIÊNG — các mốc dưới đây là TRUNG BÌNH.**
+> **Trẻ chạy CÙNG kiến trúc với người lớn.**
+> Cùng Perception-Action Cycle. Cùng chunk substrate. Cùng body-feedback.
+> Cùng PFC hardware — online từ prenatal (Hodel 2018).
+>
+> Chỉ KHÁC: chunk density.
+>
+> Người lớn: hàng triệu chunks compiled → đa số vòng loop = smooth.
+> Trẻ sơ sinh: gần zero chunks → MỌI THỨ là mới → mọi vòng loop = learning.
+>
+> File này mô tả CÁI ĐANG XẢY RA trong quá trình từ "gần zero" → "đủ để sống".
+> Không phải "PFC chưa phát triển" — mà là "chunks chưa compile đủ."
+> Không phải "trẻ chưa biết gì" — mà là "trải nghiệm chưa tích lũy."
+>
+> Cơ chế chi tiết: → Mechanism.md (khung nguyên lý v7.8).
+> File này: hiện tượng quan sát + nguyên tắc hỗ trợ thực tế.
 
 ---
 
 ## Mục lục
 
-0. Mục đích — Tại sao file này quan trọng
-1. Hardware khi bắt đầu — Não sơ sinh có gì
-2. Hành vi tự nhiên × Mục đích — Mỗi hành vi = 1 chương trình phát triển
-3. Giấc ngủ — Não đang làm gì khi trẻ ngủ
-4. Timeline phát triển tự nhiên — 0→6 tuổi
-5. Bố mẹ hỗ trợ (không dạy) — Nguyên tắc nền
-6. Sai lầm phổ biến — Những gì CẢN TRỞ phát triển tự nhiên
-7. Qua lens framework — Body-base, Imagine-Final, Schema, Connection
-8. Honest Assessment
-9. Câu hỏi mở
-10. Kết nối
+- §0 — TẠI SAO FILE NÀY QUAN TRỌNG
+- §1 — HARDWARE KHI BẮT ĐẦU: PFC ONLINE, CHUNKS MISSING
+- §2 — HÀNH VI TỰ NHIÊN × MỤC ĐÍCH PHÁT TRIỂN
+- §3 — GIẤC NGỦ: NÃO ĐANG LÀM GÌ KHI TRẺ NGỦ
+- §4 — TIMELINE PHÁT TRIỂN TỰ NHIÊN: 0→6 TUỔI
+- §5 — BỐ MẸ HỖ TRỢ (KHÔNG DẠY): NGUYÊN TẮC NỀN
+- §6 — SAI LẦM PHỔ BIẾN: NHỮNG GÌ CẢN TRỞ PHÁT TRIỂN TỰ NHIÊN
+- §7 — QUA LENS FRAMEWORK v7.8
+- §8 — HONEST ASSESSMENT
+- §9 — CÂU HỎI MỞ
+- §10 — CROSS-REFERENCES
 
 ---
 
-## 0. TẠI SAO FILE NÀY QUAN TRỌNG
+## §0 — TẠI SAO FILE NÀY QUAN TRỌNG
+
+### §0.1 — Nghịch lý phát triển
 
 ```
 NGHỊCH LÝ:
@@ -39,10 +85,10 @@ NGHỊCH LÝ:
   Và phần LỚN NHẤT của nền tảng đó là... TỰ NHIÊN
 
   Nghĩa là:
-    → Não trẻ tự wire qua trải nghiệm BÌNH THƯỜNG (bò, chạm, ngã, chơi)
+    → Não trẻ tự compile chunks qua trải nghiệm BÌNH THƯỜNG (bò, chạm, ngã, chơi)
     → KHÔNG cần can thiệp đặc biệt → chỉ cần MÔI TRƯỜNG PHÙ HỢP
     → Nhiều khi can thiệp SAI (ngăn mút tay, xe tập đi, flashcard sớm)
-      → CẢN TRỞ cái não ĐANG TỰ LÀM
+      → CẢN TRỞ quá trình compile chunk ĐANG TỰ CHẠY
 
   = CÁI CẦN BIẾT:
     ① Não/cơ thể trẻ ĐANG LÀM GÌ tại mỗi giai đoạn
@@ -53,12 +99,50 @@ NGHỊCH LÝ:
   File này NÓI: "đây là cái ĐANG XẢY RA — hiểu để KHÔNG CẢN TRỞ"
 ```
 
----
-
-## 1. HARDWARE KHI BẮT ĐẦU — NÃO SƠ SINH CÓ GÌ
+### §0.2 — Bản đồ 4 files
 
 ```
-NÃO SƠ SINH — "MÁY TÍNH MỚI BẬT, CHƯA CÀI GÌ, NHƯNG PHẦN CỨNG CỰC MẠNH"
+CẤU TRÚC BỘ 4 FILES:
+
+  Child-Development-Mechanism.md  ← KHUNG NGUYÊN LÝ v7.8
+    ↑ referenced by ↑
+  Mother-Optimization.md  →  Natural-Development.md  →  Skill-Introduction.md
+  (prenatal hardware)         (0-6 tự nhiên — ĐÂY)      (0-6 kỹ năng)
+
+READER FLOW:
+  Muốn hiểu CƠ CHẾ → đọc Mechanism trước
+  Muốn hiểu THỰC TẾ → đọc Natural/Skill/Mother, quay lại Mechanism khi cần
+```
+
+### §0.3 — Đọc file nào khi cần gì
+
+```
+"Con cứ khóc hoài"              → §2.5 (khóc = giao tiếp)
+                                  + Mechanism §4 (chunk dynamics)
+"Con không chịu học piano"      → Skill-Intro §Withdrawal
+                                  + Mechanism §3 (avoidance tag đã compile)
+"Con 18 tháng cứ nói KHÔNG"    → §4.4 (autonomy assertion)
+                                  + Mechanism §7 (autonomy meta-chunk)
+"Sao con chưa biết chia sẻ"    → Mechanism §6 (SPM chưa đủ chunks)
+"Con sợ nước"                   → Mechanism §3.4 (reconsolidation window)
+"Dạy sớm có hại không"         → §6.3 (ép học sớm)
+                                  + Mechanism §3 (threat-path → avoidance tag)
+"Sao con ngủ nhiều thế"        → §3 (ngủ = compile + prune + grow)
+```
+
+---
+
+## §1 — HARDWARE KHI BẮT ĐẦU: PFC ONLINE, CHUNKS MISSING
+
+> ⭐ **CRITICAL CORRECTION (v2.0)** — File v1.0 viết "PFC ~5% ở sơ sinh".
+> Đây là Piaget-era framing ĐÃ BỊ BÁC BỎ bởi neuroscience hiện đại (2007-2018).
+> PFC HARDWARE online từ prenatal. Cái thiếu = compiled chunks + myelination + pruning.
+> → Chi tiết cơ chế: Mechanism §1 (PFC Reframe, 5 evidence pillars, Hodel 2018)
+
+### §1.1 — Não sơ sinh: "Máy tính mới bật — PHẦN CỨNG ĐẦY ĐỦ, CHƯA CÀI NỘI DUNG"
+
+```
+NÃO SƠ SINH — PHẦN CỨNG CỰC MẠNH, NỘI DUNG GẦN ZERO
 
   ĐÃ CÓ (hardware sẵn từ bào thai):
   ┌─────────────────────────────────────────────────────────────┐
@@ -69,34 +153,48 @@ NÃO SƠ SINH — "MÁY TÍNH MỚI BẬT, CHƯA CÀI GÌ, NHƯNG PHẦN CỨNG 
   │ Brainstem              — HOÀN CHỈNH: thở, tim, phản xạ    │
   │ Limbic system (1 phần) — stress response, emotion cơ bản   │
   │ Sensory cortex (1 phần)— nghe TỐT, nhìn MỜ (~20-30cm)    │
+  │ ⭐ PFC HARDWARE         — ONLINE (Hodel 2018):             │
+  │                          synapses ĐÃ ở ngưỡng adult       │
+  │                          networks adult-like facsimile      │
+  │                          fNIRS active từ rất sớm           │
   │ Body-base              — THUẦN KHIẾT: tín hiệu chưa bị    │
   │                          suppress bởi xã hội               │
   │ Reflex                 — mút, nắm, giật mình, rooting      │
   │                          (chương trình CÀI SẴN cho sống)   │
   └─────────────────────────────────────────────────────────────┘
 
-  CHƯA CÓ / ĐANG PHÁT TRIỂN:
+  CÁI THIẾU (nội dung, không phải phần cứng):
   ┌─────────────────────────────────────────────────────────────┐
-  │ PFC                    — ~5% → gần như KHÔNG hoạt động      │
-  │ Voluntary motor        — 0 (chỉ reflex, chưa chủ động)     │
-  │ Myelin                 — RẤT ÍT → tín hiệu CHẬM           │
+  │ Compiled chunks        — GẦN ZERO → mọi thứ đều MỚI       │
+  │                          → ĐÂY là bottleneck chính (H10 P2)│
+  │ Myelination            — RẤT ÍT → tín hiệu CHẬM + noise  │
   │                          → cử động giật, phản ứng trễ      │
-  │ Synapse                — SẮP BÙNG NỔ (sự kiện chính 0-2)  │
-  │ Schema / Chunks        — GẦN ZERO → mọi thứ đều MỚI       │
+  │                          (PFC vẫn chạy, chỉ bandwidth thấp)│
+  │ Pruning                — CHƯA diễn ra (circuits chưa tối ưu│
+  │                          → synapses DƯ THỪA, chưa specific)│
+  │ Voluntary motor        — 0 (chỉ reflex, chưa chủ động)     │
   │ Ngôn ngữ               — 0 (nhưng đã NGHE từ trong bụng)  │
   │ Object permanence      — chưa (vật biến mất = KHÔNG TỒN    │
   │                          TẠI với trẻ)                      │
-  │ Imagine-Final ý thức   — chưa (PFC chưa đủ để simulate)    │
+  │ Imagine-Final ý thức   — chưa (chunks chưa đủ để simulate) │
   └─────────────────────────────────────────────────────────────┘
+
+  ⭐ KHÁC BIỆT QUAN TRỌNG:
+    OLD: "trẻ thiếu PHẦN CỨNG → phải chờ não đủ tuổi"
+    NEW: "trẻ thiếu NỘI DUNG → tạo điều kiện compile"
+    → Hệ quả thực tế KHÁC HOÀN TOÀN cho bố mẹ
+    → Chi tiết: Mechanism §1.1 (Old vs New), §1.2 (5 pillars)
 ```
 
-### SYNAPTOGENESIS — SỰ KIỆN CHÍNH CỦA 0-2 NĂM
+### §1.2 — Synaptogenesis: Não THỪA kết nối, không thiếu
 
 ```
-  Sơ sinh:      ~50 nghìn tỷ synapse
-  2 tuổi:       ~100 nghìn tỷ synapse (GẤP ĐÔI người lớn!)
+  🟢 Huttenlocher 1979, Huttenlocher & Dabholkar 1997:
+
+  Sơ sinh:      PFC synaptic density ĐÃ ở ngưỡng adult
+  ~15 tháng:    Peak — GẤP ĐÔI mật độ adult (overproduction)
   Sau đó:       PRUNING — "cái nào dùng thì GIỮ, cái nào không thì CẮT"
-  Trưởng thành: ~60 nghìn tỷ synapse (bớt số lượng, TĂNG chất lượng)
+  Trưởng thành: Bớt số lượng, TĂNG chất lượng (specific circuits)
 
   → Não trẻ KHÔNG thiếu kết nối — nó TẠO THỪA rồi CẮT BỚT
   → Trải nghiệm quyết định CÁI NÀO ĐƯỢC GIỮ
@@ -106,40 +204,53 @@ NÃO SƠ SINH — "MÁY TÍNH MỚI BẬT, CHƯA CÀI GÌ, NHƯNG PHẦN CỨNG 
   → "Use it or lose it" — nhưng "use" ở đây = TRẢI NGHIỆM TỰ NHIÊN
 
   ⭐ KEY INSIGHT:
-    Não trẻ KHÔNG cần bố mẹ "dạy" để wire
-    Não trẻ CẦN MÔI TRƯỜNG ĐỦ ĐA DẠNG để tự wire
-    → Bò trên sàn = wire motor + spatial + vestibular
-    → Nghe bố mẹ nói = wire ngôn ngữ
-    → Chạm đồ vật = wire tactile + cause-effect
-    → ĐƯỢC ÔM khi khóc = wire trust + connection
-    → = MỖI trải nghiệm bình thường = MỖI nhóm synapse được KÍCH HOẠT → GIỮ LẠI
+    Não trẻ KHÔNG cần bố mẹ "dạy" để compile chunks
+    Não trẻ CẦN MÔI TRƯỜNG ĐỦ ĐA DẠNG để tự compile
+    → Bò trên sàn = compile chunks motor + spatial + vestibular
+    → Nghe bố mẹ nói = compile chunks ngôn ngữ (statistical learning)
+    → Chạm đồ vật = compile chunks tactile + cause-effect
+    → ĐƯỢC ÔM khi khóc = compile chunks trust + connection
+    → = MỖI trải nghiệm bình thường = MỖI nhóm chunks được compile → GIỮ LẠI
+
+  → Cơ chế compile chi tiết: Mechanism §2 (4+1 Channel Compile)
 ```
 
-### MYELIN HÓA — TỪ CHẬM → NHANH (thứ tự quan trọng)
+### §1.3 — Myelination: Tốc độ signal, không phải hardware presence
 
 ```
-  Myelin = lớp bọc axon → tín hiệu nhanh hơn ~100 lần
-  Thứ tự myelin hóa KHÔNG ngẫu nhiên — nó theo ĐỘ ƯU TIÊN SỐNG:
+  🟢 Yakovlev & Lecours 1967:
+  Myelin = lớp bọc axon → tín hiệu nhanh hơn ~100 lần + giảm noise
+  Thứ tự myelin hóa KHÔNG ngẫu nhiên — theo ĐỘ ƯU TIÊN SỐNG:
 
     ① Brainstem (trước sinh)   — thở, tim → SỐNG CÒN → myelin TRƯỚC
     ② Sensory cortex (0-6 th)  — nhìn, nghe, chạm → NHẬN dữ liệu
     ③ Motor cortex (6-18 th)   — cử động chủ động → HÀNH ĐỘNG
     ④ Language areas (1-5 tuổi) — ngôn ngữ → GIAO TIẾP
-    ⑤ PFC (6-25 tuổi)          — lập kế hoạch, kiểm soát → SAU CÙNG
+    ⑤ PFC intracortical (6-25+) — tốc độ xử lý + integration → SAU CÙNG
 
   → Thứ tự này giải thích TẠI SAO:
-    → Trẻ 1 tuổi: bò giỏi nhưng CHƯA nói được (motor trước language)
-    → Trẻ 3 tuổi: nói tốt nhưng KHÔNG chờ được (language trước PFC)
-    → Trẻ 6 tuổi: hiểu luật nhưng VẪN phá luật (hiểu ≠ kiểm soát)
-    → Thiếu niên: lập kế hoạch được nhưng CẢM XÚC vẫn mạnh (PFC chưa xong)
+    → Trẻ 1 tuổi: bò giỏi nhưng CHƯA nói được (motor myelin trước language)
+    → Trẻ 3 tuổi: nói tốt nhưng KHÔNG chờ được (language myelin trước PFC)
+    → Trẻ 6 tuổi: hiểu luật nhưng VẪN phá luật (hiểu ≠ tốc độ inhibition)
+    → Thiếu niên: lập kế hoạch được nhưng emotion override thường
+      (PFC intracortical myelination chưa xong)
 
-  BỐ MẸ: ĐỪNG đòi hỏi chức năng MÀ NÃO CHƯA CÓ PHẦN CỨNG
-    → Đòi trẻ 2 tuổi "ngồi im" = đòi chạy phần mềm trên CPU chưa gắn
-    → Đòi trẻ 4 tuổi "kiên nhẫn" = PFC inhibition chưa myelin hóa
-    → Đòi trẻ 6 tuổi "suy nghĩ trước khi làm" = PFC planning chưa đủ tốc độ
+  ⭐ HIỂU ĐÚNG:
+    "Trẻ chưa chờ được" ≠ "PFC chưa có" (hardware ĐÃ online)
+    "Trẻ chưa chờ được" = chunks regulate chưa compile đủ
+                         + signal speed chậm (myelination chưa xong)
+                         = NỘI DUNG + TỐC ĐỘ, không phải PHẦN CỨNG
+
+  BỐ MẸ: ĐỪNG đòi hỏi output MÀ NỘI DUNG CHƯA COMPILE ĐỦ
+    → Đòi trẻ 2 tuổi "ngồi im" = chunks inhibition chưa compile
+    → Đòi trẻ 4 tuổi "kiên nhẫn" = chunks "chờ → reward" chưa đủ mạnh
+    → Đòi trẻ 6 tuổi "suy nghĩ trước" = chunks planning đang compile,
+      nhưng signal speed (myelination) chưa đủ nhanh
+    → CẢ HAI ĐÚNG: chunks thiếu VÀ myelination chưa xong → cả hai cần THỜI GIAN
+    → → Mechanism §1.2 pillar ④ (myelination = slow thing)
 ```
 
-### BODY-BASE SƠ SINH — THUẦN KHIẾT NHẤT
+### §1.4 — Body-base sơ sinh: Thuần khiết nhất
 
 ```
   Body-base lúc mới sinh = 100% PURE
@@ -156,23 +267,30 @@ NÃO SƠ SINH — "MÁY TÍNH MỚI BẬT, CHƯA CÀI GÌ, NHƯNG PHẦN CỨNG 
   → Xã hội + trường học SẼ suppress dần (unavoidable)
   → Nhưng nền tảng MẠNH → body-listening CÒN → dù bị suppress cũng DỄ phục hồi
   → Nền tảng YẾU → body-listening MẤT → trưởng thành "không biết mình muốn gì"
+
+  → Cơ chế chi tiết:
+    Mechanism §3 (approach/avoidance tags — body-state-at-compile quyết định tag)
+    Mechanism §5 (feeling development — 7-layer fidelity gradient)
 ```
 
 ---
 
-## 2. HÀNH VI TỰ NHIÊN × MỤC ĐÍCH PHÁT TRIỂN
+## §2 �� HÀNH VI TỰ NHIÊN × MỤC ĐÍCH PHÁT TRIỂN
 
 ```
-MỖI HÀNH VI "KỲ LẠ" CỦA TRẺ = 1 CHƯƠNG TRÌNH PHÁT TRIỂN ĐANG CHẠY
+MỖI HÀNH VI "KỲ LẠ" CỦA TRẺ = 1 QUÁ TRÌNH COMPILE CHUNKS ĐANG CHẠY
 
   Bố mẹ thường thấy: "sao con cứ ném đồ / mút tay / khóc hoài / ..."
-  Thực tế: đó là NÃO ĐANG WIRE bằng cách DUY NHẤT nó biết — TRẢI NGHIỆM
-  Ngăn hành vi = TẮT chương trình → synapse KHÔNG được kích hoạt → BỊ CẮT
+  Thực tế: đó là NÃO ĐANG COMPILE CHUNKS qua cách DUY NHẤT nó biết — TRẢI NGHIỆM
+  Ngăn hành vi = NGẮT quá trình compile → chunks KHÔNG được compile → BỊ BỎ LỠ
 
-  Dưới đây: phân tích từng hành vi theo GIÁ TRỊ PHÁT TRIỂN thật sự
+  Mỗi hành vi dưới đây = 1 hoặc nhiều kênh compile đang hoạt động.
+  → Cơ chế compile: Mechanism §2 (4+1 Channel Compile)
+  → Cách tag gắn vào compile: Mechanism §3 (approach/avoidance)
+  → Phản ứng bố mẹ compile VÀO chunk: Mechanism §2.3 (external install)
 ```
 
-### 2.1 MÚT TAY / NGẬM MỌI THỨ (Oral Exploration)
+### §2.1 MÚT TAY / NGẬM MỌI THỨ (Oral Exploration)
 
 ```
 QUAN SÁT:
@@ -220,7 +338,7 @@ MỤC ĐÍCH PHÁT TRIỂN (tối thiểu 4):
        (lo lắng, thiếu an toàn) → tìm NGUYÊN NHÂN, không ngăn TRIỆU CHỨNG
 ```
 
-### 2.2 BÒ (Crawling)
+### §2.2 BÒ (Crawling)
 
 ```
 QUAN SÁT:
@@ -269,7 +387,7 @@ TẠI SAO BÒ QUAN TRỌNG ĐẾN VẬY? (tối thiểu 5 mục đích)
      → = Muốn con đi tốt → ĐỂ BÒ ĐỦ, bỏ xe tập đi
 ```
 
-### 2.3 ĐỨNG — NGÃ — ĐỨNG LẠI (Standing, Falling, Recovery)
+### §2.3 ĐỨNG — NGÃ — ĐỨNG LẠI (Standing, Falling, Recovery)
 
 ```
 QUAN SÁT:
@@ -313,7 +431,7 @@ TẠI SAO NGÃ = HỌC?
      = Bình tĩnh → "ngã = learn" / Hoảng → "ngã = danger"
 ```
 
-### 2.4 CHẠM — NẮM — NÉM (Touch, Grab, Throw)
+### §2.4 CHẠM — NẮM — NÉM (Touch, Grab, Throw)
 
 ```
 QUAN SÁT:
@@ -352,7 +470,7 @@ MỤC ĐÍCH PHÁT TRIỂN:
      → = Nền tảng agency → confidence → autonomy
 ```
 
-### 2.5 KHÓC (Crying)
+### §2.5 KHÓC (Crying)
 
 ```
 QUAN SÁT:
@@ -366,7 +484,7 @@ KHÓC = CÔNG CỤ GIAO TIẾP DUY NHẤT (không phải manipulation)
      → Sơ sinh CHƯA có ngôn ngữ, CHƯA có cử chỉ phức tạp
      → Khóc = kênh DUY NHẤT: "tôi CẦN gì đó"
      → KHÔNG PHẢI manipulation
-       (cần PFC để chiến lược hóa → PFC ~5% → chưa có khả năng)
+       (cần compiled chunks chiến lược → sơ sinh chưa có chunks này)
      → = Signal THẬT 100% → mỗi tiếng khóc = 1 nhu cầu THẬT
 
   ② BODY-SIGNAL TRAINING (training tín hiệu cơ thể)
@@ -392,12 +510,12 @@ KHÓC = CÔNG CỤ GIAO TIẾP DUY NHẤT (không phải manipulation)
   ⭐ RESPONSIVE ≠ SPOIL (đáp ứng ≠ nuông chiều):
      → Đáp ứng khóc trẻ sơ sinh = BUILD trust (attachment security)
      → KHÔNG tạo "thói quen khóc là được"
-       (chưa có PFC để tính toán "khóc → bố mẹ làm theo")
+       (chunks chiến lược chưa compile → chưa có khả năng manipulation)
      → Attachment theory: responsive → secure attachment → explore TỐT hơn
      → = "Đáp ứng BÂY GIỜ → tự lập SAU" (ngược trực giác nhưng đúng)
 ```
 
-### 2.6 PHÁT ÂM — BẬP BẸ (Babbling & Vocalization)
+### §2.6 PHÁT ÂM — BẬP BẸ (Babbling & Vocalization)
 
 ```
 QUAN SÁT:
@@ -445,7 +563,7 @@ CƠ CHẾ — NÃO ĐANG LÀM GÌ:
      → = Parentese = exaggerate, KHÔNG phải distort
 ```
 
-### 2.7 BẮT CHƯỚC (Imitation)
+### §2.7 BẮT CHƯỚC (Imitation)
 
 ```
 QUAN SÁT:
@@ -462,7 +580,7 @@ MỤC ĐÍCH PHÁT TRIỂN:
      → Bắt chước: thấy → copy → gần đúng NGAY → refine (NHANH)
      → = Copy = "nhảy qua" hàng trăm bước thử-sai
      → = Lý do con người HỌC NHANH hơn nhiều loài khác
-       (mirror system + imitation capacity = nổi bật ở người)
+       (Self-Pattern-Match + imitation capacity = nổi bật ở ng��ời)
 
   ② SOCIAL LEARNING (học xã hội)
      → Bắt chước bố mẹ: cách cầm muỗng, cách chào, cách phản ứng
@@ -476,18 +594,27 @@ MỤC ĐÍCH PHÁT TRIỂN:
      → = "SỐNG LÀ DẠY" — hành vi bố mẹ = giáo trình THẬT của trẻ
      → = Muốn con bình tĩnh → bố mẹ phải SỐNG bình tĩnh (không phải NÓI)
 
-  ③ MIRROR SYSTEM (hệ gương)
-     → Thấy người khác làm → vùng motor của NÃO MÌNH cũng fire (nhẹ)
-     → = Não SIMULATE hành động người khác TRÊN HỆ THỐNG CỦA MÌNH
+  ③ SELF-PATTERN-MATCH (SPM) — không phải "mirror neuron module"
+     → 🟡 Framework reject "mirror neuron module" bẩm sinh chuyên biệt
+       (→ Clarification/Mirror-Neuron-Rejection.md: 7 bằng chứng)
+     → Cơ chế thật: PFC dùng SELF-CHUNKS làm template để predict người khác
+       = Self-Pattern-Match (SPM) — learned prediction function
+     → Thấy mẹ đưa tay lấy cốc → SPM dùng motor chunks CỦA MÌNH
+       để simulate hành động → "hiểu" mà không cần mirror module
+     → Development bootstrap ở trẻ:
+       Arousal contagion (0-6mo) → Social referencing (6-9mo)
+       → Helping behavior (14-18mo) → True empathy (18-24mo)
+       → Animism (2-4y) → Boundary refinement (4-7y)
      → = Nền tảng cho:
-       → Empathy (cảm nhận người khác cảm gì)
-       → Learning by watching (hiểu CÁCH làm trước khi tự làm)
-       → Theory of mind (hiểu NGƯỜI KHÁC có suy nghĩ riêng)
+       → Empathy (SPM applied to other agents)
+       → Learning by watching (simulate trước khi bắt chước)
+       → Theory of mind (SPM + chunks "người khác ≠ mình")
      → Framework: chunk acquisition qua observation
        → Mỗi lần THẤY = não compile bản nháp → BẮT CHƯỚC = run bản nháp
+     → Chi tiết: Mechanism §6 (SPM Developmental Bootstrap)
 ```
 
-### 2.8 CHƠI TỰ DO (Free Play)
+### §2.8 CHƠI TỰ DO (Free Play)
 
 ```
 QUAN SÁT:
@@ -543,7 +670,10 @@ TẠI SAO CHƠI TỰ DO CÓ THỂ LÀ HÀNH VI QUAN TRỌNG NHẤT:
 
 ---
 
-## 3. GIẤC NGỦ — NÃO ĐANG LÀM GÌ KHI TRẺ NGỦ
+## §3 — GIẤC NGỦ: NÃO ĐANG LÀM GÌ KHI TRẺ NGỦ
+
+> Giấc ngủ = 4th compile channel (Sleep Consolidation) — Mechanism §2.1④
+> + Cortisol repair window — Mechanism §8
 
 ```
 GIẤC NGỦ = NÃO ĐANG LÀM VIỆC (không phải "nghỉ")
@@ -559,7 +689,7 @@ GIẤC NGỦ = NÃO ĐANG LÀM VIỆC (không phải "nghỉ")
   → Vì não KHÔNG "tắt" khi ngủ — nó đang RUN 3 CHƯƠNG TRÌNH QUAN TRỌNG
 ```
 
-### 3.1 BA CHƯƠNG TRÌNH CHẠY KHI NGỦ
+### §3.1 BA CHƯƠNG TRÌNH CHẠY KHI NGỦ
 
 ```
 ① MEMORY CONSOLIDATION (ghi nhớ dài hạn)
@@ -598,7 +728,7 @@ GIẤC NGỦ = NÃO ĐANG LÀM VIỆC (không phải "nghỉ")
    → = Trẻ thiếu ngủ mãn tính → KHÔNG chỉ mệt → CẢN TRỞ tăng trưởng thể chất
 ```
 
-### 3.2 REM SLEEP Ở TRẺ SƠ SINH — ĐẶC BIỆT QUAN TRỌNG
+### §3.2 REM SLEEP Ở TRẺ SƠ SINH — ĐẶC BIỆT QUAN TRỌNG
 
 ```
   Người lớn:  ~20-25% giấc ngủ là REM
@@ -625,7 +755,7 @@ GIẤC NGỦ = NÃO ĐANG LÀM VIỆC (không phải "nghỉ")
     → = Đánh thức trong REM = NGẮT chương trình test đang chạy
 ```
 
-### 3.3 THỨC ĐÊM = BÌNH THƯỜNG (không phải "vấn đề cần sửa")
+### §3.3 THỨC ĐÊM = BÌNH THƯỜNG (không phải "vấn đề cần sửa")
 
 ```
   Sơ sinh: thức mỗi 2-3 giờ → ĐÓI (dạ dày nhỏ ~60ml, cần ăn thường xuyên)
@@ -660,7 +790,7 @@ GIẤC NGỦ = NÃO ĐANG LÀM VIỆC (không phải "nghỉ")
      → = Quan sát TỪNG TRẺ + adjust → không có 1 công thức chung
 ```
 
-### 3.4 GIẤC NGỦ BAN NGÀY (Nap) — KHÔNG PHẢI LÃNG PHÍ
+### §3.4 GIẤC NGỦ BAN NGÀY (Nap) — KHÔNG PHẢI LÃNG PHÍ
 
 ```
   → Nap = CONSOLIDATION WINDOW (cửa sổ ghi nhớ)
@@ -689,7 +819,7 @@ GIẤC NGỦ = NÃO ĐANG LÀM VIỆC (không phải "nghỉ")
 
 ---
 
-## 4. TIMELINE PHÁT TRIỂN TỰ NHIÊN — 0→6 TUỔI
+## §4 — TIMELINE PHÁT TRIỂN TỰ NHIÊN: 0→6 TUỔI
 
 ```
 CÁCH ĐỌC TIMELINE NÀY:
@@ -704,11 +834,11 @@ CÁCH ĐỌC TIMELINE NÀY:
      → Skip/suppress giai đoạn trước → giai đoạn sau CÓ THỂ bị ảnh hưởng
 ```
 
-### 4.1 SƠ SINH → 3 THÁNG — THẾ GIỚI QUA CẢM GIÁC
+### §4.1 SƠ SINH → 3 THÁNG — THẾ GIỚI QUA CẢM GIÁC
 
 ```
 NÃO/CƠ THỂ:
-  PFC: ~5% (gần như không)
+  PFC: hardware ONLINE, compiled chunks GẦN ZERO → chưa có output phức tạp
   Sensory cortex: đang myelin hóa NHANH
   Vision: mờ (~20-30cm), thấy contrast cao (trắng/đen), prefer khuôn mặt
   Hearing: TỐT (đã nghe từ bào thai → nhận ra giọng mẹ ngay)
@@ -740,7 +870,7 @@ BỐ MẸ HỖ TRỢ:
   → ÔM NHIỀU → không spoil → đang BUILD safe base
 ```
 
-### 4.2 3→6 THÁNG — CƠ THỂ BẮT ĐẦU "THỨC"
+### §4.2 3→6 THÁNG — CƠ THỂ BẮT ĐẦU "THỨC"
 
 ```
 NÃO/CƠ THỂ:
@@ -776,7 +906,7 @@ BỐ MẸ HỖ TRỢ:
   → Gương → trẻ nhìn "người kia" → visual + social stimulation
 ```
 
-### 4.3 6→12 THÁNG — EXPLORER ERA
+### §4.3 6→12 THÁNG — EXPLORER ERA
 
 ```
 NÃO/CƠ THỂ:
@@ -785,7 +915,7 @@ NÃO/CƠ THỂ:
   Object permanence (~8 tháng): vật vẫn TỒN TẠI dù không thấy
     = COGNITIVE MILESTONE lớn — thế giới trở nên "ổn định" hơn
   Pincer grasp (~8-9 tháng): ngón cái + trỏ → fine motor LEAP
-  PFC: ~10-15% → chút inhibition, nhưng rất yếu
+  PFC: chunks bắt đầu compile → chút inhibition, nhưng rất yếu (ít chunks)
 
 HÀNH VI QUAN SÁT:
   → BÒ (~6-10 tháng) → cross-lateral, vestibular, spatial, autonomy (§2.2)
@@ -824,13 +954,13 @@ BỐ MẸ HỖ TRỢ:
   → Stranger anxiety → ĐỪNG ÉP: "chào đi con!" → để trẻ QUAN SÁT trước → dần quen
 ```
 
-### 4.4 12→24 THÁNG — WALKER & TALKER
+### §4.4 12→24 THÁNG — WALKER & TALKER
 
 ```
 NÃO/CƠ THỂ:
   Walking (~12-15 tháng): motor milestone LỚN NHẤT — hands FREE → explore ĐỔI
   Language areas: myelin hóa MẠNH → ngôn ngữ sắp bùng nổ
-  PFC: ~15-25% → bắt đầu CÓ inhibition (rất yếu) + simple planning
+  PFC: chunks tích lũy đáng kể → bắt đầu CÓ inhibition (yếu) + simple planning
   Self-recognition (mirror test ~18-24 tháng): "đó là TÔI trong gương"
     = SELF-AWARENESS milestone — identity BẮT ĐẦU
   Vocabulary explosion (~18 tháng): từ ~50 từ → tăng vài từ MỖI NGÀY
@@ -874,11 +1004,11 @@ BỐ MẸ HỖ TRỢ:
   → Cho chạy, leo, nhảy → motor + vestibular + body boundary learning
 ```
 
-### 4.5 2→4 TUỔI — IMAGINATION & LANGUAGE EXPLOSION
+### §4.5 2→4 TUỔI — IMAGINATION & LANGUAGE EXPLOSION
 
 ```
 NÃO/CƠ THỂ:
-  PFC: ~25-40% → imagination ĐƠN GIẢN, simple reasoning xuất hiện
+  PFC: chunks phong phú hơn + myelination tăng → imagination ĐƠN GIẢN, reasoning xuất hiện
   Language BÙNG NỔ: ~200 từ (2 tuổi) → ~1000+ (3 tuổi) → câu phức tạp (4 tuổi)
   Synaptogenesis vẫn mạnh + pruning TĂNG → chuyên biệt hóa bắt đầu
   Motor tinh: chạy, nhảy, leo thạo + cầm bút tô, xé giấy, xâu hạt
@@ -939,11 +1069,11 @@ BỐ MẸ HỖ TRỢ:
   → Sợ bóng tối: validate → "mẹ biết con sợ" + safe base → ĐỪNG "có gì đâu"
 ```
 
-### 4.6 4→6 TUỔI — COMPLEX PLAY & NATURAL READINESS
+### §4.6 4→6 TUỔI — COMPLEX PLAY & NATURAL READINESS
 
 ```
 NÃO/CƠ THỂ:
-  PFC: ~35-50% → reasoning TỐT hơn, planning đơn giản, inhibition BẮT ĐẦU thật sự
+  PFC: chunks dense + myelination significant → reasoning TỐT hơn, planning, inhibition BẮT ĐẦU thật sự
   Motor tinh: vẽ hình nhận diện được, cắt kéo, bắt đầu VIẾT (nếu sẵn sàng)
   Emotional vocabulary mở rộng: "tức", "buồn", "ghen tị", "xấu hổ"
   Attention span dài hơn: ~15-20 phút cho hoạt động yêu thích
@@ -1006,7 +1136,7 @@ BỐ MẸ HỖ TRỢ:
 
 ---
 
-## 5. BỐ MẸ HỖ TRỢ (KHÔNG DẠY) — NGUYÊN TẮC NỀN
+## §5 — BỐ MẸ HỖ TRỢ (KHÔNG DẠY): NGUYÊN TẮC NỀN
 
 ```
 PHÂN BIỆT QUAN TRỌNG:
@@ -1170,7 +1300,7 @@ PHÂN BIỆT QUAN TRỌNG:
     → Muốn trẻ đọc sách → bố mẹ ĐỌC SÁCH (trẻ THẤY → copy)
 
   CƠ CHẾ (từ §2.7):
-    → Mirror system: trẻ THẤY hành vi → não fire pattern TƯƠNG TỰ
+    → Self-Pattern-Match: trẻ THẤY hành vi → SPM dùng self-chunks simulate
     → Repetition: thấy bố mẹ làm HÀNG NGÀY → pattern compile MẠNH
     → = Hành vi bố mẹ = GIÁO TRÌNH VÔ THỨC chạy 24/7
     → = Lời nói = 1 bài giảng thỉnh thoảng (yếu hơn nhiều)
@@ -1185,7 +1315,7 @@ PHÂN BIỆT QUAN TRỌNG:
 
 ---
 
-## 6. SAI LẦM PHỔ BIẾN — NHỮNG GÌ CẢN TRỞ PHÁT TRIỂN TỰ NHIÊN
+## §6 — SAI LẦM PHỔ BIẾN: NHỮNG GÌ CẢN TRỞ PHÁT TRIỂN TỰ NHIÊN
 
 ```
 LƯU Ý: đây là những sai lầm PHỔ BIẾN, không phải "xấu"
@@ -1194,7 +1324,7 @@ LƯU Ý: đây là những sai lầm PHỔ BIẾN, không phải "xấu"
   → Sai 1 lần ≠ hại mãi → sai lầm CÓ HỆ THỐNG + KÉO DÀI mới thật sự ảnh hưởng
 ```
 
-### 6.1 NGĂN HÀNH VI TỰ NHIÊN
+### §6.1 NGĂN HÀNH VI TỰ NHIÊN
 
 ```
 SAI LẦM:
@@ -1220,7 +1350,7 @@ THAY VÀO ĐÓ:
   → Phân biệt: NGUY HIỂM thật → chặn / KHÓ CHỊU nhẹ → để
 ```
 
-### 6.2 BẢO VỆ QUÁ MỨC (Overprotection)
+### §6.2 BẢO VỆ QUÁ MỨC (Overprotection)
 
 ```
 SAI LẦM:
@@ -1252,7 +1382,7 @@ THAY VÀO ĐÓ:
   → Cho thử → stuck → gợi ý NHẸ → ĐỪNG làm hộ
 ```
 
-### 6.3 ÉP HỌC SỚM (Academic Pressure)
+### §6.3 ÉP HỌC SỚM (Academic Pressure)
 
 ```
 SAI LẦM:
@@ -1265,7 +1395,7 @@ SAI LẦM:
 Ý TỐT: cho con "xuất phát sớm", "không thua bạn bè"
 
 THỰC TẾ:
-  → PFC 2 tuổi: ~20% → CHƯA ĐỦ cho abstract learning (chữ, số = abstract)
+  → Trẻ 2 tuổi: chunks abstract CHƯA compile đủ cho formal learning (chữ, số = abstract)
   → Flashcard = rote memory → HỌC ĐƯỢC nhưng = chunks GẮN với THREAT/PRESSURE
   → Schema compiled: "học = bị ép = khó chịu"
   → Trẻ CÓ THỂ nhớ flashcard → nhưng body compile "learning = unpleasant"
@@ -1291,7 +1421,7 @@ THAY VÀO ĐÓ:
   → = "Học" xảy ra TỰ NHIÊN khi môi trường ĐỦ → ĐỪNG ép thành "bài tập"
 ```
 
-### 6.4 SCREEN TIME THAY THẾ KHÁM PHÁ
+### §6.4 SCREEN TIME THAY THẾ KHÁM PHÁ
 
 ```
 SAI LẦM:
@@ -1335,7 +1465,7 @@ THAY VÀO ĐÓ:
     → Snack thỉnh thoảng OK → nhưng ĐỪNG thay bữa chính
 ```
 
-### 6.5 SUPPRESS CẢM XÚC
+### §6.5 SUPPRESS CẢM XÚC
 
 ```
 SAI LẦM:
@@ -1370,7 +1500,7 @@ THAY VÀO ĐÓ:
     → = Emotion ĐƯỢC express qua kênh AN TOÀN
 ```
 
-### 6.6 LỊCH KÍN (Over-scheduling)
+### §6.6 LỊCH KÍN (Over-scheduling)
 
 ```
 SAI LẦM:
@@ -1399,7 +1529,7 @@ THAY VÀO ĐÓ:
   → = "Ít nhưng SÂU + nhiều chơi tự do" > "Nhiều nhưng NÔNG + hết thời gian chơi"
 ```
 
-### 6.7 SO SÁNH VỚI TRẺ KHÁC
+### §6.7 SO SÁNH VỚI TRẺ KHÁC
 
 ```
 SAI LẦM:
@@ -1431,211 +1561,271 @@ THAY VÀO ĐÓ:
 
 ---
 
-## 7. QUA LENS FRAMEWORK — KẾT NỐI VỚI HUMAN-PREDICTIVE-DRIVE
+## §7 — QUA LENS FRAMEWORK v7.8
+
+> **Mechanism.md** giải thích CƠ CHẾ chi tiết (11 sections, 2,194 dòng).
+> §7 này = TÓM TẮT + HỆ QUẢ THỰC TẾ cho bố mẹ.
+> Muốn hiểu SÂU bất kỳ concept nào → đọc Mechanism §X tương ứng.
 
 ```
 MỌI THỨ TRONG FILE NÀY = GIAI ĐOẠN NỀN TẢNG CỦA FRAMEWORK
 
   Human-Predictive-Drive mô tả CƠ CHẾ hoạt động của người trưởng thành
   File này mô tả CƠ CHẾ ĐÓ HÌNH THÀNH NHƯ THẾ NÀO trong 0-6 tuổi
-  → Hiểu gốc → hiểu framework SÂU hơn
+  → Hiểu gốc → hiểu framework S��U hơn
   → Hiểu framework → hiểu natural development ĐÚNG hơn
 ```
 
-### 7.1 BODY-BASE — ĐANG HÌNH THÀNH
+### §7.1 ��� APPROACH/AVOIDANCE TAG × PARENTING (⭐ QUAN TRỌNG NHẤT)
 
 ```
-  Người lớn: body-base = bộ lọc tín hiệu ĐÃ compiled (đau → phản ứng X,
-    thích → phản ứng Y, sợ → phản ứng Z)
-  Trẻ 0-6: body-base ĐANG COMPILE → mỗi trải nghiệm = 1 dòng code mới
+  → Chi ti��t: Mechanism §3 (Approach/Avoidance Tags)
 
-  GÌ COMPILE VÀO BODY-BASE:
-    → Đói → khóc → ĐƯỢC cho ăn → compile: "signal → response → met"
-    → Đói → khóc → BỊ MẮT → compile: "signal → response → THREAT"
-    → Ngã → bình thường → compile: "ngã = data"
-    → Ngã → bố mẹ hoảng → compile: "ngã = danger"
-    → = MỖI tương tác = MỖI dòng code body-base
+  ⭐⭐ CORE INSIGHT:
+    Mỗi chunk được compile kèm 1 TAG: approach HOẶC avoidance.
+    Tag được quyết định bởi BODY-STATE-AT-COMPILE — trạng thái cơ thể
+    LÚC chunk đang được compile (🟡 framework synthesis).
 
-  CHẤT LƯỢNG BODY-BASE phụ thuộc:
-    ① Body signals có được NGHE không? (khóc → đáp / khóc → suppress)
-    ② Trải nghiệm có ĐA DẠNG không? (nhiều texture, âm thanh, không gian)
-    ③ Signal-to-response có NHẤT QUÁN không? (khóc → luôn được đáp = trust)
-    ④ Cortisol baseline có THẤP không? (safe base = low cortisol = body-listen rõ)
+    CÙNG nội dung. KHÁC cách dạy. KHÁC tag. KHÁC SUỐT ĐỜI.
 
-  → Body-base chất lượng CAO ở 6 tuổi = NỀN TẢNG cho mọi thứ sau đó
-  → Body-base chất lượng THẤP ở 6 tuổi = sửa được, nhưng KHÓ hơn nhiều
-  → (Chi tiết: Body-Parenting-Optimization.md, Why-Body-Knows.md)
+  VÍ DỤ CỤ THỂ:
+
+    Trẻ A: học bơi qua CHƠI nước → vui → body state = dopamine + opioid
+      → Chunk "bơi" compile với APPROACH tag
+      → Lớn lên: "đi bơi thôi!" (tự muốn, tự tìm)
+
+    Trẻ B: học bơi qua ÉP → khóc → bị quát → body state = NE + cortisol
+      → Chunk "bơi" compile với AVOIDANCE tag
+      → Lớn lên: "sợ nước" hoặc "bơi được nhưng ghét" (tránh nếu có thể)
+
+    = CÙNG kỹ năng bơi. KHÁC body-state-at-compile. KHÁC tag. KHÁC trajectory.
+
+  4-THRESHOLD GRADIENT (không phải binary):
+    ① Nhẹ (structured practice): hơi căng nhưng manageable → APPROACH CÓ THỂ
+    ② Vừa (challenging): khó + mệt → BIÊN GIỚI approach/avoidance
+    ③ Nặng (overwhelming): quá sức → AVOIDANCE chắc chắn
+    ④ Cực đoan (trauma): danger thật → AVOIDANCE + neural wear
+
+  ⭐ RECONSOLIDATION WINDOW (Nader 2000):
+    Tag avoidance ĐÃ compile → CÓ THỂ sửa:
+    Chunk recalled → unstable 4-6h → re-compile với body-state MỚI
+    "Con sợ nước → chơi nước nhẹ → body state approach → re-compile"
+    → Nhưng: avoidance GỐC KHÔNG bị xóa, chỉ bị competed bởi chunk mới
+    → = Sửa ĐƯỢC nhưng KHÓ hơn làm đúng từ đầu rất nhiều
+
+  HỆ QUẢ CHO BỐ MẸ:
+    → CÁCH dạy quan trọng hơn NỘI DUNG dạy
+    → Ép = threat-direction → avoidance tag → ghét suốt đời
+    → Expose + play = novelty-direction → approach tag → yêu thích tự nhiên
+    → Phản ứng bố mẹ LÀ MỘT PHẦN body-state-at-compile:
+      Bố mẹ vui → trẻ vui → approach tag
+      Bố mẹ căng thẳng → trẻ detect → threat-direction → avoidance tag
 ```
 
-### 7.2 IMAGINE-FINAL — TỪ VÔ THỨC ĐẾN Ý THỨC
+### §7.2 — CHUNK DYNAMICS: GAP, MISS, SHIFT
 
 ```
-  Imagine-Final ở người lớn: body feel about future state (2 tầng)
-    → Tầng 1 (vô thức): body kỳ vọng, check, trả thưởng
-    → Tầng 2 (PFC): conscious hóa, simulate, chọn thực thi
+  → Chi tiết: Mechanism §4 (Chunk Dynamics trong phát triển trẻ)
 
-  VẬY Ở TRẺ 0-6, IMAGINE-FINAL HÌNH THÀNH THẾ NÀO?
+  3 LOẠI DYNAMICS KHI CHUNKS FIRE (Body-Feedback-Mechanism.md):
 
-  [0-6 tháng] PRE-IMAGINE-FINAL:
-    → Body có EXPECTATION nhưng chưa phải Imagine-Final
-    → VD: đói → expect sữa → sữa đến → body confirm → OK
-    → VD: nghe giọng mẹ → expect được bế → được bế → confirm → OK
-    → = Body đang BUILD pattern: "expect → check → confirm/disconfirm"
-    → = ĐÂY LÀ CƠ CHẾ GỐC sẽ trở thành Imagine-Final sau này
+  ① CHUNK-GAP: Không có chunk cho tình huống này → "MỚI HOÀN TOÀN"
+     → Trẻ 0-6: phần lớn trải nghiệm = gap (thế giới mới)
+     → VTA fire → curiosity → explore → compile chunk mới
+     → = Foundation cho NOVELTY drive — ĐỪNG ngăn explore
 
-  [6-18 tháng] PROTO-IMAGINE-FINAL:
-    → Body bắt đầu có HƯỚNG: "tôi muốn ĐẾN chỗ đó" (bò tới đồ chơi)
-    → = Body want + domain confirm (thấy đồ chơi = domain data)
-    → Nhưng: chưa có PFC simulate → chỉ là body drive NGAY LÚC NÀY
-    → = Imagine-Final tầng 1 ở dạng SƠ KHAI nhất: want + reach
+  ② CHUNK-MISS: Chunk CÓ nhưng mismatch reality → "SAI RỒI, MONG CHỜ KHÁC"
+     → Separation anxiety = chunk-miss:
+       Chunk "mẹ ở đây" compiled → mẹ đi → reality ≠ prediction → distress
+     → Object permanence đang compile: "mẹ VẪN TỒN TẠI dù không thấy"
+     → = BÌNH THƯỜNG, cần co-regulation, KHÔNG phải "bám quá"
 
-  [18 tháng-3 tuổi] EARLY IMAGINE-FINAL:
-    → Pretend play = PFC bắt đầu simulate thế giới KHÔNG CÓ THẬT
-    → "Que = kiếm" = PFC tạo representation → body ENGAGE (vung kiếm thật)
-    → = Tầng 2 (PFC) BẮT ĐẦU hoạt động
-    → Nhưng: simulation ĐƠN GIẢN, ngắn, hay thay đổi
-    → = Imagine-Final chưa ỔN ĐỊNH
+  ③ CHUNK-SHIFT: Chunk cũ bị thay thế bằng chunk mới → "CẬP NHẬT"
+     → "Tại sao con cứ ném đi ném lại?" = đang SHIFT:
+       chunk "ném → rơi" → shift thành "ném CAI NÀY → tiếng NÀY"
+     → = EXPERIMENTING, không phải "hư"
 
-  [3-6 tuổi] EMERGING IMAGINE-FINAL:
-    → "Con muốn làm bác sĩ!" = PFC simulate role + body feel about it
-    → CÓ THỂ thay đổi mỗi tuần ("bác sĩ" → "phi hành gia" → "đầu bếp")
-    → = BÌNH THƯỜNG: trẻ đang THỬ nhiều Imagine-Final → xem cái nào BODY resonates
-    → SỞ THÍCH RÕ bắt đầu (~4-6 tuổi): "con thích côn trùng" = body RESONANCE mạnh
-    → = Personal Melody bắt đầu HIỆN qua Imagine-Final
-    → BỐ MẸ: observe + support → ĐỪNG define ("con phải thích cái NÀY")
+  COMPOUND DYNAMICS: Thực tế = nhiều loại kết hợp:
+    Trẻ ngã (gap: chưa biết ngã) + mẹ hoảng (miss: mong bình tĩnh)
+    + bật khóc (body signal) + mẹ la (compound threat)
+    → Compound avoidance tag cho "thử nghiệm" = CẢN TRỞ explore dài hạn
 
-  → (Chi tiết: Imagine-Final.md §1 — 2 tầng, §6 — social scale)
+  DUAL-PULL ARCHITECTURE (Body-Feedback.md):
+    Hardware pull: bảo thủ, giữ smooth ("ĐỪNG thử, có thể đau")
+    Domain pull: adaptive, tìm mới ("THỬ ĐI, có thể học được")
+    → Attachment MET → hardware pull satisfied → domain pull FREED → explore
+    → Attachment CHƯA met → hardware pull dominant → explore BỊ ĐÈ → learn ÍT
+    → = Connection là PREREQUISITE cho exploration (§7.3)
 ```
 
-### 7.3 SCHEMA / CHUNKS — COMPILATION ĐẦU TIÊN
+### §7.3 — CONNECTION × ATTACHMENT = PREREQUISITE
 
 ```
-  Schema người lớn: hàng triệu chunks COMPILED → phản ứng tự động
+  → Chi tiết: Mechanism §4.4 (Attachment as prerequisite for chunk dynamics)
+  → Connection.md — hardware drive, compiled patterns, virtual chunks
 
-  TRẺ 0-6: ĐANG COMPILE những chunks ĐẦU TIÊN
-  → Chunks đầu tiên = NỀN → mọi chunks sau BUILD TRÊN ĐÓ
+  CONNECTION = HARDWARE DRIVE (không phải learned behavior):
+    🟢 Eisenberger 2003: social pain overlaps physical pain circuits
+    → Bị bỏ rơi = ĐAU THẬT ở brain level, không phải "nhạy cảm quá"
+    → Body CẦN social input giống cần food, warmth (survival mechanism)
 
-  LOẠI CHUNKS THEO THỨ TỰ:
-
-  ① SENSORY chunks (đầu tiên, 0-6 tháng):
-     → Nóng/lạnh, cứng/mềm, to/nhỏ, sáng/tối, ồn/im
-     → = Cách não PHÂN LOẠI thế giới vật lý
-     → = Foundation cho mọi learning sau
-
-  ② MOTOR chunks (6-18 tháng):
-     → Bò, đứng, đi, nắm, ném, leo → compiled thành TỰ ĐỘNG
-     → VD: đi = hàng trăm lần ngã → compiled → vô thức → không cần nghĩ
-     → = Framework: chunk compiled = vô thức thực thi
-
-  ③ SOCIAL chunks (6-24 tháng):
-     → Cười → người khác cười lại → "cười = kết nối"
-     → Khóc → bố mẹ đến → "khóc = gọi được người"
-     → Bố mẹ giận → sợ → "giận = threat"
-     → = Social schema ĐẦU TIÊN → nền tảng cho MỌI relationship sau
-
-  ④ LANGUAGE chunks (12 tháng → 6 tuổi):
-     → Statistical learning → từ → câu → narrative
-     → Mỗi từ = 1 chunk gắn với sensory/emotional experience
-     → "Nóng" = từ + cảm giác nóng + có lần chạm nóng + mẹ nói "nóng!"
-     → = Language chunks RICH hơn khi gắn TRẢI NGHIỆM (không chỉ flashcard)
-
-  ⑤ EMOTIONAL chunks (0-6 tuổi):
-     → Mỗi emotion + context = 1 chunk
-     → "Bị la khi ném đồ" → compile: ném = threat
-     → "Được cười khi ném bóng" → compile: ném bóng = fun
-     → = CÙNG hành động + KHÁC phản ứng bố mẹ = KHÁC schema
-     → = Đây là lý do phản ứng bố mẹ QUAN TRỌNG đến vậy (§5 nguyên tắc 3)
-
-  → (Chi tiết: Chunk.md §3 — vô thức/PFC có thể làm gì)
-```
-
-### 7.4 CONNECTION — ATTACHMENT LÀ FOUNDATION
-
-```
-  Connection trong framework: L0 (xã giao) → L1 (quen biết) → L2 (tin tưởng/yêu)
-  → L3 (tri kỷ — hiếm, sâu nhất)
-
-  Ở TRẺ 0-6: CONNECTION ĐẦU TIÊN = ATTACHMENT VỚI BỐ MẸ
-
-  → Attachment = Connection L2 (love/trust) COMPILED từ cực sớm
-  → Cơ chế:
+  ATTACHMENT ĐẦU TIÊN = COMPILED CONNECTION VỚI BỐ MẸ:
     Trẻ khóc → bố mẹ đến → ôm → calm → REPEAT hàng nghìn lần
     → Compile: "người NÀY = AN TOÀN, TIN ĐƯỢC, YÊU"
-    → = Connection L2 MẠNH NHẤT trong đời (nền tảng cho mọi connection sau)
+    → = Virtual chunks: maintain connection qua absence
+      ("mẹ ĐI nhưng mẹ SẼ VỀ" = virtual chunk cho absent person)
 
-  SECURE ATTACHMENT → EXPLORE TỐT:
-    → Bowlby/Ainsworth (attachment theory):
-    → Trẻ có secure attachment → DÁM explore xa hơn, lâu hơn, mạnh dạn hơn
-    → Vì: "nếu có vấn đề → TÔI CÓ safe base để QUAY VỀ"
-    → = Connection L2 met → Novelty drive GIẢI PHÓNG
-    → = Ngược lại: insecure → cortisol CAO → explore ÍT → learn ÍT
+  SECURE → EXPLORE → LEARN (chuỗi nhân quả):
+    🟢 Bowlby/Ainsworth (attachment theory):
+    → Secure attachment → hardware pull satisfied → domain pull freed
+    → DÁM explore xa hơn, lâu hơn, mạnh dạn hơn
+    → = Tích lũy chunks ĐA DẠNG → Imagine-Final PHONG PHÚ hơn
 
-  CONNECTION → IMAGINE-FINAL:
-    → Trẻ có connection MẠNH → body baseline AN TOÀN
-    → → DÁM explore → tích lũy chunks ĐA DẠNG
-    → → Chunks đa dạng → Imagine-Final PHONG PHÚ hơn → direction RÕ hơn
-    → = Connection là ĐIỀU KIỆN TIÊN QUYẾT cho Imagine-Final develop tốt
+    Ngược lại:
+    → Insecure → hardware pull DOMINANT → cortisol mãn tính CAO
+    → Explore ÍT → chunks ÍT → thế giới "hẹp" → Imagine-Final BỊ HẠN CHẾ
 
-  → (Chi tiết: Connection.md §7.5 — Connection × Imagine-Final)
+  HỆ QUẢ CHO BỐ MẸ:
+    → "Đáp ứng BÂY GIỜ → tự lập SAU" (ngược trực giác nhưng đúng)
+    → Bế nhiều, ôm nhiều 0-2 tuổi = BUILD safe base, KHÔNG phải spoil
+    → Safe base mạnh → exploration range TĂNG → independence THẬT
+    → Co-regulation (bố mẹ calm → trẻ learn calm) → self-regulation DẦN DẦN
 ```
 
-### 7.5 VTA / NOVELTY — MỌI THỨ ĐỀU MỚI
+### §7.4 — CORTISOL: AMPLIFIER, KHÔNG PHẢI NGUYÊN NHÂN
 
 ```
-  VTA (Ventral Tegmental Area): khi gặp cái MỚI → dopamine → "chú ý cái này"
+  → Chi tiết: Mechanism §8 (Cortisol Baseline × Phát Triển)
 
-  Ở TRẺ 0-6: GẦN NHƯ MỌI THỨ ĐỀU MỚI
-  → VTA fire GẦN NHƯ LIÊN TỤC
-  → = TRẺ TỰ NHIÊN TÒ MÒ — không cần ai "tạo motivation"
-  → = Motivation ĐỈNH CAO đã có SẴN → chỉ cần ĐỪNG GIẾT NÓ
+  ⭐ REFRAME (Cortisol-Baseline.md v2.0):
+    Cortisol = CHANGE-READINESS AMPLIFIER, không phải "stress hormone"
+    3 nguồn đau THẬT: ① nociception ② mismatch ③ recalibration
+    Cortisol đến SAU cả 3 → AMPLIFY, không GÂY RA
 
-  CÁCH GIẾT TÒ MÒ TỰ NHIÊN:
-    → Ngăn explore: "đừng chạm!" → VTA bị CẮT trước khi fire
-    → Screen quá nhiều: novelty TỐC ĐỘ CAO → VTA quen → đồ thật "chậm quá"
-    → Ép học = threat → chunks gắn cortisol → approach behavior GIẢM
-    → Lịch kín = không còn thời gian EXPLORE TỰ DO → VTA chỉ fire theo lịch
+  DIRECTION > LEVEL (⭐⭐ QUAN TRỌNG — Mechanism §8.4):
+    NOVELTY-direction: hào hứng, curious → dopamine + opioid accompany
+      → Chunks compile APPROACH tag → DEVELOPMENT
+      VD: trẻ tự explore cát → cortisol hơi cao = EXCITEMENT
 
-  CÁCH BẢO VỆ TÒ MÒ:
-    → Đa dạng môi trường → novelty TỰ NHIÊN (§5 nguyên tắc 4)
-    → Để explore tự do → VTA fire THEO HƯỚNG TRẺ CHỌN
-    → Giới hạn screen → giữ VTA threshold THẤP (đồ thật VẪN hấp dẫn)
-    → Không ép → approach behavior GIỮ (learn = curiosity, không phải threat)
+    THREAT-direction: sợ, áp lực → NE + adrenaline accompany
+      → Chunks compile AVOIDANCE tag → DAMAGE RISK
+      VD: trẻ bị ép học → cortisol hơi cao = STRESS
 
-  → = Curiosity ở trẻ = TÀI NGUYÊN QUÝ NHẤT → bảo vệ nó = ưu tiên #1
+    = CÙNG cortisol level. KHÁC body state. KHÁC outcome HOÀN TOÀN.
+    → Challenge trẻ = GROWTH / Scare trẻ = DAMAGE
+
+  BASELINE CALIBRATION TRONG 0-6 (Mechanism §8.3):
+    4 yếu tố set baseline:
+    ① Attachment quality (secure → baseline thấp, insecure → baseline cao)
+    ② Threat exposure (stress nhẹ + recovery = tốt; mãn tính = baseline ↑)
+    ③ Co-regulation history (calm together → "recovery possible")
+    ④ Silent Cortisol: cortisol CAO nhưng trẻ KHÔNG BIẾT mình stressed
+       → Nguy hiểm nhất vì INVISIBLE → không seek help → không resolve
+
+  SLEEP = REPAIR MECHANISM (Mechanism §8.2):
+    Ban đêm: cortisol ↓ → repair chạy + consolidation + pruning
+    Thiếu ngủ mãn tính → repair bị cắt → neural wear TÍCH LŨY
+    → PFC vulnerable nhất (synapses fragile) → damage nhanh nhất ở trẻ
+    → ĐỂ TRẺ NGỦ ĐỦ = non-negotiable
+
+  → Phòng >> Ch��a: 0-6 set baseline TỐT → cả đời HƯỞNG
 ```
 
-### 7.6 CORTISOL BASELINE — SET TRONG 0-6
+### §7.5 — OBSERVATION PARAMETERS: EMERGE KHI CHUNKS ĐỦ
 
 ```
-  Cortisol baseline = mức cortisol "nghỉ" — khi không có threat cụ thể
+  → Chi tiết: Mechanism §9 (Observation Parameters + Imagine-Final Timeline)
 
-  BASELINE THẤP: body-listening RÕ, explore DÁM, learn HIỆU QUẢ
-  BASELINE CAO: body "ồn" (cortisol nhiễu), explore ÍT, learn KÉM
+  ⭐ OBSERVATION PARAMETERS = KHÔNG phải modules bật/tắt.
+    = Patterns EMERGE khi chunks đủ density (🟡 framework synthesis).
 
-  BASELINE ĐƯỢC SET TRONG 0-6 QUA:
+  TIMELINE EMERGENCE (ước tính, mỗi trẻ KHÁC):
 
-  ① Attachment quality:
-     Secure → cortisol response BÌNH THƯỜNG (lên khi threat, xuống khi safe)
-     Insecure → cortisol ĐÁP ỨNG THẤT THƯỜNG hoặc MÃN TÍNH CAO
+    NOVELTY (sơ sinh):  VTA fire liên tục → curiosity tự nhiên ĐỈNH CAO
+    THREAT (sơ sinh):   Brainstem reflex → dần thêm social + anticipation
+    CONNECTION (sơ sinh): Hardware drive → attachment compile qua caregiving
+    PROTECT (12-18m):   "Của tôi!" emerge → BÌNH THƯỜNG, đừng phạt
+    AUTONOMY (6-14m→):  Motor chunks → "TÔI tự làm" → "KHÔNG!" (18m)
+    EMPATHY (14-24m):   SPM bootstrap → arousal contagion → empathy thật
+    STATUS (3-4y):      Social comparison → "công bằng!" sensitivity
+    BOREDOM (2-3y):     Chunks đủ để predict "đã biết r���i" → "chán"
+    MEANING (4-6y):     Schema coherence sơ khai → "tại sao?" existential
 
-  ② Threat exposure:
-     Thỉnh thoảng stress nhẹ + recovery → cortisol system CALIBRATE tốt
-     Mãn tính stress (la mắng, đánh, so sánh, ép) → baseline TĂNG dần
+  HỆ QUẢ CHO BỐ MẸ:
+    → ĐỪNG expect parameter TRƯỚC KHI chunks đủ:
+      Empathy ở 2 tuổi = arousal contagion, CHƯA phải empathy thật
+      → ĐỪNG phạt "ích kỷ" / ĐỪNG ép "chia sẻ" (protect đang build)
+    → Autonomy "KHÔNG!" ở 18m = healthy meta-chunk → ĐỪNG suppress
+    → Meaning "tại sao?" ở 4-6y = seeds → trả lời THẬT + ĐƠN GIẢN
+    → Status "sao bạn được 3 cái" = parameter emerging → ĐỪNG so sánh thêm
+```
 
-  ③ Co-regulation history:
-     Trẻ stressed → bố mẹ calm → trẻ learn "stress → recovery POSSIBLE"
-     Trẻ stressed → không ai giúp → trẻ learn "stress → CHỊU ĐỰNG" → baseline CAO
+### §7.6 — IMAGINE-FINAL: TỪ BODY EXPECTATION → PFC SIMULATION
 
-  → Cortisol baseline ở 6 tuổi → KHUNG cho phần đời còn lại
-  → Thay đổi được? CÓ — nhưng CẦN NỖ LỰC LỚN (§ Body-Personal-Optimization)
-  → Phòng TỐT hơn chữa: 0-6 = set baseline TỐT → cả đời HƯỞNG
+```
+  → Chi tiết: Mechanism §9.2 (Imagine-Final Development Trajectory)
 
-  → (Chi tiết: Cortisol-Baseline.md — cortisol baseline và cách thay đổi)
+  [0-6 THÁNG] PRE-IMAGINE-FINAL:
+    Body có EXPECTATIONS: đói → expect sữa → sữa đến → confirm → OK
+    = CƠ CHẾ GỐC sẽ trở thành Imagine-Final sau
+
+  [6-18 THÁNG] PROTO-IMAGINE-FINAL:
+    Body bắt đầu có HƯỚNG: "tôi muốn ĐẾN chỗ đó" (bò tới đồ chơi)
+    = Want + reach (ngay lúc này, ngắn hạn)
+
+  [18 THÁNG - 3 TUỔI] EARLY IMAGINE-FINAL:
+    Pretend play = PFC bắt đầu simulate thế giới KHÔNG CÓ THẬT
+    "Que = kiếm" = PFC simulate → body ENGAGE → abstract thinking SEED
+    Simulation đơn giản, ngắn, hay thay đổi → chưa ỔN ĐỊNH → BÌNH THƯỜNG
+
+  [3-6 TUỔI] EMERGING IMAGINE-FINAL:
+    "Con muốn làm bác sĩ!" = PFC simulate role + body feel about it
+    Thay đổi mỗi tuần → BÌNH THƯỜNG: đang THỬ nhiều Imagine-Final
+    SỞ THÍCH BỀN bắt đầu (~4-6y): body resonance mạnh + lặp lại
+    = Personal melody bắt đầu HIỆN
+
+  ⭐ BỐ MẸ:
+    Observe + support → ĐỪNG define ("con phải thích cái NÀY")
+    Expose ĐA DẠNG → body sẽ dần signal RÕ HƠN
+    Sở thích thay đổi liên tục = ĐANG CALIBRATE → không phải "thất thường"
+```
+
+### §7.7 — FEELING DEVELOPMENT + SPM BOOTSTRAP
+
+```
+  → Chi tiết: Mechanism §5 (Feeling) + §6 (SPM Bootstrap)
+
+  FEELING 7-LAYER FIDELITY GRADIENT (Feeling.md v2.0):
+    Raw signals (100%) → Integration (~95%) → Consciousification (~90%)
+    → Observation (~85%) → Location (70-90%) → Labeling (40-80%)
+    → Explanation (20-70%)
+    = Fidelity GIẢM DẦN qua mỗi layer. Layer cao = distortion nhiều hơn.
+
+  CAREGIVING LABEL = BUILD feeling fidelity:
+    "Con đang tức hả? Vì muốn xe" = cho trẻ LABEL cho trải nghiệm
+    → Label → chunk compile: [body-state + label + context]
+    → Lần sau: body-state tương tự → label RECALL → trẻ BIẾT mình tức
+    → Biết → CÓ THỂ communicate → CÓ THỂ seek help → CÓ THỂ regulate
+    → KHÔNG label → "Silent distress": stressed nhưng không biết tại sao
+
+  SPM DEVELOPMENTAL BOOTSTRAP (Mechanism §6):
+    Arousal contagion (0-6m): bạn khóc → tôi khóc (auto, không hiểu)
+    Social referencing (6-9m): nhìn mặt mẹ → đọc signal
+    Helping behavior (14-18m): thấy bạn buồn → TỰ đến an ủi
+    True empathy (18-24m): SPM + self-chunks → "tôi HIỂU bạn đau"
+    Animism (2-4y): SPM over-apply → "gấu bông buồn" → BÌNH THƯỜNG
+    Boundary refinement (4-7y): "gấu bông KHÔNG buồn thật" → calibrate
+
+  HỆ QUẢ CHO BỐ MẸ:
+    → VALIDATE emotions: "mẹ thấy con đang buồn" = build feeling fidelity
+    → LABEL emotions: "cái đó gọi là 'thất vọng'" = give tool
+    → ĐỪNG suppress: "đừng khóc!" = tắt signal → body-listening giảm
+    → Animism ở 3 tuổi = SPM đang calibrate → BÌNH THƯỜNG, không phải "ngớ ngẩn"
 ```
 
 ---
 
-## 8. HONEST ASSESSMENT
+## §8 — HONEST ASSESSMENT
 
 ```
 ⭐ CÁI FILE NÀY CÓ THỂ LÀM:
@@ -1674,17 +1864,19 @@ MỌI THỨ TRONG FILE NÀY = GIAI ĐOẠN NỀN TẢNG CỦA FRAMEWORK
 
 ⭐ ĐỘ TIN CẬY CỦA TỪNG PHẦN:
 
-  ĐỘ TIN CẬY CAO (well-established research):
-    → Synaptogenesis timeline (§1) — nhiều nghiên cứu, consistent
-    → Myelination order (§1) — neuroimaging confirmed
-    → Attachment theory (§7.4) — Bowlby/Ainsworth, replicated nhiều lần
+  🟢 ĐỘ TIN CẬY CAO (well-established research):
+    → PFC hardware online from prenatal (§1) — Hodel 2018, 5 evidence pillars
+    → Synaptogenesis timeline (§1) — Huttenlocher 1979/1997, replicated
+    → Myelination order (§1) — Yakovlev & Lecours 1967, neuroimaging confirmed
+    → Attachment theory (§7.3) — Bowlby/Ainsworth, replicated nhiều lần
     → Statistical learning ngôn ngữ (§2.6) — Saffran et al., replicated
     → AAP khuyến cáo baby walker (§2.2) — organization-level recommendation
-    → PFC phát triển sau cùng (§1) — neuroimaging confirmed
     → Developmental milestones (§4) — CDC/WHO guidelines
     → Sleep consolidation role (§3.1) — strong research support
+    → Social pain = physical pain overlap (§7.3) — Eisenberger 2003
+    → Reconsolidation window (§7.1) — Nader 2000, multiple replications
 
-  ĐỘ TIN CẬY TRUNG BÌNH (well-cited nhưng có nuance):
+  🟡 ĐỘ TIN CẬY TRUNG BÌNH (well-cited nhưng có nuance):
     → Mút tay → vagus activation → calm (§2.1) — mechanism plausible,
       evidence moderate
     → Cross-lateral crawling → corpus callosum (§2.2) — commonly cited,
@@ -1695,24 +1887,29 @@ MỌI THỨ TRONG FILE NÀY = GIAI ĐOẠN NỀN TẢNG CỦA FRAMEWORK
       influential nhưng vẫn debated
     → Finland late reading = no worse outcomes (§6.3) — several studies,
       nhưng cultural context khác
-    → Hygiene hypothesis (§2.1) — well-known, đang được refine,
-      chưa fully proven
-    → ~17 falls/hour khi học đi (§2.3) — specific number từ 1 nghiên cứu
-      (Adolph et al.), general pattern confirmed
+    → Hygiene hypothesis (§2.1) — well-known, đang được refine, chưa fully proven
+    → ~17 falls/hour khi học đi (§2.3) — Adolph et al., general pattern confirmed
+    → Cortisol = amplifier not cause (§7.4) — supported by injection/Addison's/
+      Cushing's evidence, nhưng "amplifier" framing = framework synthesis
 
-  ĐỘ TIN CẬY THẤP HƠN / FRAMEWORK-SPECIFIC:
+  🔴 ĐỘ TIN CẬY THẤP HƠN / FRAMEWORK-SPECIFIC:
+    → 🟡 Approach/avoidance tags qua body-state-at-compile (§7.1)
+      — logically sound + consistent with fear conditioning literature,
+      nhưng "tag" framing = framework construct, chưa direct measurement
+    → 🟡 SPM developmental bootstrap replacing mirror module (§2.7, §7.7)
+      — consistent with Heyes learned mirroring view + Cecilia Heyes 2010,
+      nhưng mirror neuron debate chưa fully resolved
     → 🟡 Neonatal imitation (§2.7) — Meltzoff: nổi tiếng nhưng
       gần đây NHIỀU replication failures → đang tranh luận
-    → 🟡 Imagine-Final developmental trajectory (§7.2) — FRAMEWORK
+    → 🟡 Imagine-Final developmental trajectory (§7.6) — FRAMEWORK
       interpretation, novel, chưa có nghiên cứu trực tiếp test
-    → 🟡 Cortisol baseline "set" trong 0-6 (§7.6) — partially supported
+    → 🟡 Cortisol baseline "set" trong 0-6 (§7.4) — partially supported
       bởi ACEs research, nhưng "set" là đơn giản hóa
       (plasticity VẪN CÓ ở mọi tuổi, chỉ KHÓ HƠN)
-    → 🟡 VTA fire "liên tục" ở trẻ (§7.5) — framework logic
-      (mọi thứ novel → VTA fire), chưa có direct measurement ở trẻ sơ sinh
-    → 🟡 Body-base "compile" qua từng tương tác (§7.1) — framework
-      interpretation, logically sound nhưng simplification
-      của quá trình phức tạp hơn nhiều
+    → 🟡 Observation parameters "emerge" khi chunks đủ (§7.5)
+      — framework logic, chưa có direct measurement
+    → 🟡 Chunk dynamics (Gap/Miss/Shift) applied to child development (§7.2)
+      — framework synthesis, logically sound nhưng simplification
 
 
 ⭐ RỦI RO CỦA FILE NÀY:
@@ -1741,7 +1938,7 @@ MỌI THỨ TRONG FILE NÀY = GIAI ĐOẠN NỀN TẢNG CỦA FRAMEWORK
 
 ---
 
-## 9. CÂU HỎI MỞ
+## §9 — CÂU HỎI MỞ
 
 ```
 ① Crawling duration: bò BAO LÂU là "đủ"?
@@ -1803,39 +2000,86 @@ MỌI THỨ TRONG FILE NÀY = GIAI ĐOẠN NỀN TẢNG CỦA FRAMEWORK
 
 ---
 
-## 10. KẾT NỐI
+## §10 — CROSS-REFERENCES
 
 ```
-TRONG FRAMEWORK (files hiện có):
+TRONG FOLDER CHILD-DEVELOPMENT (bộ 4 files):
 
-→ Core-v7.5-Draft.md: framework gốc — body-base, drives, domain, imagine
-→ Imagine-Final.md §1: 2 tầng Imagine-Final (vô thức + PFC)
-   + §6: Imagine-Final × social scale
-→ Chunk.md §3: vô thức vs PFC — compile và retrieve
-→ Connection.md §7.5: Connection × Imagine-Final — attachment = foundation
-→ Cortisol-Baseline.md: cortisol baseline — set mechanism + thay đổi
-→ Body-Parenting-Optimization.md: HÀNH ĐỘNG bố mẹ per-age
-   (file này = HIỂU; BPO = LÀM)
-→ Why-Body-Knows.md: tại sao body signal đáng tin
-→ Personal-Melody.md §5: passion / personal melody formation
-→ Attention-Spectrum.md: DRD4 spectrum — mỗi trẻ hardware KHÁC
-→ Education-Bridge.md §0: Imagine-Final foundation trước khi dạy
-   + §6: per-age bridge design
-→ Education-AI-Era-Draft.md: challenge-product approach
-→ Boredom-Analysis.md §1: chán = Imagine-Final dưới ngưỡng
-→ Conflict-Dynamics.md: xung đột bố mẹ vs con (Imagine-Final lệch)
+→ Child-Development-Mechanism.md �� KHUNG NGUYÊN LÝ v7.8 (reference chính)
+   PFC Reframe, 4+1 Compile, Tags, Chunk Dynamics, Feeling, SPM,
+   Autonomy, Cortisol, Observation Parameters, Imagine-Final
+→ Skill-Introduction.md — giới thiệu kỹ năng per-age (CẦN REWRITE v7.8)
+→ Mother-Optimization.md — tối ưu thai kỳ (CẦN REWRITE v7.8)
 
-TRONG FOLDER CHILD-DEVELOPMENT (files tương lai):
 
-→ Skill-Introduction.md: giới thiệu kỹ năng per-age
-   (TIẾP THEO natural development — khi nào, cái gì, thế nào)
-→ Mother-Optimization.md: tối ưu thai kỳ
-   (TRƯỚC natural development — hardware con hình thành từ mẹ)
+CORE-DEEP-DIVE — BODY-BASE:
+
+→ Chunk.md v2.0 — chunk substrate, 4-phase lifecycle, compile mechanisms
+→ Body-Feedback.md — dual-pull, interface loop, H10 5 preconditions
+→ Body-Feedback-Mechanism.md — 2 sources × 3 dynamics (Shift/Miss/Gap)
+→ Cortisol-Baseline.md v2.0 — amplifier reframe, direction > level, sleep repair
+→ Feeling.md v2.0 — 7-layer fidelity gradient, feeling = PFC observation
+→ Feeling-Literacy-Training.md — 5-stage training framework
+→ Valence-Propagation.md — per-entity valence, multi-channel propagation
+→ Why-Body-Knows.md — tại sao body signal đáng tin, 4-tier calibration
+
+
+CORE-DEEP-DIVE — OBSERVATION PARAMETERS:
+
+→ Novelty.md — VTA + chunk-gap dynamics, DRD4 spectrum
+→ Threat.md — 5-level spectrum × 3 trục, anticipation-dominant modern
+→ Connection.md — hardware drive, virtual chunks, Dunbar, × Imagine-Final
+→ Empathy.md — SPM function, 3 rejections (incl. mirror module), bootstrap
+→ Autonomy-Hardware.md — efference copy + VTA + opioid = emergent
+→ Autonomy.md — 5-phase arc, Bé A vs Bé B, domain-specific
+→ Protect.md — ownership, loss aversion, f(replaceability × attachment)
+→ Status.md — Schema Access Map, serotonin = certainty bias
+→ Boredom.md — 3 types (Idle/Trapped/Existential), dissonance formula
+→ Meaning.md — schema coherence, 3 trigger conditions, 4 pathways
+
+
+CORE-DEEP-DIVE — PFC:
+
+→ PFC-Development.md — Worker → Compiled trajectory, hardware vs content
+→ PFC-Function.md — 24 functions × 5 categories
+→ PFC-Hardware.md — COMT, DRD4, NE receptors
+→ Attention-Spectrum.md — multi-factor attention spectrum, NOT binary ADHD
+→ Logic-Feeling.md — 2 modes parallel, neither 100% correct
+
+
+CORE-DEEP-DIVE — PFC/IMAGINATION:
+
+→ Imagination.md — PFC simulation workspace, process file
+→ Imagine-Final.md — reference pattern, 14 clarity thresholds, product file
+→ Imagine-Final-Evaluation.md — 2-trục × 3D framework
+
+
+CORE-DEEP-DIVE — CHILD-CHUNK-DEVELOPMENT (F1):
+
+→ Foundation/01-PFC-Hardware-Reframe.md — 5 evidence pillars, Hodel 2018
+→ Foundation/02-Womb-to-Birth-Baseline.md — prenatal baseline
+→ Modality-Arcs/03-08 — Visual, Auditory, Motor, Interoceptive, Social, Verbal
+→ 10-F1-Synthesis.md — 7 nút thắt verdicts, H1/H11
+
+
+CORE-DEEP-DIVE — OTHER:
+
+→ Melody Lens/Personal-Melody.md — mỗi người = 1 bài nhạc emergent
+→ Melody Lens/Melody-Arc.md — dissonance → compile → melody upgrade
+→ Schema/Anchor-Schema.md — sync point, 4 nguồn fill
+→ Agent/Self-Pattern-Match.md — SPM mechanism, 5 pattern types
+→ Agent/Pattern-Resonance.md — emergent mutual phenomenon
+→ Clarification/Mirror-Neuron-Rejection.md — 7 bằng chứng reject
+→ Clarification/Cortisol-Amplifier-Not-Cause.md — 3 nguồn đau thật
+→ Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT
+→ Domain/Domain.md — thực tế bên ngoài, lean epistemological
 ```
 
 ---
 
-> *Natural Development — "Não trẻ được THIẾT KẾ để tự wire qua trải nghiệm.
-> Bố mẹ tạo MÔI TRƯỜNG an toàn + đa dạng, ĐỪNG CẢN TRỞ chương trình
-> đang chạy. Mỗi hành vi 'kỳ lạ' = 1 chương trình phát triển.
-> 0-6 tuổi = nền tảng ảnh hưởng SUỐT ĐỜI — mặc dù ít ai để ý."*
+> *Natural Development v2.0 — "Trẻ chạy C��NG kiến trúc với người lớn.
+> Cùng PFC hardware — online từ prenatal. Chỉ khác: chunk density.
+> Não trẻ tự compile chunks qua trải nghiệm bình thường.
+> Bố mẹ tạo MÔI TRƯỜNG an toàn + đa dạng, ĐỪNG CẢN TRỞ quá trình compile.
+> CÁCH dạy quyết định approach/avoidance TAG — tag quyết định SUỐT ĐỜI.
+> 0-6 tuổi = nền tảng — mặc dù ít ai để ý."*

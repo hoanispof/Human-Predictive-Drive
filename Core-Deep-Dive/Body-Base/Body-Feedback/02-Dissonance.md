@@ -37,7 +37,7 @@ File này drill từng câu hỏi với case-driven approach.
 
 ### §1.2 — Dissonance redefinition
 
-🟡 Framework commit (consolidating from Body-Dissonance.md + Learning-Cycle + Cortisol-Baseline):
+🟡 Framework commit (consolidating from Cortisol-Baseline + Learning-Cycle + Body-Feedback-Mechanism):
 
 > **Dissonance = body signal "chưa ổn, cần điều chỉnh"** — KHÔNG phải "negative emotion". Là **architectural feature** của body's coherence monitoring system.
 
@@ -153,7 +153,7 @@ File này cover 9 drill sections:
 
 **Why this is mini dissonance (not full threat)**:
 - Current state: comfortable (no acute threat)
-- Intensity: ~5-15% body resource (§2 Body-Dissonance.md "lấn cấn" ngưỡng)
+- Intensity: ~5-15% body resource ("lấn cấn" ngưỡng — micro dissonance)
 - Substrate: anticipation loop (PFC level), no amygdala engagement
 - Resolution: Imagine-Final candidate → mini reward (opioid preview) → dissonance resolves
 
@@ -195,7 +195,7 @@ File này cover 9 drill sections:
   - Resource/prudent: "không chi được"
 - PFC executes "dismiss" (walk away, don't look)
 - **Residual**: desire schema still has trace activation (not fully suppressed)
-- **Body-Dissonance**: "lấn cấn" ngưỡng (Body-Dissonance.md §2 nhẹ nhất) — micro mismatch, doesn't require action
+- **Lấn cấn residual**: micro mismatch ngưỡng nhẹ nhất — doesn't require action
 
 **Framework mapping**:
 
@@ -206,7 +206,7 @@ File này cover 9 drill sections:
 | Opioid pre-feel | Body-base simulation response | PFC-Analysis §8.3 bước 5 |
 | Resource check | PFC domain verification | Chunk.md §3 PFC functions |
 | Trust vs Cost | Anchor-Schema binding principle | Anchor-Schema §2 |
-| Lấn cấn residual | Body-Dissonance micro level | Body-Dissonance.md §2 |
+| Lấn cấn residual | Micro dissonance level | Chunk-Miss variant ⓐ (rõ) |
 
 **Why this case is classic mini dissonance**:
 - **Sub-threshold for PFC engagement**: "thôi không nhìn nữa" = PFC actively suppresses → mini signal remains but below conscious attention
@@ -285,7 +285,7 @@ This is the mechanism behind:
 - Materialistic accumulation: one purchase → new Imagine-Finals spawn → more gaps → more purchases → hedonic treadmill
 
 **Why this case ≠ trauma or severe dissonance**:
-- Low intensity (~5-10% body resource — §2 Body-Dissonance ngưỡng "lấn cấn")
+- Low intensity (~5-10% body resource — "lấn cấn" micro dissonance)
 - Not survival-related
 - Self-generated (not external threat)
 - Actionable (plant hoa) or dismissable (move on)
@@ -332,7 +332,7 @@ This is the mechanism behind:
 | Simulation of being C | Imagine-Final vô thức simulation | Imagine-Final §1 |
 | Opioid preview "khen" | Body-base check positive | PFC-Analysis §8.3 bước 5 |
 | Social comparison | L3 status threat | Threat.md §2 |
-| Social pain | Eisenberger 2003 pathway | Body-Dissonance §2.5 source 5 |
+| Social pain | Eisenberger 2003 pathway | Social damage source (🟢) |
 | "Oai thật" mixed | Simultaneous body signals | Logic-Feeling §5 parallel |
 
 **Critical — body-feedback vs feeling distinction** (P1 §5):
@@ -398,7 +398,7 @@ Similar structure to B1.4 but with **L3 status + resource gap** combined, and mo
 | Discovery shock | Emotional peak compile | Chunk.md §2 mode 2 |
 | Comparison calculation | PFC simulation + domain check | Imagine-Final §1 |
 | L3 status threat | "Moving target" threat type | Threat.md §2 |
-| Resource gap | Survival-adjacent concern | Body-Dissonance §2.5 source 2 (homeostasis adjacent) |
+| Resource gap | Survival-adjacent concern | Mismatch source (homeostasis adjacent) |
 | Self-worth schema | Anchor-Schema identity nguồn | Anchor-Schema §3 |
 | Anticipation loop risk | Chronic cortisol pathway | Threat-Drive-Analysis §3.3 |
 
@@ -1784,7 +1784,7 @@ H10 predicts: "Reward arrives only when 5 preconditions met." Hedonic trap = pre
 ### §11.1 — Framework files referenced in P2
 
 **Dissonance sources**:
-- `Body-Base/Body-Dissonance.md` — 14 levels + 6 nguồn
+- `Body-Feedback/Body-Feedback-Mechanism.md` — chunk dynamics (Shift/Miss/Gap) + compound
 - `Cortisol-Baseline.md` §1 + §2.5 + §3 + §3.5 — change-readiness + 3 nguồn + novelty/threat cortisol
 - `Drive/Threat.md` — threat 5-level spectrum + Body-Dissonance + Prediction of Harm
 - `Drive/Threat-Drive-Analysis.md` — 3 threat sources + schema=trigger/hormone=sustain

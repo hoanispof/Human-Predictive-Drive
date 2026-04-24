@@ -5,8 +5,8 @@
 > **Mục đích:** Giải thích TẠI SAO body check đáng tin, TẠI SAO follow reward map domain,
 > TẠI SAO con người "biết" mà không cần hiểu tại sao biết
 > **Đây là câu hỏi cuối cùng mọi người đặt ra sau khi hiểu toàn bộ framework.**
-> **Reference:** Architecture-v7.5-Draft.md §7 Domain, Schema-Atlas-v2.md,
-> Global-Melody.md, Personal-Melody.md
+> **Reference:** Core-v7.8-Draft.md §2 Domain, §4.1 Chunk-System,
+> Chunk.md v2.0, Body-Feedback.md
 > **⚠️ Phần lớn = established evolution theory + framework interpretation**
 > **Quy ước:** 🟢 Established science | 🟡 Framework suy luận | 🔴 Hypothesis
 
@@ -36,41 +36,93 @@
 ## 2. Tại Sao Body "Biết" Nhạc Mới Hay
 
 ```
-🟡 Body KHÔNG "biết hay" — body detect PATTERN MATCH:
+🟡 Body KHÔNG "biết hay" — body evaluate COHERENCE, không chỉ detect PE:
 
-  Nghe bài nhạc MỚI:
-    → Auditory cortex nhận: chuỗi notes CHƯA TỪNG nghe
-    → Vô thức: SO SÁNH với MỌI pattern ĐÃ compiled (kinh nghiệm nghe nhạc)
-    → Kết quả: bài mới MATCH patterns cũ ở MỨC NÀO ĐÓ
+  ⚠️ Nếu "prediction error = reward" (như AI/mainstream đơn giản):
+    → Spotify thêm note random vào bài quen → PE tăng → "hay hơn"?
+    → KHÔNG. Note random = dở. PE CAO nhưng KHÔNG reward.
+    → = PE ĐƠN THUẦN ≠ reward. (Chi tiết: Prediction-Error-Is-Not-Reward.md)
 
-  3 VÙNG MATCH — Goldilocks Zone:
+  VẬY CƠ CHẾ THẬT LÀ GÌ?
 
-    MATCH QUÁ CAO (>90%): "quá quen → CHÁN":
-      → VTA habituate → dopamine THẤP → body: "biết rồi, nhàm"
-      → = Bài GIỐNG HỆT bài cũ → không mới → không thú vị
+  BƯỚC 1 — VTA DETECT (PE = attention):
+    → Bài nhạc mới → VTA so sánh với compiled patterns
+    → Có phần KHÁC → VTA fire dopamine → ATTENTION: "có gì đó mới!"
+    → = Chuông cửa. KHÔNG phải quà.
 
-    MATCH VỪA (40-70%): "VỪA quen VỪA lạ → HAY!":
-      → Quen: body nhận ra pattern → "hiểu được" → AN TOÀN
-      → Lạ: có phần KHÁC → VTA fire (biến động!) → dopamine → "chú ý!"
-      → Lạ + KHỚP: phần mới FIT vào phần quen → body: "coherent + mới" → opioid
-      → = "HAY" = VỪA hiểu + VỪA bất ngờ + bất ngờ KHỚP
-      → = Goldilocks zone: đủ quen để safe + đủ lạ để thú vị
+  BƯỚC 2 — BODY EVALUATE (coherence check):
+    → Phần mới có FIT vào cấu trúc nhạc đã compiled không?
+    → FIT (coherent + mới) → body: "coherent mà mới!" → opioid → "HAY!"
+    → NOT FIT (random, phá structure) → cortisol → "DỞ"
+    → = Quà hay rắn phụ thuộc coherence, KHÔNG phụ thuộc PE level.
 
-    MATCH QUÁ THẤP (<20%): "quá lạ → KHÓ CHỊU":
-      → Vô thức search match → KHÔNG TÌM ĐƯỢC pattern quen
-      → Body: "KHÔNG decode được" → uncertainty → cortisol → "lạ quá, dở"
-      → = NHƯNG: "dở" VỚI NGƯỜI NÀY → người KHÁC (khác chunks) CÓ THỂ thấy "hay"
+  BƯỚC 3 — H10 PRECONDITIONS (ALL required):
+    → P2: Chunks base adequate — có đủ chunks nhạc để evaluate?
+    → P3: VTA delta threshold — có đủ mới không? (PE ở đây)
+    → P4: Goldilocks 40-70% — vừa quen vừa lạ?
+    → P5: Association tag — không bị tagged negative?
+    → Thiếu BẤT KỲ → reward không fire.
+
+
+  GOLDILOCKS ZONE — SAU KHI HIỂU PE ≠ REWARD:
+
+    QUÁ QUEN: "biết rồi → CHÁN":
+      → VTA habituate → dopamine THẤP → P3 fail → body: "biết rồi, nhàm"
+
+    VỪA QUEN VỪA LẠ + COHERENT: "HAY!":
+      → PE fire (P3 pass) + coherence pass + Goldilocks pass (P4)
+      → = ALL conditions met → opioid → "HAY!"
+
+    VỪA QUEN VỪA LẠ + INCOHERENT: "lạ nhưng DỞ":
+      → PE fire (P3 pass) + Goldilocks ok (P4 pass)
+      → NHƯNG phần mới KHÔNG fit → coherence FAIL → cortisol → "dở"
+      → = Spotify random note test: PE pass, coherence fail
+
+    QUÁ LẠ: "không decode được → KHÓ CHỊU":
+      → P2 fail (chunks không adequate để decode) + P4 fail
+      → = "Chả hiểu" → NHƯNG: người KHÁC (khác chunks) CÓ THỂ thấy "hay"
+
+
+  ⭐ TẠI SAO NHẠC ĐẶC BIỆT KHÓ GIẢI THÍCH:
+
+    Body evaluate nhạc ở BODY LEVEL (Layer 1-4):
+      → Chunks nhạc compile ở auditory cortex (B zone)
+      → Coherence evaluation ở body-base level (vô thức)
+      → Kết quả: opioid fire → PFC observe: "hay!" (Layer 4)
+
+    NHƯNG PFC thường KHÔNG explain được (Layer 6-7 fail):
+      → "Tại sao bài này hay?" → PFC tìm label → KHÔNG CÓ TỪ chính xác
+      → = Body biết ở Layer 3-4 (đúng, chính xác)
+      → = PFC explain ở Layer 7 (sai, rationalize, bịa lý do)
+      → = "Hay vì... ờ... giai điệu đẹp..." = Layer 7 confabulation
+
+    SO SÁNH VỚI EINSTEIN:
+      → Einstein: chunk-gap → CÓ THỂ articulate ("vật lý mâu thuẫn ở ĐÂY")
+      → Người nghe nhạc: coherence reward → KHÔNG articulate được
+      → CÙNG body evaluate mechanism → KHÁC clarity ở PFC level
+      → Einstein: high clarity (chunks verbal-linked) → explain được
+      → Nhạc: low clarity (chunks auditory, non-verbal) → chỉ "hay" thôi
+      → = Feeling.md §2.2b: magnitude × clarity — nhạc = magnitude cao + clarity thấp
+
+    → = "Gu nhạc" = chunk library nhạc CỦA BẠN decide:
+      ① Goldilocks zone ở đâu (bao nhiêu mới đủ mới)
+      ② Coherence evaluate thế nào (pattern nào "fit")
+      ③ Clarity ở PFC (có explain được hay chỉ "thích thôi")
+
 
   🟢 Research support:
-    → Zajonc (1968): "mere exposure effect" — nghe nhiều → thích hơn (familiarity tăng)
-    → Berlyne (1960): "optimal novelty" — moderate novelty = max pleasure
-    → North & Hargreaves (1995): inverted-U cho musical preference × familiarity
-    → = Goldilocks zone = ĐÚNG research ✅
+    → Zajonc (1968): mere exposure effect — nghe nhiều → thích hơn
+    → Berlyne (1960): optimal novelty — moderate novelty = max pleasure
+    → North & Hargreaves (1995): inverted-U musical preference × familiarity
+    → Berridge (2003): wanting (dopamine) ≠ liking (opioid)
+    → Schultz (1997): VTA prediction error = attention, not reward per se
+    → Goldilocks zone = ĐÚNG research, nhưng cần THÊM coherence condition ✅
 
-  → "HAY" = KHÔNG phải opinion thuần → là body detect "optimal pattern match"
-  → Mỗi người chunks KHÁC → Goldilocks zone KHÁC → "gu" KHÁC
-  → = "Gu" = personal melody CỦA BẠN decide Goldilocks zone Ở ĐÂU
-  → (Chi tiết: Personal-Melody.md §4)
+  → "HAY" = PE (attention) + Coherence (fit) + Goldilocks (vừa quen vừa lạ)
+  → PE đơn thuần KHÔNG đủ — Spotify random note chứng minh
+  → Mỗi người chunks KHÁC → Goldilocks + coherence evaluation KHÁC → "gu" KHÁC
+  → Body biết "hay" TRƯỚC PFC — PFC thường chỉ rationalize SAU
+  → (Chi tiết: Prediction-Error-Is-Not-Reward.md, Body-Feedback.md §6 H10)
 ```
 
 ---
@@ -122,7 +174,7 @@
     → = PHẦN LỚN coherence = truth (vì body calibrate triệu năm)
     → = NHƯNG: CÓ THỂ sai khi chunks nền SAI → cần EXTERNAL check (domain thật, AI, người khác)
 
-  ⭐ TẠI SAO body check KHI IMAGINE cũng ĐÁNG TIN (Schema-Operations insight):
+  ⭐ TẠI SAO body check KHI IMAGINE cũng ĐÁNG TIN (Chunk.md v2.0 §8-§9):
     → 🟢 Simulate DÙNG CÙNG pathway với thật (không hệ thống riêng):
       Motor imagery → motor cortex fire (cùng vùng vận động thật — Jeannerod 1995)
       Visual imagery → visual cortex fire (cùng vùng nhìn thật — Kosslyn 1994)
@@ -136,7 +188,7 @@
       → = Body check imagine KÉM CHÍNH XÁC cho cái CHƯA experience (patterns thiếu)
       → = "Imagine = REMIX patterns cũ" → body check đáng tin cho PHẠM VI ĐÃ BIẾT
       → = Cái HOÀN TOÀN MỚI → cần domain check THẬT (không chỉ imagine)
-      → (Chi tiết: Schema-Operations.md §8 + §8.5)
+      → (Chi tiết: Chunk.md v2.0 §8 PFC Search + §9 PFC modes)
 ```
 
 ---
@@ -182,9 +234,9 @@
       Nhiều kinh nghiệm: body evaluate "CHỖ NÀY tốt, CHỖ KIA xấu" (chi tiết)
       Cực nhiều: body evaluate "nếu ĐỔI THẾ NÀY → TỐT HƠN" (simulate variant)
       → = Chunks NHIỀU → body CÓ NHIỀU patterns tham chiếu → evaluate CHÍNH XÁC hơn
-      → = "Chuyên gia" = body nghe CHI TIẾT hơn vì tích lũy ĐỦ patterns
+      → = "Chuyên gia" = body nghe CHI TIẾT hơn vì tích lũy ĐỦ chunks
       → = KHÔNG phải "thông minh hơn" → "body có NHIỀU thước đo hơn"
-      → (Chi tiết: Schema-Operations.md §8.7)
+      → (Chi tiết: Chunk.md v2.0 §11 Expert vs Beginner)
 
     → Tầng 1 (evolution) = calibrate cho domain CƠ BẢN (gravity, lửa, ăn, sex, connection)
     → Tầng 2 (development) = calibrate cho domain CỤ THỂ (ngôn ngữ, văn hóa, nghề, xã hội)
@@ -272,7 +324,7 @@
     → Procrastinate: body "biết" cần làm → NHƯNG schema "scroll = reward" override
     → = Body check ĐÚNG → NHƯNG schema compiled OVERRIDE body check
     → = "Biết sai mà vẫn làm" = schema override body signal
-    → = (Chi tiết: Addiction-Analysis-v2.md, Schema-Atlas-v2.md §5)
+    → = (Chi tiết: Research/Hijack/Addiction-Analysis-v2.md, Chunk.md v2.0 §4 Activation)
 ```
 
 ---
@@ -337,14 +389,17 @@
 ## 8. Kết Nối
 
 ```
-→ Architecture-v7.5-Draft.md §7: Domain = thực tế bên ngoài, body = giao diện duy nhất
-→ Schema-Atlas-v2.md §2: Schema formation + body check
-→ Global-Melody.md: 8 tỷ melodies × domain check = global melody
-→ Personal-Melody.md §3: multi-modal sync = body detect coherence
-→ Cortisol-Baseline.md §2.5: 3 nguồn khó chịu (KHÔNG phải cortisol)
-→ Imagination-Analysis-v2.md: imagine = simulate trước, body check sau
-→ Addiction-Analysis-v2.md: schema override body check
-→ Education-AI-Era-Draft.md: AI = tầng 4 calibrate
+→ Core-v7.8-Draft.md §2: Domain = thực tế bên ngoài, body = giao diện duy nhất
+→ Core-v7.8-Draft.md §4.1: Chunk-System = sole substrate
+→ Core-v7.8-Draft.md §4.2: Body-Feedback = reward / dissonance (H10)
+→ Chunk.md v2.0: chunk compile, activation dynamics, expert vs beginner
+→ Body-Feedback.md: dual-pull, H10 5 preconditions, Goldilocks zone
+→ Cortisol-Baseline.md v2.0: amplifier, direction gate, 7 modes
+→ Schema/Anchor-Schema.md: anchor-schema formation + body check
+→ Feeling.md v2.0: PFC observation interface, 7-layer fidelity
+→ Research/Hijack/Addiction-Analysis-v2.md: compiled chunks override body check
+→ PFC/Logic-Feeling-Balance.md: meta-principle — body không 100%, LOGIC CŨNG không 100%, không thể prescribe khi nào tin cái nào
+→ PFC/Logic-Feeling-Failure-Examples.md: 18 ví dụ thực tế verified (logic sai + feeling sai + cả hai sai)
 ```
 
 ---

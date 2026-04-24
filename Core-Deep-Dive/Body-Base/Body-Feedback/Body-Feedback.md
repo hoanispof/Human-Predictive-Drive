@@ -1,26 +1,26 @@
 ---
 title: Body-Feedback — Synthesis of Body Signal Architecture
 created: 2026-04-15 (N+3, drill P0-P5)
-refined: 2026-04-17 (N+12, post Chunk-Analysis + Feeling Deep integration)
-status: SYNTHESIS v1.0
+refined: 2026-04-20 (v1.1 — add Mechanism file, cleanup refs)
+status: SYNTHESIS v1.1
 scope: |
   Unified model of body signal generation (dissonance + reward + neutral).
-  Entry point for Body-Feedback-Draft/ folder.
-  Synthesizes 4 drill files (~7,100L) into single reference.
+  Entry point for Body-Feedback/ folder.
+  Synthesizes 5 files into single reference.
 purpose: |
   WHY and HOW body generates affective signals.
   H10 5 preconditions for body signals.
+  Chunk dynamics classification (4th axis).
   Unique contributions not absorbed elsewhere.
-  Cross-references to Feeling Deep (absorbed content).
-parent: Chunk-Analysis/
-position: Body-Feedback-Draft/ (synthesis file, entry point for folder)
+parent: Body-Base/
+position: Body-Feedback/ (synthesis file, entry point for folder)
 dependencies: |
+  Body-Feedback-Mechanism.md (chunk dynamics: Shift/Miss/Gap — NEW v1.0)
   01-Foundation.md (dual-pull, interface loop, body-feedback vs feeling)
   02-Dissonance.md (3 nguồn khó chịu, threat matrix, trauma loop, hedonic trap)
   03-Reward.md (VTA + opioid, H10 preconditions, ô tô paradox, Van Gogh)
   04-Integration.md (unified loop, case walkthroughs, H10 v3, recommendations)
   Feeling-Mechanism-Deep.md (absorbed: 8-step flow, reward definitive)
-  Feeling-Literacy-Training.md (absorbed: training framework)
   Feeling-Chunk-Bridge.md (absorbed: bidirectional mapping)
 language: Tiếng Việt primary + English technical
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -28,16 +28,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 # Body-Feedback — Synthesis of Body Signal Architecture
 
-> **File này là ENTRY POINT** cho Body-Feedback-Draft/ folder.
-> 4 drill files (01→04, ~7,100L) drilled during N+3 session.
-> Post-drill integration: Chunk-Analysis (44 files) + Feeling Deep (3 files)
-> đã absorb một số content → file này HIGHLIGHTS unique contributions.
+> **File này là ENTRY POINT** cho Body-Feedback/ folder.
+> 5 files: Mechanism (chunk dynamics) + 4 drill files (01→04, ~7,100L).
 >
-> **Đọc file này TRƯỚC**. Đi sâu vào 01-04 nếu cần detail.
+> **Đọc file này TRƯỚC**. Đi sâu vào từng file nếu cần detail.
 >
-> **Core claim:** Body signal (reward/dissonance) = function of 5 preconditions
-> operating on a continuous interface loop. Signal fires khi ALL 5 met.
-> Absence of ANY → signal absent or wrong direction.
+> **Core claims:**
+> 1. Body signal = function of 5 preconditions (H10) on interface loop
+> 2. Body-feedback arises from 2 input sources × 3 chunk dynamics
+> 3. Same event → different chunk dynamics → different subjective experience
 
 ---
 
@@ -46,12 +45,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §1 — Folder Overview + Reading Guide
 - §2 — Dual-Pull Architecture (unique contribution)
 - §3 — Interface Loop 6-Step (unique contribution)
-- §4 — 3 Nguồn Khó Chịu Thật (unique contribution)
-- §5 — H10 Body Signal Precondition Hypothesis (definitive)
-- §6 — Unique Case Analyses (not absorbed elsewhere)
-- §7 — Trauma Loop + Hedonic Trap (unique mechanisms)
-- §8 — Absorbed Content Map (what moved to Feeling Deep)
-- §9 — Honest Assessment + Cross-References
+- §4 — ⭐ Chunk Dynamics Classification (NEW v1.1)
+- §5 — 3 Nguồn Khó Chịu Thật (unique contribution)
+- §6 — H10 Body Signal Precondition Hypothesis (definitive)
+- §7 — Unique Case Analyses (not absorbed elsewhere)
+- §8 — Trauma Loop + Hedonic Trap (unique mechanisms)
+- §9 — Absorbed Content Map (what moved to Feeling Deep)
+- §10 — Honest Assessment + Cross-References
 
 ---
 
@@ -60,32 +60,39 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §1.1 — Files in this folder
 
 ```
-Body-Feedback-Draft/
-├── Body-Feedback.md        ← THIS FILE (entry point, synthesis)
-├── 01-Foundation.md        (1,121L) — dual-pull, loop, body-feedback vs feeling
-├── 02-Dissonance.md        (1,846L) — 3 nguồn, threat matrix, trauma, hedonic
-├── 03-Reward.md            (2,261L) — VTA+opioid, H10, ô tô paradox, Van Gogh
-├── 04-Integration.md       (1,868L) — unified cycle, walkthroughs, H10 v3
+Body-Feedback/
+├── Body-Feedback.md             ← THIS FILE (entry point, synthesis)
+├── Body-Feedback-Mechanism.md   (850L) — ⭐ chunk dynamics (NEW v1.0)
+├── 01-Foundation.md             (1,121L) — dual-pull, loop, architecture
+├── 02-Dissonance.md             (1,846L) — 3 nguồn, threat matrix, trauma, hedonic
+├── 03-Reward.md                 (2,261L) — VTA+opioid, H10, ô tô paradox, Van Gogh
+├── 04-Integration.md            (1,868L) — unified cycle, walkthroughs, H10 v3
 └── backup/
-    └── plan.md             (743L)  — historical planning artifact
+    └── plan.md                  (743L) — historical planning artifact
 ```
 
 ### §1.2 — Reading guide
 
 ```
 ENTRY POINT: This file (Body-Feedback.md)
-  → Provides overview + unique contributions + cross-references
+  → Provides overview of ALL concepts + reading order
 
-DEEP DIVE (if needed):
-  01-Foundation.md    — dual-pull principle, interface loop formalization
+CORE MECHANISM (read second):
+  Body-Feedback-Mechanism.md ← ⭐ NEW
+    → 2 input sources (Sensory-Driven / Pattern-Driven)
+    → 3 chunk dynamics (Chunk-Shift / Chunk-Miss / Chunk-Gap)
+    → Compound mechanism + Quality Baseline Shift
+    → 4th classification axis (orthogonal to direction/magnitude/source)
+
+DEEP DIVE (case analyses):
+  01-Foundation.md    — dual-pull principle, interface loop, body-feedback vs feeling
   02-Dissonance.md    — 15+ case analyses, 3 nguồn khó chịu, trauma mechanism
   03-Reward.md        — ô tô paradox 5 scenarios, Van Gogh gradient, C5 latency
   04-Integration.md   — Einstein/hedonic/trauma end-to-end walkthroughs
 
 ABSORBED ELSEWHERE (authoritative versions):
-  → Feeling-Mechanism-Deep.md §4 — reward mechanism (dopamine ≠ reward, definitive)
+  → Feeling-Mechanism-Deep.md §4 — reward mechanism (dopamine ≠ reward)
   → Feeling-Mechanism-Deep.md §3 — 8-step operational flow
-  → Feeling-Mechanism-Deep.md §6 — feeling quality + trauma distortion
   → Feeling-Chunk-Bridge.md §2  — body vote feedback mechanisms
 ```
 
@@ -182,7 +189,64 @@ ABSORBED ELSEWHERE (authoritative versions):
 
 ---
 
-## §4 — 3 Nguồn Khó Chịu Thật (unique contribution)
+## §4 — ⭐ Chunk Dynamics Classification (NEW v1.1)
+
+```
+⭐ 4TH CLASSIFICATION AXIS — HOW CHUNKS FIRE TẠO RA SIGNAL:
+
+  Body-feedback có 4 trục phân loại ORTHOGONAL:
+    Trục 1: Direction (reward/dissonance/neutral)
+    Trục 2: Magnitude (14 levels)
+    Trục 3: Source (6 nguồn bên ngoài)
+    Trục 4: CHUNK DYNAMICS ← NEW
+
+  2 NGUỒN ĐẦU VÀO:
+
+    ① SENSORY-DRIVEN: Domain → body-input → chunks fire reactive
+       → Animals đầy đủ. No PFC needed. Timing: ms→seconds.
+       → VD: kim đâm, đồ ăn ngon, nhạc hay, trời nóng
+
+    ② PATTERN-DRIVEN: Chunks fire nội bộ → body respond theo
+       → Replay, preview, comparison, gap detect, spreading activation
+       → Animals có (hippocampal replay). Humans rich hơn.
+       → VD: nhớ lại, Imagine-Final preview, social comparison
+
+  3 CHUNK DYNAMICS:
+
+    ① CHUNK-SHIFT: cùng chunks, KHÁC valence (đánh giá thay đổi)
+       → VD: phản bội → chunks người yêu vẫn đó, valence flip
+       → Mechanism: Valence-Propagation qua network
+       → 🟢 Evaluative conditioning (De Houwer 2007)
+
+    ② CHUNK-MISS: pattern đã compiled KHÔNG FIRE (absent/degraded)
+       → VD: TikTok quen → máy hỏng → bứt rứt
+       → 3 variants: miss rõ / miss mờ / miss vô thức
+       → Mechanism: VTA negative prediction delta (Schultz 1997: "prediction error")
+       → 🟢 Successive Negative Contrast (Crespi 1942, Flaherty 1996)
+
+    ③ CHUNK-GAP: pattern CHƯA CÓ nhưng network detect thiếu
+       → VD: Einstein → vật lý mâu thuẫn → drive giải
+       → Foundation cho Novelty drive
+       → Mechanism: ACC inconsistency detection
+       → 🟢 Information gap theory (Loewenstein 1994)
+
+  COMPOUND: 1 event → nhiều dynamics cùng lúc
+    → Rơi 100k = Chunk-Miss (tiếc)
+    → Bị lừa 100k = Miss + Shift (tiếc + tức)
+    → Bị bạn thân lừa 100k = Miss + Shift + Gap (tiếc + tức + cay đắng)
+
+  QUALITY BASELINE SHIFT:
+    → Body compile quality X → habituate → quality giảm = Chunk-Miss
+    → 🟢 SNC: rats downshift good→normal → eat LESS than always-normal rats
+    → Works in animals (no PFC needed)
+    → Asymmetric: loss hurts ~2x gain (🟢 Kahneman & Tversky 1979)
+
+  See: Body-Feedback-Mechanism.md for full detail (850L, 28 research anchors).
+```
+
+---
+
+## §5 — 3 Nguồn Khó Chịu Thật (unique contribution)
 
 ```
 ⭐ CRITICAL REFRAME: CORTISOL KHÔNG GÂY ĐAU.
@@ -234,7 +298,7 @@ ABSORBED ELSEWHERE (authoritative versions):
 
 ---
 
-## §5 — H10 Body Signal Precondition Hypothesis (definitive)
+## §6 — H10 Body Signal Precondition Hypothesis (definitive)
 
 ```
 ⭐ H10 v3 — BODY SIGNAL PRECONDITION HYPOTHESIS:
@@ -286,9 +350,9 @@ ABSORBED ELSEWHERE (authoritative versions):
 
 ---
 
-## §6 — Unique Case Analyses (not absorbed elsewhere)
+## §7 — Unique Case Analyses (not absorbed elsewhere)
 
-### §6.1 — Ô tô Paradox (5 scenarios — 03-Reward.md §5)
+### §8.1 — Ô tô Paradox (5 scenarios — 03-Reward.md §5)
 
 ```
 🟡 SAME GIFT → OPPOSITE REWARD based on different precondition states:
@@ -306,7 +370,7 @@ ABSORBED ELSEWHERE (authoritative versions):
   → "Perfect gift" requires knowing the person (matching THEIR H10 state)
 ```
 
-### §6.2 — Van Gogh Appreciation Gradient (03-Reward.md §6)
+### §8.2 — Van Gogh Appreciation Gradient (03-Reward.md §6)
 
 ```
 🟡 TRAINING GRADIENT — chunks base determines appreciation:
@@ -321,7 +385,7 @@ ABSORBED ELSEWHERE (authoritative versions):
   → "Everyone likes Van Gogh eventually" = passive chunks accumulation over 20 years
 ```
 
-### §6.3 — Schema Update Latency — C5 Status Shift (03-Reward.md §8)
+### §7.3 — Schema Update Latency — C5 Status Shift (03-Reward.md §8)
 
 ```
 🟡 WHY REWARD DELAYS AFTER POSITIVE EVENT:
@@ -346,7 +410,7 @@ ABSORBED ELSEWHERE (authoritative versions):
   → Positive information CAN feel dissonant (because coherence violation).
 ```
 
-### §6.4 — Mini Dissonance is CONSTANT (02-Dissonance.md §2.6)
+### §7.4 — Mini Dissonance is CONSTANT (02-Dissonance.md §2.6)
 
 ```
 🟡 3 SOURCES OF CONSTANT MINI DISSONANCE:
@@ -361,7 +425,7 @@ ABSORBED ELSEWHERE (authoritative versions):
   → Resolution NOT elimination is the goal
 ```
 
-### §6.5 — Effort-Proportional Reward (03-Reward.md §4.7)
+### §7.5 — Effort-Proportional Reward (03-Reward.md §4.7)
 
 ```
 🟡 "CÀNG CỐ GẮNG LÂU THÌ CÀNG SƯỚNG" — mechanism:
@@ -377,9 +441,9 @@ ABSORBED ELSEWHERE (authoritative versions):
 
 ---
 
-## §7 — Trauma Loop + Hedonic Trap (unique mechanisms)
+## §8 — Trauma Loop + Hedonic Trap (unique mechanisms)
 
-### §7.1 — Trauma Loop 4-Stage Degradation (02-Dissonance.md §8)
+### §8.1 — Trauma Loop 4-Stage Degradation (02-Dissonance.md §8)
 
 ```
 ⭐ TRAUMA LOOP — SELF-PERPETUATING DEGRADATION:
@@ -416,7 +480,7 @@ ABSORBED ELSEWHERE (authoritative versions):
   See: 02-Dissonance.md §8 for full 4-stage detail.
 ```
 
-### §7.2 — Hedonic Trap Mechanism (02-Dissonance.md §9)
+### §8.2 — Hedonic Trap Mechanism (02-Dissonance.md §9)
 
 ```
 🟡 HEDONIC TRAP — WHY "GIÀU CHÁN":
@@ -455,7 +519,7 @@ ABSORBED ELSEWHERE (authoritative versions):
 
 ---
 
-## §8 — Absorbed Content Map
+## §9 — Absorbed Content Map
 
 ```
 CONTENT ABSORBED BY FEELING DEEP (authoritative versions elsewhere):
@@ -478,6 +542,11 @@ CONTENT ABSORBED BY FEELING DEEP (authoritative versions elsewhere):
   ┌──────────────────────────────┬──────────────────────────────────────┐
   │ Unique contribution          │ File + Section                       │
   ├──────────────────────────────┼──────────────────────────────────────┤
+  │ ⭐ Chunk dynamics (4th axis) │ Body-Feedback-Mechanism.md (NEW)     │
+  │ 2 input sources              │ Mechanism §2 (Sensory/Pattern-Driven)│
+  │ 3 chunk dynamics             │ Mechanism §3 (Shift/Miss/Gap)        │
+  │ Compound mechanism           │ Mechanism §4                         │
+  │ Quality Baseline Shift       │ Mechanism §5 (SNC research)          │
   │ Dual-pull architecture       │ 01-Foundation §2                     │
   │ 6-step interface loop        │ 01-Foundation §3                     │
   │ "Melody hay" 4 criteria      │ 01-Foundation §2.5                   │
@@ -504,9 +573,9 @@ CONTENT ABSORBED BY FEELING DEEP (authoritative versions elsewhere):
 
 ---
 
-## §9 — Honest Assessment + Cross-References
+## §10 — Honest Assessment + Cross-References
 
-### §9.1 — Confidence breakdown
+### §10.1 — Confidence breakdown
 
 ```
 🟢 HIGH CONFIDENCE:
@@ -546,7 +615,7 @@ CONTENT ABSORBED BY FEELING DEEP (authoritative versions elsewhere):
   ⚠ "Melody hay" sustainability prediction (logical but untested)
 ```
 
-### §9.2 — Cross-references
+### §10.2 — Cross-references
 
 ```
 📚 WITHIN CHUNK-ANALYSIS:
@@ -569,13 +638,13 @@ CONTENT ABSORBED BY FEELING DEEP (authoritative versions elsewhere):
 📚 OTHER FRAMEWORK FILES:
 
   Cortisol-Baseline.md         → change-readiness redefine, 3 nguồn, chunk tag
-  Body-Dissonance.md           → 14 intensity levels, 6 sources
   Why-Body-Knows.md            → 4-tier calibration, Goldilocks zone
   Personal-Melody.md           → Two-Axis Tension, melody hay criteria
   Imagine-Final.md             → reference pattern, lifecycle 5 phases
   Anchor-Schema.md             → 6-step flow, trust, 4 nguồn fill
   Threat.md + Threat-Drive-Analysis.md → threat = dissonance + harm prediction
-  PFC-Analysis.md §8.3-§8.4   → VTA detection, NE circuit breaker
+  PFC/PFC-Hardware.md §7       → VTA 7-step detection loop
+  PFC/PFC-Hardware.md §6       → NE α2/α1 circuit breaker
 
 
 📚 KEY RESEARCH REFERENCES:
@@ -596,20 +665,22 @@ CONTENT ABSORBED BY FEELING DEEP (authoritative versions elsewhere):
 
 ---
 
-> **END OF Body-Feedback.md v1.0**
+> **END OF Body-Feedback.md v1.1**
 >
-> **Summary:** Synthesis entry point for Body-Feedback-Draft/ folder:
+> **Summary:** Synthesis entry point for Body-Feedback/ folder:
 >   §2: Dual-pull (hardware × domain) = architectural foundation
 >   §3: 6-step interface loop (domain ↔ body ↔ schema ↔ action ↔ domain)
->   §4: 3 nguồn khó chịu thật (nociception, mismatch, recalibration)
->   §5: H10 5-precondition hypothesis (definitive)
->   §6: Unique case analyses (ô tô paradox, Van Gogh, C5 latency, mini dissonance)
->   §7: Trauma loop 4-stage + hedonic trap mechanism
->   §8: Absorbed content map (what moved to Feeling Deep)
->   §9: 10 🟢 + 7 🟡 + 3 🔴
+>   §4: ⭐ Chunk dynamics (NEW — 2 sources × 3 dynamics × compound)
+>   §5: 3 nguồn khó chịu thật (nociception, mismatch, recalibration)
+>   §6: H10 5-precondition hypothesis (definitive)
+>   §7: Unique case analyses (ô tô paradox, Van Gogh, C5 latency, mini dissonance)
+>   §8: Trauma loop 4-stage + hedonic trap mechanism
+>   §9: Absorbed content map (what moved to Feeling Deep)
+>   §10: Honest assessment + cross-references
 >
-> **Folder total:** 5 files, ~8,200L (including this synthesis)
-> **Unique contributions:** dual-pull, 3 nguồn, 15+ case analyses, trauma loop,
->   hedonic trap, schema maintenance cost, effort-proportional reward.
+> **Folder total:** 6 files, ~9,050L (including this synthesis + Mechanism)
+> **Unique contributions:** chunk dynamics classification, dual-pull, 3 nguồn,
+>   15+ case analyses, trauma loop, hedonic trap, schema maintenance cost,
+>   effort-proportional reward, quality baseline shift (SNC research).
 >
-> **Phiên bản:** v1.0, 2026-04-17.
+> **Phiên bản:** v1.1, 2026-04-20.

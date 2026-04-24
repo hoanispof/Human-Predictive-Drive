@@ -1,89 +1,175 @@
+---
+title: Skill-Introduction — Giới Thiệu Kỹ Năng Cho Trẻ (0-6 Tuổi)
+version: 2.0
+created: 2026-04-01
+updated: 2026-04-21
+status: REFERENCE v2.0
+scope: |
+  PRACTICAL FILE: KHI NÀO và THẾ NÀO giới thiệu kỹ năng cụ thể cho trẻ —
+  từ vận động, âm nhạc, nhận thức, tới sáng tạo. Qua lens v7.8.
+  EXPOSURE trước, TRAINING sau. Body signal quyết định — không phải lịch bố mẹ.
+  Approach/avoidance tag = tại sao CÁCH giới thiệu quyết định SCHEMA suốt đời.
+purpose: |
+  File NÀY mô tả ÁP DỤNG — Mechanism.md giải thích CƠ CHẾ.
+  Natural-Development = hiểu cái TỰ NHIÊN, đừng cản trở.
+  Skill-Introduction = giới thiệu cái MỚI, ĐÚNG LÚC + ĐÚNG CÁCH.
+  Bố mẹ đọc file này để biết KỸ NĂNG NÀO, KHI NÀO, THẾ NÀO.
+  Muốn hiểu TẠI SAO approach quan trọng → đọc Mechanism.
+position: |
+  Research/Child-Development/ — TẦNG 2 trong kiến trúc 5 tầng.
+  TẦNG 1: Core-Deep-Dive/ (não hoạt động thế nào)
+  TẦNG 2: Research/Child-Development/ (con người phát triển 0-6) ← ĐÂY
+  TẦNG 3: Research/Education/ (nguyên lý giáo dục bất biến)
+  TẦNG 4: Applications/Education/ (ứng dụng per-era)
+  TẦNG 5: Country/ (per-country)
+dependencies:
+  - Child-Development-Mechanism.md — KHUNG NGUYÊN LÝ v7.8 (reference chính)
+  - Natural-Development.md v2.0 — nền tảng phát triển tự nhiên (prerequisite)
+  - Core-v7.8-Draft.md — cycle architecture, observation parameters
+  - Chunk.md v2.0 — chunk substrate, compile, lifecycle
+  - Body-Feedback-Mechanism.md — 2 sources × 3 dynamics
+  - Cortisol-Baseline.md v2.0 — amplifier reframe, direction > level
+  - Feeling.md v2.0 — 7-layer fidelity gradient
+  - Connection.md — hardware drive, compiled patterns
+  - Personal-Melody.md v2.0 — passion development, melody-arc
+  - Attention-Spectrum.md — DRD4, novelty threshold
+  - Education-Bridge.md — motivation mechanism, arc design
+supersedes: |
+  Skill-Introduction.md v1.0 (2026-04-01, v7.5 lens)
+  Backup: Research/Child-Development/backup/Skill-Introduction-v1.0-backup.md
+language: Tiếng Việt primary + English technical terms
+confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+caution: |
+  ⚠️ KHÔNG thay thế chuyên gia giáo dục / nhi khoa.
+  Mỗi trẻ phát triển theo TIMELINE RIÊNG — các mốc là TRUNG BÌNH.
+---
+
 # Skill Introduction — Giới Thiệu Kỹ Năng Cho Trẻ (0-6 Tuổi)
 
-> **Trạng thái:** DRAFT
-> **Ngày:** 2026-04-01
-> **Mục đích:** KHI NÀO và THẾ NÀO giới thiệu kỹ năng cụ thể cho trẻ —
-> từ vận động, âm nhạc, nhận thức, tới sáng tạo
-> **Vị trí:** File này BUILD TRÊN Natural-Development.md
-> Natural-Development = hiểu cái TỰ NHIÊN, đừng cản trở
-> Skill-Introduction = giới thiệu cái MỚI, ĐÚNG LÚC + ĐÚNG CÁCH
-> **Nguyên tắc:** EXPOSURE trước, TRAINING sau.
-> Body signal quyết định — không phải lịch của bố mẹ.
-> **Tiền đề:** Natural-Development.md (hiểu foundation trước),
-> Education-Bridge.md (cơ chế motivation),
-> Imagine-Final.md (cơ chế kỳ vọng vô thức)
-> **⚠️ KHÔNG thay thế chuyên gia giáo dục / nhi khoa.
-> Mỗi trẻ phát triển theo TIMELINE RIÊNG.**
-> **Quy ước:** 🟢 Research support | 🟡 Framework inference | 🔴 Hypothesis
+> **Trẻ chạy CÙNG kiến trúc với người lớn.**
+> Cùng Perception-Action Cycle. Cùng chunk substrate. Cùng body-feedback.
+> Cùng PFC hardware — online từ prenatal (Hodel 2018).
+>
+> Chỉ KHÁC: chunk density.
+>
+> Natural-Development.md mô tả CÁI TỰ XẢY RA — đừng cản trở.
+> File này mô tả CÁI BỐ MẸ GIỚI THIỆU — đúng lúc, đúng cách.
+>
+> Tại sao "cách" quan trọng?
+> Vì CÙNG kỹ năng + CÙNG trẻ + KHÁC cách giới thiệu
+> = KHÁC approach/avoidance tag gắn vào chunks compile
+> = KHÁC schema suốt đời: "kỹ năng X = thú vị" vs "kỹ năng X = bị ép"
+>
+> Cơ chế tag: → Mechanism.md §3 (Approach/Avoidance Tags).
+> Cơ chế chunks: → Mechanism.md §2 (4+1 Channel Compile).
+> File này: ÁP DỤNG thực tế per-skill + per-hardware.
 
 ---
 
 ## Mục lục
 
-0. Mục đích — Vị trí trong bộ files
-1. Nguyên tắc gốc — 5 nguyên tắc xuyên suốt
-2. Exposure → Structure — 4 bước giới thiệu kỹ năng
-3. Kỹ năng Vận Động — bơi, xe đạp, sport, dance
-4. Kỹ năng Âm Nhạc — nghe, hát, nhạc cụ
-5. Kỹ năng Nhận Thức — đọc, viết, toán, ngôn ngữ 2
-6. Kỹ năng Sáng Tạo & Biểu Đạt — vẽ, xây dựng, kể chuyện
-7. Calibrate Per-child — hardware adjustment
-8. Sai lầm & Warning signs
-9. Honest Assessment
-10. Câu hỏi mở
-11. Kết nối
+- §0 — VỊ TRÍ TRONG BỘ FILES
+- §1 — NGUYÊN TẮC GỐC: 5 NGUYÊN TẮC XUYÊN SUỐT
+- §2 — EXPOSURE → STRUCTURE: 4 BƯỚC + APPROACH/AVOIDANCE TAG
+- §3 — KỸ NĂNG VẬN ĐỘNG: bơi, xe đạp, sport, dance
+- §4 — KỸ NĂNG ÂM NHẠC: nghe, hát, nhạc cụ
+- §5 — KỸ NĂNG NHẬN THỨC: đọc, viết, toán, ngôn ngữ 2
+- §6 — KỸ NĂNG SÁNG TẠO & BIỂU ĐẠT: vẽ, xây dựng, kể chuyện
+- §7 — CALIBRATE PER-CHILD: hardware adjustment
+- §8 — SAI LẦM & WARNING SIGNS
+- §9 — HONEST ASSESSMENT
+- §10 — CÂU HỎI MỞ
+- §11 — CROSS-REFERENCES
 
 ---
 
-## 0. VỊ TRÍ TRONG BỘ FILES
+## §0 — VỊ TRÍ TRONG BỘ FILES
+
+### §0.1 — Bộ 4 files Child-Development
 
 ```
-BỘ 3 FILES — TIMELINE PHÁT TRIỂN TRẺ:
+BỘ 4 FILES — PHÁT TRIỂN TRẺ 0-6:
 
-  Mother-Optimization.md    → TRƯỚC sinh (hardware con hình thành từ mẹ)
-  Natural-Development.md    → 0-6 tuổi: body/brain TỰ wire (đừng cản)
-  Skill-Introduction.md     → Song song: bố mẹ GIỚI THIỆU kỹ năng (đúng lúc)
+  Mother-Optimization.md        → TRƯỚC sinh (hardware con hình thành từ mẹ)
+  Natural-Development.md v2.0   → 0-6 tuổi: body/brain TỰ compile chunks (đừng cản)
+  Skill-Introduction.md v2.0    → Song song: bố mẹ GIỚI THIỆU kỹ năng (đúng lúc)
        [FILE NÀY]
+  Child-Development-Mechanism.md → CƠ CHẾ v7.8: giải thích TẠI SAO
+       (PFC Reframe, Approach/Avoidance Tags, Chunk Dynamics, SPM, Cortisol...)
 
   ┌─────────────────────────────────────────────────────────────┐
   │ Natural Development = NỀN                                   │
   │   chạy LIÊN TỤC 0-6 tuổi                                  │
-  │   body tự wire: bò, chạm, ngã, chơi, ngủ                  │
+  │   body tự compile chunks: bò, chạm, ngã, chơi, ngủ        │
   │                                                             │
   │ Skill Introduction = TẦNG TRÊN                              │
   │   bắt đầu DẦN DẦN, song song với nền                      │
   │   bố mẹ giới thiệu: nhạc, bơi, đọc, vẽ...                │
   │   CHỈ KHI nền đủ + trẻ sẵn sàng                           │
+  │                                                             │
+  │ Mechanism = GIẢI THÍCH                                      │
+  │   CƠ CHẾ đằng sau cả Natural-Dev và Skill-Intro            │
+  │   Approach/avoidance tag, chunk dynamics, cortisol...       │
   └─────────────────────────────────────────────────────────────┘
 
   = Skill introduction KHÔNG thay thế natural development
   = Skill introduction BUILD TRÊN natural development
   = Nền yếu + skill sớm = xây nhà trên cát
   = Nền mạnh + skill đúng lúc = xây nhà trên đá
+```
 
+### §0.2 — Phân biệt với các files khác
 
-PHÂN BIỆT VỚI CÁC FILES KHÁC:
+```
+TRONG BỘ CHILD-DEVELOPMENT:
 
-  Natural-Development.md:  CÁI ĐANG XẢY RA tự nhiên → hiểu để không cản
-  Body-Parenting-Opt.md:   APPROACH nuôi dạy tổng quát per age
-  Education-Bridge.md:     CƠ CHẾ MOTIVATION cho learning (bridge)
-  Skill-Introduction.md:   KỸ NĂNG CỤ THỂ nào, KHI NÀO, THẾ NÀO
+  Natural-Development.md:         CÁI ĐANG XẢY RA tự nhiên → hiểu để không cản
+  Child-Development-Mechanism.md: CƠ CHẾ v7.8 → TẠI SAO mọi thứ hoạt động
+  Skill-Introduction.md:          KỸ NĂNG CỤ THỂ nào, KHI NÀO, THẾ NÀO
        [FILE NÀY]
 
+LIÊN KẾT VỚI FRAMEWORK:
+
+  Education-Bridge.md:    CƠ CHẾ MOTIVATION cho learning (bridge)
+  Personal-Melody.md:     Passion development → melody-arc per-child
+  Attention-Spectrum.md:  DRD4 spectrum → per-hardware adjustment
+
   VD: dạy con piano
-    → Natural-Dev: não 3 tuổi có gì? PFC ~30%, motor tinh đang phát triển
-    → Body-Parent: approach = theo trẻ, cho lựa chọn, đừng ép
+    → Natural-Dev: não 3 tuổi — chunks chiến lược chưa compile đủ,
+         motor tinh đang phát triển (→ Mechanism §1)
+    → Mechanism: approach/avoidance tag quyết định schema suốt đời (→ §3)
     → Edu-Bridge: bridge nào? curiosity > carrot > threat
     → Skill-Intro: piano khi nào? exposure trước, readiness sign gì?
-       bắt đầu thế nào? per-hardware adjust ra sao?
-    → = 4 files BỔ SUNG nhau, không overlap
+         bắt đầu thế nào? per-hardware adjust ra sao?
+    → = 4+ files BỔ SUNG nhau, không overlap
+```
+
+### §0.3 — Cách đọc file này
+
+```
+NẾU BẠN LÀ BỐ MẸ (thực hành):
+  → Đọc §1 (nguyên tắc) + §2 (4 bước) → NỀN TẢNG
+  → Đọc §3-§6 CÁI LIÊN QUAN đến kỹ năng bạn quan tâm
+  → Đọc §7 per-hardware → adjust cho CON BẠN
+  → Đọc §8 warning signs → biết khi nào DỪNG
+
+NẾU BẠN MUỐN HIỂU SÂU (cơ chế):
+  → Đọc Mechanism.md trước (đặc biệt §3 Approach/Avoidance Tags)
+  → Sau đó: file này = cách ÁP DỤNG cơ chế đó per-skill
+
+CONCEPT V7.8 XUYÊN SUỐT FILE NÀY:
+  → "Chunks compile" thay vì "não wire" — chunks = đơn vị học (→ Mechanism §2)
+  → "Approach/avoidance tag" — body-state lúc compile quyết định tag (→ Mechanism §3)
+  → "Body signal" = feeling layer 1-2 — raw signal trước PFC can thiệp (→ Mechanism §5)
+  → "Readiness" = chunks prerequisite ĐÃ compile đủ (→ Mechanism §1, §2)
+  → "Schema" = cluster chunks có chung tag → "piano = enjoy" hay "piano = threat"
 ```
 
 ---
 
-## 1. NGUYÊN TẮC GỐC — 5 NGUYÊN TẮC XUYÊN SUỐT
+## §1 — NGUYÊN TẮC GỐC: 5 NGUYÊN TẮC XUYÊN SUỐT
 
-### Nguyên tắc 1: READINESS > AGE (sẵn sàng > tuổi)
+### §1.1 — READINESS > AGE (sẵn sàng > tuổi)
 
 ```
 SAI: "3 tuổi nên học piano" (tuổi quyết định)
@@ -92,7 +178,8 @@ SAI: "3 tuổi nên học piano" (tuổi quyết định)
 READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
 
   ① NÃO/CƠ THỂ ĐỦ (biological readiness)
-     → Vùng não liên quan ĐÃ myelin hóa đủ
+     → Chunks prerequisite ĐÃ compile + myelination đủ tốc độ
+       (→ Mechanism §1: hardware online, chunks missing)
      → Cơ thể đủ mạnh / đủ coordination
      → VD: piano cần fine motor (pincer grip chắc, ngón độc lập)
        → Thường ~5-6 tuổi, NHƯNG mỗi trẻ KHÁC
@@ -109,20 +196,26 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
   CẢ 3 CÓ → bắt đầu ✅
   THIẾU 1 → ĐỢI hoặc THỬ cách khác
 
-  TẠI SAO READINESS > AGE?
+  TẠI SAO READINESS > AGE? (→ Mechanism §3: approach/avoidance tag)
   → Cùng tuổi: trẻ A myelin hóa motor nhanh, trẻ B chậm hơn → hardware KHÁC
   → Ép trẻ B theo timeline trẻ A → chunks compile với frustration
-  → Schema: "piano = tôi không đủ giỏi = threat"
+  → Tag: AVOIDANCE → schema "piano = tôi không đủ giỏi = threat"
   → Đợi trẻ B ready → chunks compile với success
-  → Schema: "piano = tôi LÀM ĐƯỢC = enjoy"
-  → = CÙNG KỸ NĂNG, khác TIMING → khác SCHEMA suốt đời
+  → Tag: APPROACH → schema "piano = tôi LÀM ĐƯỢC = enjoy"
+  → = CÙNG KỸ NĂNG, khác TIMING → khác TAG → khác trajectory suốt đời
 ```
 
-### Nguyên tắc 2: BODY SIGNAL QUYẾT ĐỊNH
+### §1.2 — BODY SIGNAL QUYẾT ĐỊNH
 
 ```
   Bố mẹ HAY quyết theo LOGIC: "piano tốt cho não → cho con học piano"
   Framework: body signal trẻ QUAN TRỌNG hơn logic bố mẹ
+
+  V7.8: Body signal = feeling layer 1-2 (raw → integration)
+    Trẻ 0-6 CHƯA có layer 5-7 (location, labeling, explanation)
+    → Trẻ KHÔNG giải thích được TẠI SAO thích/ghét → CHỈ THỂ HIỆN qua body
+    → Bố mẹ QUAN SÁT body = đọc feeling RAW của trẻ
+    (→ Mechanism §5: Feeling Development)
 
   BODY SIGNAL "CÓ":
     → Mắt sáng lên khi thấy/nghe
@@ -130,7 +223,7 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
     → Hỏi: "mẹ, cái đó là gì?" / "con muốn thử"
     → Lặp lại: làm đi làm lại không chán
     → Cười / hào hứng trong quá trình
-    → = Body đang NÓI: "cái này resonance với tôi"
+    → = Body đang NÓI: "cái này resonance với tôi" → APPROACH direction
 
   BODY SIGNAL "KHÔNG":
     → Quay mặt / né tránh
@@ -138,7 +231,7 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
     → Khóc / tantrum khi phải practice
     → Mất tập trung NGAY (không phải sau 1 lúc — mà NGAY từ đầu)
     → Nói: "con không thích" (nếu đã biết nói)
-    → = Body đang NÓI: "không phải lúc" hoặc "không phải hướng tôi"
+    → = Body đang NÓI: "không phải lúc" hoặc "không phải hướng tôi" → AVOIDANCE direction
 
   ⭐ PHÂN BIỆT QUAN TRỌNG:
     "Khó" ≠ "Không thích"
@@ -147,7 +240,7 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
     → = Signal "quay lại" vs "né" là KEY
 ```
 
-### Nguyên tắc 3: SKILL PHỤC VỤ IMAGINE-FINAL CỦA TRẺ
+### §1.3 — SKILL PHỤC VỤ IMAGINE-FINAL CỦA TRẺ
 
 ```
   SAI: bố mẹ chọn skill cho con theo Imagine-Final CỦA BỐ MẸ
@@ -176,7 +269,7 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
     → = Lúc đó: invest sâu hơn vào hướng đó (nhưng VẪN giữ exposure đa dạng)
 ```
 
-### Nguyên tắc 4: CHẤT LƯỢNG > SỐ LƯỢNG
+### §1.4 — CHẤT LƯỢNG > SỐ LƯỢNG
 
 ```
   SAI: "con học 5 môn / tuần → đa dạng → tốt"
@@ -184,10 +277,10 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
 
   TẠI SAO?
 
-  ① DEEP ENGAGEMENT → DEEP WIRING
+  ① DEEP ENGAGEMENT → DEEP COMPILE (→ Mechanism §2)
      → 1 skill 30 phút TẬP TRUNG > 5 skills mỗi cái 10 phút lướt qua
-     → Deep = synapse fire ĐỒNG BỘ + REPEAT → compile MẠNH
-     → Shallow = synapse fire RẢI RÁC → không đủ để compile
+     → Deep = chunks compile ĐỒNG BỘ + REPEAT → approach tag mạnh
+     → Shallow = chunks rải rác → không đủ density để compile thành schema
 
   ② MASTERY → CONFIDENCE → IMAGINE-FINAL
      → 1 skill đủ SÂU → trẻ CẢM THẤY "tôi GIỎI cái này"
@@ -209,7 +302,7 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
     → CÒN LẠI: chơi tự do, thiên nhiên, gia đình, nghỉ ngơi
 ```
 
-### Nguyên tắc 5: QUÁ TRÌNH > KẾT QUẢ
+### §1.5 — QUÁ TRÌNH > KẾT QUẢ
 
 ```
   SAI: "Con vẽ cái gì đây? Đẹp chưa?" (focus KẾT QUẢ)
@@ -217,16 +310,16 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
 
   TẠI SAO?
 
-  FOCUS KẾT QUẢ:
+  FOCUS KẾT QUẢ (→ Mechanism §3: threat-path → avoidance tag):
     → Trẻ learn: "sản phẩm phải ĐẸP / ĐÚNG / GIỎI"
-    → = Performance pressure → cortisol → schema: "skill = phải đạt = threat"
-    → + Trẻ BẮT ĐẦU tránh thử cái mới (vì sợ kết quả "không đẹp")
+    → = Performance pressure → cortisol threat-direction → AVOIDANCE tag
+    → Schema: "skill = phải đạt = threat" → tránh thử cái mới
     → = Risk aversion → creativity GIẢM → exploration GIẢM
 
-  FOCUS QUÁ TRÌNH:
+  FOCUS QUÁ TRÌNH (→ Mechanism §3: novelty-path → approach tag):
     → Trẻ learn: "THỬ là thú vị, CÁCH LÀM là hay"
-    → = Process engagement → curiosity → schema: "skill = khám phá = enjoy"
-    → + Trẻ DÁM thử cái mới (vì không sợ kết quả)
+    → = Process engagement → curiosity → cortisol novelty-direction → APPROACH tag
+    → Schema: "skill = khám phá = enjoy" → dám thử cái mới
     → = Risk tolerance → creativity GIỮ → exploration GIỮ
 
   CÁCH THỰC HÀNH:
@@ -247,7 +340,13 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
 
 ---
 
-## 2. EXPOSURE → STRUCTURE — 4 BƯỚC GIỚI THIỆU KỸ NĂNG
+## §2 — EXPOSURE → STRUCTURE: 4 BƯỚC + APPROACH/AVOIDANCE TAG
+
+> **Tại sao 4 bước?**
+> Vì mỗi bước = cơ hội để chunks compile với APPROACH tag.
+> Skip bước = chunks compile với AVOIDANCE tag (→ Mechanism §3).
+> Tag gắn vào chunk = gần như VĨNH VIỄN (trừ reconsolidation window).
+> → 4 bước = đầu tư vào tag ĐÚNG, một lần, suốt đời.
 
 ```
 ĐA SỐ BỐ MẸ NHẢY THẲNG TỚI BƯỚC 4 (đăng ký lớp):
@@ -255,14 +354,28 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
   "Con 3 tuổi → đăng ký lớp piano → thứ 3 và thứ 5 học piano"
   → Trẻ CHƯA từng thấy piano → CHƯA biết thích hay không
   → CHƯA chạm → CHƯA có body data
-  → Đột nhiên: ngồi ghế, thầy lạ, phải làm theo → schema: "piano = ép"
+  → Đột nhiên: ngồi ghế, thầy lạ, phải làm theo
+  → Body state: threat-direction (lạ + ép + không control)
+  → Chunks "piano" compile với AVOIDANCE tag
+  → Schema: "piano = bị ép" → tag NÀY có thể tồn tại suốt đời
 
   FILE NÀY ĐỀ XUẤT: 4 BƯỚC TUẦN TỰ
   → Có thể nhanh (vài ngày) hoặc chậm (vài tháng) — TÙY TRẺ
-  → Skip bước = risk schema tiêu cực về kỹ năng đó
+  → Mỗi bước = body state shift dần từ "lạ" → "quen" → "thích" → "muốn sâu"
+  → = Mỗi bước = approach tag TÍCH LŨY → schema positive KHI vào bước 4
+
+  ⭐ APPROACH/AVOIDANCE × 4 BƯỚC (→ Mechanism §3):
+
+    Bước 1 (Exposure):  Body THU THẬP → chunks "lạ nhưng an toàn" → NEUTRAL → dần APPROACH
+    Bước 2 (Interest):  Body TỰ SIGNAL "muốn thử" → approach tag TỰ NHIÊN (không ai ép)
+    Bước 3 (Guided):    Body KHÁM PHÁ với support → approach tag + micro-mastery
+    Bước 4 (Structured): Body ĐÃ CÓ approach schema → structured = BUILD ON positive
+
+    Skip thẳng bước 4: Body CHƯA CÓ data → lạ + ép → threat-direction → AVOIDANCE tag
+    → = 4 bước KHÔNG phải "chậm" → là ĐÚNG CÁCH để tag APPROACH
 ```
 
-### Bước 1: EXPOSURE — PHƠI NHIỄM (Bố mẹ tạo, trẻ tự gặp)
+### §2.1 — Bước 1: EXPOSURE — PHƠI NHIỄM (Bố mẹ tạo, trẻ tự gặp)
 
 ```
 MÔ TẢ:
@@ -277,12 +390,13 @@ VD:
   Bóng đá: xem bóng đá cùng, đá bóng với bố ở sân
 
 MỤC ĐÍCH:
-  → Body trẻ THU THẬP chunks về kỹ năng này
+  → Body trẻ THU THẬP chunks về kỹ năng này (→ Mechanism §2: 4+1 channel)
   → Âm thanh piano = auditory chunks
   → Nước chạm da = tactile + thermal chunks
   → Thấy bút tạo vết trên giấy = visual + causal chunks
-  → = Brain đang BUILD internal model của kỹ năng
+  → = Brain đang compile internal model của kỹ năng
   → CHƯA cần hành động → chỉ cần NHẬN
+  → TAG LÚC NÀY: neutral → dần approach (vì an toàn + tự nhiên + không ép)
 
 THỜI GIAN: ngày → tuần → tháng (TÙY kỹ năng + trẻ)
 
@@ -294,7 +408,7 @@ BỐ MẸ LÀM:
   → CHỈ: làm cho nó AVAILABLE + VISIBLE + bố mẹ tự enjoy
 ```
 
-### Bước 2: INTEREST — HỨNG THÚ (Trẻ tự biểu hiện, bố mẹ nhận diện)
+### §2.2 — Bước 2: INTEREST — HỨNG THÚ (Trẻ tự biểu hiện, bố mẹ nhận diện)
 
 ```
 MÔ TẢ:
@@ -322,9 +436,14 @@ NẾU KHÔNG CÓ → VẪN OK:
     → Có thể: thật sự thích (body confirm)
     → Có thể: please bố mẹ (social compliance)
     → = Cần QUAN SÁT sau đó: khi practice → body signal "có" hay "không"?
+
+TAG LÚC NÀY: Interest tự phát = approach tag TỰ NHIÊN (dopamine + curiosity)
+  → Đây là TẠI SAO đợi interest TRƯỚC khi structured learning
+  → Interest tự phát = novelty-direction body state = approach tag mạnh nhất
+  → Interest bị gợi = CÓ THỂ approach (nếu body confirm) HOẶC neutral/avoidance
 ```
 
-### Bước 3: GUIDED PLAY — CHƠI CÓ HƯỚNG DẪN (Bố mẹ introduce, trẻ khám phá)
+### §2.3 — Bước 3: GUIDED PLAY — CHƠI CÓ HƯỚNG DẪN (Bố mẹ introduce, trẻ khám phá)
 
 ```
 MÔ TẢ:
@@ -343,12 +462,12 @@ VD:
   Đọc: chỉ chữ trên biển → "chữ đó giống chữ đầu TÊN CON!"
     → Chơi game: "tìm chữ A trên đường đi" (scavenger hunt)
 
-MỤC ĐÍCH:
-  → Chunks kỹ năng tích lũy VỚI VALENCE TÍCH CỰC
+MỤC ĐÍCH (→ Mechanism §3: approach tag tích lũy):
+  → Chunks kỹ năng compile VỚI APPROACH TAG (novelty-direction body state)
   → "Piano = vui + khám phá + với mẹ" → NOT "piano = ngồi im + thầy lạ + phải đúng"
-  → Body build internal model CÓ emotional tag POSITIVE
-  → = Nền tảng cho: khi vào structured learning → CÓ SẴN positive schema
-  → = KHÁC HẲN: nhảy thẳng vào lớp → schema ban đầu = neutral hoặc negative
+  → Body state lúc compile: dopamine + opioid (enjoy + connection) = APPROACH
+  → = Nền tảng cho: khi vào structured learning → CÓ SẴN approach schema
+  → = KHÁC HẲN: nhảy thẳng vào lớp → avoidance tag từ đầu → khó gỡ
 
 THỜI GIAN: tuần → tháng (TÙY kỹ năng + trẻ)
 
@@ -365,7 +484,7 @@ KHI NÀO CHUYỂN SANG BƯỚC 4:
   → = Body đang NÓI: "tôi muốn SÂUHƠN" → lúc này: structured learning phù hợp
 ```
 
-### Bước 4: STRUCTURED LEARNING — HỌC CÓ CẤU TRÚC (Chính thức, có thầy/lớp)
+### §2.4 — Bước 4: STRUCTURED LEARNING — HỌC CÓ CẤU TRÚC (Chính thức, có thầy/lớp)
 
 ```
 MÔ TẢ:
@@ -383,7 +502,9 @@ VD:
   → Có PRACTICE: lặp lại để compile thành tự động
   → Có FEEDBACK: sai → sửa, đúng → reinforce
   → Có CHALLENGE tăng dần: từ dễ → khó (arc design — Education-Bridge §5.5)
-  → = GẦN GIỐNG "học" truyền thống → nhưng VỚI positive schema đã có từ bước 1-3
+  → = GẦN GIỐNG "học" truyền thống → nhưng VỚI approach schema đã có từ bước 1-3
+  → = Structured practice CÓ challenge → cortisol VỪA nhưng NOVELTY-direction (vì đã thích)
+  → = Chunks compile: approach tag + increasing complexity = deep mastery
 
 VẪN RESPECT BODY SIGNAL TRONG BƯỚC 4:
   → Chán → Check: quá dễ? sai fit? cần break? cần đổi approach?
@@ -396,10 +517,10 @@ VẪN RESPECT BODY SIGNAL TRONG BƯỚC 4:
   → Trẻ ở bước 3 (guided play) VẪN ĐANG HỌC (chỉ khác cách)
   → Bước 4 = cho trẻ MUỐN đi SÂU → không phải mặc định cho mọi kỹ năng
   → VD: trẻ chơi piano ở bước 3, enjoy → ĐỪNG ép bước 4 "cho tử tế"
-    → Bước 3 VẪN wire synapse, VẪN build chunks, VẪN enjoy
+    → Bước 3 VẪN compile chunks, VẪN approach tag, VẪN enjoy
 ```
 
-### WITHDRAWAL — KHI TRẺ MUỐN DỪNG
+### §2.5 — WITHDRAWAL — KHI TRẺ MUỐN DỪNG
 
 ```
 TÌNH HUỐNG: trẻ đã ở bước 3 hoặc 4 → MUỐN DỪNG
@@ -409,13 +530,13 @@ PHẢN ỨNG THƯỜNG THẤY CỦA BỐ MẸ:
   → "Con không được bỏ giữa chừng!"
   → "Con cố thêm 1 tháng đi, rồi tính"
 
-FRAMEWORK ANALYSIS:
+FRAMEWORK ANALYSIS (→ Mechanism §3 + §4):
   → Trẻ muốn dừng = body signal: "kỹ năng này KHÔNG (còn) resonance"
-  → Lý do có thể:
-    a) Chưa bao giờ thật sự thích (skip bước 1-2 → schema đã negative)
+  → V7.8: tag đang SHIFT từ approach → avoidance. Lý do có thể:
+    a) Chưa bao giờ approach (skip bước 1-2 → avoidance tag từ đầu)
     b) Thích trước nhưng personal melody DỊCH CHUYỂN (bình thường ở 0-6)
-    c) Approach SAI (thầy/lớp không phù hợp → thử approach KHÁC trước)
-    d) Quá khó / quá dễ (adjust challenge level trước)
+    c) Approach SAI → threat-direction body state → tag đang shift (→ Mechanism §3.2)
+    d) Quá khó / quá dễ → chunk dynamics Miss hoặc Gap (→ Mechanism §4)
 
   → Bố mẹ NÊN:
     ① PHÂN BIỆT: muốn dừng KỸ NĂNG hay muốn dừng APPROACH?
@@ -428,14 +549,16 @@ FRAMEWORK ANALYSIS:
        → Basic skill (bơi, đọc): ĐỪNG dừng hẳn → đổi APPROACH
          "Lớp bơi con không thích → vậy bố con chơi nước ở hồ nhé?" (quay lại bước 3)
 
-  ⚠️ ÉP TIẾP = RỦI RO LỚN:
-    → Schema compile: "khi tôi MUỐN DỪNG → bị ép → ý kiến tôi VÔ GIÁ TRỊ"
+  ⚠️ ÉP TIẾP = RỦI RO LỚN (→ Mechanism §3 + §7):
+    → Chunks compile với AVOIDANCE tag CỰC MẠNH:
+      "khi tôi MUỐN DỪNG → bị ép → ý kiến tôi VÔ GIÁ TRỊ"
     → + "Học = bị ép → dù không thích VẪN phải làm" (learned helplessness)
-    → + Body-listening: "signal của tôi bị IGNORE" → body-listening SUY YẾU
+    → + Body-listening suy yếu: "signal của tôi bị IGNORE"
+      → Autonomy damage (→ Mechanism §7: efference copy bị override)
     → = 1 kỹ năng KHÔNG ĐÁNG để đổi lấy body-listening + agency + trust
 ```
 
-### SENSITIVE PERIODS — CỬA SỔ NHẠY CẢM (không phải "deadline")
+### §2.6 — SENSITIVE PERIODS — CỬA SỔ NHẠY CẢM (không phải "deadline")
 
 ```
   CÓ những giai đoạn não ĐẶC BIỆT dễ tiếp nhận 1 số kỹ năng:
@@ -484,7 +607,7 @@ FRAMEWORK ANALYSIS:
 
 ---
 
-## 3. KỸ NĂNG VẬN ĐỘNG — BƠI, XE ĐẠP, SPORT, DANCE
+## §3 — KỸ NĂNG VẬN ĐỘNG: BƠI, XE ĐẠP, SPORT, DANCE
 
 ```
 VẬN ĐỘNG = NHÓM KỸ NĂNG CÓ NỀN TẢNG TỰ NHIÊN MẠNH NHẤT
@@ -503,7 +626,7 @@ VẬN ĐỘNG = NHÓM KỸ NĂNG CÓ NỀN TẢNG TỰ NHIÊN MẠNH NHẤT
   → Multi-sport exposure → athletic foundation TỐT hơn → specialize SAU
 ```
 
-### 3.1 BƠI (Swimming) — BASIC SKILL
+### §3.1 — BƠI (Swimming) — BASIC SKILL
 
 ```
 ⭐ BƠI = KỸ NĂNG AN TOÀN → giới thiệu cho TẤT CẢ trẻ (không chờ interest)
@@ -543,7 +666,7 @@ KEY INSIGHTS:
     → Positive schema → approach → learn / Negative schema → avoid → không learn
 ```
 
-### 3.2 XE ĐẠP (Cycling)
+### §3.2 — XE ĐẠP (Cycling)
 
 ```
 CÁCH CŨ vs CÁCH MỚI:
@@ -588,7 +711,7 @@ KEY: balance bike = body learn PHẦN KHÓ NHẤT qua play
   → Thêm pedal = thêm 1 layer lên schema ĐÃ CÓ → dễ
 ```
 
-### 3.3 THỂ THAO / SPORT
+### §3.3 — THỂ THAO / SPORT
 
 ```
 ⭐ NGUYÊN TẮC SỐ 1: ĐA DẠNG TRƯỚC, CHUYÊN SÂU SAU
@@ -626,7 +749,7 @@ KEY: balance bike = body learn PHẦN KHÓ NHẤT qua play
   Bước 4 — STRUCTURED (~5-7 tuổi):
     → Lớp thể thao có coach, có luật, có team
     → Readiness: nghe hướng dẫn, chơi theo luật đơn giản, chấp nhận thua
-    → PFC ~40-50% → bắt đầu hiểu rules + teamwork
+    → Chunks chiến lược đủ để hiểu rules + teamwork (myelination tăng tốc xử lý)
     → TRƯỚC đó: "chơi" thể thao → không phải "thi đấu" thể thao
 
 PER-SPORT READINESS (ước tính, mỗi trẻ khác):
@@ -651,7 +774,7 @@ PER-SPORT READINESS (ước tính, mỗi trẻ khác):
     → Judo/Jiu-jitsu: grappling → cần body awareness hơn → thường muộn hơn chút
 ```
 
-### 3.4 NHẢY MÚA / DANCE
+### §3.4 — NHẢY MÚA / DANCE
 
 ```
 DANCE = GIAO ĐIỂM CỦA NHIỀU KỸ NĂNG:
@@ -673,7 +796,7 @@ DANCE = GIAO ĐIỂM CỦA NHIỀU KỸ NĂNG:
 
   Bước 3 — GUIDED PLAY (~2-4 tuổi):
     → Creative movement: "nhạc nhanh → chạy! nhạc chậm → bước nhẹ!"
-    → Freeze dance: nhạc dừng → đứng im (PFC inhibition practice!)
+    → Freeze dance: nhạc dừng → đứng im (inhibition chunk practice!)
     → Bắt chước động tác: "bay như chim! bò như mèo!"
     → = Motor + imagination + following instructions + FUN
 
@@ -685,7 +808,7 @@ DANCE = GIAO ĐIỂM CỦA NHIỀU KỸ NĂNG:
 
   ⚠️ BALLET SỚM — LƯU Ý:
     → Nhiều lớp nhận từ 3 tuổi → nhưng: trẻ 3 tuổi CHƯA có
-      PFC inhibition + body control ĐỦ cho ballet technique thật sự
+      inhibition chunks + body control ĐỦ cho ballet technique thật sự
     → Lớp "pre-ballet" 3-4 tuổi = thường là creative movement
       MẶC đồ ballet → OK nếu fun, NHƯNG đừng kỳ vọng kỹ thuật
     → Ballet thật sự (positions, barre, turnout): ~5-7 tuổi
@@ -695,28 +818,28 @@ DANCE = GIAO ĐIỂM CỦA NHIỀU KỸ NĂNG:
 
 ---
 
-## 4. KỸ NĂNG ÂM NHẠC — NGHE, HÁT, NHẠC CỤ
+## §4 — KỸ NĂNG ÂM NHẠC: NGHE, HÁT, NHẠC CỤ
 
 ```
 ÂM NHẠC = KỸ NĂNG CÓ SENSITIVE PERIOD RÕ RÀNG NHẤT
 
   → Tai trẻ ĐANG calibrate 0-5 tuổi
-  → Auditory cortex đang wire MẠNH
+  → Auditory cortex đang compile chunks MẠNH
   → = Window TỐT NHẤT để build musical foundation
   → NHƯNG: foundation = NGHE + HÁT + RHYTHM → không phải "vào lớp piano lúc 3"
   → Nhạc cụ = TẦNG 3-4 → CẦN foundation nghe/hát/rhythm TRƯỚC
 ```
 
-### 4.1 NỀN TẢNG: NGHE — HÁT — RHYTHM
+### §4.1 — NỀN TẢNG: NGHE — HÁT — RHYTHM
 
 ```
 ① NGHE (Listening) — từ BÀO THAI:
 
   → Thai nhi nghe nhạc từ ~20 tuần → auditory chunks BẮT ĐẦU compile
-  → 0-12 tháng: đa dạng nhạc ở nhà → auditory cortex wire PHONG PHÚ
+  → 0-12 tháng: đa dạng nhạc ở nhà → auditory chunks compile PHONG PHÚ
     → Classical, folk, pop, jazz, nhạc dân tộc... → MỖI loại = khác patterns
     → = Chunks: rhythm patterns, melody contours, timbre (chất âm)
-  → ĐỪNG chỉ 1 loại nhạc → đa dạng = brain wire ĐA DẠNG (như đa dạng texture cho tay)
+  → ĐỪNG chỉ 1 loại nhạc → đa dạng = chunks compile ĐA DẠNG (như đa dạng texture cho tay)
 
   → Bố mẹ HÁT cho trẻ nghe = HIỆU QUẢ HƠN nhạc recorded:
     → Giọng bố mẹ: trẻ đã BIẾT từ bào thai → attention CAO hơn
@@ -758,7 +881,7 @@ DANCE = GIAO ĐIỂM CỦA NHIỀU KỸ NĂNG:
     → = Invest vào nền (0-5 tuổi, MIỄN PHÍ) > nhảy thẳng vào nhạc cụ (TỐN TIỀN + risk)
 ```
 
-### 4.2 NHẠC CỤ — KHI NÀO VÀ CÁI NÀO
+### §4.2 — NHẠC CỤ — KHI NÀO VÀ CÁI NÀO
 
 ```
 TRƯỚC KHI CHỌN NHẠC CỤ — HỎI:
@@ -766,7 +889,7 @@ TRƯỚC KHI CHỌN NHẠC CỤ — HỎI:
   ① Con có nền NGHE + HÁT + RHYTHM chưa? (§4.1)
   ② Con có interest với nhạc cụ CỤ THỂ không? (body signal)
   ③ Tay/body con ĐỦ cho nhạc cụ đó chưa? (physical readiness)
-  ④ Con chịu được instruction + practice ngắn không? (PFC readiness)
+  ④ Con chịu đư���c instruction + practice ngắn không? (chunks chiến lược đủ)
 
   CẢ 4 CÓ → bắt đầu ✅
   THIẾU ①: build nền trước (miễn phí, vui, 0 pressure)
@@ -937,7 +1060,7 @@ NHẠC CỤ TỰ NHIÊN NHẤT:
   → = Trẻ 3-5 tuổi muốn "thổi": whistle, kazoo, harmonica = alternatives vui
 ```
 
-### 4.3 NGUYÊN TẮC PRACTICE CHO TRẺ NHỎ
+### §4.3 — NGUYÊN TẮC PRACTICE CHO TRẺ NHỎ
 
 ```
 PRACTICE Ở TRẺ 3-6 TUỔI ≠ PRACTICE Ở NGƯỜI LỚN:
@@ -974,7 +1097,7 @@ PRACTICE Ở TRẺ 3-6 TUỔI ≠ PRACTICE Ở NGƯỜI LỚN:
 
 ---
 
-## 5. KỸ NĂNG NHẬN THỨC — ĐỌC, VIẾT, TOÁN, NGÔN NGỮ 2
+## §5 — KỸ NĂNG NHẬN THỨC: ĐỌC, VIẾT, TOÁN, NGÔN NGỮ 2
 
 ```
 NHẬN THỨC = NHÓM KỸ NĂNG BỐ MẸ HAY ÉP SỚM NHẤT
@@ -982,10 +1105,11 @@ NHẬN THỨC = NHÓM KỸ NĂNG BỐ MẸ HAY ÉP SỚM NHẤT
   "Con 3 tuổi phải biết đếm!" "Con 4 tuổi phải biết đọc!"
   → Áp lực xã hội + so sánh + lo lắng tương lai
 
-  THỰC TẾ:
-  → Nhận thức = CẦN PFC → PFC 3 tuổi: ~30% → 6 tuổi: ~50%
-  → Ép nhận thức trước khi PFC ready = ép chạy phần mềm trên CPU chưa gắn
-  → = Có thể "chạy" (rote memory) nhưng CHẬM, NÓNG, và compile schema tiêu cực
+  THỰC TẾ (→ Mechanism §1: PFC hardware online, chunks missing):
+  → Nhận thức = CẦN chunks chiến lược compiled + myelination đủ tốc độ
+  → PFC hardware ONLINE từ prenatal — nhưng chunks chiến lược 3 tuổi: RẤT ÍT
+  → Ép nhận thức trước khi chunks ready = ép chạy phần mềm khi dữ liệu chưa đủ
+  → = Có thể "chạy" (rote memory) nhưng CHẬM + compile với AVOIDANCE tag
 
   NGUYÊN TẮC: CONCRETE trước ABSTRACT
   → Trẻ hiểu "3 quả cam" (concrete: thấy, chạm, đếm) TRƯỚC "3" (abstract: ký hiệu)
@@ -994,7 +1118,7 @@ NHẬN THỨC = NHÓM KỸ NĂNG BỐ MẸ HAY ÉP SỚM NHẤT
   → = Flashcard = ký hiệu TRƯỚC trải nghiệm = vỏ không ruột
 ```
 
-### 5.1 ĐỌC (Reading)
+### §5.1 — ĐỌC (Reading)
 
 ```
 ĐỌC = KỸ NĂNG PHỨC TẠP NHẤT mà trẻ 0-6 có thể học
@@ -1074,7 +1198,7 @@ NỀN TẢNG TRƯỚC KHI ĐỌC (quan trọng HƠN đọc):
     → → Lúc 10 tuổi: trẻ 1 CÓ THỂ đọc TỐT HƠN + THÍCH đọc hơn
 ```
 
-### 5.2 VIẾT (Writing)
+### §5.2 — VIẾT (Writing)
 
 ```
 VIẾT = MOTOR + COGNITIVE → cần CẢ HAI ready
@@ -1133,7 +1257,7 @@ PHYSICAL READINESS:
     → ĐỪNG lo "sao con đọc được mà viết không được?"
 ```
 
-### 5.3 TOÁN / SỐ (Math / Numbers)
+### §5.3 — TOÁN / SỐ (Math / Numbers)
 
 ```
 TOÁN TỰ NHIÊN ĐÃ CÓ SẴN (từ Natural-Development):
@@ -1201,14 +1325,14 @@ NỀN TẢNG TOÁN (TRƯỚC ký hiệu):
     → Abstract trước → rote memory (nhớ nhưng KHÔNG hiểu) → vỡ khi toán KHÓ hơn
 ```
 
-### 5.4 NGÔN NGỮ 2 (Second Language)
+### §5.4 — NGÔN NGỮ 2 (Second Language)
 
 ```
 SENSITIVE PERIOD RÕ NHẤT TRONG CÁC KỸ NĂNG NHẬN THỨC:
 
   0-10 tháng: phân biệt MỌI âm vị mọi ngôn ngữ (universal listener)
   10-12 tháng: THU HẸP về ngôn ngữ(các) đang nghe → mất âm vị không dùng
-  2-7 tuổi: grammar acquisition DỄ NHẤT (statistical learning + PFC đang wire)
+  2-7 tuổi: grammar acquisition DỄ NHẤT (statistical learning + chunks ngôn ngữ compile nhanh)
   Sau 7: VẪN HỌC ĐƯỢC → nhưng chuyển từ "implicit" sang "explicit" (effortful hơn)
 
   → = CÓ window → nhưng sensitive, KHÔNG critical
@@ -1245,8 +1369,8 @@ CÁC CÁCH TIẾP CẬN:
 
   ⭐ FRAMEWORK INSIGHT:
     → Ngôn ngữ = SKILL ĐẶC BIỆT: learn qua IMMERSION, không qua INSTRUCTION
-    → Trẻ <7: brain wire ngôn ngữ giống wire ngôn ngữ 1 (implicit, natural)
-    → Trẻ >7 + người lớn: brain wire ngôn ngữ qua PFC (explicit, effortful)
+    → Trẻ <7: brain compile chunks ngôn ngữ giống ngôn ngữ 1 (implicit, natural)
+    → Trẻ >7 + người lớn: compile qua PFC effortful (explicit, cần strategy chunks)
     → = Nếu muốn ngôn ngữ 2: IMMERSION sớm > lớp muộn
     → = Nếu không có điều kiện immersion: expose ĐA DẠNG (nhạc, video, sách, người)
       + đợi → lớp chính thức khi trẻ LỚN hơn (8-10) → PFC ĐỦ cho explicit learning
@@ -1254,7 +1378,7 @@ CÁC CÁCH TIẾP CẬN:
       + có thể tạo schema negative ("English = chán/khó")
 ```
 
-### 5.5 LOGIC / PROBLEM-SOLVING
+### §5.5 — LOGIC / PROBLEM-SOLVING
 
 ```
 LOGIC TỰ NHIÊN ĐÃ BUILD TỪ FREE PLAY (Natural-Dev §2.8):
@@ -1301,7 +1425,7 @@ CÔNG CỤ (không phải "bài học"):
 
 ---
 
-## 6. KỸ NĂNG SÁNG TẠO & BIỂU ĐẠT — VẼ, XÂY DỰNG, KỂ CHUYỆN
+## §6 — KỸ NĂNG SÁNG TẠO & BIỂU ĐẠT: VẼ, XÂY DỰNG, KỂ CHUYỆN
 
 ```
 SÁNG TẠO = KHÔNG PHẢI "TÀI NĂNG" → LÀ "KỸ NĂNG" (trainable)
@@ -1314,7 +1438,7 @@ SÁNG TẠO = KHÔNG PHẢI "TÀI NĂNG" → LÀ "KỸ NĂNG" (trainable)
   File này: CÁCH giữ + phát triển creativity tự nhiên qua kỹ năng cụ thể
 ```
 
-### 6.1 VẼ / NGHỆ THUẬT (Drawing & Art)
+### §6.1 — VẼ / NGHỆ THUẬT (Drawing & Art)
 
 ```
 CÁC GIAI ĐOẠN VẼ (universal, mọi trẻ đều đi qua):
@@ -1377,7 +1501,7 @@ CÁC GIAI ĐOẠN VẼ (universal, mọi trẻ đều đi qua):
     → "Con vẽ KHÁC hôm qua — mẹ thấy con thử cái mới" (celebrate exploration)
 ```
 
-### 6.2 XÂY DỰNG / CONSTRUCTION
+### §6.2 — XÂY DỰNG / CONSTRUCTION
 
 ```
 XÂY DỰNG = 1 TRONG NHỮNG KỸ NĂNG "GIÀU" NHẤT:
@@ -1424,7 +1548,7 @@ FREE BUILD vs INSTRUCTION SETS:
       → = "Kit = exposure to techniques → free build = apply techniques creatively"
 ```
 
-### 6.3 KỂ CHUYỆN / STORYTELLING
+### §6.3 — KỂ CHUYỆN / STORYTELLING
 
 ```
 KỂ CHUYỆN = PRE-WRITING + PRE-READING + CREATIVITY + LANGUAGE + MEMORY
@@ -1491,7 +1615,7 @@ CÁCH HỖ TRỢ (4 bước):
 
 ---
 
-## 7. CALIBRATE PER-CHILD — HARDWARE ADJUSTMENT
+## §7 — CALIBRATE PER-CHILD: HARDWARE ADJUSTMENT
 
 ```
 KHÔNG CÓ 1 CÔNG THỨC CHO TẤT CẢ TRẺ
@@ -1503,11 +1627,13 @@ KHÔNG CÓ 1 CÔNG THỨC CHO TẤT CẢ TRẺ
   → Temperament (cautious ↔ bold, high energy ↔ calm)
 
   → = CÙNG kỹ năng + CÙNG tuổi + KHÁC hardware = CẦN KHÁC approach
+  → CÙNG approach + KHÁC hardware = KHÁC body state = KHÁC tag (→ Mechanism §3)
   → Bố mẹ QUAN SÁT → nhận ra PATTERN → adjust
-  → (Chi tiết hardware: Attention-Spectrum.md, Personal-Melody.md)
+  → (Hardware chi tiết: Attention-Spectrum.md, Personal-Melody.md v2.0)
+  → (Mechanism: observation parameters emerge per-child → Mechanism §9)
 ```
 
-### 7.1 DRD4 SPECTRUM: 4R (STEADY) vs 7R (NOVELTY-SEEKING)
+### §7.1 — DRD4 SPECTRUM: 4R (STEADY) vs 7R (NOVELTY-SEEKING)
 
 ```
 TRẺ 4R TENDENCY (detail, steady, patient):
@@ -1553,7 +1679,7 @@ TRẺ 7R / ADHD TENDENCY (big picture, restless, novelty-seeking):
     → Movement breaks: giữa practice → chạy 1 vòng → quay lại → effective
 ```
 
-### 7.2 MODALITY: SOMATIC vs VERBAL
+### §7.2 — MODALITY: SOMATIC vs VERBAL
 
 ```
 TRẺ SOMATIC-DOMINANT (body signal mạnh, verbal yếu hơn):
@@ -1587,7 +1713,7 @@ TRẺ VERBAL-DOMINANT (verbal mạnh, body signal yếu hơn):
     → Bước 3: include VERBAL element ("kể mẹ nghe con đang xây gì")
 ```
 
-### 7.3 SENSITIVITY: CAO vs THẤP
+### §7.3 — SENSITIVITY: CAO vs THẤP
 
 ```
 TRẺ HIGH SENSITIVITY (HSC — Highly Sensitive Child):
@@ -1619,7 +1745,7 @@ TRẺ LOW SENSITIVITY (seeks stimulation):
     → "Bored" = CÓ THỂ dưới threshold → tăng challenge, thêm novelty
 ```
 
-### 7.4 TEMPERAMENT: CAUTIOUS vs BOLD
+### §7.4 — TEMPERAMENT: CAUTIOUS vs BOLD
 
 ```
 TRẺ CAUTIOUS (thận trọng, observe trước):
@@ -1641,14 +1767,14 @@ TRẺ BOLD (mạnh dạn, nhào vào ngay):
 
 ---
 
-## 8. SAI LẦM & WARNING SIGNS
+## §8 — SAI LẦM & WARNING SIGNS
 
 ```
 LƯU Ý: sai lầm ≠ "xấu" → đa số = ý tốt + thiếu thông tin
   → Biết = để ĐIỀU CHỈNH, không phải TỰ TRÁCH
 ```
 
-### 8.1 SAI LẦM PHỔ BIẾN TRONG GIỚI THIỆU KỸ NĂNG
+### §8.1 — SAI LẦM PHỔ BIẾN TRONG GIỚI THIỆU KỸ NĂNG
 
 ```
 ① NHẢY THẲNG TỚI BƯỚC 4 (phổ biến nhất)
@@ -1693,7 +1819,7 @@ LƯU Ý: sai lầm ≠ "xấu" → đa số = ý tốt + thiếu thông tin
      → Đổi thầy? Đổi method? Đổi schedule? Bước lùi về bước 3?
 ```
 
-### 8.2 WARNING SIGNS — DẤU HIỆU CẦN DỪNG / ĐIỀU CHỈNH
+### §8.2 — WARNING SIGNS — DẤU HIỆU CẦN DỪNG / ĐIỀU CHỈNH
 
 ```
 ⚠️ PHYSICAL:
@@ -1730,17 +1856,18 @@ KHI THẤY WARNING SIGNS:
 
 ---
 
-## 9. HONEST ASSESSMENT
+## §9 — HONEST ASSESSMENT
 
 ```
 ⭐ CÁI FILE NÀY CÓ THỂ LÀM:
 
-  ✅ Framework cho CÁCH TIẾP CẬN giới thiệu kỹ năng (4 bước)
+  ✅ Framework cho CÁCH TIẾP CẬN giới thiệu kỹ năng (4 bước + approach/avoidance tag)
   ✅ Per-skill readiness guidance (§3-§6)
   ✅ Per-hardware adjustment principles (§7)
   ✅ Warning signs rõ ràng (§8)
-  ✅ Kết nối với Natural-Development foundation (§0)
+  ✅ Kết nối với Natural-Development + Mechanism.md foundation (§0)
   ✅ Nguyên tắc EXPOSURE → STRUCTURE áp dụng được cho gần như MỌI kỹ năng
+  ✅ V7.8 lens: approach/avoidance tag giải thích TẠI SAO 4 bước quan trọng
 
 
 ⭐ CÁI FILE NÀY KHÔNG THỂ LÀM:
@@ -1751,7 +1878,7 @@ KHI THẤY WARNING SIGNS:
      → File = KHI NÀO + THẾ NÀO tiếp cận → không phải HOW TO dạy piano/bơi/đọc
   ❌ Cover trẻ >6 tuổi đầy đủ
      → Focus 0-6 → giai đoạn sau cần phân tích RIÊNG (school age = dynamic khác)
-  ❌ Cover trẻ neurodivergent
+  ❌ Cover trẻ neurodivergent chi tiết
      → ASD, ADHD, sensory processing differences → approach ĐẶC THÙ cần chuyên gia
   ❌ Đảm bảo trẻ "giỏi" kỹ năng nào
      → Approach ĐÚNG → trẻ ENJOY + learn hiệu quả → nhưng mastery ≠ guaranteed
@@ -1761,12 +1888,13 @@ KHI THẤY WARNING SIGNS:
 
   CAO (well-established):
     → 🟢 Early sport specialization risks (Côté, Lloyd et al.) — §3.3
-    → 🟢 Growth mindset / process vs result praise (Dweck) — §1 nguyên tắc 5
-    → 🟢 Language sensitive periods (phoneme, syntax) — §2, §5.4
+    → 🟢 Growth mindset / process vs result praise (Dweck) — §1.5
+    → 🟢 Language sensitive periods (phoneme, syntax) — §2.6, §5.4
     → 🟢 Reading foundation: oral language + phonological awareness — §5.1
     → 🟢 Concrete before abstract in math — §5.3
     → 🟢 Immersion > instruction for young children's L2 — §5.4
     → 🟢 AAP screen time recommendations — §5.4 (implicit)
+    → 🟢 PFC hardware online from prenatal (Hodel 2018) — §0, Mechanism §1
 
   TRUNG BÌNH (well-cited, some nuance):
     → 🟡 Suzuki method effectiveness — §4.2: widely practiced, nhưng
@@ -1777,20 +1905,28 @@ KHI THẤY WARNING SIGNS:
       absolute vs relative pitch distinction matters
     → 🟡 "Creativity killed by praise/criticism" — §6.1: directionally đúng,
       nhưng magnitude và mechanism đang debated
+    → 🟡 Cortisol direction > level (novelty vs threat) — Mechanism §8:
+      framework synthesis từ Sapolsky + McEwen, CÓ support nhưng chưa đủ granular
 
   FRAMEWORK-SPECIFIC (novel interpretation):
     → 🔴 4-step progression (Exposure → Interest → Guided Play → Structured)
       → Logic CHẶT + consistent với developmental science
       → Nhưng: CHƯA CÓ nghiên cứu test CỤ THỂ model 4-step này
       → = Framework proposal, NOT proven protocol
-    → 🔴 Body signal as primary decision maker — §1 nguyên tắc 2
+    → 🔴 Approach/avoidance tag formation per-step — §2, Mechanism §3
+      → Body-state-at-compile mechanism: consistent với Damasio somatic marker
+        + Nader 2000 reconsolidation + Berridge wanting/liking
+      → Nhưng: ÁP DỤNG cụ thể cho skill introduction = framework inference
+      → Tag PERSISTENCE (gần vĩnh viễn) = plausible nhưng magnitude chưa quantify
+    → 🔴 Body signal as primary decision maker — §1.2
       → Consistent với somatic marker hypothesis (Damasio)
       → Nhưng: ÁP DỤNG cho trẻ nhỏ + skill selection = extrapolation
     → 🔴 Per-hardware skill matching (DRD4 × skill type) — §7
       → Logic từ attention-spectrum research + DRD4 literature
       → Nhưng: specific recommendations = inference, KHÔNG direct evidence
-    → 🔴 "Schema positive/negative" formation per-step — §2
-      → Framework concept → plausible → nhưng quantify thế nào? Chưa rõ
+    → 🔴 Feeling layer 1-2 = body signal reading — §1.2, Mechanism §5
+      → Consistent với framework 7-layer gradient
+      → Nhưng: mapping cụ thể (trẻ 0-6 chủ yếu layer 1-2) = framework estimate
 
 
 ⭐ RỦI RO:
@@ -1803,7 +1939,8 @@ KHI THẤY WARNING SIGNS:
   ⚠️ BỐ MẸ LO LẮNG THÊM:
      → "Trời ơi tôi đã skip bước 1-3 cho piano!"
      → Fix: bắt đầu TỪ BÂY GIỜ, quay lại bước phù hợp → chưa muộn
-     → Brain trẻ plastic → sai sửa → tốt hơn không sửa
+     → Reconsolidation window (Nader 2000): avoidance tag CÓ THỂ update
+       nếu re-activate + new body state (→ Mechanism §3)
 
   ⚠️ ÁP DỤNG CỨNG NHẮC:
      → "File nói 5 phút/ngày → PHẢI 5 phút!" → mất tinh thần per-child adjust
@@ -1813,11 +1950,17 @@ KHI THẤY WARNING SIGNS:
      → Research gốc đa số Western → VN context: gia đình mở rộng, điều kiện khác
      → "Follow the child" CÓ THỂ conflict với: ông bà kỳ vọng, áp lực xã hội
      → File = framework → bố mẹ FILTER per-context, không áp dụng mù quáng
+
+  ⚠️ OVER-INTERPRETING TAGS:
+     → "Mọi trải nghiệm tiêu cực = avoidance tag suốt đời!" → quá đơn giản
+     → Fix: tag = probability, không binary. Nhiều yếu tố: intensity, repetition,
+       reconsolidation, context. 1 buổi khó chịu ≠ avoidance suốt đời
+     → Nhưng: PATTERN lặp lại (nhiều buổi threat) = tag MẠNH dần
 ```
 
 ---
 
-## 10. CÂU HỎI MỞ
+## §10 — CÂU HỎI MỞ
 
 ```
 ① Transfer effects: piano có THẬT SỰ giúp toán không?
@@ -1868,42 +2011,77 @@ KHI THẤY WARNING SIGNS:
 
 ---
 
-## 11. KẾT NỐI
+## §11 — CROSS-REFERENCES
 
 ```
-TRONG BỘ CHILD-DEVELOPMENT:
+TRONG BỘ CHILD-DEVELOPMENT (Research/Child-Development/):
 
-→ Natural-Development.md: NỀN TẢNG — hiểu cái tự nhiên trước khi giới thiệu kỹ năng
-   (§1 hardware, §2 hành vi tự nhiên, §4 timeline — TẤT CẢ là prerequisite)
-→ Mother-Optimization.md (tương lai): TRƯỚC sinh — hardware con từ mẹ
+→ Child-Development-Mechanism.md — KHUNG NGUYÊN LÝ v7.8
+   §1: PFC Reframe (hardware online, chunks missing)
+   §2: 4+1 Channel Compile (cách chunks tích lũy)
+   §3: ⭐ Approach/Avoidance Tag × Parenting (body-state-at-compile)
+   §4: Chunk Dynamics (Gap/Miss/Shift)
+   §5: Feeling Development (7-layer fidelity gradient)
+   §7: Autonomy (efference copy → meta-chunk)
+   §8: Cortisol Baseline × Phát Triển
+   §9: Observation Parameters + Imagine-Final Emergence
+
+→ Natural-Development.md v2.0 — NỀN TẢNG (prerequisite)
+   §1: Hardware khi bắt đầu (PFC online, chunks missing)
+   §2: Hành vi tự nhiên × mục đích phát triển
+   §4: Timeline phát triển tự nhiên 0→6 tuổi
+   §7: Qua lens framework v7.8
+
+→ Mother-Optimization.md — TRƯỚC sinh (hardware con từ mẹ)
 
 
-TRONG FRAMEWORK CHÍNH:
+TRONG CORE-DEEP-DIVE/:
 
-→ Core-v7.5-Draft.md: framework gốc — body-base, drives, domain
-→ Imagine-Final.md §1: 2 tầng (vô thức + PFC) → §7.2 Natural-Dev = how Imagine-Final forms
-→ Chunk.md §3: vô thức vs PFC → skill learning = chunk compilation
-→ Connection.md §7.5: attachment = safe base cho exploration → prerequisite cho skill learning
-→ Personal-Melody.md §5: passion development → skill that matches melody = deep engagement
-→ Attention-Spectrum.md: DRD4 spectrum → §7.1 per-hardware → KHÁC nhau rõ ràng
+→ Core-v7.8-Draft.md — Cycle architecture, observation parameters
+→ Body-Base/Chunk/Chunk.md v2.0 — Chunk substrate, compile, lifecycle
+   Skill learning = chunk compilation (§3)
+→ PFC/Imagination/Imagine-Final.md — 2 tầng (vô thức + PFC)
+   §1.3: Imagine-Final CỦA TRẺ §1.3 = §7.6 Mechanism
+→ Body-Base/Body-Feedback/Body-Feedback-Mechanism.md — 2 sources × 3 dynamics
+→ Body-Base/Cortisol-Baseline.md v2.0 — Amplifier reframe, direction > level
+   Cortisol direction (novelty vs threat) = WHY ép ≠ khuyến khích
+→ Body-Base/Feeling/Feeling.md v2.0 — 7-layer fidelity gradient
+   Body signal = feeling layer 1-2 (§1.2 file này)
 
 
-TRONG RESEARCH/EDUCATION:
+TRONG OBSERVATION/ (Core-Deep-Dive/Observation/):
 
-→ Education-Bridge.md §0: Imagine-Final trước khi dạy
-   + §5.5: Arc Design (calibrate difficulty)
-   + §6: Per-age bridge design
-   + §7: Per-hardware bridge adjustment
-→ Body-Parenting-Optimization.md: parenting APPROACH per age
-   (file này = kỹ năng cụ thể, BPO = approach tổng quát)
-→ Education-AI-Era-Draft.md: challenge-product method → structured learning approach
-→ Boredom-Analysis.md §1: chán = dưới ngưỡng → skill quá dễ/quá khó
-→ Cortisol-Baseline.md: cortisol baseline → ép skill = tăng baseline
+→ Connection.md — Hardware drive, attachment = safe base cho exploration
+   Attachment MET → domain pull freed → skill exploration possible
+→ Empathy.md — SPM function, developmental bootstrap
+→ Autonomy.md + Autonomy-Hardware.md — Efference copy, 5-phase arc
+   Ép skill khi trẻ muốn dừng = autonomy damage (§2.5)
+→ Boredom.md — Chán = dưới ngưỡng → skill quá dễ / quá khó
+→ Novelty.md — Novelty threshold × skill introduction timing
+→ Status.md — Mastery → status → identity (§1.4)
+
+
+TRONG MELODY LENS (Core-Deep-Dive/Body-Base/Melody Lens/):
+
+→ Personal-Melody.md v2.0 — Passion development
+   Skill that matches melody = deep engagement + approach tag tự nhiên
+→ Melody-Arc.md v2.0 — Arc trajectory per-person
+→ PFC/Attention-Spectrum.md — DRD4 spectrum → §7.1 per-hardware adjustment
+
+
+TRONG RESEARCH/EDUCATION/:
+
+→ Education-Bridge.md — Motivation mechanism + Arc Design
+   §5.5: Arc Design (calibrate difficulty per-child)
+   §6: Per-age bridge design
+   §7: Per-hardware bridge adjustment
 ```
 
 ---
 
-> *Skill Introduction — "EXPOSURE trước, TRAINING sau. Body signal quyết định,
+> *Skill Introduction v2.0 — "EXPOSURE trước, TRAINING sau. Body signal quyết định,
 > không phải lịch của bố mẹ. Mỗi kỹ năng = 4 bước: Phơi nhiễm → Hứng thú →
-> Chơi có hướng dẫn → Học có cấu trúc. Skip bước = risk schema tiêu cực.
+> Chơi có hướng dẫn → Học có cấu trúc. Mỗi bước = cơ hội tag APPROACH.
+> Skip bước = risk tag AVOIDANCE — gắn vào chunk, tồn tại suốt đời.
+> CÙNG kỹ năng + CÙNG trẻ + KHÁC cách giới thiệu = KHÁC tag = KHÁC trajectory.
 > 1 kỹ năng sâu + enjoy > 5 kỹ năng nông + ép. Mỗi trẻ hardware KHÁC → adjust."*

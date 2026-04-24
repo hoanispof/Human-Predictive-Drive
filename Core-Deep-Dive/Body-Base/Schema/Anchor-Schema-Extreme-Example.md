@@ -811,12 +811,12 @@ Y6 — SUBSTANCE ADDICTION (chemical pathway, fundamentally khác)
 
   Y1-Y5: anchor formed qua SCHEMA + CONDITIONING
     → Body reward đến TỪ schema match (predictive learning)
-    → Mechanism: prediction error → dopamine → learning
+    → Mechanism: prediction delta → dopamine → learning
     → = Behavioral pathway
 
   Y6: anchor formed qua CHEMICAL DIRECT
     → Substance HIT receptors trực tiếp → dopamine flood
-    → Skip prediction error → reward UNCOUPLED with utility
+    → Skip prediction delta → reward UNCOUPLED with utility
     → 🟢 Stimulants: block DAT → flood synapse với dopamine
     → 🟢 Opioids: μ-receptor → disinhibit VTA GABA → dopamine surge
     → 🟢 Nicotine: nAChRs trực tiếp trên VTA dopamine neurons
@@ -826,7 +826,7 @@ Y6 — SUBSTANCE ADDICTION (chemical pathway, fundamentally khác)
 
   → = Y6 ở 1 LEVEL khác về mặt mechanism:
     Y1-Y5: schema-mediated reward
-    Y6: chemical-direct reward (bypass prediction error)
+    Y6: chemical-direct reward (bypass prediction delta)
     → → Anchor có 1 layer mới: PHYSICAL DEPENDENCY (không chỉ psychological)
 
   ── 5 CONDITIONS (đặc biệt mạnh) ──
@@ -1246,7 +1246,7 @@ PATTERN C: SCHEMA-LEVEL vs CHEMICAL-LEVEL ANCHOR
 
   Y1-Y5: SCHEMA-LEVEL anchor
     → Anchor formed qua learning + reward + community + identity
-    → Mechanism: prediction error → dopamine → schema compile
+    → Mechanism: prediction delta → dopamine → schema compile
     → Exit: rebuild schema (khó nhưng possible bằng experience)
 
   Y6: CHEMICAL-LEVEL anchor
@@ -1359,7 +1359,7 @@ TOÀN FILE — ĐÁNH GIÁ TRUNG THỰC:
   ┌────────────────────────────────────────────────────────────────┐
   │ NEUROSCIENCE OF ADDICTION:                                     │
   │   Mesolimbic dopamine system (VTA → NAc) — established        │
-  │   Substances bypass prediction error (Volkow, Koob)            │
+  │   Substances bypass prediction delta (Volkow, Koob)             │
   │   Stimulants block DAT — pharmacology                          │
   │   Opioids → μ-receptor → VTA disinhibition                     │
   │   Alcohol: GABA-A potentiation + NMDA antagonism               │
