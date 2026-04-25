@@ -1904,6 +1904,144 @@ STRATEGY SPECTRUM:
   🟡 Framework synthesis + 🟢 clinical evidence for paths 1-2, 🔴 AI path emerging
 ```
 
+### §7.7 TAXONOMY: 5 CORTISOL ROLES (reference cho các file khác) ⭐
+
+```
+⭐ CORTISOL XUẤT HIỆN Ở NHIỀU FILE — NHƯNG MỖI LẦN Ý KHÁC NHAU.
+
+  Để tránh "dùng tùm lum cortisol với mọi sự khó chịu",
+  phân loại rõ 5 ROLES mà cortisol đóng trong framework:
+
+
+  ┌─────────────────┬──────────────┬──────────────────┬──────────────────────┐
+  │ ROLE            │ Body signal  │ Temporal          │ Khác biệt chính      │
+  ├─────────────────┼──────────────┼──────────────────┼──────────────────────┤
+  │ ① COMPILE       │ Moderate-High│ Tại thời điểm    │ GÁN HƯỚNG cho chunk: │
+  │   DIRECTION     │ (spike or    │ compile chunk     │ APPROACH (novelty)   │
+  │                 │ sustained)   │ (giây → phút)    │ hoặc AVOIDANCE       │
+  │                 │              │                  │ (threat). BINARY.    │
+  ├─────────────────┼──────────────┼──────────────────┼──────────────────────┤
+  │ ② HOLDING       │ Low-Moderate │ Sustained        │ "Chưa xong" —        │
+  │   (chưa xong)   │ (mild,       │ (giờ → ngày)    │ KHÔNG SỢ, chỉ PFC    │
+  │                 │ background)  │                  │ tracking pending.    │
+  │                 │              │                  │ Gap chưa close.      │
+  ├─────────────────┼──────────────┼──────────────────┼──────────────────────┤
+  │ ③ THREAT-       │ Moderate-High│ Sustained        │ "Nguy hiểm chưa hết" │
+  │   SUSTAINED     │ (elevated,   │ (giờ → tuần)    │ CÓ yếu tố SỢ/LO.   │
+  │                 │ persistent)  │                  │ Internal-Predict      │
+  │                 │              │                  │ loop có thể chạy.    │
+  ├─────────────────┼──────────────┼──────────────────┼──────────────────────┤
+  │ ④ INERTIA       │ Moderate     │ Post-event       │ Event ĐÃ XONG nhưng │
+  │   (quán tính)    │ (declining   │ (ngày → tuần)   │ cortisol CHƯA về     │
+  │                 │ slowly)      │                  │ baseline. Hóa học    │
+  │                 │              │                  │ lag, KHÔNG phải      │
+  │                 │              │                  │ threat hay holding.  │
+  ├─────────────────┼──────────────┼──────────────────┼──────────────────────┤
+  │ ⑤ SILENT        │ High nhưng   │ Chronic          │ Cortisol CAO nhưng   │
+  │   (mù tín hiệu) │ KHÔNG CẢM   │ (tháng → năm)   │ self-signal atrophy  │
+  │                 │ NHẬN         │                  │ → PFC KHÔNG BIẾT.    │
+  │                 │              │                  │ Damage tích lũy      │
+  │                 │              │                  │ không awareness.     │
+  └─────────────────┴──────────────┴──────────────────┴──────────────────────┘
+
+
+  ① COMPILE DIRECTION (§3.3, §7.1-7.3):
+    = Cortisol tại thời điểm chunk COMPILE.
+    Direction = f(body state lúc đó): novelty → APPROACH, threat → AVOIDANCE.
+    SAU KHI compile xong → role này KẾT THÚC.
+    Tag LOCK IN vào chunk (có thể re-associate qua §7.6).
+
+    Files dùng role này:
+      → Chunk.md §2.4 NT7: direction gate
+      → Threat.md: trauma chunks = avoidance compile
+      → Body-Feedback 03-Reward: H10 P5
+
+
+  ② HOLDING (§3.8):
+    = Cortisol duy trì ở mức THẤP-VỪA vì có Chunk-Gap chưa resolve.
+    PFC bị buộc quay lại check → "đã xử lý chưa?"
+    KHÔNG CÓ yếu tố sợ — chỉ "pending, chưa xong."
+    Giải quyết Gap → cortisol holding STOP → relief.
+
+    Phân biệt với Threat-sustained:
+      Holding: "biết phải trả ơn anh B" — mild tension, PFC monitoring
+      Threat-sustained: "anh B SẮP đòi nợ, tôi không có tiền" — SỢ, lo lắng
+
+    Files dùng role này:
+      → Obligation.md: cortisol holding khi obligation pending
+      → Body-Feedback-Mechanism.md §3.3: Chunk-Gap holding signal
+      → Novelty-Loop.md: imagination loop holding
+
+
+  ③ THREAT-SUSTAINED (§7.1, Threat.md):
+    = Cortisol VỪA-CAO kéo dài vì threat CHƯA HẾT hoặc KHÔNG RÕ khi nào hết.
+    CÓ yếu tố SỢ/LO → khác Holding.
+    Internal-Predict loop có thể chạy → self-amplifying.
+    Cortisol tại role này CÓ THỂ trigger thêm Compile Direction
+    (threat-sustained → compile avoidance chunks MỚI).
+
+    Phân biệt với Holding:
+      Threat-sustained: cortisol CAO hơn + CÓ SỢ + CÓ THỂ self-amplify
+      Holding: cortisol THẤP hơn + KHÔNG SỢ + KHÔNG self-amplify
+
+    Files dùng role này:
+      → Threat.md: Internal-Predict, anticipation loop
+      → Obligation.md §4.4: TYPE 3 ân tình trigger Internal-Predict
+      → Status.md: social evaluation sustained threat
+      → Cortisol-Baseline §10: trauma loop
+
+
+  ④ INERTIA (§2.3, §11.5):
+    = Cortisol CHƯA VỀ BASELINE dù event đã kết thúc.
+    Hóa học lag: HPA axis cần thời gian re-calibrate.
+    KHÔNG PHẢI threat (event xong), KHÔNG PHẢI holding (gap đã close).
+    Chỉ là body chưa kịp chuyển trạng thái.
+    "Hoàn thành dự án → 2-3 ngày vẫn chênh vênh" = inertia.
+
+    Nguy hiểm khi NHẦM với threat:
+      "Tại sao tôi vẫn lo dù mọi thứ ok?" → không phải lo → là inertia
+      → Gán nhãn sai "lo" → PFC tìm threat → tạo threat MỚI từ hư không
+      → = False alarm → worse than doing nothing
+
+    Files dùng role này:
+      → Cortisol-Baseline §2.3: quán tính baseline
+      → Cortisol-Baseline §11.5: post-project blues
+      → Body-Feedback-Mechanism §3.3⑥: cortisol inertia post-Shift
+
+
+  ⑤ SILENT (§3.10):
+    = Cortisol CAO + self-signal interoception ATROPHY.
+    PFC KHÔNG BIẾT cortisol đang cao → KHÔNG có "feeling" tương ứng.
+    Damage tích lũy KHÔNG awareness → phát hiện khi đã damage nặng.
+    "Tôi ổn, tôi không stress" + body đang chịu chronic cortisol.
+
+    Files dùng role này:
+      → Cortisol-Baseline §3.10: pathology detail
+      → Body-Input-Enumeration §4.9: self-signal keystone
+      → Feeling.md: alexithymia bridge
+
+
+  ⭐ TẠI SAO PHÂN LOẠI NÀY QUAN TRỌNG:
+
+    KHÔNG CÓ taxonomy → các file dùng "cortisol" CHUNG CHUNG:
+      "Cortisol tăng" → tăng vì threat? vì holding? vì inertia?
+      → Cách xử lý KHÁC NHAU HOÀN TOÀN:
+        Holding → resolve gap → cortisol stop
+        Threat-sustained → address threat → cortisol giảm
+        Inertia → WAIT + sleep + không gán nhãn sai → tự giảm
+        Silent → rebuild interoception TRƯỚC → rồi mới xử lý source
+
+    CÓ taxonomy → mỗi file CITE role cụ thể:
+      Obligation.md: "cortisol holding" (Role ②)
+      Threat.md: "cortisol threat-sustained" (Role ③)
+      Post-project: "cortisol inertia" (Role ④)
+      → Reader biết ĐÚNG mechanism → xử lý ĐÚNG cách
+
+  🟡 5-role taxonomy = framework synthesis
+  🟢 Each role individually has research support
+  🟢 Cortisol heterogeneity well-documented (Sapolsky 2004, McEwen 1998)
+```
+
 ---
 
 ## §8 — INVERTED-U + 7 MODES
