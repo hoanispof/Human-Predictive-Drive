@@ -1313,6 +1313,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     → L2 drive MẠNH + F1 thiếu = PROJECT schema lên con
     → = Object valence (optimize con) thay vì Agent valence (hiểu con)
+    → ⚠️ F1 weak THƯỜNG do Pattern-Resonance Baseline THẤP (khác tính parent ↔ child)
+      → Parent không match child tự nhiên → F1 fail → schema thay thế
+      → Chi tiết: Pattern-Resonance.md §7.8, Love-Analysis §7.3c biến ⑦
 
 
   CON NHẬN GÌ VÀ THIẾU GÌ (8 pathways):

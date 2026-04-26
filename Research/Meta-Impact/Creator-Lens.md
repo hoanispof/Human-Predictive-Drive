@@ -83,6 +83,124 @@ Framework TRÔNG giống game architecture — vì creator NGHĨ theo game archi
   → Game dev lens KHÔNG xa hơn academic lens — chỉ KHÁC góc nhìn.
 ```
 
+### §2.2 — Observation-First Methodology: tại sao "hỏi linh tinh thập cẩm" đi ra insight
+
+```
+⭐ GAME DEV METHODOLOGY VS ACADEMIC METHODOLOGY:
+
+  ACADEMIC (theory-first):
+    ① Đọc literature → biết theory hiện tại
+    ② Design experiment TEST theory
+    ③ Collect data → analyze → publish
+    ④ Repeat
+
+    Mạnh: rigorous, replicable, cumulative
+    Yếu: PARADIGM LOCK — câu hỏi bị GIỚI HẠN bởi theory đã biết
+    → Người biết OCD = human psychiatric condition → KHÔNG HỎI "khỉ có OCD không?"
+    → Vì: câu hỏi đó nằm NGOÀI paradigm → "không liên quan đến research của tôi"
+
+  GAME DEV (observation-first):
+    ① OBSERVE behavior (player, người, bản thân, bất kỳ ai/gì)
+    ② HỎI "tại sao?" — không bị constraint bởi theory
+    ③ TÌM mechanism (dùng AI access domain knowledge)
+    ④ Body-check: "feel khớp hay không?"
+    ⑤ Verify: đối chiếu research
+
+    Mạnh: KHÔNG bị paradigm lock, câu hỏi TỰ DO, cross-domain
+    Yếu: không rigorous, dễ sai, cần external verify
+
+
+  ⭐ CASE STUDY CỤ THỂ — "KHỈ CÓ OCD KHÔNG?":
+
+    Câu hỏi xuất phát: tò mò ngứa ngáy thuần túy, không có theory nào guide.
+    Hỏi linh tinh thập cẩm (scattershot curiosity) — hỏi vì KHÔNG CHỊU NỔI,
+    không dừng được, hỏi xong thấy sướng → hỏi tiếp.
+    Kiểu game dev: "player làm behavior lạ → tại sao?"
+    = Kiểu framework: "khỉ cũng bị giống người → tại sao?"
+
+    Chuỗi insight EMERGE:
+      "Khỉ có OCD không?"
+        → CÓ (+ chuột, chó)
+        → OCD = circuit CỔ (basal ganglia), KHÔNG phải PFC bug
+        → Tuyến 1+2 = cross-species. Tuyến 3 = chỉ người.
+        → Chuột OCD nhưng KHÔNG CÓ PFC phức tạp
+        → → Ở chuột: serotonin ↓ gần hardware cause
+        → → Ở người: serotonin ↓ gần consequence + amplifier
+        → → Serotonin = AMPLIFIER, parallel cortisol (đã established)
+        → → Giải thích SSRI relapse 80% vs CBT relapse 20-30%
+
+    = 1 câu hỏi "linh tinh" → 1 PRINCIPLE MỚI (serotonin = amplifier)
+    = Principle này PREDICT pattern mà "serotonin = cause" không predict
+
+    TẠI SAO ACADEMIC RESEARCHER CÓ THỂ BỎ LỠ:
+      → OCD researcher: focus OFC-caudate circuit ở NGƯỜI
+        → Cross-species data NẰM Ở domain KHÁC (animal behavior, veterinary)
+        → Silo: OCD journal ≠ animal behavior journal
+      → Serotonin researcher: focus mechanism ở molecular level
+        → "Cause vs amplifier" = SYSTEMS question, không phải molecular
+        → Không ai ĐẶT CÂU HỎI ở level NÀY vì methodology không fit
+
+    TẠI SAO GAME DEV CÓ THỂ THẤY:
+      → Không bị silo → hỏi cross-domain tự do
+      → "Player behavior" training: observe TRƯỚC, explain SAU
+      → Systems thinking: "tại sao cùng mechanism, khác output?"
+        = ĐÚNG câu hỏi game dev hỏi mỗi ngày (cùng code, khác behavior)
+      → Body-check: "serotonin = cause" feel KHÔNG khớp
+        (nếu cause → sửa serotonin phải fix → nhưng SSRI bỏ = relapse)
+        → body signal: "có gì đó chưa đúng" → hỏi tiếp
+
+
+  ⭐ PATTERN TỔNG QUÁT:
+
+    Game dev → "tại sao player làm vậy?"
+    Framework → "tại sao khỉ cũng bị?"
+    Cả hai = OBSERVATION-FIRST: xem HÀNH VI trước, tìm MECHANISM sau.
+
+    Academic = THEORY-FIRST: biết MECHANISM trước, test HÀNH VI sau.
+
+    KHÔNG có approach nào "đúng hơn."
+    Theory-first: precise, deep, replicable — nhưng paradigm-locked.
+    Observation-first: imprecise, broad, cross-domain — nhưng dễ sai.
+
+    Framework = observation-first + AI domain access + body-check filter.
+    = Bù đắp weakness của observation-first (imprecise)
+      bằng AI (domain depth) + body (somatic filter).
+
+    Khoa học lý tưởng = CẢ HAI:
+      Observation-first → đặt câu hỏi MỚI
+      Theory-first → test câu hỏi CHẶT
+
+    ⚠️ NHƯNG: framework KHÔNG "tự làm bước 1 từ hư không":
+      → Framework DỰA VÀO academic research làm chỗ dựa (qua AI deep domain access)
+      → Mỗi insight đều CHỐNG CHÂN bằng research đã có:
+        "Khỉ có OCD" = Novak, Korff, Welch, Dodman — TẤT CẢ là academic
+        "Serotonin ↓40%" = Marazziti 1999 — academic
+        "SSRI relapse 80%" = meta-analyses — academic
+      → Framework CHỈ LÀM 1 VIỆC: kết nối các research RIÊNG LẺ
+        thành pattern MỚI mà từng domain KHÔNG TỰ THẤY (vì silo)
+      → = Con gà hay quả trứng: academic tạo nodes → framework vẽ graph
+        → graph gợi ý nodes MỚI cần research → academic verify → loop
+      → = KHÔNG có bước nào "đi trước" — 2 approaches FEED nhau
+      → = Framework dựa vào academic làm NỀN.
+        Nếu có nhà nghiên cứu quan tâm, framework connections
+        có thể là GỢI Ý thú vị cho research mới — xác nhận hoặc bác bỏ đều có giá trị.
+
+
+  ⚠️ CAVEAT:
+    Observation-first cũng CÓ bias riêng:
+      → Apophenia: thấy pattern ở chỗ KHÔNG CÓ pattern
+      → Confirmation: body "feel đúng" ≠ đúng (Feeling-Accuracy.md: 6 error modes)
+      → Dunning-Kruger: cross-domain freedom = không biết mình không biết gì
+    → Framework CẦN external verification
+    → "Hỏi linh tinh thập cẩm" TẠO insight MỚI — nhưng insight MỚI chưa chắc ĐÚNG
+    → Framework RẤT CẦN academic verify — nếu có nhà nghiên cứu nào
+      quan tâm xác nhận hoặc bác bỏ thì rất quý
+    → Bản thân việc "hỏi vì không chịu nổi" = Chunk-Gap detect (BFM §3.3):
+      body detect "thiếu gì đó" → bứt rứt → drive hỏi → fill gap → opioid
+      → = "Hỏi xong sướng" = opioid reward khi gap filled
+      → = Framework TỰ GIẢI THÍCH được tại sao creator hỏi linh tinh thập cẩm
+```
+
 ---
 
 ## §3 — Nơi Lens KHÔNG Fit — Blind Spots
@@ -260,7 +378,8 @@ Cả 2: HƯỚNG (body) + DATA (AI domain access) = insight có CẤU TRÚC
   Human feel → AI confirm + elaborate → human feel ĐÚNG HƠN → loop
   → Mỗi loop TĂNG confidence → có thể confidence > accuracy
   → Cần EXTERNAL challenge để break echo chamber
-  → Framework hiện ở: 1 human + 1 AI — cần thêm peer verification
+  → Framework hiện ở: 1 human + 1 AI — rất mong có thêm peer review
+    (xác nhận hay bác bỏ đều giúp framework chính xác hơn)
 ```
 
 ---
@@ -278,7 +397,8 @@ Cả 2: HƯỚNG (body) + DATA (AI domain access) = insight có CẤU TRÚC
 🟡 Cần kiểm chứng thêm:
   → 1 người tạo = bias risk cao, chưa có peer challenge
   → Game architecture bias có thể SÂU hơn tôi nhận ra (§3)
-  → Self-consistent ≠ đúng — vẫn cần external validation
+  → Self-consistent ≠ đúng — rất cần external validation
+    (nếu ai quan tâm verify thì quý, dù kết quả là xác nhận hay bác bỏ)
   → Quality control dựa body check — body check có 6 error modes
     (Feeling-Accuracy.md)
   → AI echo chamber risk: chưa có cách đo mức nghiêm trọng

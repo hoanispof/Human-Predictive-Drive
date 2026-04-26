@@ -1,136 +1,387 @@
-# Melody Technology Overview — Tổng Hợp Các "Công Nghệ" Phục Vụ Melody
+---
+title: Melody Technology Overview — Tổng Hợp Các "Công Nghệ" Phục Vụ Body-Base
+version: 2.0
+created: 2026-03-28
+rewritten: 2026-04-26
+status: INDEX / ROADMAP v2.0
+scope: |
+  INDEX FILE: Tổng hợp các "Melody Technology" — công nghệ phục vụ body-base.
+  Tôn giáo, idol, giáo dục, ideology, self-help, AI,...
+  = CÁC IMPLEMENTATION KHÁC NHAU của CÙNG mục đích: phục vụ body-base.
+  v1.0 (2026-03-28, 137L): PLACEHOLDER — 7 functions list + roadmap.
+  v2.0 (2026-04-26): INDEX v7.8 aligned — 7 Functions × v7.8 mechanism,
+  updated "đã phân tích" table, spectrum visualization,
+  enriched "chưa phân tích" predictions, cross-comparison.
+  ⚠️ VẪN LÀ INDEX — chưa đủ implementations phân tích để tổng hợp GUIDE.
+  Cần ít nhất 5-6 implementations phân tích qua cùng lens trước khi tổng hợp.
+purpose: |
+  Liệt kê + so sánh các "công nghệ" phục vụ body-base qua framework lens.
+  Mỗi implementation cover 1 hoặc nhiều trong 7 functions.
+  Tôn giáo cover 7/7 — đây là lý do nó VẪN tồn tại dù science mạnh.
+  File này = INDEX giúp navigate + roadmap cho phân tích tương lai.
+position: |
+  Research/Melody-Technology/ — OVERVIEW file cho folder.
+  Đọc file này TRƯỚC khi đọc Religion.md v2.0 hoặc Idol-Phenomenon.md v2.0.
+dependencies:
+  - Religion.md v2.0 — 7 Functions × v7.8 mapping, 1,525L
+  - Idol-Phenomenon.md v2.0 — 5 Drives × v7.8 mapping, 872L
+  - Education-Mechanism.md — mechanism-focused education analysis
+  - Empathy-Education.md v2.0 — SPM-based empathy education
+  - Domain-Knowledge-Map.md — education domain mapping
+  - Compliance-Floor.md v2.0 — luật = bridge, SPM = intrinsic
+  - Meaning.md v2.0 — 5 anchor types, FAITH = tôn giáo
+  - Connection.md v3.0 — 3 Generative Primitives
+  - Gratitude.md v1.1 — 3 anti-habituation mechanisms
+sources_backup: |
+  v1.0 (2026-03-28, 137L) → backup/Melody-Technology-Overview-v1-backup.md
+language: Tiếng Việt primary + English technical terms
+confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+---
+
+# Melody Technology Overview — Tổng Hợp Các "Công Nghệ" Phục Vụ Body-Base
 
 > **Tôn giáo, idol, giáo dục, ideology, self-help, AI,...**
 > Tất cả đều là CÁC IMPLEMENTATION KHÁC NHAU của CÙNG mục đích:
-> **phục vụ melody con người.**
+> **phục vụ body-base con người.**
 >
-> File này = INDEX — liệt kê những gì ĐÃ phân tích, CHƯA phân tích,
-> và TẠI SAO cần phân tích HẾT trước khi tổng hợp.
+> Framework gọi chung: **Melody Technology** — bất kỳ hệ thống nào
+> cung cấp 1 hoặc nhiều trong 7 functions cho body-base.
 >
-> **⚠️ Chưa đủ data để tổng hợp. File này chỉ lưu ý tưởng.**
+> Tôn giáo MẠNH NHẤT vì cover 7/7 đồng thời trong 1 package.
+> Nhưng KHÔNG implementation nào PERFECT — mỗi cái có trade-off riêng.
+>
+> File này = INDEX — liệt kê đã/chưa phân tích + spectrum visualization.
+>
+> ⚠️ Chưa đủ implementations phân tích để tổng hợp GUIDE hoàn chỉnh.
+> Cần ít nhất 5-6 implementations qua cùng 7-function lens trước khi tổng hợp.
 
 ---
 
-> **Trạng thái:** PLACEHOLDER — chờ phân tích thêm nhiều implementation
-> **Ngày:** 2026-03-28
+## Mục lục
+
+- §0 — KHÁI NIỆM "MELODY TECHNOLOGY"
+- §1 — 7 FUNCTIONS × v7.8 MECHANISM
+- §2 — ĐÃ PHÂN TÍCH
+- §3 — SPECTRUM: FAN → TÔN GIÁO
+- §4 — CHƯA PHÂN TÍCH — DỰ ĐOÁN
+- §5 — TẠI SAO CẦN PHÂN TÍCH HẾT
+- §6 — CROSS-REFERENCES
 
 ---
 
-## 1. 7 Functions Mọi "Công Nghệ Melody" Cần Cover
+## §0 — KHÁI NIỆM "MELODY TECHNOLOGY"
 
 ```
-Từ Religion.md — 7 functions mà tôn giáo cover ĐỒNG THỜI:
+⭐ MELODY TECHNOLOGY = BẤT KỲ HỆ THỐNG NÀO PHỤC VỤ BODY-BASE:
 
-  F1: Imagine Final      — "cuộc đời có mục đích"
-  F2: Compliance Floor   — "sống thế nào là đúng"
-  F3: Connection         — "thuộc về nhóm nào đó"
-  F4: Dissonance Mgmt    — "đau khổ có ý nghĩa"
-  F5: Melody Template    — "cách sống tốt = template sẵn"
-  F6: Reward Schedule    — "nghi lễ / routine cho body-reward"
-  F7: Coherence          — "mọi domain nhất quán"
+  Định nghĩa:
+    → "Melody Technology" = hệ thống (tôn giáo, idol, luật pháp, giáo dục,...)
+      cung cấp 1 hoặc nhiều functions cho body-base con người
+    → KHÔNG phải technology theo nghĩa máy móc
+    → Mà là "công nghệ" theo nghĩa: giải pháp có cấu trúc cho nhu cầu body-base
 
-→ = Bất kỳ "công nghệ" nào phục vụ melody đều cover 1 hoặc nhiều functions
-→ = Tôn giáo MẠNH NHẤT vì cover 7/7
-→ = Mục tiêu tương lai: hiểu MỌI implementation → tổng hợp → tối ưu
-```
+  Nguyên tắc:
+    → Mỗi implementation PHỤC VỤ body-base thật sự (không phải "lừa")
+    → Mỗi implementation có TRADE-OFF riêng
+    → KHÔNG implementation nào PERFECT → cần MENU per-person
+    → Framework KHÔNG phán xét "cái nào tốt nhất" — mà phân tích CƠ CHẾ
 
----
-
-## 2. Đã Phân Tích
-
-```
-  ┌──────────────────────┬──────────┬──────────────────────────────────┐
-  │ Implementation       │ Cover    │ File                              │
-  ├──────────────────────┼──────────┼──────────────────────────────────┤
-  │ Tôn giáo             │ 7/7      │ Religion.md                       │
-  │ Idol / Celebrity     │ 2-3/7    │ Idol-Phenomenon.md                │
-  │ Giáo dục (bridge)    │ 2-3/7    │ Education-Bridge.md               │
-  │ Giáo dục (empathy)   │ 1-2/7    │ Empathy-Education.md              │
-  │ Luật pháp            │ 1/7 (F2) │ Compliance-Floor.md               │
-  └──────────────────────┴──────────┴──────────────────────────────────┘
-```
-
----
-
-## 3. Chưa Phân Tích — Cần Làm
-
-```
-  ┌──────────────────────┬──────────┬──────────────────────────────────┐
-  │ Implementation       │ Cover?   │ Ghi chú                           │
-  ├──────────────────────┼──────────┼──────────────────────────────────┤
-  │ Ideology             │ ~5/7?    │ Cộng sản, tư bản, dân tộc chủ    │
-  │ (chính trị)          │          │ nghĩa — đối thủ gần nhất tôn giáo│
-  ├──────────────────────┼──────────┼──────────────────────────────────┤
-  │ Self-help / coaching │ ~2/7?    │ Sách, khóa học, motivational      │
-  │                      │          │ speaker — tại sao hiệu quả ngắn? │
-  ├──────────────────────┼──────────┼──────────────────────────────────┤
-  │ Thể thao / fitness   │ ~3/7?    │ Gym culture, Crossfit, marathon   │
-  │                      │          │ — community + ritual + reward     │
-  ├──────────────────────┼──────────┼──────────────────────────────────┤
-  │ Nghệ thuật / sáng tạo│ ~2/7?    │ Art, music, writing — imagine     │
-  │                      │          │ final + reward, nhưng thiếu F2-F3 │
-  ├──────────────────────┼──────────┼──────────────────────────────────┤
-  │ Game / virtual world │ ~3-4/7?  │ MMO community + quest + reward    │
-  │                      │          │ schedule — "tôn giáo ảo"?         │
-  ├──────────────────────┼──────────┼──────────────────────────────────┤
-  │ AI as meaning provider│ ~2/7?   │ Personalize F1,F4,F5 — thiếu body│
-  │                      │          │ connection + embodied ritual       │
-  ├──────────────────────┼──────────┼──────────────────────────────────┤
-  │ Social movement      │ ~4/7?    │ Climate, feminism, BLM — có       │
-  │                      │          │ imagine final + community + F2    │
-  ├──────────────────────┼──────────┼──────────────────────────────────┤
-  │ Gia đình             │ ~4-5/7?  │ Connection + compliance + template│
-  │                      │          │ + reward schedule — "tôn giáo nhỏ"│
-  ├──────────────────────┼──────────┼──────────────────────────────────┤
-  │ Quân đội / tổ chức   │ ~5/7?    │ Structure + belonging + template  │
-  │                      │          │ + compliance + ritual              │
-  └──────────────────────┴──────────┴──────────────────────────────────┘
+  Vị trí trong framework:
+    → Core-Deep-Dive/ = MECHANISM files (cách não hoạt động)
+    → Research/Melody-Technology/ = HIỆN TƯỢNG phân tích qua mechanism lens
+    → = "Tôn giáo DÙNG cơ chế nào? Idol DÙNG cơ chế nào?"
 ```
 
 ---
 
-## 4. Tại Sao Cần Phân Tích HẾT Trước Khi Tổng Hợp
+## §1 — 7 FUNCTIONS × v7.8 MECHANISM
 
 ```
+⭐ TỪ RELIGION.MD v2.0 — 7 FUNCTIONS MÀ MỌI MELODY TECHNOLOGY COVER:
+
+  ┌────────┬────────────────────────────┬──────────────────────────────────┐
+  │ Function│ Phục vụ body-base gì       │ v7.8 Mechanism                   │
+  ├────────┼────────────────────────────┼──────────────────────────────────┤
+  │ F1     │ Life-level anchor:         │ Meaning.md v2.0: 5 anchor types  │
+  │        │ "cuộc đời có hướng"        │ (GOAL/STATE/IDENTITY/FAITH/ROLE) │
+  ├────────┼────────────────────────────┼──────────────────────────────────┤
+  │ F2     │ Compiled compliance:       │ Obligation.md v1.0 +             │
+  │        │ "biết phải sống thế nào"   │ Compliance-Floor.md v2.0         │
+  ├────────┼────────────────────────────┼──────────────────────────────────┤
+  │ F3     │ Structured connection:     │ Connection.md v3.0:              │
+  │        │ "thuộc về nhóm"            │ 3 Generative Primitives ❶❷❸     │
+  ├────────┼────────────────────────────┼──────────────────────────────────┤
+  │ F4     │ Dissonance resolution:     │ Body-Feedback-Mechanism:          │
+  │        │ "đau khổ có giải thích"    │ Chunk-Gap resolved + vmPFC/DRN   │
+  ├────────┼────────────────────────────┼──────────────────────────────────┤
+  │ F5     │ Schema template:           │ Schema.md v2.0: named chunk-     │
+  │        │ "cách sống tốt = sẵn"     │ network pattern pre-installed    │
+  ├────────┼────────────────────────────┼──────────────────────────────────┤
+  │ F6     │ Reward schedule:           │ H10 5 preconditions +            │
+  │        │ "routine cho body-reward"  │ Gratitude.md 3 anti-habituation  │
+  ├────────┼────────────────────────────┼──────────────────────────────────┤
+  │ F7     │ Anchor coherence:          │ Anchor-Schema.md: life-level     │
+  │        │ "mọi domain nhất quán"     │ sync point → coherence EMERGE    │
+  └────────┴────────────────────────────┴──────────────────────────────────┘
+
+  → = Bất kỳ "Melody Technology" nào đều cover 1 hoặc nhiều functions
+  → = ĐÁNH GIÁ bất kỳ implementation nào: cover bao nhiêu /7?
+  → = Tôn giáo MẠNH NHẤT vì cover 7/7 ĐỒNG THỜI trong 1 package
+  → = Chi tiết: Religion.md v2.0 §2 (mapping per-function)
+```
+
+---
+
+## §2 — ĐÃ PHÂN TÍCH
+
+```
+🟡 CÁC IMPLEMENTATION ĐÃ PHÂN TÍCH QUA FRAMEWORK LENS:
+
+  ┌──────────────────────┬──────────┬──────────────────────────────────────┐
+  │ Implementation       │ Cover    │ File + Status                         │
+  ├──────────────────────┼──────────┼──────────────────────────────────────┤
+  │ ⭐ Tôn giáo          │ 7/7      │ Religion.md v2.0 (1,525L)            │
+  │                      │          │ 7 Functions × v7.8 mapping đầy đủ    │
+  │                      │          │ FAITH anchor + install + compound     │
+  │                      │          │ grief + serotonin stability           │
+  ├──────────────────────┼──────────┼──────────────────────────────────────┤
+  │ Idol / Celebrity     │ 1-4/7    │ Idol-Phenomenon.md v2.0 (872L)       │
+  │                      │ (varies) │ 5 Drives × v7.8 mapping. Parasocial  │
+  │                      │          │ = SPM 1-chiều. AI idol frontier.     │
+  │                      │          │ Covers F1(GOAL) F3 F5 F6.            │
+  │                      │          │ Fan cuồng→ thêm F2 F7 (§8 spectrum)  │
+  ├──────────────────────┼──────────┼──────────────────────────────────────┤
+  │ Giáo dục             │ 3-4/7    │ Education-Mechanism.md +              │
+  │                      │          │ Domain-Knowledge-Map.md +             │
+  │                      │          │ Empathy-Education.md v2.0             │
+  │                      │          │ Covers F2(partial) F3(teacher) F5 F6  │
+  ├──────────────────────┼──────────┼──────────────────────────────────────┤
+  │ Luật pháp            │ 1/7      │ Compliance-Floor.md v2.0              │
+  │                      │ (F2)     │ Luật = bridge, SPM = intrinsic.      │
+  │                      │          │ Cover F2 ONLY — nhưng phân tích SÂU.  │
+  └──────────────────────┴──────────┴──────────────────────────────────────┘
+
+
+  NHẬN XÉT:
+    → Tôn giáo = DUY NHẤT cover 7/7 → giải thích tại sao TỒN TẠI lâu nhất
+    → Idol: variable — fan nhẹ = 1-2/7, fan cuồng = 4-5/7 (§3 spectrum)
+    → Giáo dục: focus F5 (schema install) + F2 (compliance partial)
+    → Luật: chỉ F2 — nhưng F2 là function THIẾT YẾU cho xã hội
+```
+
+---
+
+## §3 — SPECTRUM: FAN → TÔN GIÁO
+
+```
+🔴 MELODY TECHNOLOGY = SPECTRUM, KHÔNG PHẢI CATEGORIES:
+
+  Từ Religion.md v2.0 §6 + Idol-Phenomenon.md v2.0 §8:
+
+  ┌────────────────┬──────────┬────────────┬──────────┬─────────────────────┐
+  │ Level          │ ❸ Depth  │ Anchor type│ Functions│ Ví dụ               │
+  ├────────────────┼──────────┼────────────┼──────────┼─────────────────────┤
+  │ Fan nhẹ        │ Nông     │ Không      │ F6       │ Nghe nhạc, vui      │
+  ├────────────────┼──────────┼────────────┼──────────┼─────────────────────┤
+  │ Fan cứng       │ Trung    │ GOAL weak  │ F1 F5 F6 │ Follow mọi thứ     │
+  ├────────────────┼──────────┼────────────┼──────────┼─────────────────────┤
+  │ Fan cuồng      │ Sâu     │ IDENTITY   │ F1 F3    │ Identity gắn với    │
+  │                │          │            │ F5 F6    │ idol                │
+  ├────────────────┼──────────┼────────────┼──────────┼─────────────────────┤
+  │ Tôn thờ        │ Rất sâu │ IDENTITY+  │ F1-F6    │ Idol = compass      │
+  ├────────────────┼──────────┼────────────┼──────────┼─────────────────────┤
+  │ Tín ngưỡng     │ Compiled │ FAITH weak │ F1-F7    │ Ideology, movement  │
+  │                │          │            │ partial  │                     │
+  ├────────────────┼──────────┼────────────┼──────────┼─────────────────────┤
+  │ Tôn giáo       │ Max      │ FAITH deep │ F1-F7    │ Buddhism, Islam,    │
+  │                │          │            │ full     │ Christianity,...     │
+  └────────────────┴──────────┴────────────┴──────────┴─────────────────────┘
+
+  → = CÙNG 3 Generative Primitives (Connection.md v3.0)
+  → = Khác: DEPTH of ❸ valence + ANCHOR TYPE + SCOPE of functions
+  → = Movement dọc spectrum = tự nhiên (fan → tín đồ possible)
+  → = Movement NGƯỢC cũng có (tín đồ → mất đức tin → "fan" level)
+
+  MỌI IMPLEMENTATION NẰM ĐÂU ĐÓ TRÊN SPECTRUM NÀY:
+    → Crossfit ≈ "Fan cứng" level (F3 + F5 + F6)
+    → Ideology ≈ "Tín ngưỡng" level (F1-F7 partial, FAITH weak)
+    → Quân đội ≈ "Tôn thờ" level (F1-F6, IDENTITY anchor mạnh)
+```
+
+---
+
+## §4 — CHƯA PHÂN TÍCH — DỰ ĐOÁN
+
+```
+🔴 DỰ ĐOÁN per-implementation qua v7.8 lens (chưa phân tích sâu):
+
+  ┌──────────────────────┬──────────┬───────────────────────────────────────┐
+  │ Implementation       │ Cover?   │ v7.8 Prediction                       │
+  ├──────────────────────┼──────────┼───────────────────────────────────────┤
+  │ Ideology             │ ~5-6/7   │ Đối thủ GẦN NHẤT tôn giáo.           │
+  │ (chính trị)          │          │ F1: GOAL/FAITH anchor ("xã hội lý     │
+  │                      │          │ tưởng"). F2: compliance MẠNH. F3:     │
+  │                      │          │ đảng/phong trào = community. F4: giải │
+  │                      │          │ thích bất công. F7: coherence ideological│
+  │                      │          │ THIẾU: F6 (ít ritual embodied)        │
+  │                      │          │ ⚠️ Cùng failure modes: Over-anchor,   │
+  │                      │          │ cực đoan, suppress real-check          │
+  ├──────────────────────┼──────────┼───────────────────────────────────────┤
+  │ Self-help / coaching │ ~2-3/7   │ F1: GOAL anchor (nhưng prescribed →   │
+  │                      │          │ Meaning.md §6: sai vì prescribe 1     │
+  │                      │          │ type). F4: verbal dissonance mgmt.    │
+  │                      │          │ F5: template (sách = schema verbal).  │
+  │                      │          │ THIẾU: F2 F3 F6 F7 →                 │
+  │                      │          │ = Tại sao "motivation fades":         │
+  │                      │          │ verbal only → ít channels → compile   │
+  │                      │          │ NÔNG (CAD Factor ④ thấp)              │
+  ├──────────────────────┼──────────┼───────────────────────────────────────┤
+  │ Thể thao / fitness   │ ~3-4/7   │ F3: gym community, Crossfit tribe.   │
+  │ (Crossfit, marathon) │          │ F5: training template. F6: workout   │
+  │                      │          │ routine = embodied ritual → H10 met. │
+  │                      │          │ F1: GOAL anchor ("stronger").         │
+  │                      │          │ THIẾU: F2 F4 F7 (no compliance,      │
+  │                      │          │ no existential explanation, no        │
+  │                      │          │ cross-domain coherence)               │
+  ├──────────────────────┼──────────┼───────────────────────────────────────┤
+  │ Game / virtual world │ ~3-4/7   │ F1: quest = GOAL anchor (virtual).   │
+  │ (MMO, online)        │          │ F3: guild = community → ❶❷❸ engage. │
+  │                      │          │ F5: class/role = schema template.    │
+  │                      │          │ F6: loot/event schedule = reward.    │
+  │                      │          │ ⚠️ ALL virtual → body-base benefit  │
+  │                      │          │ LIMITED (H10 precondition ❶ body-need │
+  │                      │          │ met? → virtual reward ≠ real)         │
+  ├──────────────────────┼──────────┼───────────────────────────────────────┤
+  │ Social movement      │ ~4-5/7   │ F1: "thế giới tốt hơn" = GOAL anchor│
+  │ (Climate, feminism)  │          │ F2: norms + accountability. F3:      │
+  │                      │          │ community MẠNH. F4: giải thích bất   │
+  │                      │          │ công. F5: activist template.         │
+  │                      │          │ THIẾU: F6 (ít ritual), F7 (partial   │
+  │                      │          │ coherence — chỉ 1-2 domains)         │
+  ├──────────────────────┼──────────┼───────────────────────────────────────┤
+  │ Gia đình             │ ~4-5/7   │ F2: gia quy = compliance. F3:        │
+  │                      │          │ connection THẬT → Body-Base Extension.│
+  │                      │          │ F5: parenting template. F6: routine  │
+  │                      │          │ gia đình = embodied ritual. F7: gia  │
+  │                      │          │ đình = anchor coherence partial.     │
+  │                      │          │ = "Tôn giáo nhỏ" — gần nhất sau     │
+  │                      │          │ tôn giáo về function coverage         │
+  ├──────────────────────┼──────────┼───────────────────────────────────────┤
+  │ Quân đội / tổ chức   │ ~5-6/7   │ F1: ROLE anchor ("phục vụ tổ quốc"). │
+  │                      │          │ F2: compliance CỰC MẠNH (military    │
+  │                      │          │ discipline). F3: unit = bond sâu. F5:│
+  │                      │          │ training = schema install. F6: ritual│
+  │                      │          │ (parade, ceremony). THIẾU: F4 (ít    │
+  │                      │          │ existential explanation). F7 partial. │
+  ├──────────────────────┼──────────┼───────────────────────────────────────┤
+  │ AI as meaning        │ ~2-3/7   │ F1: personalize anchor per-user.     │
+  │ provider             │          │ F4: explain per-case. F5: template   │
+  │                      │          │ per-hardware. THIẾU: F3 (no body →   │
+  │                      │          │ parasocial), F6 (no embodied ritual),│
+  │                      │          │ F7 (per-person → mất SHARED).        │
+  │                      │          │ = Idol-Phenomenon.md §9: AI idol     │
+  │                      │          │ + Religion.md §12: AI limitations     │
+  └──────────────────────┴──────────┴───────────────────────────────────────┘
+
+
+  ⚠️ TẤT CẢ DỰ ĐOÁN = 🔴 HYPOTHESIS — chưa phân tích sâu
+  → Cần file riêng per-implementation để xác nhận hoặc bác bỏ
+  → Dự đoán dựa trên v7.8 mechanism mapping — logical nhưng untested
+```
+
+---
+
+## §5 — TẠI SAO CẦN PHÂN TÍCH HẾT
+
+```
+🟡 4 LÝ DO CẦN PHÂN TÍCH TỪNG IMPLEMENTATION:
+
+
   ① MỖI implementation có TRADE-OFF riêng:
-    → Tôn giáo: 7/7 nhưng INFLEXIBLE + risk lạm dụng + suppress real-check
-    → Self-help: flexible nhưng 2/7 → thiếu quá nhiều
-    → Game: reward mạnh nhưng VIRTUAL → body-base không benefit
-    → = KHÔNG implementation nào PERFECT → cần hiểu TỪNG CÁI
 
-  ② "CÔNG NGHỆ TỐI ƯU" = MIX nhiều implementation per-person:
+    → Tôn giáo: 7/7 nhưng INFLEXIBLE + Over-anchor risk + suppress real-check
+    → Self-help: flexible nhưng 2-3/7 → thiếu quá nhiều → "motivation fades"
+    → Game: reward mạnh nhưng VIRTUAL → H10 body-need questionable
+    → Quân đội: 5-6/7 nhưng DEPENDENCY cực cao + suppress autonomy
+    → = KHÔNG implementation nào PERFECT → cần hiểu TRADE-OFF TỪNG CÁI
+
+
+  ② "CÔNG NGHỆ TỐI ƯU" = MIX per-person:
+
     → Người A: tôn giáo (F1,F3,F7) + thể thao (F6) + mentor (F5) = 7/7
-    → Người B: art (F1) + community (F3) + framework (F4,F7) + ritual riêng (F6) = 7/7
+    → Người B: art (F1) + community (F3) + framework (F4,F7) + routine riêng (F6) = 7/7
+    → Người C: career (F1 ROLE) + family (F2,F3,F7) + fitness (F6) + therapy (F4) = 7/7
+    → = Meaning.md v2.0 §3.6: optimal anchor KHÁC per-person → mix KHÁC
+    → = PFC-Hardware.md: hardware KHÁC → implementation fit KHÁC
     → = KHÔNG có 1 công nghệ fit all → CẦN MENU per-person
-    → = Nhưng chưa biết đủ về từng "món" trong menu
 
-  ③ CHƯA ĐỦ DATA để nói "cái nào tốt hơn":
-    → Cần phân tích TỪNG implementation qua CÙNG 7-function lens
-    → Sau đó mới so sánh: cái nào MẠNH ở function nào?
-    → Sau đó mới tổng hợp: mix thế nào cho per-hardware, per-context?
+
+  ③ CHƯA ĐỦ DATA để tổng hợp GUIDE:
+
+    → Hiện tại: 2 implementation phân tích sâu (Religion, Idol)
+    → Cần: ít nhất 5-6 qua CÙNG 7-function × v7.8 mechanism lens
+    → Sau đó: so sánh per-function — cái nào MẠNH nhất per F?
+    → Sau đó: map per-hardware — PFC-Hardware profile NÀO fit NÀO?
+    → Sau đó: design "menu" — per-person recommendation
+
 
   ④ MỤC TIÊU CUỐI:
-    → Hiểu MỌI "công nghệ melody" → tạo GUIDE:
+
+    → Hiểu MỌI "Melody Technology" → tạo GUIDE:
       "Bạn đang THIẾU function nào? → implementation NÀO cover?"
-    → = Giống bác sĩ kê thuốc: biết MỌI thuốc → kê ĐÚNG thuốc per bệnh nhân
+    → = Giống bác sĩ kê thuốc: biết MỌI thuốc → kê ĐÚNG per bệnh nhân
     → = CHƯA THỂ kê thuốc nếu chưa biết hết các thuốc có
+    → = File NÀY sẽ trở thành GUIDE khi đủ data
+
+
+  ĐỘ ƯU TIÊN PHÂN TÍCH:
+
+    Tier 1 (gần nhất tôn giáo — cover nhiều functions):
+      → Ideology (~5-6/7) — "đối thủ" trực tiếp tôn giáo
+      → Gia đình (~4-5/7) — "tôn giáo nhỏ", phổ biến nhất
+      → Quân đội/tổ chức (~5-6/7) — structure cực mạnh
+
+    Tier 2 (cover trung bình):
+      → Social movement (~4-5/7) — relevant thời đại
+      → Thể thao/fitness (~3-4/7) — embodied ritual
+      → Game/virtual (~3-4/7) — AI era relevant
+
+    Tier 3 (cover ít — nhưng widespread):
+      → Self-help (~2-3/7) — tại sao "motivation fades" mechanism
+      → AI as meaning (~2-3/7) — frontier, ethical questions
 ```
 
 ---
 
-## 5. Khi Nào Tổng Hợp
+## §6 — CROSS-REFERENCES
 
 ```
-  Khi ĐÃ phân tích ít nhất 5-6 implementation qua cùng 7-function lens
-  → So sánh per-function: cái nào MẠNH nhất per F?
-  → Map per-hardware: hardware NÀO fit implementation NÀO?
-  → Design "menu": per-person recommendation
-  → = LÚC ĐÓ file này SẼ ĐƯỢC viết thành GUIDE hoàn chỉnh
-  → = Hiện tại: chỉ là PLACEHOLDER + roadmap
+MELODY TECHNOLOGY FILES:
+→ Religion.md v2.0: 7 Functions × v7.8 (1,525L). File CHÍNH cho 7-function model.
+→ Idol-Phenomenon.md v2.0: 5 Drives × v7.8 (872L). Parasocial + AI idol.
+
+CORE MECHANISM FILES (foundation cho analysis):
+→ Meaning.md v2.0: 5 anchor types — basis for F1 analysis per-implementation
+→ Connection.md v3.0: 3 Generative Primitives — basis for F3 analysis
+→ Obligation.md v1.0: compiled prediction — basis for F2 analysis
+→ Gratitude.md v1.1: 3 anti-habituation — basis for F6 analysis
+→ Compliance-Floor.md v2.0: luật = bridge — basis for F2 analysis
+→ Anchor-Schema.md v1.2: sync point — basis for F7 analysis
+→ Schema.md v2.0: named patterns — basis for F5 analysis
+→ Chunk-Activation-Dynamics.md: 7 factors — basis for install mechanism analysis
+→ PFC-Hardware.md: COMT/DRD4 — basis for per-hardware matching
+→ Autonomy-Hardware.md: vmPFC/DRN — basis for F4 controllability analysis
+
+EDUCATION FILES (partially analyzed):
+→ Education-Mechanism.md: mechanism-focused education analysis
+→ Domain-Knowledge-Map.md: education domain mapping
+→ Empathy-Education.md v2.0: SPM-based empathy education
 ```
 
 ---
 
 > *"Mọi tôn giáo, ideology, movement, community, ritual đều là
-> CÁC CÁCH KHÁC NHAU phục vụ CÙNG 7 nhu cầu melody.
-> Chưa có cách nào PERFECT. Hiểu hết → mix ĐÚNG → melody TỐI ƯU."*
+> CÁC CÁCH KHÁC NHAU phục vụ CÙNG 7 functions body-base.
+> Tôn giáo cover 7/7. Idol 1-4/7. Self-help 2-3/7. Gia đình 4-5/7.
+> Chưa có cách nào PERFECT. Mỗi cách có trade-off.
+> Hiểu mechanism → mix ĐÚNG per-person → melody TỐI ƯU."*

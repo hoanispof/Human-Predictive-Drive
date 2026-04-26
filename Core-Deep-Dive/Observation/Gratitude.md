@@ -690,6 +690,134 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 ❸ update as gratitude outcome = consistent with VP §3
 ```
 
+### §2.10 — SYNTHESIS: 9 Components → 5 Functional Chains
+
+```
+⭐ 9 COMPONENTS = "CÁI GÌ CÓ THỂ THIẾU". 5 CHAINS = "CÁCH CHÚNG CHẠY":
+
+  §2.1-§2.9 liệt kê 9 components RIÊNG LẺ — hữu ích để phân tích
+  "cái gì thiếu → tại sao không có gratitude." Mỗi component có thể
+  THIẾU ĐỘC LẬP → mỗi cái tạo 1 failure mode khác nhau.
+
+  NHƯNG khi CHẠY, 9 components không fire riêng lẻ — chúng form 5 CHAINS:
+
+
+  ⭐ 5 FUNCTIONAL CHAINS:
+
+  ┌──────┬──────────────────────┬────────────────┬──────────────────────────┐
+  │ Chain│ Tên                  │ Components     │ Chức năng                │
+  ├──────┼──────────────────────┼────────────────┼──────────────────────────┤
+  │  1   │ TRIGGER              │ ①              │ Body-base reward thật    │
+  │      │                      │                │ → khởi động toàn bộ     │
+  ├──────┼──────────────────────┼────────────────┼──────────────────────────┤
+  │  2   │ VALUE ASSESSMENT      │ ③              │ PFC hold "có vs không   │
+  │      │ (+ anti-habituation) │                │ có" → delta = giá trị   │
+  │      │                      │                │ gift. CROSS-FEED 3+4.   │
+  ├──────┼──────────────────────┼────────────────┼──────────────────────────┤
+  │  3   │ AGENT VALENCE CHAIN  │ ② → ④ → ⑥ → ⑨│ Detect agent → link     │
+  │      │                      │                │ reward → check L2 depth │
+  │      │                      │                │ → update ❸ toward agent │
+  ├──────┼──────────────────────┼────────────────┼──────────────────────────┤
+  │  4   │ COST ASSESSMENT      │ ⑤ → ⑦         │ SPM simulate giver →    │
+  │      │                      │                │ body-feedback cost →     │
+  │      │                      │                │ obligation predict       │
+  ├──────┼──────────────────────┼────────────────┼──────────────────────────┤
+  │  5   │ VOLUNTARY RECEPTION  │ ⑧              │ Tôi CẦN/THÍCH → tự     │
+  │      │                      │                │ nguyện nhận. Không bị   │
+  │      │                      │                │ ép nhận thứ không cần.  │
+  └──────┴──────────────────────┴────────────────┴──────────────────────────┘
+
+
+  ⭐ ⑤ SPM = CROSS-FEEDER (feed 2 chains):
+
+    ⑤ SPM simulate giver's state → body-feedback:
+
+           ┌→ Chain 4: ⑦ Obligation (cost prediction)
+           │   "họ cho mà mặt nặng" → cost cao → obligation predict CAO
+    ⑤ SPM ─┤
+           └→ Chain 3: ④ Effort detection (amplify ❸ update)
+               "họ cho vui vẻ" → mirror reward → ❸ positive MẠNH hơn
+
+    = SPM là TOOL chung — output feed CẢ obligation LẪN gratitude depth.
+    = Tại sao alexithymia (SPM yếu) → gratitude SHALLOW + obligation INACCURATE.
+
+
+  ⭐ ③ PFC COMPARISON = CROSS-FEEDER THỨ 2 (feed 3 hướng):
+
+    ③ PFC hold "có vs không có" → delta = GIÁ TRỊ gift cho body:
+
+           ┌→ Anti-habituation: restore reward cho gift đã habituate (§3)
+           │
+    ③ PFC ─┼→ Chain 3: delta LỚN → ❸ update MẠNH hơn toward giver
+    Comp.  │   "gift rất giá trị" → agent cho gift giá trị → ❸ ++ positive
+           │
+           └→ Chain 4: delta = ước lượng gift value → calibrate obligation
+               "gift rất đắt" → obligation predict tương xứng
+               "gift nhỏ" → obligation predict nhẹ
+
+    = ③ không chỉ "chống habituation" — mà là VALUE ASSESSMENT tool:
+      Delta = thước đo "gift này đáng bao nhiêu cho body tôi"
+      Thước đo đó feed vào CẢ agent valence LẪN obligation calibration.
+
+    = 2 CROSS-FEEDERS trong system: ③ (value) + ⑤ (empathy).
+      ③ đo giá trị GIFT. ⑤ đo giá trị EFFORT CỦA GIVER.
+      Cả 2 feed Chain 3 + Chain 4 nhưng từ 2 góc khác nhau.
+
+
+  ⭐ ④ CHỨA 3 SUB-CHUNKS — LIÊN QUAN ⑤ VÀ ⑧ NHƯNG KHÁC:
+
+    ④.② Effort Detection: BIẾT cost (cognitive — "bố mẹ vất vả kiếm tiền")
+    ⑤ SPM Empathy:       FEEL cost (embodied — body fire nhẹ "vất vả")
+    → Cùng thông tin, khác mechanism: knowing vs feeling.
+
+    ④.③ Choice Detection: GIVER chọn cho ("họ MUỐN giúp tôi")
+    ⑧ Autonomy:          RECEIVER chọn nhận ("tôi MUỐN nhận")
+    → Cùng "tự nguyện", khác góc nhìn: giver-side vs receiver-side.
+
+
+  ⭐ CROSS-CHANNEL EXPLOITATION: ① YES + ⑧ NO = VŨ KHÍ
+
+  ① (trigger) và ⑧ (autonomy) là 2 trục ĐỘC LẬP.
+  Tưởng gần giống nhau (body reward → chắc muốn nhận) —
+  NHƯNG có tình huống reward THẬT mà autonomy BỊ VI PHẠM:
+
+  ┌──────────────────┬───────────────────────┬───────────────────────┐
+  │                  │ ⑧ TỰ NGUYỆN          │ ⑧ BỊ ÉP              │
+  ├──────────────────┼───────────────────────┼───────────────────────┤
+  │ ① REWARD THẬT   │ GRATITUDE             │ "ƠN HUỆ" / TRAP      │
+  │ (channel A fed)  │ (pure, healthy)       │ Feed channel A →      │
+  │                  │                       │ extract channel B,C,D │
+  ├──────────────────┼───────────────────────┼───────────────────────┤
+  │ ① KHÔNG REWARD   │ Từ chối tự nhiên      │ Ép nhận thứ không cần│
+  │ (no feed)        │ ("cảm ơn, tôi ok")   │ → resentment thuần    │
+  └──────────────────┴───────────────────────┴───────────────────────┘
+
+  Ô PHẢI-TRÊN (① YES + ⑧ NO) = cross-channel exploitation:
+
+    Lãnh chúa "ban ơn huệ":
+      → Feed Channel A (thực phẩm, bảo vệ) — ① = YES, reward thật
+      → ⑧ = NO (từ chối = threat, không có alternative)
+      → Obligation compile: phải trả Channel B, C, D (lao động, trung thành)
+      → Cost B+C+D >> Reward A → NET NEGATIVE
+      → = "Ơn huệ" = vũ khí: feed 1 channel để extract nhiều channels
+
+    Vợ nội trợ phụ thuộc tài chính:
+      → Feed Channel A (tài chính, an toàn) — ① = YES
+      → ⑧ = PARTIALLY NO (không có viable alternative)
+      → Obligation: trả bằng Channel B (nội trợ, phục tùng)
+      → Gratitude BỊ ĐÈ bởi obligation + autonomy loss
+      → = "Biết ơn nhưng nghẹn" — body có reward, nhưng không chọn
+
+    → = Status.md §4: Mode Comply + Obligation §3.2 Status Gap multiplier
+    → = Power structures EXPLOIT cross-channel mechanism:
+      cho ít ở channel có cost thấp → nhận nhiều ở channel có cost cao
+    → = Tại sao "charity with strings attached" gây resentment, không gratitude
+
+  🟡 5 functional chains model = framework synthesis
+  🟡 Cross-channel exploitation = framework inference từ ① × ⑧ interaction
+  🟡 ⑤ cross-feeder = framework observation
+```
+
 ---
 
 ## §3 — MECHANISM: ANTI-HABITUATION
@@ -1163,16 +1291,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ TYPE THỨ 3 — KHÔNG PHẢI XÃ GIAO, KHÔNG PHẢI AGENT CỤ THỂ:
 
   §6.2 phân biệt 2 types: xã giao (PFC ~5%, body ≈ 0) vs thật (PFC engaged, 5 chains).
-  Nhưng CÒN 1 TYPE nữa mà cả 2 KHÔNG COVER:
-
-  Ăn ngon xong, thanh toán → "cảm ơn" → nhưng không mang ơn người thu ngân.
-  Mua đồ mình thích, tính tiền → "cảm ơn" → nhưng không mang ơn nhân viên.
-  Được giúp bởi người lạ (chỉ gặp 1 lần) → "cảm ơn" → agent sẽ biến mất.
-
-  Những "cảm ơn" này BAY VÀO KHÔNG KHÍ — không ai nợ ai cả.
-
-  NHƯNG — body THẬT SỰ vui (ăn ngon, mua đồ thích, được giúp).
-  "Cảm ơn" này KHÔNG phải xã giao (có positive feeling thật).
+    Nhưng CÒN 1 TYPE nữa mà cả 2 KHÔNG COVER:
+    
+      Ăn ngon xong, thanh toán → "cảm ơn" → nhưng không mang ơn người thu ngân.
+        Mua đồ mình thích, tính tiền → "cảm ơn" → nhưng không mang ơn nhân viên.
+          Được giúp bởi người lạ (chỉ gặp 1 lần) → "cảm ơn" → agent sẽ biến mất.
+          
+            Những "cảm ơn" này BAY VÀO KHÔNG KHÍ — không ai nợ ai cả.
+            
+              NHƯNG — body THẬT SỰ vui (ăn ngon, mua đồ thích, được giúp).
+                "Cảm ơn" này KHÔNG phải xã giao (có positive feeling thật).
   CŨNG KHÔNG phải Type A (không gán cho agent cụ thể nào).
 
   = TYPE C: "CẢM ƠN" COLLECTIVE.
@@ -1654,10 +1782,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        source attribution → collective khi agent fungible, behavioral shift vô thức
     🟡 "Gratitude O(1)" — parallel to Obligation O(1), collective ❸ maintenance,
        self-sustaining community loop, 2-system parallel (individual + collective)
+    🟡 "9 → 5 functional chains" — component view vs chain view
+    🟡 "2 cross-feeders" — ③ (value assessment) + ⑤ (empathy), both feed Chain 3+4
+    🟡 "Cross-channel exploitation" (① YES + ⑧ NO) — feed channel A to extract B,C,D
 
   HYPOTHESIS (🔴):
 
     🔴 "9 components necessary AND sufficient" — may miss components or over-specify
+       (§2.10 shows 5 functional chains — 9 may be over-decomposed OR under-decomposed)
     🔴 "Tầng 5 = cao nhất" — hierarchy may be more nuanced
     🔴 "Modern triple threat" — causal claims about modernity, observational
     🔴 "5 chains for speaker" — decomposition may differ, total effect is 🟢
@@ -1677,9 +1809,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = SPECTRUM lành mạnh → compulsive tương tự Empathy.md §6
 
     Q3: AI có thể trigger gratitude không?
-      → AI = virtual agent → Schema Simulation CÓ THỂ fire
-      → NHƯNG: no real effort → effort detection = 0 → shallow
-      → = AI-triggered gratitude có thể superficial
+        ✅ PARTIALLY RESOLVED: phân biệt 2 case.
+
+      CASE A — Gratitude TOWARD AI (hướng vào AI như agent):
+        → AI = virtual agent → Schema Simulation CÓ THỂ fire
+        → NHƯNG: no real effort → effort detection = 0 → shallow
+        → = Gratitude toward AI = superficial (Q3 original answer ĐÚNG cho case này)
+
+      CASE B — AI session TRIGGER Type C collective gratitude:
+        → AI session có giá trị → body reward THẬT (① met)
+        → Source attribution: AI = tool, không gán effort cho AI được
+        → PFC route: "cảm ơn nhà khoa học, engineers, nhân loại"
+        → Nhiều lớp effort THẬT nhưng DISTRIBUTED (scientists, inventors,...)
+        → Attribution KHÔNG LAND được cá nhân nào → bay vào không khí
+        → ❸ toward Agent-[collective human achievement] += positive
+        → = Type C (§6.4) — KHÔNG shallow, vì effort collective CÓ THẬT
+
+      PHÂN BIỆT:
+        Case A: cố cảm ơn AI → shallow (no effort)
+        Case B: AI trigger → cảm ơn collective → NOT shallow (effort distributed)
+        → AI không phải AGENT được cảm ơn — mà là TRIGGER cho Type C
+        → = Tương tự "cảm ơn người thu ngân": không cảm ơn người đó,
+            mà cảm ơn collective cho phép trải nghiệm này tồn tại
 
     Q4: Gratitude × Meaning interaction?
       → Gratitude inject delta → reward → body confirm existing anchor → trust ↑

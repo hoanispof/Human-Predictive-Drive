@@ -743,7 +743,7 @@ Detailed analysis of PR cases that work. Each case shows how conditions are met 
 
 ## §7 — Cases: Failed Pattern-Resonance
 
-Detailed analysis of PR failures. Each case shows which condition fails + consequences.
+Detailed analysis of Pattern-Resonance failures. Each case shows which condition fails + consequences. §7.8-§7.9 mở rộng: Pattern-Resonance Baseline (tại sao Condition 3 dễ/khó) + obligation-trapped interaction (khi không thể exit dù Pattern-Resonance fail).
 
 ### §7.1 — Parasocial celebrity relationship
 
@@ -883,6 +883,317 @@ The cognitive-without-affective variant is **decisive** evidence for framework (
 **Emerging concern**: As AI becomes more sophisticated, one-sided SPM becomes more convincing. Human cannot easily distinguish "AI that matches my pattern successfully" from "AI that has PR with me". Framework predicts growing distortion risk (Agent.md §16 Prediction P10).
 
 **Speculative boundary**: If future AI develops genuine SPM-like mechanism, PR might become possible in human-AI dyads. Framework doesn't commit to prediction, flags as open question.
+
+### §7.8 — Pattern-Resonance Baseline: "Hợp Tính" Defined
+
+**Concept**: §7.1-§7.7 phân tích từng case cụ thể khi Pattern-Resonance fail. Nhưng TRONG Condition 3 (matching patterns), có 1 biến số CHƯA ĐƯỢC DEFINE: mức dễ/khó mà patterns match TỰ NHIÊN giữa 2 agents cụ thể. Đây chính là "hợp tính" — thuật ngữ thường dùng nhưng chưa bao giờ được giải thích CƠ CHẾ trong framework.
+
+**Definition**:
+
+> **Pattern-Resonance Baseline** = mức độ Pattern-Resonance emerge TỰ NHIÊN giữa 2 agents cụ thể, TRƯỚC KHI effort hoặc adjustment nào can thiệp.
+
+- Baseline CAO ("hợp tính"): Self-Pattern-Match self-template match target by default → patterns co-fire dễ → Pattern-Resonance emerge với ÍT EFFORT
+- Baseline THẤP ("khác tính"): Self-template fail on target → patterns don't match → Pattern-Resonance khó emerge hoặc KHÔNG emerge
+- Baseline = PROBABILITY SPECTRUM liên tục, không phải binary
+
+**3 thành phần:**
+
+**(a) Hardware parameter overlap:**
+- Novelty drive: cả hai thích explore → cùng fire khi gặp mới → match
+- Cortisol sensitivity: cùng ngưỡng chịu stress → cùng respond ở mức tương đương
+- Connection drive ❶: cùng mức cần gần → cùng rhythm tiếp cận
+- Processing tempo: cùng tốc độ suy nghĩ/phản ứng → tương tác mượt
+- Nhiều overlap → Self-Pattern-Match §3.3 template match accuracy CAO by default (self-template ≈ target)
+
+**(b) Expression modality match (Logic-Feeling §6):**
+- Verbal-dominant ↔ verbal-dominant → hiểu ngôn ngữ nhau
+- Somatic-dominant ↔ somatic-dominant → đọc body signal nhau
+- Mismatch: verbal person + somatic person → "sao không nói?" / "nói gì khi body đã nói rồi"
+- Matching modality → feedback channel RICHER → Pattern-Resonance detection chính xác hơn
+
+**(c) Domain chunk overlap:**
+- Shared interests, experiences, knowledge → chunk libraries OVERLAP
+- Einstein + Grossmann: math chunks overlap → Pattern-Resonance ở math domain (§6.1)
+- Parent + child cùng thích nấu ăn → Pattern-Resonance ở domain đó
+- Component NÀY dynamic NHẤT — chunks thay đổi liên tục theo trải nghiệm
+
+**5 thuộc tính quan trọng:**
+
+**① RELATIONAL — không phải property CỦA 1 NGƯỜI:**
+
+Cùng 1 đứa trẻ: Pattern-Resonance Baseline CAO với mẹ, THẤP với bố. Không nói được "đứa trẻ này khó" — chỉ nói được "cặp này có baseline THẤP." Tương tự: cùng 1 người, baseline CAO với bạn A, THẤP với bạn B. Đây là property của CẶP, không phải cá nhân.
+
+**② DYNAMIC — thay đổi theo thời gian:**
+
+2 bạn thân thời đại học: chunks overlap CAO (cùng phase, cùng lo lắng, cùng explore). 10 năm sau: A có con, B độc thân → chunks DIVERGED → baseline GIẢM → "sao hồi xưa hợp mà giờ không nói gì được." 20 năm sau: cả hai qua nhiều mất mát, thành bại → chunks overlap LẠI ở wisdom level → "lâu rồi gặp lại mà thấy vẫn hiểu nhau." = "Grow apart" VÀ "reconnect" đều giải thích được qua baseline shift.
+
+**③ DOMAIN-SPECIFIC:**
+
+Pattern-Resonance Baseline có thể CAO ở 1 domain, THẤP ở domain khác. Hợp ở domain CẢM XÚC (cả hai emotionally expressive) nhưng KHÁC ở domain TƯ DUY (one analytical, one intuitive). = Tại sao 2 người "hợp" trong 1 context nhưng "lệch" trong context khác. Và Pattern-Resonance §6 (genuine cases) đã show: Pattern-Resonance emerge PER DOMAIN, không đòi toàn bộ personality match.
+
+**④ PARTIALLY GENETIC nhưng KHÔNG DETERMINISTIC:**
+
+Con chia sẻ ~50% hardware từ mỗi parent → SOME baseline similarity. Nhưng WHICH 50%? → lottery. + Epigenetics + developmental timing + environmental shaping → không predict được trước sinh — chỉ observe qua tương tác thực tế.
+
+**⑤ BIDIRECTIONAL nhưng KHÔNG SYMMETRIC hoàn hảo:**
+
+Nếu A baseline thấp với B → B cũng likely baseline thấp với A (pattern mismatch là mutual). NHƯNG: A có thể giỏi adjust template hơn B (SPM skill khác nhau). A compensate → feels effortful cho A, natural cho B. = Asymmetric EFFORT dù symmetric BASELINE.
+
+**Self-Pattern-Match mechanism — TẠI SAO baseline matters:**
+
+```
+Pattern-Resonance Baseline CAO (hợp tính):
+
+  Self-Pattern-Match §3.3 Template Match: self-template ≈ target by DEFAULT
+    → Projection accurate WITHOUT extra calibration
+    → SPM predict → result MATCHES → reward signal
+    → vmPFC: "controllable!" → active coping (Autonomy-Hardware §2)
+    → Body: "SPM WORKS" → invest more → library BUILDS sâu
+    → = SPM naturally REWARDING → MUỐN engage
+    → = Feedback loop (§4) ACCELERATE: predict đúng → refine → predict đúng hơn
+    → = POSITIVE CASCADE
+
+Pattern-Resonance Baseline THẤP (khác tính):
+
+  Self-Pattern-Match §3.3: self-template ≠ target
+    → Projection FAILS → needs heavy PFC adjustment mỗi lần
+    → SPM predict → result DOESN'T match → error signal
+    → vmPFC: unclear controllability
+    → Body: "SPM FAILS" → cost high, reward low
+    → = SPM naturally EXHAUSTING → TRÁNH engage
+    → = Feedback loop (§4) STALL: predict sai → thiếu data → cannot refine
+    → = NEGATIVE CASCADE (hoặc stagnation)
+```
+
+**Bidirectional cascade (beyond individual SPM):**
+
+- A match B tự nhiên → B CŨNG dễ match lại → POSITIVE cycle:
+  A predict B đúng → B feel understood → B engage more → more feedback → A refine → predict đúng hơn. CẢ HAI feel "hợp" → invest thêm → library builds → Pattern-Resonance deepens.
+
+- A KHÔNG match B → B CŨNG không match lại → NEGATIVE cycle:
+  A predict B sai → B feel misunderstood → B engagement GIẢM → ít feedback cho A → A worse. CẢ HAI feel "lệch" → invest ít → library stagnant → Pattern-Resonance stalled.
+
+**Parent-child đặc biệt (developmental impact):**
+
+Pattern-Resonance Baseline giữa parent-child quan trọng VƯỢT khỏi relationship quality, vì ảnh hưởng DEVELOPMENTAL TRAJECTORY:
+
+- Baseline CAO → parent respond CONTINGENTLY (hiểu con tự nhiên) → con's self-chunks build CHÍNH XÁC (Self-Pattern-Match §7 Stage 1-2) → SPM develop mạnh
+- Baseline THẤP → parent respond NON-CONTINGENTLY (không hiểu con) → con's self-chunks CONFUSED → SPM develop lệch
+- = Pattern-Resonance Baseline parent-child KHÔNG CHỈ ảnh hưởng relationship → ảnh hưởng NỀN TẢNG phát triển cognitive-social
+- Chi tiết: Love-Analysis §7.3c biến ⑦, Connection §7.1 (L2 strong + F1 weak)
+
+**Existing framework mentions (now clarified):**
+- Self-Pattern-Match §3.5: "hợp tính" as intensity variable → now DEFINED as Pattern-Resonance Baseline
+- Self-Pattern-Match §3.5: "không hợp tính" = zero simulation intensity → now EXPLAINED as Baseline ≈ 0
+- Connection §3.4: "bạn thân hợp tính" = deep connection → now MECHANISM clear (high baseline → easy Pattern-Resonance → deep connection)
+
+**Research alignment:**
+- 🟢 Thomas & Chess 1977: "Goodness of Fit" — child temperament × parent expectations → outcome depends on FIT, not child alone. Framework maps: fit = Pattern-Resonance Baseline
+- 🟢 Byrne 1971: Similarity-attraction hypothesis — behavioral similarity → friendship formation. Framework maps: similarity → high baseline → Pattern-Resonance emerge → friendship
+- 🟢 Kin recognition research: genetic relatedness detected partly via similarity cues → partial hardware overlap
+- 🟡 Pattern-Resonance Baseline as formalized construct = framework synthesis (not directly operationalized in existing research, though "Goodness of Fit" is closest established equivalent)
+- 🟡 Bidirectional cascade specifics = framework synthesis
+
+### §7.9 — Obligation-Trapped Non-Resonant Interaction
+
+**Scenario**: 2 agents với Pattern-Resonance Baseline THẤP (§7.8). Pattern-Resonance không emerge tự nhiên. Bình thường, cả 2 sẽ giảm tương tác → drift apart. NHƯNG: obligation (structural, social, economic) KHOÁ cả 2 trong tương tác liên tục.
+
+**Failed condition**: Condition 3 (matching patterns) — patterns genuinely không match.
+
+**Additional constraint UNIQUE cho case này**: CANNOT EXIT. Khác với §7.1-§7.7 — trong mọi case trước, agent CÓ THỂ drift apart, giảm contact, hoặc disengage. Ở đây, obligation LOCKS continued interaction bất chấp Pattern-Resonance failure.
+
+**Common settings:**
+- **Parent ↔ child**: Con phụ thuộc (không thể rời). Parent có L2 drive + social obligation (không thể bỏ)
+- **Marriage/partnership có structural binding**: con chung, tài chính chung, áp lực xã hội
+- **Workplace hierarchical**: employee không thể dễ dàng nghỉ việc, phải tương tác hàng ngày với sếp/đồng nghiệp
+- **Extended family co-habitation**: obligation văn hóa — sống cùng ông bà, anh chị em
+- **Military/institutional**: forced proximity + authority chain
+
+**What happens — 4-step mechanism:**
+
+```
+STEP 1 — NATURAL PATTERN-RESONANCE FAILURE:
+
+  SPM fires → self-template project lên target → patterns DON'T match
+  Body default response: giảm tương tác → drift apart
+  = Mechanism bình thường khi Condition 3 fail (§7.4 mutual mismatch)
+  
+  NHƯNG: obligation blocks exit
+  → Body CẦN giảm contact → KHÔNG ĐƯỢC giảm
+  → = DISSONANCE: drive to disengage + forced to engage
+
+
+STEP 2 — SUPPRESS NATURAL PATTERNS:
+
+  Natural response patterns fire → nhưng sẽ KHÔNG match target
+  PFC INHIBIT natural response → tránh conflict/friction
+  
+  Autonomy-Hardware §5 — 2-layer dissonance:
+    Layer 1: immediate prediction override (natural → forced)
+      → Body predict "tôi sẽ react thế NÀY" → nhưng PHẢI react thế KHÁC
+      → = Efference mismatch: motor prediction ≠ actual action
+    Layer 2: meta-learning "my natural pattern doesn't matter here"
+      → vmPFC domain-specific learning: "in THIS relationship, I CANNOT be me"
+      → DRN tendency (Maier & Seligman 2016) → passive coping IN THIS DOMAIN
+  
+  Body FEEL: "gượng" (forced), "giả" (fake), "mệt" (tired)
+  → "Gượng" = Somatic-Articulation-Loop: body VERBALIZE CHÍNH XÁC mechanism
+    (suppress + override = body knows → language captures accurately)
+
+
+STEP 3 — AMPLIFY/FABRICATE PATTERNS:
+
+  Suppress xong → CHƯA ĐỦ. Phải TẠO patterns có thể match target:
+  
+  Select chunks KHÔNG phải dominant CỦA MÌNH → cố match target:
+    "Bình thường tôi ít nói → nhưng với sếp phải hoạt bát"
+    "Bình thường tôi thích explore → với bố phải tỏ ra ngoan"
+    "Bình thường tôi direct → với mẹ chồng phải vòng vo"
+  
+  = PFC-HEAVY processing (NOT compiled → deliberate MỖI LẦN)
+  = KHÁC với SPM compiled thông thường:
+    SPM compiled: vô thức, nhanh, ít cost (§3 six-step gần automatic)
+    SPM fabricated: có ý thức, chậm, PFC drain (effortful mỗi episode)
+  = KHÔNG BAO GIỜ compile thành tự động:
+    Vì patterns này KHÔNG PHẢI genuinely của mình
+    → Body KHÔNG reinforce → KHÔNG Hebbian strengthening
+    → = FRESH PFC effort MỖI LẦN — không giảm cost theo thời gian
+
+
+STEP 4 — HOPE FOR PARTIAL PATTERN-RESONANCE:
+
+  Sau suppress + amplify/fabricate → KỲ VỌNG Pattern-Resonance emerge:
+  
+  Nếu target NHẬN RA effort:
+    → Partial Pattern-Resonance (appreciation, "cũng cố rồi")
+    → Reward NHỎ → sustain effort thêm 1 thời gian
+    → Nhưng reward < cost → unsustainable long-term
+    
+  Nếu target KHÔNG nhận ra:
+    → Effort WASTED → zero Pattern-Resonance → frustration compound
+    → "Tôi cố hết sức mà bố vẫn không hiểu"
+    → = Worst cost/reward ratio: maximum effort, zero return
+    
+  Nếu target PHẢN ỨNG NGƯỢC (khó chịu vì "giả tạo"):
+    → Target's SPM detect inauthenticity → valence GIẢM
+    → = Effort BACKFIRE — suppress + fabricate → Pattern-Resonance WORSE
+    → "Càng cố càng xa" — vicious feedback
+```
+
+**Cost analysis — CUMULATIVE qua thời gian:**
+
+**(a) Autonomy cost (Autonomy-Hardware §5):**
+
+Mỗi lần suppress = efference mismatch → body detects "tôi KHÔNG ĐANG LÀ TÔI." Repeated → vmPFC meta-learning: "trong relationship NÀY, tôi không thể là tôi." → DRN domain-specific tendency → passive coping IN THIS RELATIONSHIP (Autonomy-Hardware §2.2: vmPFC learns PER DOMAIN). = "Tôi chịu được, nhưng tôi không sống" — autonomy SURRENDERED ở domain này.
+
+**(b) Cortisol accumulation (Cortisol-Baseline §2.3, §7.7):**
+
+Mỗi forced interaction = mild cortisol (Cortisol Role ② Holding: gap unresolved — "tôi vẫn chưa ĐƯỢC là tôi"). Repeated → baseline SHIFT upward. Chronic → có thể tiến đến Cortisol Role ⑤ Silent: cortisol HIGH nhưng self-signal atrophy → PFC KHÔNG BIẾT → damage tích lũy without awareness. = "Tôi quen rồi, không sao" — nhưng body ĐANG deteriorate.
+
+**(c) PFC drain:**
+
+Fabricating patterns = deliberate PFC processing MỖI LẦN (không compile được). NOT compiled → KHÔNG BAO GIỜ trở thành automatic. = Mỗi interaction = FRESH PFC effort → cumulative fatigue. = Tại sao "small talk với người tôi không click" mệt DISPROPORTIONATELY so với thời gian.
+
+**(d) SPM library DISTORTION:**
+
+SPM library cho target này build trên PERFORMED patterns, không phải genuine. Library = "with this person, I am [performed version]" — accurate cho performance, USELESS cho genuine interaction. Nếu obligation lifts (con trưởng thành, đổi việc) → phát hiện: "tôi không biết cách LÀ THẬT với họ." Library phải BUILD LẠI from scratch — hoặc relationship fade vì không có genuine foundation.
+
+**"Functional Avoidant" — biến thể quan trọng:**
+
+```
+BÊN NGOÀI (observable):
+  Regularly interacts, responds appropriately, fulfills obligations
+  Social observers: "họ có relationship bình thường"
+  
+BÊN TRONG (mechanism):
+  Natural patterns SUPPRESSED → no genuine self present
+  Performed patterns = surface → no genuine Pattern-Resonance possible
+  Body in relationship nhưng SELF KHÔNG in relationship
+  = Behavioral presence, experiential absence
+
+DISTINGUISHED FROM:
+  Path A monitor (Love-Analysis §7.3b):
+    → Genuinely INVESTS SPM → learns target → costly but REAL engagement
+  Path B withdraw:
+    → Openly DISENGAGES → others nhìn thấy
+  Functional avoidant:
+    → APPEARS to engage → actually PERFORMING → withdrawal INVISIBLE
+    → Obligation provides cover ("tôi đang có trách nhiệm / hiếu thảo / chuyên nghiệp")
+    → Performance becomes routine → FEELS normal → chỉ detect khi:
+      obligation lifts → person KHÔNG continue → "tôi chưa bao giờ thực sự connect"
+
+TẠI SAO KHÓ DETECT:
+  → Obligation provides behavioral framework → behavior looks ADEQUATE
+  → Person CÓ THỂ tự lừa: "tôi ổn, relationship ổn" (Cortisol Role ⑤ Silent parallel)
+  → Others nhìn vào: "ngoan", "tốt", "hòa nhã" → không thấy internal withdrawal
+  → = Chỉ phát hiện khi structural change FORCE reveal (ly hôn, con ra riêng, nghỉ việc)
+```
+
+**Vicious cycle — DOWNWARD SPIRAL:**
+
+```
+Pattern-Resonance Baseline THẤP
+  → Suppress/amplify required mỗi interaction
+  → Cortisol accumulates + PFC drains
+  → PFC capacity DECREASES (Cortisol-Baseline §2.3: chronic cortisol → vmPFC dendritic retraction)
+  → LESS capacity to suppress/amplify effectively
+  → Interactions become WORSE (leaks, irritation, inconsistency)
+  → Other party ALSO frustrated → THEIR patterns hostile hơn
+  → Pattern-Resonance Baseline drops FURTHER
+  → = ACCELERATING downward spiral
+
+COMPOUNDED BY SPM STAGNATION:
+  Suppress → no genuine SPM firing → library KHÔNG refine for target
+  → Cannot LEARN this person → cannot PREDICT → more errors
+  → More suppress needed → MORE cost → MORE stagnation
+  → = §4 feedback loop BROKEN: không có genuine interaction → không có feedback → không có calibration
+```
+
+**Parent-child specific (Love-Analysis §7.3c connection):**
+
+Case quan trọng NHẤT vì child CANNOT exit + developmental impact:
+
+- Pattern-Resonance Baseline THẤP → child phải suppress + amplify MỖI NGÀY
+- Autonomy-Hardware §5: "my prediction doesn't matter" meta-learning → learned helplessness RISK ở social domain
+- NHƯNG parent CŨNG frustrated: HỌ cũng không match child naturally → frustration → inconsistency
+- Parent inconsistency → Love-Analysis §7.3c variable ① WORSENS
+- = **Pattern-Resonance Baseline (⑦) ẢNH HƯỞNG parent consistency (①)** — 2 biến số KHÔNG hoàn toàn độc lập
+
+So sánh:
+- Pattern-Resonance Baseline CAO → both feel understood → positive cycle → parent MORE consistent → ① tốt → child healthy development
+- Pattern-Resonance Baseline THẤP → both frustrated → negative cycle → parent LESS consistent → ① xấu → compound risk
+
+**Resolution pathways:**
+
+**(a) Find domain of overlap:**
+2 agents may not match globally nhưng may match IN SPECIFIC DOMAIN. Parent + child cả hai thích nấu ăn → Pattern-Resonance ở domain đó → bridge. "Đã không hợp tính → tìm GÓC HỢP" → build Pattern-Resonance from there → mở rộng dần.
+
+**(b) Cognitive bridging (§9.4 resolution):**
+Understand difference INTELLECTUALLY even without affective Pattern-Resonance. "Tôi biết bố coi trọng X dù tôi coi trọng Y." = Reduces friction WITHOUT requiring genuine Pattern-Resonance. Không SÂU nhưng FUNCTIONAL.
+
+**(c) Reduce obligation where possible:**
+Adult child → structural independence → choose interaction frequency + domain. Marriage → renegotiate expectations → reduce forced-proximity domains. = Obligation GIẢM → suppress cost GIẢM → relationship quality CÓ THỂ cải thiện (paradoxically: less forced contact → better contact).
+
+**(d) Explicit meta-communication:**
+"Chúng ta dường như khó connect ở [domain này]" — NAME the gap. Cả hai biết → suppress cost GIẢM (không cần pretend). = §3.6 mutual verification → higher-fidelity even without deep Pattern-Resonance. = Hardest pathway nhưng potentially most transformative.
+
+**(e) Modality bridge (NEW pathway):**
+Nếu mismatch ở expression modality (verbal ↔ somatic):
+→ Bên verbal HỌC đọc body signal. Bên somatic HỌC articulate.
+→ = Somatic-Articulation-Loop: body-knowledge → explicit-knowledge
+→ Bridge modality gap → Pattern-Resonance POSSIBLE ở overlapping modality
+→ Slow nhưng genuine improvement (KHÔNG phải suppress — mà EXPAND)
+
+**Research alignment:**
+- 🟢 Thomas & Chess 1977: "Goodness of Fit" — poor fit parent-child → behavioral problems. Framework maps: poor fit = low Pattern-Resonance Baseline + obligation-trapped
+- 🟢 Deci & Ryan 2000: Autonomy need frustration → reduced wellbeing. Framework maps: suppress = autonomy need frustration
+- 🟢 Baumrind 1966: Authoritarian (low fit awareness) vs Authoritative (responsive to fit). Framework maps: authoritative = AWARE of Pattern-Resonance Baseline → ADJUST expectations
+- 🟢 Maier & Seligman 2016: Learned helplessness = DEFAULT + vmPFC failure. Framework maps: chronic suppress → vmPFC meta-learning "uncontrollable" → helplessness in this domain
+- 🟡 "Functional avoidant" = framework synthesis (not established term in literature, though resembles "dismissive attachment with social compliance" pattern described clinically)
+- 🟡 Obligation-trapped mechanism as formalized concept = framework synthesis
+- 🟡 Vicious cycle specifics + SPM stagnation = framework synthesis
+- 🔴 Specific timeline thresholds for permanent damage = hypothesis (cần empirical data)
+- 🔴 "Modality bridge" as resolution pathway = hypothesis (logical but untested)
 
 ---
 
@@ -1220,6 +1531,9 @@ Already covered in Agent.md §13 developmental timeline. Briefly:
 8. **Relationship between cognitive-affective split causes**: How much overlap between depression, burnout, alexithymia mechanisms?
 9. **Developmental disruption effects**: Precise outcomes of Stage 1-2 disruption on adult PR?
 10. **State-gating neural mechanism**: What blocks affective SPM in Case 2/3?
+11. **Pattern-Resonance Baseline measurement**: Can "hợp tính" (Pattern-Resonance Baseline §7.8) be quantified? 3 thành phần (hardware overlap, modality match, domain overlap) — relative weight của mỗi thành phần là bao nhiêu? Có thể predict baseline TRƯỚC KHI 2 agents tương tác?
+12. **Obligation-trapped duration thresholds**: Obligation-trapped non-resonant interaction (§7.9) cần kéo dài BAO LÂU trước khi gây permanent vmPFC/cortisol baseline damage? Khác nhau theo age (childhood vs adult)? Có thể recovery HOÀN TOÀN hay chỉ partial?
+13. **Modality bridge efficacy**: Resolution pathway (e) trong §7.9 — học đọc modality khác → mở rộng Pattern-Resonance possibility. Hiệu quả thực tế? Timeline? Có giới hạn nào không (age, neuroplasticity)?
 
 ### §12.2 — Honest assessment
 
@@ -1239,6 +1553,9 @@ Already covered in Agent.md §13 developmental timeline. Briefly:
 - Specific case examples (mathematicians, music fans, study group) — conceptually supported, direct PR measurement limited
 - Cross-cultural variation specifics
 - Psychopathy cognitive-affective split clean dissociation (contested research)
+- Pattern-Resonance Baseline concept (§7.8) — "Goodness of Fit" (Thomas & Chess 1977) + similarity-attraction (Byrne 1971) converge, nhưng formalization as unified construct = framework
+- Obligation-trapped mechanism (§7.9) — individual components well-supported (suppress cost, cortisol, autonomy), overall interaction pattern = framework synthesis
+- "Functional avoidant" variant (§7.9) — resembles clinical observations (dismissive attachment + social compliance), nhưng chưa có established term/research
 
 **Speculative (🔴)**:
 - Quantitative PR measurement protocols
@@ -1246,6 +1563,9 @@ Already covered in Agent.md §13 developmental timeline. Briefly:
 - AI-human PR possibility predictions
 - Training ceiling specifics
 - State-gating neural implementation
+- Pattern-Resonance Baseline quantification (§7.8 Q11) — relative weights of 3 components unknown
+- Obligation-trapped duration thresholds (§7.9 Q12) — khi nào damage permanent?
+- Modality bridge resolution pathway (§7.9 pathway e) — logical but untested
 
 **Known weaknesses**:
 - **Operationalization gap**: PR hard to measure directly
@@ -1253,6 +1573,8 @@ Already covered in Agent.md §13 developmental timeline. Briefly:
 - **Cross-cultural data thin** for framework-specific construct
 - **Neural substrate unclear** beyond general social brain networks
 - **Interaction with predictive processing** formalism not worked out
+- **Pattern-Resonance Baseline components interaction**: 3 components (hardware, modality, domain) defined separately nhưng HOW they interact (additive? multiplicative? threshold?) chưa rõ
+- **Obligation-trapped detection**: "Functional avoidant" pattern KHÓ detect cả từ ngoài lẫn từ bên trong → research challenge
 
 **Overall confidence**:
 - Framework framing of PR as emergent mutual (distinct from SPM solo): 🟢 Strong
@@ -1260,6 +1582,8 @@ Already covered in Agent.md §13 developmental timeline. Briefly:
 - Retrospective epistemic: 🟢 Strong (follows from architecture)
 - 4 cases taxonomy: 🟢 Strong (converges with research)
 - Specific quality levels: 🟡 Moderate (useful description, not quantified)
+- Pattern-Resonance Baseline (§7.8): 🟡 Moderate (concept sound, operationalization undeveloped)
+- Obligation-trapped mechanism (§7.9): 🟡 Moderate (components strong, integration = framework)
 - Quantitative measurement: 🔴 Undeveloped
 
 **Recommendation**: Pattern-Resonance.md represents framework's account of **emergent mutual phenomenon** as distinct from solo SPM mechanism. Critical complement to Self-Pattern-Match.md. Novel operationalization + measurement protocols needed for empirical validation.

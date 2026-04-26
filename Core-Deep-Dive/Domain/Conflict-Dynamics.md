@@ -214,7 +214,8 @@
   ① CÁ NHÂN (nội tâm):
     → 2 Imagine-Final tranh cùng resource (thời gian, energy, 1 quyết định)
     → PFC = executive chọn → NẾU PFC mạnh → resolve nhanh
-    → NẾU PFC yếu (mệt, stress) → xung đột kéo dài → cortisol tích lũy
+    → NẾU PFC yếu (mệt, stress) → xung đột kéo dài → Chunk-Gap unresolved
+      + cortisol Role ② Holding đồng hành (amplifier, not cause)
     → VD: "ăn ngon vs giảm cân" = 2 Imagine-Final + 1 bữa ăn
 
 

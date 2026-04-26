@@ -1,34 +1,93 @@
-# OCD Analysis — Qua Lăng Kính HPD Framework
+---
+title: OCD Analysis — Qua Lens Framework v7.8
+version: 2.1
+created: 2026-03-27
+refined: 2026-04-26
+status: RESEARCH FILE v2.0 — tổng hợp suy luận từ framework v7.8 + established research
+scope: |
+  RESEARCH FILE: Phân tích OCD (Obsessive-Compulsive Disorder) qua mô hình
+  3 tuyến phòng thủ "done" pipeline. Kết nối OCD ↔ Love ↔ Serotonin.
+  v2.0 KEY CHANGES vs v1.0 (v7.5 era):
+    ① Chunk dynamics mapping: OCD qua BFM (Shift/Miss/Gap)
+    ② Spreading activation: serotonin ↓ = uninhibited cascade → obsessive loop
+    ③ Cortisol 5 Roles applied (Holding/Threat-sustained/Silent)
+    ④ PFC-Function mapping: tuyến 3 = HOLD + PROCESS, override fail mechanism
+    ⑤ Love-Analysis v2.1 cross-reference updated
+    ⑥ All terminology v7.5 → v7.8
+  v2.1 KEY ADDITIONS (2026-04-26 later):
+    ⑦ §4.5 Serotonin ↓ = AMPLIFIER, NOT ROOT CAUSE (feedback loop model)
+    ⑧ §4.5b SPM childhood bias × OCD-like in love (anxious attachment mechanism)
+    ⑨ §4.6 Cross-species evidence (deer mice, SAPAP3, Hoxb8, dogs, primates)
+    ⑩ Updated Honest Assessment + Open Questions with new predictions
+  ⚠️ Framework KHÔNG thay thế chẩn đoán/điều trị y khoa.
+  Phân tích cung cấp GÓC NHÌN bổ sung — nếu đúng, có thể giúp
+  hiểu tại sao OCD xảy ra và tại sao các treatment hiện tại hoạt động.
+purpose: |
+  Research-level analysis: apply framework v7.8 vào failure mode.
+  OCD = test case cho "done" detection mechanism:
+  khi cơ chế DỪNG HÀNH VI bị lỗi → loop vô hạn.
+  Love dùng CÙNG circuit nhưng CÓ exit condition (bond compile).
+position: |
+  Research/ — analysis file, KHÔNG phải mechanism/observation file.
+  Ngang hàng Love-Analysis.md, Climate-Cognition.md.
+dependencies:
+  - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, §4 Compound, §5 Baseline Shift
+  - Chunk-Activation-Dynamics.md — spreading activation, probability, trigger surface
+  - Chunk.md v2.0 — substrate, compilation, hierarchy
+  - Cortisol-Baseline.md v2.0 — 5 Cortisol Roles §7.7, cascade, recovery asymmetry
+  - PFC-Function.md — 24 functions, HOLD + PROCESS, reactive model
+  - Status.md v2.0 — §9.2 Serotonin Ratchet, certainty bias
+  - Love-Analysis.md v2.1 — §2.1 serotonin ↓40%, §3 3 primitives, §4 2-luồng
+  - Feeling.md v2.0 — PFC observation interface
+  - Threat.md — 3 origin sources, threat priority
+  - Connection.md v3.0 — social buffering, co-regulation
+  - Protect.md v1.0 — loss aversion (OCD fear of loss)
+  - Clarification/Dopamine-Reward-Rejection.md — dopamine = salience, not reward
+sources_backup: |
+  v1.0 (2026-03-27, 896L, v7.5 era) → backup/OCD-Analysis-v75-era.md
+language: Tiếng Việt primary + English technical terms
+confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+---
 
-> **Trạng thái:** DRAFT — tổng hợp suy luận từ framework + research đã có
-> **Ngày:** 2026-03-27
-> **Mục đích:** Phân tích OCD (Obsessive-Compulsive Disorder) qua mô hình
-> 3 tuyến phòng thủ "done" pipeline. Kết nối OCD ↔ Love ↔ Serotonin.
-> **⚠️ Framework KHÔNG thay thế chẩn đoán/điều trị y khoa.**
-> Phân tích này cung cấp GÓC NHÌN bổ sung — nếu đúng, có thể giúp
-> hiểu tại sao OCD xảy ra và tại sao các treatment hiện tại hoạt động.
-> **Quy ước:** 🟢 Evidence vững | 🟡 Suy luận có cơ sở | 🔴 Giả thuyết
+# OCD Analysis — Qua Lens Framework v7.8
+
+> **Bạn rửa tay. Xong. Body nhẹ. Chuyện khác.**
+> **30 giây. Toàn bộ process: VÔ THỨC.**
+>
+> **Người OCD rửa tay. Xong... nhưng body KHÔNG nhẹ.**
+> **"Done" signal fire → nhưng NOISY → body: "CHƯA CHẮC sạch."**
+> **Rửa lại. Vẫn CHƯA CHẮC. Rửa lại. 50 lần. Tay rát.**
+> **PFC: "TÔI BIẾT tay sạch." Body: "KHÔNG TIN."**
+>
+> **OCD = "done" pipeline FAILURE.**
+> **3 tuyến phòng thủ dừng hành vi → 1 hoặc nhiều tuyến LỖI → loop vô hạn.**
+> **PANDAS chứng minh: phá hardware tuyến 1 → OCD xuất hiện NGAY → sửa → hết.**
+> **Love dùng CÙNG circuit (serotonin ↓40%) nhưng CÓ exit: bond compile → done.**
+> **OCD KHÔNG CÓ exit: target không bao giờ "đủ" → cần treatment.**
+>
+> **⚠️ Framework cung cấp GÓC NHÌN — không thay thế chẩn đoán/điều trị y khoa.**
 
 ---
 
-## Mục Lục
+## Mục lục
 
-1. [OCD Là Gì — Nhìn Nhanh](#1-ocd-là-gì)
-2. [Cơ Chế Bình Thường: "Done" Pipeline](#2-done-pipeline)
-3. [OCD = Multi-Point Failure](#3-multi-point-failure) — incl. §3.3 PANDAS/PANS
-4. [Love ↔ OCD: Cùng Circuit, Khác Mục Đích](#4-love-ocd)
-5. [Serotonin = "Certainty Bias" — Chìa Khóa Chung](#5-serotonin)
-6. [Spectrum Rộng: Không Chỉ OCD](#6-spectrum) — incl. BDD (DSM-5)
-7. [Treatment Map Vào 3 Tuyến](#7-treatment) — incl. clomipramine, augmentation, PANDAS tx
-8. [Tesla Case Study — Trajectory Functional → OCD-like](#8-tesla)
-9. [Hardware vs Environment — Câu Hỏi Cốt Lõi](#9-hardware-env) ⭐ NEW
-10. [Honest Assessment](#10-honest)
-11. [Câu Hỏi Mở](#11-câu-hỏi)
-12. [Kết Nối](#12-kết-nối)
+- §1 — OCD LÀ GÌ
+- §2 — CƠ CHẾ BÌNH THƯỜNG: "DONE" PIPELINE
+- §3 — OCD = MULTI-POINT FAILURE
+- §4 — V7.8 MAPPING: CHUNK DYNAMICS + SPREADING ACTIVATION
+- §5 — LOVE ↔ OCD: CÙNG CIRCUIT, KHÁC MỤC ĐÍCH
+- §6 — SEROTONIN = "CERTAINTY BIAS"
+- §7 — SPECTRUM: KHÔNG CHỈ OCD
+- §8 — TREATMENT MAP VÀO 3 TUYẾN
+- §9 — TESLA CASE STUDY
+- §10 — HARDWARE VS ENVIRONMENT
+- §11 — HONEST ASSESSMENT
+- §12 — CÂU HỎI MỞ
+- §13 — CROSS-REFERENCES + STATUS
 
 ---
 
-## 1. OCD Là Gì — Nhìn Nhanh
+## §1 — OCD LÀ GÌ
 
 ```
 DEFINE:
@@ -42,14 +101,18 @@ DEFINE:
     "Số lẻ = xui" (obsession) → làm mọi thứ theo số chẵn (compulsion)
 
   ĐẶC ĐIỂM QUAN TRỌNG:
-    → Người OCD BIẾT hành vi vô lý (PFC nhận ra)
-    → NHƯNG không dừng được (schema KHÔNG nghe PFC)
-    → = "Ego-dystonic" — biết sai, vẫn làm
-    → ≠ thói quen (ego-syntonic — làm vì MUỐN)
+    → Người OCD BIẾT hành vi vô lý (PFC nhận ra — A zone)
+    → NHƯNG không dừng được (chunks fire ở C+D zones KHÔNG nghe PFC)
+    → = "Ego-dystonic" — PFC observe "sai" nhưng body fire "phải làm"
+    → ≠ thói quen (ego-syntonic — PFC đồng ý → làm vì MUỐN)
+
+    Qua v7.8: ego-dystonic = PFC OBSERVE (Feeling.md v2.0)
+    body-chunk interaction → PFC thấy "vô lý" → nhưng PFC chỉ là OBSERVER,
+    KHÔNG điều khiển trực tiếp C+D zones processing.
 
   🟢 Prevalence: ~2-3% dân số toàn cầu (WHO)
-  🟢 Heritability: ~47-58% (Pauls 2010) → CÓ yếu tố hardware
-  🟢 Onset: BIMODAL — 2 peak khác nhau:
+  🟢 Heritability: ~47-58% (Pauls 2010) → CÓ yếu tố hardware MẠNH
+  🟢 Onset: BIMODAL — 2 peak:
      Peak 1: Childhood (~8-12 tuổi) — ~25-50% cases
        → Predominantly MALE
        → Genetic/hardware component MẠNH → tuyến 1 primary failure
@@ -63,48 +126,49 @@ DEFINE:
 
 ---
 
-## 2. Cơ Chế Bình Thường: "Done" Pipeline {#2-done-pipeline}
+## §2 — CƠ CHẾ BÌNH THƯỜNG: "DONE" PIPELINE
 
-> Trước khi hiểu OCD, cần hiểu CÁCH BÌNH THƯỜNG não dừng 1 hành vi.
+### §2.1 — Ví dụ: rửa tay bình thường
 
 ```
 VÍ DỤ — RỬA TAY BÌNH THƯỜNG:
 
-  ① Schema "tay bẩn" ACTIVATE (vô thức):
-     → Body detect: "tay có gì đó" → schema trigger → rửa tay
+  ① Chunks "tay bẩn" FIRE (C+D zones, vô thức):
+     → Body detect: "tay có gì đó" → compiled chunks trigger → rửa tay
 
   ② Hành động rửa:
      → Nước + xà phòng → giác quan báo: "tay trơn, sạch, hết dính"
 
   ③ "Done" detector CHECK (OFC-caudate circuit):
-     → OFC nhận input giác quan: "sạch"
-     → Caudate nucleus: compare "hiện tại" vs "chuẩn sạch"
+     → OFC nhận sensory input: "sạch"
+     → Caudate nucleus: compare "hiện tại" vs "chuẩn done" (compiled baseline)
      → MATCH → fire "DONE" signal
 
-  ④ Satisfaction Signal propagate:
-     → "Done" signal → vô thức: "schema 'tay bẩn' DEACTIVATE"
+  ④ Body-feedback propagate:
+     → "Done" signal → chunks "tay bẩn" DEACTIVATE
      → Cortisol nhẹ (từ "bẩn") → DROP
-     → Body relax → "nhẹ" → xong
+     → Opioid nhẹ: body-need met → reward
+     → Body relax → xong
 
   ⑤ PFC nhận kết quả:
      → PFC KHÔNG biết "done detector" vừa fire
-     → PFC chỉ thấy: "tự nhiên hết muốn rửa" → chuyện khác
-     → = Toàn bộ process: VÔ THỨC. PFC chỉ thấy OUTPUT.
+     → PFC chỉ observe: "tự nhiên hết muốn rửa" → chuyện khác
+     → = Toàn bộ process: C+D zones. PFC chỉ thấy OUTPUT.
 
 TIMELINE: 30 giây → xong → quên luôn. Bình thường.
 ```
 
-### 2.1 — 3 Tuyến Phòng Thủ
+### §2.2 — 3 Tuyến phòng thủ
 
 ```
 ⭐ NÃO CÓ 3 TUYẾN đảm bảo hành vi DỪNG đúng lúc:
 
 ┌──────────────────────────────────────────────────────────────────┐
 │                                                                  │
-│  TUYẾN 1 — "DONE" DETECTOR (automatic, vô thức)                 │
+│  TUYẾN 1 — "DONE" DETECTOR (automatic, C+D zones)               │
 │  Hardware: OFC (orbitofrontal cortex) + caudate nucleus          │
-│  Function: so sánh trạng thái hiện tại vs "chuẩn done"         │
-│  Output: "DONE" signal → schema deactivate                      │
+│  Function: compare trạng thái hiện tại vs compiled "chuẩn done" │
+│  Output: "DONE" signal → chunks deactivate                      │
 │  Speed: nhanh nhất (milliseconds)                                │
 │  🟢 Evidence: Saxena et al., Schwartz et al. — fMRI confirmed   │
 │                                                                  │
@@ -116,15 +180,17 @@ TIMELINE: 30 giây → xong → quên luôn. Bình thường.
 │            để được CHẤP NHẬN                                      │
 │  Serotonin cao → threshold THẤP → dễ chấp nhận "done"           │
 │  Serotonin thấp → threshold CAO → khó chấp nhận "done"          │
+│  = Serotonin = certainty bias (Status.md v2.0 §9.2)             │
 │  🟢 Evidence: SSRIs effective cho OCD (Bloch 2008)               │
 │                                                                  │
 ├──────────────────────────────────────────────────────────────────┤
 │                                                                  │
 │  TUYẾN 3 — PFC OVERRIDE (conscious, chậm nhất)                  │
 │  Hardware: dlPFC (dorsolateral prefrontal cortex)                │
-│  Function: "Tôi BIẾT xong rồi → DỪNG"                           │
+│  Function: PFC HOLD "tôi BIẾT xong" → bias chunks → DỪNG       │
 │  = Last resort khi tuyến 1+2 fail                               │
-│  Depends on: PFC capacity, energy, cortisol level               │
+│  Depends on: PFC capacity (PFC-Function.md), cortisol level     │
+│  PFC-Function.md: PFC = ~5% operator, HOLD → bias activation    │
 │  🟢 Evidence: CBT/ERP effective cho OCD (Schwartz 1996)          │
 │                                                                  │
 └──────────────────────────────────────────────────────────────────┘
@@ -136,7 +202,9 @@ STRESS NẶNG: Tuyến 1+2 hơi yếu → PFC override → done. Hơi mệt như
 
 ---
 
-## 3. OCD = Multi-Point Failure {#3-multi-point-failure}
+## §3 — OCD = MULTI-POINT FAILURE
+
+### §3.1 — Failure ở từng tuyến
 
 ```
 OCD = FAILURE ở 1 hoặc NHIỀU tuyến cùng lúc:
@@ -149,39 +217,44 @@ TUYẾN 1 LỖI — "Done" detector dysfunctional:
   → = Hardware problem: wiring lỗi, không phải thiếu nỗ lực
 
 TUYẾN 2 LỖI — Threshold quá CAO:
-  → Serotonin thấp → certainty bias giảm → "có CHẮC CHẮN xong chưa?"
+  → Serotonin thấp → certainty bias giảm (Status.md v2.0 §9.2)
+  → = "Có CHẮC CHẮN xong chưa?" → KHÔNG TIN
   → Signal "done" có fire → nhưng KHÔNG VƯỢT threshold
   → = Giống: ai đó nói "xong rồi" nhưng bạn KHÔNG TIN
-  → = Neurochemistry problem
 
 TUYẾN 3 LỖI — PFC override thất bại:
-  → PFC: "tôi BIẾT tay sạch" → gửi lệnh "DỪNG"
-  → NHƯNG: schema đang chạy ở THREAT PRIORITY
-  → Threat priority > PFC override
-  → PFC mệt (cortisol cao, thiếu ngủ, aging) → override YẾU HƠN NỮA
-  → = Software problem: PFC bị schema overpower
+  → PFC HOLD "tôi BIẾT tay sạch" → gửi bias "DỪNG"
+    (PFC-Function.md: PFC HOLD → bias spreading activation → body tự respond)
+  → NHƯNG: chunks đang fire ở THREAT DIRECTION
+    (Cortisol §7.7 Role ① Compile Direction: compiled AVOIDANCE)
+  → Threat-direction chunks > PFC bias authority
+  → PFC mệt (cortisol cao, thiếu ngủ) → override YẾU HƠN NỮA
+  → = PFC chỉ là ~5% operator — 95% chunks fire vô thức
 ```
 
-### 3.1 — Tại Sao Người OCD "BIẾT" Nhưng Không Dừng
+### §3.2 — Tại sao "BIẾT" nhưng không dừng
 
 ```
-Đây là câu hỏi phổ biến nhất: "Tại sao không DỪNG nếu BIẾT vô lý?"
+🟡 "BIẾT" VÀ "DỪNG" Ở 2 SYSTEMS KHÁC NHAU:
 
-Qua framework:
-  "BIẾT" = PFC nhận ra (tuyến 3, conscious)
-  "DỪNG" = cần tuyến 1 hoặc 2 (vô thức, automatic)
+  "BIẾT" = PFC OBSERVE (A zone — Feeling.md v2.0):
+    PFC observe body-chunk interaction → nhận ra "vô lý"
+    = Tuyến 3, conscious, CHẬM
 
-  → PFC nói "dừng" = giống HÉT vào đám đông đang hoảng loạn
-  → Đám đông (vô thức) KHÔNG nghe PFC vì:
-     ① Schema chạy ở threat priority (threat > PFC authority)
-     ② "Done" signal bẩn → vô thức: "CHƯA CHẮC done"
-     ③ Serotonin thấp → vô thức: "KHÔNG TIN done"
-  → PFC override CẦN energy CỰC LỚN → mệt rất nhanh → override FAIL
+  "DỪNG" = chunks DEACTIVATE (C+D zones):
+    Cần tuyến 1 (done detector) hoặc tuyến 2 (threshold accept)
+    = Vô thức, automatic, NHANH
+
+  → PFC nói "dừng" = PFC HOLD → bias spreading activation
+  → NHƯNG: chunks fire ở threat direction = PRIORITY CAO
+    (Threat.md: threat priority > PFC authority — evolutionary design)
+  → PFC bias KHÔNG ĐỦ MẠNH override threat-compiled chunks
   → = "Cố dừng 1 lần → thành công → nhưng 5 phút sau loop QUAY LẠI"
-  → = Ý chí KHÔNG PHỔ là giải pháp — vì vấn đề ở TUYẾN 1+2 (vô thức)
+    (PFC override = temporary HOLD, chunks fire LẠI khi PFC release)
+  → = Ý chí KHÔNG PHẢI giải pháp — vì vấn đề ở TUYẾN 1+2 (C+D zones)
 ```
 
-### 3.2 — OCD Spectrum (nhẹ → nặng)
+### §3.3 — Spectrum: nhẹ → nặng
 
 ```
 ┌──────────────┬──────────┬───────────┬───────────┬──────────────────┐
@@ -190,7 +263,7 @@ Qua framework:
 │ Bình thường  │ OK       │ OK        │ OK        │ Rửa tay → xong   │
 ├──────────────┼──────────┼───────────┼───────────┼──────────────────┤
 │ Personality  │ Hơi yếu  │ OK        │ OK        │ "Hơi kỹ" nhưng   │
-│ trait        │          │           │           │ dừng được. Cẩn thận│
+│ trait        │          │           │           │ dừng được         │
 ├──────────────┼──────────┼───────────┼───────────┼──────────────────┤
 │ OCD nhẹ      │ Yếu      │ Hơi cao   │ OK        │ Rituals nhưng     │
 │              │          │           │           │ PFC override ĐƯỢC │
@@ -207,10 +280,10 @@ Qua framework:
 └──────────────┴──────────┴───────────┴───────────┴──────────────────┘
 ```
 
-### 3.3 — PANDAS/PANS: Bằng Chứng Sống Cho Tuyến 1
+### §3.4 — PANDAS/PANS: bằng chứng nhân quả cho tuyến 1
 
 ```
-⭐ PANDAS/PANS = validation CỰC MẠNH cho mô hình 3 tuyến
+⭐ PANDAS/PANS = VALIDATION CỰC MẠNH CHO MÔ HÌNH 3 TUYẾN
 
 PANDAS (Pediatric Autoimmune Neuropsychiatric Disorders
         Associated with Streptococcal infections):
@@ -219,263 +292,614 @@ PANDAS (Pediatric Autoimmune Neuropsychiatric Disorders
     ① Trẻ bị nhiễm streptococcus (viêm họng liên cầu khuẩn)
     ② Hệ miễn dịch tạo kháng thể chống strep
     ③ Kháng thể NHẦM tấn công basal ganglia (bao gồm CAUDATE NUCLEUS)
-    ④ Caudate bị viêm → "done" detector (OFC-caudate circuit) BỊ PHÁ
-    ⑤ Kết quả: OCD XUẤT HIỆN ĐỘT NGỘT — trong NGÀY, không phải tháng
+    ④ Caudate bị viêm → "done" detector (OFC-caudate) BỊ PHÁ
+    ⑤ OCD XUẤT HIỆN ĐỘT NGỘT — trong NGÀY, không phải tháng
 
   🟢 Evidence: Swedo et al. (1998), NIMH; multiple replications
-  🟢 PANS = phiên bản mở rộng (không chỉ strep, nhiều nguồn viêm khác)
+  🟢 PANS = phiên bản mở rộng (không chỉ strep)
 
-  TIMELINE (khác hẳn OCD thông thường):
+  TIMELINE:
     Tuần 0: trẻ BÌNH THƯỜNG hoàn toàn
     Tuần 1: nhiễm strep → sốt, viêm họng
     Tuần 2-4: kháng thể tấn công caudate
-    Tuần 3-6: OCD XUẤT HIỆN ĐỘT NGỘT + tics + anxiety BÙ:NG NỔ
-    → Cha mẹ: "con tôi như BIẾN THÀNH NGƯỜI KHÁC trong vài ngày"
+    Tuần 3-6: OCD XUẤT HIỆN ĐỘT NGỘT + tics + anxiety BÙNG NỔ
 
   TREATMENT:
     → Kháng sinh (diệt strep) → kháng thể GIẢM → caudate phục hồi
     → OCD GIẢM hoặc BIẾN MẤT khi hết viêm
-    → Nặng hơn: IVIG (immunoglobulin) hoặc plasmapheresis (lọc kháng thể)
+    → Nặng: IVIG hoặc plasmapheresis (lọc kháng thể)
 
   QUA FRAMEWORK — TẠI SAO QUAN TRỌNG:
-    → Kháng thể tấn công caudate = PHÁ TRỰC TIẾP tuyến 1 hardware
-    → Phá tuyến 1 → OCD xuất hiện → sửa tuyến 1 → OCD giảm
-    → = BẰNG CHỨNG NHÂN QUẢ (không chỉ correlation) rằng:
-        tuyến 1 = OFC-caudate = "done" detector
-    → = Validation MẠNH NHẤT có thể cho mô hình 3 tuyến
-
-    So sánh:
-      OCD thông thường: tuyến 1 yếu DẦN (genetic, aging) → khó tách biệt
-      PANDAS: tuyến 1 bị phá ĐỘT NGỘT bởi kháng thể → nhân quả RÕ RÀNG
-      → = "Natural experiment" — phá 1 tuyến cụ thể → xem kết quả
+    → Phá tuyến 1 → OCD → sửa tuyến 1 → OCD giảm
+    → = BẰNG CHỨNG NHÂN QUẢ (không chỉ correlation)
+    → = "Natural experiment" — phá 1 tuyến → xem kết quả
+    → = Validation MẠNH NHẤT cho mô hình 3 tuyến
 ```
 
 ---
 
-## 4. Love ↔ OCD: Cùng Circuit, Khác Mục Đích {#4-love-ocd}
+## §4 — V7.8 MAPPING: CHUNK DYNAMICS + SPREADING ACTIVATION
 
-> 🟢 Marazziti et al. (1999): Người đang yêu say đắm (infatuation) có
-> serotonin transporter GIẢM ~40% — BẰNG MỨC người OCD.
-> Đây KHÔNG phải trùng hợp.
+> **Section MỚI v2.0**: Map OCD vào v7.8 chunk-centric architecture.
 
-### 4.1 — "Yêu" Trông Giống OCD Thế Nào
+### §4.1 — OCD qua chunk dynamics (BFM)
 
 ```
-NGƯỜI ĐANG YÊU (infatuation, 0-12 tháng đầu):
-  → Nghĩ tới người đó LIÊN TỤC (intrusive thoughts ✓)
-  → Không dừng được dù MUỐN tập trung việc khác (compulsive ✓)
-  → Kiểm tra điện thoại liên tục (checking behavior ✓)
+🟡 OCD MAP VÀO BODY-FEEDBACK-MECHANISM.MD:
+
+  OCD OBSESSION = PATTERN-DRIVEN trigger (BFM §2.3):
+    → Chunks fire NỘI BỘ (không cần external stimulus thật)
+    → "Tay bẩn" = chunks fire MÀ KHÔNG CẦN thực sự chạm bẩn
+    → = Pattern-Driven ⓐ REPLAY + ⓔ SPREADING ACTIVATION
+    → Khác với sensory-driven: không có stimulus MỚI → chỉ internal loop
+
+  OCD COMPULSION = attempt tạo SENSORY-DRIVEN confirmation:
+    → Rửa tay = tạo sensory input "sạch" (nước, xà phòng, trơn)
+    → Mục đích: sensory input → "done" detector → DỪNG
+    → NHƯNG tuyến 1 noisy → sensory confirmation KHÔNG accepted
+    → = Compulsion = ĐÚNG strategy (tạo confirmation)
+      nhưng FAIL vì hardware (done detector lỗi)
+
+
+  OCD = CHUNK-MISS KHÔNG BAO GIỜ RESOLVE:
+
+    ┌────────────────────────────────────────────────────────────┐
+    │                                                            │
+    │  BÌNH THƯỜNG:                                               │
+    │    Body compiled baseline "tay SẠCH" → tay bẩn →            │
+    │    Chunk-Miss (actual < baseline) → rửa →                   │
+    │    done detector: MATCH → Chunk-Miss RESOLVE → opioid nhẹ  │
+    │                                                            │
+    │  OCD:                                                       │
+    │    Body compiled baseline "tay SẠCH" → tay bẩn →            │
+    │    Chunk-Miss (actual < baseline) → rửa →                   │
+    │    done detector: NOISY → Chunk-Miss KHÔNG RESOLVE →        │
+    │    VTA vẫn fire negative delta → rửa LẠI → LOOP            │
+    │                                                            │
+    │  = Cùng mechanism. Khác: done detector output quality.     │
+    └────────────────────────────────────────────────────────────┘
+
+    BFM §5 Quality Baseline Shift cũng áp dụng:
+    → Mỗi lần rửa thêm = baseline "sạch" TĂNG thêm
+    → = Threshold "đủ sạch" DẦN CAO HƠN qua mỗi compulsion
+    → = OCD ESCALATE theo thời gian vì baseline SHIFT LÊN
+    → = Crespi SNC 🟢: body compile baseline MỚI → cái cũ "không đủ"
+```
+
+### §4.2 — Spreading activation loop
+
+```
+🟡 OCD OBSESSIVE THINKING = UNINHIBITED SPREADING ACTIVATION:
+
+  (Chunk-Activation-Dynamics.md §2)
+
+  BÌNH THƯỜNG:
+    Chunk X fire → spreading activation → liên quan A, B, C fire nhẹ
+    → Serotonin = INHIBITOR: spreading activation bị GIỚI HẠN
+    → Chỉ chunks STRONG links fire → phần còn lại KHÔNG fire
+    → = "Nghĩ tới X → liên tưởng A → dừng"
+
+  OCD (serotonin ↓):
+    Chunk X fire → spreading activation → LESS INHIBITED
+    → A, B, C, D, E... fire → cascade RỘNG hơn bình thường
+    → Mỗi chunk fire → trigger thêm spreading → LOOP
+    → = "Nghĩ tới vi khuẩn → tay → cửa → bàn → mọi thứ → KHÔNG DỪNG"
+
+  ⭐ CÙNG CƠ CHẾ VỚI LIMERENCE (Love-Analysis.md v2.1 §2.1):
+
+    ┌──────────────────┬──────────────────────┬──────────────────────┐
+    │                  │ LIMERENCE            │ OCD                   │
+    ├──────────────────┼──────────────────────┼──────────────────────┤
+    │ Serotonin        │ ↓ ~40%               │ ↓ (tương đương)       │
+    │ Spreading activ. │ UNINHIBITED          │ UNINHIBITED           │
+    │ Target           │ Partner chunks       │ Threat chunks         │
+    │ Cascade          │ "Nghĩ tới em 24/7"  │ "Nghĩ tới vi khuẩn   │
+    │                  │                      │  24/7"                │
+    │ Exit condition   │ CÓ (bond compile)    │ KHÔNG (target ≠ bond) │
+    │ Self-resolves?   │ CÓ (12-18 tháng)    │ KHÔNG (cần treatment) │
+    │ Cortisol role    │ ① Compile APPROACH   │ ③ Threat-sustained    │
+    │ PFC đồng ý?     │ CÓ (ego-syntonic)    │ KHÔNG (ego-dystonic)  │
+    └──────────────────┴──────────────────────┴──────────────────────┘
+
+    = CÙNG mechanism (uninhibited spreading activation)
+    = CÙNG neurochemistry (serotonin ↓)
+    = KHÁC target (partner vs threat) → KHÁC outcome
+    = KHÁC direction (approach vs avoidance)
+```
+
+### §4.3 — Cortisol 5 Roles trong OCD
+
+```
+🟡 CORTISOL-BASELINE.MD §7.7 — 5 ROLES APPLIED TO OCD:
+
+  ┌─────────────────┬──────────────────────────────────────────────┐
+  │ Cortisol Role    │ Trong OCD                                    │
+  ├─────────────────┼──────────────────────────────────────────────┤
+  │ ① Compile       │ Chunks "vi khuẩn nguy hiểm" compiled ở      │
+  │   Direction     │ AVOIDANCE direction → threat-tagged →        │
+  │                 │ fire priority CAO → PFC khó override         │
+  ├─────────────────┼──────────────────────────────────────────────┤
+  │ ② Holding       │ "Chưa kiểm tra cửa" = gap chưa close →     │
+  │                 │ mild cortisol holding → PFC buộc quay lại    │
+  │                 │ check → "đã xong chưa?" → CHƯA (tuyến 1 lỗi)│
+  │                 │ → holding KHÔNG resolve → ESCALATE thành ③  │
+  ├─────────────────┼──────────────────────────────────────────────┤
+  │ ③ Threat-       │ OCD anxiety = cortisol sustained vì threat   │
+  │   sustained     │ CHƯA HẾT (body: "vi khuẩn VẪN CÓ THỂ").   │
+  │                 │ CÓ yếu tố SỢ → self-amplifying loop.       │
+  │                 │ = CHÍNH role SUSTAIN OCD suffering thành     │
+│                 │   chronic (amplifier, not root cause).       │
+  ├─────────────────┼──────────────────────────────────────────────┤
+  │ ④ Inertia       │ Sau compulsion: cortisol CHƯA về baseline    │
+  │                 │ dù vừa rửa xong. Body vẫn "chênh vênh"     │
+  │                 │ → NHẦM thành "chưa sạch" → trigger lại loop│
+  ├─────────────────┼──────────────────────────────────────────────┤
+  │ ⑤ Silent        │ OCD chronic → cortisol CAO LIÊN TỤC nhưng   │
+  │                 │ self-signal atrophy → PFC KHÔNG biết stress  │
+  │                 │ → damage tích lũy không awareness            │
+  │                 │ → PFC dendrite atrophy (Cortisol §9) →      │
+  │                 │ tuyến 3 SUY YẾU THÊM → OCD NẶNG THÊM      │
+  └─────────────────┴──────────────────────────────────────────────┘
+
+  ⭐ ESCALATION PATH:
+    ② Holding ("chưa xong") → ③ Threat-sustained ("SỢ")
+    → ⑤ Silent (chronic, atrophy) → tuyến 3 WEAKER → OCD WORSE
+    → = Vicious cycle: OCD → cortisol → PFC damage → OCD tăng
+```
+
+### §4.4 — PFC override failure qua PFC-Function.md
+
+```
+🟡 TUYẾN 3 MAP VÀO PFC-FUNCTION.MD:
+
+  PFC 24 functions × 5 categories. Tuyến 3 OCD override dùng:
+
+  HOLD: PFC hold "tôi biết tay sạch" = giữ chunk "sạch" active
+  PROCESS: PFC evaluate evidence "tay trơn, sạch, không mùi"
+  ORCHESTRATE: PFC bias spreading activation → "DỪNG rửa"
+
+  TẠI SAO FAIL:
+    → PFC = ~5% operator (PFC-Function.md)
+    → 95% = chunks fire vô thức ở C+D zones
+    → OCD chunks compiled ở THREAT DIRECTION (Role ①)
+    → Threat-direction = PRIORITY CAO (evolutionary: threat > logic)
+    → PFC 5% bias KHÔNG override 95% threat-priority chunks
+    → PFC consume energy CỰC LỚN → Cortisol §6: glucose depletion
+    → Override ngắn hạn OK → long-term = PFC kiệt → loop quay lại
+
+  = Tại sao CBT/ERP cần NHIỀU sessions:
+    → Mỗi session: PFC hold + body sit with anxiety + NOT compulse
+    → Body TỰ HỌC: "anxiety TỰ GIẢM dù không check"
+    → = RE-COMPILE chunks: "không check → VẪN OK" (new chunk)
+    → Chunks mới compile COMPETITIVE với chunks cũ
+      (Chunk-Activation-Dynamics.md §3: competitive re-linking)
+    → Nhiều sessions = chunks mới DẦN MẠNH HƠN chunks cũ
+    → = CBT không "xóa" OCD chunks → BUILD chunks mới competitive
+```
+
+### §4.5 — SEROTONIN ↓ = AMPLIFIER, NOT ROOT CAUSE
+
+```
+⭐ CÂU HỎI CỐT LÕI: Serotonin ↓ là CAUSE hay CONSEQUENCE?
+
+  MAINSTREAM ĐƠN GIẢN: serotonin ↓ → OCD/limerence
+    = 1 chiều. Serotonin = root cause.
+
+  FRAMEWORK: serotonin ↓ = CONSEQUENCE of uncertainty + AMPLIFIER of loop
+    = Feedback loop. Serotonin = amplifier, giống cortisol.
+
+
+  ⭐ MÔ HÌNH FEEDBACK LOOP:
+
+    [INITIAL TRIGGER] ← KHÁC NHAU tùy context
+         ↓
+    [UNCERTAINTY STATE] — body ở trạng thái "CHƯA CHẮC"
+         ↓
+    [SEROTONIN ↓] — certainty bias GIẢM (= CONSEQUENCE)
+         ↓
+    [SPREADING ACTIVATION UNINHIBITED] — cascade chunks
+         ↓
+    [OBSESSIVE THINKING] — monitor target liên tục
+         ↓
+    [VẪN CHƯA RESOLVE] — done detector fail HOẶC bond chưa compile
+         ↓
+    [UNCERTAINTY TIẾP TỤC] → quay lại ↑ → LOOP
+         ↓
+    [SEROTONIN CÒN THẤP HƠN] → amplify thêm → VICIOUS CYCLE
+
+
+  INITIAL TRIGGERS KHÁC NHAU:
+
+    OCD childhood onset:
+      → Tuyến 1 hardware LỖI BẨM SINH → done signal NOISY
+      → Body CHRONIC uncertainty ("chưa xong?")
+      → Serotonin ↓ = CONSEQUENCE of hardware failure
+      → → amplify loop thêm
+
+    OCD adult onset:
+      → Stress chronic → cortisol ↑ → serotonin ↓ (environment pathway)
+      → NHƯNG root cause = STRESS, không phải serotonin tự giảm
+
+    Love (limerence):
+      → SPM library incomplete (mới gặp) → prediction errors CAO
+      → Body GENUINE uncertainty about partner
+      → Serotonin ↓ = ADAPTIVE RESPONSE (monitor cần thiết)
+      → + Obligation unknown ("tôi phải trả GÌ để giữ?")
+      → + Có thể childhood SPM bias (§4.5b)
+      → = Serotonin ↓ = CONSEQUENCE of real uncertainty
+
+
+  PARALLEL VỚI CORTISOL (Cortisol-Baseline.md):
+
+    Cortisol = "amplifier, NOT cause.
+    Đau đến từ 3 nguồn KHÁC. Cortisol chỉ đồng hành."
+
+    Serotonin = "amplifier of uncertainty loop.
+    Uncertainty đến từ nguồn KHÁC. Serotonin khuếch đại."
+
+    CẢ HAI là FEEDBACK AMPLIFIERS, không phải ROOT CAUSES.
+
+
+  🟢 EVIDENCE ỦNG HỘ "AMPLIFIER" MODEL:
+
+    ① PANDAS: sửa tuyến 1 (caudate) → OCD HẾT
+       → NẾU serotonin = root cause → sửa caudate KHÔNG nên fix
+       → NẾU serotonin = consequence → sửa ROOT → uncertainty hết
+         → serotonin TỰ PHỤC HỒI → OCD hết ✓
+
+    ② SSRIs → bỏ → relapse ~80%:
+       → NẾU serotonin = root cause đã fix → bỏ KHÔNG nên relapse
+       → NẾU serotonin = amplifier → bỏ amplifier fix → root cause
+         VẪN CÒN → loop quay lại ✓
+
+    ③ CBT → bỏ → relapse chỉ ~20-30%:
+       → CBT sửa CHUNKS (root level, C+D zones)
+       → Root changed → loop KHÔNG quay lại (dù serotonin fluctuate)
+       → = Root-level fix > amplifier-level fix ✓
+
+    ④ Love tự resolve 12-18 tháng:
+       → Bond compile → uncertainty ↓ → serotonin TỰ PHỤC HỒI
+       → Serotonin phục hồi vì ROOT CAUSE resolved (not because meds)
+       → = Serotonin follows uncertainty state ✓
+
+
+  🟡 FRAMEWORK CLAIM:
+    Serotonin ↓ = CONSEQUENCE + AMPLIFIER, NOT ROOT CAUSE
+    Giống cortisol: participates, amplifies, but doesn't initiate
+    Root cause = tuyến 1 hardware / stress / genuine uncertainty
+```
+
+### §4.5b — SPM bias từ tuổi thơ × OCD-like trong Love
+
+```
+🟡 TẠI SAO MỘT SỐ NGƯỜI "YÊU" INTENSE HƠN → OCD-LIKE HƠN:
+
+  SPM LIBRARY BUILD TỪ CAREGIVER (Connection §3.2, §7):
+    → Bé học SPM TRƯỚC TIÊN trên bố mẹ
+    → Bố mẹ strict / unpredictable:
+      → SPM library build DEEP nhưng THREAT-BIASED
+        (Cortisol Role ① Compile Direction: AVOIDANCE)
+      → Chunks = "close agent → phải CANH CHỪNG"
+
+  ADULT → MEET PARTNER → SPM FIRE CÙNG LIBRARY:
+    → SPM retrieve: "close agent → monitor liên tục"
+    → "Partner buồn → TÔI CÓ LÀM GÌ SAI KHÔNG?"
+      (thay vì: "partner buồn vì lý do riêng")
+    → = HYPER-MONITORING — không phải vì partner xấu
+      mà vì SPM library compiled TỪ MÔI TRƯỜNG PHẢI monitor
+
+  HYPER-MONITORING → COMPOUND UNCERTAINTY:
+    → Mỗi expression partner → SPM fire → interpret qua THREAT lens
+    → "Họ yên lặng" → "giận? chán? sắp bỏ?" (predict sai thường xuyên)
+    → Prediction errors NHIỀU HƠN → uncertainty CAO HƠN
+    → + Obligation overthinking: "xứng đáng không? giữ sao? trả GÌ?"
+      (Obligation.md: obligation = compiled prediction "cost phải trả"
+       → relationship mới = obligation CHƯA COMPILE → Chunk-Gap)
+    → = 2 nguồn uncertainty COMPOUND:
+      ① SPM: "họ thật sự cảm thấy gì?"
+      ② Obligation: "tôi phải trả GÌ để giữ?"
+    → → Serotonin ↓ MẠNH HƠN → limerence INTENSE hơn + KÉO DÀI hơn
+
+  MAP VÀO ATTACHMENT THEORY (🟢 Bowlby 1969):
+    → "Anxious attachment" = SPM library compiled THREAT-BIASED
+    → Adult: monitoring OVER-ACTIVE → uncertainty CHRONIC
+    → Serotonin ↓ CHRONIC → limerence = OCD-like STATE
+    → = Framework giải thích MECHANISM đằng sau anxious attachment label
+
+  ⚠️ KHÔNG CHỈ CHILDHOOD — PARTNER CÓ THỂ LÀ NGUỒN:
+    → Partner genuinely unpredictable → SPM errors CAO vì PARTNER
+    → = SAME mechanism, DIFFERENT source
+    → = Childhood bias + partner unpredictable = COMPOUND → worst case
+```
+
+### §4.6 — Cross-species evidence: OCD = bug circuit CỔ
+
+```
+⭐ OCD-LIKE BEHAVIORS Ở NHIỀU LOÀI → CIRCUIT CỔ:
+
+  🟢 KHỈ RHESUS CAPTIVE (Novak et al. 2006):
+    → Repetitive behaviors (rocking, pacing, self-harm)
+    → Đặc biệt ở khỉ bị tách mẹ sớm (social deprivation)
+    → Serotonergic involvement (Lutz, Well & Novak research program —
+      fluoxetine giảm SIB, lower CSF serotonin trong SIB macaques)
+    → Basal ganglia circuits compromised (Mason & Latham 2004)
+    → = CÙNG vùng với OCD người (OFC-caudate)
+
+  🟢 DEER MICE (Korff, Stein & Harvey 2008):
+    → Tự phát triển compulsive jumping/somersaulting
+    → Respond to fluoxetine (SSRI) ✓ — nhưng KHÔNG respond desipramine
+      (= CHỈ serotonin path, giống OCD người)
+    → Frontal cortex involvement (Korff et al. 2008-2009 research program)
+    → = Ở loài KHÔNG CÓ PFC phức tạp
+
+  🟢 SAPAP3 KNOCKOUT MICE (Welch et al. 2007, Nature):
+    → Grooming compulsive đến rụng lông (facial lesions)
+    → Respond to fluoxetine ✓
+    → Cortico-striatal synaptic defects demonstrated
+    → = Genetic manipulation → OCD-like → support hardware cause
+    → = Landmark paper — strongest genetic model
+
+  🟢 HOXB8 MUTANT MICE (Greer & Capecchi 2002, Neuron;
+    bone marrow rescue: Chen et al. 2010, Cell):
+    → Excessive grooming → sửa bằng bone marrow transplant
+    → Mechanism: microglia replacement → neuroimmune
+    → = GỢI NHỚ PANDAS mechanism (autoimmune → basal ganglia)!
+
+  🟢 CHÓ — Canine Compulsive Disorder:
+    → Tail-chasing, flank-sucking, shadow-chasing
+    → Respond to fluoxetine (🟢 Irimajiri et al. 2009: RCT, 8.7× improvement)
+    → CDH2 gene chromosome 7 (Dodman et al. 2010, Molecular Psychiatry)
+    → Bull Terrier compulsive tail chasing (Moon-Fanelli et al. 2011)
+    → = Genetic component confirmed ở loài khác
+
+
+  ⭐ HỆ QUẢ CHO FRAMEWORK:
+
+    ┌───────────────────────────────────────────────────────────────┐
+    │                                                               │
+    │  NẾU OCD CHỈ Ở NGƯỜI → bug riêng PFC phức tạp               │
+    │  NẾU OCD Ở NHIỀU LOÀI → bug của CIRCUIT CỔ hơn PFC          │
+    │                                                               │
+    │  Evidence: chuột + chó + khỉ → CIRCUIT = BASAL GANGLIA       │
+    │  (OFC-caudate = tuyến 1) — circuit CỔ, CROSS-SPECIES         │
+    │                                                               │
+    │  → SUPPORT mạnh cho 3-tuyến model:                            │
+    │    Tuyến 1 (OFC-caudate) = HARDWARE CỔ, cross-species        │
+    │      → Chuột CÓ tuyến 1 → chuột CÓ THỂ OCD-like            │
+    │    Tuyến 2 (serotonin) = HARDWARE CỔ, cross-species          │
+    │      → SSRIs giúp chuột + chó + người → CÙNG mechanism       │
+    │    Tuyến 3 (PFC override) = CHỈ MẠNH Ở NGƯỜI                 │
+    │      → Người CÓ tuyến 3 → CBT possible                       │
+    │      → Chuột/chó KHÔNG CÓ tuyến 3 → CHỈ SSRIs/DBS           │
+    │                                                               │
+    │  → OCD = BUG CỦA CIRCUIT CỔ (tuyến 1+2)                     │
+    │    PFC (tuyến 3) = GIẢI PHÁP BỔ SUNG CHỈ NGƯỜI CÓ           │
+    └───────────────────────────────────────────────────────────────┘
+
+
+  ⭐ LIÊN KẾT VỚI "SEROTONIN = AMPLIFIER" (§4.5):
+
+    Deer mice: KHÔNG CÓ PFC phức tạp, KHÔNG "overthinking"
+      → VẪN OCD-like + serotonin thay đổi ở OFC
+      → = Ở chuột: serotonin ↓ gần HARDWARE CAUSE (gen, wiring)
+
+    Khỉ captive: social deprivation → compulsive
+      → = Ở khỉ: ENVIRONMENT trigger → serotonin ↓ = CONSEQUENCE
+
+    Người: CẢ HAI + THÊM PFC complexity
+      → Hardware (gen) → tuyến 1 lỗi → uncertainty → serotonin ↓
+      → Environment (stress/childhood SPM bias) → uncertainty → serotonin ↓
+      → Obligation overthinking → uncertainty → serotonin ↓
+      → = Người có NHIỀU ĐƯỜNG DẪN đến serotonin ↓ hơn chuột/chó
+
+    → Serotonin role = SPECTRUM tùy species complexity:
+      Chuột: serotonin gần HARDWARE CAUSE (ít nguồn uncertainty)
+      Khỉ: serotonin = MIX cause + consequence (có social component)
+      Người: serotonin gần CONSEQUENCE + AMPLIFIER (NHIỀU nguồn uncertainty)
+```
+
+---
+
+## §5 — LOVE ↔ OCD: CÙNG CIRCUIT, KHÁC MỤC ĐÍCH
+
+> 🟢 Marazziti et al. (1999): Người đang yêu say đắm có
+> serotonin transporter GIẢM ~40% — BẰNG MỨC người OCD.
+
+### §5.1 — Cùng triệu chứng, khác label
+
+```
+NGƯỜI ĐANG YÊU (limerence, 0-18 tháng):
+  → Nghĩ tới partner LIÊN TỤC (intrusive thoughts ✓)
+  → Không dừng được dù MUỐN tập trung (compulsive ✓)
+  → Kiểm tra điện thoại liên tục (checking ✓)
   → Phân tích mọi tin nhắn, cử chỉ (rumination ✓)
   → Serotonin giảm ~40% (🟢 Marazziti 1999)
-  → = Nếu BỎ label "yêu" → triệu chứng = OCD
+  → Spreading activation uninhibited → cascade partner chunks
 
 NGƯỜI OCD (contamination type):
   → Nghĩ tới vi khuẩn LIÊN TỤC (intrusive thoughts ✓)
   → Không dừng được dù BIẾT vô lý (compulsive ✓)
-  → Kiểm tra tay liên tục (checking behavior ✓)
+  → Kiểm tra tay liên tục (checking ✓)
   → Phân tích mọi bề mặt đã chạm (rumination ✓)
   → Serotonin thấp (🟢 established)
-  → = Nếu BỎ label "OCD" → triệu chứng = đang yêu... vi khuẩn
+  → Spreading activation uninhibited → cascade threat chunks
 
-→ = CÙNG neural circuit. CÙNG neurochemistry. CÙNG behavior pattern.
+→ = CÙNG mechanism. CÙNG neurochemistry. CÙNG behavior pattern.
+→ Bỏ label → triệu chứng GIỐNG NHAU.
 ```
 
-### 4.2 — Tại Sao Cùng Circuit?
+### §5.2 — Tại sao cùng circuit (evolutionary logic)
 
 ```
-🟡 SUY LUẬN QUA FRAMEWORK:
+🟡 EVOLUTION ĐÃ BUILD 1 CIRCUIT:
 
-Evolution đã build 1 circuit:
-  "Khi gặp thứ QUAN TRỌNG + CHƯA CHẮC CHẮN → giảm serotonin
-   → giảm certainty bias → OBSESS → monitor liên tục
+  "Khi gặp thứ QUAN TRỌNG + CHƯA CHẮC CHẮN
+   → giảm serotonin → giảm certainty bias
+   → OBSESS → monitor liên tục
    → cho tới khi ĐỦ CHẮC CHẮN → serotonin phục hồi → dừng"
 
-Circuit này ĐÚNG THIẾT KẾ khi:
-  → Gặp người mới (potential mate) = QUAN TRỌNG + CHƯA CHẮC
-  → Serotonin giảm → obsess về người đó → monitor mọi signal
-  → = ĐẢM BẢO phát hiện: "người này có đáng bond không?"
-  → = Nếu đáng → bond compile → serotonin phục hồi → obsession giảm
-  → = Nếu không đáng → detect sớm → rút lui → serotonin phục hồi
+  Circuit ĐÚNG THIẾT KẾ khi:
+    → Target = potential mate (QUAN TRỌNG + CHƯA CHẮC)
+    → Serotonin ↓ → obsess → monitor mọi signal
+    → Bond compile → "đủ biết" → serotonin phục hồi → obsession giảm
+    → = "Yêu" = circuit obsessive-monitoring HOẠT ĐỘNG ĐÚNG MỤC ĐÍCH
 
-  = "Yêu" = circuit obsessive-monitoring HOẠT ĐỘNG ĐÚNG MỤC ĐÍCH
+  Circuit LỖI khi:
+    → Target = thứ KHÔNG CẦN monitoring (tay sạch, cửa khóa, số chẵn)
+    → Serotonin ↓ → obsess → NHƯNG target KHÔNG BAO GIỜ "đủ chắc"
+    → "Tay sạch" KHÔNG THỂ confirm bằng bond (khác "người này đáng yêu")
+    → = Circuit chạy ĐÚNG CÁCH nhưng NHẦM TARGET
 
-Circuit này LỖI khi:
-  → Target = thứ KHÔNG CẦN monitoring (tay sạch, cửa khóa, số chẵn)
-  → Serotonin vẫn giảm → obsess → NHƯNG target KHÔNG BAO GIỜ "đủ chắc"
-  → Vì: "tay sạch" KHÔNG THỂ confirm bằng bond (khác "người này đáng yêu")
-  → = Circuit chạy ĐÚNG CÁCH nhưng NHẦM TARGET
-
-  = "OCD" = circuit obsessive-monitoring HOẠT ĐỘNG NHẦM MỤC ĐÍCH
+  TƯƠNG TỰ Y HỌC:
+    Sốt = FEATURE (chống nhiễm trùng) → sốt mãn tính = BUG (autoimmune)
+    Obsession yêu = FEATURE (monitor mate) → obsession OCD = BUG (monitor sai target)
 ```
 
-### 4.3 — 3 Khác Biệt Quan Trọng
+### §5.3 — 3 khác biệt quan trọng
 
 ```
 ┌─────────────────┬───────────────────────┬───────────────────────┐
-│                 │ YÊU (infatuation)     │ OCD                   │
+│                 │ YÊU (limerence)       │ OCD                   │
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ Target          │ Người thật, CÓ GIÁ   │ Thứ không cần monitor │
-│                 │ TRỊ bond              │ (vi khuẩn, ổ khóa)   │
+│ Target          │ Partner — CÓ GIÁ TRỊ │ Thứ không cần monitor │
+│                 │ bond, exit condition  │ (vi khuẩn, ổ khóa)   │
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ PFC đồng ý?    │ CÓ — "tôi MUỐN nghĩ  │ KHÔNG — "tôi BIẾT    │
-│                 │ về người đó"          │ vô lý nhưng ko dừng" │
-│                 │ (ego-syntonic)        │ (ego-dystonic)        │
+│ PFC đồng ý?    │ CÓ — ego-syntonic     │ KHÔNG — ego-dystonic  │
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ Tự dừng?       │ CÓ — 12-18 tháng     │ KHÔNG — cần treatment │
-│                 │ bond compile →        │ "done" detector lỗi   │
-│                 │ serotonin phục hồi    │ → không tự sửa        │
+│ Tự dừng?       │ CÓ — bond compile →   │ KHÔNG — cần treatment │
+│                 │ done detector: DONE   │ done detector: LỖI    │
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ "Done" detector │ HOẠT ĐỘNG — bond      │ LỖI — signal bẩn      │
-│                 │ compile = "done"      │ → loop vô hạn         │
+│ Reward          │ CÓ — opioid, oxytocin│ KHÔNG — chỉ giảm      │
+│                 │ (body-need met THẬT)  │ anxiety TẠM            │
 ├─────────────────┼───────────────────────┼───────────────────────┤
-│ Reward          │ CÓ — oxytocin,       │ KHÔNG — chỉ giảm      │
-│                 │ opioid, dopamine      │ anxiety TẠM            │
+│ Cortisol role   │ ① APPROACH compile   │ ③ Threat-sustained    │
+├─────────────────┼───────────────────────┼───────────────────────┤
+│ Body-Base Ext   │ Partner → extension   │ KHÔNG (target = object)│
+│ (VP §2)        │ (L2 structural)       │                       │
 ├─────────────────┼───────────────────────┼───────────────────────┤
 │ Adaptive?       │ CÓ — monitor mate    │ KHÔNG — waste energy   │
-│                 │ quality = survival     │ trên non-threat        │
 └─────────────────┴───────────────────────┴───────────────────────┘
-
-TƯƠNG TỰ Y HỌC:
-  → Sốt = FEATURE (chống nhiễm trùng) → sốt mãn tính = BUG (autoimmune)
-  → Obsession yêu = FEATURE (monitor mate) → obsession OCD = BUG (monitor sai target)
-  → CÙNG mechanism. KHÁC outcome. Tùy TARGET + tùy TỰ DỪNG ĐƯỢC KHÔNG.
 ```
 
-### 4.4 — Timeline: Yêu DỪNG Thế Nào (mà OCD không dừng)
+### §5.4 — Timeline: yêu DỪNG thế nào (mà OCD không dừng)
 
 ```
 YÊU — Timeline serotonin:
 
-  Tháng 1-3: INFATUATION
-    → Serotonin ↓40% → obsess CỰC MẠNH → "nghĩ tới em 24/7"
+  Tháng 1-3: LIMERENCE
+    → Serotonin ↓40% → spreading activation uninhibited → obsess CỰC MẠNH
     → "Done" detector: ĐANG check → chưa done (bond chưa compile)
     → = ĐÚNG — bond mới CẦN monitoring
 
   Tháng 3-12: BONDING
-    → Gặp nhiều → predict chính xác hơn → uncertainty GIẢM
-    → Schema "người này" compile DẦN → vô thức "biết" dần
-    → Serotonin PHỤC HỒI DẦN → obsession GIẢM DẦN
+    → Gặp nhiều → SPM library build (Love §3.2) → uncertainty GIẢM
+    → Chunks về partner compile DẦN → C+D zones "biết" dần
+    → Serotonin PHỤC HỒI DẦN → spreading activation BỊ INHIBIT lại
     → = Bond đang compile → done detector dần nhận "đủ biết"
 
   Tháng 12-18: ATTACHMENT
-    → Schema "người này" ĐÃ compile (vô thức biết rõ)
+    → Chunks về partner ĐÃ compile (SPM library DEEP)
     → Serotonin BÌNH THƯỜNG → certainty cao → hết obsess
-    → = "Tình yêu ban đầu phai" = KHÔNG PHẢI hết yêu
-    → = OBSESSION hết vì bond đã compile → done detector: "DONE monitoring"
-    → Chuyển từ: dopamine+obsession → oxytocin+comfort
-
-  → = Circuit TỰ TẮT khi mục đích hoàn thành (bond compiled)
+    → L2 body-base extension compiled → structural reward thay thế L1
+    → = "Tình yêu ban đầu phai" = OBSESSION hết, ATTACHMENT còn
+    → = Circuit TỰ TẮT khi mục đích hoàn thành (bond compiled)
 
 OCD — KHÔNG có timeline tương tự:
   → Target (vi khuẩn, ổ khóa) KHÔNG compile thành "bond"
   → "Done" detector KHÔNG BAO GIỜ nhận "đủ"
-  → Serotonin KHÔNG TỰ phục hồi (vì circuit KHÔNG hoàn thành mục đích)
-  → = Loop VÔ HẠN — cần external intervention (SSRIs, therapy)
+  → Serotonin KHÔNG TỰ phục hồi
+  → = Loop VÔ HẠN — cần external intervention
 ```
 
-### 4.5 — Khi Yêu KHÔNG Dừng: Limerence
+### §5.5 — Khi yêu KHÔNG dừng: limerence kéo dài
 
 ```
-🟡 FRAMEWORK PREDICTION:
+🟡 LIMERENCE KÉO DÀI = "YÊU" STUCK TRONG OCD-LIKE STATE:
 
-  Limerence = obsessive love KÉO DÀI quá 12-18 tháng
-  → Bond KHÔNG compile (vì: relationship bất ổn, unrequited, on-off)
-  → "Done" detector: KHÔNG BAO GIỜ nhận "done" (vì bond CHƯA BAO GIỜ ổn)
-  → Serotonin VẪN THẤP → obsession VẪN CÓ → CÓ THỂ kéo dài NĂM
-
-  = Limerence = "yêu" STUCK trong OCD-like state
-  → Vì: uncertainty KHÔNG ĐƯỢC resolve
-  → Nếu relationship ổn → bond compile → limerence tự hết
-  → Nếu relationship MÃI bất ổn → limerence = chronic → GIỐNG OCD
+  Limerence kéo dài quá 18 tháng → bond KHÔNG compile:
+    → Relationship bất ổn, unrequited, on-off
+    → "Done" detector: KHÔNG BAO GIỜ nhận "done" (bond chưa ổn)
+    → Serotonin VẪN THẤP → spreading activation VẪN uninhibited
+    → = OCD-like state với target = NGƯỜI
 
   Hậu quả:
-    → Stalking = compulsive checking behavior (OCD pattern)
+    → Stalking = compulsive checking (OCD checking pattern)
     → Jealousy extreme = uncertainty monitoring overload
-    → "Không thể buông" = "done" detector KHÔNG fire (bond chưa compile + chưa fail)
-    → = CÙNG mechanism OCD, chỉ target = NGƯỜI thay vì VẬT
+    → "Không thể buông" = done detector CHƯA fire (bond chưa compile + chưa fail)
+    → = CÙNG mechanism OCD, target = NGƯỜI thay vì VẬT
+
+  Qua v7.8:
+    → Limerence kéo dài = L2 body-base extension ĐANG compile
+      nhưng relationship bất ổn → compile KHÔNG hoàn thành
+    → Cortisol Role ② Holding → escalate ③ Threat-sustained
+    → = Nếu relationship ổn → bond compile → done → dừng
+    → = Nếu relationship MÃI bất ổn → chronic → giống OCD
 ```
 
 ---
 
-## 5. Serotonin = "Certainty Bias" — Chìa Khóa Chung {#5-serotonin}
-
-> Framework HPD: serotonin = certainty bias (Status-Analysis-v2.md)
-> Insight: nếu đúng, serotonin giải thích ĐỒNG THỜI nhiều hiện tượng.
+## §6 — SEROTONIN = "CERTAINTY BIAS"
 
 ```
-SEROTONIN = KHÔNG PHẢI "hormone hạnh phúc" (misconception phổ biến)
+⭐ FRAMEWORK: SEROTONIN = CERTAINTY BIAS (Status.md v2.0 §9.2)
 
-SEROTONIN = "CERTAINTY BIAS":
-  Serotonin CAO → "chắc chắn" về trạng thái hiện tại → ít cần check
-  Serotonin THẤP → "không chắc" → cần check nhiều → obsessive monitoring
+  POP SCIENCE:     "Serotonin = hạnh phúc. Thiếu = buồn."
+  FRAMEWORK:       Serotonin = certainty/stability. Thiếu = uncertainty/checking.
 
-  🟢 Evidence:
-    → SSRIs giúp OCD = tăng serotonin → tăng certainty → dễ chấp nhận "done"
-    → Tryptophan depletion → tăng impulsivity + indecision = giảm certainty
-    → Serotonin ≈ OCD khi yêu (Marazziti 1999) = giảm certainty về partner
-```
+  NẾU "hạnh phúc":
+    → Người yêu (serotonin ↓) = BUỒN? ← SAI. Cực kỳ intense.
+    → Người OCD (serotonin ↓) = BUỒN? ← Không hẳn. ANXIOUS.
+    → SSRIs chữa OCD vì "vui hơn"? ← SAI. Vì BỚT CHECK.
 
-### 5.1 — Serotonin Trong 3 Tuyến
-
-```
-TUYẾN 1 — "Done" detector:
-  → Serotonin KHÔNG trực tiếp sửa "done" detector
-  → "Done" detector = OFC-caudate hardware → serotonin không thay đổi wiring
-  → = Tại sao SSRIs GIÚP nhưng KHÔNG CHỮA DỨT OCD
-
-TUYẾN 2 — Satisfaction threshold:
-  → Serotonin TRỰC TIẾP ảnh hưởng:
-     Serotonin cao → threshold THẤP → "done" signal yếu VẪN ĐƯỢC ACCEPT
-     Serotonin thấp → threshold CAO → "done" signal phải CỰC MẠNH mới accept
-  → = SSRIs target ĐÚNG tuyến này → hạ threshold → dễ accept "done"
-  → = Tại sao SSRIs GIÚP: signal bẩn (tuyến 1 lỗi) + threshold thấp (SSRIs)
-       → signal bẩn VẪN vượt threshold → "done" ACCEPTED → loop dừng
-
-TUYẾN 3 — PFC override:
-  → Serotonin gián tiếp giúp: mood ổn → PFC bớt cortisol → override mạnh hơn
-  → Nhưng: KHÔNG phải mechanism chính
-```
-
-### 5.2 — Tại Sao "Hormone Hạnh Phúc" Là Sai
-
-```
-POP SCIENCE:     "Serotonin = hạnh phúc. Thiếu serotonin = buồn."
-THỰC TẾ:         Serotonin = certainty/stability. Thiếu = uncertainty/checking.
-
-  NẾU serotonin = "hạnh phúc":
-    → Người yêu say đắm (serotonin thấp) = BUỒN? ← Sai. Họ CỰC KỲ intense.
-    → Người OCD (serotonin thấp) = BUỒN? ← Không hẳn. Họ ANXIOUS.
-    → SSRIs chữa OCD = vì "vui hơn"? ← Sai. Vì BỚT CHECK.
-
-  NẾU serotonin = "certainty bias" (framework):
-    → Người yêu (serotonin thấp) = KHÔNG CHẮC về partner → obsess ← ĐÚNG
-    → Người OCD (serotonin thấp) = KHÔNG CHẮC "done" → check lại ← ĐÚNG
+  NẾU "certainty bias":
+    → Người yêu (serotonin ↓) = KHÔNG CHẮC về partner → obsess ← ĐÚNG
+    → Người OCD (serotonin ↓) = KHÔNG CHẮC "done" → check lại ← ĐÚNG
     → SSRIs = tăng certainty → dễ accept "done" → giảm checking ← ĐÚNG
     → Tryptophan depletion = giảm certainty → indecision ← ĐÚNG
 
   → "Certainty bias" giải thích NHIỀU HƠN "hạnh phúc"
+  → Status.md v2.0 §9.2: serotonin = Ratchet (dễ lên, khó xuống)
+    → OCD = ratchet STUCK ở mức thấp → certainty CỰC THẤP → check mãi
+
+
+  SEROTONIN TRONG 3 TUYẾN:
+
+    Tuyến 1 — "Done" detector:
+      → Serotonin KHÔNG sửa hardware wiring
+      → = Tại sao SSRIs GIÚP nhưng KHÔNG CHỮA DỨT OCD
+
+    Tuyến 2 — Satisfaction threshold:
+      → Serotonin TRỰC TIẾP ảnh hưởng:
+        Serotonin cao → threshold THẤP → "done" yếu VẪN ACCEPT
+        Serotonin thấp → threshold CAO → "done" phải CỰC MẠNH
+      → = SSRIs target ĐÚNG tuyến này
+
+    Tuyến 3 — PFC override:
+      → Serotonin gián tiếp: mood ổn → PFC bớt cortisol → override mạnh hơn
+
+
+  🟢 VALIDATION MẠNH:
+    → OCD cần SSRI liều 3-4× depression (fluoxetine 60-80mg vs 20mg)
+    → = OCD threshold CAO hơn → cần NHIỀU serotonin → "certainty bias" model
+    → Noradrenergic antidepressants (desipramine) → KHÔNG effective cho OCD
+    → = CHỈ serotonin path hoạt động → certainty bias, KHÔNG phải general mood
 ```
 
 ---
 
-## 6. Spectrum Rộng: Không Chỉ OCD {#6-spectrum}
-
-> 🟡 Nếu circuit "obsessive monitoring khi serotonin thấp" là đúng,
-> thì NHIỀU hiện tượng khác cũng nằm trên cùng spectrum.
+## §7 — SPECTRUM: KHÔNG CHỈ OCD
 
 ```
-CÙNG CIRCUIT, KHÁC TARGET:
+🟡 CÙNG CIRCUIT, KHÁC TARGET:
 
   ┌──────────────────┬───────────────────────┬────────────┬──────────┐
   │ Hiện tượng       │ Target monitoring     │ Adaptive?  │ Tự dừng? │
   ├──────────────────┼───────────────────────┼────────────┼──────────┤
-  │ Yêu (infatuation)│ Người mới (mate)     │ CÓ         │ CÓ (12-18│
-  │                  │                       │            │ tháng)   │
+  │ Yêu (limerence)  │ Potential mate        │ CÓ         │ CÓ       │
   ├──────────────────┼───────────────────────┼────────────┼──────────┤
-  │ Limerence        │ Người yêu bất ổn     │ Partially  │ KHÓ      │
+  │ Limerence kéo dài│ Người yêu bất ổn     │ Partially  │ KHÓ      │
   ├──────────────────┼───────────────────────┼────────────┼──────────┤
   │ Health anxiety    │ Body symptoms        │ KHÔNG      │ KHÔNG    │
-  │ (hypochondria)   │                       │            │          │
   ├──────────────────┼───────────────────────┼────────────┼──────────┤
   │ OCD contamination│ Vi khuẩn, bẩn        │ KHÔNG      │ KHÔNG    │
   ├──────────────────┼───────────────────────┼────────────┼──────────┤
@@ -483,413 +907,410 @@ CÙNG CIRCUIT, KHÁC TARGET:
   ├──────────────────┼───────────────────────┼────────────┼──────────┤
   │ Jealousy extreme │ Partner + rivals      │ Partially  │ TÙY      │
   ├──────────────────┼───────────────────────┼────────────┼──────────┤
-  │ Eating disorder  │ Thức ăn, body image   │ KHÔNG      │ KHÔNG    │
-  │ (some types)     │                       │            │          │
-  ├──────────────────┼───────────────────────┼────────────┼──────────┤
-  │ BDD (Body        │ Khuyết điểm ngoại    │ KHÔNG      │ KHÔNG    │
-  │ Dysmorphic       │ hình (thường tưởng   │            │          │
-  │ Disorder)        │ tượng hoặc phóng đại)│            │          │
-  │ 🟢 DSM-5: OCD   │                       │            │          │
+  │ BDD              │ Khuyết điểm ngoại    │ KHÔNG      │ KHÔNG    │
+  │ 🟢 DSM-5: OCD   │ hình (phóng đại)     │            │          │
   │ spectrum         │                       │            │          │
   ├──────────────────┼───────────────────────┼────────────┼──────────┤
   │ PTSD intrusions  │ Traumatic event       │ Partially  │ KHÓ      │
-  │                  │ (re-monitoring)       │            │          │
   └──────────────────┴───────────────────────┴────────────┴──────────┘
 
-PATTERN CHUNG:
-  → Serotonin THẤP → certainty THẤP → obsessive monitoring TARGET
-  → Target CÓ "done" rõ ràng + TỰ resolve → TỰ DỪNG (yêu)
-  → Target KHÔNG CÓ "done" rõ + KHÔNG resolve → KHÔNG DỪNG (OCD, anxiety)
-  → = Bệnh lý = circuit ĐÚNG chạy trên target SAI hoặc không có exit condition
+  PATTERN CHUNG:
+    → Serotonin ↓ → certainty ↓ → spreading activation uninhibited → obsessive monitor
+    → Target CÓ exit condition + TỰ resolve → TỰ DỪNG (yêu)
+    → Target KHÔNG exit condition → KHÔNG DỪNG (OCD, anxiety)
+    → = Bệnh lý = circuit ĐÚNG chạy trên target SAI hoặc không có exit
 ```
 
 ---
 
-## 7. Treatment Map Vào 3 Tuyến {#7-treatment}
+## §8 — TREATMENT MAP VÀO 3 TUYẾN
 
 ```
-MỖI TREATMENT HIỆN CÓ TARGET 1 TUYẾN CỤ THỂ:
+MỖI TREATMENT TARGET 1 TUYẾN CỤ THỂ:
 
 ┌──────────────────┬───────────┬──────────────────────────────────────┐
 │ Treatment        │ Tuyến     │ Cách hoạt động qua framework        │
 ├──────────────────┼───────────┼──────────────────────────────────────┤
 │ SSRIs            │ Tuyến 2   │ Tăng serotonin → hạ threshold →     │
 │ (fluoxetine,     │           │ signal bẩn VẪN được accept →         │
-│ fluvoxamine)     │           │ "done" loop dừng                     │
-│                  │           │ ⚠️ OCD cần liều CAO hơn depression:  │
-│                  │           │   Depression: fluoxetine 20mg        │
-│                  │           │   OCD: fluoxetine 60-80mg (gấp 3-4x)│
-│                  │           │   → OCD threshold CAO hơn nhiều →    │
-│                  │           │     cần NHIỀU serotonin hơn để vượt  │
-│                  │           │   = Support "certainty bias" model   │
+│ fluvoxamine)     │           │ "done" loop dừng.                    │
+│                  │           │ ⚠️ OCD: 60-80mg (3-4× depression)   │
 │                  │           │ 🟢 First-line, effective ~60%        │
 ├──────────────────┼───────────┼──────────────────────────────────────┤
-│ CBT / ERP        │ Tuyến 3   │ Train PFC override MẠNH hơn:        │
-│ (Exposure &      │           │ "Tôi BIẾT xong → NGỒI với anxiety   │
-│ Response         │           │ → KHÔNG compulse → body TỰ HỌC      │
-│ Prevention)      │           │ 'anxiety tự giảm dù không check'"   │
-│                  │           │ = Train PFC + re-compile schema      │
+│ CBT / ERP        │ Tuyến 3   │ Train PFC HOLD + sit with anxiety   │
+│                  │           │ + NOT compulse → body TỰ HỌC        │
+│                  │           │ "anxiety tự giảm dù không check"    │
+│                  │           │ = RE-COMPILE chunks (competitive     │
+│                  │           │ re-linking — Chunk-Activation §3)    │
 │                  │           │ 🟢 Effective, especially + SSRIs     │
 ├──────────────────┼───────────┼──────────────────────────────────────┤
-│ SSRIs + CBT      │ Tuyến    │ SSRIs hạ threshold (tuyến 2) →       │
-│ (COMBO)          │ 2 + 3    │ PFC override DỄ HƠN (tuyến 3) →     │
-│                  │           │ CÙNG LÚC sửa 2 tuyến → hiệu quả    │
-│                  │           │ 🟢 BEST combination, gold standard   │
+│ SSRIs + CBT      │ 2 + 3    │ SSRIs hạ threshold → PFC override    │
+│ (COMBO)          │           │ DỄ HƠN → ERP thành công HƠN →       │
+│                  │           │ chunks re-compile NHANH hơn.         │
+│                  │           │ 🟢 GOLD STANDARD                     │
 ├──────────────────┼───────────┼──────────────────────────────────────┤
-│ DBS              │ Tuyến 1   │ Deep Brain Stimulation: kích thích   │
-│ (Deep Brain      │           │ OFC-caudate trực tiếp → sửa         │
-│ Stimulation)     │           │ "done" detector ở hardware level     │
+│ Clomipramine     │ Tuyến 2   │ Serotonergic MẠNH hơn SSRIs.        │
+│                  │ (mạnh hơn)│ Side effects nhiều → second-line.    │
+│                  │           │ ⭐ Noradrenergic (desipramine) →     │
+│                  │           │ KHÔNG effective → CHỈ serotonin path │
+│                  │           │ 🟢 Clomipramine Collaborative 1991   │
+├──────────────────┼───────────┼──────────────────────────────────────┤
+│ Augmentation:    │ Tuyến 3   │ Antipsychotic liều thấp → giảm      │
+│ Antipsychotics   │ (support) │ dopamine → giảm SALIENCE            │
+│                  │           │ (Dopamine-Reward-Rejection.md) →     │
+│                  │           │ threat priority GIẢM →               │
+│                  │           │ PFC override DỄ hơn                  │
+│                  │           │ 🟢 ~30% treatment-resistant respond  │
+├──────────────────┼───────────┼──────────────────────────────────────┤
+│ DBS              │ Tuyến 1   │ Kích thích OFC-caudate TRỰC TIẾP →  │
+│                  │           │ sửa "done" detector ở hardware      │
 │                  │           │ 🟢 Last resort, invasive but works   │
 ├──────────────────┼───────────┼──────────────────────────────────────┤
-│ Clomipramine     │ Tuyến 2   │ Tricyclic antidepressant, serotonergic│
-│ (Anafranil)      │ (mạnh    │ MẠNH hơn SSRIs → đẩy threshold       │
-│                  │  hơn)    │ MẠNH hơn. Thuốc ĐẦU TIÊN proven     │
-│                  │           │ effective cho OCD (trước SSRIs).      │
-│                  │           │ Side effects nhiều → thường second-   │
-│                  │           │ line sau SSRIs fail.                  │
-│                  │           │ 🟢 Clomipramine Collaborative (1991) │
-│                  │           │ ⭐ Noradrenergic antidepressants      │
-│                  │           │ (desipramine) → KHÔNG effective cho   │
-│                  │           │ OCD → CHỈ serotonin path mới hoạt    │
-│                  │           │ động = validation certainty bias      │
+│ PANDAS treatment │ Tuyến 1   │ Kháng sinh → caudate phục hồi →     │
+│                  │ (direct)  │ "done" detector sửa ở hardware      │
+│                  │           │ 🟢 Swedo 1998; chỉ PANDAS/PANS      │
 ├──────────────────┼───────────┼──────────────────────────────────────┤
-│ Augmentation:    │ Tuyến 3   │ Khi SSRIs+CBT không đủ (~30-40%):    │
-│ Antipsychotics   │ (support) │ Thêm antipsychotic liều thấp →       │
-│ liều thấp        │           │ giảm dopamine → giảm SALIENCE        │
-│ (risperidone,    │           │ (mức "quan trọng" schema gán cho     │
-│ aripiprazole)    │           │ target) → threat priority GIẢM       │
-│                  │           │ → PFC override DỄ hơn (tuyến 3)     │
-│                  │           │ ≠ thay thế SSRIs (vẫn cần tuyến 2)  │
-│                  │           │ 🟢 Meta-analysis: ~30% treatment-    │
-│                  │           │   resistant patients respond          │
-├──────────────────┼───────────┼──────────────────────────────────────┤
-│ Mindfulness      │ Tuyến 3   │ Train meta-cognition: "tôi THẤY     │
-│                  │ (support) │ obsession → nó chỉ là thought →      │
-│                  │           │ không cần ACT" → PFC observation     │
+│ Mindfulness      │ Tuyến 3   │ "Tôi THẤY obsession → nó chỉ là    │
+│                  │ (support) │ thought → không cần ACT"            │
+│                  │           │ = PFC OBSERVE (Feeling.md v2.0)      │
 │                  │           │ 🟡 Adjunct, không đủ đơn lẻ         │
-├──────────────────┼───────────┼──────────────────────────────────────┤
-│ PANDAS treatment │ Tuyến 1   │ Kháng sinh (diệt strep) → kháng thể │
-│ (antibiotics,    │ (direct)  │ GIẢM → caudate phục hồi → "done"    │
-│ IVIG)            │           │ detector sửa ở hardware level        │
-│                  │           │ Nặng: IVIG / plasmapheresis (lọc     │
-│                  │           │ kháng thể trực tiếp)                 │
-│                  │           │ 🟢 Swedo et al. (1998); chỉ áp dụng │
-│                  │           │   cho PANDAS/PANS subtype             │
 └──────────────────┴───────────┴──────────────────────────────────────┘
 
-⭐ TẠI SAO COMBO TỐT NHẤT (SSRIs + CBT):
-  → SSRIs: hạ threshold → signal bẩn dễ accept hơn → anxiety GIẢM
-  → CBT/ERP: train PFC + re-compile schema → LONG-TERM fix
+⭐ TẠI SAO COMBO TỐT NHẤT:
+  → SSRIs = cầu tạm (hạ threshold tuyến 2)
+  → CBT = sửa đường (re-compile chunks tuyến 3)
   → SSRIs TẠO ĐIỀU KIỆN cho CBT:
-     Anxiety thấp hơn → PFC override DỄ hơn → ERP thành công hơn
-     → Schema re-compile nhanh hơn → có thể GIẢM SSRIs sau
-  → = SSRIs = cầu tạm (hạ threshold) → CBT = sửa đường (re-compile schema)
+    anxiety ↓ → PFC override DỄ → ERP thành công → chunks re-compile
+  → = Có thể GIẢM SSRIs sau khi CBT đã re-compile đủ
 
-⚠️ TẠI SAO SSRIs ĐƠN LẺ CHƯA ĐỦ:
-  → SSRIs sửa tuyến 2 (threshold) → nhưng:
-     Tuyến 1 VẪN LỖI (hardware) → signal VẪN bẩn
-     Schema VẪN compiled ở threat priority → chưa re-compile
-  → = Bỏ SSRIs → threshold TĂNG LẠI → loop QUAY LẠI
-  → = Cần CBT để RE-COMPILE schema → long-term fix
+⚠️ SSRIs ĐƠN LẺ CHƯA ĐỦ:
+  → Sửa tuyến 2 → nhưng tuyến 1 VẪN lỗi + chunks VẪN compiled threat
+  → Bỏ SSRIs → threshold TĂNG LẠI → loop QUAY LẠI
+  → 🟢 Relapse: SSRIs alone ~80%, SSRIs+CBT ~30-50%, CBT alone ~20-30%
+  → = CBT thay đổi CẤU TRÚC (chunks) → long-term tốt nhất
 ```
 
 ---
 
-## 8. Tesla Case Study — Trajectory Functional → OCD-like {#8-tesla}
-
-> (Chi tiết: Characters.md §5.3b)
+## §9 — TESLA CASE STUDY
 
 ```
-TESLA = KHÔNG PHẢI OCD bẩm sinh. Là TRAJECTORY:
+🟡 TESLA = KHÔNG PHẢI OCD BẨM SINH. LÀ TRAJECTORY:
 
 GIAI ĐOẠN 1 — Functional (trẻ → trung niên):
   → Visual-dominant CỰC MẠNH (eidetic imagery)
-  → Rituals nhỏ: sắp xếp gọn gàng, patterns = Tuyến 2 functional
-  → "Done" detector: INTACT → endpoint ĐẠT → dừng
-  → PFC: MẠNH → override khi cần → kiểm soát
+  → Rituals nhỏ: sắp xếp gọn gàng, patterns = functional
+  → "Done" detector: INTACT → dừng đúng lúc
+  → PFC: MẠNH → override khi cần
   → = "Kỹ tính" → giúp work quality → PRODUCTIVE
 
 GIAI ĐOẠN 2 — Escalation (50s-60s):
-  → Cortisol mãn tính: cô đơn, nghèo, funding mất, bị exploit
-  → Aging: OFC-caudate SUY YẾU DẦN → "done" detector GIẢM ĐỘ TIN CẬY
-  → PFC aging: dlPFC SUY GIẢM → override YẾU DẦN
-  → Serotonin có thể GIẢM (cortisol mãn tính → disrupts serotonin)
-  → = Tuyến 1 suy + Tuyến 2 suy + Tuyến 3 suy = 3 tuyến CÙNG yếu dần
+  → Cortisol chronic: cô đơn, nghèo, bị exploit
+    (Cortisol §7.7 Role ③ → ⑤ Silent: damage tích lũy)
+  → Aging: OFC-caudate SUY YẾU DẦN → tuyến 1 giảm
+  → PFC aging: dlPFC giảm → tuyến 3 giảm
+  → Serotonin giảm (cortisol chronic → disrupt serotonin) → tuyến 2 giảm
+  → = 3 tuyến CÙNG suy yếu dần
 
 GIAI ĐOẠN 3 — OCD-like (cuối đời, 1930s-1943):
-  → Số CỐ ĐỊNH (luôn chia hết cho 3) = dấu hiệu "done" detector LỖI
+  → Số CỐ ĐỊNH (chia hết cho 3) = "done" detector LỖI
   → Rituals CỨNG NHẮC → không flexibility
-  → Chunks CỰC SÂU CỰC HẸP → cross-domain flexibility THẤP
-  → = TRƯỢT từ functional → OCD-like theo trajectory §3.2
-  → = Hardware aging × cortisol mãn tính × chunks hẹp
+  → Chunk library CỰC SÂU CỰC HẸP → cross-domain flexibility THẤP
+  → = TRƯỢT từ functional → OCD-like theo trajectory
 
 QUA FRAMEWORK:
   → Tesla KHÔNG "bị" OCD → Tesla TRƯỢT VÀO OCD-like
-  → 3 tuyến suy yếu ĐỒNG THỜI theo thời gian
-  → Nếu cuộc sống ổn (ít cortisol) + aging chậm → CÓ THỂ giữ functional
-  → = OCD-like cuối đời = kết quả TRAJECTORY, không phải số phận
+  → 3 tuyến suy yếu ĐỒNG THỜI + isolation + cortisol chronic
+  → Nếu cuộc sống ổn → CÓ THỂ giữ functional
+  → = OCD-like cuối đời = TRAJECTORY, không phải số phận
 ```
 
-## 9. Hardware vs Environment — Câu Hỏi Cốt Lõi {#9-hardware-env}
+---
 
-> OCD hoàn toàn do hardware (gen, wiring)? Hay một phần do cách "quản lý"
-> não bộ (stress, ngủ nghỉ, áp lực)? Trả lời: **CẢ HAI — tỷ lệ khác nhau theo người.**
+## §10 — HARDWARE VS ENVIRONMENT
 
 ```
-⭐ FRAMEWORK MAP — MỖI TUYẾN CÓ TỶ LỆ HARDWARE/ENVIRONMENT KHÁC NHAU:
+⭐ MỖI TUYẾN CÓ TỶ LỆ HARDWARE/ENVIRONMENT KHÁC NHAU:
 
 TUYẾN 1 — "Done" detector (OFC-caudate):
   Hardware:  ████████░░ ~80%
   Environment: ██░░░░░░░░ ~20%
   → Chủ yếu gen + wiring bẩm sinh
-  → PANDAS chứng minh: phá hardware → OCD xuất hiện → sửa → OCD giảm
-  → Aging ảnh hưởng (environment theo thời gian), nhưng cấu trúc = genetic
+  → PANDAS: phá hardware → OCD → sửa → hết = NHÂN QUẢ
   → = KHÓA cứng nhất trong 3 tuyến
 
 TUYẾN 2 — Satisfaction threshold (serotonin):
   Hardware:  █████░░░░░ ~50%
   Environment: █████░░░░░ ~50%
-  → Baseline serotonin = gen (hardware)
-  → NHƯNG: stress mãn tính → cortisol → suppress serotonin (environment)
-  → Thiếu ngủ → serotonin synthesis giảm (environment)
-  → Dinh dưỡng (tryptophan = nguyên liệu serotonin) (environment)
-  → = Tuyến LINH HOẠT nhất — cả gen lẫn lifestyle đều ảnh hưởng
+  → Baseline serotonin = gen
+  → NHƯNG: stress → cortisol → suppress serotonin (environment)
+  → Thiếu ngủ → serotonin synthesis giảm
+  → Dinh dưỡng (tryptophan) → environment
+  → = Tuyến LINH HOẠT nhất
 
 TUYẾN 3 — PFC override:
   Hardware:  ███░░░░░░░ ~30%
   Environment: ███████░░░ ~70%
-  → PFC capacity có baseline gen
+  → PFC capacity baseline = gen
   → NHƯNG: stress → cortisol → PFC impaired (🟢 Arnsten 2009)
-  → Thiếu ngủ → PFC giảm 20-30% function (🟢 established)
-  → Training (CBT, mindfulness) → PFC override MẠNH hơn
-  → = Tuyến DỄ THAY ĐỔI nhất — cả suy yếu lẫn cải thiện
-```
+  → Training (CBT) → PFC override MẠNH hơn
+  → = Tuyến DỄ THAY ĐỔI nhất
 
-```
-⭐ WAXING-WANING COURSE — OCD LÊN XUỐNG THEO ENVIRONMENT:
 
-  🟢 Evidence: Skoog & Skoog (1999), longitudinal 40 năm
+⭐ WAXING-WANING COURSE (🟢 Skoog & Skoog 1999):
 
-  OCD severity KHÔNG CỐ ĐỊNH — dao động theo:
+  OCD severity dao động theo environment:
 
-  ↑ TĂNG khi:                        QUA FRAMEWORK:
-  ┌───────────────────────────┬───────────────────────────────────┐
-  │ Stress period (thi cử,   │ Cortisol ↑ → tuyến 2 yếu        │
-  │ mất việc, chia tay)      │ (serotonin ↓) + tuyến 3 yếu     │
-  │                          │ (PFC impaired)                    │
-  ├───────────────────────────┼───────────────────────────────────┤
-  │ Thiếu ngủ mãn tính       │ PFC ↓20-30% → tuyến 3 fail      │
-  │                          │ + serotonin synthesis ↓ → tuyến 2│
-  ├───────────────────────────┼───────────────────────────────────┤
-  │ Life transitions (dọn    │ Uncertainty ↑ → serotonin ↓      │
-  │ nhà, đổi job, sinh con)  │ → threshold "done" ↑ → tuyến 2  │
-  ├───────────────────────────┼───────────────────────────────────┤
-  │ Bệnh lý / viêm nhiễm    │ PANDAS mechanism: viêm → tuyến 1 │
-  │                          │ + cortisol → tuyến 2+3           │
-  ├───────────────────────────┼───────────────────────────────────┤
-  │ Caffeine / chất kích     │ Arousal ↑ → schema threat ↑      │
-  │ thích quá liều           │ → priority > PFC → tuyến 3 khó   │
-  └───────────────────────────┴───────────────────────────────────┘
+  ↑ TĂNG khi: stress (cortisol ↑ → tuyến 2+3 ↓), thiếu ngủ (PFC ↓),
+    life transitions (uncertainty ↑ → serotonin ↓), viêm (PANDAS → tuyến 1)
 
-  ↓ GIẢM khi:                        QUA FRAMEWORK:
-  ┌───────────────────────────┬───────────────────────────────────┐
-  │ Giai đoạn ổn định cuộc   │ Cortisol ↓ → tuyến 2+3 phục hồi │
-  │ sống (relationship ổn,   │                                   │
-  │ job secure)              │                                   │
-  ├───────────────────────────┼───────────────────────────────────┤
-  │ Ngủ đủ, tập thể dục     │ Serotonin ↑ + PFC function ↑     │
-  │                          │ → tuyến 2+3 mạnh hơn             │
-  ├───────────────────────────┼───────────────────────────────────┤
-  │ CBT/ERP thành công       │ Schema re-compile + PFC train     │
-  │                          │ → tuyến 3 mạnh hơn lâu dài       │
-  ├───────────────────────────┼───────────────────────────────────┤
-  │ SSRIs đúng liều          │ Serotonin ↑ → threshold ↓         │
-  │                          │ → tuyến 2 compensate              │
-  └───────────────────────────┴───────────────────────────────────┘
+  ↓ GIẢM khi: cuộc sống ổn (cortisol ↓ → tuyến 2+3 phục hồi),
+    ngủ đủ + tập thể dục (serotonin ↑ + PFC ↑), CBT thành công,
+    SSRIs đúng liều
 
   → = OCD = hardware vulnerability + environment TRIGGER/MODULATE
   → = Giống diabetes: gen = vulnerability, lifestyle = trigger + severity
-```
 
-```
-⭐ "CHỮA KHỎI HẲN" — THỰC TẾ LÂM SÀNG:
 
-  🟢 Data từ meta-analyses + longitudinal studies:
+⭐ "CHỮA KHỎI HẲN":
 
+  🟢 Longitudinal data:
   ┌───────────────────────┬──────────┬───────────────────────────────┐
   │ Outcome               │ Tỷ lệ   │ Qua framework                 │
   ├───────────────────────┼──────────┼───────────────────────────────┤
   │ Full remission        │ ~25-30%  │ Tuyến 1 nhẹ + tuyến 2+3 sửa │
-  │ (hết hoàn toàn)      │          │ được → "done" pipeline phục   │
-  │                       │          │ hồi đủ → loop dừng           │
   ├───────────────────────┼──────────┼───────────────────────────────┤
-  │ Significant           │ ~40-50%  │ Tuyến 2+3 improve nhưng      │
-  │ improvement           │          │ tuyến 1 vẫn yếu → residual   │
-  │ (giảm nhiều, còn nhẹ)│          │ symptoms khi stress           │
+  │ Significant improve   │ ~40-50%  │ Tuyến 2+3 improve, tuyến 1   │
+  │                       │          │ vẫn yếu → residual khi stress │
   ├───────────────────────┼──────────┼───────────────────────────────┤
-  │ Partial response      │ ~15-20%  │ Chỉ 1 tuyến respond →        │
-  │ (giảm ít)            │          │ chưa đủ compensate            │
+  │ Partial response      │ ~15-20%  │ Chỉ 1 tuyến respond           │
   ├───────────────────────┼──────────┼───────────────────────────────┤
-  │ Treatment-resistant   │ ~10-15%  │ Tuyến 1 lỗi nặng (hardware)  │
-  │ (không đáp ứng)      │          │ → tuyến 2+3 không compensate  │
-  │                       │          │ đủ → cần DBS hoặc new        │
-  │                       │          │ approach                       │
+  │ Treatment-resistant   │ ~10-15%  │ Tuyến 1 lỗi nặng → cần DBS   │
   └───────────────────────┴──────────┴───────────────────────────────┘
 
-  RELAPSE (tái phát):
-    SSRIs đơn lẻ → dừng thuốc → ~80% relapse
-    SSRIs + CBT  → dừng thuốc → ~30-50% relapse
-    CBT đơn lẻ   → after treatment → ~20-30% relapse (tốt nhất long-term!)
+  Relapse (🟢):
+    SSRIs đơn lẻ → dừng → ~80% relapse (threshold TĂNG LẠI)
+    SSRIs + CBT  → dừng → ~30-50% relapse
+    CBT đơn lẻ   → after → ~20-30% relapse (chunks re-compiled = structural)
 
-    QUA FRAMEWORK:
-    → SSRIs = hạ threshold (tuyến 2) → BỎ → threshold TĂNG LẠI → relapse
-    → CBT = re-compile schema + train PFC (tuyến 3) → THAY ĐỔI CẤU TRÚC
-    → CBT thay đổi KHÔNG phụ thuộc thuốc → long-term tốt hơn
-    → COMBO tốt nhất: SSRIs tạo điều kiện CBT → dần giảm SSRIs → giữ CBT gains
-    → = ĐÚNG như file đã nói: "SSRIs = cầu tạm, CBT = sửa đường"
-
-  KẾT LUẬN:
-    → "Khỏi hẳn" = CÓ THỂ (~25-30%) nhưng KHÔNG đảm bảo
-    → Phần lớn = QUẢN LÝ ĐƯỢC (giống diabetes, hypertension)
-    → Hardware nặng (tuyến 1 lỗi nặng) = khó khỏi hẳn → quản lý lâu dài
-    → Hardware nhẹ + environment chính = khả năng khỏi hẳn CAO hơn
-    → = OCD KHÔNG PHẢI "yếu ý chí" — là condition y khoa cần treatment
+  → CBT = thay đổi CẤU TRÚC (re-compile chunks) → long-term tốt nhất
+  → COMBO: SSRIs tạo điều kiện → CBT re-compile → giảm SSRIs → giữ gains
+  → OCD KHÔNG PHẢI "yếu ý chí" — là condition y khoa cần treatment
 ```
 
 ---
 
-## 10. Honest Assessment {#10-honest}
+## §11 — HONEST ASSESSMENT
+
+### §11.1 — Established (🟢)
 
 ```
-CÁI CHẮC CHẮN:
-  ✅ OFC-caudate hyperactive trong OCD — fMRI replicated nhiều lần
-  ✅ SSRIs effective cho OCD — meta-analysis confirmed
-  ✅ OCD cần SSRI liều cao hơn depression 3-4x — APA guidelines
-  ✅ CBT/ERP effective — randomized controlled trials
-  ✅ SSRIs+CBT > đơn lẻ — gold standard, multiple RCTs
-  ✅ Relapse: SSRIs alone ~80%, SSRIs+CBT ~30-50%, CBT alone ~20-30%
-  ✅ Serotonin giảm ~40% khi yêu ≈ OCD — Marazziti 1999
-  ✅ Heritability ~47-58% — twin studies
-  ✅ Bimodal onset: childhood (~8-12) + late adolescence (~18-25)
-  ✅ PANDAS/PANS: kháng thể tấn công caudate → OCD đột ngột — Swedo 1998
-  ✅ Noradrenergic antidepressants KHÔNG effective → CHỈ serotonin path
-  ✅ Clomipramine (serotonergic mạnh) > SSRIs cho nhiều patients
-  ✅ Waxing-waning course: stress/sleep ↔ OCD severity — Skoog & Skoog 1999
-  ✅ Tesla cuối đời: documented rituals + deterioration
-  ✅ ~25-30% full remission, ~40-50% significant improvement
-
-CÁI HYPOTHESIS (framework contribution):
-  🟡→🟢 3 tuyến phòng thủ "done" pipeline — UPGRADED:
-      Mỗi tuyến CÓ evidence riêng + PANDAS = natural experiment cho tuyến 1
-      + SSRI liều cao = evidence cho tuyến 2 threshold
-      + CBT = evidence cho tuyến 3
-      + Waxing-waning = evidence cho environment ảnh hưởng tuyến 2+3
-      → Model chưa formal test NHƯNG mỗi tuyến có independent evidence
-  🟡 Serotonin = "certainty bias" — consistent với data, chưa proven trực tiếp
-      NHƯNG: noradrenergic ineffective + SSRI high dose cần thiết + certainty
-      giải thích OCD+love+limerence+BDD = mạnh hơn "happiness" model
-  🟡 Love circuit = OCD circuit cùng mechanism khác target — logic mạnh,
-      supported bởi Marazziti, nhưng "cùng circuit" = suy luận
-  🟡 Limerence = love STUCK trong OCD state — consistent nhưng chưa formal test
-  🟡 Spectrum §6 (health anxiety, jealousy, BDD, ED = cùng circuit) — prediction
-      BDD đã được DSM-5 xếp vào OCD spectrum → partial confirmation
-  🟡 Treatment map vào tuyến — retrospective explanation, nhưng PANDAS treatment
-      (sửa tuyến 1 → OCD giảm) = gần như prospective validation
-  🟡 Hardware vs environment tỷ lệ per tuyến — model mới, chưa đo trực tiếp
-
-CÁI CHƯA BIẾT:
-  ❌ "Done" detector CHÍNH XÁC là gì ở neural level? (OFC-caudate = vùng,
-      nhưng exact signal = chưa biết)
-  ❌ Serotonin giảm khi yêu = cause hay effect? (Marazziti = correlation)
-  ❌ Tại sao OCD chọn TARGET cụ thể per person? (contamination vs checking
-      vs ordering → hardware difference hay experience?)
-  ❌ Có thể đo "threshold" trực tiếp không? (hiện chỉ infer từ SSRI response)
-  ❌ Tesla trajectory: có thể NGĂN CHẶN nếu biết sớm?
-  ❌ Hardware/environment tỷ lệ chính xác per patient? (hiện = estimate)
-  ❌ PANDAS mechanism CÓ ÁP DỤNG cho adult-onset OCD không? (viêm nhẹ mãn tính?)
+🟢 ESTABLISHED:
+  → OFC-caudate hyperactive trong OCD — fMRI replicated
+  → SSRIs effective, cần liều 3-4× depression — APA guidelines
+  → CBT/ERP effective — randomized controlled trials
+  → SSRIs+CBT > đơn lẻ — gold standard, multiple RCTs
+  → Relapse: SSRIs alone ~80%, CBT alone ~20-30%
+  → Serotonin ↓40% khi yêu ≈ OCD — Marazziti 1999
+  → Heritability ~47-58% — twin studies (Pauls 2010)
+  → Bimodal onset: childhood + late adolescence
+  → PANDAS/PANS: kháng thể → caudate → OCD — Swedo 1998
+  → Noradrenergic antidepressants KHÔNG effective cho OCD
+  → Clomipramine (serotonergic) > noradrenergic
+  → Waxing-waning course — Skoog & Skoog 1999
+  → ~25-30% full remission
+  → Spreading activation — Collins & Loftus 1975
+  → Reward prediction error — Schultz 1997
+  → SNC effect — Crespi 1942, Flaherty 1996
+  → Cross-species OCD-like: deer mice (Korff, Stein & Harvey 2008),
+    SAPAP3 mice (Welch et al. 2007, Nature), Hoxb8 mice (Greer & Capecchi 2002;
+    Chen et al. 2010 bone marrow rescue), CCD dogs (Dodman et al. 2010;
+    Irimajiri et al. 2009 fluoxetine RCT)
+  → Captive primate stereotypies — basal ganglia (Mason & Latham 2004)
+  → Primate SIB + serotonergic (Novak et al. 2006; Lutz research program)
+  → Anxious attachment (Bowlby 1969, Ainsworth 1978)
 ```
 
----
-
-## 11. Câu Hỏi Mở {#11-câu-hỏi}
+### §11.2 — Framework synthesis (🟡)
 
 ```
-OCD-1: "Done" detector CÓ THỂ TRAIN không?
-   → Nếu tuyến 1 = hardware → KHÔNG (giống DRD4 — fixed)
-   → Nếu tuyến 1 = partially plastic → CÓ THỂ qua ERP dài hạn
-   → CBT/ERP CÓ effective → nhưng target tuyến 3 hay tuyến 1?
-   → PANDAS hint: caudate CÓ THỂ phục hồi sau viêm → partially plastic?
+🟡 FRAMEWORK SYNTHESIS:
+  → 3-tuyến "done" pipeline: mỗi tuyến CÓ independent evidence
+    (PANDAS = tuyến 1, SSRIs = tuyến 2, CBT = tuyến 3)
+  → Serotonin = "certainty bias": consistent, giải thích nhiều hơn "happiness"
+    (Status.md v2.0 §9.2 Serotonin Ratchet)
+  → ⭐ Serotonin ↓ = AMPLIFIER, NOT ROOT CAUSE (§4.5):
+    parallel với cortisol (amplifier, not cause). 4 evidence points:
+    PANDAS (sửa root → hết), relapse pattern (SSRI vs CBT),
+    love self-resolve (bond compile → serotonin phục hồi tự nhiên),
+    cross-species variation (chuột=hardware, khỉ=mix, người=consequence)
+  → ⭐ Cross-species OCD (§4.6): deer mice + SAPAP3 mice + dogs + primates
+    → circuit CỔ (basal ganglia), NOT PFC-specific bug.
+    Tuyến 1+2 = cross-species. Tuyến 3 = CHỈ NGƯỜI.
+  → ⭐ SPM bias từ tuổi thơ × OCD-like trong Love (§4.5b):
+    anxious attachment = SPM library threat-biased → hyper-monitoring →
+    compound uncertainty (SPM + obligation) → serotonin ↓ amplified
+  → Love ↔ OCD cùng circuit: supported bởi Marazziti, logic mạnh
+  → Spreading activation uninhibited: serotonin ↓ = less inhibition → cascade
+    (Chunk-Activation-Dynamics.md §2 + Collins & Loftus 1975 🟢)
+  → Chunk-Miss không resolve: OCD qua BFM (§4.1) — consistent
+  → Baseline Shift escalation: BFM §5 applied — consistent với OCD worsening
+  → 5 Cortisol Roles in OCD: Role ②→③→⑤ escalation path
+  → PFC 5% operator override failure: consistent với CBT evidence
+  → Competitive re-linking (CBT): chunks mới vs chunks cũ
+  → Hardware/environment tỷ lệ per tuyến: model, chưa đo trực tiếp
+  → Spectrum (BDD, health anxiety, jealousy): BDD confirmed DSM-5
+  → Tesla trajectory: functional → OCD-like via 3-tuyến degradation
+  → Limerence kéo dài = OCD-like: consistent, chưa formal test
+```
 
-OCD-2: Tại sao OCD onset BIMODAL (2 peak)?
-   → Peak 1 (~8-12): genetic/hardware primary → tuyến 1 yếu bẩm sinh
-   → Peak 2 (~18-25): puberty serotonin shift + PFC chưa mature +
-     social pressure → tuyến 2+3 đồng thời bị stress
-   → = 2 failure mode khác nhau → predict 2 onset window khác nhau
-   → Testable: childhood onset RESPONDS DIFFERENTLY to treatment vs adult onset?
+### §11.3 — Hypothesis (🔴)
 
-OCD-3: Love → OCD risk?
-   → Nếu cùng circuit: khi yêu nhiều lần + relationship bất ổn
-   → Serotonin LIÊN TỤC thấp → circuit "quen" chạy thấp
-   → → Có TĂNG risk OCD không?
-   → Hoặc ngược: OCD patients có yêu KHÁC BIỆT không?
+```
+🔴 TESTABLE PREDICTIONS:
 
-OCD-4: AI có thể giúp OCD không?
-   → AI = external "done" validator:
-     "AI nói tay sạch → TIN hơn self-check"
-     → Nhưng: CÓ THỂ thành compulsion MỚI (phải hỏi AI mới yên)
-   → Hay: AI + CBT = cung cấp ERP guided at home?
+  ⭐ SEROTONIN = AMPLIFIER TEST (§4.5):
+    → PANDAS: đo serotonin transporter TRƯỚC và SAU caudate treatment
+      NẾU phục hồi → serotonin = consequence (root fixed → serotonin follows)
+      NẾU không phục hồi → serotonin có independent component
+    → Anxious vs secure attachment: đo serotonin khi yêu
+      NẾU anxious ↓ MẠNH hơn → SPM bias → compound uncertainty → support
 
-OCD-5: Serotonin certainty bias → testable prediction?
-   → Prediction: tryptophan depletion → tăng CHECKING behavior
-     (không chỉ mood, mà specifically CHECKING + DOUBT)
-   → Nếu confirmed → support "certainty bias" > "happiness hormone"
+  ⭐ CROSS-SPECIES PREDICTIONS (§4.6):
+    → Deer mice OCD-like: test với environmental enrichment
+      NẾU enrichment giảm OCD-like → environment component confirmed
+      NẾU không → pure hardware → consistent với tuyến 1 ~80% hardware
+    → Hoxb8 mice neuroimmune: extend to adult human inflammatory conditions?
 
-OCD-6: Aging × OCD → prevention?
-   → Tesla trajectory: aging → 3 tuyến yếu → OCD-like
-   → Nếu biết mechanism → có thể: maintain serotonin + PFC training +
-     cortisol management → = PREVENTION strategy cho elderly OCD-like?
-
-OCD-7: Viêm mãn tính nhẹ → subclinical OCD ở adult?
-   → PANDAS = viêm cấp → OCD cấp (ở trẻ)
-   → Nếu adult có viêm mãn tính nhẹ (gut inflammation, autoimmune nhẹ)
-   → → caudate bị ảnh hưởng nhẹ → tuyến 1 yếu DẦN → subclinical OCD?
-   → → Giải thích "kỹ tính tăng dần" ở người có inflammatory conditions?
-
-OCD-8: Lifestyle intervention → đo tuyến nào improve?
-   → Sleep optimization → predict tuyến 3 (PFC) improve TRƯỚC
-   → Exercise (tăng serotonin) → predict tuyến 2 improve
-   → Meditation → predict tuyến 3 (support)
-   → NẾU đo Y-BOCS trước/sau mỗi intervention → có thể TÁCH BIỆT
-     contribution của từng tuyến?
+  EXISTING PREDICTIONS (vẫn giữ):
+    → Tryptophan depletion → tăng CHECKING behavior (not just mood)?
+    → "Done" detector trainable? PANDAS: caudate phục hồi = partially plastic?
+    → Love → OCD risk? Relationship bất ổn nhiều lần → serotonin chronic ↓?
+    → Viêm mãn tính nhẹ adult → subclinical OCD? (extend PANDAS)
+    → Lifestyle → đo tuyến: Sleep → tuyến 3, Exercise → tuyến 2
+    → OCD target selection: hardware or compiled chunks?
+    → AI as external "done" validator: giúp hay compulsion mới?
 ```
 
 ---
 
-## 12. Kết Nối {#12-kết-nối}
+## §12 — CÂU HỎI MỞ
 
 ```
-→ Core-v7.5-Draft.md §5.4: Satisfaction Signal = function name, per body-need
-→ Core-v7.5-Draft.md §3: Change-Readiness → cortisol × OCD interaction
-→ Schema-Example.md §1: Love lifecycle + serotonin giảm khi yêu
-→ Status-Analysis-v2.md: Serotonin = certainty bias → foundation cho §5
-→ Cortisol-Baseline.md: Cortisol mãn tính → PFC suy giảm → tuyến 3 yếu
-→ Mismatch-Patterns.md §P12: OCD as mismatch pattern + Marazziti reference
-→ Characters.md §5.3b: Tesla OCD-like trajectory analysis
-→ Novelty-Loop.md §3: Threat-schema + tension → link với OCD tension
-→ PFC-Analysis.md: PFC override mechanism → tuyến 3 detail
-→ Attention-Spectrum.md: DRD4 × OCD possible interaction
-→ Addiction-Analysis-v2.md: OCD loop vs addiction loop (cùng mechanism?)
-→ Neurochemistry-v8-Draft.md: Serotonin detail + Marazziti reference
+OCD-Q1: "Done" detector CÓ THỂ TRAIN?
+  → Tuyến 1 = hardware → nếu fixed → KHÔNG
+  → NHƯNG PANDAS: caudate phục hồi sau viêm → partially plastic?
+  → CBT target tuyến 3 hay cũng sửa tuyến 1? → chưa rõ
+
+OCD-Q2: Bimodal onset = 2 failure modes?
+  → Peak 1 (~8-12): tuyến 1 hardware primary
+  → Peak 2 (~18-25): tuyến 2+3 environment primary
+  → Testable: childhood onset RESPONDS DIFFERENTLY to treatment?
+
+OCD-Q3: Love circuit overlap → clinical implications?
+  → OCD patients yêu KHÁC BIỆT không? (serotonin ĐÃ thấp sẵn)
+  → Nhiều relationship bất ổn → serotonin chronic ↓ → OCD risk?
+
+OCD-Q4: Viêm mãn tính nhẹ → subclinical OCD adult?
+  → Extend PANDAS: gut inflammation, autoimmune nhẹ
+  → → caudate ảnh hưởng nhẹ → "kỹ tính tăng dần"?
+
+OCD-Q5: Aging × OCD prevention?
+  → Tesla trajectory: biết mechanism → prevent?
+  → Maintain serotonin + PFC training + cortisol management?
+
+OCD-Q6: AI trong OCD treatment?
+  → AI = external done validator? (giúp hay compulsion mới?)
+  → AI + CBT = guided ERP at home?
+
+OCD-Q7: Serotonin causal direction — species gradient?
+  → Chuột: serotonin gần hardware cause (gen, wiring, ít cognitive)
+  → Khỉ: mix cause + consequence (social deprivation component)
+  → Người: gần consequence + amplifier (nhiều nguồn uncertainty)
+  → = Serotonin ROLE thay đổi theo species complexity?
+  → Testable: interventions target ROOT vs SEROTONIN → compare outcome
+
+OCD-Q8: SPM childhood bias → adult OCD-like in love?
+  → Strict parenting → SPM threat-biased → adult hyper-monitor partner
+  → + Obligation overthinking compound
+  → = Anxious attachment mechanism EXPLAINED qua framework
+  → Testable: attachment style × serotonin levels × relationship stability
+
+OCD-Q9: Hoxb8 mice neuroimmune × PANDAS × adult chronic inflammation?
+  → Mice: bone marrow transplant fix OCD-like (neuroimmune)
+  → Children: PANDAS = autoimmune attack caudate
+  → Adults: chronic low-grade inflammation (gut, autoimmune)
+    → subclinical caudate impact? → "kỹ tính tăng dần"?
+  → = CÙNG principle ở 3 tầng: mice / children / adults
+```
+
+---
+
+## §13 — CROSS-REFERENCES + STATUS
+
+### §13.1 — Cross-references v7.8
+
+```
+MECHANISM FILES:
+  → Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, §4 Compound, §5 Baseline Shift
+  → Chunk-Activation-Dynamics.md — spreading activation, probability, trigger surface
+  → Chunk.md v2.0 — substrate, compilation, competitive re-linking
+  → Cortisol-Baseline.md v2.0 — 5 Cortisol Roles §7.7, cascade, PFC damage §9
+  → PFC-Function.md — 24 functions, HOLD + PROCESS, ~5% operator
+  → Status.md v2.0 — §9.2 Serotonin Ratchet, certainty bias
+
+OBSERVATION PARAMETERS:
+  → Threat.md — threat priority > PFC, 3 origin sources
+  → Connection.md v3.0 — social buffering (co-regulation giảm cortisol)
+  → Feeling.md v2.0 — PFC observation interface (ego-dystonic = PFC observe "sai")
+
+RESEARCH FILES:
+  → Love-Analysis.md v2.1 — §2.1 serotonin mechanism, §4.2 spreading activation
+  → Hijack/Addiction-Analysis-v2.md — OCD loop vs addiction loop
+  → Mismatch-Patterns/Mismatch-Patterns.md — OCD as mismatch pattern
+
+CLARIFICATION:
+  → Dopamine-Reward-Rejection.md — dopamine = salience (augmentation rationale)
+  → Cortisol-Amplifier-Not-Cause.md — cortisol ≠ stress hormone
+```
+
+### §13.2 — File status
+
+```
+⭐ STATUS:
+
+  Version: v2.1 (refined + enriched from v1.0 v7.5-era)
+  Date: 2026-04-26
+  Lines: ~1,300+
+  Backup: backup/OCD-Analysis-v75-era.md (896L, 2026-03-27)
+
+  v2.0 CHANGES:
+    ① ADDED §4: Chunk dynamics + spreading activation mapping
+    ② UPDATED: All terminology v7.5 → v7.8
+    ③ ADDED: 5 Cortisol Roles applied to OCD (§4.3)
+    ④ ADDED: PFC-Function mapping for tuyến 3 (§4.4)
+    ⑤ UPDATED: Love ↔ OCD reference Love-Analysis v2.1
+    ⑥ ADDED: Competitive re-linking for CBT mechanism
+    ⑦ UPDATED: All cross-references → v7.8 files
+    ⑧ KEPT: Core 3-tuyến model, PANDAS, treatment map, spectrum, Tesla
+
+  v2.1 ADDITIONS:
+    ⑨ §4.5: Serotonin = AMPLIFIER, NOT ROOT CAUSE (key insight)
+    ⑩ §4.5b: SPM childhood bias × love OCD-like (anxious attachment mechanism)
+    ⑪ §4.6: Cross-species evidence (mice, dogs, primates)
+    ⑫ Updated §11 Honest Assessment + §12 Open Questions
 ```
 
 ---
 
 > *OCD = "done" pipeline failure ở 1 hoặc nhiều tuyến.
-> PANDAS/PANS = bằng chứng nhân quả: phá caudate (tuyến 1) → OCD xuất hiện → sửa → OCD giảm.
-> Love dùng CÙNG circuit (serotonin giảm → obsessive monitoring) nhưng TỰ DỪNG khi bond compile.
+> PANDAS/PANS = bằng chứng nhân quả: phá caudate (tuyến 1) → OCD → sửa → hết.
+> Love dùng CÙNG circuit (serotonin ↓40% → uninhibited spreading activation)
+> nhưng TỰ DỪNG khi bond compile → done detector: DONE.
 > OCD KHÔNG TỰ DỪNG vì target không có exit condition.
-> Serotonin = "certainty bias" (không phải "hạnh phúc") — OCD cần SSRI liều 3-4x depression = threshold cao hơn nhiều.
-> Hardware vs Environment = CẢ HAI — tỷ lệ khác nhau per tuyến, per người, per onset type.
-> ~25-30% khỏi hẳn, phần lớn = quản lý được (giống diabetes).
-> Treatment hiệu quả nhất = sửa NHIỀU tuyến cùng lúc (SSRIs + CBT). CBT = long-term fix tốt nhất.
+> Serotonin ↓ = AMPLIFIER, NOT ROOT CAUSE — giống cortisol.
+> Root cause = tuyến 1 hardware / stress / genuine uncertainty.
+> Cross-species evidence (chuột, chó, khỉ): circuit CỔ (basal ganglia), NOT PFC bug.
+> Tuyến 1+2 = cross-species. Tuyến 3 (PFC override) = CHỈ NGƯỜI.
+> Treatment: SSRIs = phá amplifier loop (tuyến 2), CBT = sửa root chunks (tuyến 3).
 > ⚠️ Framework cung cấp GÓC NHÌN — không thay thế chẩn đoán/điều trị y khoa.*

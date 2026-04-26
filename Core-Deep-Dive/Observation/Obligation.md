@@ -1475,6 +1475,12 @@ SPM (SELF-PATTERN-MATCH) = INPUT CHO OBLIGATION PREDICTION:
     → Nhưng FIRST calibration tạo BASELINE khó shift
       (early experiences compile SÂU hơn — Chunk.md §3: first chunks = deepest)
 
+  ⚠️ OBLIGATION CÓ THỂ TRAP TRONG NON-RESONANT INTERACTION:
+    Khi parent-child Pattern-Resonance Baseline thấp (khác tính) + obligation mạnh:
+    → Child buộc engage dù SPM fail → suppress + perform → "functional avoidant"
+    → Obligation DUY TRÌ interaction mà Pattern-Resonance KHÔNG emerge
+    → Chi tiết: Pattern-Resonance.md §7.9, Love-Analysis §7.3c biến ⑤ × ⑦
+
   🟡 Obligation calibration = developmental framework synthesis
   🔴 "First calibration creates hard-to-shift baseline" = hypothesis
 ```

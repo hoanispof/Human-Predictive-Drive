@@ -3,9 +3,9 @@
 > **Trạng thái:** GIẢ THIẾT — Pattern recognition từ lịch sử + giải thích bằng framework
 > **Ngày:** 2026-03-22
 > **Mục đích:** Nhận diện pattern "Innovation clusters tại Trade Hubs" xuyên suốt lịch sử,
-> giải thích cơ chế bằng Schema-Drive framework (chunks + PFC + resources)
-> **Reference:** Core-v7-UD.md (Schema, PFC), Schema-Atlas.md (schema formation),
-> Imagination-Analysis.md (PFC cần chunks), Climate-Cognition.md (climate factor),
+> giải thích cơ chế bằng framework (chunks + PFC + resources)
+> **Reference:** Core-v7.8-Draft.md (core framework), Schema.md (observation parameter),
+> Imagination.md (PFC cần chunks), Climate-Cognition.md (climate factor),
 > Macro-Civilization.md (civilization dynamics)
 > **⚠️ Đây là PATTERN RECOGNITION — không phải nghiên cứu lịch sử chuyên sâu.**
 > **⚠️ Cần historian review. Data ở đây là overview, không exhaustive.**
@@ -68,12 +68,12 @@ FORMULA:
 ### 2.1 PFC không imagine từ hư không
 
 ```
-🟡 Framework mechanism (Imagination-Analysis.md, Schema-Atlas.md):
+🟡 Framework mechanism (Imagination.md, Schema.md):
 
   Imagination = PFC Draft → vô thức simulate → body test
 
   Vô thức simulate BẰNG GÌ?
-  → Bằng SCHEMAS ĐÃ CÓ (knowledge chunks từ kinh nghiệm + học)
+  → Bằng CHUNKS ĐÃ CÓ (knowledge chunks từ kinh nghiệm + học)
   → Không có chunks → không có nguyên liệu → không imagine ra cái mới
   → Chunks từ 1 domain → chỉ improve TRONG domain (incremental)
   → Chunks từ NHIỀU domains → KẾT NỐI cross-domain = BREAKTHROUGH
@@ -126,7 +126,7 @@ FORMULA:
 
   Nhiều thương nhân = cạnh tranh → ai innovate = lợi thế
   Nhiều quốc gia gần nhau = cạnh tranh → innovate hoặc bị nuốt
-  → Competition = PRESSURE tối ưu (Drive-Optimization.md)
+  → Competition = PRESSURE tối ưu (Drive.md)
   → Không quá cao (chiến tranh) → không quá thấp (monopoly)
   → Sweet spot = ép innovation nhưng KHÔNG destroy
 
@@ -162,7 +162,8 @@ CƠ CHẾ NHÂN QUẢ (nối Conflict-Dynamics.md vào):
 
   ④ Conflict formula đầy đủ:
      → Overlap × Scarcity × Commitment = CONFLICT
-     → Cạnh tranh trực tiếp → cortisol ↑ → status threat ↑
+     → Cạnh tranh trực tiếp → status threat (Chunk-Gap: resource access bị đe dọa)
+     → cortisol đồng hành = AMPLIFIER (sustain urgency, không phải cause)
 
   ⑤ 3 EXIT STRATEGIES (từ Conflict-Dynamics):
 
@@ -874,7 +875,7 @@ Nếu "trade hub = innovation" ĐÚNG tuyệt đối, phải giải thích:
 ### 10.2 Tại sao intuitive thinker + AI = combination mạnh đặc biệt
 
 ```
-🟡 Suy luận từ framework — Modality-Analysis.md + PFC-Analysis.md:
+🟡 Suy luận từ framework — Somatic-Articulation-Loop.md + PFC-Function.md:
 
   INTUITIVE / SOMATIC THINKER (cross-domain, body-signal based):
     Mạnh: cảm nhận pattern, hỏi câu gốc, detect inconsistency
@@ -925,7 +926,7 @@ Nếu "trade hub = innovation" ĐÚNG tuyệt đối, phải giải thích:
   │   → Sau: "biết connect + AI cung cấp depth =      │
   │     breakthrough mà specialist MỘT domain miss"    │
   │                                                    │
-  │ ④ Hidden Genius (Hidden-Genius.md)                 │
+  │ ④ Hidden Genius (concept từ framework)              │
   │   → Trước: bị kẹt vì Container (location, money,  │
   │     language, education access)                    │
   │   → Sau: Container barriers GIẢM → potential       │
@@ -1117,13 +1118,11 @@ Observation "trade/cities → innovation" KHÔNG hoàn toàn mới:
 
 ```
 FRAMEWORK CONNECTIONS:
-  Core-v7-UD.md §2 (Container): trade hub = Container factor lớn nhất cho innovation
-  Core-v7-UD.md §4.3 (PFC): PFC Draft cần chunks → trade hub = chunk source
-  Schema-Atlas.md §5.2.1: 2 pathways — unconscious (local) + PFC (cross-domain)
-    → Trade hub AMPLIFY PFC pathway (more diverse chunks available)
-  Imagination-Analysis.md: imagination quality = f(chunks available)
+  Core-v7.8-Draft.md: PFC Draft cần chunks → trade hub = chunk source
+  Schema.md: observation parameter — chunks là substrate
+  Imagination.md: imagination quality = f(chunks available)
   Climate-Cognition.md: climate = modifier nhỏ ở macro, lớn hơn ở micro
-  Drive-Optimization.md: competition = optimal Pressure for innovation
+  Drive.md: competition = optimal Pressure for innovation
   Conflict-Dynamics.md: Conflict = Overlap × Scarcity × Commitment
     → §2.4 nối formula vào: competition trong domain → forced expansion
     → Speciation analogy: cùng niche → cạnh tranh → niche split
@@ -1131,13 +1130,11 @@ FRAMEWORK CONNECTIONS:
   Global-Melody.md §6: domain melody + center crowded → edge differentiation
   Macro-Civilization.md: civilization innovation patterns
   Chemical-Enhancement-Notes.md: chemicals help PROCESS chunks, nhưng chunks phải CÓ trước
+  Somatic-Articulation-Loop.md: somatic thinker + AI = chunk + intuition partnership
 
 RELATED SCHOLARS (for further research):
   Jane Jacobs, Jared Diamond, Matt Ridley, Paul Romer,
   Joel Mokyr, William Bernstein, Geoffrey West
-
-  Hidden-Genius.md: AI era unlocks hidden genius bị kẹt bởi Container
-  Modality-Analysis.md: somatic thinker + AI = chunk + intuition partnership
 
 HONEST ASSESSMENT:
   Pattern strength: 🟢 STRONG — holds across all major cases checked

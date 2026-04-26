@@ -577,7 +577,8 @@ EDUCATION ≠ SCHOOL:
 🟡 CHIA NHỎ — MỖI PHẦN CÓ "AHA":
 
   Arc dài + không có reward giữa chừng = body CHỊU KHÔNG NỔI:
-    → Dissonance kéo dài → cortisol tích lũy → threat-direction
+    → Dissonance kéo dài → Chunk-Gap unresolved → threat body state
+      → chunks compile AVOIDANCE tag (cortisol = amplifier đồng hành)
     → Body: "đã tốn nhiều + VẪN khó chịu + chưa thấy kết quả" → BỎ CUỘC
 
 

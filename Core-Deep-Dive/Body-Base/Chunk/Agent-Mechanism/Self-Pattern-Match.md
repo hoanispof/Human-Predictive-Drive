@@ -255,6 +255,7 @@ v1.0 ĐÚNG ở phần lớn nội dung. Nhưng THIẾU tầng phân tích bên 
        → KHÔNG THỂ ELIMINATE (trừ dehumanize → F1 suppress)
     ④ BIẾN THIÊN INTENSITY
        → Zero (không hợp tính, không muốn) → rất mạnh (hợp tính + deep chunks)
+       → "Hợp tính" = Pattern-Resonance Baseline cao (Pattern-Resonance.md §7.8)
        → GRADIENT liên tục, KHÔNG cố định
 
   ⭐ F1 = "LUỒNG 1" TRONG CONNECTION CONTEXT (Connection.md §3.3):
