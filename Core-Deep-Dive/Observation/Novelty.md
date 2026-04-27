@@ -217,6 +217,13 @@ GIÁ TRỊ CỦA FILE NÀY:
     → Explore → tìm thấy → fill gap → body-feedback (reward) → VTA fire
     → = "Tò mò" = tên gọi cho Chunk-Gap drive quan sát từ bên ngoài
 
+    ⭐ GAP CÓ HƯỚNG (Gap-Direction.md):
+    → Gap direction = f(surrounding chunk network structure)
+    → Fill CHỈ reward khi MATCH direction (không chỉ "fill bất kỳ gap")
+    → "Chưa biết = không có gap" → desire = f(chunks accumulated)
+    → Oscillation: fill → new chunks → detect new gap → more novelty (§7.5)
+    → = Novelty drive KHÔNG BAO GIỜ cạn vì mỗi fill = thêm detection power
+
   CHUNK-SHIFT cũng tham gia:
     → Khi chunks mới compile → valence network re-evaluate
     → Re-evaluation = delta → VTA detect → Novelty signal

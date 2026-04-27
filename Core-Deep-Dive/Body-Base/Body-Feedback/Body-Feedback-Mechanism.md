@@ -472,6 +472,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ④ Fill gap → opioid reward (effort-proportional: 03-Reward.md §4.7)
     ⑤ ⭐ FOUNDATION CHO NOVELTY DRIVE
        Gap detect → bứt rứt → drive to explore/fill → discovery → opioid
+    ⑥ ⭐ GAP CÓ HƯỚNG CỤ THỂ (Gap Direction):
+       "Structure predict C" → C có HÌNH DẠNG = f(surrounding chunks)
+       → Gap direction = what SPECIFICALLY is predicted missing
+       → Reward fires CHỈ khi fill MATCH direction, không chỉ "fill gap"
+       → "Chưa biết = không có gap" (no chunks → no bờ → no hole)
+       → Chi tiết: Gap-Direction.md (4 properties, 2-layer model, unified Tier 1-4)
 
   GAP vs MISS:
 

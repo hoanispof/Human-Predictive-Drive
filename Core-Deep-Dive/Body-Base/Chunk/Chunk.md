@@ -478,7 +478,14 @@ LINK STRENGTH = f(7 factors):
     → NEVER reaches zero — goal is SUFFICIENT probability shift
     → "Vẫn hơi khó chịu nhưng handle được" = success
 
-  → Chi tiết: F4 01b-Chunk-Activation-Dynamics.md
+  ⚠️ TRIGGER SURFACE GROWTH OVER TIME (Link Density):
+    → Trigger surface KHÔNG CHỈ determined at compile time
+    → Pattern tồn tại ĐỦ LÂU → chunks MỚI link vào → TS TĂNG DẦN
+    → Chronic patterns: TS grow qua years dù không có event mới
+    → = "Background Pattern" — accumulated bias invisible to PFC
+    → Chi tiết: Background-Pattern.md (2D model: Depth × Link Density)
+
+  → Chi tiết activation dynamics: F4 01b-Chunk-Activation-Dynamics.md
 ```
 
 ### §4.5 — Probability is dynamic

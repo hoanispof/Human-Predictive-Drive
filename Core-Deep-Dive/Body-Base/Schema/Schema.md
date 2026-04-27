@@ -294,6 +294,12 @@ V2.0 REFRAME:
   → Depth CAO = synapses MẠNH = chunk links dày = khó re-wire
   → Depth THẤP = synapses YẾU = chunk links mỏng = dễ re-wire
 
+  ⚠️ DEPTH CHỈ LÀ 1 CHIỀU — 2D MODEL:
+  → Chiều 2 = LINK DENSITY (pattern linked với bao nhiêu chunks khác qua thời gian)
+  → High Depth + Low Density (bị chó cắn 1 lần): PFC thấy, therapy weeks
+  → Low Depth + High Density (cultural pattern): PFC KHÔNG thấy, therapy YEARS
+  → Chi tiết: Chunk/Background-Pattern.md (2D model Compile Depth × Link Density)
+
   🟢 Kiểm chứng "trúng số" (Brickman et al. 1978):
     Surface: "mai không đi làm" → ĐỔI NGAY ✅
     Mid: "tôi là người giàu" → vài tháng mới "tin" ⚠️
@@ -681,11 +687,20 @@ V2.0 REFRAME:
 
   = "Khi không có gì xảy ra, cơ thể TÔI feel thế nào?"
 
+  ⭐ TẠI SAO BODY BASELINE LÀ NHƯ VẬY — MECHANISM:
+    → Body baseline = PHYSICAL REFLECTION của Background Patterns
+    → Cortisol baseline CAO vì Background Pattern [threat] chạy nền → cortisol sustained
+    → Opioid tone THẤP vì Background Pattern [not enough] suppress reward
+    → Muscle tension CAO vì Background Pattern [alert] fire liên tục
+    → = Body baseline KHÔNG random — là output của accumulated chunk patterns
+    → Chi tiết mechanism: Chunk/Background-Pattern.md (chunk-level underneath)
+
   Fix body baseline → chunk networks tự adjust (ground truth thay đổi)
   Fix chunks MÀ KHÔNG fix body → relapse (body PULL quay lại)
+  Fix CÙNG LÚC body + build competing Background Pattern → TRUE resolution
 
   → Thứ tự: Body → Chunks → Schema observation → ĐÚNG THỨ TỰ
-  → = "Biết nhưng không thay đổi" = verbal chunks updated, body CHƯA
+  → = "Biết nhưng không thay đổi" = verbal chunks updated, Background Pattern CHƯA
 
   3 ĐƯỜNG reverse-engineer body baseline:
     ① Observe behavior: "tôi hay LÀM GÌ khi stress?" → chunk network biểu hiện

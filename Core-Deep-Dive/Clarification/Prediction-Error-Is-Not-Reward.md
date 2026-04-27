@@ -220,6 +220,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → REWARD = BƯỚC 4 (opioid). Sau khi qua BƯỚC 2 + 3.
   → = "Chuông cửa reo (PE) → kiểm tra khách (coherence + H10) → mới biết quà (reward) hay rắn (dissonance)"
 
+  ⭐ 2-LAYER MODEL (Gap-Direction.md §6):
+    File này phân biệt PE vs Reward theo 4 BƯỚC (process).
+    Gap-Direction.md formalize thêm: 2 LAYERS phân biệt:
+      Layer 1 = SIGNAL MECHANISM: VTA/ACC detect "có gì đó khác" (= PE, bước 1)
+      Layer 2 = DIRECTION CONTENT: chunk network xác định "khác CÁI GÌ cụ thể"
+    "Coherence" (bước 2) = stimulus match GAP DIRECTION hay không.
+    Coherence KHÁC giữa người vì gap direction KHÁC (chunk network KHÁC).
+    = Tại sao CÙng PE mà xe thời thượng = reward, xe cổ = không:
+      PE (Layer 1) fire cho CẢ HAI, nhưng Layer 2 chỉ match cho xe thời thượng.
+    Chi tiết: Gap-Direction.md (gap direction + 4 properties + unified Tier 1-4)
+
 
   ĐỐI CHIẾU VỚI DOPAMINE-REWARD-REJECTION.MD §4 (7-STEP):
 
@@ -361,6 +372,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 WITHIN FRAMEWORK:
+  Gap-Direction.md — ⭐ 2-layer model formalizes PE vs reward distinction:
+    Layer 1 = signal mechanism (PE), Layer 2 = direction content (gap direction)
   Dopamine-Reward-Rejection.md — dopamine ≠ reward, 7-step mechanism
   Body-Feedback.md — H10 5 preconditions, dual-pull architecture
   Body-Feedback-Mechanism.md — 3 chunk dynamics (Shift/Miss/Gap)

@@ -1089,6 +1089,9 @@ Framework: "Value" (domain: monetary) ≠ "reward" (body: chunks match). Receivi
 
 **Therapeutic implication**: Depression often = P1 Pending collapsed (schema no longer producing active needs) → nothing rewards → anhedonia. Treatment may require rebuilding P1 (goals, interests, motivations) before reward returns.
 
+**⭐ Gap Direction formalization** (Gap-Direction.md):
+Tại sao reward is personalized? Vì mỗi người có **gap direction KHÁC** (= f(surrounding chunk network)). "Chưa biết = không có gap" = desire chưa tồn tại. Reward = direction match quality, không chỉ "fill gap or not." Ô Tô Paradox C2.1-C2.5 = perfect test case cho gap direction: cùng "xe" nhưng KHÁC direction → KHÁC reward.
+
 ---
 
 ---

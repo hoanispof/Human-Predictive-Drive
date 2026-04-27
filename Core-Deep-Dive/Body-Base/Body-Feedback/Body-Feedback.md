@@ -328,6 +328,17 @@ ABSORBED ELSEWHERE (authoritative versions):
   ALL 5 REQUIRED for full signal.
   Missing ANY → signal absent or wrong direction.
 
+  ⭐ 2-LAYER INTERPRETATION (Gap-Direction.md §6):
+    H10 mô tả 2 LAYERS phân biệt:
+      P2→P1 = Layer 2 prerequisites: gap direction phải TỒN TẠI
+        (P2: đủ chunks để gap form, P1: gap direction active)
+      P3 = Layer 1: signal mechanism fire (VTA detect delta)
+      P4→P5 = Layer 2 quality: direction match evaluation
+        (P4: stimulus match gap shape? P5: tag compatible?)
+    "Chưa biết = không có gap" = TRƯỚC cả P1:
+      Không có chunks → gap chưa hình thành → desire chưa tồn tại
+    Chi tiết: Gap-Direction.md §6.3
+
   NOTE: H10 preconditions also appear in Feeling-Mechanism-Deep.md §4.3
   (definitive table). That file = AUTHORITATIVE for reward mechanism.
   This file = AUTHORITATIVE for the full 5-precondition model including
