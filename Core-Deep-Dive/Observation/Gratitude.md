@@ -421,6 +421,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Người lạ cho tiền → body-base reward THẬT → opioid
       → → Prerequisite ① MET → downstream components CÓ CƠ HỘI fire
 
+  ⭐ GAP DIRECTION LENS (Gap-Direction.md):
+    P1 "Schema pending" = gap direction phải TỒN TẠI hướng về gift type
+    "Chưa biết = không có gap": trẻ chưa biết giá trị xe cổ
+      → không có gap về xe cổ → bố tặng xe cổ → body KHÔNG reward
+      → gratitude IMPOSSIBLE dù gift đắt tiền
+    = Gift phải match GAP DIRECTION, không chỉ "có giá trị khách quan"
+
   🟢 Alliesthesia (Cabanac 1971): cùng stimulus, khác body-state → khác hedonic value
   🟡 H10 as gratitude prerequisite = framework extension of established H10
 ```
@@ -1856,6 +1863,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Chunk.md v2.0 — chunk substrate, compilation
     → Body-Feedback-Mechanism.md — Chunk-Miss (SNC), §5 Baseline Shift
     → Body-Feedback/03-Reward.md — H10 5 preconditions, VTA 7-step
+    → Body-Feedback/Gap-Direction.md — gift phải match gap direction,
+      "chưa biết = không có gap" giải thích tại sao gift đắt nhưng no reward
     → Valence-Propagation.md v1.2 — per-entity valence, chain propagation,
       §2 Body-Base Extension, §4 backward propagation, §7 PFC Blindness
     → Anchor-Schema.md — sync point, Trust binding
