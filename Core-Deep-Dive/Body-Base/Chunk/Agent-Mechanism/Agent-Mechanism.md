@@ -1814,6 +1814,14 @@ L2 structural reward emerge — INDEPENDENT of L1
 
 🟡 2-luồng separation = framework synthesis. Details: Connection.md §3.3, Valence-Propagation.md §2.
 
+⭐ **MECHANISM DEEP-DIVE → Body-Coupling.md v1.0**:
+§12.2b mô tả L1→L2 transition mechanism. Body-Coupling.md drill chi tiết:
+- 3 Phase Model: ❸ initiates (Phase 1) → threshold (Phase 2) → coupling sustains (Phase 3)
+- Coupling = BOTH directions: Extension (positive) + Entanglement (negative)
+- compile_rate: |peak_valence| quyết định — negative compiles FASTER (negativity bias)
+- Foundational vs Additive coupling: childhood = near-permanent, adult = removable
+- §12.2b NÀY giữ vai trò: L1/L2 distinction + transition overview.
+
 ### §12.3 — Mirror reward override (Empathy-Mirror §8.5)
 
 Framework commits (Empathy-Mirror.md §6.5 + §8.5): body can prioritize **mirror reward** (simulated other-benefit) over **self-reward** (direct benefit). This explains giving/sharing behavior:
@@ -2589,6 +2597,7 @@ Framework references Friston FEP but doesn't formally integrate. Overlap vs dist
 ### §20.2 — Parent framework files (referenced, not modified)
 
 **Core mechanism files**:
+- `Body-Base/Body-Coupling.md` v1.0 — coupling mechanism deep-dive (extends §12.2b L1→L2): 2D model, 3 Phase, extension/entanglement/neutral, system compilation
 - `Schema/Chunk.md` — chunk substrate foundation
 - `Schema/Anchor-Schema.md` — §2 positive/negative trust, §3 external inject source
 - `Core-Deep-Dive/Logic-Feeling.md` — §5 parallel processing, §6 modality bias, §7.1 DANGER zone sub-cases

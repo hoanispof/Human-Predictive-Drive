@@ -1122,7 +1122,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⚠️ 8 PATHWAYS ĐỀU CẦN ĐƯỢC COVER:
 
-    Team projects → ⑦ shared IF + ③ virtual chunks
+    Team projects → ⑦ shared Imagine-Final + ③ virtual chunks
     Peer teaching → ⑧ knowledge flow + ④ giving
     Group activities → ② co-regulation + ⑥ presence
     Listening exercises → ⑤ validation + ① mirror

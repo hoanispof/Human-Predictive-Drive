@@ -1865,12 +1865,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Body-Feedback/03-Reward.md — H10 5 preconditions, VTA 7-step
     → Body-Feedback/Gap-Direction.md — gift phải match gap direction,
       "chưa biết = không có gap" giải thích tại sao gift đắt nhưng no reward
-    → Valence-Propagation.md v1.2 — per-entity valence, chain propagation,
+    → Valence-Propagation.md v1.3 — per-entity valence, chain propagation,
       §2 Body-Base Extension, §4 backward propagation, §7 PFC Blindness
+    → Body-Coupling.md v1.0 — coupling mechanism: HOW body-base extension compile,
+      prerequisite ⑥ giver = body-base extension = f(coupling depth)
     → Anchor-Schema.md — sync point, Trust binding
 
   OBSERVATION FILES (cùng folder):
-    → Connection.md v3.0 — 3 Generative Primitives, 8 pathways, ④ giving reward
+    → Connection.md v3.1 — 3 Generative Primitives, 8 pathways, ④ giving reward
     → Empathy.md v2.0 — SPM F1 + ❸ positive, 2-luồng
     → Status.md v2.0 — Resource Access Map, §4 3 modes
     → Protect.md v1.0 — ownership chunks, loss aversion

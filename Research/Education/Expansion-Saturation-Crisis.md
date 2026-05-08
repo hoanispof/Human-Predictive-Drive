@@ -1273,8 +1273,8 @@ READER FLOW:
   │ ĐK2 PFC     │ ✅ Nhàn            │ ❌ Overload           │
   │              │ 5-10 nghề          │ Hàng nghìn options   │
   ├──────────────┼────────────────────┼──────────────────────┤
-  │ ĐK3 IF      │ ✅ Rõ              │ ❌ Mờ/Absent         │
-  │              │ "Kỹ sư → ổn định" │ "Rồi sao?"           │
+  │ ĐK3 Imagine-│ ✅ Rõ              │ ❌ Mờ/Absent         │
+  │ Final       │ "Kỹ sư → ổn định" │ "Rồi sao?"           │
   ├──────────────┼────────────────────┼──────────────────────┤
   │ ĐK4 Cạnh    │ ✅ Ít              │ ❌ Khốc liệt         │
   │ tranh        │ Bằng ĐH = lợi thế │ Bằng ĐH = minimum   │
@@ -1601,7 +1601,7 @@ OBSERVATION PARAMETERS
 → Imagine-Final.md — Clarity gradient + lifecycle
   §1: Build → Save → Background → Reload → Refine
   §1.5: 14 clarity thresholds
-  Kết nối: §2.1 (clear IF era 1), §7.3 (mờ IF era 3)
+  Kết nối: §2.1 (clear Imagine-Final era 1), §7.3 (mờ Imagine-Final era 3)
 
 → Meaning.md v2.0 — Life-level Anchor-Schema
   5 types (GOAL/STATE/IDENTITY/FAITH/ROLE)

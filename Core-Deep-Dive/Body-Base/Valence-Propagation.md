@@ -1,9 +1,9 @@
 ---
 title: Valence-Propagation — Hệ Thống Đánh Giá Của Body + Cơ Chế Truyền Qua Schema Network
-version: 1.2
+version: 1.4
 created: 2026-04-18
-updated: 2026-04-24 (v1.2 — §2 thêm Body-Base Extension dimension + 2-luồng reward)
-status: v1.2 — REFERENCE FILE (kiến trúc tổng thể Valence system)
+updated: 2026-05-08 (v1.4 — §4 thêm Explanatory vs Processing clarification, GAP 13 resolved)
+status: v1.4 — REFERENCE FILE (kiến trúc tổng thể Valence system)
 scope: |
   WHAT valence IS + HOW valence WORKS per-entity + HOW valence PROPAGATES qua schema chain
   + WHY PFC không biết + GIỚI HẠN nền tảng.
@@ -223,6 +223,14 @@ backup: Domain/backup/Valence.md
     → = Schema.md §1: "Schema = PATTERN dao động neuron đã ổn định"
     → Valence = 1 DIMENSION của schema (cùng với motor, visual, somatic...)
 
+    ⚠️ NO SOURCE TAG (Drill §10 — GAP 8):
+    → Valence stored KHÔNG kèm field "nguồn gốc" (internal hay external?)
+    → Wire = wire. Body treat BÌNH ĐẲNG bất kể compiled từ đâu.
+    → PFC CŨNG không phân biệt (§7 confabulation)
+    → "Tôi thật sự muốn X hay xã hội nạp?" = câu hỏi VÔ NGHĨA ở body level
+    → "Tôi" = TỔNG HỢP internal + external compiled patterns
+    → 🟢 Nisbett & Wilson 1977: PFC cannot access actual processing
+
     🟢 Fear conditioning: rapid, one-trial learning (LeDoux 1996)
     🟢 Evaluative conditioning: valence transfer qua association (De Houwer 2007)
 ```
@@ -386,6 +394,18 @@ backup: Domain/backup/Valence.md
     🟡 "Body-base extension" as explicit concept = framework synthesis
     🟡 2-luồng reward separation = framework synthesis (Connection.md §3.3)
 
+    ⭐ MECHANISM DEEP-DIVE → Body-Coupling.md v1.0:
+      §2 ở trên mô tả CONCEPT: agent strong positive → body-base extension.
+      Body-Coupling.md drill MECHANISM chi tiết + MỞ RỘNG:
+        → 2D Model: |❸| Depth × ❸ Direction → 3 outcomes
+        → Extension (positive) + Entanglement (NEGATIVE) + Neutral
+        → 3 Phase: ❸ initiates → threshold → coupling sustains independent of L1
+        → Negative coupling: 4 accelerators, 4-tầng loss dissolution
+        → System compilation: per-context (company, nation) KHÁC per-agent coupling
+        → Smoothing + Anti-smoothing = emergent property of |coupling depth|
+      §2 NÀY giữ vai trò: PER-ENTITY valence overview + 2-luồng concept.
+      Body-Coupling.md = WHERE TO GO cho full mechanism analysis.
+
 
   THÊM: ABSTRACT ENTITY VALENCE:
 
@@ -525,6 +545,47 @@ VALENCE UPDATE — 3 LOẠI:
 > **Đây là concept MỚI quan trọng nhất của file này.**
 > Valence.md cũ mô tả valence PER-ENTITY.
 > Section NÀY mô tả valence TRUYỀN QUA NETWORK giữa các schemas.
+
+> ⚠️ **CLARIFICATION — Chain Analysis = EXPLANATORY, Không Phải Processing**
+> *(Drill §6, §22 — GAP 13 RESOLVED)*
+>
+> Chain analysis dưới đây = **Cấp 3** (framework giải thích tại sao behavior hoạt động).
+> **KHÔNG phải** cách brain PROCESS ở **Cấp 1** — cá nhân compile SHORT (1-2 nodes).
+> Chain dài **SỐNG ở Cấp 2** (collective infrastructure hold cho cá nhân).
+> Vẫn CÓ GIÁ TRỊ: chẩn đoán chain gãy, thiết kế collective, phát hiện trust sai.
+>
+> Chi tiết Model 3 cấp + 4 compile pathways: Collective-Body.md §1-§2.
+
+```
+🟡 CLARIFICATION — 3 CẤP PHÂN TÍCH (Drill §6, §22):
+
+  VP §4 chain analysis ở dưới mô tả:
+    [toán → điểm → đại học → việc → lương → body-base]
+  = Cấp 3 analysis. ĐÚNG logic. NHƯNG não KHÔNG process thế.
+
+  Cấp 1 (Individual brain):
+    Compile SHORT. Cùng hành vi "đi học toán", 4 pathways khác nhau:
+      Hardware fit:    [toán → brain fire → opioid]           — 1 node
+      Trust + fit:     [mẹ nói → trust → học → khen → ấm]   — 2 nodes
+      Social default:  [mọi người đều học → bình thường]      — 1 node
+      Threat avoid:    [không học → mắng → sợ → học]          — 1-2 nodes
+    → TẤT CẢ short. Chain DÀI không nằm trong đầu cá nhân.
+
+  Cấp 2 (Collective):
+    Giáo dục + thị trường + kinh tế = infrastructure HOLD chain dài.
+    Cá nhân chỉ cần trust + compile short → collective deliver kết quả.
+
+  Cấp 3 (Framework — VP §4 analysis):
+    GIẢI THÍCH tại sao behavior hoạt động (evolutionary + structural reason).
+    MÔ TẢ collective infrastructure. PHÁT HIỆN chain break.
+
+  GIÁ TRỊ THỰC TẾ (chain analysis KHÔNG VÔ NGHĨA):
+    ① Chẩn đoán: "Học nhưng thất nghiệp" = biết node NÀO gãy → fix cụ thể
+    ② Thiết kế: giáo dục/tôn giáo/policy = thiết kế chain ở Cấp 2
+    ③ Verify: collective schema CÓ THỂ sai → chain analysis kiểm tra
+
+  → Chi tiết: Collective-Body.md §1 (Model 3 cấp) + §2 (4 pathways)
+```
 
 ```
 🔴 HYPOTHESIS — concept mới, logic consistent với established research,
@@ -1630,6 +1691,11 @@ HYPOTHESIS (🔴):
   + hormone shift + hardware variants + multi-layer interaction) gần như
   incomputable. Framework predict PATTERN, không predict INSTANCE cụ thể.
   Chi tiết: Research/Meta-Impact/Framework-Boundaries.md §Blackbox 2.
+  UPDATE: BB2 = BB1 + collective scale + hardware variance (Drill §26 D1).
+
+  §4 Clarification (v1.4): Chain analysis = Cấp 3 EXPLANATORY, không phải
+  Cấp 1 processing. 3 cấp phân tích formalized (Drill §6, §22).
+  🟡 Framework synthesis dựa trên drill findings — logic consistent.
 
 
 CÂU HỎI MỞ:
@@ -1663,6 +1729,8 @@ CROSS-REFERENCES:
     → Chunk.md v2.0 §3 — 4 loại connections (§5b Tầng 1 EXIST) ← MỚI v1.1
 
   MECHANISM:
+    → Body-Coupling.md v1.0 — coupling mechanism deep-dive: 2D model (|❸| Depth × Direction),
+      3 Phase, extension/entanglement/neutral, system compilation — extends §2 Body-Base Extension
     → Drive.md §0 — schema = DETECTOR, vô thức = ENGINE, PFC = navigator
     → Drive.md §0 — "Đam mê" = MÔ TẢ drive, KHÔNG PHẢI nguyên nhân
     → Feeling.md v2.0 §2 — 7-layer fidelity gradient (Layer 7 = 20-70% accuracy)
@@ -1675,6 +1743,7 @@ CROSS-REFERENCES:
       Observed Capacity = Hardware × Vô Thức × Cortisol × Context (§5b Tầng 3 FIT) ← MỚI v1.1
 
   PROPAGATION CONTEXT:
+    → Collective-Body.md §1-§2 — Model 3 cấp + 4 compile pathways (§4 Clarification v1.4)
     → Anchor-Schema.md §1-§2 — anchor amplify chain, trust ≥ cost → hold
     → Emergent-Patterns.md §5 — "Cho đi" pattern, 4 nguồn reward
     → Empathy.md §6 — empathy reward override spectrum (lành mạnh → compulsive)
@@ -1708,6 +1777,24 @@ STATUS:
     → THÊM §5b Trade-off: chain dài = feature (net positive cho tập thể dù có hại cá nhân)
     → FIX terminology: "mirror reward/dissonance" → "empathy reward/dissonance" toàn file
     → FIX cross-refs: "Empathy-Mirror.md §8.5" → "Empathy.md §6" (file đã thay thế)
+
+  v1.3 — 2026-04-28
+    → UPDATE §2: thêm Body-Coupling.md reference note (mechanism deep-dive cho Body-Base Extension)
+    → UPDATE §10: thêm cross-ref Body-Coupling.md v1.0
+    → NỘI DUNG §2 GIỮ NGUYÊN — chỉ thêm pointer tới file mechanism chi tiết
+
+  v1.4 — 2026-05-08
+    → THÊM §4 Clarification: Explanatory vs Processing (Drill §6, §22)
+      Chain analysis = Cấp 3 GIẢI THÍCH, KHÔNG phải Cấp 1 processing.
+      Cá nhân compile SHORT (1-2 nodes). Chain dài = Cấp 2 collective hold.
+      3 giá trị thực: chẩn đoán, thiết kế, verify.
+      4 compile pathways ví dụ (hardware fit, trust+fit, social default, threat avoid).
+    → GAP 13 (CRITICAL) RESOLVED
+    → THÊM §1 ④ "No Source Tag" (Drill §10)
+      Wire = wire, body treat bình đẳng, PFC cannot distinguish source.
+    → GAP 8 RESOLVED
+    → UPDATE §9: thêm confidence notes
+    → Cross-ref: Collective-Body.md §1-§2
   
   Tổng hợp:
     → Domain/backup/Valence.md (~579L) — per-entity valence, profile, cases
@@ -1728,7 +1815,7 @@ STATUS:
     §7  ⭐ PFC Blindness + Confabulation ("vô tư", "đam mê") — v1.0
     §8  ⭐ Giới hạn nền tảng + 3 nguyên tắc — v1.0
     §9  Honest assessment (🟢🟡🔴) — updated v1.1
-    §10 Cross-references + Status — updated v1.1
+    §10 Cross-references + Status — updated v1.3
 
   Confidence distribution:
     🟢 Per-entity valence, formation, update, bias, cases

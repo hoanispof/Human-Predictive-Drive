@@ -1,8 +1,8 @@
 ---
-title: Chunk.md v2.0 — Unified Chunk System Reference
+title: Chunk.md v2.1 — Unified Chunk System Reference
 created: 2026-03-28 (v1.0 DRAFT)
-updated: 2026-04-17 (v2.0 REWRITE — incorporates F1+F3+F4 deep analysis)
-status: v2.0 COMPLETE
+updated: 2026-05-08 (v2.1 — §1.3 Pattern Hierarchy from Drill §18 Q-NEW-1)
+status: v2.1 COMPLETE
 scope: |
   CORE REFERENCE FILE cho toàn bộ chunk system.
   Tổng hợp essence từ 44+ files, ~48,600L deep analysis.
@@ -79,6 +79,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Speculative
 
   → = SUBSTRATE LAYER of cognitive architecture (H1 🟡🟢)
   → Everything runs on chunks: feeling, thinking, planning, identity
+
+  ⚠️ NO SOURCE TAG (Drill §10 — GAP 8):
+  → Wire = wire. Body treat BÌNH ĐẲNG bất kể chunk compiled từ đâu.
+  → Internal compile (self-experience) vs external install (culture/trust)
+    = CÙNG format. KHÔNG CÓ field "nguồn gốc."
+  → PFC cannot distinguish → confabulation (PFC-Function §6, VP §7).
+  → Chi tiết: VP §1 ④ (no source tag), Drill §10.
 ```
 
 ### §1.2 — Multi-modal from birth
@@ -110,13 +117,62 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Speculative
   → Chi tiết: F1 07-Social-Recognition-Arc.md §6
 ```
 
-### §1.3 — Chunk vs Schema
+### §1.3 — Pattern Hierarchy: Pattern ⊃ Chunk / Schema / BP / Label
 
 ```
-CHUNK vs SCHEMA vs LABEL:
+⭐ PATTERN = SUBSTRATE TỔNG QUÁT (Drill §18 Q-NEW-1):
+
+  Pattern = mọi configuration of neural activity (firing + wiring).
+  = Khái niệm TỔNG QUÁT NHẤT trong framework.
+  = Chunk, Schema, Background Pattern đều LÀ pattern.
+  = KHÔNG phải concept song parallel — mà CHỨA các concept dưới.
+
+
+HIERARCHY 4 TẦNG:
+
+  ┌────────────────────────────────────────────────────────────────┐
+  │  CONCEPT           │ DEFINITION               │ ANALOGY       │
+  ├────────────────────────────────────────────────────────────────┤
+  │  PATTERN           │ Mọi configuration of     │ Sound         │
+  │  (tổng quát nhất)  │ neural activity           │               │
+  │                    │ (firing + wiring)         │               │
+  ├────────────────────────────────────────────────────────────────┤
+  │  CHUNK             │ Compiled pattern unit     │ Function      │
+  │  (atom)            │ = neurons wired together  │ (compiled,    │
+  │                    │ fire as 1 unit            │  reusable)    │
+  ├────────────────────────────────────────────────────────────────┤
+  │  SCHEMA            │ Named chunk-network       │ Module / API  │
+  │  (observation      │ + purpose                 │               │
+  │   label)           │ = observation label       │               │
+  ├────────────────────────────────────────────────────────────────┤
+  │  BACKGROUND        │ Accumulated pattern,      │ OS kernel     │
+  │  PATTERN           │ high link density,        │ (invisible    │
+  │  (invisible)       │ invisible to PFC          │  processes)   │
+  ├────────────────────────────────────────────────────────────────┤
+  │  LABEL             │ Retrieval tag cho         │ Function name │
+  │  (access path)     │ chunk/pattern/schema      │               │
+  └────────────────────────────────────────────────────────────────┘
+
+
+FORMAL RELATIONSHIPS:
+
+    Pattern ⊃ {Chunk, Schema, Background Pattern, ...}
+    Chunk ∈ Pattern (chunk là compiled unit CỦA pattern)
+    Schema ⊂ Pattern (mọi schema là pattern, KHÔNG ngược lại)
+    Label → Chunk/Pattern/Schema (label TRỎ TỚI, không phải nội dung)
+
+
+RECURSIVE COMPILATION:
+
+    Pattern → compile → Chunk → tham gia Pattern mới → compile → Meta-chunk → ...
+    = Pyramidal compression (PFC-Analysis.md)
+    = Cốt lõi Blackbox (Framework-Boundaries.md)
+
+
+CHI TIẾT TỪNG LEVEL:
 
   CHUNK = ATOM:
-    → 1 đơn vị associative network
+    → 1 đơn vị associative network, compiled, fire as 1 unit
     → Không có purpose riêng
     → VD: chunk [đạp phanh]
 
@@ -125,6 +181,12 @@ CHUNK vs SCHEMA vs LABEL:
     → VD: schema [lái xe] = mạng chunks → PURPOSE: di chuyển
     → Chi tiết: Schema.md §1.1
 
+  BACKGROUND PATTERN = OS KERNEL:
+    → Accumulated từ nhiều experience → high link density
+    → Fire MỌI LÚC nhưng PFC KHÔNG thấy (invisible)
+    → VD: "cách tôi phản ứng khi bị áp lực" = background pattern
+    → Chi tiết: Background-Pattern.md
+
   LABEL = HANDLE:
     → Verbal/symbolic tag ATTACHED to chunk (NOT part of chunk content)
     → Label = retrieval path, NOT 5th modality (NT6 🟡)
@@ -132,7 +194,10 @@ CHUNK vs SCHEMA vs LABEL:
     → 5 handle systems: gestural, action, image, verbal, internal-only
     → Chi tiết: §6, F1 08 §5
 
-  → Chunk = DATA. Schema = STRUCTURE. Label = ACCESS PATH.
+  → Pattern = SUBSTRATE. Chunk = COMPILED UNIT. Schema = STRUCTURE.
+  → Background Pattern = INVISIBLE SUBSTRATE. Label = ACCESS PATH.
+
+  🟡 Hierarchy formalization — Drill §18, logic consistent với Hebb + Collins & Loftus
 ```
 
 ---
@@ -210,6 +275,45 @@ CHUNK vs SCHEMA vs LABEL:
     ④ Conflict (installed chunks contradict existing chunks)
 
   → Chi tiết: F3 00-External-Mechanism.md, F3 01-External-Synthesis.md
+
+
+⭐ TRUST = GATE CHO EXTERNAL INSTALL (Drill §4, §20 — GAP 6):
+
+  External install (5 mechanisms trên) CHỈ compile khi có TRUST.
+  Compile ≠ "PFC hiểu rồi nạp vào não."
+  Compile = "Body nhận experience từ trusted source → vô thức tự wire."
+
+  5 TRUST SOURCES = 5 DẠNG COMPILE:
+    ① Mẹ: repetition CỰC CAO + multi-modal + sleep = SÂU NHẤT
+    ② Thầy/cô: mẹ trust → con observe → trust INHERIT (delegated)
+    ③ Tập thể: social proof = quantity install ("mọi người đều làm vậy")
+    ④ Kinh sách: compiled + unfalsifiable → KHÔNG BAO GIỜ bị challenge
+    ⑤ Lãnh đạo: L2 coupling + authority = deep trust
+
+  TRUST = VALENCE META-DIMENSION (VP §2):
+    → Trust KHÔNG phải hệ thống riêng biệt
+    → Trust = 1 CHIỀU trong valence profile per-entity
+    → Trust MODULATE CƯỜNG ĐỘ các channels KHÁC:
+      Trust HIGH → mọi valence từ entity NÀY MẠNH hơn
+      Trust LOW → mọi valence từ entity NÀY YẾU hơn
+    → = Trust = MULTIPLIER cho toàn bộ profile
+
+  TRUST COMPILE = CÙNG 4 CƠ CHẾ (§2.1):
+    ① Repetition: Mẹ cho ăn × hàng nghìn lần → [mẹ→trust++++]
+    ② Emotional peak: Bạn cứu mạng 1 lần → [bạn→trust++++] NGAY
+    ③ Multi-modal: Mặt + giọng + ôm + giúp đỡ = trust SÂU + NHANH
+    ④ Sleep: Hippocampus replay → trust pattern stabilize
+
+  TRUST BREAK = COMPETITIVE RE-LINKING (§2.5 principle):
+    Old trust NEVER fully deleted → new distrust compile ĐÈ → probability shift.
+    3 kịch bản: gradual erosion, violent flip, body defense (exhaustion).
+    "Lâu lâu nhớ hồi đó tốt" = old trust fire yếu, KHÔNG drive behavior.
+
+  → Chi tiết trust mechanism: VP §2, Drill §4, §20
+  → Chi tiết trust break: Chunk §4.3 (competitive re-linking)
+  → Chi tiết collective trust: Collective-Body.md §5
+
+  🟡 Trust gate formalization — Drill §4+§20, consistent với VP §2 + Chunk §2.1
 ```
 
 ### §2.4 — Body-state at compile (direction matters)
@@ -1205,9 +1309,11 @@ LINK STRENGTH = f(7 factors):
 ```
   ⚠️ Updated 2026-04-18 to align with v2.0/v1.0 reference files.
 
-  REFERENCE FILES (v2.0 — đọc song song):
+  REFERENCE FILES (v2.0+ — đọc song song):
     Body-Base/Feeling/Feeling.md v2.0 → feeling = PFC observation, 7-layer, 8-step flow
-    Body-Base/Valence-Propagation.md v1.0 → valence per-entity + propagation qua schema chain
+    Body-Base/Valence-Propagation.md v1.4 → valence per-entity + propagation qua schema chain
+    Body-Base/Collective-Body.md v1.0 → Model 3 cấp (Individual → Collective → Framework)
+    Body-Base/Body-Base.md v2.0 → entry point cho Body-Base system
       → §4: valence propagation DÙNG chunk activation dynamics (§4 file NÀY) làm substrate
       → = Valence propagation = BEHAVIOR emerge từ chunk HARDWARE
     Body-Base/AI-Schema-Detection.md v1.0 → AI-assisted schema detection

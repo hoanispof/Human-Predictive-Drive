@@ -1,9 +1,10 @@
 ---
 title: Connection — Observation Parameter
-version: 3.0
+version: 3.1
 created: 2026-04-20
 rewritten: 2026-04-24
-status: OBSERVATION PARAMETER v3.0
+updated: 2026-04-28 (v3.1 — §3.3 thêm Body-Coupling.md reference + §18 cross-ref)
+status: OBSERVATION PARAMETER v3.1
 scope: |
   OBSERVATION FILE: Connection = named pattern khi quan sát body's social mechanisms
   (❶ hardware + ❷ SPM) engage với agents.
@@ -773,6 +774,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟡 2-luồng separation = framework synthesis
     🟢 Empathy fatigue ở professionals: Figley 2002 (compassion fatigue)
     🟢 "Nhìn con ăn ngon mà sướng" = empathy positive (Singer 2004)
+
+    ⭐ MECHANISM DEEP-DIVE → Body-Coupling.md v1.0:
+      §3.3 ở trên mô tả ❸ as GATE + 2-luồng reward (Connection perspective).
+      Body-Coupling.md drill MECHANISM chi tiết:
+        → HOW ❸ compile qua 3 Phase: initiate → threshold → coupling sustains
+        → 3 outcomes: Extension (positive) / Entanglement (negative) / Neutral
+        → Negative coupling drilled: Schadenfreude, hate, dehumanization
+        → System compilation: company/nation coupling KHÁC per-agent coupling
+        → compile_rate formula: |peak_valence| quyết định, repetition = multiplier
+      §3.3 NÀY giữ vai trò: HOW ❸ gates SPM + 2-luồng overview.
+      Body-Coupling.md = WHERE TO GO cho coupling formation + dynamics.
 
 
   ⭐ VALENCE DYNAMIC — THAY ĐỔI QUA EXPERIENCE:
@@ -1891,6 +1903,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Agent-Mechanism.md — integration hub, §12 body-need feeder
     → Self-Pattern-Match.md v2.0 — F1/F2, context-dependent, reversed mapping
     → Pattern-Resonance.md — emergent mutual phenomenon, 4 conditions
+    → Body-Coupling.md v1.0 — coupling mechanism (extends §3.3 ❸ + 2-luồng):
+      2D model, 3 Phase, extension/entanglement/neutral, system compilation
     → Empathy.md — SPM function, 3 mechanisms, spectrum
     → Chunk.md v2.0 — chunk substrate, compilation
     → Anchor-Schema.md — sync point, Trust, 4 nguồn
@@ -1931,6 +1945,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       §5.2 (8 pathways fire NGƯỢC), §3.2 (2-tầng mechanism ❶+❷)
     → TRIMMED: §8-§12 (compact từ v2.0)
     → Backup: backup/Connection-v2.0-backup.md
+
+  v3.1 — 2026-04-28
+    → UPDATE §3.3: thêm Body-Coupling.md reference note (mechanism deep-dive)
+    → UPDATE §18: thêm cross-ref Body-Coupling.md v1.0
+    → NỘI DUNG §3.3 GIỮ NGUYÊN — chỉ thêm pointer tới file mechanism chi tiết
 ```
 
 ---

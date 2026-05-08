@@ -1868,9 +1868,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 → Chunk.md v2.0 — substrate nền tảng. Empathy = function ON chunk substrate.
 → Feeling.md v2.0 — PFC observation interface. F1 output → PFC observe as feeling.
-→ Valence-Propagation.md v1.2 — body evaluation + §2 Body-Base Extension dimension
+→ Valence-Propagation.md v1.3 — body evaluation + §2 Body-Base Extension dimension
    (NƠI Luồng 2 structural SINH RA).
-→ Connection.md v3.0 — 3 Generative Primitives (❶ × ❷ × ❸).
+→ Body-Coupling.md v1.0 — coupling mechanism deep-dive: HOW L2 compile,
+   extension/entanglement/neutral, burnout = f(L1/L2 balance).
+→ Connection.md v3.1 — 3 Generative Primitives (❶ × ❷ × ❸).
    Empathy = 1 observable output khi ❷ SPM F1 + ❸ positive.
    Connection ⊃ Empathy (mechanism ⊃ observation).
 ```

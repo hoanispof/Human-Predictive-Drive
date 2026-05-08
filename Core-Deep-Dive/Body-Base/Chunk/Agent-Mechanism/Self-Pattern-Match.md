@@ -1,9 +1,9 @@
 ---
 title: Self-Pattern-Match — Solo Forward Simulation Mechanism
-version: 2.1
+version: 2.2
 created: 2026-04-15
 rewritten: 2026-04-24
-updated: 2026-04-24 (v2.1 — §2.1 F1=Luồng 1, §2.5 valence 2 vai trò, §10.4 moral injury qua 2-luồng)
+updated: 2026-05-08 (v2.2 — §3.5 Self-template ≠ empathy note, GAP-C4 resolved)
 status: v2.1 — CORE MECHANISM FILE
 supersedes:
   - backup/Self-Pattern-Match-v1.0-forward-backup.md (v1.0, 1518L)
@@ -764,6 +764,29 @@ v1.0 ĐÚNG ở phần lớn nội dung. Nhưng THIẾU tầng phân tích bên 
 
   🟢 Singer 2004: shared activation areas
   🟢 Dimberg 2000: facial EMG mimicry = automatic, 300ms
+
+
+  ⚠️ SELF-TEMPLATE ≠ EMPATHY (Drill-L2 §3.2C — GAP-C4):
+
+    F1 fire dùng SELF-TEMPLATE (compiled chunks CỦA MÌNH).
+    Output phụ thuộc depth/content CỦA template, KHÔNG phải target's actual state.
+
+    "Tức hơn chính nó" = COMPOUND 2 NGUỒN:
+      Nguồn 1: Empathy × L2 — anger VÌ target (SPM trên target)
+      Nguồn 2: Self-template — anger TỪ own compiled patterns
+        (bất công → fire OWN injustice chunks → body respond TỪ mình)
+      → PFC mix 2 nguồn → misattribute HẾT cho "empathy"
+
+    VERIFY: người lạ trên mạng bị bất công → VẪN tức dù L2 ≈ 0
+      = self-template thuần (Nguồn 2 alone, Nguồn 1 ≈ 0)
+
+    HỆ QUẢ:
+      → F1 output CÓ THỂ > target's actual experience
+      → "Mẹ đau hơn con" = self-template (mẹ's compiled chunks) > con's actual pain
+      → PFC label "empathy" = partial truth. Full mechanism = empathy + self-template.
+
+    → Chi tiết L2 × SPM: Body-Coupling §1.4 Kênh C
+    🟡 Self-template ≠ empathy distinction = Drill-L2 insight
 ```
 
 ### §3.6 — Step 5: Output read — BRIDGE
@@ -2105,7 +2128,9 @@ v1.0 ĐÚNG ở phần lớn nội dung. Nhưng THIẾU tầng phân tích bên 
     → Chunk.md v2.0 — chunk substrate, compilation
     → Feeling.md v2.0 — PFC observation interface (Step 5 = Feeling applied)
     → Logic-Feeling.md — 2 processing modes, parallel, modality bias
-    → Valence-Propagation.md v1.1 — per-entity valence, chain propagation
+    → Valence-Propagation.md v1.3 — per-entity valence, chain propagation
+    → Body-Coupling.md v1.0 — coupling mechanism (builds ON SPM):
+      SPM fire tích lũy → coupling compile → sustains independent of SPM
     → Body-Feedback-Mechanism.md — Chunk-Miss / Gap / Shift dynamics
 
   OBSERVATION FILES:

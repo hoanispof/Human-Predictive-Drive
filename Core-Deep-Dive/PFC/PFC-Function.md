@@ -1,8 +1,9 @@
 ---
 title: PFC-Function — Observable PFC Functions for Human-Predictive-Drive
-version: 1.0
+version: 1.1
 created: 2026-04-19
-status: DRAFT v1.0
+updated: 2026-05-08 (v1.1 — §6 Confabulation GAP 10 + §4 Proxy Trigger GAP-C5)
+status: v1.1
 scope: |
   24 PFC functions organized by 5 categories.
   Focus: cái PFC CÓ THỂ LÀM → actionable cho human development.
@@ -258,6 +259,30 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → Timeline: weeks → months (NOT instant)
      → = "PFC tạo CONTEXT, C+D tự học"
      Source: session analysis, consistent with extinction learning literature
+
+
+  ⭐ PFC PROXY TRIGGER — indirect body access (Drill-L2 §3.6 — GAP-C5):
+
+     PFC → C+D = KHÔNG CÓ direct command pathway (§6).
+     DUY NHẤT indirect: hold/recall chunks → chunks fire → body respond.
+
+     CÙNG CƠ CHẾ:
+       "Chanh" → compiled taste chunks → salivation (universal)
+       "Con chó cắn" → fear chunks → NE → heart rate ↑
+       "Mẹ" → L2 compiled chunks → warmth (if L2 deep)
+       Thiền sư = refined proxy (practice → meta-chunks SÂU → precise)
+     → PFC chỉ control bước 1 (decide recall). Bước 2+ = automatic.
+
+     FAIL CONDITIONS:
+       → "Tim đập nhanh đi" = no chunk to fire → FAIL
+       → Trầm cảm: cortisol suppress opioid → "nghĩ mà không cảm"
+       → L2 chưa compiled đủ → recall weak → body respond weak
+
+     "Ý chí" = KHÔNG phải PFC force body.
+     "Ý chí" = body có ĐỦ proxy trigger sources (meaning+L2+ritual+group).
+
+     → Chi tiết: Body-Coupling §1.4 Kênh F
+     🟡 Proxy trigger as unified mechanism = Drill-L2 §3.6
 ```
 
 ---
@@ -330,6 +355,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ① Chunks compiled cho tình huống (nhiều → effective, ít → helpless)
     ② Body signal intensity (nhẹ → PFC override ok, mạnh → PFC thua)
     ③ Cortisol level (optimal → PFC clear, quá cao/thấp → PFC impaired)
+
+
+  ⭐ CONFABULATION = RULE, NOT EXCEPTION (Drill §10 — GAP 10):
+
+    PFC observe body output → tạo "giải thích" → TƯỞNG là quyết định.
+    Thực tế: body compile + act TRƯỚC → PFC label SAU (post-hoc).
+    PFC KHÔNG BIẾT nguồn gốc chunks (Chunk §1.1 — no source tag).
+
+    Chuỗi THẬT:      trust → body receive → compile → act → PFC observe → label
+    Chuỗi PFC TƯỞNG: PFC hiểu → PFC quyết định → body làm theo
+
+    VD: "Cho đi vô tư" (PFC label) ← body đang tính 4 reward chains
+    VD: "Đam mê vật lý" (PFC label) ← hardware fit + VTA delta
+    VD: "Bản năng" (PFC label) ← hormone + schema compound
+    → PFC LABEL ≠ ACTUAL MECHANISM
+
+    → 🟢 Nisbett & Wilson 1977: "telling more than we can know"
+    → 🟢 Split-brain confabulation: Gazzaniga
+    → Chi tiết mechanism: VP §7 (PFC Blindness + Confabulation)
 ```
 
 ---

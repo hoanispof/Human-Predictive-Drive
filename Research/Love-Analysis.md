@@ -1976,11 +1976,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 MECHANISM FILES:
-  → Connection.md v3.0 — 3 Generative Primitives, 8 pathways, §15 chunk dynamics
+  → Body-Coupling.md v1.0 — coupling mechanism: 2D model, 3 Phase,
+    extension/entanglement/neutral, system compilation, negative coupling
+  → Connection.md v3.1 — 3 Generative Primitives, 8 pathways, §15 chunk dynamics
   → Agent-Mechanism.md — SPM hub, §12 body-need feeder, §12.2b 2-luồng
   → Self-Pattern-Match.md v2.1 — F1/F2, 5 Pattern-Types, 4 axes
   → Pattern-Resonance.md — mutual phenomenon, calibration loop
-  → Valence-Propagation.md v1.2 — per-entity valence, §2 Body-Base Extension
+  → Valence-Propagation.md v1.3 — per-entity valence, §2 Body-Base Extension
   → Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, §4 Compound
   → Chunk.md v2.0 — substrate, compilation, hierarchy
   → Cortisol-Baseline.md v2.0 — 5 Cortisol Roles §7.7, cascade, recovery asymmetry

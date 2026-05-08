@@ -2169,9 +2169,11 @@ CORE MECHANISM FILES:
     §5 Gift-Obligation Spectrum, §5.3 Obligation preview
   → Agent-Mechanism.md — §12 body-need feeder, §12.2b 2-luồng L1/L2,
     §12.4 Mode 1/2 virtual agents, §12.5 collective agents
-  → Valence-Propagation.md v1.2 — §2 Body-Base Extension dimension,
+  → Valence-Propagation.md v1.3 — §2 Body-Base Extension dimension,
     L1/L2 distinction, "2 luồng INDEPENDENT"
-  → Connection.md v3.0 — §3.3 2-luồng reward, §5 ④ giving reward,
+  → Body-Coupling.md v1.0 — coupling mechanism: extension/entanglement
+    explains WHY obligation weight varies (coupling depth → L2 magnitude)
+  → Connection.md v3.1 — §3.3 2-luồng reward, §5 ④ giving reward,
     §8 virtual chunks access, §14 collective connection
   → Autonomy-Hardware.md — efference copy, self-action = reward,
     §5 2-layer dissonance (bị ép + kết quả tốt VẪN = dissonance)
