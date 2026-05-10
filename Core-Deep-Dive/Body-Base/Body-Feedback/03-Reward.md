@@ -3,7 +3,7 @@ title: 03 — Reward Decoding
 phase: P3 (of P0→P5)
 parent: plan.md
 scope: Decode reward mechanism + preconditions matrix + 7 reward cases + calibration paradoxes (ô tô, Van Gogh) + schema update latency + chunk association tag + sustainability
-status: DRAFT P3a complete (§1-§5). P3b (§6-§12) to be appended next.
+status: REFERENCE v1.1 (P3 COMPLETE §1-§12. v1.1 2026-05-10: Type A/B notes + cross-refs).
 reading_order: Read AFTER 01-Foundation.md + 02-Dissonance.md
 prerequisite_concepts: Dual-pull / Interface loop / Body-feedback vs Feeling / Vô thức vs PFC / Schema phục vụ body-base (P1) + Cortisol-Baseline §3.5 Novelty/Threat cortisol distinction + Chunk association tag (P2 §5 + §9)
 language: Tiếng Việt primary + English technical terms
@@ -274,6 +274,10 @@ File này cover 12 drill sections:
 - Reinforces chunk in memory
 - **This is where chunks get tagged** (opioid vs cortisol association — Cortisol-Baseline §3.5)
 
+🟡 **Type A/B Note (v1.1)**: Step 5 opioid check = primarily **TYPE A** pathway (evaluative).
+Type B reward (touch, exercise, warmth) bypasses cortical evaluation → different, shorter pathway.
+Chi tiết A/B dimension: Reward-Signal-Architecture.md §1-§3.
+
 **User's hypothesis validated with addition**:
 - User: "Chunk liên kết → VTA fire → reward"
 - Framework: "Chunk liên kết → VTA fire (alert) → PFC check → body simulate → body-need match → **opioid (actual reward)**"
@@ -479,6 +483,10 @@ File này cover 12 drill sections:
 - But learning-domain chunks compiled in curiosity state (threat source ≠ learning)
 - → Chunks opioid-tagged in their learning domain
 - → Reward accessible despite high baseline
+
+🟡 **P5 extends (v1.1)**: P5 determines not just direction (approach/avoid) but reward QUALITY.
+4-Pathway × P5 Tag Model: HW Fit → approach, Trust → moderate, Social → neutral, Threat → avoidance.
+Chi tiết: Reward-Signal-Architecture.md §8.4
 
 ### §3.7 — Preconditions Matrix Summary
 
@@ -2185,6 +2193,14 @@ Sustained reward:
 ---
 
 ## §12 — Cross-Refs
+
+### §12.0 — Complement File (v1.1 NEW)
+
+**Reward-Signal-Architecture.md v1.0** (Body-Feedback/ folder):
+- File này (03-Reward): KHI NÀO reward fires (H10, 7-step VTA mechanism)
+- RSA: reward fire CHẤT LƯỢNG THẾ NÀO (Type A/B, 5 Profiles, Interaction)
+- Complement, not replacement. Different questions → different files.
+- PFC-Configuration.md v1.0 — PFC modes × reward (which configs allow reward)
 
 ### §12.1 — Framework files referenced in P3
 

@@ -1,9 +1,10 @@
 ---
 title: Idol Phenomenon — Tại Sao Con Người Thần Tượng
-version: 2.0
+version: 2.1
 created: 2026-03-28
 rewritten: 2026-04-26
-status: RESEARCH FILE v2.0
+refined: 2026-05-10
+status: RESEARCH FILE v2.1
 scope: |
   RESEARCH FILE: Phân tích hiện tượng idol qua framework lens.
   Idol phenomenon = body-base drives CỦA FAN compile chunks về idol
@@ -13,6 +14,9 @@ scope: |
   thêm SPM F1/F2 parasocial analysis, 2-luồng reward, Body-Base Extension,
   Chunk-Activation-Dynamics, Protect grief, AI idol deep analysis.
   Core model (5 drives, formula, spectrum) RETAINED + enriched.
+  v2.1 (2026-05-10): REFINE post-drill Reward — §1 thêm RSA Type A/B mapping
+  (idol art = Type B, anchor = Type A, A Gates B explain fan depth gradient),
+  §6 Type B note, cross-refs RSA + PFC-Hardware v1.1.
 purpose: |
   Phân tích CƠ CHẾ: tại sao idol TỒN TẠI, khi nào TỐT, khi nào HẠI.
   Nhìn idol phenomenon như 1 "công nghệ" trong spectrum Melody Technology
@@ -141,6 +145,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Giọng hay = auditory reward (VTA delta trên vocal patterns)
     Vũ đạo = motor + visual sync → body motor simulation (SPM F1 lite)
     → Idol = NGUỒN body-reward DỄ TIẾP CẬN + LẶP LẠI ĐƯỢC
+
+    RSA Type A/B (Reward-Signal-Architecture.md):
+      → Nhạc, vũ đạo, mặt đẹp = chủ yếu TYPE B (direct state, sensory-driven)
+      → NHƯNG khi fan sâu + anchor hình thành (③④ bên dưới):
+        IDENTITY/GOAL anchor = TYPE A (evaluative, opioid)
+        → A Gates B: anchor MẠNH → sensory experiences CÒN MẠNH HƠN
+        → = Tại sao cùng bài hát: fan cuồng CẢM thấy sâu hơn fan nhẹ
 
     🟢 Music reward: opioid + dopamine release (Blood & Zatorre 2001)
     🟢 Physical attractiveness bias (Langlois et al. 1987)
@@ -553,6 +564,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → MV: visual + auditory + motor + story + emotional = 5/6 modalities
     → Fan meeting: ADD somatic (handshake, hug) = 6/6
     → = Industry knows: MORE channels → DEEPER compile
+    → = Fan meeting thêm somatic → Type B direct body-state → compile MẠNH
     → = "Limited fan meeting" = inject somatic channel → MASSIVE compile
 
 
@@ -857,9 +869,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 → Imagination.md: simulate = same body pathway → parasocial mechanism
 → Cortisol-Baseline.md v2.0: §7.7 5 Roles, amplifier role in grief
 → Love-Analysis.md v2.1: §12 compound grief (parallel mất idol extreme case)
-→ AI-Schema-Detection.md v1.1: gateway tool framing
+→ AI-Schema-Detection.md v2.0: gateway tool framing
 → Empathy-Education.md: idol education parallel
 → Global-Melody.md: idol influence on cultural melody
+→ Reward-Signal-Architecture.md v1.0: Type A/B — idol art = Type B, anchor = Type A, A Gates B (§1)
+→ PFC-Hardware.md v1.1: §3.4 COMT × Reward Pattern → khác idol consumption (§7)
 ```
 
 ---

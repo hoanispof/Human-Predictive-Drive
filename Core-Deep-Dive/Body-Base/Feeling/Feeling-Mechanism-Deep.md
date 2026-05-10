@@ -1,7 +1,8 @@
 ---
 title: Feeling-Mechanism-Deep — HOW Feeling Works End-to-End
 created: 2026-04-17 (N+11 session, Feeling Deep Dive)
-status: DRAFT v1.0
+updated: 2026-05-10 (v1.1 — §4.6 Type A/B, cross-refs)
+status: REFERENCE v1.1
 scope: Unified mechanism — from body signal to felt experience to action
 purpose: |
   "Processing System" mà user cảm thấy thiếu.
@@ -943,6 +944,41 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
     → = Framework explains: P3 met (delta) but P1/P4 often missed
 ```
 
+### §4.6 — Type A/B Dimension (v1.1 — Drill R1+R4)
+
+```
+🟡 REWARD = 2 ORTHOGONAL TYPES, BOTH OBSERVED BY FEELING SYSTEM:
+
+  §4.1-§4.5 mô tả reward mechanism = đúng NHƯNG chỉ cover TYPE A.
+  Drill reveals: reward có 2 types ORTHOGONAL:
+
+  TYPE A — EVALUATIVE (opioid-dependent):
+    → Cortical processing → evaluation → opioid (if chunk matches)
+    → All §4.1-§4.5 content = primarily Type A description
+    → PFC observes CLEARLY (PFC involved in pathway)
+    → 5 Profiles: ①Sensory ②Coherence ③Social ④Relief ⑤Preview
+
+  TYPE B — DIRECT STATE (non-opioid):
+    → Hardware-level: CT afferents (touch), endocannabinoid (exercise),
+      oxytocin (proximity), serotonin (satiety)
+    → Below PFC level → feeling system observes as BODY-STATE SHIFT
+    → "Dễ chịu" more than "sướng" — less dramatic, more foundational
+    → LESS variable across individuals = "democratic reward"
+
+  HOW FEELING SYSTEM OBSERVES EACH:
+    Type A → Feeling Layer 4-6 (clear, labellable, "sướng" / "eureka")
+    Type B → Feeling Layer 2-3 (vague, body-state, "dễ chịu" / "thoải mái")
+    → = WHY we can LABEL insights but struggle to ARTICULATE comfort
+
+  A GATES B (Reward-Signal-Architecture.md §3):
+    → A evaluation MODULATES B body-state: amplify / suppress / raw / mixed
+    → = Body-base check (§4.2 step ⑤-⑥) = primarily A gate mechanism
+    → = Type B bypasses this check (hardware-level, no cortical evaluation)
+
+  → Chi tiết: Reward-Signal-Architecture.md v1.0
+  → Source: Drill §3.7 (R1), §3.9 (R4)
+```
+
 ---
 
 ## §5 — Feeling Gradient: Clear ↔ Vague (Same Mechanism)
@@ -1537,6 +1573,13 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
   F1 NT6                            → §3.6, §5.5 (verbal-as-handle)
 
 
+📚 REWARD ARCHITECTURE (v1.1 NEW):
+
+  Reward-Signal-Architecture.md v1.0 → §4.6 Type A/B maps to RSA full detail
+    → Type A = evaluative (opioid), Type B = direct state (non-opioid)
+    → A Gates B = RSA §3 (evaluation modulates body-state)
+    → 5 Profiles = RSA §4 (①Sensory ②Coherence ③Social ④Relief ⑤Preview)
+
 📚 OTHER FRAMEWORK FILES:
 
   Neural-Processing-Flow.md         → §1.2 (hardware pathway), §2.2 (integration hubs)
@@ -1572,13 +1615,14 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
 
 ---
 
-> **END OF Feeling-Mechanism-Deep.md v1.0**
+> **END OF Feeling-Mechanism-Deep.md v1.1**
 >
 > **Summary:** HOW feeling works end-to-end:
 >   §1: Feeling = PFC observation of body-chunk interaction
 >   §2: Multi-channel signals → integrated via insula + ACC + VMPFC
 >   §3: 8-step operational flow (the "Processing System")
 >   §4: Reward = opioid (NOT dopamine). 5 preconditions (H10). Eureka model.
+>       v1.1: §4.6 Type A/B dimension (evaluative vs direct state)
 >   §5: Clear ↔ Vague = same mechanism, different signal profile. H5 convergence.
 >   §6: Feeling quality = f(chunk library + compile context). 1A vs 1B. Trauma.
 >   §7: 22 🟢 + 9 🟡 + 5 🔴. 10 falsifiable predictions. Honest limits.
@@ -1589,4 +1633,4 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
 >   Feeling-Literacy-Training.md (next) = HOW TO IMPROVE feeling
 >   Feeling-Chunk-Bridge.md (next) = HOW chunk system PRODUCES feeling
 >
-> **Phiên bản:** v1.0, 2026-04-17.
+> **Phiên bản:** v1.1, 2026-05-10.

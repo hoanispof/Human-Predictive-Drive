@@ -1,8 +1,9 @@
 ---
 title: Body-Feedback Mechanism — Chunk Dynamics Classification
-version: 1.0
+version: 1.2
 created: 2026-04-20
-status: REFERENCE v1.1 (2026-04-20: §3.3 Gap→Miss transition + Cortisol 3 roles + Gap decomposition mini-arc)
+updated: 2026-05-10 (v1.2 — §2 Type A/B mapping, §4 Conditional Interaction Model, cross-refs)
+status: REFERENCE v1.2
 scope: |
   CORE MECHANISM FILE: HOW body-feedback arises from chunk dynamics.
   2 input sources (Sensory-Driven / Pattern-Driven).
@@ -182,6 +183,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Hedonic responses in animals: Berridge facial coding (tongue protrusion)
     → Taste preference without cognition: Berridge 2003 (dopamine-depleted rats
       still show liking reactions to sucrose placed in mouth)
+
+  🟡 TYPE A/B MAPPING (v1.2 — Reward-Signal-Architecture.md §1):
+    → Sensory-Driven ≈ TYPE B territory (direct state signals):
+      Touch (CT afferents), temperature, pain, basic taste = hardware-level
+      → Non-opioid pathways, below PFC, minimal cortical involvement
+    → Sensory-Driven CÓ THỂ CÓ Type A component khi cortical evaluation:
+      Nhạc hay = auditory + cortical pattern match → Type A (evaluative)
+      Ăn ngon = taste + hedonic evaluation → A + B compound
+    → "Pure sensory" = mostly Type B. "Sensory + evaluation" = A + B.
 ```
 
 ### §2.3 — Pattern-Driven (từ chunk network nội bộ)
@@ -246,6 +256,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Spreading activation: Collins & Loftus 1975
     → Social comparison: Festinger 1954
     → ACC error detection: Bush et al. 2000
+
+  🟡 TYPE A/B MAPPING (v1.2 — Reward-Signal-Architecture.md §1):
+    → Pattern-Driven = primarily TYPE A territory (evaluative):
+      Cortical pattern match → OFC/vmPFC evaluation → opioid (if match)
+      = Insight, coherence, preview = all require cortical processing
+    → Pattern-Driven CÓ THỂ kích hoạt Type B:
+      Replay of touch memory → body re-simulate → B partial activation
+      Preview of exercise → motor cortex pre-activate → B trace
+    → Pattern-Driven × A Gate B (Reward-Signal-Architecture.md §3):
+      A evaluation MODULATES B body-state response
+      = WHY "nghĩ về ôm" ≠ "ôm thật" (preview fidelity < 100%)
 ```
 
 ### §2.4 — So sánh 2 nguồn
@@ -785,6 +806,38 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Intensity mỗi dynamic tùy delta magnitude
     → = Tại sao "bạn thân phản bội" > "người lạ lừa" > "tự rơi"
       (cùng loss, khác compound level)
+
+
+  🟡 CONDITIONAL INTERACTION MODEL (v1.2 — Drill R7):
+
+    ⚠️ COMPOUND ≠ ADDITIVE.
+    Công thức Σ ở trên = APPROXIMATION. Thực tế: CONDITIONAL.
+
+    Reward compound NOT simply A + B. 4 VARIABLES determine interaction:
+
+    ① Substrate Overlap:
+       → Cùng receptor system (opioid + opioid) → SUPERADDITIVE
+       → Khác system (opioid + endocannabinoid) → ADDITIVE
+       → Cạnh tranh (opioid + cortisol) → SUBTRACTIVE
+
+    ② A Gate Direction (Reward-Signal-Architecture.md §3):
+       → A evaluates → AMPLIFY B → superadditive
+       → A evaluates → SUPPRESS B → subtractive
+       → A absent → B RAW (no evaluation)
+
+    ③ Relief Presence:
+       → Nếu threat pending resolved → cortisol DROP = MULTIPLIER
+       → Nếu no threat → opioid only, no relief bonus
+       → Relief + reward = STRONGEST compound (Archimedes "Eureka!")
+
+    ④ Temporal Overlap:
+       → Simultaneous → compound (most powerful)
+       → Sequential (seconds) → cascade (moderate)
+       → Sequential (hours+) → independent (no compound)
+
+    → Diagnostic: compound cảm xúc UNEXPECTED = check 4 variables
+    → Chi tiết: Reward-Signal-Architecture.md §6 (Conditional Interaction Model)
+    → Source: Drill §3.15 (R7)
 ```
 
 ---
@@ -1102,6 +1155,12 @@ WHAT THIS FILE DOES NOT DO:
 ## §10 — CROSS-REFERENCES
 
 ```
+📚 REWARD ARCHITECTURE (v1.2 NEW):
+  → Reward-Signal-Architecture.md v1.0 — Type A/B dimension, 5 Profiles, Interaction Model
+    → §2 A/B maps to: Sensory-Driven ≈ Type B, Pattern-Driven ≈ Type A
+    → §3 A Gates B = evaluation modulates body-state
+    → §6 Conditional Interaction Model = replaces simple additive compound
+
 📚 WITHIN BODY-FEEDBACK FOLDER:
   → Body-Feedback.md §2 — dual-pull architecture
   → Body-Feedback.md §5 — H10 5 preconditions
@@ -1183,5 +1242,8 @@ WHAT THIS FILE DOES NOT DO:
 > **v1.1 additions**: Gap→Miss via Imagine-Final preview compile
 >   + Cortisol 3 roles (holding accelerator, direction tag, inertia post-fill)
 >   + Mini-arc dynamics (gap decomposition for sustained drive).
+> **v1.2 additions**: §2 Type A/B mapping (Sensory≈B, Pattern≈A),
+>   §4 Conditional Interaction Model (NOT additive — 4 variables),
+>   cross-refs Reward-Signal-Architecture.md.
 >
-> **Phiên bản:** v1.0, 2026-04-20.
+> **Phiên bản:** v1.2, 2026-05-10.

@@ -1630,6 +1630,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       SAU tạo file này: Connection §3.3 REFERENCE Body-Coupling.md
     → Agent-Mechanism.md — §12.2b L1/L2 transition (mechanism origin)
     → Self-Pattern-Match.md v2.1 — §10 Reversed mapping (negative coupling SPM)
+    → Reward-Signal-Architecture.md v1.0 — Type A/B × Coupling (2026-05-10):
+      Type B (touch) = body-coupling direct mechanism. Type A = evaluation overlay.
     → Pattern-Resonance.md — 4 conditions (coupling via PR)
     → Body-Feedback-Mechanism.md — §5 compile_rate (formula source)
     → PFC-Hardware.md — §2 Observed Capacity (PFC limit for Mode 3)

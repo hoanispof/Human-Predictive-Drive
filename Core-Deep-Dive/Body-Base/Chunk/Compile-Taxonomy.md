@@ -1,9 +1,9 @@
 ---
 title: Compile-Taxonomy — 3 Loại Compile + 6 Trade-offs
-version: 1.0
+version: 1.1
 created: 2026-05-08
-updated: 2026-05-08
-status: v1.0
+updated: 2026-05-10 (v1.1 — §3 reward implication cross-ref)
+status: v1.1
 scope: |
   PHÂN LOẠI CHÍNH THỨC 3 loại compile (A/B/C) + 6 trade-offs.
   Giải đáp: tại sao brain compile ngắn, tại sao "biết mà không làm",
@@ -551,6 +551,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 4 compile pathways model: framework synthesis (Drill §22A)
   🟢 Social proof: Cialdini 1984
   🟢 Approach vs avoidance motivation: Elliot 2006
+
+  🟡 REWARD IMPLICATION (v1.1 — Reward-Signal-Architecture.md §8.4):
+    4 pathways tạo DIFFERENT P5 tags → khác reward capacity ở người lớn:
+    → ① HW Fit → approach tag → Profile ② coherence NATURAL, flow accessible
+    → ② Trust + moderate → moderate approach → depends on collective chain
+    → ③ Social Default → neutral tag → Profile ④ relief dominant ("xong rồi" > "hay")
+    → ④ Threat Avoidance → avoidance tag → Profile ④ relief ONLY, burnout trajectory
+    → Chi tiết: Reward-Signal-Architecture.md §8.4 (4-Pathway × P5 Tag Model)
 ```
 
 ---

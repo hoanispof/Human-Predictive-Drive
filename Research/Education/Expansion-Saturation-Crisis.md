@@ -1,8 +1,9 @@
 ---
 title: Expansion-Saturation-Crisis — Tại Sao Bằng Đại Học Mất Giá Trị Toàn Cầu
-version: 1.0
+version: 1.1
 created: 2026-04-26
-status: v1.0
+refined: 2026-05-09
+status: v1.1
 scope: |
   Hiện tượng TOÀN CẦU: thất nghiệp sau đại học, education-job mismatch,
   credential inflation, "hướng nghiệp" crisis.
@@ -11,6 +12,9 @@ scope: |
   VN-specific: "hướng nghiệp" + data + thế hệ trước vs hiện tại.
   AI disruption: automation entry-level expansion work.
   Predictions + implications.
+  v1.1 (2026-05-09): REFINE post-drill S1-S12 — tích hợp Compile-Taxonomy A/B/C
+  (education = Loại C install), Collective-Body Model 3 Cấp (grad unemployment =
+  collective chain break CB §5.2), terminology bridges.
 purpose: |
   TÍCH HỢP mechanisms có sẵn vào 1 phenomenon cụ thể.
   File này KHÔNG phải mechanism MỚI — mà APPLY mechanisms đã có
@@ -29,6 +33,8 @@ dependencies:
     - Domain-Mapping-Drive.md — reward từ PROCESS, "given"=bypass=no reward
   secondary:
     - Collective-Purpose.md — cosmic loop, humanity map domain
+    - Collective-Body.md v1.1 — Model 3 Cấp, §5.2 chain break, trust = only bridge
+    - Compile-Taxonomy.md v1.0 — 3 Loại A/B/C, education = Loại C install
     - Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT
     - Domain.md — thực tế bên ngoài, feedback thật, attractor
     - Education-Arms-Race.md — positional good, credential inflation
@@ -124,6 +130,28 @@ READER FLOW:
   Muốn hiểu CUỘC CHẠY ĐUA → Education-Arms-Race.md
   Muốn hiểu TẠI SAO BẰNG ĐH MẤT GIÁ TRỊ → FILE NÀY ← ĐÂY
   Muốn hiểu RƯỢU BIA × THẾ HỆ → Alcohol-Vietnam-Generational.md
+
+
+  v1.1 — MODEL 3 CẤP + COMPILE-TAXONOMY BRIDGES (post-drill S1-S12):
+
+  ⭐ FILE NÀY = TEST CASE CHO COLLECTIVE CHAIN BREAK (CB §5.2):
+
+    Chain collective: [học → đại học → việc → lương → body-base feed]
+    = NẰM Ở CẤP 2 (distributed: trường + thị trường + kinh tế)
+    Cá nhân compile SHORT: [học → tốt] (trust-gated, Loại C)
+    Trust = bridge DUY NHẤT giữa Cấp 1 và Cấp 2 (CB §5.1)
+
+    KHI EXPANSION BÃO HÒA:
+    → Link [đại học → việc TỐT] gãy (Cấp 2 infrastructure fail)
+    → Cá nhân body circuit-break: "output KHÔNG feed body-base nữa"
+    → PFC wake: "học làm gì?" = ĐÚNG CƠ CHẾ CB §5.2 Loại ②③
+    → = COLLECTIVE chain break → individual body DETECT → PFC engage
+
+    Education = CHỦ YẾU LOẠI C INSTALL (Compile-Taxonomy.md v1.0):
+    → Trust source (thầy, sách, institution) → body nhận → compile SHORT
+    → "Học chán" = Loại C install THIẾU Loại A experience (§3.2)
+    → Process-fit (§4.4) = shift: Loại C receive → Loại A direct experience
+    → Germany dual system = Loại A (workplace) + Loại C (school) mix
 ```
 
 ---
@@ -1069,6 +1097,14 @@ READER FLOW:
     → = ĐÚNG là không công bằng cho CÁ NHÂN
     → = Collective progress ≠ individual painless
     → = Understanding giúp GÌ? → §8
+
+  v1.1 — COLLECTIVE CHAIN BREAK FORMAL (Collective-Body.md §5.2):
+    → "Học làm gì?" = body circuit-break khi collective chain gãy
+    → 3 loại: ① cost tăng (học quá mệt), ② link gãy (ĐH→việc gãy),
+      ③ compound (cost + link + trust collapse cùng lúc)
+    → Can thiệp INDIVIDUAL (therapy, reframe) KHÔNG ĐỦ
+    → Can thiệp COLLECTIVE (fix chain: institution reform, dual system) = gốc
+    → = "Học làm gì?" ≠ cá nhân lười → = collective infrastructure fail
 ```
 
 ### §6.3 — Cortisol mapping: bounded vs unbounded competition
@@ -1489,6 +1525,12 @@ READER FLOW:
       → Data consistent (6.5% vs 16.1%)
       → Causal mechanism = framework interpretation
       → Alternative explanations possible (culture, economy structure)
+    v1.1: "Grad unemployment = collective chain break" = CB §5.2 mapping
+      → File đã mô tả mechanism đúng, v1.1 thêm formal terminology
+      → "Học làm gì?" = body circuit-break khi Cấp 2 chain gãy
+    v1.1: "Education = Loại C install" = Compile-Taxonomy mapping
+      → Trust-gated, collective hold chain dài, individual compile short
+      → "Học chán" = Loại C without Loại A = formal label cho §3.2 mechanism
 
 
   🔴 HYPOTHESIS (logic consistent, cần data):
@@ -1574,6 +1616,17 @@ SECONDARY DEPENDENCIES
   §1: Humanity → map domain reality qua thế hệ
   Kết nối: §6.2 (zoom out — scarcity = engine of progress)
 
+→ Collective-Body.md v1.1 — ⭐ v1.1: Model 3 Cấp + chain break
+  §1: Model 3 Cấp (Individual → Collective → Framework)
+  §5.1: Trust = only bridge (education chain = trust-gated)
+  §5.2: Chain break 3 loại (cost/link/compound) — "học làm gì?" = Loại ②③
+  Kết nối: §0 (framing), §6.2 (collective chain break formal)
+
+→ Compile-Taxonomy.md v1.0 — ⭐ v1.1: Loại A/B/C mapping
+  §2: 3 Loại (education = chủ yếu Loại C install)
+  §3: 4 pathways (education: pathway ②③ dominant)
+  Kết nối: §0 (framing), §3.2 (Loại C without A = "học chán")
+
 → Conflict-Dynamics.md — Competition formula
   §1: OVERLAP × SCARCITY × COMMITMENT
   Kết nối: §1.5, §6.1 (applied to job market)
@@ -1652,7 +1705,7 @@ BODY-FEEDBACK + MECHANISM
 
 ---
 
-> *Expansion-Saturation-Crisis v1.0*
+> *Expansion-Saturation-Crisis v1.1*
 > *"Giáo dục sản xuất Expanders. Kinh tế cần Discoverers. Gap = crisis."*
 > *"Hướng nghiệp cũ = chọn nghề (destination). Hướng nghiệp mới = tìm process (mode)."*
 > *"Đây KHÔNG phải lỗi VN. Đây là structural shift toàn cầu."*

@@ -854,10 +854,11 @@ TÓM TẮT:
 ```
   ← FOUNDATION (đọc trước hoặc cùng):
     Core-v7.8-Draft.md §8 — Novelty = observation parameter definition
-    Body-Feedback-Mechanism.md §3.3 — Chunk-Gap = Novelty foundation
-    Body-Feedback-Mechanism.md §2 — 2 nguồn (Sensory/Pattern-Driven)
+    Body-Feedback-Mechanism.md v1.2 §3.3 — Chunk-Gap = Novelty foundation
+    Body-Feedback-Mechanism.md v1.2 §2 — 2 nguồn (Sensory/Pattern-Driven)
     Chunk.md v2.0 — chunk substrate, compilation, hierarchy
     Cortisol-Baseline.md v2.0 — cortisol = amplifier, sustained dynamics
+    Reward-Signal-Architecture.md v1.0 — VTA delta refined: Profile ②⑤ (2026-05-10)
 
   ↔ SONG SONG (cùng Observation/ folder):
     Observation/Threat.md — PUSH away from harm (parallel với Novelty PULL)

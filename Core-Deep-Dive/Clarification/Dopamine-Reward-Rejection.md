@@ -1,8 +1,9 @@
 ---
 title: Dopamine-Reward-Rejection — Tại Sao Framework Bác Bỏ "Dopamine = Reward"
-version: 1.0
+version: 1.1
 created: 2026-04-18
-status: v1.0 — REFERENCE FILE (rejection + framework alternative mechanism)
+updated: 2026-05-10 (v1.1 — Type A/B notes, Reward-Signal-Architecture cross-ref)
+status: v1.1 — REFERENCE FILE
 scope: |
   TẠI SAO framework bác bỏ "dopamine = reward/pleasure" (khái niệm phổ biến).
   3 positions so sánh (Classical "pleasure hypothesis" / Berridge-Robinson wanting≠liking / Framework VTA-salience + body-base opioid).
@@ -162,6 +163,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 │            Giải thích addiction (dopamine hijack without body-match).  │
 │            Tích hợp chunk compile + cortisol direction gate.           │
 │            Tích hợp với Imagine-Final (PFC workspace).                 │
+│                                                                        │
+│ v1.1 UPDATE: Framework REFINES further:                                │
+│   Opioid reward = primarily TYPE A (evaluative, cortical).             │
+│   TYPE B reward (touch, exercise) = non-opioid pathways                │
+│   (CT afferents, endocannabinoid). 7-step = mainly Type A.            │
+│   Chi tiết: Reward-Signal-Architecture.md §1-§3                       │
 └───────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -587,6 +594,12 @@ Khác cortisol case (scientific community đã align — rejection file thừa),
 ---
 
 ## §7 — CROSS-REFERENCES
+
+**Complement file (v1.1 NEW)**:
+- Reward-Signal-Architecture.md v1.0 — Type A/B dimension, 5 Profiles, Interaction Model
+  → Framework REFINES Berridge: opioid = primarily Type A (evaluative)
+  → Type B (direct state) = non-opioid (CT afferents, endocannabinoid)
+  → Naltrexone blocks Type A but NOT Type B (🟢 Loseth 2019, Siebers 2021)
 
 **Framework core sources** (dependency cho file này):
 - [03-Reward.md](../../Body-Base/Body-Feedback/03-Reward.md) — 7-step mechanism + H10 5 preconditions + 7 reward cases

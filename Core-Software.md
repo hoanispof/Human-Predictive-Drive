@@ -1,13 +1,10 @@
-# Core v7.8 — Cycle-Based Architecture
+# Core-Software — Cycle-Based Architecture (Software Map)
 
-> **Trạng thái:** DRAFT v0.2 — kiến trúc cycle-based, refined with Drill S1-S12
-> **Ngày:** 2026-04-19 (v0.1) | 2026-05-08 (v0.2 — compile taxonomy, collective model, refs update)
-> **Supersedes:** Core-v7.5-Draft.md (2026-03-23, layer-based → backup)
-> **Trigger:** Deep drill Body-Feedback + Chunk + Agent + Feeling + Valence
-> revealed: layers/drives/schemas = observation labels, not architecture.
-> Cycle-based architecture matches actual mechanism better.
-> v0.2: Drill S1-S12 CONFIRM cycle architecture + ADD compile taxonomy (A/B/C),
-> Model 3+1, collective model (3 cấp), trust = only bridge. Architecture UNCHANGED.
+> **Trạng thái:** v1.0 — 1 trong 3 bản đồ Core v7.8
+> **Ngày:** 2026-05-10
+> **Bản đồ này:** SOFTWARE MAP — CHẠY THẾ NÀO (mechanism chi tiết nhất)
+> **2 bản đồ khác:** Core-Hardware.md (CÁI GÌ ở ĐÂU) | Core-Interface.md (QUAN SÁT + TƯƠNG TÁC)
+> **Supersedes:** Core-v7.8-Draft.md v0.2 (2026-04-19, tách thành 3 file)
 > **Nguyên tắc:**
 > - Cycle-based: Domain → Body-Input → Unconscious → Feeling → PFC → Body-Output → Domain
 > - Chunk-System = sole substrate (mọi thứ chạy trên chunks)
@@ -18,14 +15,16 @@
 > **Tiền đề đọc:**
 > - Chunk.md v2.1 — chunk substrate, trust gate, pattern hierarchy
 > - Body-Feedback.md — dual-pull, H10, 3 nguồn
-> - Feeling.md v2.0 — PFC observation interface, 7-layer
+> - Feeling.md v2.1 — PFC observation interface, 7-layer
 > - Agent-Mechanism.md v1.0 — agent = function on chunks, SPM + PR
 > - Empathy.md v2.0 — SPM applied to others, 2-luồng, burnout
 > - Valence-Propagation.md v1.4 — body evaluation + chain + VP §4 clarification
 > - Cortisol-Baseline.md v2.0 — amplifier, not stress
 > - Body-Base.md v2.0 — Model 3+1, 4-tier calibration, circuit breaker
-> - Compile-Taxonomy.md v1.0 — 3 Loại A/B/C, 4 pathways, 6 trade-offs
+> - Compile-Taxonomy.md v1.1 — 3 Loại A/B/C, 4 pathways, 6 trade-offs
 > - Collective-Body.md v1.1 — Model 3 cấp, trust = only bridge, AI era
+> - Reward-Signal-Architecture.md v1.0 — Type A/B, 5 Profiles, Interaction Model
+> - PFC-Configuration.md v1.0 — 6 dynamic modes, survival matrix
 > **Confidence:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Language:** Tiếng Việt primary + English technical terms
 
@@ -33,8 +32,8 @@
 
 ## Mục lục
 
-- §0 — TẠI SAO V7.8
-- §1 — KIẾN TRÚC TỔNG THỂ: PERCEPTION-ACTION CYCLE
+- §0 — BA BẢN ĐỒ + TẠI SAO CYCLE-BASED
+- §1 — KIẾN TRÚC CYCLE: SOFTWARE MAP
 - §2 — DOMAIN
 - §3 — BODY-INPUT (L0 + L1)
 - §4 — UNCONSCIOUS PROCESSING
@@ -50,201 +49,80 @@
 
 ---
 
-## §0 — TẠI SAO V7.8
+## §0 — BA BẢN ĐỒ + TẠI SAO CYCLE-BASED
 
-### §0.1 V7.5 đã hoàn thành nhiệm vụ
+### §0.1 Ba bản đồ Core v7.8
 
-Core-v7.5-Draft.md (2026-03-23) là scaffolding cần thiết ở giai đoạn đó.
-Nó tổ chức kiến thức chưa được drill thành 4 layers (L0/L1/L2/L3),
-3 drives (Novelty/Status/Protect), cross-cutting mechanisms, Schema System.
+Framework mô tả body-brain system từ 3 góc nhìn, mỗi góc = 1 bản đồ:
 
-Scaffolding đó cho phép drill 44+ files Chunk-Analysis, Body-Feedback,
-Agent, Feeling, Valence, Empathy, Cortisol. Tổng ~63,000+ dòng phân tích.
+| # | Bản đồ | Góc nhìn | Đối tượng | File |
+|---|---|---|---|---|
+| 1 | Hardware Map | CÁI GÌ ở ĐÂU | Neuroscience researcher | Core-Hardware.md |
+| 2 | **Software Map** | **CHẠY THẾ NÀO** | **Framework researcher** | **File này** |
+| 3 | Interface Map | QUAN SÁT + TƯƠNG TÁC | Mọi người | Core-Interface.md |
 
-### §0.2 Deep drill revealed: layers/drives/schemas are observation labels
+3 bản đồ mô tả CÙNG hệ thống. Khác góc nhìn. Đọc độc lập được.
+Giống máy tính: sơ đồ mạch / code architecture / user guide.
 
-Sau khi drill xong, pattern nhất quán xuất hiện ở MỌI file:
+### §0.2 Tại sao v7.8 cycle-based
 
-| File | Phát hiện |
-|---|---|
-| Chunk.md v2.1 | "Não = database + 2 operators" — chunks là substrate duy nhất |
-| Body-Feedback.md | 6-step interface loop — cycle, không layers |
-| Agent-Mechanism.md | "Agent = function on chunk substrate" — không phải category |
-| Empathy.md v2.0 | "SPM function, not mirror module" — không phải hardware riêng |
-| Feeling.md v2.0 | "PFC observation of body-chunk interaction" — không phải system riêng |
-| Valence-Propagation.md v1.4 | "Body's assessment stored in chunks" — property, không layer |
-| Drive.md v1.1 | "Schema = DETECTOR, drive = emergent" — không phải operator |
-| Cortisol.md v2.0 | "Amplifier, not layer" — xuyên suốt, không phải component |
-| Schema.md v2.0 | "Schema = observation parameter, NOT component" — reframed |
+Core-v7.5-Draft.md (2026-03) tổ chức: 4 layers + 3 drives + Schema System.
+Scaffolding đó cho phép drill 63,000+ dòng phân tích (44+ files, 13 mechanism files).
 
-9/9 files compatible với reframe. Không file nào contradict.
-
-v0.2 UPDATE (Drill S1-S12, 2026-05-08): 4 files MỚI cũng compatible:
-
-| File | Phát hiện |
-|---|---|
-| Body-Base.md v2.0 | Model 3+1: Vô thức + PFC + Trust + Tools — CONFIRM cycle components |
-| Compile-Taxonomy.md v1.0 | 3 Loại A/B/C: compile taxonomy ON chunk substrate — EXTEND §4.1 |
-| Collective-Body.md v1.1 | Model 3 cấp: Individual cycle → Collective → Framework — EXTEND scope |
-| Body-Coupling.md v1.1 | Coupling = chunk-level bidirectional — CONFIRM chunk-centric |
-
-13/13 files compatible. Architecture UNCHANGED. Detail DEEPENED.
-
-### §0.3 Kiến trúc cũ là scaffolding, kiến trúc mới match mechanism
-
-```
-V7.5 (layer-based, 2026-03):
-  L0 > L1 > L2 > L3 + 3 Drives + Schema System + Cross-cutting
-  = Scaffolding tốt khi chưa biết mechanism
-  = KHÔNG MATCH reality sau khi drill
-
-V7.8 (cycle-based, 2026-04):
-  Domain → Body-Input → Unconscious(Chunks) → Feeling → PFC → Body-Output → Domain
-  = Match actual mechanism revealed by 63,000+ dòng drill
-  = Simpler (fewer components) + More accurate (functions, not modules)
-```
-
-Cụ thể các thay đổi:
+Sau khi drill: 13/13 files compatible — layers/drives/schemas = observation labels,
+không phải architecture. Cycle-based match cách body-brain thực sự hoạt động.
 
 | V7.5 | V7.8 | Lý do |
 |---|---|---|
-| 4 layers (L0/L1/L2/L3) | 2: L0 circuit breaker + L1 body-inputs | L2 removed (Phase R), L3 collapsed (drives = observation) |
-| 3 drives (Novelty/Status/Protect) | Observation parameters | Drives = emergent patterns từ body-feedback, không phải operators |
-| Schema System (component) | Chunk-System (sole substrate) | Schema = observation label cho chunk network patterns |
-| Cross-cutting mechanisms | Properties of cycle | Cortisol = amplifier, Empathy = function on chunks |
-| Imagine (PFC layer) | PFC (observer + orchestrator) | PFC = 1 component trong cycle, không phải layer riêng |
-| Priority ordering (L0>L1>L2>L3) | Signal strength (no fixed priority) | Mạnh nhất thắng, không phải layer cao nhất thắng |
-| Connection (không rõ vị trí) | L1 multi-input aggregate + attachment chunks | Solved |
-| Feeling (implicit) | Explicit bridge component | PFC observation interface = explicit trong cycle |
-| Development (không rõ) | Chunk density trajectory | Cùng architecture, khác chunks accumulated |
+| 4 layers (L0-L3) | L0 circuit breaker + L1 inputs | L2 removed, L3 collapsed |
+| 3 drives | Observation parameters | Drives = emergent, không phải operators |
+| Schema System | Chunk-System (sole substrate) | Schema = observation label |
+| Layer priority | Signal strength | Loudest wins, not highest layer |
+| Cross-cutting | Properties of cycle | Cortisol = amplifier, Empathy = function |
+| Feeling (implicit) | Explicit bridge | PFC observation interface |
 
-### §0.4 Nguyên tắc thiết kế v7.8
+### §0.3 Nguyên tắc thiết kế
 
-1. **Follow mechanism, not organization**: kiến trúc phải match cách body-brain thực sự hoạt động
+1. **Follow mechanism, not organization**: kiến trúc match cách body-brain thực sự hoạt động
 2. **Chunk-centric**: chunks = sole substrate, mọi thứ khác = function hoặc property
-3. **Cycle, not layers**: perception-action loop liên tục, không phải tầng ưu tiên
-4. **Observation parameters, not components**: Schema, Drives, Valence,... = cách quan sát, không phải thứ tồn tại riêng biệt
-5. **Development = chunk density**: cùng architecture từ sơ sinh tới chuyên gia, khác lượng chunks tích lũy
-6. **Honest about limits**: framework = descriptive architecture + hypothesis generator, không phải clinical protocol
+3. **Cycle, not layers**: perception-action loop liên tục
+4. **Observation parameters, not components**: Schema, Drives, Valence = cách quan sát
+5. **Development = chunk density**: cùng architecture, khác chunks tích lũy
+6. **Honest about limits**: descriptive architecture + hypothesis generator, không phải clinical protocol
 
 ---
 
-## §1 — KIẾN TRÚC TỔNG THỂ: PERCEPTION-ACTION CYCLE
+## §1 — KIẾN TRÚC CYCLE: SOFTWARE MAP
 
-### §1.1 Hai góc nhìn
+### §1.1 Ba góc nhìn — cùng hệ thống
 
 ```
-🟡 CÙNG HỆ THỐNG — HAI GÓC NHÌN:
+🟡 CÙNG HỆ THỐNG — BA GÓC NHÌN:
 
   Giống quan sát một con robot:
 
-  HARDWARE MAP (§1.2):
+  HARDWARE MAP (Core-Hardware.md):
     → Mở robot ra → thấy CPU, sensors, motors, dây dẫn, pin
     → "CÁI GÌ ở ĐÂU, nối với gì, specs cá nhân"
-    → Kỹ thuật, cụ thể, verifiable
-    → Cho người hiểu neuroscience, muốn verify từng vùng não
+    → Cho chuyên gia thần kinh, muốn verify từng vùng não
 
-  SOFTWARE MAP (§1.3):
+  SOFTWARE MAP (file này):
     → Nhìn robot hoạt động → input → process → decide → act → feedback
-    → "CÁI GÌ CHẠY thế nào, flow ra sao"
-    → Trực quan, dễ cảm nhận
-    → Cho mainstream researcher, người mới tiếp cận
+    → "CÁI GÌ CHẠY thế nào, flow ra sao, mechanism chi tiết"
+    → Cho researcher muốn hiểu WHY hệ thống hoạt động
 
-  Cả hai bản đồ mô tả CÙNG body-brain system.
-  Cả hai đều chứa Domain + Body. Nhưng GÓC NHÌN khác nhau.
-  Hardware map KHÔNG có cycle flow arrows.
-  Software map KHÔNG có zone labels (A/B/C/D).
-  Mapping giữa 2 bản đồ → §1.4.
+  INTERFACE MAP (Core-Interface.md):
+    → Dùng robot → bấm nút, xem màn hình, nhận kết quả
+    → "QUAN SÁT cái gì, TƯƠNG TÁC thế nào"
+    → Cho mọi người, không cần biết mechanism
+
+  Cả ba bản đồ mô tả CÙNG body-brain system.
+  Hardware: 4 zones A/B/C/D. Software: 7-step cycle ①→⑦.
+  Interface: observable patterns + interaction principles.
+  Mapping Hardware ↔ Software → §1.3.
 ```
 
-### §1.2 Hardware Map — Physical Architecture
-
-```
-🟡 BẢN ĐỒ VẬT LÝ — "CÁI GÌ Ở ĐÂU, NỐI VỚI GÌ":
-
-  PFC ở trên cùng — vì mọi người đều quan sát bằng PFC.
-  Domain bao bên ngoài — body tồn tại TRONG domain.
-  Gradient từ trên xuống: PFC reach GIẢM DẦN.
-
-  ┌─ DOMAIN (môi trường thực — tồn tại khách quan, domain KHÔNG nói dối) ──────┐
-  │                                                                              │
-  │  ┌─ BODY (neural systems — physical architecture) ─────────────────────┐   │
-  │  │                                                                      │   │
-  │  │  ┌─ A: PFC ── observer + orchestrator ──────────────────────────┐   │   │
-  │  │  │  dlPFC ── working memory (~4±1 slots), planning, control      │   │   │
-  │  │  │  vlPFC ── response inhibition, rule maintenance               │   │   │
-  │  │  │  OFC ── value computation, reward expectation                 │   │   │
-  │  │  │  vmPFC ── emotion regulation, amygdala bridge (uncinate)      │   │   │
-  │  │  │  mPFC ── self-referential, social cognition, DMN hub          │   │   │
-  │  │  │  ACC* ── conflict monitoring (*PFC/limbic overlap)            │   │   │
-  │  │  │  Online from birth (NT4). ⏱ ~200-500ms (SLOWEST)             │   │   │
-  │  │  └─────────────────────────┬────────────────────────────────────┘   │   │
-  │  │     Layer 2/3 connections — PFC reach: STRONG                       │   │
-  │  │  ┌─────────────────────────┴────────────────────────────────────┐   │   │
-  │  │  │  B: CORTICAL MODALITY ── PFC trainable ────────────────────   │   │   │
-  │  │  │  Visual (V1→IT, FFA)  Auditory (A1)  Language (Broca+W)       │   │   │
-  │  │  │    ⭐ Language dissociable from PFC (Fedorenko 2024)           │   │   │
-  │  │  │  Somatosensory (S1/S2)  Motor (M1+premotor)                   │   │   │
-  │  │  │  Cerebellum (motor+cognitive+prediction)                       │   │   │
-  │  │  │  Insula (⭐ anterior = interoception integration, Craig 2002)  │   │   │
-  │  │  │  Parietal (spatial, cross-modal)  Temporal (objects, social)    │   │   │
-  │  │  │  ⏱ ~150-200ms cortical processing                             │   │   │
-  │  │  └─────────────────────────┬────────────────────────────────────┘   │   │
-  │  │     thalamocortical + BG loops — PFC reach: VARIABLE                │   │
-  │  │  ┌─────────────────────────┴────────────────────────────────────┐   │   │
-  │  │  │  C: SUBCORTICAL ── PFC reach limited ────────────────────     │   │   │
-  │  │  │  Amygdala ── threat/reward ── vmPFC direct (uncinate)         │   │   │
-  │  │  │  Hippocampus ── encoding gateway ── sleep replay → cortex     │   │   │
-  │  │  │  Thalamus + TRN ── sensory gateway ── PFC can gate            │   │   │
-  │  │  │  Hypothalamus ── HPA axis, homeostasis ── PFC indirect        │   │   │
-  │  │  │  Basal Ganglia ── habit loops (associative → sensorimotor)    │   │   │
-  │  │  │  Brainstem: VTA (dopamine), LC (NE, α1→PFC offline),         │   │   │
-  │  │  │    Raphe (serotonin), PAG (pain/defense), NTS (visceral)      │   │   │
-  │  │  │  DMN cross-cuts: mPFC(A) + PCC + angular + MTG               │   │   │
-  │  │  │  ⏱ ~12ms amygdala (subcortical shortcut)                      │   │   │
-  │  │  └─────────────────────────┬────────────────────────────────────┘   │   │
-  │  │     vagus (80% afferent), spinal paths — PFC reach: WEAK           │   │
-  │  │  ┌─────────────────────────┴────────────────────────────────────┐   │   │
-  │  │  │  D: PERIPHERAL ── outside brain, PFC reach ≈ 0 ────────────  │   │   │
-  │  │  │  ENS "second brain" (~100-500M neurons, 95% serotonin)        │   │   │
-  │  │  │  Spinal cord (reflex, pain: A-delta + C-fiber)                │   │   │
-  │  │  │  ANS (sympathetic / parasympathetic)                           │   │   │
-  │  │  │    Breathing = UNIQUE voluntary-involuntary bridge             │   │   │
-  │  │  │  Cardiac plexus (~40K neurons)                                 │   │   │
-  │  │  │  ⏱ ~50ms spinal reflex (FASTEST — before brain)               │   │   │
-  │  │  └──────────────────────────────────────────────────────────────┘   │   │
-  │  │                                                                      │   │
-  │  │  RECEPTORS (body-domain interface, 17 categories):                   │   │
-  │  │    Exteroception (5): vision, audition, olfaction, gustation, touch   │   │
-  │  │    Proprioception (3): proprioception, vestibular, kinesthetic       │   │
-  │  │    Interoception (9): thermo, noci, respiratory, cardiovascular,     │   │
-  │  │      visceral, metabolic, hormonal, sleep/circadian,                 │   │
-  │  │      ⭐ self-signal interoception (keystone — insula hub)           │   │
-  │  │                                                                      │   │
-  │  │  HARDWARE PROFILE (specs cá nhân, thay đổi chậm):                   │   │
-  │  │    Modality Balance ── brain-wide B area development levels          │   │
-  │  │    PFC params ── WM capacity, COMT (clear speed), DRD4 (attention)  │   │
-  │  │    Receptor variants ── OXTR, TAS2R, CT-fiber density                │   │
-  │  │    MAO-A ── mood stability (toàn não, không riêng PFC)               │   │
-  │  │                                                                      │   │
-  │  └──────────────────────────────────────────────────────────────────────┘   │
-  │                                                                              │
-  └──────────────────────────────────────────────────────────────────────────────┘
-
-  ⏱ TIMING HIERARCHY (PFC luôn LAST):
-    D ~50ms → C ~12ms → B ~150ms → A ~200ms+
-    Body process TRƯỚC → PFC LUÔN biết SAU CÙNG
-
-  🔌 PFC REACH GRADIENT:
-    A → B: STRONG (Layer 2/3 direct, top-down bias, TRN gate)
-    A → C: VARIABLE (vmPFC→amygdala direct, PFC→BG, PFC→PAG/NTS)
-    A → D: WEAK (min 2 synaptic relays, breathing = unique bridge)
-
-  Hardware set RANGE → chunks chọn VỊ TRÍ trong range.
-  Chi tiết: Neural-Architecture.md v1.0
-```
-
-### §1.3 Software Map — Functional Cycle
+### §1.2 Software Map — Functional Cycle
 
 ```
 🟡 BẢN ĐỒ CHỨC NĂNG — "CÁI GÌ CHẠY THẾ NÀO, FLOW RA SAO":
@@ -332,7 +210,7 @@ Cụ thể các thay đổi:
   Development = cùng architecture, chunk density TĂNG DẦN
 ```
 
-### §1.4 Hai bản đồ, cùng hệ thống
+### §1.3 Mapping giữa Hardware và Software
 
 ```
 🟡 MAPPING GIỮA HARDWARE VÀ SOFTWARE:
@@ -355,10 +233,11 @@ Cụ thể các thay đổi:
   ⭐ KEY INSIGHT:
     Hardware map = 4 vùng CỤ THỂ (A/B/C/D) — verify được bằng fMRI, lesion
     Software map = 7 bước CHỨC NĂNG (①→⑦) — describe cách system HOẠT ĐỘNG
-    Cùng hệ thống. Khác góc nhìn. Cả hai cần thiết để hiểu đầy đủ.
+    Interface map = observable patterns — mô tả cái OBSERVER THẤY
+    Cùng hệ thống. Ba góc nhìn. Chi tiết Hardware → Core-Hardware.md.
 ```
 
-### §1.5 Tại sao cycle, không layers
+### §1.4 Tại sao cycle, không layers
 
 ```
 V7.5 LAYERS — vấn đề gì:
@@ -383,21 +262,13 @@ V7.8 CYCLE — giải quyết:
   ② No separate operators — drives = observation labels
   ③ No placement problem — everything = function or property of cycle
   ④ Development = same cycle, more chunks → naturally explained
-```
 
-### §1.6 So sánh với 6-step Interface Loop (Body-Feedback.md §3)
+SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 
-```
-Body-Feedback.md §3 đã mô tả 6-step:
-  Domain → Body sensory → Feedback → Schema Update → Action → Domain
-
-V7.8 REFINES:
-  → "Body sensory" = Body-Input (§3)
-  → "Feedback" = Unconscious processing + Body-Feedback (§4)
-  → "Schema Update" = Chunk compile/re-link (§4.1)
-  → Adds explicit: Feeling bridge + PFC observation + Orchestrate loop
-  → = V7.8 = 6-step + Feeling + PFC + Orchestrate detail
-  → COMPLEMENTARY, not competing
+  Body-Feedback.md §3 mô tả: Domain → Body sensory → Feedback → Schema Update → Action → Domain
+  V7.8 REFINES: adds Feeling bridge + PFC observation + Orchestrate detail.
+  = V7.8 = 6-step + explicit Feeling + PFC + Orchestrate.
+  COMPLEMENTARY, not competing.
 ```
 
 ---
@@ -593,7 +464,7 @@ V7.8 REFINES:
     → Trust = ONLY BRIDGE giữa external → internal compile
     → (Collective-Body.md §5: trust = cơ chế DUY NHẤT nối cấp 1 và cấp 2)
 
-  3 LOẠI COMPILE (Compile-Taxonomy.md v1.0, Drill §2-§3):
+  3 LOẠI COMPILE (Compile-Taxonomy.md v1.1, Drill §2-§3):
 
     Loại A — Direct Short (~90%): body trải nghiệm trực tiếp → compile
       [toán → brain fire → reward] hoặc [không học → mắng → sợ]
@@ -686,7 +557,7 @@ V7.8 REFINES:
     → Nhân viên tạp hóa + giáo sư toán: cùng dùng math chunks hàng ngày,
       cùng coherence khi hoàn thành phép tính, vị trí rất khác nhau
 
-  Reference: Chunk.md v2.0 (full detail, 14 sections)
+  Reference: Chunk.md v2.1 (full detail, 14 sections)
 ```
 
 ### §4.2 Body-Feedback — Continuous Evaluation
@@ -738,6 +609,25 @@ V7.8 REFINES:
     ② Mismatch (schema ≠ reality — prediction delta → "something is off")
     ③ Recalibration (neurons adjusting — "căng đầu khi học" = wiring change)
     → Cortisol arrives AFTER, KHÔNG gây đau — sustainer, not cause
+
+  CHUNK DYNAMICS — TRỤC THỨ 4 (Body-Feedback-Mechanism.md v1.2):
+    Body-feedback có 4 trục phân loại ORTHOGONAL:
+      Trục 1 — Direction: reward/dissonance (dual-pull ở trên)
+      Trục 2 — Magnitude: 14 levels (02-Dissonance.md)
+      Trục 3 — Source: nociception/mismatch/recalibration (3 nguồn ở trên)
+      Trục 4 — Chunk Dynamics: HOW chunks fire tạo signal
+        → 2 input sources: Sensory-Driven / Pattern-Driven
+        → 3 dynamics: Chunk-Shift / Chunk-Miss / Chunk-Gap
+        → Compound: multi-layer chunk firing = multi-flavor signal
+    Reference: Body-Feedback-Mechanism.md v1.2
+
+  REWARD SIGNAL ARCHITECTURE (Reward-Signal-Architecture.md v1.0):
+    → Type A: Evaluative (opioid) — H10 pass → VTA → opioid reward
+    → Type B: Direct State (non-opioid) — body-state change itself IS reward
+    → A₀→A₃: Complexity gradient (simple match → creative insight)
+    → A Gates B: evaluative layer modulates direct-state reward
+    → 5 Reward Profiles: "hương vị" reward (cognitive, social, body, creative, flow)
+    Reference: Reward-Signal-Architecture.md v1.0
 
   Reference: Body-Feedback.md + 01-04 drill files (~7,100L)
 ```
@@ -918,7 +808,7 @@ V7.8 REFINES:
     → 🟢 Damasio 1994, 1999: somatic markers PRECEDE conscious decision
     → Feeling KHÔNG tạo ra thông tin mới — feeling REPORT body state
 
-  Reference: Feeling.md v2.0 (full 14 sections)
+  Reference: Feeling.md v2.1 (full 14 sections)
 ```
 
 ---
@@ -943,6 +833,10 @@ V7.8 REFINES:
   → RUN 95% background processing
   → OVERRIDE body-base khi signal quá mạnh (đói cực → ăn ngấu, crush → ấp úng)
   → CONTROL motor trực tiếp (PFC hold "viết con chó" → vô thức execute gõ phím)
+
+  ⭐ PFC HARDWARE SPECS (COMT, DRD4, WM capacity, modality balance,
+  connectivity limits) → Core-Hardware.md §5.
+  File này chỉ mô tả PFC FUNCTION — CÓ THỂ và KHÔNG THỂ làm gì.
 ```
 
 ### §6.2 PFC Orchestrate — Indirect Control
@@ -999,55 +893,7 @@ V7.8 REFINES:
   → Ít chunks → PFC bất lực dù hold mạnh cỡ nào
 ```
 
-### §6.3 PFC Hardware Profile
-
-```
-🟢🟡 PFC HARDWARE — specs cá nhân, thay đổi chậm:
-
-  PFC HARDWARE ONLINE FROM BIRTH (🟢 NT4):
-    → 5 empirical pillars: synaptic density at birth (Huttenlocher 1979),
-      functional networks term (Doria 2010), frontal signatures 5mo (Kouider 2013),
-      fNIRS early (Grossmann 2009), rapid plasticity (Hodel 2018)
-    → OLD: "PFC offline until X age"
-    → NEW: "PFC hardware online from birth, development = CHUNKS MISSING"
-
-  WM CAPACITY: ~4±1 slots (🟢 Cowan 2001)
-    → Beginner: slot = small chunk → ít info
-    → Expert: slot = meta-chunk → CỰC NHIỀU info
-    → = "Cùng 4 slots, khác SIZE mỗi slot"
-
-  PFC-CLEAR-SPEED: COMT (Val/Val fast ↔ Met/Met slow)
-  PFC-ATTENTION: DRD4 (7R big+slow ↔ 4R small+fast)
-  MOOD-STABILITY: MAO-A (toàn não, không phải PFC)
-  MODALITY BALANCE: visual/auditory/somatic/motor/emotional mix
-    → Property của TOÀN BỘ brain, không thuộc riêng PFC hay Unconscious
-    → Ảnh hưởng cách chunks compile (multi-modal richness)
-      và cách PFC observe (modality nào dominant)
-    → Mainstream chưa define rõ boundary PFC vs unconscious cho modality
-    → Framework position: modality = brain-wide hardware property
-
-  PFC CONNECTIVITY LIMITS:
-    → PFC có connections tới nhiều cortical areas
-    → NHƯNG limited direct connections tới:
-      brainstem, enteric NS (ruột), amygdala (chỉ indirect qua vmPFC)
-    → PFC CÓ THỂ hold chunk → fire pattern ở cortical areas có dây dẫn tới
-    → PFC KHÔNG THỂ force fire chunks ở ruột hay amygdala trực tiếp
-    → = PFC orchestrate scope GIỚI HẠN bởi physical connectivity
-    → 🟢 Measurable via fMRI, tractography — nhưng individual variation lớn
-
-  → Hardware set RANGE, chunks chọn VỊ TRÍ trong range
-  → = KHÔNG PHẢI "PFC mạnh/yếu" → mà "chunks compiled bao nhiêu"
-
-  PFC-INFERENCE LADDER (Chunk.md §8.4):
-    L0: Reflex (no PFC)
-    L1: Orienting (PFC receives alert)
-    L2: Pattern-match (PFC recognizes compiled pattern)
-    L3: Deliberate comparison (Type 4 chain)
-    L4: Coordinated execution (multi-step plan)
-    → EVENT property, not AGE property
-```
-
-### §6.4 PFC Activation ≈ f(dissonance)
+### §6.3 PFC Activation ≈ f(dissonance)
 
 ```
 🟡 95/5 = OBSERVATION PARAMETER, KHÔNG PHẢI RATIO CỐ ĐỊNH:
@@ -1066,6 +912,24 @@ V7.8 REFINES:
   → "95% vô thức" = observation that MOST processing doesn't need PFC
   → NOT "PFC only runs 5% of time"
   → PFC có thể tham gia bất cứ lúc nào nếu dissonance sufficient
+```
+
+### §6.4 PFC Dynamic Configurations
+
+```
+🟡 PFC KHÔNG PHẢI ON/OFF — CÓ 6 CONFIGURATION MODES (PFC-Configuration.md v1.0):
+
+  ① Normal: full function suite available
+  ② Reallocation (Flow): task-serving ON, self-monitoring OFF — effortless
+  ③ Reconfigured: stress shifts function balance
+  ④ Disconnected (Threat): NE α1 → ALL PFC functions OFF — subcortical takeover
+  ⑤ Hyperactivated (Dissociation): 4 functions WEAPONIZED — emotional numbness
+  ⑥ Disintegrated (Psychedelic): nearly ALL OFF, Modify ENHANCED — structural change
+
+  Configuration ≠ Participation (Drive.md §2). Orthogonal:
+  "PFC bận CỠ NÀO" (participation) ≠ "PFC wired THẾ NÀO" (configuration).
+
+  Reference: PFC-Configuration.md v1.0 (full 24 Functions × 6 Modes matrix)
 ```
 
 ---
@@ -1341,7 +1205,7 @@ V7.8 REFINES:
 
 🟢 EMPIRICAL GROUNDING:
 
-  → 9 reference files, all compatible
+  → 13 reference files, all compatible
   → 63,000+ dòng deep analysis across 44+ files
   → ~80 research citations across 16 topic areas
   → 15/15 case tests PASS (Phase R)
@@ -1365,47 +1229,77 @@ V7.8 REFINES:
 ### §12.3 Open questions
 
 ```
-🔴 UNRESOLVED:
+✅ RESOLVED (1/10):
+
+  3. Collective architectures scope limit (Gap 3)
+     → ✅ RESOLVED — Collective-Body.md v1.1 (Model 3 cấp, 1,259L)
+
+🟡 PARTIALLY RESOLVED (5/10):
 
   1. Meaning cases not directly tested (B21-B23, Gap 1 từ Phase R)
+     → PARTIALLY — B21-B23 tested in Body-Base-Example.md + Meaning.md v2.0 (5 types, anchor-schema)
+     Remaining: Phase R original test protocol not replicated
   2. Mastery compound under-specified (Gap 2)
-  3. Collective architectures scope limit (Gap 3)
-     → v0.2: ✅ RESOLVED — Collective-Body.md v1.1 (Model 3 cấp, 1,259L)
+     → PARTIALLY — Autonomy.md §4.7 (Mastery = Competence + Autonomy compound, approach/avoidance tag)
+     Remaining: quantitative accumulation thresholds
   4. Schema-body coupling via predictive processing (Gap 4)
-     → v0.2: PARTIALLY — Body-Coupling.md v1.1 (2D Depth×Direction, 3 Phase)
-  5. Cultural specificity beyond amplification (Gap 5)
-  6. Precise boundary between L0 reflex và L1 processing
+     → PARTIALLY — Body-Coupling.md v1.1 (2D Depth×Direction, 3 Phase, compile rate mechanism)
+     Remaining: underlying predictive processing neuroscience detail
   7. How exactly PFC "hold" biases spreading activation (mechanism detail)
-  8. Protect parameter: hormone contribution vs chunk contribution ratio
+     → PARTIALLY — PFC-Function.md ⑯ (functional level: hold → bias → cortical amplify)
+     Remaining: neural circuit specifics (TRN gating, subregion projections)
   9. Whether observation parameters list is complete
-     → v0.2: +Gratitude, +Obligation added to §8
+     → PARTIALLY — 14 params total (+Gratitude v1.1, +Obligation v1.0 added to §8)
+     Remaining: no formal closure — list may expand
+
+🔴 STILL OPEN (4/10):
+
+  5. Cultural specificity beyond amplification (Gap 5)
+     WHERE culture acts identified (schema compilation, role, obligation types) — cross-cultural data lacking
+  6. Precise boundary between L0 reflex và L1 processing
+     Timescale known (ms vs 100ms) — transition mechanism = neuroscience open question
+  8. Protect parameter: hormone contribution vs chunk contribution ratio
+     Position: vasopressin SET bias, chunks DETERMINE expression — exact ratio unknown
+     Needs: pharmacological studies + behavioral correlation
   10. Quantitative: khi nào PFC override thành công vs thất bại
+     Factors identified: f(PFC hold strength, body signal intensity, compiled chunks)
+     PFC-Configuration.md v1.0 maps 6 modes — quantitative thresholds missing
 ```
 
 ---
 
 ## §13 — CROSS-REFERENCES
 
-### §13.1 Core mechanism files (đọc song song)
+### §13.1 Hai bản đồ khác
+
+```
+  Core-Hardware.md              — CÁI GÌ ở ĐÂU: 4 zones A/B/C/D, PFC hardware specs, receptors
+  Core-Interface.md             — QUAN SÁT + TƯƠNG TÁC: observer perspective, practical principles
+```
+
+### §13.2 Core mechanism files (đọc song song)
 
 ```
   Chunk.md v2.1               — chunk substrate, trust gate, pattern hierarchy
   Body-Feedback.md            — dual-pull, H10, 3 nguồn, cases
-  Feeling.md v2.0             — PFC observation interface, 7-layer
+  Body-Feedback-Mechanism.md v1.2 — 4th axis: chunk dynamics classification
+  Feeling.md v2.1             — PFC observation interface, 7-layer, Type A/B
   Agent-Mechanism.md v1.0     — agent = function on chunks, SPM + PR
   SPM.md v2.2                 — 2 Functions F1/F2, valence gate, professional SPM
+  Reward-Signal-Architecture.md v1.0 — Type A/B, 5 Profiles, A Gates B, Interaction Model
+  PFC-Configuration.md v1.0   — 6 dynamic modes, survival matrix, A→B transition
+  PFC-Function.md v1.1        — 24 functions, confabulation, proxy trigger
   Empathy.md v2.0             — SPM applied, 2-luồng, burnout, moral injury
   Valence-Propagation.md v1.4 — body evaluation + chain + VP §4 clarification
   Cortisol-Baseline.md v2.0   — amplifier, direction gate, 7 modes
   Body-Base.md v2.0           — Model 3+1, 4-tier calibration, circuit breaker
-  Compile-Taxonomy.md v1.0    — 3 Loại A/B/C, 4 pathways, 6 trade-offs
+  Compile-Taxonomy.md v1.1    — 3 Loại A/B/C, 4 pathways, 6 trade-offs
   Collective-Body.md v1.1     — Model 3 cấp, trust = only bridge, AI era
   Body-Coupling.md v1.1       — 2D Depth×Direction, L2 phenomenology
   Connection.md v3.1          — 3 Generative Primitives, 2-tầng, 2-luồng
-  PFC-Function.md v1.1        — 24 functions, confabulation, proxy trigger
 ```
 
-### §13.2 Evidence files
+### §13.3 Evidence files
 
 ```
   Body-Base-Example.md        — 50 extreme cases, cross-case synthesis
@@ -1415,7 +1309,7 @@ V7.8 REFINES:
   Chunk/Child-Chunk-Development/ — 12 files, developmental arcs
 ```
 
-### §13.3 Application files
+### §13.4 Application files
 
 ```
   AI-Schema-Detection.md v2.0  — GATEWAY: 9 AI capabilities, compile type, self-drill
@@ -1425,10 +1319,11 @@ V7.8 REFINES:
   Research/Child-Development/   — child development applications (4 files v7.8-aligned)
 ```
 
-### §13.4 Superseded files
+### §13.5 Superseded files
 
 ```
-  Core-v7.5-Draft.md           → backup (layer-based architecture)
+  Core-v7.8-Draft.md v0.2       → backup (_backup/Core-v7.8-Draft-pre-3maps.md)
+  Core-v7.5-Draft.md            → backup (layer-based architecture)
   Domain/backup/Object-Agent.md → replaced by Agent.md
   Core-Deep-Dive/backup/Empathy-Mirror.md → replaced by Empathy.md
   Feeling/backup/ (old files)  → replaced by v2.0 files
@@ -1438,28 +1333,16 @@ V7.8 REFINES:
 
 ## Closing note
 
-**Core v7.8 DRAFT v0.2** — cycle-based architecture, refined with Drill S1-S12.
+**Core-Software v1.0** — 1 trong 3 bản đồ Core v7.8.
 
-Kiến trúc này emerge từ 63,000+ dòng phân tích chuyên sâu (2026-03 → 2026-04).
-Layer-based v7.5 là scaffolding cần thiết. Cycle-based v7.8 match mechanism thật.
-Drill S1-S12 (2026-05-06→08, 70+22 insights) CONFIRM architecture + DEEPEN detail.
+Bản đồ phần mềm mô tả CHI TIẾT NHẤT cách body-brain system HOẠT ĐỘNG.
+Cycle-based architecture emerge từ 63,000+ dòng phân tích chuyên sâu.
+13/13 mechanism files compatible. Architecture stable. Detail deepens with each drill.
 
-v0.2 tasks DONE:
-- ✅ Body-Base.md v2.0 rewrite (959L, Model 3+1, 4-tier calibration)
-- ✅ Compile-Taxonomy.md v1.0 (1,165L, 3 Loại A/B/C, 4 pathways)
-- ✅ Collective-Body.md v1.1 (1,259L, Model 3 cấp, trust bridge, AI era)
-- ✅ 9 core files refined (VP v1.4, Chunk v2.1, PFC v1.1, Body-Coupling v1.1, SPM v2.2)
-- ✅ AI-Schema-Detection.md v2.0 (1,709L, compile type, self-drill, guardrails)
-- ✅ Cross-references updated
+Muốn biết CÁI GÌ ở ĐÂU → Core-Hardware.md.
+Muốn QUAN SÁT + TƯƠNG TÁC → Core-Interface.md.
 
-Remaining:
-- Observation parameters: some still under-specified (Mastery, Disgust)
-- Quantitative models not developed (descriptive framework)
-- Open questions §12.3: 7 remaining (3 resolved in v0.2)
-
-Framework iterates. V7.8 là current best synthesis, không phải final word.
-
-> *Core v7.8 — "Perception-Action Cycle: Domain → Body-Input → Unconscious(Chunks) →
+> *Core-Software — "Perception-Action Cycle: Domain → Body-Input → Unconscious(Chunks) →
 > Feeling → PFC → Body-Output → Domain. Chunks = sole substrate. Body-Feedback = reward
 > hoặc dissonance. PFC = observer + indirect orchestrator. Schema, Drives = observation
 > parameters. Development = chunk density. 3 Loại compile (A/B/C) on same substrate.

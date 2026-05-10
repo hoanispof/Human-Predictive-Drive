@@ -1,9 +1,9 @@
 ---
 title: PFC-Function — Observable PFC Functions for Human-Predictive-Drive
-version: 1.1
+version: 1.2
 created: 2026-04-19
-updated: 2026-05-08 (v1.1 — §6 Confabulation GAP 10 + §4 Proxy Trigger GAP-C5)
-status: v1.1
+updated: 2026-05-10 (v1.2 — sub-region tags per-category, §7 5 modes note, cross-refs)
+status: REFERENCE v1.2
 scope: |
   24 PFC functions organized by 5 categories.
   Focus: cái PFC CÓ THỂ LÀM → actionable cho human development.
@@ -68,6 +68,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 ⭐ PFC KHÔNG feel trực tiếp — PFC OBSERVE output đã integrated từ B+C:
+   Sub-regions: ① vmPFC  ② ACC+OFC  ③ dlPFC+mPFC  ④ mPFC+ACC
+   Chi tiết mapping 24×6: PFC-Configuration.md §4
 
   ① OBSERVE FEELING (7-layer fidelity gradient):
      → Feeling = integrated body-chunk signal emerge tại anterior insula (B)
@@ -109,6 +111,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ PFC HOLD = giữ chunks active → BIAS spreading activation direction:
    = PFC KHÔNG search database → PFC HOLD → sóng lan CÓ HƯỚNG
    🟢 Cowan 2001: WM ~4±1 items
+   Sub-regions: ⑤⑥⑧ dlPFC  ⑦ dlPFC↓+mPFC/DMN↑
 
   ⑤ HOLD ~4±1 SLOTS:
      → Beginner: mỗi slot = small chunk → ít info
@@ -146,6 +149,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 ⭐ PFC PROCESS = chủ động tạo/sửa/verify chunks:
+   Sub-regions: ⑨⑪⑬ dlPFC+ACC  ⑩ dlPFC+mPFC  ⑫ dlPFC+vlPFC  ⑭ dlPFC+vmPFC
 
   ⑨ TYPE 4 DELIBERATE LINKING ("thinking"):
      → PFC hold chunk A + chunk B → check overlap → body vote
@@ -210,6 +214,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 ⭐ PFC KHÔNG điều khiển trực tiếp body — PFC BIAS hệ thống:
+   Sub-regions: ⑮⑯⑳ dlPFC  ⑰ mPFC+vmPFC  ⑱ vlPFC  ⑲ vlPFC+dlPFC
 
   ⑮ GATE ATTENTION VIA TRN:
      → PFC → TRN (Thalamic Reticular Nucleus) → gate thalamus
@@ -291,6 +296,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 ⭐ PFC STRATEGIC FUNCTIONS — cao nhất, cần chunk depth:
+   Sub-regions: ㉑㉓ ACC+dlPFC  ㉒ OFC+dlPFC  ㉔ dlPFC+motor
 
   ㉑ SMOOTH MELODY (core job — Drive.md §0):
      → PFC có 1 JOB duy nhất: SMOOTH MELODY (reduce dissonance)
@@ -407,6 +413,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → B+C+D = self-sufficient cho survival
   → PFC THÊM: direction, planning, imagination, domain-check
   → = PFC = evolutionary UPGRADE, không phải requirement
+
+  ⭐ §7 = ONLY CONFIG ④ (Disconnected). PFC CÓ 5 MODES KHÁC (v1.2):
+    ① Normal (all 24 available)
+    ② Reallocation (flow — task ON, self OFF)
+    ③ Reconfigured (meditation, hypnosis)
+    ⑤ Hyperactivated (dissociation — 4 functions weaponized)
+    ⑥ Disintegrated (psychedelic — ⑭ Modify enhanced)
+    → Chi tiết: PFC-Configuration.md v1.0
 ```
 
 ---
@@ -422,6 +436,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   SUB-REGIONS (Neural-Architecture.md §2):
     dlPFC, vlPFC, OFC, vmPFC, mPFC, ACC — 6 sub-regions chính
+    24×6 mapping: PFC-Configuration.md §4 (dlPFC hub 15/24, vlPFC specialist 3/24)
 
   2 THUỘC TÍNH HARDWARE CHÍNH (PFC-Hardware.md §1):
     ① PFC-Quality: resolution × filter × retrieval × compression per-slot
@@ -510,14 +525,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 PFC FOLDER (companion files):
-  PFC-Hardware.md — Hardware parameters (COMT, DRD4, NE, Quality)
+  PFC-Hardware.md v1.1 — Hardware parameters (COMT, DRD4, NE, Quality)
+    + v1.1: COMT×Reward, COMT×DRD4 interaction, 5-Profile mapping
+  PFC-Configuration.md v1.0 — 6 dynamic modes, survival matrix (v1.2 NEW)
+    → §4: 24×6 sub-region mapping (dlPFC hub, vlPFC specialist)
+    → §5: which functions survive in which configuration
+    → §7-§8: Strategy A→B, System Reconsolidation
   PFC-Development.md — Life stages, learning trajectory, training
   PFC-Hold-Dimensions.md — Tại sao ~4±1 (6 convergent forces)
 
 PHYSICAL MAP:        Neural-Architecture.md §2 (PFC sub-regions, connectivity)
 CHUNK SUBSTRATE:     Chunk.md v2.0 (full mechanism PFC operates on)
-FEELING SYSTEM:      Feeling.md v2.0 (what PFC observes)
+FEELING SYSTEM:      Feeling.md v2.1 (what PFC observes)
 BODY-FEEDBACK:       Body-Feedback.md (signals PFC evaluates)
+REWARD:              Reward-Signal-Architecture.md v1.0 (reward × PFC config)
 AGENT MODELING:      Agent.md (SPM function PFC invokes)
 EMPATHY:             Empathy.md (SPM applied to others)
 DRIVE INTEGRATION:   Drive.md v1.1 (PFC smooth melody role)
@@ -533,12 +554,14 @@ OLD PFC FILES (backup, insights integrated into 3 new files above):
 
 ---
 
-> **PFC.md v1.0 DRAFT**
+> **PFC-Function.md v1.2**
 >
 > 24 functions: Observe(4) + Hold(4) + Process(6) + Orchestrate(6) + Strategic(4).
 > PFC = lever duy nhất cho nâng cấp chủ động.
 > PFC effectiveness = f(chunks compiled × body signal intensity × cortisol level).
 > PFC KHÔNG direct control body — PFC bias + context.
 > "PFC tạo CONTEXT, C+D tự học."
+> v1.2: Sub-region tags per-category, §7 5 modes note → PFC-Configuration.md,
+>   cross-refs PFC-Configuration + Reward-Signal-Architecture.
 >
-> Phiên bản: v1.0, 2026-04-19.
+> Phiên bản: v1.2, 2026-05-10.

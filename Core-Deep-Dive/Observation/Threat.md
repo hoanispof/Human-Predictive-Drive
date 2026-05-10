@@ -875,9 +875,10 @@ TÓM TẮT:
 ```
   ← FOUNDATION (đọc trước hoặc cùng):
     Core-v7.8-Draft.md §8 — Threat = observation parameter definition
-    Body-Feedback-Mechanism.md §3.1-§3.2 — Chunk-Shift/Miss = Threat substrate
+    Body-Feedback-Mechanism.md v1.2 §3.1-§3.2 — Chunk-Shift/Miss = Threat substrate
     Cortisol-Baseline.md v2.0 — amplifier, chronic vs acute dynamics
     Chunk.md v2.0 — chunk compilation under emotional peak
+    PFC-Configuration.md v1.0 — Strategy A→config④, Strategy B→config⑤ (2026-05-10)
 
   ↔ SONG SONG (cùng Observation/ folder):
     Observation/Novelty.md — PULL toward opportunity (parallel với Threat PUSH)

@@ -13,13 +13,13 @@
 
 ---
 
-> **Trạng thái:** v1.1 (refined 2026-04-11 từ v1.0 2026-03-31)
-> **Ngày:** 2026-04-11
+> **Trạng thái:** v1.2 (refined 2026-05-10 — cross-refs updated: Education-Mechanism thay thế old files)
+> **Ngày:** 2026-05-10
 > **Mục đích:** Phân tích cơ chế, spectrum, hậu quả, và giải pháp
 > của education arms race qua lens framework + game theory + data thực.
 > **Reference:**
->   Education-Principles.md v1.1 (đặc biệt NL6 — 3 ORIGIN threat, §2.9 Anchor-Schema)
->   Education-Bridge.md v1.1 (refined)
+>   Education-Mechanism.md v1.0 (đặc biệt §3.3 — 3 ORIGIN threat, §3.5 Anchor legacy)
+>   Education-Mechanism.md v1.0 §3 (Bridge + Motivation — 4 nguồn fill, transition)
 >   Domain-Mapping-Drive.md (đặc biệt §7.2, §8 Barriers)
 >   Threat.md §5.5 (3 ORIGIN taxonomy)
 >   Anchor-Schema.md (4 nguồn fill)
@@ -40,6 +40,12 @@
 >   → §6 Giải pháp: integrate Domain-Mapping-Drive §8 Barriers + NL6 policy implications
 >   → §1 small note: framework body-response + Imagine-Final Quality connection
 >   → §10 Kết nối: bổ sung 7+ new files
+>
+> **Refinement v1.2 (2026-05-10) — cross-refs updated:**
+>   → Education-Principles.md v1.1 → Education-Mechanism.md v1.0 §3.3 (3 ORIGIN applied)
+>   → Education-Bridge.md v1.1 → Education-Mechanism.md v1.0 §3 (Bridge + Motivation)
+>   → Threat-Drive-Analysis.md → removed (backup, covered by Threat.md 3 ORIGIN)
+>   → §10 Kết nối: cleaned stale references
 
 ---
 
@@ -430,7 +436,7 @@
 §5.4 — ARMS RACE = CHRONIC IMPOSED THREAT AT SOCIETAL SCALE
 ═══════════════════════════════════════════════════════
 
-  Từ Threat.md §5.5 + Education-Principles v1.1 NL6, có 3 loại threat:
+  Từ Threat.md §5.5 + Education-Mechanism.md §3.3, có 3 loại threat:
     Type 1 — Domain threats (từ reality): KEEP
     Type 2 — Peer social threats (từ peers ngang hàng): KEEP
     Type 3 — Imposed adult threats (từ authority): REDUCE gradually
@@ -475,8 +481,8 @@
     → Solution không phải "parents nên thay đổi" (they can't individually)
     → Solution phải là STRUCTURAL (Level 2 source)
 
-  → Mapping với §9 Threat-Drive-Analysis.md parenting:
-    Level 1 parent imposed = Case B/C (toxic) trong Vietnamese typical
+  → Mapping với Threat.md 3 ORIGIN + Education-Mechanism.md §3.3:
+    Level 1 parent imposed = Type 3 Imposed Adult Threat chronic
     Level 2 society imposed = META-cause của Level 1
     → Can't fix Level 1 while Level 2 still active
     → This is why individual parenting advice fails in arms race contexts
@@ -756,7 +762,7 @@
 §6.7 — POLICY IMPLICATIONS TỪ NL6 (3 ORIGIN TAXONOMY)
 ═══════════════════════════════════════════════════════
 
-  Từ Education-Principles v1.1 NL6 refined, arms race policy should:
+  Từ Education-Mechanism.md §3.3 (3 ORIGIN applied), arms race policy should:
 
   KEEP — Type 1 Domain threats:
     → Students still face real academic challenges (bài toán khó, research thật)
@@ -928,18 +934,19 @@
 
 ```
 ═══════════════════════════════════════════════════════
-TẦNG 3 META — NỀN LÝ THUYẾT (mới thêm v1.1)
+TẦNG 3 META — NỀN LÝ THUYẾT
 ═══════════════════════════════════════════════════════
 
-→ Education-Principles.md v1.1 ⭐
-   Đặc biệt: NL6 CORTISOL + THREAT ORIGIN refined (3 types Domain/Peer/Imposed)
-   + §2.9 Anchor-Schema brain constant
+→ Education-Mechanism.md v1.0 ⭐
+   §2.2 Direction > Level (approach/avoidance tags — arms race = avoidance factory)
+   §3.3 3 ORIGIN Threat Applied to Education (Domain/Peer/Imposed)
+   §3.1 Bridge = Nguồn ④ (arms race = nguồn ④ dominate 12+ năm)
+   §3.4 Transition 4 nguồn fill (arms race blocks ①②③ emergence)
+   §3.5 Anchor = Legacy dài hạn (arms race installs avoidance anchors)
    → Arms race = chronic Imposed adult threat ở scale xã hội
 
-→ Education-Bridge.md v1.1 (refined)
-   Đặc biệt: §3 Threat Overdose refined với 3 ORIGIN
-   + §6 Per-Age + §8 Rút Bridge refined với 4 nguồn fill
-   → Bridges nested trong arms race context
+→ Domain-Knowledge-Map.md v1.0
+   §1 Foundation Domains (arms race focus era-specific, miss foundation)
 
 → Domain-Mapping-Drive.md ⭐
    Đặc biệt: §7.2 (3 loại threat education application)
@@ -954,9 +961,9 @@ THREAT + ANCHOR CỤM (nền cho §5 Framework Lens expanded)
    + §5.5 3 ORIGIN taxonomy
    → Arms race = Imposed Adult threat chronic ở scale tập thể
 
-→ Threat-Drive-Analysis.md
-   + §9 Parenting refined (3 mức TOXIC/REASONABLE/NATURAL)
-   → Arms race parents có thể đang ở TOXIC mà không biết vì Level 2 society pressure
+→ Threat.md §5.5 3 ORIGIN + Education-Mechanism.md §3.3
+   Arms race parents = Type 3 Imposed chronic ở Level 2
+   → Parents đang ở TOXIC mà không biết vì society pressure
 
 → Anchor-Schema.md
    + §3 4 nguồn fill
@@ -992,12 +999,12 @@ CORE + CONFLICT
    → Arms race = threat drive dominant, novelty drive suppressed
 
 ═══════════════════════════════════════════════════════
-EDUCATION APPLICATIONS
+EDUCATION FILES
 ═══════════════════════════════════════════════════════
 
-→ Education-Bridge.md v1.1: bridges + 7 sai lầm giáo dục
-   (arms race = Carrot Bridge × Stick Bridge tổng hợp, ở scale xã hội)
-→ Empathy-Education.md: empathy suppression trong arms race culture
+→ Education-Mechanism.md §3.1: Bridge = Nguồn ④
+   (arms race = Carrot + Threat bridge tổng hợp, ở scale xã hội)
+→ Empathy-Education.md v2.0: empathy suppression trong arms race culture
 → Hardware-Calibration.md: arms race ignores hardware diversity
 → Education-System.md (Applications): school system architecture alternatives
 

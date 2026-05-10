@@ -1,9 +1,10 @@
 ---
 title: Feeling — Hệ Thống Phản Hồi Unified của Body-Base
-version: 2.0
+version: 2.1
 created: 2026-04-13 (v1.0 DRAFT)
 rewritten: 2026-04-17 (v2.0 — viết mới hoàn toàn)
-status: v2.0 — REFERENCE FILE (tổng hợp 7 source files + Chunk-Analysis 44+ files)
+updated: 2026-05-10 (v2.1 — §6.5 Type A/B + 5 Profiles + Quality, cross-refs)
+status: v2.1 — REFERENCE FILE
 scope: |
   WHAT feeling IS + HOW feeling WORKS + HOW to IMPROVE feeling + BRIDGE to chunk system.
   Tổng hợp: Feeling.md v1 (7-layer) + Feeling-Mechanism-Deep (8-step flow, reward, gradient, quality)
@@ -832,6 +833,71 @@ backup: backup/Feeling-v1-draft.md
     → = "Wanting without liking" (🟢 Berridge) = modern pathology
 ```
 
+### 6.5 Type A/B Dimension + 5 Reward Profiles (v2.1 — Drill R8)
+
+```
+🟡 FEELING SYSTEM OBSERVES CẢ 2 TYPES REWARD (v2.1):
+
+  §6.1 mô tả Dopamine (wanting) vs Opioid (liking) = đúng NHƯNG chưa đủ.
+  Drill R1+R4+R8 reveals: opioid = primarily TYPE A reward.
+  Có TYPE B reward dùng non-opioid pathways.
+
+  TYPE A — EVALUATIVE (opioid-dependent):
+    → Cortical processing → OFC/vmPFC evaluate → opioid release (if match)
+    → Insight, beauty, coherence, social approval = all Type A
+    → PFC OBSERVE được rõ (PFC involved in pathway)
+    → VARIES across individuals (hardware, childhood, exposure)
+
+  TYPE B — DIRECT STATE (non-opioid):
+    → Hardware-level: CT afferents (touch), endocannabinoid (exercise),
+      oxytocin (social proximity), serotonin (satiety)
+    → Below PFC level → PFC observe KHÁC (body-state shift, not "sướng")
+    → "Dễ chịu" more than "sướng" — less dramatic, more foundational
+    → LESS variable across individuals = "democratic reward"
+
+  ⭐ Feeling system = SAME observation system cho cả A và B:
+    → NHƯNG fidelity KHÁC:
+    → Type A → PFC observe ở Layer 4-6 (clear, labellable)
+    → Type B → PFC observe ở Layer 2-3 (vague, body-state shift)
+    → = WHY "insight" = crisp feeling, "comfortable" = diffuse feeling
+
+
+  5 REWARD PROFILES (mỗi profile = "hương vị" reward):
+
+    ① SENSORY — body-input match compiled baseline
+      → Ăn ngon, nhạc hay, mùi thơm
+      → A₀-A₁ (simple → moderate complexity) + B strong
+
+    ② COHERENCE — chunk pattern resolve gap/mismatch
+      → Insight, aha, math beauty, Poincaré equivalence
+      → A₂-A₃ (complex → abstract), B weak
+      → 🟢 Zeki 2014: math beauty = same mOFC as visual beauty
+
+    ③ SOCIAL — inter-entity chunk interaction
+      → Approval, recognition, belonging
+      → A (evaluation of social signal) + B (oxytocin, touch)
+
+    ④ RELIEF — threat resolution, cortisol drop
+      → "Xong rồi, nhẹ người"
+      → NOT opioid → cortisol DROP = relief
+      → Feeling: "nhẹ" more than "sướng"
+
+    ⑤ PREVIEW — anticipated future chunk match
+      → "Sắp được đi chơi!"
+      → Fidelity = f(cortical proportion), A₀ ~5% → A₃ ~60-80%
+
+  REWARD QUALITY = f(4 variables):
+    ① Chunk library depth (P2 substrate)
+    ② Compile context (P5 approach vs avoidance tag)
+    ③ Current body state (cortisol, sleep, energy)
+    ④ A/B ratio (individual hardware + development)
+
+  → Chi tiết đầy đủ: Reward-Signal-Architecture.md v1.0
+  → 5 profiles × temporal × compound: RSA §4-§6
+  → Individual differences: RSA §8
+  → Source: Drill §2, §3.7-§3.22
+```
+
 ---
 
 ## §7 — FEELING GRADIENT: Clear ↔ Vague (H5 + Convergence Zone)
@@ -1645,6 +1711,14 @@ backup: backup/Feeling-v1-draft.md
 ### 13.2 Framework Dependencies
 
 ```
+📚 REWARD ARCHITECTURE (v2.1 NEW):
+
+  Reward-Signal-Architecture.md v1.0 — Type A/B dimension, 5 Profiles, Interaction Model
+    → §6.5 summary maps to RSA full detail
+    → Type A = evaluative (opioid), PFC observes clearly (Layer 4-6)
+    → Type B = direct state (non-opioid), PFC observes vaguely (Layer 2-3)
+    → 5 Profiles = "hương vị" reward: ①Sensory ②Coherence ③Social ④Relief ⑤Preview
+
 📚 CHUNK SYSTEM:
 
   Chunk.md v2.0              — Chunk SYSTEM reference (14 sections, ~1,322L)
@@ -1771,7 +1845,8 @@ FEELING.MD v2.0 — STATUS:
 >   §3: Core Claim (feeling = PFC observation of body-chunk interaction)
 >   §4: Integration (3 hubs, predictive matching, self-signal keystone)
 >   §5: 8-Step Operational Flow (processing system)
->   §6: Reward (dopamine ≠ reward, 5 preconditions, eureka 4 cases)
+>   §6: Reward (dopamine ≠ reward, 5 preconditions, eureka 4 cases,
+>        v2.1: Type A/B + 5 Profiles + Quality formula)
 >   §7: Gradient (clear↔vague, H5, convergence zone)
 >   §8: Quality (library × context, expert/beginner, 1A/1B, trauma)
 >   §9: Feeling Loop + Chunk-Feeling Bridge (bidirectional, body vote)
@@ -1784,4 +1859,4 @@ FEELING.MD v2.0 — STATUS:
 > **Core insight:** "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng."
 > Chunk system and feeling system = ONE system, 2 observation angles.
 >
-> **Phiên bản:** v2.0, 2026-04-17.
+> **Phiên bản:** v2.1, 2026-05-10.

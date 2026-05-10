@@ -1,9 +1,10 @@
 ---
 title: Tôn Giáo — Công Nghệ Tổng Hợp Phục Vụ Body-Base
-version: 2.0
+version: 2.2
 created: 2026-03-28
 rewritten: 2026-04-26
-status: RESEARCH FILE v2.0
+refined: 2026-05-10
+status: RESEARCH FILE v2.2
 scope: |
   RESEARCH FILE: Phân tích tôn giáo qua framework lens.
   Tôn giáo = "Melody Technology" — công nghệ phục vụ body-base
@@ -12,6 +13,12 @@ scope: |
   v2.0 (2026-04-26): REWRITE toàn bộ — map 7 functions sang v7.8 mechanisms,
   thêm Anchor-Schema/Meaning/Obligation/Gratitude/SPM/chunk dynamics mapping,
   compound grief khi mất đức tin, serotonin stability insight.
+  v2.1 (2026-05-09): REFINE post-drill S1-S12 — tích hợp Compile-Taxonomy A/B/C,
+  Model 3 Cấp (Individual→Collective→Framework), Trust = only bridge,
+  4 compile pathways applied to religion, VP §4 clarification, version refs updated.
+  v2.2 (2026-05-10): REFINE post-drill Reward — §2.7 thêm 5 Reward Profiles coverage
+  (religion = DUY NHẤT cover 5/5), §5 COMT × Reward Pattern → religious fit,
+  cross-refs RSA + PFC-Configuration + PFC-Hardware v1.1.
   File này KHÔNG phán xét truth claim.
   "Hoạt động" = phục vụ body-base, KHÔNG = "đúng."
 purpose: |
@@ -26,21 +33,25 @@ position: |
 dependencies:
   - Meaning.md v2.0 — §3.4 FAITH type anchor, §4.3 External Inject (Religion)
   - Anchor-Schema.md v1.2 — sync point, Trust binding, 4 nguồn fill
-  - Connection.md v3.0 — 3 Generative Primitives, 2-luồng reward, Cô đơn
+  - Connection.md v3.1 — 3 Generative Primitives, 2-luồng reward, Cô đơn
   - Obligation.md v1.0 — compiled prediction, Type 5 Identity, 6 types
   - Gratitude.md v1.1 — 3 anti-habituation mechanisms, 9 prerequisites
   - Self-Pattern-Match.md v2.1 — F1/F2, context-dependent, valence gate
-  - Valence-Propagation.md v1.2 — Body-Base Extension, 2-luồng L1/L2
+  - Valence-Propagation.md v1.4 — Body-Base Extension, 2-luồng L1/L2, §4 chains = explanatory
+  - Compile-Taxonomy.md v1.0 — 3 Loại A/B/C, 4 compile pathways, trust-to-compile
+  - Collective-Body.md v1.1 — Model 3 Cấp, trust = only bridge, chain break, AI trust
   - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, Compound
   - Chunk-Activation-Dynamics.md — 7 factors link strength, probability
   - Cortisol-Baseline.md v2.0 — 5 Cortisol Roles, amplifier
-  - PFC-Function.md — 24 functions, Observe/Hold modes
+  - PFC-Function.md v1.1 — 24 functions, Observe/Hold modes, confabulation
   - Status.md v2.0 — Resource Access Map, §9 Serotonin certainty bias
   - Protect.md v1.0 — f(replaceability × attachment), identity protect
   - Compliance-Floor.md v2.0 — luật = bridge, SPM = intrinsic
   - Autonomy-Hardware.md — vmPFC/DRN controllability learning
   - Imagine-Final-Evaluation.md — Clarity × Quality × Trust
-  - Idol-Phenomenon.md — cùng spectrum, khác magnitude
+  - Idol-Phenomenon.md v2.1 — cùng spectrum, khác magnitude
+  - Body-Coupling.md v1.1 — 2D Model, System Compilation, coupling proxy
+  - AI-Schema-Detection.md v2.0 — gateway tool, compile type detection, AI trust guardrails
 sources_backup: |
   v1.0 (2026-03-28, 704L) → backup/Religion-v1-backup.md
   v1.0 had: 7 functions model, install mechanism, faith analysis,
@@ -144,6 +155,45 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → 🟢 Research support: published, replicated
        → 🟡 Framework synthesis: logical, consistent, chưa tested trực tiếp
        → 🔴 Hypothesis: framework prediction, cần evidence
+
+
+  ⭐ v2.1 — TÔN GIÁO QUA MODEL 3 CẤP (Collective-Body.md v1.1):
+
+    Tôn giáo = TEST CASE RÕ NHẤT cho Model 3 Cấp:
+
+    ┌─────────────────────────────────────────────────────────────┐
+    │ CẤP 3: FRAMEWORK (explanatory)                              │
+    │   "Tôn giáo = 7 functions × v7.8 mechanisms"               │
+    │   = Phân tích TẠI SAO tôn giáo hoạt động                   │
+    │   = FILE NÀY thuộc Cấp 3 (explanatory, VP §4 clarification)│
+    └─────────────────────────────────────────────────────────────┘
+                      ↑ giải thích
+    ┌─────────────────────────────────────────────────────────────┐
+    │ CẤP 2: COLLECTIVE (infrastructure)                          │
+    │   Giáo hội / chùa / ummah HOLD chain dài:                  │
+    │   [cầu nguyện → contemplative → cortisol↓ → vmPFC train    │
+    │    → bình an dài hạn]                                       │
+    │   [tuân thủ → identity → community → body-base feed]       │
+    │   = Nơi 7 functions THẬT SỰ TỒN TẠI (distributed)         │
+    └─────────────────────────────────────────────────────────────┘
+                      ↓ install qua trust
+    ┌─────────────────────────────────────────────────────────────┐
+    │ CẤP 1: INDIVIDUAL (short compile)                           │
+    │   Tín đồ compile SHORT:                                     │
+    │   [cầu nguyện → ấm]. [đi lễ → vui]. [tuân thủ → an toàn]. │
+    │   Body KHÔNG process chain dài. Trust tôn giáo cho phần    │
+    │   còn lại. PFC confabulate: "tin vì chân lý" (post-hoc).   │
+    └─────────────────────────────────────────────────────────────┘
+
+    ⭐ TRUST = BRIDGE DUY NHẤT (Collective-Body.md §5):
+      → Cá nhân KHÔNG THỂ tự compile 7 functions (PFC 4±1 constraint)
+      → Tôn giáo = Cấp 2 collective CUNG CẤP 7 functions SẴN
+      → Trust = gate cho install: trust giáo lý → body nhận → compile short
+      → = Tôn giáo MẠNH vì trust CỰC CAO (unfalsifiable + childhood + community)
+      → = Mất trust (mất đức tin) = bridge SỤP → §9 compound loss
+
+    → v2.0 đã mô tả CƠ CHẾ đúng. v2.1 thêm VÙNG ĐẤT:
+      cơ chế đó THUỘC cấp nào, trust đóng vai trò gì, chain dài ở đâu.
 ```
 
 ---
@@ -164,7 +214,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ F2     │ "Sống thế NÀO là đúng"  │ Obligation.md: Type 5 Identity │
   │        │  (mọi domain)           │ + Compliance-Floor.md v2.0      │
   ├────────┼─────────────────────────┼─────────────────────────────────┤
-  │ F3     │ "Cộng đồng SẴN,        │ Connection.md v3.0:             │
+  │ F3     │ "Cộng đồng SẴN,        │ Connection.md v3.1:             │
   │        │  đến là THUỘC VỀ"       │ 3 Generative Primitives ❶❷❸   │
   ├────────┼─────────────────────────┼─────────────────────────────────┤
   │ F4     │ "Đau khổ có Ý NGHĨA,   │ Body-Feedback-Mechanism:        │
@@ -319,7 +369,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 F3 = CONNECTION CÓ CẤU TRÚC — TÔN GIÁO ENGAGE CẢ 3 PRIMITIVES:
 
-  Connection.md v3.0: Connection = ❶ Hardware × ❷ SPM × ❸ Per-Agent Valence
+  Connection.md v3.1: Connection = ❶ Hardware × ❷ SPM × ❸ Per-Agent Valence
   Tôn giáo engage CẢ 3 primitives đồng thời:
 
 
@@ -593,9 +643,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Gratitude.md §0 quote: "Tôn giáo đã discovery cơ chế này
         qua hàng nghìn năm trial-and-error"
 
+
+  ⭐ 5 REWARD PROFILES ĐỀU ĐƯỢC COVER (Reward-Signal-Architecture.md):
+
+    Profile ① Sensory: nhang, nhạc, food → direct body-state (Type B)
+    Profile ② Coherence: FAITH anchor = "mọi thứ có ý nghĩa" (Type A, opioid)
+    Profile ③ Social: community connection (Type B social)
+    Profile ④ Relief: "đau khổ có giải thích" = dissonance→resolution (Type A)
+    Profile ⑤ Preview: "kiếp sau" / "thiên đường" = Imagine-Final preview (Type A)
+
+    → Tôn giáo = DUY NHẤT technology cover CẢ 5 profiles ĐỒNG THỜI
+    → Type A (②④⑤) VÀ Type B (①③) = A Gates B mechanism:
+      FAITH anchor (A₃ evaluative) MỞ RỘNG capacity tiếp nhận sensory (B)
+    → = 1 phần giải thích tại sao ritual "sâu hơn" cho tín đồ vs người ngoài
+
   🟢 Ritual reduces anxiety (Hobson et al. 2018)
   🟢 Gratitude → wellbeing (Emmons & McCullough 2003)
   🟢 Scarcity → appreciation (contrast effect — Brickman & Campbell 1971)
+  🟡 5 Profiles coverage = RSA framework mapping
 ```
 
 ### §2.8 — F7: Life-Level Anchor Coherence (Anchor-Schema)
@@ -772,6 +837,63 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Childhood religious socialization (Voas & Crockett 2005)
   🟢 Ritual behavior reduces anxiety (Hobson et al. 2018)
   🟢 Multi-sensory encoding enhances memory (Shams & Seitz 2008)
+
+
+  ⭐ v2.1 — COMPILE-TAXONOMY A/B/C MAPPING (Compile-Taxonomy.md v1.0):
+
+    5 install mechanisms trên = HOW tôn giáo install chunks.
+    Compile-Taxonomy cho biết: install đó THUỘC LOẠI NÀO.
+
+    TÔN GIÁO = CHỦ YẾU LOẠI C (installed + collective):
+      → Trust source (giáo lý, bố mẹ, cộng đồng) → body nhận → compile SHORT
+      → Chain dài NẰM Ở collective (giáo hội, truyền thống, kinh sách)
+      → Cá nhân compile: [cầu nguyện → ấm], [tuân thủ → an toàn]
+      → KHÔNG compile: [full chain F1-F7 mechanisms]
+
+    NHƯNG CŨNG DÙNG LOẠI A (direct experience):
+      → Emotional peak (lễ lớn, conversion) = body compile trực tiếp
+      → Ritual somatic engagement = direct body experience
+      → ①③⑤ trên = Loại A mechanisms TRONG quá trình Loại C install
+
+    LOẠI B (compiled expertise) = THIỂU SỐ:
+      → Thần học gia, thiền sư, mục sư chuyên sâu
+      → PFC-directed compile qua nhiều năm study + practice
+      → = Tinh hoa, không phải majority pathway
+
+    → Majority tín đồ = Loại C + Loại A mix
+    → = Compile-Taxonomy.md §2.3: ~95% behavior = Loại A + C
+
+
+  ⭐ v2.1 — 4 COMPILE PATHWAYS × TÔN GIÁO (Compile-Taxonomy.md §3):
+
+    CÙNG là "đi lễ mỗi tuần" — 4 người, 4 pathways KHÁC NHAU:
+
+    ① HARDWARE FIT (Loại A — direct):
+       [cầu nguyện → body yên → opioid → ấm]
+       = "Tự thấy bình an." CẤP 1 direct. Trust: KHÔNG CẦN.
+       → Người introvert + cortisol baseline cao = hardware FIT contemplative
+
+    ② TRUST + MODERATE FIT (Loại C + A):
+       Bố mẹ nói "đạo tốt" → trust → compile [đạo → tốt]
+       + Tự đi lễ → community ấm → body confirm
+       = COMPOUND: Loại C install + Loại A verify
+       → PHỔ BIẾN NHẤT: childhood install + adult experience confirm
+
+    ③ SOCIAL DEFAULT (Loại C — pure):
+       "Mọi người xung quanh đều đi lễ → đương nhiên tôi cũng đi"
+       = VP §3 ③ schema inheritance. Trust = QUANTITY (social proof)
+       → PFC confabulate: "tôi tin vì chân lý" (post-hoc)
+       → PFC accuracy: ~30% (Compile-Taxonomy §3 pathway ③)
+
+    ④ THREAT AVOIDANCE (Loại A — direct):
+       [không đi lễ → bị cộng đồng xa lánh → đau] hoặc [→ sợ địa ngục]
+       = CẤP 1 direct. Avoid threat.
+       → Compile [đi lễ → an toàn], cortisol cost CAO
+
+    → 4 pathways, CÙNG output: "đi lễ mỗi tuần"
+    → TẤT CẢ compile SHORT ở Cấp 1 (1-2 nodes)
+    → Chain dài 7 functions NẰM Ở Cấp 2 (giáo hội, truyền thống)
+    → Trust = bridge DUY NHẤT (Collective-Body.md §5.1)
 ```
 
 ---
@@ -909,6 +1031,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = KHÔNG phải "người yếu tin, người mạnh không tin"
     → = Hardware KHÁC → CẦN KHÁC → tôn giáo FIT KHÁC
 
+
+
+  RSA × PER-HARDWARE (Reward-Signal-Architecture.md + PFC-Hardware.md §3.4):
+
+    COMT chậm (Met/Met) → fewer-DEEPER rewards:
+      → Contemplative practice (meditation) = MATCH: deep Type A coherence
+      → 1 buổi lễ = body DEEPLY process → KHÔNG cần lễ liên tục
+    COMT nhanh (Val/Val) → many-SHALLOW rewards:
+      → Action-oriented practice (worship, service) = MATCH: frequent Type B
+      → CẦN lễ THƯỜNG XUYÊN để duy trì reward
+
+    → = PFC-Hardware.md §3.4 COMT × Reward Pattern:
+      khác hardware → khác LOẠI tôn giáo fit → khác FREQUENCY cần
 
   → = KHÔNG phải "ai cũng cần tôn giáo" và KHÔNG phải "ai cũng không cần"
   → = Per-hardware: MỘT SỐ hardware MATCH cực tốt, MỘT SỐ KHÔNG
@@ -1205,6 +1340,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = "Người thoát đạo sáng suốt" = đã rebuild thành công
     → = "Người thoát đạo trầm cảm" = ĐANG ở phase ③, chưa rebuild xong
 
+
+  ⭐ v2.1 — INDIVIDUAL vs COLLECTIVE TRIGGER (Collective-Body.md §5.2):
+
+    Mất đức tin CÓ THỂ do INDIVIDUAL hoặc COLLECTIVE trigger:
+
+    INDIVIDUAL TRIGGER (PFC real-check):
+      → Education tăng → PFC chunk density CAO → real-check FAITH anchor
+      → "Có bằng chứng không?" → trust GIẢM dần → §9 process ①→④
+      → = Pathway CHẬM: PFC tự challenge over years
+
+    COLLECTIVE CHAIN BREAK (Collective-Body.md §5.2):
+      → Loại ① Cost tăng: "tuân thủ → quá mệt" (cost >> baseline)
+      → Loại ② Link gãy: giáo sĩ bê bối → trust link COLLAPSE
+        → VP chain trust = product of link trusts → 1 link sụp → chain sụp
+      → Loại ③ Compound: bê bối + community toxic + cost tăng
+      → = Pathway NHANH: body circuit-break TRƯỚC → PFC wake → re-evaluate
+
+    → INDIVIDUAL trigger: đau nhưng CHẬM (tháng → năm)
+    → COLLECTIVE trigger: đau và NHANH (body circuit-break đột ngột)
+    → Can thiệp KHÁC: individual cần support rebuild melody
+      collective cần fix chain (institution reform, không chỉ therapy cá nhân)
+
   🟢 Streib et al. (2009): deconversion → depression, anxiety, identity crisis
   🟢 Altemeyer & Hunsberger (1997): atheist converts report meaning search
 ```
@@ -1286,6 +1443,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     VẪN CÒN:
       F2 vẫn có (luật pháp thay — nhưng weaker vì external only)
       F4 có phần thay (therapy, medication — nhưng per-individual, tốn hơn)
+
+
+  v2.1 — SECULARIZATION = COLLECTIVE CHAIN BREAK (Collective-Body.md §5.2):
+
+    Secularization NHÌN QUA Model 3 Cấp:
+    → Cấp 2 (collective tôn giáo) GIẢM khả năng hold chains:
+      → Loại ② link gãy: science challenge → trust link [faith → đúng] WEAKENED
+      → Loại ① cost tăng: modern life → tuân thủ truyền thống COST cao hơn
+    → Cá nhân (Cấp 1) BODY DETECT: "tôn giáo không còn serve body-base"
+    → PFC wake → "tôn giáo có ý nghĩa gì?" → re-evaluate
+
+    ≠ Individual choice ("chọn không tin"):
+    = Collective infrastructure GIẢM → individual PHẢN ỨNG
+    → Can thiệp: KHÔNG phải thuyết phục cá nhân quay lại
+    → MÀ: collective TẠO chains mới phục vụ 7 functions (per §12)
 
 
   🔴 SEROTONIN POPULATION-LEVEL:
@@ -1386,9 +1558,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Compliance-Floor.md §7: education + empathy = DÀI HẠN tốt hơn luật/tôn giáo
       → Nhưng "dài hạn" = thế hệ, không phải năm
 
-    ⚠️ AI-Schema-Detection.md: AI = GATEWAY TOOL, KHÔNG phải replacement
+    ⚠️ AI-Schema-Detection.md v2.0: AI = GATEWAY TOOL, KHÔNG phải replacement
       → AI giúp NAVIGATE → nhưng AI KHÔNG THỂ REPLACE body experience
       → = "Công cụ NAVIGATE, không phải GPS chính xác"
+
+    ⚠️ v2.1 — AI TRUST GUARDRAILS (Collective-Body.md §8.4):
+      → AI output = LOẠI C install (trust-gated, VP §4 clarification)
+      → AI = trust entity LOẠI MỚI: cross-domain default, no accountability
+      → AI suggest "mục đích sống" = install-compile speed gap risk
+        (cá nhân chưa kịp compile → đã nhận install mới)
+      → Body-check = final arbiter (AI-Schema-Detection.md v2.0 §8)
+      → = Tôn giáo có community real-check + thousands years tested
+      → = AI mới, chưa tested → guardrails QUAN TRỌNG HƠN
 ```
 
 ---
@@ -1423,7 +1604,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟡 "Tôn giáo = melody technology" — reframe, consistent nhưng provocative
     🟡 F1 = FAITH type life-level Anchor-Schema — mapping Meaning.md §3.4
     🟡 F2 = Type 5 Identity Obligation compiled — mapping Obligation.md
-    🟡 F3 = 3 Generative Primitives engaged — mapping Connection.md v3.0
+    🟡 F3 = 3 Generative Primitives engaged — mapping Connection.md v3.1
     🟡 F4 = Chunk-Gap resolution + vmPFC controllability — mapping multi-file
     🟡 F4b = SPM F1 on virtual agent (prayer) — consistent với ToM research
     🟡 F6 = H10 preconditions + 3 anti-habituation — mapping Gratitude.md
@@ -1433,6 +1614,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟡 "Idol → tôn giáo = cùng spectrum" — consistent, controversial
     🟡 "Marx đúng 2/7" — framework reframe, more nuanced than binary
     🟡 "Secularization = 7 functions mất dần" — consistent với meaning crisis literature
+    🟡 v2.1: "Tôn giáo = test case Model 3 Cấp" — religion as collective infrastructure
+    🟡 v2.1: "Install = Loại C + Loại A mix" — mapping Compile-Taxonomy.md
+    🟡 v2.1: "4 pathways × religion" — mapping Compile-Taxonomy.md §3
+    🟡 v2.1: "Secularization = collective chain break" — mapping Collective-Body.md §5.2
+    🟡 v2.1: "Mất đức tin: individual vs collective trigger" — mapping chain break model
 
 
   HYPOTHESIS (🔴):
@@ -1491,11 +1677,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 → Meaning.md v2.0: §3.4 FAITH type anchor, §4.3 External Inject (Religion = effective provider)
 → Anchor-Schema.md v1.2: §0 case ④ (tôn giáo bypass PFC), §1 sync mechanism, §2 Trust
 → Anchor-Schema-Extreme-Example.md: Over-anchor failure mode (cult risk)
-→ Connection.md v3.0: §3 (3 Generative Primitives), §16 ("Cô đơn" deep analysis)
+→ Connection.md v3.1: §3 (3 Generative Primitives), §16 ("Cô đơn" deep analysis)
 → Obligation.md v1.0: Type 5 Identity obligation, compiled prediction
 → Gratitude.md v1.1: §3 (3 anti-habituation), §0 (tôn giáo discovery empirically)
 → Self-Pattern-Match.md v2.1: §2.1 F1 (body simulation), §2.2 F2 (logic prediction)
-→ Valence-Propagation.md v1.2: §2 Body-Base Extension, 2-luồng L1/L2
+→ Valence-Propagation.md v1.4: §2 Body-Base Extension, 2-luồng L1/L2, §4 chains = explanatory
 → Body-Feedback-Mechanism.md: §3.3 Chunk-Gap, §2 Chunk-Shift
 → Chunk-Activation-Dynamics.md: §2.2 (7 factors link strength), §2.3 (probability dynamic)
 → Cortisol-Baseline.md v2.0: §7.7 (5 Roles), Role 1 vs Role 3 conversion
@@ -1511,8 +1697,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 → Logic-Feeling-Balance.md: infinite regress, mỗi người tự cân bằng
 → Melody-Arc.md: real-check vs faith trade-off
 → Global-Melody.md: domain speciation mechanism
-→ AI-Schema-Detection.md v1.1: §0 gateway tool framing
+→ Compile-Taxonomy.md v1.0: §2 (3 Loại A/B/C), §3 (4 compile pathways), §4 (trust-to-compile 5 bước)
+→ Collective-Body.md v1.1: §1 (Model 3 Cấp), §5 (trust = only bridge), §5.2 (chain break), §8.4 (AI trust)
+→ Body-Coupling.md v1.1: §2 (2D Model), §2.5 (System Compilation)
+→ AI-Schema-Detection.md v2.0: §0 gateway tool framing, §5 compile type detection, §8 AI trust guardrails
 → Collective-Purpose.md v1.1: cosmic loop, "sống có ý nghĩa" reframe
+→ Reward-Signal-Architecture.md v1.0: §2 Type A/B, §8 5 Profiles — religion cover 5/5 (§2.7)
+→ PFC-Configuration.md v1.0: §2 6 Modes — faith collapse ≈ Config ③→④ transition possible
+→ PFC-Hardware.md v1.1: §3.4 COMT × Reward Pattern — COMT chậm vs nhanh → khác religious fit (§5)
 ```
 
 ---

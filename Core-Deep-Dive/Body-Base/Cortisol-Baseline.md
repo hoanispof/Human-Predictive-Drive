@@ -3185,6 +3185,11 @@ PARENT + SUBSTRATE:
   → Body-Input-Enumeration.md §4.9 (self-signal interoception keystone)
   → Why-Body-Knows.md §4 (4-tier calibration theory)
 
+REWARD ARCHITECTURE (2026-05-10 NEW):
+  → Reward-Signal-Architecture.md v1.0 — Profile ④ Relief = cortisol DROP reward
+    (NOT opioid → cortisol reduction = relief feeling)
+  → PFC-Configuration.md v1.0 — cortisol triggers config ④ (PFC disconnect)
+
 CORE MECHANISMS (sibling reference files):
   → Chunk.md v2.0 §2.4 (NT7 direction gate at compile)
   → Feeling.md v2.0 (PFC observation of body state)

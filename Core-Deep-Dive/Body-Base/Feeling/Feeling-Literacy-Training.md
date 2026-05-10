@@ -1,8 +1,8 @@
 ---
 title: Feeling-Literacy-Training — HOW to Improve Feeling Detection
 created: 2026-04-17 (N+12 session, Feeling Deep Dive)
-status: DRAFT v1.0
-scope: Systematic training framework grounded in chunk mechanism
+status: v1.1 (refined 2026-05-10 — §5.4 schema [ý chí], §5.6 Natural Discovery 3 conditions)
+scope: Systematic training framework grounded in chunk mechanism + natural discovery conditions
 purpose: |
   Feeling-Accuracy.md = WHAT literacy is + catalog of methods.
   File này = HOW literacy works VIA CHUNK MECHANISM.
@@ -49,7 +49,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §2 — Why Feeling Literacy Is the Critical Human Skill (AI Era)
 - §3 — 5-Stage Training Framework (grounded in chunk mechanism)
 - §4 — Gendlin Focusing as Mechanism (SAL Variant)
-- §5 — Failure Modes (why training fails — chunk-level explanation)
+- §5 — Failure Modes + Natural Discovery
 - §6 — Cross-Cultural + Developmental Perspective
 - §7 — Honest Assessment + Predictions + Cross-References
 
@@ -1256,9 +1256,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → "Logic > feeling" → ALL body signals devalued
     → Person FUNCTIONALLY literate but SUPPRESSES output
 
+  ⭐ SCHEMA PHỔ BIẾN NHẤT: [Ý CHÍ = TẤT CẢ]
+    → "Người trưởng thành thì phải quyết được làm được"
+    → "Nỗ lực + quyết tâm = mọi thứ đều có thể"
+    → "Nếu không làm được = ý thức kém, thiếu kỷ luật"
+    → Schema này có Trust CAO:
+      Nguồn ④ External Inject: bố mẹ, thầy cô, xã hội reinforce
+      Nguồn ② Experience: nhiều trường hợp "cố gắng → kết quả" đúng thật
+    → FUNCTIONAL trong nhiều context (công việc routine, học thuộc lòng)
+    → NHƯNG INCOMPLETE: thiếu body-base layer
+      Khi body muốn → PFC muốn → "ý chí mạnh" (body đồng thuận)
+      Khi body KHÔNG muốn → PFC ép → "cố gắng" → căng, mệt, kém hiệu quả
+    → Schema này BLOCK interpretation khác:
+      "Làm không được" → duy nhất 1 label: "thiếu ý chí"
+      Label đúng hơn: "body signal nói direction này không match"
+      NHƯNG: label đúng KHÔNG CÓ trong cultural vocabulary
+    → = Parallel: schema [tiền = tốt nhất] (Reward-Calibration.md §8.1③)
+      Cả hai đều functional nhưng incomplete — thiếu proxy/body layer
+
   CHUNK MECHANISM:
     → F3 external install: cultural rules = Direction B chunks
     → "Feeling X = bad" chunks compiled (social learning)
+    → Schema [ý chí] install thêm: "body signal = weakness to overcome"
     → These chunks CREATE FILTER at step ④:
       → Body signal fires → PFC detects → cultural chunk fires →
         "don't acknowledge this" → signal SUPPRESSED before step ⑤
@@ -1272,11 +1291,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Person KNOWS feeling but refuses to acknowledge
     → = Training bumps into IDENTITY-LEVEL resistance
     → = Cultural chunks = deeply compiled, multi-modal, socially reinforced
+    → Schema [ý chí] đặc biệt strong vì CROSS-CULTURAL:
+      Không chỉ 1 nền văn hóa — hầu hết xã hội hiện đại đều install
+      → Khó escape vì GẦN NHƯ UNIVERSAL
 
   INTERVENTION:
     → PERMISSION first: reframe literacy as SKILL, not "emotional"
     → = NOT "be more emotional" → "read signals more accurately"
     → = Framing matches analytical/cultural value
+    → Với schema [ý chí]: reframe "ý chí = orchestrate, không phải generate"
+      → "Body generate drive → PFC orchestrate direction"
+      → Không phải "bỏ ý chí" mà "hiểu ý chí hoạt động TRÊN NỀN body"
     → Competitive re-linking: new "literacy = smart" chunks
       COMPETE with old "feeling = weak" chunks
     → Cross-cultural exposure: learn about cultures with different norms
@@ -1325,6 +1350,154 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → If NO → feeling is UNVERIFIED → lower confidence
     → = Logic-Feeling.md: neither alone sufficient, both required
     → Estimated: ongoing practice (never "done" — 1B is always possible)
+```
+
+### §5.6 — Natural Discovery (khi không cần training)
+
+```
+🟡 NATURAL DISCOVERY — một số người phát hiện body-listening TỰ NHIÊN:
+
+  §5.1-5.5: tại sao TRAINING fails.
+  Nhưng: một số người phát triển body-listening KHÔNG QUA training.
+  Không meditation, không therapy, không deliberate practice.
+  Họ nhận ra "phải nghe body" từ kinh nghiệm sống.
+
+  → File này (§3) = HOW TO TRAIN literacy (cho đa số).
+  → §5.6 này = WHY SOME DISCOVER NATURALLY (hiếm, nhưng cần hiểu).
+  → Hiểu điều kiện → có thể THIẾT KẾ training tốt hơn.
+
+
+⭐ 3 ĐIỀU KIỆN CHO NATURAL DISCOVERY:
+
+  ĐIỀU KIỆN ① — CONTRAST ĐỦ MẠNH:
+    → Có ít nhất 2 pathway: A (ép theo cách chuẩn) và B (theo body)
+    → Pathway A: cố gắng theo cách được dạy → FAIL rõ ràng dù cố hết sức
+    → Pathway B: làm theo cảm hứng/body → SUCCEED dù không cố
+    → Contrast này buộc body nhận ra PATTERN:
+      "Ép = fail. Theo hứng = ngon. Tại sao?"
+    → NẾU pathway A "cũng tạm ok" → không có contrast → không nhận ra
+
+    General case:
+      → Học sinh: ép học → điểm thấp, nghịch → chế được đồ
+      → Nhân viên: ép làm task ghét → kém, task thích → xuất sắc
+      → Vận động viên: ép tập kiểu A → chấn thương, kiểu B → vào flow
+    → Contrast phải ĐỦ RÕ. "Hơi kém" vs "hơi tốt" = không đủ detect.
+
+  ĐIỀU KIỆN ② — URGENCY (buộc phải tìm hiểu):
+    → Environmental pressure tạo NECESSITY để hiểu "tại sao mình khác"
+    → Consequence đủ lớn → không thể "kệ, sống tiếp"
+    → Urgency = cortisol amplifier cho signal detection
+      (Cortisol-Baseline.md: cortisol TĂNG attention + hypervigilance)
+
+    General case:
+      → Bị phạt/mắng vì fail pathway A → buộc tìm nguyên nhân
+      → Bị đuổi việc → buộc re-evaluate cách approach
+      → Sức khỏe suy giảm → buộc lắng nghe body
+
+    ⚠️ QUAN TRỌNG:
+      Urgency KHÔNG TẠO RA body-listening.
+      Urgency TẠO ĐỘNG LỰC để TÌM HIỂU tại sao body nói gì.
+      = Scolding as amplifier, not cause.
+      = Nếu urgency QUÁ CAO → shutdown/trauma (§5.3) thay vì discovery.
+      = Goldilocks: đủ pressure để tìm hiểu, không quá mức gây shutdown.
+
+  ĐIỀU KIỆN ③ — SIGNAL ĐỦ LOUD (hardware-dependent):
+    → Body signal phải đến PFC đủ mạnh để PFC "nghe thấy"
+    → PFC-Hardware.md §3.4: COMT variant ảnh hưởng dopamine clearance
+    → Interoceptive sensitivity: mỗi người khác nhau (bẩm sinh + phát triển)
+    → Signal loud → contrast RÕ HƠN (ép = đau RÕ, hứng = sướng RÕ)
+    → Signal nhẹ → contrast MỜ → cùng experience nhưng không detect pattern
+
+    Evidence:
+      → Cùng gia đình, cùng áp lực:
+        Người A: "khó chịu không chịu nổi, bật lại ngay" (signal loud)
+        Người B: "im đi là xong, vô tư" (signal nhẹ hơn)
+      → Cùng stimulus, khác response = hardware khác
+      → 🟢 Craig 2009: interoceptive accuracy varies significantly
+        across individuals (measurable via heartbeat detection task)
+
+
+⭐ CẢ 3 PHẢI ĐỦ. THIẾU 1 = NATURAL DISCOVERY KHÔNG XẢY RA:
+
+  Thiếu contrast → không có data so sánh → không thấy pattern
+  Thiếu urgency → có data nhưng không có động lực tìm hiểu → "kệ"
+  Thiếu signal → có data + động lực nhưng signal quá nhỏ → PFC miss
+
+  → Xác suất cả 3 ĐỦ = THẤP → natural discovery HIẾM
+  → Đa số người CẦN training (§3) → đây là lý do §3 tồn tại
+  → Natural discovery = lucky convergence, không phải "giỏi hơn"
+
+
+NATURAL DISCOVERY vs TRAINING — COMPLEMENTARY:
+
+  ┌────────────────────────────────┬──────────────────────────────┐
+  │ NATURAL DISCOVERY              │ TRAINING (§3)                │
+  ├────────────────────────────────┼──────────────────────────────┤
+  │ Stage 1-3 develop through     │ Stage 1-5 develop through    │
+  │ necessity-driven experience   │ deliberate practice          │
+  │                                │                              │
+  │ STRONG: body awareness,       │ STRONG: label, vocabulary,   │
+  │ signal detection, pattern     │ meta-awareness, calibration  │
+  │                                │                              │
+  │ WEAK: vocabulary (Stage 4),   │ WEAK: may lack urgency-      │
+  │ meta-awareness (Stage 5)      │ driven depth of Stage 1-3    │
+  │ "Biết nhưng không nói được"   │ "Nói được nhưng chưa sâu"   │
+  │                                │                              │
+  │ = SAL §1: body-knowledge      │ = SAL §4: explicit-knowledge │
+  │ without vocabulary yet        │ but may lack body-grounding  │
+  └────────────────────────────────┴──────────────────────────────┘
+
+  → Natural discoverer CẦN training Stage 4-5 để articulate
+  → Trained person CẦN experience depth để ground Stage 1-3
+  → BOTH pathways incomplete alone
+  → COMBINATION = most complete literacy
+
+
+SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
+
+  → Dù có đủ 3 điều kiện, schema [ý chí = tất cả] (§5.4) có thể BLOCK
+  → Contrast có → nhưng label "mình thiếu ý chí" (chỉ 1 interpretation)
+  → Urgency có → nhưng response "phải cố hơn nữa" (schema dictate)
+  → Signal loud → nhưng suppress "phải vượt qua, không chiều hư body"
+  → Schema phải LOOSEN trước khi 3 conditions có thể work
+  → Loosening cần NHIỀU contrary evidence + thời gian dài
+  → = Anchor-Schema.md: Trust cao = khó thay đổi
+
+
+⭐ TRAINING DESIGN INSIGHT — MIMIC NATURAL DISCOVERY:
+
+  Hiểu 3 conditions → thiết kế training MÔ PHỎNG:
+
+  ① TẠO CONTRAST an toàn:
+    → Cho learner THỬ CẢ HAI approach (ép vs theo body)
+    → Đo kết quả CẢ HAI → tự nhận ra pattern
+    → = Stage 3 training (§3.3) nhưng WITH BUILT-IN contrast
+
+  ② TẠO URGENCY an toàn (không phải qua pain):
+    → Feedback rõ ràng: "approach A kém hiệu quả 40%"
+    → Mục tiêu có ý nghĩa cá nhân → tạo MOTIVATION tìm hiểu
+    → ≠ punishment/shame → = curiosity + relevance
+    → = Safe urgency, not threat urgency
+
+  ③ BẮT ĐẦU VỚI STRONG SIGNALS:
+    → Stage 1 training (§3.1): start with physical sensations
+    → Physical signals = loudest → easiest to detect
+    → Sau khi detect strong signals → mở rộng sang subtler signals
+    → = Already recommended in §3.1 — 3 conditions CONFIRM approach
+
+  → 3 conditions model = EMPIRICAL VALIDATION cho §3 training design
+  → Natural discovery works VÌ nó có 3 conditions
+  → Good training CŨNG NÊN có 3 conditions (in safe form)
+
+
+🟡 CONFIDENCE:
+  → 3 conditions model = framework synthesis từ multiple observations
+  → Mỗi condition có research support riêng:
+    ① Contrast = learning via comparison (🟢 well-established)
+    ② Urgency = motivation × attention (🟢 well-established)
+    ③ Signal = interoceptive sensitivity variation (🟢 Craig 2009)
+  → Integration của 3 thành model = 🟡 framework synthesis
+  → "All 3 necessary" claim = 🟡 logical but not directly tested
 ```
 
 ---
@@ -1474,6 +1647,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     clinical observation supports, formal comparison lacking)
   ⚠ Cultural suppression as chunk-level filter (consistent with social
     learning research, specific mechanism = framework proposal)
+  ⚠ Schema [ý chí = tất cả] as cross-cultural barrier (§5.4 enrichment:
+    logical from Anchor-Schema Trust model, parallel Reward-Calibration §8.1③)
+  ⚠ 3 conditions for natural discovery (§5.6: contrast + urgency + signal.
+    Each condition research-grounded, integration = framework synthesis)
 
 
 🔴 LOW CONFIDENCE — hypotheses:
@@ -1536,6 +1713,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Test: Develop meta-feeling assessment → correlate with life outcome
       measures across domains.
     → Status: 🔴 Framework prediction — measurement instrument needed
+
+  P-LT7: 3 conditions predict natural body-listening discovery (§5.6)
+    → Prediction: People who developed body-listening NATURALLY (without
+      training) will retrospectively report ALL 3 conditions:
+      ① strong contrast (forced path fail + natural path succeed)
+      ② urgency (environmental pressure to understand why different)
+      ③ loud body signals (strong interoceptive sensitivity)
+    → Test: Interview self-reported "body-listeners" (artists, athletes,
+      therapists who describe intuitive body-guidance WITHOUT formal
+      training). Assess 3 conditions via structured interview.
+      Control: compare with trained body-listeners (meditation, therapy).
+    → Status: 🟡 Each condition well-established individually
+      (contrast learning, motivation research, interoceptive variation).
+      Integration as 3-condition model = framework synthesis.
+
+  P-LT8: Contrast-based training > standard training (§5.6 design insight)
+    → Prediction: Training that INCLUDES contrast element (try both
+      body-guided vs PFC-forced approaches, compare results) →
+      faster literacy development than standard body-scan-only training.
+    → Test: Two groups: standard MBSR vs MBSR + contrast exercises.
+      Compare interoceptive accuracy + Stage 3 pattern recognition.
+    → Status: 🔴 Framework-specific prediction, not yet tested
 ```
 
 ### §7.3 — Honest limits
@@ -1563,6 +1762,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Training IMPROVES accuracy — does not guarantee.
     → 1B trap always possible (§5.5).
     → Domain feedback always needed.
+
+  ✗ "Natural discovery = better than training"
+    → Natural discovery (§5.6) = DIFFERENT pathway, not superior.
+    → Strong Stage 1-3 but often weak Stage 4-5.
+    → Training fills gaps natural discovery misses, and vice versa.
 
   ✗ "This replaces professional clinical guidance"
     → Framework is theoretical. Trauma, alexithymia,
@@ -1600,7 +1804,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Somatic-Articulation-Loop.md   → §2 (7-stage SAL mechanism), §4 (Gendlin),
                                     §5 (AI era catalyst)
   Logic-Feeling.md               → Parallel processing, 1A vs 1B
+  Logic-Feeling-Balance.md       → §6-§7 (cannot prescribe balance — parallel §5.6)
   Logic-Planning.md              → AI = logic amplifier, Label 3-tier
+  Reward-Calibration.md          → §8.1③ schema [tiền = tốt nhất] (parallel §5.4 ý chí)
+  PFC-Hardware.md                → §3.4 COMT variant (§5.6 condition ③ hardware)
   Neural-Processing-Flow.md      → Hardware pathway (integration hubs)
   Body-Input-Enumeration.md §4.9 → Self-signal interoception keystone
 

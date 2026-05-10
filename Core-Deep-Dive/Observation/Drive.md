@@ -635,6 +635,7 @@ RESOLUTION RULES — 5 rules theo thứ tự
     Core-v7.8-Draft.md §8 — ALL observation parameters
     Observation/Novelty.md v1.0 — PULL mechanism deep-dive
     Observation/Threat.md v1.0 — PUSH mechanism deep-dive
+    PFC-Configuration.md v1.0 — §2 participation modes ORTHOGONAL with config (2026-05-10)
 
   ← MECHANISM (đọc trước hoặc cùng):
     Body-Feedback-Mechanism.md — chunk dynamics → body-feedback

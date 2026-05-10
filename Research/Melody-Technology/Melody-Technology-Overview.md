@@ -23,8 +23,8 @@ position: |
   Research/Melody-Technology/ — OVERVIEW file cho folder.
   Đọc file này TRƯỚC khi đọc Religion.md v2.0 hoặc Idol-Phenomenon.md v2.0.
 dependencies:
-  - Religion.md v2.0 — 7 Functions × v7.8 mapping, 1,525L
-  - Idol-Phenomenon.md v2.0 — 5 Drives × v7.8 mapping, 872L
+  - Religion.md v2.2 — 7 Functions × v7.8 mapping + RSA 5 Profiles
+  - Idol-Phenomenon.md v2.1 — 5 Drives × v7.8 mapping + RSA Type A/B
   - Education-Mechanism.md — mechanism-focused education analysis
   - Empathy-Education.md v2.0 — SPM-based empathy education
   - Domain-Knowledge-Map.md — education domain mapping
@@ -140,15 +140,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────────────┬──────────┬──────────────────────────────────────┐
   │ Implementation       │ Cover    │ File + Status                         │
   ├──────────────────────┼──────────┼──────────────────────────────────────┤
-  │ ⭐ Tôn giáo          │ 7/7      │ Religion.md v2.0 (1,525L)            │
+  │ ⭐ Tôn giáo          │ 7/7      │ Religion.md v2.2                      │
   │                      │          │ 7 Functions × v7.8 mapping đầy đủ    │
   │                      │          │ FAITH anchor + install + compound     │
-  │                      │          │ grief + serotonin stability           │
+  │                      │          │ grief + serotonin + RSA 5/5 Profiles  │
   ├──────────────────────┼──────────┼──────────────────────────────────────┤
-  │ Idol / Celebrity     │ 1-4/7    │ Idol-Phenomenon.md v2.0 (872L)       │
+  │ Idol / Celebrity     │ 1-4/7    │ Idol-Phenomenon.md v2.1               │
   │                      │ (varies) │ 5 Drives × v7.8 mapping. Parasocial  │
   │                      │          │ = SPM 1-chiều. AI idol frontier.     │
-  │                      │          │ Covers F1(GOAL) F3 F5 F6.            │
+  │                      │          │ RSA: art=Type B, anchor=Type A.      │
   │                      │          │ Fan cuồng→ thêm F2 F7 (§8 spectrum)  │
   ├──────────────────────┼──────────┼──────────────────────────────────────┤
   │ Giáo dục             │ 3-4/7    │ Education-Mechanism.md +              │
@@ -357,8 +357,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 MELODY TECHNOLOGY FILES:
-→ Religion.md v2.0: 7 Functions × v7.8 (1,525L). File CHÍNH cho 7-function model.
-→ Idol-Phenomenon.md v2.0: 5 Drives × v7.8 (872L). Parasocial + AI idol.
+→ Religion.md v2.2: 7 Functions × v7.8 + RSA 5/5 Profiles. File CHÍNH cho 7-function model.
+→ Idol-Phenomenon.md v2.1: 5 Drives × v7.8 + RSA Type A/B. Parasocial + AI idol.
 
 CORE MECHANISM FILES (foundation cho analysis):
 → Meaning.md v2.0: 5 anchor types — basis for F1 analysis per-implementation

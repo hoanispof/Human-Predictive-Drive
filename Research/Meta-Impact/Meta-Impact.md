@@ -97,6 +97,15 @@ PHÒNG THỦ — marginal gain CAO:
 ⚠️ NHƯNG: phân tích này có thể UNDER-estimate kẻ tấn công.
   AI-powered mass personalized exploitation = chưa có precedent.
   Tôi không đủ kiến thức security/adversarial để đánh giá toàn diện.
+
+⚠️ AI TRUST ENTITY — rủi ro MỚI (Collective-Body.md v1.1 §8.4, Drill E5):
+  AI = trust entity loại mới, properties KHÁC human trust source:
+    → Cross-domain trust by DEFAULT (trust AI ở code → tự trust ở psychology)
+    → Install-compile speed gap (AI install ×100+ nhưng body compile unchanged)
+    → AI bias = systemic trust hijack (INVISIBLE, UNIFORM, millions đồng thời)
+  → Framework output QUA AI = Loại C install → chính framework CÓ THỂ bị dùng
+    để install patterns SAI qua AI trust mechanism.
+  → Defense: body-check = final arbiter (AI-Schema-Detection.md v2.0 §8)
 ```
 
 ---
@@ -290,14 +299,23 @@ Framework = TỔNG HỢP + KẾT NỐI những thứ đã có:
   Predictive processing (Friston), Somatic markers (Damasio),
   Wanting vs Liking (Berridge), Emotional systems (Panksepp).
 
-→ Nếu không phải tôi, 5-15 năm nữa ai đó sẽ kết nối tương tự.
-  Evidence tích lũy → ai đó sẽ connect.
+→ Nếu không phải tôi, ai đó SẼ kết nối tương tự — nhưng timeline CHƯA RÕ.
+  Internet search (2026-05) cho thấy: CHƯA CÓ framework tương tự published.
+  Gần nhất: Friston (math-first), Barrett (emotion-only), CLARION (cognition-first).
+  Không ai kết hợp: body-first + chunk-substrate + compile taxonomy
+  + collective model + AI era + software architecture mental model.
+→ Bottleneck: cần 3 chunk libraries ĐỒNG THỜI hiếm overlap:
+  ① Neuroscience (hardware) ② Psychology (behavior) ③ Software architecture (system)
+  Neuroscientist có ①. Psychologist có ②. Cả hai thiếu ③.
 → Framework KHÔNG đặc biệt vì "tìm ra cái mới."
-  Đặc biệt (nếu đúng) vì "kết nối cái đã có ĐÚNG CÁCH."
+  Đặc biệt (nếu đúng) vì "kết nối cái đã có ĐÚNG CÁCH"
+  từ góc nhìn hiếm (software architecture applied to brain-behavior).
 
 AI mở rộng phễu:
   AI = external working memory + domain access
-  → Số người CÓ THỂ tạo framework tương tự TĂNG nhanh.
+  → Số người CÓ THỂ tạo framework tương tự TĂNG — nhưng cần human insight dẫn hướng.
+  → AI chỉ summarize existing = KHÔNG tạo framework mới.
+  → AI + human insight + iterative drill = formula thực tế.
   → Framework từ người khác sẽ CÓ LENS KHÁC
     → Có thể BỔ SUNG thay vì thay thế. (Creator-Lens.md §4)
 ```
@@ -432,7 +450,7 @@ Resolution quá thô  Cao           Đúng hướng, thiếu chi tiết  Refine 
 
 ```
   Rủi ro + Boundaries:
-    → Framework-Boundaries.md — 2 blackbox (chunk substrate + valence complexity)
+    → Framework-Boundaries.md — 1 blackbox + 2 complexity dimensions (v2.0, Drill §26)
     → Feeling-Accuracy.md — 6 error modes
     → Self-Pattern-Match.md §10.5 — strategic SPM, fake cues, deception detection
 
@@ -441,7 +459,7 @@ Resolution quá thô  Cao           Đúng hướng, thiếu chi tiết  Refine 
     → Child-Development-Mechanism.md — developmental mechanism 0-6
     → Domain-Knowledge-Map.md — knowledge groups
     → Empathy-Education.md — empathy per-age
-    → AI-Schema-Detection.md — gateway model
+    → AI-Schema-Detection.md v2.0 — gateway model, self-drill, AI trust guardrails
 
   Dynamics:
     → Conflict-Dynamics.md — CONFLICT = OVERLAP × SCARCITY × COMMITMENT

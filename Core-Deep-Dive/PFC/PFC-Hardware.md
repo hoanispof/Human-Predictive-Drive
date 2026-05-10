@@ -1,8 +1,9 @@
 ---
 title: PFC-Hardware — Individual Hardware Parameters
-version: 1.0
+version: 1.1
 created: 2026-04-19
-status: DRAFT v1.0
+updated: 2026-05-10 (v1.1 — §3.4-§3.5 COMT×Reward, §4.7-§4.8 DRD4×Reward+COMT×DRD4, §8b-§8c Receptor×Profiles+Shorthand)
+status: REFERENCE v1.1
 scope: |
   Hardware parameters tạo sự khác biệt PFC giữa các cá nhân.
   Focus: COMT, DRD4, NE receptors, Capacity/Quality.
@@ -231,6 +232,108 @@ IMPROVISER DRAFT MODE — COMT Val/Val (clear NHANH):
     → CẢ HAI cần thiết cho xã hội
 ```
 
+
+### §3.4 — COMT × Reward Pattern (v1.1 new — Drill R8)
+
+```
+🟡 COMT EXTEND: COGNITION → REWARD
+
+  §3 phân tích COMT cho COGNITION (draft management).
+  Drill R8 extends: COMT cũng ảnh hưởng REWARD patterns.
+
+  PFC draft management → reward timing + depth:
+
+  ┌──────────────────────┬──────────────────────────────────────────┐
+  │ Val/Val (Improviser) │ Met/Met (Specialist)                      │
+  ├──────────────────────┼──────────────────────────────────────────┤
+  │ ② MANY shallow       │ ② FEWER but DEEPER insights              │
+  │ insights → MANY      │ → FEWER but STRONGER rewards             │
+  │ micro-rewards        │                                          │
+  ├──────────────────────┼──────────────────────────────────────────┤
+  │ Afterglow: SHORT     │ Afterglow: LONG                          │
+  │ (draft clears →      │ (draft persists → re-derive →            │
+  │  next topic)         │  additional opioid pulses)               │
+  ├──────────────────────┼──────────────────────────────────────────┤
+  │ Cross-domain ②:      │ Cross-domain ②: HARDER                   │
+  │ NATURAL (workspace   │ (workspace occupied → new domain         │
+  │  clears → new domain)│  blocked by existing draft)              │
+  ├──────────────────────┼──────────────────────────────────────────┤
+  │ Flow: HARDER to      │ Flow: EASIER to sustain                  │
+  │ sustain (draft clears│ (draft persists → continuous             │
+  │ during flow →        │  coherence stream)                       │
+  │ interruption)        │                                          │
+  ├──────────────────────┼──────────────────────────────────────────┤
+  │ Compound: MORE VARIED│ Compound: LESS varied but DEEPER         │
+  │ (many domains)       │ (same domain = deep stack)               │
+  ├──────────────────────┼──────────────────────────────────────────┤
+  │ Risk: "dopamine      │ Risk: "stuck in rut"                     │
+  │ chasing" — jump to   │ (can't escape domain even when           │
+  │ next novelty before  │  diminishing returns)                    │
+  │ depth compiles       │                                          │
+  └──────────────────────┴──────────────────────────────────────────┘
+
+  Val/Met Heterozygous (~50% population):
+    → Context-dependent switching → FLEXIBLE reward pattern.
+    → Can flow AND explore depending on state.
+
+  ⭐ KEY INSIGHT:
+    "Improviser gets BORED not because reward is LOW — because DRAFT CLEARS
+    before depth compiles. Specialist gets STUCK not because curiosity is
+    LOW — because draft WON'T CLEAR for new domain."
+    → ≠ personality trait → = HARDWARE managing DRAFTS differently
+
+  → Chi tiết reward types: Reward-Signal-Architecture.md §4 (5 Profiles)
+  🟡 COMT × Reward extension = inferred from COMT × Cognition, not directly tested.
+  Source: Drill §3.22 ❸ (R8).
+```
+
+
+### §3.5 — COMT × Childhood Compilation (v1.1 new — Drill R8)
+
+```
+🟡 HARDWARE × CHILDHOOD = 4 REWARD TRAJECTORIES:
+
+  COMT sets RANGE (how fast drafts clear).
+  Childhood P5 tags set DIRECTION (approach vs avoidance).
+  Combination → 4 distinct reward life trajectories:
+
+  ┌────────────────────┬──────────────────────┬──────────────────────┐
+  │ Combination        │ Reward Life          │ Implication          │
+  ├────────────────────┼──────────────────────┼──────────────────────┤
+  │ Met/Met + approach │ DEEP FLOW expert     │ Best case for ②      │
+  │ childhood          │ (draft stays +       │ Sustainable decades  │
+  │                    │ approach-tagged)      │                      │
+  ├────────────────────┼──────────────────────┼──────────────────────┤
+  │ Met/Met + avoidance│ RIGID ANXIETY        │ Draft stuck +        │
+  │ childhood          │ (cannot escape +     │ threat-tagged =      │
+  │                    │ threat-tagged domain)│ WORST combination    │
+  ├────────────────────┼──────────────────────┼──────────────────────┤
+  │ Val/Val + approach │ CREATIVE EXPLORER    │ Breadth + approach   │
+  │ childhood          │ (jumps freely +      │ = versatile joy      │
+  │                    │ approach-tagged)      │                      │
+  ├────────────────────┼──────────────────────┼──────────────────────┤
+  │ Val/Val + avoidance│ SCATTERED ANXIETY    │ Jump + avoid = chaos │
+  │ childhood          │ (drafts clear +      │ Nothing feels safe   │
+  │                    │ threat-tagged)        │ or deep enough       │
+  └────────────────────┴──────────────────────┴──────────────────────┘
+
+  ⭐ SAME hardware, DIFFERENT childhood = COMPLETELY DIFFERENT reward life.
+  → Hardware sets RANGE. Childhood sets DIRECTION within range.
+  → = "Nature sets the instrument. Nurture plays the tune."
+
+  Implications:
+    → Met/Met + avoidance = most urgently needs intervention
+      (draft stuck ON threat-tagged chunks → cannot escape anxiety loop)
+    → Val/Val + avoidance = chaotic but LESS stuck
+      (drafts clear → can encounter new approach-tagged experiences)
+    → Approach childhood = protective for BOTH COMT variants
+    → Avoidance childhood = damaging for BOTH, worse for Met/Met
+
+  → Chi tiết childhood P5 tags: Compile-Taxonomy.md §3, Reward-Signal-Architecture.md §8.4
+  🟡 COMT × Childhood = framework synthesis, observational consistency.
+  Source: Drill §3.22 ❺ (R8).
+```
+
 ---
 
 ## §4 — DRD4: Chunk Threshold
@@ -352,6 +455,88 @@ IMPROVISER DRAFT MODE — COMT Val/Val (clear NHANH):
 
   → Nếu predict đúng = confirm hypothesis
   → Nếu predict sai = cần revise
+```
+
+
+### §4.7 — DRD4 × Reward Profile (v1.1 new — Drill R8)
+
+```
+🔴 DRD4 HYPOTHESIS D × REWARD (extending §4.3):
+
+  DRD4-7R = HIGH chunk threshold (detects LARGE chunks only).
+  DRD4-4R = LOW chunk threshold (detects small chunks).
+
+  Extension to REWARD patterns (IF Hypothesis D correct):
+
+    7R: ② rewards RARE but INTENSE ("AHA!" type)
+        Sensory: need STRONGER stimulus for same pleasure
+        Flow: once IN flow MORE intense, getting INTO flow HARDER
+        Domain: NEEDS deep chunk library → shallow domain = frustrate
+        Risk: "can't find anything interesting" if domain wrong
+
+    4R: ② rewards FREQUENT but MILD ("ồ..." — steady accumulation)
+        Sensory: mild stimulus sufficient
+        Flow: easier entry, less intense peak
+        Domain: satisfies across breadth → less domain-dependent
+        Risk: "content with surface" → may not develop depth
+
+  ⚠️ DRD4 = Hypothesis D (framework 🔴), NOT established.
+  BUT consistent with observed individual differences in reward intensity.
+  AND: Type B reward = hardware-level → NOT affected by DRD4
+    (B below VTA threshold system → "democratic reward").
+
+  → Chi tiết Type A/B: Reward-Signal-Architecture.md §1
+  Source: Drill §3.22 ❹ (R8).
+```
+
+
+### §4.8 — COMT × DRD4 Interaction (v1.1 new — Drill R8)
+
+```
+🔴 INTERACTION EFFECTS — WHY "TYPE" DESCRIPTIONS FAIL:
+
+  Simple trait psychology: "extrovert = high reward sensitivity."
+  Framework: reward sensitivity = 5-axis emergent →
+  trait descriptions = LOSSY COMPRESSION.
+
+  COMT × DRD4 → 4 COMPOUND REWARD PATTERNS:
+
+  ┌────────────────────┬──────────────────────┬──────────────────────┐
+  │ Combination        │ Reward Pattern       │ Popular Label        │
+  ├────────────────────┼──────────────────────┼──────────────────────┤
+  │ Val/Val + 7R       │ Clear fast + high    │ "Thrill seeker"      │
+  │                    │ threshold = NEED     │ Jumps to big novel   │
+  │                    │ novel BIG experiences│ experiences           │
+  ├────────────────────┼──────────────────────┼──────────────────────┤
+  │ Met/Met + 4R       │ Clear slow + low     │ "Obsessive expert"   │
+  │                    │ threshold = SATISFY  │ Deep within single   │
+  │                    │ within single domain │ domain               │
+  ├────────────────────┼──────────────────────┼──────────────────────┤
+  │ Val/Val + 4R       │ Clear fast + low     │ "Social butterfly"   │
+  │                    │ threshold = many     │ Many small rewards   │
+  │                    │ small rewards, none  │ from many domains    │
+  │                    │ deep                 │                      │
+  ├────────────────────┼──────────────────────┼──────────────────────┤
+  │ Met/Met + 7R       │ Clear slow + high    │ "Frustrated genius   │
+  │                    │ threshold = draft    │  or true genius"     │
+  │                    │ stuck + needs BIG    │ BIMODAL: highest     │
+  │                    │ chunks              │ genius OR highest    │
+  │                    │                      │ frustration          │
+  └────────────────────┴──────────────────────┴──────────────────────┘
+
+  ⭐ Met/Met + 7R = MOST EXTREME BIMODAL:
+    → IF domain right + deep chunks: draft persists + big threshold met
+      = DEEPEST flow, most intense ②, most productive
+    → IF domain wrong + shallow: draft stuck + threshold never met
+      = HIGHEST frustration, most miserable
+
+  → = "Tài năng" hay "khổ sở" = SAME hardware, khác DOMAIN FIT
+  → = Counseling implication: Met/Met + 7R NEEDS right domain most urgently
+
+  ⚠️ COMT × DRD4 interaction = framework reasoning, NOT tested.
+  ⚠️ DRD4 = Hypothesis D (🔴). COMT × DRD4 = 🔴 × 🔴 = highly speculative.
+  ⚠️ "Popular labels" = ILLUSTRATIVE, not clinical categories.
+  Source: Drill §3.22 ❺ (R8).
 ```
 
 ---
@@ -622,6 +807,97 @@ TÓM GỌN VÒNG LẶP:
   = "PFC profile" = tổ hợp DRD4 × COMT × α2/α1 sensitivity × PFC-Quality
 ```
 
+
+### §8b — 4 Receptor Systems × 5 Reward Profiles (v1.1 new — Drill R8)
+
+```
+🟡 HARDWARE ẢNH HƯỞNG REWARD PROFILES KHÁC NHAU:
+
+  §8 shows 4 receptor systems × PFC function (cognition).
+  §8b extends: 4 systems + μ-opioid × 5 REWARD profiles:
+
+  ┌──────────────┬──────────────┬──────────────┬──────────────┬─────────────┐
+  │ Receptor     │ ① Sensory    │ ② Coherence  │ ③ Social     │ ④ Relief    │
+  │ System       │   Reward     │   Reward     │   Reward     │   Reward    │
+  ├──────────────┼──────────────┼──────────────┼──────────────┼─────────────┤
+  │ COMT         │ Low impact   │ HIGH: clear  │ Moderate     │ Low impact  │
+  │ (PFC clear   │ (sensory =   │ speed → ②    │ (social eval │ (cortisol   │
+  │  speed)      │ below PFC)   │ develop speed│ = PFC-partly)│ system)     │
+  ├──────────────┼──────────────┼──────────────┼──────────────┼─────────────┤
+  │ DRD4         │ Low impact   │ HIGH: chunk  │ Moderate     │ Low impact  │
+  │ (Hypothesis  │ (sensory not │ threshold →  │ (social cues │ (not VTA-   │
+  │  D threshold)│ VTA-gated)   │ "AHA" vs "ồ" │ = VTA delta) │ gated)      │
+  ├──────────────┼──────────────┼──────────────┼──────────────┼─────────────┤
+  │ MAO-A        │ Moderate     │ Moderate     │ HIGH: mood   │ HIGH: base  │
+  │ (mood global │ (sensory     │ (sustained   │ stability →  │ cortisol ↔  │
+  │  stability)  │ valence)     │ affect mood) │ social resil.│ relief mag. │
+  ├──────────────┼──────────────┼──────────────┼──────────────┼─────────────┤
+  │ NE α2/α1     │ Low impact   │ HIGH: PFC    │ HIGH: threat │ HIGH: NE ↔  │
+  │ (circuit     │              │ stability →  │ assessment → │ cortisol →  │
+  │  breaker)    │              │ flow access  │ social threat│ relief sens.│
+  ├──────────────┼──────────────┼──────────────┼──────────────┼─────────────┤
+  │ μ-Opioid     │ HIGHEST      │ HIGH         │ HIGH         │ Moderate    │
+  │ receptor     │ (A₀-A₃ all   │ (coherence   │ (social bond │ (relief =   │
+  │ density      │ opioid)      │ → opioid)    │ opioid-aided)│ cortisol    │
+  │              │              │              │              │ primarily)  │
+  └──────────────┴──────────────┴──────────────┴──────────────┴─────────────┘
+
+  ⭐ TYPE B (touch, warmth, exercise) = LESS affected by ALL receptor systems:
+    → B = non-opioid, non-PFC, hardware-level pathways
+    → B reward = MORE EGALITARIAN across individuals
+    → Hardware individual differences = primarily TYPE A variation
+    → B = evolution's EQUALIZER ("democratic reward")
+
+  → Type A: μ-opioid density + COMT + DRD4 → HIGHLY variable
+  → Type B: CT afferent density varies LESS across individuals
+  → = WHY body-based reward (touch, exercise) is "democratic"
+
+  ⚠️ μ-opioid receptor density = 🟡 consistent with pharmacological
+  literature but individual variation poorly mapped.
+  ⚠️ Table = framework synthesis, NOT established receptor-by-profile mapping.
+  Source: Drill §3.22 ❷ (R8).
+```
+
+
+### §8c — 3-Variable Shorthand (v1.1 new — Drill R8)
+
+```
+🟡 PRACTICAL DESCRIPTION — 3-Variable Profile:
+
+  Full model (5 profiles × 5 axes = 25 cells) = too complex for daily use.
+  COMPRESSED DESCRIPTION uses 3 variables:
+
+  ┌──────────────────────────────────────────────────────────┐
+  │ ① A/B Ratio:   Where on Type A ↔ Type B spectrum        │
+  │ ② Dom. Profile: Which of 5 profiles (①②③④⑤) STRONGEST  │
+  │ ③ Breadth:      How many profiles ACTIVE (narrow ↔ broad)│
+  └──────────────────────────────────────────────────────────┘
+
+  EXAMPLES (illustrative, NOT measured):
+
+    Nhà vật lý: High A (90/10), Dominant ②, Moderate breadth (②+③+④)
+      → Intense coherence seeker, some social/relief, very little B
+
+    Đầu bếp: Balanced A/B (60/40), Dominant ①, Narrow (①+④)
+      → Sensory-driven, relief from completion, significant body reward
+
+    Nhà trị liệu: Moderate A (55/45), Dominant ③, Broad (①②③④⑤)
+      → Social reward primary, accesses ALL profiles
+
+    Vận động viên: Low A (30/70), Dominant B+④, Narrow
+      → Body-driven, relief from exertion, minimal coherence/social
+
+  → "Personality" re: reward = this 3-variable profile
+  → Simple "extrovert/introvert" = LOSSY COMPRESSION of 3 variables
+  → = Framework alternative to trait psychology for reward description
+
+  ⚠️ Cannot MEASURE precisely yet — organizing framework.
+  ⚠️ Illustrative examples = framework reasoning, not clinical data.
+  → Chi tiết reward profiles: Reward-Signal-Architecture.md §4
+  → Chi tiết 5-axis model: Reward-Signal-Architecture.md §8.5
+  Source: Drill §3.22 ❽ (R8).
+```
+
 ---
 
 ## §9 — Honest Assessment
@@ -648,6 +924,11 @@ TÓM GỌN VÒNG LẶP:
   VTA = delta detector (habituation) — prediction delta, không phải "prediction error" calculator
   PFC spotlight = tăng volume, không ra lệnh tính toán
   7-step VTA detection loop — novel integration
+  COMT × Reward pattern (§3.4) — extension from cognition to reward domain (v1.1)
+  COMT × Childhood trajectories (§3.5) — 4 combos, framework synthesis (v1.1)
+  4 Receptor Systems × 5 Profiles (§8b) — cross-mapping, not established (v1.1)
+  3-Variable Shorthand (§8c) — practical but lossy compression (v1.1)
+  Type B "democratic reward" — less hardware-variable (v1.1)
 
 🔴 NEEDS MORE RESEARCH:
   DRD4 Hypothesis D (chunk threshold) — testable, chưa ai test
@@ -655,6 +936,17 @@ TÓM GỌN VÒNG LẶP:
   MAO-A × COMT interaction — limited data
   Individual α2/α1 sensitivity variance — not well characterized
   Quantitative: bao nhiêu chunk size = vượt 7R threshold?
+  COMT × DRD4 interaction patterns (§4.8) — framework 🔴×🔴, highly speculative (v1.1)
+  DRD4 × Reward profiles (§4.7) — depends on Hypothesis D validity (v1.1)
+  μ-opioid individual density variation — poorly mapped (v1.1)
+
+🔴 TESTABLE PREDICTIONS (v1.1):
+  P-R8a: COMT Val/Val → shorter flow, more domain-switches
+    → Met/Met → longer flow, fewer domain switches
+  P-R8b: Type B reward sensitivity has LOWER individual variance than Type A
+    → B SD < A SD (B = hardware, A = compilation-dependent)
+  P-R8d: Met/Met + 7R = HIGHEST variance in life satisfaction
+    → BIMODAL: very high (right domain) OR very low (wrong domain)
 ```
 
 ---
@@ -662,16 +954,37 @@ TÓM GỌN VÒNG LẶP:
 ## §10 — Cross-References
 
 ```
-PFC FUNCTIONS:       PFC-Function.md — 24 observable functions
-PFC DEVELOPMENT:     PFC-Development.md — life stages + training
-PFC HOLD ANALYSIS:   PFC-Hold-Dimensions.md — tại sao ~4±1
-PHYSICAL MAP:        Neural-Architecture.md §2 — sub-regions, connectivity
-CORTISOL:            Cortisol-Baseline.md v2.0 — cortisol affects PFC
-CORE ARCHITECTURE:   Core-v7.8-Draft.md §6 — PFC trong cycle
-DOPAMINE:            Dopamine-Reward-Rejection.md — Berridge, wanting ≠ liking
-LIKING-WANTING:      Liking-Wanting.md — wanting × liking mechanisms
-CHUNK SUBSTRATE:     Chunk.md v2.0 — chunks PFC operates on
-BODY-FEEDBACK:       Body-Feedback.md — body signals + H10
+PFC FOLDER:
+  PFC-Function.md v1.1 — 24 observable functions
+  PFC-Configuration.md v1.0 — 6 dynamic modes, survival matrix (v1.1 NEW)
+  PFC-Development.md — life stages + training
+  PFC-Hold-Dimensions.md — tại sao ~4±1
+
+PHYSICAL MAP:
+  Neural-Architecture.md §2 — sub-regions, connectivity
+
+REWARD (v1.1 NEW):
+  Reward-Signal-Architecture.md v1.0 — Type A/B, 5 Profiles, A₀→A₃
+    → §3.4 COMT×Reward maps to RSA §4 (profiles)
+    → §8b Receptor×Profiles maps to RSA §8.5 (individual differences)
+  03-Reward.md — H10 preconditions, 7-step VTA
+  Dopamine-Reward-Rejection.md — Berridge, wanting ≠ liking
+  Liking-Wanting.md — wanting × liking mechanisms
+
+COMPILATION (v1.1 NEW):
+  Compile-Taxonomy.md v1.0 §3 — 4 pathways → 4 P5 tag types
+    → §3.5 COMT×Childhood maps to 4-Pathway × P5 Tag Model
+
+BODY SYSTEMS:
+  Cortisol-Baseline.md v2.0 — cortisol affects PFC function
+  Body-Feedback.md — body signals + H10
+
+CORE:
+  Core-v7.8-Draft.md §6 — PFC trong cycle architecture
+  Chunk.md v2.0 — chunks PFC operates on
+
+DRILL SOURCE (v1.1):
+  Drill-Reward-Feeling-Main.md v1.2 §3.22 (R8) — Individual Differences
 
 OLD FILE (backup):
   PFC/Imagination/backup/PFC-Analysis-v1.1.md §8 — source content
@@ -679,12 +992,13 @@ OLD FILE (backup):
 
 ---
 
-> **PFC-Hardware.md v1.0 DRAFT**
+> **PFC-Hardware.md v1.1**
 >
 > 4 receptor systems: DRD4 (threshold), COMT (clear speed), α2 (enhance), α1 (disconnect).
 > PFC-Quality = resolution × filter × retrieval × compression (per-slot).
 > Observed Capacity = Hardware × Chunks × Cortisol × Context.
 > Improviser vs Specialist = COMT draft management, không phải reward sensitivity.
-> "PFC profile" = tổ hợp hardware parameters cá nhân.
+> v1.1: COMT×Reward, COMT×Childhood, DRD4×Reward, COMT×DRD4 interaction,
+>   4 Receptors × 5 Profiles, 3-Variable Shorthand, Type B "democratic reward."
 >
-> Phiên bản: v1.0, 2026-04-19.
+> Phiên bản: v1.1, 2026-05-10.

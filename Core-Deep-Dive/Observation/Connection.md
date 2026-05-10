@@ -1906,6 +1906,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Body-Coupling.md v1.0 — coupling mechanism (extends §3.3 ❸ + 2-luồng):
       2D model, 3 Phase, extension/entanglement/neutral, system compilation
     → Empathy.md — SPM function, 3 mechanisms, spectrum
+    → Reward-Signal-Architecture.md v1.0 — reward Type A/B aligned with 2-luồng (2026-05-10)
     → Chunk.md v2.0 — chunk substrate, compilation
     → Anchor-Schema.md — sync point, Trust, 4 nguồn
     → Body-Feedback-Mechanism.md — Chunk-Miss / Chunk-Gap / Chunk-Shift / Compound

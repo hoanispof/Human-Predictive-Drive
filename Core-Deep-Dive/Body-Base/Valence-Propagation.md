@@ -1726,6 +1726,8 @@ CROSS-REFERENCES:
     → Body-Input-Enumeration.md — reframe L0-L3, body-inputs chi tiết
     → Schema.md §1-§1.2 — schema = chunks + links + purpose, KHÔNG THỂ phân tích
     → Chunk.md v2.0 — chunk substrate, multi-modal binding, compile dynamics
+    → Reward-Signal-Architecture.md v1.0 — Type A/B × valence: A = evaluative valence,
+      B = direct state valence. Valence propagation = primarily Type A territory (2026-05-10)
     → Chunk.md v2.0 §3 — 4 loại connections (§5b Tầng 1 EXIST) ← MỚI v1.1
 
   MECHANISM:
