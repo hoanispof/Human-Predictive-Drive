@@ -52,23 +52,34 @@ Nếu muốn đọc trực tiếp (không qua AI): bắt đầu từ **Core-Inte
 ```
 Human-Predictive-Drive/
 │
-├── Core-Interface.md            — Bản đồ cho mọi người (bắt đầu ở đây)
+├── Core-Interface.md              — Bản đồ cho mọi người (bắt đầu ở đây)
+├── Core-Hardware.md               — Kiến trúc vật lý não bộ
+├── Core-Software.md               — Cơ chế hoạt động chi tiết
 │
-├── Ask-AI.md                    — Hướng dẫn AI tương tác với người dùng
-├── Ask-AI-Deep-Read.md          — Hướng dẫn AI đọc sâu framework
+├── Ask-AI.md                      — Hướng dẫn AI tương tác với người dùng
+├── Ask-AI-Deep-Read.md            — Hướng dẫn AI đọc sâu framework
 │
-├── Core-Hardware.md             — Kiến trúc vật lý não bộ
-├── Core-Software.md             — Cơ chế hoạt động chi tiết
+├── Core-Deep-Dive/                — Phân tích chi tiết từng cơ chế
+│   ├── 01-File-Index.md           — Index toàn bộ files
+│   ├── Observation/               — 15 files: Novelty, Threat, Connection, Meaning, Empathy...
+│   ├── Body-Base/                 — Chunk, Feeling, Body-Feedback, Schema, Melody Lens
+│   ├── PFC/                       — PFC Function/Hardware/Config, Logic-Feeling, Imagination
+│   ├── Domain/                    — Thực tế bên ngoài, conflict, knowledge flow
+│   └── Clarification/            — 4 vị trí framework khác mainstream
 │
-├── Core-Deep-Dive/              — Phân tích chi tiết từng cơ chế
-│   ├── Observation/             — Novelty, Drive, Status, Connection, Empathy, Meaning...
-│   ├── Body-Base/               — Chunk system, Feeling, Body-Feedback, Schema...
-│   ├── PFC/                     — Chức năng PFC, Logic-Feeling, Imagination
-│   ├── Clarification/           — 4 file clarify vị trí khác mainstream
-│   └── Domain/                  — Thực tế bên ngoài, conflict, knowledge flow
+├── Research/                      — Nghiên cứu ứng dụng + mở rộng
+│   ├── 01-File-Index.md           — Index toàn bộ files
+│   ├── Child-Development/         — Cơ chế phát triển trẻ 0-6 + thực hành
+│   ├── Education/                 — Cơ chế giáo dục + bản đồ kiến thức
+│   ├── Global/                    — Human-AI Future, Birth-Rate Decline (6 quốc gia)
+│   ├── Hijack/                    — Addiction, alcohol analysis
+│   ├── Melody-Technology/         — Religion, idol phenomenon
+│   ├── Meta-Impact/               — Framework predict tác động của chính nó
+│   └── ...                        — Mismatch, Neuro-Measurement, Love, OCD, Climate
 │
-├── Research/                    — Nghiên cứu mở rộng: Love, OCD, Child-Dev, Climate...
-└── Applications/                — Ứng dụng: HR, Relationships, Education
+└── Applications/                  — Ứng dụng cụ thể per domain
+    ├── 01-File-Index.md           — Index toàn bộ files
+    └── Education/                 — Hệ thống giáo dục + VN case study
 ```
 
 ---
@@ -115,7 +126,7 @@ Claude Opus (1M context) cho kết quả tốt nhất với framework này.
 
 **Ngôn ngữ:** Tiếng Việt chủ đạo + thuật ngữ chuyên môn tiếng Anh.
 
-**Quy mô:** ~60 files phân tích, ~60,000+ dòng, version 7.8 (2026).
+**Quy mô:** ~170 files phân tích, ~120,000+ dòng, version 7.8 (2026).
 
 **Bản quyền:** Framework này thuộc sở hữu của tất cả mọi người.
 

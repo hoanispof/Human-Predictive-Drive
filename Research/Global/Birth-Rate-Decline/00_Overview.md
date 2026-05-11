@@ -9,15 +9,16 @@
 
 ---
 
-> **Trạng thái:** v2.0 — framework analysis + 6 case studies hoàn thành
-> **Ngày:** 2026-03-31 (updated: post-analysis)
+> **Trạng thái:** v2.1 — framework analysis + 6 case studies hoàn thành + cross-refs v7.8
+> **Ngày:** 2026-03-31 (updated: 2026-05-11 cross-refs)
 > **Mục đích:** Phân tích tổng thể hiện tượng giảm tỉ lệ sinh toàn cầu
 > qua lens framework. Tổng hợp insights từ 6 case studies chuyên sâu.
-> **Reference:** Cortisol-Baseline.md (repair cycle, §3 + §10.5 misconception),
+> **Reference:** Cortisol-Baseline.md v2.0 (repair cycle, §3 + §10.5 misconception),
 > Imagine-Final.md §1 (competing Imagine-Finals, PFC reactive),
-> Connection.md §7.5 (Connection × Imagine-Final per layer),
+> Connection.md v3.1 §12 (Connection × Imagine-Final),
 > Conflict-Dynamics.md §7 (scarcity = engine),
-> Education-Bridge.md (compiled schemas từ tuổi thơ)
+> Education-Mechanism.md §3.1 (bridge = nguồn ④ External Inject),
+> Collective-Body.md v1.1 (collective-level schema compile, Type C install)
 > **⚠️ Phân tích DỰA TRÊN framework hypothesis — cần cross-validate với data thực**
 > **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
 
@@ -29,21 +30,21 @@
 ⭐ THAY ĐỔI CƠ BẢN NHẤT TRONG LỊCH SỬ LOÀI NGƯỜI:
 
   TRƯỚC (nông nghiệp, trước công nghiệp):
-    Con cái = phục vụ body-base MỌI LAYER:
-      L0: nhiều con = nhiều người BẢO VỆ
-      L1: nhiều con = nhiều LAO ĐỘNG (ruộng, chăn nuôi)
-      L2 Connection: đại gia đình = connection MẠNH
-      L3 Status: nhiều con = ĐƯỢC CỘNG ĐỒNG kính trọng
-    → Con = ASSET (tài sản) ở MỌI layer
+    Con cái = phục vụ body-base NHIỀU observation parameter:
+      Survival: nhiều con = nhiều người BẢO VỆ
+      Economic: nhiều con = nhiều LAO ĐỘNG (ruộng, chăn nuôi)
+      Connection: đại gia đình = connection MẠNH
+      Status: nhiều con = ĐƯỢC CỘNG ĐỒNG kính trọng
+    → Con = ASSET (tài sản) ở MỌI chiều body-base
     → Imagine-Final MẶC ĐỊNH: "lập gia đình → sinh con" (không có option khác)
     → PFC KHÔNG CẦN deliberate — body-base + xã hội cùng hướng
 
   SAU (hiện đại):
-    Con cái KHÔNG CÒN phục vụ L0/L1:
-      L0: nhà nước bảo vệ → không cần con
-      L1: kinh tế tiền tệ → con = CHI PHÍ, không phải lao động
-      L2: vẫn có — nhưng NHIỀU nguồn connection khác
-      L3: status từ career, tiền, không chỉ từ con
+    Con cái KHÔNG CÒN phục vụ survival/economic:
+      Survival: nhà nước bảo vệ → không cần con
+      Economic: kinh tế tiền tệ → con = CHI PHÍ, không phải lao động
+      Connection: vẫn có — nhưng NHIỀU nguồn connection khác
+      Status: status từ career, tiền, không chỉ từ con
     → Con = COST (chi phí) nhiều hơn ASSET
     → Imagine-Final: "sinh con" phải CẠNH TRANH với career / tự do / sáng tạo / ...
     → PFC PHẢI deliberate — và thường tính: cost > benefit
@@ -81,6 +82,9 @@
     → Chính bản thân: bị ép học, thiếu connection, tuổi thơ khó chịu
     → Chunks compile: "tuổi thơ = KHÓ CHỊU" → ngại lặp lại cho con
     → Bạn bè cùng thế hệ reinforce: "mệt quá, áp lực quá" → schema MẠNH hơn
+    → ⭐ Collective-Body.md v1.1: schema "có con = khổ" lan ở Cấp 2 (collective)
+      → Compile Taxonomy Type C: installed từ collective, không cần trải nghiệm cá nhân
+      → VD: TQ "1 con = bình thường" = Type C installed qua 35 năm policy
 
   ⑤ CONNECTION SUY GIẢM (nuôi con CÔ ĐƠN hơn)
     → Xưa: đại gia đình + cả làng nuôi con → CHIA TẢI
@@ -99,20 +103,20 @@
   ┌───────────────────┬────────────┬────────────────────────────────────┐
   │ Giai đoạn         │ Birth rate │ Framework explanation               │
   ├───────────────────┼────────────┼────────────────────────────────────┤
-  │ NGHÈO             │ CAO        │ Con = L1 asset + không contraception│
-  │ (L0/L1 threat)    │ (4-7)      │ + Imagine-Final duy nhất = gia đình│
-  │                   │            │ + PFC không deliberate              │
+  │ NGHÈO             │ CAO        │ Con = economic asset + không       │
+  │ (survival threat) │ (4-7)      │ contraception + Imagine-Final duy  │
+  │                   │            │ nhất = gia đình + PFC không delib. │
   ├───────────────────┼────────────┼────────────────────────────────────┤
   │ ĐANG PHÁT TRIỂN   │ GIẢM DẦN  │ Con bắt đầu = cost                 │
-  │ (L1 improving)    │ (2-4)      │ + Contraception có + PFC deliberate│
+  │ (economic rising) │ (2-4)      │ + Contraception có + PFC deliberate│
   │                   │            │ + Bắt đầu có competing Imagine-Final│
   ├───────────────────┼────────────┼────────────────────────────────────┤
   │ PHÁT TRIỂN        │ THẤP       │ Competing Imagine-Finals NHIỀU     │
-  │ (L1 met)          │ (1.3-1.8)  │ + Investment cost CAO              │
+  │ (economic met)    │ (1.3-1.8)  │ + Investment cost CAO              │
   │                   │            │ + Repair cycle bị phá (overwork)   │
   ├───────────────────┼────────────┼────────────────────────────────────┤
   │ RẤT PHÁT TRIỂN    │ RẤT THẤP  │ Individual Imagine-Final dominant   │
-  │ (L1-L3 options)   │ (0.7-1.3)  │ + Con = opportunity cost CỰC LỚN  │
+  │ (many options)    │ (0.7-1.3)  │ + Con = opportunity cost CỰC LỚN  │
   │                   │            │ + Schemas "có con = khổ" compiled  │
   └───────────────────┴────────────┴────────────────────────────────────┘
 
@@ -226,7 +230,7 @@
   ⭐ KHI NÀO HUMAN MUỐN SINH — body-base perspective:
 
     Body muốn sinh KHI:
-      → L0/L1: AN TOÀN CƠ BẢN (không sợ chết đói, có nhà ở)
+      → Survival + economic: AN TOÀN CƠ BẢN (không sợ chết đói, có nhà ở)
       → REPAIR cycle: LÀNH MẠNH (ngủ đủ, có downtime, không burnout)
       → Connection: CÓ HỖ TRỢ (không nuôi con CÔ ĐƠN)
       → Imagine-Final "gia đình": CÓ GIÁ TRỊ (không bị override bởi cost)
@@ -234,7 +238,7 @@
       → = Body signal tổng: "ĐỦ ĐIỀU KIỆN cho thế hệ sau"
 
     Body KHÔNG muốn sinh KHI:
-      → L1 threat mãn tính (tài chính bất an)
+      → Economic threat mãn tính (tài chính bất an)
       → Repair cycle phá (overwork + ngủ kém)
       → Connection thiếu (nuôi con = gánh 1 mình)
       → Competing Imagine-Finals mạnh hơn (career > gia đình)
@@ -279,7 +283,7 @@
   ⚠️ GIẢI PHÁP KHÔNG HIỆU QUẢ (mainstream thường dùng):
 
     ❌ Cho tiền mỗi lần sinh:
-      → = Carrot bridge (Education-Bridge §2) → inflation → mất hiệu lực
+      → = Carrot bridge (Education-Mechanism §3.1, nguồn ④) → inflation → mất hiệu lực
       → Không fix gốc (5 trục vẫn nguyên)
       → VD: Hàn cho ~$100K/con → VẪN 0.7 → tiền KHÔNG ĐỦ fix schemas + cost
 

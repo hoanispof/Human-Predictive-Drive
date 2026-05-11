@@ -1,12 +1,15 @@
-# Climate & Cognition — Khí Hậu Ảnh Hưởng Tư Duy Sáng Tạo
+# Climate & Cognition — Nhiệt Độ Ảnh Hưởng PFC Như Thế Nào
 
-> **Trạng thái:** GIẢ THIẾT — Suy luận từ framework + dẫn chứng rời rạc
-> **Ngày:** 2026-03-22
-> **Mục đích:** Phân tích giả thiết "vùng khí hậu lạnh/mát thuận lợi hơn cho tư duy sáng tạo"
-> **Reference:** Core-v7-UD.md (Container, Body Baseline, PFC),
-> Reward-Dual-System.md (Imagine System vs Body System),
-> Imagination-Analysis.md (PFC workspace), Drive-Optimization.md (Pressure + Challenge),
-> Chemical-Enhancement-Notes.md (PFC filter open/close)
+> **Phiên bản:** 1.0 (rewrite from GIẢ THIẾT 2026-03-22)
+> **Ngày cập nhật:** 2026-05-11
+> **Trạng thái:** GIẢ THIẾT + RESEARCH SUPPORT — suy luận từ framework, được củng cố bằng data
+> **Mục đích:** Phân tích cơ chế nhiệt độ ảnh hưởng cognition qua lens framework v7.8.
+> Không chỉ "lạnh = sáng tạo" — mà: nhiệt độ modulate PFC capacity qua body-state pathway.
+> **Phụ thuộc:** Core-Software.md v1.0, Core-Hardware.md v1.0,
+> Cortisol-Baseline.md v2.0, Body-Feedback-Mechanism.md v1.2,
+> Reward-Signal-Architecture.md v1.0, PFC-Configuration.md v1.0,
+> Body-Base.md v2.0, Innovation-Geography.md v1.0
+> **Bản cũ:** Research/backup/Climate-Cognition.md (GIẢ THIẾT 2026-03-22)
 > **⚠️ Đây là SUY LUẬN — không phải kết luận khoa học.**
 > **⚠️ Correlation ≠ Causation. Nhiều confounding variables (colonialism, institutions, trade).**
 > **Quy ước:** 🟢 Có research/data support | 🟡 Suy luận từ framework | 🔴 Giả thuyết thuần
@@ -15,20 +18,22 @@
 
 ## Mục Lục
 
-1. [Quan Sát Ban Đầu — Pattern Có Thật Không?](#1-observation)
-2. [3 Cơ Chế Framework Giải Thích](#2-mechanisms)
-3. [Cơ Chế 1: Pressure — Lạnh Ép Plan](#3-pressure)
-4. [Cơ Chế 2: Body State — Lạnh Tạo Điều Kiện Tối Ưu Cho PFC](#4-body-state)
-5. [Cơ Chế 3: Imagine System — Lạnh Đẩy Entertainment Vào Đầu](#5-imagine)
-6. [Confounding Variables — Tại Sao Không Thể Kết Luận "Lạnh = Sáng Tạo"](#6-confounds)
-7. [Counter-Examples — Phản Ví Dụ Quan Trọng](#7-counter)
-8. [Ứng Dụng — Nếu Đúng, Có Gì Quan Trọng?](#8-applications)
-9. [Câu Hỏi Mở](#9-questions)
-10. [Kết Nối](#10-connections)
+1. [Quan Sát — Pattern Có Thật Không?](#1-observation)
+2. [Research Data — Nhiệt Độ & Não Bộ](#2-research)
+3. [3 Cơ Chế Framework](#3-mechanisms)
+4. [Cơ Chế 1: Pressure — Lạnh Ép Plan](#4-pressure)
+5. [Cơ Chế 2: Body State — Nhiệt Độ Modulate PFC](#5-body-state)
+6. [Cơ Chế 3: Reward Balance — Type A vs Type B Theo Khí Hậu](#6-reward)
+7. [Confounding Variables](#7-confounds)
+8. [Counter-Examples](#8-counter)
+9. [Ứng Dụng](#9-applications)
+10. [Câu Hỏi Mở](#10-questions)
+11. [Honest Assessment](#11-assessment)
+12. [Kết Nối](#12-connections)
 
 ---
 
-## 1. Quan Sát Ban Đầu — Pattern Có Thật Không? {#1-observation}
+## 1. Quan Sát — Pattern Có Thật Không? {#1-observation}
 
 ### 1.1 Nhìn 500 năm gần — CÓ VẺ ĐÚNG
 
@@ -76,6 +81,7 @@
 
   → "Lạnh = sáng tạo" = RECENCY BIAS
   → Pattern thật = phức tạp hơn nhiều
+  → Xem Innovation-Geography.md v1.0: trade hub + chunks = PRIMARY driver
 ```
 
 ### 1.3 Kết luận bước 1
@@ -84,40 +90,238 @@
 🟢 CÓ correlation gần đây giữa vùng ôn đới và innovation output
 🔴 KHÔNG CÓ universal law "lạnh = sáng tạo"
 🟡 Khí hậu CÓ THỂ là 1 trong nhiều factors — KHÔNG phải factor quyết định
+
+Scale matters (Innovation-Geography.md v1.0 §8):
+  MACRO (innovation geography lịch sử): climate weight ~5-10% (chunks + trade dominate)
+  MICRO (individual daily performance): climate weight ~25-35% (body state matters)
+→ File này focus chủ yếu vào MICRO — tại sao NHIỆT ĐỘ ảnh hưởng CÁ NHÂN
 ```
 
 ---
 
-## 2. 3 Cơ Chế Framework Giải Thích {#2-mechanisms}
+## 2. Research Data — Nhiệt Độ & Não Bộ {#2-research}
+
+### 2.1 Đường cong U ngược — CONFIRMED
 
 ```
-Framework đề xuất 3 cơ chế khí hậu ẢNH HƯỞNG cognition:
+🟢 Meta-analysis confirmed: inverted U-shaped curve
 
-  Cơ chế 1 — PRESSURE:
+  OPTIMAL RANGE: ~20-24°C cho PFC-dependent tasks (Seppänen et al. 2006)
+
+  Performance
+      ↑
+      │         ╭──────╮
+      │        ╱  22°C  ╲         ← PEAK
+      │       ╱          ╲
+      │      ╱  18-26°C   ╲      ← Plateau (simple tasks)
+      │     ╱  20-24°C     ╲     ← Narrow peak (complex tasks)
+      │    ╱                ╲
+      │   ╱                  ╲
+      │──╱────────────────────╲──→ Temperature
+         -10°C   22°C      40°C
+
+  2 models:
+    Classic inverted-U: single peak ~22°C, symmetric decline
+    Extended-U: broad plateau 18-26°C (simple tasks), narrow peak 20-24°C (complex tasks)
+
+  Evidence supports Extended-U:
+    Simple tasks (subcortical): BROAD tolerance → ít bị ảnh hưởng
+    Complex tasks (PFC-dependent): NARROW peak → dễ bị ảnh hưởng
+  → Consistent với Core-Hardware.md: Zone A (PFC) = slowest, most vulnerable
+```
+
+### 2.2 Cực nóng (35-45°C): PFC SHUTDOWN dần
+
+```
+🟢 Research data — multiple studies:
+
+  COGNITIVE PERFORMANCE:
+    Seppänen 2006: peak ở ~22°C. Ở 30°C: performance giảm 8.9%
+    Cedeño Laurent 2018 (PLOS Medicine): heat wave, không AC:
+      Working memory giảm 4.1-13.4%
+    Park 2020 (10 TRIỆU học sinh PSAT):
+      Mỗi +1°F nóng hơn cả năm học → 1% learning loss
+      → 5% racial achievement gap giải thích bởi differential heat exposure
+    Park 2018 (4.5 triệu exam NYC):
+      32°C vs 22°C → điểm thi giảm đáng kể
+
+  PFC-SPECIFIC — fMRI EVIDENCE:
+    Sundaram 2013 (PLOS ONE): hyperthermia →
+      PFC connectivity GIẢM + limbic connectivity TĂNG
+    → Não literally SHIFT từ PFC → survival circuits trong heat
+    → = PFC-Configuration (v1.0): heat extreme → shift HƯỚNG Config ④ (Disconnected)
+      (NE tăng → PFC functions offline dần)
+
+    Blood redirection: nóng → máu chuyển từ não → da để làm mát
+    → Global gray matter perfusion GIẢM (passive hyperthermia)
+    → PFC = "particularly vulnerable to temperature-related disruption"
+
+  CORE TEMPERATURE THRESHOLDS:
+    38.5°C core: complex cognition bắt đầu impaired
+    40.0°C core: blood-brain barrier VỠ → heat stroke → damage vĩnh viễn
+    → Neuroimaging months/years sau: cellular damage ở cerebellum, hippocampus, thalamus
+
+  NEUROTRANSMITTER CHANGES:
+    Cortisol: TĂNG (HPA axis activated)
+    → Cortisol-Baseline v2.0: Role ② AMPLIFIER — heat cortisol = amplify body signal
+    → NHƯNG: thermal cortisol = noise cho PFC, không phải useful signal
+    Norepinephrine: TĂNG (stress response)
+    Serotonin: TĂNG (thermoregulation role ở mPOA)
+    → Tổng thể: body state SHIFT sang threat-direction → PFC capacity giảm
+
+  TASK DIFFERENTIAL — INSIGHT QUAN TRỌNG (Hancock & Vasmatzidis 2003):
+    Task ĐƠN GIẢN (automated, subcortical):
+      → Ít bị ảnh hưởng, thậm chí CẢI THIỆN trong heat ngắn
+    Task PHỨC TẠP (PFC-dependent: planning, working memory, inhibition):
+      → Giảm MẠNH và SỚM
+    → = Core-Software.md: step ④ Feeling + ⑤ PFC = CẦN bandwidth, bị heat cắt trước
+    → = File cũ §4.6 ĐÚNG: Execute (compiled chunks chạy) = OK, Imagine = FAIL
+
+  DEHYDRATION COMPOUNDS:
+    Wittbrodt & Millard-Stafford 2018 (meta-analysis 33 studies):
+      >2% body weight loss: ES = -0.28
+      Attention: ES = -0.52 (strongest effect)
+    → Nóng → mất nước → compound effect lên PFC
+```
+
+### 2.3 Cực lạnh (-10°C đến -30°C): Reasoning & Memory DOWN
+
+```
+🟢 Research data:
+
+  COGNITIVE IMPAIRMENT:
+    Piil 2021 (systematic review): lạnh impair cognition trong 15/18 studies,
+      ngay cả TRƯỚC hypothermia lâm sàng
+    -10°C, 15 phút: decision-making kém hơn, reaction time chậm
+    <18.3°C (65°F): reasoning, learning, memory bị ảnh hưởng MẠNH NHẤT
+      (Pilcher et al. 2002)
+
+  HYPOTHERMIA STAGES:
+    35°C core (mild): shivering, fatigue, poor judgment, memory loss
+    34°C core: amnesia, altered judgment
+    33°C core: ataxia, apathy, cerebral blood flow GIẢM
+    <28°C core (severe): loss of consciousness risk
+
+  MECHANISM:
+    Cold-induced vasoconstriction → thermoreceptor input DIVERTS attentional resources
+    → Body-Feedback-Mechanism v1.2: thermal input = SENSORY-DRIVEN (Type B)
+    → Lạnh cực đoan = body-input CHIẾM DỤNG bandwidth → ít còn cho PFC
+
+  TUY NHIÊN — Cold exposure survival study (Taber 2016):
+    24 giờ cold exposure moderate → cognitive performance LARGELY MAINTAINED
+    → Gợi ý: body có adaptation/compensatory mechanisms khi cooling gradual
+```
+
+### 2.4 Asymmetry: Nóng và Lạnh phá HỆ KHÁC NHAU
+
+```
+🟢 Insight quan trọng — Pilcher et al. 2002 (meta-analysis 22 studies, 515 effect sizes):
+
+  NÓNG (>26.7°C / 80°F):
+    → Impair mạnh nhất: ATTENTION + MATH + PERCEPTUAL processing
+    → = PFC vigilance functions (Config ① Normal: monitoring, attention allocation)
+
+  LẠNH (<18.3°C / 65°F):
+    → Impair mạnh nhất: REASONING + LEARNING + MEMORY
+    → = PFC integration functions + hippocampal consolidation
+
+  → KHÔNG symmetric: nóng phá GIÁM SÁT, lạnh phá TỔNG HỢP
+  → Giải thích tại sao cả hai cực đều TỆ nhưng TỆ KIỂU KHÁC:
+    Nóng: "không tập trung được, lơ đãng, miss detail"
+    Lạnh: "tập trung được nhưng không suy luận sâu, quên nhanh"
+
+  Framework mapping (PFC-Configuration v1.0):
+    Nóng extreme → PFC functions giám sát (④⑰⑲ Self-Monitoring, ⑱ Inhibit) GIẢM TRƯỚC
+    Lạnh extreme → PFC functions tổng hợp (⑤⑥ Draft+Test, ⑫ Connect Chunks) GIẢM TRƯỚC
+    → = Heat shifts TOWARD survival (Config ④), Cold drains PROCESSING resources
+```
+
+### 2.5 Brief cold exposure — Paradox
+
+```
+🟢 Data bất ngờ — Sramek et al. 2000:
+
+  Ngâm nước 14°C, 1 giờ:
+    Norepinephrine: +530%
+    Dopamine: +250%
+    → Tỉnh táo hơn, alert hơn, attentive hơn, inspired hơn
+
+  fMRI (2023): cold water immersion →
+    TĂNG neural interaction PFC + anterior insula + anterior cingulate cortex
+    → = PFC connectivity TĂNG (ngược với heat!)
+
+  CRITICAL DISTINCTION:
+    Brief cold (phút → <1 giờ) = ENHANCE alertness (NE surge)
+    Prolonged cold (giờ+) = IMPAIR memory + attention (resource depletion)
+
+  Framework mapping:
+    Brief cold = body-input KÍCH THÍCH (Sensory-Driven) → NE tăng → PFC tạm BOOST
+    = Cortisol-Baseline v2.0: Role ① DIRECTION (approach, novelty) — NOT threat
+    → Body interpret cold ngắn = STIMULUS (approach) thay vì THREAT (avoidance)
+    Prolonged cold = body-input GÂY CẠN KIỆT → resource drain → PFC capacity GIẢM
+    = Cortisol-Baseline v2.0: Role ③ SUSTAINED THREAT — body chuyển sang avoidance
+```
+
+### 2.6 Gaoua 2012 — Bằng chứng mạnh nhất cho Double Calibration
+
+```
+🟢 KEY FINDING — Gaoua et al. 2012:
+
+  Setup: skin temperature tăng +3°C + thermal comfort giảm ~8 điểm (thang 20)
+  Result: complex task performance GIẢM
+
+  INSIGHT: CẢM GIÁC KHÓ CHỊU BẢN THÂN = cognitive load
+    → Skin temp + comfort PREDICT performance TỐT HƠN core temperature
+    → Không cần core temp tăng nhiều — chỉ cần body CẢM THẤY uncomfortable
+    → = Displeasure ITSELF occupies PFC bandwidth
+
+  Framework mapping (Body-Feedback-Mechanism v1.2):
+    Thermal discomfort = SENSORY-DRIVEN body-feedback (Type B input)
+    → Axis 1 (Direction): DISSONANCE (mismatch với preferred state)
+    → Axis 2 (Magnitude): vừa đủ để chiếm bandwidth, không đủ để emergency
+    → Axis 4 (Chunk Dynamics): CONTINUOUS → body signal liên tục → PFC liên tục phải process
+    → = Double Calibration Problem (§5.4): PFC workspace bị chia đôi
+
+  Đây CHÍNH XÁC là prediction của file cũ §4.5 — giờ có data confirm:
+    "PFC dùng bandwidth để THEO DÕI CHÍNH MÌNH thay vì IMAGINE"
+    = Gaoua 2012: thermal displeasure = cognitive load → complex performance DOWN
+```
+
+---
+
+## 3. 3 Cơ Chế Framework {#3-mechanisms}
+
+```
+Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
+
+  Cơ chế 1 — PRESSURE (§4):
     Lạnh → survival cần planning → PFC bị ÉP tập luyện
-    (Drive-Optimization.md: Pressure Layer)
+    (Drive.md: competition + pressure → innovation)
 
-  Cơ chế 2 — BODY STATE: ← insight mới
-    Lạnh + shelter → body state TỐI ƯU cho PFC hoạt động
-    (Core-v7-UD.md: Body Baseline)
+  Cơ chế 2 — BODY STATE (§5): ← insight mạnh nhất, có research support
+    Nhiệt độ modulate PFC capacity qua body-state pathway
+    (Cortisol-Baseline v2.0: cortisol = amplifier; Body-Feedback-Mechanism v1.2)
 
-  Cơ chế 3 — IMAGINE SYSTEM: ← insight mới
-    Lạnh + no bụng + ở trong nhà → imagination = entertainment CHÍNH
-    (Reward-Dual-System.md: Imagine System)
+  Cơ chế 3 — REWARD BALANCE (§6):
+    Climate shift balance giữa Type A (evaluative) vs Type B (direct state)
+    (Reward-Signal-Architecture v1.0: Type A cần PFC, Type B không cần)
 
-  3 cơ chế này CỘNG DỒN — không phải chọn 1:
-    Pressure ÉP nghĩ + Body State CHO PHÉP nghĩ + Imagine System THƯỞNG cho nghĩ
+  3 cơ chế CỘNG DỒN — không phải chọn 1:
+    Pressure ÉP nghĩ + Body State CHO PHÉP nghĩ + Reward Balance THƯỞNG cho nghĩ
     = Triple advantage cho tư duy
+
+  ⚠️ Đây là MICRO-LEVEL analysis (cá nhân, daily performance)
+  ⚠️ Ở MACRO-LEVEL: chunks + trade + institutions > climate (Innovation-Geography.md v1.0)
 ```
 
 ---
 
-## 3. Cơ Chế 1: Pressure — Lạnh Ép Plan {#3-pressure}
+## 4. Cơ Chế 1: Pressure — Lạnh Ép Plan {#4-pressure}
 
-### 3.1 Mùa đông = pressure cyclical buộc PFC plan
+### 4.1 Mùa đông = pressure cyclical buộc PFC plan
 
 ```
-🟡 Suy luận từ framework — Pressure Layer (Drive-Optimization.md §9):
+🟡 Suy luận từ framework — Drive.md (Observation/):
 
   Vùng ôn đới có 4 mùa rõ:
     Mùa hè: thu hoạch, tích trữ → CHUẨN BỊ cho mùa đông
@@ -126,7 +330,7 @@ Framework đề xuất 3 cơ chế khí hậu ẢNH HƯỞNG cognition:
     Mùa xuân: đánh giá, điều chỉnh → FEEDBACK LOOP
 
   → Mỗi năm = 1 cycle Plan → Execute → Test → Adjust
-  → PFC Draft+Test+Route BỊ ÉP chạy MỖI NĂM
+  → Core-Software.md v1.0: step ⑤ PFC Draft+Test BỊ ÉP chạy MỖI NĂM
   → Thế hệ nào cũng phải plan 6 tháng trước
   → = Forced PFC training, liên tục, không escape được
 
@@ -134,19 +338,19 @@ Framework đề xuất 3 cơ chế khí hậu ẢNH HƯỞNG cognition:
     Thức ăn available quanh năm (2-3 vụ mùa)
     Không có "mùa chết" buộc tích trữ
     → Planning vẫn CÓ nhưng KHÔNG bị ép ở cùng intensity
-    → PFC planning MUSCLE ít bị forced-train bằng
+    → PFC planning bị forced-train ÍT hơn
 
   ⚠️ Không phải "người nhiệt đới không plan"
      Mà là "vùng lạnh TẠO PRESSURE buộc plan INTENSITY cao hơn"
 ```
 
-### 3.2 Dẫn chứng gián tiếp
+### 4.2 Dẫn chứng gián tiếp
 
 ```
 🟢 Agriculture history:
   Vùng ôn đới: phát triển hệ thống STORAGE phức tạp sớm
   (root cellar, fermentation, smoking, salting)
-  → Mỗi kỹ thuật storage = 1 PFC schema solve problem mùa đông
+  → Mỗi kỹ thuật storage = 1 chunk compilation solve problem mùa đông
 
 🟢 Architecture:
   Vùng lạnh: insulation, heating system → engineering complexity cao
@@ -156,57 +360,32 @@ Framework đề xuất 3 cơ chế khí hậu ẢNH HƯỞNG cognition:
 🟡 Nhưng: vùng nóng phát triển IRRIGATION phức tạp (Ai Cập, Lưỡng Hà)
   → Pressure KHÁC (nước, không phải lạnh) → innovation KHÁC
   → Pressure = driver, LOẠI pressure thay đổi → LOẠI innovation thay đổi
+  → Consistent với Innovation-Geography.md v1.0 §2.4: domain expansion = f(pressure type)
 ```
 
 ---
 
-## 4. Cơ Chế 2: Body State — Lạnh Tạo Điều Kiện Tối Ưu Cho PFC {#4-body-state}
+## 5. Cơ Chế 2: Body State — Nhiệt Độ Modulate PFC {#5-body-state}
 
-### 4.1 Insight gốc
-
-```
-🔴 Giả thiết mới — chưa thấy research trực tiếp:
-
-  SAU KHI body-needs cơ bản ĐÃ MET (ăn no, an toàn, ấm):
-
-  Vùng lạnh + trong nhà ấm:        Vùng nóng + nghỉ ngơi:
-  ┌───────────────────────┐        ┌───────────────────────┐
-  │ Cortisol: THẤP        │        │ Cortisol: HƠI CAO     │
-  │ (an toàn trong shelter)│        │ (heat stress nhẹ)     │
-  │                       │        │                       │
-  │ Opioid: CAO           │        │ Opioid: TRUNG BÌNH    │
-  │ (cảm giác cocoon,     │        │ (relief > pleasure)   │
-  │  ấm áp, thoải mái)    │        │                       │
-  │                       │        │ Body signal:           │
-  │ Body signal:           │        │ "NGHỈ ĐI, đừng làm gì"│
-  │ "Thoải mái, ở yên,    │        │ "Nóng, mệt, ngủ"     │
-  │  TỰ DO nghĩ gì thì   │        │                       │
-  │  nghĩ"                │        │ Alertness: THẤP       │
-  │                       │        │ (heat + digestion      │
-  │ Alertness: CAO        │        │  = buồn ngủ)          │
-  │ (lạnh bên ngoài giữ   │        │                       │
-  │  NE nhẹ → tỉnh táo)   │        │ PFC capacity: GIẢM    │
-  └───────────────────────┘        └───────────────────────┘
-
-  → Vùng lạnh (có shelter): body THOẢI MÁI + TỈNH TÁO
-  → Vùng nóng (sau ăn): body THOẢI MÁI + BUỒN NGỦ
-  → Khác biệt nhỏ nhưng TÍCH LŨY qua hàng nghìn giờ/năm
-```
-
-### 4.2 PFC hoạt động = sinh nhiệt — climate quyết định body chấp nhận hay kháng
+### 5.1 PFC hoạt động = sinh nhiệt — body chấp nhận hay kháng
 
 ```
-🟡 Suy luận từ framework + neuroscience cơ bản:
+🟡 Suy luận từ framework + neuroscience:
 
   FACT: Não dùng ~20% năng lượng cơ thể (🟢 established)
   FACT: Năng lượng = nhiệt (🟢 thermodynamics)
   → PFC hoạt động mạnh = sinh nhiệt → body temperature TĂNG
 
+  🟢 CONFIRMED: blood redirection (§2.2)
+    Nóng → máu chuyển từ não → da để làm mát
+    → Global gray matter perfusion GIẢM
+    → PFC = vùng vulnerable nhất (Core-Hardware.md: Zone A = slowest, highest cost)
+
   Vùng NÓNG (đã gần ngưỡng nhiệt):
     Body đang cố GIẢM nhiệt (mồ hôi, giãn mạch)
     → PFC hoạt động = sinh THÊM nhiệt = NGƯỢC với body goal
-    → Body CÓ THỂ kháng PFC activity (reduce motivation to think)
-    → Cơ chế: khi core temp tăng → cognitive performance GIẢM (🟢 có data)
+    → Body signal: GIẢM motivation to think (reduce metabolic heat)
+    → fMRI: PFC connectivity DOWN, limbic UP (Sundaram 2013)
 
   Vùng LẠNH (trong shelter ấm, ~18-22°C):
     Body KHÔNG cần giảm nhiệt
@@ -214,44 +393,48 @@ Framework đề xuất 3 cơ chế khí hậu ẢNH HƯỞNG cognition:
     → Body KHÔNG kháng PFC activity
     → = Điều kiện KHÔNG CẢN TRỞ tư duy
 
-  → Metaphor: vùng lạnh = body MỞ CỬA cho PFC
-              vùng nóng = body ĐÓNG BỚT CỬA PFC
+  Metaphor: vùng lạnh = body MỞ CỬA cho PFC
+            vùng nóng = body ĐÓNG BỚT CỬA PFC
 ```
 
-### 4.3 Research support
+### 5.2 Research support — specific numbers
 
 ```
-🟢 Có data (rời rạc, không phải study trực tiếp cho hypothesis này):
+🟢 Data support (multiple studies):
 
   ① Cognitive performance & temperature:
-     Seppänen et al. (2006): performance tối ưu ở 21-22°C
-     Nhiệt độ > 25°C: mỗi +1°C → performance giảm ~2%
+     Seppänen et al. 2006: performance tối ưu ở ~22°C
+     Ở 30°C: performance giảm 8.9% so với peak
+     Reaction time: tăng 16-24 ms/°C ngoài optimal range
      → Vùng ôn đới indoor ≈ 18-22°C = optimal range tự nhiên
 
   ② Heat stress & executive function:
-     Gaoua et al. (2012): heat stress giảm working memory + attention
-     → Working memory = PFC workspace → heat GIẢM PFC capacity
-     → Vùng nóng outdoor: PFC bị handicap bởi nhiệt
+     Gaoua et al. 2012: heat stress giảm complex task performance
+     Cedeño Laurent 2018: 4.1-13.4% working memory decline trong heat wave
+     → Working memory = PFC workspace (Core-Software.md step ⑤)
 
-  ③ Seasonal cognitive variation:
-     Meyer et al. (2016, PNAS): attention + working memory
+  ③ Learning loss at scale:
+     Park 2020 (10 triệu học sinh): mỗi +1°F → 1% learning loss cả năm
+     AC trong trường "all but completely eliminated" impact
+     → Data MẠNH: sample 10 triệu, controlled for other variables
+
+  ④ Seasonal cognitive variation:
+     Meyer et al. 2016 (PNAS): attention + working memory
      PEAK ở mùa hè (dài ngày, light), nhưng SUSTAINED focus
      tốt hơn ở mùa đông (ít distraction, indoor time tăng)
      → Mùa đông = extended PFC training sessions
 
-  ④ Siesta tradition:
+  ⑤ Siesta tradition:
      🟢 Vùng nóng (Mediterranean, SEA, South Asia) có SIESTA
      = Body nói "NGHỈ buổi trưa" vì heat + digestion
      = Mất 2-3 giờ cognitive time mỗi ngày
      Vùng lạnh: KHÔNG có siesta tradition → cognitive time LIÊN TỤC
-
-  ⚠️ Từng data point ĐÚNG, nhưng TỔNG THỂ vẫn là suy luận
 ```
 
-### 4.4 Temperature STABILITY quan trọng hơn temperature tuyệt đối
+### 5.3 Temperature STABILITY quan trọng hơn giá trị tuyệt đối
 
 ```
-🔴 Giả thiết — suy luận từ framework + thermoregulation research:
+🟡 Suy luận từ framework + thermoregulation research:
 
   AC tạo 22-24°C trong phòng. Nhưng mùa hè + AC ≠ mùa đông tự nhiên.
   Tại sao?
@@ -261,33 +444,35 @@ Framework đề xuất 3 cơ chế khí hậu ẢNH HƯỞNG cognition:
     Ngoài nhà: 18-22°C
     Chênh lệch: ~3-5°C
     → Ra vào KHÔNG gây shock → cortisol STABLE cả ngày
-    → Body baseline ỔN ĐỊNH → PFC có NỀN VỮNG để chạy
+    → Body-base ỔN ĐỊNH → PFC có NỀN VỮNG để chạy
+    → Cortisol-Baseline v2.0: Role ② Amplifier → amplifier QUIET = bandwidth FREE
 
   MÙA HÈ vùng nóng + AC (nhiệt độ DAO ĐỘNG liên tục):
     Trong nhà (AC): 22-24°C
     Ngoài nhà: 33-38°C
     Chênh lệch: 10-15°C
-    → Mỗi lần ra ngoài (đi lại, ăn trưa, di chuyển): HEAT SHOCK → cortisol SPIKE
-    → Vào lại phòng AC: body phải READJUST → cortisol vẫn cao
+    → Mỗi lần ra ngoài: THERMAL SHOCK → cortisol SPIKE
+    → Vào lại phòng AC: body phải READJUST → cortisol chưa settle
     → Chưa settle xong → lại ra → spike lại
-    → Cortisol DAO ĐỘNG LIÊN TỤC suốt ngày — dù TRONG phòng ổn
+    → Cortisol-Baseline v2.0: Role ④ INERTIA — cortisol stays HIGH sau spike
+    → = Cortisol DAO ĐỘNG LIÊN TỤC suốt ngày — dù TRONG phòng ổn
 
   + Vấn đề AC phòng kín:
-    Không khí tái tuần hoàn → CO₂ tăng dần → cognitive impairment nhẹ
-    🟢 Satish et al. (2012): CO₂ > 1000ppm → decision-making performance GIẢM
-    Cảm giác "bí" → NE tăng nhẹ (discomfort) → body không thật sự relax
+    Không khí tái tuần hoàn → CO₂ tăng dần
+    🟢 Satish et al. 2012: CO₂ >1000ppm → decision-making performance GIẢM
+    Cảm giác "bí" → discomfort nhẹ → body signal liên tục
     → AC giải quyết NHIỆT nhưng TẠO vấn đề KHÔNG KHÍ
 
   → Nhiệt độ TỐI ƯU = ổn định suốt ngày, KHÔNG chỉ trong 1 phòng
   → Temperature STABILITY > temperature VALUE
 ```
 
-### 4.5 Double Calibration Problem — Tại sao AC vẫn không đủ cho imagine
+### 5.4 Double Calibration Problem — Insight mạnh nhất
 
 ```
-🟡 Suy luận từ framework — PFC + cortisol interaction:
+🟡 Framework synthesis, 🟢 confirmed bởi Gaoua 2012 (§2.6):
 
-  PFC imagine CẦN cortisol ở MỨC CỤ THỂ (sweet spot):
+  PFC imagine CẦN cortisol ở MỨC CỤ THỂ (Goldilocks — Reward-Calibration.md):
     Quá thấp → không drive, lười, không focus
     VỪA ĐỦ   → ✅ flow, sáng tạo, deep think
     Quá cao  → PFC chỉ execute được, không imagine
@@ -299,22 +484,29 @@ Framework đề xuất 3 cơ chế khí hậu ẢNH HƯỞNG cognition:
     → = Bắn súng trên mặt phẳng
 
   Mùa hè + AC (unstable body):
-    Nguồn 1: Body thermal stress cortisol — KHÔNG kiểm soát được
+    Nguồn 1: Thermal cortisol — KHÔNG kiểm soát được
       (mỗi lần ra ngoài/vào trong = spike random)
+      Body-Feedback-Mechanism v1.2: Sensory-Driven input, continuous
     Nguồn 2: Cognitive effort cortisol — bạn cố thêm cho imagine
 
-    Tổng cortisol = nguồn 1 (random) + nguồn 2 (controlled)
+    Tổng cortisol = nguồn 1 (random, noise) + nguồn 2 (controlled, signal)
     → Sweet spot = đích HẸP, nhưng NỀN đang nhảy lên xuống
     → Có lúc: tổng QUÁ CAO (vừa đi ngoài về + cố imagine = anxious)
     → Có lúc: tổng QUÁ THẤP (body vừa settle + chưa kịp effort = lười)
     → Phải liên tục ĐIỀU CHỈNH effort theo body state
-    → = PFC dùng bandwidth để THEO DÕI CHÍNH MÌNH thay vì IMAGINE
+    → = PFC dùng bandwidth để CALIBRATE CHÍNH MÌNH thay vì IMAGINE
     → = Bắn súng trên thuyền — cùng kỹ năng, trúng ít hơn
 
+  🟢 Gaoua 2012 CONFIRM:
+    → Thermal displeasure BẢN THÂN = cognitive load
+    → Skin temp + comfort PREDICT performance TỐT HƠN core temp
+    → = Cảm giác khó chịu CHIẾM bandwidth, dù core temp bình thường
+    → = Double Calibration: PFC workspace BỊ CHIA ĐÔI
+
   Double cost:
-    ① PFC workspace bị CHIA ĐÔI: 50% calibrate body + 50% imagine
-    ② Cortisol spike → PFC capacity BỊ GIẢM (heat stress)
-    → Chi phí GẤP ĐÔI, output GIẢM NỬA
+    ① PFC workspace bị chia: ~50% calibrate body + ~50% imagine
+    ② Cortisol spike → PFC capacity bị giảm thêm (blood redirection)
+    → Chi phí GẤP ĐÔI, output GIẢM
     → = "Làm như robot" — PFC chỉ đủ execute, không đủ imagine
 
   Metaphor:
@@ -323,113 +515,149 @@ Framework đề xuất 3 cơ chế khí hậu ẢNH HƯỞNG cognition:
     → Cùng tài xế, cùng xe, cùng effort — output khác vì ĐƯỜNG khác
 ```
 
-### 4.6 AC: Đủ cho Execute, không đủ cho Imagine kéo dài
+### 5.5 AC: Đủ cho Execute, không đủ cho Imagine kéo dài
 
 ```
-🟡 Phân biệt quan trọng — AC CÓ giá trị, nhưng giá trị ở ĐÂU:
+🟡 Phân biệt quan trọng — qua Type A/B lens (Reward-Signal-Architecture v1.0):
 
   PFC có 2 mode hoạt động chính:
 
-  ① EXECUTE (làm theo schema đã có):
-     Cần PFC: thấp-trung bình (schema đã compiled, chỉ chạy)
-     Cần cortisol stable: KHÔNG cần hoàn hảo — "đủ tốt" là OK
-     Cần thời gian liên tục: không — block ngắn, nghỉ giữa được
-     Chịu được interrupt: CÓ — mất flow nhưng pick up lại nhanh
+  ① EXECUTE (compiled chunks chạy — routine):
+     Core-Software.md: step ④→⑤ nhưng PFC chỉ route, không Draft mới
+     Cortisol stable: KHÔNG cần hoàn hảo — "đủ tốt" là OK
+     Thời gian liên tục: không — block ngắn, nghỉ giữa được
+     Chịu interrupt: CÓ — mất flow nhưng pick up lại nhanh
      → AC: ĐỦ ✅
-     → Ví dụ: code feature đã design, fix bug, meeting,
-              task list, email, routine work
+     → Ví dụ: code feature đã design, fix bug, meeting, routine work
 
-  ② IMAGINE (PFC Draft+Test sâu, novelty kéo dài):
-     Cần PFC: CAO + LIÊN TỤC nhiều giờ
-     Cần cortisol stable: CẦN ổn định — dao động nhỏ = mất flow
-     Cần thời gian liên tục: CẦN — block DÀI không interrupt
-     Chịu được interrupt: KHÔNG — mất flow = phải rebuild từ đầu
+  ② IMAGINE (PFC Draft+Test sâu — novelty):
+     Core-Software.md: step ⑤ PFC Draft → vô thức simulate → body test
+     Cortisol stable: CẦN ổn định — dao động nhỏ = mất flow
+     Thời gian liên tục: CẦN block DÀI không interrupt
+     Chịu interrupt: KHÔNG — mất flow = phải rebuild từ đầu
      → AC: KHÔNG ĐỦ ❌
-     → Vì: stability bị phá mỗi lần ra ngoài/vào trong
+     → Vì: stability bị phá mỗi lần ra ngoài/vào trong (§5.3)
      → Hoặc: ở trong phòng AC cả ngày → bí + thiếu vận động
               → body stress KHÁC thay thế heat stress
 
-  Tại sao CÔNG TY NÀO CŨNG CẦN AC (dù AC không đủ cho imagine):
-    Phần lớn công việc hàng ngày = EXECUTE, không phải IMAGINE
-    Meeting, coding, processing, communication = execute mode
-    AC tạo điều kiện đủ tốt cho execute → productivity TĂNG rõ
-    → AC = ESSENTIAL cho execute work ở vùng nóng
+  Type A/B mapping:
+    Execute mode chủ yếu dùng TYPE B reward (direct state, compiled, hardware):
+      → Ít bị thermal interference (Type B = resilient, §2.2 simple tasks OK)
+    Imagine mode chủ yếu dùng TYPE A reward pathway (evaluative, opioid, H10):
+      → CẦN PFC bandwidth đầy đủ → bị thermal interference MẠNH
+      → H10 P4 Goldilocks: cortisol dao động → Goldilocks MISS → reward KHÔNG fire
 
   Kết luận:
-    AC = công cụ cho body state đủ tốt để TRIỂN KHAI + THỰC THI
-    AC = hỗ trợ novelty NGẮN (brainstorm 30-60 phút, họp ý tưởng)
-    AC ≠ thay thế khí hậu mát cho novelty DÀI (imagine sâu nhiều ngày)
-
-    Nói cách khác:
-      Không có AC ở vùng nóng → execute KHÓ, imagine CỰC KHÓ
-      Có AC ở vùng nóng       → execute OK, imagine VẪN KHÓ
-      Khí hậu lạnh tự nhiên   → execute OK, imagine THUẬN LỢI
+    Không có AC ở vùng nóng → execute KHÓ, imagine CỰC KHÓ
+    Có AC ở vùng nóng       → execute OK, imagine VẪN KHÓ
+    Khí hậu lạnh tự nhiên   → execute OK, imagine THUẬN LỢI
 
     → AC giải quyết TẦNG 1 (nhiệt độ) nhưng KHÔNG giải quyết
       TẦNG 2 (stability suốt ngày) và TẦNG 3 (không khí, vận động)
     → Handicap nhỏ nhưng TÍCH LŨY qua tháng, qua năm
-    → Giải thích: vùng nóng + AC vẫn productive, nhưng
-      deep creative output / capita CÓ THỂ thấp hơn vùng mát tự nhiên
+```
+
+### 5.6 Hardware sensitivity: mỗi người khác nhau
+
+```
+🟡 Framework synthesis — PFC-Hardware.md + Body-Base.md v2.0:
+
+  Câu hỏi: mọi người có bị ảnh hưởng bởi nhiệt GIỐNG NHAU không?
+
+  KHÔNG. Hardware khác → sensitivity khác:
+    Body-Feedback-Mechanism v1.2 (Axis 2 — Magnitude):
+      Cùng input (nóng 35°C) → khác magnitude tùy hardware
+    Cortisol-Baseline v2.0 (§3.1 — per-person variation):
+      Cortisol response: có người spike mạnh, có người "kệ"
+    PFC-Hardware.md: COMT variant → dopamine clearance rate →
+      ảnh hưởng cách body signal đến PFC — mỗi người khác nhau
+
+  3 nhóm (spectrum, không binary):
+
+  NHÓM A — HIGH SIGNAL (body signal loud):
+    → Thermal discomfort = LOUD → PFC bandwidth bị chiếm NHIỀU
+    → Double Calibration = MẠNH → imagine MÙA HÈ cực kỳ khó
+    → NHƯNG: mùa mát → performance BOOST rõ (bandwidth freed)
+    → Nhận ra sự khác biệt RÕ RÀNG giữa mùa nóng vs mát
+
+  NHÓM B — MEDIUM SIGNAL (đa số):
+    → Thermal effect CÓ nhưng ít nhận ra
+    → Performance giảm nhẹ mùa hè → output quality giảm nhưng KHÔNG ý thức
+    → Research data (§2.2): 8.9% decline → đủ đo bằng instrument, khó cảm bằng body
+
+  NHÓM C — LOW SIGNAL (body signal quiet):
+    → "Nóng thì nóng, kệ" → PFC bandwidth ít bị chiếm
+    → Thermal effect THẤP → performance tương đối stable across seasons
+    → NHƯNG: có thể miss body warning signals khác (trade-off)
+
+  → "Mình có bị thế không" = phụ thuộc HARDWARE, không phải "kém"
+  → Người high signal = ĐÃ calibrate qua Tier 1 (evolution) → body CÓ LÝ DO
 ```
 
 ---
 
-## 5. Cơ Chế 3: Imagine System — Lạnh Đẩy Entertainment Vào Đầu {#5-imagine}
+## 6. Cơ Chế 3: Reward Balance — Type A vs Type B Theo Khí Hậu {#6-reward}
 
-### 5.1 Reward Dual System trong bối cảnh climate
+### 6.1 Climate shift balance giữa 2 loại reward
 
 ```
-🔴 Giả thiết — dựa trên Reward-Dual-System.md:
+🟡 Framework synthesis — Reward-Signal-Architecture v1.0:
 
-  2 hệ thống reward:
-    Imagine System: predict "tốt cho body?" → dopamine → DRIVE hành vi
-    Body System: reality confirm → Satisfaction Signal → "đủ rồi"
+  TYPE A REWARD (evaluative — PFC-dependent):
+    Circuit: hedonic hotspot (NAcc shell, VP, mOFC)
+    Signal: μ-opioid
+    Cần: H10 5 preconditions + compiled chunks + PFC evaluation
+    Ví dụ: insight, reading, planning, creative work, deep conversation
 
-  CLIMATE ảnh hưởng BALANCE giữa 2 system:
+  TYPE B REWARD (direct state — hardware-based):
+    Circuit: interoceptive / body-state regulation
+    Signal: varies (CT afferents, eCB, thermoreceptor)
+    Cần: hardware pathways (MINIMAL compiled chunks)
+    Ví dụ: touch comfort, warmth, swimming, stretching, food texture
+
+  CLIMATE ảnh hưởng BALANCE giữa A vs B:
 
   Vùng lạnh (mùa đông, trong nhà):
-  ┌─────────────────────────────────────────────┐
-  │ Body-needs met: ✅ (ấm, no, an toàn)        │
-  │ Physical options: ❌ (lạnh ngoài, tối sớm)  │
-  │ Sensory novelty: ❌ (cảnh vật đơn điệu)     │
-  │                                             │
-  │ → Body System: đã fulfilled cơ bản          │
-  │ → Imagine System: NGUỒN DUY NHẤT            │
-  │   cho novelty + entertainment                │
-  │                                             │
-  │ → Nghĩ = SƯỚNG (dopamine từ mental novelty) │
-  │ → Kể chuyện = SƯỚNG (shared imagination)    │
-  │ → Plan = SƯỚNG (predict future = rewarding) │
-  │ → Craft = SƯỚNG (tạo vật thể = imagine →    │
-  │   reality → body confirm)                    │
-  └─────────────────────────────────────────────┘
+  ┌─────────────────────────────────────────────────┐
+  │ Body-needs met: ✅ (ấm, no, an toàn)            │
+  │ Physical options: ❌ (lạnh ngoài, tối sớm)      │
+  │ Sensory novelty: ❌ (cảnh vật đơn điệu)         │
+  │ Type B sources: HẠN CHẾ (ít outdoor, ít sensory) │
+  │                                                 │
+  │ → Type A = NGUỒN DUY NHẤT cho novelty reward    │
+  │ → Nghĩ = SƯỚNG (Type A: insight, prediction)    │
+  │ → Kể chuyện = SƯỚNG (Type A: shared imagination)│
+  │ → Plan = SƯỚNG (Type A: predict future)          │
+  │ → Craft = SƯỚNG (Type A → B: imagine → realize)  │
+  └─────────────────────────────────────────────────┘
 
   Vùng nóng (quanh năm):
-  ┌─────────────────────────────────────────────┐
-  │ Body-needs met: ✅ (thức ăn dồi dào)        │
-  │ Physical options: ✅ (ra ngoài được)         │
-  │ Sensory novelty: ✅ (thiên nhiên phong phú)  │
-  │                                             │
-  │ → Body System: CÓ THỂ fulfill trực tiếp    │
-  │ → Imagine System: 1 trong NHIỀU nguồn       │
-  │                                             │
-  │ → Ăn trái cây = SƯỚNG trực tiếp (opioid)   │
-  │ → Bơi sông = SƯỚNG trực tiếp (sensory)     │
-  │ → Social outdoor = SƯỚNG trực tiếp (oxytocin)│
-  │ → Ít CẦN imagination để entertain           │
-  └─────────────────────────────────────────────┘
+  ┌─────────────────────────────────────────────────┐
+  │ Body-needs met: ✅ (thức ăn dồi dào)            │
+  │ Physical options: ✅ (ra ngoài được)             │
+  │ Sensory novelty: ✅ (thiên nhiên phong phú)      │
+  │ Type B sources: DỒI DÀO (outdoor, sensory rich)  │
+  │                                                 │
+  │ → Type A = 1 trong NHIỀU nguồn reward            │
+  │ → Ăn trái cây = Type B (direct opioid)           │
+  │ → Bơi sông = Type B (body state improve)         │
+  │ → Social outdoor = Type B + social reward         │
+  │ → Ít CẦN Type A để entertain → ít exercise       │
+  └─────────────────────────────────────────────────┘
 
-  → Vùng lạnh: imagination = PRIMARY reward source (mùa đông)
-  → Vùng nóng: imagination = ONE OF MANY reward sources
-  → Vùng lạnh: imagination MUSCLE gets MORE exercise
+  → Vùng lạnh: Type A = PRIMARY reward source (mùa đông)
+  → Vùng nóng: Type A = ONE OF MANY reward sources
+  → Vùng lạnh: Type A pathway gets MORE exercise → imagination MUSCLE stronger
+  → RSA v1.0 §5.2: Type B resistant to hedonic treadmill, Type A habituates
+    → Nên: vùng nóng Type B sources KHÔNG cạn → ít pressure chuyển sang Type A
 ```
 
-### 5.2 Tradition evidence
+### 6.2 Tradition evidence
 
 ```
 🟢 Observable cultural patterns (correlation, NOT causation):
 
-  Vùng lạnh — strong INDOOR creative traditions:
+  Vùng lạnh — strong INDOOR creative traditions (Type A dominant):
     Bắc Âu: saga kể chuyện (oral storytelling qua mùa đông dài)
     Nhật Bản: trà đạo, thư pháp, haiku (indoor contemplative arts)
     Nga: văn học cực dài (Tolstoy, Dostoevsky — viết suốt mùa đông)
@@ -437,7 +665,7 @@ Framework đề xuất 3 cơ chế khí hậu ẢNH HƯỞNG cognition:
     Phần Lan: design, architecture (indoor craft = mùa đông occupation)
     Scotland/Ireland: storytelling tradition cực mạnh
 
-  Vùng nóng — strong OUTDOOR/BODY creative traditions:
+  Vùng nóng — strong OUTDOOR/BODY creative traditions (Type B dominant):
     Châu Phi: nhảy múa, nhạc cụ, rhythmic arts (motor + somatic)
     Brazil: carnival, samba, capoeira (body expression)
     Ấn Độ: dance forms (Bharatanatyam), yoga (body practice)
@@ -446,19 +674,19 @@ Framework đề xuất 3 cơ chế khí hậu ẢNH HƯỞNG cognition:
 
   → KHÔNG PHẢI "vùng nóng không sáng tạo"
   → Mà là "sáng tạo BIỂU HIỆN KHÁC":
-    Lạnh → imagination-heavy, abstract, written, indoor
-    Nóng → body-heavy, sensory, performed, outdoor
+    Lạnh → Type A dominant: abstract, written, indoor, imagination-heavy
+    Nóng → Type B dominant: body-based, sensory, performed, outdoor
   → 2 DẠNG creativity khác nhau, không phải 1 hơn 1
 ```
 
-### 5.3 Cái "sáng tạo" chúng ta đang đo là gì?
+### 6.3 Bias đo lường — chúng ta đang đo gì?
 
 ```
 🟡 Bias quan trọng trong cách đo "sáng tạo":
 
   Thế giới hiện đại ĐO sáng tạo bằng:
     Patents, papers, technology, GDP, industrial output
-    → Tất cả = IMAGINATION-BASED creativity (abstract, written, designed)
+    → Tất cả = TYPE A creativity (abstract, written, PFC-dependent)
     → = Đúng thế mạnh vùng lạnh
 
   KHÔNG ĐO:
@@ -468,22 +696,23 @@ Framework đề xuất 3 cơ chế khí hậu ẢNH HƯỞNG cognition:
     Social organization innovation
     Agricultural technique innovation
     Navigation/wayfinding innovation
-    → = Thế mạnh vùng nóng — nhưng KHÔNG ĐƯỢC ĐẾM
+    → = TYPE B creativity — thế mạnh vùng nóng — KHÔNG ĐƯỢC ĐẾM
 
-  → Khi nói "vùng lạnh sáng tạo hơn" = đang dùng THƯỚC ĐO của vùng lạnh
-  → Nếu đo bằng thước vùng nóng → kết luận có thể NGƯỢC
+  → "Vùng lạnh sáng tạo hơn" = đang dùng THƯỚC ĐO của Type A
+  → Nếu đo bằng thước Type B → kết luận có thể NGƯỢC
 
   Ví dụ:
     Polynesians navigate bằng sao + sóng + gió qua Thái Bình Dương
-    → Cognitive complexity CỰC CAO
+    → Cognitive complexity CỰC CAO (spatial + proprioceptive + Pattern-Driven)
     → Nhưng không có patent nào → "không sáng tạo"?
+    → = Type B mastery cực đỉnh, invisible cho thước Type A
 ```
 
 ---
 
-## 6. Confounding Variables — Tại Sao Không Thể Kết Luận "Lạnh = Sáng Tạo" {#6-confounds}
+## 7. Confounding Variables — Tại Sao Không Thể Kết Luận "Lạnh = Sáng Tạo" {#7-confounds}
 
-### 6.1 Colonialism — biến lớn nhất
+### 7.1 Colonialism — biến lớn nhất
 
 ```
 🟢 Historical fact — NOT hypothesis:
@@ -496,17 +725,16 @@ Framework đề xuất 3 cơ chế khí hậu ẢNH HƯỞNG cognition:
 
   → Vùng nóng bị RÚT RESOURCES trong 400 năm
   → Resources đó FUND innovation ở vùng lạnh
-  → Industrial Revolution = funded by colonial extraction (cotton, sugar, silver)
+  → Industrial Revolution = funded by colonial extraction
 
   → Nếu climate LÀ factor, nó BỊ AMPLIFY bởi colonialism:
     Lạnh + colonizer advantage → snowball → gap ngày càng lớn
     Nóng + colonized disadvantage → snowball → bị kẹt lại
 
-  → KHÔNG THỂ tách "climate effect" khỏi "colonialism effect"
-    trong data 500 năm gần
+  → KHÔNG THỂ tách "climate effect" khỏi "colonialism effect" trong data 500 năm gần
 ```
 
-### 6.2 Institutions & geographic luck
+### 7.2 Institutions & geographic luck
 
 ```
 🟢 Jared Diamond (Guns, Germs, and Steel) argument:
@@ -521,164 +749,183 @@ Framework đề xuất 3 cơ chế khí hậu ẢNH HƯỞNG cognition:
     → Technology transfer chậm
     → Ít competitive pressure → ít innovation race
 
-  → Geographic shape + axis MÓC VÀO climate
-  → Nhưng mechanism KHÁC (trade, competition, NOT temperature)
+  → Geographic shape + axis = chunk flow efficiency (Innovation-Geography.md v1.0)
+  → Mechanism KHÁC climate (trade route, competition, NOT temperature)
 ```
 
-### 6.3 Writing systems & knowledge accumulation
+### 7.3 Writing systems & knowledge accumulation
 
 ```
-🟡 Framework-adjacent observation:
+🟡 Framework observation:
 
-  Imagination-based creativity TÍCH LŨY qua văn bản:
-    Viết ra → người khác đọc → build on top → TÍCH LŨY
+  Type A creativity TÍCH LŨY qua văn bản:
+    Viết ra → người khác đọc → build on top → COMPOUND
+    → Knowledge-Flow.md (Domain/): output tách khỏi người → trở thành chunk rẻ
 
-  Body-based creativity KHÔNG tích lũy dễ:
+  Type B creativity KHÔNG tích lũy dễ:
     Nhảy múa → phải TRUYỀN trực tiếp → mất nếu lineage đứt
 
-  → Vùng nào phát triển WRITING SYSTEM sớm → tích lũy innovation
-  → Writing = indoor activity → vùng lạnh CÓ LỢI THẾ (thời gian indoor)
-  → Nhưng: chữ viết phát minh ở LƯỠNG HÀ (nóng) → confound lại
+  → Writing system = accelerator cho Type A creativity
+  → Writing = indoor activity → vùng lạnh CÓ thêm thời gian indoor
+  → NHƯNG: chữ viết phát minh ở LƯỠNG HÀ (nóng) → confound
 ```
 
 ---
 
-## 7. Counter-Examples — Phản Ví Dụ Quan Trọng {#7-counter}
+## 8. Counter-Examples — Phản Ví Dụ {#8-counter}
 
 ```
-Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, thì phải giải thích:
+Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
 
   ① Vùng CỰC LẠNH ≠ cực sáng tạo:
      Inuit (Bắc Cực): survival innovation ✅ nhưng không scientific revolution
      Siberia: lạnh nhất → innovation thấp
-     → Vì PRESSURE QUÁ CAO → survival mode → không có bandwidth
+     → §2.3: lạnh CỰC ĐOAN = reasoning + memory GIẢM
+     → §2.1 U-curve: CẢ HAI cực đều tệ
      → Framework: cần OPTIMAL pressure, không phải MAX pressure
 
   ② Islamic Golden Age (800-1400):
      Baghdad, Cairo, Cordoba = NÓNG
      → Innovation ĐỈNH CAO 600 năm
-     → Nhưng: kiến trúc TẠO MICRO-CLIMATE mát
+     → NHƯNG: kiến trúc TẠO MICRO-CLIMATE mát
        (wind tower, courtyard, fountain = tự nhiên làm mát ~25°C)
      → + Institution TỐT (House of Wisdom = research funding)
-     → + Trade hub (resources dồi) + competitive (nhiều tiểu quốc)
+     → + Trade hub (Innovation-Geography.md: chunks TỤ VỀ = PRIMARY driver)
      → Climate bất lợi NHƯNG compensated bằng architecture + institution
 
   ③ Ấn Độ cổ đại:
-     Nóng → nhưng Vedic scholars MEDITATE (= imagination exercise)
+     Nóng → nhưng Vedic scholars MEDITATE (= Type A imagination exercise)
      → Tạo "INDOOR STATE" bằng meditation thay vì bằng shelter
-     → + Monsoon season = forced indoor time (mưa = like winter?)
+     → + Monsoon season = forced indoor time (mưa = functional winter)
      → Body state tương tự: ngồi yên + thoải mái + PFC active
 
   ④ Singapore hiện đại:
      Nóng, nhỏ, KHÔNG tài nguyên
      → Innovation hub hàng đầu
-     → Vì: AC everywhere (micro-climate 22°C) + institution tốt + pressure competition
-     → = TÁI TẠO điều kiện vùng lạnh bằng công nghệ
+     → Vì: AC everywhere + institution tốt + pressure competition
+     → = TÁI TẠO điều kiện body-state vùng lạnh bằng công nghệ
+     → NHƯNG: §5.5 — AC đủ cho Execute, Imagine vẫn khó hơn?
+       (Singapore innovation chủ yếu EXECUTE-heavy: logistics, finance, engineering)
 
   ⑤ Bắc Âu hiện đại vs quá khứ:
      Vikings (cold + no institution) = raiders, LIMITED innovation
      Bắc Âu hiện đại (cold + welfare state) = TOP innovation
      → Climate GIỐNG → output KHÁC → institution > climate
 
-  → Counter-examples cho thấy:
+  → Counter-examples confirm:
      Climate = 1 factor trong nhiều factors
      Institution + resources + pressure balance CÓ THỂ override climate
+     NHƯNG: khi MỌI THỨ KHÁC BẰNG NHAU → climate BECOMES the differentiator
 ```
 
 ---
 
-## 8. Ứng Dụng — Nếu Đúng, Có Gì Quan Trọng? {#8-applications}
+## 9. Ứng Dụng {#9-applications}
 
-### 8.1 AC = game changer cho equality
+### 9.1 AC = game changer nhưng không complete solution
 
 ```
-🟡 Suy luận quan trọng:
+🟡 Suy luận + 🟢 data:
 
-  NẾU climate ảnh hưởng PFC performance (§4):
-    → AC (air conditioning) = NEUTRALIZE climate disadvantage
-    → Bất kỳ vùng nóng nào + AC = tạo 22°C = same PFC conditions
+  NẾU climate ảnh hưởng PFC performance (§5):
+    → AC = NEUTRALIZE climate disadvantage cho EXECUTE work
 
-  Observation support:
-    🟢 Singapore, Dubai, Qatar = nóng + AC everywhere → innovation tăng
-    🟢 US South: trước AC = agricultural, chậm phát triển
-                 sau AC (1950s+) = tech boom (Texas, Florida, Atlanta)
-    🟢 India tech: Bangalore = vùng MÁT hơn (cao nguyên ~25°C) → IT hub
-                  Chennai, Hyderabad = nóng hơn nhưng AC offices → cũng IT hub
+  🟢 Observable evidence:
+    Singapore, Dubai, Qatar = nóng + AC everywhere → innovation tăng
+    US South: trước AC = agricultural; sau AC (1950s+) = tech boom
+    India: Bangalore (mát) = IT hub đầu tiên; Chennai (nóng + AC) = IT hub sau
+    Park 2020: AC "all but completely eliminated" heat impact on LEARNING
 
-  → Prediction: khi AC + internet PHỔI CẬP ở châu Phi, SEA
-    → Climate advantage của vùng lạnh sẽ BIẾN MẤT
-    → Innovation sẽ PHÂN BỐ ĐỀU hơn theo institution quality, không theo latitude
+  AC giải quyết:
+    ✅ TẦNG 1: nhiệt độ trong phòng → execute work OK
+    ❌ TẦNG 2: stability suốt ngày → ra/vào vẫn shock
+    ❌ TẦNG 3: không khí, vận động → bí + ít di chuyển
+    → Execute: AC ĐỦ. Imagine kéo dài: AC KHÔNG ĐỦ.
 
-  ⚠️ Nhưng: AC = tốn năng lượng → carbon → nóng thêm → vòng xoắn
+  → Prediction: AC + internet PHỔ CẬP ở châu Phi, SEA
+    → Climate advantage GIẢM cho execute work
+    → Climate advantage VẪN CÒN cho deep creative work
+    → Innovation PHÂN BỐ ĐỀU hơn, nhưng deep creativity vẫn cluster ở vùng mát
+
+  ⚠️ AC = tốn năng lượng → carbon → nóng thêm → vòng xoắn
      → Cần energy solution, không phải chỉ AC
 ```
 
-### 8.2 Workspace design
+### 9.2 Workspace design
 
 ```
-🟡 Nếu body state ảnh hưởng PFC (§4.2):
+🟡 Nếu body state ảnh hưởng PFC (§5):
 
-  Thiết kế workspace TỐI ƯU cho creativity:
-    Temperature: 20-22°C (🟢 confirmed by research)
+  Thiết kế workspace TỐI ƯU cho Type A creativity (imagination):
+    Temperature: 20-22°C (🟢 Seppänen 2006)
+    Stability: GIẢM delta trong/ngoài (shelter design)
+    Air quality: CO₂ <1000ppm (🟢 Satish 2012)
     Comfort: body-needs met (no đủ, thoải mái, an toàn)
-    Alertness: duy trì (light, nhẹ lạnh, không quá ấm → buồn ngủ)
-    Distraction: giảm physical options → push toward imagination
+    Alertness: NE nhẹ (light, hơi mát, không quá ấm → buồn ngủ)
     → = TÁI TẠO "mùa đông ấm áp trong nhà" nhân tạo
 
-  Đã thấy trong practice:
-    🟢 Libraries, labs, studios = thường mát, yên tĩnh, thoải mái
-    🟢 "Deep work" environments = giảm sensory input, tăng comfort
-    🟢 Finland education = comfortable indoor + long unstructured time
-        → TOP education globally (climate advantage? hoặc institution?)
+  Thiết kế workspace cho Type B creativity (body-based):
+    Temperature: thoải mái cho VẬN ĐỘNG
+    Sensory input: GIÀU (nhạc, mùi, texture)
+    Physical options: MỞ
+
+  🟢 Đã thấy trong practice:
+    Libraries, labs, studios = thường mát, yên tĩnh, thoải mái
+    Finland education = comfortable indoor + long unstructured time → TOP globally
+    "Deep work" environments = giảm sensory input, tăng comfort
 ```
 
-### 8.3 Cá nhân — tối ưu creative state
+### 9.3 Cá nhân — tối ưu creative state
 
 ```
-🟡 Ứng dụng cá nhân (nếu cơ chế đúng):
+🟡 Ứng dụng cá nhân:
 
-  Muốn tư duy sáng tạo:
-    ✅ Nhiệt độ mát (20-22°C) — không quá nóng
+  Muốn TYPE A creativity (imagine, plan, design, write):
+    ✅ Nhiệt độ mát (20-22°C)
     ✅ Body-needs met (ăn vừa, uống đủ nước)
     ✅ Comfortable nhưng KHÔNG buồn ngủ (tránh quá ấm + no quá)
     ✅ Giảm physical options (đóng tab, tắt phone → push vào đầu)
-    ✅ NE nhẹ duy trì (đi bộ trước, hoặc cold exposure nhẹ)
+    ✅ NE nhẹ duy trì (đi bộ trước, hoặc brief cold exposure — §2.5)
+    ✅ Cortisol stable (TRÁNH ra/vào nhiều → §5.3 thermal oscillation)
 
-  Muốn body-based creativity (nhảy, nấu ăn, thể thao):
+  Muốn TYPE B creativity (dance, cook, sport, craft):
     ✅ Temperature thoải mái cho VẬN ĐỘNG
-    ✅ Sensory input GIÀU (nhạc, mùi, texture)
+    ✅ Sensory input GIÀU
     ✅ Physical options MỞ
 
   → 2 dạng creativity CẦN điều kiện KHÁC NHAU
   → Match environment với LOẠI creative output mong muốn
+  → Biết mình thuộc nhóm nào (§5.6: high/medium/low signal)
+    → High signal: MÙA MÁT = golden time cho Type A, tận dụng tối đa
+    → Low signal: thermal effect nhỏ → flexible hơn
 ```
 
-### 8.4 Tương lai — climate change implications
+### 9.4 Climate change + AI era
 
 ```
-🔴 Giả thuyết dài hạn — pure speculation nhưng đáng nghĩ:
+🔴 Giả thuyết dài hạn:
 
   Climate change → Trái Đất NÓNG lên:
-    Vùng hiện đang ôn đới → nóng hơn → MẤT lợi thế tự nhiên?
-    Vùng hiện đang lạnh (Canada, Scandinavia, Russia) → ấm hơn → MỚI vào sweet spot?
+    Vùng hiện ôn đới → nóng hơn → MẤT lợi thế tự nhiên?
+    Vùng hiện lạnh (Canada, Scandinavia) → ấm hơn → MỚI vào sweet spot?
 
-  NẾU climate CÓ ảnh hưởng (dù nhỏ):
-    → Productivity migration: creative work SHIFT về vùng vẫn mát
-    → HOẶC: AC + technology compensate hoàn toàn → climate irrelevant
-    → HOẶC: energy cost of AC tăng → vùng tự nhiên mát = lợi thế kinh tế
+  AI era:
+    AI làm hầu hết cognitive EXECUTE work → climate effect lên EXECUTE = irrelevant
+    AI KHÔNG thay thế human IMAGINE (intuition, body test, judgment)
+    → Climate effect lên IMAGINE = VẪN relevant cho human contribution
+    → Innovation-Geography.md v1.0 §9.3: AI era bottleneck = RIGHT QUESTIONS
+    → Right questions = Type A creativity = VẪN bị body state ảnh hưởng
 
-  Scenario thú vị:
-    Nếu AI làm hầu hết cognitive work → climate effect lên HUMAN cognition = irrelevant
-    AI không bị heat stress → server farms ở đâu cũng được
-    → Climate-cognition advantage BIẾN MẤT hoàn toàn trong AI era
-    → Nhưng BODY-BASED creativity (mà AI khó thay) → vẫn bị climate ảnh hưởng
-
-  → Climate change + AI = double disruption cho geography of innovation
+  Nhưng: AI = 24/7, không bị body state ảnh hưởng
+    → Người ở vùng nóng + AI = dùng AI cho Type A heavy-lifting
+    → Chỉ cần body state tốt cho JUDGMENT (kiểm tra AI output)
+    → = Climate disadvantage GIẢM thêm nhưng CHƯA biến mất hoàn toàn
+    → Collective-Body.md v1.1 §8.4: AI = trust entity, nhưng output cần body verify
 ```
 
 ---
 
-## 9. Câu Hỏi Mở {#9-questions}
+## 10. Câu Hỏi Mở {#10-questions}
 
 ```
 ❓ Mùa mưa nhiệt đới = functional equivalent của mùa đông?
@@ -688,49 +935,130 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, thì phải giải thích:
    (Vùng cao = mát + thin air = NE tăng → cognitive boost?
     Tibet, Andes, Ethiopia highlands, Bangalore = cases thú vị)
 
-❓ Nomadic cultures (sống ngoài, mọi khí hậu) vs settled cultures:
-   Có khác biệt cognitive style INDEPENDENT of climate không?
-
 ❓ Night owls — đêm = tự nhiên "mát + yên tĩnh + ít physical option":
-   Có phải creative people làm việc đêm VÌ BODY STATE tối ưu giống mùa đông?
+   Creative people làm đêm VÌ BODY STATE tối ưu giống mùa đông?
    → (Observation: nhiều writer, programmer, artist = night owls)
 
-❓ Nếu đo "creativity" bằng BODY-BASED metrics (dance, cuisine, music improvisation):
+❓ Nếu đo "creativity" bằng TYPE B metrics (dance, cuisine, improvisation):
    Pattern có ĐẢO NGƯỢC không? (Vùng nóng > vùng lạnh?)
+   → Prediction: CÓ — vì Type B = body-based → warm environment thuận lợi
+
+❓ AC + dehumidifier + air purifier = GIẢI QUYẾT đủ 3 tầng?
+   Tầng 1: nhiệt (AC ✅), Tầng 2: stability (?), Tầng 3: air quality (purifier ✅?)
+   → Singapore data: AC everywhere + humidity control → innovation CAO
+   → NHƯNG: thermal oscillation ra/vào vẫn tồn tại ở nhiệt đới
+
+❓ Brief cold exposure (§2.5) trước khi làm việc = NE BOOST:
+   NE +530% → PFC connectivity tăng → creative session START tốt hơn?
+   → Cần: controlled study cold shower → creative task performance
+   → Hypothesis: 2-5 phút cold → 30-60 phút enhanced PFC → then decay
+
+❓ Hardware sensitivity (§5.6) + climate = career guidance?
+   High signal → nghề Type A: chọn sống ở vùng mát = LEVERAGE natural advantage?
+   Low signal → flexible → vùng nào cũng OK?
+   → Testable: compare creative output (per person) summer vs winter
 ```
 
 ---
 
-## 10. Kết Nối {#10-connections}
+## 11. Honest Assessment {#11-assessment}
 
 ```
-FRAMEWORK CONNECTIONS:
-  Core-v7-UD.md §2 (Container): climate = CONTAINER parameter lớn nhất
-  Core-v7-UD.md §4.3 (PFC): PFC performance affected by body state
-  Reward-Dual-System.md: climate shifts BALANCE giữa Imagine vs Body System
-  Drive-Optimization.md §9: climate = natural Pressure Layer
-  Imagination-Analysis.md: imagination exercise frequency → skill level
-  Chemical-Enhancement-Notes.md §6: AC = like chemical enhancement for PFC
-    (tạo điều kiện tối ưu thay vì thay đổi brain chemistry)
-  Body-Needs.md: climate affects WHICH body-needs easy to fulfill
-  Macro-Civilization.md: climate = 1 factor trong innovation geography
+ĐÁNH GIÁ TỪNG PHẦN:
 
-  Innovation-Geography.md: trade hub + chunks = primary driver;
-    climate = secondary modifier at macro scale
+  §1 Observation: 🟢 STRONG — lịch sử đủ rõ, recency bias identified
+  §2 Research Data: 🟢🟢 VERY STRONG — multiple meta-analyses, fMRI, 10M student data
+  §3 3 Cơ Chế: 🟡 FRAMEWORK SYNTHESIS — logical, coherent, chưa direct test
+  §4 Pressure: 🟡 PLAUSIBLE — evolutionary argument, indirect evidence
+  §5.1-5.2 Body State: 🟢 STRONG — research confirms PFC heat vulnerability
+  §5.3 Stability: 🟡 PLAUSIBLE — thermal oscillation logic solid, chưa controlled study
+  §5.4 Double Calibration: 🟢 CONFIRMED by Gaoua 2012 (displeasure = cognitive load)
+  §5.5 AC Execute/Imagine: 🟡 STRONG INFERENCE — từ task differential data + framework
+  §5.6 Hardware sensitivity: 🟡 PLAUSIBLE — COMT variation known, specific mapping = inference
+  §6 Reward Balance: 🟡 MODERATE — Type A/B mapping logical, cultural data correlational
+  §6.3 Measurement bias: 🟢 IMPORTANT — valid epistemological point
+  §7 Confounds: 🟢 STRONG — colonialism + institutions well-documented
+  §8 Counter-examples: 🟢 STRONG — all explained within framework
+  §9 Applications: 🟡 ACTIONABLE — based on confirmed §5 + inferred extensions
 
-TỔNG KẾT — Honest Assessment:
-  Climate CÓ ẢNH HƯỞNG qua 3 cơ chế + stability + double calibration
-  → 🟡 plausible, có indirect support
+  TỔNG THỂ:
+    File cũ (2026-03-22): 🟡 "interesting hypothesis" — pure framework reasoning
+    File mới (2026-05-11): 🟢 "hypothesis with substantial research support"
+    → §2 research data UPGRADE toàn bộ confidence level
+    → §5.4 Double Calibration: từ 🔴 → 🟢 (Gaoua 2012 direct support)
 
-  Weight KHÁC NHAU theo scale:
-    MACRO (innovation geography lịch sử): ~5-10% (low — chunks + trade dominate)
-    MICRO (individual daily performance): ~25-35% (high — body state matters)
-  → Xem Innovation-Geography.md cho macro analysis
+  ĐIỂM MẠNH:
+    ① Inverted U-curve: CONFIRMED (multiple studies)
+    ② PFC = most vulnerable zone: CONFIRMED (fMRI + blood redirection)
+    ③ Task differential (simple OK, complex FAIL): CONFIRMED (Hancock 2003)
+    ④ Displeasure = cognitive load: CONFIRMED (Gaoua 2012)
+    ⑤ AC impact on learning: CONFIRMED (Park 2020, 10M students)
+    ⑥ Brief cold = NE boost: CONFIRMED (Sramek 2000)
 
-  Climate advantage CÓ THỂ neutralize bằng technology → 🟢 observable (AC, Singapore)
-  NHƯNG AC alone không đủ (§4.4-4.5: stability + double calibration problem)
+  ĐIỂM YẾU / CHƯA VERIFY:
+    ① Double Calibration = SUPPORTED nhưng chưa có study TRỰC TIẾP đo
+      "thermal cortisol oscillation → creative performance" specifically
+    ② Type A vs Type B climate balance = framework inference, chưa empirical
+    ③ Reward balance cultural pattern = CORRELATION, có thể do confounds khác
+    ④ Hardware sensitivity groups = inference từ known COMT variation,
+      chưa có study mapping COMT → thermal cognitive sensitivity specifically
+    ⑤ Stability > absolute value = logical nhưng chưa controlled comparison
 
-  File này = interesting hypothesis worth tracking
-  GIÁ TRỊ CHÍNH: giải thích INDIVIDUAL performance variation theo mùa
-  GIÁ TRỊ PHỤ: 1 factor nhỏ trong innovation geography (xem Innovation-Geography.md)
+  WEIGHT KHÁC NHAU THEO SCALE (giữ nguyên estimate):
+    MACRO (innovation geography lịch sử): ~5-10% (chunks + trade dominate)
+    MICRO (individual daily performance): ~25-35% (body state matters)
+```
+
+---
+
+## 12. Kết Nối {#12-connections}
+
+```
+FRAMEWORK CONNECTIONS (updated 2026-05-11):
+
+  Core-Software.md v1.0: 7-step cycle — step ⑤ PFC affected by body state
+  Core-Hardware.md v1.0: Zone A (PFC) = slowest, highest cost, most vulnerable
+  Cortisol-Baseline.md v2.0 (Body-Base/):
+    → Role ② AMPLIFIER — thermal cortisol = noise amplifier
+    → Role ④ INERTIA — thermal spike persists after return to AC
+    → "Amplifier NOT stress" reframe applies: heat cortisol ≠ "stress"
+      = change-readiness signal mà body KHÔNG cần → wasted bandwidth
+  Body-Feedback-Mechanism.md v1.2 (Body-Base/Body-Feedback/):
+    → Thermal input = SENSORY-DRIVEN (Type B hardware-level)
+    → 4 axes: Direction (dissonance), Magnitude (varies by hardware),
+      Source (nociception-like), Chunk Dynamics (continuous)
+  Reward-Signal-Architecture.md v1.0 (Body-Base/Body-Feedback/):
+    → §6 Type A/B balance — climate shifts which type available
+    → Type B resistant to hedonic treadmill → vùng nóng Type B = sustainable
+    → Execute = Type B pathway (resilient), Imagine = Type A pathway (vulnerable)
+  PFC-Configuration.md v1.0 (PFC/):
+    → Heat extreme → shift TOWARD Config ④ Disconnected (NE flood)
+    → PFC connectivity DOWN + limbic UP in heat (fMRI data)
+  Body-Base.md v2.0 (Body-Base/):
+    → Body = FINAL ARBITER — thermal signal = body saying "giảm PFC"
+    → Model 3+1: thermal input → Component 1 (Vô thức) process → body decision
+    → §5.6 hardware sensitivity = per-person variation (Tier 1 evolution calibrate)
+  Innovation-Geography.md v1.0 (Research/Global/):
+    → §8: macro scale — climate ~5-10%, chunks + trade dominate
+    → File này = micro scale — climate ~25-35%
+  Observation/Boredom.md v1.0: climate → ít Type B → ít direct entertainment
+    → = condition cho Boredom Loại 1 (không có gap + không có gì làm)
+    → Mùa đông bored → push sang Type A exploration
+
+  BACKUP FILES (referenced for historical context):
+    Research/backup/Climate-Cognition.md (bản gốc GIẢ THIẾT 2026-03-22)
+
+RESEARCH CITATIONS (key studies):
+  🟢 Seppänen, Fisk & Lei (2006) — temperature-productivity curve, peak ~22°C
+  🟢 Pilcher, Nadler & Busch (2002) — meta-analysis: inverted U, asymmetry heat/cold
+  🟢 Hancock & Vasmatzidis (2003) — complex tasks vulnerable, simple resistant
+  🟢 Gaoua et al. (2012) — thermal displeasure = cognitive load (key for §5.4)
+  🟢 Park (2020) — 10M students: 1% learning loss per degree F
+  🟢 Cedeño Laurent et al. (2018) — heat wave: 4.1-13.4% cognitive decline
+  🟢 Sundaram et al. (2013) — fMRI: PFC connectivity DOWN in heat
+  🟢 Wittbrodt & Millard-Stafford (2018) — dehydration meta-analysis
+  🟢 Sramek et al. (2000) — cold water: NE +530%, dopamine +250%
+  🟢 Piil et al. (2021) — cold impairs cognition 15/18 studies
+  🟢 Satish et al. (2012) — CO₂ >1000ppm → decision-making impaired
+  🟢 Meyer et al. (2016) — seasonal cognitive variation (PNAS)
 ```

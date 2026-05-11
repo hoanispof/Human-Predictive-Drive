@@ -22,7 +22,9 @@
 > **Reference:** 00_Overview.md (5 trục), 01_South-Korea.md (5/5 trục ÂM),
 > 06_Israel.md (shared Imagine-Final override), 04_France.md (policy ceiling),
 > Imagine-Final.md §1 (2 tầng, compiled schemas),
-> Chunk.md §3 (vô thức vs PFC)
+> Chunk.md v2.1 (chunk substrate, compile mechanism),
+> Collective-Body.md v1.1 §2 (collective-level schema compile — forced policy = Type C install),
+> Education-Mechanism.md §3.1 (bridge = nguồn ④ External Inject)
 > **⚠️ Data thực + framework interpretation — PHÂN BIỆT RÕ 🟢/🟡/🔴**
 > **Quy ước:** 🟢 Research/data support | 🟡 Suy luận từ framework | 🔴 Hypothesis
 
@@ -542,7 +544,7 @@
 🟡 FRAMEWORK — TẠI SAO TẤT CẢ ĐỀU THẤT BẠI:
 
   ① $500/năm vs $75-95K nuôi con:
-    → = Carrot bridge (Education-Bridge §2) → carrot << cost
+    → = Carrot bridge (Education-Mechanism §3.1, nguồn ④) → carrot << cost
     → = Giống Hàn: $22K vs $272K → "lỗ"
     → = Pháp chi 3.5% GDP VÀ CÓ crèche → VẪN giảm đến 1.56
     → → TQ chi ÍT hơn Pháp → expect ÍT effect hơn
@@ -797,11 +799,13 @@
        → bỏ policy (tầng 2/PFC) → tầng 1 KHÔNG thay đổi
     → Chunk.md §3: vô thức CÓ THỂ compiled schemas
        → one-child = largest demonstration of forced compilation
-    → Connection.md §7.5: Connection × Imagine-Final
+    → Connection.md v3.1 §12: Connection × Imagine-Final
        → 4-2-1 = connection structure BỊ PHÁ by design
+    → Collective-Body.md v1.1 §2: collective-level schema compilation
+       → One-child = largest forced Type C compile in history
     → Cortisol-Baseline.md §3: NET HEALTH = repair − damage
        → 996 = damage CỰC CAO + repair KHÔNG ĐỦ
-    → Education-Bridge.md §2: carrot bridge
+    → Education-Mechanism.md §3.1: Carrot bridge (nguồn ④)
        → $500/năm vs $75-95K = carrot << cost
 
   Birth Rate:

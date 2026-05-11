@@ -20,7 +20,8 @@
 > Dự đoán trajectory. Trục nào đang yếu? Trục nào còn mạnh?
 > So sánh với 4 case trước để xác định vị trí trên spectrum.
 > **Reference:** 00_Overview.md (5 trục), 01_South-Korea.md, 03_China.md,
-> 04_France.md, 06_Israel.md, Imagine-Final.md §1 (2 tầng)
+> 04_France.md, 06_Israel.md, Imagine-Final.md §1 (2 tầng),
+> Connection.md v3.1 §12 (Connection × Imagine-Final)
 > **⚠️ Data thực + framework interpretation — PHÂN BIỆT RÕ 🟢/🟡/🔴**
 > **Quy ước:** 🟢 Research/data support | 🟡 Suy luận từ framework | 🔴 Hypothesis
 
@@ -705,7 +706,7 @@
   Framework Core:
     → Imagine-Final.md §1: competing Imagine-Finals
       (VN: career + tự do ĐANG overtake "gia đình" ở urban)
-    → Connection.md §7.5: Connection × Imagine-Final
+    → Connection.md v3.1 §12: Connection × Imagine-Final
       (VN: extended family = buffer → đang mòn theo urbanization)
     → Cortisol-Baseline.md §3: NET HEALTH = repair − damage
       (VN: 48h/tuần + OT → repair ĐANG bị phá)

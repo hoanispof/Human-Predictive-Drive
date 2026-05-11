@@ -10,12 +10,15 @@
 
 ---
 
+> **Phiên bản:** 1.0 (refined from DRAFT 2026-04-02)
+> **Ngày cập nhật:** 2026-05-11
 > **Trạng thái:** DRAFT — phân loại từ framework, chưa có thực nghiệm trực tiếp
-> **Ngày:** 2026-04-02
 > **Mục đích:** Tách "nhạy cảm" thành các thành phần ĐỘC LẬP, phân loại rõ ràng.
 > Cung cấp khung để quan sát, không phải kết luận.
-> **Reference:** Core-v7.5-Draft.md §1.5 (DRD4 Disturbance Threshold),
-> Modality-Analysis.md (modality dominant), Attention-Spectrum.md (DRD4 spectrum)
+> **Phụ thuộc:** PFC-Hardware.md (DRD4 Disturbance Threshold),
+> Modality.md (modality dominant), Attention-Spectrum.md (DRD4 spectrum),
+> Body-Feedback-Mechanism.md v1.2 (Sensory-Driven pathway),
+> Agent-Mechanism.md v1.0 (SPM F1/F2), Cortisol-Baseline.md v2.0
 > **⚠️ Phân loại = hypothesis — cần validate thực nghiệm**
 > **⚠️ Rất khó đo lường hiện tại — file này = CƠ SỞ quan sát, không phải công cụ chẩn đoán**
 > **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
@@ -70,7 +73,7 @@
   │       ↓ neural signal                                        │
   │  ┌─── TẦNG 2: PROCESSING (não xử lý) ─────────────────┐    │
   │  │  Visual cortex, Auditory cortex, Somatosensory,       │    │
-  │  │  Limbic (emotion), Mirror neurons, VTA+PFC (pattern), │    │
+  │  │  Limbic (emotion), SPM (Agent-Mechanism.md), VTA+PFC,  │    │
   │  │  mPFC (social),...                                     │    │
   │  │                                                       │    │
   │  │  Chất lượng: DOMINANT / TRUNG BÌNH / YẾU              │    │
@@ -149,8 +152,8 @@
   │ Limbic + Insula    │ Process emotion   │ Xúc động dễ, feel sâu,  │
   │                    │ chi tiết + sâu    │ empathy strong             │
   ├────────────────────┼───────────────────┼──────────────────────────┤
-  │ Mirror neurons     │ Simulate người    │ "Feel" người khác đang   │
-  │                    │ khác chi tiết     │ gì, empathy hành vi       │
+  │ SPM F1             │ Simulate trạng    │ "Feel" người khác đang   │
+  │ (Agent-Mechanism)  │ thái người khác   │ gì, empathy (Empathy v2.0)│
   ├────────────────────┼───────────────────┼──────────────────────────┤
   │ VTA + PFC          │ Detect mismatch   │ Thấy mâu thuẫn, pattern │
   │ (Disturbance       │ giữa expectation  │ lỗi, "cái này SAI"       │
@@ -199,7 +202,43 @@
 
 ---
 
-## 6. Honest Assessment
+## 6. v7.8 Lens — Sensitivity Qua Framework Hiện Tại
+
+```
+🟡 MAPPING 2 TẦNG SANG V7.8:
+
+  TẦNG 1 (SENSOR) = Body-Feedback-Mechanism v1.2 — SENSORY-DRIVEN pathway:
+    → Sensor input = external stimulus → body-feedback TRỰC TIẾP
+    → = Type B input (Reward-Signal-Architecture v1.0): hardware-based, no PFC needed
+    → Sensor TỐT = Type B input QUALITY cao → body-feedback chính xác hơn
+    → Sensor KÉM = Type B input NOISE → body-feedback méo → calibration sai
+
+  TẦNG 2 (PROCESSING) = Core-Hardware.md — Zone B/C processing strength:
+    → Processing dominant = cortical area nào DÀY hơn, kết nối MẠNH hơn
+    → Modality.md: mỗi người có modality dominant → process SÂU ở channel đó
+    → SPM F1 dominant = social sensitivity CAO (Empathy v2.0)
+    → VTA+PFC dominant = pattern sensitivity CAO (DRD4 — PFC-Hardware.md)
+
+  TẦNG 1 × TẦNG 2 = COMPOUND:
+    Sensor TỐT + Processing DOMINANT = HIGH signal (Climate-Cognition.md §5.6)
+      → Body-feedback CỰC RÕ → PFC nhận signal MẠNH
+      → Lợi: detect fine-grained → creativity, intuition
+      → Hại: overwhelm dễ → cần environment tối ưu (mát, yên, ổn định)
+    Sensor KÉM + Processing DOMINANT = signal MÉO nhưng process SÂU
+      → Body-feedback từ NOISE → PFC khai thác sai data
+      → = Misattribution: "nhạy" nhưng nhạy với LỖI, không phải reality
+
+  CORTISOL INTERACTION (Cortisol-Baseline v2.0):
+    Cortisol cao → threshold MỌI channel GIẢM → mọi thứ đều "nhạy" hơn
+    → KHÔNG phải sensor tốt hơn — mà amplifier TURNED UP
+    → Role ② AMPLIFIER: cortisol noise CHE signal thật
+    → Giảm cortisol → threshold về bình thường → "nhạy" giảm
+    → = Phải phân biệt: "nhạy vì HARDWARE" vs "nhạy vì CORTISOL CAO"
+```
+
+---
+
+## 7. Honest Assessment
 
 ```
   ESTABLISHED (🟢):
@@ -234,13 +273,27 @@
 ## 7. Kết Nối
 
 ```
-→ Core-v7.5-Draft.md §1.5: DRD4 Disturbance Threshold (pattern detection sensitivity)
-→ Modality-Analysis.md: modality dominant (processing tầng 2)
-→ Attention-Spectrum.md: DRD4 spectrum (novelty-seeking × sensitivity)
-→ Cortisol-Baseline.md: cortisol noise che signal (ảnh hưởng sensitivity perceived)
-→ Connection.md §4: melody calibration (mirror neurons × social sensitivity)
-→ Boredom-Analysis.md §3: sensory channels đói (sensor input cần)
-→ Personal-Melody.md §3: multi-modal sync (nhiều channels phối hợp)
+FRAMEWORK CONNECTIONS (updated 2026-05-11):
+
+→ PFC-Hardware.md (PFC/): DRD4 Disturbance Threshold — pattern detection sensitivity (tầng 2)
+→ Modality.md (Core-Deep-Dive/): modality dominant — processing tầng 2 per channel
+→ Attention-Spectrum.md (PFC/): DRD4 spectrum — novelty-seeking × sensitivity
+→ Cortisol-Baseline.md v2.0 (Body-Base/):
+    Role ② AMPLIFIER — cortisol noise che signal → "nhạy vì cortisol" ≠ "nhạy vì hardware"
+→ Body-Feedback-Mechanism.md v1.2 (Body-Base/Body-Feedback/):
+    Sensory-Driven pathway = tầng 1 sensor input → Type B body-feedback
+    4 axes: Direction × Magnitude × Source × Chunk Dynamics
+→ Reward-Signal-Architecture.md v1.0 (Body-Base/Body-Feedback/):
+    Sensor quality = Type B input quality → affect body-feedback precision
+→ Agent-Mechanism.md v1.0 (Body-Base/Chunk/Agent-Mechanism/):
+    SPM F1 = simulate trạng thái người khác — thay "mirror neurons" (v7.8 reframe)
+→ Empathy.md v2.0 (Observation/): SPM F1 fire on agent = empathy observation
+→ Connection.md v3.1 (Observation/): melody calibration × social sensitivity
+→ Observation/Boredom.md v1.0: sensory channels đói → sensor input cần
+→ Personal-Melody.md (Body-Base/Melody Lens/): multi-modal sync
+→ Climate-Cognition.md v1.0 (Research/):
+    §5.6 Hardware Sensitivity — 3 nhóm (high/medium/low signal)
+    = APPLICATION of Sensor × Processing framework to thermal sensitivity
 ```
 
 ---

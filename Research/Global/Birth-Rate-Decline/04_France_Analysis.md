@@ -18,8 +18,9 @@
 > 01_South-Korea.md (5/5 trục ÂM, $270 tỷ thất bại),
 > 06_Israel.md (shared Imagine-Final override cost),
 > Imagine-Final.md §1 (2 tầng, competing Imagine-Finals),
-> Connection.md §7.5, Cortisol-Baseline.md §3,
-> Education-Bridge.md §2 (carrot bridge)
+> Connection.md v3.1 §12 (Connection × Imagine-Final),
+> Cortisol-Baseline.md v2.0 §3,
+> Education-Mechanism.md §3.1 (bridge = nguồn ④ External Inject)
 > **⚠️ Data thực + framework interpretation — PHÂN BIỆT RÕ 🟢/🟡/🔴**
 > **Quy ước:** 🟢 Research/data support | 🟡 Suy luận từ framework | 🔴 Hypothesis
 
@@ -711,10 +712,10 @@
       (Pháp: KHÔNG CÓ shared Imagine-Final tương đương Israel)
     → Cortisol-Baseline.md §3: NET HEALTH = repair − damage
       (Pháp: repair AVAILABLE nhưng không ENFORCED)
-    → Education-Bridge.md §2: carrot bridge
+    → Education-Mechanism.md §3.1: Carrot bridge (nguồn ④)
       (Allocations = better than carrot — ongoing support, not lump-sum
        → nhưng VẪN không fix desire)
-    → Connection.md §7.5: Connection × Imagine-Final
+    → Connection.md v3.1 §12: Connection × Imagine-Final
       (Pháp: connection VỪA — crèche community nhưng không extended family)
 
   Birth Rate:

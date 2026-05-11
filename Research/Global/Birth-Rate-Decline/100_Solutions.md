@@ -13,13 +13,15 @@
 
 ---
 
-> **Trạng thái:** v1.0 — synthesized từ 6 case studies
-> **Ngày:** 2026-03-31
+> **Trạng thái:** v1.1 — synthesized từ 6 case studies + cross-refs v7.8
+> **Ngày:** 2026-03-31 (updated: 2026-05-11 cross-refs)
 > **Mục đích:** Định nghĩa ĐÍCH (Imagine-Final) + 3 Layers cần fix +
 > diagnostic framework (chẩn đoán đúng trap) + principles (KHÔNG phải prescriptions)
-> **Reference:** 00_Overview.md (3 Layers + 4 Traps),
+> **Reference:** 00_Overview.md v2.1 (3 Layers + 4 Traps),
 > 01_South-Korea.md, 03_China.md, 04_France.md, 05_Finland.md,
-> 06_Israel.md, 09_Vietnam.md
+> 06_Israel.md, 09_Vietnam.md,
+> Compliance-Floor.md v2.0 (Layer 1 ≈ compliance floor concept),
+> Collective-Body.md v1.1 (collective schema compile × Layer 2)
 > **⚠️ Dựa trên framework + 6 case studies — cần real-world validation**
 > **Quy ước:** 🟢 Validated by data | 🟡 Framework inference | 🔴 Hypothesis
 

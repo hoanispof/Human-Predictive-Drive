@@ -1,7 +1,10 @@
 # Fidgeting Analysis — Qua Lăng Kính HPD Framework
 
-> **Trạng thái:** DRAFT — tổng hợp từ research + framework analysis
-> **Ngày:** 2026-03-27
+> **Phiên bản:** 1.0 (refined from DRAFT 2026-03-27)
+> **Ngày cập nhật:** 2026-05-11
+> **Trạng thái:** PHÂN TÍCH — tổng hợp từ research + framework analysis
+> **Phụ thuộc:** Cortisol-Baseline v2.0, OCD-Analysis v2.1, Body-Feedback-Mechanism v1.2,
+> Reward-Signal-Architecture v1.0, PFC-Configuration v1.0, Observation/Boredom v1.0, Observation/Novelty v1.0
 > **Mục đích:** Phân tích fidgeting (rung đùi, bấm bút, vẽ bừa, bóp bóng...)
 > như output tự nhiên của **change-readiness system** khi không có target hành động.
 > Fidgeting = thỏa mãn change-readiness ở mức tối thiểu, hoạt động qua 3 tầng,
@@ -233,6 +236,23 @@ TẦNG CAO NHẤT — KHI FIDGET DRIFT SANG SÁNG TẠO:
 
   Speed: continuous. Cost: motor + chút attention (nhỏ).
   Conscious: bán ý thức (biết đang vẽ nhưng không "cố" vẽ).
+
+  ───────────────────────────────────────────────────────
+  🟡 NOTE — Qua Lăng Kính Type A/B (Reward-Signal-Architecture v1.0):
+
+  Tầng 1 proprioceptive calming = TYPE B reward (direct state):
+    Body-state change (cortisol ↓, HR ↓) = reward TRỰC TIẾP
+    Hardware-based, non-opioid, KHÔNG cần H10 preconditions
+    → Fidgeting calming = fast + cheap + no PFC → đặc trưng Type B
+
+  Tầng 3 micro-novelty = DOPAMINE SIGNALING, không phải Type A:
+    VTA prediction error → dopamine = salience alert (không phải opioid reward)
+    Doodling "vui" = prediction error loop engaging ≠ evaluative reward
+    Type A cần H10 + PFC evaluation → KHÔNG match fidget profile
+
+  → Fidgeting = chủ yếu Type B reward pathway
+  → Consistent: fast, unconscious, hardware-level, no PFC evaluation
+  ───────────────────────────────────────────────────────
 ```
 
 ---
@@ -399,6 +419,29 @@ TẠI SAO NHẦM LẪN:
   = KHÁC nhau vì NGUYÊN NHÂN loop hoàn toàn khác
   = Fidgeting: loop CÓ MỤC ĐÍCH + TỰ DỪNG
   = OCD: loop KHÔNG MỤC ĐÍCH + KHÔNG TỰ DỪNG
+
+  ───────────────────────────────────────────────────────
+  🟡 SYNC — OCD-Analysis v2.1 (3-Tuyến Model):
+
+  OCD v2.1 xác định 3 tuyến dừng — fidgeting khác ở CẢ BA:
+
+  Tuyến 1 — "Done" detector (OFC-caudate circuit):
+    OCD: circuit HỎNG → signal "chưa xong" dù đã xong → loop vô tận
+    Fidget: circuit BÌNH THƯỜNG → arousal ổn = "done" → TỰ DỪNG
+
+  Tuyến 2 — Satisfaction threshold (serotonin system):
+    OCD: serotonin ↓ → uncertainty bias ↑ → threshold KHÔNG BAO GIỜ đạt
+    Fidget: serotonin BÌNH THƯỜNG → threshold đạt khi arousal ổn
+    ⚠️ KEY (OCD v2.1): serotonin ↓ = AMPLIFIER, không phải ROOT CAUSE
+    → PANDAS chứng minh: sửa hardware tuyến 1 → OCD hết → serotonin tự phục hồi
+
+  Tuyến 3 — PFC override (dlPFC conscious control):
+    OCD: PFC override = cuối cùng, exhausting, không bền vững
+    Fidget: KHÔNG CẦN PFC override — hệ thống tự điều chỉnh
+
+  = Fidgeting = cả 3 tuyến HOẠT ĐỘNG BÌNH THƯỜNG
+  = OCD = tuyến 1 + tuyến 2 hỏng, tuyến 3 không đủ bù
+  ───────────────────────────────────────────────────────
 ```
 
 ---
@@ -1056,6 +1099,12 @@ CÁI HYPOTHESIS (framework contribution):
      Nhưng: "PFC suppress cost" as specific mechanism = chưa đo trực tiếp
   🟡 Beach test = quick screen fidgeting vs OCD:
      Logic mạnh, clinically useful, nhưng chưa validated as diagnostic tool
+  🟡 OCD 3-tuyến sync: fidgeting = cả 3 tuyến dừng BÌNH THƯỜNG:
+     Combined insight OCD v2.1 + Fidgeting Analysis → consistent
+     → NHƯNG: combined model chưa trực tiếp test
+  🟡 Type A/B mapping: fidgeting calming = Type B reward (direct state):
+     Consistent với RSA v1.0 profile (fast, hardware, non-opioid)
+     → NHƯNG: specific mapping = framework inference, chưa direct measurement
 
   🔴 GIẢ THUYẾT MỚI (testable predictions):
   → Modality-specific fidgeting: somatic→physical, verbal→mental, visual→doodle
@@ -1149,53 +1198,66 @@ FDG-10: Change-readiness vs arousal — distinguishable?
 ## 15. Kết Nối {#15-kết-nối}
 
 ```
-→ Cortisol-Baseline.md ⭐ (CORE CONNECTION):
+→ Cortisol-Baseline.md v2.0 ⭐ (CORE CONNECTION):
     Fidgeting = output tự nhiên của change-readiness khi bị block
-    Change-readiness (cortisol) = GỐC → fidget = thỏa mãn ở mức tối thiểu
+    Change-readiness (cortisol = amplifier) = GỐC → fidget = thỏa mãn ở mức tối thiểu
     Exercise = scheduled discharge → cortisol baseline ↓ → fidget need ↓
     Chronic stress → chronic change-readiness → chronic fidget → BFRB risk
 
-→ OCD-Analysis.md:
+→ OCD-Analysis.md v2.1:
     Fidgeting vs OCD = cùng "lặp lại" nhưng khác HOÀN TOÀN cơ chế
-    Fidgeting: "done" pipeline OK (change-readiness thỏa mãn → dừng)
-    OCD: "done" pipeline LỖI (signal bẩn → ko dừng)
+    3-tuyến model: fidgeting = cả 3 tuyến BÌNH THƯỜNG (OCD = tuyến 1+2 hỏng)
+    Serotonin = amplifier, not cause (PANDAS proof: sửa hardware → OCD hết)
     BFRB: vùng xám — trajectory §11 nối fidget → OCD spectrum
     DSM-5 xếp BFRB vào OCD spectrum = confirm đường nối tồn tại
 
-→ Novelty-Loop.md:
+→ Observation/Novelty.md v1.0:
     Micro-novelty fidget (vẽ bừa, pen tricks) = novelty loop ở MINIMUM scale
     Spectrum: pure fidget → micro-novelty → full novelty loop
     VTA discriminator: same mechanism (prediction error), different scale
     Drift sang phải = VTA habituation → seek more novelty → same drive
 
-→ Schema operations:
+→ Observation/Boredom.md v1.0:
+    Boredom 2-chiều (dissonance + Imagine-Final clarity)
+    Fidgeting = response to motor channel không được thỏa mãn
+    Change-readiness khi bored = fidget trigger cơ bản nhất
+
+→ Body-Feedback-Mechanism.md v1.2 + Reward-Signal-Architecture.md v1.0:
+    Fidgeting calming = Type B reward (direct body-state, non-opioid)
+    Tầng 1 proprioceptive = Sensory-Driven input (Body-Feedback)
+    Type A reward (evaluative, opioid) KHÔNG involved ở fidgeting bình thường
+
+→ Schema operations (Compile-Taxonomy v1.1):
     Fidget schema = compiled motor pattern (rung đùi, bấm bút)
     Trajectory §11: compile depth quyết định bước nào (fidget→habit→BFRB)
     Compiled từ nhỏ: baby rocking, thumb-sucking = proto-fidget
     HRT (redirect) hoạt động VÌ: redirect cùng change-readiness sang schema khác
 
-→ PFC-Analysis.md:
+→ PFC/PFC-Configuration.md v1.0:
     "Ngồi yên" khi stress = PFC suppress motor = TỐN bandwidth
     Fidget = GIẢI PHÓNG PFC → attention IMPROVE
+    PFC Mode ① Normal = fidget self-regulates
     PFC capacity × fidget need = interaction quan trọng
 
-→ Attention-Spectrum.md (DRD4/ADHD):
+→ PFC/Attention-Spectrum.md (DRD4/ADHD):
     ADHD/DRD4-7R: dopamine baseline thấp → fidget = COMPENSATORY
     Fidgeting ở ADHD = self-medication (dopamine boost via movement)
     Bắt trẻ ADHD ngồi yên = COUNTER-PRODUCTIVE
 
-→ Status-Analysis-v2.md (modality):
+→ Modality.md:
     Modality-specific fidgeting = new prediction (🔴)
     Somatic→physical, Verbal→mental, Visual→visual fidget
     Verbal mental fidget → rumination risk (unique to verbal-dominant)
 
-→ Core (Satisfaction Signal):
-    Fidgeting "done" signal = change-readiness thỏa mãn → schema deactivate
+→ Core-Software.md v1.0:
+    7-step cycle: fidgeting = Step ①→④ feedback loop tự điều chỉnh
+    Change-readiness satisfied → chunk deactivate → fidget tự dừng
     = Satisfaction signal HOẠT ĐỘNG BÌNH THƯỜNG (contrast OCD)
 
-→ Addiction-Analysis-v2.md:
-    BFRB reward loop (relief = negative reinforcement) ≈ addiction mechanism
+→ Hijack/Addiction-Analysis.md v3.0:
+    BFRB reward loop (relief = negative reinforcement) ≈ hijack mechanism
     Trajectory bước 4→5: habit → BFRB = giống habit → addiction pathway
+    Type B reward hijack: proprioceptive relief compile sâu → BFRB
 ```
 
 ---

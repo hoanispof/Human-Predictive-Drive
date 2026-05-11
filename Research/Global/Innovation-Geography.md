@@ -1,12 +1,14 @@
 # Innovation Geography — Tại Sao Sáng Tạo Xuất Hiện Ở Đâu?
 
+> **Phiên bản:** 1.0 (refined from GIẢ THIẾT 2026-03-22)
+> **Ngày cập nhật:** 2026-05-11
 > **Trạng thái:** GIẢ THIẾT — Pattern recognition từ lịch sử + giải thích bằng framework
-> **Ngày:** 2026-03-22
 > **Mục đích:** Nhận diện pattern "Innovation clusters tại Trade Hubs" xuyên suốt lịch sử,
 > giải thích cơ chế bằng framework (chunks + PFC + resources)
-> **Reference:** Core-v7.8-Draft.md (core framework), Schema.md (observation parameter),
+> **Phụ thuộc:** Core-Software.md v1.0 (core framework), Schema.md (observation parameter),
 > Imagination.md (PFC cần chunks), Climate-Cognition.md (climate factor),
-> Macro-Civilization.md (civilization dynamics)
+> Conflict-Dynamics.md (competition formula), Knowledge-Flow.md (baseline shift),
+> Discovery-vs-Expansion.md (Sense→Verify→Scale), Collective-Body.md v1.1 (AI = Cấp 2 cá nhân)
 > **⚠️ Đây là PATTERN RECOGNITION — không phải nghiên cứu lịch sử chuyên sâu.**
 > **⚠️ Cần historian review. Data ở đây là overview, không exhaustive.**
 > **Quy ước:** 🟢 Historical fact | 🟡 Suy luận từ framework | 🔴 Giả thuyết
@@ -806,6 +808,14 @@ Nếu "trade hub = innovation" ĐÚNG tuyệt đối, phải giải thích:
   Công thức giai đoạn 3:
     Innovation = asking right questions × intuition × judgment × AI access
     Geography weight: ~5-10% (chỉ còn qua body/climate effect)
+
+  🟡 Collective-Body lens (Collective-Body.md v1.1):
+    Era 1 (Trade Hub): chunks TỤ VỀ vật lý → phải ĐẾN nơi collective tụ về
+    Era 2 (Internet): collective chunks ONLINE → nhưng cần filter, dịch, tổng hợp
+    Era 3 (AI): AI = "Cấp 2 cá nhân" — external tool biến collective chunks → PERSONAL access
+    → Mỗi người có AI = có "personal collective" — chunks toàn nhân loại, accessible ngay
+    → Trade hub INTERNALIZED — không còn cần physical hay virtual destination
+    → Trust vẫn là bridge DUY NHẤT (§5): AI output cần trust gate trước khi compile
 ```
 
 ### 9.4 Tổng quan 3 giai đoạn
@@ -1117,20 +1127,32 @@ Observation "trade/cities → innovation" KHÔNG hoàn toàn mới:
 ## 14. Kết Nối {#14-connections}
 
 ```
-FRAMEWORK CONNECTIONS:
-  Core-v7.8-Draft.md: PFC Draft cần chunks → trade hub = chunk source
-  Schema.md: observation parameter — chunks là substrate
-  Imagination.md: imagination quality = f(chunks available)
-  Climate-Cognition.md: climate = modifier nhỏ ở macro, lớn hơn ở micro
-  Drive.md: competition = optimal Pressure for innovation
-  Conflict-Dynamics.md: Conflict = Overlap × Scarcity × Commitment
+FRAMEWORK CONNECTIONS (updated 2026-05-11):
+
+  Core-Software.md v1.0: 7-step cycle — PFC Draft cần chunks → trade hub = chunk source
+    (thay Core-v7.8-Draft.md — đã tách thành 3 Core Maps)
+  Schema.md (Body-Base/Schema/): observation parameter — chunks là substrate
+  Imagination.md (PFC/Imagination/): imagination quality = f(chunks available)
+  Climate-Cognition.md (Research/): climate = modifier nhỏ ở macro, lớn hơn ở micro
+  Drive.md (Observation/): competition = optimal Pressure for innovation
+  Conflict-Dynamics.md (Domain/): Conflict = Overlap × Scarcity × Commitment
     → §2.4 nối formula vào: competition trong domain → forced expansion
     → Speciation analogy: cùng niche → cạnh tranh → niche split
-  Knowledge-Flow.md §3: baseline shift → old domain obsolete → new domain
-  Global-Melody.md §6: domain melody + center crowded → edge differentiation
-  Macro-Civilization.md: civilization innovation patterns
-  Chemical-Enhancement-Notes.md: chemicals help PROCESS chunks, nhưng chunks phải CÓ trước
-  Somatic-Articulation-Loop.md: somatic thinker + AI = chunk + intuition partnership
+  Knowledge-Flow.md §3 (Domain/): baseline shift → old domain obsolete → new domain
+    → §6 speed tăng = knowledge accumulation compound
+  Global-Melody.md §6 (Body-Base/Melody Lens/): domain melody + center crowded → edge differentiation
+  Somatic-Articulation-Loop.md (PFC/Imagination/): somatic thinker + AI = chunk + intuition partnership
+
+  NEW CONNECTIONS (v1.0):
+  Discovery-vs-Expansion.md (Domain/): §5 Châu Âu = Expansion phase (Scale từ chunks đã Verified)
+    → Innovation = Sense + Verify + Scale — trade hub accelerate cả 3
+  Collective-Body.md v1.1 (Body-Base/): §9 AI era = Cấp 2 cá nhân
+    → Trade hub = collective chunk aggregation → AI internalize thành personal access
+    → Trust = ONLY bridge (§5) — AI output cần trust gate
+
+  BACKUP FILES (referenced for historical context only):
+  Macro-Civilization.md → Research/Mismatch-Patterns/backup/ (civilization dynamics)
+  Chemical-Enhancement-Notes.md → Research/Hijack/backup/ (chemicals help PROCESS chunks)
 
 RELATED SCHOLARS (for further research):
   Jane Jacobs, Jared Diamond, Matt Ridley, Paul Romer,

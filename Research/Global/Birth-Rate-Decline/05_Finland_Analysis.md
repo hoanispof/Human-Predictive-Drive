@@ -20,7 +20,8 @@
 > **Reference:** 00_Overview.md (5 trục), 04_France.md (policy ceiling),
 > 06_Israel.md (shared Imagine-Final override), 01_South-Korea.md,
 > Imagine-Final.md §1 (competing Imagine-Finals),
-> Connection.md §7.5, Cortisol-Baseline.md §3
+> Connection.md v3.1 §12 (Connection × Imagine-Final),
+> Cortisol-Baseline.md v2.0 §3
 > **⚠️ Data thực + framework interpretation — PHÂN BIỆT RÕ 🟢/🟡/🔴**
 > **Quy ước:** 🟢 Research/data support | 🟡 Suy luận từ framework | 🔴 Hypothesis
 
@@ -671,7 +672,7 @@
       (Phần Lan: workism = career Imagine-Final >> family Imagine-Final)
     → Imagine-Final.md §6: shared Imagine-Final
       (Phần Lan: 0 lớp shared Imagine-Final → collapse)
-    → Connection.md §7.5: Connection × Imagine-Final
+    → Connection.md v3.1 §12: Connection × Imagine-Final
       (Phần Lan: 44% solo → connection MINIMAL → Imagine-Final "gia đình" không feed)
     → Cortisol-Baseline.md §3: NET HEALTH = repair − damage
       (Phần Lan: repair TIME ok → nhưng SAD + alcohol undermine quality)

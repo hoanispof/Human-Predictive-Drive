@@ -18,9 +18,10 @@
 > **Reference:** 00_Overview.md (5 trục tổng thể),
 > 01_South-Korea.md (CONTRAST — 5 trục ĐỀU ÂM),
 > Imagine-Final.md §1 (2 tầng) + §6 (shared Imagine-Final),
-> Connection.md §7.5 (Connection × Imagine-Final per layer),
+> Connection.md v3.1 §12 (Connection × Imagine-Final),
 > Global-Melody.md §2 (shared Imagine-Final = nhóm hoạt động),
-> Conflict-Dynamics.md §7 (scarcity = engine)
+> Conflict-Dynamics.md §7 (scarcity = engine),
+> Collective-Body.md v1.1 (collective-level schema persistence)
 > **⚠️ Data thực + framework interpretation — PHÂN BIỆT RÕ 🟢/🟡/🔴**
 > **Quy ước:** 🟢 Research/data support | 🟡 Suy luận từ framework | 🔴 Hypothesis
 
@@ -279,7 +280,7 @@
       → Shabbat = ritual DUY TRÌ connection per layer:
         L2 (belonging): "tôi thuộc về gia đình này"
         L3 (meaning): "tôi là phần của dòng dõi 3000 năm"
-      → Connection × Imagine-Final (ref: Connection.md §7.5):
+      → Connection × Imagine-Final (ref: Connection.md v3.1 §12):
         → Connection MỖI TUẦN → Imagine-Final "gia đình" được FEED liên tục
         → ≠ Hàn: connection suy giảm → Imagine-Final "gia đình" KHÔNG feed
       → = Shabbat = weekly REINFORCEMENT cho shared Imagine-Final
@@ -811,8 +812,8 @@
        millennia → override PFC cost-calculation
     → Imagine-Final.md §6: shared Imagine-Final = collaborate
        (Israel = 4 lớp shared Imagine-Final chồng chất)
-    → Connection.md §7.5: Connection × Imagine-Final per layer
-       (Israel: Shabbat = weekly reinforce L2-L3 connection + Imagine-Final)
+    → Connection.md v3.1 §12: Connection × Imagine-Final
+       (Israel: Shabbat = weekly reinforce connection + Imagine-Final)
     → Global-Melody.md §2: shared Imagine-Final = nhóm hoạt động
        (Israel = quốc gia hoạt động TRÊN shared Imagine-Final)
     → Conflict-Dynamics.md §7: scarcity = engine
@@ -821,7 +822,7 @@
        (Israel: stress CAO nhưng repair CÓ CẤU TRÚC → NET > 0)
 
   Research:
-    → Education-Bridge.md §2: carrot bridge
+    → Education-Mechanism.md §3.1: bridge types (nguồn ④)
        (Israel IVF = ENABLE bridge, không phải carrot bridge)
 
   Birth Rate:

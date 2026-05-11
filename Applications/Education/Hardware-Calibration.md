@@ -1,16 +1,30 @@
 # Hardware Calibration — Nhận Diện + Điều Chỉnh Per-Individual
 
-> **Trạng thái:** DRAFT
-> **Ngày:** 2026-04-03
-> **Mục đích:** NL3 (per-hardware calibration) THỰC HÀNH —
+> **Phiên bản:** v1.0 (rewrite from DRAFT 2026-04-03)
+> **Ngày cập nhật:** 2026-05-11
+> **Mục đích:** Per-hardware calibration THỰC HÀNH —
 > từ "tại sao cần per-individual" → "LÀM THẾ NÀO nhận diện + điều chỉnh"
 > **Vị trí:** TẦNG 4 — Applications, KHUNG per-individual (brain-based)
-> **Tiền đề:**
-> Core-v7.5-Draft.md (hardware parameters gốc),
-> Education-Principles.md (NL3: per-hardware calibration),
-> Education-System.md (system design — §2-§4 per-stage, §7 teacher role)
-> **Tham chiếu:** backup/Education/00_Overview.md §4 (nhận diện học sinh),
-> §2.1 (nhận diện trước can thiệp sau)
+> **Phụ thuộc:**
+>   Core-Hardware.md v1.0 (4 zones A/B/C/D, hardware profiles),
+>   PFC-Hardware.md v1.1 (DRD4, COMT — individual parameters),
+>   Modality.md v1.0 (6 encoding channels),
+>   Cortisol-Baseline.md v2.0 (amplifier, 5 Roles, direction > level),
+>   Body-Base.md v2.0 (Model 3+1, interoception),
+>   Connection.md v3.1 (social brain, SPM × PR),
+>   Agent-Mechanism.md v1.0 (SPM F1 — simulate others),
+>   Education-Mechanism.md v1.0 (§2.3 Cost Formula, §2.2 Direction > Level),
+>   Education-System.md v2.0 (§2-§4 per-stage, §7 teacher role),
+>   Sensitivity-Classification.md v1.0 (3 hardware sensitivity groups),
+>   PFC-Configuration.md v1.0 (6 dynamic modes)
+> **Bản trước:** backup/v1.0/Hardware-Calibration.md (1,456L, DRAFT 2026-04-03)
+> **Thay đổi chính v1.0:**
+>   - Re-base: Core-v7.5 → Core-Hardware + PFC-Hardware + Modality + Body-Base
+>   - Re-base: "NL3/NL6/NL8" → Mechanism §2.x concepts
+>   - Re-base: "mirror neurons" → SPM F1 (Agent-Mechanism.md)
+>   - Add: PFC-Configuration connection (6 modes × education), Sensitivity groups
+>   - Add: Type A/B reward connection trong calibration
+>   - Update: tất cả cross-refs → current file paths
 > **⚠️ File này = DURABLE NHẤT trong folder (brain-based → decades).
 > Chỉ cần update khi neuroscience advance.**
 > **⚠️ Nhận diện ≠ dán nhãn. Continuous, multi-dimensional, evolving.**
@@ -36,12 +50,12 @@
 ```
 NGHỊCH LÝ CỦA "ONE SIZE FITS ALL":
 
-  Education-Principles.md NL3:
-    → Mỗi não KHÁC (gen, development, environment)
-    → Education PHẢI có mechanism adjust per individual
+  Education-Mechanism.md §2.3 (Cost Formula):
+    → cost ≈ f(chunk_gap × hardware_mismatch × direction)
+    → Cùng content + KHÁC hardware → KHÁC cost hoàn toàn
     → "One size fits all" = chỉ FIT average → bỏ lại cả hai đầu
 
-  Education-System.md đã nói:
+  Education-System.md v2.0 đã nói:
     → §2: per-hardware bắt đầu identify Stage 2 (6-12)
     → §3: hardware tendencies RÕ hơn Stage 3 (12-18)
     → §7: teacher skill #1 = NHẬN DIỆN per learner
@@ -55,10 +69,10 @@ NGHỊCH LÝ CỦA "ONE SIZE FITS ALL":
 
 FILE NÀY = BRIDGE GIỮA:
 
-  Core-v7.5-Draft.md          →  File này  →  Education-System.md
-  (hardware PARAMETERS)           (HOW to     (WHERE to apply
-   = cái NÃO CÓ)                 observe +    calibration
-                                  calibrate)   trong system)
+  Core-Hardware.md v1.0       →  File này  →  Education-System.md v2.0
+  PFC-Hardware.md v1.1           (HOW to     (WHERE to apply
+  (hardware PARAMETERS            observe +    calibration
+   = cái NÃO CÓ)                 calibrate)   trong system)
 
   = "Chuyển hardware specs thành ACTIONABLE observation + adjustment"
 
@@ -75,7 +89,7 @@ FILE NÀY = BRIDGE GIỮA:
      → Test 1 lần (IQ test, personality test) = SNAPSHOT → misleading
      → Brain thay đổi: puberty shift, environment shift, experience shift
      → = Cần OBSERVE liên tục + UPDATE liên tục
-     → = "Chẩn đoán liên tục" giống bác sĩ theo dõi bệnh nhân, không phải 1 lần khám
+     → = "Chẩn đoán liên tục" giống bác sĩ theo dõi bệnh nhân
 
   ③ MULTI-DIMENSIONAL, KHÔNG SINGLE SCORE
      → IQ = 1 số → collapse mọi dimension → miss PHẦN LỚN information
@@ -91,7 +105,7 @@ FILE NÀY = BRIDGE GIỮA:
 
 ```
 TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
-  (ref: Core-v7.5-Draft.md §1)
+  (ref: Core-Hardware.md v1.0 §5-§6 — "Hardware sets RANGE, chunks choose POSITION")
 
   Hardware = cái não ĐÃ CÓ khi bắt đầu learn
     → Set RANGE khả năng → experience chọn VỊ TRÍ trong range
@@ -101,7 +115,7 @@ TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
 
   Hardware = GENETICS × DEVELOPMENT × ENVIRONMENT
     → Genetics: DNA set RANGE (VD: COMT Val/Met, DRD4 length, MAO-A activity)
-    → Development (0-6): Child-Dev bộ 3 → wiring TRONG range
+    → Development (0-6): Child-Dev bộ 4 → wiring TRONG range
     → Environment: ongoing → influence VỊ TRÍ trong range
     → = 3 yếu tố → UNIQUE per individual
 
@@ -110,11 +124,11 @@ TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
 
   ┌─────────────────────────────────────────────────────────────────┐
   │ DIM 1: MODALITY BALANCE                                        │
-  │   (ref: Core-v7.5 — Experience modalities)                     │
+  │   (ref: Modality.md v1.0 — 6 encoding channels)               │
   │                                                                 │
   │   Con người encode/process qua NHIỀU modality:                 │
   │     Visual, Auditory, Somatic/Motor, Emotional                 │
-  │     + Verbal (label, transfer, compress)                       │
+  │     + Communication (label, transfer, compress)                │
   │                                                                 │
   │   Mỗi người: TỈ LỆ KHÁC → ảnh hưởng cách HỌC:               │
   │     Somatic-dominant: body "hiểu" trước PFC                   │
@@ -129,7 +143,7 @@ TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
   │   ⚠️ KHÁC "learning styles" (debunked):                       │
   │     "Learning styles" claim: MỖI NGƯỜI chỉ học tốt 1 style   │
   │     Hardware: mỗi người có DOMINANT modality NHƯNG             │
-  │       multi-modal = better FOR ALL (Education-Principles §2.1) │
+  │       multi-modal = better FOR ALL (Mechanism §2.3)            │
   │     = Không phải "chỉ dạy theo style" → mà "biết dominant     │
   │       → leverage dominant + SUPPLEMENT với các modality khác"  │
   │                                                                 │
@@ -140,7 +154,8 @@ TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
 
   ┌─────────────────────────────────────────────────────────────────┐
   │ DIM 2: VTA THRESHOLD / NOVELTY SEEKING                         │
-  │   (ref: Core-v7.5 — PFC-Attention/DRD4)                       │
+  │   (ref: PFC-Hardware.md v1.1 §4 — DRD4 Chunk Threshold,       │
+  │    Observation/Novelty.md v1.0)                                │
   │                                                                 │
   │   VTA = novelty detector → dopamine → "muốn explore tiếp"    │
   │   DRD4 variant ảnh hưởng VTA chunk detection size:            │
@@ -168,15 +183,18 @@ TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
 
   ┌─────────────────────────────────────────────────────────────────┐
   │ DIM 3: CORTISOL SENSITIVITY / STRESS RESPONSE                  │
-  │   (ref: Cortisol-Baseline.md, Core-v7.5)                      │
+  │   (ref: Cortisol-Baseline.md v2.0 — amplifier, 5 Roles)       │
   │                                                                 │
-  │   Cortisol baseline = "mức nền" stress → ảnh hưởng MỌI THỨ   │
+  │   Cortisol = change-readiness AMPLIFIER (không phải "stress    │
+  │   hormone" — Cortisol v2.0 reframe)                            │
   │   Baseline set bởi: genetics + early environment (0-6)         │
   │     → Child-Dev: attachment quality → cortisol baseline        │
   │                                                                 │
   │   SPECTRUM:                                                    │
   │     HIGH baseline (dễ stress):                                 │
   │       → Ít pressure THÊM = đã vượt optimal → PFC suppress     │
+  │       → PFC Mode: dễ shift sang Reallocation/Reconfigured     │
+  │         (PFC-Configuration.md — cortisol push mode shift)      │
   │       → Calibration: LOWER pressure, MORE recovery, safe space │
   │       → ⚠️ "Yếu đuối" = LABEL SAI → = cortisol đã CAO sẵn  │
   │                                                                 │
@@ -184,11 +202,17 @@ TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
   │       → Chịu được MORE challenge → thậm chí CẦN challenge     │
   │       → Calibration: moderate-high challenge OK, routine = bored│
   │       → ⚠️ "Quá thoải mái" có thể = cortisol quá thấp        │
-  │         → cũng sub-optimal (NL6 inverted-U)                   │
+  │         → cũng sub-optimal (inverted-U — Cortisol v2.0 §3)    │
   │                                                                 │
   │   ⚠️ Cortisol baseline CÓ THỂ SHIFT (chậm — weeks/months)    │
   │     → Environment thay đổi → baseline thay đổi                │
   │     → = Không phải "fixed" → nhưng shift CHẬM                 │
+  │                                                                 │
+  │   🔗 Sensitivity-Classification.md v1.0:                       │
+  │     3 groups: High-Signal / Medium / Low-Signal hardware       │
+  │     → High-Signal person + moderate pressure = already HIGH    │
+  │     → Low-Signal person + moderate pressure = vừa đủ           │
+  │     → = CÙNG pressure level, KHÁC hardware → KHÁC response    │
   │                                                                 │
   │   🟢 Cortisol baseline, HPA axis = well-established           │
   │   🟡 Per-individual calibration for education = derived        │
@@ -196,10 +220,12 @@ TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
 
   ┌─────────────────────────────────────────────────────────────────┐
   │ DIM 4: PFC DEVELOPMENT PACE                                    │
-  │   (ref: Core-v7.5 — PFC Parameters)                           │
+  │   (ref: PFC-Hardware.md v1.1 §1-§3, Core-Hardware.md §2)      │
   │                                                                 │
   │   PFC mature ~25 tuổi TRUNG BÌNH → nhưng PACE khác per person │
-  │   PFC-Capacity + PFC-Clear-Speed (COMT) = khác per individual  │
+  │   PFC-Quality + Clear Speed (COMT) = khác per individual       │
+  │     (PFC-Hardware.md v1.1: COMT Val/Val = clear nhanh,         │
+  │      Met/Met = clear chậm nhưng focus tốt hơn)                │
   │                                                                 │
   │   SPECTRUM:                                                    │
   │     FAST PFC development:                                      │
@@ -215,7 +241,7 @@ TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
   │       → Calibration: concrete → abstract DẦN DẦN, patience    │
   │         → "Chờ não ready" ≠ "không dạy" → = dạy ĐÚNG LEVEL   │
   │                                                                 │
-  │   COMT Val/Met variant:                                        │
+  │   COMT Val/Met variant (PFC-Hardware.md v1.1 §3):             │
   │     Val/Val: PFC clear NHANH → good under stress, less focus   │
   │     Met/Met: PFC clear CHẬM → better sustained focus, stress-  │
   │              vulnerable                                         │
@@ -228,16 +254,18 @@ TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
 
   ┌─────────────────────────────────────────────────────────────────┐
   │ DIM 5: SOCIAL PROCESSING NEEDS                                 │
-  │   (ref: Core-v7.5 — Body-Base L3 Status/Protect)              │
+  │   (ref: Connection.md v3.1, Agent-Mechanism.md v1.0 — SPM F1) │
   │                                                                 │
-  │   Social brain = oxytocin circuits, mirror neurons, status     │
-  │   hierarchy → ảnh hưởng cách learn TRONG NHÓM                 │
+  │   Social brain = oxytocin circuits, SPM F1 function (simulate  │
+  │   others' states — Agent-Mechanism.md), status hierarchy       │
+  │   → ảnh hưởng cách learn TRONG NHÓM                           │
   │                                                                 │
   │   SPECTRUM:                                                    │
   │     HIGH social needs:                                         │
   │       → Learn tốt TRONG NHÓM → peer collaboration = boost     │
   │       → Social approval = bridge MẠNH                          │
   │       → Isolation = cortisol source → hại learning             │
+  │       → SPM F1 active → learn qua observe + simulate others   │
   │       → Calibration: group work, peer teaching, collaborative  │
   │                                                                 │
   │     LOW social needs:                                          │
@@ -255,10 +283,11 @@ TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
 
   ┌─────────────────────────────────────────────────────────────────┐
   │ DIM 6: BODY-BASE DOMINANCE                                     │
-  │   (ref: Core-v7.5 — Body-Base 4 layers, Education-Principles  │
-  │    §2.5)                                                       │
+  │   (ref: Body-Base.md v2.0 — Model 3+1, interoception)         │
   │                                                                 │
   │   Body-base = "gut feeling", interoception, somatic processing │
+  │   Body-Base v2.0: "Body evaluates PATTERNS, not reality"      │
+  │   → Body tính TRƯỚC, PFC observe SAU                          │
   │   Mỗi người: body signal MẠNH/YẾU khác nhau                  │
   │                                                                 │
   │   SPECTRUM:                                                    │
@@ -300,6 +329,14 @@ TỔNG HỢP — HARDWARE PROFILE = 6 DIMENSIONS:
   ⚠️ 6 dimensions này = framework selection — KHÔNG claim đây là
      TẤT CẢ dimensions relevant cho education. Có thể thiếu.
      Nhưng: 6 này = ACTIONABLE cho education calibration.
+
+  🔗 V7.8 CONNECTION — Type A/B Reward (RSA v1.0):
+     → Hardware profile ảnh hưởng CẢ 2 loại reward:
+       Type A (evaluative, opioid): per-hardware khác ngưỡng "đáng"
+       Type B (hardware-direct): per-hardware khác loại body signal
+     → Somatic-dominant: Type B reward qua MOVEMENT mạnh
+     → Verbal-dominant: Type A reward qua UNDERSTAND mạnh
+     → = Calibration cần biết: reward TYPE nào dominant cho learner NÀY
 ```
 
 ---
@@ -507,7 +544,7 @@ MỤC ĐÍCH SECTION NÀY:
 NGUYÊN TẮC CALIBRATION:
 
   ① ADJUST METHOD, KHÔNG ADJUST STANDARD
-     → Depth target = GIỐNG cho tất cả (NL8)
+     → Depth target = GIỐNG cho tất cả (Mechanism §2.9)
      → CÁCH đạt depth = KHÁC per hardware
      → "Mọi người đều phải biết đọc → CÁCH HỌC đọc = khác"
 
@@ -562,10 +599,6 @@ VERBAL/VISUAL-DOMINANT LEARNER:
     → Written analysis, essays, verbal explanation = NATURAL
     → Nhưng: vẫn NÊN include experiential component (multi-modal = better for all)
 
-  Adjust Bridge:
-    → Verbal praise, written feedback = resonate
-    → "Explain to me why" = ENGAGING task (not punishment)
-
   ⚠️ Sai lầm phổ biến:
     → System hiện tại = DESIGNED cho verbal/visual → nhóm này "giỏi" = confirmation bias
     → "Giỏi" ≠ "hardware fit system" → = "system fit hardware CỦA HỌ"
@@ -581,16 +614,12 @@ HIGH-VTA LEARNER (novelty-seeking):
     → Project-based: mỗi project = NOVELTY source
     → Choice: cho chọn CÁCH approach task → novelty từ autonomy
     → Movement: physical + mental variety → VTA fire
-    → Gamification: CÓ THỂ work → nhưng ⚠️ inflation risk (Bridge §2)
+    → Gamification: CÓ THỂ work → nhưng ⚠️ inflation risk (Mechanism §3.1)
 
   Adjust Environment:
     → ĐỪNG ép sit still quá lâu → cho phép movement
     → Variety trong daily schedule → NOT same routine every day
     → Multiple projects CÙNG LÚC có thể OK (≠ "không tập trung")
-
-  Adjust Assessment:
-    → Varied formats (present, build, write, perform — rotate)
-    → Timed challenges CÓ THỂ motivate (novelty from urgency)
 
   Adjust Bridge:
     → Curiosity = STRONG natural bridge → leverage
@@ -599,8 +628,8 @@ HIGH-VTA LEARNER (novelty-seeking):
 
   ⚠️ Common confusion:
     → High-VTA + boring environment = RESTLESS → label "ADHD"
-    → Nhưng: high-VTA ≠ ADHD (ADHD = clinical diagnosis, high-VTA = hardware tendency)
-    → Many "ADHD" students = high-VTA + MONOTONOUS environment → environment mismatch
+    → Nhưng: high-VTA ≠ ADHD (ADHD = clinical, high-VTA = hardware tendency)
+    → Many "ADHD" students = high-VTA + MONOTONOUS environment → mismatch
     → = Adjust environment TRƯỚC → nếu vẫn struggle → clinical assessment
 
 
@@ -615,7 +644,6 @@ LOW-VTA LEARNER (routine-comfortable):
   Adjust Environment:
     → Predictable schedule → LOW anxiety
     → Sudden change = DISRUPTIVE → prepare in advance
-    → Quiet, orderly space = OPTIMAL
 
   Adjust Bridge:
     → Progress tracking = motivating (see advancement over time)
@@ -625,7 +653,6 @@ LOW-VTA LEARNER (routine-comfortable):
   ⚠️ Common confusion:
     → Low-VTA + high-novelty environment = OVERWHELMED → label "anxious"
     → System biased toward variety → low-VTA = "không hòa nhập"
-    → = KHÔNG phải vấn đề → = hardware preference → respect it
 ```
 
 ### DIM 3 — Cortisol Sensitivity: Calibration
@@ -636,6 +663,7 @@ HIGH CORTISOL SENSITIVITY:
   Adjust Pressure Level:
     → LOWER pressure than class average
     → Safe to fail: "sai = learn, không phải sai = punish"
+    → Direction > Level (Mechanism §2.2): LUÔN novelty-direction cho nhóm này
     → Prepare for changes: warn before transitions
     → Recovery time: MORE breaks, MORE downtime
 
@@ -645,16 +673,12 @@ HIGH CORTISOL SENSITIVITY:
     → Oral in private > presentation in front of class
     → ⚠️ Exam performance ≠ actual knowledge (cortisol suppress PFC)
       → NẾU exam score << daily performance → cortisol issue, NOT knowledge issue
+      → PFC Mode: Reallocation (PFC-Configuration.md) → performance DROP dưới capacity
 
   Adjust Bridge:
-    → Threat = TUYỆT ĐỐI TRÁNH (đã ở inverted-U peak)
+    → Imposed adult threat (Mechanism §3.3 Type 3) = TUYỆT ĐỐI TRÁNH
     → Safety + curiosity = primary bridges
     → Social pressure = CŨNG là cortisol source → careful with group competition
-
-  Adjust Environment:
-    → Predictable, safe, consistent
-    → Teacher = trusted, not threatening
-    → "Nhà = safe space" → parent coordination CRITICAL
 
   ⚠️ QUAN TRỌNG:
     → "Yếu đuối" = LABEL SAI → = cortisol baseline ĐÃ CAO
@@ -666,7 +690,7 @@ LOW CORTISOL SENSITIVITY (resilient):
 
   Adjust Pressure Level:
     → CAN handle more challenge → thậm chí CẦN challenge
-    → Too comfortable = cortisol quá thấp = PE ≈ 0 = bored
+    → Too comfortable = cortisol quá thấp → bored
     → Moderate competition CÓ THỂ motivate
     → Deadlines, public milestones = OK
 
@@ -827,6 +851,12 @@ REFRAME CỐT LÕI:
     → KHÔNG phải "bệnh" (trừ khi gây suffering) → = "cấu hình khác"
     → CÙNG principles, KHÁC calibration settings
 
+  🔗 Sensitivity-Classification.md v1.0:
+    → Tầng 1 = Sensory-Driven Type B input (hardware sensitivity)
+    → Tầng 2 = Zone B/C processing (amplification)
+    → Neurodivergent individuals: thường ở EXTREME sensitivity positions
+    → = Hardware sensitivity × environment = thresholds KHÁC
+
   ⚠️ QUAN TRỌNG:
     → File này KHÔNG thay thế clinical diagnosis hoặc specialist
     → File = FRAMEWORK LENS → giúp HIỂU qua hardware mechanism
@@ -862,7 +892,7 @@ QUA FRAMEWORK LENS 🟡:
       → Choice + autonomy → novelty từ control
       → Interest-based learning → VTA fire → CAN focus
     → Cortisol dimension: often ALSO sensitive
-      → Punishment = ESPECIALLY harmful (double whammy: VTA not fire + cortisol spike)
+      → Imposed threat (Type 3) = ESPECIALLY harmful (double whammy)
       → Positive reinforcement = more effective (nhưng varies → inflation risk)
     → Assessment: varied formats, untimed options, movement-allowed
     → Bridge: curiosity >>> threat / short-term goals > long-term
@@ -881,6 +911,8 @@ QUA FRAMEWORK LENS 🟡:
 
   ASD = extreme position trên DIM 5 (social) + DIM 1 (modality/sensory):
     → Social processing: KHÁC (không thiếu, khác mechanism)
+    → SPM F1 function (Agent-Mechanism.md): calibrated DIFFERENTLY
+      → Không phải "thiếu empathy" → empathy QUA MECHANISM KHÁC
     → Sensory profile: often EXTREME sensitivity (hyper or hypo per modality)
     → = Social bridges (peer approval, group belonging) = WORK DIFFERENTLY
     → = Sensory environment = CRITICAL for learning capacity
@@ -888,17 +920,18 @@ QUA FRAMEWORK LENS 🟡:
   🟢 Neuroscience basis:
     → Social brain differences = established
     → Sensory processing differences = established
-    → Mirror neuron + theory of mind differences = debated but observed
+    → SPM function differences = framework lens (replacing "mirror neuron" framing)
 
-  CALIBRATION cho AUT (framework-based):
-    → Social dimension: EXTREME low (khác, không thiếu)
+  CALIBRATION cho ASD (framework-based):
+    → Social dimension: EXTREME (khác, không thiếu)
       → Solo/1-on-1 = PRIMARY learning context
       → Group work = CÓ THỂ nhưng STRUCTURED, predictable, PREPARED
       → Social bridges (peer approval) = WEAK → dùng bridge khác
       → Interest-based bridge = often VERY STRONG (special interests = VTA match)
     → Modality dimension: often EXTREME sensory sensitivity
       → Sensory audit of learning environment: lights, sounds, textures
-      → Sensory overload = cortisol spike → PFC shutdown → cannot learn
+      → Sensory overload = cortisol spike → PFC Mode shift (Reallocation/Reconfigured)
+        → cannot learn
       → = CONTROL ENVIRONMENT FIRST → learning becomes POSSIBLE
     → Assessment: accommodate sensory + social needs
       → Written > oral presentation (if social anxiety)
@@ -936,7 +969,6 @@ QUA FRAMEWORK LENS 🟡:
       → "Gifted program" grouping = CÓ THỂ help (intellectual peers)
     → Assessment: MUST measure DEPTH, not just speed
       → Fast correct answers = CHƯA ĐỦ → "can you CREATE something new?"
-      → Risk: optimize for speed (competition) instead of depth
 
   ⚠️ Common mistakes:
     → "Gifted = don't need help" → WRONG → need DIFFERENT help
@@ -1027,32 +1059,31 @@ FREQUENCY: CỰC phổ biến — gần như mọi culture
 
 TRACE BACK — thật ra CÓ THỂ là:
 
-  ① KHÔNG CÓ IMAGINE-FINAL (NL4):
+  ① KHÔNG CÓ IMAGINE-FINAL (Mechanism §2.6):
      → Trẻ không biết TẠI SAO phải học cái này
      → Body: "không thấy lý do → không có drive → tại sao phải effort?"
-     → Biểu hiện: không bắt đầu, trì hoãn, "không muốn"
      → Fix: giúp trẻ THẤY "khi biết cái này → cuộc sống tôi thế nào"
      → ≠ "Ép chăm hơn" → = "cho thấy LÝ DO"
 
-  ② BRIDGE SAI (NL5):
+  ② BRIDGE SAI (Mechanism §3):
      → Bridge hiện tại KHÔNG match hardware
      → VD: threat bridge cho trẻ high-cortisol → freeze → "lười"
      → VD: routine bridge cho trẻ high-VTA → bored → "lười"
      → Fix: đổi LOẠI bridge, không tăng LƯỢNG bridge
 
-  ③ WRONG METHOD (NL1 + NL3):
+  ③ WRONG METHOD (Mechanism §2.2 + §2.3):
      → Phương pháp không match hardware
      → VD: lecture-only cho trẻ somatic-dominant → not engaging → "lười"
      → VD: abstract too early cho trẻ slow-PFC → can't follow → give up → "lười"
      → Fix: adjust method per hardware
 
-  ④ CORTISOL QUÁ CAO (NL6):
+  ④ CORTISOL QUÁ CAO (Cortisol v2.0 — Role ④ Inertia):
      → Trẻ đã ở descending limb of inverted-U → PFC suppress
      → Biểu hiện: shutdown, withdrawal, "không muốn làm gì"
      → Trông giống "lười" → thật ra = FREEZE response
      → Fix: HẠ cortisol TRƯỚC → motivation sẽ return
 
-  ⑤ FORCED SOLDIER STATE:
+  ⑤ FORCED-FIT STATE:
      → Direction SAI hardware → body: "đây không phải con đường của mình"
      → Resistance = body signal "mismatch" → label = "lười"
      → Fix: reassess direction, cho EXPLORE, tìm TRUE alignment
@@ -1081,7 +1112,7 @@ TRACE BACK:
      → Thật ra: CÓ THỂ hiểu NẾU deliver qua hands-on
      → Fix: multi-modal delivery, leverage dominant channel
 
-  ③ MISSING FOUNDATION (NL2):
+  ③ MISSING PREREQUISITE (Mechanism §2.4):
      → Chunk hierarchy: complex cần simple base → base YẾU → complex KHÔNG vào
      → "Không hiểu phân số" có thể = "chưa thật sự hiểu phép chia"
      → Fix: trace back foundation gaps → fill → rồi advance
@@ -1145,18 +1176,18 @@ FREQUENCY: CỰC phổ biến — đặc biệt Stage 3 (12-18)
 
 TRACE BACK:
 
-  ① KHÔNG CÓ IMAGINE-FINAL (NL4) — phổ biến NHẤT:
+  ① KHÔNG CÓ IMAGINE-FINAL — phổ biến NHẤT (Mechanism §2.6):
      → "Tại sao phải học cái này?" → không ai trả lời THUYẾT PHỤC
      → Body: "không thấy đích → không có drive"
      → ≠ "Thiếu động lực" → = "THIẾU LÝ DO"
      → Fix: help build Imagine-Final — exposure, experience, discussion
 
-  ② BRIDGE-DEPENDENT + BRIDGE RÚT (NL5):
+  ② BRIDGE-DEPENDENT + BRIDGE RÚT (Mechanism §3.4):
      → 12 năm "học vì điểm" → vào giai đoạn bridge giảm → motivation COLLAPSE
-     → = "Động lực" thật ra = bridge → bridge rút → không còn gì
-     → Fix: build intrinsic drive (NÊN LÀM TỪ SỚM — §5 Education-System.md)
+     → = "Động lực" thật ra = bridge (nguồn ④) → bridge rút → không còn gì
+     → Fix: build intrinsic drive ①②③ (NÊN LÀM TỪ SỚM)
 
-  ③ FORCED SOLDIER — direction KHÔNG match:
+  ③ FORCED-FIT — direction KHÔNG match:
      → Hardware nói X, system ép Y → body resist → "không muốn"
      → = ĐÚNG: body ĐANG BÁO "đây không phải đường của mình"
      → Fix: reassess direction, cho EXPLORE alternatives
@@ -1177,16 +1208,16 @@ TỔNG HỢP — LABELS → ROOT CAUSES:
   │ Label              │ Root causes (trace back)                  │
   ├────────────────────┼───────────────────────────────────────────┤
   │ "Lười"             │ No Imagine-Final / wrong bridge /         │
-  │                    │ wrong method / cortisol / Forced-Fit  │
+  │                    │ wrong method / cortisol / Forced-Fit      │
   ├────────────────────┼───────────────────────────────────────────┤
   │ "Kém/Ngu"          │ Wrong timing / wrong channel / missing    │
-  │                    │ foundation / cortisol / unidentified LD   │
+  │                    │ prerequisite / cortisol / unidentified LD │
   ├────────────────────┼───────────────────────────────────────────┤
   │ "Hiếu động"        │ High-VTA + monotone / somatic + sit /    │
   │                    │ actual ADHD / anxiety-driven              │
   ├────────────────────┼───────────────────────────────────────────┤
   │ "Không động lực"   │ No Imagine-Final / bridge-dependent /    │
-  │                    │ Forced-Fit / burnout                  │
+  │                    │ Forced-Fit / burnout                      │
   └────────────────────┴───────────────────────────────────────────┘
 
   PATTERN: mỗi label = nhiều possible root causes
@@ -1251,7 +1282,7 @@ STEP 3 — TEST (small adjustment):
 STEP 4 — EVALUATE:
   → Sau 1-2 tuần test → evaluate:
     → Engagement thay đổi? (observation)
-    → Learning outcome thay đổi? (assessment)
+    → Learning outcome thay đổi? (assessment — Mechanism §2.9)
     → Trẻ tự report thay đổi? (when old enough)
   → Nếu POSITIVE → adjustment likely correct → continue
   → Nếu NEUTRAL → thử adjustment khác
@@ -1297,6 +1328,7 @@ ROLE COLLABORATION:
   → Parent: observe ở nhà → share data với teacher → COMPLEMENT school obs
   → Learner (10+): self-report → grows to self-assessment → eventually SELF-CALIBRATE
   → AI tools: data patterns → flag anomalies → suggest adjustments (era-specific)
+    → Mechanism §4: AI = Layer 1 generate + flag, Teacher = Layer 2 calibrate
   → Specialist: khi standard adjustment KHÔNG ĐỦ → clinical assessment
 
   = TEAM EFFORT, không phải 1 person's job
@@ -1352,19 +1384,14 @@ PRACTICAL CONSTRAINTS:
 
   ❌ Thay thế clinical diagnosis
      → File = framework LENS → ADHD/ASD/LD diagnosis = clinical specialist
-     → Framework + clinical = complement
   ❌ Cho biết hardware profile CHÍNH XÁC per individual
-     → File = HOW TO OBSERVE → observation = approximate, not precise
-     → Behavior = noisy signal → triangulation helps but ≠ scan não
+     → Observation = approximate, not precise → behavior = noisy signal
   ❌ Guarantee adjustment sẽ work
-     → 5-step process = ITERATIVE → try + evaluate + adjust
-     → Human complexity > any framework
+     → 5-step process = ITERATIVE → human complexity > any framework
   ❌ Work trong mọi context không cần adapt
      → 40 students/class ≠ 15 students/class → tools KHÁC
-     → Culture ảnh hưởng observation interpretation
   ❌ Cover TẤT CẢ relevant dimensions
      → 6 dimensions = framework selection → CÓ THỂ thiếu
-     → VD: emotional processing, creativity, memory profiles = chưa include
 
 
 ⭐ ĐỘ TIN CẬY:
@@ -1377,14 +1404,10 @@ PRACTICAL CONSTRAINTS:
       → Framework interpretation = 🟡
 
   TRUNG BÌNH 🟡:
-    → §2: Observable indicators = logical, consistent
-      → Chưa validated as standardized observation protocol
+    → §2: Observable indicators = logical, consistent → chưa validated as protocol
     → §3: Calibration strategies = derived, consistent with differentiated instruction
-      → Chưa tested as THIS specific framework
-    → §5: Miscalibrations = pattern analysis, logically consistent
-      → Post-hoc reasoning → needs prospective validation
-    → §6: 5-step process = aligned with RTI model 🟢
-      → 6-dimension specific application = 🟡
+    → §5: Miscalibrations = pattern analysis → needs prospective validation
+    → §6: 5-step process = aligned with RTI model 🟢 → 6-dimension specific = 🟡
 
   THẤP HƠN 🔴:
     → "6 dimensions = ĐỦ cho education calibration" = claim chưa proven
@@ -1398,57 +1421,116 @@ PRACTICAL CONSTRAINTS:
      → 6 dimensions cho TOÀN BỘ human variation = simplified
      → Interaction GIỮA dimensions = complex (chưa model đầy đủ)
      → VD: high-VTA + high-cortisol = rất khác high-VTA + low-cortisol
-       → File address per-dimension → INTERACTIONS = less covered
 
   ⚠️ FALSE PRECISION:
      → Observable indicators CÓ THỂ tạo cảm giác "chính xác"
      → Thật ra: observation = NOISY, interpretation = SUBJECTIVE
-     → Risk: teacher "chẩn đoán" tự tin quá → wrong calibration
      → = Dùng as GUIDE + ITERATE, không phải as DIAGNOSIS
 
   ⚠️ LABEL RISK (ironic):
      → File cảnh báo "đừng label" → nhưng 6 dimensions CÓ THỂ trở thành labels
      → "A là high-VTA" = new label → same problem
      → = LUÔN dùng: "hiện tại A RESPOND tốt hơn với..." (evolving)
-       → KHÔNG: "A LÀ loại high-VTA" (fixed)
 
   ⚠️ DURABILITY CLAIM:
      → File claim "durable nhất (decades)"
      → NHƯNG: neuroscience ĐANG advance → new dimensions có thể emerge
-     → = Durable relative to other files → nhưng NOT eternal
 ```
 
 ```
 KẾT NỐI:
 
-  TẦNG 1 — CORE:
-    → Core-v7.5-Draft.md — hardware parameters (SOURCE)
-    → Cortisol-Baseline.md — cortisol mechanism (DIM 3)
-    → Novelty-Loop.md — VTA/DRD4 mechanism (DIM 2)
-    → Chunk.md — PFC, chunk compilation (DIM 4)
+═══════════════════════════════════════════════════════
+TẦNG 1 — CORE (brain mechanisms)
+═══════════════════════════════════════════════════════
 
-  TẦNG 2 — CHILD-DEVELOPMENT:
-    → Natural-Development.md — early hardware expression (0-6 observation)
-    → Skill-Introduction.md — early learning preferences visible
+→ Core-Hardware.md v1.0 — hardware architecture SOURCE
+  4 zones A/B/C/D, PFC reach gradient, hardware profiles.
+  §5 "Hardware sets RANGE, chunks choose POSITION" = foundation.
 
-  TẦNG 3 — EDUCATION PRINCIPLES:
-    → Education-Principles.md — NL3 (per-hardware = WHY) ⭐
-    → Education-Bridge.md — bridge calibration per hardware (§5, §7)
+→ PFC-Hardware.md v1.1 — individual PFC parameters
+  §3 COMT (Clear Speed), §4 DRD4 (Chunk Threshold).
+  DIM 2 (VTA) + DIM 4 (PFC pace) → trực tiếp reference.
 
-  TẦNG 4 — EDUCATION APPLICATIONS:
-    → Education-System.md — WHERE calibration fits (§2-§4, §7) ⭐
-    → Era-Analysis-2025.md — AI tools for calibration (future)
-    → Curriculum-Framework.md — WHAT to calibrate for
+→ Modality.md v1.0 — 6 encoding channels
+  DIM 1 (Modality Balance) → source mechanism.
 
-  TẦNG 5 — PER-COUNTRY:
-    → Country files — cultural factors affecting observation + calibration
+→ Cortisol-Baseline.md v2.0 — amplifier, 5 Roles
+  DIM 3 (Cortisol Sensitivity) → source mechanism.
+  "Cortisol = amplifier, NOT stress hormone" reframe.
+
+→ Body-Base.md v2.0 — Model 3+1
+  DIM 6 (Body-Base Dominance) → source mechanism.
+  "Body evaluates PATTERNS, not reality."
+
+→ Connection.md v3.1 — social brain
+  DIM 5 (Social Processing) → source mechanism.
+
+→ Agent-Mechanism.md v1.0 — SPM F1
+  Social learning mechanism → thay thế "mirror neurons" framing.
+
+→ Reward-Signal-Architecture.md v1.0 — Type A/B
+  Hardware profile ảnh hưởng reward type balance.
+
+→ PFC-Configuration.md v1.0 — 6 dynamic modes
+  Cortisol push PFC mode shift → education performance impact.
+
+→ Sensitivity-Classification.md v1.0 — 3 groups
+  High/Medium/Low-Signal hardware → per-individual pressure calibration.
 
 
-  FLOW:
-    Core (mechanism) → File này (observe + calibrate)
-      → Education-System (apply in system)
-        → Curriculum (calibrate content)
-          → Country files (cultural adjustment)
+═══════════════════════════════════════════════════════
+TẦNG 2 — CHILD DEVELOPMENT (early hardware expression)
+═══════════════════════════════════════════════════════
+
+→ Child-Development-Mechanism.md v1.0 — phát triển 0-6
+  §2 4+1 Compile, §3 Approach/Avoidance Tags,
+  §8 Cortisol Baseline (early environment → DIM 3 baseline set).
+
+→ Natural-Development.md — early hardware expression
+→ Skill-Introduction.md — early learning preferences visible
+
+
+═══════════════════════════════════════════════════════
+TẦNG 3 — EDUCATION RESEARCH (principles)
+═══════════════════════════════════════════════════════
+
+→ Education-Mechanism.md v1.0 — ⭐ HOW per-hardware calibration works
+  §2.2 Direction > Level (DIM 3 calibration principle),
+  §2.3 Cost Formula = f(gap × mismatch × direction) = WHY calibration matters,
+  §2.4 Prerequisite Check (root cause "kém"),
+  §2.6 Imagine-Final (root cause "lười" + "unmotivated"),
+  §2.9 Assess Depth (standard stays, method adapts),
+  §3 Bridge + Motivation (4 nguồn fill, 3 ORIGIN).
+
+
+═══════════════════════════════════════════════════════
+TẦNG 4 — EDUCATION APPLICATIONS (system)
+═══════════════════════════════════════════════════════
+
+→ Education-System.md v2.0 — WHERE calibration fits
+  §2-§4 per-stage (when to identify, adjust),
+  §7 Teacher role (skill #1 = nhận diện).
+
+→ Era-Analysis-2025.md — AI tools for calibration
+→ Curriculum-Framework.md — WHAT to calibrate for
+
+
+═══════════════════════════════════════════════════════
+TẦNG 5 — PER-COUNTRY
+═══════════════════════════════════════════════════════
+
+→ Country/VN/ files — cultural factors affecting observation + calibration
+
+
+═══════════════════════════════════════════════════════
+FLOW
+═══════════════════════════════════════════════════════
+
+  Core (mechanism) → File này (observe + calibrate)
+    → Education-System v2.0 (apply in system)
+      → Curriculum (calibrate content)
+        → Country files (cultural adjustment)
 
   = File này = BRIDGE giữa brain mechanism và practical education
   = Durable → update khi neuroscience advances

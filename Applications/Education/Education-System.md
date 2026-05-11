@@ -1,16 +1,30 @@
 # Education System — Hệ Thống Giáo Dục Tối Ưu
 
-> **Trạng thái:** DRAFT
-> **Ngày:** 2026-04-03
+> **Phiên bản:** v2.0 (rewrite — re-based trên Education-Mechanism.md v1.0)
+> **Ngày cập nhật:** 2026-05-11
 > **Mục đích:** Nếu làm ĐÚNG, hệ thống giáo dục hiện đại TRÔNG THẾ NÀO?
 > = Imagine-Final đẹp nhất cho giáo dục — derived from brain mechanism
-> **Vị trí:** TẦNG 4 — Applications (era-specific), derived từ Tầng 3 (Principles)
-> **Tiền đề:**
-> Education-Principles.md (10 nguyên lý bất biến — NỀN TẢNG),
-> Education-Bridge.md (motivation mechanism),
-> Core-v7.5-Draft.md (brain mechanisms),
-> Child-Development bộ 3 (foundation 0-6 — Stage 1)
-> **Tham chiếu:** backup/Education/00_Overview.md (concepts: True/Forced-Fit, ECP, profiles)
+> **Vị trí:** TẦNG 4 — Applications (era-specific), derived từ Tầng 3 (Research/Education/)
+> **Phụ thuộc:**
+>   Education-Mechanism.md v1.0 (8 nguyên lý arc design — NỀN TẢNG),
+>   Domain-Knowledge-Map.md v1.0 (bản đồ nhóm kiến thức),
+>   Empathy-Education.md v2.0 (empathy trong giáo dục),
+>   Core-Software.md v1.0 (cycle-based architecture),
+>   Core-Hardware.md v1.0 (4 zones A/B/C/D),
+>   Child-Development-Mechanism.md v1.0 (phát triển 0-6),
+>   Cortisol-Baseline.md v2.0 (amplifier, not stress),
+>   Reward-Signal-Architecture.md v1.0 (Type A/B reward),
+>   PFC-Configuration.md v1.0 (6 dynamic modes),
+>   Imagine-Final.md (lifecycle 5 phases),
+>   Imagine-Final-Evaluation.md v1.1 (4 góc quality)
+> **Bản trước:** backup/v1.0/Education-System.md (1,566L, 2026-04-03, based on old "10 NL")
+> **Thay đổi chính v2.0:**
+>   - Re-base: "10 NL" (Education-Principles.md) → Education-Mechanism.md v1.0 (8 nguyên lý)
+>   - Re-base: Education-Bridge.md → Mechanism §3 (Bridge + Motivation)
+>   - Re-base: Core-v7.5-Draft.md → Core-Software.md + Core-Hardware.md + Core-Interface.md
+>   - Slim overlap: §5 Bridge reference Mechanism §3, §9 AI reference Mechanism §4
+>   - Add: v7.8 concepts (Type A/B, approach/avoidance tags, 4 nguồn fill, 3 ORIGIN)
+>   - Update: tất cả cross-refs → current file paths
 > **⚠️ File này = IDEAL DESIGN — reality có constraints (§10).
 > Đây là HƯỚNG ĐI, không phải blueprint cứng.**
 > **⚠️ SEMI-DURABLE: Brain design = decades / Era format = cần update mỗi 3-5 năm**
@@ -41,63 +55,78 @@
 ```
 TẠI SAO CẦN FILE NÀY:
 
-  Education-Principles.md = 10 NGUYÊN LÝ (cái gì LUÔN ĐÚNG)
-  File NÀY = nếu ÁP DỤNG 10 NL → hệ thống giáo dục TRÔNG THẾ NÀO?
+  Research/Education/ đã giải thích:
+    Education-Mechanism.md v1.0 = HOW (8 nguyên lý arc design brain-based)
+    Domain-Knowledge-Map.md v1.0 = WHAT (3-tier domain taxonomy)
+
+  File NÀY = nếu ÁP DỤNG mechanism + domain map
+  → hệ thống giáo dục TRÔNG THẾ NÀO?
+  = SYSTEM-LEVEL DESIGN: stages × roles × assessment × integration
 
   Tức là:
-    → Principles = BẢN NHẠC (không đổi)
-    → File này = CÁCH CHƠI bản nhạc cho thời đại hiện tại
-    → Khi era đổi → viết lại "cách chơi", GIỮ bản nhạc
+    → Mechanism = ENGINE (nguyên lý brain-based, valid mọi era)
+    → Domain Map = FUEL (nhóm kiến thức per era)
+    → File này = VEHICLE DESIGN (system vận hành engine+fuel thế nào)
+    → Khi era đổi → swap fuel (update DKM §2), giữ engine + vehicle design
 
   = File này = KHUNG chính — tất cả files khác trong folder DERIVE từ đây:
-    → Hardware-Calibration.md → zoom vào NL3 (per-individual)
+    → Hardware-Calibration.md → zoom vào per-individual calibration
     → Era-Analysis-2025.md → fill context thời đại vào KHUNG này
-    → Curriculum-Framework.md → derive "dạy cái gì" từ KHUNG + ERA + HARDWARE
+    → Curriculum-Framework.md → derive "dạy cái gì" từ KHUNG + DKM + ERA
 
 
-FILE NÀY KHÁC GÌ VỚI backup 00_Overview.md (v5.5):
+KIẾN TRÚC 5 TẦNG — VỊ TRÍ CỦA FILE:
 
-  GIỐNG (concepts GIỮ LẠI):
-    ✓ "Education = chunk config optimization at population scale"
-    ✓ True-Fit vs Forced-Fit distinction
-    ✓ ECP inverted-U (→ nay = NL6 cortisol inverted-U)
-    ✓ Per-hardware identification loop
-    ✓ Teacher system + Parent system
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ Tầng 1: Core-Deep-Dive/ (não hoạt động thế nào)                │
+  │   Core-Software.md (cycle), Core-Hardware.md (zones),           │
+  │   Chunk.md, Cortisol.md, Feeling.md, Body-Feedback.md...       │
+  ├─────────────────────────────────────────────────────────────────┤
+  │ Tầng 2: Research/Child-Development/ (phát triển 0-6)           │
+  │   Child-Dev-Mechanism.md, Natural-Dev, Skill-Intro, Mother-Opt │
+  ├─────────────────────────────────────────────────────────────────┤
+  │ Tầng 3: Research/Education/ (nguyên lý giáo dục — valid mọi era)│
+  │   Education-Mechanism.md (HOW) + Domain-Knowledge-Map (WHAT)    │
+  │   + Observation/ (Arms-Race, Empathy-Education)                 │
+  ├─────────────────────────────────────────────────────────────────┤
+  │ Tầng 4: Applications/Education/ ← FILE NÀY (system per-era)    │
+  │   Education-System.md + Hardware-Calibration + Era-Analysis      │
+  │   + Curriculum-Framework + 00_Overview                          │
+  ├─────────────────────────────────────────────────────────────────┤
+  │ Tầng 5: Country/ (per-country — VN/, etc.)                     │
+  └─────────────────────────────────────────────────────────────────┘
 
-  KHÁC (CẢI THIỆN):
-    ↑ Có Education-Principles.md làm NỀN (v5.5 chưa có)
-    ↑ Child-Dev bộ 3 COMPLETE → Stage 1 = reference, không repeat
-    ↑ Tách DURABLE / ERA-SPECIFIC rõ ràng
-    ↑ Honest Assessment per section (v5.5 thiếu)
-    ↑ Modular: update 1 phần ≠ rewrite toàn bộ
+  → Tầng 3 = TIMELESS (brain-based)
+  → Tầng 4 = SEMI-DURABLE (brain design decades, era format 3-5 năm)
+  → Tầng 5 = TIME-BOUND (per-country context)
 ```
 
 ```
 IMAGINE-FINAL — NẾU LÀM ĐÚNG:
 
   ① CHO LEARNER:
-     → Có foundation vững (NL2) → mọi era đều có base
-     → Được calibrate per-hardware (NL3) → học ĐÚNG cách cho não MÌNH
-     → Có Imagine-Final rõ (NL4) → BIẾT TẠI SAO mình học
-     → Có meta-learning skills (NL7) → tự adapt khi era đổi
-     → Được assess depth (NL8) → biết mình THỰC SỰ hiểu gì
-     → Intrinsic drive phát triển dần → bridge RÚT dần (NL5)
-     → Balance: per-individual + contribute to society (NL9)
+     → Foundation vững (DKM §1: 6 Foundation Domains) → mọi era đều có base
+     → Per-hardware calibration (Mechanism §2.3: Cost Formula) → học ĐÚNG cách cho não MÌNH
+     → Imagine-Final rõ (Mechanism §2.6) → BIẾT TẠI SAO mình học
+     → Meta-learning (DKM §1.6) → tự adapt khi era đổi
+     → Depth assessment (Mechanism §2.9) → biết mình THỰC SỰ hiểu gì
+     → Bridge giảm dần (Mechanism §3.4: 4 nguồn fill) → intrinsic drive grow
+     → Approach-tagged learning (Mechanism §2.2) → "học = thú vị, không phải chịu đựng"
      = "Mỗi người = best version CỦA MÌNH + đóng góp có ý nghĩa"
 
   ② CHO SYSTEM:
-     → Mechanism-based design (NL1) → era đổi → swap content, giữ design
-     → Per-individual calibration at scale (NL3) → AI era mới có thể
-     → Depth assessment thay thế surface testing (NL8)
-     → Bridge = scaffolding → mục tiêu RÚT bridge (NL5)
-     → Moderate challenge + adequate recovery (NL6)
-     → Education = ecosystem, không chỉ school (NL10)
+     → Mechanism-based design (8 nguyên lý) → era đổi → swap content, giữ design
+     → Per-individual at scale → AI era mới có thể (Mechanism §4: 3-layer)
+     → Depth assessment (4 levels) thay thế surface testing
+     → Bridge = scaffolding → mục tiêu RÚT bridge (Mechanism §3)
+     → 3 ORIGIN threat management (Mechanism §3.3) → reduce Imposed, keep Domain+Peer
+     → Education = ecosystem (Mechanism §1.4: Education ≠ School)
      = "Hệ thống THIẾT KẾ theo cách não HỌC, không theo truyền thống"
 
   ③ CHO XÃ HỘI:
-     → Balance: đủ người cho roles xã hội CẦN + per-individual thriving (NL9)
-     → Cross-generational transmission = CÓ MỤC ĐÍCH (NL4)
-     → Adaptable workforce → era đổi → workforce KHÔNG collapse (NL7)
+     → Balance tension cá nhân × xã hội (Mechanism §1.3) → có ý thức
+     → Cross-generational knowledge transfer có MỤC ĐÍCH
+     → Adaptable workforce → era đổi → workforce KHÔNG collapse
      → True-Fits > Forced-Fits → productivity + wellbeing đều tăng
      = "Xã hội có người ĐÚNG CHỖ, MUỐN làm, VÀ biết adapt"
 
@@ -114,10 +143,10 @@ IMAGINE-FINAL — NẾU LÀM ĐÚNG:
 ## 1. KIẾN TRÚC HỆ THỐNG TỔNG QUAN
 
 ```
-REFRAME CỐT LÕI (từ backup v5.5, upgraded):
+REFRAME CỐT LÕI:
 
-  Giáo dục = CHUNK CONFIG OPTIMIZATION at population scale 🟡
-    (ref: Education-Principles.md §1)
+  Giáo dục = GUIDED CHUNK CONFIG OPTIMIZATION at population scale 🟡
+    (ref: Education-Mechanism.md §1.4)
 
   Nghĩa là:
     → KHÔNG phải "truyền kiến thức" (teacher → student = passive)
@@ -134,6 +163,7 @@ REFRAME CỐT LÕI (từ backup v5.5, upgraded):
 
 
 4 STAGES — DỰA TRÊN BRAIN DEVELOPMENT:
+  (ref: Core-Hardware.md §5 — Hardware Profile, PFC-Configuration.md — 6 modes)
 
   ⚠️ Tại sao chia theo não, không chia theo tuổi hành chính?
     → Não phát triển theo TIMELINE RIÊNG (ref: Natural-Development.md §4)
@@ -147,10 +177,10 @@ REFRAME CỐT LÕI (từ backup v5.5, upgraded):
   │    Brain: synaptogenesis → pruning, PFC sơ khai (~10-40%)       │
   │    Mode: TỰ NHIÊN — não tự wire qua trải nghiệm                │
   │    Owner: Parent (dominant)                                      │
-  │    → ĐÃ CÓ: Child-Development bộ 3 (KHÔNG repeat)              │
+  │    → ĐÃ CÓ: Child-Development bộ 4 (KHÔNG repeat)              │
   │    → File này bắt đầu từ HANDOFF: Stage 1 → Stage 2 (§2)       │
   │                                                                  │
-  │  ────────── handoff (ref: Education-Principles.md §8) ────────  │
+  │  ────────── handoff (ref: Child-Dev-Mechanism.md §9) ─────────  │
   │                                                                  │
   │  STAGE 2 (6-12): Foundation Chunking ⭐ [§2]                     │
   │    Brain: PFC ~40-70%, myelination mạnh, capacity tăng          │
@@ -182,10 +212,10 @@ FLOW XUYÊN STAGES:
                                 ↑
                         hardware tendency
                          bắt đầu lộ rõ
-                     (ref: NL3, Hardware-Calibration.md)
+                  (ref: Mechanism §2.3, Hardware-Calibration.md)
 
   = Không phải LINEAR cứng → overlap giữa stages
-  = Per-individual: timing KHÁC nhau → NL3 calibration quan trọng
+  = Per-individual: timing KHÁC nhau → per-hardware calibration quan trọng
   = "Trẻ 14 tuổi có thể ở late Stage 2 HOẶC early Stage 3 → BÌNH THƯỜNG"
 
 
@@ -210,7 +240,7 @@ FLOW XUYÊN STAGES:
      → Chi tiết → §10
 
   ⑤ AI TOOLS — per-individual at scale (ERA-SPECIFIC)
-     → Potential: enable NL3 (per-hardware calibration) at scale
+     → Potential: Mechanism §4 — 3-layer (AI generate + Teacher calibrate + Student verify)
      → ⚠️ Nhưng AI = TOOL, không phải ROLE → hỗ trợ roles ①-④
      → Chi tiết → §9, Era-Analysis-2025.md
 
@@ -223,9 +253,12 @@ DURABLE vs ERA-SPECIFIC TRONG FILE NÀY:
   │ 4 stages = brain develop   │ AI tools trong mỗi stage         │
   │ Flow: foundation → mastery │ Specific content per stage       │
   │ 5 roles tồn tại           │ Format thực hiện mỗi role        │
-  │ NL1-10 apply mọi stage    │ Cách apply NL trong era cụ thể  │
+  │ 8 nguyên lý apply mọi     │ Cách apply trong era cụ thể     │
+  │   stage (Mechanism §2)     │                                  │
   │ Bridge strategy principles │ Bridge TOOLS cụ thể              │
+  │   (Mechanism §3)           │                                  │
   │ Depth assessment concept   │ Assessment TOOLS cụ thể          │
+  │   (Mechanism §2.9)         │                                  │
   └────────────────────────────┴──────────────────────────────────┘
 
   = Khi era đổi → giữ cột trái, update cột phải
@@ -240,20 +273,21 @@ DURABLE vs ERA-SPECIFIC TRONG FILE NÀY:
 ⭐ GIAI ĐOẠN QUAN TRỌNG — transition point
 
   Tại sao bắt đầu TỪ ĐÂY (không từ Stage 1):
-    → Stage 1 (0-6) = Child-Development bộ 3 ĐÃ COVER chi tiết
-    → Handoff Stage 1 → 2 = Education-Principles.md §8
+    → Stage 1 (0-6) = Child-Development bộ 4 ĐÃ COVER chi tiết
+    → Handoff Stage 1 → 2 = Child-Dev-Mechanism.md §9
     → Stage 2 = lần đầu "education system" CHÍNH THỨC tham gia
     → = Đây là chỗ "từ NHÀ ra TRƯỜNG" — transition CỰC quan trọng
 
 
 NÃO Ở STAGE 2 — CÁI CÓ SẴN:
-  (ref: Natural-Development.md §4, backup 00_Overview.md §1.5)
+  (ref: Natural-Development.md §4, Core-Hardware.md §3)
 
   🟢 PFC development: ~40-70% capacity
      → Sustained attention: 15-30 phút (tăng dần)
      → Abstract thinking: SƠ KHAI → cần CONCRETE examples trước
      → Working memory: 3-5 items → tăng dần
      → Impulse control: improving nhưng CHƯA mature
+     → PFC Mode: chủ yếu Normal + occasional Reallocation (PFC-Configuration.md)
 
   🟢 Myelination tiếp tục
      → Pathways ĐÃ DÙNG NHIỀU = nhanh hơn → "giỏi cái đã practice"
@@ -262,118 +296,118 @@ NÃO Ở STAGE 2 — CÁI CÓ SẴN:
   🟢 Social brain developing
      → Peer comparison bắt đầu → serotonin hierarchy
      → Authority mới (teacher) → ảnh hưởng chunk building
+     → SPM F1 developing (Agent-Mechanism.md) → empathy expanding
      → = Social context = channel MẠNH cho learning ở tuổi này
 
   🟡 Hardware tendencies bắt đầu LỘ RÕ hơn
      → Kênh gốc đã HÌNH THÀNH phần nào qua play (Stage 1)
      → Giờ: per-domain response KHÁC NHAU rõ hơn
-     → = Window để OBSERVE + IDENTIFY (NL3 — bắt đầu calibrate)
+     → = Window để OBSERVE + IDENTIFY (bắt đầu calibrate)
 
 
 MỤC TIÊU STAGE 2 — foundation chunks CHẮC:
 
   6 FOUNDATION DOMAINS (cross-era, durable) 🟡:
-    (chi tiết từng domain → Curriculum-Framework.md)
+    (chi tiết từng domain → Domain-Knowledge-Map.md §1)
 
-    ① LITERACY / COMMUNICATION
+    ① LITERACY / COMMUNICATION (DKM §1.1)
        → Đọc, viết, nói, nghe, biểu đạt
-       → ⚠️ Depth target: HIỂU + DÙNG ĐƯỢC (Stage 2-3), không chỉ đọc chữ (Stage 1)
-       → Method: đọc thật (books, stories), viết thật (express ideas)
-         → KHÔNG drill cơ học → cần CONTEXT + MEANING cho chunks compile
+       → ⚠️ Depth target: HIỂU + DÙNG ĐƯỢC, không chỉ đọc chữ
+       → Prerequisite chain DÀI NHẤT và SỚM NHẤT
 
-    ② NUMERACY / LOGIC
+    ② NUMERACY / LOGIC (DKM §1.2)
        → Toán, logic, pattern recognition
        → ⚠️ PFC ở tuổi 6-8: abstract math = KHÓ → cần CONCRETE trước
-       → Method: manipulatives, real-world math, visual → abstract DẦN
-         → ref: Singapore Math approach = mechanism-based
        → Sai lầm phổ biến: ép abstract quá sớm → "ghét toán" ≠ "kém toán"
-         (= wrong timing, NL1 + §2.8 sensitive periods)
+         (= wrong timing, Mechanism §2.4 prerequisite check)
 
-    ③ SOMATIC / PHYSICAL
+    ③ SOMATIC / PHYSICAL (DKM §1.3)
        → Vận động, coordination, body awareness
-       → 🟢 Body-base = processing channel (Education-Principles §2.5)
+       → 🟢 Body-base = processing channel (Child-Dev-Mechanism §2)
        → ⚠️ KHÔNG phải "giờ thể dục cho vui" → = channel learning CHÍNH
-       → Method: hands-on projects, physical play, building, making
-       → Somatic-dominant children: ĐÂY là channel HỌC CHÍNH cho họ (NL3)
 
-    ④ SOCIAL / EMOTIONAL
-       → Empathy, collaboration, emotion regulation, conflict resolution
-       → 🟢 Theory of Mind (~4-6) → giờ EXPANDING
-       → Method: group projects, role play, real conflicts = learning moments
-       → ≠ "Dạy đạo đức" qua lecture → = TRẢI NGHIỆM social situations
+    ④ SOCIAL / EMOTIONAL (DKM §1.4)
+       → Empathy, collaboration, emotion regulation
+       → SPM bootstrap expanding (Child-Dev-Mechanism §6)
+       → Method: group projects, real conflicts = learning moments
 
-    ⑤ META-LEARNING (seeds)
-       → Learn-how-to-learn: BẮT ĐẦU ở level đơn giản
-       → VD: "tôi học tốt khi..." / "cái này khó vì..." / "thử cách khác"
-       → ⚠️ Chưa phải meta-learning đầy đủ (PFC chưa đủ)
-       → = GIEO HẠT → sẽ develop Stage 3 (NL7)
+    ⑤ META-LEARNING — seeds (DKM §1.6)
+       → "tôi học tốt khi..." / "cái này khó vì..." / "thử cách khác"
+       → ⚠️ PFC chưa đủ cho meta-learning đầy đủ → GIEO HẠT
 
-    ⑥ CREATIVE / EXPRESSIVE
+    ⑥ CREATIVE / EXPRESSIVE (DKM §1.5)
        → Nghệ thuật, sáng tạo, biểu đạt cá nhân
-       → = Channel cho Imagine-Final emerge (NL4)
+       → = Channel cho Imagine-Final emerge (Mechanism §2.6)
        → = Window cho hardware tendencies LỘ qua expression
-       → Method: open-ended projects, art, music, drama, maker space
 
 
   ĐỘ SÂU MỤC TIÊU — Stage 2:
-    → Foundation domains: từ recognize → EXPLAIN (depth stage 2)
-    → Một số areas (per-hardware strength): có thể tới APPLY (depth stage 3)
+    → Foundation domains: từ RECOGNIZE → EXPLAIN (depth level 1→2)
+    → Một số areas (per-hardware strength): có thể tới APPLY (level 3)
     → = KHÔNG cần master → cần CHẮC + HIỂU
     → = "Rộng + vừa sâu" > "hẹp + rất sâu" ở stage này
 
 
 METHOD — CÁCH NÃO 6-12 HỌC TỐT NHẤT:
-  (derived từ 8 brain constants — Education-Principles.md §2)
+  (derived từ 8 nguyên lý arc design — Education-Mechanism.md §2)
 
-  MECHANISM-BASED DELIVERY (NL1):
+  DIRECTION > LEVEL (Mechanism §2.2 — NGUYÊN LÝ QUAN TRỌNG NHẤT):
+    → Mọi trải nghiệm học tập phải ở NOVELTY-DIRECTION (approach tag)
+    → Threat-direction (phạt, shame, so sánh) → avoidance tag → sabotage SUỐT ĐỜI
+    → "Cùng nội dung, khác cách dạy → khác tag → khác SUỐT ĐỜI"
+    → = Đây KHÔNG phải "dạy phải vui" — là "body state phải ở novelty-direction"
 
-    → Multi-modal > single-modal
-      Visual + auditory + kinesthetic + social = compile MẠNH nhất
-      Lecture-only = compile YẾU NHẤT (§2.1)
-      → Không phải "learning styles" (debunked) → MÀ: multi-modal = better FOR ALL
+  MINIMIZE COST PER STUDENT (Mechanism §2.3):
+    → Multi-modal > single-modal (compile MẠNH nhất qua nhiều kênh)
+    → Experiential > abstract (PFC ~40-70% → cần CONCRETE trước, abstract DẦN)
+    → Per-hardware adjust (somatic-dominant ≠ verbal-dominant)
+    → = Cùng content + khác hardware → KHÁC cost hoàn toàn
 
-    → Experiential > abstract
-      PFC ~40-70% = abstract capacity CHƯA ĐỦ cho nhiều concept
-      Cần: CONCRETE trước → ABSTRACT DẦN
-      VD: hiểu phân số → cắt pizza trước → ký hiệu 1/2 sau
-      → = KHÔNG ép abstract sớm → = respect developmental timeline (§2.8)
+  PREREQUISITE CHECK (Mechanism §2.4):
+    → "Không hiểu" thường = thiếu prerequisite, KHÔNG phải "kém"
+    → Verify chunks nền ĐÃ compiled trước khi bắt đầu arc mới
+    → 3 nguyên nhân "ghét toán" KHÁC NHAU = 3 giải pháp KHÁC (§2.4 chi tiết)
 
-    → Practice + sleep > lecture + homework
-      Chunk compile = repetition + sleep consolidation (§2.1, §2.7)
-      → Practice ĐỦ TRONG LỚP → ít homework → ngủ ĐỦ → compile tốt hơn
-      → Homework NHIỀU + thiếu ngủ = CHỐNG LẠI mechanism (NL6)
+  MINI-ARCS + VALLEY (Mechanism §2.5):
+    → Chia arc dài thành phần nhỏ, mỗi phần có "aha"
+    → Practice + sleep > lecture + homework (spacing > massing)
+    → Đổi format mỗi 15-20 phút (aligned với attention span tuổi này)
+    → Normalize dissonance: "đoạn này khó nhất — BÌNH THƯỜNG — sẽ qua"
 
-    → Novelty flow maintained
-      VTA needs novelty (§2.3) → monotony = kill motivation
-      → Đổi format, đổi activity mỗi 15-20 phút (aligned với attention span)
-      → ≠ "entertainment" → = respect brain's novelty engine
+  CONSOLIDATION (Mechanism §2.8):
+    → Sleep consolidation = PHẦN CỦA HỌC (không phải ngược)
+    → Practice ĐỦ TRONG LỚP → ít homework → ngủ ĐỦ → compile tốt hơn
+    → Homework NHIỀU + thiếu ngủ = CHỐNG LẠI mechanism
 
 
 BRIDGE STRATEGY — Stage 2:
-  (ref: Education-Bridge.md cho chi tiết mechanism)
+  (ref: Education-Mechanism.md §3 cho chi tiết mechanism)
 
-  DOMINANT BRIDGES cho tuổi này 🟡:
-    → Curiosity / Novelty: VTA đang mạnh → DÙNG (natural bridge)
+  Bridge = NGUỒN ④ External Inject (Anchor-Schema.md):
+    → Giữ student ở lại ĐỦ LÂU để chunks compile
+    → Mục tiêu LUÔN là RÚT → để nguồn ①②③ take over
+
+  BRIDGES ƯU TIÊN cho tuổi này 🟡:
+    → Curiosity / Novelty: VTA đang mạnh → DÙNG (natural → target, không phải bridge)
     → Social / Belonging: peer + teacher approval = mạnh ở tuổi này
-    → Identity / Pride: "tôi là người biết đọc" = identity chunk forming
+    → Identity seeds: "tôi là người biết đọc" = identity chunk forming
 
   BRIDGES NÊN MINIMAL:
-    → Threat: PFC chưa mature → threat = cortisol spike → PFC suppress (§2.4)
-      → ⚠️ VN context: đòn roi, xếp hạng, "con nhà người ta" = threat-heavy
-      → = VIOLATE NL6 inverted-U → damage > learning
-    → Material carrot: quà, tiền → inflation risk (Education-Bridge.md §2)
+    → Imposed adult threat (Mechanism §3.3 — 3 ORIGIN Type 3):
+      → ⚠️ VN context: đòn roi, xếp hạng, "con nhà người ta" = Type 3
+      → = VIOLATE Direction > Level → avoidance tag → damage SUỐT ĐỜI
+    → Material carrot: quà, tiền → inflation risk
       → Dùng NGẮN HẠN + RÚT DẦN → không dùng permanent
 
   IMAGINE-FINAL ở Stage 2:
     → Trẻ 6-12 CHƯA CÓ Imagine-Final rõ (bình thường)
-    → Mục tiêu: EXPOSURE → cho trẻ THẤY nhiều possibilities
-      → "Khi biết đọc → đọc được truyện hay" (short-term Imagine-Final)
-      → "Khi biết toán → tự mua đồ, tính tiền" (concrete Imagine-Final)
+    → Mechanism §2.6: cần THẤY "tại sao" TRƯỚC "cái gì"
+    → "Khi biết đọc → đọc được truyện hay" (short-term, concrete)
     → ≠ "Con muốn làm gì lớn lên?" (quá abstract cho PFC stage này)
-    → = SEED Imagine-Final qua TRẢI NGHIỆM, không qua câu hỏi (NL4)
+    → = SEED qua TRẢI NGHIỆM, không qua câu hỏi
 
 
-PER-HARDWARE: BẮT ĐẦU IDENTIFY + ADJUST (NL3):
+PER-HARDWARE: BẮT ĐẦU IDENTIFY + ADJUST:
   (chi tiết → Hardware-Calibration.md)
 
   Ở Stage 2, hardware tendencies BẮT ĐẦU lộ rõ hơn:
@@ -393,24 +427,23 @@ PER-HARDWARE: BẮT ĐẦU IDENTIFY + ADJUST (NL3):
       → "Hiện tại" → vì tendency CÓ THỂ shift (brain still developing)
 
   MISCALIBRATION PHỔ BIẾN:
-    (ref: backup 00_Overview.md §1.3 — True-Fit vs Forced-Fit)
     → "Lazy" label = thường là sai Imagine-Final hoặc sai bridge
-    → "Stupid" label = thường là sai timing hoặc sai method
+    → "Stupid" label = thường là thiếu prerequisite hoặc sai timing (Mechanism §2.4)
     → "Hyperactive" label = thường là high VTA + monotonous environment
-    → "Unmotivated" label = thường là KHÔNG CÓ Imagine-Final (NL4)
+    → "Unmotivated" label = thường là KHÔNG CÓ Imagine-Final (Mechanism §2.6)
     → = PHẦN LỚN "problem students" = MISCALIBRATED SYSTEM, không phải "broken student"
 
 
-ASSESSMENT — Stage 2 (NL8):
+ASSESSMENT — Stage 2 (Mechanism §2.9):
 
   ĐO DEPTH, KHÔNG ĐO CORRECTNESS:
-    → 4 depth levels: recognize → explain → apply → create/transfer
-    → Stage 2 target: explain (hiểu đủ để GIẢI THÍCH được)
-    → Một số areas → apply (dùng được trong tình huống mới)
+    → 4 depth levels: RECOGNIZE → EXPLAIN → APPLY → CREATE/TRANSFER
+    → Stage 2 target: EXPLAIN (hiểu đủ để GIẢI THÍCH được)
+    → Một số areas → APPLY (dùng được trong tình huống mới)
 
   METHODS phù hợp:
-    → Observation: teacher observe QUẦN LŨ (không chỉ test)
-    → Demonstration: "chỉ cho cô/thầy xem cách con làm"
+    → Observation: teacher observe liên tục (không chỉ test)
+    → Demonstration: "chỉ cho thầy/cô xem cách con làm"
     → Project: tạo sản phẩm → thể hiện depth TỰ NHIÊN
     → Conversation: hỏi "tại sao?" → đo explain ability
     → ≠ Multiple choice → = "hỏi thấy trẻ HIỂU chưa, không phải NHỚ chưa"
@@ -421,15 +454,15 @@ ASSESSMENT — Stage 2 (NL8):
     → Compare across students → thay bằng: per-individual PROGRESS tracking
 
   CÁI BẮT ĐẦU:
-    → Per-individual depth tracking → "tuần trước explain chưa được, tuần này được"
-    → Multi-dimensional → không chỉ "giỏi/kém" → "mạnh domain X, cần hỗ trợ domain Y"
-    → CONTINUOUS → không chỉ thi cuối kỳ → observe + note + adjust liên tục
+    → Per-individual depth tracking → "tuần trước RECOGNIZE, tuần này EXPLAIN"
+    → Multi-dimensional → "mạnh domain X, cần hỗ trợ domain Y"
+    → CONTINUOUS → observe + note + adjust liên tục
 
 
 STAGE 2 SUMMARY — Imagine-Final cụ thể:
 
   Trẻ ra khỏi Stage 2 (khoảng 12 tuổi) NÊN:
-    ✓ Foundation 6 domains: ĐỦ CHẮC ở depth level explain
+    ✓ Foundation 6 domains: ĐỦ CHẮC ở depth level EXPLAIN
     ✓ Hardware tendencies: ĐÃ ĐƯỢC observe + note (dù chưa final)
     ✓ Bridge: vẫn cần nhưng curiosity + identity > threat/carrot
     ✓ Imagine-Final: CÓ seeds → "tôi thấy hứng thú khi..." (chưa rõ = ok)
@@ -439,7 +472,7 @@ STAGE 2 SUMMARY — Imagine-Final cụ thể:
       (≠ "học = phải chịu" → nếu thế = system ĐÃ FAIL ở Stage 2)
 
   🟡 Trên đây = IDEAL output. Reality:
-    → Mỗi trẻ đạt MỨC ĐỘ KHÁC nhau ở mỗi domain → BÌNH THƯỜNG (NL3)
+    → Mỗi trẻ đạt MỨC ĐỘ KHÁC nhau ở mỗi domain → BÌNH THƯỜNG
     → "Chưa đạt" ≠ "fail" → = "cần thêm time/method khác"
     → Foundation CÓ THỂ extend vào early Stage 3 → flexible boundary
 ```
@@ -453,9 +486,9 @@ STAGE 2 SUMMARY — Imagine-Final cụ thể:
 
   Tại sao "nguy hiểm":
     → Puberty hormones → brain ĐANG XÂY LẠI → unstable
-    → Identity formation → schema tự thân ĐANG HỘI TỤ → fragile
+    → Identity formation → anchor tự thân ĐANG HỘI TỤ → fragile
     → Peer influence TĂNG MẠNH, authority influence GIẢM → dễ lệch
-    → TRUE SOLDIER vs FORCED SOLDIER → CHỌN ĐƯỜNG xảy ra ở stage này
+    → TRUE-FIT vs FORCED-FIT → CHỌN ĐƯỜNG xảy ra ở stage này
     → = Sai ở đây → hậu quả 10-20 năm (quarter-life crisis, burnout)
 
   Tại sao "cơ hội lớn":
@@ -467,12 +500,13 @@ STAGE 2 SUMMARY — Imagine-Final cụ thể:
 
 
 NÃO Ở STAGE 3 — CÁI ĐANG XẢY RA:
-  (ref: backup 00_Overview.md §1.5 giai đoạn 4)
+  (ref: Core-Hardware.md §4 — Receptor System, PFC-Configuration.md)
 
   🟢 Puberty hormones → threshold tăng TẠM
      → "Nổi loạn tuổi teen" ≠ bệnh = threshold tăng TẠM (hormonal)
-     → PE sensitivity tăng → emotional reactions MẠNH hơn
+     → Emotional reactions MẠNH hơn (Zone B limbic amplified)
      → Risk-taking tăng → PFC chưa mature đủ để inhibit
+     → PFC Mode có thể oscillate: Normal ↔ Reallocation ↔ Reconfigured
      → = BÌNH THƯỜNG — system phải CHỨA được biến động này
 
   🟢 PFC ~70-90%
@@ -482,7 +516,8 @@ NÃO Ở STAGE 3 — CÁI ĐANG XẢY RA:
      → = WINDOW cho meta-cognition + Imagine-Final formation
 
   🟢 Identity formation
-     → Schema tự thân ĐANG compile: "tôi = loại người nào?"
+     → Anchor tự thân ĐANG compile: "tôi = loại người nào?"
+       (Anchor-Schema.md — identity chunks compile deep, rất khó đổi)
      → Peer group → identity chunks MẠNH (social proof)
      → Authority → giảm ảnh hưởng (tự nhiên — shift sang self + peer)
      → = Labels ở stage này → COMPILE vào identity → RẤT KHÓ GỠ
@@ -499,71 +534,73 @@ MỤC TIÊU STAGE 3:
   ① DEPTH — từ foundation → chuyên sâu:
      → Foundation (Stage 2) = rộng + vừa sâu
      → Stage 3 = BẮT ĐẦU SÂU ở domains match hardware
-     → Depth target: từ explain → APPLY + bắt đầu CREATE
+     → Depth target: từ EXPLAIN → APPLY + bắt đầu CREATE
      → ≠ "Mọi môn đều sâu" → = "Foundation giữ, depth ở domain MẠNH"
-     → = Differentiation BẮT ĐẦU (nhưng foundation KHÔNG BỎ)
 
   ② IMAGINE-FINAL — từ seeds → rõ dần:
      → Stage 2: seeds ("hứng thú khi...")
      → Stage 3: HÌNH THÀNH rõ hơn → "tôi muốn trở thành..."
-     → PFC đủ abstract → simulate future → Imagine-Final CÓ THỂ rõ
+     → PFC đủ abstract → simulate future → Imagine-Final lifecycle active
+       (Imagine-Final.md §1.5 — 5 phases: BUILD→SAVE→BACKGROUND→RELOAD→REFINE)
      → ⚠️ "Rõ" ≠ "fixed" → CÓ THỂ thay đổi → BÌNH THƯỜNG
      → ⚠️ Nếu ~16 tuổi VẪN KHÔNG CÓ Imagine-Final nào → dedicated support
-       (không phải panic → nhưng cần ACTIVE intervention, không chờ tự tới)
+     → Quality check: 4 góc (Imagine-Final-Evaluation.md v1.1)
+       → Sweet Spot (Domain ✓ + Hardware ✓) — target
+       → Mismatch (Domain ✓ + Hardware ✗) — cạm bẫy phổ biến nhất
 
   ③ META-LEARNING — phát triển đầy đủ:
      → PFC đủ cho: self-assessment, learning strategy, error analysis
      → "Tôi học tốt khi..." / "Cách hiệu quả nhất cho tôi..."
-     → = TRANG BỊ cho lifelong learning (NL7)
-     → = Kỹ năng QUAN TRỌNG NHẤT Stage 3 cho long-term (vì adaptability > specific)
+     → = TRANG BỊ cho lifelong learning (DKM §1.6: adaptability > specific)
+     → = Kỹ năng QUAN TRỌNG NHẤT Stage 3 cho long-term
 
-  ④ TRUE SOLDIER vs FORCED SOLDIER — phân biệt rõ:
-     (ref: backup 00_Overview.md §1.3)
+  ④ TRUE-FIT vs FORCED-FIT — phân biệt rõ:
 
-     TRUE SOLDIER 🟡:
+     TRUE-FIT 🟡:
        → Hardware MATCH với direction → system MATCH với hardware
-       → VD: trẻ thiên hướng structured + social → chọn y khoa → ĐÚNG
-       → Chunks build CÓ HƯỚNG + ĐÚNG hardware → PE source THẬT
+       → Chunks build CÓ HƯỚNG + ĐÚNG hardware → approach-tagged
+       → Reward: Type A evaluative (opioid — RSA v1.0) + Type B hardware-direct
        → = "Học vì MUỐN + vì PHÙ HỢP" → sustainable, fulfilling
 
-     FORCED SOLDIER 🟡:
+     FORCED-FIT 🟡:
        → Hardware KHÔNG MATCH → nhưng bị system/family ÉP vào
-       → VD: trẻ thiên hướng creative → bị ép kỹ thuật → chunks ÉP
-       → Chunks build KHÔNG ĐÚNG hardware → PE source GIẢ (external validation only)
+       → Chunks build KHÔNG ĐÚNG hardware → avoidance-tagged
+       → Reward: chỉ bridge (nguồn ④ — điểm, áp lực, khen) → không có Type A genuine
        → = "Học vì PHẢI" → unsustainable → burnout / quarter-life crisis
 
      PHÂN BIỆT THẾ NÀO:
-       → True: trẻ engage KHI KHÔNG CÓ bridge → intrinsic drive visible
-       → Forced: trẻ chỉ engage KHI CÓ bridge (điểm, áp lực, khen)
+       → True-Fit: engage KHI KHÔNG CÓ bridge → intrinsic drive visible
+       → Forced-Fit: chỉ engage KHI CÓ bridge (điểm, áp lực, khen)
          → Rút bridge → engagement DROP → = signal "forced"
        → ⚠️ KHÔNG phải binary → SPECTRUM → và CÓ THỂ shift
        → = OBSERVE, không JUDGE → "hiện tại direction có match không?"
 
-     HẬU QUẢ FORCED SOLDIER:
+     HẬU QUẢ FORCED-FIT:
        → 18-22 tuổi: "học xong không biết làm gì"
        → 22-28 tuổi: quarter-life crisis — "tôi là ai thật?"
-       → Emergence Phase cần (backup §1.3): 3+ tháng để chunk config thật lộ
+       → Cần Emergence Phase (§4) → 3+ tháng để chunk config thật lộ
        → = 12+ năm education → chunk config SAI → recovery = expensive
        → = TRÁNH Forced-Fit = ROI CAO NHẤT của Stage 3
 
 
 METHOD — CÁCH NÃO 12-18 HỌC TỐT NHẤT:
+  (Mechanism §2 — 8 nguyên lý vẫn apply, adjust cho PFC ~70-90%)
 
   PROJECT-BASED > LECTURE:
     → PFC đủ abstract → real-world projects = IDEAL
-    → Project = multi-modal + depth + creative → compile MẠNH (NL1)
+    → Project = multi-modal + depth + creative → compile MẠNH (Mechanism §2.5 mini-arcs)
     → Cho phép per-hardware EXPRESSION (creative project ≠ essay cho tất cả)
 
   MENTORSHIP > AUTHORITY:
     → Authority influence GIẢM (tự nhiên) → ép authority = counter-productive
     → Mentor = "người đi trước, chia sẻ KINH NGHIỆM" → peer-like, respectable
     → ≠ "thầy cô chấm điểm" → = "người tôi MUỐN học hỏi"
-    → Era-specific: AI mentor + human mentor = complement
+    → Era-specific: AI mentor + human mentor = complement (Mechanism §4)
 
   REAL-WORLD CONNECTION:
     → "Tại sao học cái này?" → connect với THỰC TẾ → Imagine-Final strengthen
+    → = Mechanism §2.6: Imagine-Final before content → THẤY đích CỤ THỂ
     → Internship nhẹ, field trips, guest speakers, community projects
-    → = Chunks compile MẠNH hơn khi thấy APPLICABILITY
 
   ELECTIVE SYSTEM RỘNG:
     → Cho phép EXPLORE → hardware tendencies LỘ qua CHỌN
@@ -574,18 +611,18 @@ METHOD — CÁCH NÃO 12-18 HỌC TỐT NHẤT:
   EMOTIONAL LITERACY:
     → Puberty = emotional turbulence → CHUYÊN SÂU hơn Stage 2
     → Self-regulation, stress management, relationship skills
-    → ≠ "Môn đạo đức" → = practical emotional skills → qua TRẢI NGHIỆM
+    → Empathy-Education.md v2.0: pragmatic empathy qua TRẢI NGHIỆM
     → = Investment cho mental health suốt đời
 
 
-ASSESSMENT — Stage 3 (NL8):
+ASSESSMENT — Stage 3 (Mechanism §2.9):
 
   → Portfolio: tích lũy work theo thời gian → depth VISIBLE
   → Real-world application: "dùng kiến thức giải PROBLEM thật"
   → Peer review: develop evaluation skills + social learning
-  → Self-assessment: meta-learning tool (NL7)
+  → Self-assessment: meta-learning tool
   → ⚠️ Standardized test → NÊN GIẢM ở stage này
-    → Test = surface → miss depth + miss per-hardware variation
+    → Test = surface (RECOGNIZE) → miss depth (APPLY, CREATE)
     → NẾU test → measure DEPTH (open-ended, application-based)
 
 
@@ -616,28 +653,28 @@ STAGE 3 SUMMARY — Imagine-Final output:
 GIAI ĐOẠN CHUYỂN: từ "LEARNER" → "CONTRIBUTOR"
 
   Stage 4 ≠ chỉ "đại học"
-    → Đại học = 1 FORMAT (NL10: education ≠ school)
+    → Đại học = 1 FORMAT (Mechanism §1.4: Education ≠ School)
     → Stage 4 có thể: đại học, nghề, startup, apprentice, self-learning
     → = PFC maturity → "cửa sổ cuối" cho deep specialization
     → Key: FORMAT không quan trọng bằng FUNCTION
 
 
 NÃO Ở STAGE 4:
-  (ref: backup 00_Overview.md §1.5 giai đoạn 5)
+  (ref: Core-Hardware.md §5 — full adult profile)
 
   🟢 PFC ~90-100% (full maturity ~25)
      → Abstract thinking: FULL capacity
      → Long-term planning: mature
      → Impulse control: mature
+     → PFC Mode: chủ yếu Normal + ít reconfiguration hơn Stage 3
      → = CAN self-direct learning hoàn toàn
 
   🟢 Myelination gần hoàn thiện
      → Pathways đã dùng = AUTOMATED → chunk config ĐANG "đông cứng" dần
      → ⚠️ "Cửa sổ cuối" để calibrate chunk config
      → Sau ~25: vẫn thay đổi được nhưng TỐN NHIỀU effort hơn
-     → = Stage 4 = last high-efficiency window
 
-  🟡 Schema ổn định
+  🟡 Anchor ổn định
      → Identity chunks từ Stage 3 → consolidating
      → Worldview forming → beliefs compiling deeper
      → = CÓ THỂ thay đổi nhưng momentum cao → khó shift direction
@@ -646,15 +683,13 @@ NÃO Ở STAGE 4:
 MỤC TIÊU STAGE 4:
 
   ① DEEP SPECIALIZATION:
-     → Từ "bắt đầu sâu" (Stage 3) → "THỰC SỰ SÂU"
-     → Depth target: CREATE + TRANSFER (depth levels 3-4)
+     → Từ APPLY (Stage 3) → CREATE + TRANSFER (depth levels 3-4)
      → Domain match hardware (identified Stage 2-3) → GO DEEP
      → = "Từ student → practitioner → eventually master"
 
   ② CONTRIBUTION:
-     → Bắt đầu ĐÓNG GÓP thật cho xã hội (NL9: balance individual × society)
+     → Bắt đầu ĐÓNG GÓP thật cho xã hội (Mechanism §1.3: tension cá nhân × xã hội)
      → Chunks build KHÔNG chỉ cho mình → cho community, field, society
-     → = "Từ LEARN → CONTRIBUTE" = transition tự nhiên khi depth đủ
 
   ③ IMAGINE-FINAL CRYSTALLIZED:
      → Từ "direction" (Stage 3) → "PURPOSE rõ" (Stage 4)
@@ -663,9 +698,8 @@ MỤC TIÊU STAGE 4:
 
   ④ SELF-DIRECTED LEARNING:
      → PFC mature → TỰ design learning path
-     → = Không còn cần system "dẫn dắt" → cần system "hỗ trợ"
      → Meta-learning (Stage 3) → ÁP DỤNG để tự learn liên tục
-     → = LIFELONG LEARNING starts here (nhưng SKILL lifelong learning
+     → = LIFELONG LEARNING starts here (nhưng meta-learning SKILL
        phải build Stage 2-3 → NẾU chưa có → expensive remedial)
 
 
@@ -673,66 +707,62 @@ METHOD — Stage 4:
 
   APPRENTICESHIP-STYLE:
     → Real-world, hands-on, mentor-guided → compile MẠNH NHẤT
-    → ≠ "Ngồi giảng đường 4 năm" → = "learn BY DOING" (NL1)
+    → ≠ "Ngồi giảng đường 4 năm" → = "learn BY DOING" (Mechanism §2.2, §2.5)
     → VD: internship, residency, workshop, lab, fieldwork
-    → 🟢 Apprenticeship = mechanism-based learning (§2.1, §2.5)
+    → 🟢 Apprenticeship = mechanism-based learning
 
   MENTOR > TEACHER:
     → Stage 4: teacher role → mentor/master role
-    → Mentor = expert in domain → guide depth, share craft
+    → Domain expert → guide depth, share craft
     → ≠ "Chấm điểm" → = "đánh giá mastery, guide next step"
-    → 1-on-1 hoặc small group → per-individual at this stage
+    → Mechanism §4: AI + human mentor = 3-layer collaboration
 
   SELF-LEARNING + AI:
     → PFC mature → can self-direct
     → AI tools: per-individual, per-pace, unlimited resources
     → Human mentor + AI tools = complement (không thay thế)
     → = Stage 4 = stage mà AI tools CÓ GIÁ TRỊ NHẤT
-      (learner đủ mature để dùng AI EFFECTIVELY)
+      (learner đủ mature để dùng AI effectively)
 
   CROSS-DOMAIN INTEGRATION:
     → Deep in 1 domain + CONNECT với related domains
-    → Convergence: transfer knowledge across boundaries
-    → VD: biologist + AI → computational biology (cross-domain creation)
+    → Transfer knowledge across boundaries
     → = Era-specific skill: AI era REWARD cross-domain thinkers
 
 
 EMERGENCE PHASE — KHI DIRECTION CHƯA RÕ:
-  (ref: backup 00_Overview.md §1.3 — Forced-Fit → Emergence)
 
   Nếu learner ở 18-20 tuổi VẪN Forced-Fit / KHÔNG CÓ direction:
     → KHÔNG phải panic → = common product of current education systems
     → = System failed TRƯỚC đó (Stage 2-3) → giờ cần RECOVERY
 
   Emergence Phase 🟡:
-    → Phase 1 (1-4 tuần): relief, nghỉ ngơi (cortisol giảm)
-    → Phase 2 (4-12 tuần): "chán, không biết làm gì" (PE ngắn hạn cạn)
+    → Phase 1 (1-4 tuần): relief, nghỉ ngơi
+      → Cortisol baseline bắt đầu giảm (Cortisol-Baseline.md v2.0 §5 — repair)
+    → Phase 2 (4-12 tuần): "chán, không biết làm gì"
+      → Bridge (nguồn ④) ĐÃ rút → nguồn ①②③ chưa đủ → khoảng trống
     → Phase 3 (3+ tháng): chunk config thật BẮT ĐẦU lộ
-      → "Tự nhiên thích X" = kênh gốc thật nổi lên
+      → "Tự nhiên thích X" = hardware tendency nổi lên khi bridge removed
       → HOẶC: "vẫn không biết" = chunks internal CHƯA BAO GIỜ build
         → Cần: exposure + experimentation + mentorship → BUILD from scratch
 
   ⚠️ XÃ HỘI THƯỜNG KHÔNG CHO PHÉP Emergence Phase:
     → "Đã 20 tuổi phải biết muốn gì" → áp lực → Forced-Fit tiếp tục
     → Nghỉ gap year → bị judge → cortisol → sabotage emergence
-    → = System IDEAL → ALLOW emergence phase khi cần (NL6: recovery = phần của education)
+    → = System IDEAL → ALLOW emergence phase khi cần
 
 
 BRIDGE — Stage 4:
-
   → NÊN gần như KHÔNG CẦN external bridge ở stage này
-  → Intrinsic drive (Imagine-Final + depth satisfaction) = DOMINANT
-  → NẾU vẫn heavily bridge-dependent ở 20+ → signal:
-    → System FAILED ở stages trước (NL5: bridge phải rút dần)
-    → HOẶC: direction sai (Forced-Fit) → cần reassess
+  → Nguồn ①②③ dominant (Mechanism §3.4 — healthy trajectory)
+  → NẾU vẫn heavily bridge-dependent ở 20+ → signal earlier stage failure
   → Bridge còn lại: deadline, professional standards = structure, NOT threat
-  → = "Pressure từ REALITY" > "pressure từ SYSTEM"
+  → = "Pressure từ REALITY (Domain threat Type 1)" > "pressure từ SYSTEM (Imposed Type 3)"
 
 
-ASSESSMENT — Stage 4 (NL8):
-
+ASSESSMENT — Stage 4 (Mechanism §2.9):
   → Professional output: "sản phẩm ĐÃ TẠO CÓ GIÁ TRỊ không?"
-  → Mastery demonstration: "có thể TRANSFER knowledge sang context mới không?"
+  → Mastery demonstration: "transfer knowledge sang context mới?"
   → Contribution assessment: "đóng góp CÓ IMPACT không?"
   → Peer evaluation: professional community review
   → ≠ Exam → = "bạn LÀM ĐƯỢC GÌ?" > "bạn NHỚ ĐƯỢC GÌ?"
@@ -761,65 +791,59 @@ STAGE 4 SUMMARY:
 ```
 MỤC ĐÍCH:
   → Summary bridge strategy XUYÊN 4 STAGES
-  → Chi tiết mechanism → xem Education-Bridge.md
+  → Chi tiết mechanism → xem Education-Mechanism.md §3
   → Section này = MACRO view: bridge thay đổi THẾ NÀO qua development
 
 
-NGUYÊN TẮC CỐT LÕI (NL5 — Bridge = Scaffolding):
+NGUYÊN TẮC CỐT LÕI (Mechanism §3.1 — Bridge = nguồn ④):
   → Bridge = TẠM THỜI → mục tiêu LUÔN là RÚT
-  → Intrinsic drive = ĐÍCH → bridge = PHƯƠNG TIỆN tới đích
+  → Bridge = nguồn ④ External Inject (Anchor-Schema.md)
+  → Mục tiêu: nguồn ①②③ (PFC/experience/compiled) TAKE OVER
   → Bridge permanent = FAIL (learner phụ thuộc suốt đời)
   → = "Giàn giáo khi xây nhà → BỎ khi nhà đứng được"
 
 
-BRIDGE FLOW XUYÊN STAGES:
+TRANSITION: 4 NGUỒN FILL XUYÊN STAGES (Mechanism §3.4):
 
-  Stage 1 (0-6):  ████████░░ External dominant
-    → Parent tạo environment → bridge = implicit (attention, play, safety)
+  Stage 1 (0-6):  nguồn ②④ dominant
+    → Trải nghiệm tự nhiên (②) + Parent guidance (④)
     → Trẻ chưa cần explicit bridge → learning = TỰ NHIÊN qua play
-    → = "Không cần giàn giáo vì chưa XÂY (não TỰ wire)"
 
-  Stage 2 (6-12): ██████░░░░ External → transition begins
-    → Bridges: curiosity + social + identity → minimal threat/carrot
-    → Imagine-Final: seeds qua EXPOSURE (short-term, concrete)
-    → Mục tiêu: curiosity DRIVE > external push
-    → = "Giàn giáo NHẸ — nền đang xây, trẻ cần hướng dẫn"
+  Stage 2 (6-12): nguồn ②③④, ① emerging
+    → Compiled routines build (③) + Teacher guidance (④)
+    → PFC Imagine-Final bắt đầu hình thành (①)
+    → Mục tiêu: curiosity drive > external push
 
-  Stage 3 (12-18): ████░░░░░░ Transition → intrinsic growing
-    → Bridges: Imagine-Final + identity + social → threat GIẢM MẠNH
-    → Imagine-Final: hình thành RÕ → drive TĂNG
-    → Intrinsic bắt đầu TAKE OVER → bridge RÚT DẦN
-    → = "Giàn giáo ĐANG tháo — nhà bắt đầu đứng được"
+  Stage 3 (12-18): nguồn ①② mạnh, ③ stable, ④ giảm
+    → Self-directed emerge (①) + Deep experience trong domain fit (②)
+    → Bridge (④) bắt đầu RÚT DẦN
+    → Intrinsic bắt đầu TAKE OVER
 
-  Stage 4 (18-25+): ██░░░░░░░░ Intrinsic dominant
-    → Bridges: gần như không cần → chỉ structure (deadline, standards)
-    → Imagine-Final: crystallized → drive = SELF-SUSTAINING
+  Stage 4 (18+): nguồn ①②③ dominant, ④ minor
+    → Self-directed mature → bridge gần như không cần
     → Nếu vẫn cần bridge mạnh → signal Forced-Fit hoặc stage trước fail
-    → = "Giàn giáo ĐÃ BỎ — nhà TỰ ĐỨNG"
 
 
   DIAGRAM:
 
     External      ┃████████████░░░░░░░░░░░░░░░░░░░░░░░░│
-    bridge        ┃█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░│
+    bridge ④      ┃█████████░░░░░░░░░░░░░░░░░░░░░░░░░░░│
     intensity     ┃███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│
                   ┃████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│
                   ┃██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░│
                   ┃───────────┬───────────┬──────────┬──→
                   0-6       6-12       12-18      18-25+
-                 Stage 1   Stage 2    Stage 3    Stage 4
 
     Intrinsic     ┃░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██│
-    drive         ┃░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░████░░│
+    ①②③          ┃░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░████░░│
                   ┃░░░░░░░░░░░░░░░░░░░░░░░░░░████░░░░░░│
                   ┃░░░░░░░░░░░░░░░░░░░░░█████░░░░░░░░░░│
                   ┃░░░░░░░░░░░░░░░░░█████░░░░░░░░░░░░░░│
                   ┃───────────┬───────────┬──────────┬──→
                   0-6       6-12       12-18      18-25+
 
-  = INVERSE relationship: external bridge GIẢM ↔ intrinsic drive TĂNG
-  = Mục tiêu: đường chéo MỊN (smooth transition)
-  = NHƯNG: per-individual timing KHÁC (NL3) → diagram = TRUNG BÌNH
+  = INVERSE relationship: external bridge ④ GIẢM ↔ intrinsic ①②③ TĂNG
+  = Per-individual timing KHÁC → diagram = TRUNG BÌNH
 
 
 PER-STAGE BRIDGE TYPE — SUMMARY TABLE:
@@ -830,8 +854,8 @@ PER-STAGE BRIDGE TYPE — SUMMARY TABLE:
   │ 1 (0-6)  │ Play, safety,          │ Structured pressure,        │
   │          │ environment             │ early academics             │
   ├──────────┼────────────────────────┼─────────────────────────────┤
-  │ 2 (6-12) │ Curiosity, social,     │ Threat-heavy, material      │
-  │          │ identity seeds          │ carrot permanent,           │
+  │ 2 (6-12) │ Curiosity, social,     │ Type 3 Imposed threats,     │
+  │          │ identity seeds          │ permanent material carrot,  │
   │          │                         │ ranking/comparison          │
   ├──────────┼────────────────────────┼─────────────────────────────┤
   │ 3 (12-18)│ Imagine-Final,         │ Authority-based threat,     │
@@ -840,42 +864,24 @@ PER-STAGE BRIDGE TYPE — SUMMARY TABLE:
   ├──────────┼────────────────────────┼─────────────────────────────┤
   │ 4 (18+)  │ Intrinsic drive,       │ ANY heavy external bridge   │
   │          │ professional standards,│ → if needed = signal        │
-  │          │ reality pressure       │ earlier stage failure       │
+  │          │ Domain reality         │ earlier stage failure       │
   └──────────┴────────────────────────┴─────────────────────────────┘
 
 
 SAI LẦM PHỔ BIẾN — Bridge xuyên stages:
-  (ref: Education-Principles.md §7, Education-Bridge.md §9)
+  (chi tiết mechanism → Education-Mechanism.md §3)
 
-  ① BRIDGE KHÔNG RÚT:
-     → "Học vì điểm" suốt 12 năm → vào đại học → "tại sao phải học?"
-     → Bridge THÀNH structure → intrinsic KHÔNG CÓ CHỖ để grow
-     → = Sai lầm #1 phổ biến nhất
+  ① BRIDGE KHÔNG RÚT: "Học vì điểm" 12 năm → vào đại học → "tại sao phải học?"
+     → Nguồn ④ dominate → ①②③ KHÔNG CÓ CHỖ grow → rút ④ → crash
+  ② BRIDGE ESCALATION: carrot/threat ngày càng lớn → inflation spiral
+  ③ WRONG BRIDGE TYPE: High-VTA → routine (bore) / Low-cortisol → threat (overwhelm)
+     → Per-hardware calibration cần cho bridge CŨNG NHƯ cho content
+  ④ BRIDGE THAY THẾ IMAGINE-FINAL: chỉ tăng bridge → không giúp tạo ① → bridge gánh 100%
+  ⑤ RÚT BRIDGE ĐỘT NGỘT: "tốt nghiệp → tự lo" → anchor crash → quarter-life crisis
+     → Cần RÚT DẦN (Mechanism §3.4: smooth transition)
 
-  ② BRIDGE ESCALATION:
-     → Carrot ngày càng lớn (kẹo → quà → tiền → xe...)
-     → Threat ngày càng mạnh (nhắc nhở → mắng → đánh → đuổi khỏi nhà...)
-     → = Inflation spiral (Education-Bridge.md §2)
-
-  ③ WRONG BRIDGE TYPE:
-     → High-VTA child → dùng routine (low novelty) → bore → "lười"
-     → Low-cortisol child → dùng threat → overwhelm → shutdown
-     → = Per-hardware calibration (NL3) áp dụng cho bridge CŨNG NHƯ cho content
-
-  ④ BRIDGE THAY THẾ IMAGINE-FINAL:
-     → Không giúp learner TẠO Imagine-Final → chỉ tăng bridge
-     → = "Ép đi mà không cho biết đi ĐÂU" → bridge phải gánh 100% motivation
-     → = Root cause nhiều "unmotivated" students (NL4)
-
-  ⑤ RÚT BRIDGE ĐỘT NGỘT:
-     → "Tốt nghiệp cấp 3 → tự lo" = rút ALL bridges cùng lúc
-     → Intrinsic chưa đủ → COLLAPSE → quarter-life crisis
-     → = Cần RÚT DẦN, không rút SỐC (smooth transition curve)
-
-
-  🟡 Bridge strategy = framework application — consistent logic nhưng
-     per-individual calibration = key → không có formula universal
-     Chi tiết mechanism → Education-Bridge.md
+  🟡 Bridge strategy = framework application — consistent logic
+     Per-individual calibration = key → không có formula universal
 ```
 
 ---
@@ -890,7 +896,7 @@ MỤC ĐÍCH:
   → = Thay đổi PURPOSE của assessment → thay đổi TOÀN BỘ hệ thống
 
 
-REFRAME ASSESSMENT (NL8 — Depth, not correctness):
+REFRAME ASSESSMENT (Mechanism §2.9 — Depth, not correctness):
 
   HIỆN TẠI:
     → "Em được mấy điểm?" → correctness (đúng/sai)
@@ -906,25 +912,25 @@ REFRAME ASSESSMENT (NL8 — Depth, not correctness):
 
 
 4 DEPTH LEVELS — thay thế đúng/sai:
-  (ref: Education-Principles.md §4 NL8, backup 00_Overview.md §2.7)
+  (ref: Mechanism §2.9, Chunk.md v2.1 §1 — strength levels)
 
   Level 1 — RECOGNIZE: nhận ra, nhớ, recall
-    → "Trẻ biết 2+3=5" → đúng, nhưng = NHỚ
+    → Proto-chunk: fire sometimes, partial match
     → Trắc nghiệm CÓ THỂ đo level này
     → = Surface — phần lớn assessment hiện tại DỪNG Ở ĐÂY
 
   Level 2 — EXPLAIN: giải thích được TẠI SAO
-    → "Trẻ giải thích ĐƯỢC tại sao 2+3=5, dùng ví dụ"
+    → Compiled chunk: fire reliably, holdable in PFC
     → Cần: conversation, open-ended questions
     → = Understanding — chunks bắt đầu LIÊN KẾT
 
   Level 3 — APPLY: dùng được trong context MỚI
-    → "Trẻ giải bài CHƯA TỪNG THẤY dùng cùng principle"
+    → Compiled + linked: transfer across contexts
     → Cần: novel problems, real-world application
     → = Competence — chunks COMPILED đủ để transfer
 
   Level 4 — CREATE/TRANSFER: tạo mới, dạy lại, chuyển domain
-    → "Trẻ TỰ tạo bài toán mới, HOẶC dạy bạn, HOẶC dùng ở domain khác"
+    → Meta-chunk: many sub-chunks merged → 1 unit
     → Cần: open-ended projects, portfolio, teaching demonstration
     → = Mastery — chunks DEEP + CONNECTED + FLEXIBLE
 
@@ -951,33 +957,22 @@ PER-STAGE ASSESSMENT DESIGN:
 CÁI DỪNG vs CÁI BẮT ĐẦU:
 
   DỪNG:
-    ✗ Xếp hạng cứng (1/50, 2/50...)
-      → Cortisol spike + identity damage + zero calibration value
+    ✗ Xếp hạng cứng (1/50, 2/50...) → cortisol + identity damage
     ✗ High-stakes summative test (thi 1 lần quyết định tất cả)
-      → Cortisol extreme → PFC suppress → DƯỚI khả năng thật (NL6)
-    ✗ Teach-to-test
-      → Optimize surface (L1) → miss depth (L2-L4)
-    ✗ Compare across students
-      → Mỗi hardware KHÁC → compare = không công bằng ở level cơ bản nhất
+      → Cortisol extreme → PFC suppress (PFC-Configuration: Reallocation mode)
+    ✗ Teach-to-test → optimize surface (L1) → miss depth (L2-L4)
+    ✗ Compare across students → mỗi hardware KHÁC → compare = không công bằng
 
   BẮT ĐẦU:
-    ✓ Per-individual progress tracking
-      → "Tháng trước em ở L1 domain X, tháng này L2" → GROWTH visible
-    ✓ Multi-dimensional assessment
-      → Không chỉ "giỏi/kém" → "mạnh domain A, đang develop domain B"
-    ✓ Continuous formative assessment
-      → Nhiều lần + low-stakes → cortisol moderate → data TỐT HƠN
-      → 🟢 Research: formative assessment > summative cho learning
-        (Black & Wiliam 1998, Hattie 2009)
-    ✓ Depth-based feedback
-      → "Em đã explain ĐƯỢC, bước tiếp: thử APPLY vào situation mới"
-      → = ACTIONABLE → learner biết NEXT STEP
+    ✓ Per-individual progress tracking → "tháng trước L1, tháng này L2"
+    ✓ Multi-dimensional → "mạnh domain A, đang develop domain B"
+    ✓ Continuous formative assessment → nhiều lần + low-stakes
+      → 🟢 Research: formative > summative cho learning (Black & Wiliam 1998, Hattie 2009)
+    ✓ Depth-based feedback → "em đã EXPLAIN được, bước tiếp: thử APPLY"
 
   ⚠️ TRANSITION: không thể bỏ exam ngay
-    → Exam system = embedded trong xã hội (đại học, tuyển dụng, policy)
-    → Ideal = DIRECTION → transition = dần dần + per-context
-    → Nhưng: BIẾT exam = surface → có thể BỔ SUNG depth assessment
-      song song với exam hiện tại → dần thay thế
+    → Exam system = embedded trong xã hội
+    → BIẾT exam = surface → BỔ SUNG depth assessment song song → dần thay thế
 ```
 
 ---
@@ -986,12 +981,12 @@ CÁI DỪNG vs CÁI BẮT ĐẦU:
 
 ```
 REFRAME CỐT LÕI:
-  (ref: backup 00_Overview.md §2.6 — teacher = kỹ sư môi trường)
 
   ❌ Teacher = "người truyền kiến thức"
      → Knowledge có ở sách, internet, AI → teacher KHÔNG CÒN là knowledge source chính
   ✅ Teacher = "người CALIBRATE learning"
      → Nhận diện per-individual → adjust method → monitor progress → guide depth
+     → = Layer 2 trong Mechanism §4: Teacher/Parent CALIBRATOR
 
   = Teacher QUAN TRỌNG HƠN trong AI era, không phải ít hơn
   = Nhưng ROLE khác hoàn toàn
@@ -999,65 +994,53 @@ REFRAME CỐT LÕI:
 
 4 CORE SKILLS CỦA TEACHER TRONG SYSTEM NÀY:
 
-  SKILL 1 — NHẬN DIỆN (NL3):
+  SKILL 1 — NHẬN DIỆN:
     → Observe hardware tendencies per learner
     → "Trẻ này respond tốt với hands-on, trẻ kia với discussion"
-    → Liên tục, multi-source (observation + parent input + self-report khi đủ lớn)
     → Chi tiết → Hardware-Calibration.md
 
-  SKILL 2 — ADAPT METHOD (NL1):
-    → CÙNG buổi học → NHIỀU approach
-    → Structure segment (cho learner cần guidance)
-    → Inquiry segment (cho learner cần exploration)
-    → Hands-on segment (cho somatic-dominant)
-    → Discussion segment (cho social-dominant)
+  SKILL 2 — ADAPT METHOD:
+    → CÙNG buổi học → NHIỀU approach (Mechanism §2.3: minimize cost per student)
+    → Structure segment + Inquiry segment + Hands-on + Discussion
     → ≠ 30 chương trình riêng → = mixed format TRONG cùng classroom
-    → = "Differentiated instruction" nhưng mechanism-based
 
   SKILL 3 — NHẬN DIỆN BIAS CỦA CHÍNH MÌNH:
-    (ref: backup §2.6 — teacher projection)
     → Teacher dạy theo config CỦA MÌNH → vô thức
     → VD: teacher verbal-dominant → lecture-heavy → somatic learners struggle
-    → VD: teacher high-structure → trẻ cần freedom → bị restrict
     → Skill: "tôi dạy thế này vì HỢP VỚI TÔI, hay hợp VỚI TRẺ?"
     → = Meta-awareness quan trọng NHẤT nhưng ÍT ai train
 
-  SKILL 4 — BRIDGE CALIBRATION (NL5, NL6):
+  SKILL 4 — BRIDGE CALIBRATION:
     → Biết KHI NÀO tăng bridge, giảm bridge, đổi loại bridge
-    → Monitor: trẻ sắp bỏ → tăng / trẻ bắt đầu enjoy → giảm
-    → Cortisol reading: trẻ căng thẳng → giảm pressure / trẻ bored → tăng challenge
-    → Chi tiết → Education-Bridge.md
+    → 3 ORIGIN awareness (Mechanism §3.3): Domain threats = OK, Imposed = reduce
+    → Monitor: approach hay avoidance? → adjust accordingly
 
 
 PER-STAGE TEACHER ROLE SHIFT:
 
   Stage 2 (6-12): GUIDE + ENVIRONMENT CREATOR
-    → Tạo structured environment cho foundation building
+    → Structured environment cho foundation building
     → Manage novelty flow (VTA)
     → Observe hardware tendencies → start identification
-    → Bridge calibration: curiosity + social → minimal threat
     → = "Kiến trúc sư môi trường học tập"
 
   Stage 3 (12-18): MENTOR + IMAGINE-FINAL FACILITATOR
     → Shift từ guide → mentor (authority giảm tự nhiên)
-    → Facilitate Imagine-Final exploration (không inject IMAGINE-FINAL CỦA MÌNH)
+    → Facilitate Imagine-Final exploration (KHÔNG inject CỦA MÌNH)
     → Assess depth → guide specialization direction
-    → Project facilitation, real-world connection
     → = "Người đi trước chia sẻ, không phải người trên chỉ xuống"
 
   Stage 4 (18+): MASTER + PROFESSIONAL GUIDE
     → Domain expert → guide deep specialization
-    → 1-on-1 hoặc small group mentorship
     → Real-world apprenticeship style
     → = "Master craftsman truyền craft"
 
 
 TEACHER TRONG AI ERA (ERA-SPECIFIC):
-  → AI handles: knowledge delivery, per-pace practice, instant feedback
-  → Teacher handles: calibration, emotion, Imagine-Final, social dynamics
+  → AI handles: knowledge delivery, per-pace practice, instant feedback (Mechanism §4 Layer 1)
+  → Teacher handles: calibration, emotion, Imagine-Final, social dynamics (Layer 2)
   → = AI = TOOL hỗ trợ teacher, KHÔNG thay thế teacher
   → = Teacher + AI > Teacher alone > AI alone
-  → Chi tiết → Era-Analysis-2025.md, §9
 
   ⚠️ NHƯNG: teacher HIỆN TẠI chưa được train cho role MỚI
     → Training hiện tại: how to DELIVER content
@@ -1073,16 +1056,15 @@ TEACHER TRONG AI ERA (ERA-SPECIFIC):
 ```
 CORE INSIGHT:
   → Parent = FIRST educator + LONGEST influence
-  → Stage 1 (0-6): parent = PRIMARY (ref: Child-Dev bộ 3)
+  → Stage 1 (0-6): parent = PRIMARY (ref: Child-Dev bộ 4)
   → Stage 2+: parent role GIẢM DẦN nhưng KHÔNG biến mất
   → Parent ≠ "giáo viên thứ 2" → Parent = ENVIRONMENT DESIGNER
-  → (ref: backup 00_Overview.md §2.6 — parent = tầng -1)
 
 
 REFRAME:
-  ❌ Parent = "dạy thêm ở nhà" = THÊM ECP cùng hướng trường
+  ❌ Parent = "dạy thêm ở nhà" = THÊM pressure cùng hướng trường
      → Ép bài tập + kiểm tra + học thêm = double-dose cortisol
-     → = Nhà + trường ĐÈ cùng lúc → cortisol mãn tính (NL6)
+     → = Nhà + trường ĐÈ cùng lúc → cortisol mãn tính (Cortisol-Baseline.md v2.0)
 
   ✅ Parent = "thiết kế MÔI TRƯỜNG an toàn cho chunks hình thành"
      → Cortisol baseline thấp (nhà = safe space)
@@ -1094,45 +1076,36 @@ REFRAME:
 PER-STAGE PARENT ROLE:
 
   Stage 1 (0-6): ENVIRONMENT CREATOR (dominant)
-    → Ref: Child-Dev bộ 3 (ĐÃ CÓ — chi tiết ở đó)
+    → Ref: Child-Dev bộ 4 (chi tiết ở đó)
     → Safe attachment → cortisol baseline thấp
     → Rich environment → natural wiring optimal
-    → KHÔNG ép learn sớm → não TỰ wire
     → = Parent gần như 100% responsibility
 
   Stage 2 (6-12): BRIDGE SUPPORTER + SCHOOL-HOME ALIGNMENT
-    → Nhà = safe space (cortisol khác trường)
+    → Nhà = safe space (cortisol KHÁC trường)
       → ≠ "Nhà = trường thứ 2" → = "Nhà = nơi recovery + explore"
     → Bridge: curiosity support ("con tìm hiểu thêm về cái con thích nào")
     → Observe: "con hứng thú gì? khó khăn gì?" → share data với teacher
-    → KHÔNG: duplicate ECP trường (ép bài, ép điểm, so sánh)
-    → KHÔNG: "con nhà người ta" (cortisol + identity damage)
-    → = Parent + teacher = TEAM, không phải 2 forces riêng biệt
+    → KHÔNG: duplicate pressure trường / "con nhà người ta" (Type 3 Imposed threat)
 
   Stage 3 (12-18): IMAGINE-FINAL DISCUSSANT + AUTONOMY SUPPORTER
     → Imagine-Final: discussion, NOT injection
       → "Con thấy hứng thú gì?" ≠ "Con phải làm bác sĩ"
-      → (ref: Education-Bridge.md §0 — "cho con buffet, không gọi món hộ")
     → Autonomy: TĂNG DẦN — cho trẻ quyết định NHIỀU HƠN
-      → "Con muốn học thêm domain nào?" → support DIRECTION con chọn
     → Support qua turbulence: puberty = emotional → parent = ANCHOR
-      → ≠ "Dẹp đi" → = "Bố/mẹ hiểu, bình thường" (normalize)
     → ⚠️ VN/Asian context đặc biệt:
       → Filial piety + "học để đổi đời" = bridge MẠNH nhưng risk Forced-Fit
       → "Con phải giỏi vì bố mẹ VẤT VẢ" = guilt bridge → cortisol + identity trap
-      → = Cultural factor → chi tiết → VN-Cultural-Factors.md
+      → = Cultural factor → chi tiết → Country/VN/VN-Cultural-Factors.md
 
   Stage 4 (18+): BACKGROUND SUPPORT → MOSTLY WITHDRAWN
-    → Learner TỰ CHỦ → parent role = minimal nhưng vẫn có
-    → Financial support (nếu có thể) → giảm survival cortisol
-    → Emotional support: "bố/mẹ support bất kể con chọn gì"
-    → ⚠️ KHÔNG: "con đã 20 tuổi, phải biết muốn gì" = pressure
+    → Learner TỰ CHỦ → parent role = minimal
+    → Financial + emotional support nếu có thể
+    → ⚠️ KHÔNG: "con đã 20 tuổi, phải biết muốn gì" = Imposed pressure
       → NẾU Forced-Fit → cần Emergence Phase → parent ALLOW it
-    → = "Bệ phóng đã launch → giờ = control center ở xa, sẵn sàng support"
 
 
 DOUBLE-BIND PROBLEM:
-  (ref: backup 00_Overview.md §2.6)
 
   Tệ nhất: parent ÉP hướng A + school ÉP hướng A + trẻ hardware = hướng B
     → CẢ 2 environment ĐÈ cùng lúc → cortisol MÃN TÍNH
@@ -1141,7 +1114,6 @@ DOUBLE-BIND PROBLEM:
 
   Cũng tệ: parent KHÔNG structure + school KHÔNG structure + trẻ cần structure
     → THIẾU scaffold → trẻ external tendency → drift
-    → = "Tôn trọng con" mà THIẾU structure = BỎ RƠI trẻ external
 
   Ideal: parent + school ALIGNED nhưng COMPLEMENTARY
     → School: structured learning, formal assessment
@@ -1150,11 +1122,11 @@ DOUBLE-BIND PROBLEM:
 
 
 PARENT TRAINING — MINIMUM VIABLE:
-  (ref: backup 00_Overview.md §2.6)
 
   Hiểu:
     → "Con có hardware RIÊNG, KHÁC mình = BÌNH THƯỜNG"
-    → "Áp lực vừa phải = tốt, quá nhiều = PFC shutdown"
+    → "Áp lực vừa phải = tốt, quá nhiều = PFC suppress"
+      (Mechanism §2.2: Direction > Level)
     → "Ép con giống mình = projection, không phải tối ưu"
 
   Skill:
@@ -1165,7 +1137,6 @@ PARENT TRAINING — MINIMUM VIABLE:
   ⚠️ NHƯNG: parent training = LUXURY ở nhiều context
     → Not all parents có time, resources, education để train
     → = System phải COMPENSATE khi parent support = limited
-    → = Lý do teacher role + system role QUAN TRỌNG (NL10: education ≠ chỉ family)
 ```
 
 ---
@@ -1173,9 +1144,9 @@ PARENT TRAINING — MINIMUM VIABLE:
 ## 9. INTEGRATION: SCHOOL + FAMILY + SELF-LEARNING + AI TOOLS
 
 ```
-CORE PRINCIPLE (NL10 — Education ≠ School):
+CORE PRINCIPLE (Mechanism §1.4 — Education ≠ School):
   → Education = ECOSYSTEM gồm NHIỀU channels
-  → School = 1 channel (quan trọng, nhưng KHÔNG phải duy nhất)
+  → School = 1 channel (structured, social)
   → Family = 1 channel (emotional, exploratory)
   → Self-learning = 1 channel (intrinsic, per-interest)
   → AI tools = 1 channel (per-individual at scale) — ERA-SPECIFIC
@@ -1188,27 +1159,22 @@ CORE PRINCIPLE (NL10 — Education ≠ School):
      → Structured, social context, per-stage curriculum
      → Strength: social learning, structure, breadth exposure
      → Weakness: one-to-many → hard to per-individual
-     → = FOUNDATION delivery + social development
 
   ② FAMILY:
      → Emotional foundation, values, Imagine-Final support
      → Strength: per-individual attention (1 family, ít trẻ)
      → Weakness: parent bias, projection, unequal quality
-     → = EMOTIONAL base + exploration support
 
   ③ SELF-LEARNING:
      → Intrinsic-driven, per-interest, exploratory
      → Strength: per-hardware natural (tự chọn = hardware match)
      → Weakness: cần foundation + meta-learning ĐỦ để self-direct
-     → = DEPTH per interest + adaptability practice
 
   ④ AI TOOLS (ERA-SPECIFIC — 2025+):
      → Per-individual, per-pace, unlimited access
-     → Strength: NL3 (per-hardware calibration) AT SCALE
-       → Potential: 1-on-1 tutoring cho EVERYONE (trước = chỉ rich)
+     → Mechanism §4: 3-layer (AI generate + Teacher calibrate + Student verify)
+     → Potential: per-hardware arc design at SCALE
      → Weakness: không có emotion, không đọc body, không social context
-     → = COMPLEMENT to human channels, không THAY THẾ
-     → Chi tiết → Era-Analysis-2025.md
 
 
 BALANCE GIỮA 4 CHANNELS — thay đổi per stage:
@@ -1229,56 +1195,45 @@ BALANCE GIỮA 4 CHANNELS — thay đổi per stage:
   │          │ mentor │ backgrd│ dominant   │ major    │
   └──────────┴────────┴────────┴────────────┴──────────┘
 
-  = Family: GIẢM DẦN (dominant → background)
-  = School: TĂNG rồi GIẢM (peak Stage 2-3)
-  = Self-learning: TĂNG DẦN (minimal → dominant)
-  = AI tools: TĂNG DẦN (minimal → major)
-  = Tổng: external-dominant → self-dominant (align với bridge strategy §5)
+  = Family: dominant → background | School: peak Stage 2-3
+  = Self-learning + AI: TĂNG DẦN | Tổng: external → self-dominant
 
 
 AI TOOLS — CƠ HỘI + RỦI RO:
 
   CƠ HỘI:
-    → NL3 at scale: per-individual tutoring cho MILLIONS
-      → Trước: per-individual = luxury (1-on-1 tutor = expensive)
-      → AI era: per-individual = POSSIBLE for all
+    → Per-hardware calibration at SCALE (trước = luxury, giờ = possible)
     → Per-pace: mỗi learner speed riêng → AI adapt
-    → Instant feedback: L1-L2 assessment liên tục
-    → Knowledge access: unlimited → curation > memorization
-    → Adaptive difficulty: maintain novelty flow (VTA) automatically
+    → Prerequisite check automated (Mechanism §2.4)
+    → Mini-arc generation per student (Mechanism §2.5)
+    → Instant depth assessment qua conversation (§2.9)
 
   RỦI RO:
-    → KHÔNG đọc emotion → miss cortisol signals
+    → KHÔNG đọc emotion → miss cortisol signals, approach/avoidance state
     → KHÔNG social context → miss social learning dimension
     → Attention/addiction: AI + screen → dopamine loop risk
-      → Đặc biệt nguy hiểm Stage 2-3 (brain still developing)
-    → Over-reliance: "AI giải hết" → learner KHÔNG build depth
-    → = "AI LÀM THAY" ≠ "AI GIÚP HỌC" → distinction QUAN TRỌNG
+    → Over-reliance: "AI làm thay" ≠ "AI giúp học"
+    → = "AI LÀM THAY" ≠ "AI GIÚP build chunks" → distinction QUAN TRỌNG
 
   NGUYÊN TẮC DÙNG AI TRONG EDUCATION:
-    → AI = TOOL, không phải TEACHER (human handles emotion, Imagine-Final, social)
-    → AI = SUPPLEMENT per-individual, không REPLACE human channels
+    → AI = Layer 1 (Mechanism §4) → Teacher calibrate (Layer 2) → Student verify (Layer 3)
     → Age-appropriate: Stage 2 = minimal AI / Stage 4 = heavy AI
-    → Monitor: screen time, dependency, depth vs surface use
-    → = "AI GIÚP learner build chunks" ≠ "AI build chunks THAY learner"
+    → Monitor: depth vs surface use, dependency signals
 
 
 INTEGRATION DESIGN — lý tưởng:
 
-  4 channels KHÔNG hoạt động riêng lẻ → PHỐI HỢP:
-
-  → Data sharing: teacher observe + parent observe + AI data + self-report
-    → = Triangulation → per-individual profile CHÍNH XÁC hơn
-  → Complementary roles: school = structure / family = emotion / self = explore / AI = per-pace
-    → ≠ 4 channels dạy CÙNG KIỂU → = 4 channels cover KHÁC DIMENSION
-  → Aligned direction: tất cả hướng về Imagine-Final CỦA LEARNER
-    → ≠ School hướng A + family hướng B → = ALIGNED per-individual direction
+  4 channels PHỐI HỢP:
+    → Data sharing: teacher + parent + AI data + self-report → triangulation
+    → Complementary roles: school=structure / family=emotion / self=explore / AI=per-pace
+    → Aligned direction: tất cả hướng về Imagine-Final CỦA LEARNER
+      → ≠ School hướng A + family hướng B → = ALIGNED per-individual
 
   ⚠️ IDEAL. Reality:
-    → School + family coordination = HIẾM (thiếu mechanism, thiếu time)
+    → School + family coordination = HIẾM
     → AI tools integration = MỚI (chưa best practices rõ)
     → Self-learning = phụ thuộc meta-learning foundation (Stage 2-3 phải tốt)
-    → = Integration design = LONG-TERM goal → bắt đầu từ school-family alignment
+    → = Long-term goal → bắt đầu từ school-family alignment
 ```
 
 ---
@@ -1290,8 +1245,6 @@ INTEGRATION DESIGN — lý tưởng:
 
   §0-§9 = IDEAL DESIGN — "nếu làm ĐÚNG, trông thế nào"
   §10 = REALITY — "tại sao chưa ai làm được 100%"
-  → Khoảng cách giữa ideal và reality = CONSTRAINTS
-  → Hiểu constraints → transition path REALISTIC
 
 
 5 CONSTRAINTS CỐT LÕI:
@@ -1299,76 +1252,58 @@ INTEGRATION DESIGN — lý tưởng:
   ① BUDGET / ECONOMICS:
      → Per-individual calibration = EXPENSIVE
        → 1 teacher : 40 students (VN) → per-individual gần như KHÔNG THỂ
-       → 1 teacher : 15 students (Finland) → per-individual KHẢ THI hơn
+       → 1 teacher : 15 students (Finland) → KHẢ THI hơn
        → AI tools có thể GIẢM cost → nhưng chưa proven at scale
-     → Teacher training upgrade = cost + time
-       → Retrain hàng triệu teachers = DECADE-level investment
-     → Infrastructure: facilities cho multi-modal, experiential learning
-     → = "Đúng" ≠ "rẻ" → implementation cần budget plan
-     → ⚠️ Nhưng: NHIỀU cải thiện KHÔNG cần budget lớn
-       → Giảm threat → $0. Tăng curiosity questions → $0.
-       → Ngừng xếp hạng cứng → $0. Observe per-individual → skill, not money.
-       → = Constraint THẬT ở một số nơi, EXCUSE ở những nơi khác
+     → Teacher training upgrade = cost + time (decade-level)
+     → ⚠️ Nhưng: NHIỀU cải thiện KHÔNG cần budget lớn (xem dưới)
 
   ② POLITICS / POLICY:
      → Education = chính trị → policy ≠ optimal
-     → Curriculum quyết định bởi ủy ban, không phải brain mechanism
      → Exam system = entrenched (đại học, tuyển dụng, bằng cấp)
-     → Change cycle: education reform = 5-10 năm MINIMUM để thấy effect
-       → Politicians muốn kết quả NGAY → conflict với education timeline
-     → = System inertia CỰC LỚN → change = slow + political will required
+     → Change cycle: 5-10 năm MINIMUM → politicians muốn kết quả NGAY
+     → = System inertia CỰC LỚN
 
   ③ CULTURE:
      → Mỗi culture có beliefs VỀ education → ảnh hưởng implementation
      → VN: "thi đua", "con nhà người ta", "thầy nói trò nghe"
-       → Beliefs này = ENTRENCHED → change = generational
      → Finland: "trust teachers", "play-based" = cultural foundation
-       → KHÔNG thể copy Finland method VÀO culture khác → phải adapt
+     → KHÔNG thể copy Finland method VÀO culture khác → phải adapt
      → = Principles = universal (brain) / Implementation = per-culture
-     → Chi tiết per-culture → Country/ files (VN-Cultural-Factors.md)
+     → Chi tiết per-culture → Country/ files
 
   ④ TRANSITION:
      → Từ system hiện tại → ideal = KHÔNG THỂ overnight
      → Millions of teachers đang dạy theo method cũ
      → Millions of parents kỳ vọng theo system cũ
-     → Students đang TRONG system → chuyển giữa chừng = risky
-     → Transition path phải:
-       → Gradual (dần dần, không sốc)
-       → Backward-compatible (hệ thống mới KHÔNG harm students đang ở hệ thống cũ)
-       → Measurable (biết transition ĐANG WORK hay không)
      → = "Sửa máy bay ĐANG BAY" — khó nhất trong mọi cải cách
 
   ⑤ SCALE:
-     → 1 classroom = 1 experiment → scale = logistics challenge
      → VN: ~22 triệu học sinh → per-individual cho TẤT CẢ?
      → Rural vs urban: resources KHÁC → implementation KHÁC
-     → Special needs: neurodiversity → cần THÊM resources
      → AI tools: potential giải quyết scale → nhưng digital divide
-       → Thành phố có internet / nông thôn chưa chắc
      → = "Per-individual at scale" = HOLY GRAIL — chưa ai achieve fully
 
 
 REALITY CHECK — cái CÓ THỂ làm NGAY:
 
-  Dù constraints tồn tại, NHIỀU cải thiện CÓ THỂ bắt đầu:
-
   ZERO-COST IMPROVEMENTS (thay đổi mindset, không cần budget):
-    → Giảm threat-based motivation (ngừng đánh, ngừng so sánh công khai)
+    → Giảm Type 3 Imposed threat (ngừng shame, ngừng so sánh công khai)
     → Thêm curiosity questions ("tại sao?" thay vì chỉ "cái gì?")
     → Nhận diện per-individual (observe, note — không cần technology)
     → Bridge awareness: biết khi nào đang dùng bridge, mục tiêu rút
     → Ngừng label: "lười", "kém", "hyperactive" → thay bằng observe
+    → Approach-direction awareness (Mechanism §2.2): novelty-path > threat-path
 
   LOW-COST IMPROVEMENTS (cần training nhẹ):
     → Teacher awareness: projection bias, per-individual differences
     → Parent communication: share observation, aligned direction
     → Mixed format: thêm hands-on, project, discussion vào giờ lecture
     → Formative assessment: hỏi "tại sao?" thay vì chỉ "đúng/sai?"
-    → Sleep respect: giảm homework, tôn trọng thời gian ngủ
+    → Sleep respect: giảm homework, tôn trọng consolidation (Mechanism §2.8)
 
   MEDIUM-COST (cần investment nhưng feasible):
     → AI tools pilot: thử nghiệm per-individual tutoring
-    → Teacher training upgrade: workshops, peer learning
+    → Teacher training upgrade: mechanism-based workshops
     → Assessment reform: thêm portfolio, project assessment
     → Parent training programs: community-based, scalable
 
@@ -1391,34 +1326,29 @@ REALITY CHECK — cái CÓ THỂ làm NGAY:
 
   ✅ Mô tả hệ thống giáo dục IDEAL dựa trên brain mechanism
      → 4 stages, 5 roles, assessment design, bridge strategy
-     → Derived từ 10 nguyên lý bất biến (Education-Principles.md)
+     → Re-based trên Education-Mechanism.md v1.0 (8 nguyên lý)
   ✅ Cung cấp DIRECTION cho cải cách giáo dục
-     → Từ "giáo dục ĐANG thế nào" → "NÊN thế nào" → "bắt đầu từ đâu"
-  ✅ Kết nối: Core (brain) → Child-Dev (0-6) → Principles → System (file này)
-     → Architecture rõ ràng, modular
-  ✅ Nhận diện True-Fit vs Forced-Fit
-     → Pattern recognition cho hậu quả dài hạn của education
-  ✅ Address constraints thực tế
-     → §10: không chỉ lý tưởng → biết khó ở đâu
+     → Từ "ĐANG thế nào" → "NÊN thế nào" → "bắt đầu từ đâu"
+  ✅ Kết nối: Core (brain) → Child-Dev (0-6) → Mechanism (principles)
+     → System (file này) → clear 5-tầng architecture
+  ✅ Nhận diện True-Fit vs Forced-Fit → practical pattern recognition
+  ✅ Address constraints thực tế (§10)
 
 
 ⭐ CÁI FILE NÀY KHÔNG THỂ LÀM:
 
   ❌ Cho biết CHÍNH XÁC "làm thế nào" cho 1 quốc gia / 1 trường cụ thể
      → File = KHUNG (universal design) → implementation = per-context
-     → Per-country → Country/ files (VN-Recommendations.md)
-     → Per-school → cần domain expert + local knowledge
+     → Per-country → Country/ files
   ❌ Thay thế educational research
      → File = FRAMEWORK application → không phải systematic review
      → Nhiều claim = derived (🟡), chưa phải proven (🟢)
   ❌ Giải quyết constraints kinh tế / chính trị
-     → File BIẾT constraints tồn tại (§10) → nhưng giải pháp = per-context
+     → File BIẾT constraints (§10) → giải pháp = per-context
   ❌ Predict AI era education chính xác
-     → AI changing → file CÓ HẠN SỬ DỤNG ở era-specific parts
-     → = Brain design = decades / Era format = cần update 3-5 năm
+     → AI changing → era-specific parts CÓ HẠN SỬ DỤNG
   ❌ Đảm bảo implementation thành công
      → "Đúng" + "khả thi" = 2 vấn đề KHÁC NHAU
-     → File cover "đúng" → "khả thi" = per-context engineering
 
 
 ⭐ ĐỘ TIN CẬY TỪNG PHẦN:
@@ -1426,68 +1356,53 @@ REALITY CHECK — cái CÓ THỂ làm NGAY:
   ĐỘ TIN CẬY CAO 🟢→🟡:
     → §1: 4 stages dựa trên brain development timeline
       → 🟢 PFC development, myelination = well-established
-      → 🟡 Stage boundaries (tuổi) = approximate, not rigid
-    → §2-§4: per-stage design dựa trên 8 brain constants
-      → 🟢 Mechanisms → 🟡 Education application
-    → §5: Bridge strategy dựa trên motivation mechanism
-      → 🟢 VTA/dopamine, cortisol → 🟡 Application pattern
+      → 🟡 Stage boundaries (tuổi) = approximate
+    → §2-§4: per-stage design dựa trên 8 nguyên lý (Mechanism §2)
+      → 🟢 Mechanisms (approach/avoidance, spacing, formative assessment)
+      → 🟡 Education application patterns
+    → §5: Bridge strategy dựa trên 4 nguồn fill (Mechanism §3)
+      → 🟢 VTA/dopamine, cortisol, intrinsic motivation (SDT)
+      → 🟡 Transition trajectory
     → §8: Parent role dựa trên attachment + developmental research
       → 🟢 Attachment theory → 🟡 Per-stage role shift
 
   ĐỘ TIN CẬY TRUNG BÌNH 🟡:
-    → §6: Assessment design (4 depth levels)
-      → Logical framework → chưa validated as complete assessment system
-    → §7: Teacher role (4 skills, per-stage shift)
-      → Consistent logic → chưa tested in training programs
-    → §9: 4-channel integration
-      → Logical architecture → implementation chưa proven at scale
-    → §3-§4: True-Fit vs Forced-Fit pattern
-      → Consistent with observed outcomes → nhưng = framework label, not clinical diagnosis
+    → §6: Assessment design (4 depth levels) → logical, chưa validated as complete system
+    → §7: Teacher role (4 skills) → consistent, chưa tested in training
+    → §9: 4-channel integration → logical architecture, chưa proven at scale
+    → §3-§4: True-Fit/Forced-Fit → consistent with outcomes, = framework label
 
   ĐỘ TIN CẬY THẤP HƠN 🔴:
-    → §9: AI tools predictions
-      → AI landscape changing NHANH → predictions = fragile
-    → §4: Emergence Phase timing (1-4 tuần, 4-12 tuần, 3+ tháng)
-      → Framework estimate → KHÔNG có study validate timing cụ thể
-    → §10: Zero-cost improvements effectiveness
-      → Logical → nhưng "zero cost" ≠ "zero effort" → implementation complexity
+    → §9: AI tools predictions → landscape changing NHANH
+    → §4: Emergence Phase timing (1-4 tuần, 4-12 tuần, 3+ tháng) → estimate
+    → §10: Zero-cost improvements effectiveness → "zero cost" ≠ "zero effort"
 
 
 ⭐ RỦI RO CỦA FILE NÀY:
 
   ⚠️ ARMCHAIR DESIGN:
-     → Design hệ thống giáo dục từ brain mechanism → KHÁC với build IRL
-     → "Logical" ≠ "implementable" → nhiều education reforms đẹp trên giấy → fail
-     → File = DIRECTION → validation cần real-world pilot + iteration
+     Design từ brain mechanism → KHÁC với build IRL
+     "Logical" ≠ "implementable" → validation cần real-world pilot
 
   ⚠️ OVER-IDEALIZATION:
-     → Imagine-Final cho education = "mỗi người = best version"
-     → Reality: resources limited, some learners = harder to reach
-     → Risk: đọc file → kỳ vọng quá cao → thất vọng khi implement → abandon
-     → = File NÊN inspire DIRECTION, không phải promise OUTCOME
+     Imagine-Final cho education = "mỗi người = best version"
+     Risk: kỳ vọng quá cao → thất vọng → abandon
+     File NÊN inspire DIRECTION, không promise OUTCOME
 
-  ⚠️ WESTERN/FINNISH BIAS (kế thừa từ Principles):
-     → Examples thiên Western: Finland, Singapore, Montessori
-     → VN, Đông Á, Global South education = ÍT reference
-     → Principles CLAIM universal → implementation examples SKEWED
-     → = Per-country files (Phase 2) sẽ HELP → nhưng bias vẫn tồn tại
+  ⚠️ WESTERN/FINNISH BIAS:
+     Examples thiên Western: Finland, Singapore, Montessori
+     Indigenous knowledge systems, non-Western = underrepresented
+     Per-country files (Phase 2) sẽ HELP → nhưng bias vẫn tồn tại
 
   ⚠️ SINGLE FRAMEWORK LENS:
-     → File nhìn education qua lens "chunk config optimization"
-     → Đây là 1 perspective — powerful nhưng KHÔNG phải duy nhất
-     → Sociological lens, economic lens, political lens = ALSO valid
-     → = File = 1 lens trong nhiều lens → reader nên dùng KẾT HỢP
+     File nhìn qua lens "chunk config optimization"
+     Sociological, economic, political lenses = ALSO valid
+     = 1 lens trong nhiều lens → reader nên dùng KẾT HỢP
 
-  ⚠️ IGNORING IMPLEMENTATION COMPLEXITY:
-     → "Giảm threat" = zero cost → NHƯNG teacher đã quen threat 20 năm
-     → "Observe per-individual" = skill → NHƯNG chưa ai train teacher skill này
-     → = "Simple in theory, complex in practice" → file NÊN note rõ hơn
-     → ⚠️ File này BIẾT limitation này → nhưng BIẾT ≠ GIẢI QUYẾT
-
-  ⚠️ UNKNOWN UNKNOWNS (meta — áp dụng cho CHÍNH file này):
-     → Education-Principles.md §5: "chúng ta không biết cái gì chúng ta không biết"
-     → File này CŨNG bị limitation đó → có thể MISS important dimensions
-     → = Best current framework → NOT final answer
+  ⚠️ IMPLEMENTATION COMPLEXITY:
+     "Giảm threat" = zero cost → NHƯNG teacher quen threat 20 năm
+     "Observe per-individual" = skill → chưa ai train teacher
+     = "Simple in theory, complex in practice"
 ```
 
 ---
@@ -1495,48 +1410,120 @@ REALITY CHECK — cái CÓ THỂ làm NGAY:
 ## 12. KẾT NỐI
 
 ```
-TẦNG 1 — CORE (brain mechanisms):
-  → Core-v7.5-Draft.md — framework gốc
-  → Chunk.md — chunk compilation, PFC vs unconscious
-  → Cortisol-Baseline.md — stress, change-readiness, inverted-U
-  → Imagine-Final.md — purpose engine, body simulation
-  → Novelty-Loop.md — VTA, dopamine, motivation
+═══════════════════════════════════════════════════════
+TẦNG 3 — EDUCATION RESEARCH (NỀN TẢNG TRỰC TIẾP)
+═══════════════════════════════════════════════════════
 
-TẦNG 2 — CHILD-DEVELOPMENT (0-6):
-  → Mother-Optimization.md — pre-birth, hardware quality
-  → Natural-Development.md — 0-6, brain tự wire
-  → Skill-Introduction.md — 0-6, bố mẹ giới thiệu kỹ năng
+→ Education-Mechanism.md v1.0 — ⭐ NỀN TẢNG CỐT LÕI
+  (Research/Education/)
+  8 nguyên lý arc design (§2), Bridge + Motivation (§3),
+  AI-Assisted Education Model (§4).
+  File NÀY = system-level application CỦA file này.
 
-TẦNG 3 — EDUCATION PRINCIPLES (timeless):
-  → Education-Principles.md — 10 nguyên lý bất biến ⭐ NỀN TẢNG
-  → Education-Bridge.md — motivation mechanism chi tiết
-  → Education-Arms-Race.md — cạnh tranh giáo dục, positional goods
-  → Empathy-Education.md — empathy qua trải nghiệm
+→ Domain-Knowledge-Map.md v1.0 — WHAT: nhóm kiến thức
+  (Research/Education/)
+  3-tier taxonomy: Foundation (§1) / Era-Specific (§2) / Per-Hardware (§3).
+  File NÀY reference DKM cho domain listing.
 
-TẦNG 4 — EDUCATION APPLICATIONS (era-specific):
-  → Education-System.md — FILE NÀY ⭐ KHUNG CHÍNH
-  → Hardware-Calibration.md — per-individual calibration (NL3 chi tiết)
-  → Era-Analysis-2025.md — context thời đại hiện tại
-  → Curriculum-Framework.md — dạy cái gì, khi nào, cho ai
-  → 00_Overview.md — bản đồ folder
+→ Empathy-Education.md v2.0 — empathy trong giáo dục
+  (Research/Education/Observation/)
+  SPM-based, pragmatic empathy, per-age guide.
 
-TẦNG 5 — PER-COUNTRY (sau Phase 1):
-  → VN-Education-Status.md — tình trạng giáo dục VN
-  → VN-Cultural-Factors.md — đặc tính văn hóa VN
-  → VN-Recommendations.md — hướng đi cho VN
+→ Education-Arms-Race.md v1.2 — cạnh tranh giáo dục
+  (Research/Education/Observation/)
+  Prisoner's dilemma, 3 ORIGIN applied, spectrum analysis.
 
 
-FLOW ĐỌC ĐỀ XUẤT:
+═══════════════════════════════════════════════════════
+TẦNG 2 — CHILD DEVELOPMENT (foundation 0-6)
+═══════════════════════════════════════════════════════
 
-  Nếu mới bắt đầu:
-    Education-Principles.md → Education-System.md (file này)
-    → Era-Analysis-2025.md → Curriculum-Framework.md
+→ Child-Development-Mechanism.md v1.0
+  (Research/Child-Development/)
+  §2 4+1 Compile, §3 Approach/Avoidance, §6 SPM Bootstrap,
+  §8 Cortisol, §9 Imagine-Final emergence. File NÀY builds on this.
 
-  Nếu muốn sâu:
-    Core files → Child-Dev → Principles → System → Hardware → Era → Curriculum
+→ Natural-Development.md
+  (Research/Child-Development/)
+  0-6 tự nhiên — Stage 1 coverage.
 
-  Nếu muốn áp dụng cho VN:
-    System (file này) → VN-Status → VN-Cultural → VN-Recommendations
+→ Skill-Introduction.md
+  (Research/Child-Development/)
+  0-6 skill exposure timing — Stage 1 prerequisite.
+
+→ Mother-Optimization.md
+  (Research/Child-Development/)
+  Prenatal — Stage 0.
+
+
+═══════════════════════════════════════════════════════
+TẦNG 1 — CORE (brain mechanisms)
+═══════════════════════════════════════════════════════
+
+→ Core-Software.md v1.0 — cycle architecture
+  Perception-Action Cycle, chunk-system = sole substrate.
+
+→ Core-Hardware.md v1.0 — physical architecture
+  4 zones A/B/C/D, PFC reach gradient, hardware profiles.
+
+→ Chunk.md v2.1 — chunk substrate
+  Compile, strength levels, activation dynamics.
+
+→ Cortisol-Baseline.md v2.0 — amplifier reframe
+  Direction > level, 5 Roles, sleep = consolidation + repair.
+
+→ Imagine-Final.md — purpose engine
+  Lifecycle 5 phases, 14 ngưỡng, 3 outcomes.
+
+→ Imagine-Final-Evaluation.md v1.1 — quality check
+  4 góc: Sweet Spot / Mismatch / Delusion / Fantasy.
+
+→ Anchor-Schema.md — 4 nguồn fill
+  Identity + worldview. Bridge = nguồn ④ External Inject.
+
+→ Reward-Signal-Architecture.md v1.0 — Type A/B
+  Type A evaluative (opioid), Type B hardware-direct.
+
+→ PFC-Configuration.md v1.0 — 6 dynamic modes
+  Normal, Reallocation, Reconfigured, Disconnected, etc.
+
+→ Agent-Mechanism.md v1.0 — SPM function
+  SPM F1 (body-simulate others), F2 (logic predict).
+
+
+═══════════════════════════════════════════════════════
+TẦNG 4 — EDUCATION APPLICATIONS (cùng folder)
+═══════════════════════════════════════════════════════
+
+→ Education-System.md — FILE NÀY ⭐ KHUNG CHÍNH
+→ Hardware-Calibration.md — per-individual calibration chi tiết
+→ Era-Analysis-2025.md — context thời đại hiện tại
+→ Curriculum-Framework.md — dạy cái gì, khi nào, cho ai
+→ 00_Overview.md — bản đồ folder
+
+
+═══════════════════════════════════════════════════════
+TẦNG 5 — PER-COUNTRY
+═══════════════════════════════════════════════════════
+
+→ Country/VN/VN-Education-Status.md — tình trạng giáo dục VN
+→ Country/VN/VN-Cultural-Factors.md — đặc tính văn hóa VN
+→ Country/VN/VN-Recommendations.md — hướng đi cho VN
+
+
+═══════════════════════════════════════════════════════
+FLOW ĐỌC ĐỀ XUẤT
+═══════════════════════════════════════════════════════
+
+Nếu mới bắt đầu:
+  Education-Mechanism.md → Education-System.md (file này)
+  → Era-Analysis-2025.md → Curriculum-Framework.md
+
+Nếu muốn sâu:
+  Core files → Child-Dev → Mechanism → System → Hardware-Cal → Era → Curriculum
+
+Nếu muốn áp dụng cho VN:
+  System (file này) → VN-Status → VN-Cultural → VN-Recommendations
 
 
 CROSS-REFERENCES TRONG FILE NÀY:
@@ -1544,22 +1531,23 @@ CROSS-REFERENCES TRONG FILE NÀY:
   ┌──────────────────┬─────────────────────────────────────────┐
   │ Section          │ Files referenced                         │
   ├──────────────────┼─────────────────────────────────────────┤
-  │ §0 Purpose       │ Education-Principles.md, backup v5.5    │
-  │ §1 Architecture  │ Natural-Development.md, Principles §8   │
-  │ §2 Stage 2       │ Principles §2 (8 constants), Bridge.md  │
-  │ §3 Stage 3       │ backup §1.3 (True/Forced-Fit)       │
-  │ §4 Stage 4       │ backup §1.3 (Emergence Phase)           │
-  │ §5 Bridge        │ Education-Bridge.md (chi tiết)           │
-  │ §6 Assessment    │ Principles NL8, backup §2.7              │
-  │ §7 Teacher       │ backup §2.6 (teacher projection)        │
-  │ §8 Parent        │ Child-Dev bộ 3, Bridge §0               │
-  │ §9 Integration   │ Era-Analysis-2025.md (AI tools)         │
+  │ §0 Purpose       │ Mechanism v1.0, DKM v1.0                │
+  │ §1 Architecture  │ Core-Software, Core-Hardware, Natural-Dev│
+  │ §2 Stage 2       │ Mechanism §2 (8 principles), §3 (bridge)│
+  │                  │ DKM §1 (6 domains), Hardware-Cal         │
+  │ §3 Stage 3       │ Mechanism §2+§3, IF-Eval v1.1, RSA v1.0│
+  │ §4 Stage 4       │ Mechanism §1.4+§4, Cortisol v2.0        │
+  │ §5 Bridge        │ Mechanism §3 (chi tiết), Anchor-Schema  │
+  │ §6 Assessment    │ Mechanism §2.9, Chunk.md v2.1            │
+  │ §7 Teacher       │ Mechanism §4, Hardware-Calibration       │
+  │ §8 Parent        │ Child-Dev bộ 4, Cortisol v2.0           │
+  │ §9 Integration   │ Mechanism §4, Era-Analysis-2025          │
   │ §10 Constraints  │ (standalone — reality check)             │
-  │ §11 Honest       │ Principles §9 (style reference)          │
+  │ §11 Honest       │ (meta-assessment)                        │
   └──────────────────┴─────────────────────────────────────────┘
 
 
-  File này = KHUNG chính của Applications/Education/
+File này = KHUNG chính của Applications/Education/
   → Tất cả files khác trong folder DERIVE từ hoặc CONNECT qua file này
   → Khi update file này → review impact lên files khác
   → Khi era đổi → brain-based sections GIỮ / era-specific sections UPDATE

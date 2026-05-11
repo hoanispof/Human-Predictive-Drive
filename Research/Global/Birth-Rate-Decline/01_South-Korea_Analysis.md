@@ -17,9 +17,9 @@
 > **Reference:** 00_Overview.md (5 trục tổng thể),
 > Cortisol-Baseline.md §3 + §10.5 (repair cycle, misconception),
 > Imagine-Final.md §1 (2 tầng, PFC reactive, competing Imagine-Finals),
-> Connection.md §7.5 (Connection × Imagine-Final per layer),
+> Connection.md v3.1 §12 (Connection × Imagine-Final),
 > Conflict-Dynamics.md §7 (scarcity = engine),
-> Education-Bridge.md (compiled schemas từ tuổi thơ)
+> Education-Mechanism.md §3.1 (bridge = nguồn ④ External Inject)
 > **⚠️ Data thực + framework interpretation — PHÂN BIỆT RÕ 🟢/🟡/🔴**
 > **Quy ước:** 🟢 Research/data support | 🟡 Suy luận từ framework | 🔴 Hypothesis
 
@@ -554,8 +554,8 @@
 
 🟡 FRAMEWORK GIẢI THÍCH TẠI SAO THẤT BẠI:
 
-  ① Tiền = CARROT BRIDGE (ref: Education-Bridge §2):
-    → Carrot bridge = "cho phần thưởng bên ngoài"
+  ① Tiền = CARROT BRIDGE (ref: Education-Mechanism §3.1):
+    → Carrot bridge = "cho phần thưởng bên ngoài" (nguồn ④ External Inject)
     → Carrot bridge BỊ INFLATION: $22K/con → nhưng cost $272K/con
     → = Carrot < Cost → PFC vẫn tính: "lỗ"
     → Ngay cả $75K (Booyoung) → vẫn < $272K → vẫn "lỗ"
@@ -749,17 +749,17 @@
       (= cho tiền không fix gốc)
     → Imagine-Final.md §1: 2 tầng + PFC reactive + competing Imagine-Finals
       (Hàn: career/freedom/travel compete with "gia đình")
-    → Connection.md §7.5: Connection × Imagine-Final per layer
-      (Hàn: nuclear family = connection L2-L3 suy giảm)
+    → Connection.md v3.1 §12: Connection × Imagine-Final
+      (Hàn: nuclear family = connection suy giảm)
     → Conflict-Dynamics.md §1: Overlap × Scarcity × Commitment
       (Hàn: gender conflict = cả 3 điều kiện đồng thời)
     → Conflict-Dynamics.md §7: Scarcity = Engine
       (nhưng scarcity KHÔNG bị leverage → chỉ tạo conflict)
 
   Research:
-    → Education-Bridge.md §2: Carrot bridge
+    → Education-Mechanism.md §3.1: Carrot bridge (nguồn ④)
       (= tiền incentive = carrot bridge → bị inflation)
-    → Boredom-Analysis.md §1: existential boredom
+    → Boredom.md: existential boredom
       (N-po = cortisol cao + no Imagine-Final = existential boredom)
 
   Birth Rate:
