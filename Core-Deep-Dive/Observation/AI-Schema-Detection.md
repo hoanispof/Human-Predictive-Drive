@@ -1654,6 +1654,15 @@ CROSS-REFERENCES:
     → Anchor-Schema.md — anchor sync point (schema detection includes anchor identification)
     → Emergent-Patterns.md §5 — "Cho đi" pattern (example of hidden valence chain)
 
+  APPLICATION (2026-05-11 NEW):
+    → Ask-AI.md v2.0 — GENERAL AI interaction gateway (any question about self/others)
+      File NÀY = SPECIALIZED (schema detection, therapy support)
+      Ask-AI.md = GENERAL (detect chunk landscape + adapt + present)
+      Ask-AI §5.3 references §8 guardrails of THIS file
+    → 02-Cross-Network-Transfer.md v1.0 — Mechanism truyền đạt cross-network
+      "Nói ≠ hiểu", analogy risks, mini-gap chain, audience detection
+      Relevant: HOW AI present schema hypotheses effectively to client
+
 
 STATUS:
 

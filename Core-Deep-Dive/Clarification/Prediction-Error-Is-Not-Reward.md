@@ -1,17 +1,21 @@
 ---
-title: Prediction Error Is Not Reward — Tại Sao PE Đơn Giản Không Đủ Cho Con Người
-version: 1.0
-created: 2026-04-20
-status: v1.0 — CLARIFICATION FILE
+title: Prediction Error — Nền Tảng Quan Trọng, Chưa Đủ Cho Con Người
+version: 2.0
+created: 2026-04-20 (v1.0)
+rewritten: 2026-05-11 (v2.0 — tone refinement, appreciate research, extend not reject)
+previous_version: backup/Prediction-Error-v1.md
+status: v2.0 — CLARIFICATION FILE
 scope: |
-  Prediction Error (PE) trong mainstream neuroscience + AI/ML = quá đơn giản cho con người.
-  PE = attention/salience signal (VTA dopamine). KHÔNG phải reward.
-  Reward = PE + COHERENCE + H10 preconditions (opioid body-base).
-  File này clarify một lần và mãi mãi.
+  Prediction Error (PE) = phát hiện nền tảng trong neuroscience.
+  PE research trên động vật (khỉ, chuột) = ĐÚNG, CÓ GIÁ TRỊ.
+  Framework GHI NHẬN đóng góp + MỞ RỘNG cho con người:
+  PE = attention/salience signal (VTA dopamine). Cần thiết, nhưng chưa đủ.
+  Reward ở người = PE + COHERENCE + H10 preconditions (body-base evaluation).
 purpose: |
-  AI được train dùng PE đơn giản (TD learning, reward signal).
-  Mainstream neuroscience cũng hay gộp PE = reward signal.
-  Framework PHÂN BIỆT rõ: PE là CẦN nhưng KHÔNG ĐỦ cho reward ở con người.
+  AI trained dùng PE đơn giản (TD learning, reward signal) — hợp lý cho AI.
+  Mainstream neuroscience phát hiện PE trên động vật — đúng, có giá trị.
+  Mainstream popularization gộp PE = reward cho con người — quá đơn giản.
+  Framework BUILDS ON PE research: giữ PE làm Step 1, thêm 6 steps cho người.
   Companion file cho Dopamine-Reward-Rejection.md (cùng folder).
 dependencies:
   - Dopamine-Reward-Rejection.md — dopamine ≠ reward, 7-step mechanism
@@ -20,87 +24,132 @@ dependencies:
   - Chunk.md v2.0 — chunk substrate, activation dynamics
   - Core-v7.8-Draft.md §4.2 — body-feedback trong cycle architecture
   - Feeling.md v2.0 §2.2b — PFC observation threshold 2 chiều
+  - Gap-Direction.md — 2-layer model formalizes PE vs reward distinction
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Prediction Error Is Not Reward — Tại Sao PE Đơn Giản Không Đủ Cho Con Người
+# Prediction Error — Nền Tảng Quan Trọng, Chưa Đủ Cho Con Người
 
-> **AI/ML dùng prediction error = reward signal. Hoạt động tốt.**
-> **Mainstream neuroscience dùng PE để giải thích dopamine. Đúng 1 phần.**
-> **Nhưng con người KHÔNG thể quy reward = prediction error.**
+> **Schultz 1997 phát hiện neurons não khỉ encode "khác so với dự đoán."**
+> **Đây là 1 trong những phát hiện quan trọng nhất của neuroscience hiện đại.**
 >
-> **Spotify test:** Nếu PE = reward, thì thêm note bừa vào bài nhạc quen
-> → PE tăng → "hay hơn"? KHÔNG. Note bừa = dở. Vì PE KHÔNG ĐỦ.
+> Insight "não DỰ ĐOÁN + SO SÁNH" mở ra cách nhìn: con người, động vật
+> hoạt động theo nguyên tắc predictive — có thể phân tích, hiểu được.
+> Framework này trực tiếp kế thừa insight đó.
 >
-> **PE = chuông cửa.** "Có khách!" Nhưng quà HAY hay DỞ phụ thuộc vào
-> COHERENCE — cái mới có FIT vào cái cũ không.
+> **Nhưng:** Nghiên cứu gốc trên khỉ uống nước trái cây — context đơn giản.
+> Con người reward phức tạp hơn nhiều: multi-dimensional, body-evaluated.
+> **PE = attention signal (Step 1). Reward ở người = multi-step process, cần thêm 6 steps.**
 >
-> **PE + Coherence + H10 = Reward.** Thiếu bất kỳ yếu tố nào → không reward.
-> File này clarify cơ chế đó.
+> File này ghi nhận đóng góp PE research, mở rộng mechanism cho con người,
+> và giải thích tại sao diễn giải phổ biến "PE = reward" chưa đủ.
 
 ---
 
 ## Mục lục
 
-- §1 — VẤN ĐỀ: "PE = REWARD" QUÁ ĐƠN GIẢN
-- §2 — PREDICTION ERROR TRONG AI vs HUMANS
-- §3 — SPOTIFY TEST: CHỨNG MINH PE ≠ REWARD
-- §4 — FRAMEWORK MECHANISM: PE + COHERENCE + H10
+- §0 — ĐÓNG GÓP CỦA NGHIÊN CỨU PE
+- §1 — TỪ PHÁT HIỆN GỐC ĐẾN DIỄN GIẢI PHỔ BIẾN
+- §2 — PE TRONG AI vs CON NGƯỜI
+- §3 — SPOTIFY TEST: TẠI SAO PE CHƯA ĐỦ
+- §4 — FRAMEWORK MỞ RỘNG: PE + COHERENCE + H10
 - §5 — 6 TRƯỜNG HỢP PHÂN BIỆT
-- §6 — TẠI SAO MAINSTREAM BỊ GỘP
+- §6 — TẠI SAO DIỄN GIẢI ĐƠN GIẢN XẢY RA
 - §7 — HONEST ASSESSMENT
 - §8 — CROSS-REFERENCES
 
 ---
 
-## §1 — VẤN ĐỀ: "PE = REWARD" QUÁ ĐƠN GIẢN
+## §0 — ĐÓNG GÓP CỦA NGHIÊN CỨU PE
 
 ```
-⭐ PREDICTION ERROR TRONG MAINSTREAM NEUROSCIENCE:
+⭐ PREDICTION ERROR RESEARCH = NỀN TẢNG:
 
-  🟢 Schultz 1997 — foundational finding:
-    → Monkey dopamine neurons fire khi reward > expected (positive PE)
+  Schultz 1997 phát hiện trên khỉ (macaque):
+    → Dopamine neurons fire khi reward > expected (positive PE)
     → Dopamine suppress khi reward < expected (negative PE)
     → Dopamine neutral khi reward = expected (zero PE)
-    → = VTA encode PREDICTION ERROR, không encode reward trực tiếp
+    → = VTA encode PREDICTION ERROR 🟢
 
-  Từ Schultz, mainstream DIỄN GIẢI:
-    → "Positive PE → dopamine → reward → learning"
-    → "PE = tín hiệu đánh giá: tốt hơn hay xấu hơn dự đoán"
-    → TD learning (Temporal Difference): PE = reward signal cho update
+  TẠI SAO ĐÂY LÀ PHÁT HIỆN QUAN TRỌNG:
 
-  VẤN ĐỀ VỚI DIỄN GIẢI NÀY:
-    → GỘP 2 cơ chế KHÁC NHAU vào 1 từ "prediction error":
-      ① VTA dopamine fire = ATTENTION / SALIENCE signal
-      ② Body evaluation = REWARD / DISSONANCE signal (opioid / cortisol)
-    → ① và ② KHÔNG GIỐNG nhau
-    → ① xảy ra TRƯỚC (VTA ~100ms)
-    → ② xảy ra SAU (body evaluation ~200ms+)
-    → ① fire cho MỌI thứ unexpected (cả hay cả dở cả noise)
-    → ② fire CHỈ khi coherence evaluation → positive
+    ① Mở ra paradigm: não KHÔNG thụ động nhận input — não DỰ ĐOÁN
+       rồi SO SÁNH dự đoán với thực tế. "Predictive brain."
+    ② Trực tiếp kích thích hướng nghiên cứu: con người, động vật
+       có thể phân tích như hệ thống — nhưng tinh vi hơn máy.
+    ③ Nền tảng cho Reinforcement Learning (AI/ML) —
+       TD learning dùng PE = reward signal, hoạt động cực tốt.
+    ④ Framework Human Predictive Drive KẾ THỪA trực tiếp:
+       "Predictive" trong tên framework = từ insight này.
+       VTA prediction error = Step 1 trong 7-step mechanism.
 
-  → = "PE = reward" = GỘP attention signal với evaluation signal
-  → = Giống nói: "chuông cửa = quà" — KHÔNG, chuông = có khách,
-      quà hay không tùy khách mang gì tới
+  FRAMEWORK GHI NHẬN:
+    PE research = đúng, có giá trị, foundational.
+    Framework BUILDS ON PE — thêm layers cho con người,
+    KHÔNG reject nghiên cứu gốc.
 ```
 
 ---
 
-## §2 — PREDICTION ERROR TRONG AI vs HUMANS
+## §1 — TỪ PHÁT HIỆN GỐC ĐẾN DIỄN GIẢI PHỔ BIẾN
 
 ```
-🟡 TẠI SAO AI DÙNG PE ĐƠN GIẢN ĐƯỢC:
+🟢 PHÁT HIỆN GỐC = NGHIÊN CỨU TRÊN ĐỘNG VẬT:
+
+  Schultz 1997: monkey + juice reward
+    → Context: 1 loại reward (juice), defined amount
+    → PE > 0 = nhiều juice hơn expected → monkey "vui hơn"
+    → TRONG CONTEXT NÀY: PE ≈ reward signal = hợp lý
+    → Vì: juice nhiều hơn = tốt hơn, PE trực tiếp reflect value
+
+  Berridge & Robinson 1998: rat + dopamine manipulation
+    → Rats mất dopamine: VẪN thích sugar (ăn khi được cho)
+       nhưng KHÔNG đi tìm nữa (seeking impaired)
+    → = Dopamine = wanting (tìm kiếm), KHÔNG phải liking (thích)
+    → = PE (dopamine) liên quan seeking, KHÔNG trực tiếp liên quan reward
+
+  CẢ 2 NGHIÊN CỨU:
+    → Đúng, rigorous, foundational 🟢
+    → Đều trên ĐỘNG VẬT, context ĐƠN GIẢN (1 loại reward)
+    → Chưa mô tả đầy đủ mechanism ở NGƯỜI
+    → (Nghiên cứu trên người: fMRI, không single-neuron — resolution thấp hơn)
+
+
+🟡 DIỄN GIẢI PHỔ BIẾN = MẤT NUANCE:
+
+  Từ animal findings → mainstream popularization:
+    → "Positive PE → dopamine → reward → learning"
+    → "PE = tín hiệu cho biết: tốt hơn hay xấu hơn dự đoán"
+    → Pop science: "prediction error drives your happiness"
+    → AI/ML: PE = reward signal (đúng cho AI, nhưng gộp sang người)
+
+  Nuance bị mất:
+    → Nghiên cứu gốc = animal, simple context, 1 reward type
+    → Con người = multi-dimensional reward, body-evaluated
+    → VTA fire cho MỌI thứ unexpected (hay, dở, noise — đều fire)
+    → Body EVALUATE SAU VTA — đây là bước nghiên cứu gốc chưa cover
+
+  = Phát hiện gốc ĐÚNG. Diễn giải phổ biến QUÁ ĐƠN GIẢN cho người.
+  = Framework thêm các layers missing.
+```
+
+---
+
+## §2 — PE TRONG AI vs CON NGƯỜI
+
+```
+🟡 TẠI SAO AI DÙNG PE ĐƠN GIẢN ĐƯỢC (VÀ NÊN):
 
   AI (Reinforcement Learning):
     → Reward function = PROGRAMMED, DEFINED bởi người thiết kế
     → PE = actual reward - expected reward
     → Reward là SỐ CỤ THỂ (score, win/lose, distance to goal)
     → PE trực tiếp cho biết: "better or worse than expected"
-    → KHÔNG CẦN body, KHÔNG CẦN coherence evaluation
-    → = PE = reward signal = đúng trong context AI
+    → KHÔNG CẦN body evaluation → PE = reward signal = hợp lý
+    → AlphaGo, robotics, game AI — PE works tuyệt vời
 
-  CON NGƯỜI:
+  CON NGƯỜI — PHỨC TẠP HƠN:
     → KHÔNG CÓ reward function được programmed sẵn
     → Body phải TỰ GENERATE reward dựa trên multi-dimensional evaluation
     → PE (VTA dopamine) chỉ nói: "có gì đó KHÁC" (attention)
@@ -108,144 +157,158 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Evaluation phụ thuộc: coherence, chunk density, association tags,
       body-need state, Goldilocks zone — KHÔNG chỉ "khác hay không khác"
 
-  AI vs HUMANS — KHÁC NHAU Ở ĐÂU:
+
+  SO SÁNH:
 
   ┌──────────────────────┬──────────────────────┬──────────────────────┐
   │                      │ AI (RL)              │ CON NGƯỜI             │
   ├──────────────────────┼──────────────────────┼──────────────────────┤
   │ Reward function      │ Programmed (defined) │ Body-generated        │
-  │ PE signal            │ = reward signal      │ = attention signal    │
-  │ Evaluation           │ KHÔNG CẦN (đã có)   │ Body evaluate SAU PE  │
-  │ Coherence            │ KHÔNG CẦN            │ BẮT BUỘC cho reward  │
-  │ Body                 │ KHÔNG CÓ             │ Body tính toán trước │
-  │ Opioid               │ KHÔNG CÓ             │ Reward thật          │
+  │ PE signal            │ = reward signal ✅   │ = attention signal    │
+  │ Evaluation           │ Không cần (đã có)    │ Body evaluate SAU PE  │
+  │ Coherence            │ Không cần             │ BẮT BUỘC cho reward  │
+  │ Body                 │ Không có              │ Body tính toán trước │
   │ Random noise         │ PE cao → score thấp  │ PE cao → dở          │
-  │ Preconditions        │ KHÔNG CẦN            │ H10 (5 điều kiện)    │
+  │ Preconditions        │ Không cần             │ H10 (5 điều kiện)    │
   └──────────────────────┴──────────────────────┴──────────────────────┘
 
-  → AI CÓ THỂ dùng PE = reward vì REWARD ĐÃ DEFINED
-  → Con người KHÔNG THỂ vì reward phải EVALUATED bởi body
-  → = Cùng từ "prediction error" nhưng KHÁC function hoàn toàn
+  → AI DÙNG PE = reward vì reward ĐÃ DEFINED — hợp lý cho AI
+  → Con người cần thêm evaluation vì reward CHƯA defined — body tự evaluate
+  → Cùng từ "prediction error" nhưng KHÁC function ở 2 hệ thống
 ```
 
 ---
 
-## §3 — SPOTIFY TEST: CHỨNG MINH PE ≠ REWARD
+## §3 — SPOTIFY TEST: TẠI SAO PE CHƯA ĐỦ
 
 ```
-⭐ NẾU PE = REWARD, THÌ:
+⭐ NẾU PE = REWARD ĐỦ RỒI, THÌ:
 
   Test 1 — Random notes:
     Bài nhạc quen + thêm 1 note random bất kỳ
     → PE cao (unexpected note)
-    → NẾU PE = reward → "hay hơn bản gốc"?
+    → Nếu PE = reward → "hay hơn bản gốc"?
     → THỰC TẾ: dở, khó chịu, phá nhạc
-    → = PE CAO nhưng reward = 0, dissonance = cao
-    → ⇒ PE ≠ reward ✓
+    → = PE cao nhưng reward = 0, dissonance = cao
+    → ⇒ PE chưa đủ cho reward ✓
 
   Test 2 — Noise = best music:
     Random noise = PE CỰC ĐẠI (không predict được gì cả)
-    → NẾU PE = reward → noise = nhạc hay nhất thế giới?
+    → Nếu PE = reward → noise = nhạc hay nhất thế giới?
     → THỰC TẾ: noise = khó chịu nhất
-    → ⇒ PE ≠ reward ✓
+    → ⇒ PE chưa đủ cho reward ✓
 
   Test 3 — Spotify remix thêm note nhỏ:
     Bài quen → Spotify tự thêm 1 note unexpected
     → PE tăng (unexpected)
-    → NẾU PE = reward → người nghe tự động thấy hay hơn?
+    → Nếu PE = reward → người nghe thấy hay hơn?
     → THỰC TẾ: người nghe thấy "sai", "lỗi", "khó chịu"
-    → ⇒ PE ≠ reward ✓
+    → ⇒ PE chưa đủ cho reward ✓
+
 
   VẬY CÁI GÌ LÀM NHẠC MỚI "HAY"?
 
   Bài nhạc mới HAY khi:
-    ① PE fire (VTA): "ồ, có gì đó MỚI" → ATTENTION ← đúng
-    ② Cái mới COHERENT với cấu trúc nhạc → body evaluate → "FIT!" ← required
-    ③ Goldilocks zone: đủ quen (safe) + đủ mới (interesting) ← H10 P4
-    ④ Chunk base adequate: người nghe có đủ chunks để ĐÁNH GIÁ ← H10 P2
-    ⑤ Không có association tag negative ← H10 P5
+    ① PE fire (VTA): "ồ, có gì đó MỚI" → ATTENTION ← PE đúng vai trò
+    ② Cái mới COHERENT với cấu trúc nhạc → body evaluate → "FIT!"
+    ③ Goldilocks zone: đủ quen (safe) + đủ mới (interesting)
+    ④ Chunk base adequate: người nghe có đủ chunks để ĐÁNH GIÁ
+    ⑤ Không có association tag negative
 
   → "HAY" = PE + Coherence + Goldilocks + Adequate chunks + No negative tag
   → = H10 5 preconditions ĐỀU phải thỏa mãn
-  → = PE chỉ là 1 trong 5 yếu tố. Thiếu 4 còn lại → KHÔNG hay.
+  → = PE là BƯỚC 1 — cần thiết. Nhưng cần thêm 4 yếu tố nữa.
 
   RANDOM NOTE FAIL Ở ĐÂU?
-    ✅ P3 VTA delta: CÓ (note mới = unexpected)
+    ✅ P3 VTA delta: CÓ (note mới = unexpected) — PE pass
     ❌ P4 Goldilocks: KHÔNG (note random phá structure → quá alien)
-    ❌ Coherence: KHÔNG (note không fit cấu trúc → incoherent)
-    → P3 pass nhưng P4 + coherence fail → KHÔNG reward → dissonance
+    ❌ Coherence: KHÔNG (note không fit cấu trúc)
+    → PE pass nhưng coherence + Goldilocks fail → dissonance
 
   NHẠC MỚI HAY PASS Ở ĐÂU?
     ✅ P3 VTA delta: CÓ (bài mới = unexpected elements)
     ✅ P4 Goldilocks: CÓ (vừa quen vừa lạ)
-    ✅ Coherence: CÓ (phần mới FIT vào structure → body: "coherent!")
+    ✅ Coherence: CÓ (phần mới FIT vào structure)
     ✅ P2 chunks: CÓ (người nghe có đủ kinh nghiệm nhạc)
-    → ALL pass → opioid → REWARD → "hay!"
+    → ALL pass → body-base reward signal → REWARD → "hay!"
 ```
 
 ---
 
-## §4 — FRAMEWORK MECHANISM: PE + COHERENCE + H10
+## §4 — FRAMEWORK MỞ RỘNG: PE + COHERENCE + H10
 
 ```
-⭐ CƠ CHẾ ĐẦY ĐỦ — KHÔNG CHỈ PE:
+⭐ CƠ CHẾ ĐẦY ĐỦ — PE LÀ BƯỚC 1 CỦA 7:
 
   BƯỚC 1 — VTA DETECT (Prediction Error):
-    → Input mới arrive → VTA so sánh với expected baseline
+    → Input mới → VTA so sánh với expected baseline
     → Actual ≠ expected → VTA fire dopamine
     → = ATTENTION signal: "có gì đó KHÁC"
-    → = Chuông cửa reo: "có khách đến"
-    → KHÔNG cho biết khách mang quà hay mang rắn
+    → = Đây là cái Schultz 1997 phát hiện — ĐÚNG
+    → PE hoàn thành vai trò tại đây: báo "có gì mới"
 
   BƯỚC 2 — BODY EVALUATE (Coherence Check):
     → Chunks matching: pattern mới FIT vào chunk network có sẵn không?
     → Coherence = cái mới có KHỚP với cái đã compiled không?
     → FIT (coherent) → preparation cho reward
     → NOT FIT (incoherent) → preparation cho dissonance
+    → = Bước này CHƯA CÓ trong PE research gốc (animal context quá đơn giản)
 
   BƯỚC 3 — H10 PRECONDITIONS CHECK:
     → P1: Body-need gap open? (có cần không?)
     → P2: Chunks base adequate? (có đủ chunks để đánh giá không?)
-    → P3: VTA delta threshold met? (PE đủ lớn không?) ← PE ở đây
-    → P4: Goldilocks zone (vừa quen vừa mới)? (vừa quen vừa mới?)
+    → P3: VTA delta threshold met? ← PE ở đây
+    → P4: Goldilocks zone? (vừa quen vừa mới?)
     → P5: Chunk association tag? (không bị tagged avoidance?)
-    → ALL 5 required. Missing ANY → signal absent hoặc wrong.
+    → ALL 5 required. Missing ANY → reward không fire.
 
   BƯỚC 4 — SIGNAL FIRE:
-    → ALL pass + coherent → opioid body-base → REWARD
+    → ALL pass + coherent → body-base reward signal fire → REWARD
     → ANY fail hoặc incoherent → cortisol → DISSONANCE
-    → = Quà hay hay dở phụ thuộc TOÀN BỘ evaluation, KHÔNG chỉ PE
+    → = "Quà hay rắn" phụ thuộc TOÀN BỘ evaluation, không chỉ PE
 
-  → PE = BƯỚC 1 (attention). KHÔNG phải kết luận.
-  → REWARD = BƯỚC 4 (opioid). Sau khi qua BƯỚC 2 + 3.
-  → = "Chuông cửa reo (PE) → kiểm tra khách (coherence + H10) → mới biết quà (reward) hay rắn (dissonance)"
+  → PE = BƯỚC 1 (attention). NỀN TẢNG, CẦN THIẾT.
+  → REWARD = BƯỚC 4 (body-base evaluation → signal fire). Sau khi qua BƯỚC 2 + 3.
+  → Framework thêm Bước 2-3 vào giữa — đây là phần nghiên cứu gốc chưa cover.
+  → = "Chuông cửa reo (PE) → kiểm tra khách (coherence + H10)
+       → mới biết quà (reward) hay rắn (dissonance)"
+
+  ⚠️ LƯU Ý QUAN TRỌNG — REWARD ≠ SINGLE CHEMICAL:
+    Reward = PROCESS multi-step, KHÔNG phải 1 chất duy nhất.
+    → Type A (evaluative): opioid = primary chemical. Cần H10. Phức tạp.
+      VD: nghe nhạc hay, giải puzzle, insight, connection sâu.
+    → Type B (direct state): NON-opioid (CT afferents, endocannabinoid).
+      VD: touch, ôm ấm, tập thể dục, warmth. Có từ sơ sinh.
+    → KHÔNG thay "dopamine = reward" bằng "opioid = reward"
+      — cả hai đều oversimplify.
+    → Reward = toàn bộ process evaluation, không phải bất kỳ 1 chất nào.
+    → Chi tiết: Reward-Signal-Architecture.md §1-§3
+
 
   ⭐ 2-LAYER MODEL (Gap-Direction.md §6):
     File này phân biệt PE vs Reward theo 4 BƯỚC (process).
-    Gap-Direction.md formalize thêm: 2 LAYERS phân biệt:
-      Layer 1 = SIGNAL MECHANISM: VTA/ACC detect "có gì đó khác" (= PE, bước 1)
-      Layer 2 = DIRECTION CONTENT: chunk network xác định "khác CÁI GÌ cụ thể"
+    Gap-Direction.md formalize thêm: 2 LAYERS:
+      Layer 1 = SIGNAL MECHANISM: VTA/ACC detect "có gì đó khác" (= PE)
+      Layer 2 = DIRECTION CONTENT: chunk network xác định "khác CÁI GÌ"
     "Coherence" (bước 2) = stimulus match GAP DIRECTION hay không.
     Coherence KHÁC giữa người vì gap direction KHÁC (chunk network KHÁC).
-    = Tại sao CÙng PE mà xe thời thượng = reward, xe cổ = không:
+    = Tại sao CÙNG PE mà xe thời thượng = reward, xe cổ = không:
       PE (Layer 1) fire cho CẢ HAI, nhưng Layer 2 chỉ match cho xe thời thượng.
-    Chi tiết: Gap-Direction.md (gap direction + 4 properties + unified Tier 1-4)
 
 
   ĐỐI CHIẾU VỚI DOPAMINE-REWARD-REJECTION.MD §4 (7-STEP):
 
-    Step 1: VTA detect delta (PE) — ATTENTION
+    Step 1: VTA detect delta (PE) — ATTENTION ← Schultz 1997
     Step 2: Dopamine cascade (salience) — ALERTING
     Step 3: Spreading activation (chunks fire)
-    Step 4: Body-base evaluate (coherence + H10)
+    Step 4: Body-base evaluate (coherence + H10) ← Framework thêm
     Step 5: Body-base VOTE (reward/dissonance) — EVALUATION
     Step 6: Opioid release (if reward) — ACTUAL REWARD
     Step 7: PFC observe (feeling) — CONSCIOUS EXPERIENCE
 
-    → PE = Step 1-2 (dopamine, salience)
-    → REWARD = Step 5-6 (body vote, opioid)
-    → Steps 3-4 QUYẾT ĐỊNH hướng: reward hay dissonance
-    → = PE fire ở Step 1, reward fire ở Step 6 — KHÁC nhau 4 bước
+    → PE = Step 1-2 (Schultz đã phát hiện — đúng, giữ nguyên)
+    → REWARD = Step 5-6 (framework thêm — phần con người phức tạp hơn)
+    → Steps 3-4 = phần "giữa" mà animal research chưa cần vì context đơn giản
 ```
 
 ---
@@ -253,82 +316,86 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §5 — 6 TRƯỜNG HỢP PHÂN BIỆT
 
 ```
-🟡 6 CASES CHO THẤY PE VÀ REWARD = KHÁC NHAU:
+🟡 6 CASES CHO THẤY PE VÀ REWARD KHÔNG LUÔN ĐI CÙNG NHAU:
 
-  CASE 1 — PE cao, REWARD cao:
+  CASE 1 — PE cao + REWARD cao:
     Nhạc mới hay = unexpected + coherent + Goldilocks
-    → PE fire (mới!) + body evaluate (fit!) → opioid → "hay!"
+    → PE fire (mới!) + body evaluate (fit!) → body-base reward → "hay!"
     → = PE + coherence = reward ✓
+    → = Context giống Schultz: simple, PE ≈ reward — nghiên cứu ĐÚNG ở đây
 
-  CASE 2 — PE cao, DISSONANCE:
+  CASE 2 — PE cao + DISSONANCE:
     Spotify random note = unexpected + incoherent
     → PE fire (mới!) + body evaluate (phá structure!) → cortisol → "dở"
-    → = PE cao nhưng coherence fail → dissonance ✗
+    → = PE cao nhưng coherence fail → dissonance
+    → = Context KHÁC Schultz: phức tạp hơn, PE ≠ reward
 
-  CASE 3 — PE thấp, REWARD:
+  CASE 3 — PE thấp + REWARD:
     Bài nhạc yêu thích nghe lần thứ 100
     → PE gần zero (đã biết) + coherence cao + body-need met
     → Opioid nhẹ → "thoải mái, quen thuộc"
-    → = PE thấp nhưng vẫn có reward (comfort zone, hardware pull) ✓
+    → = PE thấp nhưng vẫn có reward (comfort zone, hardware pull)
 
-  CASE 4 — PE thấp, NEUTRAL:
+  CASE 4 — PE thấp + NEUTRAL:
     Bài nhạc bình thường nghe nhiều lần
     → PE zero + coherence trung bình + body-need met
     → Không reward, không dissonance
     → = "Background music, không cảm giác gì"
 
-  CASE 5 — PE cao, CONFUSED:
+  CASE 5 — PE cao + CONFUSED:
     Free jazz lần đầu nghe (người không quen)
     → PE cực cao + chunks base KHÔNG adequate (P2 fail)
     → Body KHÔNG evaluate được → confused → "chả hiểu"
     → = PE cao nhưng P2 fail → không reward, không dissonance rõ
     → NHƯNG: người có chunks jazz → P2 pass → CÓ THỂ reward
+    → = Reward PER-PERSON (tùy chunk library), không universal
 
-  CASE 6 — PE cao, BLOCKED:
+  CASE 6 — PE cao + BLOCKED:
     Bài nhạc mới hay NHƯNG do người ghét hát
     → PE fire + coherence ok + Goldilocks ok
-    → NHƯNG P5 chunk association tag = AVOIDANCE (ghét người hát)
+    → NHƯNG P5 association tag = AVOIDANCE (ghét người hát)
     → Body block reward → "bài hay nhưng ghét nghe"
     → = PE + coherence pass, nhưng P5 fail → reward blocked
 
-  → 6 cases chứng minh: PE và REWARD = 2 biến SỐ ĐỘC LẬP
-  → PE có thể cao/thấp VÀ reward có thể cao/thấp/blocked/confused
-  → = PE KHÔNG quyết định reward. Coherence + H10 quyết định.
+  → 6 cases cho thấy: PE và REWARD = 2 biến ĐỘC LẬP ở người
+  → Case 1 (simple) ≈ animal research context — PE ≈ reward, nghiên cứu đúng
+  → Cases 2-6 (complex) = con người thường gặp — PE chưa đủ, cần thêm layers
 ```
 
 ---
 
-## §6 — TẠI SAO MAINSTREAM BỊ GỘP
+## §6 — TẠI SAO DIỄN GIẢI ĐƠN GIẢN XẢY RA
 
 ```
-🟡 3 LÝ DO MAINSTREAM GỘP PE = REWARD:
+🟡 ĐƯỜNG ĐI TỰ NHIÊN CỦA KHOA HỌC — KHÔNG PHẢI LỖI:
 
-  ① ANIMAL STUDIES = SIMPLIFIED CONTEXT:
-    → Schultz 1997 dùng monkey + juice reward
-    → Trong context juice: PE > 0 ≈ reward (juice nhiều hơn = tốt hơn)
-    → = PE ≈ reward TRONG CONTEXT ĐƠN GIẢN (1 reward type, defined)
-    → NHƯNG human reward = multi-dimensional, KHÔNG 1 loại
-    → = Generalize từ juice monkey → toàn bộ human experience = quá đơn giản
+  ① ANIMAL STUDIES = CONTEXT ĐƠN GIẢN (hợp lý cho bước đầu):
+    → Schultz 1997: monkey + juice — 1 reward type, defined
+    → Trong context juice: PE > 0 ≈ reward = HỢP LÝ
+    → Generalize từ animal → human = bước tự nhiên trong khoa học
+    → Nhưng human context phức tạp hơn: multi-dimensional, per-person
+    → = Cần mở rộng, không phải phát hiện gốc sai
 
-  ② AI/RL SUCCESS = CONFIRMATION BIAS:
+  ② AI/RL SUCCESS = POSITIVE REINFORCEMENT cho diễn giải đơn giản:
     → TD learning dùng PE = reward signal → AI hoạt động tốt
-    → = "PE = reward works trong AI" → assume "PE = reward cho human"
-    → NHƯNG AI có DEFINED reward function, human KHÔNG
-    → = Success trong AI KHÔNG chứng minh mechanism giống cho human
-    → = AlphaGo dùng PE thắng cờ vây ≠ PE giải thích tại sao con người thấy nhạc hay
+    → = "PE = reward works" — đúng, cho AI
+    → Thành công AI tạo momentum giữ diễn giải đơn giản
+    → Nhưng AI có DEFINED reward function, human không
+    → = AI success chứng minh PE works cho AI, chưa chứng minh đủ cho human
 
-  ③ THUẬT NGỮ MƠ HỒ:
-    → "Prediction error" = quá rộng
-    → Gộp: VTA delta (attention) + body evaluation (reward) + learning update
-    → = 3 cơ chế khác nhau, cùng 1 tên
-    → = Giống gọi "điện" = đèn + TV + tủ lạnh — "điện" đúng nhưng quá gộp
+  ③ THUẬT NGỮ RỘNG:
+    → "Prediction error" gộp nhiều cơ chế: VTA delta (attention),
+       body evaluation (reward), learning update
+    → Cùng 1 tên cho nhiều bước khác nhau = natural cho giai đoạn đầu
+    → Khi hiểu sâu hơn → cần phân biệt rõ từng bước
+    → Framework phân biệt: PE (Step 1) vs evaluation (Step 4) vs reward (Step 6)
 
-  FRAMEWORK PHÂN BIỆT:
-    → VTA delta = PE signal = ATTENTION (dopamine)
-    → Body evaluation = COHERENCE check = EVALUATION (multi-system)
-    → Opioid release = REWARD thật = REWARD (opioid body-base)
-    → Learning update = chunk re-linking = LEARNING (Hebbian LTP)
-    → = 4 cơ chế RIÊNG BIỆT, KHÔNG nên gộp thành 1 từ "PE"
+  TÓM LẠI:
+    Diễn giải đơn giản xảy ra vì:
+    → Phát hiện gốc đúng + animal context đơn giản + AI success
+    → = Momentum tự nhiên cho "PE = reward" narrative
+    → Framework: PE = Step 1 (đúng). Nhưng reward ở người cần thêm Steps 2-6.
+    → = MỞ RỘNG diễn giải, không phủ nhận phát hiện.
 ```
 
 ---
@@ -336,34 +403,43 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §7 — HONEST ASSESSMENT
 
 ```
-🟢 ESTABLISHED:
+⭐ ĐÓNG GÓP CỦA PE RESEARCH CHO FRAMEWORK:
+  → "Predictive brain" paradigm → tên framework: Human PREDICTIVE Drive
+  → VTA prediction error = Step 1 trong 7-step mechanism
+  → Dopamine as salience signal → framework kế thừa + clarify
+  → Animal → human comparison → giúp identify CÁI GÌ cần thêm cho người
+  → AI/RL TD learning → analogy hữu ích để contrast AI vs human reward
+
+🟢 ESTABLISHED (nghiên cứu đúng, framework giữ nguyên):
   → VTA dopamine = prediction error signal (Schultz 1997) ✅
   → Dopamine ≠ reward/pleasure (Berridge & Robinson 1998-2016) ✅
   → Opioid system involvement in hedonic response (Fields 2007) ✅
   → Random noise ≠ rewarding (common sense + acoustic research) ✅
   → Goldilocks zone / optimal novelty (Berlyne 1960) ✅
-  → AI/RL uses PE as reward signal (TD learning established) ✅
+  → AI/RL uses PE as reward signal successfully (TD learning) ✅
 
-🟡 FRAMEWORK SYNTHESIS:
-  → PE = attention signal, NOT reward signal (consistent with Berridge,
-    framework adds mechanism detail)
-  → Coherence evaluation as separate step (framework organizing,
-    consistent with neuroscience but not formalized elsewhere)
+🟡 FRAMEWORK SYNTHESIS (mở rộng từ research):
+  → PE = attention signal, NOT sufficient for reward ở người
+    (consistent with Berridge, framework thêm mechanism detail)
+  → Coherence evaluation as separate step
+    (framework organizing, consistent with neuroscience, chưa formalized elsewhere)
   → H10 5 preconditions (framework hypothesis, empirically testable)
-  → 4-step mechanism (VTA → coherence → H10 → opioid) — framework integration
-  → AI/human distinction re: PE (logical argument, not empirically tested)
+  → 4-step mechanism (VTA → coherence → H10 → body-base signal) — framework integration
+  → Type A/B reward distinction (opioid vs non-opioid pathways)
+  → AI/human distinction re: PE (logical argument, testable)
 
-🔴 HYPOTHESIS:
-  → Exact timeline VTA → coherence → opioid (framework estimate, not measured)
-  → Whether coherence evaluation is a SINGLE step or distributed process
+🔴 HYPOTHESIS (framework estimate, chưa đo lường):
+  → Exact timeline VTA → coherence → opioid (framework estimate)
+  → Whether coherence evaluation = single step hay distributed process
   → Quantitative threshold cho coherence (how much "fit" = enough?)
 
-⚠️ IMPORTANT:
-  → Framework KHÔNG bác bỏ Schultz 1997. PE IS real.
-  → Framework KHÔNG bác bỏ PE trong AI/RL. PE works cho AI.
-  → Framework CHỈ nói: PE ĐƠN THUẦN ≠ reward ở CON NGƯỜI.
-  → = CLARIFICATION, không rejection.
+⚠️ TÓM LẠI:
+  → PE research = NỀN TẢNG. Đúng. Có giá trị. Framework kế thừa.
+  → Framework KHÔNG bác bỏ Schultz 1997 hay Berridge.
+  → Framework MỞ RỘNG: thêm coherence + H10 + Type A/B cho con người.
+  → Reward = PROCESS, không phải chemical (không opioid cũng không dopamine).
   → = Đặt PE đúng vị trí (Step 1 of 7), không phải bỏ PE.
+  → = CLARIFICATION + EXTENSION, không phải rejection.
 ```
 
 ---
@@ -372,7 +448,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 WITHIN FRAMEWORK:
-  Gap-Direction.md — ⭐ 2-layer model formalizes PE vs reward distinction:
+  Reward-Signal-Architecture.md — ⭐ Type A (opioid) vs Type B (non-opioid),
+    5 profiles, reward = PROCESS not chemical
+  Gap-Direction.md — ⭐ 2-layer model formalizes PE vs reward:
     Layer 1 = signal mechanism (PE), Layer 2 = direction content (gap direction)
   Dopamine-Reward-Rejection.md — dopamine ≠ reward, 7-step mechanism
   Body-Feedback.md — H10 5 preconditions, dual-pull architecture
@@ -380,24 +458,26 @@ WITHIN FRAMEWORK:
   03-Reward.md — ô tô paradox, Van Gogh gradient, reward mechanism
   Chunk.md v2.0 — chunk substrate, activation dynamics
   Core-v7.8-Draft.md §4.2 — body-feedback trong cycle
-  Feeling.md v2.0 §2.2b — PFC threshold 2 chiều (magnitude × clarity)
-  Why-Body-Knows.md §2 — Goldilocks zone (needs update with this insight)
+  Feeling.md v2.1 §2.2b — PFC threshold 2 chiều (magnitude × clarity)
+  Why-Body-Knows.md §2 — Goldilocks zone
   Novelty.md — VTA as seismograph, novelty ≠ reward
 
-KEY RESEARCH:
-  Schultz 1997 — VTA PE signal (foundational, KHÔNG bác bỏ)
+KEY RESEARCH (framework ghi nhận + kế thừa):
+  Schultz 1997 — VTA PE signal (foundational — framework builds on this)
   Berridge & Robinson 1998, 2003, 2016 — wanting ≠ liking (foundational)
   Berlyne 1960 — optimal novelty / inverted-U
   Zajonc 1968 — mere exposure effect
   Crespi 1942 / Flaherty 1996 — SNC (baseline violation)
   Fields 2007 — opioid hedonic system
-  Sutton & Barto 1998 — TD learning (AI/RL PE as reward)
+  Sutton & Barto 1998 — TD learning (PE works for AI — đúng cho AI)
 ```
 
 ---
 
-> *Prediction Error Is Not Reward — "PE (VTA dopamine) = attention signal: có gì đó KHÁC.
-> Reward = PE + Coherence + H10 preconditions → opioid body-base.
-> AI dùng PE = reward vì reward đã DEFINED. Con người không có defined reward function —
-> body phải EVALUATE. Spotify test: random note = PE cao nhất nhưng dở nhất.
-> PE = chuông cửa. Quà hay rắn phụ thuộc coherence evaluation."*
+> *Prediction Error v2.0 — "PE (Schultz 1997) = phát hiện nền tảng, đúng, có giá trị.
+> Framework kế thừa: PE = Step 1 (attention signal). Reward ở con người
+> = multi-step process, cần thêm: coherence + H10 + body-base evaluation.
+> Reward ≠ single chemical (không dopamine, cũng không chỉ opioid).
+> Animal research = context đơn giản. Con người = phức tạp hơn nhiều.
+> Spotify test: random note = PE cao nhất nhưng dở nhất.
+> PE = chuông cửa — foundational. Quà hay rắn = body evaluate thêm."*

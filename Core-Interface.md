@@ -643,7 +643,8 @@ Nguyên tắc Logic vs Feeling:
   → Logic-Feeling-Balance.md (tại sao không thể prescribe ai tin cái nào)
 
 AI hỗ trợ tự hiểu:
-  → AI-Schema-Detection.md §7 (self-drill mode + guardrails an toàn)
+  → Ask-AI.md v2.0 (hỏi AI bất kỳ câu hỏi nào — AI detect + adapt theo bạn)
+  → AI-Schema-Detection.md §7 (self-drill mode chuyên sâu + guardrails an toàn)
 
 "Biết mà chưa nói được" → nói được:
   → Somatic-Articulation-Loop.md (body-knowledge → explicit-knowledge)

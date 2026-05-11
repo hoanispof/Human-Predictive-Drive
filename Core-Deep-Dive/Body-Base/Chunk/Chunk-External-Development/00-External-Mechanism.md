@@ -816,6 +816,8 @@ F3 EXTERNAL UPGRADE MECHANISM:
 >
 > F3 core file: 5 external install mechanisms formalized. Infant social, non-verbal, language, cultural transmission, education, abstract/metaphysical, valence transmission covered cần và đủ. Boundary with F4 explicit.
 >
+> Related: 02-Cross-Network-Transfer.md — STRATEGY LAYER: HOW to optimize transfer khi sender ≠ receiver chunk landscape. Extends §7 Education (batch Direction B) với analogy mechanism, mini-gap chain, audience detection.
+>
 > Next: 01-External-Synthesis.md (formal verdicts + output contracts).
 >
 > Phiên bản: v1.0, 2026-04-17.
