@@ -17,7 +17,7 @@
 
 1. **Clone** repository này
 2. **Mở AI** có context lớn (khuyến cáo: Claude Opus, 1M context)
-3. **Kéo toàn bộ folder** vào conversation
+3. **Kéo toàn bộ folder** vào conversation — yêu cầu AI đọc **Ask-AI.md** trước
 4. **Hỏi bất kỳ câu hỏi nào** — AI sẽ dùng framework để trả lời
 
 **Ví dụ câu hỏi:**
