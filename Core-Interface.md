@@ -1,4 +1,4 @@
-# Core-Interface — Quan Sát và Tương Tác (Interface Map)
+# Core-Interface — Quan Sát và Tương Tác (Interface Map) 
 
 > **Trạng thái:** v1.0 — 1 trong 3 bản đồ Core v7.8
 > **Ngày:** 2026-05-10

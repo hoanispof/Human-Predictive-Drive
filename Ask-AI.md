@@ -1,5 +1,5 @@
 ---
-title: Ask-AI v2.0 — Hướng Dẫn AI Tương Tác Với Người Dùng
+title: Ask-AI v2.0 — Hướng Dẫn AI Tương Tác Với Người Dùng 
 version: 2.0
 created: 2026-05-11
 status: v2.0 COMPLETE
