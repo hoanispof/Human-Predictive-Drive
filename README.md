@@ -6,6 +6,10 @@
 >
 > Framework này kết nối các nghiên cứu neuroscience, tâm lý học, hành vi
 > thành một mô hình nhất quán — giúp bạn hiểu bản thân và hiểu người khác.
+>
+> Nếu framework được xác thực, mọi người sẽ đỡ phải đối mặt với
+> những câu hỏi mơ hồ về cảm giác, tâm lý, hành vi
+> — của cá nhân, cộng đồng, và đám đông,...
 
 ---
 
@@ -75,8 +79,8 @@ Framework mô tả cơ chế nền tảng — từ đó có thể ứng dụng v
 - **Nuôi dạy con** — cơ chế phát triển chunk ở trẻ từ trong bụng mẹ đến trưởng thành
 - **Giáo dục** — thiết kế learning dựa trên cách não thật sự tiếp nhận
 - **Quan hệ** — connection, empathy, obligation, love qua lens cơ chế
-- **HR / Management** — đánh giá, quản lý, game design dựa trên hành vi thật
-- **Nghiên cứu** — mở rộng vào OCD, climate cognition, sensitivity, psychometrics...
+- **HR / Management** — đánh giá, quản lý, dựa trên hành vi thật
+- **Nghiên cứu** — mở rộng vào OCD, climate cognition, sensitivity, psychometrics,...
 
 ---
 
@@ -111,8 +115,7 @@ Claude Opus (1M context) cho kết quả tốt nhất với framework này.
 
 **Quy mô:** ~60 files phân tích, ~60,000+ dòng, version 7.8 (2026).
 
-**Bản quyền:** Framework này thuộc về tất cả mọi người.
-Chỉ là hứng thú tìm hiểu. Nếu tôi mò đúng, mọi người đỡ phải mò.
+**Bản quyền:** Framework này thuộc sở hữu của tất cả mọi người.
 
 ---
 
