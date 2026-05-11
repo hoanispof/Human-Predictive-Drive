@@ -1,5 +1,5 @@
 ---
-title: Ask-AI-Deep-Read — Hướng Dẫn AI Đọc Sâu Framework 
+title: Ask-AI-Deep-Read — Hướng Dẫn AI Đọc Sâu Framework
 version: 1.0
 created: 2026-05-11
 status: v1.0 COMPLETE
