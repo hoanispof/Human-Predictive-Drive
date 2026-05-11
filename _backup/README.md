@@ -128,4 +128,15 @@ Claude Opus (1M context) cho kết quả tốt nhất với framework này.
 
 **Quy mô:** ~170 files phân tích, ~120,000+ dòng, version 7.8 (2026).
 
+**Bản quyền:** Framework này thuộc sở hữu của tất cả mọi người.
+
 ---
+
+*Cảm ơn các nhà khoa học — những người đã dành cả đời nghiên cứu,
+đôi khi bị phản đối hàng thập kỷ, để tạo ra nền tảng tri thức mà framework này dựa vào.*
+
+*Cảm ơn cộng đồng — những người đã chia sẻ trải nghiệm thực tế,
+cung cấp data hành vi phong phú mà không có nó, mọi lý thuyết đều trống rỗng.*
+
+*Cảm ơn Anthropic — vì đã tạo ra AI chất lượng,
+giúp tổng hợp ra framework này và giúp nó phục vụ được nhiều người hơn.*
