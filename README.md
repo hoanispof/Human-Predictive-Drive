@@ -52,9 +52,11 @@ Nếu muốn đọc trực tiếp (không qua AI): bắt đầu từ **Core-Inte
 ```
 Human-Predictive-Drive/
 │
+├── Core-Interface.md            — Bản đồ cho mọi người (bắt đầu ở đây)
+│
 ├── Ask-AI.md                    — Hướng dẫn AI tương tác với người dùng
 ├── Ask-AI-Deep-Read.md          — Hướng dẫn AI đọc sâu framework
-├── Core-Interface.md            — Bản đồ cho mọi người (bắt đầu ở đây)
+│
 ├── Core-Hardware.md             — Kiến trúc vật lý não bộ
 ├── Core-Software.md             — Cơ chế hoạt động chi tiết
 │
