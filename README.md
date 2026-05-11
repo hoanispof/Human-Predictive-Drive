@@ -65,7 +65,7 @@ Human-Predictive-Drive/
 │   ├── Body-Base/                 — Chunk, Feeling, Body-Feedback, Schema, Melody Lens
 │   ├── PFC/                       — PFC Function/Hardware/Config, Logic-Feeling, Imagination
 │   ├── Domain/                    — Thực tế bên ngoài, conflict, knowledge flow
-│   └── Clarification/            — 4 vị trí framework khác mainstream
+│   └── Clarification/             — 4 vị trí framework khác mainstream
 │
 ├── Research/                      — Nghiên cứu ứng dụng + mở rộng
 │   ├── 01-File-Index.md           — Index toàn bộ files
