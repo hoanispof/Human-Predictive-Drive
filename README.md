@@ -9,7 +9,7 @@
 >
 > Nếu framework được xác thực, mọi người sẽ đỡ phải đối mặt với
 > những câu hỏi mơ hồ về cảm giác, tâm lý, hành vi
-> — của cá nhân, cộng đồng, và đám đông,...
+> — của cá nhân, cộng đồng, đám đông,...
 
 ---
 
