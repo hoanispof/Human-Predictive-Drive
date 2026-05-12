@@ -141,6 +141,12 @@ Claude Opus (1M context) cho kết quả tốt nhất với framework này.
 
 **Quy mô:** ~170 files phân tích, ~120,000+ dòng, version 7.8 (2026).
 
+**Privacy:** This framework is entirely text — no software, no code execution,
+no data collection or storage of any kind.
+However, when you use AI to ask personal questions,
+your data is processed by the AI service you choose.
+Use reputable AI services and review their privacy policies.
+
 ---
 
 ## Keywords
