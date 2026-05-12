@@ -499,14 +499,15 @@ PFC KHÔNG CHỈ re-activate visual — re-activate MỌI modality:
 
   ⭐ BODY THẬT SỰ PHẢN ỨNG VỚI IMAGINATION:
 
-  Fidelity by modality (% so với real experience):
+  Fidelity by modality (% so với real experience — 🟡 calibration anchor, không đo chính xác):
     Cortisol/stress response:  40-70%  (cao nhất — imagine threat → cortisol THẬT tăng!)
     Opioid/pleasure:           20-40%
     Motor activation:          10-30%  (đo bằng EMG — cơ co nhẹ khi imagine)
     Oxytocin:                  10-20%
 
-  → Imagine bị SẾP mắng → cortisol THẬT tăng 40-70%!
-  → Imagine ôm người yêu → oxytocin THẬT tăng 10-20%
+  → Insight: cortisol response MẠNH NHẤT, oxytocin YẾU NHẤT (hướng rõ, số ước lượng)
+  → Imagine bị SẾP mắng → cortisol THẬT tăng đáng kể!
+  → Imagine ôm người yêu → oxytocin THẬT tăng nhẹ
   → Body KHÔNG phân biệt rõ real vs imagined (chỉ khác intensity)
   → = Lý do: lo lắng về tương lai GÂY HẠI thật (cortisol thật)
   → = Lý do: mental rehearsal CẢI THIỆN performance thật (motor pre-build)
@@ -592,7 +593,7 @@ FEELING = hành trình TÍN HIỆU từ body LÊN consciousness:
   │  L7   │ EXPLANATION       │ "Vì deadline"          │  20-70% │
   └───────────────────────────────────────────────────────────────┘
 
-  ⭐ FIDELITY GIẢM DẦN ĐI LÊN:
+  ⭐ FIDELITY GIẢM DẦN ĐI LÊN (% = calibration anchor, không đo chính xác — Core-Software.md §12.4):
     L1 = body truth (100% — body không nói dối)
     L6 = compressed label (40-80% — 1 từ nén 80%+ thông tin)
     L7 = PFC confabulation (20-70% — PFC BỊA lý do post-hoc)

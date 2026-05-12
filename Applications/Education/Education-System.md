@@ -282,7 +282,7 @@ DURABLE vs ERA-SPECIFIC TRONG FILE NÀY:
 NÃO Ở STAGE 2 — CÁI CÓ SẴN:
   (ref: Natural-Development.md §4, Core-Hardware.md §3)
 
-  🟢 PFC development: ~40-70% capacity
+  🟢 PFC development: ~40-70% capacity (calibration anchor — Core-Software.md §12.4)
      → Sustained attention: 15-30 phút (tăng dần)
      → Abstract thinking: SƠ KHAI → cần CONCRETE examples trước
      → Working memory: 3-5 items → tăng dần

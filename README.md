@@ -132,6 +132,28 @@ Chi tiết: xem `Ask-AI.md` §3.
 
 ---
 
+## Contribute
+
+This framework is a hypothesis — not established science.
+It connects well-supported findings into a unified model,
+but the connections themselves are new and unvalidated.
+
+If the model is largely correct, it could benefit everyone.
+If parts are wrong, finding those parts is equally valuable.
+
+**How you can participate:**
+
+- **Anyone** — Use the framework, test it against your own experience.
+  Your body is the final arbiter. Report what doesn't match.
+- **Neuroscience researcher** — Verify the biological mechanisms.
+  Do the nodes hold up? Where does the evidence diverge?
+- **Psychologist / Therapist** — Test the behavioral predictions.
+  Do the patterns match clinical observation?
+- **Educator / Parent** — Try the learning and development principles.
+  Do they work in practice?
+
+---
+
 ## Ghi chú
 
 **AI:** Khuyến cáo dùng AI có context lớn để đảm bảo độ chính xác.
@@ -146,6 +168,9 @@ no data collection or storage of any kind.
 However, when you use AI to ask personal questions,
 your data is processed by the AI service you choose.
 Use reputable AI services and review their privacy policies.
+
+**License:** [CC0 1.0 — Public Domain.](LICENSE)
+Use, share, adapt freely. No permission needed. No credit required.
 
 ---
 

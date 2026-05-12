@@ -26,6 +26,10 @@
 > - Reward-Signal-Architecture.md v1.0 — Type A/B, 5 Profiles, Interaction Model
 > - PFC-Configuration.md v1.0 — 6 dynamic modes, survival matrix
 > **Confidence:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+> **Numbers (🟡):** `~X%` = calibration anchor — hướng + cỡ, KHÔNG phải đo lường.
+>   `X-Y%` = range minh họa (biến thiên lớn). Insight nằm ở HƯỚNG + TƯƠNG QUAN,
+>   không ở con số cụ thể. Mỗi người, mỗi context → số thực tế khác.
+>   🟢 numbers (có citation) = research-backed. Chi tiết: §12.4.
 > **Language:** Tiếng Việt primary + English technical terms
 
 ---
@@ -295,8 +299,9 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
       → Chuyên gia xem tranh thấy bầu trời, người thường thấy đồ cũ
         = cùng domain, khác chunks → khác observation
     → KHÔNG THỂ biết hoàn toàn — body chỉ sample qua receptors (fragments)
-    → Cung cấp FEEDBACK THẬT — domain không nói dối (sai nằm ở human,
-      không nằm ở domain)
+    → Cung cấp FEEDBACK THẬT — domain không nói dối
+      (domain feedback thật, NHƯNG human nhận + giải thích CÓ THỂ SAI
+      → sai nằm ở interface, không nằm ở domain — Domain.md §2 ⑥)
 
   ANCESTRAL DOMAIN (2M+ năm):
     → Natural fractals, pink noise, tribal voices 30-150,
@@ -482,6 +487,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
       PFC accuracy ~30-60% (confabulation phổ biến nhất ở Loại C).
 
     → Cùng 4 compile mechanisms, KHÁC LOẠI sử dụng.
+    → ~90%/~5% = calibration anchor (§12.4). Overlap A/C → không cộng 100%.
     → Chi tiết: Compile-Taxonomy.md §2-§3
 
   VP §4 CLARIFICATION (VP v1.4, Drill §6, §22):
@@ -751,6 +757,10 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     → Naive: trust Layer 6-7 (label + explanation = lossy nhất)
     → Training = đưa attention ngược về Layer 3-4
 
+    🟡 % = calibration anchor, KHÔNG phải đo lường (§12.4).
+       Insight: fidelity GIẢM DẦN + drop critical ở L6-L7.
+       Mỗi người/domain/context → % thực tế khác.
+
   ⭐ PFC OBSERVATION THRESHOLD — 2 CHIỀU (magnitude × clarity):
 
     Threshold KHÔNG chỉ phụ thuộc cường độ signal.
@@ -912,6 +922,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   → "95% vô thức" = observation that MOST processing doesn't need PFC
   → NOT "PFC only runs 5% of time"
   → PFC có thể tham gia bất cứ lúc nào nếu dissonance sufficient
+  → % trên mỗi level = calibration anchor (§12.4). Mỗi người/context → khác.
 ```
 
 ### §6.4 PFC Dynamic Configurations
@@ -1264,6 +1275,49 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   10. Quantitative: khi nào PFC override thành công vs thất bại
      Factors identified: f(PFC hold strength, body signal intensity, compiled chunks)
      PFC-Configuration.md v1.0 maps 6 modes — quantitative thresholds missing
+```
+
+### §12.4 Number Convention
+
+```
+🟡 SỐ LIỆU TRONG FRAMEWORK = CALIBRATION ANCHOR:
+
+  Framework dùng con số để giúp ước lượng HƯỚNG + CỠ.
+  KHÔNG phải đo lường chính xác. KHÔNG phải ratio cố định.
+
+  QUY ƯỚC:
+    ~X%     = order of magnitude ("roughly this scale")
+    X-Y%    = range minh họa ("biến thiên lớn, nằm trong khoảng này")
+    🟢 + %  = research-backed (có citation, empirical basis)
+    🟡 + %  = framework estimate (calibration anchor, không có measurement basis)
+
+  VÍ DỤ:
+    "~95% vô thức / ~5% PFC"
+      → INSIGHT: phần lớn processing KHÔNG cần PFC. PFC = phần nhỏ.
+      → KHÔNG PHẢI: PFC chính xác chạy 5.0% thời gian.
+      → Context khác → tỷ lệ khác (§6.3: PFC 0-95% tùy dissonance level).
+
+    "7-layer fidelity: 100% → ... → 20-70%"
+      → INSIGHT: fidelity GIẢM DẦN qua processing. Drop lớn ở labeling + explanation.
+      → KHÔNG PHẢI: Layer 4 luôn chính xác 85% cho tất cả mọi người.
+      → Người có chunk density cao cho domain đó → fidelity cao hơn.
+
+    "~90% Loại A / ~5% Loại B"
+      → INSIGHT: PHẦN LỚN behavior = direct compiled. Expertise = phần nhỏ.
+      → KHÔNG PHẢI: chính xác 90.0% behavior là Loại A.
+      → Overlap A/C → không cộng thành 100% (Compile-Taxonomy.md §3).
+
+  TẠI SAO GIỮ SỐ:
+    → "Phần lớn" quá mơ hồ → không giúp calibrate
+    → "~95%" cho directional anchor rõ ràng → giúp người đọc ước lượng
+    → Con số = CÔNG CỤ giao tiếp, không phải claim chính xác
+
+  TẠI SAO KHÔNG ÉP CHẶT:
+    → Mỗi người khác: chunk density, hardware config (COMT, MAO-A), experience history
+    → Mỗi context khác: stress level, sleep, environment, social, domain familiarity
+    → Cùng mechanism, khác inputs → khác outputs → KHÔNG CÓ 1 số đúng cho tất cả
+
+  → Đọc số trong framework = đọc HƯỚNG + CỠ, không đọc measurement.
 ```
 
 ---

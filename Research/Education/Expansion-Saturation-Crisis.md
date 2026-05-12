@@ -880,6 +880,7 @@ READER FLOW:
 
     → Framework prediction: PROCESS alone < PROCESS + DOMAIN FEEDBACK
     → = Consistent với Domain.md §2 ⑥: "domain không nói dối"
+      (domain feedback thật — sai nằm ở human interpret, không ở domain)
     → = Body cần domain THẬT để calibrate — academic alone KHÔNG đủ
     → = Apprenticeship model (pre-industrial) đúng hơn factory school model
       (vòng tròn: cái cũ nhất lại đúng nhất — vì cái cũ = process + domain)
@@ -1632,7 +1633,7 @@ SECONDARY DEPENDENCIES
   Kết nối: §1.5, §6.1 (applied to job market)
 
 → Domain.md — Domain reality
-  §2 ⑥: Domain không nói dối → cần domain feedback
+  §2 ⑥: Domain không nói dối (sai nằm ở human) → cần domain feedback
   Kết nối: §4.4 (Germany insight — process + domain feedback)
 
 → Education-Arms-Race.md — Credential inflation + game theory

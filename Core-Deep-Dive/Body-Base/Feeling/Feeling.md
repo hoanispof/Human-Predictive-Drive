@@ -275,6 +275,8 @@ backup: backup/Feeling-v1-draft.md
   │ BODY LEVEL (Fidelity cao nhất)                               │
   └──────────────────────────────────────────────────────────────┘
 
+  % = calibration anchor, KHÔNG phải đo lường (chi tiết: §2.3 bên dưới, Core-Software.md §12.4).
+
   Layer 1-3 = BODY-based (pre-PFC, hoặc PFC-adjacent)
   Layer 4-7 = PFC PROCESSING of feeling (high-fidelity-loss zone)
 
@@ -401,6 +403,10 @@ backup: backup/Feeling-v1-draft.md
   Layer 5: Location                ██████████░░░░░░░░░    70-90%
   Layer 6: Labeling                ████████░░░░░░░░░░░    40-80%
   Layer 7: Explanation             ████░░░░░░░░░░░░░░░    20-70%
+
+  🟡 % = calibration anchor — hướng + cỡ, KHÔNG phải đo lường (Core-Software.md §12.4).
+     Insight: fidelity GIẢM DẦN + drop critical ở L6-L7.
+     Mỗi người/domain/context → % thực tế khác — đây là norm.
 
   IMPLICATION:
     → Mainstream access Layer 6-7 → fidelity thấp nhất → decisions tệ
