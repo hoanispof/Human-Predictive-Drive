@@ -91,8 +91,8 @@ ACADEMIC SYSTEM QUA LENS FRAMEWORK:
     → "Publish or perish" = 2 observation parameters dominant
 
   Cross-domain synthesis bị system SUPPRESS:
-    Synthesis = BROAD → khó publish → không tạo prediction delta
-    Specialist = NARROW → dễ publish → prediction delta rõ
+    Synthesis = BROAD → khó publish → không tạo prediction-delta
+    Specialist = NARROW → dễ publish → prediction-delta rõ
     → Ai broad → ít publication → mất tenure → bị loại
     → Ai narrow → nhiều publication → tenure → survive
     → = Natural selection FOR silos, AGAINST integration
@@ -124,7 +124,7 @@ CÁC RESEARCHER ĐÃ THẤY PHẦN NÀO — nhưng không hội tụ:
     Berridge: opioid ≠ dopamine (khác mechanism)
     Panksepp: emotional systems (nhiều mechanism song song)
     Damasio: body matters (body = ground truth)
-    Friston: prediction mechanism (prediction delta foundation)
+    Friston: prediction mechanism (prediction-delta foundation)
     → KHÔNG AI kết nối thành: chunks + body-feedback + observation parameters
     → Vì: system KHÔNG REWARD kết nối, chỉ reward DEPTH
 
@@ -186,7 +186,7 @@ Latent variables tồn tại KHẮP khoa học — không riêng gì psychology:
     = Latent variable. Decades of research.
 
 Framework "Novelty" (observation parameter) trong thực tế =
-  VTA prediction delta response magnitude
+  VTA prediction-delta response magnitude
   + Chunk-gap detection sensitivity
   + Habituation rate
   + DRD4 receptor profile (Depth vs Breadth tradeoff — PFC-Hardware.md)
@@ -287,7 +287,7 @@ So sánh v6.0 → v7.8:
 
 ③ Foundation layer — framework PHYSICALLY phụ thuộc:
   Mỗi node trong framework graph = phải có conventional evidence:
-    Dopamine prediction delta mechanism: Schultz (1997) ✅
+    Dopamine prediction-delta mechanism: Schultz (1997) ✅
     Cortisol × PFC interaction: documented ✅
     Oxytocin bonding circuit: documented ✅
     Opioid "liking" vs dopamine "wanting": Berridge (1998, 2016) ✅
@@ -380,7 +380,7 @@ Framework KHÔNG đối lập với frontier science — nó PARALLEL:
   Computational psychiatry:
     Mechanistic models của brain behavior.
     Friston's active inference: brain = prediction machine minimizing free energy.
-    = Framework: prediction mechanism, prediction delta, chunk dynamics.
+    = Framework: prediction mechanism, prediction-delta, chunk dynamics.
     → Cùng foundation, framework là lay version với practical focus.
 
   Network theory of mental disorders (Borsboom, 2017):

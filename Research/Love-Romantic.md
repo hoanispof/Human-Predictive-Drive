@@ -621,7 +621,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │    → Body-Base Extension: 0                                      │
   │                                                                 │
   │  GIAI ĐOẠN 2 — SHIFT POSITIVE (gặp + lust):                     │
-  │    → VTA fire prediction delta (người mới + attractive)          │
+  │    → VTA fire prediction-delta (người mới + attractive)          │
   │    → Valence profile: L1 positive (pleasant presence)            │
   │    → Vài channel bắt đầu active                                 │
   │    → Body-Base Extension: 0 (chưa compile)                      │
@@ -1650,7 +1650,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → NHƯNG cả 2 KHÔNG nói nhu cầu THẬT (sợ phá bond)
     → = SPM library KHÔNG update → drift từ reality
     → = Smooth VÌ TRÁNH, không phải vì harmony THẬT
-    → = VTA không fire (không có prediction delta) → "chán"
+    → = VTA không fire (không có prediction-delta) → "chán"
 ```
 
 ### §11.2 — Nhịn vs Nói — body tích lũy
@@ -1745,9 +1745,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
    → relationship satisfaction TĂNG.
 
 🟡 QUA FRAMEWORK:
-  → VTA fire khi "KHÁC so với compiled baseline" (prediction delta)
+  → VTA fire khi "KHÁC so với compiled baseline" (prediction-delta)
   → Routine = habituate → VTA không fire → "chán"
-  → Novelty cùng nhau = prediction delta MỚI → VTA fire → salience
+  → Novelty cùng nhau = prediction-delta MỚI → VTA fire → salience
   → = Giữ NOVELTY trong relationship = giữ VTA active
 
   DEEPEN CHANNELS — OXYTOCIN:
@@ -2159,7 +2159,7 @@ OBSERVATION PARAMETERS:
   → Status.md v2.0 — Resource Access Map, mutual status exchange
   → Autonomy-Hardware.md — efference copy reward
   → Autonomy.md — over-convergence penalty
-  → Novelty.md — VTA prediction delta, habituation
+  → Novelty.md — VTA prediction-delta, habituation
 
 CLARIFICATION FILES:
   → Dopamine-Reward-Rejection.md — dopamine ≠ reward

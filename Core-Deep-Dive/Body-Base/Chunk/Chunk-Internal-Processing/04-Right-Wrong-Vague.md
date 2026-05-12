@@ -72,7 +72,7 @@ Theme D (Deep-Analysis-Draft/02-Theme-D-Right-Wrong.md) ĐÃ phân tích 4 clear
      → CLEAR-ISH — source identifiable (behavior change)
 
 Theme D verdict: SAME mechanism across all 4 cases
-  → Schema mismatch → ACC error → prediction error → Layer 3 feeling
+  → Schema mismatch → ACC error → prediction-delta → Layer 3 feeling
   → Đó là CLEAR territory
 
 ⭐ FILE NÀY DRILL: VAGUE territory
@@ -326,7 +326,7 @@ FRAMEWORK RESPONSE — User is PARTIALLY right:
   BODY (integrated signal):
     → Body signal IS graded (not binary)
     → ACC fires at varying INTENSITY
-    → Prediction error varies in MAGNITUDE
+    → Prediction-delta varies in MAGNITUDE
     → Schema match varies in DEGREE (partial match possible)
 
   → "MỨC ĐỘ ĐÚNG SAI" COMES FROM BODY INTEGRATION, NOT LOGIC:
@@ -340,7 +340,7 @@ FRAMEWORK RESPONSE — User is PARTIALLY right:
 
 ```
 DIMENSION 1 — SIGNAL STRENGTH:
-  = How intensely ACC + prediction error fires
+  = How intensely ACC + prediction-delta fires
   = Depends on: schema depth × mismatch degree × emotional weight
   
   Weak: "hình như có gì đó..." (barely detectable)
@@ -392,7 +392,7 @@ FRAMEWORK ANSWER: COMPILED, NOT RANDOM (Theme D §2.7 extended):
     → Innate Core Knowledge: Spelke 2007 🟢 (4-6 innate systems)
     → Expert compiled chunks: Klein 1998 🟢 (10,000+ hours)
     → Relationship templates: compiled from years of interaction
-    → Specific neural mechanisms: ACC, prediction error, schema match
+    → Specific neural mechanisms: ACC, prediction-delta, schema match
     → 🟢 Replicable cross-culturally (Spelke)
     → 🟢 Reliable within domain (Kahneman & Klein 2009)
 

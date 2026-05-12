@@ -536,7 +536,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │   → 🟢 Still Face Experiment (Tronick 1978, 2007):            │
     │     Mẹ ở đây NHƯNG mặt vô cảm → bé cố thu hút → fail →      │
     │     withdraw                                                   │
-    │   → Prediction error: "mẹ ở đây = mẹ respond" bị VIOLATED    │
+    │   → Prediction-delta: "mẹ ở đây = mẹ respond" bị VIOLATED    │
     │   → Kéo dài: 🟢 Spitz 1945 Hospitalism → 30-40% mortality    │
     │   → CÓ THỂ TỆ HƠN absence:                                   │
     │     Body-Feedback-Mechanism: Chunk-Shift > Chunk-Miss          │
@@ -1073,7 +1073,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Mỗi người có MODALITY BIAS (Logic-Feeling.md §6):
     Verbal-dominant seek verbal connection
     → gặp somatic-dominant → "không hợp"
-    → KHÔNG phải ai sai — fire KHÁC pattern-type → prediction delta
+    → KHÔNG phải ai sai — fire KHÁC pattern-type → prediction-delta
 ```
 
 ---
@@ -1631,7 +1631,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = "Càng thân → càng thoải mái" = calibration loop positive
 
   ② CONNECTION DISRUPTED (xung đột):
-    → Chunk-Shift: expected behavior ≠ actual → prediction delta → cortisol spike
+    → Chunk-Shift: expected behavior ≠ actual → prediction-delta → cortisol spike
     → RECOVERY: talk → recalibrate → chunks UPDATE → connection có thể DEEPER
     → FAIL: không resolve → chronic dissonance → avoidance → END
 

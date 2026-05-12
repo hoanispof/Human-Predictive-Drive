@@ -72,7 +72,7 @@ All four mechanisms act concurrently. No single mechanism is sufficient or neces
 
 **Critical framework distinction** (cited throughout from [Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md)):
 
-> Pattern Resonance is NOT hardware mirror — it is **chunk-based simulation using own-experience patterns**. E9 cry contagion + E10 own-cry-recording asymmetry is **decisive evidence against hardware mirror hypothesis**: if hardware, newborns should cry at any cry sound including their own recording. Reality: own-cry recording produces weaker response than other-cry (near-miss dissonance via prediction error). Mechanism is chunk-based.
+> Pattern Resonance is NOT hardware mirror — it is **chunk-based simulation using own-experience patterns**. E9 cry contagion + E10 own-cry-recording asymmetry is **decisive evidence against hardware mirror hypothesis**: if hardware, newborns should cry at any cry sound including their own recording. Reality: own-cry recording produces weaker response than other-cry (near-miss dissonance via prediction-delta). Mechanism is chunk-based.
 
 This is load-bearing for the entire 07 analysis: every "mirror-like" social event (cry contagion, smile contagion, social smile, gaze following, imitation) is treated as **chunk-based simulation**, not hardware mirror module. The developmental trajectory is about **own-pattern compilation timing**, not "mirror module turning on".
 
@@ -221,14 +221,14 @@ The earliest social events are visual and already drilled in [03-Visual-System-A
 
 **Chunks state inference** 🟡:
 - **Present** (compiled within minutes of birth): own-cry pattern chunk (baby has heard own cry several times in first hours)
-- **Mechanism**: other-baby cry sound is **near-miss** to own-cry pattern → predictive coding generates prediction error → distress amplification → cry output
+- **Mechanism**: other-baby cry sound is **near-miss** to own-cry pattern → predictive coding generates prediction-delta → distress amplification → cry output
 - **NOT a mirror neuron module**: mechanism is chunk-based, not hardware
 
 **⭐ Framework-critical observation from Feel-Example E9 verbatim**:
 
-> "Mainstream giải thích là 'newborn empathy' hoặc 'innate mirror neurons'. Framework chúng ta REJECT cách giải thích đó vì: 1. Bé đã có vài giờ đến vài ngày kinh nghiệm với CHÍNH tiếng khóc của mình — mỗi lần khóc, bé tự nghe own cry. Đây đủ để hình thành một seed chunk. 2. Tiếng khóc của bé khác MATCH GẦN với own-cry pattern nhưng không exact → tạo near-miss dissonance trong predictive coding → distress signal được amplify. 3. KHÔNG cần 'mirror module' hardware — chỉ cần seed chunk + dissonance amplification từ prediction error."
+> "Mainstream giải thích là 'newborn empathy' hoặc 'innate mirror neurons'. Framework chúng ta REJECT cách giải thích đó vì: 1. Bé đã có vài giờ đến vài ngày kinh nghiệm với CHÍNH tiếng khóc của mình — mỗi lần khóc, bé tự nghe own cry. Đây đủ để hình thành một seed chunk. 2. Tiếng khóc của bé khác MATCH GẦN với own-cry pattern nhưng không exact → tạo near-miss dissonance trong predictive coding → distress signal được amplify. 3. KHÔNG cần 'mirror module' hardware — chỉ cần seed chunk + dissonance amplification từ prediction-delta."
 
-**E10 decisive evidence against hardware mirror**: E10 (own-cry recording) asymmetry — baby hears playback of own cry, distress response WEAKER than hearing other's cry. If hardware mirror were the mechanism, any cry sound (including own recording) should trigger the response. Reality: own = exact match = no prediction error = no amplification. Other = near-miss = prediction error = amplification. Dondi, Simion & Caltran 1999 confirmed the asymmetry with controlled newborn studies.
+**E10 decisive evidence against hardware mirror**: E10 (own-cry recording) asymmetry — baby hears playback of own cry, distress response WEAKER than hearing other's cry. If hardware mirror were the mechanism, any cry sound (including own recording) should trigger the response. Reality: own = exact match = no prediction-delta = no amplification. Other = near-miss = prediction-delta = amplification. Dondi, Simion & Caltran 1999 confirmed the asymmetry with controlled newborn studies.
 
 **Sagi & Hoffman 1976, Martin & Clark 1982** — foundational newborn cry contagion research; prevalence ~70-90% (not 100% — another data point against "hardware mandatory").
 
@@ -417,13 +417,13 @@ Baby is in reciprocal interaction with mother (smiling, cooing, "ah ah"). Mother
 3. **Distress phase**: baby fusses, may start crying
 4. **Withdrawal**: baby looks away, self-soothes
 
-**⭐ L2 Marker is Phase 2 "puzzled freeze"**: This is an observable pattern-match event — baby's expectation chunk ("I smile → mom smiles back") has fired, mother's face pattern violates the expectation, prediction error is detected, PFC registers the violation, no action chunk is immediately available → brief freeze (parallel structure to bladder đơ mặt from 06a §3.3).
+**⭐ L2 Marker is Phase 2 "puzzled freeze"**: This is an observable pattern-match event — baby's expectation chunk ("I smile → mom smiles back") has fired, mother's face pattern violates the expectation, prediction-delta is detected, PFC registers the violation, no action chunk is immediately available → brief freeze (parallel structure to bladder đơ mặt from 06a §3.3).
 
 **Why it's L2 not L3 at Phase 2**: Baby has registered expectation violation but is not yet actively attempting a fix (that's Phase 1 or Phase 3 escalation). The puzzled freeze is the **pattern-match recognition without action** — the defining L2 signature.
 
 **Chunks state inference** 🟡:
 - "Expectation chunk for reciprocal interaction" compiled from weeks-months of contingent caregiver interaction
-- Prediction error chunk fires on Phase 2 violation
+- Prediction-delta chunk fires on Phase 2 violation
 - Freeze is the body-level trace of expectation-violation pattern-match without action
 
 **Framework significance**: Still-face provides **controlled laboratory-grade L2 marker** evidence. Unlike naturalistic đơ mặt (requires parent to observe during play) or stranger anxiety (requires stranger visitation), still-face can be produced on demand by any caregiver — making it the most **experimentally reproducible** L2 marker. Mesman et al. 2009 meta-analysis of 500+ still-face studies confirms the puzzled phase is reliable across infant populations.
@@ -811,7 +811,7 @@ The framework commits to **four concurrent mechanisms** for multi-modal binding,
 [Agent/Self-Pattern-Match.md](../Agent/Self-Pattern-Match.md) defined self-pattern-match as the solo forward mechanism — self uses own chunks library + target cues → prediction about target's state.
 
 **07 applications**:
-- E9 cry contagion: own-cry seed chunk + other's cry sound = near-miss prediction error (self-pattern-match running)
+- E9 cry contagion: own-cry seed chunk + other's cry sound = near-miss prediction-delta (self-pattern-match running)
 - E13 smile contagion: own-smile pattern chunk + other's smile = match prediction → own smile activation
 - E15 mother recognition: mother identity chunk + visual input = match prediction → full positive response
 - E26 egocentric empathy: own distress/comfort chunks + mother's distress = match prediction → action applied via template

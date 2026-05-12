@@ -521,7 +521,7 @@ PANDAS (Pediatric Autoimmune Neuropsychiatric Disorders
       → NHƯNG root cause = STRESS, không phải serotonin tự giảm
 
     Love (limerence):
-      → SPM library incomplete (mới gặp) → prediction errors CAO
+      → SPM library incomplete (mới gặp) → prediction-deltas CAO
       → Body GENUINE uncertainty about partner
       → Serotonin ↓ = ADAPTIVE RESPONSE (monitor cần thiết)
       → + Obligation unknown ("tôi phải trả GÌ để giữ?")
@@ -591,7 +591,7 @@ PANDAS (Pediatric Autoimmune Neuropsychiatric Disorders
   HYPER-MONITORING → COMPOUND UNCERTAINTY:
     → Mỗi expression partner → SPM fire → interpret qua THREAT lens
     → "Họ yên lặng" → "giận? chán? sắp bỏ?" (predict sai thường xuyên)
-    → Prediction errors NHIỀU HƠN → uncertainty CAO HƠN
+    → Prediction-deltas NHIỀU HƠN → uncertainty CAO HƠN
     → + Obligation overthinking: "xứng đáng không? giữ sao? trả GÌ?"
       (Obligation.md: obligation = compiled prediction "cost phải trả"
        → relationship mới = obligation CHƯA COMPILE → Chunk-Gap)

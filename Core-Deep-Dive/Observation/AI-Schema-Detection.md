@@ -788,7 +788,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       AI analysis:
         [chán công việc] → Cấp 1 (individual experience) — investigate source
         [ngành đang restructure] → Cấp 2 (collective) — context check
-        [chán = VTA delta giảm, Boredom Loại 1/2] → Cấp 3 (explanatory)
+        [chán = prediction-delta giảm, Boredom Loại 1/2] → Cấp 3 (explanatory)
       → Chuyên gia nhận CẢ 3 tags → quyết định explore ở cấp nào trước
 
     Source: Collective-Body.md v1.1 §1 (Model 3 cấp)

@@ -7,7 +7,7 @@ scope: |
   OBSERVATION FILE: Protect = named pattern khi quan sát loss aversion
   + ownership chunk dynamics. Protect không phải component hay operator —
   là TÊN GỌI cho patterns emergent từ compiled ownership chunks
-  + asymmetric prediction delta khi mất.
+  + asymmetric prediction-delta khi mất.
   File này mô tả: mechanism (ownership chunks + loss aversion),
   formula (replaceability × attachment), spectrum (vật → người → ý tưởng → identity),
   hardware (vasopressin + cortisol threat-pull), chunk dynamics (incl. Gap→Miss),
@@ -67,7 +67,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Gene "share khi thừa" THẮNG gene "giữ hết cho mình."
 >
 > File này: protect LÀ GÌ (ownership chunks + loss aversion),
-> TẠI SAO mất đau hơn được (asymmetric prediction delta),
+> TẠI SAO mất đau hơn được (asymmetric prediction-delta),
 > FORMULA tính intensity, hardware nào participate,
 > ĐỐI TRỌNG TỰ NHIÊN (giving dynamic),
 > và KHI NÀO protect là lành mạnh vs khi nào thành toxic.
@@ -133,7 +133,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Core v7.8 (mới): Protect = OBSERVATION PARAMETER
                     = Named pattern khi quan sát loss aversion + ownership chunks
-                    = Emergent từ body-level chunk compilation + prediction delta
+                    = Emergent từ body-level chunk compilation + prediction-delta
                     = KHÔNG PHẢI component hay operator — là TÊN GỌI
 
   VỊ TRÍ TRONG CYCLE:
@@ -186,7 +186,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ┌──────────────────────────────────────────────────────────────┐
   │  OWNERSHIP CHUNKS              LOSS AVERSION                 │
-  │  (compiled baseline:           (asymmetric prediction delta: │
+  │  (compiled baseline:           (asymmetric prediction-delta: │
   │   "thứ này = của tôi")          mất đau ~2× được)           │
   │         │                              │                     │
   │         └──────────┬───────────────────┘                     │
@@ -270,16 +270,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Gaining $100: positive utility = X
     → Losing $100: negative utility ≈ 2X
     → = Body phản ứng với LOSS mạnh hơn GAIN cùng magnitude
-    → = ASYMMETRIC prediction delta
+    → = ASYMMETRIC prediction-delta
 
   CƠ CHẾ TRONG FRAMEWORK:
 
     ① Compiled baseline = X (VTA habituated)
     ② Actual quality TĂNG lên X+Δ:
-       → VTA fires POSITIVE prediction delta
+       → VTA fires POSITIVE prediction-delta
        → Body signal: "tốt hơn expected" → reward
     ③ Actual quality GIẢM xuống X-Δ:
-       → VTA fires NEGATIVE prediction delta
+       → VTA fires NEGATIVE prediction-delta
        → Body signal: "tệ hơn expected" → dissonance
     ④ ⭐ ASYMMETRY: magnitude ③ > magnitude ② cho cùng Δ
        → = Loss aversion ở body-level
@@ -303,7 +303,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟢 Schultz 1997 (dopamine neurons):
     → Expected = X, Actual < X → dopamine SUPPRESS below baseline
-    → = Neural mechanism cụ thể cho negative prediction delta
+    → = Neural mechanism cụ thể cho negative prediction-delta
     → Dopamine suppress = CHỦ ĐỘNG signal "worse than expected"
     → Không phải "thiếu reward" — là ACTIVE negative signal
 
@@ -969,7 +969,7 @@ CHUNK-MISS TRONG PROTECT = CORE LOSS MECHANISM:
 
   ĐỊNH NGHĨA (BFM §3.2): owned object/person ABSENT →
   compiled baseline violated. VTA detect: actual < baseline →
-  negative prediction delta → body signal "worse than expected."
+  negative prediction-delta → body signal "worse than expected."
 
   3 VARIANTS (BFM §3.2 ⓐⓑⓒ):
 
@@ -1700,7 +1700,7 @@ TOXIC PROTECT = CHRONIC + DISPROPORTIONAL + UNRESOLVABLE:
   WHAT'S STRONG:
     → Loss aversion, endowment effect, SNC = very well-established
     → Vasopressin role in animal bonding defense = well-established
-    → Dopamine prediction delta mechanism = well-established
+    → Dopamine prediction-delta mechanism = well-established
     → Cognitive dissonance, sunk cost = well-established
     → Cortisol = amplifier (not cause) = well-clarified in framework
     → = Foundation research ROBUST — framework builds ON established science
@@ -1817,7 +1817,7 @@ KEY RESEARCH CITATIONS:
   → 🟢 Thaler 1980 — Endowment effect
   → 🟢 Kahneman, Knetsch & Thaler 1990 — Endowment experiment
   → 🟢 Crespi 1942 / Flaherty 1996 — SNC (animal loss response)
-  → 🟢 Schultz 1997 — Dopamine prediction delta neurons
+  → 🟢 Schultz 1997 — Dopamine prediction-delta neurons
   → 🟢 Young & Wang 2004 — Vasopressin and bonding defense
   → 🟢 Walum et al. 2008 — AVPR1A gene and human pair bonding
   → 🟢 Arkes & Blumer 1985 — Sunk cost fallacy
@@ -1840,7 +1840,7 @@ PROTECT = OBSERVATION PARAMETER (v7.8)
 
 CORE (§1):
   → Ownership chunks = compiled baseline ("của tôi" ở body-level)
-  → Loss aversion = asymmetric prediction delta (mất đau ~2× được)
+  → Loss aversion = asymmetric prediction-delta (mất đau ~2× được)
   → Body-level (pre-verbal, cross-species), NOT PFC concept
   → Cortisol = amplifier NOT cause (Clarification file)
 

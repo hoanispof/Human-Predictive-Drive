@@ -1563,7 +1563,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Body-Feedback-Mechanism.md define 3 chunk dynamics:
     ① Chunk-Shift: same chunks, DIFFERENT valence (đánh giá đổi)
-    ② Chunk-Miss: compiled pattern ABSENT (negative prediction delta)
+    ② Chunk-Miss: compiled pattern ABSENT (negative prediction-delta)
     ③ Chunk-Gap: pattern CHƯA CÓ nhưng network detect hole
 
   Status changes MAP TRỰC TIẾP vào 3 dynamics này.

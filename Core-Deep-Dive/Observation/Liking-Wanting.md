@@ -304,7 +304,7 @@ FILE NÀY TRONG FRAMEWORK:
 
   "Đam mê vật lý" — Berridge: wanting.
   Framework:
-    Vật lý → hardware fit + chunk match + Goldilocks + VTA delta
+    Vật lý → hardware fit + chunk match + Goldilocks + prediction-delta
     = NHIỀU chains fire SONG SONG → net valence >> threshold → drive
     = PFC nói "đam mê". Body: 4 chains invisible
 
@@ -442,7 +442,7 @@ FILE NÀY TRONG FRAMEWORK:
        → Yes: nghe sau 10 lần → chunks build → recognize → "hay!" → opioid
        → = Van Gogh paradox: appreciation REQUIRES chunks (03-Reward.md §6)
 
-    ③ VTA delta threshold
+    ③ prediction-delta threshold
        → Biến động đủ lớn để VTA detect
        → No: bài hát nghe 100 lần → VTA habituate → "chán" (no delta)
        → Yes: bài hát nghe lần 5 → vẫn fresh đủ → VTA fire → attend → liking
@@ -841,7 +841,7 @@ LÝ DO 4 — FRAMEWORK ĐÃ CÓ THAM SỐ ĐẦY ĐỦ:
   │ THAY CHO "WANTING":                                         │
   │                                                              │
   │   → Imagine-Final (preview state + 3-layer + clarity level) │
-  │   → VTA delta detection (habituation-based)                 │
+  │   → prediction-delta detection (habituation-based)                 │
   │   → Compiled schema state (auto-drive vs PFC-driven)        │
   │   → Anchor-Schema + Trust level (binding strength)          │
   │   → Valence chain (which chains fire, where they lead)      │
@@ -973,7 +973,7 @@ DEPENDENCY FILES (file NÀY phụ thuộc):
 RESEARCH CITATIONS (primary):
   🟢 Berridge & Robinson 1998, 2003, 2016 — wanting ≠ liking (foundational)
   🟢 Peciña & Berridge 2005 — NAcc hedonic hotspot, opioid vs dopamine dissociation
-  🟢 Schultz 1997 — dopamine PE signal (reinterpreted as salience/delta)
+  🟢 Schultz 1997 — dopamine prediction-delta signal (reinterpreted as salience/delta)
   🟢 Cabanac 1971 — alliesthesia (same food, different pleasure when full vs hungry)
   🟢 Brickman 1978 — hedonic treadmill
   🟢 Berlyne — optimal arousal, inverted-U curve

@@ -1104,7 +1104,7 @@ CORE FRAMEWORK:
   → Schema/Chunk.md §5: "mượt giả vs mượt thật" → §4 1A vs 1B (system level)
   → Logic-Planning.md: "feel đúng → plan đúng" → §3.4 logic = domain real property
   → Somatic-Articulation-Loop.md: body→explicit → §2.5 Strategy B+C (articulation)
-  → Drive/Novelty.md: VTA delta detection → §2.4 step ③ curiosity drive
+  → Drive/Novelty.md: prediction-delta detection → §2.4 step ③ curiosity drive
   → Drive/Threat.md: threat override → §2.4 step ③ cycle block condition
 
 ACADEMIC REFERENCES:

@@ -192,7 +192,7 @@ TẦNG GIỮA — GIẢI PHÓNG PFC:
   KHI CÓ FIDGET:
   → Motor nhận "dummy task" (rung đùi, bấm bút)
   → Motor: "OK, đang làm việc" → NGỪNG gửi interrupt
-  → VTA monitor motor output: "đều đặn, no prediction error" → không báo PFC
+  → VTA monitor motor output: "đều đặn, no prediction-delta" → không báo PFC
   → PFC: interrupt BIẾN MẤT → bandwidth GIẢI PHÓNG → focus task chính
 
   = Fidget hoạt động như "white noise machine" cho motor system
@@ -221,7 +221,7 @@ TẦNG CAO NHẤT — KHI FIDGET DRIFT SANG SÁNG TẠO:
   → Gấp giấy origami: mỗi bước = hình dạng mới
 
   Khi output KHÔNG 100% predictable:
-  → VTA detect prediction error NHỎ → fire NHẸ → micro-dopamine
+  → VTA detect prediction-delta NHỎ → fire NHẸ → micro-dopamine
   → = Mỗi nét vẽ / mỗi trick = 1 MICRO-NOVELTY LOOP:
      action → output → pattern detect → predict → confirm/surprise → dopamine
   → = Continuous micro-reward stream
@@ -246,8 +246,8 @@ TẦNG CAO NHẤT — KHI FIDGET DRIFT SANG SÁNG TẠO:
     → Fidgeting calming = fast + cheap + no PFC → đặc trưng Type B
 
   Tầng 3 micro-novelty = DOPAMINE SIGNALING, không phải Type A:
-    VTA prediction error → dopamine = salience alert (không phải opioid reward)
-    Doodling "vui" = prediction error loop engaging ≠ evaluative reward
+    VTA prediction-delta → dopamine = salience alert (không phải opioid reward)
+    Doodling "vui" = prediction-delta loop engaging ≠ evaluative reward
     Type A cần H10 + PFC evaluation → KHÔNG match fidget profile
 
   → Fidgeting = chủ yếu Type B reward pathway
@@ -260,7 +260,7 @@ TẦNG CAO NHẤT — KHI FIDGET DRIFT SANG SÁNG TẠO:
 ## 3. VTA Discriminator — Tại Sao Rung Đùi Không Vui Mà Vẽ Bừa Vui {#3-vta}
 
 ```
-⭐ VTA (Ventral Tegmental Area) = novelty/prediction error detector:
+⭐ VTA (Ventral Tegmental Area) = novelty/prediction-delta detector:
 
   🟢 Schultz et al. (1997): VTA dopamine neurons fire khi
       outcome KHÁC prediction (prediction error)
@@ -273,7 +273,7 @@ TẦNG CAO NHẤT — KHI FIDGET DRIFT SANG SÁNG TẠO:
     Lần 1: đùi rung → proprioceptive signal → VTA: "?" → nhìn thử
     Lần 2: đùi rung Y HỆT → VTA: "giống lần trước" → giảm fire
     Lần 3+: Y HỆT → VTA: "predict được 100%" → KHÔNG fire
-    → VTA classify: "repetitive, no prediction error, ignore"
+    → VTA classify: "repetitive, no prediction-delta, ignore"
     → Kết quả: calming CÓ (tầng 1+2), dopamine = 0, VUI = KHÔNG
     → = "Giảm stress nhưng không thú vị"
 
@@ -282,26 +282,26 @@ TẦNG CAO NHẤT — KHI FIDGET DRIFT SANG SÁNG TẠO:
     → Chán → vô thức BẬT rhythm: tạch-tạch...TẠ:CH...tạch-tạch
     → Rhythm MỚI → VTA: "ồ, pattern khác?" → fire nhẹ
     → = Tại sao người bấm bút LUÔN escalate sang rhythm phức tạp
-    → = Vô thức TÌM prediction error để duy trì micro-dopamine
+    → = Vô thức TÌM prediction-delta để duy trì micro-dopamine
 
   VẼ BỪA (micro-novelty):
     Nét 1: đường cong → mắt thấy hình mới → VTA fire nhẹ
     Nét 2: thêm đường → "ồ, giống mặt người" → SURPRISE → fire
     Nét 3: thêm chi tiết → "đúng rồi" → confirm → fire
     Nét 4: thêm râu → "haha" → creative surprise → fire MẠNH
-    → MỖI NÉT = prediction error NHỎ → micro-dopamine liên tục
+    → MỖI NÉT = prediction-delta NHỎ → micro-dopamine liên tục
     → = VUI dù "không làm gì có ý nghĩa"
 
   XOAY BÚT TRICKS:
     Trick đơn giản (đã compiled): VTA ignore → chỉ calming
     THỬ trick MỚI: → có thể rớt → UNCERTAIN → VTA fire NHẸ
-    Trick MỚI THÀNH CÔNG: → prediction error POSITIVE → dopamine bump
+    Trick MỚI THÀNH CÔNG: → prediction-delta POSITIVE → dopamine bump
     → = Tại sao pen spinning ADDICTIVE: continuous skill-novelty loop
 
 PATTERN CHUNG:
   → VTA ADAPT (habituation) với bất kỳ input nào LẶP LẠI hoàn toàn
   → Fidget CÓ XU HƯỚNG DRIFT sang phức tạp hơn theo thời gian
-  → Vì: VTA cần prediction error → vô thức tìm cách TẠO error
+  → Vì: VTA cần prediction-delta → vô thức tìm cách TẠO error
   → = NÃO LUÔN HƯỚNG VỀ NOVELTY dù ở hành vi nhỏ nhất
   → = Micro-novelty seeking = PROPERTY CƠ BẢN của VTA
 ```
@@ -829,7 +829,7 @@ BƯỚC 2 — Fidgeting (REGULATION — bình thường, lành tính)
 │ → Motor busy → ngừng interrupt PFC → PFC free
 │ → Change-readiness PHẦN NÀO thỏa mãn → tension giảm
 │
-│ VTA: "motor output đều đặn, no prediction error" → ignore
+│ VTA: "motor output đều đặn, no prediction-delta" → ignore
 │ → Dopamine = 0 → KHÔNG VUI — chỉ CALMING
 │ → Schema: NÔNG (ko compile sâu vì ko có reward)
 │ → DỄ DỪNG khi arousal ổn
@@ -842,7 +842,7 @@ BƯỚC 2 — Fidgeting (REGULATION — bình thường, lành tính)
 BƯỚC 3 — Micro-novelty fidget (REGULATION + REWARD — vẫn lành tính)
 │
 │ Fidget DRIFT sang phức tạp hơn: vẽ bừa, pen tricks, rhythm phức tạp
-│ → Mỗi output hơi KHÁC output trước → VTA detect prediction error
+│ → Mỗi output hơi KHÁC output trước → VTA detect prediction-delta
 │ → VTA fire nhẹ → micro-dopamine → VUI
 │ → = Calming (tầng 1+2) + reward (tầng 3) = best of both
 │
@@ -1214,7 +1214,7 @@ FDG-10: Change-readiness vs arousal — distinguishable?
 → Observation/Novelty.md v1.0:
     Micro-novelty fidget (vẽ bừa, pen tricks) = novelty loop ở MINIMUM scale
     Spectrum: pure fidget → micro-novelty → full novelty loop
-    VTA discriminator: same mechanism (prediction error), different scale
+    VTA discriminator: same mechanism (prediction-delta), different scale
     Drift sang phải = VTA habituation → seek more novelty → same drive
 
 → Observation/Boredom.md v1.0:

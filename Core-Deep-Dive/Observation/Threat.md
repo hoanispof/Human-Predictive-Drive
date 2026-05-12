@@ -899,5 +899,5 @@ TÓM TẮT:
   STATUS:
     v1.0 — 2026-04-20 — viết mới cho v7.8 cycle-based architecture
     Gộp từ: Threat.md v1.1 + Threat-Drive-Analysis.md (backup: _backup/Drive-v75-era/)
-    Aligned: Core v7.8, Body-Feedback-Mechanism, prediction delta terminology
+    Aligned: Core v7.8, Body-Feedback-Mechanism, prediction-delta terminology
 ```

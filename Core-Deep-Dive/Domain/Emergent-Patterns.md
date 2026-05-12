@@ -809,7 +809,7 @@
     Novelty amplification:
       → 1 người kể chuyện → 1 người nghe → novelty × 1
       → 1 người kể → 5 người phản ứng KHÁC NHAU → novelty × 5
-      → Mỗi phản ứng = prediction delta MỚI → more novelty → more reward
+      → Mỗi phản ứng = prediction-delta MỚI → more novelty → more reward
       → Case: bàn tán cô giáo áo chấm đỏ — 1 signal → 5 phản ứng → vui gấp bội
 
     Mirror amplification:

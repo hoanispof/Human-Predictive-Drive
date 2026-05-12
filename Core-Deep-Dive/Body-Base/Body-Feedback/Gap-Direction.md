@@ -114,7 +114,7 @@ H10 5 PRECONDITIONS (Body-Feedback.md §6):
 
   P1: Schema pending (body-need gap open)
   P2: Chunks base adequate (đủ substrate decode)
-  P3: VTA delta threshold (biến động đủ lớn)
+  P3: prediction-delta threshold (biến động đủ lớn)
   P4: Goldilocks zone (40-70% match)
   P5: Chunk association tag (opioid vs cortisol)
 
@@ -929,7 +929,7 @@ FILE NÀY:
   │                                                             │
   │  LAYER 1 — SIGNAL MECHANISM (HOW body detects):             │
   │                                                             │
-  │    VTA: detect prediction delta (Schultz 1997)              │
+  │    VTA: detect prediction-delta (Schultz 1997)              │
   │    ACC: detect inconsistency (Bush et al. 2000)             │
   │    = GENERIC mechanism: "có gì đó khác/thiếu/mâu thuẫn"    │
   │    = KHÔNG carry thông tin "khác CÁI GÌ"                   │
@@ -967,8 +967,8 @@ FILE NÀY:
   │ (đủ substrate)      │          │ Đủ chunks = đủ bờ = có hole │
   │                     │          │ = Prerequisite cho P1        │
   ├─────────────────────┼──────────┼──────────────────────────────┤
-  │ P3 VTA Delta        │ Layer 1  │ SIGNAL FIRES                 │
-  │ (biến động đủ)      │          │ Prediction error detected    │
+  │ P3 Prediction-Delta  │ Layer 1  │ SIGNAL FIRES                 │
+  │ (biến động đủ)      │          │ Prediction-delta detected    │
   │                     │          │ = Detection mechanism active  │
   ├─────────────────────┼──────────┼──────────────────────────────┤
   │ P4 Goldilocks       │ Layer 2  │ DIRECTION MATCH QUALITY      │
@@ -1801,7 +1801,7 @@ FILE NÀY:
   D2. ĐỌC TIỂU THUYẾT:
     Gap: "chuyện gì xảy ra tiếp?" (plot creates directed gap)
     Direction: character fate prediction (SPM-based)
-    Plot twist → prediction wrong → VTA delta → new gap → fill → reward
+    Plot twist → prediction wrong → prediction-delta → new gap → fill → reward
     → Tác giả = gap direction engineer (create→fill→create loop) ✅
 
   D3. SƯU TẦM TEM:

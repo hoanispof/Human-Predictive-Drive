@@ -725,7 +725,7 @@ CLARIFICATION
 
 → Prediction-Error-Is-Not-Reward.md
    Prediction delta = attention signal → fires across modalities
-   Reward = PE + coherence + H10 preconditions (opioid)
+   Reward = prediction-delta + coherence + H10 preconditions (opioid)
 
 ═══════════════════════════════════════════════════════
 EDUCATION + DEVELOPMENT

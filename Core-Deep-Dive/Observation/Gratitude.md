@@ -126,7 +126,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = NỀN TẢNG — mọi loài xã hội đều có
 
   TẦNG 2 — Basic observation (single mechanism):
-    → Novelty (positive prediction delta)
+    → Novelty (positive prediction-delta)
     → Threat (dissonance + prediction of harm)
     → Boredom (dissonance + Imagine-Final unclear)
     → = 1 mechanism → 1 observation
@@ -255,7 +255,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Gratitude = observable pattern khi body's valence system fire
   NET POSITIVE toward AGENT-source, sau khi:
     ① Body-base THẬT SỰ reward bởi gift (H10 met)
-    ② PFC Comparison tạo prediction delta nhân tạo ("có vs không có")
+    ② PFC Comparison tạo prediction-delta nhân tạo ("có vs không có")
     ③ Source Attribution link reward → agent
     ④ SPM simulate giver's effort → empathy
     ⑤ Obligation assessment: debt threat ĐỦ THẤP để net positive
@@ -396,7 +396,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Gift → body-base reward chỉ fire khi H10 MET:
     P1 Schema pending: body ĐANG CẦN thứ được cho
     P2 Chunks base: có đủ chunks decode GIÁ TRỊ gift
-    P3 VTA delta: gift tạo biến động ĐỦ LỚN
+    P3 prediction-delta: gift tạo biến động ĐỦ LỚN
     P4 Goldilocks: gift match 40-70% (không quá quen, không quá lạ)
     P5 Chunk tag: gift không bị tag threat
 
@@ -991,7 +991,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Deliberate?     │ Tự nhiên     │ Chủ ý        │ Tự động (habit)  │
   │ Modern threat   │ Bị GIẢM     │ Bị QUÊN      │ Bị BỎ            │
   │ Ví dụ          │ Mưa→nắng    │ "Cảm ơn"    │ Cầu nguyện       │
-  │ Body mechanism  │ VTA reset    │ VTA delta    │ VTA delta +      │
+  │ Body mechanism  │ VTA reset    │ prediction-delta    │ prediction-delta +      │
   │                 │ qua absence  │ qua contrast │ anchor sync +    │
   │                 │              │              │ cortisol ↓       │
   └─────────────────┴──────────────┴──────────────┴──────────────────┘
@@ -1268,7 +1268,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ① COMPARISON INJECTION QUA CẦU NGUYỆN:
     → "Cảm ơn Chúa vì bữa cơm" = PFC comparison forced
-    → Tôn giáo KHÔNG biết H10, VTA delta, opioid
+    → Tôn giáo KHÔNG biết H10, prediction-delta, opioid
     → NHƯNG ritual TẠO delta → body feel better → giữ lại practice
 
   ② PERIODIC DEPRIVATION QUA FASTING:
@@ -1881,7 +1881,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Meaning.md v2.0 — life-level Anchor-Schema (Q4: × gratitude → anchor strengthening?)
     → Threat.md — Internal-Predict, anxiety
     → Boredom.md — dissonance + Imagine-Final unclear
-    → Novelty.md — positive prediction delta
+    → Novelty.md — positive prediction-delta
 
   DOMAIN FILES:
     → Emergent-Patterns.md §5 — "Cho đi" pattern, 4 reward sources, 3 violation tests

@@ -178,7 +178,7 @@ Reward-Signal-Architecture.md (file này):
   │                  │ compiled for    │ hardware paths │
   │                  │ evaluation      │ from birth     │
   ├──────────────────┼─────────────────┼────────────────┤
-  │ P3 VTA delta     │ REQUIRED —      │ UNCERTAIN —    │
+  │ P3 prediction-delta     │ REQUIRED —      │ UNCERTAIN —    │
   │                  │ novelty/change  │ may bypass VTA │
   │                  │                 │ (posterior     │
   │                  │                 │  insula path)  │
@@ -841,7 +841,7 @@ Reward-Signal-Architecture.md (file này):
 🟡 A HABITUATES VIA VTA (central). B VIA RECEPTOR (peripheral):
 
   TYPE A = VTA HABITUATION:
-    → VTA detects prediction delta → habituates → delta → 0
+    → VTA detects prediction-delta → habituates → delta → 0
     → 🟢 Schultz 1997: reward prediction error disappears when expected
     → ALL Type A rewards habituate this way — universal mechanism
     → "Boring but still tastes good" = VTA habituated, receptor intact

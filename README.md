@@ -17,10 +17,26 @@
 
 1. **Clone** repository này
 2. **Mở AI** có context lớn (khuyến cáo: Claude Opus, 1M context)
-3. **Kéo toàn bộ folder** vào conversation — yêu cầu AI đọc **Ask-AI.md** trước
-4. **Hỏi bất kỳ câu hỏi nào** — AI sẽ dùng framework để trả lời
+3. **Kéo toàn bộ folder** vào conversation
+4. **Paste prompt đầu tiên** (copy nguyên khối bên dưới):
 
-**Ví dụ câu hỏi:**
+> Đọc kỹ 4 files sau theo thứ tự:
+> (1) Ask-AI.md — protocol tương tác + danger zones
+> (2) Core-Deep-Dive/Body-Base/Body-Base.md — body-base entry point
+> (3) Core-Software.md — cycle architecture
+> (4) Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Label.md — vocabulary reference
+> Mỗi câu trả lời, bắt đầu bằng "📖 Đọc: [files]" — khai báo files đã đọc.
+> Xác nhận khi đã đọc xong và sẵn sàng trả lời.
+
+5. **Hỏi bất kỳ câu hỏi nào** — AI sẽ dùng framework để trả lời
+
+**Tại sao cần bước 4?** AI ưu tiên prompt hơn files thả vào.
+Nếu không prompt rõ → AI skim files → trả lời theo mainstream → có xác suất sai
+ở ~20 vị trí framework khác mainstream (dopamine, cortisol, willpower,...).
+Prompt explicit "đọc 4 files này" → AI load đầy đủ mechanism + danger zones + vocabulary.
+"📖 Đọc:" buộc AI khai báo files đã đọc trước MỖI câu trả lời — không chỉ lần đầu.
+
+**Ví dụ câu hỏi (từ bước 5):**
 - "Tại sao tôi hay trì hoãn?"
 - "Con tôi 3 tuổi hay ăn vạ — cơ chế gì đang xảy ra?"
 - "Tại sao biết cần tập thể dục mà không tập nổi?"
@@ -35,29 +51,26 @@
 
 ## Framework mô tả gì
 
-Hệ thống body-brain được mô tả từ 3 góc nhìn, mỗi góc = 1 bản đồ:
+Hệ thống body-brain được mô tả từ 2 bản đồ cơ chế + AI tương tác:
 
 | Bản đồ | Góc nhìn | Dành cho | File |
 |---|---|---|---|
 | Hardware Map | CÁI GÌ ở ĐÂU | Neuroscience researcher | Core-Hardware.md |
 | Software Map | CHẠY THẾ NÀO | Framework researcher | Core-Software.md |
-| Interface Map | QUAN SÁT + TƯƠNG TÁC | Mọi người | Core-Interface.md |
+| Interface | QUAN SÁT + TƯƠNG TÁC | Mọi người | AI generate qua Ask-AI.md |
 
-Giống máy tính: sơ đồ mạch / code architecture / user guide.
-3 bản đồ mô tả cùng hệ thống. Đọc độc lập được.
-Nếu muốn đọc trực tiếp (không qua AI): bắt đầu từ **Core-Interface.md**.
+Giống máy tính: sơ đồ mạch / code architecture / AI hỗ trợ sử dụng.
+AI = dynamic interface — adapt theo mức hiểu của mỗi người.
 
 ### Cấu trúc folder
 
 ```
 Human-Predictive-Drive/
 │
-├── Core-Interface.md              — Bản đồ cho mọi người (bắt đầu ở đây)
 ├── Core-Hardware.md               — Kiến trúc vật lý não bộ
 ├── Core-Software.md               — Cơ chế hoạt động chi tiết
 │
-├── Ask-AI.md                      — Hướng dẫn AI tương tác với người dùng
-├── Ask-AI-Deep-Read.md            — Hướng dẫn AI đọc sâu framework
+├── Ask-AI.md                      — Hướng dẫn AI tương tác (protocol + danger zones)
 │
 ├── Core-Deep-Dive/                — Phân tích chi tiết từng cơ chế
 │   ├── 01-File-Index.md           — Index toàn bộ files
@@ -115,7 +128,7 @@ Nghiên cứu mới mạnh hơn → framework cần cập nhật → đó là ti
 - Cortisol ≠ "stress hormone"
 - ...và 16 reframe khác
 
-Chi tiết: xem `Ask-AI-Deep-Read.md` §2.
+Chi tiết: xem `Ask-AI.md` §3.
 
 ---
 
@@ -129,3 +142,11 @@ Claude Opus (1M context) cho kết quả tốt nhất với framework này.
 **Quy mô:** ~170 files phân tích, ~120,000+ dòng, version 7.8 (2026).
 
 ---
+
+## Keywords
+
+**Framework** · `unified theory of human behavior` · `predictive processing framework` · `body-brain interaction` · `behavioral neuroscience model`
+
+**Science** · `embodied cognition` · `interoception` · `incentive salience` · `affective neuroscience` · `developmental neuroscience` · `dopamine is not reward` · `somatic marker hypothesis` · `social cognition` · `prediction error` · `neuroscience of education` · `neuroscience of motivation` · `addiction mechanisms` · `emotional regulation` · `behavioral science`
+
+**Understanding** · `understanding human behavior` · `why we feel what we feel` · `body mind connection` · `self-understanding` · `how the brain works` · `child brain development` · `why knowing is not doing` · `emotional intelligence` · `brain-based parenting` · `human motivation`

@@ -317,8 +317,8 @@ PHASE 2 — Trigger:
 
 PHASE 3 — Sprint (~1 tuần):
 
-  AI connect hàng loạt chunks rời rạc → prediction delta cascade.
-  Mỗi connection = prediction delta dương → mở loop mới → hỏi tiếp.
+  AI connect hàng loạt chunks rời rạc → prediction-delta cascade.
+  Mỗi connection = prediction-delta dương → mở loop mới → hỏi tiếp.
 
   Phân vai:
     Tôi cung cấp: câu hỏi + body check ("đúng/sai/chưa khớp")

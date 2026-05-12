@@ -289,7 +289,7 @@ Cơ chế F1 hình thức hóa (substrate chunk compile từ body signals) hoạ
 - **H10 — Body Signal Precondition Hypothesis**: Body signal fires khi TẤT CẢ 5 điều kiện tiên quyết được thỏa mãn:
   1. **P1 Schema pending status** — schema đang chờ được fill/resolve/upgrade
   2. **P2 ⭐ Chunks Base Adequacy** — đủ chunks substrate để decode pattern
-  3. **P3 VTA delta threshold** — biến động đủ lớn cho VTA detect (dựa trên habituation)
+  3. **P3 prediction-delta threshold** — biến động đủ lớn cho VTA detect (dựa trên habituation)
   4. **P4 Goldilocks zone** — khớp 40-70% (không quá quen thuộc cũng không quá xa lạ)
   5. **P5 ⭐ Chunk association tag** — chunks fire có pattern liên kết được xác định bởi body state fingerprint trong thời gian compile: novelty-path body state (novelty cortisol + dopamine/opioid) → chunks gắn opioid → "thích dùng"; threat-path body state (threat cortisol + NE/adrenaline) → chunks gắn cortisol-avoidance → "tránh dùng". Xem [06a §7.0.1](06a-Interoceptive-Bladder-Keystone.md#§7.0.1) cho cơ chế được tinh chỉnh (cùng phân tử, body state khác nhau, kết quả ngược chiều).
 - **Lớp body-feedback (L1-L2)** ≠ **Lớp Feeling (L3-L7)**:

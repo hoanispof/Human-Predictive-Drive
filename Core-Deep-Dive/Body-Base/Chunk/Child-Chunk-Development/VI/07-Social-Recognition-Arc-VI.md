@@ -72,7 +72,7 @@ Cả bốn cơ chế hoạt động đồng thời. Không có cơ chế đơn l
 
 **Phân biệt framework-critical** (được cite xuyên suốt từ [Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md)):
 
-> Pattern Resonance KHÔNG phải hardware mirror — nó là **chunk-based simulation sử dụng own-experience patterns**. E9 cry contagion + asymmetry own-cry-recording là **bằng chứng quyết định chống lại hypothesis hardware mirror**: nếu hardware, trẻ sơ sinh nên khóc ở bất kỳ âm thanh nào bao gồm recording tiếng khóc của chính mình. Thực tế: own-cry recording tạo ra phản hồi yếu hơn other-cry (near-miss dissonance qua prediction error). Mechanism là chunk-based.
+> Pattern Resonance KHÔNG phải hardware mirror — nó là **chunk-based simulation sử dụng own-experience patterns**. E9 cry contagion + asymmetry own-cry-recording là **bằng chứng quyết định chống lại hypothesis hardware mirror**: nếu hardware, trẻ sơ sinh nên khóc ở bất kỳ âm thanh nào bao gồm recording tiếng khóc của chính mình. Thực tế: own-cry recording tạo ra phản hồi yếu hơn other-cry (near-miss dissonance qua prediction-delta). Mechanism là chunk-based.
 
 Đây là nền tảng cho toàn bộ phân tích 07: mỗi sự kiện xã hội "giống mirror" (cry contagion, smile contagion, social smile, gaze following, imitation) được hiểu như là **chunk-based simulation**, không phải hardware mirror module. Trajectory phát triển là về **timing compile own-pattern**, không phải "mirror module turning on".
 
@@ -229,14 +229,14 @@ Các sự kiện social sớm nhất là visual và đã được drilled trong 
 
 **Chunks state inference** 🟡:
 - **Có mặt** (compiled trong vài phút sau khi sinh): own-cry pattern chunk (em bé đã nghe tiếng khóc của mình vài lần trong những giờ đầu)
-- **Mechanism**: tiếng khóc của baby khác là **near-miss** với own-cry pattern → predictive coding tạo prediction error → khuếch đại distress → cry output
+- **Mechanism**: tiếng khóc của baby khác là **near-miss** với own-cry pattern → predictive coding tạo prediction-delta → khuếch đại distress → cry output
 - **KHÔNG phải mirror neuron module**: mechanism là chunk-based, không phải hardware
 
 **⭐ Quan sát framework-critical từ Feel-Example E9 verbatim**:
 
-> "Mainstream giải thích là 'newborn empathy' hoặc 'innate mirror neurons'. Framework chúng ta REJECT cách giải thích đó vì: 1. Bé đã có vài giờ đến vài ngày kinh nghiệm với CHÍNH tiếng khóc của mình — mỗi lần khóc, bé tự nghe own cry. Đây đủ để hình thành một seed chunk. 2. Tiếng khóc của bé khác MATCH GẦN với own-cry pattern nhưng không exact → tạo near-miss dissonance trong predictive coding → distress signal được amplify. 3. KHÔNG cần 'mirror module' hardware — chỉ cần seed chunk + dissonance amplification từ prediction error."
+> "Mainstream giải thích là 'newborn empathy' hoặc 'innate mirror neurons'. Framework chúng ta REJECT cách giải thích đó vì: 1. Bé đã có vài giờ đến vài ngày kinh nghiệm với CHÍNH tiếng khóc của mình — mỗi lần khóc, bé tự nghe own cry. Đây đủ để hình thành một seed chunk. 2. Tiếng khóc của bé khác MATCH GẦN với own-cry pattern nhưng không exact → tạo near-miss dissonance trong predictive coding → distress signal được amplify. 3. KHÔNG cần 'mirror module' hardware — chỉ cần seed chunk + dissonance amplification từ prediction-delta."
 
-**E10 bằng chứng quyết định chống lại hardware mirror**: E10 (own-cry recording) asymmetry — em bé nghe playback tiếng khóc của chính mình, phản hồi distress YẾU HƠN so với khi nghe tiếng khóc của baby khác. Nếu hardware mirror là mechanism, bất kỳ âm thanh cry nào (bao gồm own recording) đều nên trigger phản hồi. Thực tế: own = exact match = không có prediction error = không có amplification. Other = near-miss = prediction error = amplification. Dondi, Simion & Caltran 1999 xác nhận asymmetry với các nghiên cứu newborn có kiểm soát.
+**E10 bằng chứng quyết định chống lại hardware mirror**: E10 (own-cry recording) asymmetry — em bé nghe playback tiếng khóc của chính mình, phản hồi distress YẾU HƠN so với khi nghe tiếng khóc của baby khác. Nếu hardware mirror là mechanism, bất kỳ âm thanh cry nào (bao gồm own recording) đều nên trigger phản hồi. Thực tế: own = exact match = không có prediction-delta = không có amplification. Other = near-miss = prediction-delta = amplification. Dondi, Simion & Caltran 1999 xác nhận asymmetry với các nghiên cứu newborn có kiểm soát.
 
 **Sagi & Hoffman 1976, Martin & Clark 1982** — nghiên cứu cry contagion trẻ sơ sinh foundational; prevalence ~70-90% (không phải 100% — một data point khác chống lại "hardware mandatory").
 
@@ -425,13 +425,13 @@ Em bé đang trong reciprocal interaction với mẹ (cười, cooing, "ah ah").
 3. **Distress phase**: em bé fuss, có thể bắt đầu khóc
 4. **Withdrawal**: em bé nhìn đi, self-soothes
 
-**⭐ L2 Marker là Phase 2 "puzzled freeze"**: Đây là một pattern-match event có thể quan sát — expectation chunk của em bé ("Tôi cười → mẹ cười lại") đã fire, face pattern của mẹ violates expectation, prediction error được detected, PFC register sự vi phạm, không có action chunk immediately available → brief freeze (cấu trúc song song với bladder đơ mặt từ 06a §3.3).
+**⭐ L2 Marker là Phase 2 "puzzled freeze"**: Đây là một pattern-match event có thể quan sát — expectation chunk của em bé ("Tôi cười → mẹ cười lại") đã fire, face pattern của mẹ violates expectation, prediction-delta được detected, PFC register sự vi phạm, không có action chunk immediately available → brief freeze (cấu trúc song song với bladder đơ mặt từ 06a §3.3).
 
 **Tại sao nó là L2 không phải L3 tại Phase 2**: Em bé đã register expectation violation nhưng chưa actively attempt một fix (đó là Phase 1 hoặc Phase 3 escalation). Puzzled freeze là **pattern-match recognition không có action** — L2 signature định nghĩa.
 
 **Chunks state inference** 🟡:
 - "Expectation chunk cho reciprocal interaction" compiled từ weeks-months của contingent caregiver interaction
-- Prediction error chunk fires trên Phase 2 violation
+- Prediction-delta chunk fires trên Phase 2 violation
 - Freeze là body-level trace của expectation-violation pattern-match không có action
 
 **Framework significance**: Still-face cung cấp **L2 marker evidence ở cấp laboratory-grade có kiểm soát**. Không giống như đơ mặt tự nhiên (yêu cầu parent quan sát trong khi play) hay stranger anxiety (yêu cầu stranger visitation), still-face có thể được tạo ra theo yêu cầu bởi bất kỳ caregiver nào — làm cho nó trở thành L2 marker **experimentally reproducible** nhất. Mesman et al. 2009 meta-analysis 500+ still-face studies xác nhận puzzled phase là đáng tin cậy qua các infant populations.
@@ -783,7 +783,7 @@ Behavioral evidence: em bé smiles khi context có mặt, không smiles khi cont
 [Agent/Self-Pattern-Match.md](../Agent/Self-Pattern-Match.md) định nghĩa self-pattern-match là cơ chế forward solo — self sử dụng thư viện chunks của bản thân + target cues → prediction về trạng thái của target.
 
 **Ứng dụng 07**:
-- **E9 cry contagion**: own-cry seed chunk + tiếng khóc của other = near-miss prediction error (self-pattern-match đang chạy)
+- **E9 cry contagion**: own-cry seed chunk + tiếng khóc của other = near-miss prediction-delta (self-pattern-match đang chạy)
 - **E13 smile contagion**: own-smile pattern chunk + nụ cười của other = match prediction → kích hoạt smile của bản thân
 - **E15 mother recognition**: mother identity chunk + visual input = match prediction → full positive response
 - **E26 egocentric empathy**: own distress/comfort chunks + distress của mẹ = match prediction → action được áp dụng qua template

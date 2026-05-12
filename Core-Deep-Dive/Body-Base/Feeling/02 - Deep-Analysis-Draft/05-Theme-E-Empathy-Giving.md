@@ -435,7 +435,7 @@ Generalized: "Own body drained + task cost high → can't summon mirror reward �
 **Mechanism**:
 - Expected SPM output: "recipient happy → mirror positive"
 - Actual output: "recipient dissatisfied → mirror negative"
-- **Negative prediction delta** (Schultz 🟢) — VTA: actual < expected
+- **Negative prediction-delta** (Schultz 🟢) — VTA: actual < expected
 - Trust violation (Anchor-Schema §2): "I expected positive response, got negative"
 - **Negative feelings**: disappointment + hurt + possibly anger
 

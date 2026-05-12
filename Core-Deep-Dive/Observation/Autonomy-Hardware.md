@@ -7,7 +7,7 @@ scope: |
   HARDWARE MECHANISM FILE: Giải thích TẠI SAO con người tự nhiên prefer
   self-action hơn external-control. Đây KHÔNG phải "thiết kế" hay "bản năng"
   — mà là EMERGENT PATTERN từ kiến trúc hardware: efference copy + VTA
-  prediction delta + opioid system → tự action = prediction accuracy CAO hơn
+  prediction-delta + opioid system → tự action = prediction accuracy CAO hơn
   = body reward CAO hơn. Universal — mọi người đều có, cross-species.
   Bổ sung: vmPFC + DRN controllability learning (Maier & Seligman 2016),
   cortisol direction tag (novelty vs threat), opioid vs relief pathways.
@@ -24,14 +24,14 @@ position: |
   Core-Deep-Dive/Observation/ — đi kèm Autonomy.md (software/development).
   Hardware mechanism NHƯNG nằm ở Observation/ vì: pattern này QUAN SÁT ĐƯỢC
   từ chính kiến trúc hardware, không phải hardware được thiết kế buộc phải
-  như vậy. Giống VTA prediction delta = emergent từ architecture.
+  như vậy. Giống VTA prediction-delta = emergent từ architecture.
 dependencies:
   - Core-v7.8-Draft.md — §8 observation parameters, Autonomy definition
   - Cortisol-Baseline.md v2.0 — §7.2-§7.3 chunk direction tag
   - backup/Neurochemistry.md — §6.3 controllability, vmPFC + DRN
   - Neural-Architecture.md — vmPFC sub-region, amygdala pathway
   - Neural-Processing-Flow.md — §8.2 Feeling circuit (Insula + ACC + vmPFC)
-  - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, prediction delta
+  - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, prediction-delta
   - Imagine-Final.md — §1 student bị ép vs thích (line 174-179)
   - Liking-Wanting.md — §4 Path A (opioid) vs Path B (relief)
   - Domain-Mapping-Drive.md — Student A vs B, threat vs novelty path
@@ -55,7 +55,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > CÙNG nước. CÙNG ly. CÙNG lượng. KHÁC prediction accuracy.
 >
 > Đây KHÔNG phải "preference." Đây là ARCHITECTURE.
-> Efference copy + sensory preview + VTA prediction delta = hardware.
+> Efference copy + sensory preview + VTA prediction-delta = hardware.
 > Self-action = better prediction = more reward.
 > External-action = no efference copy = no preview = less reward.
 >
@@ -142,7 +142,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌──────────────────────┬──────────────────────────────────────┐
     │ EMERGENT PATTERN     │ HARDWARE COMPONENTS                  │
     ├──────────────────────┼──────────────────────────────────────┤
-    │ Novelty preference   │ VTA prediction delta + dopamine      │
+    │ Novelty preference   │ VTA prediction-delta + dopamine      │
     │                      │ = Large delta → large signal → seek  │
     ├──────────────────────┼──────────────────────────────────────┤
     │ Loss aversion        │ VTA asymmetry (loss > gain signal)   │
@@ -325,7 +325,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Self-action → sensory outcome MATCH/MISMATCH prediction
     → ĐO BẰNG GÌ:
       ① Efference copy match ratio (neural imaging, 🟢 technology exists)
-      ② Sensory prediction delta (VTA dopamine, 🟢 Schultz 1997)
+      ② Sensory prediction-delta (VTA dopamine, 🟢 Schultz 1997)
       ③ Opioid release on match (🟢 PET scan measurable)
       ④ Behavioral proxy: preference test (choose self vs external)
     → BÁC BỎ THẾ NÀO:
@@ -584,7 +584,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ① Body-need active (curiosity, interest)
     ② PFC: Imagine-Final = "tôi muốn HIỂU / LÀM / GIẢI"
     ③ Self-initiated action → efference copy → prediction
-    ④ Outcome MATCH → VTA: positive prediction delta
+    ④ Outcome MATCH → VTA: positive prediction-delta
     ⑤ Opioid: match → "đúng rồi" → hedonic reward
     ⑥ Chunk compile với APPROACH TAG → "hiểu = sướng"
     ⑦ Next encounter: body THÍCH dùng chunk → approach → repeat
@@ -697,7 +697,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Blakemore et al. (1998): self-tickle cancellation
     → Well-established, foundation of motor neuroscience
 
-  ② VTA prediction delta
+  ② VTA prediction-delta
     → Schultz (1997): outcome vs prediction → dopamine signal
     → Foundation of reinforcement learning neuroscience
 
@@ -721,8 +721,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ① "Self-action = higher prediction accuracy than external-action"
     → Logical from efference copy + multi-channel preview
-    → Chưa direct experiment comparing prediction delta self vs other-fed
-    → TESTABLE: compare sensory prediction delta
+    → Chưa direct experiment comparing prediction-delta self vs other-fed
+    → TESTABLE: compare sensory prediction-delta
 
   ② Cortisol direction tag = COMPILE-TIME lock
     → Consistent with cortisol + opioid literature
@@ -785,7 +785,7 @@ HARDWARE/MECHANISM FILES:
   → backup/Neurochemistry.md §6.3 — controllability, vmPFC + DRN (original source)
   → Neural-Architecture.md — vmPFC sub-region, amygdala pathway
   → Neural-Processing-Flow.md §8.2 — Feeling circuit (Insula + ACC + vmPFC)
-  → Body-Feedback-Mechanism.md §3 — Chunk-Shift/Miss/Gap, prediction delta
+  → Body-Feedback-Mechanism.md §3 — Chunk-Shift/Miss/Gap, prediction-delta
 
 COMPANION FILE:
   → Autonomy.md — SOFTWARE/DEVELOPMENT: chunk accumulation, developmental arc,
@@ -800,7 +800,7 @@ OBSERVATION FILES (cross-parameter):
 RESEARCH CITATIONS:
   🟢 von Holst & Mittelstaedt (1950) — efference copy
   🟢 Blakemore et al. (1998) — self-tickle cancellation
-  🟢 Schultz (1997) — VTA prediction delta
+  🟢 Schultz (1997) — VTA prediction-delta
   🟢 Berridge (2003) — opioid vs dopamine
   🟢 Maier & Seligman (2016) — controllability = learned, helplessness = default
   🟢 Maier & Watkins (2010) — vmPFC + DRN mechanism

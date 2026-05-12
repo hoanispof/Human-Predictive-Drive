@@ -112,7 +112,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   LAYER 1 — HARDWARE (Autonomy-Hardware.md):
     = TẠI SAO self-action = reward
-    = Efference copy + VTA prediction delta + opioid
+    = Efference copy + VTA prediction-delta + opioid
     = UNIVERSAL — mọi người, mọi culture, cross-species
     = Không cần "học" — architecture tự produce
     = EMERGENT từ architecture, không phải "thiết kế cho autonomy"

@@ -1423,7 +1423,7 @@ Logic-Feeling NỐI VỚI framework hiện tại thế nào:
     → = Same system, 2 zoom levels
 
   Feeling.md v2.0 §5 — 8-STEP OPERATIONAL FLOW:
-    → Body fire → VTA delta → Integration → PFC threshold →
+    → Body fire → prediction-delta → Integration → PFC threshold →
       Chunk match → Label search → Body vote → Action/continue
     → Logic-Feeling maps onto: Feeling ≈ steps ①-④, Logic ≈ steps ⑤-⑧
 

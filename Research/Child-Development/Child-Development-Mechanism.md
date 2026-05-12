@@ -273,12 +273,12 @@ OLD (Piaget-era, pre-2005):
 ```
 PREDICTION DELTA = khoảng cách giữa PREDICTED outcome vs ACTUAL outcome
 
-  Framework dùng "prediction delta" thay cho "prediction error" truyền thống.
+  Framework dùng "prediction-delta" thay cho "prediction error" truyền thống.
   Lý do: "error" gợi ý sai = xấu. Thực tế delta CHỈ là signal —
   reward phụ thuộc thêm coherence + H10 preconditions.
   (Chi tiết: Prediction-Error-Is-Not-Reward.md)
 
-  Ở trẻ: prediction delta CAO LIÊN TỤC:
+  Ở trẻ: prediction-delta CAO LIÊN TỤC:
     Chunks ít → predictions kém → delta lớn → VTA fire nhiều
     → Dopamine → curiosity tự nhiên ĐỈNH CAO
 
@@ -579,7 +579,7 @@ PREDICTION DELTA = khoảng cách giữa PREDICTED outcome vs ACTUAL outcome
     ┌──────────────────────────────────────────────────────────────┐
     │ P1 (Body Input Present):      ✅ từ lúc sinh                │
     │ P2 (Chunks Base Adequate):    ❌ → ĐÂY LÀ BOTTLENECK       │
-    │ P3 (VTA Delta Threshold):     ⚠️ có nhưng competing inputs  │
+    │ P3 (Prediction-Delta Threshold): ⚠️ có nhưng competing inputs│
     │ P4 (Goldilocks Zone):         ⚠️ narrow ở trẻ               │
     │ P5 (Chunk Association Tag):   ⚠️ phụ thuộc caregiving       │
     └──────────────────────────────────────────────────────────────┘
@@ -964,7 +964,7 @@ TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
 
   ② CHUNK-MISS — pattern compiled nhưng KHÔNG fire khi expected:
 
-     VTA fires negative prediction delta → dissonance
+     VTA fires negative prediction-delta → dissonance
 
      VD trẻ: học "chào hỏi" ở nhà → ở ngoài KHÔNG fire (context khác)
      VD trẻ: biết "nóng = đau" nhưng VẪN chạm (retrieval path chưa đủ mạnh)
@@ -1053,7 +1053,7 @@ TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
      → Dark side: stagnation
 
   ② DOMAIN PULL (adaptive — đòi explore):
-     → Novelty drive: VTA prediction delta → dopamine → attention
+     → Novelty drive: VTA prediction-delta → dopamine → attention
      → Chunk-Gap detection: ACC → "thiếu gì đó" → drive fill
      → Evolutionary: không map reality → không sống sót
      → = Learning, growth, curiosity
@@ -1507,7 +1507,7 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
 
   3 COMPONENTS ĐỘC LẬP → EMERGENT PATTERN:
     Efference copy (evolved cho motor control)
-    + VTA prediction delta (evolved cho learning)
+    + VTA prediction-delta (evolved cho learning)
     + Opioid system (evolved cho hedonic valuation)
     = Không ai "thiết kế" cho autonomy
     = Architecture TỰ PRODUCE: "self-action = better prediction = more reward"
@@ -2073,7 +2073,7 @@ MECHANISM FILES (source of truth for mechanisms in this file):
   Autonomy.md                   — 5-phase developmental arc, meta-chunk
 
   Connection.md                 — Hardware drive, compiled patterns, virtual chunks
-  Novelty.md                    — VTA, prediction delta, DRD4 depth/breadth
+  Novelty.md                    — VTA, prediction-delta, DRD4 depth/breadth
   Boredom.md                    — 3 types (Idle/Trapped/Existential)
   Status.md                     — Schema Access Map, social comparison
   Protect.md                    — Loss aversion, ownership, f(repl×attach)

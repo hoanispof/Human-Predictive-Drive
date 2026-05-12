@@ -201,7 +201,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Baseline shift: reward liên tục → baseline TĂNG → cần NHIỀU HƠN
     (Gratitude.md §4)
     Development stage: trẻ vs người lớn → threshold khác
-    Habituation: lần 1 vs lần 100 → PE khác hoàn toàn
+    Habituation: lần 1 vs lần 100 → prediction-delta khác hoàn toàn
 
   → KHÔNG CÓ formula "cho X reward cho gap Y"
   → Chỉ có OBSERVE + ADJUST liên tục (§5)
@@ -283,7 +283,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ (BFM §3.3)  │ should exist → C chưa        │ bridge qua exploration       │
   │              │ compile → HOLE.              │ → chunk fill → opioid.       │
   │              │ "Chưa biết, muốn biết."     │                              │
-  │              │ "Bài toán chưa giải được."   │ = VTA delta (novelty) khi    │
+  │              │ "Bài toán chưa giải được."   │ = prediction-delta (novelty) khi    │
   │              │                              │ chunk MỚI match gap →        │
   │              │ Body detect: surrounding     │ + opioid khi fill            │
   │              │ chunks predict C but C       │ = Profile ② Coherence        │
@@ -291,7 +291,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └──────────────┴──────────────────────────────┴──────────────────────────────┘
 
   🟢 SNC: Crespi 1942, Flaherty 1996
-  🟢 Dopamine PE: Schultz 1997
+  🟢 Dopamine prediction-delta: Schultz 1997
   🟡 Gap type × Reward match mapping = framework synthesis
 ```
 
@@ -379,7 +379,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ MATCH = SWEET SPOT → SUSTAINABLE:
 
   CƠ CHẾ:
-    Reward match gap → VTA delta → opioid confirm → gap fill
+    Reward match gap → prediction-delta → body-base reward → gap fill
     → Chunk compile với approach tag
     → Body state: brief positive → reset → sẵn sàng gap tiếp
     → = Healthy perception-action cycle
@@ -524,13 +524,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §4.1 — ① THRESHOLD ADAPTATION (hedonic treadmill)
 
 ```
-⭐ REWARD LIÊN TỤC → BASELINE TĂNG → CÙNG REWARD = PE GIẢM:
+⭐ REWARD LIÊN TỤC → BASELINE TĂNG → CÙNG REWARD = PREDICTION-DELTA GIẢM:
 
   CƠ CHẾ (Gratitude.md §3.1 + §4):
     Gift lần đầu → VTA fire delta → opioid → reward → "sướng"
     Gift lần 2-10 → VTA dần habituate → reward GIẢM
     Gift lần 50-100+ → VTA habituate hoàn toàn → gift = INVISIBLE
-    → Cần reward MỚI, LỚN HƠN để tạo PE dương
+    → Cần reward MỚI, LỚN HƠN để tạo prediction-delta dương
     → = Hedonic treadmill: chạy mãi, vị trí KHÔNG TIẾN
 
   VÍ DỤ:
@@ -542,7 +542,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TẠI SAO ĐANG "SƯỚNG" MÀ VẪN "THIẾU":
     → Body THẬT SỰ thiếu — vì baseline ĐÃ SHIFT
     → Không phải "tham" — là threshold SINH HỌC đã calibrate lên
-    → Dừng tại level hiện tại → actual < shifted baseline → PE ÂM → "thiếu"
+    → Dừng tại level hiện tại → actual < shifted baseline → prediction-delta âm → "thiếu"
     → = Not greed, but threshold adaptation
 
   🟢 Hedonic treadmill: Brickman & Campbell 1971, Frederick & Loewenstein 1999
@@ -553,13 +553,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §4.2 — ② OVERJUSTIFICATION (external kill internal)
 
 ```
-⭐ EXTERNAL REWARD MẠNH HƠN INTERNAL PE → NÃO CHỈ TRACK EXTERNAL:
+⭐ EXTERNAL REWARD MẠNH HƠN INTERNAL PREDICTION-DELTA → NÃO CHỈ TRACK EXTERNAL:
 
   CƠ CHẾ (Education-Mechanism.md §3.1):
-    Trước: hành vi có PE nội tại (internal drive) → TỰ LÀM vì THÍCH
+    Trước: hành vi có prediction-delta nội tại (internal drive) → TỰ LÀM vì THÍCH
     Thêm external reward MẠNH → não switch track SANG external
     (external > internal → VTA track source MẠNH HƠN)
-    Rút external → PE = 0 (internal đã bị suppress) → DỪNG hành vi
+    Rút external → prediction-delta = 0 (internal đã bị suppress) → DỪNG hành vi
 
   VÍ DỤ:
     Cho tiền vẽ → vẽ vì tiền → hết tiền → không vẽ nữa
@@ -618,7 +618,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §4.4 — ④ BASELINE SHIFT (gift habituate → mất = đau)
 
 ```
-⭐ GIFT LIÊN TỤC → BASELINE SHIFT → CÙNG GIFT = PE ≈ 0:
+⭐ GIFT LIÊN TỤC → BASELINE SHIFT → CÙNG GIFT = prediction-delta ≈ 0:
 
   CƠ CHẾ (Gratitude.md §4):
     Compile baseline formula:
@@ -629,13 +629,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   KHÁC THRESHOLD ADAPTATION:
     ① Threshold adapt: cần NHIỀU HƠN để có reward CÙNG LEVEL
-    ④ Baseline shift: cùng reward = PE ≈ 0 (invisible), MẤT = ĐAU
+    ④ Baseline shift: cùng reward = prediction-delta ≈ 0 (invisible), MẤT = ĐAU
     → ① = reward GIẢM dần. ④ = reward BIẾN MẤT + mất = NEGATIVE.
     → ④ nguy hiểm hơn: không chỉ "cần thêm" mà "mất = crisis"
 
   VÍ DỤ:
     Xe công ty → dùng 5 năm → quen → "bình thường"
-    → Mất xe = PE ÂM dù trước đó xe = thưởng thêm
+    → Mất xe = prediction-delta âm dù trước đó xe = thưởng thêm
     → Giống SNC (Crespi 1942): downshift từ high baseline → anger, not sadness
 
     Bữa cơm mẹ nấu 10,000 lần → habituated → invisible
@@ -691,7 +691,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   QUÁ NHIỀU TYPE A (evaluative):
     → A₃ threshold CAO (RSA §2.1: A₀→A₃ gradient)
-    → Simple pleasures KHÔNG ĐỦ PE vượt threshold
+    → Simple pleasures KHÔNG ĐỦ prediction-delta vượt threshold
     → Body Type B VẪN work (hardware) nhưng PFC "dismiss" (đã quen A₃)
     → = "Giàu nhưng không biết vui"
     → A₃ evaluative = complex, conditional, DỄNG habituate
@@ -955,7 +955,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⚠️ MATCH TRÔNG NHƯ "BÌNH THƯỜNG" — DỄ BỎ QUA:
     → Gratitude.md §3.1: gift habituate → invisible → "bình thường"
-    → Match = BEST STATE nhưng INVISIBLE vì PE ≈ 0
+    → Match = BEST STATE nhưng INVISIBLE vì prediction-delta ≈ 0
     → Chỉ THẤY khi so sánh: "trước đó (under) vs bây giờ (match)"
     → = Paradox: best state = least visible
 ```
@@ -1011,7 +1011,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Type A = conditional, H10 full P1-P5 required (RSA §1.3)
   → Threshold ADAPT: A₀→A₃ gradient → threshold tăng với experience
-  → Habituation: VTA habituate → cùng stimulus = PE giảm → cần MỚI
+  → Habituation: VTA habituate → cùng stimulus = prediction-delta giảm → cần MỚI
   → Context-dependent: body state, relationship, cortisol → ALL ảnh hưởng
   → Per-person: COMT × Childhood = 4 trajectories (PFC-Hardware.md §3.5)
 
@@ -1189,27 +1189,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §8.3 — Habituation Blindness × Economics
 
 ```
-🟡 PE = 0 ≠ VALUE = 0:
+🟡 prediction-delta = 0 ≠ VALUE = 0:
 
-  Oxy: PE = 0 (habituated hoàn toàn), VALUE = sống/chết
-  Cơm mỗi ngày: PE = 0 (baseline), VALUE = dinh dưỡng essential
-  Lương tháng: PE = 0 (compiled baseline), VALUE = survival
+  Oxy: prediction-delta = 0 (habituated hoàn toàn), VALUE = sống/chết
+  Cơm mỗi ngày: prediction-delta = 0 (baseline), VALUE = dinh dưỡng essential
+  Lương tháng: prediction-delta = 0 (compiled baseline), VALUE = survival
 
   NHẦM LẪN PHỔ BIẾN:
-    → PE = 0 → "không có giá trị" → bỏ qua → mất → SNC → "hóa ra quan trọng"
+    → prediction-delta = 0 → "không có giá trị" → bỏ qua → mất → SNC → "hóa ra quan trọng"
     → = Habituation Blindness: body THẤY nhưng KHÔNG REWARD → PFC tưởng "không cần"
     → Gratitude.md §3: 3 anti-habituation = CHỐNG habituation blindness
 
   ECONOMICS IMPLICATION:
-    → Điều quan trọng nhất = điều PE ≈ 0 nhất (habituated = invisible)
-    → Điều gây PE dương MẠNH = thường mới/hiếm nhưng có thể KHÔNG quan trọng
+    → Điều quan trọng nhất = điều prediction-delta ≈ 0 nhất (habituated = invisible)
+    → Điều gây prediction-delta dương MẠNH = thường mới/hiếm nhưng có thể KHÔNG quan trọng
     → = Novelty bias: brain track novelty > track importance
     → = Tại sao giảm lương "đau" hơn tăng lương "sướng" (loss aversion)
     → Protect.md: loss aversion = f(replaceability × attachment)
 
   🟢 Loss aversion: Kahneman & Tversky 1979 (prospect theory)
   🟢 Endowment effect: Thaler 1980
-  🟡 PE = 0 ≠ Value = 0 = Gratitude.md + Reward-Economics insight
+  🟡 prediction-delta = 0 ≠ Value = 0 = Gratitude.md + Reward-Economics insight
 ```
 
 ---

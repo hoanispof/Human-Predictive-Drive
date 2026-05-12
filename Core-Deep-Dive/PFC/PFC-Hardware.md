@@ -826,7 +826,7 @@ TÓM GỌN VÒNG LẶP:
   ├──────────────┼──────────────┼──────────────┼──────────────┼─────────────┤
   │ DRD4         │ Low impact   │ HIGH: chunk  │ Moderate     │ Low impact  │
   │ (Hypothesis  │ (sensory not │ threshold →  │ (social cues │ (not VTA-   │
-  │  D threshold)│ VTA-gated)   │ "AHA" vs "ồ" │ = VTA delta) │ gated)      │
+  │  D threshold)│ VTA-gated)   │ "AHA" vs "ồ" │ = prediction-delta) │ gated)      │
   ├──────────────┼──────────────┼──────────────┼──────────────┼─────────────┤
   │ MAO-A        │ Moderate     │ Moderate     │ HIGH: mood   │ HIGH: base  │
   │ (mood global │ (sensory     │ (sustained   │ stability →  │ cortisol ↔  │
@@ -921,7 +921,7 @@ TÓM GỌN VÒNG LẶP:
   2-parameter model (Quality + Clear Speed) — novel organization
   Observed Capacity = 4-factor formula — novel, components established
   "Improviser/Specialist = COMT draft management" — novel framing
-  VTA = delta detector (habituation) — prediction delta, không phải "prediction error" calculator
+  VTA = delta detector (habituation) — prediction-delta, không phải "prediction error" calculator
   PFC spotlight = tăng volume, không ra lệnh tính toán
   7-step VTA detection loop — novel integration
   COMT × Reward pattern (§3.4) — extension from cognition to reward domain (v1.1)

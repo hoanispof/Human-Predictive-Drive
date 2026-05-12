@@ -571,7 +571,7 @@ CÁI KHÔNG BỎ (dù có áp lực "bỏ"):
   ✓ Physical education — KHÔNG bỏ
     → Body-base = processing channel (Body-Base.md v2.0 — Model 3+1)
     → Somatic domain = brain development domain, không chỉ "sức khỏe"
-    → ⚠️ Trend giảm PE → damage brain development
+    → ⚠️ Trend giảm Physical education → damage brain development
       (Multi-modal binding cần body — Education-Mechanism §2.3)
 
   ✓ Arts/Creative — KHÔNG bỏ

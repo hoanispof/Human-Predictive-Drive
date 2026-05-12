@@ -1145,7 +1145,7 @@ v1.0 ĐÚNG ở phần lớn nội dung. Nhưng THIẾU tầng phân tích bên 
     Mỗi người có bias toward specific Pattern-Types:
       → Verbal-dominant → seek verbal connection → gặp somatic-dominant → "không hợp"
       → Somatic-dominant → seek body-level connection → gặp verbal-dominant → "nói nhiều quá"
-      → KHÔNG phải ai sai — fire KHÁC pattern-type → prediction delta
+      → KHÔNG phải ai sai — fire KHÁC pattern-type → prediction-delta
       → = Tại sao "không hợp tính" thường = modality MISMATCH
 ```
 
@@ -1164,7 +1164,7 @@ v1.0 ĐÚNG ở phần lớn nội dung. Nhưng THIẾU tầng phân tích bên 
   │ ①  │ PATTERN-TYPE    │ Fire đúng loại chunks cho target cues?    │
   │    │ MATCH           │ F1: simulate đúng kênh cảm xúc?          │
   │    │                 │ F2: predict đúng loại behavior?            │
-  │    │                 │ Mismatch → prediction delta compound      │
+  │    │                 │ Mismatch → prediction-delta compound      │
   ├────┼─────────────────┼────────────────────────────────────────────┤
   │ ②  │ DEPTH           │ Quantity + specificity chunks về target?  │
   │    │                 │ Thin (stranger): 5-10 chunks → coarse     │

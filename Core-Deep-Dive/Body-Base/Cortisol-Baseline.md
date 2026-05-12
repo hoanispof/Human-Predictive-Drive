@@ -650,8 +650,8 @@ TIMELINE TỔNG HỢP — TỪ TRIGGER TỚI BASELINE SHIFT + RECOVERY:
 
   ② DOMAIN PULL (ngoại, đòi adapt, map reality):
      → Novelty drive: genetic drive explore
-     → VTA delta: pattern mới → dopamine → attention
-     → Prediction error: mismatch → update pressure
+     → prediction-delta: pattern mới → dopamine → attention
+     → Prediction-delta: mismatch → update pressure
      → Evolutionary: không map reality → không sống sót
      → Feature: learning, growth, curiosity
      → ⭐ HORMONE CHÍNH: CORTISOL (amplifies pattern shifting)
@@ -715,7 +715,7 @@ TIMELINE TỔNG HỢP — TỪ TRIGGER TỚI BASELINE SHIFT + RECOVERY:
     Signal fires đúng KHI ALL 5 preconditions met:
     P1: Schema serves body-need (foundation)
     P2: Chunks base adequate
-    P3: VTA delta threshold
+    P3: prediction-delta threshold
     P4: Goldilocks zone (40-70% match)
     P5: ⭐ Chunk association tag (direction)
 

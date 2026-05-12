@@ -340,7 +340,7 @@ MECHANISM FILES:
   → Connection.md — attachment, co-regulation, virtual chunks
 
 OBSERVATION PARAMETERS:
-  → Observation/Novelty.md — positive prediction delta
+  → Observation/Novelty.md — positive prediction-delta
   → Observation/Boredom.md — VTA underfed (§1 midlife)
   → Observation/Connection.md — social buffer (§3 recovery)
   → Observation/Status.md — compiled evidence + serotonin

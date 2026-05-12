@@ -434,6 +434,8 @@ DETAIL:
     §10: Trauma loop 4-stage
 
 WITHIN FRAMEWORK:
+  Body-Feedback-Label.md v1.1 — VOCABULARY REFERENCE. 3-tier label system.
+    Framework dùng "prediction-delta" / "body-base reward" / "dissonance".
   Body-Feedback.md — dual-pull, 3 nguồn khó chịu
   Chunk.md v2.0 §2.4 NT7 — direction gate at compile
   Core-v7.8-Draft.md §4.3 — cortisol trong cycle architecture

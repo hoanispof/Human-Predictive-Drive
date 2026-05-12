@@ -247,8 +247,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │      Normal: cần chunks để đánh giá "input có tốt không?"           │
   │      Addiction: chất BYPASS evaluation → reward trực tiếp            │
   │                                                                     │
-  │    P3 (VTA delta — novelty signal):                                 │
-  │      Normal: cần prediction delta. Addiction: chất FLOOD dopamine   │
+  │    P3 (prediction-delta — novelty signal):                                 │
+  │      Normal: cần prediction-delta. Addiction: chất FLOOD dopamine   │
   │      → VTA overwhelmed → signal bất thường                          │
   │                                                                     │
   │    P4 (Goldilocks — vừa đủ):                                       │
@@ -536,7 +536,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
                   > alcohol (multi-system nhẹ) > caffeine (adenosine block nhẹ)
 
     Speed: injection/smoking (giây) > snort (phút) > oral (30+ phút)
-           → Speed ảnh hưởng compile: nhanh hơn = VTA delta LỚN hơn
+           → Speed ảnh hưởng compile: nhanh hơn = prediction-delta LỚN hơn
            → = chunk compile MẠNH hơn
 
     Receptor specificity: heroin = μ-opioid specific (cực mạnh)
@@ -563,7 +563,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ĐẶC ĐIỂM CHUNG:
     → H10 KHÔNG bị bypass — nhưng bị EXPLOIT:
-      - Variable ratio reinforcement → P3 VTA delta LIÊN TỤC
+      - Variable ratio reinforcement → P3 prediction-delta LIÊN TỤC
       - Low cost behavior → lặp lại DỄ → compile NHANH
       - Multi-channel reward → multi-modal compile → MẠNH
     → Receptor KHÔNG downregulate nặng như chất
@@ -584,7 +584,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → 🟢 Clark et al. 2009: near-miss activate reward areas GIỐNG win.
 
     Ví dụ: MXH scroll
-      → Mỗi scroll = content MỚI → VTA delta nhỏ → dopamine nhẹ →
+      → Mỗi scroll = content MỚI → prediction-delta nhỏ → dopamine nhẹ →
         body check: "liên quan?" → sometimes yes → opioid NHẸ →
         variable ratio = Skinner schedule → gate ĐÚNG per-event
         nhưng tổng thể = exploit continuous micro-reward.

@@ -317,7 +317,7 @@ Nếu match một schema đang pending (ví dụ: bạn đang cố hiểu một 
 Nếu không match → cycle continue với weaker signal (không reward, chỉ mild fatigue from draft cost). Pattern có thể vẫn được preserved trong stage 4-6 qua non-reward paths (ví dụ: emotional tag from surprise, even without schema match).
 
 **Substrate**:
-- 🟢 Dopamine prediction delta (Schultz 1998: "prediction error") — salience/alert signal (⚠️ NOT reward itself)
+- 🟢 Dopamine prediction-delta (Schultz 1998: "prediction error") — salience/alert signal (⚠️ NOT reward itself)
 - 🟢 Opioid system (Berridge 2003, Fields 2007) — "liking" = actual reward. Dopamine = "wanting" = approach signal
 - 🟢 Amygdala emotional tag (LeDoux 2000) — even without reward
 - 🟡 Unconscious schema matching — framework claim, consistent với Dijksterhuis 2006 unconscious thought
@@ -1068,15 +1068,15 @@ This is hedonic adaptation — and it's **relevant to learning cycle** because t
 
 **Research**: 🟢 Schultz 1998 dopamine prediction error; Friston 2010 Free Energy Principle
 
-Dopamine signals **prediction delta** (Schultz: "prediction error" — salience alert), not reward per se. First time X happens unexpectedly → big dopamine burst (= big alert). X repeated → becomes predicted → dopamine diminishes to zero even if opioid reward still "objectively" present. Alert signal exhausts itself via predictability, nhưng opioid reward vẫn có thể fire nếu body-need match.
+Dopamine signals **prediction-delta** (Schultz: "prediction error" — salience alert), not reward per se. First time X happens unexpectedly → big dopamine burst (= big alert). X repeated → becomes predicted → dopamine diminishes to zero even if opioid reward still "objectively" present. Alert signal exhausts itself via predictability, nhưng opioid reward vẫn có thể fire nếu body-need match.
 
 **Link với cycle**:
-- Stage 2 first firing: large prediction delta → large dopamine alert → opioid reward if match → large stage 3 signal
-- Stage 7 after iteration: smaller prediction delta → smaller alert → opioid still possible but diminishing novelty → smaller stage 3 signal
-- Many iterations: prediction delta approaches zero → alert signal disappears → opioid reward exhausts (body-need already met) → stage 3 signal disappears
+- Stage 2 first firing: large prediction-delta → large dopamine alert → opioid reward if match → large stage 3 signal
+- Stage 7 after iteration: smaller prediction-delta → smaller alert → opioid still possible but diminishing novelty → smaller stage 3 signal
+- Many iterations: prediction-delta approaches zero → alert signal disappears → opioid reward exhausts (body-need already met) → stage 3 signal disappears
 - Cycle terminates
 
-This is mechanism-level explanation of hedonic adaptation applied to chunk-level learning. "Bình thường mới" = prediction delta bottomed out for this chunk.
+This is mechanism-level explanation of hedonic adaptation applied to chunk-level learning. "Bình thường mới" = prediction-delta bottomed out for this chunk.
 
 ### §10.3 — Framework melody shift
 

@@ -543,7 +543,7 @@ VÍ DỤ CỤ THỂ:
 
 MECHANISM (từ framework):
   → Chunks compile (Chunk-Analysis/Chunk.md v2.0 §2): 5 mechanisms + compile rate formula
-  → VTA delta (PFC-Hardware.md): only fires khi có change, background
+  → prediction-delta (PFC-Hardware.md): only fires khi có change, background
     accumulation không fire VTA significant
   → Phase 3 BACKGROUND (Imagine-Final §1.5): REM + DMN + spreading activation
     liên tục reorganize chunks trong background
@@ -1655,7 +1655,7 @@ WHAT GENDLIN HAD:
 WHAT GENDLIN DIDN'T HAVE:
   → Neuroscience mechanism (not available in 1978)
   → Chunks compilation framework
-  → VTA delta / opioid distinction
+  → prediction-delta / opioid distinction
   → Imagine-Final lifecycle
   → Connection với attachment/anchor
   → AI era application
@@ -1664,7 +1664,7 @@ FRAMEWORK CONTRIBUTIONS:
 
   ① MECHANISM LAYER:
     → Why felt sense exists: chunks compile in unconscious
-    → Why recursion works: VTA delta fires on pattern match
+    → Why recursion works: prediction-delta fires on pattern match
     → Why recursion needed: body has info PFC doesn't
     → Why felt shift feels good: opioid release on successful match
 

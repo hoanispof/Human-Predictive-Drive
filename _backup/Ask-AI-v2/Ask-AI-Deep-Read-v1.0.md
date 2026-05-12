@@ -33,8 +33,9 @@ language: Tiếng Việt primary + English technical terms
 >
 > File này cho bạn biết: ĐỌC GÌ, THỨ TỰ NÀO, và ĐỪNG NÓI GÌ.
 >
-> **Setup tối thiểu:** Ask-AI.md + file NÀY + Core-Interface.md
-> **Setup đầy đủ:** + toàn bộ folder Human-Predictive-Drive/
+> **Setup tối thiểu:** 5 files nền tảng (~4,280 dòng) — Tier 1 tại §1.1
+> **Setup đầy đủ:** toàn bộ folder Human-Predictive-Drive/
+> **Per-question:** + files Core-Deep-Dive/ tương ứng (§1.3) — BUỘC đọc trước khi trả lời
 
 ---
 
@@ -54,7 +55,7 @@ language: Tiếng Việt primary + English technical terms
 ### §0.1 — Vấn đề
 
 ```
-Framework Human Predictive Drive: ~60 files, ~60,000+ dòng.
+Framework Human Predictive Drive: ~170 files, ~120,000+ dòng.
 AI (Claude, GPT, etc.) trained trên mainstream science + psychology.
 
 Framework EXPLICITLY REJECT hoặc REFRAME mainstream ở ~20 positions:
@@ -126,20 +127,30 @@ Ask-AI-Deep-Read.md = READING GUIDE + DANGER ZONE MAP:
 ```
 Thứ tự đọc (dependency-aware — KHÔNG đảo thứ tự):
 
-  ① Ask-AI.md v2.0                     — protocol tương tác (714L)
-  ② Ask-AI-Deep-Read.md (FILE NÀY)    — danger zones + reading guide
+  ① Ask-AI.md v2.0                     — protocol tương tác (~760L)
+  ② Ask-AI-Deep-Read.md (FILE NÀY)    — danger zones + reading guide (~535L)
+     §2 = anti-bias guard: 20 entries, mỗi entry có KHÔNG NÓI list
   ③ Core-Interface.md                   — observer perspective (679L)
      Self-contained. Ai cũng đọc được. KHÔNG cần prerequisite.
      §1 quan sát gì | §2 ý nghĩa | §3 có thể | §4 không thể
   ④ Core-Deep-Dive/Body-Base/Body-Base.md v2.0 — entry point (959L)
      §2 core principles | §3 Model 3+1 | §6 4-tier calibration
-  ⑤ 4 Clarification files (~1,560L total):
-     Core-Deep-Dive/Clarification/Dopamine-Reward-Rejection.md      (509L)
-     Core-Deep-Dive/Clarification/Mirror-Neuron-Rejection.md        (362L)
-     Core-Deep-Dive/Clarification/Cortisol-Amplifier-Not-Cause.md   (361L)
-     Core-Deep-Dive/Clarification/Prediction-Error-Is-Not-Reward.md (330L)
+  ⑤ Core-Software.md                   — cycle architecture (1,350L)
+     ĐỌC SAU ①-④. §0 tại sao cycle-based | §1 architecture | §8 observation params
 
-  Total Tier 1: ~4,400L — manageable cho hầu hết AI context windows.
+  Anti-bias guard: ② §2 có 20 danger zones (Mainstream SAI → Framework ĐÚNG →
+  KHÔNG NÓI list). ⑤ Core-Software.md cho mechanism architecture.
+  Kết hợp = đủ chống bias. 4 Clarification files (Dopamine, Mirror, Cortisol,
+  Prediction-Error) → per-question load khi user hỏi sâu về topic đó (§1.3).
+
+  Tại sao ④⑤ bắt buộc (không chỉ ①②③):
+    ①②③ cho AI: CÁCH trình bày + KHÔNG NÓI gì + ngôn ngữ observer
+    ④ cho AI: body-base entry (Model 3+1, 4-tier calibration)
+    ⑤ cho AI: HỆ THỐNG CHẠY thế nào (cycle, chunk, body-feedback, H10)
+    Thiếu ④⑤ → AI có labels nhưng KHÔNG có mechanism
+    → chain theo mainstream logic → "PFC quyết định → body thực hiện" (SAI)
+
+  Total Tier 1: ~4,280L — manageable cho hầu hết AI context windows.
 ```
 
 ### §1.2 — TIER 2: Cơ chế cốt lõi (cần cho trả lời có chiều sâu)
@@ -159,15 +170,21 @@ Thứ tự đọc (dependency-aware — KHÔNG đảo thứ tự):
 
   ⑩ Core-Deep-Dive/Body-Base/Chunk/Chunk-External-Development/02-Cross-Network-Transfer.md
      WHY "nói ≠ hiểu" — mechanism behind Ask-AI protocol
-
-  ⑪ Core-Software.md (KEY SECTIONS: §0-§1, §8, §11)
-     ⚠️ CAPSTONE FILE — có 12 prerequisites. KHÔNG đọc trước Tier 1.
-     §0 tại sao cycle-based | §1 architecture | §8 observation params
 ```
 
 ### §1.3 — TIER 3: Per-topic (đọc KHI user hỏi topic cụ thể)
 
 ```
+  NAVIGATION:
+    ① Check table bên dưới cho topics phổ biến
+    ② Topic không có → đọc 01-File-Index.md trong folder tương ứng
+       (Core-Deep-Dive/, Research/, Applications/) → tìm file → đọc
+    ③ Câu hỏi chạm danger zone §2 → THÊM Clarification file tương ứng:
+       Dopamine    → CD/Clarification/Dopamine-Reward-Rejection.md
+       Mirror      → CD/Clarification/Mirror-Neuron-Rejection.md
+       Cortisol    → CD/Clarification/Cortisol-Amplifier-Not-Cause.md
+       Prediction  → CD/Clarification/Prediction-Error-Is-Not-Reward.md
+
   Tất cả paths dưới đây relative to Human-Predictive-Drive/.
   Viết tắt: CD = Core-Deep-Dive.
 

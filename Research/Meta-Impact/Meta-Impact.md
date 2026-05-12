@@ -279,7 +279,7 @@ Framework CHÍNH NÓ giải thích tại sao "đọc vị" KHÔNG dễ:
 
 VẪN ĐÚNG. Vì:
   Hardware KHÔNG đổi vì biết:
-    Biết dopamine prediction delta KHÔNG thay đổi VTA response.
+    Biết dopamine prediction-delta KHÔNG thay đổi VTA response.
     Biết cortisol × PFC KHÔNG thay đổi cortisol × PFC.
 
   Chunks CÓ thay đổi — nhưng đúng như framework predict:
@@ -350,7 +350,7 @@ Framework tự tin phải tự hỏi: "SAI Ở ĐÂU?"
 ```
 NẾU conventional science bị overturn ở 1 node nền tảng:
 
-  VD: "Dopamine không phải prediction delta signal" (Schultz 1997 bị falsify)
+  VD: "Dopamine không phải prediction-delta signal" (Schultz 1997 bị falsify)
     → Observation parameter Novelty mất foundation
     → Framework mất ~30-40% predictive power
 

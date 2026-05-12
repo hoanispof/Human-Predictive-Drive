@@ -331,7 +331,7 @@ V2.0 REFRAME:
   "MONITOR" (nền, luôn chạy nhẹ):
     → Chunks chạy BACKGROUND → alert PFC khi detect mismatch
     → Observation: "luôn để ý", "canh chừng"
-    → Mechanism: low-level chunk activation + VTA delta detection
+    → Mechanism: low-level chunk activation + prediction-delta detection
     → VD: chunks [con tôi an toàn?] chạy nền → con khóc → VTA alert PFC
     → 🟢 Cocktail party effect (Cherry 1953): tên mình = always-on monitor
 
@@ -627,7 +627,7 @@ V2.0 REFRAME:
     Nhạc: thể loại quen + bài mới + hay không?
     Code: architecture có + feature mới + work không?
     Người: bạn quen + người mới + hợp không?
-    → CÙNG mechanism: VTA delta + body evaluate + chunk update
+    → CÙNG mechanism: prediction-delta + body evaluate + chunk update
 
   ⭐ DUAL-PULL TENSION (Body-Feedback.md §2):
     → Hardware pull: muốn giữ smooth → BẢO THỦ

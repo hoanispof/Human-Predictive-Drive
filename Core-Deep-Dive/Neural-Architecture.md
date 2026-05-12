@@ -371,8 +371,8 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   │ BRAINSTEM NUCLEI                                                  │
   │                                                                   │
   │   VTA (Ventral Tegmental Area):                                  │
-  │     → Dopamine source → prediction error signals                  │
-  │     → Fires on: positive PE (input > expected)                    │
+  │     → Dopamine source → prediction-delta signals                  │
+  │     → Fires on: positive prediction-delta (input > expected)                    │
   │     → Framework: delta rule, H10 P3 VTA threshold                │
   │     → 🟢 Schultz 1997 (prediction error)                          │
   │                                                                   │

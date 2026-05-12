@@ -62,6 +62,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 Body-Feedback/
 ├── Body-Feedback.md             ← THIS FILE (entry point, synthesis)
+├── Body-Feedback-Label.md       (605L) — ⭐ VOCABULARY REFERENCE (3-tier labels)
 ├── Body-Feedback-Mechanism.md   (850L) — ⭐ chunk dynamics (NEW v1.0)
 ├── 01-Foundation.md             (1,121L) — dual-pull, loop, architecture
 ├── 02-Dissonance.md             (1,846L) — 3 nguồn, threat matrix, trauma, hedonic
@@ -77,7 +78,16 @@ Body-Feedback/
 ENTRY POINT: This file (Body-Feedback.md)
   → Provides overview of ALL concepts + reading order
 
-CORE MECHANISM (read second):
+LABEL CONVENTION (read second — VOCABULARY for entire framework):
+  Body-Feedback-Label.md ← ⭐ MUST-READ
+    → 3-tier label system (General → Direction → Specific)
+    → 100% framework vocabulary (prediction-delta, body-base reward, dissonance)
+    → Reward label = CẢ Type A VÀ Type B (không chỉ opioid)
+    → prediction-delta (detection) ≠ body-base reward (evaluation)
+    → Body-feedback (mechanism) ≠ Feeling (PFC observation)
+    → Quy tắc sử dụng: cụ thể nhất có thể, chung nhất nếu bắt buộc
+
+CORE MECHANISM (read third):
   Body-Feedback-Mechanism.md ← ⭐ NEW
     → 2 input sources (Sensory-Driven / Pattern-Driven)
     → 3 chunk dynamics (Chunk-Shift / Chunk-Miss / Chunk-Gap)
@@ -115,8 +125,8 @@ ABSORBED ELSEWHERE (authoritative versions):
 
   ② DOMAIN PULL (ngoại, đòi adapt, map reality):
      → Novelty drive: genetic drive explore
-     → VTA delta: pattern mới → dopamine → attention
-     → Prediction error: mismatch → update pressure
+     → prediction-delta: pattern mới → dopamine → attention
+     → Prediction-delta: mismatch → update pressure
      → Evolutionary: không map reality → không sống sót
      → Feature: learning, growth, curiosity
      → Dark side: burnout, neural wear
@@ -221,7 +231,7 @@ ABSORBED ELSEWHERE (authoritative versions):
     ② CHUNK-MISS: pattern đã compiled KHÔNG FIRE (absent/degraded)
        → VD: TikTok quen → máy hỏng → bứt rứt
        → 3 variants: miss rõ / miss mờ / miss vô thức
-       → Mechanism: VTA negative prediction delta (Schultz 1997: "prediction error")
+       → Mechanism: VTA negative prediction-delta (Schultz 1997: "prediction error")
        → 🟢 Successive Negative Contrast (Crespi 1942, Flaherty 1996)
 
     ③ CHUNK-GAP: pattern CHƯA CÓ nhưng network detect thiếu
@@ -315,7 +325,7 @@ ABSORBED ELSEWHERE (authoritative versions):
   │ 2 │ Chunks base adequate │ "Chả hiểu" / confusion   │ Đủ substrate decode  │
   │   │ (đủ substrate)       │                          │                      │
   ├───┼──────────────────────┼──────────────────────────┼──────────────────────┤
-  │ 3 │ VTA delta threshold  │ "Bình thường" / "quen"   │ Biến động đủ lớn     │
+  │ 3 │ prediction-delta threshold  │ "Bình thường" / "quen"   │ Biến động đủ lớn     │
   │   │ (biến động đủ)       │                          │ cho VTA detect       │
   ├───┼──────────────────────┼──────────────────────────┼──────────────────────┤
   │ 4 │ Goldilocks zone      │ Too alien: "lạ quá"      │ Match 40-70%         │

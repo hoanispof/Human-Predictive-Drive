@@ -154,8 +154,8 @@ Arc files assume reader has understood this baseline. If you skip this file and 
 This framing is **approximately correct** for the following reasons:
 
 **Reason 1 — Narrow body-input profile minimizes dissonance sources**:
-- Dissonance in framework = mismatch between expected and actual (prediction error) OR schema pending not yet resolved
-- With narrow input profile, **expected state ≈ actual state almost always** — nothing novel enough to create prediction error
+- Dissonance in framework = mismatch between expected and actual (prediction-delta) OR schema pending not yet resolved
+- With narrow input profile, **expected state ≈ actual state almost always** — nothing novel enough to create prediction-delta
 - Homeostatic environment = steady-state inputs → body-base smooth → minimal alert signals → no urgent arbitration demand
 
 **Reason 2 — No "domain real" contact**:
@@ -386,7 +386,7 @@ This framing is **approximately correct** for the following reasons:
 
 Definition review (from Body-Feedback-Draft P2):
 - **Body-base dissonance** = body signals that don't smooth (hunger, pain, thermal discomfort, emotional distress)
-- **Domain-real dissonance** = mismatch between expected and actual in the external physical/social world (prediction error requiring PFC arbitration)
+- **Domain-real dissonance** = mismatch between expected and actual in the external physical/social world (prediction-delta requiring PFC arbitration)
 
 In womb:
 - Body-base dissonance is **minimal** (homeostatic environment)

@@ -45,6 +45,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > File này ghi nhận đóng góp PE research, mở rộng mechanism cho con người,
 > và giải thích tại sao diễn giải phổ biến "PE = reward" chưa đủ.
 
+> **📋 VOCABULARY NOTE**: File này dùng "PE" / "prediction error" vì đây là
+> Clarification file — mục đích là so sánh framework với mainstream neuroscience.
+> Trong tất cả file KHÁC, framework dùng **"prediction-delta"** thay cho
+> PE / VTA delta. Xem: [Body-Feedback-Label.md](../Body-Base/Body-Feedback/Body-Feedback-Label.md) v1.1.
+
 ---
 
 ## Mục lục
@@ -220,13 +225,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → = PE là BƯỚC 1 — cần thiết. Nhưng cần thêm 4 yếu tố nữa.
 
   RANDOM NOTE FAIL Ở ĐÂU?
-    ✅ P3 VTA delta: CÓ (note mới = unexpected) — PE pass
+    ✅ P3 prediction-delta: CÓ (note mới = unexpected) — PE pass
     ❌ P4 Goldilocks: KHÔNG (note random phá structure → quá alien)
     ❌ Coherence: KHÔNG (note không fit cấu trúc)
     → PE pass nhưng coherence + Goldilocks fail → dissonance
 
   NHẠC MỚI HAY PASS Ở ĐÂU?
-    ✅ P3 VTA delta: CÓ (bài mới = unexpected elements)
+    ✅ P3 prediction-delta: CÓ (bài mới = unexpected elements)
     ✅ P4 Goldilocks: CÓ (vừa quen vừa lạ)
     ✅ Coherence: CÓ (phần mới FIT vào structure)
     ✅ P2 chunks: CÓ (người nghe có đủ kinh nghiệm nhạc)
@@ -257,7 +262,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   BƯỚC 3 — H10 PRECONDITIONS CHECK:
     → P1: Body-need gap open? (có cần không?)
     → P2: Chunks base adequate? (có đủ chunks để đánh giá không?)
-    → P3: VTA delta threshold met? ← PE ở đây
+    → P3: prediction-delta threshold met? ← PE ở đây
     → P4: Goldilocks zone? (vừa quen vừa mới?)
     → P5: Chunk association tag? (không bị tagged avoidance?)
     → ALL 5 required. Missing ANY → reward không fire.
@@ -448,6 +453,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 WITHIN FRAMEWORK:
+  Body-Feedback-Label.md v1.1 — ⭐ VOCABULARY REFERENCE.
+    Framework dùng "prediction-delta" thay cho PE / VTA delta.
+    3-tier label system. 100% framework vocabulary.
   Reward-Signal-Architecture.md — ⭐ Type A (opioid) vs Type B (non-opioid),
     5 profiles, reward = PROCESS not chemical
   Gap-Direction.md — ⭐ 2-layer model formalizes PE vs reward:

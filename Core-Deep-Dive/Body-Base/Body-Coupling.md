@@ -1465,7 +1465,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ❶ Hardware (body CẦN social input) VỚI ZERO alternative
   → Captor controls L0 + L1 → captor = ONLY agent
-  → Intermittent relief = positive prediction delta → VTA fire
+  → Intermittent relief = positive prediction-delta → VTA fire
   → L2 bắt đầu compile → smoothing emerge → captive defend captor
 
   = L2 mechanism AMORAL: compile based on conditions, not health

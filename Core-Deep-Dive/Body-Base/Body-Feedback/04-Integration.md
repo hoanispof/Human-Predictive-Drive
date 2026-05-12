@@ -760,7 +760,7 @@ User's verbatim was rich (see §4.5 P3). This walkthrough traces the full archit
 - All 5 H10 preconditions maximally met:
   - P1: Schema pending for years (unified theory)
   - P2: Chunks base sufficient after Grossman work
-  - P3: VTA delta HUGE (new pattern after years searching)
+  - P3: prediction-delta HUGE (new pattern after years searching)
   - P4: Goldilocks match (familiar framework + novel synthesis)
   - P5: Tag opioid (chosen domain, curiosity-driven)
 - **Opioid flood** through body
@@ -1181,13 +1181,13 @@ Understanding architecture guides intervention points:
 
 **Test**: Van Gogh painting to untrained viewer vs art expert (drill C3, P3 §6)
 
-#### §9.2.3 — Precondition 3: VTA Delta Threshold
+#### §9.2.3 — Precondition 3: Prediction-Delta Threshold
 
 **Definition**:
 > Input pattern must produce **sufficient delta** (biến động) relative to recent habituated state để trigger VTA firing and PFC attention allocation.
 
 **Operationalization**:
-- Habituation-based (prediction delta, not "prediction error" — PFC-Analysis §8.3)
+- Habituation-based (prediction-delta, not "prediction error" — PFC-Analysis §8.3)
 - DRD4 receptor variant affects threshold (4R sensitive, 7R coarse)
 - Recent history determines what counts as "delta"
 
@@ -1238,7 +1238,7 @@ Understanding architecture guides intervention points:
 - **Prediction 3**: Expert-novice reward differential for domain-specific stimuli — measurable via physiological response (HRV, GSR, fMRI insula) 🟡
 - **Prediction 4**: Training specifically increasing chunks base in domain X → measurable reward sensitivity increase in X
 
-**P3 (VTA Delta)**:
+**P3 (Prediction-Delta)**:
 - **Prediction 5**: Novelty introduction after habituation → reward spike (standard hedonic adaptation research 🟢 supports)
 - **Prediction 6**: DRD4 variant correlates with minimum delta needed for PFC attention (PFC-Analysis §8.1 implicit, testable)
 
@@ -1276,7 +1276,7 @@ Each precondition validated by multiple drill cases:
 - Claim: Dopamine release IS the reward signal
 - H10 position: **Rejected**. Dopamine = alert/salience, opioid = actual reward
 - Evidence: Berridge & Robinson 1998 wanting vs liking 🟢
-- H10 uses: Preconditions 3 (VTA delta) + 5 (tag) together explain apparent dopamine-reward correlation
+- H10 uses: Preconditions 3 (prediction-delta) + 5 (tag) together explain apparent dopamine-reward correlation
 
 **Alternative B — Schultz Prediction Error (neuroscience standard)**:
 - Claim: Dopamine fires on difference between predicted and actual reward
@@ -1428,7 +1428,7 @@ Per drill convention: 🟢 research-backed / 🟡 framework consistent suy luậ
 **Reward mechanisms**:
 - 5 H10 preconditions — framework synthesis from scattered sources
 - All 5 required claim — strong framework commitment, testable
-- VTA habituation model (prediction delta vs Schultz "prediction error") — framework alternative, simpler but produces same predictions
+- VTA habituation model (prediction-delta vs Schultz "prediction error") — framework alternative, simpler but produces same predictions
 - Body-base opioid vs VTA dopamine split — consistent with Berridge research
 - Chunk association tag concept — framework extension from Cortisol-Baseline §3.5
 - Reward is PERSONALIZED function — framework claim derived from architecture

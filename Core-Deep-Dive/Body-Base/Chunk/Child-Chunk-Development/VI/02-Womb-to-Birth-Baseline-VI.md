@@ -156,8 +156,8 @@ Các file arc giả định reader đã hiểu baseline này. Nếu bạn bỏ q
 Framing này **xấp xỉ đúng** vì các lý do sau:
 
 **Lý do 1 — Profile body-input hẹp tối thiểu hóa các nguồn dissonance**:
-- Dissonance trong framework = mismatch giữa kỳ vọng và thực tế (prediction error) HOẶC schema pending chưa được giải quyết
-- Với profile đầu vào hẹp, **trạng thái dự kiến ≈ trạng thái thực tế hầu như luôn** — không có gì mới lạ đủ để tạo ra prediction error
+- Dissonance trong framework = mismatch giữa kỳ vọng và thực tế (prediction-delta) HOẶC schema pending chưa được giải quyết
+- Với profile đầu vào hẹp, **trạng thái dự kiến ≈ trạng thái thực tế hầu như luôn** — không có gì mới lạ đủ để tạo ra prediction-delta
 - Môi trường homeostatic = đầu vào steady-state → body-base smooth → tín hiệu alert tối thiểu → không có demand arbitration khẩn cấp
 
 **Lý do 2 — Không có tiếp xúc "domain real"**:
@@ -388,7 +388,7 @@ Framing này **xấp xỉ đúng** vì các lý do sau:
 
 Đánh giá định nghĩa (từ Body-Feedback-Draft P2):
 - **Body-base dissonance** = tín hiệu cơ thể không smooth (đói, đau, khó chịu nhiệt, đau khổ cảm xúc)
-- **Domain-real dissonance** = mismatch giữa kỳ vọng và thực tế trong thế giới vật lý/xã hội bên ngoài (prediction error đòi hỏi PFC arbitration)
+- **Domain-real dissonance** = mismatch giữa kỳ vọng và thực tế trong thế giới vật lý/xã hội bên ngoài (prediction-delta đòi hỏi PFC arbitration)
 
 Trong tử cung:
 - Body-base dissonance **tối thiểu** (môi trường homeostatic)

@@ -525,7 +525,7 @@ FILE NÀY TRONG FLOW:
 
   ① NOVELTY DRIVE:
     → Shifts L1 baselines UPWARD (explore, expand)
-    → VTA delta detection (🟢 Schultz 1997)
+    → prediction-delta detection (🟢 Schultz 1997)
     → Cortisol LOW-MODERATE, domain-pull direction
     → Chi tiết: Observation/Novelty.md
 
@@ -688,7 +688,7 @@ FILE NÀY TRONG FLOW:
          Dark side: stagnation, evolution lag
 
       ② DOMAIN PULL (ngoại, đòi adapt, map reality):
-         Novelty drive, VTA delta, prediction error
+         Novelty drive, prediction-delta
          Feature: learning, growth, curiosity
          Dark side: burnout, neural wear
 
@@ -722,7 +722,7 @@ FILE NÀY TRONG FLOW:
     ├───┼──────────────────────┼──────────────────────────┤
     │ 1 │ Schema pending       │ "Không cần"              │
     │ 2 │ Chunks base adequate │ "Chả hiểu"              │
-    │ 3 │ VTA delta threshold  │ "Bình thường"            │
+    │ 3 │ prediction-delta threshold  │ "Bình thường"            │
     │ 4 │ Goldilocks zone      │ "Quá lạ" / "quá quen"   │
     │ 5 │ Chunk association tag│ "Ghét dù hiểu"           │
     └───┴──────────────────────┴──────────────────────────┘

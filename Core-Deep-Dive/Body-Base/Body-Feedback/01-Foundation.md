@@ -56,7 +56,7 @@ File này **preview** H10. Formalization đầy đủ ở P5.
 >
 > 1. **Schema pending status** — có schema nào đang chờ được fill/resolve/upgrade?
 > 2. **Chunks base adequacy** — có đủ chunks substrate để decode pattern không?
-> 3. **VTA delta threshold** — biến động có đủ lớn để VTA detect (habituation-based, prediction delta không phải prediction error)?
+> 3. **prediction-delta threshold** — biến động có đủ lớn để VTA detect (habituation-based, prediction-delta không phải prediction error)?
 > 4. **Goldilocks zone position** — match 40-70% (neither too familiar nor too alien)?
 > 5. **⭐ Chunk association tag** — chunks đang fire có tag (opioid vs cortisol) determining direction + sustainability?
 >
@@ -120,7 +120,7 @@ File này **setup** H10 bằng cách establish:
 
 **Cơ chế substrate**:
 - **Novelty drive** (Novelty.md): genetic drive để explore
-- **VTA delta detection** (PFC-Analysis §8.3): pattern mới → VTA fire dopamine → PFC attention
+- **prediction-delta detection** (PFC-Analysis §8.3): pattern mới → VTA fire dopamine → PFC attention
 - **Prediction error updating** (Friston/Clark): mismatch với expectation → schema update pressure
 - **Evolutionary advantage**: species không map reality → không sống sót → gen bị loại (Why-Body-Knows §4 Tier 1)
 
@@ -286,7 +286,7 @@ File này **consolidate** thành 6-step generic loop.
   - **Neutral** nếu pattern = baseline, không delta
 
 **Who handles**:
-- **Vô thức (95%)**: compiled schemas auto-check, VTA delta detection, body-base simulation
+- **Vô thức (95%)**: compiled schemas auto-check, prediction-delta detection, body-base simulation
 - **PFC (5%)**: khi dissonance signal đủ mạnh → PFC engage (Imagine-Final §1 "PFC reactive, body gọi")
 
 **Why split**: PFC bandwidth quá nhỏ cho toàn bộ signal — unconscious handles background scan, PFC only for novelty/conflict/decisions.
@@ -995,7 +995,7 @@ VTA detect delta → alert PFC → PFC check chunk → send to body → body ver
 H10 preconditions (§1.3) all relate to body-base:
 - **Precondition 1** (schema pending) = body-base has gap
 - **Precondition 2** (chunks base) = body can decode pattern
-- **Precondition 3** (VTA delta) = body detects change
+- **Precondition 3** (prediction-delta) = body detects change
 - **Precondition 4** (Goldilocks) = body check coherence match ratio
 - **Precondition 5** (chunk association tag) = body past experience tagged chunks
 
@@ -1042,7 +1042,7 @@ All 5 preconditions **body-centric**, not PFC-centric. Schema serves body — si
 **Q6**: What is the minimum iteration time for interface loop before reward/dissonance registers? Milliseconds? Seconds? Minutes?
 
 **Current evidence**:
-- VTA delta detection: milliseconds (Schultz 1997)
+- prediction-delta detection: milliseconds (Schultz 1997)
 - Body-base check: seconds (opioid release)
 - Schema compile: hours-days (sleep consolidation)
 - Full iteration: seconds (simple) → years (complex like Einstein)

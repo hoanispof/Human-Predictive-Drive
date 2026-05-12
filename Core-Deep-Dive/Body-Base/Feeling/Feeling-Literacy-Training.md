@@ -158,7 +158,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 MỖI LITERACY COMPONENT → VỊ TRÍ TRONG 8-STEP FLOW:
 
   8-step flow (Mechanism-Deep §3):
-  ① Body fire → ② VTA delta → ③ Integration → ④ PFC threshold →
+  ① Body fire → ② prediction-delta → ③ Integration → ④ PFC threshold →
   ⑤ Chunk match → ⑥ Label search → ⑦ Body vote → ⑧ Action
 
   LITERACY COMPONENT → STEP IT IMPROVES:
@@ -388,7 +388,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     MECHANISM A — INTEROCEPTIVE PREDICTION REFINEMENT:
       → Seth 2013: brain PREDICTS body state
       → Repeated body attention → prediction model UPDATES
-      → Updated model → smaller prediction deltas detectable
+      → Updated model → smaller prediction-deltas detectable
       → = Threshold effectively LOWERS because model gets finer-grained
       → 🟢 Farb 2013: 8-week meditation → measurable interoceptive improvement
       → = Chunk system builds "body map" chunks — more chunks = more detail
@@ -607,7 +607,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → After: compare prediction to actual → update model
        → = Seth 2013 interoceptive prediction → EXPLICIT training of
          what is normally implicit prediction mechanism
-       → = Prediction errors → chunk UPDATE → model improves
+       → = Prediction-deltas → chunk UPDATE → model improves
 
 
   EXPECTED OUTCOMES:

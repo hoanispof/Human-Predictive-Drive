@@ -406,7 +406,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 
   BL(t+1) = BL(t) + α × (input_quality(t) - BL(t))
 
-  → input > baseline → positive prediction delta → REWARD → seek repeat
+  → input > baseline → positive prediction-delta → REWARD → seek repeat
   → Repeated exposure → baseline shifts UP → same input = no reward
   → Seeking escalation → HEDONIC TREADMILL established
 
@@ -566,8 +566,8 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 🟡🟢 BODY-FEEDBACK = CÁCH BODY ĐÁNH GIÁ MỌI THỨ LIÊN TỤC:
 
   CHỈ 2 HƯỚNG:
-    → REWARD (input above baseline, positive prediction delta)
-    → DISSONANCE (input below baseline, negative prediction delta)
+    → REWARD (input above baseline, positive prediction-delta)
+    → DISSONANCE (input below baseline, negative prediction-delta)
     → + NEUTRAL (at baseline, no signal)
 
   DUAL-PULL ARCHITECTURE (Body-Feedback.md §2):
@@ -580,8 +580,8 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
        → Dark side: stagnation, evolution lag
 
     ② DOMAIN PULL (đòi adapt, map reality):
-       → VTA delta: pattern mới → dopamine → attention
-       → Prediction error: mismatch → update pressure
+       → prediction-delta: pattern mới → dopamine → attention
+       → Prediction-delta: mismatch → update pressure
        → Evolutionary: không map reality → không sống sót
        → Feature: learning, growth, curiosity
        → Dark side: burnout, neural wear
@@ -598,7 +598,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     ├───┼──────────────────────────┼────────────────────────────┤
     │ 1 │ Body-need gap open       │ "Không cần" / polite no     │
     │ 2 │ Chunks base adequate     │ "Chả hiểu" / confusion      │
-    │ 3 │ VTA delta threshold met  │ "Bình thường" / "quen rồi" │
+    │ 3 │ prediction-delta threshold met  │ "Bình thường" / "quen rồi" │
     │ 4 │ Goldilocks zone (40-70%) │ Too alien or too familiar   │
     │ 5 │ Chunk association tag    │ "Ghét dù hiểu" / avoidance  │
     └───┴──────────────────────────┴────────────────────────────┘
@@ -606,7 +606,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 
   3 NGUỒN KHÓ CHỊU THẬT (Body-Feedback.md §4):
     ① Nociception (physical damage — tissue → nociceptors → pain)
-    ② Mismatch (schema ≠ reality — prediction delta → "something is off")
+    ② Mismatch (schema ≠ reality — prediction-delta → "something is off")
     ③ Recalibration (neurons adjusting — "căng đầu khi học" = wiring change)
     → Cortisol arrives AFTER, KHÔNG gây đau — sustainer, not cause
 
@@ -757,7 +757,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     Còn phụ thuộc ĐỘ RÕ = f(chunk density cho lĩnh vực đó).
 
     MAGNITUDE = cường độ body signal (body-feedback generate):
-      → VTA delta, nociception, mismatch, cortisol amplification
+      → prediction-delta, nociception, mismatch, cortisol amplification
       → Cao: đau, sợ, phấn khích → signal loud → PFC khó bỏ qua
       → Thấp: lấn cấn nhẹ, vi sai nhỏ → signal quiet → dễ lọt
 
@@ -975,7 +975,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   │ Schema       │ Named chunk-network pattern (software "feature")      │
   │              │ Chunks + links + purpose = observation, not component  │
   ├──────────────┼──────────────────────────────────────────────────────┤
-  │ Novelty      │ Positive prediction delta pattern                      │
+  │ Novelty      │ Positive prediction-delta pattern                      │
   │              │ Direct: đồ ăn ngon, cảnh đẹp, nhạc mới              │
   │              │ Via Imagination: sáng tác, Einstein years of novelty  │
   │              │ Tendency: người thích novelty X → xu hướng tiếp tục   │
@@ -1144,7 +1144,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
      → "Quality channels" = L1 inputs với baseline shifted by delta rule
 
   2. L3 Drives COLLAPSED → observation parameters
-     → Novelty = positive prediction delta pattern
+     → Novelty = positive prediction-delta pattern
      → Status = self-assessment chunks + serotonin baseline
      → Protect = loss aversion + ownership chunks
      → ALL are emergent từ body-feedback + chunks, not separate operators

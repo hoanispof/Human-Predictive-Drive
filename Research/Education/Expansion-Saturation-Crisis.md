@@ -565,14 +565,14 @@ READER FLOW:
   Người cổ đại cần lửa:
     → Dissonance MẠNH: "cần lửa" (cold, dark, danger)
     → BUILD phase: mài gỗ, thử nhiều cách, nhiều giờ effort
-    → Mỗi step tiến bộ: opioid fire + VTA delta
+    → Mỗi step tiến bộ: opioid fire + prediction-delta
     → Lửa bắt cháy: PEAK reward + chunks compiled
     → = PROCESS có reward ở MỌI BƯỚC
 
   Người hiện đại:
     → Cần lửa → bấm bật lửa → có (dissonance: 0)
     → Không BUILD phase → không opioid fire per step
-    → Không VTA delta (hoàn toàn habituated)
+    → Không prediction-delta (hoàn toàn habituated)
     → Cái bật lửa = 0 reward despite being "useful"
     → = "GIVEN" = bypass PROCESS = bypass REWARD
 
@@ -661,7 +661,7 @@ READER FLOW:
       → = Nhưng process-oriented training ÍT HƠN lecture-based education
       → = "Thiếu thợ" vì education KHÔNG dạy process cho domain cần process
 
-  🟢 VTA delta mechanism: Schultz 1997 (reward prediction error)
+  🟢 prediction-delta mechanism: Schultz 1997 (reward prediction error)
   🟢 Opioid micro-reward per step: Berridge 2007 (liking system)
   🟡 "Given bypass process" = Domain-Mapping-Drive §4 synthesis
 ```
@@ -1601,7 +1601,7 @@ PRIMARY DEPENDENCIES (cốt lõi cho thesis)
 
 → Domain-Mapping-Drive.md — ⭐ WHY drive + "Given" paradox
   §0: "Tại sao có sẵn mà không thấy sướng?"
-  §2: VTA delta + opioid per step (mechanism)
+  §2: prediction-delta + opioid per step (mechanism)
   §4: "Given" bypass process = no reward (core of §3)
   §4.2: Capacity Refund Principle
   §7: Education implications

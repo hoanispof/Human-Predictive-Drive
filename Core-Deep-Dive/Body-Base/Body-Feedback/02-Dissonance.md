@@ -181,7 +181,7 @@ File này cover 9 drill sections:
 **Phase 2 — Desire schema fires**:
 - **Imagine-Final micro-scale** (Imagine-Final §1 Micro: giây→phút): "mặc áo này → mình trông đẹp → feeling confidence"
 - **Body pre-feels** opioid preview (~20-60% fidelity): "sẽ sướng"
-- **VTA delta detection** (PFC-Analysis §8.3 bước 2): unexpected beautiful item → dopamine alert → PFC attention
+- **prediction-delta detection** (PFC-Analysis §8.3 bước 2): unexpected beautiful item → dopamine alert → PFC attention
 
 **Phase 3 — Resource check (reality intrudes)**:
 - PFC checks domain (§6 P1: PFC DUY NHẤT check domain accuracy)

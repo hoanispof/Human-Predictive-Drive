@@ -42,6 +42,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > - Alternative: 7-step mechanism (VTA salience → body-base opioid)
 > - Tại sao framework gần Berridge nhưng SÂU HƠN (thêm mechanism)
 
+> **📋 VOCABULARY NOTE**: File này dùng "PE" / "prediction error" khi thảo luận
+> mainstream neuroscience (Schultz 1997, Berridge). Trong tất cả file KHÁC,
+> framework dùng **"prediction-delta"** thay cho PE / VTA delta.
+> Xem: [Body-Feedback-Label.md](../Body-Base/Body-Feedback/Body-Feedback-Label.md) v1.1.
+
 ---
 
 ## Mục lục
@@ -594,6 +599,10 @@ Khác cortisol case (scientific community đã align — rejection file thừa),
 ---
 
 ## §7 — CROSS-REFERENCES
+
+**Vocabulary reference**:
+- [Body-Feedback-Label.md v1.1](../Body-Base/Body-Feedback/Body-Feedback-Label.md) — ⭐ VOCABULARY REFERENCE.
+  Framework dùng "prediction-delta" thay cho PE / VTA delta. 3-tier label system.
 
 **Complement file (v1.1 NEW)**:
 - Reward-Signal-Architecture.md v1.0 — Type A/B dimension, 5 Profiles, Interaction Model

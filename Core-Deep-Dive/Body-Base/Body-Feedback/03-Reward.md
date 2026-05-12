@@ -140,7 +140,7 @@ File này cover 12 drill sections:
 │          patterns form via Hebbian synchronization              │
 │                              ↓                                 │
 │  Step 2: VTA DETECTS DELTA — habituation-based                 │
-│          (prediction delta, not "prediction error")            │
+│          (prediction-delta, not "prediction error")            │
 │          Schema cũ đều → VTA quen → im                         │
 │          Pattern mới → "BIẾN ĐỘNG!" → VTA fire → dopamine      │
 │                              ↓                                 │
@@ -184,11 +184,11 @@ File này cover 12 drill sections:
 
 **Connection to user's hypothesis**: "Chunks liên kết với nhau" happens continuously in unconscious. Question is WHEN VTA detects the linking.
 
-### §2.4 — Step 2: VTA Delta Detection (Habituation-Based)
+### §2.4 — Step 2: Prediction-Delta Detection (Habituation-Based)
 
 🟡 **Critical framework claim** (PFC-Analysis §8.3 — diverges from Schultz "prediction error"):
 
-> VTA = **"seismograph"** — detects BIẾN ĐỘNG (prediction delta), not absolute intensity, not "prediction error" calculation.
+> VTA = **"seismograph"** — detects BIẾN ĐỘNG (prediction-delta), not absolute intensity, not "prediction error" calculation.
 >
 > Mechanism: HABITUATION.
 > - Region X fires stably → VTA habituates → ignores
@@ -196,7 +196,7 @@ File này cover 12 drill sections:
 > - Region X stabilizes at new level → VTA habituates again → back to ignore
 > - Region Y changes → "DIFFERENT CHANGE!" → VTA fires again
 
-**Key insight**: Framework's habituation model (prediction delta) is **simpler** than Schultz 1997 "prediction error" theory, but produces same observable result.
+**Key insight**: Framework's habituation model (prediction-delta) is **simpler** than Schultz 1997 "prediction error" theory, but produces same observable result.
 
 **Schultz model** (standard): Brain predicts outcome → compares to actual → dopamine fires on error
 **Framework model**: Brain has habituated to stable patterns → new activity differs → fires on difference
@@ -339,7 +339,7 @@ Chi tiết A/B dimension: Reward-Signal-Architecture.md §1-§3.
 >
 > 1. **Schema pending status** — có schema đang chờ fill/resolve/upgrade?
 > 2. **Chunks base adequacy** — có đủ chunks substrate để decode pattern?
-> 3. **VTA delta threshold** — biến động đủ lớn để VTA detect?
+> 3. **prediction-delta threshold** — biến động đủ lớn để VTA detect?
 > 4. **Goldilocks zone position** — match 40-70%?
 > 5. **Chunk association tag** — chunks tag (opioid vs cortisol) direction?
 >
@@ -409,7 +409,7 @@ Chi tiết A/B dimension: Reward-Signal-Architecture.md §1-§3.
 
 **User's hypothesis extension**: "Schema đang sẵn sàng nâng cấp" = chunks base adequate FOR upgrade = this precondition.
 
-### §3.4 — Precondition 3: VTA Delta Threshold
+### §3.4 — Precondition 3: Prediction-Delta Threshold
 
 🟡 **Definition**:
 
@@ -494,7 +494,7 @@ Chi tiết: Reward-Signal-Architecture.md §8.4
 |---|---|---|---|
 | 1 | Schema pending | No need → no reward even if offered | Full person offered more food |
 | 2 | Chunks base adequate | Cannot decode → confusion not reward | Van Gogh to untrained |
-| 3 | VTA delta threshold | No alert → no attention | Routine events missed |
+| 3 | prediction-delta threshold | No alert → no attention | Routine events missed |
 | 4 | Goldilocks zone | Too alien OR too familiar → wrong direction | New music no chunks (alien) or 1000x same song (familiar) |
 | 5 | Chunk tag | Content recognized but discomfort tagged → avoidance | Math learned under stress |
 
@@ -540,7 +540,7 @@ Framework explains via precondition analysis:
 **Outcome A (giật mình) — Preconditions state**:
 - P1 Schema pending: focus on bài → not specifically attending to name
 - P2 Chunks base: "cô giáo gọi tên = attention event" chunk solid
-- P3 VTA delta: HIGH (unexpected name call while focused elsewhere)
+- P3 prediction-delta: HIGH (unexpected name call while focused elsewhere)
 - P4 Goldilocks: ~50% match (expected some teacher sound, not specifically own name)
 - P5 Tag: neutral-positive (not threatening)
 
@@ -550,7 +550,7 @@ But → body-base check: Name call isn't filling any body-need at Step 5 → NO 
 **→ VTA alert ≠ reward**. Giật mình is "attention grabbed," not "pleased."
 
 **Outcome B (bình thường do quen) — Preconditions state**:
-- P3 VTA delta: LOW (habituated — pattern of being called in class is stable)
+- P3 prediction-delta: LOW (habituated — pattern of being called in class is stable)
 - VTA doesn't fire strongly → no interrupt → "no reaction"
 - All other preconditions irrelevant if P3 fails
 
@@ -591,7 +591,7 @@ Framework validates: VTA fires (attention), but Step 5 body-base check doesn't f
 - Can decode the situation fully
 - Understands meaning at multiple levels (direct praise + social positioning + family pride)
 
-**P3 VTA delta ✅**:
+**P3 prediction-delta ✅**:
 - Surprise factor: praise (positive) exceeds baseline expectation
 - Multiple simultaneous chunks firing (user notes: "nhiều chunk liên quan, fire mạnh mẽ")
 - Spreading activation cascade → large neural delta
@@ -646,7 +646,7 @@ This case is "hot" precisely because it fills **many needs at once**:
 
 **P1 Schema pending**: Yes — resource need, expected (planned expenses)
 **P2 Chunks base**: Strong — adult understands money, work, reward cycle
-**P3 VTA delta**: **LOW to moderate** — expected event, not surprising
+**P3 prediction-delta**: **LOW to moderate** — expected event, not surprising
 **P4 Goldilocks**: HIGH match (routine pattern)
 **P5 Tag**: Mixed (work chunks may be cortisol-tagged if job stressful)
 
@@ -658,7 +658,7 @@ Result: Some reward but **muted**. User says "làm cật lực" → effort corti
 
 **P1 Schema pending**: Yes — resource need (always pending for most people)
 **P2 Chunks base**: Strong — understands money, lottery, winning
-**P3 VTA delta**: **EXTREME** — unexpected massive event exceeding all predictions
+**P3 prediction-delta**: **EXTREME** — unexpected massive event exceeding all predictions
 **P4 Goldilocks**: 40-60% match (understand lottery but never experienced winning)
 **P5 Tag**: Positive (lottery chunks fantasy-tagged, not negative)
 
@@ -698,7 +698,7 @@ This explains: "Trúng số sướng cực kỳ" (peak) ≠ "trúng số sống 
 **Preconditions during struggle**:
 - P1 Schema pending: VERY STRONG — "giải bài toán" is explicit pending schema
 - P2 Chunks base: PARTIAL — has some math tools but missing key insight
-- P3 VTA delta: Moderate — trying different approaches fires some delta each time
+- P3 prediction-delta: Moderate — trying different approaches fires some delta each time
 - P4 Goldilocks: Match varies as approaches tried
 - P5 Tag: Math chunks (hopefully) opioid-tagged from curiosity context
 
@@ -708,7 +708,7 @@ This explains: "Trúng số sướng cực kỳ" (peak) ≠ "trúng số sống 
 
 **What happens at moment of insight**:
 - New chunk combination clicks (spreading activation produces the missing link)
-- VTA delta: LARGE (new pattern after days of no progress)
+- prediction-delta: LARGE (new pattern after days of no progress)
 - Multi-chunk cascade: solution chunk fires → activates solution-path chunks → activates "problem solved" schema → activates meta-learning chunks
 - Body-base check: Step 5 → opioid flood ("body-need 'resolve problem' satisfied")
 
@@ -777,7 +777,7 @@ Framework: this is **the most interesting state** — chunks base sufficient for
 - "Phát hiện ra liên kết chunk nào đó rất có khả năng" 
 - **Not certainty yet** — "có khả năng"
 - **Mini reward** fires because:
-  - P3 VTA delta HIGH (new combination after years of searching)
+  - P3 prediction-delta HIGH (new combination after years of searching)
   - Step 5: body simulates → feels "this might work" → partial opioid
   - NOT full opioid because not verified yet
 
@@ -850,7 +850,7 @@ User's precise reason:
 **Moment of success**:
 - P1 Pending ✅ (goal was active)
 - P2 Chunks base ✅ (built through iteration)
-- P3 VTA delta HIGH (novel successful assembly)
+- P3 prediction-delta HIGH (novel successful assembly)
 - P4 Goldilocks ✅ (match with Imagine-Final)
 - P5 Tag ✅ (lego chunks opioid-tagged from play context)
 
@@ -945,7 +945,7 @@ User's key insight: same PERSON (father) → different response per item. Same I
 **State**:
 - **P1 Pending**: ✅ Con đã có schema "muốn ô tô," watching cars, longing
 - **P2 Chunks base**: ✅ Rich — car chunks (models, colors, features, desirability)
-- **P3 VTA delta**: ✅ HIGH — surprise (bất ngờ) + expectation exceeded
+- **P3 prediction-delta**: ✅ HIGH — surprise (bất ngờ) + expectation exceeded
 - **P4 Goldilocks**: ✅ 60-70% — recognized (xe ô tô) + novel (this specific model)
 - **P5 Tag**: ✅ Positive — car chunks opioid-tagged from play/admiration context
 
@@ -962,7 +962,7 @@ User's key insight: same PERSON (father) → different response per item. Same I
 **State**:
 - **P1 Pending**: ❌ No schema "muốn xe máy" — pending is specifically for "ô tô"
 - **P2 Chunks base**: ✅ Has chunks about xe máy (can decode what it is)
-- **P3 VTA delta**: Moderate — unexpected but wrong category
+- **P3 prediction-delta**: Moderate — unexpected but wrong category
 - **P4 Goldilocks**: N/A — wrong category can't be evaluated properly
 - **P5 Tag**: Neutral
 
@@ -977,7 +977,7 @@ User's key insight: same PERSON (father) → different response per item. Same I
 **State**:
 - **P1 Pending**: ❌ No "muốn máy bay" schema
 - **P2 Chunks base**: ❌ Insufficient — child has limited/no chunks about personal airplane ownership
-- **P3 VTA delta**: EXTREME — completely unexpected, strange, overwhelming
+- **P3 prediction-delta**: EXTREME — completely unexpected, strange, overwhelming
 - **P4 Goldilocks**: ❌ <20% match — too alien
 - **P5 Tag**: N/A
 
@@ -1000,7 +1000,7 @@ Framework: Child thinks "it exists, it's mine(?), but what do I do with it?" →
 **State**:
 - **P1 Pending**: ❌ No "muốn tranh" schema (child typically)
 - **P2 Chunks base**: ❌ No art appreciation chunks (doesn't decode visual as "masterpiece")
-- **P3 VTA delta**: LOW — may not even register as special (looks like "just a painting")
+- **P3 prediction-delta**: LOW — may not even register as special (looks like "just a painting")
 - **P4 Goldilocks**: ❌ <20% match (no art chunks → can't decode the "hay" signal art critics perceive)
 - **P5 Tag**: Neutral at best
 
@@ -1021,7 +1021,7 @@ Framework: "Value" (domain: monetary) ≠ "reward" (body: chunks match). Receivi
 **Son's state**:
 - **P1 Pending**: ❌ No "muốn xe cổ" schema (wants modern)
 - **P2 Chunks base**: ❌ No "xe cổ value" chunks (doesn't know historical significance)
-- **P3 VTA delta**: Moderate — unusual car (not modern) → registers as "weird"
+- **P3 prediction-delta**: Moderate — unusual car (not modern) → registers as "weird"
 - **P4 Goldilocks**: ❌ Son may see <20% match with "what I want" (modern aesthetics)
 - **P5 Tag**: Neutral or negative ("outdated" chunks)
 
@@ -1030,7 +1030,7 @@ Framework: "Value" (domain: monetary) ≠ "reward" (body: chunks match). Receivi
 **Father's state**:
 - **P1 Pending**: ✅ Has schema "muốn xe cổ" (collector interest)
 - **P2 Chunks base**: ✅ Rich chunks about vintage cars (history, craftsmanship, rarity, provenance)
-- **P3 VTA delta**: HIGH — seeing this specific car, knowing what it is
+- **P3 prediction-delta**: HIGH — seeing this specific car, knowing what it is
 - **P4 Goldilocks**: ✅ 50-70% match (recognizable + specific)
 - **P5 Tag**: ✅ Opioid-positive (vintage chunks tagged with "cool" / "authentic" / "history")
 
@@ -1441,7 +1441,7 @@ This connects to earlier sections:
 
 - External announcement arrives
 - Auditory processing → concept "giải nhất tỉnh" → PFC workspace
-- **P3 VTA delta**: HIGH (unexpected positive event)
+- **P3 prediction-delta**: HIGH (unexpected positive event)
 - **P2 Chunks base**: partial — child understands "giải nhất" = good thing
 - **P1 Pending**: mixed — child might have wanted to compete but self-doubts
 - **P4 Goldilocks**: poor match — self-schema doesn't align
@@ -1989,7 +1989,7 @@ Previous sections showed WHAT produces reward. This section asks: **How is rewar
 
 | Reward type | Source | Sustainability | Example |
 |---|---|---|---|
-| **Novelty reward** | VTA delta + opioid from chunks compile | **High** — as long as chunks continue accumulating | Curious exploration, learning domain |
+| **Novelty reward** | prediction-delta + opioid from chunks compile | **High** — as long as chunks continue accumulating | Curious exploration, learning domain |
 | **Relief reward** | Cortisol drop after threat resolves | **Low** — diminishing returns, needs escalating threat | Procrastination relief, avoiding punishment |
 | **Mastery reward** | Competence schema confirmation | **High** — deep opioid tagging + self-efficacy | Skilled craft, expertise |
 | **Social approval reward** | Connection schema fill | **Medium** — requires ongoing social context | Praise, status, recognition |
@@ -2011,7 +2011,7 @@ Previous sections showed WHAT produces reward. This section asks: **How is rewar
 **Framework decoding**:
 - **Challenge ≈ Skill** = Goldilocks zone maintained (P4 ✅)
 - **Clear goals** = Schema pending active (P1 ✅)
-- **Immediate feedback** = VTA delta frequent (P3 ✅)
+- **Immediate feedback** = prediction-delta frequent (P3 ✅)
 - **Deep engagement** = chunks base sufficient for task (P2 ✅)
 - Activity chosen = opioid-tagged (P5 ✅)
 - **All 5 preconditions CONTINUOUSLY met**
@@ -2245,7 +2245,7 @@ P5 will formalize H10 with evidence from all drill. P3 contributions:
 
 - H10 precondition 1 (schema pending) — validated via C2 ô tô paradox failure modes
 - H10 precondition 2 (chunks base) — validated via C3 Van Gogh training gradient
-- H10 precondition 3 (VTA delta) — validated via C1.1 habituation vs novelty
+- H10 precondition 3 (prediction-delta) — validated via C1.1 habituation vs novelty
 - H10 precondition 4 (Goldilocks) — validated via C2 + C3 across-person variance
 - H10 precondition 5 (chunk tag) — validated via thiên tài paradox + re-association paths
 - All 5 required claim — validated via failure mode matrix

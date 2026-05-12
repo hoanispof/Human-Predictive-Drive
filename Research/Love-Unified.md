@@ -1075,7 +1075,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Mechanism:
     → ❶ with no alternative → body orient toward captor (agent DUY NHẤT)
-    → Intermittent relief = POSITIVE prediction delta (expected pain → no pain → VTA)
+    → Intermittent relief = POSITIVE prediction-delta (expected pain → no pain → VTA)
     → Survival requires PREDICT captor mood → SPM library build CỰC SÂU
     → Daily forced exposure × life/death saliency → L2 bắt đầu compile
     → L2 compile → smoothing emerge → captive defend captor

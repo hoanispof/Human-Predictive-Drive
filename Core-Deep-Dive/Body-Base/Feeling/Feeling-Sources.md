@@ -1057,7 +1057,7 @@
 🟢 COGNITIVE / PREDICTION — FEELINGS FROM THINKING:
 
   Mechanism:
-    → Pattern matching + prediction delta detection
+    → Pattern matching + prediction-delta detection
     → ACC conflict/error signals
     → Expertise compiled into rapid recognition
     → Insight (Kounios) neural signature
@@ -1106,7 +1106,7 @@
     "Não đờ đẫn"
       → Cognitive fatigue
     "Không hiểu gì cả"
-      → Massive prediction delta
+      → Massive prediction-delta
 
   ── COMPREHENSION FEELINGS ──
     "Hiểu rồi" (aha moment)

@@ -267,7 +267,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Hợp tính (similarity): hợp → fire MẠNH, khác xa → yếu hoặc KHÔNG fire
     → Trạng thái bản thân: stressed/mệt → bandwidth thấp → fire yếu
     → Có MUỐN simulate: PFC/schema có thể suppress hoặc enhance
-    → Simulate ĐÚNG: template match sai → prediction delta
+    → Simulate ĐÚNG: template match sai → prediction-delta
     → Chunk library depth: chunks sâu → fire chính xác + mạnh
     → Feedback available: real-time → calibrate mid-interaction
     → CÓ THỂ: từ ZERO tới RẤT MẠNH = GRADIENT liên tục

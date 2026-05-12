@@ -24,7 +24,7 @@ dependencies:
   - PFC-Function.md — PFC smooth melody, 3 levels, strategic
   - Observation/Status.md — schema access map, serotonin bias
   - Observation/Connection.md — social buffer, co-regulation
-  - Observation/Novelty.md — prediction delta, VTA mechanism
+  - Observation/Novelty.md — prediction-delta, VTA mechanism
   - Observation/Boredom.md — VTA underfed
   - AI-Schema-Detection.md — 3-layer model (AI detect → expert feel-check → self-verify)
   - Cortisol-Baseline.md v2.0 — amplifier, chronic effects
@@ -625,7 +625,7 @@ MECHANISM FILES (core evidence):
 
 OBSERVATION PARAMETERS:
   → Observation/Status.md — schema access map, arms race mechanism
-  → Observation/Novelty.md — prediction delta (AI × novelty)
+  → Observation/Novelty.md — prediction-delta (AI × novelty)
   → Observation/Boredom.md — VTA underfed (AI reduces novelty?)
   → Observation/Drive.md — energy+direction integration
 

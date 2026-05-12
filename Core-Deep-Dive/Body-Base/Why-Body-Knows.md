@@ -58,7 +58,7 @@
 
   BƯỚC 3 — H10 PRECONDITIONS (ALL required):
     → P2: Chunks base adequate — có đủ chunks nhạc để evaluate?
-    → P3: VTA delta threshold — có đủ mới không? (PE ở đây)
+    → P3: prediction-delta threshold — có đủ mới không? (PE ở đây)
     → P4: Goldilocks 40-70% — vừa quen vừa lạ?
     → P5: Association tag — không bị tagged negative?
     → Thiếu BẤT KỲ → reward không fire.

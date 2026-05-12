@@ -323,12 +323,12 @@ APPROACH/AVOIDANCE TAGS VẪN QUYẾT ĐỊNH (Child-Dev-Mechanism §3):
 
     0-6: Curiosity-driven → VTA fire → explore → compile
       → Trẻ TỰ CHỌN explore gì (theo body interest)
-      → Mọi thứ đều mới → prediction delta CAO → dopamine tự nhiên
+      → Mọi thứ đều mới → prediction-delta CAO → dopamine tự nhiên
       → Chunks foundation compile QUA TRẢI NGHIỆM, không cần push
 
     6+: Curriculum-guided → arc designed → practice → compile
       → Ai đó ĐÃ CHỌN "hôm nay học gì" (teacher, system, AI)
-      → Nhiều content KHÔNG tự nhiên thú vị → prediction delta THẤP → cần bridge
+      → Nhiều content KHÔNG tự nhiên thú vị → prediction-delta THẤP → cần bridge
       → Prerequisite chains DÀI → cần sequencing chính xác
 
     → Structure thay đổi = CẦN bridge mechanism + prerequisite check
@@ -834,7 +834,7 @@ EDUCATION ≠ SCHOOL:
 🟡 KHI ARC CẦN HỖ TRỢ:
 
   Trong 0-6: curiosity TỰ NHIÊN đủ — mọi thứ đều mới → VTA fire liên tục.
-  Trong 6+: nhiều content KHÔNG tự nhiên thú vị → prediction delta thấp → cần BRIDGE.
+  Trong 6+: nhiều content KHÔNG tự nhiên thú vị → prediction-delta thấp → cần BRIDGE.
 
   BRIDGE = thứ giữ student ở lại ĐỦ LÂU để chunks compile.
 

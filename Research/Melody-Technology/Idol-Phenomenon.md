@@ -131,18 +131,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     v7.5: "body reward (opioid)"
     v7.8: H10 5 preconditions (03-Reward.md §3):
-      → Nhạc hay = VTA fire (prediction delta — nhạc = patterned surprise)
+      → Nhạc hay = VTA fire (prediction-delta — nhạc = patterned surprise)
         + Body confirm: opioid release (match body-need for aesthetic coherence)
       → 5 preconditions:
         ❶ Schema pending: body CÓ sẵn musical schemas → đang chờ input
         ❷ Chunks relevant: nhạc match compiled musical patterns
-        ❸ VTA delta: melody surprise → prediction delta → VTA fire
+        ❸ prediction-delta: melody surprise → prediction-delta → VTA fire
         ❹ Goldilocks: đủ complex để thú vị, đủ simple để follow
         ❺ No threat override: context an toàn (headphones, concert = safe)
       → = Tại sao nhạc = reward: meet TẤT CẢ 5 preconditions tự nhiên
 
     Mặt đẹp = visual reward (hardwired aesthetic preference)
-    Giọng hay = auditory reward (VTA delta trên vocal patterns)
+    Giọng hay = auditory reward (prediction-delta trên vocal patterns)
     Vũ đạo = motor + visual sync → body motor simulation (SPM F1 lite)
     → Idol = NGUỒN body-reward DỄ TIẾP CẬN + LẶP LẠI ĐƯỢC
 
@@ -461,7 +461,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⑤ EMOTIONAL REGULATION:
 
     → Buồn → nghe nhạc idol → H10 met → opioid → mood shift
-    → Stress → xem idol hài → VTA delta positive → cortisol giảm nhẹ
+    → Stress → xem idol hài → prediction-delta positive → cortisol giảm nhẹ
     → = Body-Feedback-Mechanism: dissonance → external input shift → Chunk-Shift
     → Không mạnh bằng co-regulation với người thật (Connection.md §9)
     → NHƯNG: ACCESSIBLE 24/7 → functional khi không có ai
@@ -586,7 +586,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → 30 giây đủ cho Factor ③ emotional peak + Factor ④ somatic
       → = 1 lần gặp 30s CÓ THỂ > 1000 lần xem video (compile strength)
 
-    → "Limited merchandise" = scarcity → VTA delta ↑ → wanting (dopamine)
+    → "Limited merchandise" = scarcity → prediction-delta ↑ → wanting (dopamine)
       → 03-Reward.md: VTA = "chuông cửa" (wanting) ≠ opioid (liking)
       → Industry exploit WANTING without LIKING
       → = Berridge: wanting without liking = compulsive seeking + empty
@@ -629,7 +629,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TĂNG REWARD QUALITY (H10):
 
     → Luyện tập → skill ↑ → output quality ↑ → H10 met MẠNH hơn
-    → = THẬT SỰ GIỎI HƠN → VTA delta ↑ + opioid ↑ → attachment BỀN
+    → = THẬT SỰ GIỎI HƠN → prediction-delta ↑ + opioid ↑ → attachment BỀN
     → vs "marketing giỏi hơn" = VTA fire (wanting) nhưng opioid thấp (not liking)
       → Body BIẾT (03-Reward.md: VTA ≠ opioid) → attachment FADING
 

@@ -791,7 +791,7 @@ backup: backup/Feeling-v1-draft.md
   │ 2 │ Chunks base adequate │ Cannot decode         │ Van Gogh to novice   │
   │   �� (đủ substrate)       │ → confusion           │ → "không hiểu"      │
   ├───┼────���─────────────────┼─────────────────��─────┼──────────────────────┤
-  │ 3 │ VTA delta threshold  │ No alert → no         │ Routine → "chán"     │
+  │ 3 │ prediction-delta threshold  │ No alert → no         │ Routine → "chán"     │
   │   │ (biến động đủ lớn)   │ attention → no reward │                      │
   ├───┼──────────────────────┼───���───────────────────┼──────���───────────────┤
   │ 4 │ Goldilocks zone      │ Too alien OR          │ Atonal = alien       │

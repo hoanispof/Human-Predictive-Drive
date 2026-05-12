@@ -286,7 +286,7 @@ The mechanism F1 formalizes (substrate chunk compile from body signals) operates
 - **H10 — Body Signal Precondition Hypothesis**: Body signal fires when ALL 5 preconditions met:
   1. **P1 Schema pending status** — schema đang chờ được fill/resolve/upgrade
   2. **P2 ⭐ Chunks Base Adequacy** — đủ chunks substrate để decode pattern
-  3. **P3 VTA delta threshold** — biến động đủ lớn cho VTA detect (habituation-based)
+  3. **P3 prediction-delta threshold** — biến động đủ lớn cho VTA detect (habituation-based)
   4. **P4 Goldilocks zone** — match 40-70% (neither too familiar nor too alien)
   5. **P5 ⭐ Chunk association tag** — chunks fire có association pattern determined by the body state fingerprint during compile: novelty-path body state (novelty cortisol + dopamine/opioid) → chunks gắn opioid → "thích dùng"; threat-path body state (threat cortisol + NE/adrenaline) → chunks gắn cortisol-avoidance → "tránh dùng". See [06a §7.0.1](06a-Interoceptive-Bladder-Keystone.md#§7.0.1) for the refined mechanism (same molecule, different body state, opposite outcomes).
 - **Body-feedback layer (L1-L2)** ≠ **Feeling layer (L3-L7)**:

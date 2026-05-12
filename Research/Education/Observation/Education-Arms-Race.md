@@ -117,7 +117,7 @@
     → Credential inflation không chỉ là economic phenomenon
     → Nó RESHAPE societal Imagine-Final: "success marker" dịch chuyển liên tục
     → Body của society chạy theo moving target → never satisfy
-    → = VTA delta never reached (goal post keeps moving)
+    → = prediction-delta never reached (goal post keeps moving)
     → = Societal hedonic treadmill version của Brickman 1978 individual
 
 

@@ -6,10 +6,10 @@ status: OBSERVATION PARAMETER v1.0
 scope: |
   OBSERVATION FILE: Novelty = named pattern khi quan sát chunk dynamics.
   Novelty không phải component hay operator — là TÊN GỌI cho patterns
-  emergent từ VTA detect positive prediction delta + chunk-gap dynamics.
+  emergent từ VTA detect positive prediction-delta + chunk-gap dynamics.
   File này mô tả: mechanism, 2 dạng, phanh, loop, depth/breadth, ứng dụng.
 purpose: |
-  Core v7.8 §8 define Novelty ngắn gọn ("Positive prediction delta pattern").
+  Core v7.8 §8 define Novelty ngắn gọn ("Positive prediction-delta pattern").
   File này DEEP-DIVE: neuroscience mechanism, practical patterns,
   khi nào có lợi/có hại, loop dynamics. Dùng cho người cần hiểu chi tiết.
 position: |
@@ -76,7 +76,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ✗ Personality trait "tò mò" (pop psychology — mô tả, không giải thích)
 
   Novelty LÀ:
-    ○ Tên gọi cho pattern observable: khi VTA detect positive prediction delta
+    ○ Tên gọi cho pattern observable: khi VTA detect positive prediction-delta
     ○ Emergent từ chunk dynamics — đặc biệt Chunk-Gap (§1)
     ○ Giá trị: predict, communicate, diagnose
       → "Người này thích novelty" = predict xu hướng hành vi
@@ -119,7 +119,7 @@ NOVELTY TRONG CYCLE (Core v7.8 §1):
 
 GIÁ TRỊ CỦA FILE NÀY:
 
-  Core v7.8 §8 chỉ nói: "Novelty = Positive prediction delta pattern."
+  Core v7.8 §8 chỉ nói: "Novelty = Positive prediction-delta pattern."
   File này DEEP-DIVE:
   → §1: Mechanism — VTA + chunk dynamics (neuroscience)
   → §2: 2 dạng — Sensory-Driven vs Imagination-Driven
@@ -303,12 +303,12 @@ GIÁ TRỊ CỦA FILE NÀY:
 
   VÍ DỤ — ĐỒ ĂN:
     → Tình huống A: Đồ ăn bình thường
-      → Vị quen → VTA delta NHỎ → ít reward
+      → Vị quen → prediction-delta NHỎ → ít reward
       → No (body-feedback: satisfaction) → DỪNG
       → Cycle: 10-30 phút
 
     → Tình huống B: Đồ ăn NGON lần đầu
-      → Vị MỚI, texture MỚI → VTA delta LỚN → dopamine mạnh
+      → Vị MỚI, texture MỚI → prediction-delta LỚN → dopamine mạnh
       → Body-feedback reward (opioid: pattern match Goldilocks)
       → No → satisfaction → DỪNG (dù còn ngon)
       → = Body satisfaction OVERRIDE novelty reward
@@ -858,7 +858,7 @@ TÓM TẮT:
     Body-Feedback-Mechanism.md v1.2 §2 — 2 nguồn (Sensory/Pattern-Driven)
     Chunk.md v2.0 — chunk substrate, compilation, hierarchy
     Cortisol-Baseline.md v2.0 — cortisol = amplifier, sustained dynamics
-    Reward-Signal-Architecture.md v1.0 — VTA delta refined: Profile ②⑤ (2026-05-10)
+    Reward-Signal-Architecture.md v1.0 — prediction-delta refined: Profile ②⑤ (2026-05-10)
 
   ↔ SONG SONG (cùng Observation/ folder):
     Observation/Threat.md — PUSH away from harm (parallel với Novelty PULL)
@@ -879,5 +879,5 @@ TÓM TẮT:
   STATUS:
     v1.0 — 2026-04-20 — viết mới cho v7.8 cycle-based architecture
     Gộp từ: Novelty.md v1.0 + Novelty-Loop.md (backup: _backup/Drive-v75-era/)
-    Aligned: Core v7.8, Body-Feedback-Mechanism, prediction delta terminology
+    Aligned: Core v7.8, Body-Feedback-Mechanism, prediction-delta terminology
 ```

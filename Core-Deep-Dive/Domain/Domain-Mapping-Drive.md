@@ -33,7 +33,7 @@
 
 - §0 — CÂU HỎI TRUNG TÂM
 - §1 — CÂU TRẢ LỜI TIẾN HOÁ — Tại sao hardware được compiled như vậy
-- §2 — CƠ CHẾ — VTA delta + Opioid per step + Chunk threshold + Lifecycle
+- §2 — CƠ CHẾ — prediction-delta + Opioid per step + Chunk threshold + Lifecycle
 - §3 — 3-WAY BALANCE — Dissonance + Imagine-Final + Reward
 - §4 — TẠI SAO "GIVEN" KHÔNG THOẢ MÃN — Modern paradox
 - §5 — PATTERN CỦA NGƯỜI VƯỢT NGƯỠNG — Einstein, Chef, Craftsman
@@ -386,7 +386,7 @@ giấu. Bằng chứng:
     → Sau đó: nhiều người báo cáo cảm giác "lost", "không biết làm gì",
       depression nhẹ
     → Quay về làm việc hoặc học tiếp = cảm giác ổn hơn nhiều
-    → VTA delta đã habituate với "tự do" → body cần drive mới
+    → prediction-delta đã habituate với "tự do" → body cần drive mới
 
 → PATTERN CHUNG:
     Con người được cho "everything" + không có domain để map
@@ -615,7 +615,7 @@ KEY INSIGHT: VTA không fire khi có "cái gì tốt". VTA fire khi có "BIẾN
     → TOTAL body experience: "nothing" — không chunk nào được ghi
 
   → SAME domain outcome (có lửa). DIFFERENT body experience.
-  → Difference KHÔNG ở "lửa" — ở VTA delta và cortisol context
+  → Difference KHÔNG ở "lửa" — ở prediction-delta và cortisol context
 
 
 ⭐ VÍ DỤ 2 — TRẺ LẦN ĐẦU NHÌN THẤY MƯA vs NGƯỜI LỚN ĐI TRONG MƯA:
@@ -1066,7 +1066,7 @@ KẾT LUẬN §2.3:
 §2.4 — IMAGINE-FINAL LIFECYCLE — 5 PHASES + 3 OUTCOMES
 ═══════════════════════════════════════════════════════
 
-3 mảnh trên (VTA delta + opioid per step + chunk threshold) = cơ chế
+3 mảnh trên (prediction-delta + opioid per step + chunk threshold) = cơ chế
 mỗi lần fire. Nhưng 1 hành trình học không phải 1 lần fire. Nó là
 nhiều vòng lặp, mỗi vòng có structure nhất định. Structure này =
 Imagine-Final Lifecycle, chi tiết ở Imagine-Final.md §1.5.
@@ -1449,7 +1449,7 @@ NGUYÊN TẮC: nhiều mini-reward nhỏ > ít big reward lớn.
     Cuối tuần làm bài test → được 10 điểm → bố mẹ khen, cho đi ăn pizza
     → 1 big reward event, rất peak
     → Tuần sau: cần lại 10 điểm để feel tương tự
-    → Nếu được 9 điểm → disappointment (expected 10, got 9 = prediction error âm)
+    → Nếu được 9 điểm → disappointment (expected 10, got 9 = prediction-delta âm)
     → Escalation: sau này 10 điểm cũng không fire nữa, cần giải thưởng lớn hơn
 
   PATTERN B — MINI-REWARD MODEL:
@@ -1542,7 +1542,7 @@ Và hệ quả của việc này cho giáo dục tương lai.
     → Baseline: không có lửa = cortisol (cold, dark, danger)
     → Dissonance MẠNH: "cần lửa"
     → BUILD phase: mài gỗ, thử nhiều cách, nhiều giờ effort
-    → Mỗi step tiến bộ: opioid fire + VTA delta
+    → Mỗi step tiến bộ: opioid fire + prediction-delta
     → Lửa bắt cháy: PEAK reward + chunks compiled
     → Experience memorable, chunks dày
 
@@ -1551,7 +1551,7 @@ Và hệ quả của việc này cho giáo dục tương lai.
     → Dissonance: 0 (cần → bấm → có)
     → Không BUILD phase
     → Không opioid fire per step
-    → Không VTA delta (hoàn toàn habituated)
+    → Không prediction-delta (hoàn toàn habituated)
     → Cái bật lửa = 0 reward despite being "useful"
 
 → Cái bật lửa KHÔNG phải "xấu". Nó refund capacity.

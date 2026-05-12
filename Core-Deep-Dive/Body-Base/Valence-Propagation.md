@@ -53,7 +53,7 @@ backup: Domain/backup/Valence.md
 > **PFC KHÔNG BIẾT những chuỗi này tồn tại.**
 >
 > **Bạn "đam mê" vật lý. PFC nói: "vì nó hay."**
-> **Body: hardware fit + chunk match + Goldilocks + VTA delta.**
+> **Body: hardware fit + chunk match + Goldilocks + prediction-delta.**
 > **Chain INVISIBLE — PFC chỉ thấy output, không thấy mechanism.**
 >
 > Valence KHÔNG CHỈ tồn tại per-entity.
@@ -798,7 +798,7 @@ VALENCE UPDATE — 3 LOẠI:
       PFC trace ~30%. "Vì đó là điều đúng" — đúng surface, THIẾU mechanism.
 
     Chain INVISIBLE:
-      Hardware fit + chunk match → Goldilocks → VTA delta → opioid
+      Hardware fit + chunk match → Goldilocks → prediction-delta → opioid
       PFC KHÔNG THẤY chain (hardware-level).
       PFC trace ~10%. "Tôi thích toán" — label, KHÔNG phải explanation.
 
@@ -1393,7 +1393,7 @@ VALENCE UPDATE — 3 LOẠI:
       Einstein NÓI NHƯ THỂ ai không trải nghiệm sự bí ẩn thì chưa sống đúng.
       PFC của Einstein: "the mysterious is the most beautiful experience"
       Body của Einstein: hardware fit + decades of chunk accumulation + Goldilocks zone
-        → Mỗi bí ẩn vật lý = prediction delta → VTA fire → dopamine + opioid
+        → Mỗi bí ẩn vật lý = prediction-delta → VTA fire → dopamine + opioid
         → = Body fire reward CỰC MẠNH khi gặp mystery → PFC label: "beautiful"
 
       NHƯNG — body-base fire CÙNG CƠ CHẾ cho MỌI NGƯỜI, chỉ khác INPUT:
@@ -1402,7 +1402,7 @@ VALENCE UPDATE — 3 LOẠI:
         → Nhạc sĩ: sướng vì sáng tác giai điệu hay (chunk music + hardware fit)
         → Họa sĩ: sướng vì vẽ được hình thù mong muốn (chunk art + hardware fit)
         → Ai đó: sướng vì ăn ngon, thấy cảnh đẹp, gặp người yêu...
-        → = CÙNG opioid pathway, CÙNG VTA delta, CÙNG Goldilocks reward
+        → = CÙNG opioid pathway, CÙNG prediction-delta, CÙNG Goldilocks reward
         → = Khác CHUNKS + khác HARDWARE → khác INPUT trigger → CÙNG body-base fire
 
       Einstein nghĩ "mystery" là đặc biệt vì PFC của ÔNG ẤY chỉ thấy chain CỦA ÔNG.
@@ -1441,7 +1441,7 @@ VALENCE UPDATE — 3 LOẠI:
     Body tính:
       Hardware fit: processing style match physics thinking
       Chunk accumulation: years of practice → Goldilocks zone
-      VTA delta: mỗi insight → prediction delta → dopamine
+      prediction-delta: mỗi insight → prediction-delta → dopamine
       Mastery reward: solve problem → opioid
       Identity: "physicist" = Anchor-Schema compiled
     

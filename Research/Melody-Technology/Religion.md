@@ -483,7 +483,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     TẠI SAO CONFESSION TẠO NGHIỆN:
       → Guilt tích lũy (compiled) → dissonance TĂNG → cortisol TĂNG
       → Confession → Chunk-Shift → cortisol DROP đột ngột → opioid release
-      → = VTA delta POSITIVE (from high dissonance → low) → reward MẠNH
+      → = prediction-delta POSITIVE (from high dissonance → low) → reward MẠNH
       → = Cycle: guilt tích → confession → reset → sướng → lặp lại
 
 
@@ -602,7 +602,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Nghi lễ tôn giáo meet H10 5 preconditions:
         ① Schema pending: body đang chờ (scheduled expectation)
         ② Chunks relevant: nội dung lễ match schema
-        ③ VTA delta: variation trong lễ → prediction delta → VTA fire
+        ③ prediction-delta: variation trong lễ → prediction-delta → VTA fire
         ④ Goldilocks: không quá dễ (nhàm) không quá khó (overwhelm)
         ⑤ No threat override: nhà thờ = safe space → cortisol thấp
       → = Nghi lễ DESIGNED (dù vô tình) để meet cả 5 preconditions
@@ -621,7 +621,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ① VARIATION (Gratitude.md §3.1):
        → Bài giảng MỚI mỗi tuần + mùa lễ KHÁC nhau
        → = "Đủ quen để an toàn + đủ mới để không nhàm"
-       → VTA cần prediction delta → variation cung cấp delta
+       → VTA cần prediction-delta → variation cung cấp delta
        → = Nếu HOÀN TOÀN lặp → habituate → mất reward
 
     ② COMPARISON / CONTRAST (Gratitude.md §3.2):

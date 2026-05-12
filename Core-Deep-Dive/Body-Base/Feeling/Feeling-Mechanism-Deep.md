@@ -267,7 +267,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   as architectural KEYSTONE:
     → = Khả năng ĐOÁN body state (predictive) → match actual → error signal
     → 🟢 Seth 2013 "interoceptive inference": brain PREDICTS body state,
-      feeling = prediction delta between expected and actual
+      feeling = prediction-delta between expected and actual
     → = Insula không chỉ READ body — insula PREDICT body
     → = Feeling = delta giữa "tôi nghĩ mình đang cảm thấy X" và "thực tế Y"
     → Hall 2019 NIH: empirical evidence for interoceptive prediction
@@ -424,10 +424,10 @@ TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
     → ≠ "Có giá trị" — that's opioid (step riêng, xem §4)
     → 🟢 Berridge & Robinson 1998: wanting (dopamine) ≠ liking (opioid)
 
-  VTA DELTA TYPES:
+  PREDICTION-DELTA TYPES:
     → External delta: environment changed (new stimulus)
     → Internal delta: body state changed (hunger onset, fatigue shift)
-    → Cognitive delta: schema mismatch detected (prediction delta)
+    → Cognitive delta: schema mismatch detected (prediction-delta)
     → Social delta: agent behavior changed (mirror circuit shift)
 
   DRD4 RECEPTOR FILTER (03-Reward.md §2.5):
@@ -436,7 +436,7 @@ TRIGGER: Bất kỳ thay đổi nào ở body hoặc environment.
     → = PER-PERSON difference in feeling sensitivity
     → = Same event → different people → different feeling intensity
 
-  → VTA delta → dopamine → §3 signal integration BOOSTED
+  → prediction-delta → dopamine → §3 signal integration BOOSTED
   → VTA no delta → no dopamine → signals integrate at baseline level
 ```
 
@@ -789,7 +789,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
 🟡 REWARD MAPS ONTO 8-STEP FLOW (§3):
 
   Step ① Body fire → signals include: body-need states (pending needs)
-  Step ② VTA delta → dopamine = ALERT ("something might fill a need")
+  Step ② prediction-delta → dopamine = ALERT ("something might fill a need")
   Step ③ Integration → insula + VMPFC assess: "does this match a need?"
   Step ④ Threshold → PFC notices: "something potentially valuable"
   Step ⑤ Chunk match → chunks activate: "this pattern = X"
@@ -830,7 +830,7 @@ STEP ⑧ — CONVERGENCE TO ACTION (or iteration):
   │ 2 │ Chunks base adequate │ Cannot decode → confusion  │ Van Gogh to untrained   │
   │   │ (đủ substrate decode)│ not reward                 │ → "không hiểu" = no P2  │
   ├───┼──────────────────────┼────────────────────────────┼──────────────────────────┤
-  │ 3 │ VTA delta threshold  │ No alert → no attention    │ Routine events missed   │
+  │ 3 │ prediction-delta threshold  │ No alert → no attention    │ Routine events missed   │
   │   │ (biến động đủ lớn)   │ → no downstream reward     │ → "chán" = no P3        │
   ├───┼──────────────────────┼────────────────────────────┼──────────────────────────┤
   │ 4 │ Goldilocks zone      │ Too alien OR too familiar  │ Atonal music = too alien │

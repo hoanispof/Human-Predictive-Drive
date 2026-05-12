@@ -31,7 +31,7 @@ dependencies:
   - Agent.md — SPM mechanism, Pattern-Resonance
   - Empathy.md — SPM function applied to other agents
   - Why-Body-Knows.md — body accuracy (~90%)
-  - Novelty.md — positive prediction delta
+  - Novelty.md — positive prediction-delta
   - Observation/Drive.md — energy+direction integration
 deep_dive_files:
   - Melody-Arc.md — thiết kế arc tối ưu
@@ -222,7 +222,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Chunks từ NHIỀU modalities fire cùng RHYTHM (cùng pattern)
     → 🟢 Gamma synchronization (Buzsáki 2006) = binding mechanism
     → Body detect sync → opioid → "SƯỚNG / HAY / ĐẸP"
-    → = Prediction match ACROSS modalities → positive prediction delta
+    → = Prediction match ACROSS modalities → positive prediction-delta
 
   Khi LỆCH:
     → Chunks từ các modalities fire KHÁC rhythm → "Dissonance"
@@ -812,7 +812,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Bird & Cook 2013: alexithymia upstream of empathy deficit
     → Self-Determination Theory (Ryan & Deci 2000): autonomy + competence + relatedness
     → Efference copy (von Holst & Mittelstaedt 1950): self-prediction mechanism
-    → VTA prediction delta (Schultz 1997): dopamine = prediction error signal
+    → VTA prediction-delta (Schultz 1997): dopamine = prediction error signal
     → Cortisol = amplifier not cause (McEwen 2007, Sapolsky 2004)
 
   FRAMEWORK (🟡):
@@ -872,7 +872,7 @@ MECHANISM FILES (chi tiết kỹ thuật):
   → Why-Body-Knows.md — body accuracy ~90%
 
 OBSERVATION PARAMETER FILES:
-  → Observation/Novelty.md — positive prediction delta
+  → Observation/Novelty.md — positive prediction-delta
   → Observation/Threat.md — push away from harm
   → Observation/Boredom.md — VTA underfed + no direction
   → Observation/Drive.md — energy+direction integration

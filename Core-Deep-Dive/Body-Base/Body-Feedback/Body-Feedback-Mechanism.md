@@ -392,14 +392,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ĐỊNH NGHĨA:
     Body-base đã compile pattern X thành baseline.
     Pattern X không fire (absent, degraded, hoặc chất lượng giảm).
-    VTA detect: actual < compiled baseline → negative prediction delta.
+    VTA detect: actual < compiled baseline → negative prediction-delta.
     Body signal: "worse than expected."
 
   CƠ CHẾ:
     ① Body compile chunks ở quality X (qua repetition, experience)
     ② VTA habituate tới pattern X → X = baseline mới
     ③ Pattern X bị absent hoặc quality giảm
-    ④ VTA fires NEGATIVE prediction delta (dopamine SUPPRESS)
+    ④ VTA fires NEGATIVE prediction-delta (dopamine SUPPRESS)
        → 🟢 Schultz 1997: reward < predicted → dopamine dip below baseline
     ⑤ Body signal: dissonance ("worse than expected")
 
@@ -850,8 +850,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ĐỊNH NGHĨA:
     Body compile chunks ở quality X qua repeated experience.
     VTA habituate → X = baseline mới.
-    Quality tăng lên Z > X → positive prediction delta → reward.
-    Quality giảm xuống Y < X → negative prediction delta → dissonance (Chunk-Miss).
+    Quality tăng lên Z > X → positive prediction-delta → reward.
+    Quality giảm xuống Y < X → negative prediction-delta → dissonance (Chunk-Miss).
     = Baseline "trượt" theo experience.
 
 
@@ -868,8 +868,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ③ DETECT DELTA:
        Actual quality thay đổi:
-       → Actual > baseline → positive prediction delta → reward
-       → Actual < baseline → negative prediction delta → Chunk-Miss
+       → Actual > baseline → positive prediction-delta → reward
+       → Actual < baseline → negative prediction-delta → Chunk-Miss
        → Actual = baseline → no signal → neutral
 
     ④ RE-HABITUATE:
@@ -910,7 +910,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     🟢 Crespi 1942 / Flaherty 1996 (SNC in rats):
     → Rats trained on high reward → downshift → WORSE than control
-    → = Compiled baseline + negative prediction delta
+    → = Compiled baseline + negative prediction-delta
     → = Chunk-Miss mechanism at animal level
     → KHÔNG cần PFC — mechanism ở body-base level
 
@@ -979,7 +979,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     C (Subcortical, PFC limited reach):
       → Amygdala: Chunk-Shift (fear conditioning, valence flip)
-      → VTA: Chunk-Miss detection (prediction delta)
+      → VTA: Chunk-Miss detection (prediction-delta)
       → ACC: Chunk-Gap detection (inconsistency)
       → Hippocampus: Pattern-driven input (replay, preplay)
 
@@ -1018,7 +1018,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                    │ new info    │ (no compile │ DETECT gap  │
   │                    │             │ = no miss)  │             │
   ├────────────────────┼─────────────┼─────────────┼─────────────┤
-  │ P3 VTA delta       │ Shift =     │ Miss = neg. │ Gap detect  │
+  │ P3 prediction-delta       │ Shift =     │ Miss = neg. │ Gap detect  │
   │ (biến động đủ)     │ valence     │ prediction  │ = ACC       │
   │                    │ delta       │ error       │ signal      │
   ├────────────────────┼─────────────┼─────────────┼─────────────┤

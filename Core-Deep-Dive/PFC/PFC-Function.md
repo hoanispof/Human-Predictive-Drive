@@ -373,7 +373,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Chuỗi PFC TƯỞNG: PFC hiểu → PFC quyết định → body làm theo
 
     VD: "Cho đi vô tư" (PFC label) ← body đang tính 4 reward chains
-    VD: "Đam mê vật lý" (PFC label) ← hardware fit + VTA delta
+    VD: "Đam mê vật lý" (PFC label) ← hardware fit + prediction-delta
     VD: "Bản năng" (PFC label) ← hormone + schema compound
     → PFC LABEL ≠ ACTUAL MECHANISM
 

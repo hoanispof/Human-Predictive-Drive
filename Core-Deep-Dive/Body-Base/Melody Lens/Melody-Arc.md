@@ -29,7 +29,7 @@ dependencies:
   - Modality.md v1.0 — 6 modalities, hardware influence
   - Education-Bridge.md — bridge per-context application
   - Reward-Economics.md — build vs consume reward
-  - Observation/Novelty.md — positive prediction delta
+  - Observation/Novelty.md — positive prediction-delta
   - Observation/Boredom.md — VTA underfed
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -151,7 +151,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Chunks compile ĐỦ = prediction network UPDATE thành công:
     → Prediction match MỚI xuất hiện (từ "ko biết" → "predict đúng")
-    → VTA fire positive prediction delta → dopamine → "ồ!"
+    → VTA fire positive prediction-delta → dopamine → "ồ!"
     → Body-feedback: prediction match → opioid → "SƯỚNG"
     → PFC: dissonance giảm đột ngột → smooth → body reward
     → = "Aha moment" = compile threshold VƯỢT QUA
@@ -360,7 +360,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Chunk-Gap active       = đang ở START (vẫn "trống")
     Novelty high           = đang nạp chunks mới (approach direction)
     Chunk-Miss high        = đang ở PEAK (prediction fail nhiều)
-    Boredom signal         = mini-arc quá dễ HOẶC prediction delta = 0
+    Boredom signal         = mini-arc quá dễ HOẶC prediction-delta = 0
     Autonomy low           = imposed arc (avoidance tag risk)
     Chunk-Shift positive   = đang RESOLVE (valence updating)
     Prediction match stable = đã COMPILE (arc xong, smooth mới)
