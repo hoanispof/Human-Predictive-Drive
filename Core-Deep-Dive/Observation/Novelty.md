@@ -597,6 +597,7 @@ TÓM TẮT:
     → Mức 4: threat PFC tự tạo ("đối thủ đang tiến") → PFC có thể dismiss
     → = Self-Created Threat = SKILL, không phải bẩm sinh
     → Sequence: trải nghiệm threat thật → quan sát pattern → tự tạo có ý thức
+    → Chi tiết: Self-Created-Threat.md (4 loại, 3 giai đoạn, AI era, calibration)
 
 
 §4.3 — NOVELTY LOOP vs ANXIETY LOOP
