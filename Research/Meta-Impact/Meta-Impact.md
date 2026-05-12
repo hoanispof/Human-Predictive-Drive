@@ -14,7 +14,7 @@
 > **Liên kết:**
 >   Creator-Lens.md — bias analysis
 >   Epistemological-Position.md — framework vs conventional science
->   Framework-Boundaries.md — 2 blackbox cơ bản
+>   Blackbox-Map.md (Core-Deep-Dive/) — 5 gaps + 2 complexity dimensions
 >   Conflict-Dynamics.md — 3 điều kiện xung đột
 
 ---
@@ -141,7 +141,7 @@ Framework giúp hiểu SPM hoạt động thế nào:
 
 NHƯNG — framework CŨNG chỉ ra TẠI SAO predict nhau RẤT KHÓ:
 
-  → Valence = blackbox (Framework-Boundaries.md):
+  → Valence = blackbox (Blackbox-Map.md §4 + §7):
     Chuỗi valence dài → nhiều biến tương tác → khó tính toán.
     Framework predict PATTERN, không predict INSTANCE cụ thể.
 
@@ -249,7 +249,7 @@ Framework predict 4 cơ chế tự phanh:
 ```
 Framework CHÍNH NÓ giải thích tại sao "đọc vị" KHÔNG dễ:
 
-① Valence = blackbox (Framework-Boundaries.md):
+① Valence = blackbox (Blackbox-Map.md §4 + §7):
   Chuỗi valence phức tạp = không tính toán được.
   Biết framework KHÔNG đủ để predict instance cụ thể.
 
@@ -450,7 +450,7 @@ Resolution quá thô  Cao           Đúng hướng, thiếu chi tiết  Refine 
 
 ```
   Rủi ro + Boundaries:
-    → Framework-Boundaries.md — 1 blackbox + 2 complexity dimensions (v2.0, Drill §26)
+    → Blackbox-Map.md — 5 gaps + research roadmap (supersedes Framework-Boundaries.md)
     → Feeling-Accuracy.md — 6 error modes
     → Self-Pattern-Match.md §10.5 — strategic SPM, fake cues, deception detection
 

@@ -14,7 +14,7 @@
 > **Liên kết:**
 >   Meta-Impact.md — impact predictions
 >   Epistemological-Position.md — framework vs conventional science
->   Framework-Boundaries.md — 2 blackbox cơ bản
+>   Blackbox-Map.md (Core-Deep-Dive/) — 5 gaps + 2 complexity dimensions
 
 ---
 
@@ -34,7 +34,7 @@ Framework này được tạo bởi 1 người, không phải nhóm nghiên cứ
     → Depth cao hơn: không bị conform mainstream, đào sâu tự do
     → Consistency cao hơn: 1 lens xuyên suốt, không compromise
     → Blind spots sâu hơn: không có ai chỉ ra cái mình không thấy
-    → Xem Framework-Boundaries.md — 2 blackbox mà 1 người không đủ năng lực crack
+    → Xem Blackbox-Map.md — 5 gaps mà 1 người không đủ năng lực crack
 
   Profile này SHAPE framework theo cách cụ thể (§2-§3).
 ```
@@ -418,7 +418,7 @@ Cả 2: HƯỚNG (body) + DATA (AI domain access) = insight có CẤU TRÚC
 
 ```
   Bias + Boundaries:
-    → Framework-Boundaries.md — 2 blackbox cơ bản (chunk substrate + valence complexity)
+    → Blackbox-Map.md — 5 gaps + research roadmap (supersedes Framework-Boundaries.md)
     → Feeling-Accuracy.md — 6 error modes trong body check
     → Logic-Feeling-Balance.md — tại sao không thể prescribe balance
 

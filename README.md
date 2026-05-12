@@ -118,7 +118,7 @@ Mô tả **cơ chế hoạt động** — không prescribe "sống đúng cách.
 Mỗi người khác nhau. Không có 1 đáp án đúng cho tất cả.
 
 **Data thực tế = thước đo cao nhất.**
-Framework có thể sai. Bất kỳ ai cũng có thể reject, refine, đào sâu hơn.
+Framework có thể sai. Bất kỳ ai cũng có thể validate, falsify, hoặc refine.
 Nghiên cứu mới mạnh hơn → framework cần cập nhật → đó là tiến bộ.
 
 **Framework khác mainstream ở ~20 vị trí** (có evidence cụ thể):

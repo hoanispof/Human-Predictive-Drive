@@ -1690,7 +1690,7 @@ HYPOTHESIS (🔴):
 ⚠️ BLACKBOX 2: Valence complexity — chuỗi valence dài (trauma compiled mờ
   + hormone shift + hardware variants + multi-layer interaction) gần như
   incomputable. Framework predict PATTERN, không predict INSTANCE cụ thể.
-  Chi tiết: Research/Meta-Impact/Framework-Boundaries.md §Blackbox 2.
+  Chi tiết: Blackbox-Map.md §4 + §7 (supersedes Framework-Boundaries.md v2.0).
   UPDATE: BB2 = BB1 + collective scale + hardware variance (Drill §26 D1).
 
   §4 Clarification (v1.4): Chain analysis = Cấp 3 EXPLANATORY, không phải

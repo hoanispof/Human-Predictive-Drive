@@ -22,7 +22,7 @@ related: |
   VP v1.4 §4 — clarification: VP chains = explanatory, not processing
   PFC-Function.md v1.1 §4/§6/§9 — PFC = director, confabulation
   Chunk.md v2.1 §2 — 4 compile mechanisms + trust gate + external install
-  Framework-Boundaries.md v2.0 — 1 blackbox + 2 complexity dimensions
+  Blackbox-Map.md — 5 gaps + 2 complexity dimensions (supersedes Framework-Boundaries.md)
 sources: |
   Drill-Compile-Short-Collective.md §2 — 3 hardware constraints
   Drill-Compile-Short-Collective.md §3 — 3 Loại A/B/C
@@ -1134,7 +1134,7 @@ CORE FRAMEWORK FILES:
   PFC-Function.md v1.1 §6 — Confabulation principle (GAP 10 resolved)
   PFC-Function.md v1.1 §9 — "PFC tạo context, B+C+D tự học"
   PFC-Function.md v1.1 §4 — PFC Proxy Trigger (GAP-C5 resolved)
-  Framework-Boundaries.md v2.0 — 1 blackbox + 2 complexity dimensions
+  Blackbox-Map.md — 5 gaps + 2 complexity dimensions (supersedes Framework-Boundaries.md)
   Collective-Body.md v1.0 §2 — 4 compile pathways × 3 cấp
 
 

@@ -16,7 +16,7 @@
 > **Liên kết:**
 >   Meta-Impact.md — impact predictions
 >   Creator-Lens.md — bias analysis
->   Framework-Boundaries.md — 2 blackbox cơ bản
+>   Blackbox-Map.md (Core-Deep-Dive/) — 5 gaps + 2 complexity dimensions
 
 ---
 
@@ -506,7 +506,7 @@ TẠI SAO KHÔNG AI TỰ LÀM ĐƯỢC:
 
   Framework meta-analysis:
     → Creator-Lens.md — lens + bias + creation process
-    → Framework-Boundaries.md — 2 blackbox (chunk substrate + valence complexity)
+    → Blackbox-Map.md — 5 gaps + research roadmap (supersedes Framework-Boundaries.md)
     → Meta-Impact.md — impact predictions
 
   Core concepts referenced:

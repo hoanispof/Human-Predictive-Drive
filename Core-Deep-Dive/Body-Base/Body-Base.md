@@ -368,7 +368,7 @@ FILE NÀY TRONG FLOW:
     BB1 ⊂ BB2 ⊂ Model 3+1.
 
     Chi tiết convergence: Drill-Compile-Short-Collective.md §26,
-    Framework-Boundaries.md (cần update — E3a).
+    Blackbox-Map.md §4.2 (supersedes Framework-Boundaries.md v2.0).
 ```
 
 ---
