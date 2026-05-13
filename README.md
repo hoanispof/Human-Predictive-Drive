@@ -112,9 +112,13 @@ Framework mô tả cơ chế nền tảng — từ đó có thể ứng dụng v
 
 ## Triết lý
 
-**Framework này KHÔNG phải hướng dẫn sống.**
+**Framework này là la bàn — không phải GPS.**
 
-Mô tả **cơ chế hoạt động** — không prescribe "sống đúng cách."
+Nó mô tả **cơ chế hoạt động** — giống la bàn cho thấy Bắc/Nam/Đông/Tây.
+Nhưng la bàn không nói bạn nên đi hướng nào.
+Bạn cần hiểu cách đọc la bàn, rồi tự chọn hướng đi phù hợp với mình.
+
+Framework cũng vậy — hiểu mechanism, rồi tự calibrate.
 Mỗi người khác nhau. Không có 1 đáp án đúng cho tất cả.
 
 **Data thực tế = thước đo cao nhất.**
@@ -138,19 +142,52 @@ This framework is a hypothesis — not established science.
 It connects well-supported findings into a unified model,
 but the connections themselves are new and unvalidated.
 
-If the model is largely correct, it could benefit everyone.
-If parts are wrong, finding those parts is equally valuable.
+**Why this matters:**
 
-**How you can participate:**
+If the model is largely correct, it provides a mechanism-based map
+for self-calibration — something we all increasingly need
+as AI disrupts traditional external calibration systems
+(school ranking, career paths, social benchmarks).
 
-- **Anyone** — Use the framework, test it against your own experience.
-  Your body is the final arbiter. Report what doesn't match.
-- **Neuroscience researcher** — Verify the biological mechanisms.
-  Do the nodes hold up? Where does the evidence diverge?
-- **Psychologist / Therapist** — Test the behavioral predictions.
-  Do the patterns match clinical observation?
-- **Educator / Parent** — Try the learning and development principles.
-  Do they work in practice?
+If parts are wrong, finding them early benefits everyone —
+it prevents incorrect models from spreading into
+self-help advice, education, or therapy.
+
+We all gain from knowing which parts hold up and which don't.
+
+**Current stage: Verify or Falsify.**
+
+The framework needs critical examination, not adoption.
+Challenge the mechanisms. Test the predictions. Find what breaks.
+Every falsification = progress. Every verification = confidence.
+
+**How you can participate (by current impact):**
+
+① **Neuroscience researcher** — Verify the biological mechanisms.
+   Do the claimed pathways hold up? Where does the evidence diverge?
+   Key claims to test: dopamine as salience signal (not reward),
+   cortisol as change-readiness amplifier (not "stress hormone"),
+   mirror neuron rejection, body-base as primary behavioral driver.
+
+② **Psychologist / Therapist** — Test the behavioral predictions.
+   Do the patterns match clinical observation?
+   Key prediction: "knowing but not doing" = two-system architecture
+   (PFC ≠ compiled body-base), not willpower failure.
+
+③ **Philosopher of Science** — Evaluate the epistemological position.
+   Are the claims properly falsifiable?
+   Is the unified model overreaching or well-constrained?
+
+④ **Educator / Parent** — Test the learning and development principles.
+   Does the chunk-based learning model match
+   actual child development and classroom observations?
+
+⑤ **Anyone** — Use the framework, test it against your experience.
+   Your body is the final arbiter. Report what doesn't match.
+
+**What would falsify this?**
+See `Ask-AI.md` §3 for specific falsifiable claims
+and `Epistemological-Position.md` for the framework's epistemic stance.
 
 ---
 

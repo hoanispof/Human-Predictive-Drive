@@ -21,12 +21,12 @@
 
 ```
 ⚠️ LƯU Ý:
-Framework là bản đồ ước lượng, không phải bản đồ chính xác.
+Framework là la bàn — cho thấy hướng tổng thể, không chính xác từng bước.
 Observation parameters = tên cho observable patterns, không phải biến đo được.
 Kết nối giữa mechanisms = giả thuyết có cơ sở, chưa validated.
 
 Toàn bộ file này đọc dưới tiền đề:
-"NẾU bản đồ này ước lượng đúng phần lớn, thì predict gì?"
+"NẾU la bàn này chỉ đúng hướng phần lớn, thì predict gì?"
 ```
 
 ---
@@ -201,12 +201,12 @@ Framework cung cấp: mechanism, không phải label.
 
 ```
 THỰC TẾ HIỆN TẠI:
-  Framework = bản đồ sơ khai ở level NGUYÊN LÝ.
+  Framework = la bàn sơ khai ở level NGUYÊN LÝ.
   Core mechanism đã khá chi tiết (~107 active files, Core-Deep-Dive/).
   Ứng dụng (Education, Child-Dev) = principles, chưa drill sâu.
   Chưa có validation bên ngoài. Chưa có instrument đo.
 
-  = Bản đồ chỉ hướng, không phải GPS dẫn đường.
+  = La bàn chỉ hướng, không phải GPS dẫn đường.
   Hữu ích nếu biết đó là ước lượng.
   Nguy hiểm nếu tin đó là sự thật tuyệt đối (quay lại §1).
 ```

@@ -188,7 +188,7 @@ Framework hoạt động ở behavioral level = BY DESIGN:
   ⚠️ GAP TRỞ THÀNH NGUY HIỂM khi:
      → Ai đó claim framework giải thích ở level molecular — OVERCLAIM
      → Ai đó dùng framework thay clinical protocol — OVERAPPLICATION
-     → Framework = bản đồ chỉ hướng, KHÔNG phải GPS dẫn đường
+     → Framework = la bàn — cho thấy hướng, KHÔNG dẫn đường cụ thể
 ```
 
 ---
@@ -924,8 +924,8 @@ KHÔNG thể mô tả PHIÊN BẢN cụ thể của mỗi người.
   Nếu ai dùng framework để claim "tôi biết chính xác bạn đang nghĩ gì"
   — đó là overclaim, không phải điều framework nói.
 
-  Framework giống bản đồ chỉ hướng, không phải GPS dẫn đường.
-  Hữu ích để hiểu terrain, nhưng không thay thế
+  Framework giống la bàn — cho thấy hướng, không dẫn đường cụ thể.
+  Hữu ích để định hướng, nhưng không thay thế
   việc tự đi và tự cảm nhận.
 ```
 
@@ -1121,4 +1121,4 @@ Cả hai → tiến bộ.
 > Gap 5: Hormone Combinatorics (individual mô tả được, tổ hợp = vô tận).
 > + 2 Complexity Dimensions (Scale + Hardware Variance).
 > 20 research directions. AI = dynamic drill tool.
-> Framework = bản đồ chỉ hướng, không phải GPS."*
+> Framework = la bàn — cho thấy hướng, không dẫn đường cụ thể."*
