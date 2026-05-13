@@ -67,7 +67,7 @@ AI = dynamic interface — adapt theo mức hiểu của mỗi người.
 ```
 Human-Predictive-Drive/
 │
-├── Core-Hardware.md               — Kiến trúc vật lý não bộ
+├── [`Social-Calibration.md`](Research/Global/Social-Calibration.md)               — Kiến trúc vật lý não bộ
 ├── Core-Software.md               — Cơ chế hoạt động chi tiết
 │
 ├── Ask-AI.md                      — Hướng dẫn AI tương tác (protocol + danger zones)
