@@ -319,7 +319,7 @@
       → Preview = body "thử feel" kết quả tương lai → YẾU, có thể sai
         = Wanting mechanism ① trong 6 cơ chế wanting (Liking-Wanting.md §2.1)
       → Actual opioid = kết quả THẬT → cần H10 5 preconditions
-        (ref: Dopamine-Reward-Rejection.md §4 — 7-step mechanism, Step 5)
+        (ref: Dopamine-Is-Not-Reward.md §4 — 7-step mechanism, Step 5)
       → Preview fidelity phụ thuộc chunk quality + Trust vào Imagine-Final
 
 
@@ -1344,7 +1344,7 @@ KEY INSIGHTS — TỪ LIFECYCLE PERSPECTIVE
         evolutionary psychology (all motivation serves survival/reproduction)
         + consistent với SDT basic needs theory (Deci & Ryan 2000)
     🟡 "Preview opioid ≠ actual opioid" — preview = wanting mechanism ①,
-        actual = H10 5 preconditions (Dopamine-Reward-Rejection.md §4)
+        actual = H10 5 preconditions (Dopamine-Is-Not-Reward.md §4)
     🟡 "Imagine-Final accuracy depends on interoception" — consistent
         với alexithymia research (poor interoception → poor self-assessment)
     🟡 "Cortisol GATES Imagine-Final activation" — consistent với
@@ -1375,7 +1375,7 @@ KEY INSIGHTS — TỪ LIFECYCLE PERSPECTIVE
   IFG-2: Có "CEILING" per hardware không?
          (VD: DRD4 thấp → max = Level 3? Hay ai cũng có thể Level 5?)
          🟡 PARTIAL (N+19): DRD4 receptor role = evidence WEAK
-            (Dopamine-Reward-Rejection.md §6.2 Q4, PFC-Analysis §8.1)
+            (Dopamine-Is-Not-Reward.md §6.2 Q4, PFC-Analysis §8.1)
             → Ceiling question vẫn OPEN, DRD4 path ít promising
 
   IFG-3: Nâng level NHANH nhất bằng cách nào per modality?
@@ -1460,7 +1460,7 @@ KEY INSIGHTS — TỪ LIFECYCLE PERSPECTIVE
 → Body-Base/Feeling/Feeling-Chunk-Bridge.md §2:
 →   Body vote = meeting point chunk↔feeling → verify Imagine-Final alignment
 → Drive/Drive.md: 3 drive types serve body-base (①) → generate Imagine-Final (②)
-→ ⭐ Drive/Dopamine-Reward-Rejection.md: 7-step mechanism + H10 5 preconditions
+→ ⭐ Drive/Dopamine-Is-Not-Reward.md: 7-step mechanism + H10 5 preconditions
 →   Preview opioid = Step 1-4, actual reward = Step 5 body-base check
 →   Dopamine = chuông cửa (salience), opioid = quà (actual reward)
 → ⭐ Drive/Liking-Wanting.md: bridge Berridge → framework

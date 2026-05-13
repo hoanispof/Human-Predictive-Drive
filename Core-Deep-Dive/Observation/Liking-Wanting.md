@@ -12,7 +12,7 @@ purpose: |
   File này trả lời câu hỏi đó, rồi CHỈ RÕ tại sao framework đi xa hơn binary.
   Entry point → reader sẽ được dẫn sang các file chi tiết.
 sources: |
-  Dopamine-Reward-Rejection.md — 7 bằng chứng + 7-step + framework endorse Berridge
+  Dopamine-Is-Not-Reward.md — 7 bằng chứng + 7-step + framework endorse Berridge
   03-Reward.md (Body-Feedback) — H10 5 preconditions, 7-step mechanism chi tiết
   Imagine-Final.md — 3-Layer Hierarchy, reference pattern, lifecycle, 2 tầng
   Anchor-Schema.md — Trust binding, 4 nguồn fill, cost
@@ -63,7 +63,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 FILE NÀY TRONG FRAMEWORK:
 
   ┌─────────────────────────────────────────────────────────────┐
-  │ Dopamine-Reward-Rejection.md                                 │
+  │ Dopamine-Is-Not-Reward.md                                 │
   │   = "TẠI SAO dopamine ≠ reward?"                            │
   │   = Bác bỏ misconception, 7 bằng chứng, 7-step mechanism   │
   │   = Hướng: Classical "dopamine = pleasure" → Framework      │
@@ -149,7 +149,7 @@ FILE NÀY TRONG FRAMEWORK:
 
     → Framework KHÔNG bác bỏ Berridge
     → Framework EXTENDS Berridge (thêm mechanism, thêm chi tiết)
-    (Chi tiết: Dopamine-Reward-Rejection.md §5)
+    (Chi tiết: Dopamine-Is-Not-Reward.md §5)
 
 
 ⚠️ LIMITATION CỦA BERRIDGE MÀ FRAMEWORK ADDRESS:
@@ -230,7 +230,7 @@ FILE NÀY TRONG FRAMEWORK:
   = NHƯNG: framework specify WHEN VTA fires (habituation delta)
     và Berridge chỉ nói "salience" (descriptive)
 
-  = Step 2 trong 7-step mechanism (Dopamine-Reward-Rejection.md §4.2)
+  = Step 2 trong 7-step mechanism (Dopamine-Is-Not-Reward.md §4.2)
   = CẦN THIẾT cho wanting, nhưng KHÔNG ĐỦ = wanting
 ```
 
@@ -399,7 +399,7 @@ FILE NÀY TRONG FRAMEWORK:
 ```
 🟡 CƠ CHẾ:
 
-  7-step mechanism Step 5 (Dopamine-Reward-Rejection.md §4.2):
+  7-step mechanism Step 5 (Dopamine-Is-Not-Reward.md §4.2):
     → PFC send chunk → body-base simulate
     → Body có active needs (đói, social, exploration, safety...)
     → Chunk fits need? → YES → OPIOID RELEASE = REWARD THẬT
@@ -735,7 +735,7 @@ CASE 5a — EINSTEIN EUREKA:
       → Nếu no threat (pure curiosity): opioid alone → deep satisfaction
 
     → ⚠️ Eureka reward = OPIOID, không phải "dopamine spike"
-      (Dopamine-Reward-Rejection.md §3.7 — N+10 correction)
+      (Dopamine-Is-Not-Reward.md §3.7 — N+10 correction)
 
 
 CASE 5b — ALTRUISM ("từ thiện vô tư"):
@@ -929,7 +929,7 @@ LÝ DO 4 — FRAMEWORK ĐÃ CÓ THAM SỐ ĐẦY ĐỦ:
 NẾU BẠN MUỐN HIỂU:
 
   "Dopamine thực sự là gì?"
-    → Dopamine-Reward-Rejection.md (7 bằng chứng + 7-step + framework position)
+    → Dopamine-Is-Not-Reward.md (7 bằng chứng + 7-step + framework position)
 
   "Reward hoạt động thế nào? H10 5 preconditions?"
     → 03-Reward.md (Body-Feedback/) (7-step detailed + H10 + 7 reward cases)
@@ -960,7 +960,7 @@ NẾU BẠN MUỐN HIỂU:
 
 ```
 DEPENDENCY FILES (file NÀY phụ thuộc):
-  [Dopamine-Reward-Rejection.md](../Clarification/Dopamine-Reward-Rejection.md) — 7-step + 7 evidence + framework position
+  [Dopamine-Is-Not-Reward.md](../Clarification/Dopamine-Is-Not-Reward.md) — 7-step + 7 evidence + framework position
   [03-Reward.md](../../Body-Base/Body-Feedback/03-Reward.md) — H10 5 preconditions + reward cases
   [Imagine-Final.md](../Imagine-Final.md) — 3-Layer Hierarchy + reference pattern + 2 tầng
   [Anchor-Schema.md](../../Body-Base/Schema/Anchor-Schema.md) — Trust binding + 4 nguồn fill

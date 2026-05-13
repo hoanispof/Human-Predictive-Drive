@@ -38,7 +38,7 @@
 >   → 7 scattered L2 references → L1/L0 (tree diagram, tables, VD Sweet Spot/Mismatch)
 >   → §7 MISSING: +2 🟡 constraints (Feeling fidelity + Chunk/Cortisol transition inertia)
 >   → §8 Kết Nối: +7 deep-drill cross-refs (Body-Input-Enum, Feeling, Chunk, Valence,
->     Cortisol-Baseline, Dopamine-Reward-Rejection, Liking-Wanting)
+>     Cortisol-Baseline, Dopamine-Is-Not-Reward, Liking-Wanting)
 
 ---
 
@@ -3032,7 +3032,7 @@ SONG SONG (cùng layer Core-Deep-Dive)
   Valence-Propagation.md (indirect valence chains — evaluation phải tính cả indirect)
   Cortisol-Baseline.md §3.7 (cortisol gates Imagine-Final activation)
     + §3.3 (direction tag approach/avoidance — shapes imaginable futures)
-  Dopamine-Reward-Rejection.md (7-step mechanism — wanting ≠ liking in evaluation)
+  Dopamine-Is-Not-Reward.md (7-step mechanism — wanting ≠ liking in evaluation)
   Liking-Wanting.md (wanting 6 mechanisms — evaluation lens cho "muốn THẬT hay không?")
 
 ═══════════════════════════════════════════════════════

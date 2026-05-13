@@ -144,16 +144,36 @@ but the connections themselves are new and unvalidated.
 
 **Why this matters:**
 
-If the model is largely correct, it provides a mechanism-based map
-for self-calibration — something we all increasingly need
-as AI disrupts traditional external calibration systems
-(school ranking, career paths, social benchmarks).
+We built the most powerful external tool in history — AI.
+Now we need to understand the internal system that wields it.
 
-If parts are wrong, finding them early benefits everyone —
-it prevents incorrect models from spreading into
-self-help advice, education, or therapy.
+1. **Old calibration systems are failing.**
+   For hundreds of thousands of years, society auto-calibrated individuals
+   through 7 functions (direction, push, pull, repair, check, identity,
+   connection). Modernity, technology, and AI are breaking all 7
+   simultaneously — for the first time in history.
+   Self-calibration is becoming a necessary skill — but it requires
+   understanding our own mechanisms.
+   → Deep analysis: [`Social-Calibration.md`](Research/Global/Social-Calibration.md)
 
-We all gain from knowing which parts hold up and which don't.
+2. **AI amplifies whatever self-model we operate on.**
+   Wrong model + AI = amplified mistakes.
+   Right model + AI = amplified growth.
+   As technology moves closer to the body (brain-computer interfaces,
+   neural implants), understanding the system before augmenting it
+   becomes essential.
+   → Deep analysis: [`AI-Self-Model.md`](Research/Global/AI-Self-Model.md)
+
+3. **We need to evolve intentionally.**
+   Before AI, society pushed adaptation through competition and norms.
+   In the AI era, we increasingly drive our own growth —
+   which requires knowing how motivation, learning, and behavior
+   actually work, not folk models ("just try harder", "dopamine = reward").
+   → Deep analysis: [`Human-AI-Future.md`](Research/Global/Human-AI-Future.md)
+
+If the framework is largely correct, it provides a mechanism-based compass
+for this self-understanding. If parts are wrong, finding them early
+benefits everyone. We all gain from knowing which parts hold up.
 
 **Current stage: Verify or Falsify.**
 
@@ -184,10 +204,6 @@ Every falsification = progress. Every verification = confidence.
 
 ⑤ **Anyone** — Use the framework, test it against your experience.
    Your body is the final arbiter. Report what doesn't match.
-
-**What would falsify this?**
-See `Ask-AI.md` §3 for specific falsifiable claims
-and `Epistemological-Position.md` for the framework's epistemic stance.
 
 ---
 

@@ -439,7 +439,7 @@ WITHIN FRAMEWORK:
   Body-Feedback.md — dual-pull, 3 nguồn khó chịu
   Chunk.md v2.0 §2.4 NT7 — direction gate at compile
   Core-v7.8-Draft.md §4.3 — cortisol trong cycle architecture
-  Dopamine-Reward-Rejection.md — companion clarification file
+  Dopamine-Is-Not-Reward.md — companion clarification file
   Prediction-Error-Is-Not-Reward.md — companion clarification file
 
 KEY RESEARCH:

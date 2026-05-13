@@ -56,7 +56,7 @@ dependencies:
   - Imagine-Final.md — reference pattern, 14 clarity levels
   - Feeling.md v2.1 — PFC observation interface, 7-layer fidelity, §6.5 Type A/B
   - Collective-Body.md v1.1 — Model 3 cấp, Type C compile, collective schemas
-  - Clarification/Dopamine-Reward-Rejection.md — dopamine ≠ reward
+  - Clarification/Dopamine-Is-Not-Reward.md — dopamine ≠ reward
   - OCD-Analysis.md v2.1 — serotonin × obsessive patterns (link limerence)
 sources_backup: |
   v1.0 (2026-03-29, 969L, v7.5 era) → backup/Love-Analysis-v75-era.md
@@ -243,7 +243,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     DOPAMINE — VTA salience circuit CỰC MẠNH (VTA + caudate nucleus):
       → Dopamine = KHÔNG PHẢI reward → là signal "CHÚ Ý! QUAN TRỌNG!"
-        (Dopamine-Reward-Rejection.md: dopamine = chuông cửa, KHÔNG phải quà)
+        (Dopamine-Is-Not-Reward.md: dopamine = chuông cửa, KHÔNG phải quà)
       → Partner liên tục được đánh dấu = TOP PRIORITY trong attention
       → = Cùng vùng với cocaine, gambling (salience/motivation)
       → = "Nghiện người" = salience hijack — não KHÔNG NGỪNG chú ý partner
@@ -2162,7 +2162,7 @@ OBSERVATION PARAMETERS:
   → Novelty.md — VTA prediction-delta, habituation
 
 CLARIFICATION FILES:
-  → Dopamine-Reward-Rejection.md — dopamine ≠ reward
+  → Dopamine-Is-Not-Reward.md — dopamine ≠ reward
   → Cortisol-Amplifier-Not-Cause.md — cortisol ≠ "stress hormone"
 
 RESEARCH FILES:

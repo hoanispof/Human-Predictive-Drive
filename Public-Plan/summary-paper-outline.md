@@ -130,7 +130,7 @@ SOURCE: Ask-AI.md §3 (20 danger zones) + Clarification/ files
 CONTENT:
   3.1 — 4 critical reframes
     ① Dopamine ≠ reward/pleasure → VTA salience alert
-      Source: Dopamine-Reward-Rejection.md
+      Source: Dopamine-Is-Not-Reward.md
       Evidence: Berridge (incentive salience), Schultz (prediction signal)
 
     ② Mirror neurons ≠ empathy module → SPM (Self-Pattern-Match)

@@ -282,7 +282,7 @@
   ──┼───────────────────────────────────┼──────────────────────────────────
   1 │ Prediction-Error-Is-Not-Reward.md │ THÊM note: framework dùng
     │ (PE:116, pred-err:14, VTA-δ:4)   │ "prediction-delta" → ref Label.md
-  2 │ Dopamine-Reward-Rejection.md      │ THÊM note: framework vocabulary
+  2 │ Dopamine-Is-Not-Reward.md      │ THÊM note: framework vocabulary
     │ (PE:9, pred-err:7, VTA-δ:1)      │ → ref Body-Feedback-Label.md
   3 │ Cortisol-Amplifier-Not-Cause.md   │ Nhỏ. Thêm cross-ref nếu cần.
     │ (pred-err:2)                      │

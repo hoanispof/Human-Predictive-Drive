@@ -637,6 +637,13 @@ APPLICATION FILES:
   → Modality.md v1.0 — complement analysis
 
 RESEARCH FILES:
+  → Social-Calibration.md v1.0 — WHERE WE CAME FROM companion
+    File NÀY = WHERE WE'RE GOING (MACRO). Social-Calibration = WHERE WE CAME FROM.
+    7 functions calibration xã hội đang vỡ = WHY file NÀY cần thiết.
+    Cross-ref: §3.4 AI era breakdown, §5.4 symptoms connect to HAF themes.
+  → AI-Self-Model.md v1.0 — MICRO companion (individual level AI interaction)
+    File NÀY = MACRO (civilization). AI-Self-Model = MICRO (individual).
+    Cùng framework, khác scope. Cross-ref: §0 thesis, §7 symbiosis, §8 self-upgrade.
   → Macro-Civilization.md — amplifier trap pattern
   → Conflict-Dynamics.md — Overlap × Scarcity × Commitment
   → Education-Bridge.md — how to teach AI literacy (approach context)

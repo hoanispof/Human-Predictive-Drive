@@ -13,7 +13,7 @@
 > Section này = NỀN TẢNG CHIẾN LƯỢC. Mọi bài post ở Phase 3 đều phải reflect tinh thần này.
 > Tone: "Chúng ta cùng cần biết model nào đúng — vì nó ảnh hưởng tất cả." Inclusive, ngang hàng.
 
-### W.1 — Bối Cảnh: Hệ Thống Calibration Cũ Đang Sụp Đổ
+### W.1 — Bối Cảnh: Tại Sao Hiểu Bản Thân Trở Nên Cấp Thiết
 
 ```
 Con người CHƯA BAO GIỜ phải tự hiệu chỉnh drive ở quy mô này.
@@ -37,8 +37,67 @@ AI ERA PHÁ VỠ TỪNG LỚP:
   (Chi tiết: Self-Created-Threat.md §5 — AI era "khoảng trống drive")
 
 KẾT QUẢ: Mất calibration ngoại → cần calibration NỘI.
-  → Nhưng calibration nội = SKILL → cần hiểu mechanism → cần bản đồ đúng.
-  → Bản đồ sai = calibrate sai = hệ quả thực trên đời sống thực.
+  → Nhưng calibration nội = SKILL → cần hiểu mechanism → cần la bàn đúng.
+  → La bàn sai = calibrate sai = hệ quả thực trên đời sống thực.
+
+NHƯNG KHÔNG CHỈ LÀ MẤT CALIBRATION. CÒN 3 LÝ DO NỮA:
+
+② AI TÍCH HỢP CẦN TỰ HIỂU:
+  → AI = amplifier. Amplify CÁI GÌ phụ thuộc vào model bạn có về chính mình.
+  → Model sai + AI confirm → body-feedback doubt bị dismiss
+    → domain reality check bị DELAY → correction lớn hơn khi reality buộc update
+  → Model đúng + AI = khuếch đại đúng hướng
+  → Bản chất: AI không biết model bạn đúng hay sai — nó amplify BẤT KỲ model nào
+
+  VÍ DỤ CỤ THỂ (mỗi cái = potential post topic):
+
+    A) HỌC TẬP: "Tôi hiểu bài rồi" → hỏi AI giải thích → cảm giác hiểu
+       → không tự làm bài → thi không giải được
+       → "sao học rồi mà không làm được?"
+       (Audience: r/psychology, Education posts)
+
+    B) NUÔI CON: "Con cần kỷ luật hơn" → AI cho discipline strategy → con ngoan (bề ngoài)
+       → thực tế con suppress, không express → vỡ ra tuổi teen
+       → "sao hồi nhỏ ngoan mà lớn lên thế này?"
+       (Audience: parenting communities, Education posts)
+
+    C) RELATIONSHIP: "Mình là partner tốt" → AI cho advice hay → apply advice
+       THAY VÌ lắng nghe body-feedback về hành vi thật của mình
+       → đối phương cảm thấy "nói đúng nhưng không thật" → xa dần
+       → "tôi đã làm đúng hết mà sao vẫn..."
+       (Audience: r/psychology, Medium)
+
+    D) SỨC KHỎE: "Tôi ăn uống lành mạnh" → AI confirm meal plan hợp lý
+       → body mệt mỏi (feedback thật) nhưng "AI nói plan đúng mà"
+       → tiếp tục → khám mới biết thiếu chất
+       (Audience: wellness communities)
+
+    E) CÔNG VIỆC: "Tôi làm việc hiệu quả" → dùng AI automate mọi thứ → output tăng
+       → nhưng không build deep skill → AI thay đổi / cần skill mới
+       → không có nền tảng → "productive suốt mà sao..."
+       (Audience: r/slatestarcodex, Medium, career communities)
+
+    → Pattern chung: wrong model + AI confirm → body-feedback bị dismiss
+      → domain feedback (reality) bị delay → correction đau hơn vì đi xa hơn
+  → Tương lai: brain-computer interface, neural implant
+    → Hiểu hệ thống TRƯỚC KHI can thiệp vào hệ thống = bắt buộc
+
+③ TỰ TIẾN HÓA CHỦ ĐỘNG:
+  → Xưa: xã hội "đẩy" bạn tiến hóa (cạnh tranh, chuẩn mực, áp lực ngoại)
+  → AI era: tự đẩy bản thân → cần hiểu mechanism để tự optimize
+  → "Biết mà không làm được" CÒN QUAN TRỌNG HƠN trong AI era:
+    AI cho advice hoàn hảo, nhưng body-base vẫn không execute
+    → Hiểu 2-system architecture (PFC ≠ body-base) = critical skill
+
+④ PHÂN BIỆT HUMAN VS AI:
+  → Hiểu cái gì LÀ human (body-base, compiled behavior, feeling)
+  → Biết delegate gì cho AI, giữ gì cho mình
+  → Không hiểu → delegate quá nhiều (mất skill) hoặc quá ít (lãng phí AI)
+
+TỔNG QUAN:
+  Con người tạo ra công cụ bên ngoài mạnh nhất lịch sử — AI.
+  Giờ cần hiểu hệ thống bên trong sử dụng nó.
+  Framework = attempt cung cấp la bàn cho phần "bên trong."
 ```
 
 ### W.2 — Nếu Framework Đúng: La Bàn Self-Calibration
@@ -361,7 +420,7 @@ THỨ TỰ ƯU TIÊN (evidence mạnh → yếu dần):
      Research backing: Berridge (incentive salience), Schultz (prediction signal)
      Framework: ENDORSE Berridge + mở rộng (7-step, H10, Type A/B)
      Platform: r/neuroscience, r/psychology, Medium
-     Source: Clarification/Dopamine-Reward-Rejection.md
+     Source: Clarification/Dopamine-Is-Not-Reward.md
      Tone: "30 years of research shows dopamine ≠ reward — here's what it does"
 
   ② CORTISOL ≠ STRESS HORMONE (evidence mạnh)

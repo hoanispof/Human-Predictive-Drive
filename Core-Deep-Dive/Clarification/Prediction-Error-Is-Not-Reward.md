@@ -16,9 +16,9 @@ purpose: |
   Mainstream neuroscience phát hiện PE trên động vật — đúng, có giá trị.
   Mainstream popularization gộp PE = reward cho con người — quá đơn giản.
   Framework BUILDS ON PE research: giữ PE làm Step 1, thêm 6 steps cho người.
-  Companion file cho Dopamine-Reward-Rejection.md (cùng folder).
+  Companion file cho Dopamine-Is-Not-Reward.md (cùng folder).
 dependencies:
-  - Dopamine-Reward-Rejection.md — dopamine ≠ reward, 7-step mechanism
+  - Dopamine-Is-Not-Reward.md — dopamine ≠ reward, 7-step mechanism
   - Body-Feedback-Mechanism.md — 3 chunk dynamics (Shift/Miss/Gap)
   - Body-Feedback.md — H10 5 preconditions, dual-pull
   - Chunk.md v2.0 — chunk substrate, activation dynamics
@@ -460,7 +460,7 @@ WITHIN FRAMEWORK:
     5 profiles, reward = PROCESS not chemical
   Gap-Direction.md — ⭐ 2-layer model formalizes PE vs reward:
     Layer 1 = signal mechanism (PE), Layer 2 = direction content (gap direction)
-  Dopamine-Reward-Rejection.md — dopamine ≠ reward, 7-step mechanism
+  Dopamine-Is-Not-Reward.md — dopamine ≠ reward, 7-step mechanism
   Body-Feedback.md — H10 5 preconditions, dual-pull architecture
   Body-Feedback-Mechanism.md — 3 chunk dynamics (Shift/Miss/Gap)
   03-Reward.md — ô tô paradox, Van Gogh gradient, reward mechanism

@@ -968,7 +968,7 @@ REWARD (v1.1 NEW):
     → §3.4 COMT×Reward maps to RSA §4 (profiles)
     → §8b Receptor×Profiles maps to RSA §8.5 (individual differences)
   03-Reward.md — H10 preconditions, 7-step VTA
-  Dopamine-Reward-Rejection.md — Berridge, wanting ≠ liking
+  Dopamine-Is-Not-Reward.md — Berridge, wanting ≠ liking
   Liking-Wanting.md — wanting × liking mechanisms
 
 COMPILATION (v1.1 NEW):

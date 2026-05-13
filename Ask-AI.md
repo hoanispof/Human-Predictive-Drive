@@ -653,7 +653,7 @@ NAVIGATION:
   ② Topic không có → đọc 01-File-Index.md trong folder tương ứng
      (Core-Deep-Dive/, Research/, Applications/) → tìm file → đọc
   ③ Câu hỏi chạm danger zone §3 → thêm Clarification file:
-     Dopamine    → CD/Clarification/Dopamine-Reward-Rejection.md
+     Dopamine    → CD/Clarification/Dopamine-Is-Not-Reward.md
      Mirror      → CD/Clarification/Mirror-Neuron-Rejection.md
      Cortisol    → CD/Clarification/Cortisol-Amplifier-Not-Cause.md
      Prediction  → CD/Clarification/Prediction-Error-Is-Not-Reward.md

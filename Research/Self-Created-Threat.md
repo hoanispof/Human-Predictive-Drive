@@ -652,6 +652,10 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
 
 ⭐ XÃ HỘI CŨ = AUTO-CALIBRATED (không cần tự quản trị):
 
+  → DEEP-DIVE: Social-Calibration.md v1.0 — mở rộng 5 components → 7 functions,
+    thêm lịch sử tiến hóa (4 giai đoạn), evidence (16 citations), breakdown analysis.
+    Bảng dưới đây = SOURCE DATA cho file đó.
+
   Xã hội TỰ TẠO toàn bộ cycle cho cá nhân:
 
   ┌──────────────┬──────────────────────────┬─────────────────────┐

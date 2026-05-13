@@ -749,7 +749,7 @@ Framework mô tả từng hormone ở BEHAVIORAL level:
   Cortisol:  amplifier, 7 modes, direction > level
              (Cortisol-Baseline.md v2.0, 15 sections)
   Dopamine:  VTA salience signal, KHÔNG phải reward
-             (Dopamine-Reward-Rejection.md, 7 bằng chứng)
+             (Dopamine-Is-Not-Reward.md, 7 bằng chứng)
   Opioid:    body-need match reward, H10 5 preconditions
              (03-Reward.md, Reward-Signal-Architecture.md)
   Oxytocin:  bonding-related, OXTR sensitivity varies

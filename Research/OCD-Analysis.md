@@ -42,7 +42,7 @@ dependencies:
   - Threat.md — 3 origin sources, threat priority
   - Connection.md v3.0 — social buffering, co-regulation
   - Protect.md v1.0 — loss aversion (OCD fear of loss)
-  - Clarification/Dopamine-Reward-Rejection.md — dopamine = salience, not reward
+  - Clarification/Dopamine-Is-Not-Reward.md — dopamine = salience, not reward
 sources_backup: |
   v1.0 (2026-03-27, 896L, v7.5 era) → backup/OCD-Analysis-v75-era.md
 language: Tiếng Việt primary + English technical terms
@@ -957,7 +957,7 @@ MỖI TREATMENT TARGET 1 TUYẾN CỤ THỂ:
 ├──────────────────┼───────────┼──────────────────────────────────────┤
 │ Augmentation:    │ Tuyến 3   │ Antipsychotic liều thấp → giảm      │
 │ Antipsychotics   │ (support) │ dopamine → giảm SALIENCE            │
-│                  │           │ (Dopamine-Reward-Rejection.md) →     │
+│                  │           │ (Dopamine-Is-Not-Reward.md) →     │
 │                  │           │ threat priority GIẢM →               │
 │                  │           │ PFC override DỄ hơn                  │
 │                  │           │ 🟢 ~30% treatment-resistant respond  │
@@ -1270,7 +1270,7 @@ RESEARCH FILES:
   → Mismatch-Patterns/Mismatch-Patterns.md — OCD as mismatch pattern
 
 CLARIFICATION:
-  → Dopamine-Reward-Rejection.md — dopamine = salience (augmentation rationale)
+  → Dopamine-Is-Not-Reward.md — dopamine = salience (augmentation rationale)
   → Cortisol-Amplifier-Not-Cause.md — cortisol ≠ stress hormone
 ```
 

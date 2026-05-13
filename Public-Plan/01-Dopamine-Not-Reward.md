@@ -3,7 +3,7 @@
 > **Trạng thái:** DRAFT — refine trước khi post
 > **Target platforms:** r/neuroscience, r/psychology, r/cogsci, Medium
 > **Tone:** Academic but accessible. "Here's the evidence — what's yours?"
-> **Source:** Clarification/Dopamine-Reward-Rejection.md
+> **Source:** Clarification/Dopamine-Is-Not-Reward.md
 > **Ngày tạo:** 2026-05-13
 
 ---
@@ -507,7 +507,7 @@ Does this match your experience? What doesn't fit?
 ```
 □ Summary paper đã publish (Zenodo DOI hoặc preprint)
 □ Framework đã dịch sang English (ít nhất core files)
-□ Dopamine-Reward-Rejection.md đã dịch
+□ Dopamine-Is-Not-Reward.md đã dịch
 □ Links ready: GitHub repo + Zenodo DOI + preprint
 □ Re-read post: tone academic but accessible? Honest? Not defensive?
 □ "What would falsify this?" = câu cuối cùng

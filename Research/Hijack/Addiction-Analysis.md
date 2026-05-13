@@ -31,7 +31,7 @@ dependencies:
   - Compile-Taxonomy.md v1.1 — 3 Loại A/B/C, 4 pathways
   - PFC-Configuration.md v1.0 — 6 dynamic modes
   - Cortisol-Baseline.md v2.0 — amplifier, 5 Roles, novelty vs threat
-  - Dopamine-Reward-Rejection.md v1.1 — dopamine ≠ reward, 7-step mechanism
+  - Dopamine-Is-Not-Reward.md v1.1 — dopamine ≠ reward, 7-step mechanism
   - PFC-Hardware.md v1.1 — COMT, DRD4, individual variation
   - Alcohol-Brain-Mechanism.md v1.0 — substance-specific reference (đã có)
   - Collective-Body.md v1.1 — Cấp 2 chains, drug culture
@@ -59,7 +59,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > File này: CƠ CHẾ TỔNG QUÁT — addiction hoạt động thế nào.
 > Drill từng chất cụ thể → file riêng (Alcohol-Brain-Mechanism.md đã có).
 >
-> **Đọc trước**: Dopamine-Reward-Rejection.md (tại sao dopamine ≠ reward).
+> **Đọc trước**: Dopamine-Is-Not-Reward.md (tại sao dopamine ≠ reward).
 > **Đọc trước hoặc song song**: 03-Reward.md (H10 5 preconditions).
 
 ---
@@ -160,7 +160,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │   Reward = body-base opioid release KHI chunk fits body-need.      │
   │   = QUÀ ĐẰNG SAU CỬA — actual reward, phụ thuộc H10.            │
   │                                                                    │
-  │   7-step mechanism (chi tiết: Dopamine-Reward-Rejection.md §4):   │
+  │   7-step mechanism (chi tiết: Dopamine-Is-Not-Reward.md §4):   │
   │   ① Neurons fire 24/7 → ② VTA detect delta → ③ DRD4 filter →    │
   │   ④ PFC spotlight → ⑤ Body-base check (body-need match?) →       │
   │   ⑥ Opioid release NẾU match → ⑦ COMT clear dopamine.            │
@@ -181,7 +181,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Berridge & Robinson 1998, 2003, 2016 — wanting ≠ liking.
   🟢 Schultz 1997 — prediction error signal.
   🟢 Koob & Volkow 2010 — addiction = allostatic, multi-system.
-  Chi tiết 7 bằng chứng: Dopamine-Reward-Rejection.md §3.
+  Chi tiết 7 bằng chứng: Dopamine-Is-Not-Reward.md §3.
 ```
 
 ### §1.2 — Tại sao misconception này QUAN TRỌNG cho addiction
@@ -1117,7 +1117,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → 03-Reward.md v1.1 — H10 5 preconditions, 7-step VTA
     → Reward-Signal-Architecture.md v1.0 — Type A/B, A₀→A₃, A Gates B
     → Reward-Calibration.md v1.1 — Goldilocks, over-reward, premature compilation
-    → Dopamine-Reward-Rejection.md v1.1 — dopamine ≠ reward, 7 bằng chứng
+    → Dopamine-Is-Not-Reward.md v1.1 — dopamine ≠ reward, 7 bằng chứng
     → Liking-Wanting.md v1.0 — bridge Berridge, wanting mechanisms
 
   BODY SYSTEM (withdrawal + coupling):

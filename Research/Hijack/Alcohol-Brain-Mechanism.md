@@ -19,7 +19,7 @@ position: Research/Hijack/ (cạnh Addiction-Analysis, Chemical-Enhancement-Note
 dependencies:
   - Addiction-Analysis-v2.md — addiction 4 giai đoạn, 3 nhóm, gradient
   - Chemical-Enhancement-Notes.md — chemical × creativity, sáng tạo vs triển khai
-  - Dopamine-Reward-Rejection.md — 7-step mechanism, dopamine ≠ reward
+  - Dopamine-Is-Not-Reward.md — 7-step mechanism, dopamine ≠ reward
   - 03-Reward.md — H10 5 preconditions, opioid = reward thật
   - Cortisol-Baseline.md v2.0 — amplifier, novelty vs threat direction
   - PFC-Function.md — 24 functions, §7 PFC offline cases
@@ -171,7 +171,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 │   Alcohol trigger endorphin release tại NAcc + OFC               │
 │   Greater release ở NAcc = greater subjective "pleasure/warmth"  │
 │                                                                   │
-│ Framework mapping (Dopamine-Reward-Rejection §4):                │
+│ Framework mapping (Dopamine-Is-Not-Reward §4):                │
 │   Opioid = REWARD THẬT (quà đằng sau cửa)                       │
 │   Endorphin từ rượu = body-base pleasure THẬT (dù nhẹ-TB)       │
 │   = Tại sao "ấm người", "dễ chịu" → body confirm reward        │
@@ -184,7 +184,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 │   → VTA dopamine neurons "thoát" ức chế → fire nhiều hơn        │
 │   → Dopamine tăng ở NAcc (gián tiếp, KHÔNG trực tiếp như cocaine)│
 │                                                                   │
-│ Framework mapping (Dopamine-Reward-Rejection §4):                │
+│ Framework mapping (Dopamine-Is-Not-Reward §4):                │
 │   Dopamine = CHUÔNG CỬA (salience signal), KHÔNG phải reward    │
 │   → "Có gì đó đáng chú ý" → PFC attend                         │
 │   → Rượu: dopamine nhẹ + opioid thật = chuông + quà → coupling  │
@@ -806,7 +806,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 **Framework dependency files**:
 - [Addiction-Analysis-v2.md](Addiction-Analysis-v2.md) — addiction mechanism 4 giai đoạn, 3 nhóm
 - [Chemical-Enhancement-Notes.md](Chemical-Enhancement-Notes.md) — rượu × sáng tạo (PFC filter off)
-- [Dopamine-Reward-Rejection.md](../../Core-Deep-Dive/Clarification/Dopamine-Reward-Rejection.md) — 7-step mechanism, opioid = reward
+- [Dopamine-Is-Not-Reward.md](../../Core-Deep-Dive/Clarification/Dopamine-Is-Not-Reward.md) — 7-step mechanism, opioid = reward
 - [03-Reward.md](../../Core-Deep-Dive/Body-Base/Body-Feedback/03-Reward.md) — H10 5 preconditions
 - [Cortisol-Baseline.md v2.0](../../Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — cortisol × stress direction
 - [PFC-Function.md](../../Core-Deep-Dive/PFC/PFC-Function.md) — §7 PFC offline cases

@@ -29,7 +29,7 @@ dependencies:
   - PFC-Function.md v1.1 — 24 functions, PFC offline cases
   - PFC-Hardware.md v1.0 — COMT, DRD4, MAO-A, NE
   - Cortisol-Baseline.md v2.0 — amplifier, direction > level
-  - Dopamine-Reward-Rejection.md v1.0 — dopamine ≠ reward
+  - Dopamine-Is-Not-Reward.md v1.0 — dopamine ≠ reward
   - Liking-Wanting.md v1.0 — bridge Berridge, wanting mechanisms
   - Gap-Direction.md v1.0 — gap has direction, 2-layer model
   - Meaning.md v2.0 — life-level Anchor-Schema
@@ -1850,7 +1850,7 @@ FRAMEWORK FILES LIÊN QUAN:
 
   RELATED SYSTEMS:
   → Compile-Taxonomy.md v1.0 — 4 pathways × P5 tag
-  → Dopamine-Reward-Rejection.md v1.0 — dopamine = alert, Type A opioid = reward
+  → Dopamine-Is-Not-Reward.md v1.0 — dopamine = alert, Type A opioid = reward
   → Liking-Wanting.md v1.0 — bridge Berridge, wanting mechanisms
   → Cortisol-Baseline.md v2.0 — relief profile ④
   → Gap-Direction.md v1.0 — gap direction = F2 in 5 Forces

@@ -1,5 +1,5 @@
 ---
-title: Dopamine-Reward-Rejection — Tại Sao Framework Bác Bỏ "Dopamine = Reward"
+title: Dopamine-Is-Not-Reward — Tại Sao Framework Bác Bỏ "Dopamine = Reward"
 version: 1.1
 created: 2026-04-18
 updated: 2026-05-10 (v1.1 — Type A/B notes, Reward-Signal-Architecture cross-ref)
@@ -27,7 +27,7 @@ language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Dopamine-Reward-Rejection — Tại Sao Framework Bác Bỏ "Dopamine = Reward"
+# Dopamine-Is-Not-Reward — Tại Sao Framework Bác Bỏ "Dopamine = Reward"
 
 > **Pop science + textbook cũ nói: "Dopamine = reward, dopamine = pleasure, dopamine hit = sướng."**
 > **Framework nói: "KHÔNG. Dopamine = chuông cửa salience. Reward thật = opioid body-base."**
