@@ -10,7 +10,7 @@
 >   → **FILE NÀY (ĐÁNH GIÁ: hướng đi tốt hay xấu?)**
 >   → Threat.md §4 (KHI KẾT HỢP: Threat + Imagine-Final → output gì?)
 > **Tiền đề:**
->   Imagine-Final.md (mechanism, 14 ngưỡng clarity, reference pattern, §1.5 Lifecycle)
+>   Imagine-Final.md v3.0 (mechanism, 5 levels clarity, reference pattern, §5 Lifecycle)
 >   Anchor-Schema.md (chiều thứ 3 — Trust + 4 nguồn fill)
 >   Core-v7.5-Draft.md §7 (Domain = thực tế bên ngoài, vô tận, có attractor points)
 >   Core-v7.5-Draft.md §1.5 (Hardware Profile — specs mỗi người)
@@ -51,7 +51,7 @@ FILE NÀY TRONG FRAMEWORK:
   │ Imagine-Final.md                                              │
   │   = CƠ CHẾ + ĐỘ RÕ                                          │
   │   "Imagine-Final hoạt động thế nào?"                          │
-  │   "Rõ đến đâu?" (14 ngưỡng: Wish → Obsession)                │
+  │   "Rõ đến đâu?" (5 levels: Wish → Obsession)                │
   │   "Làm sao rõ hơn?" (nâng level)                              │
   └──────────────────┬───────────────────────────────────────────┘
                      │
@@ -77,7 +77,7 @@ FILE NÀY TRONG FRAMEWORK:
   CLARITY = ĐỘ RÕ CỦA IMAGINE-FINAL (Imagine-Final.md):
     = "Imagine-Final RÕ đến đâu trong đầu?"
     = State variable — thay đổi liên tục khi build chunks
-    = Phổ: Wish (0-5%) → Obsession (95-100%)
+    = Phổ: Wish (~0-10%) → Obsession (~95-100%)
     = Đo bằng: body simulation fidelity (body feel mạnh cỡ nào?)
 
   QUALITY = CHẤT LƯỢNG HƯỚNG ĐI (file NÀY):
@@ -124,7 +124,7 @@ FILE NÀY TRONG FRAMEWORK:
     │                      │                      │
     └──────────────────────┴──────────────────────┘
 
-  → Clarity = đo bằng Imagine-Final.md (14 ngưỡng)
+  → Clarity = đo bằng Imagine-Final.md (5 levels)
   → Quality = đo bằng FILE NÀY (2 trục)
   → CẢ HAI đều cần — clarity cao VÔ DỤNG nếu quality xấu
   → Quality tốt + clarity thấp = CÓ THỂ BUILD (đúng hướng, cần thêm chunks)
@@ -205,7 +205,7 @@ FILE NÀY TRONG FRAMEWORK:
   └──────────────────────────────────────────────────────────────────┘
 
   → File NÀY focus chiều QUALITY (2 trục → 4 góc)
-  → Imagine-Final.md focus chiều CLARITY (14 ngưỡng + 5 phase lifecycle)
+  → Imagine-Final.md focus chiều CLARITY (5 levels + 5 phase lifecycle)
   → Anchor-Schema.md focus chiều TRUST (binding force + 4 nguồn fill)
   → 3 file BỔ SUNG nhau, KHÔNG trùng lặp
 
@@ -222,7 +222,7 @@ FILE NÀY TRONG FRAMEWORK:
 
 KẾT NỐI VỚI CÁC KHÁI NIỆM HIỆN CÓ:
 
-  Imagine-Final.md §1 ĐÃ NÊU:
+  Imagine-Final.md §4.3 ĐÃ NÊU:
     "Imagine-Final HOÀN CHỈNH = BODY MUỐN × DOMAIN CONFIRM"
     → "Body muốn" → TRỤC 2 (Hardware Fit — đặc biệt Compatibility)
     → "Domain confirm" → TRỤC 1 (Domain Fit)
@@ -279,7 +279,7 @@ TẠI SAO 2 TRỤC LÀ ĐỦ — CÁC THUỘC TÍNH KHÁC DERIVE TỪ ĐÂY:
     → Clarity = Imagine-Final RÕ tới đâu TRONG ĐẦU người đó
     → THAY ĐỔI liên tục: mờ → rõ dần khi build chunks
     → = "Đang ở km bao nhiêu trên đường" — KHÔNG phải "đường này tốt hay xấu"
-    → = Imagine-Final.md §2 (14 ngưỡng) = measurement of STATE
+    → = Imagine-Final.md §6 (5 levels) = measurement of STATE
     → = KHÔNG đánh giá QUALITY — chỉ đo VISIBILITY
 
     Chứng minh clarity độc lập với quality:
@@ -339,7 +339,7 @@ TẠI SAO 2 TRỤC LÀ ĐỦ — CÁC THUỘC TÍNH KHÁC DERIVE TỪ ĐÂY:
   TEMPORAL SCALE (micro/short/long) — CONTEXT, KHÔNG PHẢI ĐÁNH GIÁ:
 
     → "Ăn trưa" (micro, phút) vs "build company" (macro, thập kỷ)
-    → Imagine-Final.md §1 đã cover: micro / short / medium / long
+    → Imagine-Final.md §0.3 đã cover: brief-construct / short / medium / long
     → Mỗi người CÓ NHIỀU Imagine-Final ở nhiều scale đồng thời
     → Scale KHÔNG nói Imagine-Final tốt/xấu — chỉ mô tả KÍCH THƯỚC
     → = Context, không phải đánh giá → KHÔNG cần trục
@@ -774,7 +774,7 @@ CÁCH CHECK DOMAIN FIT — TỔNG HỢP
   ⑤ CÀ​NG TIẾN GẦN → CÀNG THẤY RÕ:
     → Domain fit KHÔNG CẦN biết CHẮC từ đầu
     → Build chunks → hiểu domain hơn → domain fit EVALUATION cải thiện
-    → = Imagine-Final TIẾN HÓA cùng knowledge (Imagine-Final.md §1 + §4)
+    → = Imagine-Final TIẾN HÓA cùng knowledge (Imagine-Final.md §6.2 + §5)
     → = "Càng đi → càng thấy rõ đường" — ĐÚNG cho cả 3 vùng
     → = Tại sao PHẢI BẮT ĐẦU dù chưa chắc: không đi → KHÔNG BAO GIỜ thấy rõ
 
@@ -1135,7 +1135,7 @@ CAPACITY — TỔNG KẾT
 
   PHÂN TÍCH:
 
-    Imagine-Final = 1 TRẠNG THÁI TƯƠNG LAI (Imagine-Final.md §1)
+    Imagine-Final = 1 TRẠNG THÁI TƯƠNG LAI (Imagine-Final.md §0.1)
     → Trạng thái đó = cuộc sống HÀNG NGÀY ở đích
     → Cuộc sống hàng ngày = hoạt động LẶP LẠI LIÊN TỤC
     → Hoạt động lặp lại CẦN match modality dominant
@@ -1297,7 +1297,7 @@ CAPACITY — TỔNG KẾT
       → Body-Reward fire (ấm, hào hứng, energize)? → likely compatible
       → Body-Dissonance từ MEANINGLESS (không phải từ task khó)? → likely NOT compatible
       → KHÔNG feel gì? → chưa đủ data → cần TRẢI NGHIỆM thêm
-    → (ref: Imagine-Final.md §3 — 3 câu hỏi tự kiểm tra)
+    → (ref: Imagine-Final.md §10.1 — hậu quả sai level + self-check)
 
   🟡 Source = predictor cho compatibility = framework analysis
   🟢 Intrinsic vs extrinsic motivation → outcomes (SDT — Deci & Ryan 2000)
@@ -1333,7 +1333,7 @@ COMPATIBILITY — TỔNG KẾT
 
   ⚠️ COMPATIBILITY KHÓ BIẾT TRƯỚC:
     → "Mình có thực sự muốn X?" → chỉ biết khi TỚI GẦN hoặc ĐẠT
-    → Imagine-Final.md §5: "thành công mà trống rỗng"
+    → Imagine-Final.md §4.2: "thành công mà trống rỗng" (schema-compiled)
       = đạt Imagine-Final sai compatibility
     → CÁCH TĂNG CONFIDENCE: trải nghiệm TRƯỚC (thực tập, shadowing, pilot)
       → Body CÓ chunks thật → simulate RÕ hơn → compatibility check TỐT hơn
@@ -1341,7 +1341,7 @@ COMPATIBILITY — TỔNG KẾT
   ⚠️ COMPATIBILITY THAY ĐỔI THEO THỜI GIAN:
     → Melody shift → compatibility với Imagine-Final cũ CÓ THỂ GIẢM
     → 20 tuổi: body muốn adventure → 40 tuổi: body muốn stability
-    → = Imagine-Final CẦN TIẾN HÓA theo body-base (Imagine-Final.md §1)
+    → = Imagine-Final CẦN TIẾN HÓA theo body-base (Imagine-Final.md §6.2)
     → = "Midlife crisis" = Imagine-Final cũ + body-base ĐÃ SHIFT
       → Compatibility GIẢM → dissonance TĂNG → cần UPDATE Imagine-Final
 
@@ -1436,7 +1436,7 @@ Domain Fit ✓ + Hardware Fit ✓
       → = "Khó nhưng ĐÁNG" — body confirm mỗi bước
     → Giai đoạn 2 (tháng 6-24): momentum BUILD
       → Chunks tích lũy → efficiency tăng → Imagine-Final RÕ HƠN
-      → = Virtuous cycle (Imagine-Final.md §1)
+      → = Virtuous cycle (Imagine-Final.md §2.4)
     → Giai đoạn 3 (năm 2+): melody SHIFT
       → Đạt Imagine-Final HOẶC Imagine-Final tiến hóa (lớn hơn, rõ hơn)
       → Body-base: harmony MỚI ở level cao hơn
@@ -1774,7 +1774,7 @@ Domain Fit ✗ + Hardware Fit ✗
     → Domain không confirm → KHÔNG CÓ external reinforcement
     → Hardware không fit → KHÔNG CÓ progress → KHÔNG CÓ body reward
     → = KHÔNG CÓ reinforcement từ BẤT KỲ hướng nào → tự TẮT
-    → = Wish/Dream level (Imagine-Final.md §2) → bay mất trong vài giây/phút
+    → = Wish/Dream level (Imagine-Final.md §6) → bay mất trong vài giây/phút
 
   TẠI SAO THƯỜNG VÔ HẠI:
     → Body KHÔNG invest nhiều (clarity thấp + không reward → stop)
@@ -2465,7 +2465,7 @@ HARDWARE FIT THAY ĐỔI — VÌ HARDWARE VÀ IMAGINE-FINAL ĐỀU SHIFT
       → = External events → internal body-base SHIFT → compatibility SHIFT
 
     IMAGINE-FINAL TỰ TIẾN HÓA (nếu healthy):
-      → Imagine-Final.md §1: Imagine-Final tiến hóa cùng chunks
+      → Imagine-Final.md §6.2: Imagine-Final tiến hóa cùng chunks
       → Đạt mốc → Imagine-Final cũ HẾT DRIVE → cần UPDATE lớn hơn
       → VD: "đỗ đại học" (đạt) → "chuyên gia domain" (mới) → "contribute" (mới nữa)
       → = Imagine-Final NÂNG CẤP TỰ NHIÊN nếu body-base + domain cùng confirm
@@ -2519,9 +2519,9 @@ GÓC CÓ THỂ THAY ĐỔI — 4 GÓC KHÔNG CỐ ĐỊNH
   → = Evaluate → adjust Imagine-Final → RE-EVALUATE → vị trí MỚI
 
 
-⭐ 4 GÓC × 3 LONG-TERM OUTCOMES (Imagine-Final.md §1.5):
+⭐ 4 GÓC × 3 LONG-TERM OUTCOMES (Imagine-Final.md §5):
 
-  Imagine-Final.md §1.5 mô tả 3 long-term outcomes của Imagine-Final lifecycle:
+  Imagine-Final.md §5 mô tả 3 long-term outcomes của Imagine-Final lifecycle:
     OUTCOME 1 — COMPILE (lặp đủ vòng → schema deep → anchor)
     OUTCOME 2 — ACHIEVE & FORGET (đạt mục tiêu cụ thể → không lặp)
     OUTCOME 3 — ABANDON (bỏ vì cost > benefit hoặc replaced)
@@ -2615,12 +2615,12 @@ KHI NÀO RE-EVALUATE?
     → = Melody-Arc.md §4 ③ timing: check khi mạnh, không khi yếu
 
 
-  ⭐ TIMING TỰ NHIÊN — TỪ IMAGINE-FINAL LIFECYCLE (Imagine-Final.md §1.5):
+  ⭐ TIMING TỰ NHIÊN — TỪ IMAGINE-FINAL LIFECYCLE (Imagine-Final.md §5):
 
     Re-evaluation KHÔNG chỉ là sự kiện bên ngoài trigger.
     Còn là 1 phase TỰ NHIÊN của Imagine-Final lifecycle.
 
-    Imagine-Final.md §1.5 mô tả 5 phases:
+    Imagine-Final.md §5 mô tả 5 phases:
       Phase 1 BUILD     — PFC active draft
       Phase 2 SAVE      — PFC switch sang task khác, Imagine-Final dormant
       Phase 3 BACKGROUND — vô thức process trong nền (REM, DMN, spreading activation)
@@ -2653,7 +2653,7 @@ KHI NÀO RE-EVALUATE?
         → → RE-EVALUATE SÂU: vị trí có thể CHUYỂN GÓC
         → VD: Mismatch → Sweet Spot (đổi role); Delusion → Mismatch (vỡ ảo tưởng)
 
-    → "AHA MOMENT" thường xảy ra ở Phase 4 RELOAD (Imagine-Final.md §1.5)
+    → "AHA MOMENT" thường xảy ra ở Phase 4 RELOAD (Imagine-Final.md §5)
     → "AHA MOMENT" cũng là khi 4 góc evaluation cập nhật mạnh nhất
     → 2 hiện tượng = 1 cơ chế nhìn từ 2 góc:
       Lifecycle góc nhìn: PFC reload + chunks mới = aha moment
@@ -2894,7 +2894,7 @@ THIẾU SÓT (MISSING — cần phát triển):
     = Steps? Common pitfalls? Timeline?
     = Cần practical guide riêng
     🟡 PARTIAL ANSWER (2026-04-10):
-      → Imagine-Final.md §1.5 Lifecycle đã cho cơ chế tự nhiên:
+      → Imagine-Final.md §5 Lifecycle đã cho cơ chế tự nhiên:
         BUILD → SAVE → BACKGROUND → RELOAD → REFINE
       → Phase 4 RELOAD = window tự nhiên cho transition
       → §6 file này đã expand: 4 góc × 3 outcomes + lifecycle integration
@@ -2934,11 +2934,12 @@ TRỤC CHÍNH — IMAGINE-FINAL CỤM (3 CHIỀU)
 
   3 file song hành, KHÔNG trùng lặp — mỗi file 1 chiều:
 
-  ① Imagine-Final.md — chiều CLARITY (độ rõ)
-     → §1: cơ chế tĩnh + 14 ngưỡng (Wish → Obsession)
-     → §1.5 Lifecycle: 5 phases động (BUILD → SAVE → BACKGROUND → RELOAD → REFINE)
+  ① Imagine-Final.md v3.0 — chiều CLARITY (độ rõ)
+     → §6: 5 levels (Wish → Obsession) + level-up mechanism + bootstrap
+     → §5: Lifecycle 5 phases (BUILD → SAVE → BACKGROUND → RELOAD → REFINE)
         + 3 long-term outcomes (COMPILE / ACHIEVE & FORGET / ABANDON)
-     → ĐẶC BIỆT §1 "body muốn × domain confirm" = 2 trục origin của file này
+     → §4.3 "body muốn × domain confirm" = 2 trục origin của file này
+     → §1: ranh giới hardware prediction vs constructive Imagine-Final (v3.0 NEW)
 
   ② FILE NÀY (Imagine-Final-Evaluation.md) — chiều QUALITY (chất lượng hướng đi)
      → 2 trục: Domain Fit × Hardware Fit
@@ -2962,9 +2963,10 @@ TRỤC CHÍNH — IMAGINE-FINAL CỤM (3 CHIỀU)
 INPUT (files cần đọc TRƯỚC)
 ═══════════════════════════════════════════════════════
 
-  Imagine-Final.md (mechanism + 14 ngưỡng + §1.5 Lifecycle 5 phases)
-    → §1: cơ chế tĩnh + reference pattern
-    → §1.5: lifecycle động — đặc biệt cho §6 file này (re-evaluation timing)
+  Imagine-Final.md v3.0 (mechanism + 5 levels + §5 Lifecycle 5 phases)
+    → §0-§4: cơ chế + boundary + reference pattern + PFC Operations
+    → §5: lifecycle động — đặc biệt cho §6 file này (re-evaluation timing)
+    → §6: 5 levels gradient (Wish → Obsession)
 
   Anchor-Schema.md (3rd dimension — Trust + 4 nguồn fill)
     → Cần đọc trước §0 file này (3D framework distinction)

@@ -1,8 +1,9 @@
 ---
 title: Protect — Observation Parameter
-version: 1.0
+version: 1.1
 created: 2026-04-20
-status: OBSERVATION PARAMETER v1.0
+updated: 2026-05-17
+status: OBSERVATION PARAMETER v1.1
 scope: |
   OBSERVATION FILE: Protect = named pattern khi quan sát loss aversion
   + ownership chunk dynamics. Protect không phải component hay operator —
@@ -19,31 +20,41 @@ purpose: |
   File này DEEP-DIVE: tại sao "của tôi" tồn tại ở body-level (compiled chunks),
   tại sao mất đau hơn được (asymmetric delta), hormone nào participate,
   khi nào protect adaptive vs pathological, và tại sao protect có ĐỐI TRỌNG
-  tự nhiên (giving dynamic — Agent.md §12.3).
+  tự nhiên (giving dynamic — Agent-Mechanism.md §12.3).
   Dùng cho người cần hiểu chi tiết.
 position: |
   Core-Deep-Dive/Observation/ — ngang hàng Novelty.md, Threat.md, Status.md,
   Connection.md, Drive.md, Boredom.md, Empathy.md, Schema.md, Liking-Wanting.md.
   Tất cả = observation parameter deep-dives, KHÔNG phải mechanism files.
-dependencies:
-  - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
-  - Body-Feedback-Mechanism.md — Chunk-Miss/Gap/Shift, §4 Compound, §5 Baseline Shift
-  - Chunk.md v2.0 — chunk substrate, compilation, hierarchy
-  - Agent.md — SPM mechanism, §12 body-need feeder, §12.3 mirror reward override
-  - Cortisol-Baseline.md v2.0 — amplifier (NOT cause), inertia, direction gate
-  - Clarification/Cortisol-Amplifier-Not-Cause.md — cortisol ≠ stress
-  - Clarification/Prediction-Error-Is-Not-Reward.md — PE ≠ reward
-  - Threat.md — 3 origin sources, loss as threat
-  - Connection.md — attachment chunks, overlap territory
-  - Status.md — territorial maps, Schema Access Map
-  - Empathy.md — SPM function, §7 sharing dynamics, compassion fatigue
-  - backup/Neurochemistry.md — §8 Vasopressin detail
 sources_backup: |
   Không có file cũ riêng cho Protect — nội dung phân tán trong
   Core drafts + Neurochemistry.md + scattered analysis.
   File mới viết hoàn toàn cho v7.8 observation parameter framework.
+  v1.1 KEY CHANGES (2026-05-17):
+    ⑪ +Architecture B alignment: protect = emergent observation trong
+       general-purpose system, KHÔNG phải hardwired "bản năng bảo vệ" riêng
+    ⑫ +Compiled/Fresh: compiled protect (auto, cost ≈ 0) vs fresh protect
+       (novel threat → PFC evaluate, costly)
+    ⑬ Agent-Mechanism.md → Agent-Mechanism.md (renamed 2026-04-24)
+    ⑭ Version refs updated (VP v2.0, Empathy v3.0, Connection v4.0)
+    ⑮ +IBM v1.0, +BFL v2.0 cross-refs
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+dependencies:
+  - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
+  - Body-Feedback-Mechanism.md v2.0 — Chunk-Miss/Gap/Shift, §4 Compound, §5 Baseline Shift
+  - Chunk.md v2.0 — chunk substrate, compilation, hierarchy
+  - Agent-Mechanism.md v2.0 — SPM mechanism, §12 body-need feeder, §12.3 mirror reward override
+  - Cortisol-Baseline.md v2.0 — amplifier (NOT cause), inertia, direction gate
+  - Clarification/Cortisol-Amplifier-Not-Cause.md — cortisol ≠ stress
+  - Clarification/Prediction-Error-Is-Not-Reward.md — PE ≠ reward
+  - Threat.md v1.1 — 3 origin sources, loss as threat
+  - Connection.md v4.0 — attachment chunks, overlap territory
+  - Status.md v2.1 — territorial maps, Schema Access Map
+  - Empathy.md v3.0 — SPM function, §7 sharing dynamics, compassion fatigue
+  - Inter-Body-Mechanism.md v1.0 — Architecture B §1.2, Compiled/Fresh §3
+  - Body-Feedback-Label.md v2.0 — vocabulary consistency
+  - backup/Neurochemistry.md — §8 Vasopressin detail
 ---
 
 # Protect — Observation Parameter
@@ -105,7 +116,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   - §6.2 — Sunk Cost as Protect Pattern
   - §6.3 — Digital Ownership (modern variation)
 - §7 — PROTECT × GIVING: ĐỐI TRỌNG TỰ NHIÊN
-  - §7.1 — Mirror Reward Override (Agent.md §12.3)
+  - §7.1 — Mirror Reward Override (Agent-Mechanism.md §12.3)
   - §7.2 — Evolutionary Balance: Share vs Keep
   - §7.3 — Compassion Fatigue = Body Self-Protect
 - §8 — PROTECT × OTHER PARAMETERS
@@ -160,6 +171,30 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ③ Replaceability assessment (PFC evaluate: thay thế được không?)
     → 3 thành phần này đều có mechanism riêng đã document
     → "Protect" = tên gọi TIỆN khi observe patterns kết hợp
+
+  ⭐ ARCHITECTURE B — TẠI SAO "PROTECT" TỒN TẠI (IBM §1.2):
+
+    Architecture A (côn trùng): escape circuit hardwired → stimulus→flee.
+    KHÔNG CÓ "protect" — vì không compile ownership, không có baseline
+    → mất tổ = build tổ mới (KHÔNG đau, vì không có compiled baseline)
+
+    Architecture B (mammals, humans):
+    General-purpose system COMPILE experience → form baseline →
+    mọi thứ đã compiled = PHẦN CỦA body-state →
+    mất = baseline violated = pain signal THẬT.
+
+    → "Protect" = ARCHITECTURE CONSEQUENCE:
+      Hệ thống general-purpose COMPILE mọi thứ →
+      mọi thứ đã compiled = có thể MẤT →
+      cần mechanism phát hiện + respond to loss →
+      = Protect EMERGE từ architecture, KHÔNG cần "bản năng bảo vệ" riêng
+
+    → Architecture B organisms protect MORE thứ hơn A:
+      A: chỉ protect body (hardwired)
+      B: protect body + compiled objects + people + ideas + identity
+      → SPECTRUM (§3) = consequence of general-purpose compilation depth
+
+    🟡 Architecture A/B framing = framework synthesis (IBM §1.2).
 
   GIÁ TRỊ CỦA TÊN GỌI:
     → Predict: người protect cao X → dễ predict hành vi quanh X
@@ -356,6 +391,37 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Giải thích tại sao "biết nên buông" mà body vẫn giữ
     → PFC override possible nhưng COSTLY (fight body signal liên tục)
     → Duration of override = limited (PFC executive function = depletable)
+```
+
+### §1.3b — Compiled vs Fresh Protect (IBM §3)
+
+```
+⭐ PROTECT CÓ 2 CHẾ ĐỘ XỬ LÝ — TƯƠNG ỨNG COMPILED/FRESH AXIS:
+
+  F1 COMPILED PROTECT (automatic, cost ≈ 0):
+    → Ownership chunks ĐÃ compiled deep → loss signal fires TỰ ĐỘNG
+    → Body react TRƯỚC KHI PFC kịp evaluate
+    → Ví dụ: ai chạm vào con → mẹ phản ứng NGAY (compiled protection)
+    → Ví dụ: nghe tin sếp restructure team → bụng thắt NGAY (compiled job ownership)
+    → = Phản ứng bảo vệ tức thời, KHÔNG CẦN suy nghĩ
+    → CÓ THỂ overgeneralize: protect quá mạnh cho thứ KHÔNG thực sự threatened
+
+  F2 FRESH PROTECT (PFC evaluate, cost > 0):
+    → Novel threat to valued entity → body alert NHƯNG PFC cần evaluate
+    → "Đây có thực sự threatened không? Mất thì sao? Thay thế được không?"
+    → Ví dụ: nghe tin công ty có thể bị mua lại → PFC đánh giá impact
+    → Ví dụ: bạn nói "tôi muốn nói chuyện" → PFC evaluate: threat hay không?
+    → Cost: PFC executive function + uncertainty + possible suppress body signal
+    → = Chậm hơn nhưng CHÍNH XÁC hơn compiled protect
+
+  F2 → F1 TRANSITION (compilation path):
+    → Repeated loss of same type → pattern compile → next time = automatic
+    → Người bị phản bội 3 lần → "dấu hiệu" compile → lần 4 body react NGAY
+    → = Protect schemas LEARN + COMPILE over time
+    → ⚠️ Trauma = forced compilation: 1 event CỰC MẠNH → compile ngay
+       → post-trauma protect = overgeneralized compiled response
+
+  🟡 Compiled/Fresh protect = framework synthesis (IBM §3, Kahneman S1/S2 consistent).
 ```
 
 ### §1.4 — Cortisol: Amplifier, NOT Cause
@@ -567,7 +633,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Protect intensity: MAXIMUM
     → = Cha mẹ protect con = strongest protect humans have
       (maximum compile depth × minimum replaceability)
-    → (Agent.md §12.6: "Grief = loss of real agent source
+    → (Agent-Mechanism.md §12.6: "Grief = loss of real agent source
        + active SPM firing on memory → painful open-loop")
 ```
 
@@ -648,7 +714,7 @@ NGƯỜI = PROTECT PHỨC TẠP NHẤT:
     ② Multi-modal RICH (face, voice, touch, smell, shared memory)
     ③ Replaceability thường THẤP (unique person, unique history)
     ④ SPM ACTIVE: Self-Pattern-Match fire on person → enrich ownership
-       (Agent.md §12: every successful SPM = partial agent input)
+       (Agent-Mechanism.md §12: every successful SPM = partial agent input)
     ⑤ Dynamic: người thay đổi → ownership chunks phải UPDATE
        (vật static, người dynamic → protect phức tạp hơn)
 
@@ -668,7 +734,7 @@ NGƯỜI = PROTECT PHỨC TẠP NHẤT:
     → Body expect patterns (voice, face, presence) → absent = Chunk-Miss
     → SPM VẪN fire on memory → body signals "social presence"
       NHƯNG feedback = 0 → painful open-loop
-    → (Agent.md §12.6: "Grief = loss of real agent source
+    → (Agent-Mechanism.md §12.6: "Grief = loss of real agent source
        + active SPM firing on memory → painful open-loop")
     → Chunk-Miss LIÊN TỤC, KHÔNG resolve (person KHÔNG return)
     → = Grief duration ≈ re-habituate time for deep compiled chunks
@@ -1086,7 +1152,7 @@ CHUNK-MISS TRONG PROTECT = CORE LOSS MECHANISM:
   │                        │ + Shift (self = parent │                │
   │                        │   → self = ?)          │                │
   │                        │ + SPM open-loop        │                │
-  │                        │   (Agent.md §12.6)     │                │
+  │                        │   (Agent-Mechanism.md §12.6)     │                │
   └────────────────────────┴───────────────────────┴────────────────┘
 
   TẠI SAO COMPOUND = DEVASTATING:
@@ -1232,7 +1298,7 @@ CHUNK-MISS TRONG PROTECT = CORE LOSS MECHANISM:
     → "Chỉ là mạng" → KHÔNG ĐÚNG ở body-level
     → Compiled chunks cho digital objects = same mechanism as physical
     → Mất digital = real grief (proportional to compile depth)
-    → (Agent.md §12: body-response mechanism doesn't distinguish
+    → (Agent-Mechanism.md §12: body-response mechanism doesn't distinguish
        "real" from "schema-driven" at cortisol/oxytocin level)
 ```
 
@@ -1249,12 +1315,12 @@ CHUNK-MISS TRONG PROTECT = CORE LOSS MECHANISM:
   = Protect có COUNTERWEIGHT tự nhiên — evolution built BOTH.
 ```
 
-### §7.1 — Mirror Reward Override (Agent.md §12.3)
+### §7.1 — Mirror Reward Override (Agent-Mechanism.md §12.3)
 
 ```
 🟡 MIRROR REWARD OVERRIDE — KHI "CHO" > "GIỮ":
 
-  (Agent.md §12.3 — Cây xoài scenario)
+  (Agent-Mechanism.md §12.3 — Cây xoài scenario)
 
   CƠ CHẾ:
     → Body-base satiated (xoài đã đủ ăn)
@@ -1350,7 +1416,7 @@ CHUNK-MISS TRONG PROTECT = CORE LOSS MECHANISM:
 
   PROTECT HIERARCHY IMPLIED:
     → Protect SELF > protect OTHERS (evolutionary priority)
-    → Body TÍNH: "nếu tôi suy yếu, không thể protect ai khác"
+    → Compiled pattern: "nếu tôi suy yếu, không thể protect ai khác"
     → → Self-protect TRƯỚC → recover → empathy restore
     → = Oxygen mask principle: put your own first
     → = Không phải "ích kỷ" — là body-level resource management
@@ -1439,7 +1505,7 @@ PROTECT × CONNECTION = COMPLEX OVERLAP:
     → = Body "giữ" vì SỢ MẤT, không phải vì MUỐN CÙNG
     → Common in: long unhappy relationships, codependency
 
-  GRIEF = PROTECT × CONNECTION COMPOUND (Agent.md §12.6):
+  GRIEF = PROTECT × CONNECTION COMPOUND (Agent-Mechanism.md §12.6):
     → Connection source GONE → SPM still fires on memory
     → Body senses "presence" (compiled patterns) nhưng feedback = 0
     → = Painful open-loop: protect fires, no resolution, no target
@@ -1695,6 +1761,8 @@ TOXIC PROTECT = CHRONIC + DISPROPORTIONAL + UNRESOLVABLE:
   │ Compassion fatigue = self-protect  │ 🟡         │ Reframe      │
   │ Cultural schemas shape protect     │ 🟡         │ Observation  │
   │ Cortisol direction gate for protect│ 🟡         │ Synthesis    │
+  │ Architecture B → protect emergent │ 🟡         │ Synthesis    │
+  │ Compiled/Fresh protect 2 modes    │ 🟡         │ Synthesis    │
   └─────────────────────────────────────┴────────────┴──────────────┘
 
   WHAT'S STRONG:
@@ -1709,9 +1777,9 @@ TOXIC PROTECT = CHRONIC + DISPROPORTIONAL + UNRESOLVABLE:
     → Mapping Chunk-Miss/Shift/Gap/Compound onto protect = novel reframe
     → f(replaceability × attachment) = framework formula, not tested empirically
     → Spectrum vật→người→ý tưởng→identity = logical extension, not proven
-    → Protect × Giving balance via mirror reward = synthesis from Agent.md + Empathy.md
+    → Protect × Giving balance via mirror reward = synthesis from Agent-Mechanism.md + Empathy.md
     → Gap→Miss transition for protect = extension of BFM mechanism
-    → SPM grief open-loop = synthesis from Agent.md §12
+    → SPM grief open-loop = synthesis from Agent-Mechanism.md §12
     → = Novel framework contributions, internally consistent, not yet validated
 
   WHAT'S HONESTLY UNCERTAIN:
@@ -1778,8 +1846,12 @@ CORE FILES:
   → Core-v7.8-Draft.md §8 — Protect definition, observation parameter framework
   → Core-v7.8-Draft.md §8 open Q — Hormone vs chunk contribution ratio
 
+DRILL SOURCE:
+  → Inter-Body-Mechanism.md v1.0 §1.2 — Architecture B (protect = emergent from general-purpose)
+  → Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh axis (compiled vs fresh protect)
+
 MECHANISM FILES:
-  → Body-Feedback-Mechanism.md §3.1 — Chunk-Shift (revalue)
+  → Body-Feedback-Mechanism.md v2.0 §3.1 — Chunk-Shift (revalue)
   → Body-Feedback-Mechanism.md §3.2 — Chunk-Miss (core loss mechanism, 3 variants)
   → Body-Feedback-Mechanism.md §3.3 — Chunk-Gap (→ Gap→Miss transition, 7 sub-mechanisms)
   → Body-Feedback-Mechanism.md §4 — Compound dynamics (100k case, principle formula)
@@ -1790,19 +1862,22 @@ MECHANISM FILES:
   → Cortisol-Baseline.md v2.0 §7 — Source > Level principle
   → Cortisol-Baseline.md v2.0 §10.6 — Cortisol × baseline coupling
   → Chunk.md v2.0 §2.4 NT7 — Cortisol direction gate at compile
-  → Agent.md §12 — Body-need feeder (social presence as need)
-  → Agent.md §12.3 — Mirror reward override (giving mechanism)
-  → Agent.md §12.6 — Grief = loss of agent source + SPM open-loop
+  → Agent-Mechanism.md §12 — Body-need feeder (social presence as need)
+  → Agent-Mechanism.md §12.3 — Mirror reward override (giving mechanism)
+  → Agent-Mechanism.md §12.6 — Grief = loss of agent source + SPM open-loop
 
 CLARIFICATION FILES:
   → Clarification/Cortisol-Amplifier-Not-Cause.md — Cortisol ≠ stress, ≠ pain cause
   → Clarification/Prediction-Error-Is-Not-Reward.md — PE ≠ reward, 3 pain sources
 
+VOCABULARY:
+  → Body-Feedback-Label.md v2.0 — prediction-delta, Compiled/Fresh, terminology consistency
+
 OBSERVATION PARAMETER FILES:
-  → Threat.md — 3 origin sources (Domain/Peer/Imposed), loss as threat
-  → Connection.md — Attachment chunks, hardware vs compiled, grief overlap
-  → Status.md — Schema Access Map, §9 Chunk Dynamics, territorial maps
-  → Empathy.md — SPM function, §7 sharing dynamics, §8 compassion fatigue
+  → Threat.md v1.1 — 3 origin sources (Domain/Peer/Imposed), loss as threat
+  → Connection.md v4.0 — Attachment chunks, hardware vs compiled, grief overlap
+  → Status.md v2.1 — Schema Access Map, §9 Chunk Dynamics, territorial maps
+  → Empathy.md v3.0 — SPM function, §7 sharing dynamics, §8 compassion fatigue
   → Novelty.md — Parallel: novelty = PULL toward new, protect = RESIST losing old
   → Boredom.md — Chunk-Miss ⓑ (mờ) mechanism cross-reference
   → Liking-Wanting.md — Wanting mechanisms overlap with protect motivation
@@ -1810,7 +1885,7 @@ OBSERVATION PARAMETER FILES:
 REFERENCE FILES:
   → backup/Neurochemistry.md §8 — Vasopressin detail (Young & Wang 2004)
   → Imagine-Final-Evaluation.md — Evaluation framework (protect × Imagine-Final)
-  → Valence-Propagation.md v1.1 — Body evaluation, chain propagation
+  → Valence-Propagation.md v2.0 — Body evaluation, chain propagation
 
 KEY RESEARCH CITATIONS:
   → 🟢 Kahneman & Tversky 1979 — Prospect Theory, loss aversion ~2×
@@ -1878,6 +1953,16 @@ HEALTHY vs TOXIC (§9): bounded/proportional/resolving + balanced giving
   vs chronic/disproportional + 5 pathological patterns
   → Cultural schemas SHAPE protect (imposed origin = most toxic source)
 
-FILE: ~1,883 lines | 11 sections + summary
-VERSION: v1.0 | 2026-04-20
+FILE: ~1,950 lines | 11 sections + summary
+VERSION: v1.1 | 2026-05-17 (refine từ v1.0)
+
+v1.1 CHANGES (2026-05-17):
+  ⑪ +Architecture B: protect = emergent observation trong general-purpose system
+     (Architecture A: không compile ownership → không có "protect")
+  ⑫ +Compiled/Fresh protect: F1 compiled (auto, cost ≈ 0) vs F2 fresh (PFC evaluate)
+     + trauma = forced compilation, overgeneralization risk
+  ⑬ Agent.md → Agent-Mechanism.md throughout (renamed 2026-04-24)
+  ⑭ Version refs updated (VP v2.0, Empathy v3.0, Connection v4.0, BFM v2.0)
+  ⑮ +IBM v1.0, +BFL v2.0 cross-refs
+  ⑯ Honest Assessment: +2 🟡 (Architecture B, Compiled/Fresh)
 ```

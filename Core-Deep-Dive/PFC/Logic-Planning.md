@@ -1,7 +1,8 @@
 ---
 title: Logic-Planning — Đóng gói toàn bộ Logic side
 created: 2026-04-17 (N+5 session)
-status: REFERENCE v1.0 — đóng gói cần và đủ, chuyên sâu hơn có AI hỗ trợ
+status: REFERENCE v1.1 — đóng gói cần và đủ, chuyên sâu hơn có AI hỗ trợ
+updated: 2026-05-17 (v1.1 — minor refs update: Logic-Feeling v2.0, Feeling v3.0, §8.2 progress, §1 Compiled/Fresh note)
 scope: Logic processing mode + Anchor/Label systems + Planning mechanism + AI-assisted Logic
 purpose: |
   Đóng gói GỌN GÀN toàn bộ "Logic side" của framework.
@@ -66,6 +67,14 @@ LOGIC PROCESSING:
   ⭐ KEY PROPERTY: Logic CHỈ chain được chunks ĐÃ CÓ LABEL.
   Chunk chưa có label → feeling territory (body biết, PFC chưa biết).
   Chunk có label → logic territory (PFC có thể chain, plan, communicate).
+
+  ⚠️ v2.0 NOTE (Logic-Feeling.md v2.0, 2026-05-17):
+  "Logic" = OBSERVER LABEL, không ph���i mechanism riêng.
+  Trục thật: Compiled ←→ Fresh (compilation level).
+  "Logic" = label khi output SHAREABLE (deterministic domain) hoặc PFC visibly active.
+  "Feeling" = label khi output NON-SHAREABLE (compiled body-direct).
+  File này vẫn dùng "Logic" vì = pragmatic label cho territory AI hỗ trợ.
+  Detail: Logic-Feeling.md v2.0 §1-§2.
 ```
 
 **Logic = map.** Chính xác, chi tiết, chỉ cover nơi ĐÃ BIẾT (đã label). Không thấy ngoài map.
@@ -532,7 +541,7 @@ F1 Child-Chunk-Development (12 files, ~11,596L) chứng minh:
 ### §8.1 — Logic side: đã mô tả CẦN VÀ ĐỦ
 
 ```
-✅ Logic definition: Logic-Feeling.md §1 (rules-based, sequential, verifiable)
+✅ Logic definition: Logic-Feeling.md v2.0 §1-§2 (Compiled/Fresh axis, labels)
 ✅ Anchor system: §2 file này (3 tầng: Individual / Group / Global)
 ✅ Communication formats: §3 file này + 5 files Language-Structure-Analysis/
 ✅ Planning mechanism: §4 file này (chain chunks → Imagine-Final)
@@ -559,12 +568,16 @@ FEELING ĐÃ CÓ:
   ✅ Child development: F1 12 files (developmental timeline) (2026-04-16 COMPLETE)
   ✅ Cortisol/Threat: NT7 refined (damage mechanism) (2026-04-16 REV1 COMPLETE)
 
-FEELING CẦN THÊM:
-  ⏳ Feeling in adult life: cách feeling hoạt động ở adult (beyond child development)
-  ⏳ Feeling repair: 3 update paths chi tiết (re-associate, novelty hijack, therapy)
-  ⏳ Feeling literacy: cách TRAIN feeling awareness (practical)
-  ⏳ Feeling × AI era: AI thay đổi gì cho feeling development
-  ⏳ Feeling × creativity: novel chunk formation via feeling (F4 territory)
+FEELING ĐÃ HOÀN THÀNH THÊM (updated 2026-05-17):
+  ✅ Feeling.md v3.0 (2,122L) — +PFC=Lawyer, +Compiled/Fresh×7-Layer, +Architecture B
+  ✅ Feeling-Mechanism-Deep.md — 8-step flow, reward, gradient, quality
+  ✅ Feeling-Literacy-Training.md — 5-stage, Focusing, AI era
+  ✅ Feeling-Chunk-Bridge.md — bidirectional mapping
+  ✅ Body-Feedback/ folder (10 files, ~16,500L) — full mechanism
+  ✅ Logic-Feeling.md v2.0 — Compiled/Fresh = trục thật
+  ✅ Logic-Feeling-Balance.md v2.0 — META-PRINCIPLE, domain=arbiter
+  ✅ Inter-Body-Mechanism.md v1.0 — 8 drill principles formalized
+  ⏳ Feeling × creativity: novel chunk formation (F4 territory)
   ⏳ Master synthesis: gộp tất cả thành bức tranh tổng thể
 ```
 
@@ -605,8 +618,8 @@ FEELING CẦN THÊM:
 
 | File | Nội dung | Status |
 |---|---|---|
-| [Logic-Feeling.md](Logic-Feeling.md) | 2 processing modes: Logic vs Feeling | ✅ v1.0 COMPLETE |
-| [Feeling.md](Body-Base/Feeling/Feeling.md) | 7-layer feeling structure | ✅ COMPLETE |
+| [Logic-Feeling.md](Logic-Feeling.md) | Compiled/Fresh axis + observer labels | ✅ v2.0 (2026-05-17) |
+| [Feeling.md](Body-Base/Feeling/Feeling.md) | 7-layer + PFC=Lawyer + Compiled/Fresh | ✅ v3.0 (2026-05-17) |
 | [Feeling-Sources.md](Body-Base/Feeling/Feeling-Sources.md) | 10 feeling channels | ✅ COMPLETE |
 | [Somatic-Articulation-Loop.md](Imagination/Somatic-Articulation-Loop.md) | Body→Words transition | ✅ COMPLETE |
 | [Imagine-Final.md](Imagination/Imagine-Final.md) | Reference pattern (plan target) | ✅ COMPLETE |
@@ -650,4 +663,4 @@ FEELING CẦN THÊM:
 > Logic side ĐÓNG GÓI. Framework tiếp tục ĐI SÂU Feeling side.
 > "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng."
 >
-> Phiên bản: v1.0, 2026-04-17.
+> Phiên bản: v1.1, 2026-05-17.

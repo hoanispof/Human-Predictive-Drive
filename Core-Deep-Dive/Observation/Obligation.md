@@ -1,8 +1,9 @@
 ---
 title: Obligation — Observation Parameter
-version: 1.0
+version: 1.1
 created: 2026-04-25
-status: OBSERVATION PARAMETER v1.0
+updated: 2026-05-17 v1.1 — +Architecture B, +By-product match (exchange), +PFC=Lawyer, +3-cost, Entity-Compiled rename, version refs sync
+status: OBSERVATION PARAMETER v1.1
 scope: |
   OBSERVATION FILE: Obligation = named pattern khi quan sát COMPILED PREDICTION
   về "cost phải trả" để MAINTAIN access tới agent-as-external-tool.
@@ -28,6 +29,13 @@ purpose: |
   ⑧ Parenting → obligation calibration (developmental)
   ⑨ Individual → community scaling
   ⑩ Cross-parameters (×Gratitude, ×Autonomy, ×Threat, ×Status, ×Meaning, ×Protect)
+  v1.1 KEY CHANGES:
+  ⑪ Architecture B framing: obligation = tracking emergent từ general-purpose system
+  ⑫ By-product match: exchange = mutual by-product matching (Inter-Body §5.4)
+  ⑬ PFC=Lawyer: PFC rationalize/suppress obligation assessment (Inter-Body §7)
+  ⑭ 3-cost model: obligation fulfillment cost = PFC draft + Suppress + Uncertainty
+  ⑮ Entity-Compiled rename (từ Entity-Owned)
+  ⑯ F1 Compiled / F2 Fresh label (từ F1 Feeling / F2 Logic)
 position: |
   Core-Deep-Dive/Observation/ — ngang hàng Gratitude.md, Meaning.md, Status.md,
   Connection.md, Empathy.md, Protect.md, Autonomy-Hardware.md, etc.
@@ -36,18 +44,20 @@ position: |
 dependencies:
   - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
   - Status.md v2.0 — Resource Access Map, 3 modes (Lấy/Trao đổi/Comply), §5 Exchange
-  - Gratitude.md v1.0 — §2.7 (prerequisite ⑦), §5 Gift-Obligation Spectrum
+  - Gratitude.md v2.0 — §2.7 (prerequisite ⑦), §5 Gift-Obligation Spectrum
   - Agent-Mechanism.md — §12 body-need feeder, agents as external tools, §12.2b 2-luồng
-  - Valence-Propagation.md v1.2 — L1/L2 distinction, Body-Base Extension
-  - Connection.md v3.0 — §3.3 2-luồng, §5 ④ giving reward, §8 virtual chunks
+  - Valence-Propagation.md v2.0 — L1/L2 distinction, Body-Base Extension
+  - Connection.md v4.0 — §3.3 2-luồng, §5 ④ giving reward, §8 virtual chunks
   - Autonomy-Hardware.md — efference copy, self-action = reward, §5 2-layer dissonance
   - Threat.md — Internal-Predict, no endpoint → sustained cortisol
   - Protect.md — f(replaceability × attachment), loss aversion
   - Body-Feedback-Mechanism.md — Chunk-Gap (§3.3), cortisol holding, prediction
   - Cortisol-Baseline.md v2.0 — amplifier, sustained monitoring
-  - Empathy.md v2.0 — SPM F1/F2, community-level mechanism
+  - Empathy.md v3.0 — SPM F1/F2, community-level mechanism
   - Meaning.md v2.0 — §7.7 ×Gratitude, life-level Anchor-Schema
   - Chunk.md v2.0 — chunk substrate, compilation
+  - Inter-Body-Mechanism.md v1.0 — §1.2 Architecture B, §4 3-cost, §5.4 by-product match, §7 PFC=Lawyer
+  - Body-Feedback-Label.md v2.0 — vocabulary reference, 3-tier labels, prediction-delta
 sources_backup: |
   v0.1: Obligation-Outline.md → backup/Obligation-Outline-v0.1-backup.md
 language: Tiếng Việt primary + English technical terms
@@ -243,6 +253,37 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Prediction = PRODUCT of compilation
     → Trẻ chưa có experience → chưa compile → chưa predict → chưa có obligation
 
+
+  ⭐ ARCHITECTURE B — TẠI SAO OBLIGATION TỒN TẠI:
+
+    Inter-Body-Mechanism.md §1.2: Con người dùng Architecture B
+    (general-purpose reward + compilation + social hardware + PFC).
+
+    Architecture A (côn trùng): hardwired circuit riêng cho từng need
+      → food→reward, mate→reward — KHÔNG CẦN tracking, KHÔNG CẦN agent
+    Architecture B (con người): general-purpose, LEARN từ environment
+      → Cần 15-20 NĂM compile → DEPENDENT on agents suốt childhood
+      → Adult vẫn dependent: chuyên môn hóa → KHÔNG tự làm mọi thứ
+      → = NEED agents as external tools → NEED TRACKING mechanism
+
+    Obligation = tracking mechanism EMERGENT từ Architecture B:
+      → Không phải "social module" riêng biệt
+      → Không phải "moral circuit" hardwired
+      → = General-purpose compilation system TÍCH LŨY reciprocity patterns
+      → = Cùng mechanism compile "nóng → rút tay" cũng compile "nhờ → phải trả"
+      → = Obligation KHÔNG PHẢI special — chỉ là compilation applied to SOCIAL DOMAIN
+
+    TẠI SAO Architecture A KHÔNG CẦN obligation:
+      → Côn trùng: no extended dependency → no agent tracking needed
+      → Mỗi individual = self-sufficient (hardwired cho MỌI need)
+      → = No exchange → no obligation
+
+    → Obligation = ARCHITECTURAL CONSEQUENCE of being general-purpose learners
+    → = Cái giá của flexibility: cần agents → cần track cost → obligation emerges
+
+    🟡 Architecture B → obligation as emergent tracking = framework synthesis
+      (Inter-Body-Mechanism.md §1.2)
+
     🟡 "Compiled prediction, not imagination" = framework synthesis
     🟢 Chunk compilation mechanism = established (Chunk.md, BFM.md)
     🟢 Reciprocity expectation = developmental research (Piaget, Kohlberg)
@@ -326,7 +367,7 @@ OBLIGATION KHÔNG PHẢI:
 
   ⭐ KEY: CÓ 3 YẾU TỐ quyết định valence:
     ① CHỌN vs BỊ ÉP (Autonomy-Hardware §5: efference copy present/absent)
-    ② L2 BUFFER (Entity-owned: agent = body-base extension?)
+    ② L2 BUFFER (Entity-Compiled: agent = body-base extension?)
     ③ COST CLARITY (biết trả gì → manageable; không biết → anxiety)
 
     Chọn + L2 cao + Cost rõ → POSITIVE obligation
@@ -469,6 +510,38 @@ OBLIGATION CÓ BODY SIGNALS THẬT:
     → Obligation pending → subtle muscle tension (shoulders, jaw)
     → Compiled, không cần conscious awareness
     → Giải quyết → tension release → relief = reward signal
+
+
+  ⭐ 3-COST MODEL CHO OBLIGATION FULFILLMENT (Inter-Body-Mechanism.md §4):
+
+    Fulfill obligation = 3 NGUỒN COST INDEPENDENT:
+
+    ① PFC DRAFT COST (metabolic):
+      → Plan HOW to fulfill → PFC chain novel paths → glucose consumed
+      → TYPE 1 (financial): draft cost THẤP ("trả $50" = simple plan)
+      → TYPE 3 (ân tình): draft cost CAO ("trả gì cho đủ?" = novel chain DÀI)
+      → = f(chain_length × novelty_degree)
+
+    ② SUPPRESS COST (efference mismatch):
+      → Fulfill obligation TRÁI với body want → body RESIST
+      → "Rửa bát dù ghét" = suppress "muốn chơi" → efference mismatch
+      → "Đi gặp anh B dù ngại" = suppress "muốn ở nhà" → cost
+      → = f(intensity × duration) — chronic suppress → burnout
+
+    ③ UNCERTAINTY COST (cortisol holding):
+      → KHÔNG BIẾT fulfill có đủ không → hold multiple options open
+      → TYPE 3 (ân tình): "trả gì? đủ chưa? anh B hài lòng?"
+        → 3+ options × high stakes × weeks/months = cortisol SUSTAINED
+      → TYPE 1 (financial): uncertainty ≈ 0 → cost ③ ≈ 0
+
+    → TYPE 3 (ân tình) = NẶNG NHẤT vì ALL 3 costs CAO ĐỒNG THỜI:
+      PFC draft dài (novel problem) + suppress (ngại) + uncertainty (mờ)
+    → TYPE 2 (exchange) = NHẸ NHẤT vì ALL 3 costs THẤP:
+      PFC draft ngắn (clear terms) + suppress thấp (fair) + uncertainty thấp (rõ)
+    → = 3-cost model GIẢI THÍCH tại sao cùng obligation, khác WEIGHT
+
+    🟡 3-cost model applied to obligation fulfillment = framework synthesis
+      (Inter-Body-Mechanism.md §4)
 
   🟢 Cortisol and social obligation: Dickerson & Kemeny 2004
   🟢 Cognitive load from social debts: neuroimaging literature
@@ -640,6 +713,49 @@ OBLIGATION CÓ BODY SIGNALS THẬT:
   🟡 Status gap as multiplier = framework synthesis
   🟡 "Obligation inflation" from power asymmetry = framework claim
   🟢 Power dynamics in reciprocity (Emerson 1962, Blau 1964)
+```
+
+### §3.3 — PFC=Lawyer distorts obligation assessment
+
+```
+⭐ PFC = LAWYER, KHÔNG PHẢI JUDGE (Inter-Body-Mechanism.md §7):
+
+  PFC KHÔNG trung lập khi assess obligation.
+  PFC = lawyer cho body-base: tạo narrative biện hộ cho action body ĐÃ muốn.
+
+  3 CÁCH PFC=LAWYER DISTORT OBLIGATION:
+
+    ① FABRICATE obligation (tạo obligation không có):
+      Body-base muốn maintain relationship (L2) → NHƯNG relationship unhealthy
+      → PFC fabricate: "tôi NỢ anh ấy, tôi PHẢI ở lại"
+      → Thật ra: body-base sợ mất L2, PFC lawyer biến SỢ → "nợ ân tình"
+      → = Obligation narrative = cover cho attachment fear
+
+    ② SUPPRESS obligation (phủ nhận obligation thật):
+      Body-base detect obligation (đã nhận, chưa trả) → NHƯNG trả = costly
+      → PFC suppress: "mình đâu có nợ, bạn cho vì vui thôi"
+      → Thật ra: obligation THẬT nhưng PFC rationalize away
+      → = "Quên ơn" CÓ THỂ là PFC lawyer suppress, không phải "xấu tính"
+
+    ③ AMPLIFY obligation (phóng đại obligation):
+      Body-base detect mild obligation → NHƯNG anxiety trait cao
+      → PFC amplify: "trời ơi mình nợ NHIỀU QUÁ, không bao giờ trả được"
+      → Thật ra: obligation MODERATE nhưng PFC over-predict (§2 Stage 3)
+      → = Over-calibrated pattern (§8) + PFC lawyer CÙNG direction → spiral
+
+  DOMAIN = ARBITER (Inter-Body-Mechanism.md §6.4):
+    PFC narrative CÓ THỂ SAI. Domain reality = final check.
+    → "Tôi nợ anh B rất nhiều" ← PFC nói vậy. NHƯNG:
+      Nếu anh B cho vì L2 thật → obligation THẤP → PFC over-predict
+      Nếu anh B cho vì manipulate → obligation thật CAO → PFC under-predict
+    → Chỉ DOMAIN CONTACT (time + interaction) mới reveal truth
+    → Timeline: scam artists = reveal years later (Gazzaniga split-brain:
+      PFC can confabulate convincingly — Inter-Body §7.1)
+
+  🟡 PFC=Lawyer distorts obligation assessment = framework synthesis
+    (Inter-Body-Mechanism.md §7 applied to obligation)
+  🟢 Split-brain confabulation (Gazzaniga 2000): PFC creates post-hoc narratives
+  🟢 Self-serving bias in reciprocity perception = documented
 ```
 
 ---
@@ -938,6 +1054,48 @@ TYPE 5 — IDENTITY:
     → Reciprocal altruism (Trivers 1971): organisms EVOLVED to track reciprocity
     → = Obligation = BODY-LEVEL bookkeeping system
 
+
+  ⭐ TRAO ĐỔI = MUTUAL BY-PRODUCT MATCHING (Inter-Body-Mechanism.md §5.4):
+
+    By-product match principle:
+      Entity B fill gap CỦA B → output = by-product
+      → by-product TÌNH CỜ match direction CỦA A → A receives reward
+      → B KHÔNG làm vì A. B fill gap CỦA B. A nhận reward từ by-product.
+
+    Trao đổi = MUTUAL by-product match:
+
+      Nhân viên (B):
+        Gap_B = "cần salary để nuôi gia đình"
+        Action_B = làm việc chăm chỉ
+        Output_B = work output (by-product)
+        → match gap CỦA SẾP (cần work done) → sếp reward
+
+      Sếp (A):
+        Gap_A = "cần team hoàn thành project"
+        Action_A = trả lương, provide resources
+        Output_A = salary (by-product)
+        → match gap CỦA NHÂN VIÊN (cần tiền) → nhân viên reward
+
+      → CẢ 2 fill gap CỦA MÌNH → by-product MATCH nhau → cả 2 reward
+      → = Trao đổi mode (Status §5) = mutual by-product matching
+      → = TYPE 2 obligation ≈ 0 khi balanced VÌ match SYMMETRIC
+
+    KHI BY-PRODUCT MATCH BẤT CÂN:
+      "Tôi làm nhiều hơn lương" → output_tôi > output_sếp → ASYMMETRIC
+      → Body detect: "tôi give more by-product than I receive"
+      → = Resentment (§4.3 TYPE 2 imbalance)
+      → = Equity theory (Adams 1963) = by-product match language
+
+    LÃNH CHÚA = ASYMMETRIC BY-PRODUCT MATCH CỰC ĐOAN:
+      Lãnh chúa cho phép vay → by-product cho lãnh chúa: ≈ 0 (ký giấy)
+      Dân nhận tiền → by-product cho dân: phải trả ∞ (lãnh chúa quyết)
+      → = Asymmetric match → obligation INFLATION (§3.2)
+      → Power = khả năng FORCE asymmetric by-product match
+
+    🟡 Exchange = mutual by-product matching = framework synthesis
+      (Inter-Body-Mechanism.md §5.4 applied to obligation domain)
+
+
   CONNECTION BRIDGE:
     Connection.md §8: Virtual chunks access:
       1 person = own chunks → ceiling fixed
@@ -1180,7 +1338,7 @@ ACCESS COST QUÁ CAO → GIẢM COOPERATION:
 
   ┌─────────────────────┬────────────────┬────────────────┬────────────────┐
   │                     │ OBLIGATION     │ L2 (Entity-    │ SPM            │
-  │                     │ (Prediction)   │ owned)         │ (Input)        │
+  │                     │ (Prediction)   │ Compiled)      │ (Input)        │
   ├─────────────────────┼────────────────┼────────────────┼────────────────┤
   │ Bản chất            │ PFC prediction │ Compiled       │ Simulate       │
   │                     │ of cost        │ valence        │ agent state    │
@@ -1476,10 +1634,10 @@ SPM (SELF-PATTERN-MATCH) = INPUT CHO OBLIGATION PREDICTION:
       (early experiences compile SÂU hơn — Chunk.md §3: first chunks = deepest)
 
   ⚠️ OBLIGATION CÓ THỂ TRAP TRONG NON-RESONANT INTERACTION:
-    Khi parent-child Pattern-Resonance Baseline thấp (khác tính) + obligation mạnh:
+    Khi parent-child Resonance Baseline thấp (khác tính) + obligation mạnh:
     → Child buộc engage dù SPM fail → suppress + perform → "functional avoidant"
-    → Obligation DUY TRÌ interaction mà Pattern-Resonance KHÔNG emerge
-    → Chi tiết: Pattern-Resonance.md §7.9, Love-Analysis §7.3c biến ⑤ × ⑦
+    → Obligation DUY TRÌ interaction mà Resonance KHÔNG emerge
+    → Chi tiết: By-Product-Gap-Resonance.md §7.9, Love-Analysis §7.3c biến ⑤ × ⑦
 
   🟡 Obligation calibration = developmental framework synthesis
   🔴 "First calibration creates hard-to-shift baseline" = hypothesis
@@ -2090,6 +2248,10 @@ Case 10: "Tôi thích cộng đồng, mọi người tốt bụng, tôi giúp kh
   → Community-level = O(1) vs individual = O(n)
   → Obligation valence = f(choice, L2, cost_clarity)
   → Obligation × Meaning: aligned → reinforce; conflict → block
+  → Architecture B → obligation as emergent tracking (not special module)
+  → Exchange = mutual by-product matching (Inter-Body §5.4)
+  → PFC=Lawyer distorts obligation: fabricate/suppress/amplify (Inter-Body §7)
+  → 3-cost model for obligation fulfillment: PFC draft + Suppress + Uncertainty (Inter-Body §4)
 
 
 🔴 HYPOTHESIS (logical nhưng chưa có evidence trực tiếp):
@@ -2163,17 +2325,23 @@ Case 10: "Tôi thích cộng đồng, mọi người tốt bụng, tôi giúp kh
 
 ```
 CORE MECHANISM FILES:
+  → Inter-Body-Mechanism.md v1.0 — §1.2 Architecture B (obligation as emergent tracking),
+    §4 3-cost model (PFC draft + Suppress + Uncertainty applied to obligation),
+    §5.4 By-product match (exchange = mutual by-product matching),
+    §7 PFC=Lawyer (distort obligation assessment: fabricate/suppress/amplify)
+  → Body-Feedback-Label.md v2.0 — vocabulary reference, 3-tier labels,
+    prediction-delta terminology, Entity-Compiled reframe
   → Status.md v2.0 — §4 3 modes (Lấy/Trao đổi/Comply), §5 Trao đổi = phổ biến nhất,
     §5.1 Chuyên môn hóa, §5.3 Flatten gap
-  → Gratitude.md v1.0 — §2.7 (prerequisite ⑦ Obligation assessment),
+  → Gratitude.md v2.0 — §2.7 (prerequisite ⑦ Obligation assessment),
     §5 Gift-Obligation Spectrum, §5.3 Obligation preview
   → Agent-Mechanism.md — §12 body-need feeder, §12.2b 2-luồng L1/L2,
     §12.4 Mode 1/2 virtual agents, §12.5 collective agents
-  → Valence-Propagation.md v1.3 — §2 Body-Base Extension dimension,
+  → Valence-Propagation.md v2.0 — §2 Body-Base Extension dimension,
     L1/L2 distinction, "2 luồng INDEPENDENT"
-  → Body-Coupling.md v1.0 — coupling mechanism: extension/entanglement
+  → Body-Coupling.md v2.0 — coupling mechanism: extension/entanglement
     explains WHY obligation weight varies (coupling depth → L2 magnitude)
-  → Connection.md v3.1 — §3.3 2-luồng reward, §5 ④ giving reward,
+  → Connection.md v4.0 — §3.3 2-luồng reward, §5 ④ giving reward,
     §8 virtual chunks access, §14 collective connection
   → Autonomy-Hardware.md — efference copy, self-action = reward,
     §5 2-layer dissonance (bị ép + kết quả tốt VẪN = dissonance)
@@ -2184,8 +2352,8 @@ CORE MECHANISM FILES:
     cortisol holding, §5 Baseline Shift
   → Cortisol-Baseline.md v2.0 — amplifier, §7.7 5 Cortisol Roles taxonomy
     (Obligation dùng chủ yếu Role ② Holding + Role ③ Threat-sustained)
-  → Empathy.md v2.0 — SPM F1/F2, community-level, Pattern-Resonance
-  → Self-Pattern-Match.md v2.1 — F1 feeling, F2 logic predict agent expectations
+  → Empathy.md v3.0 — SPM F1/F2, community-level, Resonance
+  → Self-Pattern-Match.md v3.0 — F1 Compiled + F2 Fresh, predict agent expectations
 
 OBSERVATION PARAMETER FILES:
   → Meaning.md v2.0 — §7.7 ×Gratitude (open), §3 5 types (ROLE → obligation gateway)
@@ -2234,6 +2402,7 @@ KEY RESEARCH CITATIONS:
 
 STATUS:
   → v1.0 COMPLETE — 2026-04-25
+  → v1.1 REFINED — 2026-05-17
   → KEY CONTRIBUTIONS v1.0:
     ① "Obligation = compiled prediction, not imagination" (4 stages mechanism)
     ② "Obligation = tracking mechanism for exchange" (not moral/social norm)
@@ -2246,6 +2415,13 @@ STATUS:
     ⑨ "Parenting shapes obligation calibration" (over/under/balanced)
     ⑩ "Community trade = O(1)" (vs individual = O(n))
     ⑪ "Obligation valence = f(choice, L2, cost_clarity)" (not always negative)
+  → v1.1 ADDITIONS:
+    ⑫ Architecture B framing: obligation = tracking emergent từ general-purpose system
+    ⑬ Exchange = mutual by-product matching (Inter-Body §5.4)
+    ⑭ PFC=Lawyer distorts obligation assessment (fabricate/suppress/amplify)
+    ⑮ 3-cost model for obligation fulfillment: PFC draft + Suppress + Uncertainty
+    ⑯ Entity-Compiled rename + F1 Compiled/F2 Fresh labels + version refs sync
+    ⑰ +Inter-Body-Mechanism.md v1.0 + Body-Feedback-Label.md v2.0 dependencies
 ```
 
 ---
@@ -2253,7 +2429,7 @@ STATUS:
 ## SUMMARY
 
 ```
-OBLIGATION = OBSERVATION PARAMETER (v1.0)
+OBLIGATION = OBSERVATION PARAMETER (v1.1)
 = Observable pattern khi body detect COMPILED PREDICTION
   về cost liên tục để MAINTAIN access tới agent-as-external-tool.
 
@@ -2305,8 +2481,8 @@ COMMUNITY SCALING (§9): O(n) → O(1)
 
 CASES (§11): 10/10 KHỚP — từ bạn cùng lớp → lãnh chúa → vợ nội trợ → cộng đồng
 
-FILE: ~2,300 lines | 13 sections + summary
-VERSION: v1.0 | 2026-04-25
+FILE: ~2,470 lines | 13 sections + summary
+VERSION: v1.1 | 2026-05-17 (refined from v1.0 2026-04-25)
 ```
 
 ---

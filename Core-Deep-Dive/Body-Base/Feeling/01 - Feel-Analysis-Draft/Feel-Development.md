@@ -12,14 +12,14 @@ Feel-Development is the **SYNTHESIS FILE** that ties together:
 - Expanded Feeling definition (PFC observation interface)
 - Multi-axis development model (5 axes)
 - 3-component structure (Channels → PFC+Chunks → Response)
-- Developmental stages (Self-Pattern Match + Pattern Resonance)
+- Developmental stages (Self-Pattern Match + Resonance)
 - Math formula analogy (cumulative + branching chunks)
 - Scaffolding + training + arrested development
 
 **Depends on** (must be done first):
 - Feel-Example-Draft.md filled (Phase 2)
 - Self-Pattern-Match.md filled (Phase 3)
-- Pattern-Resonance.md filled (Phase 3)
+- By-Product-Gap-Resonance.md filled (Phase 3)
 
 **Then** this file synthesizes all.
 
@@ -33,7 +33,7 @@ Feel-Development is meta-framework describing HOW feeling capabilities
 develop through stages + axes. Ties together:
 - Feeling.md (root concept)
 - Self-Pattern-Match.md (inward mechanism)
-- Pattern-Resonance.md (outward mechanism)
+- By-Product-Gap-Resonance.md (outward mechanism)
 - Feel-Example-Draft.md (concrete examples)
 
 Parallel to existing Feeling/ files but at meta level.
@@ -72,7 +72,7 @@ ALL are PFC observing unconscious processing, whether:
 - Predictions (interoceptive + exteroceptive forecasts)
 - Memory retrieval (sense of remembering)
 - Inference (sense of conclusion)
-- Simulator (Pattern Resonance output)
+- Simulator (Resonance output)
 - Integration (diffuse multi-source states)
 
 Unifies fields previously separated: interoception research,
@@ -132,7 +132,7 @@ This partially resolves Q3 (Logic-Feeling flow):
 ### §3.1 Component 1: Channels (Input)
 - Body interoceptive
 - Emotional (subset or integration of channels)
-- Social (Pattern Resonance outputs)
+- Social (Resonance outputs)
 - Cognitive / metacognitive
 - Predictive
 - Schema activation
@@ -240,7 +240,7 @@ Chunks for feeling detection are like math formulas:
 
 ### §5.3 Applied to feeling chunks
 - Distress/comfort → discriminate types → verbal labels → complex
-  emotions → Pattern Resonance ToM → metacognitive feeling → existential
+  emotions → Resonance ToM → metacognitive feeling → existential
 - Similar branching: body deep vs social deep vs cognitive deep
 - Each feeling domain = specialization tree
 
@@ -350,7 +350,7 @@ systematically.
 
 ### §9.1 Specific risks
 - Screen mediation → arrested body channels
-- Algorithm filter bubbles → narrow Pattern Resonance library
+- Algorithm filter bubbles → narrow Resonance library
 - Parasocial relationships → distorted templates
 - AI companionship → cognitive without embodied validation
 
@@ -434,12 +434,12 @@ Teams benefit from profile diversity. Recognize blindspots at scale.
 
 ### Within Feeling/ folder
 - Feeling.md (update needed — root definition)
-- Feeling-Sources.md (update needed — channels + Pattern Resonance
+- Feeling-Sources.md (update needed — channels + Resonance
   rename)
 - Feeling-Accuracy.md
 - Feeling-Research.md
 - Self-Pattern-Match.md
-- Pattern-Resonance.md
+- By-Product-Gap-Resonance.md
 - Feel-Example-Draft.md
 
 ### Core-Deep-Dive
@@ -463,7 +463,7 @@ Teams benefit from profile diversity. Recognize blindspots at scale.
 **Prerequisites before filling:**
 1. Feel-Example-Draft.md must be substantially filled (100+ examples)
 2. Self-Pattern-Match.md content filled
-3. Pattern-Resonance.md content filled
+3. By-Product-Gap-Resonance.md content filled
 4. Edge cases tested (reflexes, dreams, anesthesia, subliminal)
 
 **Key writing guidance:**

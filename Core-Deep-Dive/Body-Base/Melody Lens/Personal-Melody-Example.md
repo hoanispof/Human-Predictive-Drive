@@ -69,7 +69,7 @@ PROFILE: phần lớn nhân loại — cuộc sống bình thường, ổn đị
   ┌────────────────────────────────────────────────────┐
   │  Melody: ♩♫♩♫♩♩ thêm chunks social + career         │
   │  Career: FIT chunks đã compile → prediction match    │
-  │  Partner: Pattern-Resonance → melody ẤM thêm        │
+  │  Partner: Resonance → melody ẤM thêm        │
   │  Novelty: career mới → positive delta → dần compile  │
   │  = "Bắt đầu cuộc sống riêng — đâu vào đấy"         │
   └────────────────────────────────────────────────────┘

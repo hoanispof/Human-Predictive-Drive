@@ -25,7 +25,7 @@
 >
 > **Tiền đề:**
 >   Core-v7.8-Draft.md (cycle-based architecture)
->   Imagine-Final.md + §1.5 Lifecycle (5 phases)
+>   Imagine-Final.md v3.0 + §5 Lifecycle (5 phases)
 >   Imagination-Analysis-v2.md v2.1 (process imagine mechanism)
 >   Anchor-Schema.md (4 nguồn fill, đặc biệt ②③)
 >   PFC-Hardware.md (PFC physical architecture + capacity)
@@ -510,7 +510,7 @@ TRẠNG THÁI:
   → Person đang sống đời thường, làm việc, đọc, interact
   → Mỗi experience = 1 chunks compile vào vô thức
   → Chunks này KHÔNG được tag là "knowledge" — chỉ là memory traces
-  → Phase 3 BACKGROUND processing (Imagine-Final.md §1.5) liên tục
+  → Phase 3 BACKGROUND processing (Imagine-Final.md §5) liên tục
     consolidate, link, reorganize chunks
   → Đây là giai đoạn "silent" — không có somatic signal yet
   → Có thể kéo dài nhiều ngày, tuần, tháng, năm
@@ -545,7 +545,7 @@ MECHANISM (từ framework):
   → Chunks compile (Chunk-Analysis/Chunk.md v2.0 §2): 5 mechanisms + compile rate formula
   → prediction-delta (PFC-Hardware.md): only fires khi có change, background
     accumulation không fire VTA significant
-  → Phase 3 BACKGROUND (Imagine-Final §1.5): REM + DMN + spreading activation
+  → Phase 3 BACKGROUND (Imagine-Final §5): REM + DMN + spreading activation
     liên tục reorganize chunks trong background
   → Nothing visible to conscious awareness during this stage
 
@@ -628,7 +628,7 @@ MECHANISM:
   → Body detects coherent fire pattern → releases signal (oxytocin, cortisol nhẹ,
     hoặc just physical tension/relaxation)
   → Signal precedes conscious awareness by 100-500ms (Libet-style research)
-  → Phase 4 RELOAD (Imagine-Final §1.5) — PFC pull lại dormant topic
+  → Phase 4 RELOAD (Imagine-Final §5) — PFC pull lại dormant topic
 
 WHY CHỈ BODY CAN DETECT NÀY:
   → PFC có bandwidth hạn chế (~4 chunks simultaneously)
@@ -1437,7 +1437,7 @@ VÍ DỤ:
   → Psychedelic experiences (chemically induced loosening)
 
 CƠ CHẾ:
-  → Phase 3 BACKGROUND processing (Imagine-Final §1.5)
+  → Phase 3 BACKGROUND processing (Imagine-Final §5)
   → Without PFC gatekeeping
   → Chunks reorganize freely
   → Occasionally coherent pattern emerges → "aha" on return to conscious
@@ -2637,7 +2637,7 @@ MISSING (to develop later)
 IMAGINE-FINAL CỤM (close connections)
 ═══════════════════════════════════════════════════════
 
-→ Imagine-Final.md + §1.5 Lifecycle ⭐
+→ Imagine-Final.md v3.0 + §5 Lifecycle ⭐
    5 phases (BUILD → SAVE → BACKGROUND → RELOAD → REFINE)
    Somatic-Articulation Loop operates DURING Phase 3 BACKGROUND
    Felt sense emerge from Phase 3 processing

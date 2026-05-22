@@ -32,7 +32,7 @@ This commitment:
 
 **Key surprises**:
 1. User's anchor-for-chain hypothesis (Theme B) = **research-validated** (Cowan 2001, Baddeley, Ericsson)
-2. Framework's empathy reframe (Pattern Resonance) matches Bird & Cook 2013 decisively
+2. Framework's empathy reframe (Resonance) matches Bird & Cook 2013 decisively
 3. Ritual mechanism (Theme C) matches user's Candidate 3 closely
 4. Spelke Core Knowledge already cited in Mirror-Neuron-Analysis — user's "compiled" hypothesis verified
 5. Einstein mechanism (Theme D) fully documented in framework via Hadamard 1945 primary source
@@ -119,7 +119,7 @@ Looking across all 6 themes, here are 10 meta-insights that emerge when we view 
 | D Right/Wrong | Wrongness feeling emerges at Layer 3 BEFORE PFC labels. Einstein: body simulation contradiction BEFORE math formalization. |
 | B Verbal-Chain | Plan (body/PFC sequential) came ~2 mya BEFORE verbal ~50-200k years. Verbal downstream of body-sourced chains. |
 | C Ritual | Ritual compiles body-level via repetition + emotion BEFORE conscious deliberation. Bypass PFC entirely. |
-| E Empathy-Giving | Pattern Resonance simulator runs body-level BEFORE PFC interpretation. Thiện cảm felt before explained. |
+| E Empathy-Giving | Resonance simulator runs body-level BEFORE PFC interpretation. Thiện cảm felt before explained. |
 | F Logic-Feeling | Both Logic and Feeling tracks are SOURCES the PFC observes. PFC = observer in both cases. |
 
 **→ Body-first is the framework's most robust commitment**. Cross-theme validation = extremely high confidence.
@@ -145,7 +145,7 @@ Looking across all 6 themes, here are 10 meta-insights that emerge when we view 
 | D Right/Wrong | Most rightness/wrongness feelings are automatic pattern matches. Only ~5% require deliberate investigation. |
 | B Verbal-Chain | Compiled chunks (skilled knowledge) run automatic. Only novel tasks require deliberate PFC processing. |
 | C Ritual | Ritual uses this explicitly: compile schemas deep → bypass PFC → auto-fire. |
-| E Empathy-Giving | Pattern Resonance runs AUTOMATICALLY. Thiện cảm activates WITHOUT conscious choice. |
+| E Empathy-Giving | Resonance runs AUTOMATICALLY. Thiện cảm activates WITHOUT conscious choice. |
 | F Logic-Feeling | 4 nguồn fill Anchor-Schema: Nguồn ③ Compiled Schemas dominant (~80%), Nguồn ② Hippocampus ~10%, Nguồn ① PFC ~5%, Nguồn ④ variable. |
 
 **Anchor-Schema §1 explicit statement**:
@@ -174,7 +174,7 @@ Looking across all 6 themes, here are 10 meta-insights that emerge when we view 
 | D Right/Wrong | **Direct**: "Cognitive/Prediction channel" = pattern match + ACC error (explicit mechanism). |
 | B Verbal-Chain | Verbal chunks = patterns to match. Recognition = pattern match fire. Miller chunking = pattern grouping. |
 | C Ritual | Ritual violation detection = pattern match fail. Compiled ritual schema vs current execution. |
-| E Empathy-Giving | Pattern Resonance = pattern match of own self-library against other's observed state. Fit-judgment = match level. |
+| E Empathy-Giving | Resonance = pattern match of own self-library against other's observed state. Fit-judgment = match level. |
 | F Logic-Feeling | 5 cases all follow: "Logic ĐÚNG scope cũ → Feeling thấy NGOÀI scope → Verify". "Ngoài scope" = pattern mismatch. |
 
 **Research backing**:
@@ -200,7 +200,7 @@ Current observation / simulation
 
 **Source can be**:
 - Body interoception
-- Pattern Resonance (other person)
+- Resonance (other person)
 - Imagine-Final (future simulation)
 - Memory retrieval
 - Cognitive chunks (rules)
@@ -228,7 +228,7 @@ Current observation / simulation
 - **"Yêu em"** (Feeling-Sources §12): 9+ channels compressed to single word
 - **"Ghét"**: 9+ channels negative compressed
 - **"Nhớ mẹ"**: 4+ channels (agent input + schema + memory + valence)
-- **Mother-resemblance case (Theme E §2.10)**: schema + memory + Pattern Resonance + CARE + mirror + valence ≥ 6
+- **Mother-resemblance case (Theme E §2.10)**: schema + memory + Resonance + CARE + mirror + valence ≥ 6
 
 **Compression principle**:
 > "Single word captures multi-channel state. Compression ratio 9:1 or more. Information loss ~80%. Functionality preserved 100%."
@@ -252,7 +252,7 @@ Current observation / simulation
 | D Right/Wrong | Bottom-up: body detects mismatch first. Top-down: PFC investigates after. |
 | B Verbal-Chain | PFC can direct attention (top-down). But chain formation happens in BACKGROUND phase (bottom-up consolidation). |
 | C Ritual | Ritual uses bottom-up exclusively (compile bypasses PFC). Yet PFC intent initiates ritual participation. |
-| E Empathy-Giving | Pattern Resonance runs automatic bottom-up. PFC can direct empathy attention top-down. |
+| E Empathy-Giving | Resonance runs automatic bottom-up. PFC can direct empathy attention top-down. |
 | F Logic-Feeling | Both tracks parallel. PFC can choose track focus, but unconscious sources drive content. |
 
 **Framework's explicit 2 sides** (from Anchor-Schema §0):
@@ -267,7 +267,7 @@ Current observation / simulation
 - Anchor-Schema requirement ("need sync point")
 - Compiled schemas auto-fire
 - Dissonance signals trigger PFC engagement
-- Mirror + Pattern Resonance generate feelings
+- Mirror + Resonance generate feelings
 
 **Neither exclusive** (from Imagine-Final §1):
 - PFC REACTIVE: body dissonance → PFC engages
@@ -339,7 +339,7 @@ Current observation / simulation
 | D Right/Wrong | Innate Core Knowledge (Spelke) + compiled expertise chunks dominate pattern matching. |
 | B Verbal-Chain | Expert chunking (Ericsson): 10,000 hours → compiled library. Novice = slow fresh thinking. |
 | C Ritual | Ritual's PURPOSE is to compile deep anchors. All 4 inject mechanisms work via compile. |
-| E Empathy-Giving | Pattern Resonance uses compiled Self-Pattern Match library. Fresh reading is rare. |
+| E Empathy-Giving | Resonance uses compiled Self-Pattern Match library. Fresh reading is rare. |
 | F Logic-Feeling | Logic = "rules ĐÃ compiled". Feeling = body integration of compiled schemas. Fresh processing is exception. |
 
 **4 sources of anchor from Anchor-Schema §3**:
@@ -402,7 +402,7 @@ Tầng 2 enables:
 - Cross-domain creativity (Einstein)
 - Long-term planning (building institutions)
 - Abstract knowledge (science, math, philosophy)
-- Empathy extension (Pattern Resonance to strangers + historical figures)
+- Empathy extension (Resonance to strangers + historical figures)
 
 **→ Framework captures why humans have UNIQUE capacities AND UNIQUE suffering**: same mechanism, more layers = more power + more failure modes.
 
@@ -460,7 +460,7 @@ Tầng 2 enables:
 **Framework v4** (2026-04-14):
 - Feel-Development outline: Tier 2 expanded definition
 - Self-Pattern-Match outline: possible "core mechanism"
-- Pattern-Resonance outline: rejection of hardware mirror
+- Resonance outline: rejection of hardware mirror
 - Feel-Example-Draft completed with §9b drive chunks
 
 **Current session (2026-04-14)**:
@@ -471,7 +471,7 @@ Tầng 2 enables:
 **Next evolution (speculation)**:
 - Predictive processing integration (Friston/Seth)
 - Reconcile Tier 1 and Tier 2 definitions formally
-- Empathy-Mirror + Pattern-Resonance merger
+- Empathy-Mirror + Resonance merger
 - Self-Pattern Match relationship to channel taxonomy
 - Cross-cultural validation
 
@@ -530,7 +530,7 @@ Session đã answer 40+ user sub-questions across 6 themes. Section này consoli
 → **COMPILED, not random**. Innate Core Knowledge (Spelke) + learned chunks. Specific neural mechanisms (ACC, hippocampus, cortex). **Confidence: HIGH**.
 
 **Q: "Partner hành vi bất thường — mechanism?"**
-→ **Pattern Resonance mismatch**. Compiled relationship chunks + current observation → mismatch → Layer 3 wrongness → PFC engages. Case A (cold) and Case B (unexpectedly polite) = **same mechanism**, different PFC strategy (active vs passive investigation). **Confidence: HIGH**.
+→ **Resonance mismatch**. Compiled relationship chunks + current observation → mismatch → Layer 3 wrongness → PFC engages. Case A (cold) and Case B (unexpectedly polite) = **same mechanism**, different PFC strategy (active vs passive investigation). **Confidence: HIGH**.
 
 ### §3.3 — Theme B (Verbal × Chain) — 6 sub-questions
 
@@ -579,16 +579,16 @@ Session đã answer 40+ user sub-questions across 6 themes. Section này consoli
 ### §3.5 — Theme E (Empathy + Giving) — 9 sub-questions
 
 **Q: "Empathy là gì?"**
-→ **NOT separate system**. Empathy = Pattern Resonance output applied to another agent. Own Self-Pattern Match library simulates → own body produces weak copy → PFC observes as feeling. **Bird & Cook 2013 decisive**: alexithymia drives empathy deficits, not autism per se. **Confidence: HIGH**.
+→ **NOT separate system**. Empathy = Resonance output applied to another agent. Own Self-Pattern Match library simulates → own body produces weak copy → PFC observes as feeling. **Bird & Cook 2013 decisive**: alexithymia drives empathy deficits, not autism per se. **Confidence: HIGH**.
 
 **Q: "Khi nào muốn cho đi (cây xoài dư case)?"**
-→ **Body-base đủ + see someone who needs + Pattern Resonance fires positive mirror reward preview**. Natural resource distribution mechanism (Empathy-Mirror §6.5). Mirror reward > keep reward when satiated. **Positive trust**, sustainable. **Confidence: HIGH**.
+→ **Body-base đủ + see someone who needs + Resonance fires positive mirror reward preview**. Natural resource distribution mechanism (Empathy-Mirror §6.5). Mirror reward > keep reward when satiated. **Positive trust**, sustainable. **Confidence: HIGH**.
 
 **Q: "Khi nào muốn cho đi (cây chuối communal case)?"**
 → **Community schema fires + social visibility triggers norm compliance**. **Negative trust** dominant (avoid áy náy). Sustainable WITH community support, burdensome WITHOUT. Different mechanism from cây xoài. **Confidence: HIGH**.
 
 **Q: "Khi nào giúp mà thấy vui?"**
-→ **4 compounding triggers**: mirror reward visible + gratitude received + positive Pattern Resonance fit + thiện cảm precondition. All 4 together = strongest joy. **Confidence: HIGH**.
+→ **4 compounding triggers**: mirror reward visible + gratitude received + positive Resonance fit + thiện cảm precondition. All 4 together = strongest joy. **Confidence: HIGH**.
 
 **Q: "Thiện cảm là cái gì?"**
 → **Compound positive valence convergence**. NOT single feeling — label for convergence of: L0 safety + positive mirror + compiled valence + schema match + agent input. Theme E constructed from framework vocabulary. **Confidence: MEDIUM** (framework doesn't have explicit term, Theme E synthesized).
@@ -600,7 +600,7 @@ Session đã answer 40+ user sub-questions across 6 themes. Section này consoli
 → **Any of**: safe agent, prior positive interactions, moral alignment, resemblance to loved one, reciprocal gift, community belonging, vulnerability, competence shown. Multiple triggers possible, often compound. **Confidence: HIGH**.
 
 **Q: "Khi nào giúp mà thấy khó chịu?"**
-→ **4 sub-cases**: A. Cost > reward, B. Recipient rejection (prediction error + L3 hit), C. Low reaction vs high expectation, D. Exploitation discovered (major trust break). All involve Pattern Resonance negative fit or trust violation. **Confidence: HIGH**.
+→ **4 sub-cases**: A. Cost > reward, B. Recipient rejection (prediction error + L3 hit), C. Low reaction vs high expectation, D. Exploitation discovered (major trust break). All involve Resonance negative fit or trust violation. **Confidence: HIGH**.
 
 **Q: "Cho đi vô tư — trained, default, or broader schema?"**
 → **Primarily OPTION 3 (broader schema)** + elements of OPTION 1 (trained). NOT option 2 (random). Trust anchored in broad schema (religious/values/abundance) so individual responses don't dominate body-level evaluation. **Confidence: MEDIUM** (framework doesn't formalize "broad schema trust" explicitly, but principle clear).
@@ -633,7 +633,7 @@ Session đã answer 40+ user sub-questions across 6 themes. Section này consoli
 - RQ2 (top-down PFC query mechanism?) — **PARTIAL RESOLVED** via attention + reload
 - RQ3 (VoE research exists?) — **RESOLVED** (Spelke verified)
 - RQ4 (Einstein imagine-final vs cognitive mismatch?) — **RESOLVED** via primary source
-- RQ5 (Partner case Mirror or Schema?) — **RESOLVED** (Pattern Resonance Case 4)
+- RQ5 (Partner case Mirror or Schema?) — **RESOLVED** (Resonance Case 4)
 - RQ6 (Thiện cảm definition) — **CONSTRUCTED** from framework vocabulary
 - RQ7 (Cho đi vô tư trained or default?) — **RESOLVED** (trained broad schema)
 - RQ15 (Hardware mirror vs learned) — **RESOLVED** (3 mechanisms decomposition)
@@ -667,12 +667,12 @@ These questions affect framework coherence and deserve direct attention in futur
   - C. Refactor to emphasize Self-Pattern Match as core
 - **Next step**: Framework author decision + Phase 3 fill of Self-Pattern-Match.md
 
-**U3 — Empathy-Mirror.md vs Pattern-Resonance.md terminology**
+**U3 — Empathy-Mirror.md vs By-Product-Gap-Resonance.md terminology**
 - **Source**: RQ16, F-Q2, Theme E §3
-- **Question**: Empathy-Mirror.md (2026-04-06) uses "mirror" terminology. Pattern-Resonance.md (2026-04-14 outline) explicitly rejects hardware mirror and uses "Pattern Resonance". Both files describe same phenomenon.
+- **Question**: Empathy-Mirror.md (2026-04-06) uses "mirror" terminology. By-Product-Gap-Resonance.md (2026-04-14 outline) explicitly rejects hardware mirror and uses "Resonance". Both files describe same phenomenon.
 - **Why high priority**: Terminology confusion across files
 - **Proposal**: Post-outline-fill, either merge files or add reconciliation note
-- **Next step**: Phase 3 fill of Pattern-Resonance.md + Empathy-Mirror.md update
+- **Next step**: Phase 3 fill of By-Product-Gap-Resonance.md + Empathy-Mirror.md update
 
 **U4 — Predictive processing (Friston/Seth) integration**
 - **Source**: RQ8, Feeling-Research §9, F-Q5
@@ -707,9 +707,9 @@ These questions would enrich framework but aren't blocking.
 - **Next step**: Minor file update
 
 **U9 — Cognitive-affective split in psychopathy**
-- **Source**: RQ15 partial, Pattern-Resonance §7
-- **Question**: Pattern-Resonance mentions cognitive empathy intact + affective disconnected as psychopathy pattern. How does this work mechanically in 3-mechanism decomposition (pattern matching / agent modeling / schema simulation)?
-- **Next step**: Post-Phase 3 fill of Pattern-Resonance.md
+- **Source**: RQ15 partial, Resonance §7
+- **Question**: Resonance mentions cognitive empathy intact + affective disconnected as psychopathy pattern. How does this work mechanically in 3-mechanism decomposition (pattern matching / agent modeling / schema simulation)?
+- **Next step**: Post-Phase 3 fill of By-Product-Gap-Resonance.md
 
 **U10 — Modern ritual substitutes efficacy**
 - **Source**: C-Q2, Theme C §2.8
@@ -803,7 +803,7 @@ SELF-PATTERN MATCH (mechanism — PFC observation interface)
 ├── L2 Novelty
 ├── L3 Mastery/Meaning
 ├── Agent Input
-├── Mirror / Pattern Resonance (interpersonal — refined from "mirror")
+├── Mirror / Resonance (interpersonal — refined from "mirror")
 ├── Schema (compiled memory)
 ├── Imagine-Final (predictive)
 ├── Valence (compiled assessments)
@@ -812,12 +812,12 @@ SELF-PATTERN MATCH (mechanism — PFC observation interface)
 
 Each channel feeds signals → integration → Self-Pattern Match observes via chunks → PFC labels.
 
-**Decision 3: Pattern-Resonance.md vs Empathy-Mirror.md?**
+**Decision 3: By-Product-Gap-Resonance.md vs Empathy-Mirror.md?**
 
 Session's recommendation: **Keep both, but update Empathy-Mirror.md with pointer**.
-- Pattern-Resonance.md (post-fill) = detailed interpersonal mechanism
+- By-Product-Gap-Resonance.md (post-fill) = detailed interpersonal mechanism
 - Empathy-Mirror.md = older but comprehensive, retains 6.5 evolutionary function + 8.5 override spectrum
-- Add note at top of Empathy-Mirror.md: "'Mirror' here = 'Pattern Resonance' in new terminology. See Pattern-Resonance.md for refined model."
+- Add note at top of Empathy-Mirror.md: "'Mirror' here = 'Resonance' in new terminology. See By-Product-Gap-Resonance.md for refined model."
 
 ### §5.2 — Minor file updates recommended
 
@@ -826,7 +826,7 @@ Session's recommendation: **Keep both, but update Empathy-Mirror.md with pointer
 - Cross-reference
 
 **Update 2: Feeling-Sources.md §0** (channel status)
-- Add note: "Pattern Resonance is newer terminology for Mirror channel. Both refer to same mechanism."
+- Add note: "Resonance is newer terminology for Mirror channel. Both refer to same mechanism."
 - Reference Self-Pattern-Match.md
 
 **Update 3: Logic-Feeling.md §6** (broaden modality)
@@ -845,7 +845,7 @@ Session's recommendation: **Keep both, but update Empathy-Mirror.md with pointer
 
 Based on session findings, priority order for filling outline files:
 
-**Priority 1 — Pattern-Resonance.md** (currently outline)
+**Priority 1 — By-Product-Gap-Resonance.md** (currently outline)
 - Blocks: Empathy-Mirror.md update, Theme E framework integration
 - Key content: 3 mechanisms, Bird & Cook decisive, 4 cases, developmental stages
 
@@ -854,7 +854,7 @@ Based on session findings, priority order for filling outline files:
 - Key content: intrapersonal mechanism, 8 stages, multi-axis profile, math formula analogy
 
 **Priority 3 — Feel-Development.md** (currently outline)
-- Depends on: Pattern-Resonance + Self-Pattern-Match filled
+- Depends on: Resonance + Self-Pattern-Match filled
 - Key content: Synthesis of expanded Feeling definition, multi-axis model, profiles, scaffolding
 
 ### §5.4 — Research frontiers to engage
@@ -875,7 +875,7 @@ Three frontiers framework should eventually engage:
 **Frontier 3: Developmental neuroscience**
 - Critical windows for literacy development
 - Alexithymia treatment research
-- Autism spectrum + Pattern Resonance connection
+- Autism spectrum + Resonance connection
 - Digital era effects on children's feeling development
 
 ### §5.5 — Framework's honest assessment
@@ -1058,7 +1058,7 @@ Theme analysis isn't just academic. If framework is correct, it has specific pra
 
 ### §6.5 — Empathy cultivation via self-awareness
 
-**Bird & Cook 2013 insight operationalized**: Can't empathize with others well if you can't read yourself well. Self-Pattern Match library is prerequisite for Pattern Resonance simulation.
+**Bird & Cook 2013 insight operationalized**: Can't empathize with others well if you can't read yourself well. Self-Pattern Match library is prerequisite for Resonance simulation.
 
 **Practical order**:
 1. **FIRST** develop self-literacy (know your own body signals, feelings, compiled patterns)
@@ -1072,11 +1072,11 @@ Theme analysis isn't just academic. If framework is correct, it has specific pra
 - Gradually extend to reading others' body signals
 - Check predictions against actual (feedback loop)
 - Compile social chunks through experience
-- Integrate with Pattern Resonance as it develops
+- Integrate with Resonance as it develops
 
 **Caution against common mistakes**:
-- **Over-projection**: Assuming others feel as you would. Framework: this is Pattern Resonance limitation, not empathy. Different people have different compiled libraries.
-- **Cultural assumptions**: Using own culture's chunks to read someone from different culture. Framework's Pattern-Resonance §7 accuracy problems.
+- **Over-projection**: Assuming others feel as you would. Framework: this is Resonance limitation, not empathy. Different people have different compiled libraries.
+- **Cultural assumptions**: Using own culture's chunks to read someone from different culture. Framework's Resonance §7 accuracy problems.
 - **Alexithymic empathy**: People with weak self-library trying to help others → often projection or stuck following scripts.
 
 ### §6.6 — Modern meaning crisis navigation
@@ -1129,7 +1129,7 @@ AI cannot (per framework):
 - Have interoception (no body)
 - Generate actual body-state feelings
 - Run Layer 1-3 body integration
-- Have real Pattern Resonance (no body for simulation to use)
+- Have real Resonance (no body for simulation to use)
 - Compiled body-level wisdom
 
 **Practical implications**:
@@ -1161,7 +1161,7 @@ AI cannot (per framework):
 - Caregiver verbal labeling of feelings (compile chunks)
 - Contingent responses (teach signal → action → resolution)
 - Body play (compile body awareness)
-- Face-to-face interaction (Pattern Resonance development — crucial)
+- Face-to-face interaction (Resonance development — crucial)
 - Avoid excessive screens (limits agent modeling development)
 - Rituals + routines (compile Anchor-Schemas early)
 
@@ -1170,7 +1170,7 @@ AI cannot (per framework):
 - Discuss emotions openly (no "don't cry")
 - Family rituals (dinner, bedtime, weekly activities)
 - Body practices (sports, dance, arts) — compile body knowledge
-- Diverse social experience (expand Pattern Resonance library)
+- Diverse social experience (expand Resonance library)
 
 **Adolescence (12-18 years)**:
 - Respect developing identity + compiled schemas
@@ -1249,11 +1249,11 @@ Based on session findings, specific suggestions for future work on framework.
 - Execute 5 minor updates from §5.2
 - Update Feeling.md with Tier 2 note
 - Update Logic-Feeling §6 modality
-- Reconcile Empathy-Mirror + Pattern-Resonance terminology
+- Reconcile Empathy-Mirror + Resonance terminology
 - Add bidirectional section to Anchor-Schema
 - Optional: Add "thiện cảm" as formal concept
 
-**Option B: Fill Pattern-Resonance.md** (outline → content)
+**Option B: Fill By-Product-Gap-Resonance.md** (outline → content)
 - Highest priority outline file
 - Blocks Theme E full formalization
 - Would take 1-2 deep sessions
@@ -1277,14 +1277,14 @@ Based on session findings, specific suggestions for future work on framework.
 
 **Session's recommendation**: Based on impact + prerequisites, suggested order:
 1. Option A (small, quick housekeeping)
-2. Option B (Pattern-Resonance fill) — unblocks much
+2. Option B (Resonance fill) — unblocks much
 3. Option C (Self-Pattern-Match fill)
 4. Option D (PP integration) — requires solid foundation from B+C
 
 ### §7.2 — Medium-term framework development
 
 **6-12 months**:
-- Fill all outline files (Self-Pattern-Match, Pattern-Resonance, Feel-Development)
+- Fill all outline files (Self-Pattern-Match, Resonance, Feel-Development)
 - Complete expanded Feeling definition commit
 - Integrate predictive processing
 - Cross-reference + consistency pass across all files
@@ -1376,7 +1376,7 @@ Based on session's format validation, useful session types:
 - Take outline file, fill with content
 - Direct reference to existing filled files
 - Sequential building
-- Best for: Pattern-Resonance, Self-Pattern-Match, Feel-Development fills
+- Best for: Resonance, Self-Pattern-Match, Feel-Development fills
 
 **Case Analysis Session**:
 - Focus on specific case (e.g., Einstein, meaning crisis, parenting scenario)
@@ -1464,7 +1464,7 @@ These are the claims Theme analysis most strongly supports. Multiple independent
 
 **Mechanism**:
 - **Pattern matching + ACC error detection** as unified rightness/wrongness mechanism. Botvinick, Schultz, Friston, Kounios all support.
-- **Empathy as Pattern Resonance** (learning-based, not hardware module). Bird & Cook 2013 decisive.
+- **Empathy as Resonance** (learning-based, not hardware module). Bird & Cook 2013 decisive.
 - **Compiled schemas dominate (Nguồn ③ ~80%)**. Klein expertise, Ericsson deliberate practice, implicit learning research.
 - **Spelke Core Knowledge Systems** (innate Object + Agent). 40+ years of VoE research, cross-cultural, well-replicated.
 
@@ -1515,7 +1515,7 @@ These are framework claims with limited research support. Should be flagged clea
 
 **Extensions**:
 - **Self-Pattern Match as "core mechanism of Feeling itself"**: Hypothesis in outline file. Requires filling + testing.
-- **Pattern-Resonance rejecting hardware mirror**: Strongly supported by Bird & Cook but 3-mechanism decomposition is framework's synthesis.
+- **Resonance rejecting hardware mirror**: Strongly supported by Bird & Cook but 3-mechanism decomposition is framework's synthesis.
 - **Predictive processing integration as next step**: Acknowledged but not executed.
 
 ### §8.4 — Confidence in Theme-specific conclusions
@@ -1536,7 +1536,7 @@ These are framework claims with limited research support. Should be flagged clea
 | C Ritual | Multi-layer compile mechanism | HIGH | Framework explicit + anthropology |
 | C Ritual | 5-layer decomposition | MEDIUM | Theme C proposal |
 | C Ritual | User's Candidate 3 closest | HIGH | Direct framework match |
-| E Empathy | Empathy = Pattern Resonance | HIGH | Bird & Cook 2013 decisive |
+| E Empathy | Empathy = Resonance | HIGH | Bird & Cook 2013 decisive |
 | E Empathy | Cây xoài vs cây chuối different mechanisms | HIGH | Framework explicit |
 | E Empathy | Positive vs negative trust | HIGH | Framework explicit + SDT research |
 | E Empathy | "Thiện cảm" decomposition | MEDIUM | Theme E construction |
@@ -1599,7 +1599,7 @@ Section này acknowledges session's limitations. Self-critical. What session DID
 **Mirror-Empathy-Connection Domain folder**:
 - Reading notes mentioned 5 Domain files (DI, OA, Valence, EP, DM) from memory
 - Not directly read in this session
-- Theme E Pattern Resonance could have been refined further
+- Theme E Resonance could have been refined further
 
 **Somatic-Articulation-Loop.md**:
 - Referenced but not re-read in detail
@@ -1623,14 +1623,14 @@ Section này acknowledges session's limitations. Self-critical. What session DID
 
 **Sample bias**:
 - User is Vietnamese, framework is Western/Vietnamese
-- Theme E Pattern Resonance claims may not generalize to all cultures
+- Theme E Resonance claims may not generalize to all cultures
 - Framework acknowledges WEIRD bias, but session didn't address it directly
 
 ### §9.3 — Framework-dependent conclusions
 
 **Many conclusions presume framework is correct**:
 - If framework is wrong about ~95/5 split, Meta-insight 2 falls
-- If framework is wrong about Pattern Resonance mechanism, Theme E refactors
+- If framework is wrong about Resonance mechanism, Theme E refactors
 - Session is "internal to framework", not "external validation"
 
 **I did not question framework's fundamentals**:
@@ -1669,7 +1669,7 @@ Section này acknowledges session's limitations. Self-critical. What session DID
 - User might not endorse this specific decomposition
 - Not framework-native term
 
-**Claim: Pattern Resonance replaces hardware mirror**
+**Claim: Resonance replaces hardware mirror**
 - Bird & Cook 2013 is decisive for "alexithymia drives empathy deficit"
 - But "therefore no hardware mirror exists" is stronger claim
 - Framework's 3-mechanism decomposition is synthesis
@@ -1785,7 +1785,7 @@ Across 11 phases + 4 sub-phases (P-11a through P-11d), session delivered:
 
 If session had to fit in one paragraph, it's this:
 
-> **Framework's architecture is**: PFC observation of integrated unconscious processing, body-first temporal invariant, bidirectional flow (top-down PFC attention + bottom-up vô thức requirement), ~95% compiled schemas dominant + ~5% PFC active engagement, with Pattern Resonance as learning-based simulator (not hardware mirror) for interpersonal processing. Rightness/wrongness feelings emerge from pattern matching against compiled schemas + ACC error detection. Ritual compiles Anchor-Schemas via multi-layer combo (behavior + context + emotion + social + symbolic). Verbal is one chain enabler among several (plan preceded verbal by 1-2 million years). Giving dynamics decompose via positive vs negative trust affecting sustainability. All of this is consistent with body-first invariant — body computes, feeling emerges, PFC observes. Never reversed.
+> **Framework's architecture is**: PFC observation of integrated unconscious processing, body-first temporal invariant, bidirectional flow (top-down PFC attention + bottom-up vô thức requirement), ~95% compiled schemas dominant + ~5% PFC active engagement, with Resonance as learning-based simulator (not hardware mirror) for interpersonal processing. Rightness/wrongness feelings emerge from pattern matching against compiled schemas + ACC error detection. Ritual compiles Anchor-Schemas via multi-layer combo (behavior + context + emotion + social + symbolic). Verbal is one chain enabler among several (plan preceded verbal by 1-2 million years). Giving dynamics decompose via positive vs negative trust affecting sustainability. All of this is consistent with body-first invariant — body computes, feeling emerges, PFC observes. Never reversed.
 
 ### §10.3 — What framework offers user
 
@@ -1844,7 +1844,7 @@ User's "tôi chỉ đoán mò thôi" humility is unwarranted. These intuitions w
 
 ### §10.6 — Session's closing thought
 
-**The central insight isn't new**: body-first, unconscious-dominant, feeling-necessary has been in the research literature for decades (Damasio 1994, Gendlin 1978, Craig 2002, Panksepp 1998). What framework does is **SYNTHESIZE these streams into practical architecture** + **extend to modern questions** (AI era, ritual decline, feeling literacy training, modality bias, Pattern Resonance vs hardware mirror).
+**The central insight isn't new**: body-first, unconscious-dominant, feeling-necessary has been in the research literature for decades (Damasio 1994, Gendlin 1978, Craig 2002, Panksepp 1998). What framework does is **SYNTHESIZE these streams into practical architecture** + **extend to modern questions** (AI era, ritual decline, feeling literacy training, modality bias, Resonance vs hardware mirror).
 
 **The synthesis is the value**. Any one researcher didn't cover all themes. Framework attempts unified coverage for practical application.
 
@@ -1858,7 +1858,7 @@ User's "tôi chỉ đoán mò thôi" humility is unwarranted. These intuitions w
 
 ### §10.7 — Closing note
 
-> *"Feeling-first, PFC second. Body computes, feeling emerges, PFC observes. The system runs mostly without us — our conscious deliberation is the small tip of a large iceberg. Understanding this doesn't make us less human — it makes us more HONESTLY human. We can work WITH the system as it actually is, instead of pretending to be homunculi in charge of everything. Feeling literacy is the skill of that partnership. Ritual is one tool for shaping what gets compiled. Positive trust is the compass for sustainable motivation. Pattern Resonance is how we know others. All of this is the framework. All of this is lived experience, checked against research, organized for practice. Not final truth. Working truth. Good enough for tomorrow's decisions. Ready to be refined the day after."*
+> *"Feeling-first, PFC second. Body computes, feeling emerges, PFC observes. The system runs mostly without us — our conscious deliberation is the small tip of a large iceberg. Understanding this doesn't make us less human — it makes us more HONESTLY human. We can work WITH the system as it actually is, instead of pretending to be homunculi in charge of everything. Feeling literacy is the skill of that partnership. Ritual is one tool for shaping what gets compiled. Positive trust is the compass for sustainable motivation. Resonance is how we know others. All of this is the framework. All of this is lived experience, checked against research, organized for practice. Not final truth. Working truth. Good enough for tomorrow's decisions. Ready to be refined the day after."*
 
 **— Session end —**
 

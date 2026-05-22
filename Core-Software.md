@@ -16,11 +16,11 @@
 > - Chunk.md v2.1 — chunk substrate, trust gate, pattern hierarchy
 > - Body-Feedback.md — dual-pull, H10, 3 nguồn
 > - Feeling.md v2.1 — PFC observation interface, 7-layer
-> - Agent-Mechanism.md v1.0 — agent = function on chunks, SPM + PR
+> - Agent-Mechanism.md v1.0 — agent = function on chunks, SPM + Resonance
 > - Empathy.md v2.0 — SPM applied to others, 2-luồng, burnout
 > - Valence-Propagation.md v1.4 — body evaluation + chain + VP §4 clarification
 > - Cortisol-Baseline.md v2.0 — amplifier, not stress
-> - Body-Base.md v2.0 — Model 3+1, 4-tier calibration, circuit breaker
+> - Body-Base.md v3.1 — Model 3+1, 2-tier + 2-pathway calibration, circuit breaker
 > - Compile-Taxonomy.md v1.1 — 3 Loại A/B/C, 4 pathways, 6 trade-offs
 > - Collective-Body.md v1.1 — Model 3 cấp, trust = only bridge, AI era
 > - Reward-Signal-Architecture.md v1.0 — Type A/B, 5 Profiles, Interaction Model
@@ -181,7 +181,7 @@ không phải architecture. Cycle-based match cách body-brain thực sự hoạ
   │    7 modes: IDLE → LAZY → ACTIVE → FOCUSED → PUSH → FREEZE → CRASH │
   │                                                                      │
   │  FUNCTIONS trên chunks:                                              │
-  │    SPM (Self-Pattern-Match): self-chunks → template → empathy        │
+  │    SPM (Self-Pattern-Match): bản thân → template → hiểu người khác   │
   │    Agent Modeling: object + logic + modeling + schema override        │
   │    Valence: body assessment stored in chunks, propagates             │
   │    Imagination: PFC combine chunks → simulate chưa xảy ra           │
@@ -308,7 +308,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
       daily walking 8-15 km, whole foods, natural light cycles,
       frequent social touch, multi-generational community
     → Body-input baselines CALIBRATED cho domain này
-    → Why-Body-Knows.md §4: 4-tier calibration theory
+    → Why-Body-Knows.md §3: 2-tầng + 2-đường calibration
 
   MODERN DOMAIN:
     → Screens, processed food, sedentary, artificial light,
@@ -596,6 +596,9 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
        → Body signals (reward/dissonance) = READOUT of this tension
        → Reward fires khi 2 lực ALIGN ("passion" = body thích + domain cần)
        → Dissonance fires khi 2 lực CONFLICT
+       → Externalization: tension này PROPAGATE sang mọi hệ thống
+         con người thiết kế + vận hành (software, luật, y tế, tổ chức).
+         PROPAGATION, không phải analogy. Collective-Body.md §3.5.
 
   H10 — 5 PRECONDITIONS FOR SIGNAL FIRE (Body-Feedback.md §5):
 
@@ -690,13 +693,13 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 ```
 🟡 MỌI "MODULE" CŨ = FUNCTION CHẠY TRÊN CÙNG CHUNK SUBSTRATE:
 
-  SELF-PATTERN-MATCH (Agent-Mechanism.md §0 / SPM.md v2.2):
-    → 2 Functions: F1 (forward simulation) + F2 (generate from template)
+  SELF-PATTERN-MATCH (Agent-Mechanism.md §0 / SPM.md v2.3):
+    → Dùng cảm nhận bản thân để hiểu người khác
+      — dựa trên dự đoán họ cũng giống mình một phần
+    → 2 Functions: F1 Compiled (body simulate target) + F2 Fresh (PFC chain predict hành vi)
     → Dùng self-chunks làm template → simulate target's state
-    → = "Empathy mechanism" khi applied to others
-    → = "Self-awareness" khi applied to self
+    → Valence gate: positive → empathy | negative → strategic/reversed | extreme → dehumanize
     → Quality = f(chunk library depth × overlap × feedback)
-    → Valence gate: ❸ positive → F1 engage, ❸ negative → F1 suppress
 
   AGENT MODELING (Agent-Mechanism.md §3):
     → 4-layer: Object chunks + Logic + Modeling overlay + Schema override
@@ -706,7 +709,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   EMPATHY (Empathy.md v2.0):
     → = Self-Pattern-Match applied to other agent's states
     → Connection ⊃ Empathy (mechanism ⊃ observation)
-    → 2-luồng: L1 (SPM-owned, momentary) + L2 (Entity-owned, structural)
+    → 2-luồng: L1 (SPM-owned, momentary) + L2 (Entity-compiled, structural)
     → Burnout = f(L1/L2 ratio): too much L1, not enough L2
     → 🟢 Bird & Cook 2013: self-awareness = prerequisite for empathy
 
@@ -735,7 +738,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 
   KHÔNG PHẢI hệ thống riêng biệt. KHÔNG có "feeling module."
   Feeling = INTERFACE giữa body computation và PFC awareness.
-  Body = tính toán. Feeling = kết quả hiện lên. PFC = observe.
+  Body = xử lý (compiled patterns fire). Feeling = kết quả hiện lên. PFC = observe.
 
   3 ĐẶC TÍNH DEFINING:
     ① MULTI-SOURCE: convergence từ nhiều body systems đồng thời
@@ -1338,15 +1341,15 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   Body-Feedback.md            — dual-pull, H10, 3 nguồn, cases
   Body-Feedback-Mechanism.md v1.2 — 4th axis: chunk dynamics classification
   Feeling.md v2.1             — PFC observation interface, 7-layer, Type A/B
-  Agent-Mechanism.md v1.0     — agent = function on chunks, SPM + PR
-  SPM.md v2.2                 — 2 Functions F1/F2, valence gate, professional SPM
+  Agent-Mechanism.md v1.0     — agent = function on chunks, SPM + Resonance
+  SPM.md v2.3                 — 2 Functions F1/F2, valence gate, professional SPM
   Reward-Signal-Architecture.md v1.0 — Type A/B, 5 Profiles, A Gates B, Interaction Model
   PFC-Configuration.md v1.0   — 6 dynamic modes, survival matrix, A→B transition
   PFC-Function.md v1.1        — 24 functions, confabulation, proxy trigger
   Empathy.md v2.0             — SPM applied, 2-luồng, burnout, moral injury
   Valence-Propagation.md v1.4 — body evaluation + chain + VP §4 clarification
   Cortisol-Baseline.md v2.0   — amplifier, direction gate, 7 modes
-  Body-Base.md v2.0           — Model 3+1, 4-tier calibration, circuit breaker
+  Body-Base.md v3.1           — Model 3+1, 2-tier + 2-pathway calibration, circuit breaker
   Compile-Taxonomy.md v1.1    — 3 Loại A/B/C, 4 pathways, 6 trade-offs
   Collective-Body.md v1.1     — Model 3 cấp, trust = only bridge, AI era
   Body-Coupling.md v1.1       — 2D Depth×Direction, L2 phenomenology

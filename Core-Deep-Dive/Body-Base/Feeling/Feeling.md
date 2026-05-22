@@ -1,15 +1,16 @@
 ---
 title: Feeling — Hệ Thống Phản Hồi Unified của Body-Base
-version: 2.1
+version: 3.0
 created: 2026-04-13 (v1.0 DRAFT)
 rewritten: 2026-04-17 (v2.0 — viết mới hoàn toàn)
-updated: 2026-05-10 (v2.1 — §6.5 Type A/B + 5 Profiles + Quality, cross-refs)
-status: v2.1 — REFERENCE FILE
+updated: 2026-05-17 (v3.0 — Inter-Body drill integration: PFC=Lawyer, Compiled/Fresh×7-Layer, Architecture B, Body-Need 2-source, Domain=Arbiter formal, 3-cost connection)
+status: v3.0 — REFERENCE FILE
 scope: |
   WHAT feeling IS + HOW feeling WORKS + HOW to IMPROVE feeling + BRIDGE to chunk system.
   Tổng hợp: Feeling.md v1 (7-layer) + Feeling-Mechanism-Deep (8-step flow, reward, gradient, quality)
   + Feeling-Literacy-Training (5-stage, Focusing, AI era) + Feeling-Chunk-Bridge (bidirectional mapping).
   Kết nối với Chunk-Analysis substrate (44+ files, ~48,600L).
+  v3.0: +PFC=Lawyer, +Compiled/Fresh reframe, +Architecture B context, +Body-Need 2-source.
 purpose: |
   Central reference file cho toàn bộ Feeling system trong framework.
   Thay thế Feeling.md v1.0 DRAFT (2026-04-13, ~1,287L → backup/Feeling-v1-draft.md).
@@ -23,9 +24,16 @@ sources: |
   Feeling-Accuracy.md — accuracy spectrum, error modes, literacy, pain
   Feeling-Research.md — Damasio, Gendlin, Craig, Panksepp, Barrett
   Chunk-Analysis/ 44+ files (~48,600L) — chunk substrate cho feeling mechanism
+  Inter-Body-Mechanism.md v1.0 — PFC=Lawyer, Compiled/Fresh axis, Architecture B, 3-cost
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
-backup: backup/Feeling-v1-draft.md
+backup: backup/Feeling-v2.2-backup.md
+dependencies:
+  - Body-Feedback-Mechanism.md v2.0 — 2-source model, Body-Need aggregate, chunk dynamics
+  - Reward-Signal-Architecture.md v2.0 — Type A/B, A₀→A₃, 5 Profiles
+  - Inter-Body-Mechanism.md v1.0 — PFC=Lawyer, Compiled/Fresh axis, Architecture B, 3-cost
+  - Body-Feedback-Label.md v2.0 — vocabulary reference
+  - Gap-Direction.md v2.0 — gap has direction, by-product match
 ---
 
 # Feeling — Hệ Thống Phản Hồi Unified của Body-Base
@@ -40,7 +48,7 @@ backup: backup/Feeling-v1-draft.md
 > mà là HỆ THỐNG PHẢN HỒI UNIFIED mà body dùng để nói với PFC:
 > "có cái gì đó đang xảy ra trong tôi."
 >
-> Body tính toán trước. Feeling xuất hiện. PFC observe sau.
+> Body xử lý trước. Feeling xuất hiện. PFC observe sau.
 > Thứ tự này KHÔNG bao giờ đảo ngược.
 >
 > Feeling KHÔNG phải hệ thống riêng biệt — feeling là WHAT PFC SEES
@@ -119,6 +127,21 @@ backup: backup/Feeling-v1-draft.md
     Logic-Feeling.md     = Logic + Feeling as parallel processing modes
     Chunk.md v2.0        = Chunk SYSTEM (substrate producing feelings)
     Feeling.md (NÀY)     = UNIFIED SYSTEM — WHAT + HOW + TRAINING + BRIDGE
+
+  ARCHITECTURE B CONNECTION (Inter-Body-Mechanism.md §1):
+    Evolution chọn Architecture B cho con người:
+      ① General-Purpose Reward — fire cho BẤT KỲ gap fill đúng direction
+      ② Compilation — repeat + verify → automatic (Hebbian)
+      ③ Social Hardware — oxytocin, μ-opioid, dACC reuse
+    Feeling system = CONSEQUENCE of Architecture B:
+      → General-purpose reward cần GENERAL-PURPOSE feedback system
+      → = Feeling system: tín hiệu UNIFIED cho BẤT KỲ body-need nào
+      → Architecture A (insect): specific triggers → specific actions (no feeling needed)
+      → Architecture B (human): general triggers → general evaluation → FEELING = bridge
+    Trade-off: 15-20 năm compilation → feeling system phải phát triển THEO
+      → Newborn: Layer 1-2 only (raw, undifferentiated)
+      → Adult: full 7-layer (compiled, nuanced, domain-specific)
+      → = Feeling literacy = DEVELOPMENTAL product of Architecture B
 ```
 
 ---
@@ -156,7 +179,7 @@ backup: backup/Feeling-v1-draft.md
      imagine-final, valence, cognitive). Feeling tích hợp TẤT CẢ.
 
   ④ "OBSERVABLE ở PFC level" — PFC-accessible
-     Feeling phải ĐỦ mạnh để PFC nhận biết. Body tính toán vô thức
+     Feeling phải ĐỦ mạnh để PFC nhận biết. Body xử lý vô thức
      liên tục — chỉ 1 phần nhỏ nổi lên thành feeling.
      "Observable" không có nghĩa "có từ sẵn" — có nghĩa PFC CÓ THỂ
      tương tác được (observe, locate, label, explain — dù imperfect).
@@ -216,7 +239,7 @@ backup: backup/Feeling-v1-draft.md
 
   ③ OBSERVABLE (PFC Có Thể Tương Tác)
      Threshold phụ thuộc 2 chiều: MAGNITUDE × CLARITY.
-     Body tính toán 24/7 — hầu hết KHÔNG trở thành feeling.
+     Body xử lý 24/7 — hầu hết KHÔNG trở thành feeling.
 
      MAGNITUDE = cường độ signal (body-feedback generate):
        → Cao: đau, sợ, phấn khích → PFC khó bỏ qua
@@ -389,6 +412,23 @@ backup: backup/Feeling-v1-draft.md
     → chồng + bát là SAFE target → PFC tạo câu chuyện post-hoc.
   → Decisions based on Layer 7 = often WRONG actions.
   → Wise approach: be SUSPICIOUS of Layer 7 explanations.
+
+  ⭐ PFC = LAWYER (not Judge) — Inter-Body-Mechanism.md §7:
+  → Layer 7 = PFC LAWYERING function. PFC biện h��� cho body-base:
+    ① Body-need fires TRƯỚC (Layer 1-3)
+    ② Body creates DRIVE toward action
+    ③ PFC creates NARRATIVE ("lý do") cho action body ĐÃ muốn
+    ④ Person BELIEVES narrative (PFC produces convincingly)
+  → 🟢 Split-brain: left hemisphere CONFABULATE reasons cho actions
+    initiated by right hemisphere (Gazzaniga) = literal lawyer function
+  → 🟢 Moral intuition (Haidt 2001): judgment = intuition first,
+    reasoning = post-hoc justification
+  → Layer 7 accuracy = spectrum 0→1 (§7.2 Inter-Body):
+    HIGH: simple needs (đói→ăn), practiced introspection, low charge
+    LOW: shameful needs, hormone override, social pressure, identity threat
+  → IMPLICATION: Layer 7 ≠ "PFC giải thích sai sometimes"
+    Layer 7 = PFC's JOB is to build narrative FOR body-base
+    = STRUCTURAL bias, not occasional error
 ```
 
 ### 2.4 Fidelity Loss Diagram
@@ -415,6 +455,65 @@ backup: backup/Feeling-v1-draft.md
     → Human feeling literacy = irreplaceable skill
 ```
 
+### 2.5 Compiled/Fresh × 7-Layer Mapping (v3.0)
+
+```
+⭐ 7-LAYER REFRAME QUA COMPILED/FRESH AXIS (Inter-Body-Mechanism.md §3):
+
+  Drill insight: "Feeling" vs "Logic" = OBSERVER LABELS.
+  Trục thật bên trong body: COMPILED ←→ FRESH (compilation level).
+  7-layer gradient = CHÍNH XÁC map lên Compiled/Fresh axis:
+
+  ┌────────┬──────────────────────────────┬─────────────────────────┐
+  │ Layer  │ Processing                    │ Compiled/Fresh          │
+  ├────────┼──────────────────────────────┼─────────────────────────┤
+  │ L1-L2  │ Raw signals + Integration    │ HARDWARE (pre-compiled) │
+  │        │ Body fire, insula integrate  │ Zero PFC cost           │
+  ├────────┼──────────────────────────────┼─────────────────────────┤
+  │ L3     │ Consciousification           │ COMPILED → PFC boundary │
+  │        │ Body truth noticeable        │ Body COMPILED truth     │
+  │        │                              │ rising to PFC awareness │
+  ├────────┼──────────────────────────────┼─────────────────────────┤
+  │ L4-L5  │ Observation + Location       │ MIXED                   │
+  │        │ PFC attend + locate          │ Compiled = expert fast  │
+  │        │                              │ Fresh = novice slow     │
+  ├────────┼──────────────────────────────┼─────────────────────────┤
+  │ L6     │ Labeling                     │ COMPILED (if label      │
+  │        │ Verbal handle                │ available) or FRESH     │
+  │        │                              │ (searching new label)   │
+  ├────────┼──────────────────────────────┼─────────────────────────┤
+  │ L7     │ Explanation                  │ FRESH processing        │
+  │        │ PFC builds narrative         │ PFC = Lawyer drafting   │
+  │        │                              │ Max PFC cost            │
+  └────────┴──────────────────────────────┴─────────────────────────┘
+
+  INSIGHT:
+    → Fidelity gradient (§2.4) = INVERSELY correlated with FRESH processing
+    → L1-L3 high fidelity = body-compiled truth (cost ≈ 0, accuracy HIGH)
+    → L6-L7 low fidelity = PFC-fresh processing (cost > 0, accuracy LOW)
+    → "Trust lower layers" = "Trust compiled body truth over fresh PFC draft"
+    → Expert: L4-L5 also COMPILED → high fidelity THROUGH L5
+    → Novice: L4-L5 still FRESH → fidelity drops earlier
+
+  TRAINING REFRAME:
+    → Training = COMPILE lower-layer access:
+      Before: L4-L5 = fresh (slow, effortful body scan)
+      After: L4-L5 = compiled (automatic body awareness)
+    → Expert meditator: L3→L4 = near-automatic
+    → = Training MOVES the compiled/fresh boundary DOWN
+
+  CONNECTION:
+    → Logic-Feeling.md: Compiled/Fresh = real axis (not content)
+    → Inter-Body §3.5: "100% feeling at base level"
+      = all output ultimately satisfies body-need
+      = L7 "logic" = just fresh-processing BEFORE compile
+    → Feeling-Literacy-Training §Stage 1-5 = compilation progression
+
+🟡 Compiled/Fresh × 7-Layer mapping = framework synthesis.
+   Each component (7-layer, Compiled/Fresh) independently grounded;
+   cross-mapping = novel synthesis.
+```
+
 ---
 
 ## §3 — CORE CLAIM: Feeling = PFC Observation of Body-Chunk Interaction
@@ -436,13 +535,13 @@ backup: backup/Feeling-v1-draft.md
     → PFC observe integrated state → ĐÓ LÀ FEELING
 
   Feeling = INTERFACE giữa body computation và PFC awareness.
-  Body = tính toán. Feeling = kết quả hiện lên. PFC = observe + label + explain.
+  Body = xử lý (compiled patterns fire). Feeling = kết quả hiện lên. PFC = observe + label + explain.
 
 
 ⭐ 4 HỆ QUẢ:
 
   ① Feeling KHÔNG TẠO RA thông tin mới
-     → Body tính toán XONG → feeling REPORT → PFC observe
+     → Body xử lý XONG → feeling REPORT → PFC observe
      → Temporal order: Body compute → Feeling emerge → PFC observe
      → 🟢 Damasio 1994, 1999: somatic markers PRECEDE conscious decision
 
@@ -491,6 +590,79 @@ backup: backup/Feeling-v1-draft.md
     → PFC observe → label → plan → action → new body state → NEW feeling
     → PFC KHÔNG thay đổi CURRENT feeling → CHỈ thay đổi NEXT feeling qua action
     → = Loop, not linear (§9)
+```
+
+### 3.3 Alexithymia validation: observation difficulty ≠ signal difficulty (v2.2)
+
+```
+🟢 AUTISM DRILL CONFIRMS CORE CLAIM (Autism-Observation.md §5.3):
+
+  Bird & Cook 2013 (Translational Psychiatry 3:e285) — LANDMARK:
+    → Measured: emotion recognition, empathy, autism traits, alexithymia
+    → CONTROLLING FOR ALEXITHYMIA:
+      Autism traits = NO independent effect on emotion recognition
+      Alexithymia = SOLE predictor of difficulty
+    → = "Empathy deficit in autism" = ARTIFACT of alexithymia co-occurrence
+    → = Autism WITHOUT alexithymia → TYPICAL empathy responses
+
+  Shah et al. 2016: interoceptive accuracy (heartbeat detection):
+    → Alexithymia predicted poor accuracy, autism did NOT
+    → = Interoceptive difficulty = alexithymia, not autism
+
+  ⭐ CONFIRMS §3.1: FEELING = PFC OBSERVATION:
+    → Alexithymia = observation/labeling DIFFICULTY (PFC layer, §2 Layer 4-7)
+    → Body-feedback signals STILL FIRE (L1-L3 intact, §2 Layer 1-3)
+    → = Signal production ≠ Signal reading
+    → = Feeling CÓ nhưng PFC observation IMPAIRED
+    → ~50% autistic WITH alexithymia → difficulty (PFC observation impaired)
+    → ~50% autistic WITHOUT alexithymia → TYPICAL (PFC observation intact)
+    → = EXACTLY what §3.1 predicts: body compute → feeling emerge → PFC observe
+      Alexithymia = PFC observation step COMPROMISED → body VẪNTÍNH, chỉ PFC KHÔNG ĐỌC
+
+  🟢 Bird & Cook 2013, Shah et al. 2016, Kinnaird et al. 2019
+  🟡 Alexithymia as validation of "feeling = PFC observation" = framework synthesis
+```
+
+### 3.4 PFC = Lawyer: Structural Bias in Feeling Interpretation (v3.0)
+
+```
+⭐ PFC INTERPRETATION CỦA FEELING = LAWYERING (Inter-Body-Mechanism.md §7):
+
+  §3.1 claims: "Feeling = WHAT PFC SEES khi observe body-chunk interaction."
+  §3.2 confirms: "Body first, PFC after. LUÔN LUÔN."
+  §2.5 §Layer 7: "PFC = Lawyer for body-base."
+
+  NHƯNG: PFC "observe" ≠ neutral camera.
+  PFC = LAWYER cho body-base:
+    → Body-need fire → drive → PFC tạo narrative CHO drive đó
+    → Person believes narrative = "observation" — thực ra = confabulation
+    → = NOT occasional error — STRUCTURAL function of PFC
+
+  VÍ DỤ THỰC TẾ (Layer 7 = lawyering):
+    → "Giận chồng vì bát" — body-need = rest (mệt+đói). PFC lawyer: blame target
+    → "Check phone vì xem tin" — body-need = social anxiety. PFC lawyer: rational cover
+    → "Tôi ổn" — body-need = deny loneliness. PFC lawyer: self-concept protection
+    → "Yêu em vì hiểu anh" — body-need = multi-channel fill. PFC lawyer: simple narrative
+
+  IMPLICATION CHO FEELING SYSTEM:
+    ① Feeling SIGNAL (L1-L3) = body truth. RELIABLE.
+    ② Feeling INTERPRETATION (L6-L7) = PFC lawyering. UNRELIABLE.
+    ③ Feeling accuracy = f(WHICH LAYER you're accessing)
+    ④ Training = bypass L7 lawyer → access L3-L4 directly (§10)
+    ⑤ Domain Reality = final arbiter ALWAYS — PFC narrative must be
+       TESTED against domain outcomes (§8.3 1A vs 1B)
+
+  RESEARCH:
+    🟢 Gazzaniga split-brain: left hemisphere confabulates reasons
+    🟢 Haidt 2001: moral intuition first, reasoning post-hoc
+    🟢 Nisbett & Wilson 1977: people often cannot report actual causes
+    🟡 "PFC = Lawyer" as structural principle = framework synthesis
+
+  CONNECTION:
+    → Ask-AI.md v3.1 §6.1: Dual Check (body=quality controller, domain=final arbiter)
+    → Logic-Feeling.md: PFC "logic" = lawyer-fresh; body "feeling" = compiled truth
+    → §7 Gradient: vague feeling may be MORE ACCURATE than L7 narrative
+      (convergence zone = many compiled signals vs 1 fresh narrative)
 ```
 
 ---
@@ -623,6 +795,16 @@ backup: backup/Feeling-v1-draft.md
   → Sources: L0 Alive, L1 Body-inputs, L2 Novelty, L3 Meaning,
     Mirror, Schema, Imagine-Final, Valence, Cognitive prediction.
   → = Layer 1 trong 7-layer model.
+
+  ⭐ BODY-NEED = 2-SOURCE AGGREGATE (BFM v2.0, Inter-Body §2):
+    Source ① Hardware/Sensory-Driven: đói, đau, nóng (pre-chunk possible)
+    Source ② Chunk Dynamics/Pattern-Driven: Gap, Miss, Shift (requires compiled chunks)
+    → Cùng event kích hoạt CẢ ①+②: social isolation = ① hardware oxytocin deficit
+      + �� compiled friend Miss
+    → Body-Need = TỔNG HỢP tất cả signals đang đòi đáp ứng
+    → 7 properties: luôn tồn tại, multiple parallel, có priority,
+      có direction, PFC không luôn biết, có th��� conflict, có thể bị hijack
+    → Feeling system = OBSERVATION INTERFACE cho body-need aggregate
 
 ② VTA DETECTS DELTA:
   → VTA = "seismograph" — detect BIẾN ĐỘNG, not absolute state.
@@ -898,10 +1080,12 @@ backup: backup/Feeling-v1-draft.md
     ③ Current body state (cortisol, sleep, energy)
     ④ A/B ratio (individual hardware + development)
 
-  → Chi tiết đầy đủ: Reward-Signal-Architecture.md v1.0
+  → Chi tiết đầy đủ: Reward-Signal-Architecture.md v2.0
   → 5 profiles × temporal × compound: RSA §4-§6
   → Individual differences: RSA §8
-  → Source: Drill §2, §3.7-§3.22
+  → Architecture B connection: RSA §0.3 (WHY Type A complex)
+  → Compiled/Fresh × A₀→A₃: RSA §1.7
+  → Source: Drill §2, §3.7-§3.22, Inter-Body §1
 ```
 
 ---
@@ -1127,7 +1311,20 @@ backup: backup/Feeling-v1-draft.md
     → = Body vote ALONE insufficient → need domain reality check
     → = Logic + Feeling parallel needed (Logic-Feeling.md)
 
+  ⭐ DOMAIN REALITY = FINAL ARBITER (drill principle ⑧, Inter-Body §6.4):
+    → PFC = Lawyer → narrative có thể WRONG (§3.4)
+    → Body vote = quality controller → NHƯNG CÓ THỂ bị distort (§8.4)
+    → Domain outcome = FINAL CHECK = arbiter không ai override
+    → Timeline varies: scam (seconds) → childhood schemas (10-30 years)
+      → NHƯNG reality ALWAYS arrives
+    → DUAL CHECK (Ask-AI v3.1 §6.1):
+      Step 1: Body-feedback = quality controller ("cảm thấy không ổn?" → pause)
+      Step 2: Domain reality = final arbiter (outcome confirms/rejects)
+    → TRAINING phải include DOMAIN FEEDBACK, not just "trust body"
+    → = 1A/1B distinction fundamentally = "has domain verified?" YES/NO
+
   IMPLICATION: Training must include DOMAIN FEEDBACK, not just "trust body."
+  PFC-Lawyer can argue convincingly. Body can be distorted. Domain cannot lie.
 ```
 
 ### 8.4 Trauma and Distortion
@@ -1565,6 +1762,9 @@ backup: backup/Feeling-v1-draft.md
   ✓ Alexithymia spectrum (Taylor 2000 TAS-20)
   ✓ Dual process (Kahneman 2011) — framework refines:
     Logic vs Feeling bằng SOURCE (rules vs body), KHÔNG bằng speed.
+  ✓ Split-brain confabulation (Gazzaniga) — PFC constructs post-hoc narratives (v3.0)
+  ✓ Moral intuition first, reasoning post-hoc (Haidt 2001) (v3.0)
+  ✓ People cannot accurately report causes of behavior (Nisbett & Wilson 1977) (v3.0)
 
 🟡 MEDIUM CONFIDENCE — framework synthesis:
 
@@ -1583,6 +1783,17 @@ backup: backup/Feeling-v1-draft.md
   ⚠ 5-mismatch evolutionary framing (plausible EP, not rigorously tested)
   ⚠ Feeling loop as "core framework loop" (framework claim)
   ⚠ AI era → feeling literacy critical (logical argument, prediction about future)
+  ⚠ Alexithymia validates "feeling = PFC observation" (v2.2 — Bird & Cook 2013)
+  ⚠ PFC = Lawyer as structural principle for Layer 7 (v3.0 — consistent with Gazzaniga,
+    Haidt, Nisbett & Wilson; formal principle = framework synthesis)
+  ⚠ Compiled/Fresh × 7-Layer mapping (v3.0 — each component grounded independently,
+    cross-mapping as unified axis = framework synthesis)
+  ⚠ Architecture B → feeling system as consequence (v3.0 — evolution argument,
+    logically sound but not directly testable)
+  ⚠ Body-Need 2-source as input to feeling Step ① (v3.0 — consistent with BFM v2.0,
+    explicit framing in feeling flow = framework integration)
+  ⚠ Domain Reality = Final Arbiter for feeling accuracy (v3.0 — logical principle,
+    consistent with 1A/1B, timeline evidence strong but varied)
 
 🔴 LOW CONFIDENCE — hypotheses:
 
@@ -1717,13 +1928,15 @@ backup: backup/Feeling-v1-draft.md
 ### 13.2 Framework Dependencies
 
 ```
-📚 REWARD ARCHITECTURE (v2.1 NEW):
+📚 REWARD ARCHITECTURE (v3.0 updated):
 
-  Reward-Signal-Architecture.md v1.0 — Type A/B dimension, 5 Profiles, Interaction Model
+  Reward-Signal-Architecture.md v2.0 — Type A/B, A₀→A₃, 5 Profiles, Architecture B
     → §6.5 summary maps to RSA full detail
     → Type A = evaluative (opioid), PFC observes clearly (Layer 4-6)
     → Type B = direct state (non-opioid), PFC observes vaguely (Layer 2-3)
     → 5 Profiles = "hương vị" reward: ①Sensory ②Coherence ③Social ④Relief ⑤Preview
+    → §0.3 Architecture B connection (WHY reward system general-purpose)
+    → §1.7 Compiled/Fresh × A₀→A₃ (compilation depth)
 
 📚 CHUNK SYSTEM:
 
@@ -1737,12 +1950,35 @@ backup: backup/Feeling-v1-draft.md
   03-Reward (Body-Feedback)  — H10, 5 preconditions (DEFINITIVE)
   99-Master-Synthesis        — Unified architecture, all hypotheses
 
+📚 INTER-BODY DRILL (v3.0 NEW):
+
+  Inter-Body-Mechanism.md v1.0 — SOURCE-OF-TRUTH cho drill principles
+    → §1: Architecture B (WHY feeling system general-purpose) → §0 framing
+    → §2: Body-Need 2-source aggregate → §5.2 Step ① connection
+    → §3: Compiled/Fresh = real axis → §2.5 mapping
+    → §4: 3 Independent Cost Sources → feeling processing cost model
+    → §7: PFC = Lawyer → §2.3 Layer 7 + §3.4 formal section
+    → §6.4: Domain Reality = Final Arbiter → §8.3 strengthen
+
+📚 BODY-FEEDBACK (v3.0 updated):
+
+  Body-Feedback-Mechanism.md v2.0 — Chunk dynamics, 2-source, Body-Need
+    → Body-Need 7 properties → §5.2 Step ① (body-need aggregate drives feeling)
+  Body-Feedback-Label.md v2.0 — Vocabulary reference (3-tier labels)
+  Gap-Direction.md v2.0 — Gap has direction = f(surrounding chunks)
+  Body-Feedback.md v2.0 — Entry point synthesis (10 files, ~16,500L folder)
+
 📚 BODY + CORE:
 
   Core-v7.5-Draft.md §2     — Body-Base L0-L3 levels (sources of feelings)
   Body-Input-Enumeration.md  — Full body input catalog, §4.9 self-signal keystone
   Neural-Processing-Flow.md  — Hardware pathway: sensor → cortex → binding → PFC
   Body-Dissonance.md         — 14+ specific dissonance signals
+
+📚 HEALTH CONDITIONS DRILL (v2.2):
+
+  Autism-Observation.md v1.0 §5.3 — Bird & Cook 2013, alexithymia (→ §3.3)
+  → Informed: §3.3 (alexithymia validates "feeling = PFC observation")
 
 📚 PROCESSING + PLANNING:
 
@@ -1751,6 +1987,7 @@ backup: backup/Feeling-v1-draft.md
   Somatic-Articulation-Loop.md — Body-knowledge → verbal-knowledge (7-stage SAL)
   Imagine-Final.md           — Preview mechanism (preview feelings source)
   PFC-Analysis.md            — PFC role observing feelings (Layer 4-7)
+  Ask-AI.md v3.1             — Dual Check: body=QC, domain=arbiter (→ §8.3)
 ```
 
 ### 13.3 Key Research References
@@ -1772,7 +2009,9 @@ backup: backup/Feeling-v1-draft.md
   Engel A. (2001) — Temporal binding, gamma oscillation
   Farb N. (2013) — Meditation → interoceptive accuracy
   Fields H. (2007) — Opioid reward system
+  Gazzaniga M. (split-brain) — Left hemisphere confabulation (v3.0: PFC=Lawyer)
   Gendlin E. (1978) — Focusing, felt sense, body shift
+  Haidt J. (2001) — Moral intuition first, reasoning post-hoc (v3.0: PFC=Lawyer)
   Hall 2019 NIH — Interoceptive prediction empirical evidence
   Kahneman D. (2011) — Dual process (framework refines)
   Klein G. (1998) — Expert intuition, recognition-primed decision
@@ -1781,6 +2020,7 @@ backup: backup/Feeling-v1-draft.md
   Levine P. (2010) — Somatic Experiencing, trauma recovery
   Libet B. (1983) — Readiness potential before conscious will
   Nader K. (2000) — Memory reconsolidation
+  Nisbett R. & Wilson T. (1977) — Cannot accurately report causes (v3.0: PFC=Lawyer)
   Panksepp J. (1998) — Affective neuroscience, 7 systems
   Seth A. (2013) — Interoceptive inference
   Taylor G. (2000) — TAS-20 alexithymia measurement
@@ -1794,15 +2034,16 @@ backup: backup/Feeling-v1-draft.md
 ## §14 — STATUS
 
 ```
-FEELING.MD v2.0 — STATUS:
+FEELING.MD v3.0 — STATUS:
 
-  Version: 2.0
+  Version: 3.0
   Created: 2026-04-17
-  Lines: ~1,600
+  Updated: 2026-05-17
+  Lines: ~2,100
   Sections: 15 (§0-§14)
 
-  REPLACES: Feeling.md v1.0 DRAFT (2026-04-13, ~1,287L)
-  BACKUP: backup/Feeling-v1-draft.md
+  REPLACES: Feeling.md v2.2 (2026-05-15, ~1,906L)
+  BACKUP: backup/Feeling-v2.2-backup.md
 
   INCORPORATES:
     → Feeling.md v1 — 7-layer structure, feeling loop, body-base, evolutionary
@@ -1824,7 +2065,7 @@ FEELING.MD v2.0 — STATUS:
 
   RELATIONSHIP TO CHUNK.MD V2.0:
     → Chunk.md v2.0 = chunk system reference
-    → Feeling.md v2.0 = feeling system reference
+    → Feeling.md v3.0 = feeling system reference
     → BOTH describe ONE unified system from 2 angles
     → Bridge explicit in §9
 
@@ -1832,7 +2073,19 @@ FEELING.MD v2.0 — STATUS:
   PROJECT CONTEXT:
     → Session N+15 of Chunk Deep Analysis + Feeling Deep project
     → Total files: 51. Total lines: ~55,800+
-    → Chunk system: ✅ COMPLETE. Feeling system: ✅ COMPLETE (v2.0).
+    → Chunk system: ✅ COMPLETE. Feeling system: ✅ COMPLETE (v3.0).
+
+  v3.0 CHANGES (2026-05-17 — Inter-Body Drill Integration):
+    → §0: +Architecture B connection (WHY feeling = general-purpose feedback)
+    → §2.3 Layer 7: +PFC=Lawyer integration (structural bias, not occasional error)
+    → §2.5 NEW: Compiled/Fresh × 7-Layer mapping (compilation level = real axis)
+    → §3.4 NEW: PFC = Lawyer formal section (Gazzaniga, Haidt, Nisbett & Wilson)
+    → §5.2 Step ①: +Body-Need 2-source aggregate framing
+    → §6.5: RSA v1.0→v2.0 cross-ref, Architecture B connection
+    → §8.3: +Domain Reality = Final Arbiter formal principle, Dual Check
+    → §12: +3 🟢 (Gazzaniga, Haidt, Nisbett & Wilson) + 5 🟡 (drill concepts)
+    → §13: +Inter-Body section, +Body-Feedback section, versions updated
+    → All existing content PRESERVED. Research citations preserved + 3 added.
 
   NEXT:
     → Framework update recommendations (R-F1, R-F3) from 99-Master §5
@@ -1842,27 +2095,28 @@ FEELING.MD v2.0 — STATUS:
 
 ---
 
-> **END OF Feeling.md v2.0**
+> **END OF Feeling.md v3.0**
 >
 > **Summary:** Central reference file cho Feeling system:
->   §0: Position (feedback trung tâm)
+>   §0: Position (feedback trung tâm + Architecture B connection)
 >   §1: Definition (integrated body signal, PFC-observable, 3 properties)
->   §2: 7-Layer Fidelity Gradient (framework contribution)
->   §3: Core Claim (feeling = PFC observation of body-chunk interaction)
+>   §2: 7-Layer Fidelity Gradient (+PFC=Lawyer L7, +Compiled/Fresh mapping)
+>   §3: Core Claim (+PFC=Lawyer formal section)
 >   §4: Integration (3 hubs, predictive matching, self-signal keystone)
->   §5: 8-Step Operational Flow (processing system)
+>   §5: 8-Step Operational Flow (+Body-Need 2-source)
 >   §6: Reward (dopamine ≠ reward, 5 preconditions, eureka 4 cases,
->        v2.1: Type A/B + 5 Profiles + Quality formula)
+>        Type A/B + 5 Profiles + Quality formula + RSA v2.0)
 >   §7: Gradient (clear↔vague, H5, convergence zone)
->   §8: Quality (library × context, expert/beginner, 1A/1B, trauma)
+>   §8: Quality (library × context, expert/beginner, 1A/1B + Domain=Arbiter, trauma)
 >   §9: Feeling Loop + Chunk-Feeling Bridge (bidirectional, body vote)
 >   §10: Literacy + Training (5-stage, Focusing, AI era critical)
 >   §11: Evolutionary (2M years + 5 mismatches)
->   §12: Honest Assessment (21🟢 + 15🟡 + 8🔴, 10 predictions)
->   §13: Cross-References (feeling/ + chunk + core + research)
+>   §12: Honest Assessment (24🟢 + 21🟡 + 8🔴, 10 predictions)
+>   §13: Cross-References (+Inter-Body, +Body-Feedback, versions updated)
 >   §14: Status
 >
 > **Core insight:** "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng."
 > Chunk system and feeling system = ONE system, 2 observation angles.
+> PFC = Lawyer (not Judge) → trust body Layer 3-4 over Layer 7 narrative.
 >
-> **Phiên bản:** v2.1, 2026-05-10.
+> **Phiên bản:** v3.0, 2026-05-17.

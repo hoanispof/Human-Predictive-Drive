@@ -582,7 +582,7 @@
 → Innovation-Geography.md: trade hubs = nơi chunks tụ về (accelerate flow)
 → Education-AI-Era-Draft.md: AI era = tầng mới trong flow
 → Human-AI-Future.md: AI = nhạc cụ mới, tăng tốc compression
-→ Why-Body-Knows.md §4: evolution → development → culture → AI calibration
+→ Why-Body-Knows.md §3: 2-tầng calibration (Darwinian + Hebbian, 2 đường vào)
 → Empathy-Mirror.md §6.5: empathy-mirror = body-level DRIVE behind sharing/flow
 → Discovery-vs-Expansion.md §1 + §2.5: Sense → Verify → Scale pipeline
 

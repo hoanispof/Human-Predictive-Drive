@@ -20,7 +20,7 @@ sub_folder: F1 Child-Chunk-Development
 >
 > **3 additional L2 markers** delivered for Nút Thắt 4 reinforcement: stranger anxiety face progression (E16), still-face Phase 3 puzzled reaction (E20), peek-a-boo anticipation (E30). Combined with 06a đơ mặt + 06b vaccination pre-cry + 06b anticipatory feeding response = 6-marker catalog for PFC hardware × chunks reconciliation.
 >
-> **Cross-references Agent/ sub-folder** (drilled N+2) for Pattern Resonance mechanism explanation. 07 does NOT re-derive Pattern Resonance architecture (see [Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md)) — it applies the architecture to F1 developmental events.
+> **Cross-references Agent/ sub-folder** (drilled N+2) for Resonance mechanism explanation. 07 does NOT re-derive Resonance architecture (see [Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md)) — it applies the architecture to F1 developmental events.
 
 ---
 
@@ -53,11 +53,11 @@ All four mechanisms act concurrently. No single mechanism is sufficient or neces
 |---|---|---|---|
 | CONSPEC face template (innate) | Birth | L0 | Innate not compiled — cross-ref [03 §3.1](03-Visual-System-Arc.md#§3.1) |
 | Farroni 2002 direct gaze | 2-5 days | L2 | Earliest L2 marker in F1 — cross-ref [03 §3.2](03-Visual-System-Arc.md#§3.2) |
-| **E9 Cry contagion** | Day 1-2 | L0/L1 | Pattern Resonance Stage 0 chunk-based (NOT hardware mirror) |
+| **E9 Cry contagion** | Day 1-2 | L0/L1 | Resonance Stage 0 chunk-based (NOT hardware mirror) |
 | **E12 Social smile** ⭐ | 6-8 weeks | L2 | ⭐ Nút Thắt 3 keystone — first multi-modal binding |
 | **E13 Smile contagion** | 4 months | L2 | Positive counterpart of E9 |
 | **E15 Mother recognition** | 5 months | L2 | First identity chunk (specific other, not generic face) |
-| **E14 Gaze following** | 6 months | L2 | Pattern Resonance Stage 2 beginning form |
+| **E14 Gaze following** | 6 months | L2 | Resonance Stage 2 beginning form |
 | **E20 Still-face Phase 3** ⭐ | 6 months+ | L2 | L2 marker #4 (expectation violation freeze) |
 | **E16 Stranger anxiety** ⭐ | 7-9 months | L2 | L2 marker #3 (face progression) |
 | **E17 Separation distress** | 9 months | L3 | Object permanence + attachment integration |
@@ -70,9 +70,9 @@ All four mechanisms act concurrently. No single mechanism is sufficient or neces
 | **E26 Egocentric empathy** | 18 months | L4 | Cross-ref [06b §5.5](06b-Interoceptive-Other-States.md#§5.5) — own chunks as templates |
 | **E31 "Không" autonomy** | 18-24 months | L4 | Self-as-agent chunk emerging |
 
-**Critical framework distinction** (cited throughout from [Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md)):
+**Critical framework distinction** (cited throughout from [Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md)):
 
-> Pattern Resonance is NOT hardware mirror — it is **chunk-based simulation using own-experience patterns**. E9 cry contagion + E10 own-cry-recording asymmetry is **decisive evidence against hardware mirror hypothesis**: if hardware, newborns should cry at any cry sound including their own recording. Reality: own-cry recording produces weaker response than other-cry (near-miss dissonance via prediction-delta). Mechanism is chunk-based.
+> Resonance is NOT hardware mirror — it is **chunk-based simulation using own-experience patterns**. E9 cry contagion + E10 own-cry-recording asymmetry is **decisive evidence against hardware mirror hypothesis**: if hardware, newborns should cry at any cry sound including their own recording. Reality: own-cry recording produces weaker response than other-cry (near-miss dissonance via prediction-delta). Mechanism is chunk-based.
 
 This is load-bearing for the entire 07 analysis: every "mirror-like" social event (cry contagion, smile contagion, social smile, gaze following, imitation) is treated as **chunk-based simulation**, not hardware mirror module. The developmental trajectory is about **own-pattern compilation timing**, not "mirror module turning on".
 
@@ -104,7 +104,7 @@ Social events are the **cleanest empirical handles** on this question because:
 2. **Unimodal testing is possible**: Can babies social-smile at face-only? At voice-only? (Partial answers: less reliably — showing that the unified chunk needs the cross-modal input).
 3. **Developmental timing is well-documented**: Social smile emerges at 6-8 weeks, reliably, across cultures.
 4. **Blind infant evidence**: Blind infants also social-smile at ~8 weeks, using auditory + tactile cues. This confirms the chunk is **learned cross-channel binding**, not visually-hardwired.
-5. **Pattern Resonance cases** ([Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md)) are almost all social — cry contagion, smile contagion, mother recognition, empathy — giving a rich empirical base.
+5. **Resonance cases** ([Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md)) are almost all social — cry contagion, smile contagion, mother recognition, empathy — giving a rich empirical base.
 
 ### §1.3 — Cross-references to other F1 files already drilled
 
@@ -113,7 +113,7 @@ Social events are the **cleanest empirical handles** on this question because:
 - **[05-Motor-Output-Arc.md](05-Motor-Output-Arc.md)** §2.4 visuomotor reaching, §2.8 pointing, §7 E25 intentional gesture — motor side of social output
 - **[06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md)** §3.3 đơ mặt L2 marker methodology (applied to 07 L2 markers)
 - **[06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md)** §5 emotional arc (interoceptive side) + §5.5 E26 egocentric empathy (cross-ref back here)
-- **[Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md)** entire file — chunk-based simulation framework used throughout 07
+- **[Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md)** entire file — chunk-based simulation framework used throughout 07
 
 ### §1.4 — Scope limits
 
@@ -144,9 +144,9 @@ Per [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md) §4 five pillars, t
 - **CONSPEC** (Morton & Johnson 1991) — innate face-like-stimulus orientation, present from birth, drives face-following behavior in newborns
 - **CONLERN** — learned face knowledge, compiles over first 2-3 months on top of CONSPEC
 
-**Pattern-Resonance substrate (per [Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md) §2)**:
+**Resonance substrate (per [Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) §2)**:
 - Self-Pattern-Match mechanism requires own chunks + target cues → prediction
-- Pattern Resonance emerges when 2+ agents' SPM co-fire well
+- Resonance emerges when 2+ agents' SPM co-fire well
 - Substrate is general-purpose cortical pattern-matching + chunks library, not a dedicated "mirror module"
 
 ### §2.2 — Multisensory neurons (cross-modal binding substrate)
@@ -194,7 +194,7 @@ Per [02 §9.1](02-Womb-to-Birth-Baseline.md#§9.1) baseline, with social-specifi
 - ❌ Theory-of-mind precursors
 
 **Chunks compiling within hours of birth** (day 1):
-- Own-cry pattern chunk (per [Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md) E9 analysis) — forms within minutes of first cries
+- Own-cry pattern chunk (per [Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) E9 analysis) — forms within minutes of first cries
 - Enables cry contagion E9 by day 1-2
 
 This baseline + the first-hours compile is what makes E9 cry contagion on day 1 possible while face-specific chunks are still weeks away.
@@ -211,7 +211,7 @@ The earliest social events are visual and already drilled in [03-Visual-System-A
 
 07 treats these as **precursors to social chunks** — CONSPEC is innate (not compiled chunk), Farroni direct gaze is an **L2 marker** (pattern-match activation on direct gaze pattern). The rapidity (2-5 days) is decisive evidence that (a) PFC is online from birth for social processing (falsifies old "offline" view), (b) face-like-stimulus processing compiles rapidly post-birth from CONSPEC substrate.
 
-### §3.2 — E9 Cry contagion (Pattern Resonance Stage 0, day 1)
+### §3.2 — E9 Cry contagion (Resonance Stage 0, day 1)
 
 **Observable event** ([Feel-Example E9](../../Body-Base/Feeling/Feel-Example-Draft.md#e9) day 1-2):
 
@@ -232,7 +232,7 @@ The earliest social events are visual and already drilled in [03-Visual-System-A
 
 **Sagi & Hoffman 1976, Martin & Clark 1982** — foundational newborn cry contagion research; prevalence ~70-90% (not 100% — another data point against "hardware mandatory").
 
-**Framework position**: E9 is **the earliest F1 evidence for Pattern Resonance as chunk-based simulation**. It appears on day 1 because the seed chunk (own-cry pattern) can compile within minutes, not months. It falsifies "mirror module waiting to activate" views and supports the chunks-based Pattern Resonance framework drilled in [Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md) Session N+2.
+**Framework position**: E9 is **the earliest F1 evidence for Resonance as chunk-based simulation**. It appears on day 1 because the seed chunk (own-cry pattern) can compile within minutes, not months. It falsifies "mirror module waiting to activate" views and supports the chunks-based Resonance framework drilled in [Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) Session N+2.
 
 ### §3.3 — **⭐ E12 Social smile as Nút Thắt 3 keystone (6-8 weeks)**
 
@@ -279,7 +279,7 @@ This **conjunction requirement** is what makes E12 a multi-modal binding event, 
 **Chunks state inference** 🟡:
 - Other-face smiling pattern matches "I have smiled before in similar context" (via compiled own-smile chunk from E12 + subsequent weeks of practice)
 - Activates own smile chunk
-- Pattern Resonance Stage 1 (Social Engagement, Affect Resonance) per [Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md)
+- Resonance Stage 1 (Social Engagement, Affect Resonance) per [Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md)
 
 **Why 4 months and not at E12 (6-8 weeks)**: For smile contagion to work, baby must have **stable own-smile pattern chunk**. The own-smile pattern compiles on top of E12 social smile repetition — approximately 4-6 weeks after first social smile, own-smile pattern is stable enough to match with other's smile pattern.
 
@@ -287,9 +287,9 @@ This **conjunction requirement** is what makes E12 a multi-modal binding event, 
 
 > "Sự khác biệt timing rất có ý nghĩa: Cry contagion xuất hiện từ ngày 1 vì own-cry pattern hình thành ngay (bé khóc nhiều lần trong giờ đầu). Smile contagion xuất hiện ~3-4 tháng vì own-smile pattern cần ~6-8 tuần cortical maturation cho social smile + thêm vài tuần repetition để hình thành stable own-smile pattern."
 
-**This timing asymmetry is framework-critical**: If Pattern Resonance were hardware mirror, BOTH cry and smile contagion should emerge at birth (mirror module firing on any observable action). They don't. Cry contagion emerges day 1; smile contagion emerges ~3-4 months later. The gap is **exactly the compile time for own-smile pattern**. This is direct evidence that Pattern Resonance timing depends on **own-pattern formation timing**, not on "mirror module availability".
+**This timing asymmetry is framework-critical**: If Resonance were hardware mirror, BOTH cry and smile contagion should emerge at birth (mirror module firing on any observable action). They don't. Cry contagion emerges day 1; smile contagion emerges ~3-4 months later. The gap is **exactly the compile time for own-smile pattern**. This is direct evidence that Resonance timing depends on **own-pattern formation timing**, not on "mirror module availability".
 
-**Cross-reference**: See [Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md) §2 requirement conditions for full mechanism analysis. 07 provides the developmental timing data; Agent file provides the mechanism architecture.
+**Cross-reference**: See [Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) §2 requirement conditions for full mechanism analysis. 07 provides the developmental timing data; Agent file provides the mechanism architecture.
 
 ### §3.5 — E15 Mother recognition (5 months) — first identity chunk
 
@@ -315,7 +315,7 @@ The "mother chunk" is a **composite multi-modal identity chunk**:
 
 **Cross-reference to H11**: Mother recognition at 5 months (receptive) vs verbal "mama" referential at 12-14 months (productive, see [08-Verbal-Production-Arc.md](08-Verbal-Production-Arc.md) §4.6 upcoming) = **receptive-productive gap ~7-9 months** for mother-identity verbal label. Consistent with H11 ratio pattern.
 
-### §3.6 — E14 Gaze following (6 months) — Pattern Resonance Stage 2 beginning
+### §3.6 — E14 Gaze following (6 months) — Resonance Stage 2 beginning
 
 **Observable event** ([Feel-Example E14](../../Body-Base/Feeling/Feel-Example-Draft.md#e14) 6 months):
 
@@ -399,9 +399,9 @@ This is another support for H11 receptive-productive asymmetry — **predictive 
 - "Mother's face positive → safe" + "Mother's face negative → danger" chunks
 - **Other-as-information-source chunk** — treating mother's emotional response as **valid information about the world**, not just as social feedback
 
-**Framework significance**: E19 is the **first instance of Pattern Resonance being used for practical action decisions**, not just affective sharing. Per E19 Notes:
+**Framework significance**: E19 is the **first instance of Resonance being used for practical action decisions**, not just affective sharing. Per E19 Notes:
 
-> "Pattern Resonance không chỉ là mechanism passive (cảm nhận) mà còn active (hành động dựa trên output). Tight action coupling (Axis 5) xuất hiện sớm hơn nhiều so với suy nghĩ truyền thống. Bé 10 tháng đã có 'social information → physical action' loop hoạt động."
+> "Resonance không chỉ là mechanism passive (cảm nhận) mà còn active (hành động dựa trên output). Tight action coupling (Axis 5) xuất hiện sớm hơn nhiều so với suy nghĩ truyền thống. Bé 10 tháng đã có 'social information → physical action' loop hoạt động."
 
 **Sorce, Emde, Campos & Klinnert 1985 visual cliff experiment**: baby will NOT cross a perceived (but safe) visual cliff if mother shows worry; will cross if mother smiles. This is action-level validation of social-referencing chunks.
 
@@ -553,9 +553,9 @@ This is the **earliest clear proto-ToM evidence** in F1 window. Full ToM (false-
 - "I can do what mother/father does" — self-agency chunk + imitation-as-learning chunk
 - Bridge toward symbolic play (object substitution: toy phone = real phone)
 
-**Framework-critical note (E29 Notes)**: "**ĐÂY KHÔNG PHẢI HARDWARE MIRROR** — đây là active learning of action chunks. Imitation IS Pattern Resonance applied to action — using own body as simulator để recreate observed action. KHÔNG cần mirror neurons hardware — chỉ cần own motor patterns + visual mapping của other's action + practice + thử sai feedback."
+**Framework-critical note (E29 Notes)**: "**ĐÂY KHÔNG PHẢI HARDWARE MIRROR** — đây là active learning of action chunks. Imitation IS Resonance applied to action — using own body as simulator để recreate observed action. KHÔNG cần mirror neurons hardware — chỉ cần own motor patterns + visual mapping của other's action + practice + thử sai feedback."
 
-**Meltzoff 1988** — foundational delayed imitation research. **Meltzoff's "Like Me" hypothesis** (2007) — babies treat others as "like me" agents, enabling imitation as a mechanism for learning from observation. This hypothesis is consistent with the chunks-based Pattern Resonance framework from [Agent/](../Agent/) — it does not require dedicated mirror neurons, only own-action chunks + visual-motor mapping.
+**Meltzoff 1988** — foundational delayed imitation research. **Meltzoff's "Like Me" hypothesis** (2007) — babies treat others as "like me" agents, enabling imitation as a mechanism for learning from observation. This hypothesis is consistent with the chunks-based Resonance framework from [Agent/](../Agent/) — it does not require dedicated mirror neurons, only own-action chunks + visual-motor mapping.
 
 ### §4.5 — E26 Egocentric empathy (18 months) — cross-reference back to 06b
 
@@ -563,15 +563,15 @@ This is the **earliest clear proto-ToM evidence** in F1 window. Full ToM (false-
 
 Baby brings own comfort object to distressed mother (covered in full at [06b §5.5](06b-Interoceptive-Other-States.md#§5.5)).
 
-**Ladder classification**: **L4** — compound chunks (Pattern Resonance + own-template as social action).
+**Ladder classification**: **L4** — compound chunks (Resonance + own-template as social action).
 
 **Framework significance** (from 07 social side): E26 is the **first clear use of own-emotional chunks as simulation templates for others' states**. Baby has:
-- Recognized mother's distress via Pattern Resonance
+- Recognized mother's distress via Resonance
 - Matched it to own distress chunk
 - Retrieved own comfort template (bear helps me when I'm distressed)
 - Applied the template outward (bring bear to mother)
 
-Hoffman 2000 "egocentric empathy" — Hoffman empathy development Stage 3. This is the clearest F1-window evidence of **Pattern Resonance used for pro-social action**. The limitation (egocentric) is that baby assumes mother wants what baby would want — full theory of mind (understanding that mother's desires may differ) emerges later.
+Hoffman 2000 "egocentric empathy" — Hoffman empathy development Stage 3. This is the clearest F1-window evidence of **Resonance used for pro-social action**. The limitation (egocentric) is that baby assumes mother wants what baby would want — full theory of mind (understanding that mother's desires may differ) emerges later.
 
 **Cross-reference**: [06b §5.5](06b-Interoceptive-Other-States.md#§5.5) covers the interoceptive side (own chunks as content). 07 covers the social action side (applied outward). Together they give the full analysis of E26.
 
@@ -818,17 +818,17 @@ The framework commits to **four concurrent mechanisms** for multi-modal binding,
 
 All these are **self-pattern-match instances** at developmental stages. The developmental trajectory is the trajectory of **own-chunks library growing** — as own library enriches, self-pattern-match can run on more targets.
 
-### §7.2 — Pattern-Resonance framework
+### §7.2 — Resonance framework
 
-[Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md) defined Pattern Resonance as **emergent mutual phenomenon** when 2+ agents' Self-Pattern-Match co-fire successfully. Retrospectively knowable only, feedback calibration source.
+[Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) defined Resonance as **emergent mutual phenomenon** when 2+ agents' Self-Pattern-Match co-fire successfully. Retrospectively knowable only, feedback calibration source.
 
 **07 developmental observations**:
-- **Pattern Resonance Stage 0** (Reflexive Contagion): E9 cry contagion day 1
-- **Pattern Resonance Stage 1** (Social Engagement): E12 social smile 6-8 weeks, E13 smile contagion 4 months
-- **Pattern Resonance Stage 2** (Joint Attention): E14 gaze following 6 months, E18 joint attention 9-12 months
-- **Pattern Resonance Stage 3** (Comforting Behavior): E26 egocentric empathy 18 months
+- **Resonance Stage 0** (Reflexive Contagion): E9 cry contagion day 1
+- **Resonance Stage 1** (Social Engagement): E12 social smile 6-8 weeks, E13 smile contagion 4 months
+- **Resonance Stage 2** (Joint Attention): E14 gaze following 6 months, E18 joint attention 9-12 months
+- **Resonance Stage 3** (Comforting Behavior): E26 egocentric empathy 18 months
 
-Each stage requires more compiled own-chunks + more sophisticated Pattern Resonance. The developmental trajectory validates that Pattern Resonance emerges **stage-by-stage as own-chunks compile**, not all-at-once via a mirror module.
+Each stage requires more compiled own-chunks + more sophisticated Resonance. The developmental trajectory validates that Resonance emerges **stage-by-stage as own-chunks compile**, not all-at-once via a mirror module.
 
 ### §7.3 — Mirror self-recognition (18-24 months, cross-ref only)
 
@@ -837,8 +837,8 @@ Each stage requires more compiled own-chunks + more sophisticated Pattern Resona
 ### §7.4 — F1 contribution to Agent/ framework
 
 07 adds **developmental substrate** evidence for the Agent framework:
-- Self-chunks and Pattern Resonance have **developmental compile trajectories** that are observable
-- Own-pattern formation timing determines Pattern Resonance event timing
+- Self-chunks and Resonance have **developmental compile trajectories** that are observable
+- Own-pattern formation timing determines Resonance event timing
 - Mirror hardware hypothesis is **decisively rejected** at the developmental level (E9+E10 asymmetry, smile contagion timing gap)
 - 4-mechanism cross-modal binding provides substrate for self-pattern-match to run on
 
@@ -855,7 +855,7 @@ Framework recommendation: Agent/ file should be updated with cross-reference to 
 - 🟢 **Tzourio-Mazoyer, N. et al. (2002).** FFA development in infants.
 - 🟢 **Beauchamp, M.S. (2005).** STS multisensory convergence in adults.
 
-### §8.2 — Cry contagion + newborn Pattern Resonance
+### §8.2 — Cry contagion + newborn Resonance
 
 - 🟢 **Sagi, A. & Hoffman, M.L. (1976).** Original newborn cry contagion.
 - 🟢 **Martin, G.B. & Clark, R.D. (1982).** Replication of cry contagion.
@@ -928,7 +928,7 @@ Framework recommendation: Agent/ file should be updated with cross-reference to 
 
 ### §8.12 — Framework files
 
-- [Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md) — Pattern Resonance as emergent mutual phenomenon (mechanism architecture used throughout 07)
+- [Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) — Resonance as emergent mutual phenomenon (mechanism architecture used throughout 07)
 - [Agent/Self-Pattern-Match.md](../Agent/Self-Pattern-Match.md) — solo forward mechanism
 - [Agent/Agent.md](../Agent/Agent.md) — integration hub
 - [Body-Base/Schema/Chunk.md](../../Body-Base/Schema/Chunk.md) — chunks architecture (target of R-F1-3 update)
@@ -987,7 +987,7 @@ All support the framework claim that **verbal is one of several labeling/handle 
 
 ### §10.2 — Agent/ sub-folder (drilled N+2)
 
-- [Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md) — mechanism framework + 4 stages cited throughout 07 §3 and §7.2
+- [Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) — mechanism framework + 4 stages cited throughout 07 §3 and §7.2
 - [Agent/Self-Pattern-Match.md](../Agent/Self-Pattern-Match.md) — solo mechanism cited in §7.1
 - [Agent/Agent.md](../Agent/Agent.md) — integration hub
 - [Agent/plan.md](../Agent/plan.md) — Agent drill context
@@ -1034,7 +1034,10 @@ All support the framework claim that **verbal is one of several labeling/handle 
 
 9. **Postpartum depression + chronic still-face exposure**: What are the quantitative developmental effects? Field 1995 and Tronick & Reck 2009 suggest measurable impact. How does the 07 multi-modal binding framework illuminate intervention approaches? Specifically: can supplemental contingent interaction (father, other caregivers, contingent responsive environments) mitigate?
 
-10. **Screen media exposure**: Infants exposed to screen-mediated interaction (postpartum depression + screen replacement, "AI era" concerns per E12 Notes) may have disrupted E12 compile because screens are unidirectional (no contingent response). Does 07 framework predict specific deficits? Preliminary prediction: screen-heavy babies will show delayed E12 social smile and/or E20 still-face expectation, but intact E9 cry contagion (which does not depend on contingent response). Testable.
+10. **TBW ~600ms × social input integration** (Autism drill — v1.1 note):
+    → Autism-Observation.md v1.0 §2: Temporal Binding Window (TBW) ~600ms in autism vs ~200ms typical (🟢 Foss-Feig 2010, Stevenson 2014). Wider TBW → multi-modal social input binds DIFFERENTLY → social chunk compilation SLOWER + less precise. Cross-ref §6 binding mechanism: mechanism ① (temporal co-occurrence) MOST affected by TBW width.
+
+11. **Screen media exposure**: Infants exposed to screen-mediated interaction (postpartum depression + screen replacement, "AI era" concerns per E12 Notes) may have disrupted E12 compile because screens are unidirectional (no contingent response). Does 07 framework predict specific deficits? Preliminary prediction: screen-heavy babies will show delayed E12 social smile and/or E20 still-face expectation, but intact E9 cry contagion (which does not depend on contingent response). Testable.
 
 ---
 
@@ -1055,7 +1058,7 @@ All support the framework claim that **verbal is one of several labeling/handle 
 **20 S-events analyzed** with Ladder classification (§5.1 master table).
 
 **Framework-critical quotes preserved verbatim**:
-- E9 Pattern Resonance mechanism verbatim (§3.2)
+- E9 Resonance mechanism verbatim (§3.2)
 - E13 timing asymmetry (cry day 1 vs smile 3-4 months) verbatim (§3.4)
 - E14 Tomasello joint attention foundation verbatim (§3.6 + §3.11)
 - E16 depth-creates-blindspot verbatim (§3.7)
@@ -1074,7 +1077,7 @@ All support the framework claim that **verbal is one of several labeling/handle 
 - ✅ Bidirectional Feel-Example cross-references with line numbers
 - ✅ No personal examples
 - ✅ Tiếng Việt primary + English technical terms
-- ✅ 16 verbatim quotes preserved from Feel-Example + Agent/Pattern-Resonance.md + framework
+- ✅ 16 verbatim quotes preserved from Feel-Example + Agent/By-Product-Gap-Resonance.md + framework
 
 **Cross-references bidirectional**:
 - Backward: 00, 01, 02, 03, 04, 05, 06a, 06b + Agent/ (3 files) + Body-Feedback-Draft + Body-Base + Imagination
@@ -1084,7 +1087,7 @@ All support the framework claim that **verbal is one of several labeling/handle 
 1. **Nút Thắt 3 verdict structure**: Is the 4-mechanism multi-mechanism verdict adequately supported, or does one mechanism need more drilling?
 2. **E12 as keystone**: Is the framing of E12 social smile as THE keystone correct, or should other events share keystone status (E9 cry contagion day 1 as alternative claim)?
 3. **L2 marker catalog at 8+ markers**: Is this the appropriate level of detail for the Nút Thắt 4 reinforcement, or should L2 catalog have its own synthesis section in 10?
-4. **Agent/ cross-references depth**: Is the §7 cross-reference section adequate, or should 07 re-expose Pattern Resonance mechanism more fully for standalone readability?
+4. **Agent/ cross-references depth**: Is the §7 cross-reference section adequate, or should 07 re-expose Resonance mechanism more fully for standalone readability?
 5. **Framework-critical E9+E10 treatment**: Is the "decisive evidence against hardware mirror" framing clear enough? This is framework-load-bearing.
 6. **Egocentric empathy E26 split**: Is it OK that E26 is covered in both 06b §5.5 (interoceptive side) and 07 §4.5 (social action side), or should one be removed?
 

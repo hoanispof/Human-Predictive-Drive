@@ -547,7 +547,7 @@ F4 EXTENDS:
   
   Agent/ (N+2):
     → Self-Pattern-Match §5: developmental bootstrap = cognition upgrade data
-    → Pattern-Resonance: emergent mutual mechanism = social internal processing
+    → Resonance: emergent mutual mechanism = social internal processing
   
   Body-Feedback-Draft/ (N+3):
     → H10 5-precondition model = EVALUATION framework cho F4 body votes

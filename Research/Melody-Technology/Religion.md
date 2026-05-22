@@ -1,10 +1,10 @@
 ---
 title: Tôn Giáo — Công Nghệ Tổng Hợp Phục Vụ Body-Base
-version: 2.2
+version: 2.4
 created: 2026-03-28
 rewritten: 2026-04-26
-refined: 2026-05-10
-status: RESEARCH FILE v2.2
+refined: 2026-05-17 (v2.4 — comprehensive dep updates, VP §shift, F2 label fix, entity-compiled)
+status: RESEARCH FILE v2.4
 scope: |
   RESEARCH FILE: Phân tích tôn giáo qua framework lens.
   Tôn giáo = "Melody Technology" — công nghệ phục vụ body-base
@@ -31,20 +31,20 @@ position: |
   Melody-Technology-Overview.md. RESEARCH files phân tích hiện tượng
   qua framework lens, KHÁC Core-Deep-Dive/ files (mechanism deep-dives).
 dependencies:
-  - Meaning.md v2.0 — §3.4 FAITH type anchor, §4.3 External Inject (Religion)
+  - Meaning.md v2.1 — §3.4 FAITH type anchor, §4.3 External Inject (Religion)
   - Anchor-Schema.md v1.2 — sync point, Trust binding, 4 nguồn fill
-  - Connection.md v3.1 — 3 Generative Primitives, 2-luồng reward, Cô đơn
+  - Connection.md v4.0 — 3 Generative Primitives, 2-luồng reward, Cô đơn
   - Obligation.md v1.0 — compiled prediction, Type 5 Identity, 6 types
-  - Gratitude.md v1.1 — 3 anti-habituation mechanisms, 9 prerequisites
-  - Self-Pattern-Match.md v2.1 — F1/F2, context-dependent, valence gate
-  - Valence-Propagation.md v1.4 — Body-Base Extension, 2-luồng L1/L2, §4 chains = explanatory
+  - Gratitude.md v2.0 — 3 anti-habituation mechanisms, 9 prerequisites
+  - Self-Pattern-Match.md v3.0 — F1 Compiled/F2 Fresh, context-dependent, valence gate
+  - Valence-Propagation.md v2.0 — §3 Body-Base Extension, 2-luồng L1/L2, §5 chains = explanatory
   - Compile-Taxonomy.md v1.0 — 3 Loại A/B/C, 4 compile pathways, trust-to-compile
-  - Collective-Body.md v1.1 — Model 3 Cấp, trust = only bridge, chain break, AI trust
+  - Collective-Body.md v2.0 — Model 3 Cấp, trust = only bridge, chain break, AI trust
   - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, Compound
   - Chunk-Activation-Dynamics.md — 7 factors link strength, probability
-  - Cortisol-Baseline.md v2.0 — 5 Cortisol Roles, amplifier
+  - Cortisol-Baseline.md v2.1 — 5 Cortisol Roles, amplifier
   - PFC-Function.md v1.1 — 24 functions, Observe/Hold modes, confabulation
-  - Status.md v2.0 — Resource Access Map, §9 Serotonin certainty bias
+  - Status.md v2.1 — Resource Access Map, §9 Serotonin certainty bias
   - Protect.md v1.0 — f(replaceability × attachment), identity protect
   - Compliance-Floor.md v2.0 — luật = bridge, SPM = intrinsic
   - Autonomy-Hardware.md — vmPFC/DRN controllability learning
@@ -90,7 +90,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §2 — 7 FUNCTIONS × v7.8 MECHANISM MAPPING
   - §2.1 — F1: Life-Level Anchor (Meaning.md FAITH Type)
   - §2.2 — F2: Compiled Compliance (Obligation + Compliance-Floor)
-  - §2.3 — F3: Structured Connection (Connection v3.0, 3 Primitives)
+  - §2.3 — F3: Structured Connection (Connection v4.0, 3 Primitives)
   - §2.4 — F4: Dissonance Resolution (Body-Feedback + Autonomy-Hardware)
   - §2.5 — F4b: Contemplative Practice (SPM + PFC-Function)
   - §2.6 — F5: Schema Template (Schema v2.0)
@@ -157,7 +157,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → 🔴 Hypothesis: framework prediction, cần evidence
 
 
-  ⭐ v2.1 — TÔN GIÁO QUA MODEL 3 CẤP (Collective-Body.md v1.1):
+  ⭐ v2.1 — TÔN GIÁO QUA MODEL 3 CẤP (Collective-Body.md v2.0):
 
     Tôn giáo = TEST CASE RÕ NHẤT cho Model 3 Cấp:
 
@@ -214,7 +214,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ F2     │ "Sống thế NÀO là đúng"  │ Obligation.md: Type 5 Identity │
   │        │  (mọi domain)           │ + Compliance-Floor.md v2.0      │
   ├────────┼─────────────────────────┼─────────────────────────────────┤
-  │ F3     │ "Cộng đồng SẴN,        │ Connection.md v3.1:             │
+  │ F3     │ "Cộng đồng SẴN,        │ Connection.md v4.0:             │
   │        │  đến là THUỘC VỀ"       │ 3 Generative Primitives ❶❷❸   │
   ├────────┼─────────────────────────┼─────────────────────────────────┤
   │ F4     │ "Đau khổ có Ý NGHĨA,   │ Body-Feedback-Mechanism:        │
@@ -250,7 +250,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ F1 = FUNCTION MẠNH NHẤT — TÔN GIÁO CUNG CẤP FAITH TYPE ANCHOR:
 
-  Meaning.md v2.0 §3 định nghĩa 5 loại life-level Anchor-Schema:
+  Meaning.md v2.1 §3 định nghĩa 5 loại life-level Anchor-Schema:
 
     ┌────────┬──────────────────────┬─────────────────────────────┐
     │ Type   │ Anchor là gì          │ Đặc điểm                    │
@@ -364,12 +364,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       nhưng compiled obligation VẪN fire → conflict
 ```
 
-### §2.3 — F3: Structured Connection (Connection v3.0, 3 Primitives)
+### §2.3 — F3: Structured Connection (Connection v4.0, 3 Primitives)
 
 ```
 🟡 F3 = CONNECTION CÓ CẤU TRÚC — TÔN GIÁO ENGAGE CẢ 3 PRIMITIVES:
 
-  Connection.md v3.1: Connection = ❶ Hardware × ❷ SPM × ❸ Per-Agent Valence
+  Connection.md v4.0: Connection = ❶ Hardware × ❷ SPM × ❸ Per-Agent Valence
   Tôn giáo engage CẢ 3 primitives đồng thời:
 
 
@@ -390,9 +390,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = SPM v2.1 §2.1: F1 = near-automatic, creates real biochemistry
     → = Cùng cầu nguyện → SPM fire MẠNH → connection DEEP
 
-    + Pattern-Resonance (Pattern-Resonance.md):
+    + Resonance (Resonance.md):
       → Khi 2+ agents' SPM co-fire thành công → emergent mutual phenomenon
-      → Cùng nhau trong lễ → Pattern-Resonance → bond cực mạnh
+      → Cùng nhau trong lễ → Resonance → bond cực mạnh
       → = "Cùng vượt khó" (cùng lễ lớn, cùng nhịn ăn) → bond SÂU
 
 
@@ -414,7 +414,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     → L1 (SPM-owned, momentary): mỗi lần đi lễ = SPM fire → opioid → reward
       → = Valence-Propagation.md §2: L1 per-episode, SPM-owned
-    → L2 (Entity-owned, structural): bond VỚI cộng đồng compile deep → sustained
+    → L2 (Entity-compiled, structural): bond VỚI cộng đồng compile deep → sustained
       → L2 = "yêu sâu" cộng đồng (khác "thích" đi lễ)
       → = Agent-Mechanism.md §12.2b: L2 compile = structural reward bền
 
@@ -615,7 +615,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ ANTI-HABITUATION — GRATITUDE.MD §3 BA CƠ CHẾ:
 
-    Gratitude.md v1.1 phân tích 3 anti-habituation mechanisms:
+    Gratitude.md v2.0 phân tích 3 anti-habituation mechanisms:
     → Tôn giáo đã discovery CẢ 3 empirically qua hàng nghìn năm trial-and-error:
 
     ① VARIATION (Gratitude.md §3.1):
@@ -690,7 +690,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   "BÌNH AN NỘI TÂM" = MEANING PRESENT:
 
-    → Meaning.md v2.0 §0: có anchor → chunks TỰ organize quanh → coherent
+    → Meaning.md v2.1 §0: có anchor → chunks TỰ organize quanh → coherent
     → "Bình an" = KHÔNG phải magical → là HỆ QUẢ anchor compiled deep
     → = Meaning PRESENT (Meaning.md: "có ý nghĩa" = có life-level anchor)
     → = V1.0 đúng: "bình an = coherence." V2.0 thêm: coherence VÌ CÓ anchor.
@@ -1189,7 +1189,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ❌ LEADER LẠM DỤNG VỊ TRÍ:
 
-    → Leader = vị trí trong hierarchy (Status.md v2.0: Resource Access Map)
+    → Leader = vị trí trong hierarchy (Status.md v2.1: Resource Access Map)
     → Cơ chế:
       → Status.md: người có status cao = access agent resources
       → Compliance-Floor.md §3: người có authority CÓ THỂ dùng vị trí
@@ -1220,7 +1220,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         × HIGH attachment → Protect fire CỰC MẠNH khi bị "threat"
       → "Ngoại đạo = threat" → Connection.md: ❸ negative → SPM F1 FIRE NGƯỢC
         → Dehumanize out-group = ❸ negative → SPM F1 không fire empathy
-        → = Empathy.md v2.0: empathy = SPM F1 + ❸ positive. Nếu ❸ negative → KHÔNG empathy
+        → = Empathy.md v3.0: empathy = SPM F1 + ❸ positive. Nếu ❸ negative → KHÔNG empathy
       → Status.md: in-group vs out-group = resource competition
       → Cortisol: "nhóm bị threat" → cortisol shared → collective mobilization
       → = Cực đoan: Protect MAX + ❸ negative + status threat + cortisol amplify
@@ -1426,7 +1426,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   MEANING CRISIS (Vervaeke 2019) — v7.8 ANALYSIS:
 
-    → Meaning.md v2.0 §2.4: Age Gradient — medium anchors cạn → life-level search
+    → Meaning.md v2.1 §2.4: Age Gradient — medium anchors cạn → life-level search
     → Population-level: NHIỀU người cùng lúc mất medium anchors + KHÔNG có FAITH anchor
     → = Meaning crisis = POPULATION-LEVEL anchor vacuum
 
@@ -1604,7 +1604,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟡 "Tôn giáo = melody technology" — reframe, consistent nhưng provocative
     🟡 F1 = FAITH type life-level Anchor-Schema — mapping Meaning.md §3.4
     🟡 F2 = Type 5 Identity Obligation compiled — mapping Obligation.md
-    🟡 F3 = 3 Generative Primitives engaged — mapping Connection.md v3.1
+    🟡 F3 = 3 Generative Primitives engaged — mapping Connection.md v4.0
     🟡 F4 = Chunk-Gap resolution + vmPFC controllability — mapping multi-file
     🟡 F4b = SPM F1 on virtual agent (prayer) — consistent với ToM research
     🟡 F6 = H10 preconditions + 3 anti-habituation — mapping Gratitude.md
@@ -1674,33 +1674,45 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §15 — CROSS-REFERENCES
 
 ```
-→ Meaning.md v2.0: §3.4 FAITH type anchor, §4.3 External Inject (Religion = effective provider)
+→ Meaning.md v2.1: §3.4 FAITH type anchor, §4.3 External Inject (Religion = effective provider)
 → Anchor-Schema.md v1.2: §0 case ④ (tôn giáo bypass PFC), §1 sync mechanism, §2 Trust
 → Anchor-Schema-Extreme-Example.md: Over-anchor failure mode (cult risk)
-→ Connection.md v3.1: §3 (3 Generative Primitives), §16 ("Cô đơn" deep analysis)
+→ Connection.md v4.0: §3 (3 Generative Primitives), §16 ("Cô đơn" deep analysis)
 → Obligation.md v1.0: Type 5 Identity obligation, compiled prediction
-→ Gratitude.md v1.1: §3 (3 anti-habituation), §0 (tôn giáo discovery empirically)
-→ Self-Pattern-Match.md v2.1: §2.1 F1 (body simulation), §2.2 F2 (logic prediction)
-→ Valence-Propagation.md v1.4: §2 Body-Base Extension, 2-luồng L1/L2, §4 chains = explanatory
+→ Gratitude.md v2.0: §3 (3 anti-habituation), §0 (tôn giáo discovery empirically)
+→ Self-Pattern-Match.md v3.0: §2.1 F1 Compiled (body simulation), §2.2 F2 Fresh (PFC prediction)
+→ Valence-Propagation.md v2.0: §3 Body-Base Extension, 2-luồng L1/L2, §5 chains = explanatory
 → Body-Feedback-Mechanism.md: §3.3 Chunk-Gap, §2 Chunk-Shift
 → Chunk-Activation-Dynamics.md: §2.2 (7 factors link strength), §2.3 (probability dynamic)
-→ Cortisol-Baseline.md v2.0: §7.7 (5 Roles), Role 1 vs Role 3 conversion
+→ Cortisol-Baseline.md v2.1: §7.7 (5 Roles), Role 1 vs Role 3 conversion
 → PFC-Function.md: §1 Observe (feeling literacy), §2 Hold (loose hold mode)
-→ Status.md v2.0: §0 Resource Access Map, §9 Serotonin certainty bias
+→ Status.md v2.1: §0 Resource Access Map, §9 Serotonin certainty bias
 → Protect.md v1.0: §2 f(replaceability × attachment), §3.4 identity protect
 → Compliance-Floor.md v2.0: §7 luật = bridge, §1 tự do = default
 → Autonomy-Hardware.md: §2 vmPFC/DRN controllability learning
 → Imagine-Final-Evaluation.md: Clarity × Quality × Trust 3D framework
 → Idol-Phenomenon.md: §6 cùng spectrum, §2 channels × frequency × reward
 → OCD-Analysis.md v2.1: §4.5 serotonin = amplifier model
-→ Love-Analysis.md v2.1: §12 compound grief (parallel mất đức tin)
+→ Love-Romantic.md v2.4: §12 compound grief (parallel mất đức tin)
 → Logic-Feeling-Balance.md: infinite regress, mỗi người tự cân bằng
 → Melody-Arc.md: real-check vs faith trade-off
 → Global-Melody.md: domain speciation mechanism
 → Compile-Taxonomy.md v1.0: §2 (3 Loại A/B/C), §3 (4 compile pathways), §4 (trust-to-compile 5 bước)
-→ Collective-Body.md v1.1: §1 (Model 3 Cấp), §5 (trust = only bridge), §5.2 (chain break), §8.4 (AI trust)
+→ Collective-Body.md v2.0: §1 (Model 3 Cấp), §5 (trust = only bridge), §5.2 (chain break), §8.4 (AI trust)
 → Body-Coupling.md v1.1: §2 (2D Model), §2.5 (System Compilation)
 → AI-Schema-Detection.md v2.0: §0 gateway tool framing, §5 compile type detection, §8 AI trust guardrails
+
+HEALTH CONDITIONS DRILL (v2.3):
+  ALZHEIMER CONFIRMS MAXIMUM COMPILE RESISTANCE (Alzheimer-Analysis.md §13):
+    → Religious patterns = among LAST to degrade in Alzheimer's
+    → 🟢 Kaufman 2007 (J Nervous Mental Disease 195:519):
+      spirituality/religion → slower cognitive decline in Alzheimer
+    → Framework explanation: 6+ memory systems engaged SIMULTANEOUSLY
+      (episodic + semantic + procedural + emotional + musical + social)
+      → High link density × multi-system distribution = MAXIMUM resistance
+    → = Clinical validation: Religion.md §2 "7 functions × mechanism"
+      produces the MOST RESISTANT chunk configuration possible
+  → Cross-ref: Alzheimer-Analysis.md v1.1 §13, Background-Pattern.md v1.1 §2.4
 → Collective-Purpose.md v1.1: cosmic loop, "sống có ý nghĩa" reframe
 → Reward-Signal-Architecture.md v1.0: §2 Type A/B, §8 5 Profiles — religion cover 5/5 (§2.7)
 → PFC-Configuration.md v1.0: §2 6 Modes — faith collapse ≈ Config ③→④ transition possible

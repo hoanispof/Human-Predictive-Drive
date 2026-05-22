@@ -1,8 +1,9 @@
 ---
 title: PFC-Configuration — Dynamic Function Configurations
-version: 1.0
+version: 1.1
 created: 2026-05-10
-status: REFERENCE v1.0
+updated: 2026-05-15 (v1.1 — §2.1 PTSD ④↔⑤ oscillation + ADHD DMN interference + Parkinson gate, Health Conditions Drill)
+status: REFERENCE v1.1
 scope: |
   HOW PFC functions COMBINE in different brain states.
   6 Configuration Modes: Normal → Reallocation → Reconfigured → Disconnected →
@@ -380,6 +381,42 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └────────┴──────────────────┴────────────────────┴──────────────────────┘
 
   Source: Drill §5b (R11+R12 synthesis) + §3.18 (R2 mapping).
+```
+
+### §2.1 — Clinical illustrations: PTSD + ADHD + Parkinson (v1.1)
+
+```
+⭐ HEALTH CONDITIONS DRILL VALIDATES CONFIGURATION MODEL:
+
+  PTSD: ④ ↔ ⑤ OSCILLATION (PTSD-Analysis.md §4.4):
+    → Flashback/hyperarousal = Config ④ (PFC offline, amygdala dominant)
+    → Dissociative episodes = Config ⑤ (PFC hyperactive → numbness)
+    → Patient OSCILLATES between 2 configs ← body-feedback drives switch:
+      Cue → amygdala fire → ④ (flooding) → overwhelm → body switch → ⑤ (numbing)
+    → Dissociative subtype (🟢 Lanius 2010): Config ⑤ compiled as DEFAULT
+      = Strategy B compiled vì Strategy A INESCAPABLE (caregiver trauma)
+    → = ④↔⑤ oscillation = clinical VALIDATION of 2 distinct defense modes
+    → Cross-ref: §7 Strategy A→B Transition
+
+  ADHD: DMN INTERFERENCE → Config ① UNSTABLE (ADHD-Observation.md §8):
+    → Normal: Config ① = DMN suppressed, TPN active (clean switch)
+    → ADHD: DMN-TPN anticorrelation GIẢM (🟢 Sonuga-Barke & Castellanos 2007)
+    → = Config ① KHÔNG ỔN ĐỊNH → micro-lapses toward DMN
+    → PFC dopamine quá ngắn (DAT fast clear) → cannot MAINTAIN suppression
+    → = PFC naturally DRIFT khi hết fuel (NOT "lazy" — hardware fuel issue)
+    → Methylphenidate: block DAT → dopamine sustain → Mode ① stable
+    → 🟢 Liddle 2011: methylphenidate modulates DMN anticorrelation in ADHD
+
+  PARKINSON: MASKED FACE = Config ① with execution BLOCKED (Parkinson-Analysis §5.4):
+    → PFC = Config ① (all functions AVAILABLE, emotions FELT)
+    → Basal ganglia gate LOCKED → facial/vocal expression BLOCKED
+    → = Configuration INTACT but body-output GATE problem
+    → Others SPM patient → "sao mặt lạnh?" → MISATTRIBUTE
+    → = Config vs Execution distinction: PFC state ≠ body-output
+    → Framework: Config ④ = PFC offline. Parkinson ≠ Config ④ (PFC online!)
+
+  🟡 3 conditions × 3 configuration insights = framework synthesis
+  → PTSD validates ④↔⑤. ADHD validates ① instability. Parkinson validates config≠execution.
 ```
 
 ---
@@ -1167,6 +1204,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Consistent with Lanius 2010 hyperactivation finding.
     → Specific function assignments = framework contribution.
 
+  §2.1 Clinical illustrations (v1.1 — Health Conditions Drill):
+    → PTSD ④↔⑤ oscillation validates 2 distinct defense modes
+    → ADHD DMN interference validates Config ① instability
+    → Parkinson masked face validates config≠execution distinction
+
 
 🔴 TESTABLE PREDICTIONS:
 
@@ -1261,14 +1303,20 @@ CORE:
 DRILL SOURCE:
   Drill-Reward-Feeling-Main.md v1.2 — Full drill source
     §3.18 (R2), §5b (R11+R12), §3.16 (R15), §3.17 (R16)
+
+HEALTH CONDITIONS DRILL (v1.1):
+  PTSD-Analysis.md v1.0 §4.4 — ④↔⑤ oscillation (→ §2.1)
+  ADHD-Observation.md v1.2 §8 — DMN interference, Config ① unstable (→ §2.1)
+  Parkinson-Analysis.md v1.1 §5.4 — masked face, config≠execution (→ §2.1)
 ```
 
 ---
 
-> **PFC-Configuration.md v1.0**
+> **PFC-Configuration.md v1.1**
 >
 > 6 Configuration Modes: Normal → Reallocation → Reconfigured →
 >   Disconnected → Hyperactivated → Disintegrated.
+> v1.1: §2.1 PTSD ④↔⑤ oscillation + ADHD DMN interference + Parkinson gate.
 > PFC Control Spectrum: Overcontrol (⑤) ↔ Balanced (①②③) ↔ Undercontrol (⑥).
 > 24 Functions × 6 Sub-Regions: dlPFC hub (15/24), vlPFC specialist (3/24 high-impact).
 > Survival Matrix: which functions survive in which configuration.

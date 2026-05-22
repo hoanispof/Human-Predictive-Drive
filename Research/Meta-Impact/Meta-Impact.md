@@ -1,15 +1,15 @@
 # Meta-Impact — Framework Dự Đoán Tác Động Của Chính Nó
 
-> Bất kỳ framework mạnh nào cũng phải tự trả lời:
-> "Nếu đúng và được public, thì chính nó predict điều gì sẽ xảy ra?"
+> Bài tập tự kiểm tra:
+> "Nếu framework này đúng và được public — chính nó predict điều gì sẽ xảy ra?"
 >
-> File này = exercise META: framework predict chính nó.
+> File này = framework thử predict tác động của chính nó.
 > Rủi ro trước, giá trị sau — vì rủi ro cần biết TRƯỚC khi dùng.
 
 ---
 
-> **Trạng thái:** v2.1 (restructure)
-> **Ngày:** 2026-04-25
+> **Trạng thái:** v2.2 (tone refine)
+> **Ngày:** 2026-05-13
 > **Vị trí:** Research/Meta-Impact/ (meta-analysis)
 > **Liên kết:**
 >   Creator-Lens.md — bias analysis
@@ -44,11 +44,11 @@ thì hại nhiều hơn lợi. Cần biết rủi ro TRƯỚC khi thấy giá tr
 
 ```
 Framework nói rõ: observation parameters = phổ liên tục, per domain, per thời điểm.
-Người đọc nông: "Anh là high-Novelty, em là high-Status" → LABEL → stereotype mới.
+Khi đọc nhanh: "Anh là high-Novelty, em là high-Status" → LABEL → stereotype mới.
 
 → Tệ hơn không biết: giờ có "authority" (framework) để justify label.
 → Giống MBTI bị dùng sai: "Tôi là INTJ nên tôi không cần empathy."
-→ Framework BỊ BIẾN thành cái nó CHỐNG.
+→ Framework bị dùng ngược lại chính điều nó cảnh báo.
 
 Tại sao khó tránh:
   Con người có xu hướng giản lược bản đồ phức tạp thành nhãn đơn giản.
@@ -241,13 +241,13 @@ Framework predict 4 cơ chế tự phanh:
 ① Burnout sinh học: PFC quá tải → cortisol → PFC giảm → phanh tự nhiên.
 ② Paradox hiểu sâu: hiểu framework SÂU → biết khi nào KHÔNG CẦN predict.
 ③ Adoption dần: không phải 8 tỷ người đồng thời predict nhau.
-④ Equilibrium: giống mọi công cụ mạnh (thuốc súng, internet) → cân bằng mới.
+④ Equilibrium: giống mọi công cụ khi lan rộng → qua pha hỗn loạn → cân bằng mới.
 ```
 
 ### §3.3 — SPM complexity → arms race giới hạn tự nhiên
 
 ```
-Framework CHÍNH NÓ giải thích tại sao "đọc vị" KHÔNG dễ:
+Framework cũng giải thích tại sao "đọc vị" KHÔNG dễ:
 
 ① Valence = blackbox (Blackbox-Map.md §4 + §7):
   Chuỗi valence phức tạp = không tính toán được.
@@ -299,25 +299,19 @@ Framework = TỔNG HỢP + KẾT NỐI những thứ đã có:
   Predictive processing (Friston), Somatic markers (Damasio),
   Wanting vs Liking (Berridge), Emotional systems (Panksepp).
 
-→ Nếu không phải tôi, ai đó SẼ kết nối tương tự — nhưng timeline CHƯA RÕ.
-  Internet search (2026-05) cho thấy: CHƯA CÓ framework tương tự published.
-  Gần nhất: Friston (math-first), Barrett (emotion-only), CLARION (cognition-first).
-  Không ai kết hợp: body-first + chunk-substrate + compile taxonomy
-  + collective model + AI era + software architecture mental model.
-→ Bottleneck: cần 3 chunk libraries ĐỒNG THỜI hiếm overlap:
-  ① Neuroscience (hardware) ② Psychology (behavior) ③ Software architecture (system)
-  Neuroscientist có ①. Psychologist có ②. Cả hai thiếu ③.
-→ Framework KHÔNG đặc biệt vì "tìm ra cái mới."
-  Đặc biệt (nếu đúng) vì "kết nối cái đã có ĐÚNG CÁCH"
-  từ góc nhìn hiếm (software architecture applied to brain-behavior).
+→ Convergent discovery: nếu các nodes đúng → ai đó SẼ kết nối tương tự.
+  Có thể đã có, đang có, hoặc sẽ có — tôi chưa đủ survey để biết chắc.
+  Gần nhất tôi biết: Friston (math-first), Barrett (emotion-only), CLARION (cognition-first).
+  Mỗi approach kết nối KHÁC vì lens KHÁC (Creator-Lens.md §4).
+
+→ Framework này kết nối qua lens software architecture applied to brain-behavior.
+  Lens khác → framework khác → có thể BỔ SUNG thay vì thay thế.
 
 AI mở rộng phễu:
   AI = external working memory + domain access
-  → Số người CÓ THỂ tạo framework tương tự TĂNG — nhưng cần human insight dẫn hướng.
-  → AI chỉ summarize existing = KHÔNG tạo framework mới.
-  → AI + human insight + iterative drill = formula thực tế.
-  → Framework từ người khác sẽ CÓ LENS KHÁC
-    → Có thể BỔ SUNG thay vì thay thế. (Creator-Lens.md §4)
+  → Số người CÓ THỂ tạo framework tương tự TĂNG.
+  → AI + human insight + iterative drill = formula thực tế (Creator-Lens.md §5).
+  → Framework từ người khác sẽ có lens khác → bổ sung, không thay thế.
 ```
 
 ### §4.3 — Adoption: bottom-up, differential
@@ -341,7 +335,7 @@ Không phải ai cũng adopt:
 ## §5 — Nếu Sai — Failure Mode Analysis
 
 ```
-Framework tự tin phải tự hỏi: "SAI Ở ĐÂU?"
+Framework nên tự hỏi: "SAI Ở ĐÂU?"
 3 loại sai khác nhau, hệ quả khác nhau:
 ```
 

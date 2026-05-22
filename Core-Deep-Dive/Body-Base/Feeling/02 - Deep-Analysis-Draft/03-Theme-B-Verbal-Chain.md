@@ -609,13 +609,13 @@ Theme C will build on Theme B:
 
 ### §4.4 — Theme E (Empathy + Giving)
 
-Theme E uses Pattern Resonance (Tier 2 replacement for Mirror). Pattern Resonance involves:
+Theme E uses Resonance (Tier 2 replacement for Mirror). Resonance involves:
 - Self-chunks as templates
 - Simulation of other's state
 - Fit-judgment output
 
 Theme B's chain + anchor hypothesis relates:
-- Pattern Resonance chains = compiled social chunks
+- Resonance chains = compiled social chunks
 - Anchoring via: facial expressions (visual), tone (auditory), words (verbal)
 - Long-term relationship modeling = deep compiled chains
 

@@ -1,8 +1,8 @@
 ---
-title: Chunk.md v2.1 — Unified Chunk System Reference
+title: Chunk.md v2.2 — Unified Chunk System Reference
 created: 2026-03-28 (v1.0 DRAFT)
-updated: 2026-05-08 (v2.1 — §1.3 Pattern Hierarchy from Drill §18 Q-NEW-1)
-status: v2.1 COMPLETE
+updated: 2026-05-15 (v2.2 — §2.6 Context-tag + §5.4 Compile depth validation from Health Conditions Drill)
+status: v2.2 COMPLETE
 scope: |
   CORE REFERENCE FILE cho toàn bộ chunk system.
   Tổng hợp essence từ 44+ files, ~48,600L deep analysis.
@@ -21,7 +21,7 @@ language: Tiếng Việt primary + English technical
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Speculative
 ---
 
-# Chunk.md v2.0 — Unified Chunk System
+# Chunk.md v2.2 — Unified Chunk System
 
 > **Chunk = strength-weighted associative network compiled through experience.**
 > Não KHÔNG tính toán — não TÌM KIẾM trong database.
@@ -376,6 +376,76 @@ GRADIENT COMPILE (NT1 + R-F1-10):
   → Proto-chunks = legitimate intermediate states
 ```
 
+### §2.6 — Context-tag: 4 metadata types at compile
+
+```
+⭐ FRAMEWORK FORMALIZATION — CHUNK CONTEXT-TAG:
+
+  Khi chunk compile, hippocampus + amygdala gắn 4 METADATA TYPES:
+
+  ┌──────────────────────────────────────────────────────────────┐
+  │  METADATA        │ HỎI GÌ      │ BRAIN REGION  │ VÍ DỤ      │
+  ├──────────────────────────────────────────────────────────────┤
+  │ ① TEMPORAL       │ KHI NÀO?    │ Hippocampus   │ "Năm 2020" │
+  │   (time stamp)   │             │ (CA1, EC)     │            │
+  │ ② SPATIAL        │ Ở ĐÂU?     │ Hippocampus   │ "Ngã tư X" │
+  │   (location)     │             │ (place cells) │            │
+  │ ③ CAUSAL         │ TẠI SAO?    │ Hippocampus   │ "Xe chạy   │
+  │   (narrative)    │ THẾ NÀO?    │ + PFC         │  đèn đỏ"   │
+  │ ④ STATE          │ BODY STATE? │ Amygdala +    │ "Sợ, đau,  │
+  │   (body state)   │             │ Insula        │  heart↑"   │
+  └──────────────────────────────────────────────────────────────┘
+
+  HIPPOCAMPUS attaches ①②③. AMYGDALA attaches ④.
+
+  ⭐ CHUNK CONTENT ≠ CHUNK CONTEXT-TAG:
+    Content = what happened (sensory, motor, emotional fragments)
+    Context-tag = when/where/why/body-state (metadata)
+    → Content determines WHAT fires
+    → Context-tag determines HOW retrieval FEELS:
+      4/4 metadata → "nhớ lại" (remembering — bounded, past)
+      State only → "sống lại" (re-experiencing — unbounded, present)
+
+  2 CHUNK TYPES (based on context-tag quality):
+
+    CONTEXTUAL CHUNK (hippocampal pathway):
+      → 4/4 metadata → bounded, declarative, malleable
+      → Supports reconsolidation (§2.5) and extinction learning
+      → = Normal emotional memory. "Nhớ lại."
+      → 🟢 Brewin 2010: C-rep (contextualized representation)
+
+    CONTEXT-FREE CHUNK (amygdala pathway):
+      → ④ State only → unbounded, implicit, RESISTANT, cue-bound
+      → Resistant to extinction (🟢 Bouton 2004: extinction ≠ erasure)
+      → Amygdala low road ~12ms → body responds BEFORE PFC arrives (~200ms+)
+      → = Trauma memory. "Sống lại."
+      → 🟢 Brewin 2010: S-rep (sensation-based representation)
+
+  CONTEXT-TAG QUALITY = SPECTRUM (not binary):
+    Full (4/4) = normal → Partial (1-3) = stressful → State only = trauma
+    → Treatment = SHIFT LEFT: hippocampus RE-ATTACHES missing metadata
+    → Content UNCHANGED. Metadata CHANGED. Body response CHANGED.
+
+  RELATIONSHIP TO §1.1 — NO SOURCE TAG:
+    Source tag ("ai tạo chunk?") = KHÔNG CÓ (§1.1 — vẫn đúng)
+    Context tag ("khi nào/ở đâu compile?") = CÓ (hippocampal metadata)
+    → 2 câu hỏi khác nhau. Body không biết SOURCE. Body CÓ/KHÔNG CÓ CONTEXT.
+
+  RELATIONSHIP TO §4.2 — link strength factors:
+    §4.2 ⑤ CONTEXT MATCH = retrieval-time: current context ~ compile context → boosted
+    §2.6 context-tag = compile-time: metadata ATTACHED during encoding
+    → §4.2 ⑤ = "tìm thấy chunk DỄ hơn khi context giống"
+    → §2.6 = "chunk CÓ hay KHÔNG context từ đầu"
+
+  🟢 Kim & Diamond 2002: hippocampal suppression under extreme stress
+  🟢 LeDoux 1996/2000: dual pathway (low road ~12ms vs high road ~200ms)
+  🟢 Brewin 2010: Dual Representation Theory (C-rep vs S-rep)
+  🟢 Tulving 2002: hippocampus binds "what-where-when"
+  🟡 4 metadata types as formal taxonomy = framework synthesis
+  🔴 Context-free chunk as explicit chunk TYPE = hypothesis (testable)
+  → Chi tiết: PTSD-Analysis.md §2-§3, §14
+```
+
 ---
 
 ## §3 — Chunk Connections (4 Types)
@@ -689,6 +759,44 @@ LINK STRENGTH = f(7 factors):
     → = "Biết mình từng biết nhưng không nhớ nổi"
 
   → Chi tiết: F4 03-Chain-Anchor-Decay.md
+```
+
+### §5.4 — Compile depth × resistance: Alzheimer clinical validation
+
+```
+🟢 CLINICAL VALIDATION — "LAST IN FIRST OUT":
+
+  Alzheimer-Analysis §5-§6: Alzheimer phá chunk substrate → reveal pattern:
+    → Chunks gần đây (compile NÔNG) mất TRƯỚC
+    → Chunks thời thơ ấu (compile SÂU) kháng SAU CÙNG
+    → = Ribot's Law (1881) GIẢI THÍCH bởi compile depth
+
+  5 CƠ CHẾ ĐỘC LẬP cùng predict cùng pattern:
+    ① Memory consolidation: recent = hippocampus-dependent → phá trước
+    ② Compile depth × distribution: deep = more links = resistant
+    ③ Activity-dependent tau: active connections release MORE tau → phá trước
+    ④ Multiple Trace Theory: old = 100+ traces, recent = 2 (🟢 Nadel 1997)
+    ⑤ Myelination order: late-myelinating = thin → vulnerable (🟢 Bartzokis 2004)
+
+  = OVERDETERMINED: bất kỳ 1 cơ chế đúng → pattern VẪN GIỐNG
+  = "Dù lửa bắt đầu từ đâu, tòa nhà sụp từ tầng cao nhất."
+  = Pattern = thuộc tính KIẾN TRÚC NÃO, không phải nguyên nhân cụ thể
+  = Alzheimer = reverse-engineering lens: erosion lộ kiến trúc chunk compile
+
+  COMPILE DEPTH = f(§2.2 formula) → predicts RESISTANCE:
+    compile_depth ≈ f(exposure × saliency × contingency
+                     × peak_valence × multi_modal_richness)
+    → Depth CAO (thời thơ ấu: nhiều repetition × emotional peak × multi-modal)
+      → Nhiều synaptic links × distributed nhiều vùng → RESISTANT
+    → Depth THẤP (gần đây: ít repetition × neutral × single-modal)
+      → Ít links × concentrated → VULNERABLE
+
+  🟢 Terry 1991: synapse loss r=0.96 with cognitive decline
+  🟢 Ribot 1881: temporal gradient of retrograde amnesia
+  🟢 Nadel & Moscovitch 1997: Multiple Trace Theory
+  🟢 Bartzokis 2004/2011: myelination order predicts vulnerability
+  🟡 Compile depth = primary predictor of resistance = framework synthesis
+  → Chi tiết: Alzheimer-Analysis.md §5-§6, §17
 ```
 
 ---
@@ -1225,6 +1333,9 @@ LINK STRENGTH = f(7 factors):
   🟡 Post-discovery cleanup → parsimony gain — novel formalization
   🟡 AI as external crystallization catalyst — reasonable inference, untested
   🟡 "Feel đúng → Plan đúng" — normative framework claim
+  🟡 Context-tag as chunk metadata model (§2.6) — consistent Brewin DRT
+  🟡 2 chunk types (contextual vs context-free) — framework formalization
+  🟡 Compile depth predicts resistance to substrate damage (§5.4) — Alzheimer confirms
 ```
 
 ### §12.3 — Speculative claims (🔴)
@@ -1238,6 +1349,8 @@ LINK STRENGTH = f(7 factors):
   🔴 7 discovery steps always in this order — likely variable in practice
   🔴 Probability crossover timelines — approximate, highly individual
   🔴 "21 days habit" crossover — folk wisdom, actual timing varies
+  🔴 4 metadata types as formal taxonomy (§2.6) — testable, not yet tested
+  🔴 Context-free chunk as explicit chunk TYPE (§2.6) — hypothesis
 ```
 
 ### §12.4 — Hypothesis summary
@@ -1312,7 +1425,7 @@ LINK STRENGTH = f(7 factors):
   REFERENCE FILES (v2.0+ — đọc song song):
     Body-Base/Feeling/Feeling.md v2.0 → feeling = PFC observation, 7-layer, 8-step flow
     Body-Base/Valence-Propagation.md v1.4 → valence per-entity + propagation qua schema chain
-    Body-Base/Collective-Body.md v1.0 → Model 3 cấp (Individual → Collective → Framework)
+    Collective/Collective-Body.md v2.0 → Model 3 cấp (Individual → Collective → Framework)
     Body-Base/Body-Base.md v2.0 → entry point cho Body-Base system
       → §4: valence propagation DÙNG chunk activation dynamics (§4 file NÀY) làm substrate
       → = Valence propagation = BEHAVIOR emerge từ chunk HARDWARE
@@ -1341,6 +1454,11 @@ LINK STRENGTH = f(7 factors):
   BACKUP (superseded):
     Schema/backup/Chunk-Search-Advanced.md → superseded by §4 file NÀY
     Schema/backup/Chunk-Practical.md → tools, failure modes
+
+  HEALTH CONDITIONS DRILL (v2.2 — reverse propagation):
+    PTSD-Analysis.md v1.0 → §2 context-tag model, §3 two encoding pathways, §14 formalization
+    Alzheimer-Analysis.md v1.1 → §5 synapse loss/chunk degradation, §6 "last in first out"
+    → Informed: §2.6 (context-tag), §5.4 (compile depth validation)
 ```
 
 ### §13.3 — Key academic references
@@ -1392,6 +1510,17 @@ LINK STRENGTH = f(7 factors):
     🟢 Dunning & Kruger 1999 — Unskilled and unaware
     🟢 Berridge 2003 — Dopamine = wanting, opioid = liking
 
+  CONTEXT-TAG + COMPILE DEPTH (v2.2):
+    🟢 Kim & Diamond 2002 — Hippocampal suppression under extreme stress
+    🟢 LeDoux 1996/2000 — Dual pathway architecture (amygdala)
+    🟢 Brewin 2010 — Dual Representation Theory (C-rep vs S-rep)
+    🟢 Tulving 2002 — Hippocampus binds "what-where-when"
+    🟢 Bouton 2004 — Extinction ≠ erasure
+    🟢 Terry 1991 — Synapse loss r=0.96 (Alzheimer)
+    🟢 Ribot 1881 — Temporal gradient retrograde amnesia
+    🟢 Nadel & Moscovitch 1997 — Multiple Trace Theory
+    🟢 Bartzokis 2004/2011 — Myelination order + vulnerability
+
   (Full reference lists in individual source files)
 ```
 
@@ -1441,18 +1570,39 @@ LINK STRENGTH = f(7 factors):
   NEXT:
     → Feeling.md v2.0 (N+15) — incorporate 3 deep files + existing 7-layer
     → R-F1/R-F3 framework updates (16 recommendations pending)
+
+✅ V2.2 UPDATE (2026-05-15) — HEALTH CONDITIONS DRILL REVERSE PROPAGATION:
+
+  §2.6 NEW — Context-tag: 4 metadata types at compile
+    → PTSD-Analysis §2-§3: hippocampus attaches ①②③, amygdala attaches ④
+    → 2 chunk types: contextual (4/4) vs context-free (state only)
+    → Extends §1.1 NO SOURCE TAG (vẫn đúng — context tag = separate mechanism)
+    → Brewin 2010 DRT mapping (C-rep = contextual, S-rep = context-free)
+
+  §5.4 NEW — Compile depth × resistance: Alzheimer clinical validation
+    → "Last in first out" = 5 overdetermined mechanisms
+    → Terry 1991 r=0.96, Bartzokis 2004, Nadel 1997
+    → "Architecture determines pattern, NOT cause"
+
+  §12 UPDATED — 3 synthesis + 2 speculative claims added
+  §13 UPDATED — PTSD + Alzheimer drill files added + 9 new references
+
+  Source: Health Conditions Drill (6 files, ~12,000L)
+  Plan: Research/Health-Conditions/plan-drill-reverse-propagation.md Phase 1
 ```
 
 ---
 
-> **Chunk.md v2.0 — "Não = database + 2 operators."**
+> **Chunk.md v2.2 — "Não = database + 2 operators."**
 >
 > Chunk = strength-weighted associative network compiled through experience.
 > 4 compile mechanisms × 5-parameter formula × 5 external install mechanisms.
 > 4 connection types: contamination + aha + meta-chunk + deliberate linking.
 > Core mechanism: probability distribution + competitive re-linking + trigger surface.
 > Trauma = expertise = CÙNG cơ chế, KHÁC hướng.
+> Context-tag: 4 metadata types → contextual vs context-free chunks.
+> Compile depth predicts resistance — Alzheimer "last in first out" confirms.
 > 7-step discovery: Accumulate → Vague → Curious → Clarify → Label → Plan → Repeat.
 > "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng."
 >
-> Phiên bản: v2.0, 2026-04-17.
+> Phiên bản: v2.2, 2026-05-15.

@@ -1,13 +1,20 @@
 ---
 title: Threat — Observation Parameter
-version: 1.0
+version: 1.1
 created: 2026-04-20
-status: OBSERVATION PARAMETER v1.0
+updated: 2026-05-17
+status: OBSERVATION PARAMETER v1.1
 scope: |
   OBSERVATION FILE: Threat = named pattern khi quan sát body-feedback
   (dissonance direction) + prediction of harm. Không phải component.
   File này mô tả: mechanism, spectrum, 3 nguồn mechanism, 3 nguồn origin,
   Threat × Imagine-Final, anticipation loop, khi nào có lợi/hại.
+  v1.1 KEY CHANGES:
+    ⑪ +Architecture B: threat = general-purpose system detect GAP TOWARD LOSS
+    ⑫ +Compiled/Fresh: compiled threat (phobia, auto) vs fresh (novel danger, costly)
+    ⑬ +PFC=Lawyer in threat: suppress / amplify / fabricate threat
+    ⑭ Version refs synced (VP v2.0, BFM v2.0)
+    ⑮ +Cross-refs: Inter-Body-Mechanism.md v1.0, Body-Feedback-Label.md v2.0
 purpose: |
   Core v7.8 §8 define Threat ngắn gọn ("Dissonance from predicted harm").
   File này DEEP-DIVE: neuroscience, practical patterns, education implications.
@@ -16,13 +23,15 @@ position: |
   Core-Deep-Dive/Observation/ — ngang hàng Novelty.md, Schema.md, Empathy.md.
 dependencies:
   - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
-  - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, 2 nguồn input
+  - Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap, 2 nguồn input
   - Cortisol-Baseline.md v2.0 — amplifier, chronic vs acute
   - Chunk.md v2.0 — chunk substrate, compilation under emotional peak
-  - Valence-Propagation.md v1.1 — body evaluation, chain propagation
+  - Valence-Propagation.md v2.0 — body evaluation, chain propagation
   - Observation/Novelty.md v1.0 — parallel structure (PULL vs PUSH)
   - Imagine-Final-Evaluation.md — 2 trục × 4 góc, Domain Fit × Hardware Fit
   - Anchor-Schema.md — Trust binding, sync point
+  - Inter-Body-Mechanism.md v1.0 — Architecture B, Compiled/Fresh, PFC=Lawyer
+  - Body-Feedback-Label.md v2.0 — vocabulary reference
 sources_backup: |
   Gộp + rewrite từ: Threat.md v1.1 (1,936L) + Threat-Drive-Analysis.md (700L)
   Backup: _backup/Drive-v75-era/
@@ -101,6 +110,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Xem Observation/Drive.md cho integration
 
 
+⭐ ARCHITECTURE B → THREAT MỞ RỘNG (Inter-Body-Mechanism.md §1.2):
+
+  ARCHITECTURE A (côn trùng, động vật đơn giản):
+    Threat = HARDWIRED escape circuits: predator→flee, pain→withdraw.
+    CHỈ detect threats ĐÃ BIẾT (evolutionary coded).
+    Threat MỚI mà evolution chưa code → KHÔNG detect → chết.
+
+  ARCHITECTURE B (humans):
+    General-purpose system: LEARN threats from experience + culture.
+    → Detect threats MỚI (social rejection, job loss, anticipation)
+      mà evolution KHÔNG THỂ hardwire (vì context thay đổi liên tục).
+    → PFC simulate future → predict threats CHƯA XẢY RA.
+    → Culture transmit threats qua ngôn ngữ (không cần trải nghiệm trực tiếp).
+
+  → Architecture B = tại sao humans có PHONG PHÚ threat types hơn:
+    Physical (hardwired) + Social (learned) + Anticipation (PFC simulate).
+  → Architecture A CHỈ CÓ Physical (hardwired escape).
+  → = Power CỦA Architecture B VÀ curse: detect NHIỀU threats hơn
+    → anxiety NHIỀU hơn → nhưng adapt TỐT hơn.
+
+  🟡 Architecture B threat expansion = framework synthesis.
+
+
 THREAT TRONG CYCLE (Core v7.8 §1):
 
   Domain → Body-Input → Unconscious(Chunks) → Feeling → PFC → Body-Output → Domain
@@ -170,14 +202,77 @@ THREAT TRONG CYCLE (Core v7.8 §1):
   → NE + Adrenaline = energy tức thì
   → Cortisol = SUSTAINER (duy trì, không khởi động)
 
+§1.2 — PFC = LAWYER TRONG THREAT (Inter-Body-Mechanism.md §7)
+
+  ⭐ PFC KHÔNG phải neutral judge — là LAWYER cho body-base.
+  Trong threat domain, PFC "biện hộ" theo 3 hướng:
+
+  ① SUPPRESS (phủ nhận threat khi body ĐANG báo):
+    → Body: cortisol, bứt rứt, "có gì đó không ổn."
+    → PFC: "Không sao đâu." / "Mình nghĩ nhiều quá." / "Bình thường thôi."
+    → = PFC suppress body signal → KHÔNG hành động → threat TÍCH LŨY.
+    → Ví dụ: triệu chứng bệnh → PFC: "chắc không sao" → trì hoãn khám.
+    → Ví dụ: mối quan hệ toxic → PFC: "ai cũng vậy" → ở lại.
+
+  ② AMPLIFY (phóng đại threat vượt thực tế):
+    → Body: micro-dissonance (nhẹ, context-appropriate).
+    → PFC: "CHẮC CHẮN SẼ TỆ LẮM!" — catastrophize vượt signal thật.
+    → = PFC amplify → cortisol TĂNG → anticipation loop (§3③) → anxiety.
+    → Ví dụ: sếp nói "cần gặp" (micro) → PFC: "chắc bị sa thải" (mạnh).
+    → Ví dụ: con sốt 38° → PFC bố mẹ: "bệnh nặng!" (chunks y khoa thiếu).
+
+  ③ FABRICATE (tạo threat không tồn tại):
+    → Body: trung tính hoặc yên ổn.
+    → PFC: "Nhưng NẾU... thì sao?" — tạo threat TỪ KHÔNG.
+    → = PFC generate threat → body respond (cortisol) → PFC: "thấy chưa!"
+    → = Self-fulfilling: PFC tạo threat → body confirm → PFC tin hơn.
+    → Ví dụ: 3 giờ sáng, mọi thứ OK → PFC: "nếu công ty phá sản thì sao?"
+
+  ⚠️ DOMAIN = ARBITER — kiểm tra PFC narrative:
+    → PFC suppress → domain feedback cho biết threat CÓ THẬT.
+    → PFC amplify → domain feedback cho biết threat NHỎ hơn tưởng.
+    → PFC fabricate → domain feedback cho biết KHÔNG CÓ threat.
+    → "Cảm thấy nguy hiểm" ≠ "Nguy hiểm thật" — cần domain verify.
+
+  🟢 Gazzaniga split-brain: PFC confabulate reasons (literal lawyer).
+  🟢 Haidt 2001: moral judgment = intuition → reasoning = post-hoc.
+  🟡 3 distortion modes in threat = framework classification.
+
+
   EXCEPTION:
     Hormone baseline LỆch (mãn tính) → hormone CÓ THỂ drive trực tiếp:
     → Cortisol baseline cao → lo không rõ lý do (generalized anxiety)
     → = Bất thường, không phải quy trình chuẩn
     → Cortisol-Baseline.md v2.0: chi tiết
 
+  ⭐ COMPILED vs FRESH THREAT (Inter-Body-Mechanism.md §3):
+
+    Compiled/Fresh = trục thật — áp dụng cho threat:
+
+    COMPILED THREAT (F1 — automatic, cost ≈ 0):
+      → Schema ĐÃ compile: pattern → body-feedback NGAY → response auto.
+      → Ví dụ: phobia (nhện → sợ → chạy, KHÔNG CẦN PFC evaluate).
+      → Ví dụ: người quen mà ĐÃ compile "nguy hiểm" → body tense NGAY khi thấy.
+      → Ví dụ: tiếng quát GIỐNG bố/mẹ → compiled schema fire → sợ dù người lạ.
+      → = Trauma responses = COMPILED threat (extreme compilation under emotional peak).
+      → NHANH, chi phí thấp, NHƯNG có thể SAI (overgeneralize).
+
+    FRESH THREAT (F2 — PFC draft, cost > 0):
+      → Tình huống MỚI chưa có schema → PFC phải evaluate:
+        "Đây có nguy hiểm không? Mức nào? Hành động gì?"
+      → Ví dụ: email lạ từ boss mới → PFC draft: "praise hay warning?"
+      → Ví dụ: triệu chứng body lạ → PFC draft: "bệnh hay bình thường?"
+      → CHẬM, chi phí cao, NHƯNG chính xác hơn (evaluate context).
+
+    TRANSITION F2→F1:
+      → Fresh threat lặp lại + confirm → compile → compiled threat.
+      → = "Lần đầu sợ: phải suy nghĩ" → "Lần thứ 10: tự động."
+      → Có thể UNLEARN (exposure therapy = ép F1 re-evaluate → F2 → recompile).
+      → Kahneman: compiled threat ≈ System 1 fear, fresh threat ≈ System 2 risk assessment.
+
   🟢 NE → adrenaline → cortisol cascade = neuroscience verified
   🟡 Schema = trigger, hormone = sustain = framework emphasis (consistent with timeline)
+  🟡 Compiled/Fresh threat = framework synthesis (consistent with dual-process theory)
 ```
 
 ---
@@ -856,6 +951,9 @@ TÓM TẮT:
     │ Threat × Imagine-Final 3 Cases                             │
     │ Tipping point model                                        │
     │ Pull vs Push sustainability difference                     │
+    │ Architecture B → threat type expansion (v1.1)              │
+    │ Compiled/Fresh threat (phobia vs novel danger) (v1.1)      │
+    │ PFC=Lawyer: suppress/amplify/fabricate threat (v1.1)       │
     └────────────────────────────────────────────────────────────┘
 
   🔴 HYPOTHESIS (logical but unverified):
@@ -875,22 +973,26 @@ TÓM TẮT:
 ```
   ← FOUNDATION (đọc trước hoặc cùng):
     Core-v7.8-Draft.md §8 — Threat = observation parameter definition
-    Body-Feedback-Mechanism.md v1.2 §3.1-§3.2 — Chunk-Shift/Miss = Threat substrate
+    Body-Feedback-Mechanism.md v2.0 §3.1-§3.2 — Chunk-Shift/Miss = Threat substrate
     Cortisol-Baseline.md v2.0 — amplifier, chronic vs acute dynamics
     Chunk.md v2.0 — chunk compilation under emotional peak
+    Inter-Body-Mechanism.md v1.0 §1.2 — Architecture B (threat type expansion)
+    Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh (compiled threat vs fresh)
+    Inter-Body-Mechanism.md v1.0 §7 — PFC=Lawyer (suppress/amplify/fabricate threat)
     PFC-Configuration.md v1.0 — Strategy A→config④, Strategy B→config⑤ (2026-05-10)
 
   ↔ SONG SONG (cùng Observation/ folder):
     Observation/Novelty.md — PULL toward opportunity (parallel với Threat PUSH)
     Observation/Drive.md — HOW Threat + Novelty + other patterns → action
-    Observation/Empathy.md — SPM detect threat in others
+    Observation/Empathy.md v3.0 — SPM detect threat in others
     Observation/Liking-Wanting.md — Wanting under threat conditions
 
   → DOWNSTREAM:
     Imagine-Final-Evaluation.md — 2 trục × 4 góc (§5 3 Cases reference)
     Anchor-Schema.md — Trust binding, negative trust from threat
-    Feeling.md v2.0 — PFC observation of threat signals (lo, sợ, panic)
-    Valence-Propagation.md v1.1 — threat valence propagation through chains
+    Feeling.md v3.0 — PFC observation of threat signals (lo, sợ, panic)
+    Valence-Propagation.md v2.0 — threat valence propagation through chains
+    Body-Feedback-Label.md v2.0 — vocabulary reference
 
   → ỨNG DỤNG:
     Domain-Mapping-Drive.md — 3 loại threat + transition reality
@@ -898,6 +1000,7 @@ TÓM TẮT:
 
   STATUS:
     v1.0 — 2026-04-20 — viết mới cho v7.8 cycle-based architecture
-    Gộp từ: Threat.md v1.1 + Threat-Drive-Analysis.md (backup: _backup/Drive-v75-era/)
-    Aligned: Core v7.8, Body-Feedback-Mechanism, prediction-delta terminology
+    v1.1 — 2026-05-17 — +Architecture B, +Compiled/Fresh, +PFC=Lawyer, version sync
+    Gộp từ: Threat.md v1.1-old + Threat-Drive-Analysis.md (backup: _backup/Drive-v75-era/)
+    Aligned: Core v7.8, Inter-Body-Mechanism v1.0, prediction-delta terminology
 ```

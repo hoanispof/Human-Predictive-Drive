@@ -406,7 +406,7 @@ Similar structure to B1.4 but with **L3 status + resource gap** combined, and mo
 - **Survival component**: lương ≈ resource → closer to L1 survival (not just L3 status)
 - **Ongoing**: unlike "bạn C" who's just observed, colleague D is present daily → continuous trigger
 - **Can compound**: each payday = reminder → schema strengthens
-- **Modern unique**: ancestral environment didn't have "salary" concept — evolution lag applies (Why-Body-Knows §5 ①)
+- **Modern unique**: ancestral environment didn't have "salary" concept — evolution lag applies (Why-Body-Knows §6 ①)
 
 **Why "mini" despite danger**:
 - **Initially** signal is mild
@@ -1584,7 +1584,7 @@ All 5 preconditions compromised → reward cannot fire → only dissonance → s
 - Person compiles strong Imagine-Final: "wealth = happiness"
 - Anchor-Schema active: "make money"
 - Domain accuracy partial: money does enable things
-- **BUT**: "happiness" mapping to "money" is evolution lag (Why-Body-Knows §5 ①)
+- **BUT**: "happiness" mapping to "money" is evolution lag (Why-Body-Knows §6 ①)
 
 **Phase 2 — Execution**: "Chunk thay đổi mạnh mẽ"
 - Heavy compile in money-making domain

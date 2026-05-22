@@ -11,7 +11,7 @@
 >   Modality.md v1.0 (6 encoding channels),
 >   Cortisol-Baseline.md v2.0 (amplifier, 5 Roles, direction > level),
 >   Body-Base.md v2.0 (Model 3+1, interoception),
->   Connection.md v3.1 (social brain, SPM × PR),
+>   Connection.md v3.1 (social brain, SPM × Resonance),
 >   Agent-Mechanism.md v1.0 (SPM F1 — simulate others),
 >   Education-Mechanism.md v1.0 (§2.3 Cost Formula, §2.2 Direction > Level),
 >   Education-System.md v2.0 (§2-§4 per-stage, §7 teacher role),
@@ -287,7 +287,7 @@ TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
   │                                                                 │
   │   Body-base = "gut feeling", interoception, somatic processing │
   │   Body-Base v2.0: "Body evaluates PATTERNS, not reality"      │
-  │   → Body tính TRƯỚC, PFC observe SAU                          │
+  │   → Body phản ứng TRƯỚC, PFC observe SAU                      │
   │   Mỗi người: body signal MẠNH/YẾU khác nhau                  │
   │                                                                 │
   │   SPECTRUM:                                                    │

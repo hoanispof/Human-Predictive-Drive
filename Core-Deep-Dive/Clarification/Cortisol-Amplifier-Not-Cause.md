@@ -179,7 +179,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Nguồn đau VẬT LÝ thật
     → Cortisol KHÔNG gây tissue damage
 
-  ② MISMATCH — prediction error ở chunk network:
+  ② MISMATCH — prediction-delta ở chunk network:
     → Schema predict X, reality = Y → mismatch → "có gì đó sai"
     → "Bị phản bội" = chunks về người yêu mismatch reality
     → "Kế hoạch fail" = Imagine-Final mismatch outcome
@@ -434,7 +434,7 @@ DETAIL:
     §10: Trauma loop 4-stage
 
 WITHIN FRAMEWORK:
-  Body-Feedback-Label.md v1.1 — VOCABULARY REFERENCE. 3-tier label system.
+  Body-Feedback-Label.md v2.0 — VOCABULARY REFERENCE. 3-tier label system.
     Framework dùng "prediction-delta" / "body-base reward" / "dissonance".
   Body-Feedback.md — dual-pull, 3 nguồn khó chịu
   Chunk.md v2.0 §2.4 NT7 — direction gate at compile

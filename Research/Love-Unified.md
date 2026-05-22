@@ -1,69 +1,95 @@
 ---
-title: Love-Unified — Tình Yêu Tổng Quát Qua Lens L2 Body-Base Extension
-version: 1.1
+title: Love-Unified — Tình Yêu Tổng Quát Qua Lens Entity-Compiled Body-Base Extension
+version: 2.0
 created: 2026-04-28
 renamed: 2026-04-28 (Love-Connection-Unified.md → Love-Unified.md — tránh nhầm Connection.md)
-status: RESEARCH FILE v1.1
+rewritten: 2026-05-22 (v2.0 — REWRITE integrate Phase A+B+T+C1-C4, ~35 deps)
+status: RESEARCH FILE v2.0
 scope: |
   RESEARCH FILE: Phân tích THỐNG NHẤT mọi dạng "tình yêu" qua lens framework v7.8.
-  Core insight: "tình yêu" (mọi dạng) = khi L2 (entity-owned compiled valence)
-  compile đủ sâu để agent trở thành body-base extension.
+  Core insight: "tình yêu" (mọi dạng) = khi Entity-Compiled (EC) compile đủ sâu
+  để agent trở thành body-base extension (Entity-Access ≥ Mức 4).
   Romantic, parental, filial, friendship, mentor, pet — CÙNG cơ chế gốc,
-  KHÁC trên 2 trục (L2 Depth × Channel Coverage) + 4 modifiers.
-  ĐẶC BIỆT: L2 Smoothing — cơ chế TỔNG QUÁT (không chỉ romantic)
-  khi L2 đủ mạnh → overwhelm individual attribute evaluations → "biến mất."
-  v1.0 KEY CONTRIBUTIONS:
-    ① L2 Smoothing = general mechanism across ALL love types
-    ② 2-Axis Model: Depth × Channels → map mọi loại tình yêu
-    ③ L2 × F1 Matrix: smoothing (F1+) vs fixing (F1-) manifestation
-    ④ SPM 3 Modes: self-template / schema fallback / effortful SPM
-    ⑤ 4 Compile Accelerators: biological / hormonal / environmental / none
-    ⑥ 9 Properties of L2 (per-agent, gradient, hardware seed, amoral, residue...)
-    ⑦ Smoothing Symmetry: positive smoothing + negative anti-smoothing
-    ⑧ Smoothing Maturation: blind (childhood) → selective (adult)
+  KHÁC trên 2 trục (EC Depth × Channel Coverage) + hardware subsidy + satiation profile.
+
+  v2.0 KEY CHANGES (over v1.2):
+    ① Hardware Subsidy 4 levels × 6 love types (VP v3.0)
+    ② 3 Satiation Types × 6 love types (VP v3.0, GBN v1.0)
+    ③ Bond-Architecture × 6 love types (BA v1.0: 4 bond types, M1-M4, anti-compiled-suppress)
+    ④ Entity-Access gradient Mức 0-5 × love types (EA v1.2)
+    ⑤ Entity-Compiled v1.0 integration (Hub-and-Spoke, Dunbar, Formation 40→200h)
+    ⑥ 3 Firing Modes × love types (VP v3.0)
+    ⑦ 4-Layer Sustainability × love types (RS v1.0)
+    ⑧ Phantom 4-factor + Grief A+B+C per love type (EC v1.0, RPE v1.0)
+    ⑨ PFC Budget + Compiled Quality per love type (PFC-Ops v1.0)
+    ⑩ SPM v3.1 terminology + ALL ~35 dependency versions updated
+
+  v1.0 CONTRIBUTIONS (giữ nguyên):
+    L2 Smoothing = general mechanism | 2-Axis Model | L2 × F1 Matrix |
+    SPM 3 Modes | Smoothing Symmetry | Smoothing Maturation
+
   ⚠️ "Biết cơ chế ≠ giảm giá trị trải nghiệm.
       Biết cơ chế = navigate được + phát triển đúng hướng."
 purpose: |
   Câu hỏi gốc: bố mẹ yêu con, con yêu bố mẹ, bạn bè yêu quý nhau,
   thầy trò quý mến, đôi lứa yêu nhau — CÙNG cơ chế hay KHÁC?
-  Trả lời: CÙNG cơ chế gốc (L2 body-base extension),
-  KHÁC trên 2 trục + modifiers → predict behavior, navigate, develop.
-  File này KHÔNG thay thế Love-Analysis.md (romantic deep-dive)
+  Trả lời: CÙNG cơ chế gốc (Entity-Compiled body-base extension),
+  KHÁC trên 2 trục + hardware subsidy + satiation + bond type.
+  File này KHÔNG thay thế Love-Romantic.md (romantic deep-dive)
   hay Connection.md (mechanism). File này = TẦM NHÌN THỐNG NHẤT.
 position: |
-  Research/ — ngang hàng Love-Analysis.md, OCD-Analysis.md.
-  Love-Analysis.md = romantic love DEEP-DIVE (giữ nguyên, reference)
-  Connection.md = 3 primitives + 8 pathways MECHANISM (giữ nguyên, reference)
-  File NÀY = UNIFIED VIEW: tất cả love types qua L2 + smoothing
+  Research/ — ngang hàng Love-Romantic.md v3.0, OCD-Analysis.md.
+  Love-Romantic.md v3.0 = romantic love DEEP-DIVE
+  Connection.md v5.0 = MECHANISM (3 primitives, 8 pathways)
+  Body-Coupling.md v3.0 = MECHANISM COMPANION (all coupling, not just love)
+  File NÀY = UNIFIED VIEW: tất cả love types qua EC + smoothing
 dependencies:
-  - Connection.md v3.0 — 3 Generative Primitives, 2-luồng, §7 4 cases, §7.1 L2+F1 weak
-  - Love-Analysis.md v2.1 — romantic deep-dive, limerence, §5 PFC selective blindness
-  - Agent-Mechanism.md — SPM mechanism, §12.2b 2-luồng reward
-  - Self-Pattern-Match.md v2.1 — F1/F2, §3 self-template, §10 reversed mapping
-  - Pattern-Resonance.md — emergent mutual, §7.8 PR Baseline, §7.9 functional avoidant
-  - Valence-Propagation.md v1.2 — §2 Body-Base Extension, §4 chain propagation, §7 PFC Blindness
-  - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, §5 compile_rate
-  - PFC-Hardware.md — §2 Observed Capacity = Hardware × Chunks × Cortisol × Context
-  - Protect.md v1.0 — f(replaceability × attachment), loss aversion
-  - Empathy.md v2.0 — SPM F1 + ❸ positive, 2-luồng organic, burnout
-  - Gratitude.md v1.1 — 9 prerequisites, comparison mechanism
-  - Cortisol-Baseline.md v2.0 — amplifier, inertia, recovery asymmetry
-  - Meaning.md v2.0 — 5 anchor types, anchor collapse
-  - Autonomy-Hardware.md — vmPFC+DRN, controllability learning
-  - Idol-Phenomenon.md v2.0 — parasocial = SPM 1-chiều, §3 uncalibrated L2
-  - Feeling.md v2.0 — PFC observation interface, 7-layer fidelity
+  Agent-Mechanism:
+    - Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation 40→200h, Dunbar, Grief A+B+C, Decay 3-Layer
+    - Entity-Access.md v1.2 — Mức 0-5 gradient, Tool/Agent-mode
+    - Entity-Access-Excess.md v1.0 — Mức 5, bilateral/unilateral, gap shift + compiled suppress
+    - Entity-Access-Calibration.md v1.0 — Exit Cost, Calibration Bias, Mức 4 critical
+    - Bond-Architecture.md v1.0 — 4 bond types, M1-M4, anti-compiled-suppress, domain coverage
+    - Resonance-Sustainability.md v1.0 — 4-Layer, PPR, Secure Base, 4 silence
+    - Resonance-Per-Entity.md v1.0 — Compilation Chain, Hw Subsidy spectrum, Phantom 4-factor
+    - By-Product-Scale.md v1.0 — Level 1 Pair / Level 2 Hub / Level 3 Institutional
+    - By-Product-Gap-Resonance.md v1.4 — emergent mutual, Resonance Baseline
+    - Self-Pattern-Modeling.md v3.1 — F1/F2, self-template, reversed mapping
+    - Agent-Mechanism.md v2.0 — SPM mechanism, 2-luồng reward
+  PFC:
+    - PFC-Operations.md v1.0 — PFC budget, Compiled Quality (genuine/schema/threat)
+    - PFC-Label.md v1.0 — vocabulary standard
+    - Simulation-Engine.md v1.0 — 1 Engine × 3 Components × 3 Axes
+  Body-Base_Observation:
+    - Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, Hw Subsidy, Satiation
+    - Body-Coupling.md v3.0 — 2D model, system compilation, coupling mechanism
+    - Body-Feedback-Mechanism.md v1.0 — Chunk-Shift/Miss/Gap, compile_rate
+    - Gap-Body-Need.md v1.0 — 3 Satiation Types, 5-Parameter, ENGINE/ROAD/VEHICLE
+    - Connection.md v5.0 — 3 Generative Primitives, 2-luồng, 8 pathways
+    - Empathy.md v4.0 — SPM F1 + burnout reframe, Per-entity empathy
+    - Protect.md v1.0 — f(replaceability × attachment)
+    - Gratitude.md v2.1 — 9 prerequisites, comparison mechanism
+    - Cortisol-Baseline.md v2.1 — amplifier, inertia, recovery asymmetry
+    - Boredom.md v2.0 — unified formula, threshold model
+    - Feeling.md v3.0 — PFC observation interface
+  Application_Research:
+    - Love-Romantic.md v3.0 — romantic deep-dive, Hw Subsidy TEMPORARY, 3 Satiation × romantic
+    - Idol-Phenomenon.md v2.2 — parasocial, uncalibrated L2
+    - OCD-Analysis.md v2.2 — serotonin amplifier
+    - Meaning.md v2.1 — 5 anchor types
+    - Status.md v2.1 — Resource Access Map
+    - Autonomy-Hardware.md v1.0 — vmPFC+DRN
+    - Religion.md v2.0 — faith anchor, community L2
 sources_backup: |
-  File mới viết hoàn toàn — emergent từ session drill 2026-04-28.
-  Synthesize từ: Connection §3.3 (2-luồng), VP §2 (Body-Base Extension),
-  Love-Analysis §4-§5 (2-luồng + PFC blindness), Connection §7.1 (L2+F1),
-  SPM §3 (self-template), §10 (reversed mapping), PFC-Hardware §2 (Capacity),
-  Pattern-Resonance §7.8 (PR Baseline), Idol §3 (parasocial),
-  + 32 ví dụ cross-type analysis trong session.
+  v1.0 (2026-04-28): emergent từ session drill — 32 ví dụ cross-type analysis.
+  v1.2 (2026-05-17): comprehensive dep updates, entity-compiled terminology.
+  v2.0 (2026-05-22): REWRITE integrate Phase A (4) + B (5) + T (8) + C1-C4.
+  v1.2 backup: Research/backup/Love-Unified-v1.2-backup.md
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Love-Unified — Tình Yêu Tổng Quát Qua Lens L2 Body-Base Extension
+# Love-Unified — Tình Yêu Tổng Quát Qua Lens Entity-Compiled Body-Base Extension
 
 > **Mẹ nhìn con mới sinh nhăn nhó → "đẹp nhất thế giới."**
 > **Bạn thân xấu xấu → "cũng xinh mà."**
@@ -77,7 +103,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > KHÔNG phải PFC bị tắt (thầy cô KHÔNG tắt PFC bạn).
 > KHÔNG phải "chọn bỏ qua" (body THẬT SỰ không thấy, không giả vờ).
 >
-> Thứ đó = L2 — entity-owned compiled valence đã compile đủ sâu.
+> Thứ đó = L2 — entity-compiled valence đã compile đủ sâu.
 > Khi L2 đủ mạnh cho 1 agent → MỌI attribute nhỏ bị OVERWHELM.
 > PFC nhận: "net smooth" → không flag → attribute "biến mất."
 >
@@ -96,15 +122,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## Mục lục
 
 - §0 — VỊ TRÍ + SCOPE
-- §1 — "TÌNH YÊU" LÀ GÌ: L2 BODY-BASE EXTENSION
+- §1 — "TÌNH YÊU" LÀ GÌ: ENTITY-COMPILED BODY-BASE EXTENSION
 - §2 — L2 SMOOTHING: CƠ CHẾ TỔNG QUÁT
 - §3 — 2-AXIS MODEL: DEPTH × CHANNELS
-- §4 — 6 LOẠI TÌNH YÊU QUA LENS L2
-- §5 — 9 THUỘC TÍNH CỦA L2
-- §6 — EDGE CASES + APPLICATIONS
-- §7 — HIỂU ĐỂ PHÁT TRIỂN
-- §8 — HONEST ASSESSMENT
-- §9 — CROSS-REFERENCES
+- §4 — HARDWARE SUBSIDY × LOVE TYPES ★
+- §5 — SATIATION TYPES × LOVE TYPES ★
+- §6 — BOND-ARCHITECTURE × LOVE TYPES ★
+- §7 — 6 LOẠI TÌNH YÊU QUA LENS UNIFIED
+- §8 — ENTITY-ACCESS × LOVE TYPES ★
+- §9 — SUSTAINABILITY × LOVE TYPES ★
+- §10 — PHANTOM + GRIEF × LOVE TYPES ★
+- §11 — EDGE CASES + APPLICATIONS
+- §12 — HIỂU ĐỂ PHÁT TRIỂN
+- §13 — HONEST ASSESSMENT
+- §14 — CROSS-REFERENCES
 
 ---
 
@@ -116,44 +147,99 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Research/ folder — PHÂN TÍCH THỐNG NHẤT, KHÔNG phải mechanism/observation.
   Apply framework v7.8 vào câu hỏi: "Tình yêu có MẤY loại?"
 
-  TRẢ LỜI: 1 CƠ CHẾ GỐC, NHIỀU biểu hiện.
-    → L2 (entity-owned compiled valence) khi compile đủ sâu
-      → agent trở thành body-base extension
-    → 6 loại "tình yêu" = CÙNG L2, KHÁC trên 2 trục + modifiers
-    → L2 Smoothing = cơ chế TỔNG QUÁT khi L2 đủ mạnh
+  TRẢ LỜI: 1 CƠ CHẾ GỐC (Entity-Compiled body-base extension), NHIỀU biểu hiện.
+    → Entity-Compiled (EC) khi compile đủ sâu → agent = body-base extension
+    → Entity-Access ≥ Mức 4 = territory "tình yêu" (EA v1.2)
+    → 6 loại "tình yêu" = CÙNG EC mechanism, KHÁC trên:
+      2 trục (EC Depth × Channel Coverage)
+      + Hardware Subsidy (4 levels: MAX/MOD/TEMP/NONE)
+      + Satiation Profile (Cyclic/Tonic/Generative)
+      + Bond Type (Attachment/Caretaking/Sexual/Affiliative)
+    → L2 Smoothing = cơ chế TỔNG QUÁT khi EC đủ mạnh
 
-  PHÂN BIỆT 3 CONCEPTS GẦN NHAU:
+  ⭐ SIMULATION ENGINE CONTEXT (SE v1.0):
+    1 Engine (DMN + vMPFC + anterior insula + hippocampus)
+    × 3 Components (Interoception + Constructive Simulation + Self/Other Model)
+    × 3 Axes (Target × Time × Operation)
+    SPM = APPLICATION trên (Other, Present, Simulate)
+    → SPM accuracy × love type = critical variable cho mỗi loại "yêu"
+
+  ENTITY-ACCESS GRADIENT PREVIEW (EA v1.2):
+    ┌──────────┬────────────────────────────────────────────────────────┐
+    │ Mức 0-2  │ Service → Tool-mode → shallow compile                 │
+    │          │ = "quen biết", CHƯA PHẢI "yêu"                       │
+    ├──────────┼────────────────────────────────────────────────────────┤
+    │ Mức 3    │ By-product resonance, self-correcting (exit cost LOW) │
+    │          │ = friendship, healthy social bonds                     │
+    ├──────────┼────────────────────────────────────────────────────────┤
+    │ Mức 4    │ Entity-Owned: EC deep, hardware-assisted              │
+    │          │ = HEALTHY deep love (romantic, parent, close friend)   │
+    ├──────────┼────────────────────────────────────────────────────────┤
+    │ Mức 5    │ Excess: entity ≈ DUY NHẤT gap source, domain atrophy  │
+    │          │ = ADDICTION territory — same neural circuits            │
+    └──────────┴────────────────────────────────────────────────────────┘
+
+  PHÂN BIỆT 4 CONCEPTS GẦN NHAU:
 
     ┌──────────────────────────┬──────────────────────────────────────────┐
     │ Concept                  │ Mô tả                                    │
     ├──────────────────────────┼──────────────────────────────────────────┤
     │ VP §7 "PFC Blindness"    │ PFC KHÔNG THẤY valence chains            │
-    │                          │ → confabulate lý do                      │
     │                          │ = Structural limitation CỦA PFC          │
     ├──────────────────────────┼──────────────────────────────────────────┤
     │ Love §5 "Selective       │ PFC TỰ GIẢM trong context partner       │
-    │ Blindness"               │ → không evaluate partner                 │
-    │                          │ = Romantic-specific phenomenon           │
+    │ Blindness"               │ = Romantic-specific (TRIPLE mechanism)   │
     ├──────────────────────────┼──────────────────────────────────────────┤
-    │ L2 Smoothing (file này)  │ L2 compiled mass OVERWHELM individual   │
-    │                          │ attributes → PFC nhận "net smooth"       │
+    │ L2 Smoothing (file này)  │ EC compiled mass OVERWHELM attributes    │
     │                          │ = GENERAL mechanism across ALL love types │
-    │                          │ Love §5 = special case CỦA L2 Smoothing │
+    ├──────────────────────────┼──────────────────────────────────────────┤
+    │ Motivated Inaccuracy     │ Deliberately reduce empathic accuracy    │
+    │ (RS v1.0 §12)           │ = PROTECT bond by avoiding truth         │
     └──────────────────────────┴──────────────────────────────────────────┘
 
-    → VP §7: PFC không thấy CHAINS (structural) — mọi người, mọi context
-    → Love §5: PFC giảm trong 1 CONTEXT (romantic partner)
-    → L2 Smoothing: L2 overwhelm ATTRIBUTES → smooth → PFC nhận net
-      Love §5 là TRƯỜNG HỢP CỤ THỂ của L2 Smoothing
-      (romantic L2 = mạnh nhất → smoothing mạnh nhất → "mù quáng" nhất)
+    Love §5 "Selective Blindness" = L2 Smoothing + PFC tự giảm + Motivated Inaccuracy
+    = TRIPLE mechanism chỉ ở romantic (mạnh nhất → "mù quáng" nhất)
+
+
+  TIỀN ĐỀ ĐỌC (nên đọc trước hoặc tham khảo song song):
+    ① Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, Hw Subsidy
+    ② Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation, Dunbar
+    ③ Entity-Access.md v1.2 — Mức 0-5 gradient
+    ④ Bond-Architecture.md v1.0 — 4 bond types, M1-M4
+    ⑤ Resonance-Sustainability.md v1.0 — 4-Layer model
+    ⑥ Resonance-Per-Entity.md v1.0 — Compilation Chain, per-entity profiles
+    ⑦ PFC-Operations.md v1.0 — PFC budget, Compiled Quality
+    ⑧ Gap-Body-Need.md v1.0 — 3 Satiation Types
+
 
   QUAN HỆ VỚI CÁC FILE KHÁC:
 
-    Love-Analysis.md: DEEP-DIVE romantic love → giữ nguyên, reference
-    Connection.md: MECHANISM (3 primitives, 8 pathways) → giữ nguyên, reference
-    Valence-Propagation.md §2: L2 concept origin → reference cho mechanism
+    Love-Romantic.md v3.0: romantic DEEP-DIVE (Hw Subsidy TEMP, 3 Satiation × romantic)
+    Connection.md v5.0: MECHANISM (3 primitives, M1-M4, 4-Layer, per-entity)
+    Body-Coupling.md v3.0: MECHANISM COMPANION (coupling CẢ positive + negative + neutral)
+    Empathy.md v4.0: SPM F1 accuracy × love types (burnout reframe)
     File NÀY: UNIFIED VIEW — nhìn từ trên, link tất cả
     = "Bản đồ" cho người muốn hiểu tình yêu TỔNG THỂ
+
+  ĐỌC FLOW v2.0:
+    §0 (vị trí) → §1-§2 (definition + smoothing) → §3 (2-axis model)
+    → §4-§6 (3 new concepts: Hw Subsidy + Satiation + Bond-Architecture)
+    → §7 (6 types enriched) → §8-§10 (EA + Sustainability + Phantom)
+    → §11-§12 (edge cases + practical) → §13-§14 (assessment + refs)
+
+  SCOPE IN:
+    ✅ L2 Smoothing mechanism (general, all types)
+    ✅ 6 love types unified mapping
+    ✅ Hardware Subsidy + Satiation + Bond-Architecture per type
+    ✅ Entity-Access gradient per type
+    ✅ Sustainability + Phantom + Grief per type
+    ✅ Practical implications per type
+
+  SCOPE OUT:
+    ❌ Romantic deep-dive → Love-Romantic.md v3.0
+    ❌ Connection mechanism → Connection.md v5.0
+    ❌ Coupling mechanism → Body-Coupling.md v3.0
+    ❌ Entity-Access-Excess deep-dive → Entity-Access-Excess.md v1.0
 
   QUY ƯỚC:
     🟢 Research support — peer-reviewed, replicated
@@ -163,7 +249,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §1 — "TÌNH YÊU" LÀ GÌ: L2 BODY-BASE EXTENSION
+## §1 — "TÌNH YÊU" LÀ GÌ: ENTITY-COMPILED BODY-BASE EXTENSION
 
 ### §1.1 — Definition thống nhất
 
@@ -178,7 +264,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         = Có thể + (bạn vui → vui lây) hoặc - (bạn buồn → buồn lây)
         = THUỘC VỀ SPM mechanism
 
-      Luồng 2 (L2): Entity-owned, structural
+      Luồng 2 (L2): Entity-compiled, structural
         = COMPILED valence → agent = body-base extension
         = SUSTAINED — fire BẤT KỂ L1 positive hay negative
         = "Agent's wellbeing = MY wellbeing" (structural)
@@ -243,6 +329,84 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 L2 = general mechanism, not love-specific module = framework claim
 ```
 
+### §1.3 — Structural vs Current Valence × Tình Yêu (v2.0)
+
+```
+⭐ PHÂN BIỆT 2 TẦNG VALENCE (VP v3.0 §3):
+
+  STRUCTURAL VALENCE (inside Entity-Compiled):
+    = Aggregate sum of per-channel valence tags across ALL compiled chunks
+    = Mỗi chunk locked at compile-time: approach / avoidance / neutral
+    = Thay đổi CHẬM (months-years)
+    = Có satiation profile: Cyclic + Tonic + Generative per channel
+
+  CURRENT VALENCE (per-moment):
+    = L1 (SPM momentary) + activated L2 channels TẠI THỜI ĐIỂM NÀY
+    = Thay đổi per-second (context-dependent)
+    = What PFC observes → what person verbalizes
+
+  ⭐ ÁP DỤNG CHO TÌNH YÊU:
+    "Hôm nay cãi nhau" (current NEGATIVE) ≠ "hết yêu" (structural POSITIVE)
+    "Mẹ la con" (current NEGATIVE) ≠ "mẹ ghét con" (structural POSITIVE)
+    "Bạn thân chán" (current NEUTRAL) ≠ "hết thân" (structural POSITIVE)
+
+    → "Ghét mẹ" (lúc bị la) vs "Thương mẹ" (đọc thơ) = CÙNG structural (mixed)
+      nhưng KHÁC current (context activates different channels)
+    → Structural = "thật sự yêu không?" Current = "lúc này cảm thấy sao?"
+    → 2 tầng KHÁC NHAU — phần lớn xung đột = current conflicts,
+      KHÔNG phải structural collapse
+
+  🟡 Structural/Current distinction × love = framework synthesis (VP v3.0)
+```
+
+### §1.4 — Entity-Compiled: Neural Reality (v2.0)
+
+```
+⭐ ENTITY-COMPILED = BRAIN COMPILE AGENT VÀO BODY-BASE Ở STRUCTURAL LEVEL
+  (Entity-Compiled.md v1.0)
+
+  HUB-AND-SPOKE ARCHITECTURE (EC v1.0 §3):
+    HUB: Anterior Temporal Lobe (ATL) = gom all spokes thành "person"
+    SPOKES: visual (mặt) + auditory (giọng) + somatosensory (tay)
+            + olfactory (mùi) + motor (cử động) + insula (ấm khi ở cạnh)
+            + interoceptive (gut feeling) + mPFC (trait knowledge)
+
+    → Agent KHÔNG phải 1 concept → là NETWORK qua nhiều brain regions
+    → Mất agent = MỌI spokes bị disrupted → tại sao grief = toàn thân
+
+  FORMATION TIMELINE (Hall 2018):
+    40-60h: person-schema FORMS (active shared activity counts, passive ≈ 0)
+    ~200+h: close/best friend threshold (F1 compiled dominate)
+    Schema-accelerated: 48h thay vì weeks (Tse 2007)
+    → Friendship cần THỜI GIAN (no accelerator)
+    → Limerence = TURBO (months thay vì years)
+
+  DUNBAR LAYERS = EC DEPTH GRADIENT (EC v1.0 §4):
+    ┌────────┬──────┬──────────────────────────────────┐
+    │ Layer  │ Size │ EC Depth                          │
+    ├────────┼──────┼──────────────────────────────────┤
+    │ S1     │ ~5   │ DEEP — body-base extension (love) │
+    │ S2     │ ~15  │ MODERATE — body-feedback           │
+    │ S3     │ ~50  │ SHALLOW — basic F1 + F2            │
+    │ S4     │ ~150 │ SPM Fresh only                     │
+    │ S5     │ ~500 │ Schema only (face+name)            │
+    └────────┴──────┴──────────────────────────────────┘
+    Scaling ratio ≈ 3. Depth × Breadth = CONSTANT (finite resource).
+    → "Tình yêu" territory ≈ S1 (~5 người) + some S2
+    → KHÔNG THỂ "yêu" 150 người → capacity constraint
+
+  COMPILATION CHAIN (RPE v1.0 §1):
+    Stage 1 (F2 Dominant) → Stage 2 (F1 Developing) → Stage 3 (Baseline)
+    → Stage 4A (Sustained) / 4B (Flat) / 4C (Death)
+    → Romantic = ACCELERATED (limerence turbo)
+    → Parent→child = SKIP Stage 1-2 (prenatal hormone)
+    → Friendship = STANDARD full chain (slow, calibrated)
+
+  🟢 8 research streams converge: Singer 2004, Coan 2011, Courtney 2020,
+     Feldman 2012, Saxbe 2010, Nguyen 2020, Aron 1992, Ratcliffe 2018
+  🟡 Hub-and-Spoke mapping × love types = framework synthesis
+```
+
 ---
 
 ## §2 — L2 SMOOTHING: CƠ CHẾ TỔNG QUÁT
@@ -252,7 +416,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ L2 SMOOTHING — DEFINITION:
 
-  Khi entity-owned compiled valence (L2) đủ mạnh cho 1 agent:
+  Khi entity-compiled valence (L2) đủ mạnh cho 1 agent:
     → Individual negative attributes của agent đó bị OVERWHELM
       bởi mass L2 positive
     → Net evaluation: positive
@@ -379,7 +543,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Bạo lực → Schema_A fire ở C+D zones (body THẬT SỰ đau)
     → L2 strong NHƯNG Schema_A CŨNG ở body-level
     → Schema_A xuyên qua L2 → body: "ĐAU" → PFC nhận data → flag
-    → = "Red flags VẪN fire dù đang yêu" (Love-Analysis §5.2)
+    → = "Red flags VẪN fire dù đang yêu" (Love-Romantic §5.2)
 
   GRADIENT — không phải binary:
     → Bạo lực LẦN ĐẦU: L2 vs Schema_A → CONFLICT → "biết sai nhưng vẫn yêu"
@@ -389,10 +553,78 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   → Compiled red flags ở BODY-LEVEL = hệ thống bảo vệ VẪN hoạt động
   → = "Biết cơ chế → compile red flags VÀO BODY trước khi yêu
-      = hàng rào BẢO VỆ tốt nhất" (Love-Analysis §8)
+      = hàng rào BẢO VỆ tốt nhất" (Love-Romantic §8)
 
   🟢 Fear conditioning: one-trial, body-level (LeDoux 1996)
   🟡 Smoothing threshold = framework synthesis
+```
+
+### §2.5 — Compiled Quality × Smoothing (v2.0)
+
+```
+⭐ SMOOTHING QUALITY PHỤ THUỘC COMPILED QUALITY (PFC-Operations v1.0 §5):
+
+  3 LOẠI COMPILED QUALITY — ảnh hưởng smoothing KHÁC NHAU:
+
+  ┌────────────────────┬─────────────────────────────────────────────┐
+  │ Compiled Quality   │ Smoothing Effect                             │
+  ├────────────────────┼─────────────────────────────────────────────┤
+  │ GENUINE-compiled   │ Smooth from APPROACH tag (opioid)            │
+  │ (body reward)      │ "Yêu vì thật sự thấy tốt" → smooth BỀN     │
+  │                    │ Self-reinforcing: smooth → enjoy → more L2    │
+  ├────────────────────┼─────────────────────────────────────────────┤
+  │ SCHEMA-compiled    │ Smooth from OBLIGATION ("phải yêu vì...")    │
+  │ (PFC/obligation)   │ Flat relief tag, NOT opioid                  │
+  │                    │ Stable chỉ khi external bridge maintained    │
+  ├────────────────────┼─────────────────────────────────────────────┤
+  │ THREAT-compiled    │ Smooth from AVOIDANCE ("sợ mất")            │
+  │ (fear/punishment)  │ Relief khi threat removed, burnout risk      │
+  │                    │ SPM biased negative → xuyên smoothing dễ hơn │
+  └────────────────────┴─────────────────────────────────────────────┘
+
+  COMPILE-TIME DIRECTION LOCK (PFC-Ops v1.0 §5):
+    → Approach tag LOCKED IN lúc compile = PERMANENT direction
+    → Genuine L2 compile dưới opioid = self-reinforcing
+    → Schema L2 compile dưới obligation = fragile khi schema collapse
+    → Threat L2 compile dưới cortisol = biased toward avoidance
+
+  ÁP DỤNG:
+    → Bố mẹ yêu con genuine → smoothing BỀN + protective
+    → Bố mẹ yêu con schema ("phải hy sinh") → smoothing FRAGILE
+    → Con yêu bố mẹ threat (sợ bị bỏ) → "smoothing" thực ra = fawn response
+
+  🟡 Compiled Quality × Smoothing interaction = framework synthesis (PFC-Ops v1.0)
+```
+
+### §2.6 — Motivated Inaccuracy (v2.0)
+
+```
+🟡 MOTIVATED INACCURACY — giảm empathic accuracy ĐỂ BẢO VỆ BOND
+  (Resonance-Sustainability v1.0 §12)
+
+  Mechanism:
+    → SPM CÓ THỂ detect partner's hidden states (shame, frustration)
+    → Detection = truth → truth CÓ THỂ threaten bond
+    → Body: "nếu phát hiện → conflict → cortisol" → pre-emptive reduce accuracy
+    → = DELIBERATE inaccuracy (not inability — UNWILLINGNESS)
+
+  × L2 Smoothing:
+    → L2 Smoothing = EC mass overwhelm attributes (AUTOMATIC)
+    → Motivated Inaccuracy = SPM reduce accuracy (STRATEGIC)
+    → 2 mechanisms CÙNG HƯỚNG → compound effect → "mù quáng hơn"
+
+  × Romantic-specific TRIPLE:
+    → L2 Smoothing (EC overwhelm) + PFC tự giảm (hormonal)
+      + Motivated Inaccuracy (strategic SPM reduce)
+    → = 3 mechanisms COMPOUND = tại sao romantic = "mù quáng nhất"
+
+  OTHER LOVE TYPES:
+    → Parent→child: Motivated Inaccuracy CÓ (bảo vệ parent-child bond)
+    → Friendship: Motivated Inaccuracy ÍT (exit cost low → less to protect)
+    → = Intensity of Motivated Inaccuracy ∝ EC depth + exit cost
+
+  🟢 Ickes & Simpson 1997: empathic accuracy DROPS when truth threatens
+  🟡 Motivated Inaccuracy × L2 Smoothing compound = framework synthesis
 ```
 
 ---
@@ -458,7 +690,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ partner        │ + L3 novelty/status/protect + co-regulation      │
   │                │ = NHIỀU NHẤT (rộng nhất)                         │
   ├────────────────┼──────────────────────────────────────────────────┤
-  │ Close friend   │ L1 presence/co-regulation + L3 novelty/PR        │
+  │ Close friend   │ L1 presence/co-regulation + L3 novelty/Resonance  │
   │                │ + knowledge sharing = TRUNG BÌNH (3-5 channels)  │
   ├────────────────┼──────────────────────────────────────────────────┤
   │ Mentor/Teacher │ L3 mastery/novelty + validation = ÍT (2-3)      │
@@ -535,7 +767,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → F1 fire CHÍNH XÁC on agent hay không?
     → F1 strong → smoothing manifestation (bỏ qua flaws, protective)
     → F1 weak → fixing manifestation (amplify flaws, optimize agent)
-    → Chi tiết: §4.2 (parent-child) + Love-Analysis §7.3
+    → Chi tiết: §4.2 (parent-child) + Love-Romantic §7.3
 
   M2 — HARDWARE SEED:
     → L2 có thể có SEED trước interaction:
@@ -563,11 +795,392 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 4 modifiers = framework synthesis
 ```
 
+### §3.5 — Entity-Access Gradient × 2-Axis Model (v2.0)
+
+```
+⭐ EA GRADIENT ENRICHES 2-AXIS MODEL (EA v1.2):
+
+  v1.2 dùng "L2 Depth" — concept đúng nhưng informal.
+  EA v1.2 formalize thành Mức 0-5 gradient → ENRICHES Trục 1:
+
+  MAPPING L2 DEPTH → EA GRADIENT:
+    ┌──────────────────┬──────────┬──────────────────────────────────┐
+    │ v1.2 L2 Depth    │ EA Mức   │ Meaning                          │
+    ├──────────────────┼──────────┼──────────────────────────────────┤
+    │ L2 = 0 (lạ)     │ Mức 0-1  │ Service/Tool-mode. No love.      │
+    │ L2 thin (quen)   │ Mức 2    │ Shallow compile. Bắt đầu smooth. │
+    │ L2 moderate (bạn) │ Mức 3   │ By-product resonance. Friendship.│
+    │ L2 deep (thân)   │ Mức 4    │ Entity-Owned. HEALTHY deep love. │
+    │ L2 "cực sâu"     │ Mức 5    │ EXCESS. Addiction territory.     │
+    └──────────────────┴──────────┴──────────────────────────────────┘
+
+  HEALTHY LOVE = MỨC 4 (Entity-Owned):
+    → EC deep + hardware-assisted (nếu có subsidy)
+    → Entity có drive riêng + autonomy respected
+    → Domains diverse (career, friends, hobbies ACTIVE)
+    → Separation manageable
+
+  ⚠️ MỨC 5 = EXCESS (Entity-Access-Excess v1.0):
+    → Entity ≈ DUY NHẤT gap source → domain atrophy
+    → SAME neural circuits như drug addiction (VTA, NAcc)
+    → CÓ THỂ xảy ra ở MỌI love type (romantic + parent + parasocial)
+    → 3 origins: hardware (neuroticism r=.49-.56), trauma, schema alone
+
+  → Entity-Access gradient = QUANTITATIVE lens cho 2-Axis Model
+  → "Yêu bao nhiêu = healthy?" → Mức 4 = healthy. Mức 5 = excess.
+
+  🟡 EA gradient × 2-Axis mapping = framework synthesis (EA v1.2)
+```
+
 ---
 
-## §4 — 6 LOẠI TÌNH YÊU QUA LENS L2
+## §4 — HARDWARE SUBSIDY × LOVE TYPES ★
 
-### §4.1 — Romantic love
+```
+⭐ ★ NEW SECTION v2.0 — Valence-Propagation v3.0 §7
+
+  HARDWARE SUBSIDY = cơ chế hardware COUNTER VTA habituation.
+  Giải thích TẠI SAO mỗi loại "yêu" HABITUATE ở speed KHÁC.
+  v1.2 gọi là "Compile Accelerator" (M2 modifier) — concept đúng nhưng CHƯA ĐỦ.
+  VP v3.0 formalize: Subsidy = anti-habituation + loss severity determinant.
+```
+
+### §4.1 — 4-Level Table × 6 Love Types
+
+```
+🟡 HARDWARE SUBSIDY PER LOVE TYPE:
+
+  ┌───────────────┬────────────────┬─────────────────────────────────────┐
+  │ Level         │ Love Type      │ Mechanisms + Implications            │
+  ├───────────────┼────────────────┼─────────────────────────────────────┤
+  │ MAXIMUM       │ Parent→Child   │ Oxytocin sustained + baby schema    │
+  │               │                │ (NAcc 140ms, Glocker 2009) +        │
+  │               │                │ 4-system sync + prolactin           │
+  │               │                │ → Habituation VERY SLOW             │
+  │               │                │ → "Chưa bao giờ chán con"           │
+  │               │                │ → Loss = DEVASTATING delta           │
+  ├───────────────┼────────────────┼─────────────────────────────────────┤
+  │ MODERATE      │ Child→Parent   │ Attachment hardware, OT scaffold    │
+  │               │ Kin (siblings) │ → Slows decay (Roberts & Dunbar     │
+  │               │                │   2011: kin resilient w/o active     │
+  │               │                │   maintenance)                      │
+  │               │                │ → Loss = MAJOR but not devastating   │
+  ├───────────────┼────────────────┼─────────────────────────────────────┤
+  │ TEMPORARY     │ Romantic       │ Dopamine + NE surge 18-36m          │
+  │ (18-36 tháng) │ (limerence)   │ + serotonin ↓ ~40%                  │
+  │               │                │ → SIMULATES slow habituation         │
+  │               │                │ → Post-limerence: subsidy EXPIRES    │
+  │               │                │ → "Hết lửa" = subsidy end, NOT      │
+  │               │                │   love end (Tonic MAY still alive)   │
+  ├───────────────┼────────────────┼─────────────────────────────────────┤
+  │ NONE          │ Friendship     │ General μ-opioid only               │
+  │               │ Mentor         │ → VTA habituates at DEFAULT rate     │
+  │               │ Pet            │ → MUST maintain via novelty + contact │
+  │               │ Parasocial     │ → 48.6% friend churn on context     │
+  │               │                │   change (Roberts & Dunbar 2011)    │
+  └───────────────┴────────────────┴─────────────────────────────────────┘
+
+  ⭐ KEY PARADOX — SUBSIDY ≠ QUALITY:
+    → EC DEEPER + HIGH SUBSIDY → reward habituated but RICH baseline
+      (Mẹ→con: DEEP EC + MAX subsidy = "bình thường" nhưng losing = devastating)
+    → EC DEEPER + NO SUBSIDY → reward MOST invisible
+      (Bạn thân: DEEP EC + NO subsidy = "bình thường" và losing = recoverable)
+    → = WHY "mất mẹ" = devastating but "mất bạn" = sad but heal
+
+  ⭐ LIMERENCE = TEMPORARY SUBSIDY (Love-Romantic v3.0 §9.2):
+    → 18-36m: subsidy SIMULATES rich Mode 1 → "yêu điên cuồng"
+    → Post-limerence: subsidy EXPIRES → standard habituation rate
+    → "Hết lửa" = subsidy expired → Tonic channel MAY still alive
+    → Subsidy TEMPORARILY masks whether genuine bond was built
+    → = WINDOW to build genuine L2 (Love-Romantic v3.0 §9)
+
+  🟢 Fisher 2004 (limerence 18-36m), Glocker 2009 (baby schema)
+  🟢 Roberts & Dunbar 2011 (kin resilient), Panksepp 1998 (μ-opioid)
+  🟡 4-level Hw Subsidy model = framework synthesis (VP v3.0)
+```
+
+### §4.2 — Subsidy × Visibility Paradox
+
+```
+🟡 VALENCE CHỈ VISIBLE QUA (VP v3.0 §7):
+
+  → ABSENCE (Mode 2): entity removed → baseline violated → PAIN visible
+  → TRIGGER (Mode 3): context cue → L2 fire above threshold → FEEL
+  → COMPARISON: new entity (no habituation) vs old → old "feels less"
+
+  = "Có mới nới cũ" = VTA COMPARISON, NOT bond quality comparison
+  = Tonic valence INVISIBLE while present → DEVASTATING when absent
+  = "Không ai thấy không khí — cho đến khi thiếu oxy"
+
+  PER LOVE TYPE:
+    Parent→child: MAX subsidy → valence LEAST visible → loss MOST devastating
+    Friendship: NO subsidy → valence MORE visible (daily novelty needed)
+    Romantic post-L: subsidy GONE → tonic invisible → "chán" ≠ "hết yêu"
+
+  🟡 Visibility paradox per love type = framework synthesis
+```
+
+---
+
+## §5 — SATIATION TYPES × LOVE TYPES ★
+
+```
+⭐ ★ NEW SECTION v2.0 — VP v3.0 §8 + Gap-Body-Need v1.0
+
+  3 Satiation Types giải thích TẠI SAO mỗi loại "yêu" CẢM THẤY khác
+  và TẠI SAO "chán" manifest khác per type.
+```
+
+### §5.1 — 3 Satiation Types Overview
+
+```
+🟡 3 LOẠI SATIATION (GBN v1.0 §2):
+
+  CYCLIC (sharp oscillation):
+    → Gap fill → reward → gap OFF → return → need again
+    → Sharp onset/offset. Predictable rhythm.
+    → Ví dụ: "đói" → "no" → "đói lại"; mẹ la → thôi → quên
+
+  TONIC (slow invisible baseline):
+    → Gap fill ongoing → reward LOW-LEVEL → VTA habituate → INVISIBLE
+    → Slow onset. DEVASTATING when removed.
+    → Ví dụ: comfort từ mẹ 20 năm → "không thấy gì" → mẹ mất → PAIN
+
+  GENERATIVE (self-creating):
+    → Gap fill → discover NEW gap → chase → fill → new gap → perpetual
+    → Novelty-dependent. Reward = prediction-delta.
+    → Ví dụ: bạn kể chuyện mới → insight → new question → exciting
+```
+
+### §5.2 — Satiation Profile × 6 Love Types
+
+```
+🟡 MỖI LOẠI TÌNH YÊU CÓ SATIATION PROFILE RIÊNG:
+
+  ┌────────────────┬──────────────────────┬─────────────────────────────┐
+  │ Love Type      │ Satiation Profile    │ Dynamics                     │
+  ├────────────────┼──────────────────────┼─────────────────────────────┤
+  │ Parent→Child   │ Tonic DOMINANT       │ STABLE: auto-novelty         │
+  │                │ + Gen bursts (child  │ (child thay đổi mỗi ngày)   │
+  │                │ changes daily)       │ + MAX hw subsidy = "chưa bao │
+  │                │                      │   giờ chán con" (rare)       │
+  ├────────────────┼──────────────────────┼─────────────────────────────┤
+  │ Child→Parent   │ Cyclic + Tonic mix   │ Episode-bound (Cyclic: la →  │
+  │                │                      │ thôi) + baseline (Tonic:     │
+  │                │                      │ comfort invisible)           │
+  ├────────────────┼──────────────────────┼─────────────────────────────┤
+  │ Romantic       │ Tonic + Gen compound │ Limerence = Gen DOMINANT     │
+  │ (post-limer.)  │                      │ (novelty → exciting)         │
+  │                │                      │ Post-L = Tonic + Gen (if     │
+  │                │                      │ genuine match → ACTIVE effort│
+  │                │                      │ required)                    │
+  ├────────────────┼──────────────────────┼─────────────────────────────┤
+  │ Friendship     │ Gen DOMINANT         │ NOVELTY-DEPENDENT            │
+  │                │ + Tonic component    │ Gen = "nói chuyện hay"       │
+  │                │                      │ Tonic = "gặp thì thoải mái" │
+  │                │                      │ NO subsidy → must maintain   │
+  ├────────────────┼──────────────────────┼─────────────────────────────┤
+  │ Mentor         │ Gen DOMINANT         │ Domain-specific novelty      │
+  │                │ (knowledge flow)     │ Student plateau → Gen dies   │
+  ├────────────────┼──────────────────────┼─────────────────────────────┤
+  │ Pet            │ Tonic primary        │ Comfort-based + pseudo-Gen   │
+  │                │                      │ (pet behavior surprises)     │
+  ├────────────────┼──────────────────────┼─────────────────────────────┤
+  │ Parasocial     │ Gen DOMINANT         │ Content-driven (new song,    │
+  │                │ (content novelty)    │ new MV) = high Gen           │
+  │                │                      │ NO Tonic (no physical)       │
+  └────────────────┴──────────────────────┴─────────────────────────────┘
+
+  🟡 Satiation profiles per love type = framework synthesis
+```
+
+### §5.3 — "Chán" Mechanism Unified
+
+```
+⭐ "CHÁN" = GENERATIVE DIES + TONIC INVISIBLE:
+
+  → Most deep relationships = Tonic + Generative compound
+  → "Chán" = Generative component HABITUATED (prediction-delta = 0)
+            + Tonic component INVISIBLE (VTA habituated = baseline)
+  → PFC only sees: no Generative + Tonic invisible = "không có gì"
+  → Body reality: Tonic STILL PROVIDES → PFC just can't see it
+
+  "CHÁN" ≠ "HẾT YÊU":
+    → "Chán" = Generative dead (need novelty inject)
+    → "Hết yêu" = Structural valence FLIPPED (rare, requires sustained damage)
+    → Phần lớn "tôi chán người yêu/bạn" = Generative dead, Tonic alive
+    → FIX: rebuild Generative (new shared experiences, new domains)
+    → NOT fix: "find new person" (resets Generative but ALSO resets Tonic)
+
+  "CHÁN" RISK PER TYPE:
+    → Romantic: HIGHEST (subsidy expired + Gen habituated + Tonic invisible)
+    → Friendship: HIGH (no subsidy → Gen must carry alone)
+    → Parent→child: LOWEST (auto-novelty from child + MAX subsidy)
+    → Mentor: MODERATE (domain plateau → Gen dies)
+
+  🟡 "Chán" unified mechanism per love type = framework synthesis (VP v3.0)
+```
+
+---
+
+## §6 — BOND-ARCHITECTURE × LOVE TYPES ★
+
+```
+⭐ ★ NEW SECTION v2.0 — Bond-Architecture v1.0
+
+  4 bond types = 4 specialized expressions of 1 EC mechanism.
+  Gap clone IMPOSSIBLE. M1-M4 resonance decline.
+  Anti-compiled-suppress meta-principle.
+```
+
+### §6.1 — 4 Bond Types × 6 Love Types
+
+```
+🟡 1 EC MECHANISM × 4 BOND TYPES (BA v1.0 §2):
+
+  ┌─────────────────┬────────────────┬────────────────────────────────┐
+  │ Bond Type       │ Primary Neuro  │ Love Types Using This Bond     │
+  ├─────────────────┼────────────────┼────────────────────────────────┤
+  │ ATTACHMENT      │ Opioid/endor-  │ Child→Parent (primary)         │
+  │ (safety/comfort)│ phin (safe)    │ Pet→Owner (primitive)          │
+  ├─────────────────┼────────────────┼────────────────────────────────┤
+  │ CARETAKING      │ Oxytocin       │ Parent→Child (primary)         │
+  │ (nurture/care)  │ (caregiving)   │ Mentor→Student (partial)       │
+  ├─────────────────┼────────────────┼────────────────────────────────┤
+  │ SEXUAL          │ OT + Dopamine  │ Romantic (primary + exclusive) │
+  │ (pair-bond)     │ (pair + sal.)  │                                │
+  ├─────────────────┼────────────────┼────────────────────────────────┤
+  │ AFFILIATIVE     │ Endorphin      │ Friendship (primary)           │
+  │ (by-product     │ (social play,  │ Romantic (component)           │
+  │ resonance)      │ laughter)      │ Mentor-Student (component)     │
+  └─────────────────┴────────────────┴────────────────────────────────┘
+
+  ⭐ MỖI LOVE TYPE = MIX CỦA BOND TYPES:
+    → Romantic = Sexual + Affiliative + Caretaking (mutual)
+    → Parent→Child = Caretaking (dominant) + Attachment (secondary)
+    → Child→Parent = Attachment (dominant)
+    → Friendship = Affiliative (pure)
+    → Mentor = Caretaking-adjacent + Affiliative
+    → Pet = Caretaking + pseudo-Attachment (one-sided)
+
+  ⭐ GAP CLONE IMPOSSIBLE (BA v1.0 §3.1):
+    → Gap = f(ENTIRE chunk network) → unique per person
+    → Background Pattern (years, high link density) RESISTS shift
+    → Hardware gaps IMMUTABLE (DNA, neurotransmitter)
+    → = "Người yêu nghĩ thay cho tôi" = IMPOSSIBLE
+    → 3 REAL mechanisms: gap redirect + compiled suppress + behavior converge
+    → = "Hợp nhau" thực ra = behavior converge + gap redirect (NOT clone)
+
+  🟢 Bowlby 1969 (attachment), Feldman 2014 (caregiving), Fisher 2004 (sexual)
+  🟡 4 bond types × 6 love types mapping = framework synthesis (BA v1.0)
+```
+
+### §6.2 — M1-M4 Resonance Decline × Love Types
+
+```
+🟡 4 CƠ CHẾ SUY GIẢM (BA v1.0 §4) × LOVE TYPES:
+
+  M1 — COMPILED SUPPRESS (tấn công NGUỒN — ★ STRONGEST):
+    → Suppress drive riêng → less novelty → less by-product → less resonance
+    → COMPOUND: M1 accelerates M2 + M3 + M4
+    → Romantic: HIGHEST risk (schema "phải giống nhau", "phải hy sinh")
+    → Parent→child: SIGNIFICANT (suppress child drives "cho an toàn")
+    → Friendship: LOW (exit cost low → rarely suppress for friend)
+
+  M2 — HABITUATION (Weber-Fechner, hardware):
+    → Repeated stimuli → VTA habituate → reward ↓
+    → ALL types subject to M2 — but Hw Subsidy COUNTERS it
+    → Romantic post-L: HIGH (subsidy expired)
+    → Parent→child: LOW (MAX subsidy counters)
+    → Friendship: HIGH (NO subsidy)
+
+  M3 — PREDICTION COMPLETION (SPM too accurate):
+    → SPM compiled → predict partner perfectly → delta = 0 → "boring"
+    → Romantic long-term: HIGH
+    → Friendship long-term: MODERATE
+    → Mentor: domain plateau → HIGH
+
+  M4 — EC SATURATION (all channels compiled):
+    → Diminishing returns after 200+h (Hall 2018)
+    → ALL types: plateau after deep compilation
+    → Romantic: most channels → longest before saturation
+    → Friendship: fewer channels → faster saturation
+
+  ⭐ FIX M1 = HIGHEST LEVERAGE:
+    → M1 accelerates ALL others → stopping M1 = slow compound
+    → M1 fix = anti-compiled-suppress (§6.3)
+    → M2-M4 = hardware-driven → can only MANAGE, not eliminate
+
+  🟡 M1-M4 × love types = framework synthesis (BA v1.0)
+```
+
+### §6.3 — Anti-Compiled-Suppress: Meta-Principle
+
+```
+⭐ ANTI-COMPILED-SUPPRESS = META-PRINCIPLE CHO ALL BOND TYPES
+  (BA v1.0 §5, Schnarch differentiation reframe)
+
+  LOGIC CHAIN:
+    SPM deep + calibrated → THẬT SỰ hiểu entity
+    → Hiểu → BIẾT entity có drive riêng
+    → Trust → TIN drive riêng là valid
+    → Support → entity maintains drive riêng
+    → Drive riêng → continuous by-products MỚI
+    → = RESONANCE SUSTAINED
+
+  ÁP DỤNG MỌI LOẠI TÌNH YÊU:
+    → Romantic: partner có career/hobbies riêng = SUSTAIN resonance
+    → Parent→child: child có drive riêng = SUSTAIN (Schnarch)
+    → Friendship: value perspective KHÁC = SUSTAIN
+    → Mentor: encourage student's OWN direction = SUSTAIN
+
+  NGƯỢC LẠI = M1 COMPILED SUPPRESS:
+    → "Phải giống nhau" → suppress drive riêng → novelty ↓ → resonance ↓
+    → = Gottman Type 2 divorce (stagnation ~16.2yr)
+    → = Tiger parenting (suppress child's drives for parent's gap)
+    → = "Bạn thân phải đồng ý hết" (rare, but exists)
+
+  🟡 Anti-compiled-suppress = differentiation reframe (BA v1.0 §5)
+```
+
+### §6.4 — Domain Coverage × Love Types
+
+```
+🟡 5-DOMAIN × 4-ENTITY MATRIX (BA v1.0 §6):
+
+  ┌──────────────────┬──────────┬──────────┬──────────┬──────────┐
+  │ Domain           │ Partner  │ Parent   │ Friend   │ Colleague│
+  ├──────────────────┼──────────┼──────────┼──────────┼──────────┤
+  │ Hardware (sex,   │ ✅ BEST  │ ✅ HIGH  │ 🟡 SOME │ ❌ LOW   │
+  │ comfort, family) │          │ (kin OT) │ (play)   │          │
+  ├──────────────────┼──────────┼──────────┼──────────┼──────────┤
+  │ Emotional (trust,│ ✅ HIGH  │ 🟡 ONE- │ ✅ HIGH  │ 🟡 SOME │
+  │ vulnerability)   │          │ WAY      │ (mutual) │          │
+  ├──────────────────┼──────────┼──────────┼──────────┼──────────┤
+  │ Career/Intellect │ ❌ LOW   │ ❌ LOW   │ 🟡 SOME │ ✅ BEST  │
+  │                  │ (khác    │ (khác    │ (if same │          │
+  │                  │ nghề)    │ era)     │ domain)  │          │
+  ├──────────────────┼──────────┼──────────┼──────────┼──────────┤
+  │ Social           │ 🟡 SOME │ 🟡 SOME │ ✅ HIGH  │ 🟡 SOME │
+  │ (perspective)    │          │          │ (diverse)│          │
+  ├──────────────────┼──────────┼──────────┼──────────┼──────────┤
+  │ Creative/Growth  │ 🟡 LUCK │ ❌ RARE  │ 🟡 MATCH│ 🟡 IF   │
+  └──────────────────┴──────────┴──────────┴──────────┴──────────┘
+
+  ⭐ KEY INSIGHT: NO ENTITY fills ALL 5 domains.
+    → "Vợ/chồng là TẤT CẢ" = FRAGILE (partner ✅ hw+emotional ❌ career)
+    → Cần PORTFOLIO: Dunbar layers S1-S4 = distributed domains
+    → = Tại sao healthy people have MULTIPLE meaningful relationships
+    → Romantic-only = NARROWEST coverage → highest fragility
+
+  🟡 Domain coverage matrix = framework synthesis (BA v1.0 §6)
+```
+
+---
+
+## §7 — 6 LOẠI TÌNH YÊU QUA LENS UNIFIED
+
+### §7.1 — Romantic love
 
 ```
 ⭐ ROMANTIC = MULTI-CHANNEL + HORMONAL ACCELERATOR → STRONGEST SMOOTHING:
@@ -589,20 +1202,31 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   L2 SMOOTHING Ở ROMANTIC = CỰC ĐẠI:
     → Nhiều channels + hormonal turbo = L2 compile NHANH + SÂU nhất
     → Smoothing: "hút thuốc bình thường", "xấu tính cũng dễ thương"
-    → PFC selective blindness (Love-Analysis §5) = romantic-specific case
+    → PFC selective blindness (Love-Romantic §5) = romantic-specific case
       CỦA L2 Smoothing general mechanism
     → Khi limerence hết + L2 chưa compile xong → smoothing MẤT → "tỉnh"
     → Khi L2 đã compile deep (attachment) → smoothing BỀN dù hormone giảm
 
-  → Chi tiết romantic love: Love-Analysis.md v2.1 (1,835L)
+  → Chi tiết romantic love: Love-Romantic.md v3.0
     File này KHÔNG duplicate — chỉ position romantic trong unified model
+
+  v2.0 ENRICHED PROFILE:
+    → Hw Subsidy: TEMPORARY (18-36m) → subsidy ≠ quality (§4)
+    → Satiation: Tonic + Generative compound. "Chán" = Gen dead (§5)
+    → Bond: Sexual + Affiliative + mutual Caretaking (§6)
+    → EA: healthy = Mức 4. Limerence can overshoot Mức 5 (§8)
+    → M1-M4: M1 compiled suppress = HIGHEST risk (§6.2)
+    → PFC cost: HIGH (multi-channel SPM) (PFC-Ops v1.0)
+    → Compiled Quality: All 3 possible. Limerence can mask schema compile.
+    → Sustainability: 4-Layer ALL needed. Subsidy expired → effort required (§9)
+    → Phantom: COMPLEX — all 3 satiation fire phantom (§10)
 
   🟢 3 stages: lust/limerence/attachment (Fisher 2004)
   🟢 fMRI: VTA + caudate (Fisher, Aron 2005)
   🟢 Serotonin ↓ ≈ OCD (Marazziti 1999)
 ```
 
-### §4.2 — Parent → Child
+### §7.2 — Parent → Child
 
 ```
 ⭐ PARENT→CHILD = FOUNDATIONAL + HARDWARE SEED + L2 × F1 COMPLEXITY:
@@ -610,7 +1234,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Đây là LOẠI PHỨC TẠP NHẤT — vì foundational + asymmetric + F1 variable.
 ```
 
-#### §4.2a — Hardware Seed: L2 TRƯỚC interaction
+#### §7.2a — Hardware Seed: L2 TRƯỚC interaction
 
 ```
 🟡 PARENT L2 CÓ SEED TRƯỚC KHI GẶP CON:
@@ -639,7 +1263,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Pregnancy as L2 seed = framework synthesis (plausible, chưa measure trực tiếp)
 ```
 
-#### §4.2b — L2 × F1 Matrix: Smoothing vs Fixing
+#### §7.2b — L2 × F1 Matrix: Smoothing vs Fixing
 
 ```
 ⭐ L2 KHÔNG CHỈ TẠO SMOOTHING — L2 × F1 TẠO 2 MANIFESTATIONS:
@@ -661,12 +1285,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TẠI SAO F1 WEAK Ở MỘT SỐ BỐ MẸ?
 
     F1 "weak" ≠ "không có empathy" → = SPM FIRE SAI TEMPLATE:
-    (Self-Pattern-Match.md §3.3: template match → projection)
+    (Self-Pattern-Modeling.md §3.3: template match → projection)
 
     SPM dùng SELF-CHUNKS làm template khi simulate con.
-    Nếu PR Baseline CAO (hợp tính parent ↔ child):
+    Nếu Resonance Baseline CAO (hợp tính parent ↔ child):
       → Self-template FIT con → F1 output CHÍNH XÁC → empathy smooth
-    Nếu PR Baseline THẤP (khác tính):
+    Nếu Resonance Baseline THẤP (khác tính):
       → Self-template FAIL on con → F1 output SAI
       → Parent KHÔNG CÓ chunks phù hợp để simulate con
       → = "Không hiểu" KHÔNG PHẢI vì không yêu
@@ -681,9 +1305,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Baumrind 1966: authoritarian = high demand + low responsiveness
   🟡 L2 × F1 matrix = framework synthesis
   🟡 F1 weak = template mismatch = framework claim
+
+  v2.0 ENRICHED PROFILE (Parent→Child):
+    → Hw Subsidy: MAXIMUM (OT + baby schema + 4-system sync + prolactin)
+    → Satiation: Tonic DOMINANT + Generative bursts (child changes daily)
+    → Bond: Caretaking (primary). Self-referential reward.
+    → EA: Mức 4-5 (hw justified 0-2yr, should decrease as child grows)
+    → PFC cost: HIGHEST (child = moving target + hardware mismatch)
+    → Compiled Quality: genuine (opioid) vs schema ("phải hy sinh") vs threat
+    → M1: compiled suppress child drives = SIGNIFICANT risk
+    → "Chán" risk: LOWEST (auto-novelty + MAX subsidy)
+    → Calibration: HARDEST (exit cost MAX + hw subsidy MAX + power MAX)
+    → Phantom: DEVASTATING (Sanders 1980: most severe grief category)
 ```
 
-#### §4.2c — SPM 3 Modes khi fire trên con
+#### §7.2c — SPM 3 Modes khi fire trên con
 
 ```
 ⭐ KHI BỐ MẸ SPM FIRE TRÊN CON — 3 MODES CÓ THỂ:
@@ -691,8 +1327,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   MODE 1 — SELF-TEMPLATE DIRECT:
     "Tôi feel X → con chắc cũng feel X"
     → SPM dùng chunks CỦA MÌNH làm template cho con
-    → Cost ≈ 0 nếu PR Baseline cao (template fit → automatic)
-    → Cost CAO nếu PR Baseline thấp (template fail → kết quả sai)
+    → Cost ≈ 0 nếu Resonance Baseline cao (template fit → automatic)
+    → Cost CAO nếu Resonance Baseline thấp (template fail → kết quả sai)
     → = MODE MẶC ĐỊNH — body fire tự động
 
   MODE 2 — SCHEMA FALLBACK:
@@ -701,7 +1337,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → "Trẻ con phải dậy sớm", "Học giỏi mới thành công"
     → Cost THẤP (schema đã compiled)
     → Accuracy THẤP (schema = general, không fit CỤ THỂ con)
-    → (SPM v2.1 §9: threshold failure → schema fallback)
+    → (SPM v3.1 §9: threshold failure → schema fallback)
 
   MODE 3 — EFFORTFUL SPM:
     "Con CÓ THỂ feel khác tôi — để tôi thử hiểu"
@@ -712,28 +1348,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Accuracy: CAO NHẤT (nhưng vẫn imperfect)
 
 
-  PR BASELINE QUYẾT ĐỊNH MODE NÀO DOMINANT:
+  RESONANCE BASELINE QUYẾT ĐỊNH MODE NÀO DOMINANT:
 
-    PR CAO (hợp tính parent ↔ child):
+    RESONANCE CAO (hợp tính parent ↔ child):
       → Mode 1 WORK → cost ≈ 0 → parent "tự nhiên hiểu"
       → KHÔNG CẦN Mode 3 → PFC không bị test
       → ⚠️ Parent có thể TƯỞNG mình giỏi nuôi con
         → thực ra template MAY MẮN match hardware con
 
-    PR THẤP (khác tính) + PFC Capacity ĐỦ + meta-awareness CÓ:
+    RESONANCE THẤP (khác tính) + PFC Capacity ĐỦ + meta-awareness CÓ:
       → Mode 3 khả thi → hiểu con PHẦN NÀO
       → NHƯNG: Mode 3 costly → KHÔNG sustain 24/7 (hàng nghìn interactions)
       → Khi mệt/stress → fall back Mode 1 hoặc Mode 2
       → = INCONSISTENT: lúc hiểu, lúc push → con confused
 
-    PR THẤP + PFC thiếu HOẶC không meta-awareness:
+    RESONANCE THẤP + PFC thiếu HOẶC không meta-awareness:
       → Mode 1 fail → Mode 2 (schema) HOẶC force Mode 1 ("nó phải giống tôi")
       → = CONSISTENT nhưng KHÔNG HỢP: luôn push hoặc luôn schema
 
 
   VÍ DỤ "DẬY SỚM" — minh họa 3 modes:
 
-    Bố mẹ DẬY SỚM DỄ + PR thấp:
+    Bố mẹ DẬY SỚM DỄ + Resonance thấp:
       → Self-chunks: "dậy sớm = dễ, tự nhiên, có lợi"
       → Mode 1 on con: "con chắc cũng dễ"
       → Con struggle → parent: "sao con lười thế?"
@@ -745,7 +1381,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Bố mẹ DẬY SỚM KHÓ + đã accept:
       → Self-chunks: "dậy sớm = khó → tôi tìm cách khác"
       → Mode 1 on con: "con chắc cũng khó → đừng ép, tìm workaround"
-      → = Mode 1 cho kết quả ĐÚNG dù PR thấp (TRÙNG ở dimension này)
+      → = Mode 1 cho kết quả ĐÚNG dù Resonance thấp (TRÙNG ở dimension này)
 
     Bố mẹ DẬY SỚM KHÓ + tự ép + feel guilty:
       → Self-chunks: "khó → phải ép → tôi yếu vì không cố đủ"
@@ -767,12 +1403,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Con: cảm giác "không được hiểu" = thật → CÓ THỂ communicate
 
   🟡 SPM 3 Modes = framework synthesis
-  🟡 PR Baseline × PFC Capacity interaction = framework synthesis
+  🟡 Resonance Baseline × PFC Capacity interaction = framework synthesis
   🟢 Observed Capacity = 4 factors (PFC-Hardware §2)
   🟢 Authoritarian vs authoritative parenting (Baumrind 1966)
 ```
 
-### §4.3 — Child → Parent
+### §7.3 — Child → Parent
 
 ```
 ⭐ CHILD→PARENT = DEVELOPMENTAL: 3 GIAI ĐOẠN L2 THAY ĐỔI:
@@ -855,13 +1491,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Recovery CỰC KHÓ vì L2 foundational (xi măng ướt)
     → Therapy = manage, không phải delete
 
+  v2.0 ENRICHED PROFILE (Child→Parent):
+    → Hw Subsidy: MODERATE (attachment hw scaffold)
+    → Satiation: Cyclic + Tonic mix (episode-bound + baseline)
+    → Bond: Attachment (primary). Safety/comfort dominant.
+    → EA: lifecycle shift — childhood Mức 4-5 → teen Mức 3-4 → adult Mức 3-4
+    → Mixed valence: NORMATIVE (Lüscher 1998: 50% ambivalence)
+    → PFC cost: LOW-MOD (parent = mostly compiled, stable target)
+    → "Chán" risk: HIGH at teen (autonomy drive + domain gaps emerge)
+    → Phantom: MAJOR (deep L2 structural from earliest attachment)
+
   🟢 Adolescent social brain development (Blakemore 2008)
   🟢 Attachment styles across lifespan (Bowlby 1969)
   🟡 3-stage developmental model = framework synthesis
   🟡 Smoothing maturation (blind → selective) = framework synthesis
 ```
 
-### §4.4 — Friendship
+### §7.4 — Friendship
 
 ```
 🟡 FRIENDSHIP = NO ACCELERATOR → GRADUAL → NHƯNG CÓ THỂ RẤT SÂU:
@@ -869,7 +1515,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CHANNELS: moderate (3-5)
     → L1 presence, co-regulation (partial)
     → L3 novelty (shared exploration), mastery (learn from each other),
-      Pattern-Resonance (PR match → "hợp tính")
+      Resonance (Resonance match → "hợp tính")
     → THIẾU: L0 genetic, sexual, nurture-dependent
     → = Ít channels hơn romantic/parental
 
@@ -886,7 +1532,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   SMOOTHING IN FRIENDSHIP:
     → Bạn thân xấu → "cũng xinh mà" (L2 filter appearance)
-    → Joke nhạt → vẫn cười (L2 amplifier + PR reward)
+    → Joke nhạt → vẫn cười (L2 amplifier + Resonance reward)
     → Thói quen lạ → "dễ thương" (L2 re-interpret neutral → positive)
     → Predict: friend mới quen có CÙNG flaw → THẤY RÕ (L2 chưa compile)
 
@@ -902,11 +1548,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → CALIBRATED tốt hơn (mutual, long-term feedback loop)
     → = "Tình bạn thật" = L2 compiled slow + calibrated deep
 
+  v2.0 ENRICHED PROFILE:
+    → Hw Subsidy: NONE (μ-opioid only → must ACTIVELY maintain)
+    → Satiation: Gen DOMINANT + Tonic component. "Nói chuyện hay" = Gen.
+    → Bond: Affiliative (pure by-product match). NO hormone kick-start.
+    → EA: Mức 3 (self-correcting — exit cost LOW → naturally calibrated)
+    → PFC cost: LOW (compiled mutual, cost ≈ 0 after 200+h)
+    → Compiled Quality: Mostly GENUINE (no schema pressure, no threat)
+    → Friendship = PUREST resonance test (no mask, no obligation)
+    → Decay: FAST without contact (48.6% inner circle change on context shift)
+    → Phantom: MINOR-MODERATE (L1-dominant, replaceable, no hw lock-in)
+
   🟢 Friendship quality → health outcomes (Holt-Lunstad 2010)
   🟡 Friendship as slow L2 compilation = framework synthesis
 ```
 
-### §4.5 — Mentor / Teacher bond
+### §7.5 — Mentor / Teacher bond
 
 ```
 🟡 MENTOR = FEW CHANNELS + MODERATE L2 → HALO/HORNS EFFECTS:
@@ -936,11 +1593,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Thầy cô TỐT = investment QUAN TRỌNG nhất cho education
       (không chỉ vì kiến thức — vì L2 positive propagate sang MÔN HỌC)
 
+  v2.0 ENRICHED PROFILE:
+    → Hw Subsidy: NONE
+    → Satiation: Gen DOMINANT (knowledge flow). Student plateau → Gen dies.
+    → Bond: Caretaking-adjacent + Affiliative (asymmetric but mutual)
+    → EA: Mức 2-3 (professional boundary → rarely deep)
+    → PFC cost: MODERATE (domain-specific SPM)
+    → Phantom: MINOR (professional boundary → no L2 structural typically)
+    → Technology: PARTIAL (online teaching maintains Gen, removes body Tonic)
+
   🟢 Halo effect (Thorndike 1920)
   🟡 Teacher L2 → subject valence propagation = framework synthesis
 ```
 
-### §4.6 — Pet bond + Parasocial (idol)
+### §7.6 — Pet bond + Parasocial (idol)
 
 ```
 🟡 L2 KHÔNG CẦN FULL BIDIRECTIONAL SPM — CẦN CHANNEL FEEDING:
@@ -977,7 +1643,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Fan smooth scandal DỄ hơn bạn bè smooth flaws
       (dù interaction ÍT hơn — vì L2 unchecked)
 
-  Chi tiết: Idol-Phenomenon.md v2.0 §3
+  Chi tiết: Idol-Phenomenon.md v2.2 §3
   🟢 Parasocial relationships (Horton & Wohl 1956, Cohen 2004)
 
 
@@ -1000,70 +1666,384 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Object strong positive (xe yêu thích) → ownership, NOT body-base extension
     → Mất xe = tiếc (resource). Mất con = amputation (body-base).
 
+  v2.0 ENRICHED PROFILE (Pet):
+    → Hw Subsidy: LOW-MODERATE (OT from touch, no genuine mutual)
+    → Satiation: Tonic primary (comfort, co-regulation) + pseudo-Gen
+    → Bond: Caretaking (human→pet) + pseudo-Attachment
+    → EA: Mức 2-3. NOT genuine resonance (by-product match impossible — pet has no gaps being filled by human)
+    → Phantom: MODERATE-STRONG (deep daily EC → grief real)
+
+  v2.0 ENRICHED PROFILE (Parasocial):
+    → Hw Subsidy: NONE
+    → Satiation: Gen DOMINANT (content novelty). NO Tonic (no physical).
+    → Bond: NONE genuine (one-way, no mutual by-product match)
+    → EA: Mức 1-2 (UNCALIBRATED → L2 INFLATED beyond reality)
+    → = NOT resonance → fills Generative supply but mechanism side = zero
+    → Risk: time on parasocial → LESS time for genuine resonance
+
   🟡 L2 calibration hierarchy = framework synthesis
 ```
 
----
-
-## §5 — 9 THUỘC TÍNH CỦA L2
+### §7.7 — Comprehensive Comparison Table (v2.0)
 
 ```
-⭐ TỔNG HỢP 9 THUỘC TÍNH L2 — TỪ PHÂN TÍCH 32 VÍ DỤ:
+⭐ TỔNG HỢP 6 LOVE TYPES — ALL v2.0 CONCEPTS:
 
-  ① PER-AGENT:
-    L2 compile RIÊNG cho TỪNG agent → smoothing CHỈ cho agent đó
-    Partner L2 strong ≠ bạn bè L2 strong (independent)
+  ┌──────────────┬──────────┬───────────┬──────────┬──────────┬──────────┬───────────┐
+  │              │ Romantic │ Parent→Ch │ Child→Pa │ Friend   │ Mentor   │ Pet/Para  │
+  ├──────────────┼──────────┼───────────┼──────────┼──────────┼──────────┼───────────┤
+  │ Hw Subsidy   │ TEMP     │ MAX       │ MOD      │ NONE     │ NONE     │ LOW/NONE  │
+  │ Satiation    │ T+G comp │ T dom+G   │ C+T mix  │ G dom+T  │ G dom    │ T / G     │
+  │ RSA A:B      │ 60/40    │ 40/60     │ 50/50    │ 70/30    │ 80/20    │ 30/70|100 │
+  │ Bond type    │ Sex+Aff  │ Caretak   │ Attach   │ Affil    │ CT+Aff   │ CT/None   │
+  │ EA healthy   │ Mức 4    │ Mức 4-5   │ Mức 3-4  │ Mức 3    │ Mức 2-3  │ Mức 2-3   │
+  │ Compilation  │ ACCEL    │ SKIP      │ Standard │ FULL     │ PROFESS  │ Immed/Pas │
+  │ PFC cost     │ HIGH     │ HIGHEST   │ LOW-MOD  │ LOW      │ MOD      │ LOW       │
+  │ "Chán" risk  │ ★ HIGH   │ ★ LOW    │ MOD-HIGH │ HIGH     │ MOD      │ MOD/N/A   │
+  │ M1-M4 risk   │ M1 dom   │ M1       │ M2+M3    │ M2+M3    │ M3       │ M2        │
+  │ Decay w/o    │ MOD      │ V. SLOW   │ SLOW     │ FAST     │ MOD      │ Asymm     │
+  │ Phantom      │ COMPLEX  │ DEVAST   │ MAJOR    │ MINOR-M  │ MINOR    │ MOD/ZERO  │
+  │ Calibrated   │ MOD      │ HARDEST   │ MOD      │ EASIEST  │ MOD      │ LOW/NONE  │
+  └──────────────┴──────────┴───────────┴──────────┴──────────┴──────────┴───────────┘
 
-  ② GRADIENT:
-    Không binary (có/không) → liên tục (thích → quý → yêu)
-    Smoothing tăng DẦN theo thời gian khi L2 compile
+  T=Tonic, G=Generative, C=Cyclic, CT=Caretaking, Aff=Affiliative
 
-  ③ HARDWARE SEED POSSIBLE:
-    L2 có thể có seed TRƯỚC interaction:
-    Pregnancy (mẹ), birth hormones (cả hai), limerence (romantic)
-    Seed → interaction reinforce → L2 grow
-
-  ④ COMPILE SPEED = f(conditions):
-    Biological (parent) → instant seed
-    Hormonal (romantic) → months turbo
-    Environmental (combat) → weeks turbo
-    None (friendship) → years gradual
-
-  ⑤ OVERRIDABLE BY COMPETING SCHEMAS:
-    L2 có thể bị override ở specific contexts
-    Teen → peer status + autonomy override parent L2 (ở trường, không ở nhà)
-    = L2 KHÔNG yếu → competing schemas TẠM THẮNG ở context đó
-
-  ⑥ FOUNDATIONAL VS ADDITIVE:
-    Childhood L2 = viết lên xi măng ướt → gần permanent
-    Adult L2 = viết lên xi măng khô → removable (dù đau)
-    Therapy cho childhood issues KHÓ HƠN relationship issues
-
-  ⑦ SMOOTHING MATURATION:
-    Childhood: L2 alone → blind smoothing (smooth MỌI THỨ)
-    Adult: L2 + PFC + gratitude → selective smoothing (thấy + chọn accept)
-    Mature love = richer vì CẢ L2 VÀ PFC cooperate
-
-  ⑧ AMORAL:
-    L2 compile dựa trên CONDITIONS, không check healthy/toxic
-    Body = pragmatist → check output, không check truth (VP §8)
-    Stockholm = L2 compile dưới forced dependency = cùng mechanism
-
-  ⑨ RESIDUE (PHANTOM L2):
-    L2 collapse → chunks compiled during L2 VẪN TỒN TẠI
-    Trigger (bài hát, mùi, địa điểm) → chunks fire → body respond
-    → Agent ABSENT → Chunk-Miss → pain = "phantom L2"
-    Grief = network REORGANIZE, không phải L2 "delete"
-    Recovery cần THỜI GIAN (reorganization ≠ instantaneous)
-
-  🟡 9 properties = framework synthesis từ 32-example analysis
+  🟡 Comprehensive comparison = framework synthesis
 ```
 
 ---
 
-## §6 — EDGE CASES + APPLICATIONS
+## §8 — ENTITY-ACCESS × LOVE TYPES ★
 
-### §6.1 — Stockholm syndrome (🔴)
+```
+⭐ ★ NEW SECTION v2.0 — Entity-Access v1.2 + EA-Excess v1.0 + EA-Calibration v1.0
+
+  Entity-Access gradient Mức 0-5 giải thích "bao nhiêu = enough?"
+  per love type. Excess risks + Calibration dynamics per type.
+```
+
+### §8.1 — EA Gradient × Love Types
+
+```
+🟡 HEALTHY ZONE PER LOVE TYPE (EA v1.2):
+
+  ┌────────────────┬───────────┬────────────────────────────────────────┐
+  │ Love Type      │ Healthy   │ Notes                                  │
+  ├────────────────┼───────────┼────────────────────────────────────────┤
+  │ Romantic       │ Mức 4     │ EC deep + entity drives riêng INTACT   │
+  │                │           │ Limerence can overshoot → Mức 5 risk   │
+  ├────────────────┼───────────┼────────────────────────────────────────┤
+  │ Parent→Child   │ Mức 4-5   │ Mức 5 = HARDWARE JUSTIFIED (0-2 tuổi) │
+  │                │           │ nhưng should decrease → Mức 4 as child │
+  │                │           │ grows. Helicopter = stuck at Mức 5.    │
+  ├────────────────┼───────────┼────────────────────────────────────────┤
+  │ Child→Parent   │ Mức 3-4   │ Lifecycle: Mức 4-5 (childhood) →      │
+  │                │           │ Mức 3-4 (teen) → Mức 3-4 (adult)      │
+  ├────────────────┼───────────┼────────────────────────────────────────┤
+  │ Friendship     │ Mức 3     │ SELF-CALIBRATING — exit cost LOW       │
+  │                │           │ → environment naturally corrects        │
+  ├────────────────┼───────────┼────────────────────────────────────────┤
+  │ Mentor         │ Mức 2-3   │ Professional boundary → rarely deep    │
+  ├────────────────┼───────────┼────────────────────────────────────────┤
+  │ Pet/Parasocial │ Mức 2-3   │ Pet: genuine comfort. Parasocial:     │
+  │                │           │ UNCALIBRATED (no feedback loop)         │
+  └────────────────┴───────────┴────────────────────────────────────────┘
+
+  🟡 EA gradient × love types = framework synthesis (EA v1.2)
+```
+
+### §8.2 — EA-Excess Risks Per Love Type
+
+```
+🟡 MỨC 5 = EXCESS — CÓ THỂ XẢY RA Ở MỌI LOVE TYPE
+  (Entity-Access-Excess v1.0)
+
+  ROMANTIC EXCESS:
+    → Bilateral trap: both excess → stagnation → Gottman Type 2 (~16.2yr)
+    → Unilateral: A excess → B "khó thở" → vòng lặp tiêu cực
+    → Gap shift + compiled suppress COMPOUND = most dangerous
+    → 3 origins: hardware (neuroticism r=.49-.56), trauma (Dutton 1993), schema
+
+  PARENT EXCESS (helicopter/tiger):
+    → Mẹ's gap (not con's gap) drives behavior
+    → Hw subsidy MAX + exit cost MAX → HARDEST to detect
+    → Schema: "mẹ phải hy sinh" → schema alone SUFFICIENT condition
+    → Hikikomori: 4-mechanism compound (excess + suppress + artificial fill + abundance)
+
+  FRIENDSHIP EXCESS (rare):
+    → Exit cost LOW → self-corrects → rarely reaches Mức 5
+    → Exception: isolated person + ONLY friend → possible
+
+  PARASOCIAL EXCESS:
+    → L2 UNCALIBRATED → INFLATED beyond reality
+    → Time parasocial → LESS time genuine resonance → atrophy
+
+  5 BOUNDARY INDICATORS (healthy vs excess):
+    ① Entity có drive riêng? (YES = healthy)
+    ② Separation manageable? (YES = healthy)
+    ③ Domain drives ACTIVE? (YES = healthy)
+    ④ Entity autonomy RESPECTED? (YES = healthy)
+    ⑤ PFC articulate WHY? (Specific = healthy, circular = excess)
+
+  🟢 Gottman 1999 (Type 2 divorce), Fisher 2010 (rejection = cocaine withdrawal)
+  🟡 EA-Excess per love type = framework synthesis (EAE v1.0)
+```
+
+### §8.3 — Calibration Dynamics Per Love Type
+
+```
+🟡 CALIBRATION DIFFICULTY SCALES WITH BOND TYPE
+  (Entity-Access-Calibration v1.0)
+
+  EXIT COST = SIGNAL WEIGHT:
+    → Entity's "no" = calibration signal
+    → Signal weight = f(exit cost × alternative availability)
+    → Bạn bè (Mức 3): exit LOW → signal HIGH (effective → self-calibrating)
+    → Romantic (Mức 4): exit MODERATE → signal MODERATE
+    → Parent→child nhỏ: exit IMPOSSIBLE → signal WEAKEST
+
+  HARDWARE SUBSIDY = CALIBRATION BIAS:
+    → Hormone fires → entity-access FEELS justified
+    → PFC uses genuine (A) to JUSTIFY self-referential (C)
+    → Mẹ→con: MAX bias (A always present → always "cover story")
+    → Romantic limerence: HIGH bias → post-limerence EASIER
+    → Bạn bè: ZERO bias → CLEAREST signal
+
+  PARADOX: STRONGEST BOND = HARDEST TO CALIBRATE:
+    Mẹ→con: hw subsidy MAX + exit cost MAX + power MAX
+    = 3 factors AGAINST calibration → WHY parenting needs MOST awareness
+    Bạn bè: hw subsidy ZERO + exit cost LOW + power PARITY
+    = 3 factors SUPPORT calibration → WHY friendship = purest test
+
+  PFC BUDGET × LOVE TYPE COST (PFC-Operations v1.0 §3):
+    → Parent→child: HIGHEST cost (child = moving target + hw mismatch)
+    → Romantic: HIGH (multi-channel SPM required)
+    → Friendship: LOW (compiled mutual after 200+h)
+    → Mentor: MODERATE (domain-specific)
+    → "Mệt ở work → SPM cho con YẾU" = PFC budget depleted, NOT love gone
+
+  🟢 Mikolajczak 2019 (burnout → overcontrol), Trapnell 1999 (reflection vs rumination)
+  🟡 Calibration dynamics per love type = framework synthesis (EAC v1.0)
+```
+
+---
+
+## §9 — SUSTAINABILITY × LOVE TYPES ★
+
+```
+⭐ ★ NEW SECTION v2.0 — Resonance-Sustainability v1.0 + VP v3.0 §6
+
+  What SUSTAINS each love type? 4-Layer model + 3 Firing Modes per type.
+```
+
+### §9.1 — 4-Layer Sustainability × Love Types
+
+```
+🟡 4-LAYER MODEL PER LOVE TYPE (RS v1.0 §14):
+
+  TẦNG 1 — FOUNDATION (Proximity × Duration × Agent-mode):
+    → Parent→child: MAXIMUM (24/7 co-presence, hw-mandated)
+    → Romantic: HIGH (cohabitation, shared routines)
+    → Friendship: VARIABLE (depends on proximity, often context-dependent)
+    → LDR/Online: Verbal-only modality → Tonic LIMITED
+    → Missing ANY ONE of 3 conditions → resonance CANNOT emerge
+
+  TẦNG 2 — MODALITY (Verbal + Non-verbal + Body-level):
+    → Parent→child: ALL 3 active (touch + gaze + voice + body sync)
+    → Romantic: ALL 3 (sexual = unique body-level channel)
+    → Friendship: Verbal + Non-verbal dominant (body-level LIMITED)
+    → Parasocial: Verbal only (media) → Tonic IMPOSSIBLE
+
+  TẦNG 3 — AMPLIFICATION (Capitalization + PPR + Secure Base):
+    PPR (Perceived Partner Responsiveness, RS v1.0 §7):
+      = Understood + Validated + Cared For
+      = PERCEPTION > actual behavior → per attachment style:
+        Secure = calibrated, Anxious = biased LOW, Avoidant = dampened
+    Secure Base (RS v1.0 §8):
+      = Availability + Noninterference + Encouragement
+      → Safety → exploration → drive riêng → by-products → resonance
+    Per love type:
+      → Romantic: PPR + Secure Base BOTH critical (2 equal partners)
+      → Parent→child: PPR less critical (asymmetric). Secure Base = ESSENTIAL.
+      → Friendship: PPR moderate. Secure Base less formal.
+
+  TẦNG 4 — TRAJECTORY (Novelty + Maintenance + Synchrony):
+    → Ogolsky 2013 (N=12,273): maintenance behaviors DECLINE with duration
+    → Limerence: maintenance AUTOMATIC (hormone)
+    → Post-limerence: maintenance DELIBERATE (harder, costlier)
+    → "Yêu lâu thì khó" = STRUCTURALLY CORRECT
+
+  🟢 Hall 2019 (proximity × duration), Reis 2004 (PPR), Feeney 2007 (Secure Base)
+  🟡 4-Layer × love types = framework synthesis (RS v1.0)
+```
+
+### §9.2 — 3 Firing Modes × Love Types
+
+```
+🟡 3 FIRING MODES (VP v3.0 §6) — HOW "YÊU" ĐƯỢC TRẢI NGHIỆM:
+
+  MODE 1 — MAINTENANCE (entity present, everyday):
+    → Routine fire → L2 channels active → opioid LOW-LEVEL
+    → VTA habituated → reward = BASELINE → PFC sees NOTHING
+    → = "Background warmth" — present but INVISIBLE
+    PER TYPE:
+      Parent→child: RICH Mode 1 (MAX subsidy → slow habituation)
+      Romantic post-L: LEAN Mode 1 (subsidy expired)
+      Friendship: LEANEST Mode 1 (NO subsidy)
+    → Mode 1 quality determines bonding quality
+
+  MODE 2 — CHUNK-MISS (entity absent, acute):
+    → Entity ABSENT → compiled routine fire → no response → PAIN
+    → Bowlby 3 phases: Protest → Despair → Detachment
+    PER TYPE:
+      Parent loss (child→parent): MAJOR (decades of compiled routines)
+      Child loss (parent→child): DEVASTATING (MAX subsidy + deepest EC)
+      Romantic break-up: COMPLEX (all 3 satiation types fire Mode 2)
+      Friend drift: MODERATE (Generative loss, Tonic thin)
+
+  MODE 3 — CONTEXT-TRIGGER (entity absent, incidental):
+    → External cue → match EC spoke → hub activate → L2 fire
+    → UNPREDICTABLE (context-dependent)
+    → Triggers ranked: olfactory > visual > narrative > circumstantial
+    PER TYPE:
+      Romantic: olfactory STRONGEST (direct to amygdala, Herz 2004)
+      Parent→child: visual + circumstantial (baby photos, similar child)
+      Friendship: narrative + circumstantial (shared memory context)
+    → "10 năm sau nghe bài hát → nhói" = Mode 3 trigger → compiled chunks fire
+
+  4 SILENCE TYPES × LOVE (RS v1.0 §4):
+    → Intrinsic: choose comfort, LOW-arousal positive → ✅ BỀN (mature couple)
+    → Introjected: fear/suppress → ❌ burnout (sợ chồng nổi giận → im)
+    → External: control/punish → ❌ destructive (stonewalling)
+    → Spontaneous: natural, unintentional → ✅ benign
+
+  🟢 Herz 2004 (odor-evoked memory), Bowlby 1969 (3 phases)
+  🟡 3 Firing Modes × love types = framework synthesis (VP v3.0)
+```
+
+---
+
+## §10 — PHANTOM + GRIEF × LOVE TYPES ★
+
+```
+⭐ ★ NEW SECTION v2.0 — EC v1.0 §7-§10 + VP v3.0 §12 + RPE v1.0 §15
+
+  Why different love types produce DIFFERENT grief.
+  Phantom 4-factor model. Grief A+B+C formula. Decay 3-Layer.
+```
+
+### §10.1 — Phantom 4-Factor Model × Love Types
+
+```
+🟡 PHANTOM DEPTH = f(4 FACTORS) PER LOVE TYPE (VP v3.0 §12, RPE v1.0):
+
+  ┌────────────────────┬──────────┬───────────┬──────────┬──────────┬──────────┐
+  │ Factor             │ Romantic │ Parent→Ch │ Child→Pa │ Friend   │ Colleague│
+  ├────────────────────┼──────────┼───────────┼──────────┼──────────┼──────────┤
+  │ ① Compilation      │ DEEP     │ V. DEEP   │ DEEP     │ MOD      │ SHALLOW  │
+  │   depth            │          │           │          │          │          │
+  ├────────────────────┼──────────┼───────────┼──────────┼──────────┼──────────┤
+  │ ② Hardware         │ SOME     │ MAXIMUM   │ MODERATE │ NONE     │ NONE     │
+  │   subsidy          │ (vaso)   │ (parental)│ (attach) │          │          │
+  ├────────────────────┼──────────┼───────────┼──────────┼──────────┼──────────┤
+  │ ③ L2 structural    │ STRONG-  │ V. STRONG │ STRONG   │ MOD-WEAK │ WEAK     │
+  │                    │ V.STRONG │           │          │          │          │
+  ├────────────────────┼──────────┼───────────┼──────────┼──────────┼──────────┤
+  │ ④ Duration         │ YEARS→   │ YEARS→    │ DECADES  │ YEARS    │ MONTHS→  │
+  │   compiled         │ DECADES  │ DECADES   │          │          │ YEARS    │
+  ├────────────────────┼──────────┼───────────┼──────────┼──────────┼──────────┤
+  │ PHANTOM INTENSITY  │ COMPLEX  │ ★ DEVAST │ MAJOR    │ MINOR-M  │ MINOR    │
+  └────────────────────┴──────────┴───────────┴──────────┴──────────┴──────────┘
+
+  → MẸ MẤT CON = MOST DEVASTATING: ALL 4 factors MAX (Sanders 1980)
+  → ROMANTIC = COMPLEX: all 3 satiation types fire phantom
+  → FRIENDSHIP = MINOR-MODERATE: no hardware lock-in, replaceable
+
+  🟢 Sanders 1980 (parental grief most severe), O'Connor 2022 (Gone-But-Everlasting)
+  🟡 4-factor model per love type = framework synthesis (VP v3.0)
+```
+
+### §10.2 — Grief A+B+C Formula × Love Types
+
+```
+🟡 GRIEF = A + B + C (Entity-Compiled v1.0 §7):
+
+  A = GAP-FEED LOSS: lượng gap mà agent đã fill
+  B = FRESH-REBUILD COST: routines phải PFC rebuild không có agent
+  C = PHANTOM FIRING: EC chunks VẪN fire → target absent → pain
+
+  PER LOVE TYPE:
+  ┌────────────────┬───────────┬───────────┬───────────┬────────────────┐
+  │ Love Type      │ A (gap)   │ B (rebuild)│ C (phantom)│ TOTAL         │
+  ├────────────────┼───────────┼───────────┼───────────┼────────────────┤
+  │ Mất vợ/chồng  │ CỰC CAO  │ CỰC CAO  │ CỰC CAO  │ ★ MAXIMUM     │
+  │ Mất con (mẹ)  │ CỰC CAO  │ CỰC CAO  │ CỰC CAO  │ ★ DEVASTATING │
+  │ Mất mẹ (con)  │ CỰC CAO  │ TRUNG    │ CỰC CAO  │ DEVASTATING    │
+  │ Mất bạn thân  │ CAO      │ THẤP     │ CAO      │ SIGNIFICANT    │
+  │ Mất đồng nghiệp│ THẤP    │ THẤP     │ THẤP     │ MINOR          │
+  └────────────────┴───────────┴───────────┴───────────┴────────────────┘
+
+  → Mất VỢ/CHỒNG = MAXIMUM (multi-channel + multi-routine + deep EC)
+  → Mất CON (mẹ) = DEVASTATING (hw subsidy KEEPS firing after loss)
+  → Mất BẠN THÂN = SIGNIFICANT (but recoverable — no hw lock-in)
+  → = "Get over it" = ignorance of A+B+C mechanism
+
+  🟢 Harrison 2022 (IOS → PGD severity), Boerner 2011 (51% → 19% at 3yr)
+  🟡 Grief A+B+C per love type = framework synthesis (EC v1.0)
+```
+
+### §10.3 — Love↔Hate + Decay 3-Layer
+
+```
+🟡 LOVE → HATE: SHARED NEURAL CIRCUITS (EC v1.0 §8):
+  → Zeki & Romaya 2008: love và hate share putamen + insula
+  → Love: large judgment cortex DEACTIVATE → "mù quáng vì yêu"
+  → Hate: small zone deactivate → RETAINS judgment → "tính toán"
+
+  ASYMMETRY:
+    → Love → Hate: EASY (1 event, betrayal = flip, keep depth)
+    → Hate → Love: HARD (negativity bias + need sustained positive)
+    → Indifference → either: HARDEST (need to BUILD depth first)
+    → = Hate CLOSER to love than indifference is
+    → "Đối nghịch của yêu KHÔNG phải ghét — mà là thờ ơ"
+
+  PER LOVE TYPE:
+    → Romantic: Love→Hate MOST common (betrayal = fast structural flip)
+    → Parent→child: Love→Hate RARE (hw subsidy protects)
+    → Friendship: Love→Hate POSSIBLE (trust violated → L2 flip)
+
+  DECAY 3-LAYER MODEL (EC v1.0 §10):
+    ┌────────────────────┬───────────────┬─────────────────────┐
+    │ Layer              │ Timeline      │ Resistance           │
+    ├────────────────────┼───────────────┼─────────────────────┤
+    │ ① Schema (ATL)     │ Years-decades │ VERY RESISTANT       │
+    │ "biết người đó"    │               │ (neocortical)        │
+    ├────────────────────┼───────────────┼─────────────────────┤
+    │ ② Affect/Motiv.    │ Months-years  │ MODERATE             │
+    │ "cảm thấy gì"     │               │ (need active int.)   │
+    ├────────────────────┼───────────────┼─────────────────────┤
+    │ ③ Episodic details │ Months w/o    │ MOST VULNERABLE      │
+    │ "nhớ chuyện gì"    │ rehearsal     │ (hippocampal)        │
+    └────────────────────┴───────────────┴─────────────────────┘
+    → Recovery = "biết mà không đau" (Layer ① persists, Layer ② fades)
+    → = "No contact" accelerates Layer ② + ③ decay
+    → "Ghi đè kỷ niệm" = new links weaken old links
+
+  STRUCTURAL VALENCE × GRIEF:
+    → Slow erosion: structural positive → gradually mixed → negative
+      ("phát hiện dần dần partner toxic" → grief = gradual)
+    → Fast flip: betrayal → structural INSTANT flip → acute grief
+    → No contact = natural erosion of Layer ②③
+
+  🟢 Zeki & Romaya 2008 (shared circuits), Bouton 2004 (extinction ≠ erasure)
+  🟡 Love↔Hate per love type + Decay model = framework synthesis (EC v1.0)
+```
+
+---
+
+## §11 — EDGE CASES + APPLICATIONS
+
+### §11.1 — Stockholm syndrome (🔴)
 
 ```
 🔴 STOCKHOLM = L2 COMPILE DƯỚI EXTREME FORCED CONDITIONS:
@@ -1092,7 +2072,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Mainstream: trauma bonding theory (Herman 1992) — compatible, not competing
 ```
 
-### §6.2 — Combat bond
+### §11.2 — Combat bond
 
 ```
 🟡 COMBAT = ENVIRONMENTAL ACCELERATOR → RAPID L2:
@@ -1113,7 +2093,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Band of Brothers phenomenon documented across cultures
 ```
 
-### §6.3 — Phantom L2 + Grief mechanism
+### §11.3 — Phantom L2 + Grief mechanism
 
 ```
 🟡 PHANTOM L2 — TẠI SAO GRIEF ĐAU DÀI:
@@ -1141,7 +2121,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 "Phantom L2" = framework concept
 ```
 
-### §6.4 — Anti-smoothing at scale
+### §11.4 — Anti-smoothing at scale
 
 ```
 🟡 CÙNG MECHANISM → TRIBAL DYNAMICS → POLITICAL POLARIZATION:
@@ -1165,9 +2145,40 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Tribal dynamics = L2 at scale = framework synthesis
 ```
 
+### §11.5 — By-Product-Scale × Love Types (v2.0)
+
+```
+🟡 1 MECHANISM × 3 SCALES (By-Product-Scale v1.0):
+
+  Level 1 — PAIR (A↔B):
+    = Bidirectional by-product match. Oxytocin/dopamine.
+    → ALL 6 love types operate primarily at Level 1
+    → Romantic: Level 1 Pair (A↔B, most channels)
+    → Friendship: Level 1 Pair (mutual, fewer channels)
+    → Pet: Level 1 but ONE-SIDED (human→pet, not mutual)
+
+  Level 2 — HUB (Node↔Collective):
+    = 1 node decision replaces N×(N-1)/2 pair negotiations
+    → Serotonin (hierarchy). Trust bypass.
+    → Mentor-Student có elements Level 2 (teacher = node)
+    → Parent in family = quasi-Level 2 (coordinator)
+
+  Level 3 — INSTITUTIONAL (Distributed):
+    = Abstract trust infrastructure. No direct hormone.
+    → Marriage INSTITUTION = Level 3 scaffold for Level 1 bond
+    → Religion community = Level 3 scaffold for Level 1 belonging L2
+
+  ⭐ PRESTIGE = GENUINE RESONANCE AT HUB SCALE (BS v1.0 §8):
+    → Dominance (force) = schema resonance → fragile
+    → Prestige (knowledge) = genuine resonance → self-reinforcing
+    → Same mechanism as friendship resonance, SCALED UP
+
+  🟡 By-Product-Scale × love types = framework synthesis (BS v1.0)
+```
+
 ---
 
-## §7 — HIỂU ĐỂ PHÁT TRIỂN
+## §12 — HIỂU ĐỂ PHÁT TRIỂN
 
 ```
 ⭐ SECTION QUAN TRỌNG NHẤT — MỤC ĐÍCH CỦA TOÀN BỘ FILE:
@@ -1176,7 +2187,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
    Biết cơ chế = navigate được + phát triển đúng hướng."
 ```
 
-### §7.1 — "Biết cơ chế ≠ giảm giá trị"
+### §12.1 — "Biết cơ chế ≠ giảm giá trị"
 
 ```
   → Biết oxytocin KHÔNG làm ôm bớt ấm
@@ -1193,7 +2204,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → = Biết L2 KHÔNG làm tình yêu bớt sâu
 ```
 
-### §7.2 — Hiểu smoothing → navigate relationships
+### §12.2 — Hiểu smoothing → navigate relationships
 
 ```
 🟡 BIẾT MÌNH ĐANG SMOOTH → CÓ THỂ CHECK REALITY:
@@ -1210,7 +2221,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → ⚠️ Toxic partner ISOLATE bạn bè = CẮT reality check = red flag #1
 ```
 
-### §7.3 — Hiểu parent-child → compassion CẢ HAI BÊN
+### §12.3 — Hiểu parent-child → compassion CẢ HAI BÊN
 
 ```
 🟡 INSIGHT QUAN TRỌNG NHẤT CHO GIA ĐÌNH:
@@ -1218,7 +2229,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   BỐ MẸ:
     → F1 fail = template mismatch, KHÔNG PHẢI không yêu
     → "Fixing" = SPM dùng self-template (cái DUY NHẤT họ có)
-    → PR Baseline thấp = GENETIC LOTTERY, không phải lỗi ai
+    → Resonance Baseline thấp = GENETIC LOTTERY, không phải lỗi ai
     → CÓ THỂ improve: education, meta-awareness, Mode 3 practice
 
   CON:
@@ -1241,7 +2252,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Không đòi hỏi "hiểu ngay" → chỉ đòi hỏi "cố gắng + time"
 ```
 
-### §7.4 — Hiểu L2 types → build relationships ĐÚNG CÁCH
+### §12.4 — Hiểu L2 types → build relationships ĐÚNG CÁCH
 
 ```
 🟡 MỖI LOẠI CẦN INVESTMENT KHÁC — BIẾT TYPE → INVEST ĐÚNG:
@@ -1252,13 +2263,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Patience = ingredient quan trọng nhất
 
   ROMANTIC: cần BUILD trong limerence window
-    → Limerence = gift + window + fuel (Love-Analysis §9)
+    → Limerence = gift + window + fuel (Love-Romantic §9)
     → ĐỪNG chỉ enjoy hormones → BUILD shared chunks, communication patterns
     → NẾU chỉ enjoy → hết limerence = tay trắng (L2 chưa compile)
     → NẾU build → hết limerence → L2 đã compile → attachment BỀN
 
   PARENT-CHILD: cần AWARENESS về template mismatch
-    → PR Baseline = luck → nhưng Mode 3 = learnable
+    → Resonance Baseline = luck → nhưng Mode 3 = learnable
     → INVEST: learn about child's hardware, not just project own
 
   MENTOR: cần CHANNELS PHÙ HỢP
@@ -1267,7 +2278,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → L2 positive teacher → propagate sang subject → win-win
 ```
 
-### §7.5 — Hiểu grief → compassion với mất mát
+### §12.5 — Hiểu grief → compassion với mất mát
 
 ```
 🟡 GRIEF = PHANTOM L2 + NETWORK REORGANIZATION → CẦN THỜI GIAN:
@@ -1288,9 +2299,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §8 — HONEST ASSESSMENT
+## §13 — HONEST ASSESSMENT
 
-### §8.1 — Confidence tiers
+### §13.1 — Confidence tiers
 
 ```
 🟢 RESEARCH SUPPORT:
@@ -1305,17 +2316,35 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Grief = withdrawal pattern (Fisher 2010)
   → Reconsolidation (Nader 2000), Extinction ≠ erasure (Bouton 2004)
 
-🟡 FRAMEWORK SYNTHESIS:
+🟡 FRAMEWORK SYNTHESIS (v1.0 giữ nguyên):
   → L2 Smoothing as general mechanism (not just romantic)
   → 2-Axis Model: Depth × Channels → love type mapping
   → L2 × F1 Matrix: smoothing vs fixing manifestation
   → SPM 3 Modes: self-template / schema / effortful
   → Smoothing formula: |L2| — max(Schema_A, competing)
-  → Hardware seed (pregnancy, limerence as L2 seeds)
   → Foundational vs Additive L2
   → Smoothing maturation: blind → selective
-  → L2 compile accelerators unified model
   → 3-function model: filter + amplifier + propagation
+
+🟡 FRAMEWORK SYNTHESIS (v2.0 MỚI):
+  → Hardware Subsidy 4-level × 6 love types (VP v3.0)
+  → Satiation Types per love type (VP v3.0, GBN v1.0)
+  → Bond-Architecture 4 types × 6 love types (BA v1.0)
+  → M1-M4 resonance decline per love type (BA v1.0)
+  → Anti-compiled-suppress meta-principle (BA v1.0)
+  → Domain Coverage 5×4 matrix (BA v1.0)
+  → EA gradient Mức 0-5 × love types (EA v1.2)
+  → EA-Excess per love type (EAE v1.0)
+  → Calibration dynamics per love type (EAC v1.0)
+  → 4-Layer Sustainability per love type (RS v1.0)
+  → 3 Firing Modes per love type (VP v3.0)
+  → Phantom 4-factor model per love type (VP v3.0, RPE v1.0)
+  → Grief A+B+C formula per love type (EC v1.0)
+  → Decay 3-Layer per love type (EC v1.0)
+  → Compiled Quality × smoothing (PFC-Ops v1.0)
+  → Motivated Inaccuracy × smoothing (RS v1.0)
+  → Structural vs Current × love types (VP v3.0)
+  → By-Product-Scale × love types (BS v1.0)
 
 🔴 HYPOTHESIS:
   → Smoothing formula exact shape (linear? nonlinear? thresholds?)
@@ -1324,7 +2353,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Self-love = L2 toward self? (chưa phân tích)
 ```
 
-### §8.2 — Open questions
+### §13.2 — Open questions
 
 ```
   Q1: Formula shape — nonlinear? Threshold effects? Step functions?
@@ -1350,14 +2379,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → AI-Schema-Detection territory
       → Nếu AI interact daily + feed channels → user compile L2 toward AI?
       → = Parasocial L2 (uncalibrated) nhưng BIDIRECTIONAL feel
+
+  Q6 (v2.0): Hw Subsidy EXACT timeline per love type?
+      → "18-36m" = range. Individual variance? Genetic factors?
+
+  Q7 (v2.0): M1-M4 RELATIVE contribution measurable?
+      → Can we isolate M1 compiled suppress from M2 habituation?
+
+  Q8 (v2.0): Compiled Quality × love type interaction?
+      → Does genuine compilation PROTECT against M1-M4 decline?
+
+  Q9 (v2.0): 4-Layer model quantifiable?
+      → Can each layer's contribution be measured independently?
 ```
 
-### §8.3 — Testable predictions
+### §13.3 — Testable predictions
 
 ```
 🔴 TESTABLE:
 
-  P1: PR Baseline CAO → parent-child smoothing STRONGER
+  P1: Resonance Baseline CAO → parent-child smoothing STRONGER
       → Measurable: temperament match score × relationship quality assessment
       → Predict: positive correlation
 
@@ -1376,52 +2417,116 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   P5: Compiled body-level red flags penetrate L2 smoothing
       → Compare: people with trauma experience vs only read about red flags
       → In limerence: trauma group detect bad partner FASTER
+
+  P6 (v2.0): Hw Subsidy level predicts grief intensity per love type
+      → Measure: grief severity × bond type × subsidy level
+      → Predict: MAX subsidy (parent→child) = most severe grief
+
+  P7 (v2.0): Satiation type predicts "chán" trajectory
+      → Measure: relationship satisfaction × satiation profile
+      → Predict: Gen-dominant bonds "chán" faster than Tonic-dominant
+
+  P8 (v2.0): M1-M4 relative contribution measurable per love type
+      → Longitudinal couples: measure compiled suppress, habituation separately
+      → Predict: M1 contribution LARGEST in romantic, SMALLEST in friendship
+
+  P9 (v2.0): EA gradient × divorce prediction
+      → Measure: EA level (self-report + IAT) at year 1
+      → Predict: Mức 5 at year 1 → higher divorce at year 10
+
+  P10 (v2.0): PPR × attachment style predicts sustainability
+      → Measure: PPR scores × attachment style per love type
+      → Predict: anxious underestimate PPR → lower sustainability
 ```
 
 ---
 
-## §9 — CROSS-REFERENCES
+## §14 — CROSS-REFERENCES
 
 ```
-  MECHANISM FILES (reference, KHÔNG duplicate):
-    → ⭐ Body-Coupling.md v1.0 — MECHANISM COMPANION cho file này (observation):
-      2D model, 3 Phase, extension/entanglement/neutral, system compilation.
-      File này phân tích POSITIVE coupling (6 love types).
-      Body-Coupling.md cover CẢ positive + negative + neutral mechanism.
-    → Connection.md v3.1 — 3 Generative Primitives, 2-luồng, 8 pathways
-    → Agent-Mechanism.md — SPM mechanism, §12.2b 2-luồng reward
-    → Self-Pattern-Match.md v2.1 — F1/F2, self-template, reversed mapping
-    → Pattern-Resonance.md — PR Baseline §7.8, 4 conditions
-    → Valence-Propagation.md v1.3 — §2 Body-Base Extension, §4 chain, §7 PFC Blindness
-    → Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, §5 compile_rate
-    → PFC-Hardware.md — §2 Observed Capacity (4 factors)
+  AGENT-MECHANISM FILES:
+    → Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation, Dunbar, Grief A+B+C
+    → Entity-Access.md v1.2 — Mức 0-5 gradient, Tool/Agent-mode
+    → Entity-Access-Excess.md v1.0 — Mức 5, bilateral/unilateral, 3 origins
+    → Entity-Access-Calibration.md v1.0 — Exit Cost, Calibration Bias
+    → Bond-Architecture.md v1.0 — 4 bond types, M1-M4, anti-compiled-suppress
+    → Resonance-Sustainability.md v1.0 — 4-Layer, PPR, Secure Base, 4 silence
+    → Resonance-Per-Entity.md v1.0 — Compilation Chain, Hw Subsidy, Phantom
+    → By-Product-Scale.md v1.0 — Level 1/2/3
+    → By-Product-Gap-Resonance.md v1.4 — Resonance Baseline, 4 conditions
+    → Self-Pattern-Modeling.md v3.1 — F1/F2, self-template, reversed mapping
+    → Agent-Mechanism.md v2.0 — SPM mechanism, 2-luồng reward
 
-  OBSERVATION FILES:
-    → Empathy.md v2.0 — SPM F1 + ❸ positive
+  PFC FILES:
+    → PFC-Operations.md v1.0 — PFC budget, Compiled Quality
+    → PFC-Label.md v1.0 — vocabulary standard
+    → Simulation-Engine.md v1.0 — 1 Engine × 3 Components × 3 Axes
+
+  BODY-BASE + OBSERVATION FILES:
+    → Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, Hw Subsidy
+    → ⭐ Body-Coupling.md v3.0 — MECHANISM COMPANION (coupling mechanism)
+    → Body-Feedback-Mechanism.md v1.0 — Chunk-Shift/Miss/Gap, compile_rate
+    → Gap-Body-Need.md v1.0 — 3 Satiation Types, 5-Parameter
+    → Connection.md v5.0 — 3 Generative Primitives, 2-luồng, 8 pathways
+    → Empathy.md v4.0 — SPM F1, per-entity empathy, burnout reframe
     → Protect.md v1.0 — f(replaceability × attachment)
-    → Gratitude.md v1.1 — comparison mechanism, §7 connection maintenance
-    → Status.md v2.0 — Resource Access Map
-    → Meaning.md v2.0 — 5 anchor types, anchor collapse
+    → Gratitude.md v2.1 — 9 prerequisites, comparison mechanism
+    → Cortisol-Baseline.md v2.1 — amplifier, inertia
+    → Boredom.md v2.0 — unified formula
+    → Feeling.md v3.0 — PFC observation interface
 
-  RESEARCH FILES:
-    → Love-Analysis.md v2.1 — romantic deep-dive (file này = UNIFIED view)
-    → Idol-Phenomenon.md v2.0 — parasocial §3, L2 hierarchy
-    → OCD-Analysis.md v2.1 — serotonin amplifier parallel
+  APPLICATION + RESEARCH FILES:
+    → Love-Romantic.md v3.0 — romantic DEEP-DIVE (file này = UNIFIED view)
+    → Idol-Phenomenon.md v2.2 — parasocial, uncalibrated L2
+    → OCD-Analysis.md v2.2 — serotonin amplifier
+    → Meaning.md v2.1 — 5 anchor types
+    → Status.md v2.1 — Resource Access Map
+    → Autonomy-Hardware.md v1.0 — vmPFC+DRN
+    → Religion.md v2.0 — faith anchor, community L2
 
   STATUS:
     ┌────────┬─────────────────────────────────────────────────────────┐
     │ §      │ Status                                                   │
     ├────────┼─────────────────────────────────────────────────────────┤
-    │ §0     │ ⭐ Position + scope — v1.0                               │
-    │ §1     │ ⭐ L2 definition thống nhất — v1.0                       │
-    │ §2     │ ⭐ L2 Smoothing general mechanism — v1.0                 │
-    │ §3     │ ⭐ 2-Axis Model + 4 Modifiers — v1.0                    │
-    │ §4     │ ⭐ 6 love types (romantic, parent, child, friend,        │
-    │        │   mentor, pet/parasocial) — v1.0                        │
-    │ §5     │ ⭐ 9 L2 properties — v1.0                                │
-    │ §6     │ ⭐ Edge cases — v1.0                                     │
-    │ §7     │ ⭐ Practical implications — v1.0                         │
-    │ §8     │ ⭐ Honest assessment — v1.0                              │
-    │ §9     │ Cross-references — v1.0                                 │
+    │ §0     │ ⭐ Position + scope — v2.0 REWRITE                      │
+    │ §1     │ ⭐ EC definition + Structural/Current + Hub-and-Spoke    │
+    │ §2     │ ⭐ L2 Smoothing + Compiled Quality + Motivated Inaccuracy│
+    │ §3     │ ⭐ 2-Axis Model + EA gradient Mức 0-5 — v2.0            │
+    │ §4     │ ★ Hw Subsidy × 6 types — v2.0 NEW                      │
+    │ §5     │ ★ Satiation Types × 6 types — v2.0 NEW                 │
+    │ §6     │ ★ Bond-Architecture + M1-M4 — v2.0 NEW                 │
+    │ §7     │ ⭐ 6 love types enriched + comparison table — v2.0      │
+    │ §8     │ ★ EA gradient + Excess + Calibration — v2.0 NEW        │
+    │ §9     │ ★ 4-Layer Sustainability + 3 Firing Modes — v2.0 NEW   │
+    │ §10    │ ★ Phantom 4-factor + Grief A+B+C + Decay — v2.0 NEW   │
+    │ §11    │ ⭐ Edge cases + By-Product-Scale — v2.0 ENRICHED        │
+    │ §12    │ ⭐ Practical implications — v1.0 (kept)                  │
+    │ §13    │ ⭐ Honest assessment — v2.0 ENRICHED                     │
+    │ §14    │ Cross-references — v2.0 REWRITE (~35 deps)             │
     └────────┴─────────────────────────────────────────────────────────┘
+
+  CHANGELOG v2.0 (over v1.2):
+    - YAML: rewrite (v2.0, ~35 deps in 4 categories, 10 key changes)
+    - §0: +SE context, +EA gradient preview, +TIỀN ĐỀ ĐỌC, +SCOPE IN/OUT
+    - §1: +Structural vs Current (§1.3), +EC Hub-and-Spoke + Dunbar (§1.4)
+    - §2: +Compiled Quality × smoothing (§2.5), +Motivated Inaccuracy (§2.6)
+    - §3: +EA gradient × 2-axis (§3.5)
+    - §4: ★ NEW — Hw Subsidy 4-level × 6 types, visibility paradox
+    - §5: ★ NEW — 3 Satiation Types × 6 types, "chán" mechanism
+    - §6: ★ NEW — Bond-Architecture, M1-M4, anti-compiled-suppress, domain coverage
+    - §7: ENRICHED — all 6 types enriched profiles + comparison table
+    - §8: ★ NEW — EA gradient, EA-Excess, Calibration, PFC Budget per type
+    - §9: ★ NEW — 4-Layer, 3 Firing Modes, PPR, Secure Base, 4 silence
+    - §10: ★ NEW — Phantom 4-factor, Grief A+B+C, Love↔Hate, Decay 3-Layer
+    - §11: +By-Product-Scale × love types (§11.5)
+    - §13: +18 new 🟡 claims, +5 new 🔴 predictions, +4 new questions
+    - §14: REWRITE — 4 categories, ~35 deps
+    - GLOBAL: SPM v3.1 throughout, all dep versions updated
+    - v1.2 backup: Research/backup/Love-Unified-v1.2-backup.md
 ```
+
+> *"Biết cơ chế ≠ giảm giá trị trải nghiệm.*
+> *Biết EC = map được → navigate được → phát triển đúng hướng.*
+> *6 loại tình yêu, 1 cơ chế gốc, vô số biểu hiện.*
+> *Mỗi loại cần investment khác — biết type → invest đúng."*
+> — Love-Unified v2.0

@@ -44,8 +44,10 @@ Prompt explicit "đọc 4 files này" → AI load đầy đủ mechanism + dange
 - "Tôi muốn hiểu cách não bộ xử lý cảm xúc"
 
 > **Lưu ý:** Mọi output từ AI = giả thuyết.
-> Cảm nhận cơ thể của bạn = trọng tài cuối cùng.
-> Nếu AI nói điều gì mà cơ thể bạn "lấn cấn" — tin cơ thể.
+> Kiểm chứng bằng 2 tầng: cơ thể bạn (quality controller, đúng ~90%)
+> + thực tế domain (final arbiter).
+> AI có thể khuếch đại pattern sai → cơ thể thấy "hợp lý" → vẫn sai thực tế.
+> Chi tiết: `Ask-AI.md` §6.1.
 
 ---
 
@@ -67,7 +69,7 @@ AI = dynamic interface — adapt theo mức hiểu của mỗi người.
 ```
 Human-Predictive-Drive/
 │
-├── [`Social-Calibration.md`](Research/Global/Social-Calibration.md)               — Kiến trúc vật lý não bộ
+├── Core-Hardware.md               — Kiến trúc vật lý não bộ
 ├── Core-Software.md               — Cơ chế hoạt động chi tiết
 │
 ├── Ask-AI.md                      — Hướng dẫn AI tương tác (protocol + danger zones)
@@ -84,11 +86,13 @@ Human-Predictive-Drive/
 │   ├── 01-File-Index.md           — Index toàn bộ files
 │   ├── Child-Development/         — Cơ chế phát triển trẻ 0-6 + thực hành
 │   ├── Education/                 — Cơ chế giáo dục + bản đồ kiến thức
-│   ├── Global/                    — Human-AI Future, Birth-Rate Decline (6 quốc gia)
+│   ├── Global/                    — AI-Self-Model, Human-AI Future, Social-Calibration,
+│   │                                Uncanny-Valley, Climate-Cognition, Birth-Rate Decline
 │   ├── Hijack/                    — Addiction, alcohol analysis
 │   ├── Melody-Technology/         — Religion, idol phenomenon
 │   ├── Meta-Impact/               — Framework predict tác động của chính nó
-│   └── ...                        — Mismatch, Neuro-Measurement, Love, OCD, Climate
+│   └── ...                        — Love, Money, OCD, Expansion-Saturation, Body-Coupling,
+│                                    Self-Created-Threat, Neuro-Measurement, Mismatch
 │
 └── Applications/                  — Ứng dụng cụ thể per domain
     ├── 01-File-Index.md           — Index toàn bộ files
@@ -203,7 +207,8 @@ Every falsification = progress. Every verification = confidence.
    actual child development and classroom observations?
 
 ⑤ **Anyone** — Use the framework, test it against your experience.
-   Your body is the final arbiter. Report what doesn't match.
+   Body-check (~90% accurate) + domain reality check (final arbiter).
+   Report what doesn't match.
 
 ---
 
@@ -214,7 +219,7 @@ Claude Opus (1M context) cho kết quả tốt nhất với framework này.
 
 **Ngôn ngữ:** Tiếng Việt chủ đạo + thuật ngữ chuyên môn tiếng Anh.
 
-**Quy mô:** ~170 files phân tích, ~120,000+ dòng, version 7.8 (2026).
+**Quy mô:** ~186 files phân tích, ~230,000+ dòng, version 7.8 (2026).
 
 **Privacy:** This framework is entirely text — no software, no code execution,
 no data collection or storage of any kind.

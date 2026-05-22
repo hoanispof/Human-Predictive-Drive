@@ -186,6 +186,84 @@
     → = Không phải con người "giỏi hơn" → mà CÓ NHIỀU VÙNG ĐÃ MAP hơn
 ```
 
+### 2.1 — PRECISION: 3 Nguồn Constraint + Individual Không Phân Biệt
+
+```
+⭐ "DOMAIN" TRONG TRẢI NGHIỆM CÁ NHÂN vs META-LEVEL:
+
+  §2 ⑥ dùng ví dụ "Market phạt" = domain feedback thật.
+  Từ GÓC NHÌN CÁ NHÂN: đúng — market cho hậu quả thật, không phụ thuộc ý muốn.
+  Từ META-LEVEL: market = COLLECTIVE ARC, không phải physics domain.
+  (ref: Logic-Feeling.md §1.3b — "domain không thay đổi, collective arc thay đổi")
+
+  File này (§2 ①-⑧) mô tả domain QUA PHẢN CHIẾU từ individual experience.
+  Individual KHÔNG phân biệt nguồn → TẤT CẢ feedback = "domain" cho body.
+  Meta-level precision bên dưới PHÂN BIỆT — nhưng KHÔNG mâu thuẫn với §2.
+
+
+  ⭐ 3 NGUỒN CONSTRAINT ẢNH HƯỞNG PATTERNS CÁ NHÂN:
+
+  ① PHYSICS DOMAIN (vĩnh viễn, không phụ thuộc human):
+    → Gravity, entropy, thermodynamics, chemistry, math structure
+    → Trước loài người = có. Sau loài người tuyệt chủng = VẪN CÓ.
+    → Feedback: absolute, unconditional
+    → Compiled patterns khớp physics: shelf-life ≈ ∞
+
+  ② BODY HARDWARE (temporary system, ~100K year evolution):
+    → PFC bandwidth 4±1, opioid/dopamine, senses, needs
+    → = Hệ điều hành cho patterns hoạt động + tương tác với domain
+    → Chết → trở về physics (tro bụi). Hackable by chemicals.
+    → Constraints CỨNG cho cá nhân — nhưng không vĩnh viễn ở scale evolution
+    → Compiled patterns khớp body hardware: shelf-life ≈ ∞ trong 1 đời
+      (hardware KHÔNG đổi trong 1 đời, chỉ đổi qua natural selection)
+
+  ③ COLLECTIVE (emergent từ nhiều body tương tác):
+    → Market, law, culture, norms, trends, language, technology
+    → Real constraints: vi phạm → bị phạt/loại THẬT
+      (bị kết án oan hay đúng → hậu quả ĐỀU THẬT cho body)
+    → NHƯNG: CAN SHIFT (participants thay đổi → rules thay đổi)
+    → Scale >> individual → cá nhân KHÔNG THỂ đơn phương thay đổi
+    → = "Behaves like domain" cho cá nhân
+    → Compiled patterns khớp collective: shelf-life = LIMITED
+      = f(tốc độ collective shift trong lĩnh vực đó)
+
+
+  ⭐ TẠI SAO CÁ NHÂN KHÔNG PHÂN BIỆT:
+
+    Body CHỈ CÓ 1 feedback system: hành động → kết quả → reward/pain.
+    KHÔNG CÓ sensor riêng cho "đây là physics" vs "đây là collective."
+
+    Rơi từ cao = đau (physics)
+    Bị sa thải = đau (collective)
+    Bị bỏ tù oan = đau (collective, SAI nhưng VẪN ĐAU THẬT)
+
+    → Cái cây = thật. Bạn bè = thật. Bố mẹ = thật.
+    → Sông, núi, luật pháp, thị trường = TẤT CẢ "thật" cho body.
+    → Body register TẤT CẢ giống nhau → compile patterns giống nhau.
+
+    → = Mỗi body ĐÃ nằm trong collective thì như 1 tế bào.
+    → = Collective punishment/reward → trở thành hình phạt/thưởng THẬT.
+    → = §2 ⑥ ĐÚNG ở individual level: mọi feedback đều thật cho cá nhân.
+
+
+  ⭐ IMPLICATION — SHELF-LIFE KHÁC NHAU:
+
+    Patterns phụ thuộc physics → shelf-life ≈ ∞ (2+2=4 vĩnh viễn)
+    Patterns phụ thuộc body hardware → shelf-life ≈ ∞ trong 1 đời
+    Patterns phụ thuộc collective → shelf-life = LIMITED
+      → f(tốc độ collective shift)
+      → "Bằng ĐH → việc tốt" = collective pattern, ĐANG expire
+      → "SEO strategy X" = collective pattern, expires nhanh
+      → "2+2=4" = physics, không bao giờ expire
+
+    → Chi tiết: Collective-Arc-Dynamics.md (tốc độ shift, lifecycle, implications)
+    → Logic-Feeling.md §1.3b (stable-arc vs shifting-arc domains)
+
+  🟡 Framework synthesis: phân biệt 3 nguồn = precision mới.
+     Consistent với Logic-Feeling §1.3b + Why-Body-Knows §1.
+     Individual experience (§2 ⑥) + meta-level precision = không mâu thuẫn.
+```
+
 ---
 
 ## 3. Scarcity = Engine — Tại Sao Domain Finite Tại Mỗi Điểm Là TÍCH CỰC
@@ -316,6 +394,8 @@
 ## 7. Kết Nối
 
 ```
+→ ⭐ Collective-Arc-Dynamics.md: 3 nguồn constraint, shift speed, shelf-life
+→   File NÀY §2.1 = precision note. Collective-Arc = DEEP analysis dynamics.
 → ⭐ Collective-Purpose.md: META-frame — humanity collective ↔ domain loop
 →   Vertical loop: domain → body → schema → knowledge → domain (refined)
 →   File NÀY = WHAT (substrate), Collective-Purpose = WHY (cosmic loop framing)

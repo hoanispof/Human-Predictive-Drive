@@ -320,7 +320,7 @@ FROM F3 (COMPLETE):
 
 FROM ALREADY-DRILLED:
   → Learning-Cycle: learning mechanism stages
-  → Agent/: Self-Pattern-Match, Pattern-Resonance
+  → Agent/: Self-Pattern-Match, Resonance
   → Body-Feedback-Draft/: H10 body-feedback model
 
 FROM N+5 OUTPUTS:

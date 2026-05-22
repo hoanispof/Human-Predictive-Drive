@@ -260,27 +260,27 @@ The mechanism F1 formalizes (substrate chunk compile from body signals) operates
 
 **Key claims**:
 - **Agent-reading = Self-Pattern-Match mechanism** (solo, forward): PFC retrieves self chunks matching target entity → applies as template → reads output as prediction about agent's state/behavior/desire
-- **Pattern-Resonance = emergent mutual phenomenon** (retrospective): when 2+ agents' Self-Pattern-Match co-fire successfully via communication feedback
+- **Resonance = emergent mutual phenomenon** (retrospective): when 2+ agents' Self-Pattern-Match co-fire successfully via communication feedback
 - Agent is **function running on chunk substrate**, NOT separate category or hardware module → **supports H1** (chunk substrate cross-cutting)
 - Operates multi-modal (affective / somatic / visual-symbolic / verbal-cognitive / composite)
 - Quality gradients: Pattern-Type × Depth × Similarity × Feedback (4 axes)
 - Threshold failure → fallback mechanical prediction
 - Schema override (Mode 1 / Mode 2) can replace entirely for religious/abstract agents
-- **Rejected**: hardware mirror module, binary Object-Agent classification, 2-layer affective vs cognitive split, Pattern-Resonance as solo simulator
+- **Rejected**: hardware mirror module, binary Object-Agent classification, 2-layer affective vs cognitive split, Resonance as solo simulator
 - **Accepted**: 🟢 Spelke core knowledge as innate triggers (biological motion, contingency, self-propelled), 🟢 Bird & Cook 2013 alexithymia drives empathy deficit
 
 **Contribution to F1**:
 - **Developmental bootstrap** (Self-Pattern-Match §5): infant Self-Pattern state builds through body-feedback + caregiver contingent response → provides mechanism for social chunks in [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md)
-- **Pattern-Resonance stages** (0-3): cry contagion E9 (Stage 0) → smile contagion E13 (Stage 1) → egocentric empathy E26 (Stage 2) → full mutual (adult) — relevant for F1 social arc + emotional interoceptive
+- **Resonance stages** (0-3): cry contagion E9 (Stage 0) → smile contagion E13 (Stage 1) → egocentric empathy E26 (Stage 2) → full mutual (adult) — relevant for F1 social arc + emotional interoceptive
 - **Alexithymia warning**: poor self-reading → poor Self-Pattern-Match → poor social chunks. F1 must preserve interoception keystone (§5.4 Body-Feedback-Draft)
 
 **Drill home for F1**: Not re-drilled. Cross-referenced in [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §7.
 
-**Files**: [../Agent/Agent.md](../Agent/Agent.md), [../Agent/Self-Pattern-Match.md](../Agent/Self-Pattern-Match.md), [../Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md) (5754 lines across 4 files).
+**Files**: [../Agent/Agent.md](../Agent/Agent.md), [../Agent/Self-Pattern-Match.md](../Agent/Self-Pattern-Match.md), [../Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) (5754 lines across 4 files).
 
 ### §4.3 — Body-Feedback-Draft (H10, N+3, 2026-04-15)
 
-**Scope**: Body-feedback architecture + 5 preconditions cho signal fire + body-feedback vs feeling 2-layer distinction + 4-tier calibration + vô thức vs PFC split.
+**Scope**: Body-feedback architecture + 5 preconditions cho signal fire + body-feedback vs feeling 2-layer distinction + 2-tầng calibration (Darwinian + Hebbian) + vô thức vs PFC split.
 
 **Key claims**:
 - **H10 — Body Signal Precondition Hypothesis**: Body signal fires when ALL 5 preconditions met:
@@ -317,7 +317,7 @@ The 3 drilled hypotheses triangulate on chunk substrate architecture:
                                
    8-stage cycle                Self-Pattern-Match      5 preconditions
    6+1 sleep mechanisms         as solo mechanism        P2 Chunks Base Adequacy
-   Baseline shift               Pattern-Resonance        = keystone for F1
+   Baseline shift               Resonance        = keystone for F1
                                 emergent mutual         
                                
                                ↓  ↓  ↓
@@ -524,7 +524,7 @@ Final integration of all 4 sub-folders + drilled triples (H8/H9/H10). Delivers:
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) — H8 (1556L)
 - [../Agent/Agent.md](../Agent/Agent.md) — H9 entry point
 - [../Agent/Self-Pattern-Match.md](../Agent/Self-Pattern-Match.md) — H9 solo mechanism deep drill
-- [../Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md) — H9 mutual phenomenon
+- [../Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) — H9 mutual phenomenon
 - [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) — H10 foundation (7-layer model + §5)
 - [../Body-Feedback-Draft/02-Dissonance.md](../Body-Feedback-Draft/02-Dissonance.md) — H10 dissonance cases
 - [../Body-Feedback-Draft/03-Reward.md](../Body-Feedback-Draft/03-Reward.md) — H10 reward cases

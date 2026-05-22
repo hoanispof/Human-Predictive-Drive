@@ -129,4 +129,4 @@
 - 00-Goals.md — mục tiêu và phương pháp đo lường
 - Core-Deep-Dive/PFC/PFC-Hardware.md — COMT baseline → EEG baseline?
 - Core-Deep-Dive/Body-Base/Body-Feedback/Cortisol-Baseline.md — stress physiology × HRV
-- Research/Hijack/Addiction-Analysis.md — dopamine loop awareness (tránh gamify measurement)
+- Research/Health-Conditions/Hijack/Addiction-Analysis.md — dopamine loop awareness (tránh gamify measurement)

@@ -33,7 +33,7 @@ sources: |
   Collective-Body.md v1.1 §5.2 — chain break (source for ⑧)
   Collective-Body.md v1.1 §8.4 — AI trust entity (source for §8 guardrails)
   Collective-Body.md v1.1 §1 — Model 3 cấp (source for ⑨)
-  Body-Base.md v2.0 §6 — 4-tier calibration, domain feedback = final arbiter
+  Body-Base.md v2.0 §6 — 2-tầng calibration (Darwinian + Hebbian), domain feedback = final arbiter
   Body-Base.md v2.0 §7 — circuit breaker mechanism
   PFC-Function.md v1.1 §6 — confabulation = rule not exception (GAP 10)
   Feeling.md v2.0 §10 — Feeling Literacy 5-stage (client prerequisite)
@@ -1638,7 +1638,7 @@ CROSS-REFERENCES:
 
   COMPILE + COLLECTIVE (v2.0 NEW):
     → Body-Base.md v2.0 §3 — Model 3+1 (Vô thức / PFC / Trust / Tools)
-    → Body-Base.md v2.0 §6 — 4-tier calibration, domain feedback = final arbiter
+    → Body-Base.md v2.0 §6 — 2-tầng calibration (Darwinian + Hebbian), domain feedback = final arbiter
     → Body-Base.md v2.0 §7 — circuit breaker mechanism
     → Compile-Taxonomy.md v1.0 §3 — 4 compile pathways (source for ⑤)
     → Compile-Taxonomy.md v1.0 §7 — A×C interactions, chain break

@@ -1298,9 +1298,9 @@ Each precondition validated by multiple drill cases:
 
 **Alternative E — "Reward is evolutionarily hardwired" (strict evolutionary)**:
 - Claim: Reward responses are genetically specified, not learned
-- H10 position: **Partially accepted but incomplete**. Tier 1 evolution provides base patterns, but Tier 2-4 calibration (Why-Body-Knows §4) shows rewards are also learned
+- H10 position: **Partially accepted but incomplete**. Tầng 1 Darwinian provides base patterns, but Tầng 2 Hebbian compilation (Why-Body-Knows v1.1 §3) shows rewards are also learned
 - Evidence: Training gradient for appreciation (Van Gogh case) shows learning component
-- H10 uses: 4-tier calibration model (mostly Tier 2-4)
+- H10 uses: 2-tầng calibration model (mostly Tầng 2: domain contact + trust-injected)
 
 **Alternative F — "Reward is cognitive appraisal" (appraisal theory)**:
 - Claim: Reward = PFC cognitive evaluation of stimulus
@@ -1333,7 +1333,7 @@ Each precondition validated by multiple drill cases:
 
 ### §9.7 — Relationship with H9 (Agent Processing)
 
-🟡 **H9** (from `Chunk-Analysis/Agent/` drill): Agent-reading uses Self-Pattern-Match (solo forward mechanism) + Pattern-Resonance (emergent mutual phenomenon). Integrates social cognition.
+🟡 **H9** (from `Chunk-Analysis/Agent/` drill): Agent-reading uses Self-Pattern-Match (solo forward mechanism) + Resonance (emergent mutual phenomenon). Integrates social cognition.
 
 **Relationship with H10**:
 - H9 = **agent-specific reward mechanism** — reading others, empathy, social cognition

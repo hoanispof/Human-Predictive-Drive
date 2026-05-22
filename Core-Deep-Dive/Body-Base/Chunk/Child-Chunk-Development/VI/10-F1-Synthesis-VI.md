@@ -404,7 +404,7 @@ Formula correctly predicts ordinal ranking của timing L4 onset ở mọi body 
 F1 là một trong bốn drilled sub-folders. Cross-folder evidence cho H1:
 
 - **N+1 Learning-Cycle** ([../Learning-Cycle/](../Learning-Cycle/)): Learning là error-driven chunk modification/creation. Chunks là unit of learning.
-- **N+2 Agent** ([../Agent/](../Agent/)): Pattern Resonance + Self-Pattern-Match frameworks đều hoạt động trên chunks. Chunks support agency, identity, social cognition.
+- **N+2 Agent** ([../Agent/](../Agent/)): Resonance + Self-Pattern-Match frameworks đều hoạt động trên chunks. Chunks support agency, identity, social cognition.
 - **N+3 Body-Feedback** ([../Body-Feedback-Draft/](../Body-Feedback-Draft/)): P1-P5 preconditions tất cả reference chunks state. H10 cần chunks substrate. F1 (P2 + P5) drill substrate mechanisms trực tiếp.
 
 ### §2.3 — Vị trí kiến trúc của H1
@@ -686,10 +686,10 @@ PFC-Inference Ladder được propose như framework tool cho:
 
 ### §5.8 — R-F1-8: Agent sub-folder cross-references
 
-**Target**: [Agent/](../Agent/) sub-folder files (Pattern-Resonance.md, Self-Pattern-Match.md, OA-Overview.md)
+**Target**: [Agent/](../Agent/) sub-folder files (By-Product-Gap-Resonance.md, Self-Pattern-Match.md, OA-Overview.md)
 
 **Action**: Thêm F1 developmental evidence cross-references:
-- Pattern-Resonance: E9 cry contagion (ngày 1) + E10 + E12 social smile (6-8wk) + E13 smile contagion (4mo) + E26 egocentric empathy (18mo) như developmental timeline
+- Resonance: E9 cry contagion (ngày 1) + E10 + E12 social smile (6-8wk) + E13 smile contagion (4mo) + E26 egocentric empathy (18mo) như developmental timeline
 - Self-Pattern-Match: E15 mother recognition + E16 stranger anxiety + E31 "không" autonomy + mirror self-recognition như self-chunks developmental arc
 - OA-Overview: event-inference methodology cross-ref
 
@@ -818,7 +818,7 @@ Cross-linking updates (không phải new content cho F1):
 
 Cross-linking updates (R-F1-8):
 
-1. **Pattern-Resonance developmental timeline** — E9/E10/E12/E13 cry contagion → smile contagion → E26 empathy
+1. **Resonance developmental timeline** — E9/E10/E12/E13 cry contagion → smile contagion → E26 empathy
 2. **Self-Pattern-Match developmental timeline** — E15 mother recognition → E31 autonomy → mirror self-recognition
 3. **4 stages framework developmental grounding** — stage boundaries anchored trong specific F1 events
 
@@ -948,7 +948,7 @@ F3 Language drill sẽ build trên những chunks này như starting substrate.
 ### §9.3 — Drilled sub-folders (cross-links)
 
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) — H8 (learning mechanism)
-- [../Agent/](../Agent/) — H9 Pattern-Resonance + Self-Pattern-Match (R-F1-8 cross-links)
+- [../Agent/](../Agent/) — H9 Resonance + Self-Pattern-Match (R-F1-8 cross-links)
 - [../Body-Feedback-Draft/](../Body-Feedback-Draft/) — H10 (R-F1-4 P2 mechanism cross-link)
 
 ### §9.4 — Downstream sub-folders (receivers)

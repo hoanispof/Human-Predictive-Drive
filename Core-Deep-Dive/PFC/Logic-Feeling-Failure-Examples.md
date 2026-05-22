@@ -14,7 +14,7 @@ purpose: |
 sources: |
   Logic-Feeling-Balance.md (nguyên lý meta)
   Logic-Feeling.md §4 (5 cases đã có)
-  Why-Body-Knows.md §5 (3 error types)
+  Why-Body-Knows.md §6 (3 error types)
   Feeling-Accuracy.md §3 (6 PFC error modes)
   Historical sources: verified qua research (citations inline)
 language: Tiếng Việt primary + English technical terms
@@ -50,7 +50,7 @@ Logic-Feeling-Balance.md          Logic-Feeling-Fail-Example.md
 "Tại sao không thể prescribe"  ←  "Đây là bằng chứng thực tế"
                                    
         ↑                                  ↑
-Logic-Feeling.md §4              Why-Body-Knows.md §5
+Logic-Feeling.md §4              Why-Body-Knows.md §6
 (5 cases phân tích cơ chế)       (3 error types cơ chế)
 ```
 
@@ -443,7 +443,7 @@ Mỗi loại lặp đi lặp lại xuyên suốt lịch sử.
   → Feeling ĐÚNG về mechanism (body cần năng lượng → đường = năng lượng nhanh)
   → Feeling SAI về context (đường giờ không hiếm → reward quá mức)
   → Body KHÔNG CÓ cơ chế tự detect "environment đã thay đổi"
-  (Why-Body-Knows.md §5: Evolution Lag)
+  (Why-Body-Knows.md §6: Evolution Lag)
 
   🟢 Evolutionary mismatch: PMC (Frontiers in Psychiatry 2018) — sugar addiction
       from evolution to revolution
@@ -785,7 +785,7 @@ CÓ THỂ:
 
 📚 Cơ chế:
   → Logic-Feeling.md §4 — 5 cases phân tích cơ chế Logic-Feeling interaction
-  → Why-Body-Knows.md §5 — 3 error types (evolution lag, chunks nền sai, schema override)
+  → Why-Body-Knows.md §6 — 3 error types (evolution lag, chunks nền sai, schema override)
   → Feeling-Accuracy.md §3 — 6 PFC error modes
   → Body-Feedback.md — Dual-Pull + 3 nguồn discomfort (nociception, mismatch, recalibration)
   → Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap + Quality Baseline Shift

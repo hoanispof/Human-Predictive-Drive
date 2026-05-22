@@ -434,7 +434,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 PARENT + SIBLINGS (Agent/ folder):
   → Agent.md §0.3 — "Hardware mirror module rejected" (1 line → THIS FILE for full analysis)
   → Self-Pattern-Match.md §5 — developmental bootstrap (WHY self-chunks prerequisite)
-  → Pattern-Resonance.md — emergent mutual phenomenon (retrospective calibration)
+  → By-Product-Gap-Resonance.md — emergent mutual phenomenon (retrospective calibration)
 
 EMPATHY REFERENCE:
   → Empathy.md v1.0 §1-§2 — redefine empathy + 3 mechanisms (USES this file's analysis)

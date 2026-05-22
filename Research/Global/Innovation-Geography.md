@@ -1152,7 +1152,7 @@ FRAMEWORK CONNECTIONS (updated 2026-05-11):
 
   BACKUP FILES (referenced for historical context only):
   Macro-Civilization.md → Research/Mismatch-Patterns/backup/ (civilization dynamics)
-  Chemical-Enhancement-Notes.md → Research/Hijack/backup/ (chemicals help PROCESS chunks)
+  Chemical-Enhancement-Notes.md → Research/Health-Conditions/Hijack/backup/ (chemicals help PROCESS chunks)
 
 RELATED SCHOLARS (for further research):
   Jane Jacobs, Jared Diamond, Matt Ridley, Paul Romer,

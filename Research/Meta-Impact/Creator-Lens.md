@@ -8,8 +8,8 @@
 
 ---
 
-> **Trạng thái:** v2.0 (rewrite v7.8)
-> **Ngày:** 2026-04-24
+> **Trạng thái:** v2.1 (tone refine)
+> **Ngày:** 2026-05-13
 > **Vị trí:** Research/Meta-Impact/ (meta-analysis)
 > **Liên kết:**
 >   Meta-Impact.md — impact predictions
@@ -70,7 +70,7 @@ Framework TRÔNG giống game architecture — vì creator NGHĨ theo game archi
   Save / Load                 ↔  Anchor-Schema — sync point cho hệ thống
   Difficulty Curve            ↔  Melody-Arc — dissonance → compile → melody upgrade
   Player Profile              ↔  Personal-Melody — emergent state toàn bộ chunk network
-  Multiplayer Sync            ↔  Pattern-Resonance — 2+ agents co-fire thành công
+  Multiplayer Sync            ↔  Resonance — 2+ agents co-fire thành công
   Damage / Healing            ↔  Valence propagation — per-entity + chain qua schema
 
 Đây KHÔNG phải coincidence ngẫu nhiên:
@@ -132,7 +132,7 @@ Framework TRÔNG giống game architecture — vì creator NGHĨ theo game archi
     = 1 câu hỏi "linh tinh" → 1 PRINCIPLE MỚI (serotonin = amplifier)
     = Principle này PREDICT pattern mà "serotonin = cause" không predict
 
-    TẠI SAO ACADEMIC RESEARCHER CÓ THỂ BỎ LỠ:
+    TẠI SAO CÂU HỎI NÀY KHÓ XUẤT HIỆN TRONG HỆ CHUYÊN NGÀNH:
       → OCD researcher: focus OFC-caudate circuit ở NGƯỜI
         → Cross-species data NẰM Ở domain KHÁC (animal behavior, veterinary)
         → Silo: OCD journal ≠ animal behavior journal
@@ -140,7 +140,7 @@ Framework TRÔNG giống game architecture — vì creator NGHĨ theo game archi
         → "Cause vs amplifier" = SYSTEMS question, không phải molecular
         → Không ai ĐẶT CÂU HỎI ở level NÀY vì methodology không fit
 
-    TẠI SAO GAME DEV CÓ THỂ THẤY:
+    TẠI SAO OBSERVATION-FIRST CÓ THỂ THẤY GÓC KHÁC:
       → Không bị silo → hỏi cross-domain tự do
       → "Player behavior" training: observe TRƯỚC, explain SAU
       → Systems thinking: "tại sao cùng mechanism, khác output?"
@@ -177,7 +177,7 @@ Framework TRÔNG giống game architecture — vì creator NGHĨ theo game archi
         "Serotonin ↓40%" = Marazziti 1999 — academic
         "SSRI relapse 80%" = meta-analyses — academic
       → Framework CHỈ LÀM 1 VIỆC: kết nối các research RIÊNG LẺ
-        thành pattern MỚI mà từng domain KHÔNG TỰ THẤY (vì silo)
+        thành pattern MỚI mà từng domain riêng lẻ khó thấy (vì scope khác nhau)
       → = Con gà hay quả trứng: academic tạo nodes → framework vẽ graph
         → graph gợi ý nodes MỚI cần research → academic verify → loop
       → = KHÔNG có bước nào "đi trước" — 2 approaches FEED nhau

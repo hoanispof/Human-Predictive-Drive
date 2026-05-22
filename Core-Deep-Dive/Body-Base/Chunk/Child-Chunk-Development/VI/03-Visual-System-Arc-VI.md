@@ -591,7 +591,7 @@ Ba điều:
 - Tiếp xúc đồng thời (khuôn mặt + giọng xảy ra cùng nhau trong quá trình cho ăn, nhiều lần lặp)
 - Binding chunk compile (cơ chế compile driven-repetition)
 
-🟡 **Ladder**: L2-L3 cho bind event, L3 cho smile output (Feel-Example phân loại là Pattern Resonance Stage 1).
+🟡 **Ladder**: L2-L3 cho bind event, L3 cho smile output (Feel-Example phân loại là Resonance Stage 1).
 
 ### §6.2 — Thị giác + interoceptive binding (mother recognition E15)
 

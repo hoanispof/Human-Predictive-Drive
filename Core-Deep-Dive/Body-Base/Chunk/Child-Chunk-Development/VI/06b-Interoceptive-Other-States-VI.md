@@ -620,7 +620,7 @@ Section này bao gồm emotional chunks **từ góc độ interoceptive**: cách
 **Ladder classification**: **L4 compound chunks** — self-emotional chunks được sử dụng như template cho social action.
 
 **Chunks state inference** 🟢:
-- **Có mặt**: own distress chunk (fired qua Pattern Resonance từ distress của mẹ — Martin & Clark 1982 cry contagion → Hoffman 2000 egocentric empathy stage)
+- **Có mặt**: own distress chunk (fired qua Resonance từ distress của mẹ — Martin & Clark 1982 cry contagion → Hoffman 2000 egocentric empathy stage)
 - **Có mặt**: own comfort template ("khi tôi distressed, gấu bông của tôi giúp tôi")
 - **Có mặt**: cross-agent application chunk (áp dụng own template cho người khác)
 - **Có mặt**: motor action chunks (lấy gấu bông, mang đến mẹ)
@@ -762,14 +762,14 @@ Tỷ lệ ~3-4 × phù hợp với dự đoán H11, nhất quán với overall H
 
 **Adult repair là có thể nhưng bounded**: Subsequent secure relationships (adult therapy, long-term partners, close friendships với consistent co-regulation) có thể cung cấp missing compile context. Research về "earned secure" attachment (🟡 Roisman et al. 2002) cho thấy rằng người lớn có thể move từ insecure infant classification sang secure adult functioning, nhưng earlier work được thực hiện với những cases Level 2-3 recoverable hơn. Level 4 recovery yêu cầu intervention dài hơn và intensive hơn nhiều.
 
-**Cross-reference**: [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §7 mở rộng emotional compile thành full social-emotional binding bao gồm Pattern Resonance mechanisms. 07 bao gồm social-perception side; 06b bao gồm interoceptive side. Cùng nhau chúng bao gồm full emotional compile arc.
+**Cross-reference**: [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §7 mở rộng emotional compile thành full social-emotional binding bao gồm Resonance mechanisms. 07 bao gồm social-perception side; 06b bao gồm interoceptive side. Cùng nhau chúng bao gồm full emotional compile arc.
 
 ### §5.9 — Emotional summary table
 
 | Stage | Tuổi | Sự kiện | Ladder | Chunks state |
 |---|---|---|---|---|
 | A | 0-3 tháng | E5 quiet alert (vắng mặt distress) | L0 | Không có positive chunks; seed window cho compile |
-| A' | Sơ sinh | Cry contagion (Martin & Clark 1982) | L0/L1 | Primitive Pattern Resonance; own distress fires |
+| A' | Sơ sinh | Cry contagion (Martin & Clark 1982) | L0/L1 | Primitive Resonance; own distress fires |
 | B | 3-5 tháng | E11 differentiated emotional expressions | L1 | Weak differentiation chunks |
 | B-social | 6-8 tuần | E12 social smile | L2 | Multi-modal binding (xem 07 §3.3) |
 | L2 social | 6-12 tháng | Still-face detection, social referencing | L2 | Caregiver-emotion reading chunks |
@@ -1050,7 +1050,7 @@ Tất cả 5 trạng thái cơ thể cho thấy receptive-productive asymmetry, 
 ### §9.2 — Các Chunk-Analysis folders khác
 
 - [Body-Feedback-Draft/01-Foundation.md §5.5.2](../Body-Feedback-Draft/01-Foundation.md#§5.5.2) — đau gradient song song với bladder gradient trong 06a §6.2
-- [Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md) — E26 egocentric empathy cross-reference (own template applied to other)
+- [Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) — E26 egocentric empathy cross-reference (own template applied to other)
 
 ### §9.3 — Body-Base framework
 
@@ -1132,7 +1132,7 @@ Tất cả 5 trạng thái cơ thể cho thấy receptive-productive asymmetry, 
 
 **Notable deferrals sang files sau**:
 - E12 social smile full Nút Thắt 3 drill → 07 §3.3
-- E26 Pattern Resonance mechanism → 07 §7 (cross-ref đến Agent sub-folder)
+- E26 Resonance mechanism → 07 §7 (cross-ref đến Agent sub-folder)
 - E21 verbal-handle full verdict → 08 §5
 - H11 full formalization → 08 §6
 - Verbal emotional labels (2-3 tuổi) → F3 language folder

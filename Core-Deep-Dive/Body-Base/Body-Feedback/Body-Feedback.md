@@ -1,27 +1,39 @@
 ---
 title: Body-Feedback — Synthesis of Body Signal Architecture
+version: 2.0
 created: 2026-04-15 (N+3, drill P0-P5)
 refined: 2026-04-20 (v1.1 — add Mechanism file, cleanup refs)
-status: SYNTHESIS v1.1
+rewritten: 2026-05-17 (v2.0 — folder rebuild complete, +3 files, Architecture B, updated reading guide)
+refined: 2026-05-17 (v2.0a — Why-Body-Knows v1.1 ref: 4-tier → 2-tầng calibration)
+previous: v2.0
+status: SYNTHESIS v2.0a
 scope: |
   Unified model of body signal generation (dissonance + reward + neutral).
-  Entry point for Body-Feedback/ folder.
-  Synthesizes 5 files into single reference.
+  Entry point for Body-Feedback/ folder (10 files, ~16,500L).
+  Synthesizes folder into single reference + reading guide.
+  v2.0: Folder expanded from 6→10 files.
+  +Gap-Direction v2.0, +Reward-Signal-Architecture v2.0, +Reward-Calibration v1.1.
+  +Architecture B framing (WHY body-feedback system this complex).
+  +Compiled/Fresh axis connection, +Inter-Body cross-refs.
 purpose: |
   WHY and HOW body generates affective signals.
   H10 5 preconditions for body signals.
   Chunk dynamics classification (4th axis).
   Unique contributions not absorbed elsewhere.
+  READING GUIDE for navigating 10-file, ~16,500L folder.
 parent: Body-Base/
 position: Body-Feedback/ (synthesis file, entry point for folder)
 dependencies: |
-  Body-Feedback-Mechanism.md (chunk dynamics: Shift/Miss/Gap — NEW v1.0)
+  Body-Feedback-Mechanism.md v2.0 (chunk dynamics, 2-source, Body-Need, compound)
+  Body-Feedback-Label.md v2.0 (vocabulary reference, 3-tier labels, ALL new terms)
+  Gap-Direction.md v2.0 (gap has direction, 2-layer, by-product match)
+  Reward-Signal-Architecture.md v2.0 (Type A/B, 5 Profiles, A Gates B, Architecture B)
+  Reward-Calibration.md v1.1 (Goldilocks per-gap, 6 mechanisms, dynamic equilibrium)
   01-Foundation.md (dual-pull, interface loop, body-feedback vs feeling)
   02-Dissonance.md (3 nguồn khó chịu, threat matrix, trauma loop, hedonic trap)
   03-Reward.md (VTA + opioid, H10 preconditions, ô tô paradox, Van Gogh)
   04-Integration.md (unified loop, case walkthroughs, H10 v3, recommendations)
-  Feeling-Mechanism-Deep.md (absorbed: 8-step flow, reward definitive)
-  Feeling-Chunk-Bridge.md (absorbed: bidirectional mapping)
+  Inter-Body-Mechanism.md v1.0 (Architecture B, Compiled/Fresh, domain arbiter)
 language: Tiếng Việt primary + English technical
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -29,14 +41,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 # Body-Feedback — Synthesis of Body Signal Architecture
 
 > **File này là ENTRY POINT** cho Body-Feedback/ folder.
-> 5 files: Mechanism (chunk dynamics) + 4 drill files (01→04, ~7,100L).
+> 10 files, ~16,500L: Mechanism + Architecture + Observation + Case Analyses.
 >
 > **Đọc file này TRƯỚC**. Đi sâu vào từng file nếu cần detail.
 >
 > **Core claims:**
 > 1. Body signal = function of 5 preconditions (H10) on interface loop
 > 2. Body-feedback arises from 2 input sources × 3 chunk dynamics
-> 3. Same event → different chunk dynamics → different subjective experience
+> 3. Reward has 2 types (A evaluative / B direct) × 5 profiles × interaction model
+> 4. Gap has DIRECTION — determines WHAT fills, not just WHETHER filled
+> 5. Architecture B (general-purpose reward) = WHY this complexity exists
 
 ---
 
@@ -45,7 +59,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §1 — Folder Overview + Reading Guide
 - §2 — Dual-Pull Architecture (unique contribution)
 - §3 — Interface Loop 6-Step (unique contribution)
-- §4 — ⭐ Chunk Dynamics Classification (NEW v1.1)
+- §4 — ⭐ Chunk Dynamics Classification (foundation)
 - §5 — 3 Nguồn Khó Chịu Thật (unique contribution)
 - §6 — H10 Body Signal Precondition Hypothesis (definitive)
 - §7 — Unique Case Analyses (not absorbed elsewhere)
@@ -57,53 +71,141 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §1 — Folder Overview + Reading Guide
 
-### §1.1 — Files in this folder
+### §1.1 — Files in this folder (v2.0 updated)
 
 ```
 Body-Feedback/
+│
 ├── Body-Feedback.md             ← THIS FILE (entry point, synthesis)
-├── Body-Feedback-Label.md       (605L) — ⭐ VOCABULARY REFERENCE (3-tier labels)
-├── Body-Feedback-Mechanism.md   (850L) — ⭐ chunk dynamics (NEW v1.0)
-├── 01-Foundation.md             (1,121L) — dual-pull, loop, architecture
-├── 02-Dissonance.md             (1,846L) — 3 nguồn, threat matrix, trauma, hedonic
-├── 03-Reward.md                 (2,261L) — VTA+opioid, H10, ô tô paradox, Van Gogh
-├── 04-Integration.md            (1,868L) — unified cycle, walkthroughs, H10 v3
-└── backup/
-    └── plan.md                  (743L) — historical planning artifact
+│
+├── ⭐ VOCABULARY + MECHANISM (read FIRST):
+│   ├── Body-Feedback-Label.md   (1,118L) — ⭐ VOCABULARY REFERENCE v2.0
+│   │     3-tier labels, ALL framework terms formalized
+│   └── Body-Feedback-Mechanism.md (1,519L) — ⭐ MECHANISM v2.0
+│         2-source model, Body-Need aggregate, 3 chunk dynamics, compound
+│
+├── ⭐ ARCHITECTURE (read SECOND — HOW reward signals work):
+│   ├── Gap-Direction.md         (2,681L) — ⭐ GAP DIRECTION v2.0
+│   │     Gap has direction = f(surrounding chunks), 2-layer model,
+│   │     by-product match, "chưa biết = không có gap"
+│   └── Reward-Signal-Architecture.md (1,986L) — ⭐ RSA v2.0
+│         Type A/B distinction, A₀→A₃ gradient, A Gates B,
+│         5 Reward Profiles, Temporal Stack, Architecture B connection
+│
+├── OBSERVATION (read THIRD — calibration + dynamics):
+│   └── Reward-Calibration.md    (1,356L) — OBSERVATION v1.1
+│         Goldilocks per-gap, 6 over-reward mechanisms,
+│         dynamic equilibrium, premature compilation
+│
+├── CASE ANALYSES (deep dive — original drill files):
+│   ├── 01-Foundation.md         (1,123L) — dual-pull, loop, architecture
+│   ├── 02-Dissonance.md         (1,846L) — 3 nguồn, threat, trauma, hedonic
+│   ├── 03-Reward.md             (2,280L) — VTA+opioid, H10, ô tô, Van Gogh
+│   └── 04-Integration.md        (1,856L) — unified cycle, walkthroughs, H10 v3
+│
+└── backup/                      (historical versions)
+
+FOLDER TOTAL: 10 content files, ~16,500L
 ```
 
-### §1.2 — Reading guide
+### §1.2 — Reading guide (3-tier navigation)
 
 ```
-ENTRY POINT: This file (Body-Feedback.md)
-  → Provides overview of ALL concepts + reading order
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  TIER 1: VOCABULARY + ENTRY (read ALWAYS — ~2,500L)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-LABEL CONVENTION (read second — VOCABULARY for entire framework):
-  Body-Feedback-Label.md ← ⭐ MUST-READ
-    → 3-tier label system (General → Direction → Specific)
-    → 100% framework vocabulary (prediction-delta, body-base reward, dissonance)
-    → Reward label = CẢ Type A VÀ Type B (không chỉ opioid)
-    → prediction-delta (detection) ≠ body-base reward (evaluation)
-    → Body-feedback (mechanism) ≠ Feeling (PFC observation)
-    → Quy tắc sử dụng: cụ thể nhất có thể, chung nhất nếu bắt buộc
+  ① This file (Body-Feedback.md) — overview, reading guide
+  ② Body-Feedback-Label.md v2.0 — ⭐ MUST-READ VOCABULARY
+     → 3-tier label system (General → Direction → Specific)
+     → 100% framework vocabulary formalized
+     → prediction-delta ≠ body-base reward (detection ≠ evaluation)
+     → Body-feedback (mechanism) ≠ Feeling (PFC observation)
+     → +v2.0: Entity-Compiled subtypes, Compiled/Fresh labels,
+       By-product match/anti-match, 2-Stream, 3-cost, 5-Channel
 
-CORE MECHANISM (read third):
-  Body-Feedback-Mechanism.md ← ⭐ NEW
-    → 2 input sources (Sensory-Driven / Pattern-Driven)
-    → 3 chunk dynamics (Chunk-Shift / Chunk-Miss / Chunk-Gap)
-    → Compound mechanism + Quality Baseline Shift
-    → 4th classification axis (orthogonal to direction/magnitude/source)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  TIER 2: MECHANISM + ARCHITECTURE (read for UNDERSTANDING — ~6,200L)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-DEEP DIVE (case analyses):
-  01-Foundation.md    — dual-pull principle, interface loop, body-feedback vs feeling
-  02-Dissonance.md    — 15+ case analyses, 3 nguồn khó chịu, trauma mechanism
-  03-Reward.md        — ô tô paradox 5 scenarios, Van Gogh gradient, C5 latency
-  04-Integration.md   — Einstein/hedonic/trauma end-to-end walkthroughs
+  ③ Body-Feedback-Mechanism.md v2.0 — HOW body creates signals
+     → 2 input sources (Sensory-Driven / Pattern-Driven)
+     → 3 chunk dynamics (Shift / Miss / Gap)
+     → Body-Need = 2-source aggregate (hardware + chunk dynamics)
+     → Compound mechanism + Quality Baseline Shift
+     → +v2.0: Body-Need 7 properties, 4 immediacy types
 
-ABSORBED ELSEWHERE (authoritative versions):
+  ④ Gap-Direction.md v2.0 — WHY signals are personal
+     → Gap direction = f(surrounding chunk network structure)
+     → "Chưa biết = không có gap" (trước cả P1)
+     → 2-layer model: L1 installation, L2 direction matching
+     → +v2.0: By-product match × gap direction, Compiled/Fresh ×
+       evaluation, Architecture B connection, 5-Channel × install
+
+  ⑤ Reward-Signal-Architecture.md v2.0 — WHAT kinds of reward
+     → Type A (evaluative, opioid) vs Type B (direct state, non-opioid)
+     → A₀→A₃ complexity gradient (compilation depth)
+     → A Gates B (insula gradient, 4 outcomes)
+     → 5 Reward Profiles ("hương vị" reward)
+     → Temporal Stack Model, Conditional Interaction Model
+     → Development lifecycle + Individual differences (5-Axis)
+     → +v2.0: Architecture B = WHY Type A possible,
+       Compiled/Fresh = A₀→A₃ mechanism, domain verification
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  TIER 3: OBSERVATION + CASES (read for DEPTH — ~7,500L)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ⑥ Reward-Calibration.md v1.1 — HOW MUCH reward is enough
+     → Goldilocks per-gap, per-person, per-context
+     → 6 over-reward mechanisms (threshold adapt, overjustification...)
+     → Premature compilation, collective calibration
+     → Dynamic equilibrium (CANNOT prescribe)
+
+  ⑦ 01-Foundation.md — dual-pull principle, interface loop
+  ⑧ 02-Dissonance.md — 15+ cases, 3 nguồn, trauma mechanism
+  ⑨ 03-Reward.md — ô tô paradox, Van Gogh gradient, C5 latency
+  ⑩ 04-Integration.md — Einstein/hedonic/trauma walkthroughs, H10 v3
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ABSORBED ELSEWHERE (authoritative versions in other files):
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
   → Feeling-Mechanism-Deep.md §4 — reward mechanism (dopamine ≠ reward)
   → Feeling-Mechanism-Deep.md §3 — 8-step operational flow
   → Feeling-Chunk-Bridge.md §2  — body vote feedback mechanisms
+```
+
+### §1.3 — Architecture B: WHY body-feedback system this complex
+
+```
+🟡 ARCHITECTURE B = TẠI SAO FOLDER NÀY CẦN 16,500 LINES:
+
+  Côn trùng (Architecture A):
+    Hardwired reward circuits: food→approach, pain→avoid.
+    Body-feedback system = SIMPLE (few signals, few dynamics).
+
+  Humans (Architecture B — Inter-Body-Mechanism.md §1):
+    ① General-Purpose Reward — fire cho BẤT KỲ gap fill đúng direction
+    ② Compilation — Hebbian: repeat + verify → automatic
+    ③ Social Hardware — oxytocin, μ-opioid, dACC reuse
+
+  → General-purpose = body CAN evaluate ANYTHING
+  → Compilation = evaluation grows increasingly complex (A₀→A₃)
+  → Social = body-feedback includes SOCIAL signals natively
+  → Trade-off: 15-20 năm compile → RICH signal architecture
+
+  CONSEQUENCE cho folder này:
+    BFM: 2 sources × 3 dynamics = WHY (general-purpose creates variety)
+    Gap-Direction: gap = personal = WHY (compiled differently per person)
+    RSA: Type A/B + 5 Profiles = WHAT (evaluation diversity)
+    Calibration: Goldilocks = HOW MUCH (personal, dynamic)
+    01-04: Cases = HOW body-feedback OPERATES in domain reality
+
+  Without Architecture B: folder = 2 files (pain/pleasure simple circuits).
+  WITH Architecture B: folder = 10 files, 16,500L (complex adaptive system).
+
+  Cross-ref: Inter-Body-Mechanism.md §1 (Architecture B full detail).
 ```
 
 ---
@@ -139,6 +241,11 @@ ABSORBED ELSEWHERE (authoritative versions):
   → Body signals (reward/dissonance) = READOUT of this tension
   → Reward fires khi 2 lực ALIGN ("passion" = body thích + domain cần)
   → Dissonance fires khi 2 lực CONFLICT
+
+  Compiled/Fresh connection (Inter-Body-Mechanism.md §3):
+  → Hardware pull = toward COMPILED (efficient, low cost)
+  → Domain pull = toward FRESH evaluation when reality shifts
+  → Dual-pull = Compiled/Fresh tension at SYSTEM level
 
 
 🟡 "MELODY HAY" 4 CRITERIA (Personal-Melody.md §5):
@@ -194,12 +301,17 @@ ABSORBED ELSEWHERE (authoritative versions):
   6-step = MACRO loop (organism ↔ environment)
   8-step = MICRO process (within body, per feeling episode)
 
+  Domain Reality = Final Arbiter (Inter-Body-Mechanism.md §1):
+  → Step 6 = WHERE domain confirms/rejects body's action
+  → Body compiles from Step 6 outcome (not from Step 4 intention)
+  → = WHY "thử đi" works: body learns from domain feedback, not PFC plan
+
   See: 01-Foundation.md §3 for full detail.
 ```
 
 ---
 
-## §4 — ⭐ Chunk Dynamics Classification (NEW v1.1)
+## §4 — ⭐ Chunk Dynamics Classification (foundation)
 
 ```
 ⭐ 4TH CLASSIFICATION AXIS — HOW CHUNKS FIRE TẠO RA SIGNAL:
@@ -208,9 +320,9 @@ ABSORBED ELSEWHERE (authoritative versions):
     Trục 1: Direction (reward/dissonance/neutral)
     Trục 2: Magnitude (14 levels)
     Trục 3: Source (6 nguồn bên ngoài)
-    Trục 4: CHUNK DYNAMICS ← NEW
+    Trục 4: CHUNK DYNAMICS ← core mechanism
 
-  2 NGUỒN ĐẦU VÀO:
+  2 NGUỒN ĐẦU VÀO (BFM v2.0 §2):
 
     ① SENSORY-DRIVEN: Domain → body-input → chunks fire reactive
        → Animals đầy đủ. No PFC needed. Timing: ms→seconds.
@@ -221,7 +333,7 @@ ABSORBED ELSEWHERE (authoritative versions):
        → Animals có (hippocampal replay). Humans rich hơn.
        → VD: nhớ lại, Imagine-Final preview, social comparison
 
-  3 CHUNK DYNAMICS:
+  3 CHUNK DYNAMICS (BFM v2.0 §3):
 
     ① CHUNK-SHIFT: cùng chunks, KHÁC valence (đánh giá thay đổi)
        → VD: phản bội → chunks người yêu vẫn đó, valence flip
@@ -231,7 +343,7 @@ ABSORBED ELSEWHERE (authoritative versions):
     ② CHUNK-MISS: pattern đã compiled KHÔNG FIRE (absent/degraded)
        → VD: TikTok quen → máy hỏng → bứt rứt
        → 3 variants: miss rõ / miss mờ / miss vô thức
-       → Mechanism: VTA negative prediction-delta (Schultz 1997: "prediction error")
+       → Mechanism: VTA negative prediction-delta (Schultz 1997)
        → 🟢 Successive Negative Contrast (Crespi 1942, Flaherty 1996)
 
     ③ CHUNK-GAP: pattern CHƯA CÓ nhưng network detect thiếu
@@ -239,6 +351,7 @@ ABSORBED ELSEWHERE (authoritative versions):
        → Foundation cho Novelty drive
        → Mechanism: ACC inconsistency detection
        → 🟢 Information gap theory (Loewenstein 1994)
+       → Gap-Direction.md v2.0: gap có DIRECTION = f(surrounding chunks)
 
   COMPOUND: 1 event → nhiều dynamics cùng lúc
     → Rơi 100k = Chunk-Miss (tiếc)
@@ -251,7 +364,13 @@ ABSORBED ELSEWHERE (authoritative versions):
     → Works in animals (no PFC needed)
     → Asymmetric: loss hurts ~2x gain (🟢 Kahneman & Tversky 1979)
 
-  See: Body-Feedback-Mechanism.md for full detail (850L, 28 research anchors).
+  BODY-NEED = 2-SOURCE AGGREGATE (BFM v2.0 §1):
+    → Body-need = hardware signals + chunk dynamics COMBINED
+    → 7 properties: dynamic, multi-source, not fully PFC-accessible,
+      partially compilable, has immediacy, can conflict internally, aggregate
+    → 4 immediacy types: Acute/Chronic/Background/Emergent
+
+  See: Body-Feedback-Mechanism.md v2.0 for full detail (1,519L).
 ```
 
 ---
@@ -325,8 +444,8 @@ ABSORBED ELSEWHERE (authoritative versions):
   │ 2 │ Chunks base adequate │ "Chả hiểu" / confusion   │ Đủ substrate decode  │
   │   │ (đủ substrate)       │                          │                      │
   ├───┼──────────────────────┼──────────────────────────┼──────────────────────┤
-  │ 3 │ prediction-delta threshold  │ "Bình thường" / "quen"   │ Biến động đủ lớn     │
-  │   │ (biến động đủ)       │                          │ cho VTA detect       │
+  │ 3 │ prediction-delta     │ "Bình thường" / "quen"   │ Biến động đủ lớn     │
+  │   │ threshold (biến động)│                          │ cho VTA detect       │
   ├───┼──────────────────────┼──────────────────────────┼──────────────────────┤
   │ 4 │ Goldilocks zone      │ Too alien: "lạ quá"      │ Match 40-70%         │
   │   │ (40-70% match)       │ Too familiar: "chán"     │ (not too/too)        │
@@ -338,7 +457,7 @@ ABSORBED ELSEWHERE (authoritative versions):
   ALL 5 REQUIRED for full signal.
   Missing ANY → signal absent or wrong direction.
 
-  ⭐ 2-LAYER INTERPRETATION (Gap-Direction.md §6):
+  ⭐ 2-LAYER INTERPRETATION (Gap-Direction.md v2.0 §6):
     H10 mô tả 2 LAYERS phân biệt:
       P2→P1 = Layer 2 prerequisites: gap direction phải TỒN TẠI
         (P2: đủ chunks để gap form, P1: gap direction active)
@@ -347,12 +466,14 @@ ABSORBED ELSEWHERE (authoritative versions):
         (P4: stimulus match gap shape? P5: tag compatible?)
     "Chưa biết = không có gap" = TRƯỚC cả P1:
       Không có chunks → gap chưa hình thành → desire chưa tồn tại
-    Chi tiết: Gap-Direction.md §6.3
+    Chi tiết: Gap-Direction.md v2.0 §6.3
 
-  NOTE: H10 preconditions also appear in Feeling-Mechanism-Deep.md §4.3
-  (definitive table). That file = AUTHORITATIVE for reward mechanism.
-  This file = AUTHORITATIVE for the full 5-precondition model including
-  dissonance application + case analyses.
+  ⭐ H10 × TYPE A/B (RSA v2.0 §1.3):
+    Type A: ALL 5 preconditions required (full evaluation)
+    Type B: P1 simplified, P2-P5 reduced/N/A (hardware pathways)
+    → Type B = RELIABLE always-available (not gated by chunks)
+    → Type A = RICH but CONDITIONAL on compilation
+    Chi tiết: Reward-Signal-Architecture.md v2.0 §1.3
 
 
 🟡 H10 PREDICTS:
@@ -366,6 +487,11 @@ ABSORBED ELSEWHERE (authoritative versions):
   → "Ghét toán" pattern (P5 violated: learned under threat)
   → Per-person reward (same object → different reward per chunks base)
 
+  NOTE: H10 preconditions also appear in Feeling-Mechanism-Deep.md §4.3
+  (definitive table). That file = AUTHORITATIVE for reward mechanism.
+  This file = AUTHORITATIVE for the full 5-precondition model including
+  dissonance application + case analyses.
+
   See: 03-Reward.md §3 + 04-Integration.md §9 for full detail.
 ```
 
@@ -373,7 +499,7 @@ ABSORBED ELSEWHERE (authoritative versions):
 
 ## §7 — Unique Case Analyses (not absorbed elsewhere)
 
-### §8.1 — Ô tô Paradox (5 scenarios — 03-Reward.md §5)
+### §7.1 — Ô tô Paradox (5 scenarios — 03-Reward.md §5)
 
 ```
 🟡 SAME GIFT → OPPOSITE REWARD based on different precondition states:
@@ -389,9 +515,10 @@ ABSORBED ELSEWHERE (authoritative versions):
   → Reward is NOT intrinsic to object
   → Reward = f(object, person's chunks, person's pending needs, person's history)
   → "Perfect gift" requires knowing the person (matching THEIR H10 state)
+  → Gap-Direction v2.0: gap direction = WHY same gift → different reward
 ```
 
-### §8.2 — Van Gogh Appreciation Gradient (03-Reward.md §6)
+### §7.2 — Van Gogh Appreciation Gradient (03-Reward.md §6)
 
 ```
 🟡 TRAINING GRADIENT — chunks base determines appreciation:
@@ -404,6 +531,7 @@ ABSORBED ELSEWHERE (authoritative versions):
   → Appreciation is TRAINABLE (not innate)
   → Chunks base growth → match ratio enters Goldilocks → reward emerges
   → "Everyone likes Van Gogh eventually" = passive chunks accumulation over 20 years
+  → RSA v2.0: A₀→A₃ gradient = WHY expert sees MORE (deeper compiled evaluation)
 ```
 
 ### §7.3 — Schema Update Latency — C5 Status Shift (03-Reward.md §8)
@@ -458,6 +586,11 @@ ABSORBED ELSEWHERE (authoritative versions):
   → = Easy task → minimal reward (P3 delta too small)
 
   Framework: Reward intensity = f(schemas_resolved × depth × duration_pending)
+
+  RSA v2.0 connection:
+  → = Relief (④) multiplier mechanism — prior cortisol × drop magnitude
+  → Long pending = large cortisol accumulation → large relief multiplier
+  → "Einstein days of ecstasy" = A₃ coherence + massive ④ relief compound
 ```
 
 ---
@@ -478,6 +611,7 @@ ABSORBED ELSEWHERE (authoritative versions):
     → PFC tries: re-narrate, plan avoidance, suppress, rationalize
     → None fully resolve (no external feedback confirms)
     → Core schema doesn't update (compiled too deep)
+    → PFC = Lawyer: creates narrative nhưng body KHÔNG tin (body ≠ PFC)
 
   Stage 3: SLEEP QUALITY DEGRADATION
     → Anticipation loop → cortisol elevated at night
@@ -528,12 +662,15 @@ ABSORBED ELSEWHERE (authoritative versions):
     → New baseline → Goldilocks zone moves UP
     → Previous reward = new neutral → need MORE for same reward
     → = P4 (Goldilocks) shifts → previously rewarding = "quen rồi"
+    → RSA v2.0: = primarily Type A phenomenon (VTA habituation)
+    → Type B RESISTANT — "hedonic floor" persists
 
   PREVENTION:
     → Maintain schema portfolio diversity
     → Not "only pursue one goal"
     → Balance domain pull with hardware maintenance
     → = Dual-pull balance (§2): both forces must be served
+    → Reward-Calibration.md: dynamic equilibrium (not fixed prescription)
 
   See: 02-Dissonance.md §9 for case B4.1 + B4.2 decomposition.
 ```
@@ -563,11 +700,18 @@ CONTENT ABSORBED BY FEELING DEEP (authoritative versions elsewhere):
   ┌──────────────────────────────┬──────────────────────────────────────┐
   │ Unique contribution          │ File + Section                       │
   ├──────────────────────────────┼──────────────────────────────────────┤
-  │ ⭐ Chunk dynamics (4th axis) │ Body-Feedback-Mechanism.md (NEW)     │
-  │ 2 input sources              │ Mechanism §2 (Sensory/Pattern-Driven)│
-  │ 3 chunk dynamics             │ Mechanism §3 (Shift/Miss/Gap)        │
-  │ Compound mechanism           │ Mechanism §4                         │
-  │ Quality Baseline Shift       │ Mechanism §5 (SNC research)          │
+  │ ⭐ Body-Need 2-source model  │ BFM v2.0 §1 (Body-Need aggregate)   │
+  │ ⭐ Chunk dynamics (4th axis) │ BFM v2.0 §2-§3 (Shift/Miss/Gap)    │
+  │ ⭐ Gap direction model       │ Gap-Direction v2.0 (2-layer, 22 ex) │
+  │ ⭐ Type A/B architecture     │ RSA v2.0 §1-§3 (A₀→A₃, A Gates B) │
+  │ ⭐ 5 Reward Profiles         │ RSA v2.0 §4 (5 "hương vị")         │
+  │ ⭐ Reward calibration        │ Reward-Calibration v1.1 (Goldilocks)│
+  │ 2 input sources              │ BFM v2.0 §2 (Sensory/Pattern-Driven)│
+  │ Compound mechanism           │ BFM v2.0 §4                         │
+  │ Quality Baseline Shift       │ BFM v2.0 §5 (SNC research)         │
+  │ Conditional Interaction Model│ RSA v2.0 §6 (4 variables)           │
+  │ 3 types State Dependence     │ RSA v2.0 §7 (Cabanac refined)      │
+  │ 5 Forces Holding Model       │ RSA v2.0 §10 (sustained creative)  │
   │ Dual-pull architecture       │ 01-Foundation §2                     │
   │ 6-step interface loop        │ 01-Foundation §3                     │
   │ "Melody hay" 4 criteria      │ 01-Foundation §2.5                   │
@@ -611,6 +755,10 @@ CONTENT ABSORBED BY FEELING DEEP (authoritative versions elsewhere):
   ✓ Reconsolidation window (Nader 2000)
   ✓ Hebbian learning (Hebb 1949)
   ✓ Sleep consolidation mechanisms (Walker 2017)
+  ✓ Type A opioid pathway (Berridge 2003, Mallik 2017)
+  ✓ Type B non-opioid (Loseth 2019, Fuss 2015)
+  ✓ Insula gradient (Craig 2002, 2013)
+  ✓ SNC — Successive Negative Contrast (Crespi 1942, Flaherty 1996)
 
 
 🟡 MEDIUM CONFIDENCE:
@@ -625,6 +773,9 @@ CONTENT ABSORBED BY FEELING DEEP (authoritative versions elsewhere):
   ⚠ Effort-proportional reward (consistent with Berridge, not directly tested)
   ⚠ "Melody hay" 4 criteria (logical framework, not empirical)
   ⚠ 6-step interface loop (each step established, formal model = synthesis)
+  ⚠ Architecture B = WHY folder complexity (framework organizing)
+  ⚠ Compiled/Fresh × Dual-Pull mapping (logical, not tested)
+  ⚠ Type A/B × H10 precondition mapping (framework synthesis)
 
 
 🔴 LOW CONFIDENCE:
@@ -639,14 +790,28 @@ CONTENT ABSORBED BY FEELING DEEP (authoritative versions elsewhere):
 ### §10.2 — Cross-references
 
 ```
-📚 WITHIN CHUNK-ANALYSIS:
+📚 WITHIN BODY-FEEDBACK/ FOLDER:
 
-  Chunk-Internal-Processing/
-    01b-Chunk-Activation-Dynamics  → activation, re-linking, trigger surface
-    01c-Chunk-Discovery-Lifecycle  → discovery cycle, convergence zone
-    02-Feeling-Intuition-Gradient  → H5, 6-point gradient
-  99-Master-Synthesis.md          → unified architecture
-  Learning-Cycle/Learning-Cycle.md → H8, 3 concurrent signals
+  Body-Feedback-Label.md v2.0    → vocabulary anchor (MUST-READ)
+  Body-Feedback-Mechanism.md v2.0 → 2-source, Body-Need, 3 dynamics
+  Gap-Direction.md v2.0          → gap direction, 2-layer, by-product match
+  Reward-Signal-Architecture.md v2.0 → Type A/B, 5 Profiles, A Gates B
+  Reward-Calibration.md v1.1     → Goldilocks per-gap, calibration
+  01-Foundation.md               → dual-pull, 6-step loop
+  02-Dissonance.md               → 3 nguồn, threat, trauma, hedonic trap
+  03-Reward.md                   → H10, ô tô paradox, Van Gogh gradient
+  04-Integration.md              → walkthroughs, H10 v3, recommendations
+
+
+📚 INTER-BODY DRILL (v2.0 connections):
+
+  Inter-Body-Mechanism.md v1.0   → Architecture B, 3 foundations,
+                                    Compiled/Fresh, 3-cost, domain arbiter
+  Body-Base.md v3.1              → entry point, L0-L1, Architecture B
+  Body-Coupling.md v2.0          → coupling mechanism, Entity-Compiled
+  SPM.md v3.0                    → F1/F2 = Compiled/Fresh, per-domain
+  By-Product-Gap-Resonance.md v1.0      → 2-Stream, by-product match
+  Valence-Propagation.md v2.0    → L1/L2, Entity-Compiled subtypes
 
 
 📚 FEELING/ FOLDER:
@@ -658,14 +823,15 @@ CONTENT ABSORBED BY FEELING DEEP (authoritative versions elsewhere):
 
 📚 OTHER FRAMEWORK FILES:
 
-  Cortisol-Baseline.md         → change-readiness redefine, 3 nguồn, chunk tag
-  Why-Body-Knows.md            → 4-tier calibration, Goldilocks zone
-  Personal-Melody.md           → Two-Axis Tension, melody hay criteria
-  Imagine-Final.md             → reference pattern, lifecycle 5 phases
-  Anchor-Schema.md             → 6-step flow, trust, 4 nguồn fill
+  Cortisol-Baseline.md v2.0      → change-readiness, 3 nguồn, chunk tag
+  Why-Body-Knows.md v1.1         → 2-tầng calibration, Goldilocks zone, Dual Check
+  Personal-Melody.md             → Two-Axis Tension, melody hay criteria
+  Imagine-Final.md               → reference pattern, lifecycle 5 phases
+  Anchor-Schema.md               → 6-step flow, trust, 4 nguồn fill
   Threat.md + Threat-Drive-Analysis.md → threat = dissonance + harm prediction
-  PFC/PFC-Hardware.md §7       → VTA 7-step detection loop
-  PFC/PFC-Hardware.md §6       → NE α2/α1 circuit breaker
+  PFC/PFC-Hardware.md §7         → VTA 7-step detection loop
+  PFC/PFC-Hardware.md §6         → NE α2/α1 circuit breaker
+  Ask-AI.md v3.1                 → Dual Check (body=QC, domain=arbiter)
 
 
 📚 KEY RESEARCH REFERENCES:
@@ -682,26 +848,46 @@ CONTENT ABSORBED BY FEELING DEEP (authoritative versions elsewhere):
   Melzack R. & Wall P. — gate control theory of pain
   Kuhn T. (1962) — paradigm shift resistance
   Clance P. & Imes S. (1978) — impostor syndrome
+  Craig A.D. (2002, 2013) — interoceptive insula gradient
+  Löken L. et al. (2009) — CT afferents
+  Fuss J. et al. (2015) — exercise eCB
+  Schultz W. (1997) — reward prediction error
+  Crespi L. (1942) — successive negative contrast
+  Kahneman D. & Tversky A. (1979) — loss aversion
+  Loewenstein G. (1994) — information gap theory
 ```
 
 ---
 
-> **END OF Body-Feedback.md v1.1**
+> **END OF Body-Feedback.md v2.0**
 >
-> **Summary:** Synthesis entry point for Body-Feedback/ folder:
->   §2: Dual-pull (hardware × domain) = architectural foundation
->   §3: 6-step interface loop (domain ↔ body ↔ schema ↔ action ↔ domain)
->   §4: ⭐ Chunk dynamics (NEW — 2 sources × 3 dynamics × compound)
+> **Summary:** Synthesis entry point for Body-Feedback/ folder (v2.0):
+>   §1: Folder overview — 10 files, ~16,500L, 3-tier reading guide
+>       +Architecture B framing (WHY system this complex)
+>   §2: Dual-pull (hardware × domain) + Compiled/Fresh connection
+>   §3: 6-step interface loop + domain reality = final arbiter
+>   §4: ⭐ Chunk dynamics (2 sources × 3 dynamics × compound) + Body-Need
 >   §5: 3 nguồn khó chịu thật (nociception, mismatch, recalibration)
->   §6: H10 5-precondition hypothesis (definitive)
->   §7: Unique case analyses (ô tô paradox, Van Gogh, C5 latency, mini dissonance)
->   §8: Trauma loop 4-stage + hedonic trap mechanism
->   §9: Absorbed content map (what moved to Feeling Deep)
->   §10: Honest assessment + cross-references
+>   §6: H10 5-precondition hypothesis + Type A/B × H10 connection
+>   §7: Unique cases (ô tô, Van Gogh, C5 latency, mini dissonance, effort)
+>   §8: Trauma loop 4-stage + hedonic trap + PFC=Lawyer note
+>   §9: Absorbed content map (updated with new folder files)
+>   §10: Honest assessment + cross-references (Phase 1-10 versions)
 >
-> **Folder total:** 6 files, ~9,050L (including this synthesis + Mechanism)
-> **Unique contributions:** chunk dynamics classification, dual-pull, 3 nguồn,
->   15+ case analyses, trauma loop, hedonic trap, schema maintenance cost,
->   effort-proportional reward, quality baseline shift (SNC research).
+> **v1.1 → v2.0 changes:**
+>   +§1.1 complete folder listing (3 files added: Gap-Direction, RSA, Calibration)
+>   +§1.2 3-tier reading guide (restructured for 10 files)
+>   +§1.3 Architecture B framing (WHY complexity exists)
+>   +§2 Compiled/Fresh × Dual-Pull connection
+>   +§3 Domain=arbiter note
+>   +§4 BFM v2.0 refs + Body-Need summary
+>   +§6 H10 × Type A/B connection (RSA v2.0)
+>   +§7 Gap-Direction + RSA connections in cases
+>   +§8.1 PFC=Lawyer note, §8.2 Type A habituation + Calibration ref
+>   +§9 expanded unique contributions table (6 new ⭐ entries)
+>   +§10.1 new 🟢 + 🟡 items (Type A/B, insula, SNC)
+>   +§10.2 full cross-ref update (Phase 1-10 versions, Inter-Body drill)
+>   ALL research citations preserved + expanded (12→19)
 >
-> **Phiên bản:** v1.1, 2026-04-20.
+> **Folder total:** 10 files, ~16,500L
+> **Phiên bản:** v2.0, 2026-05-17.

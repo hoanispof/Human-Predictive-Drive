@@ -274,7 +274,7 @@ Per plan §0.7:
 | Em1 | Emotional newborn states | 0-3 tháng | L0-L1 | Arousal + crude valence | — | Bridges 1932 | 🟢 |
 | Em2 | E11 differentiated emotional | 3-5 tháng | L1 | Distinct emotional expressions | Rep + contingency | Izard 1978 | 🟢 |
 | Em3 | E12 social smile (cross-ref S4) | 6-8 tuần | **L2** | Social + positive affect + face binding | Multi-mod + Peak + contingency | Wolff 1963 | 🟢 |
-| Em4 | E26 egocentric empathy | 18 tháng | **L4** | Other-distress + Pattern Resonance + comfort handle | Multi-mod + Social + self chunks | Hoffman 2000, Feel-Example E26 | 🟢 |
+| Em4 | E26 egocentric empathy | 18 tháng | **L4** | Other-distress + Resonance + comfort handle | Multi-mod + Social + self chunks | Hoffman 2000, Feel-Example E26 | 🟢 |
 | Em5 | Verbal emotional labels (post-F1) | 2-3 tuổi+ | L4 | Multi-layered: emotional + meta + vocabulary | Rep + contingency + abstract labeling | Bretherton & Beeghly 1982 | 🟡 |
 
 **Arc notes**:
@@ -289,7 +289,7 @@ Per plan §0.7:
 |---|---|---|---|---|---|---|---|
 | S1 | Hardware: multisensory + DMN + amygdala | — | (substrate) | — | — (hardware) | Meredith & Stein 1983, Doria 2010 | 🟢 |
 | S2 | CONSPEC + Farroni direct gaze | 2-5 ngày | L2 | (= V2) | Rep + Multi-mod | Farroni 2002 | 🟢 |
-| S3 | E9 cry contagion ⭐ | ngày 1 | L1 | Own-cry pattern + Pattern Resonance proto | Rep (hours) + Peak | Sagi & Hoffman 1976, Dondi 1999 | 🟢 |
+| S3 | E9 cry contagion ⭐ | ngày 1 | L1 | Own-cry pattern + Resonance proto | Rep (hours) + Peak | Sagi & Hoffman 1976, Dondi 1999 | 🟢 |
 | S4 | E12 social smile ⭐ keystone | 6-8 tuần | **L2** | Multi-modal face + voice + warmth + positive affect | Multi-mod (4-mech) + Peak | Wolff 1963 | 🟢 |
 | S5 | E13 smile contagion | 4 tháng | L2 | Stable own-smile + other-smile recognition + bind | Multi-mod + Peak | Haviland & Lelwica 1987 | 🟢 |
 | S6 | E15 mother recognition (= V4) | 5 tháng | L3 | Face individuation + identity + affective bind | Rep + Multi-mod + Peak | Bushnell 2001 | 🟢 |
@@ -304,7 +304,7 @@ Per plan §0.7:
 | S15 | Proto-imperative pointing (= M8) | 9-10 tháng | L3 | Social + motor + imperative intent | Rep + Social | Bates 1979 | 🟢 |
 | S16 | Proto-declarative pointing (= M9) | 12-14 tháng | L4 | Joint attention + showing intent | Multi-mod + Social | Liszkowski 2004 | 🟢 |
 | S17 | E29 delayed imitation (= M12) | 14-16 tháng | L4 | Memory + social + motor planning | Sleep + Rep | Meltzoff 1988 | 🟢 |
-| S18 | E26 egocentric empathy (= Em4) | 18 tháng | L4 | Other-distress + Pattern Resonance + own comfort template | Multi-mod + Self chunks | Hoffman 2000 | 🟢 |
+| S18 | E26 egocentric empathy (= Em4) | 18 tháng | L4 | Other-distress + Resonance + own comfort template | Multi-mod + Self chunks | Hoffman 2000 | 🟢 |
 | S19 | E31 "không" autonomy (= Ve13) | 18-24 tháng | L4 | Self-as-agent + negation + verbal assertion | Self chunks + Social + Rep | Erikson 1963, Feel-Example E31 | 🟢 |
 
 **Home**: Tất cả rows → [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md).
@@ -716,7 +716,7 @@ Tổng hợp từ các arc files. Hoàn thiện trong [10-F1-Synthesis.md](10-F1
 
 - **R-F1-7** (expanded N+4c2-REV1): Update [Body-Base/Body-Parenting-Optimization.md](../../Body-Base/Body-Parenting-Optimization.md) với refined NT7 framework — novelty vs threat cortisol direction, 4-threshold gradient (nhẹ/vừa/nặng/cực đoan), 3 mechanism × 3 origin taxonomy, imposed-parent dual-source damage, neural wear dimension (ACE), 3 update paths cho chunks đã bị damage, "cortisol is not the enemy" public-health framing. Apply qua 5 body states (bladder, hunger, pain, thermal, emotional attachment). Scope substantially lớn hơn earlier draft. Xem [10 §5.7](10-F1-Synthesis.md#§5.7) cho full integration content.
 
-- **R-F1-8**: Cross-reference [Agent/](../Agent/) sub-folder files (Pattern-Resonance, Self-Pattern-Match) với F1 developmental evidence cho E9/E10/E12/E26/E31 cross-arc events. Particularly Pattern-Resonance framework anchors trong E9+E10+E12 (từ [07 §7](07-Social-Recognition-Arc.md#§7)).
+- **R-F1-8**: Cross-reference [Agent/](../Agent/) sub-folder files (Resonance, Self-Pattern-Match) với F1 developmental evidence cho E9/E10/E12/E26/E31 cross-arc events. Particularly Resonance framework anchors trong E9+E10+E12 (từ [07 §7](07-Social-Recognition-Arc.md#§7)).
 
 - **R-F1-9** (emerging): Update [Modality-Analysis.md](../../Modality-Analysis.md) với commitment rằng verbal KHÔNG PHẢI modality thứ 5 mà là distinct architectural layer (per [08 §5.4](08-Verbal-Production-Arc.md#§5.4) Nút Thắt 6 verdict).
 
@@ -754,7 +754,7 @@ Tổng hợp từ các arc files. Hoàn thiện trong [10-F1-Synthesis.md](10-F1
 ### §9.3 — Drilled sub-folders (cross-cut)
 
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) — H8 learning cycle (áp dụng cho tất cả L3-L4 events via error → correction → repetition)
-- [../Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md) — H9 Pattern Resonance (anchors E9/E10/E12/E26 social events)
+- [../Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) — H9 Resonance (anchors E9/E10/E12/E26 social events)
 - [../Agent/Self-Pattern-Match.md](../Agent/Self-Pattern-Match.md) — H9 Self-Pattern-Match (anchors E21-E31 self chunks)
 - [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) — H10 P2 mechanism (cross-link với 06a §6)
 

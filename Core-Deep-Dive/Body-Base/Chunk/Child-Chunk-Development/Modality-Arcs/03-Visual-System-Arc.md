@@ -572,7 +572,7 @@ Three things:
 - Co-occurrence exposure (face + voice happen together during feeding, many repetitions)
 - Binding chunk compile (repetition-driven compile mechanism)
 
-🟡 **Ladder**: L2-L3 for the bind event, L3 for the smile output (Feel-Example classification as Pattern Resonance Stage 1).
+🟡 **Ladder**: L2-L3 for the bind event, L3 for the smile output (Feel-Example classification as Resonance Stage 1).
 
 ### §6.2 — Visual + interoceptive binding (mother recognition E15)
 

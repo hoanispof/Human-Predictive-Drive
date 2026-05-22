@@ -1,9 +1,9 @@
 ---
 title: Meaning — Observation Parameter
-version: 2.0
+version: 2.1
 created: 2026-04-20
-updated: 2026-04-25
-status: OBSERVATION PARAMETER v2.0
+updated: 2026-05-17
+status: OBSERVATION PARAMETER v2.1
 scope: |
   OBSERVATION FILE: Meaning = named pattern khi quan sát trạng thái
   CÓ hoặc THIẾU life-level Anchor-Schema ổn định.
@@ -27,25 +27,33 @@ position: |
   Core-Deep-Dive/Observation/ — ngang hàng Novelty.md, Threat.md, Status.md,
   Connection.md, Drive.md, Boredom.md, Empathy.md, Protect.md, Gratitude.md.
   Tất cả = observation parameter deep-dives.
-dependencies:
-  - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
-  - Anchor-Schema.md — §0 phân biệt, §1 sync mechanism, §2 Trust, §3 4 nguồn fill
-  - Imagine-Final.md — 3-layer hierarchy, lifecycle 5 phases, reference pattern
-  - Boredom.md — Loại 3 TRỐNG = gateway tới meaning question
-  - Drive.md — PFC Mode 3 Spinning, Signal Strength Model
-  - Status.md §10.1 — "Thành công nhưng trống rỗng"
-  - Cortisol-Baseline.md v2.0 — inertia, burnout, direction gate
-  - Protect.md — identity protect (§3.4), existential crisis
-  - Gratitude.md — Q4: Meaning × Gratitude interaction
-  - Connection.md v3.0 — shared anchors, co-regulation
-  - Agent-Mechanism.md §12 — body-need feeder, SPM
-  - Collective-Purpose.md — cosmic loop, "sống có ý nghĩa" reframe
 sources_backup: |
   v1.0 (2026-04-20, 1,236L) → backup/Meaning-v1.0-backup.md
   v1.0 defined "schema coherence" — đúng nhưng mô tả output.
   v2.0 reframe: anchor-schema mechanism.
+  v2.1 KEY CHANGES (2026-05-17):
+    ⑪ +Architecture B alignment: meaning = emergent observation khi
+       general-purpose system compile life-level patterns đủ sâu
+    ⑫ +Domain=Arbiter: meaning CAN BE WRONG (cult deep meaning, wrong anchor)
+    ⑬ Version refs updated (Connection v4.0, Empathy v3.0, Boredom v1.1)
+    ⑭ +IBM v1.0, +BFL v2.0 cross-refs
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+dependencies:
+  - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
+  - Anchor-Schema.md — §0 phân biệt, §1 sync mechanism, §2 Trust, §3 4 nguồn fill
+  - Imagine-Final.md — 3-layer hierarchy, lifecycle 5 phases, reference pattern
+  - Boredom.md v1.1 — Loại 3 TRỐNG = gateway tới meaning question
+  - Drive.md v1.1 — PFC Mode 3 Spinning, Signal Strength Model
+  - Status.md v2.1 — "Thành công nhưng trống rỗng"
+  - Cortisol-Baseline.md v2.0 — inertia, burnout, direction gate
+  - Protect.md v1.1 — identity protect (§3.4), existential crisis
+  - Gratitude.md v2.0 — Q4: Meaning × Gratitude interaction
+  - Connection.md v4.0 — shared anchors, co-regulation
+  - Agent-Mechanism.md v2.0 §12 — body-need feeder, SPM
+  - Collective-Purpose.md — cosmic loop, "sống có ý nghĩa" reframe
+  - Inter-Body-Mechanism.md v1.0 — Architecture B §1.2
+  - Body-Feedback-Label.md v2.0 — vocabulary consistency
 ---
 
 # Meaning — Observation Parameter
@@ -184,6 +192,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → v2.0 nhìn ở dòng giữa (CÓ anchor hay KHÔNG)
     → = Cùng hiện tượng, v2.0 chỉ ra nguyên nhân sâu hơn
 
+  ⭐ ARCHITECTURE B — TẠI SAO "MEANING" TỒN TẠI (IBM §1.2):
+
+    Architecture A (côn trùng): hardwired stimulus→response.
+    KHÔNG CÓ "meaning question" — vì không compile life-level patterns,
+    không có Anchor-Schema, không có gap giữa "sống" và "sống VÌ GÌ."
+    Mỗi moment = stimulus → response → done. Không accumulate life narrative.
+
+    Architecture B (humans):
+    General-purpose system COMPILE patterns suốt đời →
+    chunks ACCUMULATE → tạo thành network PHỨC TẠP →
+    network cần ORGANIZATION POINT (anchor) để không fragmentary →
+    khi network ĐỦ LỚN mà THIẾU anchor → body detect "rời rạc" →
+    = "Meaning question" EMERGE.
+
+    → "Meaning" = ARCHITECTURE CONSEQUENCE:
+      Hệ thống compile suốt đời → cần life-level anchor →
+      có = coherent, thiếu = fragmentary
+    → CHỈ Architecture B organisms hỏi "sống để làm gì?"
+      (vì CHỈ chúng compile đủ sâu để CẦN life-level organization)
+    → Trẻ nhỏ không hỏi = chunk network chưa đủ lớn để CẦN life-level anchor
+
+    🟡 Architecture B framing = framework synthesis (IBM §1.2).
+
   GIÁ TRỊ CỦA TÊN GỌI:
     → Predict: có anchor ổn → resilient (Frankl evidence)
     → Communicate: "anh ấy đang mất meaning" = "anchor sụp/hết"
@@ -247,6 +278,40 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Goal hierarchy = established (Carver & Scheier 1998)
   🟢 Self-determination needs → meaning (Deci & Ryan 2000)
   🟢 "Know without knowing why" = implicit knowledge (Reber 1993)
+```
+
+### §1.1b — Domain=Arbiter: Meaning CAN BE WRONG (IBM §7)
+
+```
+⭐ "CÓ MEANING" ≠ "MEANING ĐÚNG" — DOMAIN = ARBITER DUY NHẤT:
+
+  PFC = LAWYER (IBM §7): PFC build narrative PHỤC VỤ body-need,
+  KHÔNG PHẢI neutral judge. Với meaning:
+    → PFC tạo anchor narrative CHO body calm → KHÔNG kiểm tra truth
+    → "Tôi sống vì X" → body accept → coherent → "có ý nghĩa"
+    → NHƯNG X có thể SAI, có hại, hoặc dựa trên false premise
+
+  VÍ DỤ MEANING SAI NHƯNG DEEP:
+    → Cult member: "Thầy là đấng cứu thế" = anchor CỰC MẠNH
+      → Body compiled deep (ritual + community + emotion)
+      → Coherent → "rất có ý nghĩa" → BUT domain reality: bị lợi dụng
+    → Kamikaze pilot: "chết cho Thiên Hoàng" = FAITH anchor compiled
+      → Meaning present → BUT domain: propaganda exploitation
+    → Ponzi schemer: "tôi đang giúp mọi người giàu" = ROLE anchor
+      → Meaning present → BUT domain: fraud
+
+  → "Meaning present" (§1.1) = observation: body CÓ anchor ổn
+  → "Meaning đúng" = DOMAIN evaluation: anchor có match reality không?
+  → 2 thứ KHÁC NHAU. Framework OBSERVE cả hai, KHÔNG gộp.
+
+  IMPLICATION:
+    → KHÔNG THỂ chỉ "find meaning" — phải check DOMAIN REALITY
+    → Self-help "find your purpose" thiếu bước này (§6)
+    → "Cảm thấy có ý nghĩa" ≠ "Sống có ý nghĩa" (Gazzaniga: PFC confabulate)
+    → = Tại sao deradicalization KHÓ: phá meaning = phá anchor = body resist
+
+  🟡 Domain=Arbiter for meaning = framework synthesis (IBM §7, LFB v2.0).
+  🟢 PFC confabulation = Gazzaniga split-brain studies.
 ```
 
 ### §1.2 — What Meaning Question IS
@@ -1599,7 +1664,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §10 — HONEST ASSESSMENT
 
 ```
-⭐ ĐÁNH GIÁ TRUNG THỰC — MEANING v2.0:
+⭐ ĐÁNH GIÁ TRUNG THỰC — MEANING v2.1:
 
   ┌──────────────────────────────────────────────────────────────────┐
   │  CLAIM                              │ CONFIDENCE │ STATUS       │
@@ -1623,6 +1688,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Self-help critique (prescribe 1 type)│ 🟡       │ Analysis     │
   │ 3 ways anchor thiếu (A/E/D)       │ 🟡         │ Framework    │
   │ MXH → premature meaning anxiety   │ 🟡         │ Observation  │
+  │ Architecture B → meaning emergent │ 🟡         │ Synthesis    │
+  │ Domain=Arbiter: meaning can be wrong│ 🟡        │ Synthesis    │
   │ Gratitude → anchor strengthening   │ 🔴         │ Hypothesis   │
   │ Brain optimization = computational │ 🔴         │ Analogy      │
   └─────────────────────────────────────┴────────────┴──────────────┘
@@ -1696,6 +1763,10 @@ CORE CONCEPT FILE:
   → Anchor-Schema.md — §0 phân biệt, §1 sync mechanism, §2 Trust + Strength + Cost,
     §3 4 nguồn fill → MEANING = life-level application of this concept
 
+DRILL SOURCE:
+  → Inter-Body-Mechanism.md v1.0 §1.2 — Architecture B (meaning = emergent from compilation depth)
+  → Inter-Body-Mechanism.md v1.0 §7 — PFC=Lawyer, Domain=Arbiter (meaning can be wrong)
+
 MECHANISM FILES:
   → Imagine-Final.md — 3-layer hierarchy, lifecycle 5 phases, reference pattern
     → 1 trong 4 nguồn fill anchor (nguồn ①)
@@ -1706,16 +1777,19 @@ MECHANISM FILES:
   → Agent-Mechanism.md §12 — body-need feeder, SPM, §12.6 grief
   → Somatic-Articulation-Loop.md — body-knowledge → explicit (anchor building tool)
 
+VOCABULARY:
+  → Body-Feedback-Label.md v2.0 — prediction-delta, terminology consistency
+
 OBSERVATION PARAMETER FILES (cùng folder):
-  → Boredom.md — Loại 3 TRỐNG = gateway tới meaning question
-  → Status.md §10.1 — "Thành công nhưng trống rỗng" = anchor exhausted
-  → Drive.md — PFC Mode 3 Spinning ≈ meaning territory; drive conflict
-  → Protect.md §3.4 — Identity protect blocks anchor change
-  → Novelty.md — Raw material supplier cho anchor building
-  → Connection.md v3.0 — Shared anchors, co-regulation, anchor building catalyst
-  → Gratitude.md §10 Q4 — Gratitude × meaning interaction (open)
-  → Empathy.md v2.0 — SPM in meaning context
-  → Threat.md — Mortality awareness trigger (Terror Management Theory)
+  → Boredom.md v1.1 — Loại 3 TRỐNG = gateway tới meaning question
+  → Status.md v2.1 — "Thành công nhưng trống rỗng" = anchor exhausted
+  → Drive.md v1.1 — PFC Mode 3 Spinning ≈ meaning territory; drive conflict
+  → Protect.md v1.1 — Identity protect blocks anchor change
+  → Novelty.md v1.1 — Raw material supplier cho anchor building
+  → Connection.md v4.0 — Shared anchors, co-regulation, anchor building catalyst
+  → Gratitude.md v2.0 §10 Q4 — Gratitude × meaning interaction (open)
+  → Empathy.md v3.0 — SPM in meaning context
+  → Threat.md v1.1 — Mortality awareness trigger (Terror Management Theory)
 
 PFC FILES:
   → PFC-Function.md — 24 functions, §2 HOLD, PFC as backup
@@ -1746,7 +1820,8 @@ KEY RESEARCH CITATIONS:
   → 🟢 Jaques 1965, Lachman 2004 — Midlife crisis documentation
 
 STATUS:
-  → v2.0 COMPLETE — rewrite từ v1.0 anchor-schema reframe (2026-04-25)
+  → v2.1 REFINE — từ v2.0 (2026-05-17). +Architecture B, +Domain=Arbiter.
+  → v2.0 rewrite từ v1.0 anchor-schema reframe (2026-04-25)
   → KEY CONTRIBUTIONS v2.0:
     ① "Meaning = life-level Anchor-Schema" (mechanism, not output)
     ② "Coherence = RESULT, not definition" (v1.0 described output)
@@ -1811,8 +1886,17 @@ CASES (§8): 10/10 KHỚP — từ 15yo → 75yo, Frankl, tôn giáo, Gen Z, CEO
 
 DIFFERENTIAL (§9): Meaning ≠ Boredom ≠ Burnout ≠ Depression — fix KHÁC
 
-FILE: ~1,700 lines | 11 sections + summary
-VERSION: v2.0 | 2026-04-25 (rewrite từ v1.0)
+FILE: ~1,770 lines | 11 sections + summary
+VERSION: v2.1 | 2026-05-17 (refine từ v2.0)
+
+v2.1 CHANGES (2026-05-17):
+  ⑪ +Architecture B: meaning = emergent observation khi general-purpose system
+     compile life-level patterns đủ sâu (Architecture A: không hỏi "sống vì gì?")
+  ⑫ +Domain=Arbiter §1.1b: meaning CAN BE WRONG (cult, propaganda, fraud)
+     → "cảm thấy có ý nghĩa" ≠ "sống có ý nghĩa" (PFC=Lawyer confabulate)
+  ⑬ Version refs updated (Connection v4.0, Empathy v3.0, Boredom v1.1, etc.)
+  ⑭ +IBM v1.0, +BFL v2.0 cross-refs
+  ⑮ Honest Assessment: +2 🟡 (Architecture B, Domain=Arbiter)
 ```
 
 ---

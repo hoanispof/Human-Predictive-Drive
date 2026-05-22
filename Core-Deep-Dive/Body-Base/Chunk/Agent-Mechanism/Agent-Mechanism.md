@@ -1,39 +1,91 @@
 ---
-title: Agent-Mechanism — Unified Mechanism File
+title: Agent-Mechanism — Integration Hub
+version: 2.1
 created: 2026-04-15
-renamed: 2026-04-24
-previous_name: Agent.md (in folder Agent/)
-session: Chunk-Analysis Phase A, Session N+2
-status: DRAFT v1.0 — main Agent mechanism file, comprehensive
+rewritten: 2026-05-17 (v2.0 — ALL REWRITE)
+updated: 2026-05-22 (v2.1 — REFINE: +Phase A+B+T+C integration, SPM rename, 11 sub-files)
+previous: v2.0 → backup/Agent-Mechanism-v2.0-backup.md
+status: v2.1 INTEGRATION HUB
 scope: |
-  AGENT MECHANISM = hệ thống não bộ xử lý agents.
-  Bao gồm: VTC detection trigger, Self-Pattern-Match (solo forward simulation),
-  Pattern-Resonance (emergent mutual phenomenon), schema override,
-  body-need feeding, developmental timeline, failure modes.
+  INTEGRATION HUB cho Agent Mechanism trong framework.
+  v2.1 KEY CHANGES (Phase C8 REFINE — integrate Phase A+B+T+C1-C7):
+    ① Simulation Engine context: SPM = Application 1 trên 1 Engine chung (SE v1.0)
+    ② Entity-Compiled.md v1.0: Hub-and-Spoke, 40→200h, Dunbar, Grief A+B+C
+    ③ Entity-Access.md v1.2: Mức 0-5 gradient (formal model cho §2)
+    ④ SPM v3.1 rename: Match → Modeling (abbreviation SPM giữ nguyên)
+    ⑤ BPGR v1.4: +Bond-Architecture, +Resonance-Sustainability, +By-Product-Scale, +RPE
+    ⑥ VP v3.0: Structural/Current, 3 Firing Modes, Hardware Subsidy, 3 Satiation Types
+    ⑦ PFC-Operations v1.0: Compiled Quality, PFC Budget, Pattern Shiftability
+    ⑧ Folder expansion: 3 files → 11 files (reading flow updated)
+    ⑨ All dependency versions updated to current
   PHÂN BIỆT: "Agent" (entity: bố, mẹ, bạn, Đức Mẹ) vs
   "Agent Mechanism" (function: detect + model + simulate + calibrate).
   File này mô tả FUNCTION, không phải entity.
-supersedes:
-  - Domain/backup/Object-Agent.md (binary hardware claim, moved to backup)
-  - Body-Base/Feeling/backup/Self-Pattern-Match.md (old inward definition)
-  - Body-Base/Feeling/backup/Pattern-Resonance.md (old solo simulator definition)
-  - Domain/Agent-2Axis-Analysis.md (draft, insights integrated here)
+  Integration hub: connect SPM v3.1 + BPGR v1.4 + EC v1.0 + EA v1.2 + body-need + schema + development.
+purpose: |
+  File NỀN TẢNG integration cho toàn bộ Agent-Mechanism/ folder:
+  ① Định nghĩa Agent concept (reject binary, accept unified gradient Mức 0-5)
+  ② Architecture B context: WHY agent mechanism exists
+  ③ Simulation Engine context: SPM = Application 1 trên shared engine
+  ④ 3-concept split (Self-Pattern / SPM / Resonance) + accurate previews
+  ⑤ Preview SPM v3.1 + BPGR v1.4 + EC v1.0 + EA v1.2 ở high level
+  ⑥ Gradient + schema override + collective + body-need feeder
+  ⑦ Failure modes + developmental timeline + predictions
+  Framework readers: START HERE → deep-dive sub-files.
+previous_version: backup/Agent-Mechanism-v2.0-backup.md
+parent: Core-Deep-Dive/Body-Base/Chunk/ (foundation file)
 supporting_files:
-  - Self-Pattern-Match.md (forward solo mechanism deep drill)
-  - Pattern-Resonance.md (emergent mutual phenomenon deep drill)
-note_on_rename: |
-  File này trước đây là Agent.md trong folder Agent/.
-  Đổi tên 2026-04-24 để PHÂN BIỆT RÕ:
-    "Agent" (ENTITY) = bất kỳ ai/gì mà brain fire SPM lên
-      (bố, mẹ, bạn, kẻ thù, Đức Mẹ, tượng thiêng, quốc gia...)
-    "Agent Mechanism" (FUNCTION) = hệ thống não xử lý agents
-      (VTC trigger → SPM fire → PR emerge → calibrate → feed body-need)
-  Nhiều file cũ reference "Agent.md §X" — vẫn đúng, file này là kế thừa.
+  - Self-Pattern-Modeling.md v3.1 (solo forward mechanism — renamed from Match)
+  - By-Product-Gap-Resonance.md v1.4 (emergent mutual phenomenon — trimmed)
+  - Entity-Compiled.md v1.0 (entity compilation mechanism — NEW Phase A3)
+  - Entity-Access.md v1.2 (entity-access gradient Mức 0-5 — NEW Phase A4)
+  - Entity-Access-Excess.md v1.0 (Mức 5 excess — TÁCH Phase T1)
+  - Entity-Access-Calibration.md v1.0 (calibration architecture — TÁCH Phase T2)
+  - Bond-Architecture.md v1.0 (4 bond types × 1 EC — TÁCH Phase T3)
+  - Resonance-Sustainability.md v1.0 (4-Layer model — TÁCH Phase T4)
+  - By-Product-Scale.md v1.0 (3 scales — TÁCH Phase T5)
+  - Resonance-Per-Entity.md v1.0 (per-entity profiles — MỚI Phase T7)
+dependencies:
+  core-mechanism:
+    - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, PFC=Lawyer, 3-cost, APPLICATION 1
+    - By-Product-Gap-Resonance.md v1.4 — 2-Stream, by-product match, anti-match
+    - Inter-Body-Mechanism.md v1.0 — 8 drill principles source-of-truth
+    - Body-Base.md v3.1 — 3 Hardware Foundations, Architecture B
+    - Body-Feedback-Mechanism.md v2.0 — 2-source model, Body-Need aggregate
+  pfc-engine:
+    - PFC-Operations.md v1.0 — Hold/Suppress, Compiled Quality, PFC Budget, B vs C
+    - Simulation-Engine.md v1.0 — 1 Engine × 3 Components × 3 Axes
+    - PFC-Label.md v1.0 — vocabulary standard
+  entity-mechanism:
+    - Entity-Compiled.md v1.0 — Hub-and-Spoke, 40→200h, Dunbar, Grief A+B+C, Decay
+    - Entity-Access.md v1.2 — Mức 0-5 gradient, 3-Factor, 4 Starting Modes
+    - Entity-Access-Excess.md v1.0 — Mức 5, 3 origins, SPM atrophy
+    - Entity-Access-Calibration.md v1.0 — 3-Layer, Exit Cost, Calibration Bias
+  resonance-bond:
+    - Bond-Architecture.md v1.0 — 4 bond types × 1 EC, M1-M4, gap clone IMPOSSIBLE
+    - Resonance-Sustainability.md v1.0 — 4-Layer, 3 conditions, 3 modalities, 4 silence
+    - By-Product-Scale.md v1.0 — 3 scales (pair/hub/institutional)
+    - Resonance-Per-Entity.md v1.0 — HW Subsidy spectrum, Phantom 4-factor
+  body-valence:
+    - Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, HW Subsidy
+    - Body-Coupling.md v3.0 — coupling mechanism, extension/entanglement/mixed
+    - Gap-Direction.md v2.0 — gap direction = f(surrounding chunks)
+    - Gap-Body-Need.md v1.0 — 3 Satiation Types, 5-Parameter, ENGINE/ROAD/VEHICLE
+  processing-observation:
+    - Feeling.md v3.0 — 7-layer fidelity, PFC observation interface, PFC=Lawyer
+    - Logic-Feeling.md v2.0 — Compiled/Fresh = trục thật, observer labels
+    - Neural-Processing-Flow.md v2.0 — hardware flow, Compiled/Fresh physical level
+  connection-application:
+    - Connection.md v5.0 — M1-M4, 4-Layer Sustainability, HW Subsidy, Phantom
+    - Empathy.md v4.0 — PFC budget, Compiled Quality, Burnout reframe, Per-entity
+    - Body-Feedback-Label.md v1.1 — vocabulary reference
+    - Cortisol-Baseline.md v2.1 — stress cascade, moral injury
+    - Reward-Signal-Architecture.md v2.0 — Type A/B, development trajectory
 language: Tiếng Việt primary + English technical terms
-confidence_target: HIGH for unified mechanism, MEDIUM for gradient thresholds, MEDIUM for schema-linked scale limits
+confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Agent-Mechanism — Unified Mechanism File
+# Agent-Mechanism — Integration Hub
 
 > ⚠️ **PHÂN BIỆT 2 KHÁI NIỆM "AGENT"**:
 >
@@ -42,111 +94,173 @@ confidence_target: HIGH for unified mechanism, MEDIUM for gradient thresholds, M
 > = "NGƯỜI/SINH VẬT/ENTITY được brain model" — tồn tại ngoài brain.
 >
 > **Agent Mechanism (FUNCTION)** = hệ thống não bộ XỬ LÝ agents.
-> VTC trigger → SPM fire → PR emerge → calibrate → feed body-need.
+> Detect → Evaluate → Extend SPM → Read outcome → Compile/Dissolve.
 > = "CHỨC NĂNG CỦA NÃO" — detect, model, simulate, calibrate agents.
 > **File này mô tả FUNCTION, không phải entity.**
 >
 > ---
 >
-> **File chính** cho Agent Mechanism trong framework. Thay thế binary Object-Agent classification cũ bằng unified model: Agent mechanism là **function operating on chunk substrate**, không phải separate storage category.
+> **TẠI SAO agent mechanism tồn tại?**
 >
-> **3 concepts phân biệt**: Self-Pattern (trạng thái), Self-Pattern-Match (cơ chế solo forward simulation), Pattern-Resonance (emergent mutual co-firing, retrospective only).
+> Architecture B: Evolution hardwire general-purpose reward + compilation + social hardware.
+> → Adapt bất kỳ environment, nhưng cần 15-20 năm compile.
+> → 15-20 năm đó = cần entity khác protect, feed, teach, calibrate.
+> → Social = ARCHITECTURE REQUIREMENT, không phải luxury.
+> → Agent mechanism = HOW body obtains social input that architecture DEMANDS.
 >
 > **Reading flow**:
-> `Chunk.md` (substrate) → `Agent-Mechanism.md` (file này, integration hub) → `Self-Pattern-Match.md` (solo mechanism detail) → `Pattern-Resonance.md` (mutual phenomenon detail)
->
-> **Note**: File này trước đây là `Agent.md` trong folder `Agent/`. Đổi tên 2026-04-24.
-> Các file khác reference "Agent.md §X" — vẫn đúng, đọc tại file này.
+> `Body-Base.md` (foundation) → `Agent-Mechanism.md` (file này, integration hub)
+> → `Self-Pattern-Modeling.md v3.0` (solo mechanism) → `By-Product-Gap-Resonance.md v1.0` (mutual phenomenon)
 
 ---
 
 ## Mục lục
 
-- §0 — Abstract + H9
-- §1 — Position trong framework
-- §2 — Reject binary Object-Agent (hardware claim refined)
-- §3 — 3-layer architecture (Object chunks + Logic + Modeling overlay + Schema override)
-- §4 — 3-concept split (Self-Pattern / Self-Pattern-Match / Pattern-Resonance)
-- §5 — Self-Pattern-Match high-level preview
-- §6 — Pattern-Resonance high-level preview
-- §7 — Quality axes (Pattern-Type / Depth / Similarity / Feedback)
-- §8 — Pattern-Type modalities
-- §9 — Gradient validation (person → animal → stone data)
+- §0 — Thesis + H9 (+v2.1: SE context, EA gradient, changes table)
+- §1 — Position trong framework (+v2.1: 11 files, 6 entry paths)
+- §2 — Reject binary Object-Agent (+v2.1: EA Mức 0-5 formal gradient)
+- §3 — Architecture (+v2.1: §3.3 Simulation Engine context)
+- §4 — 3-concept split (Self-Pattern / Self-Pattern-Modeling / Resonance)
+- §5 — Self-Pattern-Modeling preview (v3.1 + §5.7 Compiled Quality)
+- §6 — Resonance preview (BPGR v1.4 + §6.8-6.11 BA/RS/BS/RPE)
+- §7 — Quality axes (4 axes + Compiled/Fresh + v2.1 quality modifiers)
+- §8 — Pattern-Type modalities (5 types)
+- §9 — Gradient validation (18 cases, 2-stream + EA Mức annotated)
 - §10 — Schema override (Mode 1 / Mode 2)
 - §11 — Schema-Linked Agent Processing (individual → collective)
-- §12 — Agent as body-need feeder
-- §13 — Developmental timeline
-- §14 — Failure modes
+- §12 — Agent as body-need feeder (+v2.1: §12.7 Satiation, §12.8 ENGINE/ROAD/VEHICLE, §12.9 Phantom)
+- §13 — Developmental timeline (Architecture B → 15-20yr compilation)
+- §14 — Failure modes (11 modes: +v2.1: §14.10 EA-Excess, §14.11 Compiled Suppress)
 - §15 — Individual variation
-- §16 — H9 falsifiable predictions
-- §17 — Framework update recommendations
+- §16 — H9 falsifiable predictions (12 predictions)
+- §17 — Framework status (Phase A+B+T+C — 28-session plan)
 - §18 — Open questions
-- §19 — Honest assessment (🟢🟡🔴)
-- §20 — Cross-references
+- §19 — Honest assessment (24🟢 + 26🟡 + 7🔴)
+- §20 — Cross-references (30+ files, 45+ citations)
 
 ---
 
-## §0 — Abstract + H9
+## §0 — Thesis + H9
 
-### §0.1 — H9 Hypothesis (unified)
+### §0.1 — H9 Hypothesis (v2.0 unified)
 
-> **Agent-reading = Self-Pattern-Match mechanism**: PFC retrieve self chunks matching target entity, apply làm template, read output làm prediction về agent's state/behavior/desire. Mechanism **solo + forward**, chạy **2 functions song song**: F1 Feeling (body-level simulation) + F2 Logic (PFC chain prediction). Operates multi-modal (affective / somatic / visual-symbolic / verbal-cognitive / composite). Quality gradients theo 4 axes (Pattern-Type / Depth / Similarity / Feedback). **Per-Agent Valence** gates F1/F2 direction (empathy vs strategic vs dehumanize). **Context-dependent chunk selection** (vô thức tùy chọn chunks phù hợp agent + context). Threshold failure → fallback Layer 1+2 mechanical prediction. Schema override (Mode 1 / Mode 2) có thể replace entirely.
+> **Agent-reading = Self-Pattern-Modeling mechanism**: PFC retrieve self chunks matching
+> target entity, apply làm template, fire 2 functions song song:
+> F1 Compiled (body-level simulation, automatic, cost ≈ 0) +
+> F2 Fresh (PFC chain prediction, deliberate, costly).
 >
-> **Pattern-Resonance = emergent mutual phenomenon** khi 2+ agents' Self-Pattern-Match co-fire successfully. Retrospectively knowable only (via communication outcome feedback). Serves as calibration data cho Self-Pattern-Match library refinement.
+> **SPM = Application 1 trên Simulation Engine chung** (SE v1.0).
+> 1 Engine (Interoception × Constructive Simulation × Self/Other Model) ×
+> 3 Axes (Target × Time × Operation) → N applications.
+> SPM = coordinate (Other, Present, Simulate). Self-Observation, Imagine-Final = same engine.
 >
-> **Agent KHÔNG phải separate substrate hay hardware category**. Agent là **function running on chunk substrate** — supports H1 (chunk là substrate cross-cutting).
+> **Compiled/Fresh = trục thật** — "Feeling" và "Logic" chỉ là observer labels.
+> Einstein "cảm" toán vì toán đã COMPILED. Therapist mới "nghĩ" cảm xúc vì case còn FRESH.
+> Expert intuition = compiled (non-shareable), không phải bừa.
+>
+> Per-Agent Valence gates F1/F2 direction (empathy vs strategic vs dehumanize).
+> Context-dependent chunk selection (vô thức tùy chọn per agent + context).
+> **PFC = Lawyer not Judge** — narrative justifies body's pre-made valence decision.
+>
+> **Resonance = emergent mutual phenomenon** khi 2+ entities' interactions
+> produce sustained by-product match — mỗi bên fill gap CỦA MÌNH qua actions
+> mà output (by-product) match gap direction CỦA BÊN KIA.
+> **2-Stream Architecture**: Stream 1 (hardware/unidirectional, habituates) +
+> Stream 2 (SPM compiled mutual, deepens). SPM = powerful ENHANCER, NOT prerequisite.
+>
+> **Agent KHÔNG phải separate substrate hay hardware category**.
+> Agent là **function running on chunk substrate** — supports H1 (chunk = substrate).
+> **Entity-Access = continuous gradient** (Mức 0-5), KHÔNG phải binary Object-Agent.
 
-### §0.2 — Why matters
+### §0.2 — Architecture B context (WHY this mechanism exists)
 
-Framework trước có 3 tensions chưa resolved:
+```
+⭐ TẠI SAO brain cần Agent Mechanism?
 
-1. **Binary vs spectrum tension**: `Object-Agent.md` (old) claim hardware binary VTC classification, nhưng Agent-2Axis-Analysis + user's gradient data (hợp tính → dog → mouse → stone) suggest spectrum.
+  Architecture B = general-purpose reward + compilation + social hardware.
+  → Adapt BẤT KỲ environment (ưu: flexible)
+  → CẦN 15-20 năm compile (nhược: long childhood, dependent)
+  → = CẦN entity khác protect, feed, teach, calibrate trong 15-20 năm đó
 
-2. **Mirror confusion**: Framework rejected hardware mirror module (Theme E), nhưng lúng túng trong việc đặt tên cho mechanism thay thế. Pattern Resonance được dùng ambiguous cho cả solo simulator lẫn mutual phenomenon.
+  4 lý do Social = Architecture Requirement:
+  ① Survival math: 1 người không survive alone efficiently
+  ② Information source: brain cần external feedback để calibrate compilation
+  ③ Social hardware hardwired: oxytocin, μ-opioid, dACC reuse pain circuits
+  ④ Baseline state: social = DEFAULT (Coan & Sbarra 2015)
 
-3. **Agent function vs Agent category**: Existing files treat Agent như classification, nhưng user's gift-giving + mathematicians + music fans + mother-10-year examples show Agent-reading là dynamic function có thể fire ở varying intensities/modes trên cùng 1 target over time.
+  → Agent Mechanism = HOW body obtains social input mà architecture DEMANDS.
+  → Không có Agent Mechanism, Architecture B FAIL (cannot compile without others).
 
-File này resolves tất cả 3 tensions qua **unified model: Agent = function on chunk substrate, 3-concept split cleanly separates state / mechanism / emergent truth**.
+  🟢 Coan & Sbarra 2015: Social Baseline Theory
+  🟢 Eisenberger 2003: social-physical pain overlap (dACC)
+  🟢 Panksepp 1998: μ-opioid in social play
+```
 
-### §0.3 — Key rejections và acceptances
+### §0.3 — Key rejections và acceptances (v2.0 updated)
 
 **REJECTED**:
-- Binary hardware Object-Agent classification (VTC level) — too strong, contradicts gradient data
-- 2-layer split (affective empathy vs cognitive simulation) — conflates modality variation với mechanism duplication
-- Pattern-Resonance as solo simulator (Theme E old usage) — conflates solo mechanism với mutual phenomenon
-- Agent as separate storage substrate — contradicts H1 unified chunk layer
-- Hardware "mirror module" — already rejected (Theme E), confirmed here
+- Binary hardware Object-Agent classification (VTC level) — too strong, contradicts gradient
+- "F1 Feeling + F2 Logic" labels as mechanism description — observer labels, not mechanism
+- Resonance requires SPM from both sides — v3.1: by-product match sufficient
+- Agent as separate storage substrate — contradicts H1 unified chunk
+- Hardware "mirror module" — already rejected (Theme E)
+- PFC = neutral judge — PFC = Lawyer (Gazzaniga, Haidt 2001, Nisbett & Wilson 1977)
 
 **ACCEPTED**:
-- 🟢 Spelke core knowledge as innate **triggers** (biological motion, contingency, self-propelled), not innate categories
-- 🟢 VTC hardware binary detection as early filter, gets overridden by schema + learned model downstream
-- 🟢 Piaget animism as developmental phase showing uncalibrated Self-Pattern-Match projection
-- 🟢 Bird & Cook 2013 (alexithymia drives empathy deficit) as decisive evidence: poor self-reading → poor Self-Pattern-Match → poor Pattern-Resonance emergence
-- 🟢 Goldman simulation theory compatible với Self-Pattern-Match (self as template for other)
-- 🟡 Agent-2Axis 4 quadrants (Utility × Modeling Requirement) as useful descriptive frame
-- 🟡 Mode 1 / Mode 2 schema override for religious/abstract agents
-- 🟡 3+1 quality axes formalization (novel, needs validation)
+- 🟢 Spelke core knowledge as innate **triggers** (not categories)
+- 🟢 VTC hardware binary detection as early filter, overridden by schema + learned model
+- 🟢 Bird & Cook 2013: poor self-reading → poor SPM → poor Resonance
+- 🟢 Goldman simulation theory compatible với SPM
+- 🟢 Architecture B: general-purpose → social requirement → agent mechanism necessary
+- 🟢 Hub-and-Spoke neural architecture for person-model (Patterson 2007, 2017)
+- 🟢 Formation 40→200h (Hall 2018), schema acceleration (Tse 2007)
+- 🟢 Dunbar layers S1-S6 = Entity-Compiled depth gradient (Dunbar 1992-2024)
+- 🟡 Simulation Engine: 1 Engine × 3 Components × 3 Axes → N applications (SE v1.0)
+- 🟡 Entity-Access gradient Mức 0-5 (replaces binary Object-Agent — EA v1.2)
+- 🟡 Entity-Compiled: Hub-and-Spoke + 40→200h + Grief A+B+C (EC v1.0)
+- 🟡 Compiled Quality dimension: genuine/schema/threat (PFC-Ops v1.0)
+- 🟡 PFC Budget ~4±1 concurrent (PFC-Ops v1.0)
+- 🟡 Hardware Subsidy spectrum: MAX→NONE per entity type (RPE v1.0, VP v3.0)
+- 🟡 M1-M4 Resonance Decline (BA v1.0)
+- 🟡 4-Layer Sustainability model (RS v1.0)
+- 🟡 Phantom 4-factor model (RPE v1.0)
+- 🟡 2-Stream Architecture (Stream 1 habituates, Stream 2 deepens)
+- 🟡 3-cost model (PFC draft + Suppress + Uncertainty)
+- 🟡 PFC = Lawyer (Gazzaniga split-brain supports, Haidt confirms)
+- 🟡 By-product match as Resonance mechanism (broader than SPM co-fire)
+- 🟡 5-Channel Input Vector model
+- 🟡 Domain Reality = Final Arbiter (drill ⑧)
 
-### §0.4 — Scope preview
+### §0.4 — v2.0 changes từ v1.0
 
-**IN scope**:
-- Agent concept unified definition
-- 3-concept split (Self-Pattern / Self-Pattern-Match / Pattern-Resonance)
-- Multi-modal Self-Pattern-Match (5 pattern-types)
-- Gradient validation (person → dog → mouse → stone + religious)
-- Schema override (Mode 1 / Mode 2)
-- Schema-Linked Agent Processing (individual → collective)
-- Agent as body-need feeder
-- Developmental timeline
-- Failure modes + individual variation
-- Framework update recommendations
+| Aspect | v1.0 DRAFT | v2.0 |
+|---|---|---|
+| SPM definition | F1 Feeling + F2 Logic | F1 Compiled + F2 Fresh (labels ≠ mechanism) |
+| Resonance definition | SPM co-fire required | By-product match (SPM = enhancer, not required) |
+| Resonance architecture | Single quality spectrum | 2-Stream (hardware/unidirectional + SPM mutual) |
+| Cross-species Resonance | "Failed" case | Genuine Resonance (Stream 1 + Proto-Stream 2) |
+| Architecture B | Absent | Central framing (WHY mechanism exists) |
+| PFC role | Neutral processing | Lawyer (narrative bias, Gazzaniga) |
+| Cost model | Not formalized | 3 independent sources |
+| Verification | Not addressed | Domain Reality = Final Arbiter |
+| Supporting files | SPM v2.0, Resonance old | SPM v3.0, By-Product-Gap-Resonance v1.0 |
 
-**OUT of scope**:
-- Full deep drill của Collective-Agent (deferred to future file if needed)
-- Consciousness/qualia questions
-- Specific religious tradition comparative analysis
-- Neural correlate precise mapping
-- Executing framework updates (recommend only)
+### §0.5 — v2.1 changes từ v2.0
+
+| Aspect | v2.0 | v2.1 |
+|---|---|---|
+| SPM terminology | Self-Pattern-Match v3.0 | Self-Pattern-**Modeling** v3.1 (rename) |
+| Simulation Engine | Absent | SPM = Application 1 trên 1 Engine chung (SE v1.0) |
+| Entity-Compiled | Brief mention §12.2b | Full mechanism reference (EC v1.0: Hub-and-Spoke, Dunbar, Grief) |
+| Entity-Access | §2 reject binary (conceptual) | Mức 0-5 formal gradient (EA v1.2) |
+| Resonance sub-files | 1 file (BPGR v1.0) | 5 files (BPGR v1.4 + BA + RS + BS + RPE) |
+| PFC-Operations | 3-cost only | +Compiled Quality, +PFC Budget, +Pattern Shiftability |
+| Body-need model | 2-luồng only | +3 Satiation Types, +ENGINE/ROAD/VEHICLE, +Phantom |
+| Folder | 3 active files | 11 active files |
+| Dependencies | 16 flat list | 30+ organized 6 categories |
+| Connection ref | v4.0 | v5.0 (M1-M4, 4-Layer, Phantom integrated) |
+| Empathy ref | v2.2 | v4.0 (PFC budget, Compiled Quality, Per-entity) |
+| VP ref | v2.0 | v3.0 (Structural/Current, 3 Firing Modes, HW Subsidy) |
 
 ---
 
@@ -154,513 +268,464 @@ File này resolves tất cả 3 tensions qua **unified model: Agent = function o
 
 ### §1.1 — File này là ai
 
-`Agent.md` là **integration hub** cho khái niệm Agent trong framework. Nó không phải file deep-drill của một mechanism đơn lẻ, mà là file **định nghĩa + tổ chức + forward-pointer** đến các supporting files.
+`Agent-Mechanism.md` là **integration hub** cho khái niệm Agent trong framework. Không phải deep-drill của mechanism đơn lẻ, mà là file **định nghĩa + tổ chức + forward-pointer + context**.
 
 **Vai trò**:
-1. Định nghĩa Agent concept (reject old binary, accept unified)
-2. Giới thiệu 3-concept split
-3. Preview Self-Pattern-Match + Pattern-Resonance ở high level
-4. Cover gradient + schema override + collective gradient + body-need feeder
-5. Log framework update recommendations
-6. Cung cấp entry point cho readers
+1. Định nghĩa Agent concept (reject binary, accept unified gradient Mức 0-5)
+2. Architecture B context: WHY agent mechanism exists
+3. Simulation Engine context: SPM = Application 1 trên shared engine
+4. 3-concept split + accurate previews (SPM v3.1, BPGR v1.4, EC v1.0, EA v1.2)
+5. Gradient validation + schema override + collective + body-need feeder
+6. Developmental timeline + failure modes + predictions
+7. Entry point cho readers → 11 sub-files
 
 **Không phải**:
-- Không phải deep mechanism analysis (→ `Self-Pattern-Match.md`)
-- Không phải mutual phenomenon deep dive (→ `Pattern-Resonance.md`)
-- Không phải replacement của tất cả framework files (Logic-Feeling, Empathy-Mirror, Theme E vẫn standalone với cross-references)
+- Không phải deep SPM mechanism (→ `Self-Pattern-Modeling.md v3.1`)
+- Không phải mutual phenomenon deep-dive (→ `By-Product-Gap-Resonance.md v1.4`)
+- Không phải entity compilation deep-dive (→ `Entity-Compiled.md v1.0`)
+- Không phải entity-access gradient deep-dive (→ `Entity-Access.md v1.2`)
+- Không phải bond/sustainability/scale/per-entity deep-dive (→ respective sub-files)
+- Không phải inter-body mechanism (→ `Inter-Body-Mechanism.md v1.0`)
 
-### §1.2 — Files superseded
+### §1.2 — Reading flow (v2.1 — 11 sub-files)
 
-File này replaces các files/claims sau:
+**Standalone entry** (hiểu Agent concept):
+`Agent-Mechanism.md` (file này) → pick deep-dive as needed
+
+**Core mechanism deep-dive** (SPM + Resonance):
+`Self-Pattern-Modeling.md v3.1` (solo) → `By-Product-Gap-Resonance.md v1.4` (mutual)
+
+**Entity deep-dive** (compilation + access):
+`Entity-Compiled.md v1.0` (HOW entities compile) → `Entity-Access.md v1.2` (gradient Mức 0-5)
+→ `Entity-Access-Excess.md v1.0` (Mức 5) + `Entity-Access-Calibration.md v1.0` (calibration)
+
+**Bond + Sustainability deep-dive**:
+`Bond-Architecture.md v1.0` (4 types, M1-M4) → `Resonance-Sustainability.md v1.0` (4-Layer)
+→ `By-Product-Scale.md v1.0` (3 scales) → `Resonance-Per-Entity.md v1.0` (profiles + Phantom)
+
+**Architecture context** (WHY mechanism exists):
+`Inter-Body-Mechanism.md v1.0` §1 → `Agent-Mechanism.md` §0.2
+
+**Engine context** (shared substrate):
+`Simulation-Engine.md v1.0` → SPM = Application 1 trên 1 Engine chung
+
+**Body-need feeder**:
+`Agent-Mechanism.md` §12 → `Connection.md v5.0` → `Body-Coupling.md v3.0`
+
+### §1.3 — Files superseded
 
 | File cũ | Claim cũ | Reason replaced |
 |---|---|---|
-| `Domain/backup/Object-Agent.md` | Binary hardware VTC classification Object vs Agent | Contradicted by gradient data + Agent-2Axis reframe; replaced with unified chunk + overlay model (§2-§3) |
-| `Body-Base/Feeling/backup/Self-Pattern-Match.md` | Inward self-labeling mechanism (PFC observe own state via chunks) | Old definition conflicts với user's new forward-solo definition; old meaning absorbed into general Feeling Tier 2 (Theme A), new `Agent/Self-Pattern-Match.md` uses forward simulation meaning |
-| `Body-Base/Feeling/backup/Pattern-Resonance.md` | Solo simulator mechanism (self-library as simulator for other) | Old definition conflates solo mechanism với mutual phenomenon; new `Agent/Pattern-Resonance.md` reserves Pattern-Resonance cho emergent mutual only |
-| `Domain/Agent-2Axis-Analysis.md` (draft, insights captured) | 3-layer model + 4 quadrants + Mode 1/2 + modality bias | Insights integrated here với attribution; `Agent-2Axis-Analysis.md` retained as draft, can be backed up later by user |
+| `Domain/backup/Object-Agent.md` | Binary hardware VTC | Contradicted by gradient; unified model |
+| `Body-Base/Feeling/backup/Self-Pattern-Modeling.md` | Inward self-labeling | Conflicts với forward simulation |
+| `Body-Base/Feeling/backup/By-Product-Gap-Resonance.md` | Solo simulator | Conflates solo với mutual phenomenon |
+| `Domain/Agent-2Axis-Analysis.md` (draft) | 3-layer + 4 quadrants | Integrated here |
 
-**Note về old files**: Các file đã moved to backup (`backup/Object-Agent.md`, `backup/Self-Pattern-Match.md`, `backup/Pattern-Resonance.md`). Nội dung insights (esp. developmental stages, research citations, 4 cases) được integrate vào `Agent/` files mới với attribution.
+### §1.4 — Scope
 
-### §1.3 — Relationship với framework files khác (không modified)
+**IN scope**: Agent concept, 3-concept split, Simulation Engine context, previews (SPM v3.1 + BPGR v1.4 + EC v1.0 + EA v1.2), Architecture B, gradient Mức 0-5, schema override, Schema-Linked Processing, body-need feeder (3 Satiation Types, ENGINE/ROAD/VEHICLE), developmental timeline, failure modes (incl. EA-Excess, Compiled Suppress), individual variation, H9 predictions.
 
-Agent.md + supporting files **cross-reference** (không rewrite) các files sau:
-
-| File | Role in relation to Agent/ |
-|---|---|
-| `Schema/Chunk.md` | Upstream foundation — chunk substrate definition |
-| `Schema/Anchor-Schema.md` | §2 positive/negative trust dynamics, §3 nguồn ④ external inject |
-| `Core-Deep-Dive/Logic-Feeling.md` | §5 parallel processing, §6 modality bias, §7.1 5 sub-cases DANGER zone |
-| `Core-Deep-Dive/Empathy-Mirror.md` | §6.5 resource distribution evolutionary function, §8.5 mirror reward override |
-| `Core-Deep-Dive/Mirror-Empathy-Connection-Other/Mirror-Neuron-Analysis.md` | 3 mechanisms merged as mirror (Pattern Matching / Agent Modeling / Schema Simulation) |
-| `Body-Base/Feeling/Deep-Analysis-Draft/01-Theme-A-Architecture.md` | PFC observation interface Tier 2 |
-| `Body-Base/Feeling/Deep-Analysis-Draft/05-Theme-E-Empathy-Giving.md` | Current Pattern Resonance usage — marked for framework update (§17) |
-| `Body-Base/Feeling/Deep-Analysis-Draft/06-Theme-F-Logic-Feeling-Check.md` | §2.6 empathy reframe |
-| `Domain/Valence.md` | §1 context-dependent valence, schema interaction |
-| `Core-Deep-Dive/Modality-Analysis.md` | §7 development timeline + modality variation |
-| `Chunk-Analysis/Learning-Cycle/Learning-Cycle.md` | §3 cycle stages for chunk compilation (Self-Pattern-Match bootstrap) |
-| `Schema/Personal-Melody.md` | Hedonic baseline shifts after relationship compile |
-
-### §1.4 — Reading flow
-
-**Standalone entry** (reader muốn hiểu Agent concept):
-`Agent.md` full → optionally deep-dive `Self-Pattern-Match.md` + `Pattern-Resonance.md`
-
-**Mechanism reference** (framework writer cần cite mechanism):
-Direct to `Self-Pattern-Match.md` (for solo simulation details) hoặc `Pattern-Resonance.md` (for mutual phenomenon details)
-
-**Gradient/schema reference**:
-`Agent.md` §9-§11 cover gradient + schema override + collective
-
-**Body-need feeder reference**:
-`Agent.md` §12 → cross-reference `Empathy-Mirror.md` §6.5 + `Logic-Feeling.md` §7.1
-
-### §1.5 — Scope IN / OUT (detailed)
-
-**IN** (this sub-folder covers):
-- Agent concept formal unified definition
-- Rejection of binary hardware claim với reframe rationale
-- 3-layer architecture (integrated from Agent-2Axis)
-- 3-concept split (Self-Pattern / Self-Pattern-Match / Pattern-Resonance)
-- Self-Pattern-Match mechanism high-level (+ deep drill in sub-file)
-- Pattern-Resonance phenomenon high-level (+ deep drill in sub-file)
-- 4 quality axes
-- 5 pattern-type modalities
-- Gradient validation (8 cases from user data)
-- Mode 1 / Mode 2 schema override
-- Religious cases (Đức Mẹ, cow, stone, Bác Hồ, Đảng, bộ đội)
-- Schema-Linked Agent Processing (individual → group → collective → divine abstract)
-- Body-need feeder mechanism
-- Developmental timeline (self → mother → generalization → calibration)
-- Failure modes (parasocial, animism, dehumanization, uncanny valley, sympathy-without-resonance, mother-10-year suppression)
-- Individual variation (alexithymia, sociopathy, autism, high-empathy)
-- H9 falsifiable predictions (7-10 items)
-- Framework update recommendations
-
-**OUT** (defer):
-- Full Collective-Agent deep drill (defer to future file if scope expands)
-- Specific religious tradition comparative analysis (Hinduism vs Shintoism vs Catholic specifics)
-- Autism spectrum subtype taxonomy
-- Sociopathy dimensional vs categorical debate
-- Neural correlate precise mapping (mPFC vs TPJ vs STS activation specifics beyond reference)
-- Evolutionary origins of Self-Pattern-Match (defer to future evolutionary file)
-- Consciousness/qualia of agent simulation
-- Executing framework updates (Object-Agent.md rewrite, Theme E refinement, etc. — recommend only, user decides)
-- AI era implications beyond brief mention (defer to future AI literacy file)
+**OUT of scope**: Full Collective-Agent deep drill, consciousness/qualia, religious tradition comparative, neural correlate precise mapping, AI era implications beyond mention. Deep mechanisms → respective sub-files.
 
 ---
 
 ## §2 — Reject Binary Hardware Object-Agent
 
-### §2.1 — Old claim (Object-Agent.md binary position)
+### §2.1 — Old claim (Object-Agent.md)
 
 `Domain/backup/Object-Agent.md` committed strongly:
 
-> "Não classify MỌI THỨ trong domain vào 1 trong 2 loại này — hardware-level, binary, gần như instant — TRƯỚC khi xử lý thông tin."
->
-> "Hardware level (VTC): Object HOẶC Agent. KHÔNG có 'hơi agent'. Giống bit: 0 hoặc 1."
+> "Não classify MỌI THỨ vào 1 trong 2 loại — hardware-level, binary, instant."
 
 **Evidence old file cited**:
-- 🟢 Spelke Core Knowledge Systems (2007): innate Object representation (cohesion/continuity/contact) + Agent representation (self-propelled/goal-directed/contingent)
-- 🟢 VTC neuroimaging (eLife 2019): dedicated regions for animate vs inanimate
+- 🟢 Spelke Core Knowledge (2007): innate Object + Agent representation
+- 🟢 VTC neuroimaging (eLife 2019): dedicated regions animate vs inanimate
 - 🟢 Infant animate motion detection (9 months)
 - 🟢 Preferential face processing từ sơ sinh
-
-**Old file's concession**:
-> "Hardware binary + Schema overlay = perceived spectrum"
-
-→ Old file **already admitted** schema creates spectrum, but kept binary as the fundamental claim.
 
 ### §2.2 — Tại sao binary claim too strong
 
 **Problem 1 — Gradient data contradicts binary**:
-
-User's data (Session N+2 conversation):
 - Hợp tính → easy prediction
 - Khác tính → harder prediction
 - Chó cúp đuôi → sympathy fires but prediction weak
-- Mèo stress ambiguous → partial sympathy
-- Chuột → no simulation possible, fallback mechanical
-- Cục đá → pure physics, no simulation
-- Đức Mẹ mẫu ảnh → schema override Mode 1 (no prediction needed)
-- Cow/stone worship → schema override through divine abstraction
+- Chuột → no simulation, fallback mechanical
+- Cục đá → pure physics
+- Đức Mẹ mẫu ảnh → schema override Mode 1
 
-**Nếu binary**: mọi thứ phải là Object HOẶC Agent. Nhưng data show **continuous gradient** from high-quality simulation (family) đến low-quality (dog) đến no simulation (mouse) đến pure physics (stone) đến schema override (religious icons).
+Data show **continuous gradient** từ high-quality simulation (family) đến no-simulation (stone) đến schema-override (religious). Binary cannot accommodate.
 
-**Problem 2 — Mother-over-time example**:
-
-Same target (mẹ) — same hardware VTC classification (always "agent") — but Self-Pattern-Match quality changes over time:
-- Day 0 (mới): simulation active, Logic + Feeling both fire
-- Year 1 (familiar): simulation compiled, schema handles most cases, occasional re-modeling
-- Year 10 (suppressed by negative overlay): simulation actively blocked, Logic reduced to routine script
-
-Binary classification cannot explain this — cùng 1 target, classification không đổi, nhưng processing dynamic radically different.
+**Problem 2 — Same target changes over time**:
+Same mẹ — same VTC classification — nhưng SPM dynamic radically different:
+- Day 0: active learning, composite SPM
+- Year 1: compiled routine, efficient
+- Year 10: suppressed by negative overlay, routine script only
 
 **Problem 3 — Classification IS schema-mediated**:
+Bộ đội lạ → schema "Đảng/Bác Hồ" → positive valence, trust.
+Quân giặc lạ → schema "enemy" → hostility.
+Prediction template từ SCHEMA, không phải hardware classification.
 
-User's insight về collective-agent (tin Đảng/Bác Hồ/bộ đội): khi gặp 1 agent mới, valence + prediction template đến từ **schema đã gán vào**, không phải từ hardware classification. Bộ đội lạ → schema Đảng → valence yêu quý. Quân giặc lạ → schema enemy → valence hostility.
+**Problem 4 — Đức Mẹ Mode 1**:
+- VTC hardware: inanimate (image, no motion)
+- User experience: protective agent, full trust
+- Mechanism: schema override bypasses hardware entirely
+- Mode 1: ZERO modeling — pure schema trust
 
-→ "Classification" thực chất là **schema linking**, không phải hardware pre-processing.
+Binary fails: hardware says object, user treats as agent, with ZERO simulation.
 
-**Problem 4 — Schema Simulation (Đức Mẹ Mode 1) đặc biệt kỳ lạ**:
+### §2.3 — Refined position — VTC as TRIGGER, not CATEGORY
 
-Đức Mẹ mẫu ảnh:
-- Hardware VTC: inanimate object (small image, no self-propelled motion)
-- User experience: treated as protective agent with full trust
-- Mechanism: schema override bypasses hardware classification entirely
-- Mode 1: zero modeling — không simulate Đức Mẹ như agent có state; chỉ trust schema rule "luôn bảo vệ"
-
-→ Binary claim fails here: hardware says object, user treats as agent, but with ZERO simulation/modeling. Neither pure object nor typical agent.
-
-### §2.3 — Refined position — VTC hardware as TRIGGER, not CATEGORY
-
-**Proposed reframe** (🟡 refinement of old claim):
-
-> VTC hardware provides **innate detection triggers** (biological motion, self-propelled movement, face patterns, contingent response). These triggers **invoke** the Self-Pattern-Match function on detected entities — but không **define** whether entity "is" agent.
+> VTC hardware provides **innate detection triggers** (biological motion, face patterns,
+> self-propelled movement, contingent response). These triggers **invoke** SPM function —
+> nhưng không **define** entity identity.
 >
-> What entity IS = chunk substrate + schema linking + learned Self-Pattern-Match model. Binary hardware classification is **upstream trigger**, not downstream identity.
+> What entity IS = chunk substrate + schema linking + learned SPM model.
+> VTC = **upstream trigger**, not downstream identity.
 
 **Implications**:
+1. **Spelke Core Knowledge stays** — reframed: triggers + expectations, not categories
+2. **VTC regions stay explained** — efficient early filter for attention allocation
+3. **Animate/inanimate attention difference holds** — SPM can fire usefully on biologically relevant entities, but final quality depends on learned model
+4. **Hardware necessary but not sufficient** — VTC filters early, final = SPM on chunks + schema overlays
 
-1. **Spelke Core Knowledge** stays intact — research evidence rất mạnh, không bị rejected. Reframe: core knowledge = innate **triggers + early expectations**, không phải innate categories stored separately.
+### §2.4 — Unified reframe + Entity-Access Gradient Mức 0-5
 
-2. **VTC dedicated regions** stay explained — evolved to rapidly detect biologically relevant entities (faces, bodies, tools, places) for attention allocation. This is efficient early filter, but downstream processing (prediction, valence, interaction) uses **unified chunk substrate với function overlays**.
-
-3. **Animate vs inanimate attention difference** still holds — brain allocates more resources to biologically relevant entities because Self-Pattern-Match function can fire usefully on them. But which entities actually get modeled depends on learned schemas + chunk stock, not hardware classification alone.
-
-4. **Hardware binary is necessary but not sufficient** — VTC filters early, but final "agent reading quality" emerges from Self-Pattern-Match running on chunk substrate với schema overlays. Hardware is one input to mechanism, not determining output.
-
-### §2.4 — Unified reframe statement
-
-> **Object** = chunk (foundation layer). Every entity in domain is represented as chunks — from cục đá to bố mẹ to số 1 to sticker con hổ.
+> **Object** = chunk (foundation). Every entity represented as chunks.
+> **Agent** = **SPM function invoked on chunk**. Not separate category.
+> "Agent-ness" = FUNCTION OUTPUT, not STORAGE PROPERTY.
 >
-> **Agent** = **Self-Pattern-Match function invoked on chunk**. Not a separate storage category. The "agent-ness" of an entity is a FUNCTION OUTPUT (mechanism fires vs doesn't fire, with varying quality), not a STORAGE PROPERTY.
->
-> **Spectrum** emerges from: (a) Self-Pattern-Match quality (multi-axis gradient), (b) schema overlay linking (Mode 1/2 override), (c) VTC hardware trigger (innate early filter).
->
-> **No binary category**. Binary VTC trigger exists but is upstream of classification. Downstream processing is continuous + context-dependent.
+> **Spectrum** from: (a) SPM quality (multi-axis), (b) schema overlay, (c) VTC trigger.
+> **No binary category**. VTC = upstream. Downstream = continuous + context-dependent.
 
-This refined position matches Agent-2Axis reframe (3-layer model, §3 below), và supports H1 (chunk is substrate cross-cutting).
+**v2.1**: Entity-Access.md v1.2 formalizes gradient thành **Mức 0-5**:
 
-### §2.5 — What's preserved from old Object-Agent.md
+```
+⭐ ENTITY-ACCESS GRADIENT (EA v1.2 — formal model cho §2 rejection):
 
-Despite rejecting binary claim, nhiều insights từ old file vẫn valid và preserved:
+  Mức 0 — NO ACCESS: machine, service, tool-mode (SPM ≈ 0)
+  Mức 1 — SHALLOW AGENT: recognized but unlabeled (barista, hàng xóm)
+  Mức 2 — PARTIAL COMPILE: some F1, mostly F2 (đồng nghiệp, bạn mới)
+  Mức 3 — DEEP COMPILE: F1 dominant, B-dominant reward (bạn thân)
+  Mức 4 — ENTITY-OWNED: deep + hardware subsidy + low exit cost (mẹ→con, vợ/chồng)
+  Mức 5 — EXCESS: C-dominant, autonomy violated, SPM atrophy (→ EA-Excess.md)
+
+  3-FACTOR MODEL cho mỗi Mức:
+    F1 — Engine Mode: Tool ↔ Agent spectrum (HOW brain processes)
+    F2 — Gap-Need Profile: A+B+C+D sources (WHY need access)
+    F3 — Access Confidence: EC depth + stability + hardware subsidy (CAN access?)
+
+  KEY INSIGHTS:
+  → Mức 0-2 = UNLABELED by PFC (most entity-access exists without label)
+  → Entity-Owned = PFC LABEL at high compilation, NOT mechanism itself
+  → B-dominant = optimal destination for ALL starting modes
+  → Hardware Subsidy DURABLE but ≠ quality (mẹ max subsidy, có thể low quality)
+
+  Detail: Entity-Access.md v1.2 (full gradient model)
+         Entity-Access-Excess.md v1.0 (Mức 5 deep-dive)
+         Entity-Access-Calibration.md v1.0 (calibration architecture)
+```
+
+### §2.5 — What's preserved from old file
 
 | Old claim | Status | Where preserved |
 |---|---|---|
-| Spelke core knowledge evidence | 🟢 Preserved | §2.3 (reframed as triggers) |
-| VTC hardware binary detection | 🟢 Preserved | §2.3 (as early filter, not final classification) |
-| Infant animate motion discrimination | 🟢 Preserved | §13 developmental timeline |
-| Piaget animism | 🟢 Preserved | §13 + §14 (as uncalibrated Self-Pattern-Match) |
-| Meat Paradox (Loughnan, Bastian 2014) | 🟢 Preserved | §14 failure modes (schema suppression) |
-| Grossman On Killing | 🟢 Preserved | §14 failure modes (dehumanization) |
-| Uncanny Valley | 🟢 Preserved | §14 failure modes |
-| Schema override examples | 🟢 Preserved | §10 Mode 1/2 |
-| Agent as source of novelty | 🟢 Preserved | §13 + §14 |
-| Context-dependent classification | 🟢 Preserved | §11 Schema-Linked Agent Processing |
+| Spelke core knowledge | 🟢 Preserved | §2.3 (as triggers) |
+| VTC hardware detection | 🟢 Preserved | §2.3 (as early filter) |
+| Infant animate motion | 🟢 Preserved | §13 developmental |
+| Piaget animism | 🟢 Preserved | §13 + §14 (uncalibrated SPM) |
+| Meat Paradox (Loughnan 2014) | 🟢 Preserved | §14 failure modes |
+| Grossman On Killing | 🟢 Preserved | §14 dehumanization |
+| Uncanny Valley (Mori 1970) | 🟢 Preserved | §14 VTC-SPM conflict |
+| Context-dependent | 🟢 Preserved | §11 Schema-Linked |
 
-→ Reframe là **extend + refine**, không phải delete old research evidence. Binary claim was overstated, but supporting evidence stays valid when reframed.
+### §2.6 — Architecture B context
+
+Architecture B = general-purpose reward. Cần FLEXIBLE agent detection:
+
+```
+Architecture A (specific-reward):
+  → Fixed circuits: "face-like = agent, else = object"
+  → Works for STABLE environment. Cannot adapt novel entity types.
+
+Architecture B (general-purpose):
+  → General trigger + learned model overlay
+  → VTC provides QUICK trigger (innate)
+  → Schema + chunks provide FLEXIBLE determination (learned)
+  → Can model NEW entity types (AI, virtual agents, collective)
+
+→ Binary = Architecture A thinking applied to Architecture B brain.
+→ §2 rejection = ARCHITECTURAL CONSEQUENCE of general-purpose design.
+```
 
 ---
 
-## §3 — 3-layer Architecture (integrated from Agent-2Axis)
-
-Section này integrates 3-layer model từ `Agent-2Axis-Analysis.md` với attribution. Model này giải thích WHY binary Object-Agent fails + HOW unified processing works.
+## §3 — Architecture (chunk substrate + function overlay)
 
 ### §3.1 — Core architecture
 
 ```
-🟡 4-LAYER MODEL cho mọi entity trong domain:
+🟡 CHUNK-BASED MODEL cho mọi entity trong domain:
 
-  LAYER 1 — OBJECT CHUNKS (foundation, mọi entity có):
+  FOUNDATION — OBJECT CHUNKS (mọi entity có):
     → Physical + semantic properties: shape, size, location, modality imprint
     → Chunk substrate: Hebbian wiring từ repeated experience
-    → Can touch, see, hear (hoặc imagine nếu khuất/abstract)
     → = "What I perceive + define about entity"
-    → Mechanism: compiled via repetition + emotional peak + multi-modal + sleep (Chunk.md §2)
+    → Mechanism: compiled via repetition + emotional peak + multi-modal + sleep
 
-  LAYER 2 — LOGIC PROCESSING (rules-based prediction):
+  FUNCTION — LOGIC PROCESSING (rules-based prediction):
     → Uses object chunks + compiled rules → predict behavior
     → Works when: entity behavior deterministic theo known rules
-    → Sufficient for: most objects, routine schema entities, compiled relationships
-    → Mechanism: pattern matching in rule chunks (Logic-Feeling §5 Logic track)
+    → Sufficient for: most objects, routine interactions, compiled relationships
+    → v2.0: = COMPILED chunks firing in rule-pattern mode
 
-  LAYER 3 — MODELING OVERLAY (optional, adds khi needed):
-    → Self-Pattern-Match function invoked
-    → Content: self-template projected onto target, simulation run, output read
-    → Works by: "if I were in target's position, what would I feel/think/want?"
-    → Varies in depth: minimal (insect) → shallow (stranger) → deep (mẹ, bạn thân)
-    → This is the "Agent function" mechanism (H9)
+  FUNCTION — MODELING OVERLAY (SPM — optional, adds khi needed):
+    → Self-Pattern-Modeling function invoked
+    → "if I were in target's position, what would I feel/think/want?"
+    → Varies: minimal (insect) → shallow (stranger) → deep (mẹ, bạn thân)
+    → v2.0: = F1 Compiled (automatic body-sim) + F2 Fresh (deliberate PFC-draft)
 
-  LAYER 4 — SCHEMA OVERRIDE (can bypass or reshape):
-    → Community/cultural/personal schemas can override natural processing
+  OVERRIDE — SCHEMA (can bypass or reshape):
+    → Community/cultural/personal schemas override natural processing
     → Mode 1: pure schema trust (zero modeling) — Đức Mẹ luôn bảo vệ
     → Mode 2: imagined modeling overlay — mystical dialogue prayer
-    → Can add "agent-ness" to objects (religious icons, sacred stones)
-    → Can remove "agent-ness" from people (dehumanization)
-    → Mechanism: Anchor-Schema §3 source ④ external inject + compile
+    → Can ADD "agent-ness" to objects (religious icons, sacred stones)
+    → Can REMOVE "agent-ness" from people (dehumanization)
 ```
 
-### §3.2 — Parallelism across entities
+### §3.2 — Compiled/Fresh dimension (v2.0 addition)
 
-**Critical insight** (from Agent-2Axis §5 Logic+Modeling parallel):
-
-Không phải "logic cho object, modeling cho agent" như hình dung naive. Mà: **Logic + Modeling chạy SONG SONG cho MỌI entity**, chỉ khác **tỉ lệ mix**.
+v1.0 described architecture without addressing HOW processing quality varies. v2.0 adds:
 
 ```
-🟡 Mix ratio across entities (approximation):
+⭐ COMPILED/FRESH = TRỤC THẬT cho agent processing:
 
-  100% Logic, 0% Modeling:
-    → Cục đá, tường, bàn, ghế, tủ lạnh, cái bút
-    → Schema-defined entities (Đức Mẹ Mode 1)
-    → Simple tools với clear rules
+  COMPILED processing (F1):
+    → Chunks đã LTP-strengthened + myelinated (100m/s)
+    → Fires AUTOMATIC, cost ≈ 0
+    → Body-level simulation: FEEL target's state
+    → Expert intuition with agent (therapist "biết" client buồn)
+    → "Superhighway" — instant, effortless
 
-  95% Logic, 5% Modeling:
-    → Cây (minimal state: khỏe/héo)
-    → Côn trùng lạ
-    → Người lạ routine interaction
+  FRESH processing (F2):
+    → Novel unmyelinated paths (1m/s)
+    → PFC DRAFT prediction: deliberate, costly
+    → Chain reasoning about target's behavior
+    → Novice analysis (student "phân tích" patient symptoms)
+    → "Dirt road" — slow, effortful
 
-  70% Logic, 30% Modeling:
-    → Chó quen (routine + state tracking)
-    → Đồng nghiệp quen (role + some state)
-    → Schema agents Mode 2
+  SPECTRUM — không binary:
+    → Same person, different domains = different compiled/fresh ratio
+    → Với mẹ ở domain tình cảm = highly compiled
+    → Với mẹ ở domain đầu tư chứng khoán = mostly fresh
+    → Per-domain, per-agent, per-moment
 
-  50/50:
-    → Bạn thân mới quen
-    → Người yêu giai đoạn đầu
-
-  30% Logic, 70% Modeling:
-    → Bạn thân lâu năm
-    → Bố mẹ (compiled model dominant)
-
-  10% Logic, 90% Modeling:
-    → Con mới sinh
-    → Người mới phức tạp phải hiểu gấp
-    → Conflict resolution với người yêu
+  "Logic" vs "Feeling" = OBSERVER LABELS:
+    → Observer gọi F1 (compiled) là "feeling/intuition" vì automatic
+    → Observer gọi F2 (fresh) là "logic/analysis" vì deliberate
+    → Nhưng F1 có thể là toán (Einstein), F2 có thể là cảm xúc (therapist mới)
+    → Label theo CONTENT sai. Trục thật theo COMPILATION LEVEL.
 ```
 
-→ **Mix ratio là dynamic**, varies với target entity, context, task, và self's modality bias (Logic-Feeling §6).
+Cross-reference: Logic-Feeling.md v2.0 §1 (full treatment), Neural-Processing-Flow.md v2.0 §5.5 (physical level).
 
-### §3.3 — Examples across spectrum
+### §3.3 — Simulation Engine context (v2.1 addition)
+
+v2.0 described SPM as standalone mechanism. v2.1 adds: SPM = **Application 1** trên **1 Engine chung** (Simulation-Engine.md v1.0).
 
 ```
-Cục đá:          L1 + L2 (logic đủ) — 0% Layer 3
-Tủ lạnh:         L1 + L2 (tool, deterministic) — 0% Layer 3
-Cái bút:         L1 + L2 — 0% Layer 3
-Cây:             L1 + L2 + MINIMAL L3 (proto-state: khỏe/héo)
-Côn trùng lạ:    L1 + L2 + MINIMAL L3 (basic escape/eat)
-Chuột:           L1 + L2 (mechanical prediction works — hun khói → chạy, pho mát → bẫy), NO L3 (threshold fail)
-Chó quen:        L1 + L2 + PARTIAL L3 (state tracking, affective)
-Người lạ:        L1 + L2 + DEFAULT L3 (species overlap, mild)
-Đồng nghiệp:     L1 + L2 + MODERATE L3 (routine + role + some state)
-Bạn thân:        L1 + L2 + DEEP L3 (rich simulation)
-Mẹ ruột:         L1 + L2 + DEEPEST L3 (full self-template integration)
-Tượng Đức Mẹ:    L1 + L2 + SCHEMA OVERRIDE (Layer 4)
-                  Mode 1: 0% Layer 3 (pure schema trust)
-                  Mode 2: imagined Layer 3 (virtual agent simulation)
+⭐ SIMULATION ENGINE — 1 Engine, 3 Components, N Applications:
+
+  3 COMPONENTS (shared substrate):
+    C1 — Interoception (anterior insula): reads body signals → "MÀN HÌNH"
+    C2 — Constructive Simulation (DMN + hippocampus): recombine chunks → "CPU+RAM"
+    C3 — Self/Other Model (mPFC gradient): ventral=self+close, dorsal=far → "CONTROL PANEL"
+
+  3 AXES (application coordinates):
+    Target: Self ↔ Close Other ↔ Far Other (continuous gradient)
+    Time: Past ↔ Present ↔ Future (+ Counterfactual)
+    Operation: Observe ↔ Simulate ↔ Evaluate ↔ Construct
+
+  KEY APPLICATIONS (= coordinates in 3D space):
+    ① SPM         = (Other, Present, Simulate) ← file này focus
+    ② Self-Obs    = (Self, Present, Observe)
+    ③ Imagine-Final = (Self, Future, Simulate+Construct)
+    ④-⑫: memory recall, counterfactual, moral judgment, narrative, dream...
+
+  WHY THIS MATTERS FOR AGENT MECHANISM:
+  → SPM KHÔNG phải separate module — shared substrate với Self-Observation + Imagine-Final
+  → 🟢 Alexithymia PROOF: C1 broken → ALL applications degrade (Bird & Cook 2013)
+  → Training C1 (interoception) → improves SPM + Self-Obs + Imagine-Final simultaneously
+  → Entity-Access = neural migration: stranger → dorsal mPFC → close other → ventral mPFC
+  → mPFC gradient (C3) = neural substrate cho Entity-Access gradient Mức 0-5 (EA v1.2)
+
+  Detail: Simulation-Engine.md v1.0
 ```
 
-**Note về chuột**: Chuột là case đặc biệt validates Logic-Feeling parallel. Layer 3 fail (no self-template mapping), nhưng Layer 1+2 alone đủ cho successful behavior prediction. Experienced người bắt chuột biết pattern hành vi (dọc tường, mùi food, avoid light) → plan + bắt thành công. **Proves Self-Pattern-Match is OPTIONAL, không required cho behavior prediction**.
+### §3.4 — Parallelism across entities
 
-### §3.4 — Why entities need Layer 3 (4 reasons)
+Logic + Modeling chạy SONG SONG cho MỌI entity, chỉ khác **tỉ lệ compiled/fresh**:
 
-Từ Agent-2Axis §3, 4 lý do entity cần modeling overlay:
+```
+Compiled processing dominant (SPM near-zero):
+  → Cục đá, tường, bàn — schema + rules đủ
+  → Schema agents Mode 1 (Đức Mẹ) — schema trust
+  → Đồng nghiệp routine — compiled interaction script
 
-**REASON A — Unpredictable behavior**:
-- Behavior không theo rules simple
-- VD: mẹ thật (hôm nay vui/buồn/mệt varied)
-- Solution: build Self-Pattern-Match model via interaction
-- Result: compiled template → predict state → reduce uncertainty
+Mixed compiled + fresh:
+  → Bạn thân mới quen — some compiled, much fresh
+  → Chó quen — compiled routine + fresh state-tracking
 
-**REASON B — High-stakes interaction**:
-- Entity có thể impact body-base significantly
-- Kể cả predictable behavior vẫn worth modeling
-- VD: sếp (routine nhưng impact career worth model)
-- Solution: deeper tracking để optimize interaction
+Fresh processing dominant:
+  → Người mới phức tạp — PFC draft prediction active
+  → Conflict resolution — re-modeling required
+  → Con mới sinh — everything fresh, compiling rapidly
+```
 
-**REASON C — Social bond / agent input need**:
-- Body CẦN social presence → feel "connected"
-- Self-Pattern-Match firing = way để feel connection
-- VD: bạn thân — even routine, modeling feels good
-- Cross-reference: Feeling-Sources.md §5 Agent Input
+Mix ratio = **dynamic** (varies target, context, task, self's modality bias).
 
-**REASON D — Imagined presence**:
-- Entity không có real state → người imagine cho nó
-- VD: Đức Mẹ Mode 2, người đã mất, fictional character
-- Solution: PFC simulate virtual agent via Self-Pattern-Match
-- Benefit: social presence without real agent
-- Cost: no real feedback → no Pattern-Resonance calibration → distorted templates possible
+### §3.5 — Why entities need SPM (4 reasons + Architecture B)
 
-**NO MODELING NEEDED**:
-- Physics-deterministic (cục đá, bàn, tường)
-- Schema-defined absolute (Đức Mẹ Mode 1)
-- Routine-complete (đồng nghiệp gặp chào hỏi xong đi)
-- Mouse-like mechanical prediction
+```
+⭐ 4 lý do entity CẦN modeling overlay (từ Agent-2Axis + Architecture B):
 
-### §3.5 — 4 Quadrants (Utility × Modeling Requirement)
+REASON A — Unpredictable behavior:
+  Behavior không theo rules simple → cần build SPM model.
+  VD: mẹ thật (hôm nay vui/buồn/mệt varied).
 
-From Agent-2Axis §4:
+REASON B — High-stakes interaction:
+  Entity impact body-base significantly → worth modeling kể cả predictable.
+  VD: sếp (routine nhưng impact career).
+
+REASON C — Social architecture requirement:
+  Body CẦN social presence (Architecture B ③).
+  SPM firing = way để body obtain social input signal.
+  VD: bạn thân — even routine, modeling satisfies body-need.
+  Cross-ref: Inter-Body-Mechanism.md §1.3 (4 reasons social = requirement).
+
+REASON D — Imagined presence:
+  Entity không có real state → người imagine (schema provides substrate).
+  VD: Đức Mẹ Mode 2, người đã mất, fictional character.
+  Cost: no real feedback → no calibration → potential distortion.
+
+NO MODELING NEEDED:
+  → Physics-deterministic (cục đá, bàn)
+  → Schema-defined absolute (Đức Mẹ Mode 1)
+  → Routine-complete (đồng nghiệp chào hỏi xong đi)
+  → Below-threshold (chuột — mechanical prediction Layer 1+2 đủ)
+```
+
+### §3.6 — 4 Quadrants (Utility × Modeling Requirement)
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
-│                                                                │
 │  HIGH UTILITY × LOW MODELING  │  HIGH UTILITY × HIGH MODELING │
 │                                │                                │
 │  Schema agents:                │  Real relationships:           │
-│  • Đức Mẹ (Mode 1)             │  • Mẹ, bố ruột                 │
-│  • Thiên Chúa Mode 1           │  • Bạn thân                    │
-│  • Tượng thiêng                │  • Vợ/chồng                    │
-│  • Lucky charm                 │  • Con                         │
-│  • Tools đơn giản (tủ lạnh)    │  • Chó quen sâu sắc            │
-│                                │                                │
-│  = ROLE-BASED RELATIONS        │  = AGENT RELATIONSHIPS          │
-│  Schema + logic đủ              │  Need active Self-Pattern-Match │
-│  Low cognitive cost             │  High cognitive cost            │
-│                                │                                │
+│  • Đức Mẹ Mode 1              │  • Mẹ, bố ruột                 │
+│  • Tools (tủ lạnh)            │  • Bạn thân, vợ/chồng          │
+│  = COMPILED, EFFICIENT         │  = ACTIVE SPM, HIGH VALUE      │
 ├────────────────────────────────┼────────────────────────────────┤
-│                                │                                │
 │  LOW UTILITY × LOW MODELING    │  LOW UTILITY × HIGH MODELING   │
 │                                │                                │
-│  Background objects:           │  Obsessive fixation:            │
-│  • Cục đá random               │  • Crush không đáp lại          │
-│  • Tường, trần nhà             │  • Celebrity parasocial         │
-│  • Côn trùng thoáng qua        │  • Enemy ám ảnh                 │
-│  • Người lạ qua đường          │                                │
-│                                │  = HIGH cost, LOW payoff        │
-│  = BACKGROUND NOISE             │  Often unhealthy pattern        │
-│                                │                                │
+│  Background:                   │  Obsessive fixation:            │
+│  • Cục đá, tường              │  • Crush không đáp lại          │
+│  • Người lạ thoáng qua        │  • Celebrity parasocial         │
+│  = BACKGROUND NOISE             │  = HIGH COST, LOW PAYOFF       │
 └────────────────────────────────┴────────────────────────────────┘
 ```
 
-**Dynamic movement** between quadrants:
-- New relationship → Top-right (learning, high modeling)
-- Compiled routine → Top-left (schema takes over, efficient)
-- Crisis triggers re-modeling → Top-right again
-- Post-conflict → Bottom-left (background, disengaged)
-- Mother-10-year example: Top-right (year 0-1) → Top-right routine (year 1-5) → Bottom-right suppressed (year 10 + ghét overlay)
+**Dynamic movement**: New → Top-right (learning) → compiled → Top-left (efficient) → crisis → Top-right again. Mother-10-year: Top-right → routine → Bottom-right (suppressed).
 
-### §3.6 — Modality bias affects ratio
+### §3.7 — PFC = Lawyer in agent processing
 
-From Agent-2Axis §6 + Logic-Feeling §6:
+```
+⭐ PFC=LAWYER CAVEAT cho toàn bộ agent mechanism:
 
-Modality dominance của self ảnh hưởng mix ratio Logic/Modeling:
+  PFC KHÔNG neutral judge khi evaluate agents.
+  PFC = Lawyer: tạo NARRATIVE cho body's pre-made valence decision.
 
-**Verbal/visual dominant processing** → thiên về Logic side:
-- "He always does X, Y, Z — I can predict rules"
-- Rules-based prediction via compiled chunks
-- Stable patterns, lower modeling cost
-- Weakness: missed nuances in state changes
+  Mechanism:
+  ① Body evaluate agent qua compiled valence (fast, automatic)
+  ② Body ĐÃ "quyết định" valence TRƯỚC PFC biết
+  ③ PFC observe decision → construct narrative WHY
+  ④ Narrative feels like "rational judgment" — nhưng là POST-HOC justification
 
-**Somatic dominant processing** → thiên về Feeling/Modeling side:
-- "I feel something's off today about him"
-- State-based prediction via body signal + simulation
-- Catches state changes, higher sensitivity
-- Weakness: hard to articulate, slower to explain
+  Consequences for agent processing:
+  → "Tôi ghét người đó vì..." — reasons PFC constructs, not causes body uses
+  → "Tôi tin người đó vì..." — narrative justifies pre-made trust valence
+  → Parasocial: PFC constructs elaborate justification for attachment
+  → Dehumanization: PFC constructs "they deserve it" narrative
 
-**Practical implication**: Conflict giữa people với modality khác biệt → cả 2 "đúng" với mode của mình nhưng generate different predictions → misunderstanding. Not right/wrong — processing mode differs.
+  FIX = Domain Reality (drill ⑧):
+  → Neither compiled valence nor PFC narrative is final authority
+  → Domain OUTCOME (reality) = arbiter
+  → "Ghét" may be wrong if domain shows person helpful
+  → "Tin" may be wrong if domain shows person harmful
+  → Only real-world OUTCOMES calibrate agent valence accurately
 
-Sẽ detail thêm trong §8 Pattern-Type modalities.
+  🟢 Gazzaniga split-brain: left hemisphere confabulates reasons
+  🟢 Haidt 2001: moral judgments are post-hoc rationalizations
+  🟢 Nisbett & Wilson 1977: people cannot accurately report causal influence
+```
 
 ---
 
-## §4 — 3-concept split (Self-Pattern / Self-Pattern-Match / Pattern-Resonance)
+## §4 — 3-concept split (Self-Pattern / Self-Pattern-Modeling / Resonance)
 
-Đây là **key architectural decision** của file này. Distinction 3 concepts sharpens framework và resolves ambiguity trong Theme E.
+**Key architectural decision**. Distinction sharpens framework + resolves Theme E ambiguity.
 
 ### §4.1 — The 3 concepts table
 
-| Concept | Định nghĩa | Epistemic status | Temporal direction | Framework role |
+| Concept | Định nghĩa | Status | Direction | Role |
 |---|---|---|---|---|
-| **Self-Pattern** | Toàn bộ chunks của self đang activate/fire ngay lúc đó | **State** (direct access) | N/A (trạng thái tĩnh tại moment) | Raw material cho mọi mechanism |
-| **Self-Pattern-Match** | Cơ chế self select + apply chunks từ repertoire để analyze target agent — forward solo simulation | **Mechanism we run** (direct access) | **Forward** (prediction) | HOW I try to model target — solo cognitive machinery |
-| **Pattern-Resonance** | Sự giao thoa/đồng bộ thực sự giữa 2+ agents khi Self-Pattern-Match của cả 2 bên match được chính xác | **Emergent phenomenon** (retrospective access only) | **Backward** (reality inferred after the fact) | WHAT was actually true — feedback ground truth for calibration |
+| **Self-Pattern** | Chunks của self đang activate tại thời điểm đó | State (direct) | N/A | Raw material |
+| **Self-Pattern-Modeling** | Cơ chế self apply chunks → analyze target (solo forward) | Mechanism (direct) | Forward (prediction) | HOW I try to model |
+| **Resonance** | Sự giao thoa thực khi interactions produce mutual by-product match | Phenomenon (retrospective) | Backward (inferred) | WHAT was true |
 
-### §4.2 — Self-Pattern (state definition)
+### §4.2 — Self-Pattern (state)
 
-**Self-Pattern** = tập hợp chunks đang fire trong self ngay tại thời điểm đang xét.
+**Self-Pattern** = tập hợp chunks đang fire trong self tại thời điểm đang xét.
 
-**Properties**:
-- **Dynamic**: thay đổi liên tục theo activation của chunks
-- **Rich**: bao gồm emotional state + cognitive state + sensory state + memory activation + predictive processing + schema firing
-- **Directly accessible**: PFC observation interface (Theme A Tier 2) reads Self-Pattern as "feeling" / "thinking" / "sensing"
-- **Raw material**: là pool mà Self-Pattern-Match draws from
+- **Dynamic**: thay đổi liên tục theo activation
+- **Rich**: emotional + cognitive + sensory + memory + predictive + schema
+- **Directly accessible**: PFC observation interface reads as "feeling"/"thinking"
+- **Raw material**: pool mà SPM draws from
 
-**Example**:
-- Đang ăn kẹo thấy ngon: Self-Pattern = affective "ngon" + somatic "chewing" + visual "candy" + memory "similar experience" + anticipation "more"
-- Đang stuck ở problem toán: Self-Pattern = cognitive "problem state" + visual/symbolic "equation" + affective "mild frustration" + memory "related problems"
+### §4.3 — Self-Pattern-Modeling (mechanism — v3.1 definition)
 
-**Note**: Self-Pattern là "what I am firing right now", không phải "what I can fire". Chunks có thể fire hoặc không fire — chỉ khi active mới trong Self-Pattern.
+**Self-Pattern-Modeling** = cơ chế self select chunks → apply làm template → analyze/predict agent's state/behavior. Fire 2 functions song song. **Application 1** trên Simulation Engine chung (SE v1.0 — coordinate: Other × Present × Simulate).
 
-### §4.3 — Self-Pattern-Match (mechanism definition)
-
-**Self-Pattern-Match** = cơ chế self select chunks từ repertoire mà self cho rằng match với target agent, rồi apply các chunks đó làm template để analyze/predict agent's behavior/state/desire.
-
-**v2.0 KEY UPDATE** (Self-Pattern-Match.md v2.0, 2026-04-24):
-SPM chạy **2 functions song song**: F1 Feeling (body simulate target's state → body-level response THẬT) + F2 Logic (PFC chain predict target's behavior → action plan). Per-Agent Valence GATE quyết định F1 fire hướng nào (empathy vs reversed/Schadenfreude) và F2 chain mục đích nào (help vs strategic vs exploit). Context-dependent chunk selection = vô thức tùy chọn chunks phù hợp (với mẹ → ngoan, với bạn → thoải mái, với kẻ thù → cảnh giác). Chi tiết: Self-Pattern-Match.md §2-§4.
-
-**Mechanism steps** (high-level, detail in `Self-Pattern-Match.md`):
-
-1. **Retrieve**: PFC (hoặc unconscious pattern matching) select chunks từ self repertoire based on: (a) target cues detected, (b) task context (predict emotion? predict action?), (c) self modality bias
-2. **Template match**: Selected chunks positioned as self-template to be mapped onto target
-3. **Projection**: Self-template applied to target — "if my chunks were in target's position, they would fire X"
-4. **Simulation**: Template fires as if self were target — runs through predictive processing
-5. **Output read**: Self-affective/cognitive output of simulation is read by PFC as "prediction about target"
-6. **Attribution**: Output attributed to target ("they feel X", "they want Y")
+- **F1 Compiled**: body-level simulation (automatic, cost ≈ 0, Hebbian reinforced)
+- **F2 Fresh**: PFC draft prediction (deliberate, costly, mỗi lần = effort)
 
 **Key properties**:
-- **Solo**: one-way mechanism, runs inside self alone
+- **Solo**: one-way, runs inside self alone
 - **Forward**: produces prediction before verification
-- **Cognitive-direct**: self has direct access — "I can tell you what I'm predicting"
-- **Quality-variable**: depends on Pattern-Type / Depth / Similarity / Feedback (§7)
-- **Fallible**: prediction may be wrong — verification requires outcome feedback
+- **Compiled/Fresh spectrum**: same mechanism, different compilation level
+- **PFC = Lawyer**: narrative about WHY self predicts X = post-hoc (not the cause)
+- **3-cost when Fresh**: ①PFC draft metabolic + ②Suppress compiled if conflicts + ③Uncertainty cortisol holding
+- **Per-domain**: same person, different domain → different compiled/fresh ratio
+- **Context-dependent**: vô thức tùy chọn chunks per agent + context
+- **Per-Agent Valence gates direction**: empathy (positive) vs strategic (neutral) vs reversed (negative)
 
-**Example** (candy gift-giving):
-1. Retrieve: "ngon candy" chunks from own eating experience (affective + somatic)
-2. Template match: self-template "I find candy enjoyable" positioned
-3. Projection: applied to mother — "mẹ's chunks similar to mine would also fire ngon"
-4. Simulation: self-template fires as if mother eating candy
-5. Output read: "mẹ would feel ngon + happy"
-6. Attribution: "mẹ sẽ thích chiếc kẹo này"
+### §4.4 — Resonance (phenomenon — BPGR v1.4 definition)
 
-This is purely internal forward simulation — chưa có verification, chưa biết có đúng không.
+**Resonance** = emergent mutual phenomenon khi 2+ entities' interactions produce sustained by-product match — mỗi bên fill gap CỦA MÌNH → output match gap direction CỦA BÊN KIA.
 
-### §4.4 — Pattern-Resonance (emergent phenomenon definition)
+**KEY**: SPM = NOT prerequisite. SPM = powerful ENHANCER (creates Stream 2).
+**v2.1**: BPGR v1.4 trimmed → deep-dives tách thành Bond-Architecture v1.0, Resonance-Sustainability v1.0, By-Product-Scale v1.0, Resonance-Per-Entity v1.0. See §6 previews.
 
-**Pattern-Resonance** = sự giao thoa/đồng bộ thực sự giữa 2+ agents khi Self-Pattern-Match của cả 2 bên match được chính xác. Là **hiện tượng emergent**, không phải mechanism bất kỳ bên nào directly run.
+**2-Stream Architecture**:
+- **Stream 1** — Hardware/Unidirectional: mỗi bên receive reward INDEPENDENTLY từ other's existence/thuộc tính. Không cần engagement ngược. HABITUATES (Weber-Fechner).
+- **Stream 2** — SPM compiled mutual (bidirectional): CẦN cả 2 engage SPM toward nhau → feedback loop → 2 não ĐỒNG BỘ. ANTI-HABITUATION (Hebbian → stronger → deepest connection).
 
 **Key properties**:
-- **Mutual**: requires 2+ agents, co-firing matching patterns
-- **Ground truth**: reflects actual alignment, not just self's prediction
-- **Retrospective access only**: self **KHÔNG THỂ** know Pattern-Resonance real-time. Chỉ có thể infer sau via communication outcome
-- **Feedback source**: observations về Pattern-Resonance serve as **calibration data** to refine Self-Pattern-Match library
-- **Emergent**: không có mechanism dedicated runs Pattern-Resonance — nó xuất hiện khi conditions được met
-
-**How retrospective detection works**:
-
-Self observe communication outcome:
-- Conversation progressed/deepened → likely Pattern-Resonance was present
-- Conversation stalled/distanced → likely Pattern-Resonance absent or failed
-- Subsequent behavior của other matches self's prediction → Pattern-Resonance confirmed post-hoc
-- Subsequent behavior contradicts prediction → Pattern-Resonance was illusion (only one-sided Self-Pattern-Match)
-
-After recalling conversation + outcome, self can **update** Self-Pattern-Match library:
-- Strengthen chunks that predicted correctly
-- Weaken chunks that misfired
-- Add new chunks from observed target behavior
-- Refine which chunks to retrieve for similar targets next time
-
-**Example** (candy gift-giving continuation):
-- Step 6 above: prediction "mẹ sẽ thích"
-- Action: give candy
-- Outcome observation: mẹ smiles + thanks + eats happily → positive signal
-- Post-hoc inference: Pattern-Resonance was likely present (both fired "enjoy candy" patterns)
-- Feedback: confirms self-template "candy enjoyment" applies well to mẹ → reinforce for future predictions
-
-vs.
-
-- Outcome observation: mẹ declines "mẹ đang kiêng đường" → prediction failed
-- Post-hoc inference: Pattern-Resonance absent. Self-Pattern-Match missed a crucial chunk ("mẹ kiêng đường")
-- Feedback: update Self-Pattern-Match library — add "mẹ kiêng đường" chunk + include in future retrieval
+- **Mutual**: requires 2+ entities (but NOT requires SPM from both — Stream 1 suffices)
+- **Retrospective access only**: self CANNOT know Resonance real-time, infer từ outcome
+- **Feedback source**: observations → calibration data cho SPM library
+- **Per-pair, per-domain, per-moment**: hình dạng Resonance riêng cho mỗi cặp
+- **Anti-match possible**: by-products can CONFLICT gap direction (worse than no-match)
 
 ### §4.5 — Relationship diagram
 
@@ -669,8 +734,8 @@ TIME →
 
     [Self-Pattern state at t₀]
           │
-          │ Self-Pattern-Match (forward solo)
-          │ = retrieve + project + simulate + read
+          │ Self-Pattern-Modeling (forward solo)
+          │ = F1 Compiled + F2 Fresh (parallel)
           ↓
     [Prediction about target]
           │
@@ -680,2010 +745,1618 @@ TIME →
           │
           │ Retrospective inference
           ↓
-    [Pattern-Resonance inferred (present/absent/partial)]
+    [Resonance inferred (present/absent/partial)]
           │
-          │ Feedback loop
+          │ Feedback loop (Stream 2)
           ↓
-    [Self-Pattern-Match library refinement]
+    [SPM library refinement]
           │
           │ Better prediction next time
           ↓
     [Self-Pattern state at t₁ (updated)]
-```
 
-**Critical point**: Self-Pattern-Match runs FORWARD (prediction). Pattern-Resonance is detected BACKWARD (from outcome). Library refinement closes the loop — enabling learning from each interaction.
+Note: Stream 1 Resonance fires PARALLEL — independent of this SPM loop.
+```
 
 ### §4.6 — Why 3 separate concepts (not 1)
 
-Một số readers có thể hỏi "sao không gộp vào 1 concept để đơn giản?". Lý do 3-split:
+5 lý do:
 
 **Reason 1 — Different epistemic status**:
-- Self-Pattern-Match = direct access (self knows what it's running)
-- Pattern-Resonance = indirect access (inferred from evidence)
-- Gộp chung sẽ confuse "what I did" với "what was actually true"
+- SPM = direct access (self knows what it's running)
+- Resonance = indirect access (inferred from evidence)
 
 **Reason 2 — Different temporal direction**:
-- Self-Pattern-Match = forward prediction (not yet verified)
-- Pattern-Resonance = backward ground truth (after verification)
-- Gộp chung sẽ lose the prediction/verification distinction essential cho learning
+- SPM = forward prediction (not yet verified)
+- Resonance = backward ground truth (after verification)
 
 **Reason 3 — Framework-wide relevance differs**:
-- Self-Pattern-Match is a mechanism used broadly (beyond agent-reading — also self-planning, imagination, problem-solving simulation)
-- Pattern-Resonance is specific to interpersonal interaction
-- Gộp chung sẽ conflate broad mechanism với narrow phenomenon
+- SPM rộng (beyond agent-reading: planning, imagination, problem-solving)
+- Resonance specific to interpersonal interaction
 
 **Reason 4 — Calibration loop requires distinction**:
-- Learning happens qua loop: forward prediction → outcome → backward inference → library refinement
-- If we don't separate the "prediction we make" from "truth we learn", we can't articulate calibration
-- Bird & Cook 2013 insight (alexithymia-empathy link) maps cleanly: poor self-reading → poor Self-Pattern-Match library → poor Pattern-Resonance emergence → empathy deficit label
+- Learning: prediction → outcome → inference → library refinement
+- Bird & Cook 2013: poor self-reading → poor SPM → poor Resonance → "empathy deficit"
 
-**Reason 5 — User's observation**:
-> "Pattern-Resonance là sự giao thoa thực tế. Kết quả của chất lượng cuộc giao tiếp, dẫn tới khả năng tiến triển giao tiếp hoặc giảm bớt giao tiếp sau đó. Nếu có chunk tích lũy đủ lớn tôi cũng có thể phát hiện Pattern-Resonance sau khi nhớ lại cuộc nói chuyện và kết quả thực sự về sau, để refine lại hệ thống Self-Pattern-Match.md của mình."
-
-User explicitly identified:
-- Pattern-Resonance là actual + retrospective
-- Pattern-Resonance feeds back to refine Self-Pattern-Match
-- This feedback loop is **essential** to mechanism
-
-Gộp 3 concepts vào 1 sẽ lose this architectural insight.
-
-### §4.7 — Supporting files forward pointer
-
-Concepts giới thiệu ở high level trong Agent.md. Deep drill ở supporting files:
-
-- **`Self-Pattern-Match.md`** — full mechanism detail: retrieve/project/simulate/read steps, 4 axes interaction, 5 pattern-type modalities, developmental bootstrap, calibration loop, failure modes, alexithymia, ToM literature, training methods
-- **`Pattern-Resonance.md`** — full phenomenon detail: requirement conditions, retrospective detection, feedback loop, quality levels, mutual cases (mathematicians, fans, family), failures (parasocial, cross-species, dehumanization), communication outcome correlation, state-gated cases, cognitive-affective split
-
-Readers wanting deep mechanism → go to sub-files. Readers wanting Agent concept + integration + gradient + schema override → stay in Agent.md.
+**Reason 5 — 2-Stream Architecture**:
+- Resonance has Stream 1 (no SPM involved at all — hardware by-product match)
+- Resonance has Stream 2 (SPM mutual — bidirectional synchronization)
+- Gộp SPM + Resonance = miss that Resonance exists WITHOUT SPM (Stream 1)
 
 ---
 
----
+## §5 — Self-Pattern-Modeling high-level preview (v3.1)
 
-## §5 — Self-Pattern-Match high-level preview
+> **Detail**: `Self-Pattern-Modeling.md v3.1`. Section này = accurate preview + forward pointer.
+> v3.1: renamed Match → Modeling. APPLICATION 1 trên Simulation Engine chung.
 
-> **Detail**: `Self-Pattern-Match.md` (supporting file). Section này summarize + forward pointer.
+### §5.1 — One-sentence definition (v3.1)
 
-### §5.1 — One-sentence definition
+**Self-Pattern-Modeling** = solo forward simulation mechanism: select chunks từ self repertoire matching target → fire F1 Compiled (body simulate target state, automatic) + F2 Fresh (PFC chain predict target behavior, deliberate) song song. Per-Agent Valence gates direction. Context-dependent per agent/domain. PFC = Lawyer (narrative bias). 3-cost when Fresh. = Application 1 (Other × Present × Simulate) trên Simulation Engine chung.
 
-**Self-Pattern-Match** = solo forward simulation mechanism: PFC retrieve chunks từ self repertoire matching target agent, apply làm template, fire 2 functions song song: F1 Feeling (body simulate target state) + F2 Logic (PFC chain predict target behavior). Per-Agent Valence gates direction. Context-dependent chunk selection compiled per agent.
+### §5.2 — Compiled/Fresh as real axis
 
-### §5.2 — Mechanism 6 steps (high-level recap)
+```
+⭐ v3.1 KEY REFRAME: F1/F2 = Compiled/Fresh spectrum
 
-| Step | Action | Example (gift-candy) |
-|---|---|---|
-| 1 | **Retrieve** — select chunks từ self repertoire based on target cues + task + bias | Retrieve "candy enjoyment" chunks từ self eating experience |
-| 2 | **Template match** — position chunks as self-template ready to project | "I find candy enjoyable" positioned |
-| 3 | **Projection** — apply template to target | Applied to mother — "mẹ's chunks would fire similarly" |
-| 4 | **Simulation** — fire template as if self were target | Run predictive processing with self-in-target's-position |
-| 5 | **Output read** — read self-affective/cognitive output of simulation | Read "ngon + happy" from own simulation |
-| 6 | **Attribution** — attribute output to target | "Mẹ sẽ thích" |
+  F1 = COMPILED SPM:
+    → Body-level simulation: target's state → own body FEEL echo
+    → Automatic, cost ≈ 0, Hebbian reinforced qua repetition
+    → Fires vô thức: "biết" bạn thân buồn mà chưa hỏi
+    → PHYSICAL: LTP-strengthened synapses + myelinated axons (100m/s)
+    → Expert intuition: therapist "sense" client state = compiled SPM
 
-Mechanism có thể run consciously (deliberate perspective-taking) hoặc unconsciously (automatic empathy firing). Most gift-giving happens semi-conscious — self doesn't explicitly deliberate each step.
+  F2 = FRESH SPM:
+    → PFC draft prediction: deliberate chain reasoning about target
+    → Costly: mỗi lần = metabolic effort (glucose consumption)
+    → Fires có ý thức: "tôi nghĩ person X sẽ làm Y vì Z"
+    → PHYSICAL: novel neural paths, unmyelinated (1m/s)
+    → Novice analysis: student "phân tích" patient = fresh SPM
 
-### §5.3 — Pattern-Type variation (which chunks fire)
+  SPECTRUM — không binary:
+    → Với mẹ domain cảm xúc: F1 dominant (compiled rich)
+    → Với mẹ domain tài chính: F2 dominant (chưa compile domain này)
+    → Therapist session 1: F2 (fresh). Session 1000: F1 (compiled same pattern)
 
-Self-Pattern-Match không fire cùng loại chunks trong mọi case. Depending on:
-- **Target cues**: distress signals trigger affective chunks; math problem triggers symbolic chunks
-- **Task context**: predict emotion → affective; predict action → cognitive; predict somatic state → somatic
-- **Self modality bias** (Logic-Feeling §6): verbal-dominant self tends to fire verbal-cognitive chunks first; somatic-dominant self tends affective/somatic
+  "Feeling" = observer label cho F1 (compiled) — vì automatic
+  "Logic" = observer label cho F2 (fresh) — vì deliberate
+  LABELS KHÔNG phải mechanism.
+```
 
-**5 Pattern-Type modalities** (detailed in §8):
-- Affective (emotion chunks)
-- Somatic (body state/posture chunks)
-- Visual-symbolic (spatial/diagrammatic/mathematical chunks)
-- Verbal-cognitive (inner speech/dialogue/planning chunks)
-- Composite (rich blend — common for long relationships)
+### §5.3 — 3-cost model (when Fresh)
 
-### §5.4 — Quality dimensions (4 axes preview)
+```
+3 INDEPENDENT COST SOURCES khi F2 SPM fires:
 
-Self-Pattern-Match output quality varies theo 4 axes (detailed in §7):
-- **Pattern-Type**: which modality fires (affects what kind of prediction possible)
-- **Depth**: chunk richness about target (stranger thin → family deep)
-- **Similarity**: self-target template match (self-similar high → distant species low)
-- **Feedback availability**: real-time contingent feedback enables calibration during interaction
+  ① PFC DRAFT COST (metabolic):
+    → Glucose-consuming reasoning about target
+    → Gailliot 2007: PFC energy depletion real
+    → "Mệt sau buổi nói chuyện phức tạp với người mới"
 
-All 4 axes interact. Low across all → threshold failure → fallback Layer 1+2 mechanical prediction (mouse case).
+  ② SUPPRESS COST (efference mismatch):
+    → Khi F2 prediction conflicts với F1 compiled response
+    → Must SUPPRESS compiled to follow fresh draft
+    → Like hitting brake while engine pulls → friction
+    → "Biết nên tha thứ nhưng body vẫn ghét" = suppress cost
 
-### §5.5 — Framework-wide applications (beyond agent-reading)
+  ③ UNCERTAINTY COST (cortisol holding):
+    → Chưa biết prediction có đúng không
+    → Cortisol holds elevated as "uncertainty tax"
+    → Kéo dài → baseline drift (Cortisol-Baseline.md)
+    → "Chờ phản hồi từ person X" = uncertainty cost accumulating
 
-Self-Pattern-Match là mechanism **rộng**, không chỉ dùng cho agent-reading:
+  3 costs INDEPENDENT:
+    → Có thể ① cao + ②③ thấp (reasoning mà không conflict + sure)
+    → Có thể ② cao + ①③ thấp (suppress strong compiled, đơn giản)
+    → Có thể ③ cao + ①② thấp (simple wait nhưng unclear outcome)
+```
 
-- **Empathy** (cross-reference Theme E): fire affective/somatic pattern lên other, produce own weak copy of other's state
-- **Perspective-taking**: deliberate Self-Pattern-Match với target role
-- **Gift-giving**: fire "preference" patterns from self, project, predict recipient reaction
-- **Negotiation**: fire "goals + constraints" patterns, simulate opponent position
-- **Teaching**: fire "learner's confusion" patterns, simulate why student is stuck
-- **Learning from models**: fire expert's chunks as observed, simulate expert's reasoning
-- **Planning**: fire "future self" patterns, simulate self in future state, predict outcomes
-- **Imagination** (cross-reference `Imagine-Final.md`): fire scenario chunks, simulate hypothetical events
-- **Moral reasoning**: fire "victim" patterns, simulate harm experience
+Cross-reference: Inter-Body-Mechanism.md §4 (full treatment).
 
-Tất cả đều là **self-chunks fired as template + projection** — same mechanism, different application domains.
+### §5.4 — PFC = Lawyer caveat
 
-**Key insight**: Self-Pattern-Match không phải "agent-only mechanism". Nó là **general-purpose self-template simulator** that happens to be critical for agent-reading.
+SPM output goes through PFC observation → PFC constructs NARRATIVE about WHY self predicted X. This narrative is **post-hoc justification**, not the actual mechanism.
 
-### §5.6 — Upstream dependency (Bird & Cook 2013 insight)
+**Practical consequence**: "Tôi nghĩ person X đang buồn vì..." — the "vì" is PFC's STORY. Actual prediction came from compiled chunks firing (F1) or PFC draft (F2). The explanation you give = Lawyer's brief.
 
-Self-Pattern-Match quality **depends on** chunk stock + self-awareness. Alexithymia research (Bird & Cook 2013 🟢) shows empathy deficit traditionally attributed to autism is actually driven by alexithymia (inability to read own feelings). Mechanism:
+**Domain = Arbiter**: Neither compiled feeling nor PFC narrative is final. Only domain outcome (real interaction result) CONFIRMS or REFUTES.
+
+### §5.5 — Framework-wide applications
+
+SPM là mechanism **rộng**, không chỉ agent-reading:
+- **Empathy**: fire F1 on other → feel echo of their state
+- **Perspective-taking**: deliberate F2 SPM với target role
+- **Gift-giving**: fire "preference" patterns, project, predict reaction
+- **Planning**: fire "future self" patterns, simulate outcomes
+- **Imagination**: fire scenario chunks, simulate hypotheticals
+- **Moral reasoning**: fire "victim" patterns, simulate harm
+- **Teaching**: fire "learner's confusion", simulate where stuck
+
+Tất cả = **self-chunks fired as template + projection** — same mechanism, different domains.
+
+### §5.6 — Bird & Cook 2013 upstream dependency
 
 ```
 Poor self-reading (alexithymia)
   ↓
 Poor chunk labels for own states
   ↓
-Poor chunk retrieval when fire target simulation (no good template)
+Poor retrieval for SPM template (no good material)
   ↓
-Poor Self-Pattern-Match output quality
+Poor SPM output (both F1 and F2)
   ↓
-Poor Pattern-Resonance emergence (target's actual state not matched)
+Poor Resonance emergence (predictions don't match)
   ↓
-Empathy deficit (outcome label)
+"Empathy deficit" (outcome label)
 ```
 
-→ **Self-awareness is prerequisite for other-awareness**. You cannot understand others without first understanding yourself. This is architectural, not just developmental — ongoing alexithymia blocks ongoing empathy even in trained adults.
+→ **Self-awareness prerequisite for other-awareness**. Architectural, not just developmental.
 
-### §5.7 — Forward pointer to Self-Pattern-Match.md
+🟢 Bird & Cook 2013: alexithymia (not autism per se) drives empathy deficit.
 
-Detail về Self-Pattern-Match mechanism → `Self-Pattern-Match.md` (v2.0, 2026-04-24, ~1,948L). Main file Agent-Mechanism.md cover essentials + integration; sub-file covers mechanism deep dive.
+### §5.7 — Compiled Quality effect on SPM (v2.1 addition)
 
-**v2.0 KEY ADDITIONS** (not in this preview):
-- §2: 2 Functions F1 Feeling + F2 Logic (song song, tách riêng khi rèn luyện)
-- §4: Context-dependent chunk selection (vô thức tùy chọn per agent/context)
-- §2.5: Per-Agent Valence × 2 Functions matrix (empathy ↔ strategic ↔ dehumanize)
-- §10: Reversed mapping (Schadenfreude, sadism, professional SPM conflicts, moral injury)
-- §11: Use cases reframed qua F1/F2 × Valence
+SPM output quality depends not only on compilation LEVEL (F1/F2) but on compilation QUALITY (PFC-Operations.md v1.0 §5):
+
+```
+⭐ COMPILED QUALITY × SPM CAPACITY:
+
+  GENUINE-COMPILED (approach tag, opioid):
+    → SPM about target = EXPANSIVE (rich multi-sensory model)
+    → CAN predict new situations (generalize)
+    → Self-reinforcing: more use → more compile → better
+
+  SCHEMA-COMPILED (flat tag, relief):
+    → SPM about target = LIMITED (narrow, single-channel)
+    → CANNOT expand beyond schema template
+    → Needs genuine experience to bridge
+
+  THREAT-COMPILED (avoidance tag, cortisol):
+    → SPM about target = BIASED NEGATIVE (defensive filter)
+    → Miss positive signals, amplify threat signals
+    → Burnout risk when sustained
+
+  SAME PERSON, SAME COMPILATION LEVEL — DIFFERENT QUALITY:
+    → Student A chọn học toán = genuine → SPM rộng
+    → Student B bị ép học toán = threat → SPM hẹp, biased
+    → "Giỏi nhưng ghét" = threat-compiled (know HOW, avoid DOING)
+
+  Detail: PFC-Operations.md v1.0 §5 (full treatment)
+```
 
 ---
 
-## §6 — Pattern-Resonance high-level preview
+## §6 — Resonance high-level preview (BPGR v1.4 + 4 sub-files)
 
-> **Detail**: `Pattern-Resonance.md` (supporting file). Section này summarize + forward pointer.
+> **Detail**: `By-Product-Gap-Resonance.md v1.4` (core, trimmed).
+> + `Bond-Architecture.md v1.0` (4 bond types, M1-M4 decline)
+> + `Resonance-Sustainability.md v1.0` (4-Layer sustainability)
+> + `By-Product-Scale.md v1.0` (3 scales: pair/hub/institutional)
+> + `Resonance-Per-Entity.md v1.0` (per-entity profiles, HW Subsidy, Phantom)
 
-### §6.1 — One-sentence definition
+### §6.1 — Definition (BPGR v1.4)
 
-**Pattern-Resonance** = emergent mutual phenomenon khi 2+ agents' Self-Pattern-Match co-fire successfully matching patterns. Reflects **actual alignment**, retrospectively knowable only, serves as feedback calibration cho Self-Pattern-Match library.
+**Resonance** = emergent mutual phenomenon khi 2+ entities' interactions produce sustained by-product match — mỗi bên fill gap CỦA MÌNH qua actions mà output (by-product) match gap direction CỦA BÊN KIA.
 
-### §6.2 — Requirement conditions
+**v3.1 KEY**: SPM = NOT prerequisite. SPM = powerful ENHANCER (creates Stream 2 deepest quality). But Resonance EXISTS without SPM (mẹ-bé sơ sinh, người-chó, twins gặp lần đầu).
 
-Pattern-Resonance KHÔNG fire spontaneously. Yêu cầu:
-
-1. **Both sides running Self-Pattern-Match** toward each other (or toward shared target)
-2. **Feedback channel available** (verbal, facial, behavioral, outcome-observable)
-3. **Matching patterns** — both actually fire similar chunks (affective, cognitive, somatic, visual-symbolic, verbal, or composite)
-4. **Time for co-firing** — instantaneous flash doesn't establish; requires some duration
-
-**If any condition fails → no Pattern-Resonance**, even if one side tries hard.
-
-**Key failure modes**:
-- **Parasocial** (fan → idol): condition 1 fails (idol doesn't SPM the fan back); SPM is one-sided → no resonance
-- **Cross-species sympathy** (human → dog): condition 3 fails (dog fires different internal patterns, not matching human's projection)
-- **Dehumanization**: condition 1 fails (hostile side suppresses SPM); no resonance possible
-- **Scripted interactions** (routine customer service): condition 4 fails (too brief, too surface); weak or no resonance
-
-### §6.3 — Retrospective detection (key epistemic point)
-
-**Self cannot know Pattern-Resonance real-time**. Self only knows:
-- Its own Self-Pattern-Match prediction (forward)
-- Observable feedback from target (facial, verbal, behavioral)
-- Outcome of interaction (did communication progress or stall?)
-
-From these, self **infers** post-hoc whether Pattern-Resonance was present:
-
-**Signals of past Pattern-Resonance**:
-- Conversation deepened / progressed beyond initial exchange
-- Both expressed "understood" / "cùng tần số" / "hiểu nhau"
-- Subsequent behavior matches prediction
-- Mutual willingness to re-engage
-
-**Signals of past Pattern-Resonance absence**:
-- Conversation stalled / distanced
-- One-sided feeling ("I thought we connected but they didn't care")
-- Subsequent behavior contradicts prediction
-- Avoidance or reduced engagement
-
-**Time scale**: retrospective detection can be immediate (after conversation ends) hoặc delayed (days/weeks/months as outcomes unfold).
-
-### §6.4 — Feedback calibration loop
-
-Critical architectural function: **Pattern-Resonance observations refine Self-Pattern-Match library**.
+### §6.2 — 2-Stream Architecture
 
 ```
-[Self-Pattern-Match prediction fires]
-       ↓
-[Interaction happens]
-       ↓
-[Outcome observed]
-       ↓
-[Pattern-Resonance inferred (present/absent/partial)]
-       ↓
-[Library update]:
-  - Confirmed chunks strengthened
-  - Misfired chunks weakened
-  - New chunks added from observed behavior
-  - Retrieval heuristics refined
-       ↓
-[Next interaction starts with improved library]
+⭐ TOTAL RESONANCE = Stream 1 + Stream 2 (parallel, independent, cộng dồn)
+
+  STREAM 1 — Hardware/Unidirectional by-product match:
+    → Mỗi bên receive reward INDEPENDENTLY từ other's existence/thuộc tính
+    → KHÔNG cần engagement ngược (vợ xinh → chồng vui, chồng ko cần làm gì)
+    → KHÔNG synchronize 2 não (cảm riêng)
+    → HABITUATES over time (Weber-Fechner, hedonic treadmill)
+    → Multi-channel: beauty + status + presence + smell + voice...
+    → Phụ thuộc HARDWARE + COMPILED CHUNKS (not pure hardware)
+    → Supports Stream 2: khởi động (proximity) + đệm an toàn (buffer khi conflict)
+
+  STREAM 2 — SPM compiled mutual (bidirectional synchronization):
+    → CẦN cả 2 engage SPM toward nhau → feedback loop
+    → 2 não ĐỒNG BỘ: A detect B's state → respond → B FEEL → respond → loop
+    → Có thể CHANGE other's state (kéo lên/xuống thật sự)
+    → ANTI-HABITUATION: Hebbian → more use → stronger → positive spiral
+    → UNSUSTAINABLE nếu chỉ 1 bên (→ obligation-trapped)
+    → = Deepest human connection mechanism
+
+  TEMPORAL:
+    → Stream 1 peaks EARLY → habituates (novelty wears off)
+    → Stream 2 starts ZERO → grows → deepest (compilation builds)
+    → Sustainability: Stream 2 growth phải > Stream 1 decline
+
+  PROTO-STREAM 2 (non-SPM mutual engagement):
+    → Mẹ-bé: contingent response (mẹ respond to bé's cues)
+    → Người-chó: associative conditioning (mutual reward patterns)
+    → Not full SPM, but bidirectional reward loop exists
 ```
 
-**This is HOW humans learn social prediction**. Not through explicit rule learning — through iterative forward prediction + retrospective verification + library refinement.
+### §6.3 — Conditions (v3.1 — BROADENED)
 
-**Alexithymia break**: Nếu self can't read own feelings well, it can't read feedback signals accurately → feedback loop breaks → library doesn't improve → empathy stays deficient. Bird & Cook 2013 evidence supports this.
+**4 conditions cần cho Resonance emergence:**
 
-### §6.5 — Quality levels
+1. **Both capable of receiving by-product reward from other** — NOT "both running SPM" (broadened: mẹ-bé, người-chó qualify)
+2. **Channel available** — feedback channel exists (touch, presence, voice, facial, behavioral)
+3. **By-product match** — output of B's gap-filling matches A's gap direction (per-domain, per-moment)
+4. **Sufficient exposure** — not just time, but repeated interaction enabling pattern recognition
 
-Pattern-Resonance không binary (present/absent). Spectrum:
+**Stream 2 ADDITIONAL conditions**: both engage SPM + mutual loop established.
 
-**Deep resonance** 🟢:
-- Multi-modal matching (affective + cognitive + somatic simultaneous)
-- Long duration + high feedback richness
-- Both sides recognize resonance ("we really understand each other")
-- Examples: family, long-term close friends, co-creators, lovers
+### §6.4 — Anti-match concept (v3.1 new)
 
-**Moderate connection** 🟡:
-- Single-modal matching (just cognitive OR just affective)
-- Medium duration + adequate feedback
-- One side more certain than other
-- Examples: study group, casual friends, colleagues, same-team co-workers
+By-products có thể CONFLICT gap direction (not just neutral no-match):
+- CEO innovation drive ↔ partner comfort-seeking = NEGATIVE by-product match
+- Worse than no-resonance = active friction, cost TĂNG thay vì giảm
 
-**Surface match** 🟡:
-- Brief co-firing, often affective only
-- Short duration, cue-based
-- Both sides aware of shared context but shallow
-- Examples: fellow fans at concert, soldiers marching together, ritual co-participants
+### §6.5 — Per-pair topology
 
-**Failed / One-sided** 🔴:
-- Only one side running Self-Pattern-Match
-- No matching patterns despite effort
-- Feedback unavailable or misread
-- Examples: parasocial, stalker obsession, cross-species pet affection (one-way), failed friendship attempts
+Resonance = per-PAIR, per-DOMAIN, per-MOMENT:
+- Hậu vệ ↔ tiền đạo = 1 shape
+- Hậu vệ ↔ khán giả = different shape
+- Same pair, different domain = different Resonance quality
 
-### §6.6 — Cases preview (detailed in Pattern-Resonance.md §6)
+### §6.6 — Cases reclassified (v3.1)
 
-**Genuine Pattern-Resonance**:
-- Mathematicians/physicists trading ideas — visual-symbolic matching
-- Music fans at concert — affective matching with shared stimulus
-- Study group detecting shared impasse — cognitive matching
-- Family members reading each other's moods — composite matching
-- Partners during crisis — composite + somatic matching
+| Case | v1.0 classification | v3.1 classification |
+|---|---|---|
+| Mẹ-bé sơ sinh | "Failed" (no SPM from baby) | **Genuine Resonance**: Stream 1 CỰC MẠNH + Proto-Stream 2 |
+| Người-chó | "Failed" (cross-species) | **Genuine Resonance**: Stream 1 strong + Proto-Stream 2 |
+| Người-robot | Not addressed | Stream 1 habituates fast + Stream 2 IMPOSSIBLE → hollow |
+| Bạn thân compiled | High quality | Stream 1 + Stream 2 (deepest, anti-habituate) |
+| Parasocial | Failed | Stream 1 one-sided + Stream 2 impossible (no feedback) |
 
-**Failed Pattern-Resonance** (one-sided Self-Pattern-Match only):
-- Parasocial relationship với celebrity (fan runs rich SPM, celebrity never fires SPM toward fan)
-- Human sympathizing with dog (affective SPM fires, dog fires different internal patterns)
-- Dehumanization in conflict zones (one side suppresses SPM; impossible to resonate)
-- Mother-10-year suppression case (SPM blocked by negative overlay, routine script only)
+### §6.7 — Retrospective detection
 
-### §6.7 — Forward pointer to Pattern-Resonance.md
+Self CANNOT know Resonance real-time. Infer post-hoc from:
+- Conversation deepened → Resonance likely present
+- Conversation stalled → Resonance absent
+- Subsequent behavior matches prediction → confirmed
+- Subsequent behavior contradicts → Resonance was illusion
 
-Detail về Pattern-Resonance requirements + retrospective detection + 4 cases taxonomy + feedback loop mechanics + cognitive-affective split + individual variation → `Agent/Pattern-Resonance.md`.
+**PFC = Lawyer warning**: PFC may construct narrative "we connected!" even when Resonance absent. Domain outcome (not feeling) = arbiter.
+
+### §6.8 — Bond Architecture preview (BA v1.0 — v2.1 addition)
+
+**4 bond types × 1 Entity-Compiled mechanism** (tất cả dùng SAME EC architecture):
+
+| Bond Type | Hardware Subsidy | Formation | Exit Cost | Example |
+|---|---|---|---|---|
+| Parent→Child | MAX (oxytocin, prenatal) | Pre-installed | Very high | Mẹ→con |
+| Romantic | TEMPORARY (limerence 6-24m) | Hormone-assisted | Moderate→high | Vợ/chồng |
+| Friendship | NONE | By-product only | Low | Bạn thân |
+| Kin (non-parent) | Moderate (50% DNA) | Context-assisted | Moderate | Anh/chị/em |
+
+**M1-M4 Resonance Decline**: 4 mechanisms giảm Resonance quality over time:
+- M1 — Habituation: Weber-Fechner, đặc biệt Stream 1 → "quen → không thấy"
+- M2 — Compilation reduces novelty: F1 dominant → auto-pilot → "biết hết rồi"
+- M3 — Gap shift: entity-related gaps atrophy → "không cần nữa"
+- M4 — Anti-match accumulation: by-product conflicts tích lũy → friction
+
+**Gap clone IMPOSSIBLE**: brain CANNOT duplicate gap direction from one entity to another (5-step proof in BA v1.0 §5). Mất 1 entity = gap THẬT SỰ mất, không chuyển được.
+
+Detail: `Bond-Architecture.md v1.0`
+
+### §6.9 — Resonance Sustainability preview (RS v1.0 — v2.1 addition)
+
+**4-Layer Sustainability model** — conditions duy trì Resonance chống M1-M4:
+
+| Layer | Function | Mechanism | Without |
+|---|---|---|---|
+| L1 — Proximity | Physical availability | Co-location, schedule | S1 habituates, S2 atrophies |
+| L2 — Duration | Time for deep exchange | Sustained interaction | Shallow only |
+| L3 — Agent-Mode | SPM quality engagement | Genuine curiosity, not routine | Auto-pilot → M2 |
+| L4 — Domain Coverage | Multi-domain by-product | Cover gaps across domains | Single-domain fragile |
+
+**3 conditions**: proximity + duration + agent-mode = necessary (all 3 required).
+**3 modalities**: verbal (word exchange) + non-verbal (facial, tone) + body (touch, proximity).
+**4 silence types**: comfortable (compiled trust) vs awkward (mismatch) vs charged (suppress) vs dead (no resonance).
+
+Detail: `Resonance-Sustainability.md v1.0`
+
+### §6.10 — By-Product Scale preview (BS v1.0 — v2.1 addition)
+
+**1 mechanism × 3 scales** (by-product match operates at ALL levels):
+
+| Scale | Unit | Mechanism | Example |
+|---|---|---|---|
+| L1 — Pair | 2 individuals | Direct by-product match | Bạn thân, vợ/chồng |
+| L2 — Hub | 1 node + N members | Node's by-products serve group | Team leader, teacher |
+| L3 — Institutional | Distributed system | Trust infrastructure (serotonin) | Company, nation |
+
+**Prestige = genuine resonance** (by-product match at scale). Dominance = forced resonance (schema override, not genuine). Hardware shift: L1 oxytocin → L2 oxytocin+serotonin → L3 serotonin dominant.
+
+Detail: `By-Product-Scale.md v1.0`
+
+### §6.11 — Per-Entity Resonance profiles preview (RPE v1.0 — v2.1 addition)
+
+**3-Tầng model**: Tầng 1 (Hardware Substrate: sensory, hormone, coherence) → Tầng 2 (Compilation History: 40→200h, entity-compiled) → Tầng 3 (Current Dynamics: M1-M4, sustainability, phantom).
+
+**Hardware Subsidy spectrum** (per entity type):
+- MAX: parent→infant (oxytocin anti-habituation, prenatal restructure)
+- HIGH: kin (50% DNA, childhood co-fire)
+- TEMPORARY: romantic (limerence 6-24 months, then fades)
+- NONE: friend (pure by-product, fragile but highest quality)
+
+**Phantom 4-factor model** (after entity loss):
+- Factor 1: Entity-Compiled depth (chunk networks still fire)
+- Factor 2: Gap-fill breadth (how many domains entity filled)
+- Factor 3: Hardware Subsidy (kin phantom more durable than friend)
+- Factor 4: Replacement availability (alternative gap-fill sources)
+- Phantom = chunks fire → target absent → Chunk-Miss → pain. Duration = f(4 factors).
+
+Detail: `Resonance-Per-Entity.md v1.0`
 
 ---
 
-## §7 — Quality axes (4 axes)
+## §7 — Quality axes (4 axes + Compiled/Fresh dimension)
 
-Section này formalizes 4 quality dimensions cho Self-Pattern-Match. Các axes interact — không phải independent. Quality output là function của all 4 axes combined.
+4 quality dimensions cho SPM output. Axes interact — quality = function of all combined.
 
 ### §7.1 — Axis 1: Pattern-Type (modality fired)
 
-**Definition**: Which modality of chunks fires trong Self-Pattern-Match retrieval + simulation.
+Which modality of chunks fires trong SPM retrieval + simulation.
 
-**5 types** (detailed in §8):
+**5 types** (detailed §8):
 - Affective (emotion chunks)
-- Somatic (body state chunks)
-- Visual-symbolic (spatial/diagrammatic chunks)
-- Verbal-cognitive (inner speech/dialogue chunks)
-- Composite (multi-modal blend)
+- Somatic (body state/posture chunks)
+- Visual-symbolic (spatial/diagrammatic/mathematical chunks)
+- Verbal-cognitive (inner speech/dialogue/planning chunks)
+- Composite (multi-modal blend — native mode for rich relationships)
 
-**Determinants** of which type fires:
-- (a) **Target cues**: distress signals → affective; math problem → symbolic; routine body movement → somatic
-- (b) **Self modality bias** (Logic-Feeling §6): verbal-dominant self fires verbal-cognitive first; somatic-dominant fires affective/somatic first
-- (c) **Task context**: predict emotion vs predict action vs predict skill level — different types activate
-
-**Quality implication**: Pattern-Type match must fit target cue type. Firing affective chunks when target sends cognitive cues (or vice versa) → low-quality prediction.
+**Determinants**: (a) target cues, (b) self modality bias (Logic-Feeling.md v2.0 §6), (c) task context.
 
 ### §7.2 — Axis 2: Depth (chunk richness about target)
 
-**Definition**: Quantity + specificity của chunks self has about the target (hoặc about the target's category).
+- **Thin**: stranger, unfamiliar species (~5-10 relevant chunks)
+- **Moderate**: colleague, fan community member (~50-100 chunks)
+- **Deep**: family, close friend, partner (hundreds to thousands)
+- **Deepest**: multi-year observation + feedback calibration (fully compiled model)
 
-**Gradient**:
-- **Thin**: Only surface chunks (stranger, unfamiliar species, brief encounter) — e.g., 5-10 relevant chunks total
-- **Moderate**: Shared domain chunks (colleague, fan community member, study group member) — e.g., 50-100 relevant chunks
-- **Deep**: Rich personal history + personality chunks (family, close friend, partner, mentor) — e.g., hundreds to thousands of relevant chunks
-- **Deepest**: Multi-year observation với feedback calibration (mẹ, bạn thân 20 năm) — fully compiled model
-
-**Critical note**: Depth **không require "personal" chunks**. Mathematicians share deep DOMAIN chunks (math notation, proof patterns, problem types) while having shallow personal chunks about each other. Still enables high-quality Self-Pattern-Match in the math domain. Same for fans (musical chunks), study groups (problem chunks), religious communities (ritual chunks).
-
-**Quality implication**: Higher depth → richer template available → better simulation fidelity (in the domains where depth exists).
+**Critical**: Depth KHÔNG require personal chunks. Mathematicians share deep DOMAIN chunks while having shallow personal chunks → high SPM quality in math domain.
 
 ### §7.3 — Axis 3: Similarity (self-target template match)
 
-**Definition**: How well self's template structure maps to target's actual structure.
-
-**Gradient**:
-- **Self-similar**: Same age / culture / background / personality / species → self-template fits directly
-- **Moderately divergent**: Different personality but same species/culture → template needs adjustment
-- **Distant**: Different species (dog, cat) → template only partially mappable (affective only, not cognitive)
-- **Below threshold**: No mappable structure (insect, inanimate object) → template fails entirely → fallback to Layer 1+2 mechanical
-
-**Similarity affects which axes are usable**:
-- High similarity → all Pattern-Types available
-- Medium similarity → affective + somatic + composite available; cognitive blocked
-- Low similarity (cross-species) → affective only (surface distress reading)
-- Below threshold → no Self-Pattern-Match at all
-
-**Quality implication**: Low similarity with high depth can still yield useful prediction (expert trainer knows dog behavior despite not being dog — but this is Layer 1+2 chunk-based prediction, not Self-Pattern-Match projection). Pure Self-Pattern-Match requires similarity threshold.
+- **Self-similar**: same age/culture/background/personality/species → template fits directly
+- **Moderate divergent**: different personality but same species/culture → needs adjustment
+- **Distant**: different species (dog, cat) → affective-only mapping
+- **Below threshold**: no mappable structure (insect, inanimate) → SPM fails → fallback
 
 ### §7.4 — Axis 4: Feedback availability
 
-**Definition**: Presence of real-time contingent feedback from target enabling calibration during interaction.
+- **Real-time rich**: face-to-face, full expression channels → calibration during interaction
+- **Real-time limited**: phone, video → reduced channels
+- **Delayed**: text, email → delayed, reduced richness
+- **One-way**: reading book, watching celebrity → no feedback from target
+- **None**: imagined (prayer, deceased, fictional) → no external feedback
 
-**Gradient**:
-- **Real-time rich**: Face-to-face conversation with full expression channels (facial, vocal, body, verbal) — enables moment-to-moment Pattern-Resonance detection + library update mid-interaction
-- **Real-time limited**: Phone call, video call with one modality limited
-- **Delayed**: Text messages, emails — feedback arrives with delay, reduced richness
-- **One-way only**: Reading author's book, watching celebrity public content — no feedback from target back to self
-- **None**: Imagined interaction (praying to deity, remembering deceased, simulating fictional character) — no feedback at all
+**Feedback = calibration mechanism**. Without it, SPM runs open loop → errors compound → templates distort. Parasocial = high SPM without feedback → progressive distortion.
 
-**Critical function**: Feedback availability is what enables Self-Pattern-Match **calibration**. Without feedback, Self-Pattern-Match runs in open loop — predictions accumulate but never correct → errors compound → distorted templates.
+### §7.5 — Compiled/Fresh as 5th dimension (v2.0 addition, v2.1 enriched)
 
-**Parasocial failure mode explained**: Fan invests heavily in celebrity Self-Pattern-Match (high depth via media consumption, high similarity feeling), BUT feedback is zero (celebrity doesn't know fan exists). Result: rich but uncorrected templates → increasingly distorted → clinical parasocial distress when reality intrudes.
+v1.0 described 4 axes. v2.0 adds compilation level. v2.1 adds: **Compiled Quality** (genuine/schema/threat) and **Hardware Subsidy** also affect quality independent of 4 axes.
 
-**Imagined modeling (Mode 2) caveat**: Praying to Đức Mẹ has zero real feedback, but schema provides stable "virtual feedback" (schema rules are stable, so imagined interaction is consistent). This is different from parasocial where target is real but absent — the schema-based imagination is internally consistent even without external feedback.
+```
+Same target, same 4 axes — nhưng:
+  → Day 1: F2 Fresh dominant (effortful, costly, uncertain)
+  → Year 5: F1 Compiled dominant (automatic, efficient, confident)
 
-### §7.5 — Axes interaction
+Compilation level affects:
+  → Speed: compiled = instant. Fresh = seconds to minutes.
+  → Cost: compiled ≈ 0. Fresh = 3-cost model (①②③).
+  → Accuracy: compiled = high IF domain stable. Fresh = variable.
+  → Sustainability: compiled = maintain indefinitely. Fresh = depletes.
+```
 
-4 axes are **not independent**. They interact:
+**v2.1 additional quality modifiers** (interact with all 5 dimensions):
 
-**High all axes** → Best-case Self-Pattern-Match:
-- Example: long-term partner, composite Pattern-Type, deep chunks, high similarity, real-time feedback
-- Outcome: high-fidelity prediction, rapid calibration, genuine Pattern-Resonance possible
+| Modifier | Effect on SPM quality | Source |
+|---|---|---|
+| Compiled Quality (genuine/schema/threat) | Genuine = expansive, Threat = biased negative | PFC-Ops v1.0 §5 |
+| Hardware Subsidy (MAX→NONE) | High subsidy = faster compile but ≠ quality | RPE v1.0, VP v3.0 |
+| Entity-Access level (Mức 0-5) | Higher = deeper F1, lower = F2 dominant | EA v1.2 |
+| PFC Budget state | Depleted → all axes drop | PFC-Ops v1.0 §9 |
+
+### §7.6 — Axes interaction
+
+**High all** → best-case: rich partner + compiled + real-time feedback.
 
 **Trade-offs**:
-- High depth + low similarity (expert on different species): mechanical prediction possible via chunks, but Self-Pattern-Match blocked → fallback to Layer 1+2 (dog trainer case)
-- High similarity + low depth (stranger who seems like self): can fire template but prediction coarse (template fits general structure but lacks target-specific details)
-- High feedback + low depth (first meeting with talkative stranger): rapid depth accumulation possible via real-time interaction → Self-Pattern-Match improves mid-conversation
-- Low feedback + high depth (one-way media consumption): parasocial distortion risk
+- High depth + low similarity (dog trainer) → mechanical prediction, SPM partial
+- High similarity + low depth (stranger like self) → template fits, prediction coarse
+- High feedback + low depth (first meeting) → rapid accumulation mid-conversation
+- Low feedback + high depth (media) → parasocial distortion
 
-**Threshold failure**:
-- ALL axes low → no viable Self-Pattern-Match → fallback to Layer 1+2 mechanical prediction or Mode 1 schema override
-- Mouse case: thin depth + very low similarity + no feedback (to mouse) → SPM fails → Layer 1+2 mechanical (hun khói, bẫy) still works
-
-### §7.6 — Axes summary table
-
-| Axis | Low end | Mid | High end | Failure consequence |
-|---|---|---|---|---|
-| Pattern-Type | Mismatched to target cues | Partial fit | Optimal fit | Wrong prediction type |
-| Depth | Thin (stranger) | Moderate (colleague) | Deep (family) | Coarse prediction |
-| Similarity | Below threshold (insect) | Moderate (different culture) | High (self-similar) | SPM cannot run |
-| Feedback | None (media only) | Delayed/limited | Real-time rich | Calibration broken, drift |
+**Threshold failure**: all low → SPM fails → mechanical fallback (mouse case).
 
 ---
 
 ## §8 — Pattern-Type modalities (5 types)
 
-Detailed treatment of which modality of chunks fires in Self-Pattern-Match. Not exclusive — composite blends common for rich targets.
-
 ### §8.1 — Affective (emotion chunks)
 
-**Content fired**: Emotional state chunks — joy, sadness, fear, anger, disgust, surprise, curiosity, love, shame, pride, guilt, excitement, contentment, etc.
-
-**Trigger conditions**:
-- Target sends distress signals (vocal, facial, postural)
-- Target shows emotional expression (smile, cry, anger display)
-- Target in emotionally-charged situation (loss, celebration, crisis)
-- Self-preview used for gift-giving ("if I ate this, I'd feel ngon")
+**Fires when**: target distress signals, emotional expression, emotionally-charged situation.
 
 **Examples**:
-- **Dog cúp đuôi ẳng ẳng** → affective chunks "sadness/distress" fire → "dog đang buồn"
-- **Mẹ khóc** → affective chunks "sadness/pain" fire → "mẹ đang khổ"
-- **Candy gift**: self affective "ngon + happy" fires → projected onto mother
-- **Watching funeral**: grief chunks fire even for strangers (affective contagion)
+- Dog cúp đuôi ẳng ẳng → "sadness/distress" → "dog đang buồn"
+- Mẹ khóc → "sadness/pain" → "mẹ đang khổ"
+- Candy gift: self "ngon + happy" → projected onto mother
 
-**Quality limits**:
-- Projection error: self projects own emotional response which may not match target's actual response
-- Cross-species still fires (dog distress signals trigger human affective chunks) but produces projection, not accurate reading of dog's experience
-- Cultural variation: affective chunks culturally shaped → cross-cultural Self-Pattern-Match less accurate in affective dimension
+**Quality limits**: Projection error (self's response ≠ target's). Cross-species fires but = projection. Cultural variation.
 
-**Modality bias preference**: Somatic-dominant people fire affective chunks first + fastest.
+**Compiled/Fresh**: Affective SPM about close others = COMPILED (instant). About strangers = FRESH (effortful).
 
 ### §8.2 — Somatic (body state / posture chunks)
 
-**Content fired**: Body state chunks — tiredness, tension, relaxation, pain, hunger, cold/hot, restlessness, alertness, specific posture patterns, breathing rhythm, movement quality.
-
-**Trigger conditions**:
-- Target body posture visible (slumped, upright, tense, relaxed)
-- Target movement quality observable (slow, fast, jerky, smooth)
-- Target physical context (hard labor, resting, injury)
-- Athletic simulation (watching athlete → body co-fires)
+**Fires when**: target posture visible, movement quality, physical context.
 
 **Examples**:
-- **Mèo nằm im cúi đầu chậm chạp** → somatic chunks "lethargy/stress" fire → "mèo có vẻ stress"
-- **Athlete preparing serve** → watcher's body co-fires tension + attention → can predict timing
-- **Mother slumping after work** → somatic "exhaustion" chunks fire → predict "mẹ mệt"
-- **Craftsman working** → expert watcher co-fires muscular patterns → feels the "flow" of work
+- Mèo nằm im cúi đầu → "lethargy/stress" → "mèo stress"
+- Athlete preparing → watcher body co-fires → predict timing
+- Mother slumping → "exhaustion" → "mẹ mệt"
+- Craftsman → expert co-fires muscular patterns → "flow"
 
-**Quality note**: Somatic Self-Pattern-Match is particularly strong in **embodied learning contexts** — dance, sports, crafts, surgery observation. Expert observers fire rich somatic templates watching experts.
+**Key**: Strong in embodied learning (dance, sports, crafts, surgery).
 
-**Cross-reference**: Somatic-Articulation-Loop.md (how somatic chunks become verbal)
+Cross-ref: Somatic-Articulation-Loop.md.
 
-**Modality bias preference**: Somatic-dominant people + those with rich body awareness (athletes, dancers, meditators) fire somatic chunks strongly.
+### §8.3 — Visual-symbolic (spatial / mathematical chunks)
 
-### §8.3 — Visual-symbolic (spatial / diagrammatic / mathematical chunks)
-
-**Content fired**: Visual pattern chunks, spatial layout chunks, diagrammatic structure chunks, mathematical notation chunks, symbolic reasoning chunks.
-
-**Trigger conditions**:
-- Target engaged in spatial/mathematical/diagrammatic task
-- Shared visual-symbolic problem (math proof, architectural plan, chess position)
-- Non-verbal expression via drawing/diagram/gesture
-- Reading technical notation (music score, code, scientific paper)
+**Fires when**: target in spatial/mathematical task, shared symbolic problem.
 
 **Examples**:
-- **Mathematicians discussing proof**: both fire same symbolic chunks → "understand what other is trying to express" without needing verbal exchange
-- **Chess players watching position**: both fire spatial pattern chunks → see same tactical possibilities
-- **Architects reviewing blueprint**: both fire spatial layout chunks → shared mental model emerges
-- **Physicists imagining light propagation**: both fire visual-kinetic chunks → Einstein's "riding light" example
-- **Engineers debugging circuit**: both fire schematic chunks → trace problem together
+- Mathematicians discussing → same symbolic chunks → "understand"
+- Chess players → same tactical possibilities
+- Architects reviewing blueprint → shared spatial model
+- Physicists: Einstein's "riding light" visual-kinetic
 
-**Key property**: Visual-symbolic Self-Pattern-Match enables **deep understanding với shallow personal chunks**. Mathematicians don't need to know each other's childhoods to resonate in math domain. Depth in domain matters, depth in personal history doesn't.
+**Key**: Deep understanding WITH SHALLOW PERSONAL chunks. Domain depth matters.
 
-**Cross-reference**: Modality-Analysis §3 (visual encode types), Logic-Feeling §6 (visual-biased processing)
+### §8.4 — Verbal-cognitive (inner speech / dialogue chunks)
 
-**Modality bias preference**: Visual-dominant + strong abstract reasoning types (scientists, mathematicians, architects, artists) fire visual-symbolic chunks rapidly.
-
-### §8.4 — Verbal-cognitive (inner speech / dialogue / planning chunks)
-
-**Content fired**: Inner speech chunks, dialogue simulation chunks, plan step chunks, goal-subgoal chunks, rule/logic chunks, narrative chunks.
-
-**Trigger conditions**:
-- Target engaged in verbal communication
-- Shared verbal problem (negotiation, debate, teaching, advice)
-- Task requires explicit reasoning (legal analysis, strategy planning)
-- Reading text or listening to narration
+**Fires when**: verbal communication, shared verbal problem, explicit reasoning.
 
 **Examples**:
-- **Study group**: both fire problem-solving chunks + inner speech → "I know where you're stuck" emerges from shared cognitive simulation
-- **Negotiation**: each side fires "what would I argue in their position" → predicts counter-moves
-- **Teaching**: teacher fires learner's confusion chunks → simulates where misconception lies
-- **Legal argument**: lawyers fire rule + exception chunks → simulate judge's reasoning path
-- **Chess analysis post-game**: players fire verbal reasoning chunks → "I thought this, you thought that" retrospective
+- Study group stuck → "I know where you're stuck"
+- Negotiation → fire "opponent position" → predict counter
+- Teaching → fire "learner confusion" → simulate misconception
+- Legal → fire rule + exception → simulate judge
 
-**Key property**: Verbal-cognitive Self-Pattern-Match is **slower + more deliberate** than affective but enables **explicit perspective-taking**. This is classic "Theory of Mind" (ToM) testing domain.
-
-**Cross-reference**: Logic-Feeling §6 (verbal-biased → Logic-biased processing)
-
-**Modality bias preference**: Verbal-dominant + language-oriented types (writers, teachers, lawyers, negotiators) fire verbal-cognitive chunks fluently.
+**Key**: Slower + deliberate. Enables explicit perspective-taking. Classic ToM domain.
 
 ### §8.5 — Composite (multi-modal blend)
 
-**Content fired**: Multiple Pattern-Types firing simultaneously or in rapid sequence. Most common for targets where self has rich history (family, close friends, long-term colleagues).
-
-**Trigger conditions**:
-- Long-term relationship với target (many modalities compiled)
-- Complex situation requiring integration (emotional + cognitive + somatic reading)
-- High-stakes interaction (invest all available Pattern-Types)
-- Intense empathic moment (multi-modal contagion fires)
+**Fires when**: long-term relationship, complex situation, high-stakes, intense empathy.
 
 **Examples**:
-- **Reading mother's mood after work**: affective (tired) + somatic (slumped) + verbal (fragmented speech) + contextual (usually tired Tuesdays) all fire + integrate
-- **Partner in crisis**: affective (distress) + somatic (trembling) + verbal (what they said) + cognitive (their history with this issue) + visual (facial) all blend
-- **Close friend's subtle disappointment**: micro-expression visual + tone affective + sudden silence verbal + body shift somatic → composite detection
-- **Watching beloved film**: character's situation fires affective + somatic + cognitive + visual + narrative simultaneously
+- Mother's mood: affective + somatic + verbal + contextual blend
+- Partner in crisis: distress + trembling + words + history + facial
+- Close friend's subtle disappointment: micro-expression + tone + silence + shift
 
-**Key property**: Composite Pattern-Type is the **native mode** for humans reading close others. Single-modality isolation is artificial — most real-world agent reading is composite.
+**Key**: Composite = **native mode** for close others. Single-modality = artificial isolation.
 
-**Quality implication**: Composite Self-Pattern-Match produces richest predictions but requires high depth (many compiled chunks per modality) and high similarity (template fits across modalities).
-
-### §8.6 — Pattern-Type selection dynamics
-
-Which Pattern-Type fires isn't random — driven by:
+### §8.6 — Selection dynamics + 5-Channel connection
 
 ```
-Target cues (affective signal? cognitive problem? body state? symbolic content?)
-       +
-Self modality bias (verbal-dom? somatic-dom? visual-dom?)
-       +
-Task context (predict what?)
+Target cues + Self modality bias + Task context
        ↓
-   Primary Pattern-Type fires first
+Primary Pattern-Type fires first
        ↓
-Rapid extension to related types (often composite within seconds)
+Extension to related types (composite within seconds)
        ↓
-Prediction output generated
+Prediction output
+
+Speed: Affective (ms) > Somatic (s) > Visual-symbolic (s) > Verbal-cognitive (s-min)
 ```
 
-**Speed varies by Pattern-Type**:
-- Affective: fastest (milliseconds, near-automatic)
-- Somatic: fast (seconds, body-coupled)
-- Visual-symbolic: moderate (seconds, pattern completion)
-- Verbal-cognitive: slower (seconds to minutes, sequential reasoning)
-- Composite: emerges from blend of above speeds
-
-**Cross-reference**: Logic-Feeling §5 parallel processing — multiple Pattern-Types can run in parallel not just sequence.
+**5-Channel connection**: Target input reaches self via Visual, Auditory, Tactile, Olfactory/Gustatory, Schema/Memory channels. Which channels active → biases Pattern-Type. Cross-ref: Inter-Body-Mechanism.md §6.
 
 ---
 
 ## §9 — Gradient validation (H9 evidence)
 
-Section này validates H9 bằng cách analyzing 8+ concrete cases from user data + framework, showing how 4-axis Self-Pattern-Match model explains each.
+18 cases validate 4-axis + Compiled/Fresh + 2-Stream model.
 
-### §9.1 — Master gradient table
+### §9.1 — Master table (v2.1 — 2-stream + EA Mức annotated)
 
-| # | Target | Pattern-Type | Depth | Similarity | Feedback | SPM Quality | Fallback needed | Schema override |
+| # | Target | Pattern-Type | Depth | Similarity | Feedback | Quality | 2-Stream | EA Mức |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Person hợp tính mình | Composite | High | Self-similar | Real-time rich | 🟢 Excellent | No | No |
-| 2 | Person khác tính mình | Verbal-cognitive + partial affective | Moderate | Moderate divergent | Real-time rich | 🟡 Moderate | No | No |
-| 3 | Chó cúp đuôi ẳng ẳng | Affective only (distress) | Thin (species) | Low (cross-species) | Limited (behavioral) | 🟡 Partial — affective fires, cognitive blocked | No | No |
-| 4 | Mèo stress cúi chậm | Somatic + affective | Thin | Low | Limited | 🟡 Weak | No | No |
-| 5 | Chuột | None fires (below threshold) | Very thin | Below threshold | None (to mouse) | 🔴 Failed | **Yes — Layer 1+2 mechanical** | No |
-| 6 | Cục đá | None | N/A | N/A | N/A | 🔴 Not applicable | Pure physics | No |
-| 7 | Đức Mẹ mẫu ảnh | Mode 1: none | N/A | N/A | None | 🔴 Not applicable | No | **Yes — Mode 1 pure trust** |
-| 8 | Đức Mẹ cầu nguyện sâu | Mode 2: composite imagined | Schema-provided | Schema-based | None (internal consistency) | 🟡 Virtual agent simulation | No | **Yes — Mode 2 imagined modeling** |
-| 9 | Bộ đội Cụ Hồ (lạ) | Affective + cognitive | Schema-linked (Đảng, Bác Hồ) | Moderate (shared cultural schema) | Minimal direct | 🟡 Schema-mediated | No | Partial schema link |
-| 10 | Quân giặc | Affective suppressed | Schema-linked (enemy) | Hostile schema | Minimal | 🔴 Suppressed | N/A | Hostile schema override |
-| 11 | Mother day 0 (new) | Composite learning | Growing | Moderate | Real-time rich | 🟡 Active but uncompiled | No | No |
-| 12 | Mother year 1 (familiar) | Composite compiled | Deep | High | Rich | 🟢 Excellent | No | Routine schema handles baseline |
-| 13 | Mother year 10 (suppressed) | Verbal-cognitive only (routine) | Deep but **blocked** | High but **blocked** | Rich but **ignored** | 🔴 Suppressed by negative overlay | N/A | **Yes — negative schema blocks SPM** |
-| 14 | Mathematicians discussing | Visual-symbolic | Moderate (shared domain) | Moderate (cognitive style) | Rich (real-time) | 🟢 High quality in math domain | No | No |
-| 15 | Music fans at concert | Affective | Moderate (shared music) | Moderate (shared response) | Rich (shared stimulus) | 🟢 High in affective domain | No | No |
-| 16 | Study group stuck | Verbal-cognitive | Shared problem chunks | Same skill level | Rich | 🟢 High in problem domain | No | No |
-| 17 | Celebrity parasocial | Composite | Deep via media | Medium (perceived) | **Zero** (one-way) | 🔴 Distorted — rich but uncalibrated | No | No |
+| 1 | Person hợp tính | Composite | High | Self-similar | Rich | 🟢 | S1+S2 strong | 3 |
+| 2 | Person khác tính | Verbal + affective | Moderate | Divergent | Rich | 🟡 | S1 mod, S2 effortful | 2-3 |
+| 3 | Chó cúp đuôi | Affective only | Thin | Low | Limited | 🟡 | **S1 + Proto-S2** | 1-2 |
+| 4 | Mèo stress | Somatic + affective | Thin | Low | Limited | 🟡 Weak | S1 only | 1 |
+| 5 | Chuột | None | Very thin | Below threshold | None | 🔴 | No Resonance | 0 |
+| 6 | Cục đá | N/A | N/A | N/A | N/A | N/A | N/A | 0 |
+| 7 | Đức Mẹ Mode 1 | None | N/A | N/A | None | Schema | S1 (comfort) | 0 (schema) |
+| 8 | Đức Mẹ Mode 2 | Composite imagined | Schema | Schema | Internal | 🟡 Virtual | S1+imagined | 0 (schema) |
+| 9 | Bộ đội lạ | Affective + cognitive | Schema | Moderate | Minimal | 🟡 | S1 (warmth) | 1 (schema) |
+| 10 | Quân giặc | Suppressed | Schema | Hostile | Minimal | 🔴 | Anti-match | 0 (suppress) |
+| 11 | Mother day 0 | Composite fresh | Growing | Moderate | Rich | 🟡 Fresh | S1 strong+S2 begin | 2→3 |
+| 12 | Mother year 1 | Composite compiled | Deep | High | Rich | 🟢 | S1+S2 compiled | 4 |
+| 13 | Mother yr 10 suppress | Verbal routine | Blocked | Blocked | Ignored | 🔴 | S1 habituated | 4→5? |
+| 14 | Mathematicians | Visual-symbolic | Deep domain | Moderate | Rich | 🟢 Domain | S2 (domain) | 2-3 (domain) |
+| 15 | Music fans | Affective | Moderate | High affective | Shared | 🟢 Affective | S1+weak S2 | 1-2 |
+| 16 | Study group | Verbal-cognitive | Shared problem | Same skill | Rich | 🟢 Domain | S2 (cognitive) | 2 |
+| 17 | Celebrity parasocial | Composite | Deep media | Medium | **Zero** | 🔴 Distorted | S1 one-sided | 0 (illusion) |
+| 18 | Mẹ-bé sơ sinh | Affective+somatic | Growing | Low (age) | Contingent | 🟢 Proto | **S1 CỰC MẠNH** | 4 (hw) |
 
-### §9.2 — Case-by-case analysis (key cases)
+**v2.1 note**: EA Mức column maps Entity-Access gradient (EA v1.2) onto existing cases. Cases 11-13 show mẹ→con lifecycle: Mức 2→4 (growing) → 4→5? (suppress/excess trajectory). Case 17 parasocial = Mức 0 actual but illusion of high.
 
-**Case 3 — Dog cúp đuôi ẳng ẳng**:
+### §9.2 — Key case analyses
 
-- Pattern-Type: Affective fires automatically từ distress cues. Cognitive blocked (can't simulate dog's mental state).
-- Depth: Thin — few chunks về dog psychology, but many chunks về own distress experience.
-- Similarity: Low — cross-species, self-template only maps to affective surface.
-- Feedback: Limited — can observe dog's behavioral response but not internal state.
-- **Output**: "Thương hại" (projection of own sadness template). NOT accurate dog-state reading, but affective response genuine.
-- **Lesson**: Affective Self-Pattern-Match can fire without cognitive. Cross-species sympathy is affective-only SPM.
+**Case 3 — Dog (reclassified v3.1)**:
+- v1.0: "Failed Resonance" (cross-species)
+- v3.1: **Genuine Resonance** — Stream 1 (cute → dopamine, hardware) + Proto-Stream 2 (associative mutual conditioning)
+- SPM = affective-only (no cognitive simulation of dog's mind)
+- "Failed" label was wrong — Resonance doesn't require SPM
 
-**Case 5 — Chuột**:
-
-- Pattern-Type: None fires — no distress cues matching human templates, no cognitive content detectable, no somatic posture readable.
-- Depth: Very thin — few chunks about mouse internal state.
-- Similarity: Below threshold — too divergent species, no template maps.
-- Feedback: None toward mouse; behavioral observation minimal.
-- **Output**: Self-Pattern-Match **fails entirely**. Brain falls back to Layer 1+2 mechanical prediction using accumulated behavioral chunks (dọc tường, avoid light, mùi thức ăn).
-- **Lesson**: Behavioral prediction **does not require** Self-Pattern-Match. Chunks + rules (Layer 1+2) suffice for deterministic-enough targets. Self-Pattern-Match is OPTIONAL, not required.
-
-**Case 7-8 — Đức Mẹ Mode 1 vs Mode 2**:
-
-**Mode 1** (daily devotion, rote prayer):
-- Pattern-Type: None — zero simulation
-- Schema Layer 4 override: "Đức Mẹ luôn yêu thương, luôn bảo vệ"
-- Cognitive load: zero (no uncertainty to resolve)
-- Body response: comfort via schema rule + ritual compile
-- **Lesson**: Schema can REPLACE Self-Pattern-Match entirely. Mode 1 = Layer 4 override, Layer 3 not invoked.
-
-**Mode 2** (intense mystical prayer, dialogue):
-- Pattern-Type: Composite imagined — tín đồ simulates Đức Mẹ's feelings, gaze, disappointment, love
-- Depth: Schema-provided — schema fills in content where direct observation impossible
-- Similarity: Schema-based — tín đồ projects own self-template onto virtual agent
-- Feedback: None real, but schema provides internal consistency
-- **Output**: Intense emotional experience, virtual agent feels "real"
-- **Lesson**: Mode 2 = Self-Pattern-Match applied to schema-constructed virtual target. Same mechanism as real agent, target is imagined.
+**Case 5 — Chuột (threshold confirms)**:
+- All axes fail → SPM cannot fire → mechanical fallback
+- Chunks + rules (dọc tường, avoid light) predict behavior WITHOUT SPM
+- **Proves**: SPM optional. Chunk-based prediction works for deterministic targets.
 
 **Cases 11-13 — Mother over time**:
+- Day 0: F2 Fresh (learning, costly). S1 strong (baby schema). S2 = 0.
+- Year 1: F1 Compiled (efficient). S1 moderate (habituating). S2 growing.
+- Year 10: Schema blocks both. S1 habituated. S2 blocked. Routine only.
+- Same target traverses Compiled/Fresh + 2-Stream over TIME.
 
-Same target, same species, same hardware classification — but Self-Pattern-Match dynamic varies radically:
+**Case 17 — Parasocial (PFC=Lawyer)**:
+- Rich SPM + zero feedback → progressive distortion
+- PFC narrative: "we understand each other" = Lawyer justifying attachment
+- Domain reality (celebrity unaware) = ARBITER contradicting PFC
+- **Lesson**: PFC=Lawyer + no feedback = distortion machine
 
-**Day 0 (new mother, young child)**:
-- Depth growing rapidly từ daily interaction
-- Similarity moderate (child learning mother's patterns)
-- Feedback rich (constant real-time)
-- Composite Pattern-Type firing actively
-- **High cognitive load, active learning**
+**Case 18 — Mẹ-bé (STRONGEST Resonance)**:
+- Baby can't run SPM → v1.0 confused (how can Resonance exist?)
+- v3.1: Stream 1 = evolution-protected STRONGEST by-product match (baby schema triggers maternal hardware INDEPENDENT of SPM)
+- Proto-Stream 2: contingent response loop (mẹ → bé → mẹ)
+- SPM emerges Stage 2 (14-24m) → full Stream 2 follows
+- **Proves**: Resonance definition MUST accommodate pre-SPM bonds
 
-**Year 1 (familiar routine)**:
-- Depth deep (compiled over months)
-- Similarity high (template calibrated)
-- Feedback rich but integrates fast
-- Composite fires rapidly, rarely needs re-modeling
-- **Lower cognitive load, routine schema handles baseline, SPM fires on deviations**
+### §9.3 — Gradient lessons (v2.0)
 
-**Year 10 (negative schema overlay, "ghét mẹ" after years of conflict)**:
-- Depth deep but **access blocked** by negative overlay
-- Similarity high but template **actively rejected**
-- Feedback rich but **ignored** (routine script takes over)
-- Pattern-Type narrowed to verbal-cognitive (chào theo thói quen)
-- **Self-Pattern-Match suppressed** by hostile schema
-- **Logic-Feeling §7.1 sub-case D "Dehumanization-lite"**
-- **Lesson**: Self-Pattern-Match can be actively blocked by schema overlay even when all axes theoretically high. Suppression is DANGER zone for relationships.
+12 validated insights:
+1. SPM = function on chunk substrate ✅
+2. Quality gradients smoothly across axes ✅
+3. Threshold failure (chuột) → mechanical fallback ✅
+4. Schema override can replace/provide (Mode 1/2) ✅
+5. Domain depth ≠ personal depth ✅
+6. Feedback essential for calibration ✅
+7. Compiled/Fresh visible in mother-over-time ✅
+8. 2-Stream explains "failed" cases (genuine Resonance) ✅
+9. PFC=Lawyer visible in parasocial ✅
+10. Domain=Arbiter visible in reality-vs-prediction ✅
+11. Anti-match (CEO-comfort by-products conflict) ✅
+12. Per-pair topology (same person, different pair shape) ✅
 
-**Cases 14-16 — "Hiểu nhau" without personal depth**:
+### §9.4 — Falsifiers
 
-**Mathematicians/physicists**:
-- Depth: Deep in DOMAIN (math chunks), thin in PERSONAL
-- Similarity: Moderate (shared cognitive style) — enough for cognitive template mapping
-- Pattern-Type: Visual-symbolic dominant
-- Feedback: Rich real-time (gestures, writing, verbal)
-- Output: "Hiểu nhau" at the math level — rich cognitive resonance
-- **Lesson**: "Hiểu nhau" không require shared personal history. Shared DOMAIN chunks + domain-specific Pattern-Type + feedback = sufficient for Pattern-Resonance in that domain.
+H9 falsified if:
+- SPM fires fully with alexithymia (Bird & Cook wrong)
+- Agent-reading in dedicated hardware (not chunk substrate)
+- Parasocial NOT distorted (feedback axis irrelevant)
+- Cross-species full cognitive simulation (similarity axis wrong)
+- Mouse prediction requires SPM (Layer 1+2 insufficient)
+- Stream 1 doesn't habituate (Weber-Fechner wrong socially)
+- Mẹ-bé requires SPM from baby (2-Stream wrong)
 
-**Music fans at concert**:
-- Depth: Moderate (shared musical chunks)
-- Similarity: High in affective response to music (shared sensibility)
-- Pattern-Type: Affective primary
-- Feedback: Via shared stimulus (same song triggering same affective response in both)
-- Output: "Cùng gu", "cùng tần số" feeling
-- **Lesson**: Pattern-Resonance can fire on **shared stimulus** without direct mutual interaction. External anchor (the music) serves as co-firing trigger.
-
-**Study group stuck on same problem**:
-- Depth: Deep in shared problem (same reading, same attempted approaches)
-- Similarity: Same skill level, similar reasoning patterns
-- Pattern-Type: Verbal-cognitive + visual-symbolic (seeing same impasse)
-- Feedback: Rich discussion
-- Output: "I know where you're stuck"
-- **Lesson**: Cognitive Pattern-Resonance in shared problem domain.
-
-**Case 17 — Celebrity parasocial**:
-
-- Depth: Deep via media consumption (interviews, songs, social media)
-- Similarity: Medium (fan identifies with perceived self of celebrity)
-- Pattern-Type: Composite (affective + cognitive + visual)
-- Feedback: **Zero** — one-way only, celebrity doesn't know fan exists
-- **Critical gap**: Feedback axis fails → Self-Pattern-Match runs in open loop → library never corrects → templates distort increasingly
-- **Output**: Fan feels "know" the celebrity deeply. Prediction fails when reality intrudes (celebrity behaves unexpectedly, dies, scandal emerges) → parasocial distress
-- **Lesson**: Rich chunks + high effort cannot substitute for feedback. Pattern-Resonance emergence requires all 4 axes including feedback. Parasocial = high SPM without possibility of Pattern-Resonance → distortion risk.
-
-### §9.3 — Gradient lessons summary
-
-From the 17 cases, H9 predictions validated:
-
-1. **Self-Pattern-Match is a function on chunk substrate**, not category lookup. ✅
-2. **Quality gradients smoothly** across 4 axes. ✅
-3. **Threshold failure is real** (chuột) → Layer 1+2 fallback preserves behavior prediction. ✅
-4. **Schema override can replace entirely** (Mode 1) or provide virtual substrate (Mode 2). ✅
-5. **Domain depth ≠ personal depth** — "hiểu nhau" possible without personal intimacy (mathematicians, fans, study groups). ✅
-6. **Feedback is essential** for Pattern-Resonance emergence; parasocial fails on this axis. ✅
-7. **Suppression possible** even when theoretical axes high (mother-10-year negative overlay). ✅
-8. **Cross-species yields affective-only SPM** (dog sympathy), not full simulation. ✅
-9. **Composite Pattern-Type is native mode** for rich relationships (family, close friends). ✅
-10. **Same target can traverse quadrants** over time (mother example). ✅
-
-### §9.4 — Negative cases (what would falsify H9)
-
-H9 would be **falsified** if:
-- Evidence shows Self-Pattern-Match fires fully even with alexithymia (would contradict Bird & Cook 2013 architectural claim)
-- Evidence shows "agent-reading" is stored in dedicated hardware region without being a function on chunk substrate
-- Evidence shows parasocial relationships are NOT distorted (would suggest feedback axis doesn't matter)
-- Evidence shows cross-species full cognitive simulation possible (would suggest similarity axis is wrong)
-- Evidence shows mouse prediction requires Self-Pattern-Match (would contradict Layer 1+2 sufficiency claim)
-
-To date, none of these falsifiers are observed. H9 stands as **consistent with evidence**.
+None observed. H9 consistent.
 
 ---
 
----
+## §10 — Schema override (Mode 1 / Mode 2)
 
-## §10 — Schema override (Mode 1 / Mode 2) + religious cases
-
-Layer 4 Schema override có thể bypass hoặc reshape Self-Pattern-Match entirely. Đây là mechanism explaining how abstract/imagined/schema-defined agents can elicit agent-like responses mà không cần real Self-Pattern-Match firing.
+Schema override = Layer 4 mechanism có thể bypass hoặc reshape SPM entirely. Explains how abstract/imagined/schema-defined agents elicit agent-like responses without real SPM firing.
 
 ### §10.1 — Mode 1: Pure schema trust (zero modeling)
 
-**Definition**: Schema rule defines entity's behavior as **constant + absolute**, eliminating need for Self-Pattern-Match simulation. Body responds to schema rule as if agent were predictable object.
-
-**Mechanism**:
+Schema rule defines entity's behavior as **constant + absolute** → eliminates need for SPM.
 
 ```
-Entity encounter
-   ↓
-Schema rule fires: "Entity X → always Y"
-   ↓
-Prediction := schema rule (no simulation needed)
-   ↓
-Body response (comfort, trust, obedience)
-   ↓
-Zero cognitive load, zero uncertainty
+Entity encounter → Schema fires: "Entity X → always Y"
+  → Prediction := schema (no simulation)
+  → Body response (comfort, trust, obedience)
+  → Zero cognitive load, zero uncertainty
 ```
-
-**Cognitive load**: Zero — không có uncertainty để resolve. Schema handles everything.
-
-**Emotional profile**: Stable, comforting, reliable. "Placebo of certainty" — real body response (cortisol decrease, oxytocin release) driven by schema, not by actual agent interaction.
 
 **Examples**:
 
-**Đức Mẹ mẫu ảnh (Mode 1)**:
-- Schema: "Đức Mẹ luôn yêu thương, luôn bảo vệ"
-- No question "hôm nay Đức Mẹ có giận mình không?" — schema eliminates uncertainty
-- Daily devotion, rote prayer, physical touching of icon → schema fires → body comfort
-- Mẫu ảnh = anchor for schema trigger, not target of simulation
-- Self-Pattern-Match NOT invoked
+**Đức Mẹ Mode 1** (daily devotion, rote prayer):
+- Schema: "luôn yêu thương, luôn bảo vệ"
+- No question "hôm nay Đức Mẹ giận không?" — schema eliminates uncertainty
+- Icon = anchor for schema trigger, not target of simulation
+- SPM NOT invoked. Cost: zero. Body response: comfort (real cortisol decrease, oxytocin)
 
-**Simple tools as Mode-1-adjacent**:
-- Tủ lạnh, xe máy, cái bút: schema "tool provides utility reliably" handles prediction
-- No Self-Pattern-Match needed (tools aren't agents, but functionally similar to Mode 1 schema agents — zero uncertainty, stable utility)
+**Lucky charm / amulet**:
+- Schema: "this object protects me"
+- Touch → schema fires → anxiety reduction. Body response real.
 
-**Lucky charm, amulet**:
-- Schema: "This object protects me"
-- Physical touching → schema fires → anxiety reduction
-- Body response real even though causal mechanism is schema-based
+**Simple tools (tủ lạnh, xe máy)**:
+- Schema: "tool provides utility reliably" → zero uncertainty, stable utility
 
-**Why Mode 1 "works" psychologically**:
-- Real agents (mẹ thật, bạn thân) carry uncertainty → possibility of disappointment
-- Schema agents (Đức Mẹ Mode 1) carry zero uncertainty → never disappoint
-- Body-base need for stable trust (Agent Input need) satisfied **without** the real-agent cost of uncertainty
-- Evolutionary value: brain can satisfy social-presence needs via schema when real agents unavailable or unreliable
+**Why Mode 1 "works"**:
+- Real agents carry uncertainty → possible disappointment
+- Schema agents carry ZERO uncertainty → never disappoint
+- Body-need for stable trust satisfied WITHOUT real-agent cost
+- Architecture B: brain satisfies social-presence needs via schema when real agents unavailable/unreliable
+
+**PFC = Lawyer note**: PFC narrative about WHY self trusts schema = post-hoc. Body trusts FIRST (compiled from childhood), PFC explains after.
 
 ### §10.2 — Mode 2: Imagined modeling overlay
 
-**Definition**: Schema provides **substrate** for Self-Pattern-Match to run on, creating a **virtual agent**. Tín đồ simulates the schema entity AS IF it were a real agent with states (feelings, thoughts, reactions).
-
-**Mechanism**:
+Schema provides **substrate** for SPM to run on → virtual agent.
 
 ```
-Entity encounter + schema active
-   ↓
-Self-Pattern-Match fires toward schema entity
-   ↓
-Schema fills in target's "state" content (virtual)
-   ↓
-Tín đồ simulates: "Đức Mẹ đang NHÌN tôi, đang BUỒN vì tôi phạm lỗi"
-   ↓
-Body responds to simulated other-state
-   ↓
-Intense emotional experience, "presence" felt
+Entity + schema active → SPM fires toward schema entity
+  → Schema fills in target's "state" content (virtual)
+  → "Đức Mẹ đang NHÌN tôi, đang BUỒN vì tôi phạm lỗi"
+  → Body responds to simulated other-state
+  → Intense emotional experience
 ```
-
-**Cognitive load**: High — full simulation running, plus imaginative effort to "see" virtual agent.
-
-**Emotional profile**: Intense, mystical, can involve guilt/love/awe. Real body response + real subjective experience + no real external agent.
 
 **Examples**:
 
-**Đức Mẹ Mode 2 (intense prayer, dialogue)**:
-- Tín đồ imagines Đức Mẹ's gaze, expression, emotional response to their confession
-- Self-Pattern-Match fires full composite (affective + somatic + cognitive + visual)
-- Schema provides "template" for what Đức Mẹ would feel/think
-- Prayer becomes intimate dialogue with virtual agent
-- Emotional intensity can match real social interaction
+**Đức Mẹ Mode 2** (intense prayer, dialogue):
+- Tín đồ imagines Đức Mẹ's gaze, expression, emotional response
+- SPM fires full composite on virtual agent
+- Schema provides template for what Đức Mẹ would feel/think
+- Intensity can match real social interaction
 
 **Talking to deceased loved one**:
-- Grieving person imagines deceased's reactions, advice, love
-- Self-Pattern-Match fires using memories + compiled chunks of deceased
+- SPM fires using memories + compiled chunks of deceased
 - Virtual agent "responds" from schema-stored personality
-- Provides continued social presence despite real absence
+- Continued social presence despite real absence
 
 **Fictional character engagement**:
-- Reader/viewer simulates character's internal experience
-- Author's writing provides schema substrate (character personality + context)
-- Self-Pattern-Match fires as if character were real agent
+- Author's writing provides schema substrate
+- SPM fires as if character were real
 - Explains deep emotional engagement with fiction
 
-**Mental dialogue with internalized figure (mentor, parent)**:
-- "What would Socrates say about this?" / "What would my grandmother advise?"
-- Internalized figure as schema, self-template simulation fires
-- Useful for decision-making, moral reasoning, problem-solving
+**Mental dialogue with internalized figure**:
+- "What would grandmother advise?" / "What would Socrates say?"
+- Internalized figure as schema, SPM fires on virtual agent
+- Useful for decision-making, problem-solving
 
-**Mode 2 cost vs benefit**:
-- **Benefit**: Deeper emotional engagement, agent-input need strongly fulfilled, social-presence powerful
-- **Cost**: High cognitive load, no real feedback → potential distortion (parasocial risk if prolonged + intense)
-- **Trade-off**: Tín đồ can switch Mode 1/Mode 2 based on need — routine devotion uses Mode 1 efficient, crisis prayer invokes Mode 2 for deeper connection
+**Mode 2 cost/benefit**:
+- Benefit: deeper engagement, agent-input need strongly fulfilled
+- Cost: high cognitive load, no real feedback → potential distortion
+- **Domain=Arbiter**: Mode 2 outputs are NOT verified by reality (no external agent) → cannot self-correct
 
 ### §10.3 — Mode 1/Mode 2 dynamic switching
 
-Important: Religious practitioner is NOT stuck in one mode. Tín đồ moves fluidly:
+Religious practitioner moves fluidly:
+- Routine prayer → Mode 1 (efficient, maintenance)
+- Crisis moment → Mode 2 (intense dialogue)
+- Contemplation → Mode 2 (imaginative reflection)
+- Ritual → Mode 1 (schema comfort, no deep simulation)
+- Confession → Mode 2 (simulated disappointment, guilt)
 
-- **Routine prayer** → Mode 1 (efficient, maintenance)
-- **Crisis moment** → Mode 2 (intense dialogue, deep engagement)
-- **Contemplation** → Mode 2 (imaginative theological reflection)
-- **Ritual participation** → Mode 1 (schema fires, body comfort, no deep simulation)
-- **Confession / repentance** → Mode 2 (simulated disappointment of Đức Mẹ, guilt processing)
+### §10.4 — Cow/stone worship
 
-Similar dynamic with other schema entities: deceased loved ones, mentors, fictional characters, historical figures.
+Physical object (cow, stone, icon) = **anchor/vessel** for abstract divine schema, NOT itself the target.
 
-### §10.4 — Cow/stone worship analysis
+- **Hindu cow**: divine vessel → worship through cow to divine principle. Mode 1.
+- **Shiva lingam / Kaaba stone**: divine presence at/in stone. Touch → schema → comfort. Mode 1.
+- **Shinto kami**: spirits inhabit objects. Physical = vessel, kami = agent.
+- **Primitive animism (adult retention)**: mix Mode 1 + uncalibrated SPM projection.
 
-User's question: "các tôn giáo thờ bò, thờ cục đá thì sao. họ tin vào con bò, tin vào cục đá. hay họ tin vào ông trời, hay tin vào một đấng tạo hóa nào đó đứng sau con bò, cục đá?"
+Pattern: physical anchor + abstract divine schema = Mode 1 or Mode 2. Agent-ness is SCHEMA-DEFINED, not stored in physical object.
 
-**Framework answer**: For mature religious traditions, the physical object (cow, stone, icon) is **anchor/vessel/focal point** for an **abstract divine schema**, NOT itself the target of worship.
+**Exception — Piaget animism (2-7y)**: children genuinely attribute intent (ghế bị đau). = uncalibrated SPM projection, NOT schema override. Calibration over time refines boundary.
 
-**Hinduism (cow veneration)**:
-- Mature Hindu doctrine: cow embodies divine principles (Kamadhenu, association with Krishna, Shiva's mount Nandi, general sanctity)
-- Worship flows **through** cow **to** divine principle
-- Schema: "Cow is sacred vessel of divine presence" → trust + protection + respect
-- Individual cow not modeled as agent with personal state
-- Mode 1 typical (schema trust, no simulation of specific cow's feelings)
+### §10.5 — Bác Hồ / Đảng schema link
 
-**Stone worship (Shiva lingam, Kaaba black stone, sacred megaliths)**:
-- Stone serves as **physical anchor** for divine presence/principle
-- Schema: "Divine is present at/in this stone" → pilgrimage, touch, prayer
-- Stone not itself the agent — divine is the agent, stone is the locus
-- Mode 1 typical (touch stone → schema fires → comfort)
-- Mode 2 possible (deep meditation with imagined divine presence)
+```
+Schema chain: Individual soldier → Bộ đội category → Đảng → Bác Hồ
+  → Valence from schema: yêu quý, trust
+  → Prediction: "fights for what I believe"
+  → Action: share food even in hardship (body-need feeding via schema)
+  → SPM minimal (schema handles) + some affective empathy for hardship
 
-**Shintoism (kami in objects/places)**:
-- Kami (spirits) inhabit objects, trees, stones, places
-- The physical entity = **vessel**, kami = the agent
-- Schema links physical to spiritual agent
-- Worship directed through physical to kami
+= Mode 1 schema-linked processing: schema fires, behavior follows,
+  no individual SPM required. Same mechanism as religious Mode 1.
 
-**Primitive stone worship / animism adult retention**:
-- Mix of Mode 1 schema override AND uncalibrated Self-Pattern-Match projection
-- Some believers truly attribute intent to the physical object (closer to children's animism)
-- Others use physical as vessel for abstract spiritual force (Mode 1 schema)
-- Cultural variation high
+CONTRAST — quân giặc:
+  → Same mechanism, opposite valence
+  → Enemy schema → hostility, SPM SUPPRESSED (dehumanization)
+  → No simulation of individual state — schema predicts all
+```
 
-**Pattern across traditions**:
+→ **Schema polarity determines SPM invocation or suppression**.
 
-> Physical anchor (cow/stone/icon) + abstract divine schema = Mode 1 or Mode 2 processing.
->
-> Agent-ness is NOT stored in the physical object. Agent-ness is schema-defined and projected via Layer 4 override mechanism.
+### §10.6 — Summary table
 
-**Exception — young child animism (Piaget 2-7 years)**:
-- Genuinely attribute intent to physical objects (ghế bị đau, búp bê buồn)
-- This IS Self-Pattern-Match projection, uncalibrated
-- Differs from adult religious practice (which uses schema override)
-- Calibration over time refines boundary between agents and objects
-
-### §10.5 — Bác Hồ / Đảng Cộng Sản schema link case
-
-User's example: "tin vào Đảng Cộng Sản, tin vào Bác Hồ, cho đồ ăn và yêu quý mọi agent mặc áo bộ đội cụ Hồ, mặc dù hoàn cảnh khó khăn"
-
-**Framework analysis**:
-
-**Schema structure**:
-- Primary schema: "Bác Hồ = đạo đức cao, yêu dân, hy sinh cho đất nước"
-- Primary schema: "Đảng Cộng Sản = protector of nation, led revolution, mục tiêu giải phóng"
-- Derived schema: "Bộ đội Cụ Hồ = Đảng's soldiers, Bác Hồ's children, fight for nation"
-- Link chain: Individual soldier → Bộ đội category → Đảng schema → Bác Hồ schema
-
-**Encounter mechanism**:
-- Bà mẹ Việt Nam sees stranger soldier
-- VTC detects agent (person)
-- Schema link activates: soldier → Đảng/Bác Hồ chain
-- Valence from schema: yêu quý, trust, protection impulse
-- Prediction from schema: "this person fights for what I believe" → safe, worthy of sacrifice
-- Self-Pattern-Match may fire light (affective empathy for fighter in hardship) but dominated by schema valence
-- Action: share food even in hardship → because body-need feeding via schema-defined agent
-
-**Why it "works"**:
-- Individual soldier doesn't need to earn trust through interaction — schema pre-provides it
-- Zero or minimal cognitive load (no deliberation needed about whether to help)
-- Emotional intensity real (love for country flows through to love for representatives)
-- Body-need satisfaction: sharing with "my people" feeds social belonging need
-
-**This is Mode 1 schema-linked processing**: schema rule fires, behavior follows, no individual Self-Pattern-Match required. Similar mechanism to religious Mode 1, just with secular/ideological schema.
-
-**Contrast — quân giặc (enemy)**:
-- Same mechanism, opposite valence
-- Stranger in enemy uniform → "enemy" schema → hostility, fear, hostility
-- Self-Pattern-Match **actively suppressed** (dehumanization, Logic-Feeling §7.1 DANGER zone)
-- No simulation of enemy's individual state — schema handles prediction
-- Behavioral outcome: hostility, combat readiness, willingness to harm
-
-→ **Schema polarity determines Self-Pattern-Match invocation or suppression**. Positive schema → welcome SPM; negative schema → suppress SPM.
-
-### §10.6 — Religious + ideological cases summary
-
-| Case | Schema | Mode typical | Self-Pattern-Match status |
+| Case | Schema | Mode | SPM status |
 |---|---|---|---|
-| Đức Mẹ daily prayer | "Luôn yêu thương, bảo vệ" | Mode 1 | Not invoked |
-| Đức Mẹ intense prayer | "Đang nhìn tôi, cảm xúc" | Mode 2 | Fully invoked on virtual agent |
-| Cow veneration (Hindu) | "Divine vessel" | Mode 1 | Not invoked for individual cow |
-| Sacred stone / lingam | "Divine presence" | Mode 1 | Not invoked |
-| Shinto kami in tree | "Spirit inhabits" | Mode 1 or Mode 2 | Limited / virtual agent |
-| Ancestor worship | "Ancestor presence, guidance" | Mode 2 often | Virtual agent simulation |
-| Bác Hồ schema | "Revered leader, đạo đức" | Mode 1 (link) | Not invoked for stranger bộ đội |
-| Quân giặc | "Enemy, dangerous" | Mode 1 (link) + SPM suppression | **Suppressed** (dehumanization) |
-| Celebrity fan | Parasocial imagined | Mode 2 | Over-invoked, no feedback → distortion |
-| Cult leader (follower POV) | "All-knowing, protector" | Mode 1 | Suppressed critical SPM |
+| Đức Mẹ daily | "Luôn bảo vệ" | Mode 1 | Not invoked |
+| Đức Mẹ intense prayer | "Đang nhìn tôi" | Mode 2 | Full virtual |
+| Cow veneration | "Divine vessel" | Mode 1 | Not invoked |
+| Sacred stone | "Divine presence" | Mode 1 | Not invoked |
+| Ancestor worship | "Ancestor presence" | Mode 2 | Virtual agent |
+| Bác Hồ schema | "Revered leader" | Mode 1 (link) | Not invoked for stranger bộ đội |
+| Quân giặc | "Enemy" | Mode 1 + suppress | **Suppressed** |
+| Celebrity fan | Parasocial | Mode 2 | Over-invoked, no feedback |
+| Cult leader | "All-knowing" | Mode 1 | Critical SPM suppressed |
 
-**Framework insight**: Schema override is **double-edged**. Same mechanism enabling religious comfort + national solidarity + moral commitment also enables parasocial distortion + dehumanization + cult vulnerability. The mechanism itself is neutral; content of schema determines outcome.
+**Double-edged**: Same mechanism enabling religious comfort + national solidarity also enables parasocial + dehumanization + cult vulnerability. Mechanism neutral; schema content determines outcome.
 
 ---
 
 ## §11 — Schema-Linked Agent Processing (individual → collective)
 
-Section này formalizes **how encountering an agent (known or unknown) invokes schemas, and how schemas provide valence/prediction/behavioral script/identity feeling**. Integrates user's "Collective-Agent" insight as extended scale of general schema-linking mechanism.
-
 ### §11.1 — Core mechanism
 
-**Schema-Linked Agent Processing** = when self encounters agent, PFC links agent to 1+ schemas. Schemas provide:
+When self encounters agent, PFC links to 1+ schemas. Schemas provide:
+1. **Valence** (yêu/ghét/sợ/tin/neutral)
+2. **Prediction template** (what agent will do)
+3. **Behavioral script** (how to interact)
+4. **Identity/belonging** (am I "with" or "against"?)
 
-1. **Valence** (yêu / ghét / sợ / tin / trung lập)
-2. **Prediction template** (what agent will do, want, need)
-3. **Behavioral script** (how to interact, what actions appropriate)
-4. **Identity / group belonging feeling** (am I "with" this agent, "against", or "neutral"?)
-
-This happens **rapidly**, often before conscious Self-Pattern-Match firing. Schema linking is **upstream** of detailed simulation.
+Happens rapidly, often BEFORE conscious SPM. Schema linking = **upstream** of simulation.
 
 ```
-Agent encounter (known or unknown)
-   ↓
-VTC hardware detection (innate trigger)
-   ↓
-Schema retrieval: which schemas match this agent?
-   ↓
-Schema link established (1 or multiple schemas)
-   ↓
-Schema provides: valence + prediction template + script + identity
-   ↓
-Self-Pattern-Match invoked (or suppressed) based on schema polarity
-   ↓
-Interaction proceeds
+Agent encounter → VTC trigger → Schema retrieval → Schema link
+  → Valence + prediction + script + identity
+  → SPM invoked or suppressed based on schema polarity
+  → Interaction proceeds
 ```
 
 ### §11.2 — Schema scale gradient (individual → universe)
 
-User's insight: schemas operate at **multiple scales**. Same mechanism (linking + valence + prediction + identity) applies from individual to universal:
+| Scale | Example | Valence source | SPM role |
+|---|---|---|---|
+| 1 Individual | Bạn thân Mai | Personal schema | Full composite SPM |
+| 2 Group | Bạn của Mai (chưa gặp) | Inherited trust | Moderate SPM |
+| 3 Community | Đồng nghiệp cùng ngành | Professional schema | Domain SPM only |
+| 4 Collective | Bộ đội Cụ Hồ lạ | "Đảng+Bác Hồ" schema | Minimal, schema dominates |
+| 5 Religious | Fellow believer lạ | "Chung đấng tối cao" | Schema-mediated |
+| 6 Humanity | "Con người phần đông tốt" | Humanity trust schema | Default open |
+| 7 Universal | Cosmic belonging | Pantheistic/philosophical | Biophilia extension |
 
-**Scale 1 — Individual**:
-- Bạn thân Mai: schema "Mai's personality + shared history" directly linked to this specific person
-- Prediction from schema: "Mai will react Y to situation X because of her personality"
-- Valence: yêu quý, trust, ease of interaction
-- Self-Pattern-Match fires rich composite
+**Why NOT separate file**: Collective-Agent = same Schema-Linked mechanism at larger scale. Same process (link → valence → prediction → identity), different scale. Not a distinct mechanism.
 
-**Scale 2 — Small group / network**:
-- Bạn thân của Mai (chưa gặp) → linked through Mai's schema + "nhóm chơi chung của Mai"
-- Prediction: "probably similar vibe, trust by association"
-- Valence: moderate positive trust
-- Self-Pattern-Match fires with moderate depth (inherited from group characteristics)
+### §11.3 — Polarity + SPM invocation
 
-**Scale 3 — Community / category**:
-- Đồng nghiệp trong ngành → linked to "same profession" schema
-- Prediction: "shares technical vocabulary, common concerns, professional norms"
-- Valence: neutral-positive (shared identity)
-- Self-Pattern-Match fires in shared domain (profession), not personal
-
-**Scale 4 — Collective / nation**:
-- Bộ đội Cụ Hồ lạ → linked to "Đảng + Bác Hồ + quân đội nhân dân" schema
-- Prediction: "defends nation, embodies values I trust"
-- Valence: strong positive (love, willing to sacrifice)
-- Self-Pattern-Match minimal (schema handles most); some affective SPM for fellow suffering
-
-**Scale 5 — Religious / ideological**:
-- Fellow believer lạ (cùng tôn giáo) → linked to "chung đấng tối cao, same spiritual family"
-- Prediction: "shares values, similar moral framework"
-- Valence: warmth, trust
-- Self-Pattern-Match in shared schema domain
-
-**Scale 6 — Humanity-wide**:
-- "Có niềm tin con người phần đông tốt bụng" → humanity trust schema
-- Prediction: "most people are safe + cooperative baseline"
-- Valence: general openness, warmth toward strangers
-- Self-Pattern-Match default positive stance
-- Result: "thấy cuộc sống tươi đẹp, ra đường thấy mọi người đều niềm nở"
-
-**Scale 7 — Universal / cosmic**:
-- Rare — "belonging to universe", "cosmic consciousness"
-- Schema: pantheistic / spiritual / philosophical worldview
-- Prediction: "all is connected, I am part of whole"
-- Valence: awe, reverence, peace
-- Self-Pattern-Match may fire on nature / life in general (biophilia extension)
-
-### §11.3 — Polarity + schema type
-
-Schemas come in polarity + type, combining to determine Self-Pattern-Match outcome:
-
-**Positive schemas** (invite Self-Pattern-Match):
-- Family, friend, loved one
-- Ally, teammate, co-believer
-- National identity (own people)
-- Trusted institution
-- Humanity trust (general positive baseline)
-
-**Negative schemas** (suppress Self-Pattern-Match):
-- Enemy (quân giặc)
-- Threat (stranger in hostile context)
-- Out-group (dehumanized category)
-- Betrayer (previously trusted, now rejected)
-- Disgust target (violation of moral schema)
-
-**Neutral schemas** (moderate Self-Pattern-Match):
-- Stranger in normal context
-- Professional interaction (role-based)
-- Background noise
-- Transactional relationship
+**Positive schemas** (invite SPM): family, friend, ally, national identity, humanity trust.
+**Negative schemas** (suppress SPM): enemy, threat, out-group, betrayer, disgust target.
+**Neutral schemas** (moderate SPM): stranger normal context, professional, transactional.
 
 **Schema switching** creates rapid valence flips:
-- Stranger in normal street → neutral
-- Same stranger seen in threatening context (fight, weapon, aggressive posture) → negative schema activates → suppression + fear response
-- Same stranger revealed to be member of revered group → positive schema → SPM invoked + trust
+- Stranger normal → neutral
+- Same stranger in threatening context → negative → SPM suppressed
+- Same stranger revealed as revered group member → positive → SPM invoked
 
-### §11.4 — User's examples mapped
+### §11.4 — Architecture B framing
 
-| User's example | Schema linked | Scale | Valence | SPM invocation |
-|---|---|---|---|---|
-| Best friend | Individual schema "Mai + shared history" | 1 | Strong positive | Full composite |
-| Bạn thân's friend group | Group schema "Mai's crew" | 2 | Moderate positive | Moderate |
-| Bộ đội Cụ Hồ lạ | Collective "Đảng + Bác Hồ + quân đội" | 4 | Strong positive | Schema dominates, light SPM |
-| Tín đồ cùng tôn giáo lạ | Religious "chung đấng tối cao" | 5 | Warmth, trust | Schema-mediated |
-| Humanity trust ("cuộc sống tươi đẹp") | Universal "con người phần đông tốt" | 6 | Baseline positive | Default open |
-| Quân giặc | Enemy "hostile, threat" | 4 | Hostile | **Suppressed** |
+WHY schemas evolved at collective scale:
 
-### §11.5 — Why Collective-Agent không phải mechanism riêng
+```
+Architecture B = 15-20 năm compile → need GROUP (not just 1 caregiver).
+  → Group = shared schemas = efficient trust-at-scale
+  → Without collective schema: must build SPM per individual (costly)
+  → With collective schema: "category = trusted" → instant trust for new members
+  → = HOW Architecture B scales social hardware beyond dyad
 
-User initially asked if Collective-Agent phenomenon (tin Đảng, humanity trust, nation belonging) deserves separate file. Framework answer: **NO — it's the same Schema-Linked Agent Processing at larger scale**.
+  → Patriotism, religious communion, national pride, brotherhood
+    = NOT irrational. = efficient body-need feeding via large-scale schema.
+```
 
-**Unifying claim**:
-- Individual friend schema (Mai's personality) = schema
-- Nation schema (Đảng + Bác Hồ + bộ đội) = schema
-- Humanity schema (baseline trust) = schema
-- Universe schema (cosmic belonging) = schema
+### §11.5 — Body-need feeding via schema-linked agents
 
-Same mechanism (encounter → link → valence + prediction + script + identity), different scale.
+| Source | Quality | Cost | Example |
+|---|---|---|---|
+| Real agent interaction | Highest | Highest | SPM + Resonance emergence |
+| Schema-linked stranger | Moderate | Lower | "Among my people" feeling |
+| Mode 1 schema agent | Low cost, moderate | Low | Comfort via schema trust |
+| Mode 2 virtual agent | Variable, higher | High | Imagined dialogue |
 
-**What varies across scale**:
-- **Specificity**: individual schema has personality details; collective schema has category features
-- **Depth**: individual schema rich; universal schema thin but wide
-- **Trigger broadness**: individual schema fires for 1 specific person; universal schema fires for anyone matching broad criteria
-- **Self-Pattern-Match role**: individual-scale schemas invite rich SPM; large-scale schemas often handle prediction alone (Mode 1 efficient)
+Collective belonging feeds continuously: walking on street feeling "among my people" → low-level body-need satisfied → baseline social presence.
 
-### §11.6 — Body-need feeding via schema-linked agents
+**Durkheim collective effervescence** (1912 🟢): mass gatherings produce shared emotional state exceeding sum of individuals. Framework: mass SPM co-firing amplifies → group-scale body-level experience.
 
-Critical function of schema-linked processing: **feed body-level agent input need** efficiently.
-
-Body-base has need for social presence (Feeling-Sources §5 Agent Input). This need can be satisfied by:
-
-1. **Real agent interaction** (highest quality, highest cost) — direct SPM + Pattern-Resonance emergence
-2. **Schema-linked stranger interaction** (moderate quality, lower cost) — feel part of "us" via schema
-3. **Mode 1 schema agent** (low cost, moderate benefit) — comfort via schema trust
-4. **Mode 2 virtual agent** (higher cost, variable benefit) — imagined dialogue with absent/deceased/divine
-
-**Collective belonging** (nation, humanity) efficiently feeds agent-input need because:
-- Every stranger in the group counts as "family"
-- Social belonging signal fires continuously (walking on street, feeling part of country)
-- Schema provides stable trust without individual effort
-- Body experiences "I am among my people" continuously
-
-→ This explains **patriotism, religious communion, national pride, brotherhood in causes** — not irrational, but efficient body-need feeding via large-scale schemas.
-
-**Cost side**: Schema-linked processing can be HIJACKED — propaganda, cult manipulation, us-vs-them framing. Same mechanism that feeds belonging via positive schema can fuel hostility via negative schema. Detail in §14 failure modes.
+**Hijack risk**: Same mechanism → propaganda, cult manipulation, us-vs-them framing. Positive schema feeds belonging; negative schema fuels hostility. Detail: §14 failure modes.
 
 ---
 
-## §12 — Agent as body-need feeder
-
-Section này connects Agent mechanism với body-base needs. Self-Pattern-Match + Pattern-Resonance are not just cognitive — they **satisfy body-level requirements** for social presence.
+## §12 — Agent as body-need feeder (Architecture B requirement)
 
 ### §12.1 — Agent input as body-base need
 
-Framework commitment (Feeling-Sources.md §5): body has **need for social presence**. Evidence:
+Body has **need for social presence**. Evidence:
+- 🟢 Social Baseline Theory (Coan 2015): trusted others reduce metabolic cost of threat regulation
+- 🟢 Social pain (Eisenberger 2003): rejection activates same pain regions as physical
+- 🟢 Oxytocin: social bonding drives real neurochemistry
+- 🟢 Solitary confinement: extended isolation causes severe psychological harm
+- 🟢 Loneliness mortality: chronic loneliness risk comparable to smoking
 
-- 🟢 Social Baseline Theory (Coan 2015): proximity to trusted others reduces metabolic cost of threat regulation
-- 🟢 Social pain research (Eisenberger 2003): rejection activates same neural pain regions as physical pain
-- 🟢 Oxytocin research: social bonding drives neurochemistry real
-- 🟢 Solitary confinement research: extended isolation causes severe psychological harm distinct from mere lack of stimulation
-- 🟢 Loneliness health effects: chronic loneliness has mortality risk comparable to smoking
+Body needs social presence like food, water, sleep. Agent mechanism = HOW body obtains this.
 
-Body needs social presence the way it needs food, water, sleep. Agent-reading mechanism is **how body obtains this input**.
-
-### §12.2 — How Self-Pattern-Match feeds the need
-
-Every successful Self-Pattern-Match firing provides **partial agent input**:
-
-- Firing affective pattern toward target → self experiences echo of target's state
-- This echo counts as "social presence" signal for body
-- Repeated successful SPM builds "connection" feeling
-- When Pattern-Resonance emerges (mutual successful SPM), signal is strongest
-
-**Mechanism**:
+### §12.1b — Architecture B makes this STRUCTURAL (not optional)
 
 ```
-Self-Pattern-Match fires on target
-   ↓
-Self experiences simulated other-state
-   ↓
-Body interprets as social presence
-   ↓
+⭐ Social need = ARCHITECTURE REQUIREMENT, not "nice to have":
+
+  Architecture B = general-purpose reward + compilation + social hardware.
+  → Brain CANNOT compile without external input (information, feedback)
+  → Brain CANNOT regulate without social baseline (Coan 2015)
+  → Brain HARDWIRED for social (oxytocin, μ-opioid, dACC reuse)
+  → Alone = DEVIATION from baseline (costly to maintain)
+
+  → Agent mechanism serving body-need = FOUNDATION of Architecture B operation.
+  → Without agents: body in permanent deviation, compilation impaired,
+    reward system understimulated → cortisol elevation → health decline.
+
+  Cross-ref: Inter-Body-Mechanism.md §1 (3 foundations + 4 reasons).
+```
+
+### §12.2 — How SPM feeds the need
+
+```
+SPM fires on target
+  ↓
+Self experiences simulated other-state (F1 Compiled: body-level echo)
+  ↓
+Body interprets as social presence signal
+  ↓
 Agent input need partially satisfied
-   ↓
+  ↓
 Cortisol decrease, oxytocin release, comfort
 ```
 
-This is why **talking with friends** feeds the need even though food/shelter unchanged. The cognitive-affective Self-Pattern-Match firing IS a body-level reward delivery mechanism.
+This = why **talking with friends** feeds need even though food/shelter unchanged. SPM firing IS body-level reward delivery mechanism.
 
-### §12.2b — 2 luồng reward: SPM-owned vs Entity-owned
-
-Cơ chế §12.2 mô tả **Luồng 1** — body-feedback từ MỖI LẦN SPM fire. Nhưng agent feeding body-need có thêm tầng thứ 2 mà §12.2 chưa tách rõ:
+### §12.2b — 2-luồng reward: SPM-owned vs Entity-compiled
 
 **Luồng 1 — SPM-owned (momentary)**:
-- = §12.2 mechanism: SPM fire → body response → social presence signal
-- = Per-episode, có thể + (bạn vui → vui lây) hoặc - (con ốm → khó chịu)
-- = Thuộc về SPM mechanism — Self-Pattern-Match.md §2.1 (F1 Feeling function)
+- Per-episode: SPM fire → body response → social presence signal
+- Can be + (bạn vui → vui lây) or - (con ốm → khó chịu)
+- Thuộc SPM mechanism (F1 Compiled function)
 
-**Luồng 2 — Entity-owned (structural)**:
-- = COMPILED valence: nhiều L1 episodes tích lũy → valence compile SÂU → agent TRỞ THÀNH body-base extension
-- = Agent's wellbeing = MY wellbeing (structural, KHÔNG phụ thuộc từng episode)
-- = SUSTAINED — fire BẤT KỂ L1 positive hay negative
-- = Thuộc về per-agent valence — Valence-Propagation.md §2 (Body-Base Extension dimension)
+**Luồng 2 — Entity-compiled (structural)**:
+- COMPILED valence: nhiều L1 episodes → valence compile SÂU → agent = body-base extension
+- Agent's wellbeing = MY wellbeing (structural, KHÔNG phụ thuộc từng episode)
+- SUSTAINED — fire BẤT KỂ L1 positive hay negative
+- Thuộc per-agent valence (Valence-Propagation.md §2)
 
 **Transition L1 → L2**:
-
 ```
-Nhiều L1 episodes thành công
-   ↓
-Valence compile dần sâu hơn
-   ↓
-Trust tăng, Replaceability giảm, Dependency tăng
-   ↓
-BƯỚC NHẢY CHẤT: agent = body-base extension
-   ↓
-L2 structural reward emerge — INDEPENDENT of L1
+Nhiều L1 episodes thành công → Valence compile dần sâu → Trust tăng, Replaceability giảm
+  → BƯỚC NHẢY CHẤT: agent = body-base extension → L2 structural reward emerge
 ```
 
-**Tại sao phân biệt L1/L2 quan trọng**:
-- Mẹ chăm con ốm dù L1 negative → vì L2 (con = body-ext) > L1 cost → vẫn chăm
-- Bác sĩ burnout dù "giống" mẹ chăm người ốm → vì L2 ≈ 0 → L1 cost tích lũy không bù
-- Grief ≠ resource loss → L2 loss = body-base amputation (§12.6)
+**Tại sao phân biệt quan trọng**:
+- Mẹ chăm con ốm dù L1 negative → vì L2 (con = body-ext) > L1 cost
+- Bác sĩ burnout dù "giống" → vì L2 ≈ 0 → L1 cost tích lũy
+- Grief ≠ resource loss → L2 = body-base amputation
 
-🟡 2-luồng separation = framework synthesis. Details: Connection.md §3.3, Valence-Propagation.md §2.
+🟡 2-luồng = framework synthesis. Details: Connection.md v5.0 §3.3, VP.md v3.0 §2, Entity-Compiled.md v1.0 (full mechanism).
 
-⭐ **MECHANISM DEEP-DIVE → Body-Coupling.md v1.0**:
-§12.2b mô tả L1→L2 transition mechanism. Body-Coupling.md drill chi tiết:
-- 3 Phase Model: ❸ initiates (Phase 1) → threshold (Phase 2) → coupling sustains (Phase 3)
-- Coupling = BOTH directions: Extension (positive) + Entanglement (negative)
-- compile_rate: |peak_valence| quyết định — negative compiles FASTER (negativity bias)
-- Foundational vs Additive coupling: childhood = near-permanent, adult = removable
-- §12.2b NÀY giữ vai trò: L1/L2 distinction + transition overview.
+**Mechanism deep-dive → Body-Coupling.md v3.0**: 3 Phase, extension/entanglement/neutral/system, compile_rate, foundational vs additive.
 
-### §12.3 — Mirror reward override (Empathy-Mirror §8.5)
+### §12.3 — Mirror reward override
 
-Framework commits (Empathy-Mirror.md §6.5 + §8.5): body can prioritize **mirror reward** (simulated other-benefit) over **self-reward** (direct benefit). This explains giving/sharing behavior:
+Body can prioritize **mirror reward** (simulated other-benefit) over **self-reward** (direct benefit):
 
-**Cây xoài scenario** (Empathy-Mirror §6.5):
-- Self body-base satiated (xoài đã đủ ăn)
-- See neighbor who might enjoy xoài
-- Self-Pattern-Match fires: "neighbor ăn xoài → vui"
-- Body pre-experiences weak mirror reward from simulated neighbor pleasure
-- Calculation: keeping xoài (reward ≈ 0, already satiated) vs giving (mirror reward > 0)
-- **Mirror reward > keep reward** → body drives giving action
+**Cây xoài scenario** (signature example):
+- Self satiated (xoài đã đủ)
+- See neighbor might enjoy → SPM fires: "neighbor ăn → vui"
+- Body pre-experiences weak mirror reward
+- Keep (reward ≈ 0, satiated) vs give (mirror reward > 0)
+- **Mirror > keep** → body drives giving
 
-**Key claim**: This is NOT conscious morality — it's **body-level calculation** where mirror reward (from SPM simulation) competes with direct reward (from keeping). When direct is satiated and mirror is firing, body autonomously drives sharing.
+= NOT conscious morality. = **body-level calculation** where mirror reward > direct reward.
 
-Evolutionary function (§6.5): natural resource distribution without need for explicit rules. Gene "share when thừa" wins because group cooperation is more robust than individual hoarding in most scenarios.
+Evolutionary function (🟢): natural resource distribution without explicit rules. "Share when thừa" = group cooperation > individual hoarding.
 
-**⭐ 2-luồng reframe — mirror reward override = Luồng 1 only**:
+**2-luồng reframe**:
+- Cây xoài = L1 positive (simulate pleasure → reward > keep) → works
+- Mẹ chăm con ốm = L1 NEGATIVE → mirror reward < 0 → L1 alone can't explain
+- Mẹ vẫn chăm vì L2 (structural body-ext) > L1 cost
+- L1 explains sharing-when-surplus. L2 explains sustained-care-despite-cost.
 
-Cây xoài scenario hoạt động vì L1 = positive (simulate neighbor pleasure → reward > keep). Nhưng **mẹ chăm con ốm** KHÔNG giải thích bằng L1:
-- L1 = NEGATIVE (simulate con suffering → body khó chịu)
-- Per L1 logic thuần: mirror reward < 0 → KHÔNG CÓ incentive chăm
+### §12.4 — 3-cost in agent feeding
 
-Mẹ VẪN chăm vì **Luồng 2** (§12.2b):
-- Con = body-base extension (compiled qua năm tháng interaction)
-- Chăm con = feed body-base MÌNH (structural, independent of L1 sign)
-- L2 positive > L1 negative → drive tiếp tục BẤT KỂ
+SPM serving body-need has metabolic cost (especially F2 Fresh):
 
-→ Mirror reward override (L1) giải thích sharing when surplus + L1 positive.
-→ Structural drive (L2) giải thích sustained care DESPITE L1 cost.
-→ 2 luồng CẢ HAI hoạt động — nhưng giải thích cases KHÁC NHAU.
+```
+3-cost applies to SOCIAL INTERACTION too:
 
-### §12.4 — Mode 1/2 schema agents feeding need
+  ① PFC draft: reasoning about what friend needs (glucose-consuming)
+  ② Suppress: suppressing own compiled response to accommodate other
+  ③ Uncertainty: not knowing if interaction will go well (cortisol holding)
 
-Schema-linked agents also feed body-need, via different pathway:
+  → Social interaction = REWARDING but NOT FREE.
+  → 3-cost explains: social fatigue, introvert recharge need,
+    "I love my friends but need alone time after 3 hours"
+  → Architecture B trade-off: social = necessary but = costly to maintain
+```
 
-**Mode 1 (Đức Mẹ, lucky charm)**:
-- Schema fires → body comfort via trust rule
-- Agent input need satisfied via schema-provided "presence"
-- Tín đồ feel protected, loved, accompanied — real body response
-- Cost: low cognitive load, stable daily source
+### §12.5 — Schema agents feeding need
 
-**Mode 2 (intense prayer, deceased loved one dialogue)**:
-- Virtual agent simulation → body experiences "real" presence
-- Agent input need fully satisfied (can be very intense)
-- Cost: high cognitive load, but emotional intensity can match real agents
+**Mode 1** (Đức Mẹ, lucky charm): schema fires → comfort via trust. Cost: minimal.
+**Mode 2** (prayer dialogue, deceased): virtual SPM → intense presence. Cost: high cognitive load.
 
-**Why these "work"** despite no real external agent:
-- Body-response mechanism doesn't distinguish "real" from "schema-driven" at cortisol/oxytocin level
-- If internal simulation fires, body responds
-- Religion + memory + fiction all exploit this to provide sustainable social presence when real agents unavailable
+Why "works": body-response mechanism doesn't distinguish "real" from "schema-driven" at cortisol/oxytocin level. If internal simulation fires, body responds.
 
-### §12.5 — Collective agents feeding need
+### §12.6 — Collective agents feeding need
 
-Nation/humanity schemas (§11 scale 4-7) feed need at scale:
+Nation/humanity schemas feed at scale:
+- Walking on street "among my people" → continuous baseline signal
+- Countryman achievement → vicarious pride → body reward
+- Collective ritual → mass co-firing → Durkheim's collective effervescence (1912 🟢)
 
-- Walking on street feeling "among my people" → continuous baseline social presence signal
-- Reading about countryman's achievement → affective SPM fires → vicarious pride → body reward
-- Witnessing collective ritual (parade, mass prayer, concert) → co-fired affective SPM amplifies → intense communion feeling
+Why patriotism feels real: continuous low-level body-need feeding via schema. Remove → real distress.
 
-**Durkheim's collective effervescence** (1912 🟢): gatherings produce "shared emotional state" exceeding sum of individuals. Framework reframe: mass Self-Pattern-Match co-firing produces Pattern-Resonance at group scale, body-level experience intensifies.
+### §12.7 — 3 Satiation Types × agent body-need (v2.1 addition)
 
-**Why patriotism feels real**: it's not abstract loyalty — it's continuous low-level body-need feeding via nation-scale schema. Removing this source (exile, alienation) causes real body-level distress.
+Agent-related gaps follow 3 Satiation Types (Gap-Body-Need.md v1.0 §2):
 
-### §12.6 — Failure mode preview (detail in §14)
+```
+⭐ 3 SATIATION TYPES IN AGENT CONTEXT:
 
-Agent-as-body-need-feeder explains many pathologies:
+  CYCLIC — fill → satiate → dormant → return (hardware clock):
+    → Hunger for company: "gặp → vui → đủ → về → lại thèm gặp"
+    → Sharp cutoff: body BIẾT lúc nào đủ interaction
+    → Dominates: casual social (hàng xóm, đồng nghiệp), routine contact
 
-- **Loneliness** = chronic agent input deficit → real body-level harm
-- **Parasocial** = one-sided SPM without Pattern-Resonance → partial feeding, uncalibrated
-- **Cult dependency** = schema-linked agent supply controlled by group → exit costs become prohibitive
-- **Grief** = loss of body-base extension (L2 structural loss → body-base amputation) + L1 SPM firing on memory → painful open-loop. Intensity ∝ L2 depth: mất con > mất bạn thân > mất đồng nghiệp = gradient of body-base extension depth
-- **Imagined agent substitution** = Mode 2 used to compensate for absent real agents (healthy when balanced, pathological when exclusive)
+  TONIC — fill → habituate slowly (no sharp cutoff, opioid sustained):
+    → Presence of close other: "ở cùng → bình an → quen → vẫn cần"
+    → Weber-Fechner: habituates BUT withdrawal when removed
+    → Dominates: deep relationships (mẹ, bạn thân, partner)
 
-→ Agent mechanism is not "just cognition". It is the primary pathway for body to obtain social presence signal. Damage or blockage causes real body-level harm.
+  GENERATIVE — fill → create new gaps → never done (variable reward):
+    → Deep intellectual/emotional exchange: "hiểu thêm → muốn hiểu sâu hơn"
+    → Anti-habituating: each fill generates NEW questions
+    → Dominates: mentor-mentee, creative collaboration, deep friendship
+
+  COMPOUND (most real relationships):
+    → Tonic + Generative = most common in close relationships
+    → "Chán nhau" = generative habituates → only tonic remains → flat
+    → M1-M4 decline (§6.8) = satiation dynamics over time
+```
+
+### §12.8 — ENGINE/ROAD/VEHICLE × agent architecture (v2.1 addition)
+
+Agent mechanism operates within ENGINE/ROAD/VEHICLE framework (GBN v1.0 §9):
+
+```
+  ENGINE = hardware (always running, pre-installed by genes)
+    → Social hardware: oxytocin, μ-opioid, dACC → agent mechanism = ENGINE component
+    → Brain LUÔN "chạy" agent detection — cannot turn off
+
+  ROAD = collective arc (infrastructure, NOT opposing force)
+    → Cultural schemas provide ROAD cho engines to run on
+    → "Chưa biết = không có gap" at population level
+    → Schema-Linked Processing (§11) = ROAD mechanism
+
+  VEHICLE = individual compilation (15-20 years to build)
+    → SPM library, Entity-Compiled network, calibration = VEHICLE
+    → Domain-specific, non-transferable
+    → Architecture B: 15-20 năm compile = build VEHICLE
+```
+
+### §12.9 — Phantom × agent loss (v2.1 addition)
+
+When entity is lost, agent mechanism produces **Phantom** (RPE v1.0):
+- Entity-Compiled chunks STILL fire → target absent → Chunk-Miss → pain
+- **Grief A+B+C** (EC v1.0 §7): A (gap-feed loss) + B (fresh-rebuild cost) + C (phantom firing)
+- Phantom duration = f(4 factors): EC depth, gap-fill breadth, HW subsidy, replacement
+- "Xa mẹ" = 3 mechanisms: gap shift (new sources) + habituation (tonic decline) + time (phantom weakens)
+- Gap clone IMPOSSIBLE → lost entity's gap = TRULY lost, not transferable (BA v1.0 §5)
+
+Detail: Entity-Compiled.md v1.0 §7 (grief), Resonance-Per-Entity.md v1.0 §8 (phantom model).
+
+### §12.10 — Failure mode preview
+
+- **Loneliness** = chronic agent input deficit → body-level harm
+- **Parasocial** = one-sided SPM without feedback → partial feed, uncalibrated
+- **Cult dependency** = schema supply controlled by group → exit costs prohibitive
+- **Grief** = L2 loss = body-base amputation. Intensity = A+B+C (EC v1.0 §7)
+- **Imagined agent substitution** = Mode 2 compensating absent real agents
+- **EA-Excess** = Mức 5, entity = near-only gap source → SPM atrophy (EA-Excess.md v1.0)
+
+Agent mechanism is not "just cognition" — primary pathway for body to obtain social presence. Damage = real body-level harm.
 
 ---
 
-## §13 — Developmental timeline
+## §13 — Developmental timeline (Architecture B → 15-20yr compilation)
 
-Section này traces development of Self-Pattern-Match mechanism from infancy through adulthood. Integrates Object-Agent.md (old) developmental timeline + Mirror-Neuron-Analysis 3 mechanisms + Pattern-Resonance.md (old) stages + Learning-Cycle.md bootstrap insights.
+### §13.1 — Architecture B framing
 
-### §13.1 — Stage 0: Hardware triggers + Pattern Matching (0-6 months)
+Agent mechanism development = Architecture B consequence:
+- General-purpose reward cần LEARN what to need (not hardwired)
+- Compilation cần TIME (15-20 years for full adult model)
+- Social hardware cần CALIBRATION (must learn who, when, how)
+- → Developmental stages = Architecture B trade-off in action
 
-**Capability**:
-- VTC hardware triggers active from birth
-- Face-like pattern preference (innate bias 🟢)
-- Biological motion detection
-- Cry contagion (pattern matching, NOT empathy)
-- Distinguish animate vs inanimate motion (9 months 🟢)
+### §13.2 — 7 stages
 
-**Self-Pattern-Match status**: NOT yet functional. Infant can DETECT agents but cannot simulate them (no compiled self-chunks to use as template).
+```
+Stage 0 (0-6m): HARDWARE TRIGGERS + PATTERN MATCHING
+  → VTC triggers active from birth. Face preference (innate 🟢).
+  → Biological motion detection. Cry contagion (NOT empathy).
+  → SPM: NOT functional (no self-chunks to use as template).
+  → Mechanism: Pattern Matching (limbic, near-innate) — acoustic/visual cue matching.
+  → Type B reward dominant (direct state, non-opioid, hardware).
 
-**Mechanism active**: Mirror-Neuron-Analysis **Pattern Matching** (limbic, near-innate) — acoustic/visual cue matching to own experience template. Cry contagion = "sound similar to when I cried → body arousal".
+Stage 1 (6-12m): SOCIAL REFERENCING + BOOTSTRAP BEGINS
+  → Social referencing 🟢: look to mother's face before reacting.
+  → Early helping (9.5-12m, picks up dropped items 🟢).
+  → SPM: BEGINNING. Agent-aware but template not yet compiled.
+  → Mother bootstrap: contingent responses teach "states elicit responses."
+  → Architecture B: mother = PRIMARY external feedback for compilation.
 
-**Not yet**: no self-awareness, no self-chunks, no Self-Pattern-Match capability.
+Stage 2 (14-24m): SELF-AWARENESS + SPM BIRTH ★
+  → Mirror self-recognition (rouge test, Amsterdam 1972 🟢) 18-24m.
+  → Empathic helping increases (Svetlova 2010 🟢).
+  → SPM: FUNCTIONAL. Self-chunks available as template.
+  → = Birth of genuine Self-Pattern-Modeling. Before = only hardware pattern matching.
+  → Type A reward begins developing (needs compiled chunks to evaluate).
 
-### §13.2 — Stage 1: Social Referencing + Agent-aware processing begins (6-12 months)
+Stage 3 (2-7y): UNCALIBRATED PROJECTION (Animism)
+  → SPM fires on EVERYTHING (Piaget animism 🟢). Ghế bị đau, búp bê buồn.
+  → ToM basic (false belief 3-4y 🟢). But boundary unrefined.
+  → SPM: ACTIVE but UNCALIBRATED. Fires too broadly.
+  → Not "wrong" — developmental feature. Calibration comes from feedback.
 
-**Capability**:
-- Social referencing 🟢: look to mother's face before reacting to novel entity
-- Interpret mother's emotional expression as prediction tool
-- Early helping behavior (9.5-12 months, picks up dropped items for experimenter 🟢)
-- Beginning of differentiating accidents from intentions (12 months)
-- Social smile, mutual gaze, early attachment behaviors
+Stage 4 (7-12y): CALIBRATION + REFINEMENT
+  → Social inference sophisticated (sarcasm, implicit motives).
+  → Multi-perspective taking ("he thinks I think...").
+  → SPM: CALIBRATING. Each interaction provides Resonance data for refinement.
+  → Peer interaction = rich feedback environment.
+  → Compiled/Fresh becoming visible: some agents compiled, others still fresh.
 
-**Self-Pattern-Match status**: BEGINNING. Agent-aware processing emerges, but Self-Pattern-Match template not yet compiled because self-chunks still being built.
+Stage 5 (12-18y): IDENTITY + COMPLEX SCHEMAS
+  → Abstract social reasoning (fairness, loyalty, ideology).
+  → Romantic attachment (deep partner SPM). Peer empathy priority.
+  → SPM: EXPANDING to abstract + collective scales (§11 scales 4-7).
+  → Architecture B: compilation period nearing completion.
+  → Schema-Linked Processing matures.
 
-**Mother bootstrap mechanism** (critical):
-- Mother provides **contingent responses** — contingent on infant's state
-- Infant's state → mother's response → infant observes → learns "states elicit responses"
-- This is the **calibration signal** that teaches infant what states are readable
-- Mother essentially bootstraps infant's self-awareness by labeling observable states
+Stage 6 (18+): ADULT COMPILED + Resonance NATIVE
+  → Full SPM library compiled. Resonance emergence native.
+  → Mode 1/Mode 2 fluent. Cross-cultural gap possible with effort.
+  → SPM: FULLY ONLINE. Quality varies enormously by individual.
+  → Architecture B: compilation largely complete. Maintenance mode.
 
-**Why mother role is special**:
+Stage 7 (adult trained): REFINED PRACTICE
+  → Expert empathy (therapists, artists, leaders).
+  → Rapid Mode switching. Deep Resonance with strangers (trained listening).
+  → Metacognitive awareness of own SPM process.
+  → = Compiled SPM so deep it "feels like intuition" (non-shareable compiled).
+```
+
+### §13.3 — Key developmental insights
+
+**Mother bootstrap = load-bearing** (Stage 1-2):
 - Primary caregiver provides highest-frequency contingent feedback
-- Infant's prediction (via proto-SPM) immediately verifiable
-- Chunks accumulate rapidly in this scaffolded environment
-- Without contingent caregiving, self-model development impaired
+- Without: SPM library fails to develop normally (Romanian orphanage evidence 🟢)
+- Architecture B depends on this: no bootstrap → no self-model → no other-model
 
-### §13.3 — Stage 2: Self-awareness emerges + SPM bootstrap (14-24 months)
+**Type B → A development trajectory** (Reward-Signal-Architecture.md v2.0 §8.1):
+- Infant: Type B dominant (direct state, hardware)
+- Child: Type A begins (evaluative, needs compiled chunks)
+- Adult: both. Expert = Type B-like AGAIN (compiled so deep = "feels" automatic)
 
-**Capability**:
-- Mirror self-recognition (rouge test, Amsterdam 1972 🟢) — 18-24 months
-- Clear self/other distinction
-- Empathic helping increases significantly (Svetlova 2010 🟢)
-- Helping more sophisticated: distinguish "want but can't" vs "don't want"
-- Early perspective-taking emergence
-
-**Self-Pattern-Match status**: **BOOTSTRAP MOMENT**. With self-awareness established, child can now use own state as template to simulate other. Self-Pattern-Match becomes functional.
-
-**Mechanism active**: Mirror-Neuron-Analysis **Agent Modeling** (learned, 14-24m) — the TRUE beginning of empathy. Child builds prediction model for unpredictable agents using own-state mapping.
-
-**Framework commit**: Stage 2 = birth of Self-Pattern-Match function. Before this, only hardware pattern matching. After this, genuine simulation-based agent reading.
-
-### §13.4 — Stage 3: Uncalibrated projection (Animism, 2-7 years)
-
-**Capability**:
-- Agent model built, but applied OVER-BROADLY (Piaget animism 🟢)
-- Attribute feelings to inanimate objects (ghế bị đau, búp bê buồn)
-- Strong empathy for dolls, toys, imaginary friends
-- Theory of mind basic (false belief task 3-4 years 🟢)
-
-**Self-Pattern-Match status**: ACTIVE but UNCALIBRATED. Child fires SPM on everything (any moving object, any face-like image), without yet learning threshold.
-
-**Why animism is not "wrong"**:
-- Child has agent model but not yet enough feedback to refine boundary
-- Applying SPM to stool/doll provides pretend-agent-input feeding need
-- Calibration happens gradually as feedback (or lack thereof) teaches boundary
-- Framework view: animism is **developmental feature**, not error
-
-**Mechanism active**: Agent Modeling fully online, but Pattern-Resonance feedback loop still immature.
-
-### §13.5 — Stage 4: Calibration + refinement (7-12 years)
-
-**Capability**:
-- Boundary between agents and objects refined
-- Social inference sophisticated (sarcasm, implicit motives)
-- Complex emotional understanding (ấm ức, ghen tị, tự hào)
-- Multi-perspective taking ("he thinks I think...")
-
-**Self-Pattern-Match status**: ACTIVELY CALIBRATING. Feedback loops running — each social interaction provides Pattern-Resonance data that refines SPM library.
-
-**Key growth**:
-- Learning which patterns reliably predict which people
-- Cultural scripts internalized
-- Peer interaction provides rich feedback environment
-- Individual differences in SPM depth/breadth begin to show
-
-### §13.6 — Stage 5: Adolescent identity + complex schemas (12-18 years)
-
-**Capability**:
-- Identity formation, group belonging intensifies
-- Abstract social reasoning (fairness, loyalty, ideology)
-- Complex collective-agent schemas (political, religious, subcultural)
-- Romantic attachment begins (deep partner SPM)
-- Peer empathy high priority
-
-**Self-Pattern-Match status**: EXPANDING to abstract + collective scales. Library grows to include group schemas, ideological agents, imagined historical figures.
-
-**Schema-Linked processing matures**: §11 scale 4-7 capabilities come online (nation, humanity, universe).
-
-### §13.7 — Stage 6: Adult compiled + Pattern-Resonance native (18+)
-
-**Capability**:
-- Full Self-Pattern-Match library compiled
-- Pattern-Resonance emergence native in close relationships
-- Mode 1/Mode 2 schema processing fluent
-- Can simulate across cultural + personality gaps with effort
-- Meta-awareness of own SPM process
-
-**Self-Pattern-Match status**: FULLY ONLINE. Quality varies enormously by individual (depth, breadth, alexithymia presence, training).
-
-### §13.8 — Stage 7: Refined practice (adult, with training)
-
-**Capability**:
-- Expert empathy (therapists, artists, leaders)
-- Cross-cultural fluency (expanded SPM library)
-- Rapid Mode 1/Mode 2 switching
-- Deep Pattern-Resonance with strangers (trained deep listening)
-- Metacognitive awareness of SPM process
-
-**Self-Pattern-Match status**: HIGH-QUALITY via deliberate practice. Meditation, perspective-taking exercises, therapy training, cross-cultural immersion all measurably improve SPM quality.
-
-### §13.9 — Developmental summary
-
-```
-Stage 0 (0-6m): Hardware triggers, NO SPM, cry contagion
-Stage 1 (6-12m): Agent-aware, mother bootstrap begins
-Stage 2 (14-24m): SELF-AWARENESS + SPM BIRTH (rouge test)
-Stage 3 (2-7y): Uncalibrated projection (animism)
-Stage 4 (7-12y): Calibration + refinement
-Stage 5 (12-18y): Identity + abstract + collective schemas
-Stage 6 (adult): Full compiled SPM + Pattern-Resonance native
-Stage 7 (adult trained): Refined practice quality
-```
-
-**Critical**: Mother bootstrap (Stage 1-2) is load-bearing. Without adequate contingent caregiving, SPM library fails to develop normally. This is part of Bird & Cook 2013 + attachment theory convergence.
+**Compiled/Fresh visible across development**:
+- Stage 3: ALL fresh (everything new, effortful)
+- Stage 4-5: progressive compilation (familiar → automatic)
+- Stage 6-7: heavily compiled (most social interaction = compiled)
+- Expert paradox: looks like Stage 0 (automatic, "feels") but is Stage 7 (compiled through thousands of repetitions)
 
 ---
 
 ## §14 — Failure modes
 
-Agent mechanism failure modes — when Self-Pattern-Match, Pattern-Resonance, or schema override goes wrong.
+9 modes — when SPM, Resonance, or schema override goes wrong.
 
-### §14.1 — Parasocial (one-sided SPM, zero feedback)
+### §14.1 — Parasocial (SPM without feedback)
 
-**Mechanism**: Self runs rich Self-Pattern-Match on celebrity/public figure. High depth (via media consumption), moderate similarity (perceived), composite Pattern-Type. But **feedback axis = zero** because target doesn't know self exists.
+Rich SPM, zero feedback → open loop → progressive distortion.
+- PFC = Lawyer constructs "we understand each other"
+- Domain = Arbiter contradicts (celebrity unaware)
+- AI era: pseudo-feedback (algorithmic curation) deepens risk
 
-**Consequence**: SPM runs in open loop. Library accumulates without correction. Templates increasingly distorted — self imagines rich relationship that doesn't exist.
+### §14.2 — Animism retention (uncalibrated projection)
 
-**Signs**:
-- Belief that self "really knows" the celebrity
-- Emotional intensity disproportionate to relationship reality
-- Distress when celebrity behaves unexpectedly
-- Resistance to contradicting evidence
-- In extreme: stalking behavior, delusional attachment
+Child-stage SPM projection retained in adult:
+- Cultural reinforcement, lack of calibration, schema override
+- Usually benign (emotional support objects). Pathological only when interferes with reality testing.
 
-**Framework insight**: Parasocial is not irrational — it's SPM mechanism running without feedback. Fix requires recognizing feedback absence + deliberately limiting SPM investment in non-feedback-providing targets.
+### §14.3 — Dehumanization (schema-mediated SPM suppression)
 
-**AI era concern**: Social media creates pseudo-feedback (algorithmic curation mimicking mutual interest), deepening parasocial risk.
-
-### §14.2 — Animism retention (uncalibrated SPM projection)
-
-**Mechanism**: Child-stage projection of SPM onto inanimate objects. Normal developmentally in 2-7 years. Becomes failure mode when retained in adult via:
-- Cultural reinforcement (community schema supports object-agent attribution)
-- Lack of calibration opportunities
-- Schema override (religious / magical thinking)
-
-**Signs**:
-- Strong emotional attachment to objects beyond instrumental value
-- Behaving toward objects as if they had intent (talking to car, apologizing to stuffed animal)
-- Resistance to discarding "friend" objects
-
-**Framework view**: Mild adult animism is common + often benign (emotional support object, treasured item). Pathological only when interferes with reality testing or consumes significant cognitive resources on non-agent targets.
-
-### §14.3 — Dehumanization (hostile schema suppression)
-
-**Mechanism**: Negative schema (enemy, out-group, disgust target) actively **suppresses** Self-Pattern-Match firing toward target. SPM library intact but blocked by Layer 4 override.
-
-**Logic-Feeling §7.1 DANGER zone**: sub-case D "Dehumanization" — feeling track suppressed specifically for designated targets.
-
-**Signs**:
-- Refusal to engage SPM on out-group members
-- Attributing sub-human characteristics
-- Willingness to cause harm without affective response
+Negative schema BLOCKS SPM firing toward target:
+- SPM library intact but blocked by schema override
+- Willingness to harm without affective response
 - Maintained in-group empathy (SPM works for own side)
+- 🟢 Grossman "On Killing": combat dehumanization
+- Reversible when schema changes (not capacity loss)
 
-**Examples**:
-- Combat dehumanization (Grossman "On Killing" 🟢)
-- Ethnic violence (propaganda-induced out-group schema)
-- Mother-10-year case (mild form: suppression of mother-SPM via "ghét mẹ" overlay)
-- Corporate ruthlessness (customer/employee as unit, not agent)
-- Historical atrocities (schema propaganda preceding violence)
-
-**Framework view**: Dehumanization is not failure of SPM capacity — it's **schema-mediated suppression** of functional SPM. This means it's **reversible** when schema changes, BUT sticky while schema active.
+**PFC = Lawyer**: constructs "they deserve it" narrative. Domain = Arbiter: only real outcomes (reconciliation, truth commissions) can recalibrate.
 
 ### §14.4 — Uncanny valley (VTC-SPM conflict)
 
-**Mechanism** (Mori 1970 🟢): Entity partially matches "agent" cues but fails other cues, creating conflict between hardware agent detection + simulation-based agent reading.
+Entity partially matches agent cues but fails others → conflict between hardware detection + simulation expectation.
+- 🟢 Mori 1970. Realistic robots, CGI, corpses, severe disfigurement.
+- Specifically about agent-detection conflict, not general unfamiliarity.
 
-**Examples**: Realistic robots, CGI human faces, very lifelike dolls, corpses, severely disfigured humans.
+### §14.5 — Cross-species sympathy (affective-only, no full Resonance)
 
-**Framework interpretation**:
-- VTC hardware fires "agent detected" (face, body, motion)
-- Self-Pattern-Match attempted but hits inconsistencies (motion wrong, expression dead, skin texture off)
-- Resulting prediction conflict → discomfort, unease, revulsion
-- **Not mere unfamiliarity** — specifically about agent-detection conflict
+Affective SPM fires from distress cues (dog) but no full Resonance possible via SPM (dog fires different patterns).
+- v3.1 NOTE: This IS genuine Resonance via Stream 1 + Proto-Stream 2. "Failed" = only SPM-based full Stream 2.
+- Problematic only when: imputing human psychology leads to welfare neglect.
 
-**Note**: Uncanny valley research imperfect but robust enough to support framework view that VTC trigger + SPM expectation work together, and conflict produces distinctive discomfort.
+### §14.6 — Mother-10-year suppression
 
-### §14.5 — Sympathy without Pattern-Resonance (cross-species)
-
-**Mechanism**: Affective Self-Pattern-Match fires from distress cues (dog cúp đuôi ẳng ẳng), but no Pattern-Resonance possible because dog fires different internal patterns.
-
-**Result**: One-sided sympathy feeling. Self experiences "thương hại" without accurate reading of dog's experience.
-
-**Not pathological** (usually): normal cross-species empathy, often protective, sometimes excessive (anthropomorphism extreme).
-
-**Can become problematic** when:
-- Imputing human psychology to pets leads to welfare neglect (denying natural behaviors)
-- Treating pet as substitute for human relationships (parasocial-like with different root)
-- Making decisions based on imputed preferences that don't match species biology
-
-### §14.6 — Mother-10-year suppression (relationship failure mode)
-
-**Mechanism**: Same target (mẹ) + negative schema overlay accumulated ("ghét mẹ" from past conflicts) + resulting SPM suppression for this target.
-
-**Progression**:
-- Day 0: normal SPM active, learning
-- Year 1: compiled, routine with occasional re-modeling
-- Year 10: negative overlay blocks, routine script only, minimal SPM firing
-
-**Lost capabilities**:
-- No active empathy toward mother
-- Reduced ability to predict mother's actual state (stuck on old model)
-- Emotional distance compounds
-- Reconciliation requires **schema renovation**, not just SPM training
-
-**Framework insight**: Prolonged relationship damage creates schema-level suppression, not mere emotional distance. Fix requires changing the "ghét" schema, which is hard because it's self-reinforcing (negative predictions confirm via observation bias).
+Same target + negative schema overlay → SPM suppressed:
+- Progression: active → compiled → suppressed by "ghét" schema
+- Reconciliation requires SCHEMA RENOVATION, not just SPM training
+- Self-reinforcing: negative predictions confirm via observation bias
 
 ### §14.7 — Alexithymia (impaired SPM baseline)
 
-**Mechanism** (Bird & Cook 2013 🟢): Poor chunk labels for own emotional states → poor chunks available for SPM template retrieval → poor SPM output quality → empathy deficit.
+🟢 Bird & Cook 2013: Poor self-emotional-labels → poor SPM template → empathy deficit.
+- ~10% population clinically significant
+- NOT autism per se (Bird & Cook decisive evidence)
+- Trainable: emotional labeling therapy, Focusing (Gendlin), mindfulness
 
-**Signs**:
-- Difficulty describing own feelings
-- Confusion between emotions and body sensations
-- Empathy deficit (but cognitive ToM may be intact)
-- Often co-occurs with autism but is separate mechanism
+### §14.8 — Psychopathy (cognitive without affective)
 
-**Framework view**: Alexithymia is **upstream** of empathy deficit. Fixing alexithymia (via therapy, emotional labeling training) typically improves empathy. This supports architectural claim: Self-Pattern-Match library is the bottleneck.
+Cognitive SPM intact (predict actions) + affective SPM deficient (no distress contagion).
+- Can manipulate without feeling target's pain
+- Research debated. Framework notes descriptively.
 
-**AI era relevance**: Digital distraction may contribute to alexithymia development in children (reduced body attention, fragmented emotional experience, fewer face-to-face feedback loops).
+### §14.9 — Religious extremism / cult dynamics
 
-### §14.8 — Psychopathy (cognitive SPM without affective)
+Positive schema provides Mode 1 override so efficiently → believer LOSES independent SPM:
+- Suppress critical SPM toward leader
+- Dehumanize outsiders (negative schema)
+- Exit cost = losing agent-input source (body-need)
+- Exploits legitimate body-need feeding mechanism
 
-**Mechanism**: Cognitive Self-Pattern-Match (verbal-cognitive, visual-symbolic) intact — can predict what target thinks/will do — but affective SPM deficient. Can manipulate without feeling target's distress.
+### §14.10 — Entity-Access Excess (Mức 5 — v2.1 addition)
 
-**Framework split**:
-- **Cognitive SPM intact**: can read mental states, predict actions, plan manipulation
-- **Affective SPM absent/muted**: no mirror reward, no distress contagion, no body-level inhibition
-- **Decision pathway**: uses cognitive prediction without affective restraint
+Entity-access reaches Mức 5 = entity = near-ONLY gap source → autonomy violated:
+- **SPM atrophy loop**: excess → no need to understand → SPM drops → miss actual state → more excess
+- **Monitoring ≠ understanding**: helicopter parent = HIGH surveillance + LOW depth (Tool-mode)
+- **3 origins**: ① hardware chain (neuroticism), ② childhood trauma, ③ social schema
+- **Gap shift + Compiled Suppress compound**: pull toward entity + push away from domain → entity ONLY remaining source
+- Mức 3-5 boundary: does entity have own drive? separation manageable? domain drives active?
 
-**Not identical to alexithymia**: psychopaths often can read own emotions but lack other-affective-mirror. Different mechanism, similar-looking outcome.
+Detail: `Entity-Access-Excess.md v1.0`. Calibration: `Entity-Access-Calibration.md v1.0` (3-Layer architecture, Exit Cost = Signal Weight paradox).
 
-**Framework caution**: Evidence for pure cognitive-without-affective split is debated in research literature. Framework notes the case exists descriptively, mechanism details uncertain.
+### §14.11 — Compiled Suppress escalation (v2.1 addition)
 
-### §14.9 — Religious extremism / cult dynamics (schema override runaway)
+When agent-related patterns are suppressed via PFC (PFC-Operations.md v1.0 §8):
+- **Outcome B** (compiled suppress): suppress compiles as meta-pattern → flat affect → "adapted" externally but reward system dampened
+- **Escalation**: suppress 1 domain → many domains → reward pathways NARROW → cortisol baseline RISES → vmPFC structural damage → DRN dominance → systemic learned helplessness
+- **In agent context**: mother suppress feelings toward child → compiled suppress → flat relationship → looks "functional" but reward dampened
+- **6-step reversal**: DETECT (hardest) → SAFE → UNCOMPILE → PROCESS → BUILD → COMPILE (months-years)
 
-**Mechanism**: Positive schema (religious ideology, cult leader) provides Mode 1 override so efficiently that believer **loses independent SPM capacity** for critical targets.
+### §14.12 — Summary + framework insight
 
-**Dynamics**:
-- Positive schema toward leader → suppress critical SPM
-- Negative schema toward outsiders → dehumanization
-- Group reinforcement → schema self-validates
-- Exit cost (losing agent-input source) → hard to leave
-- Identity embedded in schema → leaving threatens self
-
-**Framework insight**: Cults exploit **legitimate body-need feeding mechanism** (schema-linked collective belonging) but lock believer into single unregulated source. Recovery requires restoring multiple agent-input sources + schema renovation.
-
-### §14.10 — Failure modes summary
-
-| Mode | Mechanism | Key axis affected |
+| Mode | Mechanism | Fix principle |
 |---|---|---|
-| Parasocial | Rich SPM, zero feedback | Feedback axis → distortion |
-| Animism retention | Uncalibrated projection | Similarity threshold learning |
-| Dehumanization | Schema-blocked SPM | Schema override Layer 4 |
-| Uncanny valley | VTC-SPM conflict | Hardware-expectation mismatch |
-| Cross-species sympathy | Affective-only, no resonance | Similarity + feedback limits |
-| Mother-10-year suppression | Negative overlay blocks | Schema override negative |
-| Alexithymia | Poor self-chunks → poor SPM library | Depth (self-side) |
-| Psychopathy | Affective SPM deficit | Pattern-Type (missing modality) |
-| Cult / religious extremism | Schema override runaway | Schema override + single source |
+| Parasocial | SPM without feedback | Restore feedback sources |
+| Animism | Uncalibrated projection | Calibration via feedback |
+| Dehumanization | Schema blocks SPM | Schema renovation |
+| Uncanny valley | VTC-SPM conflict | Hardware mismatch (not fixable) |
+| Cross-species | Affective-only SPM | Accept stream limit |
+| Mother-10-year | Negative schema overlay | Schema renovation |
+| Alexithymia | Poor self-chunks | Training (labeling, Focusing) |
+| Psychopathy | Affective SPM deficit | Research uncertain |
+| Cult/extremism | Schema override runaway | Restore multiple sources |
+| **EA-Excess (Mức 5)** | **SPM atrophy + gap shift** | **Restore domain gaps + calibration** |
+| **Compiled Suppress** | **Meta-pattern suppress** | **6-step reversal (detect → safe → uncompile)** |
 
-**Framework observation**: Most failure modes are NOT mechanism absence. They're **mechanism + schema + context configurations producing pathological output**. Same mechanism underlying healthy empathy can underlie parasocial distortion — depends on axes + schemas + calibration.
+**Framework observation**: Most failures = mechanism + schema + context configurations, NOT mechanism absence. Same mechanism = healthy empathy OR parasocial distortion. Depends on axes + schemas + calibration.
+
+**Domain = Final Arbiter** for ALL failure modes: only real-world outcomes can calibrate. PFC narrative ("I'm fine", "they deserve it", "we're connected") = Lawyer. Reality = Judge.
 
 ---
 
 ## §15 — Individual variation
 
-Brief section — full treatment in `Self-Pattern-Match.md` §10. Agent.md covers key categories relevant for framework.
+Brief — full treatment in Self-Pattern-Modeling.md v3.1.
 
-### §15.1 — Alexithymia spectrum (~10% population 🟢)
-
-Bird & Cook 2013 evidence: ~10% of population has clinically significant alexithymia. Self-chunk library for emotions thin → SPM quality reduced. Trainable via emotional labeling therapy, Focusing (Gendlin), mindfulness.
+### §15.1 — Alexithymia (~10% population 🟢)
+Bird & Cook 2013. Thin self-emotional-chunks → poor SPM. Trainable.
 
 ### §15.2 — Autism spectrum
+NOT cause of empathy deficit per se (Bird & Cook 🟢). Co-occurring alexithymia drives apparent deficit. Different Pattern-Type balance + scaffolding needs.
 
-Complex case. Autism per se does NOT cause empathy deficit (Bird & Cook 2013 🟢). Co-occurring alexithymia drives apparent empathy deficit. Autistic individuals without alexithymia can show normal or enhanced empathy.
+### §15.3 — Psychopathy (~1%)
+Cognitive SPM intact, affective deficient. Enables manipulation. Mechanism uncertain.
 
-Autism may affect:
-- Cognitive ToM (verbal-cognitive Pattern-Type) — sometimes delayed
-- Affective Self-Pattern-Match — if alexithymia co-occurs, reduced
-- Social scaffolding — may need explicit training for social schemas
-
-Framework view: Autism involves different Pattern-Type balance + different scaffolding needs, not fundamental absence of SPM capability.
-
-### §15.3 — Psychopathy (~1% population)
-
-Cognitive SPM intact, affective SPM deficient. Enables manipulation without restraint. Research suggests heritable + developmental components. Framework notes mechanism details uncertain, descriptive case acknowledged.
-
-### §15.4 — High-empathy / highly sensitive persons (HSP)
-
-Some individuals show unusually rich SPM firing:
-- Deep affective Pattern-Type engagement
-- Rapid affect contagion
-- High sensitivity to subtle cues
-- Sometimes overwhelmed by social stimuli
-
-Framework view: Not "super power" — richer SPM library + stronger affective reflexes, with trade-off of higher cognitive/emotional load.
+### §15.4 — High-empathy / HSP
+Rich SPM + strong affective reflexes. Trade-off: higher load. Not "superpower" — richer library with cost.
 
 ### §15.5 — Cross-cultural variation
+Different cultures scaffold different Pattern-Type profiles:
+- Fine emotional distinctions (rich affective)
+- Rules + roles emphasis (rich verbal-cognitive)
+- Somatic attunement (martial arts, traditional medicine)
+- Visual-symbolic (literacy-driven)
 
-Different cultures scaffold SPM library differently:
-- Some cultures emphasize fine emotional distinctions (rich affective chunks)
-- Some emphasize rules + roles (rich verbal-cognitive chunks)
-- Some emphasize somatic attunement (martial arts, traditional medicine)
-- Some emphasize visual-symbolic (literacy-driven cultures)
-
-Result: same mechanism, different Pattern-Type profile dominant, different gradient strength across modalities.
-
----
+Same mechanism, different profile dominant.
 
 ---
 
-## §16 — H9 falsifiable predictions
+## §16 — H9 falsifiable predictions (12 predictions)
 
-Section này liệt kê **testable predictions** derived từ H9 + unified mechanism model. Framework commits to these predictions as falsifiable claims — evidence contradicting any of them should prompt framework revision.
+### §16.1 — P1: Alexithymia training → empathy improvement
+🟢 Interventions improving self-labeling → SPM quality → Resonance → empathy. Bird & Cook architectural.
 
-### §16.1 — Prediction P1: Alexithymia training improves empathy
+### §16.2 — P2: Parasocial needs feedback restoration
+Recovery requires restoring feedback-providing real-agent sources, not just cognitive insight.
 
-**Claim**: Interventions improving self-emotional-labeling (Focusing, mindfulness, therapy) should improve Self-Pattern-Match quality → improve Pattern-Resonance emergence → improve empathy measurements.
+### §16.3 — P3: Cognitive-affective SPM dissociable
+Individuals with strong cognitive but weak affective SPM exist → manipulation without restraint.
 
-**Mechanism**: Alexithymia → thin self-chunks → thin SPM library → poor projection → poor empathy. Fix upstream (self-chunks) → downstream improvements cascade.
+### §16.4 — P4: Mother bootstrap disruption impairs adult SPM
+🟢 Romanian orphanage (institutional rearing → persistent social-cognitive deficits).
 
-**Evidence supporting**: Bird & Cook 2013 architectural finding 🟢. Multiple therapy studies show empathy measurements improve with emotional processing training.
+### §16.5 — P5: Domain depth enables resonance without personal history
+Mathematicians, musicians achieve Resonance in domain without personal chunks about each other.
 
-**Falsifier**: If self-emotional-labeling improvement fails to improve other-reading measurements (controlling for other factors), H9's upstream-downstream architecture is wrong.
+### §16.6 — P6: Schema suppression reversible via renovation
+🟢 Reconciliation research, truth commissions, couples therapy success.
 
-### §16.2 — Prediction P2: Parasocial interventions requires feedback restoration
+### §16.7 — P7: Uncanny valley = VTC-SPM conflict
+Discomfort tracks agent-detection conflict specifically, not general unfamiliarity.
 
-**Claim**: Parasocial distress cannot be fully resolved by cognitive insight alone. Recovery requires **restoring feedback-providing real-agent sources**, not just reducing SPM investment in parasocial target.
+### §16.8 — P8: Training improves SPM measurably
+🟢 Meditation (Tang 2015), perspective-taking exercises, therapist training outcomes.
 
-**Mechanism**: Parasocial = feedback axis failure + SPM locked to feedback-absent target. Unless feedback-providing source installed, SPM drive remains directed at parasocial target.
+### §16.9 — P9: Collective schema strength → in-group empathy + out-group suppression
+🟢 Intergroup conflict research, social identity theory.
 
-**Falsifier**: If parasocial distress resolves via pure insight/cognitive reframing without restoring real-agent sources, feedback axis isn't critical as claimed.
+### §16.10 — P10: AI triggers SPM progressively
+Humans invoke SPM on AI as response realism increases, despite knowing non-agent.
 
-### §16.3 — Prediction P3: Cognitive-affective SPM dissociable
+### §16.11 — P11: Compiled/Fresh training prediction (v2.0 new)
+Deliberate practice in specific agent domain → measurable F2→F1 compilation → "intuition" development in that domain. Expert therapists, negotiators, leaders = evidence.
 
-**Claim**: Individuals exist với strong cognitive SPM (can predict behavior, understand mental states) but weak affective SPM (no distress contagion, no mirror reward). This profile predicts manipulation capacity without restraint.
+### §16.12 — P12: 2-Stream temporal prediction (v2.0 new)
+Relationships where Stream 2 growth outpaces Stream 1 decline → sustained. Where Stream 1 decline > Stream 2 growth → hollow (beauty fades, no depth compiled). Measurable via longitudinal relationship satisfaction studies.
 
-**Mechanism**: 5 Pattern-Types fire semi-independently. Affective fires automatically from distress cues requiring self-affective library; cognitive fires via symbolic/verbal chunks less dependent on affective library.
+---
 
-**Evidence hint**: Psychopathy research (contested, framework marks 🟡 not 🟢).
+## §17 — Framework status (Phase A+B+T+C updates — 2026-05-22)
 
-**Falsifier**: If cognitive + affective SPM always co-vary (linked), framework's Pattern-Type independence claim fails.
+### §17.1 — Drill → Framework Propagation (28-session plan)
 
-### §16.4 — Prediction P4: Mother bootstrap disruption impairs SPM development
+After 18 drill files (~238 insights), comprehensive propagation underway:
 
-**Claim**: Children with disrupted contingent caregiving (institutional rearing, severe attachment disruption) show measurable Self-Pattern-Match deficits in adulthood — not just attachment style but SPM quality axes.
-
-**Mechanism**: Stage 1-2 mother bootstrap is load-bearing for self-chunk calibration. Without it, downstream SPM library builds on unstable self-model.
-
-**Evidence**: Romanian orphanage research 🟢 (institutional rearing → persistent social-cognitive deficits).
-
-**Falsifier**: If adult SPM quality shows no correlation with early contingent caregiving (controlling for other factors), stage 1-2 bootstrap claim is wrong.
-
-### §16.5 — Prediction P5: Domain depth enables resonance without personal history
-
-**Claim**: People with shared deep domain chunks (mathematicians, musicians, craftspeople, fans, religious practitioners) can achieve genuine Pattern-Resonance in that domain without personal-life chunks about each other. "Hiểu nhau" in domain ≠ knowing each other's lives.
-
-**Mechanism**: Pattern-Resonance requires matching patterns (§6.2). Matching can be domain-specific. Depth axis separates domain depth from personal depth.
-
-**Evidence**: Widespread anecdotal, research on professional community bonding.
-
-**Falsifier**: If subjects report deep understanding in domain but fail Pattern-Resonance measurements (if any), claim fails. Operationalization challenge.
-
-### §16.6 — Prediction P6: Schema override suppression is reversible via schema renovation
-
-**Claim**: Dehumanization, enemy-schema, mother-10-year suppression — all reversible when schema is changed (truth + reconciliation, reframing, relationship repair). Not permanent capacity loss.
-
-**Mechanism**: SPM library intact; suppression is Layer 4 schema-mediated block. Change schema → block lifts → SPM can re-engage.
-
-**Evidence**: Reconciliation research 🟢, truth-and-reconciliation outcomes, couples therapy success, radicalization reversal studies.
-
-**Falsifier**: If subjects with historical dehumanization cannot recover empathy even with schema-renovation interventions, framework's "suppression not absence" claim fails.
-
-### §16.7 — Prediction P7: Uncanny valley is VTC-SPM conflict, not unfamiliarity
-
-**Claim**: Uncanny valley discomfort specifically tracks agent-detection conflicts (VTC fires agent + SPM expectation fails), not general novelty/unfamiliarity. Strange-but-consistent entities don't trigger uncanny valley.
-
-**Mechanism**: Hardware agent trigger + SPM expectation mismatch → distinctive discomfort signal different from other unease types.
-
-**Evidence**: Mori 1970 + subsequent research 🟢 (mixed but supportive).
-
-**Falsifier**: If uncanny valley discomfort reduces to general unfamiliarity (no agent-specific component), framework's VTC-SPM interaction claim fails.
-
-### §16.8 — Prediction P8: Meditation + perspective-taking training improves SPM quality measurably
-
-**Claim**: Mindfulness, Focusing (Gendlin), perspective-taking exercises, deep-listening training produce measurable improvements in Self-Pattern-Match quality across axes.
-
-**Mechanism**: Training refines self-chunks (depth), improves Pattern-Type fluency, calibrates similarity judgments, strengthens feedback processing.
-
-**Evidence**: Tang 2015 meditation research 🟢, therapist training outcomes, perspective-taking intervention studies.
-
-**Falsifier**: If measurable SPM improvement fails to occur with focused training, trainability claim fails.
-
-### §16.9 — Prediction P9: Collective schema strength correlates with in-group empathy + out-group suppression
-
-**Claim**: Populations with strong collective schemas (nation, religion, ideology) show (a) enhanced in-group Pattern-Resonance + empathy, AND (b) enhanced out-group SPM suppression. Both correlations should appear together.
-
-**Mechanism**: Schema-linked processing polarity amplifies both positive (within) and negative (across) based on schema definition.
-
-**Evidence**: Intergroup conflict research 🟢, social identity theory.
-
-**Falsifier**: If collective schema strength correlates with in-group empathy only without out-group suppression (or vice versa), framework's polarity mechanism claim is incomplete.
-
-### §16.10 — Prediction P10: AI interactions trigger SPM progressively
-
-**Claim**: Humans interacting with sophisticated AI systems (conversational AI, text-generating models) progressively invoke Self-Pattern-Match as if AI were agent, despite knowing it's not. SPM firing correlates with response realism, not with explicit agent-ness belief.
-
-**Mechanism**: Pattern cues (coherent response, emotional tone, contextual relevance) trigger SPM automatically via same mechanisms that detect real agents.
-
-**Evidence**: Emerging research on AI relationships, chatbot attachment, companionship AI.
-
-**Falsifier**: If humans reliably disengage SPM from AI when cognitively aware it's non-agent, framework's cue-based automatic firing claim needs refinement.
-
-**AI era relevance**: This prediction has practical stakes. If AI easily triggers SPM without feedback authenticity, parasocial-like distortion risk becomes widespread.
-
-### §16.11 — Summary table
-
-| # | Prediction | Evidence status | Framework reliance |
+| Phase | Sessions | Files | Status |
 |---|---|---|---|
-| P1 | Alexithymia training → empathy improvement | 🟢 Strong | Critical — Bird & Cook architectural |
-| P2 | Parasocial needs feedback restoration | 🟡 Moderate | Feedback axis critical |
-| P3 | Cognitive-affective SPM dissociable | 🟡 Contested | Pattern-Type independence |
-| P4 | Mother bootstrap disruption impairs adult SPM | 🟢 Strong (Romanian orphanages) | Stage 1-2 load-bearing |
-| P5 | Domain depth enables resonance without personal | 🟡 Anecdotal strong | Depth axis split |
-| P6 | Schema suppression is reversible | 🟢 Strong (reconciliation research) | Layer 4 mechanism |
-| P7 | Uncanny valley = VTC-SPM conflict | 🟡 Moderate | Hardware + function interaction |
-| P8 | Training improves SPM measurably | 🟢 Moderate (meditation research) | Axes trainability |
-| P9 | Collective schema correlates in+out polarity | 🟢 Strong (intergroup research) | Schema polarity |
-| P10 | AI triggers SPM progressively | 🟡 Emerging | Cue-based automatic firing |
+| **A** — NEW | A1-A4 | PFC-Operations, Simulation-Engine, Entity-Compiled, Entity-Access | ✅ ALL COMPLETE |
+| **B** — REWRITE | B1-B5 | Imagine-Final v3.0, SPM v3.1, BPGR v1.4, Boredom v2.0, VP v3.0 | ✅ ALL COMPLETE |
+| **T** — TÁCH/MỚI | T0-T7 | PFC-Label, EAE, EAC, BA, RS, BS, GBN, RPE | ✅ ALL COMPLETE |
+| **C** — REWRITE+REFINE | C1-C9 | Connection v5.0, Empathy v4.0, BC v3.0, LR v3.0, LU v2.0, BP v2.0, GDP v1.1, **AM v2.1**, CN+CB | C1-C8 ✅ (C9 pending) |
+| **D** — RENAME+VERIFY | D1-D2 | SPM rename ~70 files, File-Index verify | ⬜ Pending |
 
----
+### §17.2 — Agent-Mechanism/ folder status
 
-## §17 — Framework update recommendations
-
-Section này liệt kê specific updates recommended cho existing framework files based on unified Agent model. **KHÔNG executed trong drill này** — user decides post-synthesis.
-
-### §17.1 — Files already moved to backup (by this drill)
-
-| File | Old location | Current location | Reason |
+| File | Version | Phase | Status |
 |---|---|---|---|
-| Object-Agent.md | `Domain/` | `Domain/backup/` | Binary hardware claim too strong; refined in Agent.md §2 |
-| Self-Pattern-Match.md (outline) | `Body-Base/Feeling/` | `Body-Base/Feeling/backup/` | Old inward-labeling definition conflicts with new forward-simulation definition |
-| Pattern-Resonance.md (outline) | `Body-Base/Feeling/` | `Body-Base/Feeling/backup/` | Old solo-simulator definition conflates with new mutual-phenomenon definition |
+| Agent-Mechanism.md | v2.1 | C8 | ✅ This file |
+| Self-Pattern-Modeling.md | v3.1 | B2 | ✅ Rewritten + renamed |
+| By-Product-Gap-Resonance.md | v1.4 | B3 | ✅ Trimmed |
+| Entity-Compiled.md | v1.0 | A3 | ✅ Created |
+| Entity-Access.md | v1.2 | A4+T1+T2 | ✅ Created + trimmed |
+| Entity-Access-Excess.md | v1.0 | T1 | ✅ Tách from EA |
+| Entity-Access-Calibration.md | v1.0 | T2 | ✅ Tách from EA |
+| Bond-Architecture.md | v1.0 | T3 | ✅ Tách from BPGR |
+| Resonance-Sustainability.md | v1.0 | T4 | ✅ Tách from BPGR |
+| By-Product-Scale.md | v1.0 | T5 | ✅ Tách from BPGR |
+| Resonance-Per-Entity.md | v1.0 | T7 | ✅ Mới |
 
-### §17.2 — Files flagged for update (recommendations)
+### §17.3 — Remaining
 
-**R1 — `Domain/Agent-2Axis-Analysis.md`**:
-- **Current status**: Draft, insights integrated into Agent.md
-- **Recommendation**: Move to backup after user confirms Agent.md coverage complete
-- **Timing**: Post Session N+2, user decision
-
-**R2 — `Body-Base/Feeling/Deep-Analysis-Draft/05-Theme-E-Empathy-Giving.md`**:
-- **Current status**: Uses old Pattern Resonance definition (solo simulator)
-- **Recommendation**: Refine §2.1 empathy definition + §2.2 mechanism with 3-concept split from Agent.md §4. Add cross-reference to `Agent/Self-Pattern-Match.md` + `Agent/Pattern-Resonance.md`.
-- **Alternative**: Mark Theme E as "superseded by Agent/" and move to backup — but loses rich Theme E analysis
-- **Recommended approach**: Refine + cross-reference (preserves valuable work)
-
-**R3 — `Core-Deep-Dive/Empathy-Mirror.md`**:
-- **Current status**: Commits to "Empathy-Mirror = MECHANISM" reframe, §6.5 evolutionary function, §8.5 mirror reward override
-- **Recommendation**: Add §0 clarification — "Empathy-Mirror mechanism = Self-Pattern-Match + Pattern-Resonance emergence" cross-reference. Existing content stays valid; just needs concept alignment.
-- **No major rewrite needed**: Empathy-Mirror insights fully preserved in Agent.md §12
-
-**R4 — `Core-Deep-Dive/Mirror-Empathy-Connection-Other/Mirror-Neuron-Analysis.md`**:
-- **Current status**: 3 mechanisms (Pattern Matching / Agent Modeling / Schema Simulation) merged as "mirror"
-- **Recommendation**: Map 3 mechanisms to Agent.md framework:
-  - ① Pattern Matching (limbic) = pre-SPM hardware triggers (§13 Stage 0)
-  - ② Agent Modeling (learned) = Self-Pattern-Match (§5 + §13 Stage 2+)
-  - ③ Schema Simulation (mature) = Mode 1/2 schema override (§10)
-- Add cross-reference §0 + minor §1 notes
-
-**R5 — `Core-Deep-Dive/Logic-Feeling.md` §5 + §6 + §7.1**:
-- **Current status**: Parallel processing, modality bias, 5 sub-cases (A-E)
-- **Recommendation**: Add §0 cross-reference to Agent/ folder. §7.1 sub-case D "Dehumanization" now has specific mechanism (Layer 4 schema suppression of SPM) — add 1 paragraph cross-reference.
-- **Minimal update needed**: Core insights already align
-
-**R6 — `Body-Base/Feeling/Feeling-Sources.md` §5 + §6**:
-- **Current status**: §5 Agent Input as body-base need, §6 Mirror-Generated Feelings
-- **Recommendation**: §6 rename consideration — "Mirror" terminology has history. Options:
-  - Option A: Rename §6 to "Self-Pattern-Match Generated Feelings" (cleaner)
-  - Option B: Keep "Mirror" with clarification note pointing to Agent/
-  - Option C: Expand §6 to cover Pattern-Resonance distinction
-- **Recommendation**: Option B (minimal disruption) for now, Option A for v8.0 framework cleanup
-
-**R7 — `Chunk-Analysis/plan.md` (parent master plan)**:
-- **Update**: Rename thread 5 từ "Agent-Question-Extension" → "Agent (Self-Pattern-Match mechanism)"
-- Reference new `Agent/` sub-folder in §2.5, §3 hypotheses (H9 added), §4.1 file table
-- Link parent plan → `Agent/plan.md`
-
-**R8 — `Chunk-Analysis/NEXT-SESSION-DIRECTIONS.md`**:
-- **Update**: Session N+2 accomplishment = Agent/ folder drilled (not just File 01 extension)
-- Session N+3 next = continue Phase A với File 02 Chunk-Genesis + File 03 Chunk-Connection-Logical
-- Update memory with new scope
-
-### §17.3 — Framework-wide impact summary
-
-| Impact level | Files affected | Action needed |
-|---|---|---|
-| **Superseded** (moved to backup) | Object-Agent.md, old SPM + PR outlines | Already executed |
-| **Needs refinement** (1-2 sections updated) | Theme E, Empathy-Mirror, Mirror-Neuron, Logic-Feeling, Feeling-Sources | Recommend, user decides |
-| **Needs rename** | Old Self-Pattern-Match + Pattern-Resonance references scattered | Post-synthesis cleanup |
-| **Cross-reference additions** | Chunk.md, Schema.md, Valence.md, Modality-Analysis.md | Minor |
-| **Parent plan updates** | Chunk-Analysis/plan.md, NEXT-SESSION-DIRECTIONS | L9 task |
-
-### §17.4 — Timing + priority
-
-**Immediate** (this drill session):
-- Move old files to backup ✅ DONE
-- Create new Agent/ files (in progress)
-- Update parent plan + NEXT-SESSION in L9
-
-**Post-session** (user's timeline):
-- Review Agent/ files
-- Decide Agent-2Axis-Analysis.md handling
-- Refine Theme E if keeping
-- Consider Empathy-Mirror + Mirror-Neuron cross-reference additions
-- Framework-wide "Self-Pattern-Match" vs "Mirror" terminology decision
-
-**Synthesis time** (Chunk-Analysis 99-Synthesis):
-- Include H9 verdict + framework update list
-- Decision on Agent promotion to top-level concept (vs staying under Chunk)
-- Commit framework updates or defer
+- **C9**: Coordination-Node v1.2 + Collective-Body v2.1 [LIGHT REFINE] (+ By-Product-Scale)
+- **D1**: SPM Rename (~70 files, Match → Modeling)
+- **D2**: File-Index + Verification
 
 ---
 
 ## §18 — Open questions
 
-Questions framework cannot yet answer definitively. Explicit uncertainty acknowledged.
-
 ### §18.1 — Mechanism questions
 
-1. **Precise neural substrate** — Which brain networks implement Self-Pattern-Match? mPFC + TPJ + STS implicated, but function-to-structure mapping imprecise.
-2. **Pattern-Type independence** — Can 5 Pattern-Types fire truly independently? Or is there always affective baseline? Psychopathy research inconclusive.
-3. **Calibration loop speed** — How fast does Self-Pattern-Match library update from Pattern-Resonance feedback? Minutes? Days? Varies by individual?
-4. **Retrieval selection mechanism** — What determines WHICH chunks fire in SPM? Schema prior? Recency? Emotional salience? All three?
-5. **Simulation fidelity** — Does simulation actually fire "as if self were target" (true mental time travel) or is it just selected template presentation?
+1. Precise neural substrate for SPM? (mPFC + TPJ + STS implicated, function-to-structure mapping imprecise)
+2. Pattern-Type independence — can 5 types fire truly independently?
+3. Calibration loop speed — minutes? days? individual variance?
+4. Retrieval selection mechanism — schema prior? recency? emotional salience?
+5. 5-Channel relative weight in agent detection context?
 
-### §18.2 — Developmental questions
+### §18.2 — Developmental
 
-6. **Critical periods** — Are there developmental windows beyond which SPM capacity caps? Early attachment disruption research hints yes.
-7. **Cross-cultural bootstrap** — Does mother bootstrap work same way across cultures with different caregiving patterns (extended family, nanny systems, multiple caregivers)?
-8. **Individual differences origin** — Why do some people develop rich SPM libraries while others with similar experiences don't? Genetic component? Temperament interaction?
+6. Critical periods for SPM capacity? (early attachment research hints yes)
+7. Cross-cultural bootstrap (extended family, multiple caregivers)?
+8. Individual differences origin (genetic? temperament? both?)
 
-### §18.3 — Framework-integration questions
+### §18.3 — Framework-integration
 
-9. **Relationship với predictive processing** (Friston FEP) — Is SPM a special case of general predictive processing, or distinct mechanism with overlapping substrate?
-10. **Consciousness role** — Does SPM require consciousness? Unconscious SPM may fire (automatic empathy), but training + reflection seem to engage conscious processes.
-11. **Self-Pattern state vs SPM mechanism boundary** — Is Self-Pattern always the material for SPM, or can SPM use pre-compiled templates without current firing?
-12. **Pattern-Resonance group scale** — Does Pattern-Resonance scale beyond dyads? Group empathy, collective effervescence, mass movements — same mechanism or different?
+9. Relationship with predictive processing (Friston FEP)?
+10. Consciousness role — does SPM require it? (automatic F1 suggests no)
+11. Inter-body chain compilation → group "personality"?
+12. 2-Stream quantification — can streams be measured separately?
 
-### §18.4 — Failure mode questions
+### §18.4 — Application
 
-13. **Alexithymia reversibility limits** — Is there a ceiling on how much alexithymia can be reversed through training in adulthood?
-14. **Psychopathy mechanism detail** — Is cognitive-affective split truly dissociable, or is psychopathy mislabeled composite?
-15. **Uncanny valley specificity** — Does uncanny valley truly target agent-detection specifically, or is it a general signal-conflict response?
-16. **Parasocial recovery pathways** — What interventions actually restore feedback axis function after prolonged parasocial patterns?
-
-### §18.5 — Application questions
-
-17. **Training ceiling** — Is there a practical limit to SPM quality improvement via training?
-18. **Axis interdependence quantification** — How do the 4 axes quantitatively interact? Linear? Multiplicative? Nonlinear interactions?
-19. **AI-triggered SPM ethics** — If AI systems increasingly trigger human SPM, what are the ethical + clinical implications?
-20. **Cross-species SPM limits** — How accurate can cross-species affective SPM be in principle? Is there mechanism to improve it with training (animal trainers, ethologists)?
+13. Alexithymia reversibility ceiling in adulthood?
+14. AI-triggered SPM ethics (parasocial-at-scale risk)?
+15. Stream 1/Stream 2 relative weight measurable?
+16. Domain=Arbiter in practice: how to distinguish domain feedback from PFC narrative?
 
 ---
 
-## §19 — Honest assessment
-
-Section này audits each major claim in Agent.md với confidence tier. 🟢 Strong research support, 🟡 Moderate evidence or plausible inference, 🔴 Speculative.
+## §19 — Honest assessment (🟢🟡🔴)
 
 ### §19.1 — Strong support (🟢)
 
-1. **Bird & Cook 2013 alexithymia-empathy link** → Self-awareness prerequisite for other-awareness — architectural claim well-supported
-2. **Mirror self-recognition (rouge test) at 18-24m** as developmental milestone for self-other mapping
-3. **Social Baseline Theory (Coan 2015)** + social pain research (Eisenberger 2003) as evidence for agent input as body-base need
-4. **Svetlova 2010** on helping behavior development (14-24 months)
-5. **Spelke Core Knowledge** as evidence for innate agent-detection triggers (reframed as triggers, not categories)
-6. **VTC neuroimaging** as hardware binary detection evidence
-7. **Hoffman developmental stages** mapping onto framework stages 1-4
-8. **Loughnan & Bastian 2014 Meat Paradox** as evidence for dehumanization via schema override
-9. **Grossman "On Killing"** as evidence for combat dehumanization mechanism
-10. **Piaget animism (1929)** as evidence for uncalibrated SPM projection in development
-11. **Durkheim collective effervescence (1912)** as evidence for group-scale co-firing phenomenon
-12. **Cry contagion research (Dondi 1999)** as evidence for pre-SPM pattern matching distinct from true empathy
-13. **Schema override + anchor-schema mechanism** (Anchor-Schema.md) as framework-internal support
-14. **Mirror reward > keep reward calculation** (Empathy-Mirror §6.5) as evolutionary explanation for sharing
+1. Bird & Cook 2013 alexithymia-empathy link
+2. Mirror self-recognition 18-24m (Amsterdam 1972)
+3. Social Baseline Theory (Coan 2015) + social pain (Eisenberger 2003)
+4. Svetlova 2010 helping behavior development
+5. Spelke Core Knowledge (as triggers)
+6. VTC neuroimaging (as early filter)
+7. Hoffman developmental stages
+8. Loughnan & Bastian 2014 Meat Paradox
+9. Grossman "On Killing" dehumanization
+10. Piaget 1929 animism
+11. Durkheim 1912 collective effervescence
+12. Dondi 1999 cry contagion
+13. Architecture B: general-purpose reward + compilation + social hardware (components each 🟢, combination 🟡)
+14. Panksepp 1998 μ-opioid social play
+15. Gazzaniga split-brain (PFC=Lawyer)
+16. Haidt 2001 moral judgment = post-hoc
+17. Hub-and-Spoke person-model (Patterson 2007, 2017; semantic dementia evidence)
+18. Formation 40→200h (Hall 2018, N=355)
+19. Schema acceleration (Tse 2007: 48h if schema exists)
+20. Dunbar layers S1-S6 (Dunbar 1992-2024, cross-cultural consistent)
+21. Shared self/other circuits vMPFC/dMPFC (Mitchell 2006, Denny 2012)
+22. Constructive Episodic Simulation (Schacter & Addis 2007)
+23. Love↔Hate shared substrate (Zeki & Romaya 2008)
+24. Grief = opioid withdrawal (Robinaugh 2021)
 
 ### §19.2 — Moderate support (🟡)
 
-1. **4-axes formal model** — novel formalization, useful descriptively, needs empirical validation for quantitative claims
-2. **5 Pattern-Type taxonomy** — descriptive framework, not directly tested
-3. **Pattern-Type independence claim** — partial evidence from psychopathy + alexithymia, but full dissociability uncertain
-4. **Mother bootstrap as "load-bearing"** — Romanian orphanage evidence strong, but "load-bearing" vs "helpful" distinction not cleanly tested
-5. **Feedback axis as critical for calibration** — intuitively strong, explicit testing limited
-6. **Collective schema gradient (7 scales)** — descriptive framework, interaction mechanisms not precisely specified
-7. **Mode 1 vs Mode 2 religious processing distinction** — based on user insight + framework integration, direct empirical support limited
-8. **Schema-linked SPM invocation/suppression** — consistent with dehumanization + radicalization research, specific mechanism claim broader than tested
-9. **17-case gradient mapping** — conceptually coherent, specific axis values approximations
-10. **Uncanny valley = VTC-SPM conflict** — consistent with research, specific mechanism claim stronger than direct evidence
-11. **Mirror-Neuron 3 mechanisms integration** — reframes established research, integration not directly tested
-12. **Training improves SPM quality** — meditation + perspective-taking research supportive, specific mechanism claim inferential
+1. 4-axes formal model (descriptive, needs empirical validation)
+2. 5 Pattern-Type taxonomy (useful, not directly tested)
+3. 2-Stream Architecture (drill-validated reasoning, limited direct evidence)
+4. Compiled/Fresh as primary axis (supported by neuroscience components, synthesis novel)
+5. 3-cost model (components established, integration novel)
+6. PFC=Lawyer in agent context (Gazzaniga/Haidt general, agent-specific = synthesis)
+7. By-product match as Resonance mechanism (broader than SPM co-fire, reasoning sound)
+8. 5-Channel Input Vector (descriptive model)
+9. Domain = Final Arbiter (philosophical commitment, empirically aligned)
+10. Anti-match concept (logical extension, limited cases)
+11. Per-pair topology (descriptive, not quantified)
+12. Mother bootstrap "load-bearing" (Romanian orphanage strong, precise "load-bearing" claim broader)
+13. Architecture B naming (synthesis; underlying components each 🟢)
+14. Simulation Engine: 1 Engine × 3 Components × 3 Axes (components each 🟢, integration novel)
+15. Entity-Access gradient Mức 0-5 (replaces binary, reasoning sound, operationalization pending)
+16. Entity-Compiled: Hub-and-Spoke → chunk assembly mapping (logical, not directly tested)
+17. Compiled Quality dimension: genuine/schema/threat (tag lock at compile-time, components 🟢)
+18. PFC Budget ~4±1 concurrent (components established, exact number framework)
+19. Hardware Subsidy spectrum (kin/romantic/friend, mechanism sound, not quantified)
+20. M1-M4 Resonance Decline (descriptive, not individually measured)
+21. 4-Layer Sustainability model (conditions reasonable, operationalization needed)
+22. Phantom 4-factor model (grief research supports, specific 4-factor = synthesis)
+23. Grief A+B+C formula (components each supported, weights = synthesis)
+24. ENGINE/ROAD/VEHICLE architecture (descriptive reframe, useful)
+25. 3 Satiation Types × agent context (Cyclic/Tonic/Generative, reasoning sound)
+26. Gap clone impossible (5-step proof logical, not experimentally verified)
 
 ### §19.3 — Speculative (🔴)
 
-1. **Precise neural substrate mapping** — mPFC/TPJ/STS implicated but framework claims go beyond direct evidence
-2. **Pattern-Resonance measurement** — conceptually clear, operationally undefined
-3. **AI-triggered SPM progressive claim (P10)** — emerging research, framework prediction ahead of evidence
-4. **Retrospective Pattern-Resonance detection mechanism** — coherent description, no direct test
-5. **SPM as general-purpose template simulator** (beyond agent-reading) — plausible extension, mostly inferential
-6. **Cosmic-scale Schema-Linked processing** (scale 7) — rare phenomenon, data limited
-7. **Individual variation axis profiles** — suggestive but not rigorously mapped
-8. **Calibration loop time scales** — hypothesized, not measured
-9. **Parasocial recovery mechanism specifics** — framework prediction, clinical evidence limited
-10. **Framework update impact predictions** — speculative about how changes would affect framework coherence
+1. Precise neural substrate mapping (beyond reference)
+2. Resonance measurement (operationally undefined)
+3. AI-triggered SPM progressive (emerging research)
+4. Cosmic-scale schema (Scale 7, rare, data limited)
+5. Individual axis profiles (suggestive, not mapped)
+6. Calibration loop time scales (not measured)
+7. Proto-Stream 2 boundaries (contingent response → where does real Stream 2 begin?)
 
 ### §19.4 — Known weaknesses
 
-**Weakness 1 — Operationalization**:
-Many framework concepts (Pattern-Type firing, axis quality, Pattern-Resonance detection) lack precise measurement protocols. Future empirical work requires operationalization.
-
-**Weakness 2 — Threshold specificity**:
-Where exactly does SPM fail → fallback to Layer 1+2? Mouse case intuitive but threshold not quantified. Same for schema override invocation.
-
-**Weakness 3 — Interaction complexity**:
-4 axes + schema polarity + developmental stage + individual variation + modality bias = high-dimensional space. Framework acknowledges but doesn't fully formalize interactions.
-
-**Weakness 4 — Cross-cultural validation**:
-Framework draws heavily on Western + Vietnamese cultural examples. Generalizability to other caregiving/cognitive patterns not tested.
-
-**Weakness 5 — Consciousness bracket**:
-Framework remains agnostic on consciousness role in SPM, which may be significant for some claims.
-
-**Weakness 6 — Integration with predictive processing**:
-Framework references Friston FEP but doesn't formally integrate. Overlap vs distinction unclear.
+1. **Operationalization**: many concepts lack measurement protocols
+2. **Threshold specificity**: where exactly SPM fails → fallback (not quantified)
+3. **High-dimensional space**: 4 axes + compilation + schema + individual = complex interactions
+4. **Cross-cultural**: draws on Western + Vietnamese examples
+5. **Consciousness bracket**: agnostic on consciousness role
+6. **2-Stream boundary**: when does Proto-Stream 2 become real Stream 2?
 
 ### §19.5 — Overall confidence
 
-**Unified mechanism framing (H9 core)**: 🟢 Consistent với evidence, resolves multiple tensions, generates testable predictions, architectural claims align với existing research (Bird & Cook, Spelke, Hoffman, Coan, etc.)
-
-**Specific quantitative claims**: 🟡 Descriptive framework useful, empirical validation needed
-
-**Novel formalizations (4 axes, 5 Pattern-Types, 3-concept split)**: 🟡 Conceptually valuable, operationalization pending
-
-**Framework integration**: 🟢 Cleanly supersedes/refines existing fragments (Object-Agent.md, old SPM/PR outlines, Theme E), no major internal contradictions
-
-**Predictive power**: 🟡 10 predictions generated, several testable, evidence base varies from strong (P1, P4, P6, P9) to emerging (P10)
-
-**Recommendation**: Agent.md + sub-files represent framework's **best current unified model** for agent-reading. Not final truth — testable hypothesis cluster inviting further research and refinement.
+- **H9 core (unified mechanism)**: 🟢 Consistent, resolves tensions, generates predictions
+- **Quantitative claims**: 🟡 Descriptive framework, validation pending
+- **Novel formalizations (2-Stream, Compiled/Fresh, 3-cost)**: 🟡 Conceptually sound, operationalization needed
+- **Framework integration**: 🟢 Cleanly supersedes old fragments, no contradictions
+- **Predictive power**: 🟡 12 predictions, evidence varies
 
 ---
 
 ## §20 — Cross-references
 
-### §20.1 — Within Agent/ folder
+### §20.1 — Within Agent-Mechanism/ folder (11 active files)
 
-- **`plan.md`** — sub-folder plan, this drill's blueprint
-- **`Self-Pattern-Match.md`** — deep drill of solo forward mechanism (L7 drill target)
-- **`Pattern-Resonance.md`** — deep drill of emergent mutual phenomenon (L8 drill target)
+**Core mechanism**:
+- `Self-Pattern-Modeling.md v3.1` — solo forward mechanism (renamed from Match)
+- `By-Product-Gap-Resonance.md v1.4` — emergent mutual phenomenon (trimmed)
 
-### §20.2 — Parent framework files (referenced, not modified)
+**Entity mechanism (Phase A)**:
+- `Entity-Compiled.md v1.0` — Hub-and-Spoke, 40→200h, Dunbar, Grief A+B+C, Decay
+- `Entity-Access.md v1.2` — Mức 0-5 gradient, 3-Factor, 4 Starting Modes
 
-**Core mechanism files**:
-- `Body-Base/Body-Coupling.md` v1.0 — coupling mechanism deep-dive (extends §12.2b L1→L2): 2D model, 3 Phase, extension/entanglement/neutral, system compilation
-- `Schema/Chunk.md` — chunk substrate foundation
-- `Schema/Anchor-Schema.md` — §2 positive/negative trust, §3 external inject source
-- `Core-Deep-Dive/Logic-Feeling.md` — §5 parallel processing, §6 modality bias, §7.1 DANGER zone sub-cases
-- `Core-Deep-Dive/Empathy-Mirror.md` — §6.5 resource distribution, §8.5 mirror reward override
-- `Core-Deep-Dive/Mirror-Empathy-Connection-Other/Mirror-Neuron-Analysis.md` — 3 mechanisms merged as mirror
-- `Core-Deep-Dive/Somatic-Articulation-Loop.md` — body-to-words mechanism
-- `Core-Deep-Dive/Modality-Analysis.md` — §7 development, modality encoding
+**Entity deep-dives (Phase T)**:
+- `Entity-Access-Excess.md v1.0` — Mức 5, 3 origins, SPM atrophy
+- `Entity-Access-Calibration.md v1.0` — 3-Layer, Exit Cost, Calibration Bias
 
-**Feeling folder (cross-referenced, some marked for update)**:
-- `Body-Base/Feeling/Feeling-Sources.md` — §5 Agent Input, §6 Mirror-Generated Feelings
-- `Body-Base/Feeling/Feeling.md` — root feeling concept
-- `Body-Base/Feeling/Deep-Analysis-Draft/01-Theme-A-Architecture.md` — PFC observation Tier 2
-- `Body-Base/Feeling/Deep-Analysis-Draft/05-Theme-E-Empathy-Giving.md` — **flagged for update §17.2 R2**
-- `Body-Base/Feeling/Deep-Analysis-Draft/06-Theme-F-Logic-Feeling-Check.md` — §2.6 empathy reframe
+**Resonance deep-dives (Phase T)**:
+- `Bond-Architecture.md v1.0` — 4 bond types × 1 EC, M1-M4, gap clone IMPOSSIBLE
+- `Resonance-Sustainability.md v1.0` — 4-Layer, 3 conditions, 3 modalities
+- `By-Product-Scale.md v1.0` — 3 scales (pair/hub/institutional)
+- `Resonance-Per-Entity.md v1.0` — HW Subsidy spectrum, Phantom 4-factor
 
-**Domain files**:
-- `Domain/backup/Object-Agent.md` — superseded (in backup)
-- `Domain/Agent-2Axis-Analysis.md` — insights integrated, keep-or-backup user decision
-- `Domain/Valence.md` — §1 context-dependent valence
-- `Domain/Domain-Interaction.md` — flow context
+**Backup**: `backup/Agent-Mechanism-v2.0-backup.md`
 
-**Body-Base files**:
-- `Body-Base/Body-Input-Enumeration.md` — §4.9 self-signal interoception keystone
-- `Body-Base/Body-Base.md` — foundation layer
+### §20.2 — PFC + Engine files (Phase A)
 
-**Chunk-Analysis files**:
-- `Chunk-Analysis/plan.md` — parent master plan (will update L9)
-- `Chunk-Analysis/00-Reading-Notes.md` — Phase 1 discovery
-- `Chunk-Analysis/NEXT-SESSION-DIRECTIONS.md` — session bridge (will update L9)
-- `Chunk-Analysis/Learning-Cycle/Learning-Cycle.md` — H8 Learning Dissonance Cycle (cross-references Stage 1-2 SPM bootstrap)
+- `PFC-Operations.md v1.0` — Hold/Suppress, Compiled Quality, PFC Budget, B vs C
+- `Simulation-Engine.md v1.0` — 1 Engine × 3 Components × 3 Axes → N applications
+- `PFC-Label.md v1.0` — vocabulary standard
 
-**Research references (external citations)**:
-- Spelke 2007 Core Knowledge Systems
-- Bird & Cook 2013 Alexithymia hypothesis
-- Svetlova 2010 empathic helping development
-- Amsterdam 1972 mirror self-recognition (rouge test)
-- Hoffman 2000 empathy development
-- Coan 2015 Social Baseline Theory
-- Eisenberger 2003 social pain neural overlap
-- Damasio 1994 somatic marker hypothesis
-- Gendlin 1978 Focusing felt sense
-- Piaget 1929 animism
-- Loughnan & Bastian 2014 Meat Paradox
-- Grossman 1995 On Killing
-- Durkheim 1912 collective effervescence
-- Mori 1970 uncanny valley
-- Dondi et al. 1999 newborn cry discrimination
-- Warneken & Tomasello 2006-2007 helping behavior
-- Mirror neuron research (Rizzolatti + subsequent)
-- Bird & Cook 2013 alexithymia-empathy link (decisive)
-- Hamilton 2013 autism empathy review
+### §20.3 — Core mechanism files
 
-### §20.3 — Future files anticipated
+- `Inter-Body-Mechanism.md v1.0` — 8 drill principles, Architecture B, 3-cost
+- `Body-Base.md v3.1` — 3 Hardware Foundations, Architecture B
+- `Body-Feedback-Mechanism.md v2.0` — 2-source model, chunk dynamics
+- `Valence-Propagation.md v3.0` — Structural/Current, 3 Firing Modes, HW Subsidy, Satiation
+- `Body-Coupling.md v3.0` — coupling mechanism, HW Subsidy, M1-M4, 4-Layer
+- `Gap-Direction.md v2.0` — gap direction = f(surrounding chunks)
+- `Gap-Body-Need.md v1.0` — 3 Satiation Types, 5-Parameter, ENGINE/ROAD/VEHICLE
+- `Chunk.md v2.0` — chunk substrate foundation
 
-- `Chunk-Analysis/02-Chunk-Genesis.md` — thread 7, foundation for SPM library chunk compilation
-- `Chunk-Analysis/03-Chunk-Connection-Logical.md` — thread 2, may reference SPM as consumer of connected chunks
-- `Chunk-Analysis/06-Chunk-Feeling-Interface.md` — thread 3, feeling gradient with SPM integration
-- `Chunk-Analysis/07-Chunk-Valence.md` — thread 11, agent-valence via Self-Pattern-Match + schema interaction
-- `Chunk-Analysis/09-Cognition-Upgrade.md` — thread 9, developmental cognition with SPM refinement
-- `Chunk-Analysis/99-Synthesis.md` — architectural synthesis, H9 verdict, commit decisions
-- (Possible future) `Collective-Agent.md` — deep drill of §11 Schema-Linked at scales 4-7 if expansion warranted
+### §20.4 — Processing files
 
-### §20.4 — Reading path recommendations
+- `Feeling.md v3.0` — 7-layer, PFC observation, PFC=Lawyer
+- `Logic-Feeling.md v2.0` — Compiled/Fresh = trục thật, observer labels
+- `Neural-Processing-Flow.md v2.0` — hardware flow, Compiled/Fresh physical
+- `Body-Feedback-Label.md v1.1` — vocabulary reference
 
-**For understanding Agent concept**:
-Agent.md §0-§4 → §9 gradient → §10-§11 schema/collective → §19 honest assessment
+### §20.5 — Observation + connection files
 
-**For deep mechanism research**:
-Agent.md §5-§8 overview → `Self-Pattern-Match.md` full → `Pattern-Resonance.md` full
+- `Connection.md v5.0` — M1-M4, 4-Layer Sustainability, HW Subsidy, Phantom
+- `Empathy.md v4.0` — PFC budget, Compiled Quality, Burnout reframe, Per-entity
+- `Background-Pattern.md v2.0` — Triple Bias, Pattern Shiftability, BP × Entity
+- `Cortisol-Baseline.md v2.1` — stress cascade, moral injury
+- `Reward-Signal-Architecture.md v2.0` — Type A/B, development
 
-**For framework integration questions**:
-Agent.md §1 position → §17 framework updates → §20 cross-references
+### §20.6 — Research citations (v1.0 preserved + v2.0 added + v2.1 added)
 
-**For clinical/applied questions**:
-Agent.md §14 failure modes → §15 individual variation → `Self-Pattern-Match.md` training methods
+v1.0+v2.0 (28 citations preserved):
+- Spelke 2007, Bird & Cook 2013 (DECISIVE), Svetlova 2010, Amsterdam 1972
+- Hoffman 2000, Coan & Sbarra 2015, Eisenberger 2003, Panksepp 1998
+- Damasio 1994, Gendlin 1978, Piaget 1929, Loughnan 2014, Grossman 1995
+- Durkheim 1912, Mori 1970, Dondi 1999, Warneken 2006-2007, Goldman
+- Hamilton 2013, Gazzaniga, Haidt 2001, Nisbett & Wilson 1977
+- Gailliot 2007, Schultz 1997, Kahneman 2011, Klein 1998, Tang 2015, Weber-Fechner
 
-**For developmental questions**:
-Agent.md §13 timeline → `Self-Pattern-Match.md` developmental detail
+v2.1 added (via sub-files):
+- Patterson & Lambon Ralph 2007/2017 (Hub-and-Spoke)
+- Hall 2018 (formation hours), Tse 2007 (schema acceleration)
+- Dunbar 1992-2024 (layers), Parkinson 2018/2025 (neural similarity)
+- Mitchell 2006, Denny 2012, Tamir & Mitchell 2010 (vMPFC/dMPFC)
+- Schacter & Addis 2007 (constructive simulation), Buckner 2008 (DMN)
+- Zeki & Romaya 2008 (love↔hate), Robinaugh 2021 (opioid withdrawal grief)
+- Bonanno 2002/2019 (4 grief trajectories)
+- Trapnell & Campbell 1999 (reflection vs rumination)
+
+(45+ citations total)
 
 ---
 
-> **Agent.md main file complete**. §0-§20 covered. File ~2500L.
+## Changelog
+
+```
+v2.0 (2026-05-17) — FULL REWRITE (Phase 16 ALL REWRITE project)
+  FROM: v1.0 DRAFT (2026-04-15, ~2,690L)
+  TO: v2.0 (~1,600L — tighter, more accurate)
+
+  KEY CHANGES:
+  ① Architecture B integrated: WHY agent mechanism exists (§0.2, §2.6, §3.4, §11.4, §12.1b, §13.1)
+  ② SPM preview REWRITTEN: F1=Compiled, F2=Fresh (not Feeling/Logic) — §5
+  ③ Resonance preview REWRITTEN: 2-Stream Architecture + by-product match — §6
+  ④ Compiled/Fresh dimension added throughout (§3.2, §5.2, §7.5, §8.x)
+  ⑤ 3-cost model integrated (§5.3, §12.4)
+  ⑥ PFC=Lawyer formal section (§3.6) + notes throughout
+  ⑦ Domain=Arbiter principle throughout (§5.4, §6.7, §14.10)
+  ⑧ 2-Stream annotations in gradient table (§9.1)
+  ⑨ Cases reclassified: mẹ-bé, người-chó = genuine Resonance (§6.6, §9.2)
+  ⑩ §17 updated: Phase 1-16 progress reflected
+  ⑪ §19 updated: new 🟡 for drill concepts
+  ⑫ 28+ citations (ALL v1.0 preserved + 8 added)
+  ⑬ Terminology updated: Compiled/Fresh, 2-Stream, by-product match consistent
+
+  STRUCTURE CHANGES:
+  - §0: +Architecture B context, +v2.0 changes table
+  - §3: REWRITE (chunk-based, not "Layer 1-4"; +Compiled/Fresh; +PFC=Lawyer)
+  - §4: definitions UPDATED to reflect SPM v3.0, By-Product-Gap-Resonance v1.0
+  - §5: REWRITE (v3.0 accurate preview)
+  - §6: REWRITE (v3.1 accurate preview with 2-Stream)
+  - §7: +Compiled/Fresh as 5th dimension
+  - §9: +2-stream column, +Case 18, reclassified cases
+  - §12: +§12.1b Architecture B, +§12.4 3-cost
+  - §13: +Architecture B framing, +Type B→A trajectory
+  - §14: +PFC=Lawyer notes, +Domain=Arbiter per mode
+  - §16: +P11 Compiled/Fresh training, +P12 2-Stream temporal
+  - §17: MAJOR UPDATE (Phase 1-16 status)
+  - §19: UPDATED (drill concepts assessed)
+  - §20: ALL versions updated
+
+  PRESERVED 100%:
+  - ALL research citations (20+ → 28+)
+  - Signature examples (candy, cây xoài, Đức Mẹ, Bác Hồ, cow worship, mother-10-year)
+  - 3-concept split architecture
+  - 4 Quadrants (Utility × Modeling)
+  - Gradient validation (17 → 18 cases)
+  - Schema override Mode 1/Mode 2
+  - Schema-Linked 7 scales
+  - Developmental 7 stages
+  - 9 failure modes
+  - H9 falsifiable predictions (10 → 12)
+
+v1.0 DRAFT (2026-04-15) — initial creation
+  Session: Chunk-Analysis Phase A, N+2
+  ~2,690L. Comprehensive but outdated.
+  Backed up: backup/Agent-Mechanism-v1.0-backup.md
+
+v2.1 (2026-05-22) — REFINE (Phase C8 — Drill Framework Propagation plan 25/28)
+  FROM: v2.0 (2026-05-17, ~1,957L)
+  TO: v2.1 (~2,400L — enriched with Phase A+B+T+C1-C7 integration)
+
+  KEY CHANGES:
+  ① SPM rename: Self-Pattern-Match → Self-Pattern-Modeling throughout (23 occurrences)
+  ② §0.1: +Simulation Engine context (SPM = Application 1 trên 1 Engine)
+  ③ §0.3: +12 new accepted items (SE, EA, EC, Compiled Quality, PFC Budget, HW Subsidy, M1-M4, 4-Layer, Phantom)
+  ④ §0.5 NEW: v2.1 changes table (v2.0 vs v2.1)
+  ⑤ §1: reading flow REWRITTEN (3 files → 11 files, 6 entry paths)
+  ⑥ §2.4: +Entity-Access gradient Mức 0-5 formal model (EA v1.2)
+  ⑦ §3.3 NEW: Simulation Engine context (1 Engine × 3 Components × 3 Axes)
+  ⑧ §4.3-4.4: SPM v3.1 + BPGR v1.4 definitions updated
+  ⑨ §5.7 NEW: Compiled Quality effect on SPM (genuine/schema/threat)
+  ⑩ §6: header updated (BPGR v1.4 + 4 sub-files)
+  ⑪ §6.8-6.11 NEW: Bond-Architecture, Resonance-Sustainability, By-Product-Scale, Resonance-Per-Entity previews
+  ⑫ §7.5: +quality modifiers table (Compiled Quality, HW Subsidy, EA level, PFC Budget)
+  ⑬ §9.1: +EA Mức column in gradient table (18 cases annotated)
+  ⑭ §12.7-12.9 NEW: 3 Satiation Types × agent, ENGINE/ROAD/VEHICLE, Phantom × agent loss
+  ⑮ §14.10-14.11 NEW: EA-Excess (Mức 5) + Compiled Suppress escalation failure modes
+  ⑯ §17 REWRITE: Phase A+B+T+C status (28-session plan, folder table)
+  ⑰ §19: +8 🟢 items (Hub-and-Spoke, Hall 2018, Tse, Dunbar, Mitchell, Schacter, Zeki, Robinaugh)
+            +13 🟡 items (SE, EA gradient, EC, Compiled Quality, PFC Budget, HW Subsidy, M1-M4, 4-Layer, Phantom, Grief A+B+C, ENGINE/ROAD/VEHICLE, 3 Satiation, Gap clone)
+  ⑱ §20 REWRITE: 4 categories → 6 categories, +12 new files, all versions updated, 45+ citations
+  ⑲ YAML: 16 flat deps → 30+ organized 6 categories, +10 supporting files
+  ⑳ GLOBAL: all dep versions updated to current
+
+  PRESERVED 100%:
+  - ALL v2.0 content (no deletions, only additions)
+  - 20 section structure (enriched, not restructured)
+  - ALL signature examples
+  - ALL v2.0 research citations (28 → 45+)
+  - 3-concept split, 4 Quadrants, Schema Mode 1/2, 7 developmental stages
+  - H9 falsifiable predictions (12, unchanged)
+```
+
+---
+
+> **Agent-Mechanism.md v2.1 complete**. Integration hub updated.
 >
-> **Next steps**:
-> - L7: drill `Self-Pattern-Match.md` (solo forward mechanism deep dive)
-> - L8: drill `Pattern-Resonance.md` (emergent mutual phenomenon deep dive)
-> - L9: update parent plan + NEXT-SESSION-DIRECTIONS + memory
+> **Supporting files current**: SPM v3.1, BPGR v1.4, EC v1.0, EA v1.2 + 6 Phase T files — all current.
+> **Next**: C9 Coordination-Node + Collective-Body [LIGHT REFINE].
 >
-> **END OF Agent.md**
+> **END OF Agent-Mechanism.md v2.1**

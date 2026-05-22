@@ -611,7 +611,7 @@ This is a **framework-critical distinction**: at Stage 0, positive emotional sta
 **Ladder classification**: **L4 compound chunks** — self-emotional chunks used as template for social action.
 
 **Chunks state inference** 🟢:
-- **Present**: own distress chunk (fired via Pattern Resonance from mother's distress — Martin & Clark 1982 cry contagion → Hoffman 2000 egocentric empathy stage)
+- **Present**: own distress chunk (fired via Resonance from mother's distress — Martin & Clark 1982 cry contagion → Hoffman 2000 egocentric empathy stage)
 - **Present**: own comfort template ("when I'm distressed, my bear helps me")
 - **Present**: cross-agent application chunk (applying own template to another)
 - **Present**: motor action chunks (retrieve bear, carry to mother)
@@ -753,14 +753,14 @@ This makes the compile body state almost entirely determined by caregiver respon
 
 **Adult repair is possible but bounded**: Subsequent secure relationships (adult therapy, long-term partners, close friendships with consistent co-regulation) can provide the missing compile context. Research on "earned secure" attachment (🟡 Roisman et al. 2002) shows that adults can move from insecure infant classification to secure adult functioning, but the earlier work was done with more recoverable Level 2-3 cases. Level 4 recovery requires much longer and more intensive intervention.
 
-**Cross-reference**: [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §7 expands emotional compile into full social-emotional binding including Pattern Resonance mechanisms. 07 covers the social-perception side; 06b covers the interoceptive side. Together they cover the full emotional compile arc.
+**Cross-reference**: [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §7 expands emotional compile into full social-emotional binding including Resonance mechanisms. 07 covers the social-perception side; 06b covers the interoceptive side. Together they cover the full emotional compile arc.
 
 ### §5.9 — Emotional summary table
 
 | Stage | Age | Event | Ladder | Chunks state |
 |---|---|---|---|---|
 | A | 0-3mo | E5 quiet alert (absence of distress) | L0 | No positive chunks; seed window for compile |
-| A' | Newborn | Cry contagion (Martin & Clark 1982) | L0/L1 | Primitive Pattern Resonance; own distress fires |
+| A' | Newborn | Cry contagion (Martin & Clark 1982) | L0/L1 | Primitive Resonance; own distress fires |
 | B | 3-5mo | E11 differentiated emotional expressions | L1 | Weak differentiation chunks |
 | B-social | 6-8wk | E12 social smile | L2 | Multi-modal binding (see 07 §3.3) |
 | L2 social | 6-12mo | Still-face detection, social referencing | L2 | Caregiver-emotion reading chunks |
@@ -1039,7 +1039,7 @@ The **emotional state has the largest gap** (~24-30mo) because emotional product
 ### §9.2 — Other Chunk-Analysis folders
 
 - [Body-Feedback-Draft/01-Foundation.md §5.5.2](../Body-Feedback-Draft/01-Foundation.md#§5.5.2) — đau gradient parallel to bladder gradient in 06a §6.2
-- [Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md) — E26 egocentric empathy cross-reference (own template applied to other)
+- [Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) — E26 egocentric empathy cross-reference (own template applied to other)
 
 ### §9.3 — Body-Base framework
 
@@ -1121,7 +1121,7 @@ The **emotional state has the largest gap** (~24-30mo) because emotional product
 
 **Notable deferrals to later files**:
 - E12 social smile full Nút Thắt 3 drill → 07 §3.3
-- E26 Pattern Resonance mechanism → 07 §7 (cross-ref to Agent sub-folder)
+- E26 Resonance mechanism → 07 §7 (cross-ref to Agent sub-folder)
 - E21 verbal-handle full verdict → 08 §5
 - H11 full formalization → 08 §6
 - Verbal emotional labels (2-3yr) → F3 language folder

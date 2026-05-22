@@ -1,22 +1,31 @@
 title: Logic-Feeling Balance — Tại Sao Không Thể Prescribe, Chỉ Có Thể Describe
-version: 1.0
+version: 2.1
 created: 2026-04-21
-status: v1.0
+updated: 2026-05-17 (v2.0 — Compiled/Fresh reframe, +Drill ⑧ Domain=Arbiter elevated, +PFC=Lawyer, +3-cost, +Architecture B, +1B trap explicit)
+refined: 2026-05-17 (v2.1 — 4-tier → 2-tầng calibration alignment with Why-Body-Knows.md v1.1)
+previous: v2.0
+status: v2.1
 scope: |
-  Nguyên lý epistemological: cả Logic lẫn Feeling đều không 100% chính xác.
+  Nguyên lý epistemological: cả Compiled lẫn Fresh processing đều không 100% chính xác.
   Tại sao KHÔNG THỂ tạo rules "khi nào tin cái nào".
   Tại sao mỗi người BẮT BUỘC tự cân bằng — và đó là giá trị cốt lõi của con người.
+  v2.0: Balance = Compiled×Domain verify cycle (not Logic/Feeling ratio).
+  HƯỚNG calibrate = domain feedback (drill ⑧ resolved).
 purpose: |
-  Companion file cho Logic-Feeling.md.
-  Logic-Feeling.md mô tả HOW (cơ chế song song).
+  Companion file cho Logic-Feeling.md v2.0.
+  Logic-Feeling.md mô tả WHAT (Compiled/Fresh = trục thật, L/F = observer labels).
   File này mô tả WHY BALANCE CANNOT BE PRESCRIBED (giới hạn epistemological).
+  v2.0: Reframed via Compiled/Fresh axis — same conclusion, deeper foundation.
 sources: |
-  Logic-Feeling.md §5-§7 (parallel processing, modality bias)
-  Why-Body-Knows.md §4-§5 (4-tier calibration, 3 error types)
-  Feeling.md §2-§3 (7-layer fidelity gradient)
+  Logic-Feeling.md v2.0 §1-§4 (Compiled/Fresh axis, labels, flow, 3-cost)
+  Inter-Body-Mechanism.md v1.0 §3-§4, §7 (Compiled/Fresh, 3-cost, PFC=Lawyer)
+  Why-Body-Knows.md v1.1 §3, §6 (2-tầng calibration, 3 error types + Dual Check)
+  Feeling.md v3.0 §2.5, §3.4, §8.3 (Compiled/Fresh×7-Layer, PFC=Lawyer, 1A/1B)
   Feeling-Accuracy.md §3 (6 PFC error modes)
   Anchor-Schema.md §2-§3 (Trust ≠ Clarity ≠ Quality, External Inject)
   Conflict-Dynamics.md §7 (Scarcity → Expansion)
+  Ask-AI.md v3.1 §6.1 (Dual Check: body=QC, domain=arbiter)
+  Reward-Signal-Architecture.md v2.0 §8.1 (development, domain verify)
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 each component research-grounded | 🟡 integration + epistemological claim = framework synthesis | 🔴 specific examples' generalizability
 
@@ -92,11 +101,43 @@ mà mô tả **giới hạn epistemological** của chính cơ chế đó:
 - Logic-Feeling.md trả lời: **HOW** Logic + Feeling chạy song song
 - File này trả lời: **WHY** không thể prescribe khi nào tin cái nào
 
-### 0.2 File này KHÔNG PHẢI
+### 0.2 v2.0 Compiled/Fresh Reframe (Inter-Body drill 2026-05-16)
+
+```
+⭐ v2.0 REFRAME — same conclusion, deeper foundation:
+
+  v1.0 question: "Khi nào tin Logic? Khi nào tin Feeling?"
+  v2.0 question: "Khi nào tin COMPILED patterns? Khi nào cần FRESH processing?"
+
+  Drill insight (Inter-Body §3, Logic-Feeling.md v2.0):
+    → "Logic" và "Feeling" = observer labels for SAME spectrum
+    → Trục thật: COMPILED ←→ FRESH (compilation level)
+    → "Balance" ≠ "Logic/Feeling ratio"
+    → "Balance" = Compiled × Domain verify cycle
+
+  CONCLUSION UNCHANGED — nhưng foundation DEEPER:
+    → Cannot prescribe "khi nào tin compiled" — VÌ compiled có thể SAI (1B)
+    → Cannot prescribe "khi nào dùng fresh" — VÌ fresh có thể LAWYER (PFC=Lawyer)
+    → Domain feedback = ONLY calibration mechanism → trọng tài duy nhất (§10)
+    → = SAME meta-principle, DIFFERENT (deeper) reason
+
+  HƯỚNG CALIBRATE (drill ⑧ RESOLVED):
+    → v1.0 open question: "Làm sao biết balance đúng?"
+    → v2.0 answer: DOMAIN FEEDBACK = hướng calibrate duy nhất
+    → Compiled verified by domain → reliable (1A)
+    → Compiled NOT verified → unreliable (1B, may be wrong)
+    → Fresh output verified by domain → can compile
+    → = Balance tự-calibrate QUA domain feedback cycle
+
+🟡 Compiled/Fresh reframe of balance = framework synthesis.
+   Same epistemological conclusion (cannot prescribe), deeper mechanism.
+```
+
+### 0.3 File này KHÔNG PHẢI
 
 - ✗ Không phải "hướng dẫn khi nào tin body"
 - ✗ Không phải "rules cho decision-making"
-- ✗ Không phải "Logic tốt hơn" hay "Feeling tốt hơn"
+- ✗ Không phải "Compiled tốt hơn" hay "Fresh tốt hơn"
 - ✓ Là giải thích TẠI SAO không ai có thể tạo những thứ trên
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -108,24 +149,32 @@ mà mô tả **giới hạn epistemological** của chính cơ chế đó:
 Con người navigate reality bằng đúng 2 công cụ:
 
 ```
-⭐ HAI CÔNG CỤ:
+⭐ HAI CÔNG CỤ (v2.0: reframed via Compiled/Fresh):
 
-  LOGIC (PFC track):
-    = Chain labeled chunks → rules → verify → plan
-    = "Tôi BIẾT vì rules chứng minh"
-    = Sequential, deterministic, communicable
-    (Chi tiết: Logic-Feeling.md §1)
+  COMPILED PROCESSING (body-direct track):
+    = Patterns đã Hebbian-strengthened → fire automatic → body-feedback direct
+    = "Tôi BIẾT vì body đã tích lũy"
+    = Cost ≈ 0, parallel, fast
+    = Observer label: "feeling" (if non-shareable) or "logic" (if shareable)
+    (Chi tiết: Logic-Feeling.md v2.0 §1)
 
-  FEELING (Body track):
-    = Body-chunk interaction → integrated signal → PFC observe
-    = "Tôi BIẾT vì body nói vậy"
-    = Parallel, multi-source, body-first
-    (Chi tiết: Feeling.md §1)
+  FRESH PROCESSING (PFC draft track):
+    = Novel paths → PFC draft actively → body-feedback delayed
+    = "Tôi NGHĨ RA vì phải suy luận"
+    = Cost > 0, sequential, slow
+    = Observer label: "logic" (visible effort) or "phân tích" (deliberate)
+    (Chi tiết: Logic-Feeling.md v2.0 §1)
+
+  NOTE: "Logic" và "Feeling" = observer LABELS cho cùng spectrum.
+    "Logic" = khi output shareable/articulated (fresh hoặc compiled-shareable)
+    "Feeling" = khi output non-shareable (compiled body-direct)
+    = Labels vẫn hữu ích (§2) nhưng KHÔNG PHẢI mechanism difference
+    (Chi tiết: Logic-Feeling.md v2.0 §2)
 ```
 
 Cả hai chạy SONG SONG cho MỌI entity, MỌI lúc.
 Không phải "logic cho vật, feeling cho người" — mà là spectrum tỷ lệ thay đổi liên tục.
-(Logic-Feeling.md §5: "SPECTRUM, không phải binary")
+(Logic-Feeling.md v2.0 §6: "SPECTRUM, không phải binary")
 
 ### 1.2 Cả hai đều không 100% — và đây là STRUCTURAL, không phải lỗi
 
@@ -145,6 +194,15 @@ Không phải "logic cho vật, feeling cho người" — mà là spectrum tỷ 
     
   → Không công cụ nào có thể 100% trong domain vô tận.
   → Đây là điều kiện tồn tại, không phải vấn đề cần giải quyết.
+
+  v2.0 ADD — Architecture B (Inter-Body §1):
+  → Evolution chọn GENERAL-PURPOSE reward + compilation + social hardware
+  → Trade-off: adapt BẤT KỲ environment, nhưng cần 15-20 năm compile
+  → = STRUCTURAL reason cả compiled lẫn fresh đều không 100%:
+    Compiled: compiled for PAST context (may not match CURRENT)
+    Fresh: PFC draft = Lawyer (may confabulate) + cost > 0 (unsustainable)
+  → = Architecture B GUARANTEES uncertainty — not a bug, a FEATURE
+  → = Uncertainty = PRICE for general-purpose adaptability
 ```
 
 ### 1.3 Tại sao đây là nguyên lý quan trọng
@@ -166,6 +224,52 @@ Nếu không hiểu nguyên lý này → 3 trap phổ biến:
   → Chính rules đó cũng chỉ là Logic → cũng không 100%
   → Infinite regress: ai verify rules đó? Rules khác? Ai verify rules khác?
   → §7 sẽ phân tích kỹ trap này
+
+### 1.4 Compiled/Fresh Reframe of "Balance" (v2.0)
+
+```
+⭐ "BALANCE" ≠ LOGIC/FEELING RATIO — balance = Compiled × Domain cycle:
+
+  OLD QUESTION (v1.0): "Khi nào tin Logic? Khi nào tin Feeling?"
+  NEW QUESTION (v2.0): "Compiled reliable? → Domain verify. Fresh needed? → Domain verify."
+
+  REFRAME:
+    "Trust feeling" = "trust compiled body-patterns" — reliable IF domain-verified (1A)
+    "Trust logic" = "trust fresh PFC draft" — reliable IF domain-confirms
+    "Balance" = continuous Compiled → Domain verify → Update cycle
+
+  3-COST MODEL (Inter-Body §4) giải thích structural constraint:
+    ① PFC Draft Cost: fresh processing = metabolic (glucose, neurotransmitters)
+    ② Suppress Cost: override compiled = body resist = dissonance
+    ③ Uncertainty Cost: hold options open = cortisol holding
+    → Cannot "fresh" forever (unsustainable)
+    → MUST compile eventually → nhưng compiled có thể SAI
+    → = CYCLE is the only sustainable approach:
+      Compile → use → domain feedback → correct if needed → re-compile
+
+  PFC = LAWYER (Inter-Body §7):
+    → Fresh output = PFC narrative = may CONFABULATE (not neutral verify)
+    → Compiled output = body-direct = may be OUTDATED
+    → Neither = neutral truth → Domain = only arbiter
+    → = WHY "balance" cannot be prescribed by EITHER track
+
+  HƯỚNG CALIBRATE = DOMAIN FEEDBACK (drill ⑧ RESOLVED):
+    → "Làm sao biết mình balance đúng?" → DOMAIN OUTCOME cho biết
+    → Actions → outcomes → body updates → compiled improves
+    → = Self-calibrating system THROUGH domain engagement
+    → = NOT self-calibrating through introspection alone (introspection = PFC = Lawyer)
+    → = MUST ACT + observe outcome → only calibration path
+
+  DUAL CHECK (Ask-AI v3.1 §6.1):
+    Step 1: Body-feedback = quality controller ("cảm thấy không ổn?" → PAUSE)
+    Step 2: Domain reality = final arbiter (outcome confirm/reject → UPDATE)
+    → Body = first gate (compiled patterns detect mismatch)
+    → Domain = final gate (reality confirms/denies)
+    → Both gates TOGETHER = best available calibration
+
+🟡 "Balance = Compiled×Domain cycle" = framework synthesis (drill ⑧ resolved).
+   Same epistemological conclusion as v1.0, mechanistically grounded via drill.
+```
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -243,7 +347,7 @@ Trước khi nói về giới hạn, cần nói rõ điều quan trọng nhất:
 
   = Feeling hàng ngày: đi bộ, ăn uống, gặp gỡ, làm việc, nghỉ ngơi
   = PHẦN LỚN body response = domain real feedback = ĐÁNG TIN
-  = Why-Body-Knows.md: ~90% accurate qua 4-tier calibration
+  = Why-Body-Knows.md v1.1: ~90% accurate qua 2-tầng calibration (Darwinian + Hebbian)
 ```
 
 ### 2.4 Làm việc mình không thích → feeling đang NÓI GÌ ĐÓ
@@ -275,7 +379,7 @@ FEELING:
   → Body-first temporal invariant: LUÔN đến trước (T=0ms)
   → Trực tiếp từ body-domain interaction
   → Multi-source (10+ channels cùng lúc)
-  → ~90% accurate (4-tier calibration qua triệu năm)
+  → ~90% accurate (2-tầng calibration: evolution + compilation suốt đời)
   → KHÔNG CÓ feeling → không thể function
   
 LOGIC:
@@ -323,7 +427,7 @@ mà để biết KHI NÀO cần CẨN THẬN hơn.
 
 ### 3.1 Reminder: Body check COHERENCE, không check TRUTH
 
-Đây là nền tảng từ Why-Body-Knows.md §5:
+Đây là nền tảng từ Why-Body-Knows.md §6:
 
 ```
 Body KHÔNG hỏi: "Cái này CÓ ĐÚNG với reality không?"
@@ -337,7 +441,7 @@ Coherence ≠ Truth
 
 ### 3.2 Ba loại sai của Feeling
 
-(Why-Body-Knows.md §5 — 3 error types)
+(Why-Body-Knows.md §6 — 3 error types)
 
 **① EVOLUTION LAG — Body reward đúng cho environment CŨ, sai cho MỚI:**
 
@@ -379,6 +483,16 @@ NHƯNG nếu chunks nền (reference patterns) BẢN THÂN sai:
     
   = Feeling CÓ THỂ rất mạnh, rất confident, mà VẪN sai
   = Vì body đang check against WRONG reference
+
+  v2.0 — 1B TRAP (Feeling.md v3.0 §8.3, Logic-Feeling.md v2.0 §5.6):
+    = "Chunks nền sai" = 1B (self-referencing, no domain verify)
+    = Compiled patterns tích lũy TRONG internal loop only
+    = No domain reality feedback → patterns PERSIST uncorrected
+    = Ví dụ: Trẻ bao bọc quá mức → compiled for HOME → fail in SOCIAL
+    = Ví dụ: Echo chamber → compiled for community → fail in broader domain
+    = Distinction: 1A (domain-verified) vs 1B (self-referencing)
+    = 1B "feels smooth" (coherent with nền) BUT fails domain test
+    = = MOST DANGEROUS error — smooth + wrong + confident
 ```
 
 **③ SCHEMA OVERRIDE — Biết sai mà vẫn follow:**
@@ -918,7 +1032,7 @@ DESCRIBE (có thể):
 ⭐ NGUYÊN LÝ 0: FEELING LÀ CÔNG CỤ GỐC
 
   Feeling = giao diện DUY NHẤT giữa con người và domain real
-  ~90% accurate qua 4-tier calibration (triệu năm evolution → AI)
+  ~90% accurate qua 2-tầng calibration (evolution + compilation suốt đời)
   Không có feeling → Damasio paralysis → không thể tiến
   Phần lớn feeling hàng ngày LÀ domain feedback thật → ĐÁNG TIN
   Logic emerged to EXTEND feeling, not replace it
@@ -1065,6 +1179,13 @@ Balance LÀ:
 
 ## §10 — DOMAIN FEEDBACK: TRỌNG TÀI DUY NHẤT
 
+> **v2.0 ELEVATION: §10 = CENTRAL section (drill principle ⑧ FORMALIZED).**
+> Inter-Body drill 2026-05-16 confirmed: Domain Reality = Final Arbiter ALWAYS.
+> PFC = Lawyer (not Judge) → fresh output unreliable alone.
+> Compiled = may be 1B (wrong context) → body output unreliable alone.
+> Domain = ONLY signal OUTSIDE both internal tracks → only arbiter possible.
+> §1.4 "HƯỚNG calibrate = domain feedback" = THIS SECTION formalized.
+
 ### 10.1 Tại sao domain feedback là trọng tài
 
 ```
@@ -1088,6 +1209,24 @@ Domain feedback:
   
   → CHỈ CÓ domain feedback cho biết
   → TRƯỚC KHI thử → KHÔNG AI BIẾT
+
+  v2.0 — WHY domain is THE ONLY arbiter (drill formal):
+    → PFC = Lawyer (Inter-Body §7): PFC narrative serves body-need, not truth
+      → "Logic says Y" = PFC DRAFTED Y (may confabulate to serve body-need)
+    → Compiled = may be 1B: compiled patterns FEEL smooth but may be WRONG
+      → "Feeling says Z" = body COMPILED Z (may be wrong context)
+    → Domain = OUTSIDE both internal tracks:
+      → Domain CANNOT be lawyered (reality is reality)
+      → Domain CANNOT be 1B-trapped (outcome IS outcome)
+      → = Only signal that is INDEPENDENT of internal biases
+    → = Drill principle ⑧: Domain Reality = Final Arbiter (ALWAYS)
+
+  DUAL CHECK (Ask-AI v3.1 §6.1):
+    Body-feedback = FIRST gate (quality controller: "something off?" → pause)
+    Domain reality = FINAL gate (arbiter: outcome confirms or rejects)
+    → Body catches OBVIOUS errors (compiled body-experience detects mismatch)
+    → Domain catches ALL errors (including body's own 1B errors)
+    → = 2-gate system: body early warning + domain final verdict
 ```
 
 ### 10.2 Thử-sai-tiến: cơ chế duy nhất trong domain vô tận
@@ -1268,6 +1407,9 @@ Emergent = distributed KHÔNG central:
   → Diversity → collective benefit (Page 2007)
   → Distributed knowledge > centralized (Hayek 1945)
   → Trial-error as fundamental mechanism (evolution, science)
+  → PFC confabulation (Gazzaniga split-brain) (v2.0)
+  → Moral intuition first, reasoning post-hoc (Haidt 2001) (v2.0)
+  → Cognitive effort = metabolic cost (Gailliot & Baumeister 2007) (v2.0)
 
 🟡 MEDIUM CONFIDENCE (Framework synthesis):
 
@@ -1283,6 +1425,18 @@ Emergent = distributed KHÔNG central:
     Metaphorical, not formal proof — useful heuristic
   → "Balance = verb" formulation
     Philosophical claim, consistent with process philosophy (Whitehead)
+  → Compiled/Fresh reframe of balance (v2.0 — Logic-Feeling.md v2.0 §1)
+    Same conclusion via deeper mechanism, novel integration
+  → "Balance = Compiled×Domain cycle" (v2.0 — drill ⑧ resolved)
+    Logically sound, consistent with scientific method, framework synthesis
+  → PFC = Lawyer for BOTH tracks (v2.0 — Inter-Body §7)
+    Generalized from established confabulation research
+  → 3-cost as structural limit on fresh processing (v2.0)
+    Each component established, unified model = framework synthesis
+  → Architecture B → guarantees uncertainty (v2.0)
+    Evolutionary argument, logically sound, novel framing
+  → 1B trap as explicit error category (v2.0)
+    Consistent with echo chamber research, attachment theory
 
 🔴 LOW CONFIDENCE (Hypotheses):
 
@@ -1342,7 +1496,7 @@ STILL OPEN:
     AI = unlimited logic track → logic side amplified massively
     Con người = feeling side MORE critical (vì AI handle logic)
     → Balance SHIFT: feeling literacy trở thành competitive advantage?
-    (Why-Body-Knows.md §4 Tier 4: AI as body's final filter)
+    (Why-Body-Knows.md §3: AI era = input source cho 2-tầng calibration)
     
   LFB-5: Cross-cultural variation?
     Collectivist cultures → social harmony emphasis → feeling-track biased?
@@ -1354,18 +1508,27 @@ STILL OPEN:
 
 ## §14 — KẾT NỐI
 
-### 12.1 Files trực tiếp liên quan
+### 14.1 Files trực tiếp liên quan
 
 ```
 📚 PFC:
-  → Logic-Feeling.md §5-§7 — HOW parallel processing works (companion)
+  → Logic-Feeling.md v2.0 §1-§4 — Compiled/Fresh axis, labels, flow, 3-cost (companion)
   → Logic-Planning.md §8 — AI-assisted logic territory
 
+📚 Inter-Body Drill (v2.0 NEW):
+  → Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh = real axis (source)
+  → Inter-Body-Mechanism.md v1.0 §4 — 3 Independent Cost Sources
+  → Inter-Body-Mechanism.md v1.0 §7 — PFC = Lawyer (not Judge)
+  → Inter-Body-Mechanism.md v1.0 §1 — Architecture B (WHY uncertainty structural)
+
 📚 Body-Base:
-  → Why-Body-Knows.md §4-§5 — 4-tier calibration + 3 error types
-  → Feeling.md §2-§3 — 7-layer fidelity gradient
+  → Why-Body-Knows.md v1.1 §3 — 2-tầng calibration, §6 — 3 error types + Dual Check
+  → Feeling.md v3.0 §2.5 — Compiled/Fresh × 7-Layer mapping
+  → Feeling.md v3.0 §3.4 — PFC = Lawyer formal section
+  → Feeling.md v3.0 §8.3 — 1A vs 1B (domain-checked vs self-referencing)
   → Feeling-Accuracy.md §3 — 6 PFC error modes
-  → Feeling-Mechanism-Deep.md §5-§6 — How feeling processing works
+  → Ask-AI.md v3.1 §6.1 — Dual Check (body=QC, domain=arbiter)
+  → Reward-Signal-Architecture.md v2.0 §8.1 — development, domain verify mechanism
 
 📚 Schema:
   → Anchor-Schema.md §2-§3 — Trust ≠ Clarity ≠ Quality + External Inject
@@ -1406,17 +1569,39 @@ File này thêm:
 
 ```
 File: Logic-Feeling-Balance.md
-Version: 1.2
+Version: 2.1
 Created: 2026-04-21
-Refined: 2026-04-22 — v1.1 added §2 Feeling strengths. v1.2 added §4 Logic strengths + §4.4 Spiral Up. Truly balanced: both tools get strengths + exceptions.
-Lines: ~1,750
-Status: v1.2
+Updated: 2026-05-17
+Previous: v2.0
+Lines: ~1,615
+Status: v2.1
+
+v2.1 CHANGES (2026-05-17 — Why-Body-Knows v1.1 alignment):
+  → 6 references "4-tier calibration" → "2-tầng calibration" (§2.3, §2.5, §8.2, §14, §15)
+  → Why-Body-Knows.md cross-refs: added v1.1, updated §numbers (§3, §6)
+  → Consistent with Why-Body-Knows v1.1: only 2 MECHANISMS (Darwinian + Hebbian)
+
+v2.0 CHANGES (2026-05-17 — Inter-Body Drill Integration):
+  → Header: updated deps, sources (Inter-Body, Feeling v3.0, Logic-Feeling v2.0, Ask-AI)
+  → §0.2 NEW: Compiled/Fresh Reframe note (how v2.0 differs from v1.0)
+  → §1.1: Updated "Hai công cụ" → Compiled/Fresh terminology
+  → §1.2: +Architecture B as structural reason for uncertainty
+  → §1.4 NEW: "Balance = Compiled×Domain cycle" (drill ⑧ RESOLVED)
+    +3-cost model, +PFC=Lawyer, +Dual Check, +HƯỚNG calibrate
+  → §3.2 Error ②: +1B trap language explicit (Feeling.md §8.3)
+  → §10: ELEVATED — drill ⑧ formal, PFC=Lawyer note, Dual Check
+  → §12: +3 🟢 + 6 🟡 items for drill concepts
+  → §14: Updated cross-refs (Inter-Body, Feeling v3.0, RSA v2.0, Ask-AI)
+  → ALL existing philosophical content PRESERVED (§2-§9, §11)
+  → ALL research citations preserved + 3 added
 
 Dependencies:
-  → Logic-Feeling.md (companion — HOW parallel processing)
-  → Why-Body-Knows.md (foundation — 4-tier calibration, 3 errors)
-  → Feeling.md (foundation — 7-layer fidelity)
+  → Logic-Feeling.md v2.0 (companion — Compiled/Fresh axis)
+  → Inter-Body-Mechanism.md v1.0 (source — drill principles)
+  → Why-Body-Knows.md v1.1 (foundation — 2-tầng calibration, 3 errors + Dual Check)
+  → Feeling.md v3.0 (foundation — 7-layer, PFC=Lawyer, 1A/1B)
   → Feeling-Accuracy.md (foundation — 6 PFC error modes)
+  → Ask-AI.md v3.1 (Dual Check)
   → Anchor-Schema.md (mechanism — Trust/Clarity/Quality, External Inject)
   → Conflict-Dynamics.md (emergent — Scarcity → Expansion)
 

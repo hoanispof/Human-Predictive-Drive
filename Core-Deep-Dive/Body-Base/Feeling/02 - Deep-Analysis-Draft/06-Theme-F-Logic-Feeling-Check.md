@@ -215,7 +215,7 @@ Ritual is primarily **Feeling-track** in Logic-Feeling terms:
 
 3. **Scientist**: Logic (compiled ecology/biogeography rules) says "species X lives in habitat Y" → Feeling (observation in new location) detects mismatch → wrongness → Logic investigate → new anchor (e.g., species migration theory, evolution)
 
-4. **Partner**: Logic (compiled relationship schema) says "partner usually acts Z" → Feeling (Pattern Resonance observation) detects mismatch → wrongness → Logic engage investigation → schema update
+4. **Partner**: Logic (compiled relationship schema) says "partner usually acts Z" → Feeling (Resonance observation) detects mismatch → wrongness → Logic engage investigation → schema update
 
 **All 4 follow Logic-Feeling's unified pattern**. Theme D validates Logic-Feeling §4 thesis with 3 additional cases.
 
@@ -223,7 +223,7 @@ Ritual is primarily **Feeling-track** in Logic-Feeling terms:
 
 ### §2.6 — Consistency check with Theme E (Empathy-Giving)
 
-**Theme E claim**: Empathy = Pattern Resonance (NOT hardware mirror). Giving dynamics = positive vs negative trust, driven by body-level mirror reward calculation.
+**Theme E claim**: Empathy = Resonance (NOT hardware mirror). Giving dynamics = positive vs negative trust, driven by body-level mirror reward calculation.
 
 **Logic-Feeling's position on empathy**: §7.1 discusses "Agent + Logic 5 sub-cases":
 - Schema agents (Đức Mẹ Mode 1)
@@ -232,31 +232,31 @@ Ritual is primarily **Feeling-track** in Logic-Feeling terms:
 - Dehumanization (DANGER)
 - Manipulation (DANGER)
 
-**Check**: Does Theme E's reframe (empathy = Pattern Resonance) fit Logic-Feeling's 2-track framing?
+**Check**: Does Theme E's reframe (empathy = Resonance) fit Logic-Feeling's 2-track framing?
 
 **Analysis**:
 
 **Yes, consistent + extended**:
 
-- **Agent + Feeling-dominant** (Logic-Feeling default for empathy): Pattern Resonance simulator running with body-level simulation. This IS feeling-track processing.
+- **Agent + Feeling-dominant** (Logic-Feeling default for empathy): Resonance simulator running with body-level simulation. This IS feeling-track processing.
 
 - **Agent + Logic-dominant** sub-cases from §7.1:
-  - A. Schema agents: compiled schema (Logic track) fires appropriate response without need for Pattern Resonance simulation
+  - A. Schema agents: compiled schema (Logic track) fires appropriate response without need for Resonance simulation
   - B. Routine roles: compiled role scripts (Logic track) handle interactions
   - C. Clinical empathy: Logic applied TO agent analysis, Feeling track still active in background
   - D. Dehumanization: Feeling track SUPPRESSED (dangerous)
   - E. Manipulation: Feeling track present in self but ignored for target's benefit (dangerous)
 
-**Theme E adds**: Pattern Resonance mechanism details (3 sub-mechanisms from Mirror-Neuron-Analysis). This doesn't contradict Logic-Feeling, it fills in the "feeling track for agent processing" subsystem.
+**Theme E adds**: Resonance mechanism details (3 sub-mechanisms from Mirror-Neuron-Analysis). This doesn't contradict Logic-Feeling, it fills in the "feeling track for agent processing" subsystem.
 
 **Key distinction Theme E adds**:
 - "Mirror" is rejected as hardware module
-- Pattern Resonance is learned simulator
+- Resonance is learned simulator
 - Empathy requires Self-Pattern Match library (Bird & Cook 2013)
 
 This is **compatible with Logic-Feeling** but adds specificity about what's in the "feeling track" for agent processing.
 
-**Verdict**: **Consistent and extended**. Theme E refines Logic-Feeling's "feeling track" for agent processing with more detail about mechanism (Pattern Resonance, not hardware mirror).
+**Verdict**: **Consistent and extended**. Theme E refines Logic-Feeling's "feeling track" for agent processing with more detail about mechanism (Resonance, not hardware mirror).
 
 ### §2.7 — RQ19 Resolution: Is Logic a subset of expanded Feeling?
 
@@ -340,11 +340,11 @@ Proposed: Add note acknowledging Tier 2 expansion from Feel-Development.md:
 
 **Update 3 — Empathy-Mirror.md terminology reconciliation**:
 
-Empathy-Mirror.md (2026-04-06) uses "mirror" mechanism terminology. Pattern-Resonance.md (2026-04-14 outline) explicitly rejects hardware mirror.
+Empathy-Mirror.md (2026-04-06) uses "mirror" mechanism terminology. By-Product-Gap-Resonance.md (2026-04-14 outline) explicitly rejects hardware mirror.
 
 Proposed: Post-outline-fill, Empathy-Mirror.md should either:
-- Merge with Pattern-Resonance.md
-- Or add note that "mirror" in this file means "Pattern Resonance" in new terminology
+- Merge with By-Product-Gap-Resonance.md
+- Or add note that "mirror" in this file means "Resonance" in new terminology
 
 Both files describe same mechanism, just different vocabulary.
 
@@ -377,7 +377,7 @@ Framework needs to decide during Phase 3 fill.
 1. **Doesn't explicitly integrate with expanded Feeling definition** (Feel-Development §1)
 2. **Modality bias could be broader** (add symbolic)
 3. **Doesn't discuss ritual as non-verbal chain** (Theme C)
-4. **Doesn't discuss Pattern Resonance terminology** (predates that refinement)
+4. **Doesn't discuss Resonance terminology** (predates that refinement)
 5. **Could integrate predictive processing** (acknowledged gap)
 
 **Overall**: Logic-Feeling.md is **fundamentally sound**. Minor updates would improve integration with evolving framework. No major rewrites needed.
@@ -394,7 +394,7 @@ Framework needs to decide during Phase 3 fill.
 | B Verbal-Chain | MOSTLY consistent | Broaden verbal→symbolic |
 | C Ritual | FITS framework | Add ritual as non-verbal chain example |
 | D Right/Wrong | STRONG match (same 5 cases + 3 extensions) | Theme D validates Logic-Feeling §4 |
-| E Empathy-Giving | CONSISTENT + extended | Pattern Resonance refines feeling-track |
+| E Empathy-Giving | CONSISTENT + extended | Resonance refines feeling-track |
 
 **Overall**: Logic-Feeling.md **internally consistent with all themes**. Minor refinements suggested but no contradictions.
 
@@ -418,7 +418,7 @@ Framework needs to decide during Phase 3 fill.
 
 1. Logic-Feeling §6 broaden "verbal" → "verbal/symbolic"
 2. Feeling.md §1 add Tier 2 acknowledgment
-3. Empathy-Mirror.md reconcile with Pattern-Resonance.md
+3. Empathy-Mirror.md reconcile with By-Product-Gap-Resonance.md
 4. Anchor-Schema.md make bidirectional architecture explicit
 5. Feeling-Sources.md reconcile with Self-Pattern-Match.md claim
 
@@ -430,7 +430,7 @@ Framework needs to decide during Phase 3 fill.
 - Logic-Feeling.md is internally consistent with Themes A-E
 - RQ19 resolution (2 tracks, 1 observer)
 - 5 cases analysis validates Logic-Feeling §4 unified pattern
-- Pattern Resonance refines feeling-track without contradiction
+- Resonance refines feeling-track without contradiction
 
 **MEDIUM confidence**:
 - Specific update recommendations (depend on framework goals)
@@ -465,7 +465,7 @@ Theme F shows Theme D's 4 cases all follow Logic-Feeling §4 unified pattern. Di
 
 ### §4.5 — Theme E (Empathy-Giving)
 
-Theme F shows Empathy Reframe (Pattern Resonance) is refinement of Logic-Feeling's "feeling track for agents". Compatible + more detailed.
+Theme F shows Empathy Reframe (Resonance) is refinement of Logic-Feeling's "feeling track for agents". Compatible + more detailed.
 
 ---
 
@@ -474,7 +474,7 @@ Theme F shows Empathy Reframe (Pattern Resonance) is refinement of Logic-Feeling
 | # | Question | Priority | Notes |
 |---|---|---|---|
 | F-Q1 | Should "Feeling" be redefined broadly (Tier 2) or kept narrow (Tier 1)? Framework decision | HIGH | Affects terminology across files |
-| F-Q2 | Empathy-Mirror.md vs Pattern-Resonance.md: formal reconciliation post-outline-fill | HIGH | Coordinate file update |
+| F-Q2 | Empathy-Mirror.md vs By-Product-Gap-Resonance.md: formal reconciliation post-outline-fill | HIGH | Coordinate file update |
 | F-Q3 | Self-Pattern-Match claim as "core mechanism": reconcile with 10-channel taxonomy | HIGH | Central architectural question |
 | F-Q4 | Logic-Feeling §6 modality update (verbal → verbal/symbolic) — framework accept? | MEDIUM | Minor refinement |
 | F-Q5 | Predictive processing (Friston/Seth) integration: when does framework commit? | MEDIUM | Acknowledged gap, active frontier |
@@ -492,9 +492,9 @@ Theme F shows Empathy Reframe (Pattern Resonance) is refinement of Logic-Feeling
 
 3. **Theme D validates Logic-Feeling §4 unified pattern** with 3 additional cases (child VoE, scientist, partner) — all follow "Logic ĐÚNG scope cũ → Feeling thấy ngoài scope → Verify → Logic anchor mới".
 
-4. **Theme E refines Logic-Feeling's feeling-track for agents** with Pattern Resonance mechanism (Bird & Cook 2013 decisive). No contradiction, added specificity.
+4. **Theme E refines Logic-Feeling's feeling-track for agents** with Resonance mechanism (Bird & Cook 2013 decisive). No contradiction, added specificity.
 
-5. **5 minor framework updates suggested** (none critical): broaden modality in §6, acknowledge Tier 2 in Feeling.md, reconcile Empathy-Mirror/Pattern-Resonance, explicit bidirectional architecture, Self-Pattern Match reconciliation with channel taxonomy.
+5. **5 minor framework updates suggested** (none critical): broaden modality in §6, acknowledge Tier 2 in Feeling.md, reconcile Empathy-Mirror/Resonance, explicit bidirectional architecture, Self-Pattern Match reconciliation with channel taxonomy.
 
 **Confidence**: HIGH on internal consistency. MEDIUM on update prioritization. LOW on some terminology choices (framework author preference).
 

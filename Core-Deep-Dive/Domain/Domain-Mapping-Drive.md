@@ -584,7 +584,7 @@ KEY INSIGHT: VTA không fire khi có "cái gì tốt". VTA fire khi có "BIẾN
     → Lần 10-20: VTA fire khi đèn xanh SÁNG (reward anticipated)
     → Lần 100+: VTA gần như không fire ở cả 2 bước — vì đã thành routine
     → Nếu đèn xanh KHÔNG dẫn tới nước: VTA fire NEGATIVE (disappointment)
-    → Mechanism: VTA code "PREDICTION ERROR" — delta giữa expected và actual
+    → Mechanism: VTA detect prediction-delta (Schultz: "prediction error") — delta giữa expected và actual
 
   → Áp dụng cho con người:
     Lần đầu ăn kem: VTA fire mạnh → "wow ngon"
@@ -846,7 +846,7 @@ MECHANISM CHI TIẾT — TẠI SAO OPIOID FIRE PER STEP:
 
   🟡 Framework interpretation dựa trên research:
     → Mỗi step = 1 vòng PFC draft → body simulate → reality check → match
-    → Match = body confirm = "prediction error resolved" → opioid
+    → Match = body confirm = "prediction-delta resolved" → opioid
     → Nếu không có BUILD phase (step "đã có sẵn"):
       → Không có draft → không có simulate → không có check → không có match → không opioid
     → Opioid không fire cho "kết quả" — opioid fire cho "match giữa

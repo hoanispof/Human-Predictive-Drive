@@ -70,7 +70,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → PFC observe integrated state → ĐÓ LÀ FEELING
   
   Feeling = INTERFACE giữa body computation và PFC awareness.
-  Body = tính toán.
+  Body = xử lý (compiled patterns fire).
   Feeling = kết quả hiện lên cho PFC thấy.
   PFC = observe + label + explain (với mức fidelity giảm dần).
 

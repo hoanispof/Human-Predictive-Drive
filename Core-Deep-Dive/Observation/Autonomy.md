@@ -1,8 +1,9 @@
 ---
 title: Autonomy — Observation Parameter (Software/Development)
-version: 1.0
+version: 1.1
 created: 2026-04-20
-status: OBSERVATION PARAMETER v1.0 — SOFTWARE/DEVELOPMENT
+updated: 2026-05-17
+status: OBSERVATION PARAMETER v1.1 — SOFTWARE/DEVELOPMENT
 scope: |
   OBSERVATION FILE: Autonomy XU HƯỚNG = tên gọi cho pattern khi quan sát
   MỨC ĐỘ một người prefer self-action vs external-control. Khác mỗi người
@@ -12,6 +13,11 @@ scope: |
   Motor chunks → accumulated evidence → self-as-agent meta-chunk →
   developmental arc 5 phases → domain-specific controllability →
   counterweights → cross-parameter interactions → healthy vs toxic.
+  v1.1 KEY CHANGES:
+    ⑪ +Architecture B alignment: autonomy SOFTWARE = Architecture B only
+       (Architecture A has no controllability learning, no meta-chunks)
+    ⑫ +Cross-refs: IBM v1.0, BFL v2.0, observation versions updated
+    ⑬ Agent.md → Agent-Mechanism.md v2.0
 purpose: |
   Autonomy-Hardware.md giải thích TẠI SAO self-action = reward (universal).
   File này giải thích: AI sẽ có XU HƯỚNG autonomy CAO/THẤP (individual).
@@ -22,22 +28,24 @@ position: |
   Core-Deep-Dive/Observation/ — đi kèm Autonomy-Hardware.md.
   Ngang hàng Novelty.md, Threat.md, Status.md, etc.
 dependencies:
-  - Autonomy-Hardware.md — companion file: efference copy, vmPFC+DRN, cortisol direction
+  - Autonomy-Hardware.md v1.1 — companion file: efference copy, vmPFC+DRN, cortisol direction
   - Core-v7.8-Draft.md — §8 observation parameters
-  - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap
+  - Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap
   - Chunk.md v2.0 — chunk substrate, compilation
-  - Agent.md — §12 body-need feeder, self-as-agent
+  - Agent-Mechanism.md v2.0 — §12 body-need feeder, self-as-agent
+  - Inter-Body-Mechanism.md v1.0 — §1.2 Architecture B, §3 Compiled/Fresh
+  - Body-Feedback-Label.md v2.0 — vocabulary consistency
   - Child-Chunk-Development/07-Social-Recognition-Arc.md — §4.6 E31 "Không"
   - Child-Chunk-Development/08-Verbal-Production-Arc.md — §4.11 E31 chunks
   - Feel-Example-Draft.md — E31 autonomy assertion
   - Natural-Development.md — voluntary reaching, bò, ném, "KHÔNG!" arc
   - Skill-Introduction.md — ép → "ý kiến tôi VÔ GIÁ TRỊ" (line 432)
   - Education-Principles.md — nguồn ① self-directed, quarter-life crisis
-  - Protect.md — §8.4 Autonomy × Protect
-  - Threat.md — §4 Imposed threats
-  - Status.md — §10 status × autonomy spiral
-  - Connection.md — attachment × autonomy
-  - Meaning.md — anchor source ①
+  - Protect.md v1.1 — §8.4 Autonomy × Protect
+  - Threat.md v1.1 — §4 Imposed threats
+  - Status.md v2.1 — §10 status × autonomy spiral
+  - Connection.md v4.0 — attachment × autonomy
+  - Meaning.md v2.1 — anchor source ①
   - Body-Base-Example.md — helicopter parenting → helplessness
 companion_file: Autonomy-Hardware.md (hardware mechanism — efference copy, vmPFC+DRN)
 language: Tiếng Việt primary + English technical terms
@@ -150,6 +158,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Đang quan sát SOFTWARE state, KHÔNG phải hardware
     → Hardware mọi người ĐỀU CÓ — software KHÁC NHAU
     → = Tại sao "autonomy" là observation parameter (observable, varies)
+
+  ⭐ ARCHITECTURE B ALIGNMENT (Inter-Body-Mechanism.md §1.2):
+
+    Architecture A (côn trùng): hardwired stimulus→response.
+      → Không có vmPFC → không có controllability LEARNING.
+      → Không có meta-chunk compilation → không có "KHÔNG!" generalization.
+      → Không có observation parameter "autonomy" — mọi phản ứng pre-wired.
+
+    Architecture B (động vật có vú, đặc biệt người):
+      → General-purpose system + PFC + chunk compilation.
+      → Hardware: efference copy + VTA + opioid → autonomy preference EMERGES.
+      → Software: vmPFC/DRN LEARN controllability per domain → meta-chunk compile.
+      → = Developmental arc 5 phases (§2) CHỈ CÓ trong Architecture B.
+      → = "Terrible twos" = Architecture B phenomenon — meta-chunk crosses threshold.
+      → = Chỉ Architecture B organisms có "autonomy SOFTWARE" khác nhau per individual.
 ```
 
 ---
@@ -823,6 +846,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Consistent with 🟢 Bandura self-efficacy
     → BUT: transfer degree unclear
     → = How much domain A → domain B?
+
+  ④ Architecture B framing (v1.1)
+    → "Autonomy software chỉ có trong Architecture B" = logical
+    → Architecture A organisms KHÔNG có vmPFC/meta-chunk = consistent
+    → BUT: "terrible twos = Architecture B phenomenon" = framework claim, chưa tested
 ```
 
 ### §6.2 — Tier 3: Hypothesis (🔴)
@@ -868,13 +896,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 COMPANION FILE:
-  → Autonomy-Hardware.md — WHY self-action = reward (efference copy, vmPFC+DRN,
+  → Autonomy-Hardware.md v1.1 — WHY self-action = reward (efference copy, vmPFC+DRN,
     cortisol direction tag, opioid vs relief pathways)
+
+DRILL SOURCE:
+  → Inter-Body-Mechanism.md v1.0 §1.2 — Architecture B (general-purpose, vmPFC, meta-chunk)
+
+VOCABULARY:
+  → Body-Feedback-Label.md v2.0 — prediction-delta, approach/avoidance tag, compiled/fresh
 
 CORE FILES:
   → Core-v7.8-Draft.md §8 — observation parameter definition
-  → Body-Feedback-Mechanism.md §3 — Chunk dynamics
+  → Body-Feedback-Mechanism.md v2.0 §3 — Chunk dynamics
   → Chunk.md v2.0 — chunk substrate, compilation
+  → Agent-Mechanism.md v2.0 — §12 body-need feeder, self-as-agent
 
 CHILD DEVELOPMENT:
   → Child-Chunk-Development/07-Social-Recognition-Arc.md §4.6 — E31 analysis
@@ -888,12 +923,12 @@ EDUCATION:
   → Education-Principles.md §3 — 4 nguồn anchor, quarter-life crisis
 
 OBSERVATION FILES:
-  → Protect.md §8.4 — autonomy loss = protect amplifier
-  → Threat.md §4 — 3 origins, imposed = no controllability
-  → Status.md §10 — positive/negative spiral
-  → Connection.md — attachment × autonomy
-  → Novelty.md — curiosity = natural autonomy
-  → Meaning.md — anchor source ① prerequisite
+  → Protect.md v1.1 §8.4 — autonomy loss = protect amplifier
+  → Threat.md v1.1 §4 — 3 origins, imposed = no controllability
+  → Status.md v2.1 §10 — positive/negative spiral
+  → Connection.md v4.0 — attachment × autonomy
+  → Novelty.md v1.1 — curiosity = natural autonomy
+  → Meaning.md v2.1 — anchor source ① prerequisite
   → Liking-Wanting.md §4 — opioid vs relief pathways
   → Body-Base-Example.md — helicopter → helplessness
 
@@ -939,4 +974,8 @@ CROSS-PARAMETER (§4): ×Protect (amplifier), ×Threat (imposed = violation),
 HEALTHY vs TOXIC (§5): Prediction-based + domain-appropriate + flexible
   vs helplessness + over-control + reactive + pseudo + paralysis.
   Cultural: hardware same, schemas differ, neither extreme optimal.
+
+~960 lines | version 1.1 | 2026-05-17
+v1.1 CHANGES: ⑪ +Architecture B alignment (§0) ⑫ +IBM/BFL cross-refs
+  ⑬ Agent.md→Agent-Mechanism.md ⑭ Observation versions updated
 ```

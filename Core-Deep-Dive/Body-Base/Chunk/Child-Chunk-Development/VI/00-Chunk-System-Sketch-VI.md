@@ -263,27 +263,27 @@ Cơ chế F1 hình thức hóa (substrate chunk compile từ body signals) hoạ
 
 **Các claim chính**:
 - **Agent-reading = cơ chế Self-Pattern-Match** (solo, forward): PFC truy xuất self chunks khớp với entity mục tiêu → áp dụng như template → đọc output như dự đoán về trạng thái/hành vi/mong muốn của agent
-- **Pattern-Resonance = hiện tượng tương hỗ xuất hiện** (retrospective): khi 2+ agents' Self-Pattern-Match đồng thời kích hoạt thành công qua phản hồi giao tiếp
+- **Resonance = hiện tượng tương hỗ xuất hiện** (retrospective): khi 2+ agents' Self-Pattern-Match đồng thời kích hoạt thành công qua phản hồi giao tiếp
 - Agent là **function chạy trên chunk substrate**, KHÔNG phải category riêng biệt hay hardware module → **hỗ trợ H1** (chunk substrate cross-cutting)
 - Vận hành multi-modal (affective / somatic / visual-symbolic / verbal-cognitive / composite)
 - Gradient chất lượng: Pattern-Type × Depth × Similarity × Feedback (4 trục)
 - Thất bại ngưỡng → fallback dự đoán cơ học
 - Schema override (Mode 1 / Mode 2) có thể thay thế hoàn toàn với agents tôn giáo/trừu tượng
-- **Bị loại**: hardware mirror module, phân loại Object-Agent nhị phân, tách 2 lớp affective vs cognitive, Pattern-Resonance như simulator solo
+- **Bị loại**: hardware mirror module, phân loại Object-Agent nhị phân, tách 2 lớp affective vs cognitive, Resonance như simulator solo
 - **Được chấp nhận**: 🟢 Spelke core knowledge như innate triggers (biological motion, contingency, self-propelled), 🟢 Bird & Cook 2013 alexithymia drives empathy deficit
 
 **Đóng góp cho F1**:
 - **Developmental bootstrap** (Self-Pattern-Match §5): trạng thái Self-Pattern của infant xây dựng qua body-feedback + caregiver contingent response → cung cấp cơ chế cho social chunks trong [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md)
-- **Giai đoạn Pattern-Resonance** (0-3): cry contagion E9 (Giai đoạn 0) → smile contagion E13 (Giai đoạn 1) → egocentric empathy E26 (Giai đoạn 2) → mutual đầy đủ (người lớn) — liên quan đến F1 social arc + emotional interoceptive
+- **Giai đoạn Resonance** (0-3): cry contagion E9 (Giai đoạn 0) → smile contagion E13 (Giai đoạn 1) → egocentric empathy E26 (Giai đoạn 2) → mutual đầy đủ (người lớn) — liên quan đến F1 social arc + emotional interoceptive
 - **Cảnh báo Alexithymia**: đọc bản thân kém → Self-Pattern-Match kém → social chunks kém. F1 phải bảo toàn interoception keystone (§5.4 Body-Feedback-Draft)
 
 **Drill home cho F1**: Không re-drill. Cross-referenced trong [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §7.
 
-**Files**: [../Agent/Agent.md](../Agent/Agent.md), [../Agent/Self-Pattern-Match.md](../Agent/Self-Pattern-Match.md), [../Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md) (5754 dòng trên 4 files).
+**Files**: [../Agent/Agent.md](../Agent/Agent.md), [../Agent/Self-Pattern-Match.md](../Agent/Self-Pattern-Match.md), [../Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) (5754 dòng trên 4 files).
 
 ### §4.3 — Body-Feedback-Draft (H10, N+3, 2026-04-15)
 
-**Phạm vi**: Kiến trúc body-feedback + 5 điều kiện tiên quyết cho signal fire + phân biệt 2 lớp body-feedback vs feeling + 4-tier calibration + tách biệt vô thức vs PFC.
+**Phạm vi**: Kiến trúc body-feedback + 5 điều kiện tiên quyết cho signal fire + phân biệt 2 lớp body-feedback vs feeling + 2-tầng calibration (Darwinian + Hebbian) + tách biệt vô thức vs PFC.
 
 **Các claim chính**:
 - **H10 — Body Signal Precondition Hypothesis**: Body signal fires khi TẤT CẢ 5 điều kiện tiên quyết được thỏa mãn:
@@ -320,7 +320,7 @@ Cơ chế F1 hình thức hóa (substrate chunk compile từ body signals) hoạ
 
    Chu kỳ 8 giai đoạn          Self-Pattern-Match       5 điều kiện tiên quyết
    6+1 cơ chế ngủ              như cơ chế solo          P2 Chunks Base Adequacy
-   Baseline shift               Pattern-Resonance         = keystone cho F1
+   Baseline shift               Resonance         = keystone cho F1
                                 hiện tượng tương hỗ
 
                                ↓  ↓  ↓
@@ -526,7 +526,7 @@ Tích hợp cuối cùng của tất cả 4 sub-folder + bộ ba đã drilled (H
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) — H8 (1556 dòng)
 - [../Agent/Agent.md](../Agent/Agent.md) — điểm vào H9
 - [../Agent/Self-Pattern-Match.md](../Agent/Self-Pattern-Match.md) — drill sâu cơ chế solo H9
-- [../Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md) — H9 hiện tượng tương hỗ
+- [../Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) — H9 hiện tượng tương hỗ
 - [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) — H10 foundation (7-layer model + §5)
 - [../Body-Feedback-Draft/02-Dissonance.md](../Body-Feedback-Draft/02-Dissonance.md) — H10 các trường hợp dissonance
 - [../Body-Feedback-Draft/03-Reward.md](../Body-Feedback-Draft/03-Reward.md) — H10 các trường hợp reward

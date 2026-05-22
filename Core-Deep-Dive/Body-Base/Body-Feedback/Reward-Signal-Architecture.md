@@ -1,8 +1,10 @@
 ---
 title: Reward Signal Architecture — Type A/B + 5 Profiles + Interaction Model
-version: 1.0
+version: 2.0
 created: 2026-05-09
-status: REFERENCE v1.0
+rewritten: 2026-05-17 (v2.0 — +Architecture B connection, +Compiled/Fresh note, +Development trajectory enriched, +Inter-Body cross-refs, +Label v2.0 vocabulary)
+previous: v1.0 → backup/Reward-Signal-Architecture-v1.0-backup.md
+status: REFERENCE v2.0
 scope: |
   WHAT KINDS of reward signals exist + HOW they interact.
   Type A (Evaluative, opioid) vs Type B (Direct State, non-opioid).
@@ -11,18 +13,21 @@ scope: |
   Conditional Interaction Model (replaces simple additive).
   Development lifecycle + Individual differences overview.
   5 Forces Holding Model for sustained creative arcs.
+  v2.0: Architecture B = WHY Type A possible. Compiled/Fresh = A₀→A₃ mechanism.
+  v2.0: Development = Type B dominant → Type A compiles. Domain verify → accuracy.
 purpose: |
   03-Reward.md answers: WHEN reward fires (H10 5 preconditions) + HOW mechanism works (7-step VTA).
   File này answers: WHAT KINDS of reward exist + HOW they interact.
   Complement, not replacement. Different questions → different files.
   Source: Distilled from Drill-Reward-Feeling-Main.md v1.2 (~6,700L, ALL 20 GAPs COMPLETE).
+  v2.0: Connects to Inter-Body drill insights (Architecture B, Compiled/Fresh axis).
 position: |
   Body-Feedback/ folder — ngang hàng với Body-Feedback-Mechanism.md + Gap-Direction.md.
   KHÔNG nằm trong chuỗi P1→P4 (01-Foundation → 02-Dissonance → 03-Reward → 04-Integration).
   Reading order: SAU 03-Reward.md (cần H10 foundation).
 dependencies:
   - 03-Reward.md — H10 5 preconditions, 7-step VTA mechanism
-  - Body-Feedback-Mechanism.md v1.1 — 2 sources, 3 chunk dynamics, compound
+  - Body-Feedback-Mechanism.md v2.0 — 2 sources, 3 chunk dynamics, compound, Body-Need
   - Feeling.md v2.0 — feeling = PFC observation of body-feedback
   - Feeling-Mechanism-Deep.md — §4 reward mechanism detail
   - Compile-Taxonomy.md v1.0 — 3 compile types, 4 pathways
@@ -31,7 +36,8 @@ dependencies:
   - Cortisol-Baseline.md v2.0 — amplifier, direction > level
   - Dopamine-Is-Not-Reward.md v1.0 — dopamine ≠ reward
   - Liking-Wanting.md v1.0 — bridge Berridge, wanting mechanisms
-  - Gap-Direction.md v1.0 — gap has direction, 2-layer model
+  - Gap-Direction.md v2.0 — gap has direction, 2-layer model, by-product match
+  - Inter-Body-Mechanism.md v1.0 — Architecture B, Compiled/Fresh, domain arbiter
   - Meaning.md v2.0 — life-level Anchor-Schema
   - Connection.md v3.1 — 3 Generative Primitives, L2 smoothing
 drill_source: Drill-Reward-Feeling-Main.md v1.2 + Drill-Reward-Feeling-Cases.md v1.0
@@ -90,6 +96,37 @@ Reward-Signal-Architecture.md (file này):
 §10:    5 FORCES — Sustained creative arcs
 §11:    HONEST ASSESSMENT — Confidence, limitations, predictions
 §12:    CROSS-REFERENCES
+```
+
+### §0.3 — Architecture B Connection
+
+```
+🟡 TẠI SAO LOÀI NGƯỜI CÓ TYPE A PHỨC TẠP?
+
+  Architecture B (Inter-Body-Mechanism.md §1):
+    ① General-Purpose Reward — fire cho BẤT KỲ gap fill đúng direction
+    ② Compilation — Hebbian: repeat + verify → automatic
+    ③ Social Hardware — oxytocin, μ-opioid, dACC reuse
+
+  Type A = CONSEQUENCE of Architecture B:
+    General-purpose reward → body CAN evaluate BẤT KỲ pattern
+    Compilation → evaluation CAN become increasingly complex
+    → A₀→A₃ gradient = compilation DEPTH applied to evaluation
+    → Côn trùng (Architecture A): chỉ có hardwired reward circuits
+    → Humans (Architecture B): reward system COMPILES novel evaluations
+
+  Type B = FOUNDATION shared across architectures:
+    Hardware-based, non-evaluative, present from birth
+    → Mọi sinh vật có nervous system đều có Type B equivalent
+    → Type A = "thêm vào" qua compilation capability
+
+  Trade-off: Architecture B cần 15-20 năm compile
+    → Type A GROWS with compilation (§8.1 lifecycle)
+    → Infant = nearly pure B (chưa compile)
+    → Expert = rich A₃ (decades of compilation)
+    → = WHY "reward capacity" DEVELOPS, not fixed at birth
+
+  Cross-ref: Inter-Body-Mechanism.md §1 (Architecture B full detail).
 ```
 
 ---
@@ -289,6 +326,52 @@ Reward-Signal-Architecture.md (file này):
   Source: Drill §3.7. Cross-ref: Body-Feedback-Mechanism.md §2.
 ```
 
+### §1.7 — Type A/B × Compiled/Fresh Axis
+
+```
+🟡 A₀→A₃ = COMPILED/FRESH SPECTRUM APPLIED TO REWARD EVALUATION:
+
+  Inter-Body-Mechanism.md §3: Compiled vs Fresh = trục thật.
+  "Logic" vs "Feeling" = observer labels, NOT mechanism description.
+  Inside body: chỉ có spectrum compiled ←→ fresh.
+
+  MAPPING TO TYPE A/B:
+
+  ┌──────────────────┬──────────────────────────────────────┐
+  │ Reward Type      │ Compiled/Fresh Position              │
+  ├──────────────────┼──────────────────────────────────────┤
+  │ Type B           │ HARDWARE — below compiled/fresh axis │
+  │                  │ (no evaluation = no compilation)     │
+  ├──────────────────┼──────────────────────────────────────┤
+  │ A₀ (hw-install)  │ PRE-COMPILED by evolution            │
+  │                  │ (compiled, but NOT by individual)    │
+  ├──────────────────┼──────────────────────────────────────┤
+  │ A₁ (basic)       │ COMPILED by individual (shallow)     │
+  │                  │ (food preferences, familiar music)   │
+  ├──────────────────┼──────────────────────────────────────┤
+  │ A₂ (complex)     │ COMPILED by individual (deep)        │
+  │                  │ (rich pattern matching, years)       │
+  ├──────────────────┼──────────────────────────────────────┤
+  │ A₃ (deep)        │ COMPILED expert-level (decades)      │
+  │                  │ → feels "automatic" = COMPILED       │
+  │                  │ → "intuition" = compiled evaluation  │
+  └──────────────────┴──────────────────────────────────────┘
+
+  KEY INSIGHT:
+  → A₃ expert evaluation FEELS like "intuition" (non-shareable compiled)
+  → A₁ food preference FEELS like "automatic" (shareable compiled)
+  → Both = COMPILED — differ in depth + shareability
+  → "Expert SPM thấy pattern" = A₂-A₃ compiled firing
+  → "Mới học chưa thấy" = evaluation still FRESH (PFC active, costly)
+
+  FRESH EVALUATION = high cost (3-cost model: PFC draft + uncertainty):
+  → Beginner evaluating wine = PFC working hard → Type A POSSIBLE but costly
+  → Expert evaluating wine = compiled → Type A EASY, automatic
+  → = WHY reward capacity GROWS with compilation depth
+
+  Cross-ref: Inter-Body-Mechanism.md §3 (Compiled/Fresh full detail).
+```
+
 ---
 
 ## §2 — TYPE A COMPLEXITY GRADIENT: A₀→A₃
@@ -398,6 +481,12 @@ Reward-Signal-Architecture.md (file này):
   → A₀ = FOUNDATION. A₁-A₃ = LAYERS built on foundation.
   → Each layer ADDS evaluation complexity, opioid pathway shared.
   → B = SEPARATE system. Non-opioid. No evaluation at all.
+
+  Compiled/Fresh connection:
+  → A₀→A₃ stacking = compilation DEPTH increasing
+  → Each layer = MORE chunks compiled → richer evaluation possible
+  → "Compilation capability" (Architecture B ②) = engine driving A growth
+  → A₃ "deep" = decades of compilation → evaluation automatic = COMPILED
 
   Source: Drill §3.10 (R19).
 ```
@@ -1316,6 +1405,21 @@ Reward-Signal-Architecture.md (file này):
     B dominant → A builds → A peaks → A may decline → B persists
     B NEVER reaches zero — hardware PERSISTS
 
+  DOMAIN VERIFICATION (Drill Principle ⑧):
+  → Type A compiles correctly WHEN domain reality confirms
+  → "Đúng hướng?" → domain feedback = final arbiter
+  → Type A compiled WRONG = "false expertise" (confident but inaccurate)
+  → Domain verification mechanism:
+    Body compiles evaluation → applies → domain outcome confirms/rejects
+    Confirm → strengthen compilation (Hebbian)
+    Reject → prediction-delta → re-evaluate → potentially reconsolidate
+  → WITHOUT domain feedback: A compilation DRIFTS (no correction signal)
+  → = WHY isolated experts can develop "expert bias" (A₃ compiled wrong)
+  → = WHY diverse domain exposure improves A accuracy over lifetime
+
+  Cross-ref: Inter-Body-Mechanism.md §1 (domain = final arbiter).
+  Cross-ref: Ask-AI.md §6.1 (Dual Check: body=QC, domain=arbiter).
+
   Source: Drill §3.8, §3.10 (R19).
 ```
 
@@ -1774,6 +1878,12 @@ Reward-Signal-Architecture.md (file này):
   → Trust thái độ vs nội dung distinction
   → Recognition paradox (pre-fame = most creative)
 
+  v2.0 additions:
+  → Architecture B = WHY Type A possible (general-purpose + compilation)
+  → A₀→A₃ = Compiled/Fresh spectrum applied to reward evaluation
+  → Domain verification = final arbiter for A compilation accuracy
+  → Type B = foundation shared across architectures (not just humans)
+
   All items = consistent with 🟢 research but not directly tested
   as framework claims. Framework ADDS organizing structure.
 ```
@@ -1838,8 +1948,12 @@ FRAMEWORK FILES LIÊN QUAN:
   COMPLEMENT FILE:
   → 03-Reward.md — HOW reward fires (H10 preconditions) → file này WHAT KINDS
 
+  INTER-BODY DRILL (v2.0 additions):
+  → Inter-Body-Mechanism.md v1.0 — Architecture B, Compiled/Fresh, 3-cost, domain arbiter
+  → Body-Feedback-Label.md v2.0 — vocabulary reference, 3-tier labels
+
   MECHANISM:
-  → Body-Feedback-Mechanism.md v1.1 — chunk dynamics + A/B × source mapping
+  → Body-Feedback-Mechanism.md v2.0 — chunk dynamics + A/B × source mapping
   → Feeling.md v2.0 — feeling = PFC observation of reward signal
   → Feeling-Mechanism-Deep.md — §4 reward mechanism detail
 
@@ -1853,10 +1967,18 @@ FRAMEWORK FILES LIÊN QUAN:
   → Dopamine-Is-Not-Reward.md v1.0 — dopamine = alert, Type A opioid = reward
   → Liking-Wanting.md v1.0 — bridge Berridge, wanting mechanisms
   → Cortisol-Baseline.md v2.0 — relief profile ④
-  → Gap-Direction.md v1.0 — gap direction = F2 in 5 Forces
+  → Gap-Direction.md v2.0 — gap direction = F2 in 5 Forces, by-product match
   → Meaning.md v2.0 — life-level Anchor-Schema = F1
   → Status.md v2.0 — Resource Access Map = F5
   → Connection.md v3.1 — L1 SPM-owned, 3 Generative Primitives
+  → Ask-AI.md v3.1 — Dual Check (body=QC, domain=arbiter)
+
+  PHASE 1-9 FILES (updated versions):
+  → Body-Base.md v3.1 — entry point, Architecture B, L3 fix
+  → Body-Coupling.md v2.0 — Entity-Compiled subtypes, mixed coupling
+  → SPM.md v3.0 — Compiled/Fresh reframe, F1/F2
+  → By-Product-Gap-Resonance.md v1.0 — 2-Stream, by-product match
+  → Valence-Propagation.md v2.0 — Entity-Compiled, L1/L2
 
   DRILL SOURCE:
   → Drill-Reward-Feeling-Main.md v1.2 — full drill source (~6,700L)

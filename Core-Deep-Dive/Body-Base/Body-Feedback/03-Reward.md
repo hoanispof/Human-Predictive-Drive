@@ -1174,25 +1174,25 @@ Framework: Not exactly like Van Gogh (no one can have exact same chunks), but in
 
 **Not linear**: Progression has plateaus + breakthrough moments. Building chunks base isn't smooth.
 
-### §6.5 — 4-tier calibration applied (Why-Body-Knows §4)
+### §6.5 — 2-tầng calibration applied (Why-Body-Knows v1.1 §3)
 
 **How chunks base builds**:
 
-🟢 **Tier 1 Evolution**: Some aesthetic sensitivity wired (symmetry, color contrast, face recognition — universal)
+🟢 **Tầng 1 Darwinian** (gen-level): Some aesthetic sensitivity wired (symmetry, color contrast, face recognition — universal)
 
-🟡 **Tier 2 Development**: Personal experience with visual art, exposure, practice
-- Museum visits
-- Art classes
-- Looking at many artists' work
+🟡 **Tầng 2 Hebbian — Đường 2a Domain Contact** (trải nghiệm trực tiếp):
+- Museum visits, art classes, looking at many artists' work
+- Personal practice with visual art, exposure
 
-🟡 **Tier 3 Culture**: Historical context transmitted via books, teachers, documentaries
-- "Van Gogh was a pioneer" meta-information
-- Stories of his life
-- Critical framework from art history
+🟡 **Tầng 2 Hebbian — Đường 2b Trust-Injected** (dạy/share qua trust):
+- "Van Gogh was a pioneer" meta-information (books, teachers, documentaries)
+- Stories of his life, critical framework from art history
+- AI provide background, technique analysis, historical context on demand
 
-🟡 **Tier 4 AI**: AI can provide background, technique analysis, historical context on demand
+⚠️ Culture, teachers, AI = INPUT SOURCES cho cùng cơ chế Hebbian (Tầng 2),
+   KHÔNG phải "tầng" riêng biệt. Khác nhau ở ĐƯỜNG VÀO, không phải cơ chế.
 
-**Implication**: Appreciation can be **accelerated** via Tier 3-4 chunks injection + Tier 2 exposure.
+**Implication**: Appreciation can be **accelerated** via 2b trust-injected chunks + 2a direct exposure.
 
 ### §6.6 — Why "everyone likes Van Gogh eventually" phenomenon
 

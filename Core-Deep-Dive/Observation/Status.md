@@ -1,9 +1,10 @@
 ---
 title: Status — Observation Parameter
-version: 2.0
+version: 2.1
 created: 2026-04-20
 rewritten: 2026-04-21
-status: OBSERVATION PARAMETER v2.0
+updated: 2026-05-17 v2.1 — +Architecture B, +Compiled/Fresh explicit, +PFC=Lawyer, cross-refs updated
+status: OBSERVATION PARAMETER v2.1
 scope: |
   OBSERVATION FILE: Status = named pattern khi quan sát resource access
   calibration giữa social agents. Body cho REWARD THẬT khi status tăng
@@ -13,6 +14,13 @@ scope: |
   cooperation as dominant mode, disruption→recalibrate cycle,
   position vs aspiration, serotonin = certainty bias,
   chunk dynamics, cortisol interaction, conflict at scale.
+  v2.1 KEY CHANGES:
+    ⑪ +Architecture B: status = emergent từ general-purpose system (§0)
+    ⑫ +Compiled/Fresh explicit: F1 compiled maps vs F2 fresh PFC draft (§2.1)
+    ⑬ +PFC=Lawyer: status self-deception, 3 distortion modes (§9.5)
+    ⑭ +Honest Assessment 🟡 items for new concepts (§16)
+    ⑮ +Cross-refs: Inter-Body-Mechanism.md v1.0, Body-Feedback-Label.md v2.0
+    ⑯ Version refs updated: Connection v4.0, VP v2.0
 purpose: |
   Core v7.8 §8 define Status ngắn gọn ("Self-assessment chunk patterns
   + hormonal baseline"). File này DEEP-DIVE toàn bộ:
@@ -33,12 +41,14 @@ dependencies:
   - Body-Feedback/03-Reward.md — VTA alert + opioid reward 2-level, H10
   - Chunk.md v2.0 — chunk substrate, compilation, hierarchy
   - Agent.md — SPM mechanism, §12 body-need feeder, agents as external tools
-  - Connection.md v1.0 — overlap analysis (belonging ≠ connection)
+  - Connection.md v4.0 — overlap analysis (belonging ≠ connection), 3 Generative Primitives
   - Threat.md v1.0 — social threat, imposed threat, anticipation loop
   - Protect.md v1.0 — ownership chunks, loss aversion, f(repl×attach)
   - Cortisol-Baseline.md v2.0 — amplifier, vicious cycle, direction tag
   - Feeling.md v2.0 — PFC observation interface
-  - Valence-Propagation.md v1.1 — body evaluation, chain propagation
+  - Valence-Propagation.md v2.0 — body evaluation, chain propagation, Entity-Compiled
+  - Inter-Body-Mechanism.md v1.0 — Architecture B, PFC=Lawyer, Compiled/Fresh
+  - Body-Feedback-Label.md v2.0 — framework vocabulary reference
   - Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT
   - Knowledge-Flow.md — status enables/blocks knowledge transmission
   - Autonomy-Hardware.md — efference copy, self-action = reward
@@ -171,6 +181,31 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Body cho reward cho upgrade = ĐÚNG, vì upgrade = có lợi THẬT
     → Body kháng status decrease = ĐÚNG, vì decrease = mất resource THẬT
     → = Reward mechanism CHÍNH XÁC — không phải illusion
+
+
+  ⭐ ARCHITECTURE B — TẠI SAO STATUS EMERGENT (Inter-Body-Mechanism.md §1.2):
+
+    ARCHITECTURE A (côn trùng, động vật đơn giản):
+      Mỗi social behavior = 1 hardwired circuit riêng
+      → Status? KHÔNG CẦN — response hardwired: gặp kẻ mạnh → co lại, kẻ yếu → tấn công
+      → Hormone drive TRỰC TIẾP: testosterone → approach, cortisol → retreat
+      → = Không có "status tracking" — chỉ có stimulus → response
+
+    ARCHITECTURE B (mammals phức tạp, con người):
+      Hardwired: CHỈ reward mechanism + compilation + social hardware + PFC
+      Content: LEARN from environment → compile → body-need
+      → Status = EMERGENT khi general-purpose system TRACK resource access:
+        ① Body CẦN resources (food, mate, safety) → universal
+        ② Body LEARNS "agent nào cho access gì" → compilation
+        ③ Compiled maps = STATUS SYSTEM (không cần module riêng)
+      → = Status KHÔNG có "status module" trong não
+      → = Status = tên gọi cho output CỦA general-purpose learning system
+        khi applied vào social resource tracking
+
+    🟡 Architecture A/B naming = framework synthesis.
+       Status = emergent from Architecture B = consistent with no dedicated
+       "status module" found in neuroscience (unlike, e.g., FFA for faces).
+
 
     🟡 Đây là lý do serotonin Ratchet tồn tại (§9.2):
        Sẵn sàng tăng khi có cơ hội (grab resource nhanh)
@@ -450,6 +485,31 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Speed scan = survival advantage (biết nhanh → react đúng → sống sót)
   → Compiled maps = energy saving (dùng lại → không tốn PFC)
   → = Evolution optimize cho: NHANH + RẺ khi đã quen, TỐN nhưng ĐÚNG khi lạ
+
+
+  ⭐ F1 COMPILED / F2 FRESH TRONG STATUS SCAN
+     (Inter-Body-Mechanism.md §3, Self-Pattern-Match.md v3.0):
+
+  F1 COMPILED STATUS (agent QUEN):
+    → Maps ĐÃ compile qua nhiều lần tương tác → body-direct
+    → Gặp vợ → map LOAD tức thì → BIẾT access gì → cost ≈ 0
+    → "Tôi = leader trong domain X" → compiled → TỰ TIN automatic
+    → = Kahneman System 1: fast, automatic, effortless
+    → Compilation level quyết định, KHÔNG PHẢI content type
+
+  F2 FRESH STATUS (agent LẠ / context MỚI):
+    → Chưa có compiled map → PFC DRAFT temporary map → COSTLY
+    → Gặp sếp mới → PFC scan visual/auditory/context → draft access map
+    → "Tôi ở đâu trong nhóm mới này?" → fresh → TỐN PFC bandwidth
+    → = Kahneman System 2: slow, deliberate, effortful
+    → PFC draft CHƯA qua body verify → accuracy thấp hơn compiled
+
+  TRANSITION — F2 → F1 (status compilation):
+    → Tương tác lặp + verify OK → Hebbian strengthen → compile
+    → "Ngày đầu đi làm" = F2 (mỗi interaction tốn PFC)
+    → "Sau 3 tháng" = F1 (maps compiled, vô thức biết access gì)
+    → = Giải thích "dần quen" = F2→F1 transition ở status domain
+    → = §2.1 "agent quen" vs "agent lạ" = F1 vs F2 PRECISELY
 ```
 
 ---
@@ -1554,6 +1614,52 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Phổ biến: somewhere in between — có baseline + calibrate VỪA per-context
 ```
 
+### §9.5 — PFC=Lawyer distorts status assessment
+
+```
+⭐ PFC KHÔNG PHẢI neutral judge — PFC = LAWYER cho body-base
+   (Inter-Body-Mechanism.md §7):
+
+  Body-need fires TRƯỚC → PFC creates NARRATIVE ("lý do") cho action
+  body ĐÃ muốn → person BELIEVES narrative.
+
+  TRONG STATUS DOMAIN — 3 CHẾ ĐỘ DISTORTION:
+
+  ① FABRICATE (inflate status):
+     Body muốn access rộng → PFC tạo narrative "tôi xứng đáng"
+     → "Tôi giỏi hơn họ" (dù evidence không đủ)
+     → "Mọi người nể tôi" (dù body chỉ muốn được nể)
+     → = §9.2 Ratchet Phase 2: "Rationalize: họ không hiểu tôi"
+       — đây CHÍNH LÀ PFC lawyering cho body kháng status decrease
+
+  ② SUPPRESS (deny status need):
+     Body CẦN social recognition → PFC deny: "tôi không quan tâm"
+     → "Status không quan trọng với tôi" (nhưng body vẫn track)
+     → "Tôi thích ở 1 mình" (nhưng body vẫn Chunk-Miss nhóm cũ)
+     → Shameful body-need → PFC hide → self-deception
+     → PFC accuracy ≈ 0.1-0.2 (Inter-Body-Mechanism.md §7.2)
+
+  ③ AMPLIFY (catastrophize status threat):
+     Body detect status threat → PFC KHUẾCH ĐẠI quá mức
+     → "Tôi quá kém, không ai cần tôi" (PFC amplify for avoidance)
+     → "Chắc chắn sẽ bị sa thải" (PFC draft worst-case)
+     → Cortisol tăng → maps thu hẹp (§11.2) → PFC amplify thêm
+     → = Vicious cycle: threat → PFC amplify → cortisol → more threat
+
+  DOMAIN = ARBITER (correction):
+     PFC lawyer → narrative SAI → NHƯNG domain reality check:
+     → "Tôi giỏi nhất" (fabricate) → domain: fail liên tục → reality correct
+     → "Tôi không cần ai" (suppress) → domain: lonely, health decline
+     → "Tôi vô dụng" (amplify) → domain: thực tế được khen → evidence correct
+     → Domain feedback = ONLY reliable arbiter, PFC narrative ≠ truth
+
+  🟢 Split-brain: left hemisphere CONFABULATE reasons cho actions
+     initiated by right hemisphere (Gazzaniga) → literal lawyer function.
+  🟢 Moral intuition (Haidt 2001): judgment = intuition first,
+     reasoning = post-hoc justification.
+  🟡 "PFC=Lawyer" as general principle applied to status = framework synthesis.
+```
+
 ---
 
 ## §10 — STATUS × CHUNK DYNAMICS
@@ -2127,6 +2233,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟡 FRAMEWORK SYNTHESIS (logical, chưa direct test):
 
+  🟡 Architecture B: status = emergent từ general-purpose system (§0)
+  🟡 F1 Compiled / F2 Fresh explicit framing cho status scan (§2.1)
+  🟡 PFC=Lawyer 3 distortion modes trong status domain (§9.5)
   🟡 Resource Access Map as COMPLETE model (framework synthesis)
   🟡 3 Modes (Lấy/Trao đổi/Comply) as exhaustive spectrum
   🟡 Cooperation as dominant mode in modern society (observable, not quantified)
@@ -2194,6 +2303,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CORE:
     → Core-v7.8-Draft.md §8 — Status observation parameter definition
     → Core-v7.8-Draft.md §9 — Development trajectory
+    → Inter-Body-Mechanism.md v1.0 §1.2 — Architecture B (§0 framing)
+    → Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh axis (§2.1 F1/F2)
+    → Inter-Body-Mechanism.md v1.0 §7 — PFC=Lawyer (§9.5 distortion)
+    → Body-Feedback-Label.md v2.0 — framework vocabulary reference
 
   MECHANISM FILES:
     → Body-Feedback-Mechanism.md §3 — Chunk-Shift/Miss/Gap (§10 mapping)
@@ -2202,7 +2315,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Cortisol-Baseline.md v2.0 §3 — 10 touchpoints
     → Cortisol-Baseline.md v2.0 §4 — Silent cortisol (MXH pathway)
     → Chunk.md v2.0 — Chunk substrate, compilation, hierarchy
-    → Valence-Propagation.md v1.1 — Valence shift mechanism (§10.1)
+    → Valence-Propagation.md v2.0 — Valence shift mechanism (§10.1)
 
   OBSERVATION PARAMETER FILES:
     → Observation/Connection.md — §1.3 (4 Cases), §3 (Calibration)
@@ -2276,14 +2389,21 @@ Status = observation parameter: resource access calibration giữa social agents
   Function = proven (cross-species). Hormone = candidate. Exact circuit = unknown.
   Resource Access Map = framework synthesis (more explanatory than hierarchy).
   "Thành công nhưng trống rỗng" = multi-causal (NOT just cortisol suppress).
+
+⭐ v2.1 ADDITIONS:
+  Architecture B: status = emergent từ general-purpose system (§0)
+  F1 Compiled / F2 Fresh: explicit framing cho status scan (§2.1)
+  PFC=Lawyer: 3 distortion modes (fabricate/suppress/amplify) + Domain=Arbiter (§9.5)
 ```
 
 ---
 
-> **Version:** 2.0
-> **Lines:** ~2,192
+> **Version:** 2.1
+> **Lines:** ~2,400
 > **Created:** 2026-04-20
 > **Rewritten:** 2026-04-21
+> **Updated:** 2026-05-17 v2.1
 > **v1.0 backup:** backup/Status-v1.0-backup.md (1,301L)
 > **v0 backup:** backup/Status-Analysis-v2-v75-era.md (656L)
 > **v7.8 aligned:** ✅ observation parameter, cycle-based, chunk dynamics, evolutionary grounded
+> **v2.1:** ⑪ Architecture B, ⑫ F1/F2 Compiled/Fresh, ⑬ PFC=Lawyer, ⑭-⑯ refs updated

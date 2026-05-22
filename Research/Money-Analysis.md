@@ -1291,7 +1291,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   2-LUỒNG REWARD (Connection.md §3.3):
     → L1 (SPM-owned): per-exposure, momentary → tiền có thể MUA exposure
-    → L2 (Entity-owned): structural, over time → tiền KHÔNG mua được
+    → L2 (Entity-compiled): structural, over time → tiền KHÔNG mua được
     → = Tiền mua L1 (quantity), không mua L2 (depth)
 
   🟡 "Tiền mua L1 không mua L2" = Connection §3.3 + Obligation §5.2

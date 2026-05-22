@@ -1,14 +1,21 @@
 ---
 title: Drive — Observation Parameter (Integration)
-version: 1.0
+version: 1.1
 created: 2026-04-20
-status: OBSERVATION PARAMETER v1.0
+updated: 2026-05-17
+status: OBSERVATION PARAMETER v1.1
 scope: |
   INTEGRATION FILE: Drive = tên gọi cho energy + direction emergent từ
   chunk dynamics + body-feedback. File này KHÔNG thêm mechanism mới —
   TÍCH HỢP tất cả observation parameters (Novelty, Threat, Status,...) 
   để giải thích: "Tại sao hành động NÀY tại thời điểm NÀY?"
   PFC participation spectrum, drive conflict, signal strength model.
+  v1.1 KEY CHANGES:
+    ⑪ +Architecture B: drive = emergent từ general-purpose reward system
+    ⑫ +Compiled/Fresh (F1/F2): compiled drive (Mode 1-2) vs fresh drive (Mode 3-6)
+    ⑬ +Domain=Arbiter: drive direction CAN BE WRONG
+    ⑭ Version refs synced (VP v2.0, BFM v2.0, Feeling v3.0)
+    ⑮ +Cross-refs: Inter-Body-Mechanism.md v1.0, Body-Feedback-Label.md v2.0
 purpose: |
   Novelty.md + Threat.md = mechanism RIÊNG LẺ.
   File này = HOW chúng COMBINE → action tại mỗi thời điểm.
@@ -19,12 +26,14 @@ dependencies:
   - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
   - Observation/Novelty.md v1.0 — PULL toward opportunity
   - Observation/Threat.md v1.0 — PUSH away from harm
-  - Body-Feedback-Mechanism.md — Shift/Miss/Gap, dual-pull
+  - Body-Feedback-Mechanism.md v2.0 — Shift/Miss/Gap, dual-pull
   - Chunk.md v2.0 — chunk substrate, compilation
   - Cortisol-Baseline.md v2.0 — amplifier dynamics
-  - Feeling.md v2.0 — PFC observation interface
+  - Feeling.md v3.0 — PFC observation interface
   - Imagine-Final-Evaluation.md — 2 trục × 4 góc
   - Anchor-Schema.md — Trust binding, sync point
+  - Inter-Body-Mechanism.md v1.0 — Architecture B, Compiled/Fresh, Domain=Arbiter
+  - Body-Feedback-Label.md v2.0 — vocabulary reference
 sources_backup: |
   Rewrite từ: Drive.md v1.1 (2,733L)
   Backup: _backup/Drive-v75-era/
@@ -86,6 +95,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ○ Emergent — action = OUTPUT, không phải INPUT
 
 
+⭐ ARCHITECTURE B → DRIVE EMERGENT (Inter-Body-Mechanism.md §1.2):
+
+  ARCHITECTURE A (côn trùng, động vật đơn giản):
+    Hardwired circuits: food→eat, predator→flee, mate→approach.
+    Không cần "drive" — stimulus→response CỐ ĐỊNH.
+    Không có PFC → không có deliberation → không có conflict.
+
+  ARCHITECTURE B (humans):
+    Hardwired: CHỈ reward MECHANISM + compilation + social + PFC.
+    Content: LEARN from environment → compile → body-need.
+    → KHÔNG CÓ "drive module" hardwired cho specific behaviors.
+    → Drive = EMERGENT OUTPUT từ general-purpose system:
+      body-need aggregate + chunk dynamics + prediction + PFC orchestration
+      → energy + direction xuất hiện → = "drive"
+
+  → Drive là TÊN GỌI cho energy+direction emergent từ Architecture B.
+  → Architecture A KHÔNG CẦN khái niệm "drive" (stimulus→response đủ).
+  → Architecture B CẦN khái niệm "drive" vì output KHÔNG predetermined.
+
+  🟡 Architecture A/B = framework synthesis (Inter-Body-Mechanism.md §1.2).
+     Underlying neuroscience (general-purpose reward, Hebbian) = 🟢.
+
+
 DRIVE TRONG CYCLE (Core v7.8 §1):
 
   Domain → Body-Input → Unconscious(Chunks) → Feeling → PFC → Body-Output → Domain
@@ -102,6 +134,17 @@ DRIVE TRONG CYCLE (Core v7.8 §1):
     → Communicate: "anh ấy threat-driven" → mô tả trạng thái
     → Diagnose: "thiếu drive" → boredom territory
     → NHƯNG: can thiệp ở mechanism level, KHÔNG ở observation level
+
+  ⚠️ DOMAIN = ARBITER — drive direction CAN BE WRONG:
+    → Drive mạnh ≠ drive ĐÚNG.
+    → Body-need fires → PFC creates direction → NHƯNG PFC = Lawyer
+      (Inter-Body-Mechanism.md §7): narrative phục vụ body-need,
+      KHÔNG nhất thiết phù hợp domain reality.
+    → Ví dụ: novelty drive kéo vào conspiracy theories = mạnh nhưng SAI hướng.
+    → Ví dụ: threat drive kéo khỏi opportunity tốt = mạnh nhưng SAI hướng.
+    → Domain feedback = ARBITER duy nhất kiểm tra drive direction.
+    → "Cảm thấy đúng" ≠ "Đúng" — cần domain verify.
+    🟡 Domain=Arbiter = framework principle (Inter-Body-Mechanism.md §9)
 
 
 VỊ TRÍ FILE NÀY:
@@ -168,17 +211,45 @@ VỊ TRÍ FILE NÀY:
   → Nhưng: KHÔNG phải luôn luôn. Context quyết định:
     → Bình thường: đói (strong) override tò mò (weak) → tìm ăn
     → Nhưng: Einstein nhịn đói để imagine (PFC override body-input)
-    → Nhưng: Anne Frank được giấu (4 reward chains > tử hình threat)
+    → Nhưng: Anne Frank được giấu (nhiều reward chains > tử hình threat)
     → = Valence chain CÓ THỂ override signal strength
       (Valence-Propagation.md §5③)
 
   → PFC CÓ THỂ override (Mode 6, §2) — nhưng LUÔN CÓ COST
   → Kéo dài override → repair debt → body eventually thắng
 
+  ⭐ COMPILED/FRESH = TRỤC THẬT (Inter-Body-Mechanism.md §3):
+
+    Vô thức vs PFC THỰC CHẤT là COMPILED vs FRESH spectrum:
+
+    COMPILED DRIVE (F1 — automatic, cost ≈ 0):
+      → Chunks đã compile → body-feedback direct → action EMERGE
+      → Vô thức auto → Mode 1-2 (§2)
+      → Ví dụ: lái xe đường quen (compiled route chunks fire → auto)
+      → Ví dụ: chef thấy nguyên liệu → "biết ngay" cần làm gì
+      → = Phần lớn cuộc sống (~70-80%) = compiled drive
+
+    FRESH DRIVE (F2 — PFC draft, cost > 0):
+      → Tình huống MỚI / mâu thuẫn → chunks không match → PFC phải draft
+      → PFC deliberate → Mode 3-6 (§2)
+      → Ví dụ: ngày đầu đi làm → mọi thứ mới → PFC liên tục draft
+      → Ví dụ: conflict giữa novelty vs threat → PFC arbitrate
+      → = Tình huống mới + khó = fresh drive territory
+
+    TRANSITION F2→F1 (Learning):
+      → Fresh drive lặp lại + resolve → chunks compile → compiled drive
+      → = "Ngày đầu đi làm" (fresh) → "tháng thứ 6" (compiled)
+      → Kahneman System 1 (compiled) / System 2 (fresh) tương đương
+      → Chi tiết: Inter-Body-Mechanism.md §3.3
+
+    → INSIGHT: Mode 3 (Spinning) vs Mode 4 (Resolve) = CÙNG fresh territory
+      → KHÁC ở chunk availability, KHÔNG phải activation level
+
   🟢 Unconscious processing dominance = neuroscience consensus
   🟢 PFC capacity limits = Cowan 2001 (4±1)
   🟢 PFC energy cost = Raichle 2006
   🟢 Evolutionary timeline = comparative neuroscience
+  🟡 Compiled/Fresh drive distinction = framework synthesis (consistent with Kahneman)
 
 
 ⭐ TẠI MỌI THỜI ĐIỂM, NHIỀU SIGNALS CÙNG LÚC:
@@ -613,6 +684,9 @@ RESOLUTION RULES — 5 rules theo thứ tự
     │ Modern threat-drive dominance                              │
     │ Conflict as growth opportunity                              │
     │ Push→Pull transition paradox                                │
+    │ Architecture B → drive emergent (v1.1)                     │
+    │ Compiled/Fresh drive (F1/F2) distinction (v1.1)            │
+    │ Domain=Arbiter — drive direction can be wrong (v1.1)       │
     └────────────────────────────────────────────────────────────┘
 
   🔴 HYPOTHESIS (logical but unverified):
@@ -635,17 +709,21 @@ RESOLUTION RULES — 5 rules theo thứ tự
     Core-v7.8-Draft.md §8 — ALL observation parameters
     Observation/Novelty.md v1.0 — PULL mechanism deep-dive
     Observation/Threat.md v1.0 — PUSH mechanism deep-dive
+    Inter-Body-Mechanism.md v1.0 §1.2 — Architecture B (general-purpose → drive emergent)
+    Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh (F1/F2 processing axis)
+    Inter-Body-Mechanism.md v1.0 §7 — PFC=Lawyer (Domain=Arbiter correction)
     PFC-Configuration.md v1.0 — §2 participation modes ORTHOGONAL with config (2026-05-10)
 
   ← MECHANISM (đọc trước hoặc cùng):
-    Body-Feedback-Mechanism.md — chunk dynamics → body-feedback
+    Body-Feedback-Mechanism.md v2.0 — chunk dynamics → body-feedback
     Chunk.md v2.0 — chunk substrate
-    Valence-Propagation.md v1.1 — body evaluation, chain propagation
-    Feeling.md v2.0 — PFC observation interface
+    Valence-Propagation.md v2.0 — body evaluation, chain propagation
+    Feeling.md v3.0 — PFC observation interface
     Cortisol-Baseline.md v2.0 — amplifier dynamics
+    Body-Feedback-Label.md v2.0 — vocabulary reference
 
   ↔ SONG SONG (cùng Observation/ folder):
-    Observation/Empathy.md — SPM function → detect drives in others
+    Observation/Empathy.md v3.0 — SPM function → detect drives in others
     Observation/Liking-Wanting.md — wanting overlap drive mechanism
     Observation/AI-Schema-Detection.md — detect drive patterns
     Schema.md v2.0 — schema = observation parameter for chunk patterns
@@ -660,6 +738,7 @@ RESOLUTION RULES — 5 rules theo thứ tự
 
   STATUS:
     v1.0 — 2026-04-20 — viết mới cho v7.8 cycle-based architecture
-    Rewrite từ: Drive.md v1.1 (backup: _backup/Drive-v75-era/)
-    Aligned: Core v7.8, signal strength model, observation parameters
+    v1.1 — 2026-05-17 — +Architecture B, +Compiled/Fresh, +Domain=Arbiter, version sync
+    Rewrite từ: Drive.md v1.1-old (backup: _backup/Drive-v75-era/)
+    Aligned: Core v7.8, Inter-Body-Mechanism v1.0, signal strength model
 ```

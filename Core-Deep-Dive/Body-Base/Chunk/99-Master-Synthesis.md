@@ -399,7 +399,7 @@ ALREADY-DRILLED SUB-FOLDERS (N+1 → N+3):
 
   AGENT/ (5,754L, 4 files):
     → Self-Pattern-Match: identity = chunk network about self
-    → Pattern-Resonance: empathy = chunks fire in response to others
+    → Resonance: empathy = chunks fire in response to others
     → Object-Agency-Overview: 2-axis model (utility × modeling)
     → Framework for social cognition
 
@@ -558,7 +558,7 @@ ALREADY-DRILLED SUB-FOLDERS (N+1 → N+3):
 │      │ signals. Sleep consolidation (6+ mechanisms).    │      │                      │
 │      │ Baseline shift through iteration.                 │      │                      │
 ├──────┼──────────────────────────────────────────────────┼──────┼──────────────────────┤
-│ H9   │ Pattern-Resonance + Self-Pattern-Match.          │ 🟡  │ Agent/ folder        │
+│ H9   │ Resonance + Self-Pattern-Match.          │ 🟡  │ Agent/ folder        │
 │      │ Empathy = chunks fire for others.                 │      │                      │
 │      │ Identity = chunk network about self.              │      │                      │
 ├──────┼──────────────────────────────────────────────────┼──────┼──────────────────────┤
@@ -637,7 +637,7 @@ ALREADY-DRILLED SUB-FOLDERS (N+1 → N+3):
 │                                 │ • Baseline shift through iteration         │
 ├─────────────────────────────────┼────────────────────────────────────────────┤
 │ Agent/ (5,754L)                │ • Self-Pattern-Match (identity)            │
-│                                 │ • Pattern-Resonance (empathy)              │
+│                                 │ • Resonance (empathy)              │
 │                                 │ • Object-Agency 2-axis model               │
 ├─────────────────────────────────┼────────────────────────────────────────────┤
 │ Body-Feedback-Draft/ (9,707L)  │ • H10 body-feedback model                  │
@@ -703,7 +703,7 @@ CHUNK AND BODY:
   → Neural wear: F1 NT7 (PFC damage, ACE)
 
 CHUNK AND SOCIAL:
-  → Pattern-Resonance: Agent/ (empathy mechanism)
+  → Resonance: Agent/ (empathy mechanism)
   → Self-Pattern-Match: Agent/ (identity mechanism)
   → Cultural transmission: F3 (5 mechanisms, Direction B)
   → Language evolution: H12 (Gap 2, F3↔F4 co-evolution)
@@ -833,7 +833,7 @@ R-F1-4:  Body-Feedback-Draft P2 mechanism content (4-channel × 5-parameter)
 R-F1-5:  Feel-Example cross-references (F1 events → Feel-Example entries)
 R-F1-6:  H11 + PFC Ladder + NT6 verbal-handle → 99-Master framework contributions
 R-F1-7:  Body-Parenting-Optimization critical period updates (expanded, 8 items)
-R-F1-8:  Agent/ cross-references (Pattern-Resonance + Self-Pattern-Match timelines)
+R-F1-8:  Agent/ cross-references (Resonance + Self-Pattern-Match timelines)
 R-F1-9:  Modality-Analysis "verbal is NOT 5th modality" commitment
 R-F1-10: Chunk.md gradient architecture + non-uniform progression
 

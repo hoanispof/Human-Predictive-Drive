@@ -172,7 +172,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ PE signal            │ = reward signal ✅   │ = attention signal    │
   │ Evaluation           │ Không cần (đã có)    │ Body evaluate SAU PE  │
   │ Coherence            │ Không cần             │ BẮT BUỘC cho reward  │
-  │ Body                 │ Không có              │ Body tính toán trước │
+  │ Body                 │ Không có              │ Body xử lý trước     │
   │ Random noise         │ PE cao → score thấp  │ PE cao → dở          │
   │ Preconditions        │ Không cần             │ H10 (5 điều kiện)    │
   └──────────────────────┴──────────────────────┴──────────────────────┘
@@ -453,7 +453,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 WITHIN FRAMEWORK:
-  Body-Feedback-Label.md v1.1 — ⭐ VOCABULARY REFERENCE.
+  Body-Feedback-Label.md v2.0 — ⭐ VOCABULARY REFERENCE.
     Framework dùng "prediction-delta" thay cho PE / VTA delta.
     3-tier label system. 100% framework vocabulary.
   Reward-Signal-Architecture.md — ⭐ Type A (opioid) vs Type B (non-opioid),

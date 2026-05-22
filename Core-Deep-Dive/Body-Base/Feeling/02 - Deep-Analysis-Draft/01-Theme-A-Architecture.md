@@ -41,7 +41,7 @@ confidence_target: HIGH (framework internally consistent + research backing)
 ### §1.2 Tier 2 outlines (proposed refinements)
 - [Feel-Development.md](../Feel-Development.md) §1 **EXPANDED definition** + §2 PFC as Observer
 - [Self-Pattern-Match.md](../Self-Pattern-Match.md) §1-2 — intrapersonal mechanism hypothesis
-- [Pattern-Resonance.md](../Pattern-Resonance.md) §1-2 — interpersonal simulator hypothesis
+- [By-Product-Gap-Resonance.md](../By-Product-Gap-Resonance.md) §1-2 — interpersonal simulator hypothesis
 
 ### §1.3 Adjacent architecture
 - [Logic-Feeling.md](../../../Logic-Feeling.md) §1-2 + §5 Parallel processing for all entities
@@ -72,7 +72,7 @@ Framework có **2 tiers of definition** đang cùng tồn tại:
 > - Felt sense (Gendlin's pre-verbal body wisdom)"
 
 **Unified mechanism** (Tier 2):
-> "ALL are PFC observing **unconscious processing**, whether: body (interoception), schemas (pattern matching), predictions (interoceptive + exteroceptive forecasts), memory retrieval, inference, simulator (Pattern Resonance output), integration (diffuse multi-source states)."
+> "ALL are PFC observing **unconscious processing**, whether: body (interoception), schemas (pattern matching), predictions (interoceptive + exteroceptive forecasts), memory retrieval, inference, simulator (Resonance output), integration (diffuse multi-source states)."
 
 **The tension resolved**: Tier 1 tried to list all sources inside "body systems" — hơi stretchy. Tier 2 re-names the category: "unconscious processing" is the parent; body-base is a subset.
 
@@ -118,7 +118,7 @@ Feel-Development outline identifies 6 types of feelings that don't fit purely bo
 
 **Example 3 — Social intuition**:
 - Example: "Cảm thấy người này không tin được" (E88)
-- Source: Pattern Resonance output (simulator using own chunks)
+- Source: Resonance output (simulator using own chunks)
 - NOT pure body interoception — **simulator is running other-state**
 
 **Example 4 — Aesthetic feeling**:
@@ -417,7 +417,7 @@ Predictive processing proposes: brain is a **prediction machine** that generates
 **Why it's not forcing**:
 - Framework has **already evolved** (Feel-Development outline, 2026-04-14)
 - Expanded definition: "PFC observing unconscious processing" (body-base + more)
-- Tier 2 outlines (Self-Pattern-Match, Pattern-Resonance) build on this
+- Tier 2 outlines (Self-Pattern-Match, Resonance) build on this
 
 **What's happening**: Framework is in **refinement phase**. Tier 1 was the initial formalization. Tier 2 is the refinement that addresses edge cases. Both tiers coexist temporarily. Tier 1 will eventually update.
 
@@ -496,7 +496,7 @@ Theme D test cases (Einstein, violation-of-expectation, partner behavior) will u
 - Source can be body (L1 tension), cognitive (pattern recognition via ACC error detection), simulation (imagine-final preview), or combination
 - **Einstein case**: Imagine-final simulation of riding light beam → body simulates pressure/movement → contradiction with Newton schema → wrongness feeling at Layer 3-4 → cognitive/predictive channel output
 - **Child violation-of-expectation**: body observes object violating physical schema → Layer 3 "có gì đó không đúng" → Spelke Core Knowledge Object system failure → infant surprise
-- **Partner unusual behavior**: Pattern Resonance simulator fails to match → Layer 3 mismatch → "cảm thấy có gì đó khác"
+- **Partner unusual behavior**: Resonance simulator fails to match → Layer 3 mismatch → "cảm thấy có gì đó khác"
 
 All three cases run through **same PFC observation interface**, different sources.
 
@@ -523,7 +523,7 @@ User's "ritual = chain chunks without verbal" aligns with framework's "ritual = 
 ### §4.4 — Theme E (Empathy + Giving)
 
 Theme A's architecture enables Theme E framework:
-- **Empathy = Pattern Resonance** (Tier 2 rejection of hardware mirror)
+- **Empathy = Resonance** (Tier 2 rejection of hardware mirror)
 - Uses own Self-Pattern Match library as simulator
 - PFC observes fit-judgment output as feeling
 - **Giving dynamics** driven by positive vs negative trust (Anchor-Schema §2)

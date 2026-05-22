@@ -1,10 +1,10 @@
 ---
 title: Idol Phenomenon — Tại Sao Con Người Thần Tượng
-version: 2.1
+version: 2.2
 created: 2026-03-28
 rewritten: 2026-04-26
-refined: 2026-05-10
-status: RESEARCH FILE v2.1
+refined: 2026-05-17 (v2.2 — comprehensive dep updates, VP §shift, F2 label fix, Religion v2.3)
+status: RESEARCH FILE v2.2
 scope: |
   RESEARCH FILE: Phân tích hiện tượng idol qua framework lens.
   Idol phenomenon = body-base drives CỦA FAN compile chunks về idol
@@ -20,30 +20,30 @@ scope: |
 purpose: |
   Phân tích CƠ CHẾ: tại sao idol TỒN TẠI, khi nào TỐT, khi nào HẠI.
   Nhìn idol phenomenon như 1 "công nghệ" trong spectrum Melody Technology
-  (cùng spectrum với tôn giáo — xem Religion.md v2.0, Overview.md).
+  (cùng spectrum với tôn giáo — xem Religion.md v2.3, Overview.md).
   v2.0 map drives + formula sang mechanism v7.8 cụ thể.
 position: |
-  Research/Melody-Technology/ — cùng folder với Religion.md v2.0,
+  Research/Melody-Technology/ — cùng folder với Religion.md v2.3,
   Melody-Technology-Overview.md. RESEARCH files phân tích hiện tượng
   qua framework lens, KHÁC Core-Deep-Dive/ files (mechanism deep-dives).
 dependencies:
-  - Connection.md v3.0 — 3 Generative Primitives, 2-luồng, §16 Cô đơn
-  - Self-Pattern-Match.md v2.1 — F1/F2, context-dependent, valence gate
-  - Valence-Propagation.md v1.2 — per-entity valence, Body-Base Extension, 2-luồng L1/L2
+  - Connection.md v4.0 — 3 Generative Primitives, 2-luồng, §16 Cô đơn
+  - Self-Pattern-Match.md v3.0 — F1 Compiled/F2 Fresh, context-dependent, valence gate
+  - Valence-Propagation.md v2.0 — per-entity valence, §3 Body-Base Extension, 2-luồng L1/L2
   - Body-Feedback/03-Reward.md — H10 5 preconditions, VTA vs opioid
   - Chunk-Activation-Dynamics.md — 7 factors link strength, probability
-  - Meaning.md v2.0 — 5 anchor types (GOAL/IDENTITY/ROLE), §4 sources
+  - Meaning.md v2.1 — 5 anchor types (GOAL/IDENTITY/ROLE), §4 sources
   - Protect.md v1.0 — f(replaceability × attachment), identity protect
   - Obligation.md v1.0 — compiled prediction, Type 2 Exchange, Type 4 Role
-  - Gratitude.md v1.1 — 9 prerequisites, agent-only
-  - Status.md v2.0 — Resource Access Map, §9 serotonin
+  - Gratitude.md v2.0 — 9 prerequisites, agent-only
+  - Status.md v2.1 — Resource Access Map, §9 serotonin
   - PFC-Hardware.md — COMT/DRD4/MAO-A/NE (hardware match)
   - PFC-Function.md — Observe/Hold modes
   - Modality.md — 6 kênh encoding
-  - Cortisol-Baseline.md v2.0 — 5 Roles, amplifier
+  - Cortisol-Baseline.md v2.1 — 5 Roles, amplifier
   - Schema.md v2.0 — named chunk-network pattern
-  - Empathy.md v2.0 — SPM F1 + ❸ positive = empathy
-  - Religion.md v2.0 — cùng spectrum, khác magnitude
+  - Empathy.md v3.0 — SPM F1 + ❸ positive = empathy
+  - Religion.md v2.3 — cùng spectrum, khác magnitude
   - Imagination.md — simulate = same body pathway
 sources_backup: |
   v1.0 (2026-03-28, 352L) → backup/Idol-Phenomenon-v1-backup.md
@@ -101,10 +101,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Melody Technology SPECTRUM:                                    │
   │                                                                │
   │ Fan nhẹ ──→ Fan cứng ──→ Fan cuồng ──→ Tín ngưỡng ──→ Tôn giáo│
-  │   (§1-§7)                                    (Religion.md v2.0) │
+  │   (§1-§7)                                    (Religion.md v2.3) │
   │                                                                │
   │ FILE NÀY phân tích ĐẦU spectrum (idol phenomenon)             │
-  │ Religion.md v2.0 phân tích CUỐI spectrum (tôn giáo)            │
+  │ Religion.md v2.3 phân tích CUỐI spectrum (tôn giáo)            │
   │ CÙNG mechanism (body-base drives) — KHÁC magnitude + depth     │
   └────────────────────────────────────────────────────────────────┘
 
@@ -160,7 +160,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ② CONNECTION DRIVE → 3 GENERATIVE PRIMITIVES:
 
     v7.5: "Connection.md — body MUỐN connection"
-    v7.8: Connection.md v3.0 — 3 Generative Primitives:
+    v7.8: Connection.md v4.0 — 3 Generative Primitives:
 
       ❶ Hardware social drive:
          → Body MUỐN social input giống cần food/water
@@ -171,7 +171,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
          → SPM F1: body simulate idol's emotional state → biochemistry thật
            (xem idol khóc → body khó chịu. Xem idol vui → body nhẹ)
          → SPM F2: predict idol's behavior ("idol sẽ comeback khi nào?")
-         → = Self-Pattern-Match.md v2.1: F1 near-automatic, creates real biochemistry
+         → = Self-Pattern-Match.md v3.0: F1 near-automatic, creates real biochemistry
          → Fan KHÔNG "chọn" feel — body TỰ fire SPM on idol
 
       ❸ Per-Agent Valence compiled:
@@ -187,7 +187,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ③ IMAGINE-FINAL TEMPLATE → ANCHOR PROVIDER (GOAL/IDENTITY TYPE):
 
     v7.5: "imagine final CỤ THỂ + BODY-LEVEL"
-    v7.8: Meaning.md v2.0 — idol provide GOAL hoặc IDENTITY type anchor:
+    v7.8: Meaning.md v2.1 — idol provide GOAL hoặc IDENTITY type anchor:
 
       → Trẻ 12-18: identity đang hình thành → CẦN anchor template
       → Idol = LIVING PROOF "anchor NÀY đạt được"
@@ -224,7 +224,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⑤ BELONGING → FAN COMMUNITY = CONNECTION THẬT:
 
     v7.5: "shared chunks → thuộc về"
-    v7.8: Connection.md v3.0 §3 + §16:
+    v7.8: Connection.md v4.0 §3 + §16:
 
       → Fan club = nhóm engage ĐẦY ĐỦ 3 Generative Primitives:
         ❶ Hardware: physical co-presence (concert, meetup, online sync)
@@ -232,14 +232,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
            + F2: predict nhau (cùng fan = biết nhau sẽ react thế nào)
         ❸ Valence: shared chunks = overlap melody → ❸ positive compiled
 
-      → Concert: cùng hát, cùng khóc, cùng la → Pattern-Resonance
-        (Pattern-Resonance.md: 2+ agents' SPM co-fire → emergent bond)
+      → Concert: cùng hát, cùng khóc, cùng la → Resonance
+        (Resonance.md: 2+ agents' SPM co-fire → emergent bond)
       → = Idol không chỉ là idol → idol là CẦU NỐI fan với NHAU
       → = Connection THẬT giữa fan — qua medium idol
 
       2-LUỒNG trong fan community:
         → L1 (SPM-owned): mỗi lần meetup/concert = momentary reward
-        → L2 (Entity-owned): bond với fan group compile deep = structural
+        → L2 (Entity-compiled): bond với fan group compile deep = structural
         → = "Bạn concert" có thể thành "bạn thân thật" = L2 compile
 
       Cô đơn mapping (Connection.md §16):
@@ -322,10 +322,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = CÙNG idol → KHÁC fan hardware → attachment KHÁC
 
 
-  SOCIAL AMPLIFIER (Connection.md v3.0):
+  SOCIAL AMPLIFIER (Connection.md v4.0):
 
     → Fan community lớn → ❶ hardware met + ❷ SPM match + ❸ shared valence
-    → Concert/meetup → Pattern-Resonance → bond amplify
+    → Concert/meetup → Resonance → bond amplify
     → Social proof: "triệu người thích → chắc HAY" → chunks compile DỄ hơn
       (Chunk-Activation-Dynamics Factor ⑤: context match)
 ```
@@ -388,7 +388,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Mỗi lần xem MV / concert / livestream = SPM fire → opioid → reward
       → L1 = per-exposure → CẦN liên tục → nếu idol stop → L1 STOP
 
-    L2 (Entity-owned, structural):
+    L2 (Entity-compiled, structural):
       → Qua nhiều năm follow → ❸ compile deep → L2 emerge
       → Agent-Mechanism.md §12.2b: L2 = structural reward, bền
       → "Thích idol" (L1 dominant) vs "yêu idol" (L2 compiled)
@@ -423,7 +423,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = "Liều thuốc rẻ nhất" — H10 met at near-zero cost
 
 
-  ② ANCHOR CHO NGƯỜI THIẾU (Meaning.md v2.0):
+  ② ANCHOR CHO NGƯỜI THIẾU (Meaning.md v2.1):
 
     → Trẻ không có bố mẹ guide → idol = anchor source DUY NHẤT
     → "Idol từ zero thành hero" = GOAL type anchor CỤ THỂ + evidence-based
@@ -592,7 +592,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Berridge: wanting without liking = compulsive seeking + empty
 
     → "Fan wars" = tribal belonging (Connection ❸ negative toward out-group)
-      → = Empathy.md v2.0: ❸ negative → SPM fire NGƯỢC → dehumanize
+      → = Empathy.md v3.0: ❸ negative → SPM fire NGƯỢC → dehumanize
       → Industry profit: loyalty ↑ → spending ↑ → revenue ↑
 
   → = Industry dùng body-base drives CỦA FAN để extract TIỀN
@@ -688,12 +688,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Tôn thờ        │ Rất sâu │ IDENTITY+  │ F1-F6               │
     │ Tín ngưỡng     │ Compiled │ FAITH weak │ F1-F7 partial       │
     │ Tôn giáo       │ Max      │ FAITH deep │ F1-F7 full          │
-    │                │          │            │ (Religion.md v2.0)   │
+    │                │          │            │ (Religion.md v2.3)   │
     └────────────────┴──────────┴────────────┴──────────────────────┘
 
     → = CÙNG 3 Generative Primitives — khác DEPTH + SCOPE
     → = Tôn giáo = "idol phenomenon" NÂNG CẤP lên toàn melody + FAITH anchor
-    → = Chi tiết: Religion.md v2.0 §6 (idol × religion comparison table)
+    → = Chi tiết: Religion.md v2.3 §6 (idol × religion comparison table)
 ```
 
 ---
@@ -835,7 +835,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → Gratitude.md: agent-only, 9 components simultaneous
         → Fan → idol: ① body-reward ✅ ② agent ✅ ③ comparison ✅
           ④ source attribution ✅ ⑤ SPM empathy (effort?) ❓
-          ⑥ entity-owned ❓ ⑦ obligation ❓ ⑧ autonomy ✅ ⑨ valence ✅
+          ⑥ entity-compiled ❓ ⑦ obligation ❓ ⑧ autonomy ✅ ⑨ valence ✅
         → = Gratitude PARTIAL — thiếu ⑤⑥⑦ ở nhiều fan
         → = "Biết ơn idol" thường = cultural script > genuine gratitude?
 
@@ -850,25 +850,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §12 — CROSS-REFERENCES
 
 ```
-→ Connection.md v3.0: §3 (3 Generative Primitives), §9 (Calibration), §16 (Cô đơn 4 types)
-→ Self-Pattern-Match.md v2.1: §2.1 F1 body simulation, §2.2 F2 logic prediction
-→ Valence-Propagation.md v1.2: §1 per-entity valence, §2 Body-Base Extension, 2-luồng L1/L2
+→ Connection.md v4.0: §3 (3 Generative Primitives), §9 (Calibration), §16 (Cô đơn 4 types)
+→ Self-Pattern-Match.md v3.0: §2.1 F1 Compiled (body simulation), §2.2 F2 Fresh (PFC prediction)
+→ Valence-Propagation.md v2.0: §1 per-entity valence, §3 Body-Base Extension, 2-luồng L1/L2
 → Body-Feedback/03-Reward.md: §1.2 VTA vs opioid, §3 H10 5 preconditions
 → Chunk-Activation-Dynamics.md: §2.2 (7 factors), §2.3 (probability dynamic)
-→ Meaning.md v2.0: §3.1 GOAL type, §3.3 IDENTITY type, §4.3 External Inject
+→ Meaning.md v2.1: §3.1 GOAL type, §3.3 IDENTITY type, §4.3 External Inject
 → Protect.md v1.0: §2 f(replaceability × attachment), grief analysis
 → Obligation.md v1.0: Type 2 Exchange, Type 4 Role, toxic obligation
-→ Gratitude.md v1.1: §2 (9 prerequisites), §3 (3 anti-habituation)
-→ Status.md v2.0: §0 Resource Access Map, §9 serotonin certainty bias
+→ Gratitude.md v2.0: §2 (9 prerequisites), §3 (3 anti-habituation)
+→ Status.md v2.1: §0 Resource Access Map, §9 serotonin certainty bias
 → PFC-Hardware.md: COMT/DRD4/MAO-A/NE — hardware match basis
 → PFC-Function.md: §1 Observe, §2 Hold — PFC roles in idol processing
 → Modality.md: 6 kênh encoding → channels factor basis
 → Schema.md v2.0: named chunk-network pattern → melody template mechanism
-→ Empathy.md v2.0: §2 SPM F1 + ❸ positive = empathy, ❸ negative = opposite
-→ Religion.md v2.0: §6 (idol × religion table), §2.3 F3 (parallel analysis)
+→ Empathy.md v3.0: §2 SPM F1 + ❸ positive = empathy, ❸ negative = opposite
+→ Religion.md v2.3: §6 (idol × religion table), §2.3 F3 (parallel analysis)
 → Imagination.md: simulate = same body pathway → parasocial mechanism
-→ Cortisol-Baseline.md v2.0: §7.7 5 Roles, amplifier role in grief
-→ Love-Analysis.md v2.1: §12 compound grief (parallel mất idol extreme case)
+→ Cortisol-Baseline.md v2.1: §7.7 5 Roles, amplifier role in grief
+→ Love-Romantic.md v2.4: §12 compound grief (parallel mất idol extreme case)
 → AI-Schema-Detection.md v2.0: gateway tool framing
 → Empathy-Education.md: idol education parallel
 → Global-Melody.md: idol influence on cultural melody

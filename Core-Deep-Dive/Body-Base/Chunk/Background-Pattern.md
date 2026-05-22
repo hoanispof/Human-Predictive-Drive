@@ -1,16 +1,21 @@
 ---
 title: Background Pattern — Accumulated Chunk Bias Invisible to PFC
-version: 1.0
+version: 2.0
 created: 2026-04-27
-status: v1.0 COMPLETE
+rewritten: 2026-05-22 (v2.0 — FULL REWRITE: Phase A+B+T integration, Triple Bias, Valence System, Entity-Compiled/Access/Bond, PFC-Operations, Boredom)
+status: v2.0 MECHANISM REWRITE
 scope: |
-  NEW CONCEPT: Background Pattern = accumulated chunk-network pattern
+  MECHANISM FILE: Background Pattern = accumulated chunk-network pattern
   hình thành qua experience + sleep gist extraction qua THỜI GIAN DÀI.
   Link density cao tới mức THẤM VÀO mọi chunk mới.
   PFC KHÔNG THỂ observe trực tiếp (quá phân tán).
-  BIAS mọi processing: SPM, body-feedback, chunk activation.
+  BIAS mọi processing: SPM Triple Bias (Retrieval + Template + Interpretation).
   Chunk-level mechanism UNDERNEATH Body Baseline State (Schema.md §8).
   Cùng mechanism cho trauma, expertise, culture, personality.
+  v2.0: +Triple Bias (SPM v3.1 §9), +Structural Valence × BP, +Hw Subsidy × formation,
+  +Entity-Compiled × BP (trait-level), +Entity-Access × BP (Mức 0-5),
+  +Calibration Bias × BP, +Bond-Architecture × BP, +Boredom × BP,
+  +PFC-Operations (compiled suppress, PFC budget, Pattern Shiftability).
 purpose: |
   Schema.md §4.1 define schema depth = f(repetitions × modalities × emotional weight).
   Nhưng depth CHỈ LÀ 1 CHIỀU. File này formalize CHIỀU THỨ 2: Link Density.
@@ -20,6 +25,12 @@ purpose: |
   ③ Tại sao expert "biết mà không nói được"
   ④ Tại sao "biết nhưng không cảm được"
   ⑤ Tại sao therapy cần years, không weeks
+  v2.0 THÊM:
+  ⑥ HOW BP biases SPM qua 3 đường đồng thời (Triple Bias)
+  ⑦ HOW Structural Valence + Hw Subsidy modulate BP formation
+  ⑧ HOW BP shapes Entity-Compiled formation + constrains Entity-Access
+  ⑨ HOW BP creates boredom substrate + resists gap direction shift
+  ⑩ HOW Bond-Architecture tương tác với BP (per-bond integration depth)
 position: |
   Core-Deep-Dive/Body-Base/Chunk/ — cùng cấp Chunk.md, 09-Learning-Cycle.md.
   Background Pattern = chunk-level mechanism, KHÔNG phải observation parameter.
@@ -28,17 +39,45 @@ position: |
   REFERENCES Schema.md §4 (extends depth model) + §8 (explains body baseline).
   REFERENCES Anchor-Schema.md (BP constrains which anchors feel viable).
   Background Pattern = chunk mechanism UNDERNEATH body baseline state.
+key_changes_v2:
+  - ① §6 REWRITE — Triple Bias mechanism (Retrieval + Template + Interpretation) from SPM v3.1 §9
+  - ② SPM v3.1 full integration (was v2.1 — 2 major versions behind)
+  - ③ VP v3.0 integration (was v1.2 — ~4 versions behind) — Structural Valence × BP, Hw Subsidy × formation
+  - ④ §9 NEW — BP × Valence System (Structural/Current, Hw Subsidy, Tonic = substrate, 3 Firing Modes)
+  - ⑤ §10 NEW — BP × Entity-Compiled (trait-level = BP, formation × BP, Hub-and-Spoke, Dunbar)
+  - ⑥ §11 NEW — BP × Entity-Access + Calibration (Mức 0-5 × BP, exit cost, calibration bias, Mức 4 critical)
+  - ⑦ §12 NEW — BP × Bond-Architecture (per-bond integration, parent = deepest, anti-compiled-suppress)
+  - ⑧ §13 NEW — BP × Boredom (compiled environment, gap direction resist)
+  - ⑨ §2 ENRICHED — Pattern Shiftability mapping (PFC-Ops v1.0 §7)
+  - ⑩ §5 ENRICHED — PFC-Operations integration (compiled suppress absorb, PFC budget)
 dependencies:
-  - Schema.md v2.0 — schema = observation parameter, §4 depth, §8 body baseline
-  - Chunk.md v2.0 — chunk substrate, §4 activation dynamics, §2 compile
-  - Chunk-Activation-Dynamics.md (01b) — probability, re-linking, trigger surface
-  - Chunk-Discovery-Lifecycle.md (01c) — convergence zone, 1A/1B, gist
-  - Learning-Cycle.md (09) — 6+1 sleep mechanisms, gist extraction, SHY
-  - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, compound
-  - Self-Pattern-Match.md v2.1 — F1/F2, context-dependent chunk selection
-  - Cortisol-Baseline.md v2.0 — amplifier, PFC damage, self-reinforcing
-  - Anchor-Schema.md v1.2 — sync point, trust, 4 nguồn fill
-  - Valence-Propagation.md v1.2 — per-entity valence, chain propagation
+  Core-Mechanism:
+    - Schema.md v2.0 — §4 depth gradient (EXTENDED), §8 body baseline (EXPLAINED)
+    - Chunk.md v2.0 — chunk substrate, §4 activation, §2 compile, §2.4 NT7 direction
+    - Chunk-Activation-Dynamics.md (01b) — probability, re-linking, trigger surface
+    - Chunk-Discovery-Lifecycle.md (01c) — convergence zone, 1A/1B, gist
+    - Learning-Cycle.md (09) — 6+1 sleep mechanisms, gist extraction, SHY
+    - Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap, compound, 2-source
+  PFC:
+    - PFC-Operations.md v1.0 — Hold/Suppress, Compiled Quality, PFC Budget, Pattern Shiftability §7
+    - Simulation-Engine.md v1.0 — 1 Engine × 3 Components × 3 Axes (SPM context)
+  Agent-Mechanism:
+    - Self-Pattern-Modeling.md v3.1 — F1/F2, context-dependent, Triple Bias §9
+    - Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation 40→200h, Dunbar, Grief A+B+C
+    - Entity-Access.md v1.2 — Mức 0-5 gradient, BP resist access shift
+    - Entity-Access-Calibration.md v1.0 — Exit Cost, Calibration Bias, Mức 4 critical
+    - Bond-Architecture.md v1.0 — 4 bond types, M1-M4, anti-compiled-suppress
+    - By-Product-Gap-Resonance.md v1.4 — by-product match, gap overlap
+  Body-Base:
+    - Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, Hw Subsidy, Tonic, Phantom
+    - Cortisol-Baseline.md v2.0 — amplifier, PFC damage, self-reinforcing
+    - Gap-Body-Need.md v1.0 — 3 Satiation Types (Cyclic/Tonic/Generative)
+    - Resonance-Per-Entity.md v1.0 — Hw Subsidy spectrum, Phantom 4-factor
+  Observation:
+    - Boredom.md v2.0 — compiled environment, gap direction resist, boredom threshold
+    - Anchor-Schema.md v1.2 — sync point, trust, 4 nguồn fill
+  Health:
+    - Alzheimer-Analysis.md v1.1 — "last in first out" validates 2D model
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -68,21 +107,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## Mục lục
 
-- §0 — TẠI SAO CẦN CONCEPT MỚI
-- §1 — DEFINITION
-- §2 — 2D MODEL: COMPILE DEPTH × LINK DENSITY
-- §3 — FORMATION MECHANISM
+- §0 — TẠI SAO CẦN CONCEPT MỚI (v2.0: +SE context, +TIỀN ĐỀ ĐỌC, +SCOPE)
+- §1 — DEFINITION (v2.0: +Structural Valence context, +State/Trait distinction)
+- §2 — 2D MODEL: COMPILE DEPTH × LINK DENSITY (v2.0: +Pattern Shiftability)
+- §3 — FORMATION MECHANISM (v2.0: +Hw Subsidy × speed, +Tonic/Cyclic/Generative)
 - §4 — SLEEP = ACCELERATOR, NOT SOLVER
-- §5 — TẠI SAO PFC KHÔNG THỂ OBSERVE
-- §6 — BACKGROUND PATTERN × SPM
-- §7 — BACKGROUND PATTERN × BODY-FEEDBACK
-- §8 — BACKGROUND PATTERN × CORTISOL (Self-Reinforcing Loop)
-- §9 — EXAMPLES
-- §10 — RESOLUTION PATHWAYS (incl. §10.4 BP Conflict — Invisible Conflict)
-- §11 — RELATIONSHIP WITH EXISTING CONCEPTS
-- §12 — OPEN QUESTIONS
-- §13 — HONEST ASSESSMENT
-- §14 — CROSS-REFERENCES
+- §5 — TẠI SAO PFC KHÔNG THỂ OBSERVE (v2.0: +PFC-Operations, +Compiled Suppress absorb)
+- §6 — BACKGROUND PATTERN × SPM: TRIPLE BIAS (v2.0: ★ REWRITE — 3 cơ chế + self-fulfilling)
+- §7 — BACKGROUND PATTERN × BODY-FEEDBACK (v2.0: +3 Firing Modes)
+- §8 — BACKGROUND PATTERN × CORTISOL (v2.0: +Compiled Suppress pathway)
+- §9 — ★ NEW: BACKGROUND PATTERN × VALENCE SYSTEM (Structural/Current, Hw Subsidy, Tonic, Mode 1)
+- §10 — ★ NEW: BACKGROUND PATTERN × ENTITY-COMPILED (trait-level, formation, Dunbar)
+- §11 — ★ NEW: BACKGROUND PATTERN × ENTITY-ACCESS + CALIBRATION (Mức 0-5, exit cost)
+- §12 — ★ NEW: BACKGROUND PATTERN × BOND-ARCHITECTURE (per-bond integration, parent = deepest)
+- §13 — ★ NEW: BACKGROUND PATTERN × BOREDOM (compiled environment, gap resist)
+- §14 — EXAMPLES (v2.0: enriched with new concepts)
+- §15 — RESOLUTION PATHWAYS (v2.0: +Pattern Shiftability, +exit cost)
+- §16 — RELATIONSHIP WITH EXISTING CONCEPTS (v2.0: major update)
+- §17 — OPEN QUESTIONS (v2.0: updated)
+- §18 — HONEST ASSESSMENT (v2.0: updated)
+- §19 — CROSS-REFERENCES (v2.0: ~30 deps)
 
 ---
 
@@ -129,6 +173,94 @@ FRAMEWORK CHƯA CÓ:
      → SHY prune weak links → NHƯNG chronic pattern links SURVIVE (daily reinforced)
      → Gist extraction ABSTRACT pattern → pattern CÒN TỔNG QUÁT HƠN
      → Sleep = accelerator cho pattern, NOT solver
+
+  v2.0 THÊM — FRAMEWORK ĐÃ CÓ (Phase A+B+T):
+
+  ❌ BP BIAS SPM QUA CHÍNH XÁC BAO NHIÊU ĐƯỜNG?
+     → SPM v3.1 §9: Triple Bias (Retrieval + Template + Interpretation)
+     → v1.1 chỉ nói "SPM bị bias" → v2.0 formalize 3 cơ chế cụ thể
+     → + Self-fulfilling prophecy = vòng lặp đóng kín
+
+  ❌ VALENCE SYSTEM × BP:
+     → VP v3.0: Structural valence (compiled deep) vs Current (per-moment)
+     → Hw Subsidy 4-level: MỌI Background Pattern KHÔNG bình đẳng
+     → Tonic satiation = BP substrate (slow invisible baseline)
+     → Mode 1 (Maintenance) = cơ chế tạo "background warmth"
+
+  ❌ ENTITY-COMPILED × BP (Entity-Compiled v1.0):
+     → Trait-level = Background Pattern (PFC invisible, high link density)
+     → Formation 40→200h × BP bias direction
+     → Dunbar S1-S6 = Entity-Compiled depth gradient × BP
+
+  ❌ ENTITY-ACCESS × BP (Entity-Access v1.2):
+     → Mức 0-5 gradient × BP integration level
+     → BP resist access shift (downward revision = decompile BP)
+     → Exit cost + Calibration Bias (strongest bond = hardest to calibrate)
+
+  ❌ PFC-OPERATIONS × BP (PFC-Operations v1.0):
+     → Compiled suppress VIA BP: suppress → absorb into baseline → invisible
+     → PFC Budget: shared finite resource × BP drain
+     → Pattern Shiftability: Density > Depth cho changeability
+
+  ❌ BOREDOM × BP (Boredom v2.0):
+     → Compiled environment = boredom INVISIBLE (no mismatch signal)
+     → BP resist gap direction shift → trapped in pattern
+```
+
+### §0.2 — TIỀN ĐỀ ĐỌC (v2.0)
+
+```
+⭐ ĐỌC FILE NÀY CẦN HIỂU TRƯỚC:
+
+  ① Chunk.md v2.0 — chunk substrate, compile mechanisms, NT7 direction
+  ② Schema.md v2.0 — §4 depth gradient (EXTENDED by file này), §8 body baseline
+  ③ Learning-Cycle.md (09) — 6+1 sleep mechanisms, gist extraction, SHY
+  ④ Self-Pattern-Modeling.md v3.1 — SPM 6-step, F1/F2, context-dependent, Triple Bias §9
+  ⑤ Valence-Propagation.md v3.0 — Structural/Current, Hw Subsidy, 3 Firing Modes, Tonic
+  ⑥ PFC-Operations.md v1.0 — Hold/Suppress, Compiled Quality, PFC Budget, Pattern Shiftability
+  ⑦ Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation, Dunbar, Grief A+B+C
+  ⑧ Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap, compound dynamics
+
+  Simulation-Engine.md v1.0 — context: SPM = APPLICATION trên 1 Engine chung
+    (SPM chạy trên cùng engine với Self-Observation, Imagine-Final)
+```
+
+### §0.3 — ĐỌC FLOW v2.0
+
+```
+  ĐỌC FLOW RECOMMENDED:
+
+  §0-§2: BP LÀ GÌ + 2D Model + Pattern Shiftability     (WHAT)
+  §3-§4: Formation + Sleep accelerator                     (HOW hình thành)
+  §5: PFC invisible + PFC-Operations                       (WHY không thấy)
+  §6-§8: BP × SPM Triple Bias + Body-Feedback + Cortisol  (INTERACT cơ chế core)
+  §9-§13: BP × Valence + EC + EA + Bond + Boredom          (INTERACT Phase A+B+T)
+  §14: Examples (5 cases enriched)                          (VÍ DỤ)
+  §15: Resolution + Pattern Shiftability                   (FIX)
+  §16-§19: Relationship + Open Q + Assessment + Refs       (META)
+```
+
+### §0.4 — SCOPE IN/OUT (v2.0)
+
+```
+  SCOPE IN:
+    ✅ Background Pattern definition + 2D model + Pattern Shiftability
+    ✅ Formation mechanism + sleep acceleration
+    ✅ PFC invisibility + PFC-Operations integration
+    ✅ SPM Triple Bias (Retrieval + Template + Interpretation)
+    ✅ Body-Feedback + Cortisol self-reinforcing loop
+    ✅ BP × Valence System (Structural, Hw Subsidy, Tonic, Mode 1)
+    ✅ BP × Entity-Compiled + Entity-Access + Calibration
+    ✅ BP × Bond-Architecture + Boredom
+    ✅ Resolution pathways + Pattern Shiftability framework
+    ✅ 5 detailed examples + Invisible Conflict
+
+  SCOPE OUT:
+    ❌ Per-entity detailed profiles → Love-Romantic v3.0, Love-Unified v2.0
+    ❌ Bond formation detailed mechanism → Bond-Architecture v1.0
+    ❌ Education/therapy protocols → Education/, Self-Created-Threat v1.0
+    ❌ AI detection methods → AI-Schema-Detection v2.0
+    ❌ Collective-level patterns → Coordination-Node v1.1
 ```
 
 ---
@@ -212,7 +344,69 @@ FRAMEWORK CHƯA CÓ:
   → Mất: phân biệt isolated trauma vs chronic pattern
   → Mất: tại sao sleep reinforces (không solves) chronic patterns
   → Mất: tại sao therapy cần years
+  → v2.0 THÊM: Triple Bias, Valence System, EC/EA/Bond/Boredom interaction
   → = Background Pattern THÊM explanatory power mà framework CHƯA CÓ
+```
+
+### §1.3 — Background Pattern × Structural Valence (v2.0)
+
+```
+🟡 BP VÀ STRUCTURAL VALENCE — CÙNG TẦNG, KHÁC GÓC NHÌN:
+
+  Valence-Propagation v3.0 §3 — STRUCTURAL VALENCE:
+    = Aggregate of per-channel valence tags CỦA tất cả compiled chunks
+    = Mỗi chunk có tag: approach / avoidance / neutral (compile-time lock)
+    = CHẬM thay đổi (cần compile/decompile = months/years)
+
+  Background Pattern:
+    = Accumulated chunk-network pattern (link density dimension)
+    = CHẬM thay đổi (neocortex-embedded, PFC invisible)
+
+  MỐI QUAN HỆ:
+    → Structural valence = VALENCE PROFILE của Background Pattern
+    → BP = NETWORK STRUCTURE (depth × density)
+    → Structural valence = COLOR of that structure (approach vs avoidance)
+    → CÙNG substrate (compiled chunks), KHÁC aspect được describe
+    → BP → §2 2D model (structure). Structural valence → VP §3 (valence tags)
+
+  VÍ DỤ:
+    BP [effort → not enough] (structure):
+      → Structural valence = AVOIDANCE-DOMINANT (threat-tagged chunks)
+    BP [code → sẽ bug] (structure):
+      → Structural valence = MIXED (novelty + approach-tagged chunks)
+    → CÙNG High Link Density, KHÁC structural valence → KHÁC outcome
+```
+
+### §1.4 — State vs Trait: BP = Trait-Level (v2.0)
+
+```
+🟡 ENTITY-COMPILED v1.0 §6 — STATE/TRAIT CONVERGENCE:
+
+  STATE-LEVEL:
+    = Current activation, per-moment, body sync
+    = By-Product-Gap-Resonance match ở state layer
+    = CÓ THỂ thay đổi nhanh (hours/days)
+    = PFC CÓ THỂ observe (foreground)
+
+  TRAIT-LEVEL:
+    = Background Pattern (deep, high link density, PFC invisible)
+    = Accumulate qua years, neocortex-embedded
+    = CHẬM thay đổi (competitive re-linking = months/years)
+    = PFC KHÔNG THỂ observe trực tiếp
+
+  ⭐ RELATIONSHIP:
+    → State operates ON TOP of Trait
+    → By-Product match (state) KHÔNG CẦN "tính cách hợp" (trait)
+    → 2 người KHÁC trait CÓ THỂ match state → connect
+    → NHƯNG: trait BIASES which states fire → indirectly biases connections
+    → VD: BP [cảnh giác] → state mặc định = alert → harder to match relaxed states
+    → = Trait ≠ determinism, but = probability landscape
+
+  "TÍNH CÁCH" = PFC LABEL CHO BACKGROUND PATTERN:
+    → §5 Reason ④: PFC observe effects → label "tôi là người X" → stop inquiry
+    → Trait-level = Background Pattern MÀ PFC gọi tên "tính cách"
+    → "Personality" KHÔNG phải fixed thing — là accumulated pattern CÓ THỂ shift
+    → NHƯNG: shift = years, not weeks (§15 Resolution)
 ```
 
 ---
@@ -327,6 +521,86 @@ FRAMEWORK CHƯA CÓ:
       same Depth × Density + novelty = deep expertise
 ```
 
+### §2.4 — Alzheimer clinical validation: "last in first out" (v1.1)
+
+```
+🟢 ALZHEIMER DATA VALIDATES 2D MODEL:
+
+  Alzheimer-Analysis §5-§6, §17: Alzheimer phá chunk substrate → reveal pattern:
+    → Chunks compile NÔNG mất TRƯỚC (recent, episodic)
+    → Chunks compile SÂU kháng SAU CÙNG (childhood, procedural)
+    → = "Last in first out" = Ribot's Law (1881) at mechanism level
+
+  VALIDATE COMPILE DEPTH (§2.1 CHIỀU 1):
+    → 5 overdetermined mechanisms predict cùng pattern (Chunk.md §5.4)
+    → = Compile depth DIRECTLY PREDICTS resistance to substrate damage
+    → = CLINICAL CONFIRMATION: depth ≠ just theoretical construct
+
+  VALIDATE LINK DENSITY (§2.1 CHIỀU 2):
+    → Cultural patterns (Low Depth + HIGH Density) = RESISTANT
+      Music preservation: distributed multi-region → Alzheimer phá muộn
+      Religious patterns: 6+ memory systems × high density → survive longest
+    → Isolated memories (depth, LOW density) = VULNERABLE
+    → = Link density INDEPENDENTLY predicts resistance (orthogonal to depth)
+
+  "ARCHITECTURE DETERMINES PATTERN, NOT CAUSE" (Alzheimer §17.3):
+    → Bất kỳ nguyên nhân nào (amyloid, tau, vascular, inflammation)
+      → CÙNG pattern suy thoái: nông trước, sâu sau
+    → Pattern = f(kiến trúc não), KHÔNG phải f(nguyên nhân cụ thể)
+    → = "Dù lửa bắt đầu từ đâu, tòa nhà sụp từ tầng cao nhất."
+    → Applied to 2D model: depth × density = architecture → predicts erosion
+
+  ALZHEIMER = "KHẢO CỔ SỐNG" (Alzheimer §17.1):
+    → Alzheimer strips recent overlay → reveals Background Pattern underneath
+    → "Personality changes" ở Alzheimer = NOT personality changing, but BP EXPOSED
+    → = Clinical data CONFIRMS: BP = neocortex-embedded, resistant
+
+  🟢 Terry 1991: r=0.96 synapse loss × cognitive decline
+  🟢 Reisberg 2002: retrogenesis = reverse developmental order
+  🟢 Bartzokis 2004: myelination order predicts vulnerability
+  🟡 2D model validation from Alzheimer data = framework synthesis
+  → Chi tiết: Alzheimer-Analysis.md §5-§6, §17
+```
+
+### §2.5 — Pattern Shiftability × BP Quadrants (v2.0)
+
+```
+🟡 PFC-OPERATIONS v1.0 §7 — PATTERN SHIFTABILITY:
+
+  DENSITY > DEPTH cho changeability:
+    → Depth CAO + Density THẤP → reconsolidation CÓ THỂ target
+      → Bị chó cắn: 1 memory → reconsolidate → weeks-months
+    → Depth BẤT KỲ + Density CAO → reconsolidation KHÔNG ĐỦ
+      → Phải build COMPETING background pattern (§15)
+
+  ⭐ SHIFTABILITY MAPPING × 4 QUADRANTS:
+
+  ┌──────────────────────┬────────────────────┬────────────────────────────┐
+  │ Quadrant (§2.2)      │ Shiftability       │ Method                     │
+  ├──────────────────────┼────────────────────┼────────────────────────────┤
+  │ Surface Rule         │ EASY               │ Verbal instruction, days   │
+  │ (Low D + Low Dens)   │                    │ 1 verbal chunk đủ          │
+  ├──────────────────────┼────────────────────┼────────────────────────────┤
+  │ Isolated Event       │ MODERATE           │ Reconsolidation, weeks-    │
+  │ (High D + Low Dens)  │                    │ months. Target 1 memory    │
+  ├──────────────────────┼────────────────────┼────────────────────────────┤
+  │ Background Pattern   │ VERY HARD          │ New environment sustained, │
+  │ (Low D + High Dens)  │                    │ years. No memory to target │
+  ├──────────────────────┼────────────────────┼────────────────────────────┤
+  │ Chronic Deep         │ HARDEST            │ Combination: body + env +  │
+  │ (High D + High Dens) │                    │ relationship + years-decade│
+  └──────────────────────┴────────────────────┴────────────────────────────┘
+
+  CONNECTS TO PFC-Ops §6 — B vs C DETERMINANT:
+    → Factor 1: Pattern cũ Depth × Density (BP 2D model)
+    → Density CAO → xu hướng B (compiled suppress — "quên rằng đang suppress")
+    → Depth CAO + Density THẤP → B HOẶC C (depends on other factors)
+    → = 2D model PREDICT therapeutic outcome
+
+  🟡 Pattern Shiftability mapping = framework synthesis (PFC-Ops §7)
+  → Chi tiết: PFC-Operations.md v1.0 §7
+```
+
 ---
 
 ## §3 — FORMATION MECHANISM
@@ -421,6 +695,88 @@ FRAMEWORK CHƯA CÓ:
     → Giữa: accelerate (snowball — more links → more bias → more links)
     → Sau: plateau (saturation — hầu hết relevant chunks đã link)
     → = Sigmoid curve
+```
+
+### §3.3 — Hardware Subsidy × BP Formation Speed (v2.0)
+
+```
+🟡 VP v3.0 §7 — HARDWARE SUBSIDY MODULATE TỐC ĐỘ BP FORMATION:
+
+  Hardware Subsidy = neurochemical system COUNTER VTA habituation:
+    → VTA habituation = UNIVERSAL (Schultz 1997): mọi stimulus quen → reward giảm
+    → NHƯNG: một số entities có hardware RIÊNG chống habituation
+    → Hardware subsidy ≠ chất lượng pattern → = TỐC ĐỘ + ĐỘ BỀN
+
+  ⭐ 4 MỨC HW SUBSIDY × BP FORMATION:
+
+  ┌─────────────────┬─────────────────────┬──────────────────────────────┐
+  │ Subsidy Level   │ Entity              │ BP Formation Effect          │
+  ├─────────────────┼─────────────────────┼──────────────────────────────┤
+  │ MAXIMUM         │ Mẹ→Con              │ BP forms FASTEST + DEEPEST   │
+  │ (oxytocin +     │                     │ Multiple hw systems actively │
+  │ baby schema +   │                     │ maintain link → baseline     │
+  │ synchrony +     │                     │ RICHER than any other        │
+  │ prolactin)      │                     │ 🟢 Feldman 2012             │
+  ├─────────────────┼─────────────────────┼──────────────────────────────┤
+  │ MODERATE        │ Con→Mẹ, Kin         │ BP forms DEEP but slower     │
+  │ (attachment hw, │                     │ Attachment scaffold giữ BP   │
+  │ oxytocin)       │                     │ stable DÙ ít contact         │
+  │                 │                     │ 🟢 Roberts & Dunbar 2011    │
+  ├─────────────────┼─────────────────────┼──────────────────────────────┤
+  │ TEMPORARY       │ Romantic (limerence)│ BP forms FAST initially      │
+  │ (dopamine + NE, │                     │ 18-36m: SIMULATED deep BP    │
+  │ 18-36m)         │                     │ Post-limerence: subsidy GONE │
+  │                 │                     │ → BP = MỎI nếu không có      │
+  │                 │                     │ Tonic channels thay thế      │
+  │                 │                     │ 🟢 Fisher 2004              │
+  ├─────────────────┼─────────────────────┼──────────────────────────────┤
+  │ NONE            │ Bạn thân, Colleague │ BP forms SLOWEST             │
+  │ (general μ-     │                     │ MUST sustain via novelty     │
+  │ opioid only)    │                     │ (Generative channels)        │
+  │                 │                     │ → "mất contact = mất dần"    │
+  │                 │                     │ 🟢 Panksepp 1998            │
+  └─────────────────┴─────────────────────┴──────────────────────────────┘
+
+  ⭐ CONNECTS TO BP 2D MODEL:
+    → Hw Subsidy KHÔNG thêm trục — mà MODULATE tốc độ trên 2 trục:
+    → HIGH subsidy → Link Density tăng NHANH hơn (hw reinforce liên tục)
+    → HIGH subsidy → Compile Depth maintained (counter emotional decoupling)
+    → = Cùng 10 năm: Mẹ→Con BP >>> Bạn thân BP (vì subsidy khác)
+```
+
+### §3.4 — Satiation Type × BP Channel Profile (v2.0)
+
+```
+🟡 GAP-BODY-NEED v1.0 §2 — 3 SATIATION TYPES × BP:
+
+  Background Pattern KHÔNG đồng nhất — có NHIỀU channels (links),
+  mỗi channel có SATIATION TYPE RIÊNG (VP v3.0 §8):
+
+  ① CYCLIC channels: gap fill → reward → off → gap RETURN → fill lại
+     → Oscillating (on/off/on) — VD: ăn, ngủ, sex
+     → BP contribution: MODERATE (fire rồi tắt, không continuous)
+     → Dễ redirect sang alternative source hơn
+
+  ② TONIC channels: ongoing baseline — slow build, slow fade
+     → CONTINUOUS (always on, PFC invisible) — VD: safety, comfort, belonging
+     → BP contribution: HIGHEST (compile deep, fire liên tục, invisible)
+     → ⭐ TONIC = CORE SUBSTRATE CỦA BACKGROUND PATTERN
+     → VD: mẹ = safety tonic → ở cùng 20 năm = INVISIBLE → mất → DEVASTATING
+     → Hardest to resolve: baseline violation ONGOING (no break)
+
+  ③ GENERATIVE channels: fill → new gap → fill → new gap (self-renewing)
+     → NOVELTY-DEPENDENT — VD: curiosity, learning, creativity
+     → BP contribution: CONDITIONAL (chỉ khi novelty tiếp tục)
+     → Nếu novelty dừng → Generative channel DIE → gap direction shift
+     → VD: expert intuition = Generative BP (novelty sustain 20 năm)
+
+  PER-ENTITY BP PROFILE:
+    → Mẹ→Con: Tonic dominant + Generative bursts = STABLE INVISIBLE baseline
+    → Romantic: Tonic + Generative compound = "chán" khi Generative dies
+    → Friendship: Generative dominant = FRAGILE (needs novelty sustain)
+    → = Per-entity BP stability = f(Tonic proportion)
+
+  🟡 Satiation Type × BP channel = framework synthesis (VP v3.0 §8, GBN v1.0 §2)
 ```
 
 ---
@@ -520,6 +876,42 @@ FRAMEWORK CHƯA CÓ:
     → = Resolution requires DIFFERENT mechanism (§10)
 ```
 
+### §4.2 — Glymphatic: physical cleaning requires REAL sleep (v1.1)
+
+```
+🟢 SLEEP = CONSOLIDATION + PHYSICAL CLEANING (Alzheimer-Analysis §11):
+
+  §4.1 nói sleep consolidation cho BP (gist extraction, SHY, replay).
+  §4.2 thêm: sleep CŨNG dọn rác VẬT LÝ cho chunk SUBSTRATE.
+
+  Xie 2013 (Science): glymphatic system = brain's cleaning crew
+    → Sleep: interstitial space tăng ~60%
+    → CSF flows qua perivascular channels, carries waste (amyloid, tau)
+    → Clearance ~2× faster khi ngủ vs thức
+
+  Hauglund et al. 2025 (Cell 188(3):606-622):
+    → NE oscillations (~50s cycle) PUMP CSF qua brain
+    → NE waves → blood vessel contraction → rhythmic CSF flow
+    → = STRONGEST predictor of glymphatic clearance during NREM
+
+  ⚠️ ZOLPIDEM WARNING:
+    → Zolpidem suppress NE oscillations ~50% → glymphatic flow giảm >30%
+    → = Thuốc ngủ CHO NGỦ nhưng KHÔNG DỌN RÁC
+    → = "Mắt nhắm mà chổi không quét"
+    → Sedation ≠ restorative sleep
+
+  CONNECTS TO BACKGROUND PATTERN:
+    → §4.1: sleep = accelerator cho BP FORMATION (consolidation, gist)
+    → §4.2: sleep = protector cho BP SUBSTRATE (glymphatic cleaning)
+    → Chronic mất ngủ → consolidation off + cleaning off
+    → = BP formation CÓ THỂ continue (daily experience compile)
+    → = NHƯNG substrate DAMAGE accumulates → chunks CÓ THỂ degrade
+    → = Long-term: sleep protects INFRASTRUCTURE mà BP sits on
+
+  🟢 Xie 2013, Hauglund 2025, Shokri-Kojori 2018 (1 đêm → 5% amyloid↑)
+  🟡 Glymphatic × BP substrate protection = framework synthesis
+```
+
 ---
 
 ## §5 — TẠI SAO PFC KHÔNG THỂ OBSERVE
@@ -560,47 +952,153 @@ FRAMEWORK CHƯA CÓ:
      → VD: sếp nhắc sửa slide → khóc → PFC: "sếp harsh"
      → Thật: sếp neutral + Background Pattern [not enough] compound → khóc
      → PFC misattribute vì không thấy Background Pattern layer
+
+  ⑥ COMPILED SUPPRESS ABSORB INTO BASELINE (v2.0):
+     → PFC-Operations v1.0 §11: compiled suppress → cortisol elevated
+       → PFC weaken → new chunks compile under cortisol → threat-tagged
+       → reinforce BP → BP ABSORB suppress into baseline
+     → = "Quên rằng mình đang suppress" (PFC-Ops §11 §1)
+     → Suppress KHÔNG CÒN LÀ HÀNH ĐỘNG → ĐÃ TRỞ THÀNH NỀN TẢNG
+     → PFC observation: IMPOSSIBLE (suppress bây giờ = baseline = invisible)
+     → = Reason #6 PFC cannot observe: BP đã HẤP THỤ suppress behavior
+
+  ⑦ PFC BUDGET FINITE (v2.0):
+     → PFC-Operations v1.0 §9: PFC = universal SHARED resource
+     → BP (threat direction) → cortisol → PFC dendrite retraction
+     → PFC budget GIẢM → LESS capacity to observe ANYTHING
+     → Including less capacity to observe BP itself
+     → = "Mệt ở work → SPM cho con YẾU → không phải 'không yêu con'"
+       (PFC-Ops §9) = PFC budget depleted BY BP → cascade to all domains
+     → = BP KHÔNG CHỈ invisible — nó CÒN LÀM GIẢM CÔNG CỤ để detect
 ```
 
 ---
 
-## §6 — BACKGROUND PATTERN × SPM
+## §6 — BACKGROUND PATTERN × SPM: TRIPLE BIAS (v2.0 REWRITE)
+
+### §6.1 — SPM Context (v2.0)
 
 ```
-⭐ SPM (Self-Pattern-Match) DÙNG CHUNG CHUNK LIBRARY:
+⭐ SPM (Self-Pattern-Modeling v3.1) = APPLICATION trên Simulation Engine:
 
-  SPM = solo forward simulation mechanism
-  SPM fire 2 functions: F1 (body simulate) + F2 (logic predict)
+  Simulation-Engine v1.0: 1 Engine × 3 Components × 3 Axes
+    → SPM = (Other, Present, Simulate) — solo forward simulation
+    → Engine: DMN + vMPFC + anterior insula + hippocampus
+    → 3 Components: Interoception + Constructive Simulation + Self/Other Model
+
+  SPM fire 6 steps: cue → retrieve → template → simulate (F1) → predict (F2) → PFC interpret
   SPM dùng CHUNG chunk library → CHỊU BIAS từ Background Pattern
+  BP bias SPM qua CHÍNH XÁC 3 CƠ CHẾ ĐỒNG THỜI (SPM v3.1 §9):
+```
 
-  VÍ DỤ — Attachment pattern [người khác = không đáng tin]:
+### §6.2 — Triple Bias Mechanism (SPM v3.1 §9)
+
+```
+⭐⭐ BP BIAS SPM QUA 3 CƠ CHẾ ĐỒNG THỜI:
+
+  CƠ CHẾ 1 — RETRIEVAL BIAS (Step 1 — Chunk Selection):
+    BP chunks = highest link density → fire TRƯỚC TẤT CẢ
+    → Spreading activation: BP chunks có NHIỀU entry points nhất
+    → Fire TRƯỚC chunks khác → set tone cho toàn bộ simulation
+
+    VD: BP [cảnh giác] → retrieve "nguy hiểm" TRƯỚC → F1 tension TRƯỚC warmth
+    VD: BP [thoải mái] → retrieve "thú vị" TRƯỚC → F1 open TRƯỚC tension
+    → CÙNG target, CÙNG cues → KHÁC prediction → vì KHÁC BP
+
+  CƠ CHẾ 2 — TEMPLATE BIAS (Steps 2-3 — Self-Template):
+    SPM dùng "TÔI" làm template: "nếu TÔI ở vị trí họ"
+    BP QUYẾT ĐỊNH "TÔI" trong template → = bias TOÀN BỘ simulation
+
+    VD: BP [high anxiety] → "nếu tôi → tôi sẽ LO" → over-project anxiety
+    VD: BP [high confidence] → "nếu tôi → tôi sẽ OK" → under-detect distress
+    → PFC KHÔNG BIẾT "tôi" trong template đã bị BP shape
+
+  CƠ CHẾ 3 — INTERPRETATION BIAS (Steps 5-6 — PFC Attribution):
+    BP bias cách PFC INTERPRET F1 output
+    F1 produce body-feedback → PFC chain predict → nhưng chain BIASED
+
+    VD: F1 "slight tension" + BP [suspicious] → PFC: "X đang giấu gì"
+    VD: F1 "slight tension" + BP [secure] → PFC: "chắc X hơi mệt"
+    → PFC = "Lawyer cho BP" — rationalize theo BP direction
+    → = Motivated reasoning MÀ PFC KHÔNG BIẾT (PFC-Operations v1.0 §11)
+
+  🟢 Confirmation bias: Nickerson 1998
+  🟢 Projection bias: Krueger 2007
+  🟡 Triple bias mechanism = framework synthesis (SPM v3.1 §9)
+```
+
+### §6.3 — Self-Fulfilling Prophecy (v2.0)
+
+```
+⭐ SELF-FULFILLING PROPHECY = VÒNG LẶP ĐÓNG KÍN:
+
+  BP bias (Triple Bias)
+    → Biased prediction (SPM output)
+    → Biased ACTION (approach/avoidance)
+    → Biased OUTCOME (environment responds to action)
+    → OUTCOME CONFIRM BP
+    → BP STRENGTHEN
+    → NEXT SPM MORE biased
+    → → → VÒNG LẶP ĐÓNG KÍN
+
+  VD — BP [người ta sẽ phản bội]:
+    → SPM predict betrayal → defensive behavior → target withdraw
+    → Withdrawal CONFIRM BP → BP strengthen → next SPM MORE biased
+    → = "Thấy chưa, tôi biết mà" — nhưng chính BP TẠO RA outcome
+
+  VD — BP [tôi sẽ thất bại]:
+    → SPM predict failure → half-hearted effort → fail
+    → Failure CONFIRM BP → = self-sabotage KHÔNG CỐ Ý
+
+  VD — BP [code sẽ bug] (POSITIVE case):
+    → SPM predict bug → double-check → catch bug
+    → Catch CONFIRM BP → BP strengthen → BETTER intuition
+    → = Self-fulfilling prophecy có thể POSITIVE (expertise)
+
+  BREAK LOOP:
+    → External feedback từ TRUSTED source (therapy, trusted friend)
+    → Trusted source provide COUNTER-EVIDENCE mà BP KHÔNG filter được
+    → Cần: relationship ĐỦ SÂU → feedback bypass Triple Bias
+    → = Tại sao "tự suy nghĩ" KHÔNG đủ (PFC = Lawyer cho BP)
+    → = Tại sao therapy/mentor QUAN TRỌNG (external break loop)
+
+  "Nhìn đời qua kính màu" = CHÍNH XÁC literal description
+    → BP = kính → EVERYTHING PFC sees = THROUGH BP → "reality" = filtered
+    → Change kính = change BP (§15) = years, not minutes
+
+  🟢 Self-fulfilling prophecy: Merton 1948, Rosenthal & Jacobson 1968
+  🟡 BP → Triple Bias → self-fulfilling = framework synthesis
+```
+
+### §6.4 — SPM × BP: Examples (v2.0 enriched)
+
+```
+  VÍ DỤ 1 — Attachment pattern [người khác = không đáng tin]:
 
     SPM fire cho NGƯỜI MỚI:
-      F1 (Feeling): retrieve chunks "người" → ĐÃ BỊ BIAS
-        → Body simulate: "người này sẽ disappoint"
-        → Output: body ALERT nhẹ → DÙ người mới hoàn toàn tốt
-
-      F2 (Logic): PFC chain predict
-        → "Người này tốt → NHƯNG → rồi sẽ thay đổi"
-        → "NHƯNG" = Background Pattern fire [anyone → will disappoint]
-        → PFC KHÔNG biết "nhưng" đến từ đâu
+      Retrieval Bias: chunks [người → disappoint] fire TRƯỚC
+      Template Bias: "nếu TÔI → tôi sẽ bị bỏ" (BP shape self-template)
+      Interpretation Bias: F1 slight warmth → PFC: "chắc đang giả tốt"
+      → COMPOUND: 3 biases × CÙNG direction → prediction CỰC BIASED
 
     APPLY CHO MỌI AGENT:
       → Bạn bè: "cẩn thận, đừng tin quá"
       → Đồng nghiệp: "chắc có ý đồ"
       → Romantic partner: "rồi sẽ bỏ mình"
       → Therapist: "therapist này cũng sẽ judge mình"
-      → = PERVASIVE — mọi relationship bị bias
+      → = PERVASIVE — mọi relationship bị bias qua 3 đường
 
-  VÍ DỤ — Expert pattern [code structure → will bug]:
+  VÍ DỤ 2 — Expert pattern [code structure → will bug]:
 
     SPM fire cho CODE MỚI:
-      F1: body simulate running code → "cái gì đó sai"
-      F2: PFC chain → "if concurrent here → race condition"
+      Retrieval Bias: chunks [code pattern → outcome] fire TRƯỚC
+      Template Bias: "nếu tôi code → tôi sẽ thấy pattern X" (accurate)
+      Interpretation Bias: F1 "something off" → PFC: "race condition"
       → = Background Pattern (novelty direction) → ACCURATE intuition
+      → = Cùng mechanism, khác direction → PRODUCTIVE không DESTRUCTIVE
 
-  → SPM.md §4: context-dependent chunk selection
-  → Background Pattern BIAS chunk selection cho MỌI context
+  → SPM v3.1 §9: context-dependent chunk selection
+  → Background Pattern BIAS chunk selection qua 3 đường ĐỒNG THỜI
   → = Không chỉ bias perception — bias CƠ CHẾ CHÍNH interact với agents
 ```
 
@@ -654,6 +1152,40 @@ FRAMEWORK CHƯA CÓ:
     → Layer 1 only → "ok, sửa" → 2 phút quên
 ```
 
+### §7.3 — 3 Firing Modes × Background Pattern (v2.0)
+
+```
+🟡 VP v3.0 §6 — 3 FIRING MODES × BP INTERACTION:
+
+  MODE 1 — MAINTENANCE (entity present, hàng ngày):
+    Entity PRESENT → routine fire → opioid LOW-LEVEL → VTA habituated
+    → = "Background warmth" — có nhưng INVISIBLE
+    → ⭐ MODE 1 = CƠ CHẾ TRỰC TIẾP TẠO BACKGROUND PATTERN ở entity level
+    → Entity BP = tổng hợp tất cả Mode 1 firing hàng ngày
+    → Hw Subsidy MODULATE: MAX subsidy → Mode 1 RICHER → BP RICHER baseline
+    → "Ở với mẹ 20 năm, không thấy gì đặc biệt" = Mode 1 → BP → invisible
+
+  MODE 2 — CHUNK-MISS (entity absent, cấp tính):
+    Entity ABSENT → compiled routine fire → no response → PAIN
+    → = O'Connor 2023: basal ganglia VẪN fire "entity sẽ ở đây"
+    → = BP EXPOSED khi Mode 2 fire (baseline violated → visible)
+    → "Mới biết quý khi mất" = Mode 2 REVEAL BP mà Mode 1 đã invisible
+
+  MODE 3 — CONTEXT-TRIGGER (entity absent, tình cờ):
+    External cue → match Entity-Compiled spoke → hub activate → body-feedback
+    → = UNPREDICTABLE (context-dependent)
+    → = BP × Mode 3: nghe bài hát cũ → fire entity BP → body-feedback
+    → = "Phantom" = Mode 3 firing after entity loss
+
+  BP × 3 MODES UNIFIED:
+    → Mode 1 BUILD BP (daily, invisible, continuous)
+    → Mode 2 EXPOSE BP (absence, acute, visible)
+    → Mode 3 TRIGGER BP (context, unpredictable, episodic)
+    → = BP = substrate MÀ 3 modes operate ON
+
+  🟡 3 Firing Modes × BP = framework synthesis (VP v3.0 §6)
+```
+
 ---
 
 ## §8 — BACKGROUND PATTERN × CORTISOL (Self-Reinforcing Loop)
@@ -694,14 +1226,492 @@ FRAMEWORK CHƯA CÓ:
     → = COMBINATION intervention sustained qua MONTHS-YEARS
     → = Tại sao "chỉ suy nghĩ tích cực" KHÔNG đủ (verbal chunk only)
     → = Tại sao "chỉ tập thể dục" CŨNG KHÔNG đủ (body better, pattern unchanged)
-    → Chi tiết: §10 Resolution Pathways
+    → Chi tiết: §15 Resolution Pathways
+```
+
+### §8.2 — Compiled Suppress × BP: Absorbed Pathway (v2.0)
+
+```
+🟡 PFC-OPERATIONS v1.0 §8+§11 — COMPILED SUPPRESS FEEDS INTO BP:
+
+  §8 pathway: PFC try suppress response → nếu kéo dài → compile suppress
+  → = Suppress KHÔNG CÒN LÀ hành động chủ ý → ĐÃ TRỞ THÀNH mặc định
+
+  BP ABSORPTION MECHANISM:
+    ① PFC suppress emotional response (e.g., "đừng khóc", "phải mạnh mẽ")
+    ② Kéo dài months → suppress compile thành routine → PFC release hold
+    ③ Compiled suppress = new chunk with AVOIDANCE tag
+    ④ Chunk link vào Background Pattern (context match)
+    ⑤ BP ABSORB suppress → suppress = PART OF BASELINE
+    ⑥ PFC không còn "thấy" suppress (§5 reason ⑥) → invisible
+
+  = DOUBLE INVISIBILITY:
+    → BP vốn đã invisible (§5 reasons ①-⑤)
+    → Compiled suppress CÒN invisible hơn (đã absorb vào BP)
+    → = "Quên rằng mình đang suppress" (PFC-Ops §11 §1)
+    → VD: "tôi không phải người hay khóc" = thật ra là "suppress khóc
+      20 năm → compile → absorb → bây giờ = baseline"
+
+  CONNECT TO SELF-REINFORCING LOOP (§8.1):
+    → BP threat → cortisol → PFC weak → compiled suppress MỚI → absorb vào BP
+    → BP có thêm avoidance chunks → cortisol CÒN CAO HƠN
+    → = Compiled suppress AMPLIFY self-reinforcing loop
+    → = Tại sao childhood "hãy mạnh mẽ" tạo BP CỰC MẠNH:
+      suppress × 15 năm × daily → link density CỰC CAO → absorb HOÀN TOÀN
+
+  OUTCOME A vs B vs C (PFC-Ops v1.0 §4):
+    → Outcome A (Genuine Shift): experience THẬT SỰ thay đổi → new BP
+    → Outcome B (Compiled Suppress/Flat): suppress → absorb → BP MẠNH HƠN
+    → Outcome C (PFC Failure/Burst): PFC hold quá lâu → explosive release
+    → BP threat (High Density) → PREDICT Outcome B (PFC-Ops §6 Factor 1)
+
+  🟡 Compiled suppress absorbed into BP = framework synthesis (PFC-Ops §8+§11)
 ```
 
 ---
 
-## §9 — EXAMPLES
+## §9 — ★ BACKGROUND PATTERN × VALENCE SYSTEM (v2.0 NEW)
 
-### §9.1 — Chronic childhood stress (High Density + Moderate Depth)
+### §9.1 — Structural vs Current Valence × BP
+
+```
+🟡 VP v3.0 §3 — 2 TẦNG VALENCE × BACKGROUND PATTERN:
+
+  STRUCTURAL VALENCE (INSIDE Entity-Compiled):
+    = Aggregate of per-channel valence tags CỦA tất cả compiled chunks
+    = Mỗi chunk có tag: approach / avoidance / neutral (compile-time lock)
+    = CHẬM thay đổi (months/years — cần compile/decompile chunks)
+    = 3 subtypes: positive-dominant / negative-dominant / MIXED
+
+  CURRENT VALENCE (per-moment):
+    = Valence HIỆN TẠI dựa trên sensory input + active chunks
+    = NHANH thay đổi (seconds/minutes)
+    = PFC CÓ THỂ observe (foreground)
+
+  BP × 2 TẦNG:
+    → BACKGROUND PATTERN = STRUCTURAL VALENCE LAYER
+    → BP (threat direction) = structural valence AVOIDANCE-DOMINANT
+    → BP (novelty direction) = structural valence APPROACH-DOMINANT
+    → Current valence FLUCTUATE on top of structural valence
+    → = "Tâm trạng dao động nhưng BASELINE không đổi"
+
+  "CÃI NHAU" ≠ "HẾT YÊU":
+    → Cãi nhau = current valence NEGATIVE (per-moment, minutes-hours)
+    → Hết yêu = structural valence shift (months-years, BP-level change)
+    → PFC confuse 2 tầng → "cãi nhau = sắp chia tay" = SAITẦNG
+    → = §1.3 extends: structural valence = valence PROFILE của BP
+
+  🟡 Structural vs Current × BP = framework synthesis (VP v3.0 §3)
+```
+
+### §9.2 — Tonic Valence = BP Core Substrate
+
+```
+🟡 VP v3.0 §8 — TONIC = CORE SUBSTRATE CỦA BP:
+
+  3 satiation types (GBN v1.0 §2) × valence dynamics:
+
+  CYCLIC valence: reward oscillate (fill → off → return → fill)
+    → BP contribution: MODERATE (fire rồi tắt, không continuous)
+    → VD: ăn → no → hết reward → đói → ăn → reward → ...
+    → Cyclic channels TẠO BP oscillating (không persistent)
+
+  TONIC valence: slow invisible baseline (always on, always below PFC)
+    → BP contribution: HIGHEST (compile deep, fire liên tục, invisible)
+    → ⭐ TONIC = "becomes background" (VP v3.0 §8 exact)
+    → Tonic builds over weeks/months → invisible khi present
+    → DEVASTATING khi removed (baseline violation = large delta)
+    → VD: safety from mẹ = 20 năm tonic → invisible → mất → PAIN
+
+  GENERATIVE valence: novelty-dependent, self-renewing
+    → BP contribution: CONDITIONAL (chỉ khi novelty tiếp tục)
+    → Nếu novelty dừng → Generative die → channel contribution = 0
+    → VD: expert thay đổi field → old Generative channels DIE
+
+  ⭐ KEY INSIGHT:
+    → BP stability = f(TONIC proportion)
+    → Entity với NHIỀU Tonic channels → BP STABLE + INVISIBLE
+    → Entity với CHỈ Generative → BP FRAGILE (novelty-dependent)
+    → = Per-entity BP profile (§3.4) determined BY satiation composition
+
+  🟡 Tonic as BP substrate = framework synthesis (VP v3.0 §8)
+```
+
+### §9.3 — Mode 1 (Maintenance) = BP Mechanism at Entity Level
+
+```
+🟡 VP v3.0 §6 — MODE 1 = MECHANISM TẠO ENTITY-LEVEL BP:
+
+  Entity PRESENT → routine fire → L2 channels active → opioid LOW-LEVEL
+  VTA HABITUATED → reward = BASELINE → PFC sees NOTHING special
+  = "Background warmth" — có nhưng INVISIBLE
+
+  ⭐ MODE 1 IS BACKGROUND PATTERN MECHANISM FOR ENTITIES:
+    → Entity's daily presence compile Mode 1 hàng ngày
+    → Mode 1 × 365 ngày × years → accumulate → BP entity-level
+    → = §3.1 tích lũy tự nhiên APPLIED cho entity context
+
+  Hw Subsidy × Mode 1 → BP RICHNESS:
+    MAX subsidy (mẹ→con): Mode 1 opioid trickle MAINTAINED → RICH baseline
+    MODERATE (con→mẹ): Mode 1 moderate → stable but leaner
+    TEMPORARY (romantic): Mode 1 SIMULATED rich → subsidy expire → LEAN
+    NONE (bạn): Mode 1 without protection → VTA habituate FAST → LEANEST
+
+  PHANTOM = POST-BP (VP v3.0 §12):
+    → Phantom 4-factor: f(compilation depth × hw subsidy × L2 structural × duration)
+    → Phantom = Mode 2/3 firing AFTER entity loss → BP EXPOSED
+    → Tonic channels: MOST persistent phantom (baseline violation ongoing)
+    → Cyclic channels: EPISODIC phantom (fire at cycle points only)
+    → = Phantom REVEAL what was BP (invisible → visible through loss)
+
+  🟡 Mode 1 = BP mechanism at entity level = framework synthesis (VP v3.0 §6)
+```
+
+---
+
+## §10 — ★ BACKGROUND PATTERN × ENTITY-COMPILED (v2.0 NEW)
+
+### §10.1 — Trait-Level = Background Pattern
+
+```
+🟡 ENTITY-COMPILED v1.0 §6 — STATE/TRAIT CONVERGENCE:
+
+  Entity-Compiled v1.0 explicitly states (§6):
+    "Trait-level = Background Pattern (deep, high link density, PFC invisible)"
+
+  STATE-LEVEL entity interaction:
+    → Current activation, per-moment, body sync
+    → By-Product-Gap-Resonance match ở state layer
+    → CÓ THỂ thay đổi nhanh (hours/days)
+
+  TRAIT-LEVEL entity interaction:
+    → Background Pattern layer
+    → Accumulate qua years
+    → PFC invisible
+    → BIASES which states fire → indirectly biases state-level interactions
+
+  ⭐ BP SHAPES ENTITY-COMPILED FORMATION:
+    → BP bias SPM (§6 Triple Bias) → SPM predict agent behavior
+    → Biased prediction → biased approach/avoidance → biased EC formation
+    → VD: BP [người = không đáng tin]
+      → SPM predict betrayal → defensive → slow EC formation → shallow compile
+      → = BP LIMIT Entity-Compiled depth for new agents
+
+  🟡 Trait = BP, State operates ON TOP = framework synthesis (EC v1.0 §6)
+```
+
+### §10.2 — Formation Timeline × BP
+
+```
+🟡 EC v1.0 §3 — FORMATION × BP:
+
+  FORMATION TIMELINE (Hall 2018):
+    40-60 hours shared activity  → casual friend (schema forms)
+    80-100 hours                → friend
+    200+ hours                  → close/best friend (body-base extension)
+
+  BP ACCELERATE OR DECELERATE:
+    → BP [people = safe] → open → EC forms FASTER (shorter hours needed)
+    → BP [people = threat] → defensive → EC forms SLOWER (longer hours needed)
+    → = CÙNG 100 giờ: person A (safe BP) = friend, person B (threat BP) = barely casual
+
+  SCHEMA ACCELERATION (EC v1.0 §3.2, Tse 2007):
+    ① Gặp đầu (0-40h): chưa có person-schema → compile CHẬM
+    ② Schema forms (~40-60h): ATL hub + basic spokes → Tse effect kicks in
+    ③ Schema deep (~200+h): new data assimilate GẦN NHƯ instantly
+    → BP BIAS tại mỗi stage: threat BP → delay Stage ② → delay ALL stages
+
+  F2 LOẠI A vs B (EC v1.0 §3.5):
+    F2 LOẠI A: No existing compiled → cost = PFC draft ONLY → Body OPEN
+    F2 LOẠI B: Suppress existing compiled → cost = draft + suppress → Body RESIST
+    → BP DETERMINES which F2 type fires: BP [threat] → F2 Loại B → higher cost
+    → = BP → more compiled patterns to suppress → EC formation EXPENSIVE
+
+  🟢 Hall 2018: friendship formation hours
+  🟢 Tse 2007: schema consolidation acceleration
+  🟡 BP × EC formation = framework synthesis (EC v1.0 §3)
+```
+
+### §10.3 — Dunbar Layers × BP Depth Gradient
+
+```
+🟡 EC v1.0 §4 — DUNBAR S1-S6 × BP:
+
+  DUNBAR LAYERS = ENTITY-COMPILED DEPTH GRADIENT:
+
+  ┌──────┬──────────┬──────────────────────────────────┬─────────────────┐
+  │ Layer│ ~Count   │ Entity-Compiled Depth             │ BP Integration  │
+  ├──────┼──────────┼──────────────────────────────────┼─────────────────┤
+  │ S1   │ ~5       │ DEEP — F1 compiled, body-base    │ WOVEN INTO BP   │
+  │      │          │ extension, simulate bằng chính   │ (trait-level)   │
+  │      │          │ cơ thể mình                      │                 │
+  ├──────┼──────────┼──────────────────────────────────┼─────────────────┤
+  │ S2   │ ~15      │ MODERATE — F1 per-domain,        │ PARTIAL BP      │
+  │      │          │ body-feedback selective           │ (some domains)  │
+  ├──────┼──────────┼──────────────────────────────────┼─────────────────┤
+  │ S3   │ ~50      │ SHALLOW — F1 basic + F2 for      │ MINIMAL BP      │
+  │      │          │ novel situations                  │ (schema only)   │
+  ├──────┼──────────┼──────────────────────────────────┼─────────────────┤
+  │ S4   │ ~150     │ SPM Fresh only, no body-base     │ NO BP           │
+  │      │          │ extension                        │                 │
+  ├──────┼──────────┼──────────────────────────────────┼─────────────────┤
+  │ S5   │ ~500     │ Schema only (face+name)          │ NO BP           │
+  │ S6   │ ~1500    │ Visual recognition only           │ NO BP           │
+  └──────┴──────────┴──────────────────────────────────┴─────────────────┘
+
+  ⭐ KEY: S1 entities = WOVEN INTO BP
+    → Loss of S1 entity = BP FRAGMENTATION (not just grief)
+    → = §12.2 Bond-Architecture: parent = S1 = deepest BP integration
+    → Scaling ratio ~3× between layers (Dunbar Social Brain Hypothesis)
+
+  🟢 Dunbar 1993: Social Brain Hypothesis
+  🟡 Dunbar × BP integration = framework synthesis (EC v1.0 §4)
+```
+
+---
+
+## §11 — ★ BACKGROUND PATTERN × ENTITY-ACCESS + CALIBRATION (v2.0 NEW)
+
+### §11.1 — Mức 0-5 × BP Integration
+
+```
+🟡 ENTITY-ACCESS v1.2 — MỨC 0-5 GRADIENT × BP:
+
+  Entity-Access = "thực thể này CHIẾM BAO NHIÊU tài nguyên nội tâm?"
+  → Mức 0-5: gradient from Tool → Excess (EA v1.2)
+
+  ┌──────┬──────────────────┬──────────────────────────────────────────┐
+  │ Mức  │ Entity-Access    │ BP Integration Level                     │
+  ├──────┼──────────────────┼──────────────────────────────────────────┤
+  │ 0-1  │ Tool/Service     │ NO BP integration. Easy shift.           │
+  │      │                  │ Entity = interchangeable.                │
+  ├──────┼──────────────────┼──────────────────────────────────────────┤
+  │ 2    │ Acquaintance     │ MINIMAL BP. Schema-level only.           │
+  │      │                  │ Shift = mild social cost.                │
+  ├──────┼──────────────────┼──────────────────────────────────────────┤
+  │ 3    │ Friend           │ LIGHT BP integration. Natural drift      │
+  │      │                  │ when interest wanes. Generative-based.   │
+  ├──────┼──────────────────┼──────────────────────────────────────────┤
+  │ 4    │ Deep (healthy)   │ DEEP BP integration. BP RESISTS access   │
+  │      │                  │ shift → locked-in even with misalignment │
+  │      │                  │ = HEALTHY love zone (most bonds)         │
+  ├──────┼──────────────────┼──────────────────────────────────────────┤
+  │ 5    │ Excess           │ BP OVERWRITTEN by entity. Autonomy       │
+  │      │                  │ violation baked into BP structure.        │
+  │      │                  │ = ADDICTION territory.                    │
+  └──────┴──────────────────┴──────────────────────────────────────────┘
+
+  ⭐ BP AS RESISTANCE MECHANISM:
+    → Mức 4-5: entity WOVEN INTO BP (daily routines, predictions, body-base)
+    → Downward revision = DECOMPILE entity from BP = PAIN + time
+    → = Tại sao "muốn rời nhưng không rời được" = BP resist, not "yếu đuối"
+    → BP lock-in ≠ love quality → Mức 5 = excess, NOT deeper love
+
+  🟡 Mức 0-5 × BP integration = framework synthesis (EA v1.2)
+```
+
+### §11.2 — Exit Cost = BP Signal Weight
+
+```
+🟡 ENTITY-ACCESS-CALIBRATION v1.0 §3 — EXIT COST × BP:
+
+  EXIT COST = signal weight cho calibration:
+    → High exit cost → entity's "no" signal = WEAK (can't leave anyway)
+    → Low exit cost → entity's "no" signal = STRONG (can leave → signal matters)
+
+  BP CREATES EXIT COST:
+    → BP integration DEEP → decompile entity = EXPENSIVE → exit cost HIGH
+    → BP integration SHALLOW → shift easy → exit cost LOW
+    → = Exit cost IS the structural weight of BP integration
+
+  PER RELATIONSHIP TYPE:
+    → Child (can't exit parent) → EXIT COST IMPOSSIBLE → signal WEAKEST
+    → Romantic (can exit, expensive) → EXIT COST MODERATE → signal weak
+    → Friend (can exit easily) → EXIT COST LOW → signal STRONG
+    → Colleague (can change job) → EXIT COST LOW-MODERATE → signal moderate
+
+  → = Entity-Access-Calibration v1.0 §3
+```
+
+### §11.3 — Hardware Subsidy = Calibration Bias
+
+```
+🟡 EAC v1.0 §4 — PARADOX: STRONGEST BOND = HARDEST TO CALIBRATE:
+
+  ⭐ 3 FACTORS CONSPIRE AGAINST CALIBRATION ở deep bonds:
+
+    ① Hardware subsidy MAXIMUM (oxytocin, prolactin)
+       → Entity-access FEELS justified (hw says "this is RIGHT")
+       → C (genuine concern) masked as A (everything fine)
+
+    ② Exit cost MAXIMUM (entity can't leave / too expensive)
+       → Entity's "no" = ignored (signal weight TOO LOW)
+
+    ③ Power MAXIMUM (parent controls child's environment)
+       → Excess can persist WITHOUT correction from environment
+
+    → = 3 systemic factors AGAINST calibration AT THE SAME TIME
+
+  COMPOUND EFFECT × BP:
+    → Hw subsidy → FEELS justified → compile into BP → absorb
+    → Exit cost → no counter-signal → pattern NEVER challenged
+    → Power → environment CONTROLLED → no alternate experience
+    → = BP absorb excess behavior → excess becomes BASELINE → invisible
+    → = Tại sao helicopter/tiger parenting "tự nhiên" cho parent
+      (BP đã absorb excess → parent KHÔNG THẤY excess)
+
+  MỨC 4 = CRITICAL ZONE (EAC v1.0 §12):
+    → Deep enough to be woven into BP
+    → NOT yet so severe that it's permanently compiled into identity
+    → = INTERVENTION WINDOW: self-awareness (Trục 2) = difference maker
+    → Mức 5 = calibration ALREADY FAILED → need external intervention
+
+  🟢 Trivers 1972: parental investment theory
+  🟡 Calibration Bias × BP = framework synthesis (EAC v1.0 §4)
+```
+
+---
+
+## §12 — ★ BACKGROUND PATTERN × BOND-ARCHITECTURE (v2.0 NEW)
+
+### §12.1 — Per-Bond BP Integration Depth
+
+```
+🟡 BOND-ARCHITECTURE v1.0 §2 — PER-BOND × BP:
+
+  4 bond types × BP integration:
+
+  ① ATTACHMENT BOND (child→parent):
+     → "Earliest = consolidated DEEPEST" → "Woven into Background Pattern"
+       (BA v1.0 §2.3 exact)
+     → = SAFETY FOUNDATION — parent's presence = BP structural layer
+     → Age-invariant: adult 40 tuổi mất mẹ DÙ sống xa 20 năm = VẪN grief
+     → = Compiled chunks KHÔNG decay (age-invariant + BP integration)
+     → "Biết mẹ vẫn ở đó" = BACKGROUND COMFORT (BA v1.0 §2.3)
+     → Mất = BP DISRUPTION, not just entity loss
+     → ⭐ DEEPEST BP integration of all bond types
+
+  ② CARETAKING BOND (parent→child):
+     → Hw Subsidy MAXIMUM → BP forms FASTEST + RICHEST
+     → Multi-domain: nhưng ASYMMETRIC (parent invest >> child need parent)
+     → Loss of child = DEVASTATING: all 4 Phantom factors MAX
+     → BP integration: VERY DEEP (daily routines × hw subsidy × years)
+
+  ③ SEXUAL/ROMANTIC BOND:
+     → Hw Subsidy TEMPORARY (18-36m limerence)
+     → BP integration: DEEP DURING limerence (simulated stable BP)
+     → POST-limerence: BP weakens IF only subsidy (no Tonic channels built)
+     → Partner = ROUTINE-LEVEL BP integration (shared schedule, space, expectations)
+     → "Mất partner": multi-domain Entity-Compiled loss + shared routine BP disruption
+       + legal/social restructure → grief COMPLEX
+       (BA v1.0 §9.2)
+
+  ④ AFFILIATIVE BOND (friendship):
+     → NO dedicated hw subsidy → BP integration SLOWEST + most FRAGILE
+     → Generative-dominant → novelty-dependent → BP = CONDITIONAL
+     → "Mất bạn thân": grief SIGNIFICANT but recoverable (no hw hold)
+     → = Exit cost LOW → signal weight HIGH → calibration EASIEST
+
+  🟡 Per-bond × BP integration = framework synthesis (BA v1.0)
+```
+
+### §12.2 — Anti-Compiled-Suppress × BP Resistance
+
+```
+🟡 BA v1.0 §5 — ANTI-COMPILED-SUPPRESS = META-PRINCIPLE:
+
+  Anti-compiled-suppress = support partner's AUTONOMOUS gap direction
+  = "Hiểu sâu = biết partner có gap riêng = HỖ TRỢ gap riêng"
+
+  BP × ANTI-COMPILED-SUPPRESS TENSION:
+    → BP NATURALLY RESIST change (high link density = structural inertia)
+    → Anti-compiled-suppress REQUIRES allowing partner to change
+    → = FIGHT AGAINST BP's natural resistance
+
+  WHEN BP WINS (compiled suppress dominates):
+    → "Tôi biết con mình" = BP [child = X] → resist evidence child has changed
+    → "Anh/chị lúc nào cũng vậy" = BP [partner = Y] → label → stop observing
+    → → Compiled suppress of partner's new gap directions
+    → → = M1 resonance decline (BA v1.0 §7): suppress → boredom → withdraw
+
+  WHEN ANTI-SUPPRESS WINS:
+    → Active observation: "con mình KHÁC rồi" = update entity-compiled
+    → Allow BP PARTIAL re-linking: entity channels update → BP adjust
+    → = Relationship MAINTENANCE = fighting BP inertia
+    → = Tại sao relationships cần ACTIVE effort (not just inertia)
+
+  🟡 Anti-compiled-suppress × BP = framework synthesis (BA v1.0 §5)
+```
+
+---
+
+## §13 — ★ BACKGROUND PATTERN × BOREDOM (v2.0 NEW)
+
+### §13.1 — Compiled Environment = Boredom Invisible
+
+```
+🟡 BOREDOM v2.0 §5.2 — BP × BOREDOM INTERACTION:
+
+  COMPILED ENVIRONMENT = environment ĐÃ compile HOÀN TOÀN:
+    → Body đã "biết" mọi pattern → VTA habituated
+    → Input = "expected" (no prediction-delta) → KHÔNG cần process
+    → = "Quen hết rồi" = environment fully compiled = boredom territory
+
+  BP × COMPILED ENVIRONMENT:
+    → Background Pattern = CƠ CHẾ tạo "compiled environment"
+    → BP (years of same context) → mọi experience = EXPECTED
+    → VTA habituate → no surprise → no reward → boredom SUBSTRATE
+    → NHƯNG: boredom cũng INVISIBLE (vì VTA habituated = no signal)
+    → = "Chán mà không biết mình chán" = BP prevent boredom signal
+
+  VD — Couple 20 năm:
+    → Partner đã compile HOÀN TOÀN → Mode 1 INVISIBLE
+    → Mọi conversation = expected → no prediction-delta
+    → VTA: nothing new → boredom SUBSTRATE present
+    → NHƯNG: PFC cannot observe (BP = baseline = invisible)
+    → Chỉ BIẾT khi: gặp người MỚI (contrast) hoặc partner LÀ (Mode 2)
+
+  🟡 BP × compiled environment × boredom = framework synthesis (Boredom v2.0 §5)
+```
+
+### §13.2 — BP Resist Gap Direction Shift
+
+```
+🟡 BOREDOM v2.0 §3.1 — BP RESIST GAP DIRECTION SHIFT:
+
+  Gap-Direction v2.0 §9: gap direction shift bị BP PULL BACK.
+  Gap-clone impossible (Bond-Architecture v1.0 §3).
+
+  BP RESIST MECHANISM:
+    → Gap direction = f(surrounding chunks) (Gap-Direction v2.0)
+    → BP = MASSIVE surrounding chunk network (high link density)
+    → Attempt to shift gap direction → new chunks compile
+    → NHƯNG: BP chunks fire SIMULTANEOUSLY → new chunks link TO BP
+    → = New gap PULLED BACK toward BP direction
+    → = "Muốn thay đổi nhưng cứ quay lại chỗ cũ"
+
+  VD — Muốn đổi career:
+    → BP [tôi = engineer 15 năm] → gap direction: engineering problems
+    → Muốn shift: "tôi muốn làm art"
+    → Verbal chunk MỚI: [art = interesting] (1 chunk)
+    → BP: [engineering = identity] (thousands of chunks)
+    → Mỗi art experience → BP fire cùng → link art TO engineering lens
+    → = "Tôi vẽ → nhưng vẫn nghĩ kiểu engineer" = BP pull back
+
+  EXIT COST × BOREDOM:
+    → §11.2: high exit cost → entity's "no" = weak signal
+    → Boredom = body's "no" → nhưng BP absorb → signal WEAK
+    → = "Chán nhưng không rời" = exit cost (BP integration) + boredom invisible (BP prevent signal)
+    → Pre-modern marriage: 6 layers chống ly dị = BP-LEVEL constraints (Boredom v2.0 §9.2)
+
+  🟡 BP × gap direction resist = framework synthesis (Boredom v2.0 §3, Gap-Direction v2.0 §9)
+```
+
+---
+
+## §14 — EXAMPLES (v2.0 enriched)
+
+### §14.1 — Chronic childhood stress (High Density + Moderate Depth)
 
 ```
   SETUP: Bố mẹ không bạo lực, không neglect — chỉ standards luôn cao hơn khả năng.
@@ -727,7 +1737,7 @@ FRAMEWORK CHƯA CÓ:
     → Phải BUILD background pattern mới qua years of new experience
 ```
 
-### §9.2 — Cultural pattern (High Density + Low Depth)
+### §14.2 — Cultural pattern (High Density + Low Depth)
 
 ```
   SETUP: "Người Nhật ngại gây phiền hà" (meiwaku)
@@ -750,7 +1760,7 @@ FRAMEWORK CHƯA CÓ:
     → Nhưng stress → REVERT (old Background Pattern fire lại dưới PFC weakened)
 ```
 
-### §9.3 — Expert intuition (High Density + Moderate Depth, novelty direction)
+### §14.3 — Expert intuition (High Density + Moderate Depth, novelty direction)
 
 ```
   SETUP: Programmer 20 năm kinh nghiệm.
@@ -777,7 +1787,7 @@ FRAMEWORK CHƯA CÓ:
     → Applied at Background Pattern level: CONFIRMED
 ```
 
-### §9.4 — Attachment style avoidant (High Density + Low-Moderate Depth)
+### §14.4 — Attachment style avoidant (High Density + Low-Moderate Depth)
 
 ```
   SETUP: Bố mẹ emotionally unavailable.
@@ -805,7 +1815,7 @@ FRAMEWORK CHƯA CÓ:
     → Old pattern VẪN CÒN nhưng tương đối yếu hơn
 ```
 
-### §9.5 — "Luôn chọn nhầm người yêu" (mixed pattern)
+### §14.5 — "Luôn chọn nhầm người yêu" (mixed pattern)
 
 ```
   SETUP: Bố mẹ yêu nhưng unpredictable.
@@ -834,9 +1844,9 @@ FRAMEWORK CHƯA CÓ:
 
 ---
 
-## §10 — RESOLUTION PATHWAYS
+## §15 — RESOLUTION PATHWAYS (v2.0: +Pattern Shiftability)
 
-### §10.1 — Tại sao không thể fix trực tiếp
+### §15.1 — Tại sao không thể fix trực tiếp
 
 ```
 ⭐ BACKGROUND PATTERN KHÔNG THỂ RECONSOLIDATE TRỰC TIẾP:
@@ -864,7 +1874,7 @@ FRAMEWORK CHƯA CÓ:
     → = Competitive re-linking (01b §3) nhưng ở SYSTEM LEVEL
 ```
 
-### §10.2 — Build competing Background Pattern
+### §15.2 — Build competing Background Pattern
 
 ```
 ⭐ RESOLUTION = BUILD ALTERNATIVE, NOT FIX ORIGINAL:
@@ -905,7 +1915,7 @@ FRAMEWORK CHƯA CÓ:
     → = Đủ tốt: pattern mới dominant phần lớn thời gian
 ```
 
-### §10.3 — Immigration as natural experiment
+### §15.3 — Immigration as natural experiment
 
 ```
 🟡 DI CƯ = NATURAL EXPERIMENT CHO BACKGROUND PATTERN CHANGE:
@@ -937,7 +1947,7 @@ FRAMEWORK CHƯA CÓ:
     → 🟢 Context-dependent memory (Godden & Baddeley 1975)
 ```
 
-### §10.4 — Background Pattern Conflict (Invisible Conflict)
+### §15.4 — Background Pattern Conflict (Invisible Conflict)
 
 ```
 ⭐ KHI 2+ BACKGROUND PATTERNS XUNG ĐỘT:
@@ -1065,7 +2075,7 @@ FRAMEWORK CHƯA CÓ:
 
 ---
 
-## §11 — RELATIONSHIP WITH EXISTING CONCEPTS
+## §16 — RELATIONSHIP WITH EXISTING CONCEPTS (v2.0 updated)
 
 ```
 ⭐ BACKGROUND PATTERN BỔ SUNG FRAMEWORK — KHÔNG CONTRADICT:
@@ -1107,11 +2117,64 @@ FRAMEWORK CHƯA CÓ:
     → EXPLAINS: Background Pattern = lý do ly đã đầy
     → Event nhỏ = giọt cuối → body-feedback cực lớn
     → Không phải event lớn → compound với Background Pattern
+
+
+  v2.0 THÊM — PHASE A+B+T FILE CONNECTIONS:
+
+  PFC-Operations.md v1.0:
+    → APPLIES: Pattern Shiftability (§2.5), Compiled Suppress absorb (§8.2)
+    → PFC Budget × BP drain (§5 reason ⑦)
+    → B vs C Determinant: BP 2D predict outcome
+
+  Simulation-Engine.md v1.0:
+    → CONTEXT: SPM = APPLICATION trên 1 Engine chung
+    → Engine: DMN + vMPFC + anterior insula + hippocampus
+    → BP bias engine OUTPUT cho mọi applications (SPM, Self-Obs, Imagine-Final)
+
+  Self-Pattern-Modeling.md v3.1:
+    → REWRITE: Triple Bias mechanism (§6) — Retrieval + Template + Interpretation
+    → Self-fulfilling prophecy (§6.3)
+    → v2.1→v3.1: 2 major versions of new understanding
+
+  Valence-Propagation.md v3.0:
+    → NEW: Structural vs Current valence × BP (§9.1)
+    → NEW: Tonic = BP substrate (§9.2), Mode 1 = BP mechanism (§9.3)
+    → NEW: Hw Subsidy × formation speed (§3.3), Phantom 4-factor (§9.3)
+    → v1.2→v3.0: ~4 versions of new understanding
+
+  Entity-Compiled.md v1.0:
+    → NEW: Trait-level = BP (§10.1), Formation × BP (§10.2)
+    → Dunbar S1-S6 × BP integration (§10.3)
+    → Hub-and-Spoke, Grief A+B+C
+
+  Entity-Access.md v1.2:
+    → NEW: Mức 0-5 × BP integration (§11.1)
+    → BP as resistance mechanism to access shift
+
+  Entity-Access-Calibration.md v1.0:
+    → NEW: Exit Cost = BP signal weight (§11.2)
+    → Hw Subsidy = Calibration Bias (§11.3)
+    → Paradox: strongest bond = hardest to calibrate
+
+  Bond-Architecture.md v1.0:
+    → NEW: Per-bond BP integration depth (§12.1)
+    → Parent = deepest BP (woven into safety foundation)
+    → Anti-compiled-suppress × BP resistance (§12.2)
+
+  Boredom.md v2.0:
+    → NEW: Compiled environment = boredom invisible (§13.1)
+    → BP resist gap direction shift (§13.2)
+
+  Gap-Body-Need.md v1.0:
+    → NEW: 3 Satiation Types × BP channels (§3.4)
+
+  Resonance-Per-Entity.md v1.0:
+    → Hw Subsidy spectrum, Phantom 4-factor
 ```
 
 ---
 
-## §12 — OPEN QUESTIONS
+## §17 — OPEN QUESTIONS (v2.0 updated)
 
 ```
 BP-Q1: Reconsolidation có apply cho neocortex-embedded patterns?
@@ -1126,7 +2189,7 @@ BP-Q2: Link Density có đo được (proxy) không?
   → 🟡 Novel prediction — cần empirical testing
 
 BP-Q3: ✅ RESOLVED — 2 Background Patterns xung đột thế nào?
-  → Drilled trong §10.4: "Invisible Conflict"
+  → Drilled trong §15.4: "Invisible Conflict"
   → Compound dynamics fire sub-threshold → PFC blind → chronic drain
   → 4 resolution pathways: context-gating / integration / one wins / chronic drain
   → Key insight: "just choose" KHÔNG work vì PFC cannot see conflict
@@ -1135,7 +2198,7 @@ BP-Q3: ✅ RESOLVED — 2 Background Patterns xung đột thế nào?
 BP-Q4: Có Background Pattern TỰ RESOLVE khi context thay đổi?
   → Di cư → old context gone → old pattern DẦN yếu?
   → Hay neocortex-embedded = persist regardless of context?
-  → Immigration evidence (§10.3) suggests: DẦN yếu, nhưng never zero
+  → Immigration evidence (§15.3) suggests: DẦN yếu, nhưng never zero
   → 🟡 Consistent with competitive re-linking, cần longitudinal data
 
 BP-Q5: Epigenetics × Background Pattern?
@@ -1151,11 +2214,37 @@ BP-Q6: AI detect Background Pattern?
   → 3 tầng: AI detect behavior pattern → Expert feel-check → Client body-verify
   → Extends AI-Schema-Detection.md
   → 🟡 Plausible but very early
+
+v2.0 NEW QUESTIONS:
+
+BP-Q7: Triple Bias có thể "break" mà KHÔNG cần external feedback?
+  → §6.3: external feedback = chính cách break self-fulfilling prophecy
+  → Meditation/self-observation CÓ THỂ provide internal "external" perspective?
+  → Hay: meditation = PFC observe → nhưng PFC = Lawyer cho BP?
+  → 🟡 Framework predicts: very difficult without external, possible with trained awareness
+
+BP-Q8: Hw Subsidy × BP: protective hay trapping?
+  → MAX subsidy → BP RICHEST + MOST STABLE → positive khi bond healthy
+  → NHƯNG: MAX subsidy → HARDEST to calibrate (§11.3) → trapping khi excess
+  → → Same mechanism = protective AND trapping depending on context
+  → 🟡 Dual nature prediction — cần clinical data
+
+BP-Q9: Tonic channels CÓ THỂ deliberately cultivate?
+  → §3.4: Tonic = core BP substrate (most persistent)
+  → Therapy: CÓ THỂ build Tonic [safe] channels qua consistent safe relationship?
+  → Meditation: CÓ THỂ build Tonic [present] channels qua sustained practice?
+  → 🟡 Plausible mechanism, timeline unclear (years?)
+
+BP-Q10: Compiled suppress + BP absorb: how to reverse?
+  → §8.2: suppress absorb into BP → invisible → double invisibility
+  → Reverse = decompile suppress from BP → nhưng HOW nếu invisible?
+  → Therapy: therapist detect behavior patterns → name → client body-verify?
+  → 🟡 Mechanism plausible, protocol unclear
 ```
 
 ---
 
-## §13 — HONEST ASSESSMENT
+## §18 — HONEST ASSESSMENT (v2.0 updated)
 
 ```
 ═══════════════════════════════════════
@@ -1178,6 +2267,21 @@ BP-Q6: AI detect Background Pattern?
   Attachment styles persist:            Bowlby/Ainsworth, replicated extensively
   Implicit bias:                        Greenwald 1998, IAT literature
   Fear conditioning epigenetics:        Dias & Ressler 2014
+  v2.0:
+  Confirmation bias:                    Nickerson 1998
+  Projection bias:                      Krueger 2007
+  Self-fulfilling prophecy:             Merton 1948, Rosenthal & Jacobson 1968
+  VTA habituation:                      Schultz 1997
+  Oxytocin bond formation:             Feldman 2012
+  Kin bond resilience:                  Roberts & Dunbar 2011
+  Romantic limerence timeline:          Fisher 2004
+  μ-opioid social bonding:             Panksepp 1998
+  Friendship formation hours:           Hall 2018
+  Schema consolidation acceleration:   Tse 2007
+  Social Brain Hypothesis:              Dunbar 1993
+  Parental investment theory:           Trivers 1972
+  Basal ganglia persistence post-loss: O'Connor 2023
+  Grief shared circuits (love/hate):   Zeki 2008 (via EC v1.0)
 
 
 ═══════════════════════════════════════
@@ -1198,6 +2302,31 @@ BP-Q6: AI detect Background Pattern?
   Invisible Conflict (BP × BP):                   Novel — extends Schema.md §5.1
   Integration as only true BP conflict resolution: Novel — experiential, not verbal
   Chronic drain = misdiagnosed BP conflict:       Novel clinical framing
+  2D model validated by Alzheimer data (v1.1):   Alzheimer "last in first out" confirms depth + density
+  "Architecture determines pattern" (v1.1):      Meta-principle from Alzheimer reverse-engineering lens
+  Glymphatic × BP substrate protection (v1.1):   Sleep protects infrastructure BP sits on
+  v2.0:
+  Triple Bias mechanism (Retrieval+Template+Interp): Novel — SPM v3.1 §9 applied to BP
+  Self-fulfilling prophecy via BP:                Novel — closed loop mechanism
+  PFC = Lawyer cho BP:                           Novel — motivated reasoning + BP
+  Structural valence = BP valence profile:        Novel — VP v3.0 §3 × BP
+  Tonic channels = BP core substrate:             Novel — VP v3.0 §8 × BP
+  Mode 1 = BP mechanism at entity level:          Novel — VP v3.0 §6 × BP
+  Hw Subsidy × BP formation speed:               Novel — 4-level modulation
+  Hw Subsidy × Calibration Bias:                  Novel — paradox integration
+  Satiation Type × BP channel profile:            Novel — Cyclic/Tonic/Generative × BP
+  Pattern Shiftability × BP Quadrants:            Novel — PFC-Ops §7 × §2 mapping
+  Compiled suppress absorb into BP:               Novel — double invisibility
+  PFC Budget × BP drain:                          Novel — shared resource depletion
+  Trait-level = Background Pattern:               Novel — EC v1.0 §6 × BP
+  EC Formation × BP bias:                         Novel — hours + Tse acceleration × BP
+  Dunbar S1-S6 × BP integration depth:            Novel — depth gradient mapping
+  Mức 0-5 × BP integration level:                Novel — EA gradient × BP
+  Exit Cost = BP structural weight:               Novel — signal dampening
+  Per-bond BP integration depth:                  Novel — parent=deepest, friend=shallowest
+  Anti-compiled-suppress × BP resistance:         Novel — tension model
+  Compiled environment = boredom invisible:       Novel — Boredom v2.0 × BP
+  BP resist gap direction shift:                  Novel — Gap-Direction × BP
 
 
 ═══════════════════════════════════════
@@ -1208,57 +2337,89 @@ BP-Q6: AI detect Background Pattern?
   Sigmoid growth curve:                           Plausible shape, not measured
   Neocortex-embedded reconsolidation:             Genuine research gap
   Resolution timelines (years):                   Approximate, highly individual
-  2 Background Patterns conflict mechanism:       Not drilled
+  2 Background Patterns conflict mechanism:       Drilled (§15.4), but untested
   Epigenetics transmission:                       Research early-stage
+  v2.0:
+  Triple Bias break without external feedback:   Possible but unverified (Q7)
+  Tonic channel deliberate cultivation:           Plausible, protocol unclear (Q9)
+  Compiled suppress reversal mechanism:           Plausible, protocol unclear (Q10)
 ```
 
 ---
 
-## §14 — CROSS-REFERENCES
+## §19 — CROSS-REFERENCES (v2.0 REWRITE)
 
-### §14.1 — Core mechanism files
-
-```
-  Chunk.md v2.0                  — chunk substrate, §2.4 NT7 direction, §4 activation
-  Schema.md v2.0                 — §4 depth gradient (EXTENDED by §2 file này),
-                                   §8 body baseline (EXPLAINED by file này)
-  Chunk-Activation-Dynamics.md   — §4 trigger surface (EXTENDED: growth over time)
-  Chunk-Discovery-Lifecycle.md   — §4 1A/1B (CONNECTED: BP bias toward 1B)
-  Learning-Cycle.md              — §4.1 SHY, §4.6 gist extraction
-                                   (APPLIED: BP formation mechanism)
-  Body-Feedback-Mechanism.md     — §3.2 Chunk-Miss (APPLIED: continuous miss),
-                                   §4 compound (APPLIED: BP as compound engine)
-  Gap-Direction.md               — §9 BP constrains gap direction landscape
-                                   (APPLIED: BP bias which gaps CAN form + directions)
-  Self-Pattern-Match.md v2.1     — §4 context-dependent (APPLIED: BP bias SPM)
-  Cortisol-Baseline.md v2.0      — §9 PFC damage (CONNECTED: self-reinforcing loop)
-  Anchor-Schema.md v1.2          — §2 trust (INTERACTS: BP constrains anchors)
-  Valence-Propagation.md v1.2    — valence per-entity (BP bias valence assignment)
-```
-
-### §14.2 — Observation parameter files
+### §19.1 — Core mechanism files
 
 ```
-  Observation/Novelty.md         — novelty drive × BP interaction
-  Observation/Threat.md          — threat cascade × BP self-reinforcing
-  Observation/Boredom.md         — "chán" có thể = BP miss variant
-  Observation/Connection.md      — attachment = social BP
-  Observation/Status.md          — status drive × BP constraint
-  Observation/Meaning.md         — meaning = life-level anchor × BP
-  Observation/Autonomy.md        — autonomy = controllability × BP
+  Chunk.md v2.0                    — chunk substrate, §2.4 NT7 direction, §4 activation, §5.4 compile depth
+  Schema.md v2.0                   — §4 depth gradient (EXTENDED by §2), §8 body baseline (EXPLAINED)
+  Chunk-Activation-Dynamics.md     — §4 trigger surface (EXTENDED: growth over time)
+  Chunk-Discovery-Lifecycle.md     — §4 1A/1B (CONNECTED: BP bias toward 1B)
+  Learning-Cycle.md                — §4.1 SHY, §4.6 gist extraction (APPLIED: BP formation)
+  Body-Feedback-Mechanism.md v2.0  — §3.2 Chunk-Miss (§7.1), §4 compound (§7.2)
+  Gap-Direction.md v2.0            — §9 BP constrains gap direction (§13.2)
+  Cortisol-Baseline.md v2.0        — §9 PFC damage (CONNECTED: §8 self-reinforcing loop)
+  Anchor-Schema.md v1.2            — §2 trust (INTERACTS: BP constrains anchors)
 ```
 
-### §14.3 — Application files
+### §19.2 — PFC + Agent-Mechanism files (v2.0 NEW)
 
 ```
-  AI-Schema-Detection.md         — BP detection qua AI (extended)
-  Feeling-Literacy-Training.md   — training detect BP effects
-  Research/Education/            — education × BP (threat-direction prevention)
+  PFC-Operations.md v1.0            — Pattern Shiftability §7 (→ §2.5),
+                                      Compiled Suppress absorb (→ §8.2),
+                                      PFC Budget §9 (→ §5 ⑦), B vs C §6 (→ §8.2)
+  Simulation-Engine.md v1.0          — SE context: SPM = APPLICATION (→ §6.1)
+  Self-Pattern-Modeling.md v3.1      — Triple Bias §9 (→ §6.2), self-fulfilling (→ §6.3),
+                                      context-dependent §4 (→ §6.4)
+  Entity-Compiled.md v1.0            — Trait/State §6 (→ §10.1), Formation §3 (→ §10.2),
+                                      Hub-and-Spoke §2, Dunbar §4 (→ §10.3),
+                                      Grief A+B+C §7 (→ §12.1)
+  Entity-Access.md v1.2              — Mức 0-5 gradient (→ §11.1), BP resist access shift
+  Entity-Access-Calibration.md v1.0  — Exit Cost §3 (→ §11.2), Hw Subsidy = Calibration Bias §4
+                                      (→ §11.3), Mức 4 critical §12
+  Bond-Architecture.md v1.0          — 4 bond types §2 (→ §12.1), M1-M4 §7,
+                                      anti-compiled-suppress §5 (→ §12.2)
+  By-Product-Gap-Resonance.md v1.4   — by-product match, gap overlap
 ```
 
-### §14.4 — Academic references
+### §19.3 — Body-Base + Observation files (v2.0 NEW)
 
 ```
+  Valence-Propagation.md v3.0       — Structural/Current §3 (→ §9.1), 3 Firing Modes §6 (→ §9.3),
+                                      Hw Subsidy §7 (→ §3.3, §9.3), Tonic §8 (→ §9.2),
+                                      Phantom §12 (→ §9.3)
+  Gap-Body-Need.md v1.0              — 3 Satiation Types §2 (→ §3.4)
+  Resonance-Per-Entity.md v1.0       — Hw Subsidy spectrum, Phantom 4-factor (→ §9.3)
+  Boredom.md v2.0                    — Compiled environment §5 (→ §13.1),
+                                      gap direction resist §3 (→ §13.2)
+  Observation/Novelty.md             — novelty drive × BP interaction
+  Observation/Threat.md              — threat cascade × BP self-reinforcing
+  Observation/Connection.md v5.0     — attachment = social BP, M1-M4
+  Observation/Status.md              — status drive × BP constraint
+  Observation/Meaning.md             — meaning = life-level anchor × BP
+  Observation/Autonomy.md            — autonomy = controllability × BP
+```
+
+### §19.4 — Health + Application files
+
+```
+  Alzheimer-Analysis.md v1.1         — §5-§6 "last in first out" (→ §2.4),
+                                      §11 sleep×glymphatic (→ §4.2),
+                                      §17 architecture determines pattern (→ §2.4)
+  AI-Schema-Detection.md v2.0        — BP detection qua AI (extended)
+  Feeling-Literacy-Training.md       — training detect BP effects
+  Research/Education/                — education × BP (threat-direction prevention)
+  Love-Romantic.md v3.0              — per-entity BP profiles (romantic focus)
+  Love-Unified.md v2.0               — comparative BP across 6 love types
+  Empathy.md v4.0                    — empathic accuracy × BP (Triple Bias)
+  Body-Coupling.md v3.0              — coupling × BP substrate
+```
+
+### §19.5 — Academic references (v2.0: ~35 citations)
+
+```
+  SLEEP:
   🟢 Tononi & Cirelli 2003, 2014   — Synaptic Homeostasis Hypothesis
   🟢 Payne 2009                     — Sleep gist extraction
   🟢 Stickgold 2013                 — Sleep abstracts rules
@@ -1267,30 +2428,73 @@ BP-Q6: AI detect Background Pattern?
   🟢 Walker 2017                    — Sleep emotional decoupling
   🟢 van der Helm 2011              — REM amygdala reduction
   🟢 Wilson & McNaughton 1994       — Hippocampal replay
+  🟢 Maret 2011, Yang 2014          — Dendritic spine sleep turnover
+  🟢 Xie 2013                       — Glymphatic system
+  🟢 Hauglund 2025                  — NE oscillations + glymphatic flow
+  🟢 Shokri-Kojori 2018             — 1 night sleep loss → 5% amyloid↑
+
+  MEMORY + COGNITION:
   🟢 Nader 2000                     — Memory reconsolidation
   🟢 Collins & Loftus 1975          — Spreading activation
   🟢 Godden & Baddeley 1975         — Context-dependent memory
   🟢 Bower 1981                     — Mood-congruent memory
   🟢 Thompson & Spencer 1966        — Habituation
-  🟢 Sinha 2001                     — Stress-induced relapse
+  🟢 Tse 2007                       — Schema consolidation acceleration
+
+  STRESS + PFC:
   🟢 Arnsten 2009                   — Stress impairs PFC
+  🟢 Sinha 2001                     — Stress-induced relapse
   🟢 Felitti 1998                   — ACE dose-response
-  🟢 Greenwald 1998                 — Implicit Association Test
-  🟢 Dias & Ressler 2014            — Fear conditioning epigenetics
+
+  SOCIAL + ATTACHMENT:
   🟢 Bowlby 1969 / Ainsworth 1978   — Attachment theory
-  🟢 Maret 2011, Yang 2014          — Dendritic spine sleep turnover
+  🟢 Greenwald 1998                 — Implicit Association Test
+  🟢 Nickerson 1998                 — Confirmation bias
+  🟢 Krueger 2007                   — Projection bias
+  🟢 Merton 1948                    — Self-fulfilling prophecy
+  🟢 Rosenthal & Jacobson 1968      — Pygmalion effect
+  🟢 Hall 2018                      — Friendship formation hours
+  🟢 Dunbar 1993                    — Social Brain Hypothesis
+  🟢 O'Connor 2023                  — Basal ganglia persistence post-loss
+
+  NEUROCHEMISTRY + EVOLUTION:
+  🟢 Schultz 1997                   — VTA prediction error
+  🟢 Feldman 2012                   — Oxytocin parent-child
+  🟢 Roberts & Dunbar 2011          — Kin bond resilience
+  🟢 Fisher 2004                    — Romantic limerence neuroscience
+  🟢 Panksepp 1998                  — μ-opioid social bonding
+  🟢 Trivers 1972                   — Parental investment theory
+  🟢 Dias & Ressler 2014            — Fear conditioning epigenetics
+  🟢 Zeki 2008                      — Love/hate shared circuits
+
+  ALZHEIMER:
+  🟢 Terry 1991                     — Synapse loss × cognitive decline
+  🟢 Reisberg 2002                  — Retrogenesis
+  🟢 Bartzokis 2004                 — Myelination order
 ```
 
 ---
 
-> *Background-Pattern.md v1.0 — "Trọng lực của chunk system."*
+> *Background-Pattern.md v2.0 — "Trọng lực của chunk system."*
 >
 > Background Pattern = accumulated chunk-network pattern
 > hình thành qua experience + sleep gist extraction qua thời gian dài.
-> 2D model: Compile Depth × Link Density.
-> Sleep = accelerator, NOT solver.
-> PFC invisible. Bias mọi thứ. Cùng mechanism: trauma, expertise, culture.
+> 2D model: Compile Depth × Link Density. Pattern Shiftability: Density > Depth.
+> Triple Bias: BP biases SPM qua 3 đường đồng thời (Retrieval + Template + Interpretation).
+> Self-fulfilling prophecy: BP → biased prediction → biased action → confirm BP → loop.
+> Structural Valence = BP valence profile. Tonic channels = BP core substrate.
+> Mode 1 (Maintenance) = BP mechanism at entity level. Hw Subsidy × formation speed.
+> Trait-level = BP. Entity-Compiled formation × BP. Dunbar S1-S6 × BP depth.
+> Mức 0-5 × BP integration. Exit Cost = BP structural weight. Calibration Bias paradox.
+> Per-bond integration: parent = deepest. Anti-compiled-suppress × BP resistance.
+> Compiled environment × boredom invisible. BP resist gap direction shift.
+> PFC invisible (7 reasons). Compiled suppress absorb into BP (double invisibility).
 > Resolution = build competing pattern, NOT fix original.
 > "Biết nhưng không cảm được" = PFC updated, Background Pattern chưa.
+> "Nhìn đời qua kính màu" = BP = kính.
 >
-> Phiên bản: v1.0, 2026-04-27.
+> Phiên bản: v2.0, 2026-05-22.
+> Changelog: v1.0 (2026-04-27) → v1.1 (2026-05-15: +Alzheimer, +Glymphatic)
+>            → v2.0 (2026-05-22: FULL REWRITE — Phase A+B+T integration,
+>              +Triple Bias, +5 NEW sections §9-§13, +Pattern Shiftability,
+>              +PFC-Operations, ~35 citations, ~30 deps, 20 sections).

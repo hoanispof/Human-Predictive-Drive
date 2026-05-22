@@ -173,7 +173,7 @@
 > Connection đã được rewrite thành file riêng với chất lượng cao hơn:
 >
 > → **Connection.md v3.0** (1,951L, Observation/) — 3 Generative Primitives,
->   8 pathways, SPM × Pattern-Resonance, 2-luồng reward, cô đơn
+>   8 pathways, SPM × Resonance, 2-luồng reward, cô đơn
 > → **Empathy.md v2.0** (1,978L, Observation/) — Connection ⊃ Empathy
 >
 > Nội dung cũ (v0.5): 4 điều kiện, Virtual Chunks, Melody Calibration,
@@ -487,7 +487,7 @@
        → Schema "tôi là người tốt" + hành vi cho đi = ALIGN → satisfaction
        → Schema "cúng = phước" + cúng dường = IMAGINE reward (sau này)
 
-    → = "Cho đi vô tư" thực ra = 4 reward sources CÙNG fire
+    → = "Cho đi vô tư" thực ra = nhiều reward sources CÙNG fire
     → = Không phải xấu — là THIẾT KẾ TỐI ƯU (evolution)
     → = Nhóm có cơ chế này > nhóm không có → gene SURVIVE
 
@@ -1196,13 +1196,13 @@
 
 ```
   CONNECTION (file riêng — §2 đã moved):
-  → Connection.md v3.0 — 3 Generative Primitives, 8 pathways, SPM × Pattern-Resonance
+  → Connection.md v3.0 — 3 Generative Primitives, 8 pathways, SPM × Resonance
   → Empathy.md v2.0 — Connection ⊃ Empathy, F1/F2, 2-luồng
 
   CORE MECHANISM FILES:
   → Agent-Mechanism.md — SPM mechanism, body-need feeder, 2-luồng reward
-  → Self-Pattern-Match.md v2.1 — F1 Feeling + F2 Logic, valence gate
-  → Pattern-Resonance.md — emergent mutual phenomenon
+  → Self-Pattern-Match.md v3.0 — F1 Compiled + F2 Fresh, valence gate
+  → By-Product-Gap-Resonance.md — emergent mutual phenomenon
   → Valence-Propagation.md v1.2 — body evaluation, chain propagation
   → Logic-Feeling.md — 2 processing modes (Logic + Feeling)
 

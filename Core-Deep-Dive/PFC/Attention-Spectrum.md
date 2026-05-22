@@ -1,8 +1,9 @@
 ---
 title: Attention-Spectrum — Phổ Chú Ý Multi-Factor
-version: 2.0
+version: 2.1
 created: 2026-04-19
-status: DRAFT v2.0
+updated: 2026-05-15 (v2.1 — §8 ADHD inverted-U validation, Health Conditions Drill)
+status: DRAFT v2.1
 scope: |
   Attention là SPECTRUM liên tục, không binary.
   Multi-factor model: COMT (clear speed) + chunk threshold + NE + cortisol.
@@ -363,6 +364,14 @@ CORE:
 
 OLD FILE (backup):
   Imagination/backup/Attention-Spectrum-v1.md — source content (664L)
+
+HEALTH CONDITIONS DRILL (v2.1):
+  ADHD INVERTED-U VALIDATES SPECTRUM MODEL:
+    → ADHD-Observation.md v1.2 §9: inverted-U severity × outcome
+    → 🟢 Frontiers 2022: subclinical-mild → creative advantage; severe → impaired
+    → 🟢 Meta-analysis Tran 2026 (17K+): entrepreneurial ↑ but post-launch ↓
+    → Environment shifts PEAK POSITION on inverted-U curve
+    → = Attention spectrum NOT fixed — f(hardware × environment × task demand)
 ```
 
 ---

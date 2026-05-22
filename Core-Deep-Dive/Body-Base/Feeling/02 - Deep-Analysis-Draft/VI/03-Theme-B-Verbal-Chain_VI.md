@@ -627,13 +627,13 @@ Theme C sẽ xây dựng trên Theme B:
 
 ### §4.4 — Theme E (Đồng cảm + Cho đi)
 
-Theme E sử dụng Pattern Resonance (thay thế Tier 2 cho Mirror). Pattern Resonance liên quan đến:
+Theme E sử dụng Resonance (thay thế Tier 2 cho Mirror). Resonance liên quan đến:
 - Chunks bản ngã như templates
 - Mô phỏng trạng thái của người khác
 - Đầu ra đánh giá sự phù hợp
 
 Giả thuyết chain + anchor của Theme B liên quan:
-- Chains Pattern Resonance = compiled chunks xã hội
+- Chains Resonance = compiled chunks xã hội
 - Anchoring qua: biểu đạt mặt (thị giác), giọng điệu (thính giác), từ ngữ (verbal)
 - Mô hình quan hệ dài hạn = chains compiled sâu
 
@@ -681,4 +681,4 @@ Theme B trực tiếp liên quan đến Logic-Feeling.md:
 ---
 
 *File phiên bản tiếng Việt — Dịch từ 03-Theme-B-Verbal-Chain.md*
-*Các thuật ngữ kỹ thuật framework (PFC, chunk, Pattern Resonance, Self-Pattern-Match, phonological loop, working memory, v.v.) được giữ nguyên tiếng Anh.*
+*Các thuật ngữ kỹ thuật framework (PFC, chunk, Resonance, Self-Pattern-Match, phonological loop, working memory, v.v.) được giữ nguyên tiếng Anh.*

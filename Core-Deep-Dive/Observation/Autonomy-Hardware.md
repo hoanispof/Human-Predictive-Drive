@@ -1,8 +1,9 @@
 ---
 title: Autonomy-Hardware — Tại Sao Self-Action = Reward
-version: 1.0
+version: 1.1
 created: 2026-04-20
-status: OBSERVATION PARAMETER v1.0 — HARDWARE MECHANISM
+updated: 2026-05-17
+status: OBSERVATION PARAMETER v1.1 — HARDWARE MECHANISM
 scope: |
   HARDWARE MECHANISM FILE: Giải thích TẠI SAO con người tự nhiên prefer
   self-action hơn external-control. Đây KHÔNG phải "thiết kế" hay "bản năng"
@@ -11,6 +12,9 @@ scope: |
   = body reward CAO hơn. Universal — mọi người đều có, cross-species.
   Bổ sung: vmPFC + DRN controllability learning (Maier & Seligman 2016),
   cortisol direction tag (novelty vs threat), opioid vs relief pathways.
+  v1.1 KEY CHANGES:
+    ⑪ +Architecture B alignment: these emergent patterns = Architecture B specific
+    ⑫ +Cross-refs: IBM v1.0, BFL v2.0, dependency versions updated
 purpose: |
   File này giải thích CƠ CHẾ HARDWARE tạo ra autonomy preference.
   Autonomy.md (file đi kèm) giải thích SOFTWARE — chunk tích lũy,
@@ -28,10 +32,12 @@ position: |
 dependencies:
   - Core-v7.8-Draft.md — §8 observation parameters, Autonomy definition
   - Cortisol-Baseline.md v2.0 — §7.2-§7.3 chunk direction tag
+  - Inter-Body-Mechanism.md v1.0 — §1.2 Architecture B (general-purpose system)
+  - Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap, prediction-delta
+  - Body-Feedback-Label.md v2.0 — vocabulary consistency
   - backup/Neurochemistry.md — §6.3 controllability, vmPFC + DRN
   - Neural-Architecture.md — vmPFC sub-region, amygdala pathway
   - Neural-Processing-Flow.md — §8.2 Feeling circuit (Insula + ACC + vmPFC)
-  - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, prediction-delta
   - Imagine-Final.md — §1 student bị ép vs thích (line 174-179)
   - Liking-Wanting.md — §4 Path A (opioid) vs Path B (relief)
   - Domain-Mapping-Drive.md — Student A vs B, threat vs novelty path
@@ -159,6 +165,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Tất cả = EMERGENT, không phải "designed for"
     → Tất cả = observable FROM architecture, UNIVERSAL
     → Tất cả = có giá trị khoa học vì TESTABLE + FALSIFIABLE
+
+  ⭐ ARCHITECTURE B (Inter-Body-Mechanism.md §1.2):
+
+    Tất cả patterns trong bảng trên = ARCHITECTURE B emergent.
+    Architecture A (côn trùng): hardwired stimulus→response.
+      → Không có efference copy → sensory prediction comparison path.
+      → Không có vmPFC → không có controllability learning.
+      → Không cần "autonomy preference" — mọi action pre-wired.
+    Architecture B (động vật có vú):
+      → General-purpose reward + compilation + PFC.
+      → Efference copy + VTA + opioid = autonomy preference = BY-PRODUCT.
+      → vmPFC + DRN = controllability LEARNABLE (Maier & Seligman 2016).
+    File này: document CƠ CHẾ HARDWARE tạo autonomy preference trong Architecture B.
 
   ⚠️ DISTINCTION QUAN TRỌNG:
 
@@ -733,6 +752,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → "Autonomy preference = byproduct of architecture"
     → Logically sound — but "emergent" is a claim about WHY, hard to test
     → Alternative: could be directly selected (evolution for autonomy)
+
+  ④ Architecture B specificity (v1.1)
+    → "These emergent patterns = Architecture B only" = framework claim
+    → Insects DO have simpler efference copies → but no vmPFC/controllability
+    → Boundary between A and B may be gradient, not sharp
 ```
 
 ### §6.3 — Tier 3: Hypothesis (🔴)
@@ -780,15 +804,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §7 — CROSS-REFERENCES
 
 ```
+DRILL SOURCE:
+  → Inter-Body-Mechanism.md v1.0 §1.2 — Architecture B (general-purpose, efference copy context)
+
+VOCABULARY:
+  → Body-Feedback-Label.md v2.0 — prediction-delta, approach/avoidance tag
+
 HARDWARE/MECHANISM FILES:
-  → Cortisol-Baseline.md §7.2-§7.3 — direction tag, novelty vs threat
+  → Cortisol-Baseline.md v2.0 §7.2-§7.3 — direction tag, novelty vs threat
   → backup/Neurochemistry.md §6.3 — controllability, vmPFC + DRN (original source)
   → Neural-Architecture.md — vmPFC sub-region, amygdala pathway
   → Neural-Processing-Flow.md §8.2 — Feeling circuit (Insula + ACC + vmPFC)
-  → Body-Feedback-Mechanism.md §3 — Chunk-Shift/Miss/Gap, prediction-delta
+  → Body-Feedback-Mechanism.md v2.0 §3 — Chunk-Shift/Miss/Gap, prediction-delta
 
 COMPANION FILE:
-  → Autonomy.md — SOFTWARE/DEVELOPMENT: chunk accumulation, developmental arc,
+  → Autonomy.md v1.1 — SOFTWARE/DEVELOPMENT: chunk accumulation, developmental arc,
     cross-parameter interactions, healthy vs toxic, counterweights
 
 OBSERVATION FILES (cross-parameter):
@@ -838,4 +868,8 @@ BỊ ÉP (§5): 2-layer dissonance — immediate prediction override +
 
 = Hardware PRODUCE autonomy preference — emergent, not designed.
 = Companion file Autonomy.md covers SOFTWARE: how this develops per person.
+
+~870 lines | version 1.1 | 2026-05-17
+v1.1 CHANGES: ⑪ +Architecture B alignment (§0) ⑫ +IBM/BFL cross-refs
+  ⑬ Dependency versions updated (BFM v2.0, Cortisol v2.0)
 ```

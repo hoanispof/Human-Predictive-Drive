@@ -306,7 +306,7 @@ FILE NÀY TRONG FRAMEWORK:
   Framework:
     Vật lý → hardware fit + chunk match + Goldilocks + prediction-delta
     = NHIỀU chains fire SONG SONG → net valence >> threshold → drive
-    = PFC nói "đam mê". Body: 4 chains invisible
+    = PFC nói "đam mê". Body: nhiều compiled chains invisible
 
   → Wanting KHÔNG NẰM Ở TARGET — nằm ở BODY-NEED qua chain
   → Berridge "wanting for X" → Framework "body-need Y propagated via chain to X"
@@ -489,8 +489,8 @@ FILE NÀY TRONG FRAMEWORK:
     Altruism (Valence-Propagation.md §6):
       Giúp người lạ → PFC: "vô tư thôi"
       Body: mirror reward + status chain + identity chain + connection need
-      → 4 chains fire SONG SONG → net opioid >> cost → "feel good"
-      → PFC KHÔNG BIẾT 4 chains → confabulate "vì tử tế"
+      → Nhiều compiled chains fire SONG SONG → net opioid >> cost → "feel good"
+      → PFC KHÔNG BIẾT chains → confabulate "vì tử tế"
       → = Liking qua INVISIBLE MULTI-CHAIN
 
     Studying children (Imagine-Final.md §1):
@@ -744,17 +744,17 @@ CASE 5b — ALTRUISM ("từ thiện vô tư"):
 
   FRAMEWORK:
     → PFC nói: "giúp người vì tử tế" (confabulation)
-    → Body ĐANG TÍNH 4 chains SONG SONG (Valence-Propagation.md §6):
-      Chain A: mirror SPM → see relief → body mirror → micro-opioid
-      Chain B: status → "người tốt" identity confirm → status need met → opioid
-      Chain C: identity → action match tự nhận → coherence → opioid
-      Chain D: connection → bond with recipient → connection need met → opioid
-    → Net: 4 chains × micro-opioid > cost of helping → body = "feel good"
-    → PFC KHÔNG BIẾT 4 chains → label = "vô tư", "vì tình người"
+    → Compiled patterns fire nhiều chains SONG SONG (Valence-Propagation.md §6):
+      → mirror SPM → see relief → body mirror → micro-opioid
+      → status → "người tốt" identity confirm → status need met → opioid
+      → identity → action match tự nhận → coherence → opioid
+      → connection → bond with recipient → connection need met → opioid
+    → Net: nhiều chains × micro-opioid > cost of helping → body = "feel good"
+    → PFC KHÔNG BIẾT chains → label = "vô tư", "vì tình người"
     → = LIKING is REAL (opioid fires) nhưng MECHANISM invisible
 
     → Berridge: "helping = liking" (accurate but surface)
-    → Framework: "helping = 4 chain-mediated opioid bursts" (mechanism visible)
+    → Framework: "helping = multi-chain-mediated opioid bursts" (mechanism visible)
 
 
 CASE 5c — STUDYING CHILDREN (cùng hành vi, khác liking):

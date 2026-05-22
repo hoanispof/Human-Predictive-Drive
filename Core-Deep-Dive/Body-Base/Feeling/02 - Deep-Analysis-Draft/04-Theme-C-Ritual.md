@@ -157,7 +157,7 @@ Theme C's proposed decomposition of ritual:
 
 **Layer 4 — Social synchronization** (new layer):
 - Group performing together
-- Mirror neurons activate (Pattern Resonance)
+- Mirror neurons activate (Resonance)
 - Collective effervescence (Durkheim)
 - **Function**: social proof + mirror reinforcement
 - **Chain anchor**: "everyone else believes" amplifies individual trust
@@ -484,7 +484,7 @@ From Theme A + B + Anchor-Schema: Ritual compiles chunks into unconscious by com
 
 1. **Repetition** builds baseline chunk strength (habit formation 🟢)
 2. **Emotional peak** tags memory as important (McGaugh 2004 🟢)
-3. **Social presence** provides mirror reinforcement (Pattern Resonance) 🟢
+3. **Social presence** provides mirror reinforcement (Resonance) 🟢
 4. **Context markers** create retrieval cues (classical conditioning) 🟢
 5. **Symbolic content** links behavior to abstract schema (semantic anchoring) 🟡
 

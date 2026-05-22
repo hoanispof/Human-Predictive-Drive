@@ -2,7 +2,7 @@
 title: Global Melody — Từ 2 Người Tới 8 Tỷ Người
 version: 2.0
 created: 2026-03-29 (v1.0 DRAFT)
-updated: 2026-04-20 (v2.0 REWRITE — v7.8 aligned, SPM/Pattern-Resonance, observation params)
+updated: 2026-04-20 (v2.0 REWRITE — v7.8 aligned, SPM/Resonance, observation params)
 status: v2.0 COMPLETE
 scope: |
   Melody TƯƠNG TÁC ở mỗi tầng zoom:
@@ -21,7 +21,7 @@ dependencies:
   - Observation/Meaning.md — schema coherence at high density
   - Observation/Empathy.md — SPM function applied to other agents
   - Agent/Agent.md — SPM mechanism, 3-concept split
-  - Agent/Pattern-Resonance.md — emergent mutual phenomenon
+  - Agent/By-Product-Gap-Resonance.md — emergent mutual phenomenon
   - Imagine-Final.md — shared imagine-final = collaboration basis
   - Knowledge-Flow.md — dòng chảy output qua thời gian
   - Conflict-Dynamics.md — Overlap × Scarcity × Commitment
@@ -70,7 +70,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     HARMONY (hợp):
       → 2+ chunk networks có patterns TƯƠNG TỰ → body detect sync → opioid
       → = "Gia đình ấm" / "team ăn ý" / "văn hóa thân thuộc"
-      → Mechanism: Pattern-Resonance (Pattern-Resonance.md)
+      → Mechanism: Resonance (By-Product-Gap-Resonance.md)
         = 2+ agents' SPM co-fire thành công → emergent mutual alignment
 
     DISSONANCE (xung đột):
@@ -157,7 +157,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     KHÔNG CÓ fixed melody → ai chơi gì cũng được
     → "Chọn bạn = chọn melody HỢP" (voluntary → approach tag)
     → Bạn thân HIẾM: tìm melody match ĐỦ SÂU = khó (Connection.md: Dunbar)
-    → Pattern-Resonance = khi cả 2 SPM match thành công → "à, hiểu nhau!"
+    → Resonance = khi cả 2 SPM match thành công → "à, hiểu nhau!"
 
 
   ⭐ TẠI SAO NHÓM HOẠT ĐỘNG = SHARED IMAGINE-FINAL:
@@ -499,7 +499,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → "Cultural key = shared compiled patterns": consistent với Hofstede
     → "Center/edge distribution": observable, chưa đo chính xác
     → "Shared imagine-final = group success": consistent với shared mental models
-    → "Pattern-Resonance at group level": novel application of SPM framework
+    → "Resonance at group level": novel application of SPM framework
     → "Domain split khi crowded": consistent với speciation + market economics
     → "AI = equalizer": trend observable, digital divide vẫn còn
     → "Arc wave toàn cầu": pattern observable từ lịch sử, predict power chưa rõ
@@ -532,7 +532,7 @@ PERSONAL-MELODY (foundation):
 
 MECHANISM FILES:
   → Agent/Self-Pattern-Match.md — solo forward simulation (SPM)
-  → Agent/Pattern-Resonance.md — emergent mutual phenomenon
+  → Agent/By-Product-Gap-Resonance.md — emergent mutual phenomenon
   → Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap
   → Cortisol-Baseline.md v2.0 — social buffering, collective stress amplification
   → Autonomy-Hardware.md — efference copy (quân đội = no autonomy)

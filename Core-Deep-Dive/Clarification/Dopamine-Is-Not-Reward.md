@@ -1,9 +1,9 @@
 ---
 title: Dopamine-Is-Not-Reward — Tại Sao Framework Bác Bỏ "Dopamine = Reward"
-version: 1.1
+version: 1.2
 created: 2026-04-18
-updated: 2026-05-10 (v1.1 — Type A/B notes, Reward-Signal-Architecture cross-ref)
-status: v1.1 — REFERENCE FILE
+updated: 2026-05-15 (v1.2 — §5.5 3-way comparison table, NIC-PD 2024, Health Conditions Drill cross-refs)
+status: v1.2 — REFERENCE FILE
 scope: |
   TẠI SAO framework bác bỏ "dopamine = reward/pleasure" (khái niệm phổ biến).
   3 positions so sánh (Classical "pleasure hypothesis" / Berridge-Robinson wanting≠liking / Framework VTA-salience + body-base opioid).
@@ -252,6 +252,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - Dopamine depletion → liking preserved (matches framework: opioid system intact)
 
 **Framework verdict**: ✅ Consistent with 7-step mechanism. Block VTA → steps 2-4 fail, step 5 (opioid) có thể vẫn fire nếu stimulus đủ mạnh để bypass attention gate.
+
+**v1.2 NOTE** (Parkinson-Analysis.md §6.2): 3 dopamine pathways affected at different rates (nigrostriatal TRƯỚC → mesolimbic → mesocortical SAU). Wanting/liking separation maps CHÍNH XÁC to 7-step: Steps 2-4 (VTA → PFC) weakened, Step 5 (opioid body-base) preserved. = CLEANEST clinical dissociation. Chi tiết + 3-way comparison: §5.5.
 
 ### §3.4 — Bằng chứng 4: Opioid = direct pleasure (morphine, endorphin)
 
@@ -538,6 +540,34 @@ Framework position 🟡:
 
 → Framework không phủ nhận Schultz. Framework propose computationally cheaper alternative that fits same data.
 
+### §5.5 — 3-way dopamine comparison: Hijack × Loss × Tuning
+
+🟡 **3 Health Conditions, cùng dopamine, 3 outcomes HOÀN TOÀN KHÁC**:
+
+| Dimension | Nicotine (Hijack) | Parkinson (Loss) | ADHD (Tuning) |
+|---|---|---|---|
+| **Cơ chế gốc** | SOURCE bị ÉP fire | SOURCE bị CHẾT | CLEARANCE nhanh + RECEPTOR kém |
+| **Pathway chính** | Mesolimbic (VTA→NAcc) | Nigrostriatal (SNc→Striatum) | Mesocortical (VTA→PFC) |
+| **Hệ quả dopamine** | QUÁ NHIỀU signal | QUÁ ÍT signal | Signal QUÁ NGẮN |
+| **Neuron status** | INTACT, forced fire | CHẾT DẦN (irreversible) | INTACT, tuning khác |
+| **Type** | SOFTWARE (re-compilable) | HARDWARE (irreversible) | HARDWARE TUNING (stable) |
+| **Wanting/Liking** | Wanting+++, Liking− | Wanting−−−, Liking OK | Wanting VARIABLE |
+| **7-step mapping** | Step 5 BYPASSED | Steps 2-4 WEAKENED, Step 5 OK | Step 3 DIFFERENT threshold |
+| **Framework lens** | Reward loop HIJACKED | Gate key DESTROYED | Threshold CALIBRATED KHÁC |
+
+**Key insight**: cùng 1 phân tử dopamine, 3 điểm disrupt = 3 patterns KHÁC:
+- **Nicotine**: Step 5 bypassed (opioid fire without body-need match) → addiction loop
+- **Parkinson**: Steps 2-4 weakened (VTA dying), Step 5 preserved → wanting↓ liking OK
+- **ADHD**: Step 3 filter khác (DRD4 7R + DAT fast clear) → threshold × attention khác
+- = Dopamine KHÔNG phải "1 signal 1 function" — vị trí disrupt quyết định output
+
+**NIC-PD 2024** (🟢 NEJM Evidence, n=162):
+- Nicotine patches × 1 year → NO BENEFIT for Parkinson. Trended WORSE.
+- = Nicotine flood VTA (hijack) ≠ neuroprotection (khác mechanism hoàn toàn)
+- Protective candidate = MAO-B inhibition, CO. Thuốc LÁ ≠ nicotine.
+
+→ Chi tiết: ADHD-Observation.md §3, Parkinson-Analysis.md §6+§11, Nicotine-Brain-Mechanism.md §1-§3
+
 ---
 
 ## §6 — HONEST ASSESSMENT
@@ -571,6 +601,14 @@ Framework position 🟡:
 - Framework uses DRD4 as Step 3 filter but evidence mixed
 - → Framework có thể wrong về DRD4 specifically, 7-step still hold
 
+### §6.2b — v1.2: Health Conditions Drill validation
+
+**3 health conditions CONFIRM framework's dopamine model** (§5.5):
+- 🟢 Parkinson wanting/liking dissociation = 7-step Steps 2-4 vs Step 5
+- 🟡 3-way comparison (Hijack × Loss × Tuning) = same molecule, 3 disruption points, 3 outcomes
+- 🟢 NIC-PD 2024: nicotine hijack ≠ neuroprotection (NEJM Evidence n=162)
+- = Drill confirms framework's core claim: dopamine = salience, NOT reward
+
 ### §6.3 — Mainstream vs framework positioning
 
 **Framework position**:
@@ -601,7 +639,7 @@ Khác cortisol case (scientific community đã align — rejection file thừa),
 ## §7 — CROSS-REFERENCES
 
 **Vocabulary reference**:
-- [Body-Feedback-Label.md v1.1](../Body-Base/Body-Feedback/Body-Feedback-Label.md) — ⭐ VOCABULARY REFERENCE.
+- [Body-Feedback-Label.md v2.0](../Body-Base/Body-Feedback/Body-Feedback-Label.md) — ⭐ VOCABULARY REFERENCE.
   Framework dùng "prediction-delta" thay cho PE / VTA delta. 3-tier label system.
 
 **Complement file (v1.1 NEW)**:
@@ -627,6 +665,12 @@ Khác cortisol case (scientific community đã align — rejection file thừa),
 - [Body-Input-Enumeration.md §4](../../Body-Base/Body-Input-Enumeration.md) — body-needs taxonomy cho Step 5 check
 - [Imagination-Analysis-v2.md](../Imagination-Analysis-v2.md) — Imagine-Final simulation mechanism
 
+**Health Conditions Drill (v1.2)**:
+- Parkinson-Analysis.md v1.1 — §6 3 pathways + wanting/liking, §11 NIC-PD 2024
+- ADHD-Observation.md v1.2 — §3 3-way comparison table
+- Nicotine-Brain-Mechanism.md v1.1 — §1-§3 hijack mechanism
+- → Informed: §3.3 note, §5.5 (3-way comparison + NIC-PD), §6.2b
+
 **Pattern reference**:
 - [Mirror-Neuron-Rejection.md](../../Body-Base/Chunk/Agent/Mirror-Neuron-Rejection.md) — rejection file template (7-section pattern)
 
@@ -646,4 +690,4 @@ Khác cortisol case (scientific community đã align — rejection file thừa),
 
 ---
 
-**Kết luận**: "Dopamine = reward" = misconception vững chắc trong pop science và textbook, nhưng đã bị bác bỏ trong research từ Berridge 1998. Framework endorse Berridge-Robinson separation (wanting ≠ liking) và **thêm mechanism**: 7-step với body-base check (Step 5) là chỗ opioid fires khi chunk fits body-need. Reward = opioid body-base, không phải dopamine VTA. Dopamine = chuông cửa salience alert. Quà thật = opioid đằng sau cửa.
+**Kết luận**: "Dopamine = reward" = misconception vững chắc trong pop science và textbook, nhưng đã bị bác bỏ trong research từ Berridge 1998. Framework endorse Berridge-Robinson separation (wanting ≠ liking) và **thêm mechanism**: 7-step với body-base check (Step 5) là chỗ opioid fires khi chunk fits body-need. Reward = opioid body-base, không phải dopamine VTA. Dopamine = chuông cửa salience alert. Quà thật = opioid đằng sau cửa. v1.2: 3-way comparison (Hijack × Loss × Tuning) confirms — cùng dopamine, 3 disruption points, 3 outcomes khác nhau hoàn toàn. Phiên bản: v1.2, 2026-05-15.

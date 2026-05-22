@@ -10,8 +10,8 @@
 
 ---
 
-> **Trạng thái:** v2.0 (rewrite v7.8)
-> **Ngày:** 2026-04-24
+> **Trạng thái:** v2.1 (tone refine §1.1)
+> **Ngày:** 2026-05-13
 > **Vị trí:** Research/Meta-Impact/ (meta-analysis, positioning)
 > **Liên kết:**
 >   Meta-Impact.md — impact predictions
@@ -39,14 +39,14 @@ Tâm lý học thông thường = TẬP HỢP MIDDLE-RANGE THEORIES:
   Academic incentive:
     Publish 1 finding rõ ràng, replicable → career ✅
     Build unified theory → "too speculative," khó peer review ❌
-    → Science REWARD reductionism. KHÔNG reward synthesis.
+    → Hệ thống tự nhiên ưu tiên depth hơn synthesis.
 
   Methodological constraint:
     RCT = isolate 1 variable, control the rest — by design.
     → By design loại bỏ INTERACTIONS giữa variables.
     → Nhưng reality = interactions là cái quan trọng nhất.
     → Phương pháp tốt nhất của conventional science
-      = vô tình blind với cross-domain patterns.
+      = không được thiết kế để thấy cross-domain patterns.
 
   Specialization silo:
     Dopamine researcher → đọc dopamine journals.
@@ -58,7 +58,7 @@ Tâm lý học thông thường = TẬP HỢP MIDDLE-RANGE THEORIES:
   Paradigm lock:
     Người TRONG domain = bị assumptions nền của domain lock.
     Người NGOÀI domain (engineer, game dev, outsider)
-    = ít bị paradigm lock → dễ kết nối hơn.
+    = ít bị paradigm lock → có thể thấy kết nối khác.
     → Xem Creator-Lens.md: tại sao game architecture lens
       tạo ra framework thay vì academic neuroscientist.
 
@@ -80,60 +80,60 @@ Framework = attempt to draw the graph.
 ⚠️ Section này dùng CHÍNH framework để giải thích §1.
   Circular argument risk — nhưng nếu đúng thì giải thích CƠ CHẾ đằng sau vấn đề cấu trúc.
 
-ACADEMIC SYSTEM QUA LENS FRAMEWORK:
+TIỀN ĐỀ QUAN TRỌNG:
+  Nghiên cứu chuyên sâu = GIAI ĐOẠN CẦN THIẾT và có giá trị thật.
+  Phải CÓ nodes vững trước rồi mới kết nối được.
+  Framework DỰA VÀO hàng thập kỷ nghiên cứu chuyên sâu —
+  nếu không có chúng, không có cơ sở để kết nối.
 
-  Observation parameters tác động lên CHÍNH researcher:
+HỆ THỐNG HỌC THUẬT — ĐẶC ĐIỂM CẤU TRÚC:
 
-    Novelty: "paper mới, phát hiện mới, citation mới"
-      → Prediction delta dương mỗi lần publish → drive tiếp tục NARROW research
-    Status: "tenure, grants, h-index, conference invited"
-      → Resource Access Map (Status.md): publish nhiều = access tốt hơn
-    → "Publish or perish" = 2 observation parameters dominant
+  Hệ thống ưu tiên DEPTH — và điều này HỢP LÝ:
+    → Depth đảm bảo CHẤT LƯỢNG: replicate, peer review, falsify.
+    → Mỗi node cần vững trước khi kết nối → depth-first là cần thiết.
+    → Tài trợ đi theo depth → vì depth tạo kết quả đo được, clinical impact thực.
 
-  Cross-domain synthesis bị system SUPPRESS:
-    Synthesis = BROAD → khó publish → không tạo prediction-delta
-    Specialist = NARROW → dễ publish → prediction-delta rõ
-    → Ai broad → ít publication → mất tenure → bị loại
-    → Ai narrow → nhiều publication → tenure → survive
-    → = Natural selection FOR silos, AGAINST integration
+  Hệ quả cấu trúc — không phải lỗi cá nhân:
+    → System tự nhiên ưu tiên chuyên sâu hơn tổng hợp.
+    → Cross-domain synthesis khó publish, khó peer review, khó replicate.
+    → Kết quả: mỗi domain phát triển mạnh riêng lẻ,
+      nhưng kết nối giữa domains ít được hệ thống hỗ trợ.
 
-CÁC RESEARCHER ĐÃ THẤY PHẦN NÀO — nhưng không hội tụ:
+CÁC RESEARCHER ĐÃ XÂY NỀN MÓNG — mỗi người thấy một phần bức tranh:
 
   Berridge (Michigan): "Liking vs Wanting"
-    → Tách opioid vs dopamine ✅
-    → Focus addiction research, không generalize ra motivation tổng thể
-    → Vì: addiction = hot topic = grants = publications
+    → Tách opioid vs dopamine ✅ — insight nền tảng cho reward research.
+    → Depth ở addiction tạo clinical impact thực — contribution quan trọng.
+    → Generalize ra motivation tổng thể = câu hỏi ở layer khác, ngoài scope.
 
   Panksepp (1998): 7 emotional systems (CARE, SEEKING,...)
-    → Gần nhất: identify system-level architecture
-    → Bị mainstream IGNORE nhiều năm ("animal emotion = unscientific")
-    → Paradigm-breaking = risky cho career
+    → Gần nhất: identify system-level architecture.
+    → Bị mainstream chậm chấp nhận — paradigm mới cần thời gian để field absorb.
 
   Damasio: somatic markers
-    → "Body = ground truth" insight ✅
-    → Focus decision-making, không connect sang reward/motivation
-    → Academic silo: neurology dept ≠ motivation dept
+    → "Body = ground truth" = insight quan trọng ✅
+    → Depth ở decision-making đã rất có giá trị.
+    → Kết nối sang reward/motivation = layer khác, ngoài scope nghiên cứu chính.
 
   Friston: Free Energy Principle
-    → GẦN NHẤT về tham vọng tổng hợp
-    → Quá toán → ít người hiểu → ít impact thực tế
-    → Mathematical elegance = status trong subfield
-    → Cross-domain accessibility = KHÔNG được reward
+    → GẦN NHẤT về tham vọng tổng hợp.
+    → Mathematical rigor cao — đảm bảo formal consistency.
+    → Trade-off: math barrier → ít cross-domain uptake.
 
-  → Mỗi người thấy 1 PHẦN:
+  → Mỗi người xây 1 PHẦN nền móng:
     Berridge: opioid ≠ dopamine (khác mechanism)
     Panksepp: emotional systems (nhiều mechanism song song)
     Damasio: body matters (body = ground truth)
     Friston: prediction mechanism (prediction-delta foundation)
-    → KHÔNG AI kết nối thành: chunks + body-feedback + observation parameters
-    → Vì: system KHÔNG REWARD kết nối, chỉ reward DEPTH
+    → Hội tụ chưa xảy ra — không phải vì ai thiếu năng lực,
+      mà vì: ① nodes cần được xây vững trước (decades of work),
+      ② hệ thống ưu tiên depth, ③ cross-domain access khó trong hệ chuyên ngành.
 
-TẠI SAO OUTSIDER CÓ THỂ THẤY:
+TẠI SAO OUTSIDER CÓ THỂ THẤY GÓC KHÁC:
   Outsider (game dev, engineer, non-specialist):
-    → KHÔNG có academic reward → không bị system constrain
-    → KHÔNG có deep chunks TRONG 1 domain → không bị paradigm lock
-    → AI cung cấp domain depth → compensate thiếu hụt
-    → = Convergent design pattern: "dùng lens domain A để connect domain B"
+    → Không nằm trong hệ chuyên ngành → góc nhìn khác, không bị 1 paradigm constrain.
+    → Nhưng THIẾU depth → cần bù đắp (AI cung cấp domain access).
+    → Không phải "giỏi hơn" — chỉ là GÓC NHÌN KHÁC, với trade-off khác.
 
   NHƯNG outsider CÓ risk:
     → Thiếu domain depth → false connections possible

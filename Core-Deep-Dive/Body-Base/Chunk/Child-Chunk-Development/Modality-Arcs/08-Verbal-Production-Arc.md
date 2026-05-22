@@ -1068,7 +1068,7 @@ All consistent with the 4-channel compile × 4-parameter rate formula from [06a 
 ### §11.3 — Drilled sub-folders
 
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) — learning-cycle mechanism applied to auditory-articulatory loop (§2.3)
-- [../Agent/Pattern-Resonance.md](../Agent/Pattern-Resonance.md) — pattern-resonance framework (E31 "không" self-agency + [07 §7](07-Social-Recognition-Arc.md#§7) cross-refs)
+- [../Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) — Resonance framework (E31 "không" self-agency + [07 §7](07-Social-Recognition-Arc.md#§7) cross-refs)
 - [../Agent/Self-Pattern-Match.md](../Agent/Self-Pattern-Match.md) — self-chunks for E31 self-as-agent
 - [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5 — P2 compile mechanism for body-state verbal
 

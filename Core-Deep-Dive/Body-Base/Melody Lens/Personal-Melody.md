@@ -28,7 +28,7 @@ dependencies:
   - PFC-Function.md — PFC core job = smooth melody
   - Imagine-Final.md — compass mechanism, 14 ngưỡng
   - Anchor-Schema.md — trust binding, sync point
-  - Agent.md — SPM mechanism, Pattern-Resonance
+  - Agent.md — SPM mechanism, Resonance
   - Empathy.md — SPM function applied to other agents
   - Why-Body-Knows.md — body accuracy (~90%)
   - Novelty.md — positive prediction-delta
@@ -333,6 +333,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Domain: "thế giới đòi PATTERN KHÁC"
     → = BÌNH THƯỜNG — không phải lỗi, mà là ĐỘNG LỰC (Drive.md §0)
     → = "Drive" = tên gọi cho energy+direction emergent từ tension này
+    → Externalization: tension này PROPAGATE sang mọi hệ thống con người tạo
+      (software, luật, y tế, tổ chức) — cùng tension, khác hình thức.
+      Collective-Body.md §3.5.
 
 
   ⭐ BODY-BASE REWARD ≠ DOMAIN REWARD:
@@ -709,9 +712,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → = "Hiểu sâu" = SPM có many templates cho target cụ thể
 
 
-  PATTERN-RESONANCE — khi cả 2 bên SPM thành công (Pattern-Resonance.md):
+  RESONANCE — khi cả 2 bên SPM thành công (By-Product-Gap-Resonance.md):
     → SPM = solo forward (mình đoán họ)
-    → Pattern-Resonance = EMERGENT khi CẢ HAI bên SPM match thành công
+    → Resonance = EMERGENT khi CẢ HAI bên SPM match thành công
     → Retrospective only — không biết real-time, chỉ infer sau
     → Serves as calibration feedback cho SPM library refinement
     → = "2 bài nhạc tình cờ HARMONIZE" — không ai điều khiển, tự xảy ra
@@ -830,7 +833,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → "Arc wave pattern": observable personally, chưa formalize
     → "5 profiles": framework classification — consistent với personality × aging
     → "SPM = simulation-based prediction": consistent với Goldman simulation theory (2006)
-    → "Pattern-Resonance = emergent mutual": novel framing, consistent
+    → "Resonance = emergent mutual": novel framing, consistent
     → "Difficulty vs mismatch": consistent với person-environment fit
     → "Approach/avoidance tag": framework concept — consistent với Pavlovian
       approach/avoidance + incentive salience (Berridge), needs direct testing
@@ -885,7 +888,7 @@ OBSERVATION PARAMETER FILES:
 AGENT FILES:
   → Agent/Agent.md — unified model, 3-concept split
   → Agent/Self-Pattern-Match.md — solo forward simulation (6 steps)
-  → Agent/Pattern-Resonance.md — emergent mutual phenomenon
+  → Agent/By-Product-Gap-Resonance.md — emergent mutual phenomenon
 
 COMPASS + DIRECTION FILES:
   → Imagine-Final.md — compass mechanism, 14 ngưỡng

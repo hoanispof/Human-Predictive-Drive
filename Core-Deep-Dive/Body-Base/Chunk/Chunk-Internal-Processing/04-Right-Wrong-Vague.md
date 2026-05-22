@@ -68,7 +68,7 @@ Theme D (Deep-Analysis-Draft/02-Theme-D-Right-Wrong.md) ĐÃ phân tích 4 clear
      → CLEAR wrongness — identifiable source
 
   ④ Partner hành vi bất thường:
-     → Pattern Resonance mismatch (compiled relationship template)
+     → Resonance mismatch (compiled relationship template)
      → CLEAR-ISH — source identifiable (behavior change)
 
 Theme D verdict: SAME mechanism across all 4 cases
@@ -354,7 +354,7 @@ DIMENSION 2 — SOURCE VARIETY:
   
   Single channel: cognitive pattern match only → "có lẽ..."
   Multi-channel: cognitive + body + emotional + predictive → "chắc chắn"
-  → Theme D: partner cases show multi-channel (Pattern Resonance + social + emotional)
+  → Theme D: partner cases show multi-channel (Resonance + social + emotional)
   → Einstein: multi-channel (visual simulation + muscular + schema + prediction)
 
 DIMENSION 3 — TEMPORAL PERSISTENCE:

@@ -1,11 +1,13 @@
 ---
 title: Body-Feedback Mechanism — Chunk Dynamics Classification
-version: 1.2
+version: 2.0
 created: 2026-04-20
-updated: 2026-05-10 (v1.2 — §2 Type A/B mapping, §4 Conditional Interaction Model, cross-refs)
-status: REFERENCE v1.2
+updated: 2026-05-16 (v2.0 — FULL REWRITE: Body-Need aggregate, Complexity Spectrum, Cross-cutting clarification, Inter-Body drill integration)
+previous: v1.3 → backup/Body-Feedback-Mechanism-v1.3-backup.md
+status: REFERENCE v2.0
 scope: |
   CORE MECHANISM FILE: HOW body-feedback arises from chunk dynamics.
+  NEW v2.0: Body-Need aggregate framing + Complexity Spectrum.
   2 input sources (Sensory-Driven / Pattern-Driven).
   3 chunk dynamics (Chunk-Shift / Chunk-Miss / Chunk-Gap).
   Compound mechanism. Quality Baseline Shift.
@@ -16,19 +18,26 @@ purpose: |
   File này thêm trục thứ 4: CHUNK MECHANISM — HOW chunks fire tạo ra signal.
   Trục này match v7.8 "chunk-centric" principle: everything runs on chunks,
   classification phải chunk-based.
+  v2.0 NEW: Body-Need aggregate concept — chunk dynamics = mechanism,
+  body-need = aggregate OUTPUT. Complexity Spectrum (Simple→Social→Meta)
+  shows CÙNG mechanism, KHÁC substrate level.
 position: |
   Body-Feedback/ folder — ngang hàng với Body-Feedback.md (synthesis entry point).
   File này = MECHANISM reference (HOW body-feedback arises).
   Body-Feedback.md = ARCHITECTURE reference (WHAT body-feedback does + H10).
   01-04 files = CASE ANALYSES (apply mechanism to specific scenarios).
 dependencies:
-  - Chunk.md v2.0 — chunk substrate
+  - Chunk.md v2.2 — chunk substrate, context-tag model
   - Chunk-Activation-Dynamics.md — probability, re-linking, trigger surface
-  - Valence-Propagation.md — valence per-entity + chain propagation
-  - Body-Feedback.md — H10, dual-pull, interface loop
+  - Valence-Propagation.md v1.4 — valence per-entity + chain propagation
+  - Body-Feedback.md v1.1 — H10, dual-pull, interface loop
+  - Body-Feedback-Label.md v2.0 — vocabulary reference (3-tier labels)
   - 02-Dissonance.md — intensity levels, source taxonomy, case analyses
   - Core-v7.8-Draft.md — cycle architecture, A/B/C/D zones
-  - Cortisol-Baseline.md v2.0 — amplifier, novelty vs threat cortisol
+  - Cortisol-Baseline.md v2.0 — amplifier, holding signal
+  - Reward-Signal-Architecture.md v1.0 — Type A/B, A₀→A₃, 5 Profiles
+  - Inter-Body-Mechanism.md v1.0 — Body-Need aggregate, 3-cost, 5-channel
+  - Gap-Direction.md v1.1 — gap has direction = f(surrounding chunks)
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -44,26 +53,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Body-feedback không chỉ có direction (reward/dissonance) và magnitude (nhẹ→cực).
 > Body-feedback còn có **chunk dynamics** — CÁCH chunks fire tạo ra signal.
 >
-> File này formalize trục phân loại đó.
+> Những signals này TỔNG HỢP thành **body-need** — trạng thái CẦN hiện tại
+> mà body đòi đáp ứng. Body-need = aggregate output của chunk dynamics.
+>
+> File này formalize trục phân loại đó + body-need aggregate framing.
 
 ---
 
 ## Mục lục
 
-- §1 — VỊ TRÍ TRONG FRAMEWORK
+- §0 — THESIS + VỊ TRÍ TRONG FRAMEWORK
+- §1 — BODY-NEED: AGGREGATE OUTPUT
 - §2 — 2 NGUỒN ĐẦU VÀO (Sensory-Driven / Pattern-Driven)
 - §3 — 3 CHUNK DYNAMICS (Chunk-Shift / Chunk-Miss / Chunk-Gap)
 - §4 — COMPOUND MECHANISM
 - §5 — QUALITY BASELINE SHIFT
-- §6 — MAP VÀO V7.8 CYCLE ARCHITECTURE
-- §7 — MAP VÀO H10 PRECONDITIONS
-- §8 — RESEARCH ANCHORS
-- §9 — HONEST ASSESSMENT
-- §10 — CROSS-REFERENCES
+- §6 — MAP VÀO FRAMEWORK (v7.8 Cycle + H10)
+- §7 — RESEARCH ANCHORS
+- §8 — HONEST ASSESSMENT
+- §9 — CROSS-REFERENCES
 
 ---
 
-## §1 — VỊ TRÍ TRONG FRAMEWORK
+## §0 — THESIS + VỊ TRÍ TRONG FRAMEWORK
 
 ```
 ⭐ 4 TRỤC PHÂN LOẠI BODY-FEEDBACK:
@@ -96,29 +108,191 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → 4 trục KHÔNG thay thế nhau — BỔ SUNG nhau
 
 
+⭐ v2.0 THÊM: BODY-NEED AGGREGATE FRAMING
+
+  File này KHÔNG CHỈ phân loại signals (trục 4).
+  File này CÒN cho thấy: signals TỔNG HỢP thành BODY-NEED.
+
+  Body-Need = aggregate output = tổng hợp TẤT CẢ signals đang đòi đáp ứng.
+  §1 define body-need. §2-§5 giải thích HOW body-need arises.
+  = Missing link: "chunks fire" → "body cần gì" → "hành vi"
+
+
   FILE NÀY TRONG FLOW:
 
-    Chunk.md v2.0 (sole substrate)
+    Chunk.md v2.2 (sole substrate)
          │
          ▼
     Chunk-Activation-Dynamics (HOW chunks fire: probability, re-linking)
          │
          ▼
     ┌─────────────────────────────────────────────────────────────┐
-    │ BODY-FEEDBACK-MECHANISM.MD (FILE NÀY)                       │
+    │ BODY-FEEDBACK-MECHANISM.MD v2.0 (FILE NÀY)                  │
     │                                                              │
-    │  Input: 2 sources (Sensory-Driven / Pattern-Driven)         │
-    │  Dynamics: 3 types (Chunk-Shift / Chunk-Miss / Chunk-Gap)   │
+    │  §1:  BODY-NEED = aggregate output                          │
+    │  §2:  Input: 2 sources (Sensory-Driven / Pattern-Driven)   │
+    │  §3:  Dynamics: 3 types (Chunk-Shift / Chunk-Miss / Gap)   │
+    │  §4:  Compound: multiple dynamics simultaneous              │
+    │  §5:  Baseline Shift: quality re-habituate                  │
+    │                                                              │
     │  Output: body-feedback signal (direction + magnitude)        │
-    │                                                              │
-    │  = HOW chunk dynamics PRODUCE body-feedback                  │
-    │  = Missing layer giữa "chunks fire" và "body feels"         │
+    │  = HOW chunk dynamics PRODUCE body-feedback → body-need      │
+    │  = Missing layer giữa "chunks fire" và "body cần gì"        │
     └─────────────────────────────────────────────────────────────┘
          │
          ▼
     Body-Feedback.md (H10, dual-pull, interface loop)
     Feeling.md v2.0 (PFC observation of body-feedback)
     02-Dissonance.md (intensity spectrum + source taxonomy + case analyses)
+    Inter-Body-Mechanism.md v1.0 (5-channel, 3-cost, entity interaction)
+```
+
+---
+
+## §1 — BODY-NEED: AGGREGATE OUTPUT
+
+### §1.1 — Definition
+
+```
+⭐ BODY-NEED = TỔNG HỢP TRẠNG THÁI CẦN HIỆN TẠI:
+
+  Body-Need = aggregate của TẤT CẢ signals đang đòi body đáp ứng.
+
+  KHÔNG phải 1 signal đơn → là TỔNG HỢP nhiều signals parallel.
+  KHÔNG phải PFC tạo → body-need exist TRƯỚC PFC awareness.
+  KHÔNG phải chỉ survival → BẤT KỲ compiled gap fill (Architecture B).
+
+  Body-Need = OUTPUT CỦA CƠ CHẾ file này mô tả:
+    2 input sources (§2) → 3 chunk dynamics (§3) → compound (§4)
+    → quality baseline shift (§5) → body-need aggregate
+
+  (Inter-Body-Mechanism.md §2: Body-Need full definition + inter-body context)
+```
+
+### §1.2 — 2 genuine sources
+
+```
+⭐ BODY-NEED CHỈ ĐẾN TỪ 2 NGUỒN THẬT:
+
+  ┌─────────────────────────────────────────────────────────────┐
+  │ ① HARDWARE / SENSORY-DRIVEN (pre-chunk possible):           │
+  │                                                             │
+  │   Homeostatic: đói, khát, nhiệt, oxy, ngủ                  │
+  │   Nociceptive: đau, injury, reflex                          │
+  │   Hormonal: social isolation hardware, sexual drive          │
+  │                                                             │
+  │   → Domain stimulus → receptors → body signal               │
+  │   → KHÔNG cần compiled chunks (animals đầy đủ)              │
+  │   → D+C zones primary                                       │
+  └─────────────────────────────────────────────────────────────┘
+
+  ┌─────────────────────────────────────────────────────────────┐
+  │ ② CHUNK DYNAMICS / PATTERN-DRIVEN:                          │
+  │                                                             │
+  │   3 dynamics: Gap / Miss / Shift (+ Compound)               │
+  │   → Internal chunk fire → body respond                      │
+  │   → REQUIRES compiled chunks as prerequisite                │
+  │   → Human-dominant (rich chunk network)                     │
+  └─────────────────────────────────────────────────────────────┘
+
+  ⭐ 2 nguồn KHÔNG loại trừ — 1 event kích hoạt CẢ ①+②:
+    VD: ăn đồ ăn (① sensory) + nhớ lần trước ngon hơn (② Miss)
+    VD: social isolation (① hardware oxytocin deficit + ② compiled friend Miss)
+
+  Chi tiết mỗi nguồn: §2 file này.
+```
+
+### §1.3 — Cross-cutting: KHÔNG phải sources
+
+```
+🟡 OBSERVATION PARAMETERS VÀ STATE MODIFIERS = CROSS-CUTTING, KHÔNG PHẢI SOURCES:
+
+  OBSERVATION PARAMETERS (named patterns, v7.8 — Protect.md §0):
+    Protect = ownership chunks + loss aversion + avoidance direction
+    Threat  = urgency tag + priority override (from ANY source)
+    Status  = relative position pattern
+    Novelty = gap-fill drive + approach direction
+    → Emerge TỪ ①+② trong combinations cụ thể
+    → KHÔNG phải source riêng — là TÊN GỌI cho patterns observable
+    → Can thiệp ở level mechanism (①②), không ở level label
+
+  STATE MODIFIERS:
+    Cortisol: amplify negative signals (Cortisol-Baseline.md v2.0)
+    Urgency: override priority ranking
+    Energy/fatigue: shift threshold cho all signals
+    → KHÔNG tạo body-need mới — SHIFT priority/intensity của existing
+
+  TẠI SAO PHÂN BIỆT QUAN TRỌNG:
+    "Protect" KHÔNG phải source thứ 3 → "Protect" = Chunk-Miss (mất cái đã compile)
+                                         + Chunk-Shift (threat to owned) + avoidance tag
+    "Status drop" KHÔNG phải source thứ 3 → = Chunk-Miss (compiled position lost)
+    Can thiệp ĐÚng = can thiệp ở ①② mechanism
+    Can thiệp SAI = treat label as independent cause → miss root mechanism
+
+  (Inter-Body-Mechanism.md §2.3: cross-cutting clarification)
+```
+
+### §1.4 — 7 properties of Body-Need
+
+```
+BODY-NEED CÓ 7 PROPERTIES:
+
+  ① LUÔN TỒN TẠI (không bao giờ = 0)
+     → "Nằm thư giãn bãi biển" vẫn có: nắng chiếu = sensory fill gap
+     → Nếu 0 gap → 0 drive → 0 hành vi → chết
+
+  ② MULTIPLE cùng lúc (parallel)
+     → Đói + chán + nhớ bạn + career anxiety = 4 body-needs song song
+
+  ③ CÓ PRIORITY (intensity × urgency × state)
+     → "Cháy nhà" override "chán" (survival > novelty)
+     → Priority = dynamic, shift theo state
+
+  ④ CÓ DIRECTION (từ chunk network topology — Gap-Direction.md)
+     → Chỉ fill đúng hướng mới reward
+     → Hướng = f(surrounding chunks) → mỗi người RIÊNG
+
+  ⑤ PFC KHÔNG LUÔN BIẾT (exist trước awareness)
+     → "Chán nhưng không biết cần gì" = body-need có, PFC chưa identify
+     → PFC guess sai direction = "tiktok" thay vì "vận động"
+
+  ⑥ CÓ THỂ CONFLICT (internal tension)
+     → "Ăn ngon vs dáng đẹp" = 2 body-needs, opposite direction
+     → PFC arbitrate → suppress 1 → cost (Inter-Body §4)
+     → Mâu thuẫn nội tâm = BÌNH THƯỜNG, không bất thường
+
+  ⑦ CÓ THỂ BỊ HIJACK (temporary distortion)
+     → Hormone (limerence): amplify 1 body-need → override all others
+     → Scam: control input channels → direction distort
+     → Propaganda: collective fear → priority override
+     → Domain Reality = final arbiter ALWAYS
+
+  (Inter-Body-Mechanism.md §2.4: 7 properties full context)
+```
+
+### §1.5 — 4 loại theo immediacy
+
+```
+┌─────────────────────────────────────────────────────┐
+│ IMMEDIATE (seconds-minutes):           [① dominant] │
+│   Đói, đau, nóng. PFC biết rõ.                     │
+│   Direction rõ ràng.                                │
+├─────────────────────────────────────────────────────┤
+│ SHORT-TERM (hours-days):              [①+② mix]    │
+│   Chán, cô đơn, mệt.                               │
+│   PFC CÓ THỂ KHÔNG biết rõ                         │
+│   (lướt tiktok nhưng thật ra cần vận động).         │
+├─────────────────────────────────────────────────────┤
+│ LONG-TERM (months-years):          [② meta dominant]│
+│   Career, Imagine-Final, relationship direction.    │
+│   PFC BUILD direction qua nhiều năm.                │
+├─────────────────────────────────────────────────────┤
+│ STRUCTURAL (always running):   [①hw + ②structural] │
+│   Social belonging. Autonomy. Coherence.             │
+│   PFC thường KHÔNG aware (until violated).          │
+└─────────────────────────────────────────────────────┘
+
+  (Inter-Body-Mechanism.md §2.5: 4 immediacy types full context)
 ```
 
 ---
@@ -178,20 +352,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Body-input TRỰC TIẾP drive chunk matching
     → Signal strength tùy delta giữa input và compiled baseline
 
+  TYPE A/B DIMENSION (Reward-Signal-Architecture.md §1):
+    → Sensory-Driven ≈ TYPE B territory (direct state signals):
+      Touch (CT afferents), temperature, pain, basic taste = hardware-level
+      Non-opioid pathways, below PFC, minimal cortical involvement
+    → Sensory-Driven CÓ THỂ CÓ Type A component khi cortical evaluation:
+      Nhạc hay = auditory + cortical pattern match → Type A (evaluative)
+      Ăn ngon = taste + hedonic evaluation → A + B compound
+    → "Pure sensory" = mostly Type B. "Sensory + evaluation" = A + B.
+
   🟢 RESEARCH:
     → Sensory processing pathways: established neuroscience
     → Hedonic responses in animals: Berridge facial coding (tongue protrusion)
     → Taste preference without cognition: Berridge 2003 (dopamine-depleted rats
       still show liking reactions to sucrose placed in mouth)
-
-  🟡 TYPE A/B MAPPING (v1.2 — Reward-Signal-Architecture.md §1):
-    → Sensory-Driven ≈ TYPE B territory (direct state signals):
-      Touch (CT afferents), temperature, pain, basic taste = hardware-level
-      → Non-opioid pathways, below PFC, minimal cortical involvement
-    → Sensory-Driven CÓ THỂ CÓ Type A component khi cortical evaluation:
-      Nhạc hay = auditory + cortical pattern match → Type A (evaluative)
-      Ăn ngon = taste + hedonic evaluation → A + B compound
-    → "Pure sensory" = mostly Type B. "Sensory + evaluation" = A + B.
 ```
 
 ### §2.3 — Pattern-Driven (từ chunk network nội bộ)
@@ -211,14 +385,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ⑤ CẢ reward VÀ dissonance
     ⑥ CẦN compiled chunks làm prerequisite
 
-  5 CƠ CHẾ TRIGGER (chunks fire nội bộ):
+  6 CƠ CHẾ TRIGGER (chunks fire nội bộ):
 
     ⓐ REPLAY — hippocampus phát lại experience cũ
        → Sleep replay (🟢 Walker 2017)
        → Awake replay (spontaneous recall)
        → "Nhớ lại bị chó cắn" → body respond sợ
 
-    ⓑ PREVIEW — PFC hoặc hippocampus simulate future
+    ��� PREVIEW — PFC hoặc hippocampus simulate future
        → Imagine-Final preview: "nếu mua xe thì sẽ thế nào"
        → Body pre-feel: ~20-60% fidelity (Imagination.md §2)
        → Chuột cũng có: hippocampal preplay trước navigation
@@ -239,6 +413,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → Collins & Loftus 1975 🟢
        → Cascade có thể activate patterns tạo dissonance mới
 
+    ⓕ CONTEXT-FREE CHUNK FIRE — trauma chunk fires without context:
+       → Chunk.md §2.6: context-free chunks = ④ state only, THIẾU ①②③
+       → Sensory cue → amygdala low road match (~12ms) → chunk fires NỘI BỘ
+       → Body responds AS IF in original trauma (full state metadata fires)
+       → = Pattern-Driven vì chunk fires NỘI BỘ, không phải external threat
+       → NHƯNG chunk THIẾU temporal/spatial context → body KHÔNG BIẾT là quá khứ
+       → PFC arrives ~200ms SAU → corrective signal LATE + may be OFFLINE
+       → = Flashback mechanism (PTSD-Analysis.md §4)
+       → = ⓐ Replay KHÁC: replay = hippocampal, CÓ context → "nhớ lại"
+         ⓕ Context-free = amygdala, KHÔNG context → "sống lại"
+       → 🟢 LeDoux 1996: low road ~12ms, 🟢 Brewin 2010: S-rep
+
   VÍ DỤ DISSONANCE:
     → Chị-A nghe chị-B khoe con → so sánh → chạnh lòng (comparison)
     → Einstein thấy vật lý mâu thuẫn → bứt rứt (gap detect)
@@ -251,22 +437,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → So sánh "mình giỏi hơn trước" → tự tin (comparison)
     → Gap fill: "À, hiểu rồi!" → opioid burst (gap filled)
 
+  TYPE A/B DIMENSION (Reward-Signal-Architecture.md §1):
+    → Pattern-Driven = primarily TYPE A territory (evaluative):
+      Cortical pattern match → OFC/vmPFC evaluation → opioid (if match)
+      Insight, coherence, preview = all require cortical processing
+    → Pattern-Driven CÓ THỂ kích hoạt Type B:
+      Replay of touch memory → body re-simulate → B partial activation
+      Preview of exercise → motor cortex pre-activate → B trace
+    → A Gate B (Reward-Signal-Architecture.md §3):
+      A evaluation MODULATES B body-state response
+      = WHY "nghĩ về ôm" ≠ "ôm thật" (preview fidelity < 100%)
+
   🟢 RESEARCH:
     → Hippocampal replay/preplay: Pfeiffer & Foster 2013, Wilson & McNaughton 1994
     → Spreading activation: Collins & Loftus 1975
     → Social comparison: Festinger 1954
     → ACC error detection: Bush et al. 2000
-
-  🟡 TYPE A/B MAPPING (v1.2 — Reward-Signal-Architecture.md §1):
-    → Pattern-Driven = primarily TYPE A territory (evaluative):
-      Cortical pattern match → OFC/vmPFC evaluation → opioid (if match)
-      = Insight, coherence, preview = all require cortical processing
-    → Pattern-Driven CÓ THỂ kích hoạt Type B:
-      Replay of touch memory → body re-simulate → B partial activation
-      Preview of exercise → motor cortex pre-activate → B trace
-    → Pattern-Driven × A Gate B (Reward-Signal-Architecture.md §3):
-      A evaluation MODULATES B body-state response
-      = WHY "nghĩ về ôm" ≠ "ôm thật" (preview fidelity < 100%)
 ```
 
 ### §2.4 — So sánh 2 nguồn
@@ -278,6 +464,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 │ Trigger              │ Domain stimulus      │ Internal chunk fire  │
 │ Direction            │ Outside → In         │ Inside → Body        │
 │ Primary zones        │ D + C                │ B + C (A optional)   │
+│ Type A/B             │ Mostly Type B        │ Mostly Type A        │
 │ Animals              │ ĐẦY ĐỦ              │ CÓ nhưng limited     │
 │ PFC cần?             │ KHÔNG                │ Optional             │
 │ Timing               │ ms → seconds         │ seconds → years      │
@@ -291,6 +478,53 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ CẢ 2 NGUỒN → có thể trigger BẤT KỲ chunk dynamics nào (§3)
 ⭐ KHÔNG LOẠI TRỪ: 1 event có thể kích hoạt CẢ 2 nguồn cùng lúc
    VD: ăn đồ ăn (sensory) + nhớ lại lần ăn trước ngon hơn (pattern)
+```
+
+### §2.5 — Complexity Spectrum (cùng mechanism, khác substrate)
+
+```
+🟡 3 DYNAMICS (§3) HOẠT ĐỘNG Ở MỌI SUBSTRATE LEVEL:
+
+  ┌─────────────────────────────────────────────────────────────────┐
+  │ SIMPLE (physical objects, sensory patterns):                     │
+  │   Chunk-Miss: áo mềm baseline → áo cứng = "tệ hơn quen"      │
+  │   Chunk-Shift: thức ăn quen → phát hiện hết hạn = valence flip │
+  │   Chunk-Gap: công thức thiếu 1 gia vị → "thấy thiếu gì đó"    │
+  ├─────────────────────────────────────────────────────────────────┤
+  │ SOCIAL (entities, relationships):                                │
+  │   Chunk-Miss: bạn thân absent = "nhớ"                           │
+  │   Chunk-Shift: bạn thân phản bội = valence flip entity chunks  │
+  │   Chunk-Gap: "có vẻ nó buồn gì đó" = detect gap in SPM model  │
+  ├─────────────────────────────────────────────────────────────────┤
+  │ META (abstract compiled structures):                             │
+  │   Chunk-Miss: Imagine-Final không đạt = compiled preview missed │
+  │               Status drop = compiled position lost               │
+  │               Obligation violated = compiled prediction broken   │
+  │   Chunk-Shift: Identity challenge = self-schema valence shift   │
+  │   Chunk-Gap: "Cuộc sống thiếu meaning" = meta-gap in coherence │
+  └─────────────────────────────────────────────────────────────────┘
+
+  ⭐ KEY INSIGHT — TẦNG ③ COLLAPSE:
+
+    Imagine-Final, Obligation, Identity, Status:
+    = CÙNG chunk dynamics (Gap/Miss/Shift)
+    = Chỉ khác SUBSTRATE LEVEL (meta-compiled structures)
+    = Khác timescale + PFC involvement + intervention approach
+    = KHÔNG phải mechanism riêng — KHÔNG CẦN tầng phân loại mới
+
+    Tại sao meta FEELS khác:
+    → Network size lớn hơn (identity = hundreds of chunks)
+    → Timescale dài hơn (career gap = years)
+    → PFC involvement nhiều hơn (abstract requires cortical)
+    → Nhưng BODY-FEEDBACK MECHANISM = SAME: Gap/Miss/Shift
+
+    → Parsimony: 3 dynamics explain ALL levels
+    → Can thiệp: identify WHICH dynamic + WHICH substrate
+    → "Mất ý nghĩa cuộc sống" = Meta Chunk-Gap = ACC detect
+      inconsistency in coherence network → body signal "bứt rứt"
+      → same mechanism as "vật lý mâu thuẫn" nhưng khác substrate
+
+  (Inter-Body-Mechanism.md §2.2: complexity spectrum defined)
 ```
 
 ---
@@ -312,6 +546,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → KHÔNG loại trừ — 1 event có thể trigger 2-3 dynamics cùng lúc (§4)
   → Áp dụng cho CẢ reward VÀ dissonance (khác direction, cùng mechanism)
   → Có thể trigger bởi CẢ sensory-driven VÀ pattern-driven (§2)
+  → Hoạt động ở MỌI substrate level: Simple / Social / Meta (§2.5)
 ```
 
 ### §3.1 — Chunk-Shift (valence thay đổi)
@@ -410,7 +645,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Tương tự: mặc áo mềm quen rồi, mặc áo cứng → body signal NGAY
       TRƯỚC KHI PFC kịp "nhớ" áo mềm
 
-  3 VARIANTS:
+  4 VARIANTS:
 
     ⓐ MISS RÕ — PFC biết thiếu gì:
        → TikTok quen → máy hỏng → "muốn xem TikTok mà không được"
@@ -432,6 +667,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
          ở C+D level → PFC KHÔNG có verbal label
        → Khi pattern fire lại → opioid → "thoải mái mà không biết vì sao"
        → Sở thích tùy người = compiled patterns tùy experience cá nhân
+
+    ⓓ MISS IRRESOLVABLE — hardware prevents resolution:
+       → Normal miss (ⓐⓑⓒ): miss → adjust → resolve (seconds-days)
+       → Irresolvable miss: hardware NGĂN CẢN resolution
+       → Parkinson-Analysis.md §5.2: PFC predict "bước đi"
+         → gate LOCKED → body KHÔNG bước → MISMATCH
+         → Adjust → try harder → STILL fail → CANNOT resolve
+       → = Chronic prediction-delta mà MỌI attempt đều tạo miss MỚI
+       → Accumulation: frustration + helplessness + cortisol chronic↑
+       → UNIQUE: chưa condition nào tạo irresolvable miss RÕ bằng Parkinson
+         (Addiction: execution OK. Depression: IF ép → CÓ THỂ. Parkinson: CAN'T.)
+       → 🟡 Framework: irresolvable miss = new Chunk-Miss variant (from drill)
 
   MISS REWARD (hướng ngược):
     → Reuniting: gặp lại bạn cũ → pattern fire lại → opioid
@@ -467,6 +714,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 
 ### §3.3 — Chunk-Gap (pattern chưa tồn tại)
+
+#### §3.3a — Core: Definition + Mechanism
 
 ```
 ⭐ CHUNK-GAP — PATTERN CHƯA CÓ NHƯNG NETWORK DETECT THIẾU:
@@ -529,205 +778,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Drive drill → fill gap → "à, chunk dynamics classification!"
       → Insight = gap filled → opioid
 
-    Xe showroom:
-      → Imagine-Final preview: "có xe sẽ thế nào" (pattern-driven)
-      → GAP giữa Imagine-Final và reality (chưa có xe)
-      → Drive kiếm tiền mua → fill gap → reward
-
-    Jensen Huang + NVIDIA:
-      → Imagine-Final: GPU compute sẽ thay đổi thế giới
-      → 30 năm trước: NVIDIA chưa tồn tại = GAP
-      → Drive build → 30 năm fill gap → sustained reward qua micro arcs
-
     Chunk-Gap + CONFLICT (sub-type):
       → 2 patterns fire CONTRADICTORY → không thể cả 2 đúng
       → GAP = thiếu RESOLUTION giữa 2 patterns
       → VD: cognitive dissonance (Festinger 1957)
       → VD: "nên ở hay đi?" — 2 Imagine-Finals compete, gap = no resolution
-
-  GAP → NOVELTY DRIVE LOOP:
-
-    ┌─────────────────────────────────────────┐
-    │                                         │
-    │  Gap detected (ACC/insula)              │
-    │       ↓                                 │
-    │  Body signal: "bứt rứt, thiếu gì đó"   │
-    │       ↓                                 │
-    │  Drive: explore, research, try          │
-    │       ↓                                 │
-    │  Fill gap (new chunks compile)          │
-    │       ↓                                 │
-    │  Opioid reward (effort-proportional)    │
-    │       ↓                                 │
-    │  VTA habituate → new baseline           │
-    │       ↓                                 │
-    │  Network detect NEW gap                 │
-    │       ↓                                 │
-    │  [LOOP continues]                       │
-    │                                         │
-    │  = Novelty drive = perpetual gap-fill   │
-    │  = "Tò mò" = body detecting gaps        │
-    │  = Science = systematic gap-filling      │
-    │  = Art = aesthetic gap-filling           │
-    └─────────────────────────────────────────┘
-
-  ⭐ GAP → MISS TRANSITION:
-
-    Chunk-Gap thuần: ACC detect "thiếu" → body bứt rứt → drive tìm.
-    NHƯNG Gap có thể CHUYỂN thành Chunk-Miss qua cơ chế sau:
-
-
-    ① CƠ CHẾ CỐT LÕI — Imagine-Final preview compile thành baseline:
-
-    ┌─────────────────────────────────────────────────────────────┐
-    │                                                             │
-    │  Gap detected (ACC) → PFC build Imagine-Final preview       │
-    │    ↓                                                        │
-    │  Imagine-Final ổn định + lặp nhiều lần                      │
-    │    ↓                                                        │
-    │  Body compile preview thành expectation baseline             │
-    │  (§5 Quality Baseline Shift: repeated preview = new normal) │
-    │    ↓                                                        │
-    │  Body now EXPECTS cái chưa-từng-có                          │
-    │    ↓                                                        │
-    │  Reality vẫn KHÔNG có → VTA: actual < baseline              │
-    │    ↓                                                        │
-    │  = Chunk-Gap (ACC, mơ hồ) → Chunk-Miss (VTA, cụ thể)      │
-    │                                                             │
-    └─────────────────────────────────────────────────────────────┘
-
-      Điều kiện: Imagine-Final phải ỔN ĐỊNH (không đổi) + LẶP đủ nhiều.
-      Nếu Imagine-Final ĐỔI → gap cũng đổi → body fire pattern MỚI → path KHÁC.
-
-
-    ② TẠI SAO PREVIEW LẶP — Cortisol holding signal:
-
-      Gap kéo dài + unresolved → cortisol fires "still need change"
-      (Cortisol-Baseline.md §3.8: holding signal giữ imagination loop active)
-      → PFC bị BUỘC quay lại Imagine-Final → preview lặp CƯỠNG BỨC
-      → Compile baseline NHANH hơn so với preview tự nguyện
-      → = "Không ngừng nghĩ về nó" = cortisol holding loop
-      → = Cortisol = ACCELERATOR cho Gap→Miss transition
-
-
-    ③ DIRECTION TAG — Cùng transition, KHÁC outcome:
-
-      Cortisol direction (Cortisol-Baseline.md §3.5) quyết định CHẤT LƯỢNG:
-
-      Gap + Novelty cortisol (curiosity body state):
-        → Baseline compile với opioid tag
-        → Miss = "muốn + chưa có" → DRIVE seek → productive
-        → = "Kỳ vọng hào hứng"
-
-      Gap + Threat cortisol (anxiety body state):
-        → Baseline compile với cortisol tag
-        → Miss = "sợ + chưa có" → ANXIETY loop → destructive
-        → = "Kỳ vọng lo sợ"
-
-      → Cùng Gap→Miss mechanism, KHÁC direction → KHÁC outcome hoàn toàn
-
-
-    ④ TRANSITION SPEED — Nhanh hay chậm:
-
-      Phụ thuộc:
-        → Preview vivid (nhiều modality) → compile NHANH → transition nhanh
-        → Preview mờ (1 modality) → compile CHẬM → Gap kéo dài
-        → Cortisol HIGH → holding signal mạnh → preview lặp nhiều → NHANH
-        → Cortisol LOW → holding signal yếu → preview ít → CHẬM
-
-
-    ⑤ KHI NÀO TRANSITION KHÔNG XẢY RA — Imagine-Final update:
-
-      Nếu Imagine-Final UPDATE SÁT REALITY → baseline track reality
-      → Delta nhỏ → KHÔNG thành Miss mạnh.
-
-      Imagine-Final update khi:
-        → Domain feedback loop: HÀNH ĐỘNG → nhận feedback → update
-          (Imagine-Final.md §1.5: action → domain feedback → update)
-          Người CHỈ NGHĨ mà không hành động → KHÔNG update
-        → Background processing: sleep đủ + cortisol không quá cao
-          (Imagine-Final.md §1.5 Phase 3: vô thức re-organize chunks)
-        → Chunks liên quan đủ lớn: raw material cho background processing
-          (điều kiện CẦN, không phải ĐỦ)
-
-      Hầu hết người: chunks ổn định → Imagine-Final ổn định → preview lặp
-      → transition gần như chắc chắn khi gap kéo dài.
-
-
-    ⑥ SAU KHI GAP FILLED — Cortisol inertia:
-
-      Gap kéo dài → cortisol baseline đã SHIFT LÊN (Cortisol-Baseline.md §2.3)
-      → Gap filled → opioid reward fire
-      → NHƯNG cortisol KHÔNG drop ngay (inertia)
-      → Body vẫn feel "thiếu gì đó" dù ĐÃ ĐẠT ĐƯỢC
-      → = "Post-project blues" / "đạt rồi mà vẫn trống"
-      → Duration: days (gap ngắn) → weeks-months (gap years)
-
-
-    ⑦ ỨNG DỤNG — "Kỳ vọng càng cao, thất vọng càng lớn":
-
-      Folk wisdom này = Gap→Miss transition:
-
-        Preview VIVID + lặp NHIỀU + Imagine-Final ỔN ĐỊNH
-          → Body compile baseline CAO
-            → Reality < baseline → Chunk-Miss delta LỚN → "thất vọng lớn"
-
-        Preview THẤP hoặc KHÔNG preview
-          → Baseline thấp → Reality ≥ baseline → "bất ngờ dễ chịu"
-
-      2 trường hợp thất vọng phổ biến:
-
-        Imagine-Final vượt quá khả năng thực thi:
-          → Preview "sẽ đạt X" nhưng resource/skill không đủ
-          → Reality << baseline → Miss CỰC MẠNH
-
-        Imagine-Final đúng hướng nhưng plan triển khai LỆCH:
-          → Preview "X sẽ thế này" → plan đi path khác
-          → Reality ĐẠT ĐƯỢC nhưng KHÁC compiled preview
-          → "Đạt rồi mà không sướng" = reality ≠ compiled baseline
-
-      VÍ DỤ:
-        → Trẻ thấy bạn được mẹ ôm → PFC preview "nếu mình được ôm"
-          → Preview lặp → baseline shift → thiếu = Chunk-Miss cụ thể
-          → Ban đầu Gap (mơ hồ) → sau thành Miss (rõ ràng, đau)
-
-        → Xe showroom: preview "có xe" lặp nhiều tháng
-          → Body compile thành expectation → chưa có = Miss
-          → Khác với "chưa biết xe tồn tại" (pure Gap)
-
-
-  ⭐ GAP DECOMPOSITION — MINI-ARC DYNAMICS:
-
-    Big Gap tồn tại YEARS (e.g., Einstein unified physics).
-    Body KHÔNG THỂ chịu Gap signal liên tục mà không reward.
-    → NẾU gap không decompose → burnout / bỏ cuộc hoặc Gap→Miss transition.
-
-    ┌─────────────────────────────────────────────────────────────┐
-    │                                                             │
-    │  BIG GAP: "unified physics framework"                       │
-    │    ↓                                                        │
-    │  Decompose thành MINI GAPS (tự nhiên hoặc PFC chủ động):   │
-    │    → Mini gap 1: photoelectric effect → FILL → mini opioid  │
-    │    → Mini gap 2: Brownian motion → FILL → mini opioid       │
-    │    → Mini gap 3: special relativity → FILL → bigger opioid  │
-    │    → BIG GAP FILL: E=mc² → compound opioid burst           │
-    │                                                             │
-    │  Mỗi mini fill:                                             │
-    │    → Opioid reward (effort-proportional: 03-Reward.md §4.7) │
-    │    → VTA reset → detect NEXT mini gap → sustain drive       │
-    │                                                             │
-    └─────────────────────────────────────────────────────────────┘
-
-    Ứng dụng:
-      → PhD: big gap "thesis" → mini gaps (chapters, experiments)
-      → Game design: "win game" → mini gaps (levels, quests)
-      → Education: "hiểu vật lý" → mini gaps (bài tập, lab)
-      → Startup: "build product" → mini gaps (sprints, milestones)
-
-    Gap KHÔNG decompose → kéo dài → CÓ THỂ transition sang Miss (ở trên).
-    Gap decompose tốt → sustained drive + regular reward.
-    = PFC Mode 5 Strategic (Drive.md §2): plan decomposition.
-
 
   🟢 RESEARCH:
     → ACC error/conflict detection: Bush, Luu, Posner 2000
@@ -735,6 +790,168 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Curiosity as information gap: Loewenstein 1994 (information gap theory)
     → Aha moments and ACC: Kounios & Beeman 2009
     → Felt sense: Gendlin 1978 (body detects before verbal)
+```
+
+#### §3.3b — Gap → Novelty Drive Loop
+
+```
+⭐ GAP → NOVELTY DRIVE = PERPETUAL GAP-FILL CYCLE:
+
+  ┌─────────────────────────────────────────┐
+  │                                         │
+  │  Gap detected (ACC/insula)              │
+  │       ↓                                 │
+  │  Body signal: "bứt rứt, thiếu gì đó"   │
+  │       ↓                                 │
+  │  Drive: explore, research, try          │
+  │       ↓                                 │
+  │  Fill gap (new chunks compile)          │
+  │       ↓                                 │
+  │  Opioid reward (effort-proportional)    │
+  │       ↓                                 │
+  │  VTA habituate → new baseline           │
+  │       ↓                                 │
+  │  Network detect NEW gap                 │
+  │       ↓                                 │
+  │  [LOOP continues]                       │
+  │                                         │
+  │  = Novelty drive = perpetual gap-fill   │
+  │  = "Tò mò" = body detecting gaps        │
+  │  = Science = systematic gap-filling      │
+  │  = Art = aesthetic gap-filling           │
+  └─────────────────────────────────────────┘
+```
+
+#### §3.3c — Gap → Miss Transition
+
+```
+⭐ GAP CÓ THỂ CHUYỂN THÀNH CHUNK-MISS:
+
+  Chunk-Gap thuần: ACC detect "thiếu" → body bứt rứt → drive tìm.
+  NHƯNG Gap có thể CHUYỂN thành Chunk-Miss qua cơ chế sau:
+
+
+  ① CƠ CHẾ CỐT LÕI — Imagine-Final preview compile thành baseline:
+
+  ┌─────────────────────────────────────────────────────────────┐
+  │                                                             │
+  │  Gap detected (ACC) → PFC build Imagine-Final preview       │
+  │    ↓                                                        │
+  │  Imagine-Final ổn định + lặp nhiều lần                      │
+  │    ↓                                                        │
+  │  Body compile preview thành expectation baseline             │
+  │  (§5 Quality Baseline Shift: repeated preview = new normal) │
+  │    ↓                                                        │
+  │  Body now EXPECTS cái chưa-từng-có                          │
+  │    ↓                                                        │
+  │  Reality vẫn KHÔNG có → VTA: actual < baseline              │
+  │    ↓                                                        │
+  │  = Chunk-Gap (ACC, mơ hồ) → Chunk-Miss (VTA, cụ thể)      │
+  │                                                             │
+  └─────────────────────────────────────────────────────────────┘
+
+    Điều kiện: Imagine-Final phải ỔN ĐỊNH (không đổi) + LẶP đủ nhiều.
+    Nếu Imagine-Final ĐỔI → gap cũng đổi → body fire pattern MỚI → path KHÁC.
+
+
+  ② TẠI SAO PREVIEW LẶP — Cortisol holding signal:
+
+    Gap kéo dài + unresolved → cortisol fires "still need change"
+    (Cortisol-Baseline.md §3.8: holding signal giữ imagination loop active)
+    → PFC bị BUỘC quay lại Imagine-Final → preview lặp CƯỠNG BỨC
+    → Compile baseline NHANH hơn so với preview tự nguyện
+    → = "Không ngừng nghĩ về nó" = cortisol holding loop
+    → = Cortisol = ACCELERATOR cho Gap→Miss transition
+
+
+  ③ DIRECTION TAG — Cùng transition, KHÁC outcome:
+
+    Cortisol direction (Cortisol-Baseline.md §3.5) quyết định CHẤT LƯỢNG:
+
+    Gap + Novelty cortisol (curiosity body state):
+      → Baseline compile với opioid tag
+      → Miss = "muốn + chưa có" → DRIVE seek → productive
+      → = "Kỳ vọng hào hứng"
+
+    Gap + Threat cortisol (anxiety body state):
+      → Baseline compile với cortisol tag
+      → Miss = "sợ + chưa có" → ANXIETY loop → destructive
+      → = "Kỳ vọng lo sợ"
+
+    → Cùng Gap→Miss mechanism, KHÁC direction → KHÁC outcome hoàn toàn
+
+
+  ④ ỨNG DỤNG — "Kỳ vọng càng cao, thất vọng càng lớn":
+
+    Folk wisdom này = Gap→Miss transition:
+
+      Preview VIVID + lặp NHIỀU + Imagine-Final ỔN ĐỊNH
+        → Body compile baseline CAO
+          → Reality < baseline → Chunk-Miss delta LỚN → "thất vọng lớn"
+
+      Preview THẤP hoặc KHÔNG preview
+        → Baseline thấp → Reality ≥ baseline → "bất ngờ dễ chịu"
+
+    VÍ DỤ:
+      → Trẻ thấy bạn được mẹ ôm → PFC preview "nếu mình được ôm"
+        → Preview lặp → baseline shift → thiếu = Chunk-Miss cụ thể
+        → Ban đầu Gap (mơ hồ) → sau thành Miss (rõ ràng, đau)
+
+      → Xe showroom: preview "có xe" lặp nhiều tháng
+        → Body compile thành expectation → chưa có = Miss
+        → Khác với "chưa biết xe tồn tại" (pure Gap)
+
+
+  ⑤ KHI NÀO TRANSITION KHÔNG XẢY RA:
+
+    Nếu Imagine-Final UPDATE SÁT REALITY → baseline track reality
+    → Delta nhỏ → KHÔNG thành Miss mạnh.
+
+    Imagine-Final update khi:
+      → Domain feedback loop: HÀNH ĐỘNG → nhận feedback → update
+      → Background processing: sleep đủ + cortisol không quá cao
+      → Chunks liên quan đủ lớn: raw material cho background processing
+
+    Hầu hết người: chunks ổn định → Imagine-Final ổn định → preview lặp
+    → transition gần như chắc chắn khi gap kéo dài.
+```
+
+#### §3.3d — Gap Decomposition (Mini-Arc Dynamics)
+
+```
+⭐ GAP DECOMPOSITION — MINI-ARC DYNAMICS:
+
+  Big Gap tồn tại YEARS (e.g., Einstein unified physics).
+  Body KHÔNG THỂ chịu Gap signal liên tục mà không reward.
+  → NẾU gap không decompose → burnout / bỏ cuộc hoặc Gap→Miss transition.
+
+  ┌─────────────────────────────────────────────────────────────┐
+  │                                                             │
+  │  BIG GAP: "unified physics framework"                       │
+  │    ↓                                                        │
+  │  Decompose thành MINI GAPS (tự nhiên hoặc PFC chủ động):   │
+  │    → Mini gap 1: photoelectric effect → FILL → mini opioid  │
+  │    → Mini gap 2: Brownian motion → FILL → mini opioid       │
+  │    → Mini gap 3: special relativity → FILL → bigger opioid  │
+  │    → BIG GAP FILL: E=mc² → compound opioid burst           │
+  │                                                             │
+  │  Mỗi mini fill:                                             │
+  │    → Opioid reward (effort-proportional: 03-Reward.md §4.7) │
+  │    → VTA reset → detect NEXT mini gap → sustain drive       │
+  │                                                             │
+  └─────────────────────────────────────────────────────────────┘
+
+  Ứng dụng:
+    → PhD: big gap "thesis" → mini gaps (chapters, experiments)
+    → Game design: "win game" → mini gaps (levels, quests)
+    → Education: "hiểu vật lý" → mini gaps (bài tập, lab)
+    → Startup: "build product" → mini gaps (sprints, milestones)
+
+  Gap KHÔNG decompose → kéo dài → CÓ THỂ transition sang Miss (§3.3c).
+  Gap decompose tốt → sustained drive + regular reward.
+  = PFC Mode 5 Strategic (Drive.md §2): plan decomposition.
+
+  🟢 RESEARCH:
     → Goal gradient effect: Hull 1932 (effort increases near goal = mini-arc)
     → Progress principle: Amabile & Kramer 2011
       (small wins = most powerful motivator in creative work)
@@ -794,7 +1011,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Fill Chunk-Gap: E=mc² giải mâu thuẫn vật lý → gap filled → opioid MẠNH
     Chunk-Shift: self-schema shift ("tôi = người giải được") → positive
     Chunk-Miss (reverse): years of "thiếu giải pháp" → NÓ ĐÂY → relief + reward
-    → Compound 3 dynamics → "sướng cực kỳ" (user's description)
+    → Compound 3 dynamics → euphoria cực kỳ
 
 
   ⭐ COMPOUND PRINCIPLE:
@@ -808,7 +1025,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       (cùng loss, khác compound level)
 
 
-  🟡 CONDITIONAL INTERACTION MODEL (v1.2 — Drill R7):
+  🟡 CONDITIONAL INTERACTION MODEL (Reward-Signal-Architecture.md §6):
 
     ⚠️ COMPOUND ≠ ADDITIVE.
     Công thức Σ ở trên = APPROXIMATION. Thực tế: CONDITIONAL.
@@ -837,7 +1054,6 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     → Diagnostic: compound cảm xúc UNEXPECTED = check 4 variables
     → Chi tiết: Reward-Signal-Architecture.md §6 (Conditional Interaction Model)
-    → Source: Drill §3.15 (R7)
 ```
 
 ---
@@ -901,7 +1117,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │                                                              │
     │  → compile_rate ≈ f(repetition × saliency × peak_valence    │
     │                     × multi_modal × contingency)             │
-    │  → Chunk.md v2.0 §2.2: same 5-parameter formula             │
+    │  → Chunk.md v2.2 §2.2: same 5-parameter formula             │
     │                                                              │
     └──────────────────────────────────────────────────────────────┘
 
@@ -926,7 +1142,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ① BIDIRECTIONAL: baseline shift LÊN và XUỐNG đều được
     ② ASYMMETRIC: shift LÊN dễ hơn shift XUỐNG
        → 🟢 Loss aversion (Kahneman & Tversky 1979): losing hurts ~2x gaining
-       → Body resist quality decrease MẠnh hơn accept quality increase
+       → Body resist quality decrease MẠNH hơn accept quality increase
     ③ DOMAIN-SPECIFIC: baseline shift ĐỘC LẬP per domain
        → Đồ ăn baseline và quần áo baseline shift RIÊNG
        → Có thể quen đồ ăn ngon nhưng chưa quen quần áo đẹp
@@ -937,7 +1153,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §6 — MAP VÀO V7.8 CYCLE ARCHITECTURE
+## §6 — MAP VÀO FRAMEWORK
+
+### §6.1 — v7.8 Cycle Architecture
 
 ```
 🟡 CHUNK DYNAMICS TRONG V7.8 PERCEPTION-ACTION CYCLE:
@@ -995,9 +1213,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → PFC role: observe, label, choose response, orchestrate
 ```
 
----
-
-## §7 — MAP VÀO H10 PRECONDITIONS
+### §6.2 — H10 Preconditions
 
 ```
 🟡 CHUNK DYNAMICS × H10 5 PRECONDITIONS:
@@ -1018,9 +1234,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                    │ new info    │ (no compile │ DETECT gap  │
   │                    │             │ = no miss)  │             │
   ├────────────────────┼─────────────┼─────────────┼─────────────┤
-  │ P3 prediction-delta       │ Shift =     │ Miss = neg. │ Gap detect  │
-  │ (biến động đủ)     │ valence     │ prediction  │ = ACC       │
-  │                    │ delta       │ error       │ signal      │
+  │ P3 prediction-     │ Shift =     │ Miss = neg. │ Gap detect  │
+  │ delta              │ valence     │ prediction  │ = ACC       │
+  │ (biến động đủ)     │ delta       │ error       │ signal      │
   ├────────────────────┼─────────────┼─────────────┼─────────────┤
   │ P4 Goldilocks      │ Shift xảy   │ N/A (body   │ Gap phải    │
   │ (40-70% match)     │ ra ở BẤT KỲ │ already     │ detectable  │
@@ -1032,7 +1248,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                    │ shift event │ carries tag │ chunks tag  │
   └────────────────────┴─────────────┴─────────────┴─────────────┘
 
-  INSIGHT:
+  INSIGHTS:
   → Chunk-Miss KHÔNG CẦN P4 (Goldilocks) — body already has baseline
   → Chunk-Gap CẦN P2 (enough network to detect gap)
   → Chunk-Shift CẦN P3 (delta đủ lớn để register)
@@ -1041,7 +1257,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §8 — RESEARCH ANCHORS
+## §7 — RESEARCH ANCHORS
 
 ```
 🟢 HIGH CONFIDENCE (each component well-established):
@@ -1074,6 +1290,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Hippocampal preplay: Pfeiffer & Foster 2013
     🟢 Social comparison: Festinger 1954
 
+  GAP DYNAMICS:
+    🟢 Goal gradient effect: Hull 1932
+    🟢 Progress principle: Amabile & Kramer 2011
+
 
 🟡 FRAMEWORK SYNTHESIS (novel integration):
 
@@ -1104,8 +1324,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Goal gradient (Hull 1932) + progress principle (Amabile 2011) established.
      Formalization as gap decomposition = framework contribution.
 
-  🟡 3 Chunk-Miss variants (rõ / mờ / vô thức):
+  🟡 3+1 Chunk-Miss variants (rõ / mờ / vô thức / irresolvable):
      Each observable. Taxonomy = framework contribution.
+     v1.3→v2.0: ⓓ irresolvable = hardware prevents resolution (Parkinson drill).
+
+  🟡 Context-free chunk as Pattern-Driven variant:
+     PTSD drill: flashback = ⓕ context-free chunk fires internally.
+     Consistent Brewin 2010 DRT + Chunk.md §2.6 context-tag model.
+
+  🟡 v2.0 NEW — Body-Need as aggregate output:
+     Body-need concept established in motivation research.
+     Framing as aggregate of 2-source × 3-dynamics = framework contribution.
+
+  🟡 v2.0 NEW — Complexity Spectrum (Simple → Social → Meta):
+     Each substrate level observable. Unified taxonomy = framework contribution.
+     Tầng ③ collapse: meta-level = same dynamics, different substrate.
+
+  🟡 v2.0 NEW — Cross-cutting clarification:
+     Observation parameters + state modifiers ≠ sources.
+     Conceptual clarification = framework contribution.
 
 
 🔴 SPECULATIVE:
@@ -1120,7 +1357,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §9 — HONEST ASSESSMENT
+## §8 — HONEST ASSESSMENT
 
 ```
 STRENGTHS:
@@ -1133,6 +1370,8 @@ STRENGTHS:
      → Felt sense gap detection (Gendlin, before PFC verbal)
   ✅ Provides foundation for Novelty drive (Chunk-Gap loop)
   ✅ Orthogonal to existing 3 trục — BỔ SUNG, không THAY THẾ
+  ✅ v2.0: Body-Need aggregate framing connects dynamics → behavior
+  ✅ v2.0: Complexity Spectrum shows parsimony (3 dynamics → all levels)
 
 LIMITATIONS:
   ⚠ 3 dynamics boundary: some cases COULD be classified differently
@@ -1141,55 +1380,76 @@ LIMITATIONS:
   ⚠ Exact neural pathways for each dynamic not fully mapped
   ⚠ Compound summation is conceptual, not quantified
   ⚠ Baseline shift timeline lacks precise dose-response data
+  ⚠ Body-Need aggregate concept = framework synthesis, not independently tested
+  ⚠ Complexity Spectrum levels (Simple/Social/Meta) = useful heuristic,
+     not sharp categories — actual substrate is continuous
 
 WHAT THIS FILE DOES NOT DO:
   ✗ Replace intensity classification (02-Dissonance.md)
   ✗ Replace source classification (02-Dissonance.md §3)
   ✗ Replace H10 preconditions (Body-Feedback.md §5)
   ✗ Replace case analyses (01-04 files)
-  → File này THÊM 1 trục phân loại, không xóa trục nào
+  ✗ Replace inter-body mechanism (Inter-Body-Mechanism.md)
+  → File này THÊM trục phân loại + aggregate framing, không xóa trục nào
 ```
 
 ---
 
-## §10 — CROSS-REFERENCES
+## §9 — CROSS-REFERENCES
 
 ```
-📚 REWARD ARCHITECTURE (v1.2 NEW):
+📚 INTER-BODY MECHANISM (v2.0 NEW):
+  → Inter-Body-Mechanism.md v1.0 — Body-Need §2, 3-cost §4, 5-channel §6
+    → §2 Body-Need aggregate: full 7 properties + 4 immediacy types
+    → §2.3 Cross-cutting: obs params + state modifiers ≠ sources
+    → §2.2 Complexity spectrum: Simple→Social→Meta
+    → §4 3-cost model: PFC draft + suppress + uncertainty
+    → §6 5-channel input vector: trigger = vector, not single source
+
+📚 REWARD ARCHITECTURE:
   → Reward-Signal-Architecture.md v1.0 — Type A/B dimension, 5 Profiles, Interaction Model
     → §2 A/B maps to: Sensory-Driven ≈ Type B, Pattern-Driven ≈ Type A
     → §3 A Gates B = evaluation modulates body-state
     → §6 Conditional Interaction Model = replaces simple additive compound
 
 📚 WITHIN BODY-FEEDBACK FOLDER:
-  → Body-Feedback.md §2 — dual-pull architecture
-  → Body-Feedback.md §5 — H10 5 preconditions
+  → Body-Feedback.md v1.1 — §2 dual-pull, §5 H10 5 preconditions
+  → Body-Feedback-Label.md v2.0 — 3-tier vocabulary reference
   → 01-Foundation.md §3 — 6-step interface loop
   → 01-Foundation.md §5 — body-feedback vs feeling 7-layer
-  → 02-Dissonance.md §2 — 5 mini dissonance cases (can relabel per dynamics)
+  → 02-Dissonance.md §2 — 5 mini dissonance cases (per dynamics relabel)
   → 02-Dissonance.md §3 — 3 nguồn khó chịu thật
-  → 02-Dissonance.md §5 — threat 3-case matrix
   → 02-Dissonance.md §8 — trauma loop (compound Shift + Miss + Gap)
   → 02-Dissonance.md §9 — hedonic trap (Chunk-Miss from schema decay)
   → 03-Reward.md §2 — VTA 7-step loop
-  → 03-Reward.md §4 — 7 reward cases (can relabel per dynamics)
+  → 03-Reward.md §4 — 7 reward cases (per dynamics relabel)
   → 03-Reward.md §5 — ô tô paradox (per-person Chunk-Miss/Gap)
   → 04-Integration.md §6-8 — Einstein/hedonic/trauma walkthroughs
 
+📚 HEALTH CONDITIONS (v1.3 preserved):
+  → PTSD-Analysis.md v1.0 §4 — flashback = context-free chunk fire (→ §2.3 ⓕ)
+  → Parkinson-Analysis.md v1.1 §5.2 — chronic irresolvable prediction-delta (→ §3.2 ⓓ)
+  → Chunk.md v2.2 §2.6 — context-tag model (4 metadata types, 2 chunk types)
+
 📚 CHUNK SYSTEM:
-  → Chunk.md v2.0 §1-§4 — substrate, compile, connections, activation
+  → Chunk.md v2.2 §1-§4 — substrate, compile, connections, activation
   → Chunk-Activation-Dynamics.md §2 — probability distribution
   → Chunk-Activation-Dynamics.md §3 — competitive re-linking (Shift mechanism)
   → Chunk-Activation-Dynamics.md §4 — trigger surface
 
 📚 VALENCE + FEELING:
-  → Valence-Propagation.md §4 — valence propagation qua chain (Shift mechanism)
+  → Valence-Propagation.md v1.4 — valence per-entity + chain propagation
   → Feeling.md v2.0 — PFC observation of body-feedback (output of dynamics)
   → Somatic-Articulation-Loop.md — felt sense = Gap detection pre-verbal
 
-📚 OTHER FRAMEWORK:
-  → Cortisol-Baseline.md v2.0 §2.5 — 3 nguồn (nociception = Sensory-Driven)
+📚 GAP + DIRECTION:
+  → Gap-Direction.md v1.1 — gap has direction = f(surrounding chunks)
+    → 4 properties, 2-layer model, unified Tier 1-4
+    → "Chưa biết = không có gap" principle
   → Cortisol-Baseline.md v2.0 §3.5 — chunk association tag (Shift mechanism)
+  → Cortisol-Baseline.md v2.0 §3.8 — holding signal (Gap→Miss accelerator)
+
+📚 OTHER FRAMEWORK:
   → Core-v7.8-Draft.md §1 — perception-action cycle
   → Core-v7.8-Draft.md §4 — unconscious processing (where dynamics fire)
   → Observation/Boredom.md — Chunk-Miss variant ⓑ (miss mờ) + 2-chiều formula
@@ -1198,10 +1458,12 @@ WHAT THIS FILE DOES NOT DO:
      (Đủ=Chunk-Miss, Mất=Chunk-Miss++, Thiếu=Chunk-Gap, Toxic=Chunk-Shift)
   → PFC/Imagination/Imagination.md — preview = Pattern-Driven source
 
-📚 KEY RESEARCH:
+📚 KEY RESEARCH (30+ citations):
+  🟢 Amabile & Kramer 2011 — progress principle
   🟢 Amsel 1958, 1992 — frustration theory
   🟢 Berridge & Robinson 1998, 2003 — wanting vs liking
   🟢 Bouton 2004 — extinction ≠ erasure
+  🟢 Brewin 2010 — Dual Representation Theory (S-rep/C-rep)
   🟢 Brickman et al. 1978 — hedonic adaptation
   🟢 Bush, Luu, Posner 2000 — ACC conflict detection
   🟢 Collins & Loftus 1975 — spreading activation
@@ -1211,9 +1473,10 @@ WHAT THIS FILE DOES NOT DO:
   🟢 Festinger 1957 — cognitive dissonance
   🟢 Flaherty 1996 — consummatory successive contrast
   🟢 Gendlin 1978 — focusing, felt sense
+  🟢 Hull 1932 — goal gradient effect
   🟢 Kahneman & Tversky 1979 — loss aversion
   🟢 Kounios & Beeman 2009 — aha moments, ACC
-  🟢 LeDoux 1996 — fear conditioning
+  🟢 LeDoux 1996 — fear conditioning, low road
   🟢 Loewenstein 1994 — information gap theory of curiosity
   🟢 Nader, Schafe, LeDoux 2000 — reconsolidation
   🟢 Pfeiffer & Foster 2013 — hippocampal preplay
@@ -1224,26 +1487,33 @@ WHAT THIS FILE DOES NOT DO:
 
 ---
 
-> **END OF Body-Feedback-Mechanism.md v1.1**
+> **END OF Body-Feedback-Mechanism.md v2.0**
+>
+> **CHANGELOG v1.3 → v2.0:**
+>   ✅ NEW §1: Body-Need aggregate output (definition, 2 sources, cross-cutting,
+>      7 properties, 4 immediacy). Bridges "dynamics fire" → "body cần gì."
+>   ✅ NEW §2.5: Complexity Spectrum (Simple→Social→Meta) + Tầng ③ collapse.
+>      3 dynamics explain ALL substrate levels → parsimony.
+>   ✅ §1.3: Cross-cutting clarification (obs params + state modifiers ≠ sources).
+>   ✅ §3.3 restructured: sub-sections (core/novelty/transition/decomposition).
+>   ✅ §6: Merged v7.8 map + H10 map into single section.
+>   ✅ §8-§9: Updated assessment + cross-refs for new content + Inter-Body ref.
+>   ✅ All v1.3 content preserved: 2-source, 3 dynamics, compound, baseline shift,
+>      context-free chunk ⓕ, irresolvable miss ⓓ, ALL 30+ research citations.
 >
 > **Summary:** Core mechanism reference for body-feedback chunk dynamics:
->   §2: 2 input sources (Sensory-Driven / Pattern-Driven)
->   §3: 3 chunk dynamics (Chunk-Shift / Chunk-Miss / Chunk-Gap)
->       + Gap→Miss transition + Gap decomposition mini-arc (v1.1)
->   §4: Compound mechanism (multiple dynamics simultaneous)
->   §5: Quality Baseline Shift (bridge Sensory → Miss)
->   §6: Map vào v7.8 cycle architecture
->   §7: Map vào H10 5 preconditions
->   §8: 30 research anchors (19 🟢 + 8 🟡 + 6 🔴)
+>   §1: Body-Need = aggregate output (NEW v2.0)
+>   §2: 2 input sources + Complexity Spectrum (NEW v2.0)
+>   §3: 3 chunk dynamics (restructured Gap sub-sections)
+>   §4: Compound mechanism (Conditional Interaction Model)
+>   §5: Quality Baseline Shift (SNC bridge)
+>   §6: Framework maps (v7.8 + H10)
+>   §7-§9: Research + Assessment + Cross-refs
 >
 > **Trục thứ 4**: orthogonal to existing 3 trục (direction, magnitude, source).
 > **Foundation**: Chunk-Gap = Novelty drive mechanism.
 > **Key research**: SNC (Crespi 1942) proves Chunk-Miss at animal level.
-> **v1.1 additions**: Gap→Miss via Imagine-Final preview compile
->   + Cortisol 3 roles (holding accelerator, direction tag, inertia post-fill)
->   + Mini-arc dynamics (gap decomposition for sustained drive).
-> **v1.2 additions**: §2 Type A/B mapping (Sensory≈B, Pattern≈A),
->   §4 Conditional Interaction Model (NOT additive — 4 variables),
->   cross-refs Reward-Signal-Architecture.md.
+> **v2.0 core additions**: Body-Need aggregate + Complexity Spectrum +
+>   Cross-cutting clarification. All 3 derive from Inter-Body drill insights.
 >
-> **Phiên bản:** v1.2, 2026-05-10.
+> **Phiên bản:** v2.0, 2026-05-16.

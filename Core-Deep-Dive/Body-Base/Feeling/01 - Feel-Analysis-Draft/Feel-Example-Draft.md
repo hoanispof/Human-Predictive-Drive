@@ -46,7 +46,7 @@ construction process explicitly (E118 obsessive inquiry + E124
 meta-inquiry chunks used trong framework building). Internal
 consistency test passed.
 
-**Ready for**: Phase 3 (Self-Pattern-Match.md + Pattern-Resonance.md
+**Ready for**: Phase 3 (Self-Pattern-Match.md + By-Product-Gap-Resonance.md
 content fill, will reference examples here extensively including
 §9b drive chunks) and Phase 4 (Feel-Development.md synthesis using
 §10-§12 + per-section synthesis notes + §9b adult profile vectors).
@@ -70,7 +70,7 @@ Each example entry should follow this structure:
 
 **Chunk(s)**: [Which chunks activated — be specific]
 
-**Stage**: [Self-Pattern Match stage / Pattern Resonance stage]
+**Stage**: [Self-Pattern Match stage / Resonance stage]
 
 **Axis position**:
 - Depth: [shallow/moderate/deep]
@@ -109,7 +109,7 @@ Hệ quả đặc trưng giai đoạn này:
 - **Self-Pattern Match thực sự CHƯA tồn tại**: bé chưa observe được
   state của chính mình. Chỉ có seed chunks rất sơ khai — "discomfort
   → cry", "comfort → quiet".
-- **Pattern Resonance hiện ở dạng reflexive contagion**: bé phản ứng
+- **Resonance hiện ở dạng reflexive contagion**: bé phản ứng
   với tiếng khóc bé khác KHÔNG phải vì hardware mirror, mà vì own-cry
   pattern đã được hình thành (vài lần tự khóc trong giờ đầu sau
   sinh) tạo near-miss dissonance khi nghe other-cry.
@@ -190,7 +190,7 @@ brainstem motor program (cry).
 niệm về đau như một category. Chỉ có hardwired pathway từ
 nociception đến distress output.
 
-**Stage**: Self-Pattern Match Stage 0; Pattern Resonance N/A.
+**Stage**: Self-Pattern Match Stage 0; Resonance N/A.
 
 **Axis position**:
 - Depth: shallow
@@ -491,7 +491,7 @@ chúng ta REJECT cách giải thích đó vì:
 3. KHÔNG cần "mirror module" hardware — chỉ cần seed chunk + dissonance
    amplification từ prediction error.
 
-**Stage**: Self-Pattern Match Stage 0 + Pattern Resonance Stage 0
+**Stage**: Self-Pattern Match Stage 0 + Resonance Stage 0
 (Reflexive Contagion — chunk-based, không phải hardware).
 
 **Axis position**:
@@ -517,9 +517,9 @@ khi đi cùng E10. Nếu là hardware mirror automatic, hiện tượng phải
 gần 100% và đối xứng với own cry (bé nghe own recording cũng phải
 khóc). Reality: không 100%, và như E10 cho thấy, asymmetric.
 
-Đây là cây cầu logic dẫn tới Pattern Resonance framework như
+Đây là cây cầu logic dẫn tới Resonance framework như
 **learning-based mechanism**, không phải hardware. Nó cũng là khoảnh
-khắc "first appearance" của Pattern Resonance trong developmental
+khắc "first appearance" của Resonance trong developmental
 trajectory — Stage 0 dạng nguyên thủy nhất, dựa trên 1 seed chunk
 duy nhất (own-cry pattern), trước cả khi có bất kỳ social chunks nào
 khác.
@@ -546,7 +546,7 @@ khi nghe tiếng khóc của bé khác cùng phòng cùng tuổi.
 - **Other cry** = near miss với own pattern → prediction error mạnh →
   distress amplification.
 
-**Stage**: Self-Pattern Match Stage 0 + Pattern Resonance Stage 0.
+**Stage**: Self-Pattern Match Stage 0 + Resonance Stage 0.
 
 **Axis position**: Tương tự E9.
 
@@ -569,9 +569,9 @@ Reality fits chunk-based model một cách chính xác, KHÔNG fit hardware
 model.
 
 Đây là một trong hai bằng chứng decisive nhất cho framework:
-- E9 + E10: cho mechanism Pattern Resonance ở Stage 0
-- Bird & Cook 2013 alexithymia case: cho Pattern Resonance trên
-  toàn bộ trajectory (sẽ dùng prominently trong Pattern-Resonance.md
+- E9 + E10: cho mechanism Resonance ở Stage 0
+- Bird & Cook 2013 alexithymia case: cho Resonance trên
+  toàn bộ trajectory (sẽ dùng prominently trong By-Product-Gap-Resonance.md
   §5)
 
 Lưu ý phương pháp: cần ghi own cry sớm và playback nhanh, vì chunk
@@ -605,7 +605,7 @@ Tổng kết các chunk formulas hoạt động ở giai đoạn 0-3 tháng:
      dù chưa có labels hay verbal chunks, bé bắt đầu có "own pattern
      library" sơ khai
    - Nature: là substrate cho mọi chunk phát triển sau này; cũng là
-     substrate cho Pattern Resonance Stage 0 (E9, E10)
+     substrate cho Resonance Stage 0 (E9, E10)
 
 4. **Reflex templates (pre-PFC, không phải chunks)**
    - Form: hardwired sensorimotor pathways — Moro, grasp, sucking,
@@ -642,10 +642,10 @@ develop discrimination ở Stage 1+. Hệ quả: chất lượng caregiver
 response trong giai đoạn 0-3 tháng có ảnh hưởng KHÔNG phải vì bé
 "nhớ" được, mà vì nó shape cách seed chunks hình thành.
 
-**(4) Pattern Resonance xuất hiện CỰC SỚM nhưng dưới dạng nguyên
+**(4) Resonance xuất hiện CỰC SỚM nhưng dưới dạng nguyên
 thủy nhất — và là chunk-based, không phải hardware.** E9, E10 là
 phòng thí nghiệm tự nhiên để chứng minh điều này. Đây là điểm khởi
-đầu của trajectory Pattern Resonance từ Stage 0 (cry contagion) đến
+đầu của trajectory Resonance từ Stage 0 (cry contagion) đến
 Stage 8 (deep listening therapist-level), tất cả đều dùng cùng cơ
 chế: own-pattern library làm simulator, không phải hardware mirror.
 
@@ -670,7 +670,7 @@ cortex và OFC. Đây là window mà nhiều social chunks foundational
 - **Multi-channel integration thực sự bắt đầu** — face + voice + body
   state được bind lại thành chunk thống nhất (E12, E15). Đây là một
   bước nhảy lớn từ Stage 0.
-- **Pattern Resonance chuyển từ reflexive (E9) sang social engagement
+- **Resonance chuyển từ reflexive (E9) sang social engagement
   thực sự** — smile contagion (E13), gaze following (E14), joint
   attention (E18), social referencing (E19).
 - **Specific person chunks hình thành** — mẹ không còn là "face" generic
@@ -779,7 +779,7 @@ cues thay thế cho visual. Điều này confirm rằng smile chunk là
 **learned multi-channel binding** chứ không phải hardware face-driven.
 
 **Stage**: Self-Pattern Match Stage 1 (calm state being implicitly
-participating); Pattern Resonance Stage 1 (Social Engagement) — bắt
+participating); Resonance Stage 1 (Social Engagement) — bắt
 đầu rõ rệt.
 
 **Axis position**:
@@ -827,7 +827,7 @@ qua-lại.
 **Channel(s)**: Visual (face: smiling pattern) + body interoceptive
 (own positive state activation).
 
-**Chunk(s)**: Pattern Resonance chunk dạng positive valence:
+**Chunk(s)**: Resonance chunk dạng positive valence:
 - Other-face smiling pattern → matches "I have smiled before in
   similar context" → activates own smile chunk → smile output
 
@@ -836,7 +836,7 @@ experience: bé đã có own-smile experience qua reflex smile (từ bụng
 mẹ) + early social smile (E12) → other smile match → own activation.
 Cùng cơ chế với cry contagion (E9) nhưng cho positive valence.
 
-**Stage**: Pattern Resonance Stage 1 (Social Engagement, Affect
+**Stage**: Resonance Stage 1 (Social Engagement, Affect
 Resonance).
 
 **Axis position**:
@@ -854,8 +854,8 @@ thể giảm tần suất smile → bé chậm smile contagion.
 **Prevalence**: ~95% trẻ bình thường ở 4 tháng.
 
 **Notes**: ĐÂY LÀ POSITIVE COUNTERPART CỦA E9. Nếu E9 (cry contagion)
-là Pattern Resonance Stage 0 cho negative valence, E13 (smile
-contagion) là Pattern Resonance Stage 1 cho positive valence.
+là Resonance Stage 0 cho negative valence, E13 (smile
+contagion) là Resonance Stage 1 cho positive valence.
 
 Cùng cơ chế chung: chunk-based simulation, không phải hardware mirror.
 Sự khác biệt timing rất có ý nghĩa:
@@ -866,7 +866,7 @@ Sự khác biệt timing rất có ý nghĩa:
   repetition để hình thành stable own-smile pattern
 
 Đây là **bằng chứng support rất mạnh** cho framework: thời điểm xuất
-hiện Pattern Resonance phụ thuộc vào thời điểm own-pattern formation,
+hiện Resonance phụ thuộc vào thời điểm own-pattern formation,
 KHÔNG phụ thuộc vào "hardware mirror module" đột nhiên bật. Nếu là
 hardware, cả cry contagion và smile contagion phải xuất hiện cùng
 thời điểm ngay từ đầu. Reality không như vậy.
@@ -890,7 +890,7 @@ thời điểm ngay từ đầu. Reality không như vậy.
 - Đây là chunk ban đầu cho việc treat người khác như có internal
   viewpoint hướng về một đối tượng
 
-**Stage**: Pattern Resonance Stage 2 (Joint Attention) — beginning
+**Stage**: Resonance Stage 2 (Joint Attention) — beginning
 form.
 
 **Axis position**:
@@ -915,7 +915,7 @@ là foundation cho mọi social cognition sau này. Nó nói: "bé bắt đầu
 treat người khác như có internal viewpoint hướng về một đối tượng",
 dù chưa phải full ToM (false belief task chưa pass cho đến 4 tuổi).
 
-Implication cho framework: Pattern Resonance ở stage này bắt đầu
+Implication cho framework: Resonance ở stage này bắt đầu
 treat other-as-source-of-info, không chỉ "match other's state". Đây
 là một bước nhảy về chất — từ "tôi cảm thấy giống mẹ" sang "mẹ thấy
 cái gì đó mà tôi nên xem". Self-other distinction cần thiết để chunk
@@ -946,7 +946,7 @@ Khác với generic face recognition (xuất hiện sớm hơn ~3 tháng), đây
 là **CATEGORICAL chunk gắn với specific identity**.
 
 **Stage**: Self-Pattern Match Stage 1 (positive state being labeled
-implicitly); Pattern Resonance Stage 1+ (specific other recognized
+implicitly); Resonance Stage 1+ (specific other recognized
 như identity).
 
 **Axis position**:
@@ -997,7 +997,7 @@ clinging).
 - Tất cả chuỗi này diễn ra rất nhanh
 
 **Stage**: Self-Pattern Match Stage 1+ (fear state being processed);
-Pattern Resonance Stage 2 (categorizing others by familiarity, dùng
+Resonance Stage 2 (categorizing others by familiarity, dùng
 familiar library làm reference).
 
 **Axis position**:
@@ -1057,7 +1057,7 @@ interoceptive (distress) + motor (seeking, bò theo).
   distress mạnh hơn (not "out of sight, out of mind") — bé không
   quên mẹ, bé "biết mẹ ở đâu đó nhưng không phải ở đây"
 
-**Stage**: Self-Pattern Match Stage 1+; Pattern Resonance Stage 2.
+**Stage**: Self-Pattern Match Stage 1+; Resonance Stage 2.
 
 **Axis position**:
 - Depth: chunks có temporal dimension (presence/absence over time)
@@ -1110,7 +1110,7 @@ attention.
 - "Mom wants me to see this" chunk emerging — pre-form của theory of
   mind
 
-**Stage**: Pattern Resonance Stage 2 (Joint Attention) full form.
+**Stage**: Resonance Stage 2 (Joint Attention) full form.
 
 **Axis position**:
 - Depth: tăng đáng kể
@@ -1173,7 +1173,7 @@ seeking info) + decision making (approach vs withdraw).
 **source of valid information về world**, không chỉ là "đối tượng
 tương tác".
 
-**Stage**: Pattern Resonance Stage 2+ (using other as source of info
+**Stage**: Resonance Stage 2+ (using other as source of info
 about world, not just match emotional state).
 
 **Axis position**:
@@ -1194,10 +1194,10 @@ việc bé treat người khác như có internal state đáng tin về world.
 Visual cliff experiment (Sorce, Emde, Campos & Klinnert 1985) cho
 thấy bé sẽ KHÔNG bò qua "vực sâu" thị giác (glass safe nhưng trông
 như vực) nếu mẹ nhăn mặt lo lắng, sẽ bò qua nếu mẹ cười khuyến khích.
-Đây là first instance của **RELYING ON Pattern Resonance output cho
+Đây là first instance của **RELYING ON Resonance output cho
 practical decision** — không chỉ là feeling, mà là action.
 
-Implication framework: Pattern Resonance không chỉ là mechanism
+Implication framework: Resonance không chỉ là mechanism
 passive (cảm nhận) mà còn active (hành động dựa trên output). Tight
 action coupling (Axis 5) xuất hiện sớm hơn nhiều so với suy nghĩ
 truyền thống. Bé 10 tháng đã có "social information → physical action"
@@ -1236,7 +1236,7 @@ violation) + motor (escalating engagement attempts → withdraw).
   give up + withdraw
 - Đây là chuỗi chunks phức tạp với temporal dynamics
 
-**Stage**: Pattern Resonance Stage 2; Self-Pattern Match Stage 1+
+**Stage**: Resonance Stage 2; Self-Pattern Match Stage 1+
 (distress at violation observed).
 
 **Axis position**:
@@ -1271,9 +1271,9 @@ mặt ít expressive → bé chronic still-face exposure → developmental
 impact đáng kể (Field 1995; Tronick & Reck 2009). Đây là một trong
 những lý do postpartum depression không chỉ là vấn đề của mẹ.
 
-**Bằng chứng decisive** rằng Pattern Resonance là **two-way từ rất
+**Bằng chứng decisive** rằng Resonance là **two-way từ rất
 sớm** — không chỉ bé học từ mẹ một chiều, mà bé đã có expectation về
-tương tác mutual. Implication framework: Pattern Resonance không
+tương tác mutual. Implication framework: Resonance không
 phải là "bé absorb từ adult", mà là **dynamic loop** nơi cả hai bên
 có expectations và predictions về nhau. Chronic disrupted social
 interaction trong giai đoạn này có cost cao cho chunk formation —
@@ -1313,7 +1313,7 @@ Tổng kết các chunk formulas hoạt động ở giai đoạn 3-12 tháng:
 5. **Other-as-information-source chunk** (E19)
    - Form: uncertainty → check other's emotional response → use as
      decision input
-   - Status: first instance Pattern Resonance được dùng cho practical
+   - Status: first instance Resonance được dùng cho practical
      action
    - Nature: tight action coupling từ rất sớm
 
@@ -1343,7 +1343,7 @@ phải "develops late", mà là intrinsic capability ngay khi có vài
 seed chunks ở các channel khác nhau. Implication cho framework:
 binding mechanism nằm ở subcortical/OFC, không cần PFC executive.
 
-**(2) Pattern Resonance là chunk-based từ ngày đầu.** E13 smile
+**(2) Resonance là chunk-based từ ngày đầu.** E13 smile
 contagion là positive counterpart của E9 cry contagion. Cả hai dùng
 cùng cơ chế (own-pattern matching), khác nhau ở timing vì own-pattern
 formation diễn ra ở tốc độ khác cho mỗi modality. Điều này là **bằng
@@ -1360,8 +1360,8 @@ cái này mà không có cái kia. Đây là foundation cho insight về
 secure có stranger anxiety mạnh hơn vì familiar library rõ ràng hơn.
 Tốt và xấu là hai mặt của cùng một mechanism, từ rất sớm.
 
-**(4) Pattern Resonance phát triển theo trajectory rõ ràng.** Chỉ
-trong 9 tháng (3-12 tháng), Pattern Resonance đi qua các bước:
+**(4) Resonance phát triển theo trajectory rõ ràng.** Chỉ
+trong 9 tháng (3-12 tháng), Resonance đi qua các bước:
 - Stage 1: Affect resonance (smile contagion) — match emotional state
 - Stage 2 early: Joint attention (gaze following) — share viewpoint
 - Stage 2 mid: Triadic joint attention (E18) — share content về object
@@ -1406,9 +1406,9 @@ verbal, mở ra khả năng manipulate, reflect, communicate, và planning.
 - **Cross-channel scaffolding observable**: "biết buồn đái → dễ biết
   buồn ỉa hơn" (E23 → E24) là minh họa rõ ràng cho cách chunk format
   transfer giữa channels tương tự.
-- **Pattern Resonance Stage 3 (Comforting Behavior)**: bé dùng OWN
+- **Resonance Stage 3 (Comforting Behavior)**: bé dùng OWN
   comfort template áp dụng cho người khác (E26, E27). Đây là một
-  trong những bằng chứng decisive nhất cho Pattern Resonance là
+  trong những bằng chứng decisive nhất cho Resonance là
   chunk-based simulation chứ không phải hardware mirror.
 - **Self-as-agent emergence**: "không" (E31) như marker of autonomy,
   mirror self-recognition (E32) như explicit self-as-object.
@@ -1419,7 +1419,7 @@ verbal, mở ra khả năng manipulate, reflect, communicate, và planning.
 Self-Pattern Match Stage 2 (Body Location) → Stage 3 (Verbal Labels
 Primitive) — overlap rõ trong giai đoạn này.
 
-Pattern Resonance Stage 3 (Comforting Behavior — Hoffman empathy
+Resonance Stage 3 (Comforting Behavior — Hoffman empathy
 stage 3) là milestone định nghĩa cho giai đoạn này.
 
 **Insight then chốt**: ngôn ngữ KHÔNG TẠO RA chunks — chunks đã có
@@ -1746,18 +1746,18 @@ phòng riêng, lấy gấu bông hoặc chăn an ủi của CHÍNH MÌNH, mang �
 không thiết yếu.
 
 **Channel(s)**: Visual (mẹ khóc) + body interoceptive (own distress
-activation từ Pattern Resonance) + memory (nhớ comfort object ở
+activation từ Resonance) + memory (nhớ comfort object ở
 đâu) + motor (mang đến).
 
 **Chunk(s)**:
-- Pattern Resonance: "mẹ distress" pattern matches "tôi distress"
+- Resonance: "mẹ distress" pattern matches "tôi distress"
   pattern → activates own "distress → cần comfort" chunk
 - Comfort chunk: "khi tôi distress, gấu bông của tôi giúp tôi"
 - Apply chunk OUTWARD: "mẹ distress → mang gấu cho mẹ"
-- ĐÂY LÀ MỘT TRONG NHỮNG VÍ DỤ QUAN TRỌNG NHẤT CHO PATTERN RESONANCE
+- ĐÂY LÀ MỘT TRONG NHỮNG VÍ DỤ QUAN TRỌNG NHẤT CHO RESONANCE
   — first instance of using own template to ACT to help other.
 
-**Stage**: Pattern Resonance Stage 3 (Comforting Behavior — Hoffman
+**Stage**: Resonance Stage 3 (Comforting Behavior — Hoffman
 empathy stage 3).
 
 **Axis position**:
@@ -1773,12 +1773,12 @@ an ủi → chunk comfort không có → không có template để apply outward
 
 **Prevalence**: ~60-80% trẻ 24 tháng có behavior này ở mức nào đó.
 
-**Notes**: **KEY EXAMPLE FOR PATTERN RESONANCE FRAMEWORK.** Hoffman
+**Notes**: **KEY EXAMPLE FOR RESONANCE FRAMEWORK.** Hoffman
 (2000) gọi đây là "egocentric empathy" — bé dùng OWN comfort
 template áp dụng cho mẹ, KHÔNG kịp hiểu mẹ có thể cần thứ khác (mẹ
 không thực sự cần gấu bông trẻ con).
 
-Insight quan trọng: ngay từ giai đoạn này, **Pattern Resonance là
+Insight quan trọng: ngay từ giai đoạn này, **Resonance là
 chunk-based simulation, KHÔNG phải hardware mirror.** Bằng chứng
 mạnh mẽ:
 1. Bé dùng OWN template cụ thể (gấu bông CỦA BÉ), không phải template
@@ -1791,12 +1791,12 @@ mạnh mẽ:
    mind reading, bé phải biết mẹ cần gì khác. Reality: bé project
    own template — proof of simulation mechanism.
 
-Đây là một trong những bằng chứng strongest cho Pattern Resonance
+Đây là một trong những bằng chứng strongest cho Resonance
 như learning-based mechanism. Bird & Cook (2013) sẽ extend insight
 này: bé alexithymic không có own comfort chunks rõ ràng → không có
 template để apply → không có comforting behavior dù physically có
 khả năng. Empathy depends on self-literacy. Sẽ được dùng prominently
-trong Pattern-Resonance.md §5.
+trong By-Product-Gap-Resonance.md §5.
 
 ---
 
@@ -1810,13 +1810,13 @@ khóc vì không có gì ăn. Bé chia bánh ra, đưa một phần cho bé kia.
 **Channel(s)**: Visual + body interoceptive + social + memory + motor.
 
 **Chunk(s)**:
-- Tương tự E26 — Pattern Resonance Stage 3 dạng khác
+- Tương tự E26 — Resonance Stage 3 dạng khác
 - "Tôi ăn → tôi vui" template
 - "Bạn không ăn → bạn buồn" simulation
 - "Cho bạn ăn → bạn vui" application
 - Sử dụng food template từ own experience
 
-**Stage**: Pattern Resonance Stage 3.
+**Stage**: Resonance Stage 3.
 
 **Axis position**: Tương tự E26.
 
@@ -1844,7 +1844,7 @@ không phải bẩm sinh "altruism gene"**. Variation lớn between cá
 nhân và culture là evidence không thể giải thích bằng hardwired
 mechanism. Nếu là hardware altruism, variation phải nhỏ.
 
-Implication framework: cùng cơ chế Pattern Resonance Stage 3 (E26),
+Implication framework: cùng cơ chế Resonance Stage 3 (E26),
 nhưng output behavior phụ thuộc vào (a) có template tương ứng không
 (food comfort vs object comfort), (b) competing chunks (mine vs
 share). Output không monolithic — depends on full chunk landscape.
@@ -1867,7 +1867,7 @@ quanh đều cười, bé cười theo dù không hiểu joke.
 - Shared laugh chunk: "người khác cười → tôi cười theo" (Pattern
   Resonance dạng positive contagion)
 
-**Stage**: Pattern Resonance Stage 1+ (continued from E13) + emerging
+**Stage**: Resonance Stage 1+ (continued from E13) + emerging
 humor chunks.
 
 **Axis position**:
@@ -1920,7 +1920,7 @@ chơi giả phone, đặt lên tai, "alô alô".
 - Imitation chunk: "tôi có thể làm cái mẹ làm" — agency
 - Bridge to symbolic play (giả vờ object là cái khác)
 
-**Stage**: Self-Pattern Match Stage 2-3; Pattern Resonance Stage 2+
+**Stage**: Self-Pattern Match Stage 2-3; Resonance Stage 2+
 (treat self như có capability tương tự other).
 
 **Axis position**:
@@ -1948,16 +1948,16 @@ chunks. Imitation chunks là foundation cho:
 4. Theory of mind seed: "if I do X, others do Y too because they're
    like me" — Meltzoff's "Like Me" hypothesis
 
-Implication framework quan trọng: **imitation IS Pattern Resonance
+Implication framework quan trọng: **imitation IS Resonance
 applied to action** — using own body as simulator để recreate
 observed action. KHÔNG cần mirror neurons hardware — chỉ cần own
 motor patterns + visual mapping của other's action + practice + thử
 sai feedback.
 
-Khi chúng ta thấy bé imitate, chúng ta thấy Pattern Resonance hoạt
+Khi chúng ta thấy bé imitate, chúng ta thấy Resonance hoạt
 động ở dạng motor: "other's action pattern → match với my motor
 chunks → activate similar motor sequence → output". Cùng cơ chế với
-emotional Pattern Resonance, chỉ khác channel.
+emotional Resonance, chỉ khác channel.
 
 ---
 
@@ -1978,7 +1978,7 @@ mặt mẹ sẽ xuất hiện sau "ú...").
 - Resolution + relief → laughter chunk
 - Reciprocal play chunk (turn-taking, reverse roles)
 
-**Stage**: Pattern Resonance Stage 2 (joint attention applied to
+**Stage**: Resonance Stage 2 (joint attention applied to
 game) + Self-Pattern Match Stage 2 (anticipation + resolution
 observed).
 
@@ -2187,12 +2187,12 @@ Tổng kết các chunk formulas hoạt động ở giai đoạn 12-24 tháng:
    - Nature: depends on language richness; foundation cho interoceptive
      accuracy adult
 
-4. **Pattern Resonance comforting chunk** (E26, E27)
+4. **Resonance comforting chunk** (E26, E27)
    - Form: other distress → activate own distress template → activate
      own comfort chunk → apply outward
-   - Status: first Pattern Resonance applied to ACTION (not just
+   - Status: first Resonance applied to ACTION (not just
      feeling)
-   - Nature: KEY EVIDENCE rằng Pattern Resonance là chunk-based
+   - Nature: KEY EVIDENCE rằng Resonance là chunk-based
      simulation, not hardware
 
 5. **Action sequence imitation chunk** (E29)
@@ -2259,7 +2259,7 @@ với học từ scratch. Đây là evidence cho:
 - Tại sao deep trên một channel không tự động transfer sang channel
   khác — chỉ transfer sang channels TƯƠNG TỰ về format
 
-**(4) Pattern Resonance là chunk-based simulation, evidence từ
+**(4) Resonance là chunk-based simulation, evidence từ
 mistakes.** E26 (mang gấu bông cho mẹ) là một trong những bằng chứng
 mạnh nhất cho framework. Bé "sai" theo cách rất specific: dùng OWN
 template thay vì hiểu mẹ cần gì. Đây là proof of mechanism — nếu là
@@ -2267,7 +2267,7 @@ direct mind reading, không có mistake; nếu là chunk-based simulation
 từ self-template, chính xác sẽ có mistakes loại này. Mistakes không
 phải bug, mà là feature reveal cơ chế. Bird & Cook (2013) extend:
 nếu không có own chunks, không có template để apply → empathy
-deficit. Hai hướng evidence cùng kết luận: Pattern Resonance =
+deficit. Hai hướng evidence cùng kết luận: Resonance =
 chunk-based simulation.
 
 **(5) Self chunks emerge as a distinct category.** E31 ("không") và
@@ -2314,10 +2314,10 @@ fictional empathy).
 - **Pretend play full form**: simulator hoạt động rõ rệt, bé giữ
   song song two models (reality + pretend) (E38, E39)
 - **Theory of Mind basic — false belief task pass** (E40): MAJOR
-  milestone, Pattern Resonance Stage 4 — bé hiểu "người khác có
+  milestone, Resonance Stage 4 — bé hiểu "người khác có
   belief khác với reality và khác với knowledge của tôi"
-- **Pattern Resonance applied to fiction** (E41): bé khóc khi nhân
-  vật trong truyện buồn — evidence rằng Pattern Resonance hoạt động
+- **Resonance applied to fiction** (E41): bé khóc khi nhân
+  vật trong truyện buồn — evidence rằng Resonance hoạt động
   trên bất kỳ entity nào simulator có thể model
 - **Self-conscious emotions emerge**: jealousy (E42), pride (E43),
   embarrassment (E44) — require self-as-object chunks + social
@@ -2631,7 +2631,7 @@ motor (acting).
 - Pretend marker chunk: "this is play, not real" — held simultaneously
   với role chunk
 
-**Stage**: Pretend play full form. Pattern Resonance Stage 3-4 +
+**Stage**: Pretend play full form. Resonance Stage 3-4 +
 simulator capability mature.
 
 **Axis position**:
@@ -2658,9 +2658,9 @@ KHÔNG bị confuse:
 Khả năng giữ song song two models KHÔNG bị merge là cognitive
 milestone quan trọng. Liên quan trực tiếp đến framework: simulator
 capability (channel input từ Imagine-Final) becomes available cho
-Pattern Resonance ở mức complex hơn nhiều.
+Resonance ở mức complex hơn nhiều.
 
-Trước Stage này, Pattern Resonance dùng direct templates (E26 mang
+Trước Stage này, Resonance dùng direct templates (E26 mang
 gấu bông cho mẹ — direct apply own comfort template). Sau Stage này,
 có thể simulate elaborate scenarios với roles và rules.
 
@@ -2668,7 +2668,7 @@ Implication framework: pretend play deficit là một dấu hiệu sớm của
 autism spectrum — không phải vì bé không thể chơi, mà vì simulator
 chunks không hình thành như typical. Bé autism có thể chơi với
 objects nhưng often không enter "as if" mode đầy đủ. Đây là evidence
-support cho framework: Pattern Resonance ở high stages requires
+support cho framework: Resonance ở high stages requires
 simulator capability, không chỉ pattern matching đơn giản.
 
 Connection với adult: actors, fiction writers, therapists deeply
@@ -2740,7 +2740,7 @@ ra. Sally quay vào. Người lớn hỏi: "Sally sẽ tìm bi ở đâu?".
 
 **Verbalization**: "Sally sẽ tìm ở hộp A".
 
-**Channel(s)**: Cognitive (reasoning) + Pattern Resonance (modeling
+**Channel(s)**: Cognitive (reasoning) + Resonance (modeling
 Sally's mental state) + theory of mind chunks + verbal output.
 
 **Chunk(s)**:
@@ -2749,7 +2749,7 @@ Sally's mental state) + theory of mind chunks + verbal output.
 - **Knowledge separation chunk**: "Sally's knowledge ≠ my knowledge"
 - Recursive thinking: "Sally thinks bi is in A" (model về model)
 
-**Stage**: Pattern Resonance Stage 4 (Theory of Mind Basic) — defining
+**Stage**: Resonance Stage 4 (Theory of Mind Basic) — defining
 milestone.
 
 **Axis position**:
@@ -2769,7 +2769,7 @@ sớm hơn (Liu et al. 2008).
 **Notes**: False belief task là **CLASSIC marker cho theory of mind**
 trong developmental psychology. Wimmer & Perner (1983) original
 study. Đây là bước nhảy lớn từ:
-- Early Pattern Resonance: "match other's emotional state" (E13
+- Early Resonance: "match other's emotional state" (E13
   smile contagion)
 - Mid: "understand other has viewpoint" (E14 gaze, E18 joint
   attention)
@@ -2795,7 +2795,7 @@ chứng:
   delayed) often delayed false belief, suggesting language scaffolding
   matters.
 
-Đây là evidence mạnh cho Pattern Resonance như chunk-based mechanism,
+Đây là evidence mạnh cho Resonance như chunk-based mechanism,
 KHÔNG phải hardware module. Cùng kết luận với E9, E10 (cry contagion
 asymmetry), E26 (comforting via own template), Bird & Cook (alexithymia
 empathy deficit). Tất cả các evidence cùng hướng.
@@ -2811,20 +2811,20 @@ lại" hoặc "mẹ đừng kể chuyện đó nữa".
 **Verbalization**: "Bé thỏ buồn quá" / "Tội nghiệp bé thỏ".
 
 **Channel(s)**: Auditory (story input) + imagination (visualize
-character situation) + Pattern Resonance (simulate character's state)
+character situation) + Resonance (simulate character's state)
 + body interoceptive (own emotion activation).
 
 **Chunk(s)**:
 - Story → imagination tạo simulator của character situation
-- Pattern Resonance applied to simulator output: dùng own loss
+- Resonance applied to simulator output: dùng own loss
   template (e.g., E17 separation distress chunks)
 - Generate own emotion as result
 - Empathy chunk: "tôi feel cho nhân vật"
 
-**Stage**: Pattern Resonance Stage 4+ (extended to fictional entities).
+**Stage**: Resonance Stage 4+ (extended to fictional entities).
 
 **Axis position**:
-- Depth: deeper (apply Pattern Resonance không cần direct contact)
+- Depth: deeper (apply Resonance không cần direct contact)
 - Breadth: multi-channel + imaginative
 - Speed: gradual emotional response
 - Integration: multi-channel + simulator
@@ -2837,7 +2837,7 @@ appropriate).
 
 **Prevalence**: ~70-90%.
 
-**Notes**: ĐÂY LÀ KEY CASE CHO PATTERN RESONANCE APPLIED TO FICTION.
+**Notes**: ĐÂY LÀ KEY CASE CHO RESONANCE APPLIED TO FICTION.
 Bé biết bé thỏ không tồn tại thật, không có bé thỏ thật để cảm. Vậy
 mà bé vẫn cảm thấy buồn thật.
 
@@ -2846,18 +2846,18 @@ Cơ chế phân tích chi tiết:
    imagination
 2. **Imagination tạo simulator output**: "bé thỏ trong scenario X"
    được render trong mental space
-3. **Pattern Resonance applied to simulator output**: bé treat
+3. **Resonance applied to simulator output**: bé treat
    simulated character như entity với internal state, dùng OWN loss
    template để model
 4. **Own emotion activation**: chunk "loss → buồn" của chính bé
    được activated
 5. **Behavioral output**: khóc, ask mẹ đừng kể
 
-Đây là evidence rằng **Pattern Resonance hoạt động trên BẤT KỲ entity
+Đây là evidence rằng **Resonance hoạt động trên BẤT KỲ entity
 nào simulator có thể model** — real, fictional, abstract, hypothetical.
 
 Implication framework rất quan trọng:
-1. **Literature, movies, video games** đều tạo Pattern Resonance
+1. **Literature, movies, video games** đều tạo Resonance
    experience giống real social experience về mặt mechanism. Đây là
    cơ sở cho "literature builds empathy" claim (research support: Bal
    & Veltkamp 2013, "Does reading fiction improve empathy?")
@@ -2869,13 +2869,13 @@ Implication framework rất quan trọng:
    có realistic feedback → potentially distorted templates. Adolescents
    spending hours với fictional characters may build social chunks
    phù hợp cho fiction nhưng misfit cho real interactions. Sẽ phát
-   triển trong Pattern-Resonance.md §9.
+   triển trong By-Product-Gap-Resonance.md §9.
 
-Cũng support cho framework chống mirror hardware: nếu Pattern Resonance
+Cũng support cho framework chống mirror hardware: nếu Resonance
 là hardware mirror neurons, không thể explain how bé respond to
 fiction (không có physical action of fictional character để mirror).
 Nếu là chunk-based simulation, hoàn toàn explain được — simulator
-generate "as if" entity, Pattern Resonance treat it như entity.
+generate "as if" entity, Resonance treat it như entity.
 
 ---
 
@@ -2896,7 +2896,7 @@ arousal) + self-other comparison + memory (trước đây mẹ bế con).
 - Jealousy = comparison + loss + negative valence
 - ĐÂY LÀ COMPLEX EMOTION CHUNK đầu tiên — compound chunks emerging
 
-**Stage**: Self-Pattern Match Stage 4+ + Pattern Resonance Stage 4.
+**Stage**: Self-Pattern Match Stage 4+ + Resonance Stage 4.
 
 **Axis position**:
 - Depth: deeper (compound chunks)
@@ -3026,7 +3026,7 @@ interoceptive (autonomic — blushing, heart racing) + verbal limited.
 - "Có social standards mà tôi violated" chunk
 - Withdrawal urge chunk (hide, escape attention)
 
-**Stage**: Self-Pattern Match Stage 4+ + Pattern Resonance Stage 4
+**Stage**: Self-Pattern Match Stage 4+ + Resonance Stage 4
 (theory of mind required).
 
 **Axis position**:
@@ -3043,7 +3043,7 @@ quá! sao nói thế!"), gentle redirect, model recovery.
 **Prevalence**: ~80-90%.
 
 **Notes**: Embarrassment requires **TRIADIC AWARENESS**: self +
-audience + standards. Đây là evidence rằng Pattern Resonance đã đủ
+audience + standards. Đây là evidence rằng Resonance đã đủ
 mature để bé "biết người khác đang nhìn tôi và đang nghĩ về tôi"
 (recursive thinking, một bước sau false belief task).
 
@@ -3183,13 +3183,13 @@ Tổng kết các chunk formulas hoạt động ở giai đoạn 2-5 tuổi:
 4. **False belief / theory of mind basic** (E40)
    - Form: model other's mental content có thể differ from reality
      và từ my knowledge
-   - Status: Pattern Resonance Stage 4 milestone
+   - Status: Resonance Stage 4 milestone
    - Nature: foundation cho all complex social cognition
 
-5. **Pattern Resonance applied to fiction** (E41)
-   - Form: simulator generate entity → Pattern Resonance treat as
+5. **Resonance applied to fiction** (E41)
+   - Form: simulator generate entity → Resonance treat as
      real entity → genuine emotional response
-   - Status: extension of Pattern Resonance beyond direct contact
+   - Status: extension of Resonance beyond direct contact
    - Nature: foundation cho literature/media empathy; warning cho
      parasocial era
 
@@ -3261,14 +3261,14 @@ form như typical, không phải bé "không biết chơi". Implication
 framework: Imagine-Final mechanism là channel chính, không chỉ là
 "daydreaming".
 
-**(4) Pattern Resonance extended to fiction (E41) reveals deeper
+**(4) Resonance extended to fiction (E41) reveals deeper
 mechanism.** Bé khóc cho bé thỏ trong truyện là evidence rằng Pattern
 Resonance hoạt động trên BẤT KỲ entity nào simulator có thể model.
 Implication framework rất rộng:
 - Literature empathy: real, mechanism-based
 - Religious figures empathy: real
 - Historical heroes empathy: real
-- Parasocial relationships với AI/influencers: REAL Pattern Resonance
+- Parasocial relationships với AI/influencers: REAL Resonance
   mechanism activated, but templates built from one-way input → risk
   of distortion
 
@@ -3334,7 +3334,7 @@ complex emotions một cách reliable.
   bladder/bowel của §3
 - **Anticipation và disappointment chunks** (E59, E60): rich future-
   oriented emotional life, không chỉ react to present
-- **Sophisticated Pattern Resonance** (E61 reading parent mood):
+- **Sophisticated Resonance** (E61 reading parent mood):
   reading subtle non-verbal cues, foundation cho mature social
   reading
 
@@ -3708,19 +3708,19 @@ nói "xin lỗi", có thể mang đồ chơi an ủi, có thể ôm em.
 **Verbalization**: "xin lỗi em" / "em đau lắm không?" / "em đừng
 khóc nữa".
 
-**Channel(s)**: Pattern Resonance (cảm em đau) + self-as-cause
+**Channel(s)**: Resonance (cảm em đau) + self-as-cause
 (awareness "tôi gây ra") + remorse (negative self-conscious) +
 repair urge + verbal.
 
 **Chunk(s)**:
 - **Guilt chunk** = (I caused harm) + (harm felt by other) + (I
   should not have done that) + (urge to repair)
-- Compound: requires self-as-cause + Pattern Resonance + moral
+- Compound: requires self-as-cause + Resonance + moral
   standard + repair impulse
 - Drives **REPAIR behavior** (different from shame which drives
   withdrawal)
 
-**Stage**: Self-Pattern Match Stage 5; Pattern Resonance Stage 5;
+**Stage**: Self-Pattern Match Stage 5; Resonance Stage 5;
 moral chunks mature.
 
 **Axis position**:
@@ -3776,16 +3776,16 @@ sự cảm thấy vui — không phải pretend, không có competing envy.
 
 **Verbalization**: "Mừng cho bạn!" / "Bạn giỏi quá!".
 
-**Channel(s)**: Pattern Resonance (positive valence) + social
+**Channel(s)**: Resonance (positive valence) + social
 (friendship) + body (positive arousal).
 
 **Chunk(s)**:
-- **Empathic joy** = (other achieves) + (Pattern Resonance with
+- **Empathic joy** = (other achieves) + (Resonance with
   positive valence) + (own positive arousal)
 - KEY: requires NO competing envy chunk activated
-- Mature Pattern Resonance achievement
+- Mature Resonance achievement
 
-**Stage**: Pattern Resonance Stage 5+.
+**Stage**: Resonance Stage 5+.
 
 **Axis position**:
 - Depth: depth in social/emotional
@@ -3807,7 +3807,7 @@ tradition gọi là **"mudita"** — một trong bốn brahma-viharas cùng
 với compassion, equanimity, loving-kindness) là counterpart positive
 của empathic distress.
 
-Cả hai dùng Pattern Resonance, nhưng **valences khác**:
+Cả hai dùng Resonance, nhưng **valences khác**:
 - **Empathic distress** (E26 mang gấu, E41 khóc cho bé thỏ): other
   suffer → I feel suffering
 - **Empathic joy** (E52): other thrive → I feel joy
@@ -3826,7 +3826,7 @@ empathic joy rare.
 - Implication: cultivating empathic joy is real practice (Buddhist
   meditation explicitly trains it), không just innate quality
 
-**Pattern Resonance + chunk landscape competition** là một insight
+**Resonance + chunk landscape competition** là một insight
 quan trọng: cùng external trigger (bạn thắng giải) có thể activate
 empathic joy chunks HOẶC envy chunks, depending on which chunks are
 stronger/more accessible. Treatment để increase empathic joy =
@@ -3860,7 +3860,7 @@ of unworthy emerging) + memory (ám ảnh).
 - Đặc biệt important: starts forming **self-worth chunks based on
   social inclusion**
 
-**Stage**: Self-Pattern Match Stage 5; Pattern Resonance Stage 5
+**Stage**: Self-Pattern Match Stage 5; Resonance Stage 5
 (understand exclusion is intentional, not accidental).
 
 **Axis position**:
@@ -4381,13 +4381,13 @@ tone, không nội dung) + kinesthetic (sensing tension) + Pattern
 Resonance + behavioral adjustment.
 
 **Chunk(s)**:
-- **Pattern Resonance reading mood from subtle cues** — không cần
+- **Resonance reading mood from subtle cues** — không cần
   explicit verbal information
 - Behavioral adjustment chunk (match own behavior to context)
 - Self-restraint chunk (suppress own needs cho appropriate context)
 - Mature social reading
 
-**Stage**: Pattern Resonance Stage 5-6 (Multi-Perspective →
+**Stage**: Resonance Stage 5-6 (Multi-Perspective →
 Complex Social Inference).
 
 **Axis position**:
@@ -4404,13 +4404,13 @@ mood ("mẹ đang mệt thôi, không phải vì con").
 **Prevalence**: ~80-95% — varies by family emotional expressiveness
 và bé's social attunement.
 
-**Notes**: **KEY for advanced Pattern Resonance.** Bé reading mood
+**Notes**: **KEY for advanced Resonance.** Bé reading mood
 từ subtle non-verbal cues — precursor cho therapist-level social
 reading (E94 in §8).
 
 **IMPORTANT NUANCE**: this chunk is sometimes **PROBLEMATIC**.
 **Parentified children** (bé phải care for emotional needs of
-parents, role reversal) develop **hyperaware Pattern Resonance**
+parents, role reversal) develop **hyperaware Resonance**
 for parent moods, especially with depressed/volatile parents. They
 become caretakers prematurely.
 
@@ -4420,23 +4420,23 @@ become caretakers prematurely.
 - **Cost**: boundary problems, anxiety, self-needs suppression,
   difficulty với own emotional life, codependency patterns
 
-**Healthy version**: develop Pattern Resonance + clear self-other
+**Healthy version**: develop Resonance + clear self-other
 boundaries. "Tôi hiểu mẹ đang buồn nhưng không phải lỗi của tôi và
 không phải trách nhiệm của tôi to fix".
 
-**Unhealthy parentification**: Pattern Resonance enmeshed với self,
+**Unhealthy parentification**: Resonance enmeshed với self,
 no clear boundary. "Mẹ buồn = tôi có lỗi gì = tôi phải fix nó".
 
-**Implication framework**: same chunk (advanced Pattern Resonance)
+**Implication framework**: same chunk (advanced Resonance)
 can be developed in healthy or unhealthy direction depending on
 context and scaffolding. Children of depressed parents often have
-hyper-developed E61 chunks → deep but distorted Pattern Resonance.
+hyper-developed E61 chunks → deep but distorted Resonance.
 Treatment cho adult result của childhood parentification: maintain
 the empathy capacity (chunk is valuable) but build self-other
 boundary chunks (chunk that's missing).
 
 Connection to framework specialization paradox (Feel-Development.md
-§4.5): deep on Pattern Resonance can come at cost of self-care
+§4.5): deep on Resonance can come at cost of self-care
 chunks if developed under unhealthy conditions. Profile vector
 asymmetry developed early.
 
@@ -4472,7 +4472,7 @@ Tổng kết các chunk formulas hoạt động ở giai đoạn 5-10 tuổi:
    - Nature: fundamental for long-term emotional health
 
 4. **Empathic joy chunks** (E52)
-   - Form: other thrives + Pattern Resonance + own positive arousal
+   - Form: other thrives + Resonance + own positive arousal
      - WITHOUT competing envy activation
    - Status: cultivated chunk, not automatic
    - Nature: competes với envy chunks for activation
@@ -4508,7 +4508,7 @@ Tổng kết các chunk formulas hoạt động ở giai đoạn 5-10 tuổi:
    - Nature: trade-off - emotional richness in both directions vs
      flatter affect
 
-10. **Sophisticated Pattern Resonance** (E61 mood reading)
+10. **Sophisticated Resonance** (E61 mood reading)
     - Form: subtle non-verbal cues → mood inference → behavior
       adjustment
     - Status: precursor to therapist-level social reading
@@ -4575,7 +4575,7 @@ phobias. Implication: framework has clinical applications because
 chunks are mutable through experience, không only formed early
 years.
 
-**(7) Pattern Resonance can develop in healthy or distorted
+**(7) Resonance can develop in healthy or distorted
 direction (E61 parentification).** Same chunk type (advanced mood
 reading) can lead to therapist-level empathy (healthy) hoặc
 codependency (distorted). Difference is whether boundary chunks
@@ -4675,7 +4675,7 @@ nausea) + memory (replay conversations) + future projection
 - Often triggers re-evaluation của ENTIRE relationship history
 
 **Stage**: Self-Pattern Match Stage 6 (abstract relational chunks);
-Pattern Resonance Stage 7 (modeling friend's intentions, motivations).
+Resonance Stage 7 (modeling friend's intentions, motivations).
 
 **Axis position**:
 - Depth: deep (compound + abstract + temporal)
@@ -4746,7 +4746,7 @@ understanding) + body (heaviness, sometimes numbness).
 - Compound: isolation + identity + abstract + relational
 
 **Stage**: Self-Pattern Match Stage 6 (abstract self chunks);
-Pattern Resonance Stage 7 (model others' models of self và find
+Resonance Stage 7 (model others' models of self và find
 gap).
 
 **Axis position**:
@@ -4873,7 +4873,7 @@ chunk types developed so far**:
 - Compound emotions (§4-§5 — rich emotional vocabulary)
 - Future-oriented chunks (E59, E70)
 - Moral chunks (E50, E71)
-- Pattern Resonance high-level (E61 — and applied to imagined
+- Resonance high-level (E61 — and applied to imagined
   others)
 
 Đây là why identity formation is FRAGILE — depends on many earlier
@@ -4994,7 +4994,7 @@ replay) + future (loss of imagined future together).
 - Foundation cho many adult patterns of love và loss
 
 **Stage**: Self-Pattern Match Stage 6+ (mature compound emotions);
-Pattern Resonance Stage 7 (sophisticated other-modeling lost).
+Resonance Stage 7 (sophisticated other-modeling lost).
 
 **Axis position**:
 - Depth: very deep (compound + body + identity + future)
@@ -5061,17 +5061,17 @@ adopt group norms (clothes, slang, music taste), feel deep loyalty.
 display group symbols.
 
 **Channel(s)**: Social (deep belonging) + identity (self defined
-by group) + Pattern Resonance (strong with group members) + body
+by group) + Resonance (strong with group members) + body
 (positive arousal in group context).
 
 **Chunk(s)**:
 - **Group belonging chunk** = (in-group identification) + (loyalty)
   + (shared norms adoption) + (out-group differentiation)
 - Identity chunks become group-defined ("tôi là người of group X")
-- Pattern Resonance amplified within group, reduced outside
+- Resonance amplified within group, reduced outside
 - Compound: social + self + identity
 
-**Stage**: Self-Pattern Match Stage 6; Pattern Resonance Stage 6-7
+**Stage**: Self-Pattern Match Stage 6; Resonance Stage 6-7
 (sophisticated in-group reading).
 
 **Axis position**:
@@ -5093,8 +5093,8 @@ context: in ancestral environments, adolescents needed to establish
 position outside family, find peer group for survival, mating. Peer
 group importance peaks in adolescence (Steinberg 2008).
 
-**KEY mechanism**: belonging chunks **amplify Pattern Resonance**
-within group và **suppress** between groups. Same Pattern Resonance
+**KEY mechanism**: belonging chunks **amplify Resonance**
+within group và **suppress** between groups. Same Resonance
 mechanism, but biased by group identification. This is foundation
 for:
 - **In-group altruism** (sacrifice for group members)
@@ -5102,7 +5102,7 @@ for:
 - **Loyalty conflicts** (group vs family vs principles)
 - **Tribalism** (mature form of in-group bias)
 
-**Implication framework**: Pattern Resonance is **NOT uniform** —
+**Implication framework**: Resonance is **NOT uniform** —
 it's biased by social categorization. Adolescent group belonging is
 window for these biases to develop strongly. Cha mẹ và cultures can
 shape: tight in-group loyalty (some cultures emphasize) vs broader
@@ -5346,15 +5346,15 @@ argue passionately.
 / "Phải làm gì đó!".
 
 **Channel(s)**: Cognitive (moral evaluation) + emotional (anger +
-concern) + Pattern Resonance (with victims) + values (justice
+concern) + Resonance (with victims) + values (justice
 chunks) + social (collective action urge).
 
 **Chunk(s)**:
-- **Moral outrage chunk** = (perceived injustice) + (Pattern Resonance
+- **Moral outrage chunk** = (perceived injustice) + (Resonance
   with victims) + (anger about violation of values) + (urge to act)
 - Mature form của E50 fairness schema, applied at societal level
 - Values chunks fully formed
-- Compound: moral + emotional + Pattern Resonance + action
+- Compound: moral + emotional + Resonance + action
 
 **Stage**: Self-Pattern Match Stage 6+ (abstract values); Pattern
 Resonance Stage 7 (extended to abstract victims).
@@ -5377,12 +5377,12 @@ exposure.
 world".
 
 **KEY mechanism**: moral chunks (E50) extended to **abstract victims**
-through Pattern Resonance applied to imagined scenarios (E41 fiction
+through Resonance applied to imagined scenarios (E41 fiction
 empathy mechanism, applied to news/abstract situations).
 
 Components:
 1. **Moral schema** (right vs wrong, fair vs unfair)
-2. **Pattern Resonance** with imagined victims
+2. **Resonance** with imagined victims
 3. **Anger emotion** about violation
 4. **Self chunks** ("tôi là người care về justice")
 5. **Action urge** (do something)
@@ -5860,7 +5860,7 @@ Tổng kết các chunk formulas hoạt động ở giai đoạn 10-18 tuổi:
      chunk types
 
 4. **Group identity chunks** (E67 belonging)
-   - Form: self defined by group + Pattern Resonance amplification
+   - Form: self defined by group + Resonance amplification
      in-group + out-group differentiation
    - Status: peer group becomes primary
    - Nature: foundation cho tribalism (positive và negative forms)
@@ -5883,7 +5883,7 @@ Tổng kết các chunk formulas hoạt động ở giai đoạn 10-18 tuổi:
    - Nature: trade-off của simulator capability
 
 8. **Moral outrage chunks** (E71)
-   - Form: moral schema + Pattern Resonance with abstract victims
+   - Form: moral schema + Resonance with abstract victims
      + anger + action urge
    - Status: defining adolescent emotion
    - Nature: requires healthy channeling
@@ -6009,7 +6009,7 @@ levels).
 - **Domain expertise intuitions** (E86 chess, E87 driving): chunks
   deeply specialized trong specific domains
 - **Social intuition mature** (E88 distrust feeling, E89 detecting
-  hidden distress): Pattern Resonance chunks refined
+  hidden distress): Resonance chunks refined
 - **Metacognitive memory awareness** (E90): "tôi biết tôi không
   nhớ" — meta-meta cognitive
 
@@ -6345,7 +6345,7 @@ right, sometimes wrong.
 đó không đúng" / "Tôi không tự tin về cái này".
 
 **Channel(s)**: Cognitive (project assessment) + memory (past
-similar projects) + Pattern Resonance (team dynamics reading) +
+similar projects) + Resonance (team dynamics reading) +
 metacognitive + predictive signal.
 
 **Chunk(s)**:
@@ -6355,7 +6355,7 @@ metacognitive + predictive signal.
   conditions + timing + many subtle signals
 - Compound predictive chunk
 
-**Stage**: Self-Pattern Match Stage 7 + Pattern Resonance Stage 8
+**Stage**: Self-Pattern Match Stage 7 + Resonance Stage 8
 (team reading).
 
 **Axis position**:
@@ -6763,22 +6763,22 @@ right (person was lying, manipulating, or had bad intent).
 / often unspoken.
 
 **Channel(s)**: Visual (subtle facial cues) + auditory (voice
-quality, micro-pauses) + Pattern Resonance + body (mild discomfort)
+quality, micro-pauses) + Resonance + body (mild discomfort)
 + predictive social.
 
 **Chunk(s)**:
-- **Social distrust chunk** — Pattern Resonance applied to
+- **Social distrust chunk** — Resonance applied to
   trustworthiness assessment
 - Pattern matching: subtle cues against learned patterns of
   trustworthy vs untrustworthy people
 - Subconscious detection, conscious feeling
 - Body component (gut feeling)
 
-**Stage**: Pattern Resonance Stage 8 (refined adult).
+**Stage**: Resonance Stage 8 (refined adult).
 
 **Axis position**:
 - Depth: deep social
-- Breadth: multi-sensory + Pattern Resonance
+- Breadth: multi-sensory + Resonance
 - Speed: fast (sometimes immediate)
 - Integration: visual + auditory + body + memory
 - Action coupling: distance behavior
@@ -6790,7 +6790,7 @@ willingness to listen to gut feelings.
 **Prevalence**: Variable — some adults have very accurate, others
 poor calibration.
 
-**Notes**: This is **survival-relevant Pattern Resonance chunk**.
+**Notes**: This is **survival-relevant Resonance chunk**.
 Research shows people can detect deception above chance from very
 brief interactions, often without being able to articulate cues
 (Ekman et al. on micro-expressions; also "thin slice" research by
@@ -6823,7 +6823,7 @@ Same mechanism, more refined.
 
 ---
 
-### E89: Pattern Resonance — biết bạn upset dù mỉm cười
+### E89: Resonance — biết bạn upset dù mỉm cười
 
 **Scenario**: Adult talking với close friend. Friend smiling và
 saying "tôi ổn". Adult feels something off — friend's eyes don't
@@ -6845,7 +6845,7 @@ Resonance + history (knowing friend's normal).
 - Requires baseline (knowing friend's normal) + deviation detection
 - Compound: multi-channel reading + integration
 
-**Stage**: Pattern Resonance Stage 8 (refined practice).
+**Stage**: Resonance Stage 8 (refined practice).
 
 **Axis position**:
 - Depth: very deep social
@@ -6860,7 +6860,7 @@ attention to subtle cues, willingness to ask.
 **Prevalence**: Common trong close relationships; depends on
 attentiveness.
 
-**Notes**: This is **mature Pattern Resonance** at its best —
+**Notes**: This is **mature Resonance** at its best —
 detecting hidden states others tries to mask. Same mechanism as:
 - E61 child reading parent mood
 - E94 therapist sensing client (will be in §8)
@@ -6869,13 +6869,13 @@ detecting hidden states others tries to mask. Same mechanism as:
 All are reading subtle non-verbal cues against learned baseline,
 detecting deviations from normal.
 
-**KEY framework**: this validates that Pattern Resonance reads
+**KEY framework**: this validates that Resonance reads
 **multiple channels simultaneously và integrates contradictions**.
 When explicit (verbal "tôi ổn") contradicts implicit (body language,
-voice, micro-expressions), Pattern Resonance can detect the
+voice, micro-expressions), Resonance can detect the
 contradiction and weigh implicit signals more.
 
-**IMPLICATION**: Pattern Resonance is **NOT just emotion contagion**
+**IMPLICATION**: Resonance is **NOT just emotion contagion**
 — it's sophisticated multi-channel inference. Far more complex
 than mirror neuron hypothesis suggests. Validates framework rejection
 of hardware mirror in favor of chunk-based simulation.
@@ -7006,8 +7006,8 @@ mature:
    distress)
    - Form: multi-channel reading + baseline comparison + integration
      of contradictions
-   - Status: refined Pattern Resonance Stage 8
-   - Nature: validates Pattern Resonance is sophisticated, not
+   - Status: refined Resonance Stage 8
+   - Nature: validates Resonance is sophisticated, not
      simple mirror
 
 ---
@@ -7083,7 +7083,7 @@ qua training, contemplative practices, và refined attention.
   meditation traditions)
 - **Refined body reading capabilities** (E93, E97, E101): physical
   practice giving deep body chunks
-- **Mature Pattern Resonance** at therapist/healer level (E94, E98,
+- **Mature Resonance** at therapist/healer level (E94, E98,
   E99, E102)
 - **Aesthetic sensitivity chunks** (E95, E96, E100): artists feeling
   "rightness" of work — same mechanism as expert intuition but for
@@ -7092,7 +7092,7 @@ qua training, contemplative practices, và refined attention.
   (Buddhist mindfulness, Vietnamese trà đạo, Western psychotherapy,
   Indian yoga, Chinese qigong, etc.)
 
-Self-Pattern Match Stage 7 (refined practice peak). Pattern Resonance
+Self-Pattern Match Stage 7 (refined practice peak). Resonance
 Stage 8 (refined practice).
 
 **Insight then chốt giai đoạn này**: §8 demonstrates that feeling
@@ -7274,16 +7274,16 @@ student với specific cue.
 your jaw" or "breathe into your back".
 
 **Channel(s)**: Visual (body reading) + own body memory (kinesthetic
-empathy) + Pattern Resonance (cảm what student feels) + integrative.
+empathy) + Resonance (cảm what student feels) + integrative.
 
 **Chunk(s)**:
-- **Body reading chunk** — visual + kinesthetic + Pattern Resonance
+- **Body reading chunk** — visual + kinesthetic + Resonance
 - Years of own body practice + observing thousands of bodies create
   chunk library
 - Pattern matching: student's posture vs learned patterns
 - Integration với knowledge of anatomy
 
-**Stage**: Self-Pattern Match Stage 7 + Pattern Resonance Stage 8.
+**Stage**: Self-Pattern Match Stage 7 + Resonance Stage 8.
 
 **Axis position**:
 - Depth: deep cho body domain
@@ -7298,9 +7298,9 @@ training + observing many students.
 **Prevalence**: Common trong experienced yoga teachers; physical
 therapists, dance teachers, athletic coaches have similar.
 
-**Notes**: This is **embodied Pattern Resonance** — using own body
+**Notes**: This is **embodied Resonance** — using own body
 experience as simulator để model student's body experience. Same
-basic mechanism as social Pattern Resonance, applied to body domain.
+basic mechanism as social Resonance, applied to body domain.
 
 **KEY**: yoga teacher cannot read student's body purely visually
 without **reference to own body experience**. Teacher's own years
@@ -7308,19 +7308,19 @@ of practice trong each posture create body-memory chunks; observing
 student activates memory of "what that posture feels like" — including
 what holding patterns feel like.
 
-**Implication framework**: Pattern Resonance applies to **all domains
+**Implication framework**: Resonance applies to **all domains
 where own experience can serve as simulator**. Not limited to
-emotional empathy. Yoga teacher's body-Pattern-Resonance is genuine
+emotional empathy. Yoga teacher's body-Resonance is genuine
 empathy at body level.
 
-**Connection cho framework**: validates that Pattern Resonance is
+**Connection cho framework**: validates that Resonance is
 **broader than emotion** — it's "use own experience to model
 other's experience". Body experience, cognitive experience, sensory
 experience can all serve as simulator material.
 
 Vietnamese context: traditional Vietnamese body practices (võ
 thuật, tai chi, qigong derivatives) cultivate similar embodied
-Pattern Resonance trong masters. Practice creates chunks that
+Resonance trong masters. Practice creates chunks that
 enable reading others' bodies.
 
 ---
@@ -7336,16 +7336,16 @@ is falling apart". Underneath surface, real issue revealed.
 **Verbalization**: Gentle question pointing toward deeper issue.
 
 **Channel(s)**: Auditory (subtle voice changes) + visual (micro-
-expressions) + Pattern Resonance (deep) + own body resonance + verbal
+expressions) + Resonance (deep) + own body resonance + verbal
 content vs implicit content gap.
 
 **Chunk(s)**:
-- **Therapist sensing chunk** — refined Pattern Resonance Stage 8
+- **Therapist sensing chunk** — refined Resonance Stage 8
 - Multi-channel reading + integration of implicit signals
 - Years of practice với hundreds of clients build chunk library
 - Calibration through outcomes (which intuitions led to breakthroughs)
 
-**Stage**: Pattern Resonance Stage 8 (peak refined practice).
+**Stage**: Resonance Stage 8 (peak refined practice).
 
 **Axis position**:
 - Depth: very deep social
@@ -7359,7 +7359,7 @@ training + own therapy + reading.
 
 **Prevalence**: Common trong experienced therapists; rare in novices.
 
-**Notes**: This is **PEAK Pattern Resonance** in clinical practice.
+**Notes**: This is **PEAK Resonance** in clinical practice.
 Same mechanism as E89 (sensing friend's hidden distress) but with
 additional refinements:
 - Theoretical framework guiding interpretation
@@ -7372,7 +7372,7 @@ as therapeutic mechanism. Decades of research show therapist's
 ability to sense unspoken feelings is one of best predictors of
 therapy outcome (Bohart et al. 2002).
 
-**KEY framework validation**: this is what Pattern Resonance looks
+**KEY framework validation**: this is what Resonance looks
 like at trained refined level. Not magic, not mind-reading — chunk-
 based pattern matching applied to client's signals against learned
 patterns from many client encounters.
@@ -7386,13 +7386,13 @@ patterns from many client encounters.
 5. Therapist tests with gentle question
 6. If correct, deepens session; if wrong, recalibrates
 
-**Implication framework**: Pattern Resonance is **systematically
+**Implication framework**: Resonance is **systematically
 trainable**. Therapist training is essentially structured cultivation
 of E94-type chunks. Similar training possible in other helping
 professions: counselors, social workers, doctors, teachers, parents
 even.
 
-Cũng addresses Bird & Cook insight from §5 Pattern-Resonance: empathy
+Cũng addresses Bird & Cook insight from §5 Resonance: empathy
 requires self-literacy. Therapists doing own therapy is part of
 training for this reason — own self chunks must be developed for
 sophisticated other-modeling.
@@ -7602,7 +7602,7 @@ not right" / sometimes admit "I can't explain why".
 
 **Channel(s)**: Visual (subtle appearance changes) + auditory
 (voice quality, breathing) + tactile (touch examination) + olfactory
-(some illnesses have characteristic smells) + Pattern Resonance +
+(some illnesses have characteristic smells) + Resonance +
 clinical experience.
 
 **Chunk(s)**:
@@ -7612,12 +7612,12 @@ clinical experience.
   even when no single sign is alarming
 - Calibration through outcomes (knowing which intuitions were right)
 
-**Stage**: Self-Pattern Match Stage 7 + Pattern Resonance Stage 8;
+**Stage**: Self-Pattern Match Stage 7 + Resonance Stage 8;
 clinical specialization.
 
 **Axis position**:
 - Depth: very deep clinical
-- Breadth: multi-sensory + Pattern Resonance + theoretical
+- Breadth: multi-sensory + Resonance + theoretical
 - Speed: fast (often immediate impression)
 - Integration: maximum
 - Action coupling: clinical decision
@@ -7639,7 +7639,7 @@ still recognized as valuable.
 3. **Touch**: examined patient many times — knows normal feel
 4. **Sometimes smell**: certain illnesses have characteristic
    odors (ketoacidosis, pneumonia, etc.)
-5. **Pattern Resonance**: cảm patient's distress level
+5. **Resonance**: cảm patient's distress level
 6. **Theoretical knowledge**: what to watch for
 
 All integrated through years of practice. Not magic.
@@ -7683,13 +7683,13 @@ quality) + behavioral (small differences in routine) + Pattern
 Resonance + parental attunement.
 
 **Chunk(s)**:
-- **Parental sensing chunk** — refined Pattern Resonance for own
+- **Parental sensing chunk** — refined Resonance for own
   child
 - Years of knowing this specific child create deep baseline
 - Tiny deviations from baseline trigger awareness
 - Chunk specific to this person, không generalizable
 
-**Stage**: Pattern Resonance Stage 8 (refined for specific other).
+**Stage**: Resonance Stage 8 (refined for specific other).
 
 **Axis position**:
 - Depth: very deep cho specific child
@@ -7704,7 +7704,7 @@ child, observation across many states và contexts.
 **Prevalence**: Common trong attentive parents; weaker trong
 distracted/distant parents.
 
-**Notes**: **Parental Pattern Resonance** for own child is one of
+**Notes**: **Parental Resonance** for own child is one of
 deepest examples — built over years với one specific person.
 Different from generic empathy because chunks are person-specific.
 
@@ -7785,7 +7785,7 @@ pattern as expert intuition trong other domains.
 3. **Word precision** (semantic exactness)
 4. **Tone consistency**
 5. **Structure**
-6. **Reader experience modeling** (Pattern Resonance applied to
+6. **Reader experience modeling** (Resonance applied to
    imagined reader)
 
 All integrated through experience. Master writers can detect violations
@@ -7881,20 +7881,20 @@ Adjusts teaching real-time based on collective state.
 **Verbalization**: Often non-verbal. Sometimes cue change to group.
 
 **Channel(s)**: Visual (room scanning) + auditory (collective breath,
-silence quality) + Pattern Resonance (multi-person) + own meditation
+silence quality) + Resonance (multi-person) + own meditation
 state.
 
 **Chunk(s)**:
-- **Group sensing chunk** — Pattern Resonance applied to collective
+- **Group sensing chunk** — Resonance applied to collective
 - Reading multi-person dynamics simultaneously
 - Distinct from individual reading — gestalt perception
 - Refined through years of teaching
 
-**Stage**: Pattern Resonance Stage 8+ (group dimension).
+**Stage**: Resonance Stage 8+ (group dimension).
 
 **Axis position**:
 - Depth: very deep social
-- Breadth: multi-person Pattern Resonance
+- Breadth: multi-person Resonance
 - Speed: continuous monitoring
 - Integration: maximum
 - Action coupling: real-time teaching adjustment
@@ -7915,7 +7915,7 @@ mechanisms:
    group state
 4. **Statistical pattern**: gestalt of group dynamics
 
-**KEY framework**: validates that Pattern Resonance can scale
+**KEY framework**: validates that Resonance can scale
 beyond individual. "Energy of the room" is real chunk-based
 phenomenon, not metaphysical.
 
@@ -7928,7 +7928,7 @@ phenomenon, not metaphysical.
 
 All trained chunks for **collective state perception**.
 
-**Implication framework**: Pattern Resonance scales. Individual
+**Implication framework**: Resonance scales. Individual
 person chunks → group chunks → potentially crowd-level chunks
 (mob psychology). Same mechanism, different scale.
 
@@ -7948,15 +7948,15 @@ Tổng kết chunk formulas trong refined adult / training:
    - Status: requires meditation/Focusing training
    - Nature: validates expanded Feeling definition strongly
 
-2. **Embodied Pattern Resonance** (E93 yoga, E97 dance, E101 tea)
+2. **Embodied Resonance** (E93 yoga, E97 dance, E101 tea)
    - Form: own body experience as simulator → read other body/
      physical situation
    - Status: requires years of own practice
-   - Nature: Pattern Resonance applied beyond emotion
+   - Nature: Resonance applied beyond emotion
 
 3. **Therapist-level social sensing** (E94, E99)
    - Form: multi-channel reading + integration + pattern matching
-   - Status: refined Pattern Resonance Stage 8
+   - Status: refined Resonance Stage 8
    - Nature: trained version of childhood mood reading (E61)
 
 4. **Aesthetic rightness chunks** (E95 painting, E96 pitch, E100
@@ -7971,9 +7971,9 @@ Tổng kết chunk formulas trong refined adult / training:
    - Nature: validates multi-channel approach
 
 6. **Group/collective sensing chunks** (E102)
-   - Form: scaled Pattern Resonance to collectives
+   - Form: scaled Resonance to collectives
    - Status: refined teaching/leadership skill
-   - Nature: validates Pattern Resonance scales
+   - Nature: validates Resonance scales
 
 ---
 
@@ -7996,8 +7996,8 @@ refinements. Validates framework's unifying claim: same mechanism,
 different paths to same destination. Suggests chunks are real
 phenomena, not artifact of one tradition.
 
-**(3) Pattern Resonance refinement extends beyond emotion to all
-domains.** §8 shows Pattern Resonance applied to:
+**(3) Resonance refinement extends beyond emotion to all
+domains.** §8 shows Resonance applied to:
 - Body (yoga teacher reading student E93)
 - Movement (dance E97 — own body as simulator)
 - Cognition (therapist E94)
@@ -8005,7 +8005,7 @@ domains.** §8 shows Pattern Resonance applied to:
 - Specific individuals (parent E99)
 
 All same mechanism (use own experience as simulator để model
-other), applied to different content. Validates Pattern Resonance
+other), applied to different content. Validates Resonance
 as broad, không emotion-only.
 
 **(4) Sensory chunks can be refined to extreme levels.** E96
@@ -8019,7 +8019,7 @@ refined chunks require attention conditions (silence, focus, slow
 time, hands-on practice) that modern life rarely provides. AI era
 specifically: screen mediation reduces sensory practice, distraction
 reduces meditation depth, virtual interaction reduces embodied
-Pattern Resonance. Refined chunks may become rarer, không because
+Resonance. Refined chunks may become rarer, không because
 human capacity changed, but because cultivation conditions
 disappearing. Framework implication: deliberate preservation of
 practice conditions (retreats, master apprenticeships, contemplative
@@ -8060,7 +8060,7 @@ existence itself.
 - **Legacy feelings** (E116): "what will remain after I'm gone?"
 
 Self-Pattern Match Stage 7+ (peak với existential dimension).
-Pattern Resonance Stage 8+ extended to imagined future selves và
+Resonance Stage 8+ extended to imagined future selves và
 abstract entities (humanity, universe, future generations).
 
 **Insight then chốt giai đoạn này**: §9 demonstrates that feeling
@@ -9129,7 +9129,7 @@ Failed: stagnation, self-absorption.
 
 **KEY framework**: legacy chunk requires:
 1. Future continuity perception (chunks tracking time beyond self)
-2. Other-orientation (Pattern Resonance with future others)
+2. Other-orientation (Resonance with future others)
 3. Values clarification (what matters to leave)
 4. Realistic self-assessment (what I can offer)
 5. Meaning chunks (why legacy matters)
@@ -9901,7 +9901,7 @@ disruption) + action (building/implementing solution).
 
 **Scaffolding required**: Usually requires combination of:
 1. **Deep understanding của problem** (domain-specific literacy)
-2. **Pattern Resonance với affected parties** (caring, not abstract)
+2. **Resonance với affected parties** (caring, not abstract)
 3. **Sense of agency** (capability belief — "I can contribute
    meaningfully")
 4. **Tolerance for long-term uncertainty** (solutions rarely quick)
@@ -9948,7 +9948,7 @@ engineering fields.
 
 **Medical researchers pursuing specific cure**: cancer researcher
 who lost parent to disease, decades of work on specific disease.
-Mission unbearability calibrated by personal loss + Pattern Resonance
+Mission unbearability calibrated by personal loss + Resonance
 + expertise + agency. Sustainable because clear target và periodic
 small wins.
 
@@ -9967,7 +9967,7 @@ chunks + agency + social movement opportunity. Gandhi, Martin Luther
 King, early feminist leaders — mature mission unbearability channeled
 into long-term work.
 
-**Humanitarian workers**: witnessing suffering + Pattern Resonance
+**Humanitarian workers**: witnessing suffering + Resonance
 + agency = career trong hard conditions. Médecins Sans Frontières
 doctors, UN workers in crisis zones.
 
@@ -10043,7 +10043,7 @@ strategy" / "Trận này mình thua, nhưng game còn dài".
 competitive reward (winning dopamine) + meta-strategic (thinking
 về thinking về moves) + body interoceptive (engagement arousal,
 không burnout stress signature) + memory (learned patterns từ past
-games) + Pattern Resonance (reading opponents).
+games) + Resonance (reading opponents).
 
 **Chunk(s)**:
 - **Work-as-game framing chunk**: reframe external competitive
@@ -10058,7 +10058,7 @@ games) + Pattern Resonance (reading opponents).
 - **Game-continuity chunk**: one game ends, next begins, engagement
   continues across games
 
-**Stage**: Self-Pattern Match Stage 7 + Pattern Resonance Stage 7+
+**Stage**: Self-Pattern Match Stage 7 + Resonance Stage 7+
 (reading opponents sophisticated).
 
 **Axis position**:
@@ -10866,7 +10866,7 @@ Specific scaffolding chains documented qua examples:
 - E31 "không" (autonomy) → E64 "tôi là ai" (identity): self-as-
   agent chunks scaffold identity questioning
 
-**Self-other → Pattern Resonance scaffolding**:
+**Self-other → Resonance scaffolding**:
 - E26 mang gấu bông cho mẹ → E94 therapist sensing client: same
   basic mechanism (use own template), refined dramatically
 - E61 reading parent mood → E89 detecting hidden distress → E94
@@ -10929,15 +10929,15 @@ deepens.
 
 **Mid-stage integration**:
 - E22 "đau" + body part: interoception + verbal + body schema
-- E26 mang gấu bông: Pattern Resonance + memory + motor
+- E26 mang gấu bông: Resonance + memory + motor
 - E54 child math confidence: cognitive + meta + body
 
 **Mature integration**:
 - E78 adult feeling of knowing: cognitive + meta + body + memory +
   prediction
-- E94 therapist sensing: visual + auditory + Pattern Resonance + own
+- E94 therapist sensing: visual + auditory + Resonance + own
   body resonance + verbal vs implicit gap
-- E102 group sensing: multi-person Pattern Resonance + own state +
+- E102 group sensing: multi-person Resonance + own state +
   collective dynamics
 
 **Maximum integration**:
@@ -11029,9 +11029,9 @@ including Vietnamese), males more than females.
 
 **Bird & Cook critical insight**: empathy deficits often blamed on
 autism actually driven by alexithymia. Person without own emotional
-literacy cannot model others' emotions through Pattern Resonance —
+literacy cannot model others' emotions through Resonance —
 no self-template available. Validates framework's claim that Self-
-Pattern Match is prerequisite for Pattern Resonance.
+Pattern Match is prerequisite for Resonance.
 
 **Treatment**: emotion labeling practice, body awareness, therapy
 (especially focused on emotion identification). Chunks can be built
@@ -11039,20 +11039,20 @@ even in adulthood, slower than childhood but possible.
 
 ### §11.2 Arrested social development
 
-**Pattern**: Pattern Resonance chunks failed to develop or became
+**Pattern**: Resonance chunks failed to develop or became
 distorted, leading to social difficulty.
 
 **Examples**:
 - Autism spectrum: difficulty với joint attention (E18 form) early
   → cascade effects on later social chunks. Note: many autistic
-  adults have intact Pattern Resonance once supported; deficit is
+  adults have intact Resonance once supported; deficit is
   often combined với alexithymia (Bird & Cook).
 - Reactive attachment disorder: missing early attachment chunks (E15
   mother recognition pattern disrupted) → later attachment
   difficulties
-- Schizoid patterns: early withdrawal from Pattern Resonance, builds
+- Schizoid patterns: early withdrawal from Resonance, builds
   chunks for distance instead of connection
-- Personality disorders: distorted Pattern Resonance chunks (manipulative,
+- Personality disorders: distorted Resonance chunks (manipulative,
   seeing others as objects, etc.)
 
 **Mechanism**: chunks at §2 (infant), §3 (toddler), §4 (early
@@ -11452,7 +11452,7 @@ equivalent.
 **Refinement §9b added same day based on user meta-question.**
 
 File ready để serve as foundation cho:
-- **Phase 3**: Self-Pattern-Match.md + Pattern-Resonance.md content
+- **Phase 3**: Self-Pattern-Match.md + By-Product-Gap-Resonance.md content
   fill (extensive references to examples here including §9b drive
   chunks)
 - **Phase 4**: Feel-Development.md synthesis (uses §10 cross-patterns,
@@ -11466,7 +11466,7 @@ File ready để serve as foundation cho:
 
 2. **Vietnamese-first voice succeeded**: Emotion vocabulary works
    well in Vietnamese; English terms preserved for framework concepts
-   (PFC, chunk, Pattern Resonance, etc.).
+   (PFC, chunk, Resonance, etc.).
 
 3. **Synthesis notes valuable**: Per-section synthesis notes prevent
    loss of insights when filling later phases.
@@ -11506,7 +11506,7 @@ supplementary drive chunks)
 
 **Next actions** (for future sessions):
 
-1. **Phase 3 readiness**: Self-Pattern-Match.md và Pattern-Resonance.md
+1. **Phase 3 readiness**: Self-Pattern-Match.md và By-Product-Gap-Resonance.md
    outlines (created Phase 1) can now be filled với extensive
    references to specific examples here, including §9b drive chunks
    cho adult profile analysis. Prerequisites met.
@@ -11523,7 +11523,7 @@ supplementary drive chunks)
 
 3. **Updates to existing Feeling/ files**: 
    - Feeling.md root definition update (use expanded definition)
-   - Feeling-Sources.md channel rename (Mirror → Pattern Resonance)
+   - Feeling-Sources.md channel rename (Mirror → Resonance)
    - Feeling-Accuracy.md broader literacy concept
    - Cross-references Logic-Feeling.md, Anchor-Schema.md, etc.
 
@@ -11539,7 +11539,7 @@ supplementary drive chunks)
 synthesis, validates expanded Feeling definition through 124 concrete
 examples spanning newborn (E1) đến existential adult (E116) plus
 drive chunks (E117-E124). Provides input cho mechanism files
-(Self-Pattern-Match.md, Pattern-Resonance.md) và synthesis (Feel-
+(Self-Pattern-Match.md, By-Product-Gap-Resonance.md) và synthesis (Feel-
 Development.md).
 
 **Self-referential validation**: §9b documents framework's own

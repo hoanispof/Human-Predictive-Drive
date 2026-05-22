@@ -1,13 +1,20 @@
 ---
 title: Novelty — Observation Parameter
-version: 1.0
+version: 1.1
 created: 2026-04-20
-status: OBSERVATION PARAMETER v1.0
+updated: 2026-05-17
+status: OBSERVATION PARAMETER v1.1
 scope: |
   OBSERVATION FILE: Novelty = named pattern khi quan sát chunk dynamics.
   Novelty không phải component hay operator — là TÊN GỌI cho patterns
   emergent từ VTA detect positive prediction-delta + chunk-gap dynamics.
   File này mô tả: mechanism, 2 dạng, phanh, loop, depth/breadth, ứng dụng.
+  v1.1 KEY CHANGES:
+    ⑪ +Architecture B: novelty = general-purpose system detect UNCOMPILED input
+    ⑫ +Compiled/Fresh: novel = BY DEFINITION fresh (not yet compiled)
+    ⑬ +2-tầng calibration: what counts as "novel" = per-individual
+    ⑭ Version refs synced (VP v2.0, BFM v2.0, Feeling v3.0)
+    ⑮ +Cross-refs: Inter-Body-Mechanism.md v1.0, Body-Feedback-Label.md v2.0
 purpose: |
   Core v7.8 §8 define Novelty ngắn gọn ("Positive prediction-delta pattern").
   File này DEEP-DIVE: neuroscience mechanism, practical patterns,
@@ -18,13 +25,15 @@ position: |
   Tất cả = observation parameter deep-dives, KHÔNG phải mechanism files.
 dependencies:
   - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
-  - Body-Feedback-Mechanism.md — Chunk-Gap = foundation, Shift/Miss/Gap
+  - Body-Feedback-Mechanism.md v2.0 — Chunk-Gap = foundation, Shift/Miss/Gap
   - Chunk.md v2.0 — chunk substrate, compilation, hierarchy
   - Cortisol-Baseline.md v2.0 — amplifier, sustained cortisol dynamics
-  - Valence-Propagation.md v1.1 — body evaluation, delta rule
+  - Valence-Propagation.md v2.0 — body evaluation, delta rule
   - Modality.md v1.0 — encoding channels, depth = modality count
-  - Feeling.md v2.0 — PFC observation interface
+  - Feeling.md v3.0 — PFC observation interface
   - Somatic-Articulation-Loop.md — implicit >> explicit, felt sense
+  - Inter-Body-Mechanism.md v1.0 — Architecture B, Compiled/Fresh
+  - Body-Feedback-Label.md v2.0 — vocabulary reference
 sources_backup: |
   Gộp + rewrite từ: Novelty.md v1.0 (1,225L) + Novelty-Loop.md (1,060L)
   Backup: _backup/Drive-v75-era/
@@ -100,6 +109,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       hoặc compile chunks mới (combinatorial space)
 
 
+⭐ ARCHITECTURE B → NOVELTY CẦN THIẾT (Inter-Body-Mechanism.md §1.2):
+
+  ARCHITECTURE A (côn trùng, động vật đơn giản):
+    Stimulus→Response HARDWIRED. Không cần "detect mới" — MỌI response CỐ ĐỊNH.
+    Con ong: hoa→bay tới. Không có "tò mò" — chỉ có circuit.
+    → KHÔNG CÓ "Novelty" vì KHÔNG CÓ prediction → không có delta.
+
+  ARCHITECTURE B (humans):
+    General-purpose reward system: LEARN content from environment.
+    Content KHÔNG hardwired → phải DETECT: "input nào CHƯA compile?"
+    → VTA = detector cho "UNCOMPILED INPUT" trong general-purpose system.
+    → Novelty = signal "có input CHƯA TRONG BASELINE — attend + process."
+    → = Architecture B's MECHANISM để liên tục UPDATE world model.
+
+  → Novelty = ARCHITECTURE REQUIREMENT cho general-purpose learning.
+  → Không có novelty detection → Architecture B không update → chết.
+
+  🟡 Architecture B framing = framework synthesis (Inter-Body-Mechanism.md §1.2).
+
+
 NOVELTY TRONG CYCLE (Core v7.8 §1):
 
   Domain → Body-Input → Unconscious(Chunks) → Feeling → PFC → Body-Output → Domain
@@ -173,9 +202,31 @@ GIÁ TRỊ CỦA FILE NÀY:
     → Dopamine bind vào DRD4 receptors trên PFC neurons
     → = Signal "có gì đó MỚI — attend"
 
+  ⭐ NOVELTY = BY DEFINITION FRESH (Inter-Body-Mechanism.md §3):
+
+    Compiled/Fresh = trục thật của processing:
+      F1 Compiled = automatic, body-feedback direct, cost ≈ 0
+      F2 Fresh = PFC draft, deliberate, cost > 0
+
+    → Novelty signal = "input NÀY chưa compiled" = BY DEFINITION fresh.
+    → VTA fire = signal "SWITCH TO FRESH PROCESSING MODE."
+    → PFC phải attend, draft, evaluate — cost > 0.
+
+    Khi pattern compile xong:
+      → VTA habituate → delta = 0 → novelty signal TẮT.
+      → Processing chuyển F2→F1 (fresh→compiled).
+      → = "Hết mới" = "đã compile" = cùng 1 sự kiện nhìn từ 2 góc.
+
+    Hệ quả:
+      → "Tìm novelty" = "tìm input chưa compiled."
+      → Expert có NHIỀU novelty hơn beginner (§1.4) vì:
+        combinatorial space lớn → NHIỀU patterns chưa compiled hơn.
+      → Education: dạy = cung cấp fresh input → student compile.
+
   🟢 VTA, dopamine pathway, habituation = neuroscience verified
   🟢 Schultz 1997: reward prediction error (cơ chế đã established)
   🟡 "Prediction delta" (neutral term) = framework terminology choice
+  🟡 Novelty=fresh mapping = framework synthesis (consistent with Kahneman)
 
 
 §1.2 — DRD4 THRESHOLD — FILTER VÔ THỨC
@@ -260,9 +311,24 @@ GIÁ TRỊ CỦA FILE NÀY:
     → = Output của: chunks tích lũy × gap density × DRD4 threshold
     → Ai cũng CÓ THỂ → nếu tích đủ chunks + gặp đúng domain
 
+  ⭐ 2-TẦNG CALIBRATION — "MỚI" = PER-INDIVIDUAL:
+
+    Cái gì "mới" KHÔNG phải absolute — phụ thuộc BASELINE CỦA NGƯỜI ĐÓ:
+      → Beginner: mọi thứ mới (baseline ít chunks) → VTA fire LIÊN TỤC
+      → Expert: ít thứ mới ở bề mặt (baseline nhiều chunks)
+        → NHƯNG: combinatorial patterns mới = delta MỚI ở SÂU HƠN
+      → Ví dụ: cùng bài toán → beginner "WOW mới" vs expert "trivial"
+      → Ví dụ: cùng cấu trúc toán → expert "WOW connection mới" vs beginner "???"
+
+    2 tầng:
+      ① HARDWARE tầng: DRD4 threshold (genetic — ít thay đổi)
+      ② CHUNK tầng: chunk library size + gap density (thay đổi theo kinh nghiệm)
+    → "Mới" = f(hardware threshold × chunk baseline) = calibrated per person.
+
   🟢 Combinatorial mathematics = verified
   🟢 Chunk hierarchy + meta-chunks = expertise research (Chase & Simon 1973)
   🟡 "Tò mò = mechanism output" = framework reframe (vs trait theory)
+  🟡 2-tầng calibration = framework synthesis
 ```
 
 ---
@@ -836,6 +902,9 @@ TÓM TẮT:
     │ 4 mức depth (pure → self-created threat)                   │
     │ 4 hại categories (scatter/burnout/drift/exploit)           │
     │ "Tò mò" = mechanism output (not fixed trait)               │
+    │ Architecture B → novelty = detect uncompiled input (v1.1)  │
+    │ Novelty = by definition fresh processing (v1.1)            │
+    │ 2-tầng calibration: "mới" = per-individual (v1.1)          │
     └────────────────────────────────────────────────────────────┘
 
   🔴 HYPOTHESIS (logical but unverified):
@@ -855,23 +924,26 @@ TÓM TẮT:
 ```
   ← FOUNDATION (đọc trước hoặc cùng):
     Core-v7.8-Draft.md §8 — Novelty = observation parameter definition
-    Body-Feedback-Mechanism.md v1.2 §3.3 — Chunk-Gap = Novelty foundation
-    Body-Feedback-Mechanism.md v1.2 §2 — 2 nguồn (Sensory/Pattern-Driven)
+    Body-Feedback-Mechanism.md v2.0 §3.3 — Chunk-Gap = Novelty foundation
+    Body-Feedback-Mechanism.md v2.0 §2 — 2 nguồn (Sensory/Pattern-Driven)
     Chunk.md v2.0 — chunk substrate, compilation, hierarchy
     Cortisol-Baseline.md v2.0 — cortisol = amplifier, sustained dynamics
     Reward-Signal-Architecture.md v1.0 — prediction-delta refined: Profile ②⑤ (2026-05-10)
+    Inter-Body-Mechanism.md v1.0 §1.2 — Architecture B (novelty = detect uncompiled)
+    Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh (novelty = fresh by definition)
 
   ↔ SONG SONG (cùng Observation/ folder):
     Observation/Threat.md — PUSH away from harm (parallel với Novelty PULL)
     Observation/Drive.md — HOW Novelty + Threat + other patterns → action
-    Observation/Empathy.md — SPM function on chunks
+    Observation/Empathy.md v3.0 — SPM function on chunks
     Observation/Liking-Wanting.md — Wanting overlap với Novelty (dopamine)
 
   → DOWNSTREAM (đọc sau):
     Modality.md v1.0 §3 — chunk depth = modality count
     Schema.md v2.0 — schema = observation parameter for chunk patterns
-    Feeling.md v2.0 — PFC observation interface (Novelty → feeling "thú vị")
+    Feeling.md v3.0 — PFC observation interface (Novelty → feeling "thú vị")
     Somatic-Articulation-Loop.md — Chunk-Gap felt sense → articulation
+    Body-Feedback-Label.md v2.0 — vocabulary reference
 
   → ỨNG DỤNG:
     AI-Schema-Detection.md — AI detect Novelty patterns
@@ -879,6 +951,7 @@ TÓM TẮT:
 
   STATUS:
     v1.0 — 2026-04-20 — viết mới cho v7.8 cycle-based architecture
-    Gộp từ: Novelty.md v1.0 + Novelty-Loop.md (backup: _backup/Drive-v75-era/)
-    Aligned: Core v7.8, Body-Feedback-Mechanism, prediction-delta terminology
+    v1.1 — 2026-05-17 — +Architecture B, +Compiled/Fresh, +2-tầng, version sync
+    Gộp từ: Novelty.md v1.0-old + Novelty-Loop.md (backup: _backup/Drive-v75-era/)
+    Aligned: Core v7.8, Inter-Body-Mechanism v1.0, prediction-delta terminology
 ```

@@ -990,7 +990,7 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 
 - [Body-Feedback-Draft/01-Foundation.md §5.5.1](../Body-Feedback-Draft/01-Foundation.md#§551) — đái gradient verbatim example (bidirectional — 06a grounds mechanism)
 - [Body-Feedback-Draft/04-Integration.md §9](../Body-Feedback-Draft/04-Integration.md#§9) — H10 P2 precondition (06a resolves mechanism)
-- [Agent/](../Agent/) — not directly referenced in 06a but 07 will cross-reference Pattern Resonance
+- [Agent/](../Agent/) — not directly referenced in 06a but 07 will cross-reference Resonance
 
 ### §10.3 — Body-Base framework
 

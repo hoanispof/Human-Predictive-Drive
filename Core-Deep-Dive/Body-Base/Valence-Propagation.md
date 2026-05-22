@@ -1,39 +1,63 @@
 ---
 title: Valence-Propagation — Hệ Thống Đánh Giá Của Body + Cơ Chế Truyền Qua Schema Network
-version: 1.4
+version: 3.0
 created: 2026-04-18
-updated: 2026-05-08 (v1.4 — §4 thêm Explanatory vs Processing clarification, GAP 13 resolved)
-status: v1.4 — REFERENCE FILE (kiến trúc tổng thể Valence system)
+rewritten: 2026-05-22 (v3.0 — FULL REWRITE: Drill-Entity-Valence-Dynamics v2.0 integration + Phase A framework files)
+previous_versions:
+  - v2.0 → backup/Valence-Propagation-v2.0-backup.md
+  - v1.4 → backup/Valence-Propagation-v1.4-backup.md
+status: v3.0 — REFERENCE FILE (kiến trúc tổng thể Valence system)
 scope: |
-  WHAT valence IS + HOW valence WORKS per-entity + HOW valence PROPAGATES qua schema chain
-  + WHY PFC không biết + GIỚI HẠN nền tảng.
-  v1.2 KEY ADDITION: §2 Agent valence có dimension mà object KHÔNG CÓ:
-    Body-Base Extension — agent compiled strong positive → body-base extension.
-    = NƠI "Luồng 2" structural reward SINH RA (Connection.md §3.3).
-    Phân biệt Luồng 1 (SPM-owned, momentary) vs Luồng 2 (Entity-owned, structural).
-  Tích hợp: Domain/backup/Valence.md (per-entity, DRAFT v0.5) + phân tích MỚI session N+16
-  (propagation, chain properties, PFC blindness, fundamental limits).
+  WHAT valence IS + HOW valence WORKS per-entity + HOW valence BEHAVES over time +
+  HOW valence PROPAGATES qua schema chain + WHY PFC không biết + GIỚI HẠN nền tảng.
+  v3.0 KEY CHANGES (from Drill-Entity-Valence-Dynamics v2.0, 28 insights):
+    ① Structural valence (inside EC, slow) vs Current valence (outside EC, fast)
+    ② 3 Firing Modes: Maintenance / Chunk-Miss / Context-Trigger
+    ③ Hardware Subsidy = ANTI-HABITUATION: modulate VTA habituation per entity
+    ④ Satiation type × valence: Cyclic (oscillation) / Tonic (invisible) / Generative (renewable)
+    ⑤ RSA A:B ratio × valence "feel": B=warm, A=exciting
+    ⑥ Per-entity valence dynamics mapping table
+    ⑦ "Xa mẹ mới biết thương" = 3 cơ chế cộng dồn
+    ⑧ Mixed valence = PARALLEL per-channel, MOST COMMON
+    ⑨ Phantom resonance 4-factor model
+    ⑩ Technology × valence frontier + ENGINE/ROAD/VEHICLE
+  + Phase A integration: Entity-Compiled v1.0, Entity-Access v1.0,
+    PFC-Operations v1.0, Simulation-Engine v1.0
+  + §3 Entity-Compiled SLIM DOWN (deep mechanism → pointer → EC v1.0)
 purpose: |
   Central reference file cho toàn bộ Valence system trong framework.
-  Thay thế Domain/Valence.md DRAFT (2026-04-12, ~579L → Domain/backup/Valence.md).
+  3 trụ cột: WHAT valence is + HOW valence behaves per-entity + HOW valence propagates.
   Vai trò tương đương Feeling.md v2.0 và Chunk.md v2.0 cho hệ thống tương ứng.
-sources: |
-  Domain/backup/Valence.md (~579L) — per-entity valence, profile, object vs agent, cases
-  Schema.md §1-§1.2 — schema = chunks + links + purpose, KHÔNG THỂ phân tích chính xác
-  Drive.md §0 — schema = DETECTOR, vô thức = ENGINE, PFC = navigator
-  Anchor-Schema.md §1-§2 — trust binding, cost, anchor strength
-  Feeling.md v2.0 §2-§6 — 7-layer fidelity gradient, reward, 8-step flow
-  Chunk.md v2.0 — chunk substrate, multi-modal binding
-  Emergent-Patterns.md §5 — "Cho đi" pattern, 4 nguồn reward
-  Empathy.md §6 — empathy reward override spectrum (lành mạnh → compulsive)
-  Session N+16 analysis — 12+ cases, schema-chain valence propagation concept
-  Session N+19 analysis — WHY chain dài tồn tại, 4 tầng cơ chế, PFC-Capacity refine
-  PFC-Analysis.md — pyramidal compression, 4±1 dimensions, Observed Capacity formula
-  Empathy.md §7 — evolutionary function, group selection logic
-  Chunk.md v2.0 §3 — 4 connection types (substrate for chain formation)
+dependencies:
+  - Body-Base.md v2.1 — L0-L1-L3 channels mà valence đánh giá
+  - Body-Feedback-Mechanism.md v2.0 — Body-Need aggregate, 2 sources, 3 dynamics
+  - Entity-Compiled.md v1.0 — deep mechanism (Hub-and-Spoke, Dunbar, grief, decay)
+  - Entity-Access.md v1.0 — gradient Mức 0-5, 3-Factor Model, excess, calibration
+  - PFC-Operations.md v1.0 — Hold/Suppress, Compiled/Fresh spectrum, PFC budget
+  - Simulation-Engine.md v1.0 — 1 engine, 3 components, 3 axes
+  - Inter-Body-Mechanism.md v1.0 — Entity-Compiled §8, 3-cost §4, By-Product Match §5
+  - Body-Coupling.md v1.1 — coupling mechanism deep-dive (extends §4)
+  - Connection.md v3.3 — 3 Generative Primitives, §3.3 2-luồng overview
+  - Self-Pattern-Modeling.md v3.1 — F1/F2, Simulation Engine application 1
+  - Agent-Mechanism.md v2.0 — integration hub, Architecture B
+  - Collective-Body.md v1.2 — Model 3 cấp (Clarification reference)
+  - Schema.md v2.0 — schema = chunks + links + purpose
+  - Chunk.md v2.2 — chunk substrate, context-tag, 4 connection types
+  - Anchor-Schema.md v1.2 — anchor amplify propagation, trust binding
+  - Feeling.md v2.0 — PFC observation of body-feedback (khác tầng)
+  - Reward-Signal-Architecture.md v1.0 — Type A/B × valence
+  - Gap-Body-Need.md v2.0 — Cyclic/Tonic/Generative satiation types
+  - Resonance-Entity.md v2.0 — hardware subsidy, RSA A:B per entity
+  - Resonance-Sustainability.md v1.0 — 3 modalities, silence, maintenance decline
+  - Obligation.md v1.0 — compiled prediction (independent of Entity-Compiled)
+  - Protect.md v1.0 — f(replaceability × attachment depth)
+  - Boredom.md v2.0 — dissonance + Imagine-Final mờ, source ⑥, M1-M4
+  - Body-Feedback-Label.md v2.0 — vocabulary reference
+sources:
+  - Drill-Entity-Valence-Dynamics v2.0 (1,436L, 28 insights, 33 citations)
+  - Valence-Propagation v2.0 (1,872L) — previous version content kept/refined
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
-backup: Domain/backup/Valence.md
 ---
 
 # Valence-Propagation — Hệ Thống Đánh Giá Của Body + Cơ Chế Truyền Qua Schema Network
@@ -47,21 +71,18 @@ backup: Domain/backup/Valence.md
 >
 > Nhưng có thứ PHỨC TẠP hơn nhiều:
 >
-> **Bạn giúp đỡ người lạ. PFC bạn nói: "vô tư thôi."**
-> **Body bạn ĐANG TÍNH: empathy reward + status + identity + connection.**
-> **4 chuỗi schema fire SONG SONG → net reward >> cost.**
-> **PFC KHÔNG BIẾT những chuỗi này tồn tại.**
+> **Ở với mẹ 20 năm. PFC bạn nói: "bình thường, không gì đặc biệt."**
+> **L2 compiled: ôm, nấu ăn, dạy bài, hy sinh — 20 năm TÍCH LŨY.**
+> **VTA habituated. Hardware subsidy counter. Tonic baseline INVISIBLE.**
+> **PFC KHÔNG BIẾT baseline này tồn tại — cho đến khi MẤT.**
 >
-> **Bạn "đam mê" vật lý. PFC nói: "vì nó hay."**
-> **Body: hardware fit + chunk match + Goldilocks + prediction-delta.**
-> **Chain INVISIBLE — PFC chỉ thấy output, không thấy mechanism.**
+> **Xa mẹ. Đọc thơ. Bỗng KHÓC.**
+> **3 cơ chế cộng dồn: decay asymmetry + contrast + articulation.**
+> **20 năm body BIẾT. PFC mới observe LẦN ĐẦU.**
 >
-> Valence KHÔNG CHỈ tồn tại per-entity.
-> Valence CÒN TRUYỀN qua links trong schema network.
-> Và những chuỗi truyền đó — PFC thường KHÔNG biết.
->
-> File này: Valence LÀ GÌ, cấu trúc per-entity, cách hình thành,
-> cách UPDATE, cách TRUYỀN qua schema chain,
+> File này: Valence LÀ GÌ, cấu trúc per-entity, Structural vs Current,
+> cách valence BEHAVES over time (3 firing modes, hardware subsidy, satiation type),
+> cách valence TRUYỀN qua schema chain,
 > TẠI SAO PFC không biết, và GIỚI HẠN nền tảng.
 
 ---
@@ -71,15 +92,24 @@ backup: Domain/backup/Valence.md
 - §0 — VỊ TRÍ TRONG FRAMEWORK
 - §1 — VALENCE LÀ GÌ
 - §2 — VALENCE PROFILE: Cấu Trúc Per-Entity
-- §3 — CÁCH VALENCE HÌNH THÀNH + UPDATE
-- §4 — VALENCE PROPAGATION QUA SCHEMA CHAIN
-- §5 — 5 ĐẶC TÍNH CỦA CHAIN
-- §5b — TẠI SAO CHAIN DÀI TỒN TẠI: 4 Tầng Cơ Chế ← MỚI v1.1
-- §6 — CASES PHÂN TÍCH
-- §7 — PFC BLINDNESS + CONFABULATION
-- §8 — GIỚI HẠN NỀN TẢNG + 3 NGUYÊN TẮC
-- §9 — HONEST ASSESSMENT
-- §10 — CROSS-REFERENCES + STATUS
+- §3 — STRUCTURAL VALENCE vs CURRENT VALENCE
+- §4 — ENTITY-COMPILED: Body-Base Extension
+- §5 — 2-LUỒNG + 2-TẦNG × VALENCE VISIBILITY
+- §6 — 3 FIRING MODES
+- §7 — VTA HABITUATION × HARDWARE SUBSIDY
+- §8 — VALENCE × SATIATION TYPE
+- §9 — MIXED VALENCE: PARALLEL PER-CHANNEL
+- §10 — "XA MẸ MỚI BIẾT THƯƠNG" — 3 CƠ CHẾ CỘNG DỒN
+- §11 — PER-ENTITY VALENCE DYNAMICS + RSA A:B
+- §12 — PHANTOM RESONANCE × GRIEF
+- §13 — TECHNOLOGY × VALENCE FRONTIER
+- §14 — CÁCH VALENCE HÌNH THÀNH + UPDATE
+- §15 — VALENCE PROPAGATION QUA SCHEMA CHAIN
+- §16 — CHAIN PROPERTIES + WHY CHAIN DÀI TỒN TẠI
+- §17 — CASES PHÂN TÍCH
+- §18 — PFC BLINDNESS + 3 NGUYÊN TẮC
+- §19 — HONEST ASSESSMENT
+- §20 — CROSS-REFERENCES + CITATIONS
 
 ---
 
@@ -97,11 +127,18 @@ backup: Domain/backup/Valence.md
 
   Valence THUỘC VỀ Body-Base vì:
     → Body là NƠI đánh giá xảy ra (amygdala, insula, body signals)
-    → Body channels (L0-L3) là THƯỚC ĐO đánh giá
+    → Body channels (L0-L1-L3) là THƯỚC ĐO đánh giá
     → Valence = body's ASSESSMENT, không phải PFC's judgment
     → PFC có thể OBSERVE valence (thành feeling), nhưng KHÔNG tạo ra nó
-    → = Tương tự Feeling.md v2.0: "Feeling = PFC observation of body"
+    → = Feeling.md v2.0: "Feeling = PFC observation of body"
     → = Valence = WHAT body computes. Feeling = WHAT PFC sees.
+
+  VALENCE × BODY-NEED (BFM v2.0 §1):
+    Body-Need = aggregate OUTPUT của chunk dynamics (BFM v2.0).
+    Valence = body's ASSESSMENT per-entity → feeds INTO body-need.
+    Entity có valence positive → body-need shift toward approach.
+    Entity có valence negative → body-need shift toward avoid.
+    Tổng hợp valences across entities + body state = body-need hiện tại.
 
 
   FILE NÀY TRONG FLOW:
@@ -109,22 +146,25 @@ backup: Domain/backup/Valence.md
     Body-Base.md (L0-L3 channels — NỀN TẢNG)
          │
          ▼
-    ┌─────────────────────────────────────────────────────────┐
-    │ VALENCE-PROPAGATION.MD (FILE NÀY)                       │
-    │                                                          │
-    │  TẦNG 1: Per-Entity Valence (§1-§3)                     │
-    │    Entity → body channels → valence profile              │
-    │    "Cái dao NÀY ảnh hưởng body TÔI thế nào?"           │
-    │                                                          │
-    │  TẦNG 2: Valence Propagation (§4-§5-§5b) ← MỚI          │
-    │    Valence TRUYỀN qua links trong schema network         │
-    │    "Toán có valence positive VÌ link tới tương lai"     │
-    │    §5b: WHY chain dài tồn tại (4 tầng cơ chế)          │
-    │                                                          │
-    │  TẦNG 3: PFC Blindness + Limits (§7-§8) ← MỚI         │
-    │    PFC KHÔNG biết phần lớn valence chain                │
-    │    "Cho đi vô tư" = PFC label cho invisible chain       │
-    └─────────────────────────────────────────────────────────┘
+    Body-Feedback-Mechanism.md v2.0 (Body-Need aggregate, chunk dynamics)
+         │
+         ▼
+    ┌─────────────────────────────────────────────────────────────┐
+    │ VALENCE-PROPAGATION.MD v3.0 (FILE NÀY)                     │
+    │                                                              │
+    │  TRỤ 1: VALENCE LÀ GÌ (§1-§4)                              │
+    │    Per-entity valence → valence profile → Structural/Current │
+    │    Entity-Compiled → body-base extension                     │
+    │                                                              │
+    │  TRỤ 2: VALENCE BEHAVES OVER TIME (§5-§13)          ← v3.0 │
+    │    2-luồng/2-tầng → 3 Firing Modes → Hardware Subsidy       │
+    │    Satiation type → Mixed valence → "Xa mẹ mới biết thương" │
+    │    Per-entity dynamics → Phantom resonance → Technology      │
+    │                                                              │
+    │  TRỤ 3: VALENCE PROPAGATION (§14-§18)                       │
+    │    4 cơ chế propagation → Chain properties → Cases           │
+    │    PFC Blindness → 3 Nguyên tắc                              │
+    └─────────────────────────────────────────────────────────────┘
          │
          ▼
     Drive.md (TỔNG HỢP valences → action)
@@ -159,6 +199,14 @@ backup: Domain/backup/Valence.md
       3 signals: Satisfaction, Reward, Dissonance
 
     Flow: Valence → Drive → Action → Body Signals → Update Valence → Loop
+
+
+  v3.0 CHANGELOG:
+    v2.0 → v3.0: +TRỤ 2 (§5-§13) từ Drill-Entity-Valence-Dynamics v2.0 (28 insights).
+    §4 Entity-Compiled SLIM DOWN (deep mechanism → pointer → EC v1.0 + EA v1.0).
+    §8+§9 v2.0 → §18 (merge PFC Blindness + 3 Nguyên tắc).
+    + Phase A integration (PFC-Operations, Simulation-Engine, Entity-Compiled, Entity-Access).
+    + Dependencies updated: SPM v3.1, Boredom v2.0, Gap-Body-Need v2.0, Resonance-Entity v2.0.
 ```
 
 ---
@@ -177,11 +225,10 @@ backup: Domain/backup/Valence.md
     → Action: giúp đỡ, kiện tụng, học bài, giết người...
     → State: giàu, nghèo, cô đơn, nổi tiếng...
 
-  "Body channels" = hệ thống L0-L3 (Body-Base.md):
+  "Body channels" = hệ thống L0-L1-L3 (Body-Base.md):
     → L0 Alive: safe ←→ dangerous
     → L1 Body-inputs: useful ←→ harmful (nutrition, sleep, sex...)
     → L3 Pattern: novelty, mastery, status, protect
-    → (L2 removed — Body-Input-Enumeration.md reframe)
 
 
   ⭐ 4 ĐẶC TÍNH CỐT LÕI:
@@ -226,7 +273,7 @@ backup: Domain/backup/Valence.md
     ⚠️ NO SOURCE TAG (Drill §10 — GAP 8):
     → Valence stored KHÔNG kèm field "nguồn gốc" (internal hay external?)
     → Wire = wire. Body treat BÌNH ĐẲNG bất kể compiled từ đâu.
-    → PFC CŨNG không phân biệt (§7 confabulation)
+    → PFC CŨNG không phân biệt (§18 confabulation)
     → "Tôi thật sự muốn X hay xã hội nạp?" = câu hỏi VÔ NGHĨA ở body level
     → "Tôi" = TỔNG HỢP internal + external compiled patterns
     → 🟢 Nisbett & Wilson 1977: PFC cannot access actual processing
@@ -311,114 +358,23 @@ backup: Domain/backup/Valence.md
   │ Valence ít bất ngờ   │ Valence có thể FLIP bất ngờ              │
   └─────────────────────┴──────────────────────────────────────────┘
 
-
-  ⭐ AGENT VALENCE CÓ DIMENSION MÀ OBJECT KHÔNG BAO GIỜ CÓ:
-     BODY-BASE EXTENSION
-
-    5 đặc điểm trong bảng trên mô tả sự KHÁC BIỆT giữa object vs agent.
-    Nhưng có 1 bước nhảy CHẤT mà chỉ agent valence tạo được:
-
-    Khi per-agent valence STRONG POSITIVE + compiled SÂU qua nhiều interaction:
-      → Body KHÔNG CHỈ đánh giá "agent X ảnh hưởng tôi thế nào?"
-      → Body chuyển sang: "agent X's wellbeing = MY wellbeing"
-      → = Agent TRỞ THÀNH phần mở rộng body-base CỦA TÔI
-      → = STRUCTURAL, SUSTAINED — không phụ thuộc từng episode tương tác
-
-    BƯỚC NHẢY CHẤT — TẠI SAO KHÔNG PHẢI CHỈ "VALENCE MẠNH":
-
-      Object strong positive (dao tốt, xe quen):
-        → Valence ++, nhưng dao KHÔNG BAO GIỜ = "phần của tôi"
-        → Mất dao = tiếc (resource loss), KHÔNG = đau (body-base loss)
-
-      Agent strong positive (con, mẹ, bạn thân 20 năm):
-        → Valence ++, VÀ agent = body-base extension
-        → Agent's channels ĐƯỢC body treat AS own channels
-        → Con đói = TÔI đói (structural, không chỉ empathy momentary)
-        → Mất agent = PHẦN CỦA TÔI BỊ CẮT
-        → = Tại sao grief ≠ "tiếc" — grief = body-base amputation
-
-    ĐIỀU KIỆN HÌNH THÀNH:
-      ① Nhiều interaction tích lũy → valence compile SÂU
-      ② Trust CAO + Replaceability THẤP + Dependency có
-      ③ SPM fire THÀNH CÔNG nhiều lần → valence reinforce
-      → Body DẦN DẦN treat agent channels AS own channels
-      → = Quá trình COMPILE, không phải quyết định ý thức
-      → = GRADIENT: từ "quen biết" → "thân" → "thân thiết" → "body-base extension"
-
-    ⭐ DIMENSION NÀY TẠO RA "LUỒNG 2" REWARD (Connection.md §3.3):
-
-      Khi interact với agent, body nhận 2 LUỒNG reward ĐỒNG THỜI:
-
-      Luồng 1 (SPM-owned, momentary):
-        = Body-feedback từ MỖI LẦN SPM F1 fire trên target
-        = Có thể + (bạn vui → vui lây) hoặc - (con ốm → khó chịu)
-        = Thuộc về SPM mechanism (Self-Pattern-Match.md §2.1)
-
-      Luồng 2 (Entity-owned, structural) ← SINH RA TỪ DIMENSION NÀY:
-        = COMPILED valence → agent = body-base extension
-        = SUSTAINED — fire BẤT KỂ Luồng 1 positive hay negative
-        = Agent's wellbeing = MY wellbeing (structural, không chỉ momentary)
-        = Thuộc về per-agent valence compiled (section NÀY)
-
-      2 luồng INDEPENDENT, có thể CONFLICT:
-
-        Mẹ chăm con ốm:
-          L1: negative (simulate con suffering → body khó chịu)
-          L2: positive (con = body-base extension → chăm con = feed body-base MÌNH)
-          → L2 > L1 → VẪN CHĂM dù L1 negative
-
-        Bác sĩ chăm bệnh nhân lạ:
-          L1: negative (simulate suffering → cost THẬT)
-          L2: ≈ 0 (bệnh nhân lạ → chưa compiled thành body-base extension)
-          → L1 cost TÍCH LŨY không bù → burnout
-
-        Bạn thân kể chuyện vui:
-          L1: positive (vui lây)
-          L2: positive (bạn = body-base extension)
-          → COMPOUND reward → gặp bạn thân = cực tốt
-
-    ⭐ TẠI SAO CHỈ AGENT, KHÔNG BAO GIỜ OBJECT:
-
-      Object KHÔNG fire SPM → không có L1 episodes tích lũy
-      Object KHÔNG bidirectional → không có mutual reinforcement
-      Object DỄ thay thế → trust/dependency không compile sâu đủ
-      → Body-base extension = EMERGENT property CHỈ CÓ ở agent valence
-      → Object có thể valence CỰC POSITIVE (nhà, xe, sách yêu thích)
-        nhưng KHÔNG BAO GIỜ = "phần mở rộng body-base"
-      → Mất nhà = stress tài chính. Mất con = body-base amputation.
-        2 loại loss KHÁC CĂN BẢN.
-
-    🟢 Grief as body-level pain: Eisenberger 2003 (social pain = physical pain pathways)
-    🟢 Attachment bond = body-level: Bowlby 1969
-    🟢 Protect.md: loss aversion = f(replaceability × attachment depth)
-    🟡 "Body-base extension" as explicit concept = framework synthesis
-    🟡 2-luồng reward separation = framework synthesis (Connection.md §3.3)
-
-    ⭐ MECHANISM DEEP-DIVE → Body-Coupling.md v1.0:
-      §2 ở trên mô tả CONCEPT: agent strong positive → body-base extension.
-      Body-Coupling.md drill MECHANISM chi tiết + MỞ RỘNG:
-        → 2D Model: |❸| Depth × ❸ Direction → 3 outcomes
-        → Extension (positive) + Entanglement (NEGATIVE) + Neutral
-        → 3 Phase: ❸ initiates → threshold → coupling sustains independent of L1
-        → Negative coupling: 4 accelerators, 4-tầng loss dissolution
-        → System compilation: per-context (company, nation) KHÁC per-agent coupling
-        → Smoothing + Anti-smoothing = emergent property of |coupling depth|
-      §2 NÀY giữ vai trò: PER-ENTITY valence overview + 2-luồng concept.
-      Body-Coupling.md = WHERE TO GO cho full mechanism analysis.
+  → Agent valence PHỨC TẠP hơn object vì 5 đặc điểm trên.
+  → Agent valence CÓ dimension mà object KHÔNG BAO GIỜ có:
+    BODY-BASE EXTENSION → §4 Entity-Compiled.
 
 
-  THÊM: ABSTRACT ENTITY VALENCE:
+  ABSTRACT ENTITY VALENCE:
 
     Ngoài Object và Agent, còn có abstract entities:
       Toán, vật lý, từ thiện, Thiên Đàng, "tương lai tốt đẹp"...
     
     Abstract entity valence ĐẶC BIỆT vì:
       → Không có physical form → KHÔNG có L0 direct
-      → Valence HOÀN TOÀN qua schema link (§4 Propagation)
+      → Valence HOÀN TOÀN qua schema link (§15 Propagation)
       → Có thể UNFALSIFIABLE (Thiên Đàng, "ý nghĩa cuộc đời")
       → → Không bao giờ nhận negative feedback → valence KHÔNG BAO GIỜ bị revise
       → → = "Thiết kế" valence ổn định nhất có thể
-      → = Agent.md §10: Mode 2 schema override cho abstract agents
+      → = Agent-Mechanism.md §10: Mode 2 schema override cho abstract agents
 
     🟡 Abstract entity valence = framework concept
     🟢 Unfalsifiable belief resilience = Popper + Festinger 1957 (cognitive dissonance)
@@ -426,57 +382,1017 @@ backup: Domain/backup/Valence.md
 
 ---
 
-## §3 — CÁCH VALENCE HÌNH THÀNH + UPDATE
+## §3 — STRUCTURAL VALENCE vs CURRENT VALENCE
+
+> **v3.0 NEW** — từ Drill-Entity-Valence-Dynamics v2.0 §1.
+
+```
+⭐⭐ 2 LOẠI VALENCE — KHÁC VỊ TRÍ, KHÁC TỐC ĐỘ, KHÁC SATIATION TYPE:
+
+  STRUCTURAL VALENCE (INSIDE Entity-Compiled):
+    = Aggregate of per-channel valence tags CỦA tất cả compiled chunks
+    = Mỗi chunk có tag: approach / avoidance / neutral (compile-time lock)
+    = Structural valence = SUM of all tags = valence PROFILE
+    = CHẬM thay đổi (cần compile/decompile chunks = months/years)
+    = 3 subtypes (§4.1): positive-dominant / negative-dominant / MIXED
+    
+    STRUCTURAL VALENCE CÓ SATIATION PROFILE (v3.0):
+      Mỗi channel CÓ satiation type riêng (Gap-Body-Need v2.0 §2):
+      → Cyclic channels: approach/avoidance tags OSCILLATE (hunger → fill → off → return)
+      → Tonic channels: approach tags STABLE baseline (comfort, safety → slow build, slow fade)
+      → Generative channels: approach tags RENEWABLE (curiosity → fill → new gap → repeat)
+      → Structural valence = aggregate across ALL satiation types
+      → Most deep entities = Tonic + Generative compound (§8)
+    
+    VD — Mẹ (structural valence profile):
+      Channel [nấu ăn]: approach (+) — Cyclic (fill → return → fill)
+      Channel [ôm]: approach (++) — Tonic (ongoing baseline)
+      Channel [la mắng]: avoidance (--) — Cyclic (episode → fade)
+      Channel [hy sinh]: complex (+/schema) — Tonic (persistent)
+      Channel [dạy kỹ năng]: approach (+) — Generative (each lesson → new gap)
+      = Structural valence = POSITIVE-DOMINANT, Tonic-base + Generative-bursts
+      
+  CURRENT VALENCE (OUTSIDE Entity-Compiled, per-moment):
+    = L1 (SPM momentary) + activated L2 channels AT THIS MOMENT
+    = Thay đổi PER SECOND (context-dependent)
+    = What PFC observes → what person VERBALIZES
+    
+    CURRENT VALENCE "FEEL" = f(RSA A:B ratio) (RSA v2.0 §1):
+      Type B dominant → "ấm áp, dễ chịu" (opioid, CT afferents)
+      Type A dominant → "hào hứng, thú vị" (evaluative, dopamine-adjacent)
+      → Mẹ ôm con: current = Type B dominant → "ấm"
+      → Bạn kể chuyện hay: current = Type A dominant → "thú vị"
+      → CÙNG positive valence, KHÁC "feel" vì KHÁC A:B ratio
+    
+    VD — Mẹ đang la:
+      L1 = NEGATIVE (SPM simulate mẹ angry → body distress)
+      L2 [la mắng] channel = ACTIVE (avoidance, Cyclic)
+      L2 [ôm, nấu ăn] channels = DORMANT (not triggered)
+      Current valence = NEGATIVE
+      PFC label: "ghét mẹ" (lúc này)
+      
+    VD — Đọc thơ về mẹ (xa mẹ):
+      L1 = POSITIVE (poem → SPM fire → body warm)
+      L2 [hy sinh, ôm, nấu ăn] channels = ACTIVE (triggered by poem)
+      L2 [la mắng] channels = DORMANT (not in poem context)
+      Current valence = INTENSE POSITIVE (Type B dominant → "thương")
+      
+  ⭐ STRUCTURAL ≠ CURRENT:
+    Structural = what's STORED (slow, aggregate across satiation types)
+    Current = what's ACTIVATED (fast, context-dependent, RSA A:B ratio determines "feel")
+    Cùng entity, cùng structural valence → KHÁC current valence tùy moment
+    → "Ghét mẹ" (lúc bị la) vs "Thương mẹ" (lúc đọc thơ)
+    → CÙNG structural (mixed) → KHÁC current (context activates different channels)
+    
+  🟡 Structural vs Current distinction + satiation type dimension = framework synthesis (v3.0)
+  🟢 Per-channel valence: §2 (explicit "KHÔNG average")
+  🟢 RSA A:B: Reward-Signal-Architecture v2.0 §1
+```
+
+---
+
+## §4 — ENTITY-COMPILED: Body-Base Extension
+
+> **v3.0 SLIM DOWN**: Entity-Compiled.md v1.0 + Entity-Access.md v1.0 đã tồn tại.
+> §4 giữ CORE CONCEPTS + POINTER → 2 files cho deep mechanism + gradient.
+
+```
+⭐ KHI PER-AGENT VALENCE COMPILE ĐỦ SÂU → BƯỚC NHẢY CHẤT:
+
+  AGENT VALENCE CÓ DIMENSION MÀ OBJECT KHÔNG BAO GIỜ CÓ:
+
+    Khi per-agent valence STRONG + compiled SÂU qua nhiều interaction:
+      → Body KHÔNG CHỈ đánh giá "agent X ảnh hưởng tôi thế nào?"
+      → Body chuyển sang: "agent X's state = MY state"
+      → = Agent TRỞ THÀNH phần mở rộng body-base CỦA TÔI
+      → = STRUCTURAL, SUSTAINED — không phụ thuộc từng episode tương tác
+
+    TẠI SAO CHỈ AGENT, KHÔNG BAO GIỜ OBJECT:
+      Object KHÔNG fire SPM → không có L1 episodes tích lũy
+      Object KHÔNG bidirectional → không có mutual reinforcement
+      Object DỄ thay thế → trust/dependency không compile sâu đủ
+      → Body-base extension = EMERGENT property CHỈ CÓ ở agent valence
+      → Mất nhà = stress tài chính. Mất con = body-base amputation.
+        2 loại loss KHÁC CĂN BẢN.
+
+    🟢 Grief as body-level pain: Eisenberger 2003 (social pain = physical pain pathways)
+    🟢 Attachment bond = body-level: Bowlby 1969
+```
+
+### §4.1 — 3 Subtypes (spectrum)
+
+```
+⭐ 3 SUBTYPES — SPECTRUM, KHÔNG BINARY (Inter-Body-Mechanism.md §8.2):
+
+  ① POSITIVE-DOMINANT (≈ old "Entity-Owned"):
+     Majority channels positive. Presence = approach + reward. Loss = grief.
+     Example: bạn thân lâu năm, con cái, mẹ healthy relationship.
+
+  ② NEGATIVE-DOMINANT:
+     Majority channels negative. Presence = threat/dissonance. Loss = relief.
+     NHƯNG sub-case "obsession": loss = emptiness (mất mục tiêu).
+     Example: bully, abuser, đối thủ obsessive.
+
+  ③ MIXED (AMBIVALENT) — PHỔ BIẾN NHẤT:
+     Significant BOTH positive AND negative channels CÙNG LÚC.
+     Behavior oscillates by STATE/TRIGGER/CONTEXT.
+     Loss = COMPLEX grief (relief + pain simultaneously).
+     Example: bố mẹ strict, vợ chồng conflict, frenemy.
+
+  TẠI SAO ③ PHỔ BIẾN NHẤT?
+    → Relationship dài → nhiều interaction types → nhiều channels compile
+    → CÀNG GẦN nhau LÂU → càng nhiều channels (cả + và -)
+    → "Thuần positive" = rare luxury of LIMITED interactions
+    → Paradox: GẦN NHAU LÂU = deeper bond + deeper conflict potential
+
+  🟡 3 subtypes = framework synthesis.
+  🟢 Ambivalence = well-documented (Cacioppo & Berntson 1994).
+```
+
+### §4.2 — Entity-Compiled vs Obligation = INDEPENDENT
+
+```
+⭐ 2 CƠ CHẾ KHÁC NHAU (Inter-Body-Mechanism.md §8.3):
+
+  Entity-Compiled: "entity's state = MY state" (structural, automatic)
+  Obligation:      "predict cost to MAINTAIN access" (prediction, PFC-mediated)
+
+  CÓ THỂ ĐỘC LẬP:
+    L2 HIGH + Obligation LOW:  bạn thân → vui tự động, không "nợ" gì
+    L2 LOW + Obligation HIGH:  ân nhân xa lạ → không thân nhưng "phải trả"
+    L2 HIGH + Obligation HIGH: bố mẹ → yêu thương + cảm thấy phải chăm sóc
+    L2 LOW + Obligation LOW:   stranger → no drive either way
+
+  Cross-ref: Obligation.md v1.0 §2-§4 chi tiết.
+  🟡 L2 vs Obligation independence = framework synthesis.
+```
+
+### §4.3 — Deep Mechanism + Gradient → POINTER
+
+```
+⭐ FILE NÀY CHỈ ĐỊNH NGHĨA + KEY CONCEPTS.
+  DEEP MECHANISM VÀ GRADIENT → 2 FILES RIÊNG:
+
+  Entity-Compiled.md v1.0 (Agent-Mechanism/):
+    = DEEP MECHANISM: neural reality, formation, capacity, dynamics, loss, decay
+    → §1: 8 research streams hội tụ → Entity-Compiled = neural reality
+    → §2: Hub-and-Spoke architecture + body simulation
+    → §3: Formation timeline (40→200h) + acceleration + sleep
+    → §4: Dunbar capacity ceiling + 3 resource limits
+    → §5: "Hợp tính" (Pattern-Resonance Baseline) + meta-match
+    → §7: Grief intensity model (A+B+C types)
+    → §8: Love↔Hate shift (|valence| depth, direction switch)
+    → §9: Decay 3-layer model (episodes fastest, schema slowest)
+
+  Entity-Access.md v1.0 (Agent-Mechanism/):
+    = GRADIENT MODEL: how access level changes, quality, excess, calibration
+    → §1: 3-Factor Model (Engine Mode × Gap-Need × Access Confidence)
+    → §2: Entity-Access Gradient Mức 0-5 (Tool → Excess)
+    → §3: 4 Starting Modes × B-dominant destination
+    → §6: Excess spectrum (Mức 5) — limerence, obsession
+    → §8: Calibration architecture
+
+  ⭐ ENTITY-OWNED = PFC LABEL (Entity-Access.md §2):
+    Entity-Owned = PFC OBSERVATION at Mức 4-5, NOT mechanism.
+    Mechanism = entity-access compilation (3-factor → baseline).
+    Most entity-access = UNLABELED by PFC (fuzzy middle of gradient).
+    = Binary "owned/not-owned" → REPLACED by gradient Mức 0-5.
+
+  Framework readers: §4 NÀY (definition) → Entity-Compiled.md (mechanism)
+                     → Entity-Access.md (gradient + dynamics).
+```
+
+---
+
+## §5 — 2-LUỒNG + 2-TẦNG × VALENCE VISIBILITY
+
+> **v3.0 NEW** — từ Drill-Entity-Valence-Dynamics v2.0 §2.
+
+```
+⭐ TỪ VP v2.0 §3.4 + CONNECTION §3.3 + EMPATHY §8 + RESONANCE-ENTITY v2.0 §3:
+
+  L1 — SPM-OWNED (momentary):
+    Source: MỖI LẦN SPM F1 fire on entity
+    Duration: per-episode, TRANSIENT
+    Valence: + or - tùy current interaction
+    Cost: SPM metabolic cost
+    VD: "Mẹ cười → vui lây" (L1+), "mẹ la → khó chịu" (L1-)
+    
+  L2 — ENTITY-COMPILED (structural):
+    Source: compiled valence depth (entity = body-base extension)
+    Duration: SUSTAINED, persistent
+    Valence: per-CHANNEL (can be + and - simultaneously)
+    Cost: ≈ 0 (compiled = automatic)
+    VD: "Con = part of me" (L2+), "Kẻ thù = threat to me" (L2-)
+
+  2-TẦNG × VALENCE VISIBILITY (Connection v4.0 §3.2b):
+  
+    TẦNG A — HARDWARE-DRIVEN valence:
+      Source: hormone, CT afferents, attachment circuits
+      PFC visibility: LOW (automatic, below threshold khi stable)
+      VD: oxytocin khi ôm con → warm → PFC "bình thường" (habituated)
+      → Tầng A valence = INVISIBLE most of the time (hardware = default)
+      → Becomes VISIBLE only through disruption (loss, absence)
+      
+    TẦNG B — SPM-DRIVEN valence:
+      Source: SPM F1/F2 fire → prediction-delta → body-feedback
+      PFC visibility: HIGH (PFC computes → PFC observes)
+      VD: bạn kể insight mới → SPM evaluate → "thú vị!" (PFC label)
+      → Tầng B valence = VISIBLE per episode (PFC is the source)
+      → Habituates IF prediction complete (same insight = no delta)
+
+  PER-ENTITY L1:L2 × TẦNG A:B PROPORTION (Resonance-Entity v2.0 §3-§8):
+
+    ┌────────────────┬──────────────┬──────────────┬──────────────────────┐
+    │ Entity         │ 2-luồng      │ 2-tầng       │ Valence visibility   │
+    │                │ (L1:L2)      │ (A:B)        │ implication          │
+    ├────────────────┼──────────────┼──────────────┼──────────────────────┤
+    │ Mẹ→Con        │ L2 dominant  │ Tầng A dom.  │ INVISIBLE most time  │
+    │                │ (structural) │ (hardware)   │ → visible on loss    │
+    ├────────────────┼──────────────┼──────────────┼──────────────────────┤
+    │ Con→Mẹ (child)│ L1→L2 shift  │ A+B balanced │ MIXED visibility     │
+    │                │ (forming)    │              │ → shifts with age    │
+    ├────────────────┼──────────────┼──────────────┼──────────────────────┤
+    │ Bạn thân       │ L1 dominant  │ Tầng B dom.  │ VISIBLE per episode  │
+    │                │ (momentary)  │ (SPM only)   │ → fades between      │
+    ├────────────────┼──────────────┼──────────────┼──────────────────────┤
+    │ Romantic post-L│ L1→L2        │ A→B shift    │ Limerence=visible    │
+    │                │ (if compiled)│              │ → post-L=invisible   │
+    ├────────────────┼──────────────┼──────────────┼──────────────────────┤
+    │ Colleague      │ L1 only      │ Tầng B       │ VISIBLE only in      │
+    │                │ (unless close)│ (SPM only)  │ Agent-mode moments   │
+    └────────────────┴──────────────┴──────────────┴──────────────────────┘
+
+  ⭐ KEY INSIGHT v3.0:
+    L2 dominant + Tầng A dominant = MOST INVISIBLE valence (mẹ→con)
+    L1 dominant + Tầng B dominant = MOST VISIBLE valence (bạn thân)
+    → PARADOX: DEEPEST bond = LEAST VISIBLE valence
+    → "Sống với mẹ 20 năm, không thấy gì" = L2+A → both invisible
+    → "Gặp bạn mới, vui ghê" = L1+B → both visible
+    → Explains "có mới nới cũ" illusion at mechanism level
+
+  2 STREAMS CÓ THỂ CONFLICT (Connection §3.3):
+  
+    ┌──────────────────┬──────────┬──────────┬──────────────────────────┐
+    │ Case             │ L1       │ L2       │ Result                   │
+    ├──────────────────┼──────────┼──────────┼──────────────────────────┤
+    │ Mẹ chăm con ốm  │ - (pain) │ + (ext.) │ L2 > L1 → VẪN CHĂM      │
+    │ Bạn kể chuyện   │ + (joy)  │ + (ext.) │ COMPOUND reward          │
+    │ Bác sĩ chăm lạ  │ - (pain) │ ≈ 0      │ L1 tích lũy → BURNOUT   │
+    │ Con giận mẹ la   │ - (anger)│ mixed    │ "vừa giận vừa thương"   │
+    │ Kẻ thù thua     │ + (rev.) │ + (safe) │ COMPOUND (Schadenfreude) │
+    └──────────────────┴──────────┴──────────┴──────────────────────────┘
+    
+  BURNOUT FORMULA (Empathy §8):
+    Burnout = f(L1 cost tích lũy / L2 compensation)
+    L2 CAO + L1 vừa → KHÔNG burnout (mẹ chăm con)
+    L2 ≈ 0 + L1 bất kỳ → BURNOUT (bác sĩ chăm stranger)
+    L2 CAO + L1 CỰC CAO kéo dài → VẪN burnout (cha mẹ trẻ khuyết tật)
+    
+  🟢 L1/L2: VP v2.0 §3.4, Connection §3.3, Body-Coupling §1.3
+  🟢 Burnout formula: Empathy §8, Figley 2002
+  🟢 2-tầng: Connection v4.0 §3.2b
+  🟡 L2+A = invisible, L1+B = visible paradox = framework synthesis (v3.0)
+```
+
+---
+
+## §6 — 3 FIRING MODES
+
+> **v3.0 NEW** — từ Drill-Entity-Valence-Dynamics v2.0 §3.
+
+```
+⭐⭐ ENTITY-COMPILED VALENCE FIRE THEO 3 MODES:
+
+  MODE 1 — MAINTENANCE (entity present, hàng ngày):
+    Entity PRESENT → routine fire → L2 channels active → opioid LOW-LEVEL
+    VTA HABITUATED → reward = BASELINE → PFC sees NOTHING special
+    = "Background warmth" — có nhưng INVISIBLE
+    = "Ở với mẹ 20 năm, không thấy gì đặc biệt"
+    
+    Hardware subsidy MODULATES Mode 1 (§7):
+      HIGH subsidy (mẹ→con): opioid trickle MAINTAINED → baseline RICHER
+        → Even habituated, body STILL gets anti-habituation signals
+        → "Mẹ chán con" = pathological (hw subsidy SHOULD prevent)
+      NONE subsidy (bạn): opioid trickle WITHOUT protection
+        → VTA habituates FASTER → Mode 1 reward WEAKER
+        → "Gặp bạn hàng ngày → bình thường" = no subsidy → fast habituation
+      TEMPORARY subsidy (romantic limerence): SIMULATES rich Mode 1
+        → Fades after 18-36m → Mode 1 reward DROPS → "hết lửa"
+    
+    Satiation type × Mode 1:
+      Cyclic channels: Mode 1 = oscillating (on/off/on)
+      Tonic channels: Mode 1 = continuous baseline (invisible)
+      Generative channels: Mode 1 = only if novelty continues (else → habituate)
+      
+  MODE 2 — CHUNK-MISS (entity absent, cấp tính):
+    Entity ABSENT → compiled routine fire → no response → PAIN
+    = O'Connor 2023: basal ganglia VẪN fire "entity sẽ ở đây"
+      TRONG KHI medial temporal biết "đã mất/xa" → 2 systems CONFLICT
+    = Bowlby 3 phases: Protest → Despair → Detachment
+    
+    Timeline:
+      Hours-days: ACUTE (routine disrupted → Chunk-Miss liên tục)
+      Weeks: CALIBRATING (brain redirect → pain ↓ dần)
+      Months: ADAPTED (most routines redirected → occasional trigger only)
+      = "Nhớ mẹ vài ngày đầu, rồi quen" = calibration trajectory
+    
+    Calibration speed depends on:
+      → EC depth (deeper → more routines disrupted → slower calibration)
+      → Hardware subsidy (HIGH → hw KEEPS firing → slower calibration)
+      → Alternative gap-fill (other entities available → faster)
+      → Hardware reactivity (HSP → more intense → slower)
+      → Attachment style (anxious → slower, avoidant → suppress → "faster")
+      → Satiation type (Tonic channels → slowest fade, Cyclic → fastest)
+      
+  MODE 3 — CONTEXT-TRIGGER (entity absent, tình cờ):
+    External cue → match EC spoke → hub activate → L2 fire → body-feedback
+    = UNPREDICTABLE (context-dependent)
+    
+    Triggers ranked by intensity:
+      SENSORY DIRECT: thấy bà cụ giống mẹ → visual spoke → fire
+      NARRATIVE: đọc bài Facebook về bố vất vả → linguistic match → fire
+      ARTICULATION: đọc thơ về công ơn cha mẹ → FULL articulation → fire MẠNH
+        → = §10 "New appreciation" mechanism
+      OLFACTORY: smell mùi quen → olfactory direct to amygdala → fire NHANH
+        → 🟢 Herz 2004: odor-evoked memory MORE emotional than visual
+      CIRCUMSTANTIAL: buồn/lonely → brain RETRIEVE EC positive chunks → fire
+        → = Nostalgia as self-regulation (§10.2)
+      SOCIAL MEDIA: "On this day" photos, friend posts, viral content
+        → Technology creates SYSTEMATIC Context-Triggers (§13)
+    
+    Intensity = f(cue specificity × EC depth × current gap state × hw reactivity × subsidy)
+    
+  🟢 VTA habituation: Schultz 1997
+  🟢 Chunk-Miss + basal ganglia: O'Connor 2023
+  🟢 Bowlby 3 phases: Bowlby 1969 (established)
+  🟢 Olfactory-amygdala direct path: Herz 2004
+  🟡 3 firing modes + hw subsidy modulation + satiation interaction = framework synthesis (v3.0)
+```
+
+---
+
+## §7 — VTA HABITUATION × HARDWARE SUBSIDY
+
+> **v3.0 NEW** — từ Drill-Entity-Valence-Dynamics v2.0 §4.
+
+```
+⭐⭐ UNIFIED MODEL v3.0: TẠI SAO VALENCE "INVISIBLE" Ở DIFFERENT RATES:
+
+  CƠ CHẾ GỐC (Body-Coupling §1.4 + BFM §3.2):
+    Entity present REPEATEDLY → VTA encode as BASELINE
+    VTA only fire reward khi: ACTUAL > BASELINE (positive prediction-delta)
+    Entity present = EXPECTED = baseline met → delta = 0 → VTA silent
+    → PFC: "bình thường, không có gì"
+    → Body: L2 channels VẪN fire → opioid trickle → but below PFC threshold
+    
+  HARDWARE SUBSIDY = WHY DIFFERENT ENTITIES HABITUATE AT DIFFERENT RATES:
+  
+    VTA habituation = UNIVERSAL law (Schultz 1997)
+    NHƯNG: hardware subsidy COUNTER habituation ở DIFFERENT LEVELS
+    (from Resonance-Entity v2.0 §2)
+    
+    ┌────────────────────┬──────────────────────┬───────────────────────────┐
+    │ Subsidy Level      │ Entity               │ Valence Habituation Rate  │
+    ├────────────────────┼──────────────────────┼───────────────────────────┤
+    │ MAXIMUM            │ Mẹ→Con               │ VERY SLOW                 │
+    │ (oxytocin +        │                      │ Multiple hw systems COUNTER│
+    │ baby schema +      │                      │ VTA habituation actively  │
+    │ synchrony +        │                      │ → valence invisible but   │
+    │ prolactin)         │                      │ RICHER baseline than others│
+    │                    │                      │ → loss = DEVASTATING delta │
+    │                    │                      │ 🟢 Feldman 2012           │
+    ├────────────────────┼──────────────────────┼───────────────────────────┤
+    │ MODERATE           │ Con→Mẹ, Kin          │ SLOW                      │
+    │ (attachment hw,    │                      │ Attachment scaffold slows  │
+    │ oxytocin scaffold) │                      │ habituation somewhat      │
+    │                    │                      │ 🟢 Roberts & Dunbar 2011: │
+    │                    │                      │ kin resilient without     │
+    │                    │                      │ active maintenance        │
+    ├────────────────────┼──────────────────────┼───────────────────────────┤
+    │ TEMPORARY          │ Romantic (limerence)  │ ARTIFICIALLY SLOW → FAST  │
+    │ (dopamine + NE     │                      │ 18-36m: SIMULATES slow    │
+    │ surge, 18-36m)     │                      │ Post-limerence: subsidy   │
+    │                    │                      │ EXPIRES → standard rate   │
+    │                    │                      │ → "hết lửa" = subsidy end │
+    │                    │                      │ 🟢 Fisher 2004            │
+    ├────────────────────┼──────────────────────┼───────────────────────────┤
+    │ NONE               │ Bạn thân, Colleague  │ STANDARD (fastest)        │
+    │ (general μ-opioid  │                      │ No dedicated counter-hw   │
+    │ only)              │                      │ → VTA habituates at       │
+    │                    │                      │ default rate              │
+    │                    │                      │ → MUST maintain via novelty│
+    │                    │                      │ 🟢 Panksepp 1998          │
+    └────────────────────┴──────────────────────┴───────────────────────────┘
+
+  PARADOX ENRICHED:
+    EC DEEPER + HIGH SUBSIDY → VTA habituated SLOWER → reward STILL somewhat visible
+    EC DEEPER + NO SUBSIDY → VTA habituated FASTEST → reward MOST invisible
+    
+    → Mẹ→con: DEEP EC + MAX subsidy = habituated but RICH baseline
+    → Bạn thân: DEEP EC + NO subsidy = habituated and LEAN baseline
+    → = TẠI SAO "mất mẹ" = devastating nhưng "mất bạn" = recoverable
+    → = KHÔNG chỉ depth → cả subsidy determines loss severity
+    
+    → Limerence DEEP + TEMP subsidy = INTENSE visible (reward FEELS strong)
+    → Post-limerence: SAME depth nhưng subsidy GONE → reward ↓↓
+    → = "Yêu lúc đầu mãnh liệt" → "Giờ bình thường" = subsidy expired, NOT love gone
+    
+  ONLY VISIBLE THROUGH:
+    → ABSENCE (Mode 2): entity removed → baseline violated → pain
+    → TRIGGER (Mode 3): context cue → L2 fire above threshold → feel
+    → COMPARISON: new entity (no habituation) vs old (habituated) → old "feels less"
+    → = "Có mới nới cũ" = VTA comparison, NOT bond quality comparison
+    
+  🟢 VTA habituation: Schultz 1997 (dopamine prediction error)
+  🟢 Hedonic adaptation: Bao & Lyubomirsky 2013
+  🟢 Hardware subsidy mechanisms: Feldman 2012, Fisher 2004, Panksepp 1998
+  🟡 Subsidy × habituation rate = unified per-entity model = framework synthesis (v3.0)
+```
+
+---
+
+## §8 — VALENCE × SATIATION TYPE
+
+> **v3.0 NEW** — từ Drill-Entity-Valence-Dynamics v2.0 §5.
+
+```
+⭐⭐ VALENCE DYNAMICS KHÁC CĂN BẢN PER SATIATION TYPE:
+
+  (Gap-Body-Need v2.0 §2: Cyclic / Tonic / Generative)
+
+  CYCLIC VALENCE — SHARP OSCILLATION:
+    Gap fill → reward → gap OFF → no valence signal → gap RETURN → need again
+    = Valence oscillates with fill/unfill cycle
+    
+    Characteristics:
+      → SHARP onset: gap fires → valence IMMEDIATE
+      → SHARP offset: gap filled → valence DROPS
+      → Predictable rhythm: body knows cycle
+      → VD: "đói" (negative) → "no" (positive) → "đói lại" (negative lại)
+      → VD: mẹ la (avoidance) → mẹ thôi (relief) → episode-bound
+    
+    Valence implications:
+      → Cyclic channels = MOST VISIBLE (high delta per cycle)
+      → Cyclic channels = MOST FORGETTABLE (episode-bound → decay fast)
+      → "Quên chuyện cãi nhau" (negative Cyclic) but "nhớ cảm giác ấm" (Tonic)
+
+  TONIC VALENCE — SLOW INVISIBLE BASELINE:
+    Gap fill ongoing → reward LOW-LEVEL → VTA habituate → INVISIBLE
+    = Valence builds slowly, becomes background, invisible when present
+    
+    Characteristics:
+      → SLOW onset: tonic builds over weeks/months
+      → INVISIBLE when present (VTA habituated = baseline)
+      → DEVASTATING when removed (baseline violation = large delta)
+      → VD: comfort from mẹ = 20 năm background → "không thấy gì" → mẹ mất → PAIN
+      → VD: safety at home = invisible → homeless → visible
+    
+    Valence implications:
+      → Tonic channels = LEAST VISIBLE (below PFC threshold)
+      → Tonic channels = SLOWEST DECAY (compiled deep, hardware-supported if subsidy)
+      → Tonic valence = INVISIBLE while present, DEVASTATING when absent
+      → = THE "không khí" of entity-valence dynamics
+      → DIRECTLY connects to VTA habituation (§7)
+
+  GENERATIVE VALENCE — RENEWABLE EXCITING:
+    Gap fill → new gap CREATE → new fill → new gap → perpetual
+    = Valence renews with each novelty cycle
+    
+    Characteristics:
+      → SELF-RENEWING: fill creates new gap → new delta → new reward
+      → NOVELTY-DEPENDENT: same content → habituate → need NEW
+      → EXCITING "feel": Type A dominant (evaluation, insight, discovery)
+      → VD: bạn thân kể chuyện mới → insight → new question → new insight
+      → VD: partner cùng khám phá → shared discovery → both rewarded
+    
+    Valence implications:
+      → Generative channels = MOST VISIBLE (high novelty = high delta)
+      → Generative channels = FASTEST HABITUATION without novelty input
+      → Generative valence = "exciting" component of relationships
+      → = TẠI SAO new relationships "feel more" — Generative channels ACTIVE
+      → = TẠI SAO old relationships "feel less" — Generative HABITUATED
+
+  COMPOUND DYNAMICS (most entities):
+    Most deep entities = Tonic + Generative compound:
+    
+    Mẹ→con: Tonic dominant + Generative bursts (child changes daily)
+    → Tonic = invisible safety. Generative = "con mỗi ngày 1 khác"
+    → Valence trajectory: STABLE (auto-novelty + max subsidy)
+    
+    Bạn thân: Generative dominant + Tonic component
+    → Generative = "nói chuyện hay." Tonic = "gặp thì thoải mái"
+    → Valence trajectory: NOVELTY-DEPENDENT (no subsidy → must maintain)
+    
+    Romantic post-L: Tonic + Generative (if genuine match)
+    → Tonic = "thoải mái bên nhau." Generative = "vẫn exciting"
+    → Valence trajectory: ACTIVE EFFORT required (limerence subsidy expired)
+    
+    Colleague: Generative dominant (domain-specific)
+    → Generative = "work together → learn." Tonic = minimal
+    → Valence trajectory: CONTEXT-DEPENDENT (only in Agent-mode moments)
+
+  ⭐ "CHÁN" = GENERATIVE DIES + TONIC SURVIVES (→ Boredom.md v2.0):
+    Most relationships = Tonic + Generative compound
+    "Chán" = Generative component habituated + Tonic invisible
+    → "Vẫn thoải mái nhưng không exciting" = Tonic intact, Generative dead
+    → PFC only sees: no Generative reward + Tonic invisible = "chán"
+    → Body reality: Tonic STILL PROVIDES, PFC just can't see it
+    → Boredom.md v2.0 §3: source ⑥ by-product match dừng, M1-M4
+
+  🟡 Satiation type × valence dynamics = framework synthesis (v3.0)
+  🟢 3 satiation profiles: Gap-Body-Need v2.0 §2 (established independently)
+  🟢 VTA habituation per reward type: Schultz 1997
+```
+
+---
+
+## §9 — MIXED VALENCE: PARALLEL PER-CHANNEL
+
+> **v3.0 NEW** — từ Drill-Entity-Valence-Dynamics v2.0 §7.
+
+```
+⭐⭐ POSITIVE + NEGATIVE = 2 HỆ THỐNG THẦN KINH ĐỘC LẬP:
+
+  🟢 Cacioppo & Berntson 1994 (Psychological Bulletin):
+     EVALUATIVE SPACE MODEL (ESM):
+     Positive và negative affect = 2 SEPARATE, PARTIALLY INDEPENDENT substrates
+     → CÓ THỂ co-activate → CẢ HAI HIGH cùng lúc = mixed
+     
+  🟢 Vaccaro, Kaplan & Damasio 2020 (Perspectives on Psych. Science):
+     TWO-LEVEL ARCHITECTURE:
+       Level 1 (brainstem): RAPID SWITCHING giữa positive/negative
+       Level 2 (insular cortex): INTEGRATION thành unified "mixed" feeling
+     → BOTH switching AND genuine co-activation
+     
+  🟢 Larsen, McGraw & Cacioppo 2001 (JPSP):
+     Students moving out: CẢ happy VÀ sad đồng thời
+     → Experimental confirmation of co-activation
+     
+  🟢 Schneider et al. 2021:
+     Mouse-tracking: ambivalent ≠ neutral (BEHAVIORALLY distinct)
+     → "Không cảm thấy gì" ≠ "vừa thương vừa giận"
+
+  FRAMEWORK MAPPING (§2, §4.1):
+    Per-channel valence = multi-dimensional (not bipolar axis)
+    CẢ positive AND negative channels CÓ THỂ fire cùng lúc
+    = Framework MORE GRANULAR than ESM (per-CHANNEL not just 2 dimensions)
+    
+  MIXED VALENCE × SATIATION TYPE:
+    
+    Cyclic channels: approach + avoidance CÓ THỂ OSCILLATE independently
+      → Mẹ nấu ăn (approach, Cyclic) + mẹ la (avoidance, Cyclic)
+      → 2 Cyclic channels fire CÙNG LÚC = "vừa giận vừa thấy thương"
+      
+    Tonic channels: approach baseline STABLE + avoidance channel INTERMITTENT
+      → Mẹ comfort (approach, Tonic = invisible) + mẹ la lúc này (avoidance, Cyclic)
+      → Mixed = Tonic baseline (invisible) + Cyclic episode (visible)
+      → PFC ONLY observes Cyclic → labels "ghét mẹ" → BUT Tonic STILL THERE
+      
+    Generative channels: almost always POSITIVE (curiosity = approach)
+      → Generative avoidance RARE (unless domain anxiety = compiled fear of topic)
+
+  PER-ENTITY MIXED PATTERNS:
+  
+    🟢 Lüscher & Pillemer 1998: ~50% parent-child = ambivalent = NORMATIVE
+    
+    Mẹ→con: LOW mixed (hardware bias → approach-dominant, avoidance rare)
+    Con→mẹ: HIGH mixed (normative — approach + avoidance both active)
+    Bạn thân: LOW mixed (genuine → positive-dominant, avoidance = drift apart)
+    Romantic: MODERATE → HIGH (living together → more conflict channels)
+    Colleague: LOW (professional → thin, not enough depth for mixed)
+    
+    → CLOSER + LONGER → MORE channels → MORE mixed potential (not pathological)
+    
+  VERBALIZATION × MIXED VALENCE:
+    
+    "GHÉT" = avoidance channels DOMINATE PFC observation
+      → Tonic approach channels DORMANT (invisible) → PFC misses them
+      → VD: "Ghét mẹ" lúc bị la = Cyclic avoidance VISIBLE + Tonic approach INVISIBLE
+      
+    "VỪA GIẬN VỪA THƯƠNG" = BOTH channels above PFC threshold
+      → 🟢 Vietnamese: single phrase captures mixed → language facilitates
+      → 🟢 Miyamoto et al. 2010: East Asian = higher ambivalence tolerance
+      
+    "THƯƠNG" = approach channels DOMINATE
+      → If Type B dominant: "thương" = warm, gentle → mẹ direction
+      → If Type A dominant: "thích" = exciting → bạn direction
+      → SAME positive valence, DIFFERENT WORD → reflects RSA A:B ratio
+      
+    "CHÁN" = Generative dead + Tonic habituated
+      → NO visible positive signal → PFC: "chán"
+      → KHÁC "ghét": chán = ABSENCE of reward, ghét = PRESENCE of threat
+      → "Chán" NGUY HIỂM HƠN (silent), "ghét" NHÌN THẤY (có thể address)
+      
+    "KHÔNG CẢM THẤY GÌ" = L2 habituated → below PFC threshold
+      → L2 VẪN CÓ nhưng VTA habituated → invisible
+      → ≠ "hết thương" → = "PFC không observe"
+    
+  🟡 Satiation type × mixed valence + verbalization = framework synthesis (v3.0)
+  🟢 ESM: Cacioppo & Berntson 1994
+  🟢 Parent-child ambivalence 50%: Lüscher & Pillemer 1998
+  🟢 Vietnamese mixed emotions: Fang et al. 2025, Miyamoto et al. 2010
+```
+
+---
+
+## §10 — "XA MẸ MỚI BIẾT THƯƠNG" — 3 CƠ CHẾ CỘNG DỒN
+
+> **v3.0 NEW** — từ Drill-Entity-Valence-Dynamics v2.0 §8.
+
+```
+⭐⭐⭐ PARADOX: sống cùng 20 năm = đôi khi ghét. Xa mẹ = bỗng thương.
+
+  CƠ CHẾ ① — DECAY ASYMMETRY (Entity-Compiled.md v1.0 §9):
+  
+    3-layer decay model:
+      ③ Negative EPISODES (cãi nhau, bị la): FADE NHANH NHẤT (months)
+        → Hippocampus-dependent → most vulnerable to decay
+        → CYCLIC avoidance channels → episode-bound → decay FAST (§8)
+      ② Positive AFFECT (warmth, safety, love): FADE CHẬM HƠN
+        → Reward circuits → more resistant
+        → TONIC approach channels → baseline → decay SLOW (§8)
+      ① Positive SCHEMA (mẹ = ai, hình ảnh): PERSIST DECADES
+        → Neocortical → very resistant
+    
+    → Over time: Cyclic negative EPISODES fade → Tonic positive PERSIST
+    → Net valence SHIFT POSITIVE
+    → "Quên hết chuyện giận, chỉ nhớ cái tốt" = decay asymmetry × satiation type
+
+  CƠ CHẾ ② — CONTRAST EFFECT (L2 absence → visible):
+  
+    Enriched with hardware subsidy (§7):
+    Với mẹ: L2 = Tonic baseline → VTA habituated → INVISIBLE
+    NHƯNG: hardware subsidy (MODERATE — con→mẹ direction) → baseline RICHER than bạn
+    Xa mẹ: environment mới KHÔNG CÓ L2 warmth
+    → L2 absence = VISIBLE lần đầu
+    → "Hóa ra ấm lắm" = contrast with new environment
+    → ⭐ Subsidy explains WHY contrast STRONGER for mẹ than for bạn:
+      Mẹ: richer baseline (subsidized) → larger delta on absence
+      Bạn: leaner baseline (no subsidy) → smaller delta on absence
+      → "Xa mẹ nhớ MẠNH hơn xa bạn" = subsidy difference, not just depth
+    
+  CƠ CHẾ ③ — FIRST-TIME ARTICULATION:
+  
+    Với mẹ: PFC bận observe NEGATIVE (conflict = salient = above threshold)
+    → Positive L2 = Tonic = habituated → PFC không allocate attention
+    → 20 năm body BIẾT "thương mẹ" → PFC chưa bao giờ ARTICULATE
+    
+    Xa mẹ + đọc thơ:
+    → Thơ = linguistic chunks MÔ TẢ compiled experience
+    → PFC MATCH words ↔ compiled L2 → CONFIRM → "ồ, hóa ra tôi thương mẹ lắm"
+    → = Somatic-Articulation-Loop: body knows → thơ provide words → body confirm
+    → FIRST-TIME observation → NO habituation → FULL emotional impact
+    
+    De-habituation effect:
+    → Thơ present SAME content in NOVEL form
+    → VTA: novel context → fire (prediction-delta > 0)
+    → Cùng nội dung "mẹ hy sinh" nhưng cách trình bày MỚI → reward
+    → + Negative ABSENT in poem (no daily friction)
+    → = "Filtered" experience → net positive MAXIMUM
+    
+  3 CƠ CHẾ CỘNG DỒN:
+    ① Cyclic negative faded → net positive (decay asymmetry)
+    ② Subsidized baseline revealed → contrast STRONG (hardware subsidy)
+    ③ Articulation + de-habituation → PFC observe + amplify
+    = "Xa mẹ mới biết thương" = NOT paradox. = 3 mechanisms STACK.
+    
+  "CẢM XÚC CHƯA TỪNG THỂ HIỆN BAO GIỜ TRƯỚC KIA":
+    = KHÔNG PHẢI "cảm xúc mới"
+    = PFC LẦN ĐẦU OBSERVE Tonic positive mà LUÔN Ở ĐÓ
+    = Body biết 20 năm. PFC mới observe lần đầu khi có lens (thơ).
+    
+  🟢 Decay 3-layer: Entity-Compiled.md v1.0 §9
+  🟢 Whiteman et al. 2011: 10-year longitudinal — conflict ↓, intimacy ↑
+  🟢 Arnett 2004: leaving home → more satisfying parent relationship
+  🟡 3-mechanism model + satiation type decay + subsidy contrast = framework synthesis (v3.0)
+```
+
+### §10.1 — Nostalgia = L2 Active Self-Regulation
+
+```
+⭐ NOSTALGIA KHÔNG PHẢI RANDOM — LÀ BODY TỰ CHỮA:
+
+  🟢 Sedikides & Wildschut 2018 (Review of General Psychology):
+     Negative states (buồn, cô đơn, vô nghĩa) → TRIGGER nostalgia
+     Nostalgia → positive affect + self-esteem + social connectedness
+     = SELF-REGULATION mechanism (not just "nhớ quá khứ")
+     
+  🟢 Oba et al. 2016 (Social Cognitive and Affective Neuroscience):
+     Memory + reward systems CO-PRODUCE nostalgic experiences
+     Hippocampus (retrieve) + striatum/reward (valence) → CÙNG LÚC
+
+  FRAMEWORK MAPPING:
+    Negative state → gap unfilled → body cần stabilize
+    → Brain RETRIEVE EC positive chunks (L2 channel F: PFC recall)
+    → L2 fire → opioid release → body STABILIZE
+    → = Body DÙNG compiled Tonic warmth từ past entities làm THUỐC AN THẦN
+    
+    Nostalgia DÙNG TONIC channels (not Cyclic or Generative):
+      → Body recalls BASELINE warmth (Tonic) not episodes (Cyclic)
+      → "Nhớ cảm giác ấm áp" not "nhớ lần nấu ăn cụ thể"
+      → Entities with DEEP Tonic + HIGH subsidy = strongest nostalgia source (mẹ)
+
+  VIDEO-CALL PARADOX:
+    🟢 Van Tilburg et al. 2019: students feel MOST homesick during video-chat
+    FRAMEWORK: Video = PARTIAL EC firing → L2 fire → NHƯNG touch/smell MISSING
+    → Chunk-Miss ở MISSING spokes AMPLIFIED by partial activation
+    → "Gọi mẹ xong nhớ hơn" = ĐÚNG, architecturally explainable
+
+  🟢 Nostalgia self-regulation: Sedikides 2018
+  🟢 Video-call homesickness: van Tilburg 2019
+  🟡 Nostalgia as L2 Tonic self-regulation = framework synthesis (v3.0)
+```
+
+---
+
+## §11 — PER-ENTITY VALENCE DYNAMICS + RSA A:B
+
+> **v3.0 NEW** — từ Drill-Entity-Valence-Dynamics v2.0 §10+§11.
+
+```
+⭐⭐ VALENCE DYNAMICS MAPPED PER ENTITY TYPE:
+
+  MẸ→CON VALENCE:
+    Dominant satiation: Tonic (existence-based) + Generative bursts (child changes)
+    Hardware subsidy: MAXIMUM → habituation SLOW → Mode 1 = RICH baseline
+    RSA A:B: ~40A/60B → valence "feel" = ẤM ÁP (B dominant)
+    2-tầng: Tầng A dominant → valence INVISIBLE (hardware-driven)
+    2-luồng: L2 dominant → valence STRUCTURAL (body-base extension)
+    Mixed valence: LOW (hardware bias approach → avoidance rare)
+    "Chán" risk: LOW (auto-novelty + max subsidy)
+    Phantom on loss: DEVASTATING (all 4 factors MAX — §12)
+    Technology substitute: CANNOT (CT afferents offline)
+    → Trajectory: STABLE INVISIBLE baseline → visible ONLY on loss/trigger
+    → = "Không thấy gì đặc biệt" → mất → DEVASTATING = signature pattern
+    
+  CON→MẸ VALENCE (child/teen):
+    Dominant satiation: Cyclic + Tonic MIX (episodic needs + baseline safety)
+    Hardware subsidy: MODERATE → habituation SLOW-MEDIUM
+    RSA A:B: ~50A/50B → valence "feel" = BALANCED (ấm + đánh giá)
+    2-tầng: A+B balanced → valence MIXED visibility
+    2-luồng: L1→L2 shifting → valence FORMS over years
+    Mixed valence: HIGH (normative 50% — Lüscher 1998)
+    "Chán" risk: MODERATE (teen lifecycle shift, not true "chán")
+    Phantom on loss: MAJOR (deep compilation + attachment hardware)
+    Technology substitute: PARTIAL (video call maintain SOME)
+    → Trajectory: FORMING → MIXED (teen) → POSITIVE SHIFT (xa mẹ = §10)
+    → = "Vừa giận vừa thương" → xa mẹ → "thương mẹ mãnh liệt" = signature
+    
+  BẠN THÂN VALENCE:
+    Dominant satiation: Generative dominant + Tonic component
+    Hardware subsidy: NONE → habituation STANDARD (fastest)
+    RSA A:B: ~70A/30B → valence "feel" = THÚ VỊ, HỨNG KHỞI (A dominant)
+    2-tầng: Tầng B dominant → valence VISIBLE per episode
+    2-luồng: L1 dominant → valence MOMENTARY (per-interaction reward)
+    Mixed valence: LOW (genuine → positive-dominant)
+    "Chán" risk: HIGH if no novelty (Generative habituates fast)
+    Phantom on loss: MINOR-MODERATE (replaceable, no hardware lock-in)
+    Technology substitute: PARTIAL (online maintain Generative, not touch)
+    → Trajectory: EXCITING → HABITUATE without novelty → FADE without contact
+    → = "Gặp nhau vui ghê" → "Lâu không gặp, quên" = signature pattern
+
+  ROMANTIC VALENCE (post-limerence):
+    Dominant satiation: Tonic + Generative (if genuine match)
+    Hardware subsidy: TEMPORARY → vasopressin/oxytocin (if attachment forms)
+    RSA A:B: ~60A/40B → valence "feel" = HỨNG KHỞI + ẤM (mixed A+B)
+    2-tầng: A→B shift (limerence Tầng A simulated → post-L Tầng B)
+    2-luồng: L1→L2 (if Entity-Compiled forms)
+    Mixed valence: MODERATE → HIGH (living together → more conflict channels)
+    "Chán" risk: HIGHEST (inflated baseline + no permanent subsidy + max exposure)
+    Phantom on loss: COMPLEX (L2 structural + possible hormone echo)
+    Technology substitute: PARTIAL (communication, not physical intimacy)
+    → Trajectory: INTENSE (limerence) → 3 paths: genuine/flat/dissolution
+    → = "Yêu cuồng nhiệt" → "Vẫn yêu" OR "Hết lửa" OR "Chia tay"
+
+  COLLEAGUE VALENCE (Agent-mode moments):
+    Dominant satiation: Generative (domain-specific)
+    Hardware subsidy: NONE
+    RSA A:B: ~85A/15B → valence "feel" = ĐÁNH GIÁ, KÍCH THÍCH TRÍ TUỆ
+    2-tầng: Tầng B only → valence VISIBLE in Agent-mode only
+    2-luồng: L1 only (unless transition to friend)
+    Mixed valence: LOW (professional → thin)
+    "Chán" risk: MODERATE (domain routine → habituate)
+    Phantom on loss: MINOR (functional, replaceable)
+    Technology substitute: HIGH (remote work maintains domain Generative)
+    → Trajectory: CONTEXT-DEPENDENT → only in Agent-mode → fade on job change
+    → = "Nghỉ việc → quên tuột" = signature pattern
+```
+
+### §11.1 — RSA A:B × Valence "Feel" + Hardware Reactivity
+
+```
+⭐ HARDWARE QUYẾT ĐỊNH CƯỜNG ĐỘ + RSA QUYẾT ĐỊNH "FEEL":
+
+  HARDWARE REACTIVITY:
+    🟢 Hariri et al. 2002: 5-HTTLPR short allele → GREATER amygdala response
+    🟢 Aron & Aron 1997: HSP (15-20%) → deeper processing, more empathy
+    🟢 Belsky & Pluess 2009: S-allele = PLASTICITY (not just vulnerability)
+       More hurt under negative → BUT more appreciation under positive
+
+  RSA A:B × VALENCE "FEEL" (Reward-Signal-Architecture v2.0 §1):
+    Type B dominant (opioid, CT afferents) → "ấm áp, dễ chịu, an toàn"
+    Type A dominant (evaluative, dopamine-adjacent) → "thú vị, exciting"
+    
+  ⭐ REACTIVITY × RSA A:B = 2 INDEPENDENT AXES:
+    High reactivity + B dominant = INTENSE WARMTH (sensitive+warm)
+    High reactivity + A dominant = INTENSE EXCITEMENT (sensitive+curious)
+    Low reactivity + B dominant = GENTLE WARMTH
+    Low reactivity + A dominant = CALM INTEREST
+    → 4 combinations → 4 different valence "profiles"
+
+  SPM vs REACTIVITY vs RSA (phân biệt rõ):
+    SPM = prediction ACCURACY (how well predict entity)
+    Reactivity = response INTENSITY (how strongly body responds)
+    RSA A:B = response QUALITY (warm vs exciting)
+    → 3 trục INDEPENDENT
+    
+  🟢 5-HTTLPR: Hariri 2002. HSP: Aron & Aron 1997. Plasticity: Belsky 2009.
+  🟡 Reactivity × RSA A:B as 2 independent axes = framework synthesis (v3.0)
+```
+
+---
+
+## §12 — PHANTOM RESONANCE × GRIEF
+
+> **v3.0 NEW** — từ Drill-Entity-Valence-Dynamics v2.0 §15.
+
+```
+⭐⭐ PHANTOM RESONANCE 4-FACTOR MODEL (Resonance-Entity v2.0 §15):
+
+  MECHANISM:
+    Entity compiled across channels → presence = BASELINE
+    Entity lost → compiled patterns FIRE on triggers → predicted response = X
+    → Actual response = NOTHING → prediction-delta NEGATIVE → body-feedback = pain
+    → = "Phantom limb" of relationship (Ratcliffe 2018)
+    → Patterns KEEP FIRING until Hebbian weaken → SLOW without deliberate uncompile
+
+  PHANTOM DEPTH = f(4 factors):
+    ① Compilation depth: more channels compiled → more phantom firing points
+    ② Hardware subsidy: hw-supported bond → hw KEEPS firing after loss
+    ③ L2 structural: entity = body-base extension → loss = body-base AMPUTATION
+    ④ Duration compiled: longer relationship → deeper Hebbian → slower fade
+
+  PHANTOM × SATIATION TYPE:
+    Tonic channels: MOST persistent phantom (compiled deep → fire continuously)
+      → "Nhớ cảm giác ấm mà không ai cho" = Tonic phantom
+      → Hardest to resolve: baseline violation ONGOING
+    Cyclic channels: EPISODIC phantom (fire at cycle points only)
+      → "Giờ ăn tối → nhớ mẹ nấu" = Cyclic phantom
+      → Resolves FASTER: can redirect Cyclic to alternative source
+    Generative channels: MINIMAL phantom (novelty-dependent → no entity = no fire)
+
+  PER-ENTITY PHANTOM INTENSITY:
+
+  ┌────────────────────┬──────────┬──────────┬──────────┬──────────┬───────────┐
+  │ Factor             │ Mẹ mất   │ Con mất  │ Bạn mất  │ Partner  │ Colleague │
+  │                    │ (con→mẹ) │ (mẹ→con) │ thân mất │ mất      │ mất       │
+  ├────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
+  │ ① Compilation      │ DEEP     │ VERY DEEP│ MODERATE │ DEEP     │ SHALLOW   │
+  ├────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
+  │ ② Hardware subsidy │ MODERATE │ MAXIMUM  │ NONE     │ SOME     │ NONE      │
+  ├────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
+  │ ③ L2 structural    │ STRONG   │ VERY     │ MODERATE │ STRONG   │ WEAK      │
+  │                    │          │ STRONG   │ to WEAK  │ to VERY  │           │
+  ├────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
+  │ ④ Duration         │ DECADES  │ YEARS→   │ YEARS    │ YEARS→   │ MONTHS→   │
+  │                    │          │ DECADES  │          │ DECADES  │ YEARS     │
+  ├────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
+  │ Dominant phantom   │ TONIC    │ TONIC+   │GENERATIVE│ MIXED    │ GENERATIVE│
+  │ satiation type     │          │ CYCLIC   │          │ (all 3)  │           │
+  ├────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
+  │ PHANTOM INTENSITY  │ MAJOR    │DEVASTATING│ MINOR-  │ COMPLEX  │ MINOR     │
+  │                    │          │          │ MODERATE │          │           │
+  └────────────────────┴──────────┴──────────┴──────────┴──────────┴───────────┘
+
+  ⭐ MẸ MẤT CON = MOST DEVASTATING:
+    ALL 4 factors MAX → TONIC + CYCLIC phantom compound
+    → Sanders 1980: parental grief = most severe category
+    → Some parents: phantom NEVER fully resolves → "chronic grief"
+
+  EXTREME VALENCE — LOVE/HATE SHARED CIRCUITS:
+    🟢 Zeki & Romaya 2008 (PLoS ONE):
+      SHARED: putamen + insula (cả love VÀ hate)
+      LOVE: large parts judgment cortex DEACTIVATE → "mù quáng vì yêu"
+      HATE: small zone deactivate → RETAINS judgment → "tính toán trả thù"
+    → |Valence| CAO → body engage DEEP
+    → Love → Hate: EASY (flip direction, keep depth) → betrayal
+    → Hate → Love: HARD (negativity bias + need sustained positive)
+    → Indifference → either: HARDER (need to BUILD depth first)
+    → = Hate CLOSER to love than indifference is
+
+  DISORGANIZED ATTACHMENT (Main & Hesse 1990):
+    🟢 "FRIGHT WITHOUT SOLUTION": attachment figure = COMFORT AND FEAR source
+    → 2-TẦNG CONFLICT: Tầng A (hardware) → approach VS Tầng B (SPM) → avoid
+    → Cross-tầng → PFC arbitration INSUFFICIENT
+    → Normal mixed: same tầng → PFC can arbitrate
+    → QUALITATIVELY different from normal mixed
+
+  🟢 Grief = phantom limb: Ratcliffe 2018. Parental grief: Sanders 1980.
+  🟢 Love/hate circuits: Zeki & Romaya 2008. Disorganized: Main & Hesse 1990.
+  🟡 Phantom × satiation type + 4-factor model = framework synthesis (v3.0)
+```
+
+---
+
+## §13 — TECHNOLOGY × VALENCE FRONTIER
+
+> **v3.0 NEW** — từ Drill-Entity-Valence-Dynamics v2.0 §16+§17.
+
+```
+⭐⭐ TECHNOLOGY THAY ĐỔI VALENCE DYNAMICS THẾ NÀO:
+
+  SENSORY VALENCE TRIGGERS = LESS RELEVANT (technology filled):
+    → Hunger: delivery apps → fill without entity → sensory Cyclic valence ↓
+    → Temperature: AC, heating → self-fill → comfort Cyclic valence ↓
+    → Entertainment: Netflix, games → fill novelty → Generative partially filled
+    → = Sensory valence no longer REQUIRES entities (technology substitute)
+    
+  MODERN VALENCE FRONTIER = SOCIAL + ABSTRACT:
+    Technology CHƯA fill:
+      → Touch/comfort: CT afferents require PHYSICAL presence → Tonic Type B unfilled
+      → Emotional regulation: L2 structural requires compiled entity → no substitute
+      → Generative mutual: shared discovery requires 2 genuine drives → no one-way fill
+      → Social validation: requires REAL social comparison → no synthetic
+      → Meaning-in-relationship: entity-specific, cannot be mass-produced
+    → "Có tiền mua mọi thứ nhưng vẫn cô đơn" = sensory filled, social unfilled
+
+  SOCIAL MEDIA × VALENCE DYNAMICS:
+    Context-Trigger AMPLIFICATION:
+      → More triggers per day (algorithmic, curated)
+      → "On this day" = ALGORITHMIC nostalgia scheduling
+      → Friend posts = SYSTEMATIC narrative triggers
+      → = Mode 3 firing FREQUENCY increased dramatically
+    Parasocial valence:
+      → Compiled positive BUT no L2 structural → shallow
+      → Time on parasocial → LESS time for genuine → valence DECLINE
+    
+  AI × VALENCE:
+    AI can: trigger EXISTING L2 (write about mẹ → EC fire → feel)
+    AI can: fill Generative gaps (insight, analysis, conversation)
+    AI cannot: create L2 (no mutual, no body, no by-product from AI gap)
+    AI cannot: fill Tonic (no physical presence, no CT afferents)
+    → AI fills SOME valence triggers but creates NO new valence depth
+    → Risk: AI sufficient for Generative → human Generative narrows
+
+  ENGINE/ROAD/VEHICLE × VALENCE PORTFOLIO (Gap-Body-Need v2.0 §8):
+    Pre-modern: less specialized → 1 entity fills MANY gap types → FEW entities, BROAD
+    Modern: more specialized → entities SEGMENTED by function → MORE entities, THINNER
+    
+    ⭐ SPECIALIZATION TRADE-OFF:
+      → More entities → portfolio DIVERSIFIED → MORE RESILIENT to loss
+      → NHƯNG: if 1 entity carries DISPROPORTIONATE valence:
+        "Vợ là tất cả" = ALL channels → 1 entity → FRAGILE
+      → DIVERSIFIED portfolio = MORE RESILIENT
+      → Mẹ (Tonic) + partner (Tonic+Generative) + friends (Generative) + colleagues (domain)
+      → = Each entity fills DIFFERENT satiation type → loss of 1 ≠ loss of ALL
+    
+    ROAD × VALENCE ACCESS:
+      → Urban: many potential entities → more portfolio options
+      → Immigration: ROAD changes → most entities lost → massive valence disruption
+      → Retirement: colleague entities lost → portfolio SHRINKS → gap opens
+    
+  🟡 Technology × valence frontier + specialization portfolio = framework synthesis (v3.0)
+  🟢 Kahneman & Deaton 2010: $75K plateau (sensory saturation evidence)
+  🟢 Durkheim 1893: organic solidarity — specialized units NEED each other
+```
+
+---
+
+## §14 — CÁCH VALENCE HÌNH THÀNH + UPDATE
 
 ```
 🟡 VALENCE ĐƯỢC BUILD TỪ 4 NGUỒN:
 
   ① DIRECT EXPERIENCE — trải nghiệm trực tiếp:
-
     → Cầm dao → cắt tay → ĐAU → valence: { L0 safety: -- }
     → Mẹ cho ăn → HẾT ĐÓI → valence: { L1 nutrition: ++ }
-    → Dẫm gai → ốm nhiều ngày → valence: { L0: ---, gai = threat }
-    → Bật lửa nổ → đau + shock → valence: { L0: ---, bật lửa = threat }
     → = Nguồn CHÍNH XÁC NHẤT — body verify trực tiếp
     → = NHƯNG chậm (phải trải nghiệm mới biết)
-    → 🟢 Classical conditioning: direct experience → valence formation (Pavlov, LeDoux)
+    → 🟢 Classical conditioning: Pavlov, LeDoux 1996
 
   ② OBSERVED EXPERIENCE — quan sát người khác:
-
     → Thấy bạn bị chó cắn → valence chó: { L0 safety: - }
-    → Thấy mẹ nấu ăn ngon → valence bếp: { L1: + }
-    → = Self-Pattern-Match (Agent.md) đọc state người khác → infer valence
-    → = NHANH hơn direct experience (không cần bị cắn để biết chó nguy hiểm)
-    → = NHƯNG kém chính xác (SPM ≈ 10-30% intensity, có thể bias)
-    → 🟢 Observational learning: Bandura 1977 (modeling)
-    → 🟢 Social referencing: infants look to caregiver for valence cues (Sorce 1985)
+    → = Self-Pattern-Modeling đọc state người khác → infer valence
+    → = NHANH hơn direct experience, kém chính xác hơn
+    → 🟢 Observational learning: Bandura 1977
+    → 🟢 Social referencing: Sorce 1985
 
   ③ SCHEMA INHERITANCE — thừa kế từ cộng đồng:
-
     → Mẹ nói "dao nguy hiểm" → valence: { L0 safety: - } (chưa cần bị cắt)
-    → Cộng đồng nói "firefighters are heroes" → valence lính cứu hỏa: { trust: +, L0 safety: + }
     → Tôn giáo: "Thiên Chúa yêu thương" → valence God: { ALL: ++ }
-    → Bố mẹ: "không học thì sau này vất vả" → valence "không học": { threat }
     → = NHANH NHẤT (không cần trải nghiệm hay quan sát)
     → = NHƯNG có thể SAI (schema inherit ≠ reality verify)
     → = TẠI SAO tuyên truyền WORK: install valence TRƯỚC khi verify
-    → = TẠI SAO positive childhood → default valence positive cho "người"
-    → 🟢 Cultural transmission of fear: Rachman 1977 (3 pathways)
-    → 🟢 Evaluative conditioning via verbal instruction (De Houwer 2007)
+    → 🟢 Cultural transmission of fear: Rachman 1977
+    → 🟢 Evaluative conditioning via verbal instruction: De Houwer 2007
 
   ④ CONTEXT INFERENCE — suy luận từ context:
-
     → Quả bom trong tay đồng đội: { positive }
     → Quả bom trong tay kẻ thù: { extreme negative }
-    → Bụi cây trong công viên: { neutral }
-    → Bụi cây trong chiến trường: { threat }
     → = Cùng entity, khác context → khác valence
-    → = Logic/Modeling mode tính toán: "trong context NÀY, entity NÀY có ý nghĩa gì?"
-    → 🟡 Context-dependent valence = framework framing of established phenomenon
-
 
   ĐỘ TIN CẬY vs TỐC ĐỘ — TRADE-OFF:
-
     ┌──────────────────────────┬────────────────┬──────────────┐
     │ Nguồn                     │ Tốc độ          │ Độ chính xác  │
     ├──────────────────────────┼────────────────┼──────────────┤
@@ -485,107 +1401,45 @@ backup: Domain/backup/Valence.md
     │ ③ Schema inheritance      │ Nhanh nhất     │ Thấp nhất     │
     │ ④ Context inference       │ Tùy context    │ Tùy chunks    │
     └──────────────────────────┴────────────────┴──────────────┘
-
-    → Evolutionary logic: "rắn nguy hiểm" inherit NHANH > tự bị cắn rồi biết
-    → Trade-off: nhanh → có thể sai. Chậm → chính xác hơn nhưng cost cao.
-    → 🟢 Prepared learning: biologically prepared associations (Seligman 1971)
+    → Evolutionary: "rắn nguy hiểm" inherit NHANH > tự bị cắn rồi biết
+    → 🟢 Prepared learning: Seligman 1971
 
 
 VALENCE UPDATE — 3 LOẠI:
 
   ① REINFORCEMENT — valence MẠNH thêm:
     → Mẹ cho ăn 1000 lần → valence { L1: ++ } compiled CỰC SÂU
-    → Bạn thân giúp đỡ nhiều năm → valence { trust: ++++ }
     → = Lặp lại consistent → valence COMPILE thành schema sâu
-    → = Khó thay đổi vì đã anchored
 
   ② REVISION — valence THAY ĐỔI DẦN:
     → Dao: lần đầu cắt tay { L0: -- } → học cách dùng { L1: ++ dần override L0: -- }
-    → = Domain feedback KHÁC valence hiện tại → body adjust DẦN
     → Tốc độ revision tùy: intensity × frequency × recency
 
   ③ VIOLENT FLIP — valence BỊ ĐẢO NGƯỢC:
     → Bạn thân phản bội: trust++++ → trust---- (FLIP)
-    → Phát hiện sư thầy tham nhũng: valence chùa flip
     → = CỰC HIẾM nhưng CỰC MẠNH — vì phá compiled schema
     → = Anchor-Schema.md §2: flip phá anchor → cascade collapse
     → 🟢 Betrayal trauma: Freyd 1996
 
-
-  TỐC ĐỘ UPDATE — 3 yếu tố:
-
-    INTENSITY: feedback mạnh → update nhanh
-      Bị chó cắn (đau mạnh) → valence update NGAY 1 lần
-      Bạn hơi chậm trả lời tin nhắn → update RẤT CHẬM
-
-    FREQUENCY: feedback lặp lại → update tích lũy
-      Mẹ cho ăn MỖI NGÀY → valence compile RẤT SÂU
-      Gặp người lạ 1 LẦN → valence RẤT NÔNG
-
-    RECENCY: feedback GẦN ĐÂY ảnh hưởng nhiều hơn
-      Bạn giúp hôm qua → valence tươi
-      Bạn giúp 5 năm trước → valence MỜ DẦN (trừ khi đã compile sâu)
-
-
   ⚠️ BIAS TRONG UPDATE:
-
     → Negativity bias: negative feedback → update NHANH hơn positive
-      (evolutionary: bỏ qua threat = chết > bỏ qua reward = mất cơ hội)
     → Confirmation bias: valence hiện tại → filter feedback cho match
-      (ghét ai → chú ý hành vi xấu → ghét thêm → loop)
-
-    🟢 Negativity bias: robust finding (Baumeister et al. 2001)
-    🟢 Confirmation bias: established (Nickerson 1998)
+    → 🟢 Negativity bias: Baumeister et al. 2001
+    → 🟢 Confirmation bias: Nickerson 1998
 ```
 
 ---
 
-## §4 — VALENCE PROPAGATION QUA SCHEMA CHAIN
-
-> **Đây là concept MỚI quan trọng nhất của file này.**
-> Valence.md cũ mô tả valence PER-ENTITY.
-> Section NÀY mô tả valence TRUYỀN QUA NETWORK giữa các schemas.
+## §15 — VALENCE PROPAGATION QUA SCHEMA CHAIN
 
 > ⚠️ **CLARIFICATION — Chain Analysis = EXPLANATORY, Không Phải Processing**
 > *(Drill §6, §22 — GAP 13 RESOLVED)*
 >
-> Chain analysis dưới đây = **Cấp 3** (framework giải thích tại sao behavior hoạt động).
+> Chain analysis = **Cấp 3** (framework giải thích tại sao behavior hoạt động).
 > **KHÔNG phải** cách brain PROCESS ở **Cấp 1** — cá nhân compile SHORT (1-2 nodes).
 > Chain dài **SỐNG ở Cấp 2** (collective infrastructure hold cho cá nhân).
 > Vẫn CÓ GIÁ TRỊ: chẩn đoán chain gãy, thiết kế collective, phát hiện trust sai.
->
-> Chi tiết Model 3 cấp + 4 compile pathways: Collective-Body.md §1-§2.
-
-```
-🟡 CLARIFICATION — 3 CẤP PHÂN TÍCH (Drill §6, §22):
-
-  VP §4 chain analysis ở dưới mô tả:
-    [toán → điểm → đại học → việc → lương → body-base]
-  = Cấp 3 analysis. ĐÚNG logic. NHƯNG não KHÔNG process thế.
-
-  Cấp 1 (Individual brain):
-    Compile SHORT. Cùng hành vi "đi học toán", 4 pathways khác nhau:
-      Hardware fit:    [toán → brain fire → opioid]           — 1 node
-      Trust + fit:     [mẹ nói → trust → học → khen → ấm]   — 2 nodes
-      Social default:  [mọi người đều học → bình thường]      — 1 node
-      Threat avoid:    [không học → mắng → sợ → học]          — 1-2 nodes
-    → TẤT CẢ short. Chain DÀI không nằm trong đầu cá nhân.
-
-  Cấp 2 (Collective):
-    Giáo dục + thị trường + kinh tế = infrastructure HOLD chain dài.
-    Cá nhân chỉ cần trust + compile short → collective deliver kết quả.
-
-  Cấp 3 (Framework — VP §4 analysis):
-    GIẢI THÍCH tại sao behavior hoạt động (evolutionary + structural reason).
-    MÔ TẢ collective infrastructure. PHÁT HIỆN chain break.
-
-  GIÁ TRỊ THỰC TẾ (chain analysis KHÔNG VÔ NGHĨA):
-    ① Chẩn đoán: "Học nhưng thất nghiệp" = biết node NÀO gãy → fix cụ thể
-    ② Thiết kế: giáo dục/tôn giáo/policy = thiết kế chain ở Cấp 2
-    ③ Verify: collective schema CÓ THỂ sai → chain analysis kiểm tra
-
-  → Chi tiết: Collective-Body.md §1 (Model 3 cấp) + §2 (4 pathways)
-```
+> Chi tiết Model 3 cấp + 4 compile pathways: Collective-Body.md v1.2 §1-§2.
 
 ```
 🔴 HYPOTHESIS — concept mới, logic consistent với established research,
@@ -595,1244 +1449,540 @@ VALENCE UPDATE — 3 LOẠI:
 
   Framework đã có (Schema.md §1):
     Schema = CHUNKS + LINKS + PURPOSE
-    Chunks = atoms. Links = connections GIỮA atoms. Purpose = function.
 
-  Valence.md cũ mô tả:
-    Mỗi entity có 1 valence profile → per-entity assessment
-
-  NHƯNG: entities KHÔNG tồn tại cô lập.
+  Entities KHÔNG tồn tại cô lập.
     Entities LINK VỚI NHAU qua schema network.
     Và valence TRUYỀN qua những links đó.
 
-
-  VÍ DỤ ĐƠN GIẢN:
-
-    Entity "toán" — có feed body-base trực tiếp không?
-    → KHÔNG. Ngồi làm toán: mệt (L1-), chán có thể (L3-).
-    → Vậy valence lẽ ra NEGATIVE.
-    → NHƯNG nhiều học sinh vẫn làm toán. Tại sao?
-
-    Vì "toán" LINK tới chain:
+  VÍ DỤ:
+    Entity "toán" — có feed body-base trực tiếp không? → KHÔNG.
+    NHƯNG "toán" LINK tới chain:
       toán → điểm tốt → đại học → việc tốt → lương → body-base L1 feed
-    
-    Valence positive từ CUỐI chain (body-base feed)
-    TRUYỀN NGƯỢC qua từng node:
+    Valence positive từ CUỐI chain TRUYỀN NGƯỢC:
       lương (+++) → việc tốt (++) → đại học (+) → điểm tốt (+) → toán (+)
-    
-    = Toán có valence positive KHÔNG VÌ toán trực tiếp feed body
-    = MÀ VÌ toán LINK tới chain kết thúc ở body-base feed
-    = Valence propagation qua schema chain.
-
-
-  VÍ DỤ PHỨC TẠP:
-
-    Entity "giấu người Do Thái" (gia đình Hà Lan trong WWII, 🟢 documented):
-    → Miep Gies và gia đình giấu Anne Frank + 7 người trong 2 năm
-    → L0 cost TRỰC TIẾP: bị phát hiện = TỬ HÌNH. L1 cost: bớt thức ăn, chỗ ở
-    → Vậy per-entity valence: CỰC NEGATIVE (threat L0)
-    → NHƯNG họ vẫn giấu. Tại sao?
-
-    Vì "giấu người Do Thái" LINK tới NHIỀU chains SONG SONG:
-
-      Chain 1 (empathy): họ sợ hãi, đói → giấu → họ an toàn → empathy reward
-      Chain 2 (identity): "tôi là người đứng đắn" → identity confirm → reward
-      Chain 3 (anchor): moral schema "bảo vệ người vô tội" → serve Anchor-Schema
-      Chain 4 (status): nhóm kháng chiến biết → solidarity → connection reward
-
-    4 chains positive > L0/L1 cost (dù cost = tử hình!)
-    → Net valence: vẫn POSITIVE ở body level → drive "giấu"
-    → Body chấp nhận RISK L0 vì TỔNG reward từ 4 chains + anchor CỰC MẠNH
-
-    PFC biết: "vì đó là điều đúng đắn" (it was the right thing to do)
-    PFC KHÔNG biết: body đang tính 4 reward chains
-    = Valence propagation INVISIBLE cho PFC
-    🟢 Miep Gies khi được hỏi luôn nói: "I did what anyone would have done"
-       = Classic PFC confabulation — body computed 4 chains, PFC reports 1 simple reason
+    = Toán có valence positive VÌ link tới chain kết thúc ở body-base feed
 
 
 ⭐ 4 CƠ CHẾ PROPAGATION:
 
   ① FORWARD PROPAGATION (learning path):
-
     Body-base need → tìm path → action → reward → path COMPILE
-    
-    Ví dụ:
-      Đói → tìm quán → ăn → hết đói → "quán này tốt" (compile)
-      Mệt → nằm → ngủ → tỉnh → "giường = recovery" (compile)
-    
-    = Đây là CƠ CHẾ CƠ BẢN NHẤT — body TỰ TÌM path tới reward
-    = Mỗi path thành công → COMPILE → lần sau TỰ ĐỘNG fire
-    = 🟢 Operant conditioning: Thorndike's Law of Effect (1898)
-    = 🟢 Reinforcement learning: Sutton & Barto 1998
+    VD: Đói → tìm quán → ăn → hết đói → "quán này tốt" (compile)
+    🟢 Operant conditioning: Thorndike's Law of Effect 1898
+    🟢 Reinforcement learning: Sutton & Barto 1998
 
   ② BACKWARD PROPAGATION (reward spread):
-
     Reward ở cuối chain → valence positive TRUYỀN NGƯỢC qua từng node
-
-    Ví dụ:
-      Lương (reward) → job (positive) → đại học (positive) → toán (positive)
-      = Toán có valence positive VÌ nó nằm trên đường tới reward
-
-    Cơ chế:
-      → Body experience: toán → ... → reward. Toán = PREDICTOR of reward.
-      → Qua lặp lại (hoặc schema install): toán ĐÃ associate với reward chain
-      → = Toán TỰ NÓ trigger 1 phần reward anticipation (dopamine)
-      → = Feeling.md v2.0 §6: dopamine = wanting/salience, không phải reward itself
-
-    🟢 Conditioned reinforcement: neutral stimulus → associated with reinforcer
-       → acquires reinforcing value (Skinner, token economy)
-    🟢 Temporal difference learning: reward prediction propagates backward
-       (Schultz 1997, dopamine neurons)
-    🟡 "Valence propagation" as explicit model = framework formalization
+    VD: Lương (reward) → job → đại học → toán (positive vì trên đường tới reward)
+    🟢 Temporal difference learning: Schultz 1997 (dopamine prediction error)
+    🟡 Explicit "valence backward propagation" = framework formalization
 
   ③ LATERAL PROPAGATION (generalization):
-
     Entity tương tự CŨNG nhận valence — dù chưa trải nghiệm trực tiếp
-
-    Ví dụ NEGATIVE:
-      1 con chó cắn → SỢ con chó đó → sợ TẤT CẢ chó (category)
-      → sợ NGƯỜI NUÔI chó (associated entity) → ghét KHU VỰC có chó
-      = Valence LAN NGANG qua similarity + association
-
-    Ví dụ POSITIVE:
-      Tuổi thơ: mẹ tốt + bố tốt + hàng xóm tốt + thầy cô tốt
-      → Valence positive cho "người" (category)
-      → Gặp người lạ → default valence positive → approach → sẵn sàng giúp
-      = POSITIVE overgeneralization — CÙNG CƠ CHẾ với negative
-
-    ⚠️ ASYMMETRY:
-      Negative lateral: NHANH + RỘNG (1 con chó cắn → sợ mọi chó)
-      Positive lateral: CHẬM + HẸP (cần NHIỀU experience positive mới generalize)
-      → Evolutionary logic: false positive threat > false negative threat
-      → = Negativity bias trong propagation (consistent với §3 update bias)
-
+    VD: 1 con chó cắn → sợ TẤT CẢ chó → sợ NGƯỜI NUÔI chó
+    ⚠️ ASYMMETRY: Negative lateral NHANH + RỘNG. Positive lateral CHẬM + HẸP.
     🟢 Stimulus generalization: Pavlov, Watson (Little Albert 1920)
     🟢 Overgeneralization in anxiety: Dunsmoor & Murphy 2015
-    🟡 Positive overgeneralization = same mechanism: logical inference
 
   ④ INSTALL PROPAGATION (schema inheritance chain):
-
     Cộng đồng install TOÀN BỘ CHAIN sẵn, KHÔNG cần trải nghiệm
-
-    Ví dụ:
-      Bố mẹ install: "không học → vất vả → đau khổ"
-      = Chain: không học → vất vả → body-base threat
-      = Đứa trẻ CHƯA trải nghiệm "vất vả" nhưng chain ĐÃ có
-      = Valence "không học" = negative (propagated từ installed chain)
-
-      Tôn giáo install: "sống đạo đức → Thiên Đàng → hạnh phúc vĩnh cửu"
-      = Chain: đạo đức → Thiên Đàng → reward vĩnh cửu
-      = TOÀN BỘ chain installed qua ritual + community reinforce
-      = Không cần verify → unfalsifiable → chain KHÔNG BAO GIỜ bị phá
-
-      Patriotic install (MỌI quốc gia đều có):
-        "Nation → Flag → Military → Freedom → Safety"
-        = Chain: Nation (+++) → Flag (++) → Soldiers (+) → tất cả linked positive
-        = Install qua education + media + national holidays + ritual
-        VD: WWII Mỹ — "Uncle Sam Wants YOU" poster → install chain: enlist → serve nation → freedom
-        VD: WWII Anh — "Keep Calm and Carry On" → install chain: endure → nation survives → safety
-        VD: Bất kỳ quốc gia nào: quốc ca + chào cờ mỗi sáng → patriotic chain compile SÂU
-
-    Đặc điểm install propagation:
-      → NHANH NHẤT: không cần direct experience
-      → CÓ THỂ install chain DÀI (5+ nodes) trong thời gian ngắn
-      → CÓ THỂ SAI: chain content chưa verify
-      → NHƯNG: evolutionary effective (inherit "rắn nguy hiểm" > tự bị cắn)
-      → NGUY HIỂM khi bị weaponize: tuyên truyền, cult, extremism
-
+    VD: Bố mẹ install: "không học → vất vả → đau khổ"
+    VD: Tôn giáo: "sống đạo đức → Thiên Đàng → hạnh phúc vĩnh cửu"
+      = TOÀN BỘ chain installed, unfalsifiable → KHÔNG BAO GIỜ bị phá
     🟢 Cultural transmission: Boyd & Richerson 1985
-    🟢 Indoctrination effects: established in social psychology
-    🟡 "Install propagation" as explicit model = framework term
+    🟡 "Install propagation" = framework term
 
-
-⭐ PROPAGATION DYNAMICS:
-
-  4 cơ chế KHÔNG hoạt động riêng lẻ — chúng TƯƠNG TÁC:
-
-    Forward tìm path → Backward reinforce path → Lateral expand scope
-    Install provide starting chains → Forward/Backward VERIFY hoặc REJECT
-
-    Ví dụ tích hợp (học sinh làm toán):
-      Install: bố mẹ nói "học = tương lai" (④ install chain)
-      Forward: làm bài → được điểm → nhẹ nhõm (① forward find reward)
-      Backward: điểm tốt → valence toán tăng (② backward propagate)
-      Lateral: toán tốt → "lý cũng tốt" (③ lateral to similar subject)
-      
-      HOẶC Forward FAIL: làm toán → sai → bị mắng → dissonance
-      → Chain INSTALLED ("học = tương lai") CONFLICT với chain EXPERIENCED ("toán = đau")
-      → Body phải resolve: chain nào MẠNH hơn?
-      → Nếu install chain trust > experience pain → tiếp tục
-      → Nếu experience pain > install trust → bỏ cuộc, ghét toán
+  4 cơ chế TƯƠNG TÁC:
+    Forward tìm path → Backward reinforce → Lateral expand → Install provide starting chains
+    Install chain CÓ THỂ bị Forward VERIFY hoặc REJECT
 
   🟢 Spreading activation: Collins & Loftus 1975
-     (Concepts in memory activate related concepts — established)
   🟢 Associative network models: Anderson 1983
   🟡 4-mechanism model = framework categorization
 ```
 
 ---
 
-## §5 — 5 ĐẶC TÍNH CỦA CHAIN
+## §16 — CHAIN PROPERTIES + WHY CHAIN DÀI TỒN TẠI
+
+### §16.1 — 5 Đặc tính
 
 ```
 🔴 HYPOTHESIS — framework formalization, logic consistent
 
-  Valence chain (§4) có 5 đặc tính quyết định behavior:
-
-
   ① CHAIN LENGTH → VALENCE DECAY + PFC ACCURACY DECREASE:
-
-    Chain NGẮN:
-      Gai → đau chân → body-base L0
-      Length = 1. Valence MẠNH. PFC trace 100%.
-      "Tôi sợ vì bị đau" — PFC biết CHÍNH XÁC.
-
-    Chain TRUNG BÌNH:
-      Toán → điểm → đại học → việc tốt → lương → body-base
-      Length = 4. Valence YẾU hơn ở đầu chain (toán).
-      PFC trace ~70%. "Tôi học vì tương lai" — đúng nhưng THIẾU detail.
-
-    Chain DÀI:
-      Moral schema → "bảo vệ người vô tội" → giấu Anne Frank → empathy + identity + anchor
-      Length = 4+, multi-branch. Valence PHỨC TẠP.
-      PFC trace ~30%. "Vì đó là điều đúng" — đúng surface, THIẾU mechanism.
-
-    Chain INVISIBLE:
-      Hardware fit + chunk match → Goldilocks → prediction-delta → opioid
-      PFC KHÔNG THẤY chain (hardware-level).
-      PFC trace ~10%. "Tôi thích toán" — label, KHÔNG phải explanation.
-
-    NGUYÊN TẮC:
-      → Chain LENGTH tăng → valence tại đầu chain GIẢM (decay)
-      → Chain LENGTH tăng → PFC accuracy GIẢM (more confabulation)
-      → Chain LENGTH tăng → DỄ BỊ ĐỨT (nhiều links = nhiều điểm fail)
-
-    🟢 Goal gradient effect: Hull 1932, stronger near goal
-    🟢 Temporal discounting: delay → value decrease (Ainslie 1975)
-    🟡 PFC accuracy ≈ f(1/chain_length): framework inference
-
+    Chain NGẮN (gai → đau): Valence MẠNH. PFC trace 100%.
+    Chain TRUNG BÌNH (toán → ... → lương): Valence YẾU hơn. PFC ~70%.
+    Chain DÀI (multi-branch): Valence PHỨC TẠP. PFC ~30%.
+    Chain INVISIBLE (hardware): PFC ~10%. "Tôi thích toán" = label, not explanation.
+    🟢 Goal gradient: Hull 1932. Temporal discounting: Ainslie 1975.
 
   ② CHAIN TRUST → PROPAGATION STRENGTH:
-
-    Mỗi link trong chain có TRUST level riêng.
-    Propagation strength ≈ PRODUCT of trust at each link.
-
-    Ví dụ HIGH trust chain:
-      Bố mẹ nói "học = tương lai" (trust bố mẹ: 90%)
-      Thầy cô confirm "đúng" (trust thầy: 80%)
-      Bạn bè cũng học (social proof: 70%)
-      → Chain trust ≈ high → valence "học" propagate MẠNH
-
-    Ví dụ LOW trust chain:
-      Người lạ nói "invest bitcoin = giàu" (trust: 20%)
-      → Chain trust LOW → valence "invest" propagate YẾU
-      → NHƯNG nếu 100 người nói (social amplify) → trust TĂNG
-      → = Tại sao scam + hype WORK: quantity override quality of trust
-
-    ĐẶC BIỆT — Trust = 0 tại 1 link → CHAIN ĐỨT:
-      Install chain: "học = tương lai tốt"
-      Experience: 4 năm đại học → thất nghiệp
-      → Trust "đại học → việc tốt" link = COLLAPSE
-      → Toàn bộ chain phía trước link đó BỊ ẢNH HƯỞNG
-      → "Học vô ích" = chain đứt → valence "học" flip negative
-
-    → Anchor-Schema.md §2: Trust ≥ Cost → hold; Trust < Cost → collapse
-    → 🟡 Chain trust = product of link trusts: framework model
-
+    Mỗi link có trust level riêng. Propagation ≈ PRODUCT of trusts.
+    Trust = 0 tại 1 link → CHAIN ĐỨT:
+      "4 năm đại học → thất nghiệp" → link collapse → "Học vô ích"
+    → Anchor-Schema.md §2: Trust ≥ Cost → hold; Trust < Cost → collapse.
 
   ③ PARALLEL CHAINS → ADDITIVE:
-
-    NHIỀU chains CÓ THỂ connect entity → body-base CÙNG LÚC.
-    Valence = TỔNG từ tất cả chains.
-
-    Ví dụ — Gia đình Hà Lan giấu người Do Thái (WWII):
-      Chain 1: empathy reward (họ an toàn) → opioid
-      Chain 2: identity confirm ("tôi = người đứng đắn") → reward
-      Chain 3: moral anchor-schema service → reward
-      Chain 4: resistance network solidarity → connection reward
-      → 4 chains ADDITIVE → valence CỰC MẠNH → override L0 threat (tử hình)
-
-    Ví dụ — "Học sinh làm toán":
-      Chain a: "tương lai tốt" (install) → positive
-      Chain b: "sợ bị mắng" (threat) → avoid negative
-      Chain c: hardware fit + mastery → intrinsic reward
-      Chain d: "toán thú vị" (self-label) → reinforce
-      → 4 chains PARALLEL → drive MẠNH → làm bài
-
-    ⭐ QUAN TRỌNG:
-      Single chain YẾU → drive YẾU → dễ bỏ
-      Multiple parallel chains → drive MẠNH → khó bỏ
-      = Tại sao "đam mê" = nhiều chains converge vào 1 activity
-      = Tại sao "nghiện" = chains lock → khó thoát
-      = Tại sao "cho đi" CÓ 4 nguồn reward (Emergent-Patterns §5)
-
+    NHIỀU chains connect entity → body-base CÙNG LÚC → valence = TỔNG
+    Single chain YẾU → dễ bỏ. Multiple parallel → MẠNH → khó bỏ.
+    = Tại sao "đam mê" = nhiều chains converge vào 1 activity
 
   ④ CONFLICTING CHAINS → MIXED VALENCE:
-
-    2+ chains NGƯỢC HƯỚNG cho cùng 1 entity.
-
-    Ví dụ — "Mẹ":
-      Chain positive: cho ăn → comfort → protection → L1++ L0++
-      Chain negative: ép học → mất tự do → autonomy-- L3-
-      → CÙNG entity "mẹ", 2 chains ngược → YÊU + GHÉT cùng lúc
-      → = Mixed valence (§2) VÌ conflicting chains
-
-    Ví dụ — "Công việc":
-      Chain positive: lương → security → L1++
-      Chain negative: stress → mệt → health- → L0- L1-
-      → "Cần việc nhưng ghét đi làm" = 2 chains conflict
-
-    Ví dụ — "Biết nên học nhưng không muốn":
-      Chain A: toán → tương lai → body-base (install, positive)
-      Chain B: toán → mệt → body discomfort (direct, negative)
-      → PFC biết chain A (verbalize được: "nên học")
-      → Body FEEL chain B (mệt, chán — direct experience)
-      → Conflict: PFC nói "nên" vs body nói "không muốn"
-
-    RESOLUTION:
-      → Chain nào MẠNH hơn → drive theo hướng đó
-      → Mạnh = trust × length_decay × intensity × number_of_parallel_chains
-      → = Drive.md: action = EMERGENT OUTPUT từ tổng hợp tất cả
-
-
+    Chain positive (mẹ cho ăn → L1++) + Chain negative (mẹ ép học → autonomy--)
+    → CÙNG entity, 2 chains ngược → YÊU + GHÉT cùng lúc (§9)
+    
   ⑤ INVISIBLE CHAINS → PFC CONFABULATION:
+    Chain compiled SÂU / hardware-level / quá dài / multi-branch
+    → PFC KHÔNG access → phải explain → CONFABULATE
+    → Chi tiết: §18
 
-    Chain INVISIBLE cho PFC khi:
+  🟡 5 chain properties = framework formalization
+```
 
-    a) Chain COMPILED SÂU (auto fire, không qua PFC):
-       → "Thấy chó → SỢ" = compiled chain, body fire trước PFC biết
-       → PFC: "Tôi sợ chó" — biết OUTPUT nhưng chain ĐÃ fire xong
+### §16.2 — 4 Tầng Cơ Chế Tạo + Giữ Chain Dài
 
-    b) Chain HARDWARE-LEVEL (hormone, empathy, VTA — PFC không access):
-       → "Tôi yêu em" — hormone + body chemistry + schema
-       → PFC KHÔNG access hormone computation
-       → PFC: "Vì em đẹp, em thông minh" — confabulation
+```
+🟡 CHAIN DÀI = EMERGENT, KHÔNG DESIGNED:
 
-    c) Chain QUÁ DÀI (PFC chỉ thấy node gần nhất):
-       → "Tôi thích từ thiện" — PFC thấy "thích" (node gần nhất)
-       → Chain thật: empathy + identity + status + connection (4 chains invisible)
-       → PFC: "Vô tư thôi" — vì không thấy chains phía sau
+  TẦNG 1 — EXIST: Chunk substrate tự nhiên tạo chain qua connections
+    → Spreading activation tự lan (Collins & Loftus 1975)
+    → Chunks → meta-chunks → schemas → hierarchy (Hebb 1949)
+    🟢 Established mechanisms
 
-    d) Chain MULTI-BRANCH (quá phức tạp để PFC track):
-       → Gia đình giấu Anne Frank: 4 chains × multiple links each
-       → PFC chỉ track 1-2 chains đơn giản nhất
-       → PFC: "Vì đó là điều đúng" — đúng 1 chain, bỏ sót 3
+  TẦNG 2 — EXTEND: 4 cơ chế valence propagation kéo dài chain (§15)
+    → Forward tìm path + Backward reinforce + Install cộng đồng
+    🟢🟡 Mixed
 
-    → Chi tiết: §7 PFC Blindness
+  TẦNG 3 — FIT: Pyramidal compression cho chain dài vào PFC 4±1
+    → 4×4×4 = 64 thông tin gốc compressed vào 1 slot
+    → Chain dài = sản phẩm VÔ THỨC, không phải PFC
+    ⚠️ ĐÍNH CHÍNH: "PFC lớn hơn → chain dài hơn" = SAI
+    → 🟢 Brain size vs IQ: ~0.24 correlation (Pietschnig 2015)
+    → 🟢 Cowan 2001: PFC hold 4±1 dimensions
+    🟢🟡
 
-    🟢 Confabulation: Nisbett & Wilson 1977
-    🟡 5 đặc tính chain = framework formalization
+  TẦNG 4 — FILTER: Group selection giữ lại cá nhân có chain dài
+    → Tầng 1-3 ĐÃ ĐỦ → Tầng 4 = optional
+    🟡🔴
+
+  TRADE-OFF: Chain dài = feature, NOT bug
+    → Hại (cá nhân): PFC blind, trauma chain, unfalsifiable sacrifice
+    → Lợi (tập thể): empathy, deferred investment, cooperation, knowledge transfer
+    → P(benefit nhóm) >> P(harm cá nhân) → evolution giữ lại
 ```
 
 ---
 
-## §5b — TẠI SAO CHAIN DÀI TỒN TẠI: 4 Tầng Cơ Chế
-
-> **Câu hỏi**: Vì sao cá nhân VÔ THỨC hình thành valence chain xa vời kỳ quái?
-> Toán → điểm → đại học → việc → lương → body-base (4 links).
-> Moral schema → bảo vệ người vô tội → giấu Anne Frank → 4 chains reward (4+ links).
-> Einstein → vật lý → mystery → decades chunks → body fire (compiled depth).
->
-> Chain dài KHÔNG phải feature được "thiết kế".
-> Chain dài = EMERGENT từ 4 tầng cơ chế chồng lên nhau.
+## §17 — CASES PHÂN TÍCH
 
 ```
-🟡 FRAMEWORK SYNTHESIS — logic consistent, dựa trên established mechanisms
+🟡 CASES PHÂN LOẠI THEO 6 NHÓM — verify valence system:
 
 
-⭐ 4 TẦNG CƠ CHẾ TẠO + GIỮ CHAIN DÀI:
-
-  ┌─────────────────────────────────────────────────────────────────┐
-  │ TẦNG  │ VAI TRÒ      │ CƠ CHẾ                    │ CONFIDENCE │
-  ├───────┼──────────────┼───────────────────────────┼────────────┤
-  │  1    │ EXIST        │ Chunk substrate tự nhiên  │ 🟢         │
-  │       │ Chain tồn tại│ tạo chain qua connections │            │
-  ├───────┼──────────────┼───────────────────────────┼────────────┤
-  │  2    │ EXTEND       │ 4 cơ chế valence          │ 🟢🟡      │
-  │       │ Chain kéo dài│ propagation (§4)           │            │
-  ├───────┼──────────────┼───────────────────────────┼────────────┤
-  │  3    │ FIT          │ Pyramidal compression cho │ 🟢🟡      │
-  │       │ Chain fit PFC│ chain dài vào 4±1 chiều   │            │
-  ├───────┼──────────────┼───────────────────────────┼────────────┤
-  │  4    │ FILTER       │ Group selection giữ lại   │ 🟡🔴      │
-  │       │ Chain survive│ cá nhân có chain dài      │            │
-  └───────┴──────────────┴───────────────────────────┴────────────┘
-
-
-  TẦNG 1 — CHUNK SUBSTRATE TỰ NHIÊN TẠO CHAIN (EXIST):
-
-    Chunk.md v2.0 §3: 4 loại connection GIỮA chunks:
-      Type 1: Shared Contamination — neurons chung fire lẫn nhau (VÔ THỨC, automatic)
-      Type 2: Aha Moment — DMN incubation → sudden burst link
-      Type 3: Meta-chunk Compile — fire cùng nhau nhiều lần → merge thành 1 unit
-      Type 4: Static Logical Linking — PFC chủ đích hold + check
-
-    Chain dài KHÔNG ĐƯỢC "thiết kế". Nó EMERGE từ:
-      → Type 1: spreading activation tự lan theo TẤT CẢ links (Collins & Loftus 1975)
-      → Type 3: chunks → meta-chunks → schemas → hierarchy (Hebb 1949)
-      → 4 types = ECOSYSTEM (§3.3): mỗi type feed type khác
-
-    QUAN TRỌNG:
-      → Chunk system KHÔNG CÓ giới hạn "chỉ link gần"
-      → Mọi thứ co-fire → CÓ THỂ link → chain POTENTIAL = vô hạn
-      → Chain dài = side effect TẤT YẾU của cách chunk compile
-      → KHÔNG CẦN cơ chế riêng cho "tạo chain dài"
-
-    🟢 Spreading activation: Collins & Loftus 1975
-    🟢 Hebbian learning: Hebb 1949
-    🟢 Associative network models: Anderson 1983
-
-
-  TẦNG 2 — VALENCE PROPAGATION KÉO DÀI CHAIN (EXTEND):
-
-    §4 đã mô tả 4 cơ chế propagation. Vai trò cho chain DÀI:
-
-      ① Forward: body TỰ TÌM path tới reward → path càng xa = chain càng dài
-      ② Backward: reward ở cuối → valence spread NGƯỢC → "kéo dài" chain về phía gốc
-         → 🟢 Temporal difference learning (Schultz 1997)
-      ③ Lateral: mở RỘNG chain sang entities tương tự (category generalize)
-      ④ Install: cộng đồng install chain DÀI (5+ nodes) NGAY LẬP TỨC
-         → KHÔNG cần trải nghiệm → chain dài form trong 1 câu nói
-
-    ĐẶC BIỆT — Install Propagation (④) giải thích chain dài ở TRẺ EM:
-      → Trẻ chưa có đủ direct experience để build chain dài
-      → NHƯNG bố mẹ install: "học → tương lai → sung sướng" = chain 3+ links
-      → Cộng đồng install: "sống tốt → Thiên Đàng" = chain unfalsifiable
-      → = Chain dài CÓ THỂ xuất hiện TRƯỚC khi vô thức kịp compile
-
-    DYNAMICS:
-      → Forward/Backward VERIFY chain installed
-      → Chain installed mà forward CONFIRM → compiled SÂU → dài + bền
-      → Chain installed mà forward FAIL → đứt → valence flip
-      → = §4 Propagation Dynamics đã mô tả interaction này
-
-
-  TẦNG 3 — PYRAMIDAL COMPRESSION CHO CHAIN DÀI FIT VÀO PFC (FIT):
-
-    ⚠️ QUAN TRỌNG — ĐÍNH CHÍNH:
-      → "PFC lớn hơn → chain dài hơn" = SAI
-      → 🟢 Brain size vs IQ: tương quan RẤT YẾU (~0.24, ~6% variance)
-         (Pietschnig 2015, meta-analysis 148 studies)
-      → PFC luôn chỉ hold 4±1 dimensions (physics limit — interference)
-         (🟢 Cowan 2001)
-
-    VẬY chain dài FIT vào PFC BẰNG CÁCH NÀO?
-
-      → Pyramidal compression (PFC-Analysis.md):
-        4 chunks → compile → 1 meta-chunk
-        4 meta-chunks → compile → 1 super-meta
-        → 4×4×4 = 64 thông tin gốc compressed vào 1 slot PFC
-
-      → "Nhìn 4 thứ nhưng THẤY cả vũ trụ" (expert) — PFC-Analysis.md
-      → "Nhìn 4 thứ chỉ THẤY 4 thứ" (novice)
-      → CÙNG 4±1 dimensions, KHÁC compression quality
-
-    INSIGHT — Chain dài là sản phẩm của VÔ THỨC, không phải PFC:
-      → Vô thức compile chunks → stack → pyramidal → compressed
-      → Mỗi "link" mà PFC thấy = thực ra meta-chunk chứa hàng chục links
-      → PFC thấy chain "ngắn" (3-4 items) → thực ra = chain compiled SÂU
-      → Einstein "thấy" E=mc² = 1 meta-chunk. Bên trong = decades compiled.
-
-    HỆ QUẢ:
-      → Chain dài KHÔNG cần "PFC lớn hơn" hay "PFC capacity cao hơn"
-      → Chain dài cần VÔ THỨC COMPILE ĐỦ SÂU
-      → = Observed Capacity (PFC-Analysis.md):
-        OBSERVED = Hardware Ceiling × Vô Thức Quality × Cortisol State × Context Fit
-      → Yếu tố ② Vô Thức Quality = QUYẾT ĐỊNH cho chain dài
-      → CAN THIỆP ĐƯỢC: giáo dục + experience + compile time (ngủ đủ)
-
-    TẠI SAO chain dài KHÁC NHAU giữa các cá nhân:
-      → Trẻ em: chunks chưa đủ compiled → chain ngắn → valence trực tiếp
-      → Expert: chunks compiled sâu + pyramidal → chain dài trong domain
-      → Đổi domain: chunks mới chưa compile → chain ngắn lại
-      → = Chain dài = f(vô thức quality), KHÔNG PHẢI f(PFC size)
-
-    🟢 Chase & Simon 1973: expert chess 50,000+ chunk patterns
-    🟢 Neural efficiency: người giỏi fire ÍT hơn (Haier 1992, Neubauer & Fink 2009)
-    🟡 Pyramidal compression model: framework synthesis từ Cowan + Chase & Simon
-    🟡 Chain length = f(compile depth): framework inference
-
-
-  TẦNG 4 — GROUP SELECTION FILTER (FILTER):
-
-    Giả thiết: chọn lọc tự nhiên ở cấp TẬP THỂ giữ lại gene cho chain dài.
-
-    CƠ CHẾ (Empathy.md §7):
-      Nhóm CÓ chain dài:
-        → Empathy: SPM detect người khác thiếu → share → nhóm khỏe
-        → Đầu tư dài hạn: install chain "học = tương lai" → next gen giỏi hơn
-        → Hợp tác: chain "giúp đồng minh → an toàn cùng" → nhóm mạnh
-        → Truyền kiến thức: install propagation → build collective knowledge
-
-      Nhóm KHÔNG CÓ chain dài (chỉ valence trực tiếp):
-        → Chỉ react theo per-entity immediate valence
-        → Ít empathy (SPM yếu → không share khi thừa)
-        → Ít đầu tư dài hạn (chain ngắn → chỉ thấy cost trước mắt)
-        → Ít hợp tác (không thấy chain "giúp → được giúp lại")
-        → → Nhóm YẾU HƠN → bị loại bởi chiến tranh, thiên nhiên, cạnh tranh
-
-    🟢 Kin selection: Hamilton 1964
-    🟢 Reciprocal altruism: Trivers 1971
-    🟡 Group selection: Wilson 2007 (debated nhưng logic consistent)
-    🔴 "Group selection cho chain dài" = framework hypothesis, chưa test
-
-    ⚠️ PHÂN BIỆT CAUSE vs FILTER:
-      → Tầng 1-3 = CAUSE (tạo ra chain dài ở cấp cá nhân)
-      → Tầng 4 = FILTER (giữ lại chain dài ở cấp tập thể)
-      → Chain dài EMERGE từ chunk architecture (Tầng 1)
-      → Evolution KHÔNG "cố tình tạo" chain dài
-      → Evolution CHỈ "giữ lại" cá nhân/nhóm CÓ chain dài
-      → = Cause ≠ Filter — distinction quan trọng
-
-    ⚠️ KHÔNG CẦN group selection để giải thích chain dài:
-      → Tầng 1-3 ĐÃ ĐỦ giải thích WHY chain dài tồn tại ở cấp cá nhân
-      → Tầng 4 giải thích thêm WHY chain dài PHÁT TRIỂN MẠNH qua evolution
-      → = Tầng 4 BỔSUNG, không phải THAY THẾ Tầng 1-3
-
-
-  ⭐ TRADE-OFF NỀN TẢNG — CHAIN DÀI = FEATURE, KHÔNG PHẢI BUG:
-
-    Chain dài CÓ HẠN CHẾ RÕ RÀNG cho cá nhân:
-
-    ① PFC BLIND → confabulate:
-      → Share "vô tư" → PFC KHÔNG BIẾT tại sao → không thể self-correct
-      → "Tôi thích từ thiện" = PFC label cho 4 invisible chains (§7)
-      → Hại: không biết mechanism → dễ bị exploit (manipulation, guilt-trip)
-
-    ② TRAUMA chain compiled sâu → PFC đoán sai gốc:
-      → Khó chịu nền (cortisol drift) → PFC thấy "khó chịu" nhưng KHÔNG trace được chain
-      → PFC đoán: "chắc do công việc" / "do thời tiết" / "do người yêu"
-      → Đoán SAI → fix SAI → chain vẫn còn → loop khó chịu kéo dài
-      → = §5 ⑤c: chain quá dài → PFC chỉ thấy node gần nhất
-
-    ③ UNFALSIFIABLE chains → sacrifice phi lý:
-      → Tin thần linh (not real) + chain "tử vì đạo → Thiên Đàng → reward vĩnh cửu"
-      → Chain KHÔNG BAO GIỜ bị phá (no verification possible)
-      → Cá nhân sacrifice L0 (chết) cho chain content KHÔNG CÓ THẬT
-      → = §6 D2 + §8 Nguyên tắc 1: effectiveness ≠ truthfulness
-
-    NHƯNG — xét XÁC SUẤT TỔNG THỂ, chain dài = NET POSITIVE:
-
-    ┌──────────────────────┬────────────────────────────────────────┐
-    │ Hại (cá nhân, ít)    │ Lợi (tập thể, nhiều)                  │
-    ├──────────────────────┼────────────────────────────────────────┤
-    │ PFC blind → bị       │ Empathy → share khi thừa → nhóm khỏe │
-    │ exploit đôi khi      │ (Empathy.md §7)                       │
-    ├──────────────────────┼────────────────────────────────────────┤
-    │ Trauma chain →       │ Deferred investment → đầu tư dài hạn  │
-    │ khó chịu kéo dài    │ → next gen giỏi hơn                   │
-    ├──────────────────────┼────────────────────────────────────────┤
-    │ Unfalsifiable belief │ Cooperation → chain "giúp → được giúp" │
-    │ → sacrifice cá nhân │ → nhóm mạnh hơn                       │
-    ├──────────────────────┼────────────────────────────────────────┤
-    │ Confabulate lý do    │ Knowledge transfer → install chain    │
-    │ → self-correct chậm │ → collective learning nhanh            │
-    └──────────────────────┴────────────────────────────────────────┘
-
-    → P(benefit cho nhóm) >> P(harm cho cá nhân cụ thể)
-    → Evolution giữ lại vì NET POSITIVE ở cấp population
-
-    TƯƠNG TỰ — immune system analogy:
-      → Immune system đôi khi tấn công nhầm cơ thể (autoimmune)
-      → Nhưng P(chống infection thành công) >> P(autoimmune)
-      → → Evolution giữ immune system dù có side effect
-      → Chain dài CÙNG LOGIC: đôi khi PFC blind gây hại cá nhân
-      → Nhưng P(empathy + cooperation + deferred investment) >> P(harm)
-      → → Evolution giữ chain dài dù có trade-off
-
-    🟢 Immune system trade-off: established evolutionary biology
-    🟡 Chain dài as analogous trade-off: framework reasoning, logic consistent
-
-
-  TÓM TẮT:
-
-    Chain dài = EMERGENT, không phải DESIGNED:
-
-      TẦNG 1: Chunk Substrate    → Chain EXIST (side effect tất yếu)
-      TẦNG 2: Valence Propagation → Chain EXTEND (4 cơ chế + install)
-      TẦNG 3: Pyramidal Compress  → Chain FIT vào PFC (quality, không size)
-      TẦNG 4: Group Selection     → Chain SURVIVE qua evolution (filter)
-
-    → = "Vì sao tôi vô thức có chain dài?"
-      Vì chunk system CỦA BẠN tự nhiên tạo links (1),
-      valence propagation kéo dài chúng (2),
-      vô thức compile compress cho fit PFC (3),
-      và evolution đã giữ lại gene này vì nhóm có chain dài mạnh hơn (4).
-```
-
----
-
-## §6 — CASES PHÂN TÍCH
-
-```
-🟡 CASES PHÂN LOẠI THEO 6 NHÓM — verify valence propagation model:
-
-
-  ═══════════════════════════════════════════════════════════════
+  ═══════════════════════════════════════════════════
   NHÓM A — DIRECT CHAIN (ngắn, PFC trace được):
-  ═══════════════════════════════════════════════════════════════
+  ═══════════════════════════════════════════════════
 
   A1) Dẫm gai → luôn đi dép:
-    Chain: gai → đau chân → ốm nhiều ngày → body-base L0 threat
-    Length: 1. Direct experience. 1 lần ĐỦ (intensity cực cao).
-    Schema compile: "đất trống + chân trần = threat" → behavior: đi dép
-    PFC accuracy: ~100%. "Vì bị ốm lần đó."
-    = Per-entity valence, KHÔNG cần propagation model
+    Chain: gai → đau → L0 threat. Length 1. Direct. 1 lần ĐỦ.
+    PFC accuracy: ~100%. = Per-entity valence, không cần propagation.
 
   A2) Bật lửa nổ → sợ bật lửa:
-    Chain: bật lửa → nổ → đau + shock → L0 threat
-    Length: 1. Giống A1.
-    = Object valence đơn giản, direct experience.
+    Chain: bật lửa → nổ → đau + shock → L0. Length 1. Direct.
 
 
-  ═══════════════════════════════════════════════════════════════
-  NHÓM B — DEFERRED INVESTMENT (chain dài, trust-dependent):
-  ═══════════════════════════════════════════════════════════════
+  ═══════════════════════════════════════════════════
+  NHÓM B — DEFERRED INVESTMENT (chain dài, trust):
+  ═══════════════════════════════════════════════════
 
   B1) Học sinh làm toán (4 khả năng song song):
     Chain a: toán → điểm → đại học → job → lương → L1 (install, length 4)
     Chain b: không học → bị mắng → L0 threat (install, length 1-2)
     Chain c: hardware fit → Goldilocks → VTA → reward (invisible, intrinsic)
     Chain d: "toán thú vị" = PFC label SAU → reinforce chain c
-    → 4 chains PARALLEL, mỗi cái different mechanism
-    → PFC biết: chain a ("vì tương lai") + chain b ("sợ bị mắng")
-    → PFC KHÔNG biết: chain c (hardware fit) + chain d (label ≠ cause)
+    → 4 chains PARALLEL, PFC biết a+b, KHÔNG biết c+d
 
-  B2) Jensen Huang — 30 năm Imagine-Final:
-
-    🟢 FACTS (public record):
-      - Sinh Đài Loan, 9 tuổi sang Mỹ, vào reform school (không phải boarding school)
-      - Co-founded NVIDIA 1993, gần phá sản nhiều lần (NV1 chip fail)
-      - Nói: "If I knew how hard it was, I wouldn't have started NVIDIA"
-      - ~30 năm từ startup → tỷ phú → AI revolution leader
-      - Vẫn drive mạnh ở tuổi 60+, vẫn CEO, vẫn hands-on
-
-    🟡 FRAMEWORK INFERENCE (dựa trên facts, nhưng internal state = chỉ ông ấy biết):
-    
-    Giai đoạn 1 (khởi đầu):
-      Chain: Anchor-Schema nào đó (có thể identity-driven, có thể mastery-driven)
-      Length: LONG + DEFERRED. Trust: HIGH (chunks kỹ thuật tích lũy + co-founders align)
-      Body-base feed: CHƯA CÓ trực tiếp. Body chấp nhận vì Anchor trust > cost.
-    Giai đoạn 2 (GPU Game thành công):
-      Chain VERIFY: thành công → tiền → L1 feed → trust TĂNG
-      Backward propagation: reward → NVIDIA positive → Anchor CONFIRM
-    Giai đoạn 3 (tỷ phú, 60+ tuổi):
-      Body-base ĐÃ đủ. Drive vẫn mạnh. Tại sao?
-      → Khả năng: Anchor-Schema EVOLVE content ("legacy"? "AI revolution"?)
-      → + Intrinsic reward: mastery + novelty vẫn fire (hardware fit + chunk depth)
-      → = Anchor-Schema có thể EVOLVE content mà GIỮ function
-
-    ⚠️ CỤ THỂ internal schemas NÀO drive Jensen Huang = CHỈ ÔNG ẤY BIẾT.
-    Framework chỉ có thể INFER từ observable behavior, KHÔNG phải đọc vị chính xác.
-    = Minh họa cho §8 Nguyên tắc: schema network KHÔNG THỂ map chính xác từ bên ngoài.
+  B2) Jensen Huang — 30 năm Imagine-Final (🟢 public record):
+    Giai đoạn 1: Anchor-Schema → NVIDIA startup. Chain LONG + DEFERRED.
+    Giai đoạn 2: GPU thành công → chain VERIFY → trust TĂNG.
+    Giai đoạn 3: Tỷ phú, 60+. Body-base ĐÃ đủ. Drive vẫn mạnh.
+      → Anchor-Schema EVOLVE + intrinsic mastery + novelty vẫn fire.
+    ⚠️ Internal schemas NÀO drive = CHỈ ÔNG ẤY BIẾT. Framework chỉ INFER.
 
 
-  ═══════════════════════════════════════════════════════════════
-  NHÓM C — MIRROR CHAIN ("cho đi", invisible multi-source):
-  ═══════════════════════════════════════════════════════════════
+  ═══════════════════════════════════════════════════
+  NHÓM C — MIRROR CHAIN ("cho đi", invisible):
+  ═══════════════════════════════════════════════════
 
   C1) Trẻ con giúp mẹ:
-    Chain 1: Mẹ chăm → compiled deep valence mẹ: {++}
-    Chain 2: Thấy mẹ mệt → Self-Pattern-Match → empathy dissonance
-    Chain 3: Giúp mẹ → mẹ vui → empathy reward (opioid)
-    Chain 4: "Mẹ hay làm thế" → reciprocity schema → identity
-    PFC: "Vì mẹ hay giúp tôi" — biết chain 4, KHÔNG biết chain 2+3
+    Chain 1: compiled deep valence mẹ: {++}
+    Chain 2: SPM → empathy dissonance. Chain 3: giúp → mẹ vui → opioid.
+    Chain 4: reciprocity schema → identity.
+    PFC: "Vì mẹ hay giúp tôi" — biết chain 4, KHÔNG biết chain 2+3.
 
-  C2) Positive childhood → giúp đỡ người lạ "vô tư":
-    Chain 1: Tuổi thơ positive → positive overgeneralize → "người = tốt" (lateral)
-    Chain 2: Gặp người lạ → schema "tốt" fire → no threat → approach
-    Chain 3: Giúp → họ improve → empathy reward
-    Chain 4: Giúp → community see → status +
-    Chain 5: Giúp → "tôi là người tốt" → identity confirm
+  C2) "Vô tư" giúp người lạ:
+    Chain 1-5: lateral overgeneralize + empathy + status + identity + connection
     PFC: "Vô tư thôi" — KHÔNG biết 5 chains. Layer 7 label.
 
-  C3) "Tôi thích từ thiện" (PFC không biết tại sao):
-    = Case C2 nhưng schema ĐÃ compiled SÂU
-    PFC chỉ thấy output "thích", không access mechanism
-    Feeling.md v2.0 §2: Layer 6 (label) → Layer 7 (explanation 20-70%)
-    "Thích" = label. "Vô tư" = explanation. CẢ HAI không phải mechanism.
+
+  ═══════════════════════════════════════════════════
+  NHÓM D — SCHEMA INHERITANCE (installed, unfalsifiable):
+  ═══════════════════════════════════════════════════
+
+  D1) Gia đình Hà Lan giấu người Do Thái WWII (🟢 documented):
+    Schema inheritance + empathy + identity + anchor + connection = 5 chains
+    → 5 chains > L0 cost (tử hình!) → body drive "giấu"
+    🟢 Yad Vashem: ~28,000 "Righteous Among Nations"
+
+  D2) Tin Thiên Đàng → vượt khó:
+    Unfalsifiable chain. Body VẪN feed dù content chưa verify:
+    "Sống đạo đức" → community accept → connection feed.
+    = Schema effectiveness ≠ Schema truthfulness (§18)
+
+  D3) "Giàu mới hạnh phúc" → đạt rồi trống rỗng:
+    Installed chain promise ALL channels. Reality: L1 feed ONLY.
+    Đường đi sacrifice connection + health → đạt giàu → MISMATCH.
+    NHƯNG: giàu MÀ giữ relationship + health → KHÔNG trống rỗng.
 
 
-  ═══════════════════════════════════════════════════════════════
-  NHÓM D — SCHEMA INHERITANCE (installed chain, có thể unfalsifiable):
-  ═══════════════════════════════════════════════════════════════
-
-  D1) Gia đình Hà Lan giấu người Do Thái trong WWII (🟢 documented):
-    Installed chains: Church/moral education → "bảo vệ người vô tội" → "đó là bổn phận"
-    + Mirror chain: người Do Thái sợ hãi → giấu → họ an toàn → empathy reward
-    + Identity: "tôi là người đứng đắn" (Miep Gies: "anyone would have done it")
-    + Anchor-Schema: moral schema "không đứng nhìn kẻ ác giết người vô tội"
-    + Connection: Dutch Resistance network → solidarity → belonging
-    = Schema inheritance + empathy + identity + anchor + connection = 5 chains converge
-    🟢 Yad Vashem ghi nhận ~28,000 "Righteous Among Nations" — ordinary people, same pattern
-
-  D2) Tin Thiên Đàng → vượt khó → body-base VẪN feed:
-    Installed chain: đạo đức → Thiên Đàng → reward vĩnh cửu
-    UNFALSIFIABLE: không ai verify Thiên Đàng → chain KHÔNG BAO GIỜ bị phá
-    ⭐ KEY INSIGHT: body-base VẪN feed dù chain content chưa verify:
-      "Chịu khó làm việc" → kiếm sống → L1 feed
-      "Sống đạo đức" → community accept → connection feed
-      "Vượt khó" → mastery → L3 feed
-    = Schema effectiveness ≠ Schema truthfulness
-    = Body check OUTPUT (hành vi có feed không), KHÔNG check TRUTH (chain đúng không)
-    PFC không cần question: vì body-base smooth → no dissonance → no trigger
-
-  D3) "Giàu mới hạnh phúc" → đạt được → trống rỗng:
-    Installed chain: giàu → "hạnh phúc" (promise ALL channels)
-    Reality: giàu → L1 feed. NHƯNG đường đi sacrifice L1 comfort + connection
-    → Đạt giàu → body CHECK: melody smooth? → NO (channels khác DEFICIT)
-    → "Sao giàu rồi vẫn không hạnh phúc?" = PFC phát hiện MISMATCH
-    = Imagine-Final-Evaluation.md: Mismatch quadrant
-    ⭐ NHƯNG: người giàu MÀ giữ được relationship + health → KHÔNG trống rỗng
-    = Cùng Imagine-Final, khác ĐƯỜNG ĐI → khác output body-base
-
-
-  ═══════════════════════════════════════════════════════════════
+  ═══════════════════════════════════════════════════
   NHÓM E — MISLINK (cơ chế đúng, content sai):
-  ═══════════════════════════════════════════════════════════════
+  ═══════════════════════════════════════════════════
 
   E1) Sát nhân máu lạnh:
-    Hardware: OK (thủ đoạn phức tạp = chunks tốt + PFC hoạt động)
-    Schema MISLINK: gây hại → CONTROL → mastery channel → reward
-    Khả năng chain:
-      Tuổi thơ bị abuse → "người = threat" → "bạo lực = cách resolve threat"
-      Hoặc: identity "tôi = predator" compiled → Anchor-Schema → all behavior sync
-      Hoặc: empathy ĐẢO NGƯỢC → thấy người khác đau → body reward (không phải dissonance)
-    Reward khi giết: mastery (control) + identity confirm + threat resolution
-    Reward khi đứng trước tòa: attention (status) + combat (mastery) + identity
-    🟢 Serial killers: many report "power" and "control" feelings
-    🟢 Hardware typically NOT broken: IQ average or above (Hickey 2013)
-    🟡 Schema mislink as explanation = framework framing
+    Schema MISLINK: gây hại → CONTROL → mastery → reward.
+    Hardware typically NOT broken: IQ average+. Chunks OK. Chain sai.
+    🟢 Hickey 2013: serial killers report "power" and "control"
 
-  E2) Revenge phi lý (bỏ 200 triệu kiện cho 100 triệu):
-    Chain analysis:
-      L1 cost: -200M (financial loss)
-      Chain 1: dissonance "công bằng" → resolve → RELIEF (+++)
-      Chain 2: "kẻ xấu bị trừng phạt" → identity confirm → reward
-      Chain 3: thấy kẻ lừa bị tù → Schadenfreude → ventral striatum → reward
-    Net: chain 1+2+3 > L1 cost
-    Body tính ĐÚNG theo valence system → PFC thấy "phi lý" vì PFC chỉ tính L1
-    🟢 Schadenfreude: Takahashi et al. 2009 (ventral striatum activation)
-    🟢 Costly punishment: Fehr & Gächter 2002 (humans punish at personal cost)
+  E2) Revenge phi lý (bỏ 200M kiện cho 100M):
+    L1 cost: -200M. NHƯNG chain 1-3: dissonance resolve + identity + Schadenfreude >> cost.
+    🟢 Costly punishment: Fehr & Gächter 2002
+    🟢 Schadenfreude: Takahashi et al. 2009
 
 
-  ═══════════════════════════════════════════════════════════════
+  ═══════════════════════════════════════════════════
   NHÓM F — OVERGENERALIZE (lateral propagation):
-  ═══════════════════════════════════════════════════════════════
+  ═══════════════════════════════════════════════════
 
   F1) Bị chó cắn → sợ mọi chó → ghét người nuôi chó:
-    Step 1: 1 con chó → L0 threat (direct, 1 trial)
-    Step 2: 1 con chó → TẤT CẢ chó (lateral, category generalize)
-    Step 3: chó → NGƯỜI NUÔI chó (lateral, associated entity)
-    = Valence propagation: direct → category → associated
-    = Negative overgeneralize: NHANH, RỘNG (evolutionary safe)
-    🟢 Phobia generalization: established pattern
+    Direct → category → associated entity. Negative: NHANH + RỘNG.
 
-  F2) Quân Nhật tấn công 1 người thân → thù toàn bộ quân đội:
-    = F1 nhưng ở agent level + amplified bởi community schema inheritance
-    1 lính Nhật → TẤT CẢ lính Nhật → quân đội Nhật → "kẻ thù"
-    + Schema inheritance: cả cộng đồng reinforce → propagation CỰC MẠNH
-    + Anchor-Schema "đuổi giặc" emerge → sync toàn bộ
-
-  F3) Positive childhood → default trust người lạ:
-    = POSITIVE overgeneralize (ngược với F1):
-    Nhiều agents positive → category "người" = positive (lateral)
-    → Gặp người lạ → default approach → sẵn sàng giúp
-    = CÙNG CƠ CHẾ, khác hướng (positive vs negative)
-    = NHƯNG: cần NHIỀU experience hơn (negativity bias asymmetry)
+  F2) Positive childhood → default trust người lạ:
+    CÙNG CƠ CHẾ, khác hướng. NHƯNG cần NHIỀU experience hơn (negativity bias).
 ```
 
 ---
 
-## §7 — PFC BLINDNESS + CONFABULATION
+## §18 — PFC BLINDNESS + 3 NGUYÊN TẮC
+
+> v3.0: MERGE từ v2.0 §8 + §9.
+
+### §18.1 — PFC Blindness
 
 ```
 🟡 TẠI SAO PFC THƯỜNG KHÔNG BIẾT VALENCE CHAIN:
 
-  Feeling.md v2.0 §2 mô tả 7 LAYERS — fidelity GIẢM DẦN:
-    Layer 1: Raw body signal → 100% fidelity
-    Layer 2: Integration → ~95%
-    ...
-    Layer 6: Labeling → 40-80%
-    Layer 7: Explanation → 20-70% accuracy
-
-  Valence chain hoạt động ở Layer 1-5 (body → integration → chunk match).
-  PFC OBSERVE từ Layer 6 trở đi (label + explain).
-  = PFC thấy OUTPUT (feeling), KHÔNG thấy MECHANISM (chain).
-  = PFC phải EXPLAIN → bắt buộc tìm lý do → nếu chain invisible → CONFABULATE.
-
+  Feeling.md v2.0 §2: 7 LAYERS — fidelity GIẢM DẦN:
+    Layer 1-5: body → integration → chunk match (valence chain hoạt động ở đây)
+    Layer 6: Labeling (40-80%). Layer 7: Explanation (20-70%)
+    PFC OBSERVE từ Layer 6 trở đi → thấy OUTPUT, KHÔNG thấy MECHANISM.
 
   3 CẤP ĐỘ PFC AWARENESS:
 
-  ① PFC BIẾT (chain ngắn + direct + recent):
-    "Tôi sợ gai vì bị ốm lần đó" — chain length 1, direct experience
-    "Tôi thích quán này vì đồ ăn ngon" — length 1, direct
-    Accuracy: ~80-100%
-    = Hầu hết per-entity direct valence → PFC trace được
+  ① PFC BIẾT (~80-100%): chain ngắn + direct + recent
+    "Tôi sợ gai vì bị ốm lần đó" — chain length 1
 
-  ② PFC BIẾT MỘT PHẦN (chain trung bình + installed):
-    "Tôi học vì tương lai" — chain length 4, installed
-    → Đúng SURFACE, THIẾU detail (WHICH channels? Intrinsic reward nào?)
-    "Tôi giúp mẹ vì mẹ hay giúp tôi" — chain 2-3, reciprocity
-    → Đúng 1 chain, BỎ SÓT empathy + identity chains
-    Accuracy: ~40-70%
-    = PFC biết chain DỄ NHẤT, bỏ sót chains invisible
+  ② PFC BIẾT MỘT PHẦN (~40-70%): chain trung bình + installed
+    "Tôi học vì tương lai" — đúng SURFACE, THIẾU detail
 
-  ③ PFC KHÔNG BIẾT (chain invisible, hardware, compiled):
-    "Tôi thích từ thiện" — PFC: "vô tư." Body: 4 chains reward.
+  ③ PFC KHÔNG BIẾT (~10-30%): chain invisible, hardware, compiled
+    "Tôi thích từ thiện" — PFC: "vô tư." Body: nhiều compiled chains fire.
     "Tôi đam mê vật lý" — PFC: "vì nó hay." Body: hardware + Goldilocks.
-    "Tôi yêu em" — PFC: "vì em đẹp." Body: hormone + schema + empathy.
-    Accuracy: ~10-30%
-    = PFC CONFABULATE: tìm lý do PHÙ HỢP nhưng KHÔNG PHẢI mechanism
+    → PFC CONFABULATE: tìm lý do PHÙ HỢP nhưng KHÔNG PHẢI mechanism
 
-    ⭐ VÍ DỤ TIÊU BIỂU — Einstein (🟢 quote có thật):
-      "The most beautiful experience we can have is the mysterious."
-      "He who can no longer pause to wonder and stand rapt in awe,
-       is as good as dead; his eyes are closed."
-
-      Einstein NÓI NHƯ THỂ ai không trải nghiệm sự bí ẩn thì chưa sống đúng.
-      PFC của Einstein: "the mysterious is the most beautiful experience"
-      Body của Einstein: hardware fit + decades of chunk accumulation + Goldilocks zone
-        → Mỗi bí ẩn vật lý = prediction-delta → VTA fire → dopamine + opioid
-        → = Body fire reward CỰC MẠNH khi gặp mystery → PFC label: "beautiful"
-
-      NHƯNG — body-base fire CÙNG CƠ CHẾ cho MỌI NGƯỜI, chỉ khác INPUT:
-        → Einstein: sướng vì gặp mystery vật lý (chunk physics + hardware fit)
-        → Đầu bếp: sướng vì nấu món vừa ý (chunk cooking + hardware fit)
-        → Nhạc sĩ: sướng vì sáng tác giai điệu hay (chunk music + hardware fit)
-        → Họa sĩ: sướng vì vẽ được hình thù mong muốn (chunk art + hardware fit)
-        → Ai đó: sướng vì ăn ngon, thấy cảnh đẹp, gặp người yêu...
-        → = CÙNG opioid pathway, CÙNG prediction-delta, CÙNG Goldilocks reward
-        → = Khác CHUNKS + khác HARDWARE → khác INPUT trigger → CÙNG body-base fire
-
-      Einstein nghĩ "mystery" là đặc biệt vì PFC của ÔNG ẤY chỉ thấy chain CỦA ÔNG.
-      Ông không thấy: đầu bếp CŨNG "rapt in awe" khi nấu món hoàn hảo.
-      = PFC confabulation + identity schema ("physicist = cách sống đúng")
-      = Mỗi người TƯỞNG domain CỦA MÌNH là đặc biệt → vì body CỦA HỌ fire mạnh nhất ở đó
-
-
-  "VÔ TƯ" VÀ "ĐAM MÊ" — 2 CONFABULATION PHỔ BIẾN NHẤT:
-
-  ⭐ "CHO ĐI VÔ TƯ":
-    PFC: "Tôi giúp người khác. Vô tư. Không mong đợi gì."
-    Body tính:
-      Chain 1: Giúp → họ improve → empathy → opioid (+)
-      Chain 2: Giúp → "tôi = người tốt" → identity (+)
-      Chain 3: Giúp → community see → status (+)
-      Chain 4: Giúp → bond → future reciprocal access (+)
-    Net: 4 chains reward >> cost → body CHỌN "giúp"
-    
-    "Vô tư" = ĐÚNG từ góc nhìn PFC (PFC thật sự không thấy chain)
-    "Vô tư" = SAI từ góc nhìn body (body LUÔN tính, luôn có reward)
-    CẢ HAI đều đúng — ở TẦNG KHÁC NHAU.
-
+  ⭐ "VÔ TƯ" VÀ "ĐAM MÊ" — 2 CONFABULATION PHỔ BIẾN NHẤT:
+  
+    "CHO ĐI VÔ TƯ": PFC không thấy chains. Body: empathy + identity + status + reciprocal.
     BẰNG CHỨNG "KHÔNG VÔ TƯ" — 3 violation tests:
-    (Emergent-Patterns.md §5, Empathy.md §6)
-      Test 1: "Cho đi" DỪNG khi body-base thiếu
-        → Người đói khát không còn cho cơm nữa → L1 self > empathy reward
-      Test 2: "Cho đi" DỪNG khi schema bị phản bội
-        → Phát hiện tổ chức từ thiện gian lận → identity chain COLLAPSE → dừng cho
-      Test 3: "Cho đi" DỪNG khi reciprocity = 0 kéo dài
-        → Giúp mãi mà không ai quan tâm → connection chain FAIL → dần dừng
+      Test 1: DỪNG khi body-base thiếu (đói → không cho cơm)
+      Test 2: DỪNG khi schema phản bội (từ thiện gian lận → dừng)
+      Test 3: DỪNG khi reciprocity = 0 kéo dài
     → Nếu thật sự "vô tư" → sẽ KHÔNG DỪNG. Nhưng nó DỪNG → có điều kiện.
 
-  ⭐ "ĐAM MÊ":
-    PFC: "Tôi đam mê vật lý. Đây là con đường của tôi."
-    Body tính:
-      Hardware fit: processing style match physics thinking
-      Chunk accumulation: years of practice → Goldilocks zone
-      prediction-delta: mỗi insight → prediction-delta → dopamine
-      Mastery reward: solve problem → opioid
-      Identity: "physicist" = Anchor-Schema compiled
-    
-    "Đam mê" = PFC LABEL cho state "nhiều chains converge → strong sustained drive"
+    "ĐAM MÊ": PFC label cho "nhiều chains converge → strong sustained drive"
     "Đam mê" KHÔNG PHẢI nguyên nhân hành vi — mà là MÔ TẢ kết quả
     = Drive.md §0: "'Đam mê' = MÔ TẢ drive mạnh + sustained, KHÔNG PHẢI nguyên nhân"
 
-    🟢 Nisbett & Wilson 1977: "Telling more than we can know"
-      → Subjects confabulate reasons cho decisions đã xảy ra
-    🟢 Libet 1983: readiness potential TRƯỚC conscious decision
-      → Body decide trước, PFC biết sau
-    🟢 Gazzaniga split-brain: left hemisphere confabulates explanations
-      → PFC PHẢI explain → bịa nếu không biết
+  🟢 Confabulation: Nisbett & Wilson 1977
+  🟢 Readiness potential: Libet 1983
+  🟢 Split-brain confabulation: Gazzaniga
 ```
 
----
-
-## §8 — GIỚI HẠN NỀN TẢNG + 3 NGUYÊN TẮC
+### §18.2 — 3 Nguyên Tắc
 
 ```
-🟡 GIỚI HẠN NỀN TẢNG — SCHEMA VÔ TẬN → CHAIN KHÔNG THỂ MAP CHÍNH XÁC:
-
-  Schema.md §1.2 đã xác lập:
-    ① 86 tỷ neurons × ~100 nghìn tỷ connections = hệ thống quá lớn
-    ② Schema = MULTI-MODAL (body + motor + visual + somatic + emotional + verbal)
-       → Verbal chỉ capture ~1/6 schema thật
-    ③ Schema SÂU = body adaptation (cortisol, muscle tension, gut state)
-       → Chính người đó CŨNG không biết
-    ④ Schema thay đổi liên tục → "chụp" lúc này → lúc sau đã khác
-    ⑤ Khoa học hiện đại chưa đủ công cụ
-
-  VALENCE CHAIN — GIỚI HẠN NHÂN LÊN:
-    → Schema A đã không thể mô tả chính xác
-    → Schema B cũng không
-    → LINK giữa A và B cũng không (multi-modal, implicit, body-level)
-    → CHAIN A→B→C→...→body-base: CÒN KHÓ HƠN
-    → Network TOÀN BỘ: vô tận schemas × vô tận links = KHÔNG THỂ map
-
-  VÀ THÊM — KHÔNG CÓ CẤU TRÚC CỐ ĐỊNH:
-    → Schema network KHÔNG như database có bảng + cột + quan hệ rõ
-    → Mỗi người = 1 network KHÁC (cùng event → khác schema → khác chain)
-    → Cùng 1 người, network THAY ĐỔI liên tục
-    → Có chain mà PFC KHÔNG BAO GIỜ biết (hardware-level)
-    → Có chain KHÔNG THỂ verbalize (body-level, somatic)
-    → = "Kiến trúc xâu chuỗi kỳ quái" — biết nó TỒN TẠI, không thể vẽ bản đồ
-
-  VẬY "MÒ MÃI VÔ NGHĨA"?
-
-    KHÔNG. Vì con người KHÔNG CẦN map chính xác để SỐNG TỐT.
-
-    Con người chỉ cần:
-      ① Biết PATTERN nào đang drive mình (nhận diện, không cần chính xác)
-      ② Biết pattern đó SERVE body-base hay KHÔNG (check output, không check chain)
-      ③ Biết khi nào cần THAY ĐỔI (detect dissonance, không cần biết full chain)
-
-    Framework = "CÔNG CỤ NAVIGATE, không phải GPS chính xác"
-              = "Công thức, không đáp án" — tool để TỰ KHÁM PHÁ
-
-    3 cái CÓ THỂ:
-      → Nhận diện PATTERN (hành vi lặp lại = schema biểu hiện)
-      → Ước lượng NHÓM (schema chain thuộc cluster nào)
-      → Suggest HƯỚNG (chain NÀY có vẻ link tới body-base CHANNEL kia)
-
-    → MỞ CỬA CHO AI-SCHEMA-DETECTION:
-      AI giỏi pattern detection trên large corpus
-      Chuyên gia tâm lý giỏi Self-Pattern-Match (feel-check)
-      Client giỏi body-verify (Focusing, Somatic-Articulation-Loop)
-      = 3 tầng: AI detect → Chuyên gia feel-check → Client self-verify
-      = Không cần chính xác tuyệt đối. Approximate + verify = ĐỦ.
-      → (Chi tiết: AI-Schema-Detection.md — file tiếp theo)
-
-
 ⭐ 3 NGUYÊN TẮC QUAN TRỌNG:
 
   NGUYÊN TẮC 1 — Schema Effectiveness ≠ Schema Truthfulness:
-
-    Schema CÓ THỂ sai hoàn toàn về content MÀ VẪN effective:
-      → Tin Thiên Đàng: unfalsifiable, chưa verify → NHƯNG behavioral output
-        (chăm chỉ + đạo đức) → body-base feed → EFFECTIVE
-      → Patriotic schema ("nation is worth dying for"): install chain qua education
-        + media + ritual → drive bảo vệ cộng đồng → body-base feed → EFFECTIVE
-        🟢 Mọi quốc gia đều có, content KHÁC nhưng mechanism GIỐNG
-
-    Schema CÓ THỂ partially true MÀ VẪN fail:
-      → "Giàu = hạnh phúc": true rằng tiền → L1 feed. NHƯNG nếu đường đi
-        sacrifice L1 comfort + connection → đạt giàu → TRỐNG RỖNG → FAIL
-
-    → Effectiveness = behavioral output có feed body-base không?
-    → Truthfulness = chain content có đúng reality không?
-    → 2 chiều KHÁC NHAU. Có thể true+effective, true+fail, false+effective, false+fail.
+    Schema CÓ THỂ sai hoàn toàn MÀ VẪN effective:
+      Tin Thiên Đàng → behavioral output (chăm chỉ + đạo đức) → body feed → EFFECTIVE
+    Schema CÓ THỂ true MÀ VẪN fail:
+      "Giàu = hạnh phúc" → đường đi sacrifice connection → FAIL
+    → 2 chiều KHÁC NHAU: true+effective, true+fail, false+effective, false+fail
 
   NGUYÊN TẮC 2 — Body Check OUTPUT, Không Check TRUTH:
-
-    Body KHÔNG verify chain content (A→B→C có đúng không?)
-    Body CHỈ verify chain output (hành vi cuối có feed body-base không?)
-
-    Thiên Đàng: body KHÔNG check "Thiên Đàng có thật?" (impossible)
-    Body CHECK: "sống đạo đức → community accept → body smooth" → YES → tiếp
-    = Body = PRAGMATIST, không phải SCIENTIST
-
-    TẠI SAO:
-      → Body không CÓ CÁCH check abstract chain truth (no sensor for "truth")
-      → Body CHỈ CÓ sensors cho body-base channels (pain, pleasure, dissonance...)
-      → → Body tối ưu: "output feed tôi?" → YES/NO → đủ
-
-    HỆ QUẢ:
-      → Schema sai CÓ THỂ tồn tại RẤT LÂU nếu output vẫn feed body-base
-      → Schema đúng CÓ THỂ bị reject nếu output KHÔNG feed body-base
-      → = Tại sao misinformation KHÓ xóa: body đã compile → output "OK" → giữ
-      → = Tại sao sự thật đau đớn BỊ REJECT: output = dissonance → body reject
-
-    PFC CÓ THỂ CHECK TRUTH — nhưng:
-      → PFC chỉ check khi TRIGGERED (dissonance, curiosity, forced evaluation)
-      → Nếu body smooth → PFC KHÔNG CÓ TRIGGER để check
-      → = Tại sao tin Thiên Đàng smooth: body OK → PFC idle → không question
-      → = PFC chỉ question khi CÓ VẤN ĐỀ, không question khi MỌI THỨ ỔN
+    Body KHÔNG verify chain content. Body CHỈ verify chain output.
+    → Body = PRAGMATIST, không phải SCIENTIST
+    → Schema sai TỒN TẠI LÂU nếu output vẫn feed body-base
+    → Schema đúng BỊ REJECT nếu output KHÔNG feed
+    → PFC CHỈ check truth khi TRIGGERED (dissonance, forced evaluation)
 
   NGUYÊN TẮC 3 — "Vô Tư" Đúng Ở Tầng PFC, Sai Ở Tầng Body:
+    TẦNG PFC: "Không mong gì" = MÔ TẢ ĐÚNG conscious experience
+    TẦNG BODY: Compiled patterns LUÔN fire, LUÔN có reward
+    CẢ HAI ĐÚNG — ở tầng riêng.
+    → Biết mechanism KHÔNG LÀM GIẢM giá trị "cho đi"
+    → Framework mục đích: HIỂU, không phải PHÁN XÉT
+```
 
-    2 TẦNG OBSERVATION khác nhau cho CÙNG 1 hành vi:
+### §18.3 — Giới Hạn Nền Tảng
 
-    TẦNG PFC (conscious experience):
-      → PFC thấy: "Tôi muốn giúp. Không mong gì."
-      → PFC THẬT SỰ không thấy reward chains
-      → → Từ góc nhìn PFC: "vô tư" = MÔ TẢ ĐÚNG conscious experience
+```
+🟡 SCHEMA VÔ TẬN → CHAIN KHÔNG THỂ MAP CHÍNH XÁC:
 
-    TẦNG BODY (unconscious computation):
-      → Body tính: 4+ chains reward → net positive → drive "giúp"
-      → Body LUÔN tính, LUÔN có reward calculation
-      → → Từ góc nhìn body: "vô tư" = SAI — always reward-driven
+  86 tỷ neurons × ~100 nghìn tỷ connections = hệ thống quá lớn
+  Schema MULTI-MODAL (body + motor + visual + somatic + emotional + verbal)
+  → Chain A→B→C→...→body-base: biết nó TỒN TẠI, không thể vẽ bản đồ
 
-    CẢ HAI ĐÚNG — ở tầng riêng:
-      → Không nên nói "cho đi vô tư là giả" (PFC experience THẬT)
-      → Không nên nói "cho đi thật sự vô tư" (body computation CÓ reward)
-      → = 2 tầng observation KHÁC NHAU cho cùng 1 phenomenon
-      → = Feeling.md v2.0 core claim: "Feeling = PFC observation of body"
-      → = PFC observes WHAT body does, not HOW body computes
+  Con người KHÔNG CẦN map chính xác:
+    ① Biết PATTERN nào đang drive (nhận diện, không cần chính xác)
+    ② Biết pattern đó SERVE body-base hay KHÔNG (check output)
+    ③ Biết khi nào cần THAY ĐỔI (detect dissonance)
+  → Framework = "công cụ navigate, không phải GPS chính xác"
 
-    IMPLICATION:
-      → "Cho đi" CÓ GIÁ TRỊ: cả người cho lẫn người nhận đều benefit
-      → Biết mechanism KHÔNG LÀM GIẢM giá trị
-      → Biết mechanism CÓ THỂ GIÚP: hiểu khi nào sẽ dừng (3 violation tests)
-      → = Framework mục đích: HIỂU, không phải PHÁN XÉT
+  ⚠️ BLACKBOX 2: Valence complexity — chuỗi valence dài gần như incomputable.
+  Framework predict PATTERN, không predict INSTANCE. Chi tiết: Blackbox-Map.md §4+§7.
 ```
 
 ---
 
-## §9 — HONEST ASSESSMENT
+## §19 — HONEST ASSESSMENT
 
 ```
-VERIFIED (🟢):
+═══════════════════════════════════════
+🟢 ESTABLISHED (~35 claims)
+═══════════════════════════════════════
 
   Per-entity valence:
-    → Multi-channel emotional processing: established
-    → Mixed feelings (ambivalence): well-documented (Cacioppo & Berntson 1994)
-    → Negativity bias: robust (Baumeister et al. 2001)
-    → Confirmation bias: established (Nickerson 1998)
-    → Fear conditioning + evaluative conditioning: established
+    Multi-channel emotional processing: established
+    Mixed feelings (ambivalence): Cacioppo & Berntson 1994
+    Negativity bias: Baumeister et al. 2001
+    Fear conditioning + evaluative conditioning: LeDoux 1996, De Houwer 2007
+    Confirmation bias: Nickerson 1998
 
-  Valence hình thành:
-    → 4 nguồn: classical conditioning, observational learning (Bandura),
-      cultural transmission (Rachman 1977), context inference
-    → Update dynamics: consistent with learning theory
-    → Betrayal trauma: Freyd 1996
-
-  Propagation evidence:
-    → Spreading activation: Collins & Loftus 1975 (established)
-    → Conditioned reinforcement chains: Skinner, token economy (established)
-    → Temporal difference learning: Schultz 1997 (dopamine prediction error)
-    → Goal gradient effect: Hull 1932 (established)
-    → Temporal discounting: Ainslie 1975 (established)
-    → Stimulus generalization: Pavlov, Watson (established)
-    → Overgeneralization in anxiety: Dunsmoor & Murphy 2015
+  Valence hình thành + propagation evidence:
+    4 nguồn: classical conditioning, observational (Bandura), cultural (Rachman), context
+    Spreading activation: Collins & Loftus 1975
+    Temporal difference learning: Schultz 1997
+    Goal gradient: Hull 1932. Temporal discounting: Ainslie 1975
+    Stimulus generalization: Pavlov, Watson. Overgeneralization: Dunsmoor & Murphy 2015
 
   PFC blindness:
-    → Confabulation: Nisbett & Wilson 1977 (established)
-    → Readiness potential: Libet 1983 (established, debated interpretation)
-    → Split-brain confabulation: Gazzaniga (established)
+    Confabulation: Nisbett & Wilson 1977
+    Readiness potential: Libet 1983
+    Split-brain: Gazzaniga
+    Betrayal trauma: Freyd 1996
 
-  Cases:
-    → Schadenfreude: Takahashi et al. 2009
-    → Costly punishment: Fehr & Gächter 2002
-    → Prosocial behavior + mirror: de Waal 2008
-    → Unfalsifiable belief resilience: Popper + Festinger 1957
+  Entity-Compiled:
+    Grief as body-level pain: Eisenberger 2003
+    Attachment bond: Bowlby 1969
+    Empathy fatigue: Figley 2002
+    Adolescent ambivalence: established developmental psychology
+    Parent-child ambivalence 50%: Lüscher & Pillemer 1998
 
+  Valence dynamics (v3.0 NEW):
+    VTA habituation: Schultz 1997
+    Chunk-Miss + basal ganglia: O'Connor 2023
+    Bowlby 3 phases: Bowlby 1969
+    Olfactory-amygdala: Herz 2004
+    ESM: Cacioppo & Berntson 1994
+    2-level bittersweet: Vaccaro, Kaplan & Damasio 2020
+    Co-activation: Larsen, McGraw & Cacioppo 2001
+    Ambivalent ≠ neutral: Schneider et al. 2021
+    Nostalgia self-regulation: Sedikides & Wildschut 2018
+    Video-call homesickness: van Tilburg et al. 2019
+    HSP: Aron & Aron 1997. Plasticity: Belsky & Pluess 2009
+    Love/hate circuits: Zeki & Romaya 2008
+    Disorganized attachment: Main & Hesse 1990
+    Leaving home → better: Whiteman 2011, Arnett 2004
+    Hardware subsidy: Feldman 2012, Fisher 2004, Panksepp 1998
+    Hedonic adaptation: Bao & Lyubomirsky 2013
+    Parental grief: Sanders 1980. Phantom: Ratcliffe 2018.
+    Income plateau: Kahneman & Deaton 2010
 
-FRAMEWORK REASONING (🟡):
+═══════════════════════════════════════
+🟡 FRAMEWORK SYNTHESIS (~25 claims)
+═══════════════════════════════════════
 
-  → Valence as multi-channel PROFILE (formalization mới, concept đúng)
-  → Object vs Agent vs Abstract valence complexity (framework categorization)
-  → 4 nguồn hình thành as explicit model (established components, new grouping)
-  → Meta-dimensions (trust, predictability, replaceability): framework addition
-  → 4 propagation mechanisms as explicit model (established components, new framing)
-  → 5 chain properties (length/trust/parallel/conflict/invisible): new formalization
-  → PFC accuracy ≈ f(1/chain_length): logical inference, untested
-  → 6 nhóm cases categorization: framework analysis
-  → 3 nguyên tắc (effectiveness≠truthfulness, body checks output, vô tư at 2 levels):
-    framework synthesis, logic consistent
+  §1-§2: Valence as multi-channel PROFILE, Object vs Agent vs Abstract
+  §3: Structural vs Current valence + satiation type dimension
+  §4: Entity-Compiled 3 subtypes, Entity-Compiled vs Obligation
+  §5: L2+A = invisible, L1+B = visible paradox
+  §6: 3 Firing Modes taxonomy + hw subsidy modulation
+  §7: Hardware subsidy × habituation rate = unified model
+  §8: Cyclic/Tonic/Generative × valence dynamics
+  §9: Satiation type × mixed valence + verbalization mapping
+  §10: "New appreciation" 3-mechanism model
+  §11: Per-entity valence dynamics trajectory + RSA A:B × feel
+  §12: Phantom 4-factor model × satiation type
+  §13: Technology × valence frontier + specialization portfolio
+  §14: 4 nguồn as explicit model
+  §15: 4 propagation mechanisms as explicit model
+  §16: 5 chain properties + 4-tầng chain dài
+  §18: 3 nguyên tắc (effectiveness≠truthfulness, output check, vô tư 2 levels)
 
-  §5b WHY chain dài tồn tại (v1.1):
-  → Tầng 1 EXIST (chunk substrate tạo chain): 🟢 established mechanisms
-    (Hebb 1949, Collins & Loftus 1975, Anderson 1983)
-  → Tầng 2 EXTEND (valence propagation kéo dài): 🟢🟡 mixed
-    (TD learning 🟢, install propagation = framework term 🟡)
-  → Tầng 3 FIT (pyramidal compression): 🟢🟡
-    (Cowan 2001, Chase & Simon 1973 🟢; compression model = framework synthesis 🟡)
-  → Chain dài = f(vô thức quality, KHÔNG PHẢI PFC size): 🟡
-    (Pietschnig 2015 meta ~0.24 🟢 supports; causal claim = framework 🟡)
-  → Tầng 4 FILTER (group selection cho chain dài): 🟡🔴
-    (Hamilton/Trivers 🟢; group selection debated 🟡; specific claim = 🔴)
-  → Cause vs Filter distinction: 🟡 framework framing
-  → Trade-off nền tảng (chain dài = feature, not bug): 🟡
-    (immune system analogy 🟢; application to chain dài = framework reasoning 🟡)
+═══════════════════════════════════════
+🔴 HYPOTHESIS (~6 claims)
+═══════════════════════════════════════
 
-
-HYPOTHESIS (🔴):
-
-  → Valence propagation as EXPLICIT NAMED MODEL:
-    Concept IMPLICIT trong spreading activation + conditioned reinforcement,
-    nhưng explicit formalization "valence propagation qua schema chain" = MỚI.
-    Cần test: có phải NÀO CŨNG valence, hay có filter mechanism?
-
-  → Backward propagation (reward → valence spread ngược):
-    🟢 Temporal difference learning (Schultz) supports prediction error propagation.
-    🔴 NHƯNG: cơ chế CỤ THỂ cho "valence spread backward through abstract chain"
-    chưa formalize trong neuroscience. Logical inference from TD learning.
-
-  → Chain trust = product of link trusts:
-    Mathematical model. Likely OVERSIMPLIFIED. Actual mechanism probably
-    non-linear, context-dependent, asymmetric.
-
-  → Positive overgeneralization = same speed as negative:
-    UNLIKELY — negativity bias suggests asymmetric. Framework acknowledged.
-
-  → Serial killer schema mislink as full explanation:
-    OVERSIMPLIFIED — psychopathy involves hardware variation (amygdala, ACC)
-    not just schema content. Framework acknowledged "hardware OK" is approximate.
-
-  → Group selection cho chain dài (§5b Tầng 4):
-    🔴 Specific hypothesis: nhóm có chain dài → mạnh hơn → survive.
-    Logic consistent với Hamilton/Trivers, nhưng CHƯA có direct evidence
-    cho "chain length" specifically as selection pressure.
-    Tầng 1-3 ĐÃ ĐỦ giải thích chain dài ở cá nhân → Tầng 4 = optional.
-
-
-⚠️ BLACKBOX 2: Valence complexity — chuỗi valence dài (trauma compiled mờ
-  + hormone shift + hardware variants + multi-layer interaction) gần như
-  incomputable. Framework predict PATTERN, không predict INSTANCE cụ thể.
-  Chi tiết: Blackbox-Map.md §4 + §7 (supersedes Framework-Boundaries.md v2.0).
-  UPDATE: BB2 = BB1 + collective scale + hardware variance (Drill §26 D1).
-
-  §4 Clarification (v1.4): Chain analysis = Cấp 3 EXPLANATORY, không phải
-  Cấp 1 processing. 3 cấp phân tích formalized (Drill §6, §22).
-  🟡 Framework synthesis dựa trên drill findings — logic consistent.
+  Valence propagation as EXPLICIT NAMED MODEL
+  Backward propagation (abstract chain)
+  Chain trust = product of link trusts (oversimplified)
+  Group selection cho chain dài (optional, Tầng 4)
+  Exact articulation amplification magnitude
+  Partial EC fire intensity formula
 
 
 CÂU HỎI MỞ:
-
-  → Cơ chế neural CỤ THỂ cho valence propagation? Brain regions? Circuits?
-  → Chain decay function: linear? exponential? step? Context-dependent?
-  → Maximum chain length mà body vẫn "trust"? Có giới hạn?
-    ⤷ §5b Tầng 3 gợi ý: chain length THỰC TẾ bị giới hạn bởi
-      pyramidal compression quality, KHÔNG phải absolute limit.
-      Chain "dài" mà compressed tốt = body vẫn trust.
-      Chain "ngắn" mà mỗi link low trust = body KHÔNG trust.
-      → Maximum = f(compression quality × link trust), không phải f(link count)
-  → Khi nào chain BỊ ĐỨT vs khi nào body REPAIR?
-  → Filter mechanism: body có filter nào cho "chain NÀY đáng trust"?
+  → Cơ chế neural CỤ THỂ cho valence propagation? Brain regions?
+  → Chain decay function: linear? exponential? step?
+  → Maximum chain length mà body vẫn trust?
   → Positive overgeneralize: same mechanism nhưng KHÁC TỐC ĐỘ bao nhiêu?
-  → AI-assisted schema detection: CAN HAPPEN? HOW? (→ AI-Schema-Detection.md)
+  → Social media habituation of nostalgia triggers?
+  → Entity-Compiled subtypes: gradient hay threshold?
 ```
 
 ---
 
-## §10 — CROSS-REFERENCES + STATUS
+## §20 — CROSS-REFERENCES + CITATIONS
 
 ```
 CROSS-REFERENCES:
 
   NỀN TẢNG:
-    → Body-Base.md — L0-L3 channels mà valence đánh giá
-    → Body-Input-Enumeration.md — reframe L0-L3, body-inputs chi tiết
-    → Schema.md §1-§1.2 — schema = chunks + links + purpose, KHÔNG THỂ phân tích
-    → Chunk.md v2.0 — chunk substrate, multi-modal binding, compile dynamics
-    → Reward-Signal-Architecture.md v1.0 — Type A/B × valence: A = evaluative valence,
-      B = direct state valence. Valence propagation = primarily Type A territory (2026-05-10)
-    → Chunk.md v2.0 §3 — 4 loại connections (§5b Tầng 1 EXIST) ← MỚI v1.1
+    → Body-Base.md v2.1 — L0-L3 channels mà valence đánh giá
+    → Body-Feedback-Mechanism.md v2.0 — Body-Need aggregate, chunk dynamics
+    → Schema.md v2.0 — schema = chunks + links + purpose
+    → Chunk.md v2.2 — chunk substrate, context-tag, 4 connections
+    → Reward-Signal-Architecture.md v1.0 — Type A/B × valence
+    → Gap-Body-Need.md v2.0 — Cyclic/Tonic/Generative satiation types
+    → Body-Feedback-Label.md v2.0 — vocabulary reference
 
-  MECHANISM:
-    → Body-Coupling.md v1.0 — coupling mechanism deep-dive: 2D model (|❸| Depth × Direction),
-      3 Phase, extension/entanglement/neutral, system compilation — extends §2 Body-Base Extension
-    → Drive.md §0 — schema = DETECTOR, vô thức = ENGINE, PFC = navigator
-    → Drive.md §0 — "Đam mê" = MÔ TẢ drive, KHÔNG PHẢI nguyên nhân
-    → Feeling.md v2.0 §2 — 7-layer fidelity gradient (Layer 7 = 20-70% accuracy)
-    → Feeling.md v2.0 §3 — core claim: feeling = PFC observation of body
-    → Feeling.md v2.0 §5 — 8-step operational flow
-    → Feeling.md v2.0 §6 — dopamine ≠ reward, 5 preconditions
-    → Agent.md §0 — Self-Pattern-Match (mirror mechanism for observed experience)
-    → Agent.md §10 — Mode 2 schema override cho abstract agents
-    → PFC-Analysis.md — pyramidal compression, 4±1 dimensions,
-      Observed Capacity = Hardware × Vô Thức × Cortisol × Context (§5b Tầng 3 FIT) ← MỚI v1.1
+  ENTITY-COMPILED + ACCESS + DYNAMICS:
+    → Entity-Compiled.md v1.0 — deep mechanism (Hub-and-Spoke, Dunbar, grief, decay)
+    → Entity-Access.md v1.0 — gradient Mức 0-5, 3-Factor Model, excess, calibration
+    → Inter-Body-Mechanism.md v1.0 — §8 EC reframe, §4 3-cost, §5 By-Product Match
+    → Body-Coupling.md v1.1 — coupling 2D model, 3 Phase, extension/entanglement
+    → Connection.md v3.3 — 3 Generative Primitives, 2-luồng/2-tầng overview
+    → Self-Pattern-Modeling.md v3.1 — F1/F2, Simulation Engine application 1
+    → Agent-Mechanism.md v2.0 — integration hub, Architecture B
+    → Resonance-Entity.md v2.0 — hardware subsidy per entity, RSA A:B
+    → Resonance-Sustainability.md v1.0 — 3 modalities, maintenance decline
+    → Obligation.md v1.0 — compiled prediction (independent of EC)
+    → Protect.md v1.0 — f(replaceability × attachment), loss aversion
+    → Boredom.md v2.0 — dissonance + Imagine-Final mờ, source ⑥, M1-M4
+
+  PFC + SIMULATION:
+    → PFC-Operations.md v1.0 — Hold/Suppress, Compiled/Fresh, PFC budget
+    → Simulation-Engine.md v1.0 — 1 engine, 3 components, 3 axes
+    → Feeling.md v2.0 — PFC observation of body (7 layers)
+    → Drive.md — tổng hợp valences → action
 
   PROPAGATION CONTEXT:
-    → Collective-Body.md §1-§2 — Model 3 cấp + 4 compile pathways (§4 Clarification v1.4)
-    → Anchor-Schema.md §1-§2 — anchor amplify chain, trust ≥ cost → hold
-    → Emergent-Patterns.md §5 — "Cho đi" pattern, 4 nguồn reward
-    → Empathy.md §6 — empathy reward override spectrum (lành mạnh → compulsive)
-    → Empathy.md §7 — evolutionary function, group selection logic (§5b Tầng 4 FILTER) ← MỚI v1.1
-    → Somatic-Articulation-Loop.md — body knowledge → explicit knowledge
+    → Collective-Body.md v1.2 — Model 3 cấp + trust bridge
+    → Anchor-Schema.md v1.2 — anchor amplify chain, trust ≥ cost
+    → Emergent-Patterns.md §5 — "Cho đi" pattern
+    → Empathy.md v2.2 §6-§8 — empathy reward, burnout formula
+    → Somatic-Articulation-Loop.md — body → explicit knowledge
 
-  CŨ (đã backup):
-    → Domain/backup/Valence.md — per-entity valence DRAFT v0.5
-      (content integrated vào §1-§3 file NÀY)
-    → Domain/backup/Object-Agent.md — binary classification (superseded by Agent.md)
+  APPLICATION:
+    → AI-Schema-Detection.md v2.0 — pattern detection
+    → Imagine-Final-Evaluation.md — Mismatch quadrant
 
-  TIẾP THEO:
-    → AI-Schema-Detection.md (chưa viết) — AI-assisted schema pattern detection
-      = Ứng dụng valence propagation model + schema network understanding
+
+RESEARCH CITATIONS:
+
+  | # | Citation | Used in |
+  |---|----------|---------|
+  | R1 | Schultz 1997 — Dopamine prediction error / VTA | §3,§6,§7 |
+  | R2 | Cacioppo & Berntson 1994 — Evaluative Space Model | §9 |
+  | R3 | Vaccaro, Kaplan & Damasio 2020 — Bittersweet neuroscience | §9 |
+  | R4 | Larsen, McGraw & Cacioppo 2001 — Can feel happy+sad | §9 |
+  | R5 | Schneider et al. 2021 — Ambivalent ≠ neutral | §9 |
+  | R6 | Lüscher & Pillemer 1998 — 50% parent-child ambivalence | §9,§11 |
+  | R7 | Sedikides & Wildschut 2018 — Nostalgia self-regulation | §10.1 |
+  | R8 | Oba et al. 2016 — Memory+reward coproduce nostalgia | §10.1 |
+  | R9 | Van Tilburg et al. 2019 — Video-chat homesickness | §10.1 |
+  | R10 | Hariri et al. 2002 — 5-HTTLPR amygdala reactivity | §11.1 |
+  | R11 | Aron & Aron 1997 — HSP 15-20% | §11.1 |
+  | R12 | Belsky & Pluess 2009 — Plasticity model | §11.1 |
+  | R13 | Zeki & Romaya 2008 — Love/hate shared circuits | §12 |
+  | R14 | Main & Hesse 1990 — Disorganized attachment | §12 |
+  | R15 | O'Connor 2023 — Basal ganglia grief firing | §6 |
+  | R16 | Bowlby 1969 — Attachment 3 phases | §4,§6 |
+  | R17 | Herz 2004 — Odor-evoked emotional memory | §6 |
+  | R18 | Bao & Lyubomirsky 2013 — Hedonic adaptation | §7 |
+  | R19 | Whiteman et al. 2011 — Parent-child over time | §10 |
+  | R20 | Arnett 2004 — Emerging adulthood | §10 |
+  | R21 | Fang et al. 2025 — Cross-cultural mixed emotions | §9 |
+  | R22 | Miyamoto et al. 2010 — Dialectical thinking ambivalence | §9 |
+  | R23 | Feldman 2012 — Biobehavioral synchrony | §7 |
+  | R24 | Fisher 2004 — Limerence motivation drive | §7 |
+  | R25 | Panksepp 1998 — μ-opioid social play | §7 |
+  | R26 | Roberts & Dunbar 2011 — Kin resilient vs friends | §7 |
+  | R27 | Sanders 1980 — Parental grief most severe | §12 |
+  | R28 | Ratcliffe 2018 — Grief as phantom limb | §12 |
+  | R29 | Fisher 2010 — Rejected lovers cocaine circuits | §12 |
+  | R30 | Aron & Aron 1996 — Self-expansion model | §8 |
+  | R31 | Gottman & Levenson 2000 — Type 2 divorce | §8 |
+  | R32 | Kahneman & Deaton 2010 — Income-wellbeing plateau | §13 |
+  | R33 | Durkheim 1893 — Organic solidarity | §13 |
+  | R34 | Eisenberger 2003 — Social pain = physical pain | §4 |
+  | R35 | LeDoux 1996 — Fear conditioning | §1 |
+  | R36 | De Houwer 2007 — Evaluative conditioning | §1,§14 |
+  | R37 | Nisbett & Wilson 1977 — PFC confabulation | §1,§18 |
+  | R38 | Bandura 1977 — Observational learning | §14 |
+  | R39 | Rachman 1977 — Cultural fear transmission | §14 |
+  | R40 | Seligman 1971 — Prepared learning | §14 |
+  | R41 | Boyd & Richerson 1985 — Cultural transmission | §15 |
+  | R42 | Collins & Loftus 1975 — Spreading activation | §15,§16 |
+  | R43 | Ainslie 1975 — Temporal discounting | §16 |
+  | R44 | Hull 1932 — Goal gradient | §16 |
+  | R45 | Freyd 1996 — Betrayal trauma | §14 |
+  | R46 | Baumeister et al. 2001 — Negativity bias | §14 |
+  | R47 | Nickerson 1998 — Confirmation bias | §14 |
+  | R48 | Libet 1983 — Readiness potential | §18 |
+  | R49 | Festinger 1957 — Cognitive dissonance | §2 |
+  | R50 | Fehr & Gächter 2002 — Costly punishment | §17 |
+  | R51 | Takahashi et al. 2009 — Schadenfreude | §17 |
+  | R52 | Pietschnig 2015 — Brain size vs IQ | §16 |
+  | R53 | Cowan 2001 — PFC 4±1 | §16 |
+  | R54 | Hebb 1949 — Hebbian learning | §16 |
+  | R55 | Hickey 2013 — Serial killers | §17 |
 
 
 STATUS:
 
-  v1.0 — 2026-04-18 — Session N+16
-    → Initial version: §0-§10, per-entity + propagation + chain + cases + PFC blindness
-  
-  v1.1 — 2026-04-18 — Session N+19
-    → THÊM §5b: "Tại Sao Chain Dài Tồn Tại: 4 Tầng Cơ Chế"
-      Tầng 1 EXIST (chunk substrate), Tầng 2 EXTEND (valence propagation),
-      Tầng 3 FIT (pyramidal compression, PFC quality ≠ PFC size),
-      Tầng 4 FILTER (group selection — hypothesis)
-    → UPDATE §9: thêm confidence cho §5b + thêm hypothesis group selection
-    → UPDATE §9 Open Questions: partial answer cho "maximum chain length"
-    → UPDATE §10: thêm cross-refs PFC-Analysis.md, Empathy.md §7, Chunk.md §3
-    → ĐÍNH CHÍNH: "PFC lớn hơn → chain dài" = SAI. Chain dài = f(vô thức compile quality)
-    → THÊM §5b Trade-off: chain dài = feature (net positive cho tập thể dù có hại cá nhân)
-    → FIX terminology: "mirror reward/dissonance" → "empathy reward/dissonance" toàn file
-    → FIX cross-refs: "Empathy-Mirror.md §8.5" → "Empathy.md §6" (file đã thay thế)
-
-  v1.3 — 2026-04-28
-    → UPDATE §2: thêm Body-Coupling.md reference note (mechanism deep-dive cho Body-Base Extension)
-    → UPDATE §10: thêm cross-ref Body-Coupling.md v1.0
-    → NỘI DUNG §2 GIỮ NGUYÊN — chỉ thêm pointer tới file mechanism chi tiết
-
-  v1.4 — 2026-05-08
-    → THÊM §4 Clarification: Explanatory vs Processing (Drill §6, §22)
-      Chain analysis = Cấp 3 GIẢI THÍCH, KHÔNG phải Cấp 1 processing.
-      Cá nhân compile SHORT (1-2 nodes). Chain dài = Cấp 2 collective hold.
-      3 giá trị thực: chẩn đoán, thiết kế, verify.
-      4 compile pathways ví dụ (hardware fit, trust+fit, social default, threat avoid).
-    → GAP 13 (CRITICAL) RESOLVED
-    → THÊM §1 ④ "No Source Tag" (Drill §10)
-      Wire = wire, body treat bình đẳng, PFC cannot distinguish source.
-    → GAP 8 RESOLVED
-    → UPDATE §9: thêm confidence notes
-    → Cross-ref: Collective-Body.md §1-§2
-  
-  Tổng hợp:
-    → Domain/backup/Valence.md (~579L) — per-entity valence, profile, cases
-    → Session N+16 analysis — 12+ cases, schema-chain propagation concept
-    → Session N+19 analysis — WHY chain dài tồn tại, PFC-Capacity refine
-    → Schema.md, Drive.md, Anchor-Schema.md, Feeling.md v2.0, Agent.md, Chunk.md v2.0
-    → Emergent-Patterns.md §5, Empathy.md §6, PFC-Analysis.md, Empathy.md §7
-  
-  Sections:
-    §0  Position trong framework
-    §1  Valence là gì (4 đặc tính)
-    §2  Valence profile per-entity (L0-L3 + meta + Object/Agent/Abstract)
-    §3  Hình thành (4 nguồn) + Update (3 loại) + Bias
-    §4  ⭐ Valence Propagation qua schema chain (4 cơ chế) — v1.0
-    §5  ⭐ 5 đặc tính chain (length, trust, parallel, conflict, invisible) — v1.0
-    §5b ⭐ Tại sao chain dài tồn tại: 4 tầng cơ chế — v1.1 MỚI
-    §6  Cases phân tích (6 nhóm, 12+ cases)
-    §7  ⭐ PFC Blindness + Confabulation ("vô tư", "đam mê") — v1.0
-    §8  ⭐ Giới hạn nền tảng + 3 nguyên tắc — v1.0
-    §9  Honest assessment (🟢🟡🔴) — updated v1.1
-    §10 Cross-references + Status — updated v1.3
-
-  Confidence distribution:
-    🟢 Per-entity valence, formation, update, bias, cases
-    🟢 Spreading activation, conditioned reinforcement, confabulation
-    🟢 Chunk substrate tạo chain (Hebb, Collins & Loftus) — §5b Tầng 1
-    🟡 Profile structure, 4-mechanism model, 5 chain properties
-    🟡 3 nguyên tắc, 6 nhóm cases, PFC accuracy function
-    🟡 Pyramidal compression cho chain fit (Cowan, Chase & Simon) — §5b Tầng 3
-    🟡 Chain dài = f(vô thức quality) — §5b
-    🔴 Valence propagation as named model, backward propagation mechanism
-    🔴 Chain trust = product model, positive overgeneralize speed
-    🔴 Group selection cho chain dài — §5b Tầng 4
-
-  Next:
-    → AI-Schema-Detection.md — ứng dụng valence propagation + schema navigation
-    → Audit files liên quan: Drive.md, Emergent-Patterns.md có thể cần update cross-refs
-    → Test cases thêm để verify chain model
+  v1.0 — 2026-04-18 — Initial version: per-entity + propagation + chain + cases
+  v1.1 — 2026-04-18 — +§5b chain dài. ĐÍNH CHÍNH PFC size.
+  v1.3 — 2026-04-28 — +Body-Coupling reference.
+  v1.4 — 2026-05-08 — +Clarification Explanatory vs Processing. GAP 13+8 RESOLVED.
+  v2.0 — 2026-05-16 — FULL REWRITE: Entity-Compiled reframe, 3 subtypes, merge §5+§5b.
+  v3.0 — 2026-05-22 — FULL REWRITE: Drill-Entity-Valence-Dynamics v2.0 (28 insights).
+    +TRỤ 2 (§5-§13): 2-luồng/2-tầng, 3 Firing Modes, Hardware Subsidy,
+    Satiation Type, Mixed Valence, "Xa mẹ", Per-entity dynamics, Phantom,
+    Technology frontier. §4 slim down (→ pointer EC v1.0 + EA v1.0).
+    §8+§9 v2.0 merge → §18. Phase A integration.
+    v2.0 → backup/Valence-Propagation-v2.0-backup.md.
 ```

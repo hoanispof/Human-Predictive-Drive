@@ -1,11 +1,24 @@
 ---
 title: Neural-Processing-Flow — Toàn bộ flow từ Sensor → Cortex → PFC → Output
+version: 2.0
 created: 2026-04-17 (N+5 session)
-status: DRAFT v1.0
-scope: HARDWARE FLOW + PROCESSING FLOW
-purpose: Nền tảng gốc — con đường vật lý tín hiệu đi qua trong não
+updated: 2026-05-17 (v2.0 — +Architecture B framing, +Compiled/Fresh at physical level, +PFC=Lawyer strengthen, +5-Channel mapping, +L3 operator fix, +Inter-Body cross-refs)
+previous: v1.0 → backup/Neural-Processing-Flow-v1.0-backup.md
+status: v2.0
+scope: HARDWARE FLOW + PROCESSING FLOW + Architecture B connection
+purpose: |
+  Nền tảng gốc — con đường vật lý tín hiệu đi qua trong não.
+  v2.0: WHY this hardware (Architecture B trade-off), Compiled/Fresh at physical level,
+  PFC=Lawyer as structural function, 5-Channel Input Vector connection.
 position: Core-Deep-Dive/ (mechanism file)
+dependencies:
+  - Inter-Body-Mechanism.md v1.0 — Architecture B, 5-Channel, PFC=Lawyer
+  - Feeling.md v3.0 — 7-layer, Compiled/Fresh×Layer mapping
+  - Logic-Feeling.md v2.0 — Compiled/Fresh axis
+  - Body-Feedback-Mechanism.md v2.0 — 2-source, Body-Need
+  - Body-Input-Enumeration.md — full body input catalog
 language: Tiếng Việt primary + English technical
+confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
 # Neural-Processing-Flow — Toàn bộ flow từ Sensor → Cortex → PFC → Output
@@ -27,12 +40,40 @@ language: Tiếng Việt primary + English technical
   │ CONTENT LAYER (Schema/Chunk.md + Modality)          │
   │ = PATTERNS compile trên hardware                     │
   ├─────────────────────────────────────────────────────┤
-  │ PROCESSING LAYER (Logic-Feeling.md)                 │
-  │ = 2 MODES xử lý: Logic (rules) vs Feeling (body)   │
+  │ PROCESSING LAYER (Logic-Feeling.md v2.0)            │
+  │ = Compiled/Fresh spectrum (not "2 modes")           │
   ├─────────────────────────────────────────────────────┤
   │ BEHAVIOR LAYER (Imagine-Final + Logic-Planning)     │
   │ = PLAN + EXECUTE + FEEDBACK                         │
   └─────────────────────────────────────────────────────┘
+
+  ⭐ ARCHITECTURE B CONNECTION (Inter-Body-Mechanism.md §1):
+
+  TẠI SAO hardware này tồn tại:
+    Evolution chọn Architecture B cho con người:
+      ① General-Purpose Reward — fire cho BẤT KỲ gap fill đúng direction
+      ② Compilation — repeat + verify → automatic (Hebbian LTP)
+      ③ Social Hardware — oxytocin, μ-opioid, dACC reuse
+
+    Trade-off of Architecture B:
+      → Adapt BẤT KỲ environment (general-purpose)
+      → NHƯNG: cần 15-20 năm compile (slow development)
+      → Hardware below = ENABLES Architecture B:
+        Thalamus gate = general-purpose filter (not hardwired per stimulus)
+        6-layer cortex = uniform fabric (compile ANY pattern)
+        PFC = general-purpose orchestrator (not stimulus-specific)
+        Binding = flexible (bind ANY combination)
+      → Architecture A (insect): hardwired stimulus→response (no PFC needed)
+      → Architecture B (human): general input → general processing → COMPILE
+
+    Implication for this file:
+      → §1-§4: HOW signals travel = hardware infrastructure
+      → §5: HOW compilation happens = Architecture B's KEY mechanism
+      → §6: WHY PFC = orchestrator not computer = general-purpose design
+      → §7-§9: WHY simulation + feeling + externalization = CONSEQUENCES
+        of general-purpose hardware (not hardwired outputs)
+
+  🟡 Architecture B framing = framework synthesis (Inter-Body drill 2026-05-16)
 ```
 
 ---
@@ -97,7 +138,7 @@ Thermal core: hypothalamic thermosensors
 
 ⭐ SELF-SIGNAL INTEROCEPTION (meta-capacity):
   = Khả năng đọc chính internal state → Anterior insula + ACC + vmPFC
-  = Predictive: não DỰ ĐOÁN body state, match actual → prediction error
+  = Predictive: não DỰ ĐOÁN body state, match actual → prediction-delta
   🟢 Seth 2013, Barrett 2017
 ```
 
@@ -402,6 +443,53 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
   🟢 Chase & Simon 1973
 ```
 
+### §5.5 — Compiled/Fresh at Physical Level (v2.0)
+
+```
+⭐ WHY COMPILED = FAST, FRESH = SLOW — at HARDWARE level:
+
+  COMPILED PATH (Hebbian-strengthened):
+    → Synapses: LTP-strengthened (🟢 Hebb 1949, Bliss & Lømo 1973)
+    → Axons: MYELINATED (saltatory conduction: 100m/s vs 1m/s unmyelinated)
+    → Pathway: DIRECT cortex→subcortex (bypass PFC bottleneck)
+    → Neurotransmitter: vesicles PRE-DOCKED (faster release)
+    → = Signal travels ESTABLISHED superhighway: fast, reliable, low energy
+
+  FRESH PATH (novel, not yet compiled):
+    → Synapses: weak, untested connections
+    → Axons: unmyelinated or partially myelinated (SLOW conduction)
+    → Pathway: must route THROUGH PFC (bottleneck: ~3-5 WM slots)
+    → Neurotransmitter: needs dopamine BOOST for novel path activation
+    → = Signal travels unmapped terrain: slow, unreliable, HIGH energy
+
+  PHYSICAL CONSEQUENCES:
+    Compiled: ~50-100ms response (subcortical direct)
+    Fresh: ~300-500ms+ response (PFC chain required)
+    = WHY expert "feels" answer (compiled → body-direct → fast)
+    = WHY beginner "thinks" answer (fresh → PFC route → slow)
+    = SAME CONTENT, different physical path quality
+
+  COMPILATION PHYSICALLY CHANGES BRAIN:
+    ① Synapse strength: LTP → larger post-synaptic density
+    ② Myelin: oligodendrocytes wrap axon → speed increase 50-100x
+    ③ Dendritic spine growth: more connection points per neuron
+    ④ Pruning: competing weak paths WEAKENED (competitive)
+    → = Compilation = PHYSICAL INFRASTRUCTURE built over time
+    → = "Feeling" (compiled) = signal on SUPERHIGHWAY
+    → = "Logic" (fresh) = signal on DIRT ROAD being built
+
+  CONNECTION VỚI FRAMEWORK:
+    → Logic-Feeling.md v2.0 §1: Compiled/Fresh = trục thật
+    → Feeling.md v3.0 §2.5: 7-layer × Compiled/Fresh
+    → Inter-Body §3: content ≠ processing level (Einstein toán = compiled = fast)
+    → 3-cost model: fresh = METABOLICALLY expensive because novel path construction
+
+🟢 Hebb 1949 (Hebbian learning principle)
+🟢 Bliss & Lømo 1973 (LTP discovery)
+🟢 Fields 2008 (activity-dependent myelination)
+🟡 "Compiled = superhighway, Fresh = dirt road" metaphor = framework synthesis
+```
+
 ---
 
 ## §6 — PFC: Observer + Director + Simulator
@@ -416,6 +504,17 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
   ③ ROUTE:     pass hoặc discard based on feedback
   ④ BRAKE:     veto behavioral output (~200-500ms, sau subcortical ~50ms)
   ⑤ TRANSLATE: verbalize post-hoc (rationalization — Gazzaniga)
+
+  ⭐ PFC = LAWYER, not Judge (Inter-Body §7, v2.0 ELEVATED):
+    Function ⑤ = NOT neutral reporting. = LAWYERING for body-base.
+    → Body-need fires TRƯỚC → drive forms → PFC tạo NARRATIVE "lý do"
+    → Person BELIEVES narrative = "rational decision"
+    → 🟢 Gazzaniga split-brain: left hemisphere CONFABULATES post-hoc
+    → 🟢 Haidt 2001: moral intuition first, reasoning = justification
+    → 🟢 Nisbett & Wilson 1977: cannot report actual causes
+    → IMPLICATION: PFC output (function ⑤) = STRUCTURAL bias
+      Not occasional error — DESIGNED to serve body-base
+    → Domain Reality = only check on PFC narrative (Inter-Body §6.4)
 ```
 
 ### §6.2 — KB4 Dual Role
@@ -662,6 +761,24 @@ FEELING = KHÔNG CHỈ 1 INPUT — mà ~10 channels tích hợp:
     (1 từ "lo lắng" nén 10 channels vào 1 label — mất 80%+ info)
 
   Full detail: Feeling-Sources.md
+
+
+  ⭐ 5-CHANNEL INPUT VECTOR (Inter-Body §6, v2.0 connection):
+
+  10 feeling sources MAP lên 5-Channel model:
+    Ch1 HARDWARE SENSORY (①②③ above: threat, interoceptive, novelty)
+    Ch2 BODY STATE (hormone level, fatigue, cortisol — baseline)
+    Ch3 COMPILED CHUNKS (④⑦⑨: meaning, schema expectation, valence)
+    Ch4 ENTITY ACTIONS (⑤⑥: agent mirror, mirror-resonance)
+    Ch5 PFC ACTIVE CHAIN (⑧⑩: imagine-final preview, cognitive evaluation)
+
+  Each episode = unique MIX of 5 channel intensities
+  = 5-dimensional input space → infinite unique episodes
+  Channel DOMINANT → determines body-need activation direction
+  Channel ABSENT → determines vulnerability to manipulation
+
+  Protection principle: không bao giờ act chỉ từ 1 channel alone
+  (Inter-Body §6.4: Domain Reality = Final Arbiter)
 ```
 
 ### §8.4 — 2-Direction Flow (recap từ Logic-Planning §7.4)
@@ -900,30 +1017,39 @@ TOP-DOWN (brain → cortex re-activation):
   Balance = feel reality (bottom-up) + plan ahead (top-down) + check (feedback)
 ```
 
-### §10.3 — 3 Operator drives acting on flow
+### §10.3 — Observation Parameters modulating flow (v2.0 FIX)
 
 ```
-3 DRIVES từ Body-Input-Enumeration.md L3 (operators, không phải layer riêng):
+⚠️ v2.0 FIX: v1.0 called these "L3 operators" — outdated.
+   v7.8 reframe: L3 removed. These are OBSERVATION PARAMETERS
+   (named patterns emerging from body-need interactions, not a separate layer).
+   Inter-Body §2.3: "Observation params = NOT sources — are NAMES cho patterns observable."
 
-  NOVELTY OPERATOR:
+3 OBSERVATION PARAMETERS MODULATE flow (not create separate flow):
+
+  NOVELTY (observation parameter):
     → VTA detect above-baseline input quality → dopamine → PFC spotlight
     → Shifts baselines upward (hedonic treadmill)
     → Operates across ALL body-input categories
+    → = NAMED PATTERN from gap-fill drive (Gap-Direction.md)
 
-  STATUS OPERATOR:
-    → PFC construct: social position → PROXY for L1 access
+  STATUS (observation parameter):
+    → PFC construct: social position → PROXY for body-input access
     → Status itself has NO body-base receiver
-    → Status → L1 payoff (community → co-presence; reputation → resources)
-    → Status without L1 payoff = emptiness
+    → Status → body-input payoff (community → co-presence; reputation → resources)
+    → Status without payoff = emptiness
+    → = NAMED PATTERN from social hardware needs (Inter-Body §1)
 
-  PROTECT OPERATOR:
-    → Guard L1 inputs from threats
+  PROTECT (observation parameter):
+    → Guard body-inputs from threats
     → Extends via Empathy-Mirror: mirrored body-state → protect-other behavior
+    → = NAMED PATTERN from ownership + loss aversion (Protect.md)
 
-  → 3 drives MODULATE flow, không tạo flow riêng
+  → 3 parameters MODULATE flow, không tạo flow riêng
   → Novelty: ảnh hưởng CÁI GÌ được spotlight
   → Status: ảnh hưởng CÁI GÌ PFC draft as goal
   → Protect: ảnh hưởng CÁI GÌ gets priority (threat override)
+  → Can thiệp ở level mechanism (body-need sources), không ở level label
 ```
 
 ---
@@ -959,6 +1085,12 @@ TOP-DOWN (brain → cortex re-activation):
   Felt sense / Focusing:             Gendlin 1978
   PFC mixed selectivity:             Rigotti et al. 2013
   Expert chunking:                   Chase & Simon 1973
+  Hebbian learning:                  Hebb 1949
+  LTP discovery:                     Bliss & Lømo 1973
+  Activity-dependent myelination:    Fields 2008
+  Split-brain confabulation:         Gazzaniga (v2.0: PFC=Lawyer)
+  Moral intuition first:             Haidt 2001 (v2.0: PFC=Lawyer)
+  Cannot report causes:              Nisbett & Wilson 1977 (v2.0: PFC=Lawyer)
 
 
 ═══════════════════════════════════════
@@ -975,6 +1107,11 @@ TOP-DOWN (brain → cortex re-activation):
   KB4 dual role:                         Framework synthesis, consistent
   Chunk depth = modality count:          Framework contribution (Modality-Analysis.md)
   2-Direction flow (feel-first/label-first): Framework contribution (Logic-Planning.md)
+  Architecture B as WHY this hardware (v2.0): Consistent with evolutionary neuroscience
+  Compiled/Fresh at physical level (v2.0):   LTP + myelin = established; framing = synthesis
+  PFC = Lawyer as structural function (v2.0): Consistent with Gazzaniga/Haidt, elevated
+  5-Channel Input Vector mapping (v2.0):     Framework synthesis (Inter-Body §6)
+  Observation parameters (not L3 operators):  v7.8 reframe, consistent
 
 
 ═══════════════════════════════════════
@@ -1052,14 +1189,83 @@ NOT CLAIMING:
   Sherman & Guillery 2006 — Thalamus as active relay
   Singer & Gray 1995 — Gamma oscillation binding
   Stein & Meredith 1993 — Multisensory integration
+  Hebb 1949            — Hebbian learning principle (v2.0)
+  Bliss & Lømo 1973   — LTP discovery (v2.0)
+  Fields 2008         — Activity-dependent myelination (v2.0)
+  Gazzaniga            — Split-brain confabulation (v2.0: PFC=Lawyer)
+  Haidt 2001           — Moral intuition first (v2.0: PFC=Lawyer)
+  Nisbett & Wilson 1977 — Cannot report actual causes (v2.0: PFC=Lawyer)
 ```
 
 ---
 
-> **Neural-Processing-Flow.md — End of file.**
+## §12 — CROSS-REFERENCES (v2.0 NEW)
+
+```
+📚 INTER-BODY DRILL:
+  → Inter-Body-Mechanism.md v1.0 §1: Architecture B (WHY this hardware)
+  → Inter-Body-Mechanism.md v1.0 §3: Compiled/Fresh = real axis (→ §5.5)
+  → Inter-Body-Mechanism.md v1.0 §6: 5-Channel Input Vector (→ §8.3)
+  → Inter-Body-Mechanism.md v1.0 §7: PFC = Lawyer (→ §6.1)
+
+📚 FEELING + BODY-FEEDBACK:
+  → Feeling.md v3.0 §2.5: Compiled/Fresh × 7-Layer mapping
+  → Feeling.md v3.0 §3.4: PFC = Lawyer formal
+  → Body-Feedback-Mechanism.md v2.0: 2-source, Body-Need aggregate
+  → Body-Input-Enumeration.md: full body input catalog (§1 source)
+
+📚 PROCESSING:
+  → Logic-Feeling.md v2.0 §1: Compiled/Fresh = trục thật
+  → Logic-Feeling.md v2.0 §4: Flow (Compiled Anchor ↔ Fresh Explore)
+  → PFC-Analysis.md: PFC functions detail
+  → Somatic-Articulation-Loop.md: externalization mechanism detail
+
+📚 CHUNK + COMPILATION:
+  → Chunk.md v2.0: chunk system reference
+  → Modality-Analysis.md: modality depth
+
+📚 OBSERVATION:
+  → Gap-Direction.md v2.0: gap direction (novelty parameter)
+  → Protect.md v1.0: protect parameter
+  → Status.md v2.0: status parameter
+```
+
+---
+
+## §13 — STATUS (v2.0)
+
+```
+File: Neural-Processing-Flow.md
+Version: 2.0
+Created: 2026-04-17
+Updated: 2026-05-17
+Previous: v1.0 → backup/Neural-Processing-Flow-v1.0-backup.md
+Lines: ~1,230
+
+v2.0 CHANGES (2026-05-17 — Inter-Body Drill Integration):
+  → Header: v2.0, +dependencies, +confidence markers
+  → §0: +Architecture B connection (WHY this hardware = general-purpose)
+  → §5.5 NEW: Compiled/Fresh at PHYSICAL level
+    (WHY compiled=fast: LTP+myelin. WHY fresh=slow: novel unmyelinated paths)
+  → §6.1: +PFC=Lawyer elevated (structural function, not occasional error)
+  → §8.3: +5-Channel Input Vector connection (10 channels → 5-channel model)
+  → §10.3 FIX: "L3 operators" → "Observation parameters" (v7.8 reframe)
+  → §11: +6 🟢 citations (Hebb, Bliss&Lømo, Fields, Gazzaniga, Haidt, Nisbett&Wilson)
+         +5 🟡 items (Architecture B, Compiled/Fresh physical, PFC=Lawyer, 5-Channel, obs params)
+  → §12 NEW: Cross-references section
+  → ALL v1.0 hardware content PRESERVED (§1-§4, §7, §9)
+  → ALL 35+ research citations preserved + 6 added = 41+ total
+```
+
+---
+
+> **Neural-Processing-Flow.md v2.0 — End of file.**
 >
 > Nền tảng gốc: toàn bộ flow vật lý từ sensor → thalamus → cortex → binding → chunks → feeling → PFC → simulation → externalization → feedback loop.
 >
+> v2.0: +Architecture B (WHY), +Compiled/Fresh physical (HOW compiled=fast),
+> +PFC=Lawyer (structural), +5-Channel mapping, +L3→observation parameter fix.
+>
 > Mọi cơ chế khác trong framework CHẠY TRÊN flow này.
 >
-> Phiên bản: v1.0, 2026-04-17.
+> **Phiên bản:** v2.0, 2026-05-17.

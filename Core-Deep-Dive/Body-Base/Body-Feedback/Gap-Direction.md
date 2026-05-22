@@ -1,8 +1,10 @@
 ---
 title: Gap Direction — Body-Feedback Requires Directional Match
-version: 1.0
+version: 2.0
 created: 2026-04-27
-status: v1.0 DRAFT
+rewritten: 2026-05-17 (v2.0 — FULL REWRITE: +By-product match connection, +2-Stream, +Architecture B, +Compiled/Fresh note, +Inter-Body cross-refs, +Label v2.0 vocabulary)
+previous: v1.1 → backup/Gap-Direction-v1.1-backup.md
+status: v2.0 COMPLETE
 scope: |
   CORE MECHANISM FILE: Gap trong chunk network có HƯỚNG CỤ THỂ.
   Gap direction = f(surrounding chunk network structure).
@@ -11,6 +13,9 @@ scope: |
   "Chưa biết = không có gap" = foundational principle.
   Unified model: Tier 1-4 chunks cùng substrate, khác depth/origin.
   2-layer model: signal mechanism (Layer 1) × direction content (Layer 2).
+  v2.0: Gap direction = WHY by-product match works (Inter-Body connection).
+  v2.0: 2-Stream × gap direction. Architecture B × gap direction.
+  v2.0: Compiled/Fresh evaluation processing.
 purpose: |
   Body-Feedback-Mechanism.md §3.3 define Chunk-Gap:
     "Structure predict C should exist → C chưa compile → HOLE"
@@ -21,6 +26,8 @@ purpose: |
   ③ Reward = direction match quality (không chỉ "fill gap or not")
   ④ 2-layer model clarify tại sao Schultz 1997 "đúng nhưng chưa đủ"
   ⑤ Gap direction install, Background Pattern constraint, implications
+  ⑥ v2.0: Gap direction = THE MECHANISM underneath by-product match
+     (Inter-Body-Mechanism.md §5.4 — B's output match A's gap DIRECTION)
 position: |
   Core-Deep-Dive/Body-Base/Body-Feedback/ — ngang hàng Body-Feedback-Mechanism.md.
   Body-Feedback-Mechanism.md = WHAT gap is (chunk dynamics mechanism)
@@ -28,8 +35,11 @@ position: |
   03-Reward.md = WHEN reward fires (H10 preconditions + case analyses)
   BỔ SUNG nhau — KHÔNG THAY THẾ.
 dependencies:
-  - Body-Feedback-Mechanism.md v1.1 — §3.3 Chunk-Gap definition, Shift/Miss/Gap
-  - Body-Feedback.md v1.1 — H10 5 preconditions, dual-pull
+  - Body-Feedback-Mechanism.md v2.0 — §3.3 Chunk-Gap definition, Shift/Miss/Gap, §1 Body-Need aggregate
+  - Body-Feedback.md v2.0 — H10 5 preconditions, dual-pull
+  - Body-Feedback-Label.md v2.0 — vocabulary consistency, §2 Foundation terms
+  - Inter-Body-Mechanism.md v1.0 — §2 Body-Need direction, §5 by-product match, §5.3 Full Chain
+  - By-Product-Gap-Resonance.md v1.0 — §2 2-Stream Architecture, §1.5 by-product match
   - 03-Reward.md — Ô Tô Paradox C2.1-C2.5, Van Gogh gradient, H10 cases
   - Chunk.md v2.0 — chunk substrate, compile, activation dynamics
   - Background-Pattern.md v1.0 — BP bias gap direction landscape
@@ -37,8 +47,10 @@ dependencies:
   - Schema.md v2.0 — observation parameter, §4 depth, §8 body baseline
   - Cortisol-Baseline.md v2.0 — amplifier, direction tag, novelty vs threat
   - Imagine-Final.md — preview mechanism, Gap→Miss transition
-  - Connection.md v3.0 — giving reward, SPM-mediated, altruism
+  - Connection.md v3.3 — giving reward, SPM-mediated, altruism
   - Gratitude.md v1.0 — H10 applied to gifts, gap pre-requisite
+  - SPM v3.0 — Compiled/Fresh processing (Stream 2 mechanism)
+  - Body-Base.md v3.1 — Architecture B (3 foundations)
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -67,9 +79,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Gap direction = NỘI DUNG predict (khác CÁI GÌ cụ thể).**
 > **Cần CẢ HAI để giải thích tại sao reward là PERSONAL.**
 >
+> **v2.0: Gap direction = WHY by-product match works.**
+> **B fill gap CỦA B → output → match A's gap DIRECTION → A reward.**
+> **Direction mismatch = output vô dụng DÙ "tốt" theo objective measure.**
+>
 > **File này: Gap direction LÀ GÌ, TẠI SAO tất yếu,**
 > **"Chưa biết = không có gap" hoạt động THẾ NÀO,**
-> **và TẠI SAO đây là chìa khóa hiểu reward mechanism.**
+> **TẠI SAO đây là chìa khóa hiểu reward mechanism,**
+> **và v2.0: TẠI SAO đây là foundation cho inter-body by-product match.**
 
 ---
 
@@ -87,10 +104,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §9 — GAP DIRECTION × BACKGROUND PATTERN
 - §10 — ABSTRACT ACTIVITY × BODY-BASE
 - §11 — EXAMPLES
-- §12 — IMPLICATIONS
-- §13 — OPEN QUESTIONS
-- §14 — HONEST ASSESSMENT
-- §15 — CROSS-REFERENCES
+- §12 — GAP DIRECTION × INTER-BODY: BY-PRODUCT MATCH + 2-STREAM (★ NEW v2.0)
+- §13 — IMPLICATIONS
+- §14 — OPEN QUESTIONS
+- §15 — HONEST ASSESSMENT
+- §16 — CROSS-REFERENCES
 
 ---
 
@@ -153,11 +171,21 @@ H10 5 PRECONDITIONS (Body-Feedback.md §6):
     ❌ Gap direction có thể INSTALL từ bên ngoài (F3 for gaps)
     ❌ Background Pattern CONSTRAIN gap direction landscape
 
+  v2.0 — THIẾU THÊM 1 TẦNG (chưa có trong v1.0):
+    ❌ Gap direction = WHY by-product match works (Inter-Body §5.4)
+    ❌ B's output match A's gap DIRECTION → A reward
+    ❌ Direction mismatch = ANTI-MATCH (not just no-match)
+    ❌ 2-Stream connection: Stream 1 = hardware gap direction matched,
+       Stream 2 = SPM-mediated gap direction matched
+    ❌ Architecture B × gap direction: general-purpose reward =
+       gap direction KHÔNG hardwired per-content → emerge from chunk network
+
   HẬU QUẢ CỦA THIẾU:
     → Khi nói "gap fill → reward" — thiếu giải thích 
       tại sao CÙNG gap mà fill KHÁC → reward KHÁC
     → Khi nói "reward = personalized" — thiếu MECHANISM underneath
     → Khi nói "P4 Goldilocks match" — thiếu specify match VỚI CÁI GÌ
+    → Khi nói "by-product match" — thiếu giải thích TẠI SAO match/mismatch
     → = Framework mô tả ĐÚNG nhưng chưa GIẢI THÍCH tầng sâu nhất
 ```
 
@@ -170,6 +198,8 @@ FILE NÀY:
   → FORMALIZE consequences tất yếu từ "gap = hole in network"
   → BRIDGE giữa: gap mechanism (§3.3) ↔ reward evaluation (H10) ↔ 
     personalized reward (03-Reward §5.9)
+  → v2.0: BRIDGE giữa: gap direction ↔ by-product match ↔ 2-Stream
+    (WHY inter-body reward works = output match gap DIRECTION)
   → = Missing explanatory layer giữa "chunks fire" và "reward fires"
 ```
 
@@ -256,6 +286,55 @@ FILE NÀY:
     §3.3 = "Hệ thống báo cháy HOẠT ĐỘNG thế nào" (mechanism)
     Gap Direction = "Cháy Ở ĐÂU và cần dập KIỂU GÌ" (content)
     → Cần CẢ HAI: detect + specify
+```
+
+### §1.4 — Gap Direction × By-Product Match (★ v2.0)
+
+```
+⭐ GAP DIRECTION = WHY BY-PRODUCT MATCH WORKS:
+
+  Inter-Body-Mechanism.md §5.4 principle:
+    Entity B fill gap CỦA B → output = by-product
+    Khi by-product match gap direction CỦA A → A receives reward
+
+  GAP DIRECTION IS THE MECHANISM UNDERNEATH:
+    → "Match" = B's output KHỚP HƯỚNG CỤ THỂ của A's gap
+    → "Mismatch" = B's output MISS hướng A's gap (no reward)
+    → "Anti-match" = B's output CONFLICTS A's gap direction (friction)
+
+  VÍ DỤ QUA LENS GAP DIRECTION:
+
+    Tiền đạo → Hậu vệ:
+      Hậu vệ A: gap "muốn đội thắng" → direction = "bàn thắng + phòng ngự"
+      Tiền đạo B: fill gap CỦA B "muốn score" → output = bàn thắng
+      B's output = bàn thắng → match A's direction "đội thắng"
+      → A reward. B KHÔNG biết/cần biết A's gap direction.
+      = By-product match VÌ directions tình cờ ALIGNED.
+
+    Bố mua xe cổ cho con:
+      Con A: gap direction = "xe đẹp thời thượng giới trẻ"
+      Bố B: fill gap CỦA BỐ "muốn con vui" → output = xe cổ (bố's aesthetic)
+      B's output = xe cổ → MISS A's direction (sai aesthetic)
+      → A KHÔNG reward. Bố có ý tốt nhưng output MISS DIRECTION.
+      = By-product MISMATCH vì bố's gap direction ≠ con's gap direction.
+
+    CEO đổi mới ↔ nhân viên thích ổn định:
+      Nhân viên A: gap direction = "stability, routine, predictable"
+      CEO B: fill gap CỦA B "muốn growth" → output = change, disruption
+      B's output = change → CONFLICTS A's direction (opposite to stability)
+      → A NEGATIVE (active friction, not just no-match).
+      = ANTI-MATCH: by-product actively conflicts gap direction.
+
+  ⭐ TẠI SAO BY-PRODUCT MATCH XẢY RA ĐỦ THƯỜNG XUYÊN?
+    → Species-level hardware overlap → gap directions PARTIALLY overlap
+    → Cùng loài → cùng basic needs → basic gap directions SIMILAR
+    → Culture/language = shared chunk install → shared gap directions
+    → Self-selection: gravitate toward high match-rate partners
+    → = Foundation cho Resonance (By-Product-Gap-Resonance v1.0 §1.5)
+
+🟡 Gap direction as by-product match mechanism = framework synthesis.
+   By-product match principle (Inter-Body §5.4) = 🟡 established logic.
+   Species hardware overlap = 🟢 evolutionary biology.
 ```
 
 ---
@@ -409,7 +488,7 @@ FILE NÀY:
   2 CÂU HỎI KHÁC NHAU, 2 TẦNG KHÁC NHAU:
 
     ┌────────────────────────────────────────────────────────────────┐
-    │                                                                │
+    │                                                                ���
     │  TẦNG 1 — GENESIS ("Chưa biết = không gap"):                  │
     │    Chunks about X = ∅ → Gap about X = impossible               │
     │    → Desire KHÔNG TỒN TẠI                                     │
@@ -526,8 +605,6 @@ FILE NÀY:
      → = "Giá trị văn hóa" = shared gap landscape
      → = Tại sao "happiness" KHÁC nhau giữa cultures
 ```
-
----
 
 ---
 
@@ -787,6 +864,19 @@ FILE NÀY:
   → Khác biệt: ORIGIN + DEPTH + UNIVERSALITY
   → KHÔNG phải "hardware" vs "software" — tất cả chunks
   → Consistent với "chunks = sole substrate" (Chunk.md v2.0 §1)
+
+  v2.0 CONNECTION — ARCHITECTURE B:
+    → Architecture B (Body-Base.md v3.1, Inter-Body §1):
+      general-purpose reward + compilation + social hardware
+    → Gap directions KHÔNG hardwired per-content (Architecture A species)
+    → Gap directions EMERGE from accumulated chunk network
+    → = WHY gap direction is PERSONAL (not species-fixed)
+    → = WHY gap direction CHANGES (chunks accumulate → direction evolves)
+    → Architecture A (insects): gap directions = FIXED (genes specify)
+      → Bee: "find flower with X wavelength" = hardwired direction
+    → Architecture B (humans): gap directions = COMPILED
+      → Human: "find car that matches MY aesthetic" = compiled direction
+    → = Architecture B × gap direction = foundation cho DIVERSITY of desires
 ```
 
 ### §5.2 — 4 Tiers of direction origin
@@ -892,6 +982,44 @@ FILE NÀY:
   ⭐ = 1 model THỐNG NHẤT cho TOÀN BỘ reward/dissonance evaluation
 ```
 
+### §5.5 — Compiled/Fresh processing × gap direction (★ v2.0)
+
+```
+⭐ GAP DIRECTION EVALUATION = COMPILED HOẶC FRESH:
+
+  (Inter-Body-Mechanism.md §3, Body-Feedback-Label.md v2.0 §8)
+
+  COMPILED EVALUATION (F1 — body-direct, cost ≈ 0):
+    → Expert in domain: compiled chunks match CHECK → automatic
+    → Nghe E=mc² → body BIẾT match hay không (Einstein case)
+    → Thấy xe → body BIẾT "đúng ý" hay không (teen case)
+    → Speed: milliseconds. Accuracy: HIGH (nếu chunks phong phú)
+    → = Gap direction match evaluated TRƯỚC PFC aware
+
+  FRESH EVALUATION (F2 — PFC deliberate, costly):
+    → Lĩnh vực mới: PFC phải BUILD match/mismatch assessment
+    → Xem review xe → PFC process specs → "có match gap không?"
+    → Speed: slow (seconds-minutes). Accuracy: VARIABLE.
+    → = PFC TRY to evaluate — nhưng CÓ THỂ SAI (PFC=Lawyer, §7)
+
+  SPECTRUM (không phải binary):
+    → Full compiled: body knows instantly (expert + domain match)
+    → Mostly compiled + some fresh: body guides + PFC fine-tunes
+    → Mostly fresh: PFC lead + body gives vague signal
+    → Full fresh: no compiled chunks → "không biết muốn gì"
+
+  ⭐ TẠI SAO QUAN TRỌNG:
+    → Expert's "feeling" about match = COMPILED evaluation (accurate, fast)
+    → Beginner's "analysis" of match = FRESH evaluation (slow, uncertain)
+    → "Trust your gut" = trust compiled evaluation (IF chunks phong phú)
+    → "Think carefully" = use fresh evaluation (IF compiled insufficient)
+    → = Dual Check (Ask-AI v3.1): body = quality controller, domain = arbiter
+
+🟡 Compiled/Fresh evaluation spectrum = framework synthesis.
+   Compiled processing = automatic = 🟢 (dual-process theory, Kahneman 2011).
+   Fresh PFC processing = deliberate = 🟢 (working memory literature).
+```
+
 ---
 
 ## §6 — 2-LAYER MODEL: SIGNAL MECHANISM vs DIRECTION CONTENT
@@ -949,6 +1077,16 @@ FILE NÀY:
   │    = Body detect + biết direction = reward hoặc dissonance  │
   │                                                             │
   └─────────────────────────────────────────────────────────────┘
+
+  v2.0 NOTE — BY-PRODUCT MATCH × 2-LAYER MODEL:
+    → Inter-body interaction:
+      Layer 1: "B did something" (prediction-delta from B's action)
+      Layer 2: "B's output match MY gap direction?" (direction evaluation)
+    → By-product match = Layer 2 match positive
+    → Anti-match = Layer 2 match NEGATIVE (conflicts direction)
+    → No-match = Layer 1 fires but Layer 2 = neutral (irrelevant)
+    → = 2-layer model giải thích tại sao cùng action của B →
+      A1 reward, A2 no-match, A3 anti-match (khác gap direction)
 ```
 
 ### §6.3 — H10 reinterpretation qua 2 layers
@@ -1030,11 +1168,15 @@ FILE NÀY:
     → 2-layer: Layer 1 (know) ≠ Layer 2 (feel direction) → 
       can diverge → ĐÚNG
 
+  ⑤ "By-product match selective" (v2.0):
+    → 1-layer: B did something unexpected → all observers reward → SAI
+    → 2-layer: Layer 1 fires for all observers, nhưng Layer 2 (direction match)
+      = DIFFERENT per observer → chỉ matching observers reward → ĐÚNG
+    → = Giải thích tại sao cùng 1 action → người thích người ghét
+
   → 2-layer model không THAY THẾ prediction error — 
     THÊM layer underneath giải thích CONTENT
 ```
-
----
 
 ---
 
@@ -1261,6 +1403,15 @@ FILE NÀY:
     ③ Predict chưa thành → gap hình thành: direction = "sản phẩm X"
     ④ Sản phẩm X available → fills gap → reward → purchase
     → = Advertiser engineers gap direction TOWARD their product
+
+  v2.0 NOTE — 5-CHANNEL INPUT VECTOR (Inter-Body §6):
+    → Gap install qua CHANNEL nào?
+    → Ch1 Hardware Sensory: product design triggers Tier 1 (beauty, texture)
+    → Ch3 Compiled Chunks: brand awareness (repeated exposure → compiled)
+    → Ch4 Entity Actions: influencer uses product → social proof
+    → Ch5 PFC Active Chain: ad presents "logical argument" for need
+    → = Marketing uses MULTIPLE channels simultaneously
+    → = Most effective: Ch3+Ch4 (compiled + social) > Ch5 only (just logic)
 ```
 
 ### §8.2 — 4 hình thức gap install
@@ -1427,6 +1578,16 @@ FILE NÀY:
   → = Tier 1 mechanism applied BEYOND original domain
   → Giống: hand evolved for grasping → ALSO used for writing, playing piano
   → = Extended application, NOT malfunction
+
+  v2.0 NOTE — ARCHITECTURE B CONNECTION:
+    → Architecture B = general-purpose reward (Inter-Body §1)
+    → General-purpose = SAME mechanism fires for ANY domain
+    → = WHY abstract activity CAN fire body reward
+    → Architecture A (insects): mechanism SPECIFIC per domain
+      → Bee cannot feel "eureka" about physics
+    → Architecture B (humans): mechanism GENERAL
+      → Human CAN feel "eureka" about abstract patterns
+    → = Abstract gap fill is FEATURE of Architecture B, not bug
 ```
 
 ### §10.3 — 2 con đường serve body-base
@@ -1687,8 +1848,6 @@ FILE NÀY:
 
 ---
 
----
-
 ## §11 — EXAMPLES (organized by property tested)
 
 ### §11.1 — Nhóm A: "Chưa biết = không có gap"
@@ -1876,9 +2035,266 @@ FILE NÀY:
 
 ---
 
-## §12 — IMPLICATIONS
+## §12 — GAP DIRECTION × INTER-BODY: BY-PRODUCT MATCH + 2-STREAM (★ NEW v2.0)
 
-### §12.1 — Education
+### §12.1 — Gap direction = foundation cho by-product match
+
+```
+⭐⭐ BY-PRODUCT MATCH CHỈ HOẠT ĐỘNG NẾU CÓ GAP DIRECTION:
+
+  Inter-Body-Mechanism.md §5.4:
+    "Entity B fill gap CỦA B → output = by-product"
+    "Khi by-product match gap direction CỦA A → A receives reward"
+
+  ANALYSIS QUA GAP DIRECTION:
+    → "Match" = B's output fits THE SPECIFIC SHAPE of A's gap
+    → KHÔNG phải "B did something nice" (vague)
+    → = B's output match A's gap's DIRECTION + SPECIFICITY + RANGE
+    → = Gap direction is THE EVALUATOR for by-product match
+
+  TẠI SAO CẦN GAP DIRECTION ĐỂ HIỂU BY-PRODUCT MATCH:
+
+    ① WITHOUT gap direction: "B output → A reward" = magic
+       → Tại sao CÙNG output B → A1 reward, A2 nothing, A3 annoyance?
+       → = Không có explanatory mechanism
+
+    ② WITH gap direction: "B output match A's specific direction → A reward"
+       → A1 reward: B's output match A1's gap direction ✅
+       → A2 nothing: B's output irrelevant to A2's gap directions
+       → A3 annoyance: B's output CONFLICTS A3's gap direction (anti-match)
+       → = CLEAR mechanism. Testable. Per-person.
+
+  VÍ DỤ TRIPLE-CASE:
+    B = Ca sĩ hát live
+    B's gap: "muốn thể hiện, muốn khán giả thích" → action = hát
+    B's output = bài hát (by-product of filling B's gap)
+
+    A1 (fan 10 năm): gap direction = "nghe bài Y live từ ca sĩ B"
+      → Output match direction EXACTLY → massive reward ✅
+    A2 (đi cùng bạn, không biết ca sĩ): gap direction ≠ music domain
+      → Output = irrelevant → no gap-fill reward (maybe mild novelty)
+    A3 (hàng xóm muốn yên tĩnh): gap direction = "quiet evening"
+      → Output = loud music → CONFLICTS direction → annoyance (anti-match) ❌
+
+    = CÙNG output (bài hát). 3 GAP DIRECTIONS khác nhau. 3 OUTCOMES khác nhau.
+    = Gap direction = THE mechanism explaining selectivity of by-product match.
+
+
+  ⭐ ANTI-MATCH = NOT JUST "NO MATCH" — ACTIVE DIRECTION CONFLICT:
+
+    No-match: B's output irrelevant to A's gap (neutral — no reward, no harm)
+      VD: ca sĩ hát → người không quan tâm → nothing happens
+    
+    Anti-match: B's output ACTIVELY OPPOSES A's gap direction
+      VD: CEO đổi mới → nhân viên gap "ổn định" → change = THREATS stability
+      VD: extrovert loud → introvert gap "quiet" → noise = CONFLICTS direction
+      
+    Anti-match is WORSE than no-match:
+      → No-match = 0 reward (neutral)
+      → Anti-match = NEGATIVE (active dissonance, threat signal)
+      → = Output pushes A FURTHER from gap fill
+      → = Body-feedback: dissonance + possible cortisol (if persistent)
+
+🟡 Gap direction as by-product match foundation = framework synthesis.
+   Each component established separately — integration = contribution.
+```
+
+### §12.2 — 2-Stream Architecture × Gap Direction
+
+```
+⭐ STREAM 1 VÀ STREAM 2 = 2 LOẠI GAP DIRECTION MATCH:
+
+  (By-Product-Gap-Resonance.md v1.0 §2)
+
+  STREAM 1 × GAP DIRECTION:
+    = Hardware-level gap directions matched by EXISTENCE/THUỘC TÍNH
+
+    Mechanism:
+      Entity B TỒN TẠI / CÓ THUỘC TÍNH X
+      → X match A's gap direction (hardware or compiled)
+      → A reward fires
+      B KHÔNG CẦN LÀM GÌ.
+
+    Gap direction involved:
+      → Tier 1 (hardware): baby schema, sexual attractiveness, voice timbre
+      → Tier 2-3 (compiled): status patterns, aesthetic preferences
+      → Direction evaluation: mostly COMPILED (automatic hardware check)
+
+    Properties:
+      → UNIDIRECTIONAL: A has gap, B's existence fills it. No loop.
+      → HABITUATES: constant stimulus → Weber-Fechner → direction "tắt dần"
+        (body adjusts baseline → same stimulus = smaller delta)
+      → MULTI-CHANNEL: beauty + voice + smell = multiple directions matched
+
+    VD:
+      Chồng gap "aesthetic pleasure" → vợ xinh = Stream 1 match
+      Mẹ gap "caregiving fulfillment" → bé cute (baby schema) = Stream 1 match
+      Fan gap "novelty + beauty" → ca sĩ performance = Stream 1 match
+
+
+  STREAM 2 × GAP DIRECTION:
+    = SPM-mediated gap directions matched by ACTIONS (mutual)
+
+    Mechanism:
+      A's SPM detect B's state → A respond phù hợp
+      → A's RESPONSE = by-product of A filling A's gap "hiểu B"
+      → A's response match B's gap direction "được hiểu"
+      → B reward → B respond → B's response match A's gap "được hiểu lại"
+      → = MUTUAL by-product match via SPM-mediated actions
+
+    Gap direction involved:
+      → Tier 2-4 (compiled): understanding, emotional resonance, shared meaning
+      → Direction evaluation: Compiled (F1 — experts in each other) hoặc
+        Fresh (F2 — still learning each other)
+
+    Properties:
+      → BIDIRECTIONAL: CẦN cả 2 match nhau's gap directions
+      → ANTI-HABITUATION: Hebbian → more practice → better match → MORE reward
+        (direction matching IMPROVES → reward INCREASES over time)
+      → Can CHANGE gap direction: deep Stream 2 → A can help B see new gaps
+        ("bạn thân nói 1 câu thay đổi cách nhìn" = install chunks → new direction)
+
+    VD:
+      Bạn thân A: gap "được hiểu mà không cần giải thích"
+        → B SPM compiled → respond EXACTLY matching → A massive reward
+      Therapist: gap direction "help client see clearly"
+        → Client SPM reciprocate → therapist reward (mutual Stream 2)
+
+
+  TEMPORAL DYNAMIC:
+    Stream 1: PEAKS EARLY → habituates (hedonic treadmill)
+    Stream 2: ZERO at start → grows → deepens → can become STRONGEST
+
+    Total direction-match reward = Stream 1 + Stream 2 (independent, parallel)
+    Sustainable relationships: Stream 2 growth > Stream 1 decline
+    Failing relationships: Stream 1 habituated + Stream 2 never developed
+
+🟡 2-Stream × gap direction = framework synthesis.
+   Hedonic adaptation (Stream 1) = 🟢.
+   Interpersonal synchrony (Stream 2) = 🟢 (Feldman 2007, Coan & Sbarra 2015).
+```
+
+### §12.3 — Architecture B × Gap Direction: general-purpose evaluation
+
+```
+⭐ ARCHITECTURE B = WHY GAP DIRECTION IS NOT FIXED:
+
+  (Inter-Body-Mechanism.md §1, Body-Base.md v3.1)
+
+  Architecture A (insects):
+    → Hardwired reward: flower wavelength X → approach
+    → Gap direction = FIXED by genes per species
+    → ALL members = SAME gap directions (bee 1 = bee 2)
+    → = CANNOT explain personal reward differences
+
+  Architecture B (humans):
+    → General-purpose reward: ANY compiled gap fill → reward
+    → Gap direction = EMERGED from accumulated chunk network
+    → Each person = UNIQUE gap directions (different chunks compiled)
+    → = EXPLAINS personal reward differences PERFECTLY
+
+  IMPLICATIONS FOR INTER-BODY:
+    → Architecture B = WHY by-product match is SELECTIVE
+      (mỗi người có different directions → different matches)
+    → Architecture B = WHY relationships are PERSONAL
+      (my directions overlap SOME people, not others)
+    → Architecture B = WHY cultural bonding works
+      (shared chunk install → shared directions → easier match)
+    → Architecture B = WHY diversity valuable
+      (different directions → different outputs → richer by-product landscape)
+
+  INTER-BODY CONSEQUENCE:
+    → A and B have gap directions determined by THEIR chunk networks
+    → Match probability = f(overlap in gap direction landscape)
+    → Species hardware = SOME overlap guaranteed (Tier 1 shared)
+    → Culture = ADDITIONAL overlap (Tier 2-3 shared install)
+    → Personal experience = DIVERGENCE (Tier 4 individual)
+    → = WHY "cùng nhóm nhưng KHÁC mức kết nối" = different Tier 4 overlap
+```
+
+### §12.4 — 3 Independent Cost Sources × Gap Direction
+
+```
+🟡 3-COST MODEL APPLIES TO GAP DIRECTION EVALUATION:
+
+  (Inter-Body-Mechanism.md §4)
+
+  KHI EVALUATE BY-PRODUCT MATCH:
+
+    ① PFC DRAFT COST — "B's output match my direction không?"
+       → If COMPILED (F1): cost ≈ 0 (body knows instantly)
+         VD: bạn thân nói → body BIẾT match hay không (milliseconds)
+       → If FRESH (F2): cost HIGH (PFC phải build evaluation)
+         VD: stranger's proposal → PFC analyze fit (seconds-minutes)
+       → = Expert in relationship → lower evaluation cost
+
+    ② SUPPRESS COST — "Output miss my direction → must suppress reaction"
+       → Anti-match → body fires dissonance → want to react (withdraw/fight)
+       → Social context requires suppress → PFC override → glucose
+       → VD: CEO change → employee SUPPRESS frustration daily = costly
+       → = Chronic direction-mismatch + suppress = burnout trajectory
+
+    ③ UNCERTAINTY COST — "Will B's output match my direction?"
+       → Unknown entity: can't predict → cortisol
+       → Known entity: predict accurately → low uncertainty
+       → = WHY familiar = comfortable (direction-match predictable)
+       → = WHY new = stressful even if ultimately good
+
+  SUSTAINABILITY:
+    → Low all 3 costs = sustainable interaction (bạn thân compiled)
+    → High ① = new territory (learning phase — acceptable if temporary)
+    → High ② = chronic mismatch (→ burnout, need to exit)
+    → High ③ = instability (→ anxiety until resolved)
+    → = Gap direction match QUALITY determines interaction sustainability
+```
+
+### §12.5 — Input Channel Control × Gap Direction
+
+```
+🟡 5-CHANNEL INPUT VECTOR DETERMINES WHICH GAP DIRECTIONS ACTIVATE:
+
+  (Inter-Body-Mechanism.md §6)
+
+  5 CHANNELS:
+    Ch1: Hardware Sensory (visual, auditory, touch, smell, taste)
+    Ch2: Body State (hunger, fatigue, hormone level)
+    Ch3: Compiled Chunks (activated patterns from memory)
+    Ch4: Entity Actions (other entities' observable behaviors)
+    Ch5: PFC Active Chain (deliberate thoughts, plans, predictions)
+
+  × GAP DIRECTION:
+    → Gap direction activation DEPENDS on which channels active
+    → Ch1 dominant (sensory-rich): Tier 1 gap directions activate
+      VD: music concert → auditory → Tier 1 aesthetic gaps fire
+    → Ch3 dominant (memory-triggered): Tier 2-4 gap directions activate
+      VD: reunion → compiled friend-chunks fire → Stream 2 gaps activate
+    → Ch4 dominant (entity-focused): by-product match evaluation active
+      VD: observe B's actions → evaluate match/mismatch to my directions
+    → Ch5 dominant (PFC-driven): abstract gap directions active
+      VD: planning → Tier 4 career/knowledge gaps fire
+
+  INTER-BODY APPLICATION:
+    → Entity B primarily enters via Ch1 + Ch4 (perceive + observe actions)
+    → WHICH gap directions B can match = limited by available channels
+    → Text-only communication: Ch5 dominant, Ch1 minimal
+      → Only match abstract/intellectual gap directions
+    → In-person: Ch1 + Ch3 + Ch4 full → match wider range of directions
+      → Stream 1 (Ch1: beauty, voice) + Stream 2 (Ch4: responsive actions)
+    → = WHY in-person > text for deep bonding (more channels = more matches)
+
+  MANIPULATION = CONTROL CHANNELS TO DISTORT GAP DIRECTION:
+    → Propaganda: Ch4 (social proof) + Ch5 (arguments) → install specific direction
+    → Advertising: Ch1 (beauty) + Ch4 (influencer) → associate product with direction
+    → Gaslighting: Ch4 (entity actions) + Ch5 (reframe) → distort existing directions
+    → = Power = control over WHICH directions get activated
+    → = Inter-Body-Mechanism.md §6: "Input Channel Control = Power"
+```
+
+---
+
+## §13 — IMPLICATIONS
+
+### §13.1 — Education
 
 ```
 🟡 GIÁO DỤC PHẢI BUILD CHUNKS TRƯỚC, PRESENT ANSWERS SAU:
@@ -1897,7 +2313,7 @@ FILE NÀY:
     → = "Build the question before giving the answer"
 ```
 
-### §12.2 — Therapy
+### §13.2 — Therapy
 
 ```
 🟡 THERAPY = MAP AND EXPAND GAP LANDSCAPE:
@@ -1919,7 +2335,7 @@ FILE NÀY:
     → NOT: prescribe "happiness = X" (install someone else's direction)
 ```
 
-### §12.3 — Marketing (ethical vs exploitative)
+### §13.3 — Marketing (ethical vs exploitative)
 
 ```
 🟡 HIỂU GAP INSTALL → HIỂU MARKETING:
@@ -1939,7 +2355,7 @@ FILE NÀY:
     → = Awareness of mechanism = partial immunity
 ```
 
-### §12.4 — Parenting
+### §13.4 — Parenting
 
 ```
 🟡 PARENTING: HIỂU CHILD'S GAP DIRECTION ≠ PARENT'S:
@@ -1954,9 +2370,17 @@ FILE NÀY:
     → Requires: understand child's chunk network → infer gap direction
     → CANNOT assume: "tôi thích → con cũng thích"
     → CAN help: build chunks cho con → gap direction develop naturally
+
+  v2.0 NOTE — BY-PRODUCT MATCH IN PARENTING:
+    → Parent fill parent's gap "nuôi con tốt" → output = choices
+    → Output = by-product of parent's gap direction ("tốt" = parent's definition)
+    → IF parent's "tốt" definition match child's gap directions → child thrives
+    → IF parent's "tốt" = parent's projection → MISS child's directions
+    → = Ô Tô Paradox = by-product mismatch in parent-child
+    → Solution: SPM toward child → detect CHILD's gap directions → adjust output
 ```
 
-### §12.5 — AI era
+### §13.5 — AI era
 
 ```
 🟡 AI CAN HELP IDENTIFY + ARTICULATE GAP DIRECTIONS:
@@ -1973,11 +2397,18 @@ FILE NÀY:
     → AI suggestions MUST be body-checked by user
     → = 3-tầng (AI-Schema-Detection.md): AI detect → expert verify → 
       client body-check
+
+  v2.0 NOTE — AI × BY-PRODUCT MATCH:
+    → AI output = by-product of "fill user's query" (AI's "task")
+    → User evaluate: "AI output match MY gap direction?"
+    → Body-check: does answer FEEL right? (compiled evaluation)
+    → Domain-check: does answer WORK? (reality arbiter)
+    → = Dual Check applies to AI output exactly like human by-product
 ```
 
 ---
 
-## §13 — OPEN QUESTIONS
+## §14 — OPEN QUESTIONS
 
 ```
 GD-Q1: Gap direction CHANGE dynamics:
@@ -2015,11 +2446,23 @@ GD-Q6: Gap direction INHERITANCE across generations:
   → Via: parenting (chunk install) + culture (shared chunks) + epigenetics?
   → VD: family values = shared gap direction landscape?
   → 🟡 Cultural transmission established, epigenetic mechanism speculative
+
+GD-Q7 (v2.0 NEW): By-product match OPTIMIZATION:
+  → Can entities LEARN to produce by-products that match others' directions?
+  → Stream 2 SPM = exactly this (learn partner's direction → respond better)
+  → Is there a "market" for direction-matching (economic analogy)?
+  → 🟡 SPM compilation = learning direction-matching (established)
+
+GD-Q8 (v2.0 NEW): Anti-match ACCUMULATION:
+  → Does repeated anti-match CHANGE gap directions?
+  → VD: employee in toxic workplace → gap direction SHIFTS to "escape"?
+  → Or: BP forms around anti-match → direction DISTORTS?
+  → 🔴 Plausible (chronic stress literature) but not specifically formalized
 ```
 
 ---
 
-## §14 — HONEST ASSESSMENT
+## §15 — HONEST ASSESSMENT
 
 ```
 🟢 HIGH CONFIDENCE (established research supports):
@@ -2033,6 +2476,8 @@ GD-Q6: Gap direction INHERITANCE across generations:
   → Hedonic adaptation (range): Brickman et al. 1978
   → External chunk install: established (education, advertising, social influence)
   → Background patterns bias processing: implicit learning literature
+  → Interpersonal synchrony: Feldman 2007
+  → Social co-regulation: Coan & Sbarra 2015
 
 🟡 FRAMEWORK SYNTHESIS (novel integration of established components):
 
@@ -2052,6 +2497,20 @@ GD-Q6: Gap direction INHERITANCE across generations:
     → Both concepts established — interaction = framework contribution
   → Abstract activity serve body-base via 2 pathways:
     → Each pathway described — explicit 2-pathway model = framework contribution
+  → v2.0: Gap direction = by-product match foundation:
+    → Gap direction + by-product match both established separately
+    → Integration: "match = direction match" = logical, testable
+  → v2.0: 2-Stream × gap direction:
+    → Stream 1 = hardware direction match (unidirectional, habituates)
+    → Stream 2 = SPM direction match (mutual, deepens)
+    → Each stream established — gap direction lens = framework contribution
+  → v2.0: Architecture B × gap direction diversity:
+    → General-purpose reward → gap directions emerge from chunks (not hardwired)
+    → = Explains personal reward differences
+  → v2.0: 3-cost × gap direction evaluation:
+    → Each cost established — application to direction evaluation = integration
+  → v2.0: Compiled/Fresh gap direction evaluation:
+    → Dual-process (compiled/fresh) = 🟢 — application to gap = synthesis
 
 🔴 HYPOTHESIS (needs further analysis):
 
@@ -2061,59 +2520,81 @@ GD-Q6: Gap direction INHERITANCE across generations:
   → Exact reward magnitude formula (direction_match × specificity × depth × range)
   → Sleep × gap direction refinement
   → Intergenerational gap direction transmission
+  → v2.0: By-product match optimization dynamics
+  → v2.0: Anti-match accumulation and direction distortion
 
 
 SUMMARY:
-  🟢 8 established   (research-supported components)
-  🟡 8 synthesis     (novel integration — logical, consistent, productive)
-  🔴 6 hypothesis    (plausible, needs further analysis/evidence)
+  🟢 10 established  (research-supported components)
+  🟡 14 synthesis    (novel integration — logical, consistent, productive)
+  🔴 8 hypothesis    (plausible, needs further analysis/evidence)
 
   OVERALL ASSESSMENT:
   → Core claim "gap has direction" = 🟢🟡 (logical necessity + consistent)
   → "Chưa biết = không gap" = 🟡 (logical, needs explicit test)
   → 2-layer model = 🟡 (clarifying, each layer established)
   → Formalization = 🟡 (framework contribution, not new discovery)
+  → v2.0: By-product match × gap direction = 🟡 (logical integration)
+  → v2.0: 2-Stream × gap direction = 🟡 (each component established)
   → Specifics (formula, dynamics) = 🔴 (speculative)
 
   → Giả thiết của user ĐÚNG ở core claim
   → File này formalize what was implicit → make usable for analysis
+  → v2.0: CONNECT gap direction to inter-body framework (by-product match + 2-Stream)
 ```
 
 ---
 
-## §15 — CROSS-REFERENCES
+## §16 — CROSS-REFERENCES
 
-### §15.1 — Core mechanism files
+### §16.1 — Core mechanism files
 
 ```
-  Body-Feedback-Mechanism.md v1.1  — §3.3 Chunk-Gap (extends), §3.1-§3.2 (Shift/Miss)
-  Body-Feedback.md v1.1           — §6 H10 (reinterprets qua 2 layers)
+  Body-Feedback-Mechanism.md v2.0  — §3.3 Chunk-Gap (extends), §3.1-§3.2 (Shift/Miss),
+                                     §1 Body-Need aggregate
+  Body-Feedback.md v2.0           — §6 H10 (reinterprets qua 2 layers)
+  Body-Feedback-Label.md v2.0     — §2 Foundation terms, §4 dissonance labels,
+                                     §8 Compiled/Fresh processing
+  Inter-Body-Mechanism.md v1.0    — §2 Body-Need direction, §5 by-product match + Full Chain,
+                                     §1 Architecture B, §3 Compiled/Fresh, §4 3-cost,
+                                     §6 5-Channel Input Vector
   03-Reward.md                    — §5 Ô Tô Paradox (perfect test case), §6 Van Gogh
   04-Integration.md               — §6-8 Einstein/hedonic/trauma walkthroughs
   Chunk.md v2.0                   — §1-§4 substrate, §2 compile, §2 calibration tiers
   Background-Pattern.md v1.0      — §6 BP×SPM, §10 resolution (extends via §9)
 ```
 
-### §15.2 — Observation files
+### §16.2 — Agent-Mechanism files
+
+```
+  By-Product-Gap-Resonance.md v1.0       — §2 2-Stream Architecture, §1.5 by-product match,
+                                     §2.4 anti-match
+  Self-Pattern-Match.md v3.0      — §1 Compiled/Fresh, F1/F2 processing, Stream 2 mechanism
+  Body-Coupling.md v2.0           — coupling direction, Entity-Compiled subtypes
+  Valence-Propagation.md v2.0     — §3 Entity-Compiled (positive/negative/mixed)
+```
+
+### §16.3 — Observation files
 
 ```
   Novelty.md v1.0                 — §1 Chunk-Gap = foundation, §4 loop dynamics
   Schema.md v2.0                  — §4.1 depth (extends), §5.1 conflict
   Gratitude.md v1.0               — H10 applied to gifts (gap prerequisite)
-  Connection.md v3.0              — §8 giving pathway, altruism mechanism
+  Connection.md v3.3              — §8 giving pathway, altruism mechanism
+  Body-Base.md v3.1               — Architecture B (3 foundations), entry point
 ```
 
-### §15.3 — PFC + processing files
+### §16.4 — PFC + processing files
 
 ```
   Imagine-Final.md                — Preview → direction sharpens (§7.2)
-  Self-Pattern-Match.md v2.1      — SPM gap fill (abstract activity §10)
   Somatic-Articulation-Loop.md    — Felt sense = body detects gap direction 
                                     trước PFC verbal label
   Cortisol-Baseline.md v2.0       — Direction tag (novelty vs threat cortisol)
+  Ask-AI.md v3.1                  — Dual Check (body=quality controller, domain=arbiter)
 ```
 
-### §15.4 — Key research
+### §16.5 — Key research
 
 ```
   🟢 Schultz, Dayan, Montague 1997 — reward prediction error (Layer 1)
@@ -2125,14 +2606,76 @@ SUMMARY:
   🟢 Berlyne 1960, 1971           — optimal arousal theory (Goldilocks)
   🟢 Brickman et al. 1978         — hedonic adaptation
   🟢 Amabile & Kramer 2011        — progress principle (mini-arc reward)
+  🟢 Feldman 2007                 — interpersonal synchrony (Stream 2)
+  🟢 Coan & Sbarra 2015           — social co-regulation, social baseline theory
+  🟢 Kahneman 2011                — dual-process (compiled/fresh parallel)
+  🟢 Eisenberger 2003             — social pain = physical pain circuits
+  🟢 Panksepp 1998                — social play reward = food reward circuits
+```
+
+### §16.6 — Health Conditions Drill (v1.1)
+
+```
+  AUTISM SPECIAL INTERESTS = CONCENTRATED GAP-DIRECTION:
+    → Autism-Observation.md §6: Special Interests = same gap-direction mechanism, concentrated
+    → Monotropic attention (Murray 2005) → gap-direction resources FOCUSED on 1-2 domains
+    → "Feature not bug" — same Chunk-Gap drive, different DISTRIBUTION of attention
+    → = Clinical validation: gap-direction explains WHY Special Interests are intensely rewarding
+      (narrow gap + deep surrounding chunks → very specific direction → high reward on match)
+
+  Cross-refs:
+    → Autism-Observation.md v1.0 §6 (Special Interests mechanism)
+    → ADHD-Observation.md v1.2 §4 (hyperfocus = related but different: dopamine-sustained)
 ```
 
 ---
 
-> *Gap-Direction.md v1.0 — "Gap trong chunk network có HƯỚNG CỤ THỂ.*
+> *Gap-Direction.md v2.0 — "Gap trong chunk network có HƯỚNG CỤ THỂ.*
 > *Direction = f(surrounding chunk network structure).*
 > *Chưa biết = không có gap = bạn không thể thiếu thứ bạn không biết tồn tại.*
 > *Prediction error = signal mechanism (Layer 1).*
 > *Gap direction = content evaluation (Layer 2).*
 > *Reward = direction match quality, not just 'fill gap or not'.*
-> *1 model thống nhất cho toàn bộ reward mechanism: Tier 1-4 cùng substrate."*
+> *1 model thống nhất cho toàn bộ reward mechanism: Tier 1-4 cùng substrate.*
+>
+> *v2.0: Gap direction = WHY by-product match works.*
+> *B fill gap CỦA B → output match A's gap DIRECTION → A reward.*
+> *2-Stream: Stream 1 = hardware direction match. Stream 2 = SPM mutual direction match.*
+> *Architecture B: gap directions EMERGE from chunks (not hardwired) = WHY personal."*
+
+---
+
+## CHANGELOG
+
+```
+v1.0 (2026-04-27):
+  → File mới. Gap direction formalized. 4 properties. "Chưa biết = không gap."
+  → 2-layer model. Unified Tier 1-4. 22 examples. Einstein full lifecycle.
+
+v1.1 (2026-05-15):
+  → §15 Autism Special Interests validation (Murray 2005).
+  → Health Conditions Drill cross-refs (Autism-Observation, ADHD-Observation).
+
+v2.0 (2026-05-17):
+  → FULL REWRITE — Inter-Body Drill propagation (Phase 9).
+  → NEW §1.4: Gap Direction × By-Product Match — gap direction = WHY match works.
+  → NEW §5.5: Compiled/Fresh processing × gap direction evaluation.
+  → NEW §6.2 addition: by-product match × 2-layer model connection.
+  → NEW §6.4 ⑤: "by-product match selective" explained via 2-layer.
+  → NEW §8.1 addition: 5-Channel Input Vector × gap install.
+  → NEW §10.2 addition: Architecture B connection (abstract = feature not bug).
+  → NEW §12: Gap Direction × Inter-Body — CORE NEW SECTION (~250L):
+    §12.1: Gap direction = foundation cho by-product match
+    §12.2: 2-Stream Architecture × Gap Direction
+    §12.3: Architecture B × Gap Direction (general-purpose evaluation)
+    §12.4: 3 Independent Cost Sources × Gap Direction
+    §12.5: Input Channel Control × Gap Direction
+  → §13.4: Parenting v2.0 note (by-product match in parent-child).
+  → §13.5: AI era v2.0 note (AI × by-product match).
+  → §14: +GD-Q7, +GD-Q8 (new open questions from inter-body connection).
+  → §15: Honest Assessment UPDATE (+4🟡, +2🔴, +5🟢 research).
+  → §16: Cross-refs updated to Phase 1-8 versions.
+  → ALL 22 examples PRESERVED. ALL 9→14 research citations PRESERVED + EXPANDED.
+  → Vocabulary consistent with Body-Feedback-Label.md v2.0.
+  → v1.1 content: 100% PRESERVED + ENRICHED (no deletions).
+```

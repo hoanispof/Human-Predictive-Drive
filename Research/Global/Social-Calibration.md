@@ -23,8 +23,9 @@
 
 ---
 
-> **Trạng thái:** v1.0
+> **Trạng thái:** v1.1
 > **Ngày:** 2026-05-13
+> **Refined:** 2026-05-17 (v1.1 — 2-Tier+2-Pathway reframe, F1/F2 Compiled/Fresh, 11 dep versions updated)
 > **Vị trí:** Research/Global/ — synthesis file, KHÔNG phải core mechanism.
 > **Scope:** SYNTHESIS — tổng hợp mechanisms hiện có (~13 files) để mô tả
 >   hệ thống calibration xã hội: cái gì, tại sao, đang vỡ ở đâu.
@@ -34,22 +35,22 @@
 >   "Cái gì vẫn hoạt động, cái gì cần thay thế?"
 > **Bộ 3 song song:**
 >   ① Social-Calibration.md (FILE NÀY) — WHERE WE CAME FROM
->   ② Human-AI-Future.md v2.0 — WHERE WE'RE GOING (MACRO/civilization)
->   ③ AI-Self-Model.md v1.0 — WHERE WE'RE GOING (MICRO/individual)
+>   ② Human-AI-Future.md v3.0 — WHERE WE'RE GOING (MACRO/civilization)
+>   ③ AI-Self-Model.md v2.0 — WHERE WE'RE GOING (MICRO/individual)
 > **Dependencies:**
 >   - Self-Created-Threat.md v1.0 — §5.5 source material (5 components, full cycle)
->   - Collective-Body.md v1.1 — Model 3 Cấp, trust = only bridge, chain dài ở Cấp 2
->   - Connection.md v3.1 — 3 Generative Primitives, co-regulation, "cô đơn"
->   - Status.md v2.0 — Resource Access Map, disruption cycle
->   - Body-Base.md v2.0 — 4-tier calibration (§6)
+>   - Collective-Body.md v2.0 — Model 3 Cấp, trust = only bridge, chain dài ở Cấp 2
+>   - Connection.md v4.0 — 3 Generative Primitives, co-regulation, "cô đơn"
+>   - Status.md v2.1 — Resource Access Map, disruption cycle
+>   - Body-Base.md v3.1 — 2-Tier + 2-Pathway calibration (§7)
 >   - Expansion-Saturation-Crisis.md v1.1 — Expansion→Discovery shift
 >   - Core-Software.md v1.0 — cycle architecture, dual-pull
->   - Meaning.md v2.0 — 5 types meaning, life-level anchor
->   - Religion.md v2.2 — 7 functions melody technology
+>   - Meaning.md v2.1 — 5 types meaning, life-level anchor
+>   - Religion.md v2.3 — 7 functions melody technology
 >   - Education-Arms-Race.md v1.2 — positional good, credential inflation
->   - Human-AI-Future.md v2.0 — symbiosis, salami slicing
->   - AI-Self-Model.md v1.0 — amplification mechanism
->   - Cortisol-Baseline.md v2.0 — amplifier, repair
+>   - Human-AI-Future.md v3.0 — symbiosis, salami slicing
+>   - AI-Self-Model.md v2.0 — amplification mechanism
+>   - Cortisol-Baseline.md v2.1 — amplifier, repair
 > **Confidence:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Language:** Tiếng Việt primary + English technical terms
 
@@ -110,12 +111,12 @@
     │   → 7 functions, lịch sử tiến hóa, đang vỡ ở đâu          │
     │   → Focus: CÁI ĐANG MẤT                                    │
     ├─────────────────────────────────────────────────────────────┤
-    │ ② Human-AI-Future.md v2.0                                   │
+    │ ② Human-AI-Future.md v3.0                                   │
     │   → WHERE WE'RE GOING — MACRO (civilization)               │
     │   → AI × loài người: arms race, symbiosis, collective      │
     │   → Focus: TƯƠNG LAI ở quy mô LOÀI                         │
     ├─────────────────────────────────────────────────────────────┤
-    │ ③ AI-Self-Model.md v1.0                                     │
+    │ ③ AI-Self-Model.md v2.0                                     │
     │   → WHERE WE'RE GOING — MICRO (individual)                 │
     │   → AI × cá nhân: amplifier, self-model, body-listening    │
     │   → Focus: TƯƠNG LAI ở quy mô CÁ NHÂN                     │
@@ -133,11 +134,11 @@
       → Bảng 5 components + full cycle = SOURCE DATA chính
       → File NÀY mở rộng: 5 → 7 functions + lịch sử + evidence + breakdown analysis
 
-    Religion.md v2.2 §1:
+    Religion.md v2.3 §1:
       → 7 functions CỦA TÔN GIÁO (1 technology)
       → File NÀY: 7 functions CỦA XÃ HỘI (whole system, religion = 1 provider)
 
-    Collective-Body.md v1.1:
+    Collective-Body.md v2.0:
       → Model 3 Cấp (Individual → Collective → Framework)
       → File NÀY: HOW Cấp 2 (collective) TỰ CHẠY calibration cho Cấp 1
 
@@ -186,21 +187,23 @@
 
   ⭐ FRAMEWORK MAPPING:
 
-    ① Collective-Body.md v1.1 — Model 3 Cấp:
+    ① Collective-Body.md v2.0 — Model 3 Cấp:
        → Cấp 2 (collective) HOLD chain dài cho Cấp 1 (individual)
        → Cá nhân compile NGẮN: [đi làm → lương → ấm]
        → Xã hội hold DÀI: [đi làm → kinh tế → xã hội ổn → tất cả benefit]
        → Trust = bridge DUY NHẤT giữa 2 cấp
        → FILE NÀY: xã hội = Cấp 2 infrastructure cho calibration
 
-    ② Body-Base.md v2.0 §6 — 4-Tier Calibration:
-       → Tier 1: Evolution (triệu năm — gen wired)
-       → Tier 2: Development (suốt đời — experience)
-       → Tier 3: CULTURE (qua thế hệ — share calibration) ← FILE NÀY
-       → Tier 4: AI (hiện tại — chunks unlimited)
-       → FILE NÀY focus Tier 3: xã hội calibrate qua thế hệ
+    ② Body-Base.md v3.1 §7 — 2-Tier + 2-Pathway Calibration:
+       → Tầng 1: Darwinian (triệu năm — gen wired, không đổi)
+       → Tầng 2: Hebbian (suốt đời — experience → compile) với 2 đường vào:
+         - 2a Domain Contact (tự trải nghiệm trực tiếp — multi-modal, chậm, thick)
+         - 2b Trust-Injected (bố mẹ/thầy/sách/tôn giáo/AI truyền qua trust gate — nhanh, thinner)
+       → Culture = 2a passive (social env → compile vô thức) + 2b (accumulated transmission)
+       → AI = newest 2b input source (inject chunks, body vẫn phải check)
+       → FILE NÀY focus: xã hội = PRIMARY PROVIDER pathway 2b Trust-Injected
 
-    ③ Connection.md v3.1 §0:
+    ③ Connection.md v4.0 §0:
        → Agents = external tools cho body-base
        → MỖI agent = 1 source feeding body-base qua channels KHÁC NHAU
        → Connection drive = drive MAINTAIN ACCESS to external tools
@@ -208,7 +211,7 @@
 
     → TẤT CẢ 3 mapping = consistent:
        Xã hội = Cấp 2 infrastructure (CB)
-                = Tier 3 calibration (BB)
+                = PRIMARY provider pathway 2b Trust-Injected (BB §7)
                 = organized connection patterns (Conn)
        = CÁC GÓC NHÌN KHÁC NHAU vào CÙNG 1 hiện tượng
 
@@ -292,7 +295,7 @@
     → Imagine-Final pre-installed (Loại C trust-compile)
     → Self-Created-Threat.md: external direction CLEAR → cá nhân KHÔNG CẦN tự tìm
     → Compile-Taxonomy.md: Type C install = trust gate → body nhận → compile short
-    → Meaning.md v2.0: ROLE type anchor (§3.5) = xã hội install identity+direction gói 1
+    → Meaning.md v2.1: ROLE type anchor (§3.5) = xã hội install identity+direction gói 1
 
     🟡 Cá nhân KHÔNG tự chọn — xã hội PRE-INSTALL:
        → Con nhà thợ rèn → thợ rèn. Con nhà nông → nông.
@@ -316,7 +319,7 @@
     ③ Religion provide life-direction:
        → "Sống tốt → lên thiên đàng" = Imagine-Final pre-installed
        → Direction KHÔNG CHỈ nghề — cả CÁCH SỐNG
-       → Religion.md v2.2 §2.1: FAITH type anchor = life-level direction
+       → Religion.md v2.3 §2.1: FAITH type anchor = life-level direction
 
     🟢 Evidence: Shepard 2023 — guilds = identity + lifecycle calibration.
        Guild system không chỉ training — mà identity infrastructure.
@@ -347,7 +350,7 @@
 
     → External threat → cortisol → drive
     → Self-Created-Threat.md §5: external threat = nguồn drive CŨ
-    → Cortisol-Baseline.md v2.0: cortisol = amplifier, direction > level
+    → Cortisol-Baseline.md v2.1: cortisol = amplifier, direction > level
     → Body-Feedback-Mechanism.md: Chunk-Gap fire → dissonance → action
 
     🟡 Xã hội cũ: threat NGOÀI → drive TỰ CHẠY:
@@ -404,9 +407,9 @@
   MECHANISM (framework mapping):
 
     → Social reward + body-base reward (opioid per domain)
-    → Connection.md v3.1 §5: 8 valence chain pathways
-    → Body-Feedback.md v1.1: H10 — 5 preconditions cho real reward
-    → Gratitude.md v1.1: 3 anti-habituation mechanisms
+    → Connection.md v4.0 §5: 8 valence chain pathways
+    → Body-Feedback.md v2.0: H10 — 5 preconditions cho real reward
+    → Gratitude.md v2.0: 3 anti-habituation mechanisms
 
     🟡 Xã hội cũ: reward THẬT, SOCIAL, BODY-LEVEL:
        → Làm xong → lương (body-base feed trực tiếp)
@@ -464,9 +467,9 @@
   MECHANISM (framework mapping):
 
     → Cortisol reset + connection + body-input replenishment
-    → Cortisol-Baseline.md v2.0: repair = cortisol về baseline
+    → Cortisol-Baseline.md v2.1: repair = cortisol về baseline
     → Self-Created-Threat §5.5 ⑤: REPAIR = tắt threat + thả lỏng
-    → Body-Base.md v2.0: body-inputs cần replenish (sleep, food, social)
+    → Body-Base.md v3.1: body-inputs cần replenish (sleep, food, social)
 
     🟡 Xã hội cũ: repair CƯỠNG BỨC — bạn KHÔNG CÓ lựa chọn:
        → Trời tối → ngủ (không có đèn điện)
@@ -529,10 +532,10 @@
 
   MECHANISM (framework mapping):
 
-    → Domain feedback qua social agents (Connection.md v3.1)
+    → Domain feedback qua social agents (Connection.md v4.0)
     → AI-Schema-Detection.md v2.0 §9: 3 Cấp Detection
-    → Body-Feedback.md v1.1: external check cho 10% body sai
-    → Collective-Body.md v1.1 §5: trust = bridge, nhưng cần verification
+    → Body-Feedback.md v2.0: external check cho 10% body sai
+    → Collective-Body.md v2.0 §5: trust = bridge, nhưng cần verification
 
     🟡 Xã hội cũ: feedback TỰ NHIÊN, KHÔNG CẦN HỎI:
        → Hàng xóm nói "con bạn hư" → feedback
@@ -602,7 +605,7 @@
   MECHANISM (framework mapping):
 
     → Anchor-Schema compile (Anchor-Schema.md: sync point, Trust binding)
-    → Meaning.md v2.0: life-level anchor, 5 types (§3 IDENTITY type §3.3)
+    → Meaning.md v2.1: life-level anchor, 5 types (§3 IDENTITY type §3.3)
     → Compile-Taxonomy.md: Loại C trust-install → body nhận identity
     → Self-Created-Threat.md §5.5: Imagine-Final pre-installed
 
@@ -674,9 +677,9 @@
 
   MECHANISM (framework mapping):
 
-    → Connection.md v3.1: 3 Generative Primitives model
+    → Connection.md v4.0: 3 Generative Primitives model
        ❶ Hardware Social Drive (body CẦN social input giống food/water)
-       ❷ SPM (F1 Feeling + F2 Logic — simulate agents khác)
+       ❷ SPM (F1 Compiled + F2 Fresh — simulate agents khác)
        ❸ Per-Agent Valence (body đánh giá agent NÀY ảnh hưởng tôi thế nào)
 
     → Connection §0: Agents = external tools cho body-base
@@ -824,7 +827,7 @@
 
   ⭐ KEY DEVELOPMENT: RELIGION FORMALIZE 7 FUNCTIONS
 
-    Religion.md v2.2 §1: tôn giáo = melody technology cover 7/7 functions.
+    Religion.md v2.3 §1: tôn giáo = melody technology cover 7/7 functions.
 
     ┌──────────────┬─────────────────────────────────────────────────┐
     │ Function     │ Religion provides                                │
@@ -1018,7 +1021,7 @@
 
   ⭐ RELIGION = TEST CASE TỐT NHẤT:
 
-    Religion.md v2.2 §1: tôn giáo cover 7/7 functions bằng 1 package.
+    Religion.md v2.3 §1: tôn giáo cover 7/7 functions bằng 1 package.
     = TECHNOLOGY tổng hợp hiệu quả NHẤT trong lịch sử cho calibration.
 
     Khi tôn giáo SUY GIẢM (Pew: 90%→65%):
@@ -1164,7 +1167,7 @@
        → Cortisol KHÔNG reset → chronic → anxiety/burnout
        → Blue light → melatonin suppressed → sleep quality GIẢM
 
-    → Cross-ref: Cortisol-Baseline.md v2.0 §8 — chronic cortisol
+    → Cross-ref: Cortisol-Baseline.md v2.1 §8 — chronic cortisol
 
 
   ⑤ CHECK (REVERSED):
@@ -1196,7 +1199,7 @@
        → Self-building identity = requires meta-cognition + life experience
        → = Impossible for many young people → chronic "who am I?"
 
-    → Cross-ref: Meaning.md v2.0 §2 — meaning question when anchor absent
+    → Cross-ref: Meaning.md v2.1 §2 — meaning question when anchor absent
 
 
   ⑦ CONNECTION (THINNING):
@@ -1316,15 +1319,15 @@
 
   ① BODY-FEEDBACK (~90% accurate) — KHÔNG BAO GIỜ MẤT:
 
-    → Body-Base.md v2.0: 4 tiers calibrate chồng lập
-    → Tier 1 (Evolution) = gen wired → KHÔNG thay đổi
-    → Tier 2 (Development) = experience → VẪN tích lũy
+    → Body-Base.md v3.1 §7: 2-Tier + 2-Pathway calibrate
+    → Tầng 1 (Darwinian) = gen wired → KHÔNG thay đổi
+    → Tầng 2 (Hebbian) pathway 2a Domain Contact → VẪN hoạt động
     → Body vẫn cho REWARD khi đúng, PAIN khi sai
-    → = Foundation KHÔNG thay đổi — infrastructure thay đổi
+    → = 2 CƠ CHẾ vẫn intact — INPUT SOURCE (pathway 2b) đang mất
 
     🟡 Framework lens:
-       → Cái MẤT: Tier 3 (Culture/xã hội) infrastructure
-       → Cái CÒN: Tier 1 (Evolution) + Tier 2 (Development)
+       → Cái MẤT: pathway 2b Trust-Injected (xã hội/culture truyền chunks qua trust gate)
+       → Cái CÒN: Tầng 1 (Darwinian) + Tầng 2 pathway 2a (Domain Contact)
        → Body-feedback = COMPASS vẫn hoạt động
        → Nhưng compass VÔ DỤNG nếu môi trường quá noisy (micro-novelty, AI confirm)
 
@@ -1516,7 +1519,7 @@
     ③ Guide SELF-calibration development:
        → Body-listening → detect which function needs attention
        → Self-Created-Threat → learn to self-push (when external absent)
-       → Pattern-Resonance → find people/community that genuinely fit
+       → Resonance → find people/community that genuinely fit
        → = Skills development path
 
   ⭐ FRAMEWORK KHÔNG LÀM GÌ:
@@ -1560,7 +1563,7 @@
        Alternative: could be 5, 6, 8, or different grouping.
 
     → "Auto-calibration system" = framework metaphor
-       Useful for understanding. Body-Base §6 Tier 3 supports.
+       Useful for understanding. Body-Base §7 pathway 2b supports.
        But "thermostat" metaphor = simplification. Real system = more complex.
 
     → Compound breakdown = framework inference
@@ -1578,6 +1581,12 @@
     → Temporal vs Background distinction
        Logical from §5.5 analysis. Useful for intervention planning.
        But not externally validated as categorization.
+
+    → 2-Tier + 2-Pathway calibration reframe (v1.1)
+       Body-Base v3.1 §7: chỉ 2 cơ chế (Darwinian + Hebbian), culture/AI = input sources.
+       Xã hội = pathway 2b provider → consistent with framework.
+       Reframe from "4-tier stacking" → "2 mechanisms + 2 pathways".
+       Internally coherent. Chưa tested as calibration model separately.
 
 
   🔴 GIẢ THUYẾT (predictions, need evidence):
@@ -1677,23 +1686,23 @@
 ```
 ⭐ MECHANISM FILES:
 
-  → Collective-Body.md v1.1 — Model 3 Cấp: Individual → Collective → Framework
+  → Collective-Body.md v2.0 — Model 3 Cấp: Individual → Collective → Framework
      Xã hội = Cấp 2 infrastructure. Trust = bridge. Chain dài ở Cấp 2.
      FILE NÀY: HOW Cấp 2 provide 7 calibration functions.
 
-  → Connection.md v3.1 — 3 Generative Primitives, co-regulation, "cô đơn"
+  → Connection.md v4.0 — 3 Generative Primitives, co-regulation, "cô đơn"
      §0: agents = external tools. §16: cô đơn analysis.
      FILE NÀY: Connection = 1 trong 7 functions (§2.7).
 
-  → Status.md v2.0 — Resource Access Map, disruption cycle
+  → Status.md v2.1 — Resource Access Map, disruption cycle
      Status = evolutionary proxy for body-base access.
      FILE NÀY: status markers = PART OF calibration system.
 
-  → Body-Base.md v2.0 — 4-tier calibration (§6)
-     Tier 3 (Culture) = share calibration qua thế hệ.
-     FILE NÀY: DEEP-DIVE vào Tier 3 — what it provides, how it's breaking.
+  → Body-Base.md v3.1 — 2-Tier + 2-Pathway calibration (§7)
+     Xã hội = PRIMARY PROVIDER pathway 2b Trust-Injected (Hebbian via trust gate).
+     FILE NÀY: DEEP-DIVE vào pathway 2b — what it provides, how it's breaking.
 
-  → Meaning.md v2.0 — life-level Anchor-Schema, 5 types
+  → Meaning.md v2.1 — life-level Anchor-Schema, 5 types
      Identity function (§2.6) maps to Anchor-Schema mechanism.
      FILE NÀY: identity = 1 trong 7 functions.
 
@@ -1701,19 +1710,19 @@
      Drive cycle = temporal functions architecture.
      FILE NÀY: temporal vs background functions distinction.
 
-  → Cortisol-Baseline.md v2.0 — amplifier, repair mechanism
+  → Cortisol-Baseline.md v2.1 — amplifier, repair mechanism
      Repair function (§2.4) maps to cortisol reset.
      FILE NÀY: repair = 1 trong 7 functions.
 
 
 ⭐ PARALLEL FILES (bộ 3):
 
-  → Human-AI-Future.md v2.0 — WHERE WE'RE GOING (MACRO)
+  → Human-AI-Future.md v3.0 — WHERE WE'RE GOING (MACRO)
      AI × civilization: arms race, symbiosis, collective orientation.
      FILE NÀY = WHY Human-AI-Future matters (calibration system breaking
      → HOW we integrate AI determines whether new system emerges).
 
-  → AI-Self-Model.md v1.0 — WHERE WE'RE GOING (MICRO)
+  → AI-Self-Model.md v2.0 — WHERE WE'RE GOING (MICRO)
      AI × cá nhân: amplifier, self-model, body-listening.
      FILE NÀY = WHY AI-Self-Model matters (self-calibration skills
      = necessary because social calibration weakening).
@@ -1726,7 +1735,7 @@
      FILE NÀY: expand 5 → 7, add history + evidence + breakdown analysis.
      §5.5 "3 kỹ năng thời AI" = self-calibration skills (§6.3①).
 
-  → Religion.md v2.2 — 7 functions melody technology
+  → Religion.md v2.3 — 7 functions melody technology
      Religion = TECHNOLOGY cover 7/7 functions.
      FILE NÀY: religion = 1 CARRIER cho calibration system, declining.
      §1 table maps religion → file NÀY's 7 functions.
@@ -1746,6 +1755,17 @@
   → Addiction-Analysis.md — Pull function hijacked
      Micro-novelty bypass H10 → reward pathway hijacked.
      FILE NÀY: Pull = 1 function, addiction = hijack symptom.
+
+
+⭐ DRILL SOURCE + VOCABULARY:
+
+  → Inter-Body-Mechanism.md v1.0 — Architecture B, by-product match, 3-cost, PFC=Lawyer
+     2-Tier + 2-Pathway calibration model source (via Body-Base v3.1 §7).
+     Xã hội = pathway 2b Trust-Injected = accumulated chunk transmission qua thế hệ.
+
+  → Body-Feedback-Label.md v2.0 — VOCABULARY REFERENCE
+     F1 Compiled / F2 Fresh = processing axis (KHÔNG phải Feeling/Logic content).
+     3 Generative Primitives terminology. 2-tầng reward model.
 
 
 ⭐ EVIDENCE (16 citations):
@@ -1776,3 +1796,14 @@
     → Cho et al. 2018 — circadian disruption linked to health conditions
     → Walker & Davis 2023 — shift work → cancer, psychiatric, metabolic
 ```
+
+---
+
+> **v1.1 Changelog (2026-05-17):**
+> ① 4-Tier → 2-Tier + 2-Pathway: Body-Base v3.1 §7 aligned (Darwinian + Hebbian, 2a Domain + 2b Trust-Injected)
+> ② Xã hội reframed: PRIMARY PROVIDER pathway 2b Trust-Injected (not "Tier 3")
+> ③ F1/F2 Compiled/Fresh terminology fix (§2.7 Connection mechanism, L679)
+> ④ 11 dependency versions updated (Connection v4.0, CB v2.0, BB v3.1, HAF v3.0, ASM v2.0, etc.)
+> ⑤ §8 Cross-refs: +DRILL SOURCE block (Inter-Body v1.0, BFL v2.0)
+> ⑥ §7 Honest Assessment: +1🟡 (2-Tier reframe with source refs)
+> ⑦ §6.1 What Remains: reframed with 2-Tier model (cái mất = pathway 2b, cái còn = Tầng 1 + 2a)

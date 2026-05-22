@@ -1,15 +1,16 @@
 ---
 title: Cortisol-Baseline — Change-Readiness Amplifier, KHÔNG Phải Stress Hormone
-version: 2.0
+version: 2.1
 created: 2026-04-18
-status: v2.0 — REFERENCE FILE (comprehensive cortisol mechanism + framework integration)
+updated: 2026-05-15 (v2.1 — §10.7 HPA paradox + prenatal + neurodegeneration bridge, Health Conditions Drill)
+status: v2.1 — REFERENCE FILE (comprehensive cortisol mechanism + framework integration)
 scope: |
   WHAT cortisol IS (reframe: amplifier, NOT stress hormone) + HOW cascade WORKS (cascade timing, inertia)
   + WHERE cortisol PARTICIPATES (10 touchpoints in framework)
   + WHY pain sources are 3 (not cortisol) + Novelty vs Threat distinction (Source > Level)
   + Pathology (PFC damage, trauma loop 4-stage) + Optimization + Honest assessment + Open questions.
   Tích hợp: Cortisol-Baseline-v1 (2026-03-24, backup) + Body-Feedback synthesis (N+12) + Chunk.md v2.0 NT7
-  + Imagine-Final §1.2 + Body-Input-Enumeration §4.9 + Why-Body-Knows 4-tier + Body-Dissonance + Novelty-Loop.
+  + Imagine-Final §1.2 + Body-Input-Enumeration §4.9 + Why-Body-Knows 2-tầng calibration + Body-Dissonance + Novelty-Loop.
 purpose: |
   Central reference file cho cortisol trong framework.
   Thay thế Cortisol-Baseline-v1.md (→ Core-Deep-Dive/backup/Cortisol-Baseline-v1.md).
@@ -20,7 +21,7 @@ sources: |
   Chunk.md v2.0 §2.4 NT7 — cortisol = direction gate at compile
   Imagine-Final.md §1.2 — cortisol gates Imagine-Final activation levels
   Body-Input-Enumeration.md §4.9 — self-signal interoception keystone
-  Why-Body-Knows.md §4 — 4-tier calibration theory (evo/dev/culture/AI)
+  Why-Body-Knows.md v1.1 §3 — 2-tầng calibration (Darwinian + Hebbian, 2 đường vào)
   Body-Dissonance.md §2 — 14 dissonance levels × 6 sources
   Threat.md + Threat-Drive-Analysis.md — cortisol cascade + sustainer role
   PFC-Analysis.md §8.4 — NE α1/α2 circuit breaker mechanism
@@ -63,7 +64,7 @@ backup: Core-Deep-Dive/backup/Cortisol-Baseline-v1.md
 > Holding signal / Feeling observation / Silent cortisol.
 >
 > Cortisol baseline KHÔNG phải "hardware given" —
-> là ENDPOINT CALIBRATED qua 4 tầng (evolution + development + culture + AI).
+> là ENDPOINT CALIBRATED qua 2 tầng (Darwinian selection + Hebbian compilation).
 >
 > File này: CORTISOL LÀ GÌ, HOW cascade works, WHERE cortisol participates,
 > 3 nguồn đau thật, Novelty vs Threat ("Source > Level"),
@@ -285,44 +286,50 @@ CƠ CHẾ NEURON-LEVEL (chi tiết §5):
 ### §1.3 Cortisol baseline = CALIBRATED endpoint, KHÔNG phải GIVEN
 
 ```
-⭐ INSIGHT QUAN TRỌNG (Why-Body-Knows §4 — 4-tier calibration):
+⭐ INSIGHT QUAN TRỌNG (Why-Body-Knows v1.1 §3 — 2-tầng calibration):
 
   Cortisol baseline KHÔNG phải "hardware bug" hay "cái cho sẵn."
-  → Là ENDPOINT EMERGENT từ 4 tầng calibration:
+  → Là ENDPOINT EMERGENT từ 2 tầng calibration (2 CƠ CHẾ KHÁC NHAU):
 
-  TẦNG 1 — EVOLUTION (triệu năm):
+  TẦNG 1 — DARWINIAN SELECTION (triệu năm):
     → Chọn lọc tự nhiên calibrated cortisol system cho survival
     → "Cortisol để sustain mobilization" = tối ưu trong môi trường
       nguy hiểm lẻ tẻ (hổ, đói, rét)
     → Current baseline range (~6-25 μg/dL sáng) = evolution-calibrated
+    → Cơ chế gen-level: KHÔNG thay đổi trong lifetime
 
-  TẦNG 2 — DEVELOPMENT (childhood + lifetime):
-    → Mỗi người RECALIBRATE baseline qua experience
-    → Trải nghiệm trauma tuổi thơ → baseline HIGH permanent hơn
-    → Môi trường an toàn ổn định → baseline thấp hơn
-    → 🟢 ACE studies: childhood adversity → adult baseline elevation
-    → Body "TÁCH chi tiết hơn" qua chunks accumulation
-      → Expert feel micro-cortisol biến động novice không thấy
+  TẦNG 2 — HEBBIAN COMPILATION (suốt đời):
+    → Cơ chế: experience → body-feedback → Hebbian strengthen → compiled
+    → Nhưng 2 ĐƯỜNG VÀO rất khác:
 
-  TẦNG 3 — CULTURE (shared calibration):
-    → Culture shape threats đáng sợ, challenges đáng theo đuổi
-    → Người lớn dạy "lửa nóng" → cortisol response cho "lửa" không cần tự thử
-    → Vietnamese post-war: culture-level cortisol baseline elevated (war trauma)
-    → Modern work culture: chronic deadline → collective baseline shift
+    Đường 2a — Domain Contact (trải nghiệm trực tiếp):
+      → Mỗi người RECALIBRATE baseline qua experience
+      → Trải nghiệm trauma tuổi thơ → baseline HIGH permanent hơn
+      → Môi trường an toàn ổn định → baseline thấp hơn
+      → 🟢 ACE studies: childhood adversity → adult baseline elevation
+      → Body "TÁCH chi tiết hơn" qua chunks accumulation
+        → Expert feel micro-cortisol biến động novice không thấy
 
-  TẦNG 4 — AI (emerging):
-    → AI tools giảm cần tìm insight qua rung cortisol cao
-    → Previously: need HIGH cortisol để discover → painful + slow
-    → Now: AI provides chunks → discover with LOWER cortisol → less damage
-    → = Baseline có thể giảm được ở population level nếu AI integration tốt
+    Đường 2b — Trust-Injected (dạy/share qua trust gate):
+      → Culture shape threats đáng sợ, challenges đáng theo đuổi
+      → Người lớn dạy "lửa nóng" → cortisol response cho "lửa" không cần tự thử
+      → Vietnamese post-war: culture-level baseline elevated (war trauma truyền qua 2b)
+      → Modern work culture: chronic deadline → collective baseline shift
+      → AI tools giảm cần tìm insight qua rung cortisol cao
+        → Previously: need HIGH cortisol để discover → painful + slow
+        → Now: AI provides chunks → discover with LOWER cortisol → less damage
+        → = Baseline có thể giảm ở population level nếu AI integration tốt
+
+  ⚠️ Culture, AI, bố mẹ dạy = INPUT SOURCES cho Tầng 2 Hebbian.
+     KHÔNG phải "tầng" riêng biệt — cùng cơ chế compile, khác nguồn input.
+     (Why-Body-Knows v1.1 §3.5)
 
 ⚠️ HÀM Ý CHO FRAMEWORK:
-  → "Baseline cao" = RESULT của 4-tier stack, KHÔNG phải "bạn yếu"
-  → Thay đổi baseline = cần tác động lên tầng nào đó:
-    Tầng 2 (developmental): therapy, rebuild safety
-    Tầng 3 (cultural): change environment, new community
-    Tầng 4 (tooling): AI support, cognitive offload
-  → Tầng 1 (evolution) = không đổi được trong lifetime
+  → "Baseline cao" = RESULT của 2-tầng calibration, KHÔNG phải "bạn yếu"
+  → Thay đổi baseline = tác động lên Tầng 2 (Tầng 1 = không đổi trong lifetime):
+    Đường 2a: new experiences, therapy, rebuild safety (domain contact)
+    Đường 2b: change environment, new community, AI support (trust-injected)
+  → Tầng 1 (Darwinian) = không đổi được trong lifetime
 
   🟡 Framework synthesis — consistent với ACE studies + cross-cultural research
 ```
@@ -2644,6 +2651,81 @@ MA TRẬN SPIKE × TIME:
   🟡 Framework derivation — consistent với clinical anxiety observation
 ```
 
+### §10.7 — Health Conditions Drill enrichments (v2.1)
+
+```
+⭐ 3 INSIGHTS TỪ HEALTH CONDITIONS DRILL:
+
+  ① YEHUDA HPA PARADOX — Acute HIGH → Chronic LOW (PTSD-Analysis §5):
+
+    §10.1-10.4 imply: PTSD = cortisol LUÔN CAO.
+    Yehuda 1990/2001/2004: chronic PTSD = cortisol baseline THẤP.
+
+    ┌─────────────────────┬────────────────────┬────────────────────┐
+    │                     │ Chronic stress     │ PTSD chronic        │
+    ├─────────────────────┼────────────────────┼────────────────────┤
+    │ Cortisol baseline   │ HIGH ↑             │ LOW ↓ (paradox)    │
+    │ GR (Glucocorticoid R)│ Downregulated ↓    │ UPREGULATED ↑      │
+    │ Negative feedback   │ Blunted            │ ENHANCED            │
+    │ CRH (upstream)      │ Elevated           │ ALSO elevated       │
+    │ System              │ Stuck HIGH         │ Overshoot LOW       │
+    └─────────────────────┴────────────────────┴────────────────────┘
+
+    RECONCILIATION:
+      §10.1-10.2 ĐÚNG cho ACUTE (days-weeks): cortisol spike → encoding damage
+      Yehuda ĐÚNG cho CHRONIC (months-years): system overcompensates → LOW baseline
+      = 2 PHASES, not contradiction:
+        ENCODING phase (acute): cortisol HIGH → context tags lost (Chunk.md §2.6)
+        MAINTENANCE phase (chronic): cortisol LOW + system HYPERSENSITIVE
+      = LOW baseline ≠ LOW reactivity — micro-spikes from neutral events (§10.6)
+
+    CLINICAL IMPLICATION:
+      Treatment CANNOT just "giảm cortisol" (already low!)
+      May need: RESTORE moderate cortisol for hippocampal function
+      + RECALIBRATE Glucocorticoid Receptor sensitivity
+
+    🟢 Yehuda 1990, 2001, 2004: HPA paradox established
+    🟡 2-phase reconciliation = framework synthesis
+
+
+  ② PRENATAL PATHWAY — Cortisol shifts offspring calibration (PTSD-Analysis §13.2):
+
+    Maternal PTSD during pregnancy (3rd trimester):
+      → Maternal cortisol profile altered (Yehuda paradox)
+      → Placental 11β-HSD2 enzyme: normally BUFFERS fetal cortisol
+      → Maternal PTSD → reduced 11β-HSD2 → fetus OVER-EXPOSED
+      → Fetal HPA axis PERMANENTLY recalibrated to reactive state
+
+    CONNECTS TO §1.3 — 2-tầng calibration:
+      → Tầng ② Đường 2a (domain contact) can be disrupted IN UTERO
+      → Offspring start life with SHIFTED calibration
+      → Not "traumatized" (no direct trauma) but VULNERABLE (hardware pre-set)
+
+    🟡 Prenatal pathway = moderate evidence
+    🔴 Proportion biology vs environment = unknown
+
+
+  ③ CORTISOL × NEURODEGENERATION — α-synuclein bridge (Parkinson-Analysis §3.8):
+
+    Bhatt et al. 2019 (Neurobiology of Aging):
+      → Chronic cortisol → AGGRAVATES α-synuclein brain spreading pathology
+      → Chain: stress chronic → cortisol↑ → oxidative damage↑
+        → mitochondrial dysfunction↑ → α-syn environment dễ misfold hơn
+      → DOUBLE HIT: cortisol↑ → BDNF↓ = tăng toxic + giảm protection
+
+    CONNECTS TO FRAMEWORK:
+      → §10 trauma loop: chronic cortisol → PFC damage (known)
+      → THÊM: chronic cortisol → NEURODEGENERATION pathway (new)
+      → = Cortisol damage KHÔNG chỉ PFC dendrites — còn substrate long-term
+      → = Bridge: mental health ↔ neurodegeneration (cortisol is link)
+
+    🟢 Bhatt 2019: cortisol × α-syn in animals
+    🟡 Cortisol as neurodegeneration bridge = framework synthesis
+
+
+  → Chi tiết: PTSD-Analysis.md §5, §13; Parkinson-Analysis.md §3.8
+```
+
 ---
 
 ## §11 — CASE STUDIES
@@ -3097,7 +3179,7 @@ FRAMEWORK CONTRIBUTIONS:
   🟡 Holding Signal for imagination loop (§3.8)
   🟡 Silent Cortisol pathology (§3.10)
   🟡 Cortisol inertia / quán tính (§2.3)
-  🟡 Baseline = CALIBRATED endpoint (4-tier)
+  🟡 Baseline = CALIBRATED endpoint (2-tầng + 2 đường)
   🟡 Net health = repair − damage equation
   🟡 Inverted-U as emergent (not just empirical)
   🟡 Personalized peak (6 parameters)
@@ -3108,6 +3190,9 @@ FRAMEWORK CONTRIBUTIONS:
   🟡 Re-association 3-Path (paths 1-2 clinical, path 3 emerging)
   🟡 Mini-resolve cascades (decomposition exploits gradient)
   🟡 Recovery asymmetry (damage fast, recovery slow) as evolutionary design
+  🟡 HPA paradox 2-phase reconciliation (v2.1): acute HIGH → chronic LOW
+  🟡 Prenatal cortisol → offspring calibration shift (v2.1)
+  🟡 Cortisol × neurodegeneration bridge via α-synuclein (v2.1)
 ```
 
 ### §13.3 🔴 Hypothesis (needs testing)
@@ -3183,7 +3268,7 @@ EXPLICIT HYPOTHESES:
 PARENT + SUBSTRATE:
   → Body-Base.md (parent — L0/L1/L3 substrate model)
   → Body-Input-Enumeration.md §4.9 (self-signal interoception keystone)
-  → Why-Body-Knows.md §4 (4-tier calibration theory)
+  → Why-Body-Knows.md v1.1 §3 (2-tầng calibration + 2 đường vào)
 
 REWARD ARCHITECTURE (2026-05-10 NEW):
   → Reward-Signal-Architecture.md v1.0 — Profile ④ Relief = cortisol DROP reward
@@ -3216,6 +3301,11 @@ DEVELOPMENTAL / PATHOLOGY:
   → 05-Theme-E (empathy fatigue = cortisol drift)
   → Somatic-Articulation-Loop.md (body knowledge vs verbal)
 
+HEALTH CONDITIONS DRILL (v2.1):
+  → PTSD-Analysis.md v1.0 — §5 Yehuda HPA paradox (→ §10.7①), §13 prenatal (→ §10.7②)
+  → Parkinson-Analysis.md v1.1 — §3.8 cortisol × α-synuclein (→ §10.7③)
+  → Informed: §10.7 (3 enrichments), §13.2 (3 synthesis claims)
+
 HISTORICAL:
   → Cortisol-Baseline-v1.md (backup/ — 2026-03-24 version)
     Superseded by this v2.0. Content preserved in backup.
@@ -3236,7 +3326,7 @@ POSITIONING:
 > *Là ĐIỆN cho máy tính, GYM cho neurons, LÍNH CỨU HỎA cho mismatch.*
 >
 > *Cortisol baseline KHÔNG phải hardware given —*
-> *là ENDPOINT CALIBRATED qua 4 tầng (evolution + development + culture + AI).*
+> *là ENDPOINT CALIBRATED qua 2 tầng (Darwinian selection + Hebbian compilation).*
 >
 > *Cortisol participates trong 10 cơ chế nền tảng framework —*
 > *từ chunk direction đến Imagine-Final activation,*
