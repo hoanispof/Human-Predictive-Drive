@@ -8,7 +8,7 @@ scope: |
   RESEARCH FILE: Phân tích OCD (Obsessive-Compulsive Disorder) qua mô hình
   3 tuyến phòng thủ "done" pipeline. Kết nối OCD ↔ Love ↔ Serotonin.
   v2.0 KEY CHANGES vs v1.0 (v7.5 era):
-    ① Chunk dynamics mapping: OCD qua BFM (Shift/Miss/Gap)
+    ① Chunk dynamics mapping: OCD qua Body-Feedback-Mechanism (Shift/Miss/Gap)
     ② Spreading activation: serotonin ↓ = uninhibited cascade → obsessive loop
     ③ Cortisol 5 Roles applied (Holding/Threat-sustained/Silent)
     ④ PFC-Function mapping: tuyến 3 = HOLD + PROCESS, override fail mechanism
@@ -16,7 +16,7 @@ scope: |
     ⑥ All terminology v7.5 → v7.8
   v2.1 KEY ADDITIONS (2026-04-26):
     ⑦ §4.5 Serotonin ↓ = AMPLIFIER, NOT ROOT CAUSE (feedback loop model)
-    ⑧ §4.5b SPM childhood bias × OCD-like in love (anxious attachment mechanism)
+    ⑧ §4.5b Self-Pattern-Modeling childhood bias × OCD-like in love (anxious attachment mechanism)
     ⑨ §4.6 Cross-species evidence (deer mice, SAPAP3, Hoxb8, dogs, primates)
     ⑩ Updated Honest Assessment + Open Questions with new predictions
   v2.2 KEY ADDITIONS (2026-05-15 — post Health Conditions Drill):
@@ -330,12 +330,12 @@ PANDAS (Pediatric Autoimmune Neuropsychiatric Disorders
 
 > **Section MỚI v2.0**: Map OCD vào v7.8 chunk-centric architecture.
 
-### §4.1 — OCD qua chunk dynamics (BFM)
+### §4.1 — OCD qua chunk dynamics (Body-Feedback-Mechanism)
 
 ```
 🟡 OCD MAP VÀO BODY-FEEDBACK-MECHANISM.MD:
 
-  OCD OBSESSION = PATTERN-DRIVEN trigger (BFM §2.3):
+  OCD OBSESSION = PATTERN-DRIVEN trigger (Body-Feedback-Mechanism §2.3):
     → Chunks fire NỘI BỘ (không cần external stimulus thật)
     → "Tay bẩn" = chunks fire MÀ KHÔNG CẦN thực sự chạm bẩn
     → = Pattern-Driven ⓐ REPLAY + ⓔ SPREADING ACTIVATION
@@ -367,7 +367,7 @@ PANDAS (Pediatric Autoimmune Neuropsychiatric Disorders
     │  = Cùng mechanism. Khác: done detector output quality.     │
     └────────────────────────────────────────────────────────────┘
 
-    BFM §5 Quality Baseline Shift cũng áp dụng:
+    Body-Feedback-Mechanism §5 Quality Baseline Shift cũng áp dụng:
     → Mỗi lần rửa thêm = baseline "sạch" TĂNG thêm
     → = Threshold "đủ sạch" DẦN CAO HƠN qua mỗi compulsion
     → = OCD ESCALATE theo thời gian vì baseline SHIFT LÊN
@@ -529,11 +529,11 @@ PANDAS (Pediatric Autoimmune Neuropsychiatric Disorders
       → NHƯNG root cause = STRESS, không phải serotonin tự giảm
 
     Love (limerence):
-      → SPM library incomplete (mới gặp) → prediction-deltas CAO
+      → Self-Pattern-Modeling library incomplete (mới gặp) → prediction-deltas CAO
       → Body GENUINE uncertainty about partner
       → Serotonin ↓ = ADAPTIVE RESPONSE (monitor cần thiết)
       → + Obligation unknown ("tôi phải trả GÌ để giữ?")
-      → + Có thể childhood SPM bias (§4.5b)
+      → + Có thể childhood Self-Pattern-Modeling bias (§4.5b)
       → = Serotonin ↓ = CONSEQUENCE of real uncertainty
 
 
@@ -577,45 +577,45 @@ PANDAS (Pediatric Autoimmune Neuropsychiatric Disorders
     Root cause = tuyến 1 hardware / stress / genuine uncertainty
 ```
 
-### §4.5b — SPM bias từ tuổi thơ × OCD-like trong Love
+### §4.5b — Self-Pattern-Modeling bias từ tuổi thơ × OCD-like trong Love
 
 ```
 🟡 TẠI SAO MỘT SỐ NGƯỜI "YÊU" INTENSE HƠN → OCD-LIKE HƠN:
 
-  SPM LIBRARY BUILD TỪ CAREGIVER (Connection §3.2, §7):
-    → Bé học SPM TRƯỚC TIÊN trên bố mẹ
+  Self-Pattern-Modeling LIBRARY BUILD TỪ CAREGIVER (Connection §3.2, §7):
+    → Bé học Self-Pattern-Modeling TRƯỚC TIÊN trên bố mẹ
     → Bố mẹ strict / unpredictable:
-      → SPM library build DEEP nhưng THREAT-BIASED
+      → Self-Pattern-Modeling library build DEEP nhưng THREAT-BIASED
         (Cortisol Role ① Compile Direction: AVOIDANCE)
       → Chunks = "close agent → phải CANH CHỪNG"
 
-  ADULT → MEET PARTNER → SPM FIRE CÙNG LIBRARY:
-    → SPM retrieve: "close agent → monitor liên tục"
+  ADULT → MEET PARTNER → Self-Pattern-Modeling FIRE CÙNG LIBRARY:
+    → Self-Pattern-Modeling retrieve: "close agent → monitor liên tục"
     → "Partner buồn → TÔI CÓ LÀM GÌ SAI KHÔNG?"
       (thay vì: "partner buồn vì lý do riêng")
     → = HYPER-MONITORING — không phải vì partner xấu
-      mà vì SPM library compiled TỪ MÔI TRƯỜNG PHẢI monitor
+      mà vì Self-Pattern-Modeling library compiled TỪ MÔI TRƯỜNG PHẢI monitor
 
   HYPER-MONITORING → COMPOUND UNCERTAINTY:
-    → Mỗi expression partner → SPM fire → interpret qua THREAT lens
+    → Mỗi expression partner → Self-Pattern-Modeling fire → interpret qua THREAT lens
     → "Họ yên lặng" → "giận? chán? sắp bỏ?" (predict sai thường xuyên)
     → Prediction-deltas NHIỀU HƠN → uncertainty CAO HƠN
     → + Obligation overthinking: "xứng đáng không? giữ sao? trả GÌ?"
       (Obligation.md: obligation = compiled prediction "cost phải trả"
        → relationship mới = obligation CHƯA COMPILE → Chunk-Gap)
     → = 2 nguồn uncertainty COMPOUND:
-      ① SPM: "họ thật sự cảm thấy gì?"
+      ① Self-Pattern-Modeling: "họ thật sự cảm thấy gì?"
       ② Obligation: "tôi phải trả GÌ để giữ?"
     → → Serotonin ↓ MẠNH HƠN → limerence INTENSE hơn + KÉO DÀI hơn
 
   MAP VÀO ATTACHMENT THEORY (🟢 Bowlby 1969):
-    → "Anxious attachment" = SPM library compiled THREAT-BIASED
+    → "Anxious attachment" = Self-Pattern-Modeling library compiled THREAT-BIASED
     → Adult: monitoring OVER-ACTIVE → uncertainty CHRONIC
     → Serotonin ↓ CHRONIC → limerence = OCD-like STATE
     → = Framework giải thích MECHANISM đằng sau anxious attachment label
 
   ⚠️ KHÔNG CHỈ CHILDHOOD — PARTNER CÓ THỂ LÀ NGUỒN:
-    → Partner genuinely unpredictable → SPM errors CAO vì PARTNER
+    → Partner genuinely unpredictable → Self-Pattern-Modeling errors CAO vì PARTNER
     → = SAME mechanism, DIFFERENT source
     → = Childhood bias + partner unpredictable = COMPOUND → worst case
 ```
@@ -696,7 +696,7 @@ PANDAS (Pediatric Autoimmune Neuropsychiatric Disorders
 
     Người: CẢ HAI + THÊM PFC complexity
       → Hardware (gen) → tuyến 1 lỗi → uncertainty → serotonin ↓
-      → Environment (stress/childhood SPM bias) → uncertainty → serotonin ↓
+      → Environment (stress/childhood Self-Pattern-Modeling bias) → uncertainty → serotonin ↓
       → Obligation overthinking → uncertainty → serotonin ↓
       → = Người có NHIỀU ĐƯỜNG DẪN đến serotonin ↓ hơn chuột/chó
 
@@ -831,7 +831,7 @@ NGƯỜI OCD (contamination type):
 │ Cortisol role   │ ① APPROACH compile   │ ③ Threat-sustained    │
 ├─────────────────┼───────────────────────┼───────────────────────┤
 │ Body-Base Ext   │ Partner → extension   │ KHÔNG (target = object)│
-│ (VP §2)        │ (L2 structural)       │                       │
+│ (Valence-Propagation §2)        │ (L2 structural)       │                       │
 ├─────────────────┼───────────────────────┼───────────────────────┤
 │ Adaptive?       │ CÓ — monitor mate    │ KHÔNG — waste energy   │
 └─────────────────┴───────────────────────┴───────────────────────┘
@@ -848,13 +848,13 @@ YÊU — Timeline serotonin:
     → = ĐÚNG — bond mới CẦN monitoring
 
   Tháng 3-12: BONDING
-    → Gặp nhiều → SPM library build (Love §3.2) → uncertainty GIẢM
+    → Gặp nhiều → Self-Pattern-Modeling library build (Love §3.2) → uncertainty GIẢM
     → Chunks về partner compile DẦN → C+D zones "biết" dần
     → Serotonin PHỤC HỒI DẦN → spreading activation BỊ INHIBIT lại
     → = Bond đang compile → done detector dần nhận "đủ biết"
 
   Tháng 12-18: ATTACHMENT
-    → Chunks về partner ĐÃ compile (SPM library DEEP)
+    → Chunks về partner ĐÃ compile (Self-Pattern-Modeling library DEEP)
     → Serotonin BÌNH THƯỜNG → certainty cao → hết obsess
     → L2 body-base extension compiled → structural reward thay thế L1
     → = "Tình yêu ban đầu phai" = OBSESSION hết, ATTACHMENT còn
@@ -1323,14 +1323,14 @@ TUYẾN 3 — PFC override:
   → ⭐ Cross-species OCD (§4.6): deer mice + SAPAP3 mice + dogs + primates
     → circuit CỔ (basal ganglia), NOT PFC-specific bug.
     Tuyến 1+2 = cross-species. Tuyến 3 = CHỈ NGƯỜI.
-  → ⭐ SPM bias từ tuổi thơ × OCD-like trong Love (§4.5b):
-    anxious attachment = SPM library threat-biased → hyper-monitoring →
-    compound uncertainty (SPM + obligation) → serotonin ↓ amplified
+  → ⭐ Self-Pattern-Modeling bias từ tuổi thơ × OCD-like trong Love (§4.5b):
+    anxious attachment = Self-Pattern-Modeling library threat-biased → hyper-monitoring →
+    compound uncertainty (Self-Pattern-Modeling + obligation) → serotonin ↓ amplified
   → Love ↔ OCD cùng circuit: supported bởi Marazziti, logic mạnh
   → Spreading activation uninhibited: serotonin ↓ = less inhibition → cascade
     (Chunk-Activation-Dynamics.md §2 + Collins & Loftus 1975 🟢)
-  → Chunk-Miss không resolve: OCD qua BFM (§4.1) — consistent
-  → Baseline Shift escalation: BFM §5 applied — consistent với OCD worsening
+  → Chunk-Miss không resolve: OCD qua Body-Feedback-Mechanism (§4.1) — consistent
+  → Baseline Shift escalation: Body-Feedback-Mechanism §5 applied — consistent với OCD worsening
   → 5 Cortisol Roles in OCD: Role ②→③→⑤ escalation path
   → PFC 5% operator override failure: consistent với CBT evidence
   → Competitive re-linking (CBT): chunks mới vs chunks cũ
@@ -1360,7 +1360,7 @@ TUYẾN 3 — PFC override:
       NẾU phục hồi → serotonin = consequence (root fixed → serotonin follows)
       NẾU không phục hồi → serotonin có independent component
     → Anxious vs secure attachment: đo serotonin khi yêu
-      NẾU anxious ↓ MẠNH hơn → SPM bias → compound uncertainty → support
+      NẾU anxious ↓ MẠNH hơn → Self-Pattern-Modeling bias → compound uncertainty → support
 
   ⭐ CROSS-SPECIES PREDICTIONS (§4.6):
     → Deer mice OCD-like: test với environmental enrichment
@@ -1427,8 +1427,8 @@ OCD-Q7: Serotonin causal direction — species gradient?
   → = Serotonin ROLE thay đổi theo species complexity?
   → Testable: interventions target ROOT vs SEROTONIN → compare outcome
 
-OCD-Q8: SPM childhood bias → adult OCD-like in love?
-  → Strict parenting → SPM threat-biased → adult hyper-monitor partner
+OCD-Q8: Self-Pattern-Modeling childhood bias → adult OCD-like in love?
+  → Strict parenting → Self-Pattern-Modeling threat-biased → adult hyper-monitor partner
   → + Obligation overthinking compound
   → = Anxious attachment mechanism EXPLAINED qua framework
   → Testable: attachment style × serotonin levels × relationship stability
@@ -1508,7 +1508,7 @@ CLARIFICATION:
 
   v2.1 ADDITIONS (2026-04-26):
     ⑨ §4.5: Serotonin = AMPLIFIER, NOT ROOT CAUSE (key insight)
-    ⑩ §4.5b: SPM childhood bias × love OCD-like (anxious attachment mechanism)
+    ⑩ §4.5b: Self-Pattern-Modeling childhood bias × love OCD-like (anxious attachment mechanism)
     ⑪ §4.6: Cross-species evidence (mice, dogs, primates)
     ⑫ Updated §11 Honest Assessment + §12 Open Questions
 

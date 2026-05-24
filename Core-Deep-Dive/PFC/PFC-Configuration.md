@@ -214,7 +214,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Đặc điểm:
     → dlPFC task functions: ✅ active (⑤ Hold, ⑥ Quick Search, ⑨ Linking)
-    → dlPFC self-monitoring: ❌ off (④ Meta-cognition, ⑰ SPM suppressed)
+    → dlPFC self-monitoring: ❌ off (④ Meta-cognition, ⑰ Self-Pattern-Modeling suppressed)
     → ACC: minimal — conflict monitoring reduced (everything smooth)
     → Result: PFC bandwidth REALLOCATED 100% vào task
     → Self-reference SILENT → "time flies", no self-consciousness
@@ -252,7 +252,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Meditation variants:
     Focused attention (Samatha): ⑮ Gate Attention enhanced, ⑦ Loose Hold off
     Open monitoring (Vipassana): ④ Meta-cognition enhanced, ⑨ Linking reduced
-    Loving-kindness: ⑰ SPM enhanced, dlPFC task-functions reduced
+    Loving-kindness: ⑰ Self-Pattern-Modeling enhanced, dlPFC task-functions reduced
 
   Hypnosis:
     → ACC: conflict monitoring REDUCED (suggestions not checked)
@@ -411,7 +411,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → PFC = Config ① (all functions AVAILABLE, emotions FELT)
     → Basal ganglia gate LOCKED → facial/vocal expression BLOCKED
     → = Configuration INTACT but body-output GATE problem
-    → Others SPM patient → "sao mặt lạnh?" → MISATTRIBUTE
+    → Others Self-Pattern-Modeling patient → "sao mặt lạnh?" → MISATTRIBUTE
     → = Config vs Execution distinction: PFC state ≠ body-output
     → Framework: Config ④ = PFC offline. Parkinson ≠ Config ④ (PFC online!)
 
@@ -453,7 +453,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Therapeutic:       │                  │ Therapeutic:       │
   │  re-connect body   │                  │  schema destabil.  │
   │  (somatic therapy) │                  │  + guided recomp.  │
-  │  Type B "backdoor" │                  │  set & setting     │
+  │  Direct-State "backdoor" │                  │  set & setting     │
   │  = body-level      │                  │  = compile direct. │
   └────────────────────┴──────────────────┴────────────────────┘
 
@@ -482,23 +482,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       (different entry mechanisms, different neurochemistry)
 
 
-  TYPE A/B REWARD × CONTROL SPECTRUM:
+  EVALUATIVE/DIRECT-STATE REWARD × CONTROL SPECTRUM:
 
-  Overcontrol (⑤): Type A SUPPRESSED (evaluation numb), Type B PARTIALLY intact
+  Overcontrol (⑤): Evaluative SUPPRESSED (evaluation numb), Direct-State PARTIALLY intact
     → Touch, exercise = may penetrate numbness (CT afferents below PFC level)
     → = "Backdoor" cho therapy (body-level, bypasses PFC overcontrol)
     → Source: Reward-Signal-Architecture.md §1
 
-  Balanced (①②③): Both Type A and B operational, A/B ratio varies.
+  Balanced (①②③): Both Evaluative and Direct-State operational, Evaluative/Direct-State ratio varies.
 
-  Undercontrol (⑥): Type A DISRUPTED (evaluation circuits disintegrated),
-    Type B LESS AFFECTED (hardware-level, below disruption)
+  Undercontrol (⑥): Evaluative DISRUPTED (evaluation circuits disintegrated),
+    Direct-State LESS AFFECTED (hardware-level, below disruption)
     → Touch, body grounding = STABLE across PFC states
     → = Safety anchor during psychedelic session
 
-  → Type B = potentially STABLE across entire spectrum
-  → Type A = VARIES dramatically with PFC state
-  → 🟡 Framework synthesis: Type B stability across PFC configs
+  → Direct-State = potentially STABLE across entire spectrum
+  → Evaluative = VARIES dramatically with PFC state
+  → 🟡 Framework synthesis: Direct-State stability across PFC configs
 
 
   🟢 Research:
@@ -554,7 +554,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌────────────────────────┬────────────┬──────────────┬───────────────────┐
   │ ⑮ Gate Attention TRN   │ dlPFC→TRN  │ —            │ 🟢 McAlonan 2008  │
   │ ⑯ Bias Spread. Activ.  │ dlPFC      │ cortical     │ 🟡                │
-  │ ⑰ Invoke SPM           │ mPFC+vmPFC │ TPJ          │ 🟢 Saxe 2006      │
+  │ ⑰ Invoke Self-Pattern-Modeling           │ mPFC+vmPFC │ TPJ          │ 🟢 Saxe 2006      │
   │ ⑱ Inhibit Compiled     │ vlPFC      │ —            │ 🟢 Aron 2004      │
   │ ⑲ Override Satisf.     │ vlPFC+dlPFC│ ACC          │ 🟡                │
   │ ⑳ Change Environment   │ dlPFC      │ vmPFC+OFC    │ 🟡                │
@@ -670,9 +670,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────────┬────────┬────────┬────────┬────────┬────────┬────────┐
   │ ⑮ Gate Attention │ ✅     │ ✅task │ ⚠️redir│ ❌     │ ⚠️narr │ ❌     │
   │ ⑯ Bias Activ.    │ ✅     │ ✅strg │ ⚠️redir│ ❌     │ ⚠️rig  │ ❌     │
-  │ ⑰ Invoke SPM     │ ✅     │ ❌     │ ❌     │ ❌     │ ❌     │ ❌     │
+  │ ⑰ Invoke Self-Pattern-Modeling     │ ✅     │ ❌     │ ❌     │ ❌     │ ❌     │ ❌     │
   │ ⑱ Inhibit        │ ✅     │ ❌     │ ✅     │ ❌     │ ⭐MAX  │ ❌     │
-  │ ⑲ Override Sat.  │ ✅     │ ❌     │ ❌     │ ❌     │ ⚠️chr  │ ❌     │
+  │ ⑲ Override Satiation │ ✅     │ ❌     │ ❌     │ ❌     │ ⚠️chronic │ ❌     │
   │ ⑳ Change Environ │ ✅     │ ❌foc  │ ✅     │ ❌     │ ❌froz │ ❌     │
   └──────────────────┴────────┴────────┴────────┴────────┴────────┴────────┘
 
@@ -715,7 +715,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ③ Config ⑤ (dissociation):
     → ⑱ Inhibit = ⭐ENHANCED → emotional suppression
     → ④⑧⑲ = ⚠️WEAPONIZED (chronic misuse)
-    → ⑰ SPM OFF → CANNOT model others → social disconnect
+    → ⑰ Self-Pattern-Modeling OFF → CANNOT model others → social disconnect
     → ㉑ Smooth Melody OFF → CANNOT reduce dissonance → stuck
     → = "Functions that should PROTECT become PRISON"
 
@@ -966,7 +966,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ② Somatic therapy (body-oriented):
     → Body RE-LEARNS physical capacity: "I CAN push, I CAN run"
     → Deliberately activate A pathway in SAFE context
-    → Type B reward (touch, movement) as "backdoor"
+    → Direct-State reward (touch, movement) as "backdoor"
     → 🟢 Van der Kolk 2014: body-oriented therapy effective
 
   ③ Gradual exposure (progressive):
@@ -1041,7 +1041,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Step 2 — REORGANIZE (during session, hours):
     → Body receives unprecedented signal combinations
-    → BFM 3 dynamics SIMULTANEOUSLY + UNCOORDINATED:
+    → Body-Feedback-Mechanism 3 dynamics SIMULTANEOUSLY + UNCOORDINATED:
       Chunk-Shift: valence re-evaluate EN MASSE
       Chunk-Miss: baseline patterns fire DIFFERENTLY → miss signals
       Chunk-Gap: ACC detects EVERYWHERE (all patterns disrupted)
@@ -1267,7 +1267,7 @@ DRIVE INTEGRATION:
     → §6 compatibility matrix links both taxonomies
 
 REWARD:
-  Reward-Signal-Architecture.md v1.0 — Type A/B × config interaction
+  Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State × config interaction
     → §3 control spectrum × reward types
   03-Reward.md — H10 preconditions, 7-step VTA
     → Config affects WHICH preconditions can be met

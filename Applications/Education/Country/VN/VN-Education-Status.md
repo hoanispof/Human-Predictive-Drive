@@ -13,12 +13,12 @@
 >   Cortisol-Baseline.md v2.0 (amplifier reframe, 5 Roles),
 >   Core-Software.md v1.0 (cycle-based architecture),
 >   Core-Hardware.md v1.0 (4 zones A/B/C/D),
->   Reward-Signal-Architecture.md v1.0 (Type A/B reward)
+>   Reward-Signal-Architecture.md v1.0 (Evaluative/Direct-State reward)
 > **Bản trước:** backup/v1.0/Country/VN/VN-Education-Status.md (1,316L, DRAFT, 2026-04-03, based on old "10 NL")
 > **Thay đổi chính v2.0:**
 >   - Re-base: "10 NL" (Education-Principles.md) → Education-Mechanism.md v1.0 (8 nguyên lý + bridge + system)
 >   - Re-organize §1: từ NL1-NL10 tuần tự → 3 nhóm theo Mechanism structure
->   - Add: v7.8 concepts (approach/avoidance tags, 3 ORIGIN threat, 4 nguồn fill, Type A/B, chunk compilation levels)
+>   - Add: v7.8 concepts (approach/avoidance tags, 3 ORIGIN threat, 4 nguồn fill, Evaluative/Direct-State, chunk compilation levels)
 >   - Update: tất cả cross-refs → current file paths
 >   - Data giữ nguyên (2022-2025, vẫn current)
 > **⚠️ Data = 2022-2025. Giáo dục VN đang cải cách (GDPT 2018) → landscape ĐANG thay đổi.**
@@ -462,7 +462,7 @@ NGUYÊN LÝ 8: ASSESS DEPTH, NOT SURFACE (Mechanism §2.9)
 
   QUA FRAMEWORK LENS: 🟡
     → "Assessment drives learning" → assess surface → learn surface
-    → Reward-Signal-Architecture.md v1.0: Type A reward (evaluative, opioid)
+    → Reward-Signal-Architecture.md v1.0: Evaluative reward (opioid)
       chỉ fire khi depth THẬT SỰ compile → multiple choice = không trigger
     → = HS KHÔNG nhận reward signal cho deep learning
     → CẢI CÁCH GDPT 2018 = hướng đúng, nhưng "process assessment"
@@ -975,8 +975,8 @@ WEAKNESS 5 [MEDIUM]: SURFACE ASSESSMENT
   FRAMEWORK REFRAME: 🟡
     → 4 stages depth (Mechanism §2.9):
       VN assess chủ yếu stage ① (recognize) → miss ②③④
-    → RSA v1.0: Type A reward (evaluative) chỉ fire khi depth THẬT SỰ compile
-    → Multiple choice = KHÔNG trigger Type A → HS thiếu reward signal cho deep learning
+    → Reward-Signal-Architecture v1.0: Evaluative reward chỉ fire khi depth THẬT SỰ compile
+    → Multiple choice = KHÔNG trigger Evaluative → HS thiếu reward signal cho deep learning
 
 
 WEAKNESS 6 [STRUCTURAL]: RURAL-URBAN + ETHNIC GAP
@@ -1363,9 +1363,9 @@ FILE NÀY KẾT NỐI VỚI:
       Core-Hardware.md v1.0 — 4 zones A/B/C/D
       Cortisol-Baseline.md v2.0 — amplifier reframe, 5 Roles
       Imagine-Final.md — lifecycle 5 phases
-      Reward-Signal-Architecture.md v1.0 — Type A/B reward
+      Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State reward
       Body-Feedback-Mechanism.md v1.2 — 2 sources × 3 dynamics
-      Agent-Mechanism.md v1.0 — SPM F1/F2
+      Agent-Mechanism.md v1.0 — Self-Pattern-Modeling Compiled/Fresh
 
     TẦNG 2 — Research/Child-Development/:
       Child-Development-Mechanism.md — 4+1 compile, approach/avoidance

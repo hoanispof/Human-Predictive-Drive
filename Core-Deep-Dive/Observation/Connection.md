@@ -4,35 +4,35 @@ version: 5.0
 created: 2026-04-20
 rewritten: 2026-05-22 (v5.0 — Phase C1 REWRITE: integrate ALL Phase A+B+T framework files)
 previous_updates:
-  - 2026-05-19 (v4.0 — Architecture B, 2-Stream Resonance, 3-cost, 5-Channel, PFC=Lawyer)
-  - 2026-05-16 (v3.3 — §4.2 F1/F2 resonance quality)
+  - 2026-05-19 (v4.0 — Compilable Architecture, 2-Stream Resonance, 3-cost, 5-Channel, PFC=Lawyer)
+  - 2026-05-16 (v3.3 — §4.2 Compiled/Fresh resonance quality)
   - 2026-04-28 (v3.1 — Body-Coupling.md reference)
   - 2026-04-24 (v3.0 — 3 Generative Primitives, 2-tầng, 2-luồng, Cô đơn)
 status: OBSERVATION PARAMETER v5.0
 scope: |
   OBSERVATION FILE: Connection = named pattern khi quan sát body's social mechanisms
-  (❶ hardware + ❷ SPM) engage với agents across Entity-Access gradient (Mức 0-5).
+  (❶ hardware + ❷ Self-Pattern-Modeling) engage với agents across Entity-Access gradient (Mức 0-5).
   Connection KHÔNG phải component hay operator — là TÊN GỌI cho patterns
   emergent từ body-level social input processing + compiled attachment chunks.
   v5.0 KEY CHANGES (Phase C1 — integrate Phase A+B+T):
-    + Hardware Subsidy spectrum: MAX→MODERATE→TEMPORARY→NONE per entity (VP v3.0)
-    + Structural vs Current valence: stored aggregate vs per-moment activation (VP v3.0)
-    + M1-M4 Resonance Decline: compiled suppress × habituation × prediction × saturation (BA v1.0)
-    + 4-Layer Sustainability: conditions → modality → amplification → trajectory (RS v1.0)
-    + Entity-Access gradient Mức 0-5 × connection spectrum (EA v1.2)
-    + Per-entity resonance dynamics: 3-Tầng model, compilation chain (RPE v1.0)
-    + PFC budget: finite shared resource → capacity constraint (PFC-Ops v1.0)
-    + Simulation Engine context: SPM = Application 1 of 1 engine × 3 components (SE v1.0)
-    + Phantom 4-factor model: compilation × hw subsidy × L2 × duration (VP v3.0)
-    + Gap clone IMPOSSIBLE → 3 real mechanisms: redirect + suppress + converge (BA v1.0)
-    + SPM v3.1 terminology: Match→Modeling throughout
+    + Hardware Subsidy spectrum: MAX→MODERATE→TEMPORARY→NONE per entity (Valence-Propagation v3.0)
+    + Structural vs Current valence: stored aggregate vs per-moment activation (Valence-Propagation v3.0)
+    + M1-M4 Resonance Decline: compiled suppress × habituation × prediction × saturation (Bond-Architecture v1.0)
+    + 4-Layer Sustainability: conditions → modality → amplification → trajectory (Resonance-Sustainability v1.0)
+    + Entity-Access gradient Mức 0-5 × connection spectrum (Entity-Access v1.2)
+    + Per-entity resonance dynamics: 3-Tầng model, compilation chain (Resonance-Per-Entity v1.0)
+    + PFC budget: finite shared resource → capacity constraint (PFC-Operations v1.0)
+    + Simulation Engine context: Self-Pattern-Modeling = Application 1 of 1 engine × 3 components (Simulation-Engine v1.0)
+    + Phantom 4-factor model: compilation × hw subsidy × L2 × duration (Valence-Propagation v3.0)
+    + Gap clone IMPOSSIBLE → 3 real mechanisms: redirect + suppress + converge (Bond-Architecture v1.0)
+    + Self-Pattern-Modeling v3.1 terminology: Match→Modeling throughout
     + All dependency versions updated to Phase A+B+T current
 purpose: |
   Core v7.8 §8 define Connection ngắn gọn ("L1 multi-input aggregate
   + attachment chunk patterns"). File này DEEP-DIVE toàn bộ:
-  ① TẠI SAO evolution select cho connection (Architecture B → Social = Requirement)
-  ② 3 GENERATIVE PRIMITIVES (❶ Hardware × ❷ SPM × ❸ Valence)
-  ③ SPM × Resonance = trục mechanism (2-Stream Architecture)
+  ① TẠI SAO evolution select cho connection (Compilable Architecture → Social = Requirement)
+  ② 3 GENERATIVE PRIMITIVES (❶ Hardware × ❷ Self-Pattern-Modeling × ❸ Valence)
+  ③ Self-Pattern-Modeling × Resonance = trục mechanism (2-Stream Architecture)
   ④ Resonance DECLINE (M1-M4) + SUSTAINABILITY (4-Layer model)
   ⑤ 8 reward pathways = OBSERVABLE level (derive từ 3 primitives)
   ⑥ Per-entity connection dynamics (hardware subsidy, compilation chain, lifecycle)
@@ -45,13 +45,13 @@ position: |
   Tất cả = observation parameter deep-dives, KHÔNG phải mechanism files.
 dependencies:
   - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
-  - Inter-Body-Mechanism.md v1.0 — Architecture B, 4 reasons, by-product match, 3-cost, 5-Channel
+  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 4 reasons, by-product match, 3-cost, 5-Channel
   - Body-Feedback-Mechanism.md v2.0 — Chunk-Miss / Chunk-Gap / Chunk-Shift / Compound, 2-source
   - Chunk.md v2.0 — chunk substrate, compilation, hierarchy
   - Agent-Mechanism.md v2.0 — integration hub, §12 body-need feeder, Resonance
-  - Self-Pattern-Modeling.md v3.1 — F1 Compiled / F2 Fresh, PFC=Lawyer, per-domain
-  - By-Product-Gap-Resonance.md v1.4 — 2-Stream Architecture, by-product match, SPM NOT prerequisite
-  - Bond-Architecture.md v1.0 — EC × 4 bond types, M1-M4 decline, gap clone impossible
+  - Self-Pattern-Modeling.md v3.1 — Compiled / Fresh, PFC=Lawyer, per-domain
+  - By-Product-Gap-Resonance.md v1.4 — 2-Stream Architecture, by-product match, Self-Pattern-Modeling NOT prerequisite
+  - Bond-Architecture.md v1.0 — Entity-Compiled × 4 bond types, M1-M4 decline, gap clone impossible
   - Resonance-Sustainability.md v1.0 — 4-Layer model, 3 conditions, 3 modalities, amplification
   - Resonance-Per-Entity.md v1.0 — 3-Tầng per-entity model, hardware subsidy, compilation chain
   - By-Product-Scale.md v1.0 — 3 scales: pair/hub/institutional
@@ -64,7 +64,7 @@ dependencies:
   - PFC-Label.md v1.0 — vocabulary standard, observation labels
   - Gap-Body-Need.md v1.0 — 3 Satiation Profiles, 5-Parameter, ENGINE/ROAD/VEHICLE
   - Valence-Propagation.md v3.0 — structural/current valence, 3 Firing Modes, Hardware Subsidy, Phantom
-  - Empathy.md v3.0 — SPM function applied to other agents, 3 mechanisms, double empathy
+  - Empathy.md v3.0 — Self-Pattern-Modeling function applied to other agents, 3 mechanisms, double empathy
   - Body-Coupling.md v2.0 — coupling mechanism, depth × direction, 3 Phase
   - Status.md v2.0 — Resource Access Map, serotonin, disruption cycle
   - Protect.md v1.0 — ownership chunks, loss aversion, f(repl×attach)
@@ -77,7 +77,7 @@ dependencies:
   - Boredom.md v2.0 — 6 sources, unified formula, threshold model
   - Body-Feedback-Label.md v2.0 — vocabulary reference, 3-tier labels
   - Logic-Feeling.md v2.1 — Compiled/Fresh primary axis, Domain Stability
-  - Reward-Signal-Architecture.md v2.0 — Type A/B reward, Compiled/Fresh mapping
+  - Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State reward, Compiled/Fresh mapping
   - Global-Melody.md v2.0 — group→culture→global melody interaction
   - Knowledge-Flow.md — output flow qua thời gian
   - Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT
@@ -107,7 +107,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Nhưng connection KHÔNG ĐƠN GIẢN.
 > Nó được TẠO BỞI 3 thứ:
 > ❶ Hardware — body CẦN social input giống cần food/water
-> ❷ SPM — não dùng chunks CỦA MÌNH simulate agents khác (F1 Compiled + F2 Fresh)
+> ❷ Self-Pattern-Modeling — não dùng chunks CỦA MÌNH simulate agents khác (Compiled + Fresh)
 > ❸ Per-Agent Valence — body ĐÁNH GIÁ agent NÀY ảnh hưởng tôi thế nào
 >
 > ❶ × ❷ × ❸ = PREDICT toàn bộ connection behavior.
@@ -123,14 +123,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## Mục lục
 
 - §0 — TẠI SAO CONNECTION TỒN TẠI: EVOLUTIONARY FOUNDATION
-- §1 — CONNECTION LÀ GÌ: SPM APPLIED TO AGENTS
+- §1 — CONNECTION LÀ GÌ: Self-Pattern-Modeling APPLIED TO AGENTS
 - §2 — SPECTRUM: TỪ KIẾN → SÓI → KHỈ → NGƯỜI
 - §3 — 3 GENERATIVE PRIMITIVES
-- §4 — SPM × RESONANCE: TRỤC CHÍNH
+- §4 — Self-Pattern-Modeling × RESONANCE: TRỤC CHÍNH
 - §4.5 — RESONANCE DECLINE: 4 MECHANISMS (M1-M4) × CONNECTION
 - §4.6 — RESONANCE SUSTAINABILITY × CONNECTION: 4-LAYER OVERVIEW
 - §5 — 8 VALENCE CHAIN PATHWAYS
-- §6 — HARDWARE DRIVE → SPM TRANSITION
+- §6 — HARDWARE DRIVE → Self-Pattern-Modeling TRANSITION
 - §7 — 4 CASES: EXPERIENCE SỚM → CONNECTION PATTERN
 - §8 — VIRTUAL CHUNKS: MẠNG LƯỚI SKILL MỞ RỘNG
 - §9 — CALIBRATION: 2 BODIES TUNE NHAU
@@ -249,10 +249,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Opioid withdrawal-like symptoms: body QUEN có → MẤT → craving
 ```
 
-### §0.0b — Architecture B: Social = Architecture REQUIREMENT
+### §0.0b — Compilable Architecture: Social = Architecture REQUIREMENT
 
 ```
-⭐ TẠI SAO CONNECTION DRIVE CỰC MẠNH — ARCHITECTURE B GIẢI THÍCH:
+⭐ TẠI SAO CONNECTION DRIVE CỰC MẠNH — COMPILABLE ARCHITECTURE GIẢI THÍCH:
 
   (Inter-Body-Mechanism.md §1 — source-of-truth)
 
@@ -261,16 +261,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ② Compilation Capability (Hebbian — whatever works → strengthen → automatic)
     ③ Social Hardware (oxytocin, μ-opioid, dACC reuse)
 
-  ①②③ = ARCHITECTURE B (general-purpose adaptive):
+  ①②③ = COMPILABLE ARCHITECTURE (general-purpose adaptive):
     → Content: LEARN from experience → compile → body-need
     → TRADE-OFF: cần 15-20 NĂM compile (long childhood, DEPENDENT)
     → = Cần entity khác PROTECT + FEED + TEACH trong 15-20 năm đó
     → = Social KHÔNG PHẢI luxury — là REQUIREMENT của architecture
 
   SO SÁNH:
-    Architecture A (côn trùng): hardwire WHAT to need → nhanh, independent
-    Architecture B (người): hardwire HOW to need → adapt, nhưng DEPENDENT
-    → Nếu Architecture B mà KHÔNG có social → advantage NULLIFIED
+    Hardwired Architecture (côn trùng): hardwire WHAT to need → nhanh, independent
+    Compilable Architecture (người): hardwire HOW to need → adapt, nhưng DEPENDENT
+    → Nếu Compilable Architecture mà KHÔNG có social → advantage NULLIFIED
 
 
   ⭐ 4 LÝ DO SOCIAL = REQUIREMENT (không chỉ "helpful"):
@@ -283,8 +283,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   REASON 2 — COMPILATION REQUIRES SOCIAL:
     Child ALONE: compile from personal experience → SLOW, DANGEROUS.
     Child IN GROUP: observe + teach + imitate → FAST, SAFE.
-    = Without social: Architecture B advantage = NULL.
-    = Social = ACCELERATOR cho compilation (mà compilation = Architecture B core).
+    = Without social: Compilable Architecture advantage = NULL.
+    = Social = ACCELERATOR cho compilation (mà compilation = Compilable Architecture core).
 
   REASON 3 — REUSED NEURAL CIRCUITS:
     Body treats "social absent" LIKE "injury" (SAME dACC circuit).
@@ -304,7 +304,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Connection drive = HOW body MAINTAINS access to this requirement
   → = Tại sao connection drive CỰC MẠNH, KHÔNG THỂ TẮT (hardware-level)
 
-🟡 Architecture B framing = framework synthesis
+🟡 Compilable Architecture framing = framework synthesis
 🟢 Each reason individually supported by established research
 ```
 
@@ -373,7 +373,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
         Bị bắt bởi bên CĂM THÙ SÂU SẮC:
           → 8 pathways FIRE NGƯỢC (chi tiết §5.2):
-            ① Mirror: đám đông fire SPM → output = khinh bỉ
+            ① Mirror: đám đông fire Self-Pattern-Modeling → output = khinh bỉ
             ② Co-regulation: NGƯỢC — presence = threat source
             ⑤ Validation: PHẢN-validate — "mày không phải người"
             ⑥ Presence: threat presence, KHÔNG safety
@@ -381,7 +381,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
           → = Body chịu damage CỰC NẶNG vì social system fire NGƯỢC
 
           🟡 "Mày không phải người" = body VERBALIZE chính xác mechanism:
-             Body TẮT agent function cho target (suppress SPM §10)
+             Body TẮT agent function cho target (suppress Self-Pattern-Modeling §10)
              → Target: AGENT → OBJECT
              → PFC observe → verbalize thuận mồm
              → = Somatic-Articulation-Loop: body-knowledge → language
@@ -406,7 +406,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├───────┼────────────────────────┼──────────────────────────────────┤
   │ 0     │ No entity-access       │ KHÔNG có connection              │
   │       │ (tool-mode: bưu tá,    │ Agent = function, không predict  │
-  │       │  ATM, app)             │ state → SPM ở Tool-Mode          │
+  │       │  ATM, app)             │ state → Self-Pattern-Modeling ở Tool-Mode          │
   ├───────┼────────────────────────┼──────────────────────────────────┤
   │ 1     │ Agent-mode shallow     │ Surface connection               │
   │       │ (người quen mới)       │ ❶ present + ❷ thin + ❸ forming  │
@@ -415,16 +415,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │       │ (bạn vài tháng)        │ Some pathways active, calibrating│
   ├───────┼────────────────────────┼──────────────────────────────────┤
   │ 3     │ Deep compile           │ Deep connection                  │
-  │       │ (bạn thân, B-dominant) │ 8 pathways, Resonance sustained  │
+  │       │ (bạn thân, Compilable-dominant) │ 8 pathways, Resonance sustained  │
   │       │                        │ Easy exit = self-correcting      │
   ├───────┼────────────────────────┼──────────────────────────────────┤
   │ 4     │ Deep + hardware/low    │ Deepest connection               │
-  │       │ exit (vợ/chồng, mẹ-con)│ EC deep + hw subsidy + high cost│
+  │       │ exit (vợ/chồng, mẹ-con)│ Entity-Compiled deep + hw subsidy + high cost│
   │       │                        │ CAN be healthy (A+B dominant)    │
   │       │                        │ OR excess-trending (C+D rising)  │
   ├───────┼────────────────────────┼──────────────────────────────────┤
   │ 5     │ Compile + C dominant   │ Distorted connection             │
-  │       │ (excess, "của tôi")    │ Excess patterns (EAE v1.0)      │
+  │       │ (excess, "của tôi")    │ Excess patterns (Entity-Access-Excess v1.0)      │
   │       │                        │ Connection ≠ connection quality  │
   └───────┴────────────────────────┴──────────────────────────────────┘
 
@@ -439,28 +439,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Entity-Valence = HOW body colors entity (approach/avoid profile)
   → 3 concepts KHÁC NHAU, cùng contribute to connection
 
-  🟡 Entity-Access gradient × connection = framework synthesis (EA v1.2)
+  🟡 Entity-Access gradient × connection = framework synthesis (Entity-Access v1.2)
 ```
 
 ---
 
-## §1 — CONNECTION LÀ GÌ: SPM APPLIED TO AGENTS
+## §1 — CONNECTION LÀ GÌ: Self-Pattern-Modeling APPLIED TO AGENTS
 
 ```
 ⭐ DEFINITION v3.0:
 
   Connection = observable pattern khi body's social mechanisms
-  (❶ hardware + ❷ SPM) engage với agents, với output phụ thuộc 3 tham số:
+  (❶ hardware + ❷ Self-Pattern-Modeling) engage với agents, với output phụ thuộc 3 tham số:
     ❶ Hardware Social Drive (innate, body CẦN social input — có TỪ SINH)
-    ❷ SPM quality (F1 Compiled + F2 Fresh, chunk-based — develop DẦN)
+    ❷ Self-Pattern-Modeling quality (Compiled + Fresh, chunk-based — develop DẦN)
     ❸ Per-Agent Valence (body's evaluation of THIS agent — compiled qua experience)
 
   Connection tồn tại ở 2 TẦNG (§3.2):
     TẦNG A: ❶ Hardware ALONE → basic connection (bé sơ sinh ĐÃ CÓ)
-    TẦNG B: ❶ + ❷ SPM → deep connection (❷ enables Resonance → depth + precision)
+    TẦNG B: ❶ + ❷ Self-Pattern-Modeling → deep connection (❷ enables Resonance → depth + precision)
 
   v2.0 nói: "Connection = emergent pattern giữa 2+ agents"
-  v3.0 refine: "Connection = observable output khi ❶ hardware + ❷ SPM engage agents"
+  v3.0 refine: "Connection = observable output khi ❶ hardware + ❷ Self-Pattern-Modeling engage agents"
   → v2.0 MÔ TẢ (bạn thấy gì). v3.0 SINH (bạn CẦN GÌ để tạo).
 
 
@@ -471,26 +471,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ✗ Binary: có/không (connection = spectrum liên tục)
 
   Connection LÀ:
-    ○ Observable output khi ❶ hardware + ❷ SPM engage agents
-    ○ Quality = f(❶ Hardware × ❷ SPM × ❸ Valence)
+    ○ Observable output khi ❶ hardware + ❷ Self-Pattern-Modeling engage agents
+    ○ Quality = f(❶ Hardware × ❷ Self-Pattern-Modeling × ❸ Valence)
     ○ Emergent GIỮA agents — giống harmony giữa instruments
     ○ Body có DRIVE tìm kiếm (❶ innate) — connection ở NGOÀI body
-    ○ Có TỪ SINH (❶ alone) → develop thêm depth (❷ SPM adds)
+    ○ Có TỪ SINH (❶ alone) → develop thêm depth (❷ Self-Pattern-Modeling adds)
 
 
   ⭐ EMPATHY = CONNECTION + ❸ POSITIVE VALENCE:
 
-    Empathy (Empathy.md) = SPM F1 fire empathic + ❸ positive
+    Empathy (Empathy.md) = Self-Pattern-Modeling Compiled fire empathic + ❸ positive
     = "Body tôi THẬT SỰ cảm thấy agent này tốt với tôi,
-       SPM khi fire về họ cho tôi body-reward thật"
+       Self-Pattern-Modeling khi fire về họ cho tôi body-reward thật"
 
-    Strategic prediction = SPM F2 + ❸ negative
+    Strategic prediction = Self-Pattern-Modeling Fresh + ❸ negative
     = "Predict đối thủ để đối phó"
 
-    Dehumanization = SPM suppress + ❸ extreme negative
-    = "F1 TẮT, agent → object"
+    Dehumanization = Self-Pattern-Modeling suppress + ❸ extreme negative
+    = "Compiled TẮT, agent → object"
 
-    → Empathy, strategic, dehumanization = CÙNG mechanism (SPM),
+    → Empathy, strategic, dehumanization = CÙNG mechanism (Self-Pattern-Modeling),
       KHÁC 1 tham số (❸ Valence)
     → = Tại sao "cùng 1 người" có thể empathy LẪN tính toán
       tùy valence thay đổi
@@ -504,7 +504,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     2+ instruments CÙNG CHƠI:
       → Xuất hiện HARMONY — thứ không instrument nào TỰ CÓ
-      → 2+ người tương tác qua SPM: xuất hiện CONNECTION
+      → 2+ người tương tác qua Self-Pattern-Modeling: xuất hiện CONNECTION
 
     Body CÓ drive tìm kiếm harmony:
       → Đúng — vì body BIẾT: có connection → survival + quality TĂNG (§0)
@@ -515,7 +515,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Cùng 1 pattern "connection" — KHÁC context → KHÁC biểu hiện:
       → Bạn buồn → body mirror → muốn GIÚP (❸ positive)
-      → Kẻ thù buồn → body mirror NGƯỢC → sướng (❸ negative)
+      → Kẻ thù buồn → body mirror NGƯỢC → pleasant (❸ negative)
       → Mình được HIỂU → body reward cực mạnh → feel safe
       → Mất connection → body dissonance → grief / lonely
       → Bị reject → body đau NHƯ physical pain
@@ -539,7 +539,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
     Mechanism: Pheromone broadcast — 1 chiều, chemical
-    → KHÔNG có SPM, KHÔNG có attachment cá nhân
+    → KHÔNG có Self-Pattern-Modeling, KHÔNG có attachment cá nhân
     → Connection = BINARY: cùng colony vs không
     → Mất colony → chết. Mất 1 con → colony gần không ảnh hưởng.
     🟢 Wilson 1971: Eusociality — division of labor qua chemical signals
@@ -552,7 +552,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Mechanism: Multi-sensory + hierarchy + coordination
     → Nhận diện TỪNG con, hierarchy rõ (alpha)
     → Attachment CÁ NHÂN xuất hiện (mất alpha → pack disrupt)
-    → Proto-SPM: đọc body language → predict behavior sơ khai
+    → Proto-Self-Pattern-Modeling: đọc body language → predict behavior sơ khai
     🟢 Mech 1996: Wolf pack dynamics, individual recognition
 
 
@@ -560,9 +560,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TẦNG 3 — KHỈ: GROOMING CONNECTION
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-    Mechanism: Grooming + alliance + social reading (SPM sơ khai)
+    Mechanism: Grooming + alliance + social reading (Self-Pattern-Modeling sơ khai)
     → Grooming = TIME INVESTMENT → oxytocin → bond cá nhân RÕ
-    → SPM sơ khai: biết con nào là bạn, con nào nguy hiểm
+    → Self-Pattern-Modeling sơ khai: biết con nào là bạn, con nào nguy hiểm
     → Mất mẹ/bạn thân → cortisol tăng, behavior thay đổi rõ
     → BOTTLENECK = GROOMING TIME: chỉ ~15-20 connections sâu
     🟢 Dunbar 2010: Grooming → endorphin + oxytocin
@@ -573,9 +573,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TẦNG 4 — NGƯỜI: FULL-SPECTRUM CONNECTION
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-    Mechanism: SPM FULL (F1+F2) + Resonance + Language + Virtual chunks
-    → SPM F1: body-level simulate state người khác SÂU
-    → SPM F2: PFC chain predict hành vi tiếp theo
+    Mechanism: Self-Pattern-Modeling FULL (Compiled+Fresh) + Resonance + Language + Virtual chunks
+    → Self-Pattern-Modeling Compiled: body-level simulate state người khác SÂU
+    → Self-Pattern-Modeling Fresh: PFC chain predict hành vi tiếp theo
     → Resonance: mutual co-firing → connection THẬT emerge
     → Language: vượt grooming → maintain 150 connections (Dunbar 1996)
     → Virtual chunks: access TRIỆU chunks qua connection network
@@ -590,7 +590,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌──────────┬──────────────┬──────────────┬────────────────┬──────────────┐
     │          │ Kiến         │ Sói          │ Khỉ            │ Người        │
     ├──────────┼──────────────┼──────────────┼────────────────┼──────────────┤
-    │ Mechanism│ Chemical     │ Multi-sense  │ Grooming + SPM │ Full SPM +   │
+    │ Mechanism│ Chemical     │ Multi-sense  │ Grooming + Self-Pattern-Modeling │ Full Self-Pattern-Modeling +   │
     │          │ (pheromone)  │ + hierarchy  │ sơ khai        │ Resonance + language│
     ├──────────┼──────────────┼──────────────┼────────────────┼──────────────┤
     │ Individu-│ KHÔNG       │ CÓ (sơ khai) │ CÓ (rõ ràng)  │ CỰC SÂU     │
@@ -604,7 +604,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     └──────────┴──────────────┴──────────────┴────────────────┴──────────────┘
 
     → CÙNG principle: agents khác = survival advantage
-    → KHÁC complexity: chemical → multi-sense → SPM → full spectrum
+    → KHÁC complexity: chemical → multi-sense → Self-Pattern-Modeling → full spectrum
     → NGƯỜI = đỉnh cao → 8 reward pathways → compound loss pain
 ```
 
@@ -623,21 +623,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   v3.0 tìm TẦNG SINH: 3 primitives mà từ đó PREDICT toàn bộ behavior.
 
-  ❶ Hardware Social Drive × ❷ SPM (F1+F2) × ❸ Per-Agent Valence
+  ❶ Hardware Social Drive × ❷ Self-Pattern-Modeling (Compiled+Fresh) × ❸ Per-Agent Valence
   = PREDICT connection output cụ thể
 
   8 pathways = OBSERVABLE level, DERIVE từ 3 primitives
   3 primitives = GENERATIVE level, TÁCH BIỆT và MEASURABLE
 ```
 
-### §3.1 — Primitive ❶: Hardware Social Drive (innate, pre-SPM)
+### §3.1 — Primitive ❶: Hardware Social Drive (innate, pre-Self-Pattern-Modeling)
 
 ```
-⭐ HARDWARE: BODY CẦN SOCIAL INPUT — TRƯỚC KHI CÓ SPM:
+⭐ HARDWARE: BODY CẦN SOCIAL INPUT — TRƯỚC KHI CÓ Self-Pattern-Modeling:
 
   Body CẦN social presence giống cần food, water, sleep.
   Hardware drive = INNATE, cross-species, KHÔNG CẦN học.
-  Tồn tại TRƯỚC khi SPM develop (bé sơ sinh ĐÃ CÓ ❶, CHƯA CÓ ❷).
+  Tồn tại TRƯỚC khi Self-Pattern-Modeling develop (bé sơ sinh ĐÃ CÓ ❶, CHƯA CÓ ❷).
 
 
   🟢 BẰNG CHỨNG:
@@ -668,7 +668,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Hardware KHÔNG CHỈ detect "có người hay không."
   Hardware detect CONTINGENCY — agent respond ĐÚNG state CỦA MÌNH hay không.
-  Bé 3 tháng CHƯA CÓ SPM nhưng ĐÃ phân biệt contingent vs non-contingent.
+  Bé 3 tháng CHƯA CÓ Self-Pattern-Modeling nhưng ĐÃ phân biệt contingent vs non-contingent.
 
     ┌────────────────────────────────────────────────────────────────┐
     │ CONDITION 1: ACTIVE ENGAGEMENT (ôm, chơi, respond) = OPTIMAL │
@@ -705,11 +705,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     → Giống tù binh analysis (§0.2): negative presence > absence
     → Hardware phân biệt CONTINGENCY, không chỉ presence
-    → Quality of ❶ feeding → ẢNH HƯỞNG toàn bộ ❷ SPM development
-    → = Foundation TRƯỚC khi SPM build lên trên
+    → Quality of ❶ feeding → ẢNH HƯỞNG toàn bộ ❷ Self-Pattern-Modeling development
+    → = Foundation TRƯỚC khi Self-Pattern-Modeling build lên trên
 
   🟢 3-condition: Tronick 1978, Spitz 1945, Harlow 1958 = established
-  🟢 Contingency detection pre-SPM = attachment research (Bowlby 1969)
+  🟢 Contingency detection pre-Self-Pattern-Modeling = attachment research (Bowlby 1969)
   🟡 MET > UNMET > VIOLATED ordering = framework synthesis
 
 
@@ -779,47 +779,47 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Pathway ② co-regulation: SUBSIDY modulates baseline → hw subsidy HIGH
       → co-regulation PERSISTENT even when habituated
     → Pathway ⑥ presence: hw subsidy HIGH → presence signal KHÔNG tắt
-    → Pathway ① mirror: hw subsidy KHÔNG ảnh hưởng trực tiếp (SPM-driven)
+    → Pathway ① mirror: hw subsidy KHÔNG ảnh hưởng trực tiếp (Self-Pattern-Modeling-driven)
     → = Tại sao mẹ-con: ②⑥ ALWAYS active, ①③④⑤⑦⑧ depend on interaction
 
-  🟡 Hardware Subsidy spectrum = framework synthesis (VP v3.0 §7, RPE v1.0 §2)
+  🟡 Hardware Subsidy spectrum = framework synthesis (Valence-Propagation v3.0 §7, Resonance-Per-Entity v1.0 §2)
   🟢 Each entity neurochemistry individually supported by research
 ```
 
-### §3.2 — Primitive ❷: SPM Mechanism (learned, chunk-based)
+### §3.2 — Primitive ❷: Self-Pattern-Modeling Mechanism (learned, chunk-based)
 
 ```
-⭐ SPM = CƠ CHẾ CHÍNH TẠO CONNECTION:
+⭐ Self-Pattern-Modeling = CƠ CHẾ CHÍNH TẠO CONNECTION:
 
-  (Self-Pattern-Modeling.md v3.1 — F1 Compiled / F2 Fresh, PFC=Lawyer, per-domain)
-  (Simulation-Engine.md v1.0 — SPM = Application 1 of 1 engine × 3 components)
+  (Self-Pattern-Modeling.md v3.1 — Compiled / Fresh, PFC=Lawyer, per-domain)
+  (Simulation-Engine.md v1.0 — Self-Pattern-Modeling = Application 1 of 1 engine × 3 components)
 
   2 FUNCTIONS SONG SONG:
-    F1 — Compiled resonance: body fire bản sao yếu trạng thái target
+    Compiled — Compiled resonance: body fire bản sao yếu trạng thái target
       → Body-level response THẬT (opioid, cortisol, oxytocin)
       → Near-automatic, KHÔNG THỂ TẮT HOÀN TOÀN (trừ dehumanize)
       → Cost ≈ 0 (compiled, Hebbian strengthened)
-    F2 — Fresh prediction: PFC chain predict hành vi target tiếp theo
+    Fresh — Fresh prediction: PFC chain predict hành vi target tiếp theo
       → Deliberate, consume PFC resource (3-cost model: §4.3)
-      → CÓ THỂ chạy không cần F1, CÓ THỂ override F1
+      → CÓ THỂ chạy không cần Compiled, CÓ THỂ override Compiled
       → Cost > 0 (PFC draft + possible suppress + uncertainty)
 
-  ⭐ SPM TRONG SIMULATION ENGINE:
+  ⭐ Self-Pattern-Modeling TRONG SIMULATION ENGINE:
     (Simulation-Engine.md v1.0: 1 engine × 3 components × 3 axes)
-    SPM = Application 1 — simulate OTHER agents.
+    Self-Pattern-Modeling = Application 1 — simulate OTHER agents.
     Self-Observation = Application 2 — observe SELF state.
     Imagine-Final = Application 3 — simulate POSSIBLE FUTURES.
     CÙNG ENGINE, khác APPLICATION → share PFC budget (PFC-Operations.md v1.0 §9).
-    → "Mệt ở cơ quan" = PFC budget depleted → F2 cho gia đình GIẢM
+    → "Mệt ở cơ quan" = PFC budget depleted → Fresh cho gia đình GIẢM
     → KHÔNG phải "không yêu" — PFC budget shared, FINITE
 
   ⭐ COMPILED/FRESH = TRỤC THẬT (Inter-Body-Mechanism.md §3):
     "Feeling" và "Logic" = OBSERVER'S LABELS cho cùng processing.
     Trục thật = Compiled (body-direct, cost≈0) vs Fresh (PFC-draft, cost>0).
-    F1 = COMPILED pattern fire. F2 = FRESH PFC chain.
+    Compiled = COMPILED pattern fire. Fresh = FRESH PFC chain.
     BÊN TRONG: cơ chế processing GIỐNG → chỉ khác compilation level.
-    Toán gia "thấy" lời giải = F1 compiled (DÙ gọi là "logic").
-    Therapist "thấy" pattern = F1 compiled (DÙ gọi là "cảm nhận").
+    Toán gia "thấy" lời giải = Compiled (DÙ gọi là "logic").
+    Therapist "thấy" pattern = Compiled (DÙ gọi là "cảm nhận").
     → Connection quality phụ thuộc COMPILATION LEVEL, không phải content type.
 
   CONTEXT-DEPENDENT CHUNK SELECTION:
@@ -830,23 +830,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Với kẻ thù: retrieve "cảnh giác, phòng thủ, điểm yếu"
     → COMPILED — không cần PFC deliberate mỗi lần
 
-  CONNECTION QUALITY = f(SPM quality CẢ HAI PHÍA):
-    → A fire SPM chính xác on B + B fire SPM chính xác on A
+  CONNECTION QUALITY = f(Self-Pattern-Modeling quality CẢ HAI PHÍA):
+    → A fire Self-Pattern-Modeling chính xác on B + B fire Self-Pattern-Modeling chính xác on A
       = connection DEEP
-    → A fire SPM tốt nhưng B không fire (hoặc ngược lại)
+    → A fire Self-Pattern-Modeling tốt nhưng B không fire (hoặc ngược lại)
       = connection LỆCH (1 chiều)
-    → A và B đều fire SPM kém (ít chunks, low similarity)
+    → A và B đều fire Self-Pattern-Modeling kém (ít chunks, low similarity)
       = connection SURFACE
 
 
   ⭐ CONNECTION CÓ 2 TẦNG MECHANISM — ❶ VÀ ❷ KHÔNG PHẢI 1:
 
-    Connection KHÔNG chỉ chạy trên ❷ SPM. ❶ Hardware ĐÃ tạo connection
-    effects TRƯỚC KHI ❷ SPM tồn tại. Developmental data chứng minh:
+    Connection KHÔNG chỉ chạy trên ❷ Self-Pattern-Modeling. ❶ Hardware ĐÃ tạo connection
+    effects TRƯỚC KHI ❷ Self-Pattern-Modeling tồn tại. Developmental data chứng minh:
 
-    TẦNG A — ❶ HARDWARE-DRIVEN (có TỪ SINH, pre-SPM):
+    TẦNG A — ❶ HARDWARE-DRIVEN (có TỪ SINH, pre-Self-Pattern-Modeling):
 
-      Bé 0-6 tháng CHƯA CÓ SPM nhưng ĐÃ CÓ:
+      Bé 0-6 tháng CHƯA CÓ Self-Pattern-Modeling nhưng ĐÃ CÓ:
         → Body sync: heart rate, breathing đồng bộ với mẹ
           🟢 Feldman 2007: interpersonal synchrony từ SỚM
         → Presence → calm: có mẹ bên cạnh → cortisol giảm TỰ ĐỘNG
@@ -858,24 +858,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
              → chunk-based binding, KHÔNG phải visual copy
 
       = ❶ ALONE sản xuất: auto-calibrate, anchor-activate, basic amplify
-      = KHÔNG CẦN SPM — body-level, near-automatic
+      = KHÔNG CẦN Self-Pattern-Modeling — body-level, near-automatic
 
-    TẦNG B — ❷ SPM-DRIVEN (cần SPM, 18+ tháng):
+    TẦNG B — ❷ Self-Pattern-Modeling-DRIVEN (cần Self-Pattern-Modeling, 18+ tháng):
 
-      Khi ❷ SPM online → enables RESONANCE (Resonance):
-        → Resonance = emergent phenomenon khi 2+ SPMs co-fire thành công
+      Khi ❷ Self-Pattern-Modeling online → enables RESONANCE (Resonance):
+        → Resonance = emergent phenomenon khi 2+ Self-Pattern-Modeling co-fire thành công
         → Resonance TỰ NÓ verify chunks, bổ sung chunks mới, calibrate accuracy
         → = Verify, generate, calibrate = Resonance functions (By-Product-Gap-Resonance.md)
         → Connection cung cấp SUSTAINED CONTEXT cho Resonance lặp lại nhiều lần
           (bạn thân 20 năm = hàng nghìn Resonance episodes → calibrated DEEP)
 
       Và ❷ ENHANCE các effects của ❶:
-        → Calibrate CHÍNH XÁC hơn (SPM-guided, không chỉ body sync)
+        → Calibrate CHÍNH XÁC hơn (Self-Pattern-Modeling-guided, không chỉ body sync)
         → Anchor-activate SPECIFIC (❷ chọn agent NÀO → anchor, ❶ chỉ "bất kỳ ai")
 
     → = "Nói chuyện với bạn" feel BETTER dù KHÔNG giải quyết gì =
       ❶ body sync + anchor shift + ❷ enables Resonance → chunks naturally update
-    → = Tại sao connection CÓ TRƯỚC ngôn ngữ, TRƯỚC SPM — vì ❶ đã đủ
+    → = Tại sao connection CÓ TRƯỚC ngôn ngữ, TRƯỚC Self-Pattern-Modeling — vì ❶ đã đủ
       cho basic connection. ❷ THÊM depth qua Resonance sustained.
 
     ⭐ DEVELOPMENTAL EVIDENCE:
@@ -887,26 +887,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟡 SCHEMA FALLBACK KHI CHUNKS THIẾU:
 
-    SPM quality phụ thuộc chunk library depth cho target.
-    Khi library THIẾU → SPM fire coarse → fallback:
-      1. SPM with thin chunks (best available)
+    Self-Pattern-Modeling quality phụ thuộc chunk library depth cho target.
+    Khi library THIẾU → Self-Pattern-Modeling fire coarse → fallback:
+      1. Self-Pattern-Modeling with thin chunks (best available)
       2. Schema template ("con gái thì dịu dàng")
       3. Pure logic (deterministic prediction)
       4. Avoid interaction
 
-    "Phụ nữ khó hiểu" = SPM chunks CỦA A cho phụ nữ = THIẾU
+    "Phụ nữ khó hiểu" = Self-Pattern-Modeling chunks CỦA A cho phụ nữ = THIẾU
     → Schema fallback → prediction thường SAI → "khó hiểu"
-    → KHÔNG PHẢI target "khó hiểu" — SPM library CỦA A gap
+    → KHÔNG PHẢI target "khó hiểu" — Self-Pattern-Modeling library CỦA A gap
     → FIX: tương tác NHIỀU hơn → chunks THÊM → accuracy TĂNG
 
     Einstein × Grossmann:
     → Resonance emerge ở math/physics domain dù personality KHÁC
-    → Domain-specific chunk overlap drives SPM quality, NOT personality match
+    → Domain-specific chunk overlap drives Self-Pattern-Modeling quality, NOT personality match
 
-  🟢 F1/F2 consistent với Dual Process Theory (Kahneman 2011)
+  🟢 Compiled/Fresh consistent với Dual Process Theory (Kahneman 2011)
   🟢 Context-dependent selection consistent với role theory, social cognition
-  🟡 2-tầng model (❶ body-level + ❷ SPM-level) = framework synthesis
-  🟡 Developmental evidence (E12 social smile pre-SPM) supports 2-tầng
+  🟡 2-tầng model (❶ body-level + ❷ Self-Pattern-Modeling-level) = framework synthesis
+  🟡 Developmental evidence (E12 social smile pre-Self-Pattern-Modeling) supports 2-tầng
   🟡 "Khó hiểu" = library gap = framework claim, logically consistent
 ```
 
@@ -917,20 +917,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   (Valence-Propagation.md v3.0 — per-entity valence)
 
-  Valence KHÔNG PHẢI input cho SPM — valence GATE cho SPM.
-  Valence quyết định: F1 fire HƯỚNG NÀO, F2 chain MỤC ĐÍCH NÀO.
+  Valence KHÔNG PHẢI input cho Self-Pattern-Modeling — valence GATE cho Self-Pattern-Modeling.
+  Valence quyết định: Compiled fire HƯỚNG NÀO, Fresh chain MỤC ĐÍCH NÀO.
 
   Cùng 1 target cue (người khóc):
-    → ❸ positive (bạn thân khóc) → F1 empathy + F2 help
-    → ❸ neutral (người lạ khóc) → F1 nhẹ + F2 assess
-    → ❸ negative (kẻ thù khóc) → F1 REVERSED + F2 exploit
+    → ❸ positive (bạn thân khóc) → Compiled empathy + Fresh help
+    → ❸ neutral (người lạ khóc) → Compiled nhẹ + Fresh assess
+    → ❸ negative (kẻ thù khóc) → Compiled REVERSED + Fresh exploit
   → CÙNG cue, CÙNG mechanism, KHÁC output — vì KHÁC ❸
 
 
   ⭐ FULL SPECTRUM — KHÔNG CHỈ POSITIVE:
 
   ┌──────────────────┬────────────────────┬────────────────────┬─────────────────┐
-  │ Per-Agent Valence │ F1 (Compiled)      │ F2 (Fresh)         │ Connection      │
+  │ Per-Agent Valence │ Compiled                 │ Fresh                 │ Connection      │
   ├──────────────────┼────────────────────┼────────────────────┼─────────────────┤
   │ STRONG POSITIVE  │ Empathy FULL       │ Help/connect       │ Connection deep │
   │ (bạn thân, mẹ)  │ Their joy=my joy   │ "Giúp gì được?"    │                 │
@@ -951,8 +951,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ bị tù)          │ REWARD             │ "Kiện ra tòa?"     │ avoidance       │
   │                  │ (Schadenfreude)    │                    │                 │
   ├──────────────────┼────────────────────┼────────────────────┼─────────────────┤
-  │ EXTREME NEGATIVE │ ⭐ F1 SUPPRESS     │ F2 THUẦN           │ Dehumanize      │
-  │ (dehumanized)   │ SPM tắt           │ Mechanical predict  │ = object        │
+  │ EXTREME NEGATIVE │ ⭐ Compiled SUPPRESS     │ Fresh THUẦN           │ Dehumanize      │
+  │ (dehumanized)   │ Self-Pattern-Modeling tắt           │ Mechanical predict  │ = object        │
   └──────────────────┴────────────────────┴────────────────────┴─────────────────┘
 
 
@@ -960,12 +960,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Khi interact với agent, body nhận 2 LUỒNG reward/feedback ĐỒNG THỜI:
 
-    LUỒNG 1 — SPM-owned (momentary, từ simulate):
-      = Body phản hồi TẠI KHOẢNH KHẮC SPM F1 fire trên target
+    LUỒNG 1 — Self-Pattern-Modeling-owned (momentary, từ simulate):
+      = Body phản hồi TẠI KHOẢNH KHẮC Self-Pattern-Modeling Compiled fire trên target
       = Có thể POSITIVE (bạn vui → mình vui lây)
       = Có thể NEGATIVE (con ốm → mình khó chịu nhẹ)
       = Near-automatic, khó tắt
-      = THUỘC VỀ SPM mechanism: Self-Pattern-Match.md v2.1 §2.1
+      = THUỘC VỀ Self-Pattern-Modeling mechanism: Self-Pattern-Modeling.md v2.1 §2.1
       = Biochemistry chi tiết: Empathy.md v1.1 §4.2
 
     LUỒNG 2 — Entity-compiled (sustained, từ compiled valence):
@@ -981,19 +981,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ┌──────────────────┬──────────┬──────────┬──────────────────────────┐
     │ Case             │ Luồng 1  │ Luồng 2  │ Kết quả                  │
-    │                  │ (F1 sim) │ (❸ struct)│                          │
+    │                  │ (Compiled sim) │ (❸ struct)│                          │
     ├──────────────────┼──────────┼──────────┼──────────────────────────┤
     │ Bạn vui, kể      │ + (vui   │ + (bạn = │ COMPOUND reward          │
     │ chuyện vui       │ lây)     │ body-ext)│ → gặp bạn thân = TỐT CỰC│
     ├──────────────────┼──────────┼──────────┼──────────────────────────┤
     │ Mẹ chăm con ốm  │ - (khó   │ + (con = │ L2 > L1 → VẪN CHĂM      │
-    │                  │ chịu)    │ body-ext)│ dù F1 negative           │
+    │                  │ chịu)    │ body-ext)│ dù Compiled negative           │
     ├──────────────────┼──────────┼──────────┼──────────────────────────┤
     │ Bác sĩ chăm      │ - (khó   │ ≈ 0 (❸   │ L1- không được bù       │
     │ bệnh nhân lạ    │ chịu)    │ neutral) │ → cần professional anchor│
     │                  │          │          │ → BURNOUT nếu kéo dài    │
     ├──────────────────┼──────────┼──────────┼──────────────────────────┤
-    │ Kẻ thù thua     │ + (F1    │ + (safety│ COMPOUND reward           │
+    │ Kẻ thù thua     │ + (Compiled    │ + (safety│ COMPOUND reward           │
     │                  │ reversed)│ tăng)    │ = Schadenfreude          │
     ├──────────────────┼──────────┼──────────┼──────────────────────────┤
     │ Cho tiền ăn xin  │ - nhẹ   │ ≈ 0      │ Reward chủ yếu từ        │
@@ -1001,16 +1001,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     └──────────────────┴──────────┴──────────┴──────────────────────────┘
 
     ⭐ KEY INSIGHT: Mẹ chăm con ốm suốt dù KHÔNG improve:
-      → Luồng 1: con vẫn ốm → F1 discomfort LIÊN TỤC (negative)
+      → Luồng 1: con vẫn ốm → Compiled discomfort LIÊN TỤC (negative)
       → Luồng 2: con = body-base mở rộng → chăm con = feed body-base MÌNH
       → Luồng 2 fire BẤT KỂ Luồng 1 → mẹ VẪN CHĂM
-      → = ❸ tạo STRUCTURAL DRIVE, không phụ thuộc F1 output
+      → = ❸ tạo STRUCTURAL DRIVE, không phụ thuộc Compiled output
 
     ⭐ KEY INSIGHT: Bác sĩ burnout vs Mẹ không burnout (cùng chăm người ốm):
-      → Bác sĩ: Luồng 1 negative + Luồng 2 ≈ 0 → F1 cost TÍCH LŨY không bù
-      → Mẹ: Luồng 1 negative + Luồng 2 STRONG positive → F1 cost ĐƯỢC BÙ
-      → = CÙNG F1 cost, KHÁC ❸ valence → KHÁC outcome
-      → = Moral injury (SPM v2.0 §10) = F1 cost tích lũy KHI Luồng 2 không đủ bù
+      → Bác sĩ: Luồng 1 negative + Luồng 2 ≈ 0 → Compiled cost TÍCH LŨY không bù
+      → Mẹ: Luồng 1 negative + Luồng 2 STRONG positive → Compiled cost ĐƯỢC BÙ
+      → = CÙNG Compiled cost, KHÁC ❸ valence → KHÁC outcome
+      → = Moral injury (Self-Pattern-Modeling v2.0 §10) = Compiled cost tích lũy KHI Luồng 2 không đủ bù
 
     🟡 2-luồng separation = framework synthesis
     🟢 Empathy fatigue ở professionals: Figley 2002 (compassion fatigue)
@@ -1024,18 +1024,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → Negative coupling drilled: Schadenfreude, hate, dehumanization
         → System compilation: company/nation coupling KHÁC per-agent coupling
         → compile_rate formula: |peak_valence| quyết định, repetition = multiplier
-      §3.3 NÀY giữ vai trò: HOW ❸ gates SPM + 2-luồng overview.
+      §3.3 NÀY giữ vai trò: HOW ❸ gates Self-Pattern-Modeling + 2-luồng overview.
       Body-Coupling.md = WHERE TO GO cho coupling formation + dynamics.
 
 
   ⭐ VALENCE DYNAMIC — THAY ĐỔI QUA EXPERIENCE:
 
     Du lịch Việt Nam: neutral → positive (người thân thiện)
-      → SPM shift: surface → approach → empathy nhẹ → giving reward
+      → Self-Pattern-Modeling shift: surface → approach → empathy nhẹ → giving reward
     Du lịch Brazil: neutral → NEGATIVE (bị cướp)
-      → SPM shift: surface → threat → avoid → fear
+      → Self-Pattern-Modeling shift: surface → threat → avoid → fear
     Du lịch Trung Quốc: neutral → neutral (safe nhưng không warm)
-      → SPM: surface → surface (không change)
+      → Self-Pattern-Modeling: surface → surface (không change)
 
     → Valence UPDATE liên tục qua interaction
     → "Ấn tượng đầu tiên" quan trọng vì valence compile NHANH
@@ -1046,11 +1046,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ SPECIAL CASE — MIXED VALENCE:
 
     Mẹ: L1++ (cho ăn, ôm) NHƯNG autonomy-- (ép học, cấm chơi)
-      → F1: vừa warmth vừa tension (mixed)
-      → F2: vừa "nghe lời" vừa "tìm cách thoát"
+      → Compiled: vừa warmth vừa tension (mixed)
+      → Fresh: vừa "nghe lời" vừa "tìm cách thoát"
       → = Drive.md §3 Conflict: 2 signals cùng mạnh, ngược hướng
 
-    → Mixed valence = F1 conflict + F2 multiple plans → Cost TĂNG
+    → Mixed valence = Compiled conflict + Fresh multiple plans → Cost TĂNG
     → = Tại sao "quan hệ phức tạp" = exhausting
 
   🟢 Schadenfreude: Takahashi 2009 (ventral striatum), Singer 2006
@@ -1072,7 +1072,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CURRENT VALENCE (activated per-moment):
     → Outside Entity-Compiled — per-moment activation
-    → L1 (SPM momentary) + activated L2 channels AT THIS MOMENT
+    → L1 (Self-Pattern-Modeling momentary) + activated L2 channels AT THIS MOMENT
     → Change speed: PER SECOND (context-dependent)
     → Mẹ la = negative current; mẹ ôm = positive current
     → SAME structural (mixed) → DIFFERENT current based on context
@@ -1143,7 +1143,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → L2 channels fire LOW-LEVEL → opioid baseline
     → VTA HABITUATED → reward INVISIBLE → PFC sees NOTHING
     → = "Background warmth" — CÓ nhưng không BIẾT
-    → Hw subsidy modulates: HIGH subsidy → baseline RICHER, NONE → lean
+    → Hardware subsidy modulates: HIGH subsidy → baseline RICHER, NONE → lean
 
   MODE 2 — CHUNK-MISS (entity ABSENT):
     → Compiled routine FIRES → no response → prediction-delta → PAIN
@@ -1153,7 +1153,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Connection loss = MODE 2 fire
 
   MODE 3 — CONTEXT-TRIGGER (external cue → activate):
-    → See/hear/smell something → match EC spoke → L2 fire UNPREDICTABLE
+    → See/hear/smell something → match Entity-Compiled spoke → L2 fire UNPREDICTABLE
     → Nghe bài hát cũ → nhớ bạn → warmth bất ngờ
     → = "Phantom resonance" khi entity đã mất (§15)
 
@@ -1161,7 +1161,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → mất → pain CỰC MẠNH (Mode 2) → triggers bất ngờ (Mode 3)
   → = Connection valence LUÔN ACTIVE, chỉ khác VISIBILITY
 
-  🟡 Structural/Current + Satiation + Mixed + 3 Modes = VP v3.0 framework synthesis
+  🟡 Structural/Current + Satiation + Mixed + 3 Modes = Valence-Propagation v3.0 framework synthesis
   🟢 Individual mechanisms all research-supported
 ```
 
@@ -1173,9 +1173,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Cho ❶❷❸ ở values cụ thể → PREDICT output:
 
   ┌──────────────────┬───────────┬──────────────┬──────────────┬─────────────────────────┐
-  │ Case             │ ❶Hardware │ ❷SPM quality │ ❸Valence     │ Connection output       │
+  │ Case             │ ❶Hardware │ ❷Self-Pattern-Modeling quality │ ❸Valence     │ Connection output       │
   ├──────────────────┼───────────┼──────────────┼──────────────┼─────────────────────────┤
-  │ Bạn thân hợp tính│ Active    │ Deep, F1+F2  │ Strong +     │ DEEP connection, 8 path │
+  │ Bạn thân hợp tính│ Active    │ Deep, Compiled+Fresh  │ Strong +     │ DEEP connection, 8 path │
   │ Đồng nghiệp quen│ Active    │ Moderate     │ Mild +       │ Professional bond       │
   │ Người lạ thân    │ Active    │ Surface      │ Mild +       │ Approach, calibrate     │
   │ thiện (VN trip)  │           │              │              │                         │
@@ -1192,7 +1192,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Chó → người      │ Active    │ Affective    │ Varies       │ Cross-species sympathy  │
   │                  │ (limited) │ only         │              │ (no Resonance possible)        │
   │ Celebrity fan    │ Active    │ Rich but     │ Projected +  │ Parasocial distortion   │
-  │ (parasocial)     │           │ no feedback  │              │ (rich SPM, no Resonance)       │
+  │ (parasocial)     │           │ no feedback  │              │ (rich Self-Pattern-Modeling, no Resonance)       │
   ├──────────────────┼───────────┼──────────────┼──────────────┼─────────────────────────┤
   │ Solitary confine │ UNMET     │ N/A          │ N/A          │ Body deteriorate        │
   │ Einstein alone   │ Fire nhẹ │ N/A (no agent│ N/A          │ Override by domain      │
@@ -1207,7 +1207,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Tất cả trẻ:
       → ❶ Hardware: INTACT (cùng species, cùng hardware)
-      → ❷ SPM: THIẾU (minimal contingent interaction → SPM không develop)
+      → ❷ Self-Pattern-Modeling: THIẾU (minimal contingent interaction → Self-Pattern-Modeling không develop)
 
     Nhưng KHÁC ❸ Valence (compiled qua random experiences):
       → Valence positive → indiscriminate friendliness
@@ -1226,14 +1226,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Reward FROM connection (direct body-feed):
       ②⑥ = ❶ Hardware (presence + co-regulation) + ❸ positive
-      ⑤   = ❷ SPM (validation) + ❶ presence
+      ⑤   = ❷ Self-Pattern-Modeling (validation) + ❶ presence
 
-    Reward VIA connection (SPM-mediated):
-      ①④ = ❷ SPM (F1 mirror + giving) + ❸ positive
-      ③⑦⑧ = ❷ SPM (F2 deliberate) + ❸ positive → reward THROUGH connection
+    Reward VIA connection (Self-Pattern-Modeling-mediated):
+      ①④ = ❷ Self-Pattern-Modeling (Compiled mirror + giving) + ❸ positive
+      ③⑦⑧ = ❷ Self-Pattern-Modeling (Fresh deliberate) + ❸ positive → reward THROUGH connection
 
     ⭐ KHI ❸ NEGATIVE → 8 pathways FIRE NGƯỢC:
-      ① Mirror → khinh bỉ thay vì empathy (F1 reversed)
+      ① Mirror → khinh bỉ thay vì empathy (Compiled reversed)
       ② Co-regulation → cortisol TĂNG thay vì GIẢM
       ⑤ Validation → phản-validate ("mày không phải người")
       ⑥ Presence → threat signal thay vì safety
@@ -1246,26 +1246,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §4 — SPM × RESONANCE: TRỤC CHÍNH
+## §4 — Self-Pattern-Modeling × RESONANCE: TRỤC CHÍNH
 
-### §4.1 — SPM = Pathway TẠO connection
+### §4.1 — Self-Pattern-Modeling = Pathway TẠO connection
 
 ```
 ⭐ SELF-PATTERN-MATCH LÀ CƠ CHẾ TẠO CONNECTION:
 
-  (Self-Pattern-Modeling.md v3.1: solo forward simulation, F1+F2)
-  (Agent-Mechanism.md §12.2: SPM feeds social presence need)
+  (Self-Pattern-Modeling.md v3.1: solo forward simulation, Compiled+Fresh)
+  (Agent-Mechanism.md §12.2: Self-Pattern-Modeling feeds social presence need)
 
   Hai người ở cạnh nhau KHÔNG TỰ ĐỘNG có connection.
-  Connection xuất hiện khi SPM fire THÀNH CÔNG giữa họ.
+  Connection xuất hiện khi Self-Pattern-Modeling fire THÀNH CÔNG giữa họ.
 
   CƠ CHẾ:
 
     A gặp B
       ↓
-    A's SPM fire on B:
-      → F1: body A fire bản sao yếu state B → body-level response
-      → F2: PFC A chain "B feel X → B sẽ do Y → tôi nên do Z"
+    A's Self-Pattern-Modeling fire on B:
+      → Compiled: body A fire bản sao yếu state B → body-level response
+      → Fresh: PFC A chain "B feel X → B sẽ do Y → tôi nên do Z"
       ↓
     Body A interpret simulation output as social presence signal
       ↓
@@ -1274,20 +1274,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Cortisol decrease, oxytocin release, comfort
 
   → = "Nói chuyện với bạn" feeds body-base DÙ food/shelter KHÔNG ĐỔI
-  → = SPM firing IS body-level reward delivery mechanism
-  → = KHÔNG CÓ SPM → KHÔNG CÓ connection (chỉ 2 bodies cạnh nhau)
+  → = Self-Pattern-Modeling firing IS body-level reward delivery mechanism
+  → = KHÔNG CÓ Self-Pattern-Modeling → KHÔNG CÓ connection (chỉ 2 bodies cạnh nhau)
 
 
-  TẠI SAO SPM QUALITY = CONNECTION QUALITY:
+  TẠI SAO Self-Pattern-Modeling QUALITY = CONNECTION QUALITY:
 
-    SPM quality phụ thuộc 4 axes (Self-Pattern-Modeling.md §6):
+    Self-Pattern-Modeling quality phụ thuộc 4 axes (Self-Pattern-Modeling.md §6):
       ① Pattern-Type match — fire đúng loại chunks cho target cues
       ② Depth — quantity + specificity chunks về target
       ③ Similarity — self-target template match quality
       ④ Feedback — real-time calibration available
 
-    → "Hiểu nhau sâu" = SPM quality CAO ở CẢ 2 PHÍA
-    → "Có gì đó không đúng" = SPM mismatch ở 1 hoặc cả 2 phía
+    → "Hiểu nhau sâu" = Self-Pattern-Modeling quality CAO ở CẢ 2 PHÍA
+    → "Có gì đó không đúng" = Self-Pattern-Modeling mismatch ở 1 hoặc cả 2 phía
 ```
 
 ### §4.2 — By-Product-Gap-Resonance = Connection THẬT emerge (2-Stream Architecture)
@@ -1295,14 +1295,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ BY-PRODUCT-GAP-RESONANCE v1.0 — 2-STREAM ARCHITECTURE:
 
-  (By-Product-Gap-Resonance.md v1.4: 2-Stream, by-product match, SPM NOT prerequisite)
+  (By-Product-Gap-Resonance.md v1.4: 2-Stream, by-product match, Self-Pattern-Modeling NOT prerequisite)
 
   ★ DEFINITION v3.1 (BROADENED):
     Resonance = emergent mutual phenomenon khi 2+ entities' interactions
     produce sustained by-product match — mỗi bên fill gap CỦA MÌNH
     qua actions mà output (by-product) match gap direction CỦA BÊN KIA.
 
-    → SPM = NOT prerequisite (nhưng SPM enhances quality + sustainability)
+    → Self-Pattern-Modeling = NOT prerequisite (nhưng Self-Pattern-Modeling enhances quality + sustainability)
     → Mẹ-bé, người-chó = GENUINE Resonance (không phải "failed cases")
     → Cần: mutual by-product match (cả 2 receive reward from interaction)
 
@@ -1316,7 +1316,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Ví dụ:
       Mẹ ôm con (fill gap "bảo vệ" CỦA MẸ) → con nhận warmth (match gap con)
       Con cười (fill gap "express" CỦA CON) → mẹ nhận opioid (match gap mẹ)
-      = MUTUAL by-product match → Resonance genuine (DÙ bé sơ sinh chưa có SPM)
+      = MUTUAL by-product match → Resonance genuine (DÙ bé sơ sinh chưa có Self-Pattern-Modeling)
 
 
   ⭐ 2 STREAMS CHẠY SONG SONG — INDEPENDENT, CỘNG DỒN:
@@ -1331,18 +1331,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │   Phụ thuộc HARDWARE + COMPILED CHUNKS (not pure hardware)              │
   │   Multi-channel: beauty, economic status, presence, baby schema         │
   │                                                                         │
-  │   Supports Stream 2:                                                    │
-  │     ① Khởi động (beauty → proximity → SPM begins)                      │
-  │     ② Đệm an toàn (buffer khi Stream 2 conflict)                       │
+  │   Supports Modeling-Stream:                                                    │
+  │     ① Khởi động (beauty → proximity → Self-Pattern-Modeling begins)                      │
+  │     ② Đệm an toàn (buffer khi Modeling-Stream conflict)                       │
   │                                                                         │
-  │   CONNECTION IMPLICATION: ❶ Hardware (§3.1) = Stream 1 chủ yếu          │
-  │   → Presence signal (Pathway ⑥), co-regulation (②) = Stream 1 effects  │
+  │   CONNECTION IMPLICATION: ❶ Hardware (§3.1) = Hardware-Stream chủ yếu          │
+  │   → Presence signal (Pathway ⑥), co-regulation (②) = Hardware-Stream effects  │
   └─────────────────────────────────────────────────────────────────────────┘
 
   ┌─────────────────────────────────────────────────────────────────────────┐
-  │ STREAM 2 — SPM compiled mutual (bidirectional synchronization)          │
+  │ STREAM 2 — Self-Pattern-Modeling compiled mutual (bidirectional synchronization)          │
   │                                                                         │
-  │   CẦN cả 2 engage SPM toward nhau → feedback loop                      │
+  │   CẦN cả 2 engage Self-Pattern-Modeling toward nhau → feedback loop                      │
   │   2 não ĐỒNG BỘ: A detect B state → respond → B FEEL → respond → loop │
   │   Có thể THAY ĐỔI state người kia (kéo lên/xuống thật sự)             │
   │   ANTI-HABITUATION: Hebbian → more use → stronger → cost giảm          │
@@ -1350,28 +1350,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │   = Mechanism tạo "2 não là 1 system" (deepest human connection)        │
   │                                                                         │
   │   Quality spectrum (Compiled/Fresh axis):                               │
-  │     F1+F1 = deepest ("hợp tính," body confirm cả 2, cost ≈ 0)          │
-  │     F1+F2 = functional (1 compiled, 1 fresh → vẫn hiệu quả)            │
-  │     F2+F2 = transactional (professional → "nhạt" nhưng đủ, cost CAO)   │
+  │     Compiled+Compiled = deepest ("hợp tính," body confirm cả 2, cost ≈ 0)          │
+  │     Compiled+Fresh = functional (1 compiled, 1 fresh → vẫn hiệu quả)            │
+  │     Fresh+Fresh = transactional (professional → "nhạt" nhưng đủ, cost CAO)   │
   │                                                                         │
-  │   Proto-Stream 2: mẹ-bé (contingent response), người-chó (associative) │
+  │   Proto-Modeling-Stream: mẹ-bé (contingent response), người-chó (associative) │
   │                                                                         │
-  │   CONNECTION IMPLICATION: ❷ SPM (§3.2) = Stream 2 engine                │
-  │   → Mirror (①), Validation (⑤), Giving (④), Knowledge (⑧) = Stream 2  │
+  │   CONNECTION IMPLICATION: ❷ Self-Pattern-Modeling (§3.2) = Modeling-Stream engine                │
+  │   → Mirror (①), Validation (⑤), Giving (④), Knowledge (⑧) = Modeling-Stream  │
   └─────────────────────────────────────────────────────────────────────────┘
 
   TEMPORAL DYNAMICS:
-    Stream 1: peaks EARLY (vợ mới cưới đẹp → vui) → HABITUATES (quen → giảm)
-    Stream 2: starts ZERO → GROWS over time (càng interact → càng sâu)
-    Sustainability: Stream 2 growth phải > Stream 1 decline
-    → "7-year itch" = Stream 1 đã habituate, Stream 2 chưa grow đủ
+    Hardware-Stream: peaks EARLY (vợ mới cưới đẹp → vui) → HABITUATES (quen → giảm)
+    Modeling-Stream: starts ZERO → GROWS over time (càng interact → càng sâu)
+    Sustainability: Modeling-Stream growth phải > Hardware-Stream decline
+    → "7-year itch" = Hardware-Stream đã habituate, Modeling-Stream chưa grow đủ
 
-  TOTAL RESONANCE PER PAIR = Stream 1 + Stream 2 (parallel, independent):
-    → Mẹ-bé: Stream 1 CỰC MẠNH (evolution protected) + Proto-Stream 2
-    → Người-chó: Stream 1 strong + Proto-Stream 2 moderate
-    → Bạn thân 20 năm: Stream 1 moderate + Stream 2 DEEP (F1+F1 compiled)
-    → Đồng nghiệp mới: Stream 1 low + Stream 2 transactional (F2+F2)
-    → Người-robot: Stream 1 habituates fast + Stream 2 IMPOSSIBLE → hollow
+  TOTAL RESONANCE PER PAIR = Hardware-Stream + Modeling-Stream (parallel, independent):
+    → Mẹ-bé: Hardware-Stream CỰC MẠNH (evolution protected) + Proto-Modeling-Stream
+    → Người-chó: Hardware-Stream strong + Proto-Modeling-Stream moderate
+    → Bạn thân 20 năm: Hardware-Stream moderate + Modeling-Stream DEEP (Compiled+Compiled)
+    → Đồng nghiệp mới: Hardware-Stream low + Modeling-Stream transactional (Fresh+Fresh)
+    → Người-robot: Hardware-Stream habituates fast + Modeling-Stream IMPOSSIBLE → hollow
 
 
   ⭐ ANTI-MATCH — WORSE THAN NO-RESONANCE:
@@ -1389,31 +1389,31 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Hậu vệ ↔ tiền đạo = 1 shape (shared goal, complementary action).
     Hậu vệ ↔ khán giả = different shape (unidirectional appreciation).
     Vợ chồng = 1 shape ở "nuôi con" ≠ shape ở "sở thích cá nhân".
-    Double empathy (Milton 2012) = universal: SPM accuracy = f(chunk overlap).
+    Double empathy (Milton 2012) = universal: Self-Pattern-Modeling accuracy = f(chunk overlap).
 
 
   ⭐ 4 ĐIỀU KIỆN (BROADENED in v3.1 — By-Product-Gap-Resonance.md §4):
 
     ① CẢ HAI capable of receiving by-product reward from other
-       (NOT "both running SPM" — mẹ-bé, người-chó QUALIFY)
+       (NOT "both running Self-Pattern-Modeling" — mẹ-bé, người-chó QUALIFY)
     ② Channel available (touch, presence, visual, auditory suffice)
     ③ By-product match (per-domain, per-moment)
     ④ Sufficient exposure (not just "time" — quality of interaction)
 
-    Stream 2 ADDITIONAL: both engage SPM + mutual feedback loop
+    Modeling-Stream ADDITIONAL: both engage Self-Pattern-Modeling + mutual feedback loop
 
 
   ⭐ RETROSPECTIVE DETECTION + PFC = LAWYER:
 
     Resonance = RETROSPECTIVE — không thể biết chính xác real-time:
-      → Self chỉ biết: own SPM + observable cues + own response
-      → Self KHÔNG biết: target's actual SPM toward mình
+      → Self chỉ biết: own Self-Pattern-Modeling + observable cues + own response
+      → Self KHÔNG biết: target's actual Self-Pattern-Modeling toward mình
       → "Hiểu nhau" = INFERENCE, không phải FACT
       → CÓ THỂ sai: "tưởng hiểu nhau" nhưng thực ra projection
 
     ⚠️ PFC = LAWYER not JUDGE (Inter-Body-Mechanism.md §7):
       PFC tạo narrative FOR body-base decision đã được made.
-      "Tôi hiểu bạn" có thể = PFC justify body's comfort (Stream 1 warmth).
+      "Tôi hiểu bạn" có thể = PFC justify body's comfort (Hardware-Stream warmth).
       "Chúng ta rất hợp" có thể = PFC rationalize initial attraction.
       → Domain outcome (relationship lasts? deepens? both grow?) = FINAL ARBITER
       → NOT feeling of understanding (feeling can be wrong — Nisbett & Wilson 1977)
@@ -1422,10 +1422,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 
   ⭐ Resonance × VALENCE:
-    Stream 1: can exist at ANY ❸ valence (beauty reward doesn't need ❸ positive)
-    Stream 2: chỉ emerge ở ❸ positive hoặc neutral
-    ❸ negative → SPM fire reversed → Stream 2 KHÔNG emerge
-    ❸ extreme negative → SPM suppress → Stream 2 impossible
+    Hardware-Stream: can exist at ANY ❸ valence (beauty reward doesn't need ❸ positive)
+    Modeling-Stream: chỉ emerge ở ❸ positive hoặc neutral
+    ❸ negative → Self-Pattern-Modeling fire reversed → Modeling-Stream KHÔNG emerge
+    ❸ extreme negative → Self-Pattern-Modeling suppress → Modeling-Stream impossible
 
   🟢 Pattern matching: Singer 2004, Feldman 2007 (interpersonal synchrony)
   🟢 By-product match: consistent with reciprocal altruism (Trivers 1971)
@@ -1439,19 +1439,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ CONNECTION CUNG CẤP GÌ MÀ Resonance ĐƠN LẺ KHÔNG CÓ:
 
-  Resonance (By-Product-Gap-Resonance.md) = emergent phenomenon khi 2+ SPMs co-fire.
+  Resonance (By-Product-Gap-Resonance.md) = emergent phenomenon khi 2+ Self-Pattern-Modeling co-fire.
   Resonance TỰ NÓ đã verify chunks, bổ sung chunks mới, calibrate accuracy.
   → Verify, generate, calibrate = Resonance FUNCTIONS, không riêng Connection.
 
   Đọc bài báo học thuật cũng có Resonance:
-    → SPM fire on text (compiled output của tác giả)
+    → Self-Pattern-Modeling fire on text (compiled output của tác giả)
     → "Ồ, họ cũng nói giống mình nghĩ" = chunks match → verified qua Resonance
     → "Ồ, họ có thêm thông tin này" = chunks mới → learn qua Resonance
     → = Resonance xảy ra KHÔNG CẦN connection relationship
 
   Vậy Connection THÊM gì?
 
-  ① ❶ BODY-LEVEL EFFECTS (Connection-specific, pre-SPM):
+  ① ❶ BODY-LEVEL EFFECTS (Connection-specific, pre-Self-Pattern-Modeling):
     → Presence → cortisol giảm (Social Baseline Theory)
     → Co-regulation: heart rate, breathing sync
     → CT fibers, oxytocin release
@@ -1460,7 +1460,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ② SUSTAINED CONTEXT cho REPEATED Resonance:
     → Bài báo = Resonance 1 lần → xong
     → Bạn thân = Resonance HÀNG NGHÌN LẦN qua nhiều năm → calibrated DEEP
-    → Mỗi Resonance episode → chunks update → SPM accuracy TĂNG
+    → Mỗi Resonance episode → chunks update → Self-Pattern-Modeling accuracy TĂNG
     → = Connection depth = TÍCH LŨY nhiều vòng Resonance
     → = "Tình bạn cần thời gian" = cần ĐỦ Resonance loops
 
@@ -1472,7 +1472,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 
   VÍ DỤ — Café case (3 responses → khác Resonance outcome):
-    "Tôi sẽ mở quán cafe" (SPM fire, express pattern)
+    "Tôi sẽ mở quán cafe" (Self-Pattern-Modeling fire, express pattern)
       → Bạn chê: "hậu đậu như mày..." = Resonance FAIL (reject) → dissonance
       → Bạn giải thích: "mở quán sẽ tốn..." = Resonance partial (new chunks) → refine
       → Bạn ủng hộ: "tao giúp mày..." = Resonance emerge (match + amplify) → bond tăng
@@ -1482,7 +1482,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Patterns CÓ nhưng Resonance KHÔNG EMERGE = "trống rỗng" (§16)
     → ❶ drive tìm agents → KHÔNG TÌM ĐC → body dissonance
-    → = "Muốn nói mà không ai nghe" = SPM fire nhưng no Resonance
+    → = "Muốn nói mà không ai nghe" = Self-Pattern-Modeling fire nhưng no Resonance
     → = Khác "đọc bài báo" vì bài báo = Resonance 1 chiều, CÓ match
       nhưng KHÔNG có ❶ body-level effects (presence, co-regulation)
 
@@ -1511,7 +1511,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Tại sao introvert sau party = kiệt sức (3-cost tích lũy)
     → SUSTAINABILITY: 3-cost > reward → burnout → avoid/withdraw
 
-    CONTRAST — BẠN THÂN F1+F1 (compiled):
+    CONTRAST — BẠN THÂN Compiled+Compiled (automatic):
     ① ≈ 0 (compiled, biết bạn sẽ respond sao)
     ② ≈ 0 (KHÔNG suppress, là chính mình)
     ③ ≈ 0 (know each other's patterns → no uncertainty)
@@ -1578,7 +1578,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Hardware by-product habituates NATURALLY — repeated stimulus → VTA ↓
     → "Beauty fades" = VTA habituated to VISUAL by-product
     → INDEPENDENT of M1 — occurs even in healthy couples both growing
-    → Hw subsidy COUNTERS: MAX subsidy (mẹ→con) → M2 SLOW
+    → Hardware subsidy COUNTERS: MAX subsidy (mẹ→con) → M2 SLOW
                             NONE (bạn thân) → M2 at STANDARD rate
 
     🟢 Bao & Lyubomirsky 2013: hedonic adaptation in relationships
@@ -1586,9 +1586,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   M3 — PREDICTION COMPLETION (rate=0 → passion=0):
 
-    SPM becomes too accurate → zero prediction-delta → no NEW reward signal
+    Self-Pattern-Modeling becomes too accurate → zero prediction-delta → no NEW reward signal
     → Gap STILL EXISTS but receives no NEW by-products to fill
-    → "Biết hết rồi" = SPM predict 100% → surprise = 0 → VTA = 0
+    → "Biết hết rồi" = Self-Pattern-Modeling predict 100% → surprise = 0 → VTA = 0
     → KHÁC M1: gap riêng VẪN CÓ, nhưng KHÔNG còn gì MỚI để fill
 
     🟢 Baumeister & Bratslavsky 1999: passion = RATE OF CHANGE in intimacy
@@ -1599,7 +1599,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     After 40→80→200h formation, diminishing returns hit
     → Few NEW chunks to compile about partner → growth slows
-    → EC still DEEP, nhưng new additions MARGINAL
+    → Entity-Compiled still DEEP, nhưng new additions MARGINAL
 
     🟢 Aron & Aron 1996, 2000: self-expansion slows → satisfaction drops
 
@@ -1625,8 +1625,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     PFC observe partner "giống nhau" → PFC label "over-clone."
     THẬT RA: Gap clone = ARCHITECTURALLY IMPOSSIBLE vì:
-      ① Gap = f(TOÀN BỘ chunk network) — SPM chỉ ADD vài chunks về partner
-      ② Background Pattern RESISTS shift (decades of BP ≠ months of SPM)
+      ① Gap = f(TOÀN BỘ chunk network) — Self-Pattern-Modeling chỉ ADD vài chunks về partner
+      ② Background-Pattern RESISTS shift (decades of Background-Pattern ≠ months of Self-Pattern-Modeling)
       ③ Hardware gaps IMMUTABLE (DNA, neurotransmitter balance)
       ④ TWIN TEST: identical twins ~100% DNA → gaps VẪN khác (separate experience)
       ⑤ Behavioral lookalike ≠ gap clone (both like phở ≠ same gap direction)
@@ -1644,7 +1644,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     (Bond-Architecture.md v1.0 §5 — True Understanding)
 
-    SPM deep + calibrated → truly understand partner
+    Self-Pattern-Modeling deep + calibrated → truly understand partner
     → KNOW partner has own gaps → BELIEVE gaps are valid
     → SUPPORT partner pursuing own gaps
     → Partner maintains drive riêng → generates NEW by-products
@@ -1659,10 +1659,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Solution: Dunbar portfolio (S1 ~5, S2 ~15) cho different domains.
       → "Có vợ NHƯNG VẪN CẦN bạn thân + đồng nghiệp" = ARCHITECTURE, not disloyalty.
 
-  🟡 M1-M4 model = framework synthesis (BA v1.0 §4)
+  🟡 M1-M4 model = framework synthesis (Bond-Architecture v1.0 §4)
   🟢 Each mechanism individually research-supported
-  🟡 Gap clone impossible proof = framework synthesis (BA v1.0 §3)
-  🟡 Anti-compiled-suppress = framework synthesis (BA v1.0 §5)
+  🟡 Gap clone impossible proof = framework synthesis (Bond-Architecture v1.0 §3)
+  🟡 Anti-compiled-suppress = framework synthesis (Bond-Architecture v1.0 §5)
 ```
 
 ---
@@ -1685,7 +1685,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ① PROXIMITY: 2 entities in same space (physical > video > text)
     ② DURATION: 40-60h casual → 80-100h friend → 200+h close friend
        (🟢 Hall 2019 — leisure time counts MORE than work time)
-    ③ AGENT-MODE: SPM must predict entity STATE (not just function)
+    ③ AGENT-MODE: Self-Pattern-Modeling must predict entity STATE (not just function)
        Tool-mode (predict function only) → resonance = 0
 
     → Thiếu 1 = resonance KHÔNG EMERGE
@@ -1734,7 +1734,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ❷ PPR — Perceived Partner Responsiveness (Reis & Shaver 1988):
        3 components: Understood + Validated + Cared for
-       ⭐ PERCEPTION > actual behavior — mediated by MY SPM interpretation
+       ⭐ PERCEPTION > actual behavior — mediated by MY Self-Pattern-Modeling interpretation
        → Secure attachment → perceive MORE responsiveness
        → Anxious attachment → perceive LESS (dù partner DOES respond)
 
@@ -1751,7 +1751,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     🟢 Ogolsky et al. 2013 (N=12,273): Maintenance positivity + assurances
        DECLINE NATURALLY despite duration.
-    → Decline = NOT pathology — maintenance effort DROPS as EC saturates
+    → Decline = NOT pathology — maintenance effort DROPS as Entity-Compiled saturates
     → = M3+M4 operating at trajectory level
 
     NHƯNG: decline ≠ death. Counter strategies exist:
@@ -1765,7 +1765,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Romantic: 3 paths post-limerence (genuine / habituated flat / dissolution)
       → Chi tiết: Resonance-Per-Entity.md v1.0 §6-§8
 
-  🟡 4-Layer model = framework synthesis (RS v1.0)
+  🟡 4-Layer model = framework synthesis (Resonance-Sustainability v1.0)
   🟢 Each condition/amplifier individually research-supported
   🟢 Ogolsky 2013, Hall 2019, Gable 2006, Feeney 2007 = established
 ```
@@ -1783,11 +1783,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Mỗi pathway = 1 chuỗi mechanism → body-base reward riêng.
   Các pathways KHÔNG ĐỘC LẬP — interact, amplify, compound.
 
-  ① SPM MIRROR REWARD (= Luồng 1 trong §3.3):
-    Bạn vui → SPM F1 fire → body mình "vui lây" → opioid release
+  ① Self-Pattern-Modeling MIRROR REWARD (= Luồng 1 trong §3.3):
+    Bạn vui → Self-Pattern-Modeling Compiled fire → body mình "vui lây" → opioid release
     = Body-feedback MOMENTARY từ simulate (Luồng 1)
     + ❸ positive → Luồng 2 structural reward CỘNG THÊM
-    Derive: ❷ SPM (F1 empathic) + ❸ positive
+    Derive: ❷ Self-Pattern-Modeling (Compiled empathic) + ❸ positive
     🟢 Singer 2004: shared activation areas
 
   ② CO-REGULATION:
@@ -1800,18 +1800,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ③ VIRTUAL CHUNKS ACCESS:
     Mình gặp problem → hỏi bạn → bạn CÓ chunks → solved → VTA reward
     = Access chunks NGOÀI brain mình (§8)
-    Derive: ❷ SPM (F2 deliberate) + ❸ positive
+    Derive: ❷ Self-Pattern-Modeling (Fresh deliberate) + ❸ positive
 
   ④ GIVING REWARD:
-    Mình thừa resource → SPM detect bạn THIẾU → share → bạn improve →
-    Luồng 1: F1 observe bạn improve → opioid (mirror reward)
+    Mình thừa resource → Self-Pattern-Modeling detect bạn THIẾU → share → bạn improve →
+    Luồng 1: Compiled observe bạn improve → opioid (mirror reward)
     Luồng 2: ❸ positive → bạn = body-ext → bạn improve = body-base MÌNH fed
-    Derive: ❷ SPM (F1 mirror) + ❸ structural connection (§3.3)
+    Derive: ❷ Self-Pattern-Modeling (Compiled mirror) + ❸ structural connection (§3.3)
     🟢 Dunn 2008: spending on others → more happiness than on self
 
   ⑤ VALIDATION / BEING SEEN:
     Mình nói → bạn HIỂU CHÍNH XÁC → "maps tôi ĐÚNG" → safety reward
-    = ❷ SPM (bạn fire SPM chính xác on mình) + ❶ presence
+    = ❷ Self-Pattern-Modeling (bạn fire Self-Pattern-Modeling chính xác on mình) + ❶ presence
     = CỰC MẠNH khi share thứ khó nói → bạn vẫn hiểu → "feel safe"
 
   ⑥ PRESENCE SIGNAL:
@@ -1823,12 +1823,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⑦ SHARED IMAGINE-FINAL:
     Cùng build project → shared Imagine-Final → đạt milestone → reward CẢ HAI
     = Bond BỀN NHẤT khi shared Imagine-Final ở tầng GROWTH
-    Derive: ❷ SPM (F2 deliberate + shared planning) + ❸ positive
+    Derive: ❷ Self-Pattern-Modeling (Fresh deliberate + shared planning) + ❸ positive
 
   ⑧ KNOWLEDGE FLOW:
     A teach B → B learn (VTA) → A thấy B learn (mirror reward)
     = REWARD CẢ HAI CHIỀU
-    Derive: ❷ SPM (F1 mirror + F2 knowledge) + ❸ positive
+    Derive: ❷ Self-Pattern-Modeling (Compiled mirror + Fresh knowledge) + ❸ positive
 
 
   ⭐ 8 PATHWAYS × SONG SONG = TẠI SAO "KỲ QUÁI":
@@ -1853,7 +1853,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌────┬──────────────────────┬─────────────────────┬──────────────────────┐
     │ #  │ Pathway              │ Biochemistry chính  │ Mất = ?               │
     ├────┼──────────────────────┼─────────────────────┼──────────────────────┤
-    │ ①  │ SPM mirror reward    │ Opioid + VTA        │ "Không còn vui lây"  │
+    │ ①  │ Self-Pattern-Modeling mirror reward    │ Opioid + VTA        │ "Không còn vui lây"  │
     │ ②  │ Co-regulation        │ Cortisol ↓, OT ↑   │ "Phải tự regulate"   │
     │ ③  │ Virtual chunks       │ VTA (novelty)       │ "Mất tool, mất skill"│
     │ ④  │ Giving reward        │ Opioid (mirror)     │ "Không còn ai để cho"│
@@ -1868,7 +1868,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     (Resonance-Per-Entity.md v1.0 §9 — Enriched Comparison Table)
 
     ┌────────────────┬────────────────────┬──────────────────────────┐
-    │ Entity type     │ Dominant pathways  │ Hw subsidy modulates     │
+    │ Entity type     │ Dominant pathways  │ Hardware subsidy modulates     │
     ├────────────────┼────────────────────┼──────────────────────────┤
     │ Mẹ → con       │ ②⑥ (co-reg+pres)  │ MAX → ②⑥ ALWAYS active  │
     │                │ + ④⑧ (giving+know) │ Generative bursts ①③⑤   │
@@ -1890,7 +1890,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟡 8 pathways model = framework synthesis (mỗi pathway có evidence riêng)
   🟡 "Song song" + "compound" = framework claim, logically derived
-  🟡 Per-entity pathway dominance = framework synthesis (RPE v1.0 §9)
+  🟡 Per-entity pathway dominance = framework synthesis (Resonance-Per-Entity v1.0 §9)
 ```
 
 ### §5.2 — Khi ❸ NEGATIVE → 8 pathways fire NGƯỢC
@@ -1898,10 +1898,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ 8 PATHWAYS KHÔNG CHỈ TẮT — MÀ FIRE NGƯỢC KHI ❸ NEGATIVE:
 
-  (SPM v2.0 §10: reversed mapping)
+  (Self-Pattern-Modeling v2.0 §10: reversed mapping)
 
   Tù binh bị bên căm thù bắt:
-    ① Mirror → khinh bỉ, Schadenfreude (F1 reversed — Takahashi 2009)
+    ① Mirror → khinh bỉ, Schadenfreude (Compiled reversed — Takahashi 2009)
     ② Co-regulation → cortisol TĂNG (proximity = threat, not safety)
     ③ Virtual chunks → KHÔNG access (blocked)
     ④ Giving → bị CƯỠNG BUỘC, không tự nguyện
@@ -1920,27 +1920,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §6 — HARDWARE DRIVE → SPM TRANSITION
+## §6 — HARDWARE DRIVE → Self-Pattern-Modeling TRANSITION
 
 ```
-⭐ HARDWARE CHO DRIVE (MUỐN). SPM CHO PATTERN (MUỐN THẾ NÀO):
+⭐ HARDWARE CHO DRIVE (MUỐN). Self-Pattern-Modeling CHO PATTERN (MUỐN THẾ NÀO):
 
   Hardware drive (❶) = CỐ ĐỊNH — ai cũng muốn connection
   Compiled patterns (❷❸) = BIẾN THIÊN — mỗi người seek/react KHÁC
 
   THỜI GIAN HÌNH THÀNH:
-    → 0-6 tháng: ❶ hardware ONLY (chưa có SPM)
+    → 0-6 tháng: ❶ hardware ONLY (chưa có Self-Pattern-Modeling)
       Arousal contagion, preference cho human faces, CT fibers
-    → 6-24 tháng: ❷ SPM bắt đầu develop
-      Mother contingency → self-chunks → SPM possible
+    → 6-24 tháng: ❷ Self-Pattern-Modeling bắt đầu develop
+      Mother contingency → self-chunks → Self-Pattern-Modeling possible
       Rouge test 18-24 tháng = self-awareness milestone
-    → 2-7 tuổi: ❷ SPM expand + ❸ per-agent valence COMPILE
+    → 2-7 tuổi: ❷ Self-Pattern-Modeling expand + ❸ per-agent valence COMPILE
       Context-dependent selection bắt đầu ("với mẹ khác với bạn")
-    → 7+: SPM library CÓ nhưng tiếp tục REFINE suốt đời
+    → 7+: Self-Pattern-Modeling library CÓ nhưng tiếp tục REFINE suốt đời
 
-  ⭐ KHI ❷ SPM DEVELOP → connection CHUYỂN:
-    Pre-SPM: "cần PRESENCE" (bất kỳ ai, ❶ chủ đạo)
-    Post-SPM: "cần SPECIFIC agent" (❷ SPM + ❸ valence quyết định)
+  ⭐ KHI ❷ Self-Pattern-Modeling DEVELOP → connection CHUYỂN:
+    Pre-Self-Pattern-Modeling: "cần PRESENCE" (bất kỳ ai, ❶ chủ đạo)
+    Post-Self-Pattern-Modeling: "cần SPECIFIC agent" (❷ Self-Pattern-Modeling + ❸ valence quyết định)
     → = Tại sao trẻ sơ sinh chấp nhận BẤT KỲ caregiver
       nhưng trẻ 2+ PREFER specific people
 
@@ -2013,12 +2013,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ ROMANIAN ORPHANAGE × 4 CASES:
 
     Romanian orphanage trẻ = Case C (thiếu từ đầu):
-      → ❷ SPM THIẾU vì minimal contingency
+      → ❷ Self-Pattern-Modeling THIẾU vì minimal contingency
       → NHƯNG: cùng Case C, khác ❸ valence → 2 outcomes khác (§3.4)
       → = Evidence 3 primitives TÁCH BIỆT ngay TRONG 1 case
 ```
 
-### §7.1 — Case đặc biệt: bố mẹ L2 strong + F1 weak
+### §7.1 — Case đặc biệt: bố mẹ L2 strong + Compiled weak
 
 ```
 ⭐ "YÊU THƯƠNG NHƯNG KHÔNG HIỂU" — PHÂN TÍCH TỪ PHÍA PARENT:
@@ -2027,7 +2027,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Case này phân tích từ PHÍA BỐ MẸ — tại sao bố mẹ yêu thương
   nhưng CON lại feel bị kìm kẹp.
 
-  2-luồng tách rõ: L2 CÓ ≠ F1 CÓ.
+  2-luồng tách rõ: L2 CÓ ≠ Compiled CÓ.
 
 
   BỐ MẸ MECHANISM:
@@ -2037,23 +2037,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Drive genuine: muốn con an toàn, phát triển, tốt hơn
       → L2 nói: "CON PHẢI TỐT" → drive hành vi chăm sóc, hy sinh
 
-    F1 WEAK (SPM-owned, momentary):
-      → F1 KHÔNG fire chính xác on con
+    Compiled WEAK (Self-Pattern-Modeling-owned, momentary):
+      → Compiled KHÔNG fire chính xác on con
       → KHÔNG simulate: "con đang FEEL gì?"
-      → Schema "bố mẹ tốt phải thế này" THAY THẾ F1 genuine
+      → Schema "bố mẹ tốt phải thế này" THAY THẾ Compiled genuine
       → Hoặc: chunk library thiếu (tuổi thơ bố mẹ cũng bị chăm kiểu này)
 
-    → L2 drive MẠNH + F1 thiếu = PROJECT schema lên con
+    → L2 drive MẠNH + Compiled thiếu = PROJECT schema lên con
     → = Object valence (optimize con) thay vì Agent valence (hiểu con)
-    → ⚠️ F1 weak THƯỜNG do Resonance Baseline THẤP (khác tính parent ↔ child)
-      → Parent không match child tự nhiên → F1 fail → schema thay thế
+    → ⚠️ Compiled weak THƯỜNG do Resonance Baseline THẤP (khác tính parent ↔ child)
+      → Parent không match child tự nhiên → Compiled fail → schema thay thế
       → Chi tiết: By-Product-Gap-Resonance.md §7.8, Love-Analysis §7.3c biến ⑦
 
 
   CON NHẬN GÌ VÀ THIẾU GÌ (8 pathways):
 
     NHẬN (L2-driven): ②⑥ co-regulation+presence, ③⑧ virtual chunks+knowledge
-    THIẾU (F1-driven): ①⑤ mirror+validation ⭐, ④⑦ giving+shared Imagine-Final
+    THIẾU (Compiled-driven): ①⑤ mirror+validation ⭐, ④⑦ giving+shared Imagine-Final
 
     → ⑤ Validation = pathway BỊ ẢNH HƯỞNG NHẤT:
       "Bố mẹ KHÔNG map tôi đúng" → "được chăm sóc nhưng không được HIỂU"
@@ -2063,20 +2063,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CON RƠI VÀO CASE NÀO TRONG §7:
 
-    Tùy mức độ F1 thiếu:
-      → F1 nhẹ (bố mẹ đôi khi hiểu): gần Case A nhưng validation YẾU
-      → F1 rõ (bố mẹ ít khi hiểu, schema thay thế): Case C partial
-        (con CÓ connection nhưng THIẾU dimension F1 → chunk-gap CỤ THỂ)
-      → F1 nặng + kèm áp lực: có thể tiệm cận Case D
+    Tùy mức độ Compiled thiếu:
+      → Compiled nhẹ (bố mẹ đôi khi hiểu): gần Case A nhưng validation YẾU
+      → Compiled rõ (bố mẹ ít khi hiểu, schema thay thế): Case C partial
+        (con CÓ connection nhưng THIẾU dimension Compiled → chunk-gap CỤ THỂ)
+      → Compiled nặng + kèm áp lực: có thể tiệm cận Case D
         (connection gắn threat: "yêu nhưng ĐE DỌA nếu không comply")
 
 
-  GENERATIONAL: L2 truyền được, F1 khuyết hao qua mỗi thế hệ.
+  GENERATIONAL: L2 truyền được, Compiled khuyết hao qua mỗi thế hệ.
   Chi tiết mechanism: Empathy.md v2.0 §8.5.
 
   🟢 Baumrind 1966: authoritarian = high demand + low responsiveness
   🟢 Winnicott 1953: "good enough mother" = contingent, not perfect
-  🟡 L2 strong + F1 weak = framework synthesis
+  🟡 L2 strong + Compiled weak = framework synthesis
 ```
 
 ### §7.2 — Compilation Chain × Connection Formation
@@ -2089,22 +2089,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Connection KHÔNG xuất hiện 1 lúc — qua 4 stages compilation:
 
-  STAGE 1 — F2 DOMINANT (first interactions):
+  STAGE 1 — Fresh DOMINANT (first interactions):
     → PFC chain predict target: "Người này sẽ respond sao?"
     → 3-cost HIGH (draft + suppress + uncertainty) → EXHAUSTING
-    → = "Mới gặp = mệt" vì F2 chạy liên tục
+    → = "Mới gặp = mệt" vì Fresh chạy liên tục
     → Duration: minutes→hours per entity
 
-  STAGE 2 — F1 DEVELOPING (weeks→months):
-    → SPM chunks compile → F1 bắt đầu fire
+  STAGE 2 — Compiled DEVELOPING (weeks→months):
+    → Self-Pattern-Modeling chunks compile → Compiled bắt đầu fire
     → 3-cost DECREASING → "quen dần → bớt mệt"
     → Resonance BẮT ĐẦU emerge (by-product match tested)
     → 🟢 Hall 2019: 40-60h → casual, 80-100h → friend, 200+h → close
 
   STAGE 3 — BASELINE (compiled, near-zero cost):
-    → F1 compiled → fire AUTOMATIC → cost ≈ 0
+    → Compiled → fire AUTOMATIC → cost ≈ 0
     → Connection reward = INVISIBLE baseline (VTA habituated, Mode 1)
-    → "Gặp bạn thân = không mệt" = F1+F1 compiled, 3-cost ≈ 0
+    → "Gặp bạn thân = không mệt" = Compiled+Compiled, 3-cost ≈ 0
     → Resonance SUSTAINED nhưng increasingly INVISIBLE
 
   STAGE 4 — DYNAMICS (3 trajectories):
@@ -2123,7 +2123,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Case C (thiếu) = STUCK at Stage 1-2 (insufficient contingency)
   → Case D (toxic) = Stage 3 compiled WITH threat → 4C trajectory
 
-  🟡 Compilation chain × connection = framework synthesis (RPE v1.0 §1)
+  🟡 Compilation chain × connection = framework synthesis (Resonance-Per-Entity v1.0 §1)
   🟢 Formation timeline evidence: Hall 2019
 ```
 
@@ -2158,7 +2158,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ ENTITY-ACCESS GRADIENT × VIRTUAL CHUNKS:
     Mức 0 (tool-mode): access function → NO virtual chunks
     Mức 1-2 (shallow): access SURFACE chunks → limited virtual chunks
-    Mức 3 (deep, B-dominant): access DEEP chunks → RELIABLE virtual chunks
+    Mức 3 (deep, Compilable-dominant): access DEEP chunks → RELIABLE virtual chunks
     Mức 4 (hw/low exit): access DEEPEST → nhưng CÓ THỂ bị distorted bởi excess
     → Trust = bandwidth (Anchor-Schema.md §2) → entity-access level quyết định
 
@@ -2202,7 +2202,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     (Resonance-Sustainability.md v1.0 §7 — PPR)
     PPR = Understood + Validated + Cared For.
     Calibration qua nhiều năm → PPR accuracy TĂNG.
-    NHƯNG: PERCEPTION > actual behavior — mediated by MY SPM.
+    NHƯNG: PERCEPTION > actual behavior — mediated by MY Self-Pattern-Modeling.
     → Secure attachment → perceive responsiveness chính xác
     → Anxious attachment → perceive LESS responsiveness dù partner responsive
     → = Calibration QUALITY phụ thuộc attachment pattern (§7 Cases)
@@ -2229,7 +2229,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   3 BOTTLENECKS:
     ① TIME: 1 bạn thân ~2h/tuần × nhiều năm. 100 "bạn thân" = KHÔNG ĐỦ GIỜ.
-    ② BANDWIDTH: SPM model 5 người SÂU = tốn nhiều chunks. 100 = chỉ surface.
+    ② BANDWIDTH: Self-Pattern-Modeling model 5 người SÂU = tốn nhiều chunks. 100 = chỉ surface.
     ③ TRUST BUILD SPEED: deep trust months→years. 1 betrayal phá. 100 deep = KHÔNG KHẢ THI.
 
   SOCIAL MEDIA TRAP:
@@ -2251,7 +2251,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        🟢 Eysenck 1967: Introverts baseline arousal CAO HƠN → ít room
     ② Current cortisol level (state — thay đổi trong ngày):
        "Mệt cuối ngày" = PFC glucose depletion + cortisol downstream tích lũy
-    ③ SPM library depth cho agents HIỆN TẠI (compiled):
+    ③ Self-Pattern-Modeling library depth cho agents HIỆN TẠI (compiled):
        20 bạn quen (compiled, cost ≈ 0) vs 20 lạ (draft, cost CAO)
     ④ Environment × modality match:
        Party ồn + verbal-dominant = mismatch → cost TĂNG
@@ -2265,7 +2265,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ 3-COST MODEL GIẢI THÍCH TRỤC ③ SÂU HƠN:
 
-    Trục ③ (SPM library depth) thực chất = 3-cost tổng hợp:
+    Trục ③ (Self-Pattern-Modeling library depth) thực chất = 3-cost tổng hợp:
       Agents đã COMPILED (bạn quen): 3-cost ≈ 0 → capacity RỘNG
       Agents FRESH (người lạ): 3-cost tích lũy NHANH → capacity HẸP
         ① PFC draft: phải predict stranger → metabolic cost
@@ -2281,12 +2281,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     (PFC-Operations.md v1.0 §9 — PFC Budget = Finite Shared Resource)
 
     PFC budget = ALL PFC activities SHARE same metabolic pool:
-      → Learning, changing, SPM drafting, decision-making, suppressing
+      → Learning, changing, Self-Pattern-Modeling drafting, decision-making, suppressing
       → ALL COMPETE for the same finite resource
 
     CONNECTION IMPLICATION:
       → "Mệt ở cơ quan" = PFC budget DEPLETED
-      → Về nhà → F2 cho gia đình GIẢM → "không muốn nói"
+      → Về nhà → Fresh cho gia đình GIẢM → "không muốn nói"
       → KHÔNG phải "không yêu con" — PFC budget shared, FINITE
       → Parent-child understanding = HIGHEST PFC cost
         (child = moving target + hw mismatch + declining hormone)
@@ -2294,15 +2294,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → compiled suppress = permanent tax on PFC budget
 
     → Thêm ① PFC budget residual vào 6 trục → f(7 biến)
-    → = "Ngày tốt ở công ty → NHIỀU SPM cho gia đình"
-    → = "Ngày tệ ở công ty → HẾT SPM cho mọi người"
+    → = "Ngày tốt ở công ty → NHIỀU Self-Pattern-Modeling cho gia đình"
+    → = "Ngày tệ ở công ty → HẾT Self-Pattern-Modeling cho mọi người"
 
 
   ⭐ "INTROVERT" VÀ "EXTROVERT" = CHỈ TRỤC ①:
 
     Introvert = ① hardware arousal baseline CAO.
     KHÔNG phải "ghét người" (❶ drive GIỐNG extrovert).
-    KHÔNG phải "kém xã hội" (❷ SPM library có thể RẤT SÂU).
+    KHÔNG phải "kém xã hội" (❷ Self-Pattern-Modeling library có thể RẤT SÂU).
     = Threshold overload THẤP hơn → cần điều kiện phù hợp hơn.
     → Gom 6 trục thành 1 label "introvert" = OVERSIMPLIFY.
 
@@ -2325,7 +2325,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Video call      │ ~60-70%  │ 5-6/8 (MẤT ②⑥: no body proximity)  │
   │ Voice call      │ ~40-50%  │ 4-5/8 (giọng = rich: tone, breath)   │
   │ Text/Chat       │ ~20-30%  │ 2-3/8 (PFC phải imagine tone → SAI)  │
-  │ Nhớ trong đầu   │ ~5-15%   │ ① only (SPM on memory = open-loop)  │
+  │ Nhớ trong đầu   │ ~5-15%   │ ① only (Self-Pattern-Modeling on memory = open-loop)  │
   └─────────────────┴──────────┴──────────────────────────────────────┘
 
   CHUNK DEPTH > CHANNEL COUNT (ở connection ĐÃ CÓ):
@@ -2375,7 +2375,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Tại sao text CÓ THỂ maintain Generative nhưng KHÔNG maintain Tonic
 
   🟡 5-Channel × connection = framework synthesis (Inter-Body-Mechanism.md §6)
-  🟡 3-Modality × distance = framework synthesis (RS v1.0 §3)
+  🟡 3-Modality × distance = framework synthesis (Resonance-Sustainability v1.0 §3)
 ```
 
 ---
@@ -2388,7 +2388,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   (Imagine-Final.md v3.0 — constructive simulation, NOT hardware prediction)
 
   Body đang dissonance → scan: "AI fix được?" → simulate gặp → opioid preview
-  → "Sướng hơn tưởng tượng" = gặp trực tiếp có NHIỀU pathways hơn simulate
+  → "Pleasant hơn tưởng tượng" = gặp trực tiếp có NHIỀU pathways hơn simulate
 
   BOND BỀN HAY KHÔNG = SIGNAL STRENGTH CỦA SHARED IMAGINE-FINAL:
 
@@ -2487,7 +2487,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Collective (triệu người): 8 pathways SURFACE nhưng WIDE
     → Body CẦN CẢ HAI: deep (5 intimate) + wide (collective belonging)
 
-  🟡 By-Product-Scale × collective = framework synthesis (BS v1.0)
+  🟡 By-Product-Scale × collective = framework synthesis (By-Product-Scale v1.0)
 ```
 
 ---
@@ -2501,7 +2501,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ① CONNECTION DEEPEN (tốt lên):
     → Pattern-Driven: repeated positive Resonance → chunks STRENGTHEN
-    → SPM library cho person đó → RICH hơn → 8 pathways MẠNH hơn
+    → Self-Pattern-Modeling library cho person đó → RICH hơn → 8 pathways MẠNH hơn
     → = "Càng thân → càng thoải mái" = calibration loop positive
 
   ② CONNECTION DISRUPTED (xung đột):
@@ -2515,7 +2515,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Grief = COMPOUND pain — không phải "buồn 1 thứ" mà "mạng lưới vỡ"
     → Recovery ĐA CHIỀU — mỗi channel recalibrate ở SPEED KHÁC:
       ⑥ Presence: mất NGAY
-      ① Mirror: giảm DẦN (SPM on memory yếu dần)
+      ① Mirror: giảm DẦN (Self-Pattern-Modeling on memory yếu dần)
       ③ Virtual chunks: mất VĨNH VIỄN (trừ tìm source mới)
     → = Grief KHÔNG tuyến tính
 
@@ -2529,7 +2529,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → "Gặp lại bạn cũ → như chưa xa" = compiled chunks re-activate
     → NHƯNG: delta tích lũy quá lớn → "gặp lại mà thấy xa lạ"
     → 🟢 Dormant ties: trust = most resilient compilation dimension
-       (RS v1.0 §13 — reactivation possible decades later)
+       (Resonance-Sustainability v1.0 §13 — reactivation possible decades later)
 
 
   ⭐ PHANTOM RESONANCE × GRIEF — 4-FACTOR MODEL:
@@ -2553,7 +2553,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Factor       │ Mẹ mất   │ Con mất  │ Bạn mất  │ Partner  │ Colleague│
     ├──────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
     │ ① Compile    │ DEEP     │ V. DEEP  │ MODERATE │ DEEP     │ SHALLOW  │
-    │ ② Hw subsidy │ MODERATE │ MAXIMUM  │ NONE     │ SOME     │ NONE     │
+    │ ② Hardware subsidy │ MODERATE │ MAXIMUM  │ NONE     │ SOME     │ NONE     │
     │ ③ L2 struct  │ STRONG   │ V.STRONG │ MOD-WEAK │ STRONG   │ WEAK     │
     │ ④ Duration   │ DECADES  │ YRS→DEC  │ YEARS    │ YRS→DEC  │ MO→YRS   │
     ├──────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
@@ -2571,7 +2571,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Generative phantom: MINIMAL — novelty-dependent → no entity = no fire
 
     🟢 O'Connor 2023: basal ganglia persistent firing pattern
-    🟡 4-factor phantom model = framework synthesis (VP v3.0 §12)
+    🟡 4-factor phantom model = framework synthesis (Valence-Propagation v3.0 §12)
 
 
   ⭐ "XA MẸ MỚI BIẾT THƯƠNG" — 3 MECHANISMS CỘNG DỒN:
@@ -2601,7 +2601,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → NOT paradox — 3 MECHANISMS explain trajectory precisely
     → Body KNEW 20 years; PFC observes first time with proper lens
 
-    🟡 3-mechanism model = framework synthesis (VP v3.0 §10)
+    🟡 3-mechanism model = framework synthesis (Valence-Propagation v3.0 §10)
 
 
   ⭐ COMPOUND × COMPOUND — MẤT VỢ/CHỒNG:
@@ -2633,26 +2633,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TYPE 1 — ❶ HARDWARE UNMET (physical isolation):
 
     Không có agent nào present.
-    → ❶ fire FULL: "cần người" — body-level, pre-SPM
+    → ❶ fire FULL: "cần người" — body-level, pre-Self-Pattern-Modeling
     → Solitary confinement: deterioration DÙ mọi need khác đủ
     → Harlow 1958: isolation → permanent damage
     → Felt as: restlessness, body-level "thiếu gì đó", physical discomfort
     → Fix: BẤT KỲ social presence → ❶ partially met
 
 
-  TYPE 2 — ❶ MET + ❷ SPM NO MATCH ("cô đơn giữa đám đông"):
+  TYPE 2 — ❶ MET + ❷ Self-Pattern-Modeling NO MATCH ("cô đơn giữa đám đông"):
 
-    Agents present NHƯNG SPM không find match.
+    Agents present NHƯNG Self-Pattern-Modeling không find match.
     → ❶ partially met (presence signal ⑥ có)
-    → ❷ SPM fire nhưng Resonance KHÔNG emerge (patterns mismatch)
-    → = SPM fire nhưng no Resonance → chunks không confirmed → "trống rỗng"
+    → ❷ Self-Pattern-Modeling fire nhưng Resonance KHÔNG emerge (patterns mismatch)
+    → = Self-Pattern-Modeling fire nhưng no Resonance → chunks không confirmed → "trống rỗng"
     → Felt as: "không ai hiểu", "trống vắng dù đông người"
     → Fix: tìm MATCHING agent → Resonance emerge
 
 
   TYPE 3 — ❶ MET + ❷ OK + ❸ NEGATIVE ("bị cô lập"):
 
-    Agents present, SPM fires, NHƯNG valence NEGATIVE.
+    Agents present, Self-Pattern-Modeling fires, NHƯNG valence NEGATIVE.
     → 8 pathways fire NGƯỢC (§5.2) → NEGATIVE input > zero input
     → Tệ HƠN type 1 (alone = 0, rejected = NEGATIVE)
     → Felt as: "bị ghét", "bị cô lập", pain MẠNH hơn lonely
@@ -2724,7 +2724,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                         │ → GIẢM TẠM. Gặp bài tình cảm →          │
   │                         │ KÍCH HOẠT ❶ mạnh hơn → TỆ HƠN          │
   ├─────────────────────────┼──────────────────────────────────────────┤
-  │ Bạn rủ đi chơi         │ ❶ MET (presence) + ❷ SPM fire (Resonance)     │
+  │ Bạn rủ đi chơi         │ ❶ MET (presence) + ❷ Self-Pattern-Modeling fire (Resonance)     │
   │                         │ + ❸ positive → HẾT (connection thật)    │
   ├─────────────────────────┼──────────────────────────────────────────┤
   │ Bar đông, uống 1 mình  │ ❶ partially met (presence signal ⑥)     │
@@ -2751,11 +2751,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 CÔ ĐƠN REQUIRE PFC OBSERVATION + VERBALIZATION:
 
   → Separation anxiety ~8-12 tháng = PROTO-loneliness
-    (Chunk-Miss: caregiver absent → distress, nhưng pre-SPM)
-  → TRUE loneliness ~3-5 tuổi: SPM online + PFC observe social state
+    (Chunk-Miss: caregiver absent → distress, nhưng pre-Self-Pattern-Modeling)
+  → TRUE loneliness ~3-5 tuổi: Self-Pattern-Modeling online + PFC observe social state
     + verbalize "tôi 1 mình" + COMPARE với compiled baseline "có bạn"
-  → = Cô đơn cần: ❶ drive + ❷ SPM đủ (có baseline) + PFC observe
-  → Trẻ < 18 tháng KHÔNG CÔ ĐƠN — chỉ có ❶ distress (pre-SPM)
+  → = Cô đơn cần: ❶ drive + ❷ Self-Pattern-Modeling đủ (có baseline) + PFC observe
+  → Trẻ < 18 tháng KHÔNG CÔ ĐƠN — chỉ có ❶ distress (pre-Self-Pattern-Modeling)
 ```
 
 ### §16.5 — Phân biệt: cô đơn vs chán vs buồn
@@ -2893,13 +2893,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   FRAMEWORK SỰ LUẬN (🟡) — v5.0 expanded:
 
-    🟡 "Connection = ❶ hardware + ❷ SPM engage agents" — reframe, consistent
+    🟡 "Connection = ❶ hardware + ❷ Self-Pattern-Modeling engage agents" — reframe, consistent
     🟡 "3 Generative Primitives" model — framework synthesis
     🟡 "❶ × ❷ × ❸ → predict behavior" — logically derived, chưa test
     🟡 "8 valence chain pathways" — mỗi pathway evidence riêng, gom 8 = framework
     🟡 2-tầng mechanism + 2-luồng reward — framework synthesis
-    🟡 Architecture B: Social = Requirement (4 reasons) — each reason 🟢
-    🟡 2-Stream Architecture (§4.2): Stream 1 habituates, Stream 2 deepens
+    🟡 Compilable Architecture: Social = Requirement (4 reasons) — each reason 🟢
+    🟡 2-Stream Architecture (§4.2): Hardware-Stream habituates, Modeling-Stream deepens
     🟡 3-cost model applied to connection (§4.3, §10.2)
     🟡 PFC=Lawyer in connection domain (§16.5): mask/amplify/mislabel
     🟡 Domain = Final Arbiter for connection quality
@@ -2916,7 +2916,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟡 Anti-compiled-suppress = sustainability solution (§4.5)
     🟡 4-Layer sustainability model applied to connection (§4.6) — each layer 🟢
     🟡 Entity-Access gradient × connection spectrum (§0.3)
-    🟡 Per-entity pathway dominance (§5.1) — logically derived from RPE
+    🟡 Per-entity pathway dominance (§5.1) — logically derived from Resonance-Per-Entity
     🟡 Compilation chain × connection formation (§7.2) — 4 stages
     🟡 PFC budget × momentary capacity (§10.2)
     🟡 Phantom 4-factor model applied to connection grief (§15)
@@ -2941,9 +2941,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
   MECHANISM FILES (Agent-Mechanism/ folder):
     → Agent-Mechanism.md v2.0 — integration hub, §12 body-need feeder
-    → Self-Pattern-Modeling.md v3.1 — F1/F2 mechanism, PFC=Lawyer, per-domain
+    → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh mechanism, PFC=Lawyer, per-domain
     → By-Product-Gap-Resonance.md v1.4 — 2-Stream Architecture, by-product match
-    → Bond-Architecture.md v1.0 — EC × 4 bond types, M1-M4 decline, gap clone impossible
+    → Bond-Architecture.md v1.0 — Entity-Compiled × 4 bond types, M1-M4 decline, gap clone impossible
     → Resonance-Sustainability.md v1.0 — 4-Layer model, 3 conditions, 3 modalities
     → Resonance-Per-Entity.md v1.0 — 3-Tầng per-entity model, hw subsidy, compilation chain
     → By-Product-Scale.md v1.0 — 3 scales: pair/hub/institutional
@@ -2953,10 +2953,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Entity-Access-Calibration.md v1.0 — calibration mechanisms, exit cost
 
   MECHANISM FILES (other folders):
-    → Inter-Body-Mechanism.md v1.0 — Architecture B, 3-cost, 5-Channel, PFC=Lawyer
+    → Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 3-cost, 5-Channel, PFC=Lawyer
     → Body-Coupling.md v2.0 — coupling depth × direction, 3 Phase
-    → Empathy.md v3.0 — SPM function, 3 mechanisms, double empathy
-    → Reward-Signal-Architecture.md v2.0 — Type A/B reward, Compiled/Fresh
+    → Empathy.md v3.0 — Self-Pattern-Modeling function, 3 mechanisms, double empathy
+    → Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State reward, Compiled/Fresh
     → Chunk.md v2.0 — chunk substrate, compilation
     → Anchor-Schema.md — sync point, Trust binding, 4 nguồn
     → Body-Feedback-Mechanism.md v2.0 — 2-source, Chunk-Miss/Gap/Shift/Compound
@@ -3012,16 +3012,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Backup: backup/Connection-v2.0-backup.md
 
   v3.3 — 2026-05-16:
-    → §4.2 F1/F2 resonance quality + Double empathy
+    → §4.2 Compiled/Fresh resonance quality + Double empathy
 
   v4.0 — 2026-05-19 (Inter-Body drill integration):
-    → Architecture B, 2-Stream, 3-cost, 5-Channel, PFC=Lawyer
+    → Compilable Architecture, 2-Stream, 3-cost, 5-Channel, PFC=Lawyer
     → Backup: backup/Connection-v3.3-backup.md
 
   v5.0 — 2026-05-22 (Phase C1 REWRITE — integrate ALL Phase A+B+T):
     → YAML: 40 dependencies (was 24), ALL versions updated
     → §0.3 NEW: Entity-Access gradient Mức 0-5 × connection spectrum
-    → §1 UPDATED: Simulation Engine context, SPM v3.1 terminology
+    → §1 UPDATED: Simulation Engine context, Self-Pattern-Modeling v3.1 terminology
     → §3.1 ENRICHED: Hardware Subsidy spectrum (MAX→NONE) + gap-body-need
     → §3.3 ★ MAJOR: structural/current valence + satiation types + mixed valence
       + 3 firing modes (Mode 1/2/3)
@@ -3041,7 +3041,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → §16 ENRICHED: per-entity cô đơn risk profile
     → §17 REWRITTEN: 43+ 🟢 + 24+ 🟡 + 7 🔴
     → §18 RESTRUCTURED: 40+ refs across 8 categories, full changelog
-    → SPM v3.1 terminology throughout (Match→Modeling)
+    → Self-Pattern-Modeling v3.1 terminology throughout (Match→Modeling)
     → Backup: backup/Connection-v4.0-backup.md
     → ALL v4.0 citations PRESERVED + 15+ new Phase T citations
 ```
@@ -3051,7 +3051,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > *Trên đảo hoang, bạn biết mài gỗ lấy lửa. Bạn biết tìm nước.*
 > *Nhưng 1 mình bạn, body vẫn thiếu thứ gì đó — không thay thế bằng lửa hay nước.*
 >
-> *3 thứ TẠO connection: Hardware CẦN, SPM SIMULATE, Valence ĐÁNH GIÁ.*
+> *3 thứ TẠO connection: Hardware CẦN, Self-Pattern-Modeling SIMULATE, Valence ĐÁNH GIÁ.*
 > *❶ × ❷ × ❸ → predict empathy, Schadenfreude, cô đơn, và cả dehumanization.*
 >
 > *Mẹ cho ăn — hardware subsidy MAX, connection BỀN dù routine.*

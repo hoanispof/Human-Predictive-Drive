@@ -7,7 +7,7 @@ scope: |
   MECHANISM FILE: Giải thích CƠ CHẾ phát triển trẻ 0-6 tuổi qua lens v7.8.
   Bridge giữa Core-Deep-Dive (mechanism) và Child-Development (practical).
   PFC Reframe + 4+1 Channel Compile + Approach/Avoidance Tags +
-  Chunk Dynamics + Feeling Development + SPM Bootstrap + Autonomy Arc +
+  Chunk Dynamics + Feeling Development + Self-Pattern-Modeling Bootstrap + Autonomy Arc +
   Cortisol Baseline + Observation Parameters Timeline + Imagine-Final.
 purpose: |
   File NÀY giải thích CƠ CHẾ — không cho guidance thực tế per-age.
@@ -31,7 +31,7 @@ dependencies:
   - Body-Feedback-Mechanism.md — 2 sources × 3 dynamics
   - Cortisol-Baseline.md v2.0 — amplifier reframe, direction > level
   - Feeling.md v2.0 — 7-layer fidelity gradient
-  - Empathy.md — SPM function, developmental bootstrap
+  - Empathy.md — Self-Pattern-Modeling function, developmental bootstrap
   - Autonomy-Hardware.md + Autonomy.md — efference copy, 5-phase arc
   - Connection.md — hardware drive, compiled patterns, virtual chunks
   - Observation/ folder — all observation parameter files
@@ -67,7 +67,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §3 — APPROACH/AVOIDANCE TAG × PARENTING
 - §4 — CHUNK DYNAMICS TRONG PHÁT TRIỂN TRẺ
 - §5 — FEELING DEVELOPMENT: TỪ THÔ ĐẾN LAYERED
-- §6 — SPM DEVELOPMENTAL BOOTSTRAP
+- §6 — Self-Pattern-Modeling DEVELOPMENTAL BOOTSTRAP
 - §7 — AUTONOMY: EFFERENCE COPY → META-CHUNK
 - §8 — CORTISOL BASELINE × PHÁT TRIỂN
 - §9 — OBSERVATION PARAMETERS + IMAGINE-FINAL: EMERGENCE TIMELINE
@@ -102,7 +102,7 @@ READER FLOW:
                                   + Mechanism §3 (avoidance tag đã compile)
 "Con 18 tháng cứ nói KHÔNG"    → Natural-Dev §4.4
                                   + Mechanism §7 (autonomy meta-chunk)
-"Sao con chưa biết chia sẻ"    → Mechanism §6 (SPM chưa đủ chunks)
+"Sao con chưa biết chia sẻ"    → Mechanism §6 (Self-Pattern-Modeling chưa đủ chunks)
 "Con sợ nước"                   → Mechanism §3.4 (reconsolidation window)
                                   + Skill-Intro §3.1 bơi (guided play)
 "Dạy sớm có hại không"         → Mechanism §3 (threat-path → avoidance tag)
@@ -1003,7 +1003,7 @@ TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
      VD: Trẻ tự buộc dây giày lần đầu thành công:
        → Chunk-Gap FILLED: "giải được!" (opioid reward)
        → Chunk-Shift POSITIVE: "dây giày" neutral → approach
-       → = COMPOUND POSITIVE → "sướng + tự tin"
+       → = COMPOUND POSITIVE → "pleasant + tự tin"
 ```
 
 ### §4.2 — Map Vào Giai Đoạn Phát Triển
@@ -1261,15 +1261,15 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
     = Đây là lý do tương tác THẬT > app dạy cảm xúc
 ```
 
-### §5.3 — Feeling Fidelity → SPM Prerequisite
+### §5.3 — Feeling Fidelity → Self-Pattern-Modeling Prerequisite
 
 ```
 🟡 CHUỖI NHÂN QUẢ FEELING → EMPATHY:
 
-  SPM (§6) dùng SELF-CHUNKS làm template để simulate người khác.
+  Self-Pattern-Modeling (§6) dùng SELF-CHUNKS làm template để simulate người khác.
   → Self-chunks = compiled FEELINGS about own states
-  → Feeling fidelity THẤP → self-chunks THÔ → SPM template THÔ → empathy KÊNH
-  → Feeling fidelity CAO → self-chunks RICH → SPM template RICH → empathy CHÍNH XÁC
+  → Feeling fidelity THẤP → self-chunks THÔ → Self-Pattern-Modeling template THÔ → empathy KÊNH
+  → Feeling fidelity CAO → self-chunks RICH → Self-Pattern-Modeling template RICH → empathy CHÍNH XÁC
 
 
   CHAIN HOÀN CHỈNH:
@@ -1278,8 +1278,8 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
       ��� Feeling fidelity ↑ (phân biệt body states)
         → Self-chunk formation (body states CÓ TÊN, CÓ RANH GIỚI)
           → Self-awareness (rouge test 18-24m: "đó là TÔI")
-            → Templates available (self-chunks = template cho SPM)
-              → SPM fires on others (empathy EMERGE — §6)
+            → Templates available (self-chunks = template cho Self-Pattern-Modeling)
+              → Self-Pattern-Modeling fires on others (empathy EMERGE — §6)
 
     SKIP BẤT KỲ BƯỚC NÀO = CEILING cho bước sau.
     = Dây chuyền CÓ THỨ TỰ — không thể nhảy bước.
@@ -1292,9 +1292,9 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
     Alexithymia WITHOUT autism → empathy DEFICIT
 
     → Self-awareness là UPSTREAM BOTTLENECK cho empathy
-    → = Chuỗi nhân quả ĐÚNG: self-chunks → SPM → empathy
+    → = Chuỗi nhân quả ĐÚNG: self-chunks → Self-Pattern-Modeling → empathy
     → = KHÔNG phải "autism = broken mirror"
-       MÀ LÀ "poor self-chunks = insufficient templates for SPM"
+       MÀ LÀ "poor self-chunks = insufficient templates for Self-Pattern-Modeling"
 
 
   ⭐ HÀM Ý:
@@ -1308,7 +1308,7 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
 
 ---
 
-## §6 — SPM DEVELOPMENTAL BOOTSTRAP
+## §6 — Self-Pattern-Modeling DEVELOPMENTAL BOOTSTRAP
 
 ### §6.1 — 3 Cơ Chế Bị Gộp Thành "Mirror"
 
@@ -1351,14 +1351,14 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
 
   ③ RESONANCE (emergent mutual, retrospective):
 
-     2+ agents' SPM co-fire thành công → emergent phenomenon
+     2+ agents' Self-Pattern-Modeling co-fire thành công → emergent phenomenon
      KHÔNG thể biết real-time → chỉ infer qua communication outcomes
 
-     = "Nối được" → data calibrate SPM library
-     = "Không nối được" → SPM prediction fail → update or disengage
+     = "Nối được" → data calibrate Self-Pattern-Modeling library
+     = "Không nối được" → Self-Pattern-Modeling prediction fail → update or disengage
 
      → Ở trẻ nhỏ: Resonance chủ yếu VỚI caregiver
-       (người duy nhất có đủ data để SPM calibrate)
+       (người duy nhất có đủ data để Self-Pattern-Modeling calibrate)
 ```
 
 ### §6.2 — Timeline Phát Triển Empathy
@@ -1396,17 +1396,17 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
     → 🟢 Svetlova 2010: empathic helping tăng đáng kể 18-24m
     → = TRUE EMPATHY bắt đầu: dùng own-state predict + respond to other-state
 
-  2-4 TUỔI — ANIMISM (Over-Apply SPM):
+  2-4 TUỔI — ANIMISM (Over-Apply Self-Pattern-Modeling):
     → Agent model ĐÃ BUILD → apply RỘNG HƠN CẦN THIẾT
     → "Ghế bị đau", "gấu bông buồn", "xe hơi mệt"
     → 🟢 Piaget 1929: animism phase well-documented
-    → = SPM ĐANG HOẠT ĐỘNG nhưng chưa calibrate boundary
+    → = Self-Pattern-Modeling ĐANG HOẠT ĐỘNG nhưng chưa calibrate boundary
     → = BÌNH THƯỜNG — đang THỬ áp dụng → calibrate DẦN
-    → ⚠️ ĐỪNG phạt: "ghế không biết đau!" = suppress SPM đang build
+    → ⚠️ ĐỪNG phạt: "ghế không biết đau!" = suppress Self-Pattern-Modeling đang build
 
   4-7 TUỔI — BOUNDARY REFINEMENT:
     → Dần phân biệt: agents CÓ states, objects KHÔNG
-    → Social interaction rộng hơn → SPM calibrate với NHIỀU templates
+    → Social interaction rộng hơn → Self-Pattern-Modeling calibrate với NHIỀU templates
     → Empathy SELECTIVE hơn: thân → mạnh, xa → yếu (normal)
     → Animism GIẢM (nhưng một số trẻ giữ creative animism → KHÔNG sao)
 ```
@@ -1421,8 +1421,8 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
       → Feeling fidelity ↑ (§5.1: Layer 1-2 → Layer 3-4)
         → Self-chunk formation (body states PHÂN BIỆT ĐƯỢC)
           → Self-awareness (rouge test 18-24m: "đó là TÔI")
-            → Templates available (self-chunks = template cho SPM)
-              → SPM fires on others (empathy EMERGE)
+            → Templates available (self-chunks = template cho Self-Pattern-Modeling)
+              → Self-Pattern-Modeling fires on others (empathy EMERGE)
 
   SKIP BẤT KỲ BƯỚC NÀO = CEILING cho bước sau.
 
@@ -1432,7 +1432,7 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
     Mẹ responsive nhưng KHÔNG label ("ôm cho nín, không nói tại sao"):
     → Trẻ calm nhưng KHÔNG compile ranh giới giữa states
     → Self-chunks THÔ (chỉ "khó chịu chung" vs "OK")
-    → SPM template THÔ → empathy KÊNH
+    → Self-Pattern-Modeling template THÔ → empathy KÊNH
     → Adult: "biết bạn buồn" nhưng KHÔNG biết "buồn VÌ GÌ"
     → = Empathy CÓ nhưng SHALLOW
 
@@ -1442,7 +1442,7 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
     Mẹ inconsistent (lúc đáp lúc không):
     → Trẻ KHÔNG compile "khóc → mẹ đến" reliable pattern
     → Insecure attachment → hardware pull dominant (§4.4)
-    → Explore ÍT → self-chunks tích lũy ÍT → SPM templates ÍT
+    → Explore ÍT → self-chunks tích lũy ÍT → Self-Pattern-Modeling templates ÍT
     → = Empathy DELAYED + ceiling thấp hơn
 ```
 
@@ -1450,19 +1450,19 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
 
 ```
   ① Chia sẻ ở 2 tuổi = BÌNH THƯỜNG chưa làm được
-     → SPM chunks chưa đủ — KHÔNG PHẢI "ích kỷ"
+     → Self-Pattern-Modeling chunks chưa đủ — KHÔNG PHẢI "ích kỷ"
      → Ép chia sẻ = threat-path → tag "chia sẻ = bị ép" = avoidance
 
   ② Empathy training = BUILD self-chunks TRƯỚC
      → Label cảm xúc CỦA TRẺ trước → rồi label cảm xúc NGƯỜI KHÁC
-     → "Con đang buồn" (build self-chunk) → "Bạn cũng đang buồn" (SPM)
+     → "Con đang buồn" (build self-chunk) → "Bạn cũng đang buồn" (Self-Pattern-Modeling)
 
   ③ Contingent caregiving = prerequisite cho TOÀN BỘ chuỗi
      → Không chỉ "tình yêu" mà cần LABEL + CONSISTENT RESPONSE
 
-  ④ Animism 2-4 tuổi = healthy sign SPM đang hoạt động
+  ④ Animism 2-4 tuổi = healthy sign Self-Pattern-Modeling đang hoạt động
      → Over-apply = đang calibrate → BÌNH THƯỜNG
-     → Suppress ("ghế không biết đau!") = suppress SPM practice
+     → Suppress ("ghế không biết đau!") = suppress Self-Pattern-Modeling practice
 
   ⑤ Bird & Cook 2013: alexithymia → empathy deficit (KHÔNG phải autism per se)
      → Self-awareness = upstream bottleneck — fix self-chunks = fix empathy
@@ -1814,7 +1814,7 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
     §3 Tags: cortisol DIRECTION = tag → approach vs avoidance
     §4 Dynamics: cortisol holding signal → Gap→Miss transition
     §5 Feeling: Silent Cortisol = barrier cho feeling fidelity
-    §6 SPM: co-regulation → cortisol ↓ → prerequisite cho SPM build
+    §6 Self-Pattern-Modeling: co-regulation → cortisol ↓ → prerequisite cho Self-Pattern-Modeling build
     §7 Autonomy: vmPFC train cần moderate cortisol; chronic → vmPFC weaken
 
     → Cortisol KHÔNG phải 1 section riêng — là AMPLIFIER chạy XUYÊN QUA
@@ -1867,7 +1867,7 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
     → "Terrible twos" = healthy autonomy compile
 
   EMPATHY (14-24m emergence — §6):
-    Feeling fidelity (§5) → SPM bootstrap → empathy emerge
+    Feeling fidelity (§5) → Self-Pattern-Modeling bootstrap → empathy emerge
     → Arousal contagion trước (0-6m) → true empathy sau (18-24m)
     → Animism (2-4y) = over-apply = đang calibrate = BÌNH THƯỜNG
 
@@ -1980,7 +1980,7 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
   ✅ Giải thích CƠ CHẾ v7.8 áp dụng cho trẻ 0-6
   ✅ PFC reframe có evidence 🟢 mạnh (5 pillars, Hodel 2018)
   ✅ Cung cấp chuỗi nhân quả rõ:
-     attachment → feeling → self-chunks → SPM → empathy
+     attachment → feeling → self-chunks → Self-Pattern-Modeling → empathy
   ✅ Bridge giữa core mechanism files và practical child-dev files
   ✅ Approach/avoidance tag mechanism giải thích "tại sao cách dạy quan trọng"
   ✅ Chunk dynamics giải thích separation anxiety, "tại sao?", social comparison
@@ -2022,7 +2022,7 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
 
   Body-state-at-compile → approach/avoidance tag              — §3.1
   5-parameter compile formula (5/5 cross-state, chưa independent test) — §2.3
-  SPM developmental bootstrap timeline (logic consistent)     — §6.2
+  Self-Pattern-Modeling developmental bootstrap timeline (logic consistent)     — §6.2
   Observation parameter emergence timeline (chunk density inference) — §9.1
   Meta-chunk compilation mechanism (autonomy)                 — §7.2
   Cortisol direction > level principle                        — §8.4
@@ -2071,7 +2071,7 @@ MECHANISM FILES (source of truth for mechanisms in this file):
   Feeling-Accuracy.md           — 6 error modes, literacy trainable
   Feeling-Literacy-Training.md  — 5-stage training framework
 
-  Empathy.md                    — SPM function, developmental bootstrap, 7 failures
+  Empathy.md                    — Self-Pattern-Modeling function, developmental bootstrap, 7 failures
   Autonomy-Hardware.md          — Efference copy, vmPFC+DRN, Maier 2016
   Autonomy.md                   — 5-phase developmental arc, meta-chunk
 
@@ -2187,7 +2187,7 @@ CÁC FILE ĐI KÈM (reference ngược):
 >   §3: ⭐ Approach/Avoidance Tags (cách dạy quyết định tag — suốt đời)
 >   §4: Chunk Dynamics (Gap/Miss/Shift + attachment prerequisite)
 >   §5: Feeling Development (7-layer + caregiving label → fidelity)
->   §6: SPM Bootstrap (3 mechanisms, timeline, prerequisite chain)
+>   §6: Self-Pattern-Modeling Bootstrap (3 mechanisms, timeline, prerequisite chain)
 >   §7: Autonomy (efference copy → meta-chunk → "KHÔNG!")
 >   §8: Cortisol (amplifier, not cause + sleep repair + direction > level)
 >   §9: Observation Parameters + Imagine-Final emergence timeline

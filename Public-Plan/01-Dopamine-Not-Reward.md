@@ -12,7 +12,7 @@
 
 ```
 MAINSTREAM (pop science + textbook cũ):
-  Scroll phone → dopamine tăng → "dopamine = reward" → sướng → cuốn
+  Scroll phone → dopamine tăng → "dopamine = reward" → pleasant → cuốn
 
 FRAMEWORK:
   Content match chunk-gap → body preview (Imagine) → micro body-reward (opioid)
@@ -34,7 +34,7 @@ FRAMEWORK:
 ```
 ⭐ CÂU HỎI ĐƠN GIẢN NHẤT:
 
-  Nếu dopamine = reward → bơm thêm dopamine = sướng hơn?
+  Nếu dopamine = reward → bơm thêm dopamine = pleasant hơn?
   → Câu trả lời từ research: KHÔNG.
 
 
@@ -46,7 +46,7 @@ FRAMEWORK:
      → = Test TRỰC TIẾP NHẤT có thể
 
   ② Dopamine agonist (kích thích receptor dopamine) ở Parkinson's:
-     → Bệnh nhân KHÔNG report sướng TỪ THUỐC
+     → Bệnh nhân KHÔNG report pleasant TỪ THUỐC
      → NHƯNG: 6-7% phát triển gambling, hypersexuality, shopping compulsive
      → = Dopamine tăng → SEEKING tăng → pleasure KHÔNG tăng
      → = Wanting WITHOUT liking = Berridge CONFIRMED ở người
@@ -283,7 +283,7 @@ CLARIFY:
 🟢 RESEARCH EVIDENCE:
 
   Linnet 2011: dopamine fire KỂ CẢ KHI THUA
-    → Nếu dopamine = reward → thua = sướng? Vô lý.
+    → Nếu dopamine = reward → thua = pleasant? Vô lý.
     → Framework: dopamine fire vì prediction-delta (spin = uncertainty)
     → Body-reward chỉ có KHI THẮNG hoặc NEAR-MISS (body pre-feel thắng)
 
@@ -322,7 +322,7 @@ CLARIFY:
 
   → Linnet 2011 đo TRUNG BÌNH cả 2 loại → report "dopamine fire khi thua"
   → Framework PHÂN BIỆT: dopamine fire ở Loại 2 vì IMAGINE-FINAL ván sau
-  → KHÔNG phải "thua = sướng" — mà "thua + tưởng sắp thắng = body pre-reward"
+  → KHÔNG phải "thua = pleasant" — mà "thua + tưởng sắp thắng = body pre-reward"
 
   → Therapy implication (Liking-Wanting.md §4.2):
     Chỉ block dopamine (CBT "bớt muốn") = THIẾU

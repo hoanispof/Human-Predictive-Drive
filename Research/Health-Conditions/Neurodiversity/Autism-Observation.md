@@ -32,7 +32,7 @@
 **Date**: 2026-05-15
 **Confidence**: 🟢 Research (sensory, TBW, double empathy, alexithymia, masking, genetics) | 🟡 Synthesis (framework mapping, cascade model) | 🔴 Hypothesis (predictive coding per-individual, TBW→social prediction, monotropic index)
 **Cluster**: Neurodiversity Cluster File 2/2 (ADHD → **Autism**) | Health Conditions Drill File 5/6
-**Dependencies**: Self-Pattern-Match.md v2.3, Body-Feedback-Mechanism.md v1.2, 07-Social-Recognition-Arc.md, Sensitivity-Classification.md v1.0, Gap-Direction.md v1.0, Feeling.md v2.1, Child-Development-Mechanism.md v1.0, ADHD-Observation.md v1.1, Empathy.md v2.0, Connection.md v3.1, OCD-Analysis.md v2.1, Threat.md v1.0, Cortisol-Baseline.md v2.0
+**Dependencies**: Self-Pattern-Modeling.md v2.3, Body-Feedback-Mechanism.md v1.2, 07-Social-Recognition-Arc.md, Sensitivity-Classification.md v1.0, Gap-Direction.md v1.0, Feeling.md v2.1, Child-Development-Mechanism.md v1.0, ADHD-Observation.md v1.1, Empathy.md v2.0, Connection.md v3.1, OCD-Analysis.md v2.1, Threat.md v1.0, Cortisol-Baseline.md v2.0
 **Disclaimer**: Framework KHÔNG thay thế chẩn đoán y khoa. Autism = neurodevelopmental condition. File này cung cấp OBSERVATION LENS — không chẩn đoán, không đề xuất điều trị, không xác định "đúng/sai" cách phát triển.
 **Planned refine**: ADHD v1.1 → v1.2 sau file này (thêm Configuration vs Tuning 2D model chi tiết)
 
@@ -46,7 +46,7 @@
 §2  — SENSORY PROCESSING × CHUNK COMPILATION
 §3  — MULTISENSORY INTEGRATION
 §4  — PREDICTIVE PROCESSING: 3 THEORIES × FRAMEWORK
-§5  — SPM DEVELOPMENT: F1/F2 + DOUBLE EMPATHY
+§5  — Self-Pattern-Modeling DEVELOPMENT: Compiled/Fresh + DOUBLE EMPATHY
 §6  — MASKING: COST OF COMPILATION
 §7  — ALEXITHYMIA: BODY-FEEDBACK READING vs HAVING
 §8  — SPECIAL INTERESTS × GAP-DIRECTION + MONOTROPISM
@@ -119,7 +119,7 @@ Tại sao Neurodiversity/ (KHÔNG phải Neurodegeneration/):
 ```
 FRAMEWORK CÓ THỂ PHÂN TÍCH:
   ✅ Sensory processing differences → cascading effect lên chunk compilation
-  ✅ SPM F1/F2 balance khác → social interaction khác
+  ✅ Self-Pattern-Modeling Compiled/Fresh balance khác → social interaction khác
   ✅ Multisensory integration differences → chunk compilation pathway
   ✅ Special interests qua gap-direction + reward mechanism
   ✅ Predictability preference qua prediction-delta lens
@@ -405,25 +405,25 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   LABELING CASCADE (autism-specific):
     ① Kiến trúc não khác (nhiều kiểu KHÁC NHAU)
     ② → Sensory gain khác → chunks compile khác (§2)
-    ③ → SPM build trên chunk library khác → social prediction khác (§5)
+    ③ → Self-Pattern-Modeling build trên chunk library khác → social prediction khác (§5)
     ④ → Social compilation CHẬM HƠN so với neurotypical timeline
          (không phải chậm tuyệt đối — Crompton 2025: autistic↔autistic = effective)
-    ⑤ → Giai đoạn đầu: CHƯA đồng bộ SPM với đa số xung quanh
+    ⑤ → Giai đoạn đầu: CHƯA đồng bộ Self-Pattern-Modeling với đa số xung quanh
     ⑥ → Bị gán mác SỚM: "không giao tiếp được"
     ⑦ → Từ đó: mọi người nhìn qua mác → coi TẤT CẢ autistic = giống nhau
     ⑧ → Coi "khó giao tiếp" = 1 HÀNH VI duy nhất
     ⑨ → Nhưng thực tế: mỗi người khó giao tiếp vì LÝ DO KHÁC
-         (sensory gain khác, TBW khác, F1/F2 balance khác,
+         (sensory gain khác, TBW khác, Compiled/Fresh balance khác,
           alexithymia có/không, predictive coding type khác...)
 
   → Bước ⑥→⑦ = confirmation bias: mác "tự kỷ" → observer CHỈ THẤY
     cái confirm mác → bỏ qua individuality
   → Bước ⑦→⑧ = vì neurotypical là đa số nên mác gán cho phía thiểu số
-    (double empathy §5.4: neurotypical SPM cũng fail, nhưng không bị gán mác)
+    (double empathy §5.4: neurotypical Self-Pattern-Modeling cũng fail, nhưng không bị gán mác)
 
   IMPLICATION:
     → "Autism support" KHÔNG THỂ one-size-fits-all
-    → PER-INDIVIDUAL: sensory profile + TBW + F1/F2 + alexithymia + Special Interests pattern
+    → PER-INDIVIDUAL: sensory profile + TBW + Compiled/Fresh + alexithymia + Special Interests pattern
     → = Cùng insight với Alzheimer: TÁCH subtypes → support chính xác hơn
     → Cross-ref: Alzheimer-Analysis.md §17 (reverse-engineering lens)
 ```
@@ -436,10 +436,10 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   "Khó giao tiếp" = OUTPUT CHUNG của ÍT NHẤT 3 con đường KHÁC CƠ CHẾ:
 
   ┌─────────────────┬───────────────────────┬────────────────────────────────┐
-  │ Con đường        │ Root cause             │ Tại sao SPM build chậm/khác   │
+  │ Con đường        │ Root cause             │ Tại sao Self-Pattern-Modeling build chậm/khác   │
   ├─────────────────┼───────────────────────┼────────────────────────────────┤
   │ ① CONFIGURATION │ Hardware khác từ đầu  │ Sensory gain khác → chunks     │
-  │ (Autism)        │ (102+ genes, polyge-  │ compile khác → SPM build trên  │
+  │ (Autism)        │ (102+ genes, polyge-  │ compile khác → Self-Pattern-Modeling build trên  │
   │                 │ nic, idiosyncratic)   │ chunk library KHÁC typical     │
   ├─────────────────┼───────────────────────┼────────────────────────────────┤
   │ ② TUNING        │ Regulation parameters │ PFC under-fueled → social      │
@@ -447,11 +447,11 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   │                 │                       │ (miss cues vì distracted)      │
   ├─────────────────┼───────────────────────┼────────────────────────────────┤
   │ ③ DEPRIVATION   │ Hardware BÌNH THƯỜNG  │ Không có social INPUT đủ       │
-  │ (thiếu input)  │ nhưng thiếu input     │ → SPM KHÔNG CÓ raw material   │
+  │ (thiếu input)  │ nhưng thiếu input     │ → Self-Pattern-Modeling KHÔNG CÓ raw material   │
   │                 │ social từ nhỏ         │ → chunks không compile được    │
   └─────────────────┴───────────────────────┴────────────────────────────────┘
 
-  Cả 3 → CÙNG OUTPUT nhìn từ bên ngoài: SPM thiếu/khác → "khó giao tiếp"
+  Cả 3 → CÙNG OUTPUT nhìn từ bên ngoài: Self-Pattern-Modeling thiếu/khác → "khó giao tiếp"
   Nhưng mechanism BÊN TRONG hoàn toàn KHÁC → cần approach KHÁC
 ```
 
@@ -504,8 +504,8 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     ② → Giai đoạn đầu: trông giống "khó giao tiếp" (surface behavior)
     ③ → Bị gán mác "tự kỷ" HOẶC bị đối xử NHƯ tự kỷ
     ④ → Môi trường RESPOND theo mác: isolate, lower expectations, ít interaction
-    ⑤ → ÍT social input → ÍT raw material cho SPM compile
-    ⑥ → SPM compile CÒN CHẬM HƠN (vì thiếu input, KHÔNG phải thiếu hardware)
+    ⑤ → ÍT social input → ÍT raw material cho Self-Pattern-Modeling compile
+    ⑥ → Self-Pattern-Modeling compile CÒN CHẬM HƠN (vì thiếu input, KHÔNG phải thiếu hardware)
     ⑦ → Behavior CONFIRM mác → vòng xoáy tự tăng cường
     → = Self-fulfilling prophecy: mác TẠO RA condition mà nó "chẩn đoán"
 
@@ -553,7 +553,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     ① Configuration: compile CHẬM HƠN typical (hardware khác)
        Nhưng COMPILE ĐƯỢC theo pathway riêng
        Crompton 2025: autistic↔autistic communication = effective
-       → SPM builds, nhưng trên chunk library KHÁC typical
+       → Self-Pattern-Modeling builds, nhưng trên chunk library KHÁC typical
 
     ② Tuning: compile NHANH HƠN ① nếu medication compensate regulation
        PFC gets fuel → social chunks compile (hardware bình thường)
@@ -708,7 +708,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Chunk network structure FUNDAMENTALLY DIFFERENT từ gốc
 
   BƯỚC 3: Khác chunks → khác TOÀN BỘ downstream
-    → SPM (§5): SPM fire dựa trên OWN chunk library
+    → Self-Pattern-Modeling (§5): Self-Pattern-Modeling fire dựa trên OWN chunk library
       → khác chunks = khác social prediction
     → Gap-Direction (§8): gap = f(surrounding chunks)
       → khác chunks = khác gaps = khác interests
@@ -917,8 +917,8 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
       within very narrow temporal window → harder with wider TBW
     → "Social cues" = often multi-modal and time-dependent
 
-  STEP 4: Different social chunks → different SPM predictions (§5)
-    → SPM runs on OWN chunk library
+  STEP 4: Different social chunks → different Self-Pattern-Modeling predictions (§5)
+    → Self-Pattern-Modeling runs on OWN chunk library
     → Different social chunks → different predictions about others
     → Neurotypical predicts using neurotypical social chunks → fails for autistic person
     → Autistic predicts using own social chunks → fails for neurotypical
@@ -1090,33 +1090,33 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 
 ---
 
-## §5 — SPM DEVELOPMENT: F1/F2 + DOUBLE EMPATHY
+## §5 — Self-Pattern-Modeling DEVELOPMENT: Compiled/Fresh + DOUBLE EMPATHY
 
-### §5.1 — F1 (feeling) vs F2 (logic): 2 functions của SPM
+### §5.1 — Compiled (feeling) vs Fresh (logic): 2 functions của Self-Pattern-Modeling
 
 ```
-🟡 Self-Pattern-Match.md v2.3:
+🟡 Self-Pattern-Modeling.md v2.3:
 
-  SPM = solo forward simulation mechanism
+  Self-Pattern-Modeling = solo forward simulation mechanism
   2 FUNCTIONS chạy SONG SONG:
 
-  F1 — FEELING: body simulate trạng thái TARGET agent
+  Compiled — FEELING: body simulate trạng thái TARGET agent
     → Body fire bản sao YẾU trạng thái người khác
-    → "Bạn thấy bạn khóc → body bạn buồn nhẹ" = F1
+    → "Bạn thấy bạn khóc → body bạn buồn nhẹ" = Compiled
 
-  F2 — LOGIC: PFC chain predict BEHAVIOR target agent
-    → Logic predict: "bạn buồn vì chia tay → chắc muốn ai đó lắng nghe" = F2
+  Fresh — LOGIC: PFC chain predict BEHAVIOR target agent
+    → Logic predict: "bạn buồn vì chia tay → chắc muốn ai đó lắng nghe" = Fresh
 
   Per-Agent Valence (❸) quyết định HƯỚNG:
-    → ❸ positive: F1 = empathy, F2 = help
-    → ❸ negative: F1 = reversed (Schadenfreude), F2 = attack
-    → ❸ extreme negative: F1 TẮT = dehumanization
+    → ❸ positive: Compiled = empathy, Fresh = help
+    → ❸ negative: Compiled = reversed (Schadenfreude), Fresh = attack
+    → ❸ extreme negative: Compiled TẮT = dehumanization
 
   → CÙNG mechanism tạo empathy, strategic prediction, VÀ Schadenfreude
   → KHÔNG phải 4 hệ thống khác nhau — 1 mechanism × 2 functions × valence spectrum
 ```
 
-### §5.2 — Observation: F1 pathway KHÁC, not absent
+### §5.2 — Observation: Compiled pathway KHÁC, not absent
 
 ```
 🟡 FRAMEWORK OBSERVATION:
@@ -1124,22 +1124,22 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   Common narrative: "autistic people lack empathy"
   Framework OBSERVE khác:
 
-  F2 (Logic prediction):
-    → Nhiều autistic people có F2 STRONG
+  Fresh (Logic prediction):
+    → Nhiều autistic people có Fresh STRONG
     → Systematic pattern detection, logical prediction = strength
     → VD: predict people's behavior dựa trên RULES → có thể CHÍNH XÁC
-       nhưng KHÁC cách neurotypical predict (neurotypical dùng F1 body-intuition nhiều hơn)
+       nhưng KHÁC cách neurotypical predict (neurotypical dùng Compiled body-intuition nhiều hơn)
 
-  F1 (Feeling simulation):
-    → F1 pathway DIFFERENT, not ABSENT
+  Compiled (Feeling simulation):
+    → Compiled pathway DIFFERENT, not ABSENT
     → Evidence: nhiều autistic people REPORT strong emotional responses
     → "Quá nhiều feeling, không phải quá ít" — common self-report
     → BUT: difficulty LABELING (§7 alexithymia) → looks like "no empathy" from outside
     → AND: difficulty EXPRESSING conventionally → neurotypical observers misread
 
   → "Thiếu empathy" = OBSERVATION ERROR by outsiders
-  → = F1 fires DIFFERENTLY + expression DIFFERENTLY
-  → ≠ F1 ABSENT
+  → = Compiled fires DIFFERENTLY + expression DIFFERENTLY
+  → ≠ Compiled ABSENT
 ```
 
 ### §5.3 — "Thiếu empathy" = BUSTED by research
@@ -1198,11 +1198,11 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   → Published in Nature Human Behaviour = high-impact confirmation
 
   FRAMEWORK MAPPING:
-    → SPM runs on OWN chunk library (Self-Pattern-Match.md v2.3 §4)
+    → Self-Pattern-Modeling runs on OWN chunk library (Self-Pattern-Modeling.md v2.3 §4)
     → Neurotypical chunks ≠ autistic chunks (different sensory → different compilation)
-    → Neurotypical SPM applied to autistic person → poor prediction (wrong template)
-    → Autistic SPM applied to neurotypical → poor prediction (wrong template)
-    → Autistic SPM applied to autistic → GOOD prediction (matching template)
+    → Neurotypical Self-Pattern-Modeling applied to autistic person → poor prediction (wrong template)
+    → Autistic Self-Pattern-Modeling applied to neurotypical → poor prediction (wrong template)
+    → Autistic Self-Pattern-Modeling applied to autistic → GOOD prediction (matching template)
     → = CHUNK LIBRARY MISMATCH, not ability deficit
 
   → Solution ≠ "teach autistic people to understand neurotypical"
@@ -1230,8 +1230,8 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → = Autistic people judged on HOW they look/move, not WHAT they say
 
   FRAMEWORK:
-    → Neurotypical SPM fails quickly → assigns negative valence (❸)
-    → Negative ❸ → F1 reversed or reduced → approach avoidance
+    → Neurotypical Self-Pattern-Modeling fails quickly → assigns negative valence (❸)
+    → Negative ❸ → Compiled reversed or reduced → approach avoidance
     → = Neurotypical create BARRIER before autistic person can even demonstrate substance
     → = Sasson 2017 + Milton 2012 + Crompton 2025 = CONVERGENT evidence:
       Problem is BIDIRECTIONAL and HEAVILY influenced by neurotypical-side bias
@@ -1288,8 +1288,8 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → = CONSISTENT with heterogeneity theme (§1)
 
   FRAMEWORK:
-    → SPM quality = f(chunk library quality + F1/F2 balance + valence)
-    → Autistic SPM may be STRONG for some targets, WEAK for others
+    → Self-Pattern-Modeling quality = f(chunk library quality + Compiled/Fresh balance + valence)
+    → Autistic Self-Pattern-Modeling may be STRONG for some targets, WEAK for others
     → Depends on: chunk MATCH between self and target
     → = Per-individual variation, not universal deficit
 ```
@@ -1315,7 +1315,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   FRAMEWORK:
     → Connection.md v3.1: ❶ Hardware social drive = body-level NEED
     → Drive exists in autism (body needs social input regardless of config)
-    → Difficulty at ❷ SPM (chunk mismatch) + ❸ valence (negative experiences compiled)
+    → Difficulty at ❷ Self-Pattern-Modeling (chunk mismatch) + ❸ valence (negative experiences compiled)
     → Social withdrawal = LOGICAL response to repeated prediction-delta failures,
       NOT absence of social drive
 ```
@@ -1329,9 +1329,9 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 ```
 🟡 FRAMEWORK DEFINITION:
 
-  Masking = compile "social protocol" chunks (Type C) to operate in neurotypical world.
+  Masking = compile "social protocol" chunks (Trust Compile) to operate in neurotypical world.
 
-  Chunk.md v2.1: Type C = trust-based install (compliance, schemas)
+  Chunk.md v2.1: Trust Compile = trust-based install (compliance, schemas)
   Masking = LEARN AND EXECUTE neurotypical social scripts MANUALLY:
     → Make eye contact (despite amygdala hyperarousal — §5.6)
     → Use "appropriate" facial expressions (despite internal state being different)
@@ -1367,7 +1367,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Identity confusion: "I don't know who I really am anymore"
     → Late/missed diagnosis: "I seemed fine so no one noticed"
     → Mental health decline: anxiety, depression, burnout
-    → Loss of sense of self: SPM self-chunks = compiled PERFORMANCE, not authentic self
+    → Loss of sense of self: Self-Pattern-Modeling self-chunks = compiled PERFORMANCE, not authentic self
 ```
 
 ### §6.3 — Gender differences: women mask MORE
@@ -1387,7 +1387,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   → = Gender difference SPECIFIC to autism, not general social behavior
 
   FRAMEWORK:
-    → Female socialization = more emphasis on social conformity (Type C install)
+    → Female socialization = more emphasis on social conformity (Trust Compile install)
     → Girls receive MORE explicit/implicit social protocol training
     → = Better "raw material" for compiling masking chunks
     → = BETTER masking → LESS visible → LESS diagnosed → MORE accumulated cost
@@ -1459,14 +1459,14 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → = Current diagnostic tools biased toward MALE presentation
 
   Late diagnosis → identity re-compile:
-    → "Ah, tất cả explained" → SPM self-chunks SHIFT
+    → "Ah, tất cả explained" → Self-Pattern-Modeling self-chunks SHIFT
     → Can be RELIEF: "I'm not broken, I'm configured differently"
     → Can be CRISIS: "I've been performing someone else my whole life"
     → Can be BOTH simultaneously
     → Parallel: ADHD-Observation.md §10.4 late diagnosis (same mechanism)
 
   Framework:
-    → Self-Pattern-Match.md v2.3: SPM uses self-chunks as templates
+    → Self-Pattern-Modeling.md v2.3: Self-Pattern-Modeling uses self-chunks as templates
     → Self-chunks compiled under masking = "I am the masked version"
     → Diagnosis → new chunk: "I am autistic" → requires RE-COMPILATION
     → = Chunk-Shift (Body-Feedback-Mechanism.md §3.1): schema changes → body-feedback
@@ -1524,7 +1524,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 
   SELF-TO-OTHER MODEL of empathy:
     Step 1: Represent OWN emotional/body state (interoception)
-    Step 2: Map own state → other person (simulation via F1)
+    Step 2: Map own state → other person (simulation via Compiled)
     Step 3: Feel response (empathic concern/distress)
 
   ALEXITHYMIA disrupts Step 1:
@@ -1844,7 +1844,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Expert-level knowledge in Special Interests domain
     → = Mottron principle ⑥⑦
 
-  F2 STRONG (§5.2) → systematic PATTERN DETECTION
+  Fresh STRONG (§5.2) → systematic PATTERN DETECTION
     → Rule discovery, logical analysis, mathematical thinking
     → = Raven's advantage (§9.2)
 
@@ -1852,7 +1852,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Code review, data analysis, quality assurance
     → = Happé & Frith reframe: style not deficit
 
-  = Gain + Focus + F2 + Detail = AUTISTIC COGNITIVE ADVANTAGES
+  = Gain + Focus + Fresh + Detail = AUTISTIC COGNITIVE ADVANTAGES
   = Not separate from autism — EMERGENT from same configuration
   = Trade-off: social breadth ↔ perceptual depth (same parameters, different optimization)
 
@@ -1887,7 +1887,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   MECHANISM (Body-Feedback-Mechanism.md):
     → Sensory input → body-feedback (§2: no habituation → ACCUMULATES)
     → Prediction-delta → body-feedback (§4: amplified in autism)
-    → Social demands → body-feedback (§5: SPM mismatch → dissonance)
+    → Social demands → body-feedback (§5: Self-Pattern-Modeling mismatch → dissonance)
     → Cumulative load → EXCEEDS PFC processing capacity
     → PFC goes offline (Threat.md: NE α1 cascade, PFC disconnect)
     → Body-feedback DISCHARGES through motor/emotional output
@@ -2064,7 +2064,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
   HYPERLEXIA:
     → Early and intense fascination with letters/reading
     → Can read fluently BEFORE understanding content
-    → = Pattern detection (F2) applied to visual symbols
+    → = Pattern detection (Fresh) applied to visual symbols
 
   ECHOLALIA:
     → Repeating heard phrases (immediate or delayed)
@@ -2134,7 +2134,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → Diagnostic tools biased toward male presentation
 
   Late diagnosis → identity RE-COMPILATION:
-    → Self-Pattern-Match.md v2.3: SPM uses self-chunks as templates
+    → Self-Pattern-Modeling.md v2.3: Self-Pattern-Modeling uses self-chunks as templates
     → Pre-diagnosis self-chunks: "I'm awkward" / "I'm broken" / "I try so hard but fail"
     → Post-diagnosis: "I'm configured differently" / "I was masking this whole time"
     → = CHUNK-SHIFT (Body-Feedback-Mechanism.md §3.1)
@@ -2264,7 +2264,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 
   DIMENSION 1: CONFIGURATION (Autism spectrum)
     → Sensory processing GAIN settings khác
-    → SPM F1/F2 balance khác
+    → Self-Pattern-Modeling Compiled/Fresh balance khác
     → Multisensory integration khác
     → TBW parameters khác
     → = HOW the system is WIRED (structural, from birth)
@@ -2437,10 +2437,10 @@ P3: PREDICTIVE CODING (§4)
   Hypo-priors vs HIPPEA → different accommodation needs
   🔴 Hypothesis — cần per-individual fMRI + behavioral testing
 
-P4: F1/F2 → SOCIAL STYLE (§5)
-  F1/F2 balance → predict social interaction style
-  High F2 + low F1 = different from balanced → different strategy
-  🔴 Hypothesis — SPM balance measurement not yet operationalized
+P4: Compiled/Fresh → SOCIAL STYLE (§5)
+  Compiled/Fresh balance → predict social interaction style
+  High Fresh + low Compiled = different from balanced → different strategy
+  🔴 Hypothesis — Self-Pattern-Modeling balance measurement not yet operationalized
 
 P5: ALEXITHYMIA → EMPATHY (§7)
   Alexithymia level → predict empathy response (independent of autism)
@@ -2449,7 +2449,7 @@ P5: ALEXITHYMIA → EMPATHY (§7)
 
 P6: Special Interests → REWARD (§8)
   Special Interests pattern → predict reward mechanism engagement
-  Concentrated gap-direction = deep Type A compile in domain
+  Concentrated gap-direction = deep Evaluative compile in domain
   🟡 Partially supported (Grove 2018 wellbeing association)
 
 P7: MASKING → MENTAL HEALTH (§6)
@@ -2497,7 +2497,7 @@ Framework generates predictions — DOES NOT confirm them.
 🟡 FRAMEWORK SYNTHESIS (logically consistent, partially supported):
   → Sensory gain → chunk compilation CASCADE model
   → Predictive coding → prediction-delta LARGER (3 theories consistent)
-  → F1/F2 balance reframe (not deficit — different pathway)
+  → Compiled/Fresh balance reframe (not deficit — different pathway)
   → Meltdown/shutdown as body-feedback OVERLOAD + PFC offline
   → Masking = chronic prediction-delta mismatch → cortisol → burnout
   → Co-occurring conditions = CASCADE from architecture under load
@@ -2511,7 +2511,7 @@ Framework generates predictions — DOES NOT confirm them.
   → Per-individual predictive coding mechanism type
   → TBW magnitude → social difficulty prediction
   → Monotropic index → Special Interests + overwhelm prediction
-  → F1/F2 balance measurement operationalization
+  → Compiled/Fresh balance measurement operationalization
   → Sensory profile → chunk compilation prediction
   → Habituation rate → meltdown frequency prediction
   → 2D model as adequate simplification (reality likely higher-D)
@@ -2525,7 +2525,7 @@ Framework CÓ THỂ:
   + Map mechanisms lên kiến trúc đã có
   + Generate testable hypotheses (P1-P8)
   + Giải thích paradoxes (sensory strength + social difficulty = same config)
-  + Connect autism to broader framework (chunk, SPM, body-feedback, prediction)
+  + Connect autism to broader framework (chunk, Self-Pattern-Modeling, body-feedback, prediction)
   + Identify WHERE to support (sensory environment, not "fix" person)
 
 Framework KHÔNG THỂ:
@@ -2617,17 +2617,17 @@ Q9: Autism as "reverse-engineering lens" for body-input → brain pattern pipeli
      Autism KHÁC: hardware CONFIGURATION khác từ đầu, not degrading
 ```
 
-### §16.3 — SPM + Agent mechanism
+### §16.3 — Self-Pattern-Modeling + Agent mechanism
 
 ```
-  → Self-Pattern-Match.md v2.3 — F1/F2 mechanism, context-dependent, valence
-     §5 SPM in autism: F1 khác pathway, F2 có thể strong
+  → Self-Pattern-Modeling.md v2.3 — Compiled/Fresh mechanism, context-dependent, valence
+     §5 Self-Pattern-Modeling in autism: Compiled khác pathway, Fresh có thể strong
      §5.4 Double empathy = chunk library mismatch
   → By-Product-Gap-Resonance.md — chunk-based simulation (NOT hardware mirror)
      07-Social-Recognition-Arc uses this: social development = compilation
-  → Empathy.md v2.0 — SPM F1 output with positive valence
+  → Empathy.md v2.0 — Self-Pattern-Modeling Compiled output with positive valence
      §5.3 "empathy deficit" busted via Bird & Cook 2013
-  → Connection.md v3.1 — 3 generative primitives (❶ HW × ❷ SPM × ❸ Valence)
+  → Connection.md v3.1 — 3 generative primitives (❶ HW × ❷ Self-Pattern-Modeling × ❸ Valence)
      §5.8 Social motivation via ❶ hardware drive
 ```
 

@@ -17,7 +17,7 @@ purpose: |
   DIRECTION (novelty vs threat) và DURATION (acute vs chronic), KHÔNG ở cortisol bản thân.
 dependencies:
   - Cortisol-Baseline.md v2.0 — comprehensive reference (3,059 dòng)
-  - Body-Feedback.md — 3 nguồn khó chịu thật
+  - Body-Feedback.md — 3 Genuine Discomfort Sources
   - Core-v7.8-Draft.md §4.3 — cortisol trong cycle architecture
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -31,8 +31,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Lính cứu hỏa LUÔN có mặt khi cháy nhà.
 > Nhưng lính cứu hỏa KHÔNG GÂY cháy.
 >
-> Cortisol LUÔN có mặt khi khó chịu.
-> Nhưng cortisol KHÔNG GÂY khó chịu.
+> Cortisol LUÔN có mặt khi discomfort.
+> Nhưng cortisol KHÔNG GÂY discomfort.
 >
 > **NHƯNG:** Lính cứu hỏa làm việc 24/7 không nghỉ → kiệt sức → gây thêm vấn đề.
 > Cortisol cao mãn tính + KHÔNG repair (sleep) → neural wear → PFC damage THẬT.
@@ -67,7 +67,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   VẤN ĐỀ LOGIC:
     → Quan sát: "cortisol cao = người khó chịu" ← ĐÚNG (correlation)
-    → Kết luận: "cortisol GÂY khó chịu" ← SAI (causation)
+    → Kết luận: "cortisol GÂY discomfort" ← SAI (causation)
     → = Correlation ≠ Causation
 
   ANALOGY:
@@ -102,7 +102,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   NẾU cortisol = nguồn stress → zero cortisol = siêu thoải mái?
   THỰC TẾ: mệt cực, yếu, chóng mặt, mờ mắt, có thể tử vong
   → = Cortisol ZERO = CŨNG khó chịu, thậm chí NGUY HIỂM
-  → = Cortisol KHÔNG phải nguồn khó chịu — là CHẤT CẦN THIẾT
+  → = Cortisol KHÔNG phải Genuine Discomfort source — là CHẤT CẦN THIẾT
 
 
 🟢 BẰNG CHỨNG 3 — CORTISOL CAO KHI VUI:
@@ -171,7 +171,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §4 — 3 NGUỒN ĐAU THẬT (KHÔNG PHẢI CORTISOL)
 
 ```
-🟡 CÁI GÌ THẬT SỰ GÂY ĐAU / KHÓ CHỊU:
+🟡 CÁI GÌ THẬT SỰ GÂY ĐAU / DISCOMFORT:
 
   ① NOCICEPTION — tổn thương vật lý:
     → Tissue damage → nociceptors fire → đau
@@ -436,7 +436,7 @@ DETAIL:
 WITHIN FRAMEWORK:
   Body-Feedback-Label.md v2.0 — VOCABULARY REFERENCE. 3-tier label system.
     Framework dùng "prediction-delta" / "body-base reward" / "dissonance".
-  Body-Feedback.md — dual-pull, 3 nguồn khó chịu
+  Body-Feedback.md — dual-pull, 3 Genuine Discomfort Sources
   Chunk.md v2.0 §2.4 NT7 — direction gate at compile
   Core-v7.8-Draft.md §4.3 — cortisol trong cycle architecture
   Dopamine-Is-Not-Reward.md — companion clarification file

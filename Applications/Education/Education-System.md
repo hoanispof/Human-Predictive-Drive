@@ -13,7 +13,7 @@
 >   Core-Hardware.md v1.0 (4 zones A/B/C/D),
 >   Child-Development-Mechanism.md v1.0 (phát triển 0-6),
 >   Cortisol-Baseline.md v2.0 (amplifier, not stress),
->   Reward-Signal-Architecture.md v1.0 (Type A/B reward),
+>   Reward-Signal-Architecture.md v1.0 (Evaluative/Direct-State reward),
 >   PFC-Configuration.md v1.0 (6 dynamic modes),
 >   Imagine-Final.md (lifecycle 5 phases),
 >   Imagine-Final-Evaluation.md v1.1 (4 góc quality)
@@ -23,7 +23,7 @@
 >   - Re-base: Education-Bridge.md → Mechanism §3 (Bridge + Motivation)
 >   - Re-base: Core-v7.5-Draft.md → Core-Software.md + Core-Hardware.md + Core-Interface.md
 >   - Slim overlap: §5 Bridge reference Mechanism §3, §9 AI reference Mechanism §4
->   - Add: v7.8 concepts (Type A/B, approach/avoidance tags, 4 nguồn fill, 3 ORIGIN)
+>   - Add: v7.8 concepts (Evaluative/Direct-State, approach/avoidance tags, 4 nguồn fill, 3 ORIGIN)
 >   - Update: tất cả cross-refs → current file paths
 > **⚠️ File này = IDEAL DESIGN — reality có constraints (§10).
 > Đây là HƯỚNG ĐI, không phải blueprint cứng.**
@@ -296,7 +296,7 @@ NÃO Ở STAGE 2 — CÁI CÓ SẴN:
   🟢 Social brain developing
      → Peer comparison bắt đầu → serotonin hierarchy
      → Authority mới (teacher) → ảnh hưởng chunk building
-     → SPM F1 developing (Agent-Mechanism.md) → empathy expanding
+     → Self-Pattern-Modeling Compiled developing (Agent-Mechanism.md) → empathy expanding
      → = Social context = channel MẠNH cho learning ở tuổi này
 
   🟡 Hardware tendencies bắt đầu LỘ RÕ hơn
@@ -328,7 +328,7 @@ MỤC TIÊU STAGE 2 — foundation chunks CHẮC:
 
     ④ SOCIAL / EMOTIONAL (DKM §1.4)
        → Empathy, collaboration, emotion regulation
-       → SPM bootstrap expanding (Child-Dev-Mechanism §6)
+       → Self-Pattern-Modeling bootstrap expanding (Child-Dev-Mechanism §6)
        → Method: group projects, real conflicts = learning moments
 
     ⑤ META-LEARNING — seeds (DKM §1.6)
@@ -559,13 +559,13 @@ MỤC TIÊU STAGE 3:
      TRUE-FIT 🟡:
        → Hardware MATCH với direction → system MATCH với hardware
        → Chunks build CÓ HƯỚNG + ĐÚNG hardware → approach-tagged
-       → Reward: Type A evaluative (opioid — RSA v1.0) + Type B hardware-direct
+       → Reward: Evaluative (opioid — Reward-Signal-Architecture v1.0) + Direct-State
        → = "Học vì MUỐN + vì PHÙ HỢP" → sustainable, fulfilling
 
      FORCED-FIT 🟡:
        → Hardware KHÔNG MATCH → nhưng bị system/family ÉP vào
        → Chunks build KHÔNG ĐÚNG hardware → avoidance-tagged
-       → Reward: chỉ bridge (nguồn ④ — điểm, áp lực, khen) → không có Type A genuine
+       → Reward: chỉ bridge (nguồn ④ — điểm, áp lực, khen) → không có Evaluative genuine
        → = "Học vì PHẢI" → unsustainable → burnout / quarter-life crisis
 
      PHÂN BIỆT THẾ NÀO:
@@ -1427,7 +1427,7 @@ TẦNG 3 — EDUCATION RESEARCH (NỀN TẢNG TRỰC TIẾP)
 
 → Empathy-Education.md v2.0 — empathy trong giáo dục
   (Research/Education/Observation/)
-  SPM-based, pragmatic empathy, per-age guide.
+  Self-Pattern-Modeling-based, pragmatic empathy, per-age guide.
 
 → Education-Arms-Race.md v1.2 — cạnh tranh giáo dục
   (Research/Education/Observation/)
@@ -1440,7 +1440,7 @@ TẦNG 2 — CHILD DEVELOPMENT (foundation 0-6)
 
 → Child-Development-Mechanism.md v1.0
   (Research/Child-Development/)
-  §2 4+1 Compile, §3 Approach/Avoidance, §6 SPM Bootstrap,
+  §2 4+1 Compile, §3 Approach/Avoidance, §6 Self-Pattern-Modeling Bootstrap,
   §8 Cortisol, §9 Imagine-Final emergence. File NÀY builds on this.
 
 → Natural-Development.md
@@ -1481,14 +1481,14 @@ TẦNG 1 — CORE (brain mechanisms)
 → Anchor-Schema.md — 4 nguồn fill
   Identity + worldview. Bridge = nguồn ④ External Inject.
 
-→ Reward-Signal-Architecture.md v1.0 — Type A/B
-  Type A evaluative (opioid), Type B hardware-direct.
+→ Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State
+  Evaluative (opioid), Direct-State.
 
 → PFC-Configuration.md v1.0 — 6 dynamic modes
   Normal, Reallocation, Reconfigured, Disconnected, etc.
 
-→ Agent-Mechanism.md v1.0 — SPM function
-  SPM F1 (body-simulate others), F2 (logic predict).
+→ Agent-Mechanism.md v1.0 — Self-Pattern-Modeling function
+  Self-Pattern-Modeling Compiled (body-simulate others), Fresh (logic predict).
 
 
 ═══════════════════════════════════════════════════════
@@ -1535,7 +1535,7 @@ CROSS-REFERENCES TRONG FILE NÀY:
   │ §1 Architecture  │ Core-Software, Core-Hardware, Natural-Dev│
   │ §2 Stage 2       │ Mechanism §2 (8 principles), §3 (bridge)│
   │                  │ DKM §1 (6 domains), Hardware-Cal         │
-  │ §3 Stage 3       │ Mechanism §2+§3, IF-Eval v1.1, RSA v1.0│
+  │ §3 Stage 3       │ Mechanism §2+§3, IF-Eval v1.1, Reward-Signal-Architecture v1.0│
   │ §4 Stage 4       │ Mechanism §1.4+§4, Cortisol v2.0        │
   │ §5 Bridge        │ Mechanism §3 (chi tiết), Anchor-Schema  │
   │ §6 Assessment    │ Mechanism §2.9, Chunk.md v2.1            │

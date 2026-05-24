@@ -2,7 +2,7 @@
 title: Alzheimer-Analysis — Cơ Chế Alzheimer Qua Framework v7.8
 version: 1.2
 created: 2026-05-15 (v1.0)
-refined: 2026-05-17 (v1.2 — F1/F2 fix, entity-compiled, dep updates SPM v3.0/Connection v4.0/BFM v2.0/Religion v2.4)
+refined: 2026-05-17 (v1.2 — Compiled/Fresh fix, entity-compiled, dep updates Self-Pattern-Modeling v3.0/Connection v4.0/Body-Feedback-Mechanism v2.0/Religion v2.4)
 updated: 2026-05-15 (v1.1 — FULL REWRITE: +Synapse loss = PRIMARY mechanism, +Tau biology deep (protein→pretangle→oligomer→tangle, from childhood), +4-Phase Model (âm ỉ→tích lũy→cascade→symptoms), +Phase Transition Model (activity protective→destructive when amyloid disrupts E/I balance), +5 mechanisms "last in first out" (thêm myelin), +Sleep×Glymphatic (Hauglund 2025 NE oscillations, zolpidem warning), +5 Protective Layers + Resilience (centenarians, SuperAgers), +Religion maximum compile resistance, +Cognitive activity/retirement/stress, +Alzheimer heterogeneous (4+ clinical, 3-5 biological subtypes), +Architecture determines pattern not cause, +Alzheimer as reverse-engineering lens, +~75 citations (was ~20))
 status: v1.2 — REFERENCE FILE
 scope: |
@@ -31,7 +31,7 @@ purpose: |
 position: Research/Health-Conditions/Neurodegeneration/ — cạnh Parkinson-Analysis.md
 previous_version: backup/Alzheimer-Analysis-v1.0.md (1,653L)
 dependencies:
-  - Self-Pattern-Match.md v3.0 — F1/F2, identity, context-dependent
+  - Self-Pattern-Modeling.md v3.0 — Compiled/Fresh, identity, context-dependent
   - Chunk.md v2.1 — chunk substrate, 4 compilation pathways, depth
   - Background-Pattern.md v1.0 — 2D model (Compile Depth × Link Density)
   - Connection.md v4.0 — 3 generative primitives, L1/L2
@@ -111,7 +111,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 §4  — BRAAK STAGING × FRAMEWORK ARCHITECTURE
 §5  — SYNAPSE LOSS → CHUNK DEGRADATION
 §6  — 5 CƠ CHẾ "LAST IN FIRST OUT"
-§7  — SPM DISSOLUTION: IDENTITY FRAGMENTATION
+§7  — Self-Pattern-Modeling DISSOLUTION: IDENTITY FRAGMENTATION
 §8  — BODY-FEEDBACK: TÍN HIỆU KHÔNG AI ĐỌC
 §9  — CONNECTION: AMBIGUOUS LOSS
 §10 — ACETYLCHOLINE × CHOLINERGIC HYPOTHESIS
@@ -871,11 +871,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 SO SÁNH VỚI CHILD DEVELOPMENT:
 
   Child development (0→adult):
-    Body-base → Sensory → Motor → Chunks → SPM → PFC executive
+    Body-base → Sensory → Motor → Chunks → Self-Pattern-Modeling → PFC executive
     = XÂY TỪ NỀN LÊN
 
   Alzheimer (adult→severe):
-    PFC executive → SPM → Chunks → Motor → Sensory → Body-base
+    PFC executive → Self-Pattern-Modeling → Chunks → Motor → Sensory → Body-base
     = PHÁ TỪ ĐỈNH XUỐNG
 
   "LAST IN, FIRST OUT" = Ribot's Law (1881):
@@ -1312,12 +1312,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Childhood chunks = LAST REMAINING (compile sâu nhất)
     → "Sống trong quá khứ" = KHÔNG phải chọn — là TẤT CẢ CÒN LẠI
 
-  Background Pattern visible through erosion:
-    → BP = accumulated chunk bias (invisible khi overlay mạnh)
-    → Alzheimer phá overlay → BP LỘ RA
-    → "Personality changes" ở Alzheimer = BP EXPOSED khi overlay mất
-    → Người "hiền" trở nên "aggressive" = BP fear pattern exposed
-    → Người "lạnh lùng" trở nên "dễ khóc" = BP emotional pattern exposed
+  Background-Pattern visible through erosion:
+    → Background-Pattern = accumulated chunk bias (invisible khi overlay mạnh)
+    → Alzheimer phá overlay → Background-Pattern LỘ RA
+    → "Personality changes" ở Alzheimer = Background-Pattern EXPOSED khi overlay mất
+    → Người "hiền" trở nên "aggressive" = Background-Pattern fear pattern exposed
+    → Người "lạnh lùng" trở nên "dễ khóc" = Background-Pattern emotional pattern exposed
 
   "Khảo cổ sống":
     → Alzheimer giống excavation — lớp trên mòn, lộ lớp dưới
@@ -1327,25 +1327,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §7 — SPM DISSOLUTION: IDENTITY FRAGMENTATION
+## §7 — Self-Pattern-Modeling DISSOLUTION: IDENTITY FRAGMENTATION
 
-### §7.1 — SPM cần self-chunks để hoạt động
+### §7.1 — Self-Pattern-Modeling cần self-chunks để hoạt động
 
 ```
 🟡 SELF-PATTERN-MATCH.md v2.3:
 
-  SPM = mechanism PFC observes own internal state
+  Self-Pattern-Modeling = mechanism PFC observes own internal state
     → Qua activation of SELF-BUILT pattern chunks
-    → F1 (feeling): body fire weak version of state → empathy
-    → F2 (logic): PFC chains predict behavior → deliberate
+    → Compiled (feeling): body fire weak version of state → empathy
+    → Fresh (logic): PFC chains predict behavior → deliberate
 
-  SPM PHẢI CÓ self-chunks:
+  Self-Pattern-Modeling PHẢI CÓ self-chunks:
     → Self-chunks = chunks về BẢN THÂN
     → Tên, tuổi, nghề, vai trò, ký ức, preferences, relationships
     → Identity = tập hợp self-chunks + cách chúng LIÊN KẾT
 
   ⭐ Khi self-chunks bị phá (Alzheimer):
-    → SPM không có material để run
+    → Self-Pattern-Modeling không có material để run
     → Không "biết mình là ai" = KHÔNG CÒN self-chunks để match
     → Không phải "quên mình" → MẤT SUBSTRATE của "mình"
 ```
@@ -1359,15 +1359,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Quên công việc hiện tại, dự án đang làm
     → Quên relationship mới (bạn mới, hàng xóm mới)
     → VẪN nhớ: tên mình, nghề cũ, bạn cũ, gia đình
-    → SPM vẫn chạy nhưng trên DATA CŨ
+    → Self-Pattern-Modeling vẫn chạy nhưng trên DATA CŨ
     → "Sống trong quá khứ" = KHÔNG PHẢI CHỌN — là TẤT CẢ CÒN LẠI
 
   ② ROLE IDENTITY MẤT (Braak IV-V):
     → Quên mình là bác sĩ/giáo viên/kỹ sư
     → Quên vai trò: bà ngoại, mẹ chồng, đồng nghiệp
     → Bắt đầu không nhận ra MỘT SỐ người thân
-    → SPM F2 (logic predict): offline cho người "lạ"
-    → SPM F1 (feeling): CÒN MỜ — cảm giác "quen" nhưng không biết tại sao
+    → Self-Pattern-Modeling Fresh (logic predict): offline cho người "lạ"
+    → Self-Pattern-Modeling Compiled (feeling): CÒN MỜ — cảm giác "quen" nhưng không biết tại sao
 
   ③ RELATIONSHIP IDENTITY MẤT (Braak V):
     → Không nhận ra vợ/chồng ("Cô là ai?")
@@ -1379,38 +1379,38 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Không nhận ra CHÍNH MÌNH trong gương
     → Mirrored-self misidentification: tưởng phản chiếu = người khác
     → Prevalence: 2-10% Alzheimer patients
-    → SPM effectively OFFLINE — không còn "self" để match
+    → Self-Pattern-Modeling effectively OFFLINE — không còn "self" để match
 
   🟢 RESEARCH:
     → Even moderate-severe dementia: "impoverished but CONSISTENT self-representation"
     → Self-supporting memories cluster quanh ADOLESCENCE + EARLY ADULTHOOD
-      = identity formation period (SPM Stage 6, 10-18 tuổi)
+      = identity formation period (Self-Pattern-Modeling Stage 6, 10-18 tuổi)
     → Những memories này KHÁNG LÂU NHẤT = compile depth CỰC CAO
       (emotional peak + repetition + multi-modal + identity-defining)
 ```
 
-### §7.3 — SPM F1 vs F2: mất KHÔNG đồng đều
+### §7.3 — Self-Pattern-Modeling Compiled vs Fresh: mất KHÔNG đồng đều
 
 ```
 🟡 FRAMEWORK PREDICTION:
 
-  SPM F1 (feeling simulation):
+  Self-Pattern-Modeling Compiled (feeling simulation):
     → Body-based, near-automatic
-    → Cần ÍT PFC resource hơn F2
-    → DỰ ĐOÁN: F1 tồn tại LÂU HƠN F2 trong Alzheimer
+    → Cần ÍT PFC resource hơn Fresh
+    → DỰ ĐOÁN: Compiled tồn tại LÂU HƠN Fresh trong Alzheimer
     → Evidence: patient không nhớ AI → nhưng CẢM THẤY thoải mái/sợ
-    → "Feeling without knowing" = F1 còn, F2 mất
+    → "Feeling without knowing" = Compiled còn, Fresh mất
 
-  SPM F2 (logic prediction):
+  Self-Pattern-Modeling Fresh (logic prediction):
     → PFC-dependent, deliberate
     → Cần chunks + PFC executive function
-    → DỰ ĐOÁN: F2 mất TRƯỚC F1
-    → Frontal cortex bị phá (Braak V-VI) → F2 offline
+    → DỰ ĐOÁN: Fresh mất TRƯỚC Compiled
+    → Frontal cortex bị phá (Braak V-VI) → Fresh offline
     → Patient không "hiểu" nhưng vẫn "cảm"
 
   ⭐ INSIGHT:
     → "Người Alzheimer không có cảm xúc" = SAI
-    → Body-feedback VẪN fire (§8) + F1 CÒN (mờ nhưng còn)
+    → Body-feedback VẪN fire (§8) + Compiled CÒN (mờ nhưng còn)
     → HỌ CẢM mà KHÔNG THỂ DIỄN ĐẠT
     → Giống alexithymia nhưng DO SUBSTRATE MẤT
       không phải do observation difficulty
@@ -1447,7 +1447,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Autobiographical memory DOMINANT ages ~10-30:
     → "Reminiscence bump" = disproportionate recall từ thời này
-    → Identity formation period (SPM Stage 6)
+    → Identity formation period (Self-Pattern-Modeling Stage 6)
     → Compile depth CỰC CAO:
       emotional peak + repetition + multi-modal + identity-defining
     → = Chunks KHÁNG LÂU NHẤT trong Alzheimer
@@ -1523,7 +1523,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ④ PARANOIA + DELUSIONS:
     → Relationship chunks mất → người thân = "người lạ"
     → "Ai đó vào nhà tôi!" (vợ/chồng)
-    → Framework: SPM fail + unfamiliar = THREAT by default
+    → Framework: Self-Pattern-Modeling fail + unfamiliar = THREAT by default
       (prediction-delta lớn → threat signal)
 ```
 
@@ -1585,15 +1585,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 CONNECTION.md v3.1 — 3 GENERATIVE PRIMITIVES:
 
-  ❶ Hardware Social Drive (innate, pre-SPM):
+  ❶ Hardware Social Drive (innate, pre-Self-Pattern-Modeling):
     → Body NEEDS social input (giống cần ăn, uống)
     → Alzheimer: hardware drive VẪN CÓ → patient VẪN CẦN người
     → Nhưng chunks about WHO = mất dần
     → Kết quả: cần người nhưng KHÔNG BIẾT người nào
 
-  ❷ SPM (F1 Compiled + F2 Fresh):
-    → F1 Compiled: body fire state copy → CÒN MỜ (§7.3)
-    → F2 Fresh: PFC predict behavior → MẤT DẦN
+  ❷ Self-Pattern-Modeling (Compiled + Fresh):
+    → Compiled: body fire state copy → CÒN MỜ (§7.3)
+    → Fresh: PFC predict behavior → MẤT DẦN
     → Kết quả: cảm giác "quen" mà không biết TẠI SAO
 
   ❸ Per-Agent Valence:
@@ -1602,7 +1602,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Vợ/chồng 40 năm → "người lạ tốt bụng" → "người lạ"
 
   ⭐ KHÔNG nhận ra ≠ KHÔNG có connection:
-    → Patient không nhớ TÊN → nhưng CẢM THẤY an toàn (F1 residual)
+    → Patient không nhớ TÊN → nhưng CẢM THẤY an toàn (Compiled residual)
     → Patient agitated với stranger → calm với caregiver quen
     → Body-level connection CÒN khi cognitive connection MẤT
     → Caregiver PRESENCE matters — dù patient "không biết" ai
@@ -1619,13 +1619,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Alzheimer disrupts = ONE-SIDED DECOUPLING:
     Caregiver:
-      → SPM VẪN RUN full (F1+F2) → fire empathy cho patient
+      → Self-Pattern-Modeling VẪN RUN full (Compiled+Fresh) → fire empathy cho patient
       → Chunks about patient = INTACT → still "biết người này"
       → Body-Coupling STILL ACTIVE → cortisol khi patient distressed
       → L2 (entity-compiled) connection = NGUYÊN VẸN
 
     Patient:
-      → SPM FAILING → F2 offline → F1 mờ
+      → Self-Pattern-Modeling FAILING → Fresh offline → Compiled mờ
       → Chunks about caregiver = MẤT DẦN → "ai đây?"
       → Body-Coupling DECOUPLING → không reciprocate
       → L2 reciprocation = MẤT
@@ -1633,8 +1633,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Kết quả = L1 DRAIN without L2 RECIPROCATION:
     → Caregiver FIRE empathy liên tục → KHÔNG nhận lại
     → Giống chăm con sơ sinh — nhưng sơ sinh TIẾN → Alzheimer THỤT LÙI
-    → Sơ sinh: SPM đang BUILD → có hy vọng → sustainable
-    → Alzheimer: SPM đang COLLAPSE → không hy vọng → UNSUSTAINABLE
+    → Sơ sinh: Self-Pattern-Modeling đang BUILD → có hy vọng → sustainable
+    → Alzheimer: Self-Pattern-Modeling đang COLLAPSE → không hy vọng → UNSUSTAINABLE
 
   ⭐ Connection.md: 3 conditions:
     MET (active engagement) = optimal
@@ -1664,7 +1664,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Kéo dài trung bình 5-8 NĂM
 
   Framework:
-    → Caregiver SPM vẫn RUN → but target KHÔNG RESPONSE
+    → Caregiver Self-Pattern-Modeling vẫn RUN → but target KHÔNG RESPONSE
     → Body-Coupling one-sided → L1 drain continuous
     → Grief = Chunk-Miss (Connection.md: mất connection = miss)
       NHƯNG: source VẪN PRESENT → brain KHÔNG process grief fully
@@ -2223,7 +2223,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Motor: chanting, hát thánh ca, ritual movements
 
   = MAXIMUM REDUNDANCY — không "công nghệ" nào khác cover NHIỀU systems cùng lúc
-  = Background Pattern link density CỰC CAO (Religion.md v2.4)
+  = Background-Pattern link density CỰC CAO (Religion.md v2.4)
 
 🟢 RESEARCH EVIDENCE:
   → Kaufman et al. 2007 (Neurology 68(18):1509-1514):
@@ -2665,19 +2665,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = 2 câu hỏi ĐỘC LẬP — framework VALID cho pattern
 ```
 
-### §17.4 — Background Pattern distribution
+### §17.4 — Background-Pattern distribution
 
 ```
 🟡 BACKGROUND PATTERN EXPOSED:
 
-  BP (Background-Pattern.md v1.0):
+  Background-Pattern (Background-Pattern.md v1.0):
     → High link density + neocortex-embedded → RESISTANT to Alzheimer
-    → BP = accumulated chunk bias invisible to PFC
-    → Khi overlay mất → BP LỘ RA
+    → Background-Pattern = accumulated chunk bias invisible to PFC
+    → Khi overlay mất → Background-Pattern LỘ RA
 
   "Personality changes" ở Alzheimer:
     → KHÔNG phải personality THAY ĐỔI — personality EXPOSED
-    → Recent overlay stripped → early-formed BP visible
+    → Recent overlay stripped → early-formed Background-Pattern visible
     → = Alzheimer reveals GENUINE underlying patterns
     → = Data cho: cái gì là "core" vs cái gì là "learned overlay"
 ```
@@ -2850,8 +2850,8 @@ TOTAL: ~75 academic citations (v1.0 had ~20)
    Observation from clinical data. Formalization as principle = 🟡.
 → Degradation order validates compilation model (§13.6)
    Clinical order 🟢. Mapping to compile parameters = 🟡.
-→ "Exposure through erosion" (Background Pattern revealed)
-   Clinical observation 🟢. BP framework mapping = 🟡.
+→ "Exposure through erosion" (Background-Pattern revealed)
+   Clinical observation 🟢. Background-Pattern framework mapping = 🟡.
 → Alzheimer = heterogeneous (nhiều bệnh dưới 1 tên)
    Research data 🟢. "Framework valid regardless of subtype" = 🟡.
 → Cognitive Reserve Paradox (delays but faster decline)
@@ -2901,7 +2901,7 @@ TOTAL: ~75 academic citations (v1.0 had ~20)
   Q2: Compile depth có phải UNIQUE predictor of degradation order?
       → Likely MULTIPLE FACTORS — compile depth = 1 valid predictor
 
-  Q3: F1 (feeling) tồn tại bao lâu hơn F2 (logic)?
+  Q3: Compiled (feeling) tồn tại bao lâu hơn Fresh (logic)?
       → Measurable via behavioral observation
 
   Q4: Music therapy CÓ SLOW disease progression?
@@ -2937,8 +2937,8 @@ TOTAL: ~75 academic citations (v1.0 had ~20)
 ```
   → Chunk.md v2.1 — chunk substrate, 4 compilation pathways, depth
      §5 uses: synapse loss → chunk degradation mechanism
-  → Self-Pattern-Match.md v3.0 — SPM, F1/F2, identity mechanism
-     §7 uses: SPM dissolution, identity fragmentation timeline
+  → Self-Pattern-Modeling.md v3.0 — Self-Pattern-Modeling, Compiled/Fresh, identity mechanism
+     §7 uses: Self-Pattern-Modeling dissolution, identity fragmentation timeline
   → Connection.md v4.0 — 3 generative primitives, L1/L2
      §9 uses: caregiver Body-Coupling, ambiguous loss framework
   → Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap, 4 axes

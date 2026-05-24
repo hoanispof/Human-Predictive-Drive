@@ -66,7 +66,7 @@ Framework TRÔNG giống game architecture — vì creator NGHĨ theo game archi
   Event-Driven System         ↔  Body-feedback loop (signal → chunk fire → feeling → action)
   Component Architecture      ↔  Chunk substrate + Body-Base + PFC
   Game Loop                   ↔  Interface Loop 6-step (01-Foundation.md)
-  NPC AI (behavior tree)      ↔  Self-Pattern-Match F1/F2 prediction functions
+  NPC AI (behavior tree)      ↔  Self-Pattern-Modeling Compiled/Fresh prediction functions
   Save / Load                 ↔  Anchor-Schema — sync point cho hệ thống
   Difficulty Curve            ↔  Melody-Arc — dissonance → compile → melody upgrade
   Player Profile              ↔  Personal-Melody — emergent state toàn bộ chunk network
@@ -195,9 +195,9 @@ Framework TRÔNG giống game architecture — vì creator NGHĨ theo game archi
     → "Hỏi linh tinh thập cẩm" TẠO insight MỚI — nhưng insight MỚI chưa chắc ĐÚNG
     → Framework RẤT CẦN academic verify — nếu có nhà nghiên cứu nào
       quan tâm xác nhận hoặc bác bỏ thì rất quý
-    → Bản thân việc "hỏi vì không chịu nổi" = Chunk-Gap detect (BFM §3.3):
+    → Bản thân việc "hỏi vì không chịu nổi" = Chunk-Gap detect (Body-Feedback-Mechanism §3.3):
       body detect "thiếu gì đó" → bứt rứt → drive hỏi → fill gap → opioid
-      → = "Hỏi xong sướng" = opioid reward khi gap filled
+      → = "Hỏi xong pleasant" = opioid reward khi gap filled
       → = Framework TỰ GIẢI THÍCH được tại sao creator hỏi linh tinh thập cẩm
 ```
 
@@ -333,7 +333,7 @@ PHASE 3 — Sprint (~1 tuần):
 
   Qua lens framework:
     → Somatic-Articulation-Loop: body biết trước, AI giúp tìm từ
-    → SPM F1 fire liên tục: "cái này khớp/không khớp" → accept/reject
+    → Self-Pattern-Modeling Compiled fire liên tục: "cái này khớp/không khớp" → accept/reject
     → Imagine-Final dần hình thành: "framework tổng thể" = reference pattern
 ```
 
@@ -431,7 +431,7 @@ Cả 2: HƯỚNG (body) + DATA (AI domain access) = insight có CẤU TRÚC
   Architecture parallel:
     → Chunk.md — chunk = sole substrate
     → Body-Feedback.md — unified body signal model
-    → Self-Pattern-Match.md — F1/F2 prediction functions
+    → Self-Pattern-Modeling.md — Compiled/Fresh prediction functions
     → Observation/ folder — "game stats" → observation labels
 
   Meta-Impact context:

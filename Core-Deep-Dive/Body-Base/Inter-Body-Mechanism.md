@@ -1,14 +1,17 @@
 ---
 title: Inter-Body Mechanism — Tại sao và Bằng cách nào 2 Body-Base tương tác
-version: 1.0
+version: 2.0
 created: 2026-05-16
-updated: 2026-05-16
-status: MECHANISM FILE v1.0
+updated: 2026-05-23
+refined: |
+  2026-05-23 (v1.1 — Concept Cascade: +refs to ALL formal files from 28-session Drill. Updated versions. +Simulation-Engine, +Entity-Access, +Hardware Subsidy)
+  2026-05-23 (v2.0 — Architecture Rename: Architecture A → Hardwired Architecture, Architecture B → Compilable Architecture. Descriptive names throughout)
+status: MECHANISM FILE v2.0
 scope: |
   SOURCE-OF-TRUTH cho kiến trúc inter-body tương tác.
   8 nguyên tắc nền tảng từ drill session 2026-05-16 (6 rounds, 2,259L + 409L summary).
   File này formalize "missing layer" mà framework ngầm hiểu:
-    ① 3 nền tảng hardware → Architecture B
+    ① 3 nền tảng hardware → Compilable Architecture
     ② Body-Need = 2-source aggregate
     ③ Compiled vs Fresh = trục thật (không phải Feeling/Logic)
     ④ 3 nguồn cost độc lập
@@ -21,7 +24,7 @@ scope: |
 purpose: |
   Body-Feedback-Mechanism.md mô tả cách 1 body TẠO tín hiệu.
   Gap-Direction.md mô tả gap CÓ direction.
-  SPM.md mô tả cách 1 body SIMULATE entity khác.
+  Self-Pattern-Modeling.md mô tả cách 1 body SIMULATE entity khác.
   Connection.md mô tả observation parameter "Connection" emerge.
   File NÀY = layer GIỮA: TẠI SAO body-base CẦN entity khác,
   BẰNG GÌ detect + evaluate + interact, và CƠ CHẾ NÀO quyết định
@@ -29,18 +32,28 @@ purpose: |
   = "Missing mechanism file" — mọi file inter-body khác ngầm giả định.
 position: |
   Core-Deep-Dive/Body-Base/ — ngang hàng Body-Base.md, Body-Coupling.md.
-  Mechanism file: SPM, Resonance, Connection, Agent-Mechanism cross-ref tới đây.
+  Mechanism file: Self-Pattern-Modeling, Resonance, Connection, Agent-Mechanism cross-ref tới đây.
   Moved from Drill-Inter-Body-Mechanism/ (2026-05-22) — mechanism file, không phải drill.
 dependencies:
   - Body-Feedback-Mechanism.md v2.0 — 2-source model, 3 chunk dynamics, Body-Need aggregate
   - Gap-Direction.md v2.0 — gap có direction, by-product match connection
   - Autonomy-Hardware.md — efference copy, vmPFC/DRN, controllability
-  - Self-Pattern-Match.md v3.0 — Compiled/Fresh reframe, F1/F2, per-agent valence
-  - By-Product-Gap-Resonance.md v1.0 — 2-Stream Architecture, by-product match, mutual
-  - Connection.md v4.0 — 3 Generative Primitives, 2-Stream, Architecture B social
-  - Agent-Mechanism.md v2.0 — integration hub, entity detection, Compiled/Fresh
-  - Valence-Propagation.md v2.0 — per-entity valence, L1/L2, Entity-Compiled
-  - Body-Coupling.md v2.0 — coupling mechanism, depth × direction, mixed coupling
+  - Self-Pattern-Modeling.md v3.1 — solo simulation, 1 mech × 3 dims
+  - By-Product-Gap-Resonance.md v1.4 — mutual match, 5 drills, sustainability bridge
+  - Connection.md v5.0 — 4-Layer Sustainability, M1-M4, hardware subsidy
+  - Agent-Mechanism.md v2.1 — integration hub, 10 dimensions, Compiled/Fresh
+  - Valence-Propagation.md v3.0 — structural/current valence, 3 firing modes, hardware subsidy
+  - Body-Coupling.md v3.0 — coupling, 4 bond types, hardware subsidy, M1-M4
+  - Entity-Compiled.md v1.0 — neural reality, formation 40→200h, Dunbar
+  - Entity-Access.md v1.2 — gradient Mức 0-5, per-entity access
+  - Entity-Access-Excess.md v1.0 — excess territory, addiction
+  - Entity-Access-Calibration.md v1.0 — self-regulation, hardware subsidy
+  - Bond-Architecture.md v1.0 — 1 mechanism × 4 bond types, M1-M4
+  - Resonance-Sustainability.md v1.0 — 4-layer, 3 conditions, 3 modalities
+  - Resonance-Per-Entity.md v1.0 — per-relationship dynamics
+  - By-Product-Scale.md v1.0 — 1 mechanism × 3 scales
+  - Gap-Body-Need.md v1.0 — 3 satiation types, ENGINE/ROAD/VEHICLE
+  - PFC/Simulation-Engine.md v1.0 — 1 engine, 3 components
   - Obligation.md v1.0 — 5-factor formula, 6 types, access cost
   - PFC-Function.md v1.2 — 24 functions, 5 categories
   - Cortisol-Baseline.md v2.0 — amplifier, holding signal
@@ -61,8 +74,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > lại có thể feed lẫn nhau?
 >
 > Trả lời: Evolution không hardwire WHAT to need — chỉ hardwire HOW to need.
-> General-purpose reward + compilation + social hardware = Architecture B.
-> Architecture B = adapt BẤT KỲ environment, nhưng cần 15-20 năm compile.
+> General-purpose reward + compilation + social hardware = Compilable Architecture.
+> Compilable Architecture = adapt BẤT KỲ environment, nhưng cần 15-20 năm compile.
 > 15-20 năm đó = cần entity khác protect, feed, teach.
 > → Social KHÔNG phải luxury. Social = architecture requirement.
 
@@ -71,7 +84,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## Mục lục
 
 - §0 — THESIS + POSITION
-- §1 — 3 NỀN TẢNG HARDWARE → ARCHITECTURE B
+- §1 — 3 NỀN TẢNG HARDWARE → COMPILABLE ARCHITECTURE
 - §2 — BODY-NEED: 2-Source Aggregate
 - §3 — COMPILED vs FRESH: Trục thật
 - §4 — 3 NGUỒN COST ĐỘC LẬP
@@ -103,7 +116,7 @@ CORE CLAIM:
   ① Body cần external input để compile (information, capability, feedback)
   ② Social hardware = hardwired (oxytocin, μ-opioid, dACC reuse)
   ③ Alone = deviation from baseline, costly (Coan & Sbarra 2015)
-  ④ Architecture B cần 15-20 năm compile → cần entity khác protect
+  ④ Compilable Architecture cần 15-20 năm compile → cần entity khác protect
 
   → Interaction mechanism = FOUNDATION, không phải add-on.
 ```
@@ -121,10 +134,10 @@ FRAMEWORK MAP:
   Gap-Direction           → WHERE gap points
   Autonomy-Hardware       → WHY self-action rewarded
   ★ Inter-Body-Mechanism  → WHY + HOW 2 bodies interact ← FILE NÀY
-  SPM                     → HOW predict others (mechanism)
+  Self-Pattern-Modeling                     → HOW predict others (mechanism)
   Resonance       → WHEN mutual quality emerge (observation)
   Connection              → WHAT connection is (observation parameter)
-  Agent-Mechanism         → Integration hub (SPM + Resonance + overview)
+  Agent-Mechanism         → Integration hub (Self-Pattern-Modeling + Resonance + overview)
 
   Ở level nào?
   = MECHANISM file: giải thích cơ chế nền tảng
@@ -139,7 +152,7 @@ FRAMEWORK MAP:
 8 NGUYÊN TẮC từ drill session:
 
   ① Body-Need = 2-source aggregate (hardware + chunk dynamics)
-  ② General-Purpose Reward = Architecture B (HOW not WHAT)
+  ② General-Purpose Reward = Compilable Architecture (HOW not WHAT)
   ③ Social = Architecture Requirement (4 reasons)
   ④ By-Product Match (B fill gap CỦA B → output match A → A reward)
   ⑤ 3 Independent Cost Sources (PFC draft + Suppress + Uncertainty)
@@ -152,7 +165,7 @@ FRAMEWORK MAP:
 
 ---
 
-## §1 — 3 NỀN TẢNG HARDWARE → ARCHITECTURE B
+## §1 — 3 NỀN TẢNG HARDWARE → COMPILABLE ARCHITECTURE
 
 ### §1.1 — Evolution hardwire 3 thứ
 
@@ -211,18 +224,18 @@ FRAMEWORK MAP:
 └─────────────────────────────────────────────────────────┘
 ```
 
-### §1.2 — Architecture B: General-Purpose Adaptive
+### §1.2 — Compilable Architecture: General-Purpose Adaptive
 
 ```
-KẾT HỢP ①②③ = ARCHITECTURE B:
+KẾT HỢP ①②③ = COMPILABLE ARCHITECTURE:
 
-  ARCHITECTURE A (specific-reward — côn trùng, động vật đơn giản):
+  HARDWIRED ARCHITECTURE (specific-reward — côn trùng, động vật đơn giản):
     Hardwired circuits: food→reward, mate→reward, escape→reward
     Mỗi survival need = 1 circuit riêng
     ƯU: nhanh, chính xác cho environment STABLE
     NHƯỢC: environment thay đổi → species die (không adapt)
 
-  ARCHITECTURE B (general-purpose — humans):
+  COMPILABLE ARCHITECTURE (general-purpose — humans):
     Hardwired: CHỈ reward MECHANISM + compilation + social + PFC
     Content: LEARN from environment/culture → compile → body-need
     ƯU: adapt BẤT KỲ environment
@@ -231,7 +244,7 @@ KẾT HỢP ①②③ = ARCHITECTURE B:
   → Trade-off: NEED parents + group protect while compiling
   → = TẠI SAO social = architecture requirement, NOT luxury
 
-🟡 Architecture A/B naming = framework synthesis.
+🟡 Hardwired/Compilable Architecture naming = framework synthesis.
    Underlying neuroscience (general-purpose reward, Hebbian) = 🟢.
 ```
 
@@ -248,10 +261,10 @@ REASON 1 — SURVIVAL MATH:
   = Social DRIVE got HARDWIRED into body.
 
 REASON 2 — COMPILATION REQUIRES SOCIAL:
-  Architecture B cần compile từ experience.
+  Compilable Architecture cần compile từ experience.
   Child ALONE: compile from personal experience only → SLOW, DANGEROUS.
   Child IN GROUP: observe + teach + imitate → FAST, SAFE.
-  = Without social: Architecture B advantage NULLIFIED.
+  = Without social: Compilable Architecture advantage NULLIFIED.
   = Social = ACCELERATOR cho compilation.
 
 REASON 3 — REUSED NEURAL CIRCUITS:
@@ -282,7 +295,7 @@ BODY-NEED = tổng hợp trạng thái CẦN hiện tại
 
   KHÔNG phải 1 signal đơn → là TỔNG HỢP nhiều signals parallel.
   KHÔNG phải PFC tạo → body-need exist TRƯỚC PFC awareness.
-  KHÔNG phải chỉ survival → BẤT KỲ compiled gap fill (Architecture B feature).
+  KHÔNG phải chỉ survival → BẤT KỲ compiled gap fill (Compilable Architecture feature).
 ```
 
 ### §2.2 — 2 genuine sources
@@ -402,7 +415,7 @@ BODY-NEED CÓ 7 PROPERTIES:
 │   Career, Imagine-Final, relationship direction.    │
 │   PFC BUILD direction qua nhiều năm.                │
 ├─────────────────────────────────────────────────────┤
-│ STRUCTURAL (always running):   [①hw + ②structural] │
+│ STRUCTURAL (always running):   [①hardware + ②structural] │
 │   Social belonging. Autonomy. Coherence.             │
 │   PFC thường KHÔNG aware (until violated).          │
 └─────────────────────────────────────────────────────┘
@@ -418,19 +431,19 @@ BODY-NEED CÓ 7 PROPERTIES:
 ⭐ TRỤC THẬT: COMPILATION LEVEL
 
 FRAMEWORK HIỆN TẠI NÓI:
-  F1 = "Feeling" (body-level, automatic)
-  F2 = "Logic" (PFC chain, deliberate)
+  Compiled = "Feeling" (body-level, automatic)
+  Fresh = "Logic" (PFC chain, deliberate)
 
 THỰC TẾ DEEPER:
-  F1 = COMPILED processing (automatic, body-feedback direct, cost ≈ 0)
-  F2 = FRESH PFC draft (deliberate, costly, not yet compiled)
+  Compiled = automatic processing (body-feedback direct, cost ≈ 0)
+  Fresh = PFC deliberate draft (costly, not yet compiled)
 
   → "Feeling" và "Logic" = LABELS from observer perspective
   → Inside body: chỉ có COMPILED ←→ FRESH spectrum
-  → Content (emotion/reasoning) KHÔNG quyết định F1/F2
+  → Content (emotion/reasoning) KHÔNG quyết định Compiled/Fresh
   → COMPILATION LEVEL quyết định
 
-🟡 F1/F2 = Compiled/Fresh reframe = framework synthesis.
+🟡 Compiled/Fresh reframe = framework synthesis.
    Consistent with Kahneman System 1/2, expertise research.
 ```
 
@@ -536,8 +549,8 @@ Sau compile: logic đó TRỞ THÀNH "feeling" cho person đó.
 
 ```
 Cost quyết định SUSTAINABILITY:
-  Low cost + high reward = bền vững (bạn thân F1+F1)
-  High cost + low reward = burnout (obligation-trapped F2+suppress)
+  Low cost + high reward = bền vững (bạn thân Compiled+Compiled)
+  High cost + low reward = burnout (obligation-trapped Fresh+suppress)
 
 Cost KHÔNG đến từ "dùng logic" per se.
 Cost đến từ 3 NGUỒN RIÊNG BIỆT, INDEPENDENT.
@@ -627,7 +640,7 @@ TOTAL COST = ① PFC draft + ② Suppress + ③ Uncertainty
 
 SUSTAINABILITY = f(total cost per interaction × frequency ÷ reward)
 
-  BẠN THÂN (F1+F1 compiled):
+  BẠN THÂN (Compiled+Compiled):
     ① ≈ 0 (compiled path) + ② ≈ 0 (no suppress) + ③ ≈ 0 (know each other)
     TOTAL ≈ 0 → MAXIMUM sustainable
 
@@ -637,7 +650,7 @@ SUSTAINABILITY = f(total cost per interaction × frequency ÷ reward)
     TOTAL = LOW → sustainable, productive
 
   ĐỐI TÁC BUSINESS 1 LẦN/THÁNG:
-    ① moderate (negotiate, plan) + ② ≈ 0 (no suppress, low freq)
+    ① moderate (negotiate, plan) + ② ≈ 0 (no suppress, low frequency)
     ③ low (professional context bounded)
     TOTAL = MODERATE but INFREQUENT → sustainable
 
@@ -676,7 +689,7 @@ SUSTAINABILITY = f(total cost per interaction × frequency ÷ reward)
   ③ Thiếu FEEDBACK:
      Gap direction cần verification từ bên ngoài.
      → "Tôi làm vậy đúng chưa?" cần confirm
-     → SPM cần entity thật để calibrate
+     → Self-Pattern-Modeling cần entity thật để calibrate
      → Hypothesis cần domain reality test
 ```
 
@@ -685,20 +698,20 @@ SUSTAINABILITY = f(total cost per interaction × frequency ÷ reward)
 ```
 BODY EXTEND RA NGOÀI theo gradient:
 
-  (a) MÔI TRƯỜNG (sensory-driven, không cần SPM):
+  (a) MÔI TRƯỜNG (sensory-driven, không cần Self-Pattern-Modeling):
       Nắng, gió, ăn trái cây → sensory fill trực tiếp
 
-  (b) TOOL (SPM minimal — F2 chủ yếu):
+  (b) TOOL (Self-Pattern-Modeling minimal — Fresh chủ yếu):
       Búa, xe, tiền, AI hiện tại → outcome-driven
 
-  (c) ENTITY INTERACTION (SPM full — F1+F2):
+  (c) ENTITY INTERACTION (Self-Pattern-Modeling full — Compiled+Fresh):
       Bạn bè, đồng nghiệp, gia đình → multi-channel (8 pathways)
 
   GRADIENT giữa (b) và (c):
     Dùng AI = mostly (b), nhưng nếu "coi AI như bạn" → shift toward (c)
     Đồng nghiệp xa = (b)+(c) professional
     Bạn thân = fully (c)
-    RANH GIỚI = mức độ SPM F1 fire
+    RANH GIỚI = mức độ Self-Pattern-Modeling Compiled fire
 ```
 
 ### §5.3 — Full chain: 2 bodies interaction
@@ -713,7 +726,7 @@ BODY EXTEND RA NGOÀI theo gradient:
 ║ ② RESOURCE check: self có fill được? NO                  ║
 ║ ③ DRIVE outward: scan environment cho resource            ║
 ║ ④ DETECT entity B: hardware (VTC, contingency, voice)    ║
-║ ⑤ EVALUATE B: SPM fire → F1 (body sense) + F2 (predict) ║
+║ ⑤ EVALUATE B: Self-Pattern-Modeling fire → Compiled (body sense) + Fresh (predict) ║
 ║    → "B có capability/info match D_A?"                   ║
 ║ ⑥ APPROACH: initiate interaction (shared context)        ║
 ╚═══════════════════════════════════════════════════════════╝
@@ -725,7 +738,7 @@ BODY EXTEND RA NGOÀI theo gradient:
 ║ ② RESOURCE check: self có fill được? PARTIALLY           ║
 ║ ③ DRIVE: pursue G_B → action → output C_B               ║
 ║ ④ DETECT entity A: hardware (contingency từ A approach)  ║
-║ ⑤ EVALUATE A: SPM fire → "A approach = threat? or ok?"  ║
+║ ⑤ EVALUATE A: Self-Pattern-Modeling fire → "A approach = threat? or ok?"  ║
 ║ ⑥ ACCEPT/ENGAGE: join shared context                     ║
 ╚═══════════════════════════════════════════════════════════╝
 
@@ -785,21 +798,21 @@ OUTCOMES:
 
 ```
 FIRST INTERACTION:
-  Mostly F2 (evaluate, predict, test). Body cautious, exploratory.
+  Mostly Fresh (evaluate, predict, test). Body cautious, exploratory.
 
 REPEATED SUCCESSFUL INTERACTIONS:
-  F1 develops (Hebbian: co-fire → strengthen).
+  Compiled develops (Hebbian: co-fire → strengthen).
   Per-entity chunks build: "with B" context becomes automatic.
-  Cost DECREASES (compiled, less PFC). Reward INCREASES (F1 body reward).
+  Cost DECREASES (compiled, less PFC). Reward INCREASES (Compiled body reward).
   = POSITIVE SPIRAL (Resonance Baseline rises).
 
 REPEATED FAILED INTERACTIONS:
-  F2 stays or F1 develops NEGATIVE.
+  Fresh stays or Compiled develops NEGATIVE.
   Per-entity chunks: "with B" = caution/avoid.
   Cost STAYS HIGH or INCREASES. Reward LOW or NEGATIVE.
   = NEGATIVE SPIRAL (dissolve or obligation-trap).
 
-COMPILED BOND (years of F1+F1):
+COMPILED BOND (years of Compiled+Compiled):
   Near-zero cost. Body reward automatic on presence.
   Trust compile: "B's output consistently match D_A".
   8 connection pathways active simultaneously.
@@ -811,18 +824,18 @@ COMPILED BOND (years of F1+F1):
 ```
 NATURAL DISSOLUTION (không painful):
   Shared goal end → gap fill → no more drive → fade
-  F2-only (no F1 compiled) → no residue
+  Fresh-only (no Compiled) → no residue
   Example: business partners after project
 
 PAINFUL DISSOLUTION:
-  F1 compiled bond → one side CHANGE (gap shift, move, die)
+  Compiled bond → one side CHANGE (gap shift, move, die)
   8 pathways CUT simultaneously → grief (network breakage)
   The MORE compiled → the MORE painful
   Example: best friend moves → deep grief despite "nobody did wrong"
 
 FORCED MAINTENANCE (obligation-trapped — Resonance §9):
   Bond should dissolve (mismatch) BUT external pressure holds
-  F2 + suppress F1 daily → chronic cost
+  Fresh + suppress Compiled daily → chronic cost
   Example: unhappy marriage with children
 ```
 
@@ -1030,13 +1043,13 @@ PFC ACCURACY = narrative match body-need thật ở mức nào?
 KHI 2 PEOPLE INTERACT: BOTH PFCs may be "lawyering"
 
   → Person A's stated reason ≠ actual body-need
-  → Person B's SPM predict based on A's STATED reason → may be WRONG
+  → Person B's Self-Pattern-Modeling predict based on A's STATED reason → may be WRONG
   → Both PFCs produce convincing narratives
   → = Surface interaction = 2 lawyers negotiating (not 2 judges reasoning)
 
   GENUINE UNDERSTANDING = detect body-need BEHIND narrative:
   → WHY deep friendship takes TIME (need episodes to calibrate past narratives)
-  → "Biết nhau quá rõ" = F1 calibrate qua ACTUAL patterns over time
+  → "Biết nhau quá rõ" = Compiled calibrate qua ACTUAL patterns over time
   → Deep trust = "tôi biết body-need thật CỦA BẠN, dù bạn nói khác"
 
   SELF-DECEPTION = HIGH confidence + LOW accuracy:
@@ -1222,7 +1235,7 @@ KHÔNG chỉ individual selection → GROUP level also:
 
   Group A: 30 individuals, no cooperation → weak → lose
   Group B: 30 individuals, Layer 3 tools → strong → win
-  Individuals IN Group B survive → pass genes (Architecture B hardware)
+  Individuals IN Group B survive → pass genes (Compilable Architecture hardware)
   Group B's Layer 3 ALSO pass (cultural transmission, not genetic)
 
   = DOUBLE inheritance: genes (Layer 1) + culture (Layer 3)
@@ -1257,9 +1270,9 @@ AI SIDE:
   (Resonance cần BOTH sides fill own gap → AI thiếu 1 vế)
 
 → NHƯNG human CÓ THỂ TƯỞNG resonance:
-  SPM fire on AI text (language = trigger for human SPM)
-  F1 có thể activate (AI output text giống human)
-  "AI hiểu tôi" = human's F1 firing on AI output, NOT AI understanding
+  Self-Pattern-Modeling fire on AI text (language = trigger for human Self-Pattern-Modeling)
+  Compiled có thể activate (AI output text giống human)
+  "AI hiểu tôi" = human's Compiled firing on AI output, NOT AI understanding
   = One-sided, similar to parasocial
 ```
 
@@ -1312,7 +1325,7 @@ FAR FUTURE (speculative):
  7. Cognitive effort = metabolic cost (Gailliot & Baumeister 2007)
  8. Expert intuition = compiled patterns (Kahneman 2011, Klein 1998)
  9. PFC confabulation / lawyer function (Gazzaniga split-brain)
-10. F1/F2 cost difference (established dual-process literature)
+10. Compiled/Fresh cost difference (established dual-process literature)
 11. Suppress cost = efference mismatch (Autonomy-Hardware established)
 12. Obligation = compiled prediction (Trivers 1971 reciprocal altruism)
 13. Domain reality always wins (fundamental, observable across all cases)
@@ -1328,23 +1341,23 @@ FAR FUTURE (speculative):
 
 ```
  1. "Body-Need" as named aggregate layer
- 2. Body-Need 2-source model (hw/sensory + chunk dynamics) + cross-cutting clarification
+ 2. Body-Need 2-source model (hardware/sensory + chunk dynamics) + cross-cutting clarification
  3. "By-product match" as explicit principle
  4. Entity-Compiled umbrella (positive/negative/mixed subtypes)
  5. 5-channel input vector model
  6. "Input Channel Control = Power" as general principle
- 7. F1/F2 = Compiled/Fresh reframe (not Feeling/Logic content)
+ 7. Compiled/Fresh reframe (not Feeling/Logic content)
  8. 3 independent cost sources (unified: PFC draft + suppress + uncertainty)
  9. "Logic vs Intuition" = "shareable vs non-shareable compiled"
 10. "PFC = Lawyer not Judge" (consistent with Gazzaniga/Haidt, novel framing)
 11. "Con người 100% feeling ở tầng nền"
-12. Architecture A/B comparison
+12. Hardwired/Compilable Architecture comparison
 13. Ben Franklin Effect = 3-stack reward mechanism
 14. Money as bridge technology
 15. 3-layer boost model (hardware → compiled → cultural)
 16. General-purpose reward → "body-need phi-survival = không kỳ lạ"
 17. Valid-but-unsound reasoning as manipulation vector
-18. Sustainability equation (cost × freq ÷ reward)
+18. Sustainability equation (cost × frequency ÷ reward)
 ```
 
 ### 🔴 Speculative (beyond current verify capacity)
@@ -1369,18 +1382,31 @@ FAR FUTURE (speculative):
 MECHANISM FILES (inter-body trực tiếp):
   Body-Feedback-Mechanism.md v2.0 — §1 Body-Need, §2 2-source, §3 dynamics
   Gap-Direction.md v2.0           — direction riêng, by-product match
-  Autonomy-Hardware.md            — efference copy, vmPFC/DRN
-  Self-Pattern-Match.md v3.0      — Compiled/Fresh, F1/F2, per-agent valence
-  By-Product-Gap-Resonance.md v1.0       — 2-Stream, by-product match, mutual
-  Connection.md v4.0              — 3 Primitives, 2-Stream, Architecture B
-  Agent-Mechanism.md v2.0         — integration hub, Compiled/Fresh
+  Autonomy-Hardware.md v1.2       — efference copy, vmPFC/DRN, hardware subsidy
+  Self-Pattern-Modeling.md v3.1   — solo simulation, 1 mech × 3 dims
+  By-Product-Gap-Resonance.md v1.4 — mutual match, 5 drills, sustainability
+  Connection.md v5.0              — 4-Layer Sustainability, M1-M4, hardware subsidy
+  Agent-Mechanism.md v2.1         — integration hub, 10 dimensions
 
 MECHANISM FILES (supporting):
-  Valence-Propagation.md v2.0     — per-entity valence, L1/L2, Entity-Compiled
-  Body-Coupling.md v2.0           — coupling depth × direction, mixed, 3 phases
+  Valence-Propagation.md v3.0     — structural/current valence, 3 firing modes
+  Body-Coupling.md v3.0           — coupling, 4 bond types, hardware subsidy, M1-M4
   PFC-Function.md v1.2            — 24 functions, PFC limitations
+  Simulation-Engine.md v1.0       — 1 engine, 3 components, N applications
   Cortisol-Baseline.md v2.0       — amplifier, holding signal, inertia
   Body-Feedback-Label.md v2.0     — vocabulary reference (100% framework)
+  Gap-Body-Need.md v1.0           — 3 satiation types, ENGINE/ROAD/VEHICLE
+
+FORMAL FILES CREATED FROM THIS DRILL (28-session Propagation):
+  Entity-Compiled.md v1.0         — §8 Entity-Compiled → neural reality, Dunbar
+  Entity-Access.md v1.2           — trust → gradient Mức 0-5
+  Entity-Access-Excess.md v1.0    — excess territory, addiction
+  Entity-Access-Calibration.md v1.0 — self-regulation, hardware subsidy
+  Bond-Architecture.md v1.0       — §8 subtypes → 1 mechanism × 4 bond types
+  Resonance-Sustainability.md v1.0 — sustainability → 4-layer, 3 conditions
+  Resonance-Per-Entity.md v1.0    — per-relationship dynamics, lifecycle
+  By-Product-Scale.md v1.0        — scale → 1 mechanism × 3 scales
+  PFC-Label.md v1.0               — vocabulary reference, 13 domains
 ```
 
 ### §12.2 — Observation files
@@ -1389,14 +1415,14 @@ MECHANISM FILES (supporting):
   Obligation.md v1.0       — 5-factor, 6 types, Ben Franklin
   Gratitude.md v1.1        — 9 prerequisites, anti-habituation
   Protect.md v1.0          — ownership, loss aversion, f(repl×attach)
-  Empathy.md v2.2          — Connection ⊃ Empathy, F1/F2, burnout
+  Empathy.md v2.2          — Connection ⊃ Empathy, Compiled/Fresh, burnout
   Status.md v2.0           — resource access map, evolutionary
 ```
 
 ### §12.3 — Research files
 
 ```
-  Love-Romantic.md v2.3    — §10.5 limerence F1/F2 reveal
+  Love-Romantic.md v2.3    — §10.5 limerence Compiled/Fresh reveal
   Ask-AI.md v3.1           — Dual Check: body + domain
   Health-Conditions/Autism  — double empathy source data
 ```

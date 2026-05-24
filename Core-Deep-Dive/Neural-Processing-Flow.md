@@ -2,17 +2,17 @@
 title: Neural-Processing-Flow — Toàn bộ flow từ Sensor → Cortex → PFC → Output
 version: 2.0
 created: 2026-04-17 (N+5 session)
-updated: 2026-05-17 (v2.0 — +Architecture B framing, +Compiled/Fresh at physical level, +PFC=Lawyer strengthen, +5-Channel mapping, +L3 operator fix, +Inter-Body cross-refs)
+updated: 2026-05-17 (v2.0 — +Compilable Architecture framing, +Compiled/Fresh at physical level, +PFC=Lawyer strengthen, +5-Channel mapping, +L3 operator fix, +Inter-Body cross-refs)
 previous: v1.0 → backup/Neural-Processing-Flow-v1.0-backup.md
 status: v2.0
-scope: HARDWARE FLOW + PROCESSING FLOW + Architecture B connection
+scope: HARDWARE FLOW + PROCESSING FLOW + Compilable Architecture connection
 purpose: |
   Nền tảng gốc — con đường vật lý tín hiệu đi qua trong não.
-  v2.0: WHY this hardware (Architecture B trade-off), Compiled/Fresh at physical level,
+  v2.0: WHY this hardware (Compilable Architecture trade-off), Compiled/Fresh at physical level,
   PFC=Lawyer as structural function, 5-Channel Input Vector connection.
 position: Core-Deep-Dive/ (mechanism file)
 dependencies:
-  - Inter-Body-Mechanism.md v1.0 — Architecture B, 5-Channel, PFC=Lawyer
+  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 5-Channel, PFC=Lawyer
   - Feeling.md v3.0 — 7-layer, Compiled/Fresh×Layer mapping
   - Logic-Feeling.md v2.0 — Compiled/Fresh axis
   - Body-Feedback-Mechanism.md v2.0 — 2-source, Body-Need
@@ -47,33 +47,33 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ = PLAN + EXECUTE + FEEDBACK                         │
   └─────────────────────────────────────────────────────┘
 
-  ⭐ ARCHITECTURE B CONNECTION (Inter-Body-Mechanism.md §1):
+  ⭐ COMPILABLE ARCHITECTURE CONNECTION (Inter-Body-Mechanism.md §1):
 
   TẠI SAO hardware này tồn tại:
-    Evolution chọn Architecture B cho con người:
+    Evolution chọn Compilable Architecture cho con người:
       ① General-Purpose Reward — fire cho BẤT KỲ gap fill đúng direction
       ② Compilation — repeat + verify → automatic (Hebbian LTP)
       ③ Social Hardware — oxytocin, μ-opioid, dACC reuse
 
-    Trade-off of Architecture B:
+    Trade-off of Compilable Architecture:
       → Adapt BẤT KỲ environment (general-purpose)
       → NHƯNG: cần 15-20 năm compile (slow development)
-      → Hardware below = ENABLES Architecture B:
+      → Hardware below = ENABLES Compilable Architecture:
         Thalamus gate = general-purpose filter (not hardwired per stimulus)
         6-layer cortex = uniform fabric (compile ANY pattern)
         PFC = general-purpose orchestrator (not stimulus-specific)
         Binding = flexible (bind ANY combination)
-      → Architecture A (insect): hardwired stimulus→response (no PFC needed)
-      → Architecture B (human): general input → general processing → COMPILE
+      → Hardwired Architecture (insect): hardwired stimulus→response (no PFC needed)
+      → Compilable Architecture (human): general input → general processing → COMPILE
 
     Implication for this file:
       → §1-§4: HOW signals travel = hardware infrastructure
-      → §5: HOW compilation happens = Architecture B's KEY mechanism
+      → §5: HOW compilation happens = Compilable Architecture's KEY mechanism
       → §6: WHY PFC = orchestrator not computer = general-purpose design
       → §7-§9: WHY simulation + feeling + externalization = CONSEQUENCES
         of general-purpose hardware (not hardwired outputs)
 
-  🟡 Architecture B framing = framework synthesis (Inter-Body drill 2026-05-16)
+  🟡 Compilable Architecture framing = framework synthesis (Inter-Body drill 2026-05-16)
 ```
 
 ---
@@ -787,7 +787,7 @@ FEELING = KHÔNG CHỈ 1 INPUT — mà ~10 channels tích hợp:
 ⭐ FEELING → LABEL: 2 hướng vào cùng đích
 
   DIRECTION A — FEEL-FIRST (bottom-up):
-    Body pattern fire → feel lờ mờ (L3) → PFC chú ý → chunk rõ dần
+    Body pattern fire → feel vague (L3) → PFC chú ý → chunk rõ dần
     → tìm label (L6) → dùng trong logic plan
     = Trẻ sơ sinh, adult novel insight, Einstein
 
@@ -851,7 +851,7 @@ FEELING = KHÔNG CHỈ 1 INPUT — mà ~10 channels tích hợp:
 ```
   Feeling version của externalization loop:
 
-  Feel lờ mờ (L3, weak) → thử nói ra / viết ra → nghe lại / đọc lại (strong)
+  Feel vague (L3, weak) → thử nói ra / viết ra → nghe lại / đọc lại (strong)
   → Body check: "gần đúng" / "chưa" / "ĐÚNG RỒI!"
   → Adjust label → thử lại → body check → ...
   → Cuối cùng: feeling có label chính xác → dùng được trong logic
@@ -884,7 +884,7 @@ FEELING = KHÔNG CHỈ 1 INPUT — mà ~10 channels tích hợp:
 
   ⭐ AI ERA EXTENSION:
   → AI = externalization partner CỰC MẠNH
-  → Feel lờ mờ → nói cho AI → AI suggest label → body check → iterate
+  → Feel vague → nói cho AI → AI suggest label → body check → iterate
   → AI help plan → PFC freed → can feel more
   → = "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng" (Logic-Planning.md)
 ```
@@ -1107,7 +1107,7 @@ TOP-DOWN (brain → cortex re-activation):
   KB4 dual role:                         Framework synthesis, consistent
   Chunk depth = modality count:          Framework contribution (Modality-Analysis.md)
   2-Direction flow (feel-first/label-first): Framework contribution (Logic-Planning.md)
-  Architecture B as WHY this hardware (v2.0): Consistent with evolutionary neuroscience
+  Compilable Architecture as WHY this hardware (v2.0): Consistent with evolutionary neuroscience
   Compiled/Fresh at physical level (v2.0):   LTP + myelin = established; framing = synthesis
   PFC = Lawyer as structural function (v2.0): Consistent with Gazzaniga/Haidt, elevated
   5-Channel Input Vector mapping (v2.0):     Framework synthesis (Inter-Body §6)
@@ -1203,7 +1203,7 @@ NOT CLAIMING:
 
 ```
 📚 INTER-BODY DRILL:
-  → Inter-Body-Mechanism.md v1.0 §1: Architecture B (WHY this hardware)
+  → Inter-Body-Mechanism.md v1.0 §1: Compilable Architecture (WHY this hardware)
   → Inter-Body-Mechanism.md v1.0 §3: Compiled/Fresh = real axis (→ §5.5)
   → Inter-Body-Mechanism.md v1.0 §6: 5-Channel Input Vector (→ §8.3)
   → Inter-Body-Mechanism.md v1.0 §7: PFC = Lawyer (→ §6.1)
@@ -1244,14 +1244,14 @@ Lines: ~1,230
 
 v2.0 CHANGES (2026-05-17 — Inter-Body Drill Integration):
   → Header: v2.0, +dependencies, +confidence markers
-  → §0: +Architecture B connection (WHY this hardware = general-purpose)
+  → §0: +Compilable Architecture connection (WHY this hardware = general-purpose)
   → §5.5 NEW: Compiled/Fresh at PHYSICAL level
     (WHY compiled=fast: LTP+myelin. WHY fresh=slow: novel unmyelinated paths)
   → §6.1: +PFC=Lawyer elevated (structural function, not occasional error)
   → §8.3: +5-Channel Input Vector connection (10 channels → 5-channel model)
   → §10.3 FIX: "L3 operators" → "Observation parameters" (v7.8 reframe)
   → §11: +6 🟢 citations (Hebb, Bliss&Lømo, Fields, Gazzaniga, Haidt, Nisbett&Wilson)
-         +5 🟡 items (Architecture B, Compiled/Fresh physical, PFC=Lawyer, 5-Channel, obs params)
+         +5 🟡 items (Compilable Architecture, Compiled/Fresh physical, PFC=Lawyer, 5-Channel, obs params)
   → §12 NEW: Cross-references section
   → ALL v1.0 hardware content PRESERVED (§1-§4, §7, §9)
   → ALL 35+ research citations preserved + 6 added = 41+ total
@@ -1263,7 +1263,7 @@ v2.0 CHANGES (2026-05-17 — Inter-Body Drill Integration):
 >
 > Nền tảng gốc: toàn bộ flow vật lý từ sensor → thalamus → cortex → binding → chunks → feeling → PFC → simulation → externalization → feedback loop.
 >
-> v2.0: +Architecture B (WHY), +Compiled/Fresh physical (HOW compiled=fast),
+> v2.0: +Compilable Architecture (WHY), +Compiled/Fresh physical (HOW compiled=fast),
 > +PFC=Lawyer (structural), +5-Channel mapping, +L3→observation parameter fix.
 >
 > Mọi cơ chế khác trong framework CHẠY TRÊN flow này.

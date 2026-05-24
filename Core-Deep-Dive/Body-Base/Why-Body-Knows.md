@@ -1,11 +1,12 @@
 ---
 title: Why Body Knows — Tại Sao Cơ Thể "Biết"
-version: 1.1
+version: 1.2
 created: 2026-03-25
-rewritten: 2026-05-17 (v1.0 — FULL REWRITE from DRAFT. Architecture B, Compiled/Fresh, Dual Check, 3-Layer reconcile)
+rewritten: 2026-05-17 (v1.0 — FULL REWRITE from DRAFT. Compilable Architecture, Compiled/Fresh, Dual Check, 3-Layer reconcile)
 refined: 2026-05-17 (v1.1 — §3 MAJOR REWRITE: 4-tầng → 2-tầng + 2 đường. Recursive compile. Passive social compile. Culture/AI = input sources, not tiers)
-previous: v1.0 → backup/Why-Body-Knows-v1.0-backup.md
-status: META-FOUNDATION v1.1
+refined: 2026-05-23 (v1.2 — Concept Cascade: +Simulation-Engine, +Entity-Access, +Hardware Subsidy. Updated versions + cross-refs)
+previous: v1.1 (inline — additive changes only)
+status: META-FOUNDATION v1.2
 scope: |
   META FILE: "Tại sao framework HOẠT ĐỘNG?"
   Trả lời 3 câu hỏi MỌI NGƯỜI đặt ra sau khi hiểu framework:
@@ -21,7 +22,7 @@ scope: |
     + Culture = tên gọi cho 2a passive + 2b, KHÔNG PHẢI tầng riêng
     + AI = newest input source cho 2b (not separate tier)
   v1.0 KEY CHANGES (preserved):
-    + Architecture B: WHY general-purpose reward NEEDS calibration
+    + Compilable Architecture: WHY general-purpose reward NEEDS calibration
     + Compiled/Fresh: "body biết" = chunks compiled fire automatic
     + Vòng Tròn formalized: Domain → Body → Behavior → Domain (loop)
     + Dual Check (Ask-AI v3.1): body=QC (~90%), domain=final arbiter
@@ -42,11 +43,11 @@ position: |
   Body-Base.md §7 → points here for detail.
   Ask-AI.md §6.1 → references calibration from this file.
 dependencies:
-  - Body-Base.md v3.1 — §6 3-Layer Evolution, §7 calibration summary, §8 Circuit Breaker
-  - Inter-Body-Mechanism.md v1.0 — Architecture B, 3-Layer, Social=Requirement
+  - Body-Base.md v3.2 — §6 3-Layer Evolution, §7 calibration summary, §8 Circuit Breaker
+  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 3-Layer, Social=Requirement
   - Body-Feedback-Mechanism.md v2.0 — 2-source, chunk dynamics, Body-Need
-  - Reward-Signal-Architecture.md v2.0 — Type A/B, A₀→A₃ complexity gradient
-  - Self-Pattern-Match.md v3.0 — Compiled/Fresh axis, per-domain
+  - Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, E₀→E₃ complexity gradient
+  - Self-Pattern-Modeling.md v3.1 — solo simulation, Compiled/Fresh axis, per-domain
   - Logic-Feeling.md v2.1 — Compiled/Fresh primary axis, Shareable/Non-shareable
   - Ask-AI.md v3.1 — Dual Check §6.1 (body=QC, domain=arbiter)
   - Feeling.md v3.0 — PFC observation interface, PFC=Lawyer
@@ -73,7 +74,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Follow body = follow domain đã dạy. Đúng ~90%+.
 > Sai ở cái quá mới — khi domain ĐỔI nhanh hơn body UPDATE.
 >
-> Architecture B (general-purpose reward) = body CAN learn ANYTHING.
+> Compilable Architecture (general-purpose reward) = body CAN learn ANYTHING.
 > Nhưng "anything" = NO pre-wired content → NEEDS calibration.
 > 2 cơ chế calibration = HOW body BECOMES trustworthy.
 >
@@ -99,7 +100,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §4 — COMPILED/FRESH: "BIẾT" = COMPILED
 - §5 — VÒNG TRÒN: DOMAIN DẠY BODY
 - §6 — KHI BODY SAI + DUAL CHECK
-- §7 — ARCHITECTURE B CONNECTION
+- §7 — COMPILABLE ARCHITECTURE CONNECTION
 - §8 — HONEST ASSESSMENT
 - §9 — CROSS-REFERENCES
 
@@ -132,22 +133,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = CẦN external check (domain reality = final arbiter)
 
 
-⭐ ARCHITECTURE B GIẢI THÍCH TẠI SAO CẦN CALIBRATION:
+⭐ COMPILABLE ARCHITECTURE GIẢI THÍCH TẠI SAO CẦN CALIBRATION:
 
-  (Inter-Body-Mechanism.md §1 — Architecture B)
+  (Inter-Body-Mechanism.md §1 — Compilable Architecture)
 
-  Architecture A (côn trùng): hardwire WHAT to need → fast, no calibration needed
+  Hardwired Architecture (côn trùng): hardwire WHAT to need → fast, no calibration needed
     → Ngọt = eat. Pain = flee. Mate = approach. Done.
     → KHÔNG CẦN calibration — everything pre-wired.
 
-  Architecture B (người): hardwire HOW to need → adapt anything, but...
+  Compilable Architecture (người): hardwire HOW to need → adapt anything, but...
     → Body CAN reward ANYTHING (general-purpose) → incredible flexibility
     → NHƯNG: "anything" = NO pre-wired content → PHẢI LEARN gì reward
     → = PHẢI CALIBRATE: domain phải DẠY body "reward CÁI GÌ?"
     → = 2 cơ chế = HOW domain dạy body (evolution + compilation suốt đời)
     → = Trade-off: 15-20 năm calibration period = vulnerable
 
-  → File này = answer to: "WHY trust Architecture B's output?"
+  → File này = answer to: "WHY trust Compilable Architecture's output?"
   → Answer: "Because domain feedback HAS calibrated it — qua evolution VÀ suốt đời compilation."
 
 
@@ -163,7 +164,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   BÊN TRONG: cùng cơ chế. BÊN NGOÀI: "gu", "trực giác", "cảm nhận."
   = COMPILED chunks fire body-direct = tất cả những gì gọi là "body biết."
 
-🟡 Architecture B → calibration argument = framework meta-synthesis.
+🟡 Compilable Architecture → calibration argument = framework meta-synthesis.
 🟢 Both mechanisms individually established (Darwinian selection, Hebbian learning).
 ```
 
@@ -185,21 +186,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   = NHƯNG: nếu "cái đã biết" SAI → "khớp" CŨNG SAI (§6 failure modes)
 
 
-⭐ REWARD SIGNAL ARCHITECTURE — TYPE A (Evaluative):
+⭐ REWARD SIGNAL ARCHITECTURE — EVALUATIVE REWARD:
 
-  (Reward-Signal-Architecture.md v2.0 — Type A/B + A₀→A₃)
+  (Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State + E₀→E₃)
 
-  Type A = EVALUATIVE reward (opioid system):
+  Evaluative Reward (opioid system):
     Body ĐÁNH GIÁ pattern → coherent + match → opioid → reward signal.
 
-  A₀ — Simple sensory: ngọt, ấm, êm → trực tiếp, pre-chunk
-  A₁ — Pattern-based: nhạc hay, hiểu bài toán, joke → chunk coherence
-  A₂ — Complex social: được hiểu, SPM match → multi-chunk evaluation
-  A₃ — Meta: meaning, purpose, identity coherence → deepest compilation
+  E₀ — Simple sensory: ngọt, ấm, êm → trực tiếp, pre-chunk
+  E₁ — Pattern-based: nhạc hay, hiểu bài toán, joke → chunk coherence
+  E₂ — Complex social: được hiểu, Self-Pattern-Modeling match → multi-chunk evaluation
+  E₃ — Meta: meaning, purpose, identity coherence → deepest compilation
 
-  "Body biết nhạc hay" = Type A₁ (pattern coherence evaluation).
-  "Body biết bạn thân hiểu mình" = Type A₂ (social chunk matching).
-  "Body biết cuộc sống có nghĩa" = Type A₃ (meta-schema coherence).
+  "Body biết nhạc hay" = E₁ (pattern coherence evaluation).
+  "Body biết bạn thân hiểu mình" = E₂ (social chunk matching).
+  "Body biết cuộc sống có nghĩa" = E₃ (meta-schema coherence).
   → CÙNG mechanism (coherence evaluation) → KHÁC complexity level.
 
 
@@ -251,7 +252,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Nisbett & Wilson 1977: people cannot accurately report WHY they prefer
 
 🟢 Coherence evaluation mechanism: consistent with Predictive Processing (Clark 2013)
-🟢 Type A evaluative reward: consistent with opioid research (Berridge 2003)
+🟢 Evaluative Reward: consistent with opioid research (Berridge 2003)
 🟡 "Body checks coherence, not truth" = framework synthesis
 🟡 Full mechanism (VTA + coherence + H10 + Compiled/Fresh) = framework integration
 ```
@@ -306,7 +307,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   VỪA QUEN VỪA LẠ + COHERENT → "HAY!":
     Prediction-delta fire (P3) + coherence pass + Goldilocks (P4) = ALL conditions met
-    → opioid → "HAY!" = Type A₁ reward fire
+    → opioid → "HAY!" = E₁ reward fire
     🟢 Berlyne 1960: optimal novelty = max hedonic value (inverted-U)
     🟢 North & Hargreaves 1995: inverted-U musical preference × familiarity
 
@@ -346,12 +347,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     (Feeling.md v3.0 §2: magnitude × clarity)
 
 
-⭐ ARCHITECTURE B GIẢI THÍCH TẠI SAO NHẠC REWARD:
+⭐ COMPILABLE ARCHITECTURE GIẢI THÍCH TẠI SAO NHẠC REWARD:
 
-  Architecture A (côn trùng): CHỈ reward survival-relevant (food, mate, safety)
+  Hardwired Architecture (côn trùng): CHỈ reward survival-relevant (food, mate, safety)
   → Nhạc = irrelevant → KHÔNG CÓ music reward.
 
-  Architecture B (người): reward BẤT KỲ coherent pattern fill gap direction.
+  Compilable Architecture (người): reward BẤT KỲ coherent pattern fill gap direction.
   → Nhạc = coherent auditory patterns → body CAN reward → music pleasure EXISTS.
   → = Music reward = PROOF of general-purpose reward system.
   → = Không phải "evolution select cho nhạc" — mà "evolution select cho COHERENCE
@@ -369,7 +370,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟢 Berridge 2003: wanting (dopamine) ≠ liking (opioid)
 🟢 Schultz 1997: VTA prediction error = attention signal
 🟡 Full music mechanism (prediction-delta + coherence + H10) = framework integration
-🟡 Architecture B → music reward exists = logical consequence
+🟡 Compilable Architecture → music reward exists = logical consequence
 ```
 
 ---
@@ -1051,21 +1052,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §7 — ARCHITECTURE B CONNECTION
+## §7 — COMPILABLE ARCHITECTURE CONNECTION
 
 ```
-⭐ ARCHITECTURE B = META-EXPLANATION — TẠI SAO TOÀN BỘ HỆ THỐNG NÀY TỒN TẠI:
+⭐ COMPILABLE ARCHITECTURE = META-EXPLANATION — TẠI SAO TOÀN BỘ HỆ THỐNG NÀY TỒN TẠI:
 
-  (Inter-Body-Mechanism.md §1 — 3 foundations → Architecture B)
+  (Inter-Body-Mechanism.md §1 — 3 foundations → Compilable Architecture)
 
-  ARCHITECTURE A (côn trùng, động vật đơn giản):
+  HARDWIRED ARCHITECTURE (côn trùng, động vật đơn giản):
     Hardwire WHAT to need: food circuit, mate circuit, escape circuit
     → NHANH, chính xác cho environment STABLE
     → KHÔNG CẦN "body learns" — everything pre-wired
     → KHÔNG CẦN calibration — already calibrated by evolution
     → NHƯỢC: environment thay đổi → species die (không adapt)
 
-  ARCHITECTURE B (con người):
+  COMPILABLE ARCHITECTURE (con người):
     Hardwire CHỈ reward MECHANISM + compilation + social hardware
     Content: LEARN from environment/culture → compile → body-need
     → ADAPT bất kỳ environment (general-purpose)
@@ -1073,18 +1074,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = MUST BE CALIBRATED by domain (2 cơ chế: evolution + compilation)
     → = 15-20 năm compile → cần entities khác protect (social = requirement)
 
-  → Architecture B = TẠI SAO body CAN "biết" ANYTHING:
-    Body biết nhạc hay = Architecture B cho phép (general-purpose reward)
-    Body biết toán = Architecture B cho phép (same mechanism, different domain)
-    Body biết người = Architecture B cho phép (same mechanism, social domain)
+  → Compilable Architecture = TẠI SAO body CAN "biết" ANYTHING:
+    Body biết nhạc hay = Compilable Architecture cho phép (general-purpose reward)
+    Body biết toán = Compilable Architecture cho phép (same mechanism, different domain)
+    Body biết người = Compilable Architecture cho phép (same mechanism, social domain)
     → CÙNG reward mechanism → KHÁC domain → TẤT CẢ đều = coherence evaluation
 
-  → Architecture B = TẠI SAO body CẦN CALIBRATION:
+  → Compilable Architecture = TẠI SAO body CẦN CALIBRATION:
     Không hardwire content → phải LEARN → learn = BE TAUGHT by domain
     → 2 cơ chế (§3) = HOW domain teaches body over time
     → = Body trustworthy BECAUSE OF calibration, not DESPITE needing it
 
-  → Architecture B = TẠI SAO VULNERABILITY:
+  → Compilable Architecture = TẠI SAO VULNERABILITY:
     15-20 năm compile = VULNERABLE (dependent on others)
     Chunks nền sai possible (bad calibration input)
     Evolution lag possible (hardware not updated)
@@ -1103,9 +1104,36 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → = "GPS biết đường VÌ vệ tinh đã calibrate" — file này giải thích VỆ TINH
   → = Answer to last question anyone asks after understanding framework
 
-🟡 Architecture A/B framing = framework synthesis (Inter-Body §1)
+🟡 Hardwired/Compilable Architecture framing = framework synthesis (Inter-Body §1)
 🟢 General-purpose reward system: VTA/dopamine established (Schultz 1997)
 🟢 Hebbian compilation: established neuroscience
+```
+
+### §7.1 — × New Concepts (28-session Drill Propagation)
+
+```
+SIMULATION ENGINE × CALIBRATION (Simulation-Engine.md v1.0):
+  → Simulation Engine = PFC's calibration TOOL:
+    PFC simulate outcome → body compare against domain feedback
+    Match → calibration CONFIRMED → "body biết"
+    Mismatch → calibration FAILED → need adjustment
+  → §3 (2-tầng): Tầng 2 Hebbian = Simulation Engine running + body evaluating
+  → §5 (Vòng Tròn): Simulation Engine DRIVES the loop
+    (Domain → Body → Simulation-Engine draft → Action → Domain feedback → Body learn)
+
+ENTITY-ACCESS × CALIBRATION (Entity-Access.md v1.2):
+  → Calibration = PER-ENTITY phenomenon:
+    Body calibrate SEPARATELY for each entity along Mức 0-5
+    Mức 5 (self): deepest calibration (most body feedback data)
+    Mức 0 (stranger): shallowest (few data points → rely on compiled patterns)
+  → §6 (Khi Body Sai): calibration ERROR varies by entity level
+    Mức 5 error = rare but devastating (self-deception)
+    Mức 1 error = common but low cost (stereotype, first impression wrong)
+  → Hardware Subsidy: body INVESTS MORE calibration resource per Mức level
+    → = TẠI SAO calibration for family > calibration for stranger
+
+🟡 Simulation Engine × calibration = framework formalization
+🟡 Entity-Access × calibration = framework application (per-entity calibration depth)
 ```
 
 ---
@@ -1141,14 +1169,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟡 "2-tầng + 2 đường" as deeper reframe of 4-tầng — framework synthesis (v1.1)
     🟡 "Body đúng 90%, sai 10%" — estimate, not precisely measurable
     🟡 "Vòng tròn spiral" (domain→body→behavior→domain) — logical structure
-    🟡 Architecture B → calibration → trust argument — meta-synthesis
+    🟡 Compilable Architecture → calibration → trust argument — meta-synthesis
     🟡 "Body biết = compiled" — consistent with expertise research
     🟡 "Shareable vs non-shareable compiled" — framework distinction
     🟡 3-Layer × 2-Tầng reconciliation — framework alignment (v1.1)
     🟡 PFC=Lawyer in coherence domain — applied from Inter-Body §7
     🟡 Dual Check (body + domain) — framework protocol
     🟡 Circuit Breaker self-correction — framework synthesis (Body-Base §8)
-    🟡 Music = Architecture B consequence — logical derivation
+    🟡 Music = Compilable Architecture consequence — logical derivation
     🟡 2a Domain Contact (active + passive) — 2 variants unified (v1.1)
     🟡 2b Trust-Injected as external install pathway — Chunk.md §2.3 (v1.1)
     🟡 Passive social compile (giọng, norms, gu) = 2a variant (v1.1)
@@ -1161,7 +1189,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     🔴 "90%" number — not measurable precisely, estimated from calibration argument
     🔴 Goldilocks zone 40-70% — range approximate, varies per individual
-    🔴 Type A₁ coherence boundary — where "coherent enough" starts = fuzzy
+    🔴 E₁ coherence boundary — where "coherent enough" starts = fuzzy
     🔴 AI amplification quantification — conceptual, not measured
     🔴 2a/2b boundary precision — where exactly passive absorption ↔ trust-injection?
     🔴 Recursive compile rate — how much do existing chunks accelerate? not quantified
@@ -1177,17 +1205,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   CORE MECHANISM FILES:
-    → Body-Base.md v3.1 — §6 3-Layer Evolution, §7 calibration summary,
+    → Body-Base.md v3.2 — §6 3-Layer Evolution, §7 calibration summary,
       §8 Circuit Breaker. File này = deep version of §7.
-    → Inter-Body-Mechanism.md v1.0 — Architecture B (§1), 3-Layer (§9),
+    → Inter-Body-Mechanism.md v1.1 — Compilable Architecture (§1), 3-Layer (§9),
       Compiled/Fresh (§3), PFC=Lawyer (§7), Social=Requirement (§1.3)
     → Body-Feedback-Mechanism.md v2.0 — 2-source, chunk dynamics, compound
-    → Reward-Signal-Architecture.md v2.0 — Type A/B, A₀→A₃ gradient
-    → Self-Pattern-Match.md v3.0 — Compiled/Fresh, per-domain, PFC=Lawyer
+    → Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, E₀→E₃ gradient
+    → Self-Pattern-Modeling.md v3.1 — solo simulation, Compiled/Fresh, per-domain
     → Logic-Feeling.md v2.1 — Compiled/Fresh primary axis, §1 spectrum
     → Body-Feedback-Label.md v2.0 — vocabulary reference
-    → Chunk.md v2.2 — §2.3 5 external install mechanisms (2b pathway)
+    → Chunk.md v2.3 — §2.3 5 external install mechanisms (2b pathway)
     → Gap-Direction.md v2.0 — "chưa biết = không có gap" (recursive compile)
+    → Simulation-Engine.md v1.0 — PFC simulation = calibration tool
+    → Entity-Access.md v1.2 — trust = gradient Mức 0-5, calibration per-entity
+    → Entity-Access-Calibration.md v1.0 — self-regulation, hardware subsidy
 
   OBSERVATION + APPLICATION FILES:
     → Feeling.md v3.0 — PFC observation interface, §2 magnitude × clarity
@@ -1217,14 +1248,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Backup: backup/Why-Body-Knows-DRAFT-backup.md
 
   v1.0 — 2026-05-17 (958L, FULL REWRITE from DRAFT):
-    → §0: +Architecture B meta-connection (WHY calibration needed)
-    → §1: +Type A₀→A₃ gradient, +Compiled/Fresh, +PFC=Lawyer in coherence
-    → §2: Music KEEP 90% + terminology fix + Architecture B framing
+    → §0: +Compilable Architecture meta-connection (WHY calibration needed)
+    → §1: +E₀→E₃ gradient, +Compiled/Fresh, +PFC=Lawyer in coherence
+    → §2: Music KEEP 90% + terminology fix + Compilable Architecture framing
     → §3: 4-tầng + 3-Layer reconciliation + Social accelerator
     → §4 NEW: Compiled/Fresh = "biết" (Shareable/Non-shareable)
     → §5 NEW: Vòng Tròn formalized (spiral, not circular)
     → §6: 3 failure modes + PFC=Lawyer + Dual Check + Circuit Breaker
-    → §7 NEW: Architecture B connection (meta-explanation)
+    → §7 NEW: Compilable Architecture connection (meta-explanation)
     → ALL citations preserved + 8 new added (19 total 🟢)
     → Backup: backup/Why-Body-Knows-v1.0-backup.md
 

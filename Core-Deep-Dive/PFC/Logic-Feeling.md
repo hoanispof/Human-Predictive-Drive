@@ -35,7 +35,7 @@
 >   - Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh axis, Shareable/Non-shareable
 >   - Feeling.md v3.0 §2.5 — Compiled/Fresh × 7-Layer mapping
 >   - Body-Feedback-Mechanism.md v2.0 — 2-source, Body-Need, chunk dynamics
->   - Reward-Signal-Architecture.md v2.0 — Type A/B, development trajectory
+>   - Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, development trajectory
 >   - Body-Feedback-Label.md v2.0 — vocabulary reference
 >   - Gap-Direction.md v2.0 — gap has direction
 >   - Ask-AI.md v3.1 — Dual Check (body=QC, domain=arbiter)
@@ -95,7 +95,7 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
     Inter-Body-Mechanism.md §3 drill (2026-05-16):
       → Phát hiện: Feeling/Logic = observer perspective labels
       → Bên trong body: CHỈ CÓ compiled ←→ fresh spectrum
-      → Content (emotion/reasoning) KHÔNG quyết định F1/F2
+      → Content (emotion/reasoning) KHÔNG quyết định Compiled/Fresh
       → COMPILATION LEVEL quyết định
 
   VỊ TRÍ:
@@ -116,8 +116,8 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
 ## §1 — COMPILED/FRESH: TRỤC THẬT
 
 > **Source:** Inter-Body-Mechanism.md §3 (drilled + verified 2026-05-16).
-> Framework trước v2.0 nói: "F1 = Feeling, F2 = Logic."
-> Drill reveals: "F1 = COMPILED, F2 = FRESH. Content irrelevant."
+> Framework trước v2.0 nói: "Compiled = Feeling, Fresh = Logic."
+> Drill reveals: "Compiled = automatic processing, Fresh = PFC deliberate draft. Content irrelevant."
 
 ### 1.1 — Spectrum Definition
 
@@ -365,20 +365,20 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
 🟡 "Shareable vs non-shareable" as organizing principle = framework synthesis.
 ```
 
-### 1.5 — Development Trajectory (Type B → Type A compiles)
+### 1.5 — Development Trajectory (Direct-State → Evaluative compiles)
 
 ```
-⭐ LIFECYCLE: Compiled/Fresh × Type A/B (RSA v2.0 §8.1):
+⭐ LIFECYCLE: Compiled/Fresh × Evaluative/Direct-State (Reward-Signal-Architecture v2.0 §8.1):
 
-  STAGE 1 — Infant (0-18 months): Type B dominant, few chunks
+  STAGE 1 — Infant (0-18 months): Direct-State dominant, few chunks
     → Nearly pure "feeling" (hardware body-feedback)
-    → Type A barely active (nothing compiled yet to evaluate WITH)
+    → Evaluative barely active (nothing compiled yet to evaluate WITH)
     → FRESH processing minimal (PFC immature)
     → = "Pure body-direct experience"
 
   STAGE 2 — Child (2-7 years): Compilation begins
     → Chunks accumulate rapidly (language, patterns, routines)
-    → Type A grows: "thích/không thích" based on compiled evaluations
+    → Evaluative grows: "thích/không thích" based on compiled evaluations
     → Some patterns become COMPILED → start "feeling automatic"
     → "Logic" label begins: "2+3=5" = compiled + shareable = "logic"
 
@@ -402,7 +402,7 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
     → Neither is "better" — APPROPRIATE depends on compilation state
     → Expert who "feels" answers = NOT lazy, = MAXIMALLY COMPILED
 
-  Cross-ref: RSA v2.0 §8.1 (A/B ratio across development)
+  Cross-ref: Reward-Signal-Architecture v2.0 §8.1 (A/B ratio across development)
 ```
 
 ### 1.6 — Implication: "100% Feeling at Base Level"
@@ -1070,7 +1070,7 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
   CONNECTION:
     → Feeling.md v3.0 §8.3 (1A vs 1B: domain-checked vs self-referencing)
     → Inter-Body §6.4 (domain reality timeline: childhood schemas = 10-30 years)
-    → RSA v2.0 §8.1 (domain verify mechanism)
+    → Reward-Signal-Architecture v2.0 §8.1 (domain verify mechanism)
 
 🟡 Overprotected child as 1B trap case = framework synthesis.
    Consistent with attachment theory, social anxiety literature.
@@ -1423,7 +1423,7 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
 📚 REWARD & BODY-FEEDBACK:
 
   Reward-Signal-Architecture.md v2.0 §8.1 — Development trajectory (B→A)
-    → §1.5: Type B dominant → Type A compiles
+    → §1.5: Direct-State dominant → Evaluative compiles
   Body-Feedback-Mechanism.md v2.0 — 2-source, Body-Need aggregate
   Body-Feedback-Label.md v2.0 — Vocabulary reference
   Gap-Direction.md v2.0 — Gap has direction (why compiled body can be "wrong direction")
@@ -1500,7 +1500,7 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
   ⚠ PFC = Lawyer for BOTH tracks — consistent with research, generalized
   ⚠ Domain = Final Arbiter (stronger than "logic verify") — logical principle
   ⚠ 3-cost model as structural limit on fresh processing — individually grounded
-  ⚠ Development trajectory (B→A→compiled=feels-like-B) — consistent with RSA
+  ⚠ Development trajectory (B→A→compiled=feels-like-B) — consistent with Reward-Signal-Architecture
   ⚠ 1B trap (overprotected child) — consistent with attachment theory
   ⚠ "100% feeling at base level" — logical consequence of architecture
   ⚠ Parallel processing + mix ratios spectrum — plausible, not yet measured
@@ -1594,7 +1594,7 @@ STILL OPEN:
 
   BODY-FEEDBACK:
     → Body-Feedback-Mechanism.md v2.0 (2-source, Body-Need)
-    → Reward-Signal-Architecture.md v2.0 (Type A/B, development)
+    → Reward-Signal-Architecture.md v2.0 (Evaluative/Direct-State, development)
     → Body-Feedback-Label.md v2.0 (vocabulary)
     → Gap-Direction.md v2.0 (direction, by-product match)
     → Ask-AI.md v3.1 (Dual Check)

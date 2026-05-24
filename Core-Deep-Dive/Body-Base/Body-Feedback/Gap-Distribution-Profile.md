@@ -46,7 +46,7 @@ dependencies:
     - Chunk.md v2.0 — sole substrate, compile, 4 Tiers
   pfc-agent:
     - PFC-Operations.md v1.0 — Pattern Shiftability, PFC Budget, Compiled Quality, B vs C Determinant, Compiled Suppress pathways
-    - Inter-Body-Mechanism.md v1.0 — Architecture B, by-product match, 3-cost, 5-Channel
+    - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, by-product match, 3-cost, 5-Channel
     - By-Product-Gap-Resonance.md v1.4 — 2-Stream, by-product match, Resonance Baseline
     - Background-Pattern.md v2.0 — 2D model Depth×Density, self-reinforcing loop, Triple Bias, §15 resolution
     - Self-Pattern-Modeling.md v3.1 — 1 mechanism × 3 dimensions, Triple Bias
@@ -59,7 +59,7 @@ dependencies:
   collective-application:
     - Collective-Body.md v2.0 — Model 3 Cấp, §2 short compile + trust, §2.5 detect collective gap, §3 where long chains live
     - Collective-Arc-Dynamics.md v1.0 — 3 nguồn constraint, body không phân biệt, dependency ratio
-    - Collective-Schema-Pressure.md v1.0 — compound effect, Type C install, Asian pattern
+    - Collective-Schema-Pressure.md v1.0 — compound effect, Trust Compile install, Asian pattern
     - Self-Created-Threat.md v1.0 — 4 loại, 5 mechanisms lock, PFC-to-body
     - Expansion-Saturation-Crisis.md v1.1 — Expansion→Discovery shift
     - Domain-Mapping-Drive.md v1.0 — reward from PROCESS, "given"=bypass
@@ -178,7 +178,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ⑤ Chain-to-body-base chưa rõ → chain length × spectrum (§2.2)
     ⑥ PFC Budget chưa tích hợp → shift cost constraint (§6.5)
     ⑦ Compiled Quality chưa liên kết → origin quality tag (§3.2)
-    ⑧ Pattern Shiftability chưa chính xác → BP quadrants × stability (§3.4)
+    ⑧ Pattern Shiftability chưa chính xác → Background-Pattern quadrants × stability (§3.4)
 
 
   TIỀN ĐỀ ĐỌC (đọc TRƯỚC file này để hiểu đầy đủ):
@@ -220,14 +220,14 @@ SCOPE OUT:
 ⭐ GAP-DIRECTION.MD MÔ TẢ 1 GAP. FILE NÀY MÔ TẢ TOÀN BỘ GAP LANDSCAPE.
 
   Gap-Direction.md v2.0 established:
-    → Gap = hole in chunk network (BFM §3.3)
+    → Gap = hole in chunk network (Body-Feedback-Mechanism §3.3)
     → Gap Direction = specific shape = f(surrounding chunks)
     → 4 properties: Direction, Specificity, Depth, Range
     → "Chưa biết = không có gap" = foundational principle
     → All gaps = chunk pattern direction (unified Tier 1-4)
 
   File này ADD:
-    → Mỗi người có NHIỀU gaps đang active ĐỒNG THỜI (BFM §1.4 ②)
+    → Mỗi người có NHIỀU gaps đang active ĐỒNG THỜI (Body-Feedback-Mechanism §1.4 ②)
     → Những gaps này CLUSTER ở vùng nào trên spectrum?
     → Cluster pattern = GAP DISTRIBUTION PROFILE
     → = PER-PERSON AGGREGATE property
@@ -290,7 +290,7 @@ SCOPE OUT:
 ```
 🟡 KẾT NỐI VỚI BODY-FEEDBACK-MECHANISM.MD:
 
-  BFM §1: Body-Need = aggregate của TẤT CẢ signals đang đòi body đáp ứng.
+  Body-Feedback-Mechanism §1: Body-Need = aggregate của TẤT CẢ signals đang đòi body đáp ứng.
 
   Gap Distribution Profile = MÔ TẢ body-need TỪ GÓC NHÌN gap landscape:
     → Body-need = output. Gap distribution = input pattern.
@@ -309,19 +309,19 @@ SCOPE OUT:
 ### §1.4 — 5-Parameter per-gap × Aggregate distribution
 
 ```
-⭐ GAP-BODY-NEED.MD §6: MỖI GAP CÓ 5 PARAMETERS — GDP = DISTRIBUTION CỦA 5P:
+⭐ GAP-BODY-NEED.MD §6: MỖI GAP CÓ 5 PARAMETERS — Gap-Distribution-Profile = DISTRIBUTION CỦA 5P:
 
   Gap-Body-Need.md v1.0 established 5-Parameter per-gap model:
     P1 — HARDWARE SOURCE: sensor/hormone/coherence nào?
     P2 — SATIATION PROFILE: Cyclic / Tonic / Generative?
-    P3 — REWARD COMPOSITION: RSA Type A (evaluative) : Type B (direct-state) ratio?
+    P3 — REWARD COMPOSITION: Evaluative : Direct-State ratio?
     P4 — CHAIN TO BODY-BASE: fill trực tiếp (chain=0) hay qua nhiều bước?
     P5 — COLLECTIVE DEPENDENCY: infrastructure cần bao nhiêu?
 
-  GDP = AGGREGATE VIEW TRÊN 5 PARAMETERS:
+  Gap-Distribution-Profile = AGGREGATE VIEW TRÊN 5 PARAMETERS:
 
     ┌──────────────┬────────────────────────────────────────────────┐
-    │ Parameter    │ GDP aggregate view                             │
+    │ Parameter    │ Gap-Distribution-Profile aggregate view                             │
     ├──────────────┼────────────────────────────────────────────────┤
     │ P1 Hardware  │ Gaps CỦA người này cluster ở sensory nào?     │
     │              │ → §2.4 Body-domain tail shape = P1 variation   │
@@ -329,7 +329,7 @@ SCOPE OUT:
     │ P2 Satiation │ Proportion Cyclic:Tonic:Generative?            │
     │              │ → §2.5 Satiation profile per-domain position   │
     ├──────────────┼────────────────────────────────────────────────┤
-    │ P3 Reward    │ Proportion Type A (evaluation) : Type B        │
+    │ P3 Reward    │ Proportion Evaluative : Direct-State        │
     │ Composition  │ (direct-state)? High A = expert. High B = base │
     ├──────────────┼────────────────────────────────────────────────┤
     │ P4 Chain     │ Average chain length? Short (body-domain) or   │
@@ -346,10 +346,10 @@ SCOPE OUT:
     Sensory gap: P4=0 (direct fill) + P5=low (genes pre-install)
     Abstract gap: P4 CÓ THỂ = 0 (Pathway 1 coherence → opioid TRỰC TIẾP)
                   + P5=HIGH (centuries domain knowledge needed)
-    = "Einstein sướng KHI giải, TRƯỚC KHI ai biết" = P4=0 + P5=max
+    = "Einstein pleasant KHI giải, TRƯỚC KHI ai biết" = P4=0 + P5=max
     = 2 parameters ĐỘC LẬP: P4=chain from fill→reward, P5=infrastructure for gap to exist
 
-  → GDP KHÔNG CHỈ "gaps cluster ở đâu" (Trục ①)
+  → Gap-Distribution-Profile KHÔNG CHỈ "gaps cluster ở đâu" (Trục ①)
   → Mà "gaps CÓ PROFILE GÌ" (P1-P5 per-gap → aggregate per-person)
   → File này focus Trục ①-④. Per-gap parameters xem Gap-Body-Need.md.
 
@@ -421,8 +421,8 @@ SCOPE OUT:
     → Resolve inconsistency → cortisol drop → opioid
     → Body-base state THẬT SỰ improve
     → = Applies to ALL points on spectrum
-    → Sensory: ăn đúng ý → coherence → sướng
-    → Abstract: giải bài xong → coherence → sướng
+    → Sensory: ăn đúng ý → coherence → pleasant
+    → Abstract: giải bài xong → coherence → pleasant
     → = CÙNG mechanism
 
   CON ĐƯỜNG 2 — GIÁN TIẾP (external outcome):
@@ -455,12 +455,12 @@ SCOPE OUT:
 
     ⚠️ ABSTRACT P4=0 = COUNTERINTUITIVE:
       → "Xa body-base" KHÔNG có nghĩa "chain dài"
-      → Einstein sướng KHI GIẢI (P4=0, Pathway 1 direct)
+      → Einstein pleasant KHI GIẢI (P4=0, Pathway 1 direct)
       → Einstein cần centuries physics (P5=max, infrastructure)
       → P4 (how fast reward arrives) ≠ P5 (how much infrastructure needed)
       → = "Starving artist" = P4=0 (reward trực tiếp) + P5=high (need training)
 
-    ⭐ CHAIN COMPILATION (GBN §8):
+    ⭐ CHAIN COMPILATION (Gap-Body-Need §8):
       → Baby: chain=0 for everything (mẹ fill directly)
       → Child: learn chain links (study → knowledge)
       → Teen: compile domain chains (subject → career → livelihood)
@@ -479,7 +479,7 @@ SCOPE OUT:
 🟡 2 con đường = established (Gap-Direction §10.3)
 🟡 Chain compilation over development = Gap-Body-Need v1.0 §8
 🟢 Coherence reward = ACC resolve → opioid (Bush, Luu, Posner 2000)
-🟢 Architecture B: general-purpose reward (Inter-Body §1) = applies to ALL domains
+🟢 Compilable Architecture: general-purpose reward (Inter-Body §1) = applies to ALL domains
 ```
 
 ### §2.3 — KHÔNG phải hierarchy — KHÔNG phải "cao hơn" hay "tốt hơn"
@@ -493,7 +493,7 @@ SCOPE OUT:
   Tại sao KHÔNG prescribe:
     ① Mọi điểm đều serve body-base (§2.2)
     ② Body-domain people contribute collective qua by-product match
-       (Collective-Body §3: công nhân sản phẩm → GDP → infrastructure)
+       (Collective-Body §3: công nhân sản phẩm → Gap-Distribution-Profile → infrastructure)
     ③ Abstract-domain people CẦN body-domain infrastructure để survive
        (Einstein VẪN cần ăn — ai nấu cho ông?)
     ④ Diversity = population feature → collective resilient hơn
@@ -545,7 +545,7 @@ SCOPE OUT:
         Visual: aesthetic sensitivity varies
       → = Genes wire CÙNG 17 receptor categories cho mọi người
         NHƯNG sensitivity/density KHÁC → reward magnitude KHÁC per channel
-      → (BFM §2.2: Sensory-Driven — 17 receptor categories)
+      → (Body-Feedback-Mechanism §2.2: Sensory-Driven — 17 receptor categories)
 
     TIER 2 COMPILED (childhood — chậm đổi):
       → Early experience amplify/diminish Tier 1 tendencies:
@@ -685,13 +685,13 @@ SCOPE OUT:
       → Risk: body-domain neglect (Pathway 1 override)
 
     COMPOUND (most people = MIX):
-      → Tonic + Generative phổ biến nhất trong relationships (GBN §3.2)
+      → Tonic + Generative phổ biến nhất trong relationships (Gap-Body-Need §3.2)
       → Ongoing presence (tonic) + novelty (generative)
       → "Chán nhau" after years = generative habituates, only tonic remains
       → "Gặp thì ổn nhưng không exciting" = tonic-only residual
 
-🟡 Satiation Type × domain = Gap-Body-Need v1.0 §2-§3 mapped to GDP spectrum
-🟡 Compound tonic+generative in relationships = GBN §3.2
+🟡 Satiation Type × domain = Gap-Body-Need v1.0 §2-§3 mapped to Gap-Distribution-Profile spectrum
+🟡 Compound tonic+generative in relationships = Gap-Body-Need §3.2
 🟢 Weber-Fechner logarithmic habituation: established psychophysics
 🟢 Cyclic satiation via hormonal signals (leptin/ghrelin): established endocrinology
 ```
@@ -809,13 +809,13 @@ SCOPE OUT:
 
   2 CỰC:
 
-    COLLECTIVE-INSTALLED (Type C trust install):
+    COLLECTIVE-INSTALLED (Trust Compile install):
       → "Phải có nhà trước 30" → gap "chưa có nhà = thiếu"
       → "Mọi người dùng iPhone" → gap "chưa có iPhone = thiếu"
       → = Collective install qua: bố mẹ, trường, MXH, norms
-      → Body KHÔNG BIẾT đây là installed (CAD §2)
+      → Body KHÔNG BIẾT đây là installed (Collective-Arc-Dynamics §2)
 
-    SELF-DISCOVERED (Type A direct experience):
+    SELF-DISCOVERED (Evaluative direct experience):
       → Tự thử code → thấy Goldilocks → gap "muốn code giỏi hơn"
       → Tự nghe jazz → body reward → gap "muốn nghe thêm"
       → = Formed từ OWN experience + domain feedback
@@ -870,7 +870,7 @@ SCOPE OUT:
 
   ⭐ COMPILED QUALITY × ORIGIN (PFC-Operations §5):
 
-    PFC-Ops §5 established: chunks compile với QUALITY TAG khác nhau
+    PFC-Operations §5 established: chunks compile với QUALITY TAG khác nhau
     tùy body state TẠI THỜI ĐIỂM compile. Tag LOCK IN vĩnh viễn:
 
     ┌──────────────────┬──────────────┬──────────────────────────────┐
@@ -878,12 +878,12 @@ SCOPE OUT:
     │                  │ Quality Tag  │                              │
     ├──────────────────┼──────────────┼──────────────────────────────┤
     │ SELF-DISCOVERED  │ GENUINE      │ APPROACH (opioid): "thích"   │
-    │ (Type A direct)  │ (APPROACH)   │ Fill gap → compound growth   │
+    │ (Evaluative direct)  │ (APPROACH)   │ Fill gap → compound growth   │
     │                  │              │ Self-reinforcing, sustainable │
     ├──────────────────┼──────────────┼──────────────────────────────┤
     │ COLLECTIVE-      │ SCHEMA       │ FLAT (relief): "phù, xong"   │
     │ INSTALLED        │ (FLAT)       │ Fill gap → relief, NOT joy   │
-    │ (Type C trust)   │              │ Needs bridge, neutral loop   │
+    │ (Trust Compile)   │              │ Needs bridge, neutral loop   │
     ├──────────────────┼──────────────┼──────────────────────────────┤
     │ THREAT-          │ THREAT       │ AVOIDANCE: "ghét nhưng giỏi" │
     │ INSTALLED        │ (AVOIDANCE)  │ Fill gap → stop punishment   │
@@ -902,10 +902,10 @@ SCOPE OUT:
     → = Trục ② có THÊM 1 chiều quality bên trong
 
 🟡 Origin balance as axis = framework synthesis
-🟡 Compiled Quality × Origin = PFC-Operations v1.0 §5 mapped to GDP
+🟡 Compiled Quality × Origin = PFC-Operations v1.0 §5 mapped to Gap-Distribution-Profile
 🟢 Installed vs intrinsic: Deci & Ryan 1985 (extrinsic → internalization spectrum)
 🟢 Social proof install: Cialdini 1984
-🟢 Type C compile: Collective-Body §2 (4 compile pathways)
+🟢 Trust Compile: Collective-Body §2 (4 compile pathways)
 ```
 
 ### §3.3 — Trục ③ Depth Profile (specialist vs generalist)
@@ -919,7 +919,7 @@ SCOPE OUT:
       → Ít domains, mỗi domain CỰC SÂU
       → Gaps: narrow, specific, persistent, HIGH reward potential
       → VD: Einstein (physics 50 năm), chess master (cờ vua 20 năm)
-      → Background Pattern: deep compile → self-reinforcing in 1 domain
+      → Background-Pattern: deep compile → self-reinforcing in 1 domain
       → Risk: gap lock — cannot stop pursuing (Gap-Direction §10.4 Phase 5)
       → Reward per fill: CỰC LỚN (compound: deep gap + long pending)
 
@@ -927,7 +927,7 @@ SCOPE OUT:
       → Nhiều domains, mỗi domain NÔNG
       → Gaps: broad, flexible, frequently changing, moderate reward
       → VD: người lướt TikTok (micro-gaps, micro-fills), "jack of all trades"
-      → Background Pattern: shallow, multiple → no single domain locks
+      → Background-Pattern: shallow, multiple → no single domain locks
       → Risk: no deep reward — "biết nhiều nhưng không giỏi gì"
       → Reward per fill: NHỎ (shallow gap = mild reward)
 
@@ -942,8 +942,8 @@ SCOPE OUT:
       → = Where you already have deep chunks → easier to go deeper
       → = NATURAL PRESSURE toward specialization (few-deep)
 
-    Background Pattern self-reinforcing (BP §8):
-      → Deep chunks in X → BP forms "X = who I am"
+    Background-Pattern self-reinforcing (Background-Pattern §8):
+      → Deep chunks in X → Background-Pattern forms "X = who I am"
       → New info in X → assimilate easily → reward → deeper
       → New info in Y → costly (no chunks → no gap → no reward initially)
       → = Positive feedback: deep → deeper → deepest
@@ -982,14 +982,14 @@ SCOPE OUT:
   2 CỰC:
 
     LOCKED (stable, resistant to change):
-      → BP compiled deep → gap landscape FIXED
+      → Background-Pattern compiled deep → gap landscape FIXED
       → Identity: "tôi = X" → changing X = massive dissonance
       → Few new domains explored → few new gaps form
       → VD: "30 năm làm 1 nghề, yêu 1 người, ở 1 nơi"
-      → Mechanism: BP §8 self-reinforcing + Meaning §1 identity anchor
+      → Mechanism: Background-Pattern §8 self-reinforcing + Meaning §1 identity anchor
 
     SHIFTING (fluid, exploring):
-      → BP shallow → gap landscape FLEXIBLE
+      → Background-Pattern shallow → gap landscape FLEXIBLE
       → Identity: not yet locked or deliberately open
       → Many new domains explored → new gaps form regularly
       → VD: "Gap year, career change, new hobbies frequently"
@@ -1002,7 +1002,7 @@ SCOPE OUT:
     │ Age           │ Typical state    │ Mechanism                │
     ├───────────────┼──────────────────┼──────────────────────────┤
     │ Childhood     │ Highly shifting  │ Few compiled, everything │
-    │ (0-12)        │                  │ novel, no BP lock        │
+    │ (0-12)        │                  │ novel, no Background-Pattern lock        │
     ├───────────────┼──────────────────┼──────────────────────────┤
     │ Adolescence   │ Rapid shifting   │ Identity forming, many   │
     │ (12-20)       │                  │ experiments, peer install │
@@ -1010,10 +1010,10 @@ SCOPE OUT:
     │ Young adult   │ Exploring →      │ Domain compile begins,   │
     │ (20-30)       │ settling         │ career/relationship lock  │
     ├───────────────┼──────────────────┼──────────────────────────┤
-    │ Mid-adult     │ Mostly locked    │ BP deep, identity set,   │
+    │ Mid-adult     │ Mostly locked    │ Background-Pattern deep, identity set,   │
     │ (30-50)       │                  │ career established       │
     ├───────────────┼──────────────────┼──────────────────────────┤
-    │ Late adult    │ Locked (or       │ Deep BP. Exception:      │
+    │ Late adult    │ Locked (or       │ Deep Background-Pattern. Exception:      │
     │ (50+)         │ crisis → shift)  │ retirement = Meaning §2.2│
     │               │                  │ anchor exhausted → shift  │
     └───────────────┴──────────────────┴──────────────────────────┘
@@ -1032,7 +1032,7 @@ SCOPE OUT:
 
     LOCKED + MISMATCHED (gaps DON'T match hardware or reality has shifted):
       → Chronic dissonance
-      → BP nói "X = me" nhưng reality/hardware nói "X = not working"
+      → Background-Pattern nói "X = me" nhưng reality/hardware nói "X = not working"
       → = Suffering: Collective-Arc-Dynamics "pattern expired but body still holds it"
       → = WHY mid-life crisis exists: locked distribution + shifted reality
 
@@ -1047,11 +1047,11 @@ SCOPE OUT:
 
   ⭐ PATTERN SHIFTABILITY × STABILITY (PFC-Operations §7):
 
-    PFC-Ops §7 established: pattern changeability = f(Depth × Density)
-    với Density > Depth cho difficulty. Map vào GDP stability:
+    PFC-Operations §7 established: pattern changeability = f(Depth × Density)
+    với Density > Depth cho difficulty. Map vào Gap-Distribution-Profile stability:
 
     ┌──────────────────────┬────────────┬──────────────┬────────────────┐
-    │ BP Quadrant          │ Depth      │ Density      │ GDP Shift Time │
+    │ Background-Pattern Quadrant          │ Depth      │ Density      │ Gap-Distribution-Profile Shift Time │
     ├──────────────────────┼────────────┼──────────────┼────────────────┤
     │ Surface Rule         │ Low        │ Low          │ Days-weeks     │
     │ "Ăn healthy"         │            │              │ (trivial)      │
@@ -1059,7 +1059,7 @@ SCOPE OUT:
     │ Isolated Event       │ High       │ Low          │ Weeks-months   │
     │ "Bị chó cắn sợ chó" │            │              │ (therapy OK)   │
     ├──────────────────────┼────────────┼──────────────┼────────────────┤
-    │ Background Pattern   │ Low        │ HIGH         │ YEARS          │
+    │ Background-Pattern   │ Low        │ HIGH         │ YEARS          │
     │ "Ngại gây phiền"     │            │              │ (compile new)  │
     ├──────────────────────┼────────────┼──────────────┼────────────────┤
     │ Chronic Deep         │ High       │ HIGH         │ YEARS-DECADES  │
@@ -1070,22 +1070,22 @@ SCOPE OUT:
       → "Bị chó cắn" (High Depth + Low Density) = TARGETABLE → therapy works
       → "Ngại gây phiền" (Low Depth + High Density) = DISTRIBUTED → years
       → = Gap distribution stability = primarily f(DENSITY) of gap patterns
-      → = Tại sao "personality change" khó: personality = BP (high density)
+      → = Tại sao "personality change" khó: personality = Background-Pattern (high density)
 
-    MAPPING VÀO GDP STABILITY TRỤC:
-      → LOCKED = Background Pattern + Chronic Deep quadrants (density HIGH)
+    MAPPING VÀO Gap-Distribution-Profile STABILITY TRỤC:
+      → LOCKED = Background-Pattern + Chronic Deep quadrants (density HIGH)
       → SHIFTING = Surface Rule + Isolated Event quadrants (density LOW)
       → LOCKED + ALIGNED = stable + rewarding (best case)
       → LOCKED + MISMATCHED = stable + suffering (needs environment change)
-      → B vs C DETERMINANT (PFC-Ops §6): 7 factors quyết định outcome
+      → B vs C DETERMINANT (PFC-Operations §6): 7 factors quyết định outcome
         khi attempt shift: pattern strength, compile quality, PFC budget,
         drive type, duration, sleep, social environment
 
 🟡 Stability as axis = framework synthesis
 🟡 Lifecycle gradient = framework inference (consistent with developmental psychology)
-🟡 Pattern Shiftability × GDP = PFC-Operations v1.0 §7 mapped to stability trục
+🟡 Pattern Shiftability × Gap-Distribution-Profile = PFC-Operations v1.0 §7 mapped to stability trục
 🟢 Density > Depth for changeability = PFC-Operations v1.0 §7
-🟢 BP self-reinforcing: Background-Pattern §8
+🟢 Background-Pattern self-reinforcing: Background-Pattern §8
 🟢 Identity as meaning anchor: Meaning.md §3 (5 types)
 🟢 Mid-life crisis: established developmental psychology observation
 ```
@@ -1109,9 +1109,9 @@ SCOPE OUT:
   ┌───────────────────────────────────────────────────────────────────┐
   │ ARCHETYPE 2: "Nhà nghiên cứu đam mê"                            │
   │ ① Domain Center: Abstract                                        │
-  │ ② Origin: HIGH self-discovered (Type A: domain → reward → loop)  │
+  │ ② Origin: HIGH self-discovered (Evaluative: domain → reward → loop)  │
   │ ③ Depth: Few-deep (1-2 domains, decades)                        │
-  │ ④ Stability: Locked (BP deep, identity = "researcher")           │
+  │ ④ Stability: Locked (Background-Pattern deep, identity = "researcher")           │
   │                                                                   │
   │ Observable: đọc papers khi rảnh, quên ăn khi research,           │
   │ bạn bè = cùng domain, ít care quần áo/status                    │
@@ -1125,7 +1125,7 @@ SCOPE OUT:
   │ ④ Stability: Highly shifting (chưa lock)                         │
   │                                                                   │
   │ Observable: thay đổi major, thử nhiều club, "chưa biết thích gì"│
-  │ CB §2.5 Case 3: "học sinh không biết chọn ngành = EXPECTED"      │
+  │ Collective-Body §2.5 Case 3: "học sinh không biết chọn ngành = EXPECTED"      │
   └───────────────────────────────────────────────────────────────────┘
 
   ┌───────────────────────────────────────────────────────────────────┐
@@ -1234,8 +1234,8 @@ SCOPE OUT:
   ┌─────────────────────────────────────────────────────────────────┐
   │ TẦNG 1: HARDWARE + ACCUMULATED EXPERIENCE (fastest, narrowest) │
   │   DRD4, COMT, cortical arousal → hardware bias                  │
-  │   Direct experience → Type A compile → gaps form from INSIDE    │
-  │   Background Pattern → self-reinforcing loop                    │
+  │   Direct experience → Evaluative compile → gaps form from INSIDE    │
+  │   Background-Pattern → self-reinforcing loop                    │
   │   → SHIFT gap distribution từ initial point                     │
   │   → Some: reinforce default (body-domain stays body-domain)     │
   │   → Some: shift toward abstract (if threshold reached)          │
@@ -1284,7 +1284,7 @@ SCOPE OUT:
 
   3 KÊNH INSTALL:
 
-    KÊNH 1 — TYPE C TRUST (Collective-Body §2):
+    KÊNH 1 — TRUST COMPILE (Collective-Body §2):
       Bố mẹ: "phải có nhà trước 30" → trust → compile → gap
       Thầy cô: "phải học giỏi" → trust → compile → gap
       = DIRECT install qua trust gate
@@ -1354,14 +1354,14 @@ SCOPE OUT:
     → = Hardware BIAS — not deterministic but TILTS gap formation direction
 
   EXPERIENCE (accumulated, modifiable):
-    → Type A direct: try domain → body reward → gap forms → more activity → loop
+    → Evaluative direct: try domain → body reward → gap forms → more activity → loop
     → Positive feedback loop WITH THRESHOLD:
       Chunks accumulate → gap forms → activity → reward → more chunks → deeper gap
       → Loop ACCELERATES once threshold reached
       → Domain-Mapping-Drive §5: "cần đạt threshold" → self-sustaining
 
-    → Background Pattern compile (BP §8):
-      Deep enough → BP forms: "domain X = who I am"
+    → Background-Pattern compile (Background-Pattern §8):
+      Deep enough → Background-Pattern forms: "domain X = who I am"
       → Self-reinforcing → LOCK gap distribution
       → = Tầng 1 can OVERRIDE tầng 2-3-4 nếu loop đủ mạnh
 
@@ -1414,7 +1414,7 @@ SCOPE OUT:
     → "Chưa biết = không có gap" AT POPULATION LEVEL
     → Collective PHẢI mở domain (build road) TRƯỚC individual CAN form gaps
 
-  ⭐ SPECIALIZATION TRADE-OFF (GBN §9):
+  ⭐ SPECIALIZATION TRADE-OFF (Gap-Body-Need §9):
 
     Pre-modern: compile NHIỀU chains → individually RESILIENT, collectively WEAK
       → Mỗi người = tự cung tự cấp, biết nhiều nhưng không chuyên
@@ -1425,12 +1425,12 @@ SCOPE OUT:
       → Gap distribution: NARROW, deep, specialized
       → Break from collective = VULNERABLE (chains break)
 
-    → = GDP evolution: pre-modern (broad-shallow) → modern (narrow-deep)
+    → = Gap-Distribution-Profile evolution: pre-modern (broad-shallow) → modern (narrow-deep)
     → = Tại sao "mất việc" ở modern society = CRISIS
       (vehicle only works on THIS road, no other road compiled)
 
 🟡 ENGINE/ROAD/VEHICLE = Gap-Body-Need v1.0 §9
-🟡 Specialization trade-off mapped to GDP = framework synthesis
+🟡 Specialization trade-off mapped to Gap-Distribution-Profile = framework synthesis
 ```
 
 ---
@@ -1474,7 +1474,7 @@ SCOPE OUT:
     Con nhận: TẤT CẢ tầng cùng lúc, KHÔNG phân biệt nguồn
 
   KHÔNG ĐƯỢC CHỌN nhưng SHAPE NHIỀU NHẤT:
-    → Background Pattern BẮTĐẦU form từ đây
+    → Background-Pattern BẮTĐẦU form từ đây
     → Gap distribution initial conditions SET từ đây
     → Shift SAU possible nhưng COSTLY
 ```
@@ -1537,7 +1537,7 @@ SCOPE OUT:
 
   TẠI SAO HIGHEST AGENCY:
     → Không bị limerence hijack
-    → Không bị Type C install bắt buộc
+    → Không bị Trust Compile install bắt buộc
     → Phần lớn = SELF-SELECT theo gap direction match
     → By-product match NATURAL → enjoy → reinforce
 
@@ -1589,10 +1589,10 @@ SCOPE OUT:
       = Same body-domain gaps, DIFFERENT temporal strategy
 
     → Same behavior "accept low salary" — 3 DIFFERENT mechanisms
-    → Only Type B = genuine gap distribution shift
+    → Only Direct-State = genuine gap distribution shift
 
   MID-CAREER:
-    → Years of domain experience → Type A chunks compiled
+    → Years of domain experience → Evaluative chunks compiled
     → GAP DISTRIBUTION CAN SHIFT based on domain feedback
     → "Tìm thấy đam mê" = enough chunks → gap formed → reward loop
     → = Career experience = TẦNG 1 overriding TẦNG 2-3 install
@@ -1600,7 +1600,7 @@ SCOPE OUT:
   CAREER CHANGE:
     → Old domain locked + mismatched → dissonance
     → New domain exposure → new chunks → new gaps → possible shift
-    → Cost: old BP still pulling + new domain = no reward initially
+    → Cost: old Background-Pattern still pulling + new domain = no reward initially
     → = Transition period = HIGH COST, outcome uncertain
 ```
 
@@ -1660,7 +1660,7 @@ SCOPE OUT:
 
   FRAMEWORK TRANSLATION:
     → Abstract gap signal CỰC MẠNH (deep network, years pending)
-    → Body-Need priority system (BFM §1.4 property ③)
+    → Body-Need priority system (Body-Feedback-Mechanism §1.4 property ③)
     → Abstract gap OUTCOMPETE body-input trong priority ranking
     → TPN activate → DMN suppress → interoception giảm
     → = "Quên ăn" = body-input signals VẪN FIRE nhưng KHÔNG ATTENDED
@@ -1682,7 +1682,7 @@ SCOPE OUT:
      Network lớn → detect inconsistency mới → gap mới TỰ SINH
      → Câu hỏi KHÔNG BAO GIỜ HẾT
 
-  ② REWARD MEMORY (Background Pattern):
+  ② REWARD MEMORY (Background-Pattern):
      Body compiled: [domain gap fill = MASSIVE opioid]
      → Drive CỰC MẠNH vì reward history deep
 
@@ -1731,7 +1731,7 @@ SCOPE OUT:
     OUTCOME B — COMPILED SUPPRESS:
       → "How to suppress" itself compiled → old BURIED (not deleted)
       → Functional nhưng FLAT affect → anhedonia risk
-      → Multiple domains suppress → ESCALATION (PFC-Ops §8.1):
+      → Multiple domains suppress → ESCALATION (PFC-Operations §8.1):
         Step 1: suppress 1 domain → functional
         Step 2: suppress NHIỀU → reward pathways shrink → cortisol baseline UP
         Step 3: chronic cortisol → vmPFC structural damage
@@ -1743,7 +1743,7 @@ SCOPE OUT:
       → Pattern break-through → emotional burst → negative spiral
       → = Shift FAILS + worse than before
 
-  B VS C DETERMINANT — 7 FACTORS (PFC-Ops §6):
+  B VS C DETERMINANT — 7 FACTORS (PFC-Operations §6):
     ① Old pattern density (cao → B) ② New pattern compile quality (threat → C)
     ③ PFC budget (nhỏ → C) ④ Internal vs external drive (external → C)
     ⑤ Duration + consistency (ngắn → C) ⑥ Sleep quality (kém → C)
@@ -1751,9 +1751,9 @@ SCOPE OUT:
 
   TẠI SAO PHÂN BIỆT QUAN TRỌNG:
     → "Mid-life crisis career change" CÓ THỂ là A (genuine), B (suppress), hoặc C (failure)
-    → "Therapy" cho shift = 6-step reversal (PFC-Ops §8.2):
+    → "Therapy" cho shift = 6-step reversal (PFC-Operations §8.2):
       DETECT → SAFE environment → UNCOMPILE → PROCESS → BUILD new → COMPILE new
-    → Timeline: Isolated (weeks-months) → Moderate (months-1yr) → Chronic BP (1-5+ years)
+    → Timeline: Isolated (weeks-months) → Moderate (months-1yr) → Chronic Background-Pattern (1-5+ years)
     → = Shift mechanism + QUALITY DETERMINES sustainability
 ```
 
@@ -1762,7 +1762,7 @@ SCOPE OUT:
 ```
 ⭐ PFC BUDGET = FINITE SHARED RESOURCE (PFC-Operations §9):
 
-  PFC-Ops §9 established: ALL PFC-dependent activities share 1 finite budget:
+  PFC-Operations §9 established: ALL PFC-dependent activities share 1 finite budget:
     → Learning new (hold)
     → Change behavior (hold + suppress)
     → Self-Pattern-Modeling (drafting predictions)
@@ -1784,18 +1784,18 @@ SCOPE OUT:
 
     BUDGET VARIES BY PERSON + CONTEXT:
       → Hardware: COMT, vmPFC volume (PFC-Hardware §3)
-      → Context: stress → cortisol → budget SHRINK (PFC-Ops §8.1)
-      → Sleep: poor sleep → budget 50% (PFC-Ops §6 Factor 6)
+      → Context: stress → cortisol → budget SHRINK (PFC-Operations §8.1)
+      → Sleep: poor sleep → budget 50% (PFC-Operations §6 Factor 6)
       → Social: supportive → cortisol lower → budget LARGER
       → = Same shift: easy for well-rested, supported person; impossible for stressed, sleep-deprived
 
-    PARENT-CHILD = HIGHEST PFC COST (PFC-Ops §9.2):
-      → Child = moving target → SPM re-draft constantly
-      → Hardware mismatch → suppress own BP + hold fresh = double cost
+    PARENT-CHILD = HIGHEST PFC COST (PFC-Operations §9.2):
+      → Child = moving target → Self-Pattern-Modeling re-draft constantly
+      → Hardware mismatch → suppress own Background-Pattern + hold fresh = double cost
       → = Parent attempting personal gap distribution shift + raising child = BUDGET CRISIS
-      → = "Mệt ở work → budget ít → SPM cho con yếu" = KHÔNG phải "không yêu con"
+      → = "Mệt ở work → budget ít → Self-Pattern-Modeling cho con yếu" = KHÔNG phải "không yêu con"
 
-🟡 PFC Budget × gap distribution shift = PFC-Operations v1.0 §9 mapped to GDP
+🟡 PFC Budget × gap distribution shift = PFC-Operations v1.0 §9 mapped to Gap-Distribution-Profile
 🟢 PFC finite metabolic resource: established neuroscience (Gailliot et al. 2007)
 🟢 Concurrent hold limit ~4±1: Miller 1956 capacity, applied to PFC operations
 ```
@@ -1854,7 +1854,7 @@ SCOPE OUT:
     → = Expansion-Saturation-Crisis: education sản xuất Expanders, kinh tế cần Discoverers
 
   BY-PRODUCT AT COLLECTIVE SCALE (Collective-Body §3):
-    → Body-domain workers fill OWN gaps → by-product: goods, GDP, infrastructure
+    → Body-domain workers fill OWN gaps → by-product: goods, Gap-Distribution-Profile, infrastructure
     → Abstract-domain workers fill OWN gaps → by-product: innovation, knowledge
     → = BOTH contribute differently — neither dispensable
     → = Collective BENEFITS from gap distribution DIVERSITY in population
@@ -1868,7 +1868,7 @@ SCOPE OUT:
   LENS ĐỂ QUAN SÁT COLLECTIVE GAP LANDSCAPE:
 
     ① SPENDING PATTERNS (population level):
-       → % GDP on food/fashion/entertainment vs education/R&D
+       → % Gap-Distribution-Profile on food/fashion/entertainment vs education/R&D
        → = Body-domain vs abstract-domain infrastructure investment
 
     ② MEDIA CONSUMPTION (aggregate):
@@ -1898,7 +1898,7 @@ SCOPE OUT:
 ```
 ⭐ TECHNOLOGY FILL GAPS KHÔNG ĐỀU ACROSS SPECTRUM (Gap-Body-Need §10):
 
-  Technology fills PRIMARILY Type B territory (direct-state hardware):
+  Technology fills PRIMARILY Direct-State territory (direct-state hardware):
 
     ┌────────────────┬──────────────┬──────────────────────────────────┐
     │ Domain         │ Technology   │ Mechanism                        │
@@ -1936,15 +1936,15 @@ SCOPE OUT:
     → = Technology MOVE entire population's frontier UP the spectrum
 
 
-  ⭐ KAHNEMAN-DEATON CONNECTION (GBN §10):
+  ⭐ KAHNEMAN-DEATON CONNECTION (Gap-Body-Need §10):
 
     🟢 Kahneman & Deaton 2010 (PNAS):
       → Income → emotional well-being PLATEAUS at ~$75K
       → Income → life satisfaction continues ABOVE $75K
       → FRAMEWORK TRANSLATION:
-        $75K ≈ point where Type B (direct-state) gaps MOSTLY filled
-        Above $75K: remaining = Type A (evaluative) gaps → money CANNOT fill
-        Type A = personal compilation → no shortcut → no purchase solution
+        $75K ≈ point where Direct-State gaps MOSTLY filled
+        Above $75K: remaining = Evaluative gaps → money CANNOT fill
+        Evaluative = personal compilation → no shortcut → no purchase solution
         → = "Hedonic floor" = democratic, resistant to hedonic treadmill
 
 
@@ -2092,7 +2092,7 @@ SCOPE OUT:
     Profile: ① near-body + social | ② high installed | ③ moderate | ④ locked
     Daily: làm việc 8h → lương → ăn uống, quần áo, gia đình
     Body-need fill: short chain, reliable, sensory + social
-    Collective contribution: sản phẩm → GDP → infrastructure
+    Collective contribution: sản phẩm → Gap-Distribution-Profile → infrastructure
     = By-product match ở collective scale: fill OWN gap → output = goods → society benefits
 
   NHÀ NGHIÊN CỨU:
@@ -2121,7 +2121,7 @@ SCOPE OUT:
 
     5 mechanisms lock (Gap-Direction §10.4):
       ① Network lớn → see NEW problems everywhere → new gaps TỰ SINH
-      ② Reward memory: "business problem solving = massive opioid" → BP deep
+      ② Reward memory: "business problem solving = massive opioid" → Background-Pattern deep
       ③ Gap→Miss: Imagine-Final of company → body EXPECTS → cortisol if not pursuing
       ④ Identity: "tôi = CEO/builder" → stopping = identity crisis
       ⑤ Network deep + specific → gaps so narrow only THIS domain fills them
@@ -2155,7 +2155,7 @@ SCOPE OUT:
     → = KHÔNG "broken" — cần MORE EXPOSURE, không cần "tìm đam mê"
 
   FIX: expose + compile (NOT prescribe):
-    → Internship, mentor, real projects → Type A direct experience
+    → Internship, mentor, real projects → Evaluative direct experience
     → Chunks compile → gaps FORM → reward loop STARTS
     → "Đam mê" = gap-direction ĐÃ FORMED + reward ĐÃ VERIFIED
     → = "Chưa có đam mê" ≠ "không có đam mê" — "chưa compile đủ"
@@ -2225,7 +2225,7 @@ SCOPE OUT:
     → Social proof install (Cialdini 1984)
     → Homophily in friendship selection (McPherson 2001)
     → Loss aversion (Kahneman & Tversky 1979)
-    → Architecture B general-purpose reward (established neuroscience)
+    → Compilable Architecture general-purpose reward (established neuroscience)
     → Income-wellbeing plateau ~$75K (Kahneman & Deaton 2010)
     → Weber-Fechner logarithmic habituation (established psychophysics)
     → PFC finite metabolic resource (Gailliot et al. 2007)
@@ -2244,7 +2244,7 @@ SCOPE OUT:
     → Positive feedback loop with threshold for gap formation
     → 5 mechanisms lock (integration of multiple established mechanisms)
     → Resonance Baseline extension (gap distribution overlap component)
-    → 5-parameter per-gap → aggregate distribution mapping (P1-P5 × GDP)
+    → 5-parameter per-gap → aggregate distribution mapping (P1-P5 × Gap-Distribution-Profile)
     → Satiation Type × domain position (Cyclic/Tonic/Generative per-domain)
     → Compiled Quality × Origin Balance (genuine/schema/threat tags)
     → Pattern Shiftability × Stability (Density > Depth for changeability)
@@ -2265,7 +2265,7 @@ SCOPE OUT:
   ⚠️ FILE NÀY = OBSERVATION SYNTHESIS:
     → Tổng hợp insights từ ~20 files vào 1 góc nhìn aggregate
     → KHÔNG tạo mechanism mới — tổ chức lại qua per-person lens
-    → v1.1 thêm: per-gap mechanism (GBN) + PFC operations (PFC-Ops) cross-refs
+    → v1.1 thêm: per-gap mechanism (Gap-Body-Need) + PFC operations (PFC-Operations) cross-refs
     → Giá trị: NHÌN THẤY gap landscape → understand + predict + navigate
     → KHÔNG prescribe → "nên ở đâu" = mỗi người tự decide
 ```
@@ -2308,9 +2308,9 @@ SCOPE OUT:
     → Is there "Goldilocks" shift speed?
     → §6.5 established: PFC budget ~4±1 → limits concurrent shifts
     → §3.4 established: Pattern Shiftability = f(Density > Depth)
-    → Hypothesis: shift speed limit = f(BP density + PFC budget + compile quality)
-    → Deep DENSITY BP = slow shift (years). Low density = fast shift (weeks).
-    → B vs C Determinant (PFC-Ops §6): 7 factors quyết định outcome
+    → Hypothesis: shift speed limit = f(Background-Pattern density + PFC budget + compile quality)
+    → Deep DENSITY Background-Pattern = slow shift (years). Low density = fast shift (weeks).
+    → B vs C Determinant (PFC-Operations §6): 7 factors quyết định outcome
     → = Consistent with §3.4 Stability trục + §6.5 PFC Budget
 
   Q5: INHERITANCE — GAP DISTRIBUTION TRUYỀN QUA THẾ HỆ THẾ NÀO?
@@ -2343,10 +2343,10 @@ SCOPE OUT:
 
 ⭐ MECHANISM (file này REFERENCE):
   → PFC-Operations.md v1.0 — Pattern Shiftability, PFC Budget, Compiled Quality, B vs C, Compiled Suppress (§3.2, §3.4, §6.4, §6.5)
-  → Inter-Body-Mechanism.md v1.0 — Architecture B, by-product match, 3-cost
-  → Background-Pattern.md v2.0 — BP self-reinforcing, Triple Bias, identity lock (§6.3)
+  → Inter-Body-Mechanism.md v1.0 — Compilable Architecture, by-product match, 3-cost
+  → Background-Pattern.md v2.0 — Background-Pattern self-reinforcing, Triple Bias, identity lock (§6.3)
   → By-Product-Gap-Resonance.md v1.4 — Resonance Baseline, 2-Stream, by-product match (§8)
-  → Self-Pattern-Modeling.md v3.1 — 1 mechanism × 3 dimensions (§6.5 SPM drafting)
+  → Self-Pattern-Modeling.md v3.1 — 1 mechanism × 3 dimensions (§6.5 Self-Pattern-Modeling drafting)
   → Valence-Propagation.md v3.0 — 3 Satiation Types, Hardware Subsidy (§2.5)
   → Self-Created-Threat.md v1.0 — 5 mechanisms lock, CEO case (§9.2)
 
@@ -2367,4 +2367,4 @@ SCOPE OUT:
 **File version:** v1.1
 **Created:** 2026-05-18 | **Updated:** 2026-05-22
 **v1.0:** Initial formalization — gap type analysis → collective shaping → aggregate profile
-**v1.1:** DEEP REFINE — +Satiation Types per-domain (GBN §2), +ENGINE/ROAD/VEHICLE (GBN §9), +5-parameter cross-ref (GBN §6), +Technology fill dimension (GBN §10), +Chain-to-body-base (GBN §8), +PFC Budget × shift (PFC-Ops §9), +Compiled Quality × origin (PFC-Ops §5), +Pattern Shiftability × stability (PFC-Ops §7). All dep versions updated.
+**v1.1:** DEEP REFINE — +Satiation Types per-domain (Gap-Body-Need §2), +ENGINE/ROAD/VEHICLE (Gap-Body-Need §9), +5-parameter cross-ref (Gap-Body-Need §6), +Technology fill dimension (Gap-Body-Need §10), +Chain-to-body-base (Gap-Body-Need §8), +PFC Budget × shift (PFC-Operations §9), +Compiled Quality × origin (PFC-Operations §5), +Pattern Shiftability × stability (PFC-Operations §7). All dep versions updated.

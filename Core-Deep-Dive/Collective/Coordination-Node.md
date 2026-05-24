@@ -2,7 +2,7 @@
 title: Coordination Node — Resource Allocation Position in Collective Architecture
 version: 1.2
 created: 2026-05-18
-updated: 2026-05-23 v1.2 — +§1.4 Prestige=genuine resonance / Dominance=forced resonance (BS v1.0), +§2.5 enriched Node=Mẹ (first coordination node, BS §9), +§9.4 Hardware Subsidy Per Scale (oxytocin→serotonin→trust infrastructure), SPM rename Match→Modeling, ALL dep versions updated (SPM v3.1, Connection v5.0, GDP v1.1, BC v3.0, +BS v1.0, +BPGR v1.4)
+updated: 2026-05-23 v1.2 — +§1.4 Prestige=genuine resonance / Dominance=forced resonance (By-Product-Scale v1.0), +§2.5 enriched Node=Mẹ (first coordination node, By-Product-Scale §9), +§9.4 Hardware Subsidy Per Scale (oxytocin→serotonin→trust infrastructure), Self-Pattern-Modeling rename Match→Modeling, ALL dep versions updated (Self-Pattern-Modeling v3.1, Connection v5.0, Gap-Distribution-Profile v1.1, Body-Coupling v3.0, +By-Product-Scale v1.0, +By-Product-Gap-Resonance v1.4)
 previous_updates:
   - 2026-05-20 (v1.1: +§2.4 2 Loại Chunks, +§6.3 Compilation Path, §6.1-6.2 enriched)
 status: RESEARCH FILE v1.2
@@ -16,7 +16,7 @@ scope: |
     ① Status × Talent × Contribution = 3 chiều ĐỘC LẬP (không tương quan tuyến tính)
     ② 2 Routes to node: Dominance (force) vs Prestige (knowledge value)
     ③ Node = Partial PFC cho collective (Collective-Body §4.2 ⑥)
-    ④ 5 Capabilities: SPM across domains, gap detection, PFC bandwidth, uncertainty tolerance, trust cascade
+    ④ 5 Capabilities: Self-Pattern-Modeling across domains, gap detection, PFC bandwidth, uncertainty tolerance, trust cascade
     ⑤ Emergence ≠ Effectiveness (WHO gets node ≠ WHO operates well)
     ⑥ "Good enough" allocation: satisficing > optimizing (bounded rationality)
     ⑦ Node failure → collective recalibrate (self-correction mechanism)
@@ -27,7 +27,7 @@ scope: |
     ⑪ Prestige = genuine resonance (opioid). Dominance = forced resonance (relief tag)
     ⑫ Node = Mẹ cho collective (first coordination node, 5 capabilities, scale progression)
     ⑬ Hardware Subsidy Per Scale: oxytocin (L1) → serotonin (L2) → trust infrastructure (L3)
-    ⑭ SPM rename: Self-Pattern-Match → Self-Pattern-Modeling (abbreviation giữ nguyên)
+    ⑭ Self-Pattern-Modeling rename: Self-Pattern-Match → Self-Pattern-Modeling (abbreviation giữ nguyên)
 purpose: |
   Status.md: Status = Resource Access Map (WHAT status is).
   Collective-Body.md §4.2 ⑥: "Leaders = PARTIAL PFC analogs" (noted but not developed).
@@ -48,17 +48,17 @@ dependencies:
   core-mechanism:
     - Status.md v2.1 — Resource Access Map, 3 Modes, disruption cycle, serotonin ratchet, military optimization, hierarchy compression
     - Collective-Body.md v2.0 — Model 3 Cấp, §2.5 detect collective gap, §4.2 ⑥ no unified PFC, trust bypass, by-product match
-    - Inter-Body-Mechanism.md v1.0 — Architecture B, by-product match, 3-cost, PFC=Lawyer
+    - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, by-product match, 3-cost, PFC=Lawyer
     - Gap-Distribution-Profile.md v1.1 — 4 trục, gap spectrum, collective gap landscape, Satiation Types, ENGINE/ROAD/VEHICLE
     - Gap-Direction.md v2.0 — per-gap mechanism, "chưa biết = không có gap", §10 abstract × body-base
   agent-mechanism:
-    - Self-Pattern-Modeling.md v3.1 — F1 Compiled / F2 Fresh, per-domain SPM, Application 1 on Simulation Engine
+    - Self-Pattern-Modeling.md v3.1 — Compiled / Fresh, per-domain Self-Pattern-Modeling, Application 1 on Simulation Engine
     - By-Product-Gap-Resonance.md v1.4 — 2-Stream, by-product match, resonance baseline
     - By-Product-Scale.md v1.0 — 1 mechanism × 3 scales, Prestige=genuine resonance, hardware subsidy per scale
     - Agent-Mechanism.md v2.1 — integration hub, entity mechanism, §12 body-need feeder
   connection-observation:
     - Connection.md v5.0 — 3 Generative Primitives, Resonance Baseline, M1-M4, 4-Layer Sustainability
-    - Body-Coupling.md v3.0 — per-agent coupling, System Compilation, Hw Subsidy, 3 Firing Modes
+    - Body-Coupling.md v3.0 — per-agent coupling, System Compilation, Hardware Subsidy, 3 Firing Modes
     - Meaning.md v2.1 — life-level Anchor-Schema, 5 types, exhausted
     - Domain-Mapping-Drive.md v1.0 — reward from PROCESS, "given" = bypass
   processing:
@@ -123,7 +123,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §4 — SCALE TRANSITION: Personal → Role → Symbolic
 - §5 — OWNER vs LEADER: 2 Separable Functions
 - §6 — EMERGENCE ≠ EFFECTIVENESS
-  - §6.3 — COMPILATION PATH: Loại A/B/C × Coordination Domain (v1.1)
+  - §6.3 — COMPILATION PATH: 3 Compile Types × Coordination Domain (v1.1)
 - §7 — "GOOD ENOUGH" ALLOCATION (Satisficing)
 - §8 — NODE FAILURE → COLLECTIVE RECALIBRATE
 - §9 — EVOLUTION: Bầy đàn → Vua → Chính phủ → Distributed
@@ -323,17 +323,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 2 routes × Status Mode mapping = framework synthesis
 ```
 
-### §1.2 — Architecture B: Prestige = human-specific route
+### §1.2 — Compilable Architecture: Prestige = human-specific route
 
 ```
 🟡 TẠI SAO PRESTIGE CHỈ PHÁT TRIỂN MẠNH Ở CON NGƯỜI:
 
-  Architecture A (côn trùng, động vật đơn giản):
+  Hardwired Architecture (côn trùng, động vật đơn giản):
     → Mỗi social behavior = hardwired
     → Status = physical dominance TRỰC TIẾP
     → Prestige IMPOSSIBLE: không có flexible learning → không có "knowledge value"
 
-  Architecture B (mammals phức tạp, con người):
+  Compilable Architecture (mammals phức tạp, con người):
     → Body-Base.md: general-purpose learning + compilation
     → Chunk system PHỨC TẠP → mỗi người compile KHÁC → expertise RIÊNG
     → Expertise = KNOWLEDGE VALUE → others BENEFIT from proximity
@@ -361,7 +361,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       (share knowledge → không mất → followers TĂNG mà cost KHÔNG TĂNG)
     → = Prestige = MORE EFFICIENT route at scale
 
-  🟡 Architecture B → Prestige = framework synthesis
+  🟡 Compilable Architecture → Prestige = framework synthesis
   🟡 Historical shift proportions = hypothesis (🔴)
   🟢 Henrich & Gil-White 2001, Henrich 2016
   🟢 Status §5.1 chuyên môn hóa tạo non-overlapping domains
@@ -471,9 +471,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Purpose-driven companies succeed VÌ: shared gap-direction
       → genuine resonance at hub scale → opioid → sustainable
 
-  🟡 Prestige = genuine resonance mapping = framework synthesis (BS v1.0 §8)
+  🟡 Prestige = genuine resonance mapping = framework synthesis (By-Product-Scale v1.0 §8)
   🟢 Henrich & Gil-White 2001 (Prestige vs Dominance distinction)
-  🟡 Opioid vs relief tag distinction = consistent with VP v3.0 valence types
+  🟡 Opioid vs relief tag distinction = consistent with Valence-Propagation v3.0 valence types
 ```
 
 ---
@@ -523,7 +523,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Nhưng BIẾT ai giỏi gì, đặt đúng chỗ, coordinate tổng thể
       → = Function ⑥: PFC không fire neurons, chỉ direct
 
-  🟡 PFC → Node mapping = framework synthesis (PFC-Function.md + CB §4.2 ⑥)
+  🟡 PFC → Node mapping = framework synthesis (PFC-Function.md + Collective-Body §4.2 ⑥)
 ```
 
 ### §2.2 — 5 Capabilities cụ thể
@@ -531,21 +531,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐ "TÀI" CỦA COORDINATION NODE = 5 CAPABILITIES:
 
-  ① SPM ACROSS DOMAINS (Self-Pattern-Modeling applied to people):
+  ① Self-Pattern-Modeling ACROSS DOMAINS (Self-Pattern-Modeling applied to people):
 
      "Người này giỏi cái gì, phù hợp ở đâu"
-     = SPM (Self-Pattern-Modeling.md) applied to organizational structure
-     = F1 Compiled: đã observe team → compiled "người A = X, người B = Y"
-     = F2 Fresh: gặp người mới → PFC draft "có thể phù hợp ở Z"
+     = Self-Pattern-Modeling (Self-Pattern-Modeling.md) applied to organizational structure
+     = Compiled: đã observe team → compiled "người A = X, người B = Y"
+     = Fresh: gặp người mới → PFC draft "có thể phù hợp ở Z"
 
      KHÔNG CẦN giỏi hơn từng người → cần NHẬN RA pattern ở mỗi người
-     = "Nhìn người" = compiled SPM maps cho NHIỀU agent types
-     = Lưu Bang: "nhìn người" = SPM across domains
+     = "Nhìn người" = compiled Self-Pattern-Modeling maps cho NHIỀU agent types
+     = Lưu Bang: "nhìn người" = Self-Pattern-Modeling across domains
 
      🟢 Klein 1998 (Recognition-Primed Decision):
        Expert decision = pattern recognition from compiled experience
-       → Leader "nhìn người giỏi" = compiled SPM maps ĐỦ SÂU
-       → Leader "nhìn người kém" = chunks THIẾU ở SPM domain
+       → Leader "nhìn người giỏi" = compiled Self-Pattern-Modeling maps ĐỦ SÂU
+       → Leader "nhìn người kém" = chunks THIẾU ở Self-Pattern-Modeling domain
 
   ② GAP DETECTION (Collective-Body §2.5):
 
@@ -622,7 +622,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟢 Klein 1998, Kahneman 2011 (expert intuition)
   🟢 Van Vugt 2008 (coordination = core function of leadership)
-  🟡 5 capabilities = framework synthesis (SPM + Gap Detection + PFC + Status §9.2)
+  🟡 5 capabilities = framework synthesis (Self-Pattern-Modeling + Gap Detection + PFC + Status §9.2)
 ```
 
 ### §2.3 — Coordination domain = specific gap distribution
@@ -659,7 +659,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Leadership = DEVELOPED through coordination experience, not innate
 
   NHƯNG HARDWARE VARIATION ẢNH HƯỞNG:
-    → SPM capacity varies (Autonomy-Hardware: vmPFC/DRN variation)
+    → Self-Pattern-Modeling capacity varies (Autonomy-Hardware: vmPFC/DRN variation)
     → PFC bandwidth varies (PFC-Hardware: COMT, cortical arousal)
     → Social sensitivity varies (empathy variation)
     → = Hardware set RANGE → experience develops WITHIN range
@@ -680,18 +680,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Câu trả lời: CẦN, nhưng KHÁC CÁCH so với specialist.
 
 
-  LOẠI 1 — META-CHUNKS VỀ NGƯỜI (SPM across domains):
+  LOẠI 1 — META-CHUNKS VỀ NGƯỜI (Self-Pattern-Modeling across domains):
 
     "Nhìn người" — ai giỏi gì, ai phù hợp đâu, ai đáng tin
-    = SPM (Self-Pattern-Modeling) applied to organizational structure
+    = Self-Pattern-Modeling (Self-Pattern-Modeling) applied to organizational structure
     = §2.2 ① nhưng formalize rõ hơn:
 
     Compile qua:
       → Observe NHIỀU NGƯỜI + NHIỀU DOMAIN + FEEDBACK
-      → Loại A + B: direct experience + years of observation
-      → KHÔNG THỂ compile từ sách (Loại C không đủ)
+      → Experience + Expertise Compile: direct experience + years of observation
+      → KHÔNG THỂ compile từ sách (Trust Compile không đủ)
 
-    Lưu Bang: "nhìn người giỏi" = compiled SPM maps SÂU
+    Lưu Bang: "nhìn người giỏi" = compiled Self-Pattern-Modeling maps SÂU
     → Trương Lương thì chiến lược, Hàn Tín thì quân sự, Tiêu Hà thì hậu cần
     → Lưu Bang KHÔNG giỏi hơn ai → nhưng BIẾT ai giỏi gì → allocate đúng
     → 🟢 Klein 1998: expert decision = pattern recognition from compiled experience
@@ -705,16 +705,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = Minimum domain knowledge để EVALUATE quyết định, không phải THỰC THI
 
     Compile qua:
-      → Loại A (exposure): làm việc trong/gần domain
-      → Loại C (theory): học MBA, đọc sách, mentorship
-      → Loại C = scaffold → accelerate → nhưng KHÔNG thay thế Loại A
+      → Experience Compile (exposure): làm việc trong/gần domain
+      → Trust Compile (theory): học MBA, đọc sách, mentorship
+      → Trust Compile = scaffold → accelerate → nhưng KHÔNG thay thế Experience Compile
 
     Bác sĩ làm CEO bệnh viện: scaffold chunks y khoa ĐỦ → evaluate domain decisions
     MBA làm CEO bệnh viện: THIẾU scaffold y khoa → delegate blind → can't evaluate
     → 🟢 Goodall 2009, 2011 (Social Science & Medicine):
       Bệnh viện do physician-CEO → quality ranking CAO HƠN (p<0.001)
       Đại học do scholar giỏi → research quality CẢI THIỆN
-      F1 team do cựu tay đua → thắng nhiều hơn
+      Formula 1 team do cựu tay đua → thắng nhiều hơn
 
     ĐÂY LÀ CHỖ "LOWER LAYER KNOWLEDGE" MATTERS.
     Nhưng depth CẦN = THẤP hơn specialist RẤT NHIỀU.
@@ -725,11 +725,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌──────────┬────────────────────────┬──────────────────────────┐
     │ Scale    │ Loại 1 (Meta-người)    │ Loại 2 (Scaffold domain) │
     ├──────────┼────────────────────────┼──────────────────────────┤
-    │ 5-20     │ Personal SPM sâu       │ CẦN đáng kể             │
+    │ 5-20     │ Personal Self-Pattern-Modeling sâu       │ CẦN đáng kể             │
     │ (team)   │ Biết RÕ từng người     │ (leader gần domain,      │
     │          │                        │  phải evaluate trực tiếp) │
     ├──────────┼────────────────────────┼──────────────────────────┤
-    │ 20-150   │ Role-based SPM         │ CẦN vừa phải            │
+    │ 20-150   │ Role-based Self-Pattern-Modeling         │ CẦN vừa phải            │
     │ (company)│ Biết role, ko cần      │ (evaluate qua proxy:     │
     │          │ biết rõ từng người     │  team leads, metrics)     │
     ├──────────┼────────────────────────┼──────────────────────────┤
@@ -753,37 +753,37 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → nhưng management cần coordination chunks (KHÁC domain)
       → Collaboration skills predict management quality TỐT HƠN sales.
       = Gap distribution ở sales ≠ gap distribution ở coordination.
-      = Promote Loại B specialist → đặt vào Loại 1 coordination → fail.
+      = Promote Expertise Compile specialist → đặt vào Loại 1 coordination → fail.
 
 
   ⭐ GIẢI THÍCH GOODALL QUA 2-LOẠI MODEL:
 
     Physician-CEO = Loại 1 (coordination, compiled qua managing)
                   + Loại 2 ĐỦ (scaffold y khoa, compiled qua years as doctor)
-    MBA-CEO      = Loại 1 (coordination, phần lớn Loại C install từ business school)
+    MBA-CEO      = Loại 1 (coordination, phần lớn Trust Compile install từ business school)
                   + Loại 2 THIẾU (không có scaffold y khoa → delegate blind)
 
     → Physician-CEO thắng VÌ có scaffold chunks ở core domain
     → KHÔNG phải vì giỏi y khoa hơn bác sĩ khác
-    → = Loại 2 = minimum threshold, KHÔNG CẦN Loại B depth
+    → = Loại 2 = minimum threshold, KHÔNG CẦN Expertise Compile depth
 
-  🟢 Goodall 2009, 2011 (hospitals, universities, F1 — multiple domains)
+  🟢 Goodall 2009, 2011 (hospitals, universities, Formula 1 — multiple domains)
   🟢 Benson, Li & Shue 2019 (Peter Principle empirical validation, QJE)
-  🟡 2-loại chunks model = framework synthesis (SPM + Compile-Taxonomy + Gap-Direction)
+  🟡 2-loại chunks model = framework synthesis (Self-Pattern-Modeling + Compile-Taxonomy + Gap-Direction)
   🟡 Scale-dependent requirement = framework inference (Dunbar + Status §15)
 ```
 
 ### §2.5 — Mẹ = First Coordination Node (v1.2)
 
 ```
-⭐⭐ MẸ LÀ COORDINATION NODE ĐẦU TIÊN MÀ TRẺ GẶP (BS v1.0 §9):
+⭐⭐ MẸ LÀ COORDINATION NODE ĐẦU TIÊN MÀ TRẺ GẶP (By-Product-Scale v1.0 §9):
 
   By-Product-Scale v1.0 phát hiện: Mẹ MAP CHÍNH XÁC vào 5 Capabilities (§2.2):
 
   ┌──────────────────────────────┬────────────────────────────────────┐
   │ §2.2 Capability              │ Mẹ Implementation                  │
   ├──────────────────────────────┼────────────────────────────────────┤
-  │ ① SPM across domains         │ Đọc sức khỏe, cảm xúc, xã hội,   │
+  │ ① Self-Pattern-Modeling across domains         │ Đọc sức khỏe, cảm xúc, xã hội,   │
   │                              │ học tập của con CÙNG LÚC            │
   ├──────────────────────────────┼────────────────────────────────────┤
   │ ② Gap detection              │ "Con cần gì?" — trẻ 0-3 KHÔNG THỂ │
@@ -810,7 +810,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Mẹ = PROTOTYPE mà trẻ compile "coordination node LÀ GÌ"
     → = Trust cascade BẮT ĐẦU từ mẹ → propagate suốt đời
 
-  ⭐ NODE DUAL NATURE (BS v1.0 §3):
+  ⭐ NODE DUAL NATURE (By-Product-Scale v1.0 §3):
 
     Mẹ = VEHICLE (fill own gap: parental drive, need nurture)
        + ROAD (enable child: by-product = protection, development)
@@ -822,8 +822,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → By-product match: node fill OWN gap → by-product = VALUE cho others
     → = §9.3 "mọi vị trí đều essential" vì CÙNG principle
 
-  🟡 Mẹ = first coordination node = framework synthesis (BS v1.0 §9)
-  🟡 Node dual nature = framework synthesis (BS v1.0 §3)
+  🟡 Mẹ = first coordination node = framework synthesis (By-Product-Scale v1.0 §9)
+  🟡 Node dual nature = framework synthesis (By-Product-Scale v1.0 §3)
 ```
 
 ---
@@ -863,7 +863,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   FOUNDER DETECT VÌ COMPILED, KHÔNG PHẢI VÌ MAGIC:
 
-    Jensen Huang (CB §2.5 Case 2):
+    Jensen Huang (Collective-Body §2.5 Case 2):
       1993: EE + CS chunks → "parallel computing > serial cho many tasks"
       → Gap-direction: parallel computing HAS potential lớn hơn current use
       → 30 năm compile + domain verify → GPU → CUDA → AI revolution
@@ -880,13 +880,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → "Chưa biết = không có gap" → người chưa work trong industry = KHÔNG THẤY
 
   QUAN TRỌNG:
-    → Detect gap ≠ fill gap successfully (CB §2.5 ④: domain = final arbiter)
+    → Detect gap ≠ fill gap successfully (Collective-Body §2.5 ④: domain = final arbiter)
     → Detect đúng + execute sai = vẫn fail
     → Detect sai (gap không thật) + execute giỏi = vẫn fail
     → Phase 1 chỉ là BẮT ĐẦU
 
   🟢 Expert intuition = compiled patterns (Klein 1998, Kahneman 2011)
-  🟡 Application to founders = framework synthesis (CB §2.5)
+  🟡 Application to founders = framework synthesis (Collective-Body §2.5)
 ```
 
 ### §3.3 — Phase 2: First Followers (personal maps, 5-20 people)
@@ -912,7 +912,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ③ PERSONAL TRUST (small group = high bandwidth):
        → 5-20 người: founder BIẾT từng người → personal connection
-       → SPM deep per-person → trust maps PRECISE
+       → Self-Pattern-Modeling deep per-person → trust maps PRECISE
        → = Tại sao founders thường CỰC close với first employees
        → = Personal maps at this scale = STRONG, not symbolic
 
@@ -994,14 +994,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Founder ở Phase 2-3: lead qua PERSONAL trust (biết từng người)
     Phase 4: team > 150 → CAN'T biết từng người → PHẢI:
-      ① Tạo hierarchy (layers: VP → Director → Manager → IC)
+      ① Tạo hierarchy (layers: Valence-Propagation → Director → Manager → IC)
       ② Tạo processes (SOP, rules, workflows)
       ③ Delegate authority (trust cascade formalized)
       ④ Accept losing personal control
 
     NHIỀU FOUNDERS FAIL Ở TRANSITION NÀY:
       → Gap distribution CẦN SHIFT:
-        From "personal SPM" (know each person)
+        From "personal Self-Pattern-Modeling" (know each person)
         → "system design" (design structure that works WITHOUT personal knowledge)
       → Đây là DOMAIN KHÁC → cần compile chunks MỚI ở system design domain
       → Founder giỏi detect + personal lead ≠ founder giỏi system design
@@ -1072,7 +1072,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Scale         │ Map type     │ PFC cost         │ Node function     │
   ├───────────────┼──────────────┼──────────────────┼───────────────────┤
   │ 5-20          │ PERSONAL     │ High (biết từng  │ Direct lead       │
-  │ (team,        │ (biết rõ     │ người, nhiều     │ (personal SPM,    │
+  │ (team,        │ (biết rõ     │ người, nhiều     │ (personal Self-Pattern-Modeling,    │
   │  gia đình)    │  từng người) │ chiều per-agent) │  direct authority) │
   ├───────────────┼──────────────┼──────────────────┼───────────────────┤
   │ 20-150        │ ROLE-BASED   │ Medium (role =   │ Manage via roles  │
@@ -1224,7 +1224,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = ABSTRACT-DOMINANT gap distribution
 
     Leader cần:
-      → People-reading SPM (social: who fits where?)
+      → People-reading Self-Pattern-Modeling (social: who fits where?)
       → Team dynamics (social: how to motivate?)
       → Operational decision (social-abstract: how to execute?)
       → Communication (social: how to convey vision?)
@@ -1323,7 +1323,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├──────────────────────┼────────────────────────────────────────┤
   │ Initiative-taking    │ Actual coordination quality             │
   │ Confidence display   │ Decision accuracy under uncertainty     │
-  │ Social dominance     │ SPM accuracy (put right people right)  │
+  │ Social dominance     │ Self-Pattern-Modeling accuracy (put right people right)  │
   │ Verbal fluency       │ Trust building (sustainable cascade)    │
   │ Height, appearance   │ Gap detection (see real opportunities)  │
   │ = "TRÔNG NHƯ leader" │ = "LÀM TỐT coordination"              │
@@ -1333,13 +1333,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     EMERGENCE = Status scan results (Status §2):
       → Body scan: "người này có vẻ leader" = visual + auditory + context cues
-      → F1 Compiled: "leader prototype" = chunk pattern đã compiled
+      → Compiled: "leader prototype" = chunk pattern đã compiled
         (tall, confident, decisive-sounding)
       → = "Cognitive Ancestral Leader Prototypes" (CALPs — ELT)
       → Body CẢM THẤY ai "trông giống leader" → defer → node assigned
 
     EFFECTIVENESS = Actual §2.2 capabilities:
-      → SPM accuracy, gap detection, PFC bandwidth, uncertainty tolerance,
+      → Self-Pattern-Modeling accuracy, gap detection, PFC bandwidth, uncertainty tolerance,
         trust cascade building
       → = These are DIFFERENT from "looking like a leader"
       → CÓ THỂ overlap (confident + actually capable) HOẶC KHÔNG
@@ -1372,7 +1372,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ IMPLICATION:
     → Selection systems that ONLY use emergence cues = MISS Case ③, SELECT Case ②
-    → Better systems: test EFFECTIVENESS directly (domain verify — CB §2.5 Step 5)
+    → Better systems: test EFFECTIVENESS directly (domain verify — Collective-Body §2.5 Step 5)
     → Military (Status §14): rank based on training + experience (partly effectiveness)
     → Modern: interviews + track record + probation = attempt to test effectiveness
     → NHƯNG: body scan bias STILL strong → "trông giống leader" vẫn advantage
@@ -1383,7 +1383,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Peter Principle empirical. Firms promote top salespeople →
       team sales GIẢM ~1/3. Sales performance ≠ coordination capability.
       = Case ② at large scale: high domain emergence, low coordination effectiveness.
-      = §2.4: promote Loại B specialist → đặt vào Loại 1 coordination → fail.
+      = §2.4: promote Expertise Compile specialist → đặt vào Loại 1 coordination → fail.
 
     🟢 Goodall 2009, 2011 (Social Science & Medicine):
       Physician-CEOs > MBA-CEOs tại bệnh viện (p<0.001).
@@ -1409,7 +1409,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   EFFECTIVENESS CÓ THỂ = 0:
     → Chưa compile coordination chunks (chưa bao giờ coordinate thật)
-    → SPM kém (không biết nhìn người)
+    → Self-Pattern-Modeling kém (không biết nhìn người)
     → PFC bandwidth yếu (hoặc used for pleasure, not coordination)
     → = Node OCCUPIED nhưng KHÔNG OPERATE
 
@@ -1457,7 +1457,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Pérez-González 2006 (AER), Bennedsen et al. 2007 (QJE), Ottinger & Voigtlander 2025 (Econometrica)
 ```
 
-### §6.3 — Compilation Path: Loại A/B/C × Coordination Domain (v1.1)
+### §6.3 — Compilation Path: 3 Compile Types × Coordination Domain (v1.1)
 
 ```
 ⭐⭐ COORDINATION CHUNKS COMPILE NHƯ THẾ NÀO:
@@ -1468,16 +1468,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CÂU TRẢ LỜI: KHÔNG. Nhưng lý thuyết = scaffold HỮU ÍCH.
 
 
-  ① LOẠI A (Direct experience) — CƠ CHẾ CHÍNH:
+  ① EXPERIENCE COMPILE — CƠ CHẾ CHÍNH:
 
     (Compile-Taxonomy §2.1: action → result → body evaluate → compile)
 
-    Coordination Loại A:
+    Coordination Experience Compile:
       Quyết định allocate → kết quả → body register reward/pain → compile
       "Giao task A cho người X → succeed → body compile: X phù hợp A"
       "Giao task B cho người Y → fail → body compile: Y chưa phù hợp B"
 
-    → Cần NHIỀU LẦN × NHIỀU NGƯỜI × NHIỀU DOMAIN → compiled SPM maps SÂU
+    → Cần NHIỀU LẦN × NHIỀU NGƯỜI × NHIỀU DOMAIN → compiled Self-Pattern-Modeling maps SÂU
     → Giải thích Gabarro 1987: new leader cần 24-36 tháng:
       Taking Hold (3-6m) → Immersion → Reshaping → Consolidation → Refinement
       = 5 phases = compilation timeline cho coordination chunks ở scale mới
@@ -1489,11 +1489,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → "Nhìn người" cần THẤY kết quả từ người đó → needs TIME
 
 
-  ② LOẠI C (Theory/MBA install) — SCAFFOLD, KHÔNG THAY THẾ:
+  ② TRUST COMPILE (Theory/MBA install) — SCAFFOLD, KHÔNG THAY THẾ:
 
     (Compile-Taxonomy §2.3: trust → install short + collective hold long)
 
-    Management theory = Loại C install:
+    Management theory = Trust Compile install:
       Trust professors/textbooks → compile patterns SHORT
       "Delegation 5-step" → body compile [delegate → follow 5 steps → result]
       Chain dài NẰM Ở collective (textbooks, case studies), không ở body
@@ -1501,48 +1501,48 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Mintzberg 2004 (Managers Not MBAs):
       "MBA trains the WRONG people in the WRONG ways."
       Young students WITHOUT experience → theory install → believe trained → FAIL.
-      = Loại C install WITHOUT Loại A foundation = fragile schema.
+      = Trust Compile install WITHOUT Experience Compile foundation = fragile schema.
 
     Research: 91% managers quyết định dựa trên personal experience.
       Chỉ 14% đọc peer-reviewed journal.
-      = Body CẢM THẤY Loại A reliable hơn → ĐỘ tin cậy compilation quality.
+      = Body CẢM THẤY Experience Compile reliable hơn → ĐỘ tin cậy compilation quality.
 
-    NHƯNG — LOẠI C VẪN CÓ GIÁ TRỊ NHƯ SCAFFOLD:
+    NHƯNG — TRUST COMPILE VẪN CÓ GIÁ TRỊ NHƯ SCAFFOLD:
       → Cho gap-direction SỚM: "biết HƯỚNG nào cần explore"
         ("Chưa biết = không có gap" → theory GIỚI THIỆU domain)
-      → Accelerate Loại A: "biết hỏi đúng câu, tìm đúng chỗ"
+      → Accelerate Experience Compile: "biết hỏi đúng câu, tìm đúng chỗ"
       → Reduce trial-error cost: "biết patterns thất bại phổ biến"
       → = Theory FIRST → experience REFINE = tốt hơn no theory at all
       → = Tại sao Goodall's physician-CEO CŨNG cần management training
 
 
-  ③ LOẠI B (Compiled expertise) — CHO COORDINATION DOMAIN CỤ THỂ:
+  ③ EXPERTISE COMPILE — CHO COORDINATION DOMAIN CỤ THỂ:
 
     Sau NHIỀU NĂM coordinate → coordination chunks compile ĐỦ SÂU
     → Expert coordinator: "nhìn team biết ngay vấn đề ở đâu"
-    → = F1 compiled → automatic → cost ≈ 0
+    → = Compiled → automatic → cost ≈ 0
     → = Klein 1998: recognition-primed decision ở coordination domain
 
-    NHƯNG: Loại B coordination ở scale X ≠ Loại B coordination ở scale Y
+    NHƯNG: Expertise Compile coordination ở scale X ≠ Expertise Compile coordination ở scale Y
     → §3.5 bottleneck: coordination 20 người = DOMAIN KHÁC coordination 200 người
-    → Mỗi scale mới = quay lại Loại A + C compile lại
+    → Mỗi scale mới = quay lại Experience + Trust Compile compile lại
     → = Peter Principle: tốt ở scale cũ → promoted → chưa đủ chunks ở scale mới
 
 
   ⭐ SYNTHESIS — MÔ HÌNH 3 TẦNG COMPILE CHO LEADER:
 
-    TẦNG 1 — SCAFFOLD (Loại C): theory, mentorship, observation
+    TẦNG 1 — SCAFFOLD (Trust Compile): theory, mentorship, observation
       → "Biết coordination là gì, framework, patterns phổ biến"
       → Duration: months (MBA, training program, books)
       → CẦN THIẾT nhưng KHÔNG ĐỦ
 
-    TẦNG 2 — EXPERIENCE (Loại A): actual coordination + domain feedback
+    TẦNG 2 — EXPERIENCE (Experience Compile): actual coordination + domain feedback
       → "Làm thật, sai thật, body compile từ feedback"
       → Duration: 24-36 tháng (Gabarro 1987) per scale level
       → McCall 1998: leaders learn from CHALLENGING experiences
       → = Turnarounds, startups, scope increases = compilation accelerators
 
-    TẦNG 3 — EXPERTISE (Loại B): years of compiled coordination
+    TẦNG 3 — EXPERTISE (Expertise Compile): years of compiled coordination
       → "Nhìn người biết ngay, quyết định nhanh, accurate"
       → Duration: 10+ years in coordination domain
       → = Expert coordinator = leadership intuition
@@ -1941,7 +1941,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §9.4 — Hardware Subsidy Per Scale: Evolution of Node Substrate (v1.2)
 
 ```
-⭐⭐ CÙNG FUNCTION (anti-habituation), KHÁC NEUROCHEMISTRY (BS v1.0 §5):
+⭐⭐ CÙNG FUNCTION (anti-habituation), KHÁC NEUROCHEMISTRY (By-Product-Scale v1.0 §5):
 
   By-Product-Scale v1.0 phát hiện: hardware subsidy SHIFT từ body → collective
   across scales. Node evolution (§9.1) = cùng shift này:
@@ -1997,9 +1997,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       L1: oxytocin prevents pair bond decay
       L2: serotonin prevents hierarchy decay
 
-  🟡 Hardware subsidy per scale = framework synthesis (BS v1.0 §5)
+  🟡 Hardware subsidy per scale = framework synthesis (By-Product-Scale v1.0 §5)
   🟢 Serotonin × hierarchy (Sapolsky, Status §9.2)
-  🟢 Oxytocin × bonding (VP v3.0, Connection v5.0)
+  🟢 Oxytocin × bonding (Valence-Propagation v3.0, Connection v5.0)
 ```
 
 ---
@@ -2031,7 +2031,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      (Dunbar 1992 🟢, replicated)
 
   ✅ Expert leaders outperform generalist leaders in domain-intensive orgs (v1.1)
-     (Goodall 2009, 2011 🟢: hospitals, universities, F1)
+     (Goodall 2009, 2011 🟢: hospitals, universities, Formula 1)
   ✅ Peter Principle = empirically validated (v1.1)
      (Benson, Li & Shue 2019 🟢: N=38,843, sales → management penalty)
   ✅ Hereditary succession = measurable performance penalty (v1.1)
@@ -2045,8 +2045,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟡 FRAMEWORK SYNTHESIS (logical, chưa direct test):
 
-  🟡 Node = Partial PFC cho collective (CB §4.2 ⑥ extension)
-  🟡 5 Capabilities model (SPM + detection + bandwidth + uncertainty + trust)
+  🟡 Node = Partial PFC cho collective (Collective-Body §4.2 ⑥ extension)
+  🟡 5 Capabilities model (Self-Pattern-Modeling + detection + bandwidth + uncertainty + trust)
   🟡 2 Loại Chunks model: Meta-Người × Scaffold-Domain (v1.1)
   🟡 Scale-dependent Loại 1/Loại 2 requirement shift (v1.1)
   🟡 3-tầng compile model: Scaffold → Experience → Expertise (v1.1)
@@ -2058,10 +2058,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Threshold of tolerance model (§8.3)
   🟡 Historical Dominance → Prestige trend
   🟡 3 configurations: merged, separated, distributed
-  🟡 Prestige = genuine resonance, Dominance = forced resonance (v1.2, BS v1.0 §8)
-  🟡 Mẹ = first coordination node, 5 capabilities mapping (v1.2, BS v1.0 §9)
-  🟡 Node dual nature: VEHICLE + ROAD (v1.2, BS v1.0 §3)
-  🟡 Hardware Subsidy Per Scale: oxytocin→serotonin→trust infrastructure (v1.2, BS v1.0 §5)
+  🟡 Prestige = genuine resonance, Dominance = forced resonance (v1.2, By-Product-Scale v1.0 §8)
+  🟡 Mẹ = first coordination node, 5 capabilities mapping (v1.2, By-Product-Scale v1.0 §9)
+  🟡 Node dual nature: VEHICLE + ROAD (v1.2, By-Product-Scale v1.0 §3)
+  🟡 Hardware Subsidy Per Scale: oxytocin→serotonin→trust infrastructure (v1.2, By-Product-Scale v1.0 §5)
 
   🔴 HYPOTHESIS (speculation, little evidence):
 
@@ -2075,7 +2075,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
   Q1: Coordination talent — measurable?
       → 5 capabilities model (§2.2) — CÓ THỂ operationalize?
-      → SPM accuracy: HOW to measure "nhìn người giỏi"?
+      → Self-Pattern-Modeling accuracy: HOW to measure "nhìn người giỏi"?
       → Gap detection: HOW to measure "thấy cơ hội sớm"?
       → Cần: psychometric tools specifically for coordination domain
 
@@ -2089,7 +2089,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Data có (startup databases) nhưng chưa analyzed qua framework lens
 
   Q4: Emergence ≠ Effectiveness — CÓ THỂ design selection systems better?
-      → PARTIALLY ANSWERED (v1.1): §2.4 → test Loại 1 (SPM) + Loại 2 (scaffold)
+      → PARTIALLY ANSWERED (v1.1): §2.4 → test Loại 1 (Self-Pattern-Modeling) + Loại 2 (scaffold)
         separately from emergence cues. Benson 2019: collaboration skills predict
         management quality better than sales performance.
       → STILL OPEN: specific selection tools? AI-assisted matching?
@@ -2103,7 +2103,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Q6: Node × Gap Distribution: can we map coordination talent to specific
       neural/hardware variation?
-      → SPM variation (vmPFC/DRN — Autonomy-Hardware §1)
+      → Self-Pattern-Modeling variation (vmPFC/DRN — Autonomy-Hardware §1)
       → PFC bandwidth variation (COMT — PFC-Hardware)
       → Social sensitivity variation (mirror system variation)
       → = Hardware RANGE → experience develops → coordination talent
@@ -2137,7 +2137,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       by-product match (→ §9.3)
 
   AGENT-MECHANISM FILES (v1.2):
-    → Self-Pattern-Modeling.md v3.1 — F1/F2, Application 1 on SE (→ §2.2 ① SPM)
+    → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Application 1 on Simulation-Engine (→ §2.2 ① Self-Pattern-Modeling)
     → By-Product-Gap-Resonance.md v1.4 — 2-Stream, resonance baseline (→ §1.4, §9.3)
     → By-Product-Scale.md v1.0 — 1 mechanism × 3 scales, Prestige=genuine resonance,
       hardware subsidy per scale (→ §1.4, §2.5, §9.4)
@@ -2145,8 +2145,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   OBSERVATION PARAMETERS:
     → Connection.md v5.0 — 3 Generative Primitives, M1-M4, 4-Layer Sustainability,
-      Hw Subsidy, pathway ④ shared risk (→ §3.3), social presence (→ §5.3 channel ⑤)
-    → Body-Coupling.md v3.0 — per-agent coupling, System Compilation, Hw Subsidy,
+      Hardware Subsidy, pathway ④ shared risk (→ §3.3), social presence (→ §5.3 channel ⑤)
+    → Body-Coupling.md v3.0 — per-agent coupling, System Compilation, Hardware Subsidy,
       3 Firing Modes (→ §6 System Compilation, §5.3)
     → Meaning.md v2.1 — anchor exhausted (→ §3.6 lock),
       work alignment (→ §5.3 channel ⑥)
@@ -2154,10 +2154,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   MECHANISM FILES:
     → PFC-Function.md — 24 functions (→ §2.1 PFC → Node mapping)
-    → Inter-Body-Mechanism.md v1.0 — Architecture B (→ §1.2),
+    → Inter-Body-Mechanism.md v1.0 — Compilable Architecture (→ §1.2),
       PFC=Lawyer (→ §0.2 bias)
     → Self-Created-Threat.md v1.0 — 5 mechanisms lock (→ §8.1 ③)
-    → Compile-Taxonomy.md — Loại A/B/C (→ §2.4 2 loại chunks, §6.3 compilation path) (v1.1)
+    → Compile-Taxonomy.md — 3 Compile Types (→ §2.4 2 loại chunks, §6.3 compilation path) (v1.1)
     → Gap-Direction.md §3 — "chưa biết = không có gap" (→ §2.4 scaffold necessity) (v1.1)
 
   RESEARCH FILES:
@@ -2202,9 +2202,9 @@ CHANGELOG:
       oxytocin (L1) → serotonin (L2) → trust infrastructure (L3)
       Evolution mapping, anti-habituation function identical across scales
     → §10.1: +4 🟡 items (Prestige=genuine, Mẹ=first node, dual nature, hardware subsidy)
-    → §11: +Agent-Mechanism files category (SPM v3.1, BPGR v1.4, BS v1.0, AM v2.1)
-      All dep versions updated (Connection v5.0, BC v3.0, GDP v1.1)
-    → GLOBAL: SPM rename Match→Modeling (5 occurrences)
+    → §11: +Agent-Mechanism files category (Self-Pattern-Modeling v3.1, By-Product-Gap-Resonance v1.4, By-Product-Scale v1.0, Agent-Mechanism v2.1)
+      All dep versions updated (Connection v5.0, Body-Coupling v3.0, Gap-Distribution-Profile v1.1)
+    → GLOBAL: Self-Pattern-Modeling rename Match→Modeling (5 occurrences)
     → PRESERVED: all 11 sections, all 18 research citations, all v1.0+v1.1 content
     → Backup: backup/Coordination-Node-v1.1-backup.md
 ```

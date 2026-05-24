@@ -218,7 +218,7 @@ FLOW 6 BƯỚC — TỪ DISSONANCE TỚI SYNC:
      → = Imagine-Final NÀY → THÀNH Anchor-Schema
      → ⚠️ NẾU không candidate nào đủ:
        → PFC: "chưa tìm được" → quay lại ③ (thử thêm)
-       → HOẶC: bế tắc → "chán" (Boredom-Analysis §1 ④)
+       → HOẶC: stuck → "chán" (Boredom-Analysis §1 ④)
 
   ⑤ ANCHOR AMPLIFY → VÔ THỨC SYNC:
      → Schema được chọn → AMPLIFY (PFC spotlight + body commit)
@@ -584,7 +584,7 @@ TRUST POSITIVE vs TRUST NEGATIVE:
     │ Anchor hướng     │ TỚI cái hay     │ TRÁNH XA cái dở     │
     │ Dissonance feel  │ "Khó nhưng xứng"│ "Khó, nhưng nếu     │
     │                  │                  │  dừng sẽ tệ hơn"    │
-    │ Reward type      │ Opioid ("sướng") │ Relief ("hết đau")   │
+    │ Reward type      │ Opioid ("pleasant")│ Relief ("hết đau")  │
     │ Sustainable      │ CÓ (reinforce)  │ KÉM (diminishing)    │
     │ Body-base long   │ Melody smooth   │ Neural wear           │
     │ term             │                  │ (cortisol chronic)   │
@@ -810,7 +810,7 @@ NGUỒN ③ — COMPILED SCHEMAS (bottom-up, mạnh nhất)
 
     "Tiếng gọi" (calling):
       → Từ nhỏ thích tháo lắp → body reward MỖI LẦN → compile deep
-      → Schema "tháo lắp = sướng" compile HÀNG NGHÌN LẦN
+      → Schema "tháo lắp = pleasant" compile HÀNG NGHÌN LẦN
       → Lớn lên: schema NÀY ĐỦ MẠNH → tự thành Anchor-Schema
       → PFC: "à, mình muốn làm kỹ sư" (conscious hóa SAU)
       → = Anchor-Schema TRƯỚC, Imagine-Final SAU
@@ -954,7 +954,7 @@ NGUỒN ④ — EXTERNAL INJECT (outside-in)
       → = CONFLICT → dissonance → PFC phải CHOOSE
     → ① PFC "build startup" + ④ External "phải ổn định"
       → = CONFLICT → dissonance → which anchor WINS?
-    → ③ Compiled "tháo lắp = sướng" + ① PFC "career kỹ sư"
+    → ③ Compiled "tháo lắp = pleasant" + ① PFC "career kỹ sư"
       → = ALIGN → Anchor-Schema CỰC MẠNH (cả 2 nguồn reinforce)
 
   → ANCHOR MẠNH NHẤT = NHIỀU NGUỒN ALIGN:
@@ -1215,7 +1215,7 @@ PREHISTORIC (hàng triệu năm → ~12,000 năm trước)
   TÔN GIÁO sơ khai CÓ — nhưng đơn giản:
     → Animism, shamanism: giải thích cái chưa biết
     → Chôn cất có đồ tùy táng (~100,000 năm trước)
-    → Göbekli Tepe (~11,600 BP): ritual site TRƯỚC nông nghiệp
+    → Göbekli Tepe (~11,600 Background-Pattern): ritual site TRƯỚC nông nghiệp
     → = Con người ĐÃ CẦN anchor cho "cái không giải thích được"
     → = NHƯNG: anchor CƠ BẢN (local spirit, ancestor worship)
     → = Chưa cần hệ thống LỚN vì xã hội chưa phức tạp
@@ -1402,7 +1402,7 @@ HIỆN ĐẠI (~300 năm → nay, đặc biệt ~30 năm)
       → Anchor: "lương" (compiled — weak nhưng real)
       → Trust: thấp (lương = reward NHỎ, không excite)
       → Dàn nhạc: sync MỜ → "sống được" nhưng "thiếu gì đó"
-      → = Boredom-Analysis §1 Loại 2: "rõ ràng nhưng bế tắc"
+      → = Boredom-Analysis §1 Loại 2: "rõ ràng nhưng stuck"
 
     Duration: CÓ THỂ KÉO DÀI NHIỀU NĂM (vì không đau ĐỦ để thay đổi)
     Risk: "sống mà như không sống" — functional nhưng KHÔNG thrive
@@ -1459,7 +1459,7 @@ HIỆN ĐẠI (~300 năm → nay, đặc biệt ~30 năm)
       → = 4 ANCHORS, 3 HƯỚNG KHÁC NHAU → xé dàn nhạc
 
     VD điển hình — VN context:
-      → Con: body-base muốn vẽ (③ compiled "vẽ = sướng")
+      → Con: body-base muốn vẽ (③ compiled "vẽ = pleasant")
       → Bố mẹ: inject "phải làm bác sĩ" (④ repeat + guilt)
       → Xã hội: inject "phải giàu" (④ social pressure)
       → = 3 anchors, 3 hướng → con BỊ XÉ

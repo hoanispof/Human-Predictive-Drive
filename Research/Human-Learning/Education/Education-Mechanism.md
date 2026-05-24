@@ -881,7 +881,7 @@ EDUCATION ≠ SCHOOL:
 
   Curiosity = body-intrinsic drive:
     → Từ nguồn ① PFC Imagine-Final: "tôi MUỐN biết" (self-directed)
-    → Từ nguồn ② Hippocampus: "lần trước làm X thì sướng" (experience)
+    → Từ nguồn ② Hippocampus: "lần trước làm X thì pleasant" (experience)
     → Từ nguồn ③ Compiled: habits chạy auto (không cần ngoại lực)
     → = Curiosity = OUTCOME khi ①②③ active
 

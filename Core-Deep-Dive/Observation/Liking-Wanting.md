@@ -1,8 +1,9 @@
 ---
 title: Liking-Wanting — Bridge File Từ Berridge Đến Framework
-version: 1.0
+version: 1.1
 created: 2026-04-18
-status: v1.0 — BRIDGE FILE (mainstream reader entry point)
+refined: 2026-05-23 (v1.1 — Concept Cascade: +Bond-Architecture × wanting, +Satiation × liking, +Hardware Subsidy × wanting. Updated cross-refs)
+status: v1.1 — BRIDGE FILE (mainstream reader entry point)
 scope: |
   Map thuật ngữ wanting/liking (Berridge-Robinson 1998) sang kiến trúc framework.
   KHÔNG phải framework tool — là BRIDGE cho reader quen mainstream neuroscience.
@@ -122,7 +123,7 @@ FILE NÀY TRONG FRAMEWORK:
 
     LIKING = HEDONIC RESPONSE:
       → Opioid-mediated pleasure when RECEIVED
-      → "Tôi THÍCH cái đó — sướng!"
+      → "Tôi THÍCH cái đó — pleasant!"
       → Opioid system (endorphin, enkephalin)
       → Có thể "liking" MÀ KHÔNG "wanting" (Parkinson's: enjoy nhưng không seek)
 
@@ -406,7 +407,7 @@ FILE NÀY TRONG FRAMEWORK:
     →                   → NO  → body "meh" → PFC discard
 
   = LÕI CỦA LIKING:
-    → Subjective experience "sướng", "thỏa mãn", "eureka"
+    → Subjective experience "pleasant", "satisfied", "eureka"
     → = Endogenous opioids (endorphin, enkephalin, dynorphin)
     → = Berridge ĐÚNG: liking = opioid
 
@@ -745,7 +746,7 @@ CASE 5b — ALTRUISM ("từ thiện vô tư"):
   FRAMEWORK:
     → PFC nói: "giúp người vì tử tế" (confabulation)
     → Compiled patterns fire nhiều chains SONG SONG (Valence-Propagation.md §6):
-      → mirror SPM → see relief → body mirror → micro-opioid
+      → mirror Self-Pattern-Modeling → see relief → body mirror → micro-opioid
       → status → "người tốt" identity confirm → status need met → opioid
       → identity → action match tự nhận → coherence → opioid
       → connection → bond with recipient → connection need met → opioid
@@ -765,7 +766,7 @@ CASE 5c — STUDYING CHILDREN (cùng hành vi, khác liking):
 
     Path A — Trẻ THÍCH HỌC (curiosity compiled):
       → Body-need: mastery + curiosity (hardware fit)
-      → Imagine-Final: "tôi giải được cái khó" → body pre-feel thỏa mãn
+      → Imagine-Final: "tôi giải được cái khó" → body pre-feel satisfied
       → Giải bài xong → schema match → Goldilocks → opioid
       → = GENUINE liking — all H10 preconditions met
 
@@ -818,7 +819,7 @@ LÝ DO 2 — LIKING KHÔNG TỰ ĐỘNG — CÓ 5 PRECONDITIONS:
     → Opioid reward vs relief (cortisol drop)
     → Compiled-context liking (opioid-tagged) vs threat-compiled (threat-tagged)
 
-  = "Liking" nói "sướng" nhưng không nói "sướng KIỂU GÌ + TẠI SAO"
+  = "Liking" nói "pleasant" nhưng không nói "pleasant KIỂU GÌ + TẠI SAO"
 
 
 LÝ DO 3 — PFC BLINDNESS KHÔNG THỂ HIỆN QUA WANTING/LIKING:
@@ -871,6 +872,56 @@ LÝ DO 4 — FRAMEWORK ĐÃ CÓ THAM SỐ ĐẦY ĐỦ:
   Wanting/liking = THIẾU ở level phân tích mechanism + can thiệp
   Framework = KHÔNG BÁC BỎ — chỉ ZOOM IN sâu hơn
   File này = BRIDGE giúp reader zoom từ Berridge → framework
+```
+
+### §5.1 — × New Concepts (28-session Drill Propagation)
+
+```
+BOND-ARCHITECTURE × WANTING (Bond-Architecture.md v1.0):
+
+  6 wanting mechanisms (§2) MAP vào 4 bond types:
+
+  ┌────────────────────────┬────────────────────────────────────┐
+  │ WANTING MECHANISM      │ BOND TYPE INTERACTION              │
+  ├────────────────────────┼────────────────────────────────────┤
+  │ ① Imagine-Final Preview│ All bonds — PFC simulate per-bond │
+  │ ② VTA Dopamine Alert   │ All bonds — delta detection       │
+  │ ③ Compiled Momentum    │ Proximity + Shared-Experience     │
+  │                        │ (auto-drive from compiled routine) │
+  │ ④ Anchor-Schema Binding│ Identity bond (strongest anchor)  │
+  │ ⑤ Valence Chain        │ Reciprocal bond (chain exchange)  │
+  │ ⑥ Self-Generated Threat│ Identity + Proximity (loss fear)  │
+  └────────────────────────┴────────────────────────────────────┘
+
+  → Bond type SHAPES which wanting mechanisms DOMINATE:
+    Proximity bond → ③ compiled momentum + ⑥ loss fear → stable, conservative
+    Reciprocal bond → ⑤ valence chain + ① imagine → active, exchange-driven
+    Identity bond → ④ anchor + ⑥ threat → deepest, hardest to change
+
+SATIATION TYPES × LIKING (Gap-Body-Need.md v1.0):
+
+  Liking (§3) = opioid CÓ ĐIỀU KIỆN → satiation matters:
+    ENGINE satiation: opioid system mệt → liking GIẢM dù stimulus SAME
+      VD: ăn cùng món yêu thích → lần 1 ngon, lần 100 bình thường
+    ROAD satiation: cùng path fill → bored → cần path MỚI
+      VD: được khen cùng cách → habituate → cần khen KHÁC
+    VEHICLE satiation: entity cụ thể bão hòa → cần entity KHÁC
+      VD: nghe bài nhạc yêu thích × 50 → chuyển bài
+  → H10 ④ Goldilocks zone (§3.2) = satiation boundary:
+    Dưới satiation → liking fire. Trên satiation → "quen rồi" → no fire.
+
+HARDWARE SUBSIDY × WANTING (Valence-Propagation v3.0 §5):
+
+  → Hardware subsidy AMPLIFY wanting SELECTIVELY:
+    Mức 5 entity (con): wanting ③ compiled momentum + ⑥ loss fear = MAXIMUM
+      → Body cung cấp oxytocin/opioid baseline → wanting "miễn phí"
+    Mức 1 entity (stranger): wanting = chỉ ① imagine + ② VTA → must EARN
+    → = TẠI SAO wanting toward family ≠ wanting toward stranger
+      (CÙNG mechanism, KHÁC hardware subsidy)
+
+🟡 Bond-Architecture × wanting = framework application (6 mech × 4 bonds)
+🟡 Satiation × liking = framework convergence (H10 Goldilocks ↔ satiation)
+🟡 Hardware Subsidy × wanting = framework application (selective amplification)
 ```
 
 ---

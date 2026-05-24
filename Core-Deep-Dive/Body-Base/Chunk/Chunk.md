@@ -1,8 +1,9 @@
 ---
-title: Chunk.md v2.2 — Unified Chunk System Reference
+title: Chunk.md v2.3 — Unified Chunk System Reference
 created: 2026-03-28 (v1.0 DRAFT)
 updated: 2026-05-15 (v2.2 — §2.6 Context-tag + §5.4 Compile depth validation from Health Conditions Drill)
-status: v2.2 COMPLETE
+refined: 2026-05-23 (v2.3 — Concept Cascade: +Entity-Compiled, +Entity-Access, +Bond-Architecture, +Simulation-Engine, +PFC-Label. Agent-Mechanism/ 11 files. Updated all cross-refs)
+status: v2.3 COMPLETE
 scope: |
   CORE REFERENCE FILE cho toàn bộ chunk system.
   Tổng hợp essence từ 44+ files, ~48,600L deep analysis.
@@ -21,7 +22,7 @@ language: Tiếng Việt primary + English technical
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Speculative
 ---
 
-# Chunk.md v2.2 — Unified Chunk System
+# Chunk.md v2.3 — Unified Chunk System
 
 > **Chunk = strength-weighted associative network compiled through experience.**
 > Não KHÔNG tính toán — não TÌM KIẾM trong database.
@@ -80,12 +81,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Speculative
   → = SUBSTRATE LAYER of cognitive architecture (H1 🟡🟢)
   → Everything runs on chunks: feeling, thinking, planning, identity
 
+  ENTITY-COMPILED = NEURAL REALITY (Entity-Compiled.md v1.0):
+    → Khi compile đủ sâu cho 1 entity (40-200h) → hub-and-spoke network
+    → Entity CÓ THẬT trong não (amygdala/hippocampus/PFC per-entity)
+    → Dunbar ~150: giới hạn Entity-Compiled capacity
+    → Grief = mất neural reality, KHÔNG phải "buồn" trừu tượng
+    → = Chunks compile đủ mạnh per-entity → become Entity-Compiled
+
   ⚠️ NO SOURCE TAG (Drill §10 — GAP 8):
   → Wire = wire. Body treat BÌNH ĐẲNG bất kể chunk compiled từ đâu.
   → Internal compile (self-experience) vs external install (culture/trust)
     = CÙNG format. KHÔNG CÓ field "nguồn gốc."
-  → PFC cannot distinguish → confabulation (PFC-Function §6, VP §7).
-  → Chi tiết: VP §1 ④ (no source tag), Drill §10.
+  → PFC cannot distinguish → confabulation (PFC-Function §6, Valence-Propagation §7).
+  → Chi tiết: Valence-Propagation §1 ④ (no source tag), Drill §10.
 ```
 
 ### §1.2 — Multi-modal from birth
@@ -117,14 +125,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Speculative
   → Chi tiết: F1 07-Social-Recognition-Arc.md §6
 ```
 
-### §1.3 — Pattern Hierarchy: Pattern ⊃ Chunk / Schema / BP / Label
+### §1.3 — Pattern Hierarchy: Pattern ⊃ Chunk / Schema / Background-Pattern / Label
 
 ```
 ⭐ PATTERN = SUBSTRATE TỔNG QUÁT (Drill §18 Q-NEW-1):
 
   Pattern = mọi configuration of neural activity (firing + wiring).
   = Khái niệm TỔNG QUÁT NHẤT trong framework.
-  = Chunk, Schema, Background Pattern đều LÀ pattern.
+  = Chunk, Schema, Background-Pattern đều LÀ pattern.
   = KHÔNG phải concept song parallel — mà CHỨA các concept dưới.
 
 
@@ -156,7 +164,7 @@ HIERARCHY 4 TẦNG:
 
 FORMAL RELATIONSHIPS:
 
-    Pattern ⊃ {Chunk, Schema, Background Pattern, ...}
+    Pattern ⊃ {Chunk, Schema, Background-Pattern, ...}
     Chunk ∈ Pattern (chunk là compiled unit CỦA pattern)
     Schema ⊂ Pattern (mọi schema là pattern, KHÔNG ngược lại)
     Label → Chunk/Pattern/Schema (label TRỎ TỚI, không phải nội dung)
@@ -184,7 +192,7 @@ CHI TIẾT TỪNG LEVEL:
   BACKGROUND PATTERN = OS KERNEL:
     → Accumulated từ nhiều experience → high link density
     → Fire MỌI LÚC nhưng PFC KHÔNG thấy (invisible)
-    → VD: "cách tôi phản ứng khi bị áp lực" = background pattern
+    → VD: "cách tôi phản ứng khi bị áp lực" = Background-Pattern
     → Chi tiết: Background-Pattern.md
 
   LABEL = HANDLE:
@@ -195,7 +203,7 @@ CHI TIẾT TỪNG LEVEL:
     → Chi tiết: §6, F1 08 §5
 
   → Pattern = SUBSTRATE. Chunk = COMPILED UNIT. Schema = STRUCTURE.
-  → Background Pattern = INVISIBLE SUBSTRATE. Label = ACCESS PATH.
+  → Background-Pattern = INVISIBLE SUBSTRATE. Label = ACCESS PATH.
 
   🟡 Hierarchy formalization — Drill §18, logic consistent với Hebb + Collins & Loftus
 ```
@@ -290,13 +298,20 @@ CHI TIẾT TỪNG LEVEL:
     ④ Kinh sách: compiled + unfalsifiable → KHÔNG BAO GIỜ bị challenge
     ⑤ Lãnh đạo: L2 coupling + authority = deep trust
 
-  TRUST = VALENCE META-DIMENSION (VP §2):
+  TRUST = VALENCE META-DIMENSION (Valence-Propagation v3.0 §2):
     → Trust KHÔNG phải hệ thống riêng biệt
     → Trust = 1 CHIỀU trong valence profile per-entity
     → Trust MODULATE CƯỜNG ĐỘ các channels KHÁC:
       Trust HIGH → mọi valence từ entity NÀY MẠNH hơn
       Trust LOW → mọi valence từ entity NÀY YẾU hơn
     → = Trust = MULTIPLIER cho toàn bộ profile
+
+  ENTITY-ACCESS GRADIENT (Entity-Access.md v1.2):
+    → Trust ≠ binary → gradient Mức 0-5 per-entity
+    → Mức 0 (stranger) → Mức 5 (self/child)
+    → Mỗi Mức = khác access level, khác trust depth
+    → Chi tiết calibration: Entity-Access-Calibration.md v1.0
+    → Chi tiết excess: Entity-Access-Excess.md v1.0
 
   TRUST COMPILE = CÙNG 4 CƠ CHẾ (§2.1):
     ① Repetition: Mẹ cho ăn × hàng nghìn lần → [mẹ→trust++++]
@@ -309,11 +324,11 @@ CHI TIẾT TỪNG LEVEL:
     3 kịch bản: gradual erosion, violent flip, body defense (exhaustion).
     "Lâu lâu nhớ hồi đó tốt" = old trust fire yếu, KHÔNG drive behavior.
 
-  → Chi tiết trust mechanism: VP §2, Drill §4, §20
+  → Chi tiết trust mechanism: Valence-Propagation §2, Drill §4, §20
   → Chi tiết trust break: Chunk §4.3 (competitive re-linking)
   → Chi tiết collective trust: Collective-Body.md §5
 
-  🟡 Trust gate formalization — Drill §4+§20, consistent với VP §2 + Chunk §2.1
+  🟡 Trust gate formalization — Drill §4+§20, consistent với Valence-Propagation §2 + Chunk §2.1
 ```
 
 ### §2.4 — Body-state at compile (direction matters)
@@ -387,7 +402,7 @@ GRADIENT COMPILE (NT1 + R-F1-10):
   │  METADATA        │ HỎI GÌ      │ BRAIN REGION  │ VÍ DỤ      │
   ├──────────────────────────────────────────────────────────────┤
   │ ① TEMPORAL       │ KHI NÀO?    │ Hippocampus   │ "Năm 2020" │
-  │   (time stamp)   │             │ (CA1, EC)     │            │
+  │   (time stamp)   │             │ (CA1, Entity-Compiled)     │            │
   │ ② SPATIAL        │ Ở ĐÂU?     │ Hippocampus   │ "Ngã tư X" │
   │   (location)     │             │ (place cells) │            │
   │ ③ CAUSAL         │ TẠI SAO?    │ Hippocampus   │ "Xe chạy   │
@@ -634,7 +649,7 @@ LINK STRENGTH = f(7 factors):
   ⭐ TRAUMA = LARGE trigger surface + THREAT direction:
     → Multi-modal + emotional peak + generalized pattern
     → Many entry points → high random activation → frequent intrusions
-    → = "Lờ mờ sợ cái gì đó mặc dù không biết rõ"
+    → = "Vague sợ cái gì đó mặc dù không biết rõ"
 
   ⭐ EXPERTISE = LARGE trigger surface + NOVELTY direction:
     → Multi-modal + deep engagement + many cross-links
@@ -656,7 +671,7 @@ LINK STRENGTH = f(7 factors):
     → Trigger surface KHÔNG CHỈ determined at compile time
     → Pattern tồn tại ĐỦ LÂU → chunks MỚI link vào → TS TĂNG DẦN
     → Chronic patterns: TS grow qua years dù không có event mới
-    → = "Background Pattern" — accumulated bias invisible to PFC
+    → = "Background-Pattern" — accumulated bias invisible to PFC
     → Chi tiết: Background-Pattern.md (2D model: Depth × Link Density)
 
   → Chi tiết activation dynamics: F4 01b-Chunk-Activation-Dynamics.md
@@ -825,6 +840,11 @@ LINK STRENGTH = f(7 factors):
     → Label DOES shape access patterns + reasoning paths
     → = Having word "saudade" doesn't CREATE the feeling
     → = But HAVING the word → easier to access, communicate, reason about
+
+  PFC-LABEL VOCABULARY (PFC-Label.md v1.0):
+    → 13 domains × 3-tier label system (framework vocabulary)
+    → Companion to Body-Feedback-Label.md v2.0
+    → = Standardized labels cho toàn bộ framework
 ```
 
 ### §6.2 — Label = logic-planning prerequisite
@@ -1044,6 +1064,12 @@ LINK STRENGTH = f(7 factors):
     → Feel trực tiếp: PFC KHÔNG cảm nhận → phải NHẬN từ body
     → Process 95% nền
     → Compile tự động
+
+  SIMULATION ENGINE = FORMALIZED PFC MECHANISM (Simulation-Engine.md v1.0):
+    → 1 Engine, 3 Components: Interoceptive Model × Simulation × Self-Pattern-Modeling
+    → PFC "search" (§9 below) = Simulation Engine running on chunk database
+    → IMAGINE scenario = Simulation Engine draft → body evaluate
+    → Chi tiết: Simulation-Engine.md v1.0 (PFC/), PFC-Operations.md v1.0
 
   → VÔ THỨC: giỏi "bây giờ body thế nào" (state detection)
   → PFC: giỏi "bây giờ có ĐÚNG với thực tế không" (domain check)
@@ -1406,8 +1432,20 @@ LINK STRENGTH = f(7 factors):
 
   ALREADY-DRILLED:
     Learning-Cycle.md → H8 learning cycle
-    Agent/ (4 files) → H9 identity + empathy
     Body-Feedback-Draft/ (5 files) → H10 P1-P5
+
+  AGENT-MECHANISM/ (11 files — formerly Agent/ 4 files):
+    Agent-Mechanism.md v2.1     — master: 10 dimensions per-entity
+    Self-Pattern-Modeling.md v3.1 — solo simulation, 1 mech × 3 dims
+    Entity-Compiled.md v1.0     — neural reality, formation 40→200h, Dunbar
+    Entity-Access.md v1.2       — gradient Mức 0-5, per-entity access
+    Entity-Access-Excess.md v1.0 — excess territory, addiction
+    Entity-Access-Calibration.md v1.0 — self-regulation, hardware subsidy
+    Bond-Architecture.md v1.0   — 1 mechanism × 4 bond types, M1-M4
+    By-Product-Gap-Resonance.md v1.4 — mutual match, 5 drills
+    Resonance-Sustainability.md v1.0 — 4-layer, 3 conditions, 3 modalities
+    Resonance-Per-Entity.md v1.0 — per-relationship dynamics
+    By-Product-Scale.md v1.0    — 1 mechanism × 3 scales
 
   N+5 OUTPUTS:
     Logic-Planning.md → logic đóng gói + AI amplifier
@@ -1420,36 +1458,38 @@ LINK STRENGTH = f(7 factors):
 ### §13.2 — Core framework files
 
 ```
-  ⚠️ Updated 2026-04-18 to align with v2.0/v1.0 reference files.
+  ⚠️ Updated 2026-05-23 to align with post-drill reference files.
 
-  REFERENCE FILES (v2.0+ — đọc song song):
+  REFERENCE FILES (current versions):
     Body-Base/Feeling/Feeling.md v2.0 → feeling = PFC observation, 7-layer, 8-step flow
-    Body-Base/Valence-Propagation.md v1.4 → valence per-entity + propagation qua schema chain
-    Collective/Collective-Body.md v2.0 → Model 3 cấp (Individual → Collective → Framework)
-    Body-Base/Body-Base.md v2.0 → entry point cho Body-Base system
-      → §4: valence propagation DÙNG chunk activation dynamics (§4 file NÀY) làm substrate
-      → = Valence propagation = BEHAVIOR emerge từ chunk HARDWARE
-    Body-Base/AI-Schema-Detection.md v1.0 → AI-assisted schema detection
+    Body-Base/Valence-Propagation.md v3.0 → structural/current valence, 3 firing modes, per-entity
+    Body-Base/Body-Coupling.md v3.0 → coupling, 4 bond types, hardware subsidy, M1-M4
+    Collective/Collective-Body.md v2.1 → Model 3 cấp (Individual → Collective → Framework)
+    Body-Base/Body-Base.md v3.2 → entry point cho Body-Base system
+      → §3: Simulation Engine + Entity-Access + Bond-Architecture
+      → §4: Entity-Compiled, valence propagation trên chunk substrate
+    AI-Schema-Detection.md v2.0 → AI-assisted schema detection
       → §3⑥: chunk depth inference từ verbal output
-      → = APPLICATION: infer chunk depth mà không cần đọc trực tiếp
 
   MECHANISM FILES:
     Schema/Schema.md v1.1 §1.1 → schema = chunk network with purpose
     Schema/Anchor-Schema.md → anchor + trust (3 chiều: Clarity × Quality × Trust)
-    Schema/Schema-Operations.md → gradient attention, parallel multi-position
-    Drive/Drive.md v1.1 → drive integration, 6 PFC Modes, melody lens
-    Drive/Novelty.md + Threat.md → drive mechanisms
-    Agent/Agent.md v1.0 → agent = function on chunk substrate
+    Observation/Drive.md v1.1 → drive integration, melody lens
+    Observation/Novelty.md + Threat.md → drive mechanisms
+    Observation/Boredom.md v2.0 → by-product match dừng, M1-M4
+    Agent-Mechanism/Agent-Mechanism.md v2.1 → 10 dimensions per-entity
+    PFC/Simulation-Engine.md v1.0 → 1 engine, 3 components, N applications
+    PFC/PFC-Label.md v1.0 → vocabulary reference, 13 domains
+    PFC/PFC-Operations.md v1.0 → operational mechanisms
     Logic-Feeling.md → 2 processing modes
     Somatic-Articulation-Loop.md → body → explicit knowledge
 
   ANALYSIS FILES:
-    Imagination/PFC-Analysis.md → PFC sub-regions + reframe target
-    Imagination/Imagine-Final.md → reference pattern + 3-Layer Hierarchy
+    PFC/PFC-Function.md → 24 functions, 95/5 split
+    Imagination/Imagine-Final.md v3.0 → hardware prediction ≠ Imagine-Final
     Imagination/Imagination-Analysis.md → process file
-    Modality-Analysis.md → modality classification
-    Body-Base/Body-Input-Enumeration.md → L0/L1/L3 input catalog
-    Domain-Mapping-Drive.md → 3 loại threat + transition
+    Body-Base/Body-Input-Enumeration.md → L0/L1 input catalog
+    Domain/Domain-Mapping-Drive.md → 3 loại threat + transition
 
   BACKUP (superseded):
     Schema/backup/Chunk-Search-Advanced.md → superseded by §4 file NÀY
@@ -1589,20 +1629,36 @@ LINK STRENGTH = f(7 factors):
 
   Source: Health Conditions Drill (6 files, ~12,000L)
   Plan: Research/Health-Conditions/plan-drill-reverse-propagation.md Phase 1
+
+✅ V2.3 UPDATE (2026-05-23) — CONCEPT CASCADE (28-session Drill Propagation):
+
+  §1.1: +Entity-Compiled reference (neural reality, formation 40→200h, Dunbar)
+  §2.3: +Entity-Access gradient (Mức 0-5), +Entity-Access-Calibration, +Entity-Access-Excess references
+  §6.1: +PFC-Label.md v1.0 vocabulary reference
+  §8.3: +Simulation Engine (1 engine, 3 components — formalized PFC mechanism)
+  §13.1: Agent-Mechanism/ expanded (4 → 11 files, folder renamed)
+  §13.2: Major version updates (Valence-Propagation v1.4→v3.0, BB v2.0→v3.2, Collective-Body v2.0→v2.1,
+          AI-Schema v1.0→v2.0, IF→v3.0). Folder paths updated (Drive/→Observation/,
+          Agent/→Agent-Mechanism/). +Simulation-Engine, +PFC-Label, +PFC-Operations, +Boredom v2.0.
+
+  Source: plan-concept-cascade-refine.md Phase A2
 ```
 
 ---
 
-> **Chunk.md v2.2 — "Não = database + 2 operators."**
+> **Chunk.md v2.3 — "Não = database + 2 operators."**
 >
 > Chunk = strength-weighted associative network compiled through experience.
 > 4 compile mechanisms × 5-parameter formula × 5 external install mechanisms.
 > 4 connection types: contamination + aha + meta-chunk + deliberate linking.
 > Core mechanism: probability distribution + competitive re-linking + trigger surface.
 > Trauma = expertise = CÙNG cơ chế, KHÁC hướng.
+> Entity-Compiled = neural reality khi compile đủ sâu per-entity.
+> Simulation Engine = formalized PFC mechanism (1 engine, 3 components).
+> Entity-Access gradient Mức 0-5 = trust formalized.
 > Context-tag: 4 metadata types → contextual vs context-free chunks.
 > Compile depth predicts resistance — Alzheimer "last in first out" confirms.
 > 7-step discovery: Accumulate → Vague → Curious → Clarify → Label → Plan → Repeat.
 > "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng."
 >
-> Phiên bản: v2.2, 2026-05-15.
+> Phiên bản: v2.3, 2026-05-23.

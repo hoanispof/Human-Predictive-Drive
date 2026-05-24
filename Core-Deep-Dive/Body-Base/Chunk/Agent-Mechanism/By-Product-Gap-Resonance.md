@@ -30,14 +30,14 @@ scope: |
   v1.1 KEY CHANGES từ v1.0:
     ① 4 Conditions enriched (positive valence + mutual Agent-mode + gap overlap + drive riêng)
     ② Over-clone reframe: observation label, 3 mechanisms thật, gap-clone impossible
-    ③ Resonance decline: 4 mechanisms (M1 compiled suppress + M2 habituation + M3 prediction completion + M4 EC saturation)
+    ③ Resonance decline: 4 mechanisms (M1 compiled suppress + M2 habituation + M3 prediction completion + M4 Entity-Compiled saturation)
     ④ Enhancers formalized: 5 enhancers TÁCH RIÊNG khỏi Resonance Core
     ⑤ Sustainability: 3 primitive conditions, 3 modalities, amplification mechanisms → TÁCH Resonance-Sustainability.md v1.0
     ⑥ 3 Scales preview: Pair / Hub / Institutional → TÁCH By-Product-Scale.md v1.0
     ⑦ Resonance Core vs Enhancers distinction
     ⑧ "Duyên số" = filtering cost (3 types)
     ⑨ PFC-Operations + Entity-Access + Entity-Compiled + Simulation Engine integration
-    ⑩ SPM references: Self-Pattern-Match → Self-Pattern-Modeling v3.1
+    ⑩ Self-Pattern-Modeling references: Self-Pattern-Match → Self-Pattern-Modeling v3.1
   Viết tắt: Resonance, Gap-Resonance, hoặc By-Product-Resonance (tùy context)
   KHÔNG viết tắt thành abbreviation.
 purpose: |
@@ -47,17 +47,17 @@ purpose: |
   FILE NÀY: WHEN + WHY mutual quality emerge — observation lens cho resonance.
   = "Khi nào 2 entities fill gap qua nhau, và chất lượng thế nào?"
   = Observation tool: 5 trục giúp ước lượng xác suất + chất lượng resonance.
-  = Bridge giữa mechanism (Inter-Body, SPM) và observation (Connection, Empathy).
+  = Bridge giữa mechanism (Inter-Body, Self-Pattern-Modeling) và observation (Connection, Empathy).
 position: |
   Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder Agent-Mechanism.md.
-  Agent-Mechanism.md = integration hub (SPM + Resonance together).
+  Agent-Mechanism.md = integration hub (Self-Pattern-Modeling + Resonance together).
   Self-Pattern-Modeling.md = Agent-mode engine (solo mechanism).
   By-Product-Gap-Resonance.md (FILE NÀY) = mutual phenomenon observation.
 dependencies:
   - Agent-Mechanism.md v2.0 — integration hub
   - Self-Pattern-Modeling.md v3.1 — Agent-mode engine: 1 mechanism × 3 dimensions
   - Inter-Body-Mechanism.md v1.0 — by-product match §5.4, 3-cost §4, PFC=Lawyer §7
-  - Connection.md v4.0 — 3 Generative Primitives, Architecture B social
+  - Connection.md v4.0 — 3 Generative Primitives, Compilable Architecture social
   - Empathy.md v2.2 — 1 observable output khi resonance + positive valence
   - PFC-Operations.md v1.0 — Hold/Suppress, compiled quality, PFC budget
   - Simulation-Engine.md v1.0 — resonance as application on shared engine
@@ -73,7 +73,7 @@ dependencies:
   - By-Product-Scale.md v1.0 — 3 scales: Pair / Hub / Institutional
   - Resonance-Sustainability.md v1.0 — sustainability conditions
   - Resonance-Entity.md v2.0 — per-entity resonance dynamics
-  - Body-Base.md v3.1 — 3 hardware foundations, Architecture B
+  - Body-Base.md v3.1 — 3 hardware foundations, Compilable Architecture
   - Body-Feedback-Label.md v2.0 — vocabulary reference
   - Cortisol-Baseline.md v2.1 — stress cascade, baseline drift
   - Autonomy-Hardware.md v1.1 — efference copy, suppress cost
@@ -85,7 +85,7 @@ sources:
   - By-Product-Gap-Resonance v1.0 (1,995L) — previous version
   - Drill-PR-Definition v1.0 (11 insights) — Core vs Enhancers, 5 trục, "duyên số"
   - Drill-Bond-Architecture v1.0 (23 insights) — 4 bond types, over-clone, 4 mechanisms decline
-  - Drill-Over-SPM-Clarification v1.0 §3-§4 — gap-clone impossible, bias prevention
+  - Drill-Over-Self-Pattern-Modeling-Clarification v1.0 §3-§4 — gap-clone impossible, bias prevention
   - Drill-Resonance-Sustainability v1.0 (24 insights) — 3 conditions, 3 modalities, amplification
   - Drill-By-Product-Scale v1.0 (20 insights) — 3 scales, Prestige/Dominance
 research: See §18
@@ -107,11 +107,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 >
 > **Resonance = mutual by-product gap fill.**
 > **Resonance Core = by-product match ở OUTPUT, không phải overlap ở INPUT.**
-> **Enhancers (hardware, SPM, state, modality, exposure) TĂNG xác suất — KHÔNG PHẢI resonance.**
+> **Enhancers (hardware, Self-Pattern-Modeling, state, modality, exposure) TĂNG xác suất — KHÔNG PHẢI resonance.**
 >
 > **4 conditions ĐỒNG THỜI: positive valence + mutual Agent-mode + gap overlap + drive riêng.**
 > **"Over-clone kills resonance" = observation label. Mechanism thật = compiled suppress gap riêng.**
-> **4 mechanisms decline: M1 compiled suppress + M2 habituation + M3 prediction complete + M4 EC saturation.**
+> **4 mechanisms decline: M1 compiled suppress + M2 habituation + M3 prediction complete + M4 Entity-Compiled saturation.**
 > **M1 = accelerator cho M2-M4. Fix M1 = giải phóng drive riêng.**
 >
 > **Resonance truyền qua 3 modality: Verbal × Non-verbal × Body-level.**
@@ -146,7 +146,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §12 — TRUE UNDERSTANDING = ANTI-COMPILED-SUPPRESS
 - §13 — 3 SCALES PREVIEW (Pair / Hub / Institutional)
 - §14 — "DUYÊN SỐ" = FILTERING COST
-- §15 — PFC-OPS + ENTITY-ACCESS + ENTITY-COMPILED + SIMULATION ENGINE
+- §15 — PFC-Operations + ENTITY-ACCESS + ENTITY-COMPILED + SIMULATION ENGINE
 - §16 — CASES
 - §17 — HONEST ASSESSMENT
 - §18 — CROSS-REFERENCES + RESEARCH CITATIONS
@@ -193,13 +193,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   4 CONDITIONS ĐỒNG THỜI (§2):
     ① Positive valence: cả 2 approach (not avoidance-only)
-    ② Mutual Agent-mode: SPM ON cả 2 phía
+    ② Mutual Agent-mode: Self-Pattern-Modeling ON cả 2 phía
     ③ Gap overlap: gap directions overlap đủ cho match probability
     ④ Drive riêng maintained: entity phải CÓ gap + drive riêng
 
   RESONANCE CORE vs ENHANCERS (§6):
     Core = by-product match phenomenon.
-    Enhancers = conditions TĂNG xác suất (hardware, SPM, state, modality, exposure).
+    Enhancers = conditions TĂNG xác suất (hardware, Self-Pattern-Modeling, state, modality, exposure).
     Enhancers CAO ≠ guarantee. Enhancers THẤP ≠ impossible.
 
   OVER-CLONE = OBSERVATION LABEL (§9):
@@ -208,7 +208,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     "Over-clone kills resonance" → compiled suppress gap riêng = cái thật sự giết.
 
   4 MECHANISMS DECLINE (§10):
-    M1 compiled suppress (PRIMARY) + M2 habituation + M3 prediction complete + M4 EC saturation.
+    M1 compiled suppress (PRIMARY) + M2 habituation + M3 prediction complete + M4 Entity-Compiled saturation.
     M1 = accelerator cho M2-M4. Fix M1 = highest leverage.
 
   SUSTAINABILITY (§7-§8, §11):
@@ -264,18 +264,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 v1.1 (2026-05-22): REWRITE — absorb 5 drill files (~78 insights).
   Sources: Drill-PR-Definition v1.0, Drill-Bond-Architecture v1.0,
-           Drill-Over-SPM-Clarification v1.0, Drill-Resonance-Sustainability v1.0,
+           Drill-Over-Self-Pattern-Modeling-Clarification v1.0, Drill-Resonance-Sustainability v1.0,
            Drill-By-Product-Scale v1.0.
   ① 4 Conditions enriched: positive valence + mutual Agent-mode + gap overlap + drive riêng
   ② Over-clone reframe: observation label, 3 mechanisms, gap-clone impossible
-  ③ 4 Mechanisms decline: M1 compiled suppress + M2 habituation + M3 prediction + M4 EC saturation
-  ④ 5 Enhancers formalized: hardware, chunk/SPM, state, modality, exposure
+  ③ 4 Mechanisms decline: M1 compiled suppress + M2 habituation + M3 prediction + M4 Entity-Compiled saturation
+  ④ 5 Enhancers formalized: hardware, chunk/Self-Pattern-Modeling, state, modality, exposure
   ⑤ Sustainability: 3 primitive conditions, 3 modalities, silence 4 types, amplification
   ⑥ 3 Scales: Pair / Hub / Institutional (same mechanism, different topology)
   ⑦ Resonance Core vs Enhancers distinction
   ⑧ "Duyên số" = filtering cost
-  ⑨ Phase A integration: PFC-Ops, Simulation Engine, Entity-Compiled, Entity-Access
-  ⑩ SPM rename: Self-Pattern-Match → Self-Pattern-Modeling v3.1
+  ⑨ Phase A integration: PFC-Operations, Simulation Engine, Entity-Compiled, Entity-Access
+  ⑩ Self-Pattern-Modeling rename: Self-Pattern-Match → Self-Pattern-Modeling v3.1
 
 v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
   RENAME + 5 Trục + Tool/Agent + 2 Tình huống + Cases.
@@ -359,7 +359,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
   │ (WHAT Resonance IS)  │ (WHAT increases probability)     │
   ├──────────────────────┼──────────────────────────────────┤
   │ By-product match     │ Hardware overlap                 │
-  │ OUTPUT ↔ Gap match   │ Chunk/SPM overlap                │
+  │ OUTPUT ↔ Gap match   │ Chunk/Self-Pattern-Modeling overlap                │
   │ Emerge GIỮA entities │ State overlap                    │
   │ Per-domain, per-pair │ Expression modality match        │
   │ = PHENOMENON         │ Exposure sufficient              │
@@ -406,11 +406,11 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
     Mixed = phổ biến nhất → quality tùy ratio.
     🟢 Elliot 2006: approach/avoidance motivation.
 
-  ② MUTUAL AGENT-MODE — SPM ON cả 2 phía:
+  ② MUTUAL AGENT-MODE — Self-Pattern-Modeling ON cả 2 phía:
     Entity predict state CỦA NHAU, không chỉ predict output.
     Tool-mode (predict action→outcome) → dissolves khi goal ends → 0 resonance.
     Agent-mode (predict entity state→response) → CÓ THỂ compile → bền vững.
-    = SPM phải ON. (Self-Pattern-Modeling §1: Modeling = active forward simulation.)
+    = Self-Pattern-Modeling phải ON. (Self-Pattern-Modeling §1: Modeling = active forward simulation.)
 
   ③ GAP OVERLAP — gap distributions overlap đủ:
     By-product match REQUIRES gap direction overlap.
@@ -459,7 +459,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 ⭐ PHÂN BIỆT — THIẾU CONDITION NÀO:
 
   TOOL-USE REWARD (violate ② Agent-mode + ④ Mutuality):
-    Ném đá → bay đúng → reward. Cây KHÔNG receive. SPM OFF.
+    Ném đá → bay đúng → reward. Cây KHÔNG receive. Self-Pattern-Modeling OFF.
 
   PARASOCIAL (violate ④ Mutuality):
     Fan → celebrity: fan receive. Celebrity không biết fan tồn tại.
@@ -467,7 +467,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
     Subjective CAN feel "connected" — structural reality: 1 chiều.
 
   DEHUMANIZATION (violate ② Agent-mode):
-    Lãnh chúa → nô lệ: SPM suppress → Tool-mode only → 0 resonance.
+    Lãnh chúa → nô lệ: Self-Pattern-Modeling suppress → Tool-mode only → 0 resonance.
     Nô lệ CÓ drive riêng — lãnh chúa KHÔNG engage.
     🟢 Grossman 1995: training soldiers to suppress empathy.
 
@@ -499,16 +499,16 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
     EXCEPTION: evolution-protected bonds (mẹ-bé) → habituation CỰC CHẬM.
     VD: chồng → vợ xinh, mẹ → bé sơ sinh (oxytocin), người → chó cute.
 
-  ①b — COMPILED SPM BY-PRODUCT (từ SPM F1 Compiled mutual):
-    A's SPM Compiled fire → body simulate B's state → respond phù hợp.
-    → B FEEL understood → B's SPM fire → respond → FEEDBACK LOOP.
+  ①b — COMPILED Self-Pattern-Modeling BY-PRODUCT (từ Self-Pattern-Modeling Compiled mutual):
+    A's Self-Pattern-Modeling Compiled fire → body simulate B's state → respond phù hợp.
+    → B FEEL understood → B's Self-Pattern-Modeling fire → respond → FEEDBACK LOOP.
     ANTI-HABITUATES: Hebbian mỗi lần dùng → stronger → automatic HƠN.
     → Cost GIẢM, accuracy TĂNG, reward TĂNG → POSITIVE SPIRAL.
     VD: "vợ chồng già nói nửa câu hiểu nhau" = maximum compiled ①b.
     = DEEPEST + MOST SUSTAINABLE form of resonance.
 
   ①a + ①b RELATIONSHIP:
-    ①a KHỞI ĐỘNG + ĐỆM AN TOÀN cho ①b (beauty → proximity → SPM bắt đầu).
+    ①a KHỞI ĐỘNG + ĐỆM AN TOÀN cho ①b (beauty → proximity → Self-Pattern-Modeling bắt đầu).
     ①b REPLACE ①a khi ①a habituates.
     HEALTHY = ①b grows ĐỦ LỚN replace declining ①a.
     "Hết lửa" = ①a hết + ①b chưa develop.
@@ -535,11 +535,11 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 
   3 SUB-CASES:
 
-  ②a — GENUINE EXPLORATION (F2 Loại A: Hold only):
+  ②a — GENUINE EXPLORATION (Fresh Loại A: Hold only):
     PFC hold new pattern. Body OPEN. Cost: ① only, declining.
     CÓ THỂ compile → thành ①. = HEALTHY path.
 
-  ②b — FORCED EFFORT (F2 Loại B: Hold + Suppress):
+  ②b — FORCED EFFORT (Fresh Loại B: Hold + Suppress):
     PFC hold new + suppress old. Body CONFLICT.
     3 OUTCOMES (PFC-Operations §3):
       A: Shift genuine → compiled ①. B: Compiled suppress → flat. C: PFC fail → revert.
@@ -590,10 +590,10 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 ### §3.4 — "Biết" vs "Cảm": 3 tầng reading
 
 ```
-🟡 CHỈ ÁP DỤNG KHI AGENT-MODE ACTIVE (SPM engage):
+🟡 CHỈ ÁP DỤNG KHI AGENT-MODE ACTIVE (Self-Pattern-Modeling engage):
 
   TẦNG 1 — Observable label: "Tôi BIẾT bạn đang vui" (Fresh nhận diện).
-  TẦNG 2 — Compiled simulate: "Tôi CẢM ĐƯỢC bạn đang vui" (SPM Compiled fire chunks CỦA TÔI).
+  TẦNG 2 — Compiled simulate: "Tôi CẢM ĐƯỢC bạn đang vui" (Self-Pattern-Modeling Compiled fire chunks CỦA TÔI).
   TẦNG 3 — Cường độ KHÁC: cái tôi cảm ≠ cái bạn có (f(chunk library TÔI)).
 
   NOTE: ①a (hardware) KHÔNG có 3 tầng:
@@ -610,13 +610,13 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 ⭐ NÃO CÓ 2 MODE PROCESS ENTITY KHÁC:
 
   TOOL-MODE:
-    Predict: action → outcome. SPM: OFF.
+    Predict: action → outcome. Self-Pattern-Modeling: OFF.
     Focus: "entity này CHO TÔI output gì?"
     Reward: 1 chiều. Duration: dissolves khi goal ends.
     VD: ném đá, dùng laptop, gọi taxi, sử dụng AI.
 
   AGENT-MODE:
-    Predict: entity STATE → response. SPM: ON (F1 Compiled hoặc F2 Fresh).
+    Predict: entity STATE → response. Self-Pattern-Modeling: ON (Compiled hoặc Fresh).
     Focus: "entity này ĐANG ở state gì? sẽ PHẢN ỨNG thế nào?"
     Reward: có thể mutual. Duration: có thể compile → bền vững.
     VD: bạn thân, mẹ với con, đoán ý sếp, therapist.
@@ -636,7 +636,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 
   LOGIC:
     Resonance = mutual by-product match BỀN VỮNG.
-    Bền vững = CẦN compile → cần SPM engage → cần Agent-mode.
+    Bền vững = CẦN compile → cần Self-Pattern-Modeling engage → cần Agent-mode.
     Tool-mode: dissolves khi goal ends → KHÔNG bền vững.
 
   3 TRƯỜNG HỢP:
@@ -670,7 +670,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
   │ ① Gap Overlap  │ Gap distributions     │ Hardware ↔ Collective-Arc   │
   │                │ overlap bao nhiêu?    │ (high ↔ low probability)    │
   ├────────────────┼──────────────────────┼─────────────────────────────┤
-  │ ② Processing   │ SPM engagement        │ Tool-mode ↔ Agent-mode     │
+  │ ② Processing   │ Self-Pattern-Modeling engagement        │ Tool-mode ↔ Agent-mode     │
   │    Mode        │ level thế nào?        │ (no resonance ↔ full)      │
   ├────────────────┼──────────────────────┼─────────────────────────────┤
   │ ③ Gap Quality  │ Gap mỗi entity        │ Approach ↔ Avoidance       │
@@ -775,13 +775,13 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
       🟢 Bouchard 1990: twins → immediate resonance.
       ⚠️ Hardware overlap + competing direction = RIVALRY, not resonance.
 
-  (b) CHUNK/SPM OVERLAP:
-      Shared chunks → SPM predict accurate → action match xác suất cao.
-      CHỈ áp dụng Stream 2 (①b compiled SPM). ①a không cần SPM.
+  (b) CHUNK/Self-Pattern-Modeling OVERLAP:
+      Shared chunks → Self-Pattern-Modeling predict accurate → action match xác suất cao.
+      CHỈ áp dụng Modeling-Stream (①b compiled Self-Pattern-Modeling). ①a không cần Self-Pattern-Modeling.
 
   (c) STATE OVERLAP:
       Body-feedback hiện tại tương thích → gap direction TẠM THỜI gần.
-      Clone mechanism (SPM F1 output) tăng state overlap.
+      Clone mechanism (Self-Pattern-Modeling Compiled output) tăng state overlap.
       State converge over time (🟢 Anderson 2003). Trait KHÔNG converge (🟢 Gonzaga 2010).
 
   (d) EXPRESSION MODALITY MATCH:
@@ -803,8 +803,8 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
   TẦNG 2 — META MATCH: cùng HARDWARE body-feedback pattern.
     = Cùng cách TRẢI NGHIỆM gap (excitement intensity, curiosity style).
     → "Không cần cùng sở thích, chỉ cần cùng CÁCH SỞ THÍCH."
-    Meta-match CAO → gap shift flexibility → F2 Loại A (genuine explore).
-    Meta-match THẤP → gap rigid → F2 Loại B (suppress boredom).
+    Meta-match CAO → gap shift flexibility → Fresh Loại A (genuine explore).
+    Meta-match THẤP → gap rigid → Fresh Loại B (suppress boredom).
 ```
 
 ---
@@ -823,7 +823,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 > 3 conditions = MINIMUM cho resonance CÓ THỂ emerge.
 > 5 Trục (§5) = evaluate quality. 3 Conditions = TRƯỚC 5 Trục.
 
-### §7.1 — 3 Primitive Conditions (★ NEW v1.1) — BRIEF (chi tiết → RS §1)
+### §7.1 — 3 Primitive Conditions (★ NEW v1.1) — BRIEF (chi tiết → Resonance-Sustainability §1)
 
 ```
 ⭐⭐ 3 ĐIỀU KIỆN TỐI THIỂU (Drill-Resonance-Sustainability §1):
@@ -844,7 +844,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
     Duration × Agent-mode = relevant duration.
 
   CONDITION ③ — AGENT-MODE (model state, không chỉ function):
-    SPM phải ON ở Agent-mode. Predict entity STATE, not just output.
+    Self-Pattern-Modeling phải ON ở Agent-mode. Predict entity STATE, not just output.
     Agent-mode QUALITY matters: phải PERCEIVED as responsive + non-interfering.
     🟢 Feeney 2007: "mere presence is NOT enough."
     Agent-mode ON + unresponsive = still insufficient.
@@ -863,7 +863,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 🟡 3 Primitive Conditions = framework synthesis.
 ```
 
-### §7.2 — Gap Flexibility (Gap ≠ Strategy) — BRIEF (chi tiết → RS §2)
+### §7.2 — Gap Flexibility (Gap ≠ Strategy) — BRIEF (chi tiết → Resonance-Sustainability §2)
 
 ```
 ⭐ GAP CHẤP NHẬN NHIỀU STRATEGY KHÁC NHAU:
@@ -893,7 +893,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 > ⑤ Verbal critical cho: repair, calibration, Generative, capitalization
 > ```
 
-### §8.1 — 3 Modalities (★ NEW v1.1) — BRIEF (chi tiết → RS §3)
+### §8.1 — 3 Modalities (★ NEW v1.1) — BRIEF (chi tiết → Resonance-Sustainability §3)
 
 ```
 ⭐⭐ RESONANCE TRUYỀN QUA 3 MODALITY ĐỘC LẬP (Drill-Resonance-Sustainability §3):
@@ -933,7 +933,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 🔴 Exact contribution weight per modality = hypothesis.
 ```
 
-### §8.2 — Silence 4 types (★ NEW v1.1) — BRIEF (chi tiết → RS §4)
+### §8.2 — Silence 4 types (★ NEW v1.1) — BRIEF (chi tiết → Resonance-Sustainability §4)
 
 ```
 ⭐⭐ IM LẶNG CÓ 4 LOẠI — CHỈ 1 LOẠI BỀN VỮNG:
@@ -963,7 +963,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 🟢 Weinstein 2024: 4 silence types (4 studies).
 ```
 
-### §8.3 — Verbal necessity spectrum — BRIEF (chi tiết → RS §5)
+### §8.3 — Verbal necessity spectrum — BRIEF (chi tiết → Resonance-Sustainability §5)
 
 ```
 ⭐ VERBAL CRITICAL:
@@ -987,24 +987,24 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 > → CHI TIẾT: Bond-Architecture.md v1.0 §3 (~120L, 28 citations)
 > → KEY MECHANISMS:
 > ```
-> ① Gap clone = IMPOSSIBLE (5-step proof: chunk fraction + BP resist + hardware immutable + twins decisive)
+> ① Gap clone = IMPOSSIBLE (5-step proof: chunk fraction + Background-Pattern resist + hardware immutable + twins decisive)
 > ② 3 cơ chế THẬT: gap redirect ≠ gap clone ≠ compiled suppress
 > ③ "Over-clone" = observation label (same reframe pattern as "Logic/Feeling")
 > ④ Reward source shift: limerence → fear+schema → compiled suppress automated
 > ⑤ Asymmetric gap redirect → vòng lặp tiêu cực
 > ```
 
-### §9.1 — Gap clone: IMPOSSIBLE về kiến trúc — BRIEF (chi tiết → BA §3.1)
+### §9.1 — Gap clone: IMPOSSIBLE về kiến trúc — BRIEF (chi tiết → Bond-Architecture §3.1)
 
 ```
-⭐⭐ 5-STEP PROOF (Drill-Bond-Architecture §3.1, Over-SPM-Clarification §1):
+⭐⭐ 5-STEP PROOF (Drill-Bond-Architecture §3.1, Over-Self-Pattern-Modeling-Clarification §1):
 
   ① Gap = f(TOÀN BỘ chunk network) — Gap-Direction §1.
-     SPM chỉ THÊM chunks về B vào library A. KHÔNG XÓA chunks cũ.
+     Self-Pattern-Modeling chỉ THÊM chunks về B vào library A. KHÔNG XÓA chunks cũ.
      Chunks về B = FRACTION nhỏ trong tổng network A.
 
-  ② Background Pattern (years, high link density) RESIST shift.
-     SPM over months KHÔNG override decades of BP.
+  ② Background-Pattern (years, high link density) RESIST shift.
+     Self-Pattern-Modeling over months KHÔNG override decades of Background-Pattern.
 
   ③ Hardware gaps IMMUTABLE (DNA, neurotransmitter balance).
 
@@ -1012,16 +1012,16 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
      Sinh đôi cùng trứng: ~100% DNA → hardware GẦN NHƯ giống hệt.
      NHƯNG: chunks compile từ trải nghiệm riêng → gap DETAILS khác.
      🟢 Bouchard 1990: twins apart → gần giống nhưng KHÔNG giống hệt.
-     Hardware giống hệt MÀ gap vẫn khác → SPM (yếu hơn hardware) CÀN KHÔNG THỂ.
+     Hardware giống hệt MÀ gap vẫn khác → Self-Pattern-Modeling (yếu hơn hardware) CÀN KHÔNG THỂ.
 
   ⑤ REBUT: "Cùng thích phở bò": anh thích vì nước, em thích vì thịt dai.
-     SPM observe shared behavior → PFC label "giống nhau" → oversimplify.
+     Self-Pattern-Modeling observe shared behavior → PFC label "giống nhau" → oversimplify.
 
   KẾT LUẬN: Gap clone = KHÔNG KHẢ THI VỀ KIẾN TRÚC.
-  SPM chỉ clone TRẠNG THÁI agent. SPM KHÔNG clone GAP direction.
+  Self-Pattern-Modeling chỉ clone TRẠNG THÁI agent. Self-Pattern-Modeling KHÔNG clone GAP direction.
 ```
 
-### §9.2 — 3 mechanisms thật — BRIEF (chi tiết → BA §3.2)
+### §9.2 — 3 mechanisms thật — BRIEF (chi tiết → Bond-Architecture §3.2)
 
 ```
 ⭐⭐ "OVER-CLONE" = OBSERVATION LABEL CHO 3 CƠ CHẾ THẬT:
@@ -1041,7 +1041,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
     🟢 Compiled suppress mechanism: PFC-Operations §4.
 
   ③ BEHAVIOR CONVERGE: A ADOPT B's behavior.
-    Clone level: Adopt/Converge (SPM F1 output spectrum).
+    Clone level: Adopt/Converge (Self-Pattern-Modeling Compiled output spectrum).
     NHƯNG gap direction KHÔNG shift.
     Sở thích giống = compiled suppress sở thích riêng + adopt partner's.
 
@@ -1068,13 +1068,13 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 > ```
 > M1 Compiled suppress gap riêng = STRONGEST (tấn công NGUỒN + accelerate M2-M4)
 > M2 Habituation (Weber-Fechner) = tự nhiên, độc lập
-> M3 Prediction completion = SPM quá accurate → no prediction-delta
+> M3 Prediction completion = Self-Pattern-Modeling quá accurate → no prediction-delta
 > M4 Entity-Compiled saturation = đã compile hết → diminishing returns
 > M1+M2+M3+M4 compound = "over-clone kills resonance"
 > FIX M1 = giải phóng drive riêng → counter M2+M3+M4
 > ```
 
-### §10.1 — M1: Compiled suppress gap riêng (★ STRONGEST) — BRIEF (chi tiết → BA §4.1)
+### §10.1 — M1: Compiled suppress gap riêng (★ STRONGEST) — BRIEF (chi tiết → Bond-Architecture §4.1)
 
 ```
 ⭐⭐ M1 TẤN CÔNG NGUỒN BY-PRODUCTS (Drill-Bond-Architecture §4.1):
@@ -1094,7 +1094,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
   🟢 Gottman Type 2 divorce (~16 năm): no conflict, just FADE = compiled suppress slowly.
 ```
 
-### §10.2 — M2: Habituation (Weber-Fechner) — BRIEF (chi tiết → BA §4.2)
+### §10.2 — M2: Habituation (Weber-Fechner) — BRIEF (chi tiết → Bond-Architecture §4.2)
 
 ```
 ⭐ M2 = TỰ NHIÊN, ĐỘC LẬP VỚI M1:
@@ -1103,27 +1103,27 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
   🟢 Bao & Lyubomirsky 2013: hedonic adaptation in relationships.
 ```
 
-### §10.3 — M3: Prediction completion (hết novelty) — BRIEF (chi tiết → BA §4.3)
+### §10.3 — M3: Prediction completion (hết novelty) — BRIEF (chi tiết → Bond-Architecture §4.3)
 
 ```
-⭐ M3 = SPM QUÁ ACCURATE → NO PREDICTION-DELTA:
-  SPM compiled sâu → predict hoàn hảo → no new reward.
+⭐ M3 = Self-Pattern-Modeling QUÁ ACCURATE → NO PREDICTION-DELTA:
+  Self-Pattern-Modeling compiled sâu → predict hoàn hảo → no new reward.
   🟢 Baumeister & Bratslavsky 1999: passion = RATE OF CHANGE in intimacy.
   KHÁC M1: gap vẫn CÓ, chỉ KHÔNG được fill MỚI.
   FIX: mỗi người TIẾP TỤC GROW → new by-products liên tục.
 ```
 
-### §10.4 — M4: Entity-Compiled saturation (plateau) — BRIEF (chi tiết → BA §4.4)
+### §10.4 — M4: Entity-Compiled saturation (plateau) — BRIEF (chi tiết → Bond-Architecture §4.4)
 
 ```
 ⭐ M4 = ĐÃ COMPILE HẾT VỀ NHAU:
   Entity-Compiled formation: 40→80→200h → diminishing returns.
-  No new EC chunks → same patterns repeat.
+  No new Entity-Compiled chunks → same patterns repeat.
   🟢 Aron & Aron 1996, 2000: self-expansion slows → satisfaction giảm.
-  FIX: shared NOVEL experiences → new chunks → new EC growth.
+  FIX: shared NOVEL experiences → new chunks → new Entity-Compiled growth.
 ```
 
-### §10.5 — 4 mechanisms tương tác — BRIEF (chi tiết → BA §4.5)
+### §10.5 — 4 mechanisms tương tác — BRIEF (chi tiết → Bond-Architecture §4.5)
 
 ```
 ⭐⭐ 4 CƠ CHẾ ĐỘC LẬP + TƯƠNG TÁC CỘNG HƯỞNG:
@@ -1131,7 +1131,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
   M1 (compiled suppress) → xóa NGUỒN by-products riêng.
   M2 (habituation)       → giảm reward từ by-products CŨ.
   M3 (prediction complete)→ chặn by-products MỚI emerge.
-  M4 (EC saturation)     → chặn chunks MỚI về partner.
+  M4 (Entity-Compiled saturation)     → chặn chunks MỚI về partner.
 
   TƯƠNG TÁC: M1 + M2 + M3 + M4 = "over-clone kills resonance" COMPOUND.
 
@@ -1164,7 +1164,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 > ⑧ 4-Layer model: Foundation → Modality → Amplification → Trajectory
 > ```
 
-### §11.1 — Capitalization (Active-Constructive Responding) (★ NEW v1.1) — BRIEF (chi tiết → RS §6)
+### §11.1 — Capitalization (Active-Constructive Responding) (★ NEW v1.1) — BRIEF (chi tiết → Resonance-Sustainability §6)
 
 ```
 ⭐⭐ CHIA SẺ TÍCH CỰC > XỬ LÝ TIÊU CỰC (Drill-Resonance-Sustainability §6):
@@ -1183,7 +1183,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
   = 1 reason verbal CRITICAL cho Generative sustainability.
 ```
 
-### §11.2 — Perceived Partner Responsiveness (★ NEW v1.1) — BRIEF (chi tiết → RS §7)
+### §11.2 — Perceived Partner Responsiveness (★ NEW v1.1) — BRIEF (chi tiết → Resonance-Sustainability §7)
 
 ```
 ⭐ CẢM THẤY ĐƯỢC HIỂU > THỰC TẾ ĐƯỢC HIỂU:
@@ -1193,15 +1193,15 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 
   PERCEPTION > ACTUAL BEHAVIOR:
     PPR = perceived partner responsiveness.
-    MY SPM interprets partner's behavior → PPR.
+    MY Self-Pattern-Modeling interprets partner's behavior → PPR.
     Secure attachment: perceive accurately. Anxious: perceive LESS than actual.
-    FIX: calibrate SPM (therapy, verbal explicit check).
+    FIX: calibrate Self-Pattern-Modeling (therapy, verbal explicit check).
 
   PPR × MODALITY:
     Verbal: HIGHEST signal clarity. Body-level: DEEPEST felt security.
 ```
 
-### §11.3 — Secure Base Effect (★ NEW v1.1) — BRIEF (chi tiết → RS §8)
+### §11.3 — Secure Base Effect (★ NEW v1.1) — BRIEF (chi tiết → Resonance-Sustainability §8)
 
 ```
 ⭐ PARTNER SUPPORT EXPLORATION (🟢 Feeney 2004, 2007):
@@ -1219,7 +1219,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
     Failure → drives suppressed → less by-products → less resonance → NEGATIVE SPIRAL.
 ```
 
-### §11.4 — Maintenance decline + Self-expansion (★ NEW v1.1) — BRIEF (chi tiết → RS §9-§13)
+### §11.4 — Maintenance decline + Self-expansion (★ NEW v1.1) — BRIEF (chi tiết → Resonance-Sustainability §9-§13)
 
 ```
 ⭐⭐ MAINTENANCE TỰ GIẢM THEO THỜI GIAN:
@@ -1268,7 +1268,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 ```
 ⭐⭐ UNDERSTANDING DEPTH QUYẾT ĐỊNH OUTCOME (Drill-Bond-Architecture §5):
 
-  ① SPM deep + calibrated → THẬT SỰ hiểu partner.
+  ① Self-Pattern-Modeling deep + calibrated → THẬT SỰ hiểu partner.
   ② Hiểu thật → BIẾT partner có gap riêng (sở thích, career, dreams).
   ③ Trust → TIN gap riêng CỦA partner là valid.
   ④ Trust + Biết → HỖ TRỢ partner theo đuổi gap riêng.
@@ -1354,9 +1354,9 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
   BENEFIT: gặp N entities → P(≥1 match) = 1-(1-p)^N → tăng theo N.
 
   3 LOẠI COST:
-    ① F2 EVALUATION COST: mỗi entity mới → PFC draft F2 = metabolic cost × N.
+    ① Fresh EVALUATION COST: mỗi entity mới → PFC draft Fresh = metabolic cost × N.
       Hardware-dependent: introvert cost/entity CAO hơn extrovert.
-    ② NOISE/HIJACK COST: Stream 1 trigger MẠNH (xinh/charismatic) → PFC tưởng "hợp."
+    ② NOISE/HIJACK COST: Hardware-Stream trigger MẠNH (xinh/charismatic) → PFC tưởng "hợp."
       = "Bị hijack bởi người không hợp nhưng PFC tưởng là hợp."
     ③ RESONANCE SHIFT COST: compiled chunks từ A INTERFERE evaluate B.
       = "Người cũ ảnh hưởng cách nhìn người mới."
@@ -1372,7 +1372,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
 
 ---
 
-## §15 — PFC-OPS + ENTITY-ACCESS + ENTITY-COMPILED + SIMULATION ENGINE
+## §15 — PFC-Operations + ENTITY-ACCESS + ENTITY-COMPILED + SIMULATION ENGINE
 
 ### §15.1 — PFC-Operations integration (★ NEW v1.1)
 
@@ -1389,7 +1389,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
     Threat compiled: avoidance → toxic resonance (break khi threat removed).
 
   PFC BUDGET = shared, finite.
-    SPM engage (Agent-mode) = PFC cost.
+    Self-Pattern-Modeling engage (Agent-mode) = PFC cost.
     Nhiều entities cùng lúc → PFC spread thin → quality giảm.
     = TẠI SAO deep resonance with few > shallow resonance with many.
 ```
@@ -1400,7 +1400,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
 ⭐ ENTITY-ACCESS GRADIENT × RESONANCE:
 
   Entity-Access v1.0: mPFC gradient from dorsal → ventral.
-  Access TĂNG → SPM shift Fresh→Compiled → resonance deepen.
+  Access TĂNG → Self-Pattern-Modeling shift Fresh→Compiled → resonance deepen.
   Entity-Access Gradient Mức 0-5:
     Mức 0: stranger = Fresh, Tool-mode dominant.
     Mức 3: colleague/acquaintance = partial Compiled.
@@ -1416,14 +1416,14 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
   Entity-Compiled v1.0: Hub-and-Spoke model.
   Formation: 40→80→200h → diminishing returns.
   Grief A (loss Entity-Compiled chunks) + B (routine disruption) + C (Imagine-Final revision).
-  SPM repeated → Entity-Compiled forms. Grief = Entity-Compiled disruption.
+  Self-Pattern-Modeling repeated → Entity-Compiled forms. Grief = Entity-Compiled disruption.
   4 bond types (parent→child, child→parent, romantic, friendship) dùng CÙNG mechanism.
   🟢 Bartels & Zeki 2004, Young & Wang 2004, Feldman 2017.
 
   SIMULATION ENGINE (Simulation-Engine v1.0):
     1 Engine: DMN + vMPFC + anterior insula + hippocampus.
     3 Components: Interoception × Constructive Simulation × Self/Other Model.
-    Resonance = application on shared engine. SPM = (Other, Present, Simulate).
+    Resonance = application on shared engine. Self-Pattern-Modeling = (Other, Present, Simulate).
     Alexithymia = component 1 failure → ALL applications degrade.
     = By-product match quality depends on engine quality.
 ```
@@ -1581,7 +1581,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
   → Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation, Grief A+B+C
   → Entity-Access.md v1.0 — 3-Factor Model, Gradient Mức 0-5
   → Body-Feedback-Mechanism.md v2.0 — 2-source model, chunk dynamics
-  → Body-Base.md v3.1 — 3 hardware foundations, Architecture B
+  → Body-Base.md v3.1 — 3 hardware foundations, Compilable Architecture
   → Gap-Direction.md v2.0 — gap = f(surrounding chunks)
   → Valence-Propagation.md v2.0 — Entity-Compiled, chain propagation
   → Body-Coupling.md v2.0 — coupling mechanism, depth × direction
@@ -1590,7 +1590,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
 ### §18.3 — Observation files
 
 ```
-  → Connection.md v4.0 — 3 Generative Primitives, Architecture B social
+  → Connection.md v4.0 — 3 Generative Primitives, Compilable Architecture social
   → Empathy.md v2.2 — 1 observable output khi resonance + positive valence
   → Gap-Distribution-Profile.md v1.0 — gap landscape, 4 trục
   → Action-Space.md v1.0 — supply-side, break conditions

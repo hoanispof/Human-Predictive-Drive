@@ -174,7 +174,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 │ Framework mapping (Dopamine-Is-Not-Reward §4):                │
 │   Opioid = REWARD THẬT (quà đằng sau cửa)                       │
 │   Endorphin từ rượu = body-base pleasure THẬT (dù nhẹ-TB)       │
-│   = Tại sao "ấm người", "dễ chịu" → body confirm reward        │
+│   = Tại sao "ấm người", "comfortable" → body confirm reward     │
 │   = Tại sao naltrexone (opioid antagonist) giảm uống            │
 │     (Anton 2006, COMBINE study): block reward → mất motivation    │
 ├──────────────────────────────────────────────────────────────────┤
@@ -194,7 +194,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 │ HỆ 5: SEROTONIN — MOOD NGẮN HẠN                                 │
 │                                                                   │
 │ 🟡 Ethanol tăng serotonin activity ngắn hạn                     │
-│   → Mood tăng tạm → "vui vẻ, dễ chịu"                          │
+│   → Mood tăng tạm → "vui vẻ, comfortable"                      │
 │   → Dài hạn: serotonin depletion → "crash" hôm sau              │
 │   → Heavy drinkers: serotonin baseline GIẢM mãn tính            │
 │                                                                   │
@@ -221,7 +221,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = "Cho quà"
     
   KẾT HỢP: "Cởi áo giáp + cho quà" = 
-    Body: "sướng" (opioid) + "thoải mái" (PFC off) → MUỐN THÊM
+    Body: "pleasant" (opioid) + "thoải mái" (PFC off) → MUỐN THÊM
     PFC: đã yếu → KHÔNG ĐỦ arbitrate "dừng lại"
     → = Self-reinforcing loop NGAY TRONG 1 session
     → = Tại sao "1 ly thành 5 ly" xảy ra dễ: reward + mất kiểm soát cùng lúc
@@ -257,7 +257,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   Trải nghiệm:
     → Social inhibition giảm → "nói thoáng hơn, dám hơn"
-    → Opioid nhẹ → warmth, dễ chịu nhẹ
+    → Opioid nhẹ → warmth, comfortable nhẹ
     → PFC VẪN hoạt động → vẫn kiểm soát được
     → ĐA SỐ người: pleasant ở mức này
     
@@ -522,7 +522,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Uống rượu → PFC suppress + cortisol thấp
     → = "Chill", thả lỏng
     → Body-base: opioid warmth + low cortisol = comfortable
-    → → "Say vui, dễ chịu"
+    → → "Say vui, comfortable"
     
   CORTISOL BASELINE CAO (stress mãn tính, lo âu nền):
     → Uống rượu → PFC suppress (GABA) nhưng cortisol VẪN CAO
@@ -705,19 +705,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 Framework mapping (Addiction-Analysis v2 §3.1, adapted):
 
-  Phase 1 — PULL (lần 1-10): uống → opioid warmth THẬT → "sướng"
+  Phase 1 — PULL (lần 1-10): uống → opioid warmth THẬT → "pleasant"
     Body learn: "rượu → reward" → schema compile
     = Coupling ĐÚNG: dopamine signal + opioid reward match
     
   Phase 2 — TOLERANCE (lần 10-50):
     GABA-A downregulate + NMDA upregulate (Valenzuela 1997)
     Cần NHIỀU HƠN cho cùng effect
-    Opioid response giảm dần → "không sướng bằng lần đầu"
+    Opioid response giảm dần → "not pleasant bằng lần đầu"
     
   Phase 3 — PUSH (lần 50+):
     Không uống = withdrawal bắt đầu xuất hiện
     Uống = HẾT withdrawal (relief, không phải euphoria)
-    = "Uống vì KHÔNG UỐNG = khổ" thay "uống vì sướng"
+    = "Uống vì KHÔNG UỐNG = khổ" thay "uống vì pleasant"
     
   Phase 4 — DEPENDENCY:
     Hệ thống hormone cần rượu để "bình thường"

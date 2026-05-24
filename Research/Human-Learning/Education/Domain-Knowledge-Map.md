@@ -259,7 +259,7 @@ FILE NÀY KHÔNG LÀM:
 
   TẠI SAO FOUNDATION:
     → Human = social animal → social skills = survival MỌI era 🟢
-    → Empathy = Self-Pattern-Match function (Empathy.md) — cần chunks đủ
+    → Empathy = Self-Pattern-Modeling function (Empathy.md) — cần chunks đủ
     → Emotion regulation = cortisol management (Cortisol-Baseline.md v2.0)
     → AI era: human connection = DIFFERENTIATOR
       (AI collaborate tốt nhưng không thay thế human-human connection)
@@ -267,7 +267,7 @@ FILE NÀY KHÔNG LÀM:
   PREREQUISITE:
     → Attachment chunks từ 0-3 (Mother-Opt, Natural-Dev)
     → Emotion recognition → regulation → social skills → complex relations
-    → SPM bootstrap: cần self-chunks ĐỦ trước khi empathize
+    → Self-Pattern-Modeling bootstrap: cần self-chunks ĐỦ trước khi empathize
       (Child-Dev-Mechanism §6)
 
   TIMING:

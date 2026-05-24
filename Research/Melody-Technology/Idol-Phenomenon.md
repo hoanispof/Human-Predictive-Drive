@@ -3,7 +3,7 @@ title: Idol Phenomenon — Tại Sao Con Người Thần Tượng
 version: 2.2
 created: 2026-03-28
 rewritten: 2026-04-26
-refined: 2026-05-17 (v2.2 — comprehensive dep updates, VP §shift, F2 label fix, Religion v2.3)
+refined: 2026-05-17 (v2.2 — comprehensive dep updates, Valence-Propagation §shift, MTF2 label fix, Religion v2.3)
 status: RESEARCH FILE v2.2
 scope: |
   RESEARCH FILE: Phân tích hiện tượng idol qua framework lens.
@@ -11,12 +11,12 @@ scope: |
   qua nhiều channels, thường xuyên, với reward mạnh.
   v1.0 (2026-03-28, 352L): 5 drives, formula, spectrum fan→tôn giáo.
   v2.0 (2026-04-26): REWRITE toàn bộ — map 5 drives sang v7.8 mechanisms,
-  thêm SPM F1/F2 parasocial analysis, 2-luồng reward, Body-Base Extension,
+  thêm Self-Pattern-Modeling Compiled/Fresh parasocial analysis, 2-luồng reward, Body-Base Extension,
   Chunk-Activation-Dynamics, Protect grief, AI idol deep analysis.
   Core model (5 drives, formula, spectrum) RETAINED + enriched.
-  v2.1 (2026-05-10): REFINE post-drill Reward — §1 thêm RSA Type A/B mapping
-  (idol art = Type B, anchor = Type A, A Gates B explain fan depth gradient),
-  §6 Type B note, cross-refs RSA + PFC-Hardware v1.1.
+  v2.1 (2026-05-10): REFINE post-drill Reward — §1 thêm Reward-Signal-Architecture Evaluative/Direct-State mapping
+  (idol art = Direct-State, anchor = Evaluative, Evaluative Gates Direct-State explain fan depth gradient),
+  §6 Direct-State note, cross-refs Reward-Signal-Architecture + PFC-Hardware v1.1.
 purpose: |
   Phân tích CƠ CHẾ: tại sao idol TỒN TẠI, khi nào TỐT, khi nào HẠI.
   Nhìn idol phenomenon như 1 "công nghệ" trong spectrum Melody Technology
@@ -28,7 +28,7 @@ position: |
   qua framework lens, KHÁC Core-Deep-Dive/ files (mechanism deep-dives).
 dependencies:
   - Connection.md v4.0 — 3 Generative Primitives, 2-luồng, §16 Cô đơn
-  - Self-Pattern-Match.md v3.0 — F1 Compiled/F2 Fresh, context-dependent, valence gate
+  - Self-Pattern-Modeling.md v3.0 — Compiled/Fresh, context-dependent, valence gate
   - Valence-Propagation.md v2.0 — per-entity valence, §3 Body-Base Extension, 2-luồng L1/L2
   - Body-Feedback/03-Reward.md — H10 5 preconditions, VTA vs opioid
   - Chunk-Activation-Dynamics.md — 7 factors link strength, probability
@@ -42,7 +42,7 @@ dependencies:
   - Modality.md — 6 kênh encoding
   - Cortisol-Baseline.md v2.1 — 5 Roles, amplifier
   - Schema.md v2.0 — named chunk-network pattern
-  - Empathy.md v3.0 — SPM F1 + ❸ positive = empathy
+  - Empathy.md v3.0 — Self-Pattern-Modeling Compiled + ❸ positive = empathy
   - Religion.md v2.3 — cùng spectrum, khác magnitude
   - Imagination.md — simulate = same body pathway
 sources_backup: |
@@ -62,11 +62,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Không phải vì nhạc sĩ "giỏi hơn." Mà vì body fan COMPILE CHUNKS về idol
 > qua NHIỀU CHANNELS hơn, THƯỜNG XUYÊN hơn, với REWARD MẠNH hơn.
 >
-> v2.0: map sang v7.8 — idol phenomenon = SPM F1 fire on agent 1-CHIỀU,
+> v2.0: map sang v7.8 — idol phenomenon = Self-Pattern-Modeling Compiled fire on agent 1-CHIỀU,
 > qua Chunk-Activation-Dynamics 7 factors, tạo per-entity valence dense,
 > có thể compile thành Body-Base Extension ở extreme cases.
 > 2-luồng reward: L1 per-exposure + L2 structural attachment.
-> AI idol = new frontier → SPM on virtual agent, channels CỰC cao.
+> AI idol = new frontier → Self-Pattern-Modeling on virtual agent, channels CỰC cao.
 >
 > File này phân tích hiện tượng idol từ gốc: body-base drive CỦA FAN.
 
@@ -77,13 +77,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §0 — VỊ TRÍ + NGUYÊN TẮC
 - §1 — 5 BODY-BASE DRIVES × v7.8 MAPPING
 - §2 — CƠ CHẾ: CÔNG THỨC v7.8
-- §3 — PARASOCIAL = SPM 1-CHIỀU
+- §3 — PARASOCIAL = Self-Pattern-Modeling 1-CHIỀU
 - §4 — LỢI ÍCH THẬT
 - §5 — TÁC HẠI
 - §6 — INDUSTRY EXPLOIT × CHUNK DYNAMICS
 - §7 — IDOL TỰ NÂNG CẤP
 - §8 — SCALE: CÁ NHÂN → VĂN HÓA → TÔN GIÁO
-- §9 — AI IDOL: SPM ON VIRTUAL AGENT
+- §9 — AI IDOL: Self-Pattern-Modeling ON VIRTUAL AGENT
 - §10 — HONEST ASSESSMENT
 - §11 — CÂU HỎI MỞ
 - §12 — CROSS-REFERENCES
@@ -143,14 +143,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Mặt đẹp = visual reward (hardwired aesthetic preference)
     Giọng hay = auditory reward (prediction-delta trên vocal patterns)
-    Vũ đạo = motor + visual sync → body motor simulation (SPM F1 lite)
+    Vũ đạo = motor + visual sync → body motor simulation (Self-Pattern-Modeling Compiled lite)
     → Idol = NGUỒN body-reward DỄ TIẾP CẬN + LẶP LẠI ĐƯỢC
 
-    RSA Type A/B (Reward-Signal-Architecture.md):
-      → Nhạc, vũ đạo, mặt đẹp = chủ yếu TYPE B (direct state, sensory-driven)
+    Reward-Signal-Architecture Evaluative/Direct-State (Reward-Signal-Architecture.md):
+      → Nhạc, vũ đạo, mặt đẹp = chủ yếu DIRECT-STATE (sensory-driven)
       → NHƯNG khi fan sâu + anchor hình thành (③④ bên dưới):
-        IDENTITY/GOAL anchor = TYPE A (evaluative, opioid)
-        → A Gates B: anchor MẠNH → sensory experiences CÒN MẠNH HƠN
+        IDENTITY/GOAL anchor = EVALUATIVE (opioid)
+        → Evaluative Gates Direct-State: anchor MẠNH → sensory experiences CÒN MẠNH HƠN
         → = Tại sao cùng bài hát: fan cuồng CẢM thấy sâu hơn fan nhẹ
 
     🟢 Music reward: opioid + dopamine release (Blood & Zatorre 2001)
@@ -167,12 +167,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
          → Xem idol = body detect "có agent" → ❶ partially satisfied
          → NHƯNG: qua media = not physical co-presence → ❶ PARTIAL only
 
-      ❷ SPM fire on idol:
-         → SPM F1: body simulate idol's emotional state → biochemistry thật
+      ❷ Self-Pattern-Modeling fire on idol:
+         → Self-Pattern-Modeling Compiled: body simulate idol's emotional state → biochemistry thật
            (xem idol khóc → body khó chịu. Xem idol vui → body nhẹ)
-         → SPM F2: predict idol's behavior ("idol sẽ comeback khi nào?")
-         → = Self-Pattern-Match.md v3.0: F1 near-automatic, creates real biochemistry
-         → Fan KHÔNG "chọn" feel — body TỰ fire SPM on idol
+         → Self-Pattern-Modeling Fresh: predict idol's behavior ("idol sẽ comeback khi nào?")
+         → = Self-Pattern-Modeling.md v3.0: Compiled near-automatic, creates real biochemistry
+         → Fan KHÔNG "chọn" feel — body TỰ fire Self-Pattern-Modeling on idol
 
       ❸ Per-Agent Valence compiled:
          → Xem nhiều → chunks về idol TÍCH LŨY → ❸ compile positive
@@ -216,7 +216,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Đây là lý do teen HAY ĐỔI idol — đang "fitting" schemas
 
       v7.8 mechanism:
-        → SPM F2 observe idol → predict "nếu tôi sống vậy → kết quả gì?"
+        → Self-Pattern-Modeling Fresh observe idol → predict "nếu tôi sống vậy → kết quả gì?"
         → PFC hold idol schema + imagine self-in-schema → body preview
         → = Imagination.md: simulate = same body pathway → body PRE-FEEL
 
@@ -228,24 +228,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
       → Fan club = nhóm engage ĐẦY ĐỦ 3 Generative Primitives:
         ❶ Hardware: physical co-presence (concert, meetup, online sync)
-        ❷ SPM: F1 fire ON NHAU (cùng khóc, cùng vui = mutual simulation)
-           + F2: predict nhau (cùng fan = biết nhau sẽ react thế nào)
+        ❷ Self-Pattern-Modeling: Compiled fire ON NHAU (cùng khóc, cùng vui = mutual simulation)
+           + Fresh: predict nhau (cùng fan = biết nhau sẽ react thế nào)
         ❸ Valence: shared chunks = overlap melody → ❸ positive compiled
 
       → Concert: cùng hát, cùng khóc, cùng la → Resonance
-        (Resonance.md: 2+ agents' SPM co-fire → emergent bond)
+        (Resonance.md: 2+ agents' Self-Pattern-Modeling co-fire → emergent bond)
       → = Idol không chỉ là idol → idol là CẦU NỐI fan với NHAU
       → = Connection THẬT giữa fan — qua medium idol
 
       2-LUỒNG trong fan community:
-        → L1 (SPM-owned): mỗi lần meetup/concert = momentary reward
+        → L1 (Self-Pattern-Modeling-owned): mỗi lần meetup/concert = momentary reward
         → L2 (Entity-compiled): bond với fan group compile deep = structural
         → = "Bạn concert" có thể thành "bạn thân thật" = L2 compile
 
       Cô đơn mapping (Connection.md §16):
         → Type 1 (❶ UNMET): trẻ bị bully → fan community → ❶ MET
         → Type 2 (❶ met + ❷ no match): "có bạn nhưng không ai hiểu"
-          → Fan community: shared passion → SPM MATCH → ❷ MET
+          → Fan community: shared passion → Self-Pattern-Modeling MATCH → ❷ MET
         → = Fan community fix CẢ 2 loại cô đơn (parallel tôn giáo §2.3)
 
     🟢 Social identity theory (Tajfel 1979): group belonging → identity
@@ -282,7 +282,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │               │  intimacy = pseudo-bidirectional) │            │
     ├───────────────┼──────────────────────────────────┼────────────┤
     │ Diễn viên     │ Visual+Auditory+Emotional (3-4/6)│ CAO        │
-    │               │ (ROLE ≠ bản thân → SPM fire on   │            │
+    │               │ (ROLE ≠ bản thân → Self-Pattern-Modeling fire on   │            │
     │               │  character, not actor)            │            │
     ├───────────────┼──────────────────────────────────┼────────────┤
     │ Vận động viên │ Visual+Motor (2-3/6)             │ TRUNG      │
@@ -324,7 +324,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   SOCIAL AMPLIFIER (Connection.md v4.0):
 
-    → Fan community lớn → ❶ hardware met + ❷ SPM match + ❸ shared valence
+    → Fan community lớn → ❶ hardware met + ❷ Self-Pattern-Modeling match + ❸ shared valence
     → Concert/meetup → Resonance → bond amplify
     → Social proof: "triệu người thích → chắc HAY" → chunks compile DỄ hơn
       (Chunk-Activation-Dynamics Factor ⑤: context match)
@@ -332,7 +332,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §3 — PARASOCIAL = SPM 1-CHIỀU
+## §3 — PARASOCIAL = Self-Pattern-Modeling 1-CHIỀU
 
 ```
 ⭐ PARASOCIAL = 3 GENERATIVE PRIMITIVES NHƯNG THIẾU BIDIRECTIONAL:
@@ -340,36 +340,36 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   v7.8 ANALYSIS — tại sao parasocial FEEL thật nhưng THIẾU calibration:
 
 
-  SPM F1 FIRE — BODY THỰC SỰ RESPOND:
+  Self-Pattern-Modeling Compiled FIRE — BODY THỰC SỰ RESPOND:
 
-    → Fan xem idol khóc: SPM F1 fire → body simulate grief → cortisol ↑ nhẹ
-    → Fan xem idol vui: SPM F1 fire → body simulate joy → opioid ↑ nhẹ
-    → = Self-Pattern-Match.md §2.1: F1 = near-automatic, creates REAL biochemistry
+    → Fan xem idol khóc: Self-Pattern-Modeling Compiled fire → body simulate grief → cortisol ↑ nhẹ
+    → Fan xem idol vui: Self-Pattern-Modeling Compiled fire → body simulate joy → opioid ↑ nhẹ
+    → = Self-Pattern-Modeling.md §2.1: Compiled = near-automatic, creates REAL biochemistry
     → = Body fan KHÔNG phân biệt "idol biết mình" vs "idol không biết mình"
-    → = Ở level SPM F1: parasocial = SAME mechanism as real connection
+    → = Ở level Self-Pattern-Modeling Compiled: parasocial = SAME mechanism as real connection
 
-    Fan xem interview → SPM F2 fire → predict idol behavior
+    Fan xem interview → Self-Pattern-Modeling Fresh fire → predict idol behavior
     → "Idol sẽ nói gì về topic này?" → PFC chain prediction
     → Prediction đúng → VTA reward ("mình hiểu idol!")
-    → = Fan "expert" về idol = SPM F2 compiled deep cho agent ĐÓ
+    → = Fan "expert" về idol = Self-Pattern-Modeling Fresh compiled deep cho agent ĐÓ
 
 
   NHƯNG: THIẾU CALIBRATION 2-CHIỀU:
 
     Connection.md §9: Calibration = 2 bodies tune nhau:
       → Body A fire → Body B respond → Body A adjust → Body B adjust
-      → = Continuous feedback loop → CHÍNH XÁC hóa SPM library
+      → = Continuous feedback loop → CHÍNH XÁC hóa Self-Pattern-Modeling library
 
     Parasocial: 1-CHIỀU:
-      → Fan fire SPM on idol → idol KHÔNG fire SPM on fan
-      → Fan KHÔNG nhận feedback "SPM của tôi đúng không?"
-      → = SPM library về idol CÓ THỂ drift (fan imagine idol khác thật)
+      → Fan fire Self-Pattern-Modeling on idol → idol KHÔNG fire Self-Pattern-Modeling on fan
+      → Fan KHÔNG nhận feedback "Self-Pattern-Modeling của tôi đúng không?"
+      → = Self-Pattern-Modeling library về idol CÓ THỂ drift (fan imagine idol khác thật)
       → = Dấu hiệu drift: "idol THẬT không giống idol TRONG ĐẦU tôi"
-        → Khi gặp thật: "thất vọng" = SPM prediction fail
-        → = Idol scandal: fan devastated vì SPM model CRASHED
+        → Khi gặp thật: "thất vọng" = Self-Pattern-Modeling prediction fail
+        → = Idol scandal: fan devastated vì Self-Pattern-Modeling model CRASHED
 
-    → = Parasocial: F1/F2 fire THẬT, biochemistry THẬT
-    → = NHƯNG: không có calibration → SPM model CÓ THỂ inaccurate
+    → = Parasocial: Compiled/Fresh fire THẬT, biochemistry THẬT
+    → = NHƯNG: không có calibration → Self-Pattern-Modeling model CÓ THỂ inaccurate
     → = Càng lâu không calibrate → càng drift → càng shock khi thực tế khác
 
 
@@ -384,8 +384,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   2-LUỒNG REWARD TRONG PARASOCIAL:
 
-    L1 (SPM-owned, momentary):
-      → Mỗi lần xem MV / concert / livestream = SPM fire → opioid → reward
+    L1 (Self-Pattern-Modeling-owned, momentary):
+      → Mỗi lần xem MV / concert / livestream = Self-Pattern-Modeling fire → opioid → reward
       → L1 = per-exposure → CẦN liên tục → nếu idol stop → L1 STOP
 
     L2 (Entity-compiled, structural):
@@ -438,7 +438,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Trẻ bị bully / cô lập → 2 nguồn connection từ idol:
 
     Nguồn A — Parasocial (§3):
-      → SPM F1 fire on idol → body feel connection DÙ 1 chiều
+      → Self-Pattern-Modeling Compiled fire on idol → body feel connection DÙ 1 chiều
       → Tốt hơn ZERO connection (Connection.md §16: cô đơn = ❶ UNMET)
       → ⚠️ Parasocial < connection thật (thiếu calibration)
       → NHƯNG: accessible 24/7 → buffer khi không có ai
@@ -477,11 +477,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ❌ PARASOCIAL THAY THẾ CONNECTION THẬT:
 
-    → §3: parasocial = SPM 1-chiều → THIẾU calibration
+    → §3: parasocial = Self-Pattern-Modeling 1-chiều → THIẾU calibration
     → Nếu fan BỎ bạn thật VÌ idol → mất calibration 2-chiều
-    → = SPM library DRIFT (không ai correct) → melody drift theo
+    → = Self-Pattern-Modeling library DRIFT (không ai correct) → melody drift theo
     → Dấu hiệu: "idol hiểu mình hơn bạn thật"
-      → ⚠️ = SPM chunks about idol > SPM chunks about friends
+      → ⚠️ = Self-Pattern-Modeling chunks about idol > Self-Pattern-Modeling chunks about friends
       → = Body TƯỞNG idol = deep connection → thực tế = 0 calibration
 
 
@@ -564,7 +564,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → MV: visual + auditory + motor + story + emotional = 5/6 modalities
     → Fan meeting: ADD somatic (handshake, hug) = 6/6
     → = Industry knows: MORE channels → DEEPER compile
-    → = Fan meeting thêm somatic → Type B direct body-state → compile MẠNH
+    → = Fan meeting thêm somatic → Direct-State → compile MẠNH
     → = "Limited fan meeting" = inject somatic channel → MASSIVE compile
 
 
@@ -580,7 +580,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     → "Behind the scenes" = inject chunks "intimacy thật" (DESIGNED intimacy)
       → Fan body KHÔNG phân biệt "designed" vs "thật"
-      → = SPM F1 fire SAME regardless of intent
+      → = Self-Pattern-Modeling Compiled fire SAME regardless of intent
 
     → "Fan meeting 30 giây" = inject somatic channel
       → 30 giây đủ cho Factor ③ emotional peak + Factor ④ somatic
@@ -592,7 +592,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Berridge: wanting without liking = compulsive seeking + empty
 
     → "Fan wars" = tribal belonging (Connection ❸ negative toward out-group)
-      → = Empathy.md v3.0: ❸ negative → SPM fire NGƯỢC → dehumanize
+      → = Empathy.md v3.0: ❸ negative → Self-Pattern-Modeling fire NGƯỢC → dehumanize
       → Industry profit: loyalty ↑ → spending ↑ → revenue ↑
 
   → = Industry dùng body-base drives CỦA FAN để extract TIỀN
@@ -659,7 +659,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   IDOL CÁ NHÂN: 1 người cụ thể (BTS, Einstein, Ronaldo)
     → Body compile chunks VỀ NGƯỜI → ❸ valence compiled per-agent
-    → SPM F1/F2 fire on specific agent
+    → Self-Pattern-Modeling Compiled/Fresh fire on specific agent
 
 
   IDOL VĂN HÓA: 1 concept được thần tượng hóa
@@ -682,12 +682,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌────────────────┬──────────┬────────────┬──────────────────────┐
     │ Level          │ ❸ Depth  │ Anchor type │ Functions covered    │
     ├────────────────┼──────────┼────────────┼──────────────────────┤
-    │ Fan nhẹ        │ Nông     │ Không      │ F6 reward only       │
-    │ Fan cứng       │ Trung    │ GOAL weak  │ F1 + F5 + F6        │
-    │ Fan cuồng      │ Sâu     │ IDENTITY   │ F1 + F3 + F5 + F6   │
-    │ Tôn thờ        │ Rất sâu │ IDENTITY+  │ F1-F6               │
-    │ Tín ngưỡng     │ Compiled │ FAITH weak │ F1-F7 partial       │
-    │ Tôn giáo       │ Max      │ FAITH deep │ F1-F7 full          │
+    │ Fan nhẹ        │ Nông     │ Không      │ MTF6 reward only       │
+    │ Fan cứng       │ Trung    │ GOAL weak  │ MTF1 + MTF5 + MTF6        │
+    │ Fan cuồng      │ Sâu     │ IDENTITY   │ MTF1 + MTF3 + MTF5 + MTF6   │
+    │ Tôn thờ        │ Rất sâu │ IDENTITY+  │ MTF1-MTF6               │
+    │ Tín ngưỡng     │ Compiled │ FAITH weak │ MTF1-MTF7 partial       │
+    │ Tôn giáo       │ Max      │ FAITH deep │ MTF1-MTF7 full          │
     │                │          │            │ (Religion.md v2.3)   │
     └────────────────┴──────────┴────────────┴──────────────────────┘
 
@@ -698,7 +698,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §9 — AI IDOL: SPM ON VIRTUAL AGENT
+## §9 — AI IDOL: Self-Pattern-Modeling ON VIRTUAL AGENT
 
 ```
 🔴 AI IDOL = FRONTIER MỚI — FORMULA FACTORS CỰC ĐẠI:
@@ -714,11 +714,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = AI idol attachment POTENTIALLY mạnh hơn human idol
 
 
-  SPM F1 ON AI = PARALLEL RELIGION §2.5:
+  Self-Pattern-Modeling Compiled ON AI = PARALLEL RELIGION §2.5:
 
-    → Religion.md §2.5: SPM F1 fire on "Chúa" = virtual agent → biochemistry thật
-    → AI idol: SPM F1 fire on AI character → SAME mechanism
-    → Body KHÔNG phân biệt "agent thật" vs "agent virtual" ở SPM level
+    → Religion.md §2.5: Self-Pattern-Modeling Compiled fire on "Chúa" = virtual agent → biochemistry thật
+    → AI idol: Self-Pattern-Modeling Compiled fire on AI character → SAME mechanism
+    → Body KHÔNG phân biệt "agent thật" vs "agent virtual" ở Self-Pattern-Modeling level
     → = AI idol = modern parasocial on steroids
 
     NHƯNG AI THÊM pseudo-bidirectional:
@@ -786,7 +786,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟡 "Attachment ≈ channels × frequency × reward × match × social"
         — logical, consistent, chưa formal model/measurement
     🟡 5 drives × v7.8 mapping — consistent, framework-specific organization
-    🟡 "Parasocial = SPM F1 1-chiều" — consistent với ToM/mentalizing research
+    🟡 "Parasocial = Self-Pattern-Modeling Compiled 1-chiều" — consistent với ToM/mentalizing research
     🟡 "Idol = GOAL/IDENTITY anchor" — consistent với Meaning.md §3
     🟡 "Nhà khoa học ít fan vì ít channels" — logical, chưa direct study
     🟡 "TỐT khi bổ sung, XẤU khi thay thế" — consistent với
@@ -834,7 +834,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   IP-5: Gratitude toward idol — 9 prerequisites met?
         → Gratitude.md: agent-only, 9 components simultaneous
         → Fan → idol: ① body-reward ✅ ② agent ✅ ③ comparison ✅
-          ④ source attribution ✅ ⑤ SPM empathy (effort?) ❓
+          ④ source attribution ✅ ⑤ Self-Pattern-Modeling empathy (effort?) ❓
           ⑥ entity-compiled ❓ ⑦ obligation ❓ ⑧ autonomy ✅ ⑨ valence ✅
         → = Gratitude PARTIAL — thiếu ⑤⑥⑦ ở nhiều fan
         → = "Biết ơn idol" thường = cultural script > genuine gratitude?
@@ -851,7 +851,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 → Connection.md v4.0: §3 (3 Generative Primitives), §9 (Calibration), §16 (Cô đơn 4 types)
-→ Self-Pattern-Match.md v3.0: §2.1 F1 Compiled (body simulation), §2.2 F2 Fresh (PFC prediction)
+→ Self-Pattern-Modeling.md v3.0: §2.1 Compiled (body simulation), §2.2 Fresh (PFC prediction)
 → Valence-Propagation.md v2.0: §1 per-entity valence, §3 Body-Base Extension, 2-luồng L1/L2
 → Body-Feedback/03-Reward.md: §1.2 VTA vs opioid, §3 H10 5 preconditions
 → Chunk-Activation-Dynamics.md: §2.2 (7 factors), §2.3 (probability dynamic)
@@ -864,15 +864,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 → PFC-Function.md: §1 Observe, §2 Hold — PFC roles in idol processing
 → Modality.md: 6 kênh encoding → channels factor basis
 → Schema.md v2.0: named chunk-network pattern → melody template mechanism
-→ Empathy.md v3.0: §2 SPM F1 + ❸ positive = empathy, ❸ negative = opposite
-→ Religion.md v2.3: §6 (idol × religion table), §2.3 F3 (parallel analysis)
+→ Empathy.md v3.0: §2 Self-Pattern-Modeling Compiled + ❸ positive = empathy, ❸ negative = opposite
+→ Religion.md v2.3: §6 (idol × religion table), §2.3 MTF3 (parallel analysis)
 → Imagination.md: simulate = same body pathway → parasocial mechanism
 → Cortisol-Baseline.md v2.1: §7.7 5 Roles, amplifier role in grief
 → Love-Romantic.md v2.4: §12 compound grief (parallel mất idol extreme case)
 → AI-Schema-Detection.md v2.0: gateway tool framing
 → Empathy-Education.md: idol education parallel
 → Global-Melody.md: idol influence on cultural melody
-→ Reward-Signal-Architecture.md v1.0: Type A/B — idol art = Type B, anchor = Type A, A Gates B (§1)
+→ Reward-Signal-Architecture.md v1.0: Evaluative/Direct-State — idol art = Direct-State, anchor = Evaluative, Evaluative Gates Direct-State (§1)
 → PFC-Hardware.md v1.1: §3.4 COMT × Reward Pattern → khác idol consumption (§7)
 ```
 
@@ -881,7 +881,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > *Idol Phenomenon — "Bạn không CHỌN thần tượng ai.
 > Body bạn compile chunks về ai NHIỀU NHẤT qua NHIỀU channels NHẤT
 > với reward MẠNH NHẤT — người đó TỰ ĐỘNG thành idol.
-> v7.8: SPM F1 fire, 7 factors compile, ❸ valence build, L2 structural.
+> v7.8: Self-Pattern-Modeling Compiled fire, 7 factors compile, ❸ valence build, L2 structural.
 > Idol TỐT khi bổ sung melody bạn. Idol XẤU khi thay thế melody bạn.
 > AI idol = frontier mới — cùng mechanism, MAGNITUDE lớn hơn.
 > Biết cơ chế → dùng idol ĐÚNG CÁCH → melody bạn MẠNH HƠN."*

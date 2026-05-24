@@ -231,7 +231,7 @@ POP SCIENCE + MẠNG XÃ HỘI (2026):
 
 TẠI SAO NHẦM — correlation ≠ causation:
   Quan sát: "cortisol cao = người khó chịu" → ĐÚNG (correlation)
-  Kết luận: "cortisol GÂY khó chịu" → SAI (causation)
+  Kết luận: "cortisol GÂY discomfort" → SAI (causation)
   → Giống: "Lính cứu hỏa LUÔN có mặt khi cháy nhà" ≠ "Lính cứu hỏa GÂY cháy"
 
 3 BẰNG CHỨNG CHỐNG LẠI MAINSTREAM:
@@ -240,15 +240,15 @@ TẠI SAO NHẦM — correlation ≠ causation:
      → Có thể hơi tỉnh táo, hơi alert → KHÔNG "pain"
   🟢 Addison's disease (cortisol ≈ zero):
      Cortisol gần zero → VẪN khó chịu (mệt cực, yếu, chóng mặt, mờ mắt)
-     → NẾU cortisol = nguồn khó chịu → zero nên thoải mái?
-     → Thực tế: zero CŨNG khó chịu → cortisol KHÔNG phải nguồn
+     → NẾU cortisol = Genuine Discomfort source → zero nên thoải mái?
+     → Thực tế: zero CŨNG khó chịu → cortisol KHÔNG phải source
   🟢 Cushing's syndrome (cortisol cực cao mãn tính):
      Mood changes CÓ → nhưng "mood change" ≠ "đau"
      + Nhiều triệu chứng do DAMAGE TÍCH LŨY (§9), không do cortisol trực tiếp
 
   → KẾT LUẬN: cortisol cao = khó chịu, cortisol thấp = khó chịu
-  → Cortisol tự thân KHÔNG phải nguồn khó chịu
-  → Nguồn khó chịu = 3 nguồn KHÁC (§4)
+  → Cortisol tự thân KHÔNG phải Genuine Discomfort source
+  → Genuine Discomfort sources = 3 nguồn KHÁC (§4)
 ```
 
 ### §1.2 Framework reframe — Change-readiness amplifier
@@ -1084,7 +1084,7 @@ TIMELINE TỔNG HỢP — TỪ TRIGGER TỚI BASELINE SHIFT + RECOVERY:
 ## §4 — 3 NGUỒN ĐAU THẬT (CORTISOL KHÔNG GÂY ĐAU)
 
 > **Misconception lớn nhất về cortisol** — §1.1 đã bác bỏ:
-> "Cortisol cao + khó chịu" ≠ "Cortisol GÂY khó chịu"
+> "Cortisol cao + khó chịu" ≠ "Cortisol GÂY discomfort"
 >
 > Section này: TẠI SAO đau đến, TỪ ĐÂU đau đến, cortisol làm gì.
 
@@ -1120,19 +1120,19 @@ TIMELINE TỔNG HỢP — TỪ TRIGGER TỚI BASELINE SHIFT + RECOVERY:
 🟡 FRAMEWORK SYNTHESIS (core of dissonance theory):
 
   Schema HIỆN TẠI ≠ domain reality → body detect "CÁI GÌ ĐÓ SAI"
-  → Signal khó chịu TRƯỚC → cortisol tăng SAU (để kích thích fix)
-  → = Khó chịu → cortisol (amplifier) → KHÔNG phải cortisol → khó chịu
+  → Discomfort signal TRƯỚC → cortisol tăng SAU (để kích thích fix)
+  → = Discomfort → cortisol (amplifier) → KHÔNG phải cortisol → discomfort
 
   VÍ DỤ MISMATCH:
-    Đói:      body-need chưa met → mismatch → khó chịu → cortisol → tìm ăn
-    Bị mắng:  self-schema ≠ feedback → mismatch → khó chịu → cortisol → adjust
-    Deadline: "chưa xong" ≠ "phải xong" → mismatch → khó chịu → cortisol → làm
-    Ăn lạ:    ruột schema ≠ món mới → mismatch → khó chịu → cortisol → calibrate
-    Bất đồng: belief ≠ fact → mismatch → khó chịu → cortisol → ignore/update
-    Lỡ kẹt xe: plan ≠ reality → mismatch → khó chịu → cortisol → accept/reroute
+    Đói:      body-need chưa met → mismatch → discomfort → cortisol → tìm ăn
+    Bị mắng:  self-schema ≠ feedback → mismatch → discomfort → cortisol → adjust
+    Deadline: "chưa xong" ≠ "phải xong" → mismatch → discomfort → cortisol → làm
+    Ăn lạ:    ruột schema ≠ món mới → mismatch → discomfort → cortisol → calibrate
+    Bất đồng: belief ≠ fact → mismatch → discomfort → cortisol → ignore/update
+    Lỡ kẹt xe: plan ≠ reality → mismatch → discomfort → cortisol → accept/reroute
 
   ⭐ CORE MECHANISM:
-    Fix mismatch → khó chịu HẾT → cortisol TỰ giảm
+    Fix mismatch → discomfort HẾT → cortisol TỰ giảm
     = "Chữa bệnh → xe cứu hỏa tự về"
     = Giảm cortisol KHÔNG fix mismatch = fix triệu chứng, không fix nguồn
 
@@ -1157,7 +1157,7 @@ TIMELINE TỔNG HỢP — TỪ TRIGGER TỚI BASELINE SHIFT + RECOVERY:
 
   Mismatch detected → cortisol amplify → neurons THAY ĐỔI pattern
   → Thay đổi = KHÔNG ỔN ĐỊNH tạm thời
-  → Body "không biết pattern nào đúng" → KHÓ CHỊU tạm
+  → Body "không biết pattern nào đúng" → DISCOMFORT tạm
 
   ANALOGY: Đau cơ khi tập gym = FROM exertion, không phải bệnh
 
@@ -1192,8 +1192,8 @@ TIMELINE TỔNG HỢP — TỪ TRIGGER TỚI BASELINE SHIFT + RECOVERY:
 
   ↓ MAPPING ↓
 
-  Cortisol LUÔN có mặt khi khó chịu → correlation ĐÚNG
-  Cortisol GÂY khó chịu → causation SAI
+  Cortisol LUÔN có mặt khi discomfort → correlation ĐÚNG
+  Cortisol GÂY discomfort → causation SAI
   "Giảm cortisol" → mismatch VẪN CÒN + mất luôn cơ chế fix → TỆ HƠN
 
   → "Chữa cháy → xe cứu hỏa TỰ VỀ" = đúng thứ tự
@@ -1212,11 +1212,11 @@ SUMMARY TABLE:
   ├──────────────────┼──────────────────────┼──────────────────┤
   │ MISMATCH         │ Schema ≠ Reality     │ AMPLIFIES SAU    │
   │ (đói, mắng,      │ → body detect "sai"  │ (để fix)         │
-  │  deadline, lo)   │ → signal khó chịu    │ KHÔNG gây sai    │
+  │  deadline, lo)   │ → discomfort signal   │ KHÔNG gây sai    │
   ├──────────────────┼──────────────────────┼──────────────────┤
   │ RECALIBRATION    │ Neurons thay đổi     │ AMPLIFIES TỐC ĐỘ │
   │ (học mới, chuyển │ pattern → tạm không  │ recalibrate      │
-  │  nhà, immigrate) │ ổn định → khó chịu   │ → đau hơn nhưng  │
+  │  nhà, immigrate) │ ổn định → discomfort  │ → đau hơn nhưng  │
   │                  │                      │ NHANH hơn        │
   └──────────────────┴──────────────────────┴──────────────────┘
 ```
@@ -1228,7 +1228,7 @@ SUMMARY TABLE:
 
   ❌ SAI: "Giảm cortisol" (giảm thuốc, KHÔNG giảm bệnh)
   ✅ ĐÚNG: "Giảm MISMATCH" (fix nguồn gốc)
-    → Fix mismatch → khó chịu GIẢM → cortisol TỰ giảm
+    → Fix mismatch → discomfort GIẢM → cortisol TỰ giảm
 
   FIX MISMATCH BẰNG:
     SCHEMA UPDATE:
@@ -1698,7 +1698,7 @@ STRATEGY SPECTRUM:
   │                      │ = Calibrate CÓ HƯỚNG   │ = Calibrate MÙ   │
   ├──────────────────────┼─────────────────────────┼─────────────────┤
   │ Chunk tag (§3.3)     │ APPROACH tag (opioid)  │ AVOIDANCE tag      │
-  │                      │ "hiểu = sướng"         │ "học = khó chịu" │
+  │                      │ "hiểu = pleasant"         │ "học = khó chịu" │
   │                      │ → Body THÍCH dùng lại  │ → Body TRÁNH dùng│
   │                      │ (= "opioid tag")       │ (≠ cortisol gây!) │
   ├──────────────────────┼─────────────────────────┼─────────────────┤
@@ -3278,7 +3278,7 @@ REWARD ARCHITECTURE (2026-05-10 NEW):
 CORE MECHANISMS (sibling reference files):
   → Chunk.md v2.0 §2.4 (NT7 direction gate at compile)
   → Feeling.md v2.0 (PFC observation of body state)
-  → Empathy.md v1.0 (SPM applied to others)
+  → Empathy.md v1.0 (Self-Pattern-Modeling applied to others)
   → Valence-Propagation.md v1.0 (body evaluates entities)
 
 FRAMEWORK INTEGRATION POINTS (§3):

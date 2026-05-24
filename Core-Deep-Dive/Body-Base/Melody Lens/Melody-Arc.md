@@ -437,7 +437,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Nguyên tắc: thấy người khác ĐÃ QUA arc → body: "dissonance = BÌNH THƯỜNG"
 
     Tại sao hiệu quả:
-      → SPM fire (Self-Pattern-Match.md): simulate mentor's arc trajectory
+      → Self-Pattern-Modeling fire (Self-Pattern-Modeling.md): simulate mentor's arc trajectory
       → Body biết "dissonance này có ENDING" → uncertainty giảm → signal giảm
       → = Normalize dissonance → bớt đáng sợ
 

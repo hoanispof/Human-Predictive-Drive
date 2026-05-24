@@ -688,19 +688,19 @@ V2.0 REFRAME:
   = "Khi không có gì xảy ra, cơ thể TÔI feel thế nào?"
 
   ⭐ TẠI SAO BODY BASELINE LÀ NHƯ VẬY — MECHANISM:
-    → Body baseline = PHYSICAL REFLECTION của Background Patterns
-    → Cortisol baseline CAO vì Background Pattern [threat] chạy nền → cortisol sustained
-    → Opioid tone THẤP vì Background Pattern [not enough] suppress reward
-    → Muscle tension CAO vì Background Pattern [alert] fire liên tục
+    → Body baseline = PHYSICAL REFLECTION của Background-Patterns
+    → Cortisol baseline CAO vì Background-Pattern [threat] chạy nền → cortisol sustained
+    → Opioid tone THẤP vì Background-Pattern [not enough] suppress reward
+    → Muscle tension CAO vì Background-Pattern [alert] fire liên tục
     → = Body baseline KHÔNG random — là output của accumulated chunk patterns
     → Chi tiết mechanism: Chunk/Background-Pattern.md (chunk-level underneath)
 
   Fix body baseline → chunk networks tự adjust (ground truth thay đổi)
   Fix chunks MÀ KHÔNG fix body → relapse (body PULL quay lại)
-  Fix CÙNG LÚC body + build competing Background Pattern → TRUE resolution
+  Fix CÙNG LÚC body + build competing Background-Pattern → TRUE resolution
 
   → Thứ tự: Body → Chunks → Schema observation → ĐÚNG THỨ TỰ
-  → = "Biết nhưng không thay đổi" = verbal chunks updated, Background Pattern CHƯA
+  → = "Biết nhưng không thay đổi" = verbal chunks updated, Background-Pattern CHƯA
 
   3 ĐƯỜNG reverse-engineer body baseline:
     ① Observe behavior: "tôi hay LÀM GÌ khi stress?" → chunk network biểu hiện
@@ -801,7 +801,7 @@ METAPHOR (⚠️):
 
 ```
   Agent.md v1.0                  — agent = function on chunks, 4-layer
-  Empathy.md v1.0                — SPM applied to others
+  Empathy.md v1.0                — Self-Pattern-Modeling applied to others
   Drive.md v1.1                  — drive = emergent, 6 PFC Modes
   Imagination-Analysis-v2.md     — imagine = PFC engine
 ```

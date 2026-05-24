@@ -131,7 +131,7 @@ RESEARCH (giữ từ v1.0):
 ## §4 — KEY PRINCIPLES
 
 ```
-① KHÔNG overlap Simulation-Engine: SE = kiến trúc, file này = process + overview
+① KHÔNG overlap Simulation-Engine: Simulation-Engine = kiến trúc, file này = process + overview
 ② KHÔNG overlap Imagine-Final v3.0: Imagine-Final = 1 application cụ thể, file này = tổng quan
 ③ KEEP unique content: fidelity table, 5 modalities, 7 cortisol modes, override
 ④ ADD folder map: entry point cho readers

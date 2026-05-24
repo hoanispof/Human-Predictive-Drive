@@ -7,11 +7,11 @@ scope: |
   ARCHITECTURE file: Brain có 1 general-purpose Simulation Engine, KHÔNG PHẢI N modules riêng.
   3 Components: Interoception (readout) × Constructive Simulation (CPU) × Self/Other Model (target).
   3 Axes: Target (Self↔Other) × Time (Past↔Future) × Operation (Observe↔Construct).
-  Application = tọa độ trong 3D space. SPM, Self-Observation, Imagine-Final = 3 named points.
+  Application = tọa độ trong 3D space. Self-Pattern-Modeling, Self-Observation, Imagine-Final = 3 named points.
   Alexithymia = decisive proof cho shared substrate.
   PFC accessibility spectrum, engine use quality, bidirectional loop, training implications.
 purpose: |
-  SPM.md = APPLICATION 1 (mechanism riêng cho agent prediction).
+  Self-Pattern-Modeling.md = APPLICATION 1 (mechanism riêng cho agent prediction).
   Feeling.md = APPLICATION 2 (mechanism riêng cho body observation).
   Imagine-Final.md = APPLICATION 3 (mechanism riêng cho future simulation).
   File NÀY = SHARED ENGINE underneath tất cả — KIẾN TRÚC THỐNG NHẤT.
@@ -24,9 +24,9 @@ position: |
   PFC-Operations.md = HOW PFC operates (Hold/Suppress).
   Simulation-Engine.md = WHAT substrate runs ALL simulation applications.
 dependencies:
-  - Inter-Body-Mechanism.md v1.0 — §3 Compiled/Fresh axis, Architecture B
-  - PFC-Operations.md v1.0 — §9 PFC Budget, §10 Architecture B + 3-Cost
-  - Self-Pattern-Modeling.md v3.1 — APPLICATION 1, F1/F2 on engine
+  - Inter-Body-Mechanism.md v1.0 — §3 Compiled/Fresh axis, Compilable Architecture
+  - PFC-Operations.md v1.0 — §9 PFC Budget, §10 Compilable Architecture + 3-Cost
+  - Self-Pattern-Modeling.md v3.1 — APPLICATION 1, Compiled/Fresh on engine
   - Feeling.md v3.0 — APPLICATION 2, PFC observation interface
   - Imagine-Final.md — APPLICATION 3, future simulation
   - Body-Feedback-Mechanism.md v2.0 — §3 chunk dynamics, body-feedback readout
@@ -35,7 +35,7 @@ dependencies:
   - Connection.md v4.0 — social context for bidirectional loop
 sources:
   - Drill-Simulation-Engine v1.0 (809L, 16 insights, 23 citations)
-  - Drill-SPM-Self-Shared-Substrate v1.0 (~680L, 13 insights, 22 citations)
+  - Drill-Self-Pattern-Modeling-Self-Shared-Substrate v1.0 (~680L, 13 insights, 22 citations)
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -43,7 +43,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 # Simulation Engine — 1 Engine, 3 Components, N Applications
 
 > **Brain KHÔNG CÓ module riêng cho mỗi "mental function."**
-> **SPM, Self-Observation, Imagine-Final, memory, counterfactual, moral judgment, creativity...**
+> **Self-Pattern-Modeling, Self-Observation, Imagine-Final, memory, counterfactual, moral judgment, creativity...**
 > **TẤT CẢ = APPLICATIONS chạy trên CÙNG 1 ENGINE.**
 >
 > **ENGINE = Constructive Simulation Substrate:**
@@ -58,7 +58,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Target (Self ↔ Other) × Time (Past ↔ Future) × Operation (Observe ↔ Construct).**
 >
 > **Application = TỌA ĐỘ trong không gian 3 trục.**
-> **SPM = (Other, Present, Simulate). Self-Observation = (Self, Present, Observe).**
+> **Self-Pattern-Modeling = (Other, Present, Simulate). Self-Observation = (Self, Present, Observe).**
 > **Imagine-Final = (Self, Future, Simulate+Construct).**
 >
 > **Luyện 1 component = luyện TẤT CẢ applications.**
@@ -97,7 +97,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ② Engine = 3 COMPONENTS: Interoception × Constructive Simulation × Self/Other Model
   ③ 3 AXES xác định application: Target × Time × Operation
   ④ Mọi "mental function" = tọa độ cụ thể trong 3D space
-  ⑤ SPM, Self-Observation, Imagine-Final = 3 NAMED POINTS, not separate systems
+  ⑤ Self-Pattern-Modeling, Self-Observation, Imagine-Final = 3 NAMED POINTS, not separate systems
   ⑥ Luyện 1 component = improve ALL applications (shared substrate)
   ⑦ Hỏng 1 component = degrade ALL applications (alexithymia proof)
   ⑧ PFC accessibility = spectrum (auto → observe → active control)
@@ -119,9 +119,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ★ File này = ENGINE ARCHITECTURE (unification)
     │
-    ├── Drill-SPM-Self-Shared-Substrate v1.0 = EVIDENCE (neural proof)
+    ├── Drill-Self-Pattern-Modeling-Self-Shared-Substrate v1.0 = EVIDENCE (neural proof)
     │
-    ├── Self-Pattern-Modeling v3.1 = APPLICATION 1 (SPM mechanism)
+    ├── Self-Pattern-Modeling v3.1 = APPLICATION 1 (Self-Pattern-Modeling mechanism)
     │   = Other × Present × Simulate
     │
     ├── Imagine-Final.md v3.0 = APPLICATION 2 (future simulation)
@@ -156,7 +156,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = ĐỌC body signals TRỰC TIẾP
     = Posterior insula: raw sensory → anterior insula: emotional representation
     = UNIQUE cho self-target (chỉ tôi đọc được body CỦA TÔI)
-    = SPM→other KHÔNG CÓ component này → phải INFER từ external cues
+    = Self-Pattern-Modeling→other KHÔNG CÓ component này → phải INFER từ external cues
     = = "MÀN HÌNH": readout device cho body-feedback output
     
   COMPONENT 2 — CONSTRUCTIVE SIMULATION (DMN + hippocampus):
@@ -180,7 +180,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   ANALOGY:
     = 1 COMPUTER (engine), 3 thành phần (display + CPU + control panel)
-    = SPM = app nhắm vào NGƯỜI KHÁC
+    = Self-Pattern-Modeling = app nhắm vào NGƯỜI KHÁC
     = Self-Observation = app nhắm vào BẢN THÂN
     = Imagine-Final = app nhắm vào TƯƠNG LAI
     = TẤT CẢ dùng cùng CPU, cùng RAM, cùng display
@@ -261,7 +261,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   Simulate: Engine RUNS scenario, PFC reads output
     → "Bạn đang buồn vì..." = simulate other's state
-    → SPM primary mode
+    → Self-Pattern-Modeling primary mode
     
   Evaluate: PFC JUDGES simulation output (moral, value, decision)
     → "Hành động này đúng hay sai?" = simulate consequences + judge
@@ -292,7 +292,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌───┬──────────────────┬──────────────┬───────────┬──────────┬──────────────────────┐
   │ # │ Application      │ Target       │ Time      │ Operation│ Framework file       │
   ├───┼──────────────────┼──────────────┼───────────┼──────────┼──────────────────────┤
-  │ ① │ SPM              │ Other(close) │ Present   │ Simulate │ Self-Pattern-Modeling │
+  │ ① │ Self-Pattern-Modeling              │ Other(close) │ Present   │ Simulate │ Self-Pattern-Modeling │
   │   │ "bạn đang buồn"  │ or far       │           │          │ v3.0                 │
   ├───┼──────────────────┼──────────────┼───────────┼──────────┼──────────────────────┤
   │ ② │ Self-Observation  │ Self         │ Present   │ Observe  │ Feeling.md v3.0      │
@@ -301,7 +301,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ ③ │ Imagine-Final     │ Self         │ Future    │ Simulate │ Imagine-Final.md     │
   │   │ "nếu tôi bỏ việc"│              │           │+Construct│                      │
   ├───┼──────────────────┼──────────────┼───────────┼──────────┼──────────────────────┤
-  │ ④ │ Predict Other's   │ Other        │ Future    │ Simulate │ SPM + Imagine-Final  │
+  │ ④ │ Predict Other's   │ Other        │ Future    │ Simulate │ Self-Pattern-Modeling + Imagine-Final  │
   │   │ Future            │              │           │          │ combined             │
   ├───┼──────────────────┼──────────────┼───────────┼──────────┼──────────────────────┤
   │ ⑤ │ Memory Recall     │ Self         │ Past      │ Simulate │ (reconstructive)     │
@@ -334,13 +334,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   ① CÁC APPLICATION BLEND VÀO NHAU:
-    "Tôi nhớ lúc đó bạn buồn" = ⑥ (recall other) + ① (SPM past-state)
+    "Tôi nhớ lúc đó bạn buồn" = ⑥ (recall other) + ① (Self-Pattern-Modeling past-state)
     "Nếu mẹ ép, con sẽ buồn" = ④ (predict other future) + ⑧ (moral evaluate)
     "Tôi muốn trở thành người tốt hơn" = ⑨ (narrative) + ③ (imagine future)
     → KHÔNG CÓ RANH GIỚI RÕ → continuous space
 
   ② 3 NAMED APPLICATIONS (①②③) KHÔNG ĐẶC BIỆT HƠN CÁC CÁI KHÁC:
-    Framework đặt tên SPM, Self-Observation, Imagine-Final vì chúng QUAN TRỌNG
+    Framework đặt tên Self-Pattern-Modeling, Self-Observation, Imagine-Final vì chúng QUAN TRỌNG
     NHƯNG: predict other's future (④), counterfactual (⑦), moral judgment (⑧)
     = EQUALLY REAL functions trên CÙNG engine
     → Framework chưa drill deep các function ④-⑫
@@ -377,8 +377,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   UNIQUE CHO SELF-TARGET:
     Self-Observation: interoception = DIRECT READ (body CỦA TÔI)
-    SPM→other: interoception = INFERRED (external cues → simulate → readout)
-    → Self-Observation có THÊM 1 kênh input mà SPM→other không có
+    Self-Pattern-Modeling→other: interoception = INFERRED (external cues → simulate → readout)
+    → Self-Observation có THÊM 1 kênh input mà Self-Pattern-Modeling→other không có
     → = WHY self-observation SHOULD be more accurate
 ```
 
@@ -437,8 +437,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ③ Anterior insula READOUT body-feedback from simulation
     ④ PFC ATTRIBUTE output to target (self/other, past/future)
     → = Framework's Compiled/Fresh spectrum = engine's operating modes
-    → F1 (compiled): fast recombination from well-worn patterns
-    → F2 (fresh): slow, deliberate recombination with novel elements
+    → Compiled: fast recombination from well-worn patterns
+    → Fresh: slow, deliberate recombination with novel elements
 ```
 
 ### §5.2 — Memory = reconstruction
@@ -479,8 +479,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Shared network: mPFC, posterior cingulate, hippocampus, lateral temporal
 
   → Framework: Compiled/Fresh spectrum = this engine
-  → F1 = compiled recombination (fast, automatic, familiar patterns)
-  → F2 = fresh recombination (slow, PFC-guided, novel configurations)
+  → Compiled = automatic recombination (fast, familiar patterns)
+  → Fresh = PFC-guided recombination (slow, novel configurations)
 ```
 
 ---
@@ -526,7 +526,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │  (direct)    (as-if self)        model (effortful)      │
     │                                                         │
     │  Cost: ≈ 0   Cost: LOW           Cost: HIGH             │
-    │  (auto)      (F1 compiled)       (F2 fresh needed)      │
+    │  (auto)      (Compiled)       (Fresh needed)      │
     │                                                         │
     │  Accuracy:   Accuracy:           Accuracy:              │
     │  HIGH (self) HIGH if similar     LOWER, but less biased │
@@ -542,9 +542,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
   ⭐ ENTITY-ACCESS = NEURAL MIGRATION:
   
-    Stranger: dorsal mPFC (separate model, F2 required)
+    Stranger: dorsal mPFC (separate model, Fresh required)
     → Repeated interaction → Entity-Compiled deepens → entity MOVES ventral
-    → Close other: ventral mPFC (self-template, F1 compiled)
+    → Close other: ventral mPFC (self-template, Compiled)
     → Entity-Access high = brain HAS MIGRATED entity into "self territory"
     → = "Của tôi" = LITERALLY in self-processing circuits
     
@@ -564,11 +564,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   SIMILAR → vMPFC (self-template):
-    = SPM F1: compiled, automatic, self-as-template
+    = Self-Pattern-Modeling Compiled: compiled, automatic, self-as-template
     → Cost THẤP. Accuracy CAO cho similar, BIASED cho dissimilar
     
   DISSIMILAR → dMPFC (explicit model):
-    = SPM F2: fresh, deliberate, build separate model
+    = Self-Pattern-Modeling Fresh: fresh, deliberate, build separate model
     → Cost CAO. Accuracy LOWER but POTENTIALLY less biased
 
   ⭐ IMPLICATION CHO SELF-CALIBRATION:
@@ -598,7 +598,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Bird, Silani et al. 2010 (Brain):
     HIGH alexithymia → REDUCED anterior insula for:
       ① Own emotion recognition (Self-Observation)
-      ② Other's pain empathy (SPM)
+      ② Other's pain empathy (Self-Pattern-Modeling)
     → CÙNG substrate hỏng → CÙNG lúc mất cả 2 directions
     
   🟢 Mul et al. 2021 (European Archives Psych.):
@@ -609,14 +609,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   FRAMEWORK MAPPING:
     Alexithymia = Component 1 (interoception) BROKEN
     → ② Self-Observation: FAIL (cannot read own body-state)
-    → ① SPM: FAIL (cannot read simulated body-state)
+    → ① Self-Pattern-Modeling: FAIL (cannot read simulated body-state)
     → ③ Imagine-Final: DEGRADED (cannot pre-feel future state)
     → ⑤ Memory recall: DEGRADED (cannot re-feel past state)
     → ⑧ Moral judgment: DEGRADED (cannot feel moral valence)
     → = 1 component failure → ALL N applications degraded
     → = PROOF: shared substrate (if separate, failure would be isolated)
     
-  F1 VẪN FIRE nhưng READOUT BROKEN:
+  Compiled VẪN FIRE nhưng READOUT BROKEN:
     → Body SIMULATE nhưng PFC CANNOT READ output
     → = Input intact, processing intact, READOUT broken
     → = Giống có camera nhưng màn hình hỏng: vẫn quay nhưng không xem được
@@ -640,7 +640,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ ⑫ Mind wander│ LOW PFC: engine drift, attention unfocused        │
   │              │ "Bỗng nhớ chuyện cũ" = engine auto-associate      │
   ├──────────────┼────────────────────────────────────────────────────┤
-  │ ① SPM F1     │ MINIMAL: compiled, automatic, invisible           │
+  │ ① Self-Pattern-Modeling Compiled     │ MINIMAL: compiled, automatic, invisible           │
   │ (compiled)   │ "Thấy thích bạn mà không biết vì sao"            │
   │              │ PFC = PASSIVE observer (if even aware)             │
   ├──────────────┼────────────────────────────────────────────────────┤
@@ -648,7 +648,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │              │ PFC = READER (can label but not manipulate input)  │
   │              │ "Tôi đang buồn" = readout, not active simulation  │
   ├──────────────┼────────────────────────────────────────────────────┤
-  │ ① SPM F2     │ MODERATE: PFC actively draft model for unfamiliar │
+  │ ① Self-Pattern-Modeling Fresh     │ MODERATE: PFC actively draft model for unfamiliar │
   │ (fresh)      │ "Người này nghĩ gì nhỉ?" = deliberate simulation  │
   ├──────────────┼────────────────────────────────────────────────────┤
   │ ③ Imagine-   │ HIGH: PFC actively SET scenario, READ output,     │
@@ -666,7 +666,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Less PFC = more AUTOMATIC but less STEERABLE
     
   ⭐ IMAGINE-FINAL ĐẶC BIỆT VÌ:
-    ① PFC CAN OBSERVE output (unlike compiled F1 = PFC-invisible)
+    ① PFC CAN OBSERVE output (unlike compiled Compiled = PFC-invisible)
     ② PFC CAN MANIPULATE input ("nếu thay đổi X thì sao?")
     ③ PFC CAN COMPARE multiple simulations ("option A vs B")
     → = CONSCIOUS SIMULATION TOOL: both readout + active control
@@ -675,7 +675,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ENTITY-ACCESS CONNECTION:
     PFC Resource (Entity-Access §12) DETERMINES spectrum position:
       Full resources → Imagine-Final mode ("con sẽ cảm thấy gì nếu...")
-      Depleted → SPM F1 default ("con ăn chưa?" = compiled, automatic)
+      Depleted → Self-Pattern-Modeling Compiled default ("con ăn chưa?" = compiled, automatic)
     → Cascading: PFC budget ↓ → accessibility ↓ → engine runs on auto
 
   🟡 PFC accessibility spectrum = framework synthesis
@@ -710,15 +710,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = "Self-Absorption Paradox" resolved
 
   FRAMEWORK MAPPING:
-    Reflection = engine run with CURIOSITY cortisol (BFM §3.3c: productive)
-    Rumination = engine run with THREAT cortisol (BFM §3.3c: anxiety loop)
+    Reflection = engine run with CURIOSITY cortisol (Body-Feedback-Mechanism §3.3c: productive)
+    Rumination = engine run with THREAT cortisol (Body-Feedback-Mechanism §3.3c: anxiety loop)
     → Same engine, same components, same operation
     → DIFFERENT CORTISOL CONTEXT → different output QUALITY
     → = Compile-time direction lock (PFC-Operations §5): genuine vs threat compiled
     
   ⭐ APPLIES TO ALL APPLICATIONS (universal modifier):
-    SPM with curiosity: "tại sao bạn nghĩ vậy?" → LEARN about other
-    SPM with threat: "bạn chắc ghét tôi" → PROJECT fear onto other
+    Self-Pattern-Modeling with curiosity: "tại sao bạn nghĩ vậy?" → LEARN about other
+    Self-Pattern-Modeling with threat: "bạn chắc ghét tôi" → PROJECT fear onto other
     Imagine-Final with curiosity: "tương lai sẽ thú vị" → EXPLORE options
     Imagine-Final with threat: "tương lai sẽ tệ" → CATASTROPHIZE
     → Engine use quality = UNIVERSAL modifier across ALL applications
@@ -758,7 +758,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   VIRTUOUS SPIRAL:
-    Social interaction → engine PRACTICE (SPM fire on diverse targets)
+    Social interaction → engine PRACTICE (Self-Pattern-Modeling fire on diverse targets)
     → Engine improved → better self-model (shared substrate)
     → Better self-model → better social predictions
     → Better predictions → better interactions → MORE practice → LOOP
@@ -792,7 +792,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Focusing (Gendlin 1978): IMPROVE felt-sense awareness
     → Better readout → improve:
       Self-Observation (②): "biết mình đang feel gì" clearer
-      SPM (①): "biết người khác đang feel gì" more accurate
+      Self-Pattern-Modeling (①): "biết người khác đang feel gì" more accurate
       Imagine-Final (③): "feel trước tương lai" more vivid
       Moral judgment (⑧): "feel đúng/sai" more calibrated
     → = 1 training → ≥4 applications improved
@@ -882,7 +882,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Exact number of distinct applications (11? more? fewer?)
   3-axis model completeness (are there more axes?)
-  Interoception training → SPM improvement (quantifiable?)
+  Interoception training → Self-Pattern-Modeling improvement (quantifiable?)
   Diversity threshold for self-model calibration
   Entity-Access migration speed along mPFC gradient
   Dream function as offline engine optimization
@@ -894,11 +894,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 | File | Sections | Relationship |
 |------|----------|-------------|
-| Drill-SPM-Self-Shared-Substrate v1.0 | Full file | EVIDENCE file for this ARCHITECTURE |
-| Self-Pattern-Match v3.0 | §2 (F1/F2), §10 (SPM×IF) | APPLICATION 1: SPM mechanism |
+| Drill-Self-Pattern-Modeling-Self-Shared-Substrate v1.0 | Full file | EVIDENCE file for this ARCHITECTURE |
+| Self-Pattern-Modeling v3.0 | §2 (Compiled/Fresh), §10 (Self-Pattern-Modeling×IF) | APPLICATION 1: Self-Pattern-Modeling mechanism |
 | Imagine-Final.md | Full file | APPLICATION 2: future simulation |
 | Feeling.md v3.0 | §3 (PFC observation) | APPLICATION 3: self-observation |
-| Inter-Body-Mechanism.md v1.0 | §3 (Compiled/Fresh), §1 (Architecture B) | SOURCE-OF-TRUTH for spectrum |
+| Inter-Body-Mechanism.md v1.0 | §3 (Compiled/Fresh), §1 (Compilable Architecture) | SOURCE-OF-TRUTH for spectrum |
 | PFC-Operations.md v1.0 | §5 (Compiled Quality), §9 (PFC Budget) | HOW PFC operates on engine |
 | Entity-Access.md v1.1 | §3 (gradient model) | mPFC gradient = Entity-Access spectrum |
 | Entity-Valence-Dynamics.md v2.0 | §4 (per-entity table) | Valence modulates engine output |

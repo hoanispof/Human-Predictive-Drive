@@ -22,7 +22,7 @@ related: |
   Chunk.md v2.0 — chunk substrate PFC operates on
   Feeling.md v2.0 — feeling = what PFC observes
   Body-Feedback.md — body signals PFC evaluates
-  Agent.md — SPM function PFC invokes
+  Agent.md — Self-Pattern-Modeling function PFC invokes
   Drive.md v1.1 — PFC role in drive integration
   Cortisol-Baseline.md v2.0 — cortisol affects PFC function
 language: Tiếng Việt primary + English technical terms
@@ -231,8 +231,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → PFC KHÔNG "thấy" tranh đẹp — PFC hold attention → B match → body reward
      Source: Chunk.md v2.0 §9
 
-  ⑰ INVOKE SPM ON TARGETS (agent modeling):
-     → PFC invoke Self-Pattern-Match function on target entity
+  ⑰ INVOKE Self-Pattern-Modeling ON TARGETS (agent modeling):
+     → PFC invoke Self-Pattern-Modeling function on target entity
      → = Dùng self-chunks làm template → simulate target's state
      → Quality varies: high (người thân) → low (người lạ) → zero (cục đá)
      → = Empathy khi applied to others' emotional states
@@ -379,7 +379,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     → 🟢 Nisbett & Wilson 1977: "telling more than we can know"
     → 🟢 Split-brain confabulation: Gazzaniga
-    → Chi tiết mechanism: VP §7 (PFC Blindness + Confabulation)
+    → Chi tiết mechanism: Valence-Propagation §7 (PFC Blindness + Confabulation)
 ```
 
 ---
@@ -483,7 +483,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     "Muốn improve gut" → PFC KHÔNG fix gut neurons
       → PFC chọn food + lifestyle → gut tự calibrate
     "Muốn improve empathy" → PFC KHÔNG install mirror module
-      → PFC train self-chunks (meditation, Focusing) → SPM improve as side effect
+      → PFC train self-chunks (meditation, Focusing) → Self-Pattern-Modeling improve as side effect
     "Muốn improve skill" → PFC KHÔNG download skill
       → PFC direct attention + repetition → B motor areas compile → skill emerge
 ```
@@ -539,8 +539,8 @@ CHUNK SUBSTRATE:     Chunk.md v2.0 (full mechanism PFC operates on)
 FEELING SYSTEM:      Feeling.md v2.1 (what PFC observes)
 BODY-FEEDBACK:       Body-Feedback.md (signals PFC evaluates)
 REWARD:              Reward-Signal-Architecture.md v1.0 (reward × PFC config)
-AGENT MODELING:      Agent.md (SPM function PFC invokes)
-EMPATHY:             Empathy.md (SPM applied to others)
+AGENT MODELING:      Agent.md (Self-Pattern-Modeling function PFC invokes)
+EMPATHY:             Empathy.md (Self-Pattern-Modeling applied to others)
 DRIVE INTEGRATION:   Drive.md v1.1 (PFC smooth melody role)
 CORTISOL:            Cortisol-Baseline.md v2.0 (affects PFC function)
 CORE ARCHITECTURE:   Core-v7.8-Draft.md §1 (PFC position in cycle)

@@ -2,17 +2,17 @@
 title: Empathy-Education — Dạy Empathy Bằng Trải Nghiệm, Không Bằng Lời
 version: 2.0
 created: 2026-03-28 (v1.0 DRAFT)
-rewritten: 2026-04-21 (v2.0 — SPM-based, v7.8 aligned, AI era section)
+rewritten: 2026-04-21 (v2.0 — Self-Pattern-Modeling-based, v7.8 aligned, AI era section)
 status: v2.0 OBSERVATION FILE
 scope: |
   OBSERVATION FILE: Empathy trong giáo dục — TẠI SAO cần (practical, not moral),
-  CƠ CHẾ SPM tóm tắt (reference Empathy.md), PHÁT TRIỂN thế nào (bootstrap + phá),
+  CƠ CHẾ Self-Pattern-Modeling tóm tắt (reference Empathy.md), PHÁT TRIỂN thế nào (bootstrap + phá),
   ỨNG DỤNG per-age (0-3 / 3-6 / 6-12 / 12-18 / adult),
   AI ERA tại sao empathy = irreplaceable human advantage.
   File này = Observation ỨNG DỤNG, KHÔNG phải mechanism file.
 purpose: |
   Trả lời: "Làm sao dạy empathy THỰC SỰ — không phải 'phải tốt' mà 'body FEEL
-  cooperation = sướng'?" Pragmatic empathy > moral empathy.
+  cooperation = pleasant'?" Pragmatic empathy > moral empathy.
   Nền tảng cho: thói quen hợp tác, làm việc, sinh sống cả đời.
 position: |
   Research/Education/Observation/ — ngang hàng Education-Arms-Race.md.
@@ -21,29 +21,29 @@ position: |
     Domain-Knowledge-Map.md (WHAT — 3-tier domain taxonomy)
     Observation/ (ứng dụng quan sát cụ thể) ← ĐÂY
   File này BUILD TRÊN:
-    - Empathy.md (mechanism — SPM function, 3 cơ chế, 7 failure modes)
+    - Empathy.md (mechanism — Self-Pattern-Modeling function, 3 cơ chế, 7 failure modes)
     - Connection.md v2.0 (8 valence chain pathways, evolutionary WHY)
     - Education-Mechanism.md (arc design principles, 4 nguồn fill, bridge)
-    - Child-Development-Mechanism.md §6 (SPM developmental bootstrap)
+    - Child-Development-Mechanism.md §6 (Self-Pattern-Modeling developmental bootstrap)
     - Human-AI-Future.md v2.0 (AI vs human mechanism differences)
 previous_version: |
   backup/v1.1/Empathy-Education-v1.1.md (914L, 2026-04-11)
   Thay đổi chính v2.0:
-    - Mirror neuron framing → SPM function on chunk substrate
-    - Thêm §2 SPM mechanism summary
+    - Mirror neuron framing → Self-Pattern-Modeling function on chunk substrate
+    - Thêm §2 Self-Pattern-Modeling mechanism summary
     - Thêm §5 AI era section
     - v7.8 terminology (chunks, observation parameters, approach/avoidance)
     - Updated cross-references tới v7.8 files
     - Giữ nguyên core insights: positive-sum, pragmatic > moral, 4 nguồn fill,
       "đừng phá", Type 3 Imposed, 1 anchor person, per-age guide
 dependencies:
-  - Empathy.md v1.0 — SPM function, 3 mechanisms, developmental bootstrap, 7 failures
-  - Connection.md v2.0 — 8 valence chain pathways, evolutionary WHY, SPM × Resonance
-  - Self-Pattern-Match.md — 6 steps, 5 Pattern-Types, 4 axes, calibration loop
+  - Empathy.md v1.0 — Self-Pattern-Modeling function, 3 mechanisms, developmental bootstrap, 7 failures
+  - Connection.md v2.0 — 8 valence chain pathways, evolutionary WHY, Self-Pattern-Modeling × Resonance
+  - Self-Pattern-Modeling.md — 6 steps, 5 Pattern-Types, 4 axes, calibration loop
   - By-Product-Gap-Resonance.md — emergent mutual phenomenon, 4 conditions, feedback
   - Education-Mechanism.md v1.0 — 8 arc design principles, 4 nguồn fill, bridge
   - Domain-Knowledge-Map.md v1.0 — §1.4 Social/Emotional = foundation domain
-  - Child-Development-Mechanism.md — §6 SPM bootstrap, §5 feeling fidelity
+  - Child-Development-Mechanism.md — §6 Self-Pattern-Modeling bootstrap, §5 feeling fidelity
   - Human-AI-Future.md v2.0 — AI vs human, symbiosis, empathy = irreplaceable
   - Anchor-Schema.md — 4 nguồn fill, trust, 1 anchor person = literal mechanism
   - Threat.md — 3 ORIGIN taxonomy, Type 3 Imposed = empathy killer
@@ -59,17 +59,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Kết quả: trẻ BIẾT phải tốt → nhưng KHÔNG FEEL tại sao → quên ngay.
 >
 > **File này đề xuất: tạo TRẢI NGHIỆM để body tự learn:**
-> "Người khác tốt = MÌNH sướng. Hợp tác = MÌNH ĐƯỢC lợi."
+> "Người khác tốt = MÌNH pleasant. Hợp tác = MÌNH ĐƯỢC lợi."
 > Khi body FEEL được điều này → empathy = INTRINSIC → không cần ai nhắc.
 >
 > Empathy không phải đạo đức. Empathy là SKILL — và skill CẦN practice.
 >
-> **CƠ CHẾ:** Empathy = Self-Pattern-Match function trên chunk substrate.
+> **CƠ CHẾ:** Empathy = Self-Pattern-Modeling function trên chunk substrate.
 > Não dùng chunks CỦA MÌNH làm template simulate trạng thái NGƯỜI KHÁC.
 > Body MÌNH fire bản sao yếu → PFC observe → "feeling about other."
 > KHÔNG phải "mirror neuron" hardware module — là FUNCTION learned qua experience.
 >
-> **AI ERA:** AI có verbal chunks cực mạnh nhưng KHÔNG CÓ body → KHÔNG có SPM thật.
+> **AI ERA:** AI có verbal chunks cực mạnh nhưng KHÔNG CÓ body → KHÔNG có Self-Pattern-Modeling thật.
 > Empathy = 1 trong rất ít thứ AI KHÔNG replicate được.
 > Dạy empathy = đầu tư vào human advantage IRREPLACEABLE.
 >
@@ -82,7 +82,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 - §0 — VỊ TRÍ TRONG FRAMEWORK
 - §1 — TẠI SAO EMPATHY QUAN TRỌNG — PRACTICAL, KHÔNG PHẢI MORAL
-- §2 — SPM MECHANISM — EMPATHY HOẠT ĐỘNG THẾ NÀO
+- §2 — Self-Pattern-Modeling MECHANISM — EMPATHY HOẠT ĐỘNG THẾ NÀO
 - §3 — PHÁT TRIỂN — BOOTSTRAP + GÌ PHÁ EMPATHY
 - §4 — EMPATHY TRONG GIÁO DỤC — ỨNG DỤNG PER-AGE
 - §5 — AI ERA — TẠI SAO EMPATHY QUAN TRỌNG HƠN BAO GIỜ HẾT
@@ -112,13 +112,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TẦNG TRONG KIẾN TRÚC:
 
     TẦNG 1: Core-Deep-Dive/
-      → Empathy.md (mechanism — SPM function, 3 cơ chế, failures)
+      → Empathy.md (mechanism — Self-Pattern-Modeling function, 3 cơ chế, failures)
       → Connection.md (8 pathways, evolutionary WHY)
-      → Self-Pattern-Match.md (6 steps, 4 axes)
+      → Self-Pattern-Modeling.md (6 steps, 4 axes)
       → By-Product-Gap-Resonance.md (mutual phenomenon, feedback)
 
     TẦNG 2: Research/Child-Development/
-      → Child-Development-Mechanism.md §6 (SPM bootstrap)
+      → Child-Development-Mechanism.md §6 (Self-Pattern-Modeling bootstrap)
 
     TẦNG 3: Research/Education/
       → Education-Mechanism.md (arc design) + Domain-Knowledge-Map.md
@@ -130,13 +130,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   SCOPE IN:
     - TẠI SAO empathy quan trọng — practical, positive-sum logic
-    - CƠ CHẾ tóm tắt — SPM function (reference, không deep-dive)
+    - CƠ CHẾ tóm tắt — Self-Pattern-Modeling function (reference, không deep-dive)
     - PHÁT TRIỂN — bootstrap, gì phá, 1 anchor person
     - ỨNG DỤNG — per-age guide cho giáo viên + phụ huynh
     - AI ERA — empathy = irreplaceable human advantage
 
   SCOPE OUT:
-    - SPM mechanism chi tiết → Self-Pattern-Match.md
+    - Self-Pattern-Modeling mechanism chi tiết → Self-Pattern-Modeling.md
     - Empathy mechanism full → Empathy.md v1.0
     - Connection mechanism → Connection.md v2.0
     - Arc design principles → Education-Mechanism.md
@@ -146,12 +146,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   THAY ĐỔI SO VỚI v1.1:
 
-    ① Mirror neuron framing → SPM function on chunk substrate
+    ① Mirror neuron framing → Self-Pattern-Modeling function on chunk substrate
        v1.1: "mirror neurons fire KHI LÀM và KHI THẤY" (Rizzolatti)
-       v2.0: SPM = solo forward simulation, NOT hardware mirror
+       v2.0: Self-Pattern-Modeling = solo forward simulation, NOT hardware mirror
        (Empathy.md §1.2: framework BÁC BỎ hardware mirror module)
 
-    ② Thêm §2 SPM mechanism summary — reader hiểu CƠ CHẾ trước ứng dụng
+    ② Thêm §2 Self-Pattern-Modeling mechanism summary — reader hiểu CƠ CHẾ trước ứng dụng
 
     ③ Thêm §5 AI era — empathy = irreplaceable trong kỷ nguyên AI
 
@@ -219,11 +219,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → VD: "Cô giáo dạy phải chia sẻ" → trẻ chia sẻ ở lớp → về nhà quên
     → = BRIDGE — cần maintain, dễ collapse
 
-  PRAGMATIC EMPATHY — "người khác tốt = mình sướng":
+  PRAGMATIC EMPATHY — "người khác tốt = mình pleasant":
     → Source: body-level understanding (compiled chunks từ experience)
     → = Nguồn ②③ Experience + Compiled (Anchor-Schema.md)
     → Khi stress/mệt: VẪN CÒN (body-level, không phụ thuộc PFC)
-    → VD: "Mọi người vui thì mình chơi sướng" → TỰ share vì BODY MUỐN
+    → VD: "Mọi người vui thì mình chơi pleasant" → TỰ share vì BODY MUỐN
     → = INTRINSIC — tự duy trì, không cần ai nhắc
 
   GIÁO DỤC HIỆN TẠI = hầu như chỉ dạy MORAL:
@@ -253,7 +253,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌────┬──────────────────────┬──────────────────────────────────────────┐
   │ #  │ Pathway              │ Empathy education liên quan thế nào      │
   ├────┼──────────────────────┼──────────────────────────────────────────┤
-  │ ①  │ SPM mirror reward    │ Dạy FEEL state người khác → "vui lây"   │
+  │ ①  │ Self-Pattern-Modeling mirror reward    │ Dạy FEEL state người khác → "vui lây"   │
   │    │                      │ = Truyền thống gọi "đồng cảm"           │
   ├────┼──────────────────────┼──────────────────────────────────────────┤
   │ ②  │ Co-regulation        │ Dạy PRESENCE → ngồi cạnh = giảm stress  │
@@ -296,8 +296,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Empathy KHÔNG phải mục tiêu cuối → là NỀN TẢNG cho:
 
     Gia đình: hiểu partner + con → relationship bền
-      → SPM quality CẢ HAI PHÍA cao = connection deep (Connection.md §3)
-      → = "Hiểu nhau" = SPM library cho nhau đủ sâu
+      → Self-Pattern-Modeling quality CẢ HAI PHÍA cao = connection deep (Connection.md §3)
+      → = "Hiểu nhau" = Self-Pattern-Modeling library cho nhau đủ sâu
 
     Công việc: hiểu đồng nghiệp → cooperation tốt → output tốt
       → Shared Imagine-Final + diverse melodies = strongest team
@@ -319,14 +319,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §2 — SPM MECHANISM — EMPATHY HOẠT ĐỘNG THẾ NÀO
+## §2 — Self-Pattern-Modeling MECHANISM — EMPATHY HOẠT ĐỘNG THẾ NÀO
 
-### §2.1 — Empathy = SPM function, KHÔNG phải mirror neuron module
+### §2.1 — Empathy = Self-Pattern-Modeling function, KHÔNG phải mirror neuron module
 
 ```
 ⭐ ĐỊNH NGHĨA (Empathy.md §1):
 
-  Empathy = Self-Pattern-Match function applied to another agent's states.
+  Empathy = Self-Pattern-Modeling function applied to another agent's states.
 
   CƠ CHẾ:
     Não dùng chunks CỦA MÌNH làm template
@@ -341,7 +341,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        Bird & Cook 2013 🟢 decisive evidence)
     ✗ Hệ thống cảm xúc riêng biệt
     ✗ Bẩm sinh hoàn chỉnh từ sinh (cần chunks tích lũy)
-    ✗ Chỉ dành cho agent-reading (SPM = general-purpose)
+    ✗ Chỉ dành cho agent-reading (Self-Pattern-Modeling = general-purpose)
 
   LÀ:
     ○ FUNCTION chạy trên chunk substrate chung (Chunk.md v2.0)
@@ -354,7 +354,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TẠI SAO QUAN TRỌNG CHO EDUCATION:
 
     Mirror module claim → "empathy = bẩm sinh, dạy không ảnh hưởng nhiều"
-    SPM function claim → "empathy = SKILL build từ chunk library → DẠY ĐƯỢC"
+    Self-Pattern-Modeling function claim → "empathy = SKILL build từ chunk library → DẠY ĐƯỢC"
 
     → = Redefine này THAY ĐỔI approach giáo dục hoàn toàn
     → = Không phải "ai có mirror neurons mạnh thì empathy"
@@ -374,7 +374,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Arousal contagion, near-innate
     🟢 Dondi 1999: trẻ sơ sinh khóc lây ≠ mirror → pattern recognition
 
-  ② AGENT MODELING = Self-Pattern-Match (learned, 14-24m+):
+  ② AGENT MODELING = Self-Pattern-Modeling (learned, 14-24m+):
     → Brain build prediction model cho "agent phi logic"
     → Dùng own-state mapping: "khi MÌNH buồn → muốn ÔM → bạn buồn → ÔM bạn"
     → = TRUE EMPATHY bắt đầu ở đây
@@ -393,24 +393,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     0-12 tháng: ① pattern matching CHỦ YẾU → CHƯA CẦN "dạy empathy"
       → Chỉ cần: respond khi trẻ cần (build self-chunks)
 
-    14-24 tháng: ② SPM EMERGING → window quan trọng
+    14-24 tháng: ② Self-Pattern-Modeling EMERGING → window quan trọng
       → Self-chunks đang form → quality CỦA caregiving = quyết định
 
     2-7 tuổi: ② over-apply → BÌNH THƯỜNG
-      → "Ghế bị đau" = SPM đang calibrate → đừng phạt
-      → Cho expose NHIỀU context → SPM calibrate tốt hơn
+      → "Ghế bị đau" = Self-Pattern-Modeling đang calibrate → đừng phạt
+      → Cho expose NHIỀU context → Self-Pattern-Modeling calibrate tốt hơn
 
     7+ tuổi: ②③ blend → empathy SELECTIVE + DEEP
       → Đủ để dạy pragmatic empathy qua structured experience
 
   → = Developmental trajectory guides WHEN và HOW to intervene
-  → = Không phải "dạy empathy từ 3 tuổi" → mà "bảo vệ SPM bootstrap từ 0"
+  → = Không phải "dạy empathy từ 3 tuổi" → mà "bảo vệ Self-Pattern-Modeling bootstrap từ 0"
 ```
 
-### §2.3 — 6 bước SPM + Biochemistry THẬT
+### §2.3 — 6 bước Self-Pattern-Modeling + Biochemistry THẬT
 
 ```
-🟡 6 BƯỚC SPM APPLIED TO EMPATHY (Self-Pattern-Match.md §2):
+🟡 6 BƯỚC Self-Pattern-Modeling APPLIED TO EMPATHY (Self-Pattern-Modeling.md §2):
 
   ┌─────┬──────────────────────┬──────────────────────────────────────────┐
   │ Step│ Action               │ VD: thấy bạn thân khóc                   │
@@ -441,13 +441,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ STEP 4 = CRITICAL — BIOCHEMISTRY THẬT:
 
     Empathy NEGATIVE (thấy người khác đau):
-      → SPM fire → cortisol THẬT, NE THẬT, tension THẬT trong body MÌNH
+      → Self-Pattern-Modeling fire → cortisol THẬT, NE THẬT, tension THẬT trong body MÌNH
       → CÙNG pathways với trải nghiệm trực tiếp, chỉ YẾU HƠN
       → = Tại sao empathy CÓ COST thật → empathy fatigue = real
 
     Empathy POSITIVE (thấy người khác vui):
-      → SPM fire → opioid THẬT, oxytocin THẬT trong body MÌNH
-      → = Tại sao "nhìn con ăn ngon mà sướng"
+      → Self-Pattern-Modeling fire → opioid THẬT, oxytocin THẬT trong body MÌNH
+      → = Tại sao "nhìn con ăn ngon mà pleasant"
       → = Tại sao cho quà + NHÌN mở quà = reward ĐỈNH
 
     → Body MÌNH genuinely responds — KHÔNG phải "tưởng tượng"
@@ -466,7 +466,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Education: "Con đang feel gì?" TRƯỚC → rồi "Bạn đang feel gì?"
 
 
-  4 QUALITY AXES (Self-Pattern-Match.md §4):
+  4 QUALITY AXES (Self-Pattern-Modeling.md §4):
 
     ① Pattern-Type match — fire đúng loại chunks cho target cues
     ② Depth — quantity + specificity chunks về target
@@ -488,11 +488,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   (By-Product-Gap-Resonance.md §0)
 
-  SPM = solo mechanism (MỖI NGƯỜI TỰ chạy)
-  Resonance = khi CẢ HAI SPM co-fire thành công → connection THẬT
+  Self-Pattern-Modeling = solo mechanism (MỖI NGƯỜI TỰ chạy)
+  Resonance = khi CẢ HAI Self-Pattern-Modeling co-fire thành công → connection THẬT
 
   4 ĐIỀU KIỆN CẦN:
-    ① Cả 2 phía running SPM toward nhau
+    ① Cả 2 phía running Self-Pattern-Modeling toward nhau
     ② Feedback channel có (face-to-face richest)
     ③ Patterns match (tương đồng đủ)
     ④ Thời gian đủ (không instant)
@@ -504,16 +504,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ CALIBRATION LOOP — CONNECTION DEEPENS QUA THỜI GIAN:
 
-    A fire SPM on B (prediction)
+    A fire Self-Pattern-Modeling on B (prediction)
       → Interaction proceeds
         → Outcome observed
           → Resonance inferred (retrospective)
-            → SPM library UPDATE
-              → Next SPM on B: MORE ACCURATE
+            → Self-Pattern-Modeling library UPDATE
+              → Next Self-Pattern-Modeling on B: MORE ACCURATE
                 → Connection DEEPENS
 
   → "Tình bạn cần thời gian" = cần ĐỦ calibration loops
-  → Bạn thân 20 năm = hàng nghìn vòng → SPM library cực sâu
+  → Bạn thân 20 năm = hàng nghìn vòng → Self-Pattern-Modeling library cực sâu
   → = Education cần TẠO cơ hội cho calibration loops:
     face-to-face interaction, diverse contexts, sufficient time
 
@@ -523,7 +523,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ① Tạo cơ hội tương tác SÂU (không chỉ surface chào hỏi)
     ② Tạo cơ hội face-to-face (richest feedback channel)
     ③ Cho đủ THỜI GIAN để Resonance emerge
-    ④ Diverse contexts → SPM calibrate ở NHIỀU tình huống
+    ④ Diverse contexts → Self-Pattern-Modeling calibrate ở NHIỀU tình huống
     ⑤ Reflection sau tương tác → deliberate library refinement
 
   🟡 "Calibration loop" framing = framework synthesis
@@ -539,7 +539,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ EMPATHY BUỘC PHẢI CÓ SELF-CHUNKS TÍCH LŨY ĐỦ:
 
-  Toàn bộ chuỗi (Child-Development-Mechanism.md §6.3, SPM.md §5.8):
+  Toàn bộ chuỗi (Child-Development-Mechanism.md §6.3, Self-Pattern-Modeling.md §5.8):
 
     Contingent caregiving (responsive, nhất quán)
       ↓
@@ -551,9 +551,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ↓
     Self-awareness (rouge test 18-24m: "đó là TÔI")
       ↓
-    Templates available (self-chunks = template cho SPM)
+    Templates available (self-chunks = template cho Self-Pattern-Modeling)
       ↓
-    SPM fires on others → EMPATHY EMERGE
+    Self-Pattern-Modeling fires on others → EMPATHY EMERGE
 
   ⭐ SKIP BẤT KỲ BƯỚC NÀO = CEILING cho bước sau.
 
@@ -563,7 +563,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Mẹ responsive nhưng KHÔNG label ("ôm cho nín, không nói tại sao"):
     → Trẻ calm nhưng KHÔNG compile ranh giới giữa states
     → Self-chunks THÔ (chỉ "khó chịu chung" vs "OK")
-    → SPM template THÔ → empathy CÓ nhưng SHALLOW
+    → Self-Pattern-Modeling template THÔ → empathy CÓ nhưng SHALLOW
     → Adult: "biết bạn buồn" nhưng KHÔNG biết "buồn VÌ GÌ"
 
 
@@ -576,7 +576,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 
   🟢 Bird & Cook 2013 — DECISIVE:
-    Poor self-reading (alexithymia) → poor templates → poor SPM → empathy deficit
+    Poor self-reading (alexithymia) → poor templates → poor Self-Pattern-Modeling → empathy deficit
     → Self-awareness = UPSTREAM prerequisite
     → KHÔNG PHẢI "sẽ tự phát triển theo tuổi"
     → = Architectural constraint, không phải developmental delay đơn thuần
@@ -603,7 +603,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Empathy: brain SẴN SÀNG connect → chỉ cần CONNECTION → tự develop
 
   NẾU ĐƯỢC ĐÁP ỨNG (connection có):
-    → Body compile: "connection = safe, sướng, đáng tin"
+    → Body compile: "connection = safe, pleasant, đáng tin"
     → Empathy GROW tự nhiên — không cần "dạy"
     → Trẻ TỰ share, TỰ quan tâm, TỰ đau khi bạn đau
     → = Rừng ĐANG XANH — chỉ cần không đốt
@@ -711,7 +711,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Framework approach:
       → Tạo experience thật → fill nguồn ②
-      → Cho body confirm "connection = sướng" → compile nguồn ③
+      → Cho body confirm "connection = pleasant" → compile nguồn ③
       → Cho PFC self-reflect về values → develop nguồn ①
       → Stories + guidance → fill nguồn ④ (nhỏ, bổ trợ)
       → = 4 nguồn balanced → empathy deep + sustainable
@@ -826,14 +826,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ② HỎI > GIẢNG (từ 3 tuổi trở lên):
     → "Con thấy bạn feel gì?" → trẻ TỰ simulate → body TỰ feel
     → "Phải xin lỗi!" → trẻ nói lời nhưng body KHÔNG feel
-    → Hỏi kích hoạt SPM của trẻ → giảng bypass SPM
+    → Hỏi kích hoạt Self-Pattern-Modeling của trẻ → giảng bypass Self-Pattern-Modeling
 
   ③ PRAGMATIC > MORAL (từ 6 tuổi):
     → "Hợp tác → MÌNH ĐƯỢC LỢI" > "Phải hợp tác vì đúng đắn"
     → Body compile "cooperation = approach tag" thay vì "cooperation = compliance"
 
-  ④ KHÔNG PHẠT expression — KHÔNG suppress SPM đang build:
-    → "Ghế không biết đau!" = suppress SPM đang calibrate (2-4 tuổi)
+  ④ KHÔNG PHẠT expression — KHÔNG suppress Self-Pattern-Modeling đang build:
+    → "Ghế không biết đau!" = suppress Self-Pattern-Modeling đang calibrate (2-4 tuổi)
     → "Con trai không được khóc" = đóng kênh expression → self-chunks THIẾU
     → "Sao con ngu thế" = shame → connection drive BỊ CHẶN
 
@@ -848,7 +848,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Teacher training: empathy TRƯỚC khi dạy empathy
 ```
 
-### §4.2 — 0-3 tuổi: NỀN TẢNG — "Connection = safe + sướng"
+### §4.2 — 0-3 tuổi: NỀN TẢNG — "Connection = safe + pleasant"
 
 ```
 🟢🟡 MỤC TIÊU: body compile "người khác = SOURCE of reward"
@@ -857,7 +857,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ① Respond contingently:
       → Trẻ khóc → tới → soothe → body compile: "kêu → có người → safe"
-      → Quality of contingency > quantity of presence (SPM.md §5.3)
+      → Quality of contingency > quantity of presence (Self-Pattern-Modeling.md §5.3)
       → Mẹ đi làm 8 giờ nhưng contingent khi ở nhà
         > Mẹ ở nhà 24/7 nhưng non-contingent (distracted)
 
@@ -865,7 +865,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → "Con đang đói à?", "Con mệt rồi", "Con sợ à?"
       → = Build self-chunks (Child-Development-Mechanism.md §5.2)
       → Self-chunks = prerequisite cho empathy
-      → = ĐANG BUILD nền tảng SPM dù chưa "dạy empathy"
+      → = ĐANG BUILD nền tảng Self-Pattern-Modeling dù chưa "dạy empathy"
 
     ③ Physical connection:
       → Ôm, bế, chơi cùng → body compile: "connection = safe + warm"
@@ -880,7 +880,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ❌ SAI LẦM:
     → Bỏ mặc / ít physical contact → body compile: "connection = THIẾU"
     → "Để tự nín" (cry-it-out extreme) → body compile: "kêu = vô ích"
-    → = Nền empathy YẾU vì body chưa bao giờ feel "connection = sướng"
+    → = Nền empathy YẾU vì body chưa bao giờ feel "connection = pleasant"
 
   🟢 Attachment theory (Bowlby 1969): secure attachment → prosocial
   🟢 Harlow monkey experiments: touch deprivation → social dysfunction
@@ -890,38 +890,38 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §4.3 — 3-6 tuổi: NHẬN BIẾT — "Người khác CŨNG feel"
 
 ```
-🟢🟡 MỤC TIÊU: SPM bắt đầu fire → cho PRACTICE
+🟢🟡 MỤC TIÊU: Self-Pattern-Modeling bắt đầu fire → cho PRACTICE
 
-  SPM ĐÃ ONLINE (post-rouge test) → bây giờ CẦN CALIBRATE:
+  Self-Pattern-Modeling ĐÃ ONLINE (post-rouge test) → bây giờ CẦN CALIBRATE:
 
     ① HỎI, KHÔNG GIẢNG:
-      → "Con thấy bạn A đang cảm thấy gì?" → trẻ TỰ fire SPM
+      → "Con thấy bạn A đang cảm thấy gì?" → trẻ TỰ fire Self-Pattern-Modeling
       → "Nếu con là bạn A → con feel thế nào?" → PFC kích hoạt simulation
       → Khi trẻ hurt bạn: "Con nhìn mặt bạn xem — bạn đang feel gì?"
         → Trẻ NHÌN → body simulate → TỰ THẤY → TỰ MUỐN xin lỗi
 
     ② ROLE-PLAY:
       → Đóng vai người khác → body SỐNG trong state khác
-      → = SPM practice trong safe environment
+      → = Self-Pattern-Modeling practice trong safe environment
       → Đọc truyện + hỏi: "nhân vật feel gì? tại sao?"
       → = Simulation practice qua narrative
 
-    ③ PRETEND PLAY = NATURAL SPM TRAINING:
+    ③ PRETEND PLAY = NATURAL Self-Pattern-Modeling TRAINING:
       → "Con làm bác sĩ, mẹ làm bệnh nhân"
       → Trẻ TỰ CHỌN role = approach tag (không bị ép)
       → Body simulate state người khác trong safe context
       → = Most effective empathy training ở tuổi này
 
     ④ ANIMISM = BÌNH THƯỜNG — ĐỪNG SUPPRESS:
-      → "Ghế bị đau" = SPM đang over-apply → ĐANG CALIBRATE
-      → Suppress ("ghế không biết đau!") = suppress SPM practice
-      → Tốt hơn: "Con nghĩ ghế bị đau à? Con thương ghế nhỉ" → validate SPM impulse
-      → SPM sẽ TỰ calibrate boundary qua experience (4-7 tuổi)
+      → "Ghế bị đau" = Self-Pattern-Modeling đang over-apply → ĐANG CALIBRATE
+      → Suppress ("ghế không biết đau!") = suppress Self-Pattern-Modeling practice
+      → Tốt hơn: "Con nghĩ ghế bị đau à? Con thương ghế nhỉ" → validate Self-Pattern-Modeling impulse
+      → Self-Pattern-Modeling sẽ TỰ calibrate boundary qua experience (4-7 tuổi)
 
   ❌ SAI LẦM:
-    → "Con phải xin lỗi!" (ép rule, không fire SPM)
+    → "Con phải xin lỗi!" (ép rule, không fire Self-Pattern-Modeling)
       → Trẻ nói "xin lỗi" nhưng body KHÔNG feel → moral empathy only
-    → Quá ít interaction với trẻ khác → SPM calibrate CHẬM
+    → Quá ít interaction với trẻ khác → Self-Pattern-Modeling calibrate CHẬM
 
   🟢 Theory of Mind develops 4-5y (Wellman 1990, false-belief test)
   🟢 Empathy training preschool → prosocial increase (Schonert-Reichl 2012)
@@ -949,7 +949,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Teacher reward + student reward = bi-directional
 
     Giúp bạn — reciprocal (pathway ④):
-      → Bạn improve → SPM mirror reward fire cho MÌNH
+      → Bạn improve → Self-Pattern-Modeling mirror reward fire cho MÌNH
       → Body compile: "invest vào người khác = invest vào FUTURE mình"
 
 
@@ -967,7 +967,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Chơi với trẻ KHÁC background → body compile: "KHÁC ≠ xấu"
     → Thấy góc nhìn khác → body compile: "nhiều góc nhìn = GIÀU hơn"
     → = Xây chunks "đa dạng = tài nguyên" thay vì "đa dạng = threat"
-    → = Mở rộng SPM similarity axis (§2.3: axis ③)
+    → = Mở rộng Self-Pattern-Modeling similarity axis (§2.3: axis ③)
 
 
   ④ EMPATHY + BOUNDARY — dạy CẢ HAI:
@@ -1007,7 +1007,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → "Bạn A angry VÌ bạn A sợ bị bỏ rơi" (root)
     → "Bố mắng VÌ bố lo, không phải VÌ bố ghét" (reframe)
     → "Người lạ hung dữ VÌ họ đang dissonance" (không personalize)
-    → = SPM fire SÂU HƠN — không chỉ "họ feel gì" mà "TẠI SAO họ feel"
+    → = Self-Pattern-Modeling fire SÂU HƠN — không chỉ "họ feel gì" mà "TẠI SAO họ feel"
 
 
   ② FRAMEWORK THINKING (nhẹ):
@@ -1021,7 +1021,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ③ THỰC HÀNH META-LEVEL:
 
     Journaling: "Hôm nay mình react thế nào? Tại sao? Người kia feel gì?"
-      → = Deliberate SPM library refinement (By-Product-Gap-Resonance.md §3.3)
+      → = Deliberate Self-Pattern-Modeling library refinement (By-Product-Gap-Resonance.md §3.3)
     Debate: đóng vai PHÍA ĐỐI LẬP → body SỐNG trong perspective khác
       → = Forced template expansion
     Mentor trẻ hơn (pathway ⑧ + ⑤):
@@ -1111,7 +1111,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Sau mỗi experience: "Con feel gì? Bạn feel gì? Tại sao KHÁC?"
       → KHÔNG giảng → HỎI → trẻ TỰ RÚT RA
       → Journaling: "Hôm nay mình hiểu ai? Mình bị hiểu sai ở đâu?"
-      → = Deliberate SPM library refinement
+      → = Deliberate Self-Pattern-Modeling library refinement
 
     PHẦN 3 — FRAMEWORK (10% thời lượng):
       → Nhẹ nhàng: "Mỗi người có experience sống riêng"
@@ -1154,7 +1154,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Body-feedback        │ CÓ — real-time,       │ KHÔNG CÓ             │
   │                      │ continuous            │                      │
   ├──────────────────────┼──────────────────────┼──────────────────────┤
-  │ SPM (empathy)        │ CÓ — body chunks     │ KHÔNG CÓ             │
+  │ Self-Pattern-Modeling (empathy)        │ CÓ — body chunks     │ KHÔNG CÓ             │
   │                      │ fire THẬT khi simulate│ (no somatic chunks)  │
   ├──────────────────────┼──────────────────────┼──────────────────────┤
   │ Co-regulation        │ CÓ — 2 bodies sync   │ KHÔNG CÓ             │
@@ -1194,7 +1194,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Working memory → OK (AI >> human 4-7 items)
 
   AI KHÔNG replace ĐƯỢC (current architecture):
-    → Empathy thật (SPM cần body chunks → AI không có)
+    → Empathy thật (Self-Pattern-Modeling cần body chunks → AI không có)
     → Co-regulation (2 bodies sync → AI không có body)
     → Body-feedback quality control (~90% accuracy → AI chỉ statistical)
     → Valence (approach/avoidance tags → AI không experience)
@@ -1241,7 +1241,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   AI CÓ THỂ:
     → Generate diverse scenarios cho role-play (per student, per context)
-    → Analyze SPM development trajectory (track progress per student)
+    → Analyze Self-Pattern-Modeling development trajectory (track progress per student)
     → Provide framework language phù hợp per-age
     → Identify students at risk (empathy deficit signals)
     → Scale: tạo personalized experience cho 20 triệu học sinh
@@ -1249,7 +1249,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   AI KHÔNG THỂ:
     → Replace face-to-face interaction (no body → no co-regulation)
     → Provide REAL connection (AI presence ≠ human presence)
-    → Fire SPM toward student (no body chunks)
+    → Fire Self-Pattern-Modeling toward student (no body chunks)
     → Co-regulate student's cortisol (no body loop)
 
   → AI = TOOL cho teacher, KHÔNG PHẢI replacement cho teacher
@@ -1260,8 +1260,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⚠️ NGUY CƠ: AI AS EMPATHY SUBSTITUTE:
 
     → Trẻ "nói chuyện" với AI → feel "được hiểu"
-    → NHƯNG: AI không fire SPM → Resonance KHÔNG emerge
-    → = Parasocial-like: rich SPM from student + zero SPM from AI
+    → NHƯNG: AI không fire Self-Pattern-Modeling → Resonance KHÔNG emerge
+    → = Parasocial-like: rich Self-Pattern-Modeling from student + zero Self-Pattern-Modeling from AI
     → = Trẻ quen "connection" không cần reciprocal → empathy KHÔNG calibrate
 
     → = Cần HẠN CHẾ AI-as-companion cho trẻ nhỏ
@@ -1302,7 +1302,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   FRAMEWORK SUY LUẬN (🟡):
 
-    🟡 "Empathy = SPM function, NOT separate module"
+    🟡 "Empathy = Self-Pattern-Modeling function, NOT separate module"
        — Consistent with Bird & Cook + gradient data
        — Phân loại function vs module = framework-specific
     🟡 "3 mechanisms decomposition (pattern match / agent model / schema simul)"
@@ -1337,7 +1337,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⚠️ CONFIDENCE PER SECTION:
 
     §1 Why empathy matters — 🟢🟡 (well-grounded + framework framing)
-    §2 SPM mechanism — 🟢🟡 (evidence strong, framework synthesis)
+    §2 Self-Pattern-Modeling mechanism — 🟢🟡 (evidence strong, framework synthesis)
     §3 Development — 🟢🟡 (attachment research + framework application)
     §4 Per-age guide — 🟡🔴 (logical progression, untested exact sequence)
     §5 AI era — 🟡🔴 (current fact + future projection)
@@ -1350,18 +1350,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §7.1 — Mechanism files (TẦNG 1 — CƠ CHẾ)
 
 ```
-→ ⭐ Empathy.md v1.0 — SPM function, 3 mechanisms, 7 failure modes, AI era
+→ ⭐ Empathy.md v1.0 — Self-Pattern-Modeling function, 3 mechanisms, 7 failure modes, AI era
    Đây là reference CHÍNH cho mechanism. File này KHÔNG lặp lại.
 → Connection.md v2.0 — 8 valence chain pathways (CRITICAL cho §1.3)
-   Evolutionary WHY, SPM × Resonance trục chính, animal spectrum
-→ Self-Pattern-Match.md — 6 steps, 5 Pattern-Types, 4 axes, calibration loop
+   Evolutionary WHY, Self-Pattern-Modeling × Resonance trục chính, animal spectrum
+→ Self-Pattern-Modeling.md — 6 steps, 5 Pattern-Types, 4 axes, calibration loop
    Developmental bootstrap §5 (foundation cho §3.1)
 → By-Product-Gap-Resonance.md — emergent mutual phenomenon, 4 conditions
-   Feedback calibration cho SPM library refinement
+   Feedback calibration cho Self-Pattern-Modeling library refinement
 → Cortisol-Baseline.md v2.0 — empathy fatigue = baseline drift
    Recovery asymmetry ("phá nhanh, xây chậm")
 → Threat.md — 3 ORIGIN taxonomy (§3.3: Type 3 Imposed = empathy killer)
-→ Feeling.md v2.0 — PFC observation interface (Step 5 SPM output read)
+→ Feeling.md v2.0 — PFC observation interface (Step 5 Self-Pattern-Modeling output read)
 → Valence-Propagation.md v1.1 — empathy tạo valence propagation gián tiếp
 ```
 
@@ -1370,11 +1370,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 → Anchor-Schema.md — 4 nguồn fill, trust binding (§3.4: 4 nguồn fill L2)
    "1 anchor person" = literal mechanism (§3.5)
-→ Child-Development-Mechanism.md — §6 SPM bootstrap (§3.1: prerequisite chain)
+→ Child-Development-Mechanism.md — §6 Self-Pattern-Modeling bootstrap (§3.1: prerequisite chain)
    §5 feeling fidelity, §4 attachment classification
 → Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
 → Chunk.md v2.0 — chunk substrate (empathy = function ON chunks)
-→ Agent.md — unified model, SPM §5, Resonance §6, 4-layer
+→ Agent.md — unified model, Self-Pattern-Modeling §5, Resonance §6, 4-layer
 ```
 
 ### §7.3 — Education files (TẦNG 3 — BỘ EDUCATION)
@@ -1404,7 +1404,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   EE-1: Empathy có CEILING per hardware không?
-        (Low SPM hardware → training giúp BAO NHIÊU?)
+        (Low Self-Pattern-Modeling hardware → training giúp BAO NHIÊU?)
 
   EE-2: Pragmatic empathy có "backfire" không?
         ("Giúp vì lợi" → khi không lợi → ngừng giúp?
@@ -1414,7 +1414,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         (Teacher thiếu, budget thiếu, curriculum change = chính trị)
 
   EE-4: AI role: AI có thể là empathy practice partner cho trẻ?
-        (AI role-play có build SPM chunks không? Hay chỉ surface?)
+        (AI role-play có build Self-Pattern-Modeling chunks không? Hay chỉ surface?)
 
   EE-5: Evidence: empathy education → GIẢM crime / GIẢM nhu cầu luật?
         (Nếu có → argument CỰC MẠNH cho policy change)

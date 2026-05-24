@@ -1,6 +1,29 @@
+---
+title: Knowledge Flow — Dòng Chảy Từ Internal Tới External
+version: 1.0
+created: 2026-03-29 (DRAFT)
+refined: 2026-05-23 (v1.0 — YAML standardized. Concept Cascade: +Simulation-Engine, +PFC Budget, +Hardware Subsidy. Cross-refs updated)
+status: v1.0 REFERENCE FILE
+scope: |
+  PROCESS FILE: dòng chảy kiến thức/output từ bên trong 1 người → ra ngoài →
+  tới người khác → tích lũy qua thế hệ. Tại sao flow luôn TỐI ƯU hóa,
+  tại sao chunks cũ bị thay thế, tại sao mỗi thế hệ TIẾN hơn.
+  Trục: PROCESS (dòng chảy qua thời gian) — không phải STATE (snapshot).
+parent: Core-Deep-Dive/Domain/
+dependencies:
+  - Domain.md v1.0 — domain = thực tế bên ngoài
+  - Chunk.md v2.3 — chunk substrate, compilation
+  - PFC/Simulation-Engine.md v1.0 — PFC draft process = simulation engine
+  - Gap-Distribution-Profile.md v1.1 — PFC budget limits arc parallelism
+  - Valence-Propagation.md v3.0 — hardware subsidy, compression mechanism
+  - Body-Base/Body-Base.md v3.2 — 3-Layer Evolution (§6)
+language: Tiếng Việt primary + English technical terms
+confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+---
+
 # Knowledge Flow — Dòng Chảy Từ Internal Tới External
 
-> **Trạng thái:** DRAFT
+> **Trạng thái:** v1.0 (upgraded from DRAFT 2026-05-23)
 > **Ngày:** 2026-03-29
 > **Mục đích:** Hình dung DÒNG CHẢY kiến thức/output từ bên trong 1 người → ra ngoài →
 > tới người khác → tích lũy qua thế hệ. TẠI SAO flow này luôn TỐI ƯU hóa,
@@ -594,6 +617,49 @@
   → TẤT CẢ mô tả CÙNG 1 pattern: mờ → dissonance → verify → smooth → mở rộng
   → KHÁC scale: cá nhân (tuần→năm) → nhóm (năm→thập kỷ) → nhân loại (thế kỷ→thiên niên kỷ)
   → V8.0 có thể gom thành 1 section "Fractal Pattern Across Scales"
+→ Simulation-Engine.md v1.0: PFC draft = simulation engine (§1, §5)
+→ Gap-Distribution-Profile.md v1.1: PFC budget limits arc parallelism
+→ Valence-Propagation.md v3.0: hardware subsidy, compression
+→ Body-Base.md v3.2: 3-Layer Evolution (Hardware → Compiled → Cultural)
+```
+
+---
+
+## 11. Knowledge-Flow × New Concepts (28-session Drill Propagation)
+
+```
+SIMULATION ENGINE × KNOWLEDGE-FLOW (Simulation-Engine.md v1.0):
+  → §1 PFC draft process = Simulation Engine running:
+    Internal (xưởng) = Simulation Engine drafting MANY scenarios
+    Output (bản thiết kế) = Simulation Engine's BEST draft, externalized
+    External Chunk = someone else's Simulation Engine output, compressed
+  → §5 (dissonance → output → smooth) = Simulation Engine cycle:
+    Dissonance = Simulation Engine detect MISMATCH
+    Draft = Simulation Engine try NEW combination
+    Smooth = Simulation Engine draft ACCEPTED by body
+
+PFC BUDGET × KNOWLEDGE-FLOW (Gap-Distribution-Profile.md v1.1):
+  → §6 Arc Wave = PFC budget RHYTHM:
+    Peak = high PFC budget spend (many drafts, high cortisol)
+    Trough = PFC budget recovery (compiled chunks run, low cost)
+    → Arc wave period = f(PFC budget capacity × domain complexity)
+  → §2 Compression = PFC budget EFFICIENCY:
+    Output compressed → external chunk = LOW PFC cost for receiver
+    → = Flow ACCELERATES as compression improves (more output per PFC budget)
+  → Bandwidth limits parallelism: PFC ~4±1 → can't map MANY arcs simultaneously
+
+HARDWARE SUBSIDY × COMPRESSION (Valence-Propagation v3.0 §5):
+  → §2 TẠI SAO compression works:
+    Hardware subsidy = body does heavy lifting "miễn phí"
+    Compiled chunks = hardware-level processing (cost ≈ 0)
+    → Receiver ONLY needs PFC for NOVEL parts (gap between compiled and new)
+    → = Hardware subsidy = ENGINE of compression efficiency
+  → §7 Baseline Shift = hardware subsidy ACCUMULATES across generations:
+    Generation N's output = Generation N+1's hardware-level baseline
+
+🟡 Simulation Engine × knowledge-flow = framework formalization (PFC draft = Simulation-Engine)
+🟡 PFC Budget × knowledge-flow = framework application (arc wave rhythm)
+🟡 Hardware Subsidy × compression = framework convergence (why compression works)
 ```
 
 ---

@@ -498,7 +498,7 @@ F1 Child-Chunk-Development (12 files, ~11,596L) chứng minh:
 ⭐ CÙNG 1 ĐÍCH ĐẾN (chunk có label, dùng được trong plan), 2 HƯỚNG VÀO:
 
   DIRECTION A — FEEL-FIRST (bottom-up):
-    Pattern fire đủ → PFC nhận feel lờ mờ → PFC chú ý → chunk dần rõ
+    Pattern fire đủ → PFC nhận feel vague → PFC chú ý → chunk dần rõ
     → feel rõ hơn → tìm label → label match → chunk explicit → dùng trong plan
 
     Ví dụ:
@@ -569,7 +569,7 @@ FEELING ĐÃ CÓ:
   ✅ Cortisol/Threat: NT7 refined (damage mechanism) (2026-04-16 REV1 COMPLETE)
 
 FEELING ĐÃ HOÀN THÀNH THÊM (updated 2026-05-17):
-  ✅ Feeling.md v3.0 (2,122L) — +PFC=Lawyer, +Compiled/Fresh×7-Layer, +Architecture B
+  ✅ Feeling.md v3.0 (2,122L) — +PFC=Lawyer, +Compiled/Fresh×7-Layer, +Compilable Architecture
   ✅ Feeling-Mechanism-Deep.md — 8-step flow, reward, gradient, quality
   ✅ Feeling-Literacy-Training.md — 5-stage, Focusing, AI era
   ✅ Feeling-Chunk-Bridge.md — bidirectional mapping

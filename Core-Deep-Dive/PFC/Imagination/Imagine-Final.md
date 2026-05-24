@@ -16,12 +16,12 @@ scope: |
   PFC Operations integration. Entity-Access integration. Engine use quality.
 purpose: |
   Simulation-Engine.md = SHARED ENGINE underneath tất cả applications.
-  SPM.md = APPLICATION 1: simulate OTHER (present).
+  Self-Pattern-Modeling.md = APPLICATION 1: simulate OTHER (present).
   Feeling.md = APPLICATION 2: observe SELF (present).
   File NÀY = APPLICATION 3: simulate SELF (future).
-  v3.0 KEY CHANGE: phân biệt hardware prediction (BFM §1.2 Source ①) vs constructive Imagine-Final.
+  v3.0 KEY CHANGE: phân biệt hardware prediction (Body-Feedback-Mechanism §1.2 Source ①) vs constructive Imagine-Final.
   = Giải thích TẠI SAO "khát→uống" KHÁC CƠ CHẾ với "NVIDIA phải thành công".
-  = Reconcile với BFM §1.2 (2 sources), Simulation Engine (constructive substrate).
+  = Reconcile với Body-Feedback-Mechanism §1.2 (2 sources), Simulation Engine (constructive substrate).
 position: |
   Core-Deep-Dive/PFC/Imagination/ — cùng thư mục với companion files.
   ENGINE at Simulation-Engine.md (PFC/). PFC OPERATIONS at PFC-Operations.md (PFC/).
@@ -29,7 +29,7 @@ position: |
   Imagine-Final-Evaluation.md = QUALITY check (Domain Fit × Hardware Fit).
 dependencies:
   - Simulation-Engine.md v1.0 — ENGINE: 3 components, 3 axes, shared substrate
-  - PFC-Operations.md v1.0 — Hold/Suppress, Compiled Quality, Architecture B
+  - PFC-Operations.md v1.0 — Hold/Suppress, Compiled Quality, Compilable Architecture
   - Entity-Access.md v1.0 — gradient Mức 0-5, per-entity dynamics
   - Entity-Compiled.md v1.0 — HOW brain compiles entity vào body-base
   - Body-Feedback-Mechanism.md v2.0 — chunk dynamics, body-feedback readout, §1.2 two sources
@@ -41,7 +41,7 @@ dependencies:
   - Meaning.md v2.0 — life-level Anchor-Schema
 sources:
   - Drill-Simulation-Engine v1.0 (809L, 16 insights, 23 citations)
-  - Drill-SPM-Self-Shared-Substrate v1.0 (~680L, 13 insights, 22 citations)
+  - Drill-Self-Pattern-Modeling-Self-Shared-Substrate v1.0 (~680L, 13 insights, 22 citations)
   - Imagine-Final.md v2.0 (1,277L, 36 citations)
   - Boundary validation research (8 new citations)
 language: Tiếng Việt primary + English technical terms
@@ -101,7 +101,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ② v3.0 KEY REFRAME: Imagine-Final ≠ mọi body prediction
     → Hardware prediction (khát→uống): subcortical, hardwired → KHÔNG cần simulation
     → Imagine-Final: constructive, chunk-based → CẦN Simulation Engine
-    → BFM §1.2 Source ① (hardware) KHÔNG PHẢI Imagine-Final
+    → Body-Feedback-Mechanism §1.2 Source ① (hardware) KHÔNG PHẢI Imagine-Final
     → Chi tiết: §1
 
   ③ Compiled Imagine-Final ≠ Hardware reflex
@@ -118,7 +118,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⑤ MOST PFC-ACCESSIBLE application: PFC = DIRECTOR
     → SET scenario + READ output + ITERATE + COMPARE alternatives
 
-  ⑥ Shared substrate với SPM + Self-Observation → luyện 1 = luyện cả 3
+  ⑥ Shared substrate với Self-Pattern-Modeling + Self-Observation → luyện 1 = luyện cả 3
   ⑦ Lifecycle: BUILD → SAVE → BACKGROUND → RELOAD → REFINE → loop
   ⑧ Gradient 5 levels: Wish (0-20%) → Obsession (80-100% body fidelity)
   ⑨ 3 chiều ĐỘC LẬP: Clarity (rõ?) × Quality (đúng?) × Trust (tin?)
@@ -131,7 +131,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Model-based vs model-free: Daw, Niv & Dayan 2005
   🟢 PFC hierarchy: Koechlin, Ody & Kouneiher 2003
   🟡 "Constructive Imagine-Final" framing = framework synthesis
-  🟡 Boundary hardware vs constructive = framework synthesis (consistent with BFM §1.2)
+  🟡 Boundary hardware vs constructive = framework synthesis (consistent with Body-Feedback-Mechanism §1.2)
 ```
 
 ### §0.2 — Position
@@ -141,7 +141,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ★ Simulation-Engine.md = ENGINE (shared substrate)
     │
-    ├── SPM.md = APPLICATION 1: (Other, Present, Simulate)
+    ├── Self-Pattern-Modeling.md = APPLICATION 1: (Other, Present, Simulate)
     │   = Predict other's state/behavior
     │
     ├── Feeling.md = APPLICATION 2: (Self, Present, Observe)
@@ -168,7 +168,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → ★ Compiled Imagine-Final ≠ Hardware reflex distinction
     → ★ PFC hierarchy gradient (Koechlin 2003, Badre & Nee 2018)
     → ★ 8 new research citations validating boundary
-    → Reconcile với BFM §1.2 Source ① vs Source ②
+    → Reconcile với Body-Feedback-Mechanism §1.2 Source ① vs Source ②
     → 3-Layer Hierarchy refined: hardware bypass ②③
 ```
 
@@ -245,7 +245,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CƠ CHẾ:
     Receptors → Hypothalamus / Brainstem → Automatic response
     → KHÔNG cần PFC, KHÔNG cần chunks, KHÔNG cần Simulation Engine
-    → = BFM §1.2 Source ①: Hardware/Sensory-Driven
+    → = Body-Feedback-Mechanism §1.2 Source ①: Hardware/Sensory-Driven
 
   VÍ DỤ:
     Khát: SFO (subfornical organ) detect osmolality↑ → hypothalamus → drive uống
@@ -302,7 +302,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Phù hợp → "đúng hướng!" → chịu dissonance tiếp
       Không phù hợp → "vô nghĩa" → irritated
 
-  = BFM §1.2 Source ②: Chunk Dynamics/Pattern-Driven
+  = Body-Feedback-Mechanism §1.2 Source ②: Chunk Dynamics/Pattern-Driven
   = CHẠY trên Simulation Engine (Simulation-Engine.md)
   = Imagine-Final territory
 
@@ -353,7 +353,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟢 Daw, Niv & Dayan 2005: model-based (constructive) vs model-free (habitual)
   🟢 Dolan & Dayan 2013 (Neuron): goals → habits over training
-  🟡 Boundary model = framework synthesis (consistent with BFM + Daw)
+  🟡 Boundary model = framework synthesis (consistent with Body-Feedback-Mechanism + Daw)
 ```
 
 ### §1.4 — Compiled Imagine-Final vs Hardware reflex
@@ -448,7 +448,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────────┬──────────────┬───────────┬──────────┐
   │ Application      │ Target       │ Time      │ Operation│
   ├──────────────────┼──────────────┼───────────┼──────────┤
-  │ SPM              │ Other        │ Present   │ Simulate │
+  │ Self-Pattern-Modeling              │ Other        │ Present   │ Simulate │
   │ Self-Observation │ Self         │ Present   │ Observe  │
   │ ★ Imagine-Final  │ Self         │ Future    │ Sim+Cons │
   │ Memory Recall    │ Self         │ Past      │ Simulate │
@@ -460,7 +460,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → TẤT CẢ chạy trên CÙNG engine (DMN + mPFC + insula + hippocampus)
   → Khác nhau ở COORDINATES, không phải ở hardware
   → Decision Branch = Imagine-Final run N times + compare
-  → Predict Other's Future = SPM + Imagine-Final combined
+  → Predict Other's Future = Self-Pattern-Modeling + Imagine-Final combined
 
   🟢 Buckner & Carroll 2007: all = "self-projection" in DMN
   🟢 Schacter & Addis 2007: constructive episodic simulation
@@ -507,16 +507,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────┬────────────────────────────────────────────┐
   │ APPLICATION  │ PFC ROLE                                    │
   ├──────────────┼────────────────────────────────────────────┤
-  │ SPM F1       │ LEAST: compiled, automatic, invisible       │
+  │ Self-Pattern-Modeling Compiled       │ LEAST: compiled, automatic, invisible       │
   │ Dream/Mind W.│ ZERO: engine free-run during sleep          │
   │ Self-Obs     │ MIDDLE: PFC observe, cannot manipulate      │
-  │ SPM F2       │ MODERATE: PFC draft model deliberately      │
+  │ Self-Pattern-Modeling Fresh       │ MODERATE: PFC draft model deliberately      │
   │ ★ Imagine-Final│ MOST: PFC SET scenario + READ + ITERATE   │
   │ Decision     │ HIGHEST: Imagine-Final ×N + COMPARE         │
   └──────────────┴────────────────────────────────────────────┘
 
   IMAGINE-FINAL = RICHEST APPLICATION vì:
-    → PFC CAN OBSERVE output (unlike SPM F1 = invisible)
+    → PFC CAN OBSERVE output (unlike Self-Pattern-Modeling Compiled = invisible)
     → PFC CAN MANIPULATE input ("nếu thay đổi X thì sao?")
     → PFC CAN COMPARE multiple simulations ("option A vs B")
     → PFC CAN ITERATE ("thêm condition → feel gì?")
@@ -529,9 +529,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → GAP CREATION: simulate desired state → gap CREATED → drive GENERATED
       = Body-Feedback-Mechanism §3.3c: Imagine-Final preview → compile baseline → gap→miss
     → EMPATHY EXTENSION: "nếu TÔI là HỌ trong TƯƠNG LAI"
-      = SPM + Imagine-Final combined → parenting, mentoring
+      = Self-Pattern-Modeling + Imagine-Final combined → parenting, mentoring
 
-  🟢 Drill-SPM-Self-Shared-Substrate §9: Imagine-Final = PFC-observable output
+  🟢 Drill-Self-Pattern-Modeling-Self-Shared-Substrate §9: Imagine-Final = PFC-observable output
   🟡 "Most PFC-accessible application" = framework synthesis
 ```
 
@@ -543,23 +543,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   LUYỆN 1 = LUYỆN CẢ 3:
     → Interoception training (meditation, Focusing) → improve:
       ① Self-Observation: "biết mình feel gì" clearer
-      ② SPM: "biết người khác feel gì" more accurate
+      ② Self-Pattern-Modeling: "biết người khác feel gì" more accurate
       ③ Imagine-Final: "feel trước tương lai" more vivid
     → = 1 training → ≥3 applications improved
 
   HỎNG 1 = HỎNG CẢ 3:
     → Alexithymia (broken interoception readout) →
-      Self-Obs FAIL + SPM FAIL + Imagine-Final DEGRADED
+      Self-Obs FAIL + Self-Pattern-Modeling FAIL + Imagine-Final DEGRADED
     → 🟢 Bird & Cook 2013: decisive proof for shared substrate
 
   SOCIAL ↔ SELF BIDIRECTIONAL:
-    → SPM practice (diverse interactions) → sharper self-model
+    → Self-Pattern-Modeling practice (diverse interactions) → sharper self-model
     → Sharper self-model → better future simulation
     → Better future prediction → better social decisions → more practice
     → = VIRTUOUS SPIRAL (Connection.md §3)
     → Isolation → NO practice → ALL applications atrophy → VICIOUS SPIRAL
 
-  🟢 Lombardo 2010: identical connectivity SPM↔Self
+  🟢 Lombardo 2010: identical connectivity Self-Pattern-Modeling↔Self
   🟢 Lopes et al. 2003: regulation ↔ interaction bidirectional
   🟡 Bidirectional spiral model = framework synthesis
 ```
@@ -740,7 +740,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ IMAGINE-FINAL HOẠT ĐỘNG TRÊN COMPILED/FRESH SPECTRUM:
 
-  COMPILED IMAGINE-FINAL (F1):
+  COMPILED IMAGINE-FINAL:
     → Body ĐÃ compile hướng này → tự fire → PFC không cần active
     → VD: "Tiếng gọi" — body BIẾT trước PFC label
     → Cost ≈ 0 (đã compiled → automatic)
@@ -748,7 +748,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Level 4-5 trong Gradient (§6)
     → ⚠️ KHÁC hardware reflex: compiled Imagine-Final TỪNG construct (§1.4)
 
-  FRESH IMAGINE-FINAL (F2):
+  FRESH IMAGINE-FINAL:
     → PFC ACTIVELY construct new future scenario
     → Chunks mới + novel combination + domain check
     → VD: "Nếu tôi chuyển nghề thì sao?" (chưa experience)
@@ -769,10 +769,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Compiled Quality: PFC-Operations.md §5 (7 factors)
 ```
 
-### §4.3 — Architecture B × Imagine-Final
+### §4.3 — Compilable Architecture × Imagine-Final
 
 ```
-⭐ ARCHITECTURE B (Inter-Body-Mechanism.md §4):
+⭐ COMPILABLE ARCHITECTURE (Inter-Body-Mechanism.md §4):
   Body = PRODUCER (gaps generate drive).
   PFC = CONSUMER (check domain, select strategy).
 
@@ -800,7 +800,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟢 Somatic Marker Hypothesis: Damasio 1994
   🟢 Berridge: wanting ≠ liking distinction
-  🟡 Architecture B applied to Imagine-Final = framework synthesis
+  🟡 Compilable Architecture applied to Imagine-Final = framework synthesis
 ```
 
 ---
@@ -1100,7 +1100,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Mức 0 (stranger): Imagine-Final không có (no prediction needed)
   Mức 1-2 (unlabeled): Imagine-Final mờ ("hope gặp lại" / "hope vui")
-  Mức 3 (B-dominant): Imagine-Final rõ ("bạn thân → cùng chia sẻ lâu dài")
+  Mức 3 (Compilable-dominant): Imagine-Final rõ ("bạn thân → cùng chia sẻ lâu dài")
   Mức 4-5 (Entity-Owned): Imagine-Final deep ("con → thrive" / "partner → cùng già")
 
   SCHEMA-DRIVEN vs GENUINE:
@@ -1125,7 +1125,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────────┬──────────────────────────────────────────────┐
   │ Scale            │ Quan hệ                                      │
   ├──────────────────┼──────────────────────────────────────────────┤
-  │ Micro Imagine-Final  │ Xã giao (phút→giờ): cả 2 preview "dễ chịu" │
+  │ Micro Imagine-Final  │ Xã giao (phút→giờ): cả 2 preview "comfortable" │
   │ Normal Imagine-Final │ Bạn thân (tháng→năm): share hướng sống      │
   │ Big Imagine-Final    │ Co-founder (năm→thập kỷ): share mission     │
   │ Life Imagine-Final   │ "Tri kỷ" (cả đời): cùng life direction      │
@@ -1194,7 +1194,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Imagine-Final with RUMINATION (threat drive):
     → "Tương lai sẽ tệ" → CATASTROPHIZE
     → Cortisol direction: THREAT → avoidance tag
-    → BFM §3.3c: gap + threat → anxiety loop
+    → Body-Feedback-Mechanism §3.3c: gap + threat → anxiety loop
     → Output: worry, worst-case fixation, decision paralysis
     → = ENGINE USE QUALITY: LOW
 
@@ -1207,8 +1207,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   UNIVERSAL MODIFIER:
     Reflection/Rumination KHÔNG chỉ ảnh hưởng Imagine-Final:
-    → SPM with curiosity: "tại sao bạn nghĩ vậy?" → LEARN
-    → SPM with threat: "bạn chắc ghét tôi" → PROJECT fear
+    → Self-Pattern-Modeling with curiosity: "tại sao bạn nghĩ vậy?" → LEARN
+    → Self-Pattern-Modeling with threat: "bạn chắc ghét tôi" → PROJECT fear
     → Self-Obs with curiosity: "tại sao tôi feel vậy?" → insight
     → Self-Obs with threat: "tôi chắc sai rồi" → stuck
     → = Engine use quality = modifier cho TẤT CẢ applications
@@ -1391,7 +1391,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ═══════════════════════════════════════
 
   "Constructive Imagine-Final" framing: only chunk-based constructive simulation
-  Boundary: hardware prediction vs Imagine-Final (consistent with BFM §1.2)
+  Boundary: hardware prediction vs Imagine-Final (consistent with Body-Feedback-Mechanism §1.2)
   Compiled Imagine-Final vs Hardware reflex distinction (same "automatic", different origin)
   "Application on Simulation Engine" model: coordinates trong 3D space
   3-Layer Hierarchy: Body-Need → Imagine-Final → Plan (with hardware bypass)
@@ -1408,7 +1408,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Cortisol gates Imagine-Final activation level
   Dormant when harmony, fire when dissonance
   Bidirectional social ↔ self improvement spiral
-  Architecture B applied: Body=producer, PFC=consumer, Domain=arbiter
+  Compilable Architecture applied: Body=producer, PFC=consumer, Domain=arbiter
 
 ═══════════════════════════════════════
 🔴 HYPOTHESIS
@@ -1434,7 +1434,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | PFC-Operations.md v1.0 | §2 Hold/Suppress, §5 Quality, §6 7-Factors | HOW PFC operates on Imagine-Final |
 | Entity-Access.md v1.0 | §2 Gradient, §4 Gap Source, §5 Per-entity | Per-entity Imagine-Final dynamics |
 | Entity-Compiled.md v1.0 | §3 Formation, §7 Grief, §8 Love↔Hate | Entity compilation × Imagine-Final |
-| Self-Pattern-Modeling.md v3.1 | §2 F1/F2, §10 SPM×Imagine-Final overlap | SIBLING APPLICATION on engine |
+| Self-Pattern-Modeling.md v3.1 | §2 Compiled/Fresh, §10 Self-Pattern-Modeling×Imagine-Final overlap | SIBLING APPLICATION on engine |
 | Feeling.md v3.0 | PFC observation interface | SIBLING APPLICATION on engine |
 | Body-Feedback-Mechanism.md v2.0 | §1.2 Two Sources, §3 chunk dynamics | Foundation: ★ Source ① vs ② = boundary definition |
 | Anchor-Schema.md v1.0 | §2 Trust, §3 4-nguồn fill | Imagine-Final → Anchor-Schema transition |
@@ -1446,7 +1446,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Liking-Wanting.md v1.0 | §2.1 wanting mechanism ① | Preview opioid = wanting mechanism |
 | Dopamine-Is-Not-Reward.md v1.0 | §4 7-step, H10 | Preview vs actual reward |
 | By-Product-Gap-Resonance.md v1.0 | 4 conditions, resonance decline | Resonance × Imagine-Final alignment |
-| Love-Romantic.md v2.2 | §1 body evaluate first, §7 Type A/B | Relationship Imagine-Final dynamics |
+| Love-Romantic.md v2.2 | §1 body evaluate first, §7 Evaluative/Direct-State | Relationship Imagine-Final dynamics |
 | Education-Mechanism.md v2.0 | Exposure, per-age guide | Imagine-Final injection vs facilitation |
 | Ask-AI.md v3.1 | §6 Dual Check | AI × Imagine-Final interaction |
 | Background-Pattern.md v1.1 | §2 2D model, §8 self-reinforcing | Background × Imagine-Final compile |

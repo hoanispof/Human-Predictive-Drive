@@ -14,7 +14,7 @@ scope: |
     ① Core principle: chunks about quality X = ∅ → gap about X = IMPOSSIBLE → body SILENT
     ② 2 Types: Domain Expert (hidden technical) + Leader/Coordinator (hidden organizational)
     ③ Gibson Differentiation: expertise = perceive what was ALWAYS PRESENT
-    ④ F1/F2 Double Blindness: copier neither automatic nor deliberate detect
+    ④ Compiled/Fresh Double Blindness: copier neither automatic nor deliberate detect
     ⑤ Body-check blind spot: Dual Check accuracy = f(compilation depth)
     ⑥ Quality Compounding: hidden quality = leading indicator, metrics = lagging
     ⑦ Dunning-Kruger = "chưa biết = không gap" at META-COGNITION level
@@ -24,7 +24,7 @@ purpose: |
   Gap-Direction §3 states principle: "Chưa biết = không có gap."
   Coordination-Node §2.4 applies to leadership: scaffold chunks.
   Background-Pattern §0③: "expert biết mà không nói được."
-  SPM v3.1 §3: F1 Compiled = expert intuition.
+  Self-Pattern-Modeling v3.1 §3: Compiled = expert intuition.
   Ask-AI §6.1: body = quality controller.
   CÁC FILE TRÊN = từng mảnh. FILE NÀY = SYNTHESIS:
     → TẠI SAO compilation depth → different quality perception
@@ -42,11 +42,11 @@ dependencies:
   Core-Mechanism:
     - Gap-Direction.md v2.0 — §3 "Chưa biết = không có gap" (FOUNDATIONAL)
     - Body-Feedback-Mechanism.md v2.0 — §3 Chunk-Gap, §1 body-need aggregate
-    - Compile-Taxonomy.md v1.1 — Loại A/B/C, §2.1 direct, §2.2 compiled expertise, §2.3 trust install
+    - Compile-Taxonomy.md v2.0 — 3 Compile Types, §2.1 direct, §2.2 compiled expertise, §2.3 trust install
     - Background-Pattern.md v2.0 — §0③ "expert biết mà không nói được", 2D model, Triple Bias
     - Body-Feedback-Label.md v2.0 — vocabulary reference
   Agent-Mechanism:
-    - Self-Pattern-Modeling.md v3.1 — F1/F2 Compiled/Fresh, §3 expert intuition
+    - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, §3 expert intuition
     - Coordination-Node.md v1.1 — §2.4 2 loại chunks, §6.3 Compilation Path
   Interface:
     - Ask-AI.md v3.1 — §6.1 Dual Check (body + domain reality)
@@ -149,9 +149,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → APPLIED cho leadership — nhưng chưa cover domain expert
 
   Background-Pattern §0③: "expert biết mà không nói được"
-    → NOTED — nhưng file BP focus vào bias + formation, không analysis riêng
+    → NOTED — nhưng file Background-Pattern focus vào bias + formation, không analysis riêng
 
-  SPM v3.1 §3: F1 Compiled = expert intuition
+  Self-Pattern-Modeling v3.1 §3: Compiled = expert intuition
     → MECHANISM — nhưng chưa apply vào quality perception cụ thể
 
   Ask-AI §6.1: body = quality controller, domain = final arbiter
@@ -159,7 +159,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   FILE NÀY = SYNTHESIS:
     → Lấy principle từ Gap-Direction
-    → Lấy mechanism từ SPM + BP + BFM
+    → Lấy mechanism từ Self-Pattern-Modeling + Background-Pattern + Body-Feedback-Mechanism
     → Lấy application từ Coordination-Node + Domain-Mapping-Drive
     → Lấy protocol insight từ Ask-AI
     → THÊM: research evidence 24+ citations
@@ -180,8 +180,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ĐỌC TRƯỚC:
     Gap-Direction.md §3 (foundational principle)
-    Compile-Taxonomy.md §2 (Loại A/B/C)
-    → ĐỌC file này → Cross-reference SPM, CN, BP khi cần
+    Compile-Taxonomy.md §2 (3 Compile Types)
+    → ĐỌC file này → Cross-reference Self-Pattern-Modeling, Coordination-Node, Background-Pattern khi cần
 ```
 
 ### §0.2 — Thesis
@@ -356,12 +356,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │    Expert: chunks fire → predict → mismatch → DISSONANCE   │
   │    → Body-Feedback-Mechanism §3: Chunk-Gap → body signal   │
   │    → KHÔNG CẦN PFC nghĩ — body TỰ CẢM "sai sai"          │
-  │    → = F1 Compiled (SPM v3.1 §3): automatic, body-level    │
+  │    → = Compiled (Self-Pattern-Modeling v3.1 §3): automatic, body-level    │
   │                                                             │
   │    Copier: KHÔNG có chunks liên quan → KHÔNG predict        │
   │    → Không có gap → không có body signal → "bình thường"    │
-  │    → F1 KHÔNG fire (no compiled patterns)                   │
-  │    → F2 KHÔNG fire (PFC unaware of this dimension)          │
+  │    → Compiled KHÔNG fire (no compiled patterns)                   │
+  │    → Fresh KHÔNG fire (PFC unaware of this dimension)          │
   │    → = DOUBLE BLINDNESS: neither automatic nor deliberate    │
   │    → = Polanyi 1966: "We can know more than we can tell"    │
   │                                                             │
@@ -389,7 +389,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Expert: thấy + cảm + standard cao = body KHÔNG CHO PHÉP bỏ qua
     → Copier: không thấy + không cảm + standard hẹp = body IM LẶNG
 
-  🟡 3-tầng model = framework synthesis (Gap-Direction + SPM + BFM + DMD)
+  🟡 3-tầng model = framework synthesis (Gap-Direction + Self-Pattern-Modeling + Body-Feedback-Mechanism + Domain-Mapping-Drive)
   🟢 Individual research well-established
 ```
 
@@ -423,7 +423,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ IMPLICATION:
     → "Tôi cảm thấy sản phẩm tốt" CHỈ reliable nếu:
       a) Có chunks về dimensions đang evaluate
-      b) Chunks đó compiled qua Loại A (experience with feedback)
+      b) Chunks đó compiled qua Experience Compile (experience with feedback)
     → Copier "cảm thấy tốt" = CHỈ evaluate được visible
     → Expert "cảm thấy sai sai" = evaluate ĐƯỢC hidden
     → = Body-check accuracy KHÔNG universal — domain-specific
@@ -433,41 +433,41 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Body-check accuracy = f(compilation) = Ask-AI §6.1 extension
 ```
 
-### §1.5 — F1/F2 Double Blindness (SPM extension)
+### §1.5 — Compiled/Fresh Double Blindness (Self-Pattern-Modeling extension)
 
 ```
 ⭐ COPIER BỊ MÙ Ở CẢ 2 TẦNG PROCESSING:
 
-  SPM v3.1 §3 — 2 Functions:
-    F1 Compiled: automatic, body-level, recognition-based
-    F2 Fresh: PFC-driven, deliberate, effortful
+  Self-Pattern-Modeling v3.1 §3 — 2 Functions:
+    Compiled: automatic, body-level, recognition-based
+    Fresh: PFC-driven, deliberate, effortful
 
   EXPERT perceiving quality:
-    F1 fires AUTOMATIC → body signals "sai sai" TRƯỚC PFC biết
+    Compiled fires AUTOMATIC → body signals "sai sai" TRƯỚC PFC biết
     → Vì: compiled patterns SÂU → pattern mismatch → body dissonance
     → VD: Thợ mộc nhìn mối nối → body "không ổn" → TRƯỚC khi phân tích
     → VD: Bác sĩ nhìn X-ray → body "bất thường" → 200ms (Reingold 2001)
 
   COPIER perceiving quality:
-    F1 KHÔNG fire → no compiled patterns for this dimension
-    F2 KHÔNG fire → PFC KHÔNG BIẾT dimension này TỒN TẠI để deliberate
+    Compiled KHÔNG fire → no compiled patterns for this dimension
+    Fresh KHÔNG fire → PFC KHÔNG BIẾT dimension này TỒN TẠI để deliberate
 
     = DOUBLE BLINDNESS:
       Tầng 1 (automatic): BLIND — no patterns → no recognition
       Tầng 2 (deliberate): BLIND — not aware of dimension → can't deliberate
 
-    ≠ "biết nhưng chưa giỏi" (F1 weak + F2 compensate)
-    = "KHÔNG BIẾT CÓ GÌ ĐỂ BIẾT" (F1 absent + F2 absent)
+    ≠ "biết nhưng chưa giỏi" (Compiled weak + Fresh compensate)
+    = "KHÔNG BIẾT CÓ GÌ ĐỂ BIẾT" (Compiled absent + Fresh absent)
     = "Chưa biết = không có gap" ở cấp PROCESSING MECHANISM
 
   VÍ DỤ:
-    Expert code reviewer: F1 fires "code smell" + F2 can articulate WHY
-    Copier code reviewer: F1 silent + F2 says "code runs, looks fine"
+    Expert code reviewer: Compiled fires "code smell" + Fresh can articulate WHY
+    Copier code reviewer: Compiled silent + Fresh says "code runs, looks fine"
     → Copier KHÔNG BIẾT có dimension "maintainability" để check
     → = Không phải "check rồi miss" — mà "KHÔNG CÓ check"
 
-  🟡 F1/F2 double blindness = new SPM application (framework synthesis)
-  🟢 SPM v3.1 §3 (F1/F2 mechanism established)
+  🟡 Compiled/Fresh double blindness = new Self-Pattern-Modeling application (framework synthesis)
+  🟢 Self-Pattern-Modeling v3.1 §3 (Compiled/Fresh mechanism established)
   🟢 Sharif 2021: expert gaze → error regions; novice scan entire code
 ```
 
@@ -486,7 +486,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Lập trình: syntax → logic → patterns → architecture → maintainability → scale
     Nhạc sĩ: nốt → nhịp → hòa âm → phong cách → micro-dynamics → interpretation
 
-  ĐI QUA = Loại A compile (Compile-Taxonomy §2.1):
+  ĐI QUA = Experience Compile compile (Compile-Taxonomy §2.1):
     [action → sensory result → body evaluate → compile]
     × NHIỀU LẦN × NHIỀU NĂM × FEEDBACK từ domain reality
 
@@ -503,7 +503,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   KHÁC "NHIỀU NĂM KINH NGHIỆM":
 
     ⚠️ "20 năm kinh nghiệm" ≠ 20 năm compilation.
-    Có thể = "1 năm kinh nghiệm × 20 lần lặp" (Loại A nông, lặp)
+    Có thể = "1 năm kinh nghiệm × 20 lần lặp" (Experience Compile nông, lặp)
     → Ericsson 1993: DELIBERATE PRACTICE = structured, 
       focused, at edge of current ability, with feedback
     → Mere repetition ≠ compilation depth
@@ -520,27 +520,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Chase & Simon 1973 (~10 years to expert chess)
 ```
 
-### §2.2 — Background Pattern × Tacit Quality Standard
+### §2.2 — Background-Pattern × Tacit Quality Standard
 
 ```
 ⭐ EXPERT'S QUALITY STANDARD = BACKGROUND PATTERN:
 
-  Background-Pattern.md §1: BP = accumulated chunk-network pattern
+  Background-Pattern.md §1: Background-Pattern = accumulated chunk-network pattern
   hình thành qua experience + sleep gist extraction qua THỜI GIAN DÀI.
   Link density cao → THẤM VÀO mọi chunk mới.
   PFC KHÔNG THỂ observe trực tiếp.
 
-  EXPERT QUALITY STANDARD = BP CỤ THỂ:
+  EXPERT QUALITY STANDARD = Background-Pattern CỤ THỂ:
 
     Thợ mộc 15 năm:
-      BP = [mối nối phải chặt] + [gỗ phải xử lý] + [keo phải đúng loại]
+      Background-Pattern = [mối nối phải chặt] + [gỗ phải xử lý] + [keo phải đúng loại]
            + [mặt lưng phải đẹp] + [kết cấu phải vững]...
       → HÀNG NGHÌN micro-patterns compiled qua 15 năm
       → Link density CỰC CAO (mỗi chunk mới link vào existing patterns)
       → PFC KHÔNG THỂ liệt kê hết → "biết mà không nói được"
 
     Bác sĩ phẫu thuật 20 năm:
-      BP = [tissue handling phải nhẹ] + [economy of motion]
+      Background-Pattern = [tissue handling phải nhẹ] + [economy of motion]
            + [hemostasis timing] + [suture tension đúng]...
       → Hàng nghìn micro-patterns từ hàng nghìn ca mổ
       → Body TỰ FIRE khi bất kỳ pattern nào lệch
@@ -552,21 +552,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       "We can know more than we can tell."
 
     FRAMEWORK EXPLANATION:
-      Background Pattern = high link density + high compile depth
-      → PFC observe BP = KHÔNG THỂ (BP quá phân tán — BP §5)
+      Background-Pattern = high link density + high compile depth
+      → PFC observe Background-Pattern = KHÔNG THỂ (Background-Pattern quá phân tán — Background-Pattern §5)
       → Expert CẢM THẤY "sai" nhưng KHÔNG THỂ verbalize TẠI SAO
-      → Vì: body signal đến từ BP → PFC receive signal nhưng
+      → Vì: body signal đến từ Background-Pattern → PFC receive signal nhưng
         KHÔNG access được SOURCE (source = distributed across chunk network)
 
     VÍ DỤ:
       Thợ mộc: "Cái tủ này... không ổn." → Hỏi tại sao: "Không biết, 
       nhưng cảm thấy không đúng." → Sau khi kiểm tra: mối nối lỏng 0.5mm.
-      → BP fire [mối nối pattern → predict lỏng] → body dissonance
+      → Background-Pattern fire [mối nối pattern → predict lỏng] → body dissonance
       → PFC nhận dissonance nhưng KHÔNG thấy source
-      → = Tacit knowledge = BP-level detection beyond PFC verbalization
+      → = Tacit knowledge = Background-Pattern-level detection beyond PFC verbalization
 
     🟢 Polanyi 1966: tacit knowledge = non-articulated knowing
-    🟡 BP = substrate cho tacit knowledge = framework synthesis (BP §0③)
+    🟡 Background-Pattern = substrate cho tacit knowledge = framework synthesis (Background-Pattern §0③)
 ```
 
 ### §2.3 — Dreyfus × Framework × Shu-Ha-Ri Mapping
@@ -583,26 +583,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌────────────┬──────────────────┬─────────────────────┬──────────────────────┐
   │ Stage      │ Chunks Type      │ Gap Landscape        │ Quality Perception   │
   ├────────────┼──────────────────┼─────────────────────┼──────────────────────┤
-  │ NOVICE     │ Loại C install   │ CHỈ explicit rules  │ Follow rule →        │
+  │ NOVICE     │ Trust Compile install   │ CHỈ explicit rules  │ Follow rule →        │
   │ (Shu 守)   │ Rules, manual    │ Hẹp, nông           │ miss hidden          │
   │            │ "Bước 1, 2, 3"   │ Body: im lặng       │ TOTAL BLIND          │
   ├────────────┼──────────────────┼─────────────────────┼──────────────────────┤
-  │ ADVANCED   │ Loại A bắt đầu  │ Bắt đầu expand     │ Nhận ra "có gì đó"  │
-  │ BEGINNER   │ Loại C + A sơ   │ Một vài hidden dims │ nhưng chưa rõ        │
+  │ ADVANCED   │ Experience Compile bắt đầu  │ Bắt đầu expand     │ Nhận ra "có gì đó"  │
+  │ BEGINNER   │ Trust + Experience sơ   │ Một vài hidden dims │ nhưng chưa rõ        │
   │            │ "Nhận ra context"│ Body: nhẹ, mờ       │ PARTIAL AWARE        │
   ├────────────┼──────────────────┼─────────────────────┼──────────────────────┤
-  │ COMPETENT  │ Loại A growing   │ Expanding nhưng     │ Detect MỘT SỐ       │
+  │ COMPETENT  │ Experience Compile growing   │ Expanding nhưng     │ Detect MỘT SỐ       │
   │ (Shu→Ha)  │ Plans, prioritize│ có lỗ hổng          │ hidden dimensions    │
   │            │ "Chọn cái nào    │ Body: signal trung  │ SELECTIVE DETECT     │
   │            │  quan trọng"     │ bình, chưa reliable │                      │
   ├────────────┼──────────────────┼─────────────────────┼──────────────────────┤
-  │ PROFICIENT │ Loại A→B biên   │ Rộng, còn vài       │ NHÌN THẤY phần lớn  │
+  │ PROFICIENT │ Experience Compile→B biên   │ Rộng, còn vài       │ NHÌN THẤY phần lớn  │
   │ (Ha 破)    │ Pattern emerge   │ blind spots         │ hidden quality       │
   │            │ "Thấy big picture│ Body: signal mạnh   │ HOLISTIC EMERGING    │
   │            │  nhưng chưa tự  │ nhưng đôi khi miss  │                      │
   │            │  động hoàn toàn"│                     │                      │
   ├────────────┼──────────────────┼─────────────────────┼──────────────────────┤
-  │ EXPERT     │ Loại B compiled  │ TOÀN BỘ domain     │ Body KHÔNG CHO PHÉP  │
+  │ EXPERT     │ Expertise Compile compiled  │ TOÀN BỘ domain     │ Body KHÔNG CHO PHÉP  │
   │ (Ri 離)    │ 10+ years        │ Including all hidden│ bỏ qua BẤT KỲ       │
   │            │ "Thấy cả entity  │ Body: automatic,    │ dimension nào        │
   │            │  không cần       │ strong, reliable    │ TOTAL PERCEPTION     │
@@ -618,29 +618,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Compilation depth → perception scope (causal chain)
 
     TẠI SAO EXPERT "KHÔNG CẦN NGHĨ":
-      → F1 Compiled fire AUTOMATIC → body signal TRƯỚC PFC
+      → Compiled fire AUTOMATIC → body signal TRƯỚC PFC
       → = Klein 1998: Recognition-Primed Decision
       → Expert KHÔNG so sánh options → NHẬN RA situation
         → mentally simulate → act
-      → = Expert quality perception = F1 automatic recognition
+      → = Expert quality perception = Compiled automatic recognition
         of quality deviations
 
   SHU-HA-RI × FRAMEWORK:
 
     Shu (守 — follow): "Theo form, không lệch"
-      = Loại C install + early Loại A
+      = Trust Compile install + early Experience Compile
       = Body chưa compile → CHỈ follow explicit rules
       = "Mặt lưng" = invisible (chưa có chunks)
 
     Ha (破 — break): "Hiểu WHY, bắt đầu innovate"
-      = Loại A mature + early Loại B
+      = Experience Compile mature + early Expertise Compile
       = Body bắt đầu compile → thấy BEYOND rules
       = "Mặt lưng" = partially visible (gaps forming)
 
     Ri (離 — transcend): "Act from internal principle"
-      = Loại B compiled deep
+      = Expertise Compile compiled deep
       = Body = quality standard INTERNALIZED
-      = "Mặt lưng" = FULLY visible (BP = complete quality standard)
+      = "Mặt lưng" = FULLY visible (Background-Pattern = complete quality standard)
       = "You'll know it's there" — body KNOWS ở level sâu hơn rules
 
   🟢 Dreyfus & Dreyfus 1986 (Mind Over Machine)
@@ -725,7 +725,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Expert radiologists detect bất thường chest X-ray
       trong 200ms (200 phần nghìn giây).
       = NHANH HƠN PFC conscious processing (~300-500ms).
-      = F1 Compiled fire TRƯỚC PFC → body signal TRƯỚC ý thức.
+      = Compiled fire TRƯỚC PFC → body signal TRƯỚC ý thức.
       = Novice nhìn cùng X-ray → "bình thường" → miss.
 
 
@@ -734,7 +734,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Sharif et al. 2021 (eye-tracking):
       Expert programmers: gaze TRỰC TIẾP tới error regions.
       Novices: scan TOÀN BỘ code → đọc nhiều hơn → detect ÍT hơn.
-      = Expert's compiled patterns → eye drawn to anomaly → F1 fire.
+      = Expert's compiled patterns → eye drawn to anomaly → Compiled fire.
       = Novice's eyes wander → no chunks → no anomaly signal.
 
     🟡 Code smells (Mantyla et al. 2014):
@@ -751,7 +751,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Principle 12: "Go and see for yourself."
       Taiichi Ohno bắt kỹ sư MỚI đứng trong vòng phấn trên sàn nhà máy.
       → QUAN SÁT hàng giờ TRƯỚC KHI được phép NÓI.
-      → = FORCE Loại A compilation trước khi cho phép Loại C analysis.
+      → = FORCE Experience Compile compilation trước khi cho phép Trust Compile analysis.
       → Toyota HIỂU: không có chunks từ observation
         → không có gap → không detect waste.
       → = "Mặt lưng cái tủ" ở cấp manufacturing management.
@@ -811,8 +811,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ├───────────────┼────────────────────────┼─────────────────────────┤
     │ Gap landscape │ Deep + Narrow          │ Moderate + Wide         │
     │ Hidden =      │ Technical details      │ Organizational dynamics │
-    │ Chunks needed │ Loại B compiled deep   │ Loại 2 scaffold + Loại │
-    │               │ (10+ years 1 domain)   │ 1 meta-người (CN §2.4) │
+    │ Chunks needed │ Expertise Compile compiled deep   │ Loại 2 scaffold + Loại │
+    │               │ (10+ years 1 domain)   │ 1 meta-người (Coordination-Node §2.4) │
     │ Timeline      │ ~10+ years (Ericsson)  │ 24-36 months per scale  │
     │               │                        │ (Gabarro 1987)          │
     │ Body signals  │ "Mối nối lỏng"         │ "Team kiệt sức"        │
@@ -855,7 +855,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ④ TALENT MISALLOCATION (đặt người sai chỗ):
     → Invisible until project failure
-    → Leader với SPM compiled (CN §2.2 ①): "người X không fit role Y"
+    → Leader với Self-Pattern-Modeling compiled (Coordination-Node §2.2 ①): "người X không fit role Y"
       (body signal từ compiled observation of people × roles)
     → Theory-only leader: nhìn resume → "qualified" → assign
       (chunks about person-role fit = ∅ → misallocation undetected)
@@ -876,7 +876,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Hidden quality = LEADING indicator
     → = Visible metrics = LAGGING indicator (§4.2)
 
-  🟡 5 hidden dimensions = framework synthesis (CN + DMD + BFM)
+  🟡 5 hidden dimensions = framework synthesis (Coordination-Node + Domain-Mapping-Drive + Body-Feedback-Mechanism)
 ```
 
 ### §3.3 — Research Evidence
@@ -889,7 +889,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Goodall 2009, 2011 (Social Science & Medicine):
       Physician-CEO → hospital quality ranking CAO HƠN (p<0.001).
       Scholar làm hiệu trưởng → research quality CẢI THIỆN.
-      Cựu tay đua F1 dẫn dắt team → thắng nhiều hơn.
+      Cựu tay đua Formula 1 dẫn dắt team → thắng nhiều hơn.
 
       FRAMEWORK EXPLANATION:
         Physician-CEO có scaffold chunks y khoa
@@ -905,10 +905,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       QUAN SÁT hàng giờ TRƯỚC khi được phép NÓI.
 
       FRAMEWORK EXPLANATION:
-        = FORCE Loại A compilation TRƯỚC khi cho phép Loại C analysis
+        = FORCE Experience Compile compilation TRƯỚC khi cho phép Trust Compile analysis
         = Toyota HIỂU:
-          Reports = Loại C (codified, explicit, visible only)
-          Observation = Loại A (experience, tacit, hidden included)
+          Reports = Trust Compile (codified, explicit, visible only)
+          Observation = Experience Compile (experience, tacit, hidden included)
           → Reports MISS hidden quality → phải GO SEE
 
   ③ TAKING CHARGE TIMELINE:
@@ -936,11 +936,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       "Nói như thợ ống nước ≠ sửa được ống nước."
 
       FRAMEWORK MAPPING:
-        Interactional = Loại C install (theory, vocabulary, concepts)
-        Contributory = Loại A + B (experience → compiled → can DO)
+        Interactional = Trust Compile install (theory, vocabulary, concepts)
+        Contributory = Experience + Expertise Compile (experience → compiled → can DO)
         Leader cần: CONTRIBUTORY ở coordination domain
           + ít nhất partial CONTRIBUTORY ở subordinate domains
-          (= scaffold chunks — CN §2.4 Loại 2)
+          (= scaffold chunks — Coordination-Node §2.4 Loại 2)
         Interactional ALONE = "nói giỏi nhưng miss hidden quality"
 
   ⑤ PETER PRINCIPLE:
@@ -950,7 +950,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Collaboration skills predict management quality TỐT HƠN sales.
 
       FRAMEWORK EXPLANATION:
-        Sales champion = Loại B compiled ở SALES domain (deep + narrow)
+        Sales champion = Expertise Compile compiled ở SALES domain (deep + narrow)
         Promoted → coordination domain = KHÁC hoàn toàn
         → Sales chunks ≠ coordination chunks
         → "Mặt lưng tổ chức" invisible cho sales champion turned manager
@@ -1004,14 +1004,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ① Feedback loop CHẬM hơn:
        Team 5 người: leader THẤY mệt trực tiếp → fix ngay
        Org 500 người: leader nhìn report → report delay 3 tháng
-       Quốc gia: leader nhìn GDP → GDP delay 1-2 năm
+       Quốc gia: leader nhìn Gap-Distribution-Profile → Gap-Distribution-Profile delay 1-2 năm
        → Hidden quality compound TRƯỚC KHI feedback đến
 
-    ② Information compression LOSSY hơn (CN §4.1):
+    ② Information compression LOSSY hơn (Coordination-Node §4.1):
        Personal (5-20) → Role-based (20-150) → Symbolic (150+)
        → Mỗi compression = MẤT information about hidden quality
        → Reports = compressed → hidden dimensions DROPPED
-       → = Hierarchy là LOSSY COMPRESSION ALGORITHM (CN §4.1)
+       → = Hierarchy là LOSSY COMPRESSION ALGORITHM (Coordination-Node §4.1)
 
     ③ Correction cost TĂNG:
        Team 5: reassign 1 person = cheap
@@ -1026,7 +1026,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Tại sao MBA-CEO at hospital → quality drops (Goodall)
     → = Scale AMPLIFIES hidden quality blindness
 
-  🟡 Scale × danger analysis = framework synthesis (CN §4 extension)
+  🟡 Scale × danger analysis = framework synthesis (Coordination-Node §4 extension)
 ```
 
 ---
@@ -1048,7 +1048,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                                             │
   │  HIDDEN QUALITY (mặt lưng tủ):                             │
   │    → Tacit, non-codifiable, NOT transferable by instruction │
-  │    → Body-level compiled patterns, Background Pattern       │
+  │    → Body-level compiled patterns, Background-Pattern       │
   │    → Copier KHÔNG THỂ replicate → gap = impossible          │
   │    → = Polanyi: tacit knowledge = NOT transferable           │
   │                                                             │
@@ -1123,7 +1123,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Expert's body = early warning system
     → = Copier's body = blind to warnings → chỉ thấy khi đã muộn
 
-  🟡 Quality compounding model = framework synthesis (BFM + CN + DMD)
+  🟡 Quality compounding model = framework synthesis (Body-Feedback-Mechanism + Coordination-Node + Domain-Mapping-Drive)
   🟡 Leading/lagging distinction applied to body-feedback = new
 ```
 
@@ -1142,7 +1142,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   FRAMEWORK EXPLANATION — TẠI SAO MANUAL FAIL:
 
-    Manual = Loại C install:
+    Manual = Trust Compile install:
       → Explicit rules, steps, checklists
       → PFC receive → body compile SHORT (1-2 nodes)
       → = Visible output patterns CÓ THỂ transfer
@@ -1150,30 +1150,30 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     TẠI SAO HIDDEN KHÔNG THỂ TRANSFER QUA MANUAL:
 
-      ① Hidden quality = Background Pattern (high link density):
-         → BP hình thành qua YEARS × thousands of micro-events
-         → KHÔNG THỂ encode vào text vì PFC KHÔNG access BP (BP §5)
+      ① Hidden quality = Background-Pattern (high link density):
+         → Background-Pattern hình thành qua YEARS × thousands of micro-events
+         → KHÔNG THỂ encode vào text vì PFC KHÔNG access Background-Pattern (Background-Pattern §5)
          → Expert viết manual → PFC chỉ verbalize PHẦN EXPLICIT
          → Hidden quality patterns = OUTSIDE PFC verbalization
          → = "Biết mà không nói được" → manual MISS tacit
 
       ② Compilation cần BODY FEEDBACK:
-         → Loại A: action → result → body evaluate → compile
+         → Experience Compile: action → result → body evaluate → compile
          → Manual KHÔNG có: action (chưa làm) → result (chưa thấy)
          → Body KHÔNG evaluate → KHÔNG compile
          → = Reading about quality ≠ compiling quality chunks
 
       ③ Context-dependent knowledge:
-         → Expert adjust per situation (F1 compiled → context-sensitive)
+         → Expert adjust per situation (Compiled → context-sensitive)
          → Manual = generic rules → context DROPPED
          → "Keo nào dùng?" Expert: "tùy ẩm, tùy gỗ, tùy kết cấu"
          → Manual: "dùng keo X" → miss context → miss quality
 
   ⭐ NHƯNG MANUAL VẪN CÓ GIÁ TRỊ:
 
-    Manual = SCAFFOLD (CN §6.3 ②):
+    Manual = SCAFFOLD (Coordination-Node §6.3 ②):
       → Cho gap-direction SỚM: "biết HƯỚNG nào cần explore"
-      → Accelerate Loại A: "biết hỏi đúng câu, tìm đúng chỗ"
+      → Accelerate Experience Compile: "biết hỏi đúng câu, tìm đúng chỗ"
       → Reduce trial-error cost: "biết patterns thất bại phổ biến"
       → = Theory FIRST → experience REFINE = tốt hơn no theory
 
@@ -1181,7 +1181,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Manual + Experience = visible + hidden = "cả tủ"
 
   🟢 Somerville & Lloyd 2006 (competency-based training failure)
-  🟡 Framework explanation = synthesis (BP + CT + BFM)
+  🟡 Framework explanation = synthesis (Background-Pattern + CT + Body-Feedback-Mechanism)
 ```
 
 ### §4.4 — Cross-Domain Transfer: Meta-Calibration Only
@@ -1396,7 +1396,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         của expert behavior → PATTERNS of hidden quality
       → AI KHÔNG CÓ body-feedback → KHÔNG CÓ compiled chunks
       → AI detect via STATISTICAL CORRELATION, not body signal
-      → = Loại C on steroids — pattern recognition WITHOUT body compilation
+      → = Trust Compile on steroids — pattern recognition WITHOUT body compilation
       → = Useful nhưng KHÁC mechanism so với expert perception
 
   ĐÂY LÀ CASE TỐT NHẤT:
@@ -1467,7 +1467,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   FRAMEWORK INTERPRETATION:
 
     Human values = chunks compiled qua evolution + culture + experience.
-    PHẦN LỚN = tacit (Background Pattern level).
+    PHẦN LỚN = tacit (Background-Pattern level).
     → PFC KHÔNG THỂ verbalize toàn bộ → specification INCOMPLETE.
     → = "Biết mà không nói được" ở cấp giá trị con người.
     → = "Mặt lưng" của human values = dimension AI không thấy.
@@ -1524,7 +1524,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 GIÁO DỤC NÊN BUILD HIDDEN QUALITY PERCEPTION:
 
-  HIỆN TẠI: phần lớn giáo dục = Loại C install
+  HIỆN TẠI: phần lớn giáo dục = Trust Compile install
     → Textbook, lecture, exam = visible output evaluation
     → "Trả lời đúng" = mặt trước tủ → graded ✓
     → Hidden quality (depth of understanding, thinking process) = NOT evaluated
@@ -1535,7 +1535,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ① EXPOSE to PROCESS, not just OUTPUT:
        → Học sinh XEM expert LÀM, không chỉ kết quả
        → Mentoring > manual (Somerville & Lloyd 2006)
-       → Shadowing expert = Loại A compilation accelerator
+       → Shadowing expert = Experience Compile compilation accelerator
        → Domain-Mapping-Drive: reward from PROCESS
 
     ② FEEDBACK LOOPS from domain reality:
@@ -1566,7 +1566,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ① HIRING: test hidden quality perception, NOT just visible output
     → Interview: "cái gì có thể sai ở đây?" = test gap awareness
     → Portfolio review BY EXPERT = detect hidden quality
-    → Trial period = Loại A compilation opportunity (Gabarro 1987)
+    → Trial period = Experience Compile compilation opportunity (Gabarro 1987)
 
   ② PROMOTION: avoid Peter Principle (Benson 2019)
     → Test COORDINATION CHUNKS, not just domain chunks
@@ -1583,7 +1583,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Domain expert có scaffold chunks → detect hidden organizational quality
     → ≠ "expert tốt hơn" in general → "expert có CHUNKS relevant"
 
-  🟡 Organizational implications = framework synthesis (CN + research)
+  🟡 Organizational implications = framework synthesis (Coordination-Node + research)
 ```
 
 ### §7.3 — Personal: developing quality perception
@@ -1599,7 +1599,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Không phải feedback from peers only → domain reality feedback
     → "Tủ tôi có bền không?" = kiểm tra SAU 5 năm
     → "Code tôi có maintain được không?" = quay lại SAU 1 năm
-    → = Close feedback loop → Loại A compile
+    → = Close feedback loop → Experience Compile compile
 
   ③ OBSERVE EXPERTS — không chỉ output, mà PROCESS:
     → Mentoring, shadowing, pair work
@@ -1648,7 +1648,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     → Quality compounding model = intuitive nhưng chưa có 
       empirical study TRỰC TIẾP measure compound rate
-    → F1/F2 double blindness = consistent với framework 
+    → Compiled/Fresh double blindness = consistent với framework 
       nhưng chưa có neuroimaging evidence cụ thể cho QUALITY PERCEPTION
     → AI × expert/copier amplifier model = hypothesis
 
@@ -1666,8 +1666,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Threshold có UNIVERSAL hay domain-specific?
 
   Q2: Hidden quality perception có DEGRADABLE không?
-      → Expert nghỉ 10 năm → quay lại → BP vẫn intact?
-      → Alzheimer: "last in first out" → deep BP survive longest?
+      → Expert nghỉ 10 năm → quay lại → Background-Pattern vẫn intact?
+      → Alzheimer: "last in first out" → deep Background-Pattern survive longest?
       → → Background-Pattern §14 (Alzheimer example) suggests YES to persistence
 
   Q3: Cross-domain transfer cụ thể transfer CÁI GÌ?
@@ -1683,14 +1683,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Q5: Relationship với AESTHETIC JUDGMENT?
       → Thẩm mỹ = hidden quality perception ở art domain?
       → "Đẹp" = body signal từ compiled aesthetic chunks?
-      → → Có nghĩa "taste" = compiled BP ở aesthetic domain?
+      → → Có nghĩa "taste" = compiled Background-Pattern ở aesthetic domain?
       → → Nếu đúng → "taste" NOT subjective — taste = f(compilation depth)
       → → 🔴 Hypothesis — cần explore riêng
 
   Q6: Cultural variation trong hidden quality perception?
       → Japanese Shu-Ha-Ri culture = DEVELOP hidden quality perception
       → Western "move fast break things" = potentially SUPPRESS?
-      → = Cultural Background Pattern SHAPE attitude toward hidden quality?
+      → = Cultural Background-Pattern SHAPE attitude toward hidden quality?
 ```
 
 ---
@@ -1703,18 +1703,18 @@ CROSS-REFERENCES:
   FOUNDATION:
     → Gap-Direction.md v2.0 §3 — "Chưa biết = không có gap" (FOUNDATIONAL PRINCIPLE)
     → Body-Feedback-Mechanism.md v2.0 §3 — Chunk-Gap → body signal
-    → Compile-Taxonomy.md v1.1 §2 — Loại A/B/C compile types
+    → Compile-Taxonomy.md v2.0 §2 — 3 Compile Types compile types
     → Body-Feedback-Label.md v2.0 — vocabulary reference
 
   MECHANISM:
-    → Self-Pattern-Modeling.md v3.1 §3 — F1/F2 Compiled/Fresh
+    → Self-Pattern-Modeling.md v3.1 §3 — Compiled/Fresh
     → Background-Pattern.md v2.0 — §0③ "biết mà không nói", 2D model, Triple Bias
     → PFC-Operations.md v1.0 — Compiled Quality Dimension
     → Simulation-Engine.md v1.0 — shared substrate
 
   APPLICATION:
     → Coordination-Node.md v1.1 §2.4 — 2 loại chunks (Meta-Người × Scaffold-Domain)
-    → Coordination-Node.md v1.1 §6.3 — Compilation Path (Loại A/B/C × Coordination)
+    → Coordination-Node.md v1.1 §6.3 — Compilation Path (3 Compile Types × Coordination)
     → Domain-Mapping-Drive.md v1.0 — reward from PROCESS, "given" = bypass
     → Ask-AI.md v3.1 §6.1 — Dual Check (body + domain reality)
     → Boredom.md v2.0 — compiled environment = invisible

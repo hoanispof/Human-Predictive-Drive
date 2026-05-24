@@ -1,3 +1,28 @@
+---
+title: Domain — Thực Tế Bên Ngoài Human
+version: 1.0
+created: 2026-03-30 (DRAFT)
+refined: 2026-05-23 (v1.0 — YAML standardized. Concept Cascade: +Simulation-Engine, +Entity-Access, +PFC Budget. Cross-refs updated)
+status: v1.0 REFERENCE FILE
+scope: |
+  Domain = thực tế bên ngoài human. File này KHÔNG mô tả domain trực tiếp —
+  mô tả những gì CHẮC CHẮN BIẾT qua phản chiếu từ human interaction.
+  Feedback thật, knowledge convergence, finite tại mỗi điểm, combination.
+  Lean epistemological stance: infer domain through reflection.
+parent: Core-Deep-Dive/Domain/
+dependencies:
+  - Core-v7.8-Draft.md — cycle architecture
+  - Conflict-Dynamics.md v1.1 — OVERLAP × SCARCITY × COMMITMENT
+  - Knowledge-Flow.md v1.0 — dòng chảy internal → output → external
+  - Imagine-Final.md v3.0 — bridge giữa "muốn" và "thật"
+  - Body-Feedback-Mechanism.md v2.0 — body check = domain feedback
+  - PFC/Simulation-Engine.md v1.0 — domain simulation in PFC
+  - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — domain access = gradient
+  - Gap-Distribution-Profile.md v1.1 — PFC budget limits domain mapping
+language: Tiếng Việt primary + English technical terms
+confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+---
+
 # Domain — Thực Tế Bên Ngoài Human
 
 > **Bạn KHÔNG THỂ nhìn thấy gió.**
@@ -406,8 +431,46 @@
 → Innovation-Geography.md: nơi domains cross-pollinate (trade hubs)
 → Global-Melody.md §5: domain melody → split → domain mới
 → Personal-Melody.md §5: melody hay = body smooth + domain accurate
-→ Chunk.md §3: vô thức không check domain → PFC check
-→ Schema-Operations.md §8.5: simulate = fire cùng pathway (body preview domain)
+→ Chunk.md v2.3: vô thức không check domain → PFC check
+→ Valence-Propagation.md v3.0: body evaluation, structural/current valence
+→ Simulation-Engine.md v1.0: PFC simulate domain outcomes
+→ Entity-Access.md v1.2: domain access per-entity gradient
+→ Gap-Distribution-Profile.md v1.1: PFC budget limits domain mapping
+```
+
+---
+
+## 8. Domain × New Concepts (28-session Drill Propagation)
+
+```
+SIMULATION ENGINE × DOMAIN (Simulation-Engine.md v1.0):
+  → §4 (Imagine-Final × Domain) = Simulation Engine running domain scenarios:
+    PFC simulate "nếu tôi làm X → domain trả lời Y" → body evaluate
+    Simulation Engine = MACHINERY cho domain bridge
+  → Domain ĐÚNG khi: Simulation Engine draft → domain feedback MATCH
+  → Domain SAI khi: Simulation Engine draft → domain feedback MISMATCH
+  → = Simulation Engine = human's primary domain access tool (qua PFC)
+
+ENTITY-ACCESS × DOMAIN (Entity-Access.md v1.2):
+  → Domain access = per-entity phenomenon:
+    Mỗi entity = 1 "cửa sổ" nhìn vào domain (§1: body chạm domain qua body)
+    Entity-Access gradient = depth of domain access per-entity
+    Mức 5 entity (self) → deepest domain access (know own body-state)
+    Mức 0 entity (stranger) → shallowest (guess via compiled patterns)
+  → §2 ④ (knowledge convergence) = many entities access SAME domain region
+    → convergence = ENTITIES report consistent patterns = domain real
+
+PFC BUDGET × DOMAIN (Gap-Distribution-Profile.md v1.1):
+  → Domain mapping LIMITED BY PFC budget:
+    Mỗi ngày = finite metabolic resource cho PFC draft
+    Map domain rộng = tốn PFC budget → phải CHỌN domain nào map
+    → = TẠI SAO chuyên môn hóa exists (map DEEP 1 domain > shallow many)
+  → §6 (Arc Wave) trong Knowledge-Flow.md = PFC budget rhythm
+    Peak = high PFC spend → trough = PFC recover → peak tiếp
+
+🟡 Simulation Engine × domain = framework formalization
+🟡 Entity-Access × domain = framework application (per-entity access depth)
+🟡 PFC Budget × domain = framework inference (metabolic constraint on mapping)
 ```
 
 ---

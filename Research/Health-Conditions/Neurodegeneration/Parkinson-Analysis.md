@@ -838,7 +838,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Patient KHÔNG nhận ra giọng nhỏ (body-feedback mismatch)
 
   🟡 Social prediction-delta:
-    Người khác SPM patient → "sao mặt lạnh?" → MISATTRIBUTE
+    Người khác Self-Pattern-Modeling patient → "sao mặt lạnh?" → MISATTRIBUTE
     Patient CẢM nhưng KHÔNG output → Connection DISRUPTED
     = Prediction INTACT + Expression FAIL (cùng pattern, social domain)
     = Social isolation CHỈ VÌ gate locked, không phải emotional fail

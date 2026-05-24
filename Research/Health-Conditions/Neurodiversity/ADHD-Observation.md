@@ -677,7 +677,7 @@ RSD = Cơn đau cảm xúc mãnh liệt từ rejection/criticism ĐƯỢC CẢM 
   -> NHƯNG: described consistently bởi 30-70% ADHD adults
 
   Framework mechanism:
-    1. Social input -> prediction về đánh giá của người khác (SPM F2)
+    1. Social input -> prediction về đánh giá của người khác (Self-Pattern-Modeling Fresh)
     2. BẤT KỲ negative signal nào (thật hoặc perceived) -> prediction-delta (SOCIAL)
     3. Social signals = evolutionary HIGH priority -> threshold THẤP HƠN cho social
        (social rejection = survival risk -> brain ưu tiên)
@@ -739,7 +739,7 @@ Cortisol-Baseline.md §7: SOURCE > LEVEL
     -> Compile schema: "Threats XUẤT HIỆN BẤT NGỜ + RẤT LỚN"
     -> Schema này = FALSE (threats có warning signals, ADHD filtered chúng)
     -> Nhưng EXPERIENCE là thật: "thế giới unpredictable"
-    -> = Type C install: "Mình không thể predict threats"
+    -> = Trust Compile install: "Mình không thể predict threats"
 
   BƯỚC 6: ANXIETY = COMPENSATION MECHANISM
     -> Schema "threats unpredictable" -> chronic anticipatory worry
@@ -771,7 +771,7 @@ Cortisol-Baseline.md §7: SOURCE > LEVEL
     "Paternal affection and warmth interacting with ADHD symptoms
      predict LOWER anxiety and reduced conduct disorders"
 
-  SCENARIO A: BỐ MẸ CÓ SPM TỐT + RESONANCE
+  SCENARIO A: BỐ MẸ CÓ Self-Pattern-Modeling TỐT + RESONANCE
     -> Bố mẹ HIỂU con filter micro-cues -> KHÔNG tích lũy frustration
     -> Communicate TRỰC TIẾP thay vì bằng micro-signals
     -> Nhắc thay vì ĐỢI CON TỰ BIẾT -> threat KHÔNG tích lũy
@@ -1087,7 +1087,7 @@ CONDITION 4: Environment LOW distraction
     -> Start arc 2 -> fail -> guilt x 2
     -> Start arc N -> "tại sao cố? sẽ fail thôi" -> KHÔNG CÒN START
     -> = Identity chunk: "Tôi không bao giờ finish"
-    -> = DRIVE TỰ TẮT (SPM predict failure -> avoidance)
+    -> = DRIVE TỰ TẮT (Self-Pattern-Modeling predict failure -> avoidance)
     -> = "Graveyard of unfinished projects"
 ```
 
@@ -1116,8 +1116,8 @@ BIG ARC ANXIETY CHAIN:
     Neurotypical: nhiều nhỏ đều đặn liên tục (steady micro-rewards)
     ADHD: ít lớn không đều gaps dài (feast or famine)
 
-    -> Neurotypical: system THỎA MÃN -> không có drive lớn tích lũy
-    -> ADHD: system THIẾU THỎA MÃN chronic -> drive TÍCH LŨY
+    -> Neurotypical: system SATISFIED -> không có drive lớn tích lũy
+    -> ADHD: system THIẾU SATISFIED chronic -> drive TÍCH LŨY
     -> = ADHD CÓ drive lớn nhưng KHÓ sustain execution
 ```
 
@@ -1130,7 +1130,7 @@ BIG ARC ANXIETY CHAIN:
 
   Safe environment + scaffolding -> peak SHIFT RIGHT
     -> Moderate ADHD vẫn ở "advantage zone" nhờ support
-    -> Bố mẹ SPM tốt -> anxiety không compile sớm -> PFC CÓ capacity
+    -> Bố mẹ Self-Pattern-Modeling tốt -> anxiety không compile sớm -> PFC CÓ capacity
     -> External scaffolding (partner, tools, team) -> hỗ trợ arc completion
 
   Unsafe environment + no support -> peak SHIFT LEFT
@@ -1193,8 +1193,8 @@ Tuổi 12-18:
 
   Identity chunk damage:
     -> Nhiều năm "lười", "không cố gắng", "thông minh nhưng không chịu học"
-    -> SPM self-chunks compile: "Tôi = lười/ngu/hỏng"
-    -> = Type C install via repeated authority figures (bố mẹ, thầy cô)
+    -> Self-Pattern-Modeling self-chunks compile: "Tôi = lười/ngu/hỏng"
+    -> = Trust Compile install via repeated authority figures (bố mẹ, thầy cô)
     -> Schema deep-compile -> ảnh hưởng Imagine-Final formation
 ```
 
@@ -1252,11 +1252,11 @@ TÓM LẠI sau 25:
 ### §10.5 — Late diagnosis: Identity re-compile
 
 ```
-Framework mechanism (SPM x chunks):
+Framework mechanism (Self-Pattern-Modeling x chunks):
 
   TRƯỚC chẩn đoán:
     -> Self-chunks: "lười", "hỏng", "không cố gắng đủ"
-    -> Compiled qua 20-30 năm (Type C installs từ môi trường)
+    -> Compiled qua 20-30 năm (Trust Compile installs từ môi trường)
 
   KHOẢNH KHẮC chẩn đoán:
     -> Thông tin mới: "hardware tuning khác, not moral failure"
@@ -1431,7 +1431,7 @@ QUAN TRỌNG:
     -> Sensory processing GAIN settings khác per-modality (Tomchek 2007: 95%)
     -> TBW (Temporal Binding Window): ~600ms vs ~300ms typical (Foss-Feig 2010)
     -> Reduced HABITUATION: signal KHÔNG giảm theo thời gian (Green 2015)
-    -> SPM F1/F2 balance khác
+    -> Self-Pattern-Modeling Compiled/Fresh balance khác
     -> Multisensory integration khác
     -> Brain connectivity: IDIOSYNCRATIC per-individual (Hahamy 2015)
     -> = HOW the system is WIRED (structural, from birth, polygenic 102+ genes)
@@ -1476,7 +1476,7 @@ QUAN TRỌNG:
   ──────────────────|──────────────────────────|──────────────────────────
   Social difficulty | IMPULSIVE (nói sai lúc,  | PROCESSING (đọc signal
                     | ngắt lời, miss cues      | khác biệt, chunk library
-                    | vì distracted)           | khác → SPM predict khác)
+                    | vì distracted)           | khác → Self-Pattern-Modeling predict khác)
   Focus             | THRESHOLD-gated          | INTEREST-deep (monotropic,
                     | (novelty-dependent)      | Special Interests = conc. gap-dir.)
   Routine           | KHÓ maintain             | ƯU TIÊN (prediction-delta
@@ -1529,7 +1529,7 @@ QUAN TRỌNG:
 
   ① CONFIGURATION (Autism):
      Hardware xử lý input khác ở mức neuron (fMRI measurable)
-     → Chunks compile khác → SPM build khác → social prediction khác
+     → Chunks compile khác → Self-Pattern-Modeling build khác → social prediction khác
 
   ② TUNING (ADHD nặng):
      Hardware sensory bình thường, regulation khác
@@ -1537,7 +1537,7 @@ QUAN TRỌNG:
      → Medication compensate → social chunks compile NHANH hơn
 
   ③ DEPRIVATION (thiếu input):
-     Hardware bình thường, input thiếu → SPM thiếu raw material
+     Hardware bình thường, input thiếu → Self-Pattern-Modeling thiếu raw material
      → Cung cấp input đủ sớm → recovery (Rutter 1999: <6 tháng = near-complete)
 
   Cả 3 → "khó giao tiếp" nhìn từ ngoài → DỄ NHẦM
@@ -1857,7 +1857,7 @@ DOPAMINE CLUSTER (3 files, file này = 3/3):
 ### §16.4 — Identity + Development
 
 ```
-  -> Self-Pattern-Match.md v2.3 — SPM self-chunks, identity compile
+  -> Self-Pattern-Modeling.md v2.3 — Self-Pattern-Modeling self-chunks, identity compile
   -> Child-Development-Mechanism.md v1.0 — developmental trajectory
   -> Self-Created-Threat.md v1.0 — compensation = self-created threat chronic
 ```

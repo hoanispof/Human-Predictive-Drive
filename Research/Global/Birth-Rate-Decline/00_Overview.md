@@ -18,7 +18,7 @@
 > Connection.md v3.1 §12 (Connection × Imagine-Final),
 > Conflict-Dynamics.md §7 (scarcity = engine),
 > Education-Mechanism.md §3.1 (bridge = nguồn ④ External Inject),
-> Collective-Body.md v1.1 (collective-level schema compile, Type C install)
+> Collective-Body.md v1.1 (collective-level schema compile, Trust Compile install)
 > **⚠️ Phân tích DỰA TRÊN framework hypothesis — cần cross-validate với data thực**
 > **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
 
@@ -83,8 +83,8 @@
     → Chunks compile: "tuổi thơ = KHÓ CHỊU" → ngại lặp lại cho con
     → Bạn bè cùng thế hệ reinforce: "mệt quá, áp lực quá" → schema MẠNH hơn
     → ⭐ Collective-Body.md v1.1: schema "có con = khổ" lan ở Cấp 2 (collective)
-      → Compile Taxonomy Type C: installed từ collective, không cần trải nghiệm cá nhân
-      → VD: TQ "1 con = bình thường" = Type C installed qua 35 năm policy
+      → Compile Taxonomy Trust Compile: installed từ collective, không cần trải nghiệm cá nhân
+      → VD: TQ "1 con = bình thường" = Trust Compile installed qua 35 năm policy
 
   ⑤ CONNECTION SUY GIẢM (nuôi con CÔ ĐƠN hơn)
     → Xưa: đại gia đình + cả làng nuôi con → CHIA TẢI

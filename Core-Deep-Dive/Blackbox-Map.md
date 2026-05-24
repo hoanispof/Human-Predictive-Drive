@@ -501,10 +501,10 @@ HƯỚNG NGHIÊN CỨU TỪ GAP 2:
       (not all connections equally) — "gist" = proto-chunk
     → Method: hippocampal recording (animal) + fMRI sleep (human)
 
-  RD-2.5: Compile TYPE A/B/C at molecular level
-    → Type A (direct short): LTP + opioid = simple, fast
-    → Type B (expertise): LTP + repetition + meta-chunk formation
-    → Type C (trust install): social signal → trust gate → compile
+  RD-2.5: 3 Compile Types at molecular level
+    → Experience Compile (direct short): LTP + opioid = simple, fast
+    → Expertise Compile: LTP + repetition + meta-chunk formation
+    → Trust Compile: social signal → trust gate → compile
     → Framework predict: 3 types = DIFFERENT molecular signatures
     → Method: social learning paradigm + pharmacological manipulation
 ```
@@ -978,7 +978,7 @@ NẾU FRAMEWORK ĐÚNG, neuroscience PHẢI TÌM THẤY:
   ⑥ 7-layer fidelity: information loss measurable
      at each neural relay từ body → PFC
 
-  ⑦ Compile Type A/B/C = KHÁC nhau ở molecular level
+  ⑦ 3 Compile Types = KHÁC nhau ở molecular level
      (different LTP patterns, different neuromodulators)
 
   ⑧ Mỗi body-input channel mới phát hiện

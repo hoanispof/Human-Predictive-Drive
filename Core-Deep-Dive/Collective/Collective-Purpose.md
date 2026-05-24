@@ -11,7 +11,7 @@
 
 ---
 
-> **Trạng thái:** COMPLETE — v1.1 (refined 2026-04-24: 3 Forces + Biological Ceiling)
+> **Trạng thái:** v1.2 (2026-05-23: Concept Cascade +Bond-Architecture +Resonance-Sustainability +By-Product-Scale. v1.1 2026-04-24: 3 Forces + Biological Ceiling)
 > **Ngày:** 2026-04-10 | Refined: 2026-04-24
 > **Mục đích:** Frame META-LEVEL — vòng tròn collective humanity ↔ domain.
 > Connect cá nhân (anchor, melody, drive) với collective (knowledge mapping domain).
@@ -316,7 +316,7 @@ TẠI SAO CÁ NHÂN THAM GIA DÙ KHÔNG THÍCH — 3 FORCES:
 
     Resonance ở scale collective:
       (By-Product-Gap-Resonance.md §0.3: Resonance can emerge in larger collectives)
-      → Cá nhân SPM với tập thể: "mọi người đi làm → tôi cũng nên"
+      → Cá nhân Self-Pattern-Modeling với tập thể: "mọi người đi làm → tôi cũng nên"
       → Khi tập thể verify "lao động = giá trị" → cá nhân cảm thấy ĐÚNG
       → Khi cá nhân KHÔNG comply → social dissonance → "lạc lõng"
       → = Resonance with collective = behavioral compliance engine
@@ -1067,7 +1067,40 @@ SONG SONG:
 
 ---
 
-> *Collective Purpose v1.1 — "Cá nhân chỉ thấy daily life: anchor, melody, drive.
+## Collective-Purpose × New Concepts (28-session Drill Propagation)
+
+```
+BOND-ARCHITECTURE × COLLECTIVE (Bond-Architecture.md v1.0):
+  → Collective = MANY bonds operating at scale:
+    Proximity bonds → local community (village, neighborhood)
+    Shared-Experience bonds → cohort groups (class, military unit)
+    Reciprocal bonds → professional networks (exchange-based)
+    Identity bonds → nations, religions (broadest, most abstract)
+  → 3 Forces (§4): Resonance = By-Product-Scale, Status = Entity-Access, Survival = hardware
+
+RESONANCE-SUSTAINABILITY × COLLECTIVE (Resonance-Sustainability.md v1.0):
+  → Collective patterns need 4-layer sustainability:
+    Neurochemical: members still FEEL belonging (oxytocin, opioid)
+    Behavioral: members still PARTICIPATE (rituals, meetings)
+    Cognitive: narrative still MAKES SENSE (ideology coherent)
+    Contextual: environment still SUPPORTS (resources available)
+  → Cosmic loop sustainable IFF all 4 layers maintained across generations
+
+BY-PRODUCT-SCALE × COLLECTIVE (By-Product-Scale.md v1.0):
+  → Loop operates at 3 scales simultaneously:
+    PAIR: individual discovery → teacher-student transmission
+    HUB: research group → institutional knowledge
+    INSTITUTIONAL: university → civilization-level knowledge
+  → Prestige = genuine by-product match resonance at collective scale
+
+🟡 Bond-Architecture × collective = framework application
+🟡 Resonance-Sustainability × collective = framework application (4-layer)
+🟡 By-Product-Scale × collective = framework application (3 scales)
+```
+
+---
+
+> *Collective Purpose v1.2 — "Cá nhân chỉ thấy daily life: anchor, melody, drive.
 > Khi ZOOM OUT toàn humanity qua thời gian: pattern emerge — humanity collective
 > đang map dần Domain reality. Đây là 'mục đích' có thể infer (weak claim).
 > Cá nhân không cần biết về loop để contribute — chỉ cần SỐNG ĐÚNG MELODY của mình.

@@ -45,8 +45,8 @@ dependencies:
   mechanism:
     - Body-Feedback-Mechanism.md v1.2 — Chunk-Shift/Miss/Gap
     - Gap-Direction.md v1.0 — "chưa biết = không có gap"
-    - Reward-Signal-Architecture.md v1.0 — Type A/B, overjustification mechanism
-    - Compile-Taxonomy.md v1.1 — Loại C external install
+    - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, overjustification mechanism
+    - Compile-Taxonomy.md v2.0 — Trust Compile external install
     - Cortisol-Baseline.md v2.0 — amplifier, direction > level
     - Anchor-Schema.md v1.2 — 4 nguồn fill, trust
     - Connection.md v3.1 — L2 bonds, 2-luồng
@@ -84,7 +84,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Không phải "dạy gì" — mà "compile chunks NÀO với tag NÀO."**
 >
 > **Research: money habits compile by age 7 (Whitebread & Bingham 2013).**
-> **Framework: Background Pattern hình thành = invisible bias suốt đời.**
+> **Framework: Background-Pattern hình thành = invisible bias suốt đời.**
 > **Knowledge ≠ behavior (Mandell 2008). PFC ≠ body.**
 > **Direction > Level (Education-Mechanism §2.2).**
 >
@@ -175,7 +175,7 @@ Money-Analysis.md §10.4 Q8:
   "Children's money schemas: critical period for financial chunk compilation?"
 
 FILE NÀY TRẢ LỜI:
-  → Có critical period: Background Pattern compile chính ở 0-7
+  → Có critical period: Background-Pattern compile chính ở 0-7
   → Nhưng KHÔNG phải "dạy tài chính từ 0 tuổi"
   → Mà: DIRECTION of compilation matters most (approach vs avoidance)
   → Và: BỐ MẸ đang compile money schemas cho con
@@ -225,7 +225,7 @@ FILE NÀY TRẢ LỜI:
     → NHƯNG: Link Density CỰC CAO (hàng nghìn events, multi-context)
     → = Quadrant dưới phải: LOW DEPTH + HIGH DENSITY
     → = INVISIBLE BUT PERVASIVE
-    → = "Tôi vốn vậy" — PFC label cho Background Pattern
+    → = "Tôi vốn vậy" — PFC label cho Background-Pattern
 
   HỆ QUẢ:
     → Money schemas SAU age 7: phải build TRÊN nền này
@@ -234,7 +234,7 @@ FILE NÀY TRẢ LỜI:
     → = Tại sao phòng ngừa > chữa trị
 
   🟢 Whitebread & Bingham 2013: habit formation
-  🟡 Background Pattern mechanism = framework explains WHY habits set early
+  🟡 Background-Pattern mechanism = framework explains WHY habits set early
 ```
 
 ### §1.2 — Bố mẹ ĐANG dạy — dù không cố ý
@@ -262,7 +262,7 @@ FILE NÀY TRẢ LỜI:
 
   Kênh ④ SLEEP CONSOLIDATION:
     → Hàng đêm: gist extraction → "tiền = IMPORTANT" abstract
-    → Sleep accelerate pattern → Background Pattern hình thành
+    → Sleep accelerate pattern → Background-Pattern hình thành
 
   Kênh ⑤ EXTERNAL INSTALL:
     → Lời bố mẹ trực tiếp: "Phải tiết kiệm", "Tiền không mọc trên cây"
@@ -307,13 +307,13 @@ FILE NÀY TRẢ LỜI:
 
   CÙNG "TIẾT KIỆM" — 2 DIRECTION KHÁC NHAU:
 
-    APPROACH: "Tiết kiệm = CON chọn cái TO hơn → sướng hơn"
-      → Body: approach → "tiết kiệm = sướng" → TỰ MUỐN
-      → Background Pattern: [tiết kiệm = tôi kiểm soát, tôi chọn]
+    APPROACH: "Tiết kiệm = CON chọn cái TO hơn → pleasant hơn"
+      → Body: approach → "tiết kiệm = pleasant" → TỰ MUỐN
+      → Background-Pattern: [tiết kiệm = tôi kiểm soát, tôi chọn]
 
     AVOIDANCE: "Phải tiết kiệm vì MẸ VẤT VẢ kiếm tiền!"
       → Body: guilt → avoidance → "tiết kiệm = tránh xấu hổ"
-      → Background Pattern: [tiết kiệm = tránh shame, anxiety]
+      → Background-Pattern: [tiết kiệm = tránh shame, anxiety]
 
     → CẢ HAI dạy "tiết kiệm". KHÁC direction. KHÁC SUỐT ĐỜI.
 
@@ -345,14 +345,14 @@ FILE NÀY TRẢ LỜI:
     → = Framework: approach-avoidance conflict → freeze
 
   ④ BACKGROUND PATTERN CỦA BỐ MẸ → TRUYỀN SANG CON:
-    → Gia đình nghèo: BP [tiền = khan hiếm, sinh tồn]
+    → Gia đình nghèo: Background-Pattern [tiền = khan hiếm, sinh tồn]
       → Dạy con bằng THREAT: "không học → nghèo khổ"
-    → Gia đình giàu: BP [tiền = dễ, có sẵn]
+    → Gia đình giàu: Background-Pattern [tiền = dễ, có sẵn]
       → Không dạy gì → premature compilation risk
-    → Gia đình trung lưu: BP mixed
+    → Gia đình trung lưu: Background-Pattern mixed
       → Cách dạy tùy trải nghiệm bố mẹ → inconsistent
 
-    → COMMON PATTERN: BP CỦA BỐ MẸ = template cho BP CON
+    → COMMON PATTERN: Background-Pattern CỦA BỐ MẸ = template cho Background-Pattern CON
     → Không ý thức → cycle lặp lại cross-generational
 
   🟡 4 lý do = framework analysis
@@ -388,17 +388,17 @@ FILE NÀY TRẢ LỜI:
 
     "Biết tiết kiệm quan trọng" = PFC hold explicit chunk
       → YẾU: chưa compiled sâu, chưa approach-tagged
-      → Body KHÔNG feel "tiết kiệm = sướng"
+      → Body KHÔNG feel "tiết kiệm = pleasant"
       → = Lecture dạy PFC, body CHƯA compile
 
-    "Body FEEL tiết kiệm = sướng" = compiled chunk + approach tag
+    "Body FEEL tiết kiệm = pleasant" = compiled chunk + approach tag
       → MẠNH: compiled qua experience, approach-tagged
       → Body TỰ MUỐN tiết kiệm → không cần ai nhắc
       → = Experience dạy body, PFC follows
 
   = PFC-level instruction ≠ body-level compilation
   = Education-Mechanism §2.2: direction > level
-  = Giống "biết hút thuốc hại" (PFC) ≠ "bỏ được" (body chunks + BP)
+  = Giống "biết hút thuốc hại" (PFC) ≠ "bỏ được" (body chunks + Background-Pattern)
 
 
   NGUYÊN NHÂN GỐC:
@@ -436,7 +436,7 @@ FILE NÀY TRẢ LỜI:
   ⚠️ NGHIÊM TRỌNG VÌ:
     → Kill approach tag NỘI TẠI cho hành vi ĐÓ
     → Thay bằng: [hành vi X = chỉ đáng khi có tiền]
-    → Background Pattern compile: [giá trị = tiền, không tiền = không đáng]
+    → Background-Pattern compile: [giá trị = tiền, không tiền = không đáng]
     → = Đây là lý do "trả tiền cho mọi thứ" = nguy hiểm
 
   PHÂN BIỆT OVERJUSTIFICATION VS BRIDGE:
@@ -481,12 +481,12 @@ FILE NÀY TRẢ LỜI:
 
   ⭐ TẠI SAO TYPE 3 LÀ PHỔ BIẾN NHẤT:
 
-    Bố mẹ THẬT SỰ stress về tiền (BP [tiền = survival])
+    Bố mẹ THẬT SỰ stress về tiền (Background-Pattern [tiền = survival])
     → Cortisol cao → body state truyền sang con
     → Dùng tiền như THREAT tool (vô thức, không cố ý)
-    → = Background Pattern CỦA BỐ MẸ truyền sang con qua Type 3 mechanism
+    → = Background-Pattern CỦA BỐ MẸ truyền sang con qua Type 3 mechanism
 
-    → KHÔNG phải bố mẹ xấu — là BP của BỐ MẸ chưa resolve
+    → KHÔNG phải bố mẹ xấu — là Background-Pattern của BỐ MẸ chưa resolve
     → = Cross-generational pattern transmission
 
 
@@ -521,7 +521,7 @@ FILE NÀY TRẢ LỜI:
 
   HỆ QUẢ:
     → Age 18: ra đời → lần đầu tiền KHÔNG free → chunk-miss CỰC LỚN
-    → Background Pattern [tiền = có sẵn] × reality [tiền = phải kiếm]
+    → Background-Pattern [tiền = có sẵn] × reality [tiền = phải kiếm]
     → = MISMATCH → dissonance → có thể crisis
     → Giống lottery winner effect (Brickman 1978): sudden wealth → worse off
       nhưng NGƯỢC: từ "giàu" → "phải tự kiếm" = sudden poverty relative
@@ -593,7 +593,7 @@ FILE NÀY TRẢ LỜI:
         → Body feel: "tôi CHỌN, tôi ĐỔI, tôi NHẬN"
         → Chunks: [tiền → lựa chọn → kết quả → approach]
       → Cho trẻ TỰ TIẾT KIỆM cho thứ muốn (5-6 tuổi)
-        → Body feel: "chờ → nhận thứ TO hơn → sướng!"
+        → Body feel: "chờ → nhận thứ TO hơn → pleasant!"
         → Chunks: [tiết kiệm → delayed reward → approach]
       → Cho trẻ TỰ SO SÁNH GIÁ khi mua đồ (7-9 tuổi)
         → Body feel: "tôi tìm giá tốt → smart!"
@@ -800,7 +800,7 @@ FILE NÀY TRẢ LỜI:
     6-12 tuổi: "Tiền mua ĐƯỢC nhiều thứ, nhưng KHÔNG MUA ĐƯỢC tất cả"
       → Money-Analysis §6: 7 trường hợp tiền vô dụng
       → Đơn giản hóa: "Tiền mua kem, nhưng không mua BẠN THÂN"
-      → Body experience: có bạn → sướng → "bạn ≠ tiền"
+      → Body experience: có bạn → pleasant → "bạn ≠ tiền"
 
     12-18 tuổi: "Tiền = proxy, body-base = endpoint"
       → Có thể dạy KHÁI NIỆM proxy trực tiếp
@@ -861,7 +861,7 @@ FILE NÀY TRẢ LỜI:
     → Kênh ① Repetition: THẤY bố mẹ mua hàng → "tiền → đồ"
     → Kênh ② Emotional: FEEL stress/vui khi bố mẹ nói về tiền
     → Kênh ③ Multi-modal: sờ tiền xu, nghe tiếng máy tính tiền
-    → = Background Pattern NỀN TẢNG đang hình thành
+    → = Background-Pattern NỀN TẢNG đang hình thành
 
   BỐ MẸ NÊN LÀM:
     ✅ Ý thức cảm xúc CỦA MÌNH khi nói về tiền
@@ -1046,7 +1046,7 @@ FILE NÀY TRẢ LỜI:
       → "Biết trước → không bị STUCK ở 'kiếm tiền mãi'"
 
     ⑤ GENEROSITY PRACTICE:
-      → Cho đi 1 phần thu nhập → body feel "cho = sướng"
+      → Cho đi 1 phần thu nhập → body feel "cho = pleasant"
       → Gratitude.md §3: anti-habituation
       → Chunks: [cho = approach, không phải mất]
       → Counter threshold adaptation TRƯỚC KHI nó hình thành
@@ -1131,7 +1131,7 @@ FILE NÀY TRẢ LỜI:
     → Counter threshold adaptation + habituation blindness
     → Compile qua: share category trong allowance
     → Age: 6-12 (practice), 12-18 (meaningful amounts)
-    → Direction: approach ("cho = TÔI chọn chia sẻ → sướng")
+    → Direction: approach ("cho = TÔI chọn chia sẻ → pleasant")
 ```
 
 ### §5.2 — 5 schemas KHÔNG NÊN compile (toxic money relationship)
@@ -1223,8 +1223,8 @@ FILE NÀY TRẢ LỜI:
     → Chunks compile: [bố mẹ → nợ → guilt → avoidance]
     → ≠ [bố mẹ → yêu thương → gratitude → approach]
 
-    Background Pattern:
-    → Lặp lại hàng năm → BP [tiền = sacrifice, tôi = burden]
+    Background-Pattern:
+    → Lặp lại hàng năm → Background-Pattern [tiền = sacrifice, tôi = burden]
     → Trẻ trưởng thành: "tôi NỢ bố mẹ → phải kiếm tiền trả"
     → = Money-work gắn với guilt, không phải purpose
     → = Cross-generational transmission: guilt → stress → guilt
@@ -1235,7 +1235,7 @@ FILE NÀY TRẢ LỜI:
     → Gratitude emerge khi con THẤY (experience), không khi con bị ÉP
     → = Gratitude.md §1: gratitude = observation parameter, not command
 
-  🟡 Guilt-trip × obligation × BP = framework analysis
+  🟡 Guilt-trip × obligation × Background-Pattern = framework analysis
   🟢 Intrinsic gratitude vs obligatory gratitude: psychology established
 ```
 
@@ -1257,10 +1257,10 @@ FILE NÀY TRẢ LỜI:
       → = Self-care chunks bị suppress
 
     ② SCARCITY BACKGROUND PATTERN:
-      → BP [tiền = khan hiếm, NGUY HIỂM] compile qua hàng năm
+      → Background-Pattern [tiền = khan hiếm, NGUY HIỂM] compile qua hàng năm
       → Trưởng thành CÓ TIỀN nhưng body VẪN feel "thiếu"
       → = Money-Analysis §4.2①: "nghèo trong đầu" — schema chưa update
-      → PFC biết "giàu" nhưng BP vẫn fire [thiếu]
+      → PFC biết "giàu" nhưng Background-Pattern vẫn fire [thiếu]
 
     ③ SOCIAL COMPARISON DAMAGE:
       → "Mình KHÔNG BẰNG" = impose social hierarchy RANKING
@@ -1277,7 +1277,7 @@ FILE NÀY TRẢ LỜI:
     → KHÔNG phủ nhận cảm xúc con:
       "Con muốn → BÌNH THƯỜNG. Mình tìm CÁCH khác nhé"
 
-  🟡 Scarcity messaging × BP = framework analysis
+  🟡 Scarcity messaging × Background-Pattern = framework analysis
 ```
 
 ### §6.3 — "Giỏi thì thưởng tiền, dở thì phạt"
@@ -1295,7 +1295,7 @@ FILE NÀY TRẢ LỜI:
     THƯỞNG TIỀN CHO HỌC:
       → Overjustification: external reward → kill internal curiosity
       → Chunks: [học = tiền, không tiền = không học]
-      → Background Pattern: [giá trị hành vi = tiền thưởng]
+      → Background-Pattern: [giá trị hành vi = tiền thưởng]
       → RÚT thưởng → motivation collapse
 
     PHẠT TIỀN CHO KÉM:
@@ -1336,14 +1336,14 @@ FILE NÀY TRẢ LỜI:
     → Status.md §0: resource access comparison = body-level
     → Imposed comparison (Type 3) → avoidance
     → Chunks: [giá trị tôi = ranking tiền so với peers]
-    → Background Pattern: [self-worth = net worth]
+    → Background-Pattern: [self-worth = net worth]
     → = Schema ④ từ §5.2: tiền = giá trị con người
 
   TẠI SAO ĐẶC BIỆT TOXIC:
     → Link Density CAO: lặp lại ở nhiều context (nhà, họ hàng, Tết)
     → Multi-source: bố + mẹ + ông bà + cô dì → confirm
     → Emotional peak: shame khi bị so sánh trước mặt khách
-    → = 3/4 kênh compile cùng fire → BP compile CỰC MẠNH
+    → = 3/4 kênh compile cùng fire → Background-Pattern compile CỰC MẠNH
 
   GIẢI PHÁP:
     → KHÔNG so sánh giàu/nghèo giữa các gia đình
@@ -1351,7 +1351,7 @@ FILE NÀY TRẢ LỜI:
     → "Bạn con TẬP LUYỆN nhiều → GIỎI" (effort = approach)
     → KHÔNG "Bạn con giàu → CON phải giỏi hơn" (pressure = avoidance)
 
-  🟡 Social comparison × BP = framework analysis
+  🟡 Social comparison × Background-Pattern = framework analysis
 ```
 
 ---
@@ -1461,7 +1461,7 @@ FILE NÀY TRẢ LỜI:
 
 ## §8 — CULTURAL CONSIDERATIONS
 
-### §8.1 — Asian Background Pattern: tiền = family tool
+### §8.1 — Asian Background-Pattern: tiền = family tool
 
 ```
 🟡 EAST ASIAN MONEY SCHEMAS (Takahashi et al. 2016):
@@ -1475,7 +1475,7 @@ FILE NÀY TRẢ LỜI:
 
   FRAMEWORK ANALYSIS:
 
-    Background Pattern CHÂU Á:
+    Background-Pattern CHÂU Á:
       → [Tiền = filial duty] — kiếm tiền = trách nhiệm với gia đình
       → [Tiền = chăm sóc] — cho tiền = thể hiện tình yêu
       → [Tiền = status gia đình] — con giỏi = nhà có mặt
@@ -1503,10 +1503,10 @@ FILE NÀY TRẢ LỜI:
     → = Navigate per practice, không reject per culture
 
   🟢 Takahashi et al. 2016: East Asian money as cultural tool
-  🟡 Cultural BP × framework = analysis, not judgment
+  🟡 Cultural Background-Pattern × framework = analysis, not judgment
 ```
 
-### §8.2 — Western Background Pattern: tiền = individual independence
+### §8.2 — Western Background-Pattern: tiền = individual independence
 
 ```
 🟡 WESTERN MONEY SCHEMAS:
@@ -1519,7 +1519,7 @@ FILE NÀY TRẢ LỜI:
 
   FRAMEWORK ANALYSIS:
 
-    Background Pattern WESTERN:
+    Background-Pattern WESTERN:
       → [Tiền = independence] — kiếm tiền = tự do khỏi gia đình
       → [Tiền = personal achievement] — net worth = self-worth (risk)
       → [Tiền = privacy] — "không nói lương" = boundary
@@ -1539,7 +1539,7 @@ FILE NÀY TRẢ LỜI:
       → = Socioeconomic gap > education quality → structural issue
 
   🟢 OECD PISA 2022: financial literacy assessment
-  🟡 Western BP × framework = analysis
+  🟡 Western Background-Pattern × framework = analysis
 ```
 
 ### §8.3 — Cross-cultural principle: direction universally matters
@@ -1624,7 +1624,7 @@ FILE NÀY TRẢ LỜI:
 
   → Compile chunks qua 4+1 channels
   → Tag approach/avoidance qua direction
-  → Background Pattern invisible qua Link Density
+  → Background-Pattern invisible qua Link Density
   → Overjustification khi external kill internal
   → Threshold adapt khi reward habituate
   → L2 bonds bị phá khi monetize
@@ -1722,7 +1722,7 @@ FILE NÀY TRẢ LỜI:
   │ Section                      │ Level    │ Notes                        │
   ├──────────────────────────────┼──────────┼──────────────────────────────┤
   │ §1 Why important            │ 🟢→🟡   │ Research: 🟢 (age 7, CFPB).  │
-  │                              │          │ BP mechanism: 🟡 framework   │
+  │                              │          │ Background-Pattern mechanism: 🟡 framework   │
   ├──────────────────────────────┼──────────┼──────────────────────────────┤
   │ §2 Why current fails        │ 🟢→🟡   │ K-B gap: 🟢 (Mandell 2008).  │
   │                              │          │ PFC vs body: 🟡 framework    │
@@ -1768,9 +1768,9 @@ FILE NÀY TRẢ LỜI:
   │   │ Multi-modal richness khác?                │          │      │
   ├───┼──────────────────────────────────────────┼──────────┼──────┤
   │ 5 │ Critical period window: 0-7 fixed?         │ Cao      │ 🟡   │
-  │   │ Or can later experience override BP?      │          │      │
+  │   │ Or can later experience override Background-Pattern?      │          │      │
   ├───┼──────────────────────────────────────────┼──────────┼──────┤
-  │ 6 │ Cross-generational BP transmission:       │ Cao      │ 🟡   │
+  │ 6 │ Cross-generational Background-Pattern transmission:       │ Cao      │ 🟡   │
   │   │ can 1 generation break pattern?           │          │      │
   ├───┼──────────────────────────────────────────┼──────────┼──────┤
   │ 7 │ AI-assisted money education: what works?   │ TB       │ 🔴   │
@@ -1808,7 +1808,7 @@ MECHANISM FILES
 → Background-Pattern.md v1.0 — INVISIBLE BIAS
   2D model Depth×Density (§2), sleep accelerator (§4),
   PFC invisible (§5), resolution pathways (§10).
-  Kết nối: §1.1 (money schemas = Background Pattern).
+  Kết nối: §1.1 (money schemas = Background-Pattern).
 
 → Reward-Calibration.md v1.1 — GOLDILOCKS + OVER-REWARD
   Goldilocks per-gap (§1), premature compilation (§3.4),
@@ -1820,7 +1820,7 @@ MECHANISM FILES
   §4 6-type spectrum, §8 parenting calibration.
   Kết nối: §6.1 (guilt-trip = Type 5 identity obligation).
 
-→ Reward-Signal-Architecture.md v1.0 — TYPE A/B
+→ Reward-Signal-Architecture.md v1.0 — EVALUATIVE/DIRECT-STATE
   Overjustification mechanism at signal level.
   Kết nối: §2.2, §3.5 (overjustification).
 
@@ -1876,7 +1876,7 @@ COMPANION
 ---
 
 > *Money-Education v1.0 — Observation File.*
-> *Money schemas compile by age 7 (Whitebread 2013) = Background Pattern invisible.*
+> *Money schemas compile by age 7 (Whitebread 2013) = Background-Pattern invisible.*
 > *Knowledge ≠ behavior (Mandell 2008) = PFC ≠ body compilation.*
 > *6 nguyên lý: Experience > Lecture, Approach LUÔN, Goldilocks,*
 > *Natural consequences, Không monetize internal drive, Teach proxy nature.*

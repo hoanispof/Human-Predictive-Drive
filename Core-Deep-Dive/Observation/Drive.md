@@ -1,9 +1,10 @@
 ---
 title: Drive — Observation Parameter (Integration)
-version: 1.1
+version: 1.2
 created: 2026-04-20
 updated: 2026-05-17
-status: OBSERVATION PARAMETER v1.1
+refined: 2026-05-23 (v1.2 — Concept Cascade: +Simulation-Engine, +Entity-Access, +Satiation types. Updated versions + cross-refs)
+status: OBSERVATION PARAMETER v1.2
 scope: |
   INTEGRATION FILE: Drive = tên gọi cho energy + direction emergent từ
   chunk dynamics + body-feedback. File này KHÔNG thêm mechanism mới —
@@ -11,10 +12,10 @@ scope: |
   để giải thích: "Tại sao hành động NÀY tại thời điểm NÀY?"
   PFC participation spectrum, drive conflict, signal strength model.
   v1.1 KEY CHANGES:
-    ⑪ +Architecture B: drive = emergent từ general-purpose reward system
-    ⑫ +Compiled/Fresh (F1/F2): compiled drive (Mode 1-2) vs fresh drive (Mode 3-6)
+    ⑪ +Compilable Architecture: drive = emergent từ general-purpose reward system
+    ⑫ +Compiled/Fresh: compiled drive (Mode 1-2) vs fresh drive (Mode 3-6)
     ⑬ +Domain=Arbiter: drive direction CAN BE WRONG
-    ⑭ Version refs synced (VP v2.0, BFM v2.0, Feeling v3.0)
+    ⑭ Version refs synced (Valence-Propagation v2.0, Body-Feedback-Mechanism v2.0, Feeling v3.0)
     ⑮ +Cross-refs: Inter-Body-Mechanism.md v1.0, Body-Feedback-Label.md v2.0
 purpose: |
   Novelty.md + Threat.md = mechanism RIÊNG LẺ.
@@ -32,8 +33,11 @@ dependencies:
   - Feeling.md v3.0 — PFC observation interface
   - Imagine-Final-Evaluation.md — 2 trục × 4 góc
   - Anchor-Schema.md — Trust binding, sync point
-  - Inter-Body-Mechanism.md v1.0 — Architecture B, Compiled/Fresh, Domain=Arbiter
+  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, Compiled/Fresh, Domain=Arbiter
   - Body-Feedback-Label.md v2.0 — vocabulary reference
+  - PFC/Simulation-Engine.md v1.0 — drive prediction uses simulation engine
+  - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — drive directed at entities along gradient
+  - Body-Feedback/Gap-Body-Need.md v1.0 — different drives have different satiation profiles
 sources_backup: |
   Rewrite từ: Drive.md v1.1 (2,733L)
   Backup: _backup/Drive-v75-era/
@@ -95,14 +99,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ○ Emergent — action = OUTPUT, không phải INPUT
 
 
-⭐ ARCHITECTURE B → DRIVE EMERGENT (Inter-Body-Mechanism.md §1.2):
+⭐ COMPILABLE ARCHITECTURE → DRIVE EMERGENT (Inter-Body-Mechanism.md §1.2):
 
-  ARCHITECTURE A (côn trùng, động vật đơn giản):
+  HARDWIRED ARCHITECTURE (côn trùng, động vật đơn giản):
     Hardwired circuits: food→eat, predator→flee, mate→approach.
     Không cần "drive" — stimulus→response CỐ ĐỊNH.
     Không có PFC → không có deliberation → không có conflict.
 
-  ARCHITECTURE B (humans):
+  COMPILABLE ARCHITECTURE (humans):
     Hardwired: CHỈ reward MECHANISM + compilation + social + PFC.
     Content: LEARN from environment → compile → body-need.
     → KHÔNG CÓ "drive module" hardwired cho specific behaviors.
@@ -110,11 +114,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       body-need aggregate + chunk dynamics + prediction + PFC orchestration
       → energy + direction xuất hiện → = "drive"
 
-  → Drive là TÊN GỌI cho energy+direction emergent từ Architecture B.
-  → Architecture A KHÔNG CẦN khái niệm "drive" (stimulus→response đủ).
-  → Architecture B CẦN khái niệm "drive" vì output KHÔNG predetermined.
+  → Drive là TÊN GỌI cho energy+direction emergent từ Compilable Architecture.
+  → Hardwired Architecture KHÔNG CẦN khái niệm "drive" (stimulus→response đủ).
+  → Compilable Architecture CẦN khái niệm "drive" vì output KHÔNG predetermined.
 
-  🟡 Architecture A/B = framework synthesis (Inter-Body-Mechanism.md §1.2).
+  🟡 Hardwired/Compilable Architecture = framework synthesis (Inter-Body-Mechanism.md §1.2).
      Underlying neuroscience (general-purpose reward, Hebbian) = 🟢.
 
 
@@ -222,21 +226,21 @@ VỊ TRÍ FILE NÀY:
 
     Vô thức vs PFC THỰC CHẤT là COMPILED vs FRESH spectrum:
 
-    COMPILED DRIVE (F1 — automatic, cost ≈ 0):
+    COMPILED DRIVE (Compiled — automatic, cost ≈ 0):
       → Chunks đã compile → body-feedback direct → action EMERGE
       → Vô thức auto → Mode 1-2 (§2)
       → Ví dụ: lái xe đường quen (compiled route chunks fire → auto)
       → Ví dụ: chef thấy nguyên liệu → "biết ngay" cần làm gì
       → = Phần lớn cuộc sống (~70-80%) = compiled drive
 
-    FRESH DRIVE (F2 — PFC draft, cost > 0):
+    FRESH DRIVE (Fresh — PFC draft, cost > 0):
       → Tình huống MỚI / mâu thuẫn → chunks không match → PFC phải draft
       → PFC deliberate → Mode 3-6 (§2)
       → Ví dụ: ngày đầu đi làm → mọi thứ mới → PFC liên tục draft
       → Ví dụ: conflict giữa novelty vs threat → PFC arbitrate
       → = Tình huống mới + khó = fresh drive territory
 
-    TRANSITION F2→F1 (Learning):
+    TRANSITION Fresh→Compiled (Learning):
       → Fresh drive lặp lại + resolve → chunks compile → compiled drive
       → = "Ngày đầu đi làm" (fresh) → "tháng thứ 6" (compiled)
       → Kahneman System 1 (compiled) / System 2 (fresh) tương đương
@@ -611,6 +615,29 @@ RESOLUTION RULES — 5 rules theo thứ tự
     └────────────────┴────────────────┴────────────────┘
 
 
+DRIVE × NEW CONCEPTS (28-session Drill Propagation):
+
+  SIMULATION ENGINE (Simulation-Engine.md v1.0):
+    → Drive PREDICTION uses Simulation Engine: PFC simulate outcome → body evaluate
+    → "Muốn làm" = Simulation Engine draft → body REWARD → approach
+    → "Phải làm" = Simulation Engine draft → body THREAT → avoid hoặc endure
+
+  ENTITY-ACCESS GRADIENT (Entity-Access.md v1.2):
+    → Drives DIRECTED AT entities along Mức 0-5 gradient
+    → Drive toward Mức 5 entity (con, self) = MẠNH HƠN Mức 1 (acquaintance)
+    → Hardware Subsidy: body cung cấp baseline drive "miễn phí" per entity level
+    → = TẠI SAO drive bảo vệ con > drive bảo vệ đồng nghiệp
+
+  SATIATION TYPES (Gap-Body-Need.md v1.0):
+    → Different drives have DIFFERENT satiation profiles:
+      ENGINE satiation: cơ chế tạo drive mệt (dopamine downregulation)
+      ROAD satiation: path fill quen → cần path mới
+      VEHICLE satiation: entity cụ thể bão hòa
+    → PULL drives: thường ROAD/VEHICLE satiation (novelty → bored path, not engine)
+    → PUSH drives: ENGINE satiation khó xảy ra (threat = survival → body KHÔNG cho mệt)
+    → = Explains tại sao threat-drive KHÓ TỰ DỪNG (§4 below)
+
+
 ⭐ THREAT-DRIVE DOMINANCE TRONG MODERN LIFE:
 
   Hầu hết hoạt động hiện đại bị threat-drive HIJACK:
@@ -684,8 +711,8 @@ RESOLUTION RULES — 5 rules theo thứ tự
     │ Modern threat-drive dominance                              │
     │ Conflict as growth opportunity                              │
     │ Push→Pull transition paradox                                │
-    │ Architecture B → drive emergent (v1.1)                     │
-    │ Compiled/Fresh drive (F1/F2) distinction (v1.1)            │
+    │ Compilable Architecture → drive emergent (v1.1)                     │
+    │ Compiled/Fresh drive (Compiled/Fresh) distinction (v1.1)            │
     │ Domain=Arbiter — drive direction can be wrong (v1.1)       │
     └────────────────────────────────────────────────────────────┘
 
@@ -707,23 +734,27 @@ RESOLUTION RULES — 5 rules theo thứ tự
   ← FOUNDATION (đọc trước):
     Core-v7.8-Draft.md §1 — cycle architecture
     Core-v7.8-Draft.md §8 — ALL observation parameters
-    Observation/Novelty.md v1.0 — PULL mechanism deep-dive
-    Observation/Threat.md v1.0 — PUSH mechanism deep-dive
-    Inter-Body-Mechanism.md v1.0 §1.2 — Architecture B (general-purpose → drive emergent)
-    Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh (F1/F2 processing axis)
+    Observation/Novelty.md v1.2 — PULL mechanism deep-dive
+    Observation/Threat.md v1.2 — PUSH mechanism deep-dive
+    Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture (general-purpose → drive emergent)
+    Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh (Compiled/Fresh processing axis)
     Inter-Body-Mechanism.md v1.0 §7 — PFC=Lawyer (Domain=Arbiter correction)
     PFC-Configuration.md v1.0 — §2 participation modes ORTHOGONAL with config (2026-05-10)
 
   ← MECHANISM (đọc trước hoặc cùng):
     Body-Feedback-Mechanism.md v2.0 — chunk dynamics → body-feedback
-    Chunk.md v2.0 — chunk substrate
-    Valence-Propagation.md v2.0 — body evaluation, chain propagation
+    Chunk.md v2.3 — chunk substrate
+    Valence-Propagation.md v3.0 — structural/current valence, 3 firing modes
     Feeling.md v3.0 — PFC observation interface
     Cortisol-Baseline.md v2.0 — amplifier dynamics
     Body-Feedback-Label.md v2.0 — vocabulary reference
+    Simulation-Engine.md v1.0 — drive prediction uses simulation
+    Entity-Access.md v1.2 — drive directed at entities along gradient
+    Gap-Body-Need.md v1.0 — satiation types per drive
 
   ↔ SONG SONG (cùng Observation/ folder):
-    Observation/Empathy.md v3.0 — SPM function → detect drives in others
+    Observation/Empathy.md v4.0 — Self-Pattern-Modeling function → detect drives in others
+    Observation/Boredom.md v2.0 — khi drive THIẾU target (by-product match dừng)
     Observation/Liking-Wanting.md — wanting overlap drive mechanism
     Observation/AI-Schema-Detection.md — detect drive patterns
     Schema.md v2.0 — schema = observation parameter for chunk patterns
@@ -738,7 +769,8 @@ RESOLUTION RULES — 5 rules theo thứ tự
 
   STATUS:
     v1.0 — 2026-04-20 — viết mới cho v7.8 cycle-based architecture
-    v1.1 — 2026-05-17 — +Architecture B, +Compiled/Fresh, +Domain=Arbiter, version sync
+    v1.1 — 2026-05-17 — +Compilable Architecture, +Compiled/Fresh, +Domain=Arbiter, version sync
+    v1.2 — 2026-05-23 — Concept Cascade: +Simulation-Engine, +Entity-Access gradient, +Satiation types, version updates
     Rewrite từ: Drive.md v1.1-old (backup: _backup/Drive-v75-era/)
     Aligned: Core v7.8, Inter-Body-Mechanism v1.0, signal strength model
 ```

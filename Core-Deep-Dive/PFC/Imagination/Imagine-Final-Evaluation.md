@@ -810,13 +810,13 @@ CÁCH CHECK DOMAIN FIT — TỔNG HỢP
   NHƯNG: output KHÁC nhau RÕ khi capacity ✓/✗ kết hợp compatibility ✓/✗:
 
     Capacity ✓ + Compatibility ✓ = TỐI ƯU
-      → Đi được + tới rồi sướng → full hardware fit
+      → Đi được + tới rồi pleasant → full hardware fit
     Capacity ✓ + Compatibility ✗ = "GIỎI NHƯNG GHÉT"
       → Làm được nhưng body-base không harmony → trống rỗng
     Capacity ✗ + Compatibility ✓ = "MUỐN NHƯNG KHÔNG ĐƯỢC"
       → Body muốn tới nhưng đi không được → frustrated
     Capacity ✗ + Compatibility ✗ = RÕ RÀNG KHÔNG PHÙ HỢP
-      → Không đi được + tới cũng không sướng → bỏ sớm (tốt)
+      → Không đi được + tới cũng không pleasant → bỏ sớm (tốt)
 
 
 2 SUB-DIMENSIONS TRONG CẤU TRÚC TỔNG THỂ:
@@ -1122,7 +1122,7 @@ CAPACITY — TỔNG KẾT
     → Nhiều người CHECK capacity kỹ (plan, resource, timeline)
       nhưng QUÊN check compatibility (body-base có muốn state đó không?)
     → = Tại sao "thành công mà trống rỗng" xảy ra:
-      capacity ✓ (đi được) + compatibility ✗ (tới rồi không sướng)
+      capacity ✓ (đi được) + compatibility ✗ (tới rồi không pleasant)
 
 
 ── 2B-i. MODALITY MATCH ──
@@ -1352,7 +1352,7 @@ TRỤC 2 TỔNG KẾT — HARDWARE FIT = CAPACITY + COMPATIBILITY
 
   Hardware Fit = "CON NGƯỜI NÀY + IMAGINE-FINAL NÀY = HỢP KHÔNG?"
 
-  CAPACITY (đi được?) + COMPATIBILITY (tới rồi sướng?)
+  CAPACITY (đi được?) + COMPATIBILITY (tới rồi pleasant?)
   = 2 mặt CÙNG đồng xu
 
   NHƯNG thứ tự CHECK khác nhau tùy context:
@@ -1488,7 +1488,7 @@ Domain Fit ✓ + Hardware Fit ✗
 ═══════════════════════════════════════════════════════
 
   = Imagine-Final map domain thật
-    + NHƯNG: hardware không đi được HOẶC tới rồi không sướng
+    + NHƯNG: hardware không đi được HOẶC tới rồi không pleasant
 
   ⚠️ ĐÂY LÀ GÓC PHỔ BIẾN NHẤT — vì domain CÓ THẬT nên TRÔNG HỢP LÝ
 
@@ -2178,7 +2178,7 @@ TỔNG KẾT: THREAT DRIVE CẦN HAY KHÔNG?
       → Delusion: tăng (MXH + meritocracy myth + confirmation bias tools)
       → Lost: tăng (nhiều choices + ít guidance = overwhelm)
     → = Paradox: threat TINH VI hơn + Imagine-Final KHÓ TÌM hơn
-      = "sướng ít khổ nhiều" — dù an toàn vật lý nhất lịch sử
+      = "pleasant ít khổ nhiều" — dù an toàn vật lý nhất lịch sử
 
   🟡 "Threat output = f(Imagine-Final quality)" = framework core insight
   🟡 Lịch sử × 4 góc = framework interpretation of historical data

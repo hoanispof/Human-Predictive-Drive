@@ -28,8 +28,8 @@ dependencies:
   - PFC-Function.md — PFC core job = smooth melody
   - Imagine-Final.md — compass mechanism, 14 ngưỡng
   - Anchor-Schema.md — trust binding, sync point
-  - Agent.md — SPM mechanism, Resonance
-  - Empathy.md — SPM function applied to other agents
+  - Agent.md — Self-Pattern-Modeling mechanism, Resonance
+  - Empathy.md — Self-Pattern-Modeling function applied to other agents
   - Why-Body-Knows.md — body accuracy (~90%)
   - Novelty.md — positive prediction-delta
   - Observation/Drive.md — energy+direction integration
@@ -347,12 +347,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → VD: comfort zone = body smooth → domain ĐỨNG YÊN
 
     Domain: trả feedback THẬT (survive hay không)
-      → Luôn ĐÚNG → nhưng không luôn "sướng"
+      → Luôn ĐÚNG → nhưng không luôn "pleasant"
       → VD: học cái khó = body dissonance → domain THƯỞNG sau (skill mới)
       → VD: dậy sớm tập = body resistance → domain THƯỞNG (sức khỏe)
 
     TỐI ƯU = CẢ HAI CÙNG LÚC:
-      → CHỈ body-base: sướng nhưng có thể sai domain → không bền
+      → CHỈ body-base: pleasant nhưng có thể sai domain → không bền
       → CHỈ domain: đúng nhưng body khổ → burnout (cortisol amplify kéo dài)
       → CẢ HAI: smooth trên hardware + đúng domain = BỀN VỮNG + reward
 
@@ -412,7 +412,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → = "Hay" là TƯƠNG ĐỐI — theo hardware profile CỦA MÌNH
 
     ② Map domain CHÍNH XÁC:
-       → Chunks phản ánh thực tế ĐÚNG (không phải ảo tưởng sướng)
+       → Chunks phản ánh thực tế ĐÚNG (không phải ảo tưởng pleasant)
        → Domain luôn trả feedback THẬT: survive được hay không
        → = Melody "hay" phải MAP ĐƯỢC vào thế giới thật
        → VD: "tin mình giàu" mà thật ra nợ = melody smooth nhưng KHÔNG hay
@@ -522,7 +522,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CÁCH TÌM COMPASS ĐÚNG:
     → Body-listening: khi nào reward thật? khi nào satisfaction? → ĐÓ là hướng
     → EXPOSE: Imagine-Final CẦN external trigger → không thấy = không imagine
-    → Self-Pattern-Match (Agent.md): simulate future self → body pre-feel
+    → Self-Pattern-Modeling (Agent.md): simulate future self → body pre-feel
     → = "Thử" bằng imagination → body vote → refine direction
 
   → Khi compass COMMITTED → Anchor-Schema (Anchor-Schema.md):
@@ -655,7 +655,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ④ ĐỦ + SHARE (build cho người khác):
        → Melody hay đủ cho mình → Imagine-Final SHIFT: "cho người"
        → Connection drive dominant → dạy, mentor, cộng đồng
-       → SPM fire OUTWARD: help others build THEIR melody
+       → Self-Pattern-Modeling fire OUTWARD: help others build THEIR melody
        → = "Đã đủ cho mình → giờ SHARE"
 
     ⑤ HORIZON VÔ HẠN (Imagine-Final cực lớn):
@@ -679,10 +679,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §9 — PREDICT MELODY NGƯỜI KHÁC
 
 ```
-🟡 "Hiểu ai đó" = Self-Pattern-Match (SPM) applied to melody CỦA HỌ:
+🟡 "Hiểu ai đó" = Self-Pattern-Modeling (Self-Pattern-Modeling) applied to melody CỦA HỌ:
 
-  MECHANISM (Agent.md + Self-Pattern-Match.md):
-    → SPM = solo forward simulation:
+  MECHANISM (Agent.md + Self-Pattern-Modeling.md):
+    → Self-Pattern-Modeling = solo forward simulation:
       [1] Retrieve chunks từ SELF repertoire matching target cues
       [2] Template match: "nếu TÔI ở vị trí họ..."
       [3] Project template lên target
@@ -693,30 +693,30 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Brain dùng MÌNH làm template đoán NGƯỜI KHÁC
 
 
-  3 LỚP OVERLAP (quyết định SPM quality):
+  3 LỚP OVERLAP (quyết định Self-Pattern-Modeling quality):
 
     ① Species overlap (~70-90%):
        → Cùng loài → body-base hardware GẦN GIỐNG
        → "Đói = khó chịu" (ai cũng vậy) → predict dễ
-       → = "Đồng cảm cơ bản" — SPM accuracy cao vì template match hardware
+       → = "Đồng cảm cơ bản" — Self-Pattern-Modeling accuracy cao vì template match hardware
 
     ② Culture overlap (0-80%):
        → Shared environment → chunks compile TƯƠNG TỰ
        → Cùng VN: chunk [mất mặt] compiled → predict "đau" = ĐÚNG
-       → KHÁC culture: chunk THIẾU → SPM output = projection CỦA MÌNH
-       → = SPM quality phụ thuộc shared chunk library
+       → KHÁC culture: chunk THIẾU → Self-Pattern-Modeling output = projection CỦA MÌNH
+       → = Self-Pattern-Modeling quality phụ thuộc shared chunk library
 
     ③ Personal overlap (0-90%):
        → Thời gian × attention → chunks VỀ NGƯỜI ĐÓ compiled
        → 10 năm sống cùng → nhiều chunks → simulate CHI TIẾT
-       → = "Hiểu sâu" = SPM có many templates cho target cụ thể
+       → = "Hiểu sâu" = Self-Pattern-Modeling có many templates cho target cụ thể
 
 
-  RESONANCE — khi cả 2 bên SPM thành công (By-Product-Gap-Resonance.md):
-    → SPM = solo forward (mình đoán họ)
-    → Resonance = EMERGENT khi CẢ HAI bên SPM match thành công
+  RESONANCE — khi cả 2 bên Self-Pattern-Modeling thành công (By-Product-Gap-Resonance.md):
+    → Self-Pattern-Modeling = solo forward (mình đoán họ)
+    → Resonance = EMERGENT khi CẢ HAI bên Self-Pattern-Modeling match thành công
     → Retrospective only — không biết real-time, chỉ infer sau
-    → Serves as calibration feedback cho SPM library refinement
+    → Serves as calibration feedback cho Self-Pattern-Modeling library refinement
     → = "2 bài nhạc tình cờ HARMONIZE" — không ai điều khiển, tự xảy ra
 
 
@@ -729,21 +729,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → 🟢 Blind spot bias (Pronin 2002)
 
     Observer có thể thấy rõ hơn:
-      → SPM dùng THEIR chunks (khác template) → detect patterns subject bỏ lỡ
+      → Self-Pattern-Modeling dùng THEIR chunks (khác template) → detect patterns subject bỏ lỡ
       → Pattern lặp lại mà subject không thấy → observer THẤY
       → = Therapy / coaching / bạn thân = external melody observation
-      → NHƯNG: observer accuracy cũng limited bởi THEIR SPM quality
-        (Bird & Cook 2013: poor self-reading → poor SPM → poor observation)
+      → NHƯNG: observer accuracy cũng limited bởi THEIR Self-Pattern-Modeling quality
+        (Bird & Cook 2013: poor self-reading → poor Self-Pattern-Modeling → poor observation)
 
     → = "Bạn không thấy mặt mình nếu không có gương — nhưng gương cũng có thể méo"
 
 
-  "JUDGEMENTAL" = SPM thất bại + closure nhanh:
+  "JUDGEMENTAL" = Self-Pattern-Modeling thất bại + closure nhanh:
     → Gặp melody KHÁC → Chunk-Gap → VTA fire nhẹ (novelty)
     → 2 phản ứng:
-      ① Tò mò → tìm thêm chunks → build SPM template → hiểu SÂU dần
-      ② Label → "người kỳ lạ" → đóng gap bằng schema sẵn → SPM NÔNG mãi
-    → = "Phán xét = lười build SPM template" — áp melody MÌNH lên melody HỌ
+      ① Tò mò → tìm thêm chunks → build Self-Pattern-Modeling template → hiểu SÂU dần
+      ② Label → "người kỳ lạ" → đóng gap bằng schema sẵn → Self-Pattern-Modeling NÔNG mãi
+    → = "Phán xét = lười build Self-Pattern-Modeling template" — áp melody MÌNH lên melody HỌ
 ```
 
 ---
@@ -832,7 +832,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → "Investment cost": consistent với learning curve + insight literature
     → "Arc wave pattern": observable personally, chưa formalize
     → "5 profiles": framework classification — consistent với personality × aging
-    → "SPM = simulation-based prediction": consistent với Goldman simulation theory (2006)
+    → "Self-Pattern-Modeling = simulation-based prediction": consistent với Goldman simulation theory (2006)
     → "Resonance = emergent mutual": novel framing, consistent
     → "Difficulty vs mismatch": consistent với person-environment fit
     → "Approach/avoidance tag": framework concept — consistent với Pavlovian
@@ -882,12 +882,12 @@ OBSERVATION PARAMETER FILES:
   → Observation/Connection.md — multi-input aggregate + attachment
   → Observation/Status.md — self-assessment chunk patterns
   → Observation/Meaning.md — schema coherence at high density
-  → Observation/Empathy.md — SPM function applied to other agents
+  → Observation/Empathy.md — Self-Pattern-Modeling function applied to other agents
   → Observation/Liking-Wanting.md — opioid vs relief pathways
 
 AGENT FILES:
   → Agent/Agent.md — unified model, 3-concept split
-  → Agent/Self-Pattern-Match.md — solo forward simulation (6 steps)
+  → Agent/Self-Pattern-Modeling.md — solo forward simulation (6 steps)
   → Agent/By-Product-Gap-Resonance.md — emergent mutual phenomenon
 
 COMPASS + DIRECTION FILES:
@@ -914,9 +914,9 @@ HARDWARE:
 
 > *Personal Melody v2.0 — "Mỗi người = 1 bài nhạc đang tự chơi.
 > 'Melody' = tên gọi cho emergent state — chunk network running simultaneously.
-> 'Melody hay' ≠ sướng nhất. 'Melody hay' = smooth trên hardware CỦA MÌNH
+> 'Melody hay' ≠ pleasant nhất. 'Melody hay' = smooth trên hardware CỦA MÌNH
 > + map domain CHÍNH XÁC + cover RỘNG + chơi LÂU DÀI bền vững.
 > Body-base pull (smooth) vs Domain pull (adapt) = tension SUỐT ĐỜI.
 > Approach tag vs Avoidance tag = direction mỗi chunk compile.
-> SPM = cách ta dùng melody MÌNH đoán melody NGƯỜI KHÁC.
+> Self-Pattern-Modeling = cách ta dùng melody MÌNH đoán melody NGƯỜI KHÁC.
 > 'Đích đến' = trạng thái, per-person, đạt được + mất được + đạt lại được."*

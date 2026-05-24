@@ -18,7 +18,7 @@
 > **Phụ thuộc:** PFC-Hardware.md (DRD4 Disturbance Threshold),
 > Modality.md (modality dominant), Attention-Spectrum.md (DRD4 spectrum),
 > Body-Feedback-Mechanism.md v1.2 (Sensory-Driven pathway),
-> Agent-Mechanism.md v1.0 (SPM F1/F2), Cortisol-Baseline.md v2.0
+> Agent-Mechanism.md v1.0 (Self-Pattern-Modeling Compiled/Fresh), Cortisol-Baseline.md v2.0
 > **⚠️ Phân loại = hypothesis — cần validate thực nghiệm**
 > **⚠️ Rất khó đo lường hiện tại — file này = CƠ SỞ quan sát, không phải công cụ chẩn đoán**
 > **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
@@ -73,7 +73,7 @@
   │       ↓ neural signal                                        │
   │  ┌─── TẦNG 2: PROCESSING (não xử lý) ─────────────────┐    │
   │  │  Visual cortex, Auditory cortex, Somatosensory,       │    │
-  │  │  Limbic (emotion), SPM (Agent-Mechanism.md), VTA+PFC,  │    │
+  │  │  Limbic (emotion), Self-Pattern-Modeling (Agent-Mechanism.md), VTA+PFC,  │    │
   │  │  mPFC (social),...                                     │    │
   │  │                                                       │    │
   │  │  Chất lượng: DOMINANT / TRUNG BÌNH / YẾU              │    │
@@ -152,7 +152,7 @@
   │ Limbic + Insula    │ Process emotion   │ Xúc động dễ, feel sâu,  │
   │                    │ chi tiết + sâu    │ empathy strong             │
   ├────────────────────┼───────────────────┼──────────────────────────┤
-  │ SPM F1             │ Simulate trạng    │ "Feel" người khác đang   │
+  │ Self-Pattern-Modeling Compiled             │ Simulate trạng    │ "Feel" người khác đang   │
   │ (Agent-Mechanism)  │ thái người khác   │ gì, empathy (Empathy v2.0)│
   ├────────────────────┼───────────────────┼──────────────────────────┤
   │ VTA + PFC          │ Detect mismatch   │ Thấy mâu thuẫn, pattern │
@@ -209,14 +209,14 @@
 
   TẦNG 1 (SENSOR) = Body-Feedback-Mechanism v1.2 — SENSORY-DRIVEN pathway:
     → Sensor input = external stimulus → body-feedback TRỰC TIẾP
-    → = Type B input (Reward-Signal-Architecture v1.0): hardware-based, no PFC needed
-    → Sensor TỐT = Type B input QUALITY cao → body-feedback chính xác hơn
-    → Sensor KÉM = Type B input NOISE → body-feedback méo → calibration sai
+    → = Direct-State input (Reward-Signal-Architecture v1.0): hardware-based, no PFC needed
+    → Sensor TỐT = Direct-State input QUALITY cao → body-feedback chính xác hơn
+    → Sensor KÉM = Direct-State input NOISE → body-feedback méo → calibration sai
 
   TẦNG 2 (PROCESSING) = Core-Hardware.md — Zone B/C processing strength:
     → Processing dominant = cortical area nào DÀY hơn, kết nối MẠNH hơn
     → Modality.md: mỗi người có modality dominant → process SÂU ở channel đó
-    → SPM F1 dominant = social sensitivity CAO (Empathy v2.0)
+    → Self-Pattern-Modeling Compiled dominant = social sensitivity CAO (Empathy v2.0)
     → VTA+PFC dominant = pattern sensitivity CAO (DRD4 — PFC-Hardware.md)
 
   TẦNG 1 × TẦNG 2 = COMPOUND:
@@ -281,13 +281,13 @@ FRAMEWORK CONNECTIONS (updated 2026-05-11):
 → Cortisol-Baseline.md v2.0 (Body-Base/):
     Role ② AMPLIFIER — cortisol noise che signal → "nhạy vì cortisol" ≠ "nhạy vì hardware"
 → Body-Feedback-Mechanism.md v1.2 (Body-Base/Body-Feedback/):
-    Sensory-Driven pathway = tầng 1 sensor input → Type B body-feedback
+    Sensory-Driven pathway = tầng 1 sensor input → Direct-State body-feedback
     4 axes: Direction × Magnitude × Source × Chunk Dynamics
 → Reward-Signal-Architecture.md v1.0 (Body-Base/Body-Feedback/):
-    Sensor quality = Type B input quality → affect body-feedback precision
+    Sensor quality = Direct-State input quality → affect body-feedback precision
 → Agent-Mechanism.md v1.0 (Body-Base/Chunk/Agent-Mechanism/):
-    SPM F1 = simulate trạng thái người khác — thay "mirror neurons" (v7.8 reframe)
-→ Empathy.md v2.0 (Observation/): SPM F1 fire on agent = empathy observation
+    Self-Pattern-Modeling Compiled = simulate trạng thái người khác — thay "mirror neurons" (v7.8 reframe)
+→ Empathy.md v2.0 (Observation/): Self-Pattern-Modeling Compiled fire on agent = empathy observation
 → Connection.md v3.1 (Observation/): melody calibration × social sensitivity
 → Observation/Boredom.md v1.0: sensory channels đói → sensor input cần
 → Personal-Melody.md (Body-Base/Melody Lens/): multi-modal sync

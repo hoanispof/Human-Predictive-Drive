@@ -354,7 +354,7 @@ File này KHÔNG mô tả:
     → Critical periods: some hardware windows close
       (phoneme discrimination ~7-10yr, attachment style ~1-3yr)
 
-  CHI TIẾT MECHANISM: Core-Software.md §4.1 (compile rate, 3 Loại A/B/C)
+  CHI TIẾT MECHANISM: Core-Software.md §4.1 (compile rate, 3 Compile Types)
 ```
 
 ---

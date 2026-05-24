@@ -25,8 +25,8 @@ dependencies:
   - Core-Software.md v1.0 — cycle-based architecture
   - Child-Development-Mechanism.md v1.0 — developmental timeline
   - Cortisol-Baseline.md v2.0 — amplifier reframe
-  - Reward-Signal-Architecture.md v1.0 — Type A/B reward
-  - Agent-Mechanism.md v1.0 — SPM F1
+  - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State reward
+  - Agent-Mechanism.md v1.0 — Self-Pattern-Modeling Compiled
 previous: backup/v1.0/Era-Analysis-2025.md (569L, DRAFT, 2026-04-03, based on old "10 NL")
 changes_v2:
   - Re-base: "NL1-NL10" → Education-Mechanism v1.0 + DKM v1.0 specific refs
@@ -233,7 +233,7 @@ EMERGING (chưa rõ education impact):
     → Creativity: tạo cái MỚI THẬT SỰ (novel chunk combinations)
     → Judgment: quyết định trong uncertainty, ethics, trade-offs
     → Empathy: human connection, care, emotional support
-      (SPM F1 — Agent-Mechanism.md v1.0 — social processing = irreplaceable)
+      (Self-Pattern-Modeling Compiled — Agent-Mechanism.md v1.0 — social processing = irreplaceable)
     → Somatic skills: surgery, craft, physical care, sports, performance
       (Body-Base.md v2.0 — body = processing channel AI không có)
     → Leadership: lead humans through change, inspire, align
@@ -325,7 +325,7 @@ EMERGING (chưa rõ education impact):
 🟢 SOCIAL NEEDS = SAME:
 
   → Connection, belonging, purpose = human constants
-  → SPM F1 (Agent-Mechanism.md v1.0) = cần real human interaction data
+  → Self-Pattern-Modeling Compiled (Agent-Mechanism.md v1.0) = cần real human interaction data
   → AI KHÔNG thay thế human connection (fundamentally different)
   → Social learning, empathy, collaboration = VẪN CẦN dạy + practice
   → ⚠️ AI CÓ THỂ simulate connection (chatbots, AI friends)
@@ -699,11 +699,11 @@ TẦNG 1-2 — CORE + CHILD-DEV
 → Cortisol-Baseline.md v2.0 — Amplifier reframe
   File NÀY §5 ④: information overload = new cortisol source.
 
-→ Agent-Mechanism.md v1.0 — SPM F1
-  File NÀY §3: social needs = same, SPM = irreplaceable.
+→ Agent-Mechanism.md v1.0 — Self-Pattern-Modeling Compiled
+  File NÀY §3: social needs = same, Self-Pattern-Modeling = irreplaceable.
 
-→ Reward-Signal-Architecture.md v1.0 — Type A/B
-  Assessment challenge: AI answer = surface → miss Type A depth signal.
+→ Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State
+  Assessment challenge: AI answer = surface → miss Evaluative depth signal.
 
 
 ═══════════════════════════════════════════════════════

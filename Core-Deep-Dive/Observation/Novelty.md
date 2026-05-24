@@ -1,19 +1,20 @@
 ---
 title: Novelty — Observation Parameter
-version: 1.1
+version: 1.2
 created: 2026-04-20
 updated: 2026-05-17
-status: OBSERVATION PARAMETER v1.1
+refined: 2026-05-23 (v1.2 — Concept Cascade: +Simulation-Engine, +Satiation types, +PFC Budget. Updated versions + cross-refs)
+status: OBSERVATION PARAMETER v1.2
 scope: |
   OBSERVATION FILE: Novelty = named pattern khi quan sát chunk dynamics.
   Novelty không phải component hay operator — là TÊN GỌI cho patterns
   emergent từ VTA detect positive prediction-delta + chunk-gap dynamics.
   File này mô tả: mechanism, 2 dạng, phanh, loop, depth/breadth, ứng dụng.
   v1.1 KEY CHANGES:
-    ⑪ +Architecture B: novelty = general-purpose system detect UNCOMPILED input
+    ⑪ +Compilable Architecture: novelty = general-purpose system detect UNCOMPILED input
     ⑫ +Compiled/Fresh: novel = BY DEFINITION fresh (not yet compiled)
     ⑬ +2-tầng calibration: what counts as "novel" = per-individual
-    ⑭ Version refs synced (VP v2.0, BFM v2.0, Feeling v3.0)
+    ⑭ Version refs synced (Valence-Propagation v2.0, Body-Feedback-Mechanism v2.0, Feeling v3.0)
     ⑮ +Cross-refs: Inter-Body-Mechanism.md v1.0, Body-Feedback-Label.md v2.0
 purpose: |
   Core v7.8 §8 define Novelty ngắn gọn ("Positive prediction-delta pattern").
@@ -32,8 +33,11 @@ dependencies:
   - Modality.md v1.0 — encoding channels, depth = modality count
   - Feeling.md v3.0 — PFC observation interface
   - Somatic-Articulation-Loop.md — implicit >> explicit, felt sense
-  - Inter-Body-Mechanism.md v1.0 — Architecture B, Compiled/Fresh
+  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, Compiled/Fresh
   - Body-Feedback-Label.md v2.0 — vocabulary reference
+  - PFC/Simulation-Engine.md v1.0 — novelty = prediction mismatch in simulation
+  - Body-Feedback/Gap-Body-Need.md v1.0 — novelty satiation dynamics
+  - PFC/PFC-Label.md v1.0 — vocabulary, PFC budget limit on novelty seeking
 sources_backup: |
   Gộp + rewrite từ: Novelty.md v1.0 (1,225L) + Novelty-Loop.md (1,060L)
   Backup: _backup/Drive-v75-era/
@@ -109,24 +113,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       hoặc compile chunks mới (combinatorial space)
 
 
-⭐ ARCHITECTURE B → NOVELTY CẦN THIẾT (Inter-Body-Mechanism.md §1.2):
+⭐ COMPILABLE ARCHITECTURE → NOVELTY CẦN THIẾT (Inter-Body-Mechanism.md §1.2):
 
-  ARCHITECTURE A (côn trùng, động vật đơn giản):
+  HARDWIRED ARCHITECTURE (côn trùng, động vật đơn giản):
     Stimulus→Response HARDWIRED. Không cần "detect mới" — MỌI response CỐ ĐỊNH.
     Con ong: hoa→bay tới. Không có "tò mò" — chỉ có circuit.
     → KHÔNG CÓ "Novelty" vì KHÔNG CÓ prediction → không có delta.
 
-  ARCHITECTURE B (humans):
+  COMPILABLE ARCHITECTURE (humans):
     General-purpose reward system: LEARN content from environment.
     Content KHÔNG hardwired → phải DETECT: "input nào CHƯA compile?"
     → VTA = detector cho "UNCOMPILED INPUT" trong general-purpose system.
     → Novelty = signal "có input CHƯA TRONG BASELINE — attend + process."
-    → = Architecture B's MECHANISM để liên tục UPDATE world model.
+    → = Compilable Architecture's MECHANISM để liên tục UPDATE world model.
 
   → Novelty = ARCHITECTURE REQUIREMENT cho general-purpose learning.
-  → Không có novelty detection → Architecture B không update → chết.
+  → Không có novelty detection → Compilable Architecture không update → chết.
 
-  🟡 Architecture B framing = framework synthesis (Inter-Body-Mechanism.md §1.2).
+  🟡 Compilable Architecture framing = framework synthesis (Inter-Body-Mechanism.md §1.2).
 
 
 NOVELTY TRONG CYCLE (Core v7.8 §1):
@@ -205,8 +209,8 @@ GIÁ TRỊ CỦA FILE NÀY:
   ⭐ NOVELTY = BY DEFINITION FRESH (Inter-Body-Mechanism.md §3):
 
     Compiled/Fresh = trục thật của processing:
-      F1 Compiled = automatic, body-feedback direct, cost ≈ 0
-      F2 Fresh = PFC draft, deliberate, cost > 0
+      Compiled = automatic, body-feedback direct, cost ≈ 0
+      Fresh = PFC draft, deliberate, cost > 0
 
     → Novelty signal = "input NÀY chưa compiled" = BY DEFINITION fresh.
     → VTA fire = signal "SWITCH TO FRESH PROCESSING MODE."
@@ -214,7 +218,7 @@ GIÁ TRỊ CỦA FILE NÀY:
 
     Khi pattern compile xong:
       → VTA habituate → delta = 0 → novelty signal TẮT.
-      → Processing chuyển F2→F1 (fresh→compiled).
+      → Processing chuyển Fresh→Compiled (fresh→compiled).
       → = "Hết mới" = "đã compile" = cùng 1 sự kiện nhìn từ 2 góc.
 
     Hệ quả:
@@ -329,6 +333,33 @@ GIÁ TRỊ CỦA FILE NÀY:
   🟢 Chunk hierarchy + meta-chunks = expertise research (Chase & Simon 1973)
   🟡 "Tò mò = mechanism output" = framework reframe (vs trait theory)
   🟡 2-tầng calibration = framework synthesis
+
+
+§1.5 — NOVELTY × NEW CONCEPTS (28-session Drill Propagation)
+
+  SIMULATION ENGINE (Simulation-Engine.md v1.0):
+    → Novelty = prediction MISMATCH detected in Simulation Engine output
+    → PFC simulate expected pattern → body compare actual → delta → novelty
+    → Imagination-driven novelty (§2) = Simulation Engine draft WITHOUT external input
+    → = Simulation Engine = machinery that GENERATES prediction for VTA to compare
+
+  NOVELTY SATIATION (Gap-Body-Need.md v1.0):
+    → Novelty drive có 3 satiation patterns:
+      ENGINE: VTA receptor downregulation (dopamine tolerance) — hiếm ở novelty tự nhiên
+      ROAD: cùng loại novelty quen → cần loại MỚI (VD: MXH feed lặp lại)
+      VEHICLE: entity cụ thể hết novelty (VD: game mới → quen → bored)
+    → MXH exploit ROAD satiation: đổi content liên tục → engine KHÔNG BAO GIỜ tắt
+    → Expert: ROAD satiation ÍT hơn (combinatorial space lớn → paths luôn mới)
+
+  PFC BUDGET (PFC-Label.md v1.0, Gap-Distribution-Profile.md v1.1):
+    → Novelty seeking LIMITED BY PFC budget: processing fresh input = costly
+    → PFC budget = finite per-day (metabolic, cortisol, sleep)
+    → Quá nhiều novelty → PFC budget exhausted → shutdown → "overwhelmed"
+    → = Tại sao novelty CŨNG CẦN phanh — không chỉ threat (§3 below)
+
+  🟡 Simulation Engine × novelty = framework formalization
+  🟡 3 satiation types × novelty = framework application
+  🟡 PFC budget limit on novelty = framework inference
 ```
 
 ---
@@ -902,7 +933,7 @@ TÓM TẮT:
     │ 4 mức depth (pure → self-created threat)                   │
     │ 4 hại categories (scatter/burnout/drift/exploit)           │
     │ "Tò mò" = mechanism output (not fixed trait)               │
-    │ Architecture B → novelty = detect uncompiled input (v1.1)  │
+    │ Compilable Architecture → novelty = detect uncompiled input (v1.1)  │
     │ Novelty = by definition fresh processing (v1.1)            │
     │ 2-tầng calibration: "mới" = per-individual (v1.1)          │
     └────────────────────────────────────────────────────────────┘
@@ -926,16 +957,20 @@ TÓM TẮT:
     Core-v7.8-Draft.md §8 — Novelty = observation parameter definition
     Body-Feedback-Mechanism.md v2.0 §3.3 — Chunk-Gap = Novelty foundation
     Body-Feedback-Mechanism.md v2.0 §2 — 2 nguồn (Sensory/Pattern-Driven)
-    Chunk.md v2.0 — chunk substrate, compilation, hierarchy
+    Chunk.md v2.3 — chunk substrate, compilation, hierarchy
     Cortisol-Baseline.md v2.0 — cortisol = amplifier, sustained dynamics
-    Reward-Signal-Architecture.md v1.0 — prediction-delta refined: Profile ②⑤ (2026-05-10)
-    Inter-Body-Mechanism.md v1.0 §1.2 — Architecture B (novelty = detect uncompiled)
+    Valence-Propagation.md v3.0 — body evaluation, 3 firing modes
+    Reward-Signal-Architecture.md v1.0 — prediction-delta refined
+    Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture (novelty = detect uncompiled)
     Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh (novelty = fresh by definition)
+    Simulation-Engine.md v1.0 — novelty = prediction mismatch in simulation
+    Gap-Body-Need.md v1.0 — novelty satiation dynamics (3 types)
+    Gap-Distribution-Profile.md v1.1 — PFC budget limits novelty seeking
 
   ↔ SONG SONG (cùng Observation/ folder):
-    Observation/Threat.md — PUSH away from harm (parallel với Novelty PULL)
-    Observation/Drive.md — HOW Novelty + Threat + other patterns → action
-    Observation/Empathy.md v3.0 — SPM function on chunks
+    Observation/Threat.md v1.2 — PUSH away from harm (parallel với Novelty PULL)
+    Observation/Drive.md v1.2 — HOW Novelty + Threat + other patterns → action
+    Observation/Empathy.md v4.0 — Self-Pattern-Modeling function on chunks
     Observation/Liking-Wanting.md — Wanting overlap với Novelty (dopamine)
 
   → DOWNSTREAM (đọc sau):
@@ -951,7 +986,8 @@ TÓM TẮT:
 
   STATUS:
     v1.0 — 2026-04-20 — viết mới cho v7.8 cycle-based architecture
-    v1.1 — 2026-05-17 — +Architecture B, +Compiled/Fresh, +2-tầng, version sync
+    v1.1 — 2026-05-17 — +Compilable Architecture, +Compiled/Fresh, +2-tầng, version sync
+    v1.2 — 2026-05-23 — Concept Cascade: +Simulation-Engine, +Satiation types, +PFC Budget, version updates
     Gộp từ: Novelty.md v1.0-old + Novelty-Loop.md (backup: _backup/Drive-v75-era/)
     Aligned: Core v7.8, Inter-Body-Mechanism v1.0, prediction-delta terminology
 ```

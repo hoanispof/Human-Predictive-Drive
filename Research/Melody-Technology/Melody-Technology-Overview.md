@@ -23,12 +23,12 @@ position: |
   Research/Melody-Technology/ — OVERVIEW file cho folder.
   Đọc file này TRƯỚC khi đọc Religion.md v2.0 hoặc Idol-Phenomenon.md v2.0.
 dependencies:
-  - Religion.md v2.2 — 7 Functions × v7.8 mapping + RSA 5 Profiles
-  - Idol-Phenomenon.md v2.1 — 5 Drives × v7.8 mapping + RSA Type A/B
+  - Religion.md v2.2 — 7 Functions × v7.8 mapping + Reward-Signal-Architecture 5 Profiles
+  - Idol-Phenomenon.md v2.1 — 5 Drives × v7.8 mapping + Reward-Signal-Architecture Evaluative/Direct-State
   - Education-Mechanism.md — mechanism-focused education analysis
-  - Empathy-Education.md v2.0 — SPM-based empathy education
+  - Empathy-Education.md v2.0 — Self-Pattern-Modeling-based empathy education
   - Domain-Knowledge-Map.md — education domain mapping
-  - Compliance-Floor.md v2.0 — luật = bridge, SPM = intrinsic
+  - Compliance-Floor.md v2.0 — luật = bridge, Self-Pattern-Modeling = intrinsic
   - Meaning.md v2.0 — 5 anchor types, FAITH = tôn giáo
   - Connection.md v3.0 — 3 Generative Primitives
   - Gratitude.md v1.1 — 3 anti-habituation mechanisms
@@ -102,25 +102,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌────────┬────────────────────────────┬──────────────────────────────────┐
   │ Function│ Phục vụ body-base gì       │ v7.8 Mechanism                   │
   ├────────┼────────────────────────────┼──────────────────────────────────┤
-  │ F1     │ Life-level anchor:         │ Meaning.md v2.0: 5 anchor types  │
+  │ MTF1     │ Life-level anchor:         │ Meaning.md v2.0: 5 anchor types  │
   │        │ "cuộc đời có hướng"        │ (GOAL/STATE/IDENTITY/FAITH/ROLE) │
   ├────────┼────────────────────────────┼──────────────────────────────────┤
-  │ F2     │ Compiled compliance:       │ Obligation.md v1.0 +             │
+  │ MTF2     │ Compiled compliance:       │ Obligation.md v1.0 +             │
   │        │ "biết phải sống thế nào"   │ Compliance-Floor.md v2.0         │
   ├────────┼────────────────────────────┼──────────────────────────────────┤
-  │ F3     │ Structured connection:     │ Connection.md v3.0:              │
+  │ MTF3     │ Structured connection:     │ Connection.md v3.0:              │
   │        │ "thuộc về nhóm"            │ 3 Generative Primitives ❶❷❸     │
   ├────────┼────────────────────────────┼──────────────────────────────────┤
-  │ F4     │ Dissonance resolution:     │ Body-Feedback-Mechanism:          │
+  │ MTF4     │ Dissonance resolution:     │ Body-Feedback-Mechanism:          │
   │        │ "đau khổ có giải thích"    │ Chunk-Gap resolved + vmPFC/DRN   │
   ├────────┼────────────────────────────┼──────────────────────────────────┤
-  │ F5     │ Schema template:           │ Schema.md v2.0: named chunk-     │
+  │ MTF5     │ Schema template:           │ Schema.md v2.0: named chunk-     │
   │        │ "cách sống tốt = sẵn"     │ network pattern pre-installed    │
   ├────────┼────────────────────────────┼──────────────────────────────────┤
-  │ F6     │ Reward schedule:           │ H10 5 preconditions +            │
+  │ MTF6     │ Reward schedule:           │ H10 5 preconditions +            │
   │        │ "routine cho body-reward"  │ Gratitude.md 3 anti-habituation  │
   ├────────┼────────────────────────────┼──────────────────────────────────┤
-  │ F7     │ Anchor coherence:          │ Anchor-Schema.md: life-level     │
+  │ MTF7     │ Anchor coherence:          │ Anchor-Schema.md: life-level     │
   │        │ "mọi domain nhất quán"     │ sync point → coherence EMERGE    │
   └────────┴────────────────────────────┴──────────────────────────────────┘
 
@@ -143,30 +143,30 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ ⭐ Tôn giáo          │ 7/7      │ Religion.md v2.2                      │
   │                      │          │ 7 Functions × v7.8 mapping đầy đủ    │
   │                      │          │ FAITH anchor + install + compound     │
-  │                      │          │ grief + serotonin + RSA 5/5 Profiles  │
+  │                      │          │ grief + serotonin + Reward-Signal-Architecture 5/5 Profiles  │
   ├──────────────────────┼──────────┼──────────────────────────────────────┤
   │ Idol / Celebrity     │ 1-4/7    │ Idol-Phenomenon.md v2.1               │
   │                      │ (varies) │ 5 Drives × v7.8 mapping. Parasocial  │
-  │                      │          │ = SPM 1-chiều. AI idol frontier.     │
-  │                      │          │ RSA: art=Type B, anchor=Type A.      │
-  │                      │          │ Fan cuồng→ thêm F2 F7 (§8 spectrum)  │
+  │                      │          │ = Self-Pattern-Modeling 1-chiều. AI idol frontier.     │
+  │                      │          │ Reward-Signal-Architecture: art=Direct-State, anchor=Evaluative.      │
+  │                      │          │ Fan cuồng→ thêm MTF2 MTF7 (§8 spectrum)  │
   ├──────────────────────┼──────────┼──────────────────────────────────────┤
   │ Giáo dục             │ 3-4/7    │ Education-Mechanism.md +              │
   │                      │          │ Domain-Knowledge-Map.md +             │
   │                      │          │ Empathy-Education.md v2.0             │
-  │                      │          │ Covers F2(partial) F3(teacher) F5 F6  │
+  │                      │          │ Covers MTF2(partial) MTF3(teacher) MTF5 MTF6  │
   ├──────────────────────┼──────────┼──────────────────────────────────────┤
   │ Luật pháp            │ 1/7      │ Compliance-Floor.md v2.0              │
-  │                      │ (F2)     │ Luật = bridge, SPM = intrinsic.      │
-  │                      │          │ Cover F2 ONLY — nhưng phân tích SÂU.  │
+  │                      │ (MTF2)     │ Luật = bridge, Self-Pattern-Modeling = intrinsic.      │
+  │                      │          │ Cover MTF2 ONLY — nhưng phân tích SÂU.  │
   └──────────────────────┴──────────┴──────────────────────────────────────┘
 
 
   NHẬN XÉT:
     → Tôn giáo = DUY NHẤT cover 7/7 → giải thích tại sao TỒN TẠI lâu nhất
     → Idol: variable — fan nhẹ = 1-2/7, fan cuồng = 4-5/7 (§3 spectrum)
-    → Giáo dục: focus F5 (schema install) + F2 (compliance partial)
-    → Luật: chỉ F2 — nhưng F2 là function THIẾT YẾU cho xã hội
+    → Giáo dục: focus MTF5 (schema install) + MTF2 (compliance partial)
+    → Luật: chỉ MTF2 — nhưng MTF2 là function THIẾT YẾU cho xã hội
 ```
 
 ---
@@ -181,19 +181,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌────────────────┬──────────┬────────────┬──────────┬─────────────────────┐
   │ Level          │ ❸ Depth  │ Anchor type│ Functions│ Ví dụ               │
   ├────────────────┼──────────┼────────────┼──────────┼─────────────────────┤
-  │ Fan nhẹ        │ Nông     │ Không      │ F6       │ Nghe nhạc, vui      │
+  │ Fan nhẹ        │ Nông     │ Không      │ MTF6       │ Nghe nhạc, vui      │
   ├────────────────┼──────────┼────────────┼──────────┼─────────────────────┤
-  │ Fan cứng       │ Trung    │ GOAL weak  │ F1 F5 F6 │ Follow mọi thứ     │
+  │ Fan cứng       │ Trung    │ GOAL weak  │ MTF1 MTF5 MTF6 │ Follow mọi thứ     │
   ├────────────────┼──────────┼────────────┼──────────┼─────────────────────┤
-  │ Fan cuồng      │ Sâu     │ IDENTITY   │ F1 F3    │ Identity gắn với    │
-  │                │          │            │ F5 F6    │ idol                │
+  │ Fan cuồng      │ Sâu     │ IDENTITY   │ MTF1 MTF3    │ Identity gắn với    │
+  │                │          │            │ MTF5 MTF6    │ idol                │
   ├────────────────┼──────────┼────────────┼──────────┼─────────────────────┤
-  │ Tôn thờ        │ Rất sâu │ IDENTITY+  │ F1-F6    │ Idol = compass      │
+  │ Tôn thờ        │ Rất sâu │ IDENTITY+  │ MTF1-MTF6    │ Idol = compass      │
   ├────────────────┼──────────┼────────────┼──────────┼─────────────────────┤
-  │ Tín ngưỡng     │ Compiled │ FAITH weak │ F1-F7    │ Ideology, movement  │
+  │ Tín ngưỡng     │ Compiled │ FAITH weak │ MTF1-MTF7    │ Ideology, movement  │
   │                │          │            │ partial  │                     │
   ├────────────────┼──────────┼────────────┼──────────┼─────────────────────┤
-  │ Tôn giáo       │ Max      │ FAITH deep │ F1-F7    │ Buddhism, Islam,    │
+  │ Tôn giáo       │ Max      │ FAITH deep │ MTF1-MTF7    │ Buddhism, Islam,    │
   │                │          │            │ full     │ Christianity,...     │
   └────────────────┴──────────┴────────────┴──────────┴─────────────────────┘
 
@@ -203,9 +203,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → = Movement NGƯỢC cũng có (tín đồ → mất đức tin → "fan" level)
 
   MỌI IMPLEMENTATION NẰM ĐÂU ĐÓ TRÊN SPECTRUM NÀY:
-    → Crossfit ≈ "Fan cứng" level (F3 + F5 + F6)
-    → Ideology ≈ "Tín ngưỡng" level (F1-F7 partial, FAITH weak)
-    → Quân đội ≈ "Tôn thờ" level (F1-F6, IDENTITY anchor mạnh)
+    → Crossfit ≈ "Fan cứng" level (MTF3 + MTF5 + MTF6)
+    → Ideology ≈ "Tín ngưỡng" level (MTF1-MTF7 partial, FAITH weak)
+    → Quân đội ≈ "Tôn thờ" level (MTF1-MTF6, IDENTITY anchor mạnh)
 ```
 
 ---
@@ -219,66 +219,66 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Implementation       │ Cover?   │ v7.8 Prediction                       │
   ├──────────────────────┼──────────┼───────────────────────────────────────┤
   │ Ideology             │ ~5-6/7   │ Đối thủ GẦN NHẤT tôn giáo.           │
-  │ (chính trị)          │          │ F1: GOAL/FAITH anchor ("xã hội lý     │
-  │                      │          │ tưởng"). F2: compliance MẠNH. F3:     │
-  │                      │          │ đảng/phong trào = community. F4: giải │
-  │                      │          │ thích bất công. F7: coherence ideological│
-  │                      │          │ THIẾU: F6 (ít ritual embodied)        │
+  │ (chính trị)          │          │ MTF1: GOAL/FAITH anchor ("xã hội lý     │
+  │                      │          │ tưởng"). MTF2: compliance MẠNH. MTF3:     │
+  │                      │          │ đảng/phong trào = community. MTF4: giải │
+  │                      │          │ thích bất công. MTF7: coherence ideological│
+  │                      │          │ THIẾU: MTF6 (ít ritual embodied)        │
   │                      │          │ ⚠️ Cùng failure modes: Over-anchor,   │
   │                      │          │ cực đoan, suppress real-check          │
   ├──────────────────────┼──────────┼───────────────────────────────────────┤
-  │ Self-help / coaching │ ~2-3/7   │ F1: GOAL anchor (nhưng prescribed →   │
+  │ Self-help / coaching │ ~2-3/7   │ MTF1: GOAL anchor (nhưng prescribed →   │
   │                      │          │ Meaning.md §6: sai vì prescribe 1     │
-  │                      │          │ type). F4: verbal dissonance mgmt.    │
-  │                      │          │ F5: template (sách = schema verbal).  │
-  │                      │          │ THIẾU: F2 F3 F6 F7 →                 │
+  │                      │          │ type). MTF4: verbal dissonance mgmt.    │
+  │                      │          │ MTF5: template (sách = schema verbal).  │
+  │                      │          │ THIẾU: MTF2 MTF3 MTF6 MTF7 →                 │
   │                      │          │ = Tại sao "motivation fades":         │
   │                      │          │ verbal only → ít channels → compile   │
-  │                      │          │ NÔNG (CAD Factor ④ thấp)              │
+  │                      │          │ NÔNG (Collective-Arc-Dynamics Factor ④ thấp)              │
   ├──────────────────────┼──────────┼───────────────────────────────────────┤
-  │ Thể thao / fitness   │ ~3-4/7   │ F3: gym community, Crossfit tribe.   │
-  │ (Crossfit, marathon) │          │ F5: training template. F6: workout   │
+  │ Thể thao / fitness   │ ~3-4/7   │ MTF3: gym community, Crossfit tribe.   │
+  │ (Crossfit, marathon) │          │ MTF5: training template. MTF6: workout   │
   │                      │          │ routine = embodied ritual → H10 met. │
-  │                      │          │ F1: GOAL anchor ("stronger").         │
-  │                      │          │ THIẾU: F2 F4 F7 (no compliance,      │
+  │                      │          │ MTF1: GOAL anchor ("stronger").         │
+  │                      │          │ THIẾU: MTF2 MTF4 MTF7 (no compliance,      │
   │                      │          │ no existential explanation, no        │
   │                      │          │ cross-domain coherence)               │
   ├──────────────────────┼──────────┼───────────────────────────────────────┤
-  │ Game / virtual world │ ~3-4/7   │ F1: quest = GOAL anchor (virtual).   │
-  │ (MMO, online)        │          │ F3: guild = community → ❶❷❸ engage. │
-  │                      │          │ F5: class/role = schema template.    │
-  │                      │          │ F6: loot/event schedule = reward.    │
+  │ Game / virtual world │ ~3-4/7   │ MTF1: quest = GOAL anchor (virtual).   │
+  │ (MMO, online)        │          │ MTF3: guild = community → ❶❷❸ engage. │
+  │                      │          │ MTF5: class/role = schema template.    │
+  │                      │          │ MTF6: loot/event schedule = reward.    │
   │                      │          │ ⚠️ ALL virtual → body-base benefit  │
   │                      │          │ LIMITED (H10 precondition ❶ body-need │
   │                      │          │ met? → virtual reward ≠ real)         │
   ├──────────────────────┼──────────┼───────────────────────────────────────┤
-  │ Social movement      │ ~4-5/7   │ F1: "thế giới tốt hơn" = GOAL anchor│
-  │ (Climate, feminism)  │          │ F2: norms + accountability. F3:      │
-  │                      │          │ community MẠNH. F4: giải thích bất   │
-  │                      │          │ công. F5: activist template.         │
-  │                      │          │ THIẾU: F6 (ít ritual), F7 (partial   │
+  │ Social movement      │ ~4-5/7   │ MTF1: "thế giới tốt hơn" = GOAL anchor│
+  │ (Climate, feminism)  │          │ MTF2: norms + accountability. MTF3:      │
+  │                      │          │ community MẠNH. MTF4: giải thích bất   │
+  │                      │          │ công. MTF5: activist template.         │
+  │                      │          │ THIẾU: MTF6 (ít ritual), MTF7 (partial   │
   │                      │          │ coherence — chỉ 1-2 domains)         │
   ├──────────────────────┼──────────┼───────────────────────────────────────┤
-  │ Gia đình             │ ~4-5/7   │ F2: gia quy = compliance. F3:        │
+  │ Gia đình             │ ~4-5/7   │ MTF2: gia quy = compliance. MTF3:        │
   │                      │          │ connection THẬT → Body-Base Extension.│
-  │                      │          │ F5: parenting template. F6: routine  │
-  │                      │          │ gia đình = embodied ritual. F7: gia  │
+  │                      │          │ MTF5: parenting template. MTF6: routine  │
+  │                      │          │ gia đình = embodied ritual. MTF7: gia  │
   │                      │          │ đình = anchor coherence partial.     │
   │                      │          │ = "Tôn giáo nhỏ" — gần nhất sau     │
   │                      │          │ tôn giáo về function coverage         │
   ├──────────────────────┼──────────┼───────────────────────────────────────┤
-  │ Quân đội / tổ chức   │ ~5-6/7   │ F1: ROLE anchor ("phục vụ tổ quốc"). │
-  │                      │          │ F2: compliance CỰC MẠNH (military    │
-  │                      │          │ discipline). F3: unit = bond sâu. F5:│
-  │                      │          │ training = schema install. F6: ritual│
-  │                      │          │ (parade, ceremony). THIẾU: F4 (ít    │
-  │                      │          │ existential explanation). F7 partial. │
+  │ Quân đội / tổ chức   │ ~5-6/7   │ MTF1: ROLE anchor ("phục vụ tổ quốc"). │
+  │                      │          │ MTF2: compliance CỰC MẠNH (military    │
+  │                      │          │ discipline). MTF3: unit = bond sâu. MTF5:│
+  │                      │          │ training = schema install. MTF6: ritual│
+  │                      │          │ (parade, ceremony). THIẾU: MTF4 (ít    │
+  │                      │          │ existential explanation). MTF7 partial. │
   ├──────────────────────┼──────────┼───────────────────────────────────────┤
-  │ AI as meaning        │ ~2-3/7   │ F1: personalize anchor per-user.     │
-  │ provider             │          │ F4: explain per-case. F5: template   │
-  │                      │          │ per-hardware. THIẾU: F3 (no body →   │
-  │                      │          │ parasocial), F6 (no embodied ritual),│
-  │                      │          │ F7 (per-person → mất SHARED).        │
+  │ AI as meaning        │ ~2-3/7   │ MTF1: personalize anchor per-user.     │
+  │ provider             │          │ MTF4: explain per-case. MTF5: template   │
+  │                      │          │ per-hardware. THIẾU: MTF3 (no body →   │
+  │                      │          │ parasocial), MTF6 (no embodied ritual),│
+  │                      │          │ MTF7 (per-person → mất SHARED).        │
   │                      │          │ = Idol-Phenomenon.md §9: AI idol     │
   │                      │          │ + Religion.md §12: AI limitations     │
   └──────────────────────┴──────────┴───────────────────────────────────────┘
@@ -308,9 +308,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ② "CÔNG NGHỆ TỐI ƯU" = MIX per-person:
 
-    → Người A: tôn giáo (F1,F3,F7) + thể thao (F6) + mentor (F5) = 7/7
-    → Người B: art (F1) + community (F3) + framework (F4,F7) + routine riêng (F6) = 7/7
-    → Người C: career (F1 ROLE) + family (F2,F3,F7) + fitness (F6) + therapy (F4) = 7/7
+    → Người A: tôn giáo (MTF1,MTF3,MTF7) + thể thao (MTF6) + mentor (MTF5) = 7/7
+    → Người B: art (MTF1) + community (MTF3) + framework (MTF4,MTF7) + routine riêng (MTF6) = 7/7
+    → Người C: career (MTF1 ROLE) + family (MTF2,MTF3,MTF7) + fitness (MTF6) + therapy (MTF4) = 7/7
     → = Meaning.md v2.0 §3.6: optimal anchor KHÁC per-person → mix KHÁC
     → = PFC-Hardware.md: hardware KHÁC → implementation fit KHÁC
     → = KHÔNG có 1 công nghệ fit all → CẦN MENU per-person
@@ -357,25 +357,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 MELODY TECHNOLOGY FILES:
-→ Religion.md v2.2: 7 Functions × v7.8 + RSA 5/5 Profiles. File CHÍNH cho 7-function model.
-→ Idol-Phenomenon.md v2.1: 5 Drives × v7.8 + RSA Type A/B. Parasocial + AI idol.
+→ Religion.md v2.2: 7 Functions × v7.8 + Reward-Signal-Architecture 5/5 Profiles. File CHÍNH cho 7-function model.
+→ Idol-Phenomenon.md v2.1: 5 Drives × v7.8 + Reward-Signal-Architecture Evaluative/Direct-State. Parasocial + AI idol.
 
 CORE MECHANISM FILES (foundation cho analysis):
-→ Meaning.md v2.0: 5 anchor types — basis for F1 analysis per-implementation
-→ Connection.md v3.0: 3 Generative Primitives — basis for F3 analysis
-→ Obligation.md v1.0: compiled prediction — basis for F2 analysis
-→ Gratitude.md v1.1: 3 anti-habituation — basis for F6 analysis
-→ Compliance-Floor.md v2.0: luật = bridge — basis for F2 analysis
-→ Anchor-Schema.md v1.2: sync point — basis for F7 analysis
-→ Schema.md v2.0: named patterns — basis for F5 analysis
+→ Meaning.md v2.0: 5 anchor types — basis for MTF1 analysis per-implementation
+→ Connection.md v3.0: 3 Generative Primitives — basis for MTF3 analysis
+→ Obligation.md v1.0: compiled prediction — basis for MTF2 analysis
+→ Gratitude.md v1.1: 3 anti-habituation — basis for MTF6 analysis
+→ Compliance-Floor.md v2.0: luật = bridge — basis for MTF2 analysis
+→ Anchor-Schema.md v1.2: sync point — basis for MTF7 analysis
+→ Schema.md v2.0: named patterns — basis for MTF5 analysis
 → Chunk-Activation-Dynamics.md: 7 factors — basis for install mechanism analysis
 → PFC-Hardware.md: COMT/DRD4 — basis for per-hardware matching
-→ Autonomy-Hardware.md: vmPFC/DRN — basis for F4 controllability analysis
+→ Autonomy-Hardware.md: vmPFC/DRN — basis for MTF4 controllability analysis
 
 EDUCATION FILES (partially analyzed):
 → Education-Mechanism.md: mechanism-focused education analysis
 → Domain-Knowledge-Map.md: education domain mapping
-→ Empathy-Education.md v2.0: SPM-based empathy education
+→ Empathy-Education.md v2.0: Self-Pattern-Modeling-based empathy education
 ```
 
 ---

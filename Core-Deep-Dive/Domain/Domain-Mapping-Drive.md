@@ -1,31 +1,53 @@
-# Domain-Mapping-Drive — Cơ Chế Tự-Drive Con Người + Hệ Quả Cho Giáo Dục Tương Lai
+---
+title: Domain-Mapping-Drive
+version: v2.0
+status: COMPLETE
+date-created: 2026-04-10
+date-updated: 2026-05-23
+scope: WHY humans drive to map domain + education implications
+location: Core-Deep-Dive/Domain/
+audience: Framework readers OR education-interested newcomers
+confidence: 🟡 Framework synthesis from 🟢/🟡 established research
+distinguishes-from: |
+  Education-Mechanism.md = PRESCRIPTIVE (nguyên lý phải làm gì)
+  FILE NÀY = DESCRIPTIVE + MECHANISTIC (tại sao các nguyên lý đó work)
+  2 file bổ sung nhau: file này trả lời WHY, Education-Mechanism trả lời WHAT/HOW
+dependencies:
+  core:
+    - Core-Hardware.md + Core-Software.md (architecture tổng thể)
+    - PFC/Simulation-Engine.md v1.0 (simulation mechanism — NEW v2.0)
+    - PFC/Imagination/Imagine-Final.md v3.0 (lifecycle + boundary)
+    - PFC/Imagination/Imagine-Final-Evaluation.md v1.2 (4 góc + 3D)
+    - PFC/Imagination/Imagination.md (mechanism imagine)
+    - Body-Base/Schema/Anchor-Schema.md (Trust + 4 nguồn fill)
+    - Body-Base/Schema/Schema.md v2.0 (observation parameters)
+  observation:
+    - Observation/Novelty.md v1.2, Threat.md v1.2, Drive.md v1.2
+    - Observation/Boredom.md v2.0 (by-product match)
+  agent-mechanism:
+    - Agent-Mechanism/Bond-Architecture.md v1.0 (4 bond types — NEW v2.0)
+    - Agent-Mechanism/Entity-Access.md v1.2 (gradient Mức 0-5 — NEW v2.0)
+    - Agent-Mechanism/Entity-Compiled.md v1.0 (neural reality — NEW v2.0)
+    - Agent-Mechanism/Resonance-Sustainability.md v1.0 (4-layer — NEW v2.0)
+    - Agent-Mechanism/Resonance-Per-Entity.md v1.0 (per-entity — NEW v2.0)
+    - Agent-Mechanism/By-Product-Scale.md v1.0 (3 scales — NEW v2.0)
+    - Agent-Mechanism/Self-Pattern-Modeling.md v3.1
+  body-base:
+    - Body-Base/Valence-Propagation.md v3.0 (valence system)
+    - Body-Base/Body-Feedback/Gap-Body-Need.md v1.0 (3 Satiation types — NEW v2.0)
+  pfc:
+    - PFC/PFC-Label.md v1.0 (vocabulary standard — NEW v2.0)
+    - PFC/PFC-Operations.md v1.0 (PFC Budget — NEW v2.0)
+  collective:
+    - Collective/Collective-Purpose.md v1.2 (cosmic loop)
+  domain:
+    - Domain/Domain.md v1.0 (knowledge convergence)
+changelog:
+  - v1.0 (2026-04-10) — Initial complete draft §0-§10, 3,433L
+  - v2.0 (2026-05-23) — YAML header + concept cascade (Simulation Engine, Entity-Access, Bond-Architecture, Hardware Subsidy, M1-M4, Satiation, Resonance-Sustainability, By-Product-Scale, PFC Budget, Entity-Compiled, Resonance-Per-Entity, PFC-Label) + cross-ref overhaul
+---
 
-> **Trạng thái:** DRAFT v1.0 — writing in progress (Phase 1/6)
-> **Ngày bắt đầu:** 2026-04-10
-> **Mục đích:** Giải thích cơ chế TẠI SAO con người drive map domain dù được "có sẵn"
->   — và hệ quả cho thiết kế giáo dục tương lai tối ưu.
-> **Vị trí:** Research/Education/ (tầng META, bổ sung cho Education-Principles.md)
-> **Audience:** người đọc đã có chunks nền về framework (Core-Deep-Dive files)
->   HOẶC người đọc mới quan tâm tới "why education" theo hướng mechanism
->
-> **Phân biệt với Education-Principles.md:**
->   → Education-Principles.md = PRESCRIPTIVE (10 nguyên lý phải làm gì)
->   → FILE NÀY = DESCRIPTIVE + MECHANISTIC (tại sao các nguyên lý đó work)
->   → 2 file bổ sung nhau: file này trả lời WHY, Education-Principles trả lời WHAT/HOW
->
-> **Tiền đề:**
->   Core-v7.5-Draft.md (architecture tổng thể)
->   Imagine-Final.md + §1.5 Lifecycle (5 phases)
->   Imagine-Final-Evaluation.md v1.1 (4 góc + 3D framework)
->   Anchor-Schema.md (Trust + 4 nguồn fill)
->   Imagination-Analysis-v2.md v2.1 (mechanism imagine)
->   Novelty.md + Threat.md + Drive.md (dual drive system)
->   Collective-Purpose.md (cosmic loop)
->   Domain.md (knowledge convergence)
->
-> **⚠️ 🟡 Framework synthesis — tổng hợp từ các file 🟢/🟡 có sẵn, không phải claim mới.**
-> Phần mechanism (VTA, opioid, REM consolidation, evolutionary psychology) đã có
-> research support. Phần synthesis + implications cho giáo dục là framework analysis.
+# Domain-Mapping-Drive — Cơ Chế Tự-Drive Con Người + Hệ Quả Cho Giáo Dục Tương Lai
 
 ---
 
@@ -50,7 +72,7 @@
 ```
 TRÁI TIM CỦA FILE NÀY = 1 CÂU HỎI ĐƠN GIẢN:
 
-  "Tại sao con người có sẵn mà không thấy sướng?"
+  "Tại sao con người có sẵn mà không thấy pleasant?"
 
 Câu hỏi này có vẻ vớ vẩn nhưng thực ra nó trúng ngay trung tâm của
 3 vấn đề lớn:
@@ -414,13 +436,13 @@ nói: đây là **hardware working as designed**.
       "còn gì chưa biết về thế giới / về mình / về người xung quanh?"
     → Này là force con người ra khỏi "perfect conditions" → vẫn explore
 
-  🟡 RESTLESS KHÔNG PHẢI LUÔN DỄ CHỊU:
+  🟡 RESTLESS KHÔNG PHẢI LUÔN COMFORTABLE:
     → Đúng là cảm giác restless có thể khó chịu
     → Nhưng đây là feature: signal phải đủ khó chịu để force action
     → Nếu restless signal nhẹ nhàng, body sẽ ignore → không action
     → Nếu restless signal mạnh, body phải tìm hướng đi → action
     → = Tương tự đau thể chất: đau khó chịu vì nó PHẢI khó chịu để bạn
-      phản ứng. Nếu đau dễ chịu, bạn sẽ bị thương mà không biết.
+      phản ứng. Nếu đau comfortable, bạn sẽ bị thương mà không biết.
 
   🟡 TRỐNG RỖNG KHI ĐẠT MỤC TIÊU = "IMAGINE-FINAL COLLAPSE":
     → Nhiều người đạt goal lớn (tốt nghiệp, promote, cưới, đẻ con, mua nhà)
@@ -543,6 +565,34 @@ TÓM TẮT §1
   🟡 "Gilded cage" historical interpretation: framework synthesis
   🟡 Curiosity distribution %: framework estimate
   🟡 "Restless = feature" framing: framework analysis
+
+
+═══════════════════════════════════════════════════════
+§1.7 — LIÊN KẾT VỚI CONCEPT MỚI (v2.0)
+═══════════════════════════════════════════════════════
+
+§1 mô tả drive explore là hardware default. Các concept mới từ drill
+sessions làm rõ CƠ CHẾ DƯỚI drive này:
+
+  Hardware Subsidy — Body không chỉ "có drive" mà ACTIVELY SUPPORT
+    drive explore bằng baseline neurochemical (VTA tonic, serotonin
+    stability, opioid readiness). Hardware Subsidy = body ĐẦU TƯ
+    resource vào entities/domains có bond. "Restless" (§1.5) = Hardware
+    Subsidy đang tìm target để invest.
+    → Xem Body-Coupling.md v3.0 §Hardware Subsidy
+
+  Simulation Engine — PFC không chỉ "nghĩ" mà CÓ CƠ CHẾ CỤ THỂ:
+    1 Engine (PFC prediction), 3 Components (context loader, simulator,
+    evaluator). Drive explore sử dụng Simulation Engine để draft
+    Imagine-Final trước khi body commit resource.
+    → Xem PFC/Simulation-Engine.md v1.0
+
+  Entity-Access gradient — Drive explore hướng tới entities theo gradient
+    Mức 0-5 (xa lạ → merged). Mỗi Mức cần investment khác nhau.
+    "Einstein + chú Jakob" = Entity-Access đủ cao để chunks transfer.
+    → Xem Agent-Mechanism/Entity-Access.md v1.2
+
+  🟡 Concept mapping: framework synthesis từ drill sessions 2026-05
 ```
 
 ---
@@ -561,8 +611,8 @@ trả lời đầy đủ cho "tại sao có sẵn không thoả mãn":
   §2.3 — Chunk threshold self-sustaining novelty
   §2.4 — Imagine-Final lifecycle (5 phases với 3 outcomes)
 
-⚠️ Lưu ý: 4 mảnh này ĐÃ CÓ trong Core-Deep-Dive files (PFC-Analysis,
-Reward-Dual-System, Imagination-Analysis v2.1, Imagine-Final.md §1.5).
+⚠️ Lưu ý: 4 mảnh này ĐÃ CÓ trong Core-Deep-Dive files (PFC-Operations,
+Valence-Propagation v3.0, Imagination.md, Imagine-Final.md v3.0 §1.5).
 File này KHÔNG lặp lại detail mà SYNTHESIZE chúng cho câu hỏi trung tâm
 của §0.
 
@@ -657,7 +707,7 @@ KEY INSIGHT: VTA không fire khi có "cái gì tốt". VTA fire khi có "BIẾN
 
   → INSIGHT QUAN TRỌNG: body không reward ABSOLUTE state (giàu, nghèo,
     khoẻ, yếu). Body reward DELTA.
-  → Người trúng số không sướng lâu vì không còn delta nào lớn để fire
+  → Người trúng số không pleasant lâu vì không còn delta nào lớn để fire
   → Người tai nạn không khổ mãi vì body tìm delta ở các việc nhỏ khác
 
 → Đây là tại sao "mục tiêu xa" (giàu, nổi tiếng, thành công) không
@@ -679,6 +729,20 @@ KẾT LUẬN §2.1:
   🟢 Hedonic treadmill: Brickman 1978, replicated many times
   🟢 Sensory adaptation: basic neuroscience
 
+  ⭐ CONCEPT MỚI — SATIATION 3 TYPES (v2.0):
+    VTA habituation ở trên = 1 dạng satiation. Framework phân biệt 3 loại:
+      ENGINE satiation — VTA habituate với cùng domain (ví dụ cùng khu rừng)
+        → Cần domain MỚI để fire lại
+      ROAD satiation — cùng method/approach mòn (ví dụ luôn nấu cùng món)
+        → Cần approach MỚI trong cùng domain
+      VEHICLE satiation — body resource cạn (PFC Budget hết, cortisol cao)
+        → Cần REST, không phải domain hay method mới
+    Mapping-drive satiation KHÁC consumption satiation:
+      Consumption: ăn no → hết muốn (ENGINE satiation nhanh)
+      Mapping: map domain → thấy thêm gap → muốn thêm (ENGINE satiation chậm)
+      → Đây là TẠI SAO mapping-drive sustainable hơn consumption-drive
+    🟡 Xem Gap-Body-Need.md v1.0 §Satiation Types
+
 
 ═══════════════════════════════════════════════════════
 §2.2 — OPIOID FIRE PER STEP CỦA BUILD PHASE
@@ -692,8 +756,8 @@ VTA + dopamine báo "có đáng chú ý". Nhưng "đáng chú ý" không bằng 
     → Opioid = "LIKING" (pleasure when achieved)
     → 2 hệ thống tách rời, có thể dissociate:
       Addict: wanting strong (VTA hyperactive) nhưng liking giảm (opioid tolerance)
-      → "Tôi muốn nó nhưng khi có cũng không thấy sướng nữa"
-    → Framework: Reward-Dual-System.md phân tích chi tiết
+      → "Tôi muốn nó nhưng khi có cũng không thấy pleasant nữa"
+    → Framework: Liking-Wanting.md + Valence-Propagation.md v3.0 phân tích chi tiết
 
 KEY INSIGHT cho file này: opioid KHÔNG fire 1 lần duy nhất ở đích.
 Opioid fire PER STEP của BUILD phase — mỗi lần body-confirm 1 mini-milestone.
@@ -752,7 +816,7 @@ Opioid fire PER STEP của BUILD phase — mỗi lần body-confirm 1 mini-miles
   STEP 9 — Ăn cùng người thân, họ khen
     L2 Connection channel cũng fire
     Empathy mirror: thấy họ enjoy = mình cũng enjoy thêm
-    → Social opioid fire: "mọi người cũng sướng"
+    → Social opioid fire: "mọi người cũng pleasant"
 
   TỔNG KẾT STEPS 1-9:
     ~9 opioid fire events (có lớn có nhỏ)
@@ -856,7 +920,7 @@ MECHANISM CHI TIẾT — TẠI SAO OPIOID FIRE PER STEP:
   🟢 Motor learning opioid involvement (Schultz 2007)
   🟢 Chunk compilation → reward (learning research)
   🟡 "Per-step opioid fire in BUILD phase" là framework synthesis,
-    chi tiết ở PFC-Analysis.md §8 + Reward-Dual-System.md
+    chi tiết ở PFC/PFC-Operations.md + Valence-Propagation.md v3.0
 
 
 KẾT LUẬN §2.2:
@@ -868,6 +932,25 @@ KẾT LUẬN §2.2:
 
   → Đây là cơ chế sinh học của câu quote "hạnh phúc là hành trình"
   → Không phải ẩn dụ, không phải motivational slogan — là cơ chế
+
+  ⭐ CONCEPT MỚI — PFC BUDGET + M1-M4 FIRING MODES (v2.0):
+
+    PFC Budget — BUILD phase tiêu tốn PFC resource (glucose, oxygen,
+      attention bandwidth). PFC Budget hữu hạn per session → giải thích
+      TẠI SAO forced BUILD quá dài = diminishing returns. Lifecycle
+      Phase 2-3 (§2.4) chính là body RESTORE PFC Budget.
+      → Xem PFC/PFC-Operations.md v1.0
+
+    M1-M4 Firing Modes — Mỗi BUILD step fire ở 1 trong 4 modes:
+      M1 (Structural) — baseline, steady, low-resource (routine practice)
+      M2 (Current-Shift) — medium, VTA fire khi có delta (learning new)
+      M3 (Peak) — high, opioid + dopamine cùng fire (breakthrough "aha")
+      M4 (Compound) — mixed valence, nhiều systems cùng fire (complex tasks)
+    Mapping-drive chủ yếu dùng M2 (exploration) và M3 (insight).
+    Người ở Zone 3 dissonance (§3.1) bị locked ở M1 hoặc crash.
+      → Xem Bond-Architecture.md v1.0 §M1-M4
+
+    🟡 Concept mapping: framework từ drill sessions 2026-05
 
 
 ═══════════════════════════════════════════════════════
@@ -1061,6 +1144,20 @@ KẾT LUẬN §2.3:
   🟡 "Dưới threshold nhìn domain như rào chắn" = framework observation
   🟢 Einstein biographical facts: Isaacson 2007
 
+  ⭐ CONCEPT MỚI — ENTITY-COMPILED (v2.0):
+    "Chunk threshold" chính là quá trình Entity-Compiled ở 1 domain:
+      → Entity-Compiled = khi chunks về 1 entity/domain compile thành
+        neural reality — not just "biết về nó" mà "nó là 1 phần của
+        cách não tổ chức thông tin"
+      → Formation: ~40-200h intensive exposure (Dunbar research)
+      → Einstein + physics = Entity-Compiled — physics chunks không
+        chỉ "thông tin" mà là cấu trúc tư duy của ông
+      → Chef + nấu ăn = Entity-Compiled — motor+sensory chunks thành
+        phần của body identity
+      → Self-sustaining novelty = khi domain ĐÃ Entity-Compiled →
+        gap detection tự động → drive không cần external push
+    🟡 Xem Agent-Mechanism/Entity-Compiled.md v1.0
+
 
 ═══════════════════════════════════════════════════════
 §2.4 — IMAGINE-FINAL LIFECYCLE — 5 PHASES + 3 OUTCOMES
@@ -1069,7 +1166,7 @@ KẾT LUẬN §2.3:
 3 mảnh trên (prediction-delta + opioid per step + chunk threshold) = cơ chế
 mỗi lần fire. Nhưng 1 hành trình học không phải 1 lần fire. Nó là
 nhiều vòng lặp, mỗi vòng có structure nhất định. Structure này =
-Imagine-Final Lifecycle, chi tiết ở Imagine-Final.md §1.5.
+Imagine-Final Lifecycle, chi tiết ở Imagine-Final.md v3.0 §1.5.
 
 Tại sao section này quan trọng cho file Education? Vì giáo dục không
 phải thiết kế cho 1 moment — mà cho 1 chuỗi lặp đi lặp lại nhiều năm.
@@ -1246,6 +1343,18 @@ TÓM TẮT §2 — TẠI SAO "GIVEN" KHÔNG CÓ REWARD
 → Không phải 1 cơ chế duy nhất — là sự phối hợp của 4
 → Bỏ qua process = bỏ qua cả 4 cơ chế reward cùng lúc
 → Kết quả: "có mọi thứ mà không feel gì" — đây là mechanism, không phải character flaw
+
+  ⭐ CONCEPT MỚI — SIMULATION ENGINE × 4 CƠ CHẾ (v2.0):
+    §2.4 mô tả 5 phases lifecycle. Simulation Engine formalize cơ chế
+    TRONG mỗi phase:
+      BUILD phase = Simulation-Engine chạy: PFC load context → simulate outcomes →
+        evaluate match → body feedback → adjust
+      SAVE phase = Simulation-Engine tạm dừng (PFC Budget cạn)
+      BACKGROUND phase = Simulation-Engine chạy ở chế độ thấp (DMN, REM)
+      RELOAD phase = Simulation-Engine restart với chunks đã reorganize
+    4 cơ chế (VTA + opioid + threshold + lifecycle) = 4 ĐIỀU KIỆN
+    để Simulation-Engine chạy đúng trong context mapping-drive.
+    🟡 Xem PFC/Simulation-Engine.md v1.0 (1 Engine, 3 Components, 3 Axes)
 ```
 
 ---
@@ -1520,6 +1629,26 @@ System fail khi thiếu bất kỳ điều kiện:
 
 → Giáo dục tương lai = thiết kế cho cả 3 cùng đúng, không chỉ 1
 → Phức tạp hơn hiện tại, nhưng cần thiết để tối ưu mechanism
+
+  ⭐ 3-WAY BALANCE × CONCEPT MỚI (v2.0):
+
+    Resonance-Sustainability — 4-layer model dự đoán khi nào 3-way
+    balance bền vững:
+      Layer 1: Hardware Match (body fit domain)
+      Layer 2: Compilation Quality (chunks compile đúng, không cortisol)
+      Layer 3: Environmental Sustain (environment tiếp tục cung cấp gaps)
+      Layer 4: Social Validation (community acknowledge contribution)
+    Thiếu bất kỳ layer → system drift ra khỏi Zone 2 theo thời gian.
+    → Xem Agent-Mechanism/Resonance-Sustainability.md v1.0
+
+    Entity-Access × Zone 2 — Mỗi Zone tương ứng Entity-Access gradient:
+      Zone 1 (bored) = Entity-Access quá cao, domain đã familiar (Mức 4-5)
+      Zone 2 (sweet) = Entity-Access vừa đủ, gap mở rộng được (Mức 2-3)
+      Zone 3 (overwhelm) = Entity-Access quá thấp, domain xa lạ (Mức 0-1)
+    → Giáo dục = giúp trẻ navigate Entity-Access gradient per domain
+    → Xem Agent-Mechanism/Entity-Access.md v1.2
+
+    🟡 Concept mapping: framework từ drill sessions 2026-05
 ```
 
 ---
@@ -1642,10 +1771,10 @@ PATTERN CHUNG của 10 ví dụ:
 §4.2 — NHƯNG KHÔNG PHẢI "QUAY VỀ ĐỒ ĐÁ" — CAPACITY REFUND PRINCIPLE
 ═══════════════════════════════════════════════════════
 
-Luận điểm ngây thơ: "Người cổ đại sướng hơn → chúng ta nên sống như họ".
+Luận điểm ngây thơ: "Người cổ đại pleasant hơn → chúng ta nên sống như họ".
 Luận điểm này SAI vì bỏ qua 2 điều:
 
-  1. Người cổ đại không "sướng tuyệt đối" — họ chết 30 tuổi, đói, lạnh, đau
+  1. Người cổ đại không "pleasant tuyệt đối" — họ chết 30 tuổi, đói, lạnh, đau
   2. Cơ chế reward không phải "sống đơn giản" — là "có process để map"
 
 → Người hiện đại có LỢI THẾ lớn: không phải tốn effort cho basic survival
@@ -1746,6 +1875,25 @@ TÓM TẮT §4
   → Modern environment default = shallow path → cần active choice chống lại
   → Giáo dục tương lai: dạy CHOICE này explicitly, + support deep engagement
   → "Quay về đồ đá" là sai answer; "deep engagement với modern tools" là đúng
+
+  ⭐ MODERN PARADOX × CONCEPT MỚI (v2.0):
+
+    Satiation × Abundance — Modern environment tạo tất cả 3 loại
+    satiation đồng thời:
+      ENGINE: cùng type entertainment lặp lại → VTA habituate
+      ROAD: cùng method tiêu thụ (scroll, swipe) → approach mòn
+      VEHICLE: PFC Budget bị drain bởi constant stimulation
+    "Capacity refund" thành công KHI redirect vào domain có satiation
+    profile khác (mapping-drive satiation chậm hơn consumption satiation).
+
+    Entity-Access × Capacity Refund — "Refund đúng" = mở rộng
+    Entity-Access ở complex domains (Mức 0→2→3):
+      Einstein refund → physics access tăng → Mức 4-5 (merged)
+      TikTok user refund → shallow access ở nhiều topics → Mức 0-1 mãi
+    → Entity-Access gradient giải thích TẠI SAO depth > breadth
+      cho long-term reward: deeper access = richer gaps = more fires.
+
+    🟡 Concept mapping: framework từ drill sessions 2026-05
 ```
 
 ---
@@ -2026,6 +2174,28 @@ TÓM TẮT §5
 
 → Đây là template cho giáo dục tương lai: tạo điều kiện cho 6 conditions
   này, không phải tạo motivation từ bên ngoài
+
+  ⭐ 5 PATTERNS × CONCEPT MỚI (v2.0):
+
+    Bond-Architecture × Learning — 5 patterns đều có BOND với
+    mentor/domain. Bond-Architecture phân biệt 4 bond types:
+      Kin bond (Einstein + chú Jakob): hardware support tự nhiên
+      Trust bond (apprentice + master craftsman): compile qua thời gian
+      Functional bond (student + school system): task-oriented, shallow
+      Parasocial bond (learner + book author): one-way, nhưng chunks vẫn transfer
+    Condition ⑤ "adult = supporter" chính là trust bond quality.
+    → Xem Agent-Mechanism/Bond-Architecture.md v1.0
+
+    Resonance-Per-Entity × Learning — Mỗi mentor-student relationship
+    có resonance dynamics riêng:
+      Resonance cao (Einstein + chú Jakob) = chunks transfer nhanh,
+        Hardware Subsidy compounds, drive amplify
+      Resonance thấp (trẻ + thầy ép buộc) = chunks transfer kèm
+        cortisol, bond functional không compile
+    → 5 patterns đều có HIGH RESONANCE với ít nhất 1 entity
+    → Xem Agent-Mechanism/Resonance-Per-Entity.md v1.0
+
+    🟡 Concept mapping: framework từ drill sessions 2026-05
 ```
 
 ---
@@ -2240,6 +2410,28 @@ TÓM TẮT §6 — COSMIC LOOP VÀ GIÁO DỤC
   🟡 Knowledge convergence: Domain.md §2 ④
   🟢 Accumulated cultural knowledge: cultural evolution research
   🟢 Multi-generational knowledge transmission: anthropology
+
+  ⭐ COSMIC LOOP × CONCEPT MỚI (v2.0):
+
+    By-Product-Scale × Contribution — §6.3 mô tả 3 scales contribution
+    (invisible / small public / large public). By-Product-Scale formalize:
+      1 cơ chế (by-product of gap resonance) × 3 scales:
+        Individual: domain mapping tạo chunks cho chính mình
+        Interpersonal: sharing chunks với apprentices/students/peers
+        Collective: knowledge pool grows across generations
+    → 3 scales contribution trong cosmic loop = CÙNG 1 cơ chế at
+      different scales, không phải 3 cơ chế khác nhau.
+    → Xem Agent-Mechanism/By-Product-Scale.md v1.0
+
+    Resonance-Sustainability × Cosmic Loop — 4-layer model dự đoán
+    khi nào cosmic loop bền vững at collective level:
+      Layer 3 (Environmental Sustain) = civilization maintain rich domains
+      Layer 4 (Social Validation) = culture acknowledge contributions
+    → Khi cả 4 layers intact → knowledge transfer across generations smooth
+    → Khi layers bị disrupt (war, censorship) → cosmic loop breaks
+    → Xem Agent-Mechanism/Resonance-Sustainability.md v1.0
+
+    🟡 Concept mapping: framework từ drill sessions 2026-05
 ```
 
 ---
@@ -2955,6 +3147,31 @@ TÓM TẮT §7 — 7 NGUYÊN TẮC
   🟢 Hardware variation + learning style (aptitude-treatment interaction)
   🟡 3 types of threat framing: framework synthesis
   🟡 Transition timeline: framework estimate
+
+  ⭐ 7 NGUYÊN TẮC × CONCEPT MỚI (v2.0):
+
+    Mỗi nguyên tắc map sang concepts mới:
+      §7.1 Novelty path — Valence-Propagation v3.0: valence (positive/
+        negative) propagate theo chunk association dài hạn
+      §7.2 3 types threat — Bond-Architecture: peer threat = bond
+        navigation training, imposed threat = functional bond override
+      §7.3 Rich reality — Entity-Access: rich environment = nhiều
+        entities ở Mức 0-1 accessible, sẵn sàng cho exploration
+      §7.4 Wait threshold — Entity-Compiled: threshold = moment
+        domain chunks compile thành neural reality (~40-200h)
+      §7.5 Hardware calibration — Gap-Body-Need: 5-Parameter model
+        (ENGINE/ROAD/VEHICLE/entity matching/PFC Budget)
+      §7.6 Lifecycle — PFC Budget: cycle design must respect PFC
+        resource depletion + restoration rates
+      §7.7 Transition — By-Product-Scale: transition happens at
+        individual → interpersonal → collective (3 scales)
+
+    PFC-Label — Vocabulary chuẩn cho educators:
+      Body-Feedback-Label.md cung cấp 3-tier labels cho educators
+      khi mô tả trạng thái học sinh (thay vì "lười", "hư", "giỏi").
+      → Xem PFC/PFC-Label.md v1.0
+
+    🟡 Concept mapping: framework từ drill sessions 2026-05
 ```
 
 ---
@@ -3318,43 +3535,66 @@ MISSING (to develop later)
 
 ```
 ═══════════════════════════════════════════════════════
-INPUT (đọc trước file này nếu muốn context đầy đủ)
+INPUT — CORE MECHANISM (đọc trước file này)
 ═══════════════════════════════════════════════════════
 
-  CORE MECHANISM:
-    Core-v7.5-Draft.md (architecture tổng thể)
-    PFC-Analysis.md (PFC functions + §8 mechanism)
-    Reward-Dual-System.md (Imagine vs Body reward)
-    Schema-Atlas.md (schema formation, properties)
-    Imagination-Analysis-v2.md v2.1 (imagine process mechanism)
+  ARCHITECTURE:
+    Core-Hardware.md (hardware architecture tổng thể)
+    Core-Software.md (software architecture tổng thể)
 
-  IMAGINE-FINAL CỤM (3 chiều):
-    Imagine-Final.md + §1.5 Lifecycle (CLARITY dimension)
-    Imagine-Final-Evaluation.md v1.1 (QUALITY dimension, 4 góc)
-    Anchor-Schema.md (TRUST dimension, 4 nguồn fill)
+  PFC + SIMULATION:
+    PFC/PFC-Operations.md v1.0 (PFC functions + PFC Budget)
+    PFC/PFC-Function.md v1.2 (PFC core functions)
+    PFC/Simulation-Engine.md v1.0 (1 Engine, 3 Components, 3 Axes)
+    PFC/PFC-Label.md v1.0 (vocabulary standard)
 
-  DRIVES:
-    Novelty.md (self-sustaining novelty drive)
-    Threat.md (threat drive mechanism + 3 cases)
-    Drive.md (dual drive integration)
+  IMAGINATION CỤM (3 chiều):
+    PFC/Imagination/Imagine-Final.md v3.0 (lifecycle + boundary)
+    PFC/Imagination/Imagine-Final-Evaluation.md v1.2 (4 góc + 3D)
+    PFC/Imagination/Imagination.md (mechanism imagine)
+    Body-Base/Schema/Anchor-Schema.md (Trust + 4 nguồn fill)
+
+  VALENCE + REWARD:
+    Body-Base/Valence-Propagation.md v3.0 (valence system)
+    Observation/Liking-Wanting.md v1.1 (wanting/liking bridge)
+
+  OBSERVATION PARAMETERS:
+    Observation/Novelty.md v1.2 (self-sustaining novelty drive)
+    Observation/Threat.md v1.2 (threat mechanism + 3 cases)
+    Observation/Drive.md v1.2 (dual drive integration)
+    Observation/Boredom.md v2.0 (by-product match stop)
+
+  AGENT-MECHANISM (NEW v2.0):
+    Agent-Mechanism/Bond-Architecture.md v1.0 (4 bond types, M1-M4)
+    Agent-Mechanism/Entity-Access.md v1.2 (gradient Mức 0-5)
+    Agent-Mechanism/Entity-Compiled.md v1.0 (neural reality, 40-200h)
+    Agent-Mechanism/Resonance-Sustainability.md v1.0 (4-layer model)
+    Agent-Mechanism/Resonance-Per-Entity.md v1.0 (per-entity dynamics)
+    Agent-Mechanism/By-Product-Scale.md v1.0 (1 mech × 3 scales)
+    Agent-Mechanism/Self-Pattern-Modeling.md v3.1 (self observation)
+
+  BODY-BASE:
+    Body-Base/Body-Feedback/Gap-Body-Need.md v1.0 (3 Satiation types)
+    Body-Base/Schema/Schema.md v2.0 (observation parameters)
 
   DOMAIN + COSMIC:
-    Domain.md §2 ④ (Knowledge Convergence)
-    Knowledge-Flow.md (knowledge tăng tiến)
-    Collective-Purpose.md (Cosmic Loop framing)
+    Domain/Domain.md v1.0 (knowledge convergence)
+    Domain/Knowledge-Flow.md v1.0 (knowledge tăng tiến)
+    Collective/Collective-Purpose.md v1.2 (Cosmic Loop framing)
 
 
 ═══════════════════════════════════════════════════════
-OUTPUT (đọc sau file này)
+OUTPUT — EDUCATION FILES (đọc sau file này)
 ═══════════════════════════════════════════════════════
 
-  NGANG HÀNG (cùng tầng Research/Education/):
-    Education-Principles.md — 10 nguyên lý bất biến
-      → FILE NÀY = WHY, Education-Principles.md = WHAT
+  NGANG HÀNG (Research/Education/):
+    Education-Mechanism.md — nguyên lý bất biến
+      → FILE NÀY = WHY, Education-Mechanism.md = WHAT
       → Bổ sung nhau, không trùng lặp
     Education-Bridge.md — compass bố mẹ ≠ compass con
     Education-Arms-Race.md — race to bottom analysis
     Empathy-Education.md — emotional + social learning
+    Money-Education.md — observation file × tiền
 
   ỨNG DỤNG (Applications/Education/):
     Education-System.md — 4 stages, 5 roles, bridge, assessment
@@ -3380,22 +3620,13 @@ CHILD DEVELOPMENT (ages 0-6, foundation)
 
 
 ═══════════════════════════════════════════════════════
-ANCHOR-SCHEMA EXAMPLES (cho context Sweet Spot vs Harm)
+RELATED ANALYSIS
 ═══════════════════════════════════════════════════════
 
-  Anchor-Schema-Example.md — 20 healthy cases M/S/D/L/X spectrum
-  Anchor-Schema-Extreme-Example.md — 6 extreme cases Y1-Y6 +
-    Hardware-First Harm pattern
-    → Hardware-First Harm là điều giáo dục CẦN TRÁNH
-    → Delusion compile + body skip = harm invisible
-
-
-═══════════════════════════════════════════════════════
-META / PHILOSOPHICAL
-═══════════════════════════════════════════════════════
-
-  Honest.md — epistemological humility
-  Meta/ folder — framework about framework
+  Body-Base/Schema/Anchor-Schema.md — Trust + 4 nguồn fill
+  Domain/Expansion-Saturation-Crisis.md — grad unemployment context
+  Observation/Status.md v2.2 — status × education
+  Body-Base/Body-Coupling.md v3.0 — Hardware Subsidy mechanism
 
 
 ═══════════════════════════════════════════════════════
@@ -3403,11 +3634,11 @@ EXPECTED READER JOURNEY
 ═══════════════════════════════════════════════════════
 
   First-time reader (não có chunks framework):
-    1. Đọc Core-v7.5-Draft.md §1-§3 để có architecture
-    2. Đọc Imagination-Analysis-v2.md §1 để hiểu Imagine basics
+    1. Đọc Core-Hardware.md + Core-Software.md để có architecture
+    2. Đọc PFC/Imagination/Imagination.md §1 để hiểu Imagine basics
     3. Đọc FILE NÀY §0-§2 để có câu hỏi và mechanism
     4. Đọc FILE NÀY §7 cho implications
-    5. Đọc Education-Principles.md cho 10 nguyên lý concrete
+    5. Đọc Education-Mechanism.md cho nguyên lý concrete
 
   Return reader (đã có chunks):
     1. Đọc FILE NÀY §0 → §7 theo order
@@ -3415,8 +3646,8 @@ EXPECTED READER JOURNEY
     3. §8-§9 cho barriers + honest assessment
 
   Applied reader (muốn implement):
-    1. Đọc FILE NÀY § 7 kỹ
-    2. Đọc Education-Principles.md cho 10 nguyên lý
+    1. Đọc FILE NÀY §7 kỹ
+    2. Đọc Education-Mechanism.md cho nguyên lý
     3. Đọc Applications/Education/ cho specific implementations
     4. Đọc Hardware-Calibration.md cho calibration tools
     5. Áp dụng gradually, respect §7.7 transition reality
@@ -3424,10 +3655,12 @@ EXPECTED READER JOURNEY
 
 ---
 
-> *Domain-Mapping-Drive v1.0 — "Con người drive map domain không phải
+> *Domain-Mapping-Drive v2.0 — "Con người drive map domain không phải
 > vì phải — mà vì hardware được thiết kế để reward process.
 > Có sẵn = bypass process = bypass reward.
 > Chunks đủ + hardware fit + rich environment → self-sustaining novelty.
 > Giáo dục tương lai không tạo drive — chỉ unblock drive + guide nó.
 > 3 loại threat: KEEP domain + peer, REDUCE imposed.
+> Simulation Engine × Entity-Access × Bond-Architecture × Hardware Subsidy
+> → formalize cơ chế dưới mỗi nguyên tắc.
 > Transition chậm nhưng path rõ. Chậm mà chắc."*

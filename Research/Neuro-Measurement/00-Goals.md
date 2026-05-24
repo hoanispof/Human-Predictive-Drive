@@ -148,7 +148,7 @@ Trò chuyện vu vơ trong team = đo lường qualitative tự nhiên nhất.
 - **Neural efficiency** (Neubauer & Fink, 2009): Expert = ít activation hơn → EEG có thể track skill development?
 - **4 kiểu activation**: Gọn-ổn / rộng-ổn / rộng-nhảy / overload → EEG temporal stability phân biệt được
 - **Frontal asymmetry**: Left (approach) vs Right (avoidance) → trực tiếp map vào eustress vs distress
-- **Type A reward** (pattern match) vs implementation cost → alpha-theta crossover = Type A moment?
+- **Evaluative reward** (pattern match) vs implementation cost → alpha-theta crossover = Evaluative moment?
 - **Body-base feedback**: Thiết bị = "externalize" cái mà body đã biết nhưng chưa articulate
 - **PFC Configuration**: 6 modes → liệu EEG signature khác nhau giữa các config?
 - **COMT genotype**: Val/Val vs Met/Met → EEG baseline pattern khác nhau? (cần drill)
@@ -171,6 +171,6 @@ Trò chuyện vu vơ trong team = đo lường qualitative tự nhiên nhất.
 - Core-Deep-Dive/PFC/PFC-Hardware.md — COMT, DRD4, working memory hardware
 - Core-Deep-Dive/PFC/PFC-Configuration.md — 6 config modes, control spectrum
 - Core-Deep-Dive/PFC/PFC-Function.md — 24 functions, sub-region mapping
-- Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Signal-Architecture.md — Type A/B reward
+- Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Signal-Architecture.md — Evaluative/Direct-State reward
 - Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Mechanism.md — body signal processing
 - Core-Deep-Dive/Body-Base/Body-Feedback/Cortisol-Baseline.md — stress physiology

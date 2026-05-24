@@ -6,7 +6,7 @@ updated: 2026-05-15 (v3.1 — §10 3 misconceptions pattern + PTSD self-medicati
 status: REFERENCE v3.1
 scope: |
   OVERVIEW FILE: Nghiện HOẠT ĐỘNG THẾ NÀO qua v7.8 cycle-based architecture.
-  Chunk-loop hijack mechanism. Type A/B reward bypass. Body-Coupling × Withdrawal.
+  Chunk-loop hijack mechanism. Evaluative/Direct-State reward bypass. Body-Coupling × Withdrawal.
   PFC-Configuration × Addiction states. Recovery = re-compilation pathway.
   3 nhóm phân loại (Chemical / Behavioral / Schema-based) — NGUYÊN LÝ, không drill từng chất.
   Self-medication pattern. Honest Assessment + Open Questions.
@@ -17,7 +17,7 @@ purpose: |
     Các chất khác — drill sau nếu cần.
   Supersedes: Addiction-Analysis-v2.md (v7.5, backup/).
   v2 insight cốt lõi (dopamine ≠ reward, 4-phase, self-medication) → GIỮA LẠI, reframe v7.8.
-  v3.0 NEW: Type A/B hijack, Body-Coupling withdrawal, PFC-Configuration mapping,
+  v3.0 NEW: Evaluative/Direct-State hijack, Body-Coupling withdrawal, PFC-Configuration mapping,
   Recovery re-compilation, Compile-Taxonomy × Addiction, Reward-Calibration × Tolerance.
 position: Research/Chemical Hijack/ — OVERVIEW file, đọc trước substance-specific files.
 dependencies:
@@ -25,11 +25,11 @@ dependencies:
   - Core-Hardware.md v1.0 — 4 zones A/B/C/D, PFC reach gradient
   - Chunk.md v2.1 — chunk substrate, compile, trust gate
   - 03-Reward.md v1.1 — H10 5 preconditions, 7-step VTA, opioid = reward thật
-  - Reward-Signal-Architecture.md v1.0 — Type A/B, A₀→A₃, A Gates B, 5 Profiles
+  - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, E₀→E₃, Evaluative Gates Direct-State, 5 Profiles
   - Reward-Calibration.md v1.1 — Goldilocks per-gap, over-reward, premature compilation
   - Body-Feedback-Mechanism.md v1.2 — Sensory-Driven / Pattern-Driven, Chunk-Shift/Miss/Gap
   - Body-Coupling.md v1.1 — |❸| Depth × Direction, 3 Phase, Extension/Entanglement
-  - Compile-Taxonomy.md v1.1 — 3 Loại A/B/C, 4 pathways
+  - Compile-Taxonomy.md v2.0 — 3 Compile Types, 4 pathways
   - PFC-Configuration.md v1.0 — 6 dynamic modes
   - Cortisol-Baseline.md v2.0 — amplifier, 5 Roles, novelty vs threat
   - Dopamine-Is-Not-Reward.md v1.1 — dopamine ≠ reward, 7-step mechanism
@@ -70,7 +70,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §0 — VỊ TRÍ + SCOPE
 - §1 — SỬA MISCONCEPTION: "NGHIỆN DOPAMINE" LÀ SAI
 - §2 — CƠ CHẾ TỔNG QUÁT: CHUNK-REWARD LOOP HIJACK
-- §3 — TYPE A/B × ADDICTION: TẤN CÔNG REWARD BẰNG CÁCH NÀO
+- §3 — EVALUATIVE/DIRECT-STATE × ADDICTION: TẤN CÔNG REWARD BẰNG CÁCH NÀO
 - §4 — PHÂN LOẠI THEO CƠ CHẾ: 3 NHÓM
 - §5 — WITHDRAWAL = BODY-COUPLING DISRUPTION
 - §6 — PFC-CONFIGURATION × CÁC GIAI ĐOẠN NGHIỆN
@@ -174,8 +174,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │   Dopamine = chuông cửa. Không ai nghiện tiếng chuông.            │
   │   Nghiện = content đằng sau (opioid body reward).                  │
   │                                                                    │
-  │   v1.1 UPDATE: Opioid reward = primarily Type A (evaluative).     │
-  │   Type B reward (touch, exercise) = non-opioid pathways.           │
+  │   v1.1 UPDATE: Opioid reward = primarily Evaluative.     │
+  │   Direct-State reward (touch, exercise) = non-opioid pathways.           │
   │   Chi tiết: Reward-Signal-Architecture.md §1-§3.                  │
   └───────────────────────────────────────────────────────────────────┘
 
@@ -310,7 +310,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   PHASE 1 — PULL (lần đầu → vài lần):
 
-    Input → body reward THẬT (ít nhất lần đầu) → "sướng"
+    Input → body reward THẬT (ít nhất lần đầu) → "pleasant"
     → Body learns: [substance X → reward]
     → Chunk compile bắt đầu (Compile-Taxonomy: Pathway 1 — Hardware Fit)
 
@@ -349,9 +349,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       - Body state CỰC TỆ → dissonance cường độ CAO
     → Dùng = HẾT withdrawal (relief, KHÔNG phải euphoria ban đầu)
     → = REWARD TYPE THAY ĐỔI:
-      Phase 1: Pull reward = "sướng" (positive reinforcement)
+      Phase 1: Pull reward = "pleasant" (positive reinforcement)
       Phase 3: Push reward = "hết khổ" (negative reinforcement)
-    → RSA: reward shift từ Profile ① Sensory/② Coherence →
+    → Reward-Signal-Architecture: reward shift từ Profile ① Sensory/② Coherence →
       Profile ④ Relief (pain/dissonance stops = reward)
 
     🟢 Koob 2013 — negative reinforcement drives late-stage addiction.
@@ -390,8 +390,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Chất KHÔNG đi vào cửa trước (check) mà phá cửa sau (receptor).
 
   Ví dụ rượu:
-    → GABA↑ → relaxation THẬT (body-state improves) = Type B reward
-    → + opioid nhẹ (NAcc, Mitchell 2012) = Type A reward
+    → GABA↑ → relaxation THẬT (body-state improves) = Direct-State reward
+    → + opioid nhẹ (NAcc, Mitchell 2012) = Evaluative reward
     → Body-base check: "relaxation? ✅" → nhưng KHÔNG check:
       "relaxation CÓ PHỤ VỤ body-need lâu dài không?"
     → Body-base check = SHORT-TERM evaluator, không long-term planner.
@@ -406,20 +406,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §3 — TYPE A/B × ADDICTION: TẤN CÔNG REWARD BẰNG CÁCH NÀO
+## §3 — EVALUATIVE/DIRECT-STATE × ADDICTION: TẤN CÔNG REWARD BẰNG CÁCH NÀO
 
-### §3.1 — Nguyên lý: Chemical tấn công Type A hay Type B?
+### §3.1 — Nguyên lý: Chemical tấn công Evaluative hay Direct-State?
 
 ```
-🟡 REWARD CÓ 2 LOẠI (RSA v1.0 §1):
+🟡 REWARD CÓ 2 LOẠI (Reward-Signal-Architecture v1.0 §1):
 
-  Type A — EVALUATIVE CONFIRM:
+  Evaluative — EVALUATIVE CONFIRM:
     Circuit: Hedonic hotspot (NAcc shell, VP, mOFC). μ-opioid primary.
     H10: Full 5 preconditions REQUIRED.
     Learned: YES — quality depends on chunk library.
     Examples: Food, music, insight, social praise.
 
-  Type B — DIRECT STATE CONFIRM:
+  Direct-State — DIRECT STATE CONFIRM:
     Circuit: Interoceptive / body-state regulation. VARIES by modality.
     H10: Simplified (P1 basic, P2-P5 reduced/N/A).
     Learned: MINIMAL — hardware from birth.
@@ -430,9 +430,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ┌─────────────────────────────────────────────────────────────────────┐
   │                                                                     │
-  │  TYPE A HIJACK — "PHÁ CỬA SAU EVALUATION":                        │
+  │  EVALUATIVE HIJACK — "PHÁ CỬA SAU EVALUATION":                        │
   │                                                                     │
-  │    Normal Type A: Input → compiled chunks evaluate → match? →       │
+  │    Normal Evaluative: Input → compiled chunks evaluate → match? →       │
   │    hedonic hotspot → μ-opioid → reward.                             │
   │    = Qua CỔNG ĐÁNH GIÁ (evaluation gate).                          │
   │                                                                     │
@@ -443,13 +443,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │    Cocaine: block DAT → dopamine tràn + opioid indirect.           │
   │    Alcohol: opioid nhẹ ở NAcc (Mitchell 2012).                     │
   │                                                                     │
-  │    → Type A bị hijack = "quà giả giao THẲNG, không qua kiểm tra." │
+  │    → Evaluative bị hijack = "quà giả giao THẲNG, không qua kiểm tra." │
   │                                                                     │
   ├─────────────────────────────────────────────────────────────────────┤
   │                                                                     │
-  │  TYPE B HIJACK — "BODY-STATE THAY ĐỔI THẬT NHƯNG KHÔNG BỀN":     │
+  │  DIRECT-STATE HIJACK — "BODY-STATE THAY ĐỔI THẬT NHƯNG KHÔNG BỀN":     │
   │                                                                     │
-  │    Normal Type B: body activity → body-state DIRECTLY improves.     │
+  │    Normal Direct-State: body activity → body-state DIRECTLY improves.     │
   │    = Hardware pathway, ít phụ thuộc chunks.                         │
   │                                                                     │
   │    Chemical hijack: substance thay đổi body-state THẬT:             │
@@ -457,22 +457,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │    → Cannabis: endocannabinoid = relaxation THẬT                   │
   │    → Nicotine: NE nhẹ = alertness THẬT                            │
   │                                                                     │
-  │    Type B reward TỪ CHẤT = THẬT ở mức body-state.                 │
+  │    Direct-State reward TỪ CHẤT = THẬT ở mức body-state.                 │
   │    VẤN ĐỀ: body-state improvement KHÔNG BỀN,                      │
   │    + receptor adapt → tolerance → cần nhiều hơn.                    │
   │    + body-state KHÔNG improve nếu không dùng (withdrawal).          │
   │                                                                     │
-  │    → Type B bị hijack = "quà THẬT nhưng tạm thời + có giá."       │
+  │    → Direct-State bị hijack = "quà THẬT nhưng tạm thời + có giá."       │
   │                                                                     │
   ├─────────────────────────────────────────────────────────────────────┤
   │                                                                     │
   │  CẢ A + B ĐỒNG THỜI — NGUY HIỂM NHẤT:                            │
   │                                                                     │
   │    Hầu hết chất nghiện mạnh tấn công CẢ HAI TYPE:                 │
-  │    → Heroin: Type A (opioid trực tiếp) + Type B (pain relief)      │
-  │    → Cocaine: Type A (opioid indirect) + Type B (energy, alertness) │
-  │    → Alcohol: Type A (opioid nhẹ) + Type B (GABA relaxation)       │
-  │    → MDMA: Type A (serotonin → opioid cross) + Type B (warmth)     │
+  │    → Heroin: Evaluative (opioid trực tiếp) + Direct-State (pain relief)      │
+  │    → Cocaine: Evaluative (opioid indirect) + Direct-State (energy, alertness) │
+  │    → Alcohol: Evaluative (opioid nhẹ) + Direct-State (GABA relaxation)       │
+  │    → MDMA: Evaluative (serotonin → opioid cross) + Direct-State (warmth)     │
   │                                                                     │
   │    → Multi-channel attack = STRONGER hook:                          │
   │    body nhận reward từ NHIỀU nguồn đồng thời →                     │
@@ -482,14 +482,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟢 Berridge 2003 — hedonic hotspot opioid mechanism.
   🟢 Mitchell et al. 2012 — alcohol triggers endorphin in NAcc + OFC.
-  🟢 Fuss 2015 — endocannabinoid in exercise (Type B, non-opioid).
-  🟢 Löken 2009 — CT afferents (Type B touch pathway).
+  🟢 Fuss 2015 — endocannabinoid in exercise (Direct-State, non-opioid).
+  🟢 Löken 2009 — CT afferents (Direct-State touch pathway).
 ```
 
-### §3.2 — A Gates B mechanism × Addiction
+### §3.2 — Evaluative Gates Direct-State mechanism × Addiction
 
 ```
-🟡 NORMAL: TYPE A EVALUATION GATES TYPE B AMPLIFICATION (RSA §3):
+🟡 NORMAL: EVALUATIVE EVALUATION GATES DIRECT-STATE AMPLIFICATION (Reward-Signal-Architecture §3):
 
   Khi cả A và B fire đồng thời:
     A positive → B AMPLIFIED (ăn ngon + ấm áp = cả hai tốt hơn)
@@ -504,7 +504,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = Gate bị vô hiệu hóa → cả A + B fire "unfiltered."
 
     → Giải thích tại sao chất gây nghiện cảm giác "toàn diện":
-    không chỉ 1 loại sướng mà NHIỀU loại đồng thời (relaxation +
+    không chỉ 1 loại pleasant mà NHIỀU loại đồng thời (relaxation +
     euphoria + social ease + confidence...) = multi-type reward
     không có gate filtering.
 
@@ -662,7 +662,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     People-pleasing:
       → Chunk network: [người khác vui → connection reward] +
         [người khác không vui → connection threat]
-      → SPM F1 fire liên tục → body respond người khác → exhaust
+      → Self-Pattern-Modeling Compiled fire liên tục → body respond người khác → exhaust
       → Empathy v2.0: burnout = f(L1 cao / L2 thấp).
 
   RECOVERY schema-based = KHÓ NHẤT:
@@ -698,11 +698,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Argument AGAINST (quan trọng):
     → Entity coupling trong Body-Coupling.md = PER-AGENT (con người)
     → Substance = OBJECT, không phải agent
-    → VP §2: "Object KHÔNG BAO GIỜ có Body-Base Extension dimension"
-    → Coupling require SPM (Self-Pattern-Match) → substance có SPM không?
+    → Valence-Propagation §2: "Object KHÔNG BAO GIỜ có Body-Base Extension dimension"
+    → Coupling require Self-Pattern-Modeling (Self-Pattern-Modeling) → substance có Self-Pattern-Modeling không?
 
   RESOLUTION — PARTIAL COUPLING:
-    → Substance KHÔNG couple ở mức agent (no SPM, no L2 reward)
+    → Substance KHÔNG couple ở mức agent (no Self-Pattern-Modeling, no L2 reward)
     → Substance CÓ THỂ couple ở mức BODY-STATE:
       Body state khi dùng substance = "normal"
       Body state khi KHÔNG dùng = "abnormal, threatening"
@@ -729,7 +729,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → Removal chất = baseline bị PHÁ:
        hormone tự nhiên CỰC THẤP + receptor CHƯA upregulate kịp
 
-  ② CHUNK-MISS DYNAMICS (BFM §3):
+  ② CHUNK-MISS DYNAMICS (Body-Feedback-Mechanism §3):
      → Body EXPECT body-state X (có chất) → body-state X KHÔNG ĐẾN
      → = Chunk-Miss: expected pattern không match reality
      → Dissonance signal MẠNH — tỷ lệ thuận với mức độ expect
@@ -849,21 +849,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → = Environment xóa trigger surface → cho chunk mới cơ hội
 ```
 
-### §7.2 — Type B as Recovery Floor
+### §7.2 — Direct-State as Recovery Floor
 
 ```
-🟡 RSA V1.0 §1.4: TYPE B = "EVOLUTIONARY FLOOR" — ALWAYS AVAILABLE.
+🟡 Reward-Signal-Architecture V1.0 §1.4: DIRECT-STATE = "EVOLUTIONARY FLOOR" — ALWAYS AVAILABLE.
 
-  Type A (evaluative): CÓ THỂ bị damage bởi addiction
-    → Receptor downregulate → A₁-A₃ evaluation impaired
+  Evaluative: CÓ THỂ bị damage bởi addiction
+    → Receptor downregulate → E₁-E₃ evaluation impaired
     → Anhedonia: "ăn mà không thấy ngon, nghe nhạc mà trống rỗng"
 
-  Type B (direct state): HARDWARE-BASED → VẪN accessible
+  Direct-State: HARDWARE-BASED → VẪN accessible
     → Touch comfort: CT afferents VẪN hoạt động
     → Exercise: endocannabinoid pathway VẪN hoạt động
     → Warmth, stretching: interoceptive pathways VẪN hoạt động
 
-  → TYPE B = "BACKDOOR" KHI TYPE A BỊ STUCK:
+  → DIRECT-STATE = "BACKDOOR" KHI EVALUATIVE BỊ STUCK:
     → Anhedonia (A exhausted) → B vẫn có thể provide BASELINE reward
     → Body-oriented approaches: exercise, massage, yoga, nature walk
     → 🟢 Van der Kolk 2014: body-oriented therapy effective for trauma/addiction
@@ -882,23 +882,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 CONNECTION.MD V3.1 + BODY-COUPLING.MD V1.1:
 
   Social connection provides:
-    → L1 reward (SPM-owned, momentary — gặp bạn → cảm giác tốt)
+    → L1 reward (Self-Pattern-Modeling-owned, momentary — gặp bạn → cảm giác tốt)
     → L2 reward (Entity-compiled, structural — bạn thân = body-base extension)
     → = ALTERNATIVE reward source không cần substance
 
   Recovery programs (AA, NA, therapy groups):
     → Group = connection reward THẬT
-    → Shared experience = SPM F1 fire → empathy → L1 reward
+    → Shared experience = Self-Pattern-Modeling Compiled fire → empathy → L1 reward
     → Sustained relationship = L2 coupling builds → structural support
     → = Body-Coupling: positive coupling với người MỚI →
       competing với substance "coupling"
 
   ⚠️ NHƯNG:
     → Addiction đã DAMAGE connection capacity:
-      - PFC weakened → SPM impaired → connection khó hơn
+      - PFC weakened → Self-Pattern-Modeling impaired → connection khó hơn
       - Trust chunks: nhiều người nghiện đã phá trust → chunk [people → threat]
-      - Isolation → ít connection chunks → SPM library NGHÈO
-    → = Recovery cần PATIENCE + safe context cho SPM rebuild
+      - Isolation → ít connection chunks → Self-Pattern-Modeling library NGHÈO
+    → = Recovery cần PATIENCE + safe context cho Self-Pattern-Modeling rebuild
 
   🟢 Heilig et al. 2016 — social factors in addiction recovery.
   🟢 Kelly et al. 2020 — AA mechanism: social network change.
@@ -959,7 +959,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → Boredom → Boredom.md: Imagine-Final chưa rõ + dissonance nhẹ liên tục
 
   ② Substance GIẢM dissonance THẬT (ngắn hạn):
-     → Alcohol: GABA↑ → anxiety GIẢM THẬT (Type B: body-state improves)
+     → Alcohol: GABA↑ → anxiety GIẢM THẬT (Direct-State: body-state improves)
      → Cannabis: endocannabinoid → relaxation THẬT
      → Opioids: pain relief THẬT (cả physical VÀ emotional pain)
      → = Body-Feedback-Mechanism.md: Chunk-Miss giảm (expected state MET)
@@ -1017,14 +1017,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Body-oriented therapy effective      │ 🟢 Van der Kolk 2014  │
   ├──────────────────────────────────────┼──────────────────────┤
   │ H10 bypass model (§2.1)             │ 🟡 Framework synthesis │
-  │ Type A/B × addiction mapping (§3)   │ 🟡 Framework synthesis │
+  │ Evaluative/Direct-State × addiction mapping (§3)   │ 🟡 Framework synthesis │
   │ 4-phase × chunk dynamics (§2.2)     │ 🟡 Framework synthesis │
   │ PFC-Config × addiction stages (§6)  │ 🟡 Framework synthesis │
   │ Recovery = re-compilation (§7)      │ 🟡 Framework synthesis │
   │ Schema-based addiction (§4.3)       │ 🟡 Framework synthesis │
   ├──────────────────────────────────────┼──────────────────────┤
   │ Substance as body-coupling (§5.1)   │ 🔴 Hypothesis          │
-  │ A Gates B bypass model (§3.2)       │ 🔴 Hypothesis          │
+  │ Evaluative Gates Direct-State bypass model (§3.2)       │ 🔴 Hypothesis          │
   │ Addiction severity formula (§3.2)   │ 🔴 Hypothesis          │
   │ Config oscillation model (§6)       │ 🔴 Hypothesis          │
   └──────────────────────────────────────┴──────────────────────┘
@@ -1044,14 +1044,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   FRAMEWORK THÊM:
     → H10 bypass model: formalize TẠI SAO substance bypass body-base check
-    → Type A/B × addiction: formalize LOẠI REWARD NÀO bị tấn công
+    → Evaluative/Direct-State × addiction: formalize LOẠI REWARD NÀO bị tấn công
     → Chunk competition model: recovery = new chunks vs addiction chunks
     → PFC-Configuration × stages: formalize PFC state per-phase
     → Compile-Taxonomy × recovery: 4 pathways for building competing chunks
 
   FRAMEWORK CHƯA GIẢI QUYẾT:
     → Substance as coupled entity: partial hypothesis, chưa rõ mechanism
-    → A Gates B bypass: logical but untested
+    → Evaluative Gates Direct-State bypass: logical but untested
     → Individual variation: DRD4 × substance-specific → cần research
     → Behavioral addiction boundary: khi nào "thói quen" thành "nghiện"?
 ```
@@ -1116,7 +1116,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   REWARD SYSTEM (bị hijack):
     → 03-Reward.md v1.1 — H10 5 preconditions, 7-step VTA
-    → Reward-Signal-Architecture.md v1.0 — Type A/B, A₀→A₃, A Gates B
+    → Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, E₀→E₃, Evaluative Gates Direct-State
     → Reward-Calibration.md v1.1 — Goldilocks, over-reward, premature compilation
     → Dopamine-Is-Not-Reward.md v1.1 — dopamine ≠ reward, 7 bằng chứng
     → Liking-Wanting.md v1.0 — bridge Berridge, wanting mechanisms
@@ -1132,7 +1132,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → PFC-Hardware.md v1.1 — COMT, DRD4, individual variation
 
   COMPILE + RECOVERY:
-    → Compile-Taxonomy.md v1.1 — 3 Loại A/B/C, 4 pathways
+    → Compile-Taxonomy.md v2.0 — 3 Compile Types, 4 pathways
     → Background-Pattern.md v1.1 — invisible bias, sleep = accelerator
     → Connection.md v3.2 — social coupling, L1/L2 reward
 

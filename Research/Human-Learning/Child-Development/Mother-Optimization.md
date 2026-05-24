@@ -1076,7 +1076,7 @@ VẤN ĐỀ THỰC TẾ: ỐM NGHÉN TRIMESTER 1
 
   GỢI Ý KHI ỐM NGHÉN:
     → Ăn ít + nhiều bữa (thay vì 3 bữa lớn)
-    → Thức ăn khô (bánh mì, bánh quy) có thể dễ chịu hơn
+    → Thức ăn khô (bánh mì, bánh quy) có thể comfortable hơn
     → Nước + electrolytes: hydration quan trọng hơn food
     → Folic acid: supplement viên (dễ hơn đủ từ food khi nôn)
     → Ốm nghén NẶNG (hyperemesis gravidarum) = CẦN gặp BS

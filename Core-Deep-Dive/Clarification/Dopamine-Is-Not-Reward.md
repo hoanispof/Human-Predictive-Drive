@@ -29,7 +29,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 # Dopamine-Is-Not-Reward — Tại Sao Framework Bác Bỏ "Dopamine = Reward"
 
-> **Pop science + textbook cũ nói: "Dopamine = reward, dopamine = pleasure, dopamine hit = sướng."**
+> **Pop science + textbook cũ nói: "Dopamine = reward, dopamine = pleasure, dopamine hit = pleasant."**
 > **Framework nói: "KHÔNG. Dopamine = chuông cửa salience. Reward thật = opioid body-base."**
 >
 > File này giải thích TẠI SAO framework bác bỏ "dopamine = reward",
@@ -170,9 +170,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 │            Tích hợp với Imagine-Final (PFC workspace).                 │
 │                                                                        │
 │ v1.1 UPDATE: Framework REFINES further:                                │
-│   Opioid reward = primarily TYPE A (evaluative, cortical).             │
-│   TYPE B reward (touch, exercise) = non-opioid pathways                │
-│   (CT afferents, endocannabinoid). 7-step = mainly Type A.            │
+│   Opioid reward = primarily EVALUATIVE (cortical).                        │
+│   DIRECT-STATE reward (touch, exercise) = non-opioid pathways                │
+│   (CT afferents, endocannabinoid). 7-step = mainly Evaluative.            │
 │   Chi tiết: Reward-Signal-Architecture.md §1-§3                       │
 └───────────────────────────────────────────────────────────────────────┘
 ```
@@ -643,10 +643,10 @@ Khác cortisol case (scientific community đã align — rejection file thừa),
   Framework dùng "prediction-delta" thay cho PE / VTA delta. 3-tier label system.
 
 **Complement file (v1.1 NEW)**:
-- Reward-Signal-Architecture.md v1.0 — Type A/B dimension, 5 Profiles, Interaction Model
-  → Framework REFINES Berridge: opioid = primarily Type A (evaluative)
-  → Type B (direct state) = non-opioid (CT afferents, endocannabinoid)
-  → Naltrexone blocks Type A but NOT Type B (🟢 Loseth 2019, Siebers 2021)
+- Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State dimension, 5 Profiles, Interaction Model
+  → Framework REFINES Berridge: opioid = primarily Evaluative
+  → Direct-State = non-opioid (CT afferents, endocannabinoid)
+  → Naltrexone blocks Evaluative but NOT Direct-State (🟢 Loseth 2019, Siebers 2021)
 
 **Framework core sources** (dependency cho file này):
 - [03-Reward.md](../../Body-Base/Body-Feedback/03-Reward.md) — 7-step mechanism + H10 5 preconditions + 7 reward cases

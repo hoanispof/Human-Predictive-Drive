@@ -22,7 +22,7 @@ purpose: |
   KHI NÀO access trở thành vấn đề. File này cho biết CALIBRATION HOẠT ĐỘNG
   thế nào, TẠI SAO khó, và CÓ THỂ TRAIN."
 position: |
-  Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder Entity-Access, SPM, BPGR.
+  Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder Entity-Access, Self-Pattern-Modeling, By-Product-Gap-Resonance.
   Entity-Access.md §8 = summary + cross-ref đến file này.
   Entity-Access-Excess.md = WHEN excess territory (companion).
   File này = HOW calibration works (companion).
@@ -34,7 +34,7 @@ dependencies:
   - Simulation-Engine.md v1.0 — FOUNDATION: 1 engine, 3 components, reflection/rumination
   - PFC-Operations.md v1.0 — FOUNDATION: Hold/Suppress, Compiled/Fresh, PFC universal
   - Compiled-Fresh.md v2.0 — FOUNDATION: compiled quality, reversal, PFC shared budget
-  - Self-Pattern-Modeling.md v3.1 — FOUNDATION: F1/F2, SPM as Simulation Engine application
+  - Self-Pattern-Modeling.md v3.1 — FOUNDATION: Compiled/Fresh, Self-Pattern-Modeling as Simulation Engine application
   - Valence-Propagation.md v3.0 §3 — DEFINES Entity-Compiled + 3 subtypes
   - Body-Feedback-Mechanism.md v2.0 §3.3c — FOUNDATION: Gap→Miss baseline
   - Reward-Calibration.md v1.1 — PARALLEL: Goldilocks, cannot prescribe, dynamic equilibrium
@@ -61,7 +61,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Entity-Access Calibration = Reward-Calibration APPLIED to entity access:**
 > **"BAO NHIÊU entity-access là ENOUGH?"**
 >
-> **Quá ít → bond atrophy (no bids → no EC → drift apart).**
+> **Quá ít → bond atrophy (no bids → no Entity-Compiled → drift apart).**
 > **Quá nhiều → entity autonomy violated (suppress drive riêng).**
 > **Goldilocks = vùng giữa. KHÔNG CỐ ĐỊNH.**
 >
@@ -113,7 +113,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐⭐ ENTITY-ACCESS CALIBRATION v1.0:
 
   ENTITY-ACCESS (Entity-Access.md v1.1):
-    3-Factor Model: F1 Engine Mode × F2 Gap-Need Profile × F3 Access Confidence
+    3-Factor Model: Compiled Engine Mode × Fresh Gap-Need Profile × F3 Access Confidence
     Gradient: Mức 0 (Tool/Service) → Mức 5 (Excess)
     Entity-Owned = PFC LABEL for Mức 4-5 (observation, not mechanism)
 
@@ -166,10 +166,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Vùng        │ Entity-access state   │ Hệ quả                    │
     ├─────────────┼───────────────────────┼────────────────────────────┤
     │ UNDER       │ Quá ít access-seeking │ Bond atrophy: no bids →   │
-    │             │ "mặc kệ, ai lo nấy" │ no EC formation → drift    │
+    │             │ "mặc kệ, ai lo nấy" │ no Entity-Compiled formation → drift    │
     ├─────────────┼───────────────────────┼────────────────────────────┤
     │ GOLDILOCKS  │ Access-seeking vừa đủ │ Bond maintained: bids →   │
-    │             │ Responsive to entity  │ responses → EC ↑ → bond ↑ │
+    │             │ Responsive to entity  │ responses → Entity-Compiled ↑ → bond ↑ │
     │             │ feedback              │ Entity autonomy INTACT     │
     ├─────────────┼───────────────────────┼────────────────────────────┤
     │ OVER        │ Quá nhiều access      │ Entity drive suppressed:   │
@@ -227,14 +227,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                                                     │
   │ "Nếu tôi access/ép, entity sẽ experience gì?"                     │
   │                                                                     │
-  │ F1 Agent-mode SPM: model entity's internal state                   │
+  │ Compiled Agent-mode Self-Pattern-Modeling: model entity's internal state                   │
   │   → predict response: "con sẽ feel bị ép → avoidance tag"         │
   │ Imagine-Final: simulate outcome                                     │
   │   → "nếu ép ăn → con ghét ăn dài hạn → bad outcome"              │
   │ = PFC draft prediction BEFORE acting                               │
   │                                                                     │
-  │ ⚠️ REQUIRES: F1 ≥ Agent-mode (Entity-Access.md §1.1)             │
-  │ ⚠️ FAILS when: F1 = Tool-mode (predict behavior, not state)       │
+  │ ⚠️ REQUIRES: Compiled ≥ Agent-mode (Entity-Access.md §1.1)             │
+  │ ⚠️ FAILS when: Compiled = Tool-mode (predict behavior, not state)       │
   │   Tool-mode: "con ăn chưa?" (function check, no state model)      │
   │   Agent-mode: "con có đói thật không? con feel gì?" (state model) │
   │                                                                     │
@@ -256,7 +256,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CALIBRATION = ALL 3 LAYERS ĐỒNG THỜI:
     Layer 1: detect own gap source (A/B/C/D)
-    Layer 2: predict entity experience (F1 Agent-mode)
+    Layer 2: predict entity experience (Compiled Agent-mode)
     Layer 3: integrate entity feedback → adjust
     → LOOP: observe → predict → act → entity responds → observe → ...
 
@@ -268,7 +268,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Layer 1        │ Blind to own gap source  │ Mẹ "thương thật" mà   │
     │ (interoception)│ → C invisible → no adjust│ không biết đang anxious│
     ├────────────────┼──────────────────────────┼────────────────────────┤
-    │ Layer 2        │ Cannot predict entity    │ F1 Tool-mode: "con ăn │
+    │ Layer 2        │ Cannot predict entity    │ Compiled Tool-mode: "con ăn │
     │ (simulation)   │ experience → ép without  │ chưa?" (no state model)│
     │                │ understanding impact     │                        │
     ├────────────────┼──────────────────────────┼────────────────────────┤
@@ -387,7 +387,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   SO SÁNH PER BOND TYPE:
 
     ┌──────────────┬───────────┬───────────────┬─────────────────────────┐
-    │ Bond type    │ Hw subsidy│ Bias level    │ Detection difficulty     │
+    │ Bond type    │ Hardware subsidy│ Bias level    │ Detection difficulty     │
     ├──────────────┼───────────┼───────────────┼─────────────────────────┤
     │ Mẹ→con      │ MAXIMUM   │ MAXIMUM       │ HARDEST: A always       │
     │ (Mức 4-5)    │           │               │ present → always "cover" │
@@ -429,9 +429,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ COMPILED ENTITY-ACCESS = BELOW PFC → CALIBRATION IMPOSSIBLE:
 
   Compiled-Fresh.md §6 Quality Dimension:
-    Genuine-compiled → approach tag → SPM expansive
-    Schema-compiled → neutral tag → SPM limited
-    Threat-compiled → avoidance tag → SPM biased
+    Genuine-compiled → approach tag → Self-Pattern-Modeling expansive
+    Schema-compiled → neutral tag → Self-Pattern-Modeling limited
+    Threat-compiled → avoidance tag → Self-Pattern-Modeling biased
 
   APPLIED TO ENTITY-ACCESS BEHAVIORS:
 
@@ -465,9 +465,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CASCADING EFFECT (Entity-Access.md §9: 4-Trục):
     Trục 4 depleted
-    → PFC budget ↓ → F1 shifts toward Tool-mode
+    → PFC budget ↓ → Compiled shifts toward Tool-mode
     → Layer 1 (interoception) ↓: body signal ignored
-    → Layer 2 (simulation) ↓: F1 Tool-mode default
+    → Layer 2 (simulation) ↓: Compiled Tool-mode default
     → Layer 3 (feedback integration) ↓: compiled override
     → ALL 3 calibration layers FAIL SIMULTANEOUSLY
     → Entity-access = auto-pilot = excess hoặc withdrawal territory
@@ -513,7 +513,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Cortisol direction: NOVELTY → approach tag
     Body state: relaxed, open, exploratory
-    F1: Agent-mode (curious about entity's actual state)
+    Compiled: Agent-mode (curious about entity's actual state)
     PFC role: observe + simulate + compare + adjust
 
   THREAT MODE (destructive calibration):
@@ -529,7 +529,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Cortisol direction: THREAT → avoidance tag
     Body state: tense, contracted, defensive
-    F1: biased (project fear onto entity)
+    Compiled: biased (project fear onto entity)
     PFC role: judge + loop + stuck
 
   ⭐ WHY THIS MATTERS:
@@ -564,8 +564,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     NOT Permissive (low demand + high responsiveness)
 
     Framework mapping:
-      Authoritative = justified C + F1 Agent-mode (demand BUT responsive)
-      Authoritarian = C+D dominant + F1 Tool-mode (demand, no responsiveness)
+      Authoritative = justified C + Compiled Agent-mode (demand BUT responsive)
+      Authoritarian = C+D dominant + Compiled Tool-mode (demand, no responsiveness)
       Permissive = zero C → under entity-access → child lacks structure
       Neglectful = zero everything → no bond
 
@@ -579,7 +579,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Framework mapping:
       Structure = justified C (parent sets boundary)
-      Autonomy support = F1 Agent-mode (observe entity state, respect drive)
+      Autonomy support = Compiled Agent-mode (observe entity state, respect drive)
       Control = C without Agent-mode (ignore entity state, impose my gap direction)
 
     → "Ép uống thuốc" + explain + acknowledge = structure + autonomy
@@ -597,7 +597,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ZERO bids = ZERO interaction = bond DIES
 
     → Mild entity-access expression = NECESSARY for bond maintenance
-    → ZERO entity-access = relationship death (no bids → no interaction → EC decay)
+    → ZERO entity-access = relationship death (no bids → no interaction → Entity-Compiled decay)
 
   ENTITY-ACCESS SPECTRUM REFINED:
 
@@ -635,7 +635,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     CAN self-process → C problematic (career choice, friend choice, food pref.)
 
     Lifecycle: C justified GIẢM DẦN as entity develops
-    Parent GIỎI: shift C→B theo entity's development (→ B-dominant destination)
+    Parent GIỎI: shift C→B theo entity's development (→ Compilable-dominant destination)
     Parent STUCK: C stays high dù entity đã capable → excess (Mức 5)
 
   🟢 Authoritative parenting: Baumrind 1966, 1991 (R1)
@@ -676,7 +676,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       = Entity-access excess from 1 side → partner's feedback = withdrawal
       = Calibration signal EXISTS but IGNORED (escalation override)
 
-    Healthy romantic: "đòi chút" = bid → partner responds → mutual EC ↑
+    Healthy romantic: "đòi chút" = bid → partner responds → mutual Entity-Compiled ↑
     → Ranh giới: partner CAN say "not now" → ACCEPTED → calibrated
 
   PARENT→CHILD (Mức 4-5) — INTERNAL CALIBRATION ONLY:
@@ -701,7 +701,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Gap source: D dominant (obligation, contract)
     Exit cost: MODERATE (career consequences)
     Hardware subsidy: ZERO
-    Entity-access: LOW (mostly F1 Tool-mode)
+    Entity-access: LOW (mostly Compiled Tool-mode)
     Calibration: EXTERNAL structures (HR, norms, contracts) → prescribed
 
     VD: Boss entity-access toward employee
@@ -729,11 +729,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Timeline: months (body-readout skill, trainable — Fukushima 2011)
 
   MODE 2 — TOOL-MODE (Layer 2 fail):
-    F1 = Tool → cannot model entity's internal state → act without predicting impact
-    Source: F1 never developed for this entity, or degraded by depletion
+    Compiled = Tool → cannot model entity's internal state → act without predicting impact
+    Source: Compiled never developed for this entity, or degraded by depletion
     Looks like: "Con ăn chưa?" (function check, not "con feel gì?")
     Fix: Agent-mode practice, deliberate curiosity about entity's state
-    Timeline: weeks-months (F1 shift, requires sustained Fresh practice)
+    Timeline: weeks-months (Compiled shift, requires sustained Fresh practice)
 
   MODE 3 — OVERRIDE (Layer 3 fail):
     Entity responds but compiled pattern fires → feedback NOT integrated
@@ -830,7 +830,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → "Tôi đang anxious" detectable BEFORE behavior fires
       → 🟢 Fukushima 2011: interoceptive accuracy → empathic accuracy
 
-    ② F1 DEPTH (Layer 2):
+    ② Compiled DEPTH (Layer 2):
       Deliberate curiosity: "entity đang feel gì nhỉ?"
       → Practice Agent-mode (model internal state, not just behavior)
       → More diverse interaction → sharper models (Mitchell 2006)
@@ -899,14 +899,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ (tool)   │              │              │ no state modeling → no C     │
   ├──────────┼──────────────┼──────────────┼──────────────────────────────┤
   │ Mức 1-2  │ LOW          │ NATURAL      │ Shallow compile → easy to    │
-  │ (unlabel)│              │ DRIFT        │ let go. No hw bias. EC weak. │
+  │ (unlabel)│              │ DRIFT        │ let go. No hardware bias. Entity-Compiled weak. │
   │          │              │              │ "Barista đổi quán" = natural │
   ├──────────┼──────────────┼──────────────┼──────────────────────────────┤
   │ Mức 3    │ LOW-MOD      │ EXTERNAL     │ Exit easy → friend's "no" =  │
   │ (bạn)    │              │ (exit cost)  │ strong signal → self-correct │
-  │          │              │              │ Hw=0 → no bias → C visible  │
+  │          │              │              │ Hardware=0 → no bias → C visible  │
   ├──────────┼──────────────┼──────────────┼──────────────────────────────┤
-  │ Mức 4    │ HIGH         │ INTERNAL     │ Exit cost ↑ + hw subsidy →   │
+  │ Mức 4    │ HIGH         │ INTERNAL     │ Exit cost ↑ + hardware subsidy →   │
   │ (Entity- │              │ (self-aware  │ C MASKED. PFC = "phần đời   │
   │ Owned)   │              │ + Trục 2)    │ tôi" → rationalize. Need    │
   │          │              │              │ 3-Layer actively.            │
@@ -921,14 +921,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Mức 1-3: SELF-CORRECTING
       → Exit cost low → environment provides calibration signals
-      → Hw subsidy = zero or low → C/D visible → easy to detect
+      → Hardware subsidy = zero or low → C/D visible → easy to detect
       → 3-Layer Architecture = useful but not CRITICAL
       → "Barista quá thân → đổi quán" = natural calibration at Mức 1
       → "Bạn kiểm soát nhau → bạn exit" = natural calibration at Mức 3
 
     Mức 4: CRITICAL ZONE
       → Exit cost rising → entity's "no" = weakening signal
-      → Hw subsidy present → C masked as A → hard to detect
+      → Hardware subsidy present → C masked as A → hard to detect
       → 3-Layer Architecture = ESSENTIAL
       → Self-Awareness (Trục 2) = DIFFERENCE MAKER
       → This is WHERE calibration matters most and is hardest
@@ -956,7 +956,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Adult child CAN exit → signal weight ↑
       → "Con busy" = effective calibration signal
       → Parent→adult child: dynamics SHIFT toward friendship (Mức 3)
-      → = B-dominant destination (Entity-Access.md §3.5): C→B trajectory
+      → = Compilable-dominant destination (Entity-Access.md §3.5): C→B trajectory
 
   🟡 Calibration × Mức gradient = framework synthesis
   🟡 Mức 4 = critical calibration zone = framework synthesis
@@ -1010,7 +1010,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 CÁI FRAMEWORK THÊM vs CÁI ĐÃ CÓ:
   Research đã biết: authoritative parenting best, mentalization trainable,
   burnout hurts parenting, bids maintain bonds.
-  Framework THÊM: unifying MODEL explaining WHY (3-layer + exit cost + hw bias
+  Framework THÊM: unifying MODEL explaining WHY (3-layer + exit cost + hardware bias
   + per-Mức analysis), connecting to broader architecture.
   = Organizing principle, not new discovery.
 ```
@@ -1027,7 +1027,7 @@ CÁI FRAMEWORK THÊM vs CÁI ĐÃ CÓ:
 | Compiled-Fresh.md v2.0 | §6, §9, §10 | FOUNDATION: compiled quality + PFC budget + reversal |
 | Simulation-Engine.md v1.0 | §1, §9, §11 | FOUNDATION: 3 components + reflection/rumination + training |
 | PFC-Operations.md v1.0 | §1-§7 | FOUNDATION: Hold/Suppress, Compiled/Fresh, PFC universal |
-| Self-Pattern-Modeling.md v3.1 | §0-§3 | FOUNDATION: F1/F2, SPM as Simulation Engine application |
+| Self-Pattern-Modeling.md v3.1 | §0-§3 | FOUNDATION: Compiled/Fresh, Self-Pattern-Modeling as Simulation Engine application |
 | Reward-Calibration.md v1.1 | §1, §5 | PARALLEL: general reward calibration principle |
 | Logic-Feeling-Balance.md v1.0 | §6-§7 | PARALLEL: cannot prescribe + infinite regress |
 | Connection.md v4.0 | §9 | COMPANION: 2-body calibration dynamic equilibrium |

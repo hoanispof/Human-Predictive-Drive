@@ -43,15 +43,15 @@ dependencies:
   - Cortisol-Baseline.md v2.1 — cortisol modes, baseline drift
   - Imagine-Final-Evaluation.md — Imagine-Final clarity
   - Feeling.md v3.0 — PFC observation interface
-  - Inter-Body-Mechanism.md v1.0 — Architecture B §1.2, Compiled/Fresh §3
+  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture §1.2, Compiled/Fresh §3
   - PFC-Operations.md v1.0 — Hold/Suppress, compiled suppress pathways §8, PFC budget §9
-  - Entity-Compiled.md v1.0 — Formation 40→200h, EC saturation (M4 reference)
+  - Entity-Compiled.md v1.0 — Formation 40→200h, Entity-Compiled saturation (M4 reference)
   - Entity-Access.md v1.0 — Gradient Mức 0-5 (entity-level boredom)
   - Simulation-Engine.md v1.0 — boredom = idle state khi engine không có target
   - By-Product-Gap-Resonance.md v1.1 — resonance decline M1-M4 §10, gap-clone §9
-  - Self-Pattern-Modeling.md v3.1 — SPM-oversimplify-clone, prediction completion
+  - Self-Pattern-Modeling.md v3.1 — Self-Pattern-Modeling-oversimplify-clone, prediction completion
   - Gap-Direction.md v2.0 — gap = f(surrounding chunks), "chưa biết = không gap"
-  - Background-Pattern.md v1.1 — BP resist gap shift
+  - Background-Pattern.md v1.1 — Background-Pattern resist gap shift
   - Body-Coupling.md v2.0 — couple-level boredom dynamics
   - Valence-Propagation.md v2.0 — valence during boredom
   - Connection.md v4.0 — "cô đơn giữa đám đông" = source ⑥ territory
@@ -128,21 +128,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Boredom: KHÔNG CÓ HƯỚNG (có dissonance, không có target)
 
 
-⭐ ARCHITECTURE B — TẠI SAO "BOREDOM" TỒN TẠI (IBM §1.2):
+⭐ COMPILABLE ARCHITECTURE — TẠI SAO "BOREDOM" TỒN TẠI (Inter-Body-Mechanism §1.2):
 
-  Architecture A (côn trùng): hardwired stimulus→response.
+  Hardwired Architecture (côn trùng): hardwired stimulus→response.
   KHÔNG CÓ "boredom" — vì không có general-purpose system cần input.
   Không stimulus = standby. Có stimulus = respond. Không "thiếu gì đó."
 
-  Architecture B (humans):
+  Compilable Architecture (humans):
   General-purpose system LUÔN CẦN input để process + compile →
   khi KHÔNG CÓ active gap (mọi thứ compiled, channels tĩnh) →
   system = IDLE → body signal "resources available but unused" →
   = "Boredom" EMERGE.
 
   → Boredom = ADAPTIVE: push organism tìm input mới → compile → grow.
-  → CHỈ Architecture B organisms CÓ THỂ "chán."
-  🟡 Architecture B boredom = framework synthesis (IBM §1.2).
+  → CHỈ Compilable Architecture organisms CÓ THỂ "chán."
+  🟡 Compilable Architecture boredom = framework synthesis (Inter-Body-Mechanism §1.2).
 
 
 ⚠️ VTA / DOPAMINE KHÔNG LIÊN QUAN TRỰC TIẾP:
@@ -191,7 +191,7 @@ CHANGELOG:
   v2.0 (2026-05-22): REWRITE. +Source ⑥, +M1-M4, +Unified formula reframe,
     +Threshold model, +3 conditions, +4 trục mới, +Abundance,
     +Historical, +Phase A integration. Source: Drill-Boredom-Mechanism v2.0.
-  v1.1 (2026-05-17): +Architecture B, +Compiled/Fresh lens, +IBM refs.
+  v1.1 (2026-05-17): +Compilable Architecture, +Compiled/Fresh lens, +Inter-Body-Mechanism refs.
   v1.0 (2026-04-20): viết mới cho v7.8 cycle-based architecture.
   Rewrite từ: Boredom-Analysis.md (Research/, 722L, 2026-03-30).
 ```
@@ -276,7 +276,7 @@ CHANGELOG:
   → Imagine-Final THAY ĐỔI cách PFC XỬ LÝ dissonance:
       Mờ: body khó chịu + PFC không giải quyết được = CHÁN
       Rõ: body khó chịu + PFC biết sẽ giải quyết khi nào/cách nào = CHỊU
-  → Imagine-Final biến "chán" (bế tắc) thành "investment cost" (có hướng).
+  → Imagine-Final biến "chán" (stuck) thành "investment cost" (có hướng).
 
   🟡 Framework synthesis.
   🟢 Prospection changes experience (Seligman 2013).
@@ -401,7 +401,7 @@ M2 — HABITUATION (Weber-Fechner):
   🟢 Bao & Lyubomirsky 2013: hedonic adaptation in relationships.
 
 M3 — PREDICTION COMPLETION:
-  SPM compiled sâu → predict partner hoàn hảo → no prediction-delta.
+  Self-Pattern-Modeling compiled sâu → predict partner hoàn hảo → no prediction-delta.
   → No new gap fill → no new reward.
   🟢 Baumeister & Bratslavsky 1999: passion = rate of change.
 
@@ -433,9 +433,9 @@ TƯƠNG TÁC:
 ⭐ GAP-CLONE = KIẾN TRÚC KHÔNG CHO PHÉP:
 (Full proof: By-Product-Gap-Resonance v1.1 §9.1)
 
-  ① Gap = f(TOÀN BỘ chunk network) — SPM chỉ thêm SUB-SET.
+  ① Gap = f(TOÀN BỘ chunk network) — Self-Pattern-Modeling chỉ thêm SUB-SET.
   ② Hebbian: chunks cũ KHÔNG xóa → gap direction vẫn riêng.
-  ③ Background Pattern RESIST (years, high density).
+  ③ Background-Pattern RESIST (years, high density).
   ④ Hardware gaps IMMUTABLE (DNA).
   ⑤ Twin test (DECISIVE): hardware gần giống hệt → gap VẪN khác.
 
@@ -449,13 +449,13 @@ TƯƠNG TÁC:
   🟢 Bouchard 1990: twins similar but NOT identical.
 ```
 
-### §3.3 — SPM-oversimplify-clone: tại sao PFC tưởng "giống nhau"
+### §3.3 — Self-Pattern-Modeling-oversimplify-clone: tại sao PFC tưởng "giống nhau"
 
 ```
-  SPM OBSERVE BEHAVIOR, KHÔNG OBSERVE GAP STRUCTURE:
+  Self-Pattern-Modeling OBSERVE BEHAVIOR, KHÔNG OBSERVE GAP STRUCTURE:
 
     Target behavior: "ăn phở, mặt vui."
-    SPM retrieve own chunks: [phở → ngon → vui].
+    Self-Pattern-Modeling retrieve own chunks: [phở → ngon → vui].
     Template match: "chắc HỌ cũng cùng lý do."
     PFC label: "chúng tôi giống nhau — cùng thích phở."
 
@@ -466,7 +466,7 @@ TƯƠNG TÁC:
     → NHƯNG resonance VẪN HOẠT ĐỘNG: cả 2 "vui khi ăn cùng."
     → By-product match ở META-LEVEL, không cần match ở CONTENT level.
 
-  🟡 SPM-oversimplify-clone = framework synthesis.
+  🟡 Self-Pattern-Modeling-oversimplify-clone = framework synthesis.
   🟢 Projection bias (Krueger 2007). False consensus (Ross et al. 1977).
 ```
 
@@ -496,7 +496,7 @@ LOẠI 2 — RÕ RÀNG (dissonance rõ + Imagine-Final có nhưng bị lock):
   → Imagine-Final: CÓ hướng ("muốn đổi nghề") nhưng:
     → Đổi sang gì cụ thể? → chưa rõ.
     → Rủi ro? → threat lock (Threat.md §6).
-  → = BIẾT muốn gì + KHÔNG LÀM ĐƯỢC → bế tắc.
+  → = BIẾT muốn gì + KHÔNG LÀM ĐƯỢC → stuck.
   → Nếu nhận offer cụ thể → Imagine-Final rõ → "chán" → "đếm ngày."
   Fix: Hướng B — làm rõ Imagine-Final (§10).
 
@@ -538,7 +538,7 @@ LOẠI 3 — TRỐNG (dissonance từ trống + Imagine-Final gần zero):
 
   Thường LOẠI 2: biết "chán partner" nhưng Imagine-Final bị lock.
     Schema "phải ở cùng" + exit cost + Entity-Compiled intact.
-    = BIẾT vấn đề + KHÔNG LÀM ĐƯỢC → bế tắc.
+    = BIẾT vấn đề + KHÔNG LÀM ĐƯỢC → stuck.
 
   Có thể LOẠI 1: "nhạt nhẽo" mà không biết vì sao.
     Compiled suppress = invisible → PFC KHÔNG detect source ⑥.
@@ -589,10 +589,10 @@ LOẠI 3 — TRỐNG (dissonance từ trống + Imagine-Final gần zero):
   🟢 Below optimal arousal → bored (Berlyne 1960).
 ```
 
-### §5.2 — Compiled/Fresh lens (IBM integration)
+### §5.2 — Compiled/Fresh lens (Inter-Body-Mechanism integration)
 
 ```
-⭐ BOREDOM = THIẾU FRESH INPUT (IBM §3):
+⭐ BOREDOM = THIẾU FRESH INPUT (Inter-Body-Mechanism §3):
 
   COMPILED ENVIRONMENT = environment ĐÃ compile HOÀN TOÀN:
     Body đã "biết" mọi pattern → VTA habituated.
@@ -614,7 +614,7 @@ LOẠI 3 — TRỐNG (dissonance từ trống + Imagine-Final gần zero):
     → Expert threshold chán CAO hơn trong domain đó.
     → Beginner threshold chán THẤP hơn (mọi thứ đều fresh).
 
-  🟡 Compiled/Fresh boredom = framework synthesis (IBM §3).
+  🟡 Compiled/Fresh boredom = framework synthesis (Inter-Body-Mechanism §3).
 ```
 
 ---
@@ -804,7 +804,7 @@ TRỤC 6 — ABUNDANCE LEVEL (★ NEW):
 
   ② Abundance → hardware gaps mostly filled:
      Body's general-purpose system = IDLE.
-     = Architecture B signal: "resources available, nothing to process."
+     = Compilable Architecture signal: "resources available, nothing to process."
 
   ③ IDLE system → higher-level gaps EMERGE:
      More exposure → more chunks → more gaps.
@@ -969,7 +969,7 @@ FIX THEO SOURCE ①-⑤:
     Mỗi người grow ở domain riêng → new by-products → new match.
     🟢 Baumeister & Bratslavsky 1999: passion = rate of change.
 
-  M4 (EC saturation) → FIX: SHARED NEW CHUNKS.
+  M4 (Entity-Compiled saturation) → FIX: SHARED NEW CHUNKS.
     Try new activity TOGETHER → new Entity-Compiled chunks compile.
     🟢 Aron 2000: novel + challenging + shared → satisfaction.
 
@@ -1057,19 +1057,19 @@ FIX THEO SOURCE ①-⑤:
 ```
   BOREDOM × PFC-OPERATIONS:
 
-  COMPILED SUPPRESS (PFC-Ops §8):
+  COMPILED SUPPRESS (PFC-Operations §8):
     M1 = compiled suppress gap riêng → boredom source ⑥.
     Compiled suppress → flat affect → PFC label "bình thường" → INVISIBLE boredom.
     Escalation: compiled suppress nhiều domains → learned helplessness pathway.
     6-step reversal: detect → safe env → uncompile → process → build new → compile.
 
-  PFC BUDGET (PFC-Ops §9):
+  PFC BUDGET (PFC-Operations §9):
     PFC budget = FINITE, SHARED.
     Boredom + fix boredom = CẦN PFC budget.
     PFC mệt (overwork) → scan Imagine-Final KÉM → dễ "chán" dù có options.
     = Tại sao kiệt sức + chán CÓ THỂ xảy ra đồng thời (khác mechanism).
 
-  COMPILED QUALITY (PFC-Ops §5):
+  COMPILED QUALITY (PFC-Operations §5):
     Schema-compiled "tôi không bao giờ chán" → block awareness → Trục 3 tầng 2.
     Genuine-compiled contentment ≠ schema-compiled "bình thường" (khác tag).
 ```
@@ -1078,22 +1078,22 @@ FIX THEO SOURCE ①-⑤:
 
 ```
   BOREDOM × ENTITY-COMPILED (Entity-Compiled v1.0):
-    EC formation 40→80→200h diminishing returns → M4 saturation.
-    EC = brain compile agent vào body-base → predict reward → unmet = ⑥.
+    Entity-Compiled formation 40→80→200h diminishing returns → M4 saturation.
+    Entity-Compiled = brain compile agent vào body-base → predict reward → unmet = ⑥.
     Hub-and-Spoke: partner = hub entity → boredom ĐAU NHẤT.
     Grief A+B+C: mất entity → boredom END (but grief START).
 
   BOREDOM × ENTITY-ACCESS (Entity-Access v1.0):
     Entity-Access Mức 0-5 gradient:
       Mức 0-1: boredom unlikely (entity chưa significant).
-      Mức 3+: boredom potential TĂNG (EC predict reward → mismatch đau hơn).
+      Mức 3+: boredom potential TĂNG (Entity-Compiled predict reward → mismatch đau hơn).
       Mức 5: boredom = existential threat (entity = core identity).
 
   BOREDOM × SIMULATION ENGINE (Simulation-Engine v1.0):
     Boredom = engine IDLE state: NO active target to simulate.
     Simulation Engine RUN → exploring Imagine-Final → NOT boredom.
     Engine STUCK (no target, no direction) → boredom emerge.
-    = Architecture B: general-purpose system cần input. No input → idle signal.
+    = Compilable Architecture: general-purpose system cần input. No input → idle signal.
 ```
 
 ---
@@ -1184,7 +1184,7 @@ CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
   4 sub-mechanisms M1-M4 of source ⑥
   M1 as leverage point
   Gap-clone impossibility → M1-M4 explanation
-  SPM-oversimplify-clone mechanism
+  Self-Pattern-Modeling-oversimplify-clone mechanism
   "Chán" vs "ghét" threshold model
   3 conditions for boredom emergence
   4 new observation axes (Awareness, Social, Chronic/Acute, Abundance)
@@ -1197,7 +1197,7 @@ CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
   Expert vs beginner boredom threshold
   Bù tạm vs bù thật distinction
   Contentment = truly smooth ≠ boredom = NOT smooth
-  Architecture B idle signal → boredom emergence
+  Compilable Architecture idle signal → boredom emergence
   Boredom × PFC budget interaction
   Boredom × Entity-Access gradient
 
@@ -1227,18 +1227,18 @@ CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
     Core-v7.8-Draft.md §8 — observation parameters
     Body-Feedback-Mechanism.md v2.0 §3.2 — Chunk-Miss ⓑ = boredom substrate
     Cortisol-Baseline.md v2.1 — cortisol modes, baseline drift
-    Inter-Body-Mechanism.md v1.0 §1.2 — Architecture B idle signal
+    Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture idle signal
     Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh (compiled env → boredom)
 
   ← MECHANISM:
     PFC-Operations.md v1.0 §8 — compiled suppress pathways, 6-step reversal
     PFC-Operations.md v1.0 §9 — PFC budget, shared resource
-    Entity-Compiled.md v1.0 — Formation 40→200h, EC saturation (M4)
+    Entity-Compiled.md v1.0 — Formation 40→200h, Entity-Compiled saturation (M4)
     Entity-Access.md v1.0 — Gradient Mức 0-5, entity-level boredom
     Simulation-Engine.md v1.0 — boredom = engine idle state
     By-Product-Gap-Resonance.md v1.1 §9 — gap-clone impossible proof
     By-Product-Gap-Resonance.md v1.1 §10 — M1-M4 full treatment
-    Self-Pattern-Modeling.md v3.1 — SPM-oversimplify, prediction completion
+    Self-Pattern-Modeling.md v3.1 — Self-Pattern-Modeling-oversimplify, prediction completion
 
   ← VOCABULARY:
     Body-Feedback-Label.md v2.0 — prediction-delta, vocabulary
@@ -1252,7 +1252,7 @@ CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
 
   → DOWNSTREAM:
     Gap-Direction.md v2.0 — gap immutability, "chưa biết = không gap"
-    Background-Pattern.md v1.1 — BP resist gap shift
+    Background-Pattern.md v1.1 — Background-Pattern resist gap shift
     Body-Coupling.md v2.0 — couple-level boredom dynamics
     Connection.md v4.0 — "cô đơn giữa đám đông" = source ⑥ territory
     Imagine-Final-Evaluation.md — Imagine-Final clarity dimensions
@@ -1269,7 +1269,7 @@ CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
 
   STATUS:
     v2.0 — 2026-05-22 — REWRITE từ v1.1 + Drill-Boredom-Mechanism v2.0.
-    v1.1 — 2026-05-17 — +Architecture B, +Compiled/Fresh.
+    v1.1 — 2026-05-17 — +Compilable Architecture, +Compiled/Fresh.
     v1.0 — 2026-04-20 — viết mới cho v7.8.
     Rewrite từ: Boredom-Analysis.md (Research/, 722L).
     Backup: backup/Boredom-v1.1-backup.md.

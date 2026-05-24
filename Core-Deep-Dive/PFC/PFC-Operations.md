@@ -6,10 +6,10 @@ status: MECHANISM v1.0
 scope: |
   HOW PFC operates: 2 operations (Hold + Suppress), 4 combinations, 3 outcomes.
   Compiled Quality Dimension (genuine / schema / threat).
-  B vs C Determinant (7 factors). Pattern Shiftability × BP Quadrants.
+  B vs C Determinant (7 factors). Pattern Shiftability × Background-Pattern Quadrants.
   Compiled Suppress pathways (→ learned helplessness, 6-step reversal).
   PFC Budget = Universal Resource (shared, finite).
-  Architecture B + 3-Cost integration.
+  Compilable Architecture + 3-Cost integration.
 purpose: |
   PFC-Function.md = WHAT PFC does (24 functions, catalog).
   Logic-Feeling.md = WHY "Logic" + "Feeling" labels emerge (Compiled/Fresh = trục thật).
@@ -18,7 +18,7 @@ purpose: |
   3 file BỔ SUNG, không overlap.
 position: |
   Core-Deep-Dive/PFC/ — ngang hàng PFC-Function.md, Logic-Feeling.md.
-  Mechanism file: SPM, Boredom, Connection, Education cross-ref tới đây.
+  Mechanism file: Self-Pattern-Modeling, Boredom, Connection, Education cross-ref tới đây.
 dependencies:
   - Inter-Body-Mechanism.md v1.0 §3 — SOURCE-OF-TRUTH Compiled/Fresh axis + §4 3-cost
   - Logic-Feeling.md v2.1 — Compiled/Fresh spectrum + observer labels (companion)
@@ -27,7 +27,7 @@ dependencies:
   - Autonomy-Hardware.md v1.1 — vmPFC/DRN, controllability, efference copy
   - Cortisol-Baseline.md v2.1 — cortisol direction tag, PFC damage pathway
   - Body-Feedback-Label.md v2.0 — vocabulary reference (§8 Compiled/Fresh, §9C 3-cost)
-  - Compile-Taxonomy.md v1.1 — Type A/B/C compile pathways
+  - Compile-Taxonomy.md v2.0 — 3 Compile Types, pathways
   - Body-Coupling.md v2.0 — relationship suppress dynamics
 sources:
   - Drill-Compiled-Fresh-Mechanics v2.0 (1,265L, 20 insights, 36 citations)
@@ -46,9 +46,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 >
 > **Compiled chunks có QUALITY DIMENSION:**
 > **Genuine-compiled (body confirmed) ≠ Schema-compiled (PFC-driven) ≠ Threat-compiled (bị ép).**
-> **Cùng "compiled" nhưng KHÁC tag, KHÁC SPM capacity, KHÁC suốt đời.**
+> **Cùng "compiled" nhưng KHÁC tag, KHÁC Self-Pattern-Modeling capacity, KHÁC suốt đời.**
 >
-> **PFC budget = FINITE. SHARED. Mệt ở work → SPM cho con YẾU → không phải "không yêu con."**
+> **PFC budget = FINITE. SHARED. Mệt ở work → Self-Pattern-Modeling cho con YẾU → không phải "không yêu con."**
 
 ---
 
@@ -60,10 +60,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §4 — 3 OUTCOMES CỦA HOLD + SUPPRESS
 - §5 — COMPILED QUALITY DIMENSION (genuine / schema / threat)
 - §6 — B vs C DETERMINANT (7 factors)
-- §7 — PATTERN SHIFTABILITY × BP QUADRANTS
+- §7 — PATTERN SHIFTABILITY × Background-Pattern QUADRANTS
 - §8 — COMPILED SUPPRESS PATHWAYS
 - §9 — PFC BUDGET: UNIVERSAL RESOURCE
-- §10 — ARCHITECTURE B + 3-COST INTEGRATION
+- §10 — COMPILABLE ARCHITECTURE + 3-COST INTEGRATION
 - §11 — CROSS-FRAMEWORK CONNECTIONS
 - §12 — HONEST ASSESSMENT
 - §13 — CROSS-REFERENCES
@@ -220,7 +220,7 @@ COMPILED → FRESH (Disruption):
 │ ② HOLD +      │ Override old, double cost.                     │
 │    SUPPRESS    │ Cost: ① + ②. Body CONFLICT.                  │
 │                │ VD: Bỏ thói quen + build mới.                │
-│                │ Bố mẹ suppress own BP để hiểu con teenage.    │
+│                │ Bố mẹ suppress own Background-Pattern để hiểu con teenage.    │
 │                │ OUTCOME: 3 possible → §4.                     │
 ├────────────────┼──────────────────────────────────────────────┤
 │ ③ SUPPRESS    │ Block only, no replacement.                    │
@@ -235,15 +235,15 @@ COMPILED → FRESH (Disruption):
 │                │ Strong patterns: CANNOT ignore → must ②.      │
 └────────────────┴──────────────────────────────────────────────┘
 
-  F2 Loại A = Hold only (§3 tổ hợp ①): Body OPEN → compile natural.
-  F2 Loại B = Hold + Suppress (§3 tổ hợp ②): Body CONFLICT → 3 outcomes.
+  Fresh Loại A = Hold only (§3 tổ hợp ①): Body OPEN → compile natural.
+  Fresh Loại B = Hold + Suppress (§3 tổ hợp ②): Body CONFLICT → 3 outcomes.
 
   Authenticity gate:
     PFC override = "giả vờ thích" → Loại B → Outcome B hoặc C.
     PFC override = "thật sự tò mò" → Loại A → Outcome A.
     → Body BIẾT fake vs genuine (efference copy).
 
-  🟡 4 combinations × F2 mapping = framework synthesis.
+  🟡 4 combinations × Fresh mapping = framework synthesis.
 ```
 
 ---
@@ -269,7 +269,7 @@ COMPILED → FRESH (Disruption):
 
   4 ĐIỀU KIỆN ĐỒNG THỜI:
     → Hardware ĐỦ KHẢ NĂNG shift.
-    → Pattern cũ KHÔNG quá deep (chưa BP level).
+    → Pattern cũ KHÔNG quá deep (chưa Background-Pattern level).
     → Pattern mới cho BODY REWARD (genuine, not forced).
     → Internal drive (bản thân muốn, vmPFC suppress DRN).
 
@@ -381,7 +381,7 @@ COMPILED → FRESH (Disruption):
   │ Compile-time tag │ APPROACH        │ FLAT            │ AVOIDANCE       │
   │                  │ (opioid present)│ (relief/neutral)│ (threat lock)   │
   │ Body on re-use   │ THÍCH dùng lại │ NEUTRAL         │ TRÁNH dùng      │
-  │ SPM capacity     │ EXPANSIVE       │ LIMITED         │ BIASED negative │
+  │ Self-Pattern-Modeling capacity     │ EXPANSIVE       │ LIMITED         │ BIASED negative │
   │ Sustainable?     │ Self-reinforcing│ Needs bridge    │ Decays without  │
   │                  │                 │ (schema/trust)  │ threat          │
   │ Long-term        │ Compound growth │ Stable if bridge│ Burnout risk    │
@@ -420,29 +420,29 @@ COMPILED → FRESH (Disruption):
   🟡 "Compile-time lock" as permanent direction = framework synthesis.
 ```
 
-### §5.3 — Quality × SPM Capacity
+### §5.3 — Quality × Self-Pattern-Modeling Capacity
 
 ```
-⭐ COMPILED QUALITY QUYẾT ĐỊNH SPM QUALITY:
+⭐ COMPILED QUALITY QUYẾT ĐỊNH Self-Pattern-Modeling QUALITY:
 
   GENUINE-COMPILED về entity:
     → Body THẬT SỰ trải nghiệm → multi-sensory chunks.
-    → SPM model RICH: biết NHIỀU dimensions → CAN expand → predict new.
+    → Self-Pattern-Modeling model RICH: biết NHIỀU dimensions → CAN expand → predict new.
     → VD: Mẹ genuine thích nấu soup → hiểu con thích "dai"
-      → thử món mới = creative SPM.
+      → thử món mới = creative Self-Pattern-Modeling.
 
   SCHEMA-COMPILED về entity:
     → PFC logic "biết con thích soup" → single-channel chunk.
-    → SPM model NARROW: biết CÁI ĐÃ BIẾT → CANNOT expand.
+    → Self-Pattern-Modeling model NARROW: biết CÁI ĐÃ BIẾT → CANNOT expand.
     → VD: Mẹ nấu vì biết con thích → chỉ nấu 1-2 món đã biết.
 
   THREAT-COMPILED về entity:
-    → Threat-tagged chunks → SPM bias NEGATIVE.
-    → SPM predict THREAT from entity → defensive → miss positive.
-    → VD: Student bị ép toán → SPM predict "toán = khó chịu"
+    → Threat-tagged chunks → Self-Pattern-Modeling bias NEGATIVE.
+    → Self-Pattern-Modeling predict THREAT from entity → defensive → miss positive.
+    → VD: Student bị ép toán → Self-Pattern-Modeling predict "toán = khó chịu"
       → ngay cả math puzzle vui → body still avoidance.
 
-  🟡 Quality × SPM capacity = framework synthesis.
+  🟡 Quality × Self-Pattern-Modeling capacity = framework synthesis.
      Consistent with: expert intuition rich (genuine) vs
      rote knowledge narrow (schema) vs trauma avoidance (threat).
 ```
@@ -456,7 +456,7 @@ COMPILED → FRESH (Disruption):
 ```
 ⭐ 7 FACTORS:
 
-  FACTOR 1 — PATTERN CŨ: Depth × Density (BP 2D model)
+  FACTOR 1 — PATTERN CŨ: Depth × Density (Background-Pattern 2D model)
     Density CAO → xu hướng B (compile "suppress everywhere").
     Depth CAO + Density THẤP → B HOẶC C (tùy factors khác).
 
@@ -511,7 +511,7 @@ COMPILED → FRESH (Disruption):
 
 ---
 
-## §7 — PATTERN SHIFTABILITY × BP QUADRANTS
+## §7 — PATTERN SHIFTABILITY × Background-Pattern QUADRANTS
 
 ```
 ⭐ 4 QUADRANTS (Background-Pattern §2.2) × SHIFT POTENTIAL:
@@ -531,7 +531,7 @@ COMPILED → FRESH (Disruption):
 ├──────────────────┼──────────────────────────────────────────────┤
 │ LOW Depth +      │ VERY HARD — YEARS                            │
 │ HIGH Density     │ PFC CANNOT target (too distributed).          │
-│ (Background      │ → A only qua build COMPETING BP (years).      │
+│ (Background      │ → A only qua build COMPETING Background-Pattern (years).      │
 │  Pattern)        │ → B common: compiled suppress toàn diện.      │
 │                  │ → VD: cultural "ngại gây phiền" → 5-10 năm.   │
 ├──────────────────┼──────────────────────────────────────────────┤
@@ -549,7 +549,7 @@ COMPILED → FRESH (Disruption):
     → = WHY therapy tuần cho phobia, YEARS cho personality patterns.
 
   🟢 Reconsolidation: Nader 2000.
-  🟢 BP resolution = competing pattern build: Background-Pattern §10.2.
+  🟢 Background-Pattern resolution = competing pattern build: Background-Pattern §10.2.
   🟡 Density > Depth for changeability = framework synthesis.
 ```
 
@@ -617,7 +617,7 @@ COMPILED → FRESH (Disruption):
 
   STEP 5 — BUILD NEW pattern (genuine):
     → Hold new WITH body engagement (not forced).
-    → Compile approach tag → F2 Loại B Outcome A trajectory.
+    → Compile approach tag → Fresh Loại B Outcome A trajectory.
 
   STEP 6 — COMPILE NEW → sustain:
     → Repeat + sleep consolidation → new > old suppress.
@@ -627,7 +627,7 @@ COMPILED → FRESH (Disruption):
   TIMELINE:
     Isolated compiled suppress (Low density): weeks-months.
     Moderate (several events): months-1 year.
-    Chronic (BP level): 1-5+ years.
+    Chronic (Background-Pattern level): 1-5+ years.
     → Full resolution unlikely for chronic → functional resolution = target.
 
   🟢 Reconsolidation: Nader 2000. Exposure therapy: Foa & Kozak 1986.
@@ -705,8 +705,8 @@ CAN COMPILED SUPPRESS BE MEASURED?
   ├────────────┼─────────────────────────────┼────────────────────┤
   │ HỌC MỚI   │ Hold new pattern            │ ① Giảm khi compile │
   │ THAY ĐỔI   │ Hold new + Suppress old     │ ① + ② Double      │
-  │ SPM (mới)  │ Draft model cho entity mới  │ ① High per entity  │
-  │ SPM (update)│ Update model entity thay đổi│ ① Low-moderate    │
+  │ Self-Pattern-Modeling (mới)  │ Draft model cho entity mới  │ ① High per entity  │
+  │ Self-Pattern-Modeling (update)│ Update model entity thay đổi│ ① Low-moderate    │
   │ DECISION   │ Evaluate options, simulate  │ ① × số options     │
   │ SUPPRESS   │ Block compiled pattern      │ ② Không giảm       │
   │ SOCIAL     │ Impression management       │ ① + ② Mixed       │
@@ -717,7 +717,7 @@ CAN COMPILED SUPPRESS BE MEASURED?
 
   Tất cả CHIA CÙNG BUDGET.
   → "Mệt ở cơ quan" = PFC budget đã dùng cho work.
-  → Về nhà: budget còn ÍT → SPM cho con YẾU → "không muốn nói."
+  → Về nhà: budget còn ÍT → Self-Pattern-Modeling cho con YẾU → "không muốn nói."
   → = KHÔNG phải "không yêu con" — PFC budget ĐÃ HẾT.
 
   🟢 Gailliot & Baumeister 2007: glucose consumption during PFC tasks.
@@ -731,28 +731,28 @@ CAN COMPILED SUPPRESS BE MEASURED?
 
   REASON 1 — CHILD = MOVING TARGET:
     Con thay đổi LIÊN TỤC (3 tuổi ≠ 7 ≠ 13 ≠ 17).
-    → SPM model phải RE-DRAFT liên tục.
+    → Self-Pattern-Modeling model phải RE-DRAFT liên tục.
     → Bạn thân adult = ỔN ĐỊNH → compile → cost giảm.
     → Con: model KHÁC HOÀN TOÀN mỗi giai đoạn.
 
   REASON 2 — HARDWARE MISMATCH:
     Con ≈ 50% genetic + peer influence + era influence = DIFFERENT.
-    → Bố mẹ dùng own compiled → bias SPM: "hồi tôi nhỏ..." = SAI.
-    → Phải SUPPRESS own BP + HOLD fresh observation = DOUBLE COST.
-    → = F2 Loại B × SPM = most expensive combination.
+    → Bố mẹ dùng own compiled → bias Self-Pattern-Modeling: "hồi tôi nhỏ..." = SAI.
+    → Phải SUPPRESS own Background-Pattern + HOLD fresh observation = DOUBLE COST.
+    → = Fresh Loại B × Self-Pattern-Modeling = most expensive combination.
 
   REASON 3 — HORMONE SUPPORT GIẢM DẦN:
     Oxytocin bonding → mạnh ở 0-5 → GIẢM khi con lớn.
     Teenager = highest PFC cost (biggest change + least hormone support).
 
   REASON 4 — ASYMMETRIC COST:
-    Bố mẹ SPM con = Fresh processing (con luôn thay đổi).
-    Con SPM bố mẹ = mostly Compiled (bố mẹ thay đổi ít hơn).
+    Bố mẹ Self-Pattern-Modeling con = Fresh processing (con luôn thay đổi).
+    Con Self-Pattern-Modeling bố mẹ = mostly Compiled (bố mẹ thay đổi ít hơn).
     → Bố mẹ TỐN PFC hơn con trong effort hiểu nhau.
 
   CÁI GÌ QUYẾT ĐỊNH BỐ MẸ HIỂU CON:
     ① Hardware: PFC capacity + emotional sensitivity.
-    ② Own compiled: nuôi genuine → rich SPM. Bị ép → compiled suppress → flat → SPM NGHÈO.
+    ② Own compiled: nuôi genuine → rich Self-Pattern-Modeling. Bị ép → compiled suppress → flat → Self-Pattern-Modeling NGHÈO.
     ③ Awareness (meta-cognition): biết mình ĐANG predict sai.
     ④ Willingness: sẵn sàng dùng PFC budget dù mệt.
     ⑤ Environment: có support (partner, grandparents) → chia PFC load.
@@ -762,13 +762,13 @@ CAN COMPILED SUPPRESS BE MEASURED?
 
 ---
 
-## §10 — ARCHITECTURE B + 3-COST INTEGRATION
+## §10 — COMPILABLE ARCHITECTURE + 3-COST INTEGRATION
 
 ```
-⭐ IBM §4: 3 NGUỒN COST → HOLD/SUPPRESS MAPPING:
+⭐ Inter-Body-Mechanism §4: 3 NGUỒN COST → HOLD/SUPPRESS MAPPING:
 
   ┌─────────────────┬──────────────┬─────────────────────────┐
-  │ IBM 3-COST      │ HOLD/SUPPRESS│ DETAIL                  │
+  │ Inter-Body-Mechanism 3-COST      │ HOLD/SUPPRESS│ DETAIL                  │
   ├─────────────────┼──────────────┼─────────────────────────┤
   │ ① PFC draft     │ = HOLD cost  │ Amplify new pattern.    │
   │                 │              │ dlPFC, FEF regions.      │
@@ -784,14 +784,14 @@ CAN COMPILED SUPPRESS BE MEASURED?
   └─────────────────┴──────────────┴─────────────────────────┘
 
   → 3-cost MAPS PERFECTLY to Hold/Suppress framework.
-  → IBM §4 = GENERAL principle. Hold/Suppress = SPECIFIC operations.
+  → Inter-Body-Mechanism §4 = GENERAL principle. Hold/Suppress = SPECIFIC operations.
 
-  PFC × ARCHITECTURE B:
+  PFC × COMPILABLE ARCHITECTURE:
     → PFC is the TOOL that moves chunks along Compiled/Fresh spectrum.
     → Hold → compile → Fresh becomes Compiled.
-    → Without PFC: only Hardware-driven compilation (Type A: slow).
-    → With PFC: DIRECTED compilation (Type B: faster, guided).
-    → Architecture B = engine that turns Fresh into Compiled.
+    → Without PFC: only Hardware-driven compilation (Experience Compile: slow).
+    → With PFC: DIRECTED compilation (Expertise Compile: faster, guided).
+    → Compilable Architecture = engine that turns Fresh into Compiled.
     → Efficiency = maximize genuine-compiled, minimize suppress.
 
   🟡 3-cost → Hold/Suppress perfect mapping = framework synthesis.
@@ -804,10 +804,10 @@ CAN COMPILED SUPPRESS BE MEASURED?
 ```
 ⭐ COMPILED SUPPRESS × FRAMEWORK FILES:
 
-  1. BP §8 SELF-REINFORCING LOOP:
+  1. Background-Pattern §8 SELF-REINFORCING LOOP:
     Compiled suppress → cortisol elevated → PFC weaken →
     New chunks compile under cortisol → threat-tagged → reinforce.
-    → = "Quên rằng mình đang suppress" = BP absorb suppress into baseline.
+    → = "Quên rằng mình đang suppress" = Background-Pattern absorb suppress into baseline.
 
   2. AUTONOMY-HARDWARE:
     Compiled suppress = external force compiled INTO body.
@@ -901,14 +901,14 @@ CAN COMPILED SUPPRESS BE MEASURED?
 | Background-Pattern v1.1 | §2 quadrants, §8 loop, §10 resolution | Shiftability + resolution |
 | Autonomy-Hardware v1.1 | §2 vmPFC/DRN, §3 direction tag | Controllability + compile quality |
 | Cortisol-Baseline v2.1 | §7 direction, §9 PFC damage | Amplifier + damage timeline |
-| Compile-Taxonomy v1.1 | §1-§2 Type A/B/C | Compile pathway × quality |
-| Self-Pattern-Match v3.0 | §2 F1/F2 | SPM × compiled quality |
+| Compile-Taxonomy v2.0 | §1-§2 3 Compile Types | Compile pathway × quality |
+| Self-Pattern-Modeling v3.0 | §2 Compiled/Fresh | Self-Pattern-Modeling × compiled quality |
 | Body-Coupling v2.0 | Depth × Direction | Relationship suppress |
 | By-Product-Gap-Resonance v1.0 | Mutual by-product match | Genuine compiled × resonance |
 | Body-Feedback-Mechanism v2.0 | §3 Chunk dynamics | Shift/Miss/Gap during suppress |
 | Body-Feedback-Label v2.0 | §8 Compiled/Fresh, §9C 3-cost | Vocabulary companion |
 | Gap-Distribution-Profile v1.0 | Per-person landscape | Hardware↔Collective-Arc shift |
-| Somatic-Articulation-Loop.md | SAL mechanism | Step 4 of reversal |
+| Somatic-Articulation-Loop.md | Somatic-Articulation-Loop mechanism | Step 4 of reversal |
 
 ---
 
@@ -956,8 +956,8 @@ CAN COMPILED SUPPRESS BE MEASURED?
 > *§1 Spectrum brief. §2 Hold (amplify) + Suppress (block) = 2 operations.*
 > *§3 4 combinations. §4 3 outcomes (Genuine Shift / Compiled Suppress / Failure).*
 > *§5 Compiled Quality: genuine / schema / threat — compile-time lock.*
-> *§6 B vs C Determinant: 7 factors. §7 Shiftability × BP quadrants.*
+> *§6 B vs C Determinant: 7 factors. §7 Shiftability × Background-Pattern quadrants.*
 > *§8 Compiled Suppress pathways: escalation → helplessness, 6-step reversal, ego depletion position, biomarkers.*
 > *§9 PFC Budget = universal shared resource. Parent-child = highest cost.*
-> *§10 Architecture B + 3-cost integration. §11 Cross-framework connections.*
+> *§10 Compilable Architecture + 3-cost integration. §11 Cross-framework connections.*
 > *Companion files: PFC-Function (WHAT), Logic-Feeling (WHY labels), PFC-Operations (HOW).*

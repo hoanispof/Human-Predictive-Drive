@@ -11,11 +11,11 @@ scope: |
   WHAT valence IS + HOW valence WORKS per-entity + HOW valence BEHAVES over time +
   HOW valence PROPAGATES qua schema chain + WHY PFC không biết + GIỚI HẠN nền tảng.
   v3.0 KEY CHANGES (from Drill-Entity-Valence-Dynamics v2.0, 28 insights):
-    ① Structural valence (inside EC, slow) vs Current valence (outside EC, fast)
+    ① Structural valence (inside Entity-Compiled, slow) vs Current valence (outside Entity-Compiled, fast)
     ② 3 Firing Modes: Maintenance / Chunk-Miss / Context-Trigger
     ③ Hardware Subsidy = ANTI-HABITUATION: modulate VTA habituation per entity
     ④ Satiation type × valence: Cyclic (oscillation) / Tonic (invisible) / Generative (renewable)
-    ⑤ RSA A:B ratio × valence "feel": B=warm, A=exciting
+    ⑤ Reward-Signal-Architecture Evaluative:Direct-State ratio × valence "feel": Direct-State=warm, Evaluative=exciting
     ⑥ Per-entity valence dynamics mapping table
     ⑦ "Xa mẹ mới biết thương" = 3 cơ chế cộng dồn
     ⑧ Mixed valence = PARALLEL per-channel, MOST COMMON
@@ -23,7 +23,7 @@ scope: |
     ⑩ Technology × valence frontier + ENGINE/ROAD/VEHICLE
   + Phase A integration: Entity-Compiled v1.0, Entity-Access v1.0,
     PFC-Operations v1.0, Simulation-Engine v1.0
-  + §3 Entity-Compiled SLIM DOWN (deep mechanism → pointer → EC v1.0)
+  + §3 Entity-Compiled SLIM DOWN (deep mechanism → pointer → Entity-Compiled v1.0)
 purpose: |
   Central reference file cho toàn bộ Valence system trong framework.
   3 trụ cột: WHAT valence is + HOW valence behaves per-entity + HOW valence propagates.
@@ -38,16 +38,16 @@ dependencies:
   - Inter-Body-Mechanism.md v1.0 — Entity-Compiled §8, 3-cost §4, By-Product Match §5
   - Body-Coupling.md v1.1 — coupling mechanism deep-dive (extends §4)
   - Connection.md v3.3 — 3 Generative Primitives, §3.3 2-luồng overview
-  - Self-Pattern-Modeling.md v3.1 — F1/F2, Simulation Engine application 1
-  - Agent-Mechanism.md v2.0 — integration hub, Architecture B
+  - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Simulation Engine application 1
+  - Agent-Mechanism.md v2.0 — integration hub, Compilable Architecture
   - Collective-Body.md v1.2 — Model 3 cấp (Clarification reference)
   - Schema.md v2.0 — schema = chunks + links + purpose
   - Chunk.md v2.2 — chunk substrate, context-tag, 4 connection types
   - Anchor-Schema.md v1.2 — anchor amplify propagation, trust binding
   - Feeling.md v2.0 — PFC observation of body-feedback (khác tầng)
-  - Reward-Signal-Architecture.md v1.0 — Type A/B × valence
+  - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State × valence
   - Gap-Body-Need.md v2.0 — Cyclic/Tonic/Generative satiation types
-  - Resonance-Entity.md v2.0 — hardware subsidy, RSA A:B per entity
+  - Resonance-Entity.md v2.0 — hardware subsidy, Reward-Signal-Architecture Evaluative:Direct-State per entity
   - Resonance-Sustainability.md v1.0 — 3 modalities, silence, maintenance decline
   - Obligation.md v1.0 — compiled prediction (independent of Entity-Compiled)
   - Protect.md v1.0 — f(replaceability × attachment depth)
@@ -100,7 +100,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §8 — VALENCE × SATIATION TYPE
 - §9 — MIXED VALENCE: PARALLEL PER-CHANNEL
 - §10 — "XA MẸ MỚI BIẾT THƯƠNG" — 3 CƠ CHẾ CỘNG DỒN
-- §11 — PER-ENTITY VALENCE DYNAMICS + RSA A:B
+- §11 — PER-ENTITY VALENCE DYNAMICS + Reward-Signal-Architecture Evaluative:Direct-State
 - §12 — PHANTOM RESONANCE × GRIEF
 - §13 — TECHNOLOGY × VALENCE FRONTIER
 - §14 — CÁCH VALENCE HÌNH THÀNH + UPDATE
@@ -133,8 +133,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Feeling.md v2.0: "Feeling = PFC observation of body"
     → = Valence = WHAT body computes. Feeling = WHAT PFC sees.
 
-  VALENCE × BODY-NEED (BFM v2.0 §1):
-    Body-Need = aggregate OUTPUT của chunk dynamics (BFM v2.0).
+  VALENCE × BODY-NEED (Body-Feedback-Mechanism v2.0 §1):
+    Body-Need = aggregate OUTPUT của chunk dynamics (Body-Feedback-Mechanism v2.0).
     Valence = body's ASSESSMENT per-entity → feeds INTO body-need.
     Entity có valence positive → body-need shift toward approach.
     Entity có valence negative → body-need shift toward avoid.
@@ -203,10 +203,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   v3.0 CHANGELOG:
     v2.0 → v3.0: +TRỤ 2 (§5-§13) từ Drill-Entity-Valence-Dynamics v2.0 (28 insights).
-    §4 Entity-Compiled SLIM DOWN (deep mechanism → pointer → EC v1.0 + EA v1.0).
+    §4 Entity-Compiled SLIM DOWN (deep mechanism → pointer → Entity-Compiled v1.0 + Entity-Access v1.0).
     §8+§9 v2.0 → §18 (merge PFC Blindness + 3 Nguyên tắc).
     + Phase A integration (PFC-Operations, Simulation-Engine, Entity-Compiled, Entity-Access).
-    + Dependencies updated: SPM v3.1, Boredom v2.0, Gap-Body-Need v2.0, Resonance-Entity v2.0.
+    + Dependencies updated: Self-Pattern-Modeling v3.1, Boredom v2.0, Gap-Body-Need v2.0, Resonance-Entity v2.0.
 ```
 
 ---
@@ -413,40 +413,40 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       = Structural valence = POSITIVE-DOMINANT, Tonic-base + Generative-bursts
       
   CURRENT VALENCE (OUTSIDE Entity-Compiled, per-moment):
-    = L1 (SPM momentary) + activated L2 channels AT THIS MOMENT
+    = L1 (Self-Pattern-Modeling momentary) + activated L2 channels AT THIS MOMENT
     = Thay đổi PER SECOND (context-dependent)
     = What PFC observes → what person VERBALIZES
     
-    CURRENT VALENCE "FEEL" = f(RSA A:B ratio) (RSA v2.0 §1):
-      Type B dominant → "ấm áp, dễ chịu" (opioid, CT afferents)
-      Type A dominant → "hào hứng, thú vị" (evaluative, dopamine-adjacent)
-      → Mẹ ôm con: current = Type B dominant → "ấm"
-      → Bạn kể chuyện hay: current = Type A dominant → "thú vị"
-      → CÙNG positive valence, KHÁC "feel" vì KHÁC A:B ratio
+    CURRENT VALENCE "FEEL" = f(Reward-Signal-Architecture Evaluative:Direct-State ratio) (Reward-Signal-Architecture v2.0 §1):
+      Direct-State dominant → "ấm áp, comfortable" (opioid, CT afferents)
+      Evaluative dominant → "hào hứng, thú vị" (evaluative, dopamine-adjacent)
+      → Mẹ ôm con: current = Direct-State dominant → "ấm"
+      → Bạn kể chuyện hay: current = Evaluative dominant → "thú vị"
+      → CÙNG positive valence, KHÁC "feel" vì KHÁC Evaluative:Direct-State ratio
     
     VD — Mẹ đang la:
-      L1 = NEGATIVE (SPM simulate mẹ angry → body distress)
+      L1 = NEGATIVE (Self-Pattern-Modeling simulate mẹ angry → body distress)
       L2 [la mắng] channel = ACTIVE (avoidance, Cyclic)
       L2 [ôm, nấu ăn] channels = DORMANT (not triggered)
       Current valence = NEGATIVE
       PFC label: "ghét mẹ" (lúc này)
       
     VD — Đọc thơ về mẹ (xa mẹ):
-      L1 = POSITIVE (poem → SPM fire → body warm)
+      L1 = POSITIVE (poem → Self-Pattern-Modeling fire → body warm)
       L2 [hy sinh, ôm, nấu ăn] channels = ACTIVE (triggered by poem)
       L2 [la mắng] channels = DORMANT (not in poem context)
-      Current valence = INTENSE POSITIVE (Type B dominant → "thương")
+      Current valence = INTENSE POSITIVE (Direct-State dominant → "thương")
       
   ⭐ STRUCTURAL ≠ CURRENT:
     Structural = what's STORED (slow, aggregate across satiation types)
-    Current = what's ACTIVATED (fast, context-dependent, RSA A:B ratio determines "feel")
+    Current = what's ACTIVATED (fast, context-dependent, Reward-Signal-Architecture Evaluative:Direct-State ratio determines "feel")
     Cùng entity, cùng structural valence → KHÁC current valence tùy moment
     → "Ghét mẹ" (lúc bị la) vs "Thương mẹ" (lúc đọc thơ)
     → CÙNG structural (mixed) → KHÁC current (context activates different channels)
     
   🟡 Structural vs Current distinction + satiation type dimension = framework synthesis (v3.0)
   🟢 Per-channel valence: §2 (explicit "KHÔNG average")
-  🟢 RSA A:B: Reward-Signal-Architecture v2.0 §1
+  🟢 Reward-Signal-Architecture Evaluative:Direct-State: Reward-Signal-Architecture v2.0 §1
 ```
 
 ---
@@ -468,7 +468,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = STRUCTURAL, SUSTAINED — không phụ thuộc từng episode tương tác
 
     TẠI SAO CHỈ AGENT, KHÔNG BAO GIỜ OBJECT:
-      Object KHÔNG fire SPM → không có L1 episodes tích lũy
+      Object KHÔNG fire Self-Pattern-Modeling → không có L1 episodes tích lũy
       Object KHÔNG bidirectional → không có mutual reinforcement
       Object DỄ thay thế → trust/dependency không compile sâu đủ
       → Body-base extension = EMERGENT property CHỈ CÓ ở agent valence
@@ -548,7 +548,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = GRADIENT MODEL: how access level changes, quality, excess, calibration
     → §1: 3-Factor Model (Engine Mode × Gap-Need × Access Confidence)
     → §2: Entity-Access Gradient Mức 0-5 (Tool → Excess)
-    → §3: 4 Starting Modes × B-dominant destination
+    → §3: 4 Starting Modes × Compilable-dominant destination
     → §6: Excess spectrum (Mức 5) — limerence, obsession
     → §8: Calibration architecture
 
@@ -569,13 +569,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **v3.0 NEW** — từ Drill-Entity-Valence-Dynamics v2.0 §2.
 
 ```
-⭐ TỪ VP v2.0 §3.4 + CONNECTION §3.3 + EMPATHY §8 + RESONANCE-ENTITY v2.0 §3:
+⭐ TỪ Valence-Propagation v2.0 §3.4 + CONNECTION §3.3 + EMPATHY §8 + RESONANCE-ENTITY v2.0 §3:
 
-  L1 — SPM-OWNED (momentary):
-    Source: MỖI LẦN SPM F1 fire on entity
+  L1 — Self-Pattern-Modeling-OWNED (momentary):
+    Source: MỖI LẦN Self-Pattern-Modeling Compiled fire on entity
     Duration: per-episode, TRANSIENT
     Valence: + or - tùy current interaction
-    Cost: SPM metabolic cost
+    Cost: Self-Pattern-Modeling metabolic cost
     VD: "Mẹ cười → vui lây" (L1+), "mẹ la → khó chịu" (L1-)
     
   L2 — ENTITY-COMPILED (structural):
@@ -591,41 +591,41 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Source: hormone, CT afferents, attachment circuits
       PFC visibility: LOW (automatic, below threshold khi stable)
       VD: oxytocin khi ôm con → warm → PFC "bình thường" (habituated)
-      → Tầng A valence = INVISIBLE most of the time (hardware = default)
+      → Tầng Hardware valence = INVISIBLE most of the time (hardware = default)
       → Becomes VISIBLE only through disruption (loss, absence)
       
-    TẦNG B — SPM-DRIVEN valence:
-      Source: SPM F1/F2 fire → prediction-delta → body-feedback
+    TẦNG B — Self-Pattern-Modeling-DRIVEN valence:
+      Source: Self-Pattern-Modeling Compiled/Fresh fire → prediction-delta → body-feedback
       PFC visibility: HIGH (PFC computes → PFC observes)
-      VD: bạn kể insight mới → SPM evaluate → "thú vị!" (PFC label)
-      → Tầng B valence = VISIBLE per episode (PFC is the source)
+      VD: bạn kể insight mới → Self-Pattern-Modeling evaluate → "thú vị!" (PFC label)
+      → Tầng PFC valence = VISIBLE per episode (PFC is the source)
       → Habituates IF prediction complete (same insight = no delta)
 
   PER-ENTITY L1:L2 × TẦNG A:B PROPORTION (Resonance-Entity v2.0 §3-§8):
 
-    ┌────────────────┬──────────────┬──────────────┬──────────────────────┐
-    │ Entity         │ 2-luồng      │ 2-tầng       │ Valence visibility   │
-    │                │ (L1:L2)      │ (A:B)        │ implication          │
-    ├────────────────┼──────────────┼──────────────┼──────────────────────┤
-    │ Mẹ→Con        │ L2 dominant  │ Tầng A dom.  │ INVISIBLE most time  │
-    │                │ (structural) │ (hardware)   │ → visible on loss    │
-    ├────────────────┼──────────────┼──────────────┼──────────────────────┤
-    │ Con→Mẹ (child)│ L1→L2 shift  │ A+B balanced │ MIXED visibility     │
-    │                │ (forming)    │              │ → shifts with age    │
-    ├────────────────┼──────────────┼──────────────┼──────────────────────┤
-    │ Bạn thân       │ L1 dominant  │ Tầng B dom.  │ VISIBLE per episode  │
-    │                │ (momentary)  │ (SPM only)   │ → fades between      │
-    ├────────────────┼──────────────┼──────────────┼──────────────────────┤
-    │ Romantic post-L│ L1→L2        │ A→B shift    │ Limerence=visible    │
-    │                │ (if compiled)│              │ → post-L=invisible   │
-    ├────────────────┼──────────────┼──────────────┼──────────────────────┤
-    │ Colleague      │ L1 only      │ Tầng B       │ VISIBLE only in      │
-    │                │ (unless close)│ (SPM only)  │ Agent-mode moments   │
-    └────────────────┴──────────────┴──────────────┴──────────────────────┘
+    ┌────────────────┬──────────────┬─────────────────┬──────────────────────┐
+    │ Entity         │ 2-luồng      │ 2-tầng          │ Valence visibility   │
+    │                │ (L1:L2)      │ (A:B)           │ implication          │
+    ├────────────────┼──────────────┼─────────────────┼──────────────────────┤
+    │ Mẹ→Con        │ L2 dominant  │ Tầng Hardware dominant │ INVISIBLE most time  │
+    │                │ (structural) │ (hardware)      │ → visible on loss    │
+    ├────────────────┼──────────────┼─────────────────┼──────────────────────┤
+    │ Con→Mẹ (child)│ L1→L2 shift  │ A+B balanced    │ MIXED visibility     │
+    │                │ (forming)    │                 │ → shifts with age    │
+    ├────────────────┼──────────────┼─────────────────┼──────────────────────┤
+    │ Bạn thân       │ L1 dominant  │ Tầng PFC dominant │ VISIBLE per episode  │
+    │                │ (momentary)  │ (Self-Pattern-Modeling only)      │ → fades between      │
+    ├────────────────┼──────────────┼─────────────────┼──────────────────────┤
+    │ Romantic post-L│ L1→L2        │ A→B shift       │ Limerence=visible    │
+    │                │ (if compiled)│                 │ → post-L=invisible   │
+    ├────────────────┼──────────────┼─────────────────┼──────────────────────┤
+    │ Colleague      │ L1 only      │ Tầng PFC          │ VISIBLE only in      │
+    │                │ (unless close)│ (Self-Pattern-Modeling only)     │ Agent-mode moments   │
+    └────────────────┴──────────────┴─────────────────┴──────────────────────┘
 
   ⭐ KEY INSIGHT v3.0:
-    L2 dominant + Tầng A dominant = MOST INVISIBLE valence (mẹ→con)
-    L1 dominant + Tầng B dominant = MOST VISIBLE valence (bạn thân)
+    L2 dominant + Tầng Hardware dominant = MOST INVISIBLE valence (mẹ→con)
+    L1 dominant + Tầng PFC dominant = MOST VISIBLE valence (bạn thân)
     → PARADOX: DEEPEST bond = LEAST VISIBLE valence
     → "Sống với mẹ 20 năm, không thấy gì" = L2+A → both invisible
     → "Gặp bạn mới, vui ghê" = L1+B → both visible
@@ -649,7 +649,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     L2 ≈ 0 + L1 bất kỳ → BURNOUT (bác sĩ chăm stranger)
     L2 CAO + L1 CỰC CAO kéo dài → VẪN burnout (cha mẹ trẻ khuyết tật)
     
-  🟢 L1/L2: VP v2.0 §3.4, Connection §3.3, Body-Coupling §1.3
+  🟢 L1/L2: Valence-Propagation v2.0 §3.4, Connection §3.3, Body-Coupling §1.3
   🟢 Burnout formula: Empathy §8, Figley 2002
   🟢 2-tầng: Connection v4.0 §3.2b
   🟡 L2+A = invisible, L1+B = visible paradox = framework synthesis (v3.0)
@@ -673,7 +673,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Hardware subsidy MODULATES Mode 1 (§7):
       HIGH subsidy (mẹ→con): opioid trickle MAINTAINED → baseline RICHER
         → Even habituated, body STILL gets anti-habituation signals
-        → "Mẹ chán con" = pathological (hw subsidy SHOULD prevent)
+        → "Mẹ chán con" = pathological (hardware subsidy SHOULD prevent)
       NONE subsidy (bạn): opioid trickle WITHOUT protection
         → VTA habituates FASTER → Mode 1 reward WEAKER
         → "Gặp bạn hàng ngày → bình thường" = no subsidy → fast habituation
@@ -698,15 +698,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       = "Nhớ mẹ vài ngày đầu, rồi quen" = calibration trajectory
     
     Calibration speed depends on:
-      → EC depth (deeper → more routines disrupted → slower calibration)
-      → Hardware subsidy (HIGH → hw KEEPS firing → slower calibration)
+      → Entity-Compiled depth (deeper → more routines disrupted → slower calibration)
+      → Hardware subsidy (HIGH → hardware KEEPS firing → slower calibration)
       → Alternative gap-fill (other entities available → faster)
       → Hardware reactivity (HSP → more intense → slower)
       → Attachment style (anxious → slower, avoidant → suppress → "faster")
       → Satiation type (Tonic channels → slowest fade, Cyclic → fastest)
       
   MODE 3 — CONTEXT-TRIGGER (entity absent, tình cờ):
-    External cue → match EC spoke → hub activate → L2 fire → body-feedback
+    External cue → match Entity-Compiled spoke → hub activate → L2 fire → body-feedback
     = UNPREDICTABLE (context-dependent)
     
     Triggers ranked by intensity:
@@ -716,18 +716,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → = §10 "New appreciation" mechanism
       OLFACTORY: smell mùi quen → olfactory direct to amygdala → fire NHANH
         → 🟢 Herz 2004: odor-evoked memory MORE emotional than visual
-      CIRCUMSTANTIAL: buồn/lonely → brain RETRIEVE EC positive chunks → fire
+      CIRCUMSTANTIAL: buồn/lonely → brain RETRIEVE Entity-Compiled positive chunks → fire
         → = Nostalgia as self-regulation (§10.2)
       SOCIAL MEDIA: "On this day" photos, friend posts, viral content
         → Technology creates SYSTEMATIC Context-Triggers (§13)
     
-    Intensity = f(cue specificity × EC depth × current gap state × hw reactivity × subsidy)
+    Intensity = f(cue specificity × Entity-Compiled depth × current gap state × hardware reactivity × subsidy)
     
   🟢 VTA habituation: Schultz 1997
   🟢 Chunk-Miss + basal ganglia: O'Connor 2023
   🟢 Bowlby 3 phases: Bowlby 1969 (established)
   🟢 Olfactory-amygdala direct path: Herz 2004
-  🟡 3 firing modes + hw subsidy modulation + satiation interaction = framework synthesis (v3.0)
+  🟡 3 firing modes + hardware subsidy modulation + satiation interaction = framework synthesis (v3.0)
 ```
 
 ---
@@ -739,7 +739,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐ UNIFIED MODEL v3.0: TẠI SAO VALENCE "INVISIBLE" Ở DIFFERENT RATES:
 
-  CƠ CHẾ GỐC (Body-Coupling §1.4 + BFM §3.2):
+  CƠ CHẾ GỐC (Body-Coupling §1.4 + Body-Feedback-Mechanism §3.2):
     Entity present REPEATEDLY → VTA encode as BASELINE
     VTA only fire reward khi: ACTUAL > BASELINE (positive prediction-delta)
     Entity present = EXPECTED = baseline met → delta = 0 → VTA silent
@@ -756,7 +756,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Subsidy Level      │ Entity               │ Valence Habituation Rate  │
     ├────────────────────┼──────────────────────┼───────────────────────────┤
     │ MAXIMUM            │ Mẹ→Con               │ VERY SLOW                 │
-    │ (oxytocin +        │                      │ Multiple hw systems COUNTER│
+    │ (oxytocin +        │                      │ Multiple hardware systems COUNTER│
     │ baby schema +      │                      │ VTA habituation actively  │
     │ synchrony +        │                      │ → valence invisible but   │
     │ prolactin)         │                      │ RICHER baseline than others│
@@ -764,7 +764,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │                    │                      │ 🟢 Feldman 2012           │
     ├────────────────────┼──────────────────────┼───────────────────────────┤
     │ MODERATE           │ Con→Mẹ, Kin          │ SLOW                      │
-    │ (attachment hw,    │                      │ Attachment scaffold slows  │
+    │ (attachment hardware,    │                      │ Attachment scaffold slows  │
     │ oxytocin scaffold) │                      │ habituation somewhat      │
     │                    │                      │ 🟢 Roberts & Dunbar 2011: │
     │                    │                      │ kin resilient without     │
@@ -778,7 +778,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │                    │                      │ 🟢 Fisher 2004            │
     ├────────────────────┼──────────────────────┼───────────────────────────┤
     │ NONE               │ Bạn thân, Colleague  │ STANDARD (fastest)        │
-    │ (general μ-opioid  │                      │ No dedicated counter-hw   │
+    │ (general μ-opioid  │                      │ No dedicated counter-hardware   │
     │ only)              │                      │ → VTA habituates at       │
     │                    │                      │ default rate              │
     │                    │                      │ → MUST maintain via novelty│
@@ -786,11 +786,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     └────────────────────┴──────────────────────┴───────────────────────────┘
 
   PARADOX ENRICHED:
-    EC DEEPER + HIGH SUBSIDY → VTA habituated SLOWER → reward STILL somewhat visible
-    EC DEEPER + NO SUBSIDY → VTA habituated FASTEST → reward MOST invisible
+    Entity-Compiled DEEPER + HIGH SUBSIDY → VTA habituated SLOWER → reward STILL somewhat visible
+    Entity-Compiled DEEPER + NO SUBSIDY → VTA habituated FASTEST → reward MOST invisible
     
-    → Mẹ→con: DEEP EC + MAX subsidy = habituated but RICH baseline
-    → Bạn thân: DEEP EC + NO subsidy = habituated and LEAN baseline
+    → Mẹ→con: DEEP Entity-Compiled + MAX subsidy = habituated but RICH baseline
+    → Bạn thân: DEEP Entity-Compiled + NO subsidy = habituated and LEAN baseline
     → = TẠI SAO "mất mẹ" = devastating nhưng "mất bạn" = recoverable
     → = KHÔNG chỉ depth → cả subsidy determines loss severity
     
@@ -862,7 +862,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Characteristics:
       → SELF-RENEWING: fill creates new gap → new delta → new reward
       → NOVELTY-DEPENDENT: same content → habituate → need NEW
-      → EXCITING "feel": Type A dominant (evaluation, insight, discovery)
+      → EXCITING "feel": Evaluative dominant (insight, discovery)
       → VD: bạn thân kể chuyện mới → insight → new question → new insight
       → VD: partner cùng khám phá → shared discovery → both rewarded
     
@@ -975,9 +975,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → 🟢 Miyamoto et al. 2010: East Asian = higher ambivalence tolerance
       
     "THƯƠNG" = approach channels DOMINATE
-      → If Type B dominant: "thương" = warm, gentle → mẹ direction
-      → If Type A dominant: "thích" = exciting → bạn direction
-      → SAME positive valence, DIFFERENT WORD → reflects RSA A:B ratio
+      → If Direct-State dominant: "thương" = warm, gentle → mẹ direction
+      → If Evaluative dominant: "thích" = exciting → bạn direction
+      → SAME positive valence, DIFFERENT WORD → reflects Reward-Signal-Architecture Evaluative:Direct-State ratio
       
     "CHÁN" = Generative dead + Tonic habituated
       → NO visible positive signal → PFC: "chán"
@@ -1084,7 +1084,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   FRAMEWORK MAPPING:
     Negative state → gap unfilled → body cần stabilize
-    → Brain RETRIEVE EC positive chunks (L2 channel F: PFC recall)
+    → Brain RETRIEVE Entity-Compiled positive chunks (L2 channel F: PFC recall)
     → L2 fire → opioid release → body STABILIZE
     → = Body DÙNG compiled Tonic warmth từ past entities làm THUỐC AN THẦN
     
@@ -1095,7 +1095,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   VIDEO-CALL PARADOX:
     🟢 Van Tilburg et al. 2019: students feel MOST homesick during video-chat
-    FRAMEWORK: Video = PARTIAL EC firing → L2 fire → NHƯNG touch/smell MISSING
+    FRAMEWORK: Video = PARTIAL Entity-Compiled firing → L2 fire → NHƯNG touch/smell MISSING
     → Chunk-Miss ở MISSING spokes AMPLIFIED by partial activation
     → "Gọi mẹ xong nhớ hơn" = ĐÚNG, architecturally explainable
 
@@ -1106,7 +1106,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §11 — PER-ENTITY VALENCE DYNAMICS + RSA A:B
+## §11 — PER-ENTITY VALENCE DYNAMICS + Reward-Signal-Architecture Evaluative:Direct-State
 
 > **v3.0 NEW** — từ Drill-Entity-Valence-Dynamics v2.0 §10+§11.
 
@@ -1116,8 +1116,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   MẸ→CON VALENCE:
     Dominant satiation: Tonic (existence-based) + Generative bursts (child changes)
     Hardware subsidy: MAXIMUM → habituation SLOW → Mode 1 = RICH baseline
-    RSA A:B: ~40A/60B → valence "feel" = ẤM ÁP (B dominant)
-    2-tầng: Tầng A dominant → valence INVISIBLE (hardware-driven)
+    Reward-Signal-Architecture Evaluative:Direct-State: ~40Evaluative/60Direct-State → valence "feel" = ẤM ÁP (Direct-State dominant)
+    2-tầng: Tầng Hardware dominant → valence INVISIBLE (hardware-driven)
     2-luồng: L2 dominant → valence STRUCTURAL (body-base extension)
     Mixed valence: LOW (hardware bias approach → avoidance rare)
     "Chán" risk: LOW (auto-novelty + max subsidy)
@@ -1129,7 +1129,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CON→MẸ VALENCE (child/teen):
     Dominant satiation: Cyclic + Tonic MIX (episodic needs + baseline safety)
     Hardware subsidy: MODERATE → habituation SLOW-MEDIUM
-    RSA A:B: ~50A/50B → valence "feel" = BALANCED (ấm + đánh giá)
+    Reward-Signal-Architecture Evaluative:Direct-State: ~50Evaluative/50Direct-State → valence "feel" = BALANCED (ấm + đánh giá)
     2-tầng: A+B balanced → valence MIXED visibility
     2-luồng: L1→L2 shifting → valence FORMS over years
     Mixed valence: HIGH (normative 50% — Lüscher 1998)
@@ -1142,8 +1142,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   BẠN THÂN VALENCE:
     Dominant satiation: Generative dominant + Tonic component
     Hardware subsidy: NONE → habituation STANDARD (fastest)
-    RSA A:B: ~70A/30B → valence "feel" = THÚ VỊ, HỨNG KHỞI (A dominant)
-    2-tầng: Tầng B dominant → valence VISIBLE per episode
+    Reward-Signal-Architecture Evaluative:Direct-State: ~70Evaluative/30Direct-State → valence "feel" = THÚ VỊ, HỨNG KHỞI (Evaluative dominant)
+    2-tầng: Tầng PFC dominant → valence VISIBLE per episode
     2-luồng: L1 dominant → valence MOMENTARY (per-interaction reward)
     Mixed valence: LOW (genuine → positive-dominant)
     "Chán" risk: HIGH if no novelty (Generative habituates fast)
@@ -1155,8 +1155,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ROMANTIC VALENCE (post-limerence):
     Dominant satiation: Tonic + Generative (if genuine match)
     Hardware subsidy: TEMPORARY → vasopressin/oxytocin (if attachment forms)
-    RSA A:B: ~60A/40B → valence "feel" = HỨNG KHỞI + ẤM (mixed A+B)
-    2-tầng: A→B shift (limerence Tầng A simulated → post-L Tầng B)
+    Reward-Signal-Architecture Evaluative:Direct-State: ~60Evaluative/40Direct-State → valence "feel" = HỨNG KHỞI + ẤM (mixed Evaluative+Direct-State)
+    2-tầng: Hardware→PFC shift (limerence Tầng Hardware simulated → post-L Tầng PFC)
     2-luồng: L1→L2 (if Entity-Compiled forms)
     Mixed valence: MODERATE → HIGH (living together → more conflict channels)
     "Chán" risk: HIGHEST (inflated baseline + no permanent subsidy + max exposure)
@@ -1168,8 +1168,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   COLLEAGUE VALENCE (Agent-mode moments):
     Dominant satiation: Generative (domain-specific)
     Hardware subsidy: NONE
-    RSA A:B: ~85A/15B → valence "feel" = ĐÁNH GIÁ, KÍCH THÍCH TRÍ TUỆ
-    2-tầng: Tầng B only → valence VISIBLE in Agent-mode only
+    Reward-Signal-Architecture Evaluative:Direct-State: ~85Evaluative/15Direct-State → valence "feel" = ĐÁNH GIÁ, KÍCH THÍCH TRÍ TUỆ
+    2-tầng: Tầng PFC only → valence VISIBLE in Agent-mode only
     2-luồng: L1 only (unless transition to friend)
     Mixed valence: LOW (professional → thin)
     "Chán" risk: MODERATE (domain routine → habituate)
@@ -1179,10 +1179,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = "Nghỉ việc → quên tuột" = signature pattern
 ```
 
-### §11.1 — RSA A:B × Valence "Feel" + Hardware Reactivity
+### §11.1 — Reward-Signal-Architecture Evaluative:Direct-State × Valence "Feel" + Hardware Reactivity
 
 ```
-⭐ HARDWARE QUYẾT ĐỊNH CƯỜNG ĐỘ + RSA QUYẾT ĐỊNH "FEEL":
+⭐ HARDWARE QUYẾT ĐỊNH CƯỜNG ĐỘ + Reward-Signal-Architecture QUYẾT ĐỊNH "FEEL":
 
   HARDWARE REACTIVITY:
     🟢 Hariri et al. 2002: 5-HTTLPR short allele → GREATER amygdala response
@@ -1190,25 +1190,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Belsky & Pluess 2009: S-allele = PLASTICITY (not just vulnerability)
        More hurt under negative → BUT more appreciation under positive
 
-  RSA A:B × VALENCE "FEEL" (Reward-Signal-Architecture v2.0 §1):
-    Type B dominant (opioid, CT afferents) → "ấm áp, dễ chịu, an toàn"
-    Type A dominant (evaluative, dopamine-adjacent) → "thú vị, exciting"
+  Reward-Signal-Architecture Evaluative:Direct-State × VALENCE "FEEL" (Reward-Signal-Architecture v2.0 §1):
+    Direct-State dominant (opioid, CT afferents) → "ấm áp, comfortable, an toàn"
+    Evaluative dominant (dopamine-adjacent) → "thú vị, exciting"
     
-  ⭐ REACTIVITY × RSA A:B = 2 INDEPENDENT AXES:
-    High reactivity + B dominant = INTENSE WARMTH (sensitive+warm)
-    High reactivity + A dominant = INTENSE EXCITEMENT (sensitive+curious)
-    Low reactivity + B dominant = GENTLE WARMTH
-    Low reactivity + A dominant = CALM INTEREST
+  ⭐ REACTIVITY × Reward-Signal-Architecture Evaluative:Direct-State = 2 INDEPENDENT AXES:
+    High reactivity + Direct-State dominant = INTENSE WARMTH (sensitive+warm)
+    High reactivity + Evaluative dominant = INTENSE EXCITEMENT (sensitive+curious)
+    Low reactivity + Direct-State dominant = GENTLE WARMTH
+    Low reactivity + Evaluative dominant = CALM INTEREST
     → 4 combinations → 4 different valence "profiles"
 
-  SPM vs REACTIVITY vs RSA (phân biệt rõ):
-    SPM = prediction ACCURACY (how well predict entity)
+  Self-Pattern-Modeling vs REACTIVITY vs Reward-Signal-Architecture (phân biệt rõ):
+    Self-Pattern-Modeling = prediction ACCURACY (how well predict entity)
     Reactivity = response INTENSITY (how strongly body responds)
-    RSA A:B = response QUALITY (warm vs exciting)
+    Reward-Signal-Architecture Evaluative:Direct-State = response QUALITY (warm vs exciting)
     → 3 trục INDEPENDENT
     
   🟢 5-HTTLPR: Hariri 2002. HSP: Aron & Aron 1997. Plasticity: Belsky 2009.
-  🟡 Reactivity × RSA A:B as 2 independent axes = framework synthesis (v3.0)
+  🟡 Reactivity × Reward-Signal-Architecture Evaluative:Direct-State as 2 independent axes = framework synthesis (v3.0)
 ```
 
 ---
@@ -1229,7 +1229,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   PHANTOM DEPTH = f(4 factors):
     ① Compilation depth: more channels compiled → more phantom firing points
-    ② Hardware subsidy: hw-supported bond → hw KEEPS firing after loss
+    ② Hardware subsidy: hardware-supported bond → hardware KEEPS firing after loss
     ③ L2 structural: entity = body-base extension → loss = body-base AMPUTATION
     ④ Duration compiled: longer relationship → deeper Hebbian → slower fade
 
@@ -1283,7 +1283,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   DISORGANIZED ATTACHMENT (Main & Hesse 1990):
     🟢 "FRIGHT WITHOUT SOLUTION": attachment figure = COMFORT AND FEAR source
-    → 2-TẦNG CONFLICT: Tầng A (hardware) → approach VS Tầng B (SPM) → avoid
+    → 2-TẦNG CONFLICT: Tầng Hardware → approach VS Tầng PFC (Self-Pattern-Modeling) → avoid
     → Cross-tầng → PFC arbitration INSUFFICIENT
     → Normal mixed: same tầng → PFC can arbitrate
     → QUALITATIVELY different from normal mixed
@@ -1310,7 +1310,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   MODERN VALENCE FRONTIER = SOCIAL + ABSTRACT:
     Technology CHƯA fill:
-      → Touch/comfort: CT afferents require PHYSICAL presence → Tonic Type B unfilled
+      → Touch/comfort: CT afferents require PHYSICAL presence → Tonic Direct-State unfilled
       → Emotional regulation: L2 structural requires compiled entity → no substitute
       → Generative mutual: shared discovery requires 2 genuine drives → no one-way fill
       → Social validation: requires REAL social comparison → no synthetic
@@ -1328,7 +1328,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Time on parasocial → LESS time for genuine → valence DECLINE
     
   AI × VALENCE:
-    AI can: trigger EXISTING L2 (write about mẹ → EC fire → feel)
+    AI can: trigger EXISTING L2 (write about mẹ → Entity-Compiled fire → feel)
     AI can: fill Generative gaps (insight, analysis, conversation)
     AI cannot: create L2 (no mutual, no body, no by-product from AI gap)
     AI cannot: fill Tonic (no physical presence, no CT afferents)
@@ -1617,7 +1617,7 @@ VALENCE UPDATE — 3 LOẠI:
 
   C1) Trẻ con giúp mẹ:
     Chain 1: compiled deep valence mẹ: {++}
-    Chain 2: SPM → empathy dissonance. Chain 3: giúp → mẹ vui → opioid.
+    Chain 2: Self-Pattern-Modeling → empathy dissonance. Chain 3: giúp → mẹ vui → opioid.
     Chain 4: reciprocity schema → identity.
     PFC: "Vì mẹ hay giúp tôi" — biết chain 4, KHÔNG biết chain 2+3.
 
@@ -1738,7 +1738,7 @@ VALENCE UPDATE — 3 LOẠI:
     → Schema đúng BỊ REJECT nếu output KHÔNG feed
     → PFC CHỈ check truth khi TRIGGERED (dissonance, forced evaluation)
 
-  NGUYÊN TẮC 3 — "Vô Tư" Đúng Ở Tầng PFC, Sai Ở Tầng Body:
+  NGUYÊN TẮC 3 — "Vô Tư" Đúng Ở Tầng PFC, Sai Ở Tầng PFCody:
     TẦNG PFC: "Không mong gì" = MÔ TẢ ĐÚNG conscious experience
     TẦNG BODY: Compiled patterns LUÔN fire, LUÔN có reward
     CẢ HAI ĐÚNG — ở tầng riêng.
@@ -1829,12 +1829,12 @@ VALENCE UPDATE — 3 LOẠI:
   §3: Structural vs Current valence + satiation type dimension
   §4: Entity-Compiled 3 subtypes, Entity-Compiled vs Obligation
   §5: L2+A = invisible, L1+B = visible paradox
-  §6: 3 Firing Modes taxonomy + hw subsidy modulation
+  §6: 3 Firing Modes taxonomy + hardware subsidy modulation
   §7: Hardware subsidy × habituation rate = unified model
   §8: Cyclic/Tonic/Generative × valence dynamics
   §9: Satiation type × mixed valence + verbalization mapping
   §10: "New appreciation" 3-mechanism model
-  §11: Per-entity valence dynamics trajectory + RSA A:B × feel
+  §11: Per-entity valence dynamics trajectory + Reward-Signal-Architecture Evaluative:Direct-State × feel
   §12: Phantom 4-factor model × satiation type
   §13: Technology × valence frontier + specialization portfolio
   §14: 4 nguồn as explicit model
@@ -1851,7 +1851,7 @@ VALENCE UPDATE — 3 LOẠI:
   Chain trust = product of link trusts (oversimplified)
   Group selection cho chain dài (optional, Tầng 4)
   Exact articulation amplification magnitude
-  Partial EC fire intensity formula
+  Partial Entity-Compiled fire intensity formula
 
 
 CÂU HỎI MỞ:
@@ -1875,21 +1875,21 @@ CROSS-REFERENCES:
     → Body-Feedback-Mechanism.md v2.0 — Body-Need aggregate, chunk dynamics
     → Schema.md v2.0 — schema = chunks + links + purpose
     → Chunk.md v2.2 — chunk substrate, context-tag, 4 connections
-    → Reward-Signal-Architecture.md v1.0 — Type A/B × valence
+    → Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State × valence
     → Gap-Body-Need.md v2.0 — Cyclic/Tonic/Generative satiation types
     → Body-Feedback-Label.md v2.0 — vocabulary reference
 
   ENTITY-COMPILED + ACCESS + DYNAMICS:
     → Entity-Compiled.md v1.0 — deep mechanism (Hub-and-Spoke, Dunbar, grief, decay)
     → Entity-Access.md v1.0 — gradient Mức 0-5, 3-Factor Model, excess, calibration
-    → Inter-Body-Mechanism.md v1.0 — §8 EC reframe, §4 3-cost, §5 By-Product Match
+    → Inter-Body-Mechanism.md v1.0 — §8 Entity-Compiled reframe, §4 3-cost, §5 By-Product Match
     → Body-Coupling.md v1.1 — coupling 2D model, 3 Phase, extension/entanglement
     → Connection.md v3.3 — 3 Generative Primitives, 2-luồng/2-tầng overview
-    → Self-Pattern-Modeling.md v3.1 — F1/F2, Simulation Engine application 1
-    → Agent-Mechanism.md v2.0 — integration hub, Architecture B
-    → Resonance-Entity.md v2.0 — hardware subsidy per entity, RSA A:B
+    → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Simulation Engine application 1
+    → Agent-Mechanism.md v2.0 — integration hub, Compilable Architecture
+    → Resonance-Entity.md v2.0 — hardware subsidy per entity, Reward-Signal-Architecture Evaluative:Direct-State
     → Resonance-Sustainability.md v1.0 — 3 modalities, maintenance decline
-    → Obligation.md v1.0 — compiled prediction (independent of EC)
+    → Obligation.md v1.0 — compiled prediction (independent of Entity-Compiled)
     → Protect.md v1.0 — f(replaceability × attachment), loss aversion
     → Boredom.md v2.0 — dissonance + Imagine-Final mờ, source ⑥, M1-M4
 
@@ -1982,7 +1982,7 @@ STATUS:
   v3.0 — 2026-05-22 — FULL REWRITE: Drill-Entity-Valence-Dynamics v2.0 (28 insights).
     +TRỤ 2 (§5-§13): 2-luồng/2-tầng, 3 Firing Modes, Hardware Subsidy,
     Satiation Type, Mixed Valence, "Xa mẹ", Per-entity dynamics, Phantom,
-    Technology frontier. §4 slim down (→ pointer EC v1.0 + EA v1.0).
+    Technology frontier. §4 slim down (→ pointer Entity-Compiled v1.0 + Entity-Access v1.0).
     §8+§9 v2.0 merge → §18. Phase A integration.
     v2.0 → backup/Valence-Propagation-v2.0-backup.md.
 ```

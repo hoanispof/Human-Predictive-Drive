@@ -322,7 +322,7 @@ CHUNK DEPTH × FRAMEWORK DYNAMICS:
   BODY-FEEDBACK:
     Chunks lưu ở somatic + emotional modalities → body EVALUATE được
     Chunks chỉ lưu verbal → body KHÔNG evaluate → no body-confirm
-    → Verbal-only chunks = "explicit giả" (SAL §1.3)
+    → Verbal-only chunks = "explicit giả" (Somatic-Articulation-Loop §1.3)
     → Body-confirmed chunks = "explicit thật"
 
   LABEL ≠ MODALITY THỨ 6:
@@ -335,7 +335,7 @@ CHUNK DEPTH × FRAMEWORK DYNAMICS:
 🟢 Emotional encoding = strongest: McGaugh 2004
 🟢 Resistance to change qua modalities: implicit learning research
 🟡 Depth = modality count framing = framework synthesis
-🟡 "Explicit thật vs giả" = framework extension (SAL §1.3)
+🟡 "Explicit thật vs giả" = framework extension (Somatic-Articulation-Loop §1.3)
 ```
 
 ---
@@ -418,7 +418,7 @@ SOMATIC-DOMINANT (concept first, label second):
   ② Label = tìm SAU, hoặc không cần
   ③ Label sai → body nói "chưa khớp" → tìm label khác
   ④ Nhiều concept KHÔNG CÓ label → hiểu nhưng khó GIẢI THÍCH
-  → = Somatic-Articulation Loop (SAL §2): body knows → words come after
+  → = Somatic-Articulation Loop (Somatic-Articulation-Loop §2): body knows → words come after
 
 VERBAL-DOMINANT (label first, concept through label):
   ① Nhận label TRƯỚC (từ, định nghĩa)
@@ -573,7 +573,7 @@ NGUYÊN TẮC: Match therapy modality VỚI chunk modality profile.
     Identify chunk modality profile TRƯỚC → chọn therapy ĐÚNG → effective
 
 CONNECTION VỚI FRAMEWORK:
-  → SAL (Somatic-Articulation-Loop.md):
+  → Somatic-Articulation-Loop (Somatic-Articulation-Loop.md):
     Stage 5 body-confirm = somatic modality evaluate articulation
     Therapy hiệu quả = therapy reach ĐÚNG modalities chunk được encode
   → Feeling (Feeling.md v2.0):

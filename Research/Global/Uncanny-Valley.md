@@ -2,18 +2,18 @@
 title: Uncanny Valley — Tại Sao Robot Hình Người Gây Ghê Sợ
 version: 1.1
 created: 2026-05-13
-refined: 2026-05-17 (v1.1 — F1/F2 Compiled/Fresh reframe, dependency updates)
+refined: 2026-05-17 (v1.1 — Compiled/Fresh reframe, dependency updates)
 status: ANALYSIS FILE v1.1
 scope: |
   ANALYSIS FILE: Uncanny valley = body-feedback response khi entity
   GẦN GIỐNG người nhưng CHƯA ĐỦ giống — gây dissonance đặc thù.
-  Framework phân tích: VTC-SPM conflict mechanism + practical design implications.
+  Framework phân tích: VTC-Self-Pattern-Modeling conflict mechanism + practical design implications.
   Áp dụng: robot hình người, CGI, avatar, deepfake, virtual agent.
   KHÔNG phải mechanism file mới — là SYNTHESIS từ mechanisms có sẵn
-  (Agent-Mechanism, SPM, Body-Feedback, Connection, Valence-Propagation).
+  (Agent-Mechanism, Self-Pattern-Modeling, Body-Feedback, Connection, Valence-Propagation).
 purpose: |
   Câu hỏi gốc: "Tại sao 95% giống người → ghê sợ, nhưng 50% hoặc 100% → OK?"
-  Framework answer: VTC fire "agent" + SPM fail → conflict đặc thù ≠ unfamiliarity.
+  Framework answer: VTC fire "agent" + Self-Pattern-Modeling fail → conflict đặc thù ≠ unfamiliarity.
   Practical: hiểu mechanism → thiết kế robot/AI/avatar TRÁNH uncanny valley,
   HOẶC chủ đích dùng cho context cần cảnh giác (security, fraud detection training).
 position: |
@@ -22,11 +22,11 @@ position: |
   Bổ sung: Agent-Mechanism.md §14.4 (sketch) → file này (deep analysis + design).
 dependencies:
   - Agent-Mechanism.md v2.0 §2, §3, §9, §14.4, §16.7 — VTC trigger, 4-layer model, gradient, uncanny sketch, prediction P7
-  - Self-Pattern-Match.md v3.0 §7, §9 — developmental bootstrap, threshold failure + fallback, F1 Compiled/F2 Fresh
+  - Self-Pattern-Modeling.md v3.0 §7, §9 — developmental bootstrap, threshold failure + fallback, Compiled/Fresh
   - Body-Feedback-Mechanism.md v2.0 — Chunk-Shift / Chunk-Miss / Gap dynamics, 2-source model
   - Connection.md v4.0 — ❶ Hardware social drive, 3 Generative Primitives, 2-Stream
   - Valence-Propagation.md v2.0 — per-entity valence, multi-channel evaluation, Entity-Compiled
-  - Mirror-Neuron-Rejection.md v1.1 — learned SPM vs hardware mirror module
+  - Mirror-Neuron-Rejection.md v1.1 — learned Self-Pattern-Modeling vs hardware mirror module
   - Threat.md v1.1 — dissonance from predicted harm, anticipation loop
   - Body-Coupling.md v2.0 — |V| depth × direction, coupling mechanism
   - Body-Feedback-Label.md v2.0 — prediction-delta vocabulary, framework terminology
@@ -53,7 +53,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 >
 > Nghiên cứu gọi đây là "uncanny valley" — vực sâu ghê rợn.
 > Framework giải thích cơ chế bên dưới:
-> VTC hardware fire "AGENT detected" + SPM simulate → FAIL
+> VTC hardware fire "AGENT detected" + Self-Pattern-Modeling simulate → FAIL
 > = conflict đặc thù giữa 2 hệ thống (detect vs simulate)
 > ≠ chỉ "lạ" hay "bất ngờ" đơn thuần.
 >
@@ -69,12 +69,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 - §0 — ABSTRACT + CORE THESIS
 - §1 — BACKGROUND: NGHIÊN CỨU UNCANNY VALLEY (1970 → 2025)
-- §2 — FRAMEWORK MECHANISM: VTC-SPM CONFLICT
+- §2 — FRAMEWORK MECHANISM: VTC-Self-Pattern-Modeling CONFLICT
 - §3 — 4-LAYER MODEL: ROBOT / AI / AVATAR
 - §4 — TẠI SAO "GẦN GIỐNG" KHÓ CHỊU HƠN "RÕ RÀNG KHÔNG PHẢI"
 - §5 — KHÁC BIỆT CÁ NHÂN + PHÁT TRIỂN
 - §6 — DESIGN PRINCIPLES — TỪ MECHANISM TỚI THỰC HÀNH
-- §7 — AI ERA: DEEPFAKE, AVATAR, VIRTUAL AGENT, VTC-SPM CLASSIFICATION
+- §7 — AI ERA: DEEPFAKE, AVATAR, VIRTUAL AGENT, VTC-Self-Pattern-Modeling CLASSIFICATION
 - §8 — fMRI EVIDENCE MAPPING
 - §9 — HONEST ASSESSMENT
 - §10 — CROSS-REFERENCES
@@ -86,35 +86,35 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ CORE THESIS:
 
-  Uncanny valley = VTC-SPM CONFLICT — xung đột giữa 2 hệ thống:
+  Uncanny valley = VTC-Self-Pattern-Modeling CONFLICT — xung đột giữa 2 hệ thống:
 
     HỆ THỐNG 1: VTC Hardware Trigger (detect)
       → Phát hiện agent cues (face, body, biological motion)
       → Fire nhanh, bẩm sinh, không qua PFC
       → Kết quả: "ĐÂY LÀ AGENT"
 
-    HỆ THỐNG 2: SPM — Self-Pattern-Match (simulate)
+    HỆ THỐNG 2: Self-Pattern-Modeling — Self-Pattern-Modeling (simulate)
       → Dùng self-chunks làm template để simulate entity
-      → F1 Compiled: body simulate trạng thái entity (automatic, cost ≈ 0)
-      → F2 Fresh: PFC chain predict hành vi entity (deliberate, costly)
+      → Compiled: body simulate trạng thái entity (automatic, cost ≈ 0)
+      → Fresh: PFC chain predict hành vi entity (deliberate, costly)
       → Kết quả: "entity này CẢM THẤY gì, SẼ LÀM gì"
 
     KHI 2 HỆ THỐNG XUNG ĐỘT:
       VTC nói: "ĐÂY LÀ AGENT" (face + body + motion cues)
-      SPM nói: "KHÔNG SIMULATE ĐƯỢC" (motion sai, expression dead, behavior off)
+      Self-Pattern-Modeling nói: "KHÔNG SIMULATE ĐƯỢC" (motion sai, expression dead, behavior off)
       → Body-feedback: dissonance ĐẶC THÙ — khác "lạ" đơn thuần
       → Cảm giác: ghê sợ, khó chịu, muốn tránh xa
 
     TẠI SAO ĐẶC THÙ (≠ unfamiliarity):
       → "Lạ" = prediction-delta → explore → compile chunk mới → resolve
-      → "Uncanny" = VTC-SPM conflict → explore → KHÔNG resolve được
+      → "Uncanny" = VTC-Self-Pattern-Modeling conflict → explore → KHÔNG resolve được
         (entity inconsistent — trông agent nhưng cư xử non-agent)
       → Delta KHÔNG BAO GIỜ resolve → body stuck trong dissonance
 
     PRACTICAL IMPLICATION:
-      → Thiết kế robot/AI: TRÁNH vùng VTC fire mà SPM fail
+      → Thiết kế robot/AI: TRÁNH vùng VTC fire mà Self-Pattern-Modeling fail
       → Hoặc: ngoại hình rõ ràng là máy (VTC không fire full)
-      → Hoặc: behavior đủ tốt để SPM succeed (technology đủ mature)
+      → Hoặc: behavior đủ tốt để Self-Pattern-Modeling succeed (technology đủ mature)
       → Vùng giữa = vực sâu → tránh
 
   Source: Agent-Mechanism.md §14.4 (sketch) + §16.7 (prediction P7)
@@ -259,7 +259,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §2 — FRAMEWORK MECHANISM: VTC-SPM CONFLICT
+## §2 — FRAMEWORK MECHANISM: VTC-Self-Pattern-Modeling CONFLICT
 
 > §2 là phần framework thêm giá trị mechanism chi tiết.
 > Builds on prediction error (Saygin 2012) + value evaluation (Rosenthal-von der Pütten 2019).
@@ -278,9 +278,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Self-propelled movement
     → Contingent response (entity phản ứng theo input)
 
-  VTC KHÔNG phân loại "entity NÀY là agent" — VTC INVOKE SPM:
-    → VTC trigger fire → SPM function được gọi lên entity
-    → Agent-ness = function output (SPM fire hay không), không phải storage property
+  VTC KHÔNG phân loại "entity NÀY là agent" — VTC INVOKE Self-Pattern-Modeling:
+    → VTC trigger fire → Self-Pattern-Modeling function được gọi lên entity
+    → Agent-ness = function output (Self-Pattern-Modeling fire hay không), không phải storage property
     → Source: Agent-Mechanism.md §2 (reject binary, accept spectrum)
 
   VỚI ROBOT HÌNH NGƯỜI:
@@ -289,7 +289,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Biological motion: ✅ PARTIAL — cử chỉ gần giống nhưng timing sai
     → Contingent response: ✅ PARTIAL — có phản ứng nhưng delayed/off
 
-    → VTC verdict: "AGENT DETECTED — invoke SPM"
+    → VTC verdict: "AGENT DETECTED — invoke Self-Pattern-Modeling"
     → VTC fire NHANH, VÔ THỨC, không cần PFC
     → Body đã CHUẨN BỊ tương tác với agent TRƯỚC KHI PFC can thiệp
 
@@ -298,7 +298,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Body shape: ✗ (tròn, không humanoid)
     → Biological motion: ✗ (cử chỉ máy rõ ràng)
 
-    → VTC verdict: "NOT AGENT" hoặc rất yếu → SPM không invoke full
+    → VTC verdict: "NOT AGENT" hoặc rất yếu → Self-Pattern-Modeling không invoke full
     → Não xử lý bằng Layer 1+2 (object chunks + logic) → OK, không conflict
 
   = VTC hardware trigger LÀ ĐIỀU KIỆN CẦN cho uncanny valley.
@@ -306,52 +306,52 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   = Thiết kế tránh VTC trigger = tránh uncanny valley.
 ```
 
-### §2.2 — SPM F1+F2 Dual Failure: Hệ Thống 2
+### §2.2 — Self-Pattern-Modeling Compiled+Fresh Dual Failure: Hệ Thống 2
 
 ```
 ⚠️ TERMINOLOGY NOTE (v1.1):
-  F1/F2 = COMPILED/FRESH processing axis — KHÔNG phải "Feeling/Logic" content labels.
-  F1 Compiled = body-level simulation, automatic, cost ≈ 0 (Hebbian reinforced)
-  F2 Fresh = PFC draft prediction, deliberate, costly (mỗi lần = effort)
+  Compiled/Fresh = COMPILED/FRESH processing axis — KHÔNG phải "Feeling/Logic" content labels.
+  Compiled = body-level simulation, automatic, cost ≈ 0 (Hebbian reinforced)
+  Fresh = PFC draft prediction, deliberate, costly (mỗi lần = effort)
   "Feeling" và "Logic" = OBSERVER LABELS cho shareability:
-    "Tôi CẢM THẤY nó buồn" (F1 output) vs "Tôi NGHĨ nó sẽ làm X" (F2 output)
+    "Tôi CẢM THẤY nó buồn" (Compiled output) vs "Tôi NGHĨ nó sẽ làm X" (Fresh output)
     → Cùng mechanism axis, khác CONTENT được describe.
-  Source: Inter-Body-Mechanism.md §3, SPM v3.0 §1.
+  Source: Inter-Body-Mechanism.md §3, Self-Pattern-Modeling v3.0 §1.
 ```
 
 ```
-🟡 SPM = SELF-PATTERN-MATCH — simulate entity bằng self-chunks:
+🟡 Self-Pattern-Modeling = SELF-PATTERN-MATCH — simulate entity bằng self-chunks:
 
-  Self-Pattern-Match.md §0.1 định nghĩa:
-    SPM = solo forward simulation mechanism.
+  Self-Pattern-Modeling.md §0.1 định nghĩa:
+    Self-Pattern-Modeling = solo forward simulation mechanism.
     Não retrieve chunks từ self repertoire → apply làm template cho target entity
     → simulate trạng thái target → đọc output → attribute cho target như prediction.
 
-  2 FUNCTIONS CHẠY SONG SONG (SPM §2):
+  2 FUNCTIONS CHẠY SONG SONG (Self-Pattern-Modeling §2):
 
-    F1 — COMPILED (body simulate):
+    Compiled — COMPILED (body simulate):
       → "Entity này đang CẢM THẤY gì?"
       → Não retrieve self-chunks: "khi MÌNH có biểu cảm này → MÌNH cảm thấy X"
       → Apply: "vậy entity này chắc cảm thấy X"
       → Output: body bản sao yếu trạng thái target → body-level response THẬT
       → VỚI ROBOT: biểu cảm gần giống → retrieve chunks → nhưng response RỖNG
-        (robot không CÓ internal state → F1 output = noise, không phải signal)
-      → = F1 FIRE nhưng OUTPUT EMPTY hoặc CONFLICTING
+        (robot không CÓ internal state → Compiled output = noise, không phải signal)
+      → = Compiled FIRE nhưng OUTPUT EMPTY hoặc CONFLICTING
 
-    F2 — FRESH (PFC chain predict):
+    Fresh — FRESH (PFC chain predict):
       → "Entity này sẽ LÀM GÌ tiếp?"
       → PFC chain: biểu cảm X + context Y → predict hành vi Z
       → VỚI ROBOT: biểu cảm gợi predict Z → robot LÀM thứ khác
         (cử chỉ máy móc, timing sai, phản ứng off)
-      → F2 prediction LIÊN TỤC bị vi phạm
-      → = F2 FIRE nhưng WRONG liên tục
+      → Fresh prediction LIÊN TỤC bị vi phạm
+      → = Fresh FIRE nhưng WRONG liên tục
 
   ⭐ TẠI SAO DUAL FAILURE ĐẶC THÙ:
 
     So sánh 3 trường hợp:
 
     ┌───────────────────┬─────────────┬─────────────┬─────────────────┐
-    │                   │ F1 Compiled │ F2 Fresh    │ Kết quả         │
+    │                   │ Compiled │ Fresh    │ Kết quả         │
     ├───────────────────┼─────────────┼─────────────┼─────────────────┤
     │ Người thật        │ ✅ fire OK  │ ✅ predict OK│ Bình thường     │
     │ Robot rõ máy      │ ✗ not invoke│ ✅ logic OK  │ OK (no conflict)│
@@ -360,18 +360,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Xác chết          │ ⚠ fire→EMPTY│ ⚠ no predict│ Uncanny + grief │
     └───────────────────┴─────────────┴─────────────┴─────────────────┘
 
-    Robot hình người = TRƯỜNG HỢP DUY NHẤT cả F1 lẫn F2 đều fail
+    Robot hình người = TRƯỜNG HỢP DUY NHẤT cả Compiled lẫn Fresh đều fail
     trong khi VTC vẫn nói "AGENT"
     → 2 failures đồng thời + 1 positive trigger = compound conflict
 
   KHÁC VỚI PREDICTION ERROR ĐƠN THUẦN:
     Saygin 2012 nói: "prediction error khi appearance ≠ motion"
     Framework thêm: prediction error XẢY RA Ở 2 FUNCTIONS KHÁC NHAU
-    → F1 error: body simulate → empty (KHÔNG CÓ state để simulate)
-    → F2 error: logic predict → wrong (behavior không follow predicted chain)
+    → Compiled error: body simulate → empty (KHÔNG CÓ state để simulate)
+    → Fresh error: logic predict → wrong (behavior không follow predicted chain)
     → 2 loại error này có MECHANISM và BRAIN AREA khác nhau
-    → F1 error ≈ aIPS + somatosensory (body simulation pathway)
-    → F2 error ≈ dlPFC + temporal (logic prediction pathway)
+    → Compiled error ≈ aIPS + somatosensory (body simulation pathway)
+    → Fresh error ≈ dlPFC + temporal (logic prediction pathway)
     → Compound effect = tại sao uncanny valley intense hơn "surprise" đơn thuần
 ```
 
@@ -393,10 +393,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ② CHUNK-MISS (lặp lại):
     → Body-Feedback-Mechanism.md §3.2: pattern đã compile nhưng KHÔNG fire
-    → VỚI ROBOT: F1 EXPECT emotional state → MISS (robot không có state)
+    → VỚI ROBOT: Compiled EXPECT emotional state → MISS (robot không có state)
     → Compiled baseline suốt đời: "mặt người → CÓ internal state"
     → Robot: mặt người nhưng NO internal state → Chunk-Miss lặp lại
-    → Mỗi lần F1 fire → expect → miss → VTA dopamine SUPPRESS (Schultz 1997)
+    → Mỗi lần Compiled fire → expect → miss → VTA dopamine SUPPRESS (Schultz 1997)
     → Đặc biệt: miss CỦA CƠ CHẾ AGENT → khác miss thông thường
       (miss "có ai đó" MẠNH hơn miss "có cái gì đó" — Connection ❶)
 
@@ -430,7 +430,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Connection.md §0 định nghĩa 3 Generative Primitives:
     ❶ HARDWARE — Body NEEDS social input như food/water
-    ❷ SPM (F1+F2) — simulate agents
+    ❷ Self-Pattern-Modeling (Compiled+Fresh) — simulate agents
     ❸ PER-AGENT VALENCE — body evaluate agent
 
   ❶ HARDWARE SOCIAL DRIVE + UNCANNY VALLEY:
@@ -445,7 +445,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → VTC fire "AGENT" → ❶ hardware social drive KÍCH HOẠT
     → Body chuẩn bị nhận social input (cortisol giảm, approach cue)
     → NHƯNG: robot KHÔNG deliver real social input
-      (không có internal state → F1 empty → body nhận được NOTHING)
+      (không có internal state → Compiled empty → body nhận được NOTHING)
     → = Social hunger mà KHÔNG ĐƯỢC ĂN
 
     Tương tự mechanism:
@@ -485,8 +485,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Visual channel:    "giống người" → approach cue (+)
     Motion channel:    "không phải người" → cautious cue (-)
-    SPM F1 channel:    "không đọc được state" → threat cue (--)
-    SPM F2 channel:    "predict liên tục sai" → unreliable cue (-)
+    Self-Pattern-Modeling Compiled channel:    "không đọc được state" → threat cue (--)
+    Self-Pattern-Modeling Fresh channel:    "predict liên tục sai" → unreliable cue (-)
     ❶ Social channel:  "trông social partner" → approach cue (+)
     ❶ Social reality:  "không deliver social input" → frustration cue (--)
 
@@ -512,7 +512,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → SỤT MẠNH tại uncanny valley → recovery khi gần 100%
     → Framework mapping: vmPFC = value evaluation = valence compilation
     → SỤT = body CANNOT compile stable valence cho entity này
-    → Recovery = khi entity đủ giống → SPM succeed → valence compile được → OK
+    → Recovery = khi entity đủ giống → Self-Pattern-Modeling succeed → valence compile được → OK
 ```
 
 ---
@@ -525,7 +525,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Mọi entity được não xử lý qua 4 layers:
     Layer 1 — Object Chunks (physical + semantic properties)
     Layer 2 — Logic Processing (rules-based prediction)
-    Layer 3 — Modeling Overlay (SPM invoke — optional)
+    Layer 3 — Modeling Overlay (Self-Pattern-Modeling invoke — optional)
     Layer 4 — Schema Override (cultural/personal schema)
 
   Uncanny valley xảy ra khi: Layer 3 ĐƯỢC INVOKE nhưng FAIL.
@@ -536,7 +536,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   ┌────────────────────────┬──────────┬──────────┬──────────────┬──────────────┬──────────────┐
-  │ Entity                 │ L1       │ L2 Logic │ L3 SPM       │ L4 Schema    │ Uncanny?     │
+  │ Entity                 │ L1       │ L2 Logic │ L3 Self-Pattern-Modeling       │ L4 Schema    │ Uncanny?     │
   │                        │ Object   │          │              │              │              │
   ├────────────────────────┼──────────┼──────────┼──────────────┼──────────────┼──────────────┤
   │ ① Robot hút bụi        │ ✅ máy   │ ✅ OK    │ ✗ not invoke │ "công cụ"    │ ✗ KHÔNG      │
@@ -549,8 +549,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                        │          │          │ not humanoid │              │              │
   ├────────────────────────┼──────────┼──────────┼──────────────┼──────────────┼──────────────┤
   │ ③ Robot hình người     │ ✅ người │ ⚠ fail   │ ⚠ invoke →   │ CONFLICT:    │ ✅ MẠNH      │
-  │   realistic            │ mặt,    │ predict  │ F1 EMPTY     │ "người" vs   │ UNCANNY      │
-  │   (Sophia, Ameca)      │ body    │ liên tục │ F2 WRONG     │ "máy" chưa   │ VALLEY       │
+  │   realistic            │ mặt,    │ predict  │ Compiled EMPTY     │ "người" vs   │ UNCANNY      │
+  │   (Sophia, Ameca)      │ body    │ liên tục │ Fresh WRONG     │ "máy" chưa   │ VALLEY       │
   │                        │          │ sai      │              │ resolve      │              │
   ├────────────────────────┼──────────┼──────────┼──────────────┼──────────────┼──────────────┤
   │ ④ Nhân vật hoạt hình   │ ✅ simple│ ✅ OK    │ ⚠ Mode 2     │ "nhân vật    │ ✗ KHÔNG      │
@@ -560,7 +560,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├────────────────────────┼──────────┼──────────┼──────────────┼──────────────┼──────────────┤
   │ ⑤ Avatar AI text       │ ✗ không  │ ✅ OK    │ ⚠ partial    │ "AI tool"    │ ✗ KHÔNG      │
   │   (ChatGPT, Claude)    │ có body  │ text     │ qua text     │ hoặc "bạn    │ Nhưng có     │
-  │                        │          │ predict  │ some F2      │ ảo" tùy user │ risk khác    │
+  │                        │          │ predict  │ some Fresh      │ ảo" tùy user │ risk khác    │
   │                        │          │          │ fire         │              │ (§7)         │
   ├────────────────────────┼──────────┼──────────┼──────────────┼──────────────┼──────────────┤
   │ ⑥ Deepfake video       │ ✅ người │ ✅ OK    │ ✅ fire OK    │ CONFLICT:    │ ⚠ KHI PHÁT   │
@@ -569,7 +569,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                        │          │ thật    │              │ phát hiện    │ MẠNH         │
   ├────────────────────────┼──────────┼──────────┼──────────────┼──────────────┼──────────────┤
   │ ⑦ Robot tương lai      │ ✅ người │ ✅ OK    │ ✅ fire OK    │ "người máy"  │ ✗ VƯỢT QUA   │
-  │   (behavior đủ tốt)    │ realistic│ predict │ F1+F2 cả hai │ chunk mới    │ = Valley     │
+  │   (behavior đủ tốt)    │ realistic│ predict │ Compiled+Fresh cả hai │ chunk mới    │ = Valley     │
   │                        │          │ đúng    │ succeed      │ compiled     │ crossed      │
   └────────────────────────┴──────────┴──────────┴──────────────┴──────────────┴──────────────┘
 
@@ -599,11 +599,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     VTC fire "agent" dựa trên PATTERN MATCH cues:
     → Dưới threshold (0-50% giống người): VTC không fire hoặc rất yếu
-    → Trên threshold (~70-95%): VTC fire MẠNH → SPM invoke → NHƯNG SPM fail
-    → Gần 100%: VTC fire + SPM succeed → OK
+    → Trên threshold (~70-95%): VTC fire MẠNH → Self-Pattern-Modeling invoke → NHƯNG Self-Pattern-Modeling fail
+    → Gần 100%: VTC fire + Self-Pattern-Modeling succeed → OK
 
-    "Rõ ràng không phải" = dưới VTC threshold → SPM không invoke → no conflict
-    "Gần giống" = trên VTC threshold → SPM invoke → fail → CONFLICT
+    "Rõ ràng không phải" = dưới VTC threshold → Self-Pattern-Modeling không invoke → no conflict
+    "Gần giống" = trên VTC threshold → Self-Pattern-Modeling invoke → fail → CONFLICT
     = Vấn đề không phải "lạ" — vấn đề là VƯỢT QUA threshold nhưng CHƯA ĐỦ
 
 
@@ -671,30 +671,30 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §5.1 — Developmental trajectory
 
 ```
-🟡 FRAMEWORK PREDICT (từ Agent-Mechanism.md §13 + SPM §7):
+🟡 FRAMEWORK PREDICT (từ Agent-Mechanism.md §13 + Self-Pattern-Modeling §7):
 
   STAGE 0-1 (0-12 tháng):
     → VTC hardware trigger active
-    → SPM chưa functional (chưa có self-chunks đủ)
+    → Self-Pattern-Modeling chưa functional (chưa có self-chunks đủ)
     → PREDICT: trẻ sơ sinh KHÔNG CÓ uncanny valley response
-    → VÌ: chưa có SPM → không có VTC-SPM conflict
+    → VÌ: chưa có Self-Pattern-Modeling → không có VTC-Self-Pattern-Modeling conflict
     → Trẻ có thể nhìn robot hình người = nhìn bất kỳ stimulus nào có face
 
   STAGE 2-3 (14 tháng - 7 tuổi) — ANIMISM:
-    → SPM online nhưng CHƯA CALIBRATE threshold
-    → Trẻ fire SPM lên MỌI THỨ (gấu bông, xe, mặt trăng)
+    → Self-Pattern-Modeling online nhưng CHƯA CALIBRATE threshold
+    → Trẻ fire Self-Pattern-Modeling lên MỌI THỨ (gấu bông, xe, mặt trăng)
     → PREDICT: trẻ 2-7 ÍT SỢ robot hình người hơn người lớn
-    → VÌ: SPM fire KHÔNG PHÂN BIỆT → robot = "thêm 1 entity có state"
+    → VÌ: Self-Pattern-Modeling fire KHÔNG PHÂN BIỆT → robot = "thêm 1 entity có state"
     → Trẻ có thể treat robot như bạn chơi (consistent với observation thực tế)
-    → Uncanny valley GIẢM vì SPM chưa refine đủ để detect fail
+    → Uncanny valley GIẢM vì Self-Pattern-Modeling chưa refine đủ để detect fail
 
   STAGE 4+ (7+ tuổi) — CALIBRATED:
-    → SPM đã refine boundary agent/non-agent
-    → Robot hình người = VTC fire + SPM fail = CÓ conflict
+    → Self-Pattern-Modeling đã refine boundary agent/non-agent
+    → Robot hình người = VTC fire + Self-Pattern-Modeling fail = CÓ conflict
     → PREDICT: uncanny valley sensitivity TĂNG theo tuổi (tới mức calibrate)
 
   STAGE 6+ (adult, COMPILED):
-    → SPM library compiled sâu → prediction CHÍNH XÁC hơn
+    → Self-Pattern-Modeling library compiled sâu → prediction CHÍNH XÁC hơn
     → MISMATCH rõ hơn → uncanny valley CÓ THỂ MẠNH hơn
     → NHƯNG: adults cũng có Schema Override (Layer 4)
       → Biết "đây là robot" → schema giúp interpret → giảm dissonance
@@ -704,7 +704,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Nhưng consistent với:
     → Piaget animism phase (2-7 tuổi) 🟢
     → Trẻ em thường thích robot hơn người lớn (anecdotal + classroom data)
-    → False belief task ~4 tuổi = SPM cognitive online 🟢
+    → False belief task ~4 tuổi = Self-Pattern-Modeling cognitive online 🟢
 ```
 
 ### §5.2 — Khác biệt cá nhân
@@ -712,10 +712,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 4 YẾU TỐ TẠO KHÁC BIỆT:
 
-  ① SPM LIBRARY DEPTH:
-    → Người có SPM library sâu (nhiều interaction) → prediction chính xác hơn
+  ① Self-Pattern-Modeling LIBRARY DEPTH:
+    → Người có Self-Pattern-Modeling library sâu (nhiều interaction) → prediction chính xác hơn
     → Mismatch RÕ hơn → uncanny valley CÓ THỂ mạnh hơn
-    → VÍ DỤ: diễn viên, nhà tâm lý = SPM library giàu → detect mismatch nhanh
+    → VÍ DỤ: diễn viên, nhà tâm lý = Self-Pattern-Modeling library giàu → detect mismatch nhanh
     → Nhưng CŨNG có thể ít sợ hơn vì hiểu mechanism (meta-awareness)
 
   ② CULTURE + EXPOSURE:
@@ -724,27 +724,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Anh: 30% tiếp xúc → CHƯA compile chunk → mỗi encounter = novel + uncanny
     → Exposure giúp compile chunk mới:
       "robot hình người = entity loại X, cư xử kiểu Y, không cần sợ"
-    → Chunk này TRUNG HÒA VTC-SPM conflict (Layer 4 schema assist)
+    → Chunk này TRUNG HÒA VTC-Self-Pattern-Modeling conflict (Layer 4 schema assist)
     → NHƯNG: 44% người Trung Quốc VẪN sợ dù 75% tiếp xúc
       → Schema giúp nhưng KHÔNG resolve 100% core mechanism
-      → VTC-SPM conflict vẫn fire — chỉ giảm intensity
+      → VTC-Self-Pattern-Modeling conflict vẫn fire — chỉ giảm intensity
 
   ③ SCIENCE FICTION SCHEMAS:
     → 1 thế kỷ phim SF (Terminator, Ex Machina, Blade Runner, Westworld)
     → Compile schema: "robot giống người = NGUY HIỂM"
     → Schema Layer 4 TĂNG threat evaluation
     → Framework predict: người xem nhiều SF → uncanny valley MẠNH hơn
-    → Vì: schema "robot nguy hiểm" compound với VTC-SPM conflict
+    → Vì: schema "robot nguy hiểm" compound với VTC-Self-Pattern-Modeling conflict
     → Ngược lại: người xem positive robot media (WALL-E, Big Hero 6)
       → schema "robot = bạn" → có thể GIẢM uncanny (nhưng chỉ cho non-realistic robot)
 
-  ④ ALEXITHYMIA + SPM QUALITY:
-    → Bird & Cook 2013: alexithymia → poor self-reading → poor SPM
+  ④ ALEXITHYMIA + Self-Pattern-Modeling QUALITY:
+    → Bird & Cook 2013: alexithymia → poor self-reading → poor Self-Pattern-Modeling
     → PREDICT: người có alexithymia → uncanny valley KHÁC
-    → Có thể: ít uncanny (vì SPM không fire mạnh → ít conflict)
+    → Có thể: ít uncanny (vì Self-Pattern-Modeling không fire mạnh → ít conflict)
     → Hoặc: uncanny nhưng KHÔNG LABEL được (discomfort without explanation)
     → Amygdala data (Rosenthal-von der Pütten 2019): individual differences rõ
-      → Consistent: SPM quality khác → amygdala response khác
+      → Consistent: Self-Pattern-Modeling quality khác → amygdala response khác
 
   ⚠️ Phần lớn predictions §5.2 chưa được test trực tiếp (🔴).
   Framework cung cấp falsifiable predictions — cần empirical work.
@@ -764,8 +764,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ NGUYÊN TẮC 1 — CONGRUENCE (NHẤT QUÁN):
 
   Mechanism gốc (§2.2):
-    Uncanny valley = VTC detect agent + SPM fail
-    SPM fail VÌ: ngoại hình gợi predict X → hành vi thực = Y ≠ X
+    Uncanny valley = VTC detect agent + Self-Pattern-Modeling fail
+    Self-Pattern-Modeling fail VÌ: ngoại hình gợi predict X → hành vi thực = Y ≠ X
     = MISMATCH giữa appearance prediction và behavior reality
 
   NGUYÊN TẮC:
@@ -809,13 +809,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Mechanism gốc (§2.1):
     VTC fire dựa trên: face pattern, body shape, biological motion, contingent response.
-    VTC fire = SPM invoke = CÓ THỂ conflict.
-    VTC không fire = SPM không invoke = KHÔNG conflict.
+    VTC fire = Self-Pattern-Modeling invoke = CÓ THỂ conflict.
+    VTC không fire = Self-Pattern-Modeling không invoke = KHÔNG conflict.
 
   NGUYÊN TẮC:
     Kiểm soát CÓ CHỦ ĐÍCH: VTC fire hay không fire.
     Nếu muốn entity được treat như TOOL → giảm VTC cues.
-    Nếu muốn entity được treat như COMPANION → phải đảm bảo SPM succeed.
+    Nếu muốn entity được treat như COMPANION → phải đảm bảo Self-Pattern-Modeling succeed.
 
   GIẢM VTC CUES (entity = tool):
     → Không dùng mặt người realistic → dùng LED indicators, abstract display
@@ -832,39 +832,39 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   VÙNG NGUY HIỂM (phải tránh):
     → Mặt realistic + body humanoid + behavior chưa đủ
-    → = VTC fire MẠNH + SPM fail = vực sâu
+    → = VTC fire MẠNH + Self-Pattern-Modeling fail = vực sâu
     → Đặc biệt: eyes (mắt) là VTC trigger MẠNH NHẤT
       (face perception bắt đầu từ eyes — Spelke core knowledge)
-    → Robot mắt dead/uncanny = trigger VTC mạnh + SPM F1 empty nhất
+    → Robot mắt dead/uncanny = trigger VTC mạnh + Self-Pattern-Modeling Compiled empty nhất
     → → Nếu chưa làm được mắt tốt → ĐỪNG làm mắt realistic
 ```
 
-### §6.3 — SPM-Friendly Design: Predictable, Readable
+### §6.3 — Self-Pattern-Modeling-Friendly Design: Predictable, Readable
 
 ```
-⭐ NGUYÊN TẮC 3 — SPM-FRIENDLY:
+⭐ NGUYÊN TẮC 3 — Self-Pattern-Modeling-FRIENDLY:
 
   Mechanism gốc (§2.2, §2.3):
-    SPM fail → F1 empty + F2 wrong → Chunk-Miss + Chunk-Shift liên tục
-    SPM succeed → F1 có signal + F2 predict đúng → OK
+    Self-Pattern-Modeling fail → Compiled empty + Fresh wrong → Chunk-Miss + Chunk-Shift liên tục
+    Self-Pattern-Modeling succeed → Compiled có signal + Fresh predict đúng → OK
 
   NGUYÊN TẮC:
-    Thiết kế HÀNH VI robot sao cho SPM CÓ THỂ succeed
+    Thiết kế HÀNH VI robot sao cho Self-Pattern-Modeling CÓ THỂ succeed
     (dù entity rõ ràng không phải người).
 
-  3 CHIỀU SPM-FRIENDLY:
+  3 CHIỀU Self-Pattern-Modeling-FRIENDLY:
 
-    A — PREDICTABLE (F2 có thể predict):
+    A — PREDICTABLE (Fresh có thể predict):
       → Behavior patterns ỔN ĐỊNH, có quy luật
       → Nếu robot quay đầu, phải có CUE trước (nhìn hướng đó, hoặc indicator)
       → KHÔNG thay đổi behavior đột ngột không có context
       → Analog: người quen = predictable → comfortable (dù không exciting)
 
-    B — READABLE (F1 có thể read):
+    B — READABLE (Compiled có thể read):
       → State hiện tại CÓ THỂ ĐOÁN ĐƯỢC từ external cues
       → Nếu robot "đang xử lý" → indicator rõ (đèn, animation, sound)
-      → KHÔNG im lặng + bất động (= ambiguous state → F1 output empty)
-      → Analog: người biểu cảm rõ = dễ đọc → SPM succeed → comfortable
+      → KHÔNG im lặng + bất động (= ambiguous state → Compiled output empty)
+      → Analog: người biểu cảm rõ = dễ đọc → Self-Pattern-Modeling succeed → comfortable
 
     C — CONTINGENT (feedback loop hoạt động):
       → Robot PHẢN ỨNG theo input của user
@@ -905,7 +905,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Lần gặp đầu tiên: robot TỰ GIỚI THIỆU rõ: "Tôi là robot [tên], tôi có thể [X]"
       → Minh bạch limitations: "Tôi không hiểu cảm xúc, nhưng tôi có thể [hành động cụ thể]"
       → = Giúp brain compile: "entity này = robot loại Y, scope = Z"
-      → = Layer 4 schema install → giảm VTC-SPM conflict
+      → = Layer 4 schema install → giảm VTC-Self-Pattern-Modeling conflict
 
     C — DESIGN CUES RÕ RÀNG:
       → Giữ 1-2 cues "rõ ràng là robot" DÙ behavior đã tốt:
@@ -933,7 +933,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Mechanism gốc (§5.2 ②):
     Tiếp xúc nhiều → compile chunk mới → prediction-delta giảm dần.
-    NHƯNG: core VTC-SPM conflict CHƯA resolve 100% (China: 44% vẫn sợ dù 75% tiếp xúc).
+    NHƯNG: core VTC-Self-Pattern-Modeling conflict CHƯA resolve 100% (China: 44% vẫn sợ dù 75% tiếp xúc).
 
   NGUYÊN TẮC:
     Thiết kế PATHWAY tiếp xúc DẦN DẦN — không đột ngột.
@@ -948,7 +948,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Bước 2 — OBSERVED (có mặt nhưng không tương tác):
       → Thấy robot ở nơi công cộng, hoạt động bình thường
       → Brain observe + compile behavior patterns
-      → SPM có data nhưng chưa phải test trực tiếp
+      → Self-Pattern-Modeling có data nhưng chưa phải test trực tiếp
 
     Bước 3 — BRIEF INTERACTION (tương tác ngắn, có kiểm soát):
       → Hỏi đường, nhận nước, chụp ảnh cùng
@@ -983,8 +983,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 DEEPFAKE = TRƯỜNG HỢP ĐẶC BIỆT:
 
   Deepfake KHÁC robot hình người:
-    → Robot: trông agent nhưng CƯ XỬ non-agent → SPM fail → uncanny
-    → Deepfake: trông người thật + cư xử người thật → SPM SUCCEED
+    → Robot: trông agent nhưng CƯ XỬ non-agent → Self-Pattern-Modeling fail → uncanny
+    → Deepfake: trông người thật + cư xử người thật → Self-Pattern-Modeling SUCCEED
     → = KHÔNG có uncanny valley... CHO TỚI KHI PHÁT HIỆN "giả"
 
   KHI PHÁT HIỆN DEEPFAKE = "GIẢ":
@@ -1001,13 +1001,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Schema [video/voice] "đáng tin" bị erode
     → Dài hạn: TOÀN BỘ video/audio communication có thể bị "deepfake doubt"
       = mọi cuộc gọi video → micro-suspicion "thật hay giả?"
-      = Background Pattern tiêu cực (Background-Pattern.md §3: Invisible Conflict)
+      = Background-Pattern tiêu cực (Background-Pattern.md §3: Invisible Conflict)
 
   THIẾT KẾ CHỐNG DEEPFAKE (từ mechanism):
     → Schema provision: dạy nhận biết deepfake (compile detection chunks)
     → Watermark/certification: cung cấp external verify (Layer 4 schema assist)
     → Real-time verification: indicator "video xác thực" → giảm suspicion
-    → KHÔNG THỂ dựa vào body detect: deepfake đủ tốt → SPM succeed → body KHÔNG cảnh báo
+    → KHÔNG THỂ dựa vào body detect: deepfake đủ tốt → Self-Pattern-Modeling succeed → body KHÔNG cảnh báo
 ```
 
 ### §7.2 — AI Avatar + Virtual Agent
@@ -1015,16 +1015,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 TEXT AI (ChatGPT, Claude) — HIỆN TẠI:
 
-  → Không có visual VTC trigger → SPM invoke PARTIAL (qua text)
-  → F2 Fresh fire (predict response patterns) — có thể khá tốt
-  → F1 Compiled fire YẾU (chỉ qua verbal-cognitive channel — không có body cues)
+  → Không có visual VTC trigger → Self-Pattern-Modeling invoke PARTIAL (qua text)
+  → Fresh fire (predict response patterns) — có thể khá tốt
+  → Compiled fire YẾU (chỉ qua verbal-cognitive channel — không có body cues)
   → = KHÔNG uncanny valley (không đủ VTC trigger)
 
   NHƯNG CÓ RISK KHÁC:
   → AI-Self-Model.md §1: AI = amplifier, NOT corrector
   → User có thể anthropomorphize (project agent model lên AI)
   → = Mode 2 schema override: imagined agent model KHÔNG có feedback thực
-  → = Parasocial variant: SPM fire nhưng KHÔNG CÓ Resonance calibrate
+  → = Parasocial variant: Self-Pattern-Modeling fire nhưng KHÔNG CÓ Resonance calibrate
   → Dài hạn: user build "relationship" với entity không có internal state
   → = Connection promise WITHOUT connection reality (tương tự §2.4)
 
@@ -1032,8 +1032,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   VOICE AI (với giọng nói realistic) — ĐANG PHÁT TRIỂN:
 
   → Thêm auditory VTC trigger (giọng người = agent cue mạnh)
-  → SPM invoke MẠNH hơn text (voice carry emotion → F1 fire)
-  → Nếu voice đủ tốt + response contingent: SPM có thể SUCCEED phần lớn
+  → Self-Pattern-Modeling invoke MẠNH hơn text (voice carry emotion → Compiled fire)
+  → Nếu voice đủ tốt + response contingent: Self-Pattern-Modeling có thể SUCCEED phần lớn
   → Uncanny valley NHẸ hơn visual robot (ít cues → ít conflict)
   → NHƯNG: "gần giống nhưng timing off" → micro-uncanny qua phone
 
@@ -1042,13 +1042,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   → Visual VTC trigger MẠNH (face, body, eyes)
   → Nếu avatar stylized (cartoon): VTC weak → OK (row ④ bảng §3.1)
-  → Nếu avatar realistic: VTC strong → SPM invoke → PHẢI behavior đủ tốt
+  → Nếu avatar realistic: VTC strong → Self-Pattern-Modeling invoke → PHẢI behavior đủ tốt
   → = CÙNG vấn đề với robot hình người, nhưng ở digital space
   → Advantage: digital easier to control → facial animation có thể tốt hơn physical robot
   → Risk: nếu push realistic quá nhanh → digital uncanny valley
 
   FRAMEWORK RECOMMENDATION cho AI avatar:
-  → Hiện tại: stylized > realistic (technology chưa đủ cho SPM succeed)
+  → Hiện tại: stylized > realistic (technology chưa đủ cho Self-Pattern-Modeling succeed)
   → Khi technology đủ: realistic OK, NHƯNG phải match behavior
   → Nguyên tắc: §6.1 Congruence luôn áp dụng — digital hay physical đều vậy
 ```
@@ -1061,7 +1061,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Context: dân số già hóa → thiếu người chăm sóc → robot companion
 
   PHÂN TÍCH QUA FRAMEWORK:
-    → Người già: SPM library COMPILED cực sâu (70+ năm social interaction)
+    → Người già: Self-Pattern-Modeling library COMPILED cực sâu (70+ năm social interaction)
     → Baseline "người" cực mạnh → Chunk-Miss potential cực lớn
     → ❶ Hardware social drive có thể MẠNH hơn (loneliness chronic)
     → = Uncanny valley có thể INTENSE hơn ở người già
@@ -1071,7 +1071,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Nếu robot provide basic social cues (voice, presence, contingent response)
     → Body có thể "chấp nhận" dù biết không phải người
     → = Schema override: "không phải người thật, nhưng TỐT HƠN KHÔNG CÓ AI"
-    → Tương tự Mode 1 (Agent-Mechanism.md §10): schema trust replace full SPM
+    → Tương tự Mode 1 (Agent-Mechanism.md §10): schema trust replace full Self-Pattern-Modeling
 
   ⚠️ FAKE FEEDBACK RISK — ROBOT GIỐNG NGƯỜI ĐẶC BIỆT NGUY HIỂM:
 
@@ -1091,7 +1091,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     → Robot nói "tôi hiểu bạn buồn" + biểu cảm buồn
     → Body feel ĐƯỢC AN ỦI (vì VTC fire → social processing pipeline active)
-    → NHƯNG "hiểu" đó = algorithm, không phải SPM F1 thật
+    → NHƯNG "hiểu" đó = algorithm, không phải Self-Pattern-Modeling Compiled thật
     → = Social feedback promise nhưng KHÔNG deliver real social evaluation
     → AI-Self-Model.md §1: AI = amplifier, NOT corrector
     → Robot giống người = amplifier MẠNH HƠN AI text (bypass PFC gate)
@@ -1123,26 +1123,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Human-AI-Future.md §7: symbiosis > replacement
 ```
 
-### §7.4 — 3 Loại Robot Theo Góc Nhìn Con Người (VTC-SPM Classification)
+### §7.4 — 3 Loại Robot Theo Góc Nhìn Con Người (VTC-Self-Pattern-Modeling Classification)
 
 ```
-⭐ REFRAME: PHÂN LOẠI THEO BỘ LỌC VTC-SPM, KHÔNG THEO KỸ THUẬT
+⭐ REFRAME: PHÂN LOẠI THEO BỘ LỌC VTC-Self-Pattern-Modeling, KHÔNG THEO KỸ THUẬT
 
   Robotics hiện tại phân loại theo KỸ THUẬT chế tạo:
     Industrial / Service / Social / Humanoid / Collaborative...
     = Phân loại từ PHÍA ROBOT (engineering properties)
 
   Nhưng trải nghiệm người dùng KHÔNG phụ thuộc kỹ thuật bên trong.
-  Trải nghiệm phụ thuộc: CÁI GÌ XẢY RA TẠI BỘ LỌC VTC-SPM.
+  Trải nghiệm phụ thuộc: CÁI GÌ XẢY RA TẠI BỘ LỌC VTC-Self-Pattern-Modeling.
 
-  VTC-SPM = bộ lọc BÊN TRONG con người, nằm GIỮA robot và trải nghiệm:
+  VTC-Self-Pattern-Modeling = bộ lọc BÊN TRONG con người, nằm GIỮA robot và trải nghiệm:
 
-    [Robot] → [VTC detect?] → [SPM invoke?] → [Trải nghiệm người dùng]
+    [Robot] → [VTC detect?] → [Self-Pattern-Modeling invoke?] → [Trải nghiệm người dùng]
 
   Bộ lọc này:
     → KHÔNG nằm trong kỹ thuật chế tạo robot hiện tại
     → KHÔNG phụ thuộc AI algorithm bên trong robot
-    → PHỤ THUỘC ngoại hình + hành vi robot (cái mà VTC + SPM "thấy")
+    → PHỤ THUỘC ngoại hình + hành vi robot (cái mà VTC + Self-Pattern-Modeling "thấy")
     → = Cùng 1 AI bên trong — đặt trong vỏ tròn (Roomba) hay vỏ hình người (Sophia)
       → KỸ THUẬT giống nhau, TRẢI NGHIỆM người dùng KHÁC CĂN BẢN
 
@@ -1156,7 +1156,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │  LOẠI 1 — ROBOT-TOOL (rõ ràng là máy)                                   │
   │                                                                          │
   │    VTC: KHÔNG fire (hoặc rất yếu)                                        │
-  │    SPM: không invoke → brain xử lý = OBJECT (Layer 1+2)                 │
+  │    Self-Pattern-Modeling: không invoke → brain xử lý = OBJECT (Layer 1+2)                 │
   │    Feedback: functional, honest                                          │
   │    PFC + body: ĐỒNG BỘ ("đây là tool" — cả hai đồng ý)                 │
   │                                                                          │
@@ -1173,20 +1173,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                                                          │
   │  LOẠI 2 — ROBOT-TOOL GIỐNG NGƯỜI (feedback giả)                         │
   │                                                                          │
-  │    VTC: FIRE → SPM: invoke → nhưng robot KHÔNG CÓ body-base             │
+  │    VTC: FIRE → Self-Pattern-Modeling: invoke → nhưng robot KHÔNG CÓ body-base             │
   │    Brain xử lý = AGENT... nhưng agent GIẢ                               │
   │    Feedback: social, FAKE (body-level deception — §7.3)                  │
   │    PFC + body: XUNG ĐỘT (PFC: "robot", body: "người")                  │
   │                                                                          │
   │    Ví dụ: Sophia, Ameca, AIDOL, CGI realistic                            │
-  │    Ngoại hình: giống người → VTC fire → SPM invoke                       │
+  │    Ngoại hình: giống người → VTC fire → Self-Pattern-Modeling invoke                       │
   │    Tương tác: body CHUẨN BỊ social encounter → nhận NOTHING thật        │
   │    Mất robot: nếu body-coupling compiled → "mất bạn" = grief risk       │
   │                                                                          │
   │    2 sub-cases:                                                           │
   │    2a — Behavior CHƯA đủ tốt → UNCANNY VALLEY (§2 core mechanism)       │
   │    2b — Behavior ĐỦ tốt (vượt valley) → body-level deception (§7.3)    │
-  │      → VTC + SPM cả hai succeed → body treat AS real social partner     │
+  │      → VTC + Self-Pattern-Modeling cả hai succeed → body treat AS real social partner     │
   │      → NHƯNG feedback vẫn GIẢ (robot không có body-base thật)            │
   │      → = Amplification risk: AI-Self-Model.md §1 applied ở body level   │
   │      → Tệ hơn AI text vì: text → PFC discount, robot giống người        │
@@ -1199,20 +1199,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                                                          │
   │  LOẠI 3 — ROBOT-LOÀI KHÁC (nếu tương lai: có body-base riêng)          │
   │                                                                          │
-  │    VTC: FIRE → SPM: invoke → nhưng SPM HIT CEILING (cross-species)      │
+  │    VTC: FIRE → Self-Pattern-Modeling: invoke → nhưng Self-Pattern-Modeling HIT CEILING (cross-species)      │
   │    Brain xử lý = AGENT... nhưng agent KHÁC LOÀI                         │
   │    Feedback: REAL (entity có body-base thật) nhưng KHÔNG MATCH template  │
-  │    PFC + body: SPM partial — giống người ↔ chó                          │
+  │    PFC + body: Self-Pattern-Modeling partial — giống người ↔ chó                          │
   │                                                                          │
   │    Điều kiện: entity có body-base riêng + sensor khác/vượt +             │
   │      chunk compilation từ experience riêng + có thể tự reproduce         │
   │    → Không còn là "robot" — là LIFE FORM MỚI                             │
   │                                                                          │
-  │    Cross-species SPM limitation:                                          │
-  │    → F1 partial: phần giống người → body simulate OK                    │
-  │      phần sensor-vượt-người → F1 EMPTY (không có self-chunks tương ứng) │
-  │    → F2 limited: predict hành vi basic OK, logic sâu → MISS             │
-  │    → Resonance: rất khó emerge (cần 2 SPM co-fire thành công)   │
+  │    Cross-species Self-Pattern-Modeling limitation:                                          │
+  │    → Compiled partial: phần giống người → body simulate OK                    │
+  │      phần sensor-vượt-người → Compiled EMPTY (không có self-chunks tương ứng) │
+  │    → Fresh limited: predict hành vi basic OK, logic sâu → MISS             │
+  │    → Resonance: rất khó emerge (cần 2 Self-Pattern-Modeling co-fire thành công)   │
   │    → = Yêu được, tương tác được, HIỂU HẾT thì không                    │
   │    → Agent-Mechanism.md §9: cross-species = affective only, not composite│
   │                                                                          │
@@ -1225,11 +1225,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Không có nhánh tạo ra "super-human robot":
     → Loại 2: thiếu body-base → tool có feedback giả
-    → Loại 3: có body-base khác → loài khác (SPM cross-species gap)
+    → Loại 3: có body-base khác → loài khác (Self-Pattern-Modeling cross-species gap)
     → Clone kiến trúc người: sensor giống + body-base giống = TẠO RA NGƯỜI
       (câu hỏi đạo đức, không phải kỹ thuật)
 
-    Mỗi bước "nâng cấp" sensor ĐẨY entity XA HƠN khỏi "người" ở SPM.
+    Mỗi bước "nâng cấp" sensor ĐẨY entity XA HƠN khỏi "người" ở Self-Pattern-Modeling.
     Chó có khứu giác vượt người — điều đó không làm chó "hiểu" người hơn,
     mà tạo thêm vùng experience mà cả hai bên không bridge hoàn toàn.
 
@@ -1246,7 +1246,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → User yêu cầu như trợ lý (voice command) → OK, không cần trông giống người
 
   ⚠️ CONFIDENCE:
-  Reframe VTC-SPM classification = 🟡 framework synthesis.
+  Reframe VTC-Self-Pattern-Modeling classification = 🟡 framework synthesis.
   Industry convergence (Loại 1 > Loại 2) = 🟢 observed.
   Loại 3 + logical trap = 🔴 extrapolation, chưa empirical test.
 ```
@@ -1261,18 +1261,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌─────────────┬──────────────────────────────┬──────────────────────────────┬────────┐
   │ Vùng não    │ Nghiên cứu tìm thấy         │ Framework mapping            │ Khớp?  │
   ├─────────────┼──────────────────────────────┼──────────────────────────────┼────────┤
-  │ aIPS        │ Fire mạnh nhất khi android   │ SPM F2 predict movement      │ 🟢     │
+  │ aIPS        │ Fire mạnh nhất khi android   │ Self-Pattern-Modeling Fresh predict movement      │ 🟢     │
   │ (anterior   │ (human look + mechanical     │ → prediction fail tại vùng   │        │
   │ intraparie- │ move). Saygin 2012.          │ kết nối visual → motor.      │        │
-  │ tal sulcus) │                              │ = F2 error signal.           │        │
+  │ tal sulcus) │                              │ = Fresh error signal.           │        │
   ├─────────────┼──────────────────────────────┼──────────────────────────────┼────────┤
   │ vmPFC       │ Tăng dần theo humanlikeness  │ Value evaluation =           │ 🟢     │
   │ (ventro-    │ → SỤT MẠNH tại uncanny      │ valence compilation.         │        │
   │ medial PFC) │ valley → recovery gần 100%.  │ SỤT = valence CANNOT compile│        │
-  │             │ Rosenthal-von der Pütten 2019│ (§2.5). Recovery = SPM       │        │
+  │             │ Rosenthal-von der Pütten 2019│ (§2.5). Recovery = Self-Pattern-Modeling       │        │
   │             │                              │ succeed → valence compile OK.│        │
   ├─────────────┼──────────────────────────────┼──────────────────────────────┼────────┤
-  │ TPJ         │ Mã hóa TUYẾN TÍNH mức       │ Input cho SPM:               │ 🟢     │
+  │ TPJ         │ Mã hóa TUYẾN TÍNH mức       │ Input cho Self-Pattern-Modeling:               │ 🟢     │
   │ (temporo-   │ giống người. Rosenthal-von   │ SIMILARITY AXIS trong        │        │
   │ parietal    │ der Pütten 2019.             │ 4-axis quality model         │        │
   │ junction)   │                              │ (Agent-Mechanism.md §7).     │        │
@@ -1282,11 +1282,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ face area)  │ Inverse humanlikeness cho    │ "agent or not" (§2.1).       │        │
   │             │ artificial agents.           │ FFG ⊂ VTC system.            │        │
   ├─────────────┼──────────────────────────────┼──────────────────────────────┼────────┤
-  │ Amygdala    │ Fire khi TỪ CHỐI gift từ     │ Threat signal khi SPM fail   │ 🟡     │
+  │ Amygdala    │ Fire khi TỪ CHỐI gift từ     │ Threat signal khi Self-Pattern-Modeling fail   │ 🟡     │
   │             │ artificial agent. Varies      │ trên entity VTC flag agent.  │        │
   │             │ between individuals.          │ Per-Agent Valence unstable   │        │
   │             │ Rosenthal-von der Pütten 2019│ → amygdala = rejection cue.  │        │
-  │             │                              │ Individual diff = SPM library │        │
+  │             │                              │ Individual diff = Self-Pattern-Modeling library │        │
   │             │                              │ depth khác nhau.             │        │
   ├─────────────┼──────────────────────────────┼──────────────────────────────┼────────┤
   │ dACC        │ Conflict monitoring.          │ Chunk-Gap detection:         │ 🟡     │
@@ -1301,7 +1301,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = Framework: Similarity axis × VTC trigger → Valence compilation
     = Multiplicative combination — KHÔNG additive
 
-    Framework thêm: + Amygdala (rejection) + aIPS (F2 error) + dACC (category confusion)
+    Framework thêm: + Amygdala (rejection) + aIPS (Fresh error) + dACC (category confusion)
     = 6 vùng não → 6 framework components = mapping khá chặt
 
   ⚠️ MAPPING LÀ POST-HOC (🟡):
@@ -1322,7 +1322,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 fMRI evidence: vmPFC dip, aIPS prediction error, amygdala rejection
     🟢 Survey data: ~60% uncomfortable, cultural variation, exposure correlation
     🟢 Prediction error mechanism (Saygin 2012): appearance-behavior mismatch
-    🟢 SPM = learned (Heyes ASL + Bird & Cook 2013) — Mirror-Neuron-Rejection.md
+    🟢 Self-Pattern-Modeling = learned (Heyes ASL + Bird & Cook 2013) — Mirror-Neuron-Rejection.md
     🟢 ❶ Hardware social drive (Coan 2015, Eisenberger 2003, Holt-Lunstad 2015)
     🟢 Developmental trajectory: animism → calibration → compiled
     🟢 Exposure reduce fear (Hàn Quốc / Trung Quốc data)
@@ -1330,14 +1330,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   FRAMEWORK SYNTHESIS (🟡):
 
-    🟡 VTC-SPM conflict = unified mechanism (framework's main contribution)
+    🟡 VTC-Self-Pattern-Modeling conflict = unified mechanism (framework's main contribution)
        — Builds on prediction error + extends to dual-system conflict
        — Consistent with fMRI data nhưng chưa test trực tiếp as unified model
-    🟡 F1+F2 dual failure distinction
-       — Logical derivation từ SPM 2 functions
-       — Chưa có fMRI study tách riêng F1 vs F2 failure trong uncanny context
-    🟡 F1/F2 = Compiled/Fresh reframe (v1.1)
-       — F1/F2 labels đổi từ "Feeling/Logic" → "Compiled/Fresh" (Inter-Body §3, SPM v3.0)
+    🟡 Compiled+Fresh dual failure distinction
+       — Logical derivation từ Self-Pattern-Modeling 2 functions
+       — Chưa có fMRI study tách riêng Compiled vs Fresh failure trong uncanny context
+    🟡 Compiled/Fresh reframe (v1.1)
+       — Compiled/Fresh labels đổi từ "Feeling/Logic" → "Compiled/Fresh" (Inter-Body §3, Self-Pattern-Modeling v3.0)
        — Axis = compilation level, KHÔNG phải content type
        — Consistent with Kahneman System 1/2, expertise research
     🟡 3 body-feedback dynamics compound (Shift + Miss + unresolvable delta)
@@ -1361,7 +1361,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        — Chưa có empirical study tách "social frustration" component
          khỏi "prediction error" component trong uncanny valley
     🔴 Developmental predictions (§5.1)
-       — Chưa có longitudinal study test uncanny valley by age using SPM framework
+       — Chưa có longitudinal study test uncanny valley by age using Self-Pattern-Modeling framework
     🔴 Alexithymia → different uncanny response (§5.2 ④)
        — Logical derivation từ Bird & Cook → chưa test
     🔴 Deepfake trust crisis prediction (§7.1)
@@ -1369,8 +1369,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🔴 Robot giống người = body-level deception (§7.3)
        — Logical extension từ AI-Self-Model.md amplifier + VTC mechanism
        — Chưa có study so sánh trực tiếp amplification AI text vs robot
-    🔴 VTC-SPM Classification: 3 loại robot theo góc nhìn con người (§7.4)
-       — Reframe: phân loại theo bộ lọc VTC-SPM, không theo kỹ thuật
+    🔴 VTC-Self-Pattern-Modeling Classification: 3 loại robot theo góc nhìn con người (§7.4)
+       — Reframe: phân loại theo bộ lọc VTC-Self-Pattern-Modeling, không theo kỹ thuật
        — Industry convergence (Loại 1 > Loại 2) = observed (🟢)
        — Loại 3 + logical trap = extrapolation, chưa empirical test
 
@@ -1378,7 +1378,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   FALSIFIABLE PREDICTION (từ Agent-Mechanism.md §16.7):
 
     P7: "Uncanny valley discomfort specifically tracks AGENT-DETECTION CONFLICTS
-    (VTC fires agent + SPM expectation fails), not general novelty/unfamiliarity.
+    (VTC fires agent + Self-Pattern-Modeling expectation fails), not general novelty/unfamiliarity.
     Strange-but-consistent entities don't trigger uncanny valley."
 
     Test: so sánh responses giữa:
@@ -1388,7 +1388,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Nếu A cũng trigger uncanny tương đương B
     → framework claim "agent-specific" FAIL
-    → uncanny valley = general unfamiliarity, không phải VTC-SPM conflict
+    → uncanny valley = general unfamiliarity, không phải VTC-Self-Pattern-Modeling conflict
 
 
   GIỚI HẠN CỦA PHÂN TÍCH NÀY:
@@ -1419,10 +1419,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Agent-Mechanism.md v2.0 §14.4 — uncanny valley sketch (file này = deep version)
     → Agent-Mechanism.md v2.0 §16.7 — prediction P7 falsifiable
 
-  SPM (simulate mechanism):
-    → Self-Pattern-Match.md v3.0 §0 — F1 Compiled + F2 Fresh dual functions
-    → Self-Pattern-Match.md v3.0 §7 — developmental bootstrap (file này §5.1)
-    → Self-Pattern-Match.md v3.0 §9 — threshold failure + fallback hierarchy
+  Self-Pattern-Modeling (simulate mechanism):
+    → Self-Pattern-Modeling.md v3.0 §0 — Compiled + Fresh dual functions
+    → Self-Pattern-Modeling.md v3.0 §7 — developmental bootstrap (file này §5.1)
+    → Self-Pattern-Modeling.md v3.0 §9 — threshold failure + fallback hierarchy
 
   BODY-FEEDBACK (dissonance dynamics):
     → Body-Feedback-Mechanism.md v2.0 §3.1 — Chunk-Shift (file này §2.3 ①)
@@ -1437,7 +1437,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Body-Coupling.md v2.0 §1 — |V| depth × direction
 
   CLARIFICATION:
-    → Mirror-Neuron-Rejection.md v1.1 — learned SPM vs hardware mirror
+    → Mirror-Neuron-Rejection.md v1.1 — learned Self-Pattern-Modeling vs hardware mirror
     → Threat.md v1.1 — dissonance from predicted harm, anticipation loop
     → Prediction-Error-Is-Not-Reward.md v2.0 — PE ≠ reward (relevant context)
 
@@ -1474,19 +1474,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### v1.1 Changelog (2026-05-17)
 
 ```
-① F1/F2 TERMINOLOGY: "Feeling/Logic" → "Compiled/Fresh" (7 occurrences)
-   — F1 Compiled = body-level simulation (automatic, cost ≈ 0)
-   — F2 Fresh = PFC draft prediction (deliberate, costly)
+① Compiled/Fresh TERMINOLOGY: "Feeling/Logic" → "Compiled/Fresh" (7 occurrences)
+   — Compiled = body-level simulation (automatic, cost ≈ 0)
+   — Fresh = PFC draft prediction (deliberate, costly)
    — "Feeling"/"Logic" = observer labels, NOT mechanism labels
-   — Source: Inter-Body-Mechanism.md §3, SPM v3.0 §1
+   — Source: Inter-Body-Mechanism.md §3, Self-Pattern-Modeling v3.0 §1
 
 ② CONTEXT NOTE: thêm §2.2 Terminology Note block
    — Giải thích Compiled/Fresh axis cho reader
    — Phân biệt mechanism axis vs observer labels
 
 ③ DEPENDENCIES: 10 files updated to current versions
-   — SPM v2.3→v3.0, BFM v1.2→v2.0, Connection v3.1→v4.0,
-     VP v1.4→v2.0, Body-Coupling v1.0→v2.0, BFL v1.1→v2.0,
+   — Self-Pattern-Modeling v2.3→v3.0, Body-Feedback-Mechanism v1.2→v2.0, Connection v3.1→v4.0,
+     Valence-Propagation v1.4→v2.0, Body-Coupling v1.0→v2.0, Body-Feedback-Label v1.1→v2.0,
      Mirror-Neuron-Rejection v1.0→v1.1, Threat v1.0→v1.1
    — Added: Inter-Body-Mechanism.md v1.0 (DRILL SOURCE)
 
@@ -1497,15 +1497,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ⑤ HONEST ASSESSMENT: +1🟡 (Compiled/Fresh reframe)
 
-⑥ BODY TEXT: L1007 "Pattern-Type" → "channel" (more precise with BFL v2.0)
+⑥ BODY TEXT: L1007 "Pattern-Type" → "channel" (more precise with Body-Feedback-Label v2.0)
 ```
 
 ---
 
 > *"Robot giống người gây ghê sợ — không phải vì 'lạ'.*
 > *Mà vì brain detect 'AGENT' nhưng không simulate được.*
-> *F1 Compiled fire → body simulate → EMPTY (robot không có state).*
-> *F2 Fresh fire → PFC predict → WRONG (behavior sai).*
+> *Compiled fire → body simulate → EMPTY (robot không có state).*
+> *Fresh fire → PFC predict → WRONG (behavior sai).*
 > *Hai hệ thống xung đột: detect nói CÓ, simulate nói KHÔNG.*
 > *Hiểu conflict đó → thiết kế tránh vực sâu.*
 > *Hoặc ngoại hình rõ ràng là máy → brain không detect agent.*

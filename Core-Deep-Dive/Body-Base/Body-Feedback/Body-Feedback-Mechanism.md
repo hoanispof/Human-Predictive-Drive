@@ -14,7 +14,7 @@ scope: |
   Research anchors: Crespi 1942, Schultz 1997, Berridge 2003, Amsel, Flaherty 1996.
 purpose: |
   Existing files classify body-feedback by INTENSITY (02-Dissonance.md, 14 levels),
-  SOURCE (02-Dissonance.md §3, 3 nguồn khó chịu thật), and PRECONDITION (H10 5 preconditions).
+  SOURCE (02-Dissonance.md §3, 3 Genuine Discomfort Sources), and PRECONDITION (H10 5 preconditions).
   File này thêm trục thứ 4: CHUNK MECHANISM — HOW chunks fire tạo ra signal.
   Trục này match v7.8 "chunk-centric" principle: everything runs on chunks,
   classification phải chunk-based.
@@ -35,7 +35,7 @@ dependencies:
   - 02-Dissonance.md — intensity levels, source taxonomy, case analyses
   - Core-v7.8-Draft.md — cycle architecture, A/B/C/D zones
   - Cortisol-Baseline.md v2.0 — amplifier, holding signal
-  - Reward-Signal-Architecture.md v1.0 — Type A/B, A₀→A₃, 5 Profiles
+  - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, E₀→E₃, 5 Profiles
   - Inter-Body-Mechanism.md v1.0 — Body-Need aggregate, 3-cost, 5-channel
   - Gap-Direction.md v1.1 — gap has direction = f(surrounding chunks)
 language: Tiếng Việt primary + English technical terms
@@ -89,11 +89,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │    → Body-Feedback.md §2 dual-pull                              │
   │                                                                 │
   │  TRỤC 2 — MAGNITUDE (cường độ):                                 │
-  │    14 levels: lấn cấn → emergency → shutdown                    │
+  │    14 levels: nagging unease → emergency → shutdown              │
   │    → 02-Dissonance.md (case-based intensity spectrum)           │
   │                                                                 │
   │  TRỤC 3 — SOURCE (nguồn gốc bên ngoài):                        │
-  │    3 nguồn khó chịu thật: nociception, mismatch, recalibration │
+  │    3 Genuine Discomfort Sources: nociception, mismatch, recalibration │
   │    → 02-Dissonance.md §3 + Body-Feedback.md §5                  │
   │                                                                 │
   │  TRỤC 4 — CHUNK DYNAMICS (cơ chế chunk) ← FILE NÀY             │
@@ -160,7 +160,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   KHÔNG phải 1 signal đơn → là TỔNG HỢP nhiều signals parallel.
   KHÔNG phải PFC tạo → body-need exist TRƯỚC PFC awareness.
-  KHÔNG phải chỉ survival → BẤT KỲ compiled gap fill (Architecture B).
+  KHÔNG phải chỉ survival → BẤT KỲ compiled gap fill (Compilable Architecture).
 
   Body-Need = OUTPUT CỦA CƠ CHẾ file này mô tả:
     2 input sources (§2) → 3 chunk dynamics (§3) → compound (§4)
@@ -287,7 +287,7 @@ BODY-NEED CÓ 7 PROPERTIES:
 │   Career, Imagine-Final, relationship direction.    │
 │   PFC BUILD direction qua nhiều năm.                │
 ├─────────────────────────────────────────────────────┤
-│ STRUCTURAL (always running):   [①hw + ②structural] │
+│ STRUCTURAL (always running):   [①hardware + ②structural] │
 │   Social belonging. Autonomy. Coherence.             │
 │   PFC thường KHÔNG aware (until violated).          │
 └─────────────────────────────────────────────────────┘
@@ -352,14 +352,14 @@ BODY-NEED CÓ 7 PROPERTIES:
     → Body-input TRỰC TIẾP drive chunk matching
     → Signal strength tùy delta giữa input và compiled baseline
 
-  TYPE A/B DIMENSION (Reward-Signal-Architecture.md §1):
-    → Sensory-Driven ≈ TYPE B territory (direct state signals):
+  EVALUATIVE/DIRECT-STATE DIMENSION (Reward-Signal-Architecture.md §1):
+    → Sensory-Driven ≈ DIRECT-STATE territory (direct state signals):
       Touch (CT afferents), temperature, pain, basic taste = hardware-level
       Non-opioid pathways, below PFC, minimal cortical involvement
-    → Sensory-Driven CÓ THỂ CÓ Type A component khi cortical evaluation:
-      Nhạc hay = auditory + cortical pattern match → Type A (evaluative)
-      Ăn ngon = taste + hedonic evaluation → A + B compound
-    → "Pure sensory" = mostly Type B. "Sensory + evaluation" = A + B.
+    → Sensory-Driven CÓ THỂ CÓ Evaluative component khi cortical evaluation:
+      Nhạc hay = auditory + cortical pattern match → Evaluative Reward
+      Ăn ngon = taste + hedonic evaluation → Evaluative + Direct-State compound
+    → "Pure sensory" = mostly Direct-State. "Sensory + evaluation" = Evaluative + Direct-State.
 
   🟢 RESEARCH:
     → Sensory processing pathways: established neuroscience
@@ -437,14 +437,14 @@ BODY-NEED CÓ 7 PROPERTIES:
     → So sánh "mình giỏi hơn trước" → tự tin (comparison)
     → Gap fill: "À, hiểu rồi!" → opioid burst (gap filled)
 
-  TYPE A/B DIMENSION (Reward-Signal-Architecture.md §1):
-    → Pattern-Driven = primarily TYPE A territory (evaluative):
+  EVALUATIVE/DIRECT-STATE DIMENSION (Reward-Signal-Architecture.md §1):
+    → Pattern-Driven = primarily EVALUATIVE territory (evaluative):
       Cortical pattern match → OFC/vmPFC evaluation → opioid (if match)
       Insight, coherence, preview = all require cortical processing
-    → Pattern-Driven CÓ THỂ kích hoạt Type B:
+    → Pattern-Driven CÓ THỂ kích hoạt Direct-State:
       Replay of touch memory → body re-simulate → B partial activation
       Preview of exercise → motor cortex pre-activate → B trace
-    → A Gate B (Reward-Signal-Architecture.md §3):
+    → Evaluative Gates Direct-State (Reward-Signal-Architecture.md §3):
       A evaluation MODULATES B body-state response
       = WHY "nghĩ về ôm" ≠ "ôm thật" (preview fidelity < 100%)
 
@@ -464,7 +464,7 @@ BODY-NEED CÓ 7 PROPERTIES:
 │ Trigger              │ Domain stimulus      │ Internal chunk fire  │
 │ Direction            │ Outside → In         │ Inside → Body        │
 │ Primary zones        │ D + C                │ B + C (A optional)   │
-│ Type A/B             │ Mostly Type B        │ Mostly Type A        │
+│ Reward type          │ Mostly Direct-State  │ Mostly Evaluative    │
 │ Animals              │ ĐẦY ĐỦ              │ CÓ nhưng limited     │
 │ PFC cần?             │ KHÔNG                │ Optional             │
 │ Timing               │ ms → seconds         │ seconds → years      │
@@ -494,7 +494,7 @@ BODY-NEED CÓ 7 PROPERTIES:
   │ SOCIAL (entities, relationships):                                │
   │   Chunk-Miss: bạn thân absent = "nhớ"                           │
   │   Chunk-Shift: bạn thân phản bội = valence flip entity chunks  │
-  │   Chunk-Gap: "có vẻ nó buồn gì đó" = detect gap in SPM model  │
+  │   Chunk-Gap: "có vẻ nó buồn gì đó" = detect gap in Self-Pattern-Modeling model  │
   ├─────────────────────────────────────────────────────────────────┤
   │ META (abstract compiled structures):                             │
   │   Chunk-Miss: Imagine-Final không đạt = compiled preview missed │
@@ -751,17 +751,17 @@ BODY-NEED CÓ 7 PROPERTIES:
 
   GAP vs MISS:
 
-    ┌──────────────────────┬──────────────────────┐
-    │ CHUNK-MISS           │ CHUNK-GAP            │
-    ├──────────────────────┼──────────────────────┤
-    │ ĐÃ CÓ → mất         │ CHƯA BAO GIỜ CÓ     │
-    │ Body "nhớ" baseline  │ Network "predict"    │
-    │ Negative pred. error │ Inconsistency detect │
-    │ VTA mechanism        │ ACC mechanism        │
-    │ "Muốn lại cái cũ"   │ "Muốn cái chưa có"  │
-    │ Recovery = restore   │ Resolution = create  │
-    │ VD: TikTok mất       │ VD: Einstein E=mc²   │
-    └──────────────────────┴──────────────────────┘
+    ┌───────────────────────────┬──────────────────────┐
+    │ CHUNK-MISS                │ CHUNK-GAP            │
+    ├───────────────────────────┼──────────────────────┤
+    │ ĐÃ CÓ → mất              │ CHƯA BAO GIỜ CÓ     │
+    │ Body "nhớ" baseline       │ Network "predict"    │
+    │ Negative prediction error │ Inconsistency detect │
+    │ VTA mechanism             │ ACC mechanism        │
+    │ "Muốn lại cái cũ"        │ "Muốn cái chưa có"  │
+    │ Recovery = restore        │ Resolution = create  │
+    │ VD: TikTok mất            │ VD: Einstein E=mc²   │
+    └───────────────────────────┴──────────────────────┘
 
   VÍ DỤ:
 
@@ -774,7 +774,7 @@ BODY-NEED CÓ 7 PROPERTIES:
 
     Framework này:
       → Chunk network về cognitive science đang build
-      → "Lờ mờ thấy thiếu gì đó" → GAP (body detect trước PFC articulate)
+      → "Vague thấy thiếu gì đó" → GAP (body detect trước PFC articulate)
       → Drive drill → fill gap → "à, chunk dynamics classification!"
       → Insight = gap filled → opioid
 
@@ -890,7 +890,7 @@ BODY-NEED CÓ 7 PROPERTIES:
           → Reality < baseline → Chunk-Miss delta LỚN → "thất vọng lớn"
 
       Preview THẤP hoặc KHÔNG preview
-        → Baseline thấp → Reality ≥ baseline → "bất ngờ dễ chịu"
+        → Baseline thấp → Reality ≥ baseline → "bất ngờ comfortable"
 
     VÍ DỤ:
       → Trẻ thấy bạn được mẹ ôm → PFC preview "nếu mình được ôm"
@@ -1407,9 +1407,9 @@ WHAT THIS FILE DOES NOT DO:
     → §6 5-channel input vector: trigger = vector, not single source
 
 📚 REWARD ARCHITECTURE:
-  → Reward-Signal-Architecture.md v1.0 — Type A/B dimension, 5 Profiles, Interaction Model
-    → §2 A/B maps to: Sensory-Driven ≈ Type B, Pattern-Driven ≈ Type A
-    → §3 A Gates B = evaluation modulates body-state
+  → Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State dimension, 5 Profiles, Interaction Model
+    → §2 Evaluative/Direct-State maps to: Sensory-Driven ≈ Direct-State, Pattern-Driven ≈ Evaluative
+    → §3 Evaluative Gates Direct-State = evaluation modulates body-state
     → §6 Conditional Interaction Model = replaces simple additive compound
 
 📚 WITHIN BODY-FEEDBACK FOLDER:
@@ -1418,7 +1418,7 @@ WHAT THIS FILE DOES NOT DO:
   → 01-Foundation.md §3 — 6-step interface loop
   → 01-Foundation.md §5 — body-feedback vs feeling 7-layer
   → 02-Dissonance.md §2 — 5 mini dissonance cases (per dynamics relabel)
-  → 02-Dissonance.md §3 — 3 nguồn khó chịu thật
+  → 02-Dissonance.md §3 — 3 Genuine Discomfort Sources
   → 02-Dissonance.md §8 — trauma loop (compound Shift + Miss + Gap)
   → 02-Dissonance.md §9 — hedonic trap (Chunk-Miss from schema decay)
   → 03-Reward.md §2 — VTA 7-step loop

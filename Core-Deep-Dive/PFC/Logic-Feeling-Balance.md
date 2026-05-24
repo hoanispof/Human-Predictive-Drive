@@ -1,7 +1,7 @@
 title: Logic-Feeling Balance — Tại Sao Không Thể Prescribe, Chỉ Có Thể Describe
 version: 2.1
 created: 2026-04-21
-updated: 2026-05-17 (v2.0 — Compiled/Fresh reframe, +Drill ⑧ Domain=Arbiter elevated, +PFC=Lawyer, +3-cost, +Architecture B, +1B trap explicit)
+updated: 2026-05-17 (v2.0 — Compiled/Fresh reframe, +Drill ⑧ Domain=Arbiter elevated, +PFC=Lawyer, +3-cost, +Compilable Architecture, +1B trap explicit)
 refined: 2026-05-17 (v2.1 — 4-tier → 2-tầng calibration alignment with Why-Body-Knows.md v1.1)
 previous: v2.0
 status: v2.1
@@ -195,13 +195,13 @@ Không phải "logic cho vật, feeling cho người" — mà là spectrum tỷ 
   → Không công cụ nào có thể 100% trong domain vô tận.
   → Đây là điều kiện tồn tại, không phải vấn đề cần giải quyết.
 
-  v2.0 ADD — Architecture B (Inter-Body §1):
+  v2.0 ADD — Compilable Architecture (Inter-Body §1):
   → Evolution chọn GENERAL-PURPOSE reward + compilation + social hardware
   → Trade-off: adapt BẤT KỲ environment, nhưng cần 15-20 năm compile
   → = STRUCTURAL reason cả compiled lẫn fresh đều không 100%:
     Compiled: compiled for PAST context (may not match CURRENT)
     Fresh: PFC draft = Lawyer (may confabulate) + cost > 0 (unsustainable)
-  → = Architecture B GUARANTEES uncertainty — not a bug, a FEATURE
+  → = Compilable Architecture GUARANTEES uncertainty — not a bug, a FEATURE
   → = Uncertainty = PRICE for general-purpose adaptability
 ```
 
@@ -321,8 +321,8 @@ Trước khi nói về giới hạn, cần nói rõ điều quan trọng nhất:
 ⭐ FEELING ĐÚNG LÀ TRƯỜNG HỢP PHỔ BIẾN, KHÔNG PHẢI NGOẠI LỆ:
 
   Trời nắng đẹp → feeling tốt:
-    → Body detect: ánh sáng, nhiệt độ dễ chịu, vitamin D synthesis
-    → Feeling: "dễ chịu, thích"
+    → Body detect: ánh sáng, nhiệt độ comfortable, vitamin D synthesis
+    → Feeling: "comfortable, thích"
     → Domain real: THẬT SỰ tốt cho sức khỏe (🟢 vitamin D, circadian rhythm)
     → = Feeling ĐÚNG, domain confirm
     
@@ -555,7 +555,7 @@ CASE TINH TẾ — NGHE NGƯỜI KHÁC KỂ THÀNH CÔNG:
 
   Bước 1: Nghe câu chuyện (domain input)
     → Mirror mechanism fire: body simulate trạng thái NGƯỜI KỂ
-    → Body cảm nhận "sướng" — nhưng đó là mirror, không phải own need
+    → Body cảm nhận "pleasant" — nhưng đó là mirror, không phải own need
     
   Bước 2: Thích thú → Imagine-Final hình thành
     → PFC preview: "nếu mình cũng thế..."
@@ -781,7 +781,7 @@ CASE — PHÁT MINH ĐỘNG CƠ:
   
   Feeling cross-domain:
     → Body simulate cả A lẫn B → detect pattern chung (năng lượng → chuyển động)
-    → "Lờ mờ thấy liên quan" = convergence zone (Feeling.md §7)
+    → "Vague thấy liên quan" = convergence zone (Feeling.md §7)
     → Logic VERIFY sau: formalize thành thermodynamics
     
   = Logic = xuất sắc TRONG domain
@@ -1433,7 +1433,7 @@ Emergent = distributed KHÔNG central:
     Generalized from established confabulation research
   → 3-cost as structural limit on fresh processing (v2.0)
     Each component established, unified model = framework synthesis
-  → Architecture B → guarantees uncertainty (v2.0)
+  → Compilable Architecture → guarantees uncertainty (v2.0)
     Evolutionary argument, logically sound, novel framing
   → 1B trap as explicit error category (v2.0)
     Consistent with echo chamber research, attachment theory
@@ -1519,7 +1519,7 @@ STILL OPEN:
   → Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh = real axis (source)
   → Inter-Body-Mechanism.md v1.0 §4 — 3 Independent Cost Sources
   → Inter-Body-Mechanism.md v1.0 §7 — PFC = Lawyer (not Judge)
-  → Inter-Body-Mechanism.md v1.0 §1 — Architecture B (WHY uncertainty structural)
+  → Inter-Body-Mechanism.md v1.0 §1 — Compilable Architecture (WHY uncertainty structural)
 
 📚 Body-Base:
   → Why-Body-Knows.md v1.1 §3 — 2-tầng calibration, §6 — 3 error types + Dual Check
@@ -1585,13 +1585,13 @@ v2.0 CHANGES (2026-05-17 — Inter-Body Drill Integration):
   → Header: updated deps, sources (Inter-Body, Feeling v3.0, Logic-Feeling v2.0, Ask-AI)
   → §0.2 NEW: Compiled/Fresh Reframe note (how v2.0 differs from v1.0)
   → §1.1: Updated "Hai công cụ" → Compiled/Fresh terminology
-  → §1.2: +Architecture B as structural reason for uncertainty
+  → §1.2: +Compilable Architecture as structural reason for uncertainty
   → §1.4 NEW: "Balance = Compiled×Domain cycle" (drill ⑧ RESOLVED)
     +3-cost model, +PFC=Lawyer, +Dual Check, +HƯỚNG calibrate
   → §3.2 Error ②: +1B trap language explicit (Feeling.md §8.3)
   → §10: ELEVATED — drill ⑧ formal, PFC=Lawyer note, Dual Check
   → §12: +3 🟢 + 6 🟡 items for drill concepts
-  → §14: Updated cross-refs (Inter-Body, Feeling v3.0, RSA v2.0, Ask-AI)
+  → §14: Updated cross-refs (Inter-Body, Feeling v3.0, Reward-Signal-Architecture v2.0, Ask-AI)
   → ALL existing philosophical content PRESERVED (§2-§9, §11)
   → ALL research citations preserved + 3 added
 

@@ -13,8 +13,8 @@ scope: |
   AI disruption: automation entry-level expansion work.
   Predictions + implications.
   v1.1 (2026-05-09): REFINE post-drill S1-S12 — tích hợp Compile-Taxonomy A/B/C
-  (education = Loại C install), Collective-Body Model 3 Cấp (grad unemployment =
-  collective chain break CB §5.2), terminology bridges.
+  (education = Trust Compile install), Collective-Body Model 3 Cấp (grad unemployment =
+  collective chain break Collective-Body §5.2), terminology bridges.
 purpose: |
   TÍCH HỢP mechanisms có sẵn vào 1 phenomenon cụ thể.
   File này KHÔNG phải mechanism MỚI — mà APPLY mechanisms đã có
@@ -34,7 +34,7 @@ dependencies:
   secondary:
     - Collective-Purpose.md — cosmic loop, humanity map domain
     - Collective-Body.md v1.1 — Model 3 Cấp, §5.2 chain break, trust = only bridge
-    - Compile-Taxonomy.md v1.0 — 3 Loại A/B/C, education = Loại C install
+    - Compile-Taxonomy.md v1.0 — 3 3 Compile Types, education = Trust Compile install
     - Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT
     - Domain.md — thực tế bên ngoài, feedback thật, attractor
     - Education-Arms-Race.md — positional good, credential inflation
@@ -74,7 +74,7 @@ confidence: 🟢 Research/data support | 🟡 Framework synthesis | 🔴 Hypothe
 - §0 — VỊ TRÍ TRONG FRAMEWORK
 - §1 — DATA: ĐÂY LÀ HIỆN TƯỢNG TOÀN CẦU
 - §2 — FRAMEWORK CORE: TỪ EXPANSION ERA SANG DISCOVERY ERA
-- §3 — TẠI SAO "GIVEN" KHÔNG THỎA MÃN — MODERN EDUCATION PARADOX
+- §3 — TẠI SAO "GIVEN" KHÔNG SATISFIED — MODERN EDUCATION PARADOX
 - §4 — "HƯỚNG NGHIỆP" — TẠI SAO CONCEPT CŨ KHÔNG HOẠT ĐỘNG
 - §5 — AI DISRUPTION: CÁI CUỐI CÙNG ĐẬP VÀO EXPANSION
 - §6 — CẠNH TRANH NGÀY CÀNG KHỐC LIỆT — CONFLICT DYNAMICS
@@ -134,24 +134,24 @@ READER FLOW:
 
   v1.1 — MODEL 3 CẤP + COMPILE-TAXONOMY BRIDGES (post-drill S1-S12):
 
-  ⭐ FILE NÀY = TEST CASE CHO COLLECTIVE CHAIN BREAK (CB §5.2):
+  ⭐ FILE NÀY = TEST CASE CHO COLLECTIVE CHAIN BREAK (Collective-Body §5.2):
 
     Chain collective: [học → đại học → việc → lương → body-base feed]
     = NẰM Ở CẤP 2 (distributed: trường + thị trường + kinh tế)
-    Cá nhân compile SHORT: [học → tốt] (trust-gated, Loại C)
-    Trust = bridge DUY NHẤT giữa Cấp 1 và Cấp 2 (CB §5.1)
+    Cá nhân compile SHORT: [học → tốt] (trust-gated, Trust Compile)
+    Trust = bridge DUY NHẤT giữa Cấp 1 và Cấp 2 (Collective-Body §5.1)
 
     KHI EXPANSION BÃO HÒA:
     → Link [đại học → việc TỐT] gãy (Cấp 2 infrastructure fail)
     → Cá nhân body circuit-break: "output KHÔNG feed body-base nữa"
-    → PFC wake: "học làm gì?" = ĐÚNG CƠ CHẾ CB §5.2 Loại ②③
+    → PFC wake: "học làm gì?" = ĐÚNG CƠ CHẾ Collective-Body §5.2 Loại ②③
     → = COLLECTIVE chain break → individual body DETECT → PFC engage
 
-    Education = CHỦ YẾU LOẠI C INSTALL (Compile-Taxonomy.md v1.0):
+    Education = CHỦ YẾU TRUST COMPILE INSTALL (Compile-Taxonomy.md v1.0):
     → Trust source (thầy, sách, institution) → body nhận → compile SHORT
-    → "Học chán" = Loại C install THIẾU Loại A experience (§3.2)
-    → Process-fit (§4.4) = shift: Loại C receive → Loại A direct experience
-    → Germany dual system = Loại A (workplace) + Loại C (school) mix
+    → "Học chán" = Trust Compile install THIẾU Experience Compile experience (§3.2)
+    → Process-fit (§4.4) = shift: Trust Compile receive → Experience Compile direct experience
+    → Germany dual system = Experience Compile (workplace) + Trust Compile (school) mix
 ```
 
 ---
@@ -551,9 +551,9 @@ READER FLOW:
 
 ---
 
-## §3 — TẠI SAO "GIVEN" KHÔNG THỎA MÃN — MODERN EDUCATION PARADOX
+## §3 — TẠI SAO "GIVEN" KHÔNG SATISFIED — MODERN EDUCATION PARADOX
 
-> **Domain-Mapping-Drive.md §4: "Tại sao có sẵn mà không thấy sướng?"**
+> **Domain-Mapping-Drive.md §4: "Tại sao có sẵn mà không thấy pleasant?"**
 > **Giáo dục GIVE knowledge → student RECEIVE → body: "chả có gì tôi tự tìm."**
 > **3 paradoxes CÙNG 1 mechanism → cùng 1 giải pháp.**
 
@@ -1526,12 +1526,12 @@ READER FLOW:
       → Data consistent (6.5% vs 16.1%)
       → Causal mechanism = framework interpretation
       → Alternative explanations possible (culture, economy structure)
-    v1.1: "Grad unemployment = collective chain break" = CB §5.2 mapping
+    v1.1: "Grad unemployment = collective chain break" = Collective-Body §5.2 mapping
       → File đã mô tả mechanism đúng, v1.1 thêm formal terminology
       → "Học làm gì?" = body circuit-break khi Cấp 2 chain gãy
-    v1.1: "Education = Loại C install" = Compile-Taxonomy mapping
+    v1.1: "Education = Trust Compile install" = Compile-Taxonomy mapping
       → Trust-gated, collective hold chain dài, individual compile short
-      → "Học chán" = Loại C without Loại A = formal label cho §3.2 mechanism
+      → "Học chán" = Trust Compile without Experience Compile = formal label cho §3.2 mechanism
 
 
   🔴 HYPOTHESIS (logic consistent, cần data):
@@ -1601,7 +1601,7 @@ PRIMARY DEPENDENCIES (cốt lõi cho thesis)
   Kết nối: §2 toàn bộ (core thesis), §4.4 (Sense→Verify→Scale spectrum)
 
 → Domain-Mapping-Drive.md — ⭐ WHY drive + "Given" paradox
-  §0: "Tại sao có sẵn mà không thấy sướng?"
+  §0: "Tại sao có sẵn mà không thấy pleasant?"
   §2: prediction-delta + opioid per step (mechanism)
   §4: "Given" bypass process = no reward (core of §3)
   §4.2: Capacity Refund Principle
@@ -1623,10 +1623,10 @@ SECONDARY DEPENDENCIES
   §5.2: Chain break 3 loại (cost/link/compound) — "học làm gì?" = Loại ②③
   Kết nối: §0 (framing), §6.2 (collective chain break formal)
 
-→ Compile-Taxonomy.md v1.0 — ⭐ v1.1: Loại A/B/C mapping
-  §2: 3 Loại (education = chủ yếu Loại C install)
+→ Compile-Taxonomy.md v1.0 — ⭐ v1.1: 3 Compile Types mapping
+  §2: 3 Loại (education = chủ yếu Trust Compile install)
   §3: 4 pathways (education: pathway ②③ dominant)
-  Kết nối: §0 (framing), §3.2 (Loại C without A = "học chán")
+  Kết nối: §0 (framing), §3.2 (Trust Compile without A = "học chán")
 
 → Conflict-Dynamics.md — Competition formula
   §1: OVERLAP × SCARCITY × COMMITMENT

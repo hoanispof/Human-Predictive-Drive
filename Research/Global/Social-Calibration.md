@@ -25,7 +25,7 @@
 
 > **Trạng thái:** v1.1
 > **Ngày:** 2026-05-13
-> **Refined:** 2026-05-17 (v1.1 — 2-Tier+2-Pathway reframe, F1/F2 Compiled/Fresh, 11 dep versions updated)
+> **Refined:** 2026-05-17 (v1.1 — 2-Tier+2-Pathway reframe, Compiled/Fresh, 11 dep versions updated)
 > **Vị trí:** Research/Global/ — synthesis file, KHÔNG phải core mechanism.
 > **Scope:** SYNTHESIS — tổng hợp mechanisms hiện có (~13 files) để mô tả
 >   hệ thống calibration xã hội: cái gì, tại sao, đang vỡ ở đâu.
@@ -210,7 +210,7 @@
        → Xã hội = TỔNG HỢP nhiều connection patterns organized
 
     → TẤT CẢ 3 mapping = consistent:
-       Xã hội = Cấp 2 infrastructure (CB)
+       Xã hội = Cấp 2 infrastructure (Collective-Body)
                 = PRIMARY provider pathway 2b Trust-Injected (BB §7)
                 = organized connection patterns (Conn)
        = CÁC GÓC NHÌN KHÁC NHAU vào CÙNG 1 hiện tượng
@@ -292,9 +292,9 @@
 
   MECHANISM (framework mapping):
 
-    → Imagine-Final pre-installed (Loại C trust-compile)
+    → Imagine-Final pre-installed (Trust Compile trust-compile)
     → Self-Created-Threat.md: external direction CLEAR → cá nhân KHÔNG CẦN tự tìm
-    → Compile-Taxonomy.md: Type C install = trust gate → body nhận → compile short
+    → Compile-Taxonomy.md: Trust Compile install = trust gate → body nhận → compile short
     → Meaning.md v2.1: ROLE type anchor (§3.5) = xã hội install identity+direction gói 1
 
     🟡 Cá nhân KHÔNG tự chọn — xã hội PRE-INSTALL:
@@ -554,7 +554,7 @@
 
     ② Elder guidance:
        → Người già = chunk library LỚN NHẤT trong group
-       → Advice = Type C install nhưng CÓ domain experience backing
+       → Advice = Trust Compile install nhưng CÓ domain experience backing
        → Rites of passage (Van Gennep §2.6) = structured check points
 
     ③ Market/domain feedback:
@@ -606,7 +606,7 @@
 
     → Anchor-Schema compile (Anchor-Schema.md: sync point, Trust binding)
     → Meaning.md v2.1: life-level anchor, 5 types (§3 IDENTITY type §3.3)
-    → Compile-Taxonomy.md: Loại C trust-install → body nhận identity
+    → Compile-Taxonomy.md: Trust Compile trust-install → body nhận identity
     → Self-Created-Threat.md §5.5: Imagine-Final pre-installed
 
     🟡 Xã hội cũ: identity = TẶNG, không phải TÌM:
@@ -679,7 +679,7 @@
 
     → Connection.md v4.0: 3 Generative Primitives model
        ❶ Hardware Social Drive (body CẦN social input giống food/water)
-       ❷ SPM (F1 Compiled + F2 Fresh — simulate agents khác)
+       ❷ Self-Pattern-Modeling (Compiled + Fresh — simulate agents khác)
        ❸ Per-Agent Valence (body đánh giá agent NÀY ảnh hưởng tôi thế nào)
 
     → Connection §0: Agents = external tools cho body-base
@@ -745,7 +745,7 @@
     → Digital replacement:
        → Social media = PSEUDO-connection (low-fidelity, 1-channel)
        → Connection §16: "Cô đơn" = ❶ fire + KHÔNG CÓ override đủ mạnh
-       → Online "friends" → SPM partial → NOT body-level connection
+       → Online "friends" → Self-Pattern-Modeling partial → NOT body-level connection
        → = Connection function REPLACED by EMPTY substitute
 
     → 🟢 Evidence: Putnam 2000 — Bowling Alone.
@@ -985,7 +985,7 @@
   ┌──────────────┬─────────────────────────────────────┬──────────────────────────┐
   │ Function     │ Framework mechanism                  │ Source file               │
   ├──────────────┼─────────────────────────────────────┼──────────────────────────┤
-  │ Direction    │ Imagine-Final (pre-installed Loại C) │ Self-Created-Threat §5.5 │
+  │ Direction    │ Imagine-Final (pre-installed Trust Compile) │ Self-Created-Threat §5.5 │
   │              │ + ROLE type anchor                   │ + Meaning.md §3.5        │
   │ Push         │ External threat → cortisol → drive   │ Self-Created-Threat §5   │
   │              │                                     │ + Cortisol-Baseline §5   │
@@ -996,7 +996,7 @@
   │ Check        │ Domain feedback qua social agents    │ Body-Feedback §3         │
   │              │ + 3 Cấp Detection                   │ + AI-Schema-Detect §9    │
   │ Identity     │ Anchor-Schema + Meaning (5 types)    │ Meaning §3              │
-  │              │ + Loại C trust-install               │ + Compile-Taxonomy §3    │
+  │              │ + Trust Compile trust-install               │ + Compile-Taxonomy §3    │
   │ Connection   │ 3 Generative Primitives              │ Connection §3            │
   │              │ + co-regulation + Dunbar             │ + Collective-Body §5     │
   └──────────────┴─────────────────────────────────────┴──────────────────────────┘
@@ -1010,7 +1010,7 @@
     → Collective-Body.md: chain dài SỐNG ở Cấp 2
     → Xã hội cũ = Cấp 2 infrastructure cung cấp TẤT CẢ 7 functions
     → Cá nhân chỉ cần: trust + compile SHORT (Cấp 1)
-    → Trust = bridge DUY NHẤT (CB §5)
+    → Trust = bridge DUY NHẤT (Collective-Body §5)
 
     Khi infrastructure VỠ:
     → Cá nhân phải TỰ PROVIDE functions → Self-calibration
@@ -1123,7 +1123,7 @@
 
     🟡 Framework lens:
        → Imagine-Final UNCLEAR → Boredom Loại 3 (dissonance + no target)
-       → No Loại C trust-install → mỗi người phải TỰ build direction
+       → No Trust Compile trust-install → mỗi người phải TỰ build direction
        → PFC cannot process infinite options → paralysis
 
     → Cross-ref: Expansion-Saturation-Crisis.md — cũ = chọn nghề, mới = tìm process
@@ -1210,9 +1210,9 @@
     🟡 Framework lens:
        → Connection §16: "Cô đơn" = ❶ Hardware Drive fire "thiếu"
          + KHÔNG CÓ override đủ mạnh
-       → Social media = PARTIAL feed (visual only, low-fidelity SPM)
+       → Social media = PARTIAL feed (visual only, low-fidelity Self-Pattern-Modeling)
        → Body DISTINGUISH real vs pseudo connection (Coan 2015: proximity matters)
-       → Online "friendship" → SPM partial activation → NOT full co-regulation
+       → Online "friendship" → Self-Pattern-Modeling partial activation → NOT full co-regulation
 
     → Cross-ref: Connection §16 — "cô đơn" deep analysis
 ```
@@ -1759,12 +1759,12 @@
 
 ⭐ DRILL SOURCE + VOCABULARY:
 
-  → Inter-Body-Mechanism.md v1.0 — Architecture B, by-product match, 3-cost, PFC=Lawyer
+  → Inter-Body-Mechanism.md v1.0 — Compilable Architecture, by-product match, 3-cost, PFC=Lawyer
      2-Tier + 2-Pathway calibration model source (via Body-Base v3.1 §7).
      Xã hội = pathway 2b Trust-Injected = accumulated chunk transmission qua thế hệ.
 
   → Body-Feedback-Label.md v2.0 — VOCABULARY REFERENCE
-     F1 Compiled / F2 Fresh = processing axis (KHÔNG phải Feeling/Logic content).
+     Compiled / Fresh = processing axis (KHÔNG phải Feeling/Logic content).
      3 Generative Primitives terminology. 2-tầng reward model.
 
 
@@ -1802,8 +1802,8 @@
 > **v1.1 Changelog (2026-05-17):**
 > ① 4-Tier → 2-Tier + 2-Pathway: Body-Base v3.1 §7 aligned (Darwinian + Hebbian, 2a Domain + 2b Trust-Injected)
 > ② Xã hội reframed: PRIMARY PROVIDER pathway 2b Trust-Injected (not "Tier 3")
-> ③ F1/F2 Compiled/Fresh terminology fix (§2.7 Connection mechanism, L679)
-> ④ 11 dependency versions updated (Connection v4.0, CB v2.0, BB v3.1, HAF v3.0, ASM v2.0, etc.)
-> ⑤ §8 Cross-refs: +DRILL SOURCE block (Inter-Body v1.0, BFL v2.0)
+> ③ Compiled/Fresh terminology fix (§2.7 Connection mechanism, L679)
+> ④ 11 dependency versions updated (Connection v4.0, Collective-Body v2.0, BB v3.1, HAF v3.0, ASM v2.0, etc.)
+> ⑤ §8 Cross-refs: +DRILL SOURCE block (Inter-Body v1.0, Body-Feedback-Label v2.0)
 > ⑥ §7 Honest Assessment: +1🟡 (2-Tier reframe with source refs)
 > ⑦ §6.1 What Remains: reframed with 2-Tier model (cái mất = pathway 2b, cái còn = Tầng 1 + 2a)

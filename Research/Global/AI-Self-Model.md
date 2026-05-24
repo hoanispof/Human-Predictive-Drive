@@ -43,7 +43,7 @@
 >   - Somatic-Articulation-Loop.md — body → explicit knowledge process
 >   - Autonomy-Hardware.md — efference copy, self-action = reward
 >   - Body-Coupling.md v1.1 — 2D Depth×Direction, relationship mechanism
->   - Compile-Taxonomy.md v1.1 — 3 Loại A/B/C, trust gate
+>   - Compile-Taxonomy.md v2.0 — 3 3 Compile Types, trust gate
 > **Confidence:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Language:** Tiếng Việt primary + English technical terms
 > **v2.0 changes:**
@@ -198,7 +198,7 @@
     → Confirmation bias (🟢 Nickerson 1998): con người tìm evidence confirm model có sẵn
     → AI + confirmation bias = AI LÀ THÊM 1 "expert" confirm cho bạn
     → "AI cũng đồng ý mà" = PFC nhận external validation → model strengthen
-    → = Loại C trust-compile (Compile-Taxonomy.md §3):
+    → = Trust Compile trust-compile (Compile-Taxonomy.md §3):
        external source (AI) → trust gate → compile "model tôi đúng"
 
   ⚠️ QUAN TRỌNG — ĐÂY KHÔNG PHẢI LỖI CỦA AI:
@@ -220,12 +220,12 @@
     → "Tại sao tôi phản ứng vậy" (explanation chunks — PFC Layer 7, 20-70% fidelity)
     → "Tôi cần gì" (need assessment — Body-Feedback.md, often wrong)
 
-  Self-model ĐA SỐ = Loại C compiled (trust-installed):
+  Self-model ĐA SỐ = Trust Compile compiled (trust-installed):
     → Cha mẹ: "con nhút nhát" → compile "tôi nhút nhát"
     → Thầy cô: "em không giỏi toán" → compile "tôi kém toán"
     → Xã hội: "người thành công là người kiếm nhiều tiền" → compile "tiền = thành công"
     → = Chunks about self — NHƯNG source = external, KHÔNG phải body verify
-    → (Compile-Taxonomy.md §3: Loại C = trust install, PFC accuracy ~30-60%)
+    → (Compile-Taxonomy.md §3: Trust Compile = trust install, PFC accuracy ~30-60%)
 
   KHI HỎI AI, BẠN CUNG CẤP SELF-MODEL NÀY:
     → "Tôi nhút nhát, làm sao tự tin hơn?" (model: nhút nhát = problem)
@@ -282,7 +282,7 @@
     → = "Nếu X khác thì sao?" effective hơn "vì X nên Y"
 
   🟡 FRAMEWORK MAPPING:
-    → Automation bias = Loại C trust-compile applied to AI
+    → Automation bias = Trust Compile trust-compile applied to AI
     → AI = "expert" → trust gate open → compile "AI output = reliable"
     → Mỗi lần AI đúng → approach tag strengthen → trust TĂNG
     → Khi AI sai → trust đã compiled → body không fire doubt mạnh
@@ -412,7 +412,7 @@
      → NHƯNG: "cảm thấy hiểu" ≠ compiled (Core-Software.md §4.1)
      → PFC process ≠ body-base compile = 2 thứ KHÁC NHAU
 
-  ⑤ Body-feedback signal nhẹ: "khó" khi tự làm, "lấn cấn" khi nghĩ sâu
+  ⑤ Body-feedback signal nhẹ: "khó" khi tự làm, "nagging unease" khi nghĩ sâu
      → Signal NHẸ (not loud) vì chưa có domain feedback thật
      → Feeling.md §5: magnitude NHẸ + clarity THẤP → PFC có thể bỏ qua
 
@@ -422,7 +422,7 @@
      → External confirmation (AI) + PFC preference for smooth → body-feedback DISMISSED
 
   ⑦ Model sai ĐƯỢC GIỮ NGUYÊN + TĂNG CƯỜNG:
-     → Mỗi lần AI confirm → Loại C trust-compile → model strengthen
+     → Mỗi lần AI confirm → Trust Compile trust-compile → model strengthen
      → approach tag cho "hỏi AI" compiled → tiếp tục hỏi AI → loop
      → = Model sai + AI reinforcement cycle
 
@@ -458,20 +458,20 @@
 🟡 AI vs HUMAN ADVISOR — KHÁC Ở DISMISSABILITY:
 
   HUMAN ADVISOR (therapist, mentor, bạn bè, peer):
-    → CÓ body → CÓ body-feedback → CÓ SPM (Self-Pattern-Match)
+    → CÓ body → CÓ body-feedback → CÓ Self-Pattern-Modeling (Self-Pattern-Modeling)
     → Khi nghe bạn nói "tôi hiểu rồi":
-      → SPM fire: simulate bạn trong body MÌNH
+      → Self-Pattern-Modeling fire: simulate bạn trong body MÌNH
       → Body advisor "feel": "hmm, something off — giọng tự tin quá mức"
       → = Body-feedback CỦA ADVISOR đang evaluate BẠN
     → Khi peer challenge:
       → Peer nói "tôi không chắc" → giọng + body language truyền body-level doubt
-      → BẠN nhận = body-to-body signal (SPM/co-regulation)
+      → BẠN nhận = body-to-body signal (Self-Pattern-Modeling/co-regulation)
       → Signal này KHÓ DISMISS — vì nó bypass PFC, vào thẳng body bạn
     → = Peer challenge = body-level doubt → hard to dismiss
 
   AI ADVISOR:
-    → KHÔNG CÓ body → KHÔNG CÓ body-feedback → KHÔNG CÓ SPM thật
-    → (Human-AI-Future.md v3.0 §0: body-feedback, efference copy, SPM, valence = AI KHÔNG CÓ)
+    → KHÔNG CÓ body → KHÔNG CÓ body-feedback → KHÔNG CÓ Self-Pattern-Modeling thật
+    → (Human-AI-Future.md v3.0 §0: body-feedback, efference copy, Self-Pattern-Modeling, valence = AI KHÔNG CÓ)
     → Khi AI challenge:
       → AI đưa logical objection → text/speech → PFC-level argument
       → BẠN nhận = PFC-to-PFC signal (logic evaluate logic)
@@ -482,7 +482,7 @@
 
     Peer challenge:
       → Peer body fires → peer verbalizes doubt → YOUR body picks up signal
-      → = Body-to-body transmission (SPM, co-regulation — Connection.md ❶❷)
+      → = Body-to-body transmission (Self-Pattern-Modeling, co-regulation — Connection.md ❶❷)
       → Your BODY feels the doubt → harder to PFC-override
 
     AI challenge:
@@ -846,7 +846,7 @@
   BODY-FEEDBACK DISMISSED:
     → Body signal: "khó" khi tự làm bài → signal nhẹ
     → PFC override: "mình đã hiểu mà, AI cũng confirm"
-    → "Khó" bị interpret sai: "chưa hiểu" thay vì "đang compile" (BFM: recalibration)
+    → "Khó" bị interpret sai: "chưa hiểu" thay vì "đang compile" (Body-Feedback-Mechanism: recalibration)
 
   DOMAIN REALITY:
     → Thi → không giải được → gap LỚN giữa "hiểu" (PFC) và "làm" (body-base)
@@ -874,7 +874,7 @@
     → Parent: "hiệu quả thật!" → AI confirm: "tốt, tiếp tục nhé"
 
   BODY-FEEDBACK DISMISSED:
-    → Parent body: "lấn cấn" nhẹ khi con ít nói hơn
+    → Parent body: "nagging unease" nhẹ khi con ít nói hơn
     → CON: suppress = avoidance tag compile cho "thể hiện = bị phạt"
 
   DOMAIN REALITY:
@@ -894,7 +894,7 @@
 
   Cơ chế gốc:
     → Relationship = body-coupling (Body-Coupling.md v1.1)
-    → Connection = L1 hardware + SPM F1/F2 + per-agent valence
+    → Connection = L1 hardware + Self-Pattern-Modeling Compiled/Fresh + per-agent valence
     → = Body-level process, KHÔNG phải PFC-level advice following
 
   AI CONFIRMS:
@@ -904,7 +904,7 @@
 
   BODY-FEEDBACK DISMISSED:
     → Đối phương: body cảm thấy "nói đúng nhưng không thật"
-    → Bạn: "lấn cấn" khi apply techniques — feels mechanical
+    → Bạn: "nagging unease" khi apply techniques — feels mechanical
     → Body-coupling signal BỊ BỎ QUA cả 2 phía
 
   DOMAIN REALITY:
@@ -1026,7 +1026,7 @@
     Pattern match từ big data           Body-feedback real-time
     Giải thích, chunk provision         Quality control (~90%)
     Working memory lớn (200K+ tokens)   Valence (approach/avoidance)
-    Speed, consistency                  Efference copy, SPM, co-regulation
+    Speed, consistency                  Efference copy, Self-Pattern-Modeling, co-regulation
     Available 24/7                      Direction (body-need → drive)
 
   → AI = KNOWLEDGE + SPEED.  Body = EVALUATION + DIRECTION.
@@ -1144,7 +1144,7 @@
 
   CHECK CÓ:
     → Body: "smooth" → likely aligned → proceed to domain-check
-    → Body: "lấn cấn" → something off → investigate before proceed
+    → Body: "nagging unease" → something off → investigate before proceed
     → Body: "nothing" → insufficient chunks → need more context
 
   CHECK KHÔNG BAO GIỜ:
@@ -1430,7 +1430,7 @@
   → "Honest AI still amplifies" (§1.5) = logical from coherence ≠ truth principle
     → Body-Base.md §7: coherent-but-false → reward = established
     → Extension to AI output = framework inference (untested directly)
-  → AI ≠ Peer Review dismissability (§2.3) = logical from SPM + body-channel theory
+  → AI ≠ Peer Review dismissability (§2.3) = logical from Self-Pattern-Modeling + body-channel theory
     → Observable: people dismiss AI objections easier than peer objections
     → CHƯA CÓ: controlled study measuring dismissability per channel
   → Per-domain failure modes = framework mapping, chưa systematic testing
@@ -1477,7 +1477,7 @@ MECHANISM FILES (core evidence):
   → Feeling.md v2.1 — 7-layer fidelity gradient, PFC observation interface
   → PFC-Function.md v1.2 — 24 functions, PFC override, confabulation
   → Autonomy-Hardware.md — efference copy, self-action = opioid = approach tag
-  → Compile-Taxonomy.md v1.1 — 3 Loại A/B/C, trust gate, Loại C ~30-60%
+  → Compile-Taxonomy.md v2.0 — 3 3 Compile Types, trust gate, Trust Compile ~30-60%
   → Chunk.md v2.1 — sole substrate, 4 compile mechanisms, activation dynamics
 
 ANALYSIS FILES (parallel — "bộ 3 song song"):
@@ -1496,7 +1496,7 @@ APPLICATION FILES:
 RELATED RESEARCH:
   → Expansion-Saturation-Crisis.md v1.1 — AI impact on education/career
   → Money-Analysis.md v1.0 — tiền × technology × body-needs
-  → Uncanny-Valley.md v1.0 — VTC-SPM Classification, AI không có agency
+  → Uncanny-Valley.md v1.0 — VTC-Self-Pattern-Modeling Classification, AI không có agency
 
 EVIDENCE (by topic):
 

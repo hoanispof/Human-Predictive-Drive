@@ -1,9 +1,10 @@
 ---
 title: Meaning — Observation Parameter
-version: 2.1
+version: 2.2
 created: 2026-04-20
 updated: 2026-05-17
-status: OBSERVATION PARAMETER v2.1
+refined: 2026-05-23 (v2.2 — Concept Cascade: +Bond-Architecture, +Resonance-Sustainability, +Resonance-Per-Entity. Updated versions + cross-refs)
+status: OBSERVATION PARAMETER v2.2
 scope: |
   OBSERVATION FILE: Meaning = named pattern khi quan sát trạng thái
   CÓ hoặc THIẾU life-level Anchor-Schema ổn định.
@@ -32,28 +33,31 @@ sources_backup: |
   v1.0 defined "schema coherence" — đúng nhưng mô tả output.
   v2.0 reframe: anchor-schema mechanism.
   v2.1 KEY CHANGES (2026-05-17):
-    ⑪ +Architecture B alignment: meaning = emergent observation khi
+    ⑪ +Compilable Architecture alignment: meaning = emergent observation khi
        general-purpose system compile life-level patterns đủ sâu
     ⑫ +Domain=Arbiter: meaning CAN BE WRONG (cult deep meaning, wrong anchor)
     ⑬ Version refs updated (Connection v4.0, Empathy v3.0, Boredom v1.1)
-    ⑭ +IBM v1.0, +BFL v2.0 cross-refs
+    ⑭ +Inter-Body-Mechanism v1.0, +Body-Feedback-Label v2.0 cross-refs
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 dependencies:
   - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
   - Anchor-Schema.md — §0 phân biệt, §1 sync mechanism, §2 Trust, §3 4 nguồn fill
   - Imagine-Final.md — 3-layer hierarchy, lifecycle 5 phases, reference pattern
-  - Boredom.md v1.1 — Loại 3 TRỐNG = gateway tới meaning question
-  - Drive.md v1.1 — PFC Mode 3 Spinning, Signal Strength Model
+  - Boredom.md v2.0 — Loại 3 TRỐNG = gateway tới meaning question, by-product match dừng
+  - Drive.md v1.2 — PFC Mode 3 Spinning, Signal Strength Model
   - Status.md v2.1 — "Thành công nhưng trống rỗng"
   - Cortisol-Baseline.md v2.0 — inertia, burnout, direction gate
   - Protect.md v1.1 — identity protect (§3.4), existential crisis
   - Gratitude.md v2.0 — Q4: Meaning × Gratitude interaction
-  - Connection.md v4.0 — shared anchors, co-regulation
-  - Agent-Mechanism.md v2.0 §12 — body-need feeder, SPM
+  - Connection.md v5.0 — shared anchors, co-regulation, 4-Layer Sustainability
+  - Agent-Mechanism.md v2.1 §12 — body-need feeder, Self-Pattern-Modeling, 10 dimensions
   - Collective-Purpose.md — cosmic loop, "sống có ý nghĩa" reframe
-  - Inter-Body-Mechanism.md v1.0 — Architecture B §1.2
+  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture §1.2
   - Body-Feedback-Label.md v2.0 — vocabulary consistency
+  - Chunk/Agent-Mechanism/Bond-Architecture.md v1.0 — meaning through 4 bond types
+  - Chunk/Agent-Mechanism/Resonance-Sustainability.md v1.0 — meaning sustainability (4-layer)
+  - Chunk/Agent-Mechanism/Resonance-Per-Entity.md v1.0 — meaning per-entity dynamics
 ---
 
 # Meaning — Observation Parameter
@@ -192,14 +196,14 @@ dependencies:
     → v2.0 nhìn ở dòng giữa (CÓ anchor hay KHÔNG)
     → = Cùng hiện tượng, v2.0 chỉ ra nguyên nhân sâu hơn
 
-  ⭐ ARCHITECTURE B — TẠI SAO "MEANING" TỒN TẠI (IBM §1.2):
+  ⭐ COMPILABLE ARCHITECTURE — TẠI SAO "MEANING" TỒN TẠI (Inter-Body-Mechanism §1.2):
 
-    Architecture A (côn trùng): hardwired stimulus→response.
+    Hardwired Architecture (côn trùng): hardwired stimulus→response.
     KHÔNG CÓ "meaning question" — vì không compile life-level patterns,
     không có Anchor-Schema, không có gap giữa "sống" và "sống VÌ GÌ."
     Mỗi moment = stimulus → response → done. Không accumulate life narrative.
 
-    Architecture B (humans):
+    Compilable Architecture (humans):
     General-purpose system COMPILE patterns suốt đời →
     chunks ACCUMULATE → tạo thành network PHỨC TẠP →
     network cần ORGANIZATION POINT (anchor) để không fragmentary →
@@ -209,11 +213,11 @@ dependencies:
     → "Meaning" = ARCHITECTURE CONSEQUENCE:
       Hệ thống compile suốt đời → cần life-level anchor →
       có = coherent, thiếu = fragmentary
-    → CHỈ Architecture B organisms hỏi "sống để làm gì?"
+    → CHỈ Compilable Architecture organisms hỏi "sống để làm gì?"
       (vì CHỈ chúng compile đủ sâu để CẦN life-level organization)
     → Trẻ nhỏ không hỏi = chunk network chưa đủ lớn để CẦN life-level anchor
 
-    🟡 Architecture B framing = framework synthesis (IBM §1.2).
+    🟡 Compilable Architecture framing = framework synthesis (Inter-Body-Mechanism §1.2).
 
   GIÁ TRỊ CỦA TÊN GỌI:
     → Predict: có anchor ổn → resilient (Frankl evidence)
@@ -280,12 +284,12 @@ dependencies:
   🟢 "Know without knowing why" = implicit knowledge (Reber 1993)
 ```
 
-### §1.1b — Domain=Arbiter: Meaning CAN BE WRONG (IBM §7)
+### §1.1b — Domain=Arbiter: Meaning CAN BE WRONG (Inter-Body-Mechanism §7)
 
 ```
 ⭐ "CÓ MEANING" ≠ "MEANING ĐÚNG" — DOMAIN = ARBITER DUY NHẤT:
 
-  PFC = LAWYER (IBM §7): PFC build narrative PHỤC VỤ body-need,
+  PFC = LAWYER (Inter-Body-Mechanism §7): PFC build narrative PHỤC VỤ body-need,
   KHÔNG PHẢI neutral judge. Với meaning:
     → PFC tạo anchor narrative CHO body calm → KHÔNG kiểm tra truth
     → "Tôi sống vì X" → body accept → coherent → "có ý nghĩa"
@@ -310,7 +314,7 @@ dependencies:
     → "Cảm thấy có ý nghĩa" ≠ "Sống có ý nghĩa" (Gazzaniga: PFC confabulate)
     → = Tại sao deradicalization KHÓ: phá meaning = phá anchor = body resist
 
-  🟡 Domain=Arbiter for meaning = framework synthesis (IBM §7, LFB v2.0).
+  🟡 Domain=Arbiter for meaning = framework synthesis (Inter-Body-Mechanism §7, LFB v2.0).
   🟢 PFC confabulation = Gazzaniga split-brain studies.
 ```
 
@@ -482,11 +486,11 @@ dependencies:
     → PhD xong: academic anchor ACHIEVED → "giờ sao?"
     → Con cái trưởng thành: parenting anchor SHIFTING → "giờ tôi là ai?"
 
-  ĐẶC BIỆT: CORTISOL INERTIA (BFM §3.3⑥)
+  ĐẶC BIỆT: CORTISOL INERTIA (Body-Feedback-Mechanism §3.3⑥)
     → Anchor đã drive cortisol nhiều năm → body QUEN cortisol mode
     → Anchor fulfilled → cortisol VẪN CÒN → body "thiếu gì đó"
     → = "Post-project blues" ở life-scale
-    → = "Đạt rồi mà VẪN không thỏa mãn" ≠ tham lam → là cortisol inertia
+    → = "Đạt rồi mà VẪN không satisfied" ≠ tham lam → là cortisol inertia
 
   = STATUS.MD §10.1: "Thành công nhưng trống rỗng" = EXACTLY THIS
     → Status position CAO + body-inputs tốt + anchor EXHAUSTED
@@ -1420,6 +1424,52 @@ dependencies:
     "Người practice gratitude → meaning HIGHER (via anchor strengthening)"
 ```
 
+### §7.8 — × New Concepts (28-session Drill Propagation)
+
+```
+BOND-ARCHITECTURE × MEANING (Bond-Architecture.md v1.0):
+
+  Life-level anchor OFTEN involves ENTITIES → Bond-Architecture matters:
+
+  4 BOND TYPES → 4 MEANING PATHWAYS:
+    Proximity bond → meaning qua "NƠI AN TOÀN" (quê hương, nhà, tổ ấm)
+    Shared-Experience bond → meaning qua "CÙNG NHAU ĐI QUA" (đồng đội, vợ chồng)
+    Reciprocal bond → meaning qua "CHO VÀ NHẬN" (mentoring, friendship)
+    Identity bond → meaning qua "THUỘC VỀ" (tôn giáo, dân tộc, nghề nghiệp)
+
+  → Mỗi bond type → khác anchor STRENGTH + khác anchor VULNERABILITY
+  → IDENTITY bond → FAITH type anchor (§3.4) — strongest, khó phá nhất
+  → SHARED-EXPERIENCE bond → GOAL type anchor (§3.1) — mạnh khi còn hoạt động
+  → = Bond type SHAPES which meaning type thrives
+
+RESONANCE-SUSTAINABILITY × MEANING (Resonance-Sustainability.md v1.0):
+
+  Meaning = long-term phenomenon → SUSTAINABILITY matters:
+
+  4-LAYER SUSTAINABILITY applied to life-level anchor:
+    Neurochemical: does anchor still fire reward? (habituation risk)
+    Behavioral: does person still ACT toward anchor? (routine maintenance)
+    Cognitive: does anchor still MAKE SENSE? (coherence with new chunks)
+    Contextual: does environment still SUPPORT anchor? (external validation)
+
+  → "Thành công nhưng trống rỗng" (Status.md) = Neurochemical + Behavioral ok,
+    but Cognitive layer FAILED (anchor exhausted → no longer makes sense)
+  → Frankl (§5) = ALL 4 layers STRIPPED → build NEW anchor từ zero
+  → = Sustainability framework PREDICTS when meaning will erode
+
+RESONANCE-PER-ENTITY × MEANING (Resonance-Per-Entity.md v1.0):
+
+  Meaning OFTEN involves specific entities (con, partner, mentor, God):
+  → Resonance-Per-Entity = per-relationship meaning intensity
+  → Entity-Compiled deep → meaning per-entity STRONG
+  → Entity mất (grief) → meaning anchor COLLAPSE (grief Type C)
+  → = TẠI SAO mất người thân = meaning crisis, không chỉ "buồn"
+
+🟡 Bond-Architecture × meaning = framework application (4 pathways)
+🟡 Resonance-Sustainability × meaning = framework application (4-layer prediction)
+🟡 Resonance-Per-Entity × meaning = framework application (per-entity intensity)
+```
+
 ---
 
 ## §8 — CASES ANALYSIS
@@ -1688,7 +1738,7 @@ dependencies:
   │ Self-help critique (prescribe 1 type)│ 🟡       │ Analysis     │
   │ 3 ways anchor thiếu (A/E/D)       │ 🟡         │ Framework    │
   │ MXH → premature meaning anxiety   │ 🟡         │ Observation  │
-  │ Architecture B → meaning emergent │ 🟡         │ Synthesis    │
+  │ Compilable Architecture → meaning emergent │ 🟡         │ Synthesis    │
   │ Domain=Arbiter: meaning can be wrong│ 🟡        │ Synthesis    │
   │ Gratitude → anchor strengthening   │ 🔴         │ Hypothesis   │
   │ Brain optimization = computational │ 🔴         │ Analogy      │
@@ -1764,32 +1814,37 @@ CORE CONCEPT FILE:
     §3 4 nguồn fill → MEANING = life-level application of this concept
 
 DRILL SOURCE:
-  → Inter-Body-Mechanism.md v1.0 §1.2 — Architecture B (meaning = emergent from compilation depth)
+  → Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture (meaning = emergent from compilation depth)
   → Inter-Body-Mechanism.md v1.0 §7 — PFC=Lawyer, Domain=Arbiter (meaning can be wrong)
 
 MECHANISM FILES:
-  → Imagine-Final.md — 3-layer hierarchy, lifecycle 5 phases, reference pattern
+  → Imagine-Final.md v3.0 — hardware prediction ≠ Imagine-Final, lifecycle
     → 1 trong 4 nguồn fill anchor (nguồn ①)
   → Body-Feedback-Mechanism.md §3.3 — Chunk-Gap (life-level gap signal)
   → Body-Feedback-Mechanism.md §3.3⑥ — cortisol inertia (post-achievement void)
   → Cortisol-Baseline.md v2.0 — amplifier, burnout, direction gate
-  → Chunk.md v2.0 — chunk substrate, compilation, network topology
-  → Agent-Mechanism.md §12 — body-need feeder, SPM, §12.6 grief
+  → Chunk.md v2.3 — chunk substrate, compilation, network topology
+  → Agent-Mechanism.md v2.1 §12 — body-need feeder, Self-Pattern-Modeling, §12.6 grief
   → Somatic-Articulation-Loop.md — body-knowledge → explicit (anchor building tool)
+
+NEW CONCEPT FILES (28-session Drill — §7.8):
+  → Bond-Architecture.md v1.0 — meaning through 4 bond types (4 pathways)
+  → Resonance-Sustainability.md v1.0 — meaning sustainability (4-layer prediction)
+  → Resonance-Per-Entity.md v1.0 — meaning per-entity dynamics, grief → anchor collapse
 
 VOCABULARY:
   → Body-Feedback-Label.md v2.0 — prediction-delta, terminology consistency
 
 OBSERVATION PARAMETER FILES (cùng folder):
-  → Boredom.md v1.1 — Loại 3 TRỐNG = gateway tới meaning question
-  → Status.md v2.1 — "Thành công nhưng trống rỗng" = anchor exhausted
-  → Drive.md v1.1 — PFC Mode 3 Spinning ≈ meaning territory; drive conflict
+  → Boredom.md v2.0 — Loại 3 TRỐNG = gateway tới meaning question
+  → Status.md v2.2 — "Thành công nhưng trống rỗng" = anchor exhausted
+  → Drive.md v1.2 — PFC Mode 3 Spinning ≈ meaning territory; drive conflict
   → Protect.md v1.1 — Identity protect blocks anchor change
-  → Novelty.md v1.1 — Raw material supplier cho anchor building
-  → Connection.md v4.0 — Shared anchors, co-regulation, anchor building catalyst
+  → Novelty.md v1.2 — Raw material supplier cho anchor building
+  → Connection.md v5.0 — Shared anchors, co-regulation, 4-Layer Sustainability
   → Gratitude.md v2.0 §10 Q4 — Gratitude × meaning interaction (open)
-  → Empathy.md v3.0 — SPM in meaning context
-  → Threat.md v1.1 — Mortality awareness trigger (Terror Management Theory)
+  → Empathy.md v4.0 — Self-Pattern-Modeling in meaning context
+  → Threat.md v1.2 — Mortality awareness trigger (Terror Management Theory)
 
 PFC FILES:
   → PFC-Function.md — 24 functions, §2 HOLD, PFC as backup
@@ -1820,7 +1875,8 @@ KEY RESEARCH CITATIONS:
   → 🟢 Jaques 1965, Lachman 2004 — Midlife crisis documentation
 
 STATUS:
-  → v2.1 REFINE — từ v2.0 (2026-05-17). +Architecture B, +Domain=Arbiter.
+  → v2.2 REFINE — từ v2.1 (2026-05-23). +Bond-Architecture, +Resonance-Sustainability, +Resonance-Per-Entity.
+  → v2.1 REFINE — từ v2.0 (2026-05-17). +Compilable Architecture, +Domain=Arbiter.
   → v2.0 rewrite từ v1.0 anchor-schema reframe (2026-04-25)
   → KEY CONTRIBUTIONS v2.0:
     ① "Meaning = life-level Anchor-Schema" (mechanism, not output)
@@ -1890,13 +1946,13 @@ FILE: ~1,770 lines | 11 sections + summary
 VERSION: v2.1 | 2026-05-17 (refine từ v2.0)
 
 v2.1 CHANGES (2026-05-17):
-  ⑪ +Architecture B: meaning = emergent observation khi general-purpose system
-     compile life-level patterns đủ sâu (Architecture A: không hỏi "sống vì gì?")
+  ⑪ +Compilable Architecture: meaning = emergent observation khi general-purpose system
+     compile life-level patterns đủ sâu (Hardwired Architecture: không hỏi "sống vì gì?")
   ⑫ +Domain=Arbiter §1.1b: meaning CAN BE WRONG (cult, propaganda, fraud)
      → "cảm thấy có ý nghĩa" ≠ "sống có ý nghĩa" (PFC=Lawyer confabulate)
   ⑬ Version refs updated (Connection v4.0, Empathy v3.0, Boredom v1.1, etc.)
-  ⑭ +IBM v1.0, +BFL v2.0 cross-refs
-  ⑮ Honest Assessment: +2 🟡 (Architecture B, Domain=Arbiter)
+  ⑭ +Inter-Body-Mechanism v1.0, +Body-Feedback-Label v2.0 cross-refs
+  ⑮ Honest Assessment: +2 🟡 (Compilable Architecture, Domain=Arbiter)
 ```
 
 ---

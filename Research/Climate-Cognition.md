@@ -23,7 +23,7 @@
 3. [3 Cơ Chế Framework](#3-mechanisms)
 4. [Cơ Chế 1: Pressure — Lạnh Ép Plan](#4-pressure)
 5. [Cơ Chế 2: Body State — Nhiệt Độ Modulate PFC](#5-body-state)
-6. [Cơ Chế 3: Reward Balance — Type A vs Type B Theo Khí Hậu](#6-reward)
+6. [Cơ Chế 3: Reward Balance — Evaluative vs Direct-State Theo Khí Hậu](#6-reward)
 7. [Confounding Variables](#7-confounds)
 8. [Counter-Examples](#8-counter)
 9. [Ứng Dụng](#9-applications)
@@ -204,7 +204,7 @@ Scale matters (Innovation-Geography.md v1.0 §8):
 
   MECHANISM:
     Cold-induced vasoconstriction → thermoreceptor input DIVERTS attentional resources
-    → Body-Feedback-Mechanism v1.2: thermal input = SENSORY-DRIVEN (Type B)
+    → Body-Feedback-Mechanism v1.2: thermal input = SENSORY-DRIVEN (Direct-State)
     → Lạnh cực đoan = body-input CHIẾM DỤNG bandwidth → ít còn cho PFC
 
   TUY NHIÊN — Cold exposure survival study (Taber 2016):
@@ -276,7 +276,7 @@ Scale matters (Innovation-Geography.md v1.0 §8):
     → = Displeasure ITSELF occupies PFC bandwidth
 
   Framework mapping (Body-Feedback-Mechanism v1.2):
-    Thermal discomfort = SENSORY-DRIVEN body-feedback (Type B input)
+    Thermal discomfort = SENSORY-DRIVEN body-feedback (Direct-State input)
     → Axis 1 (Direction): DISSONANCE (mismatch với preferred state)
     → Axis 2 (Magnitude): vừa đủ để chiếm bandwidth, không đủ để emergency
     → Axis 4 (Chunk Dynamics): CONTINUOUS → body signal liên tục → PFC liên tục phải process
@@ -303,8 +303,8 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
     (Cortisol-Baseline v2.0: cortisol = amplifier; Body-Feedback-Mechanism v1.2)
 
   Cơ chế 3 — REWARD BALANCE (§6):
-    Climate shift balance giữa Type A (evaluative) vs Type B (direct state)
-    (Reward-Signal-Architecture v1.0: Type A cần PFC, Type B không cần)
+    Climate shift balance giữa Evaluative vs Direct-State
+    (Reward-Signal-Architecture v1.0: Evaluative cần PFC, Direct-State không cần)
 
   3 cơ chế CỘNG DỒN — không phải chọn 1:
     Pressure ÉP nghĩ + Body State CHO PHÉP nghĩ + Reward Balance THƯỞNG cho nghĩ
@@ -518,7 +518,7 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
 ### 5.5 AC: Đủ cho Execute, không đủ cho Imagine kéo dài
 
 ```
-🟡 Phân biệt quan trọng — qua Type A/B lens (Reward-Signal-Architecture v1.0):
+🟡 Phân biệt quan trọng — qua Evaluative/Direct-State lens (Reward-Signal-Architecture v1.0):
 
   PFC có 2 mode hoạt động chính:
 
@@ -540,10 +540,10 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
      → Hoặc: ở trong phòng AC cả ngày → bí + thiếu vận động
               → body stress KHÁC thay thế heat stress
 
-  Type A/B mapping:
-    Execute mode chủ yếu dùng TYPE B reward (direct state, compiled, hardware):
-      → Ít bị thermal interference (Type B = resilient, §2.2 simple tasks OK)
-    Imagine mode chủ yếu dùng TYPE A reward pathway (evaluative, opioid, H10):
+  Evaluative/Direct-State mapping:
+    Execute mode chủ yếu dùng DIRECT-STATE reward (direct state, compiled, hardware):
+      → Ít bị thermal interference (Direct-State = resilient, §2.2 simple tasks OK)
+    Imagine mode chủ yếu dùng EVALUATIVE reward pathway (evaluative, opioid, H10):
       → CẦN PFC bandwidth đầy đủ → bị thermal interference MẠNH
       → H10 P4 Goldilocks: cortisol dao động → Goldilocks MISS → reward KHÔNG fire
 
@@ -596,20 +596,20 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
 
 ---
 
-## 6. Cơ Chế 3: Reward Balance — Type A vs Type B Theo Khí Hậu {#6-reward}
+## 6. Cơ Chế 3: Reward Balance — Evaluative vs Direct-State Theo Khí Hậu {#6-reward}
 
 ### 6.1 Climate shift balance giữa 2 loại reward
 
 ```
 🟡 Framework synthesis — Reward-Signal-Architecture v1.0:
 
-  TYPE A REWARD (evaluative — PFC-dependent):
+  EVALUATIVE REWARD (evaluative — PFC-dependent):
     Circuit: hedonic hotspot (NAcc shell, VP, mOFC)
     Signal: μ-opioid
     Cần: H10 5 preconditions + compiled chunks + PFC evaluation
     Ví dụ: insight, reading, planning, creative work, deep conversation
 
-  TYPE B REWARD (direct state — hardware-based):
+  DIRECT-STATE REWARD (direct state — hardware-based):
     Circuit: interoceptive / body-state regulation
     Signal: varies (CT afferents, eCB, thermoreceptor)
     Cần: hardware pathways (MINIMAL compiled chunks)
@@ -622,13 +622,13 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
   │ Body-needs met: ✅ (ấm, no, an toàn)            │
   │ Physical options: ❌ (lạnh ngoài, tối sớm)      │
   │ Sensory novelty: ❌ (cảnh vật đơn điệu)         │
-  │ Type B sources: HẠN CHẾ (ít outdoor, ít sensory) │
+  │ Direct-State sources: HẠN CHẾ (ít outdoor, ít sensory) │
   │                                                 │
-  │ → Type A = NGUỒN DUY NHẤT cho novelty reward    │
-  │ → Nghĩ = SƯỚNG (Type A: insight, prediction)    │
-  │ → Kể chuyện = SƯỚNG (Type A: shared imagination)│
-  │ → Plan = SƯỚNG (Type A: predict future)          │
-  │ → Craft = SƯỚNG (Type A → B: imagine → realize)  │
+  │ → Evaluative = NGUỒN DUY NHẤT cho novelty reward    │
+  │ → Nghĩ = SƯỚNG (Evaluative: insight, prediction)    │
+  │ → Kể chuyện = SƯỚNG (Evaluative: shared imagination)│
+  │ → Plan = SƯỚNG (Evaluative: predict future)          │
+  │ → Craft = SƯỚNG (Evaluative → B: imagine → realize)  │
   └─────────────────────────────────────────────────┘
 
   Vùng nóng (quanh năm):
@@ -636,20 +636,20 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
   │ Body-needs met: ✅ (thức ăn dồi dào)            │
   │ Physical options: ✅ (ra ngoài được)             │
   │ Sensory novelty: ✅ (thiên nhiên phong phú)      │
-  │ Type B sources: DỒI DÀO (outdoor, sensory rich)  │
+  │ Direct-State sources: DỒI DÀO (outdoor, sensory rich)  │
   │                                                 │
-  │ → Type A = 1 trong NHIỀU nguồn reward            │
-  │ → Ăn trái cây = Type B (direct opioid)           │
-  │ → Bơi sông = Type B (body state improve)         │
-  │ → Social outdoor = Type B + social reward         │
-  │ → Ít CẦN Type A để entertain → ít exercise       │
+  │ → Evaluative = 1 trong NHIỀU nguồn reward            │
+  │ → Ăn trái cây = Direct-State (direct opioid)           │
+  │ → Bơi sông = Direct-State (body state improve)         │
+  │ → Social outdoor = Direct-State + social reward         │
+  │ → Ít CẦN Evaluative để entertain → ít exercise       │
   └─────────────────────────────────────────────────┘
 
-  → Vùng lạnh: Type A = PRIMARY reward source (mùa đông)
-  → Vùng nóng: Type A = ONE OF MANY reward sources
-  → Vùng lạnh: Type A pathway gets MORE exercise → imagination MUSCLE stronger
-  → RSA v1.0 §5.2: Type B resistant to hedonic treadmill, Type A habituates
-    → Nên: vùng nóng Type B sources KHÔNG cạn → ít pressure chuyển sang Type A
+  → Vùng lạnh: Evaluative = PRIMARY reward source (mùa đông)
+  → Vùng nóng: Evaluative = ONE OF MANY reward sources
+  → Vùng lạnh: Evaluative pathway gets MORE exercise → imagination MUSCLE stronger
+  → Reward-Signal-Architecture v1.0 §5.2: Direct-State resistant to hedonic treadmill, Evaluative habituates
+    → Nên: vùng nóng Direct-State sources KHÔNG cạn → ít pressure chuyển sang Evaluative
 ```
 
 ### 6.2 Tradition evidence
@@ -657,7 +657,7 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
 ```
 🟢 Observable cultural patterns (correlation, NOT causation):
 
-  Vùng lạnh — strong INDOOR creative traditions (Type A dominant):
+  Vùng lạnh — strong INDOOR creative traditions (Evaluative dominant):
     Bắc Âu: saga kể chuyện (oral storytelling qua mùa đông dài)
     Nhật Bản: trà đạo, thư pháp, haiku (indoor contemplative arts)
     Nga: văn học cực dài (Tolstoy, Dostoevsky — viết suốt mùa đông)
@@ -665,7 +665,7 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
     Phần Lan: design, architecture (indoor craft = mùa đông occupation)
     Scotland/Ireland: storytelling tradition cực mạnh
 
-  Vùng nóng — strong OUTDOOR/BODY creative traditions (Type B dominant):
+  Vùng nóng — strong OUTDOOR/BODY creative traditions (Direct-State dominant):
     Châu Phi: nhảy múa, nhạc cụ, rhythmic arts (motor + somatic)
     Brazil: carnival, samba, capoeira (body expression)
     Ấn Độ: dance forms (Bharatanatyam), yoga (body practice)
@@ -674,8 +674,8 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
 
   → KHÔNG PHẢI "vùng nóng không sáng tạo"
   → Mà là "sáng tạo BIỂU HIỆN KHÁC":
-    Lạnh → Type A dominant: abstract, written, indoor, imagination-heavy
-    Nóng → Type B dominant: body-based, sensory, performed, outdoor
+    Lạnh → Evaluative dominant: abstract, written, indoor, imagination-heavy
+    Nóng → Direct-State dominant: body-based, sensory, performed, outdoor
   → 2 DẠNG creativity khác nhau, không phải 1 hơn 1
 ```
 
@@ -686,7 +686,7 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
 
   Thế giới hiện đại ĐO sáng tạo bằng:
     Patents, papers, technology, GDP, industrial output
-    → Tất cả = TYPE A creativity (abstract, written, PFC-dependent)
+    → Tất cả = EVALUATIVE creativity (abstract, written, PFC-dependent)
     → = Đúng thế mạnh vùng lạnh
 
   KHÔNG ĐO:
@@ -696,16 +696,16 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
     Social organization innovation
     Agricultural technique innovation
     Navigation/wayfinding innovation
-    → = TYPE B creativity — thế mạnh vùng nóng — KHÔNG ĐƯỢC ĐẾM
+    → = DIRECT-STATE creativity — thế mạnh vùng nóng — KHÔNG ĐƯỢC ĐẾM
 
-  → "Vùng lạnh sáng tạo hơn" = đang dùng THƯỚC ĐO của Type A
-  → Nếu đo bằng thước Type B → kết luận có thể NGƯỢC
+  → "Vùng lạnh sáng tạo hơn" = đang dùng THƯỚC ĐO của Evaluative
+  → Nếu đo bằng thước Direct-State → kết luận có thể NGƯỢC
 
   Ví dụ:
     Polynesians navigate bằng sao + sóng + gió qua Thái Bình Dương
     → Cognitive complexity CỰC CAO (spatial + proprioceptive + Pattern-Driven)
     → Nhưng không có patent nào → "không sáng tạo"?
-    → = Type B mastery cực đỉnh, invisible cho thước Type A
+    → = Direct-State mastery cực đỉnh, invisible cho thước Evaluative
 ```
 
 ---
@@ -758,14 +758,14 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
 ```
 🟡 Framework observation:
 
-  Type A creativity TÍCH LŨY qua văn bản:
+  Evaluative creativity TÍCH LŨY qua văn bản:
     Viết ra → người khác đọc → build on top → COMPOUND
     → Knowledge-Flow.md (Domain/): output tách khỏi người → trở thành chunk rẻ
 
-  Type B creativity KHÔNG tích lũy dễ:
+  Direct-State creativity KHÔNG tích lũy dễ:
     Nhảy múa → phải TRUYỀN trực tiếp → mất nếu lineage đứt
 
-  → Writing system = accelerator cho Type A creativity
+  → Writing system = accelerator cho Evaluative creativity
   → Writing = indoor activity → vùng lạnh CÓ thêm thời gian indoor
   → NHƯNG: chữ viết phát minh ở LƯỠNG HÀ (nóng) → confound
 ```
@@ -794,7 +794,7 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
      → Climate bất lợi NHƯNG compensated bằng architecture + institution
 
   ③ Ấn Độ cổ đại:
-     Nóng → nhưng Vedic scholars MEDITATE (= Type A imagination exercise)
+     Nóng → nhưng Vedic scholars MEDITATE (= Evaluative imagination exercise)
      → Tạo "INDOOR STATE" bằng meditation thay vì bằng shelter
      → + Monsoon season = forced indoor time (mưa = functional winter)
      → Body state tương tự: ngồi yên + thoải mái + PFC active
@@ -856,7 +856,7 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
 ```
 🟡 Nếu body state ảnh hưởng PFC (§5):
 
-  Thiết kế workspace TỐI ƯU cho Type A creativity (imagination):
+  Thiết kế workspace TỐI ƯU cho Evaluative creativity (imagination):
     Temperature: 20-22°C (🟢 Seppänen 2006)
     Stability: GIẢM delta trong/ngoài (shelter design)
     Air quality: CO₂ <1000ppm (🟢 Satish 2012)
@@ -864,7 +864,7 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
     Alertness: NE nhẹ (light, hơi mát, không quá ấm → buồn ngủ)
     → = TÁI TẠO "mùa đông ấm áp trong nhà" nhân tạo
 
-  Thiết kế workspace cho Type B creativity (body-based):
+  Thiết kế workspace cho Direct-State creativity (body-based):
     Temperature: thoải mái cho VẬN ĐỘNG
     Sensory input: GIÀU (nhạc, mùi, texture)
     Physical options: MỞ
@@ -880,7 +880,7 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
 ```
 🟡 Ứng dụng cá nhân:
 
-  Muốn TYPE A creativity (imagine, plan, design, write):
+  Muốn EVALUATIVE creativity (imagine, plan, design, write):
     ✅ Nhiệt độ mát (20-22°C)
     ✅ Body-needs met (ăn vừa, uống đủ nước)
     ✅ Comfortable nhưng KHÔNG buồn ngủ (tránh quá ấm + no quá)
@@ -888,7 +888,7 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
     ✅ NE nhẹ duy trì (đi bộ trước, hoặc brief cold exposure — §2.5)
     ✅ Cortisol stable (TRÁNH ra/vào nhiều → §5.3 thermal oscillation)
 
-  Muốn TYPE B creativity (dance, cook, sport, craft):
+  Muốn DIRECT-STATE creativity (dance, cook, sport, craft):
     ✅ Temperature thoải mái cho VẬN ĐỘNG
     ✅ Sensory input GIÀU
     ✅ Physical options MỞ
@@ -896,7 +896,7 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
   → 2 dạng creativity CẦN điều kiện KHÁC NHAU
   → Match environment với LOẠI creative output mong muốn
   → Biết mình thuộc nhóm nào (§5.6: high/medium/low signal)
-    → High signal: MÙA MÁT = golden time cho Type A, tận dụng tối đa
+    → High signal: MÙA MÁT = golden time cho Evaluative, tận dụng tối đa
     → Low signal: thermal effect nhỏ → flexible hơn
 ```
 
@@ -914,10 +914,10 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
     AI KHÔNG thay thế human IMAGINE (intuition, body test, judgment)
     → Climate effect lên IMAGINE = VẪN relevant cho human contribution
     → Innovation-Geography.md v1.0 §9.3: AI era bottleneck = RIGHT QUESTIONS
-    → Right questions = Type A creativity = VẪN bị body state ảnh hưởng
+    → Right questions = Evaluative creativity = VẪN bị body state ảnh hưởng
 
   Nhưng: AI = 24/7, không bị body state ảnh hưởng
-    → Người ở vùng nóng + AI = dùng AI cho Type A heavy-lifting
+    → Người ở vùng nóng + AI = dùng AI cho Evaluative heavy-lifting
     → Chỉ cần body state tốt cho JUDGMENT (kiểm tra AI output)
     → = Climate disadvantage GIẢM thêm nhưng CHƯA biến mất hoàn toàn
     → Collective-Body.md v1.1 §8.4: AI = trust entity, nhưng output cần body verify
@@ -939,9 +939,9 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
    Creative people làm đêm VÌ BODY STATE tối ưu giống mùa đông?
    → (Observation: nhiều writer, programmer, artist = night owls)
 
-❓ Nếu đo "creativity" bằng TYPE B metrics (dance, cuisine, improvisation):
+❓ Nếu đo "creativity" bằng DIRECT-STATE metrics (dance, cuisine, improvisation):
    Pattern có ĐẢO NGƯỢC không? (Vùng nóng > vùng lạnh?)
-   → Prediction: CÓ — vì Type B = body-based → warm environment thuận lợi
+   → Prediction: CÓ — vì Direct-State = body-based → warm environment thuận lợi
 
 ❓ AC + dehumidifier + air purifier = GIẢI QUYẾT đủ 3 tầng?
    Tầng 1: nhiệt (AC ✅), Tầng 2: stability (?), Tầng 3: air quality (purifier ✅?)
@@ -954,7 +954,7 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
    → Hypothesis: 2-5 phút cold → 30-60 phút enhanced PFC → then decay
 
 ❓ Hardware sensitivity (§5.6) + climate = career guidance?
-   High signal → nghề Type A: chọn sống ở vùng mát = LEVERAGE natural advantage?
+   High signal → nghề Evaluative: chọn sống ở vùng mát = LEVERAGE natural advantage?
    Low signal → flexible → vùng nào cũng OK?
    → Testable: compare creative output (per person) summer vs winter
 ```
@@ -975,7 +975,7 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
   §5.4 Double Calibration: 🟢 CONFIRMED by Gaoua 2012 (displeasure = cognitive load)
   §5.5 AC Execute/Imagine: 🟡 STRONG INFERENCE — từ task differential data + framework
   §5.6 Hardware sensitivity: 🟡 PLAUSIBLE — COMT variation known, specific mapping = inference
-  §6 Reward Balance: 🟡 MODERATE — Type A/B mapping logical, cultural data correlational
+  §6 Reward Balance: 🟡 MODERATE — Evaluative/Direct-State mapping logical, cultural data correlational
   §6.3 Measurement bias: 🟢 IMPORTANT — valid epistemological point
   §7 Confounds: 🟢 STRONG — colonialism + institutions well-documented
   §8 Counter-examples: 🟢 STRONG — all explained within framework
@@ -998,7 +998,7 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
   ĐIỂM YẾU / CHƯA VERIFY:
     ① Double Calibration = SUPPORTED nhưng chưa có study TRỰC TIẾP đo
       "thermal cortisol oscillation → creative performance" specifically
-    ② Type A vs Type B climate balance = framework inference, chưa empirical
+    ② Evaluative vs Direct-State climate balance = framework inference, chưa empirical
     ③ Reward balance cultural pattern = CORRELATION, có thể do confounds khác
     ④ Hardware sensitivity groups = inference từ known COMT variation,
       chưa có study mapping COMT → thermal cognitive sensitivity specifically
@@ -1024,13 +1024,13 @@ FRAMEWORK CONNECTIONS (updated 2026-05-11):
     → "Amplifier NOT stress" reframe applies: heat cortisol ≠ "stress"
       = change-readiness signal mà body KHÔNG cần → wasted bandwidth
   Body-Feedback-Mechanism.md v1.2 (Body-Base/Body-Feedback/):
-    → Thermal input = SENSORY-DRIVEN (Type B hardware-level)
+    → Thermal input = SENSORY-DRIVEN (Direct-State hardware-level)
     → 4 axes: Direction (dissonance), Magnitude (varies by hardware),
       Source (nociception-like), Chunk Dynamics (continuous)
   Reward-Signal-Architecture.md v1.0 (Body-Base/Body-Feedback/):
-    → §6 Type A/B balance — climate shifts which type available
-    → Type B resistant to hedonic treadmill → vùng nóng Type B = sustainable
-    → Execute = Type B pathway (resilient), Imagine = Type A pathway (vulnerable)
+    → §6 Evaluative/Direct-State balance — climate shifts which type available
+    → Direct-State resistant to hedonic treadmill → vùng nóng Direct-State = sustainable
+    → Execute = Direct-State pathway (resilient), Imagine = Evaluative pathway (vulnerable)
   PFC-Configuration.md v1.0 (PFC/):
     → Heat extreme → shift TOWARD Config ④ Disconnected (NE flood)
     → PFC connectivity DOWN + limbic UP in heat (fMRI data)
@@ -1041,9 +1041,9 @@ FRAMEWORK CONNECTIONS (updated 2026-05-11):
   Innovation-Geography.md v1.0 (Research/Global/):
     → §8: macro scale — climate ~5-10%, chunks + trade dominate
     → File này = micro scale — climate ~25-35%
-  Observation/Boredom.md v1.0: climate → ít Type B → ít direct entertainment
+  Observation/Boredom.md v1.0: climate → ít Direct-State → ít direct entertainment
     → = condition cho Boredom Loại 1 (không có gap + không có gì làm)
-    → Mùa đông bored → push sang Type A exploration
+    → Mùa đông bored → push sang Evaluative exploration
 
   BACKUP FILES (referenced for historical context):
     Research/backup/Climate-Cognition.md (bản gốc GIẢ THIẾT 2026-03-22)

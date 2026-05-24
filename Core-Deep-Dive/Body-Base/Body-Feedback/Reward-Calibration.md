@@ -11,13 +11,13 @@ scope: |
   KHÔNG THỂ prescribe — chỉ có thể OBSERVE + ADJUST (dynamic equilibrium).
   3 Gap Types × Reward Match. Goldilocks Zone (Under/Match/Over).
   6 Over-Reward Mechanisms (threshold adapt, overjustification, bridge dependency,
-  baseline shift, competence-reward mismatch, A/B imbalance).
+  baseline shift, competence-reward mismatch, Evaluative/Direct-State imbalance).
   Dynamic equilibrium parallel Logic-Feeling-Balance.md.
   Observable indicators qua giao tiếp + hành vi (xác suất, không chẩn đoán).
-  Type A/B × Calibration. Reward-Economics insights qua v7.8 lens.
+  Evaluative/Direct-State × Calibration. Reward-Economics insights qua v7.8 lens.
 purpose: |
   03-Reward.md answers: KHI NÀO reward fires (H10 5 preconditions, 7-step VTA)
-  RSA answers: Reward fire CHẤT LƯỢNG thế nào (Type A/B, 5 Profiles, A Gates B)
+  Reward-Signal-Architecture answers: Reward fire CHẤT LƯỢNG thế nào (Evaluative/Direct-State, 5 Profiles, Evaluative Gates Direct-State)
   Gap-Direction.md answers: TẠI SAO reward personal (gap có hướng)
   Gratitude.md §3-4: Anti-habituation + baseline shift
   Education-Mechanism.md §3: Bridge (external reward) trong giáo dục
@@ -25,12 +25,12 @@ purpose: |
   = CALIBRATION question — tương tự Cortisol-Baseline.md
   (cortisol = amplifier có Goldilocks; reward = signal có Goldilocks)
 position: |
-  Core-Deep-Dive/Body-Base/Body-Feedback/ — ngang hàng RSA, Gap-Direction, BFM.
-  MECHANISM observation file. Calibration là property CỦA reward system,
+  Core-Deep-Dive/Body-Base/Body-Feedback/ — ngang hàng Reward-Signal-Architecture, Gap-Direction, Body-Feedback-Mechanism.
+  MECHANISM observation file. Calibration là property CỦEvaluative reward system,
   không phải application bên ngoài.
 dependencies:
   - 03-Reward.md — H10 5 preconditions, 7-step VTA, opioid vs dopamine, 7 cases
-  - Reward-Signal-Architecture.md v1.0 — Type A/B, A₀→A₃, 5 Profiles, A Gates B
+  - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, E₀→E₃, 5 Profiles, Evaluative Gates Direct-State
   - Body-Feedback-Mechanism.md v1.2 — 2 sources, 3 dynamics (Shift/Miss/Gap), compound
   - Gap-Direction.md v1.0 — gap has direction, "chưa biết = không có gap", 2-layer
   - Gratitude.md v1.1 — §3 anti-habituation 3 mechanisms, §4 baseline shift
@@ -50,10 +50,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 # Reward Calibration — Observation File for Reward Amount × Gap Match
 
-> **Lương 10 triệu. Sướng.**
-> **Tăng lên 15 triệu. Sướng hơn.**
-> **Tăng lên 20 triệu. Vẫn sướng, nhưng ít hơn lần trước.**
-> **Tăng lên 50 triệu. Sướng... rồi quen.**
+> **Lương 10 triệu. Pleasant.**
+> **Tăng lên 15 triệu. Pleasant hơn.**
+> **Tăng lên 20 triệu. Vẫn pleasant, nhưng ít hơn lần trước.**
+> **Tăng lên 50 triệu. Pleasant... rồi quen.**
 > **Tăng lên 100 triệu. "Đồng nghiệp có bao nhiêu?"**
 >
 > Cùng 1 người. Cùng 1 cơ chế reward (H10, 03-Reward.md).
@@ -82,7 +82,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §4 — OVER-REWARD: 6 CƠ CHẾ HẠI
 - §5 — DYNAMIC EQUILIBRIUM: TẠI SAO KHÔNG THỂ PRESCRIBE
 - §6 — OBSERVABLE INDICATORS
-- §7 — TYPE A/B × CALIBRATION
+- §7 — EVALUATIVE/DIRECT-STATE × CALIBRATION
 - §8 — REWARD-ECONOMICS INSIGHTS QUA V7.8 LENS
 - §9 — HONEST ASSESSMENT
 - §10 — CROSS-REFERENCES
@@ -103,7 +103,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                           │ (H10 5 preconditions, 7-step VTA)      │
   ├───────────────────────────┼─────────────────────────────────────────┤
   │ Reward-Signal-            │ Reward fire CHẤT LƯỢNG thế nào?        │
-  │ Architecture.md           │ (Type A/B, 5 Profiles, A Gates B)      │
+  │ Architecture.md           │ (Evaluative/Direct-State, 5 Profiles, Evaluative Gates Direct-State)      │
   ├───────────────────────────┼─────────────────────────────────────────┤
   │ Gap-Direction.md          │ TẠI SAO reward personal?               │
   │                           │ (gap có hướng, f(surrounding chunks))  │
@@ -122,7 +122,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   File này = OBSERVATION SYNTHESIS:
   → Tổng hợp insights từ ~15 files vào 1 góc nhìn CALIBRATION
   → KHÔNG tạo mechanism mới — tổ chức lại qua lens "enough for this gap"
-  → Reader flow: đọc SAU 03-Reward + RSA + BFM + Gap-Direction
+  → Reader flow: đọc SAU 03-Reward + Reward-Signal-Architecture + Body-Feedback-Mechanism + Gap-Direction
 ```
 
 ### §0.2 — File này LÀ GÌ
@@ -139,7 +139,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
   ✗ KHÔNG phải "cách thiết kế reward" (prescriptive)
   ✗ KHÔNG phải economics file (Reward-Economics.md cũ = Applications layer)
-  ✗ KHÔNG lặp H10 hay RSA (reference only)
+  ✗ KHÔNG lặp H10 hay Reward-Signal-Architecture (reference only)
   ✗ KHÔNG phải education file (Education-Mechanism.md §3 đã cover bridge)
   ✗ KHÔNG phải HR file
   ✗ KHÔNG nói "làm gì" — chỉ nói "đang ở đâu" và "tại sao khó"
@@ -154,7 +154,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ REWARD AMOUNT CÓ SWEET SPOT PER-GAP:
 
-  Gap (BFM §3: Chunk-Shift / Chunk-Miss / Chunk-Gap)
+  Gap (Body-Feedback-Mechanism §3: Chunk-Shift / Chunk-Miss / Chunk-Gap)
   = hole trong chunk network cần fill.
 
   Quá ít reward cho gap → gap chưa fill → dissonance KÉO DÀI
@@ -163,9 +163,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   = Giống đường trong thức ăn:
     Ít đường → nhạt → body "chưa đủ caloric signal"
-    Vừa đường → ngon → A₀ hardware opioid confirm (RSA §2.1)
+    Vừa đường → ngon → E₀ hardware opioid confirm (Reward-Signal-Architecture §2.1)
     Nhiều đường → ngấy → body REJECT (ngưỡng bão hòa)
-    = A₀ = hardware Goldilocks ĐƠN GIẢN NHẤT
+    = E₀ = hardware Goldilocks ĐƠN GIẢN NHẤT
     = Pattern GIỐNG NHƯ ở MỌI loại reward, chỉ PHỨC TẠP HƠN
 
   🟢 Hedonic adaptation: Brickman & Campbell 1971
@@ -194,7 +194,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Cortisol state: Role ② Holding → reward cần khác (Cortisol §7.7)
     Existing chunks: expert vs novice → cùng input, khác reward
     Relationship: bạn thân cho vs người lạ cho → khác valence
-    Background Pattern: invisible bias → gap landscape lệch
+    Background-Pattern: invisible bias → gap landscape lệch
     (Background-Pattern.md §6)
 
   → Khác PER-TIME:
@@ -252,23 +252,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Gap Type     │ Nature                       │ Reward Match                 │
   ├──────────────┼──────────────────────────────┼──────────────────────────────┤
   │ CHUNK-SHIFT  │ Context thay đổi →           │ RE-ANCHOR reward:            │
-  │ (BFM §3.1)  │ baseline cũ không còn phù    │ giúp build baseline MỚI      │
+  │ (Body-Feedback-Mechanism §3.1)  │ baseline cũ không còn phù    │ giúp build baseline MỚI      │
   │              │ hợp. "Chuyển nhà, đổi việc,  │ ở context MỚI.               │
   │              │ mất người thân."             │                              │
-  │              │                              │ = Type B effective            │
+  │              │                              │ = Direct-State effective            │
   │              │ Body đang RE-CALIBRATE       │ (body-state: touch, exercise,│
   │              │ toàn bộ baseline → unstable  │ grounding, sleep, routine)   │
   │              │                              │                              │
-  │              │                              │ ⚠️ Type A evaluative         │
+  │              │                              │ ⚠️ Evaluative evaluative         │
   │              │                              │ CÓ THỂ CHƯA WORK:           │
   │              │                              │ chunks cũ không còn          │
   │              │                              │ relevant → evaluation sai    │
   ├──────────────┼──────────────────────────────┼──────────────────────────────┤
   │ CHUNK-MISS   │ Expected X, got <X.          │ COMPENSATE reward:           │
-  │ (BFM §3.2)  │ "Kỳ vọng lương cao,         │ fill delta HOẶC adjust       │
+  │ (Body-Feedback-Mechanism §3.2)  │ "Kỳ vọng lương cao,         │ fill delta HOẶC adjust       │
   │              │ được ít." "Tưởng sẽ được     │ expectation.                 │
   │              │ khen, bị chê."               │                              │
-  │              │                              │ = Type A evaluative:         │
+  │              │                              │ = Evaluative evaluative:         │
   │              │ Body detect: actual <         │ PFC compare + evaluate →     │
   │              │ compiled expectation          │ opioid khi delta fill        │
   │              │ → SNC (Crespi 1942)          │                              │
@@ -280,14 +280,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │              │                              │ BOTH có thể healthy          │
   ├──────────────┼──────────────────────────────┼──────────────────────────────┤
   │ CHUNK-GAP    │ Structure predict C          │ EXPLORATION reward:          │
-  │ (BFM §3.3)  │ should exist → C chưa        │ bridge qua exploration       │
+  │ (Body-Feedback-Mechanism §3.3)  │ should exist → C chưa        │ bridge qua exploration       │
   │              │ compile → HOLE.              │ → chunk fill → opioid.       │
   │              │ "Chưa biết, muốn biết."     │                              │
   │              │ "Bài toán chưa giải được."   │ = prediction-delta (novelty) khi    │
   │              │                              │ chunk MỚI match gap →        │
   │              │ Body detect: surrounding     │ + opioid khi fill            │
   │              │ chunks predict C but C       │ = Profile ② Coherence        │
-  │              │ is missing                   │ (RSA §4)                     │
+  │              │ is missing                   │ (Reward-Signal-Architecture §4)                     │
   └──────────────┴──────────────────────────────┴──────────────────────────────┘
 
   🟢 SNC: Crespi 1942, Flaherty 1996
@@ -300,9 +300,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ REWARD CALIBRATION KHÔNG CHỈ VỀ LƯỢNG — MÀ CÒN VỀ LOẠI:
 
-  VD 1: Chunk-Miss (kỳ vọng lương) mà cho Type B (massage, đi spa)
+  VD 1: Chunk-Miss (kỳ vọng lương) mà cho Direct-State (massage, đi spa)
     → Body đang "expected X, got <X" → cần evaluative resolution
-    → Massage = body-state improvement → ĐÚNG Type B, NHƯNG:
+    → Massage = body-state improvement → ĐÚNG Direct-State, NHƯNG:
     → Gap GỐC (lương < expectation) VẪN CÒN → dissonance VẪN CÒN
     → = Reward ĐÚNG loại nhưng SAI gap → chỉ tạm thời
 
@@ -315,8 +315,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   VD 3: Chunk-Shift (mất người thân) mà cho lời khuyên logic
     → Body đang RE-CALIBRATE toàn bộ baseline → unstable
-    → Logic = Type A evaluative → chunks cũ đang invalidate → evaluation SAI
-    → Body CẦN: Type B grounding (ôm, có mặt, routine)
+    → Logic = Evaluative evaluative → chunks cũ đang invalidate → evaluation SAI
+    → Body CẦN: Direct-State grounding (ôm, có mặt, routine)
     → Lời khuyên = ĐÚNG loại nhưng SAI timing
     → = "Người ta đang chới với mà bạn giảng đạo"
 
@@ -396,7 +396,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Match cho người này ≠ match cho người kia
     (hardware: PFC-Hardware.md §3.4 — COMT × Reward Pattern)
     → Match trong context này ≠ match trong context khác
-    (cortisol state, relationship, Background Pattern)
+    (cortisol state, relationship, Background-Pattern)
 
   VÍ DỤ:
     Lương match năng lực + recognition đúng lúc:
@@ -428,7 +428,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   TẠI SAO OVER-REWARD NGUY HIỂM HƠN UNDER-REWARD:
     → Under-reward: body biết "thiếu" → signal rõ → CÓ THỂ điều chỉnh
-    → Over-reward: body "sướng" → KHÔNG signal "quá" → mù
+    → Over-reward: body "pleasant" → KHÔNG signal "quá" → mù
     → = Over-reward là invisible → khó nhận diện → khó sửa
     → Giống Cortisol-Baseline.md Role ⑤ Silent:
       cortisol CAO nhưng KHÔNG CẢM NHẬN → damage tích lũy
@@ -457,9 +457,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   3 CASES PHÂN TÁCH — KHÔNG PHẢI OVER-REWARD NÀO CŨNG HẠI:
 
-  CASE 1 — A₀ HARDWARE REJECT (VÔ HẠI):
+  CASE 1 — E₀ HARDWARE REJECT (VÔ HẠI):
     Đường quá nhiều → ngấy → body reject NGAY → KHÔNG compile chunks sai
-    → A₀ = hardware Goldilocks (RSA §2.1) → feedback NGAY LẬP TỨC
+    → E₀ = hardware Goldilocks (Reward-Signal-Architecture §2.1) → feedback NGAY LẬP TỨC
     → Body biết "quá" ở tầng hardware → dừng → vô hại
 
   CASE 2 — KHÔNG CÓ GAP (VÔ HẠI):
@@ -492,7 +492,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Transfer KHÔNG QUA effort → chunks "wealth" compile
         KHÔNG CÓ effort chunks đi kèm
       → = "Có tiền mà không biết tại sao có"
-      → Background Pattern hình thành: [tiền = free]
+      → Background-Pattern hình thành: [tiền = free]
       → Bias mọi quyết định tài chính sau này
 
   TẠI SAO CASE 3 NGUY HIỂM HƠN CASE 1+2:
@@ -527,7 +527,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ REWARD LIÊN TỤC → BASELINE TĂNG → CÙNG REWARD = PREDICTION-DELTA GIẢM:
 
   CƠ CHẾ (Gratitude.md §3.1 + §4):
-    Gift lần đầu → VTA fire delta → opioid → reward → "sướng"
+    Gift lần đầu → VTA fire delta → opioid → reward → "pleasant"
     Gift lần 2-10 → VTA dần habituate → reward GIẢM
     Gift lần 50-100+ → VTA habituate hoàn toàn → gift = INVISIBLE
     → Cần reward MỚI, LỚN HƠN để tạo prediction-delta dương
@@ -639,7 +639,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Giống SNC (Crespi 1942): downshift từ high baseline → anger, not sadness
 
     Bữa cơm mẹ nấu 10,000 lần → habituated → invisible
-    → Xa nhà 5 năm → VTA habituation DECAY → về ăn = "cực sướng"
+    → Xa nhà 5 năm → VTA habituation DECAY → về ăn = "intensely pleasant"
     → = Variation (Gratitude.md §3.2) reset baseline
 
     Mạng xã hội likes liên tục → baseline = "phải có likes"
@@ -682,40 +682,40 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 "Trời không chịu đất" = dynamic equilibrium = framework synthesis
 ```
 
-### §4.6 — ⑥ A/B IMBALANCE (1 loại quá nhiều)
+### §4.6 — ⑥ EVALUATIVE/DIRECT-STATE IMBALANCE (1 loại quá nhiều)
 
 ```
-⭐ QUÁ NHIỀU TYPE A HOẶC TYPE B → MẤT CÂN BẰNG:
+⭐ QUÁ NHIỀU EVALUATIVE HOẶC DIRECT-STATE → MẤT CÂN BẰNG:
 
-  CƠ CHẾ (RSA §1-§3):
+  CƠ CHẾ (Reward-Signal-Architecture §1-§3):
 
-  QUÁ NHIỀU TYPE A (evaluative):
-    → A₃ threshold CAO (RSA §2.1: A₀→A₃ gradient)
+  QUÁ NHIỀU EVALUATIVE:
+    → E₃ threshold CAO (Reward-Signal-Architecture §2.1: E₀→E₃ gradient)
     → Simple pleasures KHÔNG ĐỦ prediction-delta vượt threshold
-    → Body Type B VẪN work (hardware) nhưng PFC "dismiss" (đã quen A₃)
+    → Direct-State Reward VẪN work (hardware) nhưng PFC "dismiss" (đã quen E₃)
     → = "Giàu nhưng không biết vui"
-    → A₃ evaluative = complex, conditional, DỄNG habituate
-    → B = hardware, simple, RELIABLE nhưng bị NEGLECT
+    → E₃ evaluative = complex, conditional, DỄNG habituate
+    → Direct-State = hardware, simple, RELIABLE nhưng bị NEGLECT
 
-  QUÁ NHIỀU TYPE B (direct state):
+  QUÁ NHIỀU DIRECT-STATE:
     → Body-state comfort HIGH nhưng evaluative depth LOW
-    → No chunk compilation for A₂-A₃ → no coherence reward
+    → No chunk compilation for E₂-E₃ → no coherence reward
     → = "Vui nhưng trống rỗng" (fun without depth)
     → Meaning.md: không có GOAL/STATE/IDENTITY anchor → no meaning
 
-  A/B RATIO CẦN BALANCE:
-    → Maximize A alone → lose B → lose safe baseline
-    → Maximize B alone → lose A → lose depth + meaning
-    → = A/B ratio = calibration parameter CỦA CHÍNH NÓ
+  EVALUATIVE/DIRECT-STATE RATIO CẦN BALANCE:
+    → Maximize Evaluative alone → lose Direct-State → lose safe baseline
+    → Maximize Direct-State alone → lose Evaluative → lose depth + meaning
+    → = Evaluative/Direct-State ratio = calibration parameter CỦA CHÍNH NÓ
 
-  A GATES B IMPLICATION (RSA §3):
-    → A calibration MẠNH → B experience TĂNG (A₃ anchor amplify B)
-    → A calibration YẾU → B "flat" (no gate to amplify through)
+  EVALUATIVE GATES DIRECT-STATE IMPLICATION (Reward-Signal-Architecture §3):
+    → Evaluative calibration MẠNH → Direct-State experience TĂNG (E₃ anchor amplify)
+    → Evaluative calibration YẾU → Direct-State "flat" (no gate to amplify through)
     → Over-calibrate A → BLOCK B → "hiểu hết mà không cảm được"
     → = "Expert wine taster no longer enjoys casual wine"
 
-  🟡 A/B imbalance = RSA Type A/B + Meaning.md synthesis
-  🟡 A Gates B implication for calibration = framework inference
+  🟡 Evaluative/Direct-State imbalance = Reward-Signal-Architecture Evaluative/Direct-State + Meaning.md synthesis
+  🟡 Evaluative Gates Direct-State implication for calibration = framework inference
 ```
 
 ---
@@ -739,7 +739,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ① Person khác → sweet spot KHÁC
        (hardware: COMT, DRD4, receptor sensitivity — PFC-Hardware.md §3.4)
     ② Context khác → sweet spot KHÁC
-       (cortisol state, relationship, Background Pattern — dynamic)
+       (cortisol state, relationship, Background-Pattern — dynamic)
     ③ Time khác → sweet spot KHÁC
        (baseline shift, development stage, habituation — Gratitude.md §4)
     ④ Gap khác → sweet spot KHÁC
@@ -993,86 +993,86 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Team dynamics shift: envy, scrutiny, passive resistance
     → = Status.md Resource Access Map lệch visible qua social behavior
 
-  ⑥ A/B IMBALANCE:
+  ⑥ EVALUATIVE/DIRECT-STATE IMBALANCE:
     → "Giàu nhưng buồn" (A excess, B neglect)
     → "Vui nhưng trống" (B excess, A absent)
-    → Simple pleasures "flat" (A threshold quá cao)
+    → Simple pleasures "flat" (Evaluative threshold quá cao)
     → Meaning void despite material comfort (Meaning.md anchor absent)
 ```
 
 ---
 
-## §7 — TYPE A/B × CALIBRATION
+## §7 — EVALUATIVE/DIRECT-STATE × CALIBRATION
 
-### §7.1 — Type A calibration = phức tạp
+### §7.1 — Evaluative calibration = phức tạp
 
 ```
-⭐ TYPE A (EVALUATIVE) — GOLDILOCKS PHỨC TẠP:
+⭐ EVALUATIVE (EVALUATIVE) — GOLDILOCKS PHỨC TẠP:
 
-  Type A = conditional, H10 full P1-P5 required (RSA §1.3)
-  → Threshold ADAPT: A₀→A₃ gradient → threshold tăng với experience
+  Evaluative = conditional, H10 full P1-P5 required (Reward-Signal-Architecture §1.3)
+  → Threshold ADAPT: E₀→E₃ gradient → threshold tăng với experience
   → Habituation: VTA habituate → cùng stimulus = prediction-delta giảm → cần MỚI
   → Context-dependent: body state, relationship, cortisol → ALL ảnh hưởng
   → Per-person: COMT × Childhood = 4 trajectories (PFC-Hardware.md §3.5)
 
-  A CALIBRATION CẦN ANTI-HABITUATION:
+  EVALUATIVE CALIBRATION CẦN ANTI-HABITUATION:
     → Gratitude.md §3: 3 mechanisms (Variation, Comparison, Ritual)
-    → Không có anti-habituation → A reward decay → anhedonia
-    → = "Mọi thứ ok mà không cảm gì" = A threshold CAO + no delta
+    → Không có anti-habituation → Evaluative reward decay → anhedonia
+    → = "Mọi thứ ok mà không cảm gì" = Evaluative threshold CAO + no delta
 
-  A₃ = ĐỈNH PHỨC TẠP (RSA §2.1):
+  E₃ = ĐỈNH PHỨC TẠP (Reward-Signal-Architecture §2.1):
     → Multi-domain coherence + compound insight + meta-evaluation
-    → Threshold RẤT CAO → A₃ reward = RARE
+    → Threshold RẤT CAO → E₃ reward = RARE
     → Khi có: POWERFUL (opioid + dopamine + cortisol drop compound)
-    → Khi không có: "chán kinh niên" (baseline A₃ → everything below = "meh")
-    → = Expert/professional hazard: A₃ calibrated → simple pleasures insufficient
+    → Khi không có: "chán kinh niên" (baseline E₃ → everything below = "meh")
+    → = Expert/professional hazard: E₃ calibrated → simple pleasures insufficient
 
-  🟡 Type A calibration complexity = RSA + Gratitude synthesis
+  🟡 Evaluative calibration complexity = Reward-Signal-Architecture + Gratitude synthesis
 ```
 
-### §7.2 — Type B calibration = đơn giản hơn nhưng quan trọng
+### §7.2 — Direct-State calibration = đơn giản hơn nhưng quan trọng
 
 ```
-⭐ TYPE B (DIRECT STATE) — GOLDILOCKS ĐƠN GIẢN HƠN:
+⭐ DIRECT-STATE (DIRECT STATE) — GOLDILOCKS ĐƠN GIẢN HƠN:
 
-  Type B = hardware-based, H10 simplified (RSA §1.3)
+  Direct-State = hardware-based, H10 simplified (Reward-Signal-Architecture §1.3)
   → Threshold ÍT ADAPT: body-state sensors = stable
   → Habituation: MINIMAL (body-level adaptation only, not VTA)
-  → = RELIABLE baseline reward (RSA §1.4: "evolutionary floor")
+  → = RELIABLE baseline reward (Reward-Signal-Architecture §1.4: "evolutionary floor")
 
   B = SAFE BASELINE KHI A EXHAUSTED:
-    → Burnout/anhedonia: Type A exhausted → A reward OFF
-    → Type B VẪN accessible: touch, exercise, warmth, stretching
+    → Burnout/anhedonia: Evaluative exhausted → Evaluative reward OFF
+    → Direct-State VẪN accessible: touch, exercise, warmth, stretching
     → = "Backdoor" qua stuck A gate
     → 🟢 Van der Kolk 2014: body-oriented therapy for trauma
 
   B CALIBRATION:
-    → Goldilocks: body-state range (CT afferents ~1-10cm/s — RSA §1.1)
+    → Goldilocks: body-state range (CT afferents ~1-10cm/s — Reward-Signal-Architecture §1.1)
     → Under B: body neglected (no touch, no movement) → baseline LOW
     → Match B: regular body-state engagement → stable baseline
     → Over B: rare but possible (exercise addiction, sensory overload)
     → = B calibration = GIỮ hardware channels active
 
-  🟡 Type B = reliable + simple calibration = RSA §1.4 synthesis
+  🟡 Direct-State = reliable + simple calibration = Reward-Signal-Architecture §1.4 synthesis
 ```
 
-### §7.3 — A Gates B: calibration tương tác
+### §7.3 — Evaluative Gates Direct-State: calibration tương tác
 
 ```
-⭐ A CALIBRATION ẢNH HƯỞNG B EXPERIENCE (RSA §3):
+⭐ A CALIBRATION ẢNH HƯỞNG B EXPERIENCE (Reward-Signal-Architecture §3):
 
-  A Gates B mechanism (RSA §3):
-    → A₃ anchor MẠNH → sensory experience CÒN MẠNH HƠN
-    → A₃ anchor YẾU → sensory experience "flat"
-    → = A calibration INDIRECT ảnh hưởng B quality
+  Evaluative Gates Direct-State mechanism (Reward-Signal-Architecture §3):
+    → E₃ anchor MẠNH → sensory experience CÒN MẠNH HƠN
+    → E₃ anchor YẾU → sensory experience "flat"
+    → = Evaluative calibration INDIRECT ảnh hưởng Direct-State quality
 
   CALIBRATION IMPLICATIONS:
-    → Over-calibrate A → A threshold CAO → block B gate
+    → Over-calibrate Evaluative → threshold CAO → block Direct-State gate
     → = "Hiểu hết mà không cảm được"
     → = Expert wine taster không enjoy casual wine
     → = Musician không enjoy pop music
 
-    → Under-calibrate A → A threshold THẤP → B gate ineffective
+    → Under-calibrate A → Evaluative threshold THẤP → Direct-State gate ineffective
     → = "Cảm được mà không hiểu sâu"
     → = Enjoy nhưng shallow
 
@@ -1080,7 +1080,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → A depth → B amplify → B experience → A new insight → ...
     → = Virtuous cycle khi balanced
 
-  🟡 A Gates B × Calibration = RSA §3 inference
+  🟡 Evaluative Gates Direct-State × Calibration = Reward-Signal-Architecture §3 inference
 ```
 
 ---
@@ -1095,16 +1095,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Cùng behavior ("giàu rồi vẫn đuổi tiền"), 6 CƠ CHẾ KHÁC NHAU:
 
   ① Schema chưa update = Background-Pattern.md:
-    → Lớn lên thiếu thốn → BP [tiền = an toàn] compiled deep + high density
-    → Giàu rồi nhưng BP CHƯA UPDATE → cortisol baseline vẫn cao
+    → Lớn lên thiếu thốn → Background-Pattern [tiền = an toàn] compiled deep + high density
+    → Giàu rồi nhưng Background-Pattern CHƯA UPDATE → cortisol baseline vẫn cao
     → = PFC biết "giàu" nhưng body VẪN feel "thiếu"
-    → Quadrant: Low Depth + High Density (BP §2.2 → INVISIBLE nhưng PERVASIVE)
+    → Quadrant: Low Depth + High Density (Background-Pattern §2.2 → INVISIBLE nhưng PERVASIVE)
 
   ② Threshold adaptation = §4①:
     → $1M → adapt → $10M → adapt → $100M → treadmill
     → Hedonic treadmill (Brickman 1971)
 
-  ③ Tiền = proxy cho tầng 2-3 = RSA 5 Profiles + GAP SHIFT:
+  ③ Tiền = proxy cho tầng 2-3 = Reward-Signal-Architecture 5 Profiles + GAP SHIFT:
     → Tiền ≠ mục đích → tiền = proxy cho:
       Status (Profile ③ Social: serotonin ranking)
       Impact (Profile ② Coherence: "tôi đúng, tôi thay đổi thế giới")
@@ -1204,7 +1204,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Điều quan trọng nhất = điều prediction-delta ≈ 0 nhất (habituated = invisible)
     → Điều gây prediction-delta dương MẠNH = thường mới/hiếm nhưng có thể KHÔNG quan trọng
     → = Novelty bias: brain track novelty > track importance
-    → = Tại sao giảm lương "đau" hơn tăng lương "sướng" (loss aversion)
+    → = Tại sao giảm lương "đau" hơn tăng lương "pleasant" (loss aversion)
     → Protect.md: loss aversion = f(replaceability × attachment)
 
   🟢 Loss aversion: Kahneman & Tversky 1979 (prospect theory)
@@ -1226,7 +1226,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                              │          │ Yerkes-Dodson, Brickman, │
   │                              │          │ Schultz                  │
   ├──────────────────────────────┼──────────┼──────────────────────────┤
-  │ §2 Gap types × reward match │ 🟡       │ BFM 3 dynamics = 🟢     │
+  │ §2 Gap types × reward match │ 🟡       │ Body-Feedback-Mechanism 3 dynamics = 🟢     │
   │                              │          │ Mapping to reward type   │
   │                              │          │ = framework synthesis    │
   ├──────────────────────────────┼──────────┼──────────────────────────┤
@@ -1244,7 +1244,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                              │          │ diagnostic. Per-case     │
   │                              │          │ verification needed      │
   ├──────────────────────────────┼──────────┼──────────────────────────┤
-  │ §7 Type A/B calibration     │ 🟡       │ RSA synthesis applied    │
+  │ §7 Evaluative/Direct-State calibration     │ 🟡       │ Reward-Signal-Architecture synthesis applied    │
   │                              │          │ to calibration context   │
   ├──────────────────────────────┼──────────┼──────────────────────────┤
   │ §8 RE insights              │ 🟡       │ v5.5 insights remapped   │
@@ -1277,7 +1277,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       threshold adaptation nhanh hơn match group
       → Measure: hedonic adaptation speed qua longitudinal survey
 
-  P2: Type B reward khi A exhausted sẽ restore partial function
+  P2: Direct-State reward khi A exhausted sẽ restore partial function
       → Measure: body-oriented intervention cho burnout patients
 
   P3: Sai gap type × reward match sẽ produce LOWER satisfaction
@@ -1301,8 +1301,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ 03-Reward.md                     │ H10 preconditions, 7-step VTA,      │
   │                                  │ 7 cases — §0 file vị trí            │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Reward-Signal-Architecture.md    │ Type A/B, A₀→A₃, 5 Profiles,       │
-  │ v1.0                             │ A Gates B — §7 calibration          │
+  │ Reward-Signal-Architecture.md    │ Evaluative/Direct-State, E₀→E₃, 5 Profiles,       │
+  │ v1.0                             │ Evaluative Gates Direct-State — §7 calibration          │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Body-Feedback-Mechanism.md v1.2  │ 3 dynamics (Shift/Miss/Gap),        │
   │                                  │ compound — §2 gap types             │
@@ -1335,7 +1335,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                  │ perception-action cycle             │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Meaning.md v2.0                  │ IDENTITY anchor, life-level —      │
-  │                                  │ §4⑥ A/B imbalance, §8.1⑤ lock     │
+  │                                  │ §4⑥ Evaluative/Direct-State imbalance, §8.1⑤ lock     │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Obligation.md v1.0               │ Cortisol holding (Role ②),         │
   │                                  │ 5-factor — §5.2 equilibrium        │

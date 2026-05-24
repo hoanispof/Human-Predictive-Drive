@@ -13,7 +13,7 @@
 >   VN-Education-Status.md v2.0 (data + Mechanism evaluation + gap analysis),
 >   VN-Cultural-Factors.md v2.0 (8 cultural factors + leverage + risk),
 >   Cortisol-Baseline.md v2.0 (amplifier, 3 ORIGIN threat),
->   Reward-Signal-Architecture.md v1.0 (Type A/B reward),
+>   Reward-Signal-Architecture.md v1.0 (Evaluative/Direct-State reward),
 >   Imagine-Final-Evaluation.md v1.1 (4 góc quality)
 > **Bản trước:** backup/v1.0/Country/VN/VN-Recommendations.md (1,144L, DRAFT, 2026-04-03, based on old "10 NL")
 > **Thay đổi chính v2.0:**
@@ -22,7 +22,7 @@
 >   - §1: "NL targeted" → "Mechanism targeted §x.x" + v7.8 reframes
 >   - v7.8: "giảm cortisol" → "shift direction (Imposed→Domain)" — deeper intervention
 >   - v7.8: 4 nguồn fill → cụ thể hóa parent/bridge recommendations
->   - v7.8: Type A/B reward → assessment reform deeper
+>   - v7.8: Evaluative/Direct-State reward → assessment reform deeper
 >   - v7.8: 3-layer AI model → AI recommendations aligned
 > **⚠️ FILE NÀY CÓ RỦI RO CAO NHẤT — phần lớn = 🟡→🔴**
 > **⚠️ Recommendations = DERIVED, chưa validated. Cần chuyên gia local + pilot.**
@@ -261,7 +261,7 @@ MT-1: TEACHER TRAINING — CALIBRATOR SKILLS 🟡
      → Module 2: Per-hardware — 6 dimensions + observable indicators
        (Hardware-Calibration.md v1.0 §2-§3)
      → Module 3: Depth assessment — 4 stages (Mechanism §2.9)
-       + câu hỏi per stage + Type A reward connection (RSA v1.0)
+       + câu hỏi per stage + Evaluative reward connection (Reward-Signal-Architecture v1.0)
      → Module 4: Bridge management — 4 nguồn fill (Mechanism §3.1)
        + bridge dosage ("thuốc đúng liều") + 3 ORIGIN awareness
      → Format: 5 ngày intensive + follow-up hàng tháng
@@ -284,7 +284,7 @@ MT-1: TEACHER TRAINING — CALIBRATOR SKILLS 🟡
 
 
 MT-2: ASSESSMENT REFORM — SURFACE → DEPTH 🟡
-  Mechanism targeted: §2.9 (4 stages depth) + RSA v1.0 (Type A/B)
+  Mechanism targeted: §2.9 (4 stages depth) + Reward-Signal-Architecture v1.0 (Evaluative/Direct-State)
 
   ACTIONS CỤ THỂ:
 
@@ -292,8 +292,8 @@ MT-2: ASSESSMENT REFORM — SURFACE → DEPTH 🟡
      → Process 50% (2025) → tăng dần → 60-70% by 2030
      → KEY: quality phải = depth assessment (stage ②③④)
        → KHÔNG phải = "surface assessment nhiều lần"
-     → v7.8 insight: Type A reward (evaluative, opioid) chỉ fire khi
-       depth THẬT SỰ compile → depth assessment = enable Type A reward
+     → v7.8 insight: Evaluative reward (opioid) chỉ fire khi
+       depth THẬT SỰ compile → depth assessment = enable Evaluative reward
 
   b) Portfolio + Project assessment (pilot THCS-THPT)
      → = Assess stage ③ (apply) + ④ (create/transfer)
@@ -524,7 +524,7 @@ CHÍNH PHỦ / BỘ GD&ĐT:
   CẦN ĐẦU TƯ:
     □ Teacher training Calibrator (MT-1 — Education-System v2.0 §7) — PRIORITY
     □ Imagine-Final program pilot (MT-3 — Mechanism §2.6)
-    □ Assessment reform depth quality (MT-2 — §2.9 + Type A/B)
+    □ Assessment reform depth quality (MT-2 — §2.9 + Evaluative/Direct-State)
     □ AI tools pilot 3-layer (MT-1b — Mechanism §4)
     □ Tăng ngân sách GD + lương GV
 
@@ -764,9 +764,9 @@ FILE NÀY KẾT NỐI VỚI:
       Core-Hardware.md v1.0 — 4 zones A/B/C/D
       Cortisol-Baseline.md v2.0 — amplifier, 3 ORIGIN, 5 Roles
       Imagine-Final.md — lifecycle 5 phases
-      Reward-Signal-Architecture.md v1.0 — Type A/B reward
+      Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State reward
       Body-Feedback-Mechanism.md v1.2 — interface loop
-      Agent-Mechanism.md v1.0 — SPM F1/F2
+      Agent-Mechanism.md v1.0 — Self-Pattern-Modeling Compiled/Fresh
 
     TẦNG 2 — Research/Child-Development/:
       Child-Development-Mechanism.md — 4+1 compile, approach/avoidance
@@ -802,7 +802,7 @@ FILE NÀY KẾT NỐI VỚI:
       → "3 ORIGIN" cho actions CỤ THỂ hơn (Imposed vs Domain)
       → "4 nguồn fill" cho parent/bridge actions CỤ THỂ hơn
       → "4 góc quality" cho Imagine-Final program CỤ THỂ hơn
-      → "Type A/B" cho assessment reform CỤ THỂ hơn
+      → "Evaluative/Direct-State" cho assessment reform CỤ THỂ hơn
       → "3-layer AI" cho AI tools recommendation aligned
       → = v7.8 makes recommendations DEEPER + MORE SPECIFIC
 ```

@@ -405,7 +405,7 @@ Mỗi entry: Mainstream nói gì → Framework nói gì → AI KHÔNG NÓI gì.
 ② Mirror Neurons ≠ Empathy Module
    Mainstream: "Mirror neurons = bẩm sinh → empathy"
    Framework: KHÔNG có hardware mirror module chuyên dụng.
-              Empathy = Self-Pattern-Match (SPM) F1 + positive valence.
+              Empathy = Self-Pattern-Modeling (Self-Pattern-Modeling) Compiled + positive valence.
               Same mechanism + negative valence = schadenfreude.
    ⚠️ KHÔNG NÓI: "mirror neurons giúp bạn cảm nhận người khác",
                   "hệ thống mirror bẩm sinh"
@@ -483,7 +483,7 @@ Observation parameters = tên gọi cho patterns emergent, KHÔNG phải modules
 ⑰ Connection = agents as body-base tools, KHÔNG chỉ emotional bond
 ⑱ Attention = continuous multi-factor spectrum, KHÔNG binary
 ⑲ Learning = cycle (3 signals + sleep), KHÔNG phải single event
-⑳ Empathy = SPM F1 + positive valence, KHÔNG phải mirror/contagion
+⑳ Empathy = Self-Pattern-Modeling Compiled + positive valence, KHÔNG phải mirror/contagion
 ```
 
 ---

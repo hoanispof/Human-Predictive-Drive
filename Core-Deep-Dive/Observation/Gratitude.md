@@ -1,13 +1,14 @@
 ---
 title: Gratitude — Observation Parameter
-version: 2.0
+version: 2.1
 created: 2026-04-25
 refined: 2026-05-17
+refined: 2026-05-23 (v2.1 — Concept Cascade: +Bond-Architecture, +By-Product-Scale, +Resonance-Sustainability. Updated versions + cross-refs)
 updated: |
-  v2.0 (2026-05-17): Architecture B, by-product match, PFC=Lawyer,
+  v2.0 (2026-05-17): Compilable Architecture, by-product match, PFC=Lawyer,
   Compiled/Fresh gratitude, 2-tầng calibration, Domain=Arbiter.
-  Entity-Compiled reframe. F1/F2 label fix. All version refs updated.
-status: OBSERVATION PARAMETER v2.0
+  Entity-Compiled reframe. Compiled/Fresh label fix. All version refs updated.
+status: OBSERVATION PARAMETER v2.1
 scope: |
   OBSERVATION FILE: Gratitude = named pattern khi quan sát NET POSITIVE
   valence response toward AGENT-source sau khi body-base THẬT SỰ reward
@@ -24,7 +25,7 @@ scope: |
     ⑦ CONNECTION MAINTENANCE function (❸ reinforce + lateral + O(1) collective)
     ⑧ CASES phân tích đa dạng
   v2.0 KEY CHANGE (từ v1.1):
-    ⑨ Architecture B: gratitude = emergent từ general-purpose system, KHÔNG module riêng
+    ⑨ Compilable Architecture: gratitude = emergent từ general-purpose system, KHÔNG module riêng
     ⑩ By-product match: gratitude fire khi NHẬN by-product từ agent's gap-filling action
     ⑪ PFC=Lawyer: "cảm ơn xã giao" = PFC narrative, body KHÔNG fire
     ⑫ Compiled/Fresh gratitude: compiled (auto, cost≈0) vs fresh (genuine, cost CAO)
@@ -47,16 +48,16 @@ position: |
   ĐẶC BIỆT: Gratitude ở TẦNG CAO NHẤT — tích hợp Empathy + Connection
   + Status + Autonomy + body-feedback reward + Valence Propagation.
 dependencies:
-  - Inter-Body-Mechanism.md v1.0 — Architecture B, by-product match §5.4, PFC=Lawyer §7, 3-cost §4, Domain=Arbiter §6.4
+  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, by-product match §5.4, PFC=Lawyer §7, 3-cost §4, Domain=Arbiter §6.4
   - Body-Feedback-Label.md v2.0 — vocabulary reference, prediction-delta, Entity-Compiled
   - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
   - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, §5 Quality Baseline Shift, SNC
   - Body-Feedback/03-Reward.md — VTA 7-step, H10 5 preconditions, opioid vs dopamine
   - Chunk.md v2.0 — chunk substrate, compilation, Hebbian LTP
-  - Agent-Mechanism.md — SPM mechanism, §12 body-need feeder, agents as external tools
-  - Self-Pattern-Match.md v3.0 — F1 Compiled/F2 Fresh, context-dependent, PFC=Lawyer §3.7
+  - Agent-Mechanism.md — Self-Pattern-Modeling mechanism, §12 body-need feeder, agents as external tools
+  - Self-Pattern-Modeling.md v3.0 — Compiled/Fresh, context-dependent, PFC=Lawyer §3.7
   - Connection.md v4.0 — 3 Generative Primitives, 2-Stream, 8 pathways, ④ giving reward
-  - Empathy.md v3.0 — SPM F1 + ❸ positive, 2-luồng, by-product match, PFC=Lawyer
+  - Empathy.md v3.0 — Self-Pattern-Modeling Compiled + ❸ positive, 2-luồng, by-product match, PFC=Lawyer
   - Valence-Propagation.md v2.0 — per-entity valence, chain propagation, §2 Body-Base Extension, §7 PFC Blindness
   - Status.md v2.0 — Resource Access Map, §4 3 modes (Lấy/Trao đổi/Comply)
   - Protect.md v1.0 — ownership chunks, loss aversion
@@ -144,21 +145,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Boredom (dissonance + Imagine-Final unclear)
     → = 1 mechanism → 1 observation
 
-  TẦNG 3 — Social observation (SPM required):
+  TẦNG 3 — Social observation (Self-Pattern-Modeling required):
     → Status (Resource Access Map)
-    → Connection (❶ hardware + ❷ SPM engage agents)
+    → Connection (❶ hardware + ❷ Self-Pattern-Modeling engage agents)
     → Protect (ownership + loss aversion)
-    → = CẦN SPM → agent-aware
+    → = CẦN Self-Pattern-Modeling → agent-aware
 
   TẦNG 4 — Integrative observation (multiple sub-systems):
-    → Empathy (SPM F1 + ❸ positive → simulate other)
+    → Empathy (Self-Pattern-Modeling Compiled + ❸ positive → simulate other)
     → Meaning (life-level Anchor-Schema ổn định — v2.0)
     → Autonomy (efference copy + controllability)
     → = CẦN nhiều sub-systems → integration
 
   TẦNG 5 — ⭐ GRATITUDE (FILE NÀY):
     → CẦN: body-base reward THẬT + PFC comparison + source attribution
-      + SPM empathy + entity-compiled check + obligation assessment
+      + Self-Pattern-Modeling empathy + entity-compiled check + obligation assessment
       + autonomy check + ❸ valence update
     → = 9 components từ 9+ mechanism files
     → = TÍCH HỢP gần TOÀN BỘ framework
@@ -169,7 +170,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Empathy cần 4 components → Empathy emerge:
       ① Chunk substrate (self-chunks)
-      ② SPM F1 fire on target
+      ② Self-Pattern-Modeling Compiled fire on target
       ③ ❸ positive valence
       ④ Body respond bản sao yếu
 
@@ -178,7 +179,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ② Agent detection (source is agent, not object)
       ③ PFC Comparison (hold "có" vs "không có")
       ④ Source Attribution (reward → source → agent)
-      ⑤ SPM Empathy (simulate giver's effort/sacrifice)
+      ⑤ Self-Pattern-Modeling Empathy (simulate giver's effort/sacrifice)
       ⑥ Entity-Compiled check (L2: giver = body-base extension?)
       ⑦ Obligation assessment (debt threat level)
       ⑧ Autonomy check (nhận tự nguyện?)
@@ -192,13 +193,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   GRATITUDE CHỈ CHẠY TRÊN AGENT-ENTITY:
 
     Object (bàn, dao, xe):
-      → KHÔNG có SPM fire → KHÔNG có effort detection
-      → KHÔNG có entity-compiled dimension (VP §2)
+      → KHÔNG có Self-Pattern-Modeling fire → KHÔNG có effort detection
+      → KHÔNG có entity-compiled dimension (Valence-Propagation §2)
       → KHÔNG có reciprocity possible
       → → Gratitude KHÔNG fire cho object
 
     Agent THẬT (bố mẹ, bạn, người lạ):
-      → SPM fire → effort detection CÓ
+      → Self-Pattern-Modeling fire → effort detection CÓ
       → Entity-Compiled CÓ THỂ compile
       → Reciprocity possible
       → → Gratitude CÓ THỂ fire
@@ -210,7 +211,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → → Gratitude fire nhưng qua virtual agent mechanism
 
     → Gratitude = AGENT-ONLY observation
-    → = Consistent với VP §2: Body-Base Extension = agent-only dimension
+    → = Consistent với Valence-Propagation §2: Body-Base Extension = agent-only dimension
 
 
   FLOW CHÍNH:
@@ -223,7 +224,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ↓
     Source Attribution: reward → link → agent = source
       ↓
-    SPM F1: simulate agent's effort → empathy
+    Self-Pattern-Modeling Compiled: simulate agent's effort → empathy
       ↓
     Obligation check: debt thấp đủ?
       ↓
@@ -270,7 +271,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ① Body-base THẬT SỰ reward bởi gift (H10 met)
     ② PFC Comparison tạo prediction-delta nhân tạo ("có vs không có")
     ③ Source Attribution link reward → agent
-    ④ SPM simulate giver's effort → empathy
+    ④ Self-Pattern-Modeling simulate giver's effort → empathy
     ⑤ Obligation assessment: debt threat ĐỦ THẤP để net positive
     ⑥ ❸ Valence toward agent += positive
 
@@ -308,29 +309,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Framework: Gratitude = PATTERN từ 9 sub-systems, KHÔNG có circuit riêng
     Bằng chứng:
       → Disable BẤT KỲ 1 component → gratitude BIẾN MẤT
-      → Ví dụ: alexithymia (poor self-chunks) → SPM weak → empathy weak
+      → Ví dụ: alexithymia (poor self-chunks) → Self-Pattern-Modeling weak → empathy weak
         → gratitude GIẢM — nếu module riêng thì self-chunks không liên quan
       → Ví dụ: entitlement (no comparison chunks) → no delta → no gratitude
         — nếu module riêng thì comparison không cần
       → = Gratitude PHÂN RÃ thành components → KHÔNG phải module
 
-    ⭐ ARCHITECTURE B GIẢI THÍCH TẠI SAO KHÔNG CÓ MODULE:
+    ⭐ COMPILABLE ARCHITECTURE GIẢI THÍCH TẠI SAO KHÔNG CÓ MODULE:
       (Inter-Body-Mechanism.md v1.0 §1.2)
 
-      Architecture A (côn trùng): mỗi hành vi = 1 circuit riêng (hardwired)
-      Architecture B (người): general-purpose reward + compilation + social hardware
+      Hardwired Architecture (côn trùng): mỗi hành vi = 1 circuit riêng (hardwired)
+      Compilable Architecture (người): general-purpose reward + compilation + social hardware
         → KHÔNG hardwire content cụ thể — hardwire CHỈ mechanism
 
-      Gratitude = emergent từ Architecture B general-purpose system:
+      Gratitude = emergent từ Compilable Architecture general-purpose system:
         → Reward mechanism (VTA/opioid) = general-purpose → fire cho BẤT KỲ gift
-        → SPM = general-purpose → simulate BẤT KỲ agent
+        → Self-Pattern-Modeling = general-purpose → simulate BẤT KỲ agent
         → PFC comparison = general-purpose → compare BẤT KỲ state
         → 9 components đều là general-purpose → gratitude = pattern EMERGENT
           khi 9 mechanisms tình cờ fire ĐỒNG THỜI
-        → = Không CẦN "gratitude module" — Architecture B tự tạo gratitude
+        → = Không CẦN "gratitude module" — Compilable Architecture tự tạo gratitude
           qua combination của existing mechanisms
 
-      🟡 Architecture B framing = Inter-Body-Mechanism.md v1.0 §1.2
+      🟡 Compilable Architecture framing = Inter-Body-Mechanism.md v1.0 §1.2
 
   ❌ REJECTION 2 — Gratitude = automatic khi nhận gift:
 
@@ -383,7 +384,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Detect agent-source (Agent-Mechanism)
       → Hold "có" vs "không có" (PFC-Hold-Dimensions)
       → Link reward → source → agent (Valence-Propagation)
-      → Simulate giver's effort (Self-Pattern-Match F1)
+      → Simulate giver's effort (Self-Pattern-Modeling Compiled)
       → Check giver = body-base extension? (Valence-Propagation §2)
       → Assess debt level (Status exchange + Threat)
       → Check voluntary receiving (Autonomy-Hardware)
@@ -416,7 +417,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → by-product: con được ăn, được bảo vệ, được dạy
       → match gap CỦA A (con): body-base reward THẬT
       → A detect source = B (source attribution)
-      → A simulate B's effort (SPM empathy)
+      → A simulate B's effort (Self-Pattern-Modeling empathy)
       → ❸ toward B += positive
       → = GRATITUDE toward mẹ
 
@@ -442,7 +443,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        ① Body-base reward = by-product match A's gap
        ② Agent detection = detect B as source of by-product
        ④ Source attribution = link by-product → B
-       ⑤ SPM empathy = simulate B's gap-filling effort
+       ⑤ Self-Pattern-Modeling empathy = simulate B's gap-filling effort
        → By-product match = UNIFIED lens cho 4/9 prerequisites
 
   🟡 By-product match as gratitude lens = Inter-Body-Mechanism.md v1.0 §5.4
@@ -462,7 +463,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Thiếu ① body-base reward → "biết là tốt nhưng không feel" (PFC only)
     → Thiếu ③ comparison → habituated → invisible → no gratitude
     → Thiếu ④ source attribution → reward nhưng không biết nhờ ai → no target
-    → Thiếu ⑤ SPM empathy → không detect effort → shallow gratitude
+    → Thiếu ⑤ Self-Pattern-Modeling empathy → không detect effort → shallow gratitude
     → Thiếu ⑦ obligation thấp → debt > gratitude → MIXED → anxiety
     → Thiếu ⑧ autonomy → bị ÉP nhận → resentment thay vì gratitude
 ```
@@ -483,7 +484,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   KHI H10 MET:
     → Body-base opioid release → reward THẬT
-    → PFC observe: "sướng" → downstream components CÓ THỂ fire
+    → PFC observe: "pleasant" → downstream components CÓ THỂ fire
 
   KHI H10 FAIL:
     → Body-base "meh" → no opioid → PFC có thể BIẾT gift có giá trị
@@ -521,7 +522,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   (Valence-Propagation.md §2 — Agent vs Object valence)
 
   Gratitude cần SOURCE có:
-    → SPM fire được (agent → phi logic → cần model)
+    → Self-Pattern-Modeling fire được (agent → phi logic → cần model)
     → Effort detection (agent CHỌN cho, KHÔNG phải tự nhiên có)
     → Bidirectional potential (agent CÓ THỂ reciprocate)
     → Entity-Compiled dimension (agent CÓ THỂ = body-base extension)
@@ -531,8 +532,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Cây cho quả → ăn ngon → valence positive → gratitude? KHÔNG (trừ PFC project agency).
 
   Agent THẬT:
-    → Bố mẹ cho ăn = agent → SPM fire → effort detect → gratitude POSSIBLE
-    → Người lạ cho tiền = agent → SPM fire → gratitude POSSIBLE
+    → Bố mẹ cho ăn = agent → Self-Pattern-Modeling fire → effort detect → gratitude POSSIBLE
+    → Người lạ cho tiền = agent → Self-Pattern-Modeling fire → gratitude POSSIBLE
 
   Agent VIRTUAL:
     → "Cảm ơn Chúa" = PFC project agency lên abstract → Schema Simulation
@@ -540,7 +541,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Body CÓ THỂ respond (Schema Simulation Mode 1/2 — Empathy.md §2.4)
     → NHƯNG: fidelity THẤP hơn agent thật (no real feedback loop)
 
-  🟡 Agent-only restriction = derived từ VP §2 (Body-Base Extension = agent-only)
+  🟡 Agent-only restriction = derived từ Valence-Propagation §2 (Body-Base Extension = agent-only)
 ```
 
 ### §2.3 — ③ PFC Quality Comparison
@@ -614,61 +615,61 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   KHI THIẾU ATTRIBUTION:
     → Body-base reward nhận → but ❸ KHÔNG update toward anyone
-    → = "Sướng nhưng không biết nhờ ai" → no gratitude, just pleasure
+    → = "Pleasant nhưng không biết nhờ ai" → no gratitude, just pleasure
     → = Oxy: reward KHÔNG CÓ → và dù có cũng KHÔNG có source attribution
 
   🟡 Source attribution as gratitude prerequisite = framework synthesis
   🟢 Backward propagation: Schultz 1997 (reward prediction propagates backward)
 ```
 
-### §2.5 — ⑤ SPM Empathy (simulate giver's effort)
+### §2.5 — ⑤ Self-Pattern-Modeling Empathy (simulate giver's effort)
 
 ```
-⭐ PREREQUISITE 5: SPM F1 SIMULATE GIVER'S STATE → EMPATHY
+⭐ PREREQUISITE 5: Self-Pattern-Modeling Compiled SIMULATE GIVER'S STATE → EMPATHY
 
-  (Self-Pattern-Match.md v3.0 §2 — F1 Compiled + F2 Fresh)
+  (Self-Pattern-Modeling.md v3.0 §2 — Compiled + Fresh)
 
-  Gratitude DEEPENS khi SPM F1 (Compiled) fire empathic on giver:
-    → F1 simulate: "giver ĐANG FEEL gì khi cho?"
+  Gratitude DEEPENS khi Self-Pattern-Modeling Compiled fire empathic on giver:
+    → Compiled simulate: "giver ĐANG FEEL gì khi cho?"
     → Body fire bản sao yếu giver's state → empathy
-    → "Bố mẹ VẤT VẢ kiếm tiền cho tôi" = SPM simulate vất vả
+    → "Bố mẹ VẤT VẢ kiếm tiền cho tôi" = Self-Pattern-Modeling simulate vất vả
       → body mình fire nhẹ "vất vả" → BIẾT cost → gratitude SÂUTHÊM
 
   EMPATHY AMPLIFY GRATITUDE:
     → Source attribution biết "từ ai" (④)
-    → SPM empathy biết "TỐN BAO NHIÊU cho ai đó" → DEPTH
+    → Self-Pattern-Modeling empathy biết "TỐN BAO NHIÊU cho ai đó" → DEPTH
     → = ④ + ⑤ compound → gratitude SÂU hơn chỉ có ④
 
-  KHI SPM THIẾU:
+  KHI Self-Pattern-Modeling THIẾU:
     → Biết source (④) nhưng KHÔNG simulate effort → shallow gratitude
     → = "Cảm ơn" nhưng không thật sự FEEL → auto/xã giao
     → = Trẻ nói "cảm ơn bố mẹ" vì DẠY nói vậy,
       nhưng CHƯA simulate effort → shallow
 
   DEVELOPMENTAL:
-    → SPM F1 online ~18-24 tháng (Empathy.md §2.3)
+    → Self-Pattern-Modeling Compiled online ~18-24 tháng (Empathy.md §2.3)
     → Trước đó: gratitude KHÔNG THỂ fire ở level sâu
     → Sau đó: quality phụ thuộc chunk library
 
   🟢 Bird & Cook 2013: alexithymia → empathy deficit → gratitude likely impaired
-  🟡 SPM empathy amplifies gratitude = framework inference
+  🟡 Self-Pattern-Modeling empathy amplifies gratitude = framework inference
 
 
   ⭐ COMPILED VS FRESH GRATITUDE:
     (Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh = Real Axis)
-    (Self-Pattern-Match.md v3.0 §2 — F1 Compiled + F2 Fresh)
+    (Self-Pattern-Modeling.md v3.0 §2 — Compiled + Fresh)
 
     Trục THẬT = compilation level, KHÔNG phải content type:
 
-    F1 COMPILED GRATITUDE (auto, body-direct, cost ≈ 0):
-      → SPM F1 fire empathic on familiar giver → INSTANT, AUTOMATIC
+    Compiled COMPILED GRATITUDE (auto, body-direct, cost ≈ 0):
+      → Self-Pattern-Modeling Compiled fire empathic on familiar giver → INSTANT, AUTOMATIC
       → "Mẹ nấu cơm → body fire gratitude NGAY" (nếu chunks đủ)
       → Cost thấp → SUSTAINABLE → có thể fire 5-20x/ngày
       → = Expert gratitude: practiced nhiều lần → chunks compiled
       → = Tại sao người hay cảm ơn → THOẢI MÁI (không tốn resource)
 
-    F2 FRESH GRATITUDE (PFC draft, deliberate, cost > 0):
-      → SPM F2 chain predict giver's state → CHẬM, TỐN RESOURCE
+    Fresh FRESH GRATITUDE (PFC draft, deliberate, cost > 0):
+      → Self-Pattern-Modeling Fresh chain predict giver's state → CHẬM, TỐN RESOURCE
       → "Người lạ giúp → PFC phải DRAFT: họ là ai? động cơ gì? tốn gì?"
       → Cost cao → 3-cost model áp dụng:
         ①PFC draft: chain predict stranger's context
@@ -806,7 +807,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Nhiều lần: ❸ compile SÂU (fully compiled)
     → = Gratitude lặp lại → ❸ BUILD → entity-compiled emerge → connection DEEP
 
-  🟡 ❸ update as gratitude outcome = consistent with VP §3
+  🟡 ❸ update as gratitude outcome = consistent with Valence-Propagation §3
 ```
 
 ### §2.10 — SYNTHESIS: 9 Components → 5 Functional Chains
@@ -837,7 +838,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │      │                      │                │ reward → check L2 depth │
   │      │                      │                │ → update ❸ toward agent │
   ├──────┼──────────────────────┼────────────────┼──────────────────────────┤
-  │  4   │ COST ASSESSMENT      │ ⑤ → ⑦         │ SPM simulate giver →    │
+  │  4   │ COST ASSESSMENT      │ ⑤ → ⑦         │ Self-Pattern-Modeling simulate giver →    │
   │      │                      │                │ body-feedback cost →     │
   │      │                      │                │ obligation predict       │
   ├──────┼──────────────────────┼────────────────┼──────────────────────────┤
@@ -847,18 +848,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └──────┴──────────────────────┴────────────────┴──────────────────────────┘
 
 
-  ⭐ ⑤ SPM = CROSS-FEEDER (feed 2 chains):
+  ⭐ ⑤ Self-Pattern-Modeling = CROSS-FEEDER (feed 2 chains):
 
-    ⑤ SPM simulate giver's state → body-feedback:
+    ⑤ Self-Pattern-Modeling simulate giver's state → body-feedback:
 
            ┌→ Chain 4: ⑦ Obligation (cost prediction)
            │   "họ cho mà mặt nặng" → cost cao → obligation predict CAO
-    ⑤ SPM ─┤
+    ⑤ Self-Pattern-Modeling ─┤
            └→ Chain 3: ④ Effort detection (amplify ❸ update)
                "họ cho vui vẻ" → mirror reward → ❸ positive MẠNH hơn
 
-    = SPM là TOOL chung — output feed CẢ obligation LẪN gratitude depth.
-    = Tại sao alexithymia (SPM yếu) → gratitude SHALLOW + obligation INACCURATE.
+    = Self-Pattern-Modeling là TOOL chung — output feed CẢ obligation LẪN gratitude depth.
+    = Tại sao alexithymia (Self-Pattern-Modeling yếu) → gratitude SHALLOW + obligation INACCURATE.
 
 
   ⭐ ③ PFC COMPARISON = CROSS-FEEDER THỨ 2 (feed 3 hướng):
@@ -886,7 +887,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ ④ CHỨA 3 SUB-CHUNKS — LIÊN QUAN ⑤ VÀ ⑧ NHƯNG KHÁC:
 
     ④.② Effort Detection: BIẾT cost (cognitive — "bố mẹ vất vả kiếm tiền")
-    ⑤ SPM Empathy:       FEEL cost (embodied — body fire nhẹ "vất vả")
+    ⑤ Self-Pattern-Modeling Empathy:       FEEL cost (embodied — body fire nhẹ "vất vả")
     → Cùng thông tin, khác mechanism: knowing vs feeling.
 
     ④.③ Choice Detection: GIVER chọn cho ("họ MUỐN giúp tôi")
@@ -950,7 +951,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   (03-Reward.md §2.8 — Each loop raises baseline)
 
   CƠ CHẾ:
-    Gift lần đầu → VTA fire delta → opioid → reward → "sướng"
+    Gift lần đầu → VTA fire delta → opioid → reward → "pleasant"
     Gift lần 2-10 → VTA dần habituate → reward GIẢM
     Gift lần 50-100+ → VTA habituate hoàn toàn → gift = baseline = INVISIBLE
     Mất gift → actual < compiled baseline → SNC → "giận" thay vì "biết ơn"
@@ -1204,7 +1205,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Gift Valence = Body-base Feed
                  × Comparison delta
                  × Source Attribution
-                 × SPM Empathy
+                 × Self-Pattern-Modeling Empathy
                  × (1 / Obligation threat)
                  × Autonomy preservation
 
@@ -1238,7 +1239,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ (vô điều kiện) │          │ (vô điều     │ (tùy family) │ GRATITUDE    │
   │                 │          │ kiện)        │              │ (nếu chunks  │
   │                 │          │              │              │ comparison   │
-  │                 │          │              │              │ + SPM có)    │
+  │                 │          │              │              │ + Self-Pattern-Modeling có)    │
   ├─────────────────┼──────────┼──────────────┼──────────────┼──────────────┤
   │ Mượn tiền       │ +++      │ Bounded      │ Giảm tạm    │ MIXED        │
   │ (rõ ràng)       │          │ (trả = xong) │              │ (ok)         │
@@ -1294,7 +1295,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     TYPE 3 (ân tình) = NẶNG NHẤT (implicit + unbounded + Internal-Predict)
 
   3 cơ chế độc lập tương tác:
-    Obligation (PFC prediction) + L2 buffer (compiled valence) + SPM (input)
+    Obligation (PFC prediction) + L2 buffer (compiled valence) + Self-Pattern-Modeling (input)
     → Net burden = Obligation_predicted − L2_buffer
 
   Key insight: Tiền = obligation technology (4 functions).
@@ -1327,8 +1328,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     "Tôi biết ơn = tôi là người biết ơn" → identity schema confirm → opioid
     → Schema align behavior → Anchor-Schema satisfy → coherence → reward
 
-  ④ SPM EMPATHY ACTIVATE → MIRROR REWARD:
-    "Cảm ơn" → PFC think about giver → SPM F1 fire empathic →
+  ④ Self-Pattern-Modeling EMPATHY ACTIVATE → MIRROR REWARD:
+    "Cảm ơn" → PFC think about giver → Self-Pattern-Modeling Compiled fire empathic →
     → Body simulate giver's effort → mirror reward nhẹ (opioid)
     → = Connection pathway ① mirror reward fire
 
@@ -1358,7 +1359,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   "CẢM ƠN" THẬT:
     → PFC DELIBERATE engage → hold "có vs không có" → comparison fire
-    → SPM fire empathic on giver → detect effort
+    → Self-Pattern-Modeling fire empathic on giver → detect effort
     → Source attribution active → ❸ update
     → Body-base effect: 5 chains fire → reward THẬT
 
@@ -1622,7 +1623,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   POSITIVE LATERAL PROPAGATION (chậm hơn negative nhưng CÙNG cơ chế):
     → Cần NHIỀU experience positive hơn để generalize
     → NHƯNG khi đã generalize → default approach → sẵn sàng giúp → pay it forward
-    → = "Positive childhood → default trust người lạ" (VP §4 ③ F3)
+    → = "Positive childhood → default trust người lạ" (Valence-Propagation §4 ③ F3)
 
   🟢 Stimulus generalization: Pavlov, Watson
   🟢 Overgeneralization in anxiety: Dunsmoor & Murphy 2015
@@ -1671,7 +1672,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Person A: body thoải mái trong cộng đồng → collective ❸ compiled
     → A niềm nở, thân thiện, tươi cười
-    → Agent B, C, D,... gặp A: "người này dễ chịu" → approach
+    → Agent B, C, D,... gặp A: "người này comfortable" → approach
     → B, C, D thân thiện lại → A body reward → collective ❸ ↑
     → A càng niềm nở → ... → LOOP TỰ DUY TRÌ
 
@@ -1713,7 +1714,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     → = Agent-Mechanism §12.5 (collective agents feeding need)
       + Obligation §9.2 (O(1) tracking)
-      + VP §4 ③ (lateral propagation)
+      + Valence-Propagation §4 ③ (lateral propagation)
       — nhìn từ phía GRATITUDE
 
   🟡 Gratitude O(1) = framework synthesis (parallel to established Obligation O(1))
@@ -1734,7 +1735,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CASE 1 — NHÀ GIÀU, MUỐN GÌ BỐ MUA:
     Baseline: "muốn → được" = compiled (100+ lần)
     Comparison chunks: THIẾU (chưa thấy ai không có)
-    SPM empathy: THIẾU (không simulate bố vất vả)
+    Self-Pattern-Modeling empathy: THIẾU (không simulate bố vất vả)
     Source attribution: bố = TOOL (object valence)
     → Gratitude: ZERO → Entitlement
     → Mất gift: SNC → GIẬN (cậu bé kẹo mechanism)
@@ -1742,15 +1743,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CASE 2 — NHÀ GIÀU, BỐ MẸ RÈN CẨN THẬN:
     Baseline: vẫn cao nhưng bố mẹ CỐ TÌNH tạo comparison
     Comparison chunks: CÓ ("gia đình mình khác nhiều người")
-    SPM empathy: CÓ ("bố mẹ chăm chỉ làm việc")
+    Self-Pattern-Modeling empathy: CÓ ("bố mẹ chăm chỉ làm việc")
     Source attribution: bố mẹ = source of privilege
-    → Gratitude: CÓ — vì comparison + SPM + attribution ĐỦ
+    → Gratitude: CÓ — vì comparison + Self-Pattern-Modeling + attribution ĐỦ
     → = Bố mẹ "rèn" = INSTALL comparison chunks cho con
 
   CASE 3 — NHÀ NGHÈO, CHIỀU CHUỘNG:
     Baseline: "muốn (trong khả năng) → được" = compiled
     Comparison chunks: THIẾU (bố mẹ che chắn → con không biết khó khăn)
-    SPM empathy: THIẾU (không thấy bố mẹ khó → không simulate)
+    Self-Pattern-Modeling empathy: THIẾU (không thấy bố mẹ khó → không simulate)
     → Giống Case 1 nhưng ở mức resource thấp hơn
     → Đòi xe máy → bố mẹ từ chối → SNC (baseline violated) → GIẬN
     → = Crespi SNC mechanism, KHÔNG phải "hư" — là chunk dynamics
@@ -1758,7 +1759,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CASE 4 — NHÀ NGHÈO, THẤY BỐ MẸ VẤT VẢ:
     Baseline: thấp nhưng BIẾT là thấp
     Comparison chunks: CÓ ("nhiều bạn có hơn mình")
-    SPM empathy: CÓ (thấy bố mẹ chần chừ khi xin tiền → simulate effort)
+    Self-Pattern-Modeling empathy: CÓ (thấy bố mẹ chần chừ khi xin tiền → simulate effort)
     Source attribution: CÓ ("tiền đóng học = bố mẹ vất vả")
     Effort detection: CÓ (mỗi lần xin → body detect cost)
     → Gratitude: SÂU — 4 loại chunks ĐỦ
@@ -1770,7 +1771,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Chunk type             │ Case 1 │ Case 2 │ Case 3 │ Case 4 │
     ├────────────────────────┼────────┼────────┼────────┼────────┤
     │ Comparison             │ THIẾU  │ CÓ     │ THIẾU  │ CÓ     │
-    │ SPM empathy            │ THIẾU  │ CÓ     │ THIẾU  │ CÓ     │
+    │ Self-Pattern-Modeling empathy            │ THIẾU  │ CÓ     │ THIẾU  │ CÓ     │
     │ Source attribution     │ YẾU    │ CÓ     │ YẾU    │ CÓ     │
     │ Effort detection       │ THIẾU  │ CÓ     │ THIẾU  │ CÓ     │
     ├────────────────────────┼────────┼────────┼────────┼────────┤
@@ -1825,7 +1826,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Entitlement KHÔNG phải "tính xấu" — là CHUNK DYNAMICS:
     → Gift liên tục → baseline shift → invisible (Chunk-Miss §3.2)
     → + THIẾU comparison chunks → no delta → no reward → no gratitude
-    → + THIẾU SPM empathy → no effort detection → no depth
+    → + THIẾU Self-Pattern-Modeling empathy → no effort detection → no depth
     → + THIẾU source attribution → source invisible → no ❸ update
     → + THIẾU effort detection → cost of gift unknown → no appreciation
 
@@ -1867,34 +1868,34 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   0-6 tháng: KHÔNG CÓ gratitude
     → ❶ Hardware drive có (body CẦN care)
-    → NHƯNG: PFC chưa đủ → no comparison → no attribution → no SPM
+    → NHƯNG: PFC chưa đủ → no comparison → no attribution → no Self-Pattern-Modeling
     → Body respond to care (cortisol ↓) nhưng KHÔNG phải gratitude
-    → = Connection Tầng A (❶ hardware alone)
+    → = Connection Tầng Hardware (❶ hardware alone)
 
   6-18 tháng: PROTO-gratitude?
     → Social referencing sơ khai → transition
     → Instrumental helping 14-18m (Warneken 2006) → NHƯNG reciprocity primitive
-    → CHƯA PHẢI gratitude — chưa có comparison, chưa có SPM full
+    → CHƯA PHẢI gratitude — chưa có comparison, chưa có Self-Pattern-Modeling full
 
   18-24 tháng: EARLIEST POSSIBLE
-    → Rouge test pass → self-other distinction → SPM F1 POSSIBLE
+    → Rouge test pass → self-other distinction → Self-Pattern-Modeling Compiled POSSIBLE
     → NHƯNG: comparison chunks RẤT ÍT → gratitude rất primitive
     → "Nói cảm ơn" = TAUGHT behavior, không phải gratitude thật
 
   3-7 tuổi: BUILDING
-    → SPM expand → detect effort DẦN
+    → Self-Pattern-Modeling expand → detect effort DẦN
     → Comparison chunks bắt đầu compile (trường học → thấy bạn khác)
     → Source attribution bắt đầu ("mẹ cho" → biết source)
     → NHƯNG: PFC chưa mature → hold chưa mạnh → comparison YẾU
 
   7+ tuổi: POSSIBLE FULL
     → PFC đủ → hold 2 states → comparison MẠNH
-    → SPM mature → simulate effort CHÍNH XÁC
+    → Self-Pattern-Modeling mature → simulate effort CHÍNH XÁC
     → Chunk library đủ → comparison + attribution + effort ĐỒNG THỜI
     → = Gratitude FULL CÓ THỂ fire
 
   ADULT: VARIES BY CHUNK LIBRARY
-    → 4 loại chunks (comparison, SPM, source, effort) = key differentiator
+    → 4 loại chunks (comparison, Self-Pattern-Modeling, source, effort) = key differentiator
     → Adult có chunks → gratitude CÓ
     → Adult thiếu chunks → entitlement (Case 1/3)
     → = TRAINABLE suốt đời
@@ -1952,6 +1953,38 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Đường 2a/2b interaction patterns = framework inference
 ```
 
+### §9.4 — × New Concepts (28-session Drill Propagation)
+
+```
+BOND-ARCHITECTURE × GRATITUDE (Bond-Architecture.md v1.0):
+  → Gratitude = bond-STRENGTHENING signal:
+    Proximity bond: gratitude cho "ở đây" → reinforce safe base
+    Shared-Experience bond: gratitude cho "cùng trải qua" → reinforce partnership
+    Reciprocal bond: gratitude cho "giúp đỡ" → reinforce exchange
+    Identity bond: gratitude cho "thuộc về" → reinforce group membership
+  → Mỗi bond type → khác gratitude expression + khác impact
+  → Gratitude MẠNH nhất khi match bond type (VD: reciprocal bond + reciprocal gift)
+
+BY-PRODUCT-SCALE × GRATITUDE (By-Product-Scale.md v1.0):
+  → Gratitude across 3 scales:
+    PAIR: gratitude per-person → intimate, specific, repeated
+    HUB: gratitude in group → "cảm ơn team" → distribute, dilute
+    INSTITUTIONAL: gratitude collective → "cảm ơn quốc gia" → abstract, ritual
+  → Type C collective gratitude (§6.3) = institutional scale
+  → O(1) maintenance (§7.3) = scales DIFFERENTLY at each level
+
+RESONANCE-SUSTAINABILITY × GRATITUDE (Resonance-Sustainability.md v1.0):
+  → Gratitude SUSTAINABILITY = anti-habituation problem:
+    4-layer check: neurochemical (opioid still fires?), behavioral (still express?),
+    cognitive (still meaningful?), contextual (still valued by receiver?)
+  → §3 anti-habituation mechanisms = Resonance-Sustainability at gratitude level
+  → Gratitude erodes when ANY layer fails → relationship MAINTENANCE declines
+
+🟡 Bond-Architecture × gratitude = framework application
+🟡 By-Product-Scale × gratitude = framework application (3 scales)
+🟡 Resonance-Sustainability × gratitude = framework convergence (anti-habituation)
+```
+
 ---
 
 ## §10 — HONEST ASSESSMENT
@@ -1993,8 +2026,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟡 "Connection maintenance function" — evolutionary inference
     🟡 "Comparison as PFC anti-habituation tool" — framework synthesis
     🟡 "Baseline shift conditions" — derived từ established SNC + habituation research
-    🟡 "Agent-only restriction" — derived từ VP §2 Body-Base Extension
-    🟡 "4 chunk types as differentiator" (comparison, SPM, source, effort) — framework
+    🟡 "Agent-only restriction" — derived từ Valence-Propagation §2 Body-Base Extension
+    🟡 "4 chunk types as differentiator" (comparison, Self-Pattern-Modeling, source, effort) — framework
     🟡 "Gratitude developmental timeline" — inferred from component development
     🟡 "Type C: Collective Gratitude" — 3-type spectrum (xã giao/collective/thật),
        source attribution → collective khi agent fungible, behavioral shift vô thức
@@ -2003,7 +2036,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟡 "9 → 5 functional chains" — component view vs chain view
     🟡 "2 cross-feeders" — ③ (value assessment) + ⑤ (empathy), both feed Chain 3+4
     🟡 "Cross-channel exploitation" (① YES + ⑧ NO) — feed channel A to extract B,C,D
-    🟡 "Architecture B → no gratitude module" — general-purpose system produces gratitude emergently
+    🟡 "Compilable Architecture → no gratitude module" — general-purpose system produces gratitude emergently
     🟡 "By-product match as gratitude lens" — gratitude fire khi nhận by-product from agent's gap-filling
     🟡 "PFC=Lawyer × gratitude" — fabricate/suppress/amplify gratitude narrative
     🟡 "Domain=Arbiter × gratitude" — gratitude can be wrong (manipulator, harmful gift)
@@ -2076,11 +2109,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   MECHANISM FILES:
-    → Inter-Body-Mechanism.md v1.0 — Architecture B §1.2, by-product match §5.4,
+    → Inter-Body-Mechanism.md v1.0 — Compilable Architecture §1.2, by-product match §5.4,
       PFC=Lawyer §7, 3-cost §4, Domain=Arbiter §6.4 (SOURCE for v2.0 new concepts)
     → Body-Feedback-Label.md v2.0 — vocabulary reference, prediction-delta, Entity-Compiled
-    → Agent-Mechanism.md — SPM mechanism, §12 body-need feeder
-    → Self-Pattern-Match.md v3.0 — F1 Compiled/F2 Fresh, context-dependent, PFC=Lawyer §3.7
+    → Agent-Mechanism.md — Self-Pattern-Modeling mechanism, §12 body-need feeder
+    → Self-Pattern-Modeling.md v3.0 — Compiled/Fresh, context-dependent, PFC=Lawyer §3.7
     → Chunk.md v2.0 — chunk substrate, compilation
     → Body-Feedback-Mechanism.md — Chunk-Miss (SNC), §5 Baseline Shift
     → Body-Feedback/03-Reward.md — H10 5 preconditions, VTA 7-step
@@ -2094,7 +2127,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   OBSERVATION FILES (cùng folder):
     → Connection.md v4.0 — 3 Generative Primitives, 2-Stream, 8 pathways, ④ giving reward
-    → Empathy.md v3.0 — SPM F1 + ❸ positive, 2-luồng, by-product match, PFC=Lawyer
+    → Empathy.md v3.0 — Self-Pattern-Modeling Compiled + ❸ positive, 2-luồng, by-product match, PFC=Lawyer
     → Status.md v2.0 — Resource Access Map, §4 3 modes
     → Protect.md v1.0 — ownership chunks, loss aversion
     → Autonomy-Hardware.md — efference copy, self-action = reward
@@ -2120,15 +2153,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   STATUS:
     → v1.0 → v1.1 REFINED — thêm §6.4 Type C + §7.3 Gratitude O(1)
     → v1.1 → v2.0 MAJOR REFINE (2026-05-17) — Inter-Body drill integration:
-      • +Architecture B: gratitude = emergent từ general-purpose system (§1.2)
+      • +Compilable Architecture: gratitude = emergent từ general-purpose system (§1.2)
       • +By-product match: gratitude = response khi nhận by-product (NEW §1.4)
       • +PFC=Lawyer × gratitude: fabricate/suppress/amplify (§6.2 enriched)
       • +Domain=Arbiter × gratitude: can be wrong (§6.2 enriched)
       • +Compiled/Fresh gratitude: auto vs deliberate (§2.5 enriched)
       • +2-tầng calibration: Darwinian + Đường 2a/2b (NEW §9.1)
       • Entity-Compiled reframe (replace_all entity-owned)
-      • F1/F2 label fix (§2.5: v2.1 F1 Feeling → v3.0 F1 Compiled)
-      • All version refs updated (SPM v3.0, Connection v4.0, Empathy v3.0, VP v2.0, etc.)
+      • Compiled/Fresh label fix (§2.5: v2.1 Compiled Feeling → v3.0 Compiled)
+      • All version refs updated (Self-Pattern-Modeling v3.0, Connection v4.0, Empathy v3.0, Valence-Propagation v2.0, etc.)
       • +Inter-Body-Mechanism.md v1.0, +Body-Feedback-Label.md v2.0 dependencies
       • +7 new 🟡 Honest Assessment items
     → NEW observation parameter bổ sung Core v7.8 §8
@@ -2143,7 +2176,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ⑧ "Obligation = planned observation parameter" (→ COMPLETE)
       ⑨ "Type C: Collective Gratitude" (bay vào không khí → collective ❸ build)
       ⑩ "Gratitude O(1)" (parallel Obligation O(1), self-sustaining community loop)
-      ⑪ "Architecture B → no gratitude module" (v2.0 NEW)
+      ⑪ "Compilable Architecture → no gratitude module" (v2.0 NEW)
       ⑫ "By-product match as gratitude lens" (v2.0 NEW)
       ⑬ "PFC=Lawyer + Domain=Arbiter × gratitude" (v2.0 NEW)
 ```

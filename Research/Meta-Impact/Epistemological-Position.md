@@ -514,7 +514,7 @@ TẠI SAO KHÔNG AI TỰ LÀM ĐƯỢC:
     → Body-Feedback.md — unified body signal model
     → PFC-Hardware.md — hardware variants
     → Observation/ folder — observation parameters
-    → Self-Pattern-Match.md — SPM F1/F2
+    → Self-Pattern-Modeling.md — Self-Pattern-Modeling Compiled/Fresh
     → Valence-Propagation.md — valence chain
     → Why-Body-Knows.md — tại sao body check có cơ sở
 

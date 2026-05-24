@@ -95,7 +95,7 @@ BỘ 4 FILES — PHÁT TRIỂN TRẺ 0-6:
   Skill-Introduction.md v2.0    → Song song: bố mẹ GIỚI THIỆU kỹ năng (đúng lúc)
        [FILE NÀY]
   Child-Development-Mechanism.md → CƠ CHẾ v7.8: giải thích TẠI SAO
-       (PFC Reframe, Approach/Avoidance Tags, Chunk Dynamics, SPM, Cortisol...)
+       (PFC Reframe, Approach/Avoidance Tags, Chunk Dynamics, Self-Pattern-Modeling, Cortisol...)
 
   ┌─────────────────────────────────────────────────────────────┐
   │ Natural Development = NỀN                                   │
@@ -2053,7 +2053,7 @@ TRONG OBSERVATION/ (Core-Deep-Dive/Observation/):
 
 → Connection.md — Hardware drive, attachment = safe base cho exploration
    Attachment MET → domain pull freed → skill exploration possible
-→ Empathy.md — SPM function, developmental bootstrap
+→ Empathy.md — Self-Pattern-Modeling function, developmental bootstrap
 → Autonomy.md + Autonomy-Hardware.md — Efference copy, 5-phase arc
    Ép skill khi trẻ muốn dừng = autonomy damage (§2.5)
 → Boredom.md — Chán = dưới ngưỡng → skill quá dễ / quá khó

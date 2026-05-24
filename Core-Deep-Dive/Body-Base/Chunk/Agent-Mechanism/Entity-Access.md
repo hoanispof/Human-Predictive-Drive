@@ -6,7 +6,7 @@ updated: 2026-05-22
 status: MECHANISM v1.2
 changes_v1.2: |
   §8 trimmed: calibration detail → Entity-Access-Calibration.md v1.0 (new companion file)
-  §8.1-§8.5 headers: added cross-ref pointers to EAC sections
+  §8.1-§8.5 headers: added cross-ref pointers to Entity-Access-Calibration sections
   §12 updated: Entity-Access-Calibration.md added to cross-references
 changes_v1.1: |
   §6 trimmed: excess detail → Entity-Access-Excess.md v1.0 (new companion file)
@@ -25,9 +25,9 @@ purpose: |
   quality = f(gap source A:B:C:D), excess, calibration.
   = "Entity-Compiled cho biết brain BUILD gì. Entity-Access cho biết brain
   DỰ ĐOÁN ACCESS thế nào, ở MỨC NÀO, CHẤT LƯỢNG ra sao."
-  Framework readers: VP §3 (definition) → Entity-Compiled (mechanism) → file này (gradient + dynamics).
+  Framework readers: Valence-Propagation §3 (definition) → Entity-Compiled (mechanism) → file này (gradient + dynamics).
 position: |
-  Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder SPM, BPGR, Entity-Compiled.
+  Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder Self-Pattern-Modeling, By-Product-Gap-Resonance, Entity-Compiled.
   Agent-Mechanism.md = integration hub.
   Entity-Compiled.md = deep mechanism (HOW brain compiles agent).
   Entity-Access.md (FILE NÀY) = gradient model (HOW access level changes, quality, excess, calibration).
@@ -37,12 +37,12 @@ dependencies:
   - PFC-Operations.md v1.0 — FOUNDATION: Hold/Suppress, Compiled/Fresh, Fresh processing universal
   - Valence-Propagation.md v2.0 §3 — DEFINES Entity-Compiled + 3 subtypes
   - Body-Feedback-Mechanism.md v2.0 §3.3c — FOUNDATION: Gap→Miss baseline
-  - Self-Pattern-Match.md v3.0 — F1/F2 mechanism, SPM as Simulation Engine application
+  - Self-Pattern-Modeling.md v3.0 — Compiled/Fresh mechanism, Self-Pattern-Modeling as Simulation Engine application
   - By-Product-Gap-Resonance.md v1.0 — mutual phenomenon, resonance
   - Connection.md v4.0 §3 — 3 Generative Primitives, 2-tầng/2-luồng
   - Body-Coupling.md v2.0 — coupling mechanism
   - Gap-Body-Need.md v2.0 — gap landscape, satiation types, ENGINE/ROAD/VEHICLE
-  - Resonance-Entity.md v2.0 — hardware subsidy, RSA A:B
+  - Resonance-Entity.md v2.0 — hardware subsidy, Hardwired:Compilable Architecture
   - Compiled-Fresh.md v2.0 — compiled quality, Fresh processing, reversal
   - Reward-Calibration.md v1.1 — Goldilocks, cannot prescribe
   - Logic-Feeling-Balance.md v1.0 — infinite regress, domain feedback only
@@ -62,12 +62,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Brain builds PREDICTIVE ACCESS-RELATIONSHIP with entity for gap-filling.**
 >
 > **3-FACTOR MODEL:**
-> **F1: Engine Mode — HOW brain processes entity (Tool ↔ Agent, DYNAMIC per-moment).**
-> **F2: Gap-Need Profile — WHY I need access (A:B:C:D × breadth × compound).**
-> **F3: Access Confidence — CAN I access (EC depth × stability × hardware subsidy).**
+> **Compiled: Engine Mode — HOW brain processes entity (Tool ↔ Agent, DYNAMIC per-moment).**
+> **Fresh: Gap-Need Profile — WHY I need access (A:B:C:D × breadth × compound).**
+> **F3: Access Confidence — CAN I access (Entity-Compiled depth × stability × hardware subsidy).**
 >
 > **Entity-Access GRADIENT (Mức 0-5):**
-> **Mức 0: Tool/Service → Mức 1-2: UNLABELED → Mức 3: B-dominant "bạn thân" →**
+> **Mức 0: Tool/Service → Mức 1-2: UNLABELED → Mức 3: Compilable-dominant "bạn thân" →**
 > **Mức 4: Entity-Owned (PFC label) → Mức 5: Excess territory.**
 >
 > **Entity-Owned = PFC LENS (observation), NOT mechanism.**
@@ -113,13 +113,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⑤ Engine Mode = DYNAMIC spectrum (same entity shifts Tool↔Agent per moment)
   ⑥ Most entity-access = UNLABELED by PFC (fuzzy middle of gradient)
   ⑦ 4 Starting Modes: Hardware / Limerence / Interaction / Schema
-  ⑧ B-dominant (by-product resonance) = optimal DESTINATION, not universal origin
+  ⑧ Compilable-dominant (by-product resonance) = optimal DESTINATION, not universal origin
   ⑨ Gap Source Profile A:B:C:D determines access QUALITY
   ⑩ Excess = Mức 5 (same neural circuits as addiction, gap shift mechanism)
   ⑪ Calibration = 3-layer architecture (body signal × simulation × feedback)
   ⑫ CANNOT prescribe — domain feedback = only arbiter
 
-  🟡 3-Factor Model, Gradient, B-dominant destination = framework synthesis (v1.0)
+  🟡 3-Factor Model, Gradient, Compilable-dominant destination = framework synthesis (v1.0)
   🟢 Attachment styles, parenting research, addiction circuits = established
 ```
 
@@ -127,7 +127,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   READING ORDER:
-    VP §3                    = DEFINES Entity-Compiled (what + 3 subtypes)
+    Valence-Propagation §3                    = DEFINES Entity-Compiled (what + 3 subtypes)
     Entity-Compiled.md       = DEEP MECHANISM (formation, capacity, dynamics)
     ★ Entity-Access.md       = GRADIENT MODEL (access level, quality, excess, calibration)
 
@@ -148,16 +148,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ├─────────────────┼────────────────────────────────────────────────────┤
     │ ENTITY-ACCESS    │ = DỰ ĐOÁN ACCESS + GAP EXPECTATION.              │
     │ (can I access?)  │ 3-Factor → gradient Mức 0-5. Quality = f(A:B:C:D)│
-    │                  │ Changes FASTER than EC. PFC-OBSERVABLE at high.   │
+    │                  │ Changes FASTER than Entity-Compiled. PFC-OBSERVABLE at high.   │
     │                  │ = TÔI CÓ THỂ mượn sách không + ĐỂ LÀM GÌ       │
     └─────────────────┴────────────────────────────────────────────────────┘
 
   QUAN HỆ 3 CONCEPTS:
-    EC deep + valence pos. + access strong (A+B) = HEALTHY
-    EC deep + valence pos. + access strong (C+D) = EXCESS
-    EC deep + valence pos. + access ↓ = "vẫn thương nhưng xa" (bạn cũ)
-    EC deep + valence pos. + access = 0 = GRIEF (mất người thân)
-    EC = 0 → entity-access impossible (stranger)
+    Entity-Compiled deep + valence pos. + access strong (A+B) = HEALTHY
+    Entity-Compiled deep + valence pos. + access strong (C+D) = EXCESS
+    Entity-Compiled deep + valence pos. + access ↓ = "vẫn thương nhưng xa" (bạn cũ)
+    Entity-Compiled deep + valence pos. + access = 0 = GRIEF (mất người thân)
+    Entity-Compiled = 0 → entity-access impossible (stranger)
 
   🟡 3-concept distinction with entity-access reframe = framework synthesis (v1.0)
 ```
@@ -169,7 +169,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §1.1 — Factor 1: Engine Mode (HOW brain processes entity)
 
 ```
-⭐⭐⭐ F1 — ENGINE MODE: Tool ↔ Agent (DYNAMIC per-moment)
+⭐⭐⭐ Compiled — ENGINE MODE: Tool ↔ Agent (DYNAMIC per-moment)
 
   TOOL ─────────── AGENT (shallow) ──────── AGENT (deep)
   predict           predict state            predict state +
@@ -177,7 +177,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   "giao hàng"                                optimize interaction
 
   BINARY GATE + CONTINUOUS SPECTRUM:
-    Tool-mode = GATE CLOSED → entity-access IMPOSSIBLE (regardless of F2, F3)
+    Tool-mode = GATE CLOSED → entity-access IMPOSSIBLE (regardless of Fresh, F3)
     Agent-mode = GATE OPEN → entity-access POSSIBLE → depth matters
 
   ⭐⭐ ENGINE MODE = DYNAMIC (shifts MOMENT-TO-MOMENT):
@@ -190,21 +190,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ENGINE MODE = PER-PAIR + PER-MOMENT:
     Bưu tá: TÔI access DỊCH VỤ (Tool toward service), VỢ bưu tá access CHỒNG (Agent)
     → Cùng 1 con người, KHÁC observer: service vs individual
-    → SPM mode = property of OBSERVER's processing, NOT of entity
+    → Self-Pattern-Modeling mode = property of OBSERVER's processing, NOT of entity
 
   Simulation Engine application:
-    SPM = (Other, Present, Simulate) trên Simulation Engine
-    Tool-mode: SPM KHÔNG chạy (no state simulation)
-    Agent-mode: SPM CHẠY (simulate state → predict → optimize)
+    Self-Pattern-Modeling = (Other, Present, Simulate) trên Simulation Engine
+    Tool-mode: Self-Pattern-Modeling KHÔNG chạy (no state simulation)
+    Agent-mode: Self-Pattern-Modeling CHẠY (simulate state → predict → optimize)
 
   🟡 Engine Mode as dynamic gate + spectrum = framework synthesis (v1.0)
-  🟢 SPM as Simulation Engine application: Simulation-Engine.md §3
+  🟢 Self-Pattern-Modeling as Simulation Engine application: Simulation-Engine.md §3
 ```
 
 ### §1.2 — Factor 2: Gap-Need Profile (WHY I need access)
 
 ```
-⭐⭐ F2 — GAP-NEED PROFILE: WHY I need access to entity
+⭐⭐ Fresh — GAP-NEED PROFILE: WHY I need access to entity
 
   3 DIMENSIONS:
 
@@ -238,10 +238,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   3 INPUTS:
 
-    ① EC DEPTH (data quality):
-      EC deep → SPM predict CHÍNH XÁC → confidence HIGH
-      EC shallow → SPM predict MỜ → confidence LOW
-      → EC = PREREQUISITE (feeds F1 Agent-mode quality + F3 prediction)
+    ① Entity-Compiled DEPTH (data quality):
+      Entity-Compiled deep → Self-Pattern-Modeling predict CHÍNH XÁC → confidence HIGH
+      Entity-Compiled shallow → Self-Pattern-Modeling predict MỜ → confidence LOW
+      → Entity-Compiled = PREREQUISITE (feeds Compiled Agent-mode quality + F3 prediction)
 
     ② ACCESS STABILITY (entity availability):
       Stable → prediction CONFIRMED → compile
@@ -257,14 +257,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌─────────────────────┬──────────────────────────────────────────┐
     │ Combination         │ Result                                   │
     ├─────────────────────┼──────────────────────────────────────────┤
-    │ EC deep + stable    │ HIGH confidence → entity-access COMPILES │
-    │ EC deep + unstable  │ MIXED → ANXIOUS entity-access            │
-    │ EC shallow + stable │ LOW → entity-access in FORMATION         │
-    │ EC shallow+unstable │ VERY LOW → no entity-access yet          │
+    │ Entity-Compiled deep + stable    │ HIGH confidence → entity-access COMPILES │
+    │ Entity-Compiled deep + unstable  │ MIXED → ANXIOUS entity-access            │
+    │ Entity-Compiled shallow + stable │ LOW → entity-access in FORMATION         │
+    │ Entity-Compiled shallow+unstable │ VERY LOW → no entity-access yet          │
     └─────────────────────┴──────────────────────────────────────────┘
 
   🟡 Access Confidence = framework synthesis (v1.0)
-  🟢 Compiled Imagine-Final → baseline: BFM §3.3c
+  🟢 Compiled Imagine-Final → baseline: Body-Feedback-Mechanism §3.3c
 ```
 
 ### §1.4 — 3 Factors → Compilation → Entity-Access
@@ -273,11 +273,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ 3 FACTORS → COMPILATION → ENTITY-ACCESS:
 
   ALL 3 SUFFICIENT + TIME (repeated) → brain COMPILE into BASELINE:
-    F1: Engine Mode = Agent (gate open) ✅
-    F2: Gap-Need Profile = sufficient gap-fill ✅
+    Compiled: Engine Mode = Agent (gate open) ✅
+    Fresh: Gap-Need Profile = sufficient gap-fill ✅
     F3: Access Confidence = reliable prediction ✅
     → Repeated → compile Imagine-Final about access → BASELINE
-    → = BFM §3.3c: gap→miss transition → body EXPECTS entity available
+    → = Body-Feedback-Mechanism §3.3c: gap→miss transition → body EXPECTS entity available
 
   ENTITY-ACCESS = 2 LAYERS:
     Layer 1 — ACCESS PREDICTION (structural): "entity X available khi tôi cần"
@@ -287,21 +287,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   PREREQUISITES (nằm bên dưới, feed multiple factors):
 
     ┌────────────────────────────────────────────────────────────────┐
-    │ EC Depth: feeds F1 (deeper Agent) + F3 (better prediction)   │
-    │ Hardware Subsidy: biases F2 (pre-install gap A) + F3 (bias)  │
-    │ PFC Resource State: modulates F1 (→ Tool when depleted)      │
-    │ Attachment Style: biases F3 (direction tag) + F2 (C tendency)│
+    │ Entity-Compiled Depth: feeds Compiled (deeper Agent) + F3 (better prediction)   │
+    │ Hardware Subsidy: biases Fresh (pre-install gap A) + F3 (bias)  │
+    │ PFC Resource State: modulates Compiled (→ Tool when depleted)      │
+    │ Attachment Style: biases F3 (direction tag) + Fresh (C tendency)│
     └────────────────────────────────────────────────────────────────┘
 
                     ┌─────────────────────────┐
-                    │  EC DEPTH (prerequisite) │
+                    │  Entity-Compiled DEPTH (prerequisite) │
                     └────┬───────────┬────────┘
                          │           │
                          ▼           ▼
   ┌──────────────┐  ┌──────────┐  ┌──────────────────┐
-  │ F1: ENGINE   │  │ F2: GAP- │  │ F3: ACCESS       │
+  │ Compiled: ENGINE   │  │ Fresh: GAP- │  │ F3: ACCESS       │
   │ MODE         │  │ NEED     │  │ CONFIDENCE       │
-  │ (gate+depth) │  │ PROFILE  │  │ (EC×stab.×hw)    │
+  │ (gate+depth) │  │ PROFILE  │  │ (Entity-Compiled×stab.×hardware)    │
   └──────┬───────┘  └────┬─────┘  └────────┬─────────┘
          │               │                 │
          └───────────────┼─────────────────┘
@@ -314,7 +314,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
               └──────────────────────┘
 
   🟡 3-factor architecture = framework synthesis (v1.0)
-  🟢 Gap→Miss baseline mechanism: BFM §3.3c
+  🟢 Gap→Miss baseline mechanism: Body-Feedback-Mechanism §3.3c
 ```
 
 ---
@@ -420,8 +420,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Concept giữ, nhưng đặt ĐÚNG VỊ TRÍ: observation, not mechanism
 
   VISIBILITY PARADOX:
-    L2 + Tầng A = deepest entity-access = LEAST VISIBLE to PFC
-    L1 + Tầng B = most visible entity-access
+    L2 + Tầng Hardware = deepest entity-access = LEAST VISIBLE to PFC
+    L1 + Tầng PFC = most visible entity-access
     → Mẹ→con: deepest = PFC barely notices ("ở với mẹ 20 năm không thấy đặc biệt")
     → Only visible through LOSS (phantom) or SEPARATION (de-habituation)
 
@@ -440,7 +440,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   MODE 1 — HARDWARE (kin, đặc biệt mẹ→con):
     Biology pre-install: prenatal brain restructure (Hoekzema 2017)
-    3-Factor at birth: F1 Agent PRE-INSTALLED, F2 A-gap fills ngay, F3 HIGH by default
+    3-Factor at birth: Compiled Agent PRE-INSTALLED, Fresh A-gap fills ngay, F3 HIGH by default
     → Entity-access precursor AT BIRTH → deepens through interaction
     → SKIP early formation stages (hardware kickstart)
     → Mẹ ngày đầu = HARDWARE WONDER, không phải "bạn mới"
@@ -449,7 +449,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   MODE 2 — LIMERENCE (romantic):
     Hormone temporary subsidy: dopamine + OT + PEA
-    3-Factor: F1 activated, F2 INFLATED (hormone masks true resonance), F3 building fast
+    3-Factor: Compiled activated, Fresh INFLATED (hormone masks true resonance), F3 building fast
     2 sub-paths: attraction-first (skip friendship) vs friend-first (bạn trước yêu sau)
     Timeline: 6-24 months → hormone fades → ACTUAL resonance quality revealed
     → Genuine B develops → STABLE. No B → "hóa ra không hợp"
@@ -457,16 +457,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   MODE 3 — INTERACTION (friendship, default mode):
     By-product matching through repeated interaction
-    3-Factor: F1 develops gradually, F2 B-dominant from start, F3 building slowly
+    3-Factor: Compiled develops gradually, Fresh Compilable-dominant from start, F3 building slowly
     NO hardware subsidy → must sustain on RESONANCE QUALITY ALONE
-    → FRAGILE (48.6% inner circle churn) nhưng PUREST quality (B-dominant = genuine)
+    → FRAGILE (48.6% inner circle churn) nhưng PUREST quality (Compilable-dominant = genuine)
     → Exit easy → C/D CANNOT develop → self-correcting mechanism
     → = BASE CASE of entity-access mechanism
     🟢 Hall 2018: 40→200h, Roberts & Dunbar 2011: 48.6% churn
 
   MODE 4 — SCHEMA (professional, obligation):
     Cultural schema install obligation
-    3-Factor: F1 varies, F2 D-dominant ban đầu, F3 stable (institutional structure)
+    3-Factor: Compiled varies, Fresh D-dominant ban đầu, F3 stable (institutional structure)
     → D → B CÓ THỂ develop: "bạn đồng nghiệp"
     → D-only = HOLLOW: remove schema → entity-access COLLAPSES
 
@@ -493,7 +493,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Schema → STUCK D: "gặp vì phải, về nhà thở phào" → hollow
 
   ⭐ TIẾNG VIỆT CAPTURES INSIGHT:
-    "Bạn đời" = bạn (B-dominant) + đời (lifetime)
+    "Bạn đời" = bạn (Compilable-dominant) + đời (lifetime)
     "Làm bạn với con" = parent shift C→B = parenting wisdom
     "Bạn đồng nghiệp" = bạn (B emerged) + đồng nghiệp (D context)
     → "Bạn" xuất hiện trong TẤT CẢ healthy trajectories
@@ -504,10 +504,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Mode     │ Khởi nguồn │ Gap ban  │ Healthy      │ Pathological     │
     │          │            │ đầu      │ trajectory   │ trajectory       │
     ├──────────┼────────────┼──────────┼──────────────┼──────────────────┤
-    │ Hardware │ Biology    │ A dom.   │ A+B grows    │ Stuck A+C        │
+    │ Hardware │ Biology    │ A dominant   │ A+B grows    │ Stuck A+C        │
     │ Limerence│ Hormone    │ A inflat.│ A→B replaces │ A→C fills void   │
     │ Interact.│ By-product │ B start  │ B stays (✅) │ C shift (rare)   │
-    │ Schema   │ Cultural   │ D dom.   │ D + B grows  │ Stuck D only     │
+    │ Schema   │ Cultural   │ D dominant   │ D + B grows  │ Stuck D only     │
     └──────────┴────────────┴──────────┴──────────────┴──────────────────┘
 
   RESEARCH SUPPORT:
@@ -516,7 +516,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Gottman 2001: Bids for connection = mild C expression → bond maintenance
     🟢 Deci & Ryan 2000: SDT — autonomy support + structure = optimal
 
-  🟡 B-dominant = optimal destination = framework synthesis (v1.0)
+  🟡 Compilable-dominant = optimal destination = framework synthesis (v1.0)
 ```
 
 ---
@@ -569,7 +569,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌─────────┬────────────────────────────┬─────────┬──────────────┐
     │ Source  │ Gap                        │ Reward  │ Entity auto. │
     ├─────────┼────────────────────────────┼─────────┼──────────────┤
-    │ A. Hw   │ "Nhìn con ngủ = bình yên" │ Opioid  │ ✅ INTACT    │
+    │ A. Hardware   │ "Nhìn con ngủ = bình yên" │ Opioid  │ ✅ INTACT    │
     │ B. Res  │ "Con nói từ mới = vui"    │ Opioid  │ ✅ INTACT    │
     │ C. Self │ "Con phải giỏi/ăn nhiều"  │ Relief  │ ❌ VIOLATED  │
     │ D. Sch  │ "Mẹ phải lo cho con"      │ Relief  │ Variable     │
@@ -583,7 +583,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Con nhỏ: A dominant + C justified (con chưa tự chăm)
       Con teen: B ↑ (by-products) + C justified ↓ (autonomy ↑)
       Con trưởng thành: B dominant + C should be MINIMAL
-      → = B-dominant destination (§3.2): C justified → B organic
+      → = Compilable-dominant destination (§3.2): C justified → B organic
 
   ⭐ "SAME BEHAVIOR, DIFFERENT MECHANISM":
     CASE 1: "Gặp nhau cho vui" → B (resonance) → opioid → GENUINE
@@ -619,22 +619,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ PER-ENTITY OVERVIEW (all dimensions integrated):
 
   ┌──────────┬───────┬──────────┬────────┬────────┬──────────┬──────────┐
-  │          │ Start │ Gap dom. │ Hw     │ Sat.   │ Gradient │ Healthy  │
+  │          │ Start │ Gap domain │ Hardware     │ Satiation   │ Gradient │ Healthy  │
   │          │ Mode  │ A:B:C:D  │ Subsidy│ Type   │ Mức      │ trajec.  │
   ├──────────┼───────┼──────────┼────────┼────────┼──────────┼──────────┤
-  │ Mẹ→con  │ Hw    │ A+B+C/D  │ MAX    │ Tonic+ │ 4-5      │ A+B ↑   │
-  │          │       │ compound │(OT)    │ Gen+Cyc│ (hw skip)│ C ↓     │
+  │ Mẹ→con  │ Hardware    │ A+B+C/D  │ MAX    │ Tonic+ │ 4-5      │ A+B ↑   │
+  │          │       │ compound │(OT)    │ Gen+Cyc│ (hardware skip)│ C ↓     │
   ├──────────┼───────┼──────────┼────────┼────────┼──────────┼──────────┤
-  │ Con→mẹ  │ Hw    │ A(mod)+B │ MOD    │ Cyc+   │ 4 → ↓   │ B ↑     │
-  │          │ hybrid│ →B dom.  │(attach)│ Tonic  │ (lifecyc)│ niche   │
+  │ Con→mẹ  │ Hardware    │ A(mod)+B │ MOD    │ Cyc+   │ 4 → ↓   │ B ↑     │
+  │          │ hybrid│ →B dominant  │(attach)│ Tonic  │ (lifecyc)│ niche   │
   ├──────────┼───────┼──────────┼────────┼────────┼──────────┼──────────┤
-  │ Bạn thân │ Inter │ B dom.   │ NONE   │ Gen+   │ 3        │ B stays │
+  │ Bạn thân │ Inter │ B dominant   │ NONE   │ Gen+   │ 3        │ B stays │
   │          │ action│          │        │ Tonic  │ (fragile)│ (✅ opt.)│
   ├──────────┼───────┼──────────┼────────┼────────┼──────────┼──────────┤
   │ Romantic │ Limer.│ A inflate│ TEMP→  │ Tonic+ │ 4        │ A→B     │
   │ (early)  │ or Int│ →reveal  │ LOW    │ Gen    │ (volatile│ replaces │
   ├──────────┼───────┼──────────┼────────┼────────┼──────────┼──────────┤
-  │ Romantic │ —     │ B+C/D var│ LOW    │ Tonic+ │ 4        │ B dom.  │
+  │ Romantic │ —     │ B+C/D var│ LOW    │ Tonic+ │ 4        │ B dominant  │
   │ (long)   │       │          │(vestige│ Gen    │ (stable) │ "bạn đời"│
   ├──────────┼───────┼──────────┼────────┼────────┼──────────┼──────────┤
   │ Profess. │Schema │ D+B part │ NONE   │ Cyc    │ 2-3      │ D+B ↑   │
@@ -644,7 +644,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ /hàng xóm│action│          │        │        │ (fuzzy)  │ nhưng có │
   ├──────────┼───────┼──────────┼────────┼────────┼──────────┼──────────┤
   │ Service  │ —     │ —        │ NONE   │ —      │ 0b       │ Tool-mode│
-  │ (bưu tá) │      │          │        │        │ (none)   │ = no EA  │
+  │ (bưu tá) │      │          │        │        │ (none)   │ = no Entity-Access  │
   └──────────┴───────┴──────────┴────────┴────────┴──────────┴──────────┘
 
   🟡 Per-entity integration table = framework synthesis (v1.0)
@@ -660,12 +660,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Mức 4-5 by DEFAULT → highest risk for Excess (C easily hidden)
 
   BẠN THÂN = PUREST QUALITY vì:
-    F2 B-dominant + no hardware bias + exit easy → C CANNOT develop
+    Fresh Compilable-dominant + no hardware bias + exit easy → C CANNOT develop
     → Mức 3 typical → B already optimal → LEAST risk for Excess
 
   ROMANTIC = MOST VOLATILE vì:
     Limerence INFLATE → recalibrate → outcome depends on B quality
-    → BEST: healthy B-dominant "bạn đời". WORST: A fades → C fills
+    → BEST: healthy Compilable-dominant "bạn đời". WORST: A fades → C fills
 
   HARDWARE SUBSIDY ≠ QUALITY:
     Mẹ: MAX subsidy → most DURABLE → nhưng CÓ THỂ low quality (C+D dominant)
@@ -679,16 +679,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Contribute to daily well-being (routine, social fabric).
     "Hàng xóm thân" not labeled "friend" but IS entity-access.
 
-  RSA A:B × "FEEL":
-    B-dominant (mẹ→con): "thương" (warm, CT afferents, oxytocin)
-    A-dominant (bạn): "thích" (exciting, evaluative reward)
-    Balanced (romantic): "yêu" (A+B compound)
-    → Same strength, different FEEL → different RSA ratio
+  Hardwired:Compilable Architecture × "FEEL":
+    Compilable-dominant (mẹ→con): "thương" (warm, CT afferents, oxytocin)
+    Hardwired-dominant (bạn): "thích" (exciting, evaluative reward)
+    Balanced (romantic): "yêu" (Hardwired+Compilable compound)
+    → Same strength, different FEEL → different Reward-Signal-Architecture ratio
 
   LIFECYCLE DYNAMICS:
-    Entity-access changes FASTER than EC (access prediction updates immediately)
-    Bạn chuyển xa: EC deep VẪN → entity-access ↓ NGAY → "vẫn nhớ nhưng xa"
-    Mẹ mất: EC deep VẪN → entity-access → 0 → GRIEF DEVASTATING (phantom firing)
+    Entity-access changes FASTER than Entity-Compiled (access prediction updates immediately)
+    Bạn chuyển xa: Entity-Compiled deep VẪN → entity-access ↓ NGAY → "vẫn nhớ nhưng xa"
+    Mẹ mất: Entity-Compiled deep VẪN → entity-access → 0 → GRIEF DEVASTATING (phantom firing)
 
   🟡 Per-entity observations = framework synthesis (v1.0)
   🟢 Hardware subsidy: Resonance-Entity.md v2.0 §2
@@ -711,7 +711,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Entity-access│ CONFIDENT    │ ANXIOUS      │ SUPPRESSED   │ COLLAPSED    │
   │ quality      │ "sẽ ở đây"  │ "sẽ bỏ đi?"  │ "không cần"  │ "cần + sợ"  │
   ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
-  │ Gap Source   │ A+B dom.    │ C dominant   │ Suppress all │ A+C conflict │
+  │ Gap Source   │ A+B dominant    │ C dominant   │ Suppress all │ A+C conflict │
   │ tendency     │ (genuine)    │ (anxiety gap)│              │              │
   ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
   │ Prevalence   │ ~65%         │ ~15%         │ ~20%         │ ~15% overlap │
@@ -735,7 +735,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ ENTITY-ACCESS EXCESS = MỨC 5 TERRITORY:
 
   ┌─────────────────────────────────────────────────────────────────────┐
-  │  Mức 3 (B-dom.)   Mức 4 (Entity-Owned)  Mức 5 (Excess)  Clinical  │
+  │  Mức 3 (Compilable-dominant)   Mức 4 (Entity-Owned)  Mức 5 (Excess)  Clinical  │
   │  MODERATE          ELEVATED              EXCESS           ADDICTION │
   │  (healthy)         (normal bonding)      (problematic)    (3-6%)   │
   │                                                                     │
@@ -750,8 +750,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └─────────────────────────────────────────────────────────────────────┘
 
   3-FACTOR AT EXCESS (Mức 5):
-    F1: Agent nhưng C-DISTORTED (SPM serves MY gap, not entity's state)
-    F2: C+D DOMINANT (self-referential + schema → autonomy violated)
+    Compiled: Agent nhưng C-DISTORTED (Self-Pattern-Modeling serves MY gap, not entity's state)
+    Fresh: C+D DOMINANT (self-referential + schema → autonomy violated)
     F3: MAXIMUM (hardware + no exit + compiled deep)
 
   5 BOUNDARY INDICATORS (healthy Mức 4 vs excess Mức 5):
@@ -763,19 +763,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟢 Love addiction prevalence 3-6%: Sussman 2010, 2011
   KEY MECHANISMS (chi tiết → Entity-Access-Excess.md):
-    SPM atrophy: excess → SPM drops → pseudo-understanding → loop (EAE §2.3)
-    Mẹ→con: designed excess vs overdriven (helicopter/tiger/hikikomori) (EAE §3)
-    Romantic: bilateral trap + unilateral suffocation (EAE §4)
-    Gap shift ≠ compiled suppress: 2 mechanism riêng (EAE §5)
-    3 origins: hardware + trauma + schema (schema alone sufficient) (EAE §6)
-    Cultural variation: 3 models, collectivist paradox (EAE §7)
-    Measurement paradox: McNulty 2013 — implicit ≠ explicit (EAE §9)
+    Self-Pattern-Modeling atrophy: excess → Self-Pattern-Modeling drops → pseudo-understanding → loop (Entity-Access-Excess §2.3)
+    Mẹ→con: designed excess vs overdriven (helicopter/tiger/hikikomori) (Entity-Access-Excess §3)
+    Romantic: bilateral trap + unilateral suffocation (Entity-Access-Excess §4)
+    Gap shift ≠ compiled suppress: 2 mechanism riêng (Entity-Access-Excess §5)
+    3 origins: hardware + trauma + schema (schema alone sufficient) (Entity-Access-Excess §6)
+    Cultural variation: 3 models, collectivist paradox (Entity-Access-Excess §7)
+    Measurement paradox: McNulty 2013 — implicit ≠ explicit (Entity-Access-Excess §9)
 
   🟢 65 citations tại Entity-Access-Excess.md §13
   🟡 Entity-access excess mapped to gradient = framework synthesis
 ```
 
-### §6.2 — Addiction neural circuits — BRIEF (chi tiết → EAE §2)
+### §6.2 — Addiction neural circuits — BRIEF (chi tiết → Entity-Access-Excess §2)
 
 ```
 ⭐⭐ PARENTING + ROMANTIC DÙNG CÙNG CIRCUITS VỚI ADDICTION:
@@ -790,32 +790,32 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Seek drug → relief          ↔  Seek entity → relief (monitor, control, cling)
     Other activities decline    ↔  Domain drives ATROPHY
 
-  ENTITY-ACCESS EXCESS → SPM ATROPHY (★ KEY MECHANISM):
+  ENTITY-ACCESS EXCESS → Self-Pattern-Modeling ATROPHY (★ KEY MECHANISM):
     ① Excess → access reward ĐỦ (entity present = reward)
     ② Access guaranteed → no need to "earn" access qua understanding
     ③ Entity stop growing (domain suppressed) → no new info
-    ④ SPM cost > SPM reward → não TỰ GIẢM SPM investment → F1 → Tool-mode
+    ④ Self-Pattern-Modeling cost > Self-Pattern-Modeling reward → não TỰ GIẢM Self-Pattern-Modeling investment → Compiled → Tool-mode
     ⑤ PSEUDO prediction complete: "hiểu hết" = STOPPED LOOKING ≠ nothing to see
-    → = SELF-REINFORCING LOOP: excess → SPM drops → miss → excess continues
-    → MONITORING ≠ SPM: helicopter = HIGH surveillance + LOW understanding
+    → = SELF-REINFORCING LOOP: excess → Self-Pattern-Modeling drops → miss → excess continues
+    → MONITORING ≠ Self-Pattern-Modeling: helicopter = HIGH surveillance + LOW understanding
 
   🟢 Strathearn 2009, Rutherford 2017, Fisher 2010, Burkett & Young 2012
-  🟡 Excess → SPM atrophy mechanism = framework synthesis
+  🟡 Excess → Self-Pattern-Modeling atrophy mechanism = framework synthesis
 ```
 
-### §6.3 — Application cases — BRIEF (chi tiết → EAE §3-§4)
+### §6.3 — Application cases — BRIEF (chi tiết → Entity-Access-Excess §3-§4)
 
 ```
 ⭐⭐ MẸ→CON EXCESS: DESIGNED vs OVERDRIVEN:
 
-  DESIGNED EXCESS (healthy): con thay đổi mỗi ngày → auto-novelty → SPM atrophy
+  DESIGNED EXCESS (healthy): con thay đổi mỗi ngày → auto-novelty → Self-Pattern-Modeling atrophy
   COUNTERED. Oxytocin anti-habituation. Built-in weaning (con grows away).
 
   OVERDRIVEN (problematic):
     Helicopter = entity-access excess + anxiety withdrawal loop
       → Monitoring = seek behavior. Anxiety = withdrawal. (Segrin 2013)
       → Con's experience: autonomy violation → depression (Schiffrin 2014)
-    Tiger = entity-access excess + gap direction MISMATCH (F2 = C dominant)
+    Tiger = entity-access excess + gap direction MISMATCH (Fresh = C dominant)
       → Kim 2013 (8yr, 444 families): tiger → LOWER GPA, MORE depression
       → Mẹ's gap ≠ con's gap. 3 cases: "mẹ muốn" vs "bị ép" vs "genuine giúp"
     Warm helicopter (77% mothers) → less harmful than controlling (20%)
@@ -839,7 +839,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Application case mapping = framework synthesis
 ```
 
-### §6.4 — 3 Origins of excess — BRIEF (chi tiết → EAE §6)
+### §6.4 — 3 Origins of excess — BRIEF (chi tiết → Entity-Access-Excess §6)
 
 ```
 ⭐ 3 CON ĐƯỜNG DẪN ĐẾN EXCESS:
@@ -878,7 +878,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ 2 MECHANISM RIÊNG BIỆT, CÓ THỂ ĐỒNG THỜI:
 
   GAP SHIFT INTO ENTITY (passive):
-    EC depth tạo nhiều entity-related chunks → gaps MỚI hình thành hướng về entity
+    Entity-Compiled depth tạo nhiều entity-related chunks → gaps MỚI hình thành hướng về entity
     → PASSIVE, GRADUAL, NOT suppress (gaps cũ VẪN CÒN)
     → BÌNH THƯỜNG ở mức vừa phải: "muốn bảo vệ con" = designed gap shift
     → BẤT THƯỜNG khi DOMINANT: entity = GẦN NHƯ DUY NHẤT gap source
@@ -898,12 +898,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Case C — Simultaneous (limerence + schema = fastest path to excess)
 
   PER-RELATIONSHIP MAPPING:
-    Mẹ→con healthy: gap shift STRONG (hw-designed) + suppress LOW
+    Mẹ→con healthy: gap shift STRONG (hardware-designed) + suppress LOW
     Mẹ→con helicopter: gap shift EXCESSIVE + suppress MODERATE (schema "hy sinh")
     Romantic bilateral: BOTH HIGH → compound → stagnation
     Bạn thân: BOTH LOW → exit prevents excess
 
-  🟢 Gap shift from EC depth: Bond-Architecture §3.2
+  🟢 Gap shift from Entity-Compiled depth: Bond-Architecture §3.2
   🟢 Compiled suppress: Compiled-Fresh.md §4.2, §5.1
   🟡 2-mechanism distinction + compound model = framework synthesis
 ```
@@ -914,20 +914,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
-  ① 3-Layer Architecture: Body Signal × Engine Simulation × Feedback Integration → EAC §2
-  ② Exit Cost = Signal Weight: strongest bond = hardest to calibrate → EAC §3
-  ③ Hardware Subsidy = Calibration Bias: hormone masks excess → EAC §4
-  ④ Compiled vs Fresh: calibration window → EAC §5
-  ⑤ Engine Use Quality: curiosity vs threat mode → EAC §6
-  ⑥ Optimal Zone ≠ Zero C: Baumrind + SDT + Gottman → EAC §7
-  ⑦ Per Bond Type Dynamics: bạn bè/romantic/parent/professional → EAC §8
-  ⑧ 5 Failure Modes: Blind/Tool/Override/Depleted/Threat → EAC §9
-  ⑨ Cannot Prescribe: infinite regress, domain feedback only → EAC §10
-  ⑩ Training + Spiral: 4 targets, virtuous/vicious → EAC §11
-  ⑪ Calibration × Gradient: per-Mức difficulty scaling → EAC §12
+  ① 3-Layer Architecture: Body Signal × Engine Simulation × Feedback Integration → Entity-Access-Calibration §2
+  ② Exit Cost = Signal Weight: strongest bond = hardest to calibrate → Entity-Access-Calibration §3
+  ③ Hardware Subsidy = Calibration Bias: hormone masks excess → Entity-Access-Calibration §4
+  ④ Compiled vs Fresh: calibration window → Entity-Access-Calibration §5
+  ⑤ Engine Use Quality: curiosity vs threat mode → Entity-Access-Calibration §6
+  ⑥ Optimal Zone ≠ Zero C: Baumrind + SDT + Gottman → Entity-Access-Calibration §7
+  ⑦ Per Bond Type Dynamics: bạn bè/romantic/parent/professional → Entity-Access-Calibration §8
+  ⑧ 5 Failure Modes: Blind/Tool/Override/Depleted/Threat → Entity-Access-Calibration §9
+  ⑨ Cannot Prescribe: infinite regress, domain feedback only → Entity-Access-Calibration §10
+  ⑩ Training + Spiral: 4 targets, virtuous/vicious → Entity-Access-Calibration §11
+  ⑪ Calibration × Gradient: per-Mức difficulty scaling → Entity-Access-Calibration §12
 ```
 
-### §8.1 — Calibration = dynamic equilibrium — BRIEF (chi tiết → EAC §1)
+### §8.1 — Calibration = dynamic equilibrium — BRIEF (chi tiết → Entity-Access-Calibration §1)
 
 ```
 ⭐⭐ ENTITY-ACCESS CALIBRATION = REWARD-CALIBRATION APPLIED TO ENTITY ACCESS:
@@ -936,10 +936,10 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   │ Vùng        │ Entity-access state   │ Hệ quả                    │
   ├─────────────┼───────────────────────┼────────────────────────────┤
   │ UNDER       │ Quá ít access-seeking │ Bond atrophy: no bids →   │
-  │             │                       │ no EC → drift              │
+  │             │                       │ no Entity-Compiled → drift              │
   ├─────────────┼───────────────────────┼────────────────────────────┤
   │ GOLDILOCKS  │ Access-seeking vừa đủ │ Bond maintained: bids →    │
-  │             │ Responsive to entity  │ responses → EC ↑ → bond ↑ │
+  │             │ Responsive to entity  │ responses → Entity-Compiled ↑ → bond ↑ │
   ├─────────────┼───────────────────────┼────────────────────────────┤
   │ OVER        │ Quá nhiều access      │ Entity drive suppressed:   │
   │             │ Ignore entity "no"    │ autonomy violated → excess │
@@ -957,7 +957,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   🟢 Reward Goldilocks: Reward-Calibration.md §1
 ```
 
-### §8.2 — 3-Layer calibration architecture — BRIEF (chi tiết → EAC §2)
+### §8.2 — 3-Layer calibration architecture — BRIEF (chi tiết → Entity-Access-Calibration §2)
 
 ```
 ⭐⭐⭐ CALIBRATION CẦN 3 LAYERS ĐỒNG THỜI:
@@ -972,9 +972,9 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   ├─────────────────────────────────────────────────────────────────────┤
   │ LAYER 2 — ENGINE SIMULATION (Constructive Simulation)              │
   │ "Nếu tôi access/ép, entity sẽ experience gì?"                     │
-  │ F1 Agent-mode → model entity's state → predict response            │
+  │ Compiled Agent-mode → model entity's state → predict response            │
   │ = Simulation Engine Component 2 (DMN + hippocampus = CPU)          │
-  │ ⚠️ FAILS: F1 Tool-mode (predict behavior, not state)              │
+  │ ⚠️ FAILS: Compiled Tool-mode (predict behavior, not state)              │
   ├─────────────────────────────────────────────────────────────────────┤
   │ LAYER 3 — FEEDBACK INTEGRATION (Response × Adjustment)             │
   │ "Entity respond thế nào? → prediction delta → adjust?"             │
@@ -994,7 +994,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   🟢 Interoceptive accuracy → empathic accuracy: Fukushima 2011
 ```
 
-### §8.3 — Exit Cost = Signal Weight — BRIEF (chi tiết → EAC §3)
+### §8.3 — Exit Cost = Signal Weight — BRIEF (chi tiết → Entity-Access-Calibration §3)
 
 ```
 ⭐⭐⭐ TẠI SAO BẠN BÈ TỰ CALIBRATE NHƯNG PARENT→CHILD THÌ KHÔNG:
@@ -1017,11 +1017,11 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   └──────────────┴───────────┴──────────────┴────────────────────────────┘
 
   PARADOX — STRONGEST BOND = HARDEST TO CALIBRATE:
-    Parent→child: hw subsidy MAX + exit cost MAX + power MAX
+    Parent→child: hardware subsidy MAX + exit cost MAX + power MAX
     → 3 factors ALL conspire AGAINST calibration
     → WHY parenting needs MOST Self-Awareness: external feedback DISABLED
 
-    Bạn bè (Mức 3): hw subsidy ZERO + exit cost LOW + power PARITY
+    Bạn bè (Mức 3): hardware subsidy ZERO + exit cost LOW + power PARITY
     → 3 factors ALL SUPPORT calibration → self-correcting
 
   LIFECYCLE SHIFT (parent→child):
@@ -1036,7 +1036,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   🟢 Autonomy support: Deci & Ryan 2000
 ```
 
-### §8.4 — Optimal zone + Engine use quality — BRIEF (chi tiết → EAC §6-§7)
+### §8.4 — Optimal zone + Engine use quality — BRIEF (chi tiết → Entity-Access-Calibration §6-§7)
 
 ```
 ⭐⭐ OPTIMAL ENTITY-ACCESS ≠ ZERO C:
@@ -1072,14 +1072,14 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   🟡 Optimal zone + cannot prescribe = framework synthesis
 ```
 
-### §8.5 — 5 Failure modes + Training — BRIEF (chi tiết → EAC §9-§12)
+### §8.5 — 5 Failure modes + Training — BRIEF (chi tiết → Entity-Access-Calibration §9-§12)
 
 ```
 ⭐⭐ 5 FAILURE MODES — KHÁC SOURCE, KHÁC FIX:
 
   MODE 1 — BLIND (Layer 1): cannot detect own gap source. Low interoception.
     Fix: interoception training, Focusing (Gendlin 1978). Timeline: months.
-  MODE 2 — TOOL-MODE (Layer 2): F1 Tool → cannot model entity state.
+  MODE 2 — TOOL-MODE (Layer 2): Compiled Tool → cannot model entity state.
     Fix: deliberate curiosity, Agent-mode practice. Timeline: weeks-months.
   MODE 3 — OVERRIDE (Layer 3): compiled pattern fires → feedback NOT integrated.
     Fix: decompile + recompile (therapy). Timeline: months-years.
@@ -1093,7 +1093,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
 
   TRAINING (Simulation-Engine.md §11: 1 component → N applications):
     ① Interoception: body-scan, Focusing → detect gap source earlier
-    ② F1 depth: deliberate curiosity → Agent-mode practice
+    ② Compiled depth: deliberate curiosity → Agent-mode practice
     ③ Reflection practice: "tại sao?" (curiosity) > "mình sai rồi!" (threat)
     ④ Decompile + recompile: therapy (MBT: Bateman & Fonagy 2006)
 
@@ -1102,7 +1102,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
 
   CALIBRATION × GRADIENT:
     Mức 1-3: self-correcting (exit cost low → environment provides signals)
-    Mức 4: CRITICAL ZONE (exit cost rising + hw bias → 3-Layer ESSENTIAL)
+    Mức 4: CRITICAL ZONE (exit cost rising + hardware bias → 3-Layer ESSENTIAL)
     Mức 5: calibration ALREADY FAILED (need external intervention, therapy, crisis)
 
   🟢 Fukushima 2011, Gendlin 1978, Fonagy 2002, Bateman & Fonagy 2006
@@ -1120,11 +1120,11 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   3-Factor = EMERGENCE conditions (khi nào entity-access hình thành?)
   4-Trục = OBSERVATION tool (entity-access đang hoạt động THẾ NÀO lúc này?)
 
-  TRỤC 1 — ENGINE DEPTH (= F1 depth dimension):
+  TRỤC 1 — ENGINE DEPTH (= Compiled depth dimension):
     Tool ←───────── Agent shallow ←───────── Agent deep
     "Con ăn chưa?"   "Con có vẻ buồn"        "Con đang muốn thử nhưng sợ sai"
 
-    ⭐ SPM DEPTH ≠ SPM EFFORT:
+    ⭐ Self-Pattern-Modeling DEPTH ≠ Self-Pattern-Modeling EFFORT:
       Helicopter: HIGH effort (monitor liên tục) + LOW depth (Tool-mode)
       Deep parent: MODERATE effort + HIGH depth (Agent-mode genuine)
 
@@ -1132,20 +1132,20 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
     Blind ←──────── Aware
     "Ép vì con cần"  "Tôi biết tôi đang lo VÌ TÔI"
 
-    = SPM APPLIED TO SELF (not to entity):
+    = Self-Pattern-Modeling APPLIED TO SELF (not to entity):
     Mẹ bác sĩ tâm lý: Trục 1 HIGH + Trục 2 LOW = SOPHISTICATED CONTROL
     → Biết con's state NHƯNG không biết mình phục vụ OWN gap
 
-  TRỤC 3 — GAP SOURCE PROFILE (= F2):
+  TRỤC 3 — GAP SOURCE PROFILE (= Fresh):
     A+B dominant ←──── C+D dominant
     "Con vui là được"   "Con PHẢI..."
 
-  TRỤC 4 — PFC RESOURCE STATE (= modulator of F1):
+  TRỤC 4 — PFC RESOURCE STATE (= modulator of Compiled):
     Full ←──────── Depleted
     Patient, reflective   Reactive, "ăn đi!"
 
     CASCADING: Trục 4 depleted → Trục 1 DROP → Trục 2 DROP → Trục 3 shift C → ÉP
-    = WHY "mệt = dễ ép" — NOT vì "muốn ép" mà vì SPM SHUTDOWN
+    = WHY "mệt = dễ ép" — NOT vì "muốn ép" mà vì Self-Pattern-Modeling SHUTDOWN
 
   COMPARE BELSKY 1984 (4400+ citations):
     Belsky 3-factor: Parent personality / Child temperament / Social context
@@ -1155,7 +1155,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
 
   7 PATHWAYS TO C-DOMINANT SHIFT:
     ① Anxiety ("sợ mất" → ép) ② Schema (cultural "ép=tốt")
-    ③ Burnout (SPM depleted → control) ④ Neuroticism (hw amplifier)
+    ③ Burnout (Self-Pattern-Modeling depleted → control) ④ Neuroticism (hardware amplifier)
     ⑤ Self-worth contingency ("con giỏi=tôi giỏi") ⑥ Child temperament
     ⑦ Evolution mismatch (control for survival → applied to social)
     → Multi-determined (Belsky 1984): any combo → C shift
@@ -1218,16 +1218,16 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   ROMANTIC: limerence (0-3yr) INFLATED → post-limerence RECALIBRATE
     → B develops → STABLE. No B → ↓↓. Long-term: "chán nhưng không muốn mất"
 
-  BẠN THÂN: building (40-200h) → PEAK → context change → ↓ FAST (no hw)
+  BẠN THÂN: building (40-200h) → PEAK → context change → ↓ FAST (no hardware)
 
   BASELINE × SATIATION TYPE:
-    Tonic (mẹ→con): ongoing presence, slow habituation, hw sustain
+    Tonic (mẹ→con): ongoing presence, slow habituation, hardware sustain
     Generative (bạn): novelty-dependent, faster decay
     Cyclic (specific interactions): periodic, rhythmic
     Compound: mix → RESILIENT (most entity-access = compound)
 
-  PHANTOM RESONANCE: entity lost → EC fire → no response → distress
-    4-factor: compilation depth × hw subsidy × L2 structural × duration
+  PHANTOM RESONANCE: entity lost → Entity-Compiled fire → no response → distress
+    4-factor: compilation depth × hardware subsidy × L2 structural × duration
     Mẹ mất con = ALL MAX → DEVASTATING
 
   🟢 Hall 2018, Sanders 1980: parental grief most severe
@@ -1239,7 +1239,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
 ```
 ⭐ TECHNOLOGY × ENTITY-ACCESS:
 
-  AI: F1 Tool-mode (no internal state) → entity-access IMPOSSIBLE
+  AI: Compiled Tool-mode (no internal state) → entity-access IMPOSSIBLE
     NHƯNG: AI create ILLUSION (chatbot "emotions") → pseudo-entity-access risk
   SOCIAL MEDIA: faux resonance signal → inflate surface, collapse on actual contact
   VIDEO CALL: maintain L1 (conversation) nhưng CT afferents OFFLINE → cannot DEEPEN
@@ -1267,7 +1267,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
 ═══════════════════════════════════════
 
   Attachment styles:                       Ainsworth 1978, Main & Hesse 1990
-  Gap→Miss baseline:                       BFM §3.3c
+  Gap→Miss baseline:                       Body-Feedback-Mechanism §3.3c
   Prenatal brain restructure:              Hoekzema 2017
   Baby schema reward:                      Glocker 2009, Lorenz 1943
   Attachment biologically programmed:      Bowlby 1969
@@ -1311,16 +1311,16 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   3-Factor Model (Engine Mode × Gap-Need × Access Confidence) — ★★★
   Entity-Access Gradient Mức 0-5 — ★★★
   Entity-Owned as PFC lens (observation, not mechanism) — ★★★
-  B-dominant = optimal destination — ★★★
+  Compilable-dominant = optimal destination — ★★★
   Gap Source A:B:C:D quality model — ★★★
   4 Starting Modes (Hardware/Limerence/Interaction/Schema) — ★★
   Most entity-access unlabeled by PFC — ★★
   Engine Mode dynamic (shifts per-moment) — ★★
   4-Trục decomposes Belsky — ★★
   Self-Awareness as independent axis — ★★
-  SPM Depth ≠ SPM Effort — ★★
+  Self-Pattern-Modeling Depth ≠ Self-Pattern-Modeling Effort — ★★
   2-Layer entity-access (Access + Gap Expectation) — ★★
-  Excess → SPM atrophy mechanism — ★★★
+  Excess → Self-Pattern-Modeling atrophy mechanism — ★★★
   Genuine vs pseudo prediction complete — ★★
   Gap shift INTO entity ≠ compiled suppress (2-mechanism) — ★★
   3-Layer Calibration Architecture — ★★
@@ -1339,7 +1339,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
 ═══════════════════════════════════════
 
   3-Factor Model quantification (can Mức 0-5 be measured?)
-  B-dominant destination (measurable longitudinally?)
+  Compilable-dominant destination (measurable longitudinally?)
   Engine Mode dynamic shift (EEG/fMRI capture Tool↔Agent per-moment?)
   A:B:C:D ratio measurement (IAT/fMRI?)
   Overparenting as dysregulated reward loop (neural overlap, no direct test)
@@ -1369,7 +1369,7 @@ CÁI FRAMEWORK THÊM vs CÁI ĐÃ CÓ:
 | PFC-Operations.md v1.0 | §1-§7 | FOUNDATION: Hold/Suppress, Compiled/Fresh, PFC universal |
 | Valence-Propagation.md v2.0 | §3 | FOUNDATION: Entity-Compiled definition + 3 subtypes |
 | Body-Feedback-Mechanism.md v2.0 | §3.3c | FOUNDATION: Gap→Miss baseline mechanism |
-| Self-Pattern-Match.md v3.0 | §0-§3 | FOUNDATION: F1/F2, SPM as Simulation Engine application |
+| Self-Pattern-Modeling.md v3.0 | §0-§3 | FOUNDATION: Compiled/Fresh, Self-Pattern-Modeling as Simulation Engine application |
 | By-Product-Gap-Resonance.md v1.0 | §0, §1 | COMPANION: mutual phenomenon, resonance |
 | Connection.md v4.0 | §3, §9 | COMPANION: 2-tầng/2-luồng, 2-body calibration |
 | Compiled-Fresh.md v2.0 | §4, §6, §9, §10 | FOUNDATION: quality dimension, reversal, PFC budget |
@@ -1377,7 +1377,7 @@ CÁI FRAMEWORK THÊM vs CÁI ĐÃ CÓ:
 | Logic-Feeling-Balance.md v1.0 | §6-§7 | PARALLEL: infinite regress, domain feedback only |
 | Autonomy-Hardware.md v1.1 | §2 | FOUNDATION: vmPFC + DRN, autonomy violation detection |
 | Gap-Body-Need.md v2.0 | §2, §5, §13 | FOUNDATION: gap landscape, satiation types |
-| Resonance-Entity.md v2.0 | §1, §2 | FOUNDATION: hardware subsidy, RSA A:B |
+| Resonance-Entity.md v2.0 | §1, §2 | FOUNDATION: hardware subsidy, Hardwired:Compilable Architecture |
 | Gap-Distribution-Profile.md v1.0 | §8 | COMPANION: portfolio risk, diversification |
 | Body-Coupling.md v2.0 | §1 | COMPANION: coupling mechanism |
 | Love-Romantic.md v2.2 | §9-§11 | APPLICATION: romantic lifecycle |

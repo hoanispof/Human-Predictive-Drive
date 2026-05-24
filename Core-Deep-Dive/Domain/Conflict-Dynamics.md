@@ -1,3 +1,25 @@
+---
+title: Conflict Dynamics — Cơ Chế Xung Đột Ở Domain
+version: 1.1
+created: 2026-03-30 (v1.0 restructure từ Research/)
+refined: 2026-05-23 (v1.1 — YAML standardized. Concept Cascade: +Entity-Access, +Simulation-Engine, +Satiation types. Cross-refs updated)
+status: v1.1 REFERENCE FILE
+scope: |
+  Xung đột = OVERLAP × SCARCITY × COMMITMENT. Cơ chế CƠ BẢN của domain interaction.
+  Áp dụng ở MỌI scale: nội tâm → cặp đôi → tổ chức → quốc tế.
+  Scarcity = ENGINE buộc mở rộng domain.
+parent: Core-Deep-Dive/Domain/
+dependencies:
+  - Domain.md v1.0 — domain = thực tế bên ngoài human
+  - Imagine-Final.md v3.0 — shared Imagine-Final = collaborate/conflict
+  - Connection.md v5.0 — connection × conflict overlap
+  - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — overlap = accessing same point on gradient
+  - PFC/Simulation-Engine.md v1.0 — security dilemma = simulated threat
+  - Body-Feedback/Gap-Body-Need.md v1.0 — scarcity ↔ satiation dynamics
+language: Tiếng Việt primary + English technical terms
+confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+---
+
 # Conflict Dynamics — Cơ Chế Xung Đột Ở Domain
 
 > **Xung đột không bao giờ xảy ra vì hai bên KHÁC NHAU.**
@@ -472,6 +494,44 @@
 → Cortisol-Baseline.md: cortisol = change signal (xung đột → cortisol)
 → Innovation-Geography.md: trade hubs = scarcity → innovation → expansion
 → Core-v7.5-Draft.md §7: Domain = thực tế bên ngoài
+→ Entity-Access.md v1.2: overlap = accessing same point on gradient
+→ Simulation-Engine.md v1.0: security dilemma = simulated threat
+→ Gap-Body-Need.md v1.0: scarcity ↔ satiation dynamics
+→ Connection.md v5.0: connection × conflict (4-Layer Sustainability)
+```
+
+---
+
+## 11. Conflict × New Concepts (28-session Drill Propagation)
+
+```
+ENTITY-ACCESS × CONFLICT (Entity-Access.md v1.2):
+  → §1 OVERLAP reframe: 2 agents CONFLICT khi accessing SAME point on gradient
+    → Entity-Access Mức 3 (close friend): shared access → overlap risk HIGH
+    → Entity-Access Mức 1 (acquaintance): separate access → overlap risk LOW
+    → = Paradox: CLOSER entities = MORE overlap potential = MORE conflict potential
+  → §6 Chiến lược: expand gradient (create NEW access points) = phá overlap
+
+SIMULATION ENGINE × CONFLICT (Simulation-Engine.md v1.0):
+  → §5 Multi-Scale (security dilemma) = BOTH sides Simulation Engine draft threat:
+    A simulate: "nếu B attack → tôi thua" → preemptive action
+    B simulate: "A preparing → tôi phải chuẩn bị" → escalation
+    → = 2 Simulation Engines FEEDING each other threat scenarios
+    → = Arms race = Simulation Engine escalation spiral
+  → BREAK: external arbiter OR Simulation Engine draft COOPERATION scenario
+    → Need: trust (Entity-Access Mức 2+) to accept cooperation draft
+
+SATIATION × CONFLICT (Gap-Body-Need.md v1.0):
+  → §7 Scarcity as engine ↔ satiation dynamics:
+    VEHICLE satiation: bão hòa resource cụ thể → tự mở ra resource KHÁC → phá overlap
+    ROAD satiation: cùng path tranh giành → cần path MỚI → innovation = phá scarcity
+    ENGINE satiation: nếu drive mệt → de-commit → phá commitment
+  → = 3 satiation types = 3 natural CONFLICT RESOLUTION mechanisms
+  → Modern abundance: VEHICLE satiation tăng → nhiều alternatives → ít conflict
+
+🟡 Entity-Access × conflict = framework convergence (access gradient predicts overlap)
+🟡 Simulation Engine × conflict = framework application (escalation spiral)
+🟡 Satiation × conflict = framework application (3 natural resolution mechanisms)
 ```
 
 ---

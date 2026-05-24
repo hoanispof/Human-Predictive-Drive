@@ -1,8 +1,9 @@
 ---
 title: Neural-Architecture — Bản Đồ Sinh Lý Neural cho Framework
-version: 1.0
+version: 1.1
 created: 2026-04-19
-status: DRAFT v1.0
+refined: 2026-05-23 (v1.1 — Concept Cascade: +Simulation-Engine, +Entity-Access, +modality mapping refinement. Updated versions + cross-refs)
+status: v1.1 REFERENCE FILE
 scope: |
   Physical map của neural systems: PFC, Cortical Modality Areas,
   Subcortical Structures, Peripheral Neural Systems.
@@ -638,13 +639,26 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
 WITHIN FRAMEWORK:
   Neural-Processing-Flow.md — signal pathway detail (sensor → cortex → PFC)
   Modality-Analysis.md — modality encoding analysis
-  Chunk.md v2.0 — chunk mechanism on this substrate
+  Chunk.md v2.3 — chunk mechanism on this substrate
   Feeling.md v2.0 — feeling = PFC observation (maps to A reading B+C)
   Body-Feedback.md — body signals (maps to C+B generating, A observing)
   Cortisol-Baseline.md v2.0 — cortisol mechanism across A+B+C+D
   Core-v7.8-Draft.md — kiến trúc tổng thể uses this as physical map
-  Agent.md — agent function (maps to A+B social areas)
-  Empathy.md — SPM function (maps to A+B, reading C signals)
+  Agent-Mechanism.md v2.1 — agent function (maps to A+B social areas)
+  Empathy.md v4.0 — Self-Pattern-Modeling function (maps to A+B, reading C signals)
+
+NEW CONCEPT MAPPING (28-session Drill):
+  Simulation-Engine.md v1.0 — Zone A: PFC simulation = interoception × simulation × Self-Pattern-Modeling
+    → PFC (dlPFC, vmPFC) + hippocampus + default mode network
+    → = Simulation Engine neural substrate identified
+  Entity-Access.md v1.2 — Zone A+C: entity-access gradient maps to:
+    → Amygdala (C): per-entity valence tagging
+    → Hippocampus (C): per-entity memory consolidation
+    → PFC (A): per-entity access assessment
+    → = Entity-Access = distributed A+C network per-entity
+  Entity-Compiled.md v1.0 — Zone A+B+C: hub-and-spoke per-entity:
+    → Amygdala hub + hippocampal spokes + PFC executive access
+    → Dunbar ~150 = capacity constraint of this network
 
 KEY RESEARCH (by area):
   PFC: Fuster 1973, Goldman-Rakic 1995, Damasio 1994, Arnsten 2009
@@ -665,12 +679,15 @@ KEY RESEARCH (by area):
 
 ---
 
-> **Neural-Architecture.md v1.0 DRAFT**
+> **Neural-Architecture.md v1.1**
 >
 > Physical map: A (PFC) / B (Cortical Modality) / C (Subcortical) / D (Peripheral).
 > PFC accessibility = gradient, không binary.
 > Chunks compile across ALL zones — PFC involvement varies.
 > PFC = last to know (timing hierarchy: D→C→B→A).
+> Simulation Engine = Zone A (PFC + hippocampus + DMN).
+> Entity-Access/Entity-Compiled = Zone A+C distributed network.
 > "Unconscious" replaced by specific, verifiable, challengeable claims.
 >
-> Phiên bản: v1.0, 2026-04-19.
+> Phiên bản: v1.1, 2026-05-23.
+> v1.1: +Simulation Engine mapping, +Entity-Access/Entity-Compiled mapping, versions updated.

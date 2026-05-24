@@ -280,9 +280,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⚠️ LƯU Ý QUAN TRỌNG — REWARD ≠ SINGLE CHEMICAL:
     Reward = PROCESS multi-step, KHÔNG phải 1 chất duy nhất.
-    → Type A (evaluative): opioid = primary chemical. Cần H10. Phức tạp.
+    → Evaluative: opioid = primary chemical. Cần H10. Phức tạp.
       VD: nghe nhạc hay, giải puzzle, insight, connection sâu.
-    → Type B (direct state): NON-opioid (CT afferents, endocannabinoid).
+    → Direct-State: NON-opioid (CT afferents, endocannabinoid).
       VD: touch, ôm ấm, tập thể dục, warmth. Có từ sơ sinh.
     → KHÔNG thay "dopamine = reward" bằng "opioid = reward"
       — cả hai đều oversimplify.
@@ -430,7 +430,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     (framework organizing, consistent with neuroscience, chưa formalized elsewhere)
   → H10 5 preconditions (framework hypothesis, empirically testable)
   → 4-step mechanism (VTA → coherence → H10 → body-base signal) — framework integration
-  → Type A/B reward distinction (opioid vs non-opioid pathways)
+  → Evaluative/Direct-State reward distinction (opioid vs non-opioid pathways)
   → AI/human distinction re: PE (logical argument, testable)
 
 🔴 HYPOTHESIS (framework estimate, chưa đo lường):
@@ -441,7 +441,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⚠️ TÓM LẠI:
   → PE research = NỀN TẢNG. Đúng. Có giá trị. Framework kế thừa.
   → Framework KHÔNG bác bỏ Schultz 1997 hay Berridge.
-  → Framework MỞ RỘNG: thêm coherence + H10 + Type A/B cho con người.
+  → Framework MỞ RỘNG: thêm coherence + H10 + Evaluative/Direct-State cho con người.
   → Reward = PROCESS, không phải chemical (không opioid cũng không dopamine).
   → = Đặt PE đúng vị trí (Step 1 of 7), không phải bỏ PE.
   → = CLARIFICATION + EXTENSION, không phải rejection.
@@ -456,7 +456,7 @@ WITHIN FRAMEWORK:
   Body-Feedback-Label.md v2.0 — ⭐ VOCABULARY REFERENCE.
     Framework dùng "prediction-delta" thay cho PE / VTA delta.
     3-tier label system. 100% framework vocabulary.
-  Reward-Signal-Architecture.md — ⭐ Type A (opioid) vs Type B (non-opioid),
+  Reward-Signal-Architecture.md — ⭐ Evaluative (opioid) vs Direct-State (non-opioid),
     5 profiles, reward = PROCESS not chemical
   Gap-Direction.md — ⭐ 2-layer model formalizes PE vs reward:
     Layer 1 = signal mechanism (PE), Layer 2 = direction content (gap direction)

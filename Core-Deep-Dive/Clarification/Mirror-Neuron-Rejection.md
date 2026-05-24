@@ -7,7 +7,7 @@ scope: |
   TẠI SAO framework bác bỏ "mirror neuron" hardware chuyên biệt.
   3 positions so sánh (Rizzolatti innate / Heyes learned / Framework prediction model).
   7 bằng chứng chống hardware claim.
-  Alternative model: empathy = Self-Pattern-Match function on chunk substrate.
+  Alternative model: empathy = Self-Pattern-Modeling function on chunk substrate.
   Tích hợp + refine từ Mirror-Neuron-Analysis.md (backup).
 purpose: |
   File định vị rõ ràng cho mọi người đọc Agent/ folder:
@@ -16,7 +16,7 @@ purpose: |
 sources: |
   Mirror-Neuron-Analysis.md (~370L, backup/) — phân tích gốc, 3 mechanisms
   Agent.md §0.3 — "Hardware mirror module — already rejected"
-  Self-Pattern-Match.md §5 — developmental bootstrap
+  Self-Pattern-Modeling.md §5 — developmental bootstrap
   07-Social-Recognition-Arc — E9 cry contagion = pattern matching (decisive)
   Empathy.md v1.0 §1-§2 — redefine empathy, 3 mechanisms
 parent: Agent.md (integration hub)
@@ -36,7 +36,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > - Tại sao framework KHÔNG dùng khái niệm "mirror neuron"
 > - 3 vị trí trong debate (Rizzolatti / Heyes / Framework)
 > - 7 bằng chứng chống hardware claim
-> - Alternative: Self-Pattern-Match function on chunk substrate
+> - Alternative: Self-Pattern-Modeling function on chunk substrate
 
 ---
 
@@ -78,7 +78,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   → Empathy + Connection + Mirroring vẫn nghiên cứu siloed
   → Feldman (biobehavioral synchrony) + Predictive Processing = nỗ lực gần nhất
-  → Framework propose: Self-Pattern-Match as unifying mechanism
+  → Framework propose: Self-Pattern-Modeling as unifying mechanism
 ```
 
 ---
@@ -216,8 +216,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Hardware intact → mirror nên fire regardless of self-awareness
     → PREDICTION CONTRADICTED
 
-  Nếu SPM function on chunks:
-    → Poor self-chunks → poor templates → poor SPM → empathy deficit
+  Nếu Self-Pattern-Modeling function on chunks:
+    → Poor self-chunks → poor templates → poor Self-Pattern-Modeling → empathy deficit
     → Self-awareness = upstream prerequisite
     → PREDICTION CONFIRMED
 
@@ -259,7 +259,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   → Dehumanization: soldier suppress mirror cho enemy
     (Grossman On Killing 🟢: must dehumanize to kill)
-  → Schema override: negative schema → SPM blocked
+  → Schema override: negative schema → Self-Pattern-Modeling blocked
   → Mother-10-year case: hostile schema blocks empathy dù axes high
   → Sau chiến tranh: gate MỞ → PTSD (mirror retroactive flood)
 
@@ -312,7 +312,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Trẻ observe: "khi MẸ vui → MẸ chơi với mình"
       → Mapping: state MẸ ≈ state MÌNH (vì cùng modality: mặt, giọng, body)
       → "MẸ có state riêng, state đó GIỐNG cách MÌNH có state"
-      → = Self-Pattern-Match: dùng own-state để predict other-state
+      → = Self-Pattern-Modeling: dùng own-state để predict other-state
 
     BƯỚC 4 — Compile + generalize:
       → Lặp lại hàng nghìn lần → compiled thành pattern vô thức
@@ -330,7 +330,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       = PRE-MIRROR — arousal contagion, KHÔNG phải empathy
       → Không cần agent model, không cần self-chunks
 
-    ② AGENT MODELING = Self-Pattern-Match (learned, 14-24m+):
+    ② AGENT MODELING = Self-Pattern-Modeling (learned, 14-24m+):
       = TRUE EMPATHY — own-state → other-state mapping
       → Cần self-chunks, cần self-other distinction
 
@@ -385,7 +385,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ⑤ Chunk substrate integration:
       Heyes: abstract "learning" without specifying substrate
-      Framework: empathy = SPM function on CHUNK substrate
+      Framework: empathy = Self-Pattern-Modeling function on CHUNK substrate
         (Chunk.md v2.0 — strength-weighted associative network compiled through experience)
       → Framework specifies implementation level
 
@@ -433,7 +433,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 PARENT + SIBLINGS (Agent/ folder):
   → Agent.md §0.3 — "Hardware mirror module rejected" (1 line → THIS FILE for full analysis)
-  → Self-Pattern-Match.md §5 — developmental bootstrap (WHY self-chunks prerequisite)
+  → Self-Pattern-Modeling.md §5 — developmental bootstrap (WHY self-chunks prerequisite)
   → By-Product-Gap-Resonance.md — emergent mutual phenomenon (retrospective calibration)
 
 EMPATHY REFERENCE:

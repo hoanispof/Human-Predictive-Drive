@@ -356,7 +356,7 @@ IMPROVISER DRAFT MODE — COMT Val/Val (clear NHANH):
 §4.2 INTERPRETATION CŨ (có lỗ hổng — framework KHÔNG dùng) ❌:
 
   Narrative phổ biến:
-    "7R kém nhạy → ít sướng → phải novelty nhiều hơn để bù cho bằng"
+    "7R kém nhạy → ít pleasant → phải novelty nhiều hơn để bù cho bằng"
 
   LỖ HỔNG LOGIC:
     Nếu 7R receptor kém nhạy dopamine:
@@ -365,7 +365,7 @@ IMPROVISER DRAFT MODE — COMT Val/Val (clear NHANH):
       → Switch domain cần XÂY chunks nền → effort LỚN, reward NHỎ → tại sao chịu?
     Nếu 4R receptor nhạy hơn:
       → Novelty cho reward NHIỀU hơn → tại sao KHÔNG switch liên tục?
-      → Scroll MXH = sướng hơn → phải NGHIỆN hơn?
+      → Scroll MXH = pleasant hơn → phải NGHIỆN hơn?
     → Logic "kém nhạy → seek MORE" mâu thuẫn nội tại
     → COMT giải thích cùng behavior KHÔNG mâu thuẫn (§3)
 
@@ -374,8 +374,8 @@ IMPROVISER DRAFT MODE — COMT Val/Val (clear NHANH):
 
   CƠ SỞ:
     Berridge (1998, 2003): dopamine ≠ reward, dopamine = signal
-    → Dopamine KHÔNG gây sướng → chỉ THÔNG BÁO "chunk mới có giá trị"
-    → Sướng thật = opioid = body-base response khi confirm chunk có giá trị
+    → Dopamine KHÔNG gây pleasant → chỉ THÔNG BÁO "chunk mới có giá trị"
+    → Pleasant thật = opioid = body-base response khi confirm chunk có giá trị
 
   MÔ HÌNH:
     ① B+C neurons fire liên tục → thử đồng bộ → patterns hình thành
@@ -482,10 +482,10 @@ IMPROVISER DRAFT MODE — COMT Val/Val (clear NHANH):
 
   ⚠️ DRD4 = Hypothesis D (framework 🔴), NOT established.
   BUT consistent with observed individual differences in reward intensity.
-  AND: Type B reward = hardware-level → NOT affected by DRD4
-    (B below VTA threshold system → "democratic reward").
+  AND: Direct-State reward = hardware-level → NOT affected by DRD4
+    (Direct-State below VTA threshold system → "democratic reward").
 
-  → Chi tiết Type A/B: Reward-Signal-Architecture.md §1
+  → Chi tiết Evaluative/Direct-State: Reward-Signal-Architecture.md §1
   Source: Drill §3.22 ❹ (R8).
 ```
 
@@ -573,7 +573,7 @@ IMPROVISER DRAFT MODE — COMT Val/Val (clear NHANH):
 
      KHÔNG phải:
        ❌ "Hormone biến động NHANH hơn" (fluctuation speed ≈ giống nhau)
-       ❌ "Sướng ít hơn" (liking/opioid có thể giống nhau)
+       ❌ "Pleasant ít hơn" (liking/opioid có thể giống nhau)
        ❌ "Cần nhiều dopamine" (narrative DRD4 có lỗ hổng logic)
 
      MÀ LÀ:
@@ -837,19 +837,19 @@ TÓM GỌN VÒNG LẶP:
   │  breaker)    │              │ flow access  │ social threat│ relief sens.│
   ├──────────────┼──────────────┼──────────────┼──────────────┼─────────────┤
   │ μ-Opioid     │ HIGHEST      │ HIGH         │ HIGH         │ Moderate    │
-  │ receptor     │ (A₀-A₃ all   │ (coherence   │ (social bond │ (relief =   │
+  │ receptor     │ (E₀-E₃ all   │ (coherence   │ (social bond │ (relief =   │
   │ density      │ opioid)      │ → opioid)    │ opioid-aided)│ cortisol    │
   │              │              │              │              │ primarily)  │
   └──────────────┴──────────────┴──────────────┴──────────────┴─────────────┘
 
-  ⭐ TYPE B (touch, warmth, exercise) = LESS affected by ALL receptor systems:
-    → B = non-opioid, non-PFC, hardware-level pathways
-    → B reward = MORE EGALITARIAN across individuals
-    → Hardware individual differences = primarily TYPE A variation
-    → B = evolution's EQUALIZER ("democratic reward")
+  ⭐ DIRECT-STATE (touch, warmth, exercise) = LESS affected by ALL receptor systems:
+    → Direct-State = non-opioid, non-PFC, hardware-level pathways
+    → Direct-State reward = MORE EGALITARIAN across individuals
+    → Hardware individual differences = primarily EVALUATIVE variation
+    → Direct-State = evolution's EQUALIZER ("democratic reward")
 
-  → Type A: μ-opioid density + COMT + DRD4 → HIGHLY variable
-  → Type B: CT afferent density varies LESS across individuals
+  → Evaluative: μ-opioid density + COMT + DRD4 → HIGHLY variable
+  → Direct-State: CT afferent density varies LESS across individuals
   → = WHY body-based reward (touch, exercise) is "democratic"
 
   ⚠️ μ-opioid receptor density = 🟡 consistent with pharmacological
@@ -868,23 +868,23 @@ TÓM GỌN VÒNG LẶP:
   COMPRESSED DESCRIPTION uses 3 variables:
 
   ┌──────────────────────────────────────────────────────────┐
-  │ ① A/B Ratio:   Where on Type A ↔ Type B spectrum        │
+  │ ① Evaluative/Direct-State Ratio: Where on Evaluative ↔ Direct-State spectrum │
   │ ② Dom. Profile: Which of 5 profiles (①②③④⑤) STRONGEST  │
   │ ③ Breadth:      How many profiles ACTIVE (narrow ↔ broad)│
   └──────────────────────────────────────────────────────────┘
 
   EXAMPLES (illustrative, NOT measured):
 
-    Nhà vật lý: High A (90/10), Dominant ②, Moderate breadth (②+③+④)
-      → Intense coherence seeker, some social/relief, very little B
+    Nhà vật lý: High Evaluative (90/10), Dominant ②, Moderate breadth (②+③+④)
+      → Intense coherence seeker, some social/relief, very little Direct-State
 
-    Đầu bếp: Balanced A/B (60/40), Dominant ①, Narrow (①+④)
+    Đầu bếp: Balanced Evaluative/Direct-State (60/40), Dominant ①, Narrow (①+④)
       → Sensory-driven, relief from completion, significant body reward
 
-    Nhà trị liệu: Moderate A (55/45), Dominant ③, Broad (①②③④⑤)
+    Nhà trị liệu: Moderate Evaluative (55/45), Dominant ③, Broad (①②③④⑤)
       → Social reward primary, accesses ALL profiles
 
-    Vận động viên: Low A (30/70), Dominant B+④, Narrow
+    Vận động viên: Low Evaluative (30/70), Dominant Direct-State+④, Narrow
       → Body-driven, relief from exertion, minimal coherence/social
 
   → "Personality" re: reward = this 3-variable profile
@@ -928,7 +928,7 @@ TÓM GỌN VÒNG LẶP:
   COMT × Childhood trajectories (§3.5) — 4 combos, framework synthesis (v1.1)
   4 Receptor Systems × 5 Profiles (§8b) — cross-mapping, not established (v1.1)
   3-Variable Shorthand (§8c) — practical but lossy compression (v1.1)
-  Type B "democratic reward" — less hardware-variable (v1.1)
+  Direct-State "democratic reward" — less hardware-variable (v1.1)
 
 🔴 NEEDS MORE RESEARCH:
   DRD4 Hypothesis D (chunk threshold) — testable, chưa ai test
@@ -943,7 +943,7 @@ TÓM GỌN VÒNG LẶP:
 🔴 TESTABLE PREDICTIONS (v1.1):
   P-R8a: COMT Val/Val → shorter flow, more domain-switches
     → Met/Met → longer flow, fewer domain switches
-  P-R8b: Type B reward sensitivity has LOWER individual variance than Type A
+  P-R8b: Direct-State reward sensitivity has LOWER individual variance than Evaluative
     → B SD < A SD (B = hardware, A = compilation-dependent)
   P-R8d: Met/Met + 7R = HIGHEST variance in life satisfaction
     → BIMODAL: very high (right domain) OR very low (wrong domain)
@@ -964,9 +964,9 @@ PHYSICAL MAP:
   Neural-Architecture.md §2 — sub-regions, connectivity
 
 REWARD (v1.1 NEW):
-  Reward-Signal-Architecture.md v1.0 — Type A/B, 5 Profiles, A₀→A₃
-    → §3.4 COMT×Reward maps to RSA §4 (profiles)
-    → §8b Receptor×Profiles maps to RSA §8.5 (individual differences)
+  Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, 5 Profiles, E₀→E₃
+    → §3.4 COMT×Reward maps to Reward-Signal-Architecture §4 (profiles)
+    → §8b Receptor×Profiles maps to Reward-Signal-Architecture §8.5 (individual differences)
   03-Reward.md — H10 preconditions, 7-step VTA
   Dopamine-Is-Not-Reward.md — Berridge, wanting ≠ liking
   Liking-Wanting.md — wanting × liking mechanisms
@@ -999,6 +999,6 @@ OLD FILE (backup):
 > Observed Capacity = Hardware × Chunks × Cortisol × Context.
 > Improviser vs Specialist = COMT draft management, không phải reward sensitivity.
 > v1.1: COMT×Reward, COMT×Childhood, DRD4×Reward, COMT×DRD4 interaction,
->   4 Receptors × 5 Profiles, 3-Variable Shorthand, Type B "democratic reward."
+>   4 Receptors × 5 Profiles, 3-Variable Shorthand, Direct-State "democratic reward."
 >
 > Phiên bản: v1.1, 2026-05-10.

@@ -1,9 +1,10 @@
 ---
 title: Obligation — Observation Parameter
-version: 1.1
+version: 1.2
 created: 2026-04-25
-updated: 2026-05-17 v1.1 — +Architecture B, +By-product match (exchange), +PFC=Lawyer, +3-cost, Entity-Compiled rename, version refs sync
-status: OBSERVATION PARAMETER v1.1
+updated: 2026-05-17 v1.1 — +Compilable Architecture, +By-product match (exchange), +PFC=Lawyer, +3-cost, Entity-Compiled rename, version refs sync
+refined: 2026-05-23 (v1.2 — Concept Cascade: +Entity-Access, +Bond-Architecture, +Hardware Subsidy. Updated versions + cross-refs)
+status: OBSERVATION PARAMETER v1.2
 scope: |
   OBSERVATION FILE: Obligation = named pattern khi quan sát COMPILED PREDICTION
   về "cost phải trả" để MAINTAIN access tới agent-as-external-tool.
@@ -14,7 +15,7 @@ scope: |
   Obligation = TÔI TỐN GÌ ĐỂ GIỮ access.
   File này mô tả: mechanism hình thành (4 stages), 5-factor formula + Status Gap
   multiplier, 6-type spectrum, Exchange foundation, Access Cost (mode shift),
-  3 cơ chế độc lập (L2 buffer + SPM input + Obligation predict),
+  3 cơ chế độc lập (L2 buffer + Self-Pattern-Modeling input + Obligation predict),
   developmental trajectory, individual → community scaling, cross-parameters.
 purpose: |
   Core v7.8 §8 cần bổ sung observation parameter MỚI.
@@ -25,17 +26,17 @@ purpose: |
   ④ 6 types spectrum (explicit-bounded → implicit-unbounded)
   ⑤ Trao đổi = mode phổ biến nhất + Tiền = obligation technology
   ⑥ Access Cost: mode shift khi nhờ agent status cao hơn
-  ⑦ 3 cơ chế độc lập tương tác: Obligation + L2 + SPM
+  ⑦ 3 cơ chế độc lập tương tác: Obligation + L2 + Self-Pattern-Modeling
   ⑧ Parenting → obligation calibration (developmental)
   ⑨ Individual → community scaling
   ⑩ Cross-parameters (×Gratitude, ×Autonomy, ×Threat, ×Status, ×Meaning, ×Protect)
   v1.1 KEY CHANGES:
-  ⑪ Architecture B framing: obligation = tracking emergent từ general-purpose system
+  ⑪ Compilable Architecture framing: obligation = tracking emergent từ general-purpose system
   ⑫ By-product match: exchange = mutual by-product matching (Inter-Body §5.4)
   ⑬ PFC=Lawyer: PFC rationalize/suppress obligation assessment (Inter-Body §7)
   ⑭ 3-cost model: obligation fulfillment cost = PFC draft + Suppress + Uncertainty
   ⑮ Entity-Compiled rename (từ Entity-Owned)
-  ⑯ F1 Compiled / F2 Fresh label (từ F1 Feeling / F2 Logic)
+  ⑯ Compiled / Fresh label (từ Compiled Feeling / Fresh Logic)
 position: |
   Core-Deep-Dive/Observation/ — ngang hàng Gratitude.md, Meaning.md, Status.md,
   Connection.md, Empathy.md, Protect.md, Autonomy-Hardware.md, etc.
@@ -53,10 +54,10 @@ dependencies:
   - Protect.md — f(replaceability × attachment), loss aversion
   - Body-Feedback-Mechanism.md — Chunk-Gap (§3.3), cortisol holding, prediction
   - Cortisol-Baseline.md v2.0 — amplifier, sustained monitoring
-  - Empathy.md v3.0 — SPM F1/F2, community-level mechanism
+  - Empathy.md v3.0 — Self-Pattern-Modeling Compiled/Fresh, community-level mechanism
   - Meaning.md v2.0 — §7.7 ×Gratitude, life-level Anchor-Schema
   - Chunk.md v2.0 — chunk substrate, compilation
-  - Inter-Body-Mechanism.md v1.0 — §1.2 Architecture B, §4 3-cost, §5.4 by-product match, §7 PFC=Lawyer
+  - Inter-Body-Mechanism.md v1.0 — §1.2 Compilable Architecture, §4 3-cost, §5.4 by-product match, §7 PFC=Lawyer
   - Body-Feedback-Label.md v2.0 — vocabulary reference, 3-tier labels, prediction-delta
 sources_backup: |
   v0.1: Obligation-Outline.md → backup/Obligation-Outline-v0.1-backup.md
@@ -132,14 +133,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Boredom (dissonance + Imagine-Final unclear)
     → = 1 mechanism → 1 observation
 
-  TẦNG 3 — Social observation (SPM required):
+  TẦNG 3 — Social observation (Self-Pattern-Modeling required):
     → Status (Resource Access Map)
-    → Connection (❶ hardware + ❷ SPM engage agents)
+    → Connection (❶ hardware + ❷ Self-Pattern-Modeling engage agents)
     → Protect (ownership + loss aversion)
-    → = CẦN SPM → agent-aware
+    → = CẦN Self-Pattern-Modeling → agent-aware
 
   TẦNG 4 — Integrative observation (multiple sub-systems):
-    → Empathy (SPM F1 + ❸ positive → simulate other)
+    → Empathy (Self-Pattern-Modeling Compiled + ❸ positive → simulate other)
     → Meaning (life-level Anchor-Schema ổn định)
     → Autonomy (efference copy + controllability)
     → = CẦN nhiều sub-systems → integration
@@ -152,11 +153,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ OBLIGATION = TẦNG 3-4 (SPANS):
 
     TYPE 1-2 (Financial, Exchange): Tầng 3
-      → Cần: PFC + basic reciprocity chunks + SPM cơ bản
+      → Cần: PFC + basic reciprocity chunks + Self-Pattern-Modeling cơ bản
       → "Tôi vay $50 → trả $50" = simple tracking
 
     TYPE 3-4 (Ân tình, Role): Tầng 4
-      → Cần: PFC + SPM + accumulated chunk history + Status awareness
+      → Cần: PFC + Self-Pattern-Modeling + accumulated chunk history + Status awareness
       → "Anh B cho mượn tiền → phải trả gì? bao nhiêu?" = integrative
 
     TYPE 5-6 (Identity, Compound): Tầng 4+
@@ -229,7 +230,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Chunk history COMPILE: "khi nhận từ agent → thường phải trả"
     (accumulated từ NHIỀU past real experiences — §2)
       ↓
-    Chunk-Gap emerge (BFM §3.3):
+    Chunk-Gap emerge (Body-Feedback-Mechanism §3.3):
     "tôi NHẬN → tôi NÊN trả → tôi CHƯA trả" = network inconsistency
       ↓
     Cortisol holding signal fire:
@@ -254,26 +255,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Trẻ chưa có experience → chưa compile → chưa predict → chưa có obligation
 
 
-  ⭐ ARCHITECTURE B — TẠI SAO OBLIGATION TỒN TẠI:
+  ⭐ COMPILABLE ARCHITECTURE — TẠI SAO OBLIGATION TỒN TẠI:
 
-    Inter-Body-Mechanism.md §1.2: Con người dùng Architecture B
+    Inter-Body-Mechanism.md §1.2: Con người dùng Compilable Architecture
     (general-purpose reward + compilation + social hardware + PFC).
 
-    Architecture A (côn trùng): hardwired circuit riêng cho từng need
+    Hardwired Architecture (côn trùng): hardwired circuit riêng cho từng need
       → food→reward, mate→reward — KHÔNG CẦN tracking, KHÔNG CẦN agent
-    Architecture B (con người): general-purpose, LEARN từ environment
+    Compilable Architecture (con người): general-purpose, LEARN từ environment
       → Cần 15-20 NĂM compile → DEPENDENT on agents suốt childhood
       → Adult vẫn dependent: chuyên môn hóa → KHÔNG tự làm mọi thứ
       → = NEED agents as external tools → NEED TRACKING mechanism
 
-    Obligation = tracking mechanism EMERGENT từ Architecture B:
+    Obligation = tracking mechanism EMERGENT từ Compilable Architecture:
       → Không phải "social module" riêng biệt
       → Không phải "moral circuit" hardwired
       → = General-purpose compilation system TÍCH LŨY reciprocity patterns
       → = Cùng mechanism compile "nóng → rút tay" cũng compile "nhờ → phải trả"
       → = Obligation KHÔNG PHẢI special — chỉ là compilation applied to SOCIAL DOMAIN
 
-    TẠI SAO Architecture A KHÔNG CẦN obligation:
+    TẠI SAO Hardwired Architecture KHÔNG CẦN obligation:
       → Côn trùng: no extended dependency → no agent tracking needed
       → Mỗi individual = self-sufficient (hardwired cho MỌI need)
       → = No exchange → no obligation
@@ -281,11 +282,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Obligation = ARCHITECTURAL CONSEQUENCE of being general-purpose learners
     → = Cái giá của flexibility: cần agents → cần track cost → obligation emerges
 
-    🟡 Architecture B → obligation as emergent tracking = framework synthesis
+    🟡 Compilable Architecture → obligation as emergent tracking = framework synthesis
       (Inter-Body-Mechanism.md §1.2)
 
     🟡 "Compiled prediction, not imagination" = framework synthesis
-    🟢 Chunk compilation mechanism = established (Chunk.md, BFM.md)
+    🟢 Chunk compilation mechanism = established (Chunk.md, Body-Feedback-Mechanism.md)
     🟢 Reciprocity expectation = developmental research (Piaget, Kohlberg)
 ```
 
@@ -493,7 +494,7 @@ OBLIGATION KHÔNG PHẢI:
 ```
 OBLIGATION CÓ BODY SIGNALS THẬT:
 
-  CORTISOL HOLDING — Role ② (Cortisol-Baseline §7.7, BFM §3.3):
+  CORTISOL HOLDING — Role ② (Cortisol-Baseline §7.7, Body-Feedback-Mechanism §3.3):
     → Obligation pending = Chunk-Gap: "cần resolve"
     → Body fire cortisol holding signal → sustained low-level
     → PFC BUỘC quay lại check → "đã trả chưa? plan gì?"
@@ -1007,7 +1008,7 @@ TYPE 5 — IDENTITY:
     Exchange: chồng value vợ xinh → obligation ≈ 0 ("chỉ cần vui vẻ")
     Cost ≈ 0 (sẵn xinh = no effort needed)
     Autonomy: CAO (tự do làm gì muốn, miễn giới hạn)
-    → NHƯNG: Baseline Shift sẽ kick in (BFM §5):
+    → NHƯNG: Baseline Shift sẽ kick in (Body-Feedback-Mechanism §5):
       "Xinh" habituate → chồng adapt → demand MORE → obligation TĂNG dần
     → = Obligation có thể INFLATE theo thời gian khi baseline shift
     → = Dynamic: obligation hôm nay ≠ obligation năm sau
@@ -1337,13 +1338,13 @@ ACCESS COST QUÁ CAO → GIẢM COOPERATION:
   3 thứ này = 3 CƠ CHẾ KHÁC NHAU hoàn toàn:
 
   ┌─────────────────────┬────────────────┬────────────────┬────────────────┐
-  │                     │ OBLIGATION     │ L2 (Entity-    │ SPM            │
+  │                     │ OBLIGATION     │ L2 (Entity-    │ Self-Pattern-Modeling            │
   │                     │ (Prediction)   │ Compiled)      │ (Input)        │
   ├─────────────────────┼────────────────┼────────────────┼────────────────┤
   │ Bản chất            │ PFC prediction │ Compiled       │ Simulate       │
   │                     │ of cost        │ valence        │ agent state    │
   ├─────────────────────┼────────────────┼────────────────┼────────────────┤
-  │ Nguồn               │ Chunk history  │ Repeated       │ SPM F1/F2      │
+  │ Nguồn               │ Chunk history  │ Repeated       │ Self-Pattern-Modeling Compiled/Fresh      │
   │                     │ of reciprocity │ interaction    │ mechanism      │
   │                     │                │ → body-ext     │                │
   ├─────────────────────┼────────────────┼────────────────┼────────────────┤
@@ -1361,8 +1362,8 @@ ACCESS COST QUÁ CAO → GIẢM COOPERATION:
   EVIDENCE — 3 cơ chế ĐỘC LẬP:
     Valence-Propagation.md line 355: "2 luồng INDEPENDENT, có thể CONFLICT"
     → L2 = structural, compiled valence — KHÔNG PHẢI obligation
-    → SPM = simulate agent state — KHÔNG PHẢI obligation hay L2
-    → Obligation = cost prediction — KHÔNG PHẢI L2 hay SPM
+    → Self-Pattern-Modeling = simulate agent state — KHÔNG PHẢI obligation hay L2
+    → Obligation = cost prediction — KHÔNG PHẢI L2 hay Self-Pattern-Modeling
     → 3 cơ chế CÓ THỂ fire independently, đồng thời, hoặc conflict
 ```
 
@@ -1372,7 +1373,7 @@ ACCESS COST QUÁ CAO → GIẢM COOPERATION:
 L2 (ENTITY-OWNED) = BUFFER GIẢM FELT-COST CỦA OBLIGATION:
 
   Mechanism:
-    L2 = agent TRỞ THÀNH body-base extension (VP §2)
+    L2 = agent TRỞ THÀNH body-base extension (Valence-Propagation §2)
     → Agent's wellbeing = MY wellbeing (structural)
     → Khi fulfill obligation toward L2 agent:
       "Giúp agent" = "feed body-base MÌNH" (structural reward)
@@ -1410,39 +1411,39 @@ L2 (ENTITY-OWNED) = BUFFER GIẢM FELT-COST CỦA OBLIGATION:
     (family caregivers report more positive affect than professional caregivers)
 ```
 
-### §7.3 — SPM = Independent INPUT
+### §7.3 — Self-Pattern-Modeling = Independent INPUT
 
 ```
-SPM (SELF-PATTERN-MATCH) = INPUT CHO OBLIGATION PREDICTION:
+Self-Pattern-Modeling (SELF-PATTERN-MATCH) = INPUT CHO OBLIGATION PREDICTION:
 
   Mechanism:
-    SPM F1: simulate agent's emotional state
-    SPM F2: predict agent's behavior, expectations
-    → F2 output = INPUT cho obligation prediction:
-      "Agent ĐANG KỲ VỌNG gì ở tôi?" → F2 predict
-      → PFC dùng F2 prediction + chunk history → obligation estimate
+    Self-Pattern-Modeling Compiled: simulate agent's emotional state
+    Self-Pattern-Modeling Fresh: predict agent's behavior, expectations
+    → Fresh output = INPUT cho obligation prediction:
+      "Agent ĐANG KỲ VỌNG gì ở tôi?" → Fresh predict
+      → PFC dùng Fresh prediction + chunk history → obligation estimate
 
-  BETTER SPM → BETTER PREDICTION → LESS OVERTHINKING:
-    SPM accurate: "anh B vui vẻ, không có ý đòi" → obligation predict ↓ → relax
-    SPM inaccurate: "anh B... muốn gì?? thái độ lạ??" → obligation predict ↑ → anxious
-    → = SPM quality = key input cho obligation accuracy
+  BETTER Self-Pattern-Modeling → BETTER PREDICTION → LESS OVERTHINKING:
+    Self-Pattern-Modeling accurate: "anh B vui vẻ, không có ý đòi" → obligation predict ↓ → relax
+    Self-Pattern-Modeling inaccurate: "anh B... muốn gì?? thái độ lạ??" → obligation predict ↑ → anxious
+    → = Self-Pattern-Modeling quality = key input cho obligation accuracy
 
-  SPM FAILURE CASES:
-    → Low SPM (alexithymia, autism spectrum):
+  Self-Pattern-Modeling FAILURE CASES:
+    → Low Self-Pattern-Modeling (alexithymia, autism spectrum):
       KHÔNG đọc được agent expectations → obligation predict = random
       → Either over-estimate (anxiety) hoặc under-estimate (social friction)
-    → Over-active SPM (high empathy + anxiety):
+    → Over-active Self-Pattern-Modeling (high empathy + anxiety):
       READ INTO agent's state quá nhiều → over-interpret → over-predict obligation
       → "Bạn nhíu mày → chắc bạn không vui → chắc tại tôi chưa trả ơn"
-      → = Overthinking amplified bởi SPM over-firing
+      → = Overthinking amplified bởi Self-Pattern-Modeling over-firing
 
-  SPM ĐỘC LẬP VỚI OBLIGATION:
-    → SPM fire trên AGENT KHÁC (không nhờ vả gì) → KHÔNG có obligation
-    → Obligation exist KHÔNG CẦN SPM real-time
+  Self-Pattern-Modeling ĐỘC LẬP VỚI OBLIGATION:
+    → Self-Pattern-Modeling fire trên AGENT KHÁC (không nhờ vả gì) → KHÔNG có obligation
+    → Obligation exist KHÔNG CẦN Self-Pattern-Modeling real-time
       (compiled obligation fire ngay cả khi agent VẮNG MẶT)
     → 2 cơ chế có thể fire INDEPENDENTLY
 
-  🟡 SPM as independent input to obligation = framework synthesis
+  🟡 Self-Pattern-Modeling as independent input to obligation = framework synthesis
   🟢 Theory of Mind predicts social reciprocity behavior (research support)
 ```
 
@@ -1452,36 +1453,36 @@ SPM (SELF-PATTERN-MATCH) = INPUT CHO OBLIGATION PREDICTION:
 ⭐ MA TRẬN TƯƠNG TÁC 3 CƠ CHẾ:
 
   ┌─────────────────┬────────┬─────────────────┬──────────────────────────┐
-  │ Case            │ Oblig. │ L2 buffer       │ SPM input                │
+  │ Case            │ Oblig. │ L2 buffer       │ Self-Pattern-Modeling input                │
   ├─────────────────┼────────┼─────────────────┼──────────────────────────┤
-  │ Chăm mẹ ốm     │ HIGH   │ HIGH → net LOW  │ F1: đau cùng mẹ         │
-  │                 │        │                 │ F2: mẹ cần chăm sóc cụ  │
+  │ Chăm mẹ ốm     │ HIGH   │ HIGH → net LOW  │ Compiled: đau cùng mẹ         │
+  │                 │        │                 │ Fresh: mẹ cần chăm sóc cụ  │
   │                 │        │                 │ thể → plan accurate      │
   ├─────────────────┼────────┼─────────────────┼──────────────────────────┤
-  │ Nợ ân tình      │ HIGH   │ VARIES          │ F2: "anh B muốn gì?"    │
+  │ Nợ ân tình      │ HIGH   │ VARIES          │ Fresh: "anh B muốn gì?"    │
   │ anh B           │ (mờ)   │ (tùy L2 depth)  │ → predict UNCERTAIN      │
   │                 │        │                 │ → overthinking           │
   ├─────────────────┼────────┼─────────────────┼──────────────────────────┤
-  │ Bác sĩ +        │ HIGH   │ ≈ 0 → net HIGH  │ F1: cost from simulate  │
-  │ bệnh nhân lạ   │        │                 │ F2: medical plan OK      │
+  │ Bác sĩ +        │ HIGH   │ ≈ 0 → net HIGH  │ Compiled: cost from simulate  │
+  │ bệnh nhân lạ   │        │                 │ Fresh: medical plan OK      │
   │                 │        │                 │ nhưng no L2 → burnout    │
   ├─────────────────┼────────┼─────────────────┼──────────────────────────┤
-  │ Giúp bạn thân   │ LOW    │ HIGH → POSITIVE │ F1: vui lây (L1)        │
-  │ (trao đổi nhẹ)  │        │                 │ F2: biết bạn cần gì     │
+  │ Giúp bạn thân   │ LOW    │ HIGH → POSITIVE │ Compiled: vui lây (L1)        │
+  │ (trao đổi nhẹ)  │        │                 │ Fresh: biết bạn cần gì     │
   │                 │        │                 │ → plan easy              │
   ├─────────────────┼────────┼─────────────────┼──────────────────────────┤
   │ Lương ↔ làm     │ ≈ 0    │ ≈ 0             │ Not relevant (exchange)  │
   │ việc (exchange)  │ (sym)  │                 │                          │
   ├─────────────────┼────────┼─────────────────┼──────────────────────────┤
-  │ Từ thiện cho    │ ≈ 0    │ MODERATE         │ F1: community feel good  │
-  │ cộng đồng      │        │ (community-ext)  │ F2: N/A (no specific     │
+  │ Từ thiện cho    │ ≈ 0    │ MODERATE         │ Compiled: community feel good  │
+  │ cộng đồng      │        │ (community-ext)  │ Fresh: N/A (no specific     │
   │                 │        │                 │ agent expect)             │
   └─────────────────┴────────┴─────────────────┴──────────────────────────┘
 
   ⭐ 3 CƠ CHẾ GIẢI THÍCH TẠI SAO "CÙNG HÀNH ĐỘNG, KHÁC CẢM GIÁC":
     Cùng "giúp người ốm" nhưng:
-      Mẹ ốm: Obligation HIGH + L2 HIGH + SPM deep → net = VUI
-      Bệnh nhân lạ: Obligation HIGH + L2 ≈ 0 + SPM surface → net = MỆT
+      Mẹ ốm: Obligation HIGH + L2 HIGH + Self-Pattern-Modeling deep → net = VUI
+      Bệnh nhân lạ: Obligation HIGH + L2 ≈ 0 + Self-Pattern-Modeling surface → net = MỆT
     → = Hành động GIỐNG, 3 cơ chế KHÁC → trải nghiệm KHÁC
 
   🟡 3-mechanism interaction model = framework synthesis
@@ -1498,7 +1499,7 @@ SPM (SELF-PATTERN-MATCH) = INPUT CHO OBLIGATION PREDICTION:
 
   ① Chunk history: đã TRẢI QUA reciprocity situations
   ② PFC sufficient: dự đoán được future cost
-  ③ SPM sufficient: detect được agent expectations
+  ③ Self-Pattern-Modeling sufficient: detect được agent expectations
 
   → Cả 3 DEVELOP dần → obligation xuất hiện GRADUALLY:
 
@@ -1507,7 +1508,7 @@ SPM (SELF-PATTERN-MATCH) = INPUT CHO OBLIGATION PREDICTION:
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
     → Nhận mọi thứ từ bố mẹ → body: pure reward, no cost
     → PFC chưa đủ mature → không predict future cost
-    → SPM sơ khai → không detect parent expectations
+    → Self-Pattern-Modeling sơ khai → không detect parent expectations
     → = Obligation ≈ 0 (chưa có gì để compile)
 
   3-5 TUỔI: INSTALLED SCHEMAS (external, chưa internal)
@@ -1523,7 +1524,7 @@ SPM (SELF-PATTERN-MATCH) = INPUT CHO OBLIGATION PREDICTION:
     → "Tôi cho bạn kẹo → bạn KHÔNG cho lại" → body: unfair! → valence ↓
     → "Tôi giúp bạn → bạn giúp lại" → body: fair → valence ↑
     → = First COMPILATION: "cho → có thể nhận lại (hoặc không)"
-    → SPM bắt đầu detect: bạn ĐANG muốn gì từ tôi?
+    → Self-Pattern-Modeling bắt đầu detect: bạn ĐANG muốn gì từ tôi?
     → = Obligation prediction BẮT ĐẦU nhưng SƠ KHAI
 
   7-12 TUỔI: COMPILATION TĂNG TỐC
@@ -1532,7 +1533,7 @@ SPM (SELF-PATTERN-MATCH) = INPUT CHO OBLIGATION PREDICTION:
     → "Mẹ bắt rửa bát, quét nhà dù không thích" = obligation IMPOSED → compile COST
     → "Nhờ bạn giải toán → bạn đòi giấy, tẩy, làm mất" → compile: reciprocity UNFAIR
     → PFC đủ mạnh: predict multi-step consequences
-    → SPM sharpen: detect agent expectations chính xác hơn
+    → Self-Pattern-Modeling sharpen: detect agent expectations chính xác hơn
     → Piaget: "autonomous morality" = reciprocity understood
 
   12+ TUỔI: COMPLEX OBLIGATION AWARENESS
@@ -1635,7 +1636,7 @@ SPM (SELF-PATTERN-MATCH) = INPUT CHO OBLIGATION PREDICTION:
 
   ⚠️ OBLIGATION CÓ THỂ TRAP TRONG NON-RESONANT INTERACTION:
     Khi parent-child Resonance Baseline thấp (khác tính) + obligation mạnh:
-    → Child buộc engage dù SPM fail → suppress + perform → "functional avoidant"
+    → Child buộc engage dù Self-Pattern-Modeling fail → suppress + perform → "functional avoidant"
     → Obligation DUY TRÌ interaction mà Resonance KHÔNG emerge
     → Chi tiết: By-Product-Gap-Resonance.md §7.9, Love-Analysis §7.3c biến ⑤ × ⑦
 
@@ -1789,7 +1790,7 @@ COUNTRY/HUMANITY LEVEL:
 OBLIGATION × GRATITUDE — INVERSE:
 
   Gratitude.md §5: Gift Valence formula:
-    Gift_Valence = Feed × Comparison × Source × SPM × (1/Obligation) × Autonomy
+    Gift_Valence = Feed × Comparison × Source × Self-Pattern-Modeling × (1/Obligation) × Autonomy
   → Obligation ở MẪU SỐ → INVERSE relationship
 
   Obligation ↑ → Gratitude ↓:
@@ -1945,7 +1946,7 @@ OBLIGATION × PROTECT — SHARED FACTOR:
 OBLIGATION × CONNECTION — GENERATIVE:
 
   Connection.md §5 ④: Giving reward pathway:
-    Mình thừa → SPM detect bạn thiếu → share → bạn improve → mirror reward
+    Mình thừa → Self-Pattern-Modeling detect bạn thiếu → share → bạn improve → mirror reward
 
   Giving = SEED cho obligation:
     → Người cho: feel giving reward (L1 + L2)
@@ -1956,6 +1957,39 @@ OBLIGATION × CONNECTION — GENERATIVE:
   Connection.md §8: Virtual chunks access:
     → Obligation tracking = maintain access to virtual chunks network
     → = Obligation → stable exchange → stable virtual chunks → civilization
+```
+
+### §10.8 — × New Concepts (28-session Drill Propagation)
+
+```
+ENTITY-ACCESS × OBLIGATION (Entity-Access.md v1.2):
+  → Obligation = PERCEIVED ACCESS COST per-entity:
+    Mức 5 (con/self): obligation ÍT (hardware subsidy = "miễn phí")
+    Mức 3 (bạn thân): obligation VỪA (reciprocal exchange compiled)
+    Mức 1 (acquaintance): obligation CAO per-interaction (chưa compiled)
+    Mức 0 (stranger): obligation = EXPLICIT contract (tiền, quy tắc)
+  → Entity-Access gradient PREDICT obligation weight per-entity
+  → §6 Access Cost = Entity-Access gradient applied to obligation
+
+BOND-ARCHITECTURE × OBLIGATION (Bond-Architecture.md v1.0):
+  → 4 bond types → 4 obligation profiles:
+    Proximity: obligation = "ở đây" → implicit, low explicit cost
+    Shared-Experience: obligation = "cùng đóng góp" → effort-based
+    Reciprocal: obligation = "cho lại" → most explicit, trackable
+    Identity: obligation = "tuân theo" → norm-based, group pressure
+  → Type 4 (§4) EXPLICIT-BOUNDED ≈ reciprocal bond obligation
+  → Type 1 (§4) IMPLICIT-UNBOUNDED ≈ identity bond obligation
+
+HARDWARE SUBSIDY × OBLIGATION (Valence-Propagation v3.0 §5):
+  → Hardware subsidy REDUCE perceived obligation:
+    Body cung cấp baseline "chăm con = MIỄN PHÍ" → obligation ≈ 0
+    Body KHÔNG cung cấp baseline "giúp stranger" → obligation = FULL COST
+  → = TẠI SAO chăm con = "không thấy mệt" (hardware subsidy cover cost)
+  → = TẠI SAO giúp stranger = "mệt rõ ràng" (no subsidy, full PFC draft)
+
+🟡 Entity-Access × obligation = framework convergence (access cost)
+🟡 Bond-Architecture × obligation = framework application (4 profiles)
+🟡 Hardware Subsidy × obligation = framework explanation (cost reduction)
 ```
 
 ---
@@ -1976,7 +2010,7 @@ Case 1: Trẻ nhờ bạn giải toán → bạn xin giấy, mượn tẩy, làm
   
   → Obligation: THẤP → TYPE 2 (exchange, ngang)
   → L2: THẤP (bạn cùng lớp, chưa deep)
-  → SPM: đọc được "bạn tỏ ra bình thản" → detect: bạn KHÔNG feel obligated
+  → Self-Pattern-Modeling: đọc được "bạn tỏ ra bình thản" → detect: bạn KHÔNG feel obligated
 
   Body response:
     → "Chả nợ nần gì nhau cả" = obligation RESOLVED (cả 2 chiều)
@@ -2047,8 +2081,8 @@ Case 4: Nhân viên xin sếp nghỉ sớm đón con
   Đặc biệt — NGƯỜI MỚI:
     → PFC KHÔNG có chunk history → prediction = uncertain
     → Novelty threat: "sếp CHƯA BAO GIỜ gặp request này từ tôi?"
-    → SPM uncertain: "sếp sẽ phản ứng thế nào?"
-    → → Access cost INFLATED bởi triple uncertainty (history + novelty + SPM)
+    → Self-Pattern-Modeling uncertain: "sếp sẽ phản ứng thế nào?"
+    → → Access cost INFLATED bởi triple uncertainty (history + novelty + Self-Pattern-Modeling)
     → → "Rất sợ phải nhờ" = access cost visible
 ```
 
@@ -2081,7 +2115,7 @@ Case 6: Vợ mới cưới xinh, chồng đi làm, vợ ở nhà
     Autonomy: CAO (tự do, miễn giới hạn)
     → Obligation ≈ 0 → near-ideal
 
-  NHƯNG — Baseline Shift sẽ kick in (BFM §5):
+  NHƯNG — Baseline Shift sẽ kick in (Body-Feedback-Mechanism §5):
     "Xinh" habituate → chồng adapt → value GIẢM → demand MORE
     → Obligation INFLATE theo thời gian:
       Year 1: "vui vẻ là đủ"
@@ -2242,13 +2276,13 @@ Case 10: "Tôi thích cộng đồng, mọi người tốt bụng, tôi giúp kh
   → Tiền = obligation technology (4 functions)
   → "Ân tình tồn tại nơi tiền bị cấm" (paradox)
   → Access cost = mode shift cost (upfront + obligation = total cost)
-  → 3 cơ chế độc lập: Obligation + L2 buffer + SPM input
+  → 3 cơ chế độc lập: Obligation + L2 buffer + Self-Pattern-Modeling input
   → L2 as independent buffer (Net = Obligation - L2)
   → Parenting shapes obligation calibration (over/under/balanced)
   → Community-level = O(1) vs individual = O(n)
   → Obligation valence = f(choice, L2, cost_clarity)
   → Obligation × Meaning: aligned → reinforce; conflict → block
-  → Architecture B → obligation as emergent tracking (not special module)
+  → Compilable Architecture → obligation as emergent tracking (not special module)
   → Exchange = mutual by-product matching (Inter-Body §5.4)
   → PFC=Lawyer distorts obligation: fabricate/suppress/amplify (Inter-Body §7)
   → 3-cost model for obligation fulfillment: PFC draft + Suppress + Uncertainty (Inter-Body §4)
@@ -2325,7 +2359,7 @@ Case 10: "Tôi thích cộng đồng, mọi người tốt bụng, tôi giúp kh
 
 ```
 CORE MECHANISM FILES:
-  → Inter-Body-Mechanism.md v1.0 — §1.2 Architecture B (obligation as emergent tracking),
+  → Inter-Body-Mechanism.md v1.0 — §1.2 Compilable Architecture (obligation as emergent tracking),
     §4 3-cost model (PFC draft + Suppress + Uncertainty applied to obligation),
     §5.4 By-product match (exchange = mutual by-product matching),
     §7 PFC=Lawyer (distort obligation assessment: fabricate/suppress/amplify)
@@ -2352,8 +2386,8 @@ CORE MECHANISM FILES:
     cortisol holding, §5 Baseline Shift
   → Cortisol-Baseline.md v2.0 — amplifier, §7.7 5 Cortisol Roles taxonomy
     (Obligation dùng chủ yếu Role ② Holding + Role ③ Threat-sustained)
-  → Empathy.md v3.0 — SPM F1/F2, community-level, Resonance
-  → Self-Pattern-Match.md v3.0 — F1 Compiled + F2 Fresh, predict agent expectations
+  → Empathy.md v3.0 — Self-Pattern-Modeling Compiled/Fresh, community-level, Resonance
+  → Self-Pattern-Modeling.md v3.0 — Compiled + Fresh, predict agent expectations
 
 OBSERVATION PARAMETER FILES:
   → Meaning.md v2.0 — §7.7 ×Gratitude (open), §3 5 types (ROLE → obligation gateway)
@@ -2411,16 +2445,16 @@ STATUS:
     ⑤ "Tiền = obligation technology" (4 functions: standardize, convert, scale, optimize)
     ⑥ "Ân tình tồn tại nơi tiền bị cấm" (paradox: L2 relationships)
     ⑦ "Access cost = mode shift cost" (upfront cost distinct from obligation)
-    ⑧ "3 independent mechanisms" (Obligation + L2 buffer + SPM input)
+    ⑧ "3 independent mechanisms" (Obligation + L2 buffer + Self-Pattern-Modeling input)
     ⑨ "Parenting shapes obligation calibration" (over/under/balanced)
     ⑩ "Community trade = O(1)" (vs individual = O(n))
     ⑪ "Obligation valence = f(choice, L2, cost_clarity)" (not always negative)
   → v1.1 ADDITIONS:
-    ⑫ Architecture B framing: obligation = tracking emergent từ general-purpose system
+    ⑫ Compilable Architecture framing: obligation = tracking emergent từ general-purpose system
     ⑬ Exchange = mutual by-product matching (Inter-Body §5.4)
     ⑭ PFC=Lawyer distorts obligation assessment (fabricate/suppress/amplify)
     ⑮ 3-cost model for obligation fulfillment: PFC draft + Suppress + Uncertainty
-    ⑯ Entity-Compiled rename + F1 Compiled/F2 Fresh labels + version refs sync
+    ⑯ Entity-Compiled rename + Compiled/Fresh labels + version refs sync
     ⑰ +Inter-Body-Mechanism.md v1.0 + Body-Feedback-Label.md v2.0 dependencies
 ```
 
@@ -2464,9 +2498,9 @@ ACCESS COST (§6):
   → Giảm access cost = tăng cooperation (psychological safety)
 
 3 CƠ CHẾ ĐỘC LẬP (§7):
-  → Obligation (PFC prediction) ≠ L2 (compiled valence) ≠ SPM (simulate agent)
+  → Obligation (PFC prediction) ≠ L2 (compiled valence) ≠ Self-Pattern-Modeling (simulate agent)
   → L2 = BUFFER (Net = Obligation − L2)
-  → SPM = INPUT (predict what agent expects)
+  → Self-Pattern-Modeling = INPUT (predict what agent expects)
   → Cùng hành động, khác 3 cơ chế → khác trải nghiệm
 
 DEVELOPMENTAL (§8): parenting → obligation calibration

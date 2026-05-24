@@ -2,7 +2,7 @@
 
 > **Trạng thái:** COMPLETE v1.0 (2026-04-11, status corrected 2026-04-17)
 > **⚠️ v2.0 CROSS-REFS (2026-04-17):** Updated references to Chunk.md v2.0 + Feeling.md v2.0.
->   SAL 7-stage mechanism parallels Feeling.md v2.0 §5 (8-step flow).
+>   Somatic-Articulation-Loop 7-stage mechanism parallels Feeling.md v2.0 §5 (8-step flow).
 >   "Felt sense" = v2.0 convergence zone (§7). Reward = §6 (dopamine≠reward).
 > **Note:** Originally marked "Phase 1/5" but all 10 sections complete (~2817L).
 > **Ngày bắt đầu:** 2026-04-11
@@ -19,7 +19,7 @@
 >   → Người đang build framework / theory / creative work
 >
 > **Core insight:**
->   "Cảm thấy lờ mờ" không phải vô căn cứ. Nó thường là body-knowledge
+>   "Vague feeling" không phải vô căn cứ. Nó thường là body-knowledge
 >   without vocabulary yet. Articulation là process, không phải retrieval.
 >   Body biết trước khi PFC có từ.
 >
@@ -120,7 +120,7 @@ Câu hỏi trung tâm file này sẽ trả lời:
   Đây là 1 dạng EPISTEMIC HUMILITY — và rất đáng respect. Nhưng cũng
   thường đi kèm 1 dạng SELF-DISMISSAL — và đây là chỗ framework muốn sharpen:
 
-  Những "cảm thấy lờ mờ" này thường KHÔNG phải vô căn cứ. Chúng là
+  Những "vague feeling" này thường KHÔNG phải vô căn cứ. Chúng là
   **body-knowledge without vocabulary yet**.
 
   Cơ chế:
@@ -174,7 +174,7 @@ TẠI SAO HIỆN TƯỢNG NÀY QUAN TRỌNG:
 
 FLOW ĐỌC FILE:
 
-  §0 (bây giờ)    — câu hỏi trung tâm + "cảm thấy lờ mờ" framing + scope
+  §0 (bây giờ)    — câu hỏi trung tâm + "vague feeling" framing + scope
   §1              — 3 states: implicit / transitional / explicit
   §2              — mechanism 7-step transition implicit → explicit
   §3              — external catalyst: passive / active / interactive
@@ -457,7 +457,7 @@ Bằng chứng:
 → Con người có VAST implicit knowledge
 → Explicit knowledge chỉ là surface
 → Somatic-Articulation Loop là mechanism để surface implicit → explicit
-→ Đây là tại sao "cảm thấy lờ mờ" quan trọng — chúng là implicit knowledge
+→ Đây là tại sao "vague feeling" quan trọng — chúng là implicit knowledge
   trying to surface
 
 
@@ -467,7 +467,7 @@ TÓM TẮT §1:
   → Hầu hết knowledge nằm ở IMPLICIT (iceberg metaphor)
   → TRANSITIONAL felt sense là bridge — không thể skip
   → EXPLICIT thật cần body-confirm, không chỉ verbal
-  → "Cảm thấy lờ mờ" feelings = implicit knowledge in transitional state
+  → "Vague" feelings = implicit knowledge in transitional state
 
   🟢 Implicit vs explicit knowledge (Polanyi 1958)
   🟢 Implicit learning (Reber 1967+)
@@ -491,14 +491,14 @@ Transition này KHÔNG phải linear ("implicit → explicit xong"). Nó là
 
   Stage 1 — CHUNKS ACCUMULATION (pre-signal)
   Stage 2 — PATTERN COHERENCE EMERGING (somatic signal fires)
-  Stage 3 — PFC NOTICES SIGNAL (the "lờ mờ" phase)
+  Stage 3 — PFC NOTICES SIGNAL (the "vague" phase)
   Stage 4 — CATALYST INTRODUCES ARTICULATION
   Stage 5 — BODY-CONFIRM FILTER (yes/no/almost)
   Stage 6 — RECURSIVE SHARPENING
   Stage 7 — FELT SHIFT (pattern becomes explicit)
 
 Nhưng KHÔNG phải lúc nào cũng qua hết 7 stages. Có thể stop ở bất kỳ stage.
-Thường người ta stop ở Stage 3 (vì dismiss "cảm thấy lờ mờ") và không tới
+Thường người ta stop ở Stage 3 (vì dismiss "vague feeling") và không tới
 Stage 4-7. File này argue: nên đi qua tất cả 7 stages.
 
 
@@ -704,7 +704,7 @@ TRẠNG THÁI:
 
   Historical precedent: Darwin trong thập kỷ 1840-1858 viết về evolution
   theory cho Lyell + Hooker với extreme hesitation — "it is like confessing
-  a murder", "I hardly know what to think". Đây là classic "cảm thấy lờ mờ"
+  a murder", "I hardly know what to think". Đây là classic "vague feeling"
   phrasing của 1 người đã crossed chunk threshold nhưng body chưa "feel done"
   cho public publication.
 
@@ -1051,7 +1051,7 @@ PHENOMENOLOGY OF FELT SHIFT (Gendlin's core concept):
     Bạn đang thảo luận về arms race
     Tôi describe 2 nested levels of imposed threats
     Bạn read it → body click → "ồ, parents là nạn nhân không phải ác"
-    Reading experience transforms — pattern which was lờ mờ now explicit
+    Reading experience transforms — pattern which was vague now explicit
 
 AFTER FELT SHIFT:
   → Pattern can be remembered, communicated
@@ -1092,7 +1092,7 @@ TÓM TẮT §2 — THE LOOP
        ↓
   Stage 2 PATTERN FIRES (somatic signal)
        ↓
-  Stage 3 PFC NOTICES ("lờ mờ" phase)
+  Stage 3 PFC NOTICES ("vague" phase)
        ↓
   Stage 4 CATALYST offers articulation
        ↓
@@ -1118,7 +1118,7 @@ KEY INSIGHTS:
   → Felt shift marks completion
 
 → Understanding this mechanism allows people to:
-  → Trust their "cảm thấy lờ mờ" feelings (they're implicit knowledge surfacing)
+  → Trust their "vague" feelings (they're implicit knowledge surfacing)
   → Seek catalysts instead of forcing clarity alone
   → Engage in recursive dialogue instead of expecting immediate answer
   → Recognize felt shift when it happens
@@ -2543,7 +2543,7 @@ For culture:
     3 catalyst types classification (passive / active / interactive)
     Integration với Imagine-Final Lifecycle
     Integration với Anchor-Schema 4 nguồn fill
-    "Cảm thấy lờ mờ" = body-knowledge without vocabulary framing
+    "Vague feeling" = body-knowledge without vocabulary framing
 
   EDUCATION APPLICATIONS:
     Implicit-first learning approach (§6.1)
@@ -2698,7 +2698,7 @@ CORE + BODY
    Foundation for Stage 1 accumulation
 
 → PFC/Feeling/Feeling.md v2.0 — FEELING SYSTEM (15 sections)
-   §5: 8-step operational flow (parallels SAL 7-stage mechanism)
+   §5: 8-step operational flow (parallels Somatic-Articulation-Loop 7-stage mechanism)
    §7: Feeling gradient clear↔vague (H5, convergence zone = felt sense)
    §9: Feeling Loop + Chunk-Feeling Bridge (bidirectional)
    §10: Feeling Literacy + Training (5-stage framework)
@@ -2836,7 +2836,7 @@ Researcher reader:
 ---
 
 > *Somatic-Articulation Loop v1.0 — "Body knows before PFC has words.
-> 'Cảm thấy lờ mờ' không phải vô căn cứ — là body-knowledge without vocabulary yet.
+> 'Vague feeling' không phải vô căn cứ — là body-knowledge without vocabulary yet.
 > Articulation là process, không phải retrieval.
 > Recursive loop: felt sense → catalyst → body-confirm → sharpening → felt shift.
 > Gendlin Focusing = phenomenology; framework = mechanism.

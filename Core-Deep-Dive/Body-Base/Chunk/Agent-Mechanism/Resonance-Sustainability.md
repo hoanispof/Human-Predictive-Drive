@@ -5,8 +5,8 @@ created: 2026-05-22
 status: OBSERVATION FILE v1.0
 scope: |
   SUSTAINABILITY CONDITIONS file:
-  BPGR v1.2 = WHAT resonance is (mutual by-product gap fill).
-  Bond-Architecture v1.0 = HOW EC plays out across 4 bond types.
+  By-Product-Gap-Resonance v1.2 = WHAT resonance is (mutual by-product gap fill).
+  Bond-Architecture v1.0 = HOW Entity-Compiled plays out across 4 bond types.
   Boredom v2.0 = WHY resonance decays (6 sources, unified formula).
   FILE NÀY = WHAT CONDITIONS predict sustained vs decaying resonance:
     → THROUGH WHAT CHANNELS (3 modalities)
@@ -32,14 +32,14 @@ purpose: |
   Inter-Body-Mechanism.md = TẠI SAO + BẰNG GÌ 2 bodies interact (mechanism).
   Self-Pattern-Modeling.md = HOW 1 body simulate entity khác (mechanism).
   By-Product-Gap-Resonance.md = WHEN mutual quality emerge (observation lens).
-  Bond-Architecture.md = HOW EC plays out across 4 bond types.
+  Bond-Architecture.md = HOW Entity-Compiled plays out across 4 bond types.
   FILE NÀY = WHAT CONDITIONS sustain resonance OVER TIME:
     → 3 conditions = minimum. 3 modalities = channels.
     → 3 amplifiers = quality boosters. 5 trajectory factors = long-term dynamics.
     → 4-layer model = observation tool cho sustainability.
-  = "BPGR §7-§8-§11 tách ra + enriched with full drill depth."
+  = "By-Product-Gap-Resonance §7-§8-§11 tách ra + enriched with full drill depth."
 position: |
-  Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder BPGR, BA, EC.
+  Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder By-Product-Gap-Resonance, Bond-Architecture, Entity-Compiled.
   Agent-Mechanism.md = integration hub.
   By-Product-Gap-Resonance.md = resonance definition + 5 axes.
   Bond-Architecture.md = cross-bond view (4 types, over-clone, decline).
@@ -49,12 +49,12 @@ position: |
 dependencies:
   - By-Product-Gap-Resonance.md v1.2 — Resonance Core, 5 Trục, Tool/Agent-mode
   - Bond-Architecture.md v1.0 — 4 bond types, M1-M4 decline, true understanding
-  - Self-Pattern-Modeling.md v3.1 — F1/F2, Agent-mode engine, SPM accuracy
+  - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Agent-mode engine, Self-Pattern-Modeling accuracy
   - PFC-Operations.md v1.0 — Hold/Suppress, compiled quality, PFC budget
   - Entity-Compiled.md v1.0 — Formation 40→200h, compilation chain
   - Entity-Access-Calibration.md v1.0 — 3-Layer, engine use quality
   - Boredom.md v2.0 — Source ⑥, M1-M4, unified formula
-  - Connection.md v4.0 — 3 Generative Primitives, Architecture B social
+  - Connection.md v4.0 — 3 Generative Primitives, Compilable Architecture social
   - Body-Coupling.md v2.0 — coupling mechanism, depth × direction
   - Gap-Direction.md v2.0 — gap = f(surrounding chunks), gap flexibility basis
   - Valence-Propagation.md v3.0 — per-entity valence, structural vs current
@@ -64,7 +64,7 @@ dependencies:
   - Body-Feedback-Label.md v2.0 — vocabulary reference
 sources:
   - Drill-Resonance-Sustainability v1.0 (1,408L, 24 insights, 32 citations)
-  - Enriches: BPGR v1.2 §7 (3 conditions + gap flexibility) + §8 (modalities + silence) + §11 (amplification + trajectory)
+  - Enriches: By-Product-Gap-Resonance v1.2 §7 (3 conditions + gap flexibility) + §8 (modalities + silence) + §11 (amplification + trajectory)
 research: See §18
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -108,7 +108,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §4 — SILENCE TAXONOMY (4 types × sustainability)
 - §5 — VERBAL NECESSITY SPECTRUM
 - §6 — CAPITALIZATION (Active-Constructive Responding)
-- §7 — PERCEIVED PARTNER RESPONSIVENESS (PPR × SPM)
+- §7 — PERCEIVED PARTNER RESPONSIVENESS (PPR × Self-Pattern-Modeling)
 - §8 — SECURE BASE EFFECT (3 components + spiral)
 - §9 — SELF-EXPANSION × BOREDOM PREVENTION
 - §10 — MAINTENANCE DECLINE PARADOX
@@ -131,8 +131,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ RESONANCE SUSTAINABILITY v1.0:
 
   EXISTING FRAMEWORK COVERS:
-    BPGR v1.2: WHAT resonance is (mutual by-product gap fill)
-    Bond-Architecture v1.0: HOW EC plays out across 4 bond types
+    By-Product-Gap-Resonance v1.2: WHAT resonance is (mutual by-product gap fill)
+    Bond-Architecture v1.0: HOW Entity-Compiled plays out across 4 bond types
     Boredom v2.0: WHY resonance decays (6 sources, unified formula)
 
   FILE NÀY = CÁI GÌ CÒN THIẾU:
@@ -172,7 +172,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      = Synchrony during conflict = BAD (stress contagion).
 
   ⑧ Empathic accuracy = learned + motivated inaccuracy
-     = NOT telepathy. = SPM pattern recognition.
+     = NOT telepathy. = Self-Pattern-Modeling pattern recognition.
      = Motivated inaccuracy: protect bond short-term, drift long-term.
 
   ⑨ Dormant ties retain trust infrastructure
@@ -198,7 +198,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   OBSERVATION LAYER:
     By-Product-Gap-Resonance v1.2 = WHAT resonance is + 5 Trục
-    Bond-Architecture v1.0        = HOW EC differs per bond type + M1-M4
+    Bond-Architecture v1.0        = HOW Entity-Compiled differs per bond type + M1-M4
     ★ File này v1.0               = WHAT CONDITIONS sustain resonance over time
 
   COMPANION FILES:
@@ -207,7 +207,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Resonance-Per-Entity v1.0    = HOW resonance differs per entity type
 
   FILE NÀY ENRICHES:
-    BPGR §5: Deepen/Fade/Break → ADDS modality + amplification + trajectory
+    By-Product-Gap-Resonance §5: Deepen/Fade/Break → ADDS modality + amplification + trajectory
     Boredom §2-§3: Source ⑥ → ADDS conditions that PREVENT source ⑥
     Bond-Architecture §4-§5: M1-M4 + true understanding → ADDS amplification mechanisms
     Entity-Access-Calibration §6: engine quality → ADDS response quality detail
@@ -220,7 +220,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐ 3 ĐIỀU KIỆN TỐI THIỂU CHO RESONANCE EMERGENCE:
 
-  BPGR §4 mô tả 5 Trục ước lượng xác suất.
+  By-Product-Gap-Resonance §4 mô tả 5 Trục ước lượng xác suất.
   5 Trục = TINH tế (evaluate quality + probability).
   3 Primitive Conditions = THÔ hơn, TRƯỚC 5 Trục:
     = MINIMUM cho resonance CÓ THỂ xảy ra.
@@ -243,7 +243,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     By-product match cần THỜI GIAN để detect + compile.
     → Passing encounter: possible match nhưng NO compilation.
-    → Repeated encounter: Hebbian strengthen → F2→F1 → resonance deepen.
+    → Repeated encounter: Hebbian strengthen → Fresh→Compiled → resonance deepen.
     → Hall 2019: 40-60h casual → 80-100h friend → 200+h close friend.
     → LEISURE time counts MORE than work time.
 
@@ -256,7 +256,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CONDITION ③ — AGENT-MODE (model state, không chỉ function):
 
-    SPM phải ON ở Agent-mode: predict entity STATE, not just output.
+    Self-Pattern-Modeling phải ON ở Agent-mode: predict entity STATE, not just output.
     → Tool-mode: predict function → dissolves khi goal ends → 0 resonance.
     → Agent-mode: predict state → compile Entity-Compiled → resonance possible.
 
@@ -264,7 +264,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Phải PERCEIVED as available + responsive + non-interfering.
     → Agent-mode ON + unresponsive = still insufficient.
 
-    🟢 BPGR §3.3: Agent-mode = resonance engine.
+    🟢 By-Product-Gap-Resonance §3.3: Agent-mode = resonance engine.
     🟢 Feeney 2007: "mere presence is NOT enough."
 
 
@@ -319,7 +319,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ② Resonance FRAGILE trước GAP DIVERGENCE:
       Gap distributions diverge → overlap giảm → by-product match giảm.
-      = BPGR §5.2 Fade conditions.
+      = By-Product-Gap-Resonance §5.2 Fade conditions.
       Activity mismatch = surface symptom. Gap divergence = actual cause.
 
     ③ Limerence amplifies gap flexibility:
@@ -341,7 +341,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   MODALITY ① — VERBAL (Generative dominant):
 
     Channel: speech, text, written word.
-    Primary reward: Type A evaluation (insight, humor, discussion).
+    Primary reward: Evaluative (insight, humor, discussion).
     Resonance type: GENERATIVE dominant.
     Function:
       → Inject novelty (new topics, perspectives, stories).
@@ -359,7 +359,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   MODALITY ② — NON-VERBAL (bids + cues):
 
     Channel: eye contact, facial expression, gesture, posture, proximity choice.
-    Primary reward: Type A + B mixed (evaluation + social warmth).
+    Primary reward: Evaluative + Direct-State mixed (evaluation + social warmth).
     Resonance type: MIXED (Generative + Tonic).
     Function:
       → Signal availability without words ("tôi ở đây, sẵn sàng").
@@ -376,7 +376,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   MODALITY ③ — BODY-LEVEL (physiological synchrony):
 
     Channel: HR coupling, respiratory coupling, EDA attenuation, touch.
-    Primary reward: Type B (direct-state, opioid, CT afferents).
+    Primary reward: Direct-State (opioid, CT afferents).
     Resonance type: TONIC dominant.
     Function:
       → Co-regulate physiology (Sbarra & Hazan 2008).
@@ -455,7 +455,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ❌ NOT sustainable — burnout trajectory (daily cortisol cost).
 
     VD: Vợ muốn nói nhưng sợ chồng nổi giận → im lặng.
-        = BPGR §3: Hold + Suppress → cost accumulate.
+        = By-Product-Gap-Resonance §3: Hold + Suppress → cost accumulate.
 
 
   TYPE 3 — EXTERNAL SILENCE (kiểm soát, trừng phạt):
@@ -616,7 +616,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ├─────────────────────────┼──────────────────────────────────────┤
     │ ACTIVE-DESTRUCTIVE      │ Correlate NEGATIVE                   │
     │ (dampen)                │ "Thăng chức? Sẽ phải làm nhiều hơn."│
-    │                         │ = Anti-match (BPGR §6.5)            │
+    │                         │ = Anti-match (By-Product-Gap-Resonance §6.5)            │
     ├─────────────────────────┼──────────────────────────────────────┤
     │ PASSIVE-DESTRUCTIVE     │ Correlate NEGATIVE                   │
     │ (ignore)                │ "Ừ. Hôm nay ăn gì?" = turning away │
@@ -641,7 +641,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §7 — PERCEIVED PARTNER RESPONSIVENESS (PPR × SPM)
+## §7 — PERCEIVED PARTNER RESPONSIVENESS (PPR × Self-Pattern-Modeling)
 
 ```
 ⭐⭐ CẢM THẤY ĐƯỢC HIỂU > THỰC TẾ ĐƯỢC HIỂU:
@@ -656,7 +656,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   3 COMPONENTS:
 
     ① UNDERSTOOD ("bạn hiểu tôi"):
-      SPM accuracy high → partner's F1 predict MY state well.
+      Self-Pattern-Modeling accuracy high → partner's Compiled predict MY state well.
       PERCEPTION: tôi cảm thấy partner predict đúng state tôi.
       Cue: paraphrase, reflect, appropriate facial response.
 
@@ -675,17 +675,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     PPR = perceived partner responsiveness.
     → PERCEPTION of responsiveness produces intimacy, NOT the objective behavior.
-    → = SPM as mediator: MY SPM interprets partner's behavior.
+    → = Self-Pattern-Modeling as mediator: MY Self-Pattern-Modeling interprets partner's behavior.
 
     Per attachment style:
-    → Secure: SPM calibrated → perceive responsiveness accurately.
-    → Anxious: SPM biased → perceive LESS than actual.
-    → Avoidant: SPM dampened → perceive less responsiveness.
+    → Secure: Self-Pattern-Modeling calibrated → perceive responsiveness accurately.
+    → Anxious: Self-Pattern-Modeling biased → perceive LESS than actual.
+    → Avoidant: Self-Pattern-Modeling dampened → perceive less responsiveness.
 
     IMPLICATION:
-    → Partner CAN be responsive, nhưng nếu MY SPM interpret sai → PPR low.
-    → "Nó có quan tâm đâu" (mà actually có, nhưng SPM tôi không detect).
-    → FIX: calibrate SPM (therapy, secure base experience, verbal explicit check).
+    → Partner CAN be responsive, nhưng nếu MY Self-Pattern-Modeling interpret sai → PPR low.
+    → "Nó có quan tâm đâu" (mà actually có, nhưng Self-Pattern-Modeling tôi không detect).
+    → FIX: calibrate Self-Pattern-Modeling (therapy, secure base experience, verbal explicit check).
 
 
   PPR × MODALITY:
@@ -696,7 +696,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟢 Reis & Shaver 1988: IPM model (foundational).
   🟢 Laurenceau 1998, 2005: diary confirmation.
-  🟡 PPR × SPM interpretation = framework synthesis.
+  🟡 PPR × Self-Pattern-Modeling interpretation = framework synthesis.
   🟡 PPR × modality analysis = framework synthesis.
 ```
 
@@ -784,7 +784,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Self-expansion = COUNTER to M2 + M3 + M4:
     → Novel shared activities → new stimuli (counter M2 habituation).
     → Novel shared activities → new predictions needed (counter M3 prediction complete).
-    → Novel shared activities → new chunks form (counter M4 EC saturation).
+    → Novel shared activities → new chunks form (counter M4 Entity-Compiled saturation).
 
     NHƯNG M1 (compiled suppress) cần KHÁC treatment:
     → Novel activities không help nếu partner suppress drive riêng.
@@ -797,7 +797,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Individual growth (1 người grow, partner observe):
     → CÓ benefit: new perspectives feed back.
     → NHƯNG: must be SHARED perception (partner perceive support).
-    → If NOT shared → gap distributions DIVERGE → Fade (BPGR §5.2).
+    → If NOT shared → gap distributions DIVERGE → Fade (By-Product-Gap-Resonance §5.2).
 
     Shared growth (cùng trải nghiệm mới):
     → DIRECT resonance: cùng process novelty → by-products match.
@@ -899,7 +899,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     STAGE 1-2 (new bond): HIGH sync.
       Hormone boost (limerence) → body-level coupling high.
-      Agent-mode HIGH (novelty → SPM engage → by-product rich).
+      Agent-mode HIGH (novelty → Self-Pattern-Modeling engage → by-product rich).
 
     STAGE 3 (compiled baseline): SYNC DROPS.
       Compiled → automatic → less body attention.
@@ -942,21 +942,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Sened et al. 2022:
      262 romantic couples, daily diary.
      Direct accuracy → SLOWER response times.
-     = Deliberate cognitive processing (SPM Fresh) > automatic (SPM Compiled).
+     = Deliberate cognitive processing (Self-Pattern-Modeling Fresh) > automatic (Self-Pattern-Modeling Compiled).
 
 
-  FRAMEWORK MAPPING — SPM ACCURACY:
+  FRAMEWORK MAPPING — Self-Pattern-Modeling ACCURACY:
 
-    F1 (Compiled): fast, automatic, based on past patterns.
+    Compiled: fast, automatic, based on past patterns.
     → "Biết vợ đang cáu vì giọng nói" = compiled pattern match.
 
-    F2 (Fresh): slow, effortful, based on current observation.
+    Fresh: slow, effortful, based on current observation.
     → "Bạn hôm nay khác bình thường, sao vậy?" = PFC invest.
 
     Accuracy INCREASES with: exposure hours, Agent-mode frequency, motivation.
     Accuracy DOES NOT simply increase with time:
-    → Compiled patterns may STALE (partner changed but F1 not updated).
-    → "Tưởng hiểu mà hóa ra không hiểu nữa" = stale F1.
+    → Compiled patterns may STALE (partner changed but Compiled not updated).
+    → "Tưởng hiểu mà hóa ra không hiểu nữa" = stale Compiled.
 
 
   ⭐ MOTIVATED INACCURACY (Ickes):
@@ -966,9 +966,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → "Vờ không thấy" = PROTECTIVE mechanism.
 
     VD:
-      Biết partner đang thích người khác → SPM deliberately REDUCE resolution.
-      Biết partner đang stress vì tôi → SPM deflect ("chắc do công việc").
-      = PFC=Lawyer (BPGR §5.5): create narrative that PROTECTS bond.
+      Biết partner đang thích người khác → Self-Pattern-Modeling deliberately REDUCE resolution.
+      Biết partner đang stress vì tôi → Self-Pattern-Modeling deflect ("chắc do công việc").
+      = PFC=Lawyer (By-Product-Gap-Resonance §5.5): create narrative that PROTECTS bond.
 
     ADAPTIVE vs MALADAPTIVE:
       Adaptive: temporary deflection during acute stress → allows recovery.
@@ -976,15 +976,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → "Vợ chồng ít nói chuyện thật" → drift → "bỗng phát hiện xa lạ."
 
     FRAMEWORK:
-      Motivated inaccuracy = SPM intentionally reduce fidelity.
-      = Compiled suppress applied to SPM accuracy.
+      Motivated inaccuracy = Self-Pattern-Modeling intentionally reduce fidelity.
+      = Compiled suppress applied to Self-Pattern-Modeling accuracy.
       = Entity-Access-Calibration §6: engine use quality.
       Threat mode → reduce accuracy → calibration fail.
       Curiosity mode → increase accuracy → calibration improve.
 
   🟢 Ickes 1993, 2003: empathic accuracy (foundational).
   🟢 Sened 2022: accuracy = deliberate processing (N=262 couples).
-  🟡 SPM accuracy × motivated inaccuracy = framework synthesis.
+  🟡 Self-Pattern-Modeling accuracy × motivated inaccuracy = framework synthesis.
 ```
 
 ---
@@ -1019,8 +1019,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Reunion warmth = Entity-Compiled intact (trust, memories).
     → Sustained resonance after reunion depends on:
       Current gap overlap (may be very different now).
-      Agent-mode re-engagement (willing to update SPM).
-      Duration of renewed contact (enough to update F1).
+      Agent-mode re-engagement (willing to update Self-Pattern-Modeling).
+      Duration of renewed contact (enough to update Compiled).
 
 
   DORMANT TIES × MODALITY:
@@ -1031,7 +1031,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 
   ⭐ TRUST = MOST RESILIENT COMPILATION DIMENSION:
-    Other EC dimensions (habits, preferences, personality model) CAN stale.
+    Other Entity-Compiled dimensions (habits, preferences, personality model) CAN stale.
     Trust dimension: "người này sẽ KHÔNG hại tôi."
     Built from MANY verified episodes → slow decay.
     Even if personality model outdated, trust intact.
@@ -1039,7 +1039,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟢 Levin 2011: dormant ties research.
   🟡 Trust as most resilient compilation dimension = framework synthesis.
-  🔴 Trust decay rate vs other EC dimensions = hypothesis.
+  🔴 Trust decay rate vs other Entity-Compiled dimensions = hypothesis.
 ```
 
 ---
@@ -1089,7 +1089,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │   → Sharing positive > handling negative for quality        │
     │                                                             │
     │ PPR: feeling understood > actual understanding               │
-    │   → SPM interpretation = mediator                           │
+    │   → Self-Pattern-Modeling interpretation = mediator                           │
     │                                                             │
     │ Secure Base: Availability + Noninterference + Encouragement │
     │   → Enables drive riêng → by-products → resonance           │
@@ -1187,7 +1187,7 @@ CASE 3 — Bạn thân 10 năm, gap distributions diverge:
   Tầng 4: Gap overlap GIẢM (career khác, life stage khác).
           Maintenance DECLINE (less frequent meet).
   Assessment: Trust intact (dormant possible). Resonance NARROWING to fewer domains.
-  Risk: BPGR §5.2 Fade — gap divergence = actual cause, not "busy."
+  Risk: By-Product-Gap-Resonance §5.2 Fade — gap divergence = actual cause, not "busy."
 
 
 CASE 4 — Mẹ-con teen, introjected silence:
@@ -1253,7 +1253,7 @@ CASE 4 — Mẹ-con teen, introjected silence:
   Silence × Limerence vs Mature distinction
   Silence × Entity type mapping
   Capitalization → Agent-mode + by-product match mapping
-  PPR × SPM interpretation
+  PPR × Self-Pattern-Modeling interpretation
   PPR × modality analysis
   Secure base → drive → by-product → resonance spiral
   Self-expansion × M1-M4 sub-mechanisms mapping
@@ -1261,7 +1261,7 @@ CASE 4 — Mẹ-con teen, introjected silence:
   Compilation visibility trap
   Co-regulation U-curve × compilation stage
   Synchrony as value-neutral (context determines)
-  Motivated inaccuracy × SPM fidelity
+  Motivated inaccuracy × Self-Pattern-Modeling fidelity
   Trust as most resilient compilation dimension
   4-tầng sustainability model
 
@@ -1270,7 +1270,7 @@ CASE 4 — Mẹ-con teen, introjected silence:
 ═══════════════════════════════════════
 
   Exact modality contribution weights
-  Trust decay rate vs other EC dimensions
+  Trust decay rate vs other Entity-Compiled dimensions
   Motivated inaccuracy → drift timeline quantification
   U-curve inflection points (at what age exactly?)
   Optimal verbal-to-body ratio per relationship stage
@@ -1286,7 +1286,7 @@ CASE 4 — Mẹ-con teen, introjected silence:
 ```
   → By-Product-Gap-Resonance.md v1.2 — resonance definition, 5 Trục, Tool/Agent-mode
   → Bond-Architecture.md v1.0 — 4 bond types, M1-M4 decline, true understanding
-  → Self-Pattern-Modeling.md v3.1 — F1/F2, Agent-mode engine, SPM accuracy
+  → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Agent-mode engine, Self-Pattern-Modeling accuracy
   → Entity-Compiled.md v1.0 — Formation 40→200h, compilation chain
   → Entity-Access-Calibration.md v1.0 — 3-Layer, engine use quality
   → Agent-Mechanism.md v2.0 — integration hub
@@ -1307,7 +1307,7 @@ CASE 4 — Mẹ-con teen, introjected silence:
 ### §17.3 — Companion observation files
 
 ```
-  → Connection.md v4.0 — 3 Generative Primitives, Architecture B social
+  → Connection.md v4.0 — 3 Generative Primitives, Compilable Architecture social
   → Boredom.md v2.0 — Source ⑥, M1-M4, unified formula (FAILURE MODES)
   → Resonance-Per-Entity.md v1.0 — per-entity resonance dynamics
   → By-Product-Scale.md v1.0 — 3 scales Pair/Hub/Institutional
@@ -1350,6 +1350,6 @@ CASE 4 — Mẹ-con teen, introjected silence:
 | R29 | Sened et al. 2022 — Accuracy = deliberate processing (N=262) | §12 | 🟢 |
 | R30 | Levin, Walter & Murnighan 2011 — Dormant ties | §13 | 🟢 |
 | R31 | Hasegawa & Gudykunst 1998 — Cross-cultural silence | §4 | 🟢 |
-| R32 | Bourassa, Ruiz & Sbarra 2019 — Presence → BP | §11 | 🟢 |
+| R32 | Bourassa, Ruiz & Sbarra 2019 — Presence → blood pressure | §11 | 🟢 |
 
 ---

@@ -1,10 +1,11 @@
 ---
 title: Status — Observation Parameter
-version: 2.1
+version: 2.2
 created: 2026-04-20
 rewritten: 2026-04-21
-updated: 2026-05-17 v2.1 — +Architecture B, +Compiled/Fresh explicit, +PFC=Lawyer, cross-refs updated
-status: OBSERVATION PARAMETER v2.1
+updated: 2026-05-17 v2.1 — +Compilable Architecture, +Compiled/Fresh explicit, +PFC=Lawyer, cross-refs updated
+refined: 2026-05-23 (v2.2 — Concept Cascade: +Entity-Access gradient, +Hardware Subsidy, +By-Product-Scale, +M1-M4. Updated versions + cross-refs)
+status: OBSERVATION PARAMETER v2.2
 scope: |
   OBSERVATION FILE: Status = named pattern khi quan sát resource access
   calibration giữa social agents. Body cho REWARD THẬT khi status tăng
@@ -15,12 +16,12 @@ scope: |
   position vs aspiration, serotonin = certainty bias,
   chunk dynamics, cortisol interaction, conflict at scale.
   v2.1 KEY CHANGES:
-    ⑪ +Architecture B: status = emergent từ general-purpose system (§0)
-    ⑫ +Compiled/Fresh explicit: F1 compiled maps vs F2 fresh PFC draft (§2.1)
+    ⑪ +Compilable Architecture: status = emergent từ general-purpose system (§0)
+    ⑫ +Compiled/Fresh explicit: Compiled maps vs Fresh PFC draft (§2.1)
     ⑬ +PFC=Lawyer: status self-deception, 3 distortion modes (§9.5)
     ⑭ +Honest Assessment 🟡 items for new concepts (§16)
     ⑮ +Cross-refs: Inter-Body-Mechanism.md v1.0, Body-Feedback-Label.md v2.0
-    ⑯ Version refs updated: Connection v4.0, VP v2.0
+    ⑯ Version refs updated: Connection v4.0, Valence-Propagation v2.0
 purpose: |
   Core v7.8 §8 define Status ngắn gọn ("Self-assessment chunk patterns
   + hormonal baseline"). File này DEEP-DIVE toàn bộ:
@@ -40,15 +41,18 @@ dependencies:
   - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, compound mechanism
   - Body-Feedback/03-Reward.md — VTA alert + opioid reward 2-level, H10
   - Chunk.md v2.0 — chunk substrate, compilation, hierarchy
-  - Agent.md — SPM mechanism, §12 body-need feeder, agents as external tools
-  - Connection.md v4.0 — overlap analysis (belonging ≠ connection), 3 Generative Primitives
-  - Threat.md v1.0 — social threat, imposed threat, anticipation loop
+  - Agent-Mechanism.md v2.1 — Self-Pattern-Modeling mechanism, §12 body-need feeder, 10 dimensions
+  - Connection.md v5.0 — overlap analysis, 4-Layer Sustainability, M1-M4
+  - Threat.md v1.2 — social threat, imposed threat, anticipation loop
   - Protect.md v1.0 — ownership chunks, loss aversion, f(repl×attach)
   - Cortisol-Baseline.md v2.0 — amplifier, vicious cycle, direction tag
   - Feeling.md v2.0 — PFC observation interface
-  - Valence-Propagation.md v2.0 — body evaluation, chain propagation, Entity-Compiled
-  - Inter-Body-Mechanism.md v1.0 — Architecture B, PFC=Lawyer, Compiled/Fresh
+  - Valence-Propagation.md v3.0 — body evaluation, 3 firing modes, hardware subsidy
+  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, PFC=Lawyer, Compiled/Fresh
   - Body-Feedback-Label.md v2.0 — framework vocabulary reference
+  - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — status = access gradient reframe
+  - Chunk/Agent-Mechanism/By-Product-Scale.md v1.0 — status across 3 scales
+  - Chunk/Agent-Mechanism/Bond-Architecture.md v1.0 — M1-M4 firing modes per status display
   - Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT
   - Knowledge-Flow.md — status enables/blocks knowledge transmission
   - Autonomy-Hardware.md — efference copy, self-action = reward
@@ -183,15 +187,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Reward mechanism CHÍNH XÁC — không phải illusion
 
 
-  ⭐ ARCHITECTURE B — TẠI SAO STATUS EMERGENT (Inter-Body-Mechanism.md §1.2):
+  ⭐ COMPILABLE ARCHITECTURE — TẠI SAO STATUS EMERGENT (Inter-Body-Mechanism.md §1.2):
 
-    ARCHITECTURE A (côn trùng, động vật đơn giản):
+    HARDWIRED ARCHITECTURE (côn trùng, động vật đơn giản):
       Mỗi social behavior = 1 hardwired circuit riêng
       → Status? KHÔNG CẦN — response hardwired: gặp kẻ mạnh → co lại, kẻ yếu → tấn công
       → Hormone drive TRỰC TIẾP: testosterone → approach, cortisol → retreat
       → = Không có "status tracking" — chỉ có stimulus → response
 
-    ARCHITECTURE B (mammals phức tạp, con người):
+    COMPILABLE ARCHITECTURE (mammals phức tạp, con người):
       Hardwired: CHỈ reward mechanism + compilation + social hardware + PFC
       Content: LEARN from environment → compile → body-need
       → Status = EMERGENT khi general-purpose system TRACK resource access:
@@ -202,8 +206,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Status = tên gọi cho output CỦA general-purpose learning system
         khi applied vào social resource tracking
 
-    🟡 Architecture A/B naming = framework synthesis.
-       Status = emergent from Architecture B = consistent with no dedicated
+    🟡 Hardwired/Compilable Architecture naming = framework synthesis.
+       Status = emergent from Compilable Architecture = consistent with no dedicated
        "status module" found in neuroscience (unlike, e.g., FFA for faces).
 
 
@@ -405,6 +409,50 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = Resource access tăng = body-base satisfaction tăng = reward THẬT
 ```
 
+### §1.3 — STATUS × NEW CONCEPTS (28-session Drill Propagation)
+
+```
+ENTITY-ACCESS GRADIENT = STATUS GRADIENT (Entity-Access.md v1.2):
+
+  Resource Access Map (§1.1) = Entity-Access gradient per-entity:
+    Mức 0 (stranger): access maps HẸP nhất — ít schema sẵn sàng
+    Mức 1 (acquaintance): một số schema mở
+    Mức 2 (friend): nhiều schema mở — voice, support, initiative
+    Mức 3 (close): hầu hết mở — intimacy, deep support
+    Mức 4 (family): gần như tất cả mở + obligation
+    Mức 5 (self/child): TOÀN BỘ mở + hardware subsidy amplify
+
+  → STATUS = Entity-Access nhìn từ GÓC RESOURCE
+  → Entity-Access = STATUS nhìn từ GÓC RELATIONSHIP DEPTH
+  → = CÙNG 1 gradient, 2 observation perspectives
+
+HARDWARE SUBSIDY × STATUS (Valence-Propagation v3.0 §5):
+  → Body hardware cung cấp baseline status reward "miễn phí" per entity level
+  → Mức 5 entity (con): oxytocin/opioid fire TỰ ĐỘNG khi gần → status "tốt" mặc định
+  → Mức 1 entity (stranger): KHÔNG có hardware subsidy → status phải EARN
+  → = TẠI SAO status với gia đình KHÁC CHẤT với status công việc
+
+BY-PRODUCT-SCALE (By-Product-Scale.md v1.0):
+  → Status operates ở 3 SCALES khác nhau:
+    PAIR (cặp đôi): status = per-dyad access map → intimate, detailed
+    HUB (nhóm): status = position trong network → role-based
+    INSTITUTIONAL (tổ chức): status = formal rank → abstract, rule-based
+  → Cùng người → khác scale → khác status dynamics
+  → VD: cha = Mức 5 ở PAIR scale, nhưng status thấp ở INSTITUTIONAL scale
+
+M1-M4 FIRING MODES × STATUS (Bond-Architecture.md v1.0):
+  → Status display KHÁC NHAU theo firing mode:
+    M1 Tonic: duy trì status baseline liên tục (posture, gaze, voice tone)
+    M2 Phasic: status event cụ thể (được khen, bị phê bình)
+    M3 Compound: nhiều hệ fire đồng thời (được thăng chức = dopamine+serotonin+social)
+    M4 Cascade: chain status events (thắng giải → được invite → network mở → opportunities)
+
+🟡 Entity-Access × status = framework convergence (2 perspectives, 1 gradient)
+🟡 Hardware Subsidy × status = framework application
+🟡 By-Product-Scale × status = framework taxonomy (3 scales)
+🟡 M1-M4 × status = framework application (4 display modes)
+```
+
 ---
 
 ## §2 — CƠ CHẾ SCAN: BODY VÔ THỨC
@@ -479,7 +527,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → ⚠️ "Introvert sợ party" = MULTI-CAUSAL, không chỉ PFC cost:
       Status scan cost chỉ là 1 trong 6 trục quyết định.
       Chi tiết: Connection.md §9.2 — Momentary Capacity (6 trục:
-      hardware arousal × cortisol × SPM library × environment match
+      hardware arousal × cortisol × Self-Pattern-Modeling library × environment match
       × 8-pathway reward ratio × threat level)
 
   → Speed scan = survival advantage (biết nhanh → react đúng → sống sót)
@@ -487,29 +535,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → = Evolution optimize cho: NHANH + RẺ khi đã quen, TỐN nhưng ĐÚNG khi lạ
 
 
-  ⭐ F1 COMPILED / F2 FRESH TRONG STATUS SCAN
-     (Inter-Body-Mechanism.md §3, Self-Pattern-Match.md v3.0):
+  ⭐ Compiled COMPILED / Fresh FRESH TRONG STATUS SCAN
+     (Inter-Body-Mechanism.md §3, Self-Pattern-Modeling.md v3.0):
 
-  F1 COMPILED STATUS (agent QUEN):
+  Compiled COMPILED STATUS (agent QUEN):
     → Maps ĐÃ compile qua nhiều lần tương tác → body-direct
     → Gặp vợ → map LOAD tức thì → BIẾT access gì → cost ≈ 0
     → "Tôi = leader trong domain X" → compiled → TỰ TIN automatic
     → = Kahneman System 1: fast, automatic, effortless
     → Compilation level quyết định, KHÔNG PHẢI content type
 
-  F2 FRESH STATUS (agent LẠ / context MỚI):
+  Fresh FRESH STATUS (agent LẠ / context MỚI):
     → Chưa có compiled map → PFC DRAFT temporary map → COSTLY
     → Gặp sếp mới → PFC scan visual/auditory/context → draft access map
     → "Tôi ở đâu trong nhóm mới này?" → fresh → TỐN PFC bandwidth
     → = Kahneman System 2: slow, deliberate, effortful
     → PFC draft CHƯA qua body verify → accuracy thấp hơn compiled
 
-  TRANSITION — F2 → F1 (status compilation):
+  TRANSITION — Fresh → Compiled (status compilation):
     → Tương tác lặp + verify OK → Hebbian strengthen → compile
-    → "Ngày đầu đi làm" = F2 (mỗi interaction tốn PFC)
-    → "Sau 3 tháng" = F1 (maps compiled, vô thức biết access gì)
-    → = Giải thích "dần quen" = F2→F1 transition ở status domain
-    → = §2.1 "agent quen" vs "agent lạ" = F1 vs F2 PRECISELY
+    → "Ngày đầu đi làm" = Fresh (mỗi interaction tốn PFC)
+    → "Sau 3 tháng" = Compiled (maps compiled, vô thức biết access gì)
+    → = Giải thích "dần quen" = Fresh→Compiled transition ở status domain
+    → = §2.1 "agent quen" vs "agent lạ" = Compiled vs Fresh PRECISELY
 ```
 
 ---
@@ -640,7 +688,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
            → Với vài bạn: trao đổi ngang hàng, tin cậy → access MỞ ✅
            → = Maps MỞ RỘNG trong dải connection quen
            → = Serotonin baseline KHÔNG nhất thiết thấp
-             (body đo từ daily interactions, không từ GDP per capita)
+             (body đo từ daily interactions, không từ Gap-Distribution-Profile per capita)
 
          "Nghèo" = thước đo xã hội rộng (so với triệu người lạ)
          Status cảm nhận = từ 5-20 người tương tác daily
@@ -895,7 +943,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Biology tự có mechanism drive cooperation
 
   BODY REWARD CHO COOPERATION:
-    → Giúp ai → mirror reward (SPM simulate niềm vui họ → body nhận echo)
+    → Giúp ai → mirror reward (Self-Pattern-Modeling simulate niềm vui họ → body nhận echo)
     → Được giúp → direct reward (body-base fed by agent input)
     → = CẢ NGƯỜI CHO VÀ NGƯỜI NHẬN đều body reward
     → = Tại sao trao đổi = DOMINANT mode: reward cả 2 phía
@@ -1034,7 +1082,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        B. THÀNH CÔNG SAU XÁO TRỘN — thống nhất:
           → Nhiều nhóm tranh giành, chưa nhóm nào đủ mạnh
           → Mỗi nhóm calibrate ỔN ĐỊNH NỘI BỘ (hierarchy riêng bên trong)
-          → Nhưng TỔNG THỂ chưa rõ ai >> ai → bế tắc kéo dài
+          → Nhưng TỔNG THỂ chưa rõ ai >> ai → stuck kéo dài
           → Kết thúc bằng: 1 cuộc xung đột dứt khoát (1 bên thắng rõ)
             hoặc negotiate thành công (power-sharing, liên minh)
           → → Thống nhất = 1 hierarchy mới → maps compile toàn quốc
@@ -1050,9 +1098,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
             → Kết quả: "không nhóm nào >> rõ ràng"
             → = Status calibration qua conflict → biết RÕ gap thật
 
-          Bước 2 — Bế tắc (khi chưa ai đủ mạnh):
+          Bước 2 — Stuck (khi chưa ai đủ mạnh):
             → Mỗi nhóm calibrate ỔN ĐỊNH NỘI BỘ (hierarchy riêng trong nhóm)
-            → NHƯNG tổng thể chưa rõ ai >> ai → bế tắc kéo dài
+            → NHƯNG tổng thể chưa rõ ai >> ai → stuck kéo dài
             → Có thể ÂM Ỉ nhiều chục năm (chưa bên nào dám dồn sức tấn công)
             → Cost ongoing: cortisol chronic toàn dân, PFC bận threat scan
 
@@ -1131,7 +1179,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Xã hội tiến bộ = tìm cách re-calibrate RẺ HƠN (không phải TRÁNH)
 
 
-  CHUNK DYNAMICS TRONG DISRUPTION (BFM mapping):
+  CHUNK DYNAMICS TRONG DISRUPTION (Body-Feedback-Mechanism mapping):
 
     ① Chunk-Miss: maps CŨ compiled nhưng ABSENT
        → "Tôi quen sếp cũ, biết access gì" → sếp cũ GONE
@@ -1149,7 +1197,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     → COMPOUND: thường là cả 3 dynamics cùng lúc
     → = Giải thích tại sao major transitions = CỰC stress
-    → Cross-ref: BFM §4 Compound Mechanism
+    → Cross-ref: Body-Feedback-Mechanism §4 Compound Mechanism
 ```
 
 ### §6.4 — Serotonin dynamics trong disruption
@@ -1227,7 +1275,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         = Productive cortisol + novelty direction
       → Threat: "tôi muốn lên NHƯNG sợ không bao giờ được"
         = Chronic cortisol + threat direction (§11)
-    Gap ≈ 0: content (thỏa mãn với access hiện tại)
+    Gap ≈ 0: content (satisfied với access hiện tại)
     Gap < 0: "quá nhiều" → có thể CHO BỚT
       (Protect.md §7: mirror reward > keep reward khi surplus)
 ```
@@ -1241,7 +1289,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ CEO chase thêm              │ Pos CAO + Asp CAO HƠN → gap > 0 │
   │                             │ → drive tiếp tục ✅               │
   ├─────────────────────────────┼──────────────────────────────────┤
-  │ Người nghèo thỏa mãn       │ Pos THẤP + Asp THẤP → gap ≈ 0   │
+  │ Người nghèo satisfied       │ Pos THẤP + Asp THẤP → gap ≈ 0   │
   │                             │ → content ✅                      │
   ├─────────────────────────────┼──────────────────────────────────┤
   │ Khoe MXH                    │ Pos VỪA + Asp CAO → gap > 0      │
@@ -1273,7 +1321,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Cơ chế chuỗi:
     MXH feed → visual success of others
-      → SPM fires: "họ có access X, tôi cũng muốn X"
+      → Self-Pattern-Modeling fires: "họ có access X, tôi cũng muốn X"
         → Aspiration TĂNG (PFC imagine access rộng hơn)
           → Gap tăng → body-feedback dissonance
             → Cortisol tăng nhẹ (uncertainty cho gap)
@@ -1429,25 +1477,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = "Nhớ cty cũ" có thể không phải nhớ công việc, mà nhớ CACHED MAPS
 ```
 
-### §8.3 — Belonging × Agent.md SPM
+### §8.3 — Belonging × Agent.md Self-Pattern-Modeling
 
 ```
-🟡 BELONGING CÓ COMPONENT SPM:
+🟡 BELONGING CÓ COMPONENT Self-Pattern-Modeling:
 
   Khi thuộc nhóm:
-    → Self-Pattern-Match fires liên tục lên members (background)
-    → = "Tôi hiểu họ, họ hiểu tôi" = cached mutual SPM
+    → Self-Pattern-Modeling fires liên tục lên members (background)
+    → = "Tôi hiểu họ, họ hiểu tôi" = cached mutual Self-Pattern-Modeling
     → Body nhận social presence signal liên tục (Agent.md §12.1-12.2)
     → = Baseline comfort từ nhóm (không cần tương tác active)
 
   Khi MẤT nhóm:
-    → SPM firing lên absent members = Chunk-Miss (BFM §3.2)
+    → Self-Pattern-Modeling firing lên absent members = Chunk-Miss (Body-Feedback-Mechanism §3.2)
     → Body expects social presence → absent → negative delta
-    → = "Nhớ nhóm cũ" = SPM firing nhưng không có feedback
+    → = "Nhớ nhóm cũ" = Self-Pattern-Modeling firing nhưng không có feedback
     → Duration: tùy compiled depth × alternative source availability
 
   → Belonging = STATUS function (cached maps + backing)
-     + CONNECTION component (SPM-based social presence)
+     + CONNECTION component (Self-Pattern-Modeling-based social presence)
   → 2 functions overlap TRONG belonging — nhưng CÓ THỂ TÁCH
 ```
 
@@ -1691,7 +1739,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Chunks "bạn A tin tưởng tôi" → phản bội xảy ra
      → Valence SHIFT: "an toàn" → "bị lừa"
      → Access map VỚI NGƯỜI ĐÓ restructure toàn bộ
-     → Body-feedback: dissonance mạnh (BFM §3.1)
+     → Body-feedback: dissonance mạnh (Body-Feedback-Mechanism §3.1)
 
   ② Phát hiện mình kém hơn tưởng:
      Tưởng mình giỏi domain X → feedback thật: kém
@@ -1776,7 +1824,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ĐẶC ĐIỂM:
     → Gap ≠ Miss: Miss = TỪNG CÓ rồi mất, Gap = CHƯA BAO GIỜ CÓ
-    → Gap → có thể transition thành Miss (BFM §3.3):
+    → Gap → có thể transition thành Miss (Body-Feedback-Mechanism §3.3):
       khi Imagine-Final preview lặp + ổn định → compile baseline →
       reality không match baseline → Miss
     → Gap MORE durable (không fade vì không có gì replace)
@@ -1817,7 +1865,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Compound MẠNH hơn single (mỗi dynamic = 1 signal, chồng = amplify)
   → Giải thích tại sao major life transitions = CỰC stress
   → Recovery time tùy: bao nhiêu dynamics đồng thời × depth mỗi dynamic
-  → Cross-ref: BFM §4, Connection.md §1.3 (4 Cases)
+  → Cross-ref: Body-Feedback-Mechanism §4, Connection.md §1.3 (4 Cases)
 ```
 
 ---
@@ -1938,7 +1986,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TÁCH BIỆT:
     → Status cao mà KHÔNG connection (sếp: respected nhưng alone)
     → Connection sâu mà status đối xứng (bạn thân: ngang hàng)
-    → Belonging = status function (cached maps) + connection component (SPM)
+    → Belonging = status function (cached maps) + connection component (Self-Pattern-Modeling)
 ```
 
 ### §12.3 — Status × Threat
@@ -2233,13 +2281,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟡 FRAMEWORK SYNTHESIS (logical, chưa direct test):
 
-  🟡 Architecture B: status = emergent từ general-purpose system (§0)
-  🟡 F1 Compiled / F2 Fresh explicit framing cho status scan (§2.1)
+  🟡 Compilable Architecture: status = emergent từ general-purpose system (§0)
+  🟡 Compiled / Fresh explicit framing cho status scan (§2.1)
   🟡 PFC=Lawyer 3 distortion modes trong status domain (§9.5)
   🟡 Resource Access Map as COMPLETE model (framework synthesis)
   🟡 3 Modes (Lấy/Trao đổi/Comply) as exhaustive spectrum
   🟡 Cooperation as dominant mode in modern society (observable, not quantified)
-  🟡 Chunk Dynamics mapping (§10) — BFM extension, not direct study
+  🟡 Chunk Dynamics mapping (§10) — Body-Feedback-Mechanism extension, not direct study
   🟡 Status as meta-parameter gating other params (§12)
   🟡 MXH mechanism chain (aspiration → gap → cortisol → suppress)
   🟡 Military as "status optimization" framing
@@ -2283,7 +2331,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Q5: Status × Imagine-Final → aspiration compile?
       → Aspiration lặp đủ lâu → compile thành baseline?
-      → = Gap→Miss Transition (BFM §3.3) applied to aspiration
+      → = Gap→Miss Transition (Body-Feedback-Mechanism §3.3) applied to aspiration
       → If yes: chronic high aspiration → eventual Miss
       → = "Kỳ vọng cao → thất vọng lớn" = mechanism-level truth
 
@@ -2303,8 +2351,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CORE:
     → Core-v7.8-Draft.md §8 — Status observation parameter definition
     → Core-v7.8-Draft.md §9 — Development trajectory
-    → Inter-Body-Mechanism.md v1.0 §1.2 — Architecture B (§0 framing)
-    → Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh axis (§2.1 F1/F2)
+    → Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture (§0 framing)
+    → Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh axis (§2.1 Compiled/Fresh)
     → Inter-Body-Mechanism.md v1.0 §7 — PFC=Lawyer (§9.5 distortion)
     → Body-Feedback-Label.md v2.0 — framework vocabulary reference
 
@@ -2314,14 +2362,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Body-Feedback/03-Reward.md — VTA + opioid 2-level reward
     → Cortisol-Baseline.md v2.0 §3 — 10 touchpoints
     → Cortisol-Baseline.md v2.0 §4 — Silent cortisol (MXH pathway)
-    → Chunk.md v2.0 — Chunk substrate, compilation, hierarchy
-    → Valence-Propagation.md v2.0 — Valence shift mechanism (§10.1)
+    → Chunk.md v2.3 — Chunk substrate, compilation, hierarchy
+    → Valence-Propagation.md v3.0 — Valence shift, 3 firing modes, hardware subsidy
+
+  NEW CONCEPT FILES (28-session Drill — §1.3):
+    → Entity-Access.md v1.2 — status = Entity-Access gradient per-entity
+    → By-Product-Scale.md v1.0 — status across 3 scales (pair/hub/institutional)
+    → Bond-Architecture.md v1.0 — M1-M4 firing modes × status display
 
   OBSERVATION PARAMETER FILES:
     → Observation/Connection.md — §1.3 (4 Cases), §3 (Calibration)
     → Observation/Threat.md — Social threat origin, anticipation loop
     → Observation/Novelty.md — Status gates novelty access (§12.1)
-    → Observation/Empathy.md — SPM applied to status reading
+    → Observation/Empathy.md — Self-Pattern-Modeling applied to status reading
     → Observation/Drive.md — Status as drive-like emergent pattern
     → Observation/Boredom.md — Low status + boredom = isolation risk
     → Observation/Protect.md — Loss aversion × status (§12.4)
@@ -2331,8 +2384,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Observation/Liking-Wanting.md — Wanting vs liking in status context
 
   AGENT + SOCIAL FILES:
-    → Agent.md §12 — Body-need feeder, agents as external tools (§0.2)
-    → Agent.md §12.3 — Mirror reward override (§5.2)
+    → Agent-Mechanism.md v2.1 §12 — Body-need feeder, agents as tools (§0.2)
+    → Agent-Mechanism.md v2.1 §12.3 — Mirror reward override (§5.2)
     → Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT (§13)
     → Knowledge-Flow.md — Status enables/blocks knowledge transmission
     → Collective-Purpose.md — Status as organizational layer (§15)
@@ -2391,19 +2444,27 @@ Status = observation parameter: resource access calibration giữa social agents
   "Thành công nhưng trống rỗng" = multi-causal (NOT just cortisol suppress).
 
 ⭐ v2.1 ADDITIONS:
-  Architecture B: status = emergent từ general-purpose system (§0)
-  F1 Compiled / F2 Fresh: explicit framing cho status scan (§2.1)
+  Compilable Architecture: status = emergent từ general-purpose system (§0)
+  Compiled / Fresh: explicit framing cho status scan (§2.1)
   PFC=Lawyer: 3 distortion modes (fabricate/suppress/amplify) + Domain=Arbiter (§9.5)
+
+⭐ v2.2 ADDITIONS (Concept Cascade):
+  §1.3 NEW: Entity-Access gradient = status gradient (2 perspectives, 1 mechanism)
+  +Hardware Subsidy × status (Valence-Propagation v3.0 §5)
+  +By-Product-Scale × status (3 scales: pair/hub/institutional)
+  +M1-M4 firing modes × status display (4 modes)
+  Cross-refs: +Entity-Access v1.2, +By-Product-Scale v1.0, +Bond-Architecture v1.0, Valence-Propagation v2.0→v3.0, Agent→Agent-Mechanism v2.1
 ```
 
 ---
 
-> **Version:** 2.1
-> **Lines:** ~2,400
+> **Version:** 2.2
+> **Lines:** ~2,500
 > **Created:** 2026-04-20
 > **Rewritten:** 2026-04-21
 > **Updated:** 2026-05-17 v2.1
+> **Refined:** 2026-05-23 v2.2 (Concept Cascade)
 > **v1.0 backup:** backup/Status-v1.0-backup.md (1,301L)
 > **v0 backup:** backup/Status-Analysis-v2-v75-era.md (656L)
 > **v7.8 aligned:** ✅ observation parameter, cycle-based, chunk dynamics, evolutionary grounded
-> **v2.1:** ⑪ Architecture B, ⑫ F1/F2 Compiled/Fresh, ⑬ PFC=Lawyer, ⑭-⑯ refs updated
+> **v2.2:** ⑰ Entity-Access gradient, ⑱ Hardware Subsidy, ⑲ By-Product-Scale, ⑳ M1-M4

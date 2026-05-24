@@ -225,7 +225,7 @@ confidence: 🟢 Research/data support | 🟡 Framework synthesis | 🔴 Hypothe
   ĐK 4 — Ít alternative:      ✅ Gần như không có alternative nào.
   
   → 4/4 MET → Rượu = FUNCTIONAL release tool
-  → Uống → opioid warmth + PFC off → cortisol DROP → "vui thật, sướng thật"
+  → Uống → opioid warmth + PFC off → cortisol DROP → "vui thật, pleasant thật"
   → = Không phải "nghiện" hay "xấu" — mà là TOOL PHÙ HỢP cho context đó
 ```
 
@@ -416,9 +416,9 @@ confidence: 🟢 Research/data support | 🟡 Framework synthesis | 🔴 Hypothe
   │                                                                │
   │ "Uống chung = anh em. Không uống = outsider."                 │
   │                                                                │
-  │ Connection.md v3.0: ❶ Hardware social drive × ❷ SPM × ❸ Valence│
+  │ Connection.md v3.0: ❶ Hardware social drive × ❷ Self-Pattern-Modeling × ❸ Valence│
   │   Uống chung = shared experience → ❶ hardware fires            │
-  │   Cùng trải nghiệm (cùng say, cùng cười) → SPM resonance     │
+  │   Cùng trải nghiệm (cùng say, cùng cười) → Self-Pattern-Modeling resonance     │
   │   → Oxytocin THẬT (dù nhẹ) → body reward connection THẬT     │
   │   Từ chối = "tôi không muốn shared experience với các bạn"    │
   │   → ❸ Valence giảm → relationship weakens                     │
@@ -520,7 +520,7 @@ confidence: 🟢 Research/data support | 🟡 Framework synthesis | 🔴 Hypothe
 
   ① LUẬT = EXTERNAL ANCHOR cho body signal:
   
-     Compliance-Floor.md §7: "Luật = Bridge, SPM = Intrinsic"
+     Compliance-Floor.md §7: "Luật = Bridge, Self-Pattern-Modeling = Intrinsic"
      
      TRƯỚC luật:
        Body: "khó chịu, không muốn uống" (ALDH2*2 + cortisol mismatch)

@@ -1,7 +1,7 @@
-# Compile-Type-Learning — Loại Compile Ảnh Hưởng Learning Thế Nào
+# Compile-Type-Learning — Compile Types Ảnh Hưởng Learning Thế Nào
 
-> **Pythagoras tự đo vòng tròn → phát hiện pi → compile Type A/B (trực tiếp).**
-> **Học sinh được dạy pi = 3.14 → trust thầy cô → compile Type C (install).**
+> **Pythagoras tự đo vòng tròn → phát hiện pi → compile Experience/Expertise Compile (trực tiếp).**
+> **Học sinh được dạy pi = 3.14 → trust thầy cô → compile Trust Compile (install).**
 >
 > Cả hai "biết" pi. Cả hai tính đúng.
 > Nhưng CHẤT LƯỢNG chunk khác nhau:
@@ -9,11 +9,11 @@
 >   Học sinh: single-channel (nghe, ghi, áp dụng) → chunk NHANH, PHỤ THUỘC SOURCE
 >
 > File này phân tích: compile type MIX trong learning ảnh hưởng gì?
-> Khi nào Type C đủ? Khi nào cần Type A verify?
+> Khi nào Trust Compile đủ? Khi nào cần Experience Compile verify?
 > Cực đoan 2 hướng → hệ quả gì? Research nói gì?
 >
 > **Insight nền tảng:**
-> Logic vẫn có thể chặt chẽ dù toàn Type C — vì chain chunk vẫn được,
+> Logic vẫn có thể chặt chẽ dù toàn Trust Compile — vì chain chunk vẫn được,
 > body feedback "chain này đúng." Nhưng "đúng" ở đâu?
 > Đúng trên giấy? Hay đúng ngoài đời? Đó là câu hỏi.
 
@@ -23,7 +23,7 @@
 > **Ngày:** 2026-05-12 (v1.1 — §0.1 Evolutionary Context + §4.5 Screen/Digital)
 > **Vị trí:** Research/Education/ (research analysis, observation-level)
 > **Dependencies:**
->   Compile-Taxonomy.md v1.1 — 3 Loại A/B/C, 4 pathways, 6 trade-offs
+>   Compile-Taxonomy.md v2.0 — 3 Compile Types, 4 pathways, 6 trade-offs
 >   Education-Mechanism.md v1.0 — arc design principles, bridge + motivation
 >   Chunk.md v2.1 — compile mechanisms, trust gate
 >   Collective-Body.md v1.1 — trust = only bridge, Model 3 cấp
@@ -35,10 +35,10 @@
 ## Mục lục
 
 - §0 — VẤN ĐỀ CỐT LÕI
-- §0.1 — EVOLUTIONARY CONTEXT: TYPE A → TYPE C QUA 2 TRIỆU NĂM
+- §0.1 — EVOLUTIONARY CONTEXT: EXPERIENCE COMPILE → TRUST COMPILE QUA 2 TRIỆU NĂM
 - §1 — 3 COMPILE TYPES TRONG LEARNING CONTEXT
 - §2 — RESEARCH EVIDENCE: 2 CỰC ĐOAN
-- §3 — TYPE C → TYPE A TRANSITION: "TRUST THEN VERIFY"
+- §3 — TRUST COMPILE → EXPERIENCE COMPILE TRANSITION: "TRUST THEN VERIFY"
 - §4 — PER-DOMAIN ANALYSIS: TOÁN, NGÔN NGỮ, LẬP TRÌNH, THỂ THAO, SCREEN/DIGITAL
 - §5 — LẶP CÓ BODY-CHECK VS LẶP MÁY MÓC
 - §6 — HỆ QUẢ CHO THIẾT KẾ GIÁO DỤC
@@ -53,7 +53,7 @@
 ⭐ CÂU HỎI NỀN TẢNG:
 
   Học sinh ngồi trong lớp, nghe giảng, làm bài, thi — 12+ năm.
-  Phần lớn kiến thức = Type C: trust thầy cô, trust sách, trust hệ thống.
+  Phần lớn kiến thức = Trust Compile: trust thầy cô, trust sách, trust hệ thống.
   Logic chain chặt chẽ trên giấy. Điểm cao. Graduation.
 
   Nhưng ra ngoài đời:
@@ -65,78 +65,78 @@
 
   Framework predict: vì COMPILE TYPE khác nhau tạo CHUNK QUALITY khác nhau.
 
-  Type A (trực tiếp): body trải nghiệm → multi-modal → chunk SÂU, ROBUST
-  Type C (trust install): nghe/đọc → single-channel → chunk NHANH, DỄ CONFABULATE
+  Experience Compile (trực tiếp): body trải nghiệm → multi-modal → chunk SÂU, ROBUST
+  Trust Compile (install): nghe/đọc → single-channel → chunk NHANH, DỄ CONFABULATE
 
-  Cả hai đều "biết." Nhưng chunk Type A LINK được với domain thật.
-  Chunk Type C LINK được với context lớp học. Đổi context → fire yếu hoặc không fire.
+  Cả hai đều "biết." Nhưng chunk Experience Compile LINK được với domain thật.
+  Chunk Trust Compile LINK được với context lớp học. Đổi context → fire yếu hoặc không fire.
 
   = TRANSFER FAILURE — hiện tượng phổ biến nhất trong education research.
 
-⚠️ FILE NÀY KHÔNG NÓI Type C xấu:
-  Type C = cơ chế mạnh nhất để access collective knowledge.
-  Không ai đủ 1 đời để Type A compile toàn bộ kiến thức nhân loại.
-  Vấn đề = TYPE C ALONE, không kết hợp Type A verify.
+⚠️ FILE NÀY KHÔNG NÓI Trust Compile xấu:
+  Trust Compile = cơ chế mạnh nhất để access collective knowledge.
+  Không ai đủ 1 đời để Experience Compile compile toàn bộ kiến thức nhân loại.
+  Vấn đề = TRUST COMPILE ALONE, không kết hợp Experience Compile verify.
 ```
 
 ---
 
-## §0.1 — EVOLUTIONARY CONTEXT: TYPE A → TYPE C QUA 2 TRIỆU NĂM
+## §0.1 — EVOLUTIONARY CONTEXT: EXPERIENCE COMPILE → TRUST COMPILE QUA 2 TRIỆU NĂM
 
 ```
 ⭐ TIẾN TRÌNH LỊCH SỬ CỦA COMPILE TYPE:
 
-  ~2M năm:     100% Type A
+  ~2M năm:     100% Experience Compile
                Bộ lạc 30-150 người. Săn, hái, chế tạo, quan sát tự nhiên.
                Mọi thứ = trải nghiệm trực tiếp. Multi-modal. Domain feedback ngay.
                Trẻ HỌC bằng chơi, bắt chước, thử-sai. Không có "trường."
 
-  ~100K năm:   Type A + ngôn ngữ → Type C sơ khai
+  ~100K năm:   Experience Compile + ngôn ngữ → Trust Compile sơ khai
                Ngôn ngữ nói = trust install đầu tiên ("hổ ở kia → tránh").
                NHƯNG: vẫn verify được ngay (đi xem → thấy hổ thật).
-               Type C có anchor Type A gần như TỨC THÌ.
+               Trust Compile có anchor Experience Compile gần như TỨC THÌ.
 
-  ~5,000 năm:  Chữ viết → Type C MỞ RỘNG
+  ~5,000 năm:  Chữ viết → Trust Compile MỞ RỘNG
                Kiến thức ghi lại → trust sách, trust kinh, trust luật.
-               Type C bắt đầu TÁCH khỏi Type A: đọc về nơi chưa tới,
+               Trust Compile bắt đầu TÁCH khỏi Experience Compile: đọc về nơi chưa tới,
                chuyện chưa thấy, kiến thức chưa verify.
 
-  ~500 năm:    In ấn (Gutenberg) → Type C PHỔ BIẾN
+  ~500 năm:    In ấn (Gutenberg) → Trust Compile PHỔ BIẾN
                Sách không còn hiếm. Collective knowledge accessible rộng.
-               Type C scale tăng MẠNH. Type A vẫn là daily life.
+               Trust Compile scale tăng MẠNH. Experience Compile vẫn là daily life.
 
-  ~200 năm:    Trường học phổ cập → Type C DOMINANT
+  ~200 năm:    Trường học phổ cập → Trust Compile DOMINANT
                Lần đầu tiên: trẻ NGỒI TRONG PHÒNG 6-8 giờ/ngày
                NGHE người lớn nói → ghi → làm bài → thi.
-               = Body calibrate cho Type A (chạy, nhảy, nghịch, khám phá)
-                 bị ép chạy Type C (ngồi, nghe, ghi, nhớ).
+               = Body calibrate cho Experience Compile (chạy, nhảy, nghịch, khám phá)
+                 bị ép chạy Trust Compile (ngồi, nghe, ghi, nhớ).
                = Cùng logic mismatch: processed food vs ancestral diet
                  (Core-Software.md §2 Ancestral Domain).
 
-  ~50 năm:     TV → Type C THỤ ĐỘNG
+  ~50 năm:     TV → Trust Compile THỤ ĐỘNG
                1 chiều. 2 kênh (visual + auditory). Không contingency.
                Trẻ NHẬN nhưng KHÔNG hành động. Brain wire 1 chiều.
 
-  ~15 năm:     Smartphone + Social media → Type C TĂNG TỐC
+  ~15 năm:     Smartphone + Social media → Trust Compile TĂNG TỐC
                Thông tin vô tận. Quảng cáo vô tận. Nội dung vô tận.
-               Type C install ở tốc độ CHƯA TỪNG CÓ trong lịch sử.
+               Trust Compile install ở tốc độ CHƯA TỪNG CÓ trong lịch sử.
 
-  ~5 năm:      Short-form video (TikTok) → Type C ở tốc độ CỰC ĐẠI
+  ~5 năm:      Short-form video (TikTok) → Trust Compile ở tốc độ CỰC ĐẠI
                ~15 giây/video × vô tận × algorithmic optimization
                VTA fire mỗi swipe → baseline novelty BỊ NÂNG
                → Domain thật (cát, nước, lego, sách) = "chậm, chán"
 
   ⭐ PATTERN:
-    Type A giảm dần. Type C tăng dần. Tốc độ tăng = EXPONENTIAL.
+    Experience Compile giảm dần. Trust Compile tăng dần. Tốc độ tăng = EXPONENTIAL.
     Body-brain system = hardware 2M năm tuổi.
     Input hiện đại = software ~5-200 năm tuổi.
     = MISMATCH TĂNG DẦN — không chỉ ở food/exercise,
       mà ở CÁCH COMPILE KNOWLEDGE.
 
   ⚠️ KHÔNG NÓI "ngày xưa tốt hơn":
-    Type C = advancement CỰC LỚN (access collective knowledge).
-    Không ai muốn quay lại 100% Type A (săn hổ để "learn by doing").
-    Vấn đề = TYPE A BỊ LOẠI BỎ quá nhiều, quá nhanh.
+    Trust Compile = advancement CỰC LỚN (access collective knowledge).
+    Không ai muốn quay lại 100% Experience Compile (săn hổ để "learn by doing").
+    Vấn đề = EXPERIENCE COMPILE BỊ LOẠI BỎ quá nhiều, quá nhanh.
     Optimal = BALANCE — không phải extreme nào.
 ```
 
@@ -144,10 +144,10 @@
 
 ## §1 — 3 COMPILE TYPES TRONG LEARNING CONTEXT
 
-### §1.1 Type A trong learning: trải nghiệm trực tiếp
+### §1.1 Experience Compile trong learning: trải nghiệm trực tiếp
 
 ```
-🟢🟡 TYPE A = BODY EXPERIENCE → BODY COMPILE:
+🟢🟡 EXPERIENCE COMPILE = BODY EXPERIENCE → BODY COMPILE:
 
   VÍ DỤ TRONG EDUCATION:
     → Học bơi: nhảy xuống nước → body compile motor patterns
@@ -164,10 +164,10 @@
     ❌ Rủi ro: trải nghiệm sai có thể gây hại (bỏng, ngã, thất bại)
 ```
 
-### §1.2 Type B trong learning: expertise qua practice
+### §1.2 Expertise Compile trong learning: qua practice
 
 ```
-🟢🟡 TYPE B = PFC-DIRECTED BODY COMPILE QUA NHIỀU NĂM:
+🟢🟡 EXPERTISE COMPILE = PFC-DIRECTED BODY COMPILE QUA NHIỀU NĂM:
 
   VÍ DỤ TRONG EDUCATION:
     → Nghiên cứu sinh: years trong 1 domain → compiled meta-chunks
@@ -180,15 +180,15 @@
     ❌ Years required: không shortcut
     ❌ Domain-specific: Einstein expert vật lý + novice cooking
 
-  → Type B hiếm khi xảy ra trong K-12 education.
-  → Type B = product of sustained practice SAU graduation.
-  → NHƯNG: nền tảng cho Type B = Type A + Type C hồi K-12.
+  → Expertise Compile hiếm khi xảy ra trong K-12 education.
+  → Expertise Compile = product of sustained practice SAU graduation.
+  → NHƯNG: nền tảng cho Expertise Compile = Experience Compile + Trust Compile hồi K-12.
 ```
 
-### §1.3 Type C trong learning: trust install
+### §1.3 Trust Compile trong learning: install
 
 ```
-🟡 TYPE C = TRUST SOURCE → COMPILE SHORT:
+🟡 TRUST COMPILE = TRUST SOURCE → COMPILE SHORT:
 
   VÍ DỤ TRONG EDUCATION:
     → "Pi = 3.14" → trust thầy cô → compile [pi → tính diện tích]
@@ -205,10 +205,10 @@
     ❌ Context-bound: chunk link với "lớp học", không link với domain thật
     ❌ Confabulation risk: PFC explain post-hoc tại sao biết,
        nhưng thực ra = installed, không understood
-       (Compile-Taxonomy.md §2.3: Type C accuracy ~30-60% confabulation)
+       (Compile-Taxonomy.md §2.3: Trust Compile accuracy ~30-60% confabulation)
 
   ⭐ CRITICAL INSIGHT:
-    Logic chain VẪN CHẶT CHẼ trong Type C — vì brain chain chunks được.
+    Logic chain VẪN CHẶT CHẼ trong Trust Compile — vì brain chain chunks được.
     Body feedback "chain này đúng" → nhưng "đúng" = đúng TRONG SYSTEM.
     [pi → công thức → đáp án → giáo viên confirm → điểm 10]
     = Chain hoạt động. Body feedback positive. NHƯNG:
@@ -222,36 +222,36 @@
 ```
 🟡 VÍ DỤ PI — PHÂN TÍCH QUA 3 LOẠI:
 
-  ARCHIMEDES (Type A/B — người phát hiện):
+  ARCHIMEDES (Experience/Expertise Compile — người phát hiện):
     → Vẽ đa giác nội tiếp/ngoại tiếp vòng tròn
     → Tăng số cạnh: 6 → 12 → 24 → 48 → 96
     → Tính chu vi → thấy converge về giá trị ~3.14159
     → Body experience: đo, vẽ, tính, sai, sửa, lại tính
     → Domain feedback trực tiếp: geometry match reality
     → Chunk: MULTI-MODAL (visual + motor + logical + discovery emotion)
-    → = Type A compile → deepened qua years → Type B
+    → = Experience Compile compile → deepened qua years → Expertise Compile
 
-  HỌC SINH (Type C — người học):
+  HỌC SINH (Trust Compile — người học):
     → Thầy cô nói: "pi = 3.14, dùng tính diện tích hình tròn"
     → Làm bài tập: S = pi × r² → ra đáp án → điểm 10
     → Body feedback: "chain này đúng" (đúng trên giấy)
     → Chunk: SINGLE-CHANNEL (nghe → ghi → áp dụng công thức)
     → Trust chain: thầy cô → sách → hệ thống
-    → = Type C compile. Logic chặt chẽ. Nhưng chunk MỎNG.
+    → = Trust Compile compile. Logic chặt chẽ. Nhưng chunk MỎNG.
 
-  HỌC SINH TÒ MÒ (Type C → Type A transition):
-    → Được dạy pi = 3.14 (Type C install)
+  HỌC SINH TÒ MÒ (Trust Compile → Experience Compile transition):
+    → Được dạy pi = 3.14 (Trust Compile install)
     → TỰ đo: lấy dây đo vòng tròn, chia cho đường kính → ~3.14!
-    → Body reaction: "Ồ! Đúng thật!" → emotional peak → Type A compile
+    → Body reaction: "Ồ! Đúng thật!" → emotional peak → Experience Compile compile
     → Chunk: upgraded — logic + direct experience + surprise emotion
-    → = Type C → verified by Type A = STRONGEST
+    → = Trust Compile → verified by Experience Compile = STRONGEST
 ```
 
 ---
 
 ## §2 — RESEARCH EVIDENCE: 2 CỰC ĐOAN
 
-### §2.1 Cực đoan A: Pure Type C (chỉ học, không trải nghiệm)
+### §2.1 Cực đoan A: Pure Trust Compile (chỉ học, không trải nghiệm)
 
 ```
 ⭐ HỌC SINH CHỈ CẮM ĐẦU VÀO HỌC:
@@ -265,8 +265,8 @@
   Framework predict:
     ① Transfer failure cao — chunks link với "lớp học" context
     ② Body-feedback calibrate hẹp — chỉ biết "điểm cao = đúng"
-    ③ Creativity thấp — ít Type A chunks = ít material cho Type 4 linking
-    ④ Social skills yếu — ít practice = ít Type A social chunks
+    ③ Creativity thấp — ít Experience Compile chunks = ít material cho Type 4 linking
+    ④ Social skills yếu — ít practice = ít Experience Compile social chunks
     ⑤ Anxiety cao khi gặp novel domain — không có anchor chunks
     ⑥ Confabulation cao — "biết" nhưng biết CÓ THỂ SAI mà không hay
 ```
@@ -281,7 +281,7 @@
   → NHƯNG không giải thích được tại sao bóng rơi xuống đất
 
   Framework lens:
-    Type C chunks compile trong context "bài tập vật lý"
+    Trust Compile chunks compile trong context "bài tập vật lý"
     → Chỉ fire khi gặp context tương tự (bài tập, thi)
     → Không fire khi gặp domain thật (bóng rơi ngoài sân)
     → = Chunks link với CONTEXT, không link với DOMAIN
@@ -296,8 +296,8 @@
   Framework lens:
     Near transfer = cùng context → cùng chunks fire → OK
     Far transfer = khác context → chunks KHÔNG fire → fail
-    → Type C chunks = context-bound
-    → Type A chunks = domain-bound → transfer TỐT HƠN vì link với domain thật
+    → Trust Compile chunks = context-bound
+    → Experience Compile chunks = domain-bound → transfer TỐT HƠN vì link với domain thật
 
 🟢 ROTE LEARNING VS DEEP LEARNING — MARTON & SÄLJÖ 1976:
 
@@ -305,10 +305,10 @@
   "Deep approach": understand meaning, relate to existing knowledge
 
   Framework lens:
-    Surface = Type C pure (install + reproduce)
-    Deep = Type C install + PFC deliberate linking + body-check
-    → Deep approach = Type C + Type 4 linking + body verification
-    → = Moving TOWARD Type A quality nhưng qua PFC route
+    Surface = Trust Compile pure (install + reproduce)
+    Deep = Trust Compile install + PFC deliberate linking + body-check
+    → Deep approach = Trust Compile + Type 4 linking + body verification
+    → = Moving TOWARD Experience Compile quality nhưng qua PFC route
 ```
 
 ### §2.3 Research: Play Deprivation
@@ -325,15 +325,15 @@
     → Sense of control giảm (external locus of control tăng)
 
   Framework lens:
-    Free play = Type A compile cho:
+    Free play = Experience Compile compile cho:
       → Social: negotiate, cooperate, conflict resolution
       → Motor: run, climb, balance → body-input calibration
       → Creativity: improvise, imagine, create
       → Autonomy: self-directed → efference copy → agency
       → Risk assessment: fall, get up → body learn limits
 
-    Bớt play = bớt Type A compile ở những domain CRITICAL.
-    Thay bằng: thêm structured learning = thêm Type C install.
+    Bớt play = bớt Experience Compile compile ở những domain CRITICAL.
+    Thay bằng: thêm structured learning = thêm Trust Compile install.
     → Academic chunks tăng. Life chunks giảm. Net effect = fragile.
 
 🟢 STUART BROWN — "PLAY" (2009):
@@ -344,8 +344,8 @@
     → Higher rates of depression
 
   Framework lens:
-    Play deprivation = Type A chunk deficit ở social + creative domains
-    → PFC có Type C schemas ("nên giao tiếp thế nào") nhưng body
+    Play deprivation = Experience Compile chunk deficit ở social + creative domains
+    → PFC có Trust Compile schemas ("nên giao tiếp thế nào") nhưng body
       KHÔNG có compiled motor/social patterns → awkward, effortful
     → = "Biết lý thuyết giao tiếp" nhưng body chưa compile
 ```
@@ -360,11 +360,11 @@
   → PISA scores: consistently TOP
   → Student wellbeing: CAO
 
-  Framework lens: BALANCED Type A + Type C
-    → Type C: vẫn học, vẫn trust teacher
-    → Type A: play + outdoor + practical activities
+  Framework lens: BALANCED Experience Compile + Trust Compile
+    → Trust Compile: vẫn học, vẫn trust teacher
+    → Experience Compile: play + outdoor + practical activities
     → Body-feedback calibrate RỘNG: academic + social + physical
-    → Transfer better: Type A chunks link với domain thật
+    → Transfer better: Experience Compile chunks link với domain thật
 
 🟢🟡 EAST ASIAN "CRAMMING" MODEL (Hàn, Nhật, Trung):
   → Rất nhiều homework + hagwon/juku (tutoring centers)
@@ -374,17 +374,17 @@
   → Student wellbeing: THẤP NHẤT OECD
   → Youth suicide rates: among highest globally
 
-  Framework lens: DOMINANT Type C
+  Framework lens: DOMINANT Trust Compile
     → Chunk density academic RẤT CAO
     → Nhưng: body-feedback calibrate HẸP (chủ yếu "điểm")
-    → Ít Type A chunks cho: social, physical, creative, autonomy
+    → Ít Experience Compile chunks cho: social, physical, creative, autonomy
     → Kết quả: performance tốt + wellbeing tệ
     → = System tối ưu cho OUTPUT, không tối ưu cho HUMAN
 
   ⭐ SO SÁNH:
     Cả hai → PISA scores cao (academic chunks OK)
-    Finland: + wellbeing cao (balanced Type A/C)
-    East Asia: + wellbeing thấp (dominant Type C)
+    Finland: + wellbeing cao (balanced Experience Compile/C)
+    East Asia: + wellbeing thấp (dominant Trust Compile)
     → Compile TYPE MIX matters, không chỉ chunk density
 
 🟢 OECD PISA Wellbeing reports 2015, 2018
@@ -407,16 +407,16 @@
     → Similar or better academic achievement
 
   Framework lens:
-    Montessori = Type A + Type C mix (hands-on + guided)
-    Traditional = Type C dominant (lecture + exercise)
-    → Montessori: Type A chunks → link with domain → better transfer
-    → Traditional: Type C chunks → link with context → worse transfer
+    Montessori = Experience Compile + Trust Compile mix (hands-on + guided)
+    Traditional = Trust Compile dominant (lecture + exercise)
+    → Montessori: Experience Compile chunks → link with domain → better transfer
+    → Traditional: Trust Compile chunks → link with context → worse transfer
 
 🟢 LILLARD 2012 (follow-up review):
 
   Montessori benefits strongest when implemented with fidelity.
   Watered-down Montessori ≈ Traditional.
-  → = It's not the LABEL, it's the actual Type A compile happening.
+  → = It's not the LABEL, it's the actual Experience Compile compile happening.
 ```
 
 ### §2.6 Research: Chinese Learner Paradox
@@ -424,38 +424,38 @@
 ```
 🟢 "CHINESE LEARNER PARADOX" — WATKINS & BIGGS 1996:
 
-  Paradox: Chinese students APPEAR to rote learn (Type C)
+  Paradox: Chinese students APPEAR to rote learn (Trust Compile)
   nhưng vẫn perform well on tests requiring understanding.
 
   Resolution: nhiều học sinh Á châu thực hiện
-  "repetition WITH understanding" — không chỉ Type C thuần túy.
+  "repetition WITH understanding" — không chỉ Trust Compile thuần túy.
 
   = Lặp đi lặp lại CHO TỚI KHI "body feel đúng"
   = Không chỉ memorize → mà lặp cho tới khi HIỂU
 
   Framework lens:
-    → Ban đầu: Type C install ("đạo hàm x² = 2x")
+    → Ban đầu: Trust Compile install ("đạo hàm x² = 2x")
     → Lặp lại: tính đi tính lại → body start recognize pattern
-    → Khi body "feel đúng" = Type A verify đang xảy ra
-    → Repetition + body-check = Type C → Type A transition
+    → Khi body "feel đúng" = Experience Compile verify đang xảy ra
+    → Repetition + body-check = Trust Compile → Experience Compile transition
     → ≠ "rote learning" thuần → MÀ là repetition-as-verification
 
   ⭐ INSIGHT: "Chinese Learner Paradox" KHÔNG paradox nếu nhìn qua framework.
     Repetition CÓ THỂ = verification pathway.
     ĐIỀU KIỆN: repetition + body-check ("mình hiểu thật chưa?")
-    Nếu repetition thuần mechanical = vẫn Type C, chỉ mạnh hơn.
+    Nếu repetition thuần mechanical = vẫn Trust Compile, chỉ mạnh hơn.
 ```
 
 ---
 
-## §3 — TYPE C → TYPE A TRANSITION: "TRUST THEN VERIFY"
+## §3 — TRUST COMPILE → EXPERIENCE COMPILE TRANSITION: "TRUST THEN VERIFY"
 
 ### §3.1 Transition mechanism
 
 ```
-🟡 TYPE C → TYPE A = KHÔNG XÓA TYPE C, MÀ THÊM TYPE A LÊN TRÊN:
+🟡 TRUST COMPILE → EXPERIENCE COMPILE = KHÔNG XÓA TRUST COMPILE, MÀ THÊM EXPERIENCE COMPILE LÊN TRÊN:
 
-  Bước 1: TYPE C INSTALL
+  Bước 1: TRUST COMPILE INSTALL
     → Thầy cô nói: "pi = 3.14, dùng tính diện tích"
     → Trust gate pass → compile [pi → diện tích] = chunk mỏng
     → Đủ để giải bài tập → body feedback "đúng"
@@ -464,7 +464,7 @@
     → Học sinh TỰ đo vòng tròn → ra ~3.14
     → HOẶC: làm việc cần tính thể tích bể nước → dùng pi → đúng thật
     → Body reaction: surprise + confirm → emotional peak
-    → = Type A compile LẠI cùng concept nhưng multi-modal
+    → = Experience Compile compile LẠI cùng concept nhưng multi-modal
 
   Bước 3: CHUNK UPGRADE
     → Chunk [pi → diện tích] giờ có THÊM:
@@ -475,49 +475,49 @@
     → = Chunk SÂU hơn, RỘNG hơn, TRANSFER tốt hơn
 
   ⭐ NGUYÊN TẮC:
-    Type C install = FAST BOOTSTRAP (nhanh, rộng, access collective)
-    Type A verify = QUALITY UPGRADE (sâu, robust, domain-linked)
-    OPTIMAL = Type C FIRST → Type A VERIFY → chunk chất lượng cao
+    Trust Compile install = FAST BOOTSTRAP (nhanh, rộng, access collective)
+    Experience Compile verify = QUALITY UPGRADE (sâu, robust, domain-linked)
+    OPTIMAL = Trust Compile FIRST → Experience Compile VERIFY → chunk chất lượng cao
     = "TRUST THEN VERIFY" — bằng BODY, không chỉ bằng logic
 ```
 
-### §3.2 Khi nào Type C ĐỦ (không cần Type A verify)
+### §3.2 Khi nào Trust Compile ĐỦ (không cần Experience Compile verify)
 
 ```
-🟡 TYPE C ĐỦ KHI:
+🟡 TRUST COMPILE ĐỦ KHI:
 
   ① Domain abstract + collective verify MẠNH:
-    → "Trái đất quay quanh mặt trời" — không thể Type A verify trực tiếp
+    → "Trái đất quay quanh mặt trời" — không thể Experience Compile verify trực tiếp
     → Collective evidence (astronomy, space missions) = đủ trust
-    → Type C install = hợp lý, không cần cá nhân tự verify
+    → Trust Compile install = hợp lý, không cần cá nhân tự verify
 
   ② Risk thấp + utility cao:
-    → "Nước sôi ở 100°C" — Type C đủ cho daily use
+    → "Nước sôi ở 100°C" — Trust Compile đủ cho daily use
     → Nếu sai (ở độ cao khác → sôi < 100°C) → hệ quả nhẹ
     → Không cần mọi người tự đo nhiệt kế
 
   ③ Foundation for next learning:
-    → "Bảng cửu chương" → Type C install → dùng làm tool
+    → "Bảng cửu chương" → Trust Compile install → dùng làm tool
     → Body verify gián tiếp qua sử dụng thành công liên tục
     → = Repetition verify (Chinese Learner mechanism)
 
-  ⚠️ TYPE C KHÔNG ĐỦ KHI:
+  ⚠️ TRUST COMPILE KHÔNG ĐỦ KHI:
     → Domain đòi hỏi PHYSICAL skill (bơi, lái xe, phẫu thuật)
     → Decision-making under uncertainty (business, relationships)
     → Creative work (Type 4 linking cần diverse chunks)
     → Personal values (cần body-check, không chỉ sách nói)
 ```
 
-### §3.3 Failure: Type C LOCKED (không bao giờ transition)
+### §3.3 Failure: Trust Compile LOCKED (không bao giờ transition)
 
 ```
-⚠️ TYPE C LOCKED = NGUY HIỂM TINH TẾ:
+⚠️ TRUST COMPILE LOCKED = NGUY HIỂM TINH TẾ:
 
   Khi nào xảy ra:
     → Học sinh CẮM ĐẦU học 12+ năm
     → Không chơi, không nghịch, không trải nghiệm thực tế
-    → Tất cả knowledge = Type C (sách, thầy cô, hệ thống)
-    → Tốt nghiệp → gặp real domain → Type C chunks KHÔNG fire
+    → Tất cả knowledge = Trust Compile (sách, thầy cô, hệ thống)
+    → Tốt nghiệp → gặp real domain → Trust Compile chunks KHÔNG fire
 
   Biểu hiện:
     → "Học giỏi mà ra trường không biết làm gì"
@@ -526,7 +526,7 @@
     → "Đọc sách self-help nhưng đời không đổi"
 
   Framework mechanism:
-    → Type C chunks link với CONTEXT "lớp học + sách"
+    → Trust Compile chunks link với CONTEXT "lớp học + sách"
     → Real domain = KHÁC context → chunks không activate
     → PFC confabulate: "tôi biết mà!" — thực ra = confabulation
     → Body-feedback chưa bao giờ calibrate cho domain thật
@@ -534,8 +534,8 @@
     → Nhưng ở mức TOÀN DIỆN: không chỉ 1 skill, mà HẦU HẾT life skills
 
   ⭐ KHÔNG PHẢI LỖI HỌC SINH:
-    = Hệ thống ưu tiên Type C install (efficient, scalable)
-    = Ít tạo cơ hội Type A verify (tốn thời gian, khó kiểm soát)
+    = Hệ thống ưu tiên Trust Compile install (efficient, scalable)
+    = Ít tạo cơ hội Experience Compile verify (tốn thời gian, khó kiểm soát)
     = Body-feedback hệ thống: điểm = thước đo DUY NHẤT
     = Học sinh optimize cho thước đo → rational response to incentive
 ```
@@ -547,58 +547,58 @@
 ### §4.1 Toán học
 
 ```
-🟡 TOÁN = DOMAIN ĐẶC BIỆT — TYPE C RẤT HIỆU QUẢ:
+🟡 TOÁN = DOMAIN ĐẶC BIỆT — TRUST COMPILE RẤT HIỆU QUẢ:
 
   Toán có ĐẶC TÍNH RIÊNG:
     → Internal consistency: axioms → theorems → proofs
     → Self-verifying: chain logic TỰ kiểm tra (sai = contradiction)
     → Abstract: không cần physical verification cho nhiều khái niệm
 
-  TYPE C TRONG TOÁN:
+  TRUST COMPILE TRONG TOÁN:
     → Install axioms + rules → chain logic → derive results
     → Body-feedback: "chain smooth" = body confirm logic chain đúng
     → Lặp lại nhiều bài → body compile patterns (Chinese Learner)
-    → = Type C CÓ THỂ transition sang Type A qua REPETITION
+    → = Trust Compile CÓ THỂ transition sang Experience Compile qua REPETITION
       (vì toán TỰ verify qua internal consistency)
 
   NHƯNG — GIỚI HẠN:
     → "Biết giải" ≠ "hiểu tại sao"
     → Học sinh solve x² + 5x + 6 = 0 → ra x = -2, -3
     → NHƯNG không biết: "x² + 5x + 6 TRÔNG như thế nào trên graph?"
-    → = Algebraic chunk (Type C) ≠ Geometric understanding (Type A visual)
+    → = Algebraic chunk (Trust Compile) ≠ Geometric understanding (Experience Compile visual)
     → = Liên quan: "inert knowledge" — biết solve, không biết MEAN gì
 
-  OPTIMAL: Type C install rules → Type A visualize → Type B expertise
+  OPTIMAL: Trust Compile install rules → Experience Compile visualize → Expertise Compile
 ```
 
 ### §4.2 Ngôn ngữ
 
 ```
-🟡 NGÔN NGỮ = TYPE C + TYPE A TỰ NHIÊN:
+🟡 NGÔN NGỮ = TRUST COMPILE + EXPERIENCE COMPILE TỰ NHIÊN:
 
   FIRST LANGUAGE (L1):
-    → Type A dominant: body trải nghiệm ngôn ngữ trực tiếp
+    → Experience Compile dominant: body trải nghiệm ngôn ngữ trực tiếp
     → Nghe mẹ nói → bắt chước → body compile sound patterns
     → Multi-modal: nghe + thấy miệng + cảm xúc + context thật
-    → = Đây là lý do L1 compile MẠNH (Type A natural)
+    → = Đây là lý do L1 compile MẠNH (Experience Compile natural)
 
   SECOND LANGUAGE (L2) Ở TRƯỜNG:
-    → Type C dominant: học grammar rules, memorize vocabulary
+    → Trust Compile dominant: học grammar rules, memorize vocabulary
     → "Present perfect = have/has + past participle" → rule install
-    → Practice = bài tập trên giấy → Type C context
+    → Practice = bài tập trên giấy → Trust Compile context
     → = Tại sao học 10 năm tiếng Anh mà nói không được
 
   L2 IMMERSION:
-    → Type A: sống trong môi trường → body compile trực tiếp
+    → Experience Compile: sống trong môi trường → body compile trực tiếp
     → Nghe native speakers → body compile natural patterns
     → Social pressure + emotional context → multi-modal
     → = Tại sao du học 1 năm > học trường 10 năm
-    → = Type A verify cho Type C installed chunks
+    → = Experience Compile verify cho Trust Compile installed chunks
 
   ⭐ INSIGHT:
-    Ngôn ngữ = ví dụ rõ nhất cho Type A vs Type C difference.
-    Grammar rules (Type C) ≠ fluency (Type A).
-    Cần CẢ HAI: Type C cho structure, Type A cho fluency.
+    Ngôn ngữ = ví dụ rõ nhất cho Experience Compile vs Trust Compile difference.
+    Grammar rules (Trust Compile) ≠ fluency (Experience Compile).
+    Cần CẢ HAI: Trust Compile cho structure, Experience Compile cho fluency.
 ```
 
 ### §4.3 Lập trình
@@ -608,74 +608,74 @@
 
   ĐẶC BIỆT:
     → Code chạy hoặc không chạy → domain feedback NGAY (compile/runtime error)
-    → = Type C install rules → Type A verify NGAY khi code chạy
+    → = Trust Compile install rules → Experience Compile verify NGAY khi code chạy
     → = Natural transition mechanism built into domain
 
-  HỌC LẬP TRÌNH KIỂU TYPE C:
+  HỌC LẬP TRÌNH KIỂU TRUST COMPILE:
     → Đọc sách → học syntax → memorize patterns
     → Biết "for loop syntax" → nhưng chưa viết program thật
     → = Tutorial hell: đọc tutorial → hiểu → nhưng KHÔNG viết được
 
-  HỌC LẬP TRÌNH KIỂU TYPE A:
+  HỌC LẬP TRÌNH KIỂU EXPERIENCE COMPILE:
     → Viết code → run → error → fix → run → works!
     → Body compile: error patterns, debugging flow, architecture feel
     → Multi-modal: visual (code), motor (type), logical (debug), emotional (eureka)
     → = Tại sao "learn by doing" = consensus trong CS education
 
   ⭐ Lập trình = CLOSEST TO OPTIMAL:
-    → Type C install (syntax, concepts) → Type A verify (code runs) = natural
+    → Trust Compile install (syntax, concepts) → Experience Compile verify (code runs) = natural
     → Domain feedback cycle = FAST (seconds, not years)
-    → Error = NOT FAILURE, = INFORMATION (Type A compile opportunity)
+    → Error = NOT FAILURE, = INFORMATION (Experience Compile compile opportunity)
     → = Giải thích tại sao self-taught programmers often outperform CS graduates
-      (more Type A compile, less Type C only)
+      (more Experience Compile compile, less Trust Compile only)
 ```
 
 ### §4.4 Thể thao / Kỹ năng vật lý
 
 ```
-🟢 THỂ THAO = TYPE A DOMINANT — TYPE C KHÔNG THỂ THAY THẾ:
+🟢 THỂ THAO = EXPERIENCE COMPILE DOMINANT — TRUST COMPILE KHÔNG THỂ THAY THẾ:
 
   Không ai học bơi bằng đọc sách bơi.
   Không ai lái xe bằng xem video lái xe.
   Không ai phẫu thuật bằng nghe giảng phẫu thuật.
 
   → Body PHẢI trải nghiệm trực tiếp → motor patterns compile
-  → Type C có thể ACCELERATE ("giữ tay thẳng, đá chân từ hông")
-  → Nhưng Type C KHÔNG THỂ THAY THẾ Type A cho motor skills
+  → Trust Compile có thể ACCELERATE ("giữ tay thẳng, đá chân từ hông")
+  → Nhưng Trust Compile KHÔNG THỂ THAY THẾ Experience Compile cho motor skills
 
   HIERARCHY:
-    Type C: biết lý thuyết ("gập đầu gối 90°") → useful as guide
-    Type A: body compile motor pattern → bắt buộc, không bypass
-    Type B: years practice → expert level (vận động viên chuyên nghiệp)
+    Trust Compile: biết lý thuyết ("gập đầu gối 90°") → useful as guide
+    Experience Compile: body compile motor pattern → bắt buộc, không bypass
+    Expertise Compile: years practice → expert level (vận động viên chuyên nghiệp)
 
   ⭐ INSIGHT:
-    Thể thao PROOF rằng Type C ≠ Type A.
+    Thể thao PROOF rằng Trust Compile ≠ Experience Compile.
     Ai cũng đồng ý: không thể học bơi bằng sách.
     Framework extend: CÙNG PRINCIPLE áp dụng cho MỌI domain —
     chỉ khác DEGREE.
-    → Bơi: 99% Type A, 1% Type C
-    → Toán: 60% Type C, 40% Type A (approximate)
-    → Social skills: 70% Type A, 30% Type C
-    → Mỗi domain = mix khác nhau. Không ai 100% Type C đủ.
+    → Bơi: 99% Experience Compile, 1% Trust Compile
+    → Toán: 60% Trust Compile, 40% Experience Compile (approximate)
+    → Social skills: 70% Experience Compile, 30% Trust Compile
+    → Mỗi domain = mix khác nhau. Không ai 100% Trust Compile đủ.
 ```
 
 ### §4.5 Screen / Digital — Compile type YẾU NHẤT
 
 ```
-🟢🟡 SCREEN = TYPE C THỤ ĐỘNG — YẾU HƠN CẢ TYPE C THƯỜNG:
+🟢🟡 SCREEN = TRUST COMPILE THỤ ĐỘNG — YẾU HƠN CẢ TRUST COMPILE THƯỜNG:
 
-  Type C thường (lớp học): trust thầy cô (AGENT) → compile
+  Trust Compile thường (lớp học): trust thầy cô (AGENT) → compile
     → Thầy cô = agent mà trẻ có trust relationship
     → Có turn-taking: thầy hỏi → trò đáp → feedback
     → Có social context: bạn bè, tương tác, body-feedback xã hội
-    → = Type C qua trust gate HOẠT ĐỘNG
+    → = Trust Compile qua trust gate HOẠT ĐỘNG
 
-  Type C screen (TV, YouTube, TikTok): trust MÀN HÌNH → compile?
+  Trust Compile screen (TV, YouTube, TikTok): trust MÀN HÌNH → compile?
     → Màn hình KHÔNG phải agent mà trẻ trust theo cách trust mẹ
     → Không có turn-taking: TV phát → trẻ nhận THỤ ĐỘNG
     → Không có contingency: hành động của trẻ KHÔNG ảnh hưởng nội dung
     → 2 kênh (visual + auditory) vs 6+ kênh khi chơi thật
-    → = Type C KHÔNG ĐẦY ĐỦ — thiếu trust gate, thiếu multi-modal
+    → = Trust Compile KHÔNG ĐẦY ĐỦ — thiếu trust gate, thiếu multi-modal
 
   🟢 Child-Development-Mechanism.md §2 — 3 parameters screen THUA:
 
@@ -699,7 +699,7 @@
   🟢 AAP (American Academy of Pediatrics):
     Trẻ <18 tháng: tránh screen (trừ video call)
     Video call = CÓ contingency (bà nói → trẻ đáp → bà cười)
-    → = Phân biệt: interactive (Type A element) vs passive (pure receive)
+    → = Phân biệt: interactive (Experience Compile element) vs passive (pure receive)
 ```
 
 ### §4.5.1 Trẻ con xem TikTok vs Người lớn xem TikTok
@@ -708,7 +708,7 @@
 🟡 2 NHÓM, CÙNG NỘI DUNG, KHÁC CHUNKS:
 
   NGƯỜI LỚN xem TikTok:
-    → ĐÃ CÓ Type A chunks cho hầu hết nội dung trên screen
+    → ĐÃ CÓ Experience Compile chunks cho hầu hết nội dung trên screen
     → Thấy phụ nữ nhảy → đã có chunks về phụ nữ (gặp thật, nói thật)
     → Thấy đồ ăn → đã có chunks về vị (nếm thật, nấu thật)
     → Video = KÍCH HOẠT chunks ĐÃ CÓ → body respond dựa trên experience
@@ -718,7 +718,7 @@
       nhưng ÍT NHẤT có anchor chunks từ real life
 
   TRẺ CON xem TikTok:
-    → CHƯA CÓ Type A chunks cho phần lớn nội dung
+    → CHƯA CÓ Experience Compile chunks cho phần lớn nội dung
     → Thấy hình khối, quả nọ quả kia, màu sắc rực rỡ
       → CHƯA TỪNG thấy ngoài đời (so với trẻ)
     → Video install chunks KHÔNG CÓ ANCHOR trong domain thật
@@ -727,14 +727,14 @@
     → + Baseline novelty BỊ NÂNG → đồ chơi thật = "chậm, chán"
     → = DOUBLE DAMAGE:
       ① Compile chunks không link với reality
-      ② Hijack VTA → làm giảm khả năng Type A compile
+      ② Hijack VTA → làm giảm khả năng Experience Compile compile
         (vì domain thật "không đủ hấp dẫn" nữa)
 
   ⭐ INSIGHT:
     Người lớn xem TikTok = stimulate existing chunks (vẫn có vấn đề)
-    Trẻ con xem TikTok = compile chunks THAY THẾ Type A experience
+    Trẻ con xem TikTok = compile chunks THAY THẾ Experience Compile
     → Nguy hiểm hơn RẤT NHIỀU — vì trẻ đang ở giai đoạn
-      CẦN Type A nhất (chunk foundation cho cả đời)
+      CẦN Experience Compile nhất (chunk foundation cho cả đời)
 ```
 
 ### §4.5.2 VTA Habituation: Screen → Domain thật = "chán"
@@ -756,8 +756,8 @@
 
   HỆ QUẢ:
     → Trẻ "chán mọi thứ" trừ screen = VTA baseline distortion
-    → Type A compile opportunity GIẢM (vì trẻ không MUỐN chơi thật)
-    → Type C passive install TĂNG (vì screen = path of least resistance)
+    → Experience Compile compile opportunity GIẢM (vì trẻ không MUỐN chơi thật)
+    → Trust Compile passive install TĂNG (vì screen = path of least resistance)
     → = Vòng lặp tự tăng cường: screen → chán thật → more screen → ...
     → Giống addiction mechanism (Addiction-Analysis.md §2: bypass H10)
 ```
@@ -767,14 +767,14 @@
 ```
 🟢🟡 VÍ DỤ CỤ THỂ — HỌC NGÔN NGỮ / CHỮ CÁI / ĐẾM:
 
-  HỌC QUA NGƯỜI (Type A + Type C):
+  HỌC QUA NGƯỜI (Experience Compile + Trust Compile):
     → Mẹ chỉ: "Đây là chữ A — giống mái nhà!"
     → Trẻ: nhìn (visual) + nghe (auditory) + chỉ tay (motor)
       + mẹ cười (social reward) + context thật (biển hiệu, sách)
     → Contingency: trẻ hỏi → mẹ đáp → trẻ hỏi tiếp
     → = Multi-modal + social + contingency = compile SÂU
 
-  HỌC QUA TV / APP (Type C thụ động):
+  HỌC QUA TV / APP (Trust Compile thụ động):
     → TV nói: "A! Apple! A-A-Apple!"
     → Trẻ: nhìn (visual) + nghe (auditory) = 2 kênh
     → Không contingency: TV nói BẤT KỂ trẻ có nghe không
@@ -786,7 +786,7 @@
       (AAP recommendations, multiple studies)
     → 🟢 "Video transfer deficit" — trẻ nhỏ (<3) KHÓ transfer
       kiến thức từ video sang real world (Anderson & Pempek 2005)
-    → Framework lens: video = Type C mà không có anchor,
+    → Framework lens: video = Trust Compile mà không có anchor,
       contingency, hoặc trust gate đầy đủ → compile yếu
 
   ĐÁNG CHÚ Ý:
@@ -813,7 +813,7 @@
     → Lặp đi lặp lại KHÔNG có body-check
     → PFC off, body chạy tự động
     → VD: chép bài 100 lần, memorize flashcard, drill without thinking
-    → Kết quả: Type C STRENGTHEN (chunk mạnh hơn, KHÔNG sâu hơn)
+    → Kết quả: Trust Compile STRENGTHEN (chunk mạnh hơn, KHÔNG sâu hơn)
     → Pattern: [stimulus → response] NHANH hơn — nhưng CÙNG QUALITY
 
   LẶP CÓ BODY-CHECK (Verified Repetition):
@@ -821,13 +821,13 @@
     → "Mình hiểu thật chưa? Cái này feel đúng chưa?"
     → PFC observe + body-vote ở mỗi iteration
     → VD: giải toán → check "tại sao bước này?", chơi nhạc → listen "âm này đúng chưa?"
-    → Kết quả: Type C → Type A TRANSITION (chunk upgrade)
+    → Kết quả: Trust Compile → Experience Compile TRANSITION (chunk upgrade)
     → Pattern: [stimulus → response → body-check → adjust] = DEEPER
 
   ⭐ SỰ KHÁC BIỆT:
 
     Mechanical:    [lặp] → chunk MẠNH hơn (same type)
-    Body-check:    [lặp + check] → chunk CHUYỂN LOẠI (Type C → Type A)
+    Body-check:    [lặp + check] → chunk CHUYỂN LOẠI (Trust Compile → Experience Compile)
 
     Mechanical = chỉ ② Repetition (1 trong 4 compile mechanisms)
     Body-check = ② Repetition + ③ Multi-modal (thêm body-observation channel)
@@ -849,13 +849,13 @@
 
   Framework lens:
     "Nắm" = body feel smooth khi process
-    "Nhớ" = retrieval success (có thể vẫn Type C)
-    → "Nắm" > "nhớ" — vì "nắm" = Type A verify đã xảy ra
+    "Nhớ" = retrieval success (có thể vẫn Trust Compile)
+    → "Nắm" > "nhớ" — vì "nắm" = Experience Compile verify đã xảy ra
 
   ⚠️ NHƯNG: KHÔNG PHẢI TẤT CẢ:
     Một số học sinh THẬT SỰ lặp máy móc (mechanical)
     → Chỉ memorize → chưa bao giờ body-check
-    → = Type C strengthen, KHÔNG transition
+    → = Trust Compile strengthen, KHÔNG transition
     → = Những học sinh này = TRUE rote learners → transfer failure
 
   → Paradox = vì Western researchers KHÔNG phân biệt 2 loại lặp.
@@ -897,26 +897,26 @@
 ```
 🟡 5 NGUYÊN LÝ RÚT RA:
 
-  ① TYPE C = BOOTSTRAP, KHÔNG PHẢI DESTINATION
-    → Type C install = nhanh, rộng, access collective knowledge
-    → NHƯNG: Type C alone = fragile, context-bound, confabulation risk
-    → Giáo dục NÊN dùng Type C để START, rồi tạo cơ hội Type A verify
+  ① TRUST COMPILE = BOOTSTRAP, KHÔNG PHẢI DESTINATION
+    → Trust Compile install = nhanh, rộng, access collective knowledge
+    → NHƯNG: Trust Compile alone = fragile, context-bound, confabulation risk
+    → Giáo dục NÊN dùng Trust Compile để START, rồi tạo cơ hội Experience Compile verify
 
   ② MỖI DOMAIN = MỘT MIX KHÁC NHAU
-    → Toán: Type C có thể transition qua verified repetition
-    → Ngôn ngữ: cần immersion (Type A) — Type C alone = insufficient
-    → Thể thao: Type A bắt buộc — Type C chỉ guide
-    → Social: Type A bắt buộc — Type C chỉ framework
+    → Toán: Trust Compile có thể transition qua verified repetition
+    → Ngôn ngữ: cần immersion (Experience Compile) — Trust Compile alone = insufficient
+    → Thể thao: Experience Compile bắt buộc — Trust Compile chỉ guide
+    → Social: Experience Compile bắt buộc — Trust Compile chỉ framework
     → Không có 1 công thức cho tất cả
 
-  ③ PLAY = TYPE A COMPILE INFRASTRUCTURE
-    → Play không "phí thời gian" — play = Type A compile
-    → Bớt play = bớt Type A = bớt anchor chunks cho transfer
+  ③ PLAY = EXPERIENCE COMPILE COMPILE INFRASTRUCTURE
+    → Play không "phí thời gian" — play = Experience Compile compile
+    → Bớt play = bớt Experience Compile = bớt anchor chunks cho transfer
     → Gray 2011: play giảm → mental health issues tăng
 
   ④ LẶP ≠ LẶP — PHÂN BIỆT MECHANICAL VS BODY-CHECK
-    → Mechanical repetition: strengthen Type C (faster, not deeper)
-    → Body-check repetition: transition Type C → Type A (deeper)
+    → Mechanical repetition: strengthen Trust Compile (faster, not deeper)
+    → Body-check repetition: transition Trust Compile → Experience Compile (deeper)
     → Education system hiếm khi phân biệt 2 loại
     → = Missed opportunity
 
@@ -929,10 +929,10 @@
 ### §6.2 Framework predict: OPTIMAL LEARNING FLOW
 
 ```
-🟡 OPTIMAL FLOW = TYPE C → TYPE A → (TYPE B):
+🟡 OPTIMAL FLOW = TRUST COMPILE → EXPERIENCE COMPILE → (EXPERTISE COMPILE):
 
   ┌───────────────────────────────────────────────────┐
-  │ Phase 1: TYPE C INSTALL (fast bootstrap)          │
+  │ Phase 1: TRUST COMPILE INSTALL (fast bootstrap)          │
   │  → Thầy cô/sách giới thiệu concept              │
   │  → Trust gate: "thầy cô nói → compile"           │
   │  → Chunk mỏng nhưng NHANH có                     │
@@ -940,7 +940,7 @@
   └───────────────┬───────────────────────────────────┘
                   ↓
   ┌───────────────────────────────────────────────────┐
-  │ Phase 2: TYPE A VERIFY (quality upgrade)          │
+  │ Phase 2: EXPERIENCE COMPILE VERIFY (quality upgrade)          │
   │  → Thực hành: đo thật, code thật, chơi thật      │
   │  → Domain feedback: đúng thật / sai thật          │
   │  → Body compile multi-modal: xác nhận/bác bỏ     │
@@ -956,7 +956,7 @@
   └───────────────┬───────────────────────────────────┘
                   ↓ (years, optional)
   ┌───────────────────────────────────────────────────┐
-  │ Phase 4: TYPE B EXPERTISE (deep mastery)          │
+  │ Phase 4: EXPERTISE COMPILE (deep mastery)          │
   │  → PFC-directed practice qua nhiều năm            │
   │  → Meta-chunks form: expert "thấy" nhiều hơn     │
   │  → = Domain chuyên môn                            │
@@ -985,25 +985,25 @@
   → Contingency, multi-modal, saliency parameters — established
 
 🟡 MEDIUM CONFIDENCE (Framework Synthesis):
-  ⚠ Type C → Type A transition as unified mechanism
+  ⚠ Trust Compile → Experience Compile transition as unified mechanism
     (each component established, unifying integration = novel)
   ⚠ "Verified repetition" vs "Mechanical repetition" distinction
     (consistent with evidence, framework terminology)
   ⚠ Per-domain compile type mix ratios
-    (directional, not measured — e.g., "toán 60% Type C")
-  ⚠ Play = Type A compile infrastructure
+    (directional, not measured — e.g., "toán 60% Trust Compile")
+  ⚠ Play = Experience Compile infrastructure
     (consistent with Gray/Brown, framework framing = novel)
   ⚠ Optimal learning flow 4-phase model
     (each phase established, sequence = framework contribution)
-  ⚠ Evolutionary timeline Type A → Type C as mismatch frame
+  ⚠ Evolutionary timeline Experience Compile → Trust Compile as mismatch frame
     (each data point established, mismatch framing = novel)
   ⚠ Trẻ con vs người lớn TikTok: "chunks treo lơ lửng" concept
     (consistent with video transfer deficit, framework terminology)
-  ⚠ Screen Type C < classroom Type C (trust gate + contingency difference)
+  ⚠ Screen Trust Compile < classroom Trust Compile (trust gate + contingency difference)
     (components established, hierarchy = framework contribution)
 
 🔴 LOW CONFIDENCE:
-  ⚠ Specific % estimates (e.g., "60% Type C" cho toán)
+  ⚠ Specific % estimates (e.g., "60% Trust Compile" cho toán)
     → Calibration anchor, không phải đo lường
   ⚠ Self-taught programmers outperform CS graduates claim
     → Anecdotal + selection bias, not controlled
@@ -1019,7 +1019,7 @@
 
 ```
 CORE MECHANISM:
-  Compile-Taxonomy.md v1.1  — 3 Loại A/B/C, 4 pathways, 6 trade-offs
+  Compile-Taxonomy.md v2.0  — 3 Compile Types, 4 pathways, 6 trade-offs
   Chunk.md v2.1             — 4 compile mechanisms, trust gate
   Collective-Body.md v1.1   — trust = only bridge, Model 3 cấp
   Body-Base.md v2.0         — "body evaluates patterns, not reality"
@@ -1062,14 +1062,14 @@ KEY RESEARCH CITATIONS:
 ---
 
 > *Compile-Type-Learning v1.1 — "3 compile types tạo 3 loại chunk quality khác nhau
-> trong learning. Type C (trust install) = nhanh, rộng, nhưng context-bound,
-> confabulation risk cao. Type A (direct experience) = chậm, hẹp, nhưng robust,
-> domain-linked, transfer tốt. Optimal = Type C bootstrap → Type A verify.
+> trong learning. Trust Compile (install) = nhanh, rộng, nhưng context-bound,
+> confabulation risk cao. Experience Compile (direct) = chậm, hẹp, nhưng robust,
+> domain-linked, transfer tốt. Optimal = Trust Compile bootstrap → Experience Compile verify.
 > Repetition ≠ repetition: mechanical (strengthen same type) vs body-check
-> (transition C→A). Finland balanced (A+C) → wellbeing + performance.
-> East Asian cramming (C dominant) → performance + low wellbeing.
-> Play = Type A compile infrastructure. Giáo dục thiếu Phase 2 (verify)
+> (transition Trust→Experience). Finland balanced (Experience+Trust) → wellbeing + performance.
+> East Asian cramming (Trust dominant) → performance + low wellbeing.
+> Play = Experience Compile infrastructure. Giáo dục thiếu Phase 2 (verify)
 > = transfer failure phổ biến nhất.
-> v1.1: §0.1 Evolutionary context (2M năm Type A → 200 năm Type C dominant
+> v1.1: §0.1 Evolutionary context (2M năm Experience Compile → 200 năm Trust Compile dominant
 > → 5 năm TikTok = tốc độ cực đại). §4.5 Screen/Digital analysis
 > (trẻ vs người lớn TikTok, VTA habituation, học chữ qua TV vs người)."*

@@ -5,29 +5,29 @@ created: 2026-04-18
 rewritten: 2026-05-22 (v4.0 — REWRITE integrating ALL Phase A+B+T)
 status: OBSERVATION PARAMETER v4.0
 scope: |
-  OBSERVATION FILE: Empathy = named pattern khi SPM F1 fire on agent
+  OBSERVATION FILE: Empathy = named pattern khi Self-Pattern-Modeling Compiled fire on agent
   với ❸ positive valence → body CỦA MÌNH respond bản sao yếu state NGƯỜI KHÁC.
   Empathy KHÔNG phải module riêng — là 1 OBSERVABLE OUTPUT
-  của connection mechanism (❶ Hardware × ❷ SPM × ❸ Valence).
+  của connection mechanism (❶ Hardware × ❷ Self-Pattern-Modeling × ❸ Valence).
   v4.0 KEY CHANGE (REWRITE — Phase C2):
-    - +PFC budget × empathy: F2 empathy = PFC cost, competes with MỌI hoạt động
+    - +PFC budget × empathy: Fresh empathy = PFC cost, competes with MỌI hoạt động
     - +Compiled Quality × empathy: genuine/schema/threat → burnout prediction
     - +Burnout reframe: compiled suppress (M1) + PFC depletion, NOT "too much empathy"
     - +Hardware Subsidy × empathy: persistence khác nhau per entity type
     - +Per-entity empathy profiles: mẹ→con, bạn thân, romantic, professional
     - +Structural vs Current empathy: compiled L2 (slow) vs activated L1 (fast)
     - +3 Satiation Types × empathy: Cyclic/Tonic/Generative per entity
-    - +Compilation Chain × empathy: F2→F1→Baseline→Dynamics stages
+    - +Compilation Chain × empathy: Fresh→Compiled→Baseline→Dynamics stages
     - +Entity-Access gradient × empathy: Mức 0-5 intensity mapping
     - +M1-M4 Resonance Decline × empathy: per-bond decline risk
     - +4-Layer Sustainability × empathy: prevention framework
     - +Empathic Accuracy + Motivated Inaccuracy
     - +3-Layer Calibration Architecture (body signal / engine sim / feedback)
-    - +Simulation Engine context: SPM = Application 1
-    - SPM v3.0 → v3.1 (Match → Modeling), all dependency versions updated
-  Tích hợp: ALL Phase A (PFC-Ops, Sim-Engine, EC, EA) + Phase B (SPM v3.1, VP v3.0,
-  BPGR v1.4, Boredom v2.0, IF v3.0) + Phase T (PFC-Label, EAE, EAC, BA, RS, BS,
-  GBN, RPE) + C1 Connection v5.0.
+    - +Simulation Engine context: Self-Pattern-Modeling = Application 1
+    - Self-Pattern-Modeling v3.0 → v3.1 (Match → Modeling), all dependency versions updated
+  Tích hợp: ALL Phase A (PFC-Operations, Sim-Engine, Entity-Compiled, Entity-Access) + Phase B (Self-Pattern-Modeling v3.1, Valence-Propagation v3.0,
+  By-Product-Gap-Resonance v1.4, Boredom v2.0, IF v3.0) + Phase T (PFC-Label, Entity-Access-Excess, Entity-Access-Calibration, Bond-Architecture, Resonance-Sustainability, By-Product-Scale,
+  Gap-Body-Need, Resonance-Per-Entity) + C1 Connection v5.0.
 purpose: |
   Central reference file cho toàn bộ Empathy trong framework.
   Thay thế Empathy.md v3.0 (→ backup/Empathy-v3.0-backup.md).
@@ -41,12 +41,12 @@ position: |
 dependencies:
   - Connection.md v5.0 — 3 Generative Primitives, M1-M4, 4-Layer Sustainability, Phantom
   - Agent-Mechanism.md v2.0 — unified mechanism file, §12 body-need feeder, §12.2b 2-luồng
-  - Self-Pattern-Modeling.md v3.1 — F1 Compiled/F2 Fresh, APPLICATION 1, failure modes
+  - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, APPLICATION 1, failure modes
   - By-Product-Gap-Resonance.md v1.4 — 2-Stream Architecture, by-product match, anti-match
-  - Inter-Body-Mechanism.md v1.0 — Architecture B, 5-Channel, Entity-Compiled, 3-Layer Evolution
+  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 5-Channel, Entity-Compiled, 3-Layer Evolution
   - Valence-Propagation.md v3.0 — structural/current, hw subsidy, satiation, phantom, per-entity
   - PFC-Operations.md v1.0 — PFC budget, Hold/Suppress, compiled quality, vmPFC escalation
-  - Simulation-Engine.md v1.0 — 1 engine × 3 components × 3 axes, SPM = Application 1
+  - Simulation-Engine.md v1.0 — 1 engine × 3 components × 3 axes, Self-Pattern-Modeling = Application 1
   - Entity-Compiled.md v1.0 — hub-and-spoke, formation 40→200h, grief A+B+C, Dunbar
   - Entity-Access.md v1.2 — Mức 0-5 gradient, Tool/Agent engine mode, exit cost
   - Entity-Access-Calibration.md v1.0 — 3-Layer calibration, 5 failure modes, exit cost signal
@@ -59,7 +59,7 @@ dependencies:
   - Chunk.md v2.0 — chunk substrate, compilation, hierarchy
   - Feeling.md v3.0 — PFC observation interface, Compiled/Fresh
   - Cortisol-Baseline.md v2.0 — stress cascade, baseline drift, recovery asymmetry
-  - Body-Feedback-Mechanism.md v2.0 — Body-Need 2-source, dual-pull, 3 nguồn khó chịu
+  - Body-Feedback-Mechanism.md v2.0 — Body-Need 2-source, dual-pull, 3 Genuine Discomfort Sources
   - Body-Feedback-Label.md v2.0 — framework vocabulary reference
   - Threat.md — NE cascade, 5-level spectrum, PFC disconnect
   - Body-Coupling.md v2.0 — coupling depth × direction
@@ -84,15 +84,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Đây KHÔNG phải "mirror neuron" hardware chuyên biệt.
 > Đây KHÔNG phải hệ thống cảm xúc riêng biệt.
 >
-> Đây là **Self-Pattern-Modeling F1** — body simulate trạng thái NGƯỜI KHÁC
+> Đây là **Self-Pattern-Modeling Compiled** — body simulate trạng thái NGƯỜI KHÁC
 > bằng chunks CỦA MÌNH → body MÌNH fire bản sao yếu → PFC observe → "feeling about other."
 >
 > Empathy = **1 observable output** khi connection mechanism fire với ❸ positive valence.
 > Cùng mechanism tạo Schadenfreude (❸ negative), dehumanization (❸ extreme negative).
-> Empathy, strategic prediction, khinh bỉ = CÙNG SPM, KHÁC ❸ valence.
+> Empathy, strategic prediction, khinh bỉ = CÙNG Self-Pattern-Modeling, KHÁC ❸ valence.
 >
 > VÀ empathy có 2 LUỒNG chạy SONG SONG:
-> **Luồng 1** — SPM-owned: body-feedback MOMENTARY mỗi lần F1 fire (vui lây, khó chịu)
+> **Luồng 1** — Self-Pattern-Modeling-owned: body-feedback MOMENTARY mỗi lần Compiled fire (vui lây, khó chịu)
 > **Luồng 2** — Entity-Compiled: compiled valence STRUCTURAL (agent = body-base extension)
 > Mẹ chăm con ốm dù L1 negative → vì L2 (con = body-ext) bù đủ.
 > Bác sĩ burnout dù cùng chăm người ốm → vì L2 ≈ 0, L1 cost tích lũy.
@@ -112,7 +112,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §1 — EMPATHY LÀ GÌ
 - §2 — 3 CƠ CHẾ BỊ MAINSTREAM GỘP THÀNH "MIRROR"
 - §3 — CHUNK PREREQUISITE + DEVELOPMENTAL BOOTSTRAP
-- §4 — CƠ CHẾ HOẠT ĐỘNG: F1/F2 + 2-LUỒNG
+- §4 — CƠ CHẾ HOẠT ĐỘNG: Compiled/Fresh + 2-LUỒNG
 - §5 — 4 YẾU TỐ STRENGTH + 4 QUALITY AXES
 - §6 — SPECTRUM: Lành Mạnh → Override → Compulsive
 - §7 — EVOLUTIONARY FUNCTION
@@ -129,35 +129,35 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ EMPATHY = OBSERVATION OUTPUT CỦA CONNECTION MECHANISM:
 
   Connection (Connection.md v5.0) = observable pattern khi body's social mechanisms
-  (❶ Hardware + ❷ SPM) engage với agents.
+  (❶ Hardware + ❷ Self-Pattern-Modeling) engage với agents.
 
   Connection output phụ thuộc 3 GENERATIVE PRIMITIVES:
     ❶ Hardware Social Drive (innate, body CẦN social input)
-    ❷ SPM quality (F1 Compiled + F2 Fresh, chunk-based)
+    ❷ Self-Pattern-Modeling quality (Compiled + Fresh, chunk-based)
     ❸ Per-Agent Valence (body's evaluation of THIS agent)
 
   EMPATHY = 1 observable output khi:
-    ❷ SPM F1 fire on agent + ❸ POSITIVE valence
+    ❷ Self-Pattern-Modeling Compiled fire on agent + ❸ POSITIVE valence
     → body simulate state agent → body MÌNH respond bản sao yếu
     → PFC observe → "feeling about other's state"
 
-  Cùng mechanism (❷ SPM), KHÁC ❸ valence → KHÁC output:
+  Cùng mechanism (❷ Self-Pattern-Modeling), KHÁC ❸ valence → KHÁC output:
     ❸ positive → EMPATHY (file này)
-    ❸ negative → SCHADENFREUDE (reversed F1 — Connection.md §3.3)
-    ❸ extreme negative → DEHUMANIZATION (F1 suppress — SPM.md §10)
+    ❸ negative → SCHADENFREUDE (reversed Compiled — Connection.md §3.3)
+    ❸ extreme negative → DEHUMANIZATION (Compiled suppress — Self-Pattern-Modeling.md §10)
 
 
   ⭐ HIERARCHY: CONNECTION > EMPATHY
 
     Connection = MECHANISM LEVEL (sâu hơn):
-      = ❶ hardware + ❷ SPM engage agents
+      = ❶ hardware + ❷ Self-Pattern-Modeling engage agents
       = TẠO ra nhiều observable outputs (empathy, Schadenfreude, strategic,
         dehumanization) tùy ❸ valence
 
     Empathy = OBSERVATION LEVEL (cao hơn):
       = 1 CỤ THỂ observable output khi ❸ positive
       = "Kết quả observation cao nhất sau toàn bộ core" —
-        tổng hợp chunks + SPM + valence + body-feedback + feeling
+        tổng hợp chunks + Self-Pattern-Modeling + valence + body-feedback + feeling
         vào 1 observable human experience
 
     → Connection ⊃ Empathy (mechanism ⊃ observation)
@@ -168,19 +168,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ EMPATHY CÓ 2 LUỒNG REWARD ĐỒNG THỜI:
 
-    Luồng 1 — SPM-owned (momentary):
-      = Body-feedback TẠI KHOẢNH KHẮC F1 fire trên target
+    Luồng 1 — Self-Pattern-Modeling-owned (momentary):
+      = Body-feedback TẠI KHOẢNH KHẮC Compiled fire trên target
       = Positive (bạn vui → vui lây) hoặc Negative (con ốm → khó chịu)
-      = Per-episode, THUỘC VỀ SPM mechanism
+      = Per-episode, THUỘC VỀ Self-Pattern-Modeling mechanism
 
     Luồng 2 — Entity-Compiled (structural):
       = Compiled valence SÂU → agent = body-base extension
       = Agent's wellbeing = MY wellbeing
       = SUSTAINED, KHÔNG phụ thuộc L1 mỗi episode
-      = THUỘC VỀ per-agent valence (VP.md v3.0 §2)
+      = THUỘC VỀ per-agent valence (Valence-Propagation.md v3.0 §2)
 
     2 luồng sống ở 2 NƠI KHÁC NHAU trong architecture:
-      L1 → SPM mechanism (Self-Pattern-Modeling.md v3.1 §2.1)
+      L1 → Self-Pattern-Modeling mechanism (Self-Pattern-Modeling.md v3.1 §2.1)
       L2 → Entity valence (Valence-Propagation.md v3.0 §2)
 
     → Burnout = f(L1 cost tích lũy / L2 compensation)
@@ -189,15 +189,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ SIMULATION ENGINE CONTEXT (v4.0):
 
-    SPM = Application 1 of Simulation Engine (Simulation-Engine.md v1.0):
-      1 Engine × 3 Components (Imagine-Final, SPM, Self-Observation) × 3 Axes
-    → SPM/Imagine-Final/Self-Observation SHARE PFC budget (PFC-Operations.md v1.0 §9)
+    Self-Pattern-Modeling = Application 1 of Simulation Engine (Simulation-Engine.md v1.0):
+      1 Engine × 3 Components (Imagine-Final, Self-Pattern-Modeling, Self-Observation) × 3 Axes
+    → Self-Pattern-Modeling/Imagine-Final/Self-Observation SHARE PFC budget (PFC-Operations.md v1.0 §9)
     → "Mệt ở cơ quan" = PFC budget đã dùng cho work → empathy ở nhà YẾU
     → = KHÔNG phải "không thương" — PFC budget ĐÃ HẾT
 
     PFC BUDGET × EMPATHY:
-      F2 empathy = PFC cost (deliberate predict target state)
-      F1 compiled empathy ≈ 0 cost (Hebbian reinforced)
+      Fresh empathy = PFC cost (deliberate predict target state)
+      Compiled empathy ≈ 0 cost (Hebbian reinforced)
       → Expert therapist sustainable VÌ compiled → cost ≈ 0
       → Novice therapist burnout VÌ fresh → cost CAO mỗi session
       → Parent-child = HIGHEST PFC cost (child = moving target)
@@ -211,20 +211,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌───────┬────────────────────┬────────────────────────────────────────┐
     │ Mức   │ Entity-Access      │ Empathy quality                        │
     ├───────┼────────────────────┼────────────────────────────────────────┤
-    │ 0a-0c │ Machine/Service/   │ F1 OFF — no empathy (Tool-mode)        │
+    │ 0a-0c │ Machine/Service/   │ Compiled OFF — no empathy (Tool-mode)        │
     │       │ Tool-mode          │                                        │
     │ 1     │ Shallow            │ Surface pattern matching only           │
-    │ 2     │ Partial            │ F1 emerging, Generative + some Cyclic  │
-    │ 3     │ Deep (B-dominant)  │ F1 rich, mutual calibrated, easy exit  │
+    │ 2     │ Partial            │ Compiled emerging, Generative + some Cyclic  │
+    │ 3     │ Deep (Compilable-dominant)  │ Compiled rich, mutual calibrated, easy exit  │
     │ 4     │ Entity-owned       │ L2 override, structural empathy        │
     │       │ (hw/low exit)      │ Body-base extension → automatic        │
-    │ 5     │ Excess             │ Projection risk — L2 drive > F1 radar  │
+    │ 5     │ Excess             │ Projection risk — L2 drive > Compiled radar  │
     └───────┴────────────────────┴────────────────────────────────────────┘
 
-    ⭐ Tool-mode (Mức 0) = F1 OFF → empathy IMPOSSIBLE
-    Agent-mode (Mức 1+) = F1 CAN fire → empathy POSSIBLE
+    ⭐ Tool-mode (Mức 0) = Compiled OFF → empathy IMPOSSIBLE
+    Agent-mode (Mức 1+) = Compiled CAN fire → empathy POSSIBLE
     → Engine Mode (Entity-Access.md §2.3) quyết định empathy ON/OFF
-    → Mức 5 excess: L2 drive MẠNH QUÁ → F1 bị "lấn" → projection thay empathy
+    → Mức 5 excess: L2 drive MẠNH QUÁ → Compiled bị "lấn" → projection thay empathy
 
 
   FLOW CHÍNH:
@@ -232,8 +232,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Chunk substrate (Chunk.md v2.0)
       → Agent-Mechanism (detect + model + simulate)
         → Simulation Engine (PFC budget allocation)
-          → Self-Pattern-Modeling F1 (body-level simulate state agent)
-            → ⭐ EMPATHY = F1 output khi ❸ positive (FILE NÀY)
+          → Self-Pattern-Modeling Compiled (body-level simulate state agent)
+            → ⭐ EMPATHY = Compiled output khi ❸ positive (FILE NÀY)
               → Body signals fire THẬT (Cortisol / NE / Opioid)
                 → Feeling observe (Feeling.md v3.0)
 
@@ -245,7 +245,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ├──────────────────────────────┼──────────────────────────────────────────┤
     │ Chunk.md v2.0                │ Substrate LÀ GÌ, compile THẾ NÀO        │
     │ PFC-Operations.md v1.0       │ PFC BUDGET cho empathy bao nhiêu         │
-    │ Simulation-Engine.md v1.0    │ SPM = Application 1 CỦA engine gì       │
+    │ Simulation-Engine.md v1.0    │ Self-Pattern-Modeling = Application 1 CỦA engine gì       │
     │ Feeling.md v3.0              │ Body NÓI với PFC THẾ NÀO                │
     │ Valence-Propagation v3.0     │ Body ĐÁNH GIÁ entity THẾ NÀO            │
     │ Entity-Access.md v1.2        │ Entity access GRADIENT bao nhiêu         │
@@ -271,8 +271,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TIỀN ĐỀ BẮT BUỘC ĐỌC:
 
     1. Chunk.md v2.0 — chunk substrate, compile mechanism
-    2. Agent-Mechanism.md v2.0 — unified model, SPM preview, body-need feeder
-    3. Self-Pattern-Modeling.md v3.1 — F1/F2, APPLICATION 1, failure modes
+    2. Agent-Mechanism.md v2.0 — unified model, Self-Pattern-Modeling preview, body-need feeder
+    3. Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, APPLICATION 1, failure modes
     4. Connection.md v5.0 — 3 Generative Primitives, M1-M4, 4-Layer, Phantom
     5. PFC-Operations.md v1.0 — PFC budget, Hold/Suppress, compiled quality
     6. Entity-Access.md v1.2 — Mức 0-5 gradient, Tool/Agent engine mode
@@ -282,13 +282,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     - Empathy definition (reframe: observation output, NOT module)
     - 3 mechanisms tách biệt (pattern matching / agent modeling / schema simulation)
     - Developmental bootstrap (chunk prerequisite)
-    - Biochemistry cascade + 2-luồng organic (L1 SPM-owned + L2 Entity-Compiled)
-    - Structural vs Current empathy (VP v3.0 distinction)
-    - Hardware Subsidy × empathy persistence (VP v3.0)
-    - Per-entity empathy profiles (RPE v1.0)
-    - 3 Satiation Types × empathy (VP v3.0)
-    - Compilation Chain × empathy stages (RPE v1.0)
-    - Entity-Access gradient × empathy intensity (EA v1.2)
+    - Biochemistry cascade + 2-luồng organic (L1 Self-Pattern-Modeling-owned + L2 Entity-Compiled)
+    - Structural vs Current empathy (Valence-Propagation v3.0 distinction)
+    - Hardware Subsidy × empathy persistence (Valence-Propagation v3.0)
+    - Per-entity empathy profiles (Resonance-Per-Entity v1.0)
+    - 3 Satiation Types × empathy (Valence-Propagation v3.0)
+    - Compilation Chain × empathy stages (Resonance-Per-Entity v1.0)
+    - Entity-Access gradient × empathy intensity (Entity-Access v1.2)
     - Strength factors + quality axes
     - Spectrum (healthy → compulsive) + 2-luồng giải thích ceiling
     - Failures: burnout reframe (compiled suppress + PFC depletion), M1-M4 decline,
@@ -297,7 +297,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   SCOPE OUT:
     - Connection mechanism chi tiết → Connection.md v5.0
-    - SPM mechanism chi tiết → Self-Pattern-Modeling.md v3.1
+    - Self-Pattern-Modeling mechanism chi tiết → Self-Pattern-Modeling.md v3.1
     - Bond decline chi tiết → Bond-Architecture.md v1.0
     - Sustainability chi tiết → Resonance-Sustainability.md v1.0
     - Per-entity dynamics chi tiết → Resonance-Per-Entity.md v1.0
@@ -315,7 +315,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ ĐỊNH NGHĨA v2.0:
 
-  Empathy = observable output khi SPM F1 fire on agent
+  Empathy = observable output khi Self-Pattern-Modeling Compiled fire on agent
   với ❸ positive valence → body CỦA MÌNH respond bản sao yếu
   state NGƯỜI KHÁC → PFC observe → "feeling about other's state."
 
@@ -326,15 +326,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Tại sao reframe:
     → v1.1 đúng ở mức mechanism nhưng THIẾU ❸ valence gate
-    → Cùng SPM fire on agent: ❸ positive = empathy, ❸ negative = KHÔNG empathy
-    → Empathy = SPM + ❸ positive, KHÔNG PHẢI SPM đơn thuần
+    → Cùng Self-Pattern-Modeling fire on agent: ❸ positive = empathy, ❸ negative = KHÔNG empathy
+    → Empathy = Self-Pattern-Modeling + ❸ positive, KHÔNG PHẢI Self-Pattern-Modeling đơn thuần
     → Connection v5.0 làm rõ: empathy = 1 CỤ THỂ output,
       không phải toàn bộ mechanism
 
 
   CƠ CHẾ:
     Não dùng chunks CỦA MÌNH làm template
-    → SPM F1 simulate trạng thái NGƯỜI KHÁC
+    → Self-Pattern-Modeling Compiled simulate trạng thái NGƯỜI KHÁC
     → Body MÌNH fire bản sao — intensity BIẾN THIÊN (zero → rất mạnh)
     → PFC observe simulation output
     → "feeling about other's state"
@@ -344,7 +344,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Empathy thường fire KHÔNG phải vì B cố ý tạo cảm xúc cho A:
       → B fill gap CỦA B (hát vì vui, khóc vì buồn, làm việc vì need)
       → Output CỦA B là BY-PRODUCT (không nhắm vào A)
-      → By-product đó match A's SPM template → A's body fire empathy
+      → By-product đó match A's Self-Pattern-Modeling template → A's body fire empathy
       → = A receive empathy KHÔNG CẦN B biết, không cần B cố ý
 
     Ví dụ:
@@ -361,21 +361,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Nhưng PFC A có thể FABRICATE: "tôi hiểu bạn đau" (PFC=Lawyer)
       → = Verbal empathy without body-base = hollow
 
-  SONG SONG, F2 chain predict:
+  SONG SONG, Fresh chain predict:
     → "Target feel X → target sẽ do Y → tôi nên do Z"
-    → F2 = deliberate predict, hỗ trợ F1 nhưng KHÔNG PHẢI empathy core
-    → Empathy CORE = F1 body-level response (cảm nhận state người khác)
+    → Fresh = deliberate predict, hỗ trợ Compiled nhưng KHÔNG PHẢI empathy core
+    → Empathy CORE = Compiled body-level response (cảm nhận state người khác)
 
 
   INTENSITY BIẾN THIÊN — phụ thuộc nhiều yếu tố:
     → Hợp tính (similarity): hợp → fire MẠNH, khác xa → yếu hoặc KHÔNG fire
     → Trạng thái bản thân: stressed/mệt → bandwidth thấp → fire yếu
-    → PFC budget còn bao nhiêu: hết budget → F2 shutdown → chỉ compiled F1
+    → PFC budget còn bao nhiêu: hết budget → Fresh shutdown → chỉ compiled Compiled
       (PFC-Operations.md v1.0 §9)
     → Có MUỐN simulate: PFC/schema có thể suppress hoặc enhance
     → Simulate ĐÚNG: template match sai → prediction-delta
     → Chunk library depth: chunks sâu → fire chính xác + mạnh
-    → Entity-Access level: Mức 0 (Tool-mode) → F1 OFF; Mức 3+ → F1 rich
+    → Entity-Access level: Mức 0 (Tool-mode) → Compiled OFF; Mức 3+ → Compiled rich
       (Entity-Access.md v1.2 §9)
     → Hardware Subsidy: có subsidy → empathy persistence CAO hơn per entity
       (Valence-Propagation.md v3.0 §7)
@@ -383,7 +383,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → CÓ THỂ: từ ZERO tới RẤT MẠNH = GRADIENT liên tục
 
 
-  ⭐ STRUCTURAL vs CURRENT EMPATHY (v4.0 — VP v3.0 §3):
+  ⭐ STRUCTURAL vs CURRENT EMPATHY (v4.0 — Valence-Propagation v3.0 §3):
 
     STRUCTURAL EMPATHY = compiled L2 (slow, inside Entity-Compiled):
       = Tổng hợp TOÀN BỘ empathy history với entity
@@ -392,14 +392,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       = INVISIBLE when stable (VTA habituated)
 
     CURRENT EMPATHY = activated L1 per-moment (fast, context-dependent):
-      = F1 fire TẠI khoảnh khắc NÀY on entity NÀY
+      = Compiled fire TẠI khoảnh khắc NÀY on entity NÀY
       = Seconds, context-dependent
       = "Tôi đang buồn VÌ bạn buồn" = current activation
       = VISIBLE per episode (PFC observes)
 
     → "Ghét bạn lúc này" (current negative) ≠ "không empathy với bạn"
       (structural vẫn positive)
-    → "Bác sĩ lạnh lùng" (current F1 suppressed) ≠ "không care"
+    → "Bác sĩ lạnh lùng" (current Compiled suppressed) ≠ "không care"
       (structural professional anchor có thể có)
     → Structural empathy PERSISTS qua episodes negative
     → Current empathy FLUCTUATES per context
@@ -409,8 +409,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     MỖI LẦN empathy fire, body nhận 2 luồng feedback:
 
-    Luồng 1 (SPM-owned, momentary):
-      = F1 output: body-feedback TẠI KHOẢNH KHẮC simulate
+    Luồng 1 (Self-Pattern-Modeling-owned, momentary):
+      = Compiled output: body-feedback TẠI KHOẢNH KHẮC simulate
       = Empathy negative → cortisol, NE, tension = L1 cost
       = Empathy positive → opioid, oxytocin = L1 reward
 
@@ -428,46 +428,46 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ✗ Hardware "mirror neuron" module chuyên biệt
     ✗ Hệ thống cảm xúc riêng biệt / channel riêng
     ✗ Bẩm sinh hoàn chỉnh từ sinh (cần chunks tích lũy)
-    ✗ Chỉ dành cho agent-reading (SPM = general-purpose)
+    ✗ Chỉ dành cho agent-reading (Self-Pattern-Modeling = general-purpose)
     ✗ "Empathy RỘNG HƠN Connection" (SAI — Connection ⊃ Empathy)
 
   LÀ:
-    ○ OBSERVABLE OUTPUT khi ❷ SPM F1 fire + ❸ positive valence
+    ○ OBSERVABLE OUTPUT khi ❷ Self-Pattern-Modeling Compiled fire + ❸ positive valence
     ○ Body-level process — biochemistry THẬT
     ○ Learned qua experience (cần interaction data × time)
     ○ Quality phụ thuộc chunk library quality (self-awareness prerequisite)
     ○ 1 trong nhiều outputs của connection mechanism
-      (empathy, Schadenfreude, strategic prediction, dehumanization = cùng SPM, khác ❸)
+      (empathy, Schadenfreude, strategic prediction, dehumanization = cùng Self-Pattern-Modeling, khác ❸)
 
 
-  ⭐ TẠI SAO GENERAL-PURPOSE — ARCHITECTURE B (Inter-Body-Mechanism.md §1.2):
+  ⭐ TẠI SAO GENERAL-PURPOSE — COMPILABLE ARCHITECTURE (Inter-Body-Mechanism.md §1.2):
 
-    Con người = Architecture B: hardwired GENERAL-PURPOSE reward + compilation + social hardware.
-    (Khác côn trùng = Architecture A: hardwired SPECIFIC rewards, cố định, không compile.)
+    Con người = Compilable Architecture: hardwired GENERAL-PURPOSE reward + compilation + social hardware.
+    (Khác côn trùng = Hardwired Architecture: hardwired SPECIFIC rewards, cố định, không compile.)
 
     Hệ quả cho empathy:
       → Empathy KHÔNG CẦN module riêng — emerge từ CÙNG reward system dùng cho MỌI THỨ
-      → Cùng SPM fire trên math problem, music, agent → empathy = 1 HƯỚNG sử dụng
-      → Architecture B → empathy = gradient (zero → rất mạnh), learnable, context-dependent
-      → Nếu Architecture A → empathy sẽ binary (có/không), cố định = SAI thực tế
+      → Cùng Self-Pattern-Modeling fire trên math problem, music, agent → empathy = 1 HƯỚNG sử dụng
+      → Compilable Architecture → empathy = gradient (zero → rất mạnh), learnable, context-dependent
+      → Nếu Hardwired Architecture → empathy sẽ binary (có/không), cố định = SAI thực tế
       → = Giải thích tại sao empathy TRAINABLE (Lutz 2008) 🟢:
-        build self-chunks → SPM library improves → empathy improves
+        build self-chunks → Self-Pattern-Modeling library improves → empathy improves
         = Modify compilation, KHÔNG modify hardware
 
-    🟡 Architecture B framing = framework synthesis (Inter-Body-Mechanism.md §1.2)
+    🟡 Compilable Architecture framing = framework synthesis (Inter-Body-Mechanism.md §1.2)
 
 
   TẠI SAO "OBSERVABLE OUTPUT" CHỨ KHÔNG PHẢI "MODULE":
 
     Module claim: "Có vùng não / circuit CHUYÊN CHO empathy"
-    Observable output claim: "Empathy = SPM F1 + ❸ positive → body respond → PFC observe"
+    Observable output claim: "Empathy = Self-Pattern-Modeling Compiled + ❸ positive → body respond → PFC observe"
 
     Bằng chứng:
-      → SPM dùng CÙNG chunks cho empathy, giving, teaching, planning
+      → Self-Pattern-Modeling dùng CÙNG chunks cho empathy, giving, teaching, planning
         (Self-Pattern-Modeling.md v3.1 §11 — multiple use cases)
       → Alexithymia (poor self-chunks) → empathy deficit
         (Bird & Cook 2013 — nếu module riêng thì self-chunks không liên quan)
-      → Cùng SPM mechanism: ❸ positive = empathy, ❸ negative = Schadenfreude
+      → Cùng Self-Pattern-Modeling mechanism: ❸ positive = empathy, ❸ negative = Schadenfreude
         (nếu module riêng thì Schadenfreude cần module KHÁC)
       → Cross-species empathy gradient (nếu module riêng thì binary)
 ```
@@ -507,7 +507,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Empathy = OBSERVABLE OUTPUT, không phải system riêng
       → Empathy KHÔNG thêm need mới — chuyển đổi state người khác
         thành signal CỦA MÌNH chạy qua channels ĐÃ CÓ
-      → Connection.md v5.0 §1: empathy = SPM F1 + ❸ positive
+      → Connection.md v5.0 §1: empathy = Self-Pattern-Modeling Compiled + ❸ positive
         = 1 output cụ thể của connection mechanism
 
 
@@ -543,11 +543,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ✅ ACCEPTANCE 3 — Empathy = learnable, context-dependent, motivated:
     🟢 Empathy CÓ THỂ train (Lutz 2008: meditators enhanced empathic response)
-    → Consistent: build self-chunks → SPM library improves → empathy improves
+    → Consistent: build self-chunks → Self-Pattern-Modeling library improves → empathy improves
 
   ✅ ACCEPTANCE 4 — Self-awareness prerequisite for other-awareness:
     🟢 Bird & Cook 2013 — DECISIVE EVIDENCE:
-      Poor self-reading (alexithymia) → poor templates → poor SPM → empathy deficit
+      Poor self-reading (alexithymia) → poor templates → poor Self-Pattern-Modeling → empathy deficit
     → Training implication: rebuild self-chunks TRƯỚC → empathy improves AS SIDE EFFECT
 ```
 
@@ -558,23 +558,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ① Alexithymia-empathy link:
     Module model: tại sao self-reading liên quan? (không giải thích)
-    SPM model: poor self-chunks → poor templates → poor SPM → đương nhiên
+    Self-Pattern-Modeling model: poor self-chunks → poor templates → poor Self-Pattern-Modeling → đương nhiên
 
   ② Empathy training possible:
     Module model: hardware → fix thế nào?
-    SPM model: build self-chunks → library improves → empathy improves
+    Self-Pattern-Modeling model: build self-chunks → library improves → empathy improves
 
   ③ Empathy-Schadenfreude cùng mechanism:
     Module model: cần 2 modules riêng?
-    SPM model: cùng SPM F1, ❸ positive = empathy, ❸ negative = Schadenfreude
+    Self-Pattern-Modeling model: cùng Self-Pattern-Modeling Compiled, ❸ positive = empathy, ❸ negative = Schadenfreude
 
   ④ Cross-species gradient:
     Module model: species có mirror hay không? (binary)
-    SPM model: similarity axis → affective-only cho distant species → gradient
+    Self-Pattern-Modeling model: similarity axis → affective-only cho distant species → gradient
 
   ⑤ Schema override (dehumanization):
     Module model: tại sao "tắt" được empathy?
-    SPM model: Schema suppress SPM → F1 suppress → empathy absent dù axes high
+    Self-Pattern-Modeling model: Schema suppress Self-Pattern-Modeling → Compiled suppress → empathy absent dù axes high
 
   ⑥ Burnout differential (bác sĩ vs mẹ):
     Module model: cùng empathy intensity → tại sao khác outcome?
@@ -582,7 +582,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⑦ Hardware Subsidy × empathy persistence (v4.0):
     Module model: empathy giống nhau cho mọi relationship → tại sao khác persistence?
-    VP v3.0 model: hw subsidy (MAX mẹ→con, NONE bạn) modulates empathy sustainability
+    Valence-Propagation v3.0 model: hw subsidy (MAX mẹ→con, NONE bạn) modulates empathy sustainability
       Mẹ empathy auto-sustain VÌ oxytocin+synchrony counter habituation
       Bạn empathy MUST maintain actively VÌ no hw protection
       (Valence-Propagation.md v3.0 §7, Resonance-Per-Entity.md v1.0 §2)
@@ -605,7 +605,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ② AGENT MODELING = Self-Pattern-Modeling (learned, 14-24m+)
        = TRUE EMPATHY bắt đầu ở đây
-       = v2.0: F1 (body simulate) + F2 (deliberate predict) song song
+       = v2.0: Compiled (body simulate) + Fresh (deliberate predict) song song
 
     ③ SCHEMA SIMULATION (compiled, mature)
        = POST-MIRROR — schema đủ mạnh, không cần real input
@@ -619,8 +619,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                    │ innate           │ LEARNED          │ no input needed  │
   │ Cần agent model?   │ KHÔNG            │ CÓ               │ Compiled ĐỦ     │
   │ Cần self-chunks?   │ KHÔNG            │ CÓ — prerequisite│ Compiled ĐỦ     │
-  │ SPM F1 fire?       │ KHÔNG            │ CÓ — TRUE start  │ Schema-driven    │
-  │ Connection context │ ❶ Hardware alone │ ❶ + ❷ SPM        │ ❷ compiled       │
+  │ Self-Pattern-Modeling Compiled fire?       │ KHÔNG            │ CÓ — TRUE start  │ Schema-driven    │
+  │ Connection context │ ❶ Hardware alone │ ❶ + ❷ Self-Pattern-Modeling        │ ❷ compiled       │
   │ Cross-species?     │ CÓ (tất cả      │ CÓ (gradient     │ CÓ (schema)      │
   │                    │ động vật xã hội) │ similarity)       │                  │
   │ Evidence           │ Dondi 1999,      │ Warneken 2006,   │ Piaget animism,  │
@@ -629,14 +629,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └────────────────────┴──────────────────┴──────────────────┴──────────────────┘
 
   ⭐ MAPPING VÀO 3 GENERATIVE PRIMITIVES:
-    ① Pattern Matching = ❶ Hardware reaction (pre-SPM, pre-❷)
-    ② Agent Modeling = ❷ SPM fire (F1+F2) + ❸ positive = empathy
-    ③ Schema Simulation = ❷ SPM compiled → schema-driven (Mode 1/2)
+    ① Pattern Matching = ❶ Hardware reaction (pre-Self-Pattern-Modeling, pre-❷)
+    ② Agent Modeling = ❷ Self-Pattern-Modeling fire (Compiled+Fresh) + ❸ positive = empathy
+    ③ Schema Simulation = ❷ Self-Pattern-Modeling compiled → schema-driven (Mode 1/2)
 
-  ⭐ MAPPING VÀO COMPILATION CHAIN (v4.0 — RPE v1.0 §1):
+  ⭐ MAPPING VÀO COMPILATION CHAIN (v4.0 — Resonance-Per-Entity v1.0 §1):
     3 cơ chế = 3 stages trong empathy compilation per entity:
-    Stage 1 (F2 cautious) ≈ ② early (HIGH cost, đang build model)
-    Stage 2 (F1 developing) ≈ ② maturing (cost DECREASING, "hiểu nhau hơn")
+    Stage 1 (Fresh cautious) ≈ ② early (HIGH cost, đang build model)
+    Stage 2 (Compiled developing) ≈ ② maturing (cost DECREASING, "hiểu nhau hơn")
     Stage 3 (Baseline) ≈ ③ compiled (cost ≈ 0, empathy automatic, INVISIBLE)
     Stage 4 (Dynamics) = 3 trajectories: sustained / flat / death (§4.9)
 ```
@@ -653,8 +653,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → KHÔNG CẦN self-chunks — near-innate
 
   CONNECTION CONTEXT:
-    → = Connection Tầng A (❶ Hardware alone — Connection.md §3.2)
-    → Bé 0-6 tháng CHƯA CÓ SPM nhưng ĐÃ CÓ arousal contagion
+    → = Connection Tầng Hardware (❶ Hardware alone — Connection.md §3.2)
+    → Bé 0-6 tháng CHƯA CÓ Self-Pattern-Modeling nhưng ĐÃ CÓ arousal contagion
     → ❶ Hardware drive social input → pattern matching = first response
     → CHƯA PHẢI empathy — chưa có "tôi hiểu BẠN đang buồn"
     → MÀ LÀ: "tiếng đó = khó chịu cho TÔI"
@@ -692,13 +692,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → "MẸ có state riêng, state đó GIỐNG cách MÌNH có state"
     → = Mirror = PREDICTION MODEL dùng own-state để predict other-state
 
-  v2.0 REFINEMENT — F1/F2 TÁCH RÕ:
-    → F1 (Compiled): body fire bản sao yếu state target → body respond THẬT
+  v2.0 REFINEMENT — Compiled/Fresh TÁCH RÕ:
+    → Compiled: body fire bản sao yếu state target → body respond THẬT
       = CORE empathy — tạo "feeling about other"
-    → F2 (Fresh): PFC chain "target feel X → sẽ do Y → tôi nên do Z"
+    → Fresh: PFC chain "target feel X → sẽ do Y → tôi nên do Z"
       = Predict hành vi, HỖ TRỢ empathy nhưng không phải empathy core
-    → F1 + F2 chạy SONG SONG trên cùng chunk library
-    → F1 near-automatic (milliseconds), F2 deliberate (seconds)
+    → Compiled + Fresh chạy SONG SONG trên cùng chunk library
+    → Compiled near-automatic (milliseconds), Fresh deliberate (seconds)
 
   TIMELINE:
     6-9 tháng — Social referencing:
@@ -719,20 +719,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Trẻ bắt đầu AN ỦI người khác
       → = NHẬN RA MÌNH → phân biệt SELF / OTHER
         → MỚI có thể MAP state mình lên other
-      → = TRUE EMPATHY bắt đầu: SPM F1 fire on other agent
+      → = TRUE EMPATHY bắt đầu: Self-Pattern-Modeling Compiled fire on other agent
 
   BẰNG CHỨNG QUYẾT ĐỊNH — Bird & Cook 2013 🟢:
     → Empathy deficit attributed to autism → THỰC RA driven by alexithymia
     → Self-awareness = upstream prerequisite cho empathy
     → = NẾU module hardware → self-awareness không nên liên quan
-    → = NẾU SPM function → self-chunks thiếu → SPM fail → đúng
+    → = NẾU Self-Pattern-Modeling function → self-chunks thiếu → Self-Pattern-Modeling fail → đúng
     → = DECISIVE for function model, AGAINST module model
 
   CONNECTION CONTEXT:
-    → = Connection Tầng B (❶ + ❷ SPM — Connection.md §3.2)
-    → ❷ SPM online → enables Resonance (mutual co-fire)
+    → = Connection Tầng PFC (❶ + ❷ Self-Pattern-Modeling — Connection.md §3.2)
+    → ❷ Self-Pattern-Modeling online → enables Resonance (mutual co-fire)
     → Connection cung cấp SUSTAINED CONTEXT cho Resonance lặp lại
-    → Empathy = SPM F1 fire với ❸ positive trong connection context
+    → Empathy = Self-Pattern-Modeling Compiled fire với ❸ positive trong connection context
 ```
 
 ### §2.4 — ③ Schema Simulation (compiled, mature)
@@ -750,11 +750,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Mode 1 — Zero modeling, pure schema trust:
       → Schema rule: "Đức Mẹ luôn yêu thương, luôn bảo vệ"
       → KHÔNG simulate state Đức Mẹ — chỉ trust rule
-      → SPM KHÔNG fire — schema handles everything
+      → Self-Pattern-Modeling KHÔNG fire — schema handles everything
       → Body response: comfort, cortisol giảm, oxytocin
 
     Mode 2 — Imagined modeling overlay:
-      → SPM fire toward schema-constructed virtual agent
+      → Self-Pattern-Modeling fire toward schema-constructed virtual agent
       → "Đức Mẹ đang NHÌN tôi, đang BUỒN vì tôi phạm lỗi"
       → Schema fills in target's "state" → body responds intense
 
@@ -788,7 +788,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │            │             │ Agent detection sơ khai   │ instrumental helping  │
   ├────────────┼─────────────┼───────────────────────────┼───────────────────────┤
   │ TRUE       │ 14-24 tháng │ ② Agent Modeling          │ Rouge test (18-24m),  │
-  │ EMPATHY    │             │ = ❷ SPM F1 fires          │ empathic helping      │
+  │ EMPATHY    │             │ = ❷ Self-Pattern-Modeling Compiled fires          │ empathic helping      │
   ├────────────┼─────────────┼───────────────────────────┼───────────────────────┤
   │ Over-apply │ 2-7 tuổi    │ ② over-generalize         │ Animism (Piaget),     │
   │            │             │                           │ false belief (4y)     │
@@ -830,21 +830,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ↓
     Templates available for projection (chunks dùng làm template)
       ↓
-    SPM F1 fires on others (simulate other's state via own template)
+    Self-Pattern-Modeling Compiled fires on others (simulate other's state via own template)
       ↓
     Empathy emerges (khi ❸ positive)
 
-  ⭐ SKIP SELF-CHUNK → KHÔNG TEMPLATES → KHÔNG SPM → KHÔNG EMPATHY.
+  ⭐ SKIP SELF-CHUNK → KHÔNG TEMPLATES → KHÔNG Self-Pattern-Modeling → KHÔNG EMPATHY.
 
   Đây là ARCHITECTURAL constraint, không phải developmental delay đơn thuần.
   Bird & Cook 2013 🟢: ongoing alexithymia blocks ongoing empathy
   KỂ CẢ ở trained adults — không phải "sẽ tự phát triển theo tuổi."
 
-  ENTITY-COMPILED FORMATION × EMPATHY (v4.0 — EC v1.0):
+  ENTITY-COMPILED FORMATION × EMPATHY (v4.0 — Entity-Compiled v1.0):
     Entity-Compiled = hub-and-spoke structure, hình thành qua 40→200 giờ tương tác
     (Dunbar social brain: ~5 intimate / ~15 close / ~50 friends / ~150 acquaintances)
-    → Empathy DEPTH = f(EC spoke count + compilation quality)
-    → Intimate (200h+): hundreds of compiled spokes → HIGH-fidelity F1
+    → Empathy DEPTH = f(Entity-Compiled spoke count + compilation quality)
+    → Intimate (200h+): hundreds of compiled spokes → HIGH-fidelity Compiled
     → Acquaintance (<40h): few spokes → COARSE empathy
     → = Empathy quality ARCHITECTURALLY LIMITED bởi formation time
 ```
@@ -872,7 +872,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ↓
     Self-chunks accumulate → self-awareness emerges → templates available
       ↓
-    SPM F1 can begin to fire (rouge test milestone)
+    Self-Pattern-Modeling Compiled can begin to fire (rouge test milestone)
 
 
   TẠI SAO "CONTINGENT" QUAN TRỌNG:
@@ -908,15 +908,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Framework interpretation:
     → Rouge test pass = marker cho SELF-OTHER DISTINCTION
-    → Self-other distinction = PREREQUISITE cho SPM F1:
+    → Self-other distinction = PREREQUISITE cho Self-Pattern-Modeling Compiled:
       Cần phân biệt "template CỦA MÌNH" vs "state CỦA NGƯỜI KHÁC"
-    → Trước rouge test: chưa phân biệt → SPM KHÔNG fire được
-    → Sau rouge test: phân biệt → SPM F1 BẮT ĐẦU fire
+    → Trước rouge test: chưa phân biệt → Self-Pattern-Modeling KHÔNG fire được
+    → Sau rouge test: phân biệt → Self-Pattern-Modeling Compiled BẮT ĐẦU fire
 
   Correlates 🟢:
     → Empathic helping tăng đáng kể ở 18-24 tháng (Svetlova 2010)
     → Phân biệt "wants but can't" vs "doesn't want" (Warneken 2006/2007)
-    → = ĐỒNG THỜI với self-other distinction → consistent with SPM model
+    → = ĐỒNG THỜI với self-other distinction → consistent with Self-Pattern-Modeling model
 ```
 
 ### §3.4 — Alexithymia — decisive architectural evidence
@@ -936,9 +936,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ↓
     Thin self-chunks for emotional states
       ↓
-    Poor chunks available for retrieval (SPM Step 1)
+    Poor chunks available for retrieval (Self-Pattern-Modeling Step 1)
       ↓
-    Poor template → poor F1 simulation → poor F1 output
+    Poor template → poor Compiled simulation → poor Compiled output
       ↓
     Poor output read — CŨNG fail vì can't interpret own simulation output
       ↓
@@ -947,7 +947,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ALEXITHYMIA CŨNG PHÁ FEEDBACK LOOP:
 
-    SPM fire (thin chunks) → prediction noisy
+    Self-Pattern-Modeling fire (thin chunks) → prediction noisy
       ↓
     Outcome observed → BUT interpretation CŨNG noisy
       ↓
@@ -955,7 +955,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ↓
     Library update fails
       ↓
-    Next SPM STILL uses thin chunks → NO IMPROVEMENT
+    Next Self-Pattern-Modeling STILL uses thin chunks → NO IMPROVEMENT
 
     → Alexithymia không chỉ impair CURRENT empathy
     → Alexithymia PREVENTS LEARNING — loop broken
@@ -977,13 +977,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Persistent social-cognitive deficits into adulthood
 
   CONNECTION CONTEXT — 2 outcomes tùy ❸ valence (Connection.md §3.4):
-    → ❷ SPM thiếu + ❸ positive → indiscriminate friendliness
-    → ❷ SPM thiếu + ❸ negative → social withdrawal
+    → ❷ Self-Pattern-Modeling thiếu + ❸ positive → indiscriminate friendliness
+    → ❷ Self-Pattern-Modeling thiếu + ❸ negative → social withdrawal
     → = CÙNG bootstrap failure, KHÁC ❸ valence → KHÁC behavior
 
   SPECTRUM DISRUPTION:
 
-    Mild: functional SPM with alexithymia tendencies
+    Mild: functional Self-Pattern-Modeling with alexithymia tendencies
       → "Biết bạn buồn nhưng khó label chính xác"
       → Trainable via focused self-awareness work
 
@@ -991,7 +991,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → "Khó connect sâu với người khác"
       → Requires therapeutic re-scaffolding
 
-    Severe: profound SPM deficits, reactive attachment disorder
+    Severe: profound Self-Pattern-Modeling deficits, reactive attachment disorder
       → Early intervention critical (under 2y = best window)
 
   RECOVERY:
@@ -1018,16 +1018,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §4 — CƠ CHẾ HOẠT ĐỘNG: F1/F2 + 2-LUỒNG
+## §4 — CƠ CHẾ HOẠT ĐỘNG: Compiled/Fresh + 2-LUỒNG
 
-### §4.1 — SPM F1/F2 applied to empathy
+### §4.1 — Self-Pattern-Modeling Compiled/Fresh applied to empathy
 
 ```
-⭐ EMPATHY = CHỦ YẾU F1, F2 HỖ TRỢ:
+⭐ EMPATHY = CHỦ YẾU Compiled, Fresh HỖ TRỢ:
 
-  (Self-Pattern-Modeling.md v3.1 §2 — F1 Compiled + F2 Fresh)
+  (Self-Pattern-Modeling.md v3.1 §2 — Compiled + Fresh)
 
-  Empathy CORE = F1 (body-level simulation):
+  Empathy CORE = Compiled (body-level simulation):
 
     ┌─────┬──────────────────────┬──────────────────────────────────────────┐
     │ Step│ Action               │ Empathy example                          │
@@ -1044,11 +1044,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │     │ Apply template       │ "bạn's chunks would fire similarly"      │
     │     │ onto target          │ = hypothesis, CHƯA verify                │
     ├─────┼──────────────────────┼──────────────────────────────────────────┤
-    │  4  │ F1 SIMULATION        │ Body MÌNH fire sadness — intensity        │
+    │  4  │ Compiled SIMULATION        │ Body MÌNH fire sadness — intensity        │
     │     │ Body fire template   │ BIẾN THIÊN (zero → rất mạnh, tùy        │
     │     │ as-if-self-were-     │ hợp tính, trạng thái, chunks, context)  │
     │     │ target               │ = REAL body-level event                  │
-    │     │                      │ = Luồng 1 SPM-owned (momentary)         │
+    │     │                      │ = Luồng 1 Self-Pattern-Modeling-owned (momentary)         │
     ├─────┼──────────────────────┼──────────────────────────────────────────┤
     │  5  │ OUTPUT READ          │ PFC observe: "bạn đang rất buồn          │
     │     │ PFC observe          │ vì chia tay" = feeling observation       │
@@ -1061,7 +1061,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Step 4 = CRITICAL: simulation là REAL BODY-LEVEL EVENT.
     → Body MÌNH genuinely responds (slight sadness, tension)
     → = Tại sao empathy CÓ COST thật (biochemistry — §4.2)
-    → = Luồng 1 SINH RA ở đây: body-feedback từ F1 simulation
+    → = Luồng 1 SINH RA ở đây: body-feedback từ Compiled simulation
 
   Step 5 = REQUIRES self-awareness:
     → Rich self-chunk labels → precise: "ambivalent gratitude tinged with guilt"
@@ -1069,24 +1069,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Bird & Cook architectural point
 
 
-  F2 HỖ TRỢ EMPATHY (không phải empathy core):
+  Fresh HỖ TRỢ EMPATHY (không phải empathy core):
 
-    SONG SONG với F1, F2 chain:
+    SONG SONG với Compiled, Fresh chain:
     → "Bạn buồn vì chia tay → bạn sẽ muốn nói chuyện →
        bạn KHÔNG muốn nghe advice → nên LẮNG NGHE → kế hoạch cho tôi"
-    → F2 = DELIBERATE predict: target sẽ làm gì, tôi nên làm gì
-    → F2 KHÔNG tạo body response — tạo PLAN
-    → Empathy = F1 (cảm nhận state người khác)
-    → Empathic response = F1 + F2 (cảm nhận + biết nên làm gì)
+    → Fresh = DELIBERATE predict: target sẽ làm gì, tôi nên làm gì
+    → Fresh KHÔNG tạo body response — tạo PLAN
+    → Empathy = Compiled (cảm nhận state người khác)
+    → Empathic response = Compiled + Fresh (cảm nhận + biết nên làm gì)
 
   SPEED varies by Pattern-Type:
-    → Affective F1: milliseconds (near-automatic, hardest to suppress)
-    → Somatic F1: seconds (body-coupled)
-    → Verbal-cognitive F2: seconds to minutes (sequential reasoning)
+    → Affective Compiled: milliseconds (near-automatic, hardest to suppress)
+    → Somatic Compiled: seconds (body-coupled)
+    → Verbal-cognitive Fresh: seconds to minutes (sequential reasoning)
     → Composite: emerges from blend (rich relationships)
 
 
-  CONTEXT-DEPENDENT CHUNK SELECTION (SPM v3.1 §4):
+  CONTEXT-DEPENDENT CHUNK SELECTION (Self-Pattern-Modeling v3.1 §4):
 
     Vô thức tùy chọn chunks phù hợp agent + context:
     → Với mẹ: retrieve "ngoan, nhà cửa, xưng con-mẹ"
@@ -1094,26 +1094,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Với kẻ thù: retrieve "cảnh giác, phòng thủ, điểm yếu"
     → COMPILED — không cần PFC deliberate mỗi lần
 
-    → = Tại sao empathy "khác" với mỗi người: chunks khác → F1 output khác
+    → = Tại sao empathy "khác" với mỗi người: chunks khác → Compiled output khác
     → = Tại sao cùng 1 hành vi (khóc): bạn thân khóc → buồn nhiều,
         người lạ khóc → buồn nhẹ, kẻ thù khóc → có thể KHÔNG buồn
 
 
-  ⭐ COMPILED/FRESH EMPATHY — COST DIFFERENTIAL (SPM v3.1 §2, Inter-Body-Mechanism.md §3):
+  ⭐ COMPILED/FRESH EMPATHY — COST DIFFERENTIAL (Self-Pattern-Modeling v3.1 §2, Inter-Body-Mechanism.md §3):
 
-    F1/F2 KHÔNG phải "Feeling vs Logic" — là MỨC ĐỘ COMPILATION:
-      → F1 Compiled: body-level, automatic, cost ≈ 0 (Hebbian reinforced)
-      → F2 Fresh: PFC draft, deliberate, cost > 0 (glucose + neurotransmitter)
+    Compiled/Fresh KHÔNG phải "Feeling vs Logic" — là MỨC ĐỘ COMPILATION:
+      → Compiled: body-level, automatic, cost ≈ 0 (Hebbian reinforced)
+      → Fresh: PFC draft, deliberate, cost > 0 (glucose + neurotransmitter)
 
     ÁP DỤNG CHO EMPATHY:
 
-      Compiled empathy (F1 dominant, cost thấp):
+      Compiled empathy (Compiled dominant, cost thấp):
         → Mẹ đọc con: decades practice → automatic, không cần nghĩ
         → Therapist expert: hundreds patients → pattern compiled → read fast
         → Bạn thân 20 năm: deep model → predict chính xác → cost ≈ 0
         → = BỀN VỮNG — cost thấp, accuracy cao
 
-      Fresh empathy (F2 dominant, cost cao):
+      Fresh empathy (Fresh dominant, cost cao):
         → Người lạ: PFC phải draft "họ đang feel gì?" → effortful
         → Cross-cultural: template mismatch → PFC compensate → cost × 2
         → Novice helper: MỌI case đều fresh → PFC drain → burnout
@@ -1132,15 +1132,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ PFC BUDGET × EMPATHY (v4.0 — PFC-Operations.md v1.0 §9):
 
     PFC budget = FINITE SHARED RESOURCE. Empathy competes:
-      → Work stress dùng PFC → về nhà: hết budget → SPM cho con YẾU
+      → Work stress dùng PFC → về nhà: hết budget → Self-Pattern-Modeling cho con YẾU
       → "Không muốn nói chuyện" = KHÔNG PHẢI "không yêu" = PFC budget ĐÃ HẾT
 
     PARENT-CHILD = HIGHEST PFC COST (PFC-Operations.md v1.0 §9.2):
       ① Con = moving target: 3 tuổi ≠ 7 ≠ 13 ≠ 17 → model phải RE-DRAFT
-      ② Hardware mismatch: con ≈ 50% genetic + peer + era → bias SPM = SAI
+      ② Hardware mismatch: con ≈ 50% genetic + peer + era → bias Self-Pattern-Modeling = SAI
          → Phải SUPPRESS own compiled + HOLD fresh = DOUBLE COST
       ③ Hormone support GIẢM DẦN: oxytocin mạnh 0-5 → yếu khi con lớn
-      ④ Asymmetric: bố mẹ SPM con = Fresh (con luôn đổi), con SPM bố mẹ = Compiled
+      ④ Asymmetric: bố mẹ Self-Pattern-Modeling con = Fresh (con luôn đổi), con Self-Pattern-Modeling bố mẹ = Compiled
       → Teenager = HIGHEST cost (biggest change + least hormone support)
 
 
@@ -1153,7 +1153,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ├──────────────────┼─────────────────┼─────────────────┼─────────────────┤
     │ Compile pathway  │ Body reward thật│ PFC/obligation  │ Punishment/fear │
     │ Body khi dùng    │ THÍCH empathize │ NEUTRAL         │ TRÁNH nhưng ép  │
-    │ SPM capacity     │ EXPANSIVE       │ LIMITED         │ BIASED negative │
+    │ Self-Pattern-Modeling capacity     │ EXPANSIVE       │ LIMITED         │ BIASED negative │
     │ Long-term        │ Compound growth │ Stable if bridge│ BURNOUT risk ⚠️│
     └──────────────────┴─────────────────┴─────────────────┴─────────────────┘
 
@@ -1161,7 +1161,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     VD: Schema-compiled teacher = "phải caring vì là giáo viên" → functional nhưng limited
     VD: Threat-compiled caregiver = "nếu không chăm sóc sẽ bị đánh giá" → burnout trajectory
 
-    → Compiled quality QUYẾT ĐỊNH sustainability — cùng F1 intensity, khác trajectory
+    → Compiled quality QUYẾT ĐỊNH sustainability — cùng Compiled intensity, khác trajectory
 
     🟡 Compiled/Fresh empathy cost = framework synthesis
     🟢 Expert intuition = compiled pattern: consistent with expertise research
@@ -1173,18 +1173,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ EMPATHY = BIOCHEMISTRY THẬT TRONG BODY MÌNH:
 
   Khác biệt DUY NHẤT so với trải nghiệm trực tiếp:
-    → NGUỒN trigger (từ SPM F1 simulation, không phải domain trực tiếp)
+    → NGUỒN trigger (từ Self-Pattern-Modeling Compiled simulation, không phải domain trực tiếp)
     → INTENSITY (thường yếu hơn, nhưng BIẾN THIÊN: zero → rất mạnh)
   Còn lại: CÙNG pathways, CÙNG molecules, CÙNG body response.
 
 
   EMPATHY NEGATIVE (thấy agent đau / buồn / sợ) = L1 COST:
 
-    SPM F1 fire → body tạo bản sao yếu state NEGATIVE
+    Self-Pattern-Modeling Compiled fire → body tạo bản sao yếu state NEGATIVE
       ↓
     ① Amygdala detect dissonance (Cortisol-Baseline.md v2.0 §1.5 ①)
        → "Low road" (LeDoux 1996) 🟢: sensory → amygdala ~12ms
-       → Dù nguồn từ F1 simulation, amygdala KHÔNG phân biệt source
+       → Dù nguồn từ Compiled simulation, amygdala KHÔNG phân biệt source
       ↓
     ② NE spike (Cortisol-Baseline.md v2.0 §1.5 ②)
        → Locus Coeruleus fire Norepinephrine
@@ -1201,20 +1201,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → (Sapolsky 2004) 🟢
       ↓
     Body MÌNH: cortisol THẬT, NE THẬT, tension THẬT
-    → = L1 COST mỗi episode F1 fire
+    → = L1 COST mỗi episode Compiled fire
 
 
-  EMPATHY POSITIVE (thấy agent vui / sướng) = L1 REWARD:
+  EMPATHY POSITIVE (thấy agent vui / pleasant) = L1 REWARD:
 
-    SPM F1 fire → body tạo bản sao yếu state POSITIVE
+    Self-Pattern-Modeling Compiled fire → body tạo bản sao yếu state POSITIVE
       ↓
     → Opioid pathway: endorphin release nhẹ
     → Oxytocin release nhẹ (bonding, warmth)
     → VTA / reward circuit activate nhẹ
-    → = L1 REWARD mỗi episode F1 fire
+    → = L1 REWARD mỗi episode Compiled fire
 
 
-  3 NGUỒN KHÓ CHỊU THẬT (Body-Feedback-Mechanism.md §2.5):
+  3 GENUINE DISCOMFORT SOURCES (Body-Feedback-Mechanism.md §2.5):
 
     Cortisol KHÔNG gây đau — 3 nguồn thật:
       ① Đau vật lý: Singer 2004 🟢: anterior insula + ACC fire khi observe đau
@@ -1224,17 +1224,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ 2 LUỒNG ĐỒNG THỜI — ORGANIC TRONG CƠ CHẾ:
 
-    Toàn bộ cascade trên = Luồng 1 (SPM-owned, momentary).
+    Toàn bộ cascade trên = Luồng 1 (Self-Pattern-Modeling-owned, momentary).
     NHƯNG mỗi empathy event CŨNG có Luồng 2 chạy song song (nếu có):
 
-    LUỒNG 1 — SPM-owned (F1 output):
-      = Body-feedback TẠI KHOẢNH KHẮC F1 fire trên target
-      = Per-episode: mỗi lần F1 fire = 1 episode L1
+    LUỒNG 1 — Self-Pattern-Modeling-owned (Compiled output):
+      = Body-feedback TẠI KHOẢNH KHẮC Compiled fire trên target
+      = Per-episode: mỗi lần Compiled fire = 1 episode L1
       = Empathy negative → cascade ①-④ = L1 cost
       = Empathy positive → opioid, oxytocin = L1 reward
 
     LUỒNG 2 — Entity-Compiled (compiled valence):
-      = Agent ĐÃ compiled thành body-base extension (VP v3.0 §2)
+      = Agent ĐÃ compiled thành body-base extension (Valence-Propagation v3.0 §2)
       = Agent's wellbeing = MY wellbeing (structural)
       = SUSTAINED — KHÔNG phụ thuộc L1 output mỗi episode
       = CÓ hoặc KHÔNG tùy valence compiled depth
@@ -1253,16 +1253,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → L1 cost TÍCH LŨY không bù → burnout (§8.2)
 
       "Cho quà và nhìn mở quà":
-        L1+ (F1 observe họ vui → opioid) + visual input amplify
+        L1+ (Compiled observe họ vui → opioid) + visual input amplify
         → = Empathy reward CẦN visual input thật — thấy người nhận improve
         → = Tại sao cho trực tiếp > donate online
 
     → 2 luồng KHÔNG phải "2 hệ thống" — là 2 OUTPUTS cùng architecture:
-      L1 = SPM mechanism output (per-episode) = CURRENT empathy
+      L1 = Self-Pattern-Modeling mechanism output (per-episode) = CURRENT empathy
       L2 = Entity valence compiled output (structural) = STRUCTURAL empathy
 
 
-  ⭐ 3 FIRING MODES × EMPATHY (v4.0 — VP v3.0 §6):
+  ⭐ 3 FIRING MODES × EMPATHY (v4.0 — Valence-Propagation v3.0 §6):
 
     Mode 1 — MAINTENANCE (entity present, hàng ngày):
       → Entity PRESENT → empathy fire LOW-LEVEL → VTA habituated → INVISIBLE
@@ -1275,7 +1275,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → 🟢 O'Connor 2023: basal ganglia vẫn fire "entity sẽ ở đây" khi đã mất
 
     Mode 3 — CONTEXT-TRIGGER (entity absent, tình cờ):
-      → External cue → match EC spoke → empathy fire → UNPREDICTABLE
+      → External cue → match Entity-Compiled spoke → empathy fire → UNPREDICTABLE
       → "Nghe bài hát → nhớ bạn → buồn" = Mode 3 empathy
 
     → 3 modes giải thích TẠI SAO empathy fire ở moments KHÁC NHAU:
@@ -1315,22 +1315,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = "Hiểu nhau" có thể domain-specific
 
 
-  ⭐ ENTITY-ACCESS GRADIENT × EMPATHY CEILING (v4.0 — EA v1.2):
+  ⭐ ENTITY-ACCESS GRADIENT × EMPATHY CEILING (v4.0 — Entity-Access v1.2):
 
     Entity-Access Mức 0-5 SET CEILING cho empathy quality:
 
-    Mức 0 (Tool-mode): Engine Mode = Tool → F1 OFF → empathy IMPOSSIBLE
+    Mức 0 (Tool-mode): Engine Mode = Tool → Compiled OFF → empathy IMPOSSIBLE
       → "Bưu tá = delivers packages" → no empathy engagement
-    Mức 1 (Shallow): Surface F1 → coarse empathy, minimal overlap
-    Mức 2 (Partial): F1 emerging → decent empathy, some Generative
-    Mức 3 (Deep, B-dominant): F1 rich → mutual calibrated empathy, EASY EXIT
-      → = HIGHEST QUALITY empathy (B-dominant = genuine, feedback calibrate)
+    Mức 1 (Shallow): Surface Compiled → coarse empathy, minimal overlap
+    Mức 2 (Partial): Compiled emerging → decent empathy, some Generative
+    Mức 3 (Deep, Compilable-dominant): Compiled rich → mutual calibrated empathy, EASY EXIT
+      → = HIGHEST QUALITY empathy (Compilable-dominant = genuine, feedback calibrate)
     Mức 4 (Entity-owned, hw/low exit): L2 override → structural empathy
       → Empathy "always on" nhưng EXIT COST BLOCKS calibration feedback
-    Mức 5 (Excess): L2 drive > F1 radar → PROJECTION replaces empathy
-      → "Mẹ tưởng hiểu con" = SPM Failure Mode 1 (Bond-Architecture.md §2.2)
+    Mức 5 (Excess): L2 drive > Compiled radar → PROJECTION replaces empathy
+      → "Mẹ tưởng hiểu con" = Self-Pattern-Modeling Failure Mode 1 (Bond-Architecture.md §2.2)
 
-    ⭐ EXIT COST × CALIBRATION PARADOX (EA v1.2 §8.3):
+    ⭐ EXIT COST × CALIBRATION PARADOX (Entity-Access v1.2 §8.3):
       Strongest bond = HARDEST to calibrate empathy:
       → Child can't exit → "no" signal ineffective → parent may not recalibrate
       → Teen rebellion = child's FIRST calibration signal
@@ -1341,18 +1341,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §4.4 — 5 Pattern-Type variations
 
 ```
-🟡 SPM F1 FIRE KHÁC NHAU TÙY PATTERN-TYPE:
+🟡 Self-Pattern-Modeling Compiled FIRE KHÁC NHAU TÙY PATTERN-TYPE:
 
   (Self-Pattern-Modeling.md v3.1 §5)
 
   ① AFFECTIVE (emotion chunks):
-    → F1 fastest — milliseconds, near-automatic
+    → Compiled fastest — milliseconds, near-automatic
     → Hardest to suppress (even dehumanization requires ongoing effort)
     → Cross-species: works via surface distress cues
     → VD: thấy ai khóc → body mình buồn nhẹ TỰ ĐỘNG
 
   ② SOMATIC (body state chunks):
-    → F1 fast — seconds, body-coupled
+    → Compiled fast — seconds, body-coupled
     → Strong in embodied contexts (dance, sports, crafts)
     → VD: xem vận động viên thi đấu → body co-fire tension
 
@@ -1362,7 +1362,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → VD: 2 nhà toán học discuss proof → "hiểu nhau" qua symbolic chunks
 
   ④ VERBAL-COGNITIVE (inner speech / reasoning chunks):
-    → F2-dominant — slower, sequential reasoning
+    → Fresh-dominant — slower, sequential reasoning
     → Explicit perspective-taking
     → VD: simulate "tại sao họ nghĩ vậy" qua verbal reasoning
 
@@ -1386,16 +1386,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   STREAM 1 — HARDWARE/AUTOMATIC EMPATHY:
     = Thấy bé khóc → body co rúm. Thấy ai cười → nhẹ nhõm.
-    = KHÔNG CẦN hiểu, không cần SPM mutual, không cần engagement ngược
+    = KHÔNG CẦN hiểu, không cần Self-Pattern-Modeling mutual, không cần engagement ngược
     = Maps vào §2 mechanism ① Pattern Matching (limbic, từ sinh)
     = HABITUATES: thấy lần đầu → mạnh. Thấy lần thứ 100 → yếu đi
       (Weber-Fechner, hedonic treadmill — By-Product-Gap-Resonance v1.4 §2.1)
-    = Cross-species: tất cả động vật xã hội CÓ Stream 1 empathy
+    = Cross-species: tất cả động vật xã hội CÓ Hardware-Stream empathy
     = Ví dụ: mẹ-bé (evolution protected), người-chó, bác sĩ lần đầu thấy bệnh nhân
 
-  STREAM 2 — SPM MUTUAL EMPATHY (bidirectional, deepens):
+  STREAM 2 — Self-Pattern-Modeling MUTUAL EMPATHY (bidirectional, deepens):
     = Biết bạn buồn → respond ĐÚNG → bạn FEEL được hiểu → respond lại → loop
-    = CẦN cả 2 bên engage SPM toward nhau → feedback loop → 2 não đồng bộ
+    = CẦN cả 2 bên engage Self-Pattern-Modeling toward nhau → feedback loop → 2 não đồng bộ
     = Maps vào §2 mechanism ② Agent Modeling (learned, 14-24m+)
     = ANTI-HABITUATION: Hebbian → more use → stronger → cost GIẢM → empathy TĂNG
       (By-Product-Gap-Resonance v1.4 §2.2)
@@ -1403,25 +1403,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = Ví dụ: bạn thân compiled (decades), vợ chồng calibrated, therapist-client mutual
 
   TEMPORAL DYNAMICS:
-    Người mới quen: Stream 1 DOMINANT (automatic empathy: "dễ thương quá")
-    → Stream 1 habituates dần
-    Bạn thân lâu năm: Stream 2 DOMINANT (deep calibrated: "biết mày cần gì")
-    → Stream 2 deepens qua thời gian
+    Người mới quen: Hardware-Stream DOMINANT (automatic empathy: "dễ thương quá")
+    → Hardware-Stream habituates dần
+    Bạn thân lâu năm: Modeling-Stream DOMINANT (deep calibrated: "biết mày cần gì")
+    → Modeling-Stream deepens qua thời gian
 
-    Sustainability: Stream 2 growth phải > Stream 1 decline
+    Sustainability: Modeling-Stream growth phải > Hardware-Stream decline
     → Nếu KHÔNG: empathy fades ("hết thương rồi")
     → Nếu CÓ: empathy deepens ("càng hiểu nhau hơn")
 
   2-STREAM vs 2-LUỒNG — ORTHOGONAL:
     2-Stream = LOẠI EMPATHY (automatic vs mutual calibrated)
     2-luồng = LOẠI REWARD (L1 momentary vs L2 structural)
-    → Stream 1 empathy CÓ L1 reward (body co-fire momentary)
-    → Stream 2 empathy CÓ L1 + có thể L2 (nếu entity đã compiled)
+    → Hardware-Stream empathy CÓ L1 reward (body co-fire momentary)
+    → Modeling-Stream empathy CÓ L1 + có thể L2 (nếu entity đã compiled)
     → 4 tổ hợp đều CÓ THỂ:
-      Stream 1 + L1 only: thấy em bé lạ khóc → buồn lây (momentary, habituates)
-      Stream 1 + L1 + L2: thấy con mình khóc → buồn + drive chăm (structural)
-      Stream 2 + L1 only: đồng nghiệp mới → mutual calibrate → understand nhưng chưa L2
-      Stream 2 + L1 + L2: bạn thân 20 năm → deep mutual + structural bond
+      Hardware-Stream + L1 only: thấy em bé lạ khóc → buồn lây (momentary, habituates)
+      Hardware-Stream + L1 + L2: thấy con mình khóc → buồn + drive chăm (structural)
+      Modeling-Stream + L1 only: đồng nghiệp mới → mutual calibrate → understand nhưng chưa L2
+      Modeling-Stream + L1 + L2: bạn thân 20 năm → deep mutual + structural bond
 
   🟡 2-Stream empathy mapping = framework synthesis (Resonance v1.4 + Empathy integration)
   🟢 Habituation of empathic response: established (Figley 2002)
@@ -1452,7 +1452,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├──────────────┼─────────────┼─────────────────────────────────────────┤
   │ TEMPORARY    │ Romantic    │ LIMERENCE MASK: vasopressin/oxytocin    │
   │              │ (limerence) │ simulates deep empathy → FADES 18-36m  │
-  │              │             │ → true F1 quality REVEALED post-limerence│
+  │              │             │ → true Compiled quality REVEALED post-limerence│
   ├──────────────┼─────────────┼─────────────────────────────────────────┤
   │ NONE         │ Bạn thân,   │ MUST MAINTAIN: VTA habituates standard  │
   │              │ Colleague   │ rate. No hw protection → empathy FADES  │
@@ -1461,7 +1461,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └──────────────┴─────────────┴─────────────────────────────────────────┘
 
   ⭐ SUBSIDY ≠ QUALITY. SUBSIDY = SUSTAINABILITY INSURANCE.
-    → Mẹ empathy auto-sustain ≠ mẹ empathy ĐÚNG (F1 accuracy independent)
+    → Mẹ empathy auto-sustain ≠ mẹ empathy ĐÚNG (Compiled accuracy independent)
     → Bạn empathy needs maintenance ≠ bạn empathy KÉM (can be highest quality)
     → Romantic empathy "intense" ≠ romantic empathy GENUINE (limerence masks)
 
@@ -1477,12 +1477,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   (Resonance-Per-Entity.md v1.0 §4-§8, overview)
 
   ┌──────────────┬──────────┬──────────┬──────────┬───────────┬───────────┐
-  │              │ Mẹ→Con   │ Con→Mẹ   │ Bạn Thân │ Romantic  │ Professn. │
-  ├──────────────┼──────────┼──────────┼──────────┼───────────┼───────────┤
-  │ L1/L2 ratio  │ L2 dom.  │ L1→L2    │ L1 dom.  │ Phase-dep.│ L1 only   │
-  │ Hw Subsidy   │ MAX      │ MODERATE │ NONE     │ TEMPORARY │ NONE      │
+  │              │ Mẹ→Con   │ Con→Mẹ   │ Bạn Thân │ Romantic       │ Professional │
+  ├──────────────┼──────────┼──────────┼──────────┼───────────────┼──────────────┤
+  │ L1/L2 ratio  │ L2 dominant │ L1→L2 │ L1 dominant │ Phase-dependent│ L1 only      │
+  │ Hardware Subsidy   │ MAX      │ MODERATE │ NONE     │ TEMPORARY │ NONE      │
   │ Compilation  │ SKIP(hw) │ Standard │ Standard │ Accelerate│ Selective │
-  │ Cost profile │ ≈ 0      │ Shift    │ Moderate │ Variable  │ High F2   │
+  │ Cost profile │ ≈ 0      │ Shift    │ Moderate │ Variable  │ High Fresh   │
   │ "Chán" risk  │ LOW      │ MOD(teen)│ HIGH     │ HIGHEST   │ N/A       │
   │ Phantom      │ DEVASTAT │ MAJOR    │ MINOR    │ COMPLEX   │ MINOR     │
   └──────────────┴──────────┴──────────┴──────────┴───────────┴───────────┘
@@ -1497,7 +1497,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Teen = highest "chán" risk (autonomy drive ↑)
 
   BẠN THÂN: L1 dominant, Generative-driven, ZERO hw subsidy
-    → PUREST resonance (B-dominant) nhưng FRAGILE
+    → PUREST resonance (Compilable-dominant) nhưng FRAGILE
     → 48.6% inner circle churn (Roberts & Dunbar 2011) 🟢
     → "Gặp nhau vui ghê → lâu không gặp → quên" = no hw protection
 
@@ -1508,7 +1508,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   PROFESSIONAL: L1 only, domain-selective, Tool-mode risk
     → Therapist: L2 ≈ 0 (professional boundary) → burnout trajectory
     → Teacher: can develop genuine-compiled over years
-    → Tool-mode = F1 OFF → predict behavior only, NOT model state
+    → Tool-mode = Compiled OFF → predict behavior only, NOT model state
 
   Chi tiết per-entity: Resonance-Per-Entity.md v1.0 §4-§8
 
@@ -1562,20 +1562,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   (Resonance-Per-Entity.md v1.0 §1)
 
-  Stage 1 — F2 CAUTIOUS (first interactions):
+  Stage 1 — Fresh CAUTIOUS (first interactions):
     = "Click" khi by-product match confirmed
     = PFC draft + suppress + uncertainty = HIGHEST COST
     = "Mình chưa biết họ buồn thật hay giả" = uncertainty cost
     = Duration: weeks
 
-  Stage 2 — F1 DEVELOPING (months):
-    = Repeated success → F1 compile → cost DECREASING
+  Stage 2 — Compiled DEVELOPING (months):
+    = Repeated success → Compiled compile → cost DECREASING
     = "Bắt đầu quen, gặp thoải mái hơn"
-    = "Hiểu nhau không cần nói" = F1 predict accurate
+    = "Hiểu nhau không cần nói" = Compiled predict accurate
     = Duration: months-years
 
   Stage 3 — BASELINE COMPILED (established):
-    = F1 automatic → cost ≈ 0 → VTA habituated → reward INVISIBLE
+    = Compiled automatic → cost ≈ 0 → VTA habituated → reward INVISIBLE
     = "Gặp bạn thân = thoải mái, không cần nghĩ"
     = Empathy RICH nhưng INVISIBLE (Mode 1 maintenance)
     = Duration: years of established bond
@@ -1588,11 +1588,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   PER-ENTITY COMPILATION RATE KHÁC:
     Mẹ→con: SKIP Stage 1-2 partly (prenatal priming, hw subsidy MAX)
-    Bạn thân: STANDARD chain (40→80→200h — EC v1.0)
+    Bạn thân: STANDARD chain (40→80→200h — Entity-Compiled v1.0)
     Romantic: ACCELERATED by limerence (hormone fast-track Stage 1)
     Professional: SELECTIVE compilation (domain spokes only)
 
-  🟡 Compilation chain × empathy = framework synthesis (RPE v1.0)
+  🟡 Compilation chain × empathy = framework synthesis (Resonance-Per-Entity v1.0)
 ```
 
 ---
@@ -1622,7 +1622,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Mặt người: CỰC expressive → fire MẠNH
     → Mặt chó: khá expressive → fire tốt
     → Cá: gần zero → fire rất yếu
-    → = SPM F1 CẦN INPUT để fire — ít input = ít empathy
+    → = Self-Pattern-Modeling Compiled CẦN INPUT để fire — ít input = ít empathy
     🟢 Facial EMG mimicry = automatic, 300ms, pre-conscious (Dimberg 2000)
 
   ④ SIMILARITY / FAMILIARITY — càng giống/quen → empathy CÀNG MẠNH:
@@ -1668,7 +1668,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Self-similar → template fits directly
     → Moderately divergent → template needs adjustment
     → Distant (cross-species) → affective-only
-    → Below threshold (insect, object) → SPM FAILS → fallback
+    → Below threshold (insect, object) → Self-Pattern-Modeling FAILS → fallback
 
   ④ FEEDBACK — real-time calibration available:
     → Real-time rich (face-to-face) → calibrate mid-interaction
@@ -1761,7 +1761,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 3 PATHWAYS CÓ THỂ STACK — TRIPLE OVERRIDE:
 
   VD — Mẹ hy sinh cho con (3 nguồn cùng hướng):
-    ① Empathy L1: thấy con đói → F1 dissonance → cho con ăn → L1 reward
+    ① Empathy L1: thấy con đói → Compiled dissonance → cho con ăn → L1 reward
     ② Schema: "mẹ tốt phải hy sinh" → schema reward
     ③ Gene threat: "con đói = gene threat" → threat drive
     + L2 structural: con = body-base extension → sustained drive
@@ -1776,7 +1776,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   DẤU HIỆU NHẬN BIẾT empathy reward override:
     Verbal: "Nhìn con ăn là mẹ no rồi" → L1 empathy reward thay thế nutrition
-    Body: gầy, mệt, thiếu ngủ NHƯNG vẫn sướng khi cho
+    Body: gầy, mệt, thiếu ngủ NHƯNG vẫn pleasant khi cho
     → = "Đèn cháy hết dầu — sáng cho người khác, tắt cho mình"
 
   BUG VÀ FEATURE:
@@ -1803,7 +1803,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Item X ở chỗ TÔI, body-base đã đủ:
       → Item X thêm cho MÌNH: reward ≈ 0 (đã no, đã biết, đã có)
     Item X ở chỗ NGƯỜI KHÁC đang thiếu:
-      → SPM F1 detect: họ THIẾU → body MÌNH empathy dissonance
+      → Self-Pattern-Modeling Compiled detect: họ THIẾU → body MÌNH empathy dissonance
       → Share item X → họ improve → L1 empathy reward CỦA MÌNH fire
       → = CÙNG 1 quả xoài: tôi ăn thêm (reward ≈ 0) vs
           cho người đói (reward CAO cho họ + L1 reward cho tôi)
@@ -1826,16 +1826,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Phân phối tài nguyên qua empathy = BY-PRODUCT MATCH ở group level:
       → A fill gap CỦA A (ăn no, nghỉ ngơi → body-base đủ)
       → A's surplus = by-product (quả xoài thừa)
-      → B đang thiếu → A's SPM detect B thiếu → body A empathy fire
+      → B đang thiếu → A's Self-Pattern-Modeling detect B thiếu → body A empathy fire
       → A share by-product → MATCH B's gap → B reward + A L1 reward
       → = By-product match KHÔNG CẦN intention "tôi muốn giúp"
-      → = Body TỰ drive share vì reward architecture (Architecture B)
+      → = Body TỰ drive share vì reward architecture (Compilable Architecture)
     → Empathy = by-product match DETECTION MECHANISM cho groups
     (Inter-Body-Mechanism.md §5.4)
 
   ⭐ EMPATHY ACROSS 3 SCALES (v4.0 — By-Product-Scale.md v1.0):
-    PAIR: empathy = 1-to-1 F1 fire → mạnh nhất, most personal
-    HUB: empathy = leader/hub fire F1 on group → amplified by position
+    PAIR: empathy = 1-to-1 Compiled fire → mạnh nhất, most personal
+    HUB: empathy = leader/hub fire Compiled on group → amplified by position
     INSTITUTIONAL: empathy = policy design → WIDEST reach nhưng impersonal
     → VD: bác sĩ empathy 1 bệnh nhân (pair) vs hospital policy (institutional)
     → VD: giáo viên empathy 1 trò (pair) vs education system (institutional)
@@ -1895,7 +1895,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Có item + biết cách share + target CÓ THỂ nhận
 
     ③ Empathy input CÓ (thấy người nhận improve):
-      → Share trực tiếp > gián tiếp (F1 CẦN visual input)
+      → Share trực tiếp > gián tiếp (Compiled CẦN visual input)
       → Cho hàng xóm quả (thấy họ vui) > donate online (không thấy)
 
     KHI THIẾU ①: body-base chưa đủ mà VẪN share
@@ -1912,24 +1912,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 EMPATHY CÓ THỂ FAIL THEO 7 CÁCH KHÁC NHAU:
 
   ┌────┬─────────────────────────┬────────────────────────────────────────┐
-  │ #  │ Failure mode            │ Cơ chế gốc (qua F1/F2 + 2-luồng)      │
+  │ #  │ Failure mode            │ Cơ chế gốc (qua Compiled/Fresh + 2-luồng)      │
   ├────┼─────────────────────────┼────────────────────────────────────────┤
   │ 1  │ Empathy fatigue         │ L1 cost tích lũy + L2 compensation     │
   │    │ (= burnout)             │ không đủ → cortisol baseline drift up  │
   ├────┼─────────────────────────┼────────────────────────────────────────┤
-  │ 2  │ Alexithymia             │ Poor self-chunks → F1 cannot fire     │
+  │ 2  │ Alexithymia             │ Poor self-chunks → Compiled cannot fire     │
   │    │                         │ properly + feedback loop broken        │
   ├────┼─────────────────────────┼────────────────────────────────────────┤
-  │ 3  │ Dehumanization          │ Schema suppress SPM → F1 TẮT          │
+  │ 3  │ Dehumanization          │ Schema suppress Self-Pattern-Modeling → Compiled TẮT          │
   │    │                         │ (❸ extreme negative)                   │
   ├────┼─────────────────────────┼────────────────────────────────────────┤
-  │ 4  │ Parasocial              │ High F1 + zero feedback →             │
+  │ 4  │ Parasocial              │ High Compiled + zero feedback →             │
   │    │                         │ templates distort, no Resonance│
   ├────┼─────────────────────────┼────────────────────────────────────────┤
-  │ 5  │ Schema suppress         │ Hostile schema blocks F1 dù           │
+  │ 5  │ Schema suppress         │ Hostile schema blocks Compiled dù           │
   │    │ (relationship)          │ axes theoretically high               │
   ├────┼─────────────────────────┼────────────────────────────────────────┤
-  │ 6  │ Animism (over-apply)    │ SPM F1 apply lên non-agents           │
+  │ 6  │ Animism (over-apply)    │ Self-Pattern-Modeling Compiled apply lên non-agents           │
   │    │                         │ (developmental or schema-prevented)    │
   ├────┼─────────────────────────┼────────────────────────────────────────┤
   │ 7  │ Empathy reward hijack   │ Nghiện L1 empathy reward →            │
@@ -1944,7 +1944,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CƠ CHẾ L1 COST (Cortisol-Baseline.md v2.0 §1.5):
 
-    Mỗi empathy F1 event (thấy bệnh nhân đau, thấy trẻ khổ):
+    Mỗi empathy Compiled event (thấy bệnh nhân đau, thấy trẻ khổ):
       → NE spike → cortisol spike nhỏ
       → Spike → partial recovery → nhưng KHÔNG về hẳn baseline cũ
       → Spike tiếp → baseline DRIFT UP thêm
@@ -1960,7 +1960,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ L2 COMPENSATION QUYẾT ĐỊNH OUTCOME:
 
     ┌─────────────────────┬──────────┬───────────┬──────────────────────────┐
-    │ Case                │ L1 (F1)  │ L2 (❸)    │ Outcome                  │
+    │ Case                │ L1 (Compiled)  │ L2 (❸)    │ Outcome                  │
     ├─────────────────────┼──────────┼───────────┼──────────────────────────┤
     │ Bác sĩ + bệnh nhân │ Negative │ ≈ 0       │ L1 cost TÍCH LŨY         │
     │ lạ (hàng ngày)      │ (cascade │ (chưa     │ → burnout, fatigue       │
@@ -2000,8 +2000,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Cha mẹ trẻ khuyết tật: L1 cực cao + L2 có nhưng CÓ THỂ bị vượt
 
   3 DEFENSE MECHANISMS (body self-protect):
-    ① Detachment: CẮT empathy F1 chủ động → "nhìn bệnh nhân như case"
-    ② Numbness: VTA habituate → F1 threshold TĂNG → ít fire
+    ① Detachment: CẮT empathy Compiled chủ động → "nhìn bệnh nhân như case"
+    ② Numbness: VTA habituate → Compiled threshold TĂNG → ít fire
     ③ Avoidance: tránh input → "không muốn nhìn tin tức"
 
   KHÔNG PHẢI "NGƯỜI XẤU":
@@ -2031,9 +2031,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → M1 MULTIPLIES M2+M3+M4 → accelerator
 
     ② PFC BUDGET DEPLETION (PFC-Operations.md v1.0 §9):
-      → F2 empathy = PFC cost mỗi session
+      → Fresh empathy = PFC cost mỗi session
       → Volume cao (nhiều bệnh nhân/ngày) × fresh (mỗi người khác) = DRAIN
-      → Hết PFC → chỉ automated F1 → F1 CÓ THỂ stale → empathy SAI
+      → Hết PFC → chỉ automated Compiled → Compiled CÓ THỂ stale → empathy SAI
       → "Đến cuối ngày, coi bệnh nhân như case" = PFC shutdown, NOT cruelty
 
     ③ COMPILED QUALITY (PFC-Operations.md v1.0 §5):
@@ -2075,13 +2075,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       + KHÔNG CÓ L2 cung cấp moral anchor
 
   Bác sĩ (moral injury):
-    → L1: F1 fire → thấy bệnh nhân đau → body khó chịu
+    → L1: Compiled fire → thấy bệnh nhân đau → body khó chịu
     → PFC: "tôi biết cần cứu nhưng KHÔNG ĐỦ resource"
     → L2 ≈ 0 → không có structural drive BÙ moral cost
     → = L1 cost + moral cost + L2 ≈ 0 → compound injury
 
-  Mẹ (KHÔNG moral injury dù cùng F1 cost):
-    → L1: F1 fire → thấy con đau → body khó chịu
+  Mẹ (KHÔNG moral injury dù cùng Compiled cost):
+    → L1: Compiled fire → thấy con đau → body khó chịu
     → PFC: "tôi đang chăm con hết sức"
     → L2 ++: con = body-base extension → structural anchor
     → = L1 cost + L2 structural → moral injury KHÔNG xảy ra
@@ -2096,49 +2096,49 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 6 FAILURE MODES CÒN LẠI:
 
   ② ALEXITHYMIA (§3.4 đã chi tiết):
-    → Poor self-chunks → poor templates → poor F1 → empathy deficit
+    → Poor self-chunks → poor templates → poor Compiled → empathy deficit
     → CŨNG phá feedback loop → library KHÔNG improve
     → ~10% population clinically significant
     → Fix: rebuild self-chunks (Focusing, mindfulness, emotional labeling)
 
   ③ DEHUMANIZATION:
-    → ❸ extreme negative → schema suppress SPM → F1 TẮT
+    → ❸ extreme negative → schema suppress Self-Pattern-Modeling → Compiled TẮT
     → Agent-Mechanism.md §10, §14
     → Grossman On Killing 🟢: must dehumanize to kill effectively
-    → Recoverable: remove schema → F1 re-fires → PTSD after war
+    → Recoverable: remove schema → Compiled re-fires → PTSD after war
       (= gate mở lại → flood of L1 empathy dissonance retroactive)
 
   ④ PARASOCIAL (feedback axis failure):
-    → High F1 investment + ZERO feedback → open loop
+    → High Compiled investment + ZERO feedback → open loop
     → Templates distort increasingly (no Resonance possible)
     → Fan feels "know" celebrity → reality intrudes → distress
-    → Connection.md v5.0 §3.4: rich SPM nhưng no Resonance
+    → Connection.md v5.0 §3.4: rich Self-Pattern-Modeling nhưng no Resonance
 
   ⑤ SCHEMA SUPPRESS IN RELATIONSHIPS:
     → Mother-10-year case (Agent-Mechanism.md §9.2):
-      Hostile schema blocks F1 dù depth + similarity HIGH
-    → "Dehumanization-lite" — routine script replaces F1 genuine simulation
+      Hostile schema blocks Compiled dù depth + similarity HIGH
+    → "Dehumanization-lite" — routine script replaces Compiled genuine simulation
     → DANGER zone: all axes theoretically high nhưng SCHEMA blocks
 
-  ⑥ ANIMISM (over-apply F1):
-    → 2-7y developmental: F1 mới → apply lên MỌI THỨ (Piaget 1929) 🟢
+  ⑥ ANIMISM (over-apply Compiled):
+    → 2-7y developmental: Compiled mới → apply lên MỌI THỨ (Piaget 1929) 🟢
     → "Ghế bị đau", "búp bê buồn" = overgeneralization
     → Adult animism: cộng đồng schema PREVENT natural refinement
 
   ⑦ EMPATHY REWARD HIJACK (§6.3 overlap):
     → Nghiện L1 empathy reward → body NGHIỆN → ignore own needs
-    → KHÁC fatigue: fatigue = body CẮT F1 (defense),
+    → KHÁC fatigue: fatigue = body CẮT Compiled (defense),
       hijack = body NGHIỆN L1 reward (addiction)
-    → "Sướng khi giúp" nhưng "gầy, mệt, tài chính yếu"
+    → "Pleasant khi giúp" nhưng "gầy, mệt, tài chính yếu"
 ```
 
-### §8.5 — L2 STRONG + F1 WEAK: "Yêu thương nhưng không hiểu" (case bố mẹ)
+### §8.5 — L2 STRONG + Compiled WEAK: "Yêu thương nhưng không hiểu" (case bố mẹ)
 
 ```
-⭐ CASE ĐẶC TRƯNG NHẤT CỦA 2-LUỒNG: L2 CÓ ≠ F1 CÓ
+⭐ CASE ĐẶC TRƯNG NHẤT CỦA 2-LUỒNG: L2 CÓ ≠ Compiled CÓ
 
   Case này PHÂN TÁCH 2 nguồn drive CỰC ĐẠI — chứng minh
-  L2 (yêu thương structural) và F1 (đồng cảm momentary)
+  L2 (yêu thương structural) và Compiled (đồng cảm momentary)
   là 2 thứ TÁCH BIỆT HOÀN TOÀN, có thể tồn tại ĐỘC LẬP.
 
 
@@ -2152,9 +2152,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     NHƯNG L2 chỉ nói: "CON PHẢI TỐT"
     L2 KHÔNG nói: "CON ĐANG CẢM THẤY GÌ"
-    Cái sau là việc CỦA F1.
+    Cái sau là việc CỦA Compiled.
 
-    Khi F1 yếu hoặc bị schema chặn:
+    Khi Compiled yếu hoặc bị schema chặn:
       → Bố mẹ có L2 drive MẠNH nhưng KHÔNG CÓ RADAR đọc state thật của con
       → Bố mẹ PROJECT schema CỦA MÌNH lên con:
         "Con PHẢI học giỏi" (vì tôi biết học giỏi = tốt)
@@ -2165,31 +2165,31 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Treat con as OBJECT to optimize, NOT agent to understand
 
 
-  ⭐ TẠI SAO F1 YẾU — NHIỀU NGUỒN KHÁC NHAU:
+  ⭐ TẠI SAO Compiled YẾU — NHIỀU NGUỒN KHÁC NHAU:
 
-    ① Schema thay thế F1:
-      → "Bố mẹ tốt phải thế này" → schema SCRIPT thay thế genuine F1 simulate
+    ① Schema thay thế Compiled:
+      → "Bố mẹ tốt phải thế này" → schema SCRIPT thay thế genuine Compiled simulate
       → Bố mẹ follow "phải dạy con thế này" → KHÔNG CẦN hỏi con feel gì
       → Schema cho REWARD khi comply ("tôi là bố mẹ tốt") → reinforce
 
     ② Chunk library thiếu cho domain "con cái":
       → Tuổi thơ CỦA BỐ MẸ cũng bị chăm kiểu này
       → Self-chunks cho "bị kiểm soát mà vẫn được yêu" = THIN
-      → → Templates cho F1 fire on con = KÉM
+      → → Templates cho Compiled fire on con = KÉM
       → = Generational: ông bà → bố mẹ → con — mỗi thế hệ truyền CÙNG GAP
 
-    ③ SPM chưa đủ practice cho đa dạng agent:
-      → Bố mẹ có thể F1 TỐT với bạn bè, đồng nghiệp
-      → Nhưng F1 với CON = context KHÁC: power asymmetry + L2 override
-      → L2 drive MẠNH QUÁ → F1 bị "lấn" — L2 nói "phải tốt cho con"
-        mạnh hơn F1 nói "con đang feel gì"
-      → = Context-dependent chunk selection (SPM v3.1 §4):
+    ③ Self-Pattern-Modeling chưa đủ practice cho đa dạng agent:
+      → Bố mẹ có thể Compiled TỐT với bạn bè, đồng nghiệp
+      → Nhưng Compiled với CON = context KHÁC: power asymmetry + L2 override
+      → L2 drive MẠNH QUÁ → Compiled bị "lấn" — L2 nói "phải tốt cho con"
+        mạnh hơn Compiled nói "con đang feel gì"
+      → = Context-dependent chunk selection (Self-Pattern-Modeling v3.1 §4):
         context "bố mẹ" activate "dạy dỗ" chunks, KHÔNG activate "lắng nghe" chunks
 
     ④ Alexithymia nhẹ (partial):
       → Bố mẹ có thể KHÔNG nhận ra emotional complexity CỦA CON
       → Vì self-chunks cho emotional nuance = THIN
-      → → F1 fire nhưng coarse: "con buồn" thay vì "con bị kìm kẹp mà
+      → → Compiled fire nhưng coarse: "con buồn" thay vì "con bị kìm kẹp mà
           không biết cách nói vì sợ làm bố mẹ buồn"
 
 
@@ -2202,15 +2202,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         con phản kháng khi mình yêu thương "hết mình"
 
     Con perspective:
-      → "Tôi bị kìm kẹp" → ĐÚNG (F1 thiếu → không được HIỂU)
-      → "Bố mẹ không hiểu tôi" → ĐÚNG (F1 không fire → validation ⑤ KHÔNG hoạt động)
+      → "Tôi bị kìm kẹp" → ĐÚNG (Compiled thiếu → không được HIỂU)
+      → "Bố mẹ không hiểu tôi" → ĐÚNG (Compiled không fire → validation ⑤ KHÔNG hoạt động)
       → "Tôi như vật sở hữu" → ĐÚNG (bố mẹ dùng object valence:
         "tôi đánh giá con nên thế nào" thay vì agent valence:
         "con đang thế nào thật sự")
 
     → KHÔNG AI NÓI DỐI. Cả hai genuinely đúng trong perspective của mình.
-    → XUNG ĐỘT KHÔNG phải vì thiếu yêu thương — mà vì thiếu F1.
-    → = L2 ≠ F1. Yêu thương ≠ đồng cảm. 2 nguồn drive TÁCH BIỆT.
+    → XUNG ĐỘT KHÔNG phải vì thiếu yêu thương — mà vì thiếu Compiled.
+    → = L2 ≠ Compiled. Yêu thương ≠ đồng cảm. 2 nguồn drive TÁCH BIỆT.
 
 
   ⭐ CONNECTION PATHWAY ANALYSIS — CON NHẬN GÌ VÀ THIẾU GÌ:
@@ -2223,8 +2223,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ⑥ Presence: CÓ — bố mẹ ở bên
       ⑧ Knowledge flow: CÓ — bố mẹ dạy kiến thức, kỹ năng
 
-    CON THIẾU (F1-driven):
-      ① Mirror reward: YẾU — bố mẹ không fire F1 chính xác on con
+    CON THIẾU (Compiled-driven):
+      ① Mirror reward: YẾU — bố mẹ không fire Compiled chính xác on con
         → con không nhận được "bố mẹ HIỂU tôi đang feel gì"
       ④ Giving dynamics: LỆCH — bố mẹ cho THEO Ý BỐ MẸ, không theo nhu cầu CON
       ⑤ Validation: THIẾU ⭐ — đây là pathway BỊ ẢNH HƯỞNG NHẤT
@@ -2235,20 +2235,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → Con: "con muốn vẽ" (Imagine-Final CỦA CON)
         → = 2 Imagine-Final KHÁC NHAU → conflict, không shared
 
-    → Con nhận 4/8 pathways (L2-driven) nhưng THIẾU 4/8 (F1-driven)
+    → Con nhận 4/8 pathways (L2-driven) nhưng THIẾU 4/8 (Compiled-driven)
     → = "Yêu thương nửa vời" — đủ care, thiếu understanding
 
 
   ⭐ PHÂN BIỆT VỚI CÁC FAILURE MODES KHÁC:
 
-    ≠ Fatigue (#1): F1 không bị kiệt — F1 CHƯA BAO GIỜ mạnh với con
-    ≠ Alexithymia (#2): bố mẹ CÓ THỂ F1 tốt với người khác
+    ≠ Fatigue (#1): Compiled không bị kiệt — Compiled CHƯA BAO GIỜ mạnh với con
+    ≠ Alexithymia (#2): bố mẹ CÓ THỂ Compiled tốt với người khác
     ≠ Dehumanization (#3): bố mẹ KHÔNG dehumanize con
     ≠ Schema suppress hostile (#5): schema KHÔNG hostile — schema BENEVOLENT
       → Schema nói "phải tốt cho con" — KHÔNG nói "con = kẻ thù"
       → = "Benevolent schema suppress" — khó phát hiện VÌ intention tốt
 
-    ⭐ ĐẶC TRƯNG: L2 MẠNH + F1 YẾU + SCHEMA BENEVOLENT
+    ⭐ ĐẶC TRƯNG: L2 MẠNH + Compiled YẾU + SCHEMA BENEVOLENT
       → = Case DUY NHẤT mà drive TÍCH CỰC (L2 genuine love)
           DẪN TỚI output TIÊU CỰC cho target (con bị kìm kẹp)
       → = "Đường tới địa ngục lát bằng thiện ý" — framework version
@@ -2256,32 +2256,32 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ GENERATIONAL TRANSMISSION — TẠI SAO KÉO DÀI:
 
-    Ông bà: L2 strong + F1 weak → chăm bố mẹ kiểu "object optimize"
+    Ông bà: L2 strong + Compiled weak → chăm bố mẹ kiểu "object optimize"
       ↓
     Bố mẹ: self-chunks cho "bị yêu nhưng không được hiểu" = THIN
-      → F1 templates cho "hiểu con" = KÉM (chưa từng được hiểu)
+      → Compiled templates cho "hiểu con" = KÉM (chưa từng được hiểu)
       → NHƯNG L2 compile bình thường (vì vẫn nhận CARE đầy đủ)
       ↓
     Bố mẹ chăm con: L2 strong (compile từ care nhận được)
-                     + F1 weak (thiếu template từ understanding KHÔNG nhận được)
+                     + Compiled weak (thiếu template từ understanding KHÔNG nhận được)
       ↓
-    Con: lại nhận L2 nhưng thiếu F1 → cycle tiếp tục
+    Con: lại nhận L2 nhưng thiếu Compiled → cycle tiếp tục
 
     → = L2 TRUYỀN được (vì care = observable, learnable)
-    → = F1 KHUYẾT hao (vì understanding = phải được TRẢI NGHIỆM mới build template)
-    → = Mỗi thế hệ có L2 nhưng F1 KHÔNG TỰ CẢI THIỆN nếu không có intervention
+    → = Compiled KHUYẾT hao (vì understanding = phải được TRẢI NGHIỆM mới build template)
+    → = Mỗi thế hệ có L2 nhưng Compiled KHÔNG TỰ CẢI THIỆN nếu không có intervention
 
     BREAK CYCLE:
       → Bố mẹ tự build self-chunks (therapy, mindfulness, Focusing)
-      → Bố mẹ PRACTICE F1 on con: "con đang feel gì?" — genuinely simulate
-      → Con nhận được F1 → build template → CÓ THỂ F1 on con CỦA MÌNH
+      → Bố mẹ PRACTICE Compiled on con: "con đang feel gì?" — genuinely simulate
+      → Con nhận được Compiled → build template → CÓ THỂ Compiled on con CỦA MÌNH
       → = 1 thế hệ break = change trajectory cho tất cả thế hệ sau
 
 
-  🟡 L2 strong + F1 weak = framework synthesis
+  🟡 L2 strong + Compiled weak = framework synthesis
   🟡 Generational transmission qua chunk gap = logically derived
   🟢 Parenting style research (Baumrind 1966): authoritarian = high demand + low responsiveness
-     → consistent with L2 strong (demand) + F1 weak (low responsiveness)
+     → consistent with L2 strong (demand) + Compiled weak (low responsiveness)
   🟢 Attachment theory (Bowlby 1969): insecure attachment từ non-contingent caregiving
   🟢 "Good enough mother" (Winnicott 1953): KHÔNG CẦN perfect — cần CONTINGENT
 ```
@@ -2291,7 +2291,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ PFC = LAWYER, NOT JUDGE — ÁP DỤNG CHO EMPATHY:
 
-  (Inter-Body-Mechanism.md §7, SPM v3.1 §3.7)
+  (Inter-Body-Mechanism.md §7, Self-Pattern-Modeling v3.1 §3.7)
 
   PFC KHÔNG phải trọng tài trung lập — PFC là LUẬT SƯ cho body-need.
   Body-need fire TRƯỚC → PFC xây narrative SAU → CONVINCINGLY.
@@ -2299,15 +2299,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   3 CÁCH PFC=LAWYER ẢNH HƯỞNG EMPATHY:
 
     ① PFC FABRICATE empathy (virtue signaling):
-      → Body KHÔNG fire empathy thật (F1 yếu hoặc không fire)
+      → Body KHÔNG fire empathy thật (Compiled yếu hoặc không fire)
       → NHƯNG PFC report: "tôi đồng cảm với bạn", "tôi hiểu bạn đau"
       → Motivation: status drive ("người tốt"), social expectation, schema "phải caring"
       → Detection: verbal empathy + body QUIET = PFC=Lawyer
-      → ≠ Dehumanization (§8.4 ③): dehumanize = ❸ extreme negative TẮT F1
-        PFC=Lawyer = F1 không fire nhưng PFC CLAIM có
+      → ≠ Dehumanization (§8.4 ③): dehumanize = ❸ extreme negative TẮT Compiled
+        PFC=Lawyer = Compiled không fire nhưng PFC CLAIM có
 
     ② PFC SUPPRESS genuine empathy:
-      → Body fire empathy THẬT (F1 active, body respond)
+      → Body fire empathy THẬT (Compiled active, body respond)
       → NHƯNG PFC override: "không nên thương kẻ thù", "phải cứng rắn"
       → Schema + PFC = SUPPRESS body signal → empathy bị "tắt" ở conscious level
       → Body VẪN fire (cortisol, tension) — chỉ PFC không acknowledge
@@ -2315,7 +2315,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Ví dụ: sĩ quan phải phạt binh sĩ, bác sĩ phải cho tin xấu
 
     ③ PFC AMPLIFY empathy narrative:
-      → Body fire empathy nhẹ (F1 moderate)
+      → Body fire empathy nhẹ (Compiled moderate)
       → PFC amplify: "tôi CỰC KỲ đồng cảm", "tôi CHẾT VÌ thương"
       → PFC narrative MẠNH HƠN body signal thật → mismatch
       → → Drive hành vi VƯỢT QUÁ body-base capacity → burnout risk
@@ -2352,16 +2352,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = Hardware subsidy COUNTERS: mẹ→con = slow M2, bạn = fast M2
 
   M3 — PREDICTION COMPLETION:
-    = F1 predict ĐÚNG 100% → prediction-delta = 0 → no reward
+    = Compiled predict ĐÚNG 100% → prediction-delta = 0 → no reward
     = "Biết chính xác bạn sẽ nói gì → empathy fire nhưng no surprise"
     = Rate → 0 = passion → 0 (nhưng accuracy → max)
 
-  M4 — EC SATURATION (diminishing returns):
-    = EC spokes full → new spokes add LESS → marginal reward ↓
-    = "20 năm, biết hết rồi" = EC saturated
+  M4 — Entity-Compiled SATURATION (diminishing returns):
+    = Entity-Compiled spokes full → new spokes add LESS → marginal reward ↓
+    = "20 năm, biết hết rồi" = Entity-Compiled saturated
 
-  ⭐ ANTI-COMPILED-SUPPRESS = SOLUTION (BA v1.0 §5):
-    SPM deep → know partner has OWN gaps → support → partner maintains drive RIÊNG
+  ⭐ ANTI-COMPILED-SUPPRESS = SOLUTION (Bond-Architecture v1.0 §5):
+    Self-Pattern-Modeling deep → know partner has OWN gaps → support → partner maintains drive RIÊNG
     → NEW by-products → resonance sustained
     → "Khác nhau là giá trị" = anti-M1
     → 🟢 Schnarch: passion lâu dài CẦN differentiation
@@ -2383,8 +2383,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   (Resonance-Sustainability.md v1.0, Connection.md v5.0 §4.6)
 
   TẦNG 1 — FOUNDATION (3 conditions):
-    ① Proximity: physical/regular contact → F1 CAN fire
-    ② Duration: 40→200h → EC formation → empathy DEPTH grows
+    ① Proximity: physical/regular contact → Compiled CAN fire
+    ② Duration: 40→200h → Entity-Compiled formation → empathy DEPTH grows
     ③ Agent-mode: predict entity STATE, not just output
     → = Minimum requirements cho empathy to DEVELOP
 
@@ -2401,7 +2401,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TẦNG 3 — AMPLIFICATION:
     Capitalization (share positive → amplify)
     PPR (Perceived Partner Responsiveness — Reis & Shaver 1988):
-      ① UNDERSTOOD ("bạn hiểu tôi") = SPM accuracy
+      ① UNDERSTOOD ("bạn hiểu tôi") = Self-Pattern-Modeling accuracy
       ② VALIDATED ("bạn chấp nhận tôi") = gap direction acceptance
       ③ CARED FOR ("bạn quan tâm tôi") = resource investment
     Secure Base (Feeney 2004):
@@ -2427,15 +2427,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   DEFINITION:
     = Inferring another's emotions/thoughts WITHOUT explicit communication
     = NOT a fixed trait — context-dependent + motivation-dependent
-    = SPM F1 accuracy = f(chunk library overlap × compilation quality × freshness)
+    = Self-Pattern-Modeling Compiled accuracy = f(chunk library overlap × compilation quality × freshness)
 
-  SPM ACCURACY SPECTRUM:
-    F1 Compiled (fast, pattern-based): high accuracy cho compiled contexts
-    F2 Fresh (slow, effortful): lower accuracy nhưng adaptive to NEW contexts
-    STALE F1 = empathic FAILURE:
-      → F1 compiled từ 5 năm trước → entity ĐÃ THAY ĐỔI → F1 predict SAI
+  Self-Pattern-Modeling ACCURACY SPECTRUM:
+    Compiled (fast, pattern-based): high accuracy cho compiled contexts
+    Fresh (slow, effortful): lower accuracy nhưng adaptive to NEW contexts
+    STALE Compiled = empathic FAILURE:
+      → Compiled từ 5 năm trước → entity ĐÃ THAY ĐỔI → Compiled predict SAI
       → "Tưởng hiểu mà hóa ra không hiểu nữa" = stale compilation
-      → = SPM Failure Mode 1 (Bond-Architecture.md v1.0 §2.2)
+      → = Self-Pattern-Modeling Failure Mode 1 (Bond-Architecture.md v1.0 §2.2)
 
   ⭐ MOTIVATED INACCURACY (deliberate empathic blindness):
 
@@ -2468,9 +2468,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Alexithymia/habituation = BLIND to own signal → Layer 1 fails
 
   LAYER 2 — ENGINE SIMULATION ("Entity sẽ experience gì?"):
-    → F1 Agent-mode: model entity's ACTUAL state
-    → F1 Tool-mode: predict entity's BEHAVIOR only → empathy ABSENT
-    → SPM depth ≠ SPM effort: helicopter parent = HIGH effort + LOW depth (Tool-mode)
+    → Compiled Agent-mode: model entity's ACTUAL state
+    → Compiled Tool-mode: predict entity's BEHAVIOR only → empathy ABSENT
+    → Self-Pattern-Modeling depth ≠ Self-Pattern-Modeling effort: helicopter parent = HIGH effort + LOW depth (Tool-mode)
 
   LAYER 3 — FEEDBACK INTEGRATION (entity responds → adjust):
     → Entity response → prediction-delta → recalibrate empathy model
@@ -2479,7 +2479,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   5 FAILURE MODES:
     ① BLIND: cannot detect own gap source (low interoception)
-    ② TOOL-MODE: F1 Tool → cannot model entity state → predict only
+    ② TOOL-MODE: Compiled Tool → cannot model entity state → predict only
     ③ OVERRIDE: compiled pattern fires → feedback NOT integrated
     ④ DEPLETED: PFC budget gone → all 3 layers DROP → auto-pilot
        🟢 Mikolajczak 2019: burnout → calibration fail
@@ -2501,8 +2501,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   EMPATHY = CẦN BODY + CHUNKS TÍCH LŨY TỪ TRẢI NGHIỆM THẬT:
 
-    Cơ chế con người (SPM v3.1 §2.1, F1):
-      → SPM F1 fire → kích hoạt lại chunks buồn/vui CỦA MÌNH
+    Cơ chế con người (Self-Pattern-Modeling v3.1 §2.1, Compiled):
+      → Self-Pattern-Modeling Compiled fire → kích hoạt lại chunks buồn/vui CỦA MÌNH
       → Chunks đã compiled từ trải nghiệm THẬT (đã từng buồn, đã từng vui)
       → Body respond THẬT: opioid / cortisol / NE / oxytocin
       → + L2 structural nếu agent = body-base extension
@@ -2510,7 +2510,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     AI KHÔNG CÓ bước nào trong chain này:
       → AI không có body → không có somatic/emotional chunks
-      → AI không có F1 firing → không có body response
+      → AI không có Compiled firing → không có body response
       → AI có thể SIMULATE empathy output:
         predict "người này buồn" → "nên an ủi" → output ĐÚNG pattern
       → Nhưng AI KHÔNG kích hoạt chunks buồn CỦA MÌNH (vì KHÔNG CÓ)
@@ -2526,7 +2526,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Verbal chunks        │ CÓ (language)        │ CÓ (training data)   │
     │ Somatic chunks       │ CÓ (body experience) │ KHÔNG CÓ             │
     │ Emotional chunks     │ CÓ (đã từng feel)   │ KHÔNG CÓ             │
-    │ F1 body response khi │ CÓ — chunks fire     │ KHÔNG CÓ             │
+    │ Compiled body response khi │ CÓ — chunks fire     │ KHÔNG CÓ             │
     │ empathize            │ → body respond THẬT  │ → chỉ output text    │
     │ L1 reward/cost       │ CÓ — biochemistry    │ KHÔNG CÓ             │
     │ L2 structural        │ CÓ — body-base ext   │ KHÔNG CÓ             │
@@ -2536,8 +2536,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = "Đọc triệu cuốn sách về bơi ≠ biết bơi"
 
   HỆ QUẢ:
-    → AI excellent ở F2 (deliberate predict): analyze, predict, suggest
-    → AI THIẾU F1 (body simulate): feel, drive, co-regulate
+    → AI excellent ở Fresh (deliberate predict): analyze, predict, suggest
+    → AI THIẾU Compiled (body simulate): feel, drive, co-regulate
     → Presence CỦA AI ≠ presence CỦA NGƯỜI:
       2 người ở gần → ❶ Hardware: body CẢ HAI fire input từ NHAU
       AI ở gần → KHÔNG có ❶ body loop → KHÔNG co-regulate
@@ -2595,9 +2595,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   FRAMEWORK SUY LUẬN (🟡):
 
-    🟡 "Empathy = observable output khi SPM F1 + ❸ positive"
+    🟡 "Empathy = observable output khi Self-Pattern-Modeling Compiled + ❸ positive"
        — v2.0 reframe: phân biệt empathy / Schadenfreude / dehumanization
-         bằng ❸ valence, cùng SPM mechanism. Consistent with Bird & Cook.
+         bằng ❸ valence, cùng Self-Pattern-Modeling mechanism. Consistent with Bird & Cook.
     🟡 "3 mechanisms decomposition"
        — Each mechanism has evidence riêng. Taxonomy 3 = framework.
     🟡 "4-factor strength model (living × vulnerability × expressiveness × similarity)"
@@ -2616,18 +2616,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟡 "Mirror = learned vì agent = phi logic"
        — Heyes debate = real. Framework adds WHY learned = novel claim.
     🟡 "Double empathy = universal, not autism-specific" (§11.5 v2.2)
-       — Extends Milton 2012. SPM accuracy = f(chunk library overlap) applies
+       — Extends Milton 2012. Self-Pattern-Modeling accuracy = f(chunk library overlap) applies
          to introvert↔extrovert, rational↔emotional, expert↔novice, cross-cultural.
          Autism = extreme case (hardware-level divergence), same mechanism.
-    🟡 "F1-Resonance vs F2-Resonance quality" (§11.5 v2.2)
-       — F1+F1 = deep empathy, F2 alone = "biết nhưng không cảm."
-         Masking = chronic F2 compensation. By-Product-Gap-Resonance.md v1.4 §7.10.
-    🟡 "Architecture B explains empathy as general-purpose output" (§1.1 v3.0)
+    🟡 "Compiled-Resonance vs Fresh-Resonance quality" (§11.5 v2.2)
+       — Compiled+Compiled = deep empathy, Fresh alone = "biết nhưng không cảm."
+         Masking = chronic Fresh compensation. By-Product-Gap-Resonance.md v1.4 §7.10.
+    🟡 "Compilable Architecture explains empathy as general-purpose output" (§1.1 v3.0)
        — Empathy emerge từ CÙNG reward system, not specialized module.
-         Consistent with trainability (Lutz 2008) + SPM general-purpose.
-    🟡 "2-Stream empathy: Stream 1 habituates, Stream 2 deepens" (§4.5 v3.0)
+         Consistent with trainability (Lutz 2008) + Self-Pattern-Modeling general-purpose.
+    🟡 "2-Stream empathy: Hardware-Stream habituates, Modeling-Stream deepens" (§4.5 v3.0)
        — Maps 3-mechanism onto Resonance 2-Stream model.
-         Stream 1 ≈ Pattern Matching, Stream 2 ≈ Agent Modeling mutual.
+         Hardware-Stream ≈ Pattern Matching, Modeling-Stream ≈ Agent Modeling mutual.
     🟡 "By-product match triggers empathy" (§1.1 v3.0)
        — B fills own gap → by-product → match A's template → A empathy fire.
          Empathy typically fire từ by-product, NOT intentional targeting.
@@ -2643,36 +2643,36 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     v4.0 NEW 🟡:
 
-    🟡 "PFC budget × empathy: F2 empathy competes with all PFC activities" (§4.1 v4.0)
+    🟡 "PFC budget × empathy: Fresh empathy competes with all PFC activities" (§4.1 v4.0)
        — Consistent with cognitive load research. PFC budget concept = PFC-Operations.
     🟡 "Compiled Quality × empathy: genuine/schema/threat → burnout prediction" (§4.1 v4.0)
        — 3 quality types determine trajectory. Framework-specific taxonomy.
     🟡 "Burnout = compiled suppress (M1) + PFC depletion" (§8.2 v4.0)
        — Reframe from "too much empathy." Consistent with vmPFC research (McEwen 2007).
     🟡 "Hardware Subsidy × empathy persistence per entity" (§4.6 v4.0)
-       — Subsidy modulates habituation rate. Framework synthesis from VP v3.0.
+       — Subsidy modulates habituation rate. Framework synthesis from Valence-Propagation v3.0.
     🟡 "Per-entity empathy profiles: Mẹ/Bạn/Romantic/Professional differ" (§4.7 v4.0)
-       — Profiles synthesized from 3-Tầng model (RPE v1.0). Framework-specific mapping.
+       — Profiles synthesized from 3-Tầng model (Resonance-Per-Entity v1.0). Framework-specific mapping.
     🟡 "3 Satiation Types × empathy: Cyclic/Tonic/Generative" (§4.8 v4.0)
-       — Applied from VP v3.0 satiation model. Framework synthesis.
-    🟡 "Compilation Chain × empathy: F2→F1→Baseline→Dynamics" (§4.9 v4.0)
-       — 4-stage model from RPE v1.0. Framework synthesis.
+       — Applied from Valence-Propagation v3.0 satiation model. Framework synthesis.
+    🟡 "Compilation Chain × empathy: Fresh→Compiled→Baseline→Dynamics" (§4.9 v4.0)
+       — 4-stage model from Resonance-Per-Entity v1.0. Framework synthesis.
     🟡 "Entity-Access gradient × empathy ceiling: Mức 0-5" (§5.2 v4.0)
-       — Gradient applied from EA v1.2. Tool-mode = F1 OFF. Framework synthesis.
+       — Gradient applied from Entity-Access v1.2. Tool-mode = Compiled OFF. Framework synthesis.
     🟡 "M1-M4 Resonance Decline × empathy per bond type" (§8.7 v4.0)
-       — 4 decline mechanisms from BA v1.0. Per-bond risk mapping = framework.
+       — 4 decline mechanisms from Bond-Architecture v1.0. Per-bond risk mapping = framework.
     🟡 "4-Layer Sustainability × empathy" (§8.8 v4.0)
-       — 4-layer model from RS v1.0. Applied to empathy = framework synthesis.
+       — 4-layer model from Resonance-Sustainability v1.0. Applied to empathy = framework synthesis.
     🟡 "Motivated inaccuracy: deliberate empathic blindness" (§8.9 v4.0)
-       — Consistent with relationship research. Applied from RS v1.0 §12.
+       — Consistent with relationship research. Applied from Resonance-Sustainability v1.0 §12.
     🟡 "3-Layer Calibration Architecture" (§8.10 v4.0)
-       — Body signal / engine sim / feedback. Applied from EAC v1.0.
+       — Body signal / engine sim / feedback. Applied from Entity-Access-Calibration v1.0.
     🟡 "Structural vs Current empathy" (§1.1 v4.0)
-       — Applied from VP v3.0 structural/current distinction. Framework synthesis.
+       — Applied from Valence-Propagation v3.0 structural/current distinction. Framework synthesis.
     🟡 "3 Firing Modes × empathy" (§4.2 v4.0)
-       — Maintenance/Chunk-miss/Context-trigger from VP v3.0. Framework synthesis.
+       — Maintenance/Chunk-miss/Context-trigger from Valence-Propagation v3.0. Framework synthesis.
     🟡 "Exit cost × calibration paradox" (§5.2 v4.0)
-       — Strongest bond = hardest to calibrate. Applied from EA v1.2 §8.3.
+       — Strongest bond = hardest to calibrate. Applied from Entity-Access v1.2 §8.3.
 
 
   HYPOTHESIS (🔴):
@@ -2694,12 +2694,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 → Self-Pattern-Modeling.md v3.1 — APPLICATION 1 on Simulation Engine.
-   F1 Compiled/F2 Fresh, context-dependent, failure modes, professional SPM.
-   §2 F1=Luồng 1, §2.5 valence gate, §4 context-dependent selection,
+   Compiled/Fresh, context-dependent, failure modes, professional Self-Pattern-Modeling.
+   §2 Compiled=Luồng 1, §2.5 valence gate, §4 context-dependent selection,
    §10 reversed mapping, §10.4 moral injury, §12 alexithymia.
 → By-Product-Gap-Resonance.md v1.4 — 2-Stream Architecture.
-   Stream 1 (hardware, habituates) + Stream 2 (SPM mutual, deepens).
-   §7.10 F1/F2 resonance quality + divergence spectrum.
+   Hardware-Stream (hardware, habituates) + Modeling-Stream (Self-Pattern-Modeling mutual, deepens).
+   §7.10 Compiled/Fresh resonance quality + divergence spectrum.
 → Bond-Architecture.md v1.0 — M1-M4 Resonance Decline (v4.0 NEW).
    M1 compiled suppress × empathy decline. Gap clone impossible.
    Anti-compiled-suppress = solution. Per-bond risk mapping.
@@ -2707,7 +2707,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
    PPR (Reis & Shaver 1988). Secure Base (Feeney 2004). Motivated inaccuracy.
    4 silence types × empathy. Ogolsky decline trajectory.
 → Resonance-Per-Entity.md v1.0 — 3-Tầng per-entity model (v4.0 NEW).
-   Compilation Chain (F2→F1→Baseline→Dynamics). Hardware Subsidy spectrum.
+   Compilation Chain (Fresh→Compiled→Baseline→Dynamics). Hardware Subsidy spectrum.
    Per-entity profiles (mẹ/bạn/romantic/professional). Phantom 4-factor.
 → Entity-Compiled.md v1.0 — hub-and-spoke (v4.0 NEW).
    Formation 40→200h. Dunbar layers. Grief A+B+C.
@@ -2728,7 +2728,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
    §5 Compiled Quality (genuine/schema/threat). §8 Compiled suppress → helplessness.
    §9 PFC budget × parent-child = highest cost.
 → Simulation-Engine.md v1.0 — 1 engine × 3 components × 3 axes (v4.0 NEW).
-   SPM = Application 1. PFC budget shared across engine applications.
+   Self-Pattern-Modeling = Application 1. PFC budget shared across engine applications.
 → PFC-Label.md v1.0 — vocabulary standard (v4.0 NEW).
 ```
 
@@ -2740,12 +2740,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
    per-entity dynamics, phantom 4-factor, "xa mẹ mới biết thương."
 → Gap-Body-Need.md v1.0 — 3 satiation types (source), ENGINE/ROAD/VEHICLE (v4.0 NEW).
 → Chunk.md v2.0 — substrate nền tảng. Empathy = function ON chunk substrate.
-→ Feeling.md v3.0 — PFC observation interface. F1 output → PFC observe as feeling.
+→ Feeling.md v3.0 — PFC observation interface. Compiled output → PFC observe as feeling.
 → Body-Coupling.md v2.0 — coupling depth × direction. HOW L2 compile.
 → Cortisol-Baseline.md v2.0 — stress cascade. Baseline drift. Recovery asymmetry.
-→ Body-Feedback-Mechanism.md v2.0 — Body-Need 2-source. 3 nguồn khó chịu thật.
+→ Body-Feedback-Mechanism.md v2.0 — Body-Need 2-source. 3 Genuine Discomfort Sources.
 → Body-Feedback-Label.md v2.0 — framework vocabulary reference.
-→ Inter-Body-Mechanism.md v1.0 — Architecture B, 5-Channel, 3-Layer Evolution.
+→ Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 5-Channel, 3-Layer Evolution.
 → Threat.md — NE cascade, PFC disconnect.
 → Connection.md v5.0 — 3 Generative Primitives (❶ × ❷ × ❸).
    M1-M4, 4-Layer Sustainability, Phantom. Connection ⊃ Empathy.
@@ -2763,7 +2763,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 → 07-Social-Recognition-Arc (Child-Chunk-Development/) — developmental events.
 ```
 
-### §11.5 — Health Conditions Drill + F1/F2 Resonance Quality (v2.2)
+### §11.5 — Health Conditions Drill + Compiled/Fresh Resonance Quality (v2.2)
 
 ```
   DOUBLE EMPATHY = UNIVERSAL MECHANISM (not autism-specific):
@@ -2771,34 +2771,34 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Milton 2012: communication breakdown BIDIRECTIONAL — not one-sided deficit
     🟢 Crompton 2020/2025: autistic↔autistic = SAME quality as NT↔NT
        Mixed chains = DEGRADED → problem at INTERFACE, not in either group
-    → Non-autistic people ALSO fail SPM when modeling autistic people
+    → Non-autistic people ALSO fail Self-Pattern-Modeling when modeling autistic people
 
     CORE EQUATION:
-      SPM accuracy = f(chunk library overlap giữa 2 agents)
-      → Overlap CAO → F1 simulate ĐÚNG → body confirm → "hiểu"
-      → Overlap THẤP → F1 sai, chỉ F2 predict → "biết nhưng không cảm"
-      → Overlap ZERO → cả F1 lẫn F2 fail → "không hiểu nổi"
+      Self-Pattern-Modeling accuracy = f(chunk library overlap giữa 2 agents)
+      → Overlap CAO → Compiled simulate ĐÚNG → body confirm → "hiểu"
+      → Overlap THẤP → Compiled sai, chỉ Fresh predict → "biết nhưng không cảm"
+      → Overlap ZERO → cả Compiled lẫn Fresh fail → "không hiểu nổi"
 
     UNIVERSAL — không riêng autism:
-      → Trầm tính ↔ phóng khoáng: F1 mismatch ở social domain
-      → Lý trí ↔ cảm xúc: F1 simulate sai cường độ
-      → Expert ↔ novice: cả F1 lẫn F2 mismatch ở domain expertise
+      → Trầm tính ↔ phóng khoáng: Compiled mismatch ở social domain
+      → Lý trí ↔ cảm xúc: Compiled simulate sai cường độ
+      → Expert ↔ novice: cả Compiled lẫn Fresh mismatch ở domain expertise
       → Autism × NT = case RÕ NHẤT (hardware-level, cross-domain)
          nhưng CƠ CHẾ y hệt — chỉ magnitude khác
 
-    F1-RESONANCE vs F2-RESONANCE → By-Product-Gap-Resonance.md §7.10:
-      F1+F1 = deepest (hợp tính), F1+F2 = functional, F2+F2 = transactional
-      Empathy = chủ yếu F1-Resonance — body fire bản sao yếu state target
-      F2 alone = "biết người khác đau" nhưng body KHÔNG fire → predict được
+    Compiled-RESONANCE vs Fresh-RESONANCE → By-Product-Gap-Resonance.md §7.10:
+      Compiled+Compiled = deepest (hợp tính), Compiled+Fresh = functional, Fresh+Fresh = transactional
+      Empathy = chủ yếu Compiled-Resonance — body fire bản sao yếu state target
+      Fresh alone = "biết người khác đau" nhưng body KHÔNG fire → predict được
         nhưng không empathize
 
-    MASKING = chronic F2 compensation:
-      F1 không match (hardware khác) → dùng F2 bù → functional nhưng
+    MASKING = chronic Fresh compensation:
+      Compiled không match (hardware khác) → dùng Fresh bù → functional nhưng
       PFC drain + cortisol chronic → cùng mechanism §7.9 obligation-trapped
 
   Cross-refs:
-    → By-Product-Gap-Resonance.md v1.4 §7.10 (F1/F2 resonance quality + divergence spectrum)
-    → Autism-Observation.md v1.0 §4-§5 (F1/F2 balance, double empathy, masking)
+    → By-Product-Gap-Resonance.md v1.4 §7.10 (Compiled/Fresh resonance quality + divergence spectrum)
+    → Autism-Observation.md v1.0 §4-§5 (Compiled/Fresh balance, double empathy, masking)
     → PTSD-Analysis.md v1.0 §12 (PTSD self-medication = connection seeking)
 ```
 
@@ -2822,25 +2822,25 @@ STATUS: v4.0 COMPLETE — OBSERVATION PARAMETER FILE (PHASE C2 REWRITE)
   Rewritten 2026-05-22 (Phase C2 in 28-session Drill → Framework Propagation Plan).
   Integrates ALL Phase A (4 files) + Phase B (5 files) + Phase T (8 files) + C1.
 
-  Empathy = observable output khi SPM F1 + ❸ positive valence.
+  Empathy = observable output khi Self-Pattern-Modeling Compiled + ❸ positive valence.
   Connection ⊃ Empathy (mechanism ⊃ observation).
-  2-luồng organic: L1 SPM-owned + L2 Entity-Compiled xuyên suốt.
-  SPM = Application 1 of Simulation Engine (PFC budget shared).
+  2-luồng organic: L1 Self-Pattern-Modeling-owned + L2 Entity-Compiled xuyên suốt.
+  Self-Pattern-Modeling = Application 1 of Simulation Engine (PFC budget shared).
   ~25 dependencies (was 15). ~35+ research citations (was 20+). ~15 🟡 items new.
 
   CHANGES v3.0 → v4.0 (2026-05-22 — REWRITE):
-    1. +§0: Simulation Engine context (SPM = App 1), PFC budget preview,
+    1. +§0: Simulation Engine context (Self-Pattern-Modeling = App 1), PFC budget preview,
        Entity-Access gradient Mức 0-5 × empathy table, expanded reference table
-    2. +§1.1: Structural vs Current empathy (VP v3.0 §3), PFC budget factors,
+    2. +§1.1: Structural vs Current empathy (Valence-Propagation v3.0 §3), PFC budget factors,
        Entity-Access level, Hardware Subsidy as intensity factors
     3. +§1.4: explanation #7 — hw subsidy × empathy persistence
     4. +§2.1: Compilation Chain mapping onto 3 mechanisms
     5. +§3.1: Entity-Compiled formation context (hub-and-spoke, 40→200h)
     6. +§4.1: PFC budget × empathy (parent-child = highest cost),
        Compiled Quality × empathy (genuine/schema/threat → burnout)
-    7. +§4.2: 3 Firing Modes × empathy (Mode 1/2/3 from VP v3.0)
+    7. +§4.2: 3 Firing Modes × empathy (Mode 1/2/3 from Valence-Propagation v3.0)
     8. +§4.6 NEW: Hardware Subsidy × Empathy persistence (MAX→NONE table)
-    9. +§4.7 NEW: Per-entity empathy profiles (5 types, RPE v1.0)
+    9. +§4.7 NEW: Per-entity empathy profiles (5 types, Resonance-Per-Entity v1.0)
     10. +§4.8 NEW: 3 Satiation Types × Empathy (Cyclic/Tonic/Generative)
     11. +§4.9 NEW: Compilation Chain × Empathy (4 stages)
     12. +§5.2: Entity-Access gradient × empathy ceiling + exit cost paradox
@@ -2853,18 +2853,18 @@ STATUS: v4.0 COMPLETE — OBSERVATION PARAMETER FILE (PHASE C2 REWRITE)
     18. +§8.10 NEW: 3-Layer Calibration Architecture (5 failure modes)
     19. §10: +15 new 🟡 items for v4.0 concepts
     20. §11: RESTRUCTURED — 4 categories (Agent-Mech, PFC, Body-Base+Obs, Application)
-    21. SPM v3.0 → v3.1 (Match → Modeling), all dependency versions updated
-    22. +13 new dependencies (PFC-Ops, Sim-Engine, EC, EA, EAC, BA, RS, RPE, BS, GBN,
-        PFC-Label, Body-Coupling, BFL)
-    23. Connection v4.0 → v5.0, VP v2.0 → v3.0, BPGR v1.0 → v1.4
+    21. Self-Pattern-Modeling v3.0 → v3.1 (Match → Modeling), all dependency versions updated
+    22. +13 new dependencies (PFC-Operations, Sim-Engine, Entity-Compiled, Entity-Access, Entity-Access-Calibration, Bond-Architecture, Resonance-Sustainability, Resonance-Per-Entity, By-Product-Scale, Gap-Body-Need,
+        PFC-Label, Body-Coupling, Body-Feedback-Label)
+    23. Connection v4.0 → v5.0, Valence-Propagation v2.0 → v3.0, By-Product-Gap-Resonance v1.0 → v1.4
 
   PRESERVED FROM v3.0:
     - Core: 3 mechanisms, developmental bootstrap, biochemistry cascade, 2-luồng
-    - Architecture B, 2-Stream, by-product match, PFC=Lawyer, Domain=Arbiter
+    - Compilable Architecture, 2-Stream, by-product match, PFC=Lawyer, Domain=Arbiter
     - Bird & Cook 2013 decisive evidence
     - 4 strength factors × 4 quality axes
     - 7 original failure modes + spectrum + evolutionary function
-    - L2 strong + F1 weak parent case (§8.5)
+    - L2 strong + Compiled weak parent case (§8.5)
     - Double empathy universal (§11.5)
     - AI era significance
     - ALL 20+ original research citations

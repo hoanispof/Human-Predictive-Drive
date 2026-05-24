@@ -236,7 +236,7 @@ Domain-Knowledge-Map.md v1.0 = BẢN ĐỒ DOMAIN (WHAT)
   → = FUEL — "nhóm kiến thức nào cần per era"
 
 Observation/Empathy-Education.md v2.0 = Empathy per age
-  → SPM-based (Agent-Mechanism.md), per-age development guide
+  → Self-Pattern-Modeling-based (Agent-Mechanism.md), per-age development guide
   → Social/Emotional domain application
 
 Observation/Education-Arms-Race.md v1.2 = Competition dynamics
@@ -268,8 +268,8 @@ CORE-DEEP-DIVE/ (TẦNG 1) — BRAIN MECHANISMS:
     Cortisol-Baseline.md v2.0 — amplifier reframe, 5 Roles, direction > level
     Imagine-Final.md — purpose engine, lifecycle 5 phases
     Body-Feedback-Mechanism.md v1.2 — 2 sources × 3 dynamics
-    Reward-Signal-Architecture.md v1.0 — Type A (evaluative) / B (hardware-direct)
-    Agent-Mechanism.md v1.0 — SPM F1/F2, social processing
+    Reward-Signal-Architecture.md v1.0 — Evaluative / Direct-State
+    Agent-Mechanism.md v1.0 — Self-Pattern-Modeling Compiled/Fresh, social processing
     PFC-Hardware.md v1.1 — DRD4, COMT, individual parameters
     PFC-Configuration.md v1.0 — 6 dynamic modes
     Modality.md v1.0 — 6 encoding channels
@@ -356,7 +356,7 @@ RESTRUCTURE HISTORY:
     → Re-based: "10 NL" → Education-Mechanism v1.0 (8 nguyên lý)
     → Re-based: Core-v7.5 → 3 Core Maps
     → Re-based: Education-Bridge → Mechanism §3
-    → Added: v7.8 concepts (Type A/B, approach/avoidance, SPM F1,
+    → Added: v7.8 concepts (Evaluative/Direct-State, approach/avoidance, Self-Pattern-Modeling Compiled,
              chunk compilation levels, 4 nguồn fill, 3 ORIGIN)
     → All cross-refs → current file paths
     → v1.0 → backup/v1.0/

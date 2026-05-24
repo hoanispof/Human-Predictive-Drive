@@ -3,14 +3,14 @@ title: Feeling — Hệ Thống Phản Hồi Unified của Body-Base
 version: 3.0
 created: 2026-04-13 (v1.0 DRAFT)
 rewritten: 2026-04-17 (v2.0 — viết mới hoàn toàn)
-updated: 2026-05-17 (v3.0 — Inter-Body drill integration: PFC=Lawyer, Compiled/Fresh×7-Layer, Architecture B, Body-Need 2-source, Domain=Arbiter formal, 3-cost connection)
+updated: 2026-05-17 (v3.0 — Inter-Body drill integration: PFC=Lawyer, Compiled/Fresh×7-Layer, Compilable Architecture, Body-Need 2-source, Domain=Arbiter formal, 3-cost connection)
 status: v3.0 — REFERENCE FILE
 scope: |
   WHAT feeling IS + HOW feeling WORKS + HOW to IMPROVE feeling + BRIDGE to chunk system.
   Tổng hợp: Feeling.md v1 (7-layer) + Feeling-Mechanism-Deep (8-step flow, reward, gradient, quality)
   + Feeling-Literacy-Training (5-stage, Focusing, AI era) + Feeling-Chunk-Bridge (bidirectional mapping).
   Kết nối với Chunk-Analysis substrate (44+ files, ~48,600L).
-  v3.0: +PFC=Lawyer, +Compiled/Fresh reframe, +Architecture B context, +Body-Need 2-source.
+  v3.0: +PFC=Lawyer, +Compiled/Fresh reframe, +Compilable Architecture context, +Body-Need 2-source.
 purpose: |
   Central reference file cho toàn bộ Feeling system trong framework.
   Thay thế Feeling.md v1.0 DRAFT (2026-04-13, ~1,287L → backup/Feeling-v1-draft.md).
@@ -24,14 +24,14 @@ sources: |
   Feeling-Accuracy.md — accuracy spectrum, error modes, literacy, pain
   Feeling-Research.md — Damasio, Gendlin, Craig, Panksepp, Barrett
   Chunk-Analysis/ 44+ files (~48,600L) — chunk substrate cho feeling mechanism
-  Inter-Body-Mechanism.md v1.0 — PFC=Lawyer, Compiled/Fresh axis, Architecture B, 3-cost
+  Inter-Body-Mechanism.md v1.0 — PFC=Lawyer, Compiled/Fresh axis, Compilable Architecture, 3-cost
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 backup: backup/Feeling-v2.2-backup.md
 dependencies:
   - Body-Feedback-Mechanism.md v2.0 — 2-source model, Body-Need aggregate, chunk dynamics
-  - Reward-Signal-Architecture.md v2.0 — Type A/B, A₀→A₃, 5 Profiles
-  - Inter-Body-Mechanism.md v1.0 — PFC=Lawyer, Compiled/Fresh axis, Architecture B, 3-cost
+  - Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, E₀→E₃, 5 Profiles
+  - Inter-Body-Mechanism.md v1.0 — PFC=Lawyer, Compiled/Fresh axis, Compilable Architecture, 3-cost
   - Body-Feedback-Label.md v2.0 — vocabulary reference
   - Gap-Direction.md v2.0 — gap has direction, by-product match
 ---
@@ -128,20 +128,20 @@ dependencies:
     Chunk.md v2.0        = Chunk SYSTEM (substrate producing feelings)
     Feeling.md (NÀY)     = UNIFIED SYSTEM — WHAT + HOW + TRAINING + BRIDGE
 
-  ARCHITECTURE B CONNECTION (Inter-Body-Mechanism.md §1):
-    Evolution chọn Architecture B cho con người:
+  COMPILABLE ARCHITECTURE CONNECTION (Inter-Body-Mechanism.md §1):
+    Evolution chọn Compilable Architecture cho con người:
       ① General-Purpose Reward — fire cho BẤT KỲ gap fill đúng direction
       ② Compilation — repeat + verify → automatic (Hebbian)
       ③ Social Hardware — oxytocin, μ-opioid, dACC reuse
-    Feeling system = CONSEQUENCE of Architecture B:
+    Feeling system = CONSEQUENCE of Compilable Architecture:
       → General-purpose reward cần GENERAL-PURPOSE feedback system
       → = Feeling system: tín hiệu UNIFIED cho BẤT KỲ body-need nào
-      → Architecture A (insect): specific triggers → specific actions (no feeling needed)
-      → Architecture B (human): general triggers → general evaluation → FEELING = bridge
+      → Hardwired Architecture (insect): specific triggers → specific actions (no feeling needed)
+      → Compilable Architecture (human): general triggers → general evaluation → FEELING = bridge
     Trade-off: 15-20 năm compilation → feeling system phải phát triển THEO
       → Newborn: Layer 1-2 only (raw, undifferentiated)
       → Adult: full 7-layer (compiled, nuanced, domain-specific)
-      → = Feeling literacy = DEVELOPMENTAL product of Architecture B
+      → = Feeling literacy = DEVELOPMENTAL product of Compilable Architecture
 ```
 
 ---
@@ -207,7 +207,7 @@ dependencies:
     ① Body-physical: "đói", "mệt", "đau bụng", "lạnh", "chân tê"
     ② Emotional (narrow sense): "vui", "buồn", "giận", "sợ"
     ③ Social reading: "người kia không tin", "không khí tense"
-    ④ Cognitive/prediction: "bài này đúng", "có gì đó sai", "bế tắc"
+    ④ Cognitive/prediction: "bài này đúng", "có gì đó sai", "stuck"
     ⑤ Predictive/intuition: "có gì đó không ổn", "không nên tin người này"
     ⑥ Valence: "thích cái này", "ghét cái tên", "yêu em"
     ⑦ Schema-triggered: "bình yên khi về nhà", "rùng mình khi nhớ nơi đó"
@@ -227,7 +227,7 @@ dependencies:
 
      Ví dụ "cảm thấy yêu em":
        → L0 safe + L1 relax + L2 novelty-reward + L3 meaning
-       → agent input thỏa mãn + mirror positive + imagine-final tích cực
+       → agent input satisfied + mirror positive + imagine-final tích cực
        → valence compiled positive + schema relationship active
        = 9+ channels convergence → PFC compress → "yêu em" (2 từ)
 
@@ -243,7 +243,7 @@ dependencies:
 
      MAGNITUDE = cường độ signal (body-feedback generate):
        → Cao: đau, sợ, phấn khích → PFC khó bỏ qua
-       → Thấp: lấn cấn nhẹ, vi sai nhỏ → dễ lọt
+       → Thấp: nagging unease nhẹ, vi sai nhỏ → dễ lọt
 
      CLARITY = chunk density cho phép PFC phân biệt signal nói gì:
        → f(chunks tích lũy trong domain + self-signal interoception)
@@ -796,7 +796,7 @@ dependencies:
     Mirror, Schema, Imagine-Final, Valence, Cognitive prediction.
   → = Layer 1 trong 7-layer model.
 
-  ⭐ BODY-NEED = 2-SOURCE AGGREGATE (BFM v2.0, Inter-Body §2):
+  ⭐ BODY-NEED = 2-SOURCE AGGREGATE (Body-Feedback-Mechanism v2.0, Inter-Body §2):
     Source ① Hardware/Sensory-Driven: đói, đau, nóng (pre-chunk possible)
     Source ② Chunk Dynamics/Pattern-Driven: Gap, Miss, Shift (requires compiled chunks)
     → Cùng event kích hoạt CẢ ①+②: social isolation = ① hardware oxytocin deficit
@@ -861,7 +861,7 @@ dependencies:
   LABEL NOT FOUND:
     → Feeling remains VAGUE — PFC knows "something" but cannot name
     → a) DWELL: hold attention → more chunks → convergence sharpens
-       = Gendlin Focusing = SAL applied to feeling
+       = Gendlin Focusing = Somatic-Articulation-Loop applied to feeling
     → b) DISMISS: attention moves → feeling continues influencing below
     → ⚠️ Label CAN BE WRONG: "giận chồng" when = mệt + đói
 ```
@@ -942,7 +942,7 @@ dependencies:
 
   🟢 BERRIDGE EVIDENCE:
     Chuột block dopamine → VẪN thích đường, KHÔNG tìm đường
-    Chuột stimulate dopamine → TÌM nhiều hơn, KHÔNG sướng hơn
+    Chuột stimulate dopamine → TÌM nhiều hơn, KHÔNG pleasant hơn
     → Dopamine (wanting) ≠ Opioid (liking). CHÍNH XÁC.
 ```
 
@@ -956,7 +956,7 @@ dependencies:
   ──→ PFC sends chunk XUỐNG body-base: "simulate → body feel gì?"
   ──→ Chunk KHỚP body-need → OPIOID release → REWARD THẬT
   ──→ Chunk KHÔNG khớp → body "meh" → PFC discards
-  Step ⑥: IF reward → "eureka!" / "đúng rồi!" / "sướng!"
+  Step ⑥: IF reward → "eureka!" / "đúng rồi!" / "pleasant!"
   Step ⑦: body vote SMOOTH → reinforce
   Step ⑧: chunk tagged "valuable" → strengthened
 
@@ -1021,32 +1021,32 @@ dependencies:
     → = "Wanting without liking" (🟢 Berridge) = modern pathology
 ```
 
-### 6.5 Type A/B Dimension + 5 Reward Profiles (v2.1 — Drill R8)
+### 6.5 Evaluative/Direct-State Dimension + 5 Reward Profiles (v2.1 — Drill R8)
 
 ```
 🟡 FEELING SYSTEM OBSERVES CẢ 2 TYPES REWARD (v2.1):
 
   §6.1 mô tả Dopamine (wanting) vs Opioid (liking) = đúng NHƯNG chưa đủ.
-  Drill R1+R4+R8 reveals: opioid = primarily TYPE A reward.
-  Có TYPE B reward dùng non-opioid pathways.
+  Drill R1+R4+R8 reveals: opioid = primarily EVALUATIVE reward.
+  Có DIRECT-STATE reward dùng non-opioid pathways.
 
-  TYPE A — EVALUATIVE (opioid-dependent):
+  EVALUATIVE REWARD (opioid-dependent):
     → Cortical processing → OFC/vmPFC evaluate → opioid release (if match)
-    → Insight, beauty, coherence, social approval = all Type A
+    → Insight, beauty, coherence, social approval = all Evaluative Reward
     → PFC OBSERVE được rõ (PFC involved in pathway)
     → VARIES across individuals (hardware, childhood, exposure)
 
-  TYPE B — DIRECT STATE (non-opioid):
+  DIRECT-STATE REWARD (non-opioid):
     → Hardware-level: CT afferents (touch), endocannabinoid (exercise),
       oxytocin (social proximity), serotonin (satiety)
-    → Below PFC level → PFC observe KHÁC (body-state shift, not "sướng")
-    → "Dễ chịu" more than "sướng" — less dramatic, more foundational
+    → Below PFC level → PFC observe KHÁC (body-state shift, not "pleasant")
+    → "Comfortable" more than "pleasant" — less dramatic, more foundational
     → LESS variable across individuals = "democratic reward"
 
-  ⭐ Feeling system = SAME observation system cho cả A và B:
+  ⭐ Feeling system = SAME observation system cho cả Evaluative và Direct-State:
     → NHƯNG fidelity KHÁC:
-    → Type A → PFC observe ở Layer 4-6 (clear, labellable)
-    → Type B → PFC observe ở Layer 2-3 (vague, body-state shift)
+    → Evaluative Reward → PFC observe ở Layer 4-6 (clear, labellable)
+    → Direct-State Reward → PFC observe ở Layer 2-3 (vague, body-state shift)
     → = WHY "insight" = crisp feeling, "comfortable" = diffuse feeling
 
 
@@ -1054,37 +1054,37 @@ dependencies:
 
     ① SENSORY — body-input match compiled baseline
       → Ăn ngon, nhạc hay, mùi thơm
-      → A₀-A₁ (simple → moderate complexity) + B strong
+      → E₀-E₁ (simple → moderate complexity) + Direct-State strong
 
     ② COHERENCE — chunk pattern resolve gap/mismatch
       → Insight, aha, math beauty, Poincaré equivalence
-      → A₂-A₃ (complex → abstract), B weak
+      → E₂-E₃ (complex → abstract), Direct-State weak
       → 🟢 Zeki 2014: math beauty = same mOFC as visual beauty
 
     ③ SOCIAL — inter-entity chunk interaction
       → Approval, recognition, belonging
-      → A (evaluation of social signal) + B (oxytocin, touch)
+      → Evaluative (evaluation of social signal) + Direct-State (oxytocin, touch)
 
     ④ RELIEF — threat resolution, cortisol drop
       → "Xong rồi, nhẹ người"
       → NOT opioid → cortisol DROP = relief
-      → Feeling: "nhẹ" more than "sướng"
+      → Feeling: "nhẹ" more than "pleasant"
 
     ⑤ PREVIEW — anticipated future chunk match
       → "Sắp được đi chơi!"
-      → Fidelity = f(cortical proportion), A₀ ~5% → A₃ ~60-80%
+      → Fidelity = f(cortical proportion), E₀ ~5% → E₃ ~60-80%
 
   REWARD QUALITY = f(4 variables):
     ① Chunk library depth (P2 substrate)
     ② Compile context (P5 approach vs avoidance tag)
     ③ Current body state (cortisol, sleep, energy)
-    ④ A/B ratio (individual hardware + development)
+    ④ Evaluative/Direct-State ratio (individual hardware + development)
 
   → Chi tiết đầy đủ: Reward-Signal-Architecture.md v2.0
-  → 5 profiles × temporal × compound: RSA §4-§6
-  → Individual differences: RSA §8
-  → Architecture B connection: RSA §0.3 (WHY Type A complex)
-  → Compiled/Fresh × A₀→A₃: RSA §1.7
+  → 5 profiles × temporal × compound: Reward-Signal-Architecture §4-§6
+  → Individual differences: Reward-Signal-Architecture §8
+  → Compilable Architecture connection: Reward-Signal-Architecture §0.3 (WHY Evaluative complex)
+  → Compiled/Fresh × E₀→E₃: Reward-Signal-Architecture §1.7
   → Source: Drill §2, §3.7-§3.22, Inter-Body §1
 ```
 
@@ -1141,13 +1141,13 @@ dependencies:
     Vague = MANY × WEAK × UNLABELED ("sao sao ấy" = 12 signals × weak × no label)
 ```
 
-### 7.3 H5: "Lờ Mờ" = Multi-Weak-Signal Convergence
+### 7.3 H5: "Vague" = Multi-Weak-Signal Convergence
 
 ```
 ⭐ H5 — HYPOTHESIS TRUNG TÂM:
 
   CLAIM:
-    "Lờ mờ" = MULTI-WEAK-SIGNAL CONVERGENCE:
+    "Vague" = MULTI-WEAK-SIGNAL CONVERGENCE:
     Nhiều chunks fire YẾU cùng lúc → đơn lẻ KHÔNG đủ PFC detect
     → nhưng TỔNG HỢP → body signal coherent
     → PFC detect "có gì đó" → VAGUE nhưng DIRECTIONALLY correct.
@@ -1166,7 +1166,7 @@ dependencies:
     Step ⑥: label search FAILS
     Step ⑧: → Path C (dwell) or Path D (dismiss)
 
-  → "Lờ mờ" IS the system working CORRECTLY on complex input.
+  → "Vague" IS the system working CORRECTLY on complex input.
   → NOT malfunction — correct response to multi-dimensional signal.
 ```
 
@@ -1479,7 +1479,7 @@ dependencies:
 
   CONVERGENCE ZONE = TRANSITION POINT:
     → WHERE feeling system DETECTS what chunk system hasn't COMPILED yet
-    → "Lờ mờ" = body knows, chunks don't have it yet
+    → "Vague" = body knows, chunks don't have it yet
     → Resolution: new chunk compiled → feeling CLEARER
     → = Feeling = PREVIEW of chunk that doesn't exist yet
     → = Dynamic boundary between feeling-knows and chunk-has-named
@@ -1788,9 +1788,9 @@ dependencies:
     Haidt, Nisbett & Wilson; formal principle = framework synthesis)
   ⚠ Compiled/Fresh × 7-Layer mapping (v3.0 — each component grounded independently,
     cross-mapping as unified axis = framework synthesis)
-  ⚠ Architecture B → feeling system as consequence (v3.0 — evolution argument,
+  ⚠ Compilable Architecture → feeling system as consequence (v3.0 — evolution argument,
     logically sound but not directly testable)
-  ⚠ Body-Need 2-source as input to feeling Step ① (v3.0 — consistent with BFM v2.0,
+  ⚠ Body-Need 2-source as input to feeling Step ① (v3.0 — consistent with Body-Feedback-Mechanism v2.0,
     explicit framing in feeling flow = framework integration)
   ⚠ Domain Reality = Final Arbiter for feeling accuracy (v3.0 — logical principle,
     consistent with 1A/1B, timeline evidence strong but varied)
@@ -1930,13 +1930,13 @@ dependencies:
 ```
 📚 REWARD ARCHITECTURE (v3.0 updated):
 
-  Reward-Signal-Architecture.md v2.0 — Type A/B, A₀→A₃, 5 Profiles, Architecture B
-    → §6.5 summary maps to RSA full detail
-    → Type A = evaluative (opioid), PFC observes clearly (Layer 4-6)
-    → Type B = direct state (non-opioid), PFC observes vaguely (Layer 2-3)
+  Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, E₀→E₃, 5 Profiles, Compilable Architecture
+    → §6.5 summary maps to Reward-Signal-Architecture full detail
+    → Evaluative Reward (opioid), PFC observes clearly (Layer 4-6)
+    → Direct-State Reward (non-opioid), PFC observes vaguely (Layer 2-3)
     → 5 Profiles = "hương vị" reward: ①Sensory ②Coherence ③Social ④Relief ⑤Preview
-    → §0.3 Architecture B connection (WHY reward system general-purpose)
-    → §1.7 Compiled/Fresh × A₀→A₃ (compilation depth)
+    → §0.3 Compilable Architecture connection (WHY reward system general-purpose)
+    → §1.7 Compiled/Fresh × E₀→E₃ (compilation depth)
 
 📚 CHUNK SYSTEM:
 
@@ -1953,7 +1953,7 @@ dependencies:
 📚 INTER-BODY DRILL (v3.0 NEW):
 
   Inter-Body-Mechanism.md v1.0 — SOURCE-OF-TRUTH cho drill principles
-    → §1: Architecture B (WHY feeling system general-purpose) → §0 framing
+    → §1: Compilable Architecture (WHY feeling system general-purpose) → §0 framing
     → §2: Body-Need 2-source aggregate → §5.2 Step ① connection
     → §3: Compiled/Fresh = real axis → §2.5 mapping
     → §4: 3 Independent Cost Sources → feeling processing cost model
@@ -1984,7 +1984,7 @@ dependencies:
 
   Logic-Feeling.md           — Logic ↔ Feeling parallel processing modes
   Logic-Planning.md          — Label 3-tier, AI-assisted planning
-  Somatic-Articulation-Loop.md — Body-knowledge → verbal-knowledge (7-stage SAL)
+  Somatic-Articulation-Loop.md — Body-knowledge → verbal-knowledge (7-stage Somatic-Articulation-Loop)
   Imagine-Final.md           — Preview mechanism (preview feelings source)
   PFC-Analysis.md            — PFC role observing feelings (Layer 4-7)
   Ask-AI.md v3.1             — Dual Check: body=QC, domain=arbiter (→ §8.3)
@@ -2076,12 +2076,12 @@ FEELING.MD v3.0 — STATUS:
     → Chunk system: ✅ COMPLETE. Feeling system: ✅ COMPLETE (v3.0).
 
   v3.0 CHANGES (2026-05-17 — Inter-Body Drill Integration):
-    → §0: +Architecture B connection (WHY feeling = general-purpose feedback)
+    → §0: +Compilable Architecture connection (WHY feeling = general-purpose feedback)
     → §2.3 Layer 7: +PFC=Lawyer integration (structural bias, not occasional error)
     → §2.5 NEW: Compiled/Fresh × 7-Layer mapping (compilation level = real axis)
     → §3.4 NEW: PFC = Lawyer formal section (Gazzaniga, Haidt, Nisbett & Wilson)
     → §5.2 Step ①: +Body-Need 2-source aggregate framing
-    → §6.5: RSA v1.0→v2.0 cross-ref, Architecture B connection
+    → §6.5: Reward-Signal-Architecture v1.0→v2.0 cross-ref, Compilable Architecture connection
     → §8.3: +Domain Reality = Final Arbiter formal principle, Dual Check
     → §12: +3 🟢 (Gazzaniga, Haidt, Nisbett & Wilson) + 5 🟡 (drill concepts)
     → §13: +Inter-Body section, +Body-Feedback section, versions updated
@@ -2098,14 +2098,14 @@ FEELING.MD v3.0 — STATUS:
 > **END OF Feeling.md v3.0**
 >
 > **Summary:** Central reference file cho Feeling system:
->   §0: Position (feedback trung tâm + Architecture B connection)
+>   §0: Position (feedback trung tâm + Compilable Architecture connection)
 >   §1: Definition (integrated body signal, PFC-observable, 3 properties)
 >   §2: 7-Layer Fidelity Gradient (+PFC=Lawyer L7, +Compiled/Fresh mapping)
 >   §3: Core Claim (+PFC=Lawyer formal section)
 >   §4: Integration (3 hubs, predictive matching, self-signal keystone)
 >   §5: 8-Step Operational Flow (+Body-Need 2-source)
 >   §6: Reward (dopamine ≠ reward, 5 preconditions, eureka 4 cases,
->        Type A/B + 5 Profiles + Quality formula + RSA v2.0)
+>        Evaluative/Direct-State + 5 Profiles + Quality formula + Reward-Signal-Architecture v2.0)
 >   §7: Gradient (clear↔vague, H5, convergence zone)
 >   §8: Quality (library × context, expert/beginner, 1A/1B + Domain=Arbiter, trauma)
 >   §9: Feeling Loop + Chunk-Feeling Bridge (bidirectional, body vote)

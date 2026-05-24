@@ -133,7 +133,7 @@ CONTENT:
       Source: Dopamine-Is-Not-Reward.md
       Evidence: Berridge (incentive salience), Schultz (prediction signal)
 
-    ② Mirror neurons ≠ empathy module → SPM (Self-Pattern-Match)
+    ② Mirror neurons ≠ empathy module → Self-Pattern-Modeling (Self-Pattern-Modeling)
       Source: Mirror-Neuron-Rejection.md
       Evidence: Hickok 2014 (The Myth of Mirror Neurons)
 
@@ -281,7 +281,7 @@ CONTENT:
 ```
 A. Glossary of framework terms
    (chunk, compile, body-base, prediction-delta, observation parameter,
-    Imagine-Final, body-feedback, L0/L1/L3, Type A/B/C, etc.)
+    Imagine-Final, body-feedback, L0/L1/L3, 3 Compile Types, etc.)
 
 B. File map (condensed version of folder structure)
 

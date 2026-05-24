@@ -1,9 +1,10 @@
 ---
 title: Autonomy — Observation Parameter (Software/Development)
-version: 1.1
+version: 1.2
 created: 2026-04-20
 updated: 2026-05-17
-status: OBSERVATION PARAMETER v1.1 — SOFTWARE/DEVELOPMENT
+refined: 2026-05-23 (v1.2 — Concept Cascade: +Entity-Access, +Simulation-Engine. Updated versions + cross-refs)
+status: OBSERVATION PARAMETER v1.2 — SOFTWARE/DEVELOPMENT
 scope: |
   OBSERVATION FILE: Autonomy XU HƯỚNG = tên gọi cho pattern khi quan sát
   MỨC ĐỘ một người prefer self-action vs external-control. Khác mỗi người
@@ -14,9 +15,9 @@ scope: |
   developmental arc 5 phases → domain-specific controllability →
   counterweights → cross-parameter interactions → healthy vs toxic.
   v1.1 KEY CHANGES:
-    ⑪ +Architecture B alignment: autonomy SOFTWARE = Architecture B only
-       (Architecture A has no controllability learning, no meta-chunks)
-    ⑫ +Cross-refs: IBM v1.0, BFL v2.0, observation versions updated
+    ⑪ +Compilable Architecture alignment: autonomy SOFTWARE = Compilable Architecture only
+       (Hardwired Architecture has no controllability learning, no meta-chunks)
+    ⑫ +Cross-refs: Inter-Body-Mechanism v1.0, Body-Feedback-Label v2.0, observation versions updated
     ⑬ Agent.md → Agent-Mechanism.md v2.0
 purpose: |
   Autonomy-Hardware.md giải thích TẠI SAO self-action = reward (universal).
@@ -32,9 +33,11 @@ dependencies:
   - Core-v7.8-Draft.md — §8 observation parameters
   - Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap
   - Chunk.md v2.0 — chunk substrate, compilation
-  - Agent-Mechanism.md v2.0 — §12 body-need feeder, self-as-agent
-  - Inter-Body-Mechanism.md v1.0 — §1.2 Architecture B, §3 Compiled/Fresh
+  - Agent-Mechanism.md v2.1 — §12 body-need feeder, self-as-agent, 10 dimensions
+  - Inter-Body-Mechanism.md v1.0 — §1.2 Compilable Architecture, §3 Compiled/Fresh
   - Body-Feedback-Label.md v2.0 — vocabulary consistency
+  - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — autonomy = control over access gradient
+  - PFC/Simulation-Engine.md v1.0 — autonomous simulation capacity
   - Child-Chunk-Development/07-Social-Recognition-Arc.md — §4.6 E31 "Không"
   - Child-Chunk-Development/08-Verbal-Production-Arc.md — §4.11 E31 chunks
   - Feel-Example-Draft.md — E31 autonomy assertion
@@ -159,20 +162,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Hardware mọi người ĐỀU CÓ — software KHÁC NHAU
     → = Tại sao "autonomy" là observation parameter (observable, varies)
 
-  ⭐ ARCHITECTURE B ALIGNMENT (Inter-Body-Mechanism.md §1.2):
+  ⭐ COMPILABLE ARCHITECTURE ALIGNMENT (Inter-Body-Mechanism.md §1.2):
 
-    Architecture A (côn trùng): hardwired stimulus→response.
+    Hardwired Architecture (côn trùng): hardwired stimulus→response.
       → Không có vmPFC → không có controllability LEARNING.
       → Không có meta-chunk compilation → không có "KHÔNG!" generalization.
       → Không có observation parameter "autonomy" — mọi phản ứng pre-wired.
 
-    Architecture B (động vật có vú, đặc biệt người):
+    Compilable Architecture (động vật có vú, đặc biệt người):
       → General-purpose system + PFC + chunk compilation.
       → Hardware: efference copy + VTA + opioid → autonomy preference EMERGES.
       → Software: vmPFC/DRN LEARN controllability per domain → meta-chunk compile.
-      → = Developmental arc 5 phases (§2) CHỈ CÓ trong Architecture B.
-      → = "Terrible twos" = Architecture B phenomenon — meta-chunk crosses threshold.
-      → = Chỉ Architecture B organisms có "autonomy SOFTWARE" khác nhau per individual.
+      → = Developmental arc 5 phases (§2) CHỈ CÓ trong Compilable Architecture.
+      → = "Terrible twos" = Compilable Architecture phenomenon — meta-chunk crosses threshold.
+      → = Chỉ Compilable Architecture organisms có "autonomy SOFTWARE" khác nhau per individual.
 ```
 
 ---
@@ -748,6 +751,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Framework adds: mechanism = approach tag vs avoidance tag
 ```
 
+### §4.8 — × New Concepts (28-session Drill Propagation)
+
+```
+ENTITY-ACCESS × AUTONOMY (Entity-Access.md v1.2):
+  → Autonomy = CONTROL over own Entity-Access gradient:
+    → "Tự quyết ai gần, ai xa" = control over Mức 0-5 per-entity
+    → "Tự quyết tiếp cận ai" = control over access direction
+    → Loss of autonomy = SOMEONE ELSE controls your access gradient
+  → Entity-Access-Calibration.md v1.0: self-regulation = autonomy AT access level
+  → = Autonomy cao = tự calibrate. Autonomy thấp = bị calibrate bởi người khác.
+
+SIMULATION ENGINE × AUTONOMY (Simulation-Engine.md v1.0):
+  → Autonomous simulation = PFC simulate FREELY (not constrained by threat):
+    → High autonomy: Simulation Engine drafts MANY scenarios → body picks best
+    → Low autonomy: Simulation Engine LOCKED on threat scenarios → no exploration
+    → = Autonomy UNLOCKS Simulation Engine's full capacity
+  → vmPFC controllability (§2) = Simulation Engine TRUST that drafts lead to real outcomes
+  → Bị ép = Simulation Engine drafts OVERRIDDEN → 2-layer dissonance (§5)
+
+🟡 Entity-Access × autonomy = framework convergence (access gradient control)
+🟡 Simulation Engine × autonomy = framework application (simulation freedom)
+```
+
 ---
 
 ## §5 — HEALTHY vs TOXIC AUTONOMY
@@ -847,10 +873,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → BUT: transfer degree unclear
     → = How much domain A → domain B?
 
-  ④ Architecture B framing (v1.1)
-    → "Autonomy software chỉ có trong Architecture B" = logical
-    → Architecture A organisms KHÔNG có vmPFC/meta-chunk = consistent
-    → BUT: "terrible twos = Architecture B phenomenon" = framework claim, chưa tested
+  ④ Compilable Architecture framing (v1.1)
+    → "Autonomy software chỉ có trong Compilable Architecture" = logical
+    → Hardwired Architecture organisms KHÔNG có vmPFC/meta-chunk = consistent
+    → BUT: "terrible twos = Compilable Architecture phenomenon" = framework claim, chưa tested
 ```
 
 ### §6.2 — Tier 3: Hypothesis (🔴)
@@ -900,7 +926,7 @@ COMPANION FILE:
     cortisol direction tag, opioid vs relief pathways)
 
 DRILL SOURCE:
-  → Inter-Body-Mechanism.md v1.0 §1.2 — Architecture B (general-purpose, vmPFC, meta-chunk)
+  → Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture (general-purpose, vmPFC, meta-chunk)
 
 VOCABULARY:
   → Body-Feedback-Label.md v2.0 — prediction-delta, approach/avoidance tag, compiled/fresh
@@ -976,6 +1002,6 @@ HEALTHY vs TOXIC (§5): Prediction-based + domain-appropriate + flexible
   Cultural: hardware same, schemas differ, neither extreme optimal.
 
 ~960 lines | version 1.1 | 2026-05-17
-v1.1 CHANGES: ⑪ +Architecture B alignment (§0) ⑫ +IBM/BFL cross-refs
+v1.1 CHANGES: ⑪ +Compilable Architecture alignment (§0) ⑫ +Inter-Body-Mechanism/Body-Feedback-Label cross-refs
   ⑬ Agent.md→Agent-Mechanism.md ⑭ Observation versions updated
 ```

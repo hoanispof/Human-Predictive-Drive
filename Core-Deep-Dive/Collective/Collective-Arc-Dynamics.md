@@ -1,9 +1,10 @@
 ---
 title: Collective-Arc-Dynamics — Tốc Độ Shift × Shelf-Life × 3 Nguồn Constraint
-version: 1.1
+version: 1.2
 created: 2026-05-18
-updated: 2026-05-18 v1.1 — +§4.5 Arc Disruption Scale-Dependent (shift vs disruption vs node death vs extinction), CAD-Q4 partially answered
-status: MECHANISM FILE v1.1
+updated: 2026-05-18 v1.1 — +§4.5 Arc Disruption Scale-Dependent
+refined: 2026-05-23 (v1.2 — Concept Cascade: +Bond-Architecture, +Resonance-Sustainability, +By-Product-Scale. Updated cross-refs)
+status: MECHANISM FILE v1.2
 scope: |
   PHÂN TÍCH: Tại sao compiled patterns có shelf-life KHÁC NHAU?
   3 nguồn constraint (physics / body / collective) → dependency ratio → shelf-life.
@@ -268,9 +269,9 @@ SCOPE OUT:
     │ Bị sa thải → đau       │ Pain + learn  │ Collective (market)  │
     │ Bị bạn bè cô lập      │ Pain + learn  │ Collective (social)  │
     │ Bị bỏ tù oan → đau    │ Pain + learn  │ Collective (law, SAI)│
-    │ Được khen → sướng      │ Reward        │ Collective (social)  │
-    │ Tìm ra lời giải → sướng│ Reward        │ Physics (math match) │
-    │ Ăn ngon → sướng        │ Reward        │ Body (taste hardware)│
+    │ Được khen → pleasant    │ Reward        │ Collective (social)  │
+    │ Tìm ra lời giải → pleasant│ Reward     │ Physics (math match) │
+    │ Ăn ngon → pleasant     │ Reward        │ Body (taste hardware)│
     └────────────────────────┴───────────────┴──────────────────────┘
 
     → Body signal: GIỐNG NHAU (pain, reward, learn)
@@ -892,7 +893,7 @@ SCOPE OUT:
       → FIX: expose student TO domain (internship, real projects)
       → Collective-dependent patterns: KHÔNG dạy qua sách (= snapshot arc CŨ)
         → Dạy qua DOMAIN CONTACT: thực tập, mentor, trial-error
-      → = Shift từ Loại C install (trust inject) → Loại A experience (direct domain)
+      → = Shift từ Trust Compile install → Experience Compile (direct domain)
 
     ③ "HƯỚNG NGHIỆP" = BIẾT DEPENDENCY RATIO:
       → "Ngành nào tốt?" = SAI question (collective arc shift → answer sẽ thay đổi)
@@ -978,23 +979,23 @@ SCOPE OUT:
 ## §8 — CÂU HỎI MỞ
 
 ```
-  CAD-Q1: "Social domain" có phải 1 category riêng hay spectrum?
+  Collective-Arc-Dynamics-Q1: "Social domain" có phải 1 category riêng hay spectrum?
     → Luật pháp gần collective. Tâm lý gần body. Kinh tế ở đâu?
     → Có thể mixed: kinh tế = physics (resource scarcity) + collective (valuation)
     → Cần cases phân tích sâu hơn?
 
-  CAD-Q2: Khi collective arc shift CỰC NHANH (AI era) → shelf-life → 0?
+  Collective-Arc-Dynamics-Q2: Khi collective arc shift CỰC NHANH (AI era) → shelf-life → 0?
     → Nếu patterns expire nhanh hơn brain compile → brain KHÔNG KỊP
     → Body hardware bandwidth = giới hạn (Knowledge-Flow §7: body not accelerate)
     → Implications: AI extend bandwidth? Hay human simply cannot keep up?
     → (ref: AI-Self-Model.md v2.0 — Stale Calibration concept)
 
-  CAD-Q3: "True but unnecessary" — có LUÔN là tốt khi bỏ?
+  Collective-Arc-Dynamics-Q3: "True but unnecessary" — có LUÔN là tốt khi bỏ?
     → Mài gỗ = unnecessary. Nhưng: nếu technology collapse → suddenly necessary.
     → = "Khoảng trống override" (Knowledge-Flow §4): schema cũ mất trước khi đủ backup.
     → Resilience argument: keep SOME "unnecessary" skills as insurance?
 
-  CAD-Q4: Collective arc có thể "đi lùi"?
+  Collective-Arc-Dynamics-Q4: Collective arc có thể "đi lùi"?
     → PARTIALLY ANSWERED (§4.5):
       Arc KHÔNG "gãy" ở global — chỉ disruption/shift ở local scale.
       Dark Ages = national arc REGRESSION nhưng Islamic world CONTINUED.
@@ -1004,7 +1005,7 @@ SCOPE OUT:
       → Chưa có precedent → cannot answer from data
       → Framework position: acknowledge risk, cannot predict outcome
 
-  CAD-Q5: Physics domain boundaries — where exactly?
+  Collective-Arc-Dynamics-Q5: Physics domain boundaries — where exactly?
     → Is mathematics = physics (structure of reality) hay abstract (human construct)?
     → Is formal logic = physics hay collective agreement?
     → Working assumption: math/logic = physics (vì không phụ thuộc participants).
@@ -1033,8 +1034,43 @@ SCOPE OUT:
 → Expansion-Saturation-Crisis.md §2 — education-job mismatch (TEST CASE for §4-5)
 → Discovery-vs-Expansion.md — Sense→Verify→Scale pipeline
 → Conflict-Dynamics.md §1 — OVERLAP × SCARCITY × COMMITMENT
-→ Self-Pattern-Match.md v3.0 — per-domain compilation, Compiled/Fresh axis
-→ Inter-Body-Mechanism.md v1.0 §1 — Architecture B: WHY general-purpose needs calibration
+→ Self-Pattern-Modeling.md v3.0 — per-domain compilation, Compiled/Fresh axis
+→ Inter-Body-Mechanism.md v1.0 §1 — Compilable Architecture: WHY general-purpose needs calibration
+```
+
+---
+
+## Collective-Arc × New Concepts (28-session Drill Propagation)
+
+```
+BOND-ARCHITECTURE × ARC DYNAMICS (Bond-Architecture.md v1.0):
+  → Arc dynamics vary by bond type:
+    Identity bonds: SLOWEST arc shift (religion, nation → centuries)
+    Reciprocal bonds: MODERATE (professional norms → decades)
+    Shared-Experience bonds: FAST (cohort culture → years)
+    Proximity bonds: FASTEST (neighborhood norms → months)
+  → §4.5 Scale-Dependent: bond type PREDICTS disruption resilience
+
+RESONANCE-SUSTAINABILITY × ARC (Resonance-Sustainability.md v1.0):
+  → Arc sustainability = Resonance-Sustainability at collective scale:
+    4-layer check per collective pattern:
+      Neurochemical: members still feel belonging?
+      Behavioral: rituals/practices still maintained?
+      Cognitive: narrative still coherent with new knowledge?
+      Contextual: environment still supportive?
+  → "True but unnecessary" (§3) = cognitive layer PASSED but contextual SHIFTED
+
+BY-PRODUCT-SCALE × ARC (By-Product-Scale.md v1.0):
+  → Arc dynamics DIFFER by scale:
+    PAIR: arc shift = fast, personal, recoverable
+    HUB: arc shift = medium, affects group cohesion
+    INSTITUTIONAL: arc shift = slow, affects civilization
+  → §4.5 "Diversification" = By-Product-Scale insurance
+    (8 billion nodes × many scales = global arc smooth)
+
+🟡 Bond-Architecture × arc = framework application (shift speed ∝ bond type)
+🟡 Resonance-Sustainability × arc = framework convergence (4-layer at scale)
+🟡 By-Product-Scale × arc = framework application (scale-dependent dynamics)
 ```
 
 ---

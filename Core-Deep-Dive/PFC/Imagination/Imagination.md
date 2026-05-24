@@ -157,7 +157,7 @@ BODY THẬT SỰ PHẢN ỨNG với imagine — không phải metaphor:
   │ Cortisol        │ 40-70%     │ Imagine xấu → stress GẦN thật │
   │ (stress)        │ CAO NHẤT   │ Evolution: sợ sai > thích đúng │
   ├─────────────────┼────────────┼────────────────────────────────┤
-  │ Opioid          │ 20-40%     │ Imagine tốt → sướng NHẸ       │
+  │ Opioid          │ 20-40%     │ Imagine tốt → pleasant NHẸ    │
   │ (pleasure)      │            │ "Preview" reward, không full    │
   ├─────────────────┼────────────┼────────────────────────────────┤
   │ Motor           │ 10-30%     │ Imagine hành động → cơ hơi     │
@@ -169,9 +169,9 @@ BODY THẬT SỰ PHẢN ỨNG với imagine — không phải metaphor:
 
   ⭐ INSIGHT: Cortisol fidelity CAO HƠN opioid:
     → Imagine scenario XẤU → stress ~60% → ĐAU ĐÁNG KỂ
-    → Imagine scenario TỐT → sướng ~30% → SƯỚNG NHẸ
+    → Imagine scenario TỐT → pleasant ~30% → PLEASANT NHẸ
     → = Body BIAS: simulate xấu → respond MẠNH. Simulate tốt → respond NHẸ.
-    → Evolution: tránh chết (cortisol) > tìm sướng (opioid)
+    → Evolution: tránh chết (cortisol) > tìm pleasant (opioid)
     → = TẠI SAO WORRY DỄ HƠN VISUALIZATION:
       Worry: body respond MẠNH → loop MẠNH → dễ lặp
       Visualization: body respond NHẸ → loop YẾU → khó duy trì
@@ -272,7 +272,7 @@ CHUNK THRESHOLD cho Novelty Flow:
 
   Chunks ≥ threshold: "aha! → aha tiếp! → aha tiếp!"
     → Dopamine + opioid LIÊN TỤC → flow state
-    → = Novelty SELF-SUSTAINING ("càng biết → càng thấy → càng sướng")
+    → = Novelty SELF-SUSTAINING ("càng biết → càng thấy → càng pleasant")
 
   Threshold KHÁC per domain:
     Chơi Lego (threshold thấp): vài chunks đủ flow
@@ -289,8 +289,8 @@ CHUNK THRESHOLD cho Novelty Flow:
     → = "Giỏi toán nhưng GHÉT toán" = chunks ok, association xấu
 
   Chunks tích lũy bằng NOVELTY (tò mò):
-    → Chunk physics: gắn curiosity/opioid → dùng chunk → body nhớ sướng
-    → Imagine dùng chunks này = SƯỚNG → dễ flow
+    → Chunk physics: gắn curiosity/opioid → dùng chunk → body nhớ pleasant
+    → Imagine dùng chunks này = PLEASANT → dễ flow
 
   → CÁCH tích lũy chunks ảnh hưởng CHẤT LƯỢNG imagine sau này
   → Threat-learn → imagine CHẬM, KHÓ flow
@@ -425,7 +425,7 @@ TẠI SAO WORRY DỄ HƠN VISUALIZATION:
   → Worry: cortisol fidelity ~60% → body respond MẠNH → loop MẠNH
   → Visualization: opioid fidelity ~30% → body respond NHẸ → loop YẾU
   → = "Lo lắng tự nhiên, lạc quan phải cố gắng" = ĐÚNG biochemistry
-  → Evolution: tránh chết > tìm sướng → body THIÊN VỊ worry
+  → Evolution: tránh chết > tìm pleasant → body THIÊN VỊ worry
   → = Cần TRAINING để visualization thắng worry
 ```
 
@@ -441,7 +441,7 @@ IMAGINE KHÔNG HOÀN HẢO — 5 dạng SAI:
   ② Chọn option SAI → regret
      (body simulate chưa đủ chính xác)
   ③ Hiểu người khác SAI → conflict
-     (SPM = simulate, không phải biết → có thể hoàn toàn sai)
+     (Self-Pattern-Modeling = simulate, không phải biết → có thể hoàn toàn sai)
   ④ Hiểu mình SAI → self-deception
      (verbal narrate SAI → body signal bị ignore)
   ⑤ Translate SAI → miscommunication

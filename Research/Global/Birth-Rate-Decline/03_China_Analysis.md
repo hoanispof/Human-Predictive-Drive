@@ -23,7 +23,7 @@
 > 06_Israel.md (shared Imagine-Final override), 04_France.md (policy ceiling),
 > Imagine-Final.md §1 (2 tầng, compiled schemas),
 > Chunk.md v2.1 (chunk substrate, compile mechanism),
-> Collective-Body.md v1.1 §2 (collective-level schema compile — forced policy = Type C install),
+> Collective-Body.md v1.1 §2 (collective-level schema compile — forced policy = Trust Compile install),
 > Education-Mechanism.md §3.1 (bridge = nguồn ④ External Inject)
 > **⚠️ Data thực + framework interpretation — PHÂN BIỆT RÕ 🟢/🟡/🔴**
 > **Quy ước:** 🟢 Research/data support | 🟡 Suy luận từ framework | 🔴 Hypothesis
@@ -802,7 +802,7 @@
     → Connection.md v3.1 §12: Connection × Imagine-Final
        → 4-2-1 = connection structure BỊ PHÁ by design
     → Collective-Body.md v1.1 §2: collective-level schema compilation
-       → One-child = largest forced Type C compile in history
+       → One-child = largest forced Trust Compile compile in history
     → Cortisol-Baseline.md §3: NET HEALTH = repair − damage
        → 996 = damage CỰC CAO + repair KHÔNG ĐỦ
     → Education-Mechanism.md §3.1: Carrot bridge (nguồn ④)

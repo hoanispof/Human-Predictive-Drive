@@ -12,7 +12,7 @@
 >
 > Đây không phải "kỹ thuật motivation."
 > Đây là cơ chế: PFC tạo threat scenario → body trust → cortisol fire NHƯ THẬT.
-> = Type C trust-compile, nhưng từ chính bản thân mình.
+> = Trust Compile, nhưng từ chính bản thân mình.
 >
 > File này phân tích: cơ chế hoạt động thế nào? Học được không?
 > Khi nào có lợi, khi nào có hại? Và tại sao AI era làm skill này
@@ -27,8 +27,8 @@
 >   Novelty.md v1.0 — §4.2 Mức 4 Self-Created Threat + §4.3 Novelty vs Anxiety Loop
 >   Threat.md v1.0 — §2 Internal-Predict (~20-60% fidelity), External vs Internal
 >   Imagine-Final.md — §7 Bootstrap (PFC start → body take over), Jensen Huang timeline
->   Compile-Type-Learning.md v1.1 — Type C trust-compile, trust then verify
->   Compile-Taxonomy.md v1.1 — 3 Loại A/B/C, trust gate
+>   Compile-Type-Learning.md v1.1 — Trust Compile, trust then verify
+>   Compile-Taxonomy.md v2.0 — 3 3 Compile Types, trust gate
 >   Cortisol-Baseline.md v2.0 — §7.7 5 Roles, §8.1-8.2 Inverted-U + 6 parameters
 >   Anchor-Schema.md v1.0 — Clarity × Quality × Trust, 4 nguồn
 >   Protect.md v1.0 — §1.2 Loss Aversion ~2×, ownership chunks, Protect mechanism
@@ -98,7 +98,7 @@
 
   Mechanisms SỬ DỤNG (KHÔNG tạo mới):
     → Threat.md: Internal-Predict, body ~20-60% fidelity
-    → Compile-Type-Learning.md: Type C trust-compile
+    → Compile-Type-Learning.md: Trust Compile
     → Novelty.md §4.2: Mức 4 Self-Created Threat
     → Cortisol-Baseline.md: Inverted-U, 5 Roles
     → Imagine-Final.md: bootstrap mechanism
@@ -133,7 +133,7 @@
 ```
 🟡 FRAMEWORK SYNTHESIS (insight mới — kết nối 2 mechanisms):
 
-  BÌNH THƯỜNG (Type C — Compile-Type-Learning.md):
+  BÌNH THƯỜNG (Trust Compile — Compile-Type-Learning.md):
 
     Thầy giáo nói: "X đúng"
     → Bạn TRUST thầy (source credibility)
@@ -148,18 +148,18 @@
     → Body compile chunk [nguy hiểm → phải hành động] → cortisol fire
     → Drive activate DÙ threat chưa xảy ra
 
-  = TYPE C TRUST-COMPILE, nhưng SOURCE = chính PFC của bạn
+  = TRUST COMPILE, nhưng SOURCE = chính PFC của bạn
   = Body là "student" — PFC là "teacher"
   = Cùng trust gate, cùng compile pathway
 
 
-  ⚠️ ĐIỀU KIỆN — GIỐNG Type C learning:
+  ⚠️ ĐIỀU KIỆN — GIỐNG Trust Compile learning:
 
-    Type C KHÔNG CÓ anchor → body bỏ qua:
+    Trust Compile KHÔNG CÓ anchor → body bỏ qua:
       "Cố lên!" → PFC nói → body: "chain tới đâu?" → nowhere → KỆ
-      = Motivation speech = Type C floating → body không respond
+      = Motivation speech = Trust Compile floating → body không respond
 
-    Type C CÓ anchor thật → body trust → compile:
+    Trust Compile CÓ anchor thật → body trust → compile:
       "Nếu không làm → hết tiền → không tồn tại" → chain chạm L0 (survival)
       = Body: chain có ý nghĩa → cortisol fire → drive activate
 
@@ -187,7 +187,7 @@
       Self-created threat = simulate MẤT cái body đã pre-own:
         → = PROTECT fires (Protect.md §1)
         → = Loss aversion: mất đau ~2× được (Kahneman & Tversky 1979)
-        → = Asymmetric prediction-delta (BFM §5③, SNC Crespi 1942)
+        → = Asymmetric prediction-delta (Body-Feedback-Mechanism §5③, SNC Crespi 1942)
 
       → Jensen Huang: NVIDIA = 30 năm Anchor-Schema, body pre-own CỰC SÂU
         → "Phá sản" = MẤT cái đã owned → Protect fire ~2× so với approach
@@ -228,12 +228,12 @@
     → PFC nói → body check chain → chain tới đâu? → KHÔNG RÕ
     → Body: "cố lên vì gì? Được gì? Mất gì nếu không?"
     → Không có answer → body bỏ qua → PFC nói vậy thôi
-    → = Type C floating chunk — not compiled
+    → = Trust Compile floating chunk — not compiled
 
   "Nếu không xong project → hết tiền → mất nhà → con không có chỗ ở":
     → PFC nói → body check chain → chain tới L0 + L2 (protect con)
     → Body: "RÕ. NGUY HIỂM." → cortisol fire → drive activate
-    → = Type C anchored chunk — compiled thành threat schema
+    → = Trust Compile anchored chunk — compiled thành threat schema
 
   "Nếu xong project → thưởng lớn → mua nhà → con an toàn":
     → PFC nói → body check chain → chain tới L0 + L2 (reward)
@@ -372,7 +372,7 @@ GIAI ĐOẠN 1 — TRẢI NGHIỆM THREAT THẬT (childhood / early career):
     🟢 Steve Jobs: bị cho làm con nuôi, bỏ đại học vì không đủ tiền
     🟢 Jeff Bezos: mẹ sinh năm 17 tuổi, bố dượng
 
-  CƠ CHẾ: body compile chunk thông qua Type A (trực tiếp trải nghiệm)
+  CƠ CHẾ: body compile chunk thông qua Experience Compile (trực tiếp trải nghiệm)
     → threat → cortisol spike → action → survive → opioid reward
     → Loop nhiều lần → compiled deep:
       [threat → action → survive → reward] = SCHEMA
@@ -409,7 +409,7 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
     (vì simulate dùng CÙNG pathway — Threat.md §2 Internal-Predict)
 
   = "Only the paranoid survive" = VERBALIZE cái body đã biết từ lâu
-  = Giai đoạn 3 = Type C self-trust-compile: PFC create scenario → body trust → compile
+  = Giai đoạn 3 = self Trust Compile: PFC create scenario → body trust → compile
 
   SEQUENCE BẮT BUỘC: compiled (①) → observed (②) → self-created (③)
     → KHÔNG skip giai đoạn 1 → vì cần schema [threat = energy] compiled SÂU
@@ -612,7 +612,7 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
   NOVELTY-PULL DRIVE (Einstein, Tesla, nhà nghiên cứu đam mê):
     → Chunk-Gap tự fire → curiosity → VTA → dopamine → approach
     → KHÔNG CẦN threat để chạy — gap filling = reward đủ mạnh
-    → Giống "nghiện" discovery — body compiled [fill gap = sướng] quá sâu
+    → Giống "nghiện" discovery — body compiled [fill gap = pleasant] quá sâu
     → Vấn đề NGƯỢC: quên NGHỈ, không phải thiếu drive
     → Chi tiết: Novelty.md, Domain-Mapping-Drive.md
 
@@ -626,7 +626,7 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
 
     🔴 Dự đoán (nếu framework đúng):
     → Nếu giáo dục thiết kế đúng (Education-Mechanism.md, Compile-Type-Learning.md):
-      → Trẻ compile [exploration = sướng] từ nhỏ (Type A trải nghiệm)
+      → Trẻ compile [exploration = pleasant] từ nhỏ (Experience Compile trải nghiệm)
       → Lớn lên: novelty-pull tự fire → KHÔNG CẦN threat push
       → = Chuyển từ "phải ép bản thân" → "body tự muốn"
 
@@ -637,7 +637,7 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
 
     → Framework đã trình bày nguyên lý giáo dục để TẠO novelty-pull:
       Education-Mechanism.md — arc design, approach tag
-      Compile-Type-Learning.md — Type A verify, không chỉ Type C install
+      Compile-Type-Learning.md — Experience Compile verify, không chỉ Trust Compile install
       Child-Development-Mechanism.md — approach/avoidance tag từ cách giới thiệu
 
     → = Self-created threat có thể là SKILL CHUYỂN TIẾP:
@@ -783,7 +783,7 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
 
   QUÁ ÍT (drift zone):
     → Thoải mái → drive GIẢM → không tiến triển
-    → "Chơi sướng quá → chả muốn làm gì"
+    → "Chơi pleasant quá → chả muốn làm gì"
     → Body không có threat → không fire → PFC idle
 
   VỪA ĐỦ (flow zone):
@@ -892,7 +892,7 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
 
 
 🟡 FRAMEWORK SYNTHESIS (từ v7.8 mechanisms):
-  → Self-created threat = Type C trust-compile from PFC
+  → Self-created threat = Trust Compile from PFC
   → 4 loại phân theo anchor (body-base level)
   → 3 giai đoạn học sequence
   → L3 controllable vs L1-L2 uncontrollable
@@ -936,8 +936,8 @@ MECHANISM FILES (đọc để hiểu sâu):
   Novelty.md §4.2         — Mức 4 Self-Created Threat, BẬT/TẮT
   Novelty.md §4.3         — Novelty Loop vs Anxiety Loop, mixed ratio
   Imagine-Final.md §7     — Bootstrap: PFC start → body take over
-  Compile-Taxonomy.md     — Type A/B/C, trust gate mechanism
-  Compile-Type-Learning.md— Type C in learning, trust then verify
+  Compile-Taxonomy.md     — 3 Compile Types, trust gate mechanism
+  Compile-Type-Learning.md— Trust Compile in learning, trust then verify
   Cortisol-Baseline.md    — §7.7 5 Roles, §8 Inverted-U + 6 parameters
   Anchor-Schema.md        — Clarity × Quality × Trust, 4 nguồn
   Protect.md §1.2         — Loss aversion ~2×, asymmetric prediction-delta
@@ -959,7 +959,7 @@ APPLICATION FILES (context ứng dụng):
 EDUCATION FILES (tạo novelty-pull từ nhỏ):
 
   Education-Mechanism.md  — Arc design principles, approach tag
-  Compile-Type-Learning.md— Type A verify, optimal learning flow
+  Compile-Type-Learning.md— Experience Compile verify, optimal learning flow
   Child-Development-Mechanism.md — Approach/Avoidance tag × parenting
 
 BACKUP (source material):
@@ -973,7 +973,7 @@ BACKUP (source material):
 > **Self-Created-Threat v1.0 — End of file.**
 >
 > PFC tạo threat → body trust → cortisol fire NHƯ THẬT.
-> = Type C trust-compile từ chính bản thân.
+> = Trust Compile từ chính bản thân.
 > Body không phân biệt "ai nói" — chỉ care "chain có chạm body-base không."
 >
 > 4 loại threat tự tạo. 3 giai đoạn học (skill, không bẩm sinh).

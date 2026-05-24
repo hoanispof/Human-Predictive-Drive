@@ -15,8 +15,8 @@ purpose: |
   Cùng 1 concept → 3-5 tên khác nhau → confusion.
   File này: VOCABULARY REFERENCE cho toàn bộ PFC-related labels.
   Companion của Body-Feedback-Label v2.0 (body-feedback vocabulary).
-  BFL = body SIGNAL vocabulary. File này = PFC OPERATION vocabulary.
-  Overlap ở BFL §8/§9C = bridge zone (cross-ref, không lặp).
+  Body-Feedback-Label = body SIGNAL vocabulary. File này = PFC OPERATION vocabulary.
+  Overlap ở Body-Feedback-Label §8/§9C = bridge zone (cross-ref, không lặp).
 position: |
   Core-Deep-Dive/PFC/ — ngang hàng PFC-Operations.md, Simulation-Engine.md.
   ĐỌC NGAY SAU PFC-Function.md (entry point) và PFC-Operations.md (mechanism).
@@ -50,7 +50,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **CHỈ formalize: LABEL NÀO, NGHĨA GÌ, KHI NÀO DÙNG.**
 >
 > **Companion: Body-Feedback-Label v2.0 (body SIGNAL vocabulary).**
-> **File này = PFC OPERATION vocabulary. Overlap ở BFL §8/§9C = bridge zone.**
+> **File này = PFC OPERATION vocabulary. Overlap ở Body-Feedback-Label §8/§9C = bridge zone.**
 
 ---
 
@@ -108,8 +108,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → 9+ files riêng về PFC → vocabulary nào ở file nào?
 
   VẤN ĐỀ 5 — OVERLAP VỚI BODY-FEEDBACK-LABEL:
-    BFL §8 đã cover Compiled/Fresh processing labels.
-    BFL §9C đã cover 3-cost sources.
+    Body-Feedback-Label §8 đã cover Compiled/Fresh processing labels.
+    Body-Feedback-Label §9C đã cover 3-cost sources.
     → File này BỔ SUNG (PFC operations, roles, regions, hardware),
     KHÔNG lặp.
 
@@ -216,9 +216,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                         │ (Neural-Processing-Flow)                 │
   │                         │                                          │
   │ ④ PFC = Universal       │ PFC budget = FINITE, SHARED cho TẤT CẢ. │
-  │   Resource              │ Learning, SPM, decisions, suppress,      │
+  │   Resource              │ Learning, Self-Pattern-Modeling, decisions, suppress,      │
   │                         │ social, self-monitor, Imagine-Final.     │
-  │                         │ Mệt ở work → SPM cho con YẾU.           │
+  │                         │ Mệt ở work → Self-Pattern-Modeling cho con YẾU.           │
   │                         │ Dùng: khi phân tích PFC budget trade-off │
   │                         │ giữa các hoạt động.                     │
   │                         │ (PFC-Operations.md §9)                   │
@@ -376,7 +376,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├─────────┼─────────────────────────┼──────────────────────────────────┤
   │ TIER 1  │ PFC budget              │ TỔNG resource PFC có thể dùng.  │
   │ (system)│ (= Universal Resource)  │ FINITE. SHARED cho MỌI hoạt     │
-  │         │                         │ động: learning, SPM, decisions,  │
+  │         │                         │ động: learning, Self-Pattern-Modeling, decisions,  │
   │         │                         │ suppress, social, self-monitor,  │
   │         │                         │ Imagine-Final.                   │
   │         ├─────────────────────────┼──────────────────────────────────┤
@@ -392,12 +392,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⚠️ PFC budget GIẢM bởi:
      Fatigue (end of day), Cortisol (stress), Sleep deprivation,
      Illness, Chronic suppress (accumulated ② cost)
-     → "Mệt ở work → SPM cho con YẾU" = budget ĐÃ HẾT, không phải lazy.
+     → "Mệt ở work → Self-Pattern-Modeling cho con YẾU" = budget ĐÃ HẾT, không phải lazy.
 
   ⚠️ ① CAN GIẢM (compile → automatic). ② CANNOT GIẢM (pattern stays).
      → Long-term: HOLD-heavy strategies >> SUPPRESS-heavy strategies.
 
-  (PFC-Operations.md §9-§10 = SOURCE. BFL §9C = CÙNG labels.)
+  (PFC-Operations.md §9-§10 = SOURCE. Body-Feedback-Label §9C = CÙNG labels.)
 ```
 
 ---
@@ -416,15 +416,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                         │                                          │
   │ Genuine-compiled        │ Body reward THẬT confirmed → compile.    │
   │                         │ → approach tag.                          │
-  │                         │ → SPM EXPANSIVE (rich body data).        │
+  │                         │ → Self-Pattern-Modeling EXPANSIVE (rich body data).        │
   │                         │ VD: Mẹ thích nấu ăn → genuine compiled  │
-  │                         │ hiểu "ngon = gì" → creative SPM cho con.│
+  │                         │ hiểu "ngon = gì" → creative Self-Pattern-Modeling cho con.│
   │                         │ Dùng: khi compiled qua trải nghiệm thật │
   │                         │ + body confirm.                          │
   │                         │                                          │
   │ Schema-compiled         │ PFC / obligation / social compliance.    │
   │                         │ → neutral tag.                           │
-  │                         │ → SPM LIMITED (narrow, rule-based).      │
+  │                         │ → Self-Pattern-Modeling LIMITED (narrow, rule-based).      │
   │                         │ VD: "Ai cũng học" → compile HOW TO do   │
   │                         │ nhưng KHÔNG compile WHY body likes.      │
   │                         │ Dùng: khi compiled qua rule/schema,      │
@@ -432,9 +432,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                         │                                          │
   │ Threat-compiled         │ Forced / threat / bị ép → compile.       │
   │                         │ → avoidance tag.                         │
-  │                         │ → SPM BIASED (fear-based patterns).      │
+  │                         │ → Self-Pattern-Modeling BIASED (fear-based patterns).      │
   │                         │ VD: Bị đánh → compile "đừng nói ý kiến" │
-  │                         │ → SPM: predict người khác sẽ phạt.       │
+  │                         │ → Self-Pattern-Modeling: predict người khác sẽ phạt.       │
   │                         │ Dùng: khi compiled dưới áp lực/đe dọa.  │
   │                         │                                          │
   └─────────────────────────┴──────────────────────────────────────────┘
@@ -491,7 +491,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                         │ = GRADIENT (not binary).                 │
   │                         │ Entity-Compiled = migration from         │
   │                         │ dorsal → ventral.                        │
-  │                         │ Dùng: khi trace SPM, self-model,         │
+  │                         │ Dùng: khi trace Self-Pattern-Modeling, self-model,         │
   │                         │ social prediction.                       │
   │                         │ (Simulation-Engine.md v1.0 §6)           │
   │                         │                                          │
@@ -617,7 +617,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                         │ hippocampus. Retrieve → recombine →      │
   │                         │ simulate → readout.                      │
   │                         │ Dùng: khi nói về shared substrate cho    │
-  │                         │ SPM, Self-Obs, Imagine-Final, etc.       │
+  │                         │ Self-Pattern-Modeling, Self-Obs, Imagine-Final, etc.       │
   │                         │                                          │
   │ Component 1:            │ Anterior insula. Đọc body signals.       │
   │ Interoception           │ "MÀN HÌNH" — readout device.             │
@@ -647,7 +647,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   NAMED APPLICATIONS = TỌA ĐỘ cụ thể trong 3D space:
 
-    SPM                  = (Other, Present, Simulate).
+    Self-Pattern-Modeling                  = (Other, Present, Simulate).
     Self-Observation     = (Self, Present, Observe).
     Imagine-Final        = (Self, Future, Simulate).
     Memory recall        = (Self, Past, Observe).
@@ -688,7 +688,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                         │                                          │
   │ Labeling                │ PFC gán verbal chunk (word) cho body     │
   │ (= verbal coding)       │ pattern. Fidelity GIẢM 40-80%.          │
-  │                         │ "Sướng" = label CHO body-base reward —   │
+  │                         │ "Pleasant" = label CHO body-base reward — │
   │                         │ lossy representation.                    │
   │                         │ Dùng: khi phân tích PFC label ≠ body    │
   │                         │ experience.                              │
@@ -710,7 +710,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                         │ (Neural-Processing-Flow.md)              │
   │                         │                                          │
   │ Somatic-Articulation    │ Recursive loop: body pattern → external  │
-  │ Loop (SAL)              │ articulation → body verify → refine.     │
+  │ Loop (Somatic-Articulation-Loop)              │ articulation → body verify → refine.     │
   │                         │ PFC seeks words to match body-known.     │
   │                         │ AI catalyst CAN accelerate loop.         │
   │                         │ Dùng: khi mô tả "biết mà chưa nói      │
@@ -756,7 +756,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                         │                                          │
   │ ③ Budget overload       │ PFC budget exceeded → quality DROPS      │
   │   (depletion)           │ ACROSS ALL activities.                   │
-  │                         │ "Mệt ở work → SPM cho con yếu."         │
+  │                         │ "Mệt ở work → Self-Pattern-Modeling cho con yếu."         │
   │                         │ KHÔNG phải "lazy" — PFC budget = finite. │
   │                         │ Dùng: khi phân tích performance drop     │
   │                         │ after sustained PFC use.                 │
@@ -841,7 +841,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Chef biết thiếu muối = trực giác = COMPILED (not "feeling only")
     Einstein "thấy" lời giải = trực giác = COMPILED (not "logic only")
 
-  (Logic-Feeling.md v2.1 = SOURCE. BFL §10 = CÙNG distinction.)
+  (Logic-Feeling.md v2.1 = SOURCE. Body-Feedback-Label §10 = CÙNG distinction.)
 ```
 
 ---
@@ -952,7 +952,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⑤ PFC BUDGET TRADE-OFF:
      Khi phân tích "tại sao performance giảm":
      → Check: PFC budget đã dùng cho gì trước đó?
-     → "Mệt ở work → SPM cho con yếu" = ④ Universal Resource
+     → "Mệt ở work → Self-Pattern-Modeling cho con yếu" = ④ Universal Resource
 
   ⑥ ĐỪNG ĐỔ LỖI — GIẢI THÍCH MECHANISM:
      ✗ "Không có ý chí" (moral judgment)
@@ -973,8 +973,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      ĐỪNG dùng cùng lúc nhiều roles (confusing) — chọn 1 phù hợp nhất.
 
   ⑨ RELATIONSHIP VỚI BODY-FEEDBACK-LABEL:
-     BFL §8 đã cover Compiled/Fresh processing labels.
-     BFL §9C đã cover 3-cost labels.
+     Body-Feedback-Label §8 đã cover Compiled/Fresh processing labels.
+     Body-Feedback-Label §9C đã cover 3-cost labels.
      → File này BỔ SUNG: operations, roles, regions, hardware, failure modes.
      → KHÔNG lặp content — cross-reference.
      → 2 files cùng dùng → nhất quán vocabulary.
@@ -992,7 +992,7 @@ WHAT THIS FILE DOES WELL:
   ✓ 4 vocabulary levels (Role/State/Operation/Sub-operation) phân biệt rõ
   ✓ 5 PFC roles với context rules
   ✓ Deprecated terms với replacements cụ thể
-  ✓ Cross-ref strategy: BỔ SUNG, không lặp PFC-Operations / Sim-Engine / BFL
+  ✓ Cross-ref strategy: BỔ SUNG, không lặp PFC-Operations / Sim-Engine / Body-Feedback-Label
 
 
 WHAT REMAINS UNCERTAIN:
@@ -1064,7 +1064,7 @@ WHAT THIS FILE DOES NOT COVER:
   │ Neural-Processing-Flow.md        │ PFC = Director/Orchestrator.        │
   │                                  │ Working memory compression.         │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Somatic-Articulation-Loop.md     │ SAL: body → articulate → verify.   │
+  │ Somatic-Articulation-Loop.md     │ Somatic-Articulation-Loop: body → articulate → verify.   │
   │                                  │ PFC seeks words for body-known.     │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Autonomy-Hardware.md v1.1        │ vmPFC / DRN. Controllability.       │
@@ -1080,7 +1080,7 @@ WHAT THIS FILE DOES NOT COVER:
   │                                  │ without domain check.               │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Self-Pattern-Modeling.md v3.1    │ APPLICATION 1 on Simulation Engine. │
-  │                                  │ SPM = (Other, Present, Simulate).   │
+  │                                  │ Self-Pattern-Modeling = (Other, Present, Simulate).   │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Imagine-Final.md v3.0            │ APPLICATION 3 on Simulation Engine. │
   │                                  │ Imagine-Final = (Self, Future,      │

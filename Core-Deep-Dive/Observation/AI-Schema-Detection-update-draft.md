@@ -2,7 +2,7 @@
 title: AI-Schema-Detection Update Draft — Collective-Level Capabilities
 version: draft-v2
 created: 2026-05-18
-refined: 2026-05-18 (v2: +scale-dependent model từ CAD §4.5, GAP 1 enriched, refs updated)
+refined: 2026-05-18 (v2: +scale-dependent model từ Collective-Arc-Dynamics §4.5, GAP 1 enriched, refs updated)
 status: OUTLINE — chưa implement. Chờ collective files mature rồi quyết định.
 purpose: |
   Liệt kê GAPs trong AI-Schema-Detection.md v2.0 liên quan collective-level.
@@ -10,7 +10,7 @@ purpose: |
   CHƯA cover: arc shift (scale-dependent), coordination node, schema pressure, gap distribution.
   File này = PLAN cho future update. KHÔNG phải implementation.
   DECISION PENDING: expand ⑧ trong AI-Schema-Detection HOẶC tạo file mới riêng.
-  draft-v2: CAD §4.5 đã clarify "arc không gãy — chỉ shift/disruption tại local scale"
+  draft-v2: Collective-Arc-Dynamics §4.5 đã clarify "arc không gãy — chỉ shift/disruption tại local scale"
   → GAP 1 enriched with 4-level spectrum + scale diagnosis.
 depends_on_maturity:
   - Collective-Body.md v2.0 — ✅ stable
@@ -82,7 +82,7 @@ SOURCE: Collective-Arc-Dynamics.md v1.1
     HIỆN TẠI AI NHẦM CẢ 3 = "cái gì đó sai" → fix SAI HƯỚNG
 
 
-  TẦNG 2 — DIAGNOSE SCALE (CAD §4.5):
+  TẦNG 2 — DIAGNOSE SCALE (Collective-Arc-Dynamics §4.5):
 
     Client: "mọi thứ sụp đổ" → AI check SCALE NÀO?
 
@@ -208,7 +208,7 @@ VẤN ĐỀ:
   → Individual body-check KHÔNG ĐỦ cho collective-level claims
   → 1 person's body CAN'T verify "ngành này đang sụp"
 
-  ⭐ INSIGHT TỪ CAD §4.5: VERIFICATION SCALES WITH DISRUPTION LEVEL:
+  ⭐ INSIGHT TỪ Collective-Arc-Dynamics §4.5: VERIFICATION SCALES WITH DISRUPTION LEVEL:
 
   ┌──────────────────┬──────────────────────────┬─────────────────────┐
   │ Disruption level │ Verification method       │ Confidence          │

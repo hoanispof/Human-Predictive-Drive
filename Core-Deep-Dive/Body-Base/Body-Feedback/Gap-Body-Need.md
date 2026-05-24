@@ -6,12 +6,12 @@ status: FRAMEWORK v1.0
 scope: |
   Per-gap DYNAMICS: how different gaps consume, compete, and lifecycle.
   3 Satiation Profiles (Cyclic/Tonic/Generative) + transitions + compounds.
-  Hardware gaps × Domain gaps × Reward Type (RSA Type A/B integration).
+  Hardware gaps × Domain gaps × Reward Type (Reward-Signal-Architecture Evaluative/Direct-State integration).
   5-Parameter per-gap observation model (Source × Satiation × Reward × Chain × Dependency).
   2 Pathways × chain length (direct vs mediated).
   ENGINE/ROAD/VEHICLE architecture (Hardware/Collective/Compilation).
   Technology fill + modern gap frontier shift.
-  Entity-gap matching (5-step, SPM-mediated).
+  Entity-gap matching (5-step, Self-Pattern-Modeling-mediated).
   Existence-based gaps (parental drive = unique type).
   Collective-Arc bias (install/suppress/re-tag).
   Gap lifecycle (creation → dormancy → compound → weakening).
@@ -20,11 +20,11 @@ purpose: |
   Gap-Distribution-Profile.md: AGGREGATE view (WHERE all gaps cluster).
   Body-Feedback-Mechanism.md: HOW signals arise from chunk dynamics.
   FILE NÀY: PER-GAP DYNAMICS (HOW gaps consume, compete, lifecycle).
-  = Zoom IN bổ sung GDP zoom OUT.
+  = Zoom IN bổ sung Gap-Distribution-Profile zoom OUT.
   = Bridge: gap mechanism ↔ entity matching ↔ architecture ↔ technology.
   Source: Drill-Individual-Gap-Body-Need v2.0 (1,498L, 36 insights, 33 citations).
 position: |
-  Core-Deep-Dive/Body-Base/Body-Feedback/ — cạnh Gap-Direction.md, GDP.md.
+  Core-Deep-Dive/Body-Base/Body-Feedback/ — cạnh Gap-Direction.md, Gap-Distribution-Profile.md.
   Gap-Direction.md = per-gap DEFINITION (what gap is, how direction forms).
   Gap-Distribution-Profile.md = per-person LANDSCAPE (4 trục, 4 tầng).
   Gap-Body-Need.md (FILE NÀY) = per-gap DYNAMICS (feed, compete, lifecycle).
@@ -33,13 +33,13 @@ dependencies:
   - Gap-Direction.md v2.0 — gap definition, direction = f(surrounding chunks), "chưa biết = không có gap"
   - Gap-Distribution-Profile.md v1.0 — aggregate landscape, 4 trục, 4 tầng, 2 con đường
   - Body-Feedback-Mechanism.md v2.0 — Body-Need aggregate, 3 chunk dynamics, 2 sources
-  - Reward-Signal-Architecture.md v2.0 — Type A/B, A₀→A₃, 5 Profiles
+  - Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, E₀→E₃, 5 Profiles
   - Reward-Calibration.md v1.1 — Goldilocks per-gap, 6 over-reward mechanisms
   - Valence-Propagation.md v3.0 — per-entity valence, structural/current, hardware subsidy
-  - Inter-Body-Mechanism.md v1.0 — Architecture B, 3-cost, 5-channel, PFC = Lawyer
+  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 3-cost, 5-channel, PFC = Lawyer
   - Entity-Access.md v1.2 — entity-access gradient, 3-layer
   - Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation 40→200h, Grief A+B+C
-  - Self-Pattern-Modeling.md v3.1 — F1/F2, per-agent valence, 3 dimensions
+  - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, per-agent valence, 3 dimensions
   - Imagine-Final.md v3.0 — constructive simulation, body pre-feel
   - Connection.md v4.0 — 3 Generative Primitives, 8 pathways
   - PFC-Operations.md v1.0 — Hold+Suppress, Compiled Quality Dimension
@@ -100,7 +100,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Mỗi gap quan sát bằng 5 PARAMETERS:**
 > **① Hardware Source — sensor/hormone/coherence nào?**
 > **② Satiation Profile — Cyclic/Tonic/Generative?**
-> **③ Reward Composition — RSA Type A (evaluative) : Type B (direct-state) ratio?**
+> **③ Reward Composition — Evaluative : Direct-State ratio?**
 > **④ Chain to Body-Base — fill trực tiếp hay qua bao nhiêu bước?**
 > **⑤ Collective Dependency — cần bao nhiêu infrastructure?**
 >
@@ -148,13 +148,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⑤ Collective-Arc = ROAD — infrastructure to fill (NOT opposing force)
   ⑥ Compilation = VEHICLE — individual's compiled chains (15-20 năm)
   ⑦ Technology đã fill phần lớn sensory baseline → modern gap frontier shifted
-  ⑧ SPM MODE (Agent vs Tool) = filter đầu tiên cho entity-gap matching
+  ⑧ Self-Pattern-Modeling MODE (Agent vs Tool) = filter đầu tiên cho entity-gap matching
   ⑨ Collective-arc BIAS toàn bộ gap landscape (install, suppress, re-tag)
   ⑩ Gap có LIFECYCLE: creation → active → dormant → compound/death
   
   🟢 Gap = f(surrounding chunk network): Gap-Direction v2.0 §1.1
   🟢 3 chunk dynamics (Shift, Miss, Gap): Body-Feedback-Mechanism v2.0 §3
-  🟢 Type A/B reward distinction: Reward-Signal-Architecture v2.0 §1
+  🟢 Evaluative/Direct-State reward distinction: Reward-Signal-Architecture v2.0 §1
   🟢 2 con đường serve body-base: Gap-Distribution-Profile v1.0 §2.2
   🟡 5-parameter per-gap model = framework synthesis
   🟡 ENGINE/ROAD/VEHICLE architecture = framework synthesis
@@ -171,7 +171,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Gap-Distribution-Profile     = Gap LANDSCAPE per person (4 trục, 4 tầng)
     Body-Feedback-Mechanism v2.0 = Gap SIGNAL mechanism (3 chunk dynamics)
     Reward-Calibration v1.1      = Gap REWARD mechanism (Goldilocks, over-reward)
-    Reward-Signal-Architecture   = Reward TYPES (Type A evaluative / Type B direct-state)
+    Reward-Signal-Architecture   = Reward TYPES (Evaluative evaluative / Direct-State direct-state)
     
   ★ FILE NÀY (v1.0):
     = Gap FEED DYNAMICS (how different gaps consume differently)
@@ -195,7 +195,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   7 CLAIMS CỐT LÕI:
 
   C1. 3 satiation profiles (Cyclic/Tonic/Generative) = orthogonal to reward type
-      → SAME gap can have different A:B ratio tùy how fill
+      → SAME gap can have different reward ratio tùy how fill
       
   C2. P4 (chain to body-base) và P5 (collective dependency) = INDEPENDENT
       → Einstein: P4=0 (direct coherence reward) + P5=MAX (centuries physics)
@@ -256,20 +256,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §2.1 — Tại sao RENAME (từ drill v2.0)
 
 ```
-  v1.0 gọi "Type A/B/C" → v2.0 RENAME → "Cyclic/Tonic/Generative":
+  v1.0 satiation → v2.0 RENAME → "Cyclic/Tonic/Generative":
   
-  LÝ DO: Reward-Signal-Architecture v2.0 §1 ĐÃ DÙNG "Type A/B" cho:
-    Type A = Evaluative Confirm (opioid, cortical evaluation)
-    Type B = Direct State Confirm (non-opioid, hardware)
-    = KHÁC concept hoàn toàn với satiation dynamics
+  LÝ DO: Tránh nhầm lẫn với reward types (Evaluative/Direct-State).
+    Reward types VÀ satiation types = KHÁC concept hoàn toàn.
+    Evaluative Reward = opioid, cortical evaluation
+    Direct-State Reward = non-opioid, hardware
     
-  RENAME MAPPING:
-    "Type A satiation" → "CYCLIC"      (sharp satiation, cycle)
-    "Type B satiation" → "TONIC"       (slow habituation, ongoing)
-    "Type C satiation" → "GENERATIVE"  (self-generating, perpetual)
+  SATIATION MAPPING:
+    CYCLIC      = sharp satiation, cycle
+    TONIC       = slow habituation, ongoing
+    GENERATIVE  = self-generating, perpetual
     
-  → "Type A/B" trong framework = LUÔN chỉ RSA reward types
-  → Satiation dynamics = "Cyclic/Tonic/Generative"
+  → "Evaluative/Direct-State" = LUÔN chỉ reward types
+  → "Cyclic/Tonic/Generative" = LUÔN chỉ satiation dynamics
 ```
 
 ### §2.2 — CYCLIC (Sharp Satiation)
@@ -290,11 +290,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Safety: threat removed → safe = baseline → DORMANT
     Sexual: fill minutes → refractory period → return hours/days
     
-  REWARD COMPOSITION (RSA v2.0 integration):
-    Hunger = Type A dominant (~80A/20B): taste EVALUATION + physical satiation
-    Temperature relief = Type B dominant (~20A/80B): thermoregulator direct
-    Safety relief = Type A dominant (~70A/30B): threat EVALUATION resolves
-    → Cyclic gaps VARY in A/B ratio — satiation profile ≠ reward type
+  REWARD COMPOSITION (Reward-Signal-Architecture v2.0 integration):
+    Hunger = Evaluative dominant (~80/20): taste EVALUATION + physical satiation
+    Temperature relief = Direct-State dominant (~20/80): thermoregulator direct
+    Safety relief = Evaluative dominant (~70/30): threat EVALUATION resolves
+    → Cyclic gaps VARY in Evaluative/Direct-State ratio — satiation profile ≠ reward type
     
   🟢 Satiety hormones: leptin, ghrelin (established endocrinology)
   🟢 Thermoregulation: homeostatic baseline (established physiology)
@@ -322,10 +322,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Maintained temperature: initially cyclic (relief) → transitions to tonic
       → "Mặc áo mát mẻ": first = sharp relief, then = baseline = invisible
   
-  REWARD COMPOSITION (RSA v2.0 integration):
-    Touch/comfort = Type B dominant (~20A/80B): CT afferents direct
-    Social presence = Type A+B compound (~50A/50B): evaluation + proximity hardware
-    → Tonic gaps TEND toward Type B nhưng KHÔNG tuyệt đối
+  REWARD COMPOSITION (Reward-Signal-Architecture v2.0 integration):
+    Touch/comfort = Direct-State dominant (~20/80): CT afferents direct
+    Social presence = Evaluative+Direct-State compound (~50/50): evaluation + proximity hardware
+    → Tonic gaps TEND toward Direct-State nhưng KHÔNG tuyệt đối
     
   🟢 Weber-Fechner law: established psychophysics
   🟢 Opioid system + touch: CT afferent fibers (R2: Löken 2009)
@@ -348,7 +348,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Curiosity/novelty: learn X → see Y unknown → gap for Y → chase
       → "Học toán → thấy bài khó mới → muốn giải" = self-generating
     Domain mastery: solve problem → see bigger problem → gap expands
-      → PhD: chapter → experiment → thesis = mini-arc decomposition (BFM §3.3d)
+      → PhD: chapter → experiment → thesis = mini-arc decomposition (Body-Feedback-Mechanism §3.3d)
     Status (comparative): achieve → baseline shift → need MORE
       → "Lương $1M → adapt → $10M → vẫn thiếu" = escalating baseline
       
@@ -359,11 +359,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Partner support drive riêng: new by-products → generative reward
       → Partner suppress drive riêng: no new by-products → "chán"
   
-  REWARD COMPOSITION (RSA v2.0 integration):
-    Curiosity/insight = Type A dominant (~95A/5B): pattern EVALUATION
-    Status comparison = Type A dominant (~90A/10B): social EVALUATION
-    Physical mastery (sport) = Type A+B compound (~60A/40B): skill eval + body state
-    → Generative gaps TEND toward Type A — requires cortical evaluation
+  REWARD COMPOSITION (Reward-Signal-Architecture v2.0 integration):
+    Curiosity/insight = Evaluative dominant (~95/5): pattern EVALUATION
+    Status comparison = Evaluative dominant (~90/10): social EVALUATION
+    Physical mastery (sport) = Evaluative+Direct-State compound (~60/40): skill eval + body state
+    → Generative gaps TEND toward Evaluative — requires cortical evaluation
     
   🟢 VTA habituation + prediction-delta: R1: Schultz 1997
   🟢 Self-expansion model: R5: Aron & Aron 1996, 2000
@@ -432,54 +432,54 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ HARDWARE GAPS = PRE-INSTALLED BY GENES, PRESENT FROM BIRTH:
 
   ┌──────────────┬──────────┬───────────┬──────────┬──────────────┬──────────┬──────────┐
-  │ Gap          │ Satiation│ Feed      │ Return   │ Reward       │ RSA      │ Entity   │
-  │              │ Profile  │ Duration  │ Cycle    │ Intensity    │ A:B Ratio│ Need     │
+  │ Gap          │ Satiation│ Feed      │ Return   │ Reward       │ Reward   │ Entity   │
+  │              │ Profile  │ Duration  │ Cycle    │ Intensity    │ Ratio    │ Need     │
   ├──────────────┼──────────┼───────────┼──────────┼──────────────┼──────────┼──────────┤
-  │ Hunger       │ Cyclic   │ 15-30 min │ 3-6h     │ HIGH (prop.  │ ~80A/20B │ EPISODIC │
+  │ Hunger       │ Cyclic   │ 15-30 min │ 3-6h     │ HIGH (prop.  │ ~80/20 │ EPISODIC │
   │              │          │           │          │ to deprivat.)│          │          │
   ├──────────────┼──────────┼───────────┼──────────┼──────────────┼──────────┼──────────┤
-  │ Temperature  │ Cyclic→  │ C: instant│ Context  │ C: HIGH      │ ~20A/80B │ MAINTAIN │
+  │ Temperature  │ Cyclic→  │ C: instant│ Context  │ C: HIGH      │ ~20/80 │ MAINTAIN │
   │              │ Tonic    │ T: ongoing│ shift    │ T: invisible │          │          │
   ├──────────────┼──────────┼───────────┼──────────┼──────────────┼──────────┼──────────┤
-  │ Safety       │ Cyclic→  │ C: instant│ Threat   │ C: HIGH      │ ~70A/30B │ MAINTAIN │
+  │ Safety       │ Cyclic→  │ C: instant│ Threat   │ C: HIGH      │ ~70/30 │ MAINTAIN │
   │              │ Tonic    │ T: ongoing│ appears  │ T: invisible │          │          │
   ├──────────────┼──────────┼───────────┼──────────┼──────────────┼──────────┼──────────┤
-  │ Touch/       │ Tonic    │ ONGOING   │ Person-  │ MODERATE-    │ ~20A/80B │ ONGOING  │
+  │ Touch/       │ Tonic    │ ONGOING   │ Person-  │ MODERATE-    │ ~20/80 │ ONGOING  │
   │ Comfort      │          │ (hours)   │ dependent│ SUSTAINED    │          │          │
   ├──────────────┼──────────┼───────────┼──────────┼──────────────┼──────────┼──────────┤
-  │ Sexual       │ Cyclic   │ Minutes   │ Hours/   │ HIGH (peak)  │ ~50A/50B │ EPISODIC │
+  │ Sexual       │ Cyclic   │ Minutes   │ Hours/   │ HIGH (peak)  │ ~50/50 │ EPISODIC │
   │              │          │           │ days     │ → refractory │          │          │
   ├──────────────┼──────────┼───────────┼──────────┼──────────────┼──────────┼──────────┤
-  │ Social       │ Tonic +  │ ONGOING   │ Person-  │ MODERATE-    │ ~50A/50B │ ONGOING  │
+  │ Social       │ Tonic +  │ ONGOING   │ Person-  │ MODERATE-    │ ~50/50 │ ONGOING  │
   │ connection   │ Generative│ while with│ dependent│ SUSTAINED    │          │ + NOVELTY│
   │              │ compound │ agent     │          │              │          │          │
   ├──────────────┼──────────┼───────────┼──────────┼──────────────┼──────────┼──────────┤
-  │ Curiosity/   │ Generative│ VARIABLE │ SELF-    │ VARIABLE     │ ~95A/5B  │ NOVELTY  │
+  │ Curiosity/   │ Generative│ VARIABLE │ SELF-    │ VARIABLE     │ ~95/5  │ NOVELTY  │
   │ Novelty      │          │ (min→years│ GENERATE │ (prediction- │          │          │
-  │              │          │           │          │ delta dep.)  │          │          │
+  │              │          │           │          │ delta dependent) │       │          │
   ├──────────────┼──────────┼───────────┼──────────┼──────────────┼──────────┼──────────┤
-  │ Parental     │ Tonic    │ ONGOING   │ NEVER    │ HARDWARE-    │ ~40A/60B │ EXISTENCE│
+  │ Parental     │ Tonic    │ ONGOING   │ NEVER    │ HARDWARE-    │ ~40/60 │ EXISTENCE│
   │ drive        │ (unique  │ (child    │ (while   │ BOOSTED      │          │ BASED    │
   │              │ — §12)   │ exists)   │ child    │ (oxytocin)   │          │          │
   │              │          │           │ alive)   │              │          │          │
   └──────────────┴──────────┴───────────┴──────────┴──────────────┴──────────┴──────────┘
   
-  ⭐ RSA A:B RATIO = ORTHOGONAL DIMENSION:
-    A:B KHÔNG define gap type. A:B define REWARD TYPE khi gap fill.
-    Cùng 1 gap (hunger): fill bằng "ăn đại cái gì" = A₀ (binary taste eval).
-    Cùng 1 gap (hunger): fill bằng "ăn phở Hà Nội ngon" = A₂ (rich evaluation).
-    → A:B ratio VARIES within same gap tùy HOW fill.
+  ⭐ Reward-Signal-Architecture REWARD RATIO = ORTHOGONAL DIMENSION:
+    Reward ratio KHÔNG define gap type. Reward ratio define REWARD TYPE khi gap fill.
+    Cùng 1 gap (hunger): fill bằng "ăn đại cái gì" = E₀ (binary taste eval).
+    Cùng 1 gap (hunger): fill bằng "ăn phở Hà Nội ngon" = E₂ (rich evaluation).
+    → reward ratio VARIES within same gap tùy HOW fill.
     → Bảng trên = TYPICAL ratio, NOT fixed.
   
   REWARD = f(gap_depth × fill_quality × satiation_state):
     Gap depth DEEP (nhịn 12h): fill reward = CAO
     Gap depth SHALLOW (ăn 2h trước): fill reward = THẤP
-    Fill quality CAO (món ngon): reward AMPLIFIED (A₂ + B)
+    Fill quality CAO (món ngon): reward AMPLIFIED (E₂ + Direct-State)
     NHƯNG: satiation OVERRIDE → "no rồi thì không muốn ăn dù món ngon"
     → Reward CAPPED by satiation state (cyclic = clear cap)
 
-  🟢 Hardware gaps pre-installed: GDP v1.0 §2.4
-  🟢 Type A/B distinction: RSA v2.0 §1 (R15: Berridge 2003, R16: Loseth 2019)
+  🟢 Hardware gaps pre-installed: Gap-Distribution-Profile v1.0 §2.4
+  🟢 Evaluative/Direct-State distinction: Reward-Signal-Architecture v2.0 §1 (R15: Berridge 2003, R16: Loseth 2019)
   🟢 Individual variation: supertasters ~25% (R28: Bartoshuk 2000)
 ```
 
@@ -491,36 +491,36 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ DOMAIN GAPS = INSTALLED BY EXPERIENCE + COLLECTIVE:
 
   ┌──────────────┬──────────┬───────────┬──────────┬──────────────┬──────────┬──────────┐
-  │ Gap          │ Satiation│ Feed      │ Return   │ Reward       │ RSA      │ Entity   │
-  │              │ Profile  │ Duration  │ Cycle    │ Intensity    │ A:B Ratio│ Need     │
+  │ Gap          │ Satiation│ Feed      │ Return   │ Reward       │ Reward   │ Entity   │
+  │              │ Profile  │ Duration  │ Cycle    │ Intensity    │ Ratio    │ Need     │
   ├──────────────┼──────────┼───────────┼──────────┼──────────────┼──────────┼──────────┤
-  │ Career/      │ Generative│ YEARS    │ SELF-    │ Variable     │ ~90A/10B │ Context  │
+  │ Career/      │ Generative│ YEARS    │ SELF-    │ Variable     │ ~90/10 │ Context  │
   │ Mastery      │          │           │ GENERATE │ (milestone)  │          │ specific │
   ├──────────────┼──────────┼───────────┼──────────┼──────────────┼──────────┼──────────┤
-  │ Learning/    │ Generative│ CUMULATIVE│ SELF-   │ PROPORTIONAL │ ~95A/5B  │ Teacher/ │
+  │ Learning/    │ Generative│ CUMULATIVE│ SELF-   │ PROPORTIONAL │ ~95/5  │ Teacher/ │
   │ Knowledge    │          │           │ GENERATE │ to effort    │          │ peer     │
   ├──────────────┼──────────┼───────────┼──────────┼──────────────┼──────────┼──────────┤
-  │ Social       │ Generative│ ONGOING  │ Compar.  │ SHIFTING     │ ~85A/15B │ Social   │
+  │ Social       │ Generative│ ONGOING  │ Compar.  │ SHIFTING     │ ~85/15 │ Social   │
   │ Status       │ (compar.)│ maintain  │ → never  │ (baseline ↑) │          │ group    │
   │              │          │           │ "done"   │              │          │          │
   ├──────────────┼──────────┼───────────┼──────────┼──────────────┼──────────┼──────────┤
-  │ Meaning/     │ Tonic +  │ ONGOING   │ NEVER    │ DEEP but     │ ~80A/20B │ Abstract │
+  │ Meaning/     │ Tonic +  │ ONGOING   │ NEVER    │ DEEP but     │ ~80/20 │ Abstract │
   │ Purpose      │ Generative│          │ fully    │ infrequent   │          │ or agent │
   │              │          │           │ resolved │              │          │          │
   ├──────────────┼──────────┼───────────┼──────────┼──────────────┼──────────┼──────────┤
-  │ Schema-      │ Varies   │ Varies    │ Schema   │ RELIEF tag   │ ~70A/30B │ Schema   │
+  │ Schema-      │ Varies   │ Varies    │ Schema   │ RELIEF tag   │ ~70/30 │ Schema   │
   │ installed    │          │           │ maintain │ (not opioid) │          │ dependent│
   │ ("phải X")   │          │           │          │              │          │          │
   └──────────────┴──────────┴───────────┴──────────┴──────────────┴──────────┴──────────┘
 
-  ⭐ DOMAIN GAPS = PREDOMINANTLY TYPE A (evaluative):
+  ⭐ DOMAIN GAPS = PREDOMINANTLY EVALUATIVE:
     Domain activity = cortical pattern matching → evaluation → opioid
-    → Nearly ALL domain gaps have HIGH Type A ratio
-    → Type B component: MINIMAL (nhưng có: body relaxation khi solve, flow state)
-    → = WHY domain rewards CẦN compilation (RSA v2.0 §2: A₁→A₃ develops with chunks)
+    → Nearly ALL domain gaps have HIGH Evaluative ratio
+    → Direct-State component: MINIMAL (nhưng có: body relaxation khi solve, flow state)
+    → = WHY domain rewards CẦN compilation (Reward-Signal-Architecture v2.0 §2: E₁→E₃ develops with chunks)
     → = WHY trẻ nhỏ KHÔNG có domain reward deep (chưa compile đủ)
 
-  MINI-ARC DECOMPOSITION (BFM v2.0 §3.3d):
+  MINI-ARC DECOMPOSITION (Body-Feedback-Mechanism v2.0 §3.3d):
     Big gap (career) → brain DECOMPOSE thành mini-gaps
     Each mini-gap fill = mini opioid reward
     PhD thesis → chapters → experiments → each fill = mini reward
@@ -531,12 +531,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Fill = RELIEF tag (cortisol drop), KHÔNG PHẢI opioid
     → "Phải có nhà trước 30" → mua nhà → "phù, xong rồi" (relief) ≠ "thích" (opioid)
     → PFC-Operations v1.0: schema-compiled ≠ genuine-compiled
-    → Schema gap fill = RSA Type A (evaluation) nhưng WEAK quality
-    → Genuine gap fill = RSA Type A (evaluation) + STRONG opioid confirm
+    → Schema gap fill = Reward-Signal-Architecture Evaluative (evaluation) nhưng WEAK quality
+    → Genuine gap fill = Reward-Signal-Architecture Evaluative (evaluation) + STRONG opioid confirm
     → Phân biệt: relief ≠ opioid DÙ cả 2 = "hết khó chịu"
     
   🟢 Baseline shift: R4: Brickman & Campbell 1971
-  🟢 Mini-arc: BFM v2.0 §3.3d
+  🟢 Mini-arc: Body-Feedback-Mechanism v2.0 §3.3d
   🟢 Schema vs genuine: PFC-Operations v1.0 (compiled quality dimension)
 ```
 
@@ -552,32 +552,32 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────────────────────────────────────────────────────┐
   │  P1 — HARDWARE SOURCE: sensor/hormone/coherence nào?         │
   │  P2 — SATIATION PROFILE: Cyclic / Tonic / Generative?       │
-  │  P3 — REWARD COMPOSITION: RSA Type A : Type B ratio?         │
+  │  P3 — REWARD COMPOSITION: Reward-Signal-Architecture Evaluative : Direct-State ratio?         │
   │  P4 — CHAIN TO BODY-BASE: fill trực tiếp hay qua bao nhiêu? │
   │  P5 — COLLECTIVE DEPENDENCY: infrastructure cần bao nhiêu?   │
   └──────────────────────────────────────────────────────────────┘
   
   P1 — HARDWARE SOURCE:
-    Sensory: 17 receptor categories (BFM v2.0 §2.2)
+    Sensory: 17 receptor categories (Body-Feedback-Mechanism v2.0 §2.2)
     Homeostatic: đường huyết, oxy, pH, áp suất — internal monitor
     Hormone: oxytocin (parental), dopamine/NE/serotonin↓ (limerence)
     Coherence: ACC/insula detect pattern inconsistency
     → P1 = UNCHANGEABLE (hardware-determined)
-    → NHƯNG: compilation MỞ RỘNG what counts as "input" (RSA v2.0: A₀→A₃)
+    → NHƯNG: compilation MỞ RỘNG what counts as "input" (Reward-Signal-Architecture v2.0: E₀→E₃)
     
   P2 — SATIATION PROFILE:
     Cyclic / Tonic / Generative / Compound
     → P2 = primarily HARDWARE (cyclic/tonic) hoặc EMERGE từ compilation (generative)
     
   P3 — REWARD COMPOSITION:
-    Type A (evaluative, opioid) : Type B (direct-state, non-opioid)
-    A:B ratio = PER-GAP, PER-FILL (same gap, different fill = different ratio)
+    Evaluative Reward (opioid) : Direct-State Reward (non-opioid)
+    reward ratio = PER-GAP, PER-FILL (same gap, different fill = different ratio)
     → P3 = depends on BOTH hardware source AND compilation depth
-    → Beginner: wine tasting = mostly B (taste) + little A (shallow eval)
-    → Expert: wine tasting = mostly A (rich evaluation) + some B (taste)
+    → Beginner: wine tasting = mostly Direct-State (taste) + little Evaluative (shallow eval)
+    → Expert: wine tasting = mostly Evaluative (rich evaluation) + some Direct-State (taste)
     
   P4 — CHAIN TO BODY-BASE:
-    Chain = 0: fill TRỰC TIẾP (ăn → no, giải toán → sướng)
+    Chain = 0: fill TRỰC TIẾP (ăn → no, giải toán → pleasant)
     Chain = 1-3: fill QUA BƯỚC (kiếm tiền → mua đồ → fill gap)
     Chain = dài: fill qua DOMAIN (học ngành → việc → tiền → fill nhiều gaps)
     → Chi tiết tại §8
@@ -594,23 +594,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   ┌──────────────┬──────────────┬──────────────┬──────────────┬──────────────┬──────────┐
-  │ Gap          │ P1 Source    │ P2 Satiation │ P3 A:B       │ P4 Chain     │ P5 Coll. │
+  │ Gap          │ P1 Source    │ P2 Satiation │ P3 Reward    │ P4 Chain     │ P5 Coll. │
   ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────┤
-  │ Hunger       │ Taste+homeo. │ Cyclic       │ ~80A/20B     │ 0 (eat)      │ Low      │
+  │ Hunger       │ Taste+homeo. │ Cyclic       │ ~80/20     │ 0 (eat)      │ Low      │
   │ (basic)      │              │              │              │ or 2+ (work  │ (gene)   │
   │              │              │              │              │ →$→food)     │          │
   ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────┤
-  │ Ôm mẹ       │ CT afferents │ Tonic        │ ~20A/80B     │ 0 (direct)   │ Low      │
-  │ (comfort)    │ + social hw  │              │              │              │ (hardware)│
+  │ Ôm mẹ       │ CT afferents │ Tonic        │ ~20/80     │ 0 (direct)   │ Low      │
+  │ (comfort)    │ + social hardware  │              │              │              │ (hardware)│
   ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────┤
-  │ Giải toán    │ ACC coherence│ Generative   │ ~95A/5B      │ 0 (Pathway 1 │ HIGH     │
+  │ Giải toán    │ ACC coherence│ Generative   │ ~95/5      │ 0 (Pathway 1 │ HIGH     │
   │ (Einstein)   │ detection    │              │              │ = direct)    │ (centuries│
   │              │              │              │              │              │ physics) │
   ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────┤
-  │ Mua điều hòa │ Thermorec.  │ Cyclic→Tonic │ ~20A/80B     │ 3+ (work→$   │ HIGH     │
+  │ Mua điều hòa │ Thermorec.  │ Cyclic→Tonic │ ~20/80     │ 3+ (work→$   │ HIGH     │
   │ (fill nóng)  │              │              │              │ →buy→cool)   │ (economy)│
   ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────┤
-  │ Status MXH   │ Social hw   │ Generative   │ ~85A/15B     │ 1-2 (post→   │ HIGH     │
+  │ Status MXH   │ Social hardware   │ Generative   │ ~85/15     │ 1-2 (post→   │ HIGH     │
   │ (likes)      │ + comparison │ (comparative)│              │ likes→reward)│ (platform│
   │              │              │              │              │              │ infra)   │
   └──────────────┴──────────────┴──────────────┴──────────────┴──────────────┴──────────┘
@@ -619,7 +619,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     P4 và P5 CORRELATE ở 2 cực nhưng DECOUPLE ở giữa:
       Sensory gap: P4 = 0 (direct) + P5 = low → CẢ HAI đơn giản
       Abstract gap: P4 CÓ THỂ = 0 (Pathway 1!) + P5 = HIGH → DECOUPLE
-      → Einstein: chain = 0 (sướng trực tiếp khi giải) nhưng dependency = MAX
+      → Einstein: chain = 0 (pleasant trực tiếp khi giải) nhưng dependency = MAX
       → Vì: Collective provide CHUNKS (P5), reward = INTERNAL (P4 chain=0)
       → = 2 parameters ĐỘC LẬP:
         P4 = chain từ fill event → body-base reward
@@ -687,7 +687,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Schema OVERRIDE hardware priority
     → = Problem: CHRONIC override → compiled suppress → flat affect
 
-  LIFECYCLE (GDP v1.0 §4):
+  LIFECYCLE (Gap-Distribution-Profile v1.0 §4):
     Trẻ nhỏ (0-12): hardware gaps DOMINATE (play, curiosity, touch)
       → Mẹ = primary gap-fill source → Entity-Access MAX
     Teen (13-18): domain gaps EMERGE (study, social, identity)
@@ -715,16 +715,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §8 — 2 PATHWAYS × CHAIN LENGTH
 
 ```
-⭐⭐ MỌI GAP SERVE BODY-BASE QUA 2 CON ĐƯỜNG (GDP v1.0 §2.2):
+⭐⭐ MỌI GAP SERVE BODY-BASE QUA 2 CON ĐƯỜNG (Gap-Distribution-Profile v1.0 §2.2):
 
   PATHWAY 1 — TRỰC TIẾP (internal coherence):
     → Activity resolve inconsistency → cortisol drop → opioid
     → Body-base state THẬT SỰ improve
     → Chain = 0: reward NGAY khi fill
-    → Applies to ALL points on GDP spectrum:
-      Sensory: ăn đúng ý → coherence → sướng (chain=0)
-      Abstract: giải bài xong → coherence → sướng (chain=0)
-      → = CÙNG mechanism (Architecture B general-purpose reward)
+    → Applies to ALL points on Gap-Distribution-Profile spectrum:
+      Sensory: ăn đúng ý → coherence → pleasant (chain=0)
+      Abstract: giải bài xong → coherence → pleasant (chain=0)
+      → = CÙNG mechanism (Compilable Architecture general-purpose reward)
     
   PATHWAY 2 — GIÁN TIẾP (external outcome → resources → body-base):
     → Activity → outcome → resources → fill OTHER gaps
@@ -743,7 +743,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ├──────────────────┼──────────────────┼──────────────────┤
     │ Abstract         │ 3+ OR Pathway 1  │ Học → bằng → job │
     │                  │ = 0              │ → tiền → fill    │
-    │                  │                  │ OR: giải → sướng │
+    │                  │                  │ OR: giải→pleasant│
     ├──────────────────┼──────────────────┼──────────────────┤
     │ Collective       │ Very long        │ Policy → impact  │
     │                  │ + mostly P.1     │ → indirect + vui │
@@ -762,7 +762,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       = Chain of compiled chunks linking hardware gap to fill
     
     Sau khi compiled: PFC KHÔNG cần trace chain mỗi lần
-      → "Có việc = ổn" (compiled prediction → F1 fire automatically)
+      → "Có việc = ổn" (compiled prediction → Compiled fire automatically)
       → PFC chỉ engage khi chain BREAK: mất việc → dissonance → PFC tính toán
       
   ⭐ 15-20 NĂM "LỚN LÊN" = COMPILING CHAINS:
@@ -770,7 +770,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Child: learn chain links (study → knowledge, money → things)
     Teen: compile domain chains (subject → career → livelihood)
     Adult: chains mostly compiled → "auto-pilot" on basic survival
-    → Architecture B (IBM v1.0 §1): cần 15-20 năm compile
+    → Compilable Architecture (Inter-Body-Mechanism v1.0 §1): cần 15-20 năm compile
     → = WHY modern life requires years of education
     → = WHY childhood dependency = architecture REQUIREMENT, not weakness
     
@@ -782,11 +782,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       P5 = infrastructure cần cho gap TỒN TẠI
       → Einstein: reward trực tiếp (P4=0) nhưng gap cần collective (P5=max)
       → By-product (giáo sư, tiền, fame) = Pathway 2, arrives LATER
-      → "Einstein sướng KHI giải, TRƯỚC KHI ai biết" = Pathway 1
+      → "Einstein pleasant KHI giải, TRƯỚC KHI ai biết" = Pathway 1
     
-  🟢 2 con đường: GDP v1.0 §2.2
+  🟢 2 con đường: Gap-Distribution-Profile v1.0 §2.2
   🟢 ACC coherence reward: R8: Bush, Luu, Posner 2000
-  🟢 Architecture B 15-20 năm: IBM v1.0 §1
+  🟢 Compilable Architecture 15-20 năm: Inter-Body-Mechanism v1.0 §1
   🟡 Chain compilation + PFC auto-pilot = framework synthesis
 ```
 
@@ -899,16 +899,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Pre-modern ít "chán" (survival fill gaps daily)
     → = Modern nhiều "chán" (sensory baselines met → higher gaps harder to fill)
     
-  ⭐ RSA × TECHNOLOGY:
-    Technology fill PRIMARILY Type B territory (direct-state hardware):
-      → Clothing: touch comfort (Type B) ✅ filled
-      → AC: temperature (Type B) ✅ filled
-      → Food supply: basic nutrition (Type B component) ✅ filled
-    Technology CANNOT fill Type A evaluation:
-      → "Ngon" = Type A evaluation of food → cần personal compilation
-      → "Đúng" = Type A evaluation of insight → cần personal compilation
-      → = Type A reward CẦN compiled chunks → technology không compile HỘ
-    → Modern remaining gaps = predominantly Type A (evaluation-driven)
+  ⭐ Reward-Signal-Architecture × TECHNOLOGY:
+    Technology fill PRIMARILY Direct-State territory (direct-state hardware):
+      → Clothing: touch comfort (Direct-State) ✅ filled
+      → AC: temperature (Direct-State) ✅ filled
+      → Food supply: basic nutrition (Direct-State component) ✅ filled
+    Technology CANNOT fill Evaluative evaluation:
+      → "Ngon" = Evaluative evaluation of food → cần personal compilation
+      → "Đúng" = Evaluative evaluation of insight → cần personal compilation
+      → = Evaluative reward CẦN compiled chunks → technology không compile HỘ
+    → Modern remaining gaps = predominantly Evaluative (evaluation-driven)
     
   ⭐ KAHNEMAN-DEATON CONNECTION:
     R21: Kahneman & Deaton 2010 (PNAS):
@@ -916,14 +916,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       = ONCE sensory/near-body baselines MET → more money ≠ more happiness
     R22: Killingsworth 2021 (PNAS):
       Income → life satisfaction continues ABOVE $75K (for top earners)
-      = Evaluation (Type A) CONTINUES → "life satisfaction" = PFC evaluation
-      = Emotional well-being (closer to Type B) PLATEAUS
-    → = RSA distinction: A (evaluative, continues) vs B (direct, plateaus)
+      = Evaluation (Evaluative) CONTINUES → "life satisfaction" = PFC evaluation
+      = Emotional well-being (closer to Direct-State) PLATEAUS
+    → = Reward-Signal-Architecture distinction: A (evaluative, continues) vs B (direct, plateaus)
 
-  TYPE B = "HEDONIC FLOOR" (RSA v2.0 §5):
-    → Type B rewards RESISTANT to hedonic treadmill
+  DIRECT-STATE = "HEDONIC FLOOR" (Reward-Signal-Architecture v2.0 §5):
+    → Direct-State rewards RESISTANT to hedonic treadmill
     → "Rich or poor, a hug still feels the same" — B is democratic
-    → "Về già muốn gần con cháu" = Type B resurface when Type A exhausted
+    → "Về già muốn gần con cháu" = Direct-State resurface when Evaluative exhausted
     → R27: Van der Kolk 2014: body-oriented therapy = deliberately activate B
     
   🟡 Technology fill dimension = framework synthesis
@@ -946,7 +946,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     PFC optionally articulate → "tôi đói" / "tôi buồn" / vague "bứt rứt"
     → Felt sense PRECEDES verbal label (R7: Gendlin 1978)
     
-  STEP 2 — ENTITY SCAN (SPM on compiled entities):
+  STEP 2 — ENTITY SCAN (Self-Pattern-Modeling on compiled entities):
     Brain scan Entity-Compiled library: "ai fill được gap này?"
     Self-Pattern-Modeling v3.1 evaluate EACH compiled entity:
       → "Entity X từng fill gap loại này?" (historical)
@@ -955,7 +955,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = Imagine-Final v3.0 applied to entity-gap matching
     
   STEP 3 — MODE FILTER (Agent vs Tool):
-    SPM v3.1 classify entity:
+    Self-Pattern-Modeling v3.1 classify entity:
       TOOL-MODE: predict FUNCTION only
         → "Bưu tá giao hàng" = single function, no state modeling
         → = No Entity-Access potential beyond function
@@ -966,8 +966,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   STEP 4 — PREDICT 3 DIMENSIONS:
     a) REWARD APPROACH/AVOIDANCE: "Gặp entity X → reward hay threat?"
     b) FILL QUALITY: "Entity X fill gap NÀY chính xác không?"
-       → EC nông → predict mờ → uncertain reward
-       → EC sâu → predict rõ → confident reward
+       → Entity-Compiled nông → predict mờ → uncertain reward
+       → Entity-Compiled sâu → predict rõ → confident reward
     c) ACCESS STABILITY: "Entity X có available khi tôi cần?"
        → Mẹ ở nhà = stable. Bạn xa = unstable.
        
@@ -995,11 +995,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Bond-Architecture v1.0 §3.2: gap redirect mechanism
     
   "VÔ THỨC VALENCE KHÁ CHÍNH XÁC":
-    SPM F1 (compiled) predict ACCURATELY → body APPROACH
+    Self-Pattern-Modeling Compiled predict ACCURATELY → body APPROACH
     PFC KHÔNG BIẾT tại sao (compiled = PFC invisible)
     Body ĐÚNG: gặp → vui → CONFIRM prediction
-    = F1 compiled prediction = accurate for WHAT'S COMPILED
-    NHƯNG CÓ THỂ SAI: BP triple bias → predict based on OWN BP, not reality
+    = Compiled prediction = accurate for WHAT'S COMPILED
+    NHƯNG CÓ THỂ SAI: Background-Pattern triple bias → predict based on OWN Background-Pattern, not reality
     → Calibration qua feedback: mismatch → update → more accurate over time
     
   🟡 5-step entity-gap matching process = framework synthesis
@@ -1029,7 +1029,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   "THẤY CON LÀ MẸ VUI" — 4-COMPOUND MECHANISM:
     ① Hardware parental drive = GAP always active (child alive = fill)
-    ② Oxytocin system = SUSTAIN reward (anti-habituation, Type B dominant)
+    ② Oxytocin system = SUSTAIN reward (anti-habituation, Direct-State dominant)
     ③ Child CHANGE daily = prediction-delta > 0 (novelty source → generative)
     ④ Visual confirmation = MULTIPLE spokes fire (face, voice, movement)
     → = ①+②+③+④ = COMPOUND reward from simple visual contact
@@ -1089,7 +1089,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Re-tag: "vợ là tất cả" → MONOPOLIZE Entity-Access to 1 entity
       (all gaps redirected → FRAGILE: entity lost = ALL gaps unfilled)
       
-  🟢 Schema installation: GDP v1.0 §4 Tầng 3
+  🟢 Schema installation: Gap-Distribution-Profile v1.0 §4 Tầng 3
   🟢 Compiled suppress: PFC-Operations v1.0 §4.2
   🟢 Social proof: R26: Cialdini 1984
   🟡 3 bias mechanisms = framework synthesis
@@ -1185,20 +1185,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
   TÌNH HUỐNG:
     Einstein dành hàng năm giải special relativity.
-    Sướng CỰC KỲ khi tìm ra E=mc² — TRƯỚC KHI ai biết.
+    Intensely pleasant khi tìm ra E=mc² — TRƯỚC KHI ai biết.
     Tiền, giáo sư, Nobel đến SAU.
     
   PHÂN TÍCH 5-PARAMETER:
     P1 = ACC coherence detection (pattern inconsistency in physics)
     P2 = Generative (mỗi insight → new gaps → perpetual)
-    P3 = ~95A/5B (cortical evaluation dominant)
+    P3 = ~95/5 (cortical evaluation dominant)
     P4 = 0 (Pathway 1: coherence → opioid trực tiếp — chain = 0!)
     P5 = MAX (centuries of collective physics knowledge cần tồn tại)
     → P4 VÀ P5 DECOUPLE: reward trực tiếp, nhưng gap cần collective
     
   FRAMEWORK PREDICTION:
     → By-product (fame, money) = Pathway 2, arrives LATER
-    → Einstein KHÔNG CẦN Pathway 2 để sướng (Pathway 1 đủ)
+    → Einstein KHÔNG CẦN Pathway 2 để pleasant (Pathway 1 đủ)
     → NHƯNG gap KHÔNG TỒN TẠI nếu collective chưa có physics
     → "Chưa biết = không có gap" at population level
 ```
@@ -1260,13 +1260,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ═══════════════════════════════════════
 
   Gap = f(chunk network): Gap-Direction v2.0 §1.1
-  3 chunk dynamics (Shift, Miss, Gap): BFM v2.0 §3
+  3 chunk dynamics (Shift, Miss, Gap): Body-Feedback-Mechanism v2.0 §3
   Satiety hormones (leptin, ghrelin): established endocrinology
   Weber-Fechner law: established psychophysics
   Opioid + touch: CT afferent (Löken 2009)
-  Type A/B reward distinction: Berridge 2003, Loseth 2019, Fuss 2015
-  A₀→A₃ gradient: RSA v2.0 §2
-  5 reward profiles: RSA v2.0 §4
+  Evaluative/Direct-State reward distinction: Berridge 2003, Loseth 2019, Fuss 2015
+  E₀→E₃ gradient: Reward-Signal-Architecture v2.0 §2
+  5 reward profiles: Reward-Signal-Architecture v2.0 §4
   Hedonic adaptation: Brickman & Campbell 1971
   VTA prediction-delta: Schultz 1997
   Income-wellbeing plateau: Kahneman & Deaton 2010
@@ -1275,10 +1275,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Expert intuition = compiled: Klein 1998
   Felt sense before verbal: Gendlin 1978
   ACC conflict/error: Bush et al. 2000
-  GDP 4 trục: Gap-Distribution-Profile v1.0 §3
+  Gap-Distribution-Profile 4 trục: Gap-Distribution-Profile v1.0 §3
   Needs not hierarchical: Max-Neef 1991
-  2 con đường serve body-base: GDP v1.0 §2.2
-  Architecture B 15-20 năm: IBM v1.0 §1
+  2 con đường serve body-base: Gap-Distribution-Profile v1.0 §2.2
+  Compilable Architecture 15-20 năm: Inter-Body-Mechanism v1.0 §1
   Self-expansion: Aron & Aron 1996, 2000
   SDT intrinsic/extrinsic: Deci & Ryan 2000
   Division of labor: Durkheim 1893
@@ -1292,7 +1292,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   3 satiation profiles RENAME (Cyclic/Tonic/Generative)
   Profile transitions + compounds
-  RSA Type A:B integration into gap tables
+  Reward-Signal-Architecture Evaluative:B integration into gap tables
   5-parameter per-gap model (P1-P5)
   P4 × P5 independence (chain vs dependency)
   ENGINE/ROAD/VEHICLE architecture
@@ -1331,12 +1331,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Gap-Direction v2.0 | §1 definition, §7 formation | FOUNDATION — gap concept |
 | Gap-Distribution-Profile v1.0 | §2 spectrum, §3 (4 trục), §4 (4 tầng) | FOUNDATION — individual variation + 2 con đường |
 | Body-Feedback-Mechanism v2.0 | §1 Body-Need, §3 (3 dynamics) | FOUNDATION — gap signal mechanism |
-| Reward-Signal-Architecture v2.0 | §1 (Type A/B), §2 (A₀→A₃), §4 (5 profiles) | FOUNDATION — reward types |
+| Reward-Signal-Architecture v2.0 | §1 (Evaluative/Direct-State), §2 (E₀→E₃), §4 (5 profiles) | FOUNDATION — reward types |
 | Reward-Calibration v1.1 | §1-§4 (Goldilocks, satiation) | FOUNDATION — reward dynamics |
-| Inter-Body-Mechanism v1.0 | §1 (Architecture B), §5 (by-product match) | FOUNDATION — architecture |
+| Inter-Body-Mechanism v1.0 | §1 (Compilable Architecture), §5 (by-product match) | FOUNDATION — architecture |
 | Entity-Compiled v1.0 | §5 (Dunbar), §8 (Grief A+B+C) | DOWNSTREAM — entity-specific dynamics |
 | Entity-Access v1.2 | §2 (gradient), §3 (3-layer) | DOWNSTREAM — entity-access mechanism |
-| Self-Pattern-Modeling v3.1 | §1 (F1/F2), §3 (per-agent valence) | MECHANISM — entity evaluation |
+| Self-Pattern-Modeling v3.1 | §1 (Compiled/Fresh), §3 (per-agent valence) | MECHANISM — entity evaluation |
 | Imagine-Final v3.0 | §1 (constructive simulation), §3 (body pre-feel) | MECHANISM — entity-gap matching |
 | Connection v4.0 | §3 (3 Generative Primitives) | CONNECTOR — connection emerge |
 | PFC-Operations v1.0 | §4 (3 outcomes), §6 (Compiled Quality) | MECHANISM — suppress + compiled quality |

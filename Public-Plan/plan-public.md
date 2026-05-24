@@ -125,7 +125,7 @@ KHÁC BIỆT VỚI SELF-HELP:
     → (Core-Software.md §PFC, Ask-AI.md §1)
 
   ③ Làm sao tự tạo drive khi external calibration mất?
-    → Self-Created Threat (Type C trust-compile) HOẶC Novelty-pull.
+    → Self-Created Threat (Trust Compile) HOẶC Novelty-pull.
     → Cả 2 = SKILL có thể học, không phải trait cố định.
     → (Self-Created-Threat.md, Novelty.md)
 
@@ -377,7 +377,7 @@ SAU KHI ACCEPTED:
 > ③ **Tại sao KHÔNG mass audience trực tiếp:**
 >   → Post headline lên mass community → người đọc 2 phút → take away phiên bản SAI
 >   → Apply sai → không work → blame framework → mất credibility học thuật
->   → = Type C compile chính framework cảnh báo (tin headline mà không hiểu mechanism)
+>   → = Trust Compile chính framework cảnh báo (tin headline mà không hiểu mechanism)
 >   → = Tác giả tự gây ra cái mà framework khuyên tránh
 >   → Chuyên gia thấy framework "viral" ở mass audience → ngại engage (coi là pop science)
 >   → = WORST OUTCOME: mất cả academic credibility lẫn practical value
@@ -478,7 +478,7 @@ TIER 2 — DEDICATED LEARNERS (người thực sự chú tâm tìm hiểu)
 
   ⑦ r/homeschool (~226K) — framework-seeking, tự chủ cao
      Tone: practical, "here's WHY certain approaches work better"
-     Focus: Type A/B/C compile mix, hardware mismatch, prerequisite gap
+     Focus: 3 Compile Types mix, hardware mismatch, prerequisite gap
      Verify: homeschool parents có thể APPLY mechanism → report?
      Tại sao đây: parents tự chủ cao nhất, chủ động tìm framework
 
@@ -521,7 +521,7 @@ THỨ TỰ ƯU TIÊN (evidence mạnh → yếu dần):
 
   ① DOPAMINE ≠ REWARD (evidence MẠNH NHẤT)
      Research backing: Berridge (incentive salience), Schultz (prediction signal)
-     Framework: ENDORSE Berridge + mở rộng (7-step, H10, Type A/B)
+     Framework: ENDORSE Berridge + mở rộng (7-step, H10, Evaluative/Direct-State)
      Platform: r/neuroscience, r/cogsci, The Spike (Medium)
      Source: Clarification/Dopamine-Is-Not-Reward.md
 
@@ -533,7 +533,7 @@ THỨ TỰ ƯU TIÊN (evidence mạnh → yếu dần):
 
   ③ MIRROR NEURONS ≠ EMPATHY MODULE (evidence mạnh, Hickok 2014)
      Research backing: Hickok "The Myth of Mirror Neurons"
-     Framework: SPM (Self-Pattern-Match) thay thế
+     Framework: Self-Pattern-Modeling (Self-Pattern-Modeling) thay thế
      Platform: r/neuroscience, r/cogsci
      Source: Clarification/Mirror-Neuron-Rejection.md
 
@@ -564,10 +564,10 @@ THỨ TỰ ƯU TIÊN (evidence mạnh → yếu dần):
      Stakes: "Millions of children tagged 'approach-negative' on entire domains
        because HOW they were taught, not WHAT."
 
-  ⑦ TYPE A/B/C COMPILE MIX: TẠI SAO "HỌC RỒI MÀ KHÔNG LÀM ĐƯỢC"
+  ⑦ 3 COMPILE TYPES MIX: TẠI SAO "HỌC RỒI MÀ KHÔNG LÀM ĐƯỢC"
      Research backing: procedural vs declarative memory, expertise research
-     Framework: trường học ~90% Type C (nghe + tin), thiếu Type A (trải nghiệm).
-       Type C = fragile — sụp khi authority thay đổi hoặc AI thay thế.
+     Framework: trường học ~90% Trust Compile (nghe + tin), thiếu Experience Compile (trải nghiệm).
+       Trust Compile = fragile — sụp khi authority thay đổi hoặc AI thay thế.
      Platform: r/ScienceBasedParenting, r/homeschool
      Source: Education/01-Mechanism.md
      Stakes: "Finland vs East Asia PISA: same scores, VERY different
@@ -616,7 +616,7 @@ MEDIUM — CURATED PUBLICATIONS (submit bài):
     Tại sao: publication NÀY curate chất lượng → audience tin tưởng source
 
   → Age of Awareness — education + learning
-    Topics: Direction > Level, Type A/B/C compile mix
+    Topics: Direction > Level, 3 Compile Types mix
     Audience: educators + parents quan tâm evidence-based
     Tại sao: audience đã self-select "muốn hiểu WHY" → dedicated learners
 
@@ -709,7 +709,7 @@ sẽ được community members TỰ PROPAGATE — tác giả KHÔNG chủ độ
 
 TẠI SAO COMMUNITY LÀM TỐT HƠN:
   → Họ biết AUDIENCE → adapt content fit
-  → Họ HIỂU framework (Type A/B compile, không phải Type C headline)
+  → Họ HIỂU framework (Experience/Expertise Compile, không phải Trust Compile headline)
     → Content chính xác hơn bất kỳ bài tác giả viết cho mass audience
   → Họ có CREDIBILITY trong community CỦA HỌ
     → Teacher nói với teacher > researcher nói với teacher

@@ -1,11 +1,11 @@
 ---
-title: Compile-Taxonomy — 3 Loại Compile + 6 Trade-offs
-version: 1.1
+title: Compile-Taxonomy — 3 Compile Types + 6 Trade-offs
+version: 2.0
 created: 2026-05-08
-updated: 2026-05-10 (v1.1 — §3 reward implication cross-ref)
-status: v1.1
+updated: 2026-05-23 (v2.0 — Rename Loại A/B/C → Experience/Expertise/Trust Compile)
+status: v2.0
 scope: |
-  PHÂN LOẠI CHÍNH THỨC 3 loại compile (A/B/C) + 6 trade-offs.
+  PHÂN LOẠI CHÍNH THỨC 3 Compile Types (Experience/Expertise/Trust) + 6 trade-offs.
   Giải đáp: tại sao brain compile ngắn, tại sao "biết mà không làm",
   tại sao collective chain gãy → cá nhân gánh.
   DỰA TRÊN Drill sessions S1-S6 (§2, §3, §4, §7, §19, §22).
@@ -17,15 +17,15 @@ purpose: |
   Body-Base.md §4.2 reference đến file này cho chi tiết.
 parent: Chunk.md v2.1 (§2 compile mechanisms = foundation)
 related: |
-  Body-Base.md §4 — summary 3 Loại (reference tới file này)
-  Collective-Body.md §2 — 4 compile pathways + Type C × 3 cấp
-  VP v1.4 §4 — clarification: VP chains = explanatory, not processing
+  Body-Base.md §4 — summary 3 Compile Types (reference tới file này)
+  Collective-Body.md §2 — 4 compile pathways + Trust Compile × 3 cấp
+  Valence-Propagation v1.4 §4 — clarification: Valence-Propagation chains = explanatory, not processing
   PFC-Function.md v1.1 §4/§6/§9 — PFC = director, confabulation
   Chunk.md v2.1 §2 — 4 compile mechanisms + trust gate + external install
   Blackbox-Map.md — 5 gaps + 2 complexity dimensions (supersedes Framework-Boundaries.md)
 sources: |
   Drill-Compile-Short-Collective.md §2 — 3 hardware constraints
-  Drill-Compile-Short-Collective.md §3 — 3 Loại A/B/C
+  Drill-Compile-Short-Collective.md §3 — 3 Compile Types (Experience/Expertise/Trust)
   Drill-Compile-Short-Collective.md §4 — Trust-to-compile 5 bước
   Drill-Compile-Short-Collective.md §7 — 6 trade-offs
   Drill-Compile-Short-Collective.md §19 — PFC = director, body = compiler
@@ -35,7 +35,7 @@ language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Compile-Taxonomy — 3 Loại Compile + 6 Trade-offs
+# Compile-Taxonomy — 3 Compile Types + 6 Trade-offs
 
 > **Cùng là "đi học toán" — 4 đứa trẻ, 4 cơ chế compile KHÁC NHAU.**
 >
@@ -56,12 +56,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 - §0 — Vị Trí Trong Framework
 - §1 — Tại Sao Brain Compile Ngắn: 3 Hardware Constraints
-- §2 — 3 Loại Compile (A/B/C): Core Taxonomy
+- §2 — 3 Compile Types: Core Taxonomy
 - §3 — 4 Compile Pathways: Cùng Output, Khác Cơ Chế
 - §4 — Trust-to-Compile: 5 Bước
 - §5 — PFC = Director, Body = Compiler
 - §6 — 6 Trade-offs Của Compile Ngắn
-- §7 — Interactions: A vs C, "Biết Mà Không Làm", Chain Break
+- §7 — Interactions: Experience vs Trust, "Biết Mà Không Làm", Chain Break
 - §8 — Honest Assessment
 - §9 — Cross-References
 
@@ -77,10 +77,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Chunk.md §2 đã mô tả 4 compile MECHANISMS (repetition, emotional peak,
      multi-modal, sleep) + external install.
 
-     Nhưng CHƯA phân loại: cùng 4 mechanisms đó HOẠT ĐỘNG THEO MẤY LOẠI?
+     Nhưng CHƯA phân loại: cùng 4 mechanisms đó HOẠT ĐỘNG THEO MẤY KIỂU?
      Brain compile ngắn → tại sao? Trade-offs gì?
 
-     → File này: 3 Loại (A/B/C) = taxonomy TRÊN CƠ SỞ 4 mechanisms.
+     → File này: 3 Compile Types = taxonomy TRÊN CƠ SỞ 4 mechanisms.
      → GAP 11 (CRITICAL) → RESOLVED.
 
   2. "PFC-DIRECTED COMPILE" TERMINOLOGY:
@@ -97,7 +97,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   VỊ TRÍ TRONG FILE HIERARCHY:
 
     Body-Base.md §4 (summary) → [file này] (chi tiết taxonomy)
-    Chunk.md §2 (4 mechanisms) → [file này] (3 loại SỬ DỤNG 4 mechanisms)
+    Chunk.md §2 (4 mechanisms) → [file này] (3 Compile Types SỬ DỤNG 4 mechanisms)
     Collective-Body.md §2 (4 pathways × 3 cấp) → [file này] (chi tiết pathways)
     PFC-Function.md §9 (PFC tạo context) → [file này] (formalize director/compiler)
 
@@ -173,12 +173,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §2 — 3 Loại Compile (A/B/C): Core Taxonomy
+## §2 — 3 Compile Types: Core Taxonomy
 
-### §2.1 — Loại A: Direct Short Compile (~90% behavior)
+### §2.1 — Experience Compile (~90% behavior)
 
 ```
-🟡🟢 LOẠI A — BODY EXPERIENCE → BODY COMPILE → CHUNKS FORM (Drill §3):
+🟡🟢 EXPERIENCE COMPILE — BODY EXPERIENCE → BODY COMPILE → CHUNKS FORM (Drill §3):
 
 
   MECHANISM:
@@ -201,7 +201,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Lưu ý: 2 VD cuối TRÔNG giống nhau nhưng KHÁC mechanism:
     [học → mẹ khen → ấm] = approach (positive reinforcement)
     [không học → mẹ mắng] = avoidance (negative reinforcement)
-    = CẢ HAI đều Loại A (direct, 1-2 nodes), chỉ khác direction.
+    = CẢ HAI đều Experience Compile (direct, 1-2 nodes), chỉ khác direction.
 
 
   ĐẶC ĐIỂM:
@@ -220,13 +220,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        Chỉ compile cái ĐÃ trải nghiệm trực tiếp
        Không thể compile kiến thức abstract (e.g., vật lý, lịch sử)
        Không thể compile domain chưa tiếp xúc
-       → Nếu CHỈ Loại A → bị giới hạn bởi personal experience
+       → Nếu CHỈ Experience Compile → bị giới hạn bởi personal experience
 
 
-  LOẠI A = PHẦN LỚN CUỘC SỐNG:
+  EXPERIENCE COMPILE = PHẦN LỚN CUỘC SỐNG:
     Habit, skill, routine, emotional conditioning
-    ~90% behavior hàng ngày = Loại A compiled patterns fire tự động
-    = Chunk.md §8.1: vô thức ~95% ≈ Loại A + Loại C compiled running
+    ~90% behavior hàng ngày = Experience compiled patterns fire tự động
+    = Chunk.md §8.1: vô thức ~95% ≈ Experience + Trust compiled running
 
   🟢 Hebbian learning: Hebb 1949
   🟢 Flashbulb memories: Brown & Kulik 1977
@@ -234,10 +234,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 ~90% estimate: framework synthesis (Drill §3)
 ```
 
-### §2.2 — Loại B: Compiled Expertise (~5% behavior)
+### §2.2 — Expertise Compile (~5% behavior)
 
 ```
-🟡🟢 LOẠI B — PFC-DIRECTED COMPILE QUA NHIỀU NĂM (Drill §3 + §19):
+🟡🟢 EXPERTISE COMPILE — PFC-DIRECTED COMPILE QUA NHIỀU NĂM (Drill §3 + §19):
 
 
   MECHANISM:
@@ -256,12 +256,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Einstein: decades → E=mc² = 1 meta-chunk (bên trong = decades compiled)
     Nhạc sĩ jazz: nghe hợp âm → ngón tay tự phản ứng = compiled motor-auditory
 
-    VP §5b Tầng 3: PFC "thấy ngắn" nhưng thực ra = compiled CỰC SÂU
+    Valence-Propagation §5b Tầng 3: PFC "thấy ngắn" nhưng thực ra = compiled CỰC SÂU
     → 4×4×4 = 64 thông tin gốc compressed vào 1 PFC slot
     → Expert "thấy 4 thứ" = thực ra thấy CẢ VŨ TRỤ domain đó
 
 
-  CÁCH LOẠI B HOẠT ĐỘNG (Drill §19 + §22E):
+  CÁCH EXPERTISE COMPILE HOẠT ĐỘNG (Drill §19 + §22E):
 
     PFC KHÔNG compile — PFC DIRECT body compile:
 
@@ -296,25 +296,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ❌ NHƯNG: DOMAIN-SPECIFIC:
        Einstein = expert vật lý + novice cooking
        Đổi domain → chunks mới chưa compile → chain ngắn lại
-       = Loại B KHÔNG transfer across domains
+       = Expertise Compile KHÔNG transfer across domains
 
 
-  LOẠI B = EXPERTISE:
+  EXPERTISE COMPILE = ~5%:
     ~5% behavior = khi cá nhân hoạt động TRONG expert domain
-    Ngoài domain → quay về Loại A + Loại C
-    → MỌI NGƯỜI = Loại B ở VÀI domain + Loại A/C ở HẦU HẾT domain
+    Ngoài domain → quay về Experience + Trust Compile
+    → MỌI NGƯỜI = Expertise ở VÀI domain + Experience/Trust ở HẦU HẾT domain
 
   🟢 Expert chess 50,000+ patterns: Chase & Simon 1973
   🟢 Neural efficiency (expert fire ÍT hơn): Haier 1992, Neubauer & Fink 2009
   🟢 Deliberate practice ~10 years: Ericsson et al. 1993
-  🟡 Pyramidal compression model: framework synthesis (VP §5b Tầng 3)
+  🟡 Pyramidal compression model: framework synthesis (Valence-Propagation §5b Tầng 3)
   🟡 "PFC-directed body compile": framework terminology (Drill §19)
 ```
 
-### §2.3 — Loại C: Installed + Collective
+### §2.3 — Trust Compile: Installed + Collective
 
 ```
-🟡 LOẠI C — TRUST → INSTALL SHORT + COLLECTIVE HOLD LONG (Drill §3 + §22):
+🟡 TRUST COMPILE — TRUST → INSTALL SHORT + COLLECTIVE HOLD LONG (Drill §3 + §22):
 
 
   MECHANISM:
@@ -367,56 +367,56 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ❌ NHƯNG: DỄ BỊ EXPLOIT:
        Trust wrong source → compiled pattern sai
-       VP §2 ④: trust = per-entity, MODULATE toàn bộ valence profile
+       Valence-Propagation §2 ④: trust = per-entity, MODULATE toàn bộ valence profile
        → Trust CAO trên NGƯỜI → TẤT CẢ từ người đó amplified
        → = KOL cross-domain trust transfer (Drill §22D)
        → = Cult install qua trust weaponized
 
 
-  ⭐⭐ LOẠI C = PHẦN LỚN BEHAVIOR HÀNG NGÀY — FRAMEWORK CHƯA NHẬN RA ĐỦ:
+  ⭐⭐ TRUST COMPILE = PHẦN LỚN BEHAVIOR HÀNG NGÀY — FRAMEWORK CHƯA NHẬN RA ĐỦ:
 
     Ngôn ngữ, đạo đức, skill xã hội, world knowledge,
     religious beliefs, political views, dietary habits,
     fashion norms, career expectations, parenting styles
-    = TẤT CẢ Loại C installed qua trust từ collective.
+    = TẤT CẢ Trust Compile installed qua trust từ collective.
 
-    Trước drill: framework focus chủ yếu Loại A + Loại B.
-    Drill §3 insight: Loại C = CƠ CHẾ CHÍNH cho ~phần lớn social behavior.
-    → Cá nhân "tự do lựa chọn" phần lớn = Loại C installed + PFC confabulate.
+    Trước drill: framework focus chủ yếu Experience + Expertise Compile.
+    Drill §3 insight: Trust Compile = CƠ CHẾ CHÍNH cho ~phần lớn social behavior.
+    → Cá nhân "tự do lựa chọn" phần lớn = Trust Compile installed + PFC confabulate.
 
 
-  3 LOẠI × TƯƠNG TÁC:
+  3 COMPILE TYPES × TƯƠNG TÁC:
 
-    LOẠI A + C = ~95% BEHAVIOR HÀNG NGÀY:
-      Type A: [experience → compile short]
-      Type C: [trust source → compile short]
+    EXPERIENCE + TRUST = ~95% BEHAVIOR HÀNG NGÀY:
+      Experience: [experience → compile short]
+      Trust: [trust source → compile short]
       → CẢ HAI compile ngắn. CẢ HAI chạy tự động.
-      → Phân biệt: A = internal experience. C = external install.
+      → Phân biệt: Experience = internal experience. Trust = external install.
       → NHƯNG: Chunk §1.1 — NO SOURCE TAG → body treat BÌNH ĐẲNG.
 
-    LOẠI B = ~5%:
+    EXPERTISE = ~5%:
       Chỉ khi CÁ NHÂN hoạt động trong EXPERT DOMAIN
-      → Ngoài domain: quay về A + C
+      → Ngoài domain: quay về Experience + Trust
 
     ⭐ "Compile ngắn" = DOMINANT mode, không phải ONLY mode = SPECTRUM
 
-  🟡 Loại C dominance insight: framework synthesis (Drill §3)
+  🟡 Trust Compile dominance insight: framework synthesis (Drill §3)
   🟢 Cultural transmission: Boyd & Richerson 1985
   🟢 Social learning: Bandura 1977
   🟢 Trust as gate: established social psychology
 ```
 
-### §2.4 — Bảng So Sánh 3 Loại
+### §2.4 — Bảng So Sánh 3 Compile Types
 
 ```
-🟡 COMPARISON TABLE — 3 LOẠI COMPILE:
+🟡 COMPARISON TABLE — 3 COMPILE TYPES:
 
   ┌────────────────────────────────────────────────────────────────────┐
-  │                    │ LOẠI A          │ LOẠI B          │ LOẠI C    │
-  │                    │ Direct Short    │ Compiled Expert │ Installed │
+  │                    │ EXPERIENCE      │ EXPERTISE       │ TRUST     │
+  │                    │ Direct Short    │ PFC-Directed    │ Installed │
   ├────────────────────┼─────────────────┼─────────────────┼───────────┤
   │ % behavior         │ ~90%            │ ~5%             │ overlap   │
-  │                    │                 │ (in-domain)     │ với A     │
+  │                    │                 │ (in-domain)     │ (xem ⚠️)  │
   ├────────────────────┼─────────────────┼─────────────────┼───────────┤
   │ Chain length (C1)  │ 1-2 nodes       │ 3-4 visible     │ 1-2      │
   │                    │                 │ (compiled deep) │ nodes     │
@@ -448,12 +448,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⚠️ LƯU Ý QUAN TRỌNG VỀ ~90%/~5%:
 
     Số liệu ƯỚC LƯỢNG, không chính xác.
-    "~90% Loại A" = PHẦN LỚN behavior hàng ngày là direct compiled.
-    NHƯNG: Loại C OVERLAP với Loại A ở nhiều behavior:
-      [ăn ngon → ấm] = Loại A (direct)
-      NHƯNG "ngon" = partially Loại C (cultural definition of "ngon")
-    → Ranh giới A/C KHÔNG binary → SPECTRUM.
-    → ~90% + ~5% + C = KHÔNG cộng thành 100% vì overlapping.
+    "~90% Experience" = PHẦN LỚN behavior hàng ngày là direct compiled.
+    NHƯNG: Trust OVERLAP với Experience ở nhiều behavior:
+      [ăn ngon → ấm] = Experience (direct)
+      NHƯNG "ngon" = partially Trust (cultural definition of "ngon")
+    → Ranh giới Experience/Trust KHÔNG binary → SPECTRUM.
+    → ~90% + ~5% + Trust = KHÔNG cộng thành 100% vì overlapping.
 
   🟡 Percentage estimates: framework approximation, not precise measurement
 ```
@@ -466,14 +466,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 4 PATHWAYS — TEST CASE: "CÙNG LÀ HỌC SINH ĐI HỌC TOÁN" (Drill §22A):
 
 
-  VP §4 mô tả chain: [toán → điểm → đại học → việc → lương → body-base]
-  = CẤP 3 analysis (explanatory, VP v1.4 §4 clarification).
+  Valence-Propagation §4 mô tả chain: [toán → điểm → đại học → việc → lương → body-base]
+  = CẤP 3 analysis (explanatory, Valence-Propagation v1.4 §4 clarification).
   ĐÚNG nhưng KHÔNG phải cách brain process ở CẤP 1.
 
   THỰC TẾ — 4 đứa trẻ, 4 compile pathways KHÁC NHAU:
 
 
-  ① HARDWARE FIT (Loại A — direct short):
+  ① HARDWARE FIT (Experience Compile — direct short):
 
      [toán → brain fire → Goldilocks zone → VTA → opioid]
      = "Tự thấy thú vị." CẤP 1 direct.
@@ -487,7 +487,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → = Chunk system phù hợp + domain → Goldilocks → reward
 
 
-  ② TRUST + MODERATE FIT (Loại C — installed + verified):
+  ② TRUST + MODERATE FIT (Trust Compile — installed + verified):
 
      Bố mẹ nói "học quan trọng" → trust → compile [học → tốt]
      + Tự học → hợp hardware → cost vừa phải → status trên lớp
@@ -495,14 +495,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      = CẤP 2: bố mẹ hold chain dài [học → tương lai → body-base]
      Trust: HIGH (bố mẹ). Verify: PARTIAL (tự trải nghiệm confirm).
 
-     → COMPOUND: Loại C (trust install) + Loại A (direct verify)
+     → COMPOUND: Trust Compile (trust install) + Experience Compile (direct verify)
      → = Phổ biến nhất? Nhiều học sinh = MIX pathway ①②
 
 
-  ③ SOCIAL DEFAULT (Loại C — installed pure):
+  ③ SOCIAL DEFAULT (Trust Compile — installed pure):
 
      "Thấy ai cũng đi học → đương nhiên mình cũng đi"
-     = VP §3 ③ schema inheritance từ cộng đồng
+     = Valence-Propagation §3 ③ schema inheritance từ cộng đồng
      = CẤP 1: [mọi người đều học → bình thường → tôi cũng] (1 node)
      Trust source: QUANTITY (social proof — Cialdini 1984)
      Không cần hardware fit. Không cần chain logic.
@@ -512,7 +512,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → Chỉ cần social environment → body auto-conform
 
 
-  ④ THREAT AVOIDANCE (Loại A — direct short):
+  ④ THREAT AVOIDANCE (Experience Compile — direct short):
 
      [không học → mẹ mắng / bị đánh → L0 threat → học để avoid]
      = CẤP 1 direct. Chain length: 1-2 nodes.
@@ -521,7 +521,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
      → Chunk.md §2.4: threat direction → compile WITH avoidance association
      → = Cortisol-tagging: compiled [không học → nguy hiểm]
-     → = Approach vs avoidance: CẢ HAI Loại A, khác DIRECTION
+     → = Approach vs avoidance: CẢ HAI Experience Compile, khác DIRECTION
 
 
   ⭐ HỘI TỤ — 4 PATHWAYS, 1 OUTPUT:
@@ -529,7 +529,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      4 pathways KHÁC NHAU → cùng output: "đi học"
      TẤT CẢ compile SHORT ở CẤP 1 (1-2 nodes)
      Chain DÀI [toán → ... → body-base] NẰM Ở CẤP 2 (collective)
-     VP §4 GIẢI THÍCH (CẤP 3) tại sao TẤT CẢ đều đi học
+     Valence-Propagation §4 GIẢI THÍCH (CẤP 3) tại sao TẤT CẢ đều đi học
 
      → "Trưởng thành vẫn có công việc (hầu hết)" =
         CẤP 2 (collective infrastructure) HOLD chain dài cho cá nhân
@@ -566,7 +566,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §4 — Trust-to-Compile: 5 Bước
 
 ```
-🟡 LOẠI C COMPILE QUA 5 BƯỚC CỤ THỂ (Drill §4):
+🟡 TRUST COMPILE QUA 5 BƯỚC CỤ THỂ (Drill §4):
 
 
   ⭐ NGUYÊN TẮC CỐT LÕI:
@@ -616,7 +616,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     KHÔNG qua PFC deliberate linking
     MÀ QUA vô thức compile tự động (~95% — PFC-Function §8)
     = Hebbian LTP: neurons fire together → wire together
-    = Trust tag trên source → AMPLIFY compile rate (VP §2)
+    = Trust tag trên source → AMPLIFY compile rate (Valence-Propagation §2)
 
 
   BƯỚC 4 — BODY HÀNH ĐỘNG THEO COMPILED PATTERN:
@@ -629,13 +629,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   BƯỚC 5 — PFC TRẢ LỜI (POST-HOC) NẾU AI HỎI "TẠI SAO":
 
-    PFC KHÔNG biết full chain → confabulation (VP §7, PFC-Function §6)
+    PFC KHÔNG biết full chain → confabulation (Valence-Propagation §7, PFC-Function §6)
     PFC label ≠ actual mechanism
 
     VD: "Tại sao bạn đi chùa?"
     PFC: "vì tôi tin Phật" / "vì bình an" / "vì gia đình truyền thống"
-    THẬT: trust source (mẹ/cộng đồng) → compile [chùa → ấm] (Loại C)
-    + Repetition (đi nhiều lần) → compile deep (Loại A confirm)
+    THẬT: trust source (mẹ/cộng đồng) → compile [chùa → ấm] (Trust Compile)
+    + Repetition (đi nhiều lần) → compile deep (Experience Compile confirm)
     + PFC confabulate "lý do" = label post-hoc, KHÔNG phải mechanism
 
 
@@ -744,23 +744,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Thuần body (PFC ≈ 0%): bé bú mẹ, phản xạ rụt tay, Pavlov's dog
     PFC thấp (direct only):  trẻ chơi đất nặn, routine tập thể dục
     PFC trung bình (hold):   học sinh làm toán, thợ mộc kỹ thuật mới
-    PFC cao (imagine+check):  nhà văn, kỹ sư, Einstein (Loại B)
+    PFC cao (imagine+check):  nhà văn, kỹ sư, Einstein (Expertise Compile)
 
     ĐẶC ĐIỂM CHUNG: actual compilation = LUÔN body
     PFC CAO = body được DIRECT tốt hơn, KHÔNG phải PFC compile nhiều hơn
 
-    = Loại A: thuần body → PFC thấp (spectrum trái)
-    = Loại B: PFC trung bình → PFC cao (spectrum phải)
-    = Loại C: PFC ~ chọn trust ai (vai trò khác: gate, không direct)
+    = Experience Compile: thuần body → PFC thấp (spectrum trái)
+    = Expertise Compile: PFC trung bình → PFC cao (spectrum phải)
+    = Trust Compile: PFC ~ chọn trust ai (vai trò khác: gate, không direct)
 
 
   ⭐ TERMINOLOGY CHÍNH THỨC (GAP 14 RESOLVED):
 
     ❌ "PFC compile" = SAI (PFC không compile)
     ❌ "Brain process chain dài" = SAI (PFC 4±1 limit)
-    ✅ "PFC-directed body compile" = Loại B = thuật ngữ CHÍNH XÁC
-    ✅ "Trust-gated body compile" = Loại C = thuật ngữ CHÍNH XÁC
-    ✅ "Direct body compile" = Loại A = thuật ngữ CHÍNH XÁC
+    ✅ "PFC-directed body compile" = Expertise Compile = thuật ngữ CHÍNH XÁC
+    ✅ "Trust-gated body compile" = Trust Compile = thuật ngữ CHÍNH XÁC
+    ✅ "Direct body compile" = Experience Compile = thuật ngữ CHÍNH XÁC
 
   🟢 PFC from birth online: Hodel 2018 (5 empirical pillars)
   🟢 Motor imagery → body response: Jeannerod 2001
@@ -788,7 +788,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       "Đầu tư bitcoin = giàu" (nhiều người nói) → social trust giả → mất tiền
       Cult: install chain qua trust → compile SÂU → weaponized trust
 
-    Root cause: Loại C bypass verification VÌ trust = gate.
+    Root cause: Trust Compile bypass verification VÌ trust = gate.
     Trust ĐÚNG → compile đúng → tiết kiệm. Trust SAI → compile sai → tốn kém.
 
     🟢 Cult persuasion: Cialdini 2006
@@ -842,16 +842,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
       "Tại sao sợ thay đổi?"
         PFC: "lười" / "thiếu tự tin"
-        THẬT: compiled baseline + threat cortisol + Background Pattern
+        THẬT: compiled baseline + threat cortisol + Background-Pattern
         → PFC label "lười" = MISATTRIBUTE → fix SAI ("cần cố gắng hơn")
 
     Root cause: NO SOURCE TAG (Chunk §1.1) + confabulation (PFC-Function §6).
-    → PFC CÓ THỂ confabulate về cả CẢ 3 LOẠI compile cùng lúc.
+    → PFC CÓ THỂ confabulate về cả 3 Compile Types cùng lúc.
 
 
   T5 — PHỤ THUỘC COLLECTIVE (collective gãy → individual gánh):
 
-    Loại C compile = individual SHORT + collective LONG
+    Trust Compile = individual SHORT + collective LONG
     → Khi collective chain GÃY → individual thiệt hại mà KHÔNG biết tại sao
 
     Ví dụ:
@@ -865,7 +865,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Chế độ sụp đổ: [tuân thủ → được bảo vệ] GÃY → existential crisis
         → Chain TOÀN BỘ collapse → Meaning.md anchor disrupted
 
-    Root cause: Loại C = individual KHÔNG hold chain → KHÔNG biết gãy ở đâu.
+    Root cause: Trust Compile = individual KHÔNG hold chain → KHÔNG biết gãy ở đâu.
     → PFC tìm lý do → thường blame MÌNH (vì PFC chỉ thấy Cấp 1).
     → = "Tôi tệ" thay vì "chain collective gãy" = MISATTRIBUTE phổ biến.
 
@@ -873,24 +873,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   T6 — "BIẾT MÀ KHÔNG LÀM" (PFC logic ≠ compiled pattern):
 
     PFC chain logic "nên làm X" (Type 4 link) →
-    NHƯNG body compiled [KHÔNG X → thoải mái] (Loại A)
+    NHƯNG body compiled [KHÔNG X → thoải mái] (Experience Compile)
 
     Ví dụ:
       "Biết nên tập thể dục" → body: compiled [sáng → ngủ → thoải mái]
-        → PFC chain = LOẠI C (installed). Body = LOẠI A (direct). LOẠI A thắng.
+        → PFC chain = TRUST (installed). Body = EXPERIENCE (direct). EXPERIENCE thắng.
 
       "Biết cần bảo vệ môi trường" → body: compiled [lái xe → tiện]
-        → LOẠI A (direct) > LOẠI C (installed) = vẫn lái xe
+        → EXPERIENCE (direct) > TRUST (installed) = vẫn lái xe
 
       "Biết nên tha thứ" → body: compiled [phản bội → đau → tránh]
-        → LOẠI A (emotional peak) >> LOẠI C (verbal install) = không tha
+        → EXPERIENCE (emotional peak) >> TRUST (verbal install) = không tha
 
-    VP §5 ④: conflicting chains → chain MẠNH HƠN thắng.
-    → LOẠI A (multi-modal, direct) THƯỜNG mạnh hơn LOẠI C (verbal install).
+    Valence-Propagation §5 ④: conflicting chains → chain MẠNH HƠN thắng.
+    → EXPERIENCE (multi-modal, direct) THƯỜNG mạnh hơn TRUST (verbal install).
     → = Tại sao "biết mà không làm" = PHỔ BIẾN — KHÔNG phải "yếu ý chí."
 
-    Root cause: 2 loại compile cạnh tranh. Loại A > Loại C trong hầu hết cases.
-    → CAN THIỆP: chuyển từ LOẠI C (hiểu) → LOẠI A (direct experience)
+    Root cause: 2 Compile Types cạnh tranh. Experience > Trust trong hầu hết cases.
+    → CAN THIỆP: chuyển từ TRUST (hiểu) → EXPERIENCE (direct experience)
     → VD: muốn tập thể dục → ĐI TẬP (dù PFC resist) → body compile [tập → ấm]
     → = Body-Base.md §4.2: "PFC-directed compile" = dùng PFC để TẠO BODY EXPERIENCE
 
@@ -908,7 +908,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       T3: bền → lag khi context đổi
       T4: compound → PFC confused
       T5: phụ thuộc → collective gãy = gánh
-      T6: A > C → "biết mà không làm"
+      T6: Experience > Trust → "biết mà không làm"
 
     → Evolution KHÔNG minimize trade-offs
     → Evolution MAXIMIZE survival probability
@@ -920,55 +920,55 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §7 — Interactions: A vs C, "Biết Mà Không Làm", Chain Break
+## §7 — Interactions: Experience vs Trust, "Biết Mà Không Làm", Chain Break
 
-### §7.1 — Loại A vs Loại C: Khi nào cạnh tranh, khi nào hợp lực
+### §7.1 — Experience vs Trust Compile: Khi nào cạnh tranh, khi nào hợp lực
 
 ```
-🟡 A × C INTERACTIONS (Drill §7 T6 + §22):
+🟡 EXPERIENCE × TRUST INTERACTIONS (Drill §7 T6 + §22):
 
 
-  ⭐ HỢP LỰC — khi A confirm C:
+  ⭐ HỢP LỰC — khi Experience confirm Trust:
 
-    C install [học → tốt] (trust mẹ)
-    + A confirm [học → mẹ khen → ấm] (direct experience)
-    = COMPOUND STRONG. Cả 2 loại cùng hướng → pattern cực bền.
+    Trust install [học → tốt] (trust mẹ)
+    + Experience confirm [học → mẹ khen → ấm] (direct experience)
+    = COMPOUND STRONG. Cả 2 Compile Types cùng hướng → pattern cực bền.
     = Đây là "educated + enjoy" case. Lý tưởng.
 
 
-  ⭐ CẠNH TRANH — khi A contradict C:
+  ⭐ CẠNH TRANH — khi Experience contradict Trust:
 
-    C install [rượu → xấu] (trust xã hội)
-    + A compile [rượu → vui → ấm] (direct experience party)
-    = VP §5 ④: competing chains → chain MẠNH HƠN thắng.
-    → A thường thắng (multi-modal, direct) > C (verbal install).
+    Trust install [rượu → xấu] (trust xã hội)
+    + Experience compile [rượu → vui → ấm] (direct experience party)
+    = Valence-Propagation §5 ④: competing chains → chain MẠNH HƠN thắng.
+    → Experience thường thắng (multi-modal, direct) > Trust (verbal install).
     = "Biết rượu xấu mà vẫn uống."
 
 
-  ⭐ C OVERRIDE A — hiếm nhưng xảy ra:
+  ⭐ TRUST OVERRIDE EXPERIENCE — hiếm nhưng xảy ra:
 
-    Điều kiện: C install CỰC SÂU + A compile NÔNG.
+    Điều kiện: Trust install CỰC SÂU + Experience compile NÔNG.
     VD: Religious prohibition mạnh (trust deep + community reinforce + repeated)
       → Body compiled [rượu → tội] CỰC SÂU qua NHIỀU NĂM
       → Direct experience [rượu → vui] = 1 lần → NÔNG
-      → C > A trong case này.
+      → Trust > Experience trong case này.
 
-    Hoặc: C + emotional peak:
-    Mẹ khóc "con uống rượu mẹ buồn" = emotional peak (Loại A)
-      → NHƯNG gắn VỚI C content → reinforced
+    Hoặc: Trust + emotional peak:
+    Mẹ khóc "con uống rượu mẹ buồn" = emotional peak (Experience)
+      → NHƯNG gắn VỚI Trust content → reinforced
 
-    → C override A = CẦN: trust deep + repetition + emotional reinforcement
+    → Trust override Experience = CẦN: trust deep + repetition + emotional reinforcement
     → = Tại sao education + culture CAN work, nhưng cần THỜI GIAN + INTENSITY
 
 
   ⭐ OVERLAPPING — ranh giới mờ:
 
-    [ăn ngon → ấm] = Loại A (direct)
-    NHƯNG "ngon" = partially Loại C (cultural: phở ngon, sushi ngon...)
-    → Body experience (A) + cultural framing (C) = INTERTWINED
-    → Phần lớn adult behavior = A × C overlap, KHÔNG purely 1 loại
+    [ăn ngon → ấm] = Experience (direct)
+    NHƯNG "ngon" = partially Trust (cultural: phở ngon, sushi ngon...)
+    → Body experience (Experience) + cultural framing (Trust) = INTERTWINED
+    → Phần lớn adult behavior = Experience × Trust overlap, KHÔNG purely 1 type
 
-  🟡 A × C interaction dynamics: framework synthesis (Drill §7 + §22)
+  🟡 Experience × Trust interaction dynamics: framework synthesis (Drill §7 + §22)
 ```
 
 ### §7.2 — Chain Break: Collective gãy, cá nhân detect
@@ -978,7 +978,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 
   Chain collective: [học → đại học → việc → lương → body-base feed]
-  Individual compile: [học → tốt] (trust-gated SHORT — Loại C)
+  Individual compile: [học → tốt] (trust-gated SHORT — Trust Compile)
 
   PFC KHÔNG TỰ NHIÊN SUY NGHĨ "chain gãy."
   BODY circuit-break TRƯỚC → PFC wake SAU (Body-Base.md §7).
@@ -997,7 +997,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ② LINK GÃY — "Kiến thức không giúp giải quyết thực tế":
 
      Collective chain GÃY ở link [đại học → việc TỐT]
-     = VP §5 ②: chain trust ≈ product of trust at each link
+     = Valence-Propagation §5 ②: chain trust ≈ product of trust at each link
      → Link [đại học → việc] trust COLLAPSE → toàn bộ chain ẢNH HƯỞNG
      → "Học vô ích" = chain đứt → valence "học" FLIP negative
 
@@ -1022,10 +1022,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Circuit breaker concept: established neuroscience (NE α1 disconnect)
 ```
 
-### §7.3 — Loại B × External Tools: Cấp 2 cá nhân
+### §7.3 — Expertise Compile × External Tools: Cấp 2 cá nhân
 
 ```
-🟡 LOẠI B EXTEND QUA EXTERNAL TOOLS (Drill §22E):
+🟡 EXPERTISE COMPILE EXTEND QUA EXTERNAL TOOLS (Drill §22E):
 
 
   EINSTEIN MODEL:
@@ -1049,7 +1049,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   HIERARCHY:
     PFC 4±1 (hardware limit)
-    → ×4 pyramidal compression (vô thức compile — VP §5b)
+    → ×4 pyramidal compression (vô thức compile — Valence-Propagation §5b)
     → ×∞ external tools (giấy, máy tính, database, AI)
 
   → External tools = "Cấp 2 cá nhân" (Collective-Body.md §3.3)
@@ -1085,7 +1085,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 🟡 FRAMEWORK SYNTHESIS (logic consistent, dựa trên established mechanisms):
 
-  3 Loại Compile taxonomy (A/B/C):
+  3 Compile Types taxonomy (Experience/Expertise/Trust):
     → Novel organization. Components individually established.
     → ~90%/~5% estimates = approximations, not precise measurement.
 
@@ -1102,7 +1102,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   6 Trade-offs framework:
     → Novel organization. Each trade-off = established phenomenon.
-    → T6 "biết mà không làm" = testable: Loại A > Loại C strength.
+    → T6 "biết mà không làm" = testable: Experience > Trust strength.
 
   PFC accuracy per pathway (§3):
     → Speculative estimates (90%/60%/30%/90%). Needs testing.
@@ -1110,11 +1110,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 🔴 NEEDS MORE RESEARCH:
 
-  Precise % breakdown across Loại A/B/C (currently approximations)
-  Quantitative trust threshold for Loại C compile
+  Precise % breakdown across 3 Compile Types (currently approximations)
+  Quantitative trust threshold for Trust Compile
   Cross-cultural variation in 4 compile pathways distribution
-  Whether Loại C → Loại A conversion rate can be measured
-  Neural signature differences between A/B/C compile
+  Whether Trust → Experience conversion rate can be measured
+  Neural signature differences between Experience/Expertise/Trust Compile
   Whether 4 pathways are exhaustive or if more exist
 ```
 
@@ -1125,12 +1125,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 CORE FRAMEWORK FILES:
 
-  Chunk.md v2.1 §2 — 4 compile mechanisms = FOUNDATION for 3 Loại
+  Chunk.md v2.1 §2 — 4 compile mechanisms = FOUNDATION for 3 Compile Types
   Chunk.md v2.1 §2.3 — External install + Trust gate (GAP 6 resolved)
   Chunk.md v2.1 §1.1 — No Source Tag (GAP 8 resolved)
-  Body-Base.md v2.0 §4 — Summary 3 Loại (reference tới file này)
-  VP v1.4 §4 — Clarification: VP chains = explanatory (GAP 13 resolved)
-  VP v1.4 §5b — 4 tầng cơ chế chain dài
+  Body-Base.md v2.0 §4 — Summary 3 Compile Types (reference tới file này)
+  Valence-Propagation v1.4 §4 — Clarification: Valence-Propagation chains = explanatory (GAP 13 resolved)
+  Valence-Propagation v1.4 §5b — 4 tầng cơ chế chain dài
   PFC-Function.md v1.1 §6 — Confabulation principle (GAP 10 resolved)
   PFC-Function.md v1.1 §9 — "PFC tạo context, B+C+D tự học"
   PFC-Function.md v1.1 §4 — PFC Proxy Trigger (GAP-C5 resolved)
@@ -1144,20 +1144,20 @@ BODY-BASE + BODY-FEEDBACK FILES:
   Body-Feedback-Mechanism.md §3 — Chunk-Miss (chain break detection)
   Body-Feedback-Mechanism.md §4 — Compound dynamics
   Cortisol-Baseline.md v2.0 — Sustained cortisol → neural wear
-  Background-Pattern.md v1.0 — Background Pattern as Loại A deep compile
+  Background-Pattern.md v1.0 — Background-Pattern as Experience deep compile
 
 
 OBSERVATION FILES:
 
   Meaning.md v2.0 — Anchor disrupted = T5 chain break × identity
-  Religion.md v2.0 §2.1 — External inject bypass PFC = Loại C mechanism
-  Status.md v2.0 — Resource Access Map = Loại A (evolutionary direct)
+  Religion.md v2.0 §2.1 — External inject bypass PFC = Trust Compile mechanism
+  Status.md v2.0 — Resource Access Map = Experience Compile (evolutionary direct)
 
 
 DRILL SOURCE (read-only reference):
 
   Drill-Compile-Short-Collective.md §2 — 3 hardware constraints
-  Drill-Compile-Short-Collective.md §3 — 3 Loại A/B/C core
+  Drill-Compile-Short-Collective.md §3 — 3 Compile Types core
   Drill-Compile-Short-Collective.md §4 — Trust-to-compile 5 bước
   Drill-Compile-Short-Collective.md §7 — 6 trade-offs
   Drill-Compile-Short-Collective.md §19 — PFC = director, body = compiler

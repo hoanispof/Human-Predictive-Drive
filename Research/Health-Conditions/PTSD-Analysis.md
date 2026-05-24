@@ -42,7 +42,7 @@
 **Confidence**: 🟢 Research (LeDoux, Brewin, Yehuda, Kim & Diamond, Rauch, Bouton, Milad, Walker) | 🟡 Synthesis (context-tag model, treatment unification, cascade mapping) | 🔴 Hypothesis (4 metadata types formalization, context-free chunk as type, reconsolidation therapy)
 **Cluster**: Health Conditions Drill File 6/6 (Nicotine → Parkinson → ADHD → Alzheimer → Autism → **PTSD**)
 **Build on**: Cortisol-Baseline.md v2.0 §10 (trauma 4-stage SCAFFOLD — file này drill SÂU HƠN mechanism)
-**Dependencies**: Cortisol-Baseline.md v2.0, Threat.md v1.0, PFC-Configuration.md v1.0, Chunk.md v2.1, Body-Feedback-Mechanism.md v1.2, Feeling-Mechanism-Deep.md v1.1, Background-Pattern.md v1.0, Self-Pattern-Match.md v2.3, Addiction-Analysis.md v3.0, Child-Development-Mechanism.md v1.0
+**Dependencies**: Cortisol-Baseline.md v2.0, Threat.md v1.0, PFC-Configuration.md v1.0, Chunk.md v2.1, Body-Feedback-Mechanism.md v1.2, Feeling-Mechanism-Deep.md v1.1, Background-Pattern.md v1.0, Self-Pattern-Modeling.md v2.3, Addiction-Analysis.md v3.0, Child-Development-Mechanism.md v1.0
 **Disclaimer**: Framework KHÔNG thay thế trauma therapy. PTSD = clinical condition cần đánh giá và điều trị chuyên môn. File này cung cấp OBSERVATION LENS — giải thích mechanism, KHÔNG prescribe treatment.
 **Plan**: Research/Health-Conditions/plan-ptsd-analysis.md
 
@@ -150,7 +150,7 @@ FRAMEWORK CÓ THỂ PHÂN TÍCH:
   ✅ HPA axis paradox: reconcile Yehuda (low cortisol) với framework cortisol model
   ✅ Sleep failure: REM as re-contextualization mechanism
   ✅ Treatment unification: tất cả evidence-based treatments share 1 mechanism
-  ✅ C-PTSD: SPM compiled under chronic threat (Background Pattern 2D model)
+  ✅ C-PTSD: Self-Pattern-Modeling compiled under chronic threat (Background-Pattern 2D model)
   ✅ Comorbidity: PTSD × Depression / Addiction / ADHD mimicry
 
 FRAMEWORK KHÔNG THỂ:
@@ -1220,7 +1220,7 @@ FRAMEWORK KHÔNG THỂ:
   MECHANISM:
     → Amygdala dendrite growth → MORE threat associations compiled
     → PFC dendrite retraction → LESS ability to inhibit false positives
-    → Background Pattern: threat pattern = HIGH link density
+    → Background-Pattern: threat pattern = HIGH link density
       → Background-Pattern §8: "cortisol baseline cao VÌ pattern [threat] chạy nền"
     → Chunks threshold LOWER: vì amygdala stronger + PFC weaker
     → = Every signal closer to "threat" threshold
@@ -1323,7 +1323,7 @@ FRAMEWORK KHÔNG THỂ:
       Reward system: UNUSED → anhedonia develops
     
     Stage 4: Identity impact
-      "Tôi là người không thể..." → SPM self-chunks compile around limitation
+      "Tôi là người không thể..." → Self-Pattern-Modeling self-chunks compile around limitation
       Imagine-Final SHRINKS: fewer possible futures → meaning dissolves
       Meaning.md: meaning = life-level anchor-schema → avoidance erodes anchor
 
@@ -1741,7 +1741,7 @@ FRAMEWORK KHÔNG THỂ:
     → Somatic Experiencing (Peter Levine): complete thwarted defensive responses
     → Framework: body-feedback at L0-L1 level → below PFC → different access point
     → PFC-Configuration §3: Config ⑤ (overcontrol) →
-      somatic therapy = "backdoor" via body-level (Type B pathway)
+      somatic therapy = "backdoor" via body-level (Direct-State pathway)
       → CT afferents below PFC level → may penetrate numbness
     → Polyvagal theory (Porges 1995, 2011): ventral vagal = safety system
       → PTSD = stuck in sympathetic/dorsal vagal → restore ventral vagal access
@@ -1991,7 +1991,7 @@ FRAMEWORK KHÔNG THỂ:
     ② NEGATIVE SELF-CONCEPT:
       → Pervasive shame, guilt, worthlessness
       → "I am damaged," "I am bad," "I am broken"
-      → = SPM self-chunks compiled UNDER chronic threat
+      → = Self-Pattern-Modeling self-chunks compiled UNDER chronic threat
 
     ③ RELATIONAL DIFFICULTIES:
       → Distrust, avoid relationships, difficulty with intimacy
@@ -2005,19 +2005,19 @@ FRAMEWORK KHÔNG THỂ:
     → Childhood physical/sexual abuse = STRONGEST predictor of C-PTSD over PTSD
 ```
 
-### §11.2 — Framework: SPM compiled under chronic threat
+### §11.2 — Framework: Self-Pattern-Modeling compiled under chronic threat
 
 ```
-⭐ C-PTSD = SPM ITSELF COMPILED UNDER THREAT:
+⭐ C-PTSD = Self-Pattern-Modeling ITSELF COMPILED UNDER THREAT:
 
   SINGLE-EVENT PTSD:
-    → SPM was already compiled (pre-trauma adult had functioning identity)
+    → Self-Pattern-Modeling was already compiled (pre-trauma adult had functioning identity)
     → Trauma adds context-free chunks to EXISTING architecture
-    → SPM relatively intact — chunks ADDED, not SPM REWRITTEN
+    → Self-Pattern-Modeling relatively intact — chunks ADDED, not Self-Pattern-Modeling REWRITTEN
     → Recovery: add context to specific trauma chunks → restore function
 
   C-PTSD (childhood/chronic):
-    → SPM COMPILED DURING the threat period
+    → Self-Pattern-Modeling COMPILED DURING the threat period
     → Self-chunks = threat-organized from the start:
       "I am helpless" "I am worthless" "I cause bad things"
     → Relational chunks = threat-organized:
@@ -2026,12 +2026,12 @@ FRAMEWORK KHÔNG THỂ:
       Child never had safe enough environment to LEARN regulation
       → ≠ "lost skill" — NEVER HAD skill
 
-  FRAMEWORK: SPM.md v2.3 — context-dependent chunk selection:
-    → SPM selects chunks based on current context
+  FRAMEWORK: Self-Pattern-Modeling.md v2.3 — context-dependent chunk selection:
+    → Self-Pattern-Modeling selects chunks based on current context
     → C-PTSD: MOST contexts → threat-related chunks fire (because MOST compiled under threat)
     → = "World looks dangerous" NOT because world IS dangerous
       but because AVAILABLE CHUNKS are threat-organized
-    → = SPM doing its job correctly — with wrong database
+    → = Self-Pattern-Modeling doing its job correctly — with wrong database
 
   ⭐ BACKGROUND PATTERN 2D MODEL (Background-Pattern §2):
 
@@ -2055,22 +2055,22 @@ FRAMEWORK KHÔNG THỂ:
         Not 1 deep chunk to reprocess → THOUSANDS of linked chunks
         Not 1 missing context → PERVASIVE context deficiency
 
-  🟡 SPM under chronic threat = framework synthesis
+  🟡 Self-Pattern-Modeling under chronic threat = framework synthesis
   🟡 3D model (depth × density × context quality) = framework extension
 ```
 
-### §11.3 — Recovery: SPM re-compilation
+### §11.3 — Recovery: Self-Pattern-Modeling re-compilation
 
 ```
 🟡 C-PTSD RECOVERY ≠ PTSD RECOVERY:
 
   PTSD RECOVERY:
     → Add context to SPECIFIC trauma chunks
-    → SPM relatively intact → restore pre-trauma function
+    → Self-Pattern-Modeling relatively intact → restore pre-trauma function
     → Timeline: months with treatment
 
   C-PTSD RECOVERY:
-    → SPM ITSELF must be re-compiled
+    → Self-Pattern-Modeling ITSELF must be re-compiled
     → Self-chunks need REWRITING (not just re-contextualizing)
     → Relational chunks need NEW COMPILATION (new safe experiences)
     → Affect regulation must be LEARNED (never had, not lost)
@@ -2093,7 +2093,7 @@ FRAMEWORK KHÔNG THỂ:
       → Re-compile self-concept (new self-chunks)
       → Build relational skills (new relational chunks)
       → Expand Imagine-Final (new possible futures)
-      → = SPM re-compilation: new database, new defaults
+      → = Self-Pattern-Modeling re-compilation: new database, new defaults
 
   TIMELINE:
     → PTSD: months → functional recovery
@@ -2460,7 +2460,7 @@ FRAMEWORK KHÔNG THỂ:
 
   P5: C-PTSD BACKGROUND PATTERN DENSITY → TREATMENT TIMELINE
     → Predict: higher link density → longer treatment needed
-    → Test: background pattern proxy measures (duration of trauma × contexts)
+    → Test: Background-Pattern proxy measures (duration of trauma × contexts)
       → correlate with treatment duration to criterion improvement
     → Status: 🔴 framework prediction — testable but challenging
 
@@ -2502,7 +2502,7 @@ FRAMEWORK KHÔNG THỂ:
   → Novel treatments support multi-level storage model (§10.7)
   → PFC-Configuration mapping ④ ↔ ⑤ oscillation (§4.4)
   → Avoidance as logical body response (§7)
-  → C-PTSD as SPM compiled under threat (§11)
+  → C-PTSD as Self-Pattern-Modeling compiled under threat (§11)
   → 3D model: depth × density × context quality (§11.2)
   → Yehuda paradox reconciliation with framework (§5.3)
   → ADHD mimicry framework (§12.3)
@@ -2543,7 +2543,7 @@ Q3: Dissociative subtype: Config ④ → ⑤ switch mechanism?
   → What triggers transition from flooding to dissociation?
   → Is it gradual (repeated ④ → compiled ⑤) or discrete (threshold)?
 
-Q4: C-PTSD Background Pattern density: measurable?
+Q4: C-PTSD Background-Pattern density: measurable?
   → Duration × contexts = proxy. But DIRECT measurement?
   → fMRI resting state connectivity as density proxy?
 
@@ -2575,7 +2575,7 @@ FRAMEWORK ADDS:
   → TREATMENT UNIFICATION → all = add context (single mechanism)
   → MAPPING to existing chunk architecture → connection to 60+ framework files
   → PFC-Configuration ④ ↔ ⑤ → dynamic state model (not static)
-  → C-PTSD via Background Pattern 2D/3D → structural explanation
+  → C-PTSD via Background-Pattern 2D/3D → structural explanation
   → Avoidance as LOGICAL body response → de-pathologize
 
 FRAMEWORK DOES NOT REPLACE:
@@ -2598,7 +2598,7 @@ FRAMEWORK DOES NOT REPLACE:
   Body-Feedback-Mechanism.md   — Sensory/Pattern-Driven, 3 chunk dynamics
   Feeling-Mechanism-Deep.md    — §1.2 body-first invariant (temporal order)
   Background-Pattern.md v1.0   — §2 2D model (Depth × Density), §4 sleep, §8 cortisol coupling
-  Self-Pattern-Match.md v2.3   — SPM context-dependent chunk selection (C-PTSD)
+  Self-Pattern-Modeling.md v2.3   — Self-Pattern-Modeling context-dependent chunk selection (C-PTSD)
 
   RESEARCH BRIDGES:
   Addiction-Analysis.md v3.0   — §8 self-medication pattern → PTSD × Addiction

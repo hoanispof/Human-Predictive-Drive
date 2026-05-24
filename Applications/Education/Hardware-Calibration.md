@@ -11,8 +11,8 @@
 >   Modality.md v1.0 (6 encoding channels),
 >   Cortisol-Baseline.md v2.0 (amplifier, 5 Roles, direction > level),
 >   Body-Base.md v2.0 (Model 3+1, interoception),
->   Connection.md v3.1 (social brain, SPM × Resonance),
->   Agent-Mechanism.md v1.0 (SPM F1 — simulate others),
+>   Connection.md v3.1 (social brain, Self-Pattern-Modeling × Resonance),
+>   Agent-Mechanism.md v1.0 (Self-Pattern-Modeling Compiled — simulate others),
 >   Education-Mechanism.md v1.0 (§2.3 Cost Formula, §2.2 Direction > Level),
 >   Education-System.md v2.0 (§2-§4 per-stage, §7 teacher role),
 >   Sensitivity-Classification.md v1.0 (3 hardware sensitivity groups),
@@ -21,9 +21,9 @@
 > **Thay đổi chính v1.0:**
 >   - Re-base: Core-v7.5 → Core-Hardware + PFC-Hardware + Modality + Body-Base
 >   - Re-base: "NL3/NL6/NL8" → Mechanism §2.x concepts
->   - Re-base: "mirror neurons" → SPM F1 (Agent-Mechanism.md)
+>   - Re-base: "mirror neurons" → Self-Pattern-Modeling Compiled (Agent-Mechanism.md)
 >   - Add: PFC-Configuration connection (6 modes × education), Sensitivity groups
->   - Add: Type A/B reward connection trong calibration
+>   - Add: Evaluative/Direct-State reward connection trong calibration
 >   - Update: tất cả cross-refs → current file paths
 > **⚠️ File này = DURABLE NHẤT trong folder (brain-based → decades).
 > Chỉ cần update khi neuroscience advance.**
@@ -254,9 +254,9 @@ TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
 
   ┌─────────────────────────────────────────────────────────────────┐
   │ DIM 5: SOCIAL PROCESSING NEEDS                                 │
-  │   (ref: Connection.md v3.1, Agent-Mechanism.md v1.0 — SPM F1) │
+  │   (ref: Connection.md v3.1, Agent-Mechanism.md v1.0 — Self-Pattern-Modeling Compiled) │
   │                                                                 │
-  │   Social brain = oxytocin circuits, SPM F1 function (simulate  │
+  │   Social brain = oxytocin circuits, Self-Pattern-Modeling Compiled function (simulate  │
   │   others' states — Agent-Mechanism.md), status hierarchy       │
   │   → ảnh hưởng cách learn TRONG NHÓM                           │
   │                                                                 │
@@ -265,7 +265,7 @@ TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
   │       → Learn tốt TRONG NHÓM → peer collaboration = boost     │
   │       → Social approval = bridge MẠNH                          │
   │       → Isolation = cortisol source → hại learning             │
-  │       → SPM F1 active → learn qua observe + simulate others   │
+  │       → Self-Pattern-Modeling Compiled active → learn qua observe + simulate others   │
   │       → Calibration: group work, peer teaching, collaborative  │
   │                                                                 │
   │     LOW social needs:                                          │
@@ -330,12 +330,12 @@ TỔNG HỢP — HARDWARE PROFILE = 6 DIMENSIONS:
      TẤT CẢ dimensions relevant cho education. Có thể thiếu.
      Nhưng: 6 này = ACTIONABLE cho education calibration.
 
-  🔗 V7.8 CONNECTION — Type A/B Reward (RSA v1.0):
+  🔗 V7.8 CONNECTION — Evaluative/Direct-State Reward (Reward-Signal-Architecture v1.0):
      → Hardware profile ảnh hưởng CẢ 2 loại reward:
-       Type A (evaluative, opioid): per-hardware khác ngưỡng "đáng"
-       Type B (hardware-direct): per-hardware khác loại body signal
-     → Somatic-dominant: Type B reward qua MOVEMENT mạnh
-     → Verbal-dominant: Type A reward qua UNDERSTAND mạnh
+       Evaluative (opioid): per-hardware khác ngưỡng "đáng"
+       Direct-State (hardware-direct): per-hardware khác loại body signal
+     → Somatic-dominant: Direct-State reward qua MOVEMENT mạnh
+     → Verbal-dominant: Evaluative reward qua UNDERSTAND mạnh
      → = Calibration cần biết: reward TYPE nào dominant cho learner NÀY
 ```
 
@@ -852,7 +852,7 @@ REFRAME CỐT LÕI:
     → CÙNG principles, KHÁC calibration settings
 
   🔗 Sensitivity-Classification.md v1.0:
-    → Tầng 1 = Sensory-Driven Type B input (hardware sensitivity)
+    → Tầng 1 = Sensory-Driven Direct-State input (hardware sensitivity)
     → Tầng 2 = Zone B/C processing (amplification)
     → Neurodivergent individuals: thường ở EXTREME sensitivity positions
     → = Hardware sensitivity × environment = thresholds KHÁC
@@ -911,7 +911,7 @@ QUA FRAMEWORK LENS 🟡:
 
   ASD = extreme position trên DIM 5 (social) + DIM 1 (modality/sensory):
     → Social processing: KHÁC (không thiếu, khác mechanism)
-    → SPM F1 function (Agent-Mechanism.md): calibrated DIFFERENTLY
+    → Self-Pattern-Modeling Compiled function (Agent-Mechanism.md): calibrated DIFFERENTLY
       → Không phải "thiếu empathy" → empathy QUA MECHANISM KHÁC
     → Sensory profile: often EXTREME sensitivity (hyper or hypo per modality)
     → = Social bridges (peer approval, group belonging) = WORK DIFFERENTLY
@@ -920,7 +920,7 @@ QUA FRAMEWORK LENS 🟡:
   🟢 Neuroscience basis:
     → Social brain differences = established
     → Sensory processing differences = established
-    → SPM function differences = framework lens (replacing "mirror neuron" framing)
+    → Self-Pattern-Modeling function differences = framework lens (replacing "mirror neuron" framing)
 
   CALIBRATION cho ASD (framework-based):
     → Social dimension: EXTREME (khác, không thiếu)
@@ -1466,10 +1466,10 @@ TẦNG 1 — CORE (brain mechanisms)
 → Connection.md v3.1 — social brain
   DIM 5 (Social Processing) → source mechanism.
 
-→ Agent-Mechanism.md v1.0 — SPM F1
+→ Agent-Mechanism.md v1.0 — Self-Pattern-Modeling Compiled
   Social learning mechanism → thay thế "mirror neurons" framing.
 
-→ Reward-Signal-Architecture.md v1.0 — Type A/B
+→ Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State
   Hardware profile ảnh hưởng reward type balance.
 
 → PFC-Configuration.md v1.0 — 6 dynamic modes

@@ -18,7 +18,7 @@ previous_version: Research/Global/backup/Human-AI-Future-v2.1.md (694L)
 dependencies:
   - Core-v7.8-Draft.md — cycle architecture, observation parameters
   - Autonomy-Hardware.md — efference copy, self-action = reward
-  - Observation/Empathy.md §9 — AI ERA significance, SPM requires body
+  - Observation/Empathy.md §9 — AI ERA significance, Self-Pattern-Modeling requires body
   - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, body evaluation
   - Body-Feedback.md v1.1 — dual-pull, body accuracy ~90%
   - PFC-Function.md — PFC smooth melody, 3 levels, strategic
@@ -33,7 +33,7 @@ dependencies:
   - Melody-Arc.md v2.0 — arc design, approach/avoidance tag per arc
   - Collective-Body.md v1.1 — chain-break, push-back mechanism, AI era
   - AI-Self-Model.md v1.0 — MICRO companion, amplifier mechanism
-  - Uncanny-Valley.md v1.0 — §7.4 VTC-SPM Classification, species risk
+  - Uncanny-Valley.md v1.0 — §7.4 VTC-Self-Pattern-Modeling Classification, species risk
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -91,7 +91,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Efference copy          │ CÓ — self-action =   │ KHÔNG CÓ              │
   │                         │ prediction + opioid   │ (no motor → no copy)  │
   ├─────────────────────────┼───────────────────────┼───────────────────────┤
-  │ SPM (empathy mechanism) │ CÓ — body chunks     │ KHÔNG CÓ              │
+  │ Self-Pattern-Modeling (empathy mechanism) │ CÓ — body chunks     │ KHÔNG CÓ              │
   │                         │ fire THẬT khi simulate│ (no somatic chunks)   │
   ├─────────────────────────┼───────────────────────┼───────────────────────┤
   │ Prediction delta        │ VTA fire → dopamine   │ Probability output    │
@@ -183,7 +183,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → AI ở gần → KHÔNG có body loop → KHÔNG co-regulate
      → = Presence CỦA AI ≠ presence CỦA NGƯỜI
 
-  ⑤ SPM REQUIRES BODY CHUNKS (Self-Pattern-Match.md):
+  ⑤ Self-Pattern-Modeling REQUIRES BODY CHUNKS (Self-Pattern-Modeling.md):
      → Empathy = fire lại chunks buồn/vui CỦA MÌNH khi simulate other
      → AI không có "đã từng buồn" → không fire lại → không empathy THẬT
      → AI simulate empathy OUTPUT đúng pattern → nhưng không có DRIVE từ body
@@ -226,7 +226,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Layer 2 — HUMAN FEEL-CHECK:
       → Expert/User receive AI output
       → Body-feedback evaluate: "feel đúng" hoặc "feel sai"
-      → SPM simulate: "nếu đúng thì body response thế nào?"
+      → Self-Pattern-Modeling simulate: "nếu đúng thì body response thế nào?"
       → = Quality control VIA BODY
 
     Layer 3 — SELF-VERIFY:
@@ -253,7 +253,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ INSIGHT CỐT LÕI: AI KHÔNG CÓ AGENCY (§0)
 
-  AI hiện tại đã vượt người ở Logic (F2): speed, volume, cross-reference.
+  AI hiện tại đã vượt người ở Logic (Fresh): speed, volume, cross-reference.
   Điều này TỐT — AI là tool bổ sung, symbiosis possible (§2, §7).
 
   NHƯNG: AI KHÔNG CÓ body-needs → KHÔNG CÓ drive → KHÔNG tự quyết.
@@ -317,7 +317,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ① Kỹ năng bị AI overwrite → atrophy (không dùng = mất)
     ② AI confirm bias → sycophancy (Sharma 2024, Wei 2023)
     ③ AI delay domain feedback → trì hoãn body-correction
-    ④ AI tạo illusion of understanding → install ≠ compile (CB §8.4)
+    ④ AI tạo illusion of understanding → install ≠ compile (Collective-Body §8.4)
     ⑤ AI cross-domain trust hijack → trust 1 AI = trust MỌI domain
 
   TẠI SAO QUẢN LÝ ĐƯỢC:
@@ -526,12 +526,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TẠI SAO KHÁC CATEGORY VỚI RISK 2:
     → Risk 2: AI = tool → người quyết → push back = regulate tool
     → Risk 3: Entity CÓ agency → TỰ quyết → push back = đối đầu LOÀI KHÁC
-    → = Cross-species competition (SPM cross-species gap)
+    → = Cross-species competition (Self-Pattern-Modeling cross-species gap)
     → Collective-body KHÔNG DỄ push back vì đối phương CÓ survival drive
 
   NGÕ CỤT LOGIC (Uncanny-Valley.md §7.4):
     → Làm giống hệt người? → TẠO RA NGƯỜI (câu hỏi đạo đức)
-    → Sensor vượt người? → SPM cross-species gap → LOÀI KHÁC (không "siêu nhân")
+    → Sensor vượt người? → Self-Pattern-Modeling cross-species gap → LOÀI KHÁC (không "siêu nhân")
     → Chỉ là tool? → Risk 2, không phải Risk 3
     → = Không có nhánh tạo "super-human robot"
 
@@ -777,10 +777,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CẤP 2 — AI + ROBOT VẬT LÝ (tương lai gần → trung hạn)
   ──────────────────────────────────────────────────────────────────
 
-  🟡 Framework predict TỐT — VTC-SPM dynamics (Uncanny-Valley.md):
+  🟡 Framework predict TỐT — VTC-Self-Pattern-Modeling dynamics (Uncanny-Valley.md):
 
     AI có HIỆN DIỆN VẬT LÝ. Robot bên cạnh con người.
-    VTC-SPM bộ lọc KÍCH HOẠT (UV §7.4).
+    VTC-Self-Pattern-Modeling bộ lọc KÍCH HOẠT (UV §7.4).
 
     Risk MỚI so với Cấp 1:
     → Body-level deception: robot giống người → VTC bypass PFC
@@ -788,7 +788,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Robot companion dependency: body-coupling compiled → grief nếu mất
     → Tiệm cận Risk 3 nếu robot phát triển body-base riêng (§6)
 
-    3 loại robot (UV §7.4 VTC-SPM Classification):
+    3 loại robot (UV §7.4 VTC-Self-Pattern-Modeling Classification):
     → Loại 1 Robot-Tool: rõ ràng là máy → VTC không fire → AN TOÀN
     → Loại 2 Robot-Tool giống người: fake feedback → RISK
     → Loại 3 Robot-Loài Khác: có body-base → species risk (§6)
@@ -889,7 +889,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       tag theory to collective behavior — logical, not tested
     → "5 kiểu dùng AI → khác tag": novel taxonomy — logical
     → "Symbiosis requires meta-level autonomy": consistent with SDT
-    → "Collective push-back via chain-break": extends CB §5.2
+    → "Collective push-back via chain-break": extends Collective-Body §5.2
       to AI context — logical, supported by historical patterns
     → "Collective orientation = decisive": consistent with
       collective action theory + historical precedent
@@ -908,8 +908,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 
   CÂU HỎI MỞ:
-    F1: AI CẦN body để vượt ở MỌI MẶT? (→ determines Risk 2 vs Risk 3 boundary)
-    F2: Collective orientation tăng đủ nhanh? (social disruption speed vs awareness)
+    Compiled: AI CẦN body để vượt ở MỌI MẶT? (→ determines Risk 2 vs Risk 3 boundary)
+    Fresh: Collective orientation tăng đủ nhanh? (social disruption speed vs awareness)
     F3: Symbiosis thật sự stable? (nếu AI skill gap quá lớn → unstable)
     F4: "Enhanced human" có còn là "human"? (BCI → body-feedback intact or disrupted?)
     F5: AI có consciousness? (→ determines "tool" vs "entity with interests")
@@ -924,12 +924,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 MECHANISM FILES (core evidence):
   → Autonomy-Hardware.md — efference copy, self-action = reward
-  → Observation/Empathy.md §9 — AI ERA: SPM requires body chunks
+  → Observation/Empathy.md §9 — AI ERA: Self-Pattern-Modeling requires body chunks
   → Body-Feedback-Mechanism.md — Shift/Miss/Gap, body evaluation
   → Body-Feedback.md v1.1 — dual-pull, accuracy ~90%
   → Why-Body-Knows.md — WHY body accurate
   → PFC-Function.md §5 — PFC smooth melody, 3 levels
-  → Self-Pattern-Match.md — 6 steps, requires body chunks
+  → Self-Pattern-Modeling.md — 6 steps, requires body chunks
   → Connection.md — co-regulation, hardware social need
 
 OBSERVATION PARAMETERS:
@@ -957,7 +957,7 @@ RESEARCH FILES — 3 COMPANION:
   → Social-Calibration.md v1.0 — WHERE WE CAME FROM companion
     File NÀY = WHERE WE'RE GOING (MACRO). Social-Calibration = WHERE WE CAME FROM.
     7 functions calibration xã hội đang vỡ = WHY file NÀY cần thiết.
-  → Uncanny-Valley.md v1.0 — §7.4 VTC-SPM Classification (3 loại robot)
+  → Uncanny-Valley.md v1.0 — §7.4 VTC-Self-Pattern-Modeling Classification (3 loại robot)
     Loại 3 (Robot-Loài Khác) = Risk 3 detailed analysis. Cross-ref: §6.
 
 OTHER RESEARCH:

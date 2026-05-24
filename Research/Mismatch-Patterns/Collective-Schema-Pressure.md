@@ -4,14 +4,14 @@ version: 1.0
 created: 2026-05-11
 status: OBSERVATION FILE v1.0
 scope: |
-  OBSERVATION FILE: Hiện tượng nhiều collective schemas (Type C compiled) chồng chất
+  OBSERVATION FILE: Hiện tượng nhiều collective schemas (Trust Compile compiled) chồng chất
   lên cá nhân đồng thời → compound pressure vượt ngưỡng → trade-off giữa productivity
   tập thể và cost cá nhân.
   KHÔNG phải mechanism mới — mà TỔNG HỢP mechanisms đã có để quan sát 1 hiện tượng.
   Focus: compound effect, Asian/Confucian pattern, productivity paradox,
   modern domain clash, cách nhận ra pattern.
 purpose: |
-  Core files mô tả MECHANISM riêng lẻ: Type C compile, Obligation, Status,
+  Core files mô tả MECHANISM riêng lẻ: Trust Compile compile, Obligation, Status,
   Compliance-Floor, Cortisol amplifier, PFC-Configuration...
   File NÀY mô tả HIỆN TƯỢNG khi các mechanisms đó COMPOUND.
   Giúp người đọc NHẬN RA pattern trong đời sống — đó là giá trị chính.
@@ -19,11 +19,11 @@ purpose: |
   Supersedes: Social-Pressure-Tradeoff.md v0.1 (v6.0+, backup/).
 position: Research/Mismatch-Patterns/ — Observation file.
 dependencies:
-  - Compile-Taxonomy.md v1.1 — 3 Loại A/B/C, 4 pathways (đặc biệt Type C + Pathway 4)
-  - Collective-Body.md v1.1 — Model 3 cấp, chain dài ở Cấp 2, Type C install, trust bridge
+  - Compile-Taxonomy.md v2.0 — 3 3 Compile Types, 4 pathways (đặc biệt Trust Compile + Pathway 4)
+  - Collective-Body.md v1.1 — Model 3 cấp, chain dài ở Cấp 2, Trust Compile install, trust bridge
   - Obligation.md v1.0 — compiled prediction cost, 6 types, access cost
   - Status.md v2.0 — Resource Access Map, 3 modes, disruption cycle
-  - Compliance-Floor.md v2.0 — 4 tầng nền, nền bị đẩy lên, SPM = giải pháp gốc
+  - Compliance-Floor.md v2.0 — 4 tầng nền, nền bị đẩy lên, Self-Pattern-Modeling = giải pháp gốc
   - Cortisol-Baseline.md v2.0 — amplifier, 5 Roles, sustained = cost
   - PFC-Configuration.md v1.0 — 6 modes, Config ② Reallocation
   - Meaning.md v2.0 — life-level Anchor-Schema, 5 types, disrupted
@@ -91,7 +91,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CÁC MECHANISM ĐÃ CÓ (mỗi file = 1 khía cạnh):
 
-    Compile-Taxonomy.md — HOW schemas install (Type C, 4 pathways)
+    Compile-Taxonomy.md — HOW schemas install (Trust Compile, 4 pathways)
     Collective-Body.md — WHERE chains live (Cấp 2 collective)
     Obligation.md — WHAT "phải" means (compiled prediction cost)
     Status.md — WHY schemas link to resource access
@@ -106,7 +106,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TƯƠNG TỰ:
     Addiction-Analysis.md — tổng hợp nhiều mechanisms → 1 phenomenon
     Education-Arms-Race.md — tổng hợp game theory + education + status
-    File này — tổng hợp Type C + Obligation + Status + Cortisol → compound
+    File này — tổng hợp Trust Compile + Obligation + Status + Cortisol → compound
 
   KHÔNG CÓ TRONG FILE NÀY:
     → Mechanism chi tiết (→ đọc core files)
@@ -158,7 +158,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Schema [trả tiền khi mua] → Exchange mode (Status.md §5)
   Schema [chăm sóc con] → Species survival
 
-  → TẤT CẢ là collective schemas installed qua Type C.
+  → TẤT CẢ là collective schemas installed qua Trust Compile.
   → KHÔNG CÓ chúng = mỗi cá nhân phải tự tìm ra TẤT CẢ từ đầu.
   → = Collective-Body §3: "collective hold chain dài, cá nhân compile ngắn."
 
@@ -461,9 +461,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⑤ CONNECTION HOLLOWED:
      → Schemas about HOW to connect ("phải giữ thể diện", "phải nhường")
-     → Override NATURAL connection → SPM F1 constrained
-     → Connection.md: genuine connection = SPM fire + positive ❸
-     → Constrained SPM = connection RITUAL, not genuine → hollow
+     → Override NATURAL connection → Self-Pattern-Modeling Compiled constrained
+     → Connection.md: genuine connection = Self-Pattern-Modeling fire + positive ❸
+     → Constrained Self-Pattern-Modeling = connection RITUAL, not genuine → hollow
      → Empathy v2.0: L1 high (obligation-driven) + L2 low (no genuine) → burnout
 
   ⑥ BIRTH RATE IMPACT (Birth-Rate-Decline):
@@ -502,7 +502,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → Coordination cost THẤP → collective output CAO
      → = Status.md §4 Mode 3 (Comply): follow default = cheapest
 
-  ③ Type C Install = FAST KNOWLEDGE TRANSMISSION:
+  ③ Trust Compile Install = FAST KNOWLEDGE TRANSMISSION:
      → Trust install → cá nhân KHÔNG CẦN verify từng chain
      → Collective hold chain dài → cá nhân execute SHORT
      → = Knowledge-Flow.md: external → internal transfer NHANH
@@ -646,7 +646,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────────────────────────────┬──────────────────────┐
   │ Claim                                │ Confidence             │
   ├──────────────────────────────────────┼──────────────────────┤
-  │ Type C compile exists                │ 🟢 Cialdini 1984      │
+  │ Trust Compile compile exists                │ 🟢 Cialdini 1984      │
   │ Cultural variation in schema density │ 🟢 Hofstede, Inglehart │
   │ Education arms race = prisoner's     │ 🟢 Game theory + data  │
   │ Birth rate × pressure correlation    │ 🟢 Korea/Japan/China   │
@@ -674,7 +674,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Framework THÊM:
     → MECHANISM level: TẠI SAO compound (chunk dynamics + cortisol + PFC)
-    → TYPE classification: Type C compile + 4 pathways
+    → TYPE classification: Trust Compile compile + 4 pathways
     → BODY-LEVEL: WHY body responds (not just "stress" vague)
     → INDIVIDUAL variation: hardware match/mismatch explains differential outcome
     → TRADE-OFF structure: not "good vs bad" but "Expansion vs Discovery cost"
@@ -726,11 +726,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   MECHANISM FILES (từng khía cạnh riêng lẻ):
-    → Compile-Taxonomy.md v1.1 — Type C, 4 pathways, Expansion vs Discovery
+    → Compile-Taxonomy.md v2.0 — Trust Compile, 4 pathways, Expansion vs Discovery
     → Collective-Body.md v1.1 — Model 3 cấp, chain dài, trust bridge, System Compilation
     → Obligation.md v1.0 — compiled prediction cost, 6 types, endpoint question
     → Status.md v2.0 — Resource Access Map, 3 modes, disruption cycle
-    → Compliance-Floor.md v2.0 — 4 tầng, nền bị đẩy lên, SPM = giải pháp gốc
+    → Compliance-Floor.md v2.0 — 4 tầng, nền bị đẩy lên, Self-Pattern-Modeling = giải pháp gốc
     → Cortisol-Baseline.md v2.0 — amplifier, 5 Roles, sustained cost
     → PFC-Configuration.md v1.0 — 6 modes, Config ② Reallocation
     → Meaning.md v2.0 — 5 anchor types, disrupted = "sống mà không biết vì gì"

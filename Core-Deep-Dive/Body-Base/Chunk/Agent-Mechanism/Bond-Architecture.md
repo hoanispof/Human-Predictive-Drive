@@ -27,9 +27,9 @@ purpose: |
     → Gap clone impossible → 3 cơ chế thật → 4 mechanisms decline.
     → True understanding = anti-compiled-suppress = meta-principle.
     → 1 entity ≠ all domains → Dunbar portfolio = structural solution.
-  = "EC §1 mở rộng cross-bond" + "BPGR §9-§10 tách ra + enriched."
+  = "Entity-Compiled §1 mở rộng cross-bond" + "By-Product-Gap-Resonance §9-§10 tách ra + enriched."
 position: |
-  Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder EC, EA, SPM, BPGR.
+  Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder Entity-Compiled, Entity-Access, Self-Pattern-Modeling, By-Product-Gap-Resonance.
   Agent-Mechanism.md = integration hub.
   Entity-Compiled.md = deep mechanism (formation, capacity, grief, decay).
   Bond-Architecture.md (FILE NÀY) = cross-bond view (4 types, over-clone, decline).
@@ -40,24 +40,24 @@ dependencies:
   - Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation 40→200h, Grief A+B+C
   - By-Product-Gap-Resonance.md v1.1 — Resonance Core, 4 conditions, 5 enhancers
   - Valence-Propagation.md v3.0 — §3 Entity-Compiled definition + 3 subtypes
-  - Self-Pattern-Modeling.md v3.1 — F1/F2, Agent-mode, SPM accuracy
+  - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Agent-mode, Self-Pattern-Modeling accuracy
   - PFC-Operations.md v1.0 — Hold/Suppress, compiled quality, 3 Outcomes
   - Simulation-Engine.md v1.0 — 1 engine × 3 components × 3 axes
   - Entity-Access.md v1.2 — 3-Factor Model, Gradient Mức 0-5
-  - Entity-Access-Excess.md v1.0 — SPM atrophy, excess spectrum
+  - Entity-Access-Excess.md v1.0 — Self-Pattern-Modeling atrophy, excess spectrum
   - Entity-Access-Calibration.md v1.0 — 3-Layer calibration, Exit Cost
-  - Agent-Mechanism.md v2.0 — integration hub, Architecture B
+  - Agent-Mechanism.md v2.0 — integration hub, Compilable Architecture
   - Connection.md v4.0 — 3 Generative Primitives
   - Body-Coupling.md v2.0 — coupling mechanism, depth × direction
   - Gap-Direction.md v2.0 — gap = f(surrounding chunks), immutability
   - Gap-Distribution-Profile.md v1.0 — multi-domain gap landscape
   - Background-Pattern.md v1.1 — 2D Depth×Density, resist change
   - Love-Romantic.md v2.4 — limerence reveal, 4 hướng
-  - Inter-Body-Mechanism.md v1.0 — Architecture B, 3-cost, by-product match
+  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 3-cost, by-product match
   - Body-Feedback-Label.md v2.0 — vocabulary reference
 sources:
   - Drill-Bond-Architecture v1.0 (1,091L, 23 insights, 28 citations)
-  - Enriches: BPGR v1.1 §9 (over-clone reframe) + §10 (4 mechanisms decline)
+  - Enriches: By-Product-Gap-Resonance v1.1 §9 (over-clone reframe) + §10 (4 mechanisms decline)
 research: See §13
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -83,7 +83,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 >
 > **Parent**: `Entity-Compiled.md` — deep mechanism (formation, capacity, grief)
 > **Sibling**: `By-Product-Gap-Resonance.md` — mutual phenomenon observation lens
-> **This file**: cross-bond architecture (how EC plays out across ALL bond types)
+> **This file**: cross-bond architecture (how Entity-Compiled plays out across ALL bond types)
 
 ---
 
@@ -128,7 +128,7 @@ FILE NÀY THÊM:
   ⑧ Historical vs modern domain overlap shift (§8)
   ⑨ Per-bond-type dynamics deep-dive (§9)
 
-= EC v1.0 = WHAT + HOW (1 type). File này = CROSS-BOND VIEW (4 types).
+= Entity-Compiled v1.0 = WHAT + HOW (1 type). File này = CROSS-BOND VIEW (4 types).
 ```
 
 ### §0.2 — Reading flow
@@ -136,13 +136,13 @@ FILE NÀY THÊM:
 ```
 READING FLOW:
   Entity-Compiled.md (HOW Entity-Compiled forms + capacity + grief)
-    → Bond-Architecture.md (FILE NÀY: HOW EC plays out across 4 bond types)
+    → Bond-Architecture.md (FILE NÀY: HOW Entity-Compiled plays out across 4 bond types)
     → By-Product-Gap-Resonance.md (WHEN mutual quality emerge)
     → Resonance-Sustainability.md v1.0 (HOW resonance sustains)
 
 COMPANION FILES:
   Entity-Access.md v1.2 = gradient model (how access level changes)
-  Entity-Access-Excess.md v1.0 = excess spectrum (SPM atrophy, addiction)
+  Entity-Access-Excess.md v1.0 = excess spectrum (Self-Pattern-Modeling atrophy, addiction)
   Entity-Access-Calibration.md v1.0 = calibration mechanism (Exit Cost)
   Love-Romantic.md v2.4 = romantic bond deep-dive
   Connection.md v4.0 = connection observation (3 Generative Primitives)
@@ -214,12 +214,12 @@ COMPANION FILES:
 ### §1.2 — Framework mapping: general-purpose
 
 ```
-⭐ ENTITY-COMPILED (VP v3.0 §3) = GENERAL-PURPOSE:
+⭐ ENTITY-COMPILED (Valence-Propagation v3.0 §3) = GENERAL-PURPOSE:
 
   DEFINITION (không đổi):
     Brain compile agent vào body-base ở STRUCTURAL level.
-    Agent's state = MY state (VP §3.1).
-    Agent's loss = body-base amputation (VP §3.4).
+    Agent's state = MY state (Valence-Propagation §3.1).
+    Agent's loss = body-base amputation (Valence-Propagation §3.4).
 
   TÍNH GENERAL-PURPOSE:
     → Mẹ compile CON → con's state = mẹ's state.
@@ -230,7 +230,7 @@ COMPANION FILES:
     → = KHÁC configuration per-bond-type.
 
   CƠ SỞ EVOLUTION:
-    Architecture B = general-purpose reward (Inter-Body-Mechanism §1).
+    Compilable Architecture = general-purpose reward (Inter-Body-Mechanism §1).
     → General-purpose = SAME mechanism fires cho ANY domain.
     → Entity-Compiled = application of general-purpose reward cho AGENTS.
     → KHÔNG cần hệ thống riêng per bond type → REUSE + tune.
@@ -276,7 +276,7 @@ COMPANION FILES:
 │               │ gap, not      │ stages        │ match (multi- │ = domain      │
 │               │ child's)      │               │ domain)       │ khác nhau)    │
 ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-│ SPM accuracy  │ KHÔNG cần cao │ Phát triển    │ CẦN cao      │ CẦN cho       │
+│ Self-Pattern-Modeling accuracy  │ KHÔNG cần cao │ Phát triển    │ CẦN cao      │ CẦN cho       │
 │ requirement   │ (self-        │ dần: proto →  │ (feedback     │ by-product    │
 │               │ referential   │ basic → full  │ loop MẠNH)   │ match         │
 │               │ reward)       │               │               │               │
@@ -288,7 +288,7 @@ COMPANION FILES:
 │ Sexual        │ ❌            │ ❌            │ ✅           │ ❌            │
 │ component     │               │               │ (hypothalamus)│               │
 ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-│ Exit cost     │ CỰC CAO      │ CAO (BP-      │ CAO (legal + │ THẤP          │
+│ Exit cost     │ CỰC CAO      │ CAO (Background-Pattern-      │ CAO (legal + │ THẤP          │
 │               │ (kin + legal  │ level, age-   │ Entity-C +   │ (no obligat.  │
 │               │ + Entity-C)   │ invariant)    │ shared IF)    │ ambiguous     │
 │               │               │               │               │ grief)        │
@@ -300,13 +300,13 @@ COMPANION FILES:
 ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 │ Honesty of    │ LOW (OT +     │ MODERATE      │ LOW (limer-  │ HIGH (no      │
 │ initial       │ obligation    │ (hardware     │ ence mask    │ mask, no      │
-│ signal        │ mask)         │ safety need)  │ F1/F2        │ obligation)   │
+│ signal        │ mask)         │ safety need)  │ Compiled/Fresh        │ obligation)   │
 │               │               │               │ balance)     │               │
 ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 │ Grief         │ "Mất phần     │ "Mất nguồn    │ "Mất bạn     │ "Mất bạn     │
 │ quality       │ thân thể"     │ an toàn gốc"  │ đời" = multi │ thân" =      │
 │               │ = extension   │ = origin loss │ domain loss  │ domain loss  │
-│               │ amputation    │ (BP-level     │ + routine    │ + ambiguous  │
+│               │ amputation    │ (Background-Pattern-level     │ + routine    │ + ambiguous  │
 │               │               │ disruption)   │ disruption   │ grief        │
 └───────────────┴───────────────┴───────────────┴───────────────┴───────────────┘
 
@@ -337,23 +337,23 @@ COMPANION FILES:
   VÍ DỤ:
     Con điểm cao → mẹ observe "con giỏi" → mẹ's gap fill → mẹ vui.
     NHƯNG: con đang miserable vì bị ép học.
-    → Mẹ VẪN VUI vì mẹ's SPM output = "con ok (vì điểm cao)."
-    → SPM accuracy KHÔNG CẦN CAO cho parent's reward.
+    → Mẹ VẪN VUI vì mẹ's Self-Pattern-Modeling output = "con ok (vì điểm cao)."
+    → Self-Pattern-Modeling accuracy KHÔNG CẦN CAO cho parent's reward.
     → Parent's reward = từ parent's observation, không từ child's reality.
 
   HỆ QUẢ — TẠI SAO PARENT CÓ THỂ "THƯƠNG MÀ HẠI":
     Entity-Compiled = GENUINE (thương thật, body fire thật).
     NHƯNG: gap direction = parent's, KHÔNG PHẢI child's.
     → Parent THẬT SỰ thương + THẬT SỰ hại (suppress child's drives).
-    → = Mixed Entity-Compiled (VP §3.2 ③): positive + negative đồng thời.
+    → = Mixed Entity-Compiled (Valence-Propagation §3.2 ③): positive + negative đồng thời.
     → PFC = Lawyer: "vì con" = rationalization cho parent's gap direction.
 
   FEEDBACK LOOP YẾU:
     → Child nhỏ: KHÔNG THỂ articulate mismatch.
     → Child lớn: power asymmetry → sợ phản hồi.
-    → Parent's SPM CÓ THỂ stale DECADES mà không calibrate.
-    → = SPM Failure Mode 1 (SPM v3.1 §8): "mẹ tưởng hiểu con."
-    → EAC §3: Exit Cost = Signal Weight — parent→child exit impossible
+    → Parent's Self-Pattern-Modeling CÓ THỂ stale DECADES mà không calibrate.
+    → = Self-Pattern-Modeling Failure Mode 1 (Self-Pattern-Modeling v3.1 §8): "mẹ tưởng hiểu con."
+    → Entity-Access-Calibration §3: Exit Cost = Signal Weight — parent→child exit impossible
       → "no" = weak calibration signal → ONLY internal calibration.
 
   🟢 R1, R11, R25. 🟡 Self-referential reward = framework synthesis.
@@ -389,7 +389,7 @@ COMPANION FILES:
     Child's neural response to OWN mother = age-invariant.
     → 20 tuổi vẫn respond giống hệt pattern từ nhỏ.
     → = Entity-Compiled earliest = consolidated DEEPEST.
-    → = Woven into Background Pattern.
+    → = Woven into Background-Pattern.
 
   FILIAL PIETY: 2 LOẠI KHÁC CĂN BẢN:
     ① Reciprocal (affection-based): Entity-Compiled genuine → body muốn chăm sóc.
@@ -405,9 +405,9 @@ COMPANION FILES:
     → KHÁC grief mất partner:
       Mất partner: grief mất COMPANION (nhiều domains hiện tại).
       Mất parent: grief mất ORIGIN (safety foundation từ nhỏ).
-      "Biết mẹ vẫn ở đó" = BACKGROUND COMFORT → mất = BP disruption.
+      "Biết mẹ vẫn ở đó" = BACKGROUND COMFORT → mất = Background-Pattern disruption.
     → Adult mất parent DÙ sống xa 20 năm → VẪN grief significant.
-      → Compiled chunks KHÔNG decay (age-invariant + BP integration).
+      → Compiled chunks KHÔNG decay (age-invariant + Background-Pattern integration).
 
   🟢 R12, R13, R14, R26. 🟡 2-loại filial piety × framework = synthesis.
 ```
@@ -422,14 +422,14 @@ COMPANION FILES:
 
   NEUROCHEMISTRY:
     → Limerence: dopamine SALIENCE + OT BONDING + NE AROUSAL + serotonin ↓.
-    → = Multi-system FLOOD → compile NHANH + mask F1/F2 balance.
-    → Post-limerence: OT + endorphin (attachment) nếu F1 genuine develop.
+    → = Multi-system FLOOD → compile NHANH + mask Compiled/Fresh balance.
+    → Post-limerence: OT + endorphin (attachment) nếu Compiled genuine develop.
     🟢 R15. Fisher 2004: love = DRIVE (cùng level đói, khát).
 
   UNIQUE ĐẶC ĐIỂM SO VỚI 3 BOND KHÁC:
     → SEXUAL COMPONENT (hypothalamus activation): chỉ romantic có.
     → LIMERENCE MASK: hormone che mismatch → reveal sau 18-36 tháng.
-    → SPM ACCURACY CẦN CAO: partner feedback loop mạnh → phải calibrate.
+    → Self-Pattern-Modeling ACCURACY CẦN CAO: partner feedback loop mạnh → phải calibrate.
     → 4 HƯỚNG sau limerence (Love-Romantic §10.4): hay/không match/chán/toxic.
 
   GAP DIRECTION:
@@ -480,7 +480,7 @@ COMPANION FILES:
 
   4 KIỂU FRIENDSHIP:
     ① Bạn thời thơ ấu (hardware match dominant):
-      Compile TRƯỚC Background Pattern mature → chunks = PHẦN CỦA BP.
+      Compile TRƯỚC Background-Pattern mature → chunks = PHẦN CỦA Background-Pattern.
       "Gặp lại sau 10 năm vẫn thân" = compiled chunks fire lại.
     ② Bạn từ context (work, school, hobby):
       Context mất → chunks ÍT fire → friendship decay.
@@ -500,8 +500,8 @@ COMPANION FILES:
 
   FRIENDSHIP LOSS = AMBIGUOUS GRIEF:
     → No social rituals to process (no funeral, no divorce).
-    → Grief proportional to domains lost (EC v1.0 §7 Component A).
-    → Mất bạn tri kỷ CÓ THỂ grief significant (BP-level chunks phantom fire).
+    → Grief proportional to domains lost (Entity-Compiled v1.0 §7 Component A).
+    → Mất bạn tri kỷ CÓ THỂ grief significant (Background-Pattern-level chunks phantom fire).
 
   🟢 R5, R8, R9, R10. 🟡 Friendship = purest resonance test = synthesis.
 ```
@@ -515,20 +515,20 @@ COMPANION FILES:
 ```
 ⭐⭐ 5-STEP PROOF:
 
-  GIẢ THUYẾT: "Over-SPM shift gap A → giống hệt gap B."
+  GIẢ THUYẾT: "Over-Self-Pattern-Modeling shift gap A → giống hệt gap B."
 
   ĐÃ CHỨNG MINH IMPOSSIBLE:
 
   ① Gap = f(TOÀN BỘ chunk network) — Gap-Direction v2.0 §1.
-     SPM chỉ THÊM chunks về B vào library A.
-     SPM KHÔNG XÓA chunks cũ (Hebbian: wired = wired).
+     Self-Pattern-Modeling chỉ THÊM chunks về B vào library A.
+     Self-Pattern-Modeling KHÔNG XÓA chunks cũ (Hebbian: wired = wired).
      Chunks về B = FRACTION nhỏ trong tổng network A.
-     Gap landscape A vẫn DOMINATED bởi BP + hardware + mọi domain khác.
+     Gap landscape A vẫn DOMINATED bởi Background-Pattern + hardware + mọi domain khác.
 
-  ② Background Pattern (years, high link density) RESIST shift.
-     Gap-Direction v2.0 §9: "gap direction shift bị BP PULL BACK."
-     Background-Pattern v1.1 §10: resolution cần YEARS (competing BP).
-     SPM over months KHÔNG override decades of BP.
+  ② Background-Pattern (years, high link density) RESIST shift.
+     Gap-Direction v2.0 §9: "gap direction shift bị Background-Pattern PULL BACK."
+     Background-Pattern v1.1 §10: resolution cần YEARS (competing Background-Pattern).
+     Self-Pattern-Modeling over months KHÔNG override decades of Background-Pattern.
 
   ③ Hardware gaps IMMUTABLE (DNA, neurotransmitter balance).
      Body-Base §1: hardware = nền tảng gap landscape.
@@ -538,14 +538,14 @@ COMPANION FILES:
      NHƯNG: chunks compile từ trải nghiệm riêng → gap DETAILS khác.
      🟢 R18. Bouchard 1990: twins apart → gần giống nhưng KHÔNG giống hệt.
      Hardware giống hệt MÀ gap vẫn khác
-     → SPM (yếu hơn hardware) CÀN KHÔNG THỂ.
+     → Self-Pattern-Modeling (yếu hơn hardware) CÀN KHÔNG THỂ.
 
   ⑤ REBUT: "Cùng thích phở bò": anh thích vì nước, em thích vì thịt dai.
-     SPM observe shared behavior → PFC label "giống nhau" → oversimplify.
+     Self-Pattern-Modeling observe shared behavior → PFC label "giống nhau" → oversimplify.
 
   KẾT LUẬN: Gap clone = KHÔNG KHẢ THI VỀ KIẾN TRÚC.
-  SPM chỉ clone TRẠNG THÁI agent để hiểu agent hơn.
-  SPM KHÔNG clone GAP direction.
+  Self-Pattern-Modeling chỉ clone TRẠNG THÁI agent để hiểu agent hơn.
+  Self-Pattern-Modeling KHÔNG clone GAP direction.
 
   🟢 R18, R19 (twin studies). 🟡 Gap clone impossible = architecture conclusion.
 ```
@@ -576,7 +576,7 @@ COMPANION FILES:
       NHƯNG: gap riêng UNCOMPILE → underlying pattern STILL EXISTS.
 
   ③ BEHAVIOR CONVERGE: A ADOPT B's behavior.
-    Clone level: Adopt/Converge (SPM v3.1 F1 output spectrum).
+    Clone level: Adopt/Converge (Self-Pattern-Modeling v3.1 Compiled output spectrum).
     NHƯNG gap direction KHÔNG shift.
     Sở thích giống = compiled suppress sở thích riêng + adopt partner's.
 
@@ -628,7 +628,7 @@ COMPANION FILES:
 ⭐ M2 = TỰ NHIÊN, ĐỘC LẬP VỚI M1:
 
   CƠ CHẾ:
-    Hardware by-product (BPGR §1 ①a) habituates tự nhiên.
+    Hardware by-product (By-Product-Gap-Resonance §1 ①a) habituates tự nhiên.
     → Cùng stimulus lặp → VTA giảm fire → reward giảm.
     → "Beauty fades" — perception adapt to baseline.
     🟢 R22. Bao & Lyubomirsky 2013: hedonic adaptation in relationships.
@@ -641,10 +641,10 @@ COMPANION FILES:
 ### §4.3 — M3: Prediction completion (hết novelty)
 
 ```
-⭐ M3 = SPM QUÁ ACCURATE → NO PREDICTION-DELTA:
+⭐ M3 = Self-Pattern-Modeling QUÁ ACCURATE → NO PREDICTION-DELTA:
 
   CƠ CHẾ:
-    SPM compiled sâu → predict hoàn hảo → no prediction-delta → no new reward.
+    Self-Pattern-Modeling compiled sâu → predict hoàn hảo → no prediction-delta → no new reward.
     🟢 R23. Baumeister & Bratslavsky 1999: passion = RATE OF CHANGE in intimacy.
     → Rate of change = 0 → passion = 0.
 
@@ -661,7 +661,7 @@ COMPANION FILES:
 ⭐ M4 = ĐÃ COMPILE HẾT VỀ NHAU:
 
   CƠ CHẾ:
-    Entity-Compiled formation: 40→80→200h → diminishing returns (EC v1.0 §3).
+    Entity-Compiled formation: 40→80→200h → diminishing returns (Entity-Compiled v1.0 §3).
     → Sau years: ít chunks MỚI để compile về partner.
     🟢 R24. Aron & Aron 1996, 2000: self-expansion slows → satisfaction giảm.
     → No new Entity-Compiled chunks → same patterns repeat.
@@ -677,18 +677,18 @@ COMPANION FILES:
   M1 (compiled suppress) → xóa NGUỒN by-products riêng.
   M2 (habituation)       → giảm reward từ by-products CŨ.
   M3 (prediction complete)→ chặn by-products MỚI emerge.
-  M4 (EC saturation)     → chặn chunks MỚI về partner.
+  M4 (Entity-Compiled saturation)     → chặn chunks MỚI về partner.
 
   TƯƠNG TÁC:
     M1 + M2: suppress gap riêng + habituate → "flat + boring."
     M1 + M3: no drive riêng + no new prediction → "chán toàn diện."
-    M2 + M4: habituate hardware + saturate EC → "hết mới."
+    M2 + M4: habituate hardware + saturate Entity-Compiled → "hết mới."
     M1 + M2 + M3 + M4: TẤT CẢ → "over-clone kills resonance" COMPOUND.
 
   INDEPENDENCE:
     M2 xảy ra NGAY CẢ không M1 (hardware tự habituate).
     M3 xảy ra NGAY CẢ không M1 (prediction tự complete).
-    M4 xảy ra NGAY CẢ không M1 (EC tự saturate).
+    M4 xảy ra NGAY CẢ không M1 (Entity-Compiled tự saturate).
     NHƯNG: M1 ACCELERATE M2+M3+M4:
     → Compiled suppress → ít grow riêng → prediction complete NHANH HƠN.
     → Compiled suppress → ít novelty → habituation NHANH HƠN.
@@ -712,7 +712,7 @@ COMPANION FILES:
 
   LOGIC CHAIN:
 
-  ① SPM deep + calibrated → THẬT SỰ hiểu partner.
+  ① Self-Pattern-Modeling deep + calibrated → THẬT SỰ hiểu partner.
   ② Hiểu thật → BIẾT partner có gap riêng (sở thích, career, dreams).
   ③ Trust → TIN gap riêng CỦA partner là valid.
   ④ Trust + Biết → HỖ TRỢ partner theo đuổi gap riêng.
@@ -733,7 +733,7 @@ COMPANION FILES:
   BUỘC PHẢI KHÁC:
     → Nam/nữ = hardware KHÁC (hormone, body, gap direction).
     → Career không thể giống hệt (2 người không thể cùng nghề, cùng vị trí).
-    → Childhood khác = BP khác = gap landscape khác.
+    → Childhood khác = Background-Pattern khác = gap landscape khác.
     → = GAP RIÊNG là TÍNH CHẤT CẤU TRÚC, không phải "lựa chọn."
 
   🟡 Logic chain = framework synthesis.
@@ -818,7 +818,7 @@ COMPANION FILES:
 ```
 ⭐⭐ BY-PRODUCT RESONANCE TOÀN DIỆN SUỐT ĐỜI VỚI 1 ENTITY = IMPOSSIBLE:
 
-  ① Gap distribution MỖI NGƯỜI = multi-domain (GDP v1.0).
+  ① Gap distribution MỖI NGƯỜI = multi-domain (Gap-Distribution-Profile v1.0).
      Hardware, career, intellectual, social, creative = 5+ domains.
      1 entity CÓ by-products match MỘT SỐ domains, không phải TẤT CẢ.
 
@@ -837,7 +837,7 @@ COMPANION FILES:
 
   ACEVEDO 2012 NUANCE (★ QUAN TRỌNG):
     🟢 R16. Long-term couples (20+ năm) VẪN VTA activation.
-    → Chứng minh: F1 genuine CÓ THỂ sustain decades.
+    → Chứng minh: Compiled genuine CÓ THỂ sustain decades.
     → NHƯNG: ở SOME domains (hardware + emotional), KHÔNG "toàn diện."
     → = "Tình yêu suốt đời" = thật ở SOME domains.
     → = "By-product toàn diện suốt đời" = structurally impossible.
@@ -915,14 +915,14 @@ COMPANION FILES:
 
   ① HORMONE SUBSIDY + SELF-REFERENTIAL:
     OT surge → compile sâu + NHANH. NHƯNG: reward = parent's gap direction.
-    → EA-Calibration §4: Hardware Subsidy = Calibration Bias.
+    → Entity-Access-Calibration §4: Hardware Subsidy = Calibration Bias.
     → Genuine A provide "cover story" for self-referential C.
 
   ② FEEDBACK LOOP YẾU NHẤT trong 4 bond types:
     → Child nhỏ: non-verbal only.
     → Child lớn: power asymmetry.
-    → = EAC §3: Exit Cost CỰC CAO → "no" = weak signal.
-    → Parent's SPM stale MÀ KHÔNG biết.
+    → = Entity-Access-Calibration §3: Exit Cost CỰC CAO → "no" = weak signal.
+    → Parent's Self-Pattern-Modeling stale MÀ KHÔNG biết.
 
   ③ LIFECYCLE SHIFT:
     0-6 tuổi: parent DOMINANT, child depend.
@@ -959,7 +959,7 @@ COMPANION FILES:
 
   ④ STRONGEST GRIEF IF LOST:
     → Multi-domain Entity-Compiled → multi-domain loss.
-    → + Shared routine disruption → Background Pattern disruption.
+    → + Shared routine disruption → Background-Pattern disruption.
     → + Legal/social restructure → practical grief.
 ```
 
@@ -1002,17 +1002,17 @@ CASE 1: "Vợ chồng giống nhau quá":
 CASE 2: "Mẹ thương con mà con không hiểu":
   → Parent's gap direction = parent's, not child's.
   → Reward = self-referential. Genuine love + mismatched direction.
-  → Feedback loop yếu → SPM stale → "mẹ tưởng hiểu con."
-  → FIX: parent develop SPM accuracy about child's ACTUAL state.
+  → Feedback loop yếu → Self-Pattern-Modeling stale → "mẹ tưởng hiểu con."
+  → FIX: parent develop Self-Pattern-Modeling accuracy about child's ACTUAL state.
 
 CASE 3: "Bạn thân từ nhỏ gặp lại vẫn thân":
-  → Childhood compiled chunks = woven into BP.
-  → BP = stable → compiled chunks about friend = PERSIST.
+  → Childhood compiled chunks = woven into Background-Pattern.
+  → Background-Pattern = stable → compiled chunks about friend = PERSIST.
   → Meeting again → chunks FIRE → feeling RECONNECT.
   → KHÁC friendship tuổi trưởng thành: adult = context-dependent.
 
 CASE 4: "Yêu 10 năm mà chán":
-  → M2 (habituation) + M3 (prediction complete) + M4 (EC saturation).
+  → M2 (habituation) + M3 (prediction complete) + M4 (Entity-Compiled saturation).
   → ± M1 (compiled suppress gap riêng).
   → ALL 4 mechanisms compound → "hết mới."
   → FIX: both maintain drive riêng → new by-products → anti-M1+M2+M3+M4.
@@ -1070,8 +1070,8 @@ CASE 5: "Một mình theo partner bỏ tất cả":
   True understanding = anti-compiled-suppress logic chain
   Understanding depth determines outcome
   Friendship = purest resonance test
-  Parent reward = self-referential (SPM accuracy irrelevant)
-  Parent feedback loop weak → SPM stale
+  Parent reward = self-referential (Self-Pattern-Modeling accuracy irrelevant)
+  Parent feedback loop weak → Self-Pattern-Modeling stale
   By-product resonance toàn diện = structurally impossible
   Dunbar layers = portfolio solution
   Reward source for suppress shifts over time
@@ -1096,11 +1096,11 @@ CASE 5: "Một mình theo partner bỏ tất cả":
 
 ```
   → Agent-Mechanism.md v2.0 — parent integration hub
-  → Self-Pattern-Modeling.md v3.1 — F1/F2, Agent-mode, SPM accuracy
+  → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Agent-mode, Self-Pattern-Modeling accuracy
   → By-Product-Gap-Resonance.md v1.1 — Resonance Core, 4 conditions, 5 enhancers
   → Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation, Grief A+B+C
   → Entity-Access.md v1.2 — 3-Factor Model, Gradient Mức 0-5
-  → Entity-Access-Excess.md v1.0 — SPM atrophy, excess spectrum
+  → Entity-Access-Excess.md v1.0 — Self-Pattern-Modeling atrophy, excess spectrum
   → Entity-Access-Calibration.md v1.0 — 3-Layer calibration, Exit Cost
 ```
 
@@ -1110,7 +1110,7 @@ CASE 5: "Một mình theo partner bỏ tất cả":
   → Valence-Propagation.md v3.0 — §3 Entity-Compiled definition + 3 subtypes
   → PFC-Operations.md v1.0 — Hold/Suppress, Outcome B, compiled quality
   → Simulation-Engine.md v1.0 — 1 engine × 3 components × 3 axes
-  → Inter-Body-Mechanism.md v1.0 — Architecture B, 3-cost, by-product match
+  → Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 3-cost, by-product match
   → Gap-Direction.md v2.0 — gap = f(surrounding chunks), immutability
   → Gap-Distribution-Profile.md v1.0 — multi-domain gap landscape
   → Background-Pattern.md v1.1 — 2D Depth×Density, resist change

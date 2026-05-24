@@ -1,9 +1,10 @@
 ---
 title: Autonomy-Hardware — Tại Sao Self-Action = Reward
-version: 1.1
+version: 1.2
 created: 2026-04-20
 updated: 2026-05-17
-status: OBSERVATION PARAMETER v1.1 — HARDWARE MECHANISM
+refined: 2026-05-23 (v1.2 — Concept Cascade: +Entity-Access calibration, +Hardware Subsidy. Updated versions + cross-refs)
+status: OBSERVATION PARAMETER v1.2 — HARDWARE MECHANISM
 scope: |
   HARDWARE MECHANISM FILE: Giải thích TẠI SAO con người tự nhiên prefer
   self-action hơn external-control. Đây KHÔNG phải "thiết kế" hay "bản năng"
@@ -13,15 +14,15 @@ scope: |
   Bổ sung: vmPFC + DRN controllability learning (Maier & Seligman 2016),
   cortisol direction tag (novelty vs threat), opioid vs relief pathways.
   v1.1 KEY CHANGES:
-    ⑪ +Architecture B alignment: these emergent patterns = Architecture B specific
-    ⑫ +Cross-refs: IBM v1.0, BFL v2.0, dependency versions updated
+    ⑪ +Compilable Architecture alignment: these emergent patterns = Compilable Architecture specific
+    ⑫ +Cross-refs: Inter-Body-Mechanism v1.0, Body-Feedback-Label v2.0, dependency versions updated
 purpose: |
   File này giải thích CƠ CHẾ HARDWARE tạo ra autonomy preference.
   Autonomy.md (file đi kèm) giải thích SOFTWARE — chunk tích lũy,
   developmental arc, xu hướng cá nhân.
   Split vì: hardware mechanism = universal, nền tảng.
   Software development = individual, tùy experience.
-  Các file khác (Cortisol-Baseline, BFM, Neural-Architecture) CẦN
+  Các file khác (Cortisol-Baseline, Body-Feedback-Mechanism, Neural-Architecture) CẦN
   reference file này cho efference copy reward + vmPFC/DRN mechanism
   mà backup/Neurochemistry.md §6.3 từng chứa.
 position: |
@@ -32,7 +33,7 @@ position: |
 dependencies:
   - Core-v7.8-Draft.md — §8 observation parameters, Autonomy definition
   - Cortisol-Baseline.md v2.0 — §7.2-§7.3 chunk direction tag
-  - Inter-Body-Mechanism.md v1.0 — §1.2 Architecture B (general-purpose system)
+  - Inter-Body-Mechanism.md v1.0 — §1.2 Compilable Architecture (general-purpose system)
   - Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap, prediction-delta
   - Body-Feedback-Label.md v2.0 — vocabulary consistency
   - backup/Neurochemistry.md — §6.3 controllability, vmPFC + DRN
@@ -166,18 +167,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Tất cả = observable FROM architecture, UNIVERSAL
     → Tất cả = có giá trị khoa học vì TESTABLE + FALSIFIABLE
 
-  ⭐ ARCHITECTURE B (Inter-Body-Mechanism.md §1.2):
+  ⭐ COMPILABLE ARCHITECTURE (Inter-Body-Mechanism.md §1.2):
 
-    Tất cả patterns trong bảng trên = ARCHITECTURE B emergent.
-    Architecture A (côn trùng): hardwired stimulus→response.
+    Tất cả patterns trong bảng trên = COMPILABLE ARCHITECTURE emergent.
+    Hardwired Architecture (côn trùng): hardwired stimulus→response.
       → Không có efference copy → sensory prediction comparison path.
       → Không có vmPFC → không có controllability learning.
       → Không cần "autonomy preference" — mọi action pre-wired.
-    Architecture B (động vật có vú):
+    Compilable Architecture (động vật có vú):
       → General-purpose reward + compilation + PFC.
       → Efference copy + VTA + opioid = autonomy preference = BY-PRODUCT.
       → vmPFC + DRN = controllability LEARNABLE (Maier & Seligman 2016).
-    File này: document CƠ CHẾ HARDWARE tạo autonomy preference trong Architecture B.
+    File này: document CƠ CHẾ HARDWARE tạo autonomy preference trong Compilable Architecture.
 
   ⚠️ DISTINCTION QUAN TRỌNG:
 
@@ -308,20 +309,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ SUMMARY TABLE:
 
-  ┌─────────────────┬──────────────────────┬──────────────────────┐
-  │ PARAMETER        │ SELF-ACTION          │ EXTERNAL-ACTION      │
-  ├─────────────────┼──────────────────────┼──────────────────────┤
-  │ Efference copy  │ ✅ CÓ               │ ❌ KHÔNG             │
-  │ Timing predict  │ HIGH (tự quyết)      │ LOW (người khác)     │
-  │ Spatial predict │ HIGH (motor command) │ LOW (unpredicted)    │
-  │ Thermal preview │ YES (hand feel)      │ NO (no hand contact) │
-  │ Texture preview │ YES                  │ NO                   │
-  │ Olfactory prev. │ CLOSER (self-pace)   │ PARTIAL              │
-  │ Overall pred.   │ HIGH                 │ LOW                  │
-  │ VTA signal      │ Match → positive     │ Miss → alerting      │
-  │ Opioid          │ Micro-reward         │ Absent               │
-  │ Body feedback   │ REWARD               │ MILD DISSONANCE      │
-  └─────────────────┴──────────────────────┴──────────────────────┘
+  ┌────────────────────┬──────────────────────┬──────────────────────┐
+  │ PARAMETER           │ SELF-ACTION          │ EXTERNAL-ACTION      │
+  ├────────────────────┼──────────────────────┼──────────────────────┤
+  │ Efference copy     │ ✅ CÓ               │ ❌ KHÔNG             │
+  │ Timing predict     │ HIGH (tự quyết)      │ LOW (người khác)     │
+  │ Spatial predict    │ HIGH (motor command) │ LOW (unpredicted)    │
+  │ Thermal preview    │ YES (hand feel)      │ NO (no hand contact) │
+  │ Texture preview    │ YES                  │ NO                   │
+  │ Olfactory preview  │ CLOSER (self-pace)   │ PARTIAL              │
+  │ Overall prediction │ HIGH                 │ LOW                  │
+  │ VTA signal         │ Match → positive     │ Miss → alerting      │
+  │ Opioid             │ Micro-reward         │ Absent               │
+  │ Body feedback      │ REWARD               │ MILD DISSONANCE      │
+  └────────────────────┴──────────────────────┴──────────────────────┘
 
   → CÙNG action. CÙNG object. CÙNG outcome.
   → KHÁC: ai control → KHÁC prediction accuracy → KHÁC body feedback.
@@ -507,26 +508,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CÙNG CORTISOL LEVEL, KHÁC DIRECTION (Cortisol-Baseline §7.2-§7.3):
 
-    ┌─────────────────┬──────────────────────┬──────────────────────┐
-    │                 │ NOVELTY DIRECTION    │ THREAT DIRECTION     │
-    │                 │ (tự chọn, tò mò)    │ (bị ép, sợ)         │
-    ├─────────────────┼──────────────────────┼──────────────────────┤
-    │ Cortisol level  │ Moderate             │ Moderate-Cao         │
-    │ Kèm theo        │ + Dopamine (seeking) │ + NE (alert)         │
-    │                 │ + Opioid nhẹ (prev.) │ + Adrenaline         │
-    │ Body state      │ HƯNG PHẤN            │ CĂNG                 │
-    ├─────────────────┼──────────────────────┼──────────────────────┤
-    │ Chunk tag       │ APPROACH (opioid)    │ AVOIDANCE (threat)   │
-    │                 │ "hiểu = sướng"       │ "học = khó chịu"     │
-    │ Long-term       │ Body THÍCH dùng lại  │ Body TRÁNH dùng      │
-    ├─────────────────┼──────────────────────┼──────────────────────┤
-    │ Sleep quality   │ TỐT                  │ CÓ THỂ KÉM          │
-    │ Repair quality  │ CAO                  │ THẤP                 │
-    │ Net health      │ Repair ≥ Damage      │ Repair < Damage      │
-    ├─────────────────┼──────────────────────┼──────────────────────┤
-    │ Chunk quality   │ CÓ + DÙNG ĐƯỢC      │ CÓ + KHÓ DÙNG       │
-    │                 │ + THÍCH              │ + GẮN SỢ             │
-    └─────────────────┴──────────────────────┴──────────────────────┘
+    ┌─────────────────┬────────────────────────┬──────────────────────┐
+    │                 │ NOVELTY DIRECTION      │ THREAT DIRECTION     │
+    │                 │ (tự chọn, tò mò)      │ (bị ép, sợ)         │
+    ├─────────────────┼────────────────────────┼──────────────────────┤
+    │ Cortisol level  │ Moderate               │ Moderate-Cao         │
+    │ Kèm theo        │ + Dopamine (seeking)   │ + NE (alert)         │
+    │                 │ + Opioid nhẹ (preview) │ + Adrenaline         │
+    │ Body state      │ HƯNG PHẤN              │ CĂNG                 │
+    ├─────────────────┼────────────────────────┼──────────────────────┤
+    │ Chunk tag       │ APPROACH (opioid)      │ AVOIDANCE (threat)   │
+    │                 │ "hiểu = pleasant"         │ "học = khó chịu"     │
+    │ Long-term       │ Body THÍCH dùng lại    │ Body TRÁNH dùng      │
+    ├─────────────────┼────────────────────────┼──────────────────────┤
+    │ Sleep quality   │ TỐT                    │ CÓ THỂ KÉM          │
+    │ Repair quality  │ CAO                    │ THẤP                 │
+    │ Net health      │ Repair ≥ Damage        │ Repair < Damage      │
+    ├─────────────────┼────────────────────────┼──────────────────────┤
+    │ Chunk quality   │ CÓ + DÙNG ĐƯỢC        │ CÓ + KHÓ DÙNG       │
+    │                 │ + THÍCH                │ + GẮN SỢ             │
+    └─────────────────┴────────────────────────┴──────────────────────┘
 
   AUTONOMY CONNECTION:
     → Self-chosen action = typically NOVELTY direction
@@ -605,7 +606,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ③ Self-initiated action → efference copy → prediction
     ④ Outcome MATCH → VTA: positive prediction-delta
     ⑤ Opioid: match → "đúng rồi" → hedonic reward
-    ⑥ Chunk compile với APPROACH TAG → "hiểu = sướng"
+    ⑥ Chunk compile với APPROACH TAG → "hiểu = pleasant"
     ⑦ Next encounter: body THÍCH dùng chunk → approach → repeat
 
     = Self-reinforcing, self-sustaining, compound, resilient
@@ -675,7 +676,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   "BỊ ÉP" = PREDICTION OVERRIDE CÓ 2 LAYERS:
 
-  Layer 1 — Prediction override (immediate, BFM §3.2):
+  Layer 1 — Prediction override (immediate, Body-Feedback-Mechanism §3.2):
     → Current prediction stream bị interrupt
     → Bé đang chơi đồ chơi → mẹ đút food → INTERRUPT
     → Body: "prediction cho đồ chơi → đột nhiên food = OVERRIDE"
@@ -700,6 +701,33 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     NHƯNG:
       → Nhân viên's prediction bị override → VẪN dissonance
       → = "Đúng nhưng tôi KHÔNG quyết" = low autonomy DÙ outcome good
+```
+
+### §5.1 — × New Concepts (28-session Drill Propagation)
+
+```
+ENTITY-ACCESS × AUTONOMY-HARDWARE (Entity-Access.md v1.2):
+  → vmPFC controllability learning (§2) = Entity-Access CALIBRATION hardware:
+    vmPFC learns "tôi control ĐƯỢC access" → Entity-Access-Calibration.md v1.0
+    vmPFC teo (chronic stress) → LOST calibration capacity
+    → = Autonomy hardware = access calibration hardware
+  → DRN inhibition pattern = per-entity access gating:
+    Controllable entity → vmPFC inhibit DRN → approach
+    Uncontrollable entity → DRN fires → helplessness per-entity
+
+HARDWARE SUBSIDY × AUTONOMY (Valence-Propagation v3.0 §5):
+  → Hardware subsidy INTERACT with autonomy hardware:
+    High subsidy entities (con, partner): efference copy BONUS
+      → Body reward self-action toward THESE entities even MORE
+      → = TẠI SAO chăm con = highest autonomy feeling (hardware + subsidy compound)
+    Low subsidy entities (stranger): efference copy ALONE
+      → Body reward proportional to prediction accuracy only
+  → Autonomy + hardware subsidy = COMPOUND reward:
+    Self-chosen action + toward subsidy entity = MAXIMUM opioid
+    Forced action + toward non-subsidy entity = MINIMUM (double penalty)
+
+🟡 Entity-Access × autonomy hardware = framework convergence (vmPFC = calibration)
+🟡 Hardware Subsidy × autonomy = framework application (compound reward)
 ```
 
 ---
@@ -753,10 +781,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Logically sound — but "emergent" is a claim about WHY, hard to test
     → Alternative: could be directly selected (evolution for autonomy)
 
-  ④ Architecture B specificity (v1.1)
-    → "These emergent patterns = Architecture B only" = framework claim
+  ④ Compilable Architecture specificity (v1.1)
+    → "These emergent patterns = Compilable Architecture only" = framework claim
     → Insects DO have simpler efference copies → but no vmPFC/controllability
-    → Boundary between A and B may be gradient, not sharp
+    → Boundary between Hardwired and Compilable may be gradient, not sharp
 ```
 
 ### §6.3 — Tier 3: Hypothesis (🔴)
@@ -805,7 +833,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 DRILL SOURCE:
-  → Inter-Body-Mechanism.md v1.0 §1.2 — Architecture B (general-purpose, efference copy context)
+  → Inter-Body-Mechanism.md v1.0 §1.2 — Compilable Architecture (general-purpose, efference copy context)
 
 VOCABULARY:
   → Body-Feedback-Label.md v2.0 — prediction-delta, approach/avoidance tag
@@ -870,6 +898,6 @@ BỊ ÉP (§5): 2-layer dissonance — immediate prediction override +
 = Companion file Autonomy.md covers SOFTWARE: how this develops per person.
 
 ~870 lines | version 1.1 | 2026-05-17
-v1.1 CHANGES: ⑪ +Architecture B alignment (§0) ⑫ +IBM/BFL cross-refs
-  ⑬ Dependency versions updated (BFM v2.0, Cortisol v2.0)
+v1.1 CHANGES: ⑪ +Compilable Architecture alignment (§0) ⑫ +Inter-Body-Mechanism/Body-Feedback-Label cross-refs
+  ⑬ Dependency versions updated (Body-Feedback-Mechanism v2.0, Cortisol v2.0)
 ```

@@ -16,19 +16,19 @@ scope: |
     ② Entity-Compiled 3 subtypes (positive/negative/mixed)
     ③ Compiled/Fresh processing labels (trục thật)
     ④ By-product match / Anti-match
-    ⑤ 2-Stream Architecture (Stream 1 / Stream 2)
+    ⑤ 2-Stream Architecture (Hardware-Stream / Modeling-Stream)
     ⑥ 3 Independent Cost Sources
     ⑦ 5-Channel Input Vector
 purpose: |
   Framework phân tích body-feedback qua 4 trục, 7-step mechanism,
-  Type A/B, A₀→A₃, 5 Profiles, 3 chunk dynamics, 5 cortisol Roles.
+  Evaluative/Direct-State, E₀→E₃, 5 Profiles, 3 chunk dynamics, 5 cortisol Roles.
   v2.0: THÊM Foundation terms, Compiled/Fresh processing, Inter-Body interaction,
   Entity-Compiled multi-channel, 5-Channel Input, 3-cost.
   File này formalize vocabulary thống nhất cho TOÀN BỘ framework —
   bao gồm cả intra-body VÀ inter-body labels.
   Giải quyết:
-    → "opioid confirm" chỉ cover Type A, bỏ sót Type B
-    → "sướng/khó chịu" nhầm body-feedback (mechanism) với feeling (observation)
+    → "opioid confirm" chỉ cover Evaluative, bỏ sót Direct-State
+    → "pleasant/discomfort" nhầm body-feedback (mechanism) với feeling (observation)
     → "Logic/Feeling" nhầm observer labels với mechanism labels
     → Thiếu vocabulary cho inter-body interaction
     → Foundation terms (body-need, gap) dùng khắp nơi nhưng chưa define
@@ -38,7 +38,7 @@ position: |
 dependencies:
   - Body-Feedback.md v2.0 — §2 dual-pull, §4 4 trục, §5 3 nguồn, §6 H10
   - Body-Feedback-Mechanism.md v2.0 — §1 Body-Need aggregate, §2 2 sources, §3 3 dynamics
-  - Reward-Signal-Architecture.md v2.0 — §1 Type A/B, §2 A₀→A₃, §4 5 Profiles
+  - Reward-Signal-Architecture.md v2.0 — §1 Evaluative/Direct-State, §2 E₀→E₃, §4 5 Profiles
   - 03-Reward.md v1.1 — §2 7-step mechanism, §3 H10, Step 5 body-base check
   - Cortisol-Baseline.md v2.0 — §7.7 5 Roles
   - Valence-Propagation.md v2.0 — §3 Entity-Compiled, approach/avoidance tags
@@ -53,7 +53,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 # Body-Feedback Label Convention — Vocabulary Reference
 
 > **Framework phân tích body-feedback qua 4 trục, 7-step mechanism,**
-> **Type A/B, A₀→A₃, 5 Profiles, 3 chunk dynamics, 5 cortisol Roles...**
+> **Evaluative/Direct-State, E₀→E₃, 5 Profiles, 3 chunk dynamics, 5 cortisol Roles...**
 >
 > **THÊM: Foundation terms, Compiled/Fresh processing, Entity-Compiled 3 subtypes,**
 > **By-product match, 2-Stream, 3-cost, 5-Channel Input Vector.**
@@ -91,15 +91,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Body-feedback system có:
     → 4 trục phân loại orthogonal (Body-Feedback-Mechanism.md §0)
     → 7-step mechanism từ detection → reward (03-Reward.md §2)
-    → Type A/B reward distinction (Reward-Signal-Architecture.md §1)
-    → A₀→A₃ complexity gradient + 5 Profiles
+    → Evaluative/Direct-State Reward distinction (Reward-Signal-Architecture.md §1)
+    → E₀→E₃ complexity gradient + 5 Profiles
     → 3 chunk dynamics (Chunk-Shift/Miss/Gap)
     → 5 cortisol Roles (Cortisol-Baseline.md §7.7)
 
   v2.0 THÊM (từ Inter-Body drill):
     → Foundation terms: body-need, gap, gap direction, drive (Inter-Body §2)
     → Compiled/Fresh = trục processing thật (Inter-Body §3)
-    → Entity-Compiled 3 subtypes (Inter-Body §8, VP v2.0 §3)
+    → Entity-Compiled 3 subtypes (Inter-Body §8, Valence-Propagation v2.0 §3)
     → By-product match + Anti-match (Inter-Body §5.4)
     → 2-Stream Architecture (By-Product-Gap-Resonance v1.0 §2)
     → 3 Independent Cost Sources (Inter-Body §4)
@@ -111,16 +111,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   4 VẤN ĐỀ CỤ THỂ:
 
-  ① "OPIOID CONFIRM" CHỈ COVER TYPE A:
-    Type A reward: μ-opioid → hedonic hotspot → ĐÚNG "opioid confirm"
-    Type B reward: CT afferents / endocannabinoid / thermoreceptor → KHÔNG opioid
-    → Correct general label = "body-base reward" (cover CẢ A VÀ B)
+  ① "OPIOID CONFIRM" CHỈ COVER EVALUATIVE REWARD:
+    Evaluative Reward: μ-opioid → hedonic hotspot → ĐÚNG "opioid confirm"
+    Direct-State Reward: CT afferents / endocannabinoid / thermoreceptor → KHÔNG opioid
+    → Correct general label = "body-base reward" (cover CẢ Evaluative VÀ Direct-State)
     (Reward-Signal-Architecture.md §1.1)
 
   ② NHẦM LẪN BODY-FEEDBACK VỚI FEELING:
     Body-feedback = MECHANISM (signal từ body, chạy 24/7, 95% vô thức)
     Feeling = OBSERVATION (PFC quan sát body-feedback → 7-layer gradient)
-    "Sướng" = feeling label (PFC đã observe + label) — KHÔNG phải body-feedback label
+    "Pleasant" = feeling label (PFC đã observe + label) — KHÔNG phải body-feedback label
     → §10 file này phân biệt rõ
     (Feeling.md v2.2)
 
@@ -134,7 +134,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     "body-need", "gap", "gap direction" = xuất hiện HÀNG TRĂM lần
     Nhưng chưa bao giờ được formalize ở 1 nơi duy nhất
     → §2 file này define foundation
-    (BFM v2.0 §1, Inter-Body §2, Gap-Direction.md)
+    (Body-Feedback-Mechanism v2.0 §1, Inter-Body §2, Gap-Direction.md)
 
 
   ⭐ FILE NÀY GIẢI QUYẾT:
@@ -216,7 +216,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ body-base               │ TOÀN BỘ hệ thống: hardware + compiled   │
   │                         │ + social. = "Cơ thể-nền" bao gồm mọi   │
   │                         │ thứ body đã tích lũy + đang vận hành.   │
-  │                         │ Architecture B: general-purpose reward + │
+  │                         │ Compilable Architecture: general-purpose reward + │
   │                         │ compilation + social hardware.           │
   │                         │ Dùng: khi nói về HỆ THỐNG tổng thể.    │
   │                         │ (Body-Base.md v3.1, Inter-Body §1)      │
@@ -267,7 +267,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⚠️ Body-need CÓ PRIORITY (intensity × urgency × state)
   ⚠️ PFC KHÔNG LUÔN BIẾT body-need (exist trước awareness)
   ⚠️ 2 nguồn KHÔNG loại trừ — 1 event kích hoạt CẢ ①+②
-  (Inter-Body §2, BFM v2.0 §1)
+  (Inter-Body §2, Body-Feedback-Mechanism v2.0 §1)
 
 
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -371,34 +371,34 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├─────────┼─────────────────────┼──────────────────────────────────────┤
   │         │                     │                                      │
   │ TIER 2  │ body-base reward    │ Body xác nhận chunk khớp body-need   │
-  │ (type)  │                     │ (§2). Cover CẢ Type A VÀ Type B.    │
+  │ (type)  │                     │ (§2). Cả Evaluative + Direct-State.  │
   │         │                     │ Dùng: khi biết rõ body confirm.      │
   │         │                     │                                      │
   │         │ reward              │ Viết tắt của body-base reward.       │
   │         │                     │ Dùng: khi context ĐÃ RÕ là          │
   │         │                     │ body-feedback (không nhầm sang khác).│
   │         │                     │                                      │
-  │         │ Type A reward       │ Evaluative confirm. Opioid-based.    │
+  │         │ Evaluative Reward    │ Evaluative confirm. Opioid-based.    │
   │         │                     │ Cần H10 full. Chunk library rich.    │
   │         │                     │ Dùng: khi biết rõ là evaluative.     │
   │         │                     │                                      │
-  │         │ Type B reward       │ Direct state confirm. Non-opioid.    │
+  │         │ Direct-State Reward  │ Direct state confirm. Non-opioid.    │
   │         │                     │ Hardware-based. Ít habituate.        │
   │         │                     │ Dùng: khi biết rõ là body-state.     │
   │         │                     │                                      │
   ├─────────┼─────────────────────┼──────────────────────────────────────┤
   │         │                     │                                      │
-  │ TIER 3  │ μ-opioid confirm    │ Type A. Hedonic hotspot pathway.     │
+  │ TIER 3  │ μ-opioid confirm    │ Evaluative. Hedonic hotspot pathway. │
   │ (cụ thể)│                     │ Dùng: khi trace chain tới NAcc/VP.   │
   │         │                     │                                      │
-  │         │ CT afferent reward  │ Type B. Touch comfort pathway.       │
+  │         │ CT afferent reward  │ Direct-State. Touch comfort pathway.  │
   │         │                     │ ~1-10cm/s optimal (Löken 2009).      │
   │         │                     │                                      │
-  │         │ endocannabinoid     │ Type B. Exercise/runner's high.      │
+  │         │ endocannabinoid     │ Direct-State. Exercise/runner's high.│
   │         │ reward              │ CB1 pathway (Fuss 2015).             │
   │         │                     │                                      │
-  │         │ A₀ / A₁ / A₂ / A₃  │ Type A complexity gradient.          │
-  │         │                     │ A₀=hardware, A₃=expert evaluation.   │
+  │         │ E₀ / E₁ / E₂ / E₃  │ Evaluative complexity gradient.      │
+  │         │                     │ E₀=hardware, E₃=expert evaluation.   │
   │         │                     │ (Reward-Signal-Architecture §2)      │
   │         │                     │                                      │
   │         │ Profile ①-⑤         │ 5 "hương vị" reward.                 │
@@ -408,8 +408,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │         │                     │                                      │
   └─────────┴─────────────────────┴──────────────────────────────────────┘
 
-  ⚠️ "opioid confirm" → CHỈ dùng khi nói CỤ THỂ về Type A pathway
-  ⚠️ "reward" nói chung → luôn bao gồm CẢ Type A VÀ Type B
+  ⚠️ "opioid confirm" → CHỈ dùng khi nói CỤ THỂ về Evaluative pathway
+  ⚠️ "reward" nói chung → luôn bao gồm CẢ Evaluative VÀ Direct-State
   ⚠️ Nhớ: reward = body confirm "gap đang fill đúng direction" (§2C)
      ≠ prediction-delta (detection signal — §5)
 ```
@@ -477,7 +477,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⚠️ Cortisol = AMPLIFIER, không phải SOURCE dissonance
      (Body-Feedback.md §5: cortisol injection → no pain)
-  ⚠️ "Khó chịu" = feeling label (PFC observe) ≠ dissonance (mechanism)
+  ⚠️ "Discomfort" = feeling label (PFC observe) ≠ dissonance (mechanism)
   ⚠️ chunk-gap (signal) vs gap (state):
      Gap (§2C) = STATE: chunk missing (có thể PFC không biết)
      Chunk-gap (§4 đây) = SIGNAL: body FIRE dissonance vì detect gap
@@ -525,7 +525,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Body-base reward = "quà đằng sau cửa" (chunk KHỚP body-need)
 
     Chuông cửa → KHÔNG phải quà. Quà → KHÔNG cần chuông cửa luôn.
-    (Type B reward có thể bypass prediction-delta — RSA §1.3 P3)
+    (Direct-State Reward có thể bypass prediction-delta — Reward-Signal-Architecture §1.3 P3)
 
     → ĐỪNG gộp prediction-delta với body-base reward
     → ĐỪNG gọi prediction-delta là "reward signal"
@@ -618,7 +618,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ (general)               │ STRUCTURAL level. Entity's state =       │
   │                         │ MY state. Per-channel valence profile.    │
   │                         │ Dùng: general term cho structural bond.  │
-  │                         │ (Inter-Body §8, VP v2.0 §3)             │
+  │                         │ (Inter-Body §8, Valence-Propagation v2.0 §3)             │
   │                         │                                          │
   │ Entity-Compiled         │ Majority channels positive.              │
   │ positive-dominant       │ Presence = approach + reward.            │
@@ -770,25 +770,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Label                   │ Nghĩa + khi nào dùng                    │
   ├─────────────────────────┼──────────────────────────────────────────┤
   │                         │                                          │
-  │ Stream 1                │ Hardware/Unidirectional by-product match. │
+  │ Hardware-Stream                │ Hardware/Unidirectional by-product match. │
   │ (hardware/unidirect.)   │ Reward từ EXISTENCE/thuộc tính bên kia. │
   │                         │ Không cần engagement ngược lại.          │
   │                         │ HABITUATES (Weber-Fechner).              │
   │                         │ Cảm RIÊNG (mỗi bên không biết bên kia). │
   │                         │ Dùng: khi reward từ presence/attribute.  │
   │                         │                                          │
-  │ Stream 2                │ SPM compiled mutual (bidirectional).     │
-  │ (SPM mutual)            │ CẦN cả 2 engage SPM → feedback loop.    │
+  │ Modeling-Stream                │ Self-Pattern-Modeling compiled mutual (bidirectional).     │
+  │ (Self-Pattern-Modeling mutual)            │ CẦN cả 2 engage Self-Pattern-Modeling → feedback loop.    │
   │                         │ 2 não ĐỒNG BỘ. Can CHANGE other's state.│
   │                         │ ANTI-HABITUATION (Hebbian → stronger).   │
   │                         │ Unsustainable if 1-sided.                │
   │                         │ Dùng: khi mô tả deep mutual connection. │
   │                         │                                          │
-  │ Proto-Stream 2          │ Stream 2 primitive (không full SPM).     │
+  │ Proto-Modeling-Stream          │ Modeling-Stream primitive (không full Self-Pattern-Modeling).     │
   │                         │ Mẹ-bé: contingent response.             │
   │                         │ Người-chó: associative matching.         │
   │                         │ Dùng: khi có mutual exchange nhưng       │
-  │                         │ thiếu full SPM bilateral.                │
+  │                         │ thiếu full Self-Pattern-Modeling bilateral.                │
   │                         │                                          │
   └─────────────────────────┴──────────────────────────────────────────┘
 
@@ -867,10 +867,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Label                   │ Nghĩa + khi nào dùng                    │
   ├─────────────────────────┼──────────────────────────────────────────┤
   │                         │                                          │
-  │ Architecture B          │ Human system: general-purpose reward +   │
+  │ Compilable Architecture          │ Human system: general-purpose reward +   │
   │                         │ compilation + social hardware.           │
   │                         │ Trade-off: flexible but 15-20yr compile. │
-  │                         │ (vs Architecture A: specific-reward)     │
+  │                         │ (vs Hardwired Architecture: specific-reward)     │
   │                         │ Dùng: khi giải thích WHY human system.   │
   │                         │ (Inter-Body §1.2)                        │
   │                         │                                          │
@@ -910,24 +910,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├──────────────────┼───────────────────────────────────────────────┤
   │ FEELING          │ OBSERVATION: PFC quan sát body-feedback        │
   │ (observation)    │ 7-layer gradient (implicit → explicit)         │
-  │                  │ Labels: "sướng" / "khó chịu" / "lờ mờ" / ... │
+  │                  │ Labels: "pleasant" / "discomfort" / "vague" / ... │
   │                  │ = Feeling.md v2.2 mô tả vocabulary của tầng   │
   │                  │ này                                            │
   └──────────────────┴───────────────────────────────────────────────┘
 
   ⚠️ NHẦM LẪN HAY GẶP:
 
-    "Sướng" ≠ reward:
-      → "Sướng" = PFC observation body-base reward
+    "Pleasant" ≠ reward:
+      → "Pleasant" = PFC observation body-base reward
         (Layer 5-6: đã observe + label)
       → Reward có thể CHẠY mà PFC không observe
         (Layer 1-2: body signal nhưng PFC chưa thấy)
-      → = Body-base reward XẢY RA mà không "cảm thấy sướng" (possible)
+      → = Body-base reward XẢY RA mà không "cảm thấy pleasant" (possible)
 
-    "Khó chịu" ≠ dissonance:
-      → "Khó chịu" = PFC observation dissonance signal
+    "Discomfort" ≠ dissonance:
+      → "Discomfort" = PFC observation OF dissonance signal
       → Dissonance chạy 24/7, PFC chỉ observe 1 phần nhỏ
-      → = "Background Pattern" dissonance = invisible (BP.md)
+      → = "Background-Pattern" dissonance = invisible (Background-Pattern.md)
 
     "Trực giác" ≠ chỉ feeling:
       → "Trực giác" = compiled processing (§8: TOÀN BỘ: cả toán, cả cảm xúc)
@@ -957,9 +957,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      "body-base reward" = evaluation (Step 5)
      = 2 events KHÁC NHAU, CÓ THỂ xảy ra ĐỘC LẬP
 
-  ③ "reward" = body-base reward (CẢ Type A VÀ Type B):
-     KHÔNG giới hạn vào opioid / Type A
-     Type B (touch, exercise, warmth) = reward THẬT, ĐÚNG label
+  ③ "reward" = body-base reward (CẢ Evaluative VÀ Direct-State):
+     KHÔNG giới hạn vào opioid / Evaluative
+     Direct-State (touch, exercise, warmth) = reward THẬT, ĐÚNG label
 
   ④ PHÂN BIỆT compiled (tags) vs momentary (signals):
      Approach/avoidance = đã tích lũy trên chunk (§7)
@@ -967,7 +967,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⑤ PHÂN BIỆT mechanism (body-feedback) vs observation (feeling):
      Body-feedback labels: reward, dissonance, prediction-delta,...
-     Feeling labels: "sướng", "khó chịu", "lờ mờ",...
+     Feeling labels: "pleasant", "discomfort", "vague",...
      KHÔNG dùng feeling labels thay body-feedback labels (§10)
 
   ⑥ DÙNG "Compiled/Fresh" khi phân tích mechanism:
@@ -1007,7 +1007,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      10tr (lần đầu):
        prediction-delta (mới) → DRD4 pass → PFC spotlight
        → body-base check: chunk [lương 10tr] khớp gap direction
-       → body-base reward (Type A: evaluative)
+       → Evaluative Reward
        → chunk compile: [lương 10tr = approach tag]
      10tr (tháng 12):
        habituated: cùng pattern → no prediction-delta → no alert
@@ -1021,8 +1021,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   VÍ DỤ 2: Mẹ-con mâu thuẫn (inter-body):
 
   TIER 2:
-    "Con: Entity-Compiled mixed (mother). Stream 1 habituated.
-     Stream 2 có nhưng conflict direction.
+    "Con: Entity-Compiled mixed (mother). Hardware-Stream habituated.
+     Modeling-Stream có nhưng conflict direction.
      Cost: ② suppress cao (kìm nén) + ③ uncertainty (mẹ unpredictable).
      By-product: mẹ fill gap CỦA MẸ (dạy dỗ) → output anti-match
      con's gap direction (autonomy)."
@@ -1065,8 +1065,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                  │ chunks). "Chưa biết = không gap."   │
   │                                  │ SOURCE cho §2C Foundation.           │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Reward-Signal-Architecture.md    │ §1 Type A/B. §2 A₀→A₃. §4 5       │
-  │ v1.0                             │ Profiles. Tier 2-3 reward labels.    │
+  │ Reward-Signal-Architecture.md    │ §1 Evaluative/Direct-State.          │
+  │ v2.0                             │ §2 E₀→E₃. §4 5 Profiles.            │
+  │                                  │ Tier 2-3 reward labels.              │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ 03-Reward.md v1.1                │ §2 7-step mechanism.                 │
   │                                  │ §3 H10 preconditions. Step 5 detail. │
@@ -1079,13 +1080,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                  │ Compiled vs momentary distinction.   │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ By-Product-Gap-Resonance.md v1.0        │ §2 2-Stream Architecture.            │
-  │                                  │ Stream 1/2/Proto labels defined.     │
+  │                                  │ Hardware-Stream/2/Proto labels defined.     │
   │                                  │ By-product match + anti-match.       │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Feeling.md v2.2                  │ PFC observation of body-feedback.    │
   │                                  │ 7-layer gradient. KHÁC TẦNG (§10).  │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Body-Base.md v3.1                │ L0-L1-L3 channels. Architecture B.   │
+  │ Body-Base.md v3.1                │ L0-L1-L3 channels. Compilable Architecture.   │
   │                                  │ System-level context cho §2A.        │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Threat.md                        │ 5 mức × 3 trục × 3 nguồn.           │

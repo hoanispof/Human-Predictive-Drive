@@ -1,3 +1,26 @@
+---
+title: Emergent Patterns — Khi Domain Interaction Lặp Lại
+version: 1.2
+created: 2026-04-12
+refined: 2026-04-24 (v1.1 — §2 Connection → Connection.md v3.0)
+refined: 2026-05-23 (v1.2 — Concept Cascade: +Bond-Architecture, +By-Product-Scale, +Resonance-Sustainability. Cross-refs updated)
+status: v1.2 REFERENCE FILE
+scope: |
+  EMERGENT PATTERNS từ domain interaction: Enemy, Nurturing, "Cho đi",
+  Dependency, Mixed Valence, Group Dynamics, Violation & Recovery.
+  Connection đã tách thành file riêng: Connection.md v5.0.
+parent: Core-Deep-Dive/Domain/
+dependencies:
+  - Valence-Propagation.md v3.0 — body evaluation, 3 firing modes
+  - Connection.md v5.0 — 4-Layer Sustainability, M1-M4
+  - Agent-Mechanism.md v2.1 — Self-Pattern-Modeling mechanism, 10 dimensions
+  - Chunk/Agent-Mechanism/Bond-Architecture.md v1.0 — emergent bond patterns
+  - Chunk/Agent-Mechanism/By-Product-Scale.md v1.0 — by-product match across scales
+  - Chunk/Agent-Mechanism/Resonance-Sustainability.md v1.0 — pattern sustainability
+language: Tiếng Việt primary + English technical terms
+confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
+---
+
 # Emergent Patterns — Khi Domain Interaction Lặp Lại
 
 > **Bạn gặp 1 người → classify, evaluate, tương tác 1 lần → quên.**
@@ -26,7 +49,7 @@
 > **Tiền đề:**
 >   Valence-Propagation.md v1.2 (body evaluation, chain propagation)
 >   Connection.md v3.0 (3 Generative Primitives, 8 pathways)
->   Agent-Mechanism.md (SPM mechanism, body-need feeder)
+>   Agent-Mechanism.md (Self-Pattern-Modeling mechanism, body-need feeder)
 >   Observation/Drive.md (HOW drives combine → action)
 >   Imagine-Final.md (preview outcomes → predict bond durability)
 > **Liên quan mainstream:**
@@ -173,7 +196,7 @@
 > Connection đã được rewrite thành file riêng với chất lượng cao hơn:
 >
 > → **Connection.md v3.0** (1,951L, Observation/) — 3 Generative Primitives,
->   8 pathways, SPM × Resonance, 2-luồng reward, cô đơn
+>   8 pathways, Self-Pattern-Modeling × Resonance, 2-luồng reward, cô đơn
 > → **Empathy.md v2.0** (1,978L, Observation/) — Connection ⊃ Empathy
 >
 > Nội dung cũ (v0.5): 4 điều kiện, Virtual Chunks, Melody Calibration,
@@ -327,7 +350,7 @@
 
     ② MIRROR: body tạo bản sao deficit CỦA HỌ → dissonance CỦA MÌNH
        → Thấy em bé khóc → body MÌNH dissonance (dù mình không đói/đau)
-       → SPM F1 mechanism: Self-Pattern-Match.md §2
+       → Self-Pattern-Modeling Compiled mechanism: Self-Pattern-Modeling.md §2
 
     ③ PERCEIVED ABILITY: PFC evaluate "tôi có thể giúp không?"
        → Ability CAO → drive MẠNH ("tôi có đồ ăn, tôi bế được")
@@ -339,7 +362,7 @@
 
     ⑤ DRIVE → ACTION: chăm sóc (cho ăn, ôm, bảo vệ, dạy)
 
-    ⑥ REWARD: thấy target IMPROVE → mirror REWARD fire → body MÌNH sướng
+    ⑥ REWARD: thấy target IMPROVE → mirror REWARD fire → body MÌNH pleasant
        → "Nhìn con ăn ngon mà sướng" = mirror reward khi con's L1 met
 
 
@@ -348,7 +371,7 @@
     Mọi pattern khác: reward từ body-state CỦA MÌNH cải thiện
     Nurturing:         reward từ body-state CỦA NGƯỜI KHÁC cải thiện
 
-    = "Sướng khi THẤY người khác khỏe" = mirror reward
+    = "Pleasant khi THẤY người khác khỏe" = mirror reward
     = Unique — không pattern nào khác hoạt động kiểu này
     = Tại sao nurturing CÓ THỂ override body-base CỦA MÌNH (§5, §8.5 Empathy-Mirror.md)
 
@@ -471,7 +494,7 @@
     Mọi hành vi "cho đi" đều có body-base reward cho NGƯỜI CHO.
     KHÔNG có ngoại lệ. 4 nguồn reward:
 
-    ① MIRROR REWARD — thấy người nhận improve → body mình sướng
+    ① MIRROR REWARD — thấy người nhận improve → body mình pleasant
        → "Nhìn mặt nó mở quà mới sướng" = mirror CẦN visual input thực
        → Cho trực tiếp > cho gián tiếp (mirror cần input THẬT)
 
@@ -1196,12 +1219,12 @@
 
 ```
   CONNECTION (file riêng — §2 đã moved):
-  → Connection.md v3.0 — 3 Generative Primitives, 8 pathways, SPM × Resonance
-  → Empathy.md v2.0 — Connection ⊃ Empathy, F1/F2, 2-luồng
+  → Connection.md v3.0 — 3 Generative Primitives, 8 pathways, Self-Pattern-Modeling × Resonance
+  → Empathy.md v2.0 — Connection ⊃ Empathy, Compiled/Fresh, 2-luồng
 
   CORE MECHANISM FILES:
-  → Agent-Mechanism.md — SPM mechanism, body-need feeder, 2-luồng reward
-  → Self-Pattern-Match.md v3.0 — F1 Compiled + F2 Fresh, valence gate
+  → Agent-Mechanism.md — Self-Pattern-Modeling mechanism, body-need feeder, 2-luồng reward
+  → Self-Pattern-Modeling.md v3.0 — Compiled + Fresh, valence gate
   → By-Product-Gap-Resonance.md — emergent mutual phenomenon
   → Valence-Propagation.md v1.2 — body evaluation, chain propagation
   → Logic-Feeling.md — 2 processing modes (Logic + Feeling)
@@ -1216,15 +1239,56 @@
   RELATED FILES:
   → Imagine-Final.md — preview outcomes → §8 Group dynamics
   → Schema/Anchor-Schema.md — anchor concept → §9 Violation collapse
-  → Cortisol-Baseline.md v2.0 — sustained stress → §4 SPM overload
+  → Cortisol-Baseline.md v2.0 — sustained stress → §4 Self-Pattern-Modeling overload
   → Conflict-Dynamics.md §7 — scarcity engine → §5 counter-mechanism
   → Knowledge-Flow.md §1 — output A→B→C → §5 knowledge distribution
 
   BACKUP (content absorbed — history reference only):
   → backup/Domain-Interaction.md — overview flow (superseded)
-  → backup/Domain-Mechanisms.md — mirror analysis (superseded by SPM)
+  → backup/Domain-Mechanisms.md — mirror analysis (superseded by Self-Pattern-Modeling)
   → backup/Connection.md — §2 Connection content origin
   → backup/Empathy-Mirror.md — §4 Nurturing + §5 "Cho đi" content origin
+→ Bond-Architecture.md v1.0: emergent bond patterns (4 types)
+→ By-Product-Scale.md v1.0: by-product match across scales
+→ Resonance-Sustainability.md v1.0: pattern sustainability (4-layer)
+→ Connection.md v5.0: 4-Layer Sustainability, M1-M4
+```
+
+---
+
+## Emergent × New Concepts (28-session Drill Propagation)
+
+```
+BOND-ARCHITECTURE × EMERGENT PATTERNS (Bond-Architecture.md v1.0):
+  → EVERY emergent pattern in this file = 1 of 4 bond types emerging:
+    Enemy = failed Proximity/Shared-Experience bond → flip to avoidance
+    Nurturing = Proximity bond + hardware subsidy → compiled care pattern
+    "Cho đi" = Reciprocal bond + mirror reward → compiled giving pattern
+    Dependency = Proximity bond EXCESS → Entity-Access-Excess territory
+    Mixed Valence = bond CONFLICT (2+ types fire contradictory valence)
+    Group = Identity bond + By-Product-Scale hub level
+  → = Bond-Architecture FORMALIZE what this file OBSERVES
+
+BY-PRODUCT-SCALE × EMERGENT (By-Product-Scale.md v1.0):
+  → Emergent patterns operate at 3 scales:
+    PAIR: enemy/nurturing/giving = per-dyad patterns (detailed, intimate)
+    HUB: group dynamics = hub-level patterns (role-based, distributed)
+    INSTITUTIONAL: violation/recovery = institutional patterns (rule-based)
+  → §7 (Group Dynamics) = By-Product-Scale HUB level
+  → Prestige = genuine by-product match resonance (not status display)
+
+RESONANCE-SUSTAINABILITY × EMERGENT (Resonance-Sustainability.md v1.0):
+  → Emergent patterns have SUSTAINABILITY profiles:
+    4-layer check: neurochemical, behavioral, cognitive, contextual
+    → Nurturing: HIGH sustainability (hardware subsidy sustain)
+    → Enemy: MODERATE (threat sustain but costly — cortisol burn)
+    → Group: VARIABLE (depends on by-product match quality)
+  → Pattern ERODES when sustainability layer fails
+  → = Resonance-Sustainability PREDICTS which emergent patterns PERSIST
+
+🟡 Bond-Architecture × emergent = framework convergence (formalize observations)
+🟡 By-Product-Scale × emergent = framework application (3 scales)
+🟡 Resonance-Sustainability × emergent = framework prediction (persistence)
 ```
 
 ---

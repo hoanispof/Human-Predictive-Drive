@@ -23,14 +23,14 @@ dependencies:
   - Addiction-Analysis.md v3.0 — overview, chunk-reward loop hijack
   - Dopamine-Is-Not-Reward.md v1.1 — 7-step, dopamine ≠ reward
   - 03-Reward.md v1.1 — H10 5 preconditions, opioid = reward thật
-  - Reward-Signal-Architecture.md v1.0 — Type A/B, 5 Profiles
+  - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, 5 Profiles
   - Reward-Calibration.md v1.1 — Goldilocks, baseline shift
   - Cortisol-Baseline.md v2.0 — amplifier, stress→smoking loop
   - Alcohol-Brain-Mechanism.md v1.0 — template + so sánh
   - Body-Coupling.md v1.1 — ritual binding
   - Body-Feedback-Mechanism.md v1.2 — Chunk-Shift/Miss/Gap
   - PFC-Hardware.md v1.1 — COMT, individual variation
-  - Self-Pattern-Match.md v2.3 — identity chunks
+  - Self-Pattern-Modeling.md v2.3 — identity chunks
   - Status.md v2.0 — serotonin × Resource Access Map
 sources_academic: |
   🟢 Dani & Bertrand 2007 — nAChR subtypes (α4β2, α7)
@@ -576,10 +576,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────────┬──────────────────────────────────────────────────┐
   │ MỨC 1: THẤP      │ 1-2 hơi, occasional, chưa tolerance            │
   │ (first exposure)  │                                                 │
-  │                   │ Effects: tỉnh nhẹ (NE), dễ chịu nhẹ (opioid), │
+  │                   │ Effects: tỉnh nhẹ (NE), comfortable nhẹ (opioid), │
   │                   │ hơi chóng mặt (α7 nếu chưa quen)              │
   │                   │ Prediction-delta: 100→110 = NHỎ, THẬT          │
-  │                   │ → Body-feedback: state change THẬT (Type B)     │
+  │                   │ → Body-feedback: state change THẬT (Direct-State)     │
   │                   │ → NHƯNG: vài lần → tolerance bắt đầu           │
   ├──────────────────┼──────────────────────────────────────────────────┤
   │ MỨC 2: TOLERANCE │ Hút hàng ngày, weeks → months                   │
@@ -597,7 +597,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                   │ MAO activity giảm mãn tính (nếu hút thuốc lá)  │
   │                   │ NE, serotonin, dopamine baseline = DEPENDENT    │
   │                   │ → Hút = "bình thường." Không hút = "DƯỚI"      │
-  │                   │ → Reward = RELIEF (Profile ④ RSA) chứ ko pleasure│
+  │                   │ → Reward = RELIEF (Profile ④ Reward-Signal-Architecture) chứ ko pleasure│
   │                   │ → Body-coupling DEEP: nicotine = body-base     │
   ├──────────────────┼──────────────────────────────────────────────────┤
   │ MỨC 4: DEPENDENCY│ Nicotine từ LUXURY → SURVIVAL NEED              │
@@ -819,14 +819,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Nicotine ritual = DEEPER body-coupling dù chemical reward NHẸ hơn
 ```
 
-### §7.3 — Social chunks + Identity chunks × SPM
+### §7.3 — Social chunks + Identity chunks × Self-Pattern-Modeling
 
 ```
 🟡 SOCIAL: "Ra hút chung" = bonding ritual
   Bỏ thuốc = RỜI NHÓM → social cost THẬT
 
-  IDENTITY: "Tôi là người hút thuốc" = SPM compiled
-  Bỏ thuốc = IDENTITY REWRITE (Self-Created-Threat Type C)
+  IDENTITY: "Tôi là người hút thuốc" = Self-Pattern-Modeling compiled
+  Bỏ thuốc = IDENTITY REWRITE (Self-Created-Threat Trust Compile)
   → West & Brown 2013: "I am a non-smoker" (identity shift)
     = strongest predictor of quit success vs "I am trying to quit" (behavior change)
   → Identity shift > willpower
@@ -1024,8 +1024,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → 3 factors addiction architecture (speed × amplifiers × session pattern):
      Each factor has evidence. Combined model = framework synthesis.
 
-  → Identity chunks × SPM × quit success:
-     West & Brown 2013 supports identity shift. SPM mechanism = framework.
+  → Identity chunks × Self-Pattern-Modeling × quit success:
+     West & Brown 2013 supports identity shift. Self-Pattern-Modeling mechanism = framework.
 
   → COMT × nicotine: Logic consistent, NO direct research
 
@@ -1064,15 +1064,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - [Alcohol-Brain-Mechanism.md v1.0](Alcohol-Brain-Mechanism.md) — template, 5-system comparison
 - [Dopamine-Is-Not-Reward.md v1.1](../../Core-Deep-Dive/Clarification/Dopamine-Is-Not-Reward.md) — 7-step, dopamine ≠ reward
 - [03-Reward.md v1.1](../../Core-Deep-Dive/Body-Base/Body-Feedback/03-Reward.md) — H10 preconditions
-- [Reward-Signal-Architecture.md v1.0](../../Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Signal-Architecture.md) — Type A/B, Profile ④ Relief
+- [Reward-Signal-Architecture.md v1.0](../../Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Signal-Architecture.md) — Evaluative/Direct-State, Profile ④ Relief
 - [Reward-Calibration.md v1.1](../../Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Calibration.md) — baseline shift
 - [Cortisol-Baseline.md v2.0](../../Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — amplifier, Source > Level
 - [Status.md v2.0](../../Core-Deep-Dive/Observation/Status.md) — serotonin × Resource Access Map
 - [Body-Coupling.md v1.1](../../Core-Deep-Dive/Body-Base/Body-Coupling.md) — ritual binding
 - [Body-Feedback-Mechanism.md v1.2](../../Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Mechanism.md) — Chunk-Shift/Miss/Gap
 - [PFC-Hardware.md v1.1](../../Core-Deep-Dive/PFC/PFC-Hardware.md) — COMT, individual variation
-- [Self-Pattern-Match.md v2.3](../../Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/Self-Pattern-Match.md) — identity chunks
-- [Self-Created-Threat.md](../Self-Created-Threat.md) — identity change = Type C
+- [Self-Pattern-Modeling.md v2.3](../../Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/Self-Pattern-Modeling.md) — identity chunks
+- [Self-Created-Threat.md](../Self-Created-Threat.md) — identity change = Trust Compile
 
 **Dopamine Cluster companions**:
 - Parkinson-Analysis.md (File 2) — dopamine LOSS, nigrostriatal

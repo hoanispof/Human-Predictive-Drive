@@ -28,9 +28,9 @@ dependencies:
   - Child-Development-Mechanism.md v1.0 — developmental timeline
   - Cortisol-Baseline.md v2.0 — amplifier reframe
   - Imagine-Final.md — lifecycle, purpose engine
-  - Agent-Mechanism.md v1.0 — SPM F1 (social processing)
+  - Agent-Mechanism.md v1.0 — Self-Pattern-Modeling Compiled (social processing)
   - Hardware-Calibration.md v1.0 — per-individual calibration
-  - Reward-Signal-Architecture.md v1.0 — Type A/B reward
+  - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State reward
   - Body-Base.md v2.0 — Model 3+1
 previous: backup/v1.0/Curriculum-Framework.md (641L, DRAFT, 2026-04-03)
 changes_v2:
@@ -42,7 +42,7 @@ changes_v2:
   - §4 Sequencing: reference DKM §4 cho prerequisite logic detail
   - §5 "Cái cần bỏ": updated refs + v7.8 terminology
   - §6 Cross-refs: complete rewrite — organized per 5 tầng
-  - Terminology: "mirror neurons" → SPM F1, approach/avoidance, Type A/B
+  - Terminology: "mirror neurons" → Self-Pattern-Modeling Compiled, approach/avoidance, Evaluative/Direct-State
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Era prediction
 durability: |
@@ -271,9 +271,9 @@ KEY OBSERVATIONS:
     → Multi-modal binding (Child-Dev-Mechanism §2 kênh ③) CẦN body channel
 
   → Social/Emotional: TĂNG complexity per stage
-    → SPM F1 (Agent-Mechanism.md v1.0) = cơ chế xã hội chính
-    → SPM bootstrap: cần self-chunks ĐỦ trước khi empathy phát triển sâu
-      (Empathy.md — Self-Pattern-Match requires self-pattern)
+    → Self-Pattern-Modeling Compiled (Agent-Mechanism.md v1.0) = cơ chế xã hội chính
+    → Self-Pattern-Modeling bootstrap: cần self-chunks ĐỦ trước khi empathy phát triển sâu
+      (Empathy.md — Self-Pattern-Modeling requires self-pattern)
     → Stage 2: basic cooperation → Stage 3: complex negotiation → Stage 4: leadership
     → ≠ "Môn đạo đức" → = practical skills qua TRẢI NGHIỆM
 
@@ -310,8 +310,8 @@ NGUYÊN TẮC FOUNDATION:
      → "Hiểu TOÁN ở L3" > "biết NHIỀU MÔN ở L1"
      → L3 compiled + linked = transfer được, durable
      → L1 proto-chunks = "biết tên nhiều thứ, HIỂU không thứ nào"
-     → Type A evaluative reward (RSA v1.0) chỉ fire khi depth ĐỦ
-       → Shallow learning = miss Type A → miss real satisfaction signal
+     → Evaluative reward (Reward-Signal-Architecture v1.0) chỉ fire khi depth ĐỦ
+       → Shallow learning = miss Evaluative → miss real satisfaction signal
 
   🟡 Foundation matrix = derived from developmental research + mechanism principles
      Specific depth targets per stage = framework estimate, not proven benchmarks
@@ -544,8 +544,8 @@ CÁI GIẢM:
      → Test culture = optimize surface (L1 proto-chunk) → miss depth (L2-L4)
      → Time dành cho test prep → CÓ THỂ dùng cho project, depth, meta-learning
      → ≠ "Bỏ hết thi" → = "GIẢM high-stakes test + TĂNG formative assessment"
-     → Type A evaluative reward (RSA v1.0) cần depth
-       → Surface test = miss Type A → miss real satisfaction signal
+     → Evaluative reward (Reward-Signal-Architecture v1.0) cần depth
+       → Surface test = miss Evaluative → miss real satisfaction signal
      → (ref: Education-System v2.0 §6 — assessment per depth level)
 
   ③ CONTENT ONLY RELEVANT CHO FORMAT CŨ
@@ -580,7 +580,7 @@ CÁI KHÔNG BỎ (dù có áp lực "bỏ"):
     → Imagine-Final emerge qua creative expression (Mechanism §2.6)
 
   ✓ Social interaction — KHÔNG bỏ (dù online learning tăng)
-    → SPM F1 (Agent-Mechanism.md v1.0) cần real human interaction data
+    → Self-Pattern-Modeling Compiled (Agent-Mechanism.md v1.0) cần real human interaction data
     → AI/online ≠ substitute cho face-to-face social processing
     → ⚠️ Post-COVID: social skill decline observable → CẦN TĂNG, không giảm
 
@@ -680,7 +680,7 @@ TẦNG 3 — NỀN TẢNG TRỰC TIẾP (Research/Education/)
   File NÀY apply principles vào delivery decisions.
 
 → Observation/Empathy-Education.md v2.0 — Empathy per age
-  SPM-based framework cho Social/Emotional domain (§2 ④).
+  Self-Pattern-Modeling-based framework cho Social/Emotional domain (§2 ④).
 
 → Observation/Education-Arms-Race.md v1.2 — Competition dynamics
   Societal pressure affecting all domains — overload context cho §5.
@@ -718,15 +718,15 @@ TẦNG 1-2 — CORE + CHILD-DEV
   §2 4+1 compile, §3 Approach/avoidance tags, §9 Sensitive periods.
   Foundation cho timing decisions trong matrix.
 
-→ Agent-Mechanism.md v1.0 — SPM F1
+→ Agent-Mechanism.md v1.0 — Self-Pattern-Modeling Compiled
   Social processing mechanism → Social/Emotional domain (§2 ④).
 
 → Cortisol-Baseline.md v2.0 — Amplifier reframe
   Direction > level. Overload = amplified threat → context cho §5.
 
-→ Reward-Signal-Architecture.md v1.0 — Type A/B reward
-  A = evaluative (depth), B = hardware-direct.
-  Depth assessment (§2 L1-L4) connects to Type A quality signal.
+→ Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State reward
+  Evaluative (depth), Direct-State (hardware-direct).
+  Depth assessment (§2 L1-L4) connects to Evaluative quality signal.
 
 → Body-Base.md v2.0 — Model 3+1
   Somatic domain (§2 ③) = body as processing channel.

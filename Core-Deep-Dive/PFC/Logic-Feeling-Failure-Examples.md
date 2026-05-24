@@ -416,7 +416,7 @@ Mỗi loại lặp đi lặp lại xuyên suốt lịch sử.
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ### CASE F1: ĂN ĐƯỜNG — BODY REWARD MẠNH, DOMAIN SAI
-### (Evolution Lag — Sướng cực đoan)
+### (Evolution Lag — Intensely pleasant)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ① BỐI CẢNH:
@@ -425,7 +425,7 @@ Mỗi loại lặp đi lặp lại xuyên suốt lịch sử.
 
 ② FEELING NÓI GÌ:
   → VTA fire positive delta khi đường chạm taste receptors
-  → Opioid release → "sướng thật" (liking signal MẠNH)
+  → Opioid release → "pleasant thật" (liking signal MẠNH)
   → Dopamine → "tìm thêm" (wanting signal MẠNH)
   → Body nói: "CÁI NÀY TỐT. LẤY THÊM."
 
@@ -491,7 +491,7 @@ Mỗi loại lặp đi lặp lại xuyên suốt lịch sử.
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ### CASE F3: NGHE CÂU CHUYỆN THÀNH CÔNG CỦA NGƯỜI KHÁC
-### (External Inject — Sướng tinh tế)
+### (External Inject — Pleasant tinh tế)
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ① BỐI CẢNH:

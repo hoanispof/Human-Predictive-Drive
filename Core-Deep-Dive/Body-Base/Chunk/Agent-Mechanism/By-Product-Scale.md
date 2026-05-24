@@ -26,9 +26,9 @@ purpose: |
     → Shows continuity: mẹ (first node) → family → company → nation.
     → Shows Prestige/Dominance = genuine/schema resonance at hub scale.
     → NOT new mechanism — synthesis showing SAME mechanism at EVERY scale.
-  = "BPGR §13 mở rộng + enriched from drill."
+  = "By-Product-Gap-Resonance §13 mở rộng + enriched from drill."
 position: |
-  Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder BPGR, BA, RS.
+  Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder By-Product-Gap-Resonance, Bond-Architecture, Resonance-Sustainability.
   Agent-Mechanism.md = integration hub.
   By-Product-Gap-Resonance.md = mutual phenomenon observation (pair).
   Bond-Architecture.md = cross-bond view (4 types, over-clone, decline).
@@ -36,13 +36,13 @@ position: |
   By-Product-Scale.md (FILE NÀY) = cross-scale view (pair → hub → institutional).
 dependencies:
   - By-Product-Gap-Resonance.md v1.4 — core definition, by-product match §0-§5
-  - Inter-Body-Mechanism.md v1.0 — Architecture B, by-product match §5.4, 3-cost §4
+  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, by-product match §5.4, 3-cost §4
   - Coordination-Node.md v1.1 — Level 2 hub analysis §0-§8
   - Collective-Body.md v2.0 — Level 3, trust bypass §2, no unified PFC §4.2
   - Collective-Arc-Dynamics.md v1.1 — arc shift §4-§5, shelf-life
   - Connection.md v4.0 — 3 Generative Primitives, 2-tầng/2-luồng
   - Compiled-Fresh.md v2.0 — genuine vs schema quality §6
-  - Self-Pattern-Modeling.md v3.1 — F1/F2, Agent-mode engine
+  - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Agent-mode engine
   - Entity-Access.md v1.2 — 3-Factor Model, Gradient Mức 0-5
   - Valence-Propagation.md v3.0 — per-entity valence dynamics
   - Gap-Distribution-Profile.md v1.0 — gap landscape, collective gap
@@ -51,7 +51,7 @@ dependencies:
   - Body-Feedback-Label.md v2.0 — vocabulary reference
 sources:
   - Drill-By-Product-Scale v1.0 (790L, 20 insights, 15 citations)
-  - Enriches: BPGR v1.3 §13 (3 scales preview)
+  - Enriches: By-Product-Gap-Resonance v1.3 §13 (3 scales preview)
 research: See §15
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -143,7 +143,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Speed        │ Weeks-months │ Months-years      │ Decades-centuries │
   └──────────────┴──────────────┴──────────────────┴───────────────────┘
   
-  🟢 By-product match: BPGR §0.1, IBM §5.4
+  🟢 By-product match: By-Product-Gap-Resonance §0.1, Inter-Body-Mechanism §5.4
   🟢 Transaction cost compression: Coase 1937
   🟡 3-level unification under 1 mechanism = framework synthesis
 ```
@@ -165,7 +165,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §1 — CORE MECHANISM RECAP
 
 ```
-⭐ CORE MECHANISM (BPGR §0.1, IBM §5.4):
+⭐ CORE MECHANISM (By-Product-Gap-Resonance §0.1, Inter-Body-Mechanism §5.4):
 
   DEFINITION:
     Entity B fill gap CỦA B → output = by-product.
@@ -193,7 +193,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Tại sao GENUINE resonance > FORCED interaction.
     → = Tại sao Prestige > Dominance (§8).
     
-  🟢 By-product match: BPGR §0.1, IBM §5.4
+  🟢 By-product match: By-Product-Gap-Resonance §0.1, Inter-Body-Mechanism §5.4
   🟡 3 properties applied across scales = framework synthesis
 ```
 
@@ -206,7 +206,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   TOPOLOGY: A↔B (pair-wise, bidirectional)
   
-  MECHANISM (BPGR §0.1):
+  MECHANISM (By-Product-Gap-Resonance §0.1):
     A fill gap CỦA A → by-product → match B's gap → B reward.
     B fill gap CỦA B → by-product → match A's gap → A reward.
     = MUTUAL by-product gap fill = RESONANCE.
@@ -214,8 +214,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CHARACTERISTICS:
     → DIRECT: cả 2 entities TRẢI NGHIỆM trực tiếp (no proxy).
     → VERIFIABLE: by-product match → body-feedback → biết ngay.
-    → PERSONAL: SPM active → model entity state → nuanced.
-    → COMPILATION: F2→F1→baseline→dynamics (Resonance-Entity v2.0).
+    → PERSONAL: Self-Pattern-Modeling active → model entity state → nuanced.
+    → COMPILATION: Fresh→Compiled→baseline→dynamics (Resonance-Entity v2.0).
     → MAX SCALE: ~150 entities (R2: Dunbar 1992).
       → Beyond 150: PFC KHÔNG ĐỦ bandwidth → PHẢI compress → shift to Level 2.
     
@@ -230,7 +230,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → 1,000 người cần coordination → pair-wise = 500,000 pairs → IMPOSSIBLE.
     → NEED Level 2: compression through coordination node.
     
-  🟢 Pair-wise resonance: BPGR v1.4
+  🟢 Pair-wise resonance: By-Product-Gap-Resonance v1.4
   🟢 Dunbar limit: R2 (neocortex ↔ group size)
   🟢 Hardware: R11 Feldman 2012 (oxytocin), R12 Panksepp 1998 (μ-opioid)
 ```
@@ -414,7 +414,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   LEVEL 1 — DIRECT VERIFICATION:
     Every interaction = body-feedback → by-product match confirmed/denied.
-    → Compilation: F2→F1→baseline → Hebbian strengthen (IBM §5).
+    → Compilation: Fresh→Compiled→baseline → Hebbian strengthen (Inter-Body-Mechanism §5).
     → SLOW but ACCURATE (body verifies every step).
     → RISK: survivorship bias (only remember successes).
     → = "Tin vì tôi TRẢI NGHIỆM."
@@ -466,7 +466,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       M1: Compiled suppress gap riêng (nhân tạo) → mất by-product.
       M2: VTA habituation (tự nhiên) → reward invisible.
       M3: Prediction complete → delta = 0.
-      M4: EC saturation → no new chunks.
+      M4: Entity-Compiled saturation → no new chunks.
     Correction: drift apart / new experiences / rebuild drive riêng.
     Cost: LOW (individual level, reversible, replaceable).
     Speed: FAST (weeks-months).
@@ -521,7 +521,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ① Dominance: force/threat → followers comply vì SỢ.
     ② Prestige: knowledge value → followers defer vì MUỐN HỌC.
     
-  BPGR + Compiled-Fresh v2.0 §6: 2 resonance types:
+  By-Product-Gap-Resonance + Compiled-Fresh v2.0 §6: 2 resonance types:
     Schema-driven: "phải chơi vì đồng nghiệp" → relief tag → WEAK.
     Genuine: "chơi vì vui" → opioid tag → STRONG.
     
@@ -571,7 +571,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Purpose = shared gap-direction → by-product match → genuine resonance at hub scale.
     
   🟢 Prestige vs Dominance: R3 Henrich & Gil-White 2001
-  🟢 Compiled quality: CF v2.0 §6 (genuine vs schema)
+  🟢 Compiled quality: Compliance-Floor v2.0 §6 (genuine vs schema)
   🟡 Prestige = genuine resonance at hub scale = framework synthesis
 ```
 
@@ -591,7 +591,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌────────────────────────────────┬────────────────────────────┐
     │ 5 Capabilities                │ Mẹ as first node           │
     ├────────────────────────────────┼────────────────────────────┤
-    │ ① SPM across domains          │ Read child across: health, │
+    │ ① Self-Pattern-Modeling across domains          │ Read child across: health, │
     │                                │ emotion, social, learning  │
     ├────────────────────────────────┼────────────────────────────┤
     │ ② Gap detection               │ "Con cần gì?" = gap detect │
@@ -686,7 +686,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Algorithms: replace SOME coordination functions (scheduling, allocation).
     → AI assistants: reduce node's PFC bandwidth need (data analysis, pattern detect).
     → Remote work: enable hub function WITHOUT physical co-location.
-    → NHƯNG: SPM across domains (capability ①) = HARD TO AUTOMATE.
+    → NHƯNG: Self-Pattern-Modeling across domains (capability ①) = HARD TO AUTOMATE.
     → Net: technology AUGMENTS node, hasn't REPLACED node yet.
     
   LEVEL 3 (institutional):
@@ -727,7 +727,7 @@ CASE 1: STARTUP FOUNDER — Prestige → Dominance shift.
   Phase 3 (500 người): founder = SYMBOLIC node.
     Founder's daily decisions = INVISIBLE to most employees.
     Prestige must be maintained through PROXIED value (culture, results).
-    Loss of direct feedback loop → SPM stale → decisions drift.
+    Loss of direct feedback loop → Self-Pattern-Modeling stale → decisions drift.
   = Coordination-Node §4 personal→role→symbolic transition IN ACTION.
 
 CASE 2: "VỢ LÀ TẤT CẢ" — Portfolio collapse.
@@ -772,7 +772,7 @@ CASE 4: VILLAGE → CITY — Scale transition.
 🟢 ESTABLISHED (individual components)
 ═══════════════════════════════════════
 
-  By-product match mechanism:            BPGR §0.1, IBM §5.4
+  By-product match mechanism:            By-Product-Gap-Resonance §0.1, Inter-Body-Mechanism §5.4
   Transaction cost compression:          R1 Coase 1937
   Dunbar limit ~150:                     R2 Dunbar 1992
   Prestige vs Dominance:                 R3 Henrich & Gil-White 2001
@@ -795,7 +795,7 @@ CASE 4: VILLAGE → CITY — Scale transition.
   3-level unification under 1 mechanism (pair/hub/institutional)
   Hardware subsidy cross-scale mapping (oxytocin/serotonin/trust)
   Compilation speed × accuracy trade-off across scales
-  Prestige = genuine resonance at hub scale (Henrich → BPGR mapping)
+  Prestige = genuine resonance at hub scale (Henrich → By-Product-Gap-Resonance mapping)
   Dominance = schema resonance at hub scale
   Mẹ = first coordination node (5 capabilities mapping)
   Child development = scale progression (L1→L2→L3)
@@ -828,7 +828,7 @@ CASE 4: VILLAGE → CITY — Scale transition.
   → By-Product-Gap-Resonance.md v1.4 — core definition, by-product match, 4 conditions
   → Bond-Architecture.md v1.0 — cross-bond: 4 types, over-clone, M1-M4
   → Resonance-Sustainability.md v1.0 — sustainability: 3 conditions, 3 modalities
-  → Self-Pattern-Modeling.md v3.1 — F1/F2, Agent-mode engine
+  → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Agent-mode engine
   → Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation, Grief A+B+C
   → Entity-Access.md v1.2 — 3-Factor Model, Gradient Mức 0-5
 ```
@@ -836,7 +836,7 @@ CASE 4: VILLAGE → CITY — Scale transition.
 ### §14.2 — Source mechanism files
 
 ```
-  → Inter-Body-Mechanism.md v1.0 — Architecture B, by-product match §5.4, 3-cost §4
+  → Inter-Body-Mechanism.md v1.0 — Compilable Architecture, by-product match §5.4, 3-cost §4
   → Compiled-Fresh.md v2.0 — genuine vs schema quality §6
   → PFC-Operations.md v1.0 — Hold/Suppress, compiled quality, PFC budget
   → Simulation-Engine.md v1.0 — 1 engine × 3 components × 3 axes

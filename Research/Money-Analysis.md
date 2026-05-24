@@ -51,9 +51,9 @@ dependencies:
   mechanism:
     - Body-Feedback-Mechanism.md v1.2 — Chunk-Shift/Miss/Gap
     - Gap-Direction.md v1.0 — "chưa biết = không có gap", gap has direction
-    - Reward-Signal-Architecture.md v1.0 — Type A/B, A₀→A₃, A Gates B
+    - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, E₀→E₃, Evaluative Gates Direct-State
     - Background-Pattern.md v1.0 — invisible bias, Depth×Density
-    - Compile-Taxonomy.md v1.1 — 3 Loại A/B/C, 4 pathways
+    - Compile-Taxonomy.md v2.0 — 3 Compile Types, 4 pathways
     - Cortisol-Baseline.md v2.0 — amplifier, 5 Roles
     - PFC-Hardware.md v1.1 — COMT × Reward, DRD4 × threshold
   companion:
@@ -662,9 +662,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ① SCHEMA CHƯA UPDATE ("nghèo trong đầu"):
   ┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
-    Lớn lên thiếu thốn → Background Pattern [tiền = an toàn] compiled
+    Lớn lên thiếu thốn → Background-Pattern [tiền = an toàn] compiled
     → Compile Depth SÂU + Link Density CAO (Background-Pattern.md §2.2)
-    → Giàu rồi nhưng BP CHƯA UPDATE → cortisol baseline vẫn CAO
+    → Giàu rồi nhưng Background-Pattern CHƯA UPDATE → cortisol baseline vẫn CAO
     → PFC biết "giàu" nhưng body VẪN feel "thiếu"
     → = Body và PFC KHÔNG ĐỒNG BỘ
     → NHẬN DIỆN: lo lắng dù giàu, tích trữ, phòng thủ
@@ -734,7 +734,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   NGUỒN ④ — External Inject (collective validation):
     → "Ai cũng cần tiền" = social consensus liên tục
-    → Bố mẹ dạy: "phải kiếm tiền" (Compile-Taxonomy.md: Loại C install)
+    → Bố mẹ dạy: "phải kiếm tiền" (Compile-Taxonomy.md: Trust Compile install)
     → Xã hội confirm: mọi quảng cáo, mọi conversation
     → Lặp lại HÀNG NGÀY từ nhỏ tới lớn
     → = Trust từ nguồn ④ CAO VÌ repetition × saliency × multi-source
@@ -805,7 +805,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   TẠI SAO LABEL KHÔNG TỰ UPDATE:
     → Schema [tiền = tốt nhất] quá MẠNH (trust CAO, §4.3)
-    → Background Pattern [tiền → body-base] compiled SÂU
+    → Background-Pattern [tiền → body-base] compiled SÂU
     → PFC dùng label cũ → KHÔNG scan gap mới
     → = "Bản đồ cũ vẫn dùng cho thành phố mới"
     → Update CẦN: trải nghiệm contrast (Gratitude §3.2: variation)
@@ -854,7 +854,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ OVER-REWARD = INVISIBLE (Reward-Calibration §3.3):
 
   Under-reward: body biết "thiếu" → signal RÕ → CÓ THỂ điều chỉnh
-  Over-reward: body "sướng" → KHÔNG signal "quá" → MÙ
+  Over-reward: body "pleasant" → KHÔNG signal "quá" → MÙ
 
   → Over-reward là invisible → khó nhận diện → khó sửa
   → Giống Cortisol Role ⑤ Silent: cortisol CAO nhưng KHÔNG CẢM NHẬN
@@ -866,8 +866,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §5.1 — ① Threshold adaptation = hedonic treadmill
 
 ```
-  Lương $3K → sướng → $4K → sướng → $5K → ít sướng hơn
-  → $10K → sướng rồi quen → $20K → "đồng nghiệp bao nhiêu?"
+  Lương $3K → pleasant → $4K → pleasant → $5K → ít pleasant hơn
+  → $10K → pleasant rồi quen → $20K → "đồng nghiệp bao nhiêu?"
 
   CƠ CHẾ:
     Gift lần đầu → prediction-delta (mới) → body-base reward
@@ -947,7 +947,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Transfer KHÔNG QUA effort → chunks "wealth" compile
     KHÔNG CÓ effort chunks đi kèm
     → = "Có tiền mà không biết tại sao có"
-    → Background Pattern hình thành: [tiền = free]
+    → Background-Pattern hình thành: [tiền = free]
     → Bias mọi quyết định tài chính sau này
 
   LƯƠNG VƯỢT NĂNG LỰC:
@@ -1273,7 +1273,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Connection.md: 3 Generative Primitives
     ❶ Hardware (universal drive to connect)
-    ❷ SPM F1/F2 (predict other's state)
+    ❷ Self-Pattern-Modeling Compiled/Fresh (predict other's state)
     ❸ Per-Agent Valence (approach/avoidance per person)
 
   TIỀN × CONNECTION:
@@ -1290,7 +1290,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → ❸ valence → uncertain → connection NÔNG dù social circle RỘNG
 
   2-LUỒNG REWARD (Connection.md §3.3):
-    → L1 (SPM-owned): per-exposure, momentary → tiền có thể MUA exposure
+    → L1 (Self-Pattern-Modeling-owned): per-exposure, momentary → tiền có thể MUA exposure
     → L2 (Entity-compiled): structural, over time → tiền KHÔNG mua được
     → = Tiền mua L1 (quantity), không mua L2 (depth)
 
@@ -1334,7 +1334,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Protect.md: f(replaceability × attachment chunks)
   → Mất đau HƠN được (endowment effect)
-  → Giảm lương "đau" hơn tăng lương "sướng"
+  → Giảm lương "đau" hơn tăng lương "pleasant"
 
   TIỀN × LOSS AVERSION:
     → Có $100 → body register ownership chunks
@@ -1361,7 +1361,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Gift habituate → body-feedback baseline → invisible → mất = chunk-miss → dissonance
 
   TIỀN × GRATITUDE:
-    → Lương tháng 1: body-base reward (prediction-delta mạnh) → "sướng"
+    → Lương tháng 1: body-base reward (prediction-delta mạnh) → "pleasant"
     → Lương tháng 12: habituated → "bình thường"
     → Lương tháng 36: baseline shifted → "chưa đủ"
     → = Tiền HABITUATE nhanh (predictable, repetitive)
@@ -1551,7 +1551,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   TIỀN GIẢM CONFLICT:
     → Exchange = positive-sum (Mô hình trao đổi > zero-sum)
-    → Tiền enable exchange → cả 2 CÓ THỂ thỏa mãn → conflict giảm
+    → Tiền enable exchange → cả 2 CÓ THỂ satisfied → conflict giảm
     → = Tại sao thương mại giảm chiến tranh (lý thuyết hòa bình dân chủ)
 
   TIỀN TĂNG CONFLICT:
@@ -1791,11 +1791,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Gratitude.md v1.1                │ §3 Anti-habituation. §5 Gratitude   │
   │                                  │ O(1) = mặt kia Obligation O(1).     │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Background-Pattern.md v1.0       │ BP [tiền = an toàn] = invisible     │
+  │ Background-Pattern.md v1.0       │ Background-Pattern [tiền = an toàn] = invisible     │
   │                                  │ bias. Schema chưa update path.      │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Reward-Signal-Architecture.md    │ Type A/B. A₃ threshold. A Gates B.  │
-  │ v1.0                             │ A/B imbalance × wealth.             │
+  │ Reward-Signal-Architecture.md    │ Evaluative/Direct-State. E₃ threshold. Evaluative Gates Direct-State. │
+  │ v1.0                             │ Evaluative/Direct-State imbalance × wealth.             │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Gap-Direction.md v1.0            │ "Chưa biết = không gap." Reward     │
   │                                  │ for no-gap = wasted.                │

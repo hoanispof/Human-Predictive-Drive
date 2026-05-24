@@ -25,7 +25,7 @@ dependencies:
   - Body-Feedback.md — dual-pull, interface loop, H10
   - Cortisol-Baseline.md v2.0 — amplifier reframe, direction > level
   - Feeling.md v2.0 — 7-layer fidelity gradient
-  - Empathy.md — SPM function, developmental bootstrap
+  - Empathy.md — Self-Pattern-Modeling function, developmental bootstrap
   - Connection.md — hardware drive, virtual chunks
   - Autonomy-Hardware.md + Autonomy.md — efference copy, 5-phase arc
 supersedes: |
@@ -123,7 +123,7 @@ READER FLOW:
                                   + Mechanism §3 (avoidance tag đã compile)
 "Con 18 tháng cứ nói KHÔNG"    → §4.4 (autonomy assertion)
                                   + Mechanism §7 (autonomy meta-chunk)
-"Sao con chưa biết chia sẻ"    → Mechanism §6 (SPM chưa đủ chunks)
+"Sao con chưa biết chia sẻ"    → Mechanism §6 (Self-Pattern-Modeling chưa đủ chunks)
 "Con sợ nước"                   → Mechanism §3.4 (reconsolidation window)
 "Dạy sớm có hại không"         → §6.3 (ép học sớm)
                                   + Mechanism §3 (threat-path → avoidance tag)
@@ -580,7 +580,7 @@ MỤC ĐÍCH PHÁT TRIỂN:
      → Bắt chước: thấy → copy → gần đúng NGAY → refine (NHANH)
      → = Copy = "nhảy qua" hàng trăm bước thử-sai
      → = Lý do con người HỌC NHANH hơn nhiều loài khác
-       (Self-Pattern-Match + imitation capacity = nổi bật ở ng��ời)
+       (Self-Pattern-Modeling + imitation capacity = nổi bật ở ng��ời)
 
   ② SOCIAL LEARNING (học xã hội)
      → Bắt chước bố mẹ: cách cầm muỗng, cách chào, cách phản ứng
@@ -594,24 +594,24 @@ MỤC ĐÍCH PHÁT TRIỂN:
      → = "SỐNG LÀ DẠY" — hành vi bố mẹ = giáo trình THẬT của trẻ
      → = Muốn con bình tĩnh → bố mẹ phải SỐNG bình tĩnh (không phải NÓI)
 
-  ③ SELF-PATTERN-MATCH (SPM) — không phải "mirror neuron module"
+  ③ SELF-PATTERN-MATCH (Self-Pattern-Modeling) — không phải "mirror neuron module"
      → 🟡 Framework reject "mirror neuron module" bẩm sinh chuyên biệt
        (→ Clarification/Mirror-Neuron-Rejection.md: 7 bằng chứng)
      → Cơ chế thật: PFC dùng SELF-CHUNKS làm template để predict người khác
-       = Self-Pattern-Match (SPM) — learned prediction function
-     → Thấy mẹ đưa tay lấy cốc → SPM dùng motor chunks CỦA MÌNH
+       = Self-Pattern-Modeling (Self-Pattern-Modeling) — learned prediction function
+     → Thấy mẹ đưa tay lấy cốc → Self-Pattern-Modeling dùng motor chunks CỦA MÌNH
        để simulate hành động → "hiểu" mà không cần mirror module
      → Development bootstrap ở trẻ:
        Arousal contagion (0-6mo) → Social referencing (6-9mo)
        → Helping behavior (14-18mo) → True empathy (18-24mo)
        → Animism (2-4y) → Boundary refinement (4-7y)
      → = Nền tảng cho:
-       → Empathy (SPM applied to other agents)
+       → Empathy (Self-Pattern-Modeling applied to other agents)
        → Learning by watching (simulate trước khi bắt chước)
-       → Theory of mind (SPM + chunks "người khác ≠ mình")
+       → Theory of mind (Self-Pattern-Modeling + chunks "người khác ≠ mình")
      → Framework: chunk acquisition qua observation
        → Mỗi lần THẤY = não compile bản nháp → BẮT CHƯỚC = run bản nháp
-     → Chi tiết: Mechanism §6 (SPM Developmental Bootstrap)
+     → Chi tiết: Mechanism §6 (Self-Pattern-Modeling Developmental Bootstrap)
 ```
 
 ### §2.8 CHƠI TỰ DO (Free Play)
@@ -1300,7 +1300,7 @@ PHÂN BIỆT QUAN TRỌNG:
     → Muốn trẻ đọc sách → bố mẹ ĐỌC SÁCH (trẻ THẤY → copy)
 
   CƠ CHẾ (từ §2.7):
-    → Self-Pattern-Match: trẻ THẤY hành vi → SPM dùng self-chunks simulate
+    → Self-Pattern-Modeling: trẻ THẤY hành vi → Self-Pattern-Modeling dùng self-chunks simulate
     → Repetition: thấy bố mẹ làm HÀNG NGÀY → pattern compile MẠNH
     → = Hành vi bố mẹ = GIÁO TRÌNH VÔ THỨC chạy 24/7
     → = Lời nói = 1 bài giảng thỉnh thoảng (yếu hơn nhiều)
@@ -1746,7 +1746,7 @@ MỌI THỨ TRONG FILE NÀY = GIAI ĐOẠN NỀN TẢNG CỦA FRAMEWORK
     CONNECTION (sơ sinh): Hardware drive → attachment compile qua caregiving
     PROTECT (12-18m):   "Của tôi!" emerge → BÌNH THƯỜNG, đừng phạt
     AUTONOMY (6-14m→):  Motor chunks → "TÔI tự làm" → "KHÔNG!" (18m)
-    EMPATHY (14-24m):   SPM bootstrap → arousal contagion → empathy thật
+    EMPATHY (14-24m):   Self-Pattern-Modeling bootstrap → arousal contagion → empathy thật
     STATUS (3-4y):      Social comparison → "công bằng!" sensitivity
     BOREDOM (2-3y):     Chunks đủ để predict "đã biết r���i" → "chán"
     MEANING (4-6y):     Schema coherence sơ khai → "tại sao?" existential
@@ -1790,10 +1790,10 @@ MỌI THỨ TRONG FILE NÀY = GIAI ĐOẠN NỀN TẢNG CỦA FRAMEWORK
     Sở thích thay đổi liên tục = ĐANG CALIBRATE → không phải "thất thường"
 ```
 
-### §7.7 — FEELING DEVELOPMENT + SPM BOOTSTRAP
+### §7.7 — FEELING DEVELOPMENT + Self-Pattern-Modeling BOOTSTRAP
 
 ```
-  → Chi tiết: Mechanism §5 (Feeling) + §6 (SPM Bootstrap)
+  → Chi tiết: Mechanism §5 (Feeling) + §6 (Self-Pattern-Modeling Bootstrap)
 
   FEELING 7-LAYER FIDELITY GRADIENT (Feeling.md v2.0):
     Raw signals (100%) → Integration (~95%) → Consciousification (~90%)
@@ -1808,19 +1808,19 @@ MỌI THỨ TRONG FILE NÀY = GIAI ĐOẠN NỀN TẢNG CỦA FRAMEWORK
     → Biết → CÓ THỂ communicate → CÓ THỂ seek help → CÓ THỂ regulate
     → KHÔNG label → "Silent distress": stressed nhưng không biết tại sao
 
-  SPM DEVELOPMENTAL BOOTSTRAP (Mechanism §6):
+  Self-Pattern-Modeling DEVELOPMENTAL BOOTSTRAP (Mechanism §6):
     Arousal contagion (0-6m): bạn khóc → tôi khóc (auto, không hiểu)
     Social referencing (6-9m): nhìn mặt mẹ → đọc signal
     Helping behavior (14-18m): thấy bạn buồn → TỰ đến an ủi
-    True empathy (18-24m): SPM + self-chunks → "tôi HIỂU bạn đau"
-    Animism (2-4y): SPM over-apply → "gấu bông buồn" → BÌNH THƯỜNG
+    True empathy (18-24m): Self-Pattern-Modeling + self-chunks → "tôi HIỂU bạn đau"
+    Animism (2-4y): Self-Pattern-Modeling over-apply → "gấu bông buồn" → BÌNH THƯỜNG
     Boundary refinement (4-7y): "gấu bông KHÔNG buồn thật" → calibrate
 
   HỆ QUẢ CHO BỐ MẸ:
     → VALIDATE emotions: "mẹ thấy con đang buồn" = build feeling fidelity
     → LABEL emotions: "cái đó gọi là 'thất vọng'" = give tool
     → ĐỪNG suppress: "đừng khóc!" = tắt signal → body-listening giảm
-    → Animism ở 3 tuổi = SPM đang calibrate → BÌNH THƯỜNG, không phải "ngớ ngẩn"
+    → Animism ở 3 tuổi = Self-Pattern-Modeling đang calibrate → BÌNH THƯỜNG, không phải "ngớ ngẩn"
 ```
 
 ---
@@ -1896,7 +1896,7 @@ MỌI THỨ TRONG FILE NÀY = GIAI ĐOẠN NỀN TẢNG CỦA FRAMEWORK
     → 🟡 Approach/avoidance tags qua body-state-at-compile (§7.1)
       — logically sound + consistent with fear conditioning literature,
       nhưng "tag" framing = framework construct, chưa direct measurement
-    → 🟡 SPM developmental bootstrap replacing mirror module (§2.7, §7.7)
+    → 🟡 Self-Pattern-Modeling developmental bootstrap replacing mirror module (§2.7, §7.7)
       — consistent with Heyes learned mirroring view + Cecilia Heyes 2010,
       nhưng mirror neuron debate chưa fully resolved
     → 🟡 Neonatal imitation (§2.7) — Meltzoff: nổi tiếng nhưng
@@ -2006,7 +2006,7 @@ MỌI THỨ TRONG FILE NÀY = GIAI ĐOẠN NỀN TẢNG CỦA FRAMEWORK
 TRONG FOLDER CHILD-DEVELOPMENT (bộ 4 files):
 
 → Child-Development-Mechanism.md �� KHUNG NGUYÊN LÝ v7.8 (reference chính)
-   PFC Reframe, 4+1 Compile, Tags, Chunk Dynamics, Feeling, SPM,
+   PFC Reframe, 4+1 Compile, Tags, Chunk Dynamics, Feeling, Self-Pattern-Modeling,
    Autonomy, Cortisol, Observation Parameters, Imagine-Final
 → Skill-Introduction.md — giới thiệu kỹ năng per-age (CẦN REWRITE v7.8)
 → Mother-Optimization.md — tối ưu thai kỳ (CẦN REWRITE v7.8)
@@ -2029,7 +2029,7 @@ CORE-DEEP-DIVE — OBSERVATION PARAMETERS:
 → Novelty.md — VTA + chunk-gap dynamics, DRD4 spectrum
 → Threat.md — 5-level spectrum × 3 trục, anticipation-dominant modern
 → Connection.md — hardware drive, virtual chunks, Dunbar, × Imagine-Final
-→ Empathy.md — SPM function, 3 rejections (incl. mirror module), bootstrap
+→ Empathy.md — Self-Pattern-Modeling function, 3 rejections (incl. mirror module), bootstrap
 → Autonomy-Hardware.md — efference copy + VTA + opioid = emergent
 → Autonomy.md — 5-phase arc, Bé A vs Bé B, domain-specific
 → Protect.md — ownership, loss aversion, f(replaceability × attachment)
@@ -2067,7 +2067,7 @@ CORE-DEEP-DIVE — OTHER:
 → Melody Lens/Personal-Melody.md — mỗi người = 1 bài nhạc emergent
 → Melody Lens/Melody-Arc.md — dissonance → compile → melody upgrade
 → Schema/Anchor-Schema.md — sync point, 4 nguồn fill
-→ Agent/Self-Pattern-Match.md — SPM mechanism, 5 pattern types
+→ Agent/Self-Pattern-Modeling.md — Self-Pattern-Modeling mechanism, 5 pattern types
 → Agent/By-Product-Gap-Resonance.md — emergent mutual phenomenon
 → Clarification/Mirror-Neuron-Rejection.md — 7 bằng chứng reject
 → Clarification/Cortisol-Amplifier-Not-Cause.md — 3 nguồn đau thật

@@ -41,7 +41,7 @@ dependencies:
   - Compliance-Floor.md v2.0 — freedom constraints, 4-layer floor (trục ③)
   - Obligation.md v1.1 — obligation as constraint, 5-factor formula (trục ③)
   - Money-Analysis.md v1.0 — money = bridge technology (trục ②)
-  - Inter-Body-Mechanism.md v1.0 — Architecture B, PFC=Lawyer, 3-cost model
+  - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, PFC=Lawyer, 3-cost model
   - Chunk.md v2.2 — sole substrate, compilation
   - Body-Feedback-Label.md v2.0 — vocabulary reference
   - Connection.md v4.0 — Dunbar layers (social capital)
@@ -1694,7 +1694,7 @@ SCOPE OUT:
   → Autonomy.md v1.1 — software development (trục ④ software)
 
 ⭐ MECHANISM (file này REFERENCE):
-  → Inter-Body-Mechanism.md v1.0 — Architecture B, PFC=Lawyer, 3-cost
+  → Inter-Body-Mechanism.md v1.0 — Compilable Architecture, PFC=Lawyer, 3-cost
   → Compliance-Floor.md v2.0 — trục ③ legal constraints
   → Obligation.md v1.1 — trục ③ obligation constraints
   → Money-Analysis.md v1.0 — trục ② money = bridge technology

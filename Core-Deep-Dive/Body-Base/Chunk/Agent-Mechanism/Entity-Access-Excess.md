@@ -11,14 +11,14 @@ scope: |
   + Mẹ→con (designed vs overdriven) + Romantic (bilateral/unilateral).
   + Gap shift ≠ compiled suppress (2 mechanism riêng).
   + 3 Origins (hardware + trauma + schema). Cultural variation.
-  + BP overlap spectrum. Measurement paradox. Fix spectrum.
+  + Background-Pattern overlap spectrum. Measurement paradox. Fix spectrum.
 purpose: |
   Entity-Access.md = GRADIENT MODEL (Mức 0-5, 3-Factor, quality, calibration).
   File NÀY = EXCESS TERRITORY (Mức 5): cơ chế, biểu hiện, nguyên nhân, fix.
   = "Entity-Access cho biết ACCESS ở MỨC NÀO. File này cho biết KHI NÀO access
   trở thành VẤN ĐỀ, TẠI SAO, và CÓ THỂ LÀM GÌ."
 position: |
-  Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder Entity-Access, SPM, BPGR.
+  Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder Entity-Access, Self-Pattern-Modeling, By-Product-Gap-Resonance.
   Entity-Access.md §6 = summary + cross-ref đến file này.
   Entity-Access-Calibration.md = HOW entity-access tự điều chỉnh (companion).
 dependencies:
@@ -27,7 +27,7 @@ dependencies:
   - PFC-Operations.md v1.0 — FOUNDATION: Compiled/Fresh, Hold/Suppress, PFC budget
   - Simulation-Engine.md v1.0 — FOUNDATION: 1 engine, 3 components
   - Valence-Propagation.md v3.0 — FOUNDATION: Hardware Subsidy, Structural/Current
-  - Self-Pattern-Modeling.md v3.1 — FOUNDATION: SPM as Simulation Engine application
+  - Self-Pattern-Modeling.md v3.1 — FOUNDATION: Self-Pattern-Modeling as Simulation Engine application
   - Body-Feedback-Mechanism.md v2.0 §3.3c — FOUNDATION: Gap→Miss baseline
   - Compiled-Fresh.md v2.0 — FOUNDATION: compiled suppress, reversal, PFC budget
   - By-Product-Gap-Resonance.md v1.1 — COMPANION: resonance, 4 conditions
@@ -36,7 +36,7 @@ dependencies:
   - Gap-Direction.md v2.0 — FOUNDATION: gap formation from surrounding chunks
   - Gap-Distribution-Profile.md v1.0 — COMPANION: portfolio risk, diversification
   - Gap-Body-Need.md v2.0 — FOUNDATION: satiation types, existence-based gaps
-  - Resonance-Entity.md v2.0 — FOUNDATION: hardware subsidy, RSA A:B
+  - Resonance-Entity.md v2.0 — FOUNDATION: hardware subsidy, Hardwired:Compilable Architecture
   - Connection.md v4.0 — COMPANION: 3 Generative Primitives, 2-tầng/2-luồng
   - Love-Romantic.md v2.2 — APPLICATION: romantic lifecycle
   - Reward-Calibration.md v1.1 — PARALLEL: Goldilocks, cannot prescribe
@@ -55,7 +55,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Entity-Access Excess = Mức 5 territory trên Entity-Access Gradient:**
 > **Entity = GẦN NHƯ DUY NHẤT gap source. Domain atrophy. PFC label: "Entity-Owned Excess."**
 >
-> **3-Factor at excess: F1 Agent C-DISTORTED × F2 C+D dominant × F3 MAXIMUM.**
+> **3-Factor at excess: Compiled Agent C-DISTORTED × Fresh C+D dominant × F3 MAXIMUM.**
 > **CÙNG neural circuits với drug addiction (VTA, NAcc, ventral striatum).**
 >
 > **Mẹ→con: excess by DESIGN (auto-novelty + hardware anti-habituation).**
@@ -80,7 +80,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §5 — GAP SHIFT INTO ENTITY ≠ COMPILED SUPPRESS
 - §6 — 3 ORIGINS: HARDWARE + TRAUMA + SCHEMA
 - §7 — CULTURAL VARIATION
-- §8 — BP OVERLAP SPECTRUM: "DỄ HIỂU" vs "MỚI LẠ"
+- §8 — Background-Pattern OVERLAP SPECTRUM: "DỄ HIỂU" vs "MỚI LẠ"
 - §9 — MEASUREMENT PARADOX: SELF-REPORT ≠ BODY-LEVEL
 - §10 — FIX SPECTRUM
 - §11 — HONEST ASSESSMENT
@@ -97,16 +97,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐⭐ ENTITY-ACCESS EXCESS v1.0:
 
   ENTITY-ACCESS (Entity-Access.md v1.0):
-    3-Factor Model: F1 Engine Mode × F2 Gap-Need Profile × F3 Access Confidence
+    3-Factor Model: Compiled Engine Mode × Fresh Gap-Need Profile × F3 Access Confidence
     Gradient: Mức 0 (Tool/Service) → Mức 5 (Excess)
     Entity-Owned = PFC LABEL for Mức 4-5 (observation, not mechanism)
 
   ENTITY-ACCESS EXCESS = MỨC 5 TERRITORY:
     ① Entity trở thành GẦN NHƯ DUY NHẤT gap source
-    ② 3-Factor at excess: F1 Agent (C-distorted), F2 C+D dominant, F3 MAXIMUM
+    ② 3-Factor at excess: Compiled Agent (C-distorted), Fresh C+D dominant, F3 MAXIMUM
     ③ PFC label: "Entity-Owned Excess" — "PHẢI ở đây / PHẢI theo ý tôi"
     ④ Same neural circuits với drug addiction (VTA, NAcc, ventral striatum)
-    ⑤ SPM ATROPHY: excess → SPM drops → pseudo-understanding → loop
+    ⑤ Self-Pattern-Modeling ATROPHY: excess → Self-Pattern-Modeling drops → pseudo-understanding → loop
     ⑥ Mẹ→con: excess by DESIGN, NHƯNG overdriven = helicopter/tiger
     ⑦ Romantic bilateral → stagnation. Unilateral → suffocation
     ⑧ Gap shift ≠ compiled suppress = 2 mechanism riêng, CÓ THỂ đồng thời
@@ -135,17 +135,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Entity-Access-Calibration  = CALIBRATION (3-layer, exit cost, training)
 
   CÁI GÌ MỚI (so với Entity-Access.md §6 summary):
-    → SPM atrophy mechanism + pseudo vs genuine prediction complete (§2)
+    → Self-Pattern-Modeling atrophy mechanism + pseudo vs genuine prediction complete (§2)
     → Mẹ→con chi tiết: formation timeline, helicopter, tiger 3-case, hikikomori (§3)
     → Romantic chi tiết: bilateral trap, unilateral suffocation (§4)
     → Gap shift vs compiled suppress chi tiết + per-relationship mapping (§5)
     → 3 origins chi tiết: hardware chain, trauma bonding, cultural schema (§6)
     → Cultural variation: 3 models, marriage data, collectivist paradox (§7)
-    → BP overlap spectrum: similarity paradox, sensation seeking (§8)
+    → Background-Pattern overlap spectrum: similarity paradox, sensation seeking (§8)
     → Measurement paradox: McNulty 2013 Science — implicit ≠ explicit (§9)
     → Fix spectrum: per-case approach (§10)
 
-  🟡 Tách từ EA §6+§7 + mở rộng từ drill = framework synthesis (v1.0)
+  🟡 Tách từ Entity-Access §6+§7 + mở rộng từ drill = framework synthesis (v1.0)
 ```
 
 ---
@@ -158,7 +158,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ ENTITY-ACCESS EXCESS = SPECTRUM, KHÔNG PHẢI BINARY:
 
   ┌─────────────────────────────────────────────────────────────────────┐
-  │  Mức 3 (B-dom.)   Mức 4 (Entity-Owned)  Mức 5 (Excess)  Clinical  │
+  │  Mức 3 (Compilable-dominant) Mức 4 (Entity-Owned)  Mức 5 (Excess)  Clinical  │
   │  MODERATE          ELEVATED              EXCESS           ADDICTION │
   │  (healthy)         (normal bonding)      (problematic)    (3-6%)   │
   │                                                                     │
@@ -176,20 +176,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   3-FACTOR AT EACH LEVEL (Entity-Access.md §1):
 
     Mức 3 (healthy):
-      F1: Agent deep (genuine curiosity about entity state)
-      F2: B-dominant (by-product resonance, mutual, organic)
+      Compiled: Agent deep (genuine curiosity about entity state)
+      Fresh: Compilable-dominant (by-product resonance, mutual, organic)
       F3: earned confidence (no hardware bias)
       → Exit easy → C CANNOT develop → self-correcting
 
     Mức 4 (Entity-Owned label):
-      F1: Agent deep + hardware-assisted
-      F2: A+B compound (hardware genuine + resonance)
+      Compiled: Agent deep + hardware-assisted
+      Fresh: Hardwired+Compilable compound (hardware genuine + resonance)
       F3: HIGH (compiled deep + hardware subsidy + low exit cost)
       → PFC labels: "phần đời tôi" — CAN be healthy if A+B dominant
 
     Mức 5 (Excess):
-      F1: Agent nhưng C-DISTORTED (SPM serves MY gap, not entity's state)
-      F2: C+D DOMINANT (self-referential + schema → autonomy violated)
+      Compiled: Agent nhưng C-DISTORTED (Self-Pattern-Modeling serves MY gap, not entity's state)
+      Fresh: C+D DOMINANT (self-referential + schema → autonomy violated)
       F3: MAXIMUM (hardware + no exit + compiled deep)
       → Entity-access at MAXIMUM + gap direction DISTORTED
 
@@ -239,10 +239,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Access: FULL (toàn quyền pháp lý, 24/7)
   Power: MAXIMUM (sống chết do lãnh chúa)
   NHƯNG:
-    F1: TOOL-MODE ("xong chưa?") → GATE CLOSED (Entity-Access.md §1.5)
-    F2: narrow (labor output → single function)
-    F3: HIGH (always available) → nhưng F1 fail → STOP
-  → Access FULL + Power MAX + F1 Tool → NO entity-access
+    Compiled: TOOL-MODE ("xong chưa?") → GATE CLOSED (Entity-Access.md §1.5)
+    Fresh: narrow (labor output → single function)
+    F3: HIGH (always available) → nhưng Compiled fail → STOP
+  → Access FULL + Power MAX + Compiled Tool → NO entity-access
 
   2 LOẠI "SỞ HỮU" HOÀN TOÀN KHÁC:
     Legal ownership: schema/external (pháp lý, hợp đồng, quyền lực)
@@ -308,46 +308,46 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Addiction cycle mapping to entity-access excess = framework synthesis
 ```
 
-### §2.3 — SPM atrophy + pseudo-understanding (★ KEY MECHANISM)
+### §2.3 — Self-Pattern-Modeling atrophy + pseudo-understanding (★ KEY MECHANISM)
 
 ```
-⭐⭐⭐ ENTITY-ACCESS EXCESS GIẾT SPM INCENTIVE:
+⭐⭐⭐ ENTITY-ACCESS EXCESS GIẾT Self-Pattern-Modeling INCENTIVE:
 
-  SPM REWARD = f(prediction-delta):
-    Entity THAY ĐỔI → new chunks → delta > 0 → SPM rewarded
-    Entity STAGNATE → no new chunks → delta = 0 → SPM unrewarded
-    → SPM cost (Fresh processing) > SPM reward → não TỰ GIẢM SPM investment
+  Self-Pattern-Modeling REWARD = f(prediction-delta):
+    Entity THAY ĐỔI → new chunks → delta > 0 → Self-Pattern-Modeling rewarded
+    Entity STAGNATE → no new chunks → delta = 0 → Self-Pattern-Modeling unrewarded
+    → Self-Pattern-Modeling cost (Fresh processing) > Self-Pattern-Modeling reward → não TỰ GIẢM Self-Pattern-Modeling investment
     → = Schultz 1997: dopamine = prediction ERROR signal. No error = no signal.
 
-  ENTITY-ACCESS EXCESS TẠO ĐIỀU KIỆN CHO SPM ATROPHY:
+  ENTITY-ACCESS EXCESS TẠO ĐIỀU KIỆN CHO Self-Pattern-Modeling ATROPHY:
     ① Excess → access reward ĐỦ (entity present = reward)
     ② Access guaranteed → no need to "earn" access qua understanding
     ③ Entity stop growing (domain suppressed) → no new info
-    ④ SPM cost > SPM reward → não TỰ GIẢM SPM investment → F1 → Tool-mode
+    ④ Self-Pattern-Modeling cost > Self-Pattern-Modeling reward → não TỰ GIẢM Self-Pattern-Modeling investment → Compiled → Tool-mode
     ⑤ PSEUDO prediction complete: "hiểu hết" = STOPPED LOOKING ≠ nothing to see
-    → = SELF-REINFORCING LOOP: excess → SPM drops → miss → excess continues
+    → = SELF-REINFORCING LOOP: excess → Self-Pattern-Modeling drops → miss → excess continues
 
-  ⭐ MONITORING ≠ SPM:
+  ⭐ MONITORING ≠ Self-Pattern-Modeling:
     Monitoring: "con ở đâu?" / "partner đang làm gì?" = check LOCATION/FUNCTION
-    SPM: "con đang cảm thấy gì?" / "partner đang nghĩ gì?" = predict STATE
-    → Helicopter parent: monitor NHIỀU nhưng SPM ÍT
-    → = High surveillance + low understanding = F1 Tool-mode with anxiety overlay
+    Self-Pattern-Modeling: "con đang cảm thấy gì?" / "partner đang nghĩ gì?" = predict STATE
+    → Helicopter parent: monitor NHIỀU nhưng Self-Pattern-Modeling ÍT
+    → = High surveillance + low understanding = Compiled Tool-mode with anxiety overlay
 
   ⭐⭐ 2 LOẠI "PREDICTION COMPLETE" — PHÂN BIỆT CRUCIAL:
 
     TYPE 1 — GENUINE (hiểu thật sự sâu):
-      SPM invest DEEPLY + entity ALSO grows → years of co-growth
+      Self-Pattern-Modeling invest DEEPLY + entity ALSO grows → years of co-growth
       → Predict TƯƠNG LAI, not just hiện tại
       → Prediction-delta GIẢM nhưng KHÔNG = 0 (ongoing growth tạo micro-delta)
 
     TYPE 2 — PSEUDO (★ ngừng tìm hiểu, TƯỞNG hiểu):
-      SPM STOPS investment → brain label "hiểu hết"
+      Self-Pattern-Modeling STOPS investment → brain label "hiểu hết"
       → THỰC TẾ: entity CÓ hidden states (shame, frustration, suppressed drives)
-      → PFC: "hiểu hết rồi" = LABEL cho SPM ATROPHY, NOT genuine understanding
+      → PFC: "hiểu hết rồi" = LABEL cho Self-Pattern-Modeling ATROPHY, NOT genuine understanding
       → = STOPPED LOOKING ≠ NOTHING LEFT TO SEE
 
     Entity-access excess → TYPE 2 (pseudo):
-      Access reward ĐỦ → SPM drops → pseudo-complete → FEELS like understanding
+      Access reward ĐỦ → Self-Pattern-Modeling drops → pseudo-complete → FEELS like understanding
       → McNulty 2013 (Science): implicit ≠ explicit → body BIẾT, PFC KHÔNG
       → "Chúng tôi rất hiểu nhau" = có thể là pseudo
       → Test: entity HAS hidden needs? → if YES + you don't know → pseudo
@@ -360,7 +360,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Prediction-delta = reward signal: Schultz 1997
   🟢 Implicit ≠ explicit: McNulty 2013 (Science)
   🟢 Passion = rate of change: Baumeister & Bratslavsky 1999
-  🟡 Excess → SPM atrophy mechanism = framework synthesis
+  🟡 Excess → Self-Pattern-Modeling atrophy mechanism = framework synthesis
   🟡 Genuine vs pseudo prediction complete = framework synthesis
 ```
 
@@ -374,21 +374,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ MẸ→CON: ENTITY-ACCESS AT MAXIMUM BY HARDWARE DESIGN:
 
   3-FACTOR MODEL AT MẸ→CON (Entity-Access.md §1+§3.1):
-    F1: Agent-mode PRE-INSTALLED (hardware switches on at birth)
-    F2: BROADEST gap coverage (A existence + B by-products + C/D variable)
+    Compiled: Agent-mode PRE-INSTALLED (hardware switches on at birth)
+    Fresh: BROADEST gap coverage (A existence + B by-products + C/D variable)
     F3: MAX confidence (hardware subsidy + child always present)
     → ALL 3 FACTORS = MAXIMUM → entity-access = Mức 4-5 by DEFAULT
 
   TẠI SAO EXCESS WORKS CHO MẸ→CON:
     ① Con THAY ĐỔI mỗi ngày → auto-novelty → prediction-delta LUÔN CÓ
-       → SPM atrophy (§2.3) COUNTERED by child growth
+       → Self-Pattern-Modeling atrophy (§2.3) COUNTERED by child growth
     ② Oxytocin anti-habituation → VTA habituation SLOWED
     ③ Existence-based gap (A) = no satiation point → CONTINUOUS reward
     ④ Child grows away → natural entity-access ↓ proportion
        = BUILT-IN weaning mechanism
     → = "Addiction" with AUTO NOVELTY SUPPLY + NATURAL WEANING
 
-  FORMATION TIMELINE — HORMONE → EC → SCHEMA:
+  FORMATION TIMELINE — HORMONE → Entity-Compiled → SCHEMA:
 
     TRƯỚC SINH: entity-access = 0
       Hormone priming bắt đầu (Hoekzema 2017: brain restructure)
@@ -397,24 +397,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     SINH → ~6 tháng: HORMONE DOMINANT
       Oxytocin surge + prolactin → entity-access precursor NGAY
       Baby schema → NAcc fire within 140ms (Glocker 2009)
-      EC bắt đầu compile nhưng CÒN SHALLOW
+      Entity-Compiled bắt đầu compile nhưng CÒN SHALLOW
 
     6 tháng → 2 năm: TRANSITION ZONE
       Hormone giảm DẦN (gradual, NOT sudden)
-      EC đang compile MẠNH (daily interaction → chunks tích lũy)
-      = "BÀN GIAO": hormone ↓ + EC ↑
-      Nếu EC genuine + deep → entity-access SUSTAINED (opioid)
-      Nếu EC shallow → entity-access WEAKENS khi hormone fade
+      Entity-Compiled đang compile MẠNH (daily interaction → chunks tích lũy)
+      = "BÀN GIAO": hormone ↓ + Entity-Compiled ↑
+      Nếu Entity-Compiled genuine + deep → entity-access SUSTAINED (opioid)
+      Nếu Entity-Compiled shallow → entity-access WEAKENS khi hormone fade
 
-    2 năm+: EC + SCHEMA sustain
+    2 năm+: Entity-Compiled + SCHEMA sustain
       Hormone ≈ baseline (no longer dominant)
-      TỈ LỆ EC/schema TÙY TỪNG NGƯỜI:
-        Mẹ A: 80% EC genuine + 20% schema → ROBUST
-        Mẹ B: 30% EC genuine + 70% schema → FRAGILE
+      TỈ LỆ Entity-Compiled/schema TÙY TỪNG NGƯỜI:
+        Mẹ A: 80% Entity-Compiled genuine + 20% schema → ROBUST
+        Mẹ B: 30% Entity-Compiled genuine + 70% schema → FRAGILE
 
   ⭐ SCHEMA = BRIDGE, NOT REPLACEMENT:
     Hormone fading → schema INJECT motivation → duy trì behavior
-    → Behavior duy trì → interaction tiếp tục → EC CÓ CƠ HỘI compile sâu
+    → Behavior duy trì → interaction tiếp tục → Entity-Compiled CÓ CƠ HỘI compile sâu
     → Schema "vừa phải" = TỐT (bridge qua hormone gap)
     → Schema "quá mức" = REPLACE genuine → excess territory (Mức 5)
 
@@ -473,7 +473,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Tiger parent's gap: "con phải giỏi" (mẹ's gap, not con's)
     → Con điểm cao → mẹ's gap filled → mẹ vui
     → Con đang miserable → IRRELEVANT cho mẹ's reward
-    → F1 Agent nhưng C-DISTORTED: SPM serves MẸ'S gap
+    → Compiled Agent nhưng C-DISTORTED: Self-Pattern-Modeling serves MẸ'S gap
 
   ⭐⭐ 3 CASES PHÂN BIỆT:
 
@@ -501,7 +501,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ CON ĐI = ENTITY-ACCESS WITHDRAWAL:
 
-  MECHANISM (BFM §3.3c):
+  MECHANISM (Body-Feedback-Mechanism §3.3c):
     Con ở nhà 18 năm → "con luôn ở đây" = DEEP baseline
     Con đi → baseline VIOLATED → distress
 
@@ -556,7 +556,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   4 MECHANISMS COMPOUND:
 
-    ① ENTITY-ACCESS EXCESS (parent → child) + SPM ATROPHY:
+    ① ENTITY-ACCESS EXCESS (parent → child) + Self-Pattern-Modeling ATROPHY:
       Bố mẹ provide ALL survival needs → con KHÔNG CẦN forage
       Pseudo-understanding (§2.3 Type 2): "biết con" = surface only
       → "8050 problem": bố mẹ 80 VẪN nuôi con 50
@@ -594,7 +594,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   MECHANISM:
     A's dominant gap = "B ở đây, B đáp ứng tôi"
     B's dominant gap = "A ở đây, A đáp ứng tôi"
-    → Cả 2 FILLED khi ở cùng → "thỏa mãn" ban đầu
+    → Cả 2 FILLED khi ở cùng → "satisfied" ban đầu
 
   TẠI SAO STAGNATE:
     ① Neither produce domain by-products (gap = "entity ở đây")
@@ -609,7 +609,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Year 8+: Stagnation → "chán mà không biết vì sao"
     → = Gottman Type 2: emotional disengagement → divorce ~16.2yr
 
-  KHÁC MẸ→CON: child CHANGES daily → auto-novelty → SPM không atrophy
+  KHÁC MẸ→CON: child CHANGES daily → auto-novelty → Self-Pattern-Modeling không atrophy
   KHÁC BẠN THÂN: exit cost THẤP → tách trước khi excess (48.6% churn)
 
   🟡 Bilateral trap model = framework synthesis
@@ -621,7 +621,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐ A EXCESS + B NORMAL → B "KHÓ THỞ":
 
-  A (Mức 5): dominant gap = "B ở đây, B đáp ứng tôi" (F2 = C dominant)
+  A (Mức 5): dominant gap = "B ở đây, B đáp ứng tôi" (Fresh = C dominant)
     KHÔNG chạy domain → không produce by-products MỚI
     Monitor B → anxiety management (§3.2 mechanism)
 
@@ -630,7 +630,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     "Khó thở" = body signal: "bị kiểm soát + gaps unfilled"
 
   DYNAMIC:
-    ① A tăng SPM effort → cố hiểu B → NHƯNG SPM ≠ by-product
+    ① A tăng Self-Pattern-Modeling effort → cố hiểu B → NHƯNG Self-Pattern-Modeling ≠ by-product
     ② A: "tại sao B xa cách?" → tăng monitor → B: "càng khó thở"
     ③ B withdraw → A: distress (withdrawal) → A cling MORE
     ④ = VÒNG LẶP TIÊU CỰC: A cling → B withdraw → A cling harder
@@ -653,7 +653,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ 2 LOẠI ENTITY-ACCESS TRONG ROMANTIC:
 
   GENUINE (A+B dominant):
-    Formation: by-product match THẬT → EC deepens
+    Formation: by-product match THẬT → Entity-Compiled deepens
     Quality: opioid tag. Respects autonomy, supports drives.
     → Acevedo 2012: 20+ year couples VẪN VTA + vasopressin (NOT anxiety)
 
@@ -675,7 +675,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §5 — GAP SHIFT INTO ENTITY ≠ COMPILED SUPPRESS
 
-### §5.1 — Gap shift = passive (from EC depth)
+### §5.1 — Gap shift = passive (from Entity-Compiled depth)
 
 ```
 ⭐⭐ GAP SHIFT INTO ENTITY = GAP HÌNH THÀNH MỚI HƯỚNG VỀ ENTITY:
@@ -687,10 +687,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Gap landscape DẦN dominated bởi entity-related gaps
 
   ĐẶC ĐIỂM:
-    → PASSIVE: xảy ra TỰ NHIÊN khi EC deepens
-    → GRADUAL: chậm, proportional với EC growth
+    → PASSIVE: xảy ra TỰ NHIÊN khi Entity-Compiled deepens
+    → GRADUAL: chậm, proportional với Entity-Compiled growth
     → NOT SUPPRESS: gaps cũ VẪN CÒN — chỉ CÓ THÊM gaps mới about entity
-    → REVERSIBLE: nếu EC decay → entity gaps cũng decay
+    → REVERSIBLE: nếu Entity-Compiled decay → entity gaps cũng decay
 
   BÌNH THƯỜNG Ở MỨC VỪA PHẢI:
     "Muốn bảo vệ con" = gap shift về con (Protect.md §3) → DESIGNED
@@ -737,7 +737,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   WHICH COMES FIRST?
     Case A — Gap shift FIRST → suppress follows:
-      EC deepens → entity-gaps form → schema/fear AMPLIFY → domain suppress
+      Entity-Compiled deepens → entity-gaps form → schema/fear AMPLIFY → domain suppress
       → = Most common in romantic (limerence → gap shift → suppress)
 
     Case B — Compiled suppress FIRST → gap shift follows:
@@ -749,7 +749,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Limerence + schema ("phải yêu hết lòng") → fastest path to excess
 
   🟡 2-mechanism distinction + compound model = framework synthesis
-  🟢 Gap shift from EC depth: Bond-Architecture §3.2
+  🟢 Gap shift from Entity-Compiled depth: Bond-Architecture §3.2
   🟢 Compiled suppress: Compiled-Fresh.md §4.2, §5.1
 ```
 
@@ -759,10 +759,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────┬──────────────────────┬──────────────────────┐
   │              │ GAP SHIFT            │ COMPILED SUPPRESS    │
   ├──────────────┼──────────────────────┼──────────────────────┤
-  │ Mẹ→con      │ STRONG (hw-designed)  │ LOW (hw protects     │
+  │ Mẹ→con      │ STRONG (hardware-designed)  │ LOW (hardware protects     │
   │ (healthy)    │ Existence-based gap   │ child's drives)      │
   ├──────────────┼──────────────────────┼──────────────────────┤
-  │ Mẹ→con      │ EXCESSIVE (hw + sch.) │ MODERATE ("mẹ phải   │
+  │ Mẹ→con      │ EXCESSIVE (hardware + sch.) │ MODERATE ("mẹ phải   │
   │ (helicopter) │ "con = tất cả"       │ hy sinh")            │
   ├──────────────┼──────────────────────┼──────────────────────┤
   │ Romantic     │ HIGH (bilateral)     │ HIGH (fear/schema)   │
@@ -771,10 +771,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Romantic     │ HIGH (A only)        │ HIGH (B forced by A) │
   │ (unilateral) │ A → entity-dominant  │ B's autonomy suppress│
   ├──────────────┼──────────────────────┼──────────────────────┤
-  │ Bạn thân     │ LOW (no hw boost)    │ LOW (exit cost low)  │
+  │ Bạn thân     │ LOW (no hardware boost)    │ LOW (exit cost low)  │
   │ (Mức 3)      │ Entity-access mod.   │ Separate before exc. │
   ├──────────────┼──────────────────────┼──────────────────────┤
-  │ Tool-mode    │ ZERO (F1 Tool)       │ N/A (no entity-      │
+  │ Tool-mode    │ ZERO (Compiled Tool)       │ N/A (no entity-      │
   │ (Mức 0c)     │ Access ≠ entity-acc. │ access to shift)     │
   └──────────────┴──────────────────────┴──────────────────────┘
 
@@ -1018,26 +1018,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §8 — BP OVERLAP SPECTRUM: "DỄ HIỂU" vs "MỚI LẠ"
+## §8 — Background-Pattern OVERLAP SPECTRUM: "DỄ HIỂU" vs "MỚI LẠ"
 
-### §8.1 — Background Pattern overlap and resonance
+### §8.1 — Background-Pattern overlap and resonance
 
 ```
-⭐⭐ BP OVERLAP SPECTRUM:
+⭐⭐ Background-Pattern OVERLAP SPECTRUM:
 
   ┌─────────────────────────────────────────────────────────────────┐
-  │ BP HIGH OVERLAP ←──────────────────────→ BP LOW OVERLAP        │
+  │ Background-Pattern HIGH OVERLAP ←──────────────────────→ Background-Pattern LOW OVERLAP        │
   │ (cùng làng, tôn giáo, culture)     (khác quốc gia, ngôn ngữ) │
   │                                                                 │
-  │ SPM dễ (own chunks = template)      SPM khó (chunks mismatch) │
+  │ Self-Pattern-Modeling dễ (own chunks = template)      Self-Pattern-Modeling khó (chunks mismatch) │
   │ Prediction complete NHANH           Prediction delta LÂU       │
   │ Friction LOW                        Friction HIGH              │
   │ Novelty LOW (similar patterns)      Novelty HIGH               │
   │ "Chán" risk: HIGH (stagnation)      "Xung đột" risk: HIGH     │
   └─────────────────────────────────────────────────────────────────┘
 
-  "THÍCH NGƯỜI DỄ HIỂU" = HIGH BP overlap → form NHANH → stagnation risk
-  "THÍCH NGƯỜI MỚI LẠ" = LOW BP overlap → form CHẬM → fragility risk
+  "THÍCH NGƯỜI DỄ HIỂU" = HIGH Background-Pattern overlap → form NHANH → stagnation risk
+  "THÍCH NGƯỜI MỚI LẠ" = LOW Background-Pattern overlap → form CHẬM → fragility risk
 ```
 
 ### §8.2 — Research: similarity vs novelty paradox
@@ -1058,7 +1058,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Shiota & Levenson 2007 (long-term couples, 12 years):
       Personality similarity → MORE NEGATIVE satisfaction trajectory
       → Similar = satisfaction DECLINE FASTER
-      → Framework: BP similar → SPM compile FAST → stagnation EARLIER
+      → Framework: Background-Pattern similar → Self-Pattern-Modeling compile FAST → stagnation EARLIER
 
   MEGA-STUDY — PARTNER CHARACTERISTICS = ONLY 5%:
     🟢 Joel et al. 2020 (PNAS, 11,000+ couples, 43 datasets, ML):
@@ -1068,7 +1068,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = By-product QUALITY > partner SELECTION
 
   🟢 Montoya 2008, Shiota 2007, Joel 2020
-  🟡 BP overlap → prediction speed → stagnation timing = framework synthesis
+  🟡 Background-Pattern overlap → prediction speed → stagnation timing = framework synthesis
 ```
 
 ### §8.3 — Sensation-seeking + cross-cultural
@@ -1249,9 +1249,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Entity-access excess mapped to Mức 5 on gradient (★)
   Excess spectrum (moderate → excess → addiction)
   Addiction cycle mapped to entity-access mechanism
-  Excess → SPM atrophy mechanism (★★★ KEY)
+  Excess → Self-Pattern-Modeling atrophy mechanism (★★★ KEY)
   Genuine vs pseudo prediction complete (★★)
-  Monitoring ≠ SPM (function vs state)
+  Monitoring ≠ Self-Pattern-Modeling (function vs state)
   Helicopter = entity-access excess + anxiety withdrawal
   Tiger = entity-access excess + gap direction mismatch
   "Mẹ muốn" vs "gia đình cần tiền" 3-case distinction
@@ -1264,11 +1264,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Schema sufficient condition (no trauma needed)
   Triple amplification
   Collectivist paradox (lower quality + higher stability)
-  BP overlap → prediction speed → stagnation timing
+  Background-Pattern overlap → prediction speed → stagnation timing
   5 boundary indicators for healthy vs excess
   Body-level check regardless of culture
   Legal ownership ≠ entity-access
-  Formation timeline: hormone→EC→schema transition
+  Formation timeline: hormone→Entity-Compiled→schema transition
   3 cultural-economic models
   Entity-access excess = short-term stability + long-term fragility
   2 types "follow process" (obligation vs domain genuine)
@@ -1279,7 +1279,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Overparenting as dysregulated reward loop (neural overlap but no direct test)
   IAT discrepancy in collectivist vs individualist (McNulty protocol × culture)
-  Gap shift quantification (how much EC depth → excess threshold?)
+  Gap shift quantification (how much Entity-Compiled depth → excess threshold?)
   Bilateral trap timeline (prediction: 5-8 years to stagnation)
   Parental burnout vs empty nest trade-off per culture
   Codependency criteria cultural bias quantification
@@ -1288,7 +1288,7 @@ CÁI FRAMEWORK THÊM vs CÁI ĐÃ CÓ:
   Research đã biết: addiction circuits, parenting outcomes, attachment,
   burnout, cross-cultural patterns.
   Framework THÊM: UNIFYING MODEL — Entity-Access Gradient + 3-Factor
-  + SPM atrophy mechanism + 2-mechanism distinction + 3 origins.
+  + Self-Pattern-Modeling atrophy mechanism + 2-mechanism distinction + 3 origins.
   = Organizing principle, not new discovery.
 ```
 
@@ -1299,11 +1299,11 @@ CÁI FRAMEWORK THÊM vs CÁI ĐÃ CÓ:
 | File | Sections | Relationship |
 |------|----------|-------------|
 | Entity-Access.md v1.0 | §1-§5, §9-§10 | PREREQUISITE: 3-Factor, Gradient, A:B:C:D, 4-Trục |
-| Entity-Compiled.md v1.0 | §1-§10 | FOUNDATION: brain compile agent, EC depth |
-| Simulation-Engine.md v1.0 | §1, §3 | FOUNDATION: 1 engine, SPM as application |
+| Entity-Compiled.md v1.0 | §1-§10 | FOUNDATION: brain compile agent, Entity-Compiled depth |
+| Simulation-Engine.md v1.0 | §1, §3 | FOUNDATION: 1 engine, Self-Pattern-Modeling as application |
 | PFC-Operations.md v1.0 | §1-§7 | FOUNDATION: Compiled/Fresh, compiled suppress |
 | Valence-Propagation.md v3.0 | §3, §8 | FOUNDATION: Entity-Compiled, Hardware Subsidy |
-| Self-Pattern-Modeling.md v3.1 | §0-§3, §8 | FOUNDATION: SPM mechanism, atrophy |
+| Self-Pattern-Modeling.md v3.1 | §0-§3, §8 | FOUNDATION: Self-Pattern-Modeling mechanism, atrophy |
 | Compiled-Fresh.md v2.0 | §4, §5, §9 | FOUNDATION: compiled suppress, 6-step reversal |
 | By-Product-Gap-Resonance.md v1.1 | §1, §5-§7 | COMPANION: resonance, decline mechanisms |
 | Bond-Architecture (drill) | §2.2, §3.2, §7 | SOURCE: self-referential, gap redirect, per-bond |

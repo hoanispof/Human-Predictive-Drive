@@ -238,19 +238,19 @@ TẦNG CAO NHẤT — KHI FIDGET DRIFT SANG SÁNG TẠO:
   Conscious: bán ý thức (biết đang vẽ nhưng không "cố" vẽ).
 
   ───────────────────────────────────────────────────────
-  🟡 NOTE — Qua Lăng Kính Type A/B (Reward-Signal-Architecture v1.0):
+  🟡 NOTE — Qua Lăng Kính Evaluative/Direct-State (Reward-Signal-Architecture v1.0):
 
-  Tầng 1 proprioceptive calming = TYPE B reward (direct state):
+  Tầng 1 proprioceptive calming = DIRECT-STATE reward:
     Body-state change (cortisol ↓, HR ↓) = reward TRỰC TIẾP
     Hardware-based, non-opioid, KHÔNG cần H10 preconditions
-    → Fidgeting calming = fast + cheap + no PFC → đặc trưng Type B
+    → Fidgeting calming = fast + cheap + no PFC → đặc trưng Direct-State
 
-  Tầng 3 micro-novelty = DOPAMINE SIGNALING, không phải Type A:
+  Tầng 3 micro-novelty = DOPAMINE SIGNALING, không phải Evaluative:
     VTA prediction-delta → dopamine = salience alert (không phải opioid reward)
     Doodling "vui" = prediction-delta loop engaging ≠ evaluative reward
-    Type A cần H10 + PFC evaluation → KHÔNG match fidget profile
+    Evaluative cần H10 + PFC evaluation → KHÔNG match fidget profile
 
-  → Fidgeting = chủ yếu Type B reward pathway
+  → Fidgeting = chủ yếu Direct-State reward pathway
   → Consistent: fast, unconscious, hardware-level, no PFC evaluation
   ───────────────────────────────────────────────────────
 ```
@@ -1102,8 +1102,8 @@ CÁI HYPOTHESIS (framework contribution):
   🟡 OCD 3-tuyến sync: fidgeting = cả 3 tuyến dừng BÌNH THƯỜNG:
      Combined insight OCD v2.1 + Fidgeting Analysis → consistent
      → NHƯNG: combined model chưa trực tiếp test
-  🟡 Type A/B mapping: fidgeting calming = Type B reward (direct state):
-     Consistent với RSA v1.0 profile (fast, hardware, non-opioid)
+  🟡 Evaluative/Direct-State mapping: fidgeting calming = Direct-State reward:
+     Consistent với Reward-Signal-Architecture v1.0 profile (fast, hardware, non-opioid)
      → NHƯNG: specific mapping = framework inference, chưa direct measurement
 
   🔴 GIẢ THUYẾT MỚI (testable predictions):
@@ -1223,9 +1223,9 @@ FDG-10: Change-readiness vs arousal — distinguishable?
     Change-readiness khi bored = fidget trigger cơ bản nhất
 
 → Body-Feedback-Mechanism.md v1.2 + Reward-Signal-Architecture.md v1.0:
-    Fidgeting calming = Type B reward (direct body-state, non-opioid)
+    Fidgeting calming = Direct-State reward (direct body-state, non-opioid)
     Tầng 1 proprioceptive = Sensory-Driven input (Body-Feedback)
-    Type A reward (evaluative, opioid) KHÔNG involved ở fidgeting bình thường
+    Evaluative reward (opioid) KHÔNG involved ở fidgeting bình thường
 
 → Schema operations (Compile-Taxonomy v1.1):
     Fidget schema = compiled motor pattern (rung đùi, bấm bút)
@@ -1257,7 +1257,7 @@ FDG-10: Change-readiness vs arousal — distinguishable?
 → Hijack/Addiction-Analysis.md v3.0:
     BFRB reward loop (relief = negative reinforcement) ≈ hijack mechanism
     Trajectory bước 4→5: habit → BFRB = giống habit → addiction pathway
-    Type B reward hijack: proprioceptive relief compile sâu → BFRB
+    Direct-State reward hijack: proprioceptive relief compile sâu → BFRB
 ```
 
 ---
