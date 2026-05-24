@@ -7,7 +7,7 @@
 > This framework connects research from neuroscience, psychology, and behavioral science
 > into a unified model — helping you understand yourself and others.
 >
-> If validated, this framework could replace vague, unanswerable questions
+> If validated, this framework could reframe vague, unanswerable questions
 > about feelings, psychology, and behavior
 > — at the individual, community, and collective level.
 
