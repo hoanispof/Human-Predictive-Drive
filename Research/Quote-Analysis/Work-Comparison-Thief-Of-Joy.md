@@ -35,7 +35,7 @@ position: |
   Work-Journey-Destination-Cluster.md.
 dependencies:
   Status:
-    - Status.md v2.2 — §7 Position vs Aspiration (2 tham số), §7.2 MXH Aspiration Inflation (vicious cycle), §7.3 "Thành công nhưng trống rỗng" (multi-causal), §8 Being Seen + Belonging, §9 Serotonin Certainty Bias + Ratchet, §9.5 PFC=Lawyer 3 distortion modes, §10 Chunk Dynamics (Shift/Miss/Gap), §12 Status × Other Parameters (gates ALL), §12.3 Status × Threat ("death by thousand cuts"), §13 Conflict at Scale
+    - Status.md v2.2 — §7 Position vs Aspiration (2 tham số), §7.2 MXH Aspiration Inflation (vicious cycle), §7.3 "Thành công nhưng emptiness" (multi-causal), §8 Being Seen + Belonging, §9 Serotonin Certainty Bias + Ratchet, §9.5 PFC=Lawyer 3 distortion modes, §10 Chunk Dynamics (Shift/Miss/Gap), §12 Status × Other Parameters (gates ALL), §12.3 Status × Threat ("death by thousand cuts"), §13 Conflict at Scale
   Gratitude:
     - Gratitude.md v2.1 — §3 Anti-Habituation 3 Mechanisms, §3.1 Hedonic Treadmill (VTA habituate), §3.2 Variation (domain-driven), §3.3 Comparison (PFC-driven — CORE for this file), §3.4 Ritual (compiled), §3.5 3 tầng evolution, §4 Baseline Shift
   Social:

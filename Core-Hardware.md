@@ -1,15 +1,17 @@
 # Core-Hardware — Physical Architecture (Hardware Map)
 
-> **Trạng thái:** v1.0 — 1 trong 3 bản đồ Core v7.8
-> **Ngày:** 2026-05-10
+> **Trạng thái:** v1.1 — 1 trong 2 bản đồ Core v7.8
+> **Ngày:** 2026-05-25 (v1.1 — Core-Interface.md → backup, 3→2 bản đồ, Ask-AI.md = dynamic interface)
+> **v1.0:** 2026-05-10
 > **Bản đồ này:** HARDWARE MAP — CÁI GÌ Ở ĐÂU (physical architecture)
-> **2 bản đồ khác:** Core-Software.md (CHẠY THẾ NÀO) | Core-Interface.md (QUAN SÁT + TƯƠNG TÁC)
+> **Bản đồ khác:** Core-Software.md (CHẠY THẾ NÀO)
+> **Tương tác:** Ask-AI.md (AI generate dynamic interface per user)
 > **Supersedes:** Core-v7.8-Draft.md v0.2 §1.2 + §6.3 (tách thành 3 file)
 > **Nguyên tắc:**
 > - 4 zones A/B/C/D theo PFC accessibility gradient
 > - Mỗi claim verifiable bằng fMRI, lesion studies, tractography
 > - Physical map — KHÔNG mô tả mechanism (→ Core-Software.md)
-> - KHÔNG mô tả observer experience (→ Core-Interface.md)
+> - KHÔNG mô tả observer experience (→ Ask-AI.md: AI generate dynamic interface per user)
 > **Tiền đề đọc:** Không cần — file này self-contained
 > **Đọc sâu hơn:** Neural-Architecture.md v1.0 (chi tiết từng vùng não)
 > **Confidence:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -34,16 +36,16 @@
 
 ### §0.1 Ba bản đồ Core v7.8
 
-Framework mô tả body-brain system từ 3 góc nhìn, mỗi góc = 1 bản đồ:
+Framework mô tả body-brain system từ 2 góc nhìn, mỗi góc = 1 bản đồ:
 
 | # | Bản đồ | Góc nhìn | Đối tượng | File |
 |---|---|---|---|---|
 | 1 | **Hardware Map** | **CÁI GÌ ở ĐÂU** | **Neuroscience researcher** | **File này** |
 | 2 | Software Map | CHẠY THẾ NÀO | Framework researcher | Core-Software.md |
-| 3 | Interface Map | QUAN SÁT + TƯƠNG TÁC | Mọi người | Core-Interface.md |
 
-3 bản đồ mô tả CÙNG hệ thống. Khác góc nhìn. Đọc độc lập được.
-Giống máy tính: sơ đồ mạch / code architecture / user guide.
+2 bản đồ mô tả CÙNG hệ thống. Khác góc nhìn. Đọc độc lập được.
+Giống máy tính: sơ đồ mạch (Hardware) / code architecture (Software).
+Tương tác với framework: Ask-AI.md — AI đọc framework, adapt theo mức hiểu của từng người.
 
 ### §0.2 File này mô tả gì
 
@@ -52,7 +54,7 @@ Cho chuyên gia muốn VERIFY framework bằng fMRI, lesion studies, tractograph
 
 File này KHÔNG mô tả:
 - Mechanism (CÁI GÌ CHẠY thế nào) → Core-Software.md
-- Observer experience (QUAN SÁT + TƯƠNG TÁC) → Core-Interface.md
+- Observer experience (TƯƠNG TÁC) → Ask-AI.md (AI generate dynamic interface per user)
 
 ---
 
@@ -76,7 +78,7 @@ File này KHÔNG mô tả:
   │  │  │  vmPFC ── emotion regulation, amygdala bridge (uncinate)      │   │   │
   │  │  │  mPFC ── self-referential, social cognition, DMN hub          │   │   │
   │  │  │  ACC* ── conflict monitoring (*PFC/limbic overlap)            │   │   │
-  │  │  │  Online from birth (NT4). ⏱ ~200-500ms (SLOWEST)             │   │   │
+  │  │  │  Online from birth (PFC-From-Prenatal). ⏱ ~200-500ms (SLOWEST)             │   │   │
   │  │  └─────────────────────────┬────────────────────────────────────┘   │   │
   │  │     Layer 2/3 connections — PFC reach: STRONG                       │   │
   │  │  ┌─────────────────────────┴────────────────────────────────────┐   │   │
@@ -274,7 +276,7 @@ File này KHÔNG mô tả:
       → 4R: shorter receptor → attention stability higher
       → 🟢 Swanson et al. 2007
 
-    PFC ONLINE FROM BIRTH (🟢 NT4):
+    PFC ONLINE FROM BIRTH (🟢 PFC-From-Prenatal):
       → 5 empirical pillars:
         Huttenlocher 1979: synaptic density at birth
         Doria 2010: functional networks at term
@@ -361,11 +363,11 @@ File này KHÔNG mô tả:
 
 ## §7 — CROSS-REFERENCES
 
-### §7.1 Hai bản đồ khác
+### §7.1 Bản đồ khác + Tương tác
 
 ```
   Core-Software.md   — CHẠY THẾ NÀO: cycle mechanism, chunk dynamics, body-feedback
-  Core-Interface.md   — QUAN SÁT + TƯƠNG TÁC: observer perspective, practical principles
+  Ask-AI.md v3.1     — TƯƠNG TÁC: AI generate dynamic interface per user (protocol + navigation)
 ```
 
 ### §7.2 Mapping Hardware ↔ Software
@@ -397,14 +399,14 @@ File này KHÔNG mô tả:
 
 ## Closing note
 
-**Core-Hardware v1.0** — 1 trong 3 bản đồ Core v7.8.
+**Core-Hardware v1.1** — 1 trong 2 bản đồ Core v7.8.
 
 Bản đồ phần cứng: CÁI GÌ ở ĐÂU, nối với gì, specs cá nhân.
-Ngắn nhất trong 3 file — intentionally brief.
+Ngắn nhất trong 2 file — intentionally brief.
 Chuyên gia có thể verify từng vùng não bằng fMRI, lesion studies, tractography.
 
 Muốn biết CHẠY THẾ NÀO → Core-Software.md.
-Muốn QUAN SÁT + TƯƠNG TÁC → Core-Interface.md.
+Muốn TƯƠNG TÁC với framework → Ask-AI.md (AI generate dynamic interface per user).
 
 > *Core-Hardware — "4 zones A/B/C/D. PFC reach gradient: A→B strong, A→C variable,
 > A→D weak. Timing: D fastest (50ms) → A slowest (200ms+). 17 receptor categories.

@@ -72,7 +72,7 @@ Theme D (Deep-Analysis-Draft/02-Theme-D-Right-Wrong.md) ĐÃ phân tích 4 clear
      → CLEAR-ISH — source identifiable (behavior change)
 
 Theme D verdict: SAME mechanism across all 4 cases
-  → Schema mismatch → ACC error → prediction-delta → Layer 3 feeling
+  → Schema mismatch → ACC error → prediction-delta → Feel-Consciousification feeling
   → Đó là CLEAR territory
 
 ⭐ FILE NÀY DRILL: VAGUE territory
@@ -370,15 +370,15 @@ DIMENSION 4 — PFC CLARITY:
   = How clearly PFC can observe and articulate the signal
   = Maps to Feeling 7-layer model
   
-  L3: body feels, no words → "cảm thấy sao sao ấy" (vague)
-  L4: PFC observes body state → "tôi đang feel something off"
-  L5: locates source area → "it's about this project/person/situation"
-  L6: labels → "cái này không đúng vì X"
-  L7: meta-understanding → "tôi nhận ra mình đã cảm thấy sai từ lâu vì Y"
+  Feel-Consciousification: body feels, no words → "cảm thấy sao sao ấy" (vague)
+  Feel-Observation: PFC observes body state → "tôi đang feel something off"
+  Feel-Location: locates source area → "it's about this project/person/situation"
+  Feel-Labeling: labels → "cái này không đúng vì X"
+  Feel-Explanation: meta-understanding → "tôi nhận ra mình đã cảm thấy sai từ lâu vì Y"
   
-  → Vague detection = L3-L4 territory
-  → Clear detection = L5-L7 territory
-  → TRAINING (Focusing, §5) = moving L3→L7
+  → Vague detection = Feel-Consciousification — Feel-Observation territory
+  → Clear detection = Feel-Location — Feel-Explanation territory
+  → TRAINING (Focusing, §5) = moving Feel-Consciousification → Feel-Explanation
 ```
 
 ### §4.3 — "Compiled hay random?" — User's hypothesis resolved
@@ -480,7 +480,7 @@ STAGE 3 — DOMAIN (where is it coming from):
 STAGE 4 — SOURCE (specific identification):
   → Given domain narrowed: what SPECIFICALLY?
   → "What about the project feels off? Timeline? Quality? People?"
-  → = Move from L3-L4 → L5-L6 on Feeling model
+  → = Move from Feel-Consciousification — Feel-Observation → Feel-Location — Feel-Labeling on Feeling model
   → Tool: Somatic-Articulation Loop, Focusing Steps 3-5
   → = Vague → Clear transition (when possible)
   → Duration: ongoing, improves with domain expertise
@@ -807,7 +807,7 @@ WITHIN CHUNK-ANALYSIS:
 EXTERNAL:
   → Deep-Analysis-Draft/02-Theme-D-Right-Wrong.md (clear cases, 4 user examples)
   → Feeling-Sources.md §10 (Cognitive/Prediction channel)
-  → Feeling/ folder (7-layer model: L3-L4 = vague territory)
+  → Feeling/ folder (7-layer model: Feel-Consciousification — Feel-Observation = vague territory)
   → Somatic-Articulation-Loop.md (vague → explicit transition method)
   → Neural-Processing-Flow.md (ACC hardware)
   → Logic-Feeling.md §4 (5 cases, Einstein)

@@ -21,7 +21,7 @@ dependencies:
   - Chunk.md v2.0 — chunk substrate, compilation, 4-phase lifecycle
   - Modality.md v1.0 — 6 modalities (encoding channels)
   - Body-Feedback-Mechanism.md — Shift/Miss/Gap chunk dynamics
-  - Body-Feedback.md v1.1 — dual-pull, H10
+  - Body-Feedback.md v1.1 — dual-pull, Body-Feedback-Precondition
   - Cortisol-Baseline.md v2.0 — cortisol = amplifier, direction gate
   - Autonomy-Hardware.md — efference copy, emergent from architecture
   - Feeling.md v2.0 — PFC observation interface
@@ -508,7 +508,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       (Boredom.md: boredom = VTA underfed + no direction)
 
   COMPASS SAI → melody build về phía SAI:
-    → "Muốn giàu" → có tiền → body trống rỗng (body-base KHÔNG match)
+    → "Muốn giàu" → có tiền → body emptiness (body-base KHÔNG match)
     → "Con phải làm bác sĩ" → Imagine-Final CỦA BỐ MẸ inject vào con
     → = Anchor-Schema ở MISMATCH (Imagine-Final-Evaluation.md §4)
 
@@ -866,7 +866,7 @@ MECHANISM FILES (chi tiết kỹ thuật):
   → Schema.md v2.0 — schema = observation parameter (named chunk pattern)
   → Modality.md v1.0 — 6 modalities, encoding channels
   → Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap dynamics
-  → Body-Feedback.md v1.1 — dual-pull, H10, body evaluation
+  → Body-Feedback.md v1.1 — dual-pull, Body-Feedback-Precondition, body evaluation
   → Cortisol-Baseline.md v2.0 — cortisol = amplifier, direction gate
   → Feeling.md v2.0 — PFC observation interface
   → PFC-Function.md — PFC core job = smooth melody, 3 levels

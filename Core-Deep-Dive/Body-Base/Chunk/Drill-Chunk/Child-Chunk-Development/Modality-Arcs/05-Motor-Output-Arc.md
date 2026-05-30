@@ -682,7 +682,7 @@ Already committed in [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md). T
 
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) — H8 learning cycle. Motor learning via error → correction → repetition is an instance of the learning cycle, with error signal being "reach missed target" etc.
 - [../Agent/Agent.md](../Agent/Agent.md) — H9 Agent operations on motor chunks enable goal-directed action (Self-Pattern-Modeling uses motor chunks).
-- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) — H10 body-feedback substrate. Motor chunks are downstream of the body-feedback L1-L2 raw signals (proprioception, effort, pain).
+- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) — Body-Feedback-Precondition. Motor chunks are downstream of the body-feedback L1-L2 raw signals (proprioception, effort, pain).
 
 ### §10.4 — Empirical Feel-Example cross-references
 

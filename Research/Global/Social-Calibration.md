@@ -408,14 +408,14 @@
 
     → Social reward + body-base reward (opioid per domain)
     → Connection.md v4.0 §5: 8 valence chain pathways
-    → Body-Feedback.md v2.0: H10 — 5 preconditions cho real reward
+    → Body-Feedback.md v2.0: Body-Feedback-Precondition — 5 preconditions cho real reward
     → Gratitude.md v2.0: 3 anti-habituation mechanisms
 
     🟡 Xã hội cũ: reward THẬT, SOCIAL, BODY-LEVEL:
        → Làm xong → lương (body-base feed trực tiếp)
        → Làm tốt → cộng đồng acknowledge → status tăng → opioid
        → Hoàn thành → lễ hội celebrate → multi-channel body reward
-       → = Reward SAU effort = H10 precondition ③ "after effort"
+       → = Reward SAU effort = Body-Feedback-Precondition Precondition-3 Delta-Gate "after effort"
 
 
   TRADITIONAL (xã hội cũ):
@@ -447,7 +447,7 @@
 
     → Micro-novelty THAY THẾ real reward:
        → TikTok, games, scroll = dopamine WITHOUT effort
-       → Bypass H10 precondition ③ (reward after effort)
+       → Bypass Body-Feedback-Precondition Precondition-3 Delta-Gate (reward after effort)
        → = Reward CÓ nhưng KHÔNG phục vụ body-base thật
        → Addiction-Analysis.md: hijack reward pathway
 
@@ -990,7 +990,7 @@
   │ Push         │ External threat → cortisol → drive   │ Self-Created-Threat §5   │
   │              │                                     │ + Cortisol-Baseline §5   │
   │ Pull         │ Social reward + body-base reward     │ Connection §5            │
-  │              │ + H10 5 preconditions               │ + Body-Feedback §4       │
+  │              │ + Body-Feedback-Precondition         │ + Body-Feedback §4       │
   │ Repair       │ Cortisol reset + body-input replenish│ Cortisol-Baseline §8    │
   │              │                                     │ + Body-Base §5           │
   │ Check        │ Domain feedback qua social agents    │ Body-Feedback §3         │
@@ -1148,7 +1148,7 @@
     Nay: reward KHÔNG CẦN effort, solo, single-channel, surface
 
     🟡 Framework lens:
-       → Micro-novelty (TikTok, scroll, games) bypass H10 precondition ③
+       → Micro-novelty (TikTok, scroll, games) bypass Body-Feedback-Precondition Precondition-3 Delta-Gate
        → Reward pathway HIJACKED (Addiction-Analysis.md)
        → Real reward (connection, mastery, purpose) CÓ NHƯNG bị out-competed
        → Body "no sẵn" micro-novelty → KHÔNG đói real reward
@@ -1317,7 +1317,7 @@
 ⭐ KHÔNG PHẢI MỌI THỨ ĐỀU ZERO — CÁI GÌ VẪN HOẠT ĐỘNG:
 
 
-  ① BODY-FEEDBACK (~90% accurate) — KHÔNG BAO GIỜ MẤT:
+  ① BODY-FEEDBACK (~90% accurate, calibration anchor) — KHÔNG BAO GIỜ MẤT:
 
     → Body-Base.md v3.1 §7: 2-Tier + 2-Pathway calibrate
     → Tầng 1 (Darwinian) = gen wired → KHÔNG thay đổi
@@ -1753,7 +1753,7 @@
      FILE NÀY: birth rate decline = population-level symptom of calibration loss.
 
   → Addiction-Analysis.md — Pull function hijacked
-     Micro-novelty bypass H10 → reward pathway hijacked.
+     Micro-novelty bypass Body-Feedback-Precondition → reward pathway hijacked.
      FILE NÀY: Pull = 1 function, addiction = hijack symptom.
 
 

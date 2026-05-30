@@ -51,9 +51,9 @@ dependencies:
     - Background-Pattern.md v2.0 — 2D model Depth×Density, self-reinforcing loop, Triple Bias, §15 resolution
     - Self-Pattern-Modeling.md v3.1 — 1 mechanism × 3 dimensions, Triple Bias
   body-base-observation:
-    - Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, Hardware Subsidy, 3 Satiation Types
+    - Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, Hardware-Subsidy, 3 Satiation Types
     - Status.md v2.1 — Resource Access Map, body scan, status threat
-    - Connection.md v5.0 — Generative Primitives, M1-M4, 4-Layer Sustainability
+    - Connection.md v5.0 — Generative Primitives, Resonance Decline, 4-Layer Sustainability
     - Meaning.md v2.1 — life-level Anchor-Schema, 5 types, exhausted
     - Reward-Calibration.md v1.1 — Goldilocks per-gap, 6 over-reward mechanisms
   collective-application:
@@ -173,7 +173,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   v1.1 FRAMEWORK GAPS RESOLVED (over v1.0):
     ① Satiation Types chưa tích hợp → per-domain satiation profile (§2.5)
     ② ENGINE/ROAD/VEHICLE chưa có → reframe collective role (§4.5)
-    ③ 5-parameter per-gap chưa cross-ref → aggregate = distribution of P1-P5 (§1.4)
+    ③ 5-parameter per-gap chưa cross-ref → aggregate = distribution of Axis-1-Axis-5 (§1.4)
     ④ Technology fill dimension chưa có → Modern Gap Frontier (§7.4)
     ⑤ Chain-to-body-base chưa rõ → chain length × spectrum (§2.2)
     ⑥ PFC Budget chưa tích hợp → shift cost constraint (§6.5)
@@ -309,53 +309,53 @@ SCOPE OUT:
 ### §1.4 — 5-Parameter per-gap × Aggregate distribution
 
 ```
-⭐ GAP-BODY-NEED.MD §6: MỖI GAP CÓ 5 PARAMETERS — Gap-Distribution-Profile = DISTRIBUTION CỦA 5P:
+⭐ GAP-BODY-NEED.MD §6: MỖI GAP CÓ 5 PARAMETERS — Gap-Distribution-Profile = DISTRIBUTION CỦA 5 AXES:
 
   Gap-Body-Need.md v1.0 established 5-Parameter per-gap model:
-    P1 — HARDWARE SOURCE: sensor/hormone/coherence nào?
-    P2 — SATIATION PROFILE: Cyclic / Tonic / Generative?
-    P3 — REWARD COMPOSITION: Evaluative : Direct-State ratio?
-    P4 — CHAIN TO BODY-BASE: fill trực tiếp (chain=0) hay qua nhiều bước?
-    P5 — COLLECTIVE DEPENDENCY: infrastructure cần bao nhiêu?
+    Axis-1 — HARDWARE SOURCE: sensor/hormone/coherence nào?
+    Axis-2 — SATIATION PROFILE: Cyclic / Tonic / Generative?
+    Axis-3 — REWARD COMPOSITION: Evaluative : Direct-State ratio?
+    Axis-4 — CHAIN TO BODY-BASE: fill trực tiếp (chain=0) hay qua nhiều bước?
+    Axis-5 — COLLECTIVE DEPENDENCY: infrastructure cần bao nhiêu?
 
-  Gap-Distribution-Profile = AGGREGATE VIEW TRÊN 5 PARAMETERS:
+  Gap-Distribution-Profile = AGGREGATE VIEW TRÊN 5 AXES:
 
     ┌──────────────┬────────────────────────────────────────────────┐
-    │ Parameter    │ Gap-Distribution-Profile aggregate view                             │
+    │ Axis         │ Gap-Distribution-Profile aggregate view                             │
     ├──────────────┼────────────────────────────────────────────────┤
-    │ P1 Hardware  │ Gaps CỦA người này cluster ở sensory nào?     │
-    │              │ → §2.4 Body-domain tail shape = P1 variation   │
+    │ Axis-1 Hardware │ Gaps CỦA người này cluster ở sensory nào?     │
+    │              │ → §2.4 Body-domain tail shape = Axis-1 variation  │
     ├──────────────┼────────────────────────────────────────────────┤
-    │ P2 Satiation │ Proportion Cyclic:Tonic:Generative?            │
+    │ Axis-2 Satiation│ Proportion Cyclic:Tonic:Generative?            │
     │              │ → §2.5 Satiation profile per-domain position   │
     ├──────────────┼────────────────────────────────────────────────┤
-    │ P3 Reward    │ Proportion Evaluative : Direct-State        │
+    │ Axis-3 Reward   │ Proportion Evaluative : Direct-State        │
     │ Composition  │ (direct-state)? High A = expert. High B = base │
     ├──────────────┼────────────────────────────────────────────────┤
-    │ P4 Chain     │ Average chain length? Short (body-domain) or   │
+    │ Axis-4 Chain    │ Average chain length? Short (body-domain) or   │
     │              │ long (abstract via career → money → fill)?      │
-    │              │ ⚠️ DECOUPLE: Einstein P4=0 + P5=max (§2.2)    │
+    │              │ ⚠️ DECOUPLE: Einstein Axis-4=0 + Axis-5=max (§2.2)  │
     ├──────────────┼────────────────────────────────────────────────┤
-    │ P5 Collective│ How much infrastructure needed? High P5 =      │
+    │ Axis-5 Collective│ How much infrastructure needed? High Axis-5 =    │
     │ Dependency   │ abstract/collective (centuries knowledge)       │
-    │              │ → §4 Tầng 4 defines P5 ceiling per era         │
+    │              │ → §4 Tầng 4 defines Axis-5 ceiling per era        │
     └──────────────┴────────────────────────────────────────────────┘
 
-  ⭐ KEY INSIGHT — P4 VÀ P5 DECOUPLE:
+  ⭐ KEY INSIGHT — Axis-4 VÀ Axis-5 DECOUPLE:
 
-    Sensory gap: P4=0 (direct fill) + P5=low (genes pre-install)
-    Abstract gap: P4 CÓ THỂ = 0 (Pathway 1 coherence → opioid TRỰC TIẾP)
-                  + P5=HIGH (centuries domain knowledge needed)
-    = "Einstein pleasant KHI giải, TRƯỚC KHI ai biết" = P4=0 + P5=max
-    = 2 parameters ĐỘC LẬP: P4=chain from fill→reward, P5=infrastructure for gap to exist
+    Sensory gap: Axis-4=0 (direct fill) + Axis-5=low (genes pre-install)
+    Abstract gap: Axis-4 CÓ THỂ = 0 (Pathway 1 coherence → opioid TRỰC TIẾP)
+                  + Axis-5=HIGH (centuries domain knowledge needed)
+    = "Einstein pleasant KHI giải, TRƯỚC KHI ai biết" = Axis-4=0 + Axis-5=max
+    = 2 parameters ĐỘC LẬP: Axis-4=chain from fill→reward, Axis-5=infrastructure for gap to exist
 
   → Gap-Distribution-Profile KHÔNG CHỈ "gaps cluster ở đâu" (Trục ①)
-  → Mà "gaps CÓ PROFILE GÌ" (P1-P5 per-gap → aggregate per-person)
+  → Mà "gaps CÓ PROFILE GÌ" (Axis-1-Axis-5 per-gap → aggregate per-person)
   → File này focus Trục ①-④. Per-gap parameters xem Gap-Body-Need.md.
 
 🟡 5-parameter as per-gap model = Gap-Body-Need v1.0 §6
-🟡 Aggregate view on 5P = framework synthesis (this file)
-🟢 P4/P5 decouple: established (Pathway 1 direct reward independent of infrastructure)
+🟡 Aggregate view on 5 axes = framework synthesis (this file)
+🟢 Axis-4/Axis-5 decouple: established (Pathway 1 direct reward independent of infrastructure)
 ```
 
 ---
@@ -434,7 +434,7 @@ SCOPE OUT:
   ⭐ CHAIN LENGTH × SPECTRUM (Gap-Body-Need §8):
 
     ┌────────────────┬──────────┬──────────────────────────────────────┐
-    │ Domain         │ P4 Chain │ Mechanism                            │
+    │ Domain         │ Axis-4 Chain│ Mechanism                            │
     ├────────────────┼──────────┼──────────────────────────────────────┤
     │ Sensory        │ 0        │ Fill TRỰC TIẾP (ăn → no, uống → hết │
     │                │          │ khát). Pathway 1 + 2 đồng thời.      │
@@ -446,19 +446,19 @@ SCOPE OUT:
     │                │          │ connection gap filled.                │
     ├────────────────┼──────────┼──────────────────────────────────────┤
     │ Abstract       │ 0 (!)    │ Pathway 1: coherence → opioid TRỰC   │
-    │                │          │ TIẾP. P4=0 nhưng P5=HIGH.            │
+    │                │          │ TIẾP. Axis-4=0 nhưng Axis-5=HIGH.          │
     │                │          │ Pathway 2 (career → money): chain dài │
     ├────────────────┼──────────┼──────────────────────────────────────┤
     │ Collective     │ 0 + dài  │ Pathway 1: trực tiếp (coherence).    │
     │                │          │ Pathway 2: rất dài (impact → society) │
     └────────────────┴──────────┴──────────────────────────────────────┘
 
-    ⚠️ ABSTRACT P4=0 = COUNTERINTUITIVE:
+    ⚠️ ABSTRACT Axis-4=0 = COUNTERINTUITIVE:
       → "Xa body-base" KHÔNG có nghĩa "chain dài"
-      → Einstein pleasant KHI GIẢI (P4=0, Pathway 1 direct)
-      → Einstein cần centuries physics (P5=max, infrastructure)
-      → P4 (how fast reward arrives) ≠ P5 (how much infrastructure needed)
-      → = "Starving artist" = P4=0 (reward trực tiếp) + P5=high (need training)
+      → Einstein pleasant KHI GIẢI (Axis-4=0, Pathway 1 direct)
+      → Einstein cần centuries physics (Axis-5=max, infrastructure)
+      → Axis-4 (how fast reward arrives) ≠ Axis-5 (how much infrastructure needed)
+      → = "Starving artist" = Axis-4=0 (reward trực tiếp) + Axis-5=high (need training)
 
     ⭐ CHAIN COMPILATION (Gap-Body-Need §8):
       → Baby: chain=0 for everything (mẹ fill directly)
@@ -1142,13 +1142,13 @@ SCOPE OUT:
   └───────────────────────────────────────────────────────────────────┘
 
   ┌───────────────────────────────────────────────────────────────────┐
-  │ ARCHETYPE 5: "Người nghỉ hưu trống rỗng"                        │
+  │ ARCHETYPE 5: "Người nghỉ hưu emptiness"                          │
   │ ① Domain Center: WAS abstract/social → NOW collapsed             │
   │ ② Origin: Mixed (career installed + some self-discovered)        │
   │ ③ Depth: WAS few-deep → NOW gaps dissolved (no domain)           │
   │ ④ Stability: FORCED shift (retirement = anchor exhausted)        │
   │                                                                   │
-  │ Observable: "không biết làm gì", "trống rỗng", tìm việc miễn phí│
+  │ Observable: "không biết làm gì", "emptiness", tìm việc miễn phí  │
   │ Meaning §2.2: anchor EXHAUSTED → meaning question arises         │
   │ Domain-Mapping-Drive §4: "given ≠ satisfied" vì bypass process   │
   └───────────────────────────────────────────────────────────────────┘
@@ -1899,13 +1899,15 @@ SCOPE OUT:
 ⭐ TECHNOLOGY FILL GAPS KHÔNG ĐỀU ACROSS SPECTRUM (Gap-Body-Need §10):
 
   Technology fills PRIMARILY Direct-State territory (direct-state hardware):
+  ⚠️ Fill level % = calibration anchor, không đo lường chính xác.
 
     ┌────────────────┬──────────────┬──────────────────────────────────┐
     │ Domain         │ Technology   │ Mechanism                        │
     │                │ Fill Level   │                                  │
     ├────────────────┼──────────────┼──────────────────────────────────┤
-    │ Sensory        │ >> baseline  │ Quần áo, AC, food, foam pillow   │
-    │ (Tier 1)       │ ("thừa")    │ = VƯỢT mức cần thiết sinh tồn.   │
+    │ Sensory        │ >> baseline  │ Quần áo, air conditioning, food, │
+    │ (Tier 1)       │ ("thừa")    │ foam pillow = VƯỢT mức cần thiết │
+    │                │             │ sinh tồn.                        │
     ├────────────────┼──────────────┼──────────────────────────────────┤
     │ Near-body      │ ~80-100%     │ Vehicles, housing, appliances.   │
     │ (Tier 2-3)     │             │ NHƯNG: social comparison shifts   │
@@ -1956,7 +1958,7 @@ SCOPE OUT:
       → Nếu abstract chunks ĐỦ: abstract gaps form → shift SUCCESS
       → Nếu abstract chunks THIẾU: "chưa biết = không có gap" →
         body-need fire nhưng NO CLEAR DIRECTION →
-        "trống rỗng", "chán", "không biết muốn gì" = FRONTIER MISMATCH
+        "emptiness", "chán", "không biết muốn gì" = FRONTIER MISMATCH
     → = Expansion-Saturation-Crisis §5: technology fill lower → expose higher → crisis if unprepared
     → = AI era: accelerate frontier shift → more people hit frontier mismatch
 
@@ -2136,7 +2138,7 @@ SCOPE OUT:
     → = "Về nhà vui vẻ 2 tiếng → nằm giường → nghĩ business"
 
   NGHỈ HƯU?
-    → Meaning §2.2: anchor EXHAUSTED → "trống rỗng"
+    → Meaning §2.2: anchor EXHAUSTED → "emptiness"
     → Gap distribution ĐÃ SHIFT quá sâu → body-domain fills NOT ENOUGH
     → = Body miss abstract/collective gaps → dissonance → "tìm việc miễn phí"
 ```
@@ -2244,7 +2246,7 @@ SCOPE OUT:
     → Positive feedback loop with threshold for gap formation
     → 5 mechanisms lock (integration of multiple established mechanisms)
     → Resonance Baseline extension (gap distribution overlap component)
-    → 5-parameter per-gap → aggregate distribution mapping (P1-P5 × Gap-Distribution-Profile)
+    → 5-parameter per-gap → aggregate distribution mapping (Axis-1-Axis-5 × Gap-Distribution-Profile)
     → Satiation Type × domain position (Cyclic/Tonic/Generative per-domain)
     → Compiled Quality × Origin Balance (genuine/schema/threat tags)
     → Pattern Shiftability × Stability (Density > Depth for changeability)
@@ -2347,12 +2349,12 @@ SCOPE OUT:
   → Background-Pattern.md v2.0 — Background-Pattern self-reinforcing, Triple Bias, identity lock (§6.3)
   → By-Product-Gap-Resonance.md v1.4 — Resonance Baseline, 2-Stream, by-product match (§8)
   → Self-Pattern-Modeling.md v3.1 — 1 mechanism × 3 dimensions (§6.5 Self-Pattern-Modeling drafting)
-  → Valence-Propagation.md v3.0 — 3 Satiation Types, Hardware Subsidy (§2.5)
+  → Valence-Propagation.md v3.0 — 3 Satiation Types, Hardware-Subsidy (§2.5)
   → Self-Created-Threat.md v1.0 — 5 mechanisms lock, CEO case (§9.2)
 
 ⭐ OBSERVATION (file này CONNECT):
   → Status.md v2.1 — Resource Access Map, status gaps (§4.2 TẦNG 3)
-  → Connection.md v5.0 — Generative Primitives, M1-M4, social gaps
+  → Connection.md v5.0 — Generative Primitives, Resonance Decline, social gaps
   → Meaning.md v2.1 — life-level anchor, exhausted (§9.2 CEO)
   → Reward-Calibration.md v1.1 — Goldilocks per-gap
 

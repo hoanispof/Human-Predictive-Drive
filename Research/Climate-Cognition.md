@@ -137,7 +137,7 @@ Scale matters (Innovation-Geography.md v1.0 §8):
 
   COGNITIVE PERFORMANCE:
     Seppänen 2006: peak ở ~22°C. Ở 30°C: performance giảm 8.9%
-    Cedeño Laurent 2018 (PLOS Medicine): heat wave, không AC:
+    Cedeño Laurent 2018 (PLOS Medicine): heat wave, không có air conditioning:
       Working memory giảm 4.1-13.4%
     Park 2020 (10 TRIỆU học sinh PSAT):
       Mỗi +1°F nóng hơn cả năm học → 1% learning loss
@@ -415,7 +415,7 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
 
   ③ Learning loss at scale:
      Park 2020 (10 triệu học sinh): mỗi +1°F → 1% learning loss cả năm
-     AC trong trường "all but completely eliminated" impact
+     Air conditioning trong trường "all but completely eliminated" impact
      → Data MẠNH: sample 10 triệu, controlled for other variables
 
   ④ Seasonal cognitive variation:
@@ -436,7 +436,7 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
 ```
 🟡 Suy luận từ framework + thermoregulation research:
 
-  AC tạo 22-24°C trong phòng. Nhưng mùa hè + AC ≠ mùa đông tự nhiên.
+  Air conditioning tạo 22-24°C trong phòng. Nhưng mùa hè + air conditioning ≠ mùa đông tự nhiên.
   Tại sao?
 
   MÙA ĐÔNG ôn đới / mát (nhiệt độ ỔN ĐỊNH suốt ngày):
@@ -447,21 +447,21 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
     → Body-base ỔN ĐỊNH → PFC có NỀN VỮNG để chạy
     → Cortisol-Baseline v2.0: Role ② Amplifier → amplifier QUIET = bandwidth FREE
 
-  MÙA HÈ vùng nóng + AC (nhiệt độ DAO ĐỘNG liên tục):
-    Trong nhà (AC): 22-24°C
+  MÙA HÈ vùng nóng + air conditioning (nhiệt độ DAO ĐỘNG liên tục):
+    Trong nhà (air conditioning): 22-24°C
     Ngoài nhà: 33-38°C
     Chênh lệch: 10-15°C
     → Mỗi lần ra ngoài: THERMAL SHOCK → cortisol SPIKE
-    → Vào lại phòng AC: body phải READJUST → cortisol chưa settle
+    → Vào lại phòng có air conditioning: body phải READJUST → cortisol chưa settle
     → Chưa settle xong → lại ra → spike lại
     → Cortisol-Baseline v2.0: Role ④ INERTIA — cortisol stays HIGH sau spike
     → = Cortisol DAO ĐỘNG LIÊN TỤC suốt ngày — dù TRONG phòng ổn
 
-  + Vấn đề AC phòng kín:
+  + Vấn đề air conditioning phòng kín:
     Không khí tái tuần hoàn → CO₂ tăng dần
     🟢 Satish et al. 2012: CO₂ >1000ppm → decision-making performance GIẢM
     Cảm giác "bí" → discomfort nhẹ → body signal liên tục
-    → AC giải quyết NHIỆT nhưng TẠO vấn đề KHÔNG KHÍ
+    → Air conditioning giải quyết NHIỆT nhưng TẠO vấn đề KHÔNG KHÍ
 
   → Nhiệt độ TỐI ƯU = ổn định suốt ngày, KHÔNG chỉ trong 1 phòng
   → Temperature STABILITY > temperature VALUE
@@ -483,7 +483,7 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
     → 1 biến để calibrate → DỄ nhắm sweet spot
     → = Bắn súng trên mặt phẳng
 
-  Mùa hè + AC (unstable body):
+  Mùa hè + air conditioning (unstable body):
     Nguồn 1: Thermal cortisol — KHÔNG kiểm soát được
       (mỗi lần ra ngoài/vào trong = spike random)
       Body-Feedback-Mechanism v1.2: Sensory-Driven input, continuous
@@ -515,7 +515,7 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
     → Cùng tài xế, cùng xe, cùng effort — output khác vì ĐƯỜNG khác
 ```
 
-### 5.5 AC: Đủ cho Execute, không đủ cho Imagine kéo dài
+### 5.5 Air conditioning: Đủ cho Execute, không đủ cho Imagine kéo dài
 
 ```
 🟡 Phân biệt quan trọng — qua Evaluative/Direct-State lens (Reward-Signal-Architecture v1.0):
@@ -527,7 +527,7 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
      Cortisol stable: KHÔNG cần hoàn hảo — "đủ tốt" là OK
      Thời gian liên tục: không — block ngắn, nghỉ giữa được
      Chịu interrupt: CÓ — mất flow nhưng pick up lại nhanh
-     → AC: ĐỦ ✅
+     → Air conditioning: ĐỦ ✅
      → Ví dụ: code feature đã design, fix bug, meeting, routine work
 
   ② IMAGINE (PFC Draft+Test sâu — novelty):
@@ -535,24 +535,24 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
      Cortisol stable: CẦN ổn định — dao động nhỏ = mất flow
      Thời gian liên tục: CẦN block DÀI không interrupt
      Chịu interrupt: KHÔNG — mất flow = phải rebuild từ đầu
-     → AC: KHÔNG ĐỦ ❌
+     → Air conditioning: KHÔNG ĐỦ ❌
      → Vì: stability bị phá mỗi lần ra ngoài/vào trong (§5.3)
-     → Hoặc: ở trong phòng AC cả ngày → bí + thiếu vận động
+     → Hoặc: ở trong phòng có air conditioning cả ngày → bí + thiếu vận động
               → body stress KHÁC thay thế heat stress
 
   Evaluative/Direct-State mapping:
     Execute mode chủ yếu dùng DIRECT-STATE reward (direct state, compiled, hardware):
       → Ít bị thermal interference (Direct-State = resilient, §2.2 simple tasks OK)
-    Imagine mode chủ yếu dùng EVALUATIVE reward pathway (evaluative, opioid, H10):
+    Imagine mode chủ yếu dùng EVALUATIVE reward pathway (evaluative, opioid, Body-Feedback-Precondition):
       → CẦN PFC bandwidth đầy đủ → bị thermal interference MẠNH
-      → H10 P4 Goldilocks: cortisol dao động → Goldilocks MISS → reward KHÔNG fire
+      → Body-Feedback-Precondition Precondition-4 Match-Range Goldilocks: cortisol dao động → Goldilocks MISS → reward KHÔNG fire
 
   Kết luận:
-    Không có AC ở vùng nóng → execute KHÓ, imagine CỰC KHÓ
-    Có AC ở vùng nóng       → execute OK, imagine VẪN KHÓ
+    Không có air conditioning ở vùng nóng → execute KHÓ, imagine CỰC KHÓ
+    Có air conditioning ở vùng nóng       → execute OK, imagine VẪN KHÓ
     Khí hậu lạnh tự nhiên   → execute OK, imagine THUẬN LỢI
 
-    → AC giải quyết TẦNG 1 (nhiệt độ) nhưng KHÔNG giải quyết
+    → Air conditioning giải quyết TẦNG 1 (nhiệt độ) nhưng KHÔNG giải quyết
       TẦNG 2 (stability suốt ngày) và TẦNG 3 (không khí, vận động)
     → Handicap nhỏ nhưng TÍCH LŨY qua tháng, qua năm
 ```
@@ -606,7 +606,7 @@ Framework đề xuất 3 cơ chế khí hậu ảnh hưởng cognition:
   EVALUATIVE REWARD (evaluative — PFC-dependent):
     Circuit: hedonic hotspot (NAcc shell, VP, mOFC)
     Signal: μ-opioid
-    Cần: H10 5 preconditions + compiled chunks + PFC evaluation
+    Cần: Body-Feedback-Precondition 5 preconditions + compiled chunks + PFC evaluation
     Ví dụ: insight, reading, planning, creative work, deep conversation
 
   DIRECT-STATE REWARD (direct state — hardware-based):
@@ -802,9 +802,9 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
   ④ Singapore hiện đại:
      Nóng, nhỏ, KHÔNG tài nguyên
      → Innovation hub hàng đầu
-     → Vì: AC everywhere + institution tốt + pressure competition
+     → Vì: air conditioning everywhere + institution tốt + pressure competition
      → = TÁI TẠO điều kiện body-state vùng lạnh bằng công nghệ
-     → NHƯNG: §5.5 — AC đủ cho Execute, Imagine vẫn khó hơn?
+     → NHƯNG: §5.5 — air conditioning đủ cho Execute, Imagine vẫn khó hơn?
        (Singapore innovation chủ yếu EXECUTE-heavy: logistics, finance, engineering)
 
   ⑤ Bắc Âu hiện đại vs quá khứ:
@@ -822,33 +822,33 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
 
 ## 9. Ứng Dụng {#9-applications}
 
-### 9.1 AC = game changer nhưng không complete solution
+### 9.1 Air conditioning = game changer nhưng không complete solution
 
 ```
 🟡 Suy luận + 🟢 data:
 
   NẾU climate ảnh hưởng PFC performance (§5):
-    → AC = NEUTRALIZE climate disadvantage cho EXECUTE work
+    → Air conditioning = NEUTRALIZE climate disadvantage cho EXECUTE work
 
   🟢 Observable evidence:
-    Singapore, Dubai, Qatar = nóng + AC everywhere → innovation tăng
-    US South: trước AC = agricultural; sau AC (1950s+) = tech boom
-    India: Bangalore (mát) = IT hub đầu tiên; Chennai (nóng + AC) = IT hub sau
-    Park 2020: AC "all but completely eliminated" heat impact on LEARNING
+    Singapore, Dubai, Qatar = nóng + air conditioning everywhere → innovation tăng
+    US South: trước air conditioning = agricultural; sau air conditioning (1950s+) = tech boom
+    India: Bangalore (mát) = IT hub đầu tiên; Chennai (nóng + air conditioning) = IT hub sau
+    Park 2020: air conditioning "all but completely eliminated" heat impact on LEARNING
 
-  AC giải quyết:
+  Air conditioning giải quyết:
     ✅ TẦNG 1: nhiệt độ trong phòng → execute work OK
     ❌ TẦNG 2: stability suốt ngày → ra/vào vẫn shock
     ❌ TẦNG 3: không khí, vận động → bí + ít di chuyển
-    → Execute: AC ĐỦ. Imagine kéo dài: AC KHÔNG ĐỦ.
+    → Execute: air conditioning ĐỦ. Imagine kéo dài: air conditioning KHÔNG ĐỦ.
 
-  → Prediction: AC + internet PHỔ CẬP ở châu Phi, SEA
+  → Prediction: air conditioning + internet PHỔ CẬP ở châu Phi, SEA
     → Climate advantage GIẢM cho execute work
     → Climate advantage VẪN CÒN cho deep creative work
     → Innovation PHÂN BỐ ĐỀU hơn, nhưng deep creativity vẫn cluster ở vùng mát
 
-  ⚠️ AC = tốn năng lượng → carbon → nóng thêm → vòng xoắn
-     → Cần energy solution, không phải chỉ AC
+  ⚠️ Air conditioning = tốn năng lượng → carbon → nóng thêm → vòng xoắn
+     → Cần energy solution, không phải chỉ air conditioning
 ```
 
 ### 9.2 Workspace design
@@ -943,9 +943,9 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
    Pattern có ĐẢO NGƯỢC không? (Vùng nóng > vùng lạnh?)
    → Prediction: CÓ — vì Direct-State = body-based → warm environment thuận lợi
 
-❓ AC + dehumidifier + air purifier = GIẢI QUYẾT đủ 3 tầng?
-   Tầng 1: nhiệt (AC ✅), Tầng 2: stability (?), Tầng 3: air quality (purifier ✅?)
-   → Singapore data: AC everywhere + humidity control → innovation CAO
+❓ Air conditioning + dehumidifier + air purifier = GIẢI QUYẾT đủ 3 tầng?
+   Tầng 1: nhiệt (air conditioning ✅), Tầng 2: stability (?), Tầng 3: air quality (purifier ✅?)
+   → Singapore data: air conditioning everywhere + humidity control → innovation CAO
    → NHƯNG: thermal oscillation ra/vào vẫn tồn tại ở nhiệt đới
 
 ❓ Brief cold exposure (§2.5) trước khi làm việc = NE BOOST:
@@ -973,7 +973,7 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
   §5.1-5.2 Body State: 🟢 STRONG — research confirms PFC heat vulnerability
   §5.3 Stability: 🟡 PLAUSIBLE — thermal oscillation logic solid, chưa controlled study
   §5.4 Double Calibration: 🟢 CONFIRMED by Gaoua 2012 (displeasure = cognitive load)
-  §5.5 AC Execute/Imagine: 🟡 STRONG INFERENCE — từ task differential data + framework
+  §5.5 Air conditioning Execute/Imagine: 🟡 STRONG INFERENCE — từ task differential data + framework
   §5.6 Hardware sensitivity: 🟡 PLAUSIBLE — COMT variation known, specific mapping = inference
   §6 Reward Balance: 🟡 MODERATE — Evaluative/Direct-State mapping logical, cultural data correlational
   §6.3 Measurement bias: 🟢 IMPORTANT — valid epistemological point
@@ -992,7 +992,7 @@ Nếu "lạnh = sáng tạo" ĐÚNG đơn giản, phải giải thích:
     ② PFC = most vulnerable zone: CONFIRMED (fMRI + blood redirection)
     ③ Task differential (simple OK, complex FAIL): CONFIRMED (Hancock 2003)
     ④ Displeasure = cognitive load: CONFIRMED (Gaoua 2012)
-    ⑤ AC impact on learning: CONFIRMED (Park 2020, 10M students)
+    ⑤ Air conditioning impact on learning: CONFIRMED (Park 2020, 10M students)
     ⑥ Brief cold = NE boost: CONFIRMED (Sramek 2000)
 
   ĐIỂM YẾU / CHƯA VERIFY:
@@ -1020,7 +1020,7 @@ FRAMEWORK CONNECTIONS (updated 2026-05-11):
   Core-Hardware.md v1.0: Zone A (PFC) = slowest, highest cost, most vulnerable
   Cortisol-Baseline.md v2.0 (Body-Base/):
     → Role ② AMPLIFIER — thermal cortisol = noise amplifier
-    → Role ④ INERTIA — thermal spike persists after return to AC
+    → Role ④ INERTIA — thermal spike persists after return to air conditioning
     → "Amplifier NOT stress" reframe applies: heat cortisol ≠ "stress"
       = change-readiness signal mà body KHÔNG cần → wasted bandwidth
   Body-Feedback-Mechanism.md v1.2 (Body-Base/Body-Feedback/):

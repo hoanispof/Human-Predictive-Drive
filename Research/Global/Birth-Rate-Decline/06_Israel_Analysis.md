@@ -138,8 +138,8 @@
       → = National value ("mỗi đứa trẻ = 1 soldier tương lai")
       → = Survival value ("thay thế 6 triệu")
       → = Social value (ít con → "thương hại hoặc nghi ích kỷ")
-      → = CON vẫn là ASSET ở L2 (connection) + L3 (status/meaning)
-      → = Cost L1 EXIST → nhưng bị OVERRIDE bởi L2 + L3 value
+      → = CON vẫn là ASSET ở connection + status/meaning (evaluative)
+      → = Cost L1 EXIST → nhưng bị OVERRIDE bởi connection + evaluative value
 
   ② IMAGINE-FINAL CẠNH TRANH?
     → Hàn: career/travel/freedom THẮNG "gia đình"
@@ -172,7 +172,7 @@
       → Gia đình sống GẦN nhau (địa lý nhỏ: cả nước như 1 tỉnh)
       → Ông bà ACTIVE chăm cháu
       → Shabbat + holidays = multi-generational gathering MỖI TUẦN
-      → = Connection L2-L3 DUY TRÌ → nuôi con = SHARED task
+      → = Connection (evaluative) DUY TRÌ → nuôi con = SHARED task
 
 
   ⭐ BẢNG TỔNG HỢP — MỖI TRỤC NGƯỢC NHAU HOÀN TOÀN:
@@ -180,7 +180,7 @@
   ┌──────────────────────┬──────────────────────┬──────────────────────┐
   │ Trục                 │ 🇰🇷 Hàn (0.72)       │ 🇮🇱 Israel (2.9)     │
   ├──────────────────────┼──────────────────────┼──────────────────────┤
-  │ ① Cost vs Value      │ Cost THUẦN TÚY       │ Cost + VALUE L2/L3   │
+  │ ① Cost vs Value      │ Cost THUẦN TÚY       │ Cost + VALUE eval.   │
   │ ② Competing Imag-Final│ Career THẮNG gia đình│ Career + gia đình    │
   │ ③ Repair cycle       │ PHÁ (overwork)       │ CẤU TRÚC (Shabbat)  │
   │ ④ Schemas            │ "con = khổ" (3 gen)  │ "con = tốt" (millennia)│
@@ -217,7 +217,7 @@
     → "Sợ bị diệt vong ám ảnh chúng tôi" (Orna Donath, nhà xã hội học)
     → 77% Jewish Israelis: mối đe dọa Iran = EXISTENTIAL
     → = Imagine-Final "sinh con" = "đảm bảo dân tộc KHÔNG BIẾN MẤT"
-    → = L0 threat CHUYỂN HÓA thành L3 shared Imagine-Final
+    → = L0 threat CHUYỂN HÓA thành shared Imagine-Final (evaluative)
     → = Đặc biệt: threat → KHÔNG suppress sinh (như thông thường)
     →                     MÀ DRIVE sinh (vì sinh = survival response)
 
@@ -274,12 +274,12 @@
       → 70%+ Jewish Israelis: Shabbat dinner với gia đình MỖI TUẦN
       → Kể cả secular: dinner thứ 6 tối = "mặc định"
       → Thanh niên chưa lập gia đình: VỀ NHÀ BỐ MẸ cho Shabbat
-      → = Connection L2-L3 được REINFORCE 52 lần/năm (mỗi tuần)
+      → = Connection (evaluative) được REINFORCE 52 lần/năm (mỗi tuần)
 
     🟡 Framework:
       → Shabbat = ritual DUY TRÌ connection per layer:
         L2 (belonging): "tôi thuộc về gia đình này"
-        L3 (meaning): "tôi là phần của dòng dõi 3000 năm"
+        meaning (evaluative): "tôi là phần của dòng dõi 3000 năm"
       → Connection × Imagine-Final (ref: Connection.md v3.1 §12):
         → Connection MỖI TUẦN → Imagine-Final "gia đình" được FEED liên tục
         → ≠ Hàn: connection suy giảm → Imagine-Final "gia đình" KHÔNG feed
@@ -327,7 +327,7 @@
       → Military = shared experience → CONNECTION cực mạnh:
         → L1: cùng chịu hardship
         → L2: bonds chiến hữu (deepest connection)
-        → L3: cùng Imagine-Final "bảo vệ đất nước"
+        → evaluative: cùng Imagine-Final "bảo vệ đất nước"
       → = NAM + NỮ ĐỀU có shared experience → KHÔNG gender conflict kiểu Hàn
       → = Nữ Hàn: "quân đội = bất bình đẳng" → Israel: "tôi CŨNG phục vụ"
       → = Gender solidarity thay vì gender conflict

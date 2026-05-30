@@ -45,7 +45,7 @@ warning: Theme này cần xác minh nghiên cứu bên ngoài — framework cove
 ### §1.1 — Framework partial coverage
 - [Logic-Feeling.md §6 Modality Bias](../../../Logic-Feeling.md) — Verbal/visual dominant → logic-biased
 - [Feel-Development.md §5 Math Formula Analogy](../Feel-Development.md) — chunks tích lũy + phân nhánh
-- [Feeling.md §2 Layer 6 Labeling](../Feeling.md) — nén ngôn ngữ, granularity của Barrett
+- [Feeling.md §2 Feel-Labeling](../Feeling.md) — nén ngôn ngữ, granularity của Barrett
 - [Feeling-Accuracy.md §3.6 Cultural Script Override](../Feeling-Accuracy.md) — ràng buộc ngôn ngữ
 - [Feel-Example-Draft.md §3 Toddler verbal emergence](../Feel-Example-Draft.md) — phát triển E21–E32
 
@@ -493,7 +493,7 @@ User liệt kê: ngón tay, chuỗi hình ảnh (cá, gà, lợn, chuột, hổ 
 **→ Framework NGẦM ĐỊNH HỖ TRỢ giả thuyết anchor của user**: math analogy cho thấy chains xây dựng phân cấp như thế nào, với các loại anchor khác nhau ở các stages khác nhau.
 
 **Logic-Feeling §6 Modality Bias** thêm vào:
-- **Người verbal dominant**: giỏi hơn ở nhiệm vụ logic-chain, over-rely on Layer 6–7
+- **Người verbal dominant**: giỏi hơn ở nhiệm vụ logic-chain, over-rely on Feel-Labeling/Feel-Explanation
 - **Người somatic dominant**: giỏi hơn ở body feelings, nhận dạng pattern tiền verbal, thường miss nhiệm vụ verbal chain
 - **Cả hai đều cần**: không modality nào hoàn chỉnh
 
@@ -604,16 +604,16 @@ Theme B tiết lộ **khoảng cách framework**:
 ### §4.1 — Theme A (Kiến trúc)
 
 Theme B phù hợp với kiến trúc của Theme A:
-- **Nhãn verbal = Layer 6 trong mô hình 7 lớp** (ánh xạ tường minh của framework)
+- **Nhãn verbal = Feel-Labeling trong mô hình 7 lớp** (ánh xạ tường minh của framework)
 - **Verbal chain = quan sát PFC + chunking qua rehearsal verbal**
-- **Tín hiệu cơ thể tiền verbal = Layer 3–4** (felt sense)
+- **Tín hiệu cơ thể tiền verbal = Feel-Consciousification/Feel-Observation** (felt sense)
 - **Verbal KHÔNG tạo ra feelings** — nó gắn nhãn những gì cơ thể/vô thức đã tạo ra
 
 "PFC quan sát xử lý vô thức tích hợp" của Theme A đặt verbal DOWNSTREAM của tính toán cơ thể một cách tường minh.
 
 ### §4.2 — Theme D (Feeling Đúng/Sai)
 
-Cơ chế của Theme D (feeling sai Layer 3) là **TIỀN VERBAL**. Verbal đến sau ở Layer 6–7 để gắn nhãn feeling. Trường hợp Einstein xác nhận: mô phỏng thị giác + cơ bắp trước, toán (symbolic) sau.
+Cơ chế của Theme D (feeling sai Feel-Consciousification) là **TIỀN VERBAL**. Verbal đến sau ở Feel-Labeling/Feel-Explanation để gắn nhãn feeling. Trường hợp Einstein xác nhận: mô phỏng thị giác + cơ bắp trước, toán (symbolic) sau.
 
 **→ Theme B xác nhận tuyên bố "body-first" của Theme D**: feelings sai nổi lên trước nhãn verbal.
 

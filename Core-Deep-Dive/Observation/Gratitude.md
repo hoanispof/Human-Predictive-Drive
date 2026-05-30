@@ -1,4 +1,4 @@
----
+﻿---
 title: Gratitude — Observation Parameter
 version: 2.1
 created: 2026-04-25
@@ -52,7 +52,7 @@ dependencies:
   - Body-Feedback-Label.md v2.0 — vocabulary reference, prediction-delta, Entity-Compiled
   - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
   - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, §5 Quality Baseline Shift, SNC
-  - Body-Feedback/03-Reward.md — VTA 7-step, H10 5 preconditions, opioid vs dopamine
+  - Body-Feedback/03-Reward.md — VTA 7-step, 5 Body-Feedback-Preconditions, opioid vs dopamine
   - Chunk.md v2.0 — chunk substrate, compilation, Hebbian LTP
   - Agent-Mechanism.md — Self-Pattern-Modeling mechanism, §12 body-need feeder, agents as external tools
   - Self-Pattern-Modeling.md v3.0 — Compiled/Fresh, context-dependent, PFC=Lawyer §3.7
@@ -68,7 +68,7 @@ dependencies:
   - Feeling.md v3.0 — PFC observation, 7-layer fidelity, Compiled/Fresh
   - Anchor-Schema.md — sync point, Trust binding
   - PFC-Hold-Dimensions.md — ~4±1 dimensions, comparison requires hold
-  - Domain/Emergent-Patterns.md — §5 "Cho đi" pattern, 4 nguồn reward, 3 violation tests
+  - Domain/Drill-Emergent-Pattern.md — §5 "Cho đi" pattern, 4 nguồn reward, 3 violation tests
   - 09-Learning-Cycle.md — baseline shift + hedonic adaptation
   - Obligation.md v1.0 — nghĩa vụ spectrum, 5-factor formula, 6 types, community scaling
 sources_backup: |
@@ -77,7 +77,7 @@ sources_backup: |
   (cho đi vô tư, PFC Blindness), Connection §5 (8 pathways, ④ giving),
   Emergent-Patterns §5 (cho đi pattern, 3 violation tests),
   Body-Feedback-Mechanism §3.2 (Chunk-Miss, SNC), §5 (Baseline Shift),
-  03-Reward §3 (H10 5 preconditions).
+  03-Reward §3 (5 Body-Feedback-Preconditions).
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -175,7 +175,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ④ Body respond bản sao yếu
 
     Gratitude cần 9 components → Gratitude emerge:
-      ① Body-base reward THẬT (H10 met)
+      ① Body-base reward THẬT (Body-Feedback-Precondition met)
       ② Agent detection (source is agent, not object)
       ③ PFC Comparison (hold "có" vs "không có")
       ④ Source Attribution (reward → source → agent)
@@ -218,7 +218,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Agent cho gift
       ↓
-    Body-base check: gift feed body-need? (H10 5 preconditions)
+    Body-base check: gift feed body-need? (5 Body-Feedback-Preconditions)
       ↓ (NẾU reward THẬT)
     PFC Comparison: "có vs không có" → delta
       ↓
@@ -268,7 +268,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Gratitude = observable pattern khi body's valence system fire
   NET POSITIVE toward AGENT-source, sau khi:
-    ① Body-base THẬT SỰ reward bởi gift (H10 met)
+    ① Body-base THẬT SỰ reward bởi gift (Body-Feedback-Precondition met)
     ② PFC Comparison tạo prediction-delta nhân tạo ("có vs không có")
     ③ Source Attribution link reward → agent
     ④ Self-Pattern-Modeling simulate giver's effort → empathy
@@ -380,7 +380,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TẠI SAO GRATITUDE CẦN GẦN TOÀN BỘ FRAMEWORK:
 
     Để BIẾT ƠN, não phải:
-      → Nhận gift → body-base THẬT SỰ reward (H10 — Body-Feedback)
+      → Nhận gift → body-base THẬT SỰ reward (Body-Feedback-Precondition)
       → Detect agent-source (Agent-Mechanism)
       → Hold "có" vs "không có" (PFC-Hold-Dimensions)
       → Link reward → source → agent (Valence-Propagation)
@@ -456,7 +456,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ TẠI SAO "ĐỒNG THỜI":
 
-  Giống H10 cho reward (03-Reward.md §3): body signal fires khi ALL 5 preconditions met.
+  Giống Body-Feedback-Precondition cho reward (03-Reward.md §3): body signal fires khi ALL 5 preconditions met.
   Gratitude tương tự nhưng CẦN 9 components — tất cả phải fire.
 
   Thiếu 1 component → gratitude GIẢM hoặc THAY THẾ bằng pattern khác:
@@ -473,45 +473,45 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ PREREQUISITE 1: GIFT PHẢI THẬT SỰ FEED BODY-BASE
 
-  (03-Reward.md §3 — H10 5 preconditions)
+  (03-Reward.md §3 — 5 Body-Feedback-Preconditions)
 
-  Gift → body-base reward chỉ fire khi H10 MET:
-    P1 Schema pending: body ĐANG CẦN thứ được cho
-    P2 Chunks base: có đủ chunks decode GIÁ TRỊ gift
-    P3 prediction-delta: gift tạo biến động ĐỦ LỚN
-    P4 Goldilocks: gift match 40-70% (không quá quen, không quá lạ)
-    P5 Chunk tag: gift không bị tag threat
+  Gift → body-base reward chỉ fire khi Body-Feedback-Precondition MET:
+    Precondition-1 Directed-Gap: body ĐANG CẦN thứ được cho
+    Precondition-2 Chunk-Substrate: có đủ chunks decode GIÁ TRỊ gift
+    Precondition-3 Delta-Gate: gift tạo biến động ĐỦ LỚN
+    Precondition-4 Match-Range: Goldilocks zone (dynamic — không quá quen, không quá lạ)
+    Precondition-5 Compile-Gate: gift không bị tag threat
 
-  KHI H10 MET:
+  KHI Body-Feedback-Precondition MET:
     → Body-base opioid release → reward THẬT
     → PFC observe: "pleasant" → downstream components CÓ THỂ fire
 
-  KHI H10 FAIL:
+  KHI Body-Feedback-Precondition FAIL:
     → Body-base "meh" → no opioid → PFC có thể BIẾT gift có giá trị
       nhưng body KHÔNG fire → gratitude KHÔNG emerge ở body level
     → = "PFC nói tiền có ích, nhưng body-base không nói gì"
 
   VÍ DỤ:
     Đang đi bộ thể dục (body thoải mái):
-      → P1 FAIL: schema pending ≈ 0 cho tiền
+      → Precondition-1 FAIL: schema pending ≈ 0 cho tiền
       → Ai đó cho tiền → PFC biết có ích → body "meh"
-      → + P5 nghi ngờ: "tự nhiên cho tiền → threat?" → cortisol nhẹ
+      → + Precondition-5 nghi ngờ: "tự nhiên cho tiền → threat?" → cortisol nhẹ
       → → Gratitude KHÔNG fire dù PFC biết tiền hữu ích
 
     Đang thiếu tiền xe bus (body-base đang cần):
-      → P1 MET: schema pending CHO đúng thứ đang thiếu
+      → Precondition-1 MET: schema pending CHO đúng thứ đang thiếu
       → Người lạ cho tiền → body-base reward THẬT → opioid
       → → Prerequisite ① MET → downstream components CÓ CƠ HỘI fire
 
   ⭐ GAP DIRECTION LENS (Gap-Direction.md):
-    P1 "Schema pending" = gap direction phải TỒN TẠI hướng về gift type
+    Precondition-1 Directed-Gap = gap direction phải TỒN TẠI hướng về gift type
     "Chưa biết = không có gap": trẻ chưa biết giá trị xe cổ
       → không có gap về xe cổ → bố tặng xe cổ → body KHÔNG reward
       → gratitude IMPOSSIBLE dù gift đắt tiền
     = Gift phải match GAP DIRECTION, không chỉ "có giá trị khách quan"
 
   🟢 Alliesthesia (Cabanac 1971): cùng stimulus, khác body-state → khác hedonic value
-  🟡 H10 as gratitude prerequisite = framework extension of established H10
+  🟡 Body-Feedback-Precondition as gratitude prerequisite = framework extension of established Body-Feedback-Precondition
 ```
 
 ### §2.2 — ② Agent detection
@@ -1431,7 +1431,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ① COMPARISON INJECTION QUA CẦU NGUYỆN:
     → "Cảm ơn Chúa vì bữa cơm" = PFC comparison forced
-    → Tôn giáo KHÔNG biết H10, prediction-delta, opioid
+    → Tôn giáo KHÔNG biết Body-Feedback-Precondition, prediction-delta, opioid
     → NHƯNG ritual TẠO delta → body feel better → giữ lại practice
 
   ② PERIODIC DEPRIVATION QUA FASTING:
@@ -1956,7 +1956,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §9.4 — × New Concepts (28-session Drill Propagation)
 
 ```
-BOND-ARCHITECTURE × GRATITUDE (Bond-Architecture.md v1.0):
+BOND-ARCHITECTURE × GRATITUDE (Bond-Architecture.md v2.0):
   → Gratitude = bond-STRENGTHENING signal:
     Proximity bond: gratitude cho "ở đây" → reinforce safe base
     Shared-Experience bond: gratitude cho "cùng trải qua" → reinforce partnership
@@ -2002,7 +2002,7 @@ RESONANCE-SUSTAINABILITY × GRATITUDE (Resonance-Sustainability.md v1.0):
     🟢 Counterfactual thinking (Kahneman & Tversky 1982, Roese 1997)
     🟢 Religious practice → well-being (Koenig et al. 2012)
     🟢 Reciprocal altruism (Trivers 1971)
-    🟢 H10 5 preconditions components (per respective citations)
+    🟢 5 Body-Feedback-Preconditions components (per respective citations)
     🟢 Bird & Cook 2013: alexithymia → empathy deficit
     🟢 Post-traumatic growth (Tedeschi & Calhoun 2004)
     🟢 Deci 1971: external reward override internal motivation
@@ -2116,7 +2116,7 @@ RESONANCE-SUSTAINABILITY × GRATITUDE (Resonance-Sustainability.md v1.0):
     → Self-Pattern-Modeling.md v3.0 — Compiled/Fresh, context-dependent, PFC=Lawyer §3.7
     → Chunk.md v2.0 — chunk substrate, compilation
     → Body-Feedback-Mechanism.md — Chunk-Miss (SNC), §5 Baseline Shift
-    → Body-Feedback/03-Reward.md — H10 5 preconditions, VTA 7-step
+    → Body-Feedback/03-Reward.md — 5 Body-Feedback-Preconditions, VTA 7-step
     → Body-Feedback/Gap-Direction.md — gift phải match gap direction,
       "chưa biết = không có gap" giải thích tại sao gift đắt nhưng no reward
     → Valence-Propagation.md v2.0 — per-entity valence, chain propagation,
@@ -2138,7 +2138,7 @@ RESONANCE-SUSTAINABILITY × GRATITUDE (Resonance-Sustainability.md v1.0):
     → Novelty.md — positive prediction-delta
 
   DOMAIN FILES:
-    → Emergent-Patterns.md §5 — "Cho đi" pattern, nhiều reward sources, 3 violation tests
+    → Drill-Emergent-Pattern.md §5 — "Cho đi" pattern, nhiều reward sources, 3 violation tests
     → Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT
     → Knowledge-Flow.md — sharing drives
 

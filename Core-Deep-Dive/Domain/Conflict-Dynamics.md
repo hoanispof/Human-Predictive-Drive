@@ -1,21 +1,45 @@
 ---
 title: Conflict Dynamics — Cơ Chế Xung Đột Ở Domain
-version: 1.1
+version: 2.0
 created: 2026-03-30 (v1.0 restructure từ Research/)
-refined: 2026-05-23 (v1.1 — YAML standardized. Concept Cascade: +Entity-Access, +Simulation-Engine, +Satiation types. Cross-refs updated)
-status: v1.1 REFERENCE FILE
+rewritten: 2026-05-24 (v2.0 — +Domain Types × conflict, §11 cascade dissolved vào body, Self-Pattern-Modeling v3.1, references modernized)
+previous: v1.1 → backup/Conflict-Dynamics-v1.1-backup.md
+status: v2.0 REFERENCE FILE
 scope: |
   Xung đột = OVERLAP × SCARCITY × COMMITMENT. Cơ chế CƠ BẢN của domain interaction.
   Áp dụng ở MỌI scale: nội tâm → cặp đôi → tổ chức → quốc tế.
   Scarcity = ENGINE buộc mở rộng domain.
+  v2.0 KEY CHANGES:
+    ① §4.1 Domain Types × conflict dynamics (Reality resolve nhanh / Abstract-Dynamic persist)
+    ② §11 cascade → dissolved vào §1 (Entity-Access), §4 (Simulation-Engine), §5 (Collective), §6 (Satiation), §7 (Self-Pattern-Modeling)
+    ③ "Empathy-Mirror" → Self-Pattern-Modeling + By-Product-Gap-Resonance
+    ④ "melody" → gap-distribution (chính xác hơn cho competition context)
+    ⑤ All references modernized (current versions)
 parent: Core-Deep-Dive/Domain/
 dependencies:
-  - Domain.md v1.0 — domain = thực tế bên ngoài human
-  - Imagine-Final.md v3.0 — shared Imagine-Final = collaborate/conflict
-  - Connection.md v5.0 — connection × conflict overlap
-  - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — overlap = accessing same point on gradient
-  - PFC/Simulation-Engine.md v1.0 — security dilemma = simulated threat
-  - Body-Feedback/Gap-Body-Need.md v1.0 — scarcity ↔ satiation dynamics
+  domain:
+    - Domain.md v2.0 — 3 Domain Types, Dual Check, domain = thực tế bên ngoài
+    - Domain-Mapping-Drive.md v2.0 — WHY humans drive to map domain
+    - Drill-Emergent-Pattern.md v2.0 — emergent patterns từ domain interaction
+  pfc:
+    - Imagine-Final.md v3.0 — constructive simulation, bridge body × domain
+    - Simulation-Engine.md v1.0 — 1 engine, 3 components, security dilemma
+  body-base:
+    - Gap-Body-Need.md v1.0 — 3 Satiation (Cyclic/Tonic/Generative), scarcity ↔ satiation
+    - Gap-Distribution-Profile.md v1.1 — PFC Budget limits domain mapping
+    - Cortisol-Baseline.md v2.0 — cortisol = amplifier, not cause
+  agent:
+    - Entity-Access.md v1.2 — overlap = accessing same point on gradient
+    - Self-Pattern-Modeling.md v3.1 — model other's state → prediction-delta
+    - By-Product-Gap-Resonance.md v1.4 — mutual by-product match
+  observation:
+    - Connection.md v5.0 — connection × conflict, 4-Layer Sustainability
+    - Boredom.md v2.0 — forced mismatch = internal conflict
+  collective:
+    - Collective.md v1.0 — integration hub, 5 con đường
+    - Coordination-Node.md v1.2 — node mechanism, Prestige/Dominance
+    - Collective-Body.md v2.1 — Model 3 cấp, long-chain mechanism
+    - By-Product-Scale.md v1.0 — 1 mechanism × 3 scales
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -31,16 +55,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-> **Trạng thái:** v1.0 — restructure từ Research/Conflict-Dynamics.md (v0.2)
-> **Ngày:** 2026-03-30
-> **Mục đích:** Phân tích xung đột = cơ chế CƠ BẢN của domain interaction.
-> TẠI SAO xảy ra, KHI NÀO xảy ra, CÁCH GIẢI QUYẾT, và tại sao nó là ENGINE.
-> **Reference:** Imagine-Final.md §6 (shared Imagine-Final = collaborate/conflict),
-> Connection.md §7.5 (Connection × Imagine-Final per layer),
-> Global-Melody.md §2 (shared Imagine-Final = tại sao nhóm hoạt động),
-> Personal-Melody.md §5 (Two-Axis Tension: body vs domain)
-> **⚠️ Core mechanism — áp dụng ở MỌI scale: nội tâm → cặp đôi → tổ chức → quốc tế**
-> **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
+## Mục lục
+
+- §1 — CÔNG THỨC GỐC: 3 ĐIỀU KIỆN CẦN VÀ ĐỦ
+- §2 — KHÁC BIỆT ≠ XUNG ĐỘT
+- §3 — GIỐNG NHAU → XUNG ĐỘT (KHI CÓ SCARCITY)
+- §4 — PERCEIVED VS ACTUAL SCARCITY
+  - §4.1 — DOMAIN TYPES × CONFLICT
+- §5 — MULTI-SCALE: CÙNG CÔNG THỨC, KHÁC THAM SỐ
+- §6 — CHIẾN LƯỢC GIẢI QUYẾT: PHÁ 1/3 ĐIỀU KIỆN
+- §7 — SCARCITY = ENGINE
+- §8 — HONEST ASSESSMENT
+- §9 — CÂU HỎI MỞ
+- §10 — KẾT NỐI
 
 ---
 
@@ -52,45 +79,54 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Xung đột CHỈ xảy ra khi CẢ 3 điều kiện ĐỒNG THỜI:
 
     ① OVERLAP — cùng Imagine-Final targeting cùng resource:
-       → 2 agent cùng muốn CÙNG THỨ ở domain real
-       → Qua lens Imagine-Final: 2 người có Imagine-Final MAP VÀO cùng resource
+       → 2 agents cùng muốn CÙNG THỨ ở domain
+       → Qua Entity-Access lens: 2 agents accessing SAME point on gradient
+         (Entity-Access.md v1.2 — closer access = MORE overlap potential)
        → VD: 2 nhân viên cùng muốn thăng chức (cùng Imagine-Final "thăng tiến"
              → cùng target 1 vị trí)
        → NẾU THIẾU: mỗi bên target khác → hòa bình
 
     ② SCARCITY — resource KHÔNG ĐỦ cho cả hai:
-       → Domain real CÓ GIỚI HẠN vật chất tại mỗi điểm
-       → 1 vị trí chỉ cho 1 người. 1 miếng đất chỉ 1 chủ.
-       → ⚠️ PERCEIVED scarcity, không phải actual:
-         Actual abundance + 1 bên perceive thiếu → VẪN xung đột
-         Actual scarcity + cả 2 perceive đủ → KHÔNG xung đột
+       → Resource = BẤT KỲ THỨ GÌ agent target ở domain — không chỉ vật chất:
+         Vật chất (đất, thức ăn) → Vị trí (chức vụ, rank) →
+         Thông tin (narrative, bí mật) → Attention (sự chú ý, thời gian) →
+         Autonomy (quyền tự quyết) → Validation (credit, "ai đúng")
+       → TẠI MỖI ĐIỂM: 1 miếng đất chỉ 1 chủ. 1 narrative chỉ 1 version thắng.
+         1 quyết định chỉ 1 hướng. 1 sự chú ý chỉ tập trung 1 nơi.
+       → ⚠️ PERCEIVED scarcity, không phải actual (§4)
        → NẾU THIẾU: đủ cho cả hai → win-win
 
-    ③ COMMITMENT — cả hai ĐÃ chunk resource vào Imagine-Final:
+    ③ COMMITMENT — cả hai ĐÃ compile resource vào Imagine-Final:
        → Resource này GẮN VÀO Imagine-Final compiled SÂU
        → "Nếu mất resource này → Imagine-Final SỤP"
-       → Chunk càng sâu → de-commit càng khó → xung đột càng dai dẳng
+       → Compiled càng sâu → de-commit càng khó → xung đột càng dai dẳng
        → NẾU THIẾU: 1 bên sẵn sàng bỏ → nhượng bộ → hết xung đột
 
 
   CƠ CHẾ QUA FRAMEWORK:
 
-    Agent A: Imagine-Final = "tôi cần resource R để melody smooth"
+    Agent A: Imagine-Final = "tôi cần resource R"
     Agent B: Imagine-Final = "tôi CŨNG cần resource R"
-    R = finite (domain real không cho phép chia)
+    R = finite (domain không cho phép chia tại điểm đó)
 
     → Imagine-Final của A TRỰC TIẾP threat Imagine-Final của B
-    → Body cả 2: dissonance (threat signal) → cortisol tăng
+    → Body cả 2: prediction-delta → cortisol amplify (amplifier, not cause)
     → PFC cả 2: scan → "phải BẢO VỆ resource" → phản ứng phòng vệ
-    → = Xung đột = 2 Imagine-Finals CẠNH TRANH cùng domain resource
+    → = 2 Imagine-Finals CẠNH TRANH cùng domain resource
 
-    🟢 Consistent với: Realistic Conflict Theory (Sherif 1966),
-       Resource Competition Theory (evolutionary biology)
+    ⚠️ Entity-Access × overlap paradox:
+       Entity-Access Mức 3+ (close) → shared access RỘNG → overlap risk CAO
+       Entity-Access Mức 1 (acquaintance) → separate access → overlap risk THẤP
+       → CLOSER entities = MORE overlap potential = MORE conflict potential
+       → Giải thích: vợ chồng cãi nhau NHIỀU hơn đồng nghiệp
+
+    🟢 Realistic Conflict Theory (Sherif 1966): conflict from resource competition
+    🟢 Resource Competition Theory (evolutionary biology)
 ```
 
 ---
 
-## 2. Khác Biệt ≠ Xung Đột — Khác Melody Cùng Imagine-Final = Bổ Sung
+## 2. Khác Biệt ≠ Xung Đột
 
 ```
 🟡 KHÁC BIỆT THUẦN TÚY KHÔNG GÂY XUNG ĐỘT:
@@ -112,22 +148,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     └────────────────────────┴──────────────┴───────────────────┘
 
 
-  ⭐ KHÁC MELODY + CÙNG IMAGINE-FINAL = MẠNH NHẤT (Imagine-Final.md §6):
+  ⭐ KHÁC GAP-DISTRIBUTION + CÙNG IMAGINE-FINAL = MẠNH NHẤT:
 
-    2 người melody KHÁC (hardware khác, style khác)
+    2 người gap-distribution KHÁC (hardware khác, style khác)
     NHƯNG Imagine-Final CÙNG HƯỚNG (cùng muốn kết quả ở domain)
     → Mỗi người cover MẢNG KHÁC → tổng > từng phần
 
     VD vợ chồng:
-      → Chồng focus dạy con học (melody logic)
-      → Vợ focus chăm con khỏe (melody cảm xúc)
+      → Chồng focus dạy con học, Vợ focus chăm con khỏe
       → Cùng Imagine-Final: "con thrive" → KHÔNG overlap resource
       → Kết quả: con vừa giỏi vừa khỏe → VƯỢT mong đợi cả 2
 
     VD công ty:
       → CEO vision, engineer build, designer UX
-      → Nhiều melody khác → cùng Imagine-Final: "sản phẩm thành công"
-      → = Diverse team = mạnh nhất
+      → Gap-distribution khác → cùng Imagine-Final: "sản phẩm thành công"
+      → = Diverse team = mạnh nhất (By-Product-Scale.md v1.0)
 
     → = "Đa dạng không phải nguyên nhân xung đột —
          đa dạng là GIẢI PHÁP cho xung đột."
@@ -136,9 +171,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⚠️ KHI NÀO "KHÁC" VẪN GÂY XUNG ĐỘT:
 
-    Khác melody + CÙNG target resource = VẪN xung đột:
+    Khác style + CÙNG target resource = VẪN xung đột:
       → 2 designer style khác → CÙNG tranh 1 project → conflict
-      → = Khác STYLE nhưng CÙNG resource → overlap ĐỦ → conflict
       → = Khác biệt CHỈ an toàn khi KHÁC DOMAIN, không chỉ khác style
 ```
 
@@ -165,6 +199,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ 2 nhân viên cùng level│ Vị trí thăng chức  │ Cạnh tranh   │
     │ 2 anh em nhỏ          │ Thời gian mẹ       │ Ghen tỵ      │
     │ 2 cửa hàng cùng phố   │ Khách hàng         │ Cạnh tranh giá│
+    │ 2 hãng tin cùng sự    │ Narrative (1 truth) │ Thông tin war │
+    │ kiện                  │                    │              │
+    │ 2 influencer cùng     │ Attention khán giả  │ Content war  │
+    │ niche                 │                    │              │
+    │ 2 nhà khoa học cùng   │ Credit phát hiện   │ Priority     │
+    │ nghiên cứu            │                    │ dispute      │
     └────────────────────────┴────────────────────┴──────────────┘
 
 
@@ -175,20 +215,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = "Frenemies" = giống nhau quá → cạnh tranh mọi thứ
     → = Anh em ruột cạnh tranh (cùng target: tình yêu bố mẹ, resource gia đình)
     → = Quốc gia láng giềng xung đột nhiều hơn xa nhau
-    🟢 Consistent với: sibling rivalry research, neighbor conflict patterns
+    🟢 Consistent: sibling rivalry research, neighbor conflict patterns
 
 
-  ⭐ QUA LENS IMAGINE-FINAL:
+  ⭐ XUNG ĐỘT NỘI TÂM = CÙNG CƠ CHẾ:
 
-    Xung đột NỘI TÂM = 2 Imagine-Final TRONG 1 NGƯỜI tranh cùng resource:
+    2 Imagine-Final TRONG 1 NGƯỜI tranh cùng resource:
       → "Muốn ăn ngon" vs "muốn giảm cân" → resource = bữa ăn tối nay
       → "Muốn nghỉ" vs "muốn làm" → resource = 2 tiếng tiếp theo
-      → = Cùng cơ chế: 2 Imagine-Finals + 1 resource + cả 2 committed
-      → = PFC = EXECUTIVE chọn giữa competing Imagine-Finals (Imagine-Final.md §1)
+      → = 2 Imagine-Finals + 1 resource + cả 2 committed
+      → PFC = Simulation-Engine draft BOTH scenarios → pick
+        (Simulation-Engine.md v1.0: PFC orchestrate simulation of alternatives)
 
-    Xung đột GIỮA 2 NGƯỜI = 2 Imagine-Finals CỦA 2 NGƯỜI tranh cùng resource:
+    Xung đột GIỮA 2 NGƯỜI:
       → Cùng công thức, khác agent
-      → NHƯNG: không có "PFC chung" để chọn → phải negotiate / fight / nhượng bộ
+      → NHƯNG: không có "PFC chung" → phải negotiate / fight / nhượng bộ
 ```
 
 ---
@@ -223,6 +264,61 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Propaganda: "họ đang CHIẾM resource của chúng ta" → thổi phồng → xung đột
     → Gaslighting: "resource đủ mà, bạn tưởng tượng" → ép nhượng bộ
     → = Perceived scarcity = con dao 2 lưỡi: giải quyết HOẶC kích động xung đột
+
+  ⚠️ SIMULATION-ENGINE × PERCEIVED SCARCITY (Simulation-Engine.md v1.0):
+
+    Simulation-Engine draft THREAT scenarios → perceived scarcity TĂNG:
+      → Agent simulate "nếu mất resource → consequence X" → commitment tăng
+      → Agent simulate "đối phương có thể lấy" → perceived scarcity tăng
+      → = Simulation-Engine AMPLIFY perceived scarcity — dù actual abundance
+      → Dual Check (Domain.md v2.0 §5): body check + domain reality = filter
+        simulated threat vs actual threat
+```
+
+### 4.1 — Domain Types × Conflict (Domain.md v2.0 §2)
+
+```
+⭐ CÙNG FORMULA — NHƯNG DYNAMICS KHÁC THEO DOMAIN TYPE:
+
+
+  ① REALITY DOMAIN — feedback tức thì → RESOLVE NHANH hơn:
+
+    Resource: đất, nước, thức ăn, không gian vật lý
+    Scarcity: ĐO ĐƯỢC — 1 miếng đất = finite, đếm được
+    Feedback: body chạm trực tiếp → biết NGAY scarce hay đủ
+
+    → Reality conflict TENDS to RESOLVE vì:
+      Scarcity đo được → biết actual vs perceived
+      Feedback tức thì → biết expand có hiệu quả không
+      Technology CAN fill: tưới tiêu → tăng năng suất → phá scarcity
+
+    VD: 2 nông dân tranh đất → đo đạc → chia → xong
+
+
+  ② ABSTRACT-DYNAMIC DOMAIN — feedback shift → PERSIST lâu hơn:
+
+    Resource: vị trí, uy tín, ảnh hưởng, market share, attention
+    Scarcity: KHÓ ĐO — "uy tín" = bao nhiêu? "đủ chưa"?
+    Feedback: KHÔNG tức thì + CAN SHIFT (rules thay đổi → resource thay đổi)
+
+    → Abstract-Dynamic conflict TENDS to PERSIST vì:
+      Scarcity khó đo → perceived >> actual → thổi phồng
+      Feedback delay + shift → khó biết giải pháp có hiệu quả không
+      Participants thay đổi rules → "moving target"
+      Commitment dễ LOCK (status, identity = compiled sâu)
+
+    VD: 2 nhân viên tranh vị trí → restructure → vị trí biến mất/thay đổi
+
+
+  ③ ABSTRACT DOMAIN — HIẾM KHI true conflict:
+
+    Resource: mathematical truths, logical proofs = VÔ HẠN khi share
+    → Toán không hết khi 2 người cùng học → KHÔNG CÓ scarcity
+    → ⚠️ NHƯNG: CREDIT cho discovery = Abstract-Dynamic (recognition, position)
+    → = Conflict "trong" Abstract Domain = THỰC RA conflict ở Abstract-Dynamic layer
+    → VD: 2 nhà toán học tranh CREDIT (không tranh toán)
+
+  🟡 Domain Types × conflict dynamics = framework synthesis (original contribution)
 ```
 
 ---
@@ -235,23 +331,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ① CÁ NHÂN (nội tâm):
     → 2 Imagine-Final tranh cùng resource (thời gian, energy, 1 quyết định)
-    → PFC = executive chọn → NẾU PFC mạnh → resolve nhanh
-    → NẾU PFC yếu (mệt, stress) → xung đột kéo dài → Chunk-Gap unresolved
-      + cortisol Role ② Holding đồng hành (amplifier, not cause)
+    → PFC = Simulation-Engine draft BOTH scenarios → pick winner
+    → NẾU PFC budget thấp (mệt, stress) → resolve khó → prediction-delta kéo dài
+      + cortisol amplify (amplifier, not cause — Cortisol-Baseline.md v2.0)
     → VD: "ăn ngon vs giảm cân" = 2 Imagine-Final + 1 bữa ăn
 
 
   ② CẶP ĐÔI / GIA ĐÌNH:
-    → 2 melodies + shared resources (thời gian, tiền, cách nuôi con)
-    → Resolve bằng: negotiate, phân domain, communicate perceived scarcity
+    → 2 gap-distributions + shared resources (thời gian, tiền, cách nuôi con)
+    → Entity-Access cao (Mức 3-5) → overlap RỘNG → conflict potential CAO
+    → Resolve: negotiate, phân domain, communicate perceived scarcity
     → VD: vợ chồng tranh "ai quyết định chuyện con"
-      → Phá overlap: bố quyết học hành, mẹ quyết sức khỏe → mỗi người 1 domain
-    → (ref: Love-Analysis §9: hiểu thật vs hiểu giả, xung đột = calibrate)
+      → Phá overlap: bố domain học hành, mẹ domain sức khỏe
 
 
   ③ TỔ CHỨC / CÔNG TY:
-    → Nhiều melodies + shared resources (budget, vị trí, credit)
-    → Resolve bằng: phân vai rõ, multiple tracks, tăng tổng pie
+    → Nhiều gap-distributions + shared resources (budget, vị trí, credit)
+    → Coordination-Node (Coordination-Node.md v1.2): node phân phối → GIẢM overlap
+    → Resolve: phân vai rõ, multiple tracks, tăng tổng pie
     → VD: 2 team tranh budget
       → Phá scarcity: tăng tổng revenue → đủ cho cả 2
       → Phá overlap: mỗi team focus domain khác → OKR rõ ràng
@@ -259,21 +356,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ④ QUỐC TẾ — cùng công thức nhưng THAM SỐ KHÁC:
 
-    Agent = TẬP THỂ (không phải 1 não):
-      → Leader + bộ máy + dư luận + media → quyết định emergent
+    Agent = TẬP THỂ (Collective.md v1.0):
+      → Leader = Coordination-Node + bộ máy + dư luận + media
+      → Quyết định = EMERGENT (Collective-Body.md v2.1 — Model 3 cấp)
       → Perceived scarcity bị ẢNH HƯỞNG bởi narrative / propaganda
-      → Commitment bị KHUẾCH ĐẠI bởi nationalism (chunk tập thể)
+      → Commitment bị KHUẾCH ĐẠI bởi nationalism (compiled tập thể)
 
-    Feedback loop CHẬM + MÉO:
-      → Cá nhân: nói chuyện trực tiếp → biết ngay
-      → Quốc gia: ngoại giao, tình báo, media → delay + distortion
-      → Misperception TĂNG → perceived scarcity thổi phồng CẢ 2 BÊN
-      → Security dilemma: A tăng quân → B perceive threat → B tăng quân → loop
+    Simulation-Engine × Security Dilemma (Simulation-Engine.md v1.0):
+      → A simulate: "nếu B attack → tôi thua" → preemptive action
+      → B simulate: "A preparing → phải chuẩn bị" → escalation
+      → = 2 Simulation-Engines FEEDING each other threat scenarios
+      → = Arms race = Simulation-Engine escalation spiral
+      → BREAK: external arbiter HOẶC Simulation-Engine draft COOPERATION
+        → Need: trust (Entity-Access Mức 2+) to accept cooperation draft
 
     De-commit cost CỰC CAO:
       → Cá nhân: nhường → cost thấp, reversible
       → Quốc gia: nhượng bộ = leader mất mặt + tiền lệ yếu
-      → Commitment bị LOCK — có thể muốn de-commit nhưng KHÔNG THỂ
+      → Commitment bị LOCK — muốn de-commit nhưng KHÔNG THỂ
       → Escalation trap: mỗi bước leo thang = commitment cả 2 tăng
 
     Enforcement (tác động THÔNG QUA ② và ③):
@@ -308,8 +408,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ① PHÁ OVERLAP — mỗi bên target KHÁC (bền nhất):
 
     → Phân vai rõ: mỗi người chịu trách nhiệm domain KHÁC
-    → Chuyên môn hóa: từ generalist cạnh tranh → specialist bổ sung
-    → Tạo diversity THẬT: mỗi người build melody RIÊNG → ít overlap
+    → Chuyên môn hóa: generalist cạnh tranh → specialist bổ sung
+    → Entity-Access: expand gradient → create NEW access points (Entity-Access.md v1.2)
+    → Tạo diversity THẬT: mỗi người build gap-distribution RIÊNG → ít overlap
     → = Xóa GỐC RỄ xung đột — strategy bền vững nhất
 
     QUA IMAGINE-FINAL:
@@ -322,11 +423,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     → Mở rộng pie: tăng budget, tạo nhiều vị trí, tạo multiple tracks
     → Digital/infinite goods: open-source, knowledge sharing (không hết khi share)
-    → Win-win design: thiết kế hệ thống mà A thành công không lấy mất B
+    → Win-win design: A thành công không lấy mất B
 
-    QUA IMAGINE-FINAL:
-      → Giúp mỗi bên REFRAME: "resource THẬT SỰ scarce hay perceived?"
-      → Nhiều trường hợp: resource THẬT RA đủ (§4) → communicate = giải quyết
+    SATIATION × CONFLICT RESOLUTION (Gap-Body-Need.md v1.0):
+      → Cyclic gap: fill → OFF → return → conflict EPISODIC (tranh ăn → ăn xong → hết)
+      → Tonic gap: ongoing fill → HABITUATE → de-escalate tự nhiên
+      → Generative gap: fill → CREATE new gaps → tự MỞ RA resource khác → phá overlap
+      → = 3 satiation types = 3 natural conflict resolution mechanisms
+      → Modern abundance: Cyclic satiation tăng → nhiều alternatives → ít conflict
 
 
   ③ PHÁ COMMITMENT — giảm bám víu (khó nhất):
@@ -336,7 +440,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Detachment: 1 bên chủ động nhường (chọn resource KHÁC quan trọng hơn)
 
     QUA IMAGINE-FINAL:
-      → Chunk compiled SÂU = khó de-commit (Imagine-Final đã gắn vào resource)
+      → Compiled sâu = khó de-commit (Imagine-Final đã gắn vào resource)
       → CẦN: PFC re-evaluate → "resource này CÓ THẬT SỰ cần cho Imagine-Final?"
       → Đôi khi: đổi Imagine-Final = tự động de-commit resource cũ
 
@@ -349,7 +453,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → "Có cách nào CẢ HAI đạt Imagine-Final mà KHÔNG tranh resource?"
 
     → = Imagine-Final awareness = nhìn thấy GỐC xung đột TRƯỚC khi react
-    → = PFC scan → thay vì react (cortisol) → analyze (which condition to break?)
+    → = PFC scan → thay vì react → analyze (which condition to break?)
+    🟡 Consistent: interest-based negotiation (Fisher & Ury 1981 "Getting to Yes")
 ```
 
 ---
@@ -364,7 +469,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → 1 miếng đất: chỉ 1 người dùng tại 1 thời điểm
     → 1 con mồi: chỉ 1 người ăn
     → 1 vị trí: chỉ 1 người ngồi
-    → = Domain real KHÔNG CHO PHÉP share vô tận ở cùng 1 điểm
+    → = Domain KHÔNG CHO PHÉP share vô tận ở cùng 1 điểm
 
     NHƯNG: domain = CỰC LỚN, phần lớn CHƯA ĐƯỢC MAP
     → Xung đột ở 1 điểm → BUỘC agent mở rộng sang điểm KHÁC
@@ -380,13 +485,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → REPEAT ở domain mới khi đông lên
 
     VD evolution:
-      → Hái lượm: tranh vùng hái → BUỘC mở rộng lãnh thổ
-      → Nông nghiệp: đất không đủ → BUỘC phát minh tưới tiêu → tăng năng suất
-      → Thương mại: resource local thiếu → BUỘC trade → kết nối xa → cả 2 bên lợi
-      → Công nghiệp: lao động thiếu → BUỘC phát minh máy móc → tăng output cực lớn
-      → Digital: không gian vật lý thiếu → BUỘC tạo digital domain → gần vô hạn
+      → Hái lượm: tranh vùng → mở rộng lãnh thổ
+      → Nông nghiệp: đất thiếu → phát minh tưới tiêu → tăng năng suất
+      → Thương mại: resource local thiếu → trade → kết nối xa → cả 2 lợi
+      → Công nghiệp: lao động thiếu → phát minh máy móc → tăng output
+      → Digital: không gian vật lý thiếu → tạo digital domain → gần vô hạn
 
-    → = Mỗi lần scarcity "ép" → con người BUỘC mở rộng → tổng pie LỚN HƠN
+    → = Mỗi lần scarcity "ép" → BUỘC mở rộng → tổng pie LỚN HƠN
     → = Scarcity = pressure → innovation = response → expansion = result
 
 
@@ -395,33 +500,33 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Nếu resource VÔ HẠN → ai cũng làm CÙNG 1 THỨ (không cần khác)
     Vì resource FINITE → BUỘC mỗi người tìm NICHE RIÊNG
     → = Đa dạng nghề nghiệp, kỹ năng, style = HỆ QUẢ của scarcity
-    → = Mỗi người 1 melody → map domain RỘNG hơn + NHANH hơn
-    → = 8 tỉ người × 8 tỉ melody = map domain CỰC NHANH
+    → = 8 tỉ người × 8 tỉ gap-distributions = map domain CỰC NHANH
 
-    → = Scarcity tạo đa dạng → đa dạng giảm overlap → giảm xung đột
+    → Scarcity tạo đa dạng → đa dạng giảm overlap → giảm xung đột
     → = VÒNG LẶP TÍCH CỰC: scarcity → diversify → less conflict → more mapping
-    → (ref: Global-Melody.md §2: diverse team = mạnh nhất)
 
 
-  ⭐ COUNTER-MECHANISM — Empathy-Mirror phân phối DƯ (Empathy-Mirror.md §6.5):
+  ⭐ COUNTER-MECHANISM — Self-Pattern-Modeling phân phối DƯ:
 
     §7 mô tả: Scarcity = ĐẨY (ép expand domain → tổng pie tăng)
-    Empathy-Mirror §6.5: Mirror = KÉO (share resource DƯ → giảm scarcity tại chỗ)
+    Counter-mechanism = KÉO (share resource DƯ → giảm scarcity tại chỗ):
 
-    → Agent A có DƯ (body-base đã met) + thấy Agent B THIẾU
-    → Mirror deficit B → dissonance CỦA A → A share → B improve → mirror reward A
+    → Agent A body-base đã met (dư) + Self-Pattern-Modeling model Agent B
+    → Self-Pattern-Modeling detect B's deficit → prediction-delta CỦA A
+    → A share → B improve → by-product gap fill cho A (reward from sharing)
     → = Resource DƯ TỰ PHÂN PHỐI qua body-level drive, không cần luật hay đạo đức
-    → = 2 cơ chế BỔ SUNG: scarcity ĐẨY expand + mirror KÉO distribute
-    → = Vòng lặp: expand → có dư → mirror share → nhóm khỏe → expand tiếp
+    → = 2 cơ chế BỔ SUNG: scarcity ĐẨY expand + Self-Pattern-Modeling KÉO distribute
+    → = Vòng lặp: expand → có dư → share → nhóm khỏe → expand tiếp
+    → (ref: By-Product-Gap-Resonance.md v1.4, Drill-Emergent-Pattern.md v2.0 §5)
 
 
   ⚠️ GIỚI HẠN: scarcity CŨNG tạo ra đau khổ:
 
-    → Khi agent KHÔNG THỂ expand (bị lock, thiếu PFC, thiếu exposure)
-    → → Scarcity = ĐAU THẬT → không phải "engine" mà là "trap"
-    → → VD: người nghèo không có cơ hội → scarcity = bẫy, không phải động lực
-    → → = Scarcity = engine CHỈ KHI agent CÓ KHẢ NĂNG expand domain
-    → → = Xã hội tốt = tạo ĐIỀU KIỆN cho agent expand (education, freedom, exposure)
+    → Khi agent KHÔNG THỂ expand (bị lock, PFC budget thấp, thiếu exposure)
+    → Scarcity = ĐAU THẬT → không phải "engine" mà là "trap"
+    → VD: người nghèo không có cơ hội → scarcity = bẫy, không phải động lực
+    → = Scarcity = engine CHỈ KHI agent CÓ KHẢ NĂNG expand domain
+    → = Xã hội tốt = tạo ĐIỀU KIỆN cho agent expand (education, freedom, exposure)
 ```
 
 ---
@@ -430,8 +535,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   ESTABLISHED (🟢):
-    🟢 Realistic Conflict Theory (Sherif 1966): conflict arises from
-       competition for limited resources — directly supports §1
+    🟢 Realistic Conflict Theory (Sherif 1966): conflict from competition
+       for limited resources — directly supports §1
     🟢 Contact Hypothesis (Allport 1954): intergroup contact reduces
        prejudice WHEN groups have equal status + common goals
        = shared Imagine-Final + no scarcity = reduce conflict
@@ -439,25 +544,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Security dilemma (international relations): A arms → B perceives threat
        → B arms → spiral — supports perceived scarcity mechanism
     🟢 Diversity improves team performance (meta-analyses) when
-       task-relevant diversity (supports: khác melody + cùng target = bổ sung)
+       task-relevant diversity (supports: khác + cùng target = bổ sung)
 
   FRAMEWORK SUY LUẬN (🟡):
     🟡 "Conflict = Overlap × Scarcity × Commitment": framework formula,
-       consistent với Realistic Conflict Theory nhưng thêm Commitment
-       và phân biệt perceived vs actual scarcity. Chưa có formal test.
-    🟡 "Overlap = shared Imagine-Final": connects conflict theory với
-       Imagine-Final mechanism. Logical, chưa validate riêng.
-    🟡 "Khác melody + cùng Imagine-Final = bổ sung": consistent với
-       diversity research + social identity theory.
-    🟡 "Perceived scarcity manipulation": consistent với propaganda research,
-       framing effects (Tversky & Kahneman).
-    🟡 "Scarcity = engine for progress": consistent với
-       necessity-is-mother-of-invention, evolutionary pressure → adaptation.
+       consistent với Realistic Conflict Theory. Chưa formal test.
+    🟡 "Domain Types × conflict dynamics": framework synthesis từ Domain.md v2.0.
+       Reality resolve nhanh, Abstract-Dynamic persist — consistent nhưng chưa test.
+    🟡 "Simulation-Engine × perceived scarcity": Simulation-Engine amplify
+       perceived scarcity — consistent propaganda/framing effects (Kahneman).
+    🟡 "Satiation × natural resolution": 3 satiation profiles map to 3 resolution
+       patterns — framework synthesis, not independently validated.
     🟡 "Imagine-Final awareness = meta-strategy": consistent với
        interest-based negotiation (Fisher & Ury 1981 "Getting to Yes").
 
   HYPOTHESIS (🔴):
-    🔴 "3 điều kiện cần VÀ ĐỦ" — có thể có edge cases chưa cover
+    🔴 "3 điều kiện cần VÀ ĐỦ" — formula works khi "resource" stretch rộng
+       (autonomy, validation, wellbeing). Cần define resource boundary rõ hơn.
     🔴 "Scarcity = engine" — chỉ đúng khi agent CÓ KHẢ NĂNG expand domain
     🔴 "Enforcement thông qua ② ③ only" — có thể có direct effect riêng
     🔴 Multi-scale "cùng công thức" — quốc tế có thể QUALITATIVELY khác
@@ -468,13 +571,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## 9. Câu Hỏi Mở
 
 ```
-  CD-1: 3 điều kiện = cần VÀ ĐỦ? Hay có edge case thứ 4?
+  CD-1: "Resource" boundary — nếu resource = bất kỳ thứ gì (autonomy, validation,
+        wellbeing người khác...) thì formula đúng trivially. Cần define resource
+        scope rõ hơn để formula testable. Edge cases: spite, bullying — resource
+        phải stretch rộng (overlap trên "trạng thái người khác").
   CD-2: Overlap threshold — bao nhiêu % overlap → xung đột bắt đầu?
   CD-3: Perceived vs actual scarcity — đo thế nào trong thực tế?
-  CD-4: Commitment inertia — chunk dissolve speed = f(gì)?
+  CD-4: Commitment inertia — compiled dissolve speed = f(gì)?
   CD-5: Scarcity → expansion threshold — khi nào scarcity = engine vs trap?
   CD-6: AI × conflict — AI tạo abundance hay tạo new overlap?
   CD-7: Imagine-Final awareness training — có thể DẠY không?
+  CD-8: Domain Types × conflict — Reality resolve nhanh hơn bao nhiêu? (NEW v2.0)
 ```
 
 ---
@@ -482,64 +589,47 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## 10. Kết Nối
 
 ```
-→ Imagine-Final.md §1: Imagine-Final = reference pattern (2 tầng vô thức + PFC)
-→ Imagine-Final.md §6: shared Imagine-Final = collaborate/conflict
-→ Connection.md §7.5: Connection × Imagine-Final per layer (L0→L3, locking)
-→ Global-Melody.md §2: shared Imagine-Final = tại sao nhóm hoạt động
-→ Personal-Melody.md §5: Two-Axis Tension (body vs domain → internal conflict)
-→ Love-Analysis.md §9: xung đột trong relationship (hiểu thật vs hiểu giả)
-→ Love-Analysis.md §5.5: Romeo & Juliet effect (external threat amplify)
-→ Education-Bridge.md §0: compass CỦA BỐ MẸ ≠ compass CỦA CON
-→ Boredom-Analysis.md §3 ④: forced mismatch = xung đột nội tâm
-→ Cortisol-Baseline.md: cortisol = change signal (xung đột → cortisol)
-→ Innovation-Geography.md: trade hubs = scarcity → innovation → expansion
-→ Core-v7.5-Draft.md §7: Domain = thực tế bên ngoài
-→ Entity-Access.md v1.2: overlap = accessing same point on gradient
-→ Simulation-Engine.md v1.0: security dilemma = simulated threat
-→ Gap-Body-Need.md v1.0: scarcity ↔ satiation dynamics
-→ Connection.md v5.0: connection × conflict (4-Layer Sustainability)
-```
+  Domain/:
+    → Domain.md v2.0 §2: 3 Domain Types × feedback khác → §4.1
+    → Domain-Mapping-Drive.md v2.0: scarcity BUỘC expand domain mapping
+    → Drill-Emergent-Pattern.md v2.0 §5: "cho đi" = 4 reward sources, 3 violation tests
 
----
+  PFC/:
+    → Imagine-Final.md v3.0: shared Imagine-Final = collaborate/conflict
+    → Simulation-Engine.md v1.0: security dilemma = 2 Simulation-Engines escalating
 
-## 11. Conflict × New Concepts (28-session Drill Propagation)
+  Body-Base/:
+    → Gap-Body-Need.md v1.0: 3 Satiation types × natural conflict resolution
+    → Gap-Distribution-Profile.md v1.1: per-person resource landscape
+    → Cortisol-Baseline.md v2.0: cortisol = amplifier (not cause) of conflict signals
 
-```
-ENTITY-ACCESS × CONFLICT (Entity-Access.md v1.2):
-  → §1 OVERLAP reframe: 2 agents CONFLICT khi accessing SAME point on gradient
-    → Entity-Access Mức 3 (close friend): shared access → overlap risk HIGH
-    → Entity-Access Mức 1 (acquaintance): separate access → overlap risk LOW
-    → = Paradox: CLOSER entities = MORE overlap potential = MORE conflict potential
-  → §6 Chiến lược: expand gradient (create NEW access points) = phá overlap
+  Agent-Mechanism/:
+    → Entity-Access.md v1.2: overlap = same point on Entity-Access gradient
+    → Self-Pattern-Modeling.md v3.1: model other's state → surplus distribution
+    → By-Product-Gap-Resonance.md v1.4: mutual by-product match → reduce scarcity
 
-SIMULATION ENGINE × CONFLICT (Simulation-Engine.md v1.0):
-  → §5 Multi-Scale (security dilemma) = BOTH sides Simulation Engine draft threat:
-    A simulate: "nếu B attack → tôi thua" → preemptive action
-    B simulate: "A preparing → tôi phải chuẩn bị" → escalation
-    → = 2 Simulation Engines FEEDING each other threat scenarios
-    → = Arms race = Simulation Engine escalation spiral
-  → BREAK: external arbiter OR Simulation Engine draft COOPERATION scenario
-    → Need: trust (Entity-Access Mức 2+) to accept cooperation draft
+  Observation/:
+    → Connection.md v5.0: connection × conflict, 4-Layer Sustainability
+    → Boredom.md v2.0: forced mismatch = internal conflict
 
-SATIATION × CONFLICT (Gap-Body-Need.md v1.0):
-  → §7 Scarcity as engine ↔ satiation dynamics:
-    VEHICLE satiation: bão hòa resource cụ thể → tự mở ra resource KHÁC → phá overlap
-    ROAD satiation: cùng path tranh giành → cần path MỚI → innovation = phá scarcity
-    ENGINE satiation: nếu drive mệt → de-commit → phá commitment
-  → = 3 satiation types = 3 natural CONFLICT RESOLUTION mechanisms
-  → Modern abundance: VEHICLE satiation tăng → nhiều alternatives → ít conflict
+  Collective/:
+    → Collective.md v1.0: integration hub, collective = emergent infrastructure
+    → Coordination-Node.md v1.2: node phân phối → giảm overlap
+    → Collective-Body.md v2.1: Model 3 cấp → quốc tế = emergent decision
+    → By-Product-Scale.md v1.0: 1 mechanism × 3 scales
 
-🟡 Entity-Access × conflict = framework convergence (access gradient predicts overlap)
-🟡 Simulation Engine × conflict = framework application (escalation spiral)
-🟡 Satiation × conflict = framework application (3 natural resolution mechanisms)
+  Application/:
+    → Love-Romantic.md v3.0: xung đột trong relationship
+    → Education-Mechanism.md v2.0: compass bố mẹ ≠ compass con
 ```
 
 ---
 
 > *Conflict Dynamics — "Xung đột = Overlap × Scarcity × Commitment.
 > Khác biệt KHÔNG gây xung đột — giống nhau + tranh giành MỚI gây.
-> Khác melody + cùng Imagine-Final = bổ sung, KHÔNG xung đột.
-> Perceived scarcity = biến nguy hiểm nhất (tưởng thiếu → tranh, dù đủ).
+> Domain type quyết định dynamics: Reality resolve nhanh, Abstract-Dynamic persist.
+> Perceived scarcity = biến nguy hiểm nhất (Simulation-Engine amplify).
 > Phá 1 trong 3 điều kiện = hết xung đột.
+> 3 Satiation types = 3 natural resolution mechanisms.
 > VÀ: scarcity = ENGINE buộc mở rộng domain → đa dạng → ai cũng được.
 > Xung đột không chỉ là vấn đề — nó là áp lực tạo tiến bộ."*

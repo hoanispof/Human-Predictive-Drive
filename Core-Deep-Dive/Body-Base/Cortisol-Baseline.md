@@ -1,15 +1,16 @@
 ---
 title: Cortisol-Baseline — Change-Readiness Amplifier, KHÔNG Phải Stress Hormone
-version: 2.1
+version: 2.2
 created: 2026-04-18
 updated: 2026-05-15 (v2.1 — §10.7 HPA paradox + prenatal + neurodegeneration bridge, Health Conditions Drill)
-status: v2.1 — REFERENCE FILE (comprehensive cortisol mechanism + framework integration)
+refined: 2026-05-29 (v2.2 — L3 RETIRE: L0/L1/L3→L0+L1 substrate + PFC-mediated operators. Body-Base v3.3 aligned. L694 intensity gradient KEPT — separate concept)
+status: v2.2 — REFERENCE FILE (comprehensive cortisol mechanism + framework integration)
 scope: |
   WHAT cortisol IS (reframe: amplifier, NOT stress hormone) + HOW cascade WORKS (cascade timing, inertia)
   + WHERE cortisol PARTICIPATES (10 touchpoints in framework)
   + WHY pain sources are 3 (not cortisol) + Novelty vs Threat distinction (Source > Level)
   + Pathology (PFC damage, trauma loop 4-stage) + Optimization + Honest assessment + Open questions.
-  Tích hợp: Cortisol-Baseline-v1 (2026-03-24, backup) + Body-Feedback synthesis (N+12) + Chunk.md v2.0 NT7
+  Tích hợp: Cortisol-Baseline-v1 (2026-03-24, backup) + Body-Feedback synthesis (N+12) + Chunk.md v2.0 Direction-At-Compile
   + Imagine-Final §1.2 + Body-Input-Enumeration §4.9 + Why-Body-Knows 2-tầng calibration + Body-Dissonance + Novelty-Loop.
 purpose: |
   Central reference file cho cortisol trong framework.
@@ -17,8 +18,8 @@ purpose: |
   Vai trò tương đương Feeling.md v2.0, Chunk.md v2.0, Empathy.md v1.0, Valence-Propagation.md v1.0.
 sources: |
   Cortisol-Baseline-v1.md (~1300L, backup/) — v1 content còn accurate được refine + preserve
-  Body-Feedback.md + 01-04 — Dual-Pull, Interface Loop 6-step, H10 5 preconditions
-  Chunk.md v2.0 §2.4 NT7 — cortisol = direction gate at compile
+  Body-Feedback.md + 01-04 — Dual-Pull, Interface Loop 6-step, Body-Feedback-Precondition 5 preconditions
+  Chunk.md v2.0 §2.4 Direction-At-Compile — cortisol = compile direction gate
   Imagine-Final.md §1.2 — cortisol gates Imagine-Final activation levels
   Body-Input-Enumeration.md §4.9 — self-signal interoception keystone
   Why-Body-Knows.md v1.1 §3 — 2-tầng calibration (Darwinian + Hebbian, 2 đường vào)
@@ -26,11 +27,11 @@ sources: |
   Threat.md + Threat-Drive-Analysis.md — cortisol cascade + sustainer role
   PFC-Analysis.md §8.4 — NE α1/α2 circuit breaker mechanism
   Novelty.md + Novelty-Loop.md — cortisol inertia, holding signal, 2 modes
-  Logic-Feeling.md §317 + Case 1 — "cortisol = sustainer, not cause"
+  Logic-Feeling.md §5.1 (Case 1) — "cortisol = sustainer, not cause"
   Feeling-Mechanism-Deep.md §4 — cortisol drop = relief bonus, not cause of reward
   Neurochemistry-v8-Draft.md §4.1 — HPA axis, Schema=trigger/Hormone=sustain
-  Body-Base.md — substrate reframe 2026-04-14 (L0 Alive / L1 body-inputs / L3 drives)
-parent: Body-Base.md (cortisol operates across L1 substrate + L3 drive operators)
+  Body-Base.md v3.3 — substrate L0+L1 + PFC-mediated operators (observation parameters)
+parent: Body-Base.md (cortisol operates across L0+L1 substrate + PFC-mediated operators)
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 backup: Core-Deep-Dive/backup/Cortisol-Baseline-v1.md
@@ -112,12 +113,12 @@ backup: Core-Deep-Dive/backup/Cortisol-Baseline-v1.md
   │     - Self-signal interoception (§4.9 — keystone đọc     │
   │       chính cortisol signal. Atrophy → Silent Cortisol)   │
   ├───────────────────────────────────────────────────────────┤
-  │ L3 PFC drives (Body-Base §4.3)                            │
-  │   → Novelty drive: cortisol LOW-MODERATE, domain-pull    │
-  │   → Protect drive: cortisol MODERATE-HIGH, threat-pull   │
-  │   → Status drive: cortisol variable theo threat source   │
+  │ PFC-mediated operators (Body-Base §5.3)                    │
+  │   → Novelty: cortisol LOW-MODERATE, domain-pull          │
+  │   → Protect: cortisol MODERATE-HIGH, threat-pull         │
+  │   → Status: cortisol variable theo threat source         │
   ├───────────────────────────────────────────────────────────┤
-  │ SCHEMA + CHUNK compile (Chunk.md v2.0 §2.4 NT7)          │
+  │ SCHEMA + CHUNK compile (Chunk.md §2.4 Direction-At-Compile)          │
   │   → Cortisol tại compile time = DIRECTION GATE:          │
   │     novelty-direction → chunks tag APPROACH               │
   │     threat-direction  → chunks tag AVOIDANCE              │
@@ -198,18 +199,18 @@ Cortisol-Baseline-v1.md (2026-03-24, ~1300L):
   → Move to: Core-Deep-Dive/backup/Cortisol-Baseline-v1.md
   → Lý do: v1 tạo TRƯỚC 4 major drills:
      - Body-Feedback synthesis (N+12, 2026-04-17)
-     - Chunk-Analysis v2.0 NT7 (N+10)
+     - Chunk-Analysis v2.0 Direction-At-Compile (N+10)
      - Body-Base reframe (N+16, 2026-04-14)
      - Feeling Deep Analysis (N+14)
   → v1 insights CÒN ĐÚNG được tích hợp + refined trong v2.0
-  → v1 framing "layer" cũ thay bằng substrate reframe (L0/L1/L3)
+  → v1 framing "layer" cũ thay bằng substrate reframe (L0+L1, L3 retired in v3.0)
   → v2.0 THÊM:
      - §3 entire (10 touchpoints framework integration)
      - §2.3 Cortisol Inertia / Quán tính
      - §7.1 "Source > Level" principle formalized
      - §10 Trauma Loop 4-stage systematic
      - §13.4 3 Open questions documented
-     - Chunk direction gate (NT7) integrated với H10
+     - Chunk direction gate (Direction-At-Compile) integrated với Body-Feedback-Precondition
 
 ⚠️ Đọc v1 CHỈ nếu cần historical reference — v2.0 = current state.
 ```
@@ -542,7 +543,7 @@ HIỆN TƯỢNG "POST-PROJECT BLUES":
   → Dự án lớn kết thúc → cortisol high giai đoạn cuối
   → Xong → threat/challenge GIẢM → nhưng mismatch = ZERO
   → Cortisol drop GẦN → body chưa kịp recalibrate
-  → Tâm trạng: "trống rỗng, chênh vênh, mơ hồ"
+  → Tâm trạng: "emptiness, chênh vênh, mơ hồ"
   → 2-3 ngày sau mới ổn định → cortisol recalibrated + body relaxed
   → = Hiện tượng RẤT PHỔ BIẾN nhưng ít người hiểu cơ chế
 
@@ -713,20 +714,20 @@ TIMELINE TỔNG HỢP — TỪ TRIGGER TỚI BASELINE SHIFT + RECOVERY:
   → Cortisol = VOLUME KNOB cho dissonance signal đã được body detect
 ```
 
-### §3.3 H10 Precondition 5 — Chunk DIRECTION GATE (NT7)
+### §3.3 Body-Feedback-Precondition Precondition-5 Compile-Gate — Chunk DIRECTION GATE (Direction-At-Compile)
 
 ```
-⭐ INSIGHT QUAN TRỌNG (Chunk.md v2.0 §2.4 NT7):
+⭐ INSIGHT QUAN TRỌNG (Chunk.md §2.4 Direction-At-Compile):
 
-  H10 = Body Signal Precondition Hypothesis (Body-Feedback §5):
+  Body-Feedback-Precondition (Body-Feedback §5):
     Signal fires đúng KHI ALL 5 preconditions met:
-    P1: Schema serves body-need (foundation)
-    P2: Chunks base adequate
-    P3: prediction-delta threshold
-    P4: Goldilocks zone (40-70% match)
-    P5: ⭐ Chunk association tag (direction)
+    Precondition-1 Directed-Gap: Schema serves body-need (foundation)
+    Precondition-2 Chunk-Substrate: Chunks base adequate
+    Precondition-3 Delta-Gate: prediction-delta threshold
+    Precondition-4 Match-Range: Goldilocks zone (dynamic)
+    Precondition-5 Compile-Gate: ⭐ Chunk association tag (direction)
 
-  P5 = CORTISOL-DETERMINED DIRECTION GATE:
+  Precondition-5 = CORTISOL-DETERMINED DIRECTION GATE:
     → Tại COMPILE time, cortisol level + body-state direction DETERMINES
       chunk's association direction:
     → NOVELTY direction: cortisol + "curious/exciting" body state
@@ -741,7 +742,7 @@ TIMELINE TỔNG HỢP — TỪ TRIGGER TỚI BASELINE SHIFT + RECOVERY:
     MÀ LÀ: cortisol + CONCURRENT body-state direction → direction assigned
     → CÙNG cortisol level → KHÁC body state → KHÁC direction → KHÁC outcome
 
-  4-THRESHOLD GRADIENT (Chunk.md NT7):
+  4-THRESHOLD GRADIENT (Chunk.md Direction-At-Compile):
     NHẸ (threat:novelty ≈ 60:40):
       → Cortisol NHẸ + opioid anticipation
       → Chunk: "ok, chịu được" → update SAU dễ
@@ -762,11 +763,11 @@ TIMELINE TỔNG HỢP — TỪ TRIGGER TỚI BASELINE SHIFT + RECOVERY:
 
   ⭐ REFRAME QUAN TRỌNG:
     Old framework: "cortisol tagged chunks = bad"
-    NT7 reframe: "cortisol assigned DIRECTION — direction matters more than level"
+    Direction-At-Compile reframe: "cortisol assigned DIRECTION — direction matters more than level"
     Trauma = Expertise cùng CƠ CHẾ (large trigger surface)
     Chỉ khác: DIRECTION (avoidance vs approach)
 
-  🟡🟢 Chunk.md v2.0 NT7 — framework synthesis + research support
+  🟡🟢 Chunk.md v2.0 Direction-At-Compile — framework synthesis + research support
 ```
 
 ### §3.4 Change-Readiness Mode regulation (7 modes preview)
@@ -994,22 +995,22 @@ TIMELINE TỔNG HỢP — TỪ TRIGGER TỚI BASELINE SHIFT + RECOVERY:
       → Cortisol fires + dissonance signal + NE + other
       → "Something is off" — tín hiệu thuần
       → PHYSIOLOGICAL reality, không cần vocab
-    LAYER 6-7 (feeling interpretation):
+    FEEL-LABELING–FEEL-EXPLANATION (feeling interpretation):
       → PFC labels: "tôi đang lo lắng về deadline"
       → CHUNKS specific về situation + cortisol + past experience
       → VERBAL/CONCEPTUAL, dựa vào learned vocabulary
 
   VÍ DỤ:
     Scene: bạn thấy đồng nghiệp được promotion
-    Layer 1-2: cortisol mild elevation + opioid admiration (mixed)
-    Layer 6-7: "oai thật" (Vietnamese) hoặc "mixed feelings" (English)
+    Feel-RawSignals–Feel-Integration: cortisol mild elevation + opioid admiration (mixed)
+    Feel-Labeling–Feel-Explanation: "oai thật" (Vietnamese) hoặc "mixed feelings" (English)
     → Young child might feel SAME body signal, different feeling label
 
   ⭐ IMPLICATION:
     → Cortisol + body signals = INVARIANT across cultures/ages
     → Feeling labels = TRAINABLE, culturally specific
     → Self-signal interoception (§3.6) = bridge between 2 layers
-    → Alexithymia = Layer 1-2 fine, Layer 6-7 broken
+    → Alexithymia = Feel-RawSignals–Feel-Integration fine, Feel-Labeling–Feel-Explanation broken
 
   CROSS-CULTURAL NOTE:
     Vietnamese "bứt rứt" = no English equivalent
@@ -1060,7 +1061,7 @@ TIMELINE TỔNG HỢP — TỪ TRIGGER TỚI BASELINE SHIFT + RECOVERY:
   ⭐ CLINICAL IMPLICATIONS:
     Silent cortisol = damage without awareness
     → PFC doesn't engage repair mechanisms (§6)
-    → Trauma chunks compile silently (§3.3 NT7)
+    → Trauma chunks compile silently (§3.3 Direction-At-Compile)
     → Sleep quality degrades (§9) without conscious awareness
     → Body somatizes: IBS, chronic pain, autoimmune, fatigue
 
@@ -1659,7 +1660,7 @@ STRATEGY SPECTRUM:
 ### §7.1 "Source > Level" Principle ⭐
 
 ```
-⭐ CORE PRINCIPLE (Chunk.md v2.0 NT7 + Body-Feedback 03-Reward §9):
+⭐ CORE PRINCIPLE (Chunk.md v2.0 Direction-At-Compile + Body-Feedback 03-Reward §9):
 
   CÙNG cortisol level → KHÁC kết quả TUYỆT ĐỐI tùy SOURCE
   → SOURCE determines:
@@ -1728,7 +1729,7 @@ STRATEGY SPECTRUM:
 ### §7.3 Chunk direction implications
 
 ```
-🟡 FRAMEWORK (links §3.3 NT7):
+🟡 FRAMEWORK (links §3.3 Direction-At-Compile):
 
   Chunks được COMPILE TẠI MOMENT cortisol fires.
   Direction tại moment đó = LOCK IN vào chunk association.
@@ -1743,7 +1744,7 @@ STRATEGY SPECTRUM:
       → Cortisol moderate (same LEVEL)
       → Body state = threat direction
       → Math chunks compile with AVOIDANCE TAG
-        (cortisol present as AMPLIFIER, not cause — §3.3 NT7 reframe)
+        (cortisol present as AMPLIFIER, not cause — §3.3 Direction-At-Compile reframe)
       → Adult: "I know math but hate touching it"
 
   → SAME content learned, SAME cortisol level, DIFFERENT long-term usability
@@ -1959,9 +1960,9 @@ STRATEGY SPECTRUM:
     Tag LOCK IN vào chunk (có thể re-associate qua §7.6).
 
     Files dùng role này:
-      → Chunk.md §2.4 NT7: direction gate
+      → Chunk.md §2.4 Direction-At-Compile
       → Threat.md: trauma chunks = avoidance compile
-      → Body-Feedback 03-Reward: H10 P5
+      → Body-Feedback 03-Reward: Body-Feedback-Precondition Precondition-5
 
 
   ② HOLDING (§3.8):
@@ -2459,7 +2460,7 @@ MA TRẬN SPIKE × TIME:
     → Amygdala + NE + adrenaline + cortisol ALL firing
     → Chunks compile UNDER this state
     → Chunks tagged with cortisol (direction = AVOIDANCE)
-    → P5 (Body-Feedback H10 precondition 5) VIOLATED from start
+    → Precondition-5 Compile-Gate (Body-Feedback-Precondition) VIOLATED from start
 
   Emotional peak mechanism:
     Very high emotional intensity → chunks compile INSTANTLY
@@ -2475,7 +2476,7 @@ MA TRẬN SPIKE × TIME:
   KEY INSIGHT:
     Trauma chunks are ABOVE-AVERAGE quality (deep, fast-firing)
     But direction = AVOIDANCE → reduces adult functionality
-    → Expertise + Trauma = cùng mechanism, khác direction (NT7)
+    → Expertise + Trauma = cùng mechanism, khác direction (Direction-At-Compile)
 ```
 
 ### §10.2 Stage 2 — PFC draft without resolution
@@ -2916,7 +2917,7 @@ MA TRẬN SPIKE × TIME:
 
   OBSERVATION:
     Dự án lớn kết thúc successful → should feel relief
-    Thực tế: 2-3 ngày "trống rỗng, chênh vênh, mơ hồ"
+    Thực tế: 2-3 ngày "emptiness, chênh vênh, mơ hồ"
     → Phenomenon RẤT PHỔ BIẾN nhưng ít người hiểu
 
   MECHANISM:
@@ -3174,7 +3175,7 @@ FRAMEWORK CONTRIBUTIONS:
   🟡 10 framework touchpoints (§3 integration)
   🟡 Dual-Pull: cortisol ở Domain Pull side
   🟡 Interface Loop Step 4: cortisol amplifier
-  🟡 H10 Precondition 5: chunk direction gate (links NT7)
+  🟡 Body-Feedback-Precondition Precondition-5 Compile-Gate: chunk direction gate (links Direction-At-Compile)
   🟡 Imagine-Final activation gated by cortisol level (§3.7)
   🟡 Holding Signal for imagination loop (§3.8)
   🟡 Silent Cortisol pathology (§3.10)
@@ -3204,7 +3205,7 @@ EXPLICIT HYPOTHESES:
      → Direct measurement needed
 
   🔴 Chunk direction gate mechanism at MOLECULAR level
-     → NT7 is framework synthesis
+     → Direction-At-Compile is framework synthesis
      → How exactly cortisol + direction encode chunk tag?
      → Awaits neuroscience granular data
 
@@ -3266,7 +3267,7 @@ EXPLICIT HYPOTHESES:
 
 ```
 PARENT + SUBSTRATE:
-  → Body-Base.md (parent — L0/L1/L3 substrate model)
+  → Body-Base.md v3.3 (parent — L0+L1 substrate + observation parameters)
   → Body-Input-Enumeration.md §4.9 (self-signal interoception keystone)
   → Why-Body-Knows.md v1.1 §3 (2-tầng calibration + 2 đường vào)
 
@@ -3276,13 +3277,13 @@ REWARD ARCHITECTURE (2026-05-10 NEW):
   → PFC-Configuration.md v1.0 — cortisol triggers config ④ (PFC disconnect)
 
 CORE MECHANISMS (sibling reference files):
-  → Chunk.md v2.0 §2.4 (NT7 direction gate at compile)
+  → Chunk.md v2.0 §2.4 (Direction-At-Compile)
   → Feeling.md v2.0 (PFC observation of body state)
   → Empathy.md v1.0 (Self-Pattern-Modeling applied to others)
   → Valence-Propagation.md v1.0 (body evaluates entities)
 
 FRAMEWORK INTEGRATION POINTS (§3):
-  → Body-Feedback.md + 01-04 (Dual-Pull, Interface Loop, H10)
+  → Body-Feedback.md + 01-04 (Dual-Pull, Interface Loop, Body-Feedback-Precondition)
   → Imagine-Final.md §1.2 (cortisol gates activation)
   → Novelty.md + Novelty-Loop.md (holding signal, 2 modes)
   → Threat.md + Threat-Drive-Analysis.md (cascade + sustainer)
@@ -3292,7 +3293,7 @@ NEUROSCIENCE DETAIL:
   → Neurochemistry-v8-Draft.md §4.1 (HPA axis context)
 
 DIAGNOSTIC / DETECTION:
-  → Logic-Feeling.md §317 + Case 1 (timing reveals mechanism)
+  → Logic-Feeling.md §5.1 (Case 1) (timing reveals mechanism)
   → Feeling-Mechanism-Deep.md §4 (cortisol drop = relief, not reward)
   → Body-Dissonance.md §2 (14 levels × 6 sources, amplitude mapping)
 

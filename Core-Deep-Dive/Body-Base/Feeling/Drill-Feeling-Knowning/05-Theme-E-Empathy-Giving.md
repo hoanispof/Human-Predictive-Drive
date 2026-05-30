@@ -749,7 +749,7 @@ This is consistent with spiritual traditions' emphasis on cultivating non-attach
 **Q3: Khi nào giúp mà thấy vui?**
 → 4 triggers can compound:
 1. Mirror reward visible (recipient happiness)
-2. Gratitude received (L3 status)
+2. Gratitude received (status, evaluative)
 3. Positive Resonance fit
 4. Positive trust foundation (thiện cảm present)
 
@@ -769,7 +769,7 @@ Strongest joy when all 4 present.
 **Q8: Khi nào giúp mà thấy khó chịu?**
 → 4 cases:
 - A. Body cost > mirror reward
-- B. Recipient rejection (prediction error + L3 hit)
+- B. Recipient rejection (prediction error + status hit)
 - C. Low reaction vs high expectation (prediction error)
 - D. Exploitation discovered (major trust break + retroactive reinterpretation)
 
@@ -834,7 +834,7 @@ Theme E is a **test case for Theme A architecture**:
 Theme E cases often **pre-verbal**:
 - Thiện cảm is felt BEFORE labeling
 - Mother-resemblance case: emotion emerges before "why"
-- Framework: verbal is Layer 6 downstream of body integration
+- Framework: verbal is Feel-Labeling downstream of body integration
 - Confirms Theme B's "body-first, verbal-anchor" pattern
 
 ### §4.3 — Theme C (Ritual)
@@ -889,7 +889,7 @@ Giving is heavily feeling-biased:
 
 2. **Thiện cảm = compound positive valence** from convergence of safety + positive mirror + compiled valence + schema match + agent input. NOT a single feeling — label for positive convergence. Activates when multiple positive signals align.
 
-3. **Joy from giving** = 4 compounding triggers: visible recipient reward + gratitude (L3 status) + positive Resonance fit + positive trust foundation. All 4 together = strongest joy.
+3. **Joy from giving** = 4 compounding triggers: visible recipient reward + gratitude (status, evaluative) + positive Resonance fit + positive trust foundation. All 4 together = strongest joy.
 
 4. **Cây xoài vs cây chuối cases = DIFFERENT mechanisms**: Cây xoài = positive trust + body satiated + natural resource distribution (Empathy-Mirror §6.5). Cây chuối = negative trust (avoid áy náy) + community schema + social visibility. First is sustainable, second depends on community support.
 

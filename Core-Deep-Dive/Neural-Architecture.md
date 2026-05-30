@@ -173,7 +173,7 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
 
   PFC HARDWARE PROPERTIES:
     → Online from BIRTH (🟢 Huttenlocher 1979, Doria 2010, Kouider 2013)
-    → Newborn PFC = hardware present, CHUNKS MISSING (NT4 reframe)
+    → Newborn PFC = hardware present, CHUNKS MISSING (PFC-From-Prenatal reframe)
     → Layer 2/3 DÀY nhất → broadest cortex-cortex connectivity
     → WM capacity: ~4±1 items (🟢 Cowan 2001)
     → COMT gene: Val/Val = fast clear, Met/Met = slow clear
@@ -185,7 +185,7 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
     → HOLD: giữ chunks active trong WM (~4±1)
     → TYPE 4 LINKING: deliberate chaining ("thinking") — Chunk.md §3
     → IMAGINATION: combine chunks → simulate chưa xảy ra
-    → DOMAIN-CHECK: verify body-smooth vs reality (1A vs 1B)
+    → DOMAIN-CHECK: verify body-smooth vs reality (Domain-Checked vs Self-Referencing)
     → ORCHESTRATE: hold goals → bias B areas via top-down
     → GATE: control thalamus qua TRN → chọn sensory channels
     → INHIBIT: suppress compiled responses ("đừng nói vậy")
@@ -328,7 +328,7 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   │     → PFC CÓ THỂ modulate amygdala SAU khi nó đã fire           │
   │     → PFC KHÔNG THỂ ngăn amygdala fire lần đầu                  │
   │     → Extinction learning: vmPFC gradually recalibrate amygdala  │
-  │   Framework: threat detection, emotional peak compile, P5 tag    │
+  │   Framework: threat detection, emotional peak compile, Precondition-5 tag │
   │   🟢 LeDoux 1996, Phelps et al. 2004, Ghashghaei et al. 2007    │
   ├─────────────────────────────────────────────────────────────────┤
   │ HIPPOCAMPUS                                                      │
@@ -374,7 +374,7 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   │   VTA (Ventral Tegmental Area):                                  │
   │     → Dopamine source → prediction-delta signals                  │
   │     → Fires on: positive prediction-delta (input > expected)                    │
-  │     → Framework: delta rule, H10 P3 VTA threshold                │
+  │     → Framework: delta rule, Body-Feedback-Precondition Precondition-3 Delta-Gate VTA threshold │
   │     → 🟢 Schultz 1997 (prediction error)                          │
   │                                                                   │
   │   LC (Locus Coeruleus):                                          │
@@ -650,7 +650,7 @@ WITHIN FRAMEWORK:
 NEW CONCEPT MAPPING (28-session Drill):
   Simulation-Engine.md v1.0 — Zone A: PFC simulation = interoception × simulation × Self-Pattern-Modeling
     → PFC (dlPFC, vmPFC) + hippocampus + default mode network
-    → = Simulation Engine neural substrate identified
+    → = Simulation-Engine neural substrate identified
   Entity-Access.md v1.2 — Zone A+C: entity-access gradient maps to:
     → Amygdala (C): per-entity valence tagging
     → Hippocampus (C): per-entity memory consolidation
@@ -685,9 +685,9 @@ KEY RESEARCH (by area):
 > PFC accessibility = gradient, không binary.
 > Chunks compile across ALL zones — PFC involvement varies.
 > PFC = last to know (timing hierarchy: D→C→B→A).
-> Simulation Engine = Zone A (PFC + hippocampus + DMN).
+> Simulation-Engine = Zone A (PFC + hippocampus + DMN).
 > Entity-Access/Entity-Compiled = Zone A+C distributed network.
 > "Unconscious" replaced by specific, verifiable, challengeable claims.
 >
 > Phiên bản: v1.1, 2026-05-23.
-> v1.1: +Simulation Engine mapping, +Entity-Access/Entity-Compiled mapping, versions updated.
+> v1.1: +Simulation-Engine mapping, +Entity-Access/Entity-Compiled mapping, versions updated.

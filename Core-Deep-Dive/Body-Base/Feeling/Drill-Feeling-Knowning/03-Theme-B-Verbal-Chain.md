@@ -45,7 +45,7 @@ warning: Theme này cần external research verification — framework coverage 
 ### §1.1 — Framework partial coverage
 - [Logic-Feeling.md §6 Modality Bias](../../../Logic-Feeling.md) — Verbal/visual dominant → logic-biased
 - [Feel-Development.md §5 Math Formula Analogy](../Feel-Development.md) — chunks cumulative + branching
-- [Feeling.md §2 Layer 6 Labeling](../Feeling.md) — Verbal compression, Barrett granularity
+- [Feeling.md §2 Feel-Labeling](../Feeling.md) — Verbal compression, Barrett granularity
 - [Feeling-Accuracy.md §3.6 Cultural Script Override](../Feeling-Accuracy.md) — Language constraints
 - [Feel-Example-Draft.md §3 Toddler verbal emergence](../Feel-Example-Draft.md) — E21-E32 development
 
@@ -481,7 +481,7 @@ Framework's [Feel-Development §5 Math formula analogy](../Feel-Development.md) 
 **→ Framework IMPLICITLY SUPPORTS user's anchor hypothesis**: math analogy shows how chains build hierarchically, with different anchor types at different stages.
 
 **Logic-Feeling §6 Modality Bias** adds:
-- **Verbal dominant people**: better at logic-chain tasks, over-rely on Layer 6-7
+- **Verbal dominant people**: better at logic-chain tasks, over-rely on Feel-Labeling–Feel-Explanation
 - **Somatic dominant people**: better at body feelings, pre-verbal pattern recognition, often miss verbal chain tasks
 - **Both needed**: neither modality is complete
 
@@ -586,16 +586,16 @@ Theme B reveals **framework gap**:
 ### §4.1 — Theme A (Architecture)
 
 Theme B fits Theme A's architecture:
-- **Verbal labels = Layer 6 in 7-layer model** (framework's explicit mapping)
+- **Verbal labels = Feel-Labeling in 7-layer model** (framework's explicit mapping)
 - **Verbal chain = PFC observation + chunking via verbal rehearsal**
-- **Pre-verbal body signals = Layer 3-4** (felt sense)
+- **Pre-verbal body signals = Feel-Consciousification–Feel-Observation** (felt sense)
 - **Verbal DOESN'T generate feelings** — it labels what body/unconscious produced
 
 Theme A's "PFC observes integrated unconscious processing" explicitly places verbal DOWNSTREAM of body computation.
 
 ### §4.2 — Theme D (Right/Wrong Feeling)
 
-Theme D's mechanism (Layer 3 wrongness feeling) is **PRE-VERBAL**. Verbal comes later at Layer 6-7 to label the feeling. Einstein case confirms: visual + muscular simulation first, math (symbolic) second.
+Theme D's mechanism (Feel-Consciousification wrongness feeling) is **PRE-VERBAL**. Verbal comes later at Feel-Labeling–Feel-Explanation to label the feeling. Einstein case confirms: visual + muscular simulation first, math (symbolic) second.
 
 **→ Theme B validates Theme D's "body-first" claim**: wrongness feelings emerge before verbal labels.
 

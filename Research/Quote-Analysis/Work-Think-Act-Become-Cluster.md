@@ -33,7 +33,7 @@ dependencies:
     - Imagine-Final.md v3.0 — §3 PFC=Extension NOT source, §4 PFC×Imagine-Final, §6 Gradient+Bootstrap, §9 Reflection vs Rumination
   Body-Base:
     - Schema.md v2.0 — §7.2 2 pathways (vô thức vs PFC draft), §8 Body baseline = ground truth
-    - Cortisol-Baseline.md v2.1 — §3.3 Direction tag NT7, §3.5 Compile acceleration
+    - Cortisol-Baseline.md v2.1 — §3.3 Direction-At-Compile, §3.5 Compile acceleration
     - Body-Feedback-Mechanism.md v2.0 — Chunk dynamics
   Agent:
     - Self-Pattern-Modeling.md v3.1 — §9 Triple Bias source
@@ -321,7 +321,7 @@ QUOTE 2 — "The mind is everything. What you think, you become."
 ### §2.3 — Direction Tag: HOW you fake > WHETHER you fake
 
 ```
-⭐ Cortisol-Baseline §3.3 NT7 — COMPILE-TIME DIRECTION LOCK:
+⭐ Cortisol-Baseline §3.3 Direction-At-Compile — COMPILE-TIME DIRECTION LOCK:
 
   CÙNG hành vi "fake it" + KHÁC body state direction → KHÁC suốt đời:
 
@@ -606,7 +606,7 @@ QUOTE 2 — "The mind is everything. What you think, you become."
   │    Novelty body state → APPROACH tag → genuine-compiled             │
   │    Neutral body state → FLAT tag → schema-compiled                  │
   │    Threat body state → AVOIDANCE tag → threat-compiled              │
-  │    (Cortisol-Baseline §3.3 NT7)                                     │
+  │    (Cortisol-Baseline §3.3 Direction-At-Compile)                                     │
   │                                                                     │
   │  ② BODY CONFIRMATION                                               │
   │    Body genuine reward → confirm → compile sustainable              │
@@ -644,7 +644,7 @@ QUOTE 2 — "The mind is everything. What you think, you become."
   │ SCHEMA-COMPILED  │ Quality Gate: partial (mixed).                    │
   │ (Outcome B)      │ Body NEUTRAL. Suppress compiled. Flat.            │
   │                  │ = "Biết nhưng không cảm" — outside OK, inside     │
-  │                  │   empty. "Thành công mà trống rỗng."              │
+  │                  │   empty. "Thành công mà emptiness."               │
   │                  │ Functional but joyless. Reward system dampened.    │
   ├──────────────────┼───────────────────────────────────────────────────┤
   │ THREAT-COMPILED  │ Quality Gate: unfavorable.                        │
@@ -665,7 +665,7 @@ QUOTE 2 — "The mind is everything. What you think, you become."
     = Mỗi cluster restore 1 "biến ẩn" cho public consciousness.
 
   🟡 Compile Quality Gate model = framework synthesis
-  🟢 Components individually established (Cortisol NT7, Compiled Quality,
+  🟢 Components individually established (Cortisol Direction-At-Compile, Compiled Quality,
       Compilable Architecture, vmPFC/DRN, Background-Pattern 2D model)
 ```
 
@@ -965,7 +965,7 @@ QUOTE 2 — "The mind is everything. What you think, you become."
 | Background-Pattern.md | v2.0 | §3, §5, §6 | Formation, PFC invisible, Triple Bias |
 | Imagine-Final.md | v3.0 | §3, §4, §6, §9 | PFC=Extension, Bootstrap, Reflection/Rumination |
 | Schema.md | v2.0 | §7.2, §8 | 2 pathways, Body baseline ground truth |
-| Cortisol-Baseline.md | v2.1 | §3.3, §3.5 | Direction tag NT7, Compile acceleration |
+| Cortisol-Baseline.md | v2.1 | §3.3, §3.5 | Direction-At-Compile, Compile acceleration |
 | Autonomy-Hardware.md | v1.1 | §2 | vmPFC/DRN, internal vs external drive |
 | Self-Pattern-Modeling.md | v3.1 | §9 | Triple Bias source |
 | Self-Created-Threat.md | v1.0 | §1 | Body doesn't distinguish imagine vs real |

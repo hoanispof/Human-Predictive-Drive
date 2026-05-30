@@ -646,7 +646,7 @@ Compare to:
 
 **Why social is faster to L2**: Because multi-modal richness **accelerates compile**. Each social event involves multiple channels firing together, providing multiple reinforcement pathways (visual + auditory + interoceptive + emotional + motor feedback loop with caregiver). The 4-channel compile formula from 06a §6.3 predicts that events with higher multi-modal richness compile faster. Social events are the **richest multi-modal events** in the infant's experience.
 
-This is **independent validation** of the Nút Thắt 2 P2 compile mechanism claim via a different axis (multi-modal richness affects rate). The 06b cross-state synthesis showed exposure × saliency × contingency × valence; 07 adds **multi-modal richness** as a fifth implicit modulator (since social events combine all four primary channels).
+This is **independent validation** of the Nút Thắt 2 Precondition-2 compile mechanism claim via a different axis (multi-modal richness affects rate). The 06b cross-state synthesis showed exposure × saliency × contingency × valence; 07 adds **multi-modal richness** as a fifth implicit modulator (since social events combine all four primary channels).
 
 ### §5.3 — Ladder non-uniform progression within social
 
@@ -767,7 +767,7 @@ The framework commits to **four concurrent mechanisms** for multi-modal binding,
 - H1 is supported: chunks are **strength-weighted associative networks** (per 04 §6.4 Nút Thắt 1 verdict) with **cross-modal content** from the start. Chunks are not single-modality first and then bound; they are multi-modal from the substrate level.
 - The architecture is consistent with biological substrate (Hebbian LTP across distributed regions, amygdala tagging, multisensory neurons).
 
-**For Nút Thắt 2 (P2 compile mechanism)**:
+**For Nút Thắt 2 (Precondition-2 compile mechanism)**:
 - Adds **multi-modal richness** as an implicit modulator of compile rate (from 06b §6 framework)
 - Social events compile faster to L2 than interoceptive events because social events have higher multi-modal richness
 - Formula refinement: compile rate ≈ f(exposure, saliency, contingency, valence, multi-modal richness)
@@ -788,7 +788,7 @@ The framework commits to **four concurrent mechanisms** for multi-modal binding,
 - Mechanism statement per §6.2
 - E12 social smile as keystone exemplar
 - 4 converging lines each with independent support
-- Link to Nút Thắt 1 gradient verdict (chunks are strength-weighted) and Nút Thắt 2 P2 mechanism (compile rate modulators)
+- Link to Nút Thắt 1 gradient verdict (chunks are strength-weighted) and Nút Thắt 2 Precondition-2 mechanism (compile rate modulators)
 
 ### §6.6 — Open sub-questions
 
@@ -995,7 +995,7 @@ All support the framework claim that **verbal is one of several labeling/handle 
 ### §10.3 — Body-Feedback-Draft (drilled N+3)
 
 - [Body-Feedback-Draft/01-Foundation.md §5.5.4](../Body-Feedback-Draft/01-Foundation.md#§5.5.4) — buồn gradient (emotional layer emergence)
-- [Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) — H10 P5 cortisol tagging (relevant to §6 attachment emotional arc)
+- [Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) — Precondition-5 Compile-Gate, cortisol tagging (relevant to §6 attachment emotional arc)
 
 ### §10.4 — Body-Base framework
 

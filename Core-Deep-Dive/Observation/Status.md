@@ -1,10 +1,10 @@
----
+﻿---
 title: Status — Observation Parameter
 version: 2.2
 created: 2026-04-20
 rewritten: 2026-04-21
 updated: 2026-05-17 v2.1 — +Compilable Architecture, +Compiled/Fresh explicit, +PFC=Lawyer, cross-refs updated
-refined: 2026-05-23 (v2.2 — Concept Cascade: +Entity-Access gradient, +Hardware Subsidy, +By-Product-Scale, +M1-M4. Updated versions + cross-refs)
+refined: 2026-05-23 (v2.2 — Concept Cascade: +Entity-Access gradient, +Hardware-Subsidy, +By-Product-Scale, +Firing Modes. Updated versions + cross-refs)
 status: OBSERVATION PARAMETER v2.2
 scope: |
   OBSERVATION FILE: Status = named pattern khi quan sát resource access
@@ -39,20 +39,20 @@ position: |
 dependencies:
   - Core-v7.8-Draft.md — cycle architecture, §8 observation parameters
   - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, compound mechanism
-  - Body-Feedback/03-Reward.md — VTA alert + opioid reward 2-level, H10
+  - Body-Feedback/03-Reward.md — VTA alert + opioid reward 2-level, Body-Feedback-Precondition
   - Chunk.md v2.0 — chunk substrate, compilation, hierarchy
   - Agent-Mechanism.md v2.1 — Self-Pattern-Modeling mechanism, §12 body-need feeder, 10 dimensions
-  - Connection.md v5.0 — overlap analysis, 4-Layer Sustainability, M1-M4
+  - Connection.md v5.0 — overlap analysis, 4-Layer Sustainability, Resonance Decline
   - Threat.md v1.2 — social threat, imposed threat, anticipation loop
   - Protect.md v1.0 — ownership chunks, loss aversion, f(repl×attach)
   - Cortisol-Baseline.md v2.0 — amplifier, vicious cycle, direction tag
   - Feeling.md v2.0 — PFC observation interface
-  - Valence-Propagation.md v3.0 — body evaluation, 3 firing modes, hardware subsidy
+  - Valence-Propagation.md v3.0 — body evaluation, 3 firing modes, hardware-subsidy
   - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, PFC=Lawyer, Compiled/Fresh
   - Body-Feedback-Label.md v2.0 — framework vocabulary reference
   - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — status = access gradient reframe
   - Chunk/Agent-Mechanism/By-Product-Scale.md v1.0 — status across 3 scales
-  - Chunk/Agent-Mechanism/Bond-Architecture.md v1.0 — M1-M4 firing modes per status display
+  - Chunk/Agent-Mechanism/Bond-Architecture.md v2.0 — Resonance Decline, firing modes per status display
   - Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT
   - Knowledge-Flow.md — status enables/blocks knowledge transmission
   - Autonomy-Hardware.md — efference copy, self-action = reward
@@ -420,16 +420,16 @@ ENTITY-ACCESS GRADIENT = STATUS GRADIENT (Entity-Access.md v1.2):
     Mức 2 (friend): nhiều schema mở — voice, support, initiative
     Mức 3 (close): hầu hết mở — intimacy, deep support
     Mức 4 (family): gần như tất cả mở + obligation
-    Mức 5 (self/child): TOÀN BỘ mở + hardware subsidy amplify
+    Mức 5 (self/child): TOÀN BỘ mở + hardware-subsidy amplify
 
   → STATUS = Entity-Access nhìn từ GÓC RESOURCE
   → Entity-Access = STATUS nhìn từ GÓC RELATIONSHIP DEPTH
   → = CÙNG 1 gradient, 2 observation perspectives
 
-HARDWARE SUBSIDY × STATUS (Valence-Propagation v3.0 §5):
+HARDWARE-SUBSIDY × STATUS (Entity-Valence-Dynamics.md v1.0 §5):
   → Body hardware cung cấp baseline status reward "miễn phí" per entity level
   → Mức 5 entity (con): oxytocin/opioid fire TỰ ĐỘNG khi gần → status "tốt" mặc định
-  → Mức 1 entity (stranger): KHÔNG có hardware subsidy → status phải EARN
+  → Mức 1 entity (stranger): KHÔNG có hardware-subsidy → status phải EARN
   → = TẠI SAO status với gia đình KHÁC CHẤT với status công việc
 
 BY-PRODUCT-SCALE (By-Product-Scale.md v1.0):
@@ -440,17 +440,17 @@ BY-PRODUCT-SCALE (By-Product-Scale.md v1.0):
   → Cùng người → khác scale → khác status dynamics
   → VD: cha = Mức 5 ở PAIR scale, nhưng status thấp ở INSTITUTIONAL scale
 
-M1-M4 FIRING MODES × STATUS (Bond-Architecture.md v1.0):
+FIRING MODES × STATUS (Entity-Valence-Dynamics.md v1.0 §4):
   → Status display KHÁC NHAU theo firing mode:
-    M1 Tonic: duy trì status baseline liên tục (posture, gaze, voice tone)
-    M2 Phasic: status event cụ thể (được khen, bị phê bình)
-    M3 Compound: nhiều hệ fire đồng thời (được thăng chức = dopamine+serotonin+social)
-    M4 Cascade: chain status events (thắng giải → được invite → network mở → opportunities)
+    Tonic: duy trì status baseline liên tục (posture, gaze, voice tone)
+    Phasic: status event cụ thể (được khen, bị phê bình)
+    Compound: nhiều hệ fire đồng thời (được thăng chức = dopamine+serotonin+social)
+    Cascade: chain status events (thắng giải → được invite → network mở → opportunities)
 
 🟡 Entity-Access × status = framework convergence (2 perspectives, 1 gradient)
-🟡 Hardware Subsidy × status = framework application
+🟡 Hardware-Subsidy × status = framework application
 🟡 By-Product-Scale × status = framework taxonomy (3 scales)
-🟡 M1-M4 × status = framework application (4 display modes)
+🟡 Firing Modes × status = framework application (4 display modes)
 ```
 
 ---
@@ -1335,7 +1335,7 @@ M1-M4 FIRING MODES × STATUS (Bond-Architecture.md v1.0):
     hoặc tăng position thật (experience thật, không phải compare)
 ```
 
-### §7.3 — "Thành công nhưng trống rỗng" — multi-causal
+### §7.3 — "Thành công nhưng emptiness" — multi-causal
 
 ```
 🟡 CASE STUDY ĐẶC BIỆT — phân tích kỹ hơn v1.0:
@@ -1352,7 +1352,7 @@ M1-M4 FIRING MODES × STATUS (Bond-Architecture.md v1.0):
      → Body-base KHÔNG hạnh phúc như Imagine-Final preview
        (vì: preview = simulation 20-60% fidelity, Imagination.md §3)
      → Imagine-Final ĐÃ ĐẠT nhưng body response KHÔNG match preview
-     → VÀ: Imagine-Final TIẾP THEO chưa có → TRỐNG RỖNG
+     → VÀ: Imagine-Final TIẾP THEO chưa có → EMPTINESS
      → = Boredom.md territory: Imagine-Final chưa rõ → existential boredom
 
   ② CONNECTION BỊ PHÁ trong quá trình build:
@@ -1372,7 +1372,7 @@ M1-M4 FIRING MODES × STATUS (Bond-Architecture.md v1.0):
      → Focus career = focus 1-2 channels (status + novelty)
      → Các channels khác bị neglect: connection, autonomy vùng khác, meaning
      → Mỗi channel đói = 1 dissonance signal
-     → Tổng hợp = "trống rỗng" dù status position CAO
+     → Tổng hợp = "emptiness" dù status position CAO
 
   ⑤ CORTISOL ONGOING (continuous threat):
      → Sợ mất những gì đã có (Protect.md: loss aversion ở high status)
@@ -1380,7 +1380,7 @@ M1-M4 FIRING MODES × STATUS (Bond-Architecture.md v1.0):
      → Cortisol suppress maps → "có quyền nhưng body CẢM NHẬN restricted"
      → = Trên giấy maps mở, body cảm nhận maps hẹp
 
-  → "Trống rỗng" = COMPOUND nhiều nguyên nhân đồng thời
+  → "Emptiness" = COMPOUND nhiều nguyên nhân đồng thời
   → Fix KHÔNG phải "thêm thành công" (thêm status không fix connection/health)
   → Fix phải multi-channel: Imagine-Final mới + restore connection
     + sức khỏe hồi phục + giảm threat sources
@@ -2291,7 +2291,7 @@ M1-M4 FIRING MODES × STATUS (Bond-Architecture.md v1.0):
   🟡 Status as meta-parameter gating other params (§12)
   🟡 MXH mechanism chain (aspiration → gap → cortisol → suppress)
   🟡 Military as "status optimization" framing
-  🟡 "Thành công nhưng trống rỗng" multi-causal analysis (§7.3)
+  🟡 "Thành công nhưng emptiness" multi-causal analysis (§7.3)
   🟡 Agents as external tools for body-base (Agent.md §12 extension)
 
   ❌ WHAT WE DON'T KNOW:
@@ -2363,12 +2363,12 @@ M1-M4 FIRING MODES × STATUS (Bond-Architecture.md v1.0):
     → Cortisol-Baseline.md v2.0 §3 — 10 touchpoints
     → Cortisol-Baseline.md v2.0 §4 — Silent cortisol (MXH pathway)
     → Chunk.md v2.3 — Chunk substrate, compilation, hierarchy
-    → Valence-Propagation.md v3.0 — Valence shift, 3 firing modes, hardware subsidy
+    → Valence-Propagation.md v3.0 — Valence shift, 3 firing modes, hardware-subsidy
 
   NEW CONCEPT FILES (28-session Drill — §1.3):
     → Entity-Access.md v1.2 — status = Entity-Access gradient per-entity
     → By-Product-Scale.md v1.0 — status across 3 scales (pair/hub/institutional)
-    → Bond-Architecture.md v1.0 — M1-M4 firing modes × status display
+    → Bond-Architecture.md v2.0 — Resonance Decline, firing modes × status display
 
   OBSERVATION PARAMETER FILES:
     → Observation/Connection.md — §1.3 (4 Cases), §3 (Calibration)
@@ -2441,7 +2441,7 @@ Status = observation parameter: resource access calibration giữa social agents
 ⭐ HONEST:
   Function = proven (cross-species). Hormone = candidate. Exact circuit = unknown.
   Resource Access Map = framework synthesis (more explanatory than hierarchy).
-  "Thành công nhưng trống rỗng" = multi-causal (NOT just cortisol suppress).
+  "Thành công nhưng emptiness" = multi-causal (NOT just cortisol suppress).
 
 ⭐ v2.1 ADDITIONS:
   Compilable Architecture: status = emergent từ general-purpose system (§0)
@@ -2450,10 +2450,10 @@ Status = observation parameter: resource access calibration giữa social agents
 
 ⭐ v2.2 ADDITIONS (Concept Cascade):
   §1.3 NEW: Entity-Access gradient = status gradient (2 perspectives, 1 mechanism)
-  +Hardware Subsidy × status (Valence-Propagation v3.0 §5)
+  +Hardware-Subsidy × status (Entity-Valence-Dynamics.md v1.0 §5)
   +By-Product-Scale × status (3 scales: pair/hub/institutional)
-  +M1-M4 firing modes × status display (4 modes)
-  Cross-refs: +Entity-Access v1.2, +By-Product-Scale v1.0, +Bond-Architecture v1.0, Valence-Propagation v2.0→v3.0, Agent→Agent-Mechanism v2.1
+  +Firing Modes × status display (4 modes)
+  Cross-refs: +Entity-Access v1.2, +By-Product-Scale v1.0, +Bond-Architecture v2.0, Valence-Propagation v2.0→v3.0, Agent→Agent-Mechanism v2.1
 ```
 
 ---
@@ -2467,4 +2467,4 @@ Status = observation parameter: resource access calibration giữa social agents
 > **v1.0 backup:** backup/Status-v1.0-backup.md (1,301L)
 > **v0 backup:** backup/Status-Analysis-v2-v75-era.md (656L)
 > **v7.8 aligned:** ✅ observation parameter, cycle-based, chunk dynamics, evolutionary grounded
-> **v2.2:** ⑰ Entity-Access gradient, ⑱ Hardware Subsidy, ⑲ By-Product-Scale, ⑳ M1-M4
+> **v2.2:** ⑰ Entity-Access gradient, ⑱ Hardware-Subsidy, ⑲ By-Product-Scale, ⑳ Firing Modes

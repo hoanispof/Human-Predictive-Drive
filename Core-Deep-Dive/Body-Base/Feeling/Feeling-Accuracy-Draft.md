@@ -6,8 +6,8 @@
 > **"Đau bụng chỗ này." — chính xác nhất có thể là ở đâu?**
 >
 > PFC đọc feelings — nhưng đọc SAI thường xuyên.
-> Wise people TRUST Layer 3-4 (body noticeable, pre-labeled).
-> Naive people TRUST Layer 6-7 (label + explanation).
+> Wise people TRUST Feel-Consciousification–Feel-Observation (body noticeable, pre-labeled).
+> Naive people TRUST Feel-Labeling–Feel-Explanation (label + explanation).
 > Error modes có predictable patterns.
 > Literacy = trainable skill, critical cho AI era.
 >
@@ -85,7 +85,7 @@
 🟡 HOW PFC READS FEELINGS — OFTEN WRONG:
 
   Feeling.md §2 established: feeling has 7 layers, fidelity
-  decreases going up. Layer 6 (labeling) + Layer 7 (explanation)
+  decreases going up. Feel-Labeling + Feel-Explanation
   are the FURTHEST from body truth — yet these are what
   mainstream calls "feeling".
 
@@ -108,7 +108,7 @@
 
 
   WHY THIS MATTERS:
-    Decisions based on Layer 7 (PFC explanations) often = wrong actions
+    Decisions based on Feel-Explanation (PFC explanations) often = wrong actions
     → "I feel tired because work is hard" → quit job
        Actually: bad sleep + no exercise → fix sleep
     → "I feel empty because I need relationship" → chase partner
@@ -240,7 +240,7 @@
   ① EXPERT MEDITATORS (Vipassana, long-term practitioners)
      → Farb 2013: improved interoceptive accuracy after meditation 🟢
      → Years of body scan training
-     → Layer 3-4 access well-developed
+     → Feel-Consciousification–Feel-Observation access well-developed
      → Distinguish subtle body states
      → Example: notice tension in jaw before becoming headache
      → Limit: accuracy about OWN body, not necessarily others
@@ -272,15 +272,15 @@
 
   ⑥ GENDLIN-TRAINED FOCUSING PRACTITIONERS
      → Explicit training in accessing felt sense
-     → Dwell at Layer 3 deliberately
+     → Dwell at Feel-Consciousification deliberately
      → 6-step method structured
      → Therapy context but also personal use
 
 
   CHARACTERISTICS OF HIGH ACCURACY:
-    → Slow down to access Layer 3-4
+    → Slow down to access Feel-Consciousification–Feel-Observation
     → Trust body signal over PFC story
-    → Acknowledge uncertainty at Layer 6-7
+    → Acknowledge uncertainty at Feel-Labeling–Feel-Explanation
     → Use "I notice..." language (observational)
     → Verify hypotheses across time
     → Have feeling vocabulary rich (Barrett granularity) 🟢
@@ -372,14 +372,14 @@
      → Body disconnection as protection
      → Feelings suppressed below threshold
      → Or: overwhelming flood when accessed
-     → Dissociation = chronic Layer 3 suppression
+     → Dissociation = chronic Feel-Consciousification suppression
      → Somatic therapies address this
 
   ⑤ OVER-INTELLECTUALIZERS
      → Tech workers, academics, some professionals
      → Excess PFC activity compensates for body underuse
      → Verbal explanations instead of body access
-     → Layer 7 well-developed, Layer 3-4 atrophied
+     → Feel-Explanation well-developed, Feel-Consciousification–Feel-Observation atrophied
      → NOT clinical, but functional limit
 
   ⑥ HEAVY SUBSTANCE USERS / CHRONIC NUMBING
@@ -472,7 +472,7 @@
     → If explanation feels TOO tidy, suspect rationalization
 
   REMEDIATION:
-    → Pause before explanation (Layer 3-4)
+    → Pause before explanation (Feel-Consciousification–Feel-Observation)
     → Check multiple hypotheses
     → Verify by changing variable (sleep, eat, walk)
     → If change removes feeling → hypothesis confirmed
@@ -519,7 +519,7 @@
     differently based on context.
     → Body arousal ambiguous
     → Context + cognition determine label
-    → Framework: this is Layer 6 error mode
+    → Framework: this is Feel-Labeling error mode
 
   CULTURAL VARIATION:
     → Some cultures label body feelings as emotional
@@ -609,7 +609,7 @@
 
   PATTERN:
     Simple body need → PFC creates elaborate narrative
-    Layer 7 explanation way too grand for actual cause
+    Feel-Explanation explanation way too grand for actual cause
 
   MECHANISM:
     → PFC likes complex stories (interesting)
@@ -661,7 +661,7 @@
   FRAMEWORK NOTE:
     This error is strongly correlated with over-intellectualization.
     Modern mismatch: ancient body + modern analytical PFC.
-    Training: move attention from Layer 7 down to Layer 3-4.
+    Training: move attention from Feel-Explanation down to Feel-Consciousification–Feel-Observation.
 ```
 
 ### 3.5 UNDER-LABELING / DENIAL
@@ -714,15 +714,15 @@
   REMEDIATION:
     → Trust observer reports
     → Accept feeling exists before labeling it
-    → "Something is happening" is valid Layer 4
+    → "Something is happening" is valid Feel-Observation
     → Don't force label — start with body sensation
     → Therapy often needed for chronic denial
     → Rebuild trust that feelings are safe to have
 
   FRAMEWORK CONTEXT:
-    Denial = specific form of Layer 3-4 disconnection.
-    Body at Layer 1-3 is active.
-    PFC at Layer 4+ refuses to engage.
+    Denial = specific form of Feel-Consciousification–Feel-Observation disconnection.
+    Body at Feel-RawSignals–Feel-Consciousification is active.
+    PFC at Feel-Observation+ refuses to engage.
     Gap = danger zone (accumulating but unaddressed).
 ```
 
@@ -738,7 +738,7 @@
   MECHANISM:
     → Cultural scripts provide "normal" feeling categories
     → Non-script feelings lack vocabulary
-    → Without label, feeling becomes Layer 3 residue
+    → Without label, feeling becomes Feel-Consciousification residue
     → PFC forces feeling into nearest script label
     → Real feeling = distorted through cultural lens
 
@@ -800,10 +800,10 @@
      Information LOSS unavoidable
      PFC operates with lossy representation
 
-     ⭐ UPDATE 2026-04-17 — NT6 + Label 3-tier refinement:
-     → NT6 (F1 08 §5.4): Labels = retrieval paths + symbolic compression,
+     ⭐ UPDATE 2026-04-17 — Label-As-Handle + Label 3-tier refinement:
+     → Label-As-Handle (F1 08 §5.4): Labels = retrieval paths + symbolic compression,
        NOT constitutive. Labels ATTACH lên chunks ĐÃ tồn tại.
-       Feeling (L1-L3) có trước, label đến sau.
+       Feeling (Feel-RawSignals–Feel-Consciousification) có trước, label đến sau.
      → Label 3-tier (Logic-Planning.md §2):
        Individual label ("cái cảm giác đó") = ít compression = fidelity CAO
        Group label ("kiểu hôm trước") = trung bình compression
@@ -848,8 +848,8 @@
 
   ⑨ LAYER 7 BIAS
      Mainstream equates "feeling" with "explanation of feeling"
-     Layer 7 has HIGHEST error rate but MOST subjective confidence
-     Training required to descend to Layer 3-4
+     Feel-Explanation has HIGHEST error rate but MOST subjective confidence
+     Training required to descend to Feel-Consciousification–Feel-Observation
 
 
   RECOGNITION ≠ FIX:
@@ -860,9 +860,9 @@
 
 
   PFC BEST PRACTICES:
-    → Trust Layer 3-4 more than Layer 6-7
+    → Trust Feel-Consciousification–Feel-Observation more than Feel-Labeling–Feel-Explanation
     → Check body basics first
-    → Hold hypotheses lightly at Layer 7
+    → Hold hypotheses lightly at Feel-Explanation
     → Verify over time
     → Accept compression limits
     → Don't fake certainty about internal states
@@ -952,7 +952,7 @@
 
 
   VIETNAMESE PAIN VOCABULARY:
-    Rich vocabulary = better Layer 5-6 discrimination:
+    Rich vocabulary = better Feel-Location–Feel-Labeling discrimination:
     → Nhức: dull ache
     → Nhói: sharp stabbing
     → Âm ỉ: low-grade constant
@@ -1132,13 +1132,13 @@
   Applying general feeling literacy to pain:
 
 
-  STEP 1 — OBSERVE (Layer 4)
+  STEP 1 — OBSERVE (Feel-Observation)
     → Notice pain present
     → Without rushing to diagnosis
     → "Có gì đó đang đau"
 
 
-  STEP 2 — LOCATE (Layer 5)
+  STEP 2 — LOCATE (Feel-Location)
     → Where in body?
     → As precise as possible
     → Acknowledge imprecision for visceral
@@ -1176,8 +1176,8 @@
   USER'S FRAMEWORK EXAMPLE:
     "Đau ở chỗ này, nhức và nhói nhói, có thể là chỗ ruột nào đó"
     ↓
-    Layer 4: đau (notice)
-    Layer 5: chỗ này (locate, approximate)
+    Feel-Observation: đau (notice)
+    Feel-Location: chỗ này (locate, approximate)
     Quality: nhức + nhói nhói (describe)
     Hypothesis: chỗ ruột nào đó
     Uncertainty: có thể (humble)
@@ -1232,7 +1232,7 @@
 
   COMPONENTS:
 
-  ① ACCESS — ability to notice feelings (Layer 3-4)
+  ① ACCESS — ability to notice feelings (Feel-Consciousification–Feel-Observation)
      → Not blocked by dissociation/alexithymia
      → Attention available to body
      → Regular check-ins
@@ -1259,8 +1259,8 @@
      → Anxious vs excited vs caffeinated
 
   ⑥ CALIBRATION — knowing accuracy levels
-     → Layer 3-4 usually accurate
-     → Layer 6-7 often wrong
+     → Feel-Consciousification–Feel-Observation usually accurate
+     → Feel-Labeling–Feel-Explanation often wrong
      → Domain-dependent expertise
 
   ⑦ REGULATION — using literacy for wise response
@@ -1419,7 +1419,7 @@
 
   MECHANISMS:
     → Repeated attention to body → interoceptive accuracy
-    → Non-judgmental observation → Layer 3-4 access
+    → Non-judgmental observation → Feel-Consciousification–Feel-Observation access
     → Decoupling observation from reaction
     → Farb 2013: improved insula function 🟢
 
@@ -1483,8 +1483,8 @@
     → Can be learned without therapist
 
   BENEFITS FOR LITERACY:
-    → Direct Layer 3 access
-    → Skepticism about Layer 6-7 verified
+    → Direct Feel-Consciousification access
+    → Skepticism about Feel-Labeling–Feel-Explanation verified
     → Pre-verbal respected
     → Embodied validation
 
@@ -1693,8 +1693,8 @@
      → Some primarily visual
      → Some primarily somatic
      → Framework: Modality-Analysis.md
-     → Verbal dominant → Layer 6-7 reliance
-     → Somatic dominant → Layer 3-4 access
+     → Verbal dominant → Feel-Labeling–Feel-Explanation reliance
+     → Somatic dominant → Feel-Consciousification–Feel-Observation access
 
   ④ CULTURAL VARIATION
      → Emotion vocabulary varies
@@ -1787,8 +1787,8 @@
 
   NOT CLAIMING:
     ✗ Everyone should be highly literate
-    ✗ Layer 3-4 is always "truer" than Layer 6-7
-      (Layer 6-7 sometimes is accurate)
+    ✗ Feel-Consciousification–Feel-Observation is always "truer" than Feel-Labeling–Feel-Explanation
+      (Feel-Labeling–Feel-Explanation sometimes is accurate)
     ✗ Any specific practice is universally effective
     ✗ Literacy solves all problems
 
@@ -1823,7 +1823,7 @@
                                  (complementary file)
   PFC-Analysis.md              — PFC capacity + limits
   Body-Dissonance.md           — Specific signals
-  Core-v7.5-Draft.md §2        — Body-Base L0-L3
+  Core-v7.5-Draft.md §2        — Body-Base L0+L1 substrate
   Modality-Analysis.md         — Individual variation
   Drive.md                     — Feeling → action
   Imagine-Final.md             — Preview mechanism

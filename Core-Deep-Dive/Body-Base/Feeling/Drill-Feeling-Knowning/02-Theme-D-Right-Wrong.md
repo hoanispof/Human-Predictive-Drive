@@ -93,7 +93,7 @@ confidence_target: HIGH for core mechanism, MEDIUM for edge cases
 - **Expert intuition**: "Code này có bug", "Bệnh nhân này có gì đó lạ", "Đá sắp rơi"
 - **Einstein**: "Cảm thấy cưỡi tia sáng", "Cảm thấy thầy giáo không đúng", "Cảm thấy vũ trụ có cấu trúc đẹp"
 
-**→ Direct answer to user's meta-question**: "Cảm nhận đúng/sai" thuộc về **Cognitive/Prediction channel** — 1 trong 10 channels. Body signals (ACC, pattern match) integrated at upstream hub → PFC observes as feeling at Layer 3-4.
+**→ Direct answer to user's meta-question**: "Cảm nhận đúng/sai" thuộc về **Cognitive/Prediction channel** — 1 trong 10 channels. Body signals (ACC, pattern match) integrated at upstream hub → PFC observes as feeling at Feel-Consciousification–Feel-Observation.
 
 **Not just "chain logic output"**: User worried chain logic only gives binary (right/wrong), không có mức độ. Framework's answer: **mức độ đến từ body integration**, không phải logic chain. Body gives graded signal (ACC fire intensity, prediction error magnitude, schema match %), PFC observes it as spectrum feeling.
 
@@ -137,7 +137,7 @@ confidence_target: HIGH for core mechanism, MEDIUM for edge cases
 **→ Answer to Q2 + Q7**:
 - **Research exists and is well-replicated** (Spelke, Baillargeon, 40+ years)
 - Core Knowledge is **innate, not random** — compiled into brain architecture via evolution
-- Child's "có gì đó không đúng" = **Object System schema violation detected** → Layer 3 surprise signal → longer looking time
+- Child's "có gì đó không đúng" = **Object System schema violation detected** → Feel-Consciousification surprise signal → longer looking time
 
 **→ User's "compiled" hypothesis is VERIFIED for the innate case**: At least Object and Agent systems are compiled into the brain architecture from birth. This is **not** random brain oscillation.
 
@@ -180,22 +180,22 @@ Step 5: ACC error detection + pattern mismatch
          → Maxwell schema says: EM field cannot be static (waves always propagate at c)
          → Contradiction at body simulation level
 
-Step 6: Layer 3 wrongness feeling emerges
+Step 6: Feel-Consciousification wrongness feeling emerges
          → "Cảm thấy có gì đó không đúng"
          → Pre-verbal, body-level detection
          → NOT "logic step-by-step proof" — it's body feeling first
 
 Step 7: PFC observation + investigation
-         → Layer 4: "Something is wrong here"
-         → Layer 5-6: attempt to locate + label the contradiction
-         → Layer 7: "Maybe Newton is wrong at high velocity?"
+         → Feel-Observation: "Something is wrong here"
+         → Feel-Location–Feel-Labeling: attempt to locate + label the contradiction
+         → Feel-Explanation: "Maybe Newton is wrong at high velocity?"
 
 Step 8: Drive to resolve (E117 + E118)
          → Curiosity + obsessive inquiry pulls forward
          → Years of work to formalize resolution (mathematical tools)
          → Grossmann provides tensor calculus → Einstein verifies feeling
 
-Step 9: Mathematical verification (Layer 7 formalization)
+Step 9: Mathematical verification (Feel-Explanation formalization)
          → Special Relativity (1905), General Relativity (1915)
          → "Feeling-first, then math"
 ```
@@ -217,7 +217,7 @@ Step 9: Mathematical verification (Layer 7 formalization)
 - Cross-domain simulation (agent processing applied to object)
 - Body simulates hypothetical experience
 - Schema mismatch detected at body level
-- Layer 3 wrongness feeling emerges
+- Feel-Consciousification wrongness feeling emerges
 - PFC investigates + eventually formalizes with math (secondary stage)
 
 **User's hypothesis: "cái thứ kia nó phải có cảm giác như thế kia"**:
@@ -256,15 +256,15 @@ Step 4: Prediction error + ACC detection
          → ACC fires conflict signal
          → Pattern mismatch propagates through integration hub
 
-Step 5: Layer 3 wrongness feeling
+Step 5: Feel-Consciousification wrongness feeling
          → "Có gì đó không đúng"
          → Pre-verbal, body-level
          → Specifically "something doesn't fit"
 
 Step 6: PFC investigation
-         → Layer 4: notice the mismatch
-         → Layer 5: try to locate ("is it the habitat? the neighbors? the behavior?")
-         → Layer 6-7: hypothesis generation
+         → Feel-Observation: notice the mismatch
+         → Feel-Location: try to locate ("is it the habitat? the neighbors? the behavior?")
+         → Feel-Labeling–Feel-Explanation: hypothesis generation
          → Possible outcomes: (a) my schema was wrong, (b) this is a new phenomenon, (c) species is migrating
 
 Step 7: Investigation → new insight
@@ -278,7 +278,7 @@ Step 7: Investigation → new insight
 - Einstein Newton wrongness (schema mismatch with compiled physics)
 - Partner unusual behavior (schema mismatch with compiled relationship chunks)
 
-**All 4 cases run through same mechanism**: Compiled schema → current input → mismatch → prediction error → Layer 3 wrongness → PFC investigates.
+**All 4 cases run through same mechanism**: Compiled schema → current input → mismatch → prediction error → Feel-Consciousification wrongness → PFC investigates.
 
 **Difference is only in**:
 - Source of schema (innate vs compiled experience)
@@ -307,7 +307,7 @@ User's description: "thấy người yêu hôm nay không nói gì, không niề
 ③ Resonance fit-judgment output: MISMATCH
    → Per By-Product-Gap-Resonance.md §2.4: "mismatch → discomfort, distance"
 
-④ Layer 3 wrongness signal
+④ Feel-Consciousification wrongness signal
    → "Có gì đó không đúng"
    → Body-level uneasiness
 
@@ -351,7 +351,7 @@ User's description: "thấy vợ hôm nay tự nhiên chào mình lễ phép, c�
    → But "pattern deviation from baseline"
    → Prediction error: why is behavior elevated?
 
-④ Layer 3 wrongness signal
+④ Feel-Consciousification wrongness signal
    → "Có gì đó không đúng"
    → Body feels the pattern mismatch
 
@@ -396,7 +396,7 @@ User's description: "thấy vợ hôm nay tự nhiên chào mình lễ phép, c�
 | Resolution outcome | Understanding + care | Understanding + relief |
 | Mechanism | Same Resonance mismatch | Same Resonance mismatch |
 
-**→ Key insight**: Both cases use **identical mechanism** (Resonance pattern mismatch → Layer 3 wrongness). The only difference is **PFC response strategy** (active vs passive) based on social context.
+**→ Key insight**: Both cases use **identical mechanism** (Resonance pattern mismatch → Feel-Consciousification wrongness). The only difference is **PFC response strategy** (active vs passive) based on social context.
 
 ### §2.6 — "Compiled vào body hoặc vùng não nào đó" — User's hypothesis check
 
@@ -480,7 +480,7 @@ User's description: "thấy vợ hôm nay tự nhiên chào mình lễ phép, c�
 **What IS probabilistic**:
 - **Strength** of feeling (varies)
 - **Detection threshold** (depends on attention, fatigue, chunks available)
-- **Accuracy** of resulting interpretation (Layer 6-7 error modes)
+- **Accuracy** of resulting interpretation (Feel-Labeling–Feel-Explanation error modes)
 - **Whether PFC notices** (depends on attention allocation)
 
 **→ The FEELING itself is not random**. The feeling's **strength, notice, and interpretation** have variability, but the mechanism is specific and compiled.
@@ -522,11 +522,11 @@ User's question: "đúng nhiều hay đúng ít" — is there a gradient, or onl
 - Obsessive: driving force (Einstein + Newton contradiction)
 
 #### Dimension 4 — **PFC clarity** (how accessible)
-- Layer 3 (body feels, no label): "cảm thấy sao sao ấy"
-- Layer 4 (observation): "tôi đang feel something off"
-- Layer 5 (locate): "it's in my chest/head"
-- Layer 6 (label): "this is wrong"
-- Layer 7 (explain): "it's wrong BECAUSE X"
+- Feel-Consciousification (body feels, no label): "cảm thấy sao sao ấy"
+- Feel-Observation (observation): "tôi đang feel something off"
+- Feel-Location (locate): "it's in my chest/head"
+- Feel-Labeling (label): "this is wrong"
+- Feel-Explanation (explain): "it's wrong BECAUSE X"
 
 **Confidence ≠ accuracy**: High-strength wrongness feeling can be wrong (delusion, trauma). Low-strength rightness feeling can be correct (early intuition).
 
@@ -572,8 +572,8 @@ All 4 cases = **same mechanism** at different domains + different schema compila
 1. Pattern matching against compiled schemas (innate or learned)
 2. ACC error detection + prediction error signals
 3. Multi-channel integration (body + cognitive + predictive + mirror)
-4. PFC observation at Layer 3-4 (pre-verbal felt sense)
-5. Subsequent PFC labeling at Layer 5-7 (error-prone)
+4. PFC observation at Feel-Consciousification–Feel-Observation (pre-verbal felt sense)
+5. Subsequent PFC labeling at Feel-Location–Feel-Explanation (error-prone)
 
 **Source of schemas**:
 - **Innate**: Spelke Core Knowledge (Object, Agent, Number, Place, Form)
@@ -600,13 +600,13 @@ All 4 cases = **same mechanism** at different domains + different schema compila
 → **Feeling has gradient** because body integration is continuous (signal strength, source variety, temporal persistence, PFC clarity). Logic chain appears binary only when abstracted; underlying body process is continuous.
 
 **Q6: "Scientist mechanism?"**
-→ **Same as Einstein + child** — schema mismatch. Scientist has compiled chunks (species, ecology, biogeography). Current observation mismatches → prediction error → Layer 3 wrongness → investigation → new insight.
+→ **Same as Einstein + child** — schema mismatch. Scientist has compiled chunks (species, ecology, biogeography). Current observation mismatches → prediction error → Feel-Consciousification wrongness → investigation → new insight.
 
 **Q7: "Vô thưởng vô phạt random hay compiled?"**
 → **COMPILED, not random**. Innate Core Knowledge + learned chunks. Specific neural mechanisms (ACC, hippocampus, cortex). User's "compiled" hypothesis is correct.
 
 **Q8: "Partner case mechanism?"**
-→ **Resonance mismatch**. Compiled relationship chunks + current observation → mismatch → Layer 3 wrongness → PFC engages. Case A (cold) and Case B (unexpectedly polite) use **same mechanism**, different PFC response strategy (active vs passive) based on social context.
+→ **Resonance mismatch**. Compiled relationship chunks + current observation → mismatch → Feel-Consciousification wrongness → PFC engages. Case A (cold) and Case B (unexpectedly polite) use **same mechanism**, different PFC response strategy (active vs passive) based on social context.
 
 ### §3.3 — Confidence breakdown
 
@@ -636,14 +636,14 @@ All 4 cases = **same mechanism** at different domains + different schema compila
 Theme D is **test case for Theme A architecture** — all 4 cases (child, Einstein, scientist, partner) run through:
 - **Unconscious processing** (schemas fire, simulation runs)
 - **Integration hub** (insula + ACC + VMPFC)
-- **PFC observation** at Layer 3-4
+- **PFC observation** at Feel-Consciousification–Feel-Observation
 - **Bidirectional flow** (PFC can direct investigation, but body signals first)
 
 **→ Theme A architecture passes Theme D test**. No case required mechanism outside Theme A framework.
 
 ### §4.2 — Theme B (Verbal × Chain)
 
-Theme D cases involve verbal labeling (Layer 6) differently:
+Theme D cases involve verbal labeling (Feel-Labeling) differently:
 - **Child VoE**: no verbal (infant pre-verbal) → pure body signal
 - **Einstein**: visual + muscular primary, math secondary (Hadamard)
 - **Scientist**: likely starts pre-verbal, then verbalizes hypothesis
@@ -696,7 +696,7 @@ Theme D has **direct overlap** with Logic-Feeling.md §4 5 cases. Einstein case 
 
 **Theme D answer in 5 sentences**:
 
-1. "Rightness/wrongness feelings" are **not random** and **not pure logic chain output** — they emerge from specific mechanism: pattern match against compiled schemas + ACC error detection + multi-channel integration → Layer 3 felt sense.
+1. "Rightness/wrongness feelings" are **not random** and **not pure logic chain output** — they emerge from specific mechanism: pattern match against compiled schemas + ACC error detection + multi-channel integration → Feel-Consciousification felt sense.
 
 2. **Schemas sources**: innate Core Knowledge (Spelke 2007 — Object, Agent, Number, Place, Form systems) + compiled chunks from experience (expert intuition, relationship templates, physics schemas).
 

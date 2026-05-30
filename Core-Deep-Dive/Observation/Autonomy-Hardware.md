@@ -3,7 +3,7 @@ title: Autonomy-Hardware — Tại Sao Self-Action = Reward
 version: 1.2
 created: 2026-04-20
 updated: 2026-05-17
-refined: 2026-05-23 (v1.2 — Concept Cascade: +Entity-Access calibration, +Hardware Subsidy. Updated versions + cross-refs)
+refined: 2026-05-23 (v1.2 — Concept Cascade: +Entity-Access calibration, +Hardware-Subsidy. Updated versions + cross-refs)
 status: OBSERVATION PARAMETER v1.2 — HARDWARE MECHANISM
 scope: |
   HARDWARE MECHANISM FILE: Giải thích TẠI SAO con người tự nhiên prefer
@@ -715,19 +715,19 @@ ENTITY-ACCESS × AUTONOMY-HARDWARE (Entity-Access.md v1.2):
     Controllable entity → vmPFC inhibit DRN → approach
     Uncontrollable entity → DRN fires → helplessness per-entity
 
-HARDWARE SUBSIDY × AUTONOMY (Valence-Propagation v3.0 §5):
-  → Hardware subsidy INTERACT with autonomy hardware:
+HARDWARE-SUBSIDY × AUTONOMY (Entity-Valence-Dynamics.md v1.0 §5):
+  → Hardware-subsidy INTERACT with autonomy hardware:
     High subsidy entities (con, partner): efference copy BONUS
       → Body reward self-action toward THESE entities even MORE
       → = TẠI SAO chăm con = highest autonomy feeling (hardware + subsidy compound)
     Low subsidy entities (stranger): efference copy ALONE
       → Body reward proportional to prediction accuracy only
-  → Autonomy + hardware subsidy = COMPOUND reward:
+  → Autonomy + hardware-subsidy = COMPOUND reward:
     Self-chosen action + toward subsidy entity = MAXIMUM opioid
     Forced action + toward non-subsidy entity = MINIMUM (double penalty)
 
 🟡 Entity-Access × autonomy hardware = framework convergence (vmPFC = calibration)
-🟡 Hardware Subsidy × autonomy = framework application (compound reward)
+🟡 Hardware-Subsidy × autonomy = framework application (compound reward)
 ```
 
 ---

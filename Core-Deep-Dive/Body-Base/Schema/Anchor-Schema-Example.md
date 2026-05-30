@@ -253,7 +253,7 @@ MICRO-ANCHOR — PATTERN TỔNG HỢP
   ⭐ NOTE: "Aha moment" = micro-anchor COMPLETE:
     → Đọc → dissonance (chưa hiểu) → tiếp → suddenly HIỂU
     → = Anchor "đọc → hiểu" CONFIRM → mini-melody smooth
-    → = Tại sao "aha" feel GIÀ​U hơn mức "information received"
+    → = Tại sao "aha" feel GIÀU hơn mức "information received"
       → Vì: nó = ANCHOR COMPLETE + trust confirm + dissonance resolve
     → = Melody-Arc.md: mini-arc complete → harmony
 

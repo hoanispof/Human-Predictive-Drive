@@ -17,7 +17,7 @@ dependencies: |
   01b-Chunk-Activation-Dynamics.md (activation probability, re-linking, trigger surface)
   01c-Chunk-Discovery-Lifecycle.md (7-step discovery cycle, convergence zone)
   01-Chunk-Connection-Logical.md (4 connection types)
-  02-Feeling-Intuition-Gradient.md (H5, 6-point gradient)
+  02-Feeling-Intuition-Gradient.md (Multi-Weak-Signal-Convergence, 6-point gradient)
   99-Master-Synthesis.md (unified architecture)
 language: Tiếng Việt primary + English technical
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -63,25 +63,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌────────────────────────────┬─────────────────────┬───────────────────────┐
   │ Chunk operation            │ Feeling layer        │ Mechanism             │
   ├────────────────────────────┼─────────────────────┼───────────────────────┤
-  │ Body-input signals fire    │ Layer 1: Raw signal  │ L0-L3 + mirror fire  │
-  │ (all channels, 24/7)       │ (body truth)         │ → signals continuous  │
+  │ Body-input signals fire    │ Feel-RawSignals:     │ body-base + mirror   │
+  │ (all channels, 24/7)       │ Raw signal           │ → signals continuous  │
+  │                            │ (body truth)         │                       │
   ├────────────────────────────┼─────────────────────┼───────────────────────┤
-  │ Signal integration         │ Layer 2: Integrated  │ Insula + ACC + VMPFC │
-  │ (insula + ACC + VMPFC)     │ body state           │ aggregate → 1 state  │
+  │ Signal integration         │ Feel-Integration:    │ Insula + ACC + VMPFC │
+  │ (insula + ACC + VMPFC)     │ Integrated body state│ aggregate → 1 state  │
   ├────────────────────────────┼─────────────────────┼───────────────────────┤
-  │ Signal crosses PFC         │ Layer 3: Conscious   │ Strong enough →      │
-  │ observation threshold      │ awareness            │ PFC notices           │
+  │ Signal crosses PFC         │ Feel-Consciousific.: │ Strong enough →      │
+  │ observation threshold      │ Conscious awareness  │ PFC notices           │
   ├────────────────────────────┼─────────────────────┼───────────────────────┤
-  │ Chunk pattern-match        │ Layer 4: Pre-labeled │ Chunks activate →    │
-  │ (step ⑤ in 8-step flow)   │ recognition          │ context provides     │
-  │                            │ "I know this feeling"│ recognition frame    │
+  │ Chunk pattern-match        │ Feel-Observation:    │ Chunks activate →    │
+  │ (step ⑤ in 8-step flow)   │ Pre-labeled          │ context provides     │
+  │                            │ recognition          │ recognition frame    │
+  │                            │ "I know this feeling"│                       │
   ├────────────────────────────┼─────────────────────┼───────────────────────┤
-  │ Label search               │ Layer 5-6: Named     │ Verbal-as-handle     │
-  │ (step ⑥, NT6 handle)       │ feeling              │ (NT6) → retrieval    │
-  │                            │ "This is sadness"    │ path → logic access  │
+  │ Label search               │ Feel-Location–       │ Verbal-as-handle     │
+  │ (step ⑥, Label-As-Handle)   │ Feel-Labeling:       │ Label-As-Handle →    │
+  │                            │ Named feeling        │ path → logic access  │
+  │                            │ "This is sadness"    │                       │
   ├────────────────────────────┼─────────────────────┼───────────────────────┤
-  │ Body vote + PFC explain    │ Layer 7: Explained   │ PFC narrative →      │
-  │ (step ⑦→⑧)                │ feeling              │ "I'm sad because..." │
+  │ Body vote + PFC explain    │ Feel-Explanation:    │ PFC narrative →      │
+  │ (step ⑦→⑧)                │ Explained feeling    │ "I'm sad because..." │
   │                            │ "I'm sad because X"  │ (60-70% fidelity)    │
   └────────────────────────────┴─────────────────────┴───────────────────────┘
 
@@ -90,10 +93,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → YES: chunk system runs → PFC observes → that observation = feeling
 
   → Fidelity DECREASES upward (Feeling.md §2.9):
-    Layer 1: ~100% (body truth = body truth)
-    Layer 3: ~90% (detection accurate, only threshold variation)
-    Layer 5: ~70% (label approximate, some info lost)
-    Layer 7: ~50-60% (explanation often rationalization)
+    Feel-RawSignals: ~100% (body truth = body truth)
+    Feel-Consciousification: ~90% (detection accurate, only threshold variation)
+    Feel-Location: ~70% (label approximate, some info lost)
+    Feel-Explanation: ~50-60% (explanation often rationalization)
 ```
 
 ### §1.2 — Activation dynamics → feeling properties
@@ -150,15 +153,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = "Trauma-shaped feeling" — distorted signals
     → = Mechanism-Deep §6.4: 4 distortion patterns
 
-  COMPILED WITH RICH VOCABULARY (NT6 strong):
+  COMPILED WITH RICH VOCABULARY (Label-As-Handle strong):
     → Chunks: verbal-feeling links abundant
     → Feelings: easy to identify, communicate, use in planning
     → = "Literate feeling" — Stage 4 well-developed
 
-  COMPILED WITHOUT VOCABULARY (NT6 weak):
+  COMPILED WITHOUT VOCABULARY (Label-As-Handle weak):
     → Chunks: body-level only, no verbal handle
     → Feelings: present but cannot be identified or communicated
-    → = "Implicit feeling" — stuck at Layer 3-4
+    → = "Implicit feeling" — stuck at Feel-Consciousification–Feel-Observation
 
   → = Compile context IS the history that produces feeling quality
   → = Chunk system IS feeling system, viewed from compile history angle
@@ -228,14 +231,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                                         │
   │  CHUNK SYSTEM                    FEELING SYSTEM          │
   │                                                         │
-  │  Chunks fire ──────────────→ Body signals emerge        │
-  │  (01b activation)              (Layer 1-3)              │
-  │                                                         │
-  │  Chunk match ──────────────→ Feeling recognized         │
-  │  (step ⑤)                     (Layer 4-6)              │
-  │                                                         │
-  │  PFC explain ──────────────→ Feeling narrated           │
-  │  (step ⑧)                     (Layer 7)                │
+  │  Chunks fire ──────────────→ Body signals emerge               │
+  │  (01b activation)              (Feel-RawSignals–              │
+  │                                 Feel-Consciousification)      │
+  │                                                               │
+  │  Chunk match ──────────────→ Feeling recognized               │
+  │  (step ⑤)                     (Feel-Observation–              │
+  │                                 Feel-Labeling)                │
+  │                                                               │
+  │  PFC explain ──────────────→ Feeling narrated                 │
+  │  (step ⑧)                     (Feel-Explanation)              │
   │                                                         │
   │           ←──────────────── Body vote                   │
   │  Link strengthen/weaken       (smooth/resist)           │
@@ -277,12 +282,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Observe integrated body state (step ④)
     → Label feeling (step ⑥)
     → Body vote interpretation (step ⑦)
-    → Explain feeling (Layer 7)
+    → Explain feeling (Feel-Explanation)
     → = Feeling side
 
   → PFC does BOTH — not 2 separate functions
   → Same PFC that holds chunks ALSO observes feelings
-  → = Logic-Feeling.md: 2 processing modes, 1 PFC
+  → = Logic-Feeling.md: Compiled/Fresh = trục thật, 1 PFC
   → = When PFC observes chunk activation → that IS feeling
   → = When PFC manipulates chunks logically → that IS thinking
   → = Feeling and thinking = 2 aspects of PFC observing chunk system
@@ -419,14 +424,14 @@ WITHOUT EXPLICIT BRIDGE:
 
   ② PRACTICAL APPLICATIONS:
      → Education: "student doesn't feel motivated"
-       → Chunk answer: P1 (schema pending) not met, or P5 (cortisol tag)
+       → Chunk answer: Precondition-1 Directed-Gap (schema pending) not met, or Precondition-5 Compile-Gate (cortisol tag)
        → Feeling answer: step ④ threshold too high, or step ⑦ body resists
        → BOTH = same problem, different language
        → Intervention: address chunk compile context → feeling improves
 
      → Daily life: "I feel off but don't know why"
        → Chunk answer: convergence zone forming, many weak activations
-       → Feeling answer: H5 multi-weak-signal, gradient position ④-⑥
+       → Feeling answer: Multi-Weak-Signal-Convergence, gradient position ④-⑥
        → Bridge: convergence zone = what "vague" IS at chunk level
        → Action: attend to convergence zone (Focusing) → resolve
 
@@ -501,7 +506,7 @@ WITHOUT EXPLICIT BRIDGE:
   Feeling-Mechanism-Deep.md → 8-step flow (bridge maps onto this)
   Feeling-Literacy-Training.md → Training (bridge explains WHY it works)
   Feeling-Accuracy.md       → Error modes (bridge explains mechanism)
-  Feeling-Sources.md        → Source channels (Layer 1 input)
+  Feeling-Sources.md        → Source channels (Feel-RawSignals input)
   Feeling-Research.md       → Research streams
 
 

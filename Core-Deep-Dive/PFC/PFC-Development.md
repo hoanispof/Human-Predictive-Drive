@@ -1,8 +1,9 @@
----
+﻿---
 title: PFC-Development — PFC Across Lifespan, Learning, and Training
-version: 1.0
+version: 1.1
 created: 2026-04-19
-status: DRAFT v1.0
+updated: 2026-05-30 (v1.1 — §3b PFC Architecture Ceiling: 3 physical constraints + Compiled/Fresh scaling insight + cross-species evidence + unifies 4 encephalization hypotheses)
+status: DRAFT v1.1
 scope: |
   PFC qua giai đoạn đời, learning trajectory, schema modification, training.
   Focus: cái THAY ĐỔI ĐƯỢC (training, experience) vs cái CỐ ĐỊNH (hardware).
@@ -42,6 +43,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §1 — REFRAME: Hardware vs Compiled Content
 - §2 — PFC Qua Giai Đoạn Đời
 - §3 — PFC Qua Tiến Hóa
+- §3b — PFC Architecture Ceiling: Tại Sao PFC Không Thể Tăng Thêm
 - §4 — Learning Trajectory: Worker → Compiled
 - §5 — Schema Modification: Áp Thêm, Không Xóa
 - §6 — PFC Training: Hardware Ceiling vs Leverage
@@ -149,7 +151,7 @@ CORRECT FRAMING:
   └────────────────────────┴──────────────────┴────────────────────┘
 
   WHY trẻ "can't do adult tasks":
-    Compiled chunks chưa đủ (H10 P2 "Chunks Base Adequacy" bottleneck)
+    Compiled chunks chưa đủ (Body-Feedback-Precondition Precondition-2 Chunk-Substrate "Chunks Base Adequacy" bottleneck)
     Không phải PFC hardware absent.
 
   CAREGIVER ROLE (correct):
@@ -171,7 +173,7 @@ THAI NHI → 2 TUỔI:
   Compiled content: 🔴 MINIMAL
   → Behavior = body-feedback + loudest-signal-win
   → Loudest signal auto-win (khóc, ăn, ngủ)
-    = H10 P2 Chunks Base chưa adequate
+    = Body-Feedback-Precondition Precondition-2 Chunk-Substrate chưa adequate
   → Caregiver = external chunks scaffolding
 
 2-6 TUỔI:
@@ -276,6 +278,121 @@ THAI NHI → 2 TUỔI:
     AI outsource PFC draft → não redirect resource sang ĐÂU?
     → Social processing? Emotional depth? Somatic awareness?
     → Hay: não GIẢM TIẾP vì AI làm thay đủ?
+```
+
+---
+
+## §3b — PFC Architecture Ceiling: Tại Sao PFC Không Thể Tăng Thêm
+
+> ⭐ §3 hỏi: não GIẢM 10% → tại sao? 4 hypotheses.
+> §3b hỏi DEEPER: tại sao PFC KHÔNG THỂ tăng thêm ở mức ARCHITECTURE?
+> 3 physical constraints (🟢) + 1 framework insight (🟡).
+> = Giải thích WHY PFC peaked + unifies 4 hypotheses.
+
+```
+═══ CONSTRAINT 1: WIRING PROBLEM (strongest evidence) ═══
+
+🟢 Brain lớn hơn → mỗi neuron connect được TỈ LỆ THẤP HƠN tổng neurons:
+  Fraction neurons gửi axon qua white matter giảm theo ~N^(-0.16 to -0.21).
+  → 10× thêm neurons ≈ fraction kết nối GIẢM ~35-40%.
+  White matter grows FASTER than gray matter as brain scales.
+  → More wiring, less processing = diminishing returns.
+
+  PFC = hub cần LONG-RANGE connections tới NHIỀU vùng:
+    Thêm neurons PFC → thêm long-range axons cần.
+    Long-range connections = đắt nhất (space + energy + time).
+    → Mỗi neuron thêm vào PFC = contribute ÍT HƠN neuron trước.
+
+  (Changizi & Shimojo 2005, Brain Behav Evol 66:88-98 — parcellation scaling)
+  (Bullmore & Sporns 2012, Nat Rev Neurosci 13:336-49 — wiring cost economy)
+
+
+═══ CONSTRAINT 2: CONDUCTION DELAY ═══
+
+🟢 Myelinated axon max speed: ~120 m/s (established).
+  Brain lớn hơn → axon dài hơn → signal chậm hơn:
+    Human interhemispheric delay: >25 ms (temporal lobe).
+    Brain lớn hơn → larger brains shift sang myelinated axons (nhanh hơn)
+      nhưng cần NHIỀU KHÔNG GIAN hơn = wiring trade-off.
+
+  PFC cần tích hợp REAL-TIME từ nhiều vùng (Working Memory):
+    Working memory window: ~hundreds of ms.
+    Larger PFC = longer axons = signal arrives LATER.
+    → Information có thể "stale" trước khi PFC xử lý xong.
+    → = Freshness có TEMPORAL CEILING.
+
+  (Ringo et al. 1994, Cerebral Cortex 4:331-343 — interhemispheric delay)
+  (Wang et al. 2008, J Neurosci 28:4047-4056 — white matter axonal scaling)
+
+
+═══ CONSTRAINT 3: METABOLIC CEILING ═══
+
+🟢 Brain = 2% body mass, ~20% energy consumption (Raichle & Gusnard 2002).
+  Metabolic cost scales LINEARLY với số neurons.
+  Great apes (raw food) → KHÔNG THỂ support cả body lớn + brain lớn:
+    Caloric intake limit → trade-off body size vs brain neurons.
+    Cooking (Homo erectus) = SOLVED → allowed brain growth.
+    NHƯNG: ceiling vẫn tồn tại — larger brain = more energy = less for body.
+
+  PFC = most metabolically expensive region:
+    Fresh processing = highest glucose consumption per neuron.
+    Scaling PFC further → energy budget đè lên toàn bộ body-base.
+    → Trade-off: bigger PFC ≠ better nếu body-base bị underfunded.
+
+  (Herculano-Houzel 2012, PNAS — metabolic cost per neuron = linear function)
+  (Fonseca-Azevedo & Herculano-Houzel 2012, PNAS 109:18571-18576 — caloric constraint)
+
+
+═══ FRAMEWORK INSIGHT: COMPILED SCALES, FRESH CANNOT ═══
+
+🟡 Compiled (body-base) = parallel, distributed:
+  → Mỗi neuron cluster processes INDEPENDENTLY.
+  → Thêm clusters = thêm workers doing independent tasks.
+  → Communication: LOCAL (nearby clusters, short axons).
+  → Cost per cluster: ~constant (compiled = automatic).
+  → = SCALES WELL — like distributed computing.
+
+🟡 Fresh (PFC) = serial, centralized:
+  → PFC must COORDINATE across distant regions.
+  → Thêm PFC neurons = thêm MANAGERS, not workers.
+  → Each manager must communicate with ALL relevant workers.
+  → Communication: LONG-RANGE (PFC ↔ distant regions).
+  → Communication overhead grows FASTER than capacity.
+  → = SCALES POORLY — like central server bottleneck.
+
+🟢 CROSS-SPECIES EVIDENCE:
+  Elephant brain: ~5 kg (3.5× human), ~257 billion neurons.
+  NHƯNG: 97.5% in cerebellum (~251 billion — motor coordination for huge body).
+  Cortex: chỉ ~5.6 billion neurons (vs human ~16 billion).
+  Whale brain: even larger, CÙNG PATTERN — cortex ratio LOWER than human.
+  → Evolution scaled body-base (parallel) WITHOUT scaling cortex proportionally.
+  → Cross-species: evolution "chọn" parallel scaling over serial scaling.
+  (Herculano-Houzel et al. 2014, Front Neuroanat — elephant brain in numbers)
+
+
+🟡 UNIFYING 4 HYPOTHESES (§3):
+  ① Efficiency > Size    = compile BETTER, not bigger PFC.
+  ② Externalization      = outsource fresh processing to tools/society.
+  ③ Self-domestication   = compiled social rules → less fresh social processing.
+  ④ Energy optimization  = PFC is the most expensive part to scale.
+
+  → 4 hypotheses KHÔNG mâu thuẫn — cùng trỏ về 1 ARCHITECTURE CONSTRAINT:
+    PFC (serial) hit ceiling → evolution's response = compile more, not bigger PFC.
+  → §3b KHÔNG phải 5th hypothesis — mà là ARCHITECTURE EXPLANATION
+    giải thích tại sao cả 4 hypotheses work CÙNG HƯỚNG.
+
+
+⭐ CONNECTION VỚI §4:
+  §3b (evolution scale): evolution "giải quyết" ceiling = compile more → body-base parallel.
+  §4 (individual scale): mỗi người "giải quyết" ceiling = compile more → Worker → Compiled.
+  = CÙNG STRATEGY, KHÁC SCALE.
+  = §4 = individual version of evolutionary strategy §3b.
+
+
+🟢 3 physical constraints:       ESTABLISHED neuroscience (7 citations).
+🟡 Compiled scales / Fresh cannot: FRAMEWORK SYNTHESIS — novel integration.
+🟡 Cross-species as parallel > serial: FRAMEWORK SYNTHESIS — consistent with data.
+🟡 Unifying 4 hypotheses:        FRAMEWORK SYNTHESIS — architecture perspective.
 ```
 
 ---
@@ -512,6 +629,13 @@ EXTERNAL SCAFFOLDING:
   WM training limited transfer (~10-15%)
   Encephalization reversal 30,000 years (fossil record)
   Life stages developmental sequence (Casey 2008)
+  Connectivity fraction decreases with brain size (Changizi 2005, scaling laws)
+  Conduction delay scales with brain size (Ringo 1994, >25ms interhemispheric)
+  Brain metabolic cost linear with neuron count (Herculano-Houzel 2012)
+  Elephant 257B neurons, 97.5% cerebellum (Herculano-Houzel 2014)
+  Caloric constraint limits brain size in great apes (Fonseca-Azevedo 2012)
+  Brain network wiring cost vs efficiency trade-off (Bullmore & Sporns 2012)
+  White matter axonal scaling trade-offs (Wang 2008)
 
 🟡 FRAMEWORK SYNTHESIS:
   4-stage learning trajectory (Worker→Director→Monitor→Compiled) — novel taxonomy
@@ -520,6 +644,10 @@ EXTERNAL SCAFFOLDING:
   Caregiver = "external chunks scaffolding" — novel reframe of old "external PFC"
   "Talent ≈ compile speed" — novel, consistent with data
   State > Software > Hardware as training priority — novel hierarchy
+  "Compiled scales, Fresh cannot" as architecture ceiling explanation — novel synthesis
+  Cross-species comparison as parallel > serial evolutionary strategy — novel synthesis
+  Unification of 4 encephalization hypotheses via architecture constraint — novel integration
+  §3b↔§4 same strategy different scale (evolution↔individual) — novel parallel
 
 🔴 NEEDS MORE RESEARCH:
   Exact WM training transfer limits per domain
@@ -527,6 +655,7 @@ EXTERNAL SCAFFOLDING:
   Quantitative compile speed variation across individuals
   Brain shrinkage mechanism (which of 4 hypotheses, or combination?)
   AI outsource → brain redirect predictions
+  Exact PFC size ceiling quantification per species
 ```
 
 ---
@@ -540,9 +669,16 @@ PFC HOLD ANALYSIS:   PFC-Hold-Dimensions.md — tại sao ~4±1
 PHYSICAL MAP:        Neural-Architecture.md §2 — sub-regions, connectivity
 CORTISOL:            Cortisol-Baseline.md v2.0 — cortisol affects PFC + damage
 CORE ARCHITECTURE:   Core-v7.8-Draft.md §9 — Development Trajectory
-BODY-FEEDBACK:       Body-Feedback.md — H10 (incl. P2 Chunks Base Adequacy)
+BODY-FEEDBACK:       Body-Feedback.md — Body-Feedback-Precondition (incl. Precondition-2 Chunk-Substrate)
 CHUNK SYSTEM:        Chunk.md v2.0 — compile mechanism, activation dynamics
 DRIVE INTEGRATION:   Drive.md v1.1 §2 — 6 PFC Modes (complements §4 trajectory)
+
+§3b SCALING CONSTRAINTS (v1.1 — new):
+  PFC-Operations.md §9   — PFC Budget = CONSEQUENCE of PFC ceiling (finite shared resource)
+  PFC-Operations.md §10  — Compilable Architecture = evolution's RESPONSE to ceiling
+  PFC-Operations.md §9.3 — 2-Mode Engagement = HOW to work WITHIN ceiling
+  Inter-Body-Mechanism.md §3 — Compiled/Fresh = foundational axis (source-of-truth)
+  Drill-Sound-Brain/       — Music neuroscience validates Compiled/Fresh scaling
 
 OLD FILES (backup):
   PFC/Imagination/backup/PFC-Analysis-v1.1.md §3-5, §7.1 — source content
@@ -550,13 +686,17 @@ OLD FILES (backup):
 
 ---
 
-> **PFC-Development.md v1.0 DRAFT**
+> **PFC-Development.md v1.1 DRAFT**
 >
 > PFC hardware online từ prenatal — 5 empirical pillars (Hodel 2018).
 > Trẻ thiếu COMPILED CHUNKS, không phải thiếu PFC.
-> Learning = Worker → Director → Monitor → Compiled (PFC rút dần).
+> §3b PFC Architecture Ceiling: 3 physical constraints (wiring, delay, metabolic)
+> + Compiled scales (parallel) / Fresh cannot (serial) = evolution's ceiling.
+> Cross-species: elephant 257B neurons, 97.5% cerebellum = parallel scaling evidence.
+> Unifies 4 encephalization hypotheses via architecture constraint.
+> Learning = Worker → Director → Monitor → Compiled (PFC rút dần) = individual version.
 > Sửa vô thức = áp chunk mới, không xóa chunk cũ (exposure therapy mechanism).
 > Training priority: State (giờ) > Software (năm) > Hardware (genetics).
 > Hardware ceiling EXISTS nhưng đa số chưa chạm → room = LỚN.
 >
-> Phiên bản: v1.0, 2026-04-19.
+> Phiên bản: v1.1, 2026-05-30.

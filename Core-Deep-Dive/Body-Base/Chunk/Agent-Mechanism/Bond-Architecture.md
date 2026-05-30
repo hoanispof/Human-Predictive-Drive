@@ -1,8 +1,10 @@
----
+﻿---
 title: Bond-Architecture — Entity-Compiled × 4 Bond Types × Over-Clone Reframe
-version: 1.0
+version: 2.0
 created: 2026-05-22
-status: MECHANISM v1.0
+rewritten: 2026-05-29 (v2.0 — §4 REFRAME: M1-M4 → 2 Forces + 1 Fuel + Gap Drift)
+previous: v1.0 → backup/Bond-Architecture-v1.0-backup.md
+status: MECHANISM v2.0
 scope: |
   CROSS-BOND ARCHITECTURE file:
   Entity-Compiled = 1 mechanism DUY NHẤT.
@@ -14,7 +16,7 @@ scope: |
     ② 4 Bond Types × 12 dimensions comparison (neurochemistry × design × gap direction)
     ③ Gap clone = STRUCTURALLY IMPOSSIBLE (architecture proof + twins test)
     ④ "Over-clone" = observation label cho 3 cơ chế thật (redirect + suppress + converge)
-    ⑤ 4 Mechanisms resonance decline (M1 compiled suppress PRIMARY → M2+M3+M4)
+    ⑤ Resonance Decline: 2 Forces (Compiled-Suppress + Reward-Habituated) + 1 Fuel (Novelty Threshold) + Gap Drift
     ⑥ True understanding = anti-compiled-suppress (meta-principle ALL bonds)
     ⑦ Domain coverage per bond type (5-domain × 4 entity matrix)
     ⑧ 1 entity cannot fill all domains (structural impossibility + Dunbar portfolio)
@@ -24,7 +26,7 @@ purpose: |
   By-Product-Gap-Resonance.md = WHEN mutual quality emerge (observation lens).
   FILE NÀY = HOW Entity-Compiled PLAYS OUT ACROSS ALL BOND TYPES:
     → CÙNG mechanism, KHÁC configuration per bond → KHÁC dynamics per bond.
-    → Gap clone impossible → 3 cơ chế thật → 4 mechanisms decline.
+    → Gap clone impossible → 3 cơ chế thật → Resonance Decline (2 Forces + 1 Fuel).
     → True understanding = anti-compiled-suppress = meta-principle.
     → 1 entity ≠ all domains → Dunbar portfolio = structural solution.
   = "Entity-Compiled §1 mở rộng cross-bond" + "By-Product-Gap-Resonance §9-§10 tách ra + enriched."
@@ -56,8 +58,8 @@ dependencies:
   - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 3-cost, by-product match
   - Body-Feedback-Label.md v2.0 — vocabulary reference
 sources:
-  - Drill-Bond-Architecture v1.0 (1,091L, 23 insights, 28 citations)
-  - Enriches: By-Product-Gap-Resonance v1.1 §9 (over-clone reframe) + §10 (4 mechanisms decline)
+  - Drill-Bond-Architecture v2.0 (1,091L, 23 insights, 28 citations)
+  - Enriches: By-Product-Gap-Resonance v1.1 §9 (over-clone reframe) + §10 (Resonance Decline 2 Forces + 1 Fuel)
 research: See §13
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -93,7 +95,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §1 — ENTITY-COMPILED = 1 MECHANISM × NHIỀU CONFIGURATIONS
 - §2 — 4 BOND TYPES: NEUROCHEMISTRY × DESIGN × GAP DIRECTION
 - §3 — "OVER-CLONE" REFRAME: GAP CLONE IMPOSSIBLE + 3 CƠ CHẾ THẬT
-- §4 — 4 MECHANISMS RESONANCE DECLINE (M1-M4)
+- §4 — RESONANCE DECLINE: 2 FORCES + 1 FUEL
 - §5 — TRUE UNDERSTANDING = ANTI-COMPILED-SUPPRESS
 - §6 — DOMAIN COVERAGE PER BOND TYPE
 - §7 — 1 ENTITY CANNOT FILL ALL DOMAINS
@@ -115,14 +117,14 @@ FRAMEWORK ĐÃ CÓ:
   Entity-Compiled.md v1.0 = DEEP mechanism (8 research streams, formation,
     capacity, grief, decay) — focuses on 1 bond type at a time.
   By-Product-Gap-Resonance.md v1.1 §9-§10 = BRIEF summary over-clone +
-    4 mechanisms decline — 144 lines, thiếu chi tiết cross-bond.
+    Resonance Decline (2 Forces + 1 Fuel) — 144 lines, thiếu chi tiết cross-bond.
 
 FILE NÀY THÊM:
   ① 5 nghiên cứu HỘI TỤ: Entity-Compiled = 1 mechanism, 4 bond types (§1)
   ② 4 bond types × 12 dimensions: neurochemistry × design × gap direction (§2)
   ③ Gap clone = IMPOSSIBLE architecture proof + twins decisive test (§3)
   ④ 3 cơ chế THẬT: redirect ≠ clone ≠ suppress (§3)
-  ⑤ 4 mechanisms decline: M1 compiled suppress → accelerate M2+M3+M4 (§4)
+  ⑤ Resonance Decline: 2 Forces + 1 Fuel (Compiled-Suppress LEVERAGE POINT) (§4)
   ⑥ True understanding = anti-compiled-suppress logic chain (§5)
   ⑦ Domain coverage 5×4 matrix + structural impossibility (§6-§7)
   ⑧ Historical vs modern domain overlap shift (§8)
@@ -158,7 +160,7 @@ COMPANION FILES:
   ③ Gap clone = structurally IMPOSSIBLE.                          🟡 ★ architecture
   ④ "Over-clone" = observation label cho 3 cơ chế thật.           🟡 ★ reframe
   ⑤ 3 cơ chế: gap redirect ≠ gap clone ≠ compiled suppress.      🟡 ★
-  ⑥ 4 mechanisms decline: M1 strongest, accelerator cho M2-M4.   🟡 ★
+  ⑥ Resonance Decline: 2 Forces + 1 Fuel. Compiled-Suppress = LEVERAGE POINT. 🟡 ★
   ⑦ True understanding = anti-compiled-suppress = meta-principle. 🟡 ★
   ⑧ 1 entity KHÔNG THỂ fill tất cả domains.                      🟡 ★ architecture
   ⑨ Dunbar layers = portfolio solution for multi-domain.          🟢 R8-R9
@@ -214,7 +216,7 @@ COMPANION FILES:
 ### §1.2 — Framework mapping: general-purpose
 
 ```
-⭐ ENTITY-COMPILED (Valence-Propagation v3.0 §3) = GENERAL-PURPOSE:
+⭐ ENTITY-COMPILED (Entity-Valence-Dynamics.md v1.0 §1) = GENERAL-PURPOSE:
 
   DEFINITION (không đổi):
     Brain compile agent vào body-base ở STRUCTURAL level.
@@ -290,7 +292,7 @@ COMPANION FILES:
 ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 │ Exit cost     │ CỰC CAO      │ CAO (Background-Pattern-      │ CAO (legal + │ THẤP          │
 │               │ (kin + legal  │ level, age-   │ Entity-C +   │ (no obligat.  │
-│               │ + Entity-C)   │ invariant)    │ shared IF)    │ ambiguous     │
+│               │ + Entity-C)   │ invariant)    │ shared Imagine-Final)    │ ambiguous     │
 │               │               │               │               │ grief)        │
 ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
 │ Compiled      │ CÓ (parent's  │ CÓ (child     │ CÓ (gap      │ ÍT (exit cost │
@@ -598,12 +600,12 @@ COMPANION FILES:
 
 ---
 
-## §4 — 4 MECHANISMS RESONANCE DECLINE (M1-M4)
+## §4 — RESONANCE DECLINE: 2 FORCES + 1 FUEL
 
-### §4.1 — M1: Compiled suppress gap riêng (★ STRONGEST)
+### §4.1 — Compiled-Suppress (force — tấn công NGUỒN) ★ LEVERAGE POINT
 
 ```
-⭐⭐ M1 TẤN CÔNG NGUỒN BY-PRODUCTS:
+⭐⭐ COMPILED-SUPPRESS TẤN CÔNG NGUỒN BY-PRODUCTS:
 
   CƠ CHẾ:
     Schema "phải giống nhau" / fear "theo gap riêng → mất nhau."
@@ -611,10 +613,12 @@ COMPANION FILES:
     → Compiled suppress → flat affect, no own drive.
     → No drive riêng → no by-products riêng → by-product match CHẾT.
 
-  TẠI SAO MẠNH NHẤT:
+  TẠI SAO LÀ LEVERAGE POINT:
     → Tấn công NGUỒN (drive riêng) — không phải triệu chứng.
     → Compiled suppress = automatic, invisible.
-    → M1 ACCELERATE M2+M3+M4 (§4.5).
+    → Accelerate Reward-Habituated: suppress → ít grow → ít novelty → habituation nhanh hơn.
+    → Drain novelty fuel: suppress drive → ①b không grow → compiled by-products plateau.
+    → Fix Compiled-Suppress = giải phóng drive riêng → tự động counter ② + restore novelty.
 
   🟢 R20. Muise & Goss 2024: closeness OK only WITH "otherness."
     "Otherness" = drive riêng. Không có otherness = compiled suppress.
@@ -622,83 +626,129 @@ COMPANION FILES:
     = Compiled suppress slowly → flat → disengage.
 ```
 
-### §4.2 — M2: Habituation (Weber-Fechner)
+### §4.2 — Reward-Habituated (force — hardware adaptation)
 
 ```
-⭐ M2 = TỰ NHIÊN, ĐỘC LẬP VỚI M1:
+⭐ REWARD-HABITUATED = TỰ NHIÊN, ĐỘC LẬP:
 
   CƠ CHẾ:
-    Hardware by-product (By-Product-Gap-Resonance §1 ①a) habituates tự nhiên.
+    Hardware by-product (By-Product-Gap-Resonance §3.3 ①a) habituates tự nhiên.
     → Cùng stimulus lặp → VTA giảm fire → reward giảm.
     → "Beauty fades" — perception adapt to baseline.
-    🟢 R22. Bao & Lyubomirsky 2013: hedonic adaptation in relationships.
+    → Maps to ①a temporal curve: PEAK → habituates → giảm dần (Weber-Fechner).
 
-  ĐỘC LẬP: xảy ra NGAY CẢ không compiled suppress.
+  ĐỘC LẬP: xảy ra NGAY CẢ không Compiled-Suppress.
   → Couple healthy, both grow riêng → VẪN habituate ở hardware domain.
   → = Natural temporal dynamic → cần NOVELTY effort to counter.
+
+  🟢 R22. Bao & Lyubomirsky 2013: hedonic adaptation in relationships.
 ```
 
-### §4.3 — M3: Prediction completion (hết novelty)
+### §4.3 — Novelty Threshold (fuel — calibration parameter)
 
 ```
-⭐ M3 = Self-Pattern-Modeling QUÁ ACCURATE → NO PREDICTION-DELTA:
+⭐⭐ NOVELTY = NHIÊN LIỆU CHO ①b GROWTH, KHÔNG PHẢI CƠ CHẾ:
+
+  BẢN CHẤT:
+    ①b (compiled by-product) anti-habituates: Hebbian → càng fire → càng strong.
+    NHƯNG ①b cần INPUT MỚI để grow — novelty là NHIÊN LIỆU.
+    Dưới ngưỡng novelty: ①b plateau + ①a dominates → resonance decline.
+    Trên ngưỡng: ①b tiếp tục grow → resonance sustained.
+
+  2 LENSES CÙNG 1 PHENOMENON:
+    Lens prediction: Self-Pattern-Modeling quá accurate → prediction-delta = 0 → no new reward.
+    Lens knowledge: Entity-Compiled 40→200h → diminishing returns → ít chunks mới.
+    → CẢ HAI = "hết input mới cho ①b" — nhìn từ 2 góc khác nhau.
+    → ~90%+ trường hợp: cùng YES/NO → không phân biệt được trong quan sát.
+
+  KHÁC COMPILED-SUPPRESS:
+    → Compiled-Suppress = gap BURIED (source attacked — drive bị suppress).
+    → Novelty dưới ngưỡng = gap OPEN nhưng no NEW input to fill.
+    → Cùng outcome ("chán") nhưng KHÁC mechanism → KHÁC fix direction.
+
+  TẠI SAO LÀ FUEL, KHÔNG PHẢI FORCE:
+    → Force (①②) = cơ chế CỤ THỂ, observable, có thể diagnose riêng.
+    → Novelty = ABSENCE of sufficient input — không phải force tác động.
+    → Threshold-based: khác nhau mỗi người, mỗi giai đoạn.
+    → Probabilistic: quá nhiều input variables → KHÔNG đo chính xác.
+    → Therapist CAN observe "novelty stream đủ hay thiếu?" → general direction.
+    → Therapist CANNOT prescribe "bạn cần chính xác X lượng novelty."
+
+  SATIATION MAPPING (Gap-Body-Need §3.2):
+    Novelty threshold = Generative profile alive/dead.
+    "Chán nhau" = Tonic intact + Generative dead = novelty dưới ngưỡng.
+
+  FIX: general direction = more novelty input (shared + individual growth).
+    → Specifics case-dependent, threshold khác nhau mỗi cặp.
+
+  🟢 R23. Baumeister & Bratslavsky 1999: passion = RATE OF CHANGE in intimacy.
+    → Rate of change = 0 → passion = 0. (Lens prediction.)
+  🟢 R24. Aron & Aron 1996, 2000: self-expansion slows → satisfaction giảm.
+    → No new expansion → no new chunks. (Lens knowledge.)
+  → Cross-ref: By-Product-Gap-Resonance §3.3 (①a/①b temporal dynamics).
+  → Cross-ref: Resonance-Sustainability §9 (self-expansion = counter novelty depletion).
+```
+
+### §4.4 — Gap Drift (contextual — direction diverge)
+
+```
+⭐ GAP DRIFT = GAP LANDSCAPES DIVERGE → DIRECTION MATCH ↓:
 
   CƠ CHẾ:
-    Self-Pattern-Modeling compiled sâu → predict hoàn hảo → no prediction-delta → no new reward.
-    🟢 R23. Baumeister & Bratslavsky 1999: passion = RATE OF CHANGE in intimacy.
-    → Rate of change = 0 → passion = 0.
+    Mỗi người có gap landscape riêng = f(chunk network — Gap-Direction §2).
+    Theo thời gian: gap directions CÓ THỂ diverge (career, interests, values).
+    → Ngay cả CÓ novelty + KHÔNG compiled suppress → hướng gap KHÔNG MATCH.
+    → "Chúng tôi không còn chung sở thích/giá trị nữa."
 
-  KHÁC M1: gap vẫn CÓ, chỉ KHÔNG được fill MỚI.
-  → M1 = gap bị SUPPRESS (buried).
-  → M3 = gap vẫn open nhưng no NEW by-products to fill.
+  KHÁC NOVELTY:
+    Novelty = input MỚI có hay không.
+    Gap drift = hướng input ĐÃ lệch, novelty ĐÚNG HƯỚNG mới count.
+    → Novelty chung (travel cùng) có thể counter gap drift NẾU create shared new gaps.
+    → Novelty riêng (career diverge) CÓ THỂ tăng gap drift.
 
-  FIX: mỗi người TIẾP TỤC GROW → tạo new by-products.
+  PROXIMITY PARADOX:
+    Gần → more interaction → more ② habituation + more ① suppress risk.
+    Xa → less interaction → gap drift tăng (ít shared experiences).
+    → Optimal = Goldilocks zone: đủ gần để share, đủ xa để grow riêng.
+    → Schnarch "differentiation": togetherness + individuality balance.
+
+  → Cross-ref: Gap-Direction.md v2.0 (gap = f(surrounding chunks), direction match).
 ```
 
-### §4.4 — M4: Entity-Compiled saturation (plateau)
+### §4.5 — Interaction Model
 
 ```
-⭐ M4 = ĐÃ COMPILE HẾT VỀ NHAU:
+⭐⭐ 2 FORCES + 1 FUEL — TƯƠNG TÁC:
 
-  CƠ CHẾ:
-    Entity-Compiled formation: 40→80→200h → diminishing returns (Entity-Compiled v1.0 §3).
-    → Sau years: ít chunks MỚI để compile về partner.
-    🟢 R24. Aron & Aron 1996, 2000: self-expansion slows → satisfaction giảm.
-    → No new Entity-Compiled chunks → same patterns repeat.
-
-  FIX: shared NOVEL experiences → new chunks → new Entity-Compiled growth.
-```
-
-### §4.5 — 4 mechanisms tương tác (★ KEY)
-
-```
-⭐⭐ 4 CƠ CHẾ ĐỘC LẬP + TƯƠNG TÁC CỘNG HƯỞNG:
-
-  M1 (compiled suppress) → xóa NGUỒN by-products riêng.
-  M2 (habituation)       → giảm reward từ by-products CŨ.
-  M3 (prediction complete)→ chặn by-products MỚI emerge.
-  M4 (Entity-Compiled saturation)     → chặn chunks MỚI về partner.
+  ① Compiled-Suppress (force) → tấn công NGUỒN by-products riêng.
+  ② Reward-Habituated (force) → hardware giảm reward from by-products CŨ.
+  Novelty threshold (fuel) → nhiên liệu cho ①b growth (compiled by-products MỚI).
+  Gap drift (context) → hướng gap diverge → direction match ↓.
 
   TƯƠNG TÁC:
-    M1 + M2: suppress gap riêng + habituate → "flat + boring."
-    M1 + M3: no drive riêng + no new prediction → "chán toàn diện."
-    M2 + M4: habituate hardware + saturate Entity-Compiled → "hết mới."
-    M1 + M2 + M3 + M4: TẤT CẢ → "over-clone kills resonance" COMPOUND.
+    ① accelerate ②: suppress drive → ít novelty → habituation NHANH HƠN.
+    ① drain novelty: suppress drive → ít input mới → ①b plateau → fuel cạn.
+    ② + novelty compound: hardware habituate + hết input mới → "flat + boring."
+    Gap drift × tất cả: hướng lệch → cả ① ② novelty đều ít effective.
 
   INDEPENDENCE:
-    M2 xảy ra NGAY CẢ không M1 (hardware tự habituate).
-    M3 xảy ra NGAY CẢ không M1 (prediction tự complete).
-    M4 xảy ra NGAY CẢ không M1 (Entity-Compiled tự saturate).
-    NHƯNG: M1 ACCELERATE M2+M3+M4:
-    → Compiled suppress → ít grow riêng → prediction complete NHANH HƠN.
-    → Compiled suppress → ít novelty → habituation NHANH HƠN.
-    → = M1 là ACCELERATOR cho 3 cơ chế kia.
+    ② xảy ra NGAY CẢ không ① (hardware tự habituate).
+    Novelty cạn NGAY CẢ không ① (prediction naturally complete over time).
+    Gap drift NGAY CẢ không ① (people naturally change directions).
+    NHƯNG: ① ACCELERATE tất cả — Compiled-Suppress = CATALYST.
 
-  → FIX M1 = giải phóng drive riêng → tự động counter M2+M3+M4.
-  → = TẠI SAO M1 = HIGHEST LEVERAGE to address.
+  → FIX Compiled-Suppress = giải phóng drive riêng
+    → tự động counter ② + restore novelty fuel + maintain shared direction.
+  → = TẠI SAO Compiled-Suppress = HIGHEST LEVERAGE to address.
 
-  🟡 4-mechanism interaction model = framework synthesis.
-  🟢 Individual mechanisms: established (per-section citations).
+  SATIATION MAPPING (Gap-Body-Need §3.2):
+    ① → attacks BOTH Tonic AND Generative (suppress → cả 2 chết).
+    ② → Tonic slowly declining (Weber-Fechner natural).
+    Novelty → Generative alive/dead (threshold determines).
+    "Chán nhau" = Tonic intact + Generative dead.
+
+  🟡 2 Forces + 1 Fuel interaction model = framework synthesis.
+  🟢 Individual components: established (per-section citations).
 ```
 
 ---
@@ -915,7 +965,7 @@ COMPANION FILES:
 
   ① HORMONE SUBSIDY + SELF-REFERENTIAL:
     OT surge → compile sâu + NHANH. NHƯNG: reward = parent's gap direction.
-    → Entity-Access-Calibration §4: Hardware Subsidy = Calibration Bias.
+    → Entity-Access-Calibration §4: Hardware-Subsidy = Calibration Bias.
     → Genuine A provide "cover story" for self-referential C.
 
   ② FEEDBACK LOOP YẾU NHẤT trong 4 bond types:
@@ -931,9 +981,9 @@ COMPANION FILES:
     18+: adult relationship — IF parent let go.
     → "Xa mẹ mới biết thương" = compiled chunks fire KHI distance.
 
-  ④ COMPILED SUPPRESS CHILD'S DRIVES = M1 TỪ NGOÀI:
+  ④ COMPILED SUPPRESS CHILD'S DRIVES = COMPILED-SUPPRESS TỪ NGOÀI:
     Parent IS the compiled suppress agent cho child.
-    → Child's M1 = external source (parent), không chỉ internal.
+    → Child's Compiled-Suppress = external source (parent), không chỉ internal.
     → = WHY parenting literature emphasizes "let child be different."
 ```
 
@@ -947,7 +997,7 @@ COMPANION FILES:
     → Post-limerence reveal: gap direction thật CỦA PARTNER.
     → 4 hướng (Love-Romantic §10.4): hay/không match/chán/toxic.
 
-  ② HIGHEST M1 RISK:
+  ② HIGHEST COMPILED-SUPPRESS RISK:
     Schema "phải giống nhau" + fear "mất nhau" + legal exit cost.
     → Compiled suppress DEEP + AUTOMATED.
     → Gottman Type 2 divorce: 16 năm compiled suppress → fade.
@@ -968,7 +1018,7 @@ COMPANION FILES:
 ```
 ⭐ FRIENDSHIP DYNAMICS:
 
-  ① NO COMPILED SUPPRESS RISK = M1 NEGLIGIBLE:
+  ① NO COMPILED SUPPRESS RISK = COMPILED-SUPPRESS NEGLIGIBLE:
     → Exit cost THẤP → tách TRƯỚC khi suppress sâu.
     → = Self-correcting (bad match → drift apart naturally).
 
@@ -1012,10 +1062,11 @@ CASE 3: "Bạn thân từ nhỏ gặp lại vẫn thân":
   → KHÁC friendship tuổi trưởng thành: adult = context-dependent.
 
 CASE 4: "Yêu 10 năm mà chán":
-  → M2 (habituation) + M3 (prediction complete) + M4 (Entity-Compiled saturation).
-  → ± M1 (compiled suppress gap riêng).
-  → ALL 4 mechanisms compound → "hết mới."
-  → FIX: both maintain drive riêng → new by-products → anti-M1+M2+M3+M4.
+  → Reward-Habituated (hardware adaptation natural over time).
+  → Novelty dưới ngưỡng (prediction complete + Entity-Compiled saturated).
+  → ± Compiled-Suppress (suppress drive riêng → accelerate cả 2).
+  → 2 Forces + Fuel cạn compound → "hết mới."
+  → FIX: giải phóng drive riêng (counter ①) + shared novel experiences (restore fuel).
 
 CASE 5: "Một mình theo partner bỏ tất cả":
   → Gap redirect extreme → B = ONLY gap source.
@@ -1065,8 +1116,8 @@ CASE 5: "Một mình theo partner bỏ tất cả":
   Gap clone impossible (from architecture)
   Gap redirect ≠ gap clone ≠ compiled suppress (3 cơ chế)
   "Over-clone" = observation label reframe
-  4-mechanism resonance decline model (M1-M4)
-  M1 accelerates M2+M3+M4
+  Resonance Decline: 2 Forces + 1 Fuel model
+  Compiled-Suppress = LEVERAGE POINT (accelerate ② + drain novelty)
   True understanding = anti-compiled-suppress logic chain
   Understanding depth determines outcome
   Friendship = purest resonance test
@@ -1155,8 +1206,8 @@ CASE 5: "Một mình theo partner bỏ tất cả":
 | R20 | Muise & Goss 2024 — Closeness + otherness | §4.1, §5 | 🟢 |
 | R21 | Gottman — Type 2 divorce, disengagement | §4.1 | 🟢 Longitudinal |
 | R22 | Bao & Lyubomirsky 2013 — Hedonic adaptation in relationships | §4.2 | 🟢 |
-| R23 | Baumeister & Bratslavsky 1999 — Passion = rate of change (PSPR) | §4.3 | 🟢 |
-| R24 | Aron & Aron 1996, 2000 — Self-expansion model | §4.4 | 🟢 |
+| R23 | Baumeister & Bratslavsky 1999 — Passion = rate of change (PSPR) | §4.3 (lens prediction) | 🟢 |
+| R24 | Aron & Aron 1996, 2000 — Self-expansion model | §4.3 (lens knowledge) | 🟢 |
 | R25 | Singer et al. 2004 — Shared pain circuits (Science) | §2.2 | 🟢 fMRI |
 | R26 | O'Connor 2012 — Complicated grief nucleus accumbens | §2.3 | 🟢 |
 | R27 | Wegner 1987 — Ironic process mental control | §3.2 | 🟢 |
@@ -1174,7 +1225,7 @@ CASE 5: "Một mình theo partner bỏ tất cả":
 >
 > *Gap clone = IMPOSSIBLE. "Over-clone" = observation label.*
 > *3 cơ chế thật: redirect + suppress + converge.*
-> *M1 compiled suppress = accelerator. Fix M1 = giải phóng drive riêng.*
+> *Compiled-Suppress = LEVERAGE POINT. Fix ① = giải phóng drive riêng → counter ② + restore novelty.*
 >
 > *True understanding = biết partner có gap riêng.*
 > *Hỗ trợ, không suppress. Khác nhau = giá trị.*

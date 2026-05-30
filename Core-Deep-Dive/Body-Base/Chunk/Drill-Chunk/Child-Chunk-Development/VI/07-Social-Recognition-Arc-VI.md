@@ -966,7 +966,7 @@ Tất cả hỗ trợ claim rằng **verbal là một trong nhiều labeling/han
 ### §10.3 — Body-Feedback-Draft (drilled N+3)
 
 - [Body-Feedback-Draft/01-Foundation.md §5.5.4](../Body-Feedback-Draft/01-Foundation.md#§5.5.4) — buồn gradient (emotional layer emergence)
-- [Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) — H10 P5 cortisol tagging (liên quan đến §6 attachment emotional arc)
+- [Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) — Body-Feedback-Precondition Precondition-5 Compile-Gate cortisol tagging (liên quan đến §6 attachment emotional arc)
 
 ### §10.4 — Body-Base framework
 

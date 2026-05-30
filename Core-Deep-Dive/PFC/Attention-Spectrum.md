@@ -117,7 +117,7 @@ DETAIL-ORIENTED (COMT chậm + threshold thấp):
   → Chunk NHỎ cũng vượt threshold → PFC nhận MỌI THỨ
   → Draft giữ LÂU → sửa incremental → đi SÂU
   → Trong lớp: nghe thấy HẾT → "chăm chú, ghi chép đầy đủ"
-  → Trong công việc: proofreading, QC, kế toán, debug code = MẠNH
+  → Trong công việc: proofreading, quality control, kế toán, debug code = MẠNH
   → Nhược: khó thấy BIG PICTURE (chunk nhỏ LẤN signal lớn)
   → "Thấy cây mà không thấy rừng"
 

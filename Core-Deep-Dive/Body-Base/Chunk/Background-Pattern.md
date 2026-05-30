@@ -1,4 +1,4 @@
----
+﻿---
 title: Background-Pattern — Accumulated Chunk Bias Invisible to PFC
 version: 2.0
 created: 2026-04-27
@@ -12,7 +12,7 @@ scope: |
   BIAS mọi processing: Self-Pattern-Modeling Triple Bias (Retrieval + Template + Interpretation).
   Chunk-level mechanism UNDERNEATH Body Baseline State (Schema.md §8).
   Cùng mechanism cho trauma, expertise, culture, personality.
-  v2.0: +Triple Bias (Self-Pattern-Modeling v3.1 §9), +Structural Valence × Background-Pattern, +Hardware Subsidy × formation,
+  v2.0: +Triple Bias (Self-Pattern-Modeling v3.1 §9), +Structural Valence × Background-Pattern, +Hardware-Subsidy × formation,
   +Entity-Compiled × Background-Pattern (trait-level), +Entity-Access × Background-Pattern (Mức 0-5),
   +Calibration Bias × Background-Pattern, +Bond-Architecture × Background-Pattern, +Boredom × Background-Pattern,
   +PFC-Operations (compiled suppress, PFC budget, Pattern Shiftability).
@@ -27,7 +27,7 @@ purpose: |
   ⑤ Tại sao therapy cần years, không weeks
   v2.0 THÊM:
   ⑥ HOW Background-Pattern biases Self-Pattern-Modeling qua 3 đường đồng thời (Triple Bias)
-  ⑦ HOW Structural Valence + Hardware Subsidy modulate Background-Pattern formation
+  ⑦ HOW Structural Valence + Hardware-Subsidy modulate Background-Pattern formation
   ⑧ HOW Background-Pattern shapes Entity-Compiled formation + constrains Entity-Access
   ⑨ HOW Background-Pattern creates boredom substrate + resists gap direction shift
   ⑩ HOW Bond-Architecture tương tác với Background-Pattern (per-bond integration depth)
@@ -42,8 +42,8 @@ position: |
 key_changes_v2:
   - ① §6 REWRITE — Triple Bias mechanism (Retrieval + Template + Interpretation) from Self-Pattern-Modeling v3.1 §9
   - ② Self-Pattern-Modeling v3.1 full integration (was v2.1 — 2 major versions behind)
-  - ③ Valence-Propagation v3.0 integration (was v1.2 — ~4 versions behind) — Structural Valence × Background-Pattern, Hardware Subsidy × formation
-  - ④ §9 NEW — Background-Pattern × Valence System (Structural/Current, Hardware Subsidy, Tonic = substrate, 3 Firing Modes)
+  - ③ Entity-Valence-Dynamics.md v1.0 integration (was Valence-Propagation v1.2 — split from Valence-Propagation v3.0) — Structural Valence × Background-Pattern, Hardware-Subsidy × formation
+  - ④ §9 NEW — Background-Pattern × Valence System (Structural/Current, Hardware-Subsidy, Tonic = substrate, 3 Firing Modes)
   - ⑤ §10 NEW — Background-Pattern × Entity-Compiled (trait-level = Background-Pattern, formation × Background-Pattern, Hub-and-Spoke, Dunbar)
   - ⑥ §11 NEW — Background-Pattern × Entity-Access + Calibration (Mức 0-5 × Background-Pattern, exit cost, calibration bias, Mức 4 critical)
   - ⑦ §12 NEW — Background-Pattern × Bond-Architecture (per-bond integration, parent = deepest, anti-compiled-suppress)
@@ -53,9 +53,9 @@ key_changes_v2:
 dependencies:
   Core-Mechanism:
     - Schema.md v2.0 — §4 depth gradient (EXTENDED), §8 body baseline (EXPLAINED)
-    - Chunk.md v2.0 — chunk substrate, §4 activation, §2 compile, §2.4 NT7 direction
+    - Chunk.md v2.0 — chunk substrate, §4 activation, §2 compile, §2.4 Direction-At-Compile
     - Chunk-Activation-Dynamics.md (01b) — probability, re-linking, trigger surface
-    - Chunk-Discovery-Lifecycle.md (01c) — convergence zone, 1A/1B, gist
+    - Chunk-Discovery-Lifecycle.md (01c) — convergence zone, Domain-Checked/Self-Referencing, gist
     - Learning-Cycle.md (09) — 6+1 sleep mechanisms, gist extraction, SHY
     - Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap, compound, 2-source
   PFC:
@@ -66,13 +66,14 @@ dependencies:
     - Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation 40→200h, Dunbar, Grief A+B+C
     - Entity-Access.md v1.2 — Mức 0-5 gradient, Background-Pattern resist access shift
     - Entity-Access-Calibration.md v1.0 — Exit Cost, Calibration Bias, Mức 4 critical
-    - Bond-Architecture.md v1.0 — 4 bond types, M1-M4, anti-compiled-suppress
+    - Bond-Architecture.md v2.0 — 4 bond types, Resonance Decline, anti-compiled-suppress
     - By-Product-Gap-Resonance.md v1.4 — by-product match, gap overlap
   Body-Base:
-    - Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, Hardware Subsidy, Tonic, Phantom
+    - Entity-Valence-Dynamics.md v1.0 — §1 Structural/Current, §4 3 Firing Modes, §5 Hardware-Subsidy, §6 Tonic, §12 Phantom
+    - Valence-Propagation.md v4.0 — §1-§2 Valence definition
     - Cortisol-Baseline.md v2.0 — amplifier, PFC damage, self-reinforcing
     - Gap-Body-Need.md v1.0 — 3 Satiation Types (Cyclic/Tonic/Generative)
-    - Resonance-Per-Entity.md v1.0 — Hardware Subsidy spectrum, Phantom 4-factor
+    - Resonance-Per-Entity.md v1.0 — Hardware-Subsidy spectrum, Phantom 4-factor
   Observation:
     - Boredom.md v2.0 — compiled environment, gap direction resist, boredom threshold
     - Anchor-Schema.md v1.2 — sync point, trust, 4 nguồn fill
@@ -110,13 +111,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §0 — TẠI SAO CẦN CONCEPT MỚI (v2.0: +Simulation-Engine context, +TIỀN ĐỀ ĐỌC, +SCOPE)
 - §1 — DEFINITION (v2.0: +Structural Valence context, +State/Trait distinction)
 - §2 — 2D MODEL: COMPILE DEPTH × LINK DENSITY (v2.0: +Pattern Shiftability)
-- §3 — FORMATION MECHANISM (v2.0: +Hardware Subsidy × speed, +Tonic/Cyclic/Generative)
+- §3 — FORMATION MECHANISM (v2.0: +Hardware-Subsidy × speed, +Tonic/Cyclic/Generative)
 - §4 — SLEEP = ACCELERATOR, NOT SOLVER
 - §5 — TẠI SAO PFC KHÔNG THỂ OBSERVE (v2.0: +PFC-Operations, +Compiled Suppress absorb)
 - §6 — BACKGROUND PATTERN × Self-Pattern-Modeling: TRIPLE BIAS (v2.0: ★ REWRITE — 3 cơ chế + self-fulfilling)
 - §7 — BACKGROUND PATTERN × BODY-FEEDBACK (v2.0: +3 Firing Modes)
 - §8 — BACKGROUND PATTERN × CORTISOL (v2.0: +Compiled Suppress pathway)
-- §9 — ★ NEW: BACKGROUND PATTERN × VALENCE SYSTEM (Structural/Current, Hardware Subsidy, Tonic, Mode 1)
+- §9 — ★ NEW: BACKGROUND PATTERN × VALENCE SYSTEM (Structural/Current, Hardware-Subsidy, Tonic, Mode 1)
 - §10 — ★ NEW: BACKGROUND PATTERN × ENTITY-COMPILED (trait-level, formation, Dunbar)
 - §11 — ★ NEW: BACKGROUND PATTERN × ENTITY-ACCESS + CALIBRATION (Mức 0-5, exit cost)
 - §12 — ★ NEW: BACKGROUND PATTERN × BOND-ARCHITECTURE (per-bond integration, parent = deepest)
@@ -182,8 +183,8 @@ FRAMEWORK CHƯA CÓ:
      → + Self-fulfilling prophecy = vòng lặp đóng kín
 
   ❌ VALENCE SYSTEM × Background-Pattern:
-     → Valence-Propagation v3.0: Structural valence (compiled deep) vs Current (per-moment)
-     → Hardware Subsidy 4-level: MỌI Background-Pattern KHÔNG bình đẳng
+     → Entity-Valence-Dynamics.md v1.0: Structural valence (compiled deep) vs Current (per-moment)
+     → Hardware-Subsidy 4-level: MỌI Background-Pattern KHÔNG bình đẳng
      → Tonic satiation = Background-Pattern substrate (slow invisible baseline)
      → Mode 1 (Maintenance) = cơ chế tạo "background warmth"
 
@@ -212,11 +213,11 @@ FRAMEWORK CHƯA CÓ:
 ```
 ⭐ ĐỌC FILE NÀY CẦN HIỂU TRƯỚC:
 
-  ① Chunk.md v2.0 — chunk substrate, compile mechanisms, NT7 direction
+  ① Chunk.md v2.0 — chunk substrate, compile mechanisms, Direction-At-Compile
   ② Schema.md v2.0 — §4 depth gradient (EXTENDED by file này), §8 body baseline
   ③ Learning-Cycle.md (09) — 6+1 sleep mechanisms, gist extraction, SHY
   ④ Self-Pattern-Modeling.md v3.1 — Self-Pattern-Modeling 6-step, Compiled/Fresh, context-dependent, Triple Bias §9
-  ⑤ Valence-Propagation.md v3.0 — Structural/Current, Hardware Subsidy, 3 Firing Modes, Tonic
+  ⑤ Entity-Valence-Dynamics.md v1.0 — Structural/Current, Hardware-Subsidy, 3 Firing Modes, Tonic
   ⑥ PFC-Operations.md v1.0 — Hold/Suppress, Compiled Quality, PFC Budget, Pattern Shiftability
   ⑦ Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation, Dunbar, Grief A+B+C
   ⑧ Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap, compound dynamics
@@ -249,7 +250,7 @@ FRAMEWORK CHƯA CÓ:
     ✅ PFC invisibility + PFC-Operations integration
     ✅ Self-Pattern-Modeling Triple Bias (Retrieval + Template + Interpretation)
     ✅ Body-Feedback + Cortisol self-reinforcing loop
-    ✅ Background-Pattern × Valence System (Structural, Hardware Subsidy, Tonic, Mode 1)
+    ✅ Background-Pattern × Valence System (Structural, Hardware-Subsidy, Tonic, Mode 1)
     ✅ Background-Pattern × Entity-Compiled + Entity-Access + Calibration
     ✅ Background-Pattern × Bond-Architecture + Boredom
     ✅ Resolution pathways + Pattern Shiftability framework
@@ -257,7 +258,7 @@ FRAMEWORK CHƯA CÓ:
 
   SCOPE OUT:
     ❌ Per-entity detailed profiles → Love-Romantic v3.0, Love-Unified v2.0
-    ❌ Bond formation detailed mechanism → Bond-Architecture v1.0
+    ❌ Bond formation detailed mechanism → Bond-Architecture v2.0
     ❌ Education/therapy protocols → Education/, Self-Created-Threat v1.0
     ❌ AI detection methods → AI-Schema-Detection v2.0
     ❌ Collective-level patterns → Coordination-Node v1.1
@@ -332,9 +333,9 @@ FRAMEWORK CHƯA CÓ:
 │                     │ Background-Pattern: ACCUMULATED background — no specific    │
 │                     │ location, everywhere at once                │
 ├─────────────────────┼─────────────────────────────────────────────┤
-│ 1A/1B Selection     │ 1A/1B: STRATEGY (test against what?)       │
+│ Domain-Checked/Self-Referencing Selection     │ Domain-Checked/Self-Referencing: STRATEGY (test against what?)       │
 │ Pressure (01c §4)   │ Background-Pattern: SUBSTRATE (what biases the testing?)   │
-│                     │ Background-Pattern threat → bias toward 1B (avoid real-    │
+│                     │ Background-Pattern threat → bias toward Self-Referencing (avoid real-    │
 │                     │ check vì dissonance intolerable)            │
 └─────────────────────┴─────────────────────────────────────────────┘
 
@@ -353,7 +354,7 @@ FRAMEWORK CHƯA CÓ:
 ```
 🟡 Background-Pattern VÀ STRUCTURAL VALENCE — CÙNG TẦNG, KHÁC GÓC NHÌN:
 
-  Valence-Propagation v3.0 §3 — STRUCTURAL VALENCE:
+  Entity-Valence-Dynamics.md v1.0 §1 — STRUCTURAL VALENCE:
     = Aggregate of per-channel valence tags CỦA tất cả compiled chunks
     = Mỗi chunk có tag: approach / avoidance / neutral (compile-time lock)
     = CHẬM thay đổi (cần compile/decompile = months/years)
@@ -367,7 +368,7 @@ FRAMEWORK CHƯA CÓ:
     → Background-Pattern = NETWORK STRUCTURE (depth × density)
     → Structural valence = COLOR of that structure (approach vs avoidance)
     → CÙNG substrate (compiled chunks), KHÁC aspect được describe
-    → Background-Pattern → §2 2D model (structure). Structural valence → Valence-Propagation §3 (valence tags)
+    → Background-Pattern → §2 2D model (structure). Structural valence → Entity-Valence-Dynamics.md v1.0 §1 (valence tags)
 
   VÍ DỤ:
     Background-Pattern [effort → not enough] (structure):
@@ -495,6 +496,16 @@ FRAMEWORK CHƯA CÓ:
 🟡 2D model = framework synthesis — components established, integration novel
 🟢 Each quadrant maps to known clinical categories
 🔴 Exact boundary giữa quadrants = gradient, not discrete
+
+⭐ MUSIC = TEXTBOOK CASE cho quadrant BACKGROUND PATTERN:
+
+  LOW compile-depth per song: mỗi bài = moderate emotional weight (no single song traumatic).
+  HIGH link density: hàng nghìn bài × years × daily → distributed khắp neocortex.
+  → PFC CANNOT target (too distributed) → "gu" vô hình, vô thức.
+  → Alzheimer music preservation consistent: 🟢 Jacobsen et al. 2015 (Brain)
+    = musical memory regions ANATOMICALLY SPARED (cACC, ventral pre-SMA, insular).
+    🟡 Framework adds: multi-modal + high link density may contribute to resistance.
+  → Drill-Sound-Brain/02-Sound-Background-Pattern v1.2 §4.
 ```
 
 ### §2.3 — Có cần trục thứ 3?
@@ -502,13 +513,13 @@ FRAMEWORK CHƯA CÓ:
 ```
 🟡 TRỤC THỨ 3 TIỀM NĂNG — DIRECTION (Novelty vs Threat):
 
-  Direction (Chunk.md §2.4 NT7) xác định VALENCE của pattern:
+  Direction (Chunk.md §2.4 Direction-At-Compile) xác định VALENCE của pattern:
     → Novelty direction: pattern = expertise, positive intuition
     → Threat direction: pattern = trauma, avoidance, anxiety
     → Mixed: pattern có cả hai (cultural patterns = mixed)
 
   Direction KHÔNG PHẢI trục thứ 3 ĐỘC LẬP:
-    → Direction attached TO mỗi chunk link (NT7 compile tag)
+    → Direction attached TO mỗi chunk link (Direction-At-Compile tag)
     → Mỗi link TRONG pattern có direction RIÊNG
     → Background-Pattern TỔNG THỂ = weighted average of all link directions
     → → Direction = PROPERTY of pattern, NOT independent axis
@@ -697,17 +708,17 @@ FRAMEWORK CHƯA CÓ:
     → = Sigmoid curve
 ```
 
-### §3.3 — Hardware Subsidy × Background-Pattern Formation Speed (v2.0)
+### §3.3 — Hardware-Subsidy × Background-Pattern Formation Speed (v2.0)
 
 ```
-🟡 Valence-Propagation v3.0 §7 — HARDWARE SUBSIDY MODULATE TỐC ĐỘ Background-Pattern FORMATION:
+🟡 Entity-Valence-Dynamics.md v1.0 §5 — HARDWARE-SUBSIDY MODULATE TỐC ĐỘ Background-Pattern FORMATION:
 
-  Hardware Subsidy = neurochemical system COUNTER VTA habituation:
+  Hardware-Subsidy = neurochemical system COUNTER VTA habituation:
     → VTA habituation = UNIVERSAL (Schultz 1997): mọi stimulus quen → reward giảm
     → NHƯNG: một số entities có hardware RIÊNG chống habituation
-    → Hardware subsidy ≠ chất lượng pattern → = TỐC ĐỘ + ĐỘ BỀN
+    → Hardware-subsidy ≠ chất lượng pattern → = TỐC ĐỘ + ĐỘ BỀN
 
-  ⭐ 4 MỨC HARDWARE SUBSIDY × Background-Pattern FORMATION:
+  ⭐ 4 MỨC HARDWARE-SUBSIDY × Background-Pattern FORMATION:
 
   ┌─────────────────┬─────────────────────┬──────────────────────────────┐
   │ Subsidy Level   │ Entity              │ Background-Pattern Formation Effect          │
@@ -738,7 +749,7 @@ FRAMEWORK CHƯA CÓ:
   └─────────────────┴─────────────────────┴──────────────────────────────┘
 
   ⭐ CONNECTS TO Background-Pattern 2D MODEL:
-    → Hardware Subsidy KHÔNG thêm trục — mà MODULATE tốc độ trên 2 trục:
+    → Hardware-Subsidy KHÔNG thêm trục — mà MODULATE tốc độ trên 2 trục:
     → HIGH subsidy → Link Density tăng NHANH hơn (hardware reinforce liên tục)
     → HIGH subsidy → Compile Depth maintained (counter emotional decoupling)
     → = Cùng 10 năm: Mẹ→Con Background-Pattern >>> Bạn thân Background-Pattern (vì subsidy khác)
@@ -750,7 +761,7 @@ FRAMEWORK CHƯA CÓ:
 🟡 GAP-BODY-NEED v1.0 §2 — 3 SATIATION TYPES × Background-Pattern:
 
   Background-Pattern KHÔNG đồng nhất — có NHIỀU channels (links),
-  mỗi channel có SATIATION TYPE RIÊNG (Valence-Propagation v3.0 §8):
+  mỗi channel có SATIATION TYPE RIÊNG (Entity-Valence-Dynamics.md v1.0 §6):
 
   ① CYCLIC channels: gap fill → reward → off → gap RETURN → fill lại
      → Oscillating (on/off/on) — VD: ăn, ngủ, sex
@@ -776,7 +787,7 @@ FRAMEWORK CHƯA CÓ:
     → Friendship: Generative dominant = FRAGILE (needs novelty sustain)
     → = Per-entity Background-Pattern stability = f(Tonic proportion)
 
-  🟡 Satiation Type × Background-Pattern channel = framework synthesis (Valence-Propagation v3.0 §8, Gap-Body-Need v1.0 §2)
+  🟡 Satiation Type × Background-Pattern channel = framework synthesis (Entity-Valence-Dynamics.md v1.0 §6, Gap-Body-Need v1.0 §2)
 ```
 
 ---
@@ -942,7 +953,7 @@ FRAMEWORK CHƯA CÓ:
      → PFC observe pattern effects → label: "tôi là người cẩn thận"
      → Label THAY THẾ investigation: "vì tôi vốn vậy" = stop searching
      → = PFC label Background-Pattern → ĐÓNG inquiry
-     → = Self-referencing: 01c §4 1B (test against existing chunks)
+     → = Self-referencing: 01c §4 Self-Referencing (test against existing chunks)
      → = "Personality" = PFC label cho Background-Pattern
 
   ⑤ COMPOUND — pattern fire CÙNG event khác:
@@ -979,7 +990,7 @@ FRAMEWORK CHƯA CÓ:
 ### §6.1 — Self-Pattern-Modeling Context (v2.0)
 
 ```
-⭐ Self-Pattern-Modeling (Self-Pattern-Modeling v3.1) = APPLICATION trên Simulation Engine:
+⭐ Self-Pattern-Modeling (Self-Pattern-Modeling v3.1) = APPLICATION trên Simulation-Engine:
 
   Simulation-Engine v1.0: 1 Engine × 3 Components × 3 Axes
     → Self-Pattern-Modeling = (Other, Present, Simulate) — solo forward simulation
@@ -1155,14 +1166,14 @@ FRAMEWORK CHƯA CÓ:
 ### §7.3 — 3 Firing Modes × Background-Pattern (v2.0)
 
 ```
-🟡 Valence-Propagation v3.0 §6 — 3 FIRING MODES × Background-Pattern INTERACTION:
+🟡 Entity-Valence-Dynamics.md v1.0 §4 — 3 FIRING MODES × Background-Pattern INTERACTION:
 
   MODE 1 — MAINTENANCE (entity present, hàng ngày):
     Entity PRESENT → routine fire → opioid LOW-LEVEL → VTA habituated
     → = "Background warmth" — có nhưng INVISIBLE
     → ⭐ MODE 1 = CƠ CHẾ TRỰC TIẾP TẠO BACKGROUND PATTERN ở entity level
     → Entity Background-Pattern = tổng hợp tất cả Mode 1 firing hàng ngày
-    → Hardware Subsidy MODULATE: MAX subsidy → Mode 1 RICHER → Background-Pattern RICHER baseline
+    → Hardware-Subsidy MODULATE: MAX subsidy → Mode 1 RICHER → Background-Pattern RICHER baseline
     → "Ở với mẹ 20 năm, không thấy gì đặc biệt" = Mode 1 → Background-Pattern → invisible
 
   MODE 2 — CHUNK-MISS (entity absent, cấp tính):
@@ -1183,7 +1194,7 @@ FRAMEWORK CHƯA CÓ:
     → Mode 3 TRIGGER Background-Pattern (context, unpredictable, episodic)
     → = Background-Pattern = substrate MÀ 3 modes operate ON
 
-  🟡 3 Firing Modes × Background-Pattern = framework synthesis (Valence-Propagation v3.0 §6)
+  🟡 3 Firing Modes × Background-Pattern = framework synthesis (Entity-Valence-Dynamics.md v1.0 §4)
 ```
 
 ---
@@ -1202,10 +1213,10 @@ FRAMEWORK CHƯA CÓ:
      → Cortisol-Baseline.md §9: PFC damage timeline
      → PFC dendrite retraction → hold capacity GIẢM
      → LESS able to observe Background-Pattern
-     → LESS able to reality-check (1A → drift toward 1B)
+     → LESS able to reality-check (Domain-Checked → drift toward Self-Referencing)
 
   ③ PFC kém → chunks MỚI compile UNDER elevated cortisol
-     → Chunk.md §2.4 NT7: threat-direction compile
+     → Chunk.md §2.4 Direction-At-Compile: threat-direction compile
      → Chunks mới CŨNG gắn threat association
      → = Chunks MỚI reinforce Background-Pattern
 
@@ -1275,7 +1286,7 @@ FRAMEWORK CHƯA CÓ:
 ### §9.1 — Structural vs Current Valence × Background-Pattern
 
 ```
-🟡 Valence-Propagation v3.0 §3 — 2 TẦNG VALENCE × BACKGROUND PATTERN:
+🟡 Entity-Valence-Dynamics.md v1.0 §1 — 2 TẦNG VALENCE × BACKGROUND PATTERN:
 
   STRUCTURAL VALENCE (INSIDE Entity-Compiled):
     = Aggregate of per-channel valence tags CỦA tất cả compiled chunks
@@ -1301,13 +1312,13 @@ FRAMEWORK CHƯA CÓ:
     → PFC confuse 2 tầng → "cãi nhau = sắp chia tay" = SAITẦNG
     → = §1.3 extends: structural valence = valence PROFILE của Background-Pattern
 
-  🟡 Structural vs Current × Background-Pattern = framework synthesis (Valence-Propagation v3.0 §3)
+  🟡 Structural vs Current × Background-Pattern = framework synthesis (Entity-Valence-Dynamics.md v1.0 §1)
 ```
 
 ### §9.2 — Tonic Valence = Background-Pattern Core Substrate
 
 ```
-🟡 Valence-Propagation v3.0 §8 — TONIC = CORE SUBSTRATE CỦA Background-Pattern:
+🟡 Entity-Valence-Dynamics.md v1.0 §6 — TONIC = CORE SUBSTRATE CỦA Background-Pattern:
 
   3 satiation types (Gap-Body-Need v1.0 §2) × valence dynamics:
 
@@ -1318,7 +1329,7 @@ FRAMEWORK CHƯA CÓ:
 
   TONIC valence: slow invisible baseline (always on, always below PFC)
     → Background-Pattern contribution: HIGHEST (compile deep, fire liên tục, invisible)
-    → ⭐ TONIC = "becomes background" (Valence-Propagation v3.0 §8 exact)
+    → ⭐ TONIC = "becomes background" (Entity-Valence-Dynamics.md v1.0 §6 exact)
     → Tonic builds over weeks/months → invisible khi present
     → DEVASTATING khi removed (baseline violation = large delta)
     → VD: safety from mẹ = 20 năm tonic → invisible → mất → PAIN
@@ -1334,13 +1345,13 @@ FRAMEWORK CHƯA CÓ:
     → Entity với CHỈ Generative → Background-Pattern FRAGILE (novelty-dependent)
     → = Per-entity Background-Pattern profile (§3.4) determined BY satiation composition
 
-  🟡 Tonic as Background-Pattern substrate = framework synthesis (Valence-Propagation v3.0 §8)
+  🟡 Tonic as Background-Pattern substrate = framework synthesis (Entity-Valence-Dynamics.md v1.0 §6)
 ```
 
 ### §9.3 — Mode 1 (Maintenance) = Background-Pattern Mechanism at Entity Level
 
 ```
-🟡 Valence-Propagation v3.0 §6 — MODE 1 = MECHANISM TẠO ENTITY-LEVEL Background-Pattern:
+🟡 Entity-Valence-Dynamics.md v1.0 §4 — MODE 1 = MECHANISM TẠO ENTITY-LEVEL Background-Pattern:
 
   Entity PRESENT → routine fire → L2 channels active → opioid LOW-LEVEL
   VTA HABITUATED → reward = BASELINE → PFC sees NOTHING special
@@ -1351,20 +1362,20 @@ FRAMEWORK CHƯA CÓ:
     → Mode 1 × 365 ngày × years → accumulate → Background-Pattern entity-level
     → = §3.1 tích lũy tự nhiên APPLIED cho entity context
 
-  Hardware Subsidy × Mode 1 → Background-Pattern RICHNESS:
+  Hardware-Subsidy × Mode 1 → Background-Pattern RICHNESS:
     MAX subsidy (mẹ→con): Mode 1 opioid trickle MAINTAINED → RICH baseline
     MODERATE (con→mẹ): Mode 1 moderate → stable but leaner
     TEMPORARY (romantic): Mode 1 SIMULATED rich → subsidy expire → LEAN
     NONE (bạn): Mode 1 without protection → VTA habituate FAST → LEANEST
 
-  PHANTOM = POST-Background-Pattern (Valence-Propagation v3.0 §12):
-    → Phantom 4-factor: f(compilation depth × hardware subsidy × L2 structural × duration)
+  PHANTOM = POST-Background-Pattern (Entity-Valence-Dynamics.md v1.0 §12):
+    → Phantom 4-factor: f(compilation depth × hardware-subsidy × L2 structural × duration)
     → Phantom = Mode 2/3 firing AFTER entity loss → Background-Pattern EXPOSED
     → Tonic channels: MOST persistent phantom (baseline violation ongoing)
     → Cyclic channels: EPISODIC phantom (fire at cycle points only)
     → = Phantom REVEAL what was Background-Pattern (invisible → visible through loss)
 
-  🟡 Mode 1 = Background-Pattern mechanism at entity level = framework synthesis (Valence-Propagation v3.0 §6)
+  🟡 Mode 1 = Background-Pattern mechanism at entity level = framework synthesis (Entity-Valence-Dynamics.md v1.0 §4)
 ```
 
 ---
@@ -1533,14 +1544,14 @@ FRAMEWORK CHƯA CÓ:
   → = Entity-Access-Calibration v1.0 §3
 ```
 
-### §11.3 — Hardware Subsidy = Calibration Bias
+### §11.3 — Hardware-Subsidy = Calibration Bias
 
 ```
 🟡 Entity-Access-Calibration v1.0 §4 — PARADOX: STRONGEST BOND = HARDEST TO CALIBRATE:
 
   ⭐ 3 FACTORS CONSPIRE AGAINST CALIBRATION ở deep bonds:
 
-    ① Hardware subsidy MAXIMUM (oxytocin, prolactin)
+    ① Hardware-subsidy MAXIMUM (oxytocin, prolactin)
        → Entity-access FEELS justified (hardware says "this is RIGHT")
        → C (genuine concern) masked as A (everything fine)
 
@@ -1553,7 +1564,7 @@ FRAMEWORK CHƯA CÓ:
     → = 3 systemic factors AGAINST calibration AT THE SAME TIME
 
   COMPOUND EFFECT × Background-Pattern:
-    → Hardware subsidy → FEELS justified → compile into Background-Pattern → absorb
+    → Hardware-subsidy → FEELS justified → compile into Background-Pattern → absorb
     → Exit cost → no counter-signal → pattern NEVER challenged
     → Power → environment CONTROLLED → no alternate experience
     → = Background-Pattern absorb excess behavior → excess becomes BASELINE → invisible
@@ -1577,48 +1588,48 @@ FRAMEWORK CHƯA CÓ:
 ### §12.1 — Per-Bond Background-Pattern Integration Depth
 
 ```
-🟡 BOND-ARCHITECTURE v1.0 §2 — PER-BOND × Background-Pattern:
+🟡 Bond-Architecture v2.0 §2 — PER-BOND × Background-Pattern:
 
   4 bond types × Background-Pattern integration:
 
   ① ATTACHMENT BOND (child→parent):
      → "Earliest = consolidated DEEPEST" → "Woven into Background-Pattern"
-       (Bond-Architecture v1.0 §2.3 exact)
+       (Bond-Architecture v2.0 §2.3 exact)
      → = SAFETY FOUNDATION — parent's presence = Background-Pattern structural layer
      → Age-invariant: adult 40 tuổi mất mẹ DÙ sống xa 20 năm = VẪN grief
      → = Compiled chunks KHÔNG decay (age-invariant + Background-Pattern integration)
-     → "Biết mẹ vẫn ở đó" = BACKGROUND COMFORT (Bond-Architecture v1.0 §2.3)
+     → "Biết mẹ vẫn ở đó" = BACKGROUND COMFORT (Bond-Architecture v2.0 §2.3)
      → Mất = Background-Pattern DISRUPTION, not just entity loss
      → ⭐ DEEPEST Background-Pattern integration of all bond types
 
   ② CARETAKING BOND (parent→child):
-     → Hardware Subsidy MAXIMUM → Background-Pattern forms FASTEST + RICHEST
+     → Hardware-Subsidy MAXIMUM → Background-Pattern forms FASTEST + RICHEST
      → Multi-domain: nhưng ASYMMETRIC (parent invest >> child need parent)
      → Loss of child = DEVASTATING: all 4 Phantom factors MAX
-     → Background-Pattern integration: VERY DEEP (daily routines × hardware subsidy × years)
+     → Background-Pattern integration: VERY DEEP (daily routines × hardware-subsidy × years)
 
   ③ SEXUAL/ROMANTIC BOND:
-     → Hardware Subsidy TEMPORARY (18-36m limerence)
+     → Hardware-Subsidy TEMPORARY (18-36m limerence)
      → Background-Pattern integration: DEEP DURING limerence (simulated stable Background-Pattern)
      → POST-limerence: Background-Pattern weakens IF only subsidy (no Tonic channels built)
      → Partner = ROUTINE-LEVEL Background-Pattern integration (shared schedule, space, expectations)
      → "Mất partner": multi-domain Entity-Compiled loss + shared routine Background-Pattern disruption
        + legal/social restructure → grief COMPLEX
-       (Bond-Architecture v1.0 §9.2)
+       (Bond-Architecture v2.0 §9.2)
 
   ④ AFFILIATIVE BOND (friendship):
-     → NO dedicated hardware subsidy → Background-Pattern integration SLOWEST + most FRAGILE
+     → NO dedicated hardware-subsidy → Background-Pattern integration SLOWEST + most FRAGILE
      → Generative-dominant → novelty-dependent → Background-Pattern = CONDITIONAL
      → "Mất bạn thân": grief SIGNIFICANT but recoverable (no hardware hold)
      → = Exit cost LOW → signal weight HIGH → calibration EASIEST
 
-  🟡 Per-bond × Background-Pattern integration = framework synthesis (Bond-Architecture v1.0)
+  🟡 Per-bond × Background-Pattern integration = framework synthesis (Bond-Architecture v2.0)
 ```
 
 ### §12.2 — Anti-Compiled-Suppress × Background-Pattern Resistance
 
 ```
-🟡 Bond-Architecture v1.0 §5 — ANTI-COMPILED-SUPPRESS = META-PRINCIPLE:
+🟡 Bond-Architecture v2.0 §5 — ANTI-COMPILED-SUPPRESS = META-PRINCIPLE:
 
   Anti-compiled-suppress = support partner's AUTONOMOUS gap direction
   = "Hiểu sâu = biết partner có gap riêng = HỖ TRỢ gap riêng"
@@ -1632,7 +1643,7 @@ FRAMEWORK CHƯA CÓ:
     → "Tôi biết con mình" = Background-Pattern [child = X] → resist evidence child has changed
     → "Anh/chị lúc nào cũng vậy" = Background-Pattern [partner = Y] → label → stop observing
     → → Compiled suppress of partner's new gap directions
-    → → = M1 resonance decline (Bond-Architecture v1.0 §7): suppress → boredom → withdraw
+    → → = Compiled-Suppress (Bond-Architecture v2.0 §4.1): suppress → boredom → withdraw
 
   WHEN ANTI-SUPPRESS WINS:
     → Active observation: "con mình KHÁC rồi" = update entity-compiled
@@ -1640,7 +1651,7 @@ FRAMEWORK CHƯA CÓ:
     → = Relationship MAINTENANCE = fighting Background-Pattern inertia
     → = Tại sao relationships cần ACTIVE effort (not just inertia)
 
-  🟡 Anti-compiled-suppress × Background-Pattern = framework synthesis (Bond-Architecture v1.0 §5)
+  🟡 Anti-compiled-suppress × Background-Pattern = framework synthesis (Bond-Architecture v2.0 §5)
 ```
 
 ---
@@ -1680,7 +1691,7 @@ FRAMEWORK CHƯA CÓ:
 🟡 BOREDOM v2.0 §3.1 — Background-Pattern RESIST GAP DIRECTION SHIFT:
 
   Gap-Direction v2.0 §9: gap direction shift bị Background-Pattern PULL BACK.
-  Gap-clone impossible (Bond-Architecture v1.0 §3).
+  Gap-clone impossible (Bond-Architecture v2.0 §3).
 
   Background-Pattern RESIST MECHANISM:
     → Gap direction = f(surrounding chunks) (Gap-Direction v2.0)
@@ -2101,10 +2112,10 @@ FRAMEWORK CHƯA CÓ:
     → Learning-Cycle: 1 learning cycle (days-weeks)
     → Background-Pattern: thousands of learning cycles (years)
 
-  01c §4 1A/1B Selection Pressure:
-    → CONNECTS: Background-Pattern (threat) bias toward 1B
+  01c §4 Domain-Checked/Self-Referencing Selection Pressure:
+    → CONNECTS: Background-Pattern (threat) bias toward Self-Referencing
     → Threat background → low dissonance tolerance → reject real-check
-    → = 1B not by choice but by Background-Pattern constraint
+    → = Self-Referencing not by choice but by Background-Pattern constraint
 
   Anchor-Schema.md:
     → INTERACTS: Anchor-Schema operate ON TOP of Background-Pattern
@@ -2136,11 +2147,11 @@ FRAMEWORK CHƯA CÓ:
     → Self-fulfilling prophecy (§6.3)
     → v2.1→v3.1: 2 major versions of new understanding
 
-  Valence-Propagation.md v3.0:
+  Entity-Valence-Dynamics.md v1.0 (split from Valence-Propagation v3.0):
     → NEW: Structural vs Current valence × Background-Pattern (§9.1)
     → NEW: Tonic = Background-Pattern substrate (§9.2), Mode 1 = Background-Pattern mechanism (§9.3)
-    → NEW: Hardware Subsidy × formation speed (§3.3), Phantom 4-factor (§9.3)
-    → v1.2→v3.0: ~4 versions of new understanding
+    → NEW: Hardware-Subsidy × formation speed (§3.3), Phantom 4-factor (§9.3)
+    → was v1.2→v3.0→Entity-Valence-Dynamics v1.0
 
   Entity-Compiled.md v1.0:
     → NEW: Trait-level = Background-Pattern (§10.1), Formation × Background-Pattern (§10.2)
@@ -2153,10 +2164,10 @@ FRAMEWORK CHƯA CÓ:
 
   Entity-Access-Calibration.md v1.0:
     → NEW: Exit Cost = Background-Pattern signal weight (§11.2)
-    → Hardware Subsidy = Calibration Bias (§11.3)
+    → Hardware-Subsidy = Calibration Bias (§11.3)
     → Paradox: strongest bond = hardest to calibrate
 
-  Bond-Architecture.md v1.0:
+  Bond-Architecture.md v2.0:
     → NEW: Per-bond Background-Pattern integration depth (§12.1)
     → Parent = deepest Background-Pattern (woven into safety foundation)
     → Anti-compiled-suppress × Background-Pattern resistance (§12.2)
@@ -2169,7 +2180,7 @@ FRAMEWORK CHƯA CÓ:
     → NEW: 3 Satiation Types × Background-Pattern channels (§3.4)
 
   Resonance-Per-Entity.md v1.0:
-    → Hardware Subsidy spectrum, Phantom 4-factor
+    → Hardware-Subsidy spectrum, Phantom 4-factor
 ```
 
 ---
@@ -2223,7 +2234,7 @@ Background-Pattern-Q7: Triple Bias có thể "break" mà KHÔNG cần external f
   → Hay: meditation = PFC observe → nhưng PFC = Lawyer cho Background-Pattern?
   → 🟡 Framework predicts: very difficult without external, possible with trained awareness
 
-Background-Pattern-Q8: Hardware Subsidy × Background-Pattern: protective hay trapping?
+Background-Pattern-Q8: Hardware-Subsidy × Background-Pattern: protective hay trapping?
   → MAX subsidy → Background-Pattern RICHEST + MOST STABLE → positive khi bond healthy
   → NHƯNG: MAX subsidy → HARDEST to calibrate (§11.3) → trapping khi excess
   → → Same mechanism = protective AND trapping depending on context
@@ -2309,11 +2320,11 @@ Background-Pattern-Q10: Compiled suppress + Background-Pattern absorb: how to re
   Triple Bias mechanism (Retrieval+Template+Interp): Novel — Self-Pattern-Modeling v3.1 §9 applied to Background-Pattern
   Self-fulfilling prophecy via Background-Pattern:                Novel — closed loop mechanism
   PFC = Lawyer cho Background-Pattern:                           Novel — motivated reasoning + Background-Pattern
-  Structural valence = Background-Pattern valence profile:        Novel — Valence-Propagation v3.0 §3 × Background-Pattern
-  Tonic channels = Background-Pattern core substrate:             Novel — Valence-Propagation v3.0 §8 × Background-Pattern
-  Mode 1 = Background-Pattern mechanism at entity level:          Novel — Valence-Propagation v3.0 §6 × Background-Pattern
-  Hardware Subsidy × Background-Pattern formation speed:               Novel — 4-level modulation
-  Hardware Subsidy × Calibration Bias:                  Novel — paradox integration
+  Structural valence = Background-Pattern valence profile:        Novel — Entity-Valence-Dynamics.md v1.0 §1 × Background-Pattern
+  Tonic channels = Background-Pattern core substrate:             Novel — Entity-Valence-Dynamics.md v1.0 §6 × Background-Pattern
+  Mode 1 = Background-Pattern mechanism at entity level:          Novel — Entity-Valence-Dynamics.md v1.0 §4 × Background-Pattern
+  Hardware-Subsidy × Background-Pattern formation speed:               Novel — 4-level modulation
+  Hardware-Subsidy × Calibration Bias:                  Novel — paradox integration
   Satiation Type × Background-Pattern channel profile:            Novel — Cyclic/Tonic/Generative × Background-Pattern
   Pattern Shiftability × Background-Pattern Quadrants:            Novel — PFC-Operations §7 × §2 mapping
   Compiled suppress absorb into Background-Pattern:               Novel — double invisibility
@@ -2352,10 +2363,10 @@ Background-Pattern-Q10: Compiled suppress + Background-Pattern absorb: how to re
 ### §19.1 — Core mechanism files
 
 ```
-  Chunk.md v2.0                    — chunk substrate, §2.4 NT7 direction, §4 activation, §5.4 compile depth
+  Chunk.md v2.0                    — chunk substrate, §2.4 Direction-At-Compile, §4 activation, §5.4 compile depth
   Schema.md v2.0                   — §4 depth gradient (EXTENDED by §2), §8 body baseline (EXPLAINED)
   Chunk-Activation-Dynamics.md     — §4 trigger surface (EXTENDED: growth over time)
-  Chunk-Discovery-Lifecycle.md     — §4 1A/1B (CONNECTED: Background-Pattern bias toward 1B)
+  Chunk-Discovery-Lifecycle.md     — §4 Domain-Checked/Self-Referencing (CONNECTED: Background-Pattern bias toward Self-Referencing)
   Learning-Cycle.md                — §4.1 SHY, §4.6 gist extraction (APPLIED: Background-Pattern formation)
   Body-Feedback-Mechanism.md v2.0  — §3.2 Chunk-Miss (§7.1), §4 compound (§7.2)
   Gap-Direction.md v2.0            — §9 Background-Pattern constrains gap direction (§13.2)
@@ -2376,9 +2387,9 @@ Background-Pattern-Q10: Compiled suppress + Background-Pattern absorb: how to re
                                       Hub-and-Spoke §2, Dunbar §4 (→ §10.3),
                                       Grief A+B+C §7 (→ §12.1)
   Entity-Access.md v1.2              — Mức 0-5 gradient (→ §11.1), Background-Pattern resist access shift
-  Entity-Access-Calibration.md v1.0  — Exit Cost §3 (→ §11.2), Hardware Subsidy = Calibration Bias §4
+  Entity-Access-Calibration.md v1.0  — Exit Cost §3 (→ §11.2), Hardware-Subsidy = Calibration Bias §4
                                       (→ §11.3), Mức 4 critical §12
-  Bond-Architecture.md v1.0          — 4 bond types §2 (→ §12.1), M1-M4 §7,
+  Bond-Architecture.md v2.0          — 4 bond types §2 (→ §12.1), Resonance Decline §7,
                                       anti-compiled-suppress §5 (→ §12.2)
   By-Product-Gap-Resonance.md v1.4   — by-product match, gap overlap
 ```
@@ -2386,16 +2397,17 @@ Background-Pattern-Q10: Compiled suppress + Background-Pattern absorb: how to re
 ### §19.3 — Body-Base + Observation files (v2.0 NEW)
 
 ```
-  Valence-Propagation.md v3.0       — Structural/Current §3 (→ §9.1), 3 Firing Modes §6 (→ §9.3),
-                                      Hardware Subsidy §7 (→ §3.3, §9.3), Tonic §8 (→ §9.2),
+  Entity-Valence-Dynamics.md v1.0   — Structural/Current §1 (→ §9.1), 3 Firing Modes §4 (→ §9.3),
+                                      Hardware-Subsidy §5 (→ §3.3, §9.3), Tonic §6 (→ §9.2),
                                       Phantom §12 (→ §9.3)
+  Valence-Propagation.md v4.0       — §1-§2 Valence definition (→ §1.1)
   Gap-Body-Need.md v1.0              — 3 Satiation Types §2 (→ §3.4)
-  Resonance-Per-Entity.md v1.0       — Hardware Subsidy spectrum, Phantom 4-factor (→ §9.3)
+  Resonance-Per-Entity.md v1.0       — Hardware-Subsidy spectrum, Phantom 4-factor (→ §9.3)
   Boredom.md v2.0                    — Compiled environment §5 (→ §13.1),
                                       gap direction resist §3 (→ §13.2)
   Observation/Novelty.md             — novelty drive × Background-Pattern interaction
   Observation/Threat.md              — threat cascade × Background-Pattern self-reinforcing
-  Observation/Connection.md v5.0     — attachment = social Background-Pattern, M1-M4
+  Observation/Connection.md v5.0     — attachment = social Background-Pattern, Resonance Decline
   Observation/Status.md              — status drive × Background-Pattern constraint
   Observation/Meaning.md             — meaning = life-level anchor × Background-Pattern
   Observation/Autonomy.md            — autonomy = controllability × Background-Pattern
@@ -2414,6 +2426,15 @@ Background-Pattern-Q10: Compiled suppress + Background-Pattern absorb: how to re
   Love-Unified.md v2.0               — comparative Background-Pattern across 6 love types
   Empathy.md v4.0                    — empathic accuracy × Background-Pattern (Triple Bias)
   Body-Coupling.md v3.0              — coupling × Background-Pattern substrate
+```
+
+### §19.4b — Drill-Sound-Brain (v2.0 cross-ref)
+
+```
+  Drill-Sound-Brain/02-Sound-Background-Pattern v1.2:
+    → §4 Music = textbook case cho Low Depth + HIGH Density quadrant
+    → Jacobsen 2015 (Brain): musical memory regions anatomically spared in AD
+    → §2.2 music quadrant example added (v2.0 cross-ref)
 ```
 
 ### §19.5 — Academic references (v2.0: ~35 citations)
@@ -2483,7 +2504,7 @@ Background-Pattern-Q10: Compiled suppress + Background-Pattern absorb: how to re
 > Triple Bias: Background-Pattern biases Self-Pattern-Modeling qua 3 đường đồng thời (Retrieval + Template + Interpretation).
 > Self-fulfilling prophecy: Background-Pattern → biased prediction → biased action → confirm Background-Pattern → loop.
 > Structural Valence = Background-Pattern valence profile. Tonic channels = Background-Pattern core substrate.
-> Mode 1 (Maintenance) = Background-Pattern mechanism at entity level. Hardware Subsidy × formation speed.
+> Mode 1 (Maintenance) = Background-Pattern mechanism at entity level. Hardware-Subsidy × formation speed.
 > Trait-level = Background-Pattern. Entity-Compiled formation × Background-Pattern. Dunbar S1-S6 × Background-Pattern depth.
 > Mức 0-5 × Background-Pattern integration. Exit Cost = Background-Pattern structural weight. Calibration Bias paradox.
 > Per-bond integration: parent = deepest. Anti-compiled-suppress × Background-Pattern resistance.

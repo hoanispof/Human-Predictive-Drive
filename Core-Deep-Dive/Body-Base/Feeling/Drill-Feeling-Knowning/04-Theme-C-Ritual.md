@@ -313,7 +313,7 @@ Theme B established that verbal is one chain enabler among several. Theme C's ri
 | Recursion | Possibly unique (HCF) | Limited (not recursive in same way) |
 | Emotional weight | Moderate | Very high (embodied + group + peak) |
 | Persistence | Depends on rehearsal | Deep compile via multi-layer |
-| PFC involvement | High (Layer 6-7) | Low (compiled body-level) |
+| PFC involvement | High (Feel-Labeling–Feel-Explanation) | Low (compiled body-level) |
 | Alexithymia access | Difficult | Accessible (body-level) |
 
 **Key insight**: Ritual is **complementary** to verbal chain, not competing. Different strengths:
@@ -410,7 +410,7 @@ Beyond community and religious ritual, **personal ritual** serves self-regulatio
 **Meditation** (Feeling-Accuracy §7.1):
 - Daily practice → compile body awareness chunks
 - Repeated attention to body → Interoceptive accuracy (Farb 2013 🟢)
-- Non-verbal compile mechanism (Layer 3-4 access training)
+- Non-verbal compile mechanism (Feel-Consciousification–Feel-Observation access training)
 
 **Yoga** (Feeling-Accuracy §7.3):
 - Body practice with specific sequences

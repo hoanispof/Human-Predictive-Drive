@@ -294,7 +294,7 @@ IMPROVISER DRAFT MODE — COMT Val/Val (clear NHANH):
 🟡 HARDWARE × CHILDHOOD = 4 REWARD TRAJECTORIES:
 
   COMT sets RANGE (how fast drafts clear).
-  Childhood P5 tags set DIRECTION (approach vs avoidance).
+  Childhood Precondition-5 tags set DIRECTION (approach vs avoidance).
   Combination → 4 distinct reward life trajectories:
 
   ┌────────────────────┬──────────────────────┬──────────────────────┐
@@ -329,7 +329,7 @@ IMPROVISER DRAFT MODE — COMT Val/Val (clear NHANH):
     → Approach childhood = protective for BOTH COMT variants
     → Avoidance childhood = damaging for BOTH, worse for Met/Met
 
-  → Chi tiết childhood P5 tags: Compile-Taxonomy.md §3, Reward-Signal-Architecture.md §8.4
+  → Chi tiết childhood Precondition-5 tags: Compile-Taxonomy.md §3, Reward-Signal-Architecture.md §8.4
   🟡 COMT × Childhood = framework synthesis, observational consistency.
   Source: Drill §3.22 ❺ (R8).
 ```
@@ -967,17 +967,17 @@ REWARD (v1.1 NEW):
   Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, 5 Profiles, E₀→E₃
     → §3.4 COMT×Reward maps to Reward-Signal-Architecture §4 (profiles)
     → §8b Receptor×Profiles maps to Reward-Signal-Architecture §8.5 (individual differences)
-  03-Reward.md — H10 preconditions, 7-step VTA
+  03-Reward.md — Body-Feedback-Precondition preconditions, 7-step VTA
   Dopamine-Is-Not-Reward.md — Berridge, wanting ≠ liking
   Liking-Wanting.md — wanting × liking mechanisms
 
 COMPILATION (v1.1 NEW):
-  Compile-Taxonomy.md v1.0 §3 — 4 pathways → 4 P5 tag types
-    → §3.5 COMT×Childhood maps to 4-Pathway × P5 Tag Model
+  Compile-Taxonomy.md v2.0 §3 — 4 pathways → 4 Precondition-5 tag types
+    → §3.5 COMT×Childhood maps to 4-Pathway × Precondition-5 Tag Model
 
 BODY SYSTEMS:
   Cortisol-Baseline.md v2.0 — cortisol affects PFC function
-  Body-Feedback.md — body signals + H10
+  Body-Feedback.md — body signals + Body-Feedback-Precondition
 
 CORE:
   Core-v7.8-Draft.md §6 — PFC trong cycle architecture

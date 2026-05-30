@@ -2,7 +2,7 @@
 title: Coordination Node — Resource Allocation Position in Collective Architecture
 version: 1.2
 created: 2026-05-18
-updated: 2026-05-23 v1.2 — +§1.4 Prestige=genuine resonance / Dominance=forced resonance (By-Product-Scale v1.0), +§2.5 enriched Node=Mẹ (first coordination node, By-Product-Scale §9), +§9.4 Hardware Subsidy Per Scale (oxytocin→serotonin→trust infrastructure), Self-Pattern-Modeling rename Match→Modeling, ALL dep versions updated (Self-Pattern-Modeling v3.1, Connection v5.0, Gap-Distribution-Profile v1.1, Body-Coupling v3.0, +By-Product-Scale v1.0, +By-Product-Gap-Resonance v1.4)
+updated: 2026-05-23 v1.2 — +§1.4 Prestige=genuine resonance / Dominance=forced resonance (By-Product-Scale v1.0), +§2.5 enriched Node=Mẹ (first coordination node, By-Product-Scale §9), +§9.4 Hardware-Subsidy Per Scale (oxytocin→serotonin→trust infrastructure), Self-Pattern-Modeling rename Match→Modeling, ALL dep versions updated (Self-Pattern-Modeling v3.1, Connection v5.0, Gap-Distribution-Profile v1.1, Body-Coupling v3.0, +By-Product-Scale v1.0, +By-Product-Gap-Resonance v1.4)
 previous_updates:
   - 2026-05-20 (v1.1: +§2.4 2 Loại Chunks, +§6.3 Compilation Path, §6.1-6.2 enriched)
 status: RESEARCH FILE v1.2
@@ -26,7 +26,7 @@ scope: |
   v1.2 KEY CHANGES (By-Product-Scale v1.0 integration):
     ⑪ Prestige = genuine resonance (opioid). Dominance = forced resonance (relief tag)
     ⑫ Node = Mẹ cho collective (first coordination node, 5 capabilities, scale progression)
-    ⑬ Hardware Subsidy Per Scale: oxytocin (L1) → serotonin (L2) → trust infrastructure (L3)
+    ⑬ Hardware-Subsidy Per Scale: oxytocin (L1) → serotonin (L2) → trust infrastructure (L3)
     ⑭ Self-Pattern-Modeling rename: Self-Pattern-Match → Self-Pattern-Modeling (abbreviation giữ nguyên)
 purpose: |
   Status.md: Status = Resource Access Map (WHAT status is).
@@ -42,6 +42,7 @@ purpose: |
 position: |
   Core-Deep-Dive/Collective/ — cạnh Collective-Body.md, Collective-Arc-Dynamics.md,
   Collective-Purpose.md, Compliance-Floor.md.
+  → Overview: Collective.md v1.0 (integration hub cho folder).
   MECHANISM FILE = synthesis từ core files. Moved from Research/Global/ (2026-05-18).
   Status.md = WHAT (mechanism). File NÀY = WHY + HOW (coordination function).
 dependencies:
@@ -52,13 +53,13 @@ dependencies:
     - Gap-Distribution-Profile.md v1.1 — 4 trục, gap spectrum, collective gap landscape, Satiation Types, ENGINE/ROAD/VEHICLE
     - Gap-Direction.md v2.0 — per-gap mechanism, "chưa biết = không có gap", §10 abstract × body-base
   agent-mechanism:
-    - Self-Pattern-Modeling.md v3.1 — Compiled / Fresh, per-domain Self-Pattern-Modeling, Application 1 on Simulation Engine
+    - Self-Pattern-Modeling.md v3.1 — Compiled / Fresh, per-domain Self-Pattern-Modeling, APPLICATION-1 on Simulation-Engine
     - By-Product-Gap-Resonance.md v1.4 — 2-Stream, by-product match, resonance baseline
-    - By-Product-Scale.md v1.0 — 1 mechanism × 3 scales, Prestige=genuine resonance, hardware subsidy per scale
+    - By-Product-Scale.md v1.0 — 1 mechanism × 3 scales, Prestige=genuine resonance, hardware-subsidy per scale
     - Agent-Mechanism.md v2.1 — integration hub, entity mechanism, §12 body-need feeder
   connection-observation:
-    - Connection.md v5.0 — 3 Generative Primitives, Resonance Baseline, M1-M4, 4-Layer Sustainability
-    - Body-Coupling.md v3.0 — per-agent coupling, System Compilation, Hardware Subsidy, 3 Firing Modes
+    - Connection.md v5.0 — 3 Generative Primitives, Resonance Baseline, Resonance Decline, 4-Layer Sustainability
+    - Body-Coupling.md v3.0 — per-agent coupling, System Compilation, Hardware-Subsidy, 3 Firing Modes
     - Meaning.md v2.1 — life-level Anchor-Schema, 5 types, exhausted
     - Domain-Mapping-Drive.md v1.0 — reward from PROCESS, "given" = bypass
   processing:
@@ -127,7 +128,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §7 — "GOOD ENOUGH" ALLOCATION (Satisficing)
 - §8 — NODE FAILURE → COLLECTIVE RECALIBRATE
 - §9 — EVOLUTION: Bầy đàn → Vua → Chính phủ → Distributed
-  - §9.4 — Hardware Subsidy Per Scale (v1.2)
+  - §9.4 — Hardware-Subsidy Per Scale (v1.2)
 - §10 — HONEST ASSESSMENT + OPEN QUESTIONS
 - §11 — CROSS-REFERENCES
 
@@ -801,7 +802,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ SCALE PROGRESSION QUA ĐỜI TRẺ:
 
-    0-3:   Mẹ = ONLY coordination node (L1-L2 mix, MAX hardware subsidy)
+    0-3:   Mẹ = ONLY coordination node (L1-L2 mix, MAX hardware-subsidy)
     3-12:  Mẹ + giáo viên (L2 begins)
     13-18: Peers + institutions (L2-L3 emerging)
     20+:   Multiple nodes simultaneously
@@ -1484,7 +1485,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       🟢 Gabarro 1987 (The Dynamics of Taking Charge, HBS, 14 CEO transitions)
 
     → KHÔNG RÚT NGẮN ĐƯỢC DƯỚI NGƯỠNG NÀO ĐÓ:
-      Chunks cần domain feedback (Body-Feedback §1: 1A check)
+      Chunks cần domain feedback (Body-Feedback §1: Domain-Checked verification)
       Feedback loop cho coordination = CHẬM (team perform → months → results)
       → "Nhìn người" cần THẤY kết quả từ người đó → needs TIME
 
@@ -1938,16 +1939,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 "All positions essential" = framework synthesis
 ```
 
-### §9.4 — Hardware Subsidy Per Scale: Evolution of Node Substrate (v1.2)
+### §9.4 — Hardware-Subsidy Per Scale: Evolution of Node Substrate (v1.2)
 
 ```
 ⭐⭐ CÙNG FUNCTION (anti-habituation), KHÁC NEUROCHEMISTRY (By-Product-Scale v1.0 §5):
 
-  By-Product-Scale v1.0 phát hiện: hardware subsidy SHIFT từ body → collective
+  By-Product-Scale v1.0 phát hiện: hardware-subsidy SHIFT từ body → collective
   across scales. Node evolution (§9.1) = cùng shift này:
 
   ┌────────────────┬────────────────────┬──────────────────────────────────┐
-  │ Scale          │ Hardware Subsidy   │ Node Function                    │
+  │ Scale          │ Hardware-Subsidy   │ Node Function                    │
   ├────────────────┼────────────────────┼──────────────────────────────────┤
   │ L1 (Pair)      │ OXYTOCIN           │ Mẹ = first node (§2.5)           │
   │ (5-20)         │ kin bond, social   │ Personal trust, direct verify    │
@@ -1973,7 +1974,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ②③ Bộ lạc → Vua: L2 dominant
        Hardware: serotonin ratchet (Status §9.2)
        → Mất alpha → serotonin COLLAPSE → depression
-       → = Hardware subsidy MẤT → node CẦN institutional backup
+       → = Hardware-subsidy MẤT → node CẦN institutional backup
 
     ④⑤ Dân chủ → Distributed: L3 dominant
        Hardware: trust infrastructure (hiến pháp, luật, văn hóa)
@@ -1997,7 +1998,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       L1: oxytocin prevents pair bond decay
       L2: serotonin prevents hierarchy decay
 
-  🟡 Hardware subsidy per scale = framework synthesis (By-Product-Scale v1.0 §5)
+  🟡 Hardware-subsidy per scale = framework synthesis (By-Product-Scale v1.0 §5)
   🟢 Serotonin × hierarchy (Sapolsky, Status §9.2)
   🟢 Oxytocin × bonding (Valence-Propagation v3.0, Connection v5.0)
 ```
@@ -2061,7 +2062,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Prestige = genuine resonance, Dominance = forced resonance (v1.2, By-Product-Scale v1.0 §8)
   🟡 Mẹ = first coordination node, 5 capabilities mapping (v1.2, By-Product-Scale v1.0 §9)
   🟡 Node dual nature: VEHICLE + ROAD (v1.2, By-Product-Scale v1.0 §3)
-  🟡 Hardware Subsidy Per Scale: oxytocin→serotonin→trust infrastructure (v1.2, By-Product-Scale v1.0 §5)
+  🟡 Hardware-Subsidy Per Scale: oxytocin→serotonin→trust infrastructure (v1.2, By-Product-Scale v1.0 §5)
 
   🔴 HYPOTHESIS (speculation, little evidence):
 
@@ -2137,16 +2138,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       by-product match (→ §9.3)
 
   AGENT-MECHANISM FILES (v1.2):
-    → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Application 1 on Simulation-Engine (→ §2.2 ① Self-Pattern-Modeling)
+    → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, APPLICATION-1 on Simulation-Engine (→ §2.2 ① Self-Pattern-Modeling)
     → By-Product-Gap-Resonance.md v1.4 — 2-Stream, resonance baseline (→ §1.4, §9.3)
     → By-Product-Scale.md v1.0 — 1 mechanism × 3 scales, Prestige=genuine resonance,
-      hardware subsidy per scale (→ §1.4, §2.5, §9.4)
+      hardware-subsidy per scale (→ §1.4, §2.5, §9.4)
     → Agent-Mechanism.md v2.1 — integration hub, entity mechanism (→ §2, §6)
 
   OBSERVATION PARAMETERS:
-    → Connection.md v5.0 — 3 Generative Primitives, M1-M4, 4-Layer Sustainability,
-      Hardware Subsidy, pathway ④ shared risk (→ §3.3), social presence (→ §5.3 channel ⑤)
-    → Body-Coupling.md v3.0 — per-agent coupling, System Compilation, Hardware Subsidy,
+    → Connection.md v5.0 — 3 Generative Primitives, Resonance Decline, 4-Layer Sustainability,
+      Hardware-Subsidy, pathway ④ shared risk (→ §3.3), social presence (→ §5.3 channel ⑤)
+    → Body-Coupling.md v3.0 — per-agent coupling, System Compilation, Hardware-Subsidy,
       3 Firing Modes (→ §6 System Compilation, §5.3)
     → Meaning.md v2.1 — anchor exhausted (→ §3.6 lock),
       work alignment (→ §5.3 channel ⑥)
@@ -2198,10 +2199,10 @@ CHANGELOG:
       By-product match quality mapping table, knowledge economy implication
     → §2.5 ★ NEW: Mẹ = first coordination node (5 capabilities mapping)
       Node dual nature (VEHICLE + ROAD), scale progression 0-3→20+
-    → §9.4 ★ NEW: Hardware Subsidy Per Scale
+    → §9.4 ★ NEW: Hardware-Subsidy Per Scale
       oxytocin (L1) → serotonin (L2) → trust infrastructure (L3)
       Evolution mapping, anti-habituation function identical across scales
-    → §10.1: +4 🟡 items (Prestige=genuine, Mẹ=first node, dual nature, hardware subsidy)
+    → §10.1: +4 🟡 items (Prestige=genuine, Mẹ=first node, dual nature, hardware-subsidy)
     → §11: +Agent-Mechanism files category (Self-Pattern-Modeling v3.1, By-Product-Gap-Resonance v1.4, By-Product-Scale v1.0, Agent-Mechanism v2.1)
       All dep versions updated (Connection v5.0, Body-Coupling v3.0, Gap-Distribution-Profile v1.1)
     → GLOBAL: Self-Pattern-Modeling rename Match→Modeling (5 occurrences)

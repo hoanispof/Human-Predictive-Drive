@@ -1,4 +1,4 @@
----
+﻿---
 title: Agent-Mechanism — Integration Hub
 version: 2.1
 created: 2026-04-15
@@ -9,12 +9,12 @@ status: v2.1 INTEGRATION HUB
 scope: |
   INTEGRATION HUB cho Agent Mechanism trong framework.
   v2.1 KEY CHANGES (Phase C8 REFINE — integrate Phase A+B+T+C1-C7):
-    ① Simulation Engine context: Self-Pattern-Modeling = Application 1 trên 1 Engine chung (Simulation-Engine v1.0)
+    ① Simulation-Engine context: Self-Pattern-Modeling = APPLICATION-1 trên 1 Engine chung (Simulation-Engine v1.0)
     ② Entity-Compiled.md v1.0: Hub-and-Spoke, 40→200h, Dunbar, Grief A+B+C
     ③ Entity-Access.md v1.2: Mức 0-5 gradient (formal model cho §2)
     ④ Self-Pattern-Modeling v3.1 rename: Match → Modeling (full name used, abbreviation removed)
     ⑤ By-Product-Gap-Resonance v1.4: +Bond-Architecture, +Resonance-Sustainability, +By-Product-Scale, +Resonance-Per-Entity
-    ⑥ Valence-Propagation v3.0: Structural/Current, 3 Firing Modes, Hardware Subsidy, 3 Satiation Types
+    ⑥ Valence-Propagation v3.0: Structural/Current, 3 Firing Modes, Hardware-Subsidy, 3 Satiation Types
     ⑦ PFC-Operations v1.0: Compiled Quality, PFC Budget, Pattern Shiftability
     ⑧ Folder expansion: 3 files → 11 files (reading flow updated)
     ⑨ All dependency versions updated to current
@@ -26,7 +26,7 @@ purpose: |
   File NỀN TẢNG integration cho toàn bộ Agent-Mechanism/ folder:
   ① Định nghĩa Agent concept (reject binary, accept unified gradient Mức 0-5)
   ② Compilable Architecture context: WHY agent mechanism exists
-  ③ Simulation Engine context: Self-Pattern-Modeling = Application 1 trên shared engine
+  ③ Simulation-Engine context: Self-Pattern-Modeling = APPLICATION-1 trên shared engine
   ④ 3-concept split (Self-Pattern / Self-Pattern-Modeling / Resonance) + accurate previews
   ⑤ Preview Self-Pattern-Modeling v3.1 + By-Product-Gap-Resonance v1.4 + Entity-Compiled v1.0 + Entity-Access v1.2 ở high level
   ⑥ Gradient + schema override + collective + body-need feeder
@@ -41,13 +41,13 @@ supporting_files:
   - Entity-Access.md v1.2 (entity-access gradient Mức 0-5 — NEW Phase A4)
   - Entity-Access-Excess.md v1.0 (Mức 5 excess — TÁCH Phase T1)
   - Entity-Access-Calibration.md v1.0 (calibration architecture — TÁCH Phase T2)
-  - Bond-Architecture.md v1.0 (4 bond types × 1 Entity-Compiled — TÁCH Phase T3)
+  - Bond-Architecture.md v2.0 (4 bond types × 1 Entity-Compiled — TÁCH Phase T3)
   - Resonance-Sustainability.md v1.0 (4-Layer model — TÁCH Phase T4)
   - By-Product-Scale.md v1.0 (3 scales — TÁCH Phase T5)
   - Resonance-Per-Entity.md v1.0 (per-entity profiles — MỚI Phase T7)
 dependencies:
   core-mechanism:
-    - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, PFC=Lawyer, 3-cost, APPLICATION 1
+    - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, PFC=Lawyer, 3-cost, APPLICATION-1
     - By-Product-Gap-Resonance.md v1.4 — 2-Stream, by-product match, anti-match
     - Inter-Body-Mechanism.md v1.0 — 8 drill principles source-of-truth
     - Body-Base.md v3.1 — 3 Hardware Foundations, Compilable Architecture
@@ -62,12 +62,12 @@ dependencies:
     - Entity-Access-Excess.md v1.0 — Mức 5, 3 origins, Self-Pattern-Modeling atrophy
     - Entity-Access-Calibration.md v1.0 — 3-Layer, Exit Cost, Calibration Bias
   resonance-bond:
-    - Bond-Architecture.md v1.0 — 4 bond types × 1 Entity-Compiled, M1-M4, gap clone IMPOSSIBLE
+    - Bond-Architecture.md v2.0 — 4 bond types × 1 Entity-Compiled, Resonance Decline (2 Forces + 1 Fuel), gap clone IMPOSSIBLE
     - Resonance-Sustainability.md v1.0 — 4-Layer, 3 conditions, 3 modalities, 4 silence
     - By-Product-Scale.md v1.0 — 3 scales (pair/hub/institutional)
-    - Resonance-Per-Entity.md v1.0 — Hardware Subsidy spectrum, Phantom 4-factor
+    - Resonance-Per-Entity.md v1.0 — Hardware-Subsidy spectrum, Phantom 4-factor
   body-valence:
-    - Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, Hardware Subsidy
+    - Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, Hardware-Subsidy
     - Body-Coupling.md v3.0 — coupling mechanism, extension/entanglement/mixed
     - Gap-Direction.md v2.0 — gap direction = f(surrounding chunks)
     - Gap-Body-Need.md v1.0 — 3 Satiation Types, 5-Parameter, ENGINE/ROAD/VEHICLE
@@ -76,7 +76,7 @@ dependencies:
     - Logic-Feeling.md v2.0 — Compiled/Fresh = trục thật, observer labels
     - Neural-Processing-Flow.md v2.0 — hardware flow, Compiled/Fresh physical level
   connection-application:
-    - Connection.md v5.0 — M1-M4, 4-Layer Sustainability, Hardware Subsidy, Phantom
+    - Connection.md v5.0 — Resonance Decline, 4-Layer Sustainability, Hardware-Subsidy, Phantom
     - Empathy.md v4.0 — PFC budget, Compiled Quality, Burnout reframe, Per-entity
     - Body-Feedback-Label.md v1.1 — vocabulary reference
     - Cortisol-Baseline.md v2.1 — stress cascade, moral injury
@@ -116,10 +116,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## Mục lục
 
-- §0 — Thesis + H9 (+v2.1: Simulation-Engine context, Entity-Access gradient, changes table)
+- §0 — Thesis + Agent-Unified-Mechanism (+v2.1: Simulation-Engine context, Entity-Access gradient, changes table)
 - §1 — Position trong framework (+v2.1: 11 files, 6 entry paths)
 - §2 — Reject binary Object-Agent (+v2.1: Entity-Access Mức 0-5 formal gradient)
-- §3 — Architecture (+v2.1: §3.3 Simulation Engine context)
+- §3 — Architecture (+v2.1: §3.3 Simulation-Engine context)
 - §4 — 3-concept split (Self-Pattern / Self-Pattern-Modeling / Resonance)
 - §5 — Self-Pattern-Modeling preview (v3.1 + §5.7 Compiled Quality)
 - §6 — Resonance preview (By-Product-Gap-Resonance v1.4 + §6.8-6.11 Bond-Architecture/Resonance-Sustainability/By-Product-Scale/Resonance-Per-Entity)
@@ -132,7 +132,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §13 — Developmental timeline (Compilable Architecture → 15-20yr compilation)
 - §14 — Failure modes (11 modes: +v2.1: §14.10 Entity-Access-Excess, §14.11 Compiled Suppress)
 - §15 — Individual variation
-- §16 — H9 falsifiable predictions (12 predictions)
+- §16 — Agent-Unified-Mechanism falsifiable predictions (12 predictions)
 - §17 — Framework status (Phase A+B+T+C — 28-session plan)
 - §18 — Open questions
 - §19 — Honest assessment (24🟢 + 26🟡 + 7🔴)
@@ -140,16 +140,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §0 — Thesis + H9
+## §0 — Thesis + Agent-Unified-Mechanism
 
-### §0.1 — H9 Hypothesis (v2.0 unified)
+### §0.1 — Agent-Unified-Mechanism Hypothesis (v2.0 unified)
 
 > **Agent-reading = Self-Pattern-Modeling mechanism**: PFC retrieve self chunks matching
 > target entity, apply làm template, fire 2 functions song song:
 > Compiled (body-level simulation, automatic, cost ≈ 0) +
 > Fresh (PFC chain prediction, deliberate, costly).
 >
-> **Self-Pattern-Modeling = Application 1 trên Simulation Engine chung** (Simulation-Engine v1.0).
+> **Self-Pattern-Modeling = APPLICATION-1 trên Simulation-Engine chung** (Simulation-Engine v1.0).
 > 1 Engine (Interoception × Constructive Simulation × Self/Other Model) ×
 > 3 Axes (Target × Time × Operation) → N applications.
 > Self-Pattern-Modeling = coordinate (Other, Present, Simulate). Self-Observation, Imagine-Final = same engine.
@@ -169,7 +169,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Modeling-Stream (Self-Pattern-Modeling compiled mutual, deepens). Self-Pattern-Modeling = powerful ENHANCER, NOT prerequisite.
 >
 > **Agent KHÔNG phải separate substrate hay hardware category**.
-> Agent là **function running on chunk substrate** — supports H1 (chunk = substrate).
+> Agent là **function running on chunk substrate** — supports Chunk-Substrate hypothesis.
 > **Entity-Access = continuous gradient** (Mức 0-5), KHÔNG phải binary Object-Agent.
 
 ### §0.2 — Compilable Architecture context (WHY this mechanism exists)
@@ -202,7 +202,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - Binary hardware Object-Agent classification (VTC level) — too strong, contradicts gradient
 - "Feeling" + "Logic" labels as mechanism description — observer labels, not mechanism
 - Resonance requires Self-Pattern-Modeling from both sides — v3.1: by-product match sufficient
-- Agent as separate storage substrate — contradicts H1 unified chunk
+- Agent as separate storage substrate — contradicts Chunk-Substrate unified chunk
 - Hardware "mirror module" — already rejected (Theme E)
 - PFC = neutral judge — PFC = Lawyer (Gazzaniga, Haidt 2001, Nisbett & Wilson 1977)
 
@@ -215,13 +215,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - 🟢 Hub-and-Spoke neural architecture for person-model (Patterson 2007, 2017)
 - 🟢 Formation 40→200h (Hall 2018), schema acceleration (Tse 2007)
 - 🟢 Dunbar layers S1-S6 = Entity-Compiled depth gradient (Dunbar 1992-2024)
-- 🟡 Simulation Engine: 1 Engine × 3 Components × 3 Axes → N applications (Simulation-Engine v1.0)
+- 🟡 Simulation-Engine: 1 Engine × 3 Components × 3 Axes → N applications (Simulation-Engine v1.0)
 - 🟡 Entity-Access gradient Mức 0-5 (replaces binary Object-Agent — Entity-Access v1.2)
 - 🟡 Entity-Compiled: Hub-and-Spoke + 40→200h + Grief A+B+C (Entity-Compiled v1.0)
 - 🟡 Compiled Quality dimension: genuine/schema/threat (PFC-Operations v1.0)
 - 🟡 PFC Budget ~4±1 concurrent (PFC-Operations v1.0)
-- 🟡 Hardware Subsidy spectrum: MAX→NONE per entity type (Resonance-Per-Entity v1.0, Valence-Propagation v3.0)
-- 🟡 M1-M4 Resonance Decline (Bond-Architecture v1.0)
+- 🟡 Hardware-Subsidy spectrum: MAX→NONE per entity type (Resonance-Per-Entity v1.0, Valence-Propagation v3.0)
+- 🟡 Resonance Decline 2 Forces + 1 Fuel (Bond-Architecture v2.0)
 - 🟡 4-Layer Sustainability model (Resonance-Sustainability v1.0)
 - 🟡 Phantom 4-factor model (Resonance-Per-Entity v1.0)
 - 🟡 2-Stream Architecture (Hardware-Stream habituates, Modeling-Stream deepens)
@@ -250,7 +250,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Aspect | v2.0 | v2.1 |
 |---|---|---|
 | Self-Pattern-Modeling terminology | Self-Pattern-Modeling v3.0 | Self-Pattern-**Modeling** v3.1 (rename) |
-| Simulation Engine | Absent | Self-Pattern-Modeling = Application 1 trên 1 Engine chung (Simulation-Engine v1.0) |
+| Simulation-Engine | Absent | Self-Pattern-Modeling = APPLICATION-1 trên 1 Engine chung (Simulation-Engine v1.0) |
 | Entity-Compiled | Brief mention §12.2b | Full mechanism reference (Entity-Compiled v1.0: Hub-and-Spoke, Dunbar, Grief) |
 | Entity-Access | §2 reject binary (conceptual) | Mức 0-5 formal gradient (Entity-Access v1.2) |
 | Resonance sub-files | 1 file (By-Product-Gap-Resonance v1.0) | 5 files (By-Product-Gap-Resonance v1.4 + Bond-Architecture + Resonance-Sustainability + By-Product-Scale + Resonance-Per-Entity) |
@@ -258,9 +258,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Body-need model | 2-luồng only | +3 Satiation Types, +ENGINE/ROAD/VEHICLE, +Phantom |
 | Folder | 3 active files | 11 active files |
 | Dependencies | 16 flat list | 30+ organized 6 categories |
-| Connection ref | v4.0 | v5.0 (M1-M4, 4-Layer, Phantom integrated) |
+| Connection ref | v4.0 | v5.0 (Resonance Decline, 4-Layer, Phantom integrated) |
 | Empathy ref | v2.2 | v4.0 (PFC budget, Compiled Quality, Per-entity) |
-| Valence-Propagation ref | v2.0 | v3.0 (Structural/Current, 3 Firing Modes, Hardware Subsidy) |
+| Valence-Propagation ref | v2.0 | v3.0 (Structural/Current, 3 Firing Modes, Hardware-Subsidy) |
 
 ---
 
@@ -273,7 +273,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 **Vai trò**:
 1. Định nghĩa Agent concept (reject binary, accept unified gradient Mức 0-5)
 2. Compilable Architecture context: WHY agent mechanism exists
-3. Simulation Engine context: Self-Pattern-Modeling = Application 1 trên shared engine
+3. Simulation-Engine context: Self-Pattern-Modeling = APPLICATION-1 trên shared engine
 4. 3-concept split + accurate previews (Self-Pattern-Modeling v3.1, By-Product-Gap-Resonance v1.4, Entity-Compiled v1.0, Entity-Access v1.2)
 5. Gradient validation + schema override + collective + body-need feeder
 6. Developmental timeline + failure modes + predictions
@@ -300,14 +300,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 → `Entity-Access-Excess.md v1.0` (Mức 5) + `Entity-Access-Calibration.md v1.0` (calibration)
 
 **Bond + Sustainability deep-dive**:
-`Bond-Architecture.md v1.0` (4 types, M1-M4) → `Resonance-Sustainability.md v1.0` (4-Layer)
+`Bond-Architecture.md v2.0` (4 types, Resonance Decline) → `Resonance-Sustainability.md v1.0` (4-Layer)
 → `By-Product-Scale.md v1.0` (3 scales) → `Resonance-Per-Entity.md v1.0` (profiles + Phantom)
 
 **Architecture context** (WHY mechanism exists):
 `Inter-Body-Mechanism.md v1.0` §1 → `Agent-Mechanism.md` §0.2
 
 **Engine context** (shared substrate):
-`Simulation-Engine.md v1.0` → Self-Pattern-Modeling = Application 1 trên 1 Engine chung
+`Simulation-Engine.md v1.0` → Self-Pattern-Modeling = APPLICATION-1 trên 1 Engine chung
 
 **Body-need feeder**:
 `Agent-Mechanism.md` §12 → `Connection.md v5.0` → `Body-Coupling.md v3.0`
@@ -323,7 +323,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ### §1.4 — Scope
 
-**IN scope**: Agent concept, 3-concept split, Simulation Engine context, previews (Self-Pattern-Modeling v3.1 + By-Product-Gap-Resonance v1.4 + Entity-Compiled v1.0 + Entity-Access v1.2), Compilable Architecture, gradient Mức 0-5, schema override, Schema-Linked Processing, body-need feeder (3 Satiation Types, ENGINE/ROAD/VEHICLE), developmental timeline, failure modes (incl. Entity-Access-Excess, Compiled Suppress), individual variation, H9 predictions.
+**IN scope**: Agent concept, 3-concept split, Simulation-Engine context, previews (Self-Pattern-Modeling v3.1 + By-Product-Gap-Resonance v1.4 + Entity-Compiled v1.0 + Entity-Access v1.2), Compilable Architecture, gradient Mức 0-5, schema override, Schema-Linked Processing, body-need feeder (3 Satiation Types, ENGINE/ROAD/VEHICLE), developmental timeline, failure modes (incl. Entity-Access-Excess, Compiled Suppress), individual variation, Agent-Unified-Mechanism predictions.
 
 **OUT of scope**: Full Collective-Agent deep drill, consciousness/qualia, religious tradition comparative, neural correlate precise mapping, AI era implications beyond mention. Deep mechanisms → respective sub-files.
 
@@ -407,19 +407,19 @@ Binary fails: hardware says object, user treats as agent, with ZERO simulation.
   Mức 1 — SHALLOW AGENT: recognized but unlabeled (barista, hàng xóm)
   Mức 2 — PARTIAL COMPILE: some Compiled, mostly Fresh (đồng nghiệp, bạn mới)
   Mức 3 — DEEP COMPILE: Compiled dominant, Compilable-dominant reward (bạn thân)
-  Mức 4 — ENTITY-OWNED: deep + hardware subsidy + low exit cost (mẹ→con, vợ/chồng)
+  Mức 4 — ENTITY-OWNED: deep + hardware-subsidy + low exit cost (mẹ→con, vợ/chồng)
   Mức 5 — EXCESS: C-dominant, autonomy violated, Self-Pattern-Modeling atrophy (→ Entity-Access-Excess.md)
 
   3-FACTOR MODEL cho mỗi Mức:
     Compiled — Engine Mode: Tool ↔ Agent spectrum (HOW brain processes)
     Fresh — Gap-Need Profile: A+B+C+D sources (WHY need access)
-    F3 — Access Confidence: Entity-Compiled depth + stability + hardware subsidy (CAN access?)
+    F3 — Access Confidence: Entity-Compiled depth + stability + hardware-subsidy (CAN access?)
 
   KEY INSIGHTS:
   → Mức 0-2 = UNLABELED by PFC (most entity-access exists without label)
   → Entity-Owned = PFC LABEL at high compilation, NOT mechanism itself
   → Compilable-dominant = optimal destination for ALL starting modes
-  → Hardware Subsidy DURABLE but ≠ quality (mẹ max subsidy, có thể low quality)
+  → Hardware-Subsidy DURABLE but ≠ quality (mẹ max subsidy, có thể low quality)
 
   Detail: Entity-Access.md v1.2 (full gradient model)
          Entity-Access-Excess.md v1.0 (Mức 5 deep-dive)
@@ -529,12 +529,12 @@ v1.0 described architecture without addressing HOW processing quality varies. v2
 
 Cross-reference: Logic-Feeling.md v2.0 §1 (full treatment), Neural-Processing-Flow.md v2.0 §5.5 (physical level).
 
-### §3.3 — Simulation Engine context (v2.1 addition)
+### §3.3 — Simulation-Engine context (v2.1 addition)
 
-v2.0 described Self-Pattern-Modeling as standalone mechanism. v2.1 adds: Self-Pattern-Modeling = **Application 1** trên **1 Engine chung** (Simulation-Engine.md v1.0).
+v2.0 described Self-Pattern-Modeling as standalone mechanism. v2.1 adds: Self-Pattern-Modeling = **APPLICATION-1** trên **1 Engine chung** (Simulation-Engine.md v1.0).
 
 ```
-⭐ SIMULATION ENGINE — 1 Engine, 3 Components, N Applications:
+⭐ SIMULATION-ENGINE — 1 Engine, 3 Components, N Applications:
 
   3 COMPONENTS (shared substrate):
     C1 — Interoception (anterior insula): reads body signals → "MÀN HÌNH"
@@ -694,7 +694,7 @@ NO MODELING NEEDED:
 
 ### §4.3 — Self-Pattern-Modeling (mechanism — v3.1 definition)
 
-**Self-Pattern-Modeling** = cơ chế self select chunks → apply làm template → analyze/predict agent's state/behavior. Fire 2 functions song song. **Application 1** trên Simulation Engine chung (Simulation-Engine v1.0 — coordinate: Other × Present × Simulate).
+**Self-Pattern-Modeling** = cơ chế self select chunks → apply làm template → analyze/predict agent's state/behavior. Fire 2 functions song song. **APPLICATION-1** trên Simulation-Engine chung (Simulation-Engine v1.0 — coordinate: Other × Present × Simulate).
 
 - **Compiled**: body-level simulation (automatic, cost ≈ 0, Hebbian reinforced)
 - **Fresh**: PFC draft prediction (deliberate, costly, mỗi lần = effort)
@@ -714,7 +714,7 @@ NO MODELING NEEDED:
 **Resonance** = emergent mutual phenomenon khi 2+ entities' interactions produce sustained by-product match — mỗi bên fill gap CỦA MÌNH → output match gap direction CỦA BÊN KIA.
 
 **KEY**: Self-Pattern-Modeling = NOT prerequisite. Self-Pattern-Modeling = powerful ENHANCER (creates Modeling-Stream).
-**v2.1**: By-Product-Gap-Resonance v1.4 trimmed → deep-dives tách thành Bond-Architecture v1.0, Resonance-Sustainability v1.0, By-Product-Scale v1.0, Resonance-Per-Entity v1.0. See §6 previews.
+**v2.1**: By-Product-Gap-Resonance v1.4 trimmed → deep-dives tách thành Bond-Architecture v2.0, Resonance-Sustainability v1.0, By-Product-Scale v1.0, Resonance-Per-Entity v1.0. See §6 previews.
 
 **2-Stream Architecture**:
 - **Hardware-Stream** — Hardware/Unidirectional: mỗi bên receive reward INDEPENDENTLY từ other's existence/thuộc tính. Không cần engagement ngược. HABITUATES (Weber-Fechner).
@@ -788,11 +788,11 @@ Note: Hardware-Stream Resonance fires PARALLEL — independent of this Self-Patt
 ## §5 — Self-Pattern-Modeling high-level preview (v3.1)
 
 > **Detail**: `Self-Pattern-Modeling.md v3.1`. Section này = accurate preview + forward pointer.
-> v3.1: renamed Match → Modeling. APPLICATION 1 trên Simulation Engine chung.
+> v3.1: renamed Match → Modeling. APPLICATION-1 trên Simulation-Engine chung.
 
 ### §5.1 — One-sentence definition (v3.1)
 
-**Self-Pattern-Modeling** = solo forward simulation mechanism: select chunks từ self repertoire matching target → fire Compiled (body simulate target state, automatic) + Fresh (PFC chain predict target behavior, deliberate) song song. Per-Agent Valence gates direction. Context-dependent per agent/domain. PFC = Lawyer (narrative bias). 3-cost when Fresh. = Application 1 (Other × Present × Simulate) trên Simulation Engine chung.
+**Self-Pattern-Modeling** = solo forward simulation mechanism: select chunks từ self repertoire matching target → fire Compiled (body simulate target state, automatic) + Fresh (PFC chain predict target behavior, deliberate) song song. Per-Agent Valence gates direction. Context-dependent per agent/domain. PFC = Lawyer (narrative bias). 3-cost when Fresh. = APPLICATION-1 (Other × Present × Simulate) trên Simulation-Engine chung.
 
 ### §5.2 — Compiled/Fresh as real axis
 
@@ -929,10 +929,10 @@ Self-Pattern-Modeling output quality depends not only on compilation LEVEL (Comp
 ## §6 — Resonance high-level preview (By-Product-Gap-Resonance v1.4 + 4 sub-files)
 
 > **Detail**: `By-Product-Gap-Resonance.md v1.4` (core, trimmed).
-> + `Bond-Architecture.md v1.0` (4 bond types, M1-M4 decline)
+> + `Bond-Architecture.md v2.0` (4 bond types, Resonance Decline)
 > + `Resonance-Sustainability.md v1.0` (4-Layer sustainability)
 > + `By-Product-Scale.md v1.0` (3 scales: pair/hub/institutional)
-> + `Resonance-Per-Entity.md v1.0` (per-entity profiles, Hardware Subsidy, Phantom)
+> + `Resonance-Per-Entity.md v1.0` (per-entity profiles, Hardware-Subsidy, Phantom)
 
 ### §6.1 — Definition (By-Product-Gap-Resonance v1.4)
 
@@ -1017,36 +1017,36 @@ Self CANNOT know Resonance real-time. Infer post-hoc from:
 
 **PFC = Lawyer warning**: PFC may construct narrative "we connected!" even when Resonance absent. Domain outcome (not feeling) = arbiter.
 
-### §6.8 — Bond Architecture preview (Bond-Architecture v1.0 — v2.1 addition)
+### §6.8 — Bond Architecture preview (Bond-Architecture v2.0 — v2.1 addition)
 
 **4 bond types × 1 Entity-Compiled mechanism** (tất cả dùng SAME Entity-Compiled architecture):
 
-| Bond Type | Hardware Subsidy | Formation | Exit Cost | Example |
+| Bond Type | Hardware-Subsidy | Formation | Exit Cost | Example |
 |---|---|---|---|---|
 | Parent→Child | MAX (oxytocin, prenatal) | Pre-installed | Very high | Mẹ→con |
 | Romantic | TEMPORARY (limerence 6-24m) | Hormone-assisted | Moderate→high | Vợ/chồng |
 | Friendship | NONE | By-product only | Low | Bạn thân |
 | Kin (non-parent) | Moderate (50% DNA) | Context-assisted | Moderate | Anh/chị/em |
 
-**M1-M4 Resonance Decline**: 4 mechanisms giảm Resonance quality over time:
-- M1 — Habituation: Weber-Fechner, đặc biệt Hardware-Stream → "quen → không thấy"
-- M2 — Compilation reduces novelty: Compiled dominant → auto-pilot → "biết hết rồi"
-- M3 — Gap shift: entity-related gaps atrophy → "không cần nữa"
-- M4 — Anti-match accumulation: by-product conflicts tích lũy → friction
+**Resonance Decline** (Bond-Architecture v2.0 §4): 2 Forces + 1 Fuel giảm Resonance quality over time:
+- Force: **Compiled-Suppress** — suppress drive riêng → by-product source dies (★ LEVERAGE POINT)
+- Force: **Reward-Habituated** — Weber-Fechner, đặc biệt Hardware-Stream → "quen → không thấy"
+- Fuel: **Novelty threshold** — Compiled dominant → auto-pilot → "biết hết rồi" (prediction-delta=0 + Entity-Compiled saturated = 2 lenses)
+- Contextual: **Gap Drift** — entity-related gaps diverge → by-product direction mismatch
 
-**Gap clone IMPOSSIBLE**: brain CANNOT duplicate gap direction from one entity to another (5-step proof in Bond-Architecture v1.0 §5). Mất 1 entity = gap THẬT SỰ mất, không chuyển được.
+**Gap clone IMPOSSIBLE**: brain CANNOT duplicate gap direction from one entity to another (5-step proof in Bond-Architecture v2.0 §3). Mất 1 entity = gap THẬT SỰ mất, không chuyển được.
 
-Detail: `Bond-Architecture.md v1.0`
+Detail: `Bond-Architecture.md v2.0`
 
 ### §6.9 — Resonance Sustainability preview (Resonance-Sustainability v1.0 — v2.1 addition)
 
-**4-Layer Sustainability model** — conditions duy trì Resonance chống M1-M4:
+**4-Layer Sustainability model** — conditions duy trì Resonance chống decline:
 
 | Layer | Function | Mechanism | Without |
 |---|---|---|---|
-| L1 — Proximity | Physical availability | Co-location, schedule | HW-Stream habituates, M-Stream atrophies |
+| L1 — Proximity | Physical availability | Co-location, schedule | Hardware-Stream habituates, M-Stream atrophies |
 | L2 — Duration | Time for deep exchange | Sustained interaction | Shallow only |
-| L3 — Agent-Mode | Self-Pattern-Modeling quality engagement | Genuine curiosity, not routine | Auto-pilot → M2 |
+| L3 — Agent-Mode | Self-Pattern-Modeling quality engagement | Genuine curiosity, not routine | Auto-pilot → novelty depletes |
 | L4 — Domain Coverage | Multi-domain by-product | Cover gaps across domains | Single-domain fragile |
 
 **3 conditions**: proximity + duration + agent-mode = necessary (all 3 required).
@@ -1071,9 +1071,9 @@ Detail: `By-Product-Scale.md v1.0`
 
 ### §6.11 — Per-Entity Resonance profiles preview (Resonance-Per-Entity v1.0 — v2.1 addition)
 
-**3-Tầng model**: Tầng 1 (Hardware Substrate: sensory, hormone, coherence) → Tầng 2 (Compilation History: 40→200h, entity-compiled) → Tầng 3 (Current Dynamics: M1-M4, sustainability, phantom).
+**3-Tầng model**: Tầng 1 (Hardware Substrate: sensory, hormone, coherence) → Tầng 2 (Compilation History: 40→200h, entity-compiled) → Tầng 3 (Current Dynamics: Resonance Decline, sustainability, phantom).
 
-**Hardware Subsidy spectrum** (per entity type):
+**Hardware-Subsidy spectrum** (per entity type):
 - MAX: parent→infant (oxytocin anti-habituation, prenatal restructure)
 - HIGH: kin (50% DNA, childhood co-fire)
 - TEMPORARY: romantic (limerence 6-24 months, then fades)
@@ -1082,7 +1082,7 @@ Detail: `By-Product-Scale.md v1.0`
 **Phantom 4-factor model** (after entity loss):
 - Factor 1: Entity-Compiled depth (chunk networks still fire)
 - Factor 2: Gap-fill breadth (how many domains entity filled)
-- Factor 3: Hardware Subsidy (kin phantom more durable than friend)
+- Factor 3: Hardware-Subsidy (kin phantom more durable than friend)
 - Factor 4: Replacement availability (alternative gap-fill sources)
 - Phantom = chunks fire → target absent → Chunk-Miss → pain. Duration = f(4 factors).
 
@@ -1135,7 +1135,7 @@ Which modality of chunks fires trong Self-Pattern-Modeling retrieval + simulatio
 
 ### §7.5 — Compiled/Fresh as 5th dimension (v2.0 addition, v2.1 enriched)
 
-v1.0 described 4 axes. v2.0 adds compilation level. v2.1 adds: **Compiled Quality** (genuine/schema/threat) and **Hardware Subsidy** also affect quality independent of 4 axes.
+v1.0 described 4 axes. v2.0 adds compilation level. v2.1 adds: **Compiled Quality** (genuine/schema/threat) and **Hardware-Subsidy** also affect quality independent of 4 axes.
 
 ```
 Same target, same 4 axes — nhưng:
@@ -1154,7 +1154,7 @@ Compilation level affects:
 | Modifier | Effect on Self-Pattern-Modeling quality | Source |
 |---|---|---|
 | Compiled Quality (genuine/schema/threat) | Genuine = expansive, Threat = biased negative | PFC-Operations v1.0 §5 |
-| Hardware Subsidy (MAX→NONE) | High subsidy = faster compile but ≠ quality | Resonance-Per-Entity v1.0, Valence-Propagation v3.0 |
+| Hardware-Subsidy (MAX→NONE) | High subsidy = faster compile but ≠ quality | Resonance-Per-Entity v1.0, Valence-Propagation v3.0 |
 | Entity-Access level (Mức 0-5) | Higher = deeper Compiled, lower = Fresh dominant | Entity-Access v1.2 |
 | PFC Budget state | Depleted → all axes drop | PFC-Operations v1.0 §9 |
 
@@ -1254,7 +1254,7 @@ Speed: Affective (ms) > Somatic (s) > Visual-symbolic (s) > Verbal-cognitive (s-
 
 ---
 
-## §9 — Gradient validation (H9 evidence)
+## §9 — Gradient validation (Agent-Unified-Mechanism evidence)
 
 18 cases validate 4-axis + Compiled/Fresh + 2-Stream model.
 
@@ -1262,24 +1262,24 @@ Speed: Affective (ms) > Somatic (s) > Visual-symbolic (s) > Verbal-cognitive (s-
 
 | # | Target | Pattern-Type | Depth | Similarity | Feedback | Quality | 2-Stream | Entity-Access Mức |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Person hợp tính | Composite | High | Self-similar | Rich | 🟢 | HW-Stream+M-Stream strong | 3 |
-| 2 | Person khác tính | Verbal + affective | Moderate | Divergent | Rich | 🟡 | HW-Stream mod, M-Stream effortful | 2-3 |
-| 3 | Chó cúp đuôi | Affective only | Thin | Low | Limited | 🟡 | **HW-Stream + Proto-M-Stream** | 1-2 |
-| 4 | Mèo stress | Somatic + affective | Thin | Low | Limited | 🟡 Weak | HW-Stream only | 1 |
+| 1 | Person hợp tính | Composite | High | Self-similar | Rich | 🟢 | Hardware-Stream+M-Stream strong | 3 |
+| 2 | Person khác tính | Verbal + affective | Moderate | Divergent | Rich | 🟡 | Hardware-Stream mod, M-Stream effortful | 2-3 |
+| 3 | Chó cúp đuôi | Affective only | Thin | Low | Limited | 🟡 | **Hardware-Stream + Proto-M-Stream** | 1-2 |
+| 4 | Mèo stress | Somatic + affective | Thin | Low | Limited | 🟡 Weak | Hardware-Stream only | 1 |
 | 5 | Chuột | None | Very thin | Below threshold | None | 🔴 | No Resonance | 0 |
 | 6 | Cục đá | N/A | N/A | N/A | N/A | N/A | N/A | 0 |
-| 7 | Đức Mẹ Mode 1 | None | N/A | N/A | None | Schema | HW-Stream (comfort) | 0 (schema) |
-| 8 | Đức Mẹ Mode 2 | Composite imagined | Schema | Schema | Internal | 🟡 Virtual | HW-Stream+imagined | 0 (schema) |
-| 9 | Bộ đội lạ | Affective + cognitive | Schema | Moderate | Minimal | 🟡 | HW-Stream (warmth) | 1 (schema) |
+| 7 | Đức Mẹ Mode 1 | None | N/A | N/A | None | Schema | Hardware-Stream (comfort) | 0 (schema) |
+| 8 | Đức Mẹ Mode 2 | Composite imagined | Schema | Schema | Internal | 🟡 Virtual | Hardware-Stream+imagined | 0 (schema) |
+| 9 | Bộ đội lạ | Affective + cognitive | Schema | Moderate | Minimal | 🟡 | Hardware-Stream (warmth) | 1 (schema) |
 | 10 | Quân giặc | Suppressed | Schema | Hostile | Minimal | 🔴 | Anti-match | 0 (suppress) |
-| 11 | Mother day 0 | Composite fresh | Growing | Moderate | Rich | 🟡 Fresh | HW-Stream strong+M-Stream begin | 2→3 |
-| 12 | Mother year 1 | Composite compiled | Deep | High | Rich | 🟢 | HW-Stream+M-Stream compiled | 4 |
-| 13 | Mother yr 10 suppress | Verbal routine | Blocked | Blocked | Ignored | 🔴 | HW-Stream habituated | 4→5? |
+| 11 | Mother day 0 | Composite fresh | Growing | Moderate | Rich | 🟡 Fresh | Hardware-Stream strong+M-Stream begin | 2→3 |
+| 12 | Mother year 1 | Composite compiled | Deep | High | Rich | 🟢 | Hardware-Stream+M-Stream compiled | 4 |
+| 13 | Mother yr 10 suppress | Verbal routine | Blocked | Blocked | Ignored | 🔴 | Hardware-Stream habituated | 4→5? |
 | 14 | Mathematicians | Visual-symbolic | Deep domain | Moderate | Rich | 🟢 Domain | M-Stream (domain) | 2-3 (domain) |
-| 15 | Music fans | Affective | Moderate | High affective | Shared | 🟢 Affective | HW-Stream+weak M-Stream | 1-2 |
+| 15 | Music fans | Affective | Moderate | High affective | Shared | 🟢 Affective | Hardware-Stream+weak M-Stream | 1-2 |
 | 16 | Study group | Verbal-cognitive | Shared problem | Same skill | Rich | 🟢 Domain | M-Stream (cognitive) | 2 |
-| 17 | Celebrity parasocial | Composite | Deep media | Medium | **Zero** | 🔴 Distorted | HW-Stream one-sided | 0 (illusion) |
-| 18 | Mẹ-bé sơ sinh | Affective+somatic | Growing | Low (age) | Contingent | 🟢 Proto | **HW-Stream CỰC MẠNH** | 4 (hardware) |
+| 17 | Celebrity parasocial | Composite | Deep media | Medium | **Zero** | 🔴 Distorted | Hardware-Stream one-sided | 0 (illusion) |
+| 18 | Mẹ-bé sơ sinh | Affective+somatic | Growing | Low (age) | Contingent | 🟢 Proto | **Hardware-Stream CỰC MẠNH** | 4 (hardware) |
 
 **v2.1 note**: Entity-Access Mức column maps Entity-Access gradient (Entity-Access v1.2) onto existing cases. Cases 11-13 show mẹ→con lifecycle: Mức 2→4 (growing) → 4→5? (suppress/excess trajectory). Case 17 parasocial = Mức 0 actual but illusion of high.
 
@@ -1333,7 +1333,7 @@ Speed: Affective (ms) > Somatic (s) > Visual-symbolic (s) > Verbal-cognitive (s-
 
 ### §9.4 — Falsifiers
 
-H9 falsified if:
+Agent-Unified-Mechanism falsified if:
 - Self-Pattern-Modeling fires fully with alexithymia (Bird & Cook wrong)
 - Agent-reading in dedicated hardware (not chunk substrate)
 - Parasocial NOT distorted (feedback axis irrelevant)
@@ -1342,7 +1342,7 @@ H9 falsified if:
 - Hardware-Stream doesn't habituate (Weber-Fechner wrong socially)
 - Mẹ-bé requires Self-Pattern-Modeling from baby (2-Stream wrong)
 
-None observed. H9 consistent.
+None observed. Agent-Unified-Mechanism consistent.
 
 ---
 
@@ -1714,7 +1714,7 @@ Agent-related gaps follow 3 Satiation Types (Gap-Body-Need.md v1.0 §2):
   COMPOUND (most real relationships):
     → Tonic + Generative = most common in close relationships
     → "Chán nhau" = generative habituates → only tonic remains → flat
-    → M1-M4 decline (§6.8) = satiation dynamics over time
+    → Resonance Decline (§6.8) = satiation dynamics over time
 ```
 
 ### §12.8 — ENGINE/ROAD/VEHICLE × agent architecture (v2.1 addition)
@@ -1742,9 +1742,9 @@ Agent mechanism operates within ENGINE/ROAD/VEHICLE framework (Gap-Body-Need v1.
 When entity is lost, agent mechanism produces **Phantom** (Resonance-Per-Entity v1.0):
 - Entity-Compiled chunks STILL fire → target absent → Chunk-Miss → pain
 - **Grief A+B+C** (Entity-Compiled v1.0 §7): A (gap-feed loss) + B (fresh-rebuild cost) + C (phantom firing)
-- Phantom duration = f(4 factors): Entity-Compiled depth, gap-fill breadth, Hardware subsidy, replacement
+- Phantom duration = f(4 factors): Entity-Compiled depth, gap-fill breadth, Hardware-subsidy, replacement
 - "Xa mẹ" = 3 mechanisms: gap shift (new sources) + habituation (tonic decline) + time (phantom weakens)
-- Gap clone IMPOSSIBLE → lost entity's gap = TRULY lost, not transferable (Bond-Architecture v1.0 §5)
+- Gap clone IMPOSSIBLE → lost entity's gap = TRULY lost, not transferable (Bond-Architecture v2.0 §5)
 
 Detail: Entity-Compiled.md v1.0 §7 (grief), Resonance-Per-Entity.md v1.0 §8 (phantom model).
 
@@ -1984,7 +1984,7 @@ Same mechanism, different profile dominant.
 
 ---
 
-## §16 — H9 falsifiable predictions (12 predictions)
+## §16 — Agent-Unified-Mechanism falsifiable predictions (12 predictions)
 
 ### §16.1 — P1: Alexithymia training → empathy improvement
 🟢 Interventions improving self-labeling → Self-Pattern-Modeling quality → Resonance → empathy. Bird & Cook architectural.
@@ -2049,7 +2049,7 @@ After 18 drill files (~238 insights), comprehensive propagation underway:
 | Entity-Access.md | v1.2 | A4+T1+T2 | ✅ Created + trimmed |
 | Entity-Access-Excess.md | v1.0 | T1 | ✅ Tách from Entity-Access |
 | Entity-Access-Calibration.md | v1.0 | T2 | ✅ Tách from Entity-Access |
-| Bond-Architecture.md | v1.0 | T3 | ✅ Tách from By-Product-Gap-Resonance |
+| Bond-Architecture.md | v2.0 | T3 | ✅ Tách from By-Product-Gap-Resonance. v2.0: §4 REFRAME M1-M4 → 2 Forces + 1 Fuel |
 | Resonance-Sustainability.md | v1.0 | T4 | ✅ Tách from By-Product-Gap-Resonance |
 | By-Product-Scale.md | v1.0 | T5 | ✅ Tách from By-Product-Gap-Resonance |
 | Resonance-Per-Entity.md | v1.0 | T7 | ✅ Mới |
@@ -2138,13 +2138,13 @@ After 18 drill files (~238 insights), comprehensive propagation underway:
 11. Per-pair topology (descriptive, not quantified)
 12. Mother bootstrap "load-bearing" (Romanian orphanage strong, precise "load-bearing" claim broader)
 13. Compilable Architecture naming (synthesis; underlying components each 🟢)
-14. Simulation Engine: 1 Engine × 3 Components × 3 Axes (components each 🟢, integration novel)
+14. Simulation-Engine: 1 Engine × 3 Components × 3 Axes (components each 🟢, integration novel)
 15. Entity-Access gradient Mức 0-5 (replaces binary, reasoning sound, operationalization pending)
 16. Entity-Compiled: Hub-and-Spoke → chunk assembly mapping (logical, not directly tested)
 17. Compiled Quality dimension: genuine/schema/threat (tag lock at compile-time, components 🟢)
 18. PFC Budget ~4±1 concurrent (components established, exact number framework)
-19. Hardware Subsidy spectrum (kin/romantic/friend, mechanism sound, not quantified)
-20. M1-M4 Resonance Decline (descriptive, not individually measured)
+19. Hardware-Subsidy spectrum (kin/romantic/friend, mechanism sound, not quantified)
+20. Resonance Decline 2 Forces + 1 Fuel (descriptive, not individually measured)
 21. 4-Layer Sustainability model (conditions reasonable, operationalization needed)
 22. Phantom 4-factor model (grief research supports, specific 4-factor = synthesis)
 23. Grief A+B+C formula (components each supported, weights = synthesis)
@@ -2173,7 +2173,7 @@ After 18 drill files (~238 insights), comprehensive propagation underway:
 
 ### §19.5 — Overall confidence
 
-- **H9 core (unified mechanism)**: 🟢 Consistent, resolves tensions, generates predictions
+- **Agent-Unified-Mechanism core**: 🟢 Consistent, resolves tensions, generates predictions
 - **Quantitative claims**: 🟡 Descriptive framework, validation pending
 - **Novel formalizations (2-Stream, Compiled/Fresh, 3-cost)**: 🟡 Conceptually sound, operationalization needed
 - **Framework integration**: 🟢 Cleanly supersedes old fragments, no contradictions
@@ -2198,10 +2198,10 @@ After 18 drill files (~238 insights), comprehensive propagation underway:
 - `Entity-Access-Calibration.md v1.0` — 3-Layer, Exit Cost, Calibration Bias
 
 **Resonance deep-dives (Phase T)**:
-- `Bond-Architecture.md v1.0` — 4 bond types × 1 Entity-Compiled, M1-M4, gap clone IMPOSSIBLE
+- `Bond-Architecture.md v2.0` — 4 bond types × 1 Entity-Compiled, Resonance Decline (2 Forces + 1 Fuel), gap clone IMPOSSIBLE
 - `Resonance-Sustainability.md v1.0` — 4-Layer, 3 conditions, 3 modalities
 - `By-Product-Scale.md v1.0` — 3 scales (pair/hub/institutional)
-- `Resonance-Per-Entity.md v1.0` — Hardware Subsidy spectrum, Phantom 4-factor
+- `Resonance-Per-Entity.md v1.0` — Hardware-Subsidy spectrum, Phantom 4-factor
 
 **Backup**: `backup/Agent-Mechanism-v2.0-backup.md`
 
@@ -2216,8 +2216,8 @@ After 18 drill files (~238 insights), comprehensive propagation underway:
 - `Inter-Body-Mechanism.md v1.0` — 8 drill principles, Compilable Architecture, 3-cost
 - `Body-Base.md v3.1` — 3 Hardware Foundations, Compilable Architecture
 - `Body-Feedback-Mechanism.md v2.0` — 2-source model, chunk dynamics
-- `Valence-Propagation.md v3.0` — Structural/Current, 3 Firing Modes, Hardware Subsidy, Satiation
-- `Body-Coupling.md v3.0` — coupling mechanism, Hardware Subsidy, M1-M4, 4-Layer
+- `Valence-Propagation.md v3.0` — Structural/Current, 3 Firing Modes, Hardware-Subsidy, Satiation
+- `Body-Coupling.md v3.0` — coupling mechanism, Hardware-Subsidy, Resonance Decline, 4-Layer
 - `Gap-Direction.md v2.0` — gap direction = f(surrounding chunks)
 - `Gap-Body-Need.md v1.0` — 3 Satiation Types, 5-Parameter, ENGINE/ROAD/VEHICLE
 - `Chunk.md v2.0` — chunk substrate foundation
@@ -2231,7 +2231,7 @@ After 18 drill files (~238 insights), comprehensive propagation underway:
 
 ### §20.5 — Observation + connection files
 
-- `Connection.md v5.0` — M1-M4, 4-Layer Sustainability, Hardware Subsidy, Phantom
+- `Connection.md v5.0` — Resonance Decline, 4-Layer Sustainability, Hardware-Subsidy, Phantom
 - `Empathy.md v4.0` — PFC budget, Compiled Quality, Burnout reframe, Per-entity
 - `Background-Pattern.md v2.0` — Triple Bias, Pattern Shiftability, Background-Pattern × Entity
 - `Cortisol-Baseline.md v2.1` — stress cascade, moral injury
@@ -2309,7 +2309,7 @@ v2.0 (2026-05-17) — FULL REWRITE (Phase 16 ALL REWRITE project)
   - Schema-Linked 7 scales
   - Developmental 7 stages
   - 9 failure modes
-  - H9 falsifiable predictions (10 → 12)
+  - Agent-Unified-Mechanism falsifiable predictions (10 → 12)
 
 v1.0 DRAFT (2026-04-15) — initial creation
   Session: Chunk-Analysis Phase A, N+2
@@ -2322,23 +2322,23 @@ v2.1 (2026-05-22) — REFINE (Phase C8 — Drill Framework Propagation plan 25/2
 
   KEY CHANGES:
   ① Self-Pattern-Modeling rename: Self-Pattern-Match → Self-Pattern-Modeling throughout (23 occurrences)
-  ② §0.1: +Simulation Engine context (Self-Pattern-Modeling = Application 1 trên 1 Engine)
-  ③ §0.3: +12 new accepted items (Simulation-Engine, Entity-Access, Entity-Compiled, Compiled Quality, PFC Budget, Hardware Subsidy, M1-M4, 4-Layer, Phantom)
+  ② §0.1: +Simulation-Engine context (Self-Pattern-Modeling = APPLICATION-1 trên 1 Engine)
+  ③ §0.3: +12 new accepted items (Simulation-Engine, Entity-Access, Entity-Compiled, Compiled Quality, PFC Budget, Hardware-Subsidy, Resonance Decline, 4-Layer, Phantom)
   ④ §0.5 NEW: v2.1 changes table (v2.0 vs v2.1)
   ⑤ §1: reading flow REWRITTEN (3 files → 11 files, 6 entry paths)
   ⑥ §2.4: +Entity-Access gradient Mức 0-5 formal model (Entity-Access v1.2)
-  ⑦ §3.3 NEW: Simulation Engine context (1 Engine × 3 Components × 3 Axes)
+  ⑦ §3.3 NEW: Simulation-Engine context (1 Engine × 3 Components × 3 Axes)
   ⑧ §4.3-4.4: Self-Pattern-Modeling v3.1 + By-Product-Gap-Resonance v1.4 definitions updated
   ⑨ §5.7 NEW: Compiled Quality effect on Self-Pattern-Modeling (genuine/schema/threat)
   ⑩ §6: header updated (By-Product-Gap-Resonance v1.4 + 4 sub-files)
   ⑪ §6.8-6.11 NEW: Bond-Architecture, Resonance-Sustainability, By-Product-Scale, Resonance-Per-Entity previews
-  ⑫ §7.5: +quality modifiers table (Compiled Quality, Hardware Subsidy, Entity-Access level, PFC Budget)
+  ⑫ §7.5: +quality modifiers table (Compiled Quality, Hardware-Subsidy, Entity-Access level, PFC Budget)
   ⑬ §9.1: +Entity-Access Mức column in gradient table (18 cases annotated)
   ⑭ §12.7-12.9 NEW: 3 Satiation Types × agent, ENGINE/ROAD/VEHICLE, Phantom × agent loss
   ⑮ §14.10-14.11 NEW: Entity-Access-Excess (Mức 5) + Compiled Suppress escalation failure modes
   ⑯ §17 REWRITE: Phase A+B+T+C status (28-session plan, folder table)
   ⑰ §19: +8 🟢 items (Hub-and-Spoke, Hall 2018, Tse, Dunbar, Mitchell, Schacter, Zeki, Robinaugh)
-            +13 🟡 items (Simulation-Engine, Entity-Access gradient, Entity-Compiled, Compiled Quality, PFC Budget, Hardware Subsidy, M1-M4, 4-Layer, Phantom, Grief A+B+C, ENGINE/ROAD/VEHICLE, 3 Satiation, Gap clone)
+            +13 🟡 items (Simulation-Engine, Entity-Access gradient, Entity-Compiled, Compiled Quality, PFC Budget, Hardware-Subsidy, Resonance Decline, 4-Layer, Phantom, Grief A+B+C, ENGINE/ROAD/VEHICLE, 3 Satiation, Gap clone)
   ⑱ §20 REWRITE: 4 categories → 6 categories, +12 new files, all versions updated, 45+ citations
   ⑲ YAML: 16 flat deps → 30+ organized 6 categories, +10 supporting files
   ⑳ GLOBAL: all dep versions updated to current
@@ -2349,7 +2349,7 @@ v2.1 (2026-05-22) — REFINE (Phase C8 — Drill Framework Propagation plan 25/2
   - ALL signature examples
   - ALL v2.0 research citations (28 → 45+)
   - 3-concept split, 4 Quadrants, Schema Mode 1/2, 7 developmental stages
-  - H9 falsifiable predictions (12, unchanged)
+  - Agent-Unified-Mechanism falsifiable predictions (12, unchanged)
 ```
 
 ---

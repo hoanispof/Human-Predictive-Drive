@@ -1,7 +1,8 @@
 ---
 title: Alzheimer-Analysis — Cơ Chế Alzheimer Qua Framework v7.8
-version: 1.2
+version: 1.3
 created: 2026-05-15 (v1.0)
+refined: 2026-05-29 (v1.3 — L3 RETIRE: "L0→L1→L3→PFC"→"L0→L1→modulatory→PFC". Body-Base v3.3 aligned)
 refined: 2026-05-17 (v1.2 — Compiled/Fresh fix, entity-compiled, dep updates Self-Pattern-Modeling v3.0/Connection v4.0/Body-Feedback-Mechanism v2.0/Religion v2.4)
 updated: 2026-05-15 (v1.1 — FULL REWRITE: +Synapse loss = PRIMARY mechanism, +Tau biology deep (protein→pretangle→oligomer→tangle, from childhood), +4-Phase Model (âm ỉ→tích lũy→cascade→symptoms), +Phase Transition Model (activity protective→destructive when amyloid disrupts E/I balance), +5 mechanisms "last in first out" (thêm myelin), +Sleep×Glymphatic (Hauglund 2025 NE oscillations, zolpidem warning), +5 Protective Layers + Resilience (centenarians, SuperAgers), +Religion maximum compile resistance, +Cognitive activity/retirement/stress, +Alzheimer heterogeneous (4+ clinical, 3-5 biological subtypes), +Architecture determines pattern not cause, +Alzheimer as reverse-engineering lens, +~75 citations (was ~20))
 status: v1.2 — REFERENCE FILE
@@ -927,7 +928,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Bắt đầu     │ Brainstem + gut        │ Entorhinal cortex      │
   │ Hướng lan    │ BOTTOM-UP              │ INSIDE-OUT             │
   │              │ (thân não → cortex)    │ (hippocampus → cortex) │
-  │ Framework    │ L0 → L1 → L3 → PFC    │ Compile center → Store │
+  │ Framework    │ L0→L1→modulatory→PFC   │ Compile center → Store │
   │ Triệu chứng │ Non-motor → Motor      │ Memory → Everything    │
   │ Stages       │ 6 stages               │ 6 stages               │
   │ Cùng tác giả│ Braak et al.           │ Braak & Braak          │
@@ -2964,11 +2965,11 @@ TOTAL: ~75 academic citations (v1.0 had ~20)
   → Meaning.md v2.1 — identity anchor dissolution
   → Empathy.md v2.0 — caregiver empathy dynamics
   → Protect.md v1.0 — ownership, loss aversion (caregiver)
-  → Body-Base.md v2.0 — L0/L1/L3 architecture
+  → Body-Base.md v3.3 — L0+L1 substrate architecture
   → Dopamine-Is-Not-Reward.md v1.1 — 7-step (wanting vs liking comparison)
   → ADHD-Observation.md v1.1 — Dopamine Cluster + medication comparison
   → Child-Development-Mechanism.md v1.0 — reverse developmental comparison
-  → Compile-Taxonomy.md v1.0 — A/B/C compile types
+  → Compile-Taxonomy.md v2.0 — 3 Compile Types (Experience/Expertise/Trust)
   → Feeling-Mechanism-Deep.md — body-first invariant
   → PFC-Configuration.md v1.0 — Mode ⑤ Dissociated (relevance to Alzheimer)
   → OCD-Analysis.md v2.1 — "done" pipeline (grief comparison)

@@ -22,7 +22,7 @@ language: Tiếng Việt primary, English technical terms
 
 #### §1.1.1 — Formal Definition (Feeling.md §1.1)
 
-> **FEELING** = signal phản hồi đã được **INTEGRATED** về state của body systems (L0-L3 body-base + agent input + mirror + schema + imagine-final + valence + cognitive prediction) → **VERBALIZABLE** ở PFC level.
+> **FEELING** = signal phản hồi đã được **INTEGRATED** về state của body systems (body-base (L0+L1) + agent input + mirror + schema + imagine-final + valence + cognitive prediction) → **VERBALIZABLE** ở PFC level.
 >
 > Nói ngắn gọn: Feeling là CÁCH body tự làm cho chính mình trở thành **noticeable** với PFC.
 
@@ -54,44 +54,44 @@ language: Tiếng Việt primary, English technical terms
 #### §1.1.3 — 7-Layer Structure (§2) — **CRITICAL cho Theme A**
 
 ```
-Layer 7: EXPLANATION    "Vì sao feeling này tồn tại"    20-70% fidelity
-Layer 6: LABELING       "Feeling này tên là gì"          40-80%
-Layer 5: LOCATION       "Ở đâu trong body"                70-90%
-Layer 4: OBSERVATION    "Có gì đó đang xảy ra"            85%
+Feel-Explanation: EXPLANATION    "Vì sao feeling này tồn tại"    20-70% fidelity
+Feel-Labeling: LABELING         "Feeling này tên là gì"          40-80%
+Feel-Location: LOCATION         "Ở đâu trong body"                70-90%
+Feel-Observation: OBSERVATION   "Có gì đó đang xảy ra"            85%
 ═══════════════════════════════════════════════════
-Layer 3: CONSCIOUSIFICATION "Body state trở nên noticeable" 90%
+Feel-Consciousification: CONSCIOUSIFICATION "Body state trở nên noticeable" 90%
 ───────────────────────────────────────────────
-Layer 2: INTEGRATION    Insula + ACC + VMPFC              95%
-Layer 1: RAW SIGNALS    Multi-system fire                 100%
+Feel-Integration: INTEGRATION   Insula + ACC + VMPFC              95%
+Feel-RawSignals: RAW SIGNALS    Multi-system fire                 100%
 ```
 
-**Key insight**: Fidelity GIẢM DẦN đi lên. Layer 1 = 100% body truth, Layer 7 = PFC's best guess.
+**Key insight**: Fidelity GIẢM DẦN đi lên. Feel-RawSignals = 100% body truth, Feel-Explanation = PFC's best guess.
 
-**Layer 1-3 = BODY-based** (pre-PFC hoặc PFC-adjacent)
-**Layer 4-7 = PFC PROCESSING** of feeling (high-fidelity-loss zone)
+**Feel-RawSignals–Feel-Consciousification = BODY-based** (pre-PFC hoặc PFC-adjacent)
+**Feel-Observation–Feel-Explanation = PFC PROCESSING** of feeling (high-fidelity-loss zone)
 
 **Quote critical cho Theme A**:
-> "Wise people TRUST Layer 3-4 (body noticeable, chưa label). Naive people TRUST Layer 6-7 (label + explanation). Training (meditation, focusing) = đưa attention từ Layer 7 NGƯỢC về Layer 3-4."
+> "Wise people TRUST Feel-Consciousification–Feel-Observation (body noticeable, chưa label). Naive people TRUST Feel-Labeling–Feel-Explanation (label + explanation). Training (meditation, focusing) = đưa attention từ Feel-Explanation NGƯỢC về Feel-Consciousification–Feel-Observation."
 
-**Layer 3 = "felt sense" (Gendlin)**:
-> "Layer 3 là điểm body đã compute XONG — nhưng PFC CHƯA label gì cả. 'Có gì đó', 'cảm thấy sao sao ấy', 'không biết nhưng cảm thấy...' = TRUTH đã sẵn sàng. PFC chưa có từ."
+**Feel-Consciousification = "felt sense" (Gendlin)**:
+> "Feel-Consciousification là điểm body đã compute XONG — nhưng PFC CHƯA label gì cả. 'Có gì đó', 'cảm thấy sao sao ấy', 'không biết nhưng cảm thấy...' = TRUTH đã sẵn sàng. PFC chưa có từ."
 
-**Layer 6 compression**:
+**Feel-Labeling compression**:
 > "Multi-source feeling → 1 từ. Compression ratio: có thể 9:1 hoặc nhiều hơn. Rất nhiều thông tin MẤT ở layer này. 'Yêu em' → 9+ channels compressed to 1 morpheme. Lose 80%+ information."
 
-**Layer 7 risk**:
-> "Layer 7 = PFC narrative-making engine activated. Confabulation risk HIGH. Rationalization common. Displacement frequent. VD: 'Tôi giận chồng vì không rửa bát' → Thực ra mệt + đói + stress → bất kỳ stimulus nào cũng trigger anger → PFC tạo câu chuyện post-hoc."
+**Feel-Explanation risk**:
+> "Feel-Explanation = PFC narrative-making engine activated. Confabulation risk HIGH. Rationalization common. Displacement frequent. VD: 'Tôi giận chồng vì không rửa bát' → Thực ra mệt + đói + stress → bất kỳ stimulus nào cũng trigger anger → PFC tạo câu chuyện post-hoc."
 
 #### §1.1.4 — Feeling Loop (§3) — **CRITICAL cho Theme A**
 
 ```
-BODY SYSTEMS fire (L0-L3 + mirror + schema + imagine-final + valence + ...)
+BODY SYSTEMS fire (body-base + mirror + schema + imagine-final + valence + ...)
   ↓
 INTEGRATION (insula + ACC + VMPFC)
   ↓
-FEELING (Layer 3: becomes noticeable)
+FEELING (Feel-Consciousification: becomes noticeable)
   ↓
-PFC OBSERVE (Layer 4-7: locate, label, explain)
+PFC OBSERVE (Feel-Observation–Feel-Explanation: locate, label, explain)
   ↓
 DRIVE (motivation direction)
   ↓
@@ -137,7 +137,7 @@ NEW BODY STATE → loop continues
 1. **L0 Threat** → threat feelings
 2. **L1 Physiological** → body state feelings
 3. **L2 Experience/Novelty** → novelty/boredom
-4. **L3 Mastery/Meaning/Status** → meaning/status feelings
+4. **Mastery/Meaning/Status (evaluative)** → meaning/status feelings
 5. **Agent Input** → social presence feelings (biological NEED)
 6. **Mirror** → others' state feelings
 7. **Schema** → compiled knowledge feelings
@@ -235,7 +235,7 @@ NEW BODY STATE → loop continues
 1. L0: em là safe (threat minimal)
 2. L1: body relax (parasympathetic + oxytocin)
 3. L2: novelty still present
-4. L3: meaning schema ("we together")
+4. Evaluative: meaning schema ("we together")
 5. Agent input: fully fed biological
 6. Mirror: mutual feeling loop
 7. Imagine-Final: positive future preview
@@ -312,7 +312,7 @@ Cùng feeling có thể thuộc multiple channels (§1-10), và §11 regroup the
 - Single-cause bias (evolutionary efficiency)
 - Temporal myopia
 - Agency preservation
-- Layer 7 bias
+- Feel-Explanation bias
 
 #### §1.3.3 — §4 Pain Special Case — **relevant Theme D (if pain as right/wrong signal)**
 
@@ -326,7 +326,7 @@ Cùng feeling có thể thuộc multiple channels (§1-10), và §11 regroup the
 **4.4 Psychogenic pain is REAL pain**:
 > "Schema fires pain circuits. Same neural pathways as 'real' pain. 'Psychogenic' DOES NOT mean 'fake'."
 
-**→ Theme D connection**: "Cảm thấy có gì đó không đúng" might trigger same circuits. Both wrongness feelings (body Layer 3) + cognitive error detection (ACC) = body signals.
+**→ Theme D connection**: "Cảm thấy có gì đó không đúng" might trigger same circuits. Both wrongness feelings (body Feel-Consciousification) + cognitive error detection (ACC) = body signals.
 
 #### §1.3.4 — §5-7 Feeling Literacy Training
 
@@ -341,7 +341,7 @@ Cùng feeling có thể thuộc multiple channels (§1-10), và §11 regroup the
 **Gendlin's KEY observation**:
 > "Those who paused and CHECKED with body sense ('Hmm, wait... it's more like...') improved more. Those who rationalized quickly did NOT improve."
 
-→ Direct evidence for body-first + skepticism về Layer 6-7 labels.
+→ Direct evidence for body-first + skepticism về Feel-Labeling–Feel-Explanation labels.
 
 ---
 
@@ -431,7 +431,7 @@ Cùng feeling có thể thuộc multiple channels (§1-10), và §11 regroup the
 #### §1.4.7 — §7 Kahneman — Dual Process
 
 - **System 1**: fast, automatic, feeling-based, effortless → ≈ **compiled feelings firing** in framework
-- **System 2**: slow, deliberate, analytical, effortful → ≈ PFC Layer 5-7 processing
+- **System 2**: slow, deliberate, analytical, effortful → ≈ PFC Feel-Location–Feel-Explanation processing
 
 **Kahneman + Klein synthesis (2009)**: System 1 reliable WHEN (a) environment has regular patterns AND (b) practitioner has feedback-rich learning.
 
@@ -467,7 +467,7 @@ What framework doesn't know:
 
 **Research anchors**: Kounios 2014 insight neuroscience (right temporal lobe, alpha burst), Jung-Beeman fMRI insight, Sio & Ormerod 2009 incubation meta-analysis.
 
-**Framework claim**: Insight = feeling emerging at Layer 3-4. PFC then verbalizes at Layer 6-7. "Artists access Layer 3-4 directly" for aesthetic judgment.
+**Framework claim**: Insight = feeling emerging at Feel-Consciousification–Feel-Observation. PFC then verbalizes at Feel-Labeling–Feel-Explanation. "Artists access Feel-Consciousification–Feel-Observation directly" for aesthetic judgment.
 
 → **Theme D support**: Framework ALREADY positions Einstein as imagine-final feeling case. Question is: is this "cảm nhận đúng/sai" = same mechanism hay distinct?
 
@@ -500,7 +500,7 @@ What framework doesn't know:
 1. Input: channels feed signals upstream
 2. Chunk library: built through experience + repetition, operant + classical conditioning, cross-channel scaffolding
 3. Match operation: fuzzy pattern matching, **state-gated** (current state modulates activation), **near-miss triggers strongest** (predictive coding amplifies dissonance), exact match weakest
-4. PFC observation: read access to integrated outputs (Layer 3-4 "felt sense")
+4. PFC observation: read access to integrated outputs (Feel-Consciousification–Feel-Observation "felt sense")
 5. Labeling: chunks provide labels; missing chunks → diffuse feeling ("vui chung chung không rõ vì sao"); rich chunks → specific verbalization
 
 **8 developmental stages** (§3):
@@ -619,9 +619,9 @@ What framework doesn't know:
 **What PFC doesn't do**: Execute interoception (body does), Run schemas (cortex does), Generate feelings, Directly access raw body.
 
 **7-layer structure refined**:
-- Layer 1-2: upstream integration (PFC no direct access)
-- Layer 3-4: PFC's read interface (**genuine "felt sense"**)
-- Layer 5-7: chunk-based labeling (error-prone)
+- Feel-RawSignals–Feel-Integration: upstream integration (PFC no direct access)
+- Feel-Consciousification–Feel-Observation: PFC's read interface (**genuine "felt sense"**)
+- Feel-Location–Feel-Explanation: chunk-based labeling (error-prone)
 
 **Q3 Logic-Feeling flow partially resolved**:
 > "NOT Model A (PFC directly senses raw body).
@@ -813,14 +813,14 @@ Framework expanded definition tested against 7 edge cases:
 #### §1.9.1 — 2 Processing Modes Definition (§1)
 
 **LOGIC processing**:
-- Rules đã compiled (PFC Layer 5-7)
+- Rules đã compiled (PFC Feel-Location–Feel-Explanation)
 - Deterministic, sequential, verifiable, communicable
 - Examples: "2+3=5", physics rules, routines, compiled chunks
 
 **FEELING processing**:
-- Body feedback integrated (Layer 1-4)
+- Body feedback integrated (Feel-RawSignals–Feel-Observation)
 - Multi-channel parallel, body-first, hard to communicate
-- Examples: "mẹ đang buồn" (mirror), "có gì đó sai" (Layer 3), Einstein "cưỡi tia sáng"
+- Examples: "mẹ đang buồn" (mirror), "có gì đó sai" (Feel-Consciousification), Einstein "cưỡi tia sáng"
 
 **Key**: NOT "2 loại tư duy cạnh tranh" — IS "2 processing modes" có thể switch, blend, parallel.
 
@@ -876,7 +876,7 @@ Framework expanded definition tested against 7 edge cases:
 
 **Case 5 — Mẹ bảo học (journey vs destination)**:
 - Logic: "học → kiến thức → việc tốt" (chain ĐÚNG)
-- Feeling: "mệt + chán + không thấy liên quan" (L1 + L2 + L3 valid feelings)
+- Feeling: "mệt + chán + không thấy liên quan" (body-state + novelty + meaning — valid feelings)
 - Key: Logic đúng destination, Feeling đúng journey cost
 - → Threat-Schema Hijack (Core §6.5)
 
@@ -958,7 +958,7 @@ Framework expanded definition tested against 7 edge cases:
 - Empathy-Mirror = reflect người khác → feed toàn Body-Base
 
 **Frame correction from Connection.md**:
-> "CŨ: 'Empathy ⊂ Connection'. MỚI: Empathy-Mirror = cross-cutting mechanism hoạt động ở TẤT CẢ layers (L0, L1, L2, L3). Rộng hơn Connection."
+> "CŨ: 'Empathy ⊂ Connection'. MỚI: Empathy-Mirror = cross-cutting mechanism hoạt động ở TẤT CẢ body-base levels (substrate AND evaluative). Rộng hơn Connection."
 
 Example: Thấy người khác ĐÓI → mirror L1 Nutrition deficit CỦA HỌ → body MÌNH dissonance. Thấy người khác CÔ ĐƠN → mirror Connection deficit CỦA HỌ → body MÌNH trống nhẹ.
 
@@ -1554,7 +1554,7 @@ Imagine-Final KHÔNG giải thích được 4 cases:
 
 **Prehistoric**: 150 people (Dunbar), simple threats, anchor thấp cần.
 
-**Agricultural+Urban**: Complexity → L3 threats (status, role) → CẦN anchor mạnh.
+**Agricultural+Urban**: Complexity → evaluative threats (status, role) → CẦN anchor mạnh.
 
 **Tôn giáo = EMERGENT solution** for "too many people, need sync" (Norenzayan 2013, Whitehouse 2019 Nature 🟢):
 5 functions:
@@ -1565,7 +1565,7 @@ Imagine-Final KHÔNG giải thích được 4 cases:
 5. Community sync (cùng ritual → shared anchor)
 
 **Modern paradox**:
-- CẦN anchor mạnh nhất (complexity + inject + L3 threats)
+- CẦN anchor mạnh nhất (complexity + inject + evaluative threats)
 - NHƯNG khó tìm nhất (religion declining, meritocracy falsifiable, MXH = anti-anchor)
 - → "Meaning crisis" (Vervaeke) epidemic
 - → Self-knowledge = **skill quan trọng nhất thời hiện đại**
@@ -1673,7 +1673,7 @@ Framework đã có §10 Cognitive/Prediction channel (Feeling-Sources.md) trả 
    - Positive valence compiled
    - Schema match (hiền lành, đáng tin)
 2. Giving dynamics — framework chưa decompose specifically:
-   - Giving with joy: mirror reward + CARE activation + thank-you = L3 status mild
+   - Giving with joy: mirror reward + CARE activation + thank-you = status mild (evaluative)
    - Giving with discomfort: obligation schema + cost high + mismatch expectation
    - Displacement if bị lợi dụng: prediction error
 3. "Cho đi vô tư" — framework chưa có directly. Có thể là schema rộng + không attach expectation.
@@ -1785,7 +1785,7 @@ Directly answers user's questions:
 - Bị chê / bị lợi dụng → mirror reward broken → disonance replaces reward
 - Cho đi vô tư = trained skill KẾT HỢP schema rộng hơn, NOT random, NOT default
 
-**Theme B — Modality bias supports user chain hypothesis**: Logic-Feeling §6 documents verbal/somatic modality dominance affects ratio. Verbal-dominant = logic-chain-heavy (Layer 6-7 reliance). User's insight about "chunk anchoring for chain" aligns with verbal modality's strength in chain formation. BUT framework hasn't specifically claimed verbal grammar enables chain — that's still open.
+**Theme B — Modality bias supports user chain hypothesis**: Logic-Feeling §6 documents verbal/somatic modality dominance affects ratio. Verbal-dominant = logic-chain-heavy (Feel-Labeling–Feel-Explanation reliance). User's insight about "chunk anchoring for chain" aligns with verbal modality's strength in chain formation. BUT framework hasn't specifically claimed verbal grammar enables chain — that's still open.
 
 **Theme C — Ritual mechanism partially answered**: Mirror-Neuron-Analysis.md "Object-Agent Flip via Schema" shows ritual = schema anchor for classification flip. Catholic Canon Law blessed statue disposal example: sacred (agent) needs RITUAL to transition back to object. Meat paradox 4 strategies: linguistic camouflage, dementalization, avoidance, dissociation.
 
@@ -1821,7 +1821,7 @@ Một số RQs từ §1.1-1.4 đã được resolve hoặc partially resolve b�
 | # | Question | Theme | Status | Notes |
 |---|---|---|---|---|
 | RQ1 | Schema-triggered feelings — pure body-base hay PFC role expand? | A | **PARTIAL RESOLVED** | Feel-Development §1: framework đã expand to "PFC observing unconscious processing" — includes schemas as source. Not pure body-base. |
-| RQ2 | "PFC yêu cầu vô thức tiếp tục tính toán" — top-down query mechanism? | A | **STILL OPEN** | Framework doesn't explicitly address top-down PFC query mechanism. Closest: "attention allocation" (Feeling.md §2.5 Layer 4). Theme A sẽ explore predictive processing / active inference as potential answer. |
+| RQ2 | "PFC yêu cầu vô thức tiếp tục tính toán" — top-down query mechanism? | A | **STILL OPEN** | Framework doesn't explicitly address top-down PFC query mechanism. Closest: "attention allocation" (Feeling.md §2.5 Feel-Observation). Theme A sẽ explore predictive processing / active inference as potential answer. |
 | RQ3 | Violation-of-expectation in infants (Spelke/Baillargeon) | D | STILL OPEN — need external research verification | Framework hasn't cited VoE paradigm directly. Phase P-6 Theme D sẽ verify. |
 | RQ4 | Einstein case: imagine-final OR cognitive pattern mismatch? | D | **PARTIAL RESOLVED** | E117 curiosity drive mechanism specified. Still needs: how does simulation generate wrongness specifically. |
 | RQ5 | Partner-behavior-unusual: Mirror or Schema? | D, E | **PARTIAL RESOLVED** | Resonance §4 Case 4 addresses this: each uses own library. Mirror replaced by Resonance. Still needs specific decomposition of partner case. |

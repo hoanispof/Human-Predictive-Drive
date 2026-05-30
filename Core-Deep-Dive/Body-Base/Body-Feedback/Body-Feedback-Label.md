@@ -1,10 +1,11 @@
 ---
 title: Body-Feedback Label Convention — Vocabulary Reference
-version: 2.0
+version: 2.1
 created: 2026-05-12
 rewritten: 2026-05-17 (v2.0 — FULL REWRITE: +Foundation terms, +Compiled/Fresh processing, +Entity-Compiled 3 subtypes, +Inter-Body interaction labels, +5-Channel, +3-cost, +2-Stream)
+updated: 2026-05-25 (v2.1 — §4 +Evaluative/Direct-State Dissonance labels at Tier 2+3, parallel §3 Reward structure, Dissonance-Signal-Architecture v1.0 integration)
 previous: v1.1 → backup/Body-Feedback-Label-v1.1-backup.md
-status: REFERENCE v2.0
+status: REFERENCE v2.1
 scope: |
   VOCABULARY REFERENCE: Quy ước label cho toàn bộ body-feedback system.
   Formalize 3-tier label system: General → Direction → Specific.
@@ -36,10 +37,11 @@ position: |
   Core-Deep-Dive/Body-Base/Body-Feedback/ — ngang hàng Body-Feedback-Mechanism.md.
   ĐỌC NGAY SAU Body-Feedback.md (entry point).
 dependencies:
-  - Body-Feedback.md v2.0 — §2 dual-pull, §4 4 trục, §5 3 nguồn, §6 H10
+  - Body-Feedback.md v2.0 — §2 dual-pull, §4 4 trục, §5 3 nguồn, §6 Body-Feedback-Precondition
   - Body-Feedback-Mechanism.md v2.0 — §1 Body-Need aggregate, §2 2 sources, §3 3 dynamics
   - Reward-Signal-Architecture.md v2.0 — §1 Evaluative/Direct-State, §2 E₀→E₃, §4 5 Profiles
-  - 03-Reward.md v1.1 — §2 7-step mechanism, §3 H10, Step 5 body-base check
+  - Dissonance-Signal-Architecture.md v1.0 — §1 Evaluative/Direct-State Dissonance, §2 E₀→E₃ dissonance, §3 Evaluative Gates
+  - 03-Reward.md v1.1 — §2 7-step mechanism, §3 Body-Feedback-Precondition, Step 5 body-base check
   - Cortisol-Baseline.md v2.0 — §7.7 5 Roles
   - Valence-Propagation.md v2.0 — §3 Entity-Compiled, approach/avoidance tags
   - Inter-Body-Mechanism.md v1.0 — §3 Compiled/Fresh, §4 3-cost, §5 by-product match, §6 5-Channel, §7 PFC=Lawyer, §8 Entity-Compiled
@@ -379,7 +381,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │         │                     │ body-feedback (không nhầm sang khác).│
   │         │                     │                                      │
   │         │ Evaluative Reward    │ Evaluative confirm. Opioid-based.    │
-  │         │                     │ Cần H10 full. Chunk library rich.    │
+  │         │                     │ Cần Body-Feedback-Precondition full. Chunk library rich.    │
   │         │                     │ Dùng: khi biết rõ là evaluative.     │
   │         │                     │                                      │
   │         │ Direct-State Reward  │ Direct state confirm. Non-opioid.    │
@@ -445,6 +447,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │         │                     │ adjusting (không phải mismatch/      │
   │         │                     │ threat).                             │
   │         │                     │                                      │
+  │         │ Evaluative          │ Compiled, conditional. dACC +        │
+  │         │ Dissonance          │ anterior insula. PFC can modulate.   │
+  │         │                     │ Develops with age + chunk library.   │
+  │         │                     │ Dùng: khi biết rõ là evaluative      │
+  │         │                     │ (social pain, moral injury, anxiety).│
+  │         │                     │ (Dissonance-Signal-Architecture §1)  │
+  │         │                     │                                      │
+  │         │ Direct-State        │ Hardware, from birth. Nociceptors,   │
+  │         │ Dissonance          │ thermoreceptors, visceral signals.   │
+  │         │                     │ PFC minimal. Numbness-proof.         │
+  │         │                     │ Dùng: khi biết rõ là body-state      │
+  │         │                     │ (pain, hunger, temperature, itch).   │
+  │         │                     │ (Dissonance-Signal-Architecture §1)  │
+  │         │                     │                                      │
   ├─────────┼─────────────────────┼──────────────────────────────────────┤
   │         │                     │                                      │
   │ TIER 3  │ chunk-miss          │ Expected X, got <X. SNC mechanism.   │
@@ -465,6 +481,24 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │         │ nociception         │ Tissue damage signal. Hardware.      │
   │         │                     │ A-delta + C fibers.                  │
   │         │                     │                                      │
+  │         │ substance P /       │ Direct-State. Nociception pathway.   │
+  │         │ CGRP / glutamate    │ Pain transmission A-delta + C fibers.│
+  │         │                     │ (Dissonance-Signal-Architecture §1.6)│
+  │         │                     │                                      │
+  │         │ dACC activation     │ Evaluative. Social pain pathway.     │
+  │         │                     │ 🟢 Eisenberger 2003 (Cyberball).     │
+  │         │                     │ (Dissonance-Signal-Architecture §1.6)│
+  │         │                     │                                      │
+  │         │ CRH → amygdala      │ Evaluative. Anxiety/threat pathway.  │
+  │         │                     │ HPA axis → cortisol cascade.         │
+  │         │                     │ (Dissonance-Signal-Architecture §1.6)│
+  │         │                     │                                      │
+  │         │ E₀→E₃ dissonance   │ Evaluative complexity gradient       │
+  │         │                     │ applied to dissonance direction.     │
+  │         │                     │ E₀=bitter aversion (hardware).       │
+  │         │                     │ E₃=moral injury (expert evaluation). │
+  │         │                     │ (Dissonance-Signal-Architecture §2)  │
+  │         │                     │                                      │
   │         │ cortisol Role ①-⑤   │ Context-specific amplifier role:     │
   │         │                     │ ① Compile Direction                  │
   │         │                     │ ② Holding ("chưa xong")              │
@@ -475,6 +509,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │         │                     │                                      │
   └─────────┴─────────────────────┴──────────────────────────────────────┘
 
+  ⚠️ Evaluative/Direct-State = ORTHOGONAL to source (dissonance/threat/recalibration)
+     1 event có thể là BOTH "mismatch" (source) AND "Evaluative" (type)
+     VD: bị phản bội = mismatch (source) + Evaluative Dissonance (type)
+     VD: kim đâm = nociception (source) + Direct-State Dissonance (type)
+     (Dissonance-Signal-Architecture.md §1 — parallel Reward-Signal-Architecture §1)
   ⚠️ Cortisol = AMPLIFIER, không phải SOURCE dissonance
      (Body-Feedback.md §5: cortisol injection → no pain)
   ⚠️ "Discomfort" = feeling label (PFC observe) ≠ dissonance (mechanism)
@@ -525,7 +564,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Body-base reward = "quà đằng sau cửa" (chunk KHỚP body-need)
 
     Chuông cửa → KHÔNG phải quà. Quà → KHÔNG cần chuông cửa luôn.
-    (Direct-State Reward có thể bypass prediction-delta — Reward-Signal-Architecture §1.3 P3)
+    (Direct-State Reward có thể bypass prediction-delta — Reward-Signal-Architecture §1.3 Precondition-3)
 
     → ĐỪNG gộp prediction-delta với body-base reward
     → ĐỪNG gọi prediction-delta là "reward signal"
@@ -910,7 +949,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├──────────────────┼───────────────────────────────────────────────┤
   │ FEELING          │ OBSERVATION: PFC quan sát body-feedback        │
   │ (observation)    │ 7-layer gradient (implicit → explicit)         │
-  │                  │ Labels: "pleasant" / "discomfort" / "vague" / ... │
+  │                  │ Labels: "pleasant" / "comfortable" /           │
+  │                  │ "satisfied" / "vague" / "nagging unease" /     │
+  │                  │ "discomfort" / "stuck" / "emptiness" /         │
+  │                  │ "apathetic"                                    │
   │                  │ = Feeling.md v2.2 mô tả vocabulary của tầng   │
   │                  │ này                                            │
   └──────────────────┴───────────────────────────────────────────────┘
@@ -919,9 +961,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     "Pleasant" ≠ reward:
       → "Pleasant" = PFC observation body-base reward
-        (Layer 5-6: đã observe + label)
+        (Feel-Location/Feel-Labeling: đã observe + label)
       → Reward có thể CHẠY mà PFC không observe
-        (Layer 1-2: body signal nhưng PFC chưa thấy)
+        (Feel-RawSignals/Feel-Integration: body signal nhưng PFC chưa thấy)
       → = Body-base reward XẢY RA mà không "cảm thấy pleasant" (possible)
 
     "Discomfort" ≠ dissonance:
@@ -967,7 +1009,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⑤ PHÂN BIỆT mechanism (body-feedback) vs observation (feeling):
      Body-feedback labels: reward, dissonance, prediction-delta,...
-     Feeling labels: "pleasant", "discomfort", "vague",...
+     Feeling labels: "pleasant", "comfortable", "satisfied",
+       "vague", "nagging unease", "discomfort",
+       "stuck", "emptiness", "apathetic"
      KHÔNG dùng feeling labels thay body-feedback labels (§10)
 
   ⑥ DÙNG "Compiled/Fresh" khi phân tích mechanism:
@@ -1048,7 +1092,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────────────────────────┬──────────────────────────────────────┐
   │ File                             │ Connection                           │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Body-Feedback.md v1.1            │ ENTRY POINT. §4 4 trục. §6 H10.     │
+  │ Body-Feedback.md v1.1            │ ENTRY POINT. §4 4 trục. §6 Body-Feedback-Precondition.     │
   │                                  │ Đọc TRƯỚC file này.                 │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Body-Feedback-Mechanism.md v2.0  │ §1 Body-Need aggregate. §2 2 sources.│
@@ -1070,7 +1114,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                  │ Tier 2-3 reward labels.              │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ 03-Reward.md v1.1                │ §2 7-step mechanism.                 │
-  │                                  │ §3 H10 preconditions. Step 5 detail. │
+  │                                  │ §3 Body-Feedback-Preconditions. Step 5 detail. │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Cortisol-Baseline.md v2.0       │ §7.7 5 Roles. Amplifier, not cause. │
   │                                  │ Tier 3 dissonance labels.            │
@@ -1086,7 +1130,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Feeling.md v2.2                  │ PFC observation of body-feedback.    │
   │                                  │ 7-layer gradient. KHÁC TẦNG (§10).  │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Body-Base.md v3.1                │ L0-L1-L3 channels. Compilable Architecture.   │
+  │ Body-Base.md v3.3                │ L0+L1 substrate. Compilable Architecture.     │
   │                                  │ System-level context cho §2A.        │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Threat.md                        │ 5 mức × 3 trục × 3 nguồn.           │

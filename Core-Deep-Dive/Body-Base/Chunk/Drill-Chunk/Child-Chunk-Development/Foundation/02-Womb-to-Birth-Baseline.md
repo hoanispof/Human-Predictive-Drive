@@ -9,7 +9,7 @@ status: DRAFT N+4a P3 — ready for user review
 reading_order: READ after 00-Sketch + 01-PFC-Reframe, before arc files 03-08
 language: Tiếng Việt primary + English technical terms
 depends_on: 01-PFC-Hardware-Reframe (PFC online from prenatal)
-addresses: Baseline for Nút Thắt 2 (P2 accumulation starts here) + Nút Thắt 3 (prenatal chunks + birth = first multi-modal binding challenge)
+addresses: Baseline for Nút Thắt 2 (Precondition-2 accumulation starts here) + Nút Thắt 3 (prenatal chunks + birth = first multi-modal binding challenge)
 ---
 
 # 02 — Womb-to-Birth Baseline
@@ -69,7 +69,7 @@ Womb environment is physically homeostatic relative to post-birth life: stable t
 | [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) | Uses this file's prenatal motor activity (§4.2) as starting state |
 | [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) | Uses fetal bladder cycling note (~10wk urination into amniotic fluid, §3) as earliest proof of motor pathway active prenatally |
 | [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) | Uses this file's "newborn face preference + direct gaze" (§7.4) as starting state |
-| [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5 | H10 P2 bottleneck — chunks accumulation starts from the prenatal baseline this file establishes |
+| [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5 | Body-Feedback-Precondition Precondition-2 bottleneck — chunks accumulation starts from the prenatal baseline this file establishes |
 
 ### §1.3 — Reading flow
 
@@ -384,7 +384,7 @@ This framing is **approximately correct** for the following reasons:
 
 🟡 **Framework commitment**: The absence of "domain-real dissonance" in womb is **architecturally significant**, not just practical absence.
 
-Definition review (from Body-Feedback-Draft P2):
+Definition review (from Body-Feedback-Draft Precondition-2):
 - **Body-base dissonance** = body signals that don't smooth (hunger, pain, thermal discomfort, emotional distress)
 - **Domain-real dissonance** = mismatch between expected and actual in the external physical/social world (prediction-delta requiring PFC arbitration)
 
@@ -752,7 +752,7 @@ Chunks **NOT** available at birth:
 **Body-base state**:
 - Homeostatic systems active but untested (first real challenges post-birth)
 - Body-feedback layer L1-L2 raw (per [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5)
-- Feeling layer L3-L7 not yet emerged (chunks insufficient)
+- Feeling layer (Feel-Consciousification–Feel-Explanation) not yet emerged (chunks insufficient)
 
 **Environment**:
 - First encounter with domain-real (gravity, cold, bright light, unfiltered sound, caregivers)
@@ -802,9 +802,9 @@ Chunks **NOT** available at birth:
 
 **This explains why caregivers are so critical in first weeks**: They provide **external chunks** (external arbitration, external regulation, external prediction) while infant's chunks are compiling. [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.4 covers caregiver mirroring as developmental foundation for interoception. This file provides the "why does mirroring matter so much from day 1" answer — it matters because infant has almost no chunks for most post-birth domain-real events.
 
-### §9.5 — P2 Chunks Base Adequacy bottleneck begins here
+### §9.5 — Precondition-2 Chunk-Substrate bottleneck begins here
 
-🟡 **H10 P2 (Chunks Base Adequacy)** from [../Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) is the keystone developmental bottleneck. This file establishes the **starting point** of the bottleneck: at birth, P2 is essentially empty for most body states (prenatal chunks cover only narrow auditory + maternal voice domains).
+🟡 **Precondition-2 Chunk-Substrate** from [../Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) is the keystone developmental bottleneck. This file establishes the **starting point** of the bottleneck: at birth, Precondition-2 is essentially empty for most body states (prenatal chunks cover only narrow auditory + maternal voice domains).
 
 **Implication for [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md)**: When 06a drills bladder case as cleanest L0→L4 arc over 22 months (birth → E23 verbal "buồn đái"), the starting point is NOT "chunks zero" in absolute sense (prenatal chunks exist) but is "chunks zero for bladder-specific content". This matters because:
 
@@ -813,7 +813,7 @@ Chunks **NOT** available at birth:
 - What's missing at birth for bladder case specifically: **associative chunks linking bladder signal to experience consequences**
 - These chunks compile through ~18-22 months of post-birth experience
 
-The P2 bottleneck is **content-specific**, not global. Different body-inputs reach P2 adequacy at different rates because chunks accumulate at different rates depending on signal saliency + repetition frequency + caregiver response contingency + valence.
+The Precondition-2 bottleneck is **content-specific**, not global. Different body-inputs reach Precondition-2 adequacy at different rates because chunks accumulate at different rates depending on signal saliency + repetition frequency + caregiver response contingency + valence.
 
 ---
 
@@ -834,7 +834,7 @@ The P2 bottleneck is **content-specific**, not global. Different body-inputs rea
 ### §10.2 — Chunk-Analysis siblings
 
 - [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5 (body-feedback layer architecture at birth)
-- [../Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) (H10 P2 bottleneck — this file establishes starting point)
+- [../Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) (Body-Feedback-Precondition Precondition-2 bottleneck — this file establishes starting point)
 - [../Agent/Self-Pattern-Modeling.md](../Agent/Self-Pattern-Modeling.md) §5 (developmental bootstrap — uses maternal voice chunk etc.)
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) §4 (sleep consolidation applicable from fetal REM onwards)
 

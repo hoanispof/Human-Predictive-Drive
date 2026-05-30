@@ -2,7 +2,7 @@
 title: Self-Pattern-Modeling — Solo Forward Simulation Mechanism
 version: 3.1
 created: 2026-04-15
-rewritten: 2026-05-22 (v3.1 — RENAME Match→Modeling, Simulation Engine APPLICATION, 3 dimensions, 42 drill insights integrated)
+rewritten: 2026-05-22 (v3.1 — RENAME Match→Modeling, Simulation-Engine APPLICATION, 3 dimensions, 42 drill insights integrated)
 previous_versions:
   - v3.0 (2026-05-17, 2569L) → backup/Self-Pattern-Match-v3.0-backup.md
   - v2.4 (2292L) → backup/Self-Pattern-Match-v2.4-backup.md
@@ -10,10 +10,10 @@ previous_versions:
   - v0 (inward-labeling) → Body-Base/Feeling/backup/Self-Pattern-Match.md
 status: v3.1 — CORE MECHANISM FILE
 scope: |
-  APPLICATION 1 trên Simulation Engine: Self-Pattern-Modeling = (Other, Present, Simulate).
+  APPLICATION-1 trên Simulation-Engine: Self-Pattern-Modeling = (Other, Present, Simulate).
   v3.1 KEY CHANGES:
     ① RENAME: Self-Pattern-Match → Self-Pattern-Modeling (full name used throughout)
-    ② Self-Pattern-Modeling = APPLICATION trên Simulation Engine (shared substrate)
+    ② Self-Pattern-Modeling = APPLICATION trên Simulation-Engine (shared substrate)
     ③ 1 mechanism × 3 dimensions (not 4 skills)
     ④ Over-clone = observation label, mechanism = compiled suppress gap riêng
     ⑤ 4 conditions ĐỒNG THỜI cho resonance
@@ -27,7 +27,7 @@ scope: |
 purpose: |
   File NỀN TẢNG cho toàn bộ framework:
   ① Self-Pattern-Modeling là CƠ CHẾ CHÍNH mà não dùng để interact với agents
-  ② APPLICATION 1 trên Simulation Engine (Other × Present × Simulate)
+  ② APPLICATION-1 trên Simulation-Engine (Other × Present × Simulate)
   ③ 2 Functions (Compiled+Fresh) = Compiled/Fresh spectrum applied to agent prediction
   ④ Context-dependent selection giải thích TẠI SAO cùng 1 người
      ứng xử KHÁC NHAU với mẹ, bạn, kẻ thù
@@ -55,7 +55,7 @@ dependencies:
   - Connection.md v4.0 — 3 generative primitives, 2-luồng reward
   - Cortisol-Baseline.md v2.1 — stress cascade, moral injury
   - Background-Pattern.md v1.1 — 2D Depth×Density, §8 self-reinforcing
-  - Imagine-Final.md v2.0 — APPLICATION 2, shared engine
+  - Imagine-Final.md v2.0 — APPLICATION-2, shared engine
 sources:
   - Self-Pattern-Match.md v3.0 (2,569L) — previous version
   - Drill-Self-Pattern-Modeling-Mechanism-Analysis v2.2 (17 insights)
@@ -90,7 +90,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## Mục lục
 
-- §0 — Position + Thesis: Self-Pattern-Modeling trên Simulation Engine
+- §0 — Position + Thesis: Self-Pattern-Modeling trên Simulation-Engine
 - §1 — Definition: 1 Mechanism × 3 Dimensions
 - §2 — Self-Pattern-Modeling Scope: Agent Properties + Fire Gradient
 - §3 — 2 Functions: Compiled + Fresh
@@ -102,7 +102,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §9 — Background-Pattern × Self-Pattern-Modeling: Triple Bias
 - §10 — Multiple Models: Transfer + Interference
 - §11 — 8 Failure Modes → 3 Categories
-- §12 — Shared Substrate: Self-Pattern-Modeling on Simulation Engine
+- §12 — Shared Substrate: Self-Pattern-Modeling on Simulation-Engine
 - §13 — PFC-Operations + Entity-Access Integration
 - §14 — Developmental Trajectory
 - §15 — Reversed Mapping + Professional Self-Pattern-Modeling + Moral Injury
@@ -113,18 +113,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §0 — Position + Thesis: Self-Pattern-Modeling trên Simulation Engine
+## §0 — Position + Thesis: Self-Pattern-Modeling trên Simulation-Engine
 
-### §0.1 — Self-Pattern-Modeling = APPLICATION 1 trên Simulation Engine
+### §0.1 — Self-Pattern-Modeling = APPLICATION-1 trên Simulation-Engine
 
 ```
-⭐⭐ Self-Pattern-Modeling TRÊN SIMULATION ENGINE:
+⭐⭐ Self-Pattern-Modeling TRÊN SIMULATION-ENGINE:
 
   Simulation-Engine.md v1.0: Brain có 1 general-purpose engine:
     3 COMPONENTS: Interoception × Constructive Simulation × Self/Other Model
     3 AXES: Target × Time × Operation
 
-  Self-Pattern-Modeling = APPLICATION 1: tọa độ (Other, Present, Simulate)
+  Self-Pattern-Modeling = APPLICATION-1: tọa độ (Other, Present, Simulate)
     → Target = OTHER entity (bạn, mẹ, kẻ thù, stranger)
     → Time = PRESENT (current/near-future state)
     → Operation = SIMULATE (forward prediction)
@@ -157,9 +157,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   KIẾN TRÚC:
     Simulation-Engine.md    = ENGINE (unification architecture)
     PFC-Operations.md       = HOW PFC operates (Hold/Suppress)
-    ★ Self-Pattern-Modeling  = APPLICATION 1 (mechanism chi tiết)
-    Imagine-Final.md v2.0   = APPLICATION 2 (future simulation)
-    Feeling.md v3.0         = APPLICATION 3 (self-observation)
+    ★ Self-Pattern-Modeling  = APPLICATION-1 (mechanism chi tiết)
+    Imagine-Final.md v3.0   = APPLICATION-2 (future simulation)
+    Self-Observation         = APPLICATION-3 (chưa có file riêng; cf. Feeling.md v3.0)
 
   SIBLING FILES:
     Agent-Mechanism.md §5   = preview (high-level)
@@ -177,7 +177,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ 10 CLAIMS CỐT LÕI:
 
   1. SOLO + FORWARD: Self-Pattern-Modeling chạy bên trong self, tạo prediction TRƯỚC verification
-  2. APPLICATION 1: Self-Pattern-Modeling = (Other, Present, Simulate) trên Simulation Engine [v3.1]
+  2. APPLICATION-1: Self-Pattern-Modeling = (Other, Present, Simulate) trên Simulation-Engine [v3.1]
   3. 1 MECHANISM × 3 DIMENSIONS: Processing Level × Valence × Output Intensity [v3.1]
   4. COMPILED/FRESH = REAL AXIS: "Feeling/Logic" = observer labels
      Expert intuition = compiled, NOT bừa (shareable vs non-shareable)
@@ -199,11 +199,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   v3.1 THÊM + RESTRUCTURE:
     ① RENAME: Match → Modeling (Self-Pattern-Modeling giữ, chỉ đổi M = Modeling)
-    ② Simulation Engine APPLICATION (shared substrate, 3 apps on 1 engine)
+    ② Simulation-Engine APPLICATION (shared substrate, 3 apps on 1 engine)
     ③ 1 mechanism × 3 dimensions restructure (not "4 skills")
     ④ Self-Pattern-Modeling scope + boundary (4 agent properties, fire gradient, cái gì KHÔNG)
     ⑤ Clone spectrum (predict→mimic→adopt→converge) + gap-clone impossible
-    ⑥ Over-clone reframe + 4 mechanisms resonance decline
+    ⑥ Over-clone reframe + Resonance Decline (2 Forces + 1 Fuel)
     ⑦ 4 simultaneous conditions for resonance
     ⑧ Abstract entities (God, fiction, AI, nation, brand)
     ⑨ Background-Pattern triple bias (retrieval + template + interpretation)
@@ -291,7 +291,7 @@ Self-Pattern-Modeling fire trên GRADIENT agent-properties: càng agent-like →
 
 ### §1.3 — One-paragraph summary
 
-Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán người khác — APPLICATION 1 trên Simulation Engine (Other × Present × Simulate). Không phải mind-reading trực tiếp, không phải hardware mirror module — là simulation-based inference dùng self-chunks làm building blocks. Self-Pattern-Modeling chạy 2 functions song song: Compiled body-level simulation (near-automatic, cost ≈ 0), Fresh PFC draft prediction (deliberate, costly). Observer gọi Compiled là "cảm" và Fresh là "nghĩ" — nhưng trục thật là COMPILED ←→ FRESH, không phải content. Per-Agent Valence quyết định Compiled fire HƯỚNG NÀO (empathy hay reversed) và Fresh chain MỤC ĐÍCH NÀO (giúp hay đối phó). Context quyết định chunks NÀO được retrieve (vô thức tùy chọn). Self-Pattern-Modeling là 1 mechanism trên 3 dimensions (Processing Level × Valence Direction × Output Intensity), không phải 4 skills riêng lẻ.
+Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán người khác — APPLICATION-1 trên Simulation-Engine (Other × Present × Simulate). Không phải mind-reading trực tiếp, không phải hardware mirror module — là simulation-based inference dùng self-chunks làm building blocks. Self-Pattern-Modeling chạy 2 functions song song: Compiled body-level simulation (near-automatic, cost ≈ 0), Fresh PFC draft prediction (deliberate, costly). Observer gọi Compiled là "cảm" và Fresh là "nghĩ" — nhưng trục thật là COMPILED ←→ FRESH, không phải content. Per-Agent Valence quyết định Compiled fire HƯỚNG NÀO (empathy hay reversed) và Fresh chain MỤC ĐÍCH NÀO (giúp hay đối phó). Context quyết định chunks NÀO được retrieve (vô thức tùy chọn). Self-Pattern-Modeling là 1 mechanism trên 3 dimensions (Processing Level × Valence Direction × Output Intensity), không phải 4 skills riêng lẻ.
 
 ---
 
@@ -747,14 +747,13 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
     🟢 Bouchard 1990: twins apart → similar but NOT identical
     🟡 "Self-Pattern-Modeling cannot shift gap" = framework conclusion from proof
 
-  MECHANISM THẬT — 4 mechanisms resonance decline:
-    M1. Compiled suppress gap riêng (★ PRIMARY, nhân tạo, schema/fear)
-    M2. Habituation (tự nhiên, Weber-Fechner → VTA giảm fire)
-    M3. Prediction completion (tự nhiên, no novelty → no prediction-delta)
-    M4. Entity-Compiled saturation (tự nhiên, plateau)
+  MECHANISM THẬT — Resonance Decline 2 Forces + 1 Fuel (Bond-Architecture v2.0 §4):
+    Force: Compiled-Suppress gap riêng (★ LEVERAGE POINT, nhân tạo, schema/fear)
+    Force: Reward-Habituated (tự nhiên, Weber-Fechner → VTA giảm fire)
+    Fuel: Novelty threshold (tự nhiên, prediction-delta=0 + Entity-Compiled saturated = 2 lenses)
 
-    M1 = ACCELERATOR cho M2+M3+M4. Fix M1 = fix hầu hết.
-    M2-M4 = TỰ NHIÊN, có fix tự nhiên (grow riêng + shared novelty).
+    Compiled-Suppress = ACCELERATOR: accelerates Reward-Habituated + drains novelty. Fix = fix hầu hết.
+    Reward-Habituated + novelty exhaustion = TỰ NHIÊN, có fix tự nhiên (grow riêng + shared novelty).
 
   TRUE UNDERSTANDING = ANTI-COMPILED-SUPPRESS:
     Shallow: "phải giống nhau" → suppress → resonance dies
@@ -1006,7 +1005,7 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
 
   CATEGORY B — OUTPUT MALFUNCTION (Self-Pattern-Modeling output bị lỗi):
     FM3: COMPILED SUPPRESS GAP RIÊNG — observation "over-clone" (§6.2)
-         Gap KHÔNG bị clone, chỉ bị suppress (M1)
+         Gap KHÔNG bị clone, chỉ bị suppress (Compiled-Suppress)
          FIX: maintain own domains/interests
     FM6: ALEXITHYMIA BOTTLENECK — Step 5 fail
          🟢 Bird & Cook 2013 (DECISIVE): self-chunks thiếu → both fail
@@ -1026,7 +1025,7 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
 
 ---
 
-## §12 — Shared Substrate: Self-Pattern-Modeling on Simulation Engine
+## §12 — Shared Substrate: Self-Pattern-Modeling on Simulation-Engine
 
 ### §12.1 — Neural evidence
 
@@ -1362,7 +1361,7 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
 ═══ 🟡 FRAMEWORK SYNTHESIS ═══
 
   RENAME: Self-Pattern-Match → Self-Pattern-Modeling
-  APPLICATION 1 on Simulation Engine (3 apps, 1 hardware)
+  APPLICATION-1 on Simulation-Engine (3 apps, 1 hardware)
   1 mechanism × 3 dimensions restructure (not 4 skills)
   Compiled/Fresh as real axis (not Feeling/Logic)
   Expert intuition = compiled, shareable vs non-shareable
@@ -1373,7 +1372,7 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
   Gap-clone impossible (5-step proof)
   Self-Pattern-Modeling cost = only 2 (Fresh processing + space)
   True understanding = anti-compiled-suppress
-  4 mechanisms resonance decline (M1-M4)
+  Resonance Decline 2 Forces + 1 Fuel (Bond-Architecture v2.0)
   Background-Pattern → Self-Pattern-Modeling triple bias mechanism
   Transfer learning as chunk sharing + Freud reframe
   8 failure modes → 3 categories
@@ -1415,7 +1414,7 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
     → Inter-Body-Mechanism.md v1.0 — Compiled/Fresh axis, 3-cost, Compilable Architecture
     → Chunk.md v2.0 — chunk substrate, compilation
     → Feeling.md v3.0 — PFC observation interface (Step 5 = Feeling applied)
-    → Logic-Feeling.md v2.1 — 2 processing modes, parallel, modality bias
+    → Logic-Feeling.md v4.0 — Body-Knowing + observer labels, Compiled/Fresh, modality bias
     → Valence-Propagation.md v2.0 — per-entity valence, chain propagation
     → Body-Coupling.md v2.0 — coupling mechanism (builds ON Self-Pattern-Modeling)
     → Body-Feedback-Mechanism.md v2.0 — 2-source model, chunk dynamics
@@ -1431,12 +1430,12 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
     → Threat.md — NE cascade, PFC disconnect
 
   APPLICATION:
-    → Imagine-Final.md v2.0 — APPLICATION 2 on Simulation Engine
+    → Imagine-Final.md v2.0 — APPLICATION-2 on Simulation-Engine
     → AI-Schema-Detection.md v2.0 — AI interaction × Self-Pattern-Modeling
     → Somatic-Articulation-Loop.md — body → words
 
   COLLECTIVE:
-    → Resonance-Entity.md v2.0 — Hardware Subsidy, Hardwired:Compilable Architecture
+    → Resonance-Entity.md v2.0 — Hardware-Subsidy, Hardwired:Compilable Architecture
     → Resonance-Sustainability.md v1.0 — 3 Modalities, Silence, Capitalization
     → Entity-Valence-Dynamics.md v2.0 — Phantom resonance
 
@@ -1468,7 +1467,7 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
   R9.  Bouchard 1990: twin studies, nature/nurture
   R10. Bowlby 1969: Internal Working Models, attachment
   R11. Buckner & Carroll 2007: self-projection and the brain (DMN)
-  R12. Buckner, Andrews-Hanna & Schacter 2008: DMN = simulation engine
+  R12. Buckner, Andrews-Hanna & Schacter 2008: DMN = Simulation-Engine
   R13. Chartrand & Bargh 1999: chameleon effect, automatic mimicry
   R14. Cikara 2014: counter-empathy in competitive contexts
   R15. Coan & Sbarra 2015: Social Baseline Theory
@@ -1527,7 +1526,7 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
 > *Cùng 1 mechanism. Cùng 6 steps. Cùng chunk library.*
 > *Nhưng Per-Agent Valence đảo hướng mọi thứ.*
 >
-> *Self-Pattern-Modeling = APPLICATION 1 trên Simulation Engine.*
+> *Self-Pattern-Modeling = APPLICATION-1 trên Simulation-Engine.*
 > *Self-Observation, Imagine-Final = 2 apps khác, CÙNG substrate.*
 > *Luyện 1 = luyện cả 3. Hỏng 1 = hỏng cả 3.*
 > *Modeling — không phải matching. Forward simulation — không phải tìm-khớp.*

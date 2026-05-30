@@ -100,7 +100,7 @@ MỤC ĐÍCH:
 ⭐ MAPPING:
 
   Musk's "goal" ↔ Imagine-Final = Constructive Future Simulation
-  (Self, Future, Simulate+Construct) trên Simulation Engine.
+  (Self, Future, Simulate+Construct) trên Simulation-Engine.
 
   Imagine-Final v3.0 define:
     "Brain BUILD scenario tương lai từ compiled chunks."
@@ -203,7 +203,7 @@ MỤC ĐÍCH:
 
   Simulation-Engine.md v1.0:
     Boredom = idle state khi engine KHÔNG CÓ TARGET to simulate.
-    Simulation Engine chạy nhưng KHÔNG CÓ evaluation standard → spin.
+    Simulation-Engine chạy nhưng KHÔNG CÓ evaluation standard → spin.
 
   Drive.md v1.2 §2 Mode 3 — Spinning:
     "PFC scan liên tục nhưng không tìm được focus."
@@ -524,7 +524,7 @@ MỤC ĐÍCH:
   │  "KNOW THE GOAL"                                               │
   │    = Imagine-Final vivid (gradient ≥ Level 3)                  │
   │    = Install sharp gap direction                                │
-  │    = Simulation Engine có TARGET                                │
+  │    = Simulation-Engine có TARGET                                │
   │                                                                 │
   │         ↓ Gap direction installed                               │
   │                                                                 │
@@ -696,7 +696,7 @@ MỤC ĐÍCH:
 ```
 ⭐ FRAMEWORK GIẢI THÍCH ĐƯỢC GÌ:
 
-  ✅ TẠI SAO goal → better work (Gap Direction + Simulation Engine target)
+  ✅ TẠI SAO goal → better work (Gap Direction + Simulation-Engine target)
   ✅ TẠI SAO why → better work (Anchor-Schema + Valence Propagation)
   ✅ TẠI SAO "look forward" quan trọng (opioid preview = evidence of body acceptance)
   ✅ TẠI SAO "enjoy" quan trọng (genuine compiled + by-product match)

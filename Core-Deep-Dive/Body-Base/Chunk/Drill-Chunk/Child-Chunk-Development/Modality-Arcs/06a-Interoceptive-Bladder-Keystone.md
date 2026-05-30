@@ -7,7 +7,7 @@ parent: plan.md §3.2 (file 06a outline)
 depends_on: [01-PFC-Hardware-Reframe.md, 02-Womb-to-Birth-Baseline.md, 04-Auditory-System-Arc.md, 05-Motor-Output-Arc.md]
 language: Tiếng Việt primary + English technical terms
 addresses:
-  - Nút Thắt 2 ⭐ (P2 Chunks Base Adequacy compile mechanism — keystone via bladder slow-compile case)
+  - Nút Thắt 2 ⭐ (Precondition-2 Chunk-Substrate compile mechanism — keystone via bladder slow-compile case)
   - Nút Thắt 5 ⭐ (Receptive-Productive Asymmetry H11 — within-body-state anchor case)
   - Nút Thắt 7 ⭐ (Cortisol tagging critical period — toilet training evidence)
   - Nút Thắt 4 (PFC hardware × chunks missing — Stage B L2 "đơ mặt" as strongest falsification marker)
@@ -19,7 +19,7 @@ sub_folder: F1 Child-Chunk-Development
 
 > **File 06a of F1 Child-Chunk-Development sub-folder.** First of two interoceptive arc files (06a dedicated to bladder + 06b covers hunger/pain/thermal/emotional). Bladder is split into a dedicated file because it is the **single cleanest developmental arc** in the entire F1 drill — the same body state traversable end-to-end from L0 (newborn autonomic void) through L4 (22-month verbal "buồn đái") in observable form, with a crisp intermediate L2 ("đơ mặt") that provides the empirically cleanest falsification of the old "PFC offline" view.
 >
-> **⭐⭐ 4 Nút Thắt primary home**: This file delivers primary content for Nút Thắt 2 (P2 Chunks Base Adequacy mechanism), Nút Thắt 5 (H11 Receptive-Productive Asymmetry anchor case), Nút Thắt 7 (Cortisol tagging critical period), AND Nút Thắt 4 reinforcement (PFC hardware × chunks missing reconciliation via Stage B). No other F1 file serves 4 Nút Thắt simultaneously.
+> **⭐⭐ 4 Nút Thắt primary home**: This file delivers primary content for Nút Thắt 2 (Precondition-2 Chunk-Substrate mechanism), Nút Thắt 5 (H11 Receptive-Productive Asymmetry anchor case), Nút Thắt 7 (Cortisol tagging critical period), AND Nút Thắt 4 reinforcement (PFC hardware × chunks missing reconciliation via Stage B). No other F1 file serves 4 Nút Thắt simultaneously.
 >
 > **Framework contribution file**: This file formalizes the **"đơ mặt" hypothesis** (user's original observation, §0.5 Q8 + Q9 verbatim) as PFC-Inference Ladder L2 "Pattern-match activation". The formalization includes operational definition as observable marker, 4 falsifiable predictions, and 2 explicit counter-hypothesis rejections. This is proposed as Framework update recommendation **R-F1-2** for 99-Master-Synthesis integration.
 
@@ -39,9 +39,9 @@ sub_folder: F1 Child-Chunk-Development
 
 | Nút Thắt | Contribution | Section |
 |---|---|---|
-| 2 ⭐ P2 Chunks Base Adequacy | Bladder case = cleanest slow-compile evidence, direct empirical grounding for H10 P2 precondition | §6 |
+| 2 ⭐ Precondition-2 Chunk-Substrate | Bladder case = cleanest slow-compile evidence, direct empirical grounding for Precondition-2 Chunk-Substrate | §6 |
 | 5 ⭐ H11 Receptive-Productive | Within-body-state anchor: receptive ~12-18mo (Stage B) vs productive ~22mo (Stage D) = 6-10mo gap | §8 |
-| 7 ⭐ Cortisol tagging critical period | Toilet training context = clean P5 critical period test case with lifelong persistence evidence | §7 |
+| 7 ⭐ Cortisol tagging critical period | Toilet training context = clean Precondition-5 critical period test case with lifelong persistence evidence | §7 |
 | 4 PFC hardware × chunks missing | Stage B L2 "đơ mặt" = strongest within-F1 falsification of "PFC offline" view (PFC must fire for freeze; chunks missing = cannot act) | §3.6, §5.6 |
 
 **Events analyzed** (Ladder progression within bladder body state):
@@ -81,16 +81,16 @@ Of the 6 F1 body-input systems and ~50 events analyzed across arcs, bladder is t
 
 **2. Crisp observable L2 marker.** The "đơ mặt" freeze (1-3 seconds during play, facial muscles still, gaze unfocused) is a **body-surface-observable L2 pattern-match event**. L2 markers in other systems exist (vaccination pre-cry, stranger anxiety face progression, still-face paradigm Phase 3, VoE looking time, peek-a-boo anticipation) but none are as clean as bladder đơ mặt because the latter has (a) known antecedent (bladder fullness), (b) known consequence (voiding still occurs), (c) known chunks-missing signature (no action attempt), (d) observable within normal caregiver attention window.
 
-**3. Bladder is slow-compile, isolating P2 mechanism.** Visual perceptual narrowing compiles in days-weeks (Farroni 2002 direct gaze at 2-5 days; face narrowing 6-9mo trajectory per 03 §3.9). Auditory phoneme narrowing compiles in ~6 months (Werker & Tees 1984, 04 §6.2). Bladder full ladder compiles in **22+ months** — more than 10× the rate difference. This slow compile **isolates the P2 Chunks Base Adequacy mechanism** from environmental exposure confounds. A baby gets hundreds of visual exposures per hour; a baby gets ~20 bladder events per day (neonatal) dropping to ~6-10/day (toddler). The input rate gap partially explains the compile rate gap, but only partially — there are also chunks-architecture reasons (see §6).
+**3. Bladder is slow-compile, isolating Precondition-2 mechanism.** Visual perceptual narrowing compiles in days-weeks (Farroni 2002 direct gaze at 2-5 days; face narrowing 6-9mo trajectory per 03 §3.9). Auditory phoneme narrowing compiles in ~6 months (Werker & Tees 1984, 04 §6.2). Bladder full ladder compiles in **22+ months** — more than 10× the rate difference. This slow compile **isolates the Precondition-2 Chunk-Substrate mechanism** from environmental exposure confounds. A baby gets hundreds of visual exposures per hour; a baby gets ~20 bladder events per day (neonatal) dropping to ~6-10/day (toddler). The input rate gap partially explains the compile rate gap, but only partially — there are also chunks-architecture reasons (see §6).
 
-**4. Toilet training provides clean P5 cortisol tagging test case.** Unlike visual or auditory chunks (which compile whether caregiver is supportive or punitive), bladder chunks compile under a **training context** where caregiver response valence is explicitly manipulated (praise vs shame). This creates a natural empirical handle on cortisol-tagged chunks persistence (H10 P5 precondition from Body-Feedback-Draft N+3). Adult bladder-control anxiety (public restroom avoidance, sleep enuresis persistence) tracks childhood training quality — a clean within-subject test of cortisol tagging critical period claims.
+**4. Toilet training provides clean Precondition-5 cortisol tagging test case.** Unlike visual or auditory chunks (which compile whether caregiver is supportive or punitive), bladder chunks compile under a **training context** where caregiver response valence is explicitly manipulated (praise vs shame). This creates a natural empirical handle on cortisol-tagged chunks persistence (Precondition-5 Compile-Gate from Body-Feedback-Draft N+3). Adult bladder-control anxiety (public restroom avoidance, sleep enuresis persistence) tracks childhood training quality — a clean within-subject test of cortisol tagging critical period claims.
 
 ### §1.2 — Position in framework load-bearing network
 
 This file is load-bearing for:
 
 - **Body-Feedback-Draft/01-Foundation.md §5.5.1** — "đái gradient" was user's original verbatim example for 7-layer feeling developmental progression. N+3 drilled the abstract framework; 06a grounds it with mechanism + evidence.
-- **Body-Feedback-Draft/01-Foundation.md §5.5 P2 keystone** — H10 P2 precondition ("chunks base adequacy for body reward signal to fire at Feeling layer") was identified as pending mechanism in N+3. 06a resolves the mechanism (§6).
+- **Body-Feedback-Draft/01-Foundation.md §5.5 Precondition-2 keystone** — Precondition-2 Chunk-Substrate ("chunks base adequacy for body reward signal to fire at Feeling layer") was identified as pending mechanism in N+3. 06a resolves the mechanism (§6).
 - **Body-Base/Body-Input-Enumeration.md §4.9** — self-signal interoception as reading capacity keystone. 06a provides the developmental trajectory for how reading capacity compiles for a specific body state.
 - **Imagination/PFC-Analysis.md §4.0 REFRAME** — "không feel buồn đái" is Example 1 of the reframe. 06a is the full drill of that example.
 - **plan §0.5 Q8 + Q9** — user's "đơ mặt" hypothesis verbatim. 06a formalizes it.
@@ -512,48 +512,48 @@ The framework contribution is strengthened by offering falsifiable predictions:
 
 ---
 
-## §6 — P2 Chunks Base Adequacy keystone (Nút Thắt 2 primary home)
+## §6 — Precondition-2 Chunk-Substrate keystone (Nút Thắt 2 primary home)
 
-> Body-Feedback-Draft N+3 identified P2 "Chunks Base Adequacy" as a load-bearing but unresolved precondition for H10. 06a grounds the mechanism with empirical evidence from the bladder case.
+> Body-Feedback-Draft N+3 identified Precondition-2 Chunk-Substrate as a load-bearing but unresolved precondition for Body-Feedback-Precondition. 06a grounds the mechanism with empirical evidence from the bladder case.
 
-### §6.1 — H10 P2 precondition recap
+### §6.1 — Precondition-2 Chunk-Substrate recap
 
-From [Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5 (drilled N+3): P2 precondition states that for a body dissonance signal to be observable at Feeling Layer 3-7 (PFC observation + labeling), the underlying chunks base must be adequate. A body state with no compiled chunks fires Layer 1-2 raw signals but cannot produce labeled observations ("tôi đang đói", "tôi buồn đái").
+From [Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5 (drilled N+3): Precondition-2 states that for a body dissonance signal to be observable at Feeling (Feel-Consciousification–Feel-Explanation) level (PFC observation + labeling), the underlying chunks base must be adequate. A body state with no compiled chunks fires Feel-RawSignals–Feel-Integration raw signals but cannot produce labeled observations ("tôi đang đói", "tôi buồn đái").
 
-N+3 identified P2 as critical but did not drill the **compile mechanism** — how chunks reach adequacy threshold. This was flagged as pending F1 work.
+N+3 identified Precondition-2 as critical but did not drill the **compile mechanism** — how chunks reach adequacy threshold. This was flagged as pending F1 work.
 
-### §6.2 — Bladder case shows P2 accumulation mechanism directly
+### §6.2 — Bladder case shows Precondition-2 accumulation mechanism directly
 
-The bladder L0→L4 traversal provides direct observable evidence for how P2 adequacy is reached. At each stage, the Feeling layer resolution increases as chunks accumulate:
+The bladder L0→L4 traversal provides direct observable evidence for how Precondition-2 adequacy is reached. At each stage, the Feeling layer resolution increases as chunks accumulate:
 
-| Stage | P2 state for bladder | Feeling layer state | Body-Feedback gradient reference |
+| Stage | Precondition-2 state for bladder | Feeling layer state | Body-Feedback gradient reference |
 |---|---|---|---|
-| A (L0) | Chunks essentially zero for bladder content | Layer 1-2 only (raw bladder signal ascends; no labeled observation) | §5.5.1 row 1 "Trẻ sơ sinh" |
-| E3 (L1) | Post-hoc discomfort chunk compiling weakly | Emerging Layer 3 ("có gì đó khó chịu") | §5.5.1 row 2 "Post-hoc notice" |
-| B (L2) | Associative chunk reaches firing threshold | Layer 3 ("có gì đó sắp") emerging; Layer 4-6 not yet accessible | Between rows 2-3 of §5.5.1 (not explicitly named) |
-| C (L3) | Motor action chunks compiling | Layer 4 ("tôi sắp đái") partial | Row 3 approaching |
-| D (L4) | Full chunks stack adequate | Layer 4-6 ("tôi sắp đái" + "cần gọi mẹ" + "đái ở đây") | §5.5.1 row 3 "Trẻ biết gọi" |
-| Adult | Stable + refined + predictive | Layer 7 ("sau khi uống nước 2h sẽ cần") | §5.5.1 row 4 "Người lớn" |
+| A (L0) | Chunks essentially zero for bladder content | Feel-RawSignals–Feel-Integration only (raw bladder signal ascends; no labeled observation) | §5.5.1 row 1 "Trẻ sơ sinh" |
+| E3 (L1) | Post-hoc discomfort chunk compiling weakly | Emerging Feel-Consciousification ("có gì đó khó chịu") | §5.5.1 row 2 "Post-hoc notice" |
+| B (L2) | Associative chunk reaches firing threshold | Feel-Consciousification ("có gì đó sắp") emerging; Feel-Observation–Feel-Labeling not yet accessible | Between rows 2-3 of §5.5.1 (not explicitly named) |
+| C (L3) | Motor action chunks compiling | Feel-Observation ("tôi sắp đái") partial | Row 3 approaching |
+| D (L4) | Full chunks stack adequate | Feel-Observation–Feel-Labeling ("tôi sắp đái" + "cần gọi mẹ" + "đái ở đây") | §5.5.1 row 3 "Trẻ biết gọi" |
+| Adult | Stable + refined + predictive | Feel-Explanation ("sau khi uống nước 2h sẽ cần") | §5.5.1 row 4 "Người lớn" |
 
 **The bladder arc therefore instantiates the body-feedback §5.5.1 "đái gradient"** that user originally provided as a verbatim example in N+3. What N+3 described abstractly is drilled mechanistically in 06a. The two files should be bidirectionally cross-referenced (N+3 needs a forward link added; this file provides the backward link).
 
-### §6.3 — P2 compile mechanism resolved
+### §6.3 — Precondition-2 compile mechanism resolved
 
-The mechanism for reaching P2 adequacy is **four-channel compile** as formalized in plan §0.7 (applied to auditory in 04 §7, to motor in 05 §5, now to interoceptive):
+The mechanism for reaching Precondition-2 adequacy is **four-channel compile** as formalized in plan §0.7 (applied to auditory in 04 §7, to motor in 05 §5, now to interoceptive):
 
 1. **Repetition** — Each bladder event (antecedent + void + consequence) repeats ~10-15 per day. Hebbian binding strengthens associations over ~1000-3000 repetitions to reach threshold (Stage B onset 12-18mo). Rate = ~15 events/day × 450 days = ~6750 events by 15 months. Empirical; direct observational evidence.
 2. **Emotional tagging** — The discomfort at step 4-5 of the sequence (wet diaper → discomfort → cry) tags the associative chunk with negative valence. This accelerates compile per peak-emotion mechanism (flashbulb memories literature + infant version).
 3. **Multi-modal binding** — Interoceptive signal + thermal change (urine evaporation) + tactile change (damp) + emotional (distress) fire within the same few-second window. Cross-modality binding strengthens the chunk faster than unimodal repetition would.
 4. **Sleep consolidation** — Infants sleep 14-16 hr/day in this window. Bladder chunks likely consolidate offline during slow-wave + REM sleep. Direct infant evidence is sparse but adult mechanism (Rasch & Born 2013 *Physiol Rev*) generalizes.
 
-**Why bladder is slow relative to visual/auditory**: Despite having all 4 mechanisms active, bladder reaches P2 adequacy at ~22 months vs visual at ~6 months or auditory name recognition at 4.5 months. The rate difference is explained by:
+**Why bladder is slow relative to visual/auditory**: Despite having all 4 mechanisms active, bladder reaches Precondition-2 adequacy at ~22 months vs visual at ~6 months or auditory name recognition at 4.5 months. The rate difference is explained by:
 
 - **Lower event frequency** — 10-15 bladder events/day vs hundreds of visual faces or thousands of phoneme exposures
 - **Lower multi-modal richness per event** — bladder event is 3-4 channels vs a face which is visual + auditory + emotional + body-warmth + multi-feature visual
 - **Less caregiver attention** — caregivers respond to visual or auditory stimuli continuously; bladder events are largely managed via scheduled diaper changes, not contingent response to baby signals (until toilet training begins)
 - **Emotional valence is moderate** — wet diaper discomfort is unpleasant but not peak distress; face of mother smiling is high peak positive; peak-magnitude compile effect is weaker for bladder
 
-This **rate analysis** is the P2 compile mechanism's concrete expression. P2 adequacy is reached when the four-channel compile, multiplied by the exposure rate, crosses the chunk strength threshold for reliable firing.
+This **rate analysis** is the Precondition-2 compile mechanism's concrete expression. Precondition-2 adequacy is reached when the four-channel compile, multiplied by the exposure rate, crosses the chunk strength threshold for reliable firing.
 
 ### §6.4 — Generalizability to other body states
 
@@ -564,15 +564,15 @@ The bladder case methodology extends to other body states (hunger, pain, thermal
 - **Thermal**: L0-L1 (E4 newborn thermal cry) → L3 limited → rarely reaches L4 by 24mo. Truncated arc, explained by lower exposure × saliency.
 - **Emotional**: L0-L2 social-emotional chunks (E5 quiet alert, E12 social smile) → L4 largely post-24mo (meta-emotion verbalization delayed beyond F1 window).
 
-**Cross-body-state comparison** strengthens the P2 mechanism claim because it shows the **same compile mechanism** produces different rates depending on exposure × saliency × caregiver contingency × peak valence. See 06b §6 for the comparative analysis.
+**Cross-body-state comparison** strengthens the Precondition-2 mechanism claim because it shows the **same compile mechanism** produces different rates depending on exposure × saliency × caregiver contingency × peak valence. See 06b §6 for the comparative analysis.
 
 ### §6.5 — Framework link: F1 resolves N+3 pending question
 
-**Body-Feedback-Draft N+3 identified** (01-Foundation.md §5.5): "Chunks accumulation qua repeated experience + language (caregiver labeling). Without caregiver mirroring, Layer 3+ develops slower or incompletely."
+**Body-Feedback-Draft N+3 identified** (01-Foundation.md §5.5): "Chunks accumulation qua repeated experience + language (caregiver labeling). Without caregiver mirroring, Feel-Consciousification+ develops slower or incompletely."
 
 **F1 resolves** (06a + 06b): The mechanism is four-channel compile (repetition + emotional + multi-modal + sleep). Rate is determined by exposure × saliency × caregiver contingency × peak valence. Individual and cultural variation in Feeling layer development is directly explained by variation in these parameters. The bladder case provides the cleanest single-state evidence for the mechanism.
 
-**Cross-folder output contract** (to be committed in [10-F1-Synthesis.md](10-F1-Synthesis.md) §6): 06a provides F1's mechanism-grounding for P2, which updates Body-Feedback-Draft §5.5 with the mechanism content. This is Framework update recommendation **R-F1-4** (update Body-Feedback-Draft P2 section with F1 substrate evidence).
+**Cross-folder output contract** (to be committed in [10-F1-Synthesis.md](10-F1-Synthesis.md) §6): 06a provides F1's mechanism-grounding for Precondition-2, which updates Body-Feedback-Draft §5.5 with the mechanism content. This is Framework update recommendation **R-F1-4** (update Body-Feedback-Draft Precondition-2 section with F1 substrate evidence).
 
 ---
 
@@ -687,11 +687,11 @@ Per [Threat-Drive-Analysis §9](../../Drive/Threat-Drive-Analysis.md#9):
 
 Compared to peer threats (child can retreat to parent for co-regulation) and domain threats (child can resolve by action), imposed parent threats have **no exit path**. This is the structural reason the attachment literature finds the largest and most persistent effects from early caregiving stress.
 
-### §7.1 — H10 P5 precondition recap (refined)
+### §7.1 — Precondition-5 Compile-Gate recap (refined)
 
-[Body-Feedback-Draft H10 P5](../Body-Feedback-Draft/01-Foundation.md) claims: chunks compiled during body states with a specific hormonal profile carry that profile's association forward — the adult accessing the chunk re-experiences the body-state coloring of the original compile.
+[Precondition-5 Compile-Gate](../Body-Feedback-Draft/01-Foundation.md) claims: chunks compiled during body states with a specific hormonal profile carry that profile's association forward — the adult accessing the chunk re-experiences the body-state coloring of the original compile.
 
-**F1 refinement of P5** (via §7.0 upstream commitments):
+**F1 refinement of Precondition-5** (via §7.0 upstream commitments):
 
 1. The association is **chunk ↔ body state**, not chunk ↔ cortisol level. Body state is the full hormonal + schema + valence fingerprint.
 2. **Two cortisol contexts have opposite outcomes** for the same cortisol level: novelty cortisol → opioid-associated chunks; threat cortisol → cortisol-associated chunks.
@@ -701,13 +701,13 @@ Compared to peer threats (child can retreat to parent for co-regulation) and dom
 
 ### §7.2 — Why bladder training is a keystone test case
 
-Bladder training is a natural experiment for P5 because it isolates the causal variables cleanly:
+Bladder training is a natural experiment for Precondition-5 because it isolates the causal variables cleanly:
 
 1. **Universal**: All cultures train bladder control between ~12mo and ~4yr. Near-universal exposure.
 2. **Variable body state at compile**: Training styles span the full 4-threshold gradient (see §7.3) across caregivers and cultures. Same chunk content, different compile body states.
 3. **Single body-input system**: Bladder chunks are one interoceptive content, so cross-state confounds are controlled.
 4. **Long-horizon tracking**: Adult outcomes (urological, anxiety, avoidance) are clinically measurable and trace back to training reports with enough longitudinal data to be useful.
-5. **Clear H10 P5 prediction target**: The prediction "childhood threat-learned content elicits adult discomfort even in low-threat context" (H10 Prediction #8) is directly testable via adult bladder-context observations.
+5. **Clear Precondition-5 Compile-Gate prediction target**: The prediction "childhood threat-learned content elicits adult discomfort even in low-threat context" (Body-Feedback-Precondition Prediction #8) is directly testable via adult bladder-context observations.
 
 ### §7.3 — 4-threshold gradient applied to bladder training
 
@@ -785,9 +785,9 @@ Per §7.0.3, chronic threat cortisol causes accumulated PFC wear (Stage 2). In a
 
 **Implication for Level 3/4 bladder training specifically**: Even setting aside the bladder chunk association, chronic Level 3/4 training context contributes to the cumulative ACE load in a developing brain. The neural wear cost is additional to the chunk-association cost. A framework that only counts "bladder chunk tagging" undercounts the damage.
 
-### §7.6 — H10 P5 Prediction #8 validation test case
+### §7.6 — Precondition-5 Compile-Gate Prediction #8 validation test case
 
-[Body-Feedback-Draft H10 Prediction #8] states: "childhood threat-learned content elicits adult discomfort when accessed even without threat context present."
+[Body-Feedback-Precondition Prediction #8] states: "childhood threat-learned content elicits adult discomfort when accessed even without threat context present."
 
 Bladder training is the cleanest test case for this prediction, now refined:
 
@@ -989,7 +989,7 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 ### §10.2 — Other drilled Chunk-Analysis folders
 
 - [Body-Feedback-Draft/01-Foundation.md §5.5.1](../Body-Feedback-Draft/01-Foundation.md#§551) — đái gradient verbatim example (bidirectional — 06a grounds mechanism)
-- [Body-Feedback-Draft/04-Integration.md §9](../Body-Feedback-Draft/04-Integration.md#§9) — H10 P2 precondition (06a resolves mechanism)
+- [Body-Feedback-Draft/04-Integration.md §9](../Body-Feedback-Draft/04-Integration.md#§9) — Precondition-2 Chunk-Substrate (06a resolves mechanism)
 - [Agent/](../Agent/) — not directly referenced in 06a but 07 will cross-reference Resonance
 
 ### §10.3 — Body-Base framework
@@ -1027,7 +1027,7 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 
 8. **Cortisol tagging reversibility.** Are childhood-tagged bladder chunks fully reversible in adulthood via therapy (somatic experiencing, pelvic floor therapy, exposure therapy)? Or does the original tag persist as a "ghost" even after behavioral normalization? Framework hypothesis: partial reversal (behavior normalizes, emotional trace persists at reduced intensity). Empirical test: affect-measurement studies of adults with childhood-training anxiety after therapy.
 
-9. **P2 compile rate dependency on peak valence.** The model in §6.3 suggests peak emotional valence accelerates compile. Does a single very-high-cortisol event compile faster than many moderate-distress events? Relates to flashbulb memory mechanism in adults (Brown & Kulik 1977). For bladder, this would predict that a single traumatic training incident has larger tagging effect than many moderate incidents — testable.
+9. **Precondition-2 compile rate dependency on peak valence.** The model in §6.3 suggests peak emotional valence accelerates compile. Does a single very-high-cortisol event compile faster than many moderate-distress events? Relates to flashbulb memory mechanism in adults (Brown & Kulik 1977). For bladder, this would predict that a single traumatic training incident has larger tagging effect than many moderate incidents — testable.
 
 10. **Is Stage B actually skippable?** Some babies reportedly move from Stage A directly to Stage C (visible action attempt) without a long Stage B period. Does this reflect (a) truly skipped stage, (b) compressed Stage B lasting only days not visible to caregivers, or (c) individual variation in the freeze manifestation (some babies freeze visibly, some don't, even with the same underlying chunks state)? Important for the marker's clinical utility.
 
@@ -1044,7 +1044,7 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 **File status**: DRAFT N+4c1 P10 — ready for user review. ⭐⭐ MANDATORY REVIEW STOP per plan §5.5.
 
 **Nút Thắt delivered**:
-- ⭐ Nút Thắt 2 (P2 Chunks Base Adequacy) — primary home content in §6; mechanism resolved with 4-channel compile + exposure × saliency × contingency × valence rate analysis
+- ⭐ Nút Thắt 2 (Precondition-2 Chunk-Substrate) — primary home content in §6; mechanism resolved with 4-channel compile + exposure × saliency × contingency × valence rate analysis
 - ⭐ Nút Thắt 5 (H11 Receptive-Productive) — within-body-state anchor case in §8; 1:3 ratio consistency with 04 + 05 lines
 - ⭐ Nút Thắt 7 (Cortisol tagging critical period) — §7 with toilet training as test case; 12-30mo window proposed
 - ⭐ Nút Thắt 4 (PFC hardware × chunks missing) reinforcement — §3.6 Stage B as strongest within-F1 falsification
@@ -1079,7 +1079,7 @@ The **ratio** is consistently ~1:3 to 1:4 across all three lines. This convergen
 1. Does the đơ mặt formalization accurately preserve user's Q8+Q9 intent?
 2. Is the 4-Nút-Thắt loading too dense? Should any content move to 06b or 08?
 3. Are the falsifiable predictions in §5.7 concrete enough?
-4. Does §7 cortisol tagging critical period framing match user's intended H10 P5 linkage?
+4. Does §7 cortisol tagging critical period framing match user's intended Precondition-5 Compile-Gate linkage?
 5. Is the H11 1:3 ratio calculation in §8.4 reasonable for framework commitment, or too speculative?
 6. Any terminology adjustments ("đơ mặt" English translation, etc.)?
 

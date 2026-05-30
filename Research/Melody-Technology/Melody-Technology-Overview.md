@@ -1,9 +1,13 @@
 ---
 title: Melody Technology Overview — Tổng Hợp Các "Công Nghệ" Phục Vụ Body-Base
-version: 2.0
+version: 2.2
 created: 2026-03-28
 rewritten: 2026-04-26
-status: INDEX / ROADMAP v2.0
+refined: |
+  2026-05-25 (v2.1 — update dependency versions, add Phase C+T mechanism references)
+  2026-05-30 (v2.2 — MIXED body-base + PFC technology framing: compound Chain 0 + Chain 2-3,
+  3 install pathways, chain profile per-implementation. Align with Religion.md v2.6 §0.)
+status: INDEX / ROADMAP v2.1
 scope: |
   INDEX FILE: Tổng hợp các "Melody Technology" — công nghệ phục vụ body-base.
   Tôn giáo, idol, giáo dục, ideology, self-help, AI,...
@@ -21,17 +25,22 @@ purpose: |
   File này = INDEX giúp navigate + roadmap cho phân tích tương lai.
 position: |
   Research/Melody-Technology/ — OVERVIEW file cho folder.
-  Đọc file này TRƯỚC khi đọc Religion.md v2.0 hoặc Idol-Phenomenon.md v2.0.
+  Đọc file này TRƯỚC khi đọc Religion.md v2.6 hoặc Idol-Phenomenon.md v2.4.
 dependencies:
-  - Religion.md v2.2 — 7 Functions × v7.8 mapping + Reward-Signal-Architecture 5 Profiles
-  - Idol-Phenomenon.md v2.1 — 5 Drives × v7.8 mapping + Reward-Signal-Architecture Evaluative/Direct-State
+  - Religion.md v2.6 — 7 Functions × v7.8 + Body-Base vs PFC-Mediation + Chain per-MTF + Hardware-Subsidy + Entity-Compiled + Simulation-Engine + Coordination-Node
+  - Idol-Phenomenon.md v2.4 — 5 Drives × v7.8 + Entity-Compiled asymmetric + Bond-Architecture + Hardware-Subsidy NONE
+  - Gap-Body-Need.md v1.0 — §6 5-Parameter, Chain to Body-Base parameter
   - Education-Mechanism.md — mechanism-focused education analysis
   - Empathy-Education.md v2.0 — Self-Pattern-Modeling-based empathy education
   - Domain-Knowledge-Map.md — education domain mapping
   - Compliance-Floor.md v2.0 — luật = bridge, Self-Pattern-Modeling = intrinsic
-  - Meaning.md v2.0 — 5 anchor types, FAITH = tôn giáo
-  - Connection.md v3.0 — 3 Generative Primitives
-  - Gratitude.md v1.1 — 3 anti-habituation mechanisms
+  - Meaning.md v2.2 — 5 anchor types, FAITH = tôn giáo
+  - Connection.md v5.0 — 3 Primitives, Hardware-Subsidy, 4-Layer Sustainability, Resonance Decline
+  - Gratitude.md v2.1 — 3 anti-habituation mechanisms
+  - Entity-Compiled.md v1.0 — formation, grief A+B+C, hub-and-spoke
+  - Bond-Architecture.md v2.0 — 4 bond types, gap clone impossible, Resonance Decline
+  - Simulation-Engine.md v1.1 — 1 Engine 3 Components, prayer/meditation applications
+  - Coordination-Node.md v1.2 — Prestige/Dominance, Hardware-Subsidy Per Scale
 sources_backup: |
   v1.0 (2026-03-28, 137L) → backup/Melody-Technology-Overview-v1-backup.md
 language: Tiếng Việt primary + English technical terms
@@ -90,6 +99,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Core-Deep-Dive/ = MECHANISM files (cách não hoạt động)
     → Research/Melody-Technology/ = HIỆN TƯỢNG phân tích qua mechanism lens
     → = "Tôn giáo DÙNG cơ chế nào? Idol DÙNG cơ chế nào?"
+
+
+  ⭐ v2.2 — ĐẶC TÍNH CHUNG: MIXED BODY-BASE + PFC TECHNOLOGY (Religion.md v2.6 §0):
+
+    Melody Technology = MIXED technology, KHÔNG chỉ PFC-level:
+      → NHU CẦU = body-base THẬT
+        (Anchor-Schema = vô thức, Connection ❶ = hardware, etc.)
+      → FILL PATHWAY = MIXED COMPOUND (Chain 0 + Chain 2-3)
+        Body-Feedback-Mechanism.md §4: Chain 0 (sensory) + Chain 2-3 (meaning)
+        = Evaluative Gate AMPLIFY Direct-State → SUPERADDITIVE
+        → = COMPOUND = implementation-SPECIFIC (không chỉ PFC coherence)
+      → INSTALL = đa số body-direct (childhood + emotional peak)
+        KHÔNG chỉ PFC-mediated adult rational
+      → ORIGIN = body-base experience → PFC đóng gói → PFC truyền đạt
+      → PFC content compile xuống body-base qua thời gian
+      → = Gap-Body-Need.md §6 Parameter 4: Chain to Body-Base
+      → Chi tiết: Religion.md v2.6 §0 ①-⑥ phân tích đầy đủ
+
+    Mỗi Melody Technology có CHAIN PROFILE riêng:
+      → Tôn giáo: compound mạnh (Chain 0 + Chain 2-3, majority childhood install)
+      → Idol: thiên Chain 0 (sensory-driven, Direct-State dominant)
+      → Giáo dục: thiên Chain 2-3 (PFC-mediated, adult install)
+      → = Profile khác nhau → strength/weakness khác nhau
 ```
 
 ---
@@ -117,7 +149,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ MTF5     │ Schema template:           │ Schema.md v2.0: named chunk-     │
   │        │ "cách sống tốt = sẵn"     │ network pattern pre-installed    │
   ├────────┼────────────────────────────┼──────────────────────────────────┤
-  │ MTF6     │ Reward schedule:           │ H10 5 preconditions +            │
+  │ MTF6     │ Reward schedule:           │ Body-Feedback-Precondition 5 preconditions + │
   │        │ "routine cho body-reward"  │ Gratitude.md 3 anti-habituation  │
   ├────────┼────────────────────────────┼──────────────────────────────────┤
   │ MTF7     │ Anchor coherence:          │ Anchor-Schema.md: life-level     │
@@ -127,7 +159,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → = Bất kỳ "Melody Technology" nào đều cover 1 hoặc nhiều functions
   → = ĐÁNH GIÁ bất kỳ implementation nào: cover bao nhiêu /7?
   → = Tôn giáo MẠNH NHẤT vì cover 7/7 ĐỒNG THỜI trong 1 package
-  → = Chi tiết: Religion.md v2.0 §2 (mapping per-function)
+  → = Chi tiết: Religion.md v2.6 §2 (mapping per-function)
 ```
 
 ---
@@ -140,16 +172,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────────────┬──────────┬──────────────────────────────────────┐
   │ Implementation       │ Cover    │ File + Status                         │
   ├──────────────────────┼──────────┼──────────────────────────────────────┤
-  │ ⭐ Tôn giáo          │ 7/7      │ Religion.md v2.2                      │
+  │ ⭐ Tôn giáo          │ 7/7      │ Religion.md v2.6                      │
   │                      │          │ 7 Functions × v7.8 mapping đầy đủ    │
-  │                      │          │ FAITH anchor + install + compound     │
-  │                      │          │ grief + serotonin + Reward-Signal-Architecture 5/5 Profiles  │
+  │                      │          │ +Hardware-Subsidy, +Entity-Compiled   │
+  │                      │          │ +Simulation-Engine, +Coordination-Node│
+  │                      │          │ +Bond-Architecture, +Resonance Decline, +4-Layer │
   ├──────────────────────┼──────────┼──────────────────────────────────────┤
-  │ Idol / Celebrity     │ 1-4/7    │ Idol-Phenomenon.md v2.1               │
-  │                      │ (varies) │ 5 Drives × v7.8 mapping. Parasocial  │
-  │                      │          │ = Self-Pattern-Modeling 1-chiều. AI idol frontier.     │
-  │                      │          │ Reward-Signal-Architecture: art=Direct-State, anchor=Evaluative.      │
-  │                      │          │ Fan cuồng→ thêm MTF2 MTF7 (§8 spectrum)  │
+  │ Idol / Celebrity     │ 1-4/7    │ Idol-Phenomenon.md v2.4               │
+  │                      │ (varies) │ 5 Drives × v7.8. Parasocial =        │
+  │                      │          │ Self-Pattern-Modeling 1-chiều. AI idol frontier.     │
+  │                      │          │ +Entity-Compiled asymmetric           │
+  │                      │          │ +Hardware-Subsidy, +Bond-Architecture │
+  │                      │          │ +Bond-Architecture gap clone impossible│
   ├──────────────────────┼──────────┼──────────────────────────────────────┤
   │ Giáo dục             │ 3-4/7    │ Education-Mechanism.md +              │
   │                      │          │ Domain-Knowledge-Map.md +             │
@@ -176,7 +210,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🔴 MELODY TECHNOLOGY = SPECTRUM, KHÔNG PHẢI CATEGORIES:
 
-  Từ Religion.md v2.0 §6 + Idol-Phenomenon.md v2.0 §8:
+  Từ Religion.md v2.6 §6 + Idol-Phenomenon.md v2.4 §8:
 
   ┌────────────────┬──────────┬────────────┬──────────┬─────────────────────┐
   │ Level          │ ❸ Depth  │ Anchor type│ Functions│ Ví dụ               │
@@ -229,7 +263,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├──────────────────────┼──────────┼───────────────────────────────────────┤
   │ Self-help / coaching │ ~2-3/7   │ MTF1: GOAL anchor (nhưng prescribed →   │
   │                      │          │ Meaning.md §6: sai vì prescribe 1     │
-  │                      │          │ type). MTF4: verbal dissonance mgmt.    │
+  │                      │          │ type). MTF4: verbal dissonance          │
+  │                      │          │ management.                            │
   │                      │          │ MTF5: template (sách = schema verbal).  │
   │                      │          │ THIẾU: MTF2 MTF3 MTF6 MTF7 →                 │
   │                      │          │ = Tại sao "motivation fades":         │
@@ -238,7 +273,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├──────────────────────┼──────────┼───────────────────────────────────────┤
   │ Thể thao / fitness   │ ~3-4/7   │ MTF3: gym community, Crossfit tribe.   │
   │ (Crossfit, marathon) │          │ MTF5: training template. MTF6: workout   │
-  │                      │          │ routine = embodied ritual → H10 met. │
+  │                      │          │ routine = embodied ritual → Body-Feedback-Precondition met. │
   │                      │          │ MTF1: GOAL anchor ("stronger").         │
   │                      │          │ THIẾU: MTF2 MTF4 MTF7 (no compliance,      │
   │                      │          │ no existential explanation, no        │
@@ -249,7 +284,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                      │          │ MTF5: class/role = schema template.    │
   │                      │          │ MTF6: loot/event schedule = reward.    │
   │                      │          │ ⚠️ ALL virtual → body-base benefit  │
-  │                      │          │ LIMITED (H10 precondition ❶ body-need │
+  │                      │          │ LIMITED (Body-Feedback-Precondition precondition ❶ body-need │
   │                      │          │ met? → virtual reward ≠ real)         │
   ├──────────────────────┼──────────┼───────────────────────────────────────┤
   │ Social movement      │ ~4-5/7   │ MTF1: "thế giới tốt hơn" = GOAL anchor│
@@ -301,7 +336,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     → Tôn giáo: 7/7 nhưng INFLEXIBLE + Over-anchor risk + suppress real-check
     → Self-help: flexible nhưng 2-3/7 → thiếu quá nhiều → "motivation fades"
-    → Game: reward mạnh nhưng VIRTUAL → H10 body-need questionable
+    → Game: reward mạnh nhưng VIRTUAL → Body-Feedback-Precondition body-need questionable
     → Quân đội: 5-6/7 nhưng DEPENDENCY cực cao + suppress autonomy
     → = KHÔNG implementation nào PERFECT → cần hiểu TRADE-OFF TỪNG CÁI
 
@@ -357,20 +392,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 MELODY TECHNOLOGY FILES:
-→ Religion.md v2.2: 7 Functions × v7.8 + Reward-Signal-Architecture 5/5 Profiles. File CHÍNH cho 7-function model.
-→ Idol-Phenomenon.md v2.1: 5 Drives × v7.8 + Reward-Signal-Architecture Evaluative/Direct-State. Parasocial + AI idol.
+→ Religion.md v2.6: 7 Functions × v7.8 + Hardware-Subsidy + Entity-Compiled + Simulation-Engine + Resonance Decline
+→ Idol-Phenomenon.md v2.4: 5 Drives × v7.8 + Entity-Compiled asymmetric + Bond-Architecture + Hardware-Subsidy
 
 CORE MECHANISM FILES (foundation cho analysis):
-→ Meaning.md v2.0: 5 anchor types — basis for MTF1 analysis per-implementation
-→ Connection.md v3.0: 3 Generative Primitives — basis for MTF3 analysis
-→ Obligation.md v1.0: compiled prediction — basis for MTF2 analysis
-→ Gratitude.md v1.1: 3 anti-habituation — basis for MTF6 analysis
+→ Meaning.md v2.2: 5 anchor types — basis for MTF1 analysis per-implementation
+→ Connection.md v5.0: 3 Primitives + Hardware-Subsidy + 4-Layer Sustainability + Resonance Decline — basis for MTF3
+→ Obligation.md v1.2: compiled prediction — basis for MTF2 analysis
+→ Gratitude.md v2.1: 3 anti-habituation — basis for MTF6 analysis
 → Compliance-Floor.md v2.0: luật = bridge — basis for MTF2 analysis
 → Anchor-Schema.md v1.2: sync point — basis for MTF7 analysis
 → Schema.md v2.0: named patterns — basis for MTF5 analysis
 → Chunk-Activation-Dynamics.md: 7 factors — basis for install mechanism analysis
-→ PFC-Hardware.md: COMT/DRD4 — basis for per-hardware matching
+→ PFC-Hardware.md v1.1: COMT/DRD4 — basis for per-hardware matching
 → Autonomy-Hardware.md: vmPFC/DRN — basis for MTF4 controllability analysis
+
+NEW MECHANISM FILES (Phase C+T, foundation cho deep analysis):
+→ Entity-Compiled.md v1.0: hub-and-spoke, formation, grief A+B+C — basis for attachment depth
+→ Bond-Architecture.md v2.0: 4 bond types, gap clone impossible, Resonance Decline — basis for bond analysis
+→ Simulation-Engine.md v1.1: 1 Engine 3 Components — basis for MTF4b (contemplative)
+→ Coordination-Node.md v1.2: Prestige/Dominance, Hardware-Subsidy Per Scale — basis for leadership analysis
+→ Entity-Access.md v1.2: Mức 0-5 gradient — basis for access asymmetry analysis
+→ Valence-Propagation.md v3.0: Structural/Current, 3 Firing Modes — basis for attachment dynamics
+→ Empathy.md v4.0: PFC budget, Compiled Quality — basis for empathy analysis per-implementation
 
 EDUCATION FILES (partially analyzed):
 → Education-Mechanism.md: mechanism-focused education analysis

@@ -16,6 +16,8 @@ language: Tiếng Việt primary + English technical terms
 > **Drill priority** (per plan §2.3): "Decode reward mechanism + precondition matrix + 7-case analysis + calibration paradoxes."
 >
 > **Style**: Tiếng Việt primary + English technical terms. 🟢 Research / 🟡 Framework suy luận / 🔴 Hypothesis. "Imagine-Final" không viết tắt.
+>
+> ⚠️ **H10 formalized**: H10 đã được formalize thành [Body-Feedback-Precondition.md](../Body-Feedback-Precondition.md). File này giữ nguyên H10 là tên hypothesis gốc trong quá trình drill.
 
 ---
 
@@ -340,7 +342,7 @@ Chi tiết Evaluative/Direct-State dimension: Reward-Signal-Architecture.md §1-
 > 1. **Schema pending status** — có schema đang chờ fill/resolve/upgrade?
 > 2. **Chunks base adequacy** — có đủ chunks substrate để decode pattern?
 > 3. **prediction-delta threshold** — biến động đủ lớn để VTA detect?
-> 4. **Goldilocks zone position** — match 40-70%?
+> 4. **Goldilocks zone position** — Goldilocks zone (dynamic)?
 > 5. **Chunk association tag** — chunks tag (opioid vs cortisol) direction?
 >
 > **Claim**: Signal fires correctly (i.e., full reward) WHEN ALL 5 preconditions met. Absence of ANY → signal absent or wrong direction.
@@ -438,11 +440,11 @@ Chi tiết Evaluative/Direct-State dimension: Reward-Signal-Architecture.md §1-
 
 🟡 **Definition**:
 
-> Match ratio between input pattern and existing chunks must fall in **40-70% zone**. Too familiar (>90%) → boring. Too alien (<20%) → confusing. Just right (40-70%) → optimal reward.
+> Match ratio between input pattern and existing chunks must fall in **Goldilocks zone** (dynamic per person/context). Too familiar (>90%) → boring. Too alien (<20%) → confusing. Goldilocks zone → optimal reward.
 
 **Mechanism** (Why-Body-Knows §2):
 - <20% match: too novel → can't decode → cortisol mild → dissonance
-- 40-70% match: recognizable + surprising → opioid + dopamine → **HAY**
+- Goldilocks zone: recognizable + surprising → opioid + dopamine → **HAY**
 - >90% match: too familiar → habituated → dopamine silent → chán
 
 **When precondition MET**:
@@ -485,7 +487,7 @@ Chi tiết Evaluative/Direct-State dimension: Reward-Signal-Architecture.md §1-
 - → Reward accessible despite high baseline
 
 🟡 **P5 extends (v1.1)**: P5 determines not just direction (approach/avoid) but reward QUALITY.
-4-Pathway × P5 Tag Model: HW Fit → approach, Trust → moderate, Social → neutral, Threat → avoidance.
+4-Pathway × P5 Tag Model: Hardware Fit → approach, Trust → moderate, Social → neutral, Threat → avoidance.
 Chi tiết: Reward-Signal-Architecture.md §8.4
 
 ### §3.7 — Preconditions Matrix Summary
@@ -541,7 +543,7 @@ Framework explains via precondition analysis:
 - P1 Schema pending: focus on bài → not specifically attending to name
 - P2 Chunks base: "cô giáo gọi tên = attention event" chunk solid
 - P3 prediction-delta: HIGH (unexpected name call while focused elsewhere)
-- P4 Goldilocks: ~50% match (expected some teacher sound, not specifically own name)
+- P4 Goldilocks: within Goldilocks zone (expected some teacher sound, not specifically own name)
 - P5 Tag: neutral-positive (not threatening)
 
 Result: VTA fires HARD → dopamine spike → attention interrupts → "giật mình"
@@ -659,7 +661,7 @@ Result: Some reward but **muted**. User says "làm cật lực" → effort corti
 **P1 Schema pending**: Yes — resource need (always pending for most people)
 **P2 Chunks base**: Strong — understands money, lottery, winning
 **P3 prediction-delta**: **EXTREME** — unexpected massive event exceeding all predictions
-**P4 Goldilocks**: 40-60% match (understand lottery but never experienced winning)
+**P4 Goldilocks**: within Goldilocks zone (understand lottery but never experienced winning)
 **P5 Tag**: Positive (lottery chunks fantasy-tagged, not negative)
 
 Result: ALL 5 preconditions MAXIMALLY met → **"intensely pleasant"**:
@@ -946,7 +948,7 @@ User's key insight: same PERSON (father) → different response per item. Same I
 - **P1 Pending**: ✅ Con đã có schema "muốn ô tô," watching cars, longing
 - **P2 Chunks base**: ✅ Rich — car chunks (models, colors, features, desirability)
 - **P3 prediction-delta**: ✅ HIGH — surprise (bất ngờ) + expectation exceeded
-- **P4 Goldilocks**: ✅ 60-70% — recognized (xe ô tô) + novel (this specific model)
+- **P4 Goldilocks**: ✅ within Goldilocks zone — recognized (xe ô tô) + novel (this specific model)
 - **P5 Tag**: ✅ Positive — car chunks opioid-tagged from play/admiration context
 
 **All 5 preconditions met strongly** → **intensely pleasant**.
@@ -1031,7 +1033,7 @@ Framework: "Value" (domain: monetary) ≠ "reward" (body: chunks match). Receivi
 - **P1 Pending**: ✅ Has schema "muốn xe cổ" (collector interest)
 - **P2 Chunks base**: ✅ Rich chunks about vintage cars (history, craftsmanship, rarity, provenance)
 - **P3 prediction-delta**: HIGH — seeing this specific car, knowing what it is
-- **P4 Goldilocks**: ✅ 50-70% match (recognizable + specific)
+- **P4 Goldilocks**: ✅ within Goldilocks zone (recognizable + specific)
 - **P5 Tag**: ✅ Opioid-positive (vintage chunks tagged with "cool" / "authentic" / "history")
 
 **Father**: Full reward.
@@ -1142,13 +1144,13 @@ Framework: Not exactly like Van Gogh (no one can have exact same chunks), but in
 
 **Intermediate learner** (after some art classes):
 - Chunks about: brushstroke techniques, color theory, artistic movements
-- Van Gogh input match: ~30-40% (recognizes technique, still finds emotional intensity excessive)
+- Van Gogh input match: approaching Goldilocks zone (recognizes technique, still finds emotional intensity excessive)
 - Body signal: "interesting, không chắc đẹp" — approaching Goldilocks
 - **Result**: Mild interest, mixed feelings
 
 **Advanced learner** (years of study):
 - Chunks about: Van Gogh's life, historical influence, technical innovation, comparative artists
-- Van Gogh input match: 50-70% — IN GOLDILOCKS
+- Van Gogh input match: within Goldilocks zone
 - Body signal: opioid release — "beautiful, moving, significant"
 - **Result**: Full reward, aesthetic appreciation
 

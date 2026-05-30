@@ -1,9 +1,9 @@
----
+﻿---
 title: Obligation — Observation Parameter
 version: 1.2
 created: 2026-04-25
 updated: 2026-05-17 v1.1 — +Compilable Architecture, +By-product match (exchange), +PFC=Lawyer, +3-cost, Entity-Compiled rename, version refs sync
-refined: 2026-05-23 (v1.2 — Concept Cascade: +Entity-Access, +Bond-Architecture, +Hardware Subsidy. Updated versions + cross-refs)
+refined: 2026-05-23 (v1.2 — Concept Cascade: +Entity-Access, +Bond-Architecture, +Hardware-Subsidy. Updated versions + cross-refs)
 status: OBSERVATION PARAMETER v1.2
 scope: |
   OBSERVATION FILE: Obligation = named pattern khi quan sát COMPILED PREDICTION
@@ -1373,7 +1373,7 @@ ACCESS COST QUÁ CAO → GIẢM COOPERATION:
 L2 (ENTITY-OWNED) = BUFFER GIẢM FELT-COST CỦA OBLIGATION:
 
   Mechanism:
-    L2 = agent TRỞ THÀNH body-base extension (Valence-Propagation §2)
+    L2 = agent TRỞ THÀNH body-base extension (Entity-Valence-Dynamics.md v1.0 §2)
     → Agent's wellbeing = MY wellbeing (structural)
     → Khi fulfill obligation toward L2 agent:
       "Giúp agent" = "feed body-base MÌNH" (structural reward)
@@ -1964,14 +1964,14 @@ OBLIGATION × CONNECTION — GENERATIVE:
 ```
 ENTITY-ACCESS × OBLIGATION (Entity-Access.md v1.2):
   → Obligation = PERCEIVED ACCESS COST per-entity:
-    Mức 5 (con/self): obligation ÍT (hardware subsidy = "miễn phí")
+    Mức 5 (con/self): obligation ÍT (hardware-subsidy = "miễn phí")
     Mức 3 (bạn thân): obligation VỪA (reciprocal exchange compiled)
     Mức 1 (acquaintance): obligation CAO per-interaction (chưa compiled)
     Mức 0 (stranger): obligation = EXPLICIT contract (tiền, quy tắc)
   → Entity-Access gradient PREDICT obligation weight per-entity
   → §6 Access Cost = Entity-Access gradient applied to obligation
 
-BOND-ARCHITECTURE × OBLIGATION (Bond-Architecture.md v1.0):
+BOND-ARCHITECTURE × OBLIGATION (Bond-Architecture.md v2.0):
   → 4 bond types → 4 obligation profiles:
     Proximity: obligation = "ở đây" → implicit, low explicit cost
     Shared-Experience: obligation = "cùng đóng góp" → effort-based
@@ -1980,16 +1980,16 @@ BOND-ARCHITECTURE × OBLIGATION (Bond-Architecture.md v1.0):
   → Type 4 (§4) EXPLICIT-BOUNDED ≈ reciprocal bond obligation
   → Type 1 (§4) IMPLICIT-UNBOUNDED ≈ identity bond obligation
 
-HARDWARE SUBSIDY × OBLIGATION (Valence-Propagation v3.0 §5):
-  → Hardware subsidy REDUCE perceived obligation:
+HARDWARE-SUBSIDY × OBLIGATION (Entity-Valence-Dynamics.md v1.0 §5):
+  → Hardware-subsidy REDUCE perceived obligation:
     Body cung cấp baseline "chăm con = MIỄN PHÍ" → obligation ≈ 0
     Body KHÔNG cung cấp baseline "giúp stranger" → obligation = FULL COST
-  → = TẠI SAO chăm con = "không thấy mệt" (hardware subsidy cover cost)
+  → = TẠI SAO chăm con = "không thấy mệt" (hardware-subsidy cover cost)
   → = TẠI SAO giúp stranger = "mệt rõ ràng" (no subsidy, full PFC draft)
 
 🟡 Entity-Access × obligation = framework convergence (access cost)
 🟡 Bond-Architecture × obligation = framework application (4 profiles)
-🟡 Hardware Subsidy × obligation = framework explanation (cost reduction)
+🟡 Hardware-Subsidy × obligation = framework explanation (cost reduction)
 ```
 
 ---
@@ -2371,8 +2371,8 @@ CORE MECHANISM FILES:
     §5 Gift-Obligation Spectrum, §5.3 Obligation preview
   → Agent-Mechanism.md — §12 body-need feeder, §12.2b 2-luồng L1/L2,
     §12.4 Mode 1/2 virtual agents, §12.5 collective agents
-  → Valence-Propagation.md v2.0 — §2 Body-Base Extension dimension,
-    L1/L2 distinction, "2 luồng INDEPENDENT"
+  → Entity-Valence-Dynamics.md v1.0 — §2 Body-Base Extension dimension,
+    §3 L1/L2 distinction + 2-luồng/2-tầng visibility
   → Body-Coupling.md v2.0 — coupling mechanism: extension/entanglement
     explains WHY obligation weight varies (coupling depth → L2 magnitude)
   → Connection.md v4.0 — §3.3 2-luồng reward, §5 ④ giving reward,

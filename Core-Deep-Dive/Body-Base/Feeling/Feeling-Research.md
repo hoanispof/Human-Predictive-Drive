@@ -172,8 +172,8 @@
     → Valence + arousal as building blocks
     → Categories are cultural
 
-  → Framework: compatible with Layer 6 labeling insight
-    Raw body state (Layer 3) is universal, labels (Layer 6) are cultural
+  → Framework: compatible with Feel-Labeling insight
+    Raw body state (Feel-Consciousification) is universal, labels (Feel-Labeling) are cultural
 
 
   WHY THE DISTINCTION MATTERS:
@@ -232,8 +232,8 @@
 
 
   FRAMEWORK POSITION:
-    → Sensation = often Layer 1 raw signal
-    → Feeling = at Layer 2 integration + beyond
+    → Sensation = often Feel-RawSignals raw signal
+    → Feeling = at Feel-Integration + beyond
     → Same body can produce both simultaneously
     → Pain is common bridge between them
 ```
@@ -266,7 +266,7 @@
 
   MAINSTREAM CONFUSION:
     → "I think I'm sad" — is this thought or feeling?
-    → Framework: the feeling is body-based; "I think" is Layer 6-7
+    → Framework: the feeling is body-based; "I think" is Feel-Labeling/Feel-Explanation
     → The statement is a LABEL of feeling, not the feeling itself
 
 
@@ -641,9 +641,9 @@
     → Experience has "more" waiting to be said
 
   COMPATIBLE WITH:
-    → Framework Layer 3 (consciousification, pre-labeling)
+    → Framework Feel-Consciousification (pre-labeling)
     → Somatic-Articulation-Loop.md (body → words process)
-    → Framework skepticism about Layer 6-7 labels
+    → Framework skepticism about Feel-Labeling/Feel-Explanation labels
     → Literacy training rationale
 
 
@@ -656,7 +656,7 @@
 
   FRAMEWORK DRAWS FROM GENDLIN:
     → Felt sense as direct evidence body-first is real
-    → Layer 3 described using Gendlin's observations
+    → Feel-Consciousification described using Gendlin's observations
     → Focusing method in literacy training (Feeling-Accuracy §7.2)
     → "Pre-verbal but structured" insight
 
@@ -726,7 +726,7 @@
 
   FRAMEWORK DRAWS FROM CRAIG:
     → Interoception as foundation of feeling
-    → Insula as integration hub (Layer 2 neural substrate)
+    → Insula as integration hub (Feel-Integration neural substrate)
     → Pathway from body to feeling made explicit
     → Physical basis for "body-first" claim
 
@@ -739,7 +739,7 @@
 
 
   COMPATIBLE WITH:
-    → Framework Layer 1-2 architecture
+    → Framework Feel-RawSignals/Feel-Integration architecture
     → Damasio somatic marker (insula as substrate)
     → Feeling literacy as trainable skill
     → Individual variation in feeling access
@@ -982,7 +982,7 @@
     → Effortful + limited capacity
     → Can override System 1 (sometimes)
     → Required for novel problems
-    → → In framework terms: PFC Layer 5-7 analytical processing
+    → → In framework terms: PFC Feel-Location/Feel-Labeling/Feel-Explanation analytical processing
 
   CORE INSIGHT:
     System 1 is dominant; System 2 is slow and often rationalizes
@@ -1028,7 +1028,7 @@
 
   FRAMEWORK DRAWS FROM KAHNEMAN:
     → System 1 ≈ Feeling (in framework sense)
-    → Framework L6-L7 ≈ System 2 limits
+    → Framework Feel-Labeling/Feel-Explanation ≈ System 2 limits
     → Integration needed for wise decisions
     → Biases explained as compiled misfires
 
@@ -1315,7 +1315,7 @@
     → Ignoring feelings ("just be rational") = paralysis
     → Only feelings ("just go with gut") = biased
     → Not checking body state first (hungry → distorts)
-    → Rushing Layer 7 explanations
+    → Rushing Feel-Explanation
 
   WISDOM:
     → Use both feeling + logic
@@ -1452,15 +1452,15 @@
     → Incubation + relaxation enables insight
     → Forcing analytical thought blocks it
 
-  → Framework: insight = feeling emerging at Layer 3-4
-    PFC then verbalizes at Layer 6-7
+  → Framework: insight = feeling emerging at Feel-Consciousification/Feel-Observation
+    PFC then verbalizes at Feel-Labeling/Feel-Explanation
 
 
   ARTISTIC CREATION:
     → Artists report "feeling when it's right"
     → Pre-verbal aesthetic judgment
     → Critics over-verbalize, often miss
-    → Framework: artists access Layer 3-4 directly
+    → Framework: artists access Feel-Consciousification/Feel-Observation directly
 
 
   EINSTEIN'S THOUGHT EXPERIMENTS:
@@ -1640,7 +1640,7 @@
       - Addiction
       - PTSD
     → Body suffers while PFC cannot label
-    → Framework: Layer 3-4 disconnection
+    → Framework: Feel-Consciousification/Feel-Observation disconnection
 
 
   DEPRESSION:
@@ -1680,7 +1680,7 @@
   DISSOCIATION:
     → Chronic disconnection from body
     → Protection from overwhelming feeling
-    → Framework: Layer 3 suppression
+    → Framework: Feel-Consciousification suppression
     → Somatic therapies gradual reconnection
 
 
@@ -1737,8 +1737,8 @@
 🟡 AI ERA FRAMEWORK POSITIONING:
 
   CORE CLAIM:
-    AI can simulate Layer 6-7 (language) very well.
-    AI CANNOT have Layer 1-3 (no body, no interoception).
+    AI can simulate Feel-Labeling/Feel-Explanation (language) very well.
+    AI CANNOT have Feel-RawSignals through Feel-Consciousification (no body, no interoception).
     → AI cannot have "real feeling" in framework sense.
     → Human feeling literacy = irreplaceable advantage.
 
@@ -1752,7 +1752,7 @@
     ✓ Recognizing emotional patterns in text
     ✓ Cognitive empathy simulation (Theory of Mind from text)
 
-  These are Layer 6-7 operations on external signals.
+  These are Feel-Labeling/Feel-Explanation operations on external signals.
 
 
   WHAT AI CANNOT DO (framework claim):
@@ -1763,7 +1763,7 @@
     ✗ Have compiled body-level wisdom
     ✗ Affective empathy (body mirror)
 
-  These require Layer 1-3, which AI lacks.
+  These require Feel-RawSignals through Feel-Consciousification, which AI lacks.
 
 
   CAVEATS AND PHILOSOPHICAL LIMITS:
@@ -1896,7 +1896,7 @@
     → Deep integrated understanding
     → Not "know about" but "know in body"
     → Pre-verbal competence
-    → Framework: Layer 3-4 access to domain
+    → Framework: Feel-Consciousification/Feel-Observation access to domain
 
 
   COMPREHENSION FEELINGS:
@@ -1927,7 +1927,7 @@
   ② NOTICING "DOES UNDERSTAND" FEELING
      → Click sensation
      → Body confirms integration
-     → Layer 3-4 signal
+     → Feel-Consciousification/Feel-Observation signal
      → Not same as "can recite"
 
   ③ TRUSTING "THIS FEELS OFF" IN DOMAIN
@@ -1951,7 +1951,7 @@
 
     Traditional education often ignores feeling literacy:
       → Test-driven, recall-focused
-      → Layer 6-7 privileged
+      → Feel-Labeling/Feel-Explanation privileged
       → Body dismissed
       → "Feelings off-topic"
 
@@ -2096,7 +2096,7 @@
 
 📚 FRAMEWORK DEPENDENCIES:
 
-  Core-v7.5-Draft.md                — L0-L3 body-base
+  Core-v7.5-Draft.md                — L0+L1 body-base substrate
   Somatic-Articulation-Loop.md      — Body → words process
   Domain/Valence.md                 — Compiled feelings
   Domain/Domain-Mechanisms.md §1    — Mirror mechanism

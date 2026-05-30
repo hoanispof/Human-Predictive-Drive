@@ -1,4 +1,4 @@
----
+﻿---
 title: Collective-Arc-Dynamics — Tốc Độ Shift × Shelf-Life × 3 Nguồn Constraint
 version: 1.2
 created: 2026-05-18
@@ -14,11 +14,11 @@ scope: |
   4 mức độ: Shift → Disruption → Node Death → Arc Extinction.
   Global arc = smooth vì diversification (8 tỷ nodes).
   Cá nhân experience "gãy" = 3 trường hợp (snapshot/node fail/local collapse).
-  = GIẢI THÍCH WHY mà Logic-Feeling §1.3b MÔ TẢ WHAT:
-    §1.3b: "stable-arc vs shifting-arc" (mô tả hiện tượng)
+  = GIẢI THÍCH WHY mà Logic-Feeling §3.2 MÔ TẢ WHAT:
+    §3.2: "stable-arc vs shifting-arc" (mô tả hiện tượng)
     File NÀY: TẠI SAO stable vs shifting (giải thích cơ chế)
 purpose: |
-  Logic-Feeling.md §1.3b nói: "Compilation shelf-life = f(collective arc stability)."
+  Logic-Feeling.md §3.2 nói: "Compilation shelf-life = f(collective arc stability)."
   Nhưng CHƯA giải thích:
     ① TẠI SAO một số arc stable hơn arc khác?
     ② TẠI SAO individual không thể phân biệt sources?
@@ -29,12 +29,13 @@ purpose: |
 position: |
   Core-Deep-Dive/Collective/ — cạnh Collective-Body.md, Collective-Purpose.md,
   Coordination-Node.md, Compliance-Floor.md.
+  → Overview: Collective.md v1.0 (integration hub cho folder).
   File NÀY = HOW collective arc evolves + WHY patterns expire differently.
   Domain.md §2.1 = short precision note → point HERE for detail.
   Moved from Domain/ (2026-05-18).
 dependencies:
   - Domain.md §2.1 — 3 nguồn constraint (precision note, references this file)
-  - Logic-Feeling.md v2.1 §1.3b — Compilation Shelf-Life (stable-arc vs shifting-arc)
+  - Logic-Feeling.md v4.0 §3.2 — Compilation Shelf-Life (stable-arc vs shifting-arc)
   - Knowledge-Flow.md §3-4 — Domain invariant + Optimization Override
   - Knowledge-Flow.md §6-7 — Arc Wave pattern + Baseline Shift
   - Collective-Purpose.md §1 — Cosmic Loop (vertical), domain cố định
@@ -111,7 +112,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Discovery-vs-Expansion  │ 2 MODES of mapping: Sense→Verify→Scale. │
     ├─────────────────────────┼──────────────────────────────────────────┤
     │ Logic-Feeling §1.3b     │ DESCRIBES stable vs shifting arc.        │
-    │                         │ Shelf-life = f(arc stability). 1B trap.  │
+    │                         │ Shelf-life = f(arc stability). Self-Referencing Trap.  │
     ├─────────────────────────┼──────────────────────────────────────────┤
     │ ⭐ FILE NÀY             │ EXPLAINS WHY: dependency ratio →         │
     │ Collective-Arc-Dynamics │ shift speed → shelf-life. + Scale +      │
@@ -135,7 +136,7 @@ SCOPE OUT:
   ❌ Individual ↔ collective interaction → Collective-Body.md
   ❌ Cosmic loop WHY → Collective-Purpose.md
   ❌ Discovery/Expansion process → Discovery-vs-Expansion.md
-  ❌ 1B trap details → Logic-Feeling.md §1.3b
+  ❌ Self-Referencing Trap details → Logic-Feeling.md §3.2
   ❌ Education-job mismatch details → Expansion-Saturation-Crisis.md
 ```
 
@@ -355,7 +356,7 @@ SCOPE OUT:
       (vì coherence check VẪN PASS — compiled chunks vẫn match NHAU,
        chỉ không match current collective arc nữa)
 
-    → = 1B TRAP (Logic-Feeling §1.3b):
+    → = SELF-REFERENCING TRAP (Logic-Feeling §1.3b):
       Old compiled "smooth" (body vote positive) — vì chunks NỘI BỘ coherent.
       Nhưng collective arc ĐÃ SHIFT → patterns outdated ĐỐI VỚI COLLECTIVE.
       Body KHÔNG CÓ CÁCH biết → domain verify = ONLY protection.
@@ -366,7 +367,7 @@ SCOPE OUT:
 
 🟢 Body feedback system không encode source (neuroscience: reward/pain pathways same)
 🟡 "Body không phân biệt" leading to shelf-life implications = framework synthesis
-🟡 Connection to 1B trap = framework inference
+🟡 Connection to Self-Referencing Trap = framework inference
 ```
 
 ---
@@ -922,7 +923,7 @@ SCOPE OUT:
       → = 10% sai KHÔNG random — mà SYSTEMATIC ở collective-dependent
 
     ③ DUAL CHECK MAPPING:
-      → (Ask-AI.md v3.1: body = QC, domain = arbiter)
+      → (Ask-AI.md v3.1: body = quality controller, domain = arbiter)
       → Physics-dependent patterns: body check ĐỦ (vì physics stable = chunks stable)
       → Collective-dependent patterns: domain verify CẦN THIẾT hơn
         (vì collective CAN shift → body coherence check KHÔNG ĐỦ)
@@ -1018,8 +1019,8 @@ SCOPE OUT:
 
 ```
 → ⭐ Domain.md §2.1 — precision note "3 nguồn constraint" (SHORT, points HERE)
-→ ⭐ Logic-Feeling.md §1.3b — Compilation Shelf-Life (DESCRIBES stable vs shifting)
-→   File NÀY = EXPLAINS WHY. §1.3b = DESCRIBES WHAT.
+→ ⭐ Logic-Feeling.md §3.2 — Compilation Shelf-Life (DESCRIBES stable vs shifting)
+→   File NÀY = EXPLAINS WHY. §3.2 = DESCRIBES WHAT.
 → Knowledge-Flow.md §3 — Domain invariant, Schema variable (foundation)
 → Knowledge-Flow.md §4 — Optimization Override (overlaps §5 "true but unnecessary")
 → Knowledge-Flow.md §6 — Arc Wave pattern fractal (collective scale = this file §4)
@@ -1028,7 +1029,7 @@ SCOPE OUT:
 → Collective-Body.md §2.5 — Individual Detect Collective Gap (lifecycle, 5-step)
 → Collective-Body.md §3 — Where Long Chains Live (collective infrastructure)
 → Why-Body-Knows.md §1 — Coherence ≠ Truth. Body đúng ~90%.
-→ Why-Body-Knows.md §6 — Dual Check: body = QC, domain = arbiter
+→ Why-Body-Knows.md §6 — Dual Check: body = quality controller, domain = arbiter
 → Ask-AI.md v3.1 §6.1 — Dual Check protocol
 → Body-Feedback-Mechanism.md v2.0 — body register feedback giống nhau từ mọi nguồn
 → Expansion-Saturation-Crisis.md §2 — education-job mismatch (TEST CASE for §4-5)
@@ -1043,7 +1044,7 @@ SCOPE OUT:
 ## Collective-Arc × New Concepts (28-session Drill Propagation)
 
 ```
-BOND-ARCHITECTURE × ARC DYNAMICS (Bond-Architecture.md v1.0):
+BOND-ARCHITECTURE × ARC DYNAMICS (Bond-Architecture.md v2.0):
   → Arc dynamics vary by bond type:
     Identity bonds: SLOWEST arc shift (religion, nation → centuries)
     Reciprocal bonds: MODERATE (professional norms → decades)

@@ -22,7 +22,7 @@ position: Research/Health-Conditions/Hijack/ (cạnh Alcohol-Brain-Mechanism, Ad
 dependencies:
   - Addiction-Analysis.md v3.0 — overview, chunk-reward loop hijack
   - Dopamine-Is-Not-Reward.md v1.1 — 7-step, dopamine ≠ reward
-  - 03-Reward.md v1.1 — H10 5 preconditions, opioid = reward thật
+  - 03-Reward.md v1.1 — Body-Feedback-Precondition 5 preconditions, opioid = reward thật
   - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, 5 Profiles
   - Reward-Calibration.md v1.1 — Goldilocks, baseline shift
   - Cortisol-Baseline.md v2.0 — amplifier, stress→smoking loop
@@ -1063,7 +1063,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - [Addiction-Analysis.md v3.0](Addiction-Analysis.md) — chunk-reward loop hijack
 - [Alcohol-Brain-Mechanism.md v1.0](Alcohol-Brain-Mechanism.md) — template, 5-system comparison
 - [Dopamine-Is-Not-Reward.md v1.1](../../Core-Deep-Dive/Clarification/Dopamine-Is-Not-Reward.md) — 7-step, dopamine ≠ reward
-- [03-Reward.md v1.1](../../Core-Deep-Dive/Body-Base/Body-Feedback/03-Reward.md) — H10 preconditions
+- [03-Reward.md v1.1](../../Core-Deep-Dive/Body-Base/Body-Feedback/03-Reward.md) — Body-Feedback-Precondition preconditions
 - [Reward-Signal-Architecture.md v1.0](../../Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Signal-Architecture.md) — Evaluative/Direct-State, Profile ④ Relief
 - [Reward-Calibration.md v1.1](../../Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Calibration.md) — baseline shift
 - [Cortisol-Baseline.md v2.0](../../Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — amplifier, Source > Level

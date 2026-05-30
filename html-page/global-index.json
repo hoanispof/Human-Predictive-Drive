@@ -1,0 +1,3458 @@
+{
+  "meta": {
+    "totalFiles": 234,
+    "generatedDate": "2026-05-31",
+    "frameworkVersion": "v7.8",
+    "layers": {
+      "domains": [
+        {
+          "id": "ai-tech",
+          "label": "AI & Technology"
+        },
+        {
+          "id": "behavioral",
+          "label": "Behavioral Science"
+        },
+        {
+          "id": "clinical",
+          "label": "Health & Clinical"
+        },
+        {
+          "id": "core",
+          "label": "Core Architecture"
+        },
+        {
+          "id": "development",
+          "label": "Human Development"
+        },
+        {
+          "id": "education",
+          "label": "Education"
+        },
+        {
+          "id": "neuroscience",
+          "label": "Neuroscience"
+        },
+        {
+          "id": "philosophy",
+          "label": "Philosophy & Meta"
+        },
+        {
+          "id": "psychology",
+          "label": "Psychology"
+        },
+        {
+          "id": "social-collective",
+          "label": "Social & Collective"
+        }
+      ],
+      "areas": [
+        {
+          "id": "agent-mechanism",
+          "label": "Agent & Entity"
+        },
+        {
+          "id": "body-feedback",
+          "label": "Body-Feedback System"
+        },
+        {
+          "id": "child-development",
+          "label": "Child Development"
+        },
+        {
+          "id": "chunk-system",
+          "label": "Chunk System"
+        },
+        {
+          "id": "clarification",
+          "label": "Clarification"
+        },
+        {
+          "id": "collective",
+          "label": "Collective & Coordination"
+        },
+        {
+          "id": "core-foundation",
+          "label": "Core Foundation"
+        },
+        {
+          "id": "domain-theory",
+          "label": "Domain Theory"
+        },
+        {
+          "id": "education-app",
+          "label": "Education Applications"
+        },
+        {
+          "id": "feeling-system",
+          "label": "Feeling System"
+        },
+        {
+          "id": "global-analysis",
+          "label": "Global & Economic Analysis"
+        },
+        {
+          "id": "health-conditions",
+          "label": "Health Conditions"
+        },
+        {
+          "id": "melody-lens",
+          "label": "Melody Lens"
+        },
+        {
+          "id": "meta-epistemology",
+          "label": "Meta & Epistemology"
+        },
+        {
+          "id": "observation-params",
+          "label": "Observation Parameters"
+        },
+        {
+          "id": "pfc-system",
+          "label": "PFC & Simulation"
+        },
+        {
+          "id": "reference-tools",
+          "label": "Reference & Tools"
+        },
+        {
+          "id": "schema-anchor",
+          "label": "Schema & Anchor"
+        }
+      ],
+      "contentTypes": [
+        {
+          "id": "analysis",
+          "label": "Analysis"
+        },
+        {
+          "id": "drill",
+          "label": "Drill & Deep Dive"
+        },
+        {
+          "id": "mechanism",
+          "label": "Mechanism"
+        },
+        {
+          "id": "observation",
+          "label": "Observation"
+        },
+        {
+          "id": "overview",
+          "label": "Overview & Synthesis"
+        },
+        {
+          "id": "practical",
+          "label": "Practical Guide"
+        },
+        {
+          "id": "reference",
+          "label": "Reference"
+        }
+      ]
+    },
+    "folderOrder": [
+      "Core-Deep-Dive",
+      "Research",
+      "Applications"
+    ],
+    "collapsedFolders": [
+      "Applications",
+      "Drill*"
+    ]
+  },
+  "files": [
+    {
+      "id": "00-parameter-overview",
+      "fileName": "00-Parameter-Overview.md",
+      "path": "00-Parameter-Overview.md",
+      "domains": [
+        "core"
+      ],
+      "area": "core-foundation",
+      "contentType": "overview",
+      "shortDescription": "QUICK REFERENCE: Parameter map — observation parameters + mechanisms at a glance",
+      "fullDescription": ""
+    },
+    {
+      "id": "ask-ai",
+      "fileName": "Ask-AI.md",
+      "path": "Ask-AI.md",
+      "domains": [
+        "core",
+        "ai-tech"
+      ],
+      "area": "core-foundation",
+      "contentType": "reference",
+      "shortDescription": "AI INTERFACE: Protocol for using AI to explore the framework",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-hardware",
+      "fileName": "Core-Hardware.md",
+      "path": "Core-Hardware.md",
+      "domains": [
+        "core"
+      ],
+      "area": "core-foundation",
+      "contentType": "overview",
+      "shortDescription": "HARDWARE MAP: Physical brain architecture — 4 zones (PFC/Cortical/Subcortical/Peripheral), neural pathways, receptor",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-software",
+      "fileName": "Core-Software.md",
+      "path": "Core-Software.md",
+      "domains": [
+        "core"
+      ],
+      "area": "core-foundation",
+      "contentType": "overview",
+      "shortDescription": "SOFTWARE MAP: Cycle-based operating mechanisms — the main loop (Domain→Body-Input→Processing→Feeling→PFC→Output→Domain)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-auditory-hardware",
+      "fileName": "Auditory-Hardware.md",
+      "path": "Core-Deep-Dive/Auditory-Hardware.md",
+      "domains": [
+        "core",
+        "philosophy"
+      ],
+      "area": "core-foundation",
+      "contentType": "mechanism",
+      "shortDescription": "WHY auditory = kênh hardware DUY NHẤT ảnh hưởng mọi tham số",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-blackbox-map",
+      "fileName": "Blackbox-Map.md",
+      "path": "Core-Deep-Dive/Blackbox-Map.md",
+      "domains": [
+        "core",
+        "ai-tech",
+        "development"
+      ],
+      "area": "core-foundation",
+      "contentType": "mechanism",
+      "shortDescription": "Bản đồ vùng chưa biết — 5-Layer Gap Analysis (computer analogy)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-base",
+      "fileName": "Body-Base.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Base.md",
+      "domains": [
+        "core",
+        "psychology"
+      ],
+      "area": "core-foundation",
+      "contentType": "mechanism",
+      "shortDescription": "Body-Base system",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-coupling",
+      "fileName": "Body-Coupling.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Coupling.md",
+      "domains": [
+        "core",
+        "psychology"
+      ],
+      "area": "core-foundation",
+      "contentType": "mechanism",
+      "shortDescription": "MECHANISM file — HOW body deeply couples với entity",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-action-space",
+      "fileName": "Action-Space.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Action-Space.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development"
+      ],
+      "area": "body-feedback",
+      "contentType": "mechanism",
+      "shortDescription": "Per-person SUPPLY-SIDE capability landscape observation",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-body-feedback-label",
+      "fileName": "Body-Feedback-Label.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Label.md",
+      "domains": [
+        "core",
+        "neuroscience"
+      ],
+      "area": "body-feedback",
+      "contentType": "reference",
+      "shortDescription": "VOCABULARY REFERENCE — MUST-READ ngay sau Body-Feedback.md",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-body-feedback-mechanism",
+      "fileName": "Body-Feedback-Mechanism.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Mechanism.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development",
+        "clinical"
+      ],
+      "area": "body-feedback",
+      "contentType": "mechanism",
+      "shortDescription": "Body-Need (2-source aggregate: hardware + chunk dynamics)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-body-feedback-precondition",
+      "fileName": "Body-Feedback-Precondition.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Precondition.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development"
+      ],
+      "area": "body-feedback",
+      "contentType": "mechanism",
+      "shortDescription": "WHEN body-feedback signal fires",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-body-feedback",
+      "fileName": "Body-Feedback.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development"
+      ],
+      "area": "body-feedback",
+      "contentType": "mechanism",
+      "shortDescription": "synthesis folder: unified model body signal = function of 5 preconditions (Body-Feedback-Precondition) trên interface",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-dissonance-signal-architecture",
+      "fileName": "Dissonance-Signal-Architecture.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Dissonance-Signal-Architecture.md",
+      "domains": [
+        "core",
+        "neuroscience"
+      ],
+      "area": "body-feedback",
+      "contentType": "mechanism",
+      "shortDescription": "COMPLEMENT 02-Dissonance: WHAT KINDS dissonance exist + HOW differ",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-drill-body-feedback-01-foundation",
+      "fileName": "01-Foundation.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Drill-Body-Feedback/01-Foundation.md",
+      "domains": [
+        "core",
+        "neuroscience"
+      ],
+      "area": "body-feedback",
+      "contentType": "drill",
+      "shortDescription": "Foundation drill: Dual-Pull (Hardware + Domain kéo schema 2 hướng) + Interface Loop 6-step (Domain↔body↔schema↔action)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-drill-body-feedback-02-dissonance",
+      "fileName": "02-Dissonance.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Drill-Body-Feedback/02-Dissonance.md",
+      "domains": [
+        "core",
+        "neuroscience"
+      ],
+      "area": "body-feedback",
+      "contentType": "drill",
+      "shortDescription": "Decode full dissonance spectrum: 14 intensity levels × 6 source types",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-drill-body-feedback-03-reward",
+      "fileName": "03-Reward.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Drill-Body-Feedback/03-Reward.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development"
+      ],
+      "area": "body-feedback",
+      "contentType": "drill",
+      "shortDescription": "Reward = 2-level: Dopamine VTA (chuông cửa — salience) vs Opioid (quà thật — body-need match)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-drill-body-feedback-04-integration",
+      "fileName": "04-Integration.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Drill-Body-Feedback/04-Integration.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "philosophy",
+        "development"
+      ],
+      "area": "body-feedback",
+      "contentType": "drill",
+      "shortDescription": "Weave P1-P3 vào unified running cycle: interface loop formal model + Imagine-Final role + Anchor-Schema role +",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-drill-evolutionary-sensor-architecture",
+      "fileName": "Drill-Evolutionary-Sensor-Architecture.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Drill-Evolutionary-Sensor-Architecture.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development"
+      ],
+      "area": "body-feedback",
+      "contentType": "drill",
+      "shortDescription": "DRILL v1.0: First-principles WHY body-feedback architecture PHẢI như vậy",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-gap-body-need",
+      "fileName": "Gap-Body-Need.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Gap-Body-Need.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development",
+        "social-collective"
+      ],
+      "area": "body-feedback",
+      "contentType": "mechanism",
+      "shortDescription": "Per-gap DYNAMICS — how different gaps consume, compete, and lifecycle",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-gap-direction",
+      "fileName": "Gap-Direction.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Gap-Direction.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development",
+        "clinical"
+      ],
+      "area": "body-feedback",
+      "contentType": "mechanism",
+      "shortDescription": "Gap = f(surrounding chunks)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-gap-distribution-profile",
+      "fileName": "Gap-Distribution-Profile.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Gap-Distribution-Profile.md",
+      "domains": [
+        "core",
+        "neuroscience"
+      ],
+      "area": "body-feedback",
+      "contentType": "mechanism",
+      "shortDescription": "Per-person gap landscape AGGREGATE observation",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-hidden-quality-perception",
+      "fileName": "Hidden-Quality-Perception.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Hidden-Quality-Perception.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "ai-tech"
+      ],
+      "area": "body-feedback",
+      "contentType": "mechanism",
+      "shortDescription": "MECHANISM FILE — \"Mặt lưng cái tủ.\" Compilation depth determines quality visibility: chunks about quality X = ∅ → gap",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-reward-calibration",
+      "fileName": "Reward-Calibration.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Calibration.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development",
+        "social-collective"
+      ],
+      "area": "body-feedback",
+      "contentType": "mechanism",
+      "shortDescription": "OBSERVATION FILE: BAO NHIÊU reward là ENOUGH cho gap NÀO, người NÀO, context NÀO?",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-body-feedback-reward-signal-architecture",
+      "fileName": "Reward-Signal-Architecture.md",
+      "path": "Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Signal-Architecture.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development"
+      ],
+      "area": "body-feedback",
+      "contentType": "mechanism",
+      "shortDescription": "COMPLEMENT 03-Reward: WHAT KINDS reward exist + HOW interact",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-agent-mechanism-agent-mechanism",
+      "fileName": "Agent-Mechanism.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/Agent-Mechanism.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "agent-mechanism",
+      "contentType": "mechanism",
+      "shortDescription": "Integration hub cho Agent MECHANISM",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-agent-mechanism-bond-architecture",
+      "fileName": "Bond-Architecture.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/Bond-Architecture.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "agent-mechanism",
+      "contentType": "mechanism",
+      "shortDescription": "Entity-Compiled = 1 mechanism × nhiều configurations (5 nghiên cứu hội tụ)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-agent-mechanism-by-product-gap-resonance",
+      "fileName": "By-Product-Gap-Resonance.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/By-Product-Gap-Resonance.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "agent-mechanism",
+      "contentType": "mechanism",
+      "shortDescription": "Resonance Core = by-product match ở OUTPUT (vs Enhancers ở INPUT)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-agent-mechanism-by-product-scale",
+      "fileName": "By-Product-Scale.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/By-Product-Scale.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "agent-mechanism",
+      "contentType": "mechanism",
+      "shortDescription": "Mechanism × 3 Scales (Pair / Hub / Institutional)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-agent-mechanism-entity-access-calibration",
+      "fileName": "Entity-Access-Calibration.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/Entity-Access-Calibration.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology"
+      ],
+      "area": "agent-mechanism",
+      "contentType": "mechanism",
+      "shortDescription": "HOW entity-access self-regulates",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-agent-mechanism-entity-access-excess",
+      "fileName": "Entity-Access-Excess.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/Entity-Access-Excess.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development",
+        "clinical"
+      ],
+      "area": "agent-mechanism",
+      "contentType": "mechanism",
+      "shortDescription": "EXCESS TERRITORY trên Entity-Access Gradient (Mức 5)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-agent-mechanism-entity-access",
+      "fileName": "Entity-Access.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/Entity-Access.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "agent-mechanism",
+      "contentType": "mechanism",
+      "shortDescription": "GRADIENT MODEL — Brain builds predictive access-relationship with entity for gap-filling",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-agent-mechanism-entity-compiled",
+      "fileName": "Entity-Compiled.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/Entity-Compiled.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "agent-mechanism",
+      "contentType": "mechanism",
+      "shortDescription": "DEEP MECHANISM — Brain compile agent vào body-base ở STRUCTURAL level",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-agent-mechanism-resonance-per-entity",
+      "fileName": "Resonance-Per-Entity.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/Resonance-Per-Entity.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "agent-mechanism",
+      "contentType": "mechanism",
+      "shortDescription": "Per-entity resonance dynamics — CÙNG mechanism KHÁC dynamics per relationship type",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-agent-mechanism-resonance-sustainability",
+      "fileName": "Resonance-Sustainability.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/Resonance-Sustainability.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "agent-mechanism",
+      "contentType": "mechanism",
+      "shortDescription": "WHAT CONDITIONS predict sustained vs decaying resonance",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-agent-mechanism-self-pattern-modeling",
+      "fileName": "Self-Pattern-Modeling.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/Self-Pattern-Modeling.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "agent-mechanism",
+      "contentType": "mechanism",
+      "shortDescription": "Match→Modeling (Self-Pattern-Modeling giữ nguyên)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-background-pattern",
+      "fileName": "Background-Pattern.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Background-Pattern.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology"
+      ],
+      "area": "chunk-system",
+      "contentType": "mechanism",
+      "shortDescription": "Background-Pattern = accumulated chunk bias invisible to PFC",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-chunk",
+      "fileName": "Chunk.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Chunk.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "mechanism",
+      "shortDescription": "CORE REFERENCE cho toàn bộ chunk system",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-compile-taxonomy",
+      "fileName": "Compile-Taxonomy.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Compile-Taxonomy.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "mechanism",
+      "shortDescription": "Compile Types (Experience/Expertise/Trust)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-09-learning-cycle",
+      "fileName": "09-Learning-Cycle.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/09-Learning-Cycle.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "education",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Learning-Dissonance-Cycle: learning = chu kỳ (không phải event)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-99-master-synthesis",
+      "fileName": "99-Master-Synthesis.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/99-Master-Synthesis.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology"
+      ],
+      "area": "chunk-system",
+      "contentType": "overview",
+      "shortDescription": "Final synthesis của toàn bộ Chunk-Analysis project (33+ files, ~43,000L)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-child-chunk-development-09-event-chunks-inference-matrix",
+      "fileName": "09-Event-Chunks-Inference-Matrix.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Child-Chunk-Development/09-Event-Chunks-Inference-Matrix.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "overview",
+      "shortDescription": "Aggregation reference: master matrix tất cả events từ 03-08 organized theo body-input / ladder level / nút thắt",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-child-chunk-development-10-f1-synthesis",
+      "fileName": "10-F1-Synthesis.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Child-Chunk-Development/10-F1-Synthesis.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "overview",
+      "shortDescription": "Commitment file F1: 7 Nút Thắt final verdicts + Chunk-Substrate/Receptive-Productive-Asymmetry formal statements +",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-child-chunk-development-foundation-00-chunk-system-sketch",
+      "fileName": "00-Chunk-System-Sketch.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Child-Chunk-Development/Foundation/00-Chunk-System-Sketch.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "overview",
+      "shortDescription": "READ FIRST: Orientation file — 3-layer architecture (Body-Feedback L1 / Chunk L2 / Feeling L3) + 4-folder mechanism",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-child-chunk-development-foundation-01-pfc-hardware-reframe",
+      "fileName": "01-PFC-Hardware-Reframe.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Child-Chunk-Development/Foundation/01-PFC-Hardware-Reframe.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "FOUNDATION: PFC hardware ONLINE từ prenatal",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-child-chunk-development-foundation-02-womb-to-birth-baseline",
+      "fileName": "02-Womb-to-Birth-Baseline.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Child-Chunk-Development/Foundation/02-Womb-to-Birth-Baseline.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "philosophy",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "BASELINE: Womb ≈ homeostatic smooth (không phải \"PFC inactive\")",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-child-chunk-development-modality-arcs-03-visual-system-arc",
+      "fileName": "03-Visual-System-Arc.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Child-Chunk-Development/Modality-Arcs/03-Visual-System-Arc.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Visual: 3 phases (Connect/Read/Control) từ birth → 24mo",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-child-chunk-development-modality-arcs-04-auditory-system-arc",
+      "fileName": "04-Auditory-System-Arc.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Child-Chunk-Development/Modality-Arcs/04-Auditory-System-Arc.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "philosophy",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Auditory: DUY NHẤT arc compile TRƯỚC SINH (26 weeks)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-child-chunk-development-modality-arcs-05-motor-output-arc",
+      "fileName": "05-Motor-Output-Arc.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Child-Chunk-Development/Modality-Arcs/05-Motor-Output-Arc.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Motor: 2 arcs (hand fine motor + locomotion)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-child-chunk-development-modality-arcs-06a-interoceptive-bladder-keystone",
+      "fileName": "06a-Interoceptive-Bladder-Keystone.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Child-Chunk-Development/Modality-Arcs/06a-Interoceptive-Bladder-Keystone.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "F1 anchor case: bladder = cleanest L0→L4 traversal",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-child-chunk-development-modality-arcs-06b-interoceptive-other-states",
+      "fileName": "06b-Interoceptive-Other-States.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Child-Chunk-Development/Modality-Arcs/06b-Interoceptive-Other-States.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "philosophy",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Cross-state comparison: hunger/pain/thermal/emotional áp dụng 06a methodology",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-child-chunk-development-modality-arcs-07-social-recognition-arc",
+      "fileName": "07-Social-Recognition-Arc.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Child-Chunk-Development/Modality-Arcs/07-Social-Recognition-Arc.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Social = inherently multi-modal",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-child-chunk-development-modality-arcs-08-verbal-production-arc",
+      "fileName": "08-Verbal-Production-Arc.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Child-Chunk-Development/Modality-Arcs/08-Verbal-Production-Arc.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Primary home: Receptive-Productive-Asymmetry (7 converging lines → ratio 1:3, productive bundle ≈ 3× receptive)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-external-development-00-external-mechanism",
+      "fileName": "00-External-Mechanism.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-External-Development/00-External-Mechanism.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "education"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Core F3: 5 cơ chế external install chunks vào cá nhân (imitation/language/co-attention/cultural transmission/abstract",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-external-development-01-external-synthesis",
+      "fileName": "01-External-Synthesis.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-External-Development/01-External-Synthesis.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "philosophy",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "overview",
+      "shortDescription": "Commitment file F3: verdicts 4 hypotheses",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-external-development-02-cross-network-transfer",
+      "fileName": "02-Cross-Network-Transfer.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-External-Development/02-Cross-Network-Transfer.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "STRATEGY LAYER: HOW to optimize transfer khi sender ≠ receiver chunk landscape",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-external-development-language-structure-analysis-01-natural-language-architecture",
+      "fileName": "01-Natural-Language-Architecture.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-External-Development/Language-Structure-Analysis/01-Natural-Language-Architecture.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Reference: \"mổ xẻ\" cấu trúc ngôn ngữ tự nhiên (Việt/Anh/Trung)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-external-development-language-structure-analysis-02-mathematical-language-architecture",
+      "fileName": "02-Mathematical-Language-Architecture.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-External-Development/Language-Structure-Analysis/02-Mathematical-Language-Architecture.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Reference: toán = communication format với \"từ vựng\" (ký hiệu) + \"ngữ pháp\" (thứ tự phép toán) + hierarchy riêng",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-external-development-language-structure-analysis-03-musical-notation-architecture",
+      "fileName": "03-Musical-Notation-Architecture.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-External-Development/Language-Structure-Analysis/03-Musical-Notation-Architecture.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "philosophy"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Reference: music notation encode temporal-affective patterns — thứ natural language và math KHÔNG encode được",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-external-development-language-structure-analysis-04-visual-diagram-architecture",
+      "fileName": "04-Visual-Diagram-Architecture.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-External-Development/Language-Structure-Analysis/04-Visual-Diagram-Architecture.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Reference: visual/diagram encode spatial relationships + simultaneous overview — \"1 hình = 1,000 chữ\" có cơ sở cơ chế",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-external-development-language-structure-analysis-05-programming-language-architecture",
+      "fileName": "05-Programming-Language-Architecture.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-External-Development/Language-Structure-Analysis/05-Programming-Language-Architecture.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Reference: code = communication format DUY NHẤT executable (machine thực thi được)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-internal-processing-00-internal-mechanism-overview",
+      "fileName": "00-Internal-Mechanism-Overview.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-Internal-Processing/00-Internal-Mechanism-Overview.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology"
+      ],
+      "area": "chunk-system",
+      "contentType": "overview",
+      "shortDescription": "Sketch toàn cảnh F4 territory + phân định boundary F3 (external install) vs F4 (internal transform)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-internal-processing-01-chunk-connection-logical",
+      "fileName": "01-Chunk-Connection-Logical.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-Internal-Processing/01-Chunk-Connection-Logical.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Static-Logical-Linking test: PFC hold 2 chunks → body vote connection có phải Type 4 DISTINCT?",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-internal-processing-01b-chunk-activation-dynamics",
+      "fileName": "01b-Chunk-Activation-Dynamics.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-Internal-Processing/01b-Chunk-Activation-Dynamics.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "3 core mechanisms cross-cutting toàn framework: ① xác suất activation (không binary) ② competitive re-linking (links",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-internal-processing-01c-chunk-discovery-lifecycle",
+      "fileName": "01c-Chunk-Discovery-Lifecycle.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-Internal-Processing/01c-Chunk-Discovery-Lifecycle.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Macro lifecycle hệ thống: Accumulate → Vague → Curiosity → Clarify → Label → Logic-Planning → Repeat",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-internal-processing-02-feeling-intuition-gradient",
+      "fileName": "02-Feeling-Intuition-Gradient.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-Internal-Processing/02-Feeling-Intuition-Gradient.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Multi-Weak-Signal-Convergence: Spectrum feeling → intuition → hunch",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-internal-processing-03-chain-anchor-decay",
+      "fileName": "03-Chain-Anchor-Decay.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-Internal-Processing/03-Chain-Anchor-Decay.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Anchor-Decay: Chunks cần anchor để không decay",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-internal-processing-04-right-wrong-vague",
+      "fileName": "04-Right-Wrong-Vague.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-Internal-Processing/04-Right-Wrong-Vague.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "ai-tech",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "drill",
+      "shortDescription": "Cơ chế \"có gì đó không đúng\": ACC detect conflict signals mà PFC không biết nguồn",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-internal-processing-05-insight-tacit-upgrade",
+      "fileName": "05-Insight-Tacit-Upgrade.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-Internal-Processing/05-Insight-Tacit-Upgrade.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "overview",
+      "shortDescription": "Merge 3 threads: Aha/Insight (Type 2 connection → chunk mới, gamma burst) + Tacit knowledge (Polanyi: \"biết hơn nói",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-chunk-internal-processing-06-internal-synthesis",
+      "fileName": "06-Internal-Synthesis.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Chunk-Internal-Processing/06-Internal-Synthesis.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "development"
+      ],
+      "area": "chunk-system",
+      "contentType": "overview",
+      "shortDescription": "Commitment file F4: verdicts 4 hypotheses (Static-Logical-Linking/Multi-Weak-Signal-Convergence/Anchor-Decay/Gap2-Langua",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-cortisol-baseline",
+      "fileName": "Cortisol-Baseline.md",
+      "path": "Core-Deep-Dive/Body-Base/Cortisol-Baseline.md",
+      "domains": [
+        "core",
+        "development"
+      ],
+      "area": "core-foundation",
+      "contentType": "mechanism",
+      "shortDescription": "Cortisol = change-readiness amplifier",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-entity-valence-dynamics",
+      "fileName": "Entity-Valence-Dynamics.md",
+      "path": "Core-Deep-Dive/Body-Base/Entity-Valence-Dynamics.md",
+      "domains": [
+        "core",
+        "development"
+      ],
+      "area": "core-foundation",
+      "contentType": "mechanism",
+      "shortDescription": "from Valence-Propagation v3.0 §3-§13 + 3 Drill GAPs)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-body-knowing",
+      "fileName": "Body-Knowing.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Body-Knowing.md",
+      "domains": [
+        "core",
+        "psychology"
+      ],
+      "area": "feeling-system",
+      "contentType": "mechanism",
+      "shortDescription": "Body-Knowing = compiled chunks + body signal → PFC encode → \"biết mà không cần giải thích.\" FUNCTION của Feeling system",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-drill-feeling-dev-feel-development",
+      "fileName": "Feel-Development.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Drill-Feeling-Dev/Feel-Development.md",
+      "domains": [
+        "core",
+        "psychology"
+      ],
+      "area": "feeling-system",
+      "contentType": "drill",
+      "shortDescription": "OUTLINE Phase 4 pending: synthesis file sẽ tích hợp Feeling definition mở rộng + 5-axis development model +",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-drill-feeling-dev-feel-example-draft",
+      "fileName": "Feel-Example-Draft.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Drill-Feeling-Dev/Feel-Example-Draft.md",
+      "domains": [
+        "core",
+        "psychology"
+      ],
+      "area": "feeling-system",
+      "contentType": "drill",
+      "shortDescription": "COMPLETE: 124 examples trajectory từ newborn crude distress → existential adult → adult drive compounds (E1-E124)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-drill-feeling-knowning-00-reading-notes",
+      "fileName": "00-Reading-Notes.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Drill-Feeling-Knowning/00-Reading-Notes.md",
+      "domains": [
+        "core",
+        "psychology"
+      ],
+      "area": "feeling-system",
+      "contentType": "overview",
+      "shortDescription": "Raw material (~1,871L): notes chi tiết từ re-read toàn bộ Feeling files + cross-theme mapping",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-drill-feeling-knowning-01-theme-a-architecture",
+      "fileName": "01-Theme-A-Architecture.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Drill-Feeling-Knowning/01-Theme-A-Architecture.md",
+      "domains": [
+        "core",
+        "psychology",
+        "development"
+      ],
+      "area": "feeling-system",
+      "contentType": "drill",
+      "shortDescription": "Meta-frame theme: \"Feeling có thuần body-base không?\" → NO: framework tự evolve → Feeling = PFC observation của",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-drill-feeling-knowning-02-theme-d-right-wrong",
+      "fileName": "02-Theme-D-Right-Wrong.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Drill-Feeling-Knowning/02-Theme-D-Right-Wrong.md",
+      "domains": [
+        "core",
+        "psychology",
+        "ai-tech",
+        "development"
+      ],
+      "area": "feeling-system",
+      "contentType": "drill",
+      "shortDescription": "Test case cho Theme A: cơ chế \"cảm nhận có gì đó không đúng.\" 8 sub-questions từ Einstein physics / trẻ em",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-drill-feeling-knowning-03-theme-b-verbal-chain",
+      "fileName": "03-Theme-B-Verbal-Chain.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Drill-Feeling-Knowning/03-Theme-B-Verbal-Chain.md",
+      "domains": [
+        "core",
+        "psychology",
+        "development"
+      ],
+      "area": "feeling-system",
+      "contentType": "drill",
+      "shortDescription": "Branch theme MEDIUM confidence: verbal brain regions + chain capability + user hypothesis (chunks trước, anchors enable",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-drill-feeling-knowning-04-theme-c-ritual",
+      "fileName": "04-Theme-C-Ritual.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Drill-Feeling-Knowning/04-Theme-C-Ritual.md",
+      "domains": [
+        "core",
+        "psychology"
+      ],
+      "area": "feeling-system",
+      "contentType": "drill",
+      "shortDescription": "Builds on Theme B: Ritual = non-verbal chain anchoring mechanism (Candidate 3 validated)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-drill-feeling-knowning-05-theme-e-empathy-giving",
+      "fileName": "05-Theme-E-Empathy-Giving.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Drill-Feeling-Knowning/05-Theme-E-Empathy-Giving.md",
+      "domains": [
+        "core",
+        "psychology",
+        "development"
+      ],
+      "area": "feeling-system",
+      "contentType": "drill",
+      "shortDescription": "Most complex theme (largest scope): Empathy reframe via Resonance + thiện cảm mechanism (schema overlap trigger) +",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-drill-feeling-knowning-06-theme-f-logic-feeling-check",
+      "fileName": "06-Theme-F-Logic-Feeling-Check.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Drill-Feeling-Knowning/06-Theme-F-Logic-Feeling-Check.md",
+      "domains": [
+        "core",
+        "psychology",
+        "development"
+      ],
+      "area": "feeling-system",
+      "contentType": "drill",
+      "shortDescription": "Integration check: verify Logic-Feeling.md (1762L) consistent với Themes A-E conclusions",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-drill-feeling-knowning-99-overview-synthesis",
+      "fileName": "99-Overview-Synthesis.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Drill-Feeling-Knowning/99-Overview-Synthesis.md",
+      "domains": [
+        "core",
+        "psychology",
+        "development"
+      ],
+      "area": "feeling-system",
+      "contentType": "overview",
+      "shortDescription": "Session culmination: tổng hợp 40+ sub-questions across 6 themes, core architectural commitment locked, 6 key surprises",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-feeling-accuracy-draft",
+      "fileName": "Feeling-Accuracy-Draft.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Feeling-Accuracy-Draft.md",
+      "domains": [
+        "core",
+        "psychology",
+        "development"
+      ],
+      "area": "feeling-system",
+      "contentType": "mechanism",
+      "shortDescription": "HOW PFC đọc feelings + 6 error modes có predictable patterns (misattribution/alexithymia/temporal confusion...)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-feeling-chunk-bridge-draft",
+      "fileName": "Feeling-Chunk-Bridge-Draft.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Feeling-Chunk-Bridge-Draft.md",
+      "domains": [
+        "core",
+        "psychology",
+        "development"
+      ],
+      "area": "feeling-system",
+      "contentType": "mechanism",
+      "shortDescription": "Bridge file kết nối 2 hệ thống: chunk operations → feeling layers (production) + feeling states → chunk processing",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-feeling-literacy-training-draft",
+      "fileName": "Feeling-Literacy-Training-Draft.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Feeling-Literacy-Training-Draft.md",
+      "domains": [
+        "core",
+        "psychology",
+        "development"
+      ],
+      "area": "feeling-system",
+      "contentType": "mechanism",
+      "shortDescription": "HOW training thay đổi chunk system",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-feeling-mechanism-deep-draft",
+      "fileName": "Feeling-Mechanism-Deep-Draft.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Feeling-Mechanism-Deep-Draft.md",
+      "domains": [
+        "core",
+        "psychology"
+      ],
+      "area": "feeling-system",
+      "contentType": "mechanism",
+      "shortDescription": "HOW body signals trở thành felt experience end-to-end: body fire → integrate → threshold → PFC observe → match chunks →",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-feeling-research",
+      "fileName": "Feeling-Research.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Feeling-Research.md",
+      "domains": [
+        "core",
+        "psychology",
+        "education"
+      ],
+      "area": "feeling-system",
+      "contentType": "mechanism",
+      "shortDescription": "Research foundation: Damasio / Gendlin / Craig / Panksepp / Kahneman / Barrett / Gallese",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-feeling-sources-draft",
+      "fileName": "Feeling-Sources-Draft.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Feeling-Sources-Draft.md",
+      "domains": [
+        "core",
+        "psychology",
+        "development"
+      ],
+      "area": "feeling-system",
+      "contentType": "mechanism",
+      "shortDescription": "MAP 10+ body channels → feelings chúng produce (50+ examples)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-feeling-feeling",
+      "fileName": "Feeling.md",
+      "path": "Core-Deep-Dive/Body-Base/Feeling/Feeling.md",
+      "domains": [
+        "core",
+        "psychology",
+        "development",
+        "clinical"
+      ],
+      "area": "feeling-system",
+      "contentType": "mechanism",
+      "shortDescription": "Feeling = PFC observation body-chunk interaction",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-inter-body-mechanism",
+      "fileName": "Inter-Body-Mechanism.md",
+      "path": "Core-Deep-Dive/Body-Base/Inter-Body-Mechanism.md",
+      "domains": [
+        "core",
+        "psychology"
+      ],
+      "area": "core-foundation",
+      "contentType": "mechanism",
+      "shortDescription": "SOURCE-OF-TRUTH inter-body architecture",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-melody-lens-global-melody",
+      "fileName": "Global-Melody.md",
+      "path": "Core-Deep-Dive/Body-Base/Melody Lens/Global-Melody.md",
+      "domains": [
+        "psychology",
+        "philosophy",
+        "social-collective"
+      ],
+      "area": "melody-lens",
+      "contentType": "mechanism",
+      "shortDescription": "Melodies tương tác khi nhiều người cùng tồn tại: group → culture → global → domain",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-melody-lens-melody-arc",
+      "fileName": "Melody-Arc.md",
+      "path": "Core-Deep-Dive/Body-Base/Melody Lens/Melody-Arc.md",
+      "domains": [
+        "psychology",
+        "philosophy",
+        "development"
+      ],
+      "area": "melody-lens",
+      "contentType": "mechanism",
+      "shortDescription": "Chu kỳ build: dissonance → compile → melody upgrade",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-melody-lens-personal-melody-example",
+      "fileName": "Personal-Melody-Example.md",
+      "path": "Core-Deep-Dive/Body-Base/Melody Lens/Personal-Melody-Example.md",
+      "domains": [
+        "psychology",
+        "ai-tech",
+        "philosophy"
+      ],
+      "area": "melody-lens",
+      "contentType": "mechanism",
+      "shortDescription": "3 profiles trajectory phổ biến nhất (Center thuận lợi / Edge builder / Rebuild sau đổ vỡ), annotated bằng observation",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-melody-lens-personal-melody",
+      "fileName": "Personal-Melody.md",
+      "path": "Core-Deep-Dive/Body-Base/Melody Lens/Personal-Melody.md",
+      "domains": [
+        "psychology",
+        "philosophy"
+      ],
+      "area": "melody-lens",
+      "contentType": "mechanism",
+      "shortDescription": "Metaphor chủ đạo của Melody Lens: mỗi người = 1 bài nhạc = emergent state của toàn bộ chunk network đang chạy đồng thời",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-schema-anchor-schema-example",
+      "fileName": "Anchor-Schema-Example.md",
+      "path": "Core-Deep-Dive/Body-Base/Schema/Anchor-Schema-Example.md",
+      "domains": [
+        "core",
+        "psychology"
+      ],
+      "area": "schema-anchor",
+      "contentType": "mechanism",
+      "shortDescription": "24 ví dụ healthy trên phổ Micro→Short→Daily→Long→eXtreme",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-schema-anchor-schema-extreme-example",
+      "fileName": "Anchor-Schema-Extreme-Example.md",
+      "path": "Core-Deep-Dive/Body-Base/Schema/Anchor-Schema-Extreme-Example.md",
+      "domains": [
+        "core",
+        "psychology"
+      ],
+      "area": "schema-anchor",
+      "contentType": "mechanism",
+      "shortDescription": "Failure mode OVER: anchor quá mạnh + skip domain check → harm thật nhưng body KHÔNG warning",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-schema-anchor-schema",
+      "fileName": "Anchor-Schema.md",
+      "path": "Core-Deep-Dive/Body-Base/Schema/Anchor-Schema.md",
+      "domains": [
+        "core",
+        "psychology"
+      ],
+      "area": "schema-anchor",
+      "contentType": "mechanism",
+      "shortDescription": "Sync point mà vô thức cần để đồng bộ toàn hệ thống (\"dàn nhạc cần nhạc trưởng\")",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-schema-schema",
+      "fileName": "Schema.md",
+      "path": "Core-Deep-Dive/Body-Base/Schema/Schema.md",
+      "domains": [
+        "core",
+        "psychology"
+      ],
+      "area": "schema-anchor",
+      "contentType": "mechanism",
+      "shortDescription": "Schema reframed: KHÔNG phải component kiến trúc mà là observation parameter (named chunk-network pattern)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-valence-propagation",
+      "fileName": "Valence-Propagation.md",
+      "path": "Core-Deep-Dive/Body-Base/Valence-Propagation.md",
+      "domains": [
+        "core"
+      ],
+      "area": "core-foundation",
+      "contentType": "mechanism",
+      "shortDescription": "trụ: WHAT valence is (§1-§2) + HOW valence forms and propagates (§3-§7)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-body-base-why-body-knows",
+      "fileName": "Why-Body-Knows.md",
+      "path": "Core-Deep-Dive/Body-Base/Why-Body-Knows.md",
+      "domains": [
+        "core"
+      ],
+      "area": "core-foundation",
+      "contentType": "mechanism",
+      "shortDescription": "Meta-question nền tảng: tại sao body check đáng tin?",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-clarification-cortisol-amplifier-not-cause",
+      "fileName": "Cortisol-Amplifier-Not-Cause.md",
+      "path": "Core-Deep-Dive/Clarification/Cortisol-Amplifier-Not-Cause.md",
+      "domains": [
+        "neuroscience"
+      ],
+      "area": "clarification",
+      "contentType": "mechanism",
+      "shortDescription": "Clarify: cortisol ≠ \"stress hormone\" (pop science sai)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-clarification-dopamine-is-not-reward",
+      "fileName": "Dopamine-Is-Not-Reward.md",
+      "path": "Core-Deep-Dive/Clarification/Dopamine-Is-Not-Reward.md",
+      "domains": [
+        "neuroscience",
+        "development"
+      ],
+      "area": "clarification",
+      "contentType": "mechanism",
+      "shortDescription": "Dopamine ≠ reward",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-clarification-mirror-neuron-rejection",
+      "fileName": "Mirror-Neuron-Rejection.md",
+      "path": "Core-Deep-Dive/Clarification/Mirror-Neuron-Rejection.md",
+      "domains": [
+        "neuroscience",
+        "psychology"
+      ],
+      "area": "clarification",
+      "contentType": "mechanism",
+      "shortDescription": "Clarify: không có hardware mirror module chuyên biệt bẩm sinh",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-clarification-prediction-error-is-not-reward",
+      "fileName": "Prediction-Error-Is-Not-Reward.md",
+      "path": "Core-Deep-Dive/Clarification/Prediction-Error-Is-Not-Reward.md",
+      "domains": [
+        "neuroscience",
+        "development"
+      ],
+      "area": "clarification",
+      "contentType": "mechanism",
+      "shortDescription": "Clarify: PE (prediction error) ≠ reward — AI/ML dùng PE=reward hoạt động được nhưng không đủ cho con người",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-collective-collective-arc-dynamics",
+      "fileName": "Collective-Arc-Dynamics.md",
+      "path": "Core-Deep-Dive/Collective/Collective-Arc-Dynamics.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "development",
+        "psychology"
+      ],
+      "area": "collective",
+      "contentType": "analysis",
+      "shortDescription": "TẠI SAO compiled patterns có shelf-life khác nhau",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-collective-collective-body",
+      "fileName": "Collective-Body.md",
+      "path": "Core-Deep-Dive/Collective/Collective-Body.md",
+      "domains": [
+        "social-collective",
+        "behavioral"
+      ],
+      "area": "collective",
+      "contentType": "mechanism",
+      "shortDescription": "Model 3 cấp (Individual→Collective→Framework)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-collective-collective-purpose",
+      "fileName": "Collective-Purpose.md",
+      "path": "Core-Deep-Dive/Collective/Collective-Purpose.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "psychology"
+      ],
+      "area": "collective",
+      "contentType": "analysis",
+      "shortDescription": "META-LEVEL framing: humanity collective map domain reality",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-collective-collective",
+      "fileName": "Collective.md",
+      "path": "Core-Deep-Dive/Collective/Collective.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "ai-tech",
+        "development"
+      ],
+      "area": "collective",
+      "contentType": "overview",
+      "shortDescription": "INTEGRATION HUB cho Collective/ folder (5 sub-files)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-collective-compliance-floor",
+      "fileName": "Compliance-Floor.md",
+      "path": "Core-Deep-Dive/Collective/Compliance-Floor.md",
+      "domains": [
+        "social-collective",
+        "behavioral"
+      ],
+      "area": "collective",
+      "contentType": "mechanism",
+      "shortDescription": "Compliance Floor = luật tối thiểu để melodies không phá nhau",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-collective-coordination-node",
+      "fileName": "Coordination-Node.md",
+      "path": "Core-Deep-Dive/Collective/Coordination-Node.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "development"
+      ],
+      "area": "collective",
+      "contentType": "mechanism",
+      "shortDescription": "Coordination node = resource allocation position in collective",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-domain-conflict-dynamics",
+      "fileName": "Conflict-Dynamics.md",
+      "path": "Core-Deep-Dive/Domain/Conflict-Dynamics.md",
+      "domains": [
+        "philosophy",
+        "behavioral",
+        "development"
+      ],
+      "area": "domain-theory",
+      "contentType": "analysis",
+      "shortDescription": "CONFLICT = OVERLAP × SCARCITY × COMMITMENT",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-domain-discovery-vs-expansion",
+      "fileName": "Discovery-vs-Expansion.md",
+      "path": "Core-Deep-Dive/Domain/Discovery-vs-Expansion.md",
+      "domains": [
+        "philosophy",
+        "behavioral",
+        "development"
+      ],
+      "area": "domain-theory",
+      "contentType": "analysis",
+      "shortDescription": "điểm trên phổ progress: Sense→Verify→Scale",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-domain-domain-mapping-drive",
+      "fileName": "Domain-Mapping-Drive.md",
+      "path": "Core-Deep-Dive/Domain/Domain-Mapping-Drive.md",
+      "domains": [
+        "philosophy",
+        "behavioral",
+        "development",
+        "psychology"
+      ],
+      "area": "domain-theory",
+      "contentType": "overview",
+      "shortDescription": "WHY con người drive map domain dù \"có sẵn\": prediction-delta + opioid per step + chunk threshold + lifecycle",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-domain-domain",
+      "fileName": "Domain.md",
+      "path": "Core-Deep-Dive/Domain/Domain.md",
+      "domains": [
+        "philosophy",
+        "behavioral",
+        "development"
+      ],
+      "area": "domain-theory",
+      "contentType": "mechanism",
+      "shortDescription": "Domain Types (Reality/Abstract/Abstract-Dynamic)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-domain-drill-emergent-pattern",
+      "fileName": "Drill-Emergent-Pattern.md",
+      "path": "Core-Deep-Dive/Domain/Drill-Emergent-Pattern.md",
+      "domains": [
+        "philosophy",
+        "behavioral"
+      ],
+      "area": "domain-theory",
+      "contentType": "analysis",
+      "shortDescription": "THU GỌN (~1,302→675L)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-domain-knowledge-flow",
+      "fileName": "Knowledge-Flow.md",
+      "path": "Core-Deep-Dive/Domain/Knowledge-Flow.md",
+      "domains": [
+        "philosophy",
+        "behavioral"
+      ],
+      "area": "domain-theory",
+      "contentType": "overview",
+      "shortDescription": "Dòng chảy xuyên thế hệ: internal → output → external chunk",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-modality",
+      "fileName": "Modality.md",
+      "path": "Core-Deep-Dive/Modality.md",
+      "domains": [
+        "core",
+        "philosophy"
+      ],
+      "area": "core-foundation",
+      "contentType": "mechanism",
+      "shortDescription": "6 kênh encoding của chunk-system (Visual/Auditory/Somatic/Motor/Emotional/Communication)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-neural-architecture",
+      "fileName": "Neural-Architecture.md",
+      "path": "Core-Deep-Dive/Neural-Architecture.md",
+      "domains": [
+        "core",
+        "development"
+      ],
+      "area": "core-foundation",
+      "contentType": "mechanism",
+      "shortDescription": "Bản đồ sinh lý neural: 4 phân vùng (PFC/Cortical/Subcortical/Peripheral)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-neural-processing-flow",
+      "fileName": "Neural-Processing-Flow.md",
+      "path": "Core-Deep-Dive/Neural-Processing-Flow.md",
+      "domains": [
+        "core",
+        "development"
+      ],
+      "area": "core-foundation",
+      "contentType": "mechanism",
+      "shortDescription": "Con đường vật lý tín hiệu đầy đủ: Sensor → Thalamus → Cortex → PFC → Output → Feedback",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-ai-collective-detection",
+      "fileName": "AI-Collective-Detection.md",
+      "path": "Core-Deep-Dive/Observation/AI-Collective-Detection.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "ai-tech",
+        "development",
+        "social-collective"
+      ],
+      "area": "observation-params",
+      "contentType": "mechanism",
+      "shortDescription": "COMPANION file v1.0: Collective-level AI detection capabilities ⑩-⑭ (continues from AI-Schema-Detection ①-⑨)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-ai-schema-detection",
+      "fileName": "AI-Schema-Detection.md",
+      "path": "Core-Deep-Dive/Observation/AI-Schema-Detection.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "ai-tech",
+        "social-collective"
+      ],
+      "area": "observation-params",
+      "contentType": "mechanism",
+      "shortDescription": "GATEWAY file v2.1 (entry point thực hành → hiểu framework): 3-tầng model (AI detect → Chuyên gia feel-check → Client",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-autonomy-hardware",
+      "fileName": "Autonomy-Hardware.md",
+      "path": "Core-Deep-Dive/Observation/Autonomy-Hardware.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "education",
+        "development"
+      ],
+      "area": "observation-params",
+      "contentType": "observation",
+      "shortDescription": "Hardware mechanism (universal): efference copy + VTA prediction-delta + opioid → self-action = better prediction = more",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-autonomy",
+      "fileName": "Autonomy.md",
+      "path": "Core-Deep-Dive/Observation/Autonomy.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development"
+      ],
+      "area": "observation-params",
+      "contentType": "observation",
+      "shortDescription": "Observation parameter (Software): xu hướng autonomy = f(motor chunks × controllability × meta-chunk \"TÔI làm = tốt",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-boredom",
+      "fileName": "Boredom.md",
+      "path": "Core-Deep-Dive/Observation/Boredom.md",
+      "domains": [
+        "core",
+        "neuroscience"
+      ],
+      "area": "observation-params",
+      "contentType": "observation",
+      "shortDescription": "Observation parameter: \"Chán\" = unified formula (Dissonance + Imagine-Final mờ) cho MỌI trường hợp",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-connection",
+      "fileName": "Connection.md",
+      "path": "Core-Deep-Dive/Observation/Connection.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development",
+        "psychology"
+      ],
+      "area": "observation-params",
+      "contentType": "observation",
+      "shortDescription": "Generative Primitives, 8 pathways",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-drive",
+      "fileName": "Drive.md",
+      "path": "Core-Deep-Dive/Observation/Drive.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development"
+      ],
+      "area": "observation-params",
+      "contentType": "observation",
+      "shortDescription": "INTEGRATION (đọc sau 3 file trên): Drive = tên gọi cho energy+direction emergent từ chunk dynamics",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-empathy",
+      "fileName": "Empathy.md",
+      "path": "Core-Deep-Dive/Observation/Empathy.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development",
+        "psychology"
+      ],
+      "area": "observation-params",
+      "contentType": "observation",
+      "shortDescription": "Empathy = Self-Pattern-Modeling Compiled + ❸ positive (observation output, NOT module)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-gratitude",
+      "fileName": "Gratitude.md",
+      "path": "Core-Deep-Dive/Observation/Gratitude.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "social-collective"
+      ],
+      "area": "observation-params",
+      "contentType": "observation",
+      "shortDescription": "Observation parameter v1.1 — TẦNG 5 (cao nhất)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-liking-wanting",
+      "fileName": "Liking-Wanting.md",
+      "path": "Core-Deep-Dive/Observation/Liking-Wanting.md",
+      "domains": [
+        "core",
+        "neuroscience"
+      ],
+      "area": "observation-params",
+      "contentType": "mechanism",
+      "shortDescription": "BRIDGE file Berridge→framework",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-meaning",
+      "fileName": "Meaning.md",
+      "path": "Core-Deep-Dive/Observation/Meaning.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "ai-tech",
+        "philosophy"
+      ],
+      "area": "observation-params",
+      "contentType": "observation",
+      "shortDescription": "Observation parameter v2.0: Meaning = có/thiếu life-level Anchor-Schema ổn định (v1.0 \"schema coherence\" = output, v2.0",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-novelty",
+      "fileName": "Novelty.md",
+      "path": "Core-Deep-Dive/Observation/Novelty.md",
+      "domains": [
+        "core",
+        "neuroscience"
+      ],
+      "area": "observation-params",
+      "contentType": "observation",
+      "shortDescription": "Observation parameter: Novelty = tên gọi cho pattern khi VTA detect positive prediction-delta + chunk-gap dynamics",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-obligation",
+      "fileName": "Obligation.md",
+      "path": "Core-Deep-Dive/Observation/Obligation.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development",
+        "psychology",
+        "social-collective"
+      ],
+      "area": "observation-params",
+      "contentType": "observation",
+      "shortDescription": "Observation parameter v1.0 — Tầng 3-4",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-protect",
+      "fileName": "Protect.md",
+      "path": "Core-Deep-Dive/Observation/Protect.md",
+      "domains": [
+        "core",
+        "neuroscience"
+      ],
+      "area": "observation-params",
+      "contentType": "observation",
+      "shortDescription": "Observation parameter: Loss aversion + ownership chunk dynamics",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-status",
+      "fileName": "Status.md",
+      "path": "Core-Deep-Dive/Observation/Status.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development"
+      ],
+      "area": "observation-params",
+      "contentType": "observation",
+      "shortDescription": "Observation parameter v2.0: Status = Resource Access Map (evolutionary grounded)",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-observation-threat",
+      "fileName": "Threat.md",
+      "path": "Core-Deep-Dive/Observation/Threat.md",
+      "domains": [
+        "core",
+        "neuroscience"
+      ],
+      "area": "observation-params",
+      "contentType": "observation",
+      "shortDescription": "Observation parameter: Threat = dissonance từ predicted harm",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-attention-spectrum",
+      "fileName": "Attention-Spectrum.md",
+      "path": "Core-Deep-Dive/PFC/Attention-Spectrum.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development",
+        "clinical"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "Phổ chú ý multi-factor",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-imagination-imagination",
+      "fileName": "Imagination.md",
+      "path": "Core-Deep-Dive/PFC/Imagination/Imagination.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "ai-tech",
+        "development"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "PROCESS + OVERVIEW file cho Imagination/ folder",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-imagination-imagine-final-evaluation",
+      "fileName": "Imagine-Final-Evaluation.md",
+      "path": "Core-Deep-Dive/PFC/Imagination/Imagine-Final-Evaluation.md",
+      "domains": [
+        "core",
+        "neuroscience"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "ĐÁNH GIÁ Imagine-Final hướng về đâu: 2-trục chính (Domain Fit × Hardware Fit) + chiều thứ 3 Trust = 3D framework",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-imagination-imagine-final",
+      "fileName": "Imagine-Final.md",
+      "path": "Core-Deep-Dive/PFC/Imagination/Imagine-Final.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "Constructive Future Simulation trên Simulation-Engine",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-imagination-somatic-articulation-loop",
+      "fileName": "Somatic-Articulation-Loop.md",
+      "path": "Core-Deep-Dive/PFC/Imagination/Somatic-Articulation-Loop.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "ai-tech"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "Cơ chế body-knowledge → explicit-knowledge: loop recursive giữa somatic pattern firing và external articulation",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-logic-feeling-balance",
+      "fileName": "Logic-Feeling-Balance.md",
+      "path": "Core-Deep-Dive/PFC/Logic-Feeling-Balance.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "ai-tech",
+        "development"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "META-PRINCIPLE: Cả Logic lẫn Feeling đều KHÔNG 100% chính xác — và KHÔNG THỂ prescribe \"khi nào tin cái nào\" (infinite",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-logic-feeling-failure-examples",
+      "fileName": "Logic-Feeling-Failure-Examples.md",
+      "path": "Core-Deep-Dive/PFC/Logic-Feeling-Failure-Examples.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "ai-tech",
+        "development"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "EVIDENCE companion cho Balance.md: 18 ví dụ THỰC TẾ verified",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-logic-feeling",
+      "fileName": "Logic-Feeling.md",
+      "path": "Core-Deep-Dive/PFC/Logic-Feeling.md",
+      "domains": [
+        "core",
+        "neuroscience"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "Body-Knowing (compiled body-direct knowing) + Compiled/Fresh = trục thật",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-logic-planning",
+      "fileName": "Logic-Planning.md",
+      "path": "Core-Deep-Dive/PFC/Logic-Planning.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "ai-tech"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "Đóng gói \"Logic side\": chain labeled chunks → plan → Imagine-Final",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-pfc-configuration",
+      "fileName": "PFC-Configuration.md",
+      "path": "Core-Deep-Dive/PFC/PFC-Configuration.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development",
+        "clinical"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "Configuration Modes",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-pfc-development",
+      "fileName": "PFC-Development.md",
+      "path": "Core-Deep-Dive/PFC/PFC-Development.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "ai-tech"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "HOW PFC phát triển + nâng cấp được: trajectory Worker→Director→Monitor→Compiled",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-pfc-function",
+      "fileName": "PFC-Function.md",
+      "path": "Core-Deep-Dive/PFC/PFC-Function.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "WHAT PFC làm: 24 functions × 5 categories",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-pfc-hardware",
+      "fileName": "PFC-Hardware.md",
+      "path": "Core-Deep-Dive/PFC/PFC-Hardware.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "WHY cùng 24 functions mà output khác: 4 receptor systems",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-pfc-hold-dimensions",
+      "fileName": "PFC-Hold-Dimensions.md",
+      "path": "Core-Deep-Dive/PFC/PFC-Hold-Dimensions.md",
+      "domains": [
+        "core",
+        "neuroscience"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "Phân tích sâu tại sao ~4±1: 6 lực độc lập hội tụ cùng trỏ về ~4",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-pfc-label",
+      "fileName": "PFC-Label.md",
+      "path": "Core-Deep-Dive/PFC/PFC-Label.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development"
+      ],
+      "area": "pfc-system",
+      "contentType": "reference",
+      "shortDescription": "VOCABULARY REFERENCE — quy ước label cho toàn bộ PFC-related concepts",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-pfc-operations",
+      "fileName": "PFC-Operations.md",
+      "path": "Core-Deep-Dive/PFC/PFC-Operations.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "HOW PFC operates trên Compiled/Fresh spectrum",
+      "fullDescription": ""
+    },
+    {
+      "id": "core-deep-dive-pfc-simulation-engine",
+      "fileName": "Simulation-Engine.md",
+      "path": "Core-Deep-Dive/PFC/Simulation-Engine.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "development"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "ARCHITECTURE file — Brain có 1 general-purpose Simulation-Engine (DMN + mPFC + insula + hippocampus), KHÔNG PHẢI N",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-climate-cognition",
+      "fileName": "Climate-Cognition.md",
+      "path": "Research/Climate-Cognition.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "development"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "GIẢ THIẾT + RESEARCH: nhiệt độ modulate PFC capacity qua body-state pathway",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-drill-sound-brain-00-overview",
+      "fileName": "00-Overview.md",
+      "path": "Research/Drill-Sound-Brain/00-Overview.md",
+      "domains": [
+        "psychology",
+        "philosophy"
+      ],
+      "area": "melody-lens",
+      "contentType": "overview",
+      "shortDescription": "Entry point: 150+ citations mapped onto framework mechanisms",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-drill-sound-brain-01-sound-brain-neuroscience",
+      "fileName": "01-Sound-Brain-Neuroscience.md",
+      "path": "Research/Drill-Sound-Brain/01-Sound-Brain-Neuroscience.md",
+      "domains": [
+        "psychology",
+        "philosophy"
+      ],
+      "area": "melody-lens",
+      "contentType": "reference",
+      "shortDescription": "REFERENCE: 120+ citations, 10 research axes (neural pathways, rhythmic processing, social bonding...)",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-drill-sound-brain-02-sound-background-pattern",
+      "fileName": "02-Sound-Background-Pattern.md",
+      "path": "Research/Drill-Sound-Brain/02-Sound-Background-Pattern.md",
+      "domains": [
+        "psychology",
+        "philosophy",
+        "clinical"
+      ],
+      "area": "melody-lens",
+      "contentType": "analysis",
+      "shortDescription": "Background-Pattern formation × music: repeated exposure → chunks + gist extraction (\"gu\")",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-drill-sound-brain-03-sound-reward-pipeline",
+      "fileName": "03-Sound-Reward-Pipeline.md",
+      "path": "Research/Drill-Sound-Brain/03-Sound-Reward-Pipeline.md",
+      "domains": [
+        "psychology",
+        "philosophy"
+      ],
+      "area": "melody-lens",
+      "contentType": "analysis",
+      "shortDescription": "7-step dopamine reward mechanism × music: directly validated by Salimpoor 2011 neuroimaging + Cheung 2019 Goldilocks",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-drill-sound-brain-04-sound-social-resonance",
+      "fileName": "04-Sound-Social-Resonance.md",
+      "path": "Research/Drill-Sound-Brain/04-Sound-Social-Resonance.md",
+      "domains": [
+        "psychology",
+        "philosophy"
+      ],
+      "area": "melody-lens",
+      "contentType": "analysis",
+      "shortDescription": "By-product-gap-resonance × music: 5-step chain",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-drill-sound-brain-05-multi-modal-compound",
+      "fileName": "05-Multi-Modal-Compound.md",
+      "path": "Research/Drill-Sound-Brain/05-Multi-Modal-Compound.md",
+      "domains": [
+        "psychology",
+        "philosophy"
+      ],
+      "area": "melody-lens",
+      "contentType": "analysis",
+      "shortDescription": "3-tier hierarchy: sound alone → +visual → +action sync",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-drill-sound-brain-06-music-architecture-prediction",
+      "fileName": "06-Music-Architecture-Prediction.md",
+      "path": "Research/Drill-Sound-Brain/06-Music-Architecture-Prediction.md",
+      "domains": [
+        "psychology",
+        "philosophy",
+        "development"
+      ],
+      "area": "melody-lens",
+      "contentType": "drill",
+      "shortDescription": "WHY universal music structures (pitch/rhythm/harmony/form/repetition) exist: optimizations for brain prediction",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-drill-sound-brain-07-music-entrainment-reward-dynamics",
+      "fileName": "07-Music-Entrainment-Reward-Dynamics.md",
+      "path": "Research/Drill-Sound-Brain/07-Music-Entrainment-Reward-Dynamics.md",
+      "domains": [
+        "psychology",
+        "philosophy",
+        "development"
+      ],
+      "area": "melody-lens",
+      "contentType": "analysis",
+      "shortDescription": "Dynamic processes: neural entrainment, continuous prediction streams, gap formation, interaction with other tasks",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-drill-sound-brain-08-musical-elements-brain-interface",
+      "fileName": "08-Musical-Elements-Brain-Interface.md",
+      "path": "Research/Drill-Sound-Brain/08-Musical-Elements-Brain-Interface.md",
+      "domains": [
+        "psychology",
+        "philosophy"
+      ],
+      "area": "melody-lens",
+      "contentType": "analysis",
+      "shortDescription": "Specific elements (voice 3-channel, melody activation efficiency, shape as template) = prediction super-activators",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-drill-sound-brain-09-verification-research",
+      "fileName": "09-Verification-Research.md",
+      "path": "Research/Drill-Sound-Brain/09-Verification-Research.md",
+      "domains": [
+        "psychology",
+        "philosophy",
+        "development"
+      ],
+      "area": "melody-lens",
+      "contentType": "reference",
+      "shortDescription": "Quality control: 3 rounds verification, 44 insights, 30 corrections, 35+ new citations",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-drill-sound-brain-10-synthesis",
+      "fileName": "10-Synthesis.md",
+      "path": "Research/Drill-Sound-Brain/10-Synthesis.md",
+      "domains": [
+        "psychology",
+        "philosophy",
+        "development"
+      ],
+      "area": "melody-lens",
+      "contentType": "overview",
+      "shortDescription": "Final synthesis: 11 files, ~5,700L, 44 insights, 150+ citations → 6 mechanisms confirmed + 10 new territories + 5",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-fidgeting-analysis",
+      "fileName": "Fidgeting-Analysis.md",
+      "path": "Research/Fidgeting-Analysis.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "clinical"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "Fidgeting = output tự nhiên của change-readiness system khi không có target",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-global-ai-self-model",
+      "fileName": "AI-Self-Model.md",
+      "path": "Research/Global/AI-Self-Model.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "ai-tech",
+        "development"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "MICRO-level: cá nhân dùng AI thế nào",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-global-birth-rate-decline-00_overview",
+      "fileName": "00_Overview.md",
+      "path": "Research/Global/Birth-Rate-Decline/00_Overview.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "development",
+        "psychology"
+      ],
+      "area": "global-analysis",
+      "contentType": "overview",
+      "shortDescription": "FRAMEWORK tổng thể: giảm sinh toàn cầu = domain feedback (\"chưa đủ điều kiện cho thế hệ sau\")",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-global-birth-rate-decline-01_south-korea_analysis",
+      "fileName": "01_South-Korea_Analysis.md",
+      "path": "Research/Global/Birth-Rate-Decline/01_South-Korea_Analysis.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "development",
+        "psychology"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "TFR 0.72 = thấp nhất thế giới",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-global-birth-rate-decline-03_china_analysis",
+      "fileName": "03_China_Analysis.md",
+      "path": "Research/Global/Birth-Rate-Decline/03_China_Analysis.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "ai-tech",
+        "development"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "Thí nghiệm ép schema LỚN NHẤT lịch sử: 35 năm 1-child → \"1 con = bình thường\" compiled vào văn hóa (Trust Compile",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-global-birth-rate-decline-04_france_analysis",
+      "fileName": "04_France_Analysis.md",
+      "path": "Research/Global/Birth-Rate-Decline/04_France_Analysis.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "ai-tech",
+        "development"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "Policy CEILING: TFR 1.56, cao nhất EU nhưng ĐANG giảm (2.02→1.56 / 15 năm)",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-global-birth-rate-decline-05_finland_analysis",
+      "fileName": "05_Finland_Analysis.md",
+      "path": "Research/Global/Birth-Rate-Decline/05_Finland_Analysis.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "development"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "BÀI HỌC CUỐI CÙNG: welfare hoàn hảo (giáo dục #1, bình đẳng #2, hạnh phúc #1) + TFR collapse (1.87→1.25, −33%, thấp",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-global-birth-rate-decline-06_israel_analysis",
+      "fileName": "06_Israel_Analysis.md",
+      "path": "Research/Global/Birth-Rate-Decline/06_Israel_Analysis.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "development"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "ANOMALY: GDP $55K PPP + TFR 2.9 (gấp đôi OECD, gấp 4 Hàn)",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-global-birth-rate-decline-09_vietnam_analysis",
+      "fileName": "09_Vietnam_Analysis.md",
+      "path": "Research/Global/Birth-Rate-Decline/09_Vietnam_Analysis.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "development"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "NGÃ RẼ: TFR 1.91, HCMC 1.32 (ngang Đài Bắc)",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-global-birth-rate-decline-09_vietnam_solution",
+      "fileName": "09_Vietnam_Solution.md",
+      "path": "Research/Global/Birth-Rate-Decline/09_Vietnam_Solution.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "ai-tech",
+        "development"
+      ],
+      "area": "global-analysis",
+      "contentType": "practical",
+      "shortDescription": "VN-specific solution",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-global-birth-rate-decline-100_solutions",
+      "fileName": "100_Solutions.md",
+      "path": "Research/Global/Birth-Rate-Decline/100_Solutions.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "philosophy",
+        "development"
+      ],
+      "area": "global-analysis",
+      "contentType": "overview",
+      "shortDescription": "ĐÍCH ĐẾN (Imagine-Final cho global-melody): xã hội mà body TỰ MUỐN sinh",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-global-human-ai-future",
+      "fileName": "Human-AI-Future.md",
+      "path": "Research/Global/Human-AI-Future.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "ai-tech"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "risk framework",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-global-innovation-geography",
+      "fileName": "Innovation-Geography.md",
+      "path": "Research/Global/Innovation-Geography.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "ai-tech"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "GIẢ THIẾT: Innovation = f(Chunk Density × Processing Capacity × Resources × Time)",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-global-social-calibration",
+      "fileName": "Social-Calibration.md",
+      "path": "Research/Global/Social-Calibration.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "ai-tech",
+        "development",
+        "psychology"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "SYNTHESIS: xã hội truyền thống = auto-calibration system (7 functions",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-global-uncanny-valley",
+      "fileName": "Uncanny-Valley.md",
+      "path": "Research/Global/Uncanny-Valley.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "ai-tech",
+        "development"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "ANALYSIS FILE: Uncanny valley = VTC-Self-Pattern-Modeling conflict (VTC detect agent + Self-Pattern-Modeling simulate →",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-health-conditions-hijack-addiction-analysis",
+      "fileName": "Addiction-Analysis.md",
+      "path": "Research/Health-Conditions/Hijack/Addiction-Analysis.md",
+      "domains": [
+        "clinical",
+        "neuroscience",
+        "development"
+      ],
+      "area": "health-conditions",
+      "contentType": "analysis",
+      "shortDescription": "Nghiện qua v7.8",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-health-conditions-hijack-alcohol-brain-mechanism",
+      "fileName": "Alcohol-Brain-Mechanism.md",
+      "path": "Research/Health-Conditions/Hijack/Alcohol-Brain-Mechanism.md",
+      "domains": [
+        "clinical",
+        "neuroscience",
+        "development"
+      ],
+      "area": "health-conditions",
+      "contentType": "mechanism",
+      "shortDescription": "HOW ethanol tác động não: 5 hệ thống tấn công ĐỒNG THỜI (GABA-A/NMDA/Opioid/Dopamine/HPA)",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-health-conditions-hijack-alcohol-vietnam-generational",
+      "fileName": "Alcohol-Vietnam-Generational.md",
+      "path": "Research/Health-Conditions/Hijack/Alcohol-Vietnam-Generational.md",
+      "domains": [
+        "clinical",
+        "neuroscience",
+        "development",
+        "psychology"
+      ],
+      "area": "health-conditions",
+      "contentType": "analysis",
+      "shortDescription": "thế hệ VN × rượu bia: tại sao Đổi Mới (1960-1980) mê nhậu dù gen khó uống, Gen Z (1997-2012) từ chối tự nhiên",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-health-conditions-hijack-nicotine-brain-mechanism",
+      "fileName": "Nicotine-Brain-Mechanism.md",
+      "path": "Research/Health-Conditions/Hijack/Nicotine-Brain-Mechanism.md",
+      "domains": [
+        "clinical",
+        "neuroscience",
+        "development"
+      ],
+      "area": "health-conditions",
+      "contentType": "mechanism",
+      "shortDescription": "HOW nicotine tác động não: 2 pathways (α4β2→dopamine + α7→opioid) + 3 hệ NT (dopamine/serotonin/NE)",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-health-conditions-neurodegeneration-alzheimer-analysis",
+      "fileName": "Alzheimer-Analysis.md",
+      "path": "Research/Health-Conditions/Neurodegeneration/Alzheimer-Analysis.md",
+      "domains": [
+        "clinical",
+        "neuroscience",
+        "ai-tech",
+        "philosophy",
+        "development"
+      ],
+      "area": "health-conditions",
+      "contentType": "analysis",
+      "shortDescription": "L, was 1,653L)",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-health-conditions-neurodegeneration-parkinson-analysis",
+      "fileName": "Parkinson-Analysis.md",
+      "path": "Research/Health-Conditions/Neurodegeneration/Parkinson-Analysis.md",
+      "domains": [
+        "clinical",
+        "neuroscience",
+        "development"
+      ],
+      "area": "health-conditions",
+      "contentType": "analysis",
+      "shortDescription": "HOW Parkinson tác động kiến trúc não: hardware THOÁI HÓA DẦN",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-health-conditions-neurodiversity-adhd-attention-optimization",
+      "fileName": "ADHD-Attention-Optimization.md",
+      "path": "Research/Health-Conditions/Neurodiversity/ADHD-Attention-Optimization.md",
+      "domains": [
+        "clinical",
+        "neuroscience",
+        "development"
+      ],
+      "area": "health-conditions",
+      "contentType": "analysis",
+      "shortDescription": "HOW tối ưu cho hardware ADHD",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-health-conditions-neurodiversity-adhd-observation",
+      "fileName": "ADHD-Observation.md",
+      "path": "Research/Health-Conditions/Neurodiversity/ADHD-Observation.md",
+      "domains": [
+        "clinical",
+        "neuroscience",
+        "development"
+      ],
+      "area": "health-conditions",
+      "contentType": "observation",
+      "shortDescription": "ADHD qua lens v7.8: attention regulation TUNING khác",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-health-conditions-neurodiversity-adhd-trade-off",
+      "fileName": "ADHD-Trade-Off.md",
+      "path": "Research/Health-Conditions/Neurodiversity/ADHD-Trade-Off.md",
+      "domains": [
+        "clinical",
+        "neuroscience",
+        "development",
+        "social-collective"
+      ],
+      "area": "health-conditions",
+      "contentType": "analysis",
+      "shortDescription": "WHY ADHD tồn tại: Trade-Off Analysis",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-health-conditions-neurodiversity-autism-observation",
+      "fileName": "Autism-Observation.md",
+      "path": "Research/Health-Conditions/Neurodiversity/Autism-Observation.md",
+      "domains": [
+        "clinical",
+        "neuroscience",
+        "ai-tech",
+        "development",
+        "psychology"
+      ],
+      "area": "health-conditions",
+      "contentType": "observation",
+      "shortDescription": "Autism qua lens v7.8: hardware CONFIGURATION KHÁC (không phải hỏng — khác cách compile)",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-health-conditions-ocd-analysis",
+      "fileName": "OCD-Analysis.md",
+      "path": "Research/Health-Conditions/OCD-Analysis.md",
+      "domains": [
+        "clinical",
+        "neuroscience",
+        "development",
+        "psychology"
+      ],
+      "area": "health-conditions",
+      "contentType": "analysis",
+      "shortDescription": "OCD = \"done\" pipeline FAILURE: 3 tuyến phòng thủ dừng hành vi → 1+ tuyến lỗi → loop vô hạn",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-health-conditions-ptsd-analysis",
+      "fileName": "PTSD-Analysis.md",
+      "path": "Research/Health-Conditions/PTSD-Analysis.md",
+      "domains": [
+        "clinical",
+        "neuroscience",
+        "ai-tech",
+        "development"
+      ],
+      "area": "health-conditions",
+      "contentType": "analysis",
+      "shortDescription": "PTSD qua lens v7.8: chunk CONTEXT TAG MẤT — flashback = chunks fire sai context",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-human-learning-child-development-child-development-mechanism",
+      "fileName": "Child-Development-Mechanism.md",
+      "path": "Research/Human-Learning/Child-Development/Child-Development-Mechanism.md",
+      "domains": [
+        "development",
+        "neuroscience",
+        "education"
+      ],
+      "area": "child-development",
+      "contentType": "mechanism",
+      "shortDescription": "MECHANISM FILE: CƠ CHẾ phát triển 0-6 qua lens v7.8",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-human-learning-child-development-mother-optimization",
+      "fileName": "Mother-Optimization.md",
+      "path": "Research/Human-Learning/Child-Development/Mother-Optimization.md",
+      "domains": [
+        "development",
+        "neuroscience",
+        "education"
+      ],
+      "area": "child-development",
+      "contentType": "practical",
+      "shortDescription": "PRACTICAL FILE: Mẹ = MÔI TRƯỜNG xây HARDWARE cho con",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-human-learning-child-development-natural-development",
+      "fileName": "Natural-Development.md",
+      "path": "Research/Human-Learning/Child-Development/Natural-Development.md",
+      "domains": [
+        "development",
+        "neuroscience",
+        "ai-tech",
+        "education"
+      ],
+      "area": "child-development",
+      "contentType": "practical",
+      "shortDescription": "PRACTICAL FILE: CÁI ĐANG XẢY RA ở trẻ 0-6 — hiện tượng + nguyên tắc hỗ trợ",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-human-learning-child-development-skill-introduction",
+      "fileName": "Skill-Introduction.md",
+      "path": "Research/Human-Learning/Child-Development/Skill-Introduction.md",
+      "domains": [
+        "development",
+        "neuroscience",
+        "education",
+        "behavioral"
+      ],
+      "area": "child-development",
+      "contentType": "practical",
+      "shortDescription": "PRACTICAL FILE: KỸ NĂNG NÀO + KHI NÀO + THẾ NÀO cho trẻ 0-6",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-human-learning-education-mechanism-compile-type-learning",
+      "fileName": "Compile-Type-Learning.md",
+      "path": "Research/Human-Learning/Education-Mechanism/Compile-Type-Learning.md",
+      "domains": [
+        "education",
+        "development"
+      ],
+      "area": "education-app",
+      "contentType": "analysis",
+      "shortDescription": "Compile Types (Experience/Expertise/Trust) tạo 3 loại chunk quality khác nhau trong learning",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-human-learning-education-mechanism-connection-education",
+      "fileName": "Connection-Education.md",
+      "path": "Research/Human-Learning/Education-Mechanism/Connection-Education.md",
+      "domains": [
+        "education",
+        "development",
+        "ai-tech",
+        "psychology"
+      ],
+      "area": "education-app",
+      "contentType": "observation",
+      "shortDescription": "MAIN FILE (THAY THẾ Empathy-Education v2.0 — chỉ cover ~30% scope)",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-human-learning-education-mechanism-domain-knowledge-map",
+      "fileName": "Domain-Knowledge-Map.md",
+      "path": "Research/Human-Learning/Education-Mechanism/Domain-Knowledge-Map.md",
+      "domains": [
+        "education",
+        "development",
+        "ai-tech"
+      ],
+      "area": "education-app",
+      "contentType": "reference",
+      "shortDescription": "WHAT nhóm kiến thức/kỹ năng cần cho era hiện đại",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-human-learning-education-mechanism-education-mechanism",
+      "fileName": "Education-Mechanism.md",
+      "path": "Research/Human-Learning/Education-Mechanism/Education-Mechanism.md",
+      "domains": [
+        "education",
+        "development",
+        "ai-tech"
+      ],
+      "area": "education-app",
+      "contentType": "mechanism",
+      "shortDescription": "HOW thiết kế learning arc cho structured education (6+)",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-human-learning-education-mechanism-expansion-saturation-crisis",
+      "fileName": "Expansion-Saturation-Crisis.md",
+      "path": "Research/Human-Learning/Education-Mechanism/Expansion-Saturation-Crisis.md",
+      "domains": [
+        "education",
+        "development",
+        "ai-tech",
+        "social-collective"
+      ],
+      "area": "education-app",
+      "contentType": "analysis",
+      "shortDescription": "TÍCH HỢP 3 streams: bằng ĐH mất giá TOÀN CẦU = structural shift Expansion→Discovery Era",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-human-learning-education-mechanism-observation-education-arms-race",
+      "fileName": "Education-Arms-Race.md",
+      "path": "Research/Human-Learning/Education-Mechanism/Observation/Education-Arms-Race.md",
+      "domains": [
+        "education",
+        "development",
+        "social-collective"
+      ],
+      "area": "education-app",
+      "contentType": "observation",
+      "shortDescription": "OBSERVATION FILE: Education = positional good (Hirsch 1976)",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-human-learning-education-mechanism-observation-money-education",
+      "fileName": "Money-Education.md",
+      "path": "Research/Human-Learning/Education-Mechanism/Observation/Money-Education.md",
+      "domains": [
+        "education",
+        "development",
+        "ai-tech",
+        "social-collective"
+      ],
+      "area": "education-app",
+      "contentType": "observation",
+      "shortDescription": "OBSERVATION FILE: Dạy trẻ về tiền qua framework lens",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-love-romantic",
+      "fileName": "Love-Romantic.md",
+      "path": "Research/Love-Romantic.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "psychology"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "Romantic love = test case cho TOÀN BỘ framework",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-love-unified",
+      "fileName": "Love-Unified.md",
+      "path": "Research/Love-Unified.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "psychology"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "TẦM NHÌN THỐNG NHẤT: \"tình yêu\" (mọi dạng) = Entity-Compiled compile đủ sâu → agent = body-base extension",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-melody-technology-idol-phenomenon",
+      "fileName": "Idol-Phenomenon.md",
+      "path": "Research/Melody-Technology/Idol-Phenomenon.md",
+      "domains": [
+        "psychology",
+        "ai-tech",
+        "philosophy"
+      ],
+      "area": "melody-lens",
+      "contentType": "analysis",
+      "shortDescription": "Idol phenomenon = body-base drives CỦA FAN compile chunks về idol",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-melody-technology-melody-technology-overview",
+      "fileName": "Melody-Technology-Overview.md",
+      "path": "Research/Melody-Technology/Melody-Technology-Overview.md",
+      "domains": [
+        "psychology",
+        "philosophy"
+      ],
+      "area": "melody-lens",
+      "contentType": "overview",
+      "shortDescription": "INDEX FILE: Melody Technology = bất kỳ hệ thống nào phục vụ body-base (tôn giáo, idol, giáo dục, ideology, self-help",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-melody-technology-religion",
+      "fileName": "Religion.md",
+      "path": "Research/Melody-Technology/Religion.md",
+      "domains": [
+        "psychology",
+        "philosophy",
+        "development",
+        "clinical"
+      ],
+      "area": "melody-lens",
+      "contentType": "analysis",
+      "shortDescription": "Tôn giáo = 7/7 functions technology",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-meta-impact-creator-lens",
+      "fileName": "Creator-Lens.md",
+      "path": "Research/Meta-Impact/Creator-Lens.md",
+      "domains": [
+        "philosophy"
+      ],
+      "area": "meta-epistemology",
+      "contentType": "analysis",
+      "shortDescription": "Framework bị shape bởi lens người tạo: game developer (systems thinking), somatic processor (body-first), 1 người (bias",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-meta-impact-epistemological-position",
+      "fileName": "Epistemological-Position.md",
+      "path": "Research/Meta-Impact/Epistemological-Position.md",
+      "domains": [
+        "philosophy",
+        "ai-tech",
+        "development"
+      ],
+      "area": "meta-epistemology",
+      "contentType": "analysis",
+      "shortDescription": "Framework ở LAYER KHÁC conventional science",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-meta-impact-meta-impact",
+      "fileName": "Meta-Impact.md",
+      "path": "Research/Meta-Impact/Meta-Impact.md",
+      "domains": [
+        "philosophy",
+        "ai-tech",
+        "development"
+      ],
+      "area": "meta-epistemology",
+      "contentType": "mechanism",
+      "shortDescription": "META exercise: framework predict TÁC ĐỘNG CỦA CHÍNH NÓ",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-mismatch-patterns-collective-schema-pressure",
+      "fileName": "Collective-Schema-Pressure.md",
+      "path": "Research/Mismatch-Patterns/Collective-Schema-Pressure.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "development"
+      ],
+      "area": "global-analysis",
+      "contentType": "observation",
+      "shortDescription": "OBSERVATION FILE: nhiều collective schemas (Trust Compile) chồng chất cá nhân đồng thời → compound pressure",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-money-analysis",
+      "fileName": "Money-Analysis.md",
+      "path": "Research/Money-Analysis.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "ai-tech",
+        "development",
+        "psychology"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "SYNTHESIS FILE: Tiền qua lens v7.8 — 3-layer definition (proxy token + obligation technology + shared chunk prediction)",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-neuro-measurement-00-goals",
+      "fileName": "00-Goals.md",
+      "path": "Research/Neuro-Measurement/00-Goals.md",
+      "domains": [
+        "core"
+      ],
+      "area": "reference-tools",
+      "contentType": "reference",
+      "shortDescription": "Mục tiêu đo lường trạng thái não real-time trong môi trường làm việc",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-neuro-measurement-01-implementation-plan",
+      "fileName": "01-Implementation-Plan.md",
+      "path": "Research/Neuro-Measurement/01-Implementation-Plan.md",
+      "domains": [
+        "core"
+      ],
+      "area": "reference-tools",
+      "contentType": "reference",
+      "shortDescription": "Roadmap triển khai",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-quote-analysis-work-adversity-fear-cluster",
+      "fileName": "Work-Adversity-Fear-Cluster.md",
+      "path": "Research/Quote-Analysis/Work-Adversity-Fear-Cluster.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "development"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "Cluster 5 quotes (FDR/Jung/Frankl/Nietzsche/Marcus Aurelius): \"Adversity Direction\" = convergent mechanism",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-quote-analysis-work-chunk-dependent-visibility-cluster",
+      "fileName": "Work-Chunk-Dependent-Visibility-Cluster.md",
+      "path": "Research/Quote-Analysis/Work-Chunk-Dependent-Visibility-Cluster.md",
+      "domains": [
+        "social-collective",
+        "behavioral"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "Cluster 3 quotes (Socrates/Jobs/Paul Jobs): \"Chunk-Dependent Visibility\" — cái bạn perceive phụ thuộc cái đã compiled",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-quote-analysis-work-comparison-thief-of-joy",
+      "fileName": "Work-Comparison-Thief-Of-Joy.md",
+      "path": "Research/Quote-Analysis/Work-Comparison-Thief-Of-Joy.md",
+      "domains": [
+        "social-collective",
+        "behavioral"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "Roosevelt quote: \"Comparison Direction Asymmetry\" — cùng comparison mechanism, opposite effect tùy direction (upward",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-quote-analysis-work-goal-and-why",
+      "fileName": "Work-Goal-And-Why.md",
+      "path": "Research/Quote-Analysis/Work-Goal-And-Why.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "development"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "Musk-attributed quote: goal clarity × workplace enjoyment",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-quote-analysis-work-journey-destination-cluster",
+      "fileName": "Work-Journey-Destination-Cluster.md",
+      "path": "Research/Quote-Analysis/Work-Journey-Destination-Cluster.md",
+      "domains": [
+        "social-collective",
+        "behavioral"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "Cluster 6 variants \"happiness = journey not destination\": \"Imagine-Final Navigation Paradox\" — CẦN destination để tạo",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-quote-analysis-work-move-fast-break-things",
+      "fileName": "Work-Move-Fast-Break-Things.md",
+      "path": "Research/Quote-Analysis/Work-Move-Fast-Break-Things.md",
+      "domains": [
+        "social-collective",
+        "behavioral"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "Zuckerberg 2012 IPO motto → 2014 \"move fast with stable infrastructure\": framework predicts organizational lifecycle",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-quote-analysis-work-stay-hungry-stay-foolish",
+      "fileName": "Work-Stay-Hungry-Stay-Foolish.md",
+      "path": "Research/Quote-Analysis/Work-Stay-Hungry-Stay-Foolish.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "development"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "Stewart Brand/Steve Jobs quote: internal self-directed mechanisms (generative gap dynamics + background-pattern",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-quote-analysis-work-think-act-become-cluster",
+      "fileName": "Work-Think-Act-Become-Cluster.md",
+      "path": "Research/Quote-Analysis/Work-Think-Act-Become-Cluster.md",
+      "domains": [
+        "social-collective",
+        "behavioral"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "Cluster 2 quotes \"Fake it till you make it\" + \"The mind is everything\": PFC→Compile→Identity pipeline",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-relativity-explained",
+      "fileName": "Relativity-Explained.md",
+      "path": "Research/Relativity-Explained.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "development",
+        "psychology"
+      ],
+      "area": "global-analysis",
+      "contentType": "mechanism",
+      "shortDescription": "STANDALONE: Special + General Relativity bằng real math + ví dụ trực quan",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-self-created-threat",
+      "fileName": "Self-Created-Threat.md",
+      "path": "Research/Self-Created-Threat.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "ai-tech",
+        "education"
+      ],
+      "area": "global-analysis",
+      "contentType": "analysis",
+      "shortDescription": "SYNTHESIS: Self-Created Threat = Trust Compile PFC→body (~20-60% fidelity, chain phải chạm body-base)",
+      "fullDescription": ""
+    },
+    {
+      "id": "research-sensitivity-classification",
+      "fileName": "Sensitivity-Classification.md",
+      "path": "Research/Sensitivity-Classification.md",
+      "domains": [
+        "social-collective",
+        "behavioral",
+        "philosophy"
+      ],
+      "area": "global-analysis",
+      "contentType": "observation",
+      "shortDescription": "PHÂN LOẠI: \"nhạy cảm\" = 1 từ cho CẢ CHỤC thứ KHÁC NHAU (emotional/auditory/pattern/social/olfactory...)",
+      "fullDescription": ""
+    },
+    {
+      "id": "applications-education-system-00_overview",
+      "fileName": "00_Overview.md",
+      "path": "Applications/Education-System/00_Overview.md",
+      "domains": [
+        "education",
+        "development"
+      ],
+      "area": "education-app",
+      "contentType": "overview",
+      "shortDescription": "BẮT ĐẦU ĐỌC TỪ ĐÂY.\" Map tất cả files, flow, cách dùng per audience",
+      "fullDescription": ""
+    },
+    {
+      "id": "applications-education-system-country-vn-vn-cultural-factors",
+      "fileName": "VN-Cultural-Factors.md",
+      "path": "Applications/Education-System/Country/VN/VN-Cultural-Factors.md",
+      "domains": [
+        "education",
+        "development"
+      ],
+      "area": "education-app",
+      "contentType": "analysis",
+      "shortDescription": "TẦNG 5 VN (File 2/3)",
+      "fullDescription": ""
+    },
+    {
+      "id": "applications-education-system-country-vn-vn-education-status",
+      "fileName": "VN-Education-Status.md",
+      "path": "Applications/Education-System/Country/VN/VN-Education-Status.md",
+      "domains": [
+        "education",
+        "development"
+      ],
+      "area": "education-app",
+      "contentType": "analysis",
+      "shortDescription": "TẦNG 5 VN (File 1/3)",
+      "fullDescription": ""
+    },
+    {
+      "id": "applications-education-system-country-vn-vn-recommendations",
+      "fileName": "VN-Recommendations.md",
+      "path": "Applications/Education-System/Country/VN/VN-Recommendations.md",
+      "domains": [
+        "education",
+        "development"
+      ],
+      "area": "education-app",
+      "contentType": "practical",
+      "shortDescription": "TẦNG 5 VN (File 3/3 — OUTPUT, kết tinh toàn chain Mechanism→System→Status→Culture→ĐÂY)",
+      "fullDescription": ""
+    },
+    {
+      "id": "applications-education-system-curriculum-framework",
+      "fileName": "Curriculum-Framework.md",
+      "path": "Applications/Education-System/Curriculum-Framework.md",
+      "domains": [
+        "education",
+        "development"
+      ],
+      "area": "education-app",
+      "contentType": "mechanism",
+      "shortDescription": "DELIVERY MATRIX: WHAT × WHEN × HOW DEEP",
+      "fullDescription": ""
+    },
+    {
+      "id": "applications-education-system-education-system",
+      "fileName": "Education-System.md",
+      "path": "Applications/Education-System/Education-System.md",
+      "domains": [
+        "education",
+        "development"
+      ],
+      "area": "education-app",
+      "contentType": "mechanism",
+      "shortDescription": "IDEAL DESIGN: nếu áp dụng Mechanism + DKM → hệ thống trông THẾ NÀO?",
+      "fullDescription": ""
+    },
+    {
+      "id": "applications-education-system-era-analysis-2025",
+      "fileName": "Era-Analysis-2025.md",
+      "path": "Applications/Education-System/Era-Analysis-2025.md",
+      "domains": [
+        "education",
+        "development",
+        "ai-tech"
+      ],
+      "area": "education-app",
+      "contentType": "analysis",
+      "shortDescription": "ERA CONTEXT LAYER = SNAPSHOT thời đại (CÓ HẠN SỬ DỤNG)",
+      "fullDescription": ""
+    },
+    {
+      "id": "applications-education-system-hardware-calibration",
+      "fileName": "Hardware-Calibration.md",
+      "path": "Applications/Education-System/Hardware-Calibration.md",
+      "domains": [
+        "education",
+        "development"
+      ],
+      "area": "education-app",
+      "contentType": "mechanism",
+      "shortDescription": "Per-hardware calibration THỰC HÀNH: \"nhận diện CÁI GÌ, BẰNG GÌ, ĐỂ LÀM GÌ?\" Bridge: Core-Hardware + PFC-Hardware",
+      "fullDescription": ""
+    }
+  ]
+}

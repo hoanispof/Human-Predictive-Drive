@@ -19,6 +19,28 @@ language: Tiếng Việt primary + English technical
 > **File này = commitment file** cho F4 Chunk-Internal-Processing.
 > Không drill phân tích mới. Tổng hợp từ 7 files đã drill (00-05 + 01b).
 
+```
+Drill Label → Framework Name Mapping (added 2026-05-30)
+
+  Labels trong file này = drill provenance markers.
+  Framework active files dùng TÊN CỐ ĐỊNH bên dưới.
+  Bảng đầy đủ: xem 99-Master-Synthesis.md §2.6.
+
+  ┌────────┬────────────────────────────────────┐
+  │ Drill  │ Framework Name (cố định)           │
+  ├────────┼────────────────────────────────────┤
+  │ H2     │ Static-Logical-Linking             │
+  │ H5     │ Multi-Weak-Signal-Convergence      │
+  │ H6     │ Anchor-Decay                       │
+  │ H12    │ Gap2-Language-Evolution             │
+  ├────────┼────────────────────────────────────┤
+  │ NT1    │ Compile-Gradient                   │
+  │ NT3    │ Emergent-Binding                   │
+  │ NT6    │ Label-As-Handle                    │
+  │ NT7    │ Direction-At-Compile               │
+  └────────┴────────────────────────────────────┘
+```
+
 ---
 
 ## §1 — Hypothesis Verdicts (Final)
@@ -291,7 +313,7 @@ FROM F4 (this folder):
      → 7-step macro cycle: Accumulate→Vague→Curious→Clarify→Label→Plan→Repeat
      → Convergence Zone concept (what "vague" IS structurally)
      → Label = logic-planning prerequisite (formalized)
-     → 1A vs 1B selection pressure (domain-real vs self-referencing)
+     → Domain-Checked vs Self-Referencing selection pressure
      → Dissonance tolerance = f(selection pressure history)
      → Post-discovery cleanup → parsimony gain
      → AI as external crystallization catalyst
@@ -321,7 +343,7 @@ FROM F3 (COMPLETE):
 FROM ALREADY-DRILLED:
   → Learning-Cycle: learning mechanism stages
   → Agent/: Self-Pattern-Modeling, Resonance
-  → Body-Feedback-Draft/: H10 body-feedback model
+  → Body-Feedback-Draft/: Body-Feedback-Precondition model
 
 FROM N+5 OUTPUTS:
   → Logic-Planning.md: logic đóng gói, AI-assisted

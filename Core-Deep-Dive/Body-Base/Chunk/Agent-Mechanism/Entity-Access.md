@@ -37,12 +37,12 @@ dependencies:
   - PFC-Operations.md v1.0 — FOUNDATION: Hold/Suppress, Compiled/Fresh, Fresh processing universal
   - Valence-Propagation.md v2.0 §3 — DEFINES Entity-Compiled + 3 subtypes
   - Body-Feedback-Mechanism.md v2.0 §3.3c — FOUNDATION: Gap→Miss baseline
-  - Self-Pattern-Modeling.md v3.0 — Compiled/Fresh mechanism, Self-Pattern-Modeling as Simulation Engine application
+  - Self-Pattern-Modeling.md v3.0 — Compiled/Fresh mechanism, Self-Pattern-Modeling as Simulation-Engine application
   - By-Product-Gap-Resonance.md v1.0 — mutual phenomenon, resonance
   - Connection.md v4.0 §3 — 3 Generative Primitives, 2-tầng/2-luồng
   - Body-Coupling.md v2.0 — coupling mechanism
   - Gap-Body-Need.md v2.0 — gap landscape, satiation types, ENGINE/ROAD/VEHICLE
-  - Resonance-Entity.md v2.0 — hardware subsidy, Hardwired:Compilable Architecture
+  - Resonance-Entity.md v2.0 — hardware-subsidy, Hardwired:Compilable Architecture
   - Compiled-Fresh.md v2.0 — compiled quality, Fresh processing, reversal
   - Reward-Calibration.md v1.1 — Goldilocks, cannot prescribe
   - Logic-Feeling-Balance.md v1.0 — infinite regress, domain feedback only
@@ -64,7 +64,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **3-FACTOR MODEL:**
 > **Compiled: Engine Mode — HOW brain processes entity (Tool ↔ Agent, DYNAMIC per-moment).**
 > **Fresh: Gap-Need Profile — WHY I need access (A:B:C:D × breadth × compound).**
-> **F3: Access Confidence — CAN I access (Entity-Compiled depth × stability × hardware subsidy).**
+> **F3: Access Confidence — CAN I access (Entity-Compiled depth × stability × hardware-subsidy).**
 >
 > **Entity-Access GRADIENT (Mức 0-5):**
 > **Mức 0: Tool/Service → Mức 1-2: UNLABELED → Mức 3: Compilable-dominant "bạn thân" →**
@@ -106,7 +106,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐⭐ ENTITY-ACCESS v1.0:
 
   ① Entity-Access = general mechanism: brain builds predictive access-relationship
-     with entity for gap-filling via Simulation Engine
+     with entity for gap-filling via Simulation-Engine
   ② 3-FACTOR Model: Engine Mode × Gap-Need Profile × Access Confidence
   ③ Entity-Access GRADIENT: Mức 0 (Tool) → Mức 5 (Excess)
   ④ Entity-Owned = PFC LABEL for Mức 4-5 (observation, not mechanism)
@@ -192,13 +192,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Cùng 1 con người, KHÁC observer: service vs individual
     → Self-Pattern-Modeling mode = property of OBSERVER's processing, NOT of entity
 
-  Simulation Engine application:
-    Self-Pattern-Modeling = (Other, Present, Simulate) trên Simulation Engine
+  Simulation-Engine application:
+    Self-Pattern-Modeling = (Other, Present, Simulate) trên Simulation-Engine
     Tool-mode: Self-Pattern-Modeling KHÔNG chạy (no state simulation)
     Agent-mode: Self-Pattern-Modeling CHẠY (simulate state → predict → optimize)
 
   🟡 Engine Mode as dynamic gate + spectrum = framework synthesis (v1.0)
-  🟢 Self-Pattern-Modeling as Simulation Engine application: Simulation-Engine.md §3
+  🟢 Self-Pattern-Modeling as Simulation-Engine application: Simulation-Engine.md §3
 ```
 
 ### §1.2 — Factor 2: Gap-Need Profile (WHY I need access)
@@ -247,7 +247,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Stable → prediction CONFIRMED → compile
       Unstable → prediction UNCERTAIN → anxious
 
-    ③ HARDWARE SUBSIDY (modifier):
+    ③ HARDWARE-SUBSIDY (modifier):
       Kin: hardware BIAS confidence (entity available = biological default)
       Romantic limerence: temporary bias → inflate then recalibrate
       Friend: NO bias → confidence earned through interaction ONLY
@@ -288,7 +288,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ┌────────────────────────────────────────────────────────────────┐
     │ Entity-Compiled Depth: feeds Compiled (deeper Agent) + F3 (better prediction)   │
-    │ Hardware Subsidy: biases Fresh (pre-install gap A) + F3 (bias)  │
+    │ Hardware-Subsidy: biases Fresh (pre-install gap A) + F3 (bias)  │
     │ PFC Resource State: modulates Compiled (→ Tool when depleted)      │
     │ Attachment Style: biases F3 (direction tag) + Fresh (C tendency)│
     └────────────────────────────────────────────────────────────────┘
@@ -458,7 +458,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   MODE 3 — INTERACTION (friendship, default mode):
     By-product matching through repeated interaction
     3-Factor: Compiled develops gradually, Fresh Compilable-dominant from start, F3 building slowly
-    NO hardware subsidy → must sustain on RESONANCE QUALITY ALONE
+    NO hardware-subsidy → must sustain on RESONANCE QUALITY ALONE
     → FRAGILE (48.6% inner circle churn) nhưng PUREST quality (Compilable-dominant = genuine)
     → Exit easy → C/D CANNOT develop → self-correcting mechanism
     → = BASE CASE of entity-access mechanism
@@ -656,7 +656,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ KEY OBSERVATIONS:
 
   MẸ→CON = MAXIMUM entity-access vì:
-    All 3 Factors = MAX + Hardware Subsidy MAX (oxytocin anti-habituation)
+    All 3 Factors = MAX + Hardware-Subsidy MAX (oxytocin anti-habituation)
     → Mức 4-5 by DEFAULT → highest risk for Excess (C easily hidden)
 
   BẠN THÂN = PUREST QUALITY vì:
@@ -667,7 +667,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Limerence INFLATE → recalibrate → outcome depends on B quality
     → BEST: healthy Compilable-dominant "bạn đời". WORST: A fades → C fills
 
-  HARDWARE SUBSIDY ≠ QUALITY:
+  HARDWARE-SUBSIDY ≠ QUALITY:
     Mẹ: MAX subsidy → most DURABLE → nhưng CÓ THỂ low quality (C+D dominant)
     Bạn: ZERO subsidy → fragile → nhưng CÓ THỂ highest quality (pure B)
     → Subsidy giữ entity-access TỒN TẠI, NOT giữ entity-access TỐT
@@ -691,7 +691,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Mẹ mất: Entity-Compiled deep VẪN → entity-access → 0 → GRIEF DEVASTATING (phantom firing)
 
   🟡 Per-entity observations = framework synthesis (v1.0)
-  🟢 Hardware subsidy: Resonance-Entity.md v2.0 §2
+  🟢 Hardware-subsidy: Resonance-Entity.md v2.0 §2
   🟢 Friend decay: Roberts & Dunbar 2011
 ```
 
@@ -916,7 +916,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   ① 3-Layer Architecture: Body Signal × Engine Simulation × Feedback Integration → Entity-Access-Calibration §2
   ② Exit Cost = Signal Weight: strongest bond = hardest to calibrate → Entity-Access-Calibration §3
-  ③ Hardware Subsidy = Calibration Bias: hormone masks excess → Entity-Access-Calibration §4
+  ③ Hardware-Subsidy = Calibration Bias: hormone masks excess → Entity-Access-Calibration §4
   ④ Compiled vs Fresh: calibration window → Entity-Access-Calibration §5
   ⑤ Engine Use Quality: curiosity vs threat mode → Entity-Access-Calibration §6
   ⑥ Optimal Zone ≠ Zero C: Baumrind + SDT + Gottman → Entity-Access-Calibration §7
@@ -948,7 +948,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   NHƯNG PHỨC TẠP HƠN general reward calibration:
     ① 2 bodies — not just self-regulation
     ② Power asymmetry — affects signal quality
-    ③ Hardware subsidy — creates BIAS
+    ③ Hardware-subsidy — creates BIAS
     ④ Compiled patterns — resist change
     ⑤ PFC = Lawyer — rationalize C as A+B
     → 5 additional factors BEYOND simple reward calibration
@@ -967,19 +967,19 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   │ "Tôi đang cảm gì khi muốn access entity?"                         │
   │ Curiosity (A+B): opioid preview → GENUINE access desire            │
   │ Anxiety (C): cortisol → urgency → SELF-REFERENTIAL driving        │
-  │ = Simulation Engine Component 1 (anterior insula readout)          │
+  │ = Simulation-Engine Component 1 (anterior insula readout)          │
   │ ⚠️ FAILS: alexithymia, habituation, depleted                      │
   ├─────────────────────────────────────────────────────────────────────┤
   │ LAYER 2 — ENGINE SIMULATION (Constructive Simulation)              │
   │ "Nếu tôi access/ép, entity sẽ experience gì?"                     │
   │ Compiled Agent-mode → model entity's state → predict response            │
-  │ = Simulation Engine Component 2 (DMN + hippocampus = CPU)          │
+  │ = Simulation-Engine Component 2 (DMN + hippocampus = CPU)          │
   │ ⚠️ FAILS: Compiled Tool-mode (predict behavior, not state)              │
   ├─────────────────────────────────────────────────────────────────────┤
   │ LAYER 3 — FEEDBACK INTEGRATION (Response × Adjustment)             │
   │ "Entity respond thế nào? → prediction delta → adjust?"             │
   │ Path A: Integrate → adjust. Path B: Compiled override → no adjust. │
-  │ = Simulation Engine Component 3 (mPFC model adjustment)            │
+  │ = Simulation-Engine Component 3 (mPFC model adjustment)            │
   │ ⚠️ FAILS: compiled response override (automatic, bypass PFC)      │
   └─────────────────────────────────────────────────────────────────────┘
 
@@ -990,7 +990,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
     All 3 fail: compiled chain → auto-pilot → no observation at all
 
   🟡 3-Layer Calibration Architecture = framework synthesis
-  🟢 Simulation Engine 3 Components: Simulation-Engine.md §1
+  🟢 Simulation-Engine 3 Components: Simulation-Engine.md §1
   🟢 Interoceptive accuracy → empathic accuracy: Fukushima 2011
 ```
 
@@ -1017,11 +1017,11 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   └──────────────┴───────────┴──────────────┴────────────────────────────┘
 
   PARADOX — STRONGEST BOND = HARDEST TO CALIBRATE:
-    Parent→child: hardware subsidy MAX + exit cost MAX + power MAX
+    Parent→child: hardware-subsidy MAX + exit cost MAX + power MAX
     → 3 factors ALL conspire AGAINST calibration
     → WHY parenting needs MOST Self-Awareness: external feedback DISABLED
 
-    Bạn bè (Mức 3): hardware subsidy ZERO + exit cost LOW + power PARITY
+    Bạn bè (Mức 3): hardware-subsidy ZERO + exit cost LOW + power PARITY
     → 3 factors ALL SUPPORT calibration → self-correcting
 
   LIFECYCLE SHIFT (parent→child):
@@ -1227,7 +1227,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
     Compound: mix → RESILIENT (most entity-access = compound)
 
   PHANTOM RESONANCE: entity lost → Entity-Compiled fire → no response → distress
-    4-factor: compilation depth × hardware subsidy × L2 structural × duration
+    4-factor: compilation depth × hardware-subsidy × L2 structural × duration
     Mẹ mất con = ALL MAX → DEVASTATING
 
   🟢 Hall 2018, Sanders 1980: parental grief most severe
@@ -1325,7 +1325,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   Gap shift INTO entity ≠ compiled suppress (2-mechanism) — ★★
   3-Layer Calibration Architecture — ★★
   Exit Cost = Signal Weight — ★★
-  Hardware Subsidy = Calibration Bias — ★★
+  Hardware-Subsidy = Calibration Bias — ★★
   Calibration × Gradient (per-Mức analysis) — ★★
   5 failure modes taxonomy — ★★
   Optimal Zone ≠ Zero C — ★
@@ -1369,7 +1369,7 @@ CÁI FRAMEWORK THÊM vs CÁI ĐÃ CÓ:
 | PFC-Operations.md v1.0 | §1-§7 | FOUNDATION: Hold/Suppress, Compiled/Fresh, PFC universal |
 | Valence-Propagation.md v2.0 | §3 | FOUNDATION: Entity-Compiled definition + 3 subtypes |
 | Body-Feedback-Mechanism.md v2.0 | §3.3c | FOUNDATION: Gap→Miss baseline mechanism |
-| Self-Pattern-Modeling.md v3.0 | §0-§3 | FOUNDATION: Compiled/Fresh, Self-Pattern-Modeling as Simulation Engine application |
+| Self-Pattern-Modeling.md v3.0 | §0-§3 | FOUNDATION: Compiled/Fresh, Self-Pattern-Modeling as Simulation-Engine application |
 | By-Product-Gap-Resonance.md v1.0 | §0, §1 | COMPANION: mutual phenomenon, resonance |
 | Connection.md v4.0 | §3, §9 | COMPANION: 2-tầng/2-luồng, 2-body calibration |
 | Compiled-Fresh.md v2.0 | §4, §6, §9, §10 | FOUNDATION: quality dimension, reversal, PFC budget |
@@ -1377,7 +1377,7 @@ CÁI FRAMEWORK THÊM vs CÁI ĐÃ CÓ:
 | Logic-Feeling-Balance.md v1.0 | §6-§7 | PARALLEL: infinite regress, domain feedback only |
 | Autonomy-Hardware.md v1.1 | §2 | FOUNDATION: vmPFC + DRN, autonomy violation detection |
 | Gap-Body-Need.md v2.0 | §2, §5, §13 | FOUNDATION: gap landscape, satiation types |
-| Resonance-Entity.md v2.0 | §1, §2 | FOUNDATION: hardware subsidy, Hardwired:Compilable Architecture |
+| Resonance-Entity.md v2.0 | §1, §2 | FOUNDATION: hardware-subsidy, Hardwired:Compilable Architecture |
 | Gap-Distribution-Profile.md v1.0 | §8 | COMPANION: portfolio risk, diversification |
 | Body-Coupling.md v2.0 | §1 | COMPANION: coupling mechanism |
 | Love-Romantic.md v2.2 | §9-§11 | APPLICATION: romantic lifecycle |

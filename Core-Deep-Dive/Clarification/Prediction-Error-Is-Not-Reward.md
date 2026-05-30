@@ -1,16 +1,17 @@
----
+﻿---
 title: Prediction Error — Nền Tảng Quan Trọng, Chưa Đủ Cho Con Người
-version: 2.0
+version: 2.1
 created: 2026-04-20 (v1.0)
 rewritten: 2026-05-11 (v2.0 — tone refinement, appreciate research, extend not reject)
+updated: 2026-05-30 (v2.1 — §3b Neuroscience Validation: Salimpoor 2011 + Cheung 2019. §7 Honest Assessment upgrades 🟡→🟢.)
 previous_version: backup/Prediction-Error-v1.md
-status: v2.0 — CLARIFICATION FILE
+status: v2.1 — CLARIFICATION FILE
 scope: |
   Prediction Error (PE) = phát hiện nền tảng trong neuroscience.
   PE research trên động vật (khỉ, chuột) = ĐÚNG, CÓ GIÁ TRỊ.
   Framework GHI NHẬN đóng góp + MỞ RỘNG cho con người:
   PE = attention/salience signal (VTA dopamine). Cần thiết, nhưng chưa đủ.
-  Reward ở người = PE + COHERENCE + H10 preconditions (body-base evaluation).
+  Reward ở người = PE + COHERENCE + Body-Feedback-Precondition preconditions (body-base evaluation).
 purpose: |
   AI trained dùng PE đơn giản (TD learning, reward signal) — hợp lý cho AI.
   Mainstream neuroscience phát hiện PE trên động vật — đúng, có giá trị.
@@ -20,7 +21,7 @@ purpose: |
 dependencies:
   - Dopamine-Is-Not-Reward.md — dopamine ≠ reward, 7-step mechanism
   - Body-Feedback-Mechanism.md — 3 chunk dynamics (Shift/Miss/Gap)
-  - Body-Feedback.md — H10 5 preconditions, dual-pull
+  - Body-Feedback.md — Body-Feedback-Precondition 5 preconditions, dual-pull
   - Chunk.md v2.0 — chunk substrate, activation dynamics
   - Core-v7.8-Draft.md §4.2 — body-feedback trong cycle architecture
   - Feeling.md v2.0 §2.2b — PFC observation threshold 2 chiều
@@ -58,7 +59,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §1 — TỪ PHÁT HIỆN GỐC ĐẾN DIỄN GIẢI PHỔ BIẾN
 - §2 — PE TRONG AI vs CON NGƯỜI
 - §3 — SPOTIFY TEST: TẠI SAO PE CHƯA ĐỦ
-- §4 — FRAMEWORK MỞ RỘNG: PE + COHERENCE + H10
+- §3b — NEUROSCIENCE VALIDATION: PE ≠ REWARD Ở MỨC NEURAL SUBSTRATE
+- §4 — FRAMEWORK MỞ RỘNG: PE + COHERENCE + BODY-FEEDBACK-PRECONDITION
 - §5 — 6 TRƯỜNG HỢP PHÂN BIỆT
 - §6 — TẠI SAO DIỄN GIẢI ĐƠN GIẢN XẢY RA
 - §7 — HONEST ASSESSMENT
@@ -174,7 +176,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Coherence            │ Không cần             │ BẮT BUỘC cho reward  │
   │ Body                 │ Không có              │ Body xử lý trước     │
   │ Random noise         │ PE cao → score thấp  │ PE cao → dở          │
-  │ Preconditions        │ Không cần             │ H10 (5 điều kiện)    │
+  │ Preconditions        │ Không cần             │ Body-Feedback-Precondition│
   └──────────────────────┴──────────────────────┴──────────────────────┘
 
   → AI DÙNG PE = reward vì reward ĐÃ DEFINED — hợp lý cho AI
@@ -221,26 +223,104 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ⑤ Không có association tag negative
 
   → "HAY" = PE + Coherence + Goldilocks + Adequate chunks + No negative tag
-  → = H10 5 preconditions ĐỀU phải thỏa mãn
+  → = Body-Feedback-Precondition 5 preconditions ĐỀU phải thỏa mãn
   → = PE là BƯỚC 1 — cần thiết. Nhưng cần thêm 4 yếu tố nữa.
 
   RANDOM NOTE FAIL Ở ĐÂU?
-    ✅ P3 prediction-delta: CÓ (note mới = unexpected) — PE pass
-    ❌ P4 Goldilocks: KHÔNG (note random phá structure → quá alien)
+    ✅ Precondition-3 Delta-Gate: CÓ (note mới = unexpected) — PE pass
+    ❌ Precondition-4 Match-Range: KHÔNG (note random phá structure → quá alien)
     ❌ Coherence: KHÔNG (note không fit cấu trúc)
     → PE pass nhưng coherence + Goldilocks fail → dissonance
 
   NHẠC MỚI HAY PASS Ở ĐÂU?
-    ✅ P3 prediction-delta: CÓ (bài mới = unexpected elements)
-    ✅ P4 Goldilocks: CÓ (vừa quen vừa lạ)
+    ✅ Precondition-3 Delta-Gate: CÓ (bài mới = unexpected elements)
+    ✅ Precondition-4 Match-Range: CÓ (vừa quen vừa lạ)
     ✅ Coherence: CÓ (phần mới FIT vào structure)
-    ✅ P2 chunks: CÓ (người nghe có đủ kinh nghiệm nhạc)
+    ✅ Precondition-2 Chunk-Substrate: CÓ (người nghe có đủ kinh nghiệm nhạc)
     → ALL pass → body-base reward signal → REWARD → "hay!"
 ```
 
 ---
 
-## §4 — FRAMEWORK MỞ RỘNG: PE + COHERENCE + H10
+## §3b — NEUROSCIENCE VALIDATION: PE ≠ REWARD Ở MỨC NEURAL SUBSTRATE
+
+```
+⭐⭐ §3 SPOTIFY TEST = FRAMEWORK PREDICTS.
+    §3b = NEUROSCIENCE CONFIRMS.
+
+  §3 argument bằng LOGIC: random note = PE cao nhưng dở → PE chưa đủ.
+  §3b bổ sung bằng NEUROSCIENCE DATA: 3 landmark papers xác nhận
+  PE và reward = 2 thứ KHÁC NHAU ở mức não bộ.
+
+
+  ═══ VALIDATION 1: Salimpoor 2011 — 2 vùng não, 2 thời điểm ═══
+
+  🟢 Salimpoor et al. 2011 (Nature Neuroscience 14:257-262)
+      ~1,600+ citations. PET [11C]raclopride.
+
+  Finding:
+    CAUDATE active during ANTICIPATION of musical peak
+    → = Steps 1-3: VTA detect delta → dopamine cascade → "sắp tới!"
+
+    NUCLEUS ACCUMBENS active during EXPERIENCE of peak
+    → = Steps 5-6: body evaluate → opioid release → "HAY!"
+
+  Tại sao đây là validation:
+    ① 2 vùng não KHÁC NHAU → prediction ≠ experience (different substrates)
+    ② 2 thời điểm KHÁC NHAU → anticipation ≠ pleasure (different phases)
+    ③ = PE (Steps 1-3) và Reward (Steps 5-6) tách rời ở mức NEURAL
+    ④ = "Spotify Test" (§3) construct → Salimpoor = EMPIRICAL confirmation
+
+  Supporting:
+    🟢 Ferreri et al. 2019 (PNAS): levodopa tăng + risperidone giảm
+    musical pleasure BIDIRECTIONALLY → dopamine = causal, not just correlated
+
+
+  ═══ VALIDATION 2: Cheung 2019 — Goldilocks 80,000 chords ═══
+
+  🟢 Cheung et al. 2019 (Current Biology 29:4084-4092)
+      80,000 chords from Billboard Hot 100 (1958-1991).
+      Information-theoretic measures: entropy (uncertainty) + surprise.
+
+  Finding:
+    Pleasure = MAX khi:
+      UNCERTAINTY CAO (nhiều chords khả dĩ) + OUTCOME POSITIVE (chord FIT context)
+    → = Surprising BUT coherent = peak pleasure
+
+  Tại sao đây là validation:
+    §3 Spotify Test predicts:
+      Random note = PE cao nhưng NO coherence → dở
+      Perfect prediction = PE zero → nhạt
+      Sweet spot = PE + coherence → hay
+    Cheung 2019 QUANTIFIES this EXACT relationship bằng 80k data points.
+    → = "Spotify Test" (§3) = validated by empirical data
+
+  Supporting:
+    🟢 Gold et al. 2019 (PNAS): pleasure = interaction acoustic × schematic.
+    Acoustic features (sensory) hay schematic expectations (cognitive) ALONE
+    không đủ — cần INTERACTION = cần CẢ PE VÀ coherence.
+    = Body-Feedback-Precondition: ALL preconditions needed simultaneously.
+
+
+  ═══ TỔNG HỢP ═══
+
+  §3 (Spotify Test)  = Framework PREDICTS: random PE ≠ reward
+  §3b Salimpoor 2011 = Neuroscience CONFIRMS: 2 regions, 2 times = 2 steps
+  §3b Cheung 2019    = Neuroscience CONFIRMS: Goldilocks = 80k data points
+
+  = §3 prediction → §3b validation → STRENGTHENS entire file.
+  = PE ≠ Reward không chỉ logical argument — có NEURAL SUBSTRATE evidence.
+
+  ⚠️ CAVEAT:
+    Opioid role trong music pleasure: body-level confirmed (Mallik 2017,
+    naltrexone giảm physiological response). Subjective pleasure unclear
+    (Mas-Herrero 2023). Does NOT undermine multi-step model — chỉ refines
+    Step 6 (body-level) vs Step 7 (conscious experience).
+```
+
+---
+
+## §4 — FRAMEWORK MỞ RỘNG: PE + COHERENCE + BODY-FEEDBACK-PRECONDITION
 
 ```
 ⭐ CƠ CHẾ ĐẦY ĐỦ — PE LÀ BƯỚC 1 CỦA 7:
@@ -259,12 +339,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → NOT FIT (incoherent) → preparation cho dissonance
     → = Bước này CHƯA CÓ trong PE research gốc (animal context quá đơn giản)
 
-  BƯỚC 3 — H10 PRECONDITIONS CHECK:
-    → P1: Body-need gap open? (có cần không?)
-    → P2: Chunks base adequate? (có đủ chunks để đánh giá không?)
-    → P3: prediction-delta threshold met? ← PE ở đây
-    → P4: Goldilocks zone? (vừa quen vừa mới?)
-    → P5: Chunk association tag? (không bị tagged avoidance?)
+  BƯỚC 3 — BODY-FEEDBACK-PRECONDITION CHECK:
+    → Precondition-1 Directed-Gap: Body-need gap open? (có cần không?)
+    → Precondition-2 Chunk-Substrate: Chunks base adequate? (có đủ chunks để đánh giá không?)
+    → Precondition-3 Delta-Gate: prediction-delta threshold met? ← PE ở đây
+    → Precondition-4 Match-Range: Goldilocks zone? (vừa quen vừa mới?)
+    → Precondition-5 Compile-Gate: Chunk association tag? (không bị tagged avoidance?)
     → ALL 5 required. Missing ANY → reward không fire.
 
   BƯỚC 4 — SIGNAL FIRE:
@@ -275,12 +355,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → PE = BƯỚC 1 (attention). NỀN TẢNG, CẦN THIẾT.
   → REWARD = BƯỚC 4 (body-base evaluation → signal fire). Sau khi qua BƯỚC 2 + 3.
   → Framework thêm Bước 2-3 vào giữa — đây là phần nghiên cứu gốc chưa cover.
-  → = "Chuông cửa reo (PE) → kiểm tra khách (coherence + H10)
+  → = "Chuông cửa reo (PE) → kiểm tra khách (coherence + Body-Feedback-Precondition)
        → mới biết quà (reward) hay rắn (dissonance)"
 
   ⚠️ LƯU Ý QUAN TRỌNG — REWARD ≠ SINGLE CHEMICAL:
     Reward = PROCESS multi-step, KHÔNG phải 1 chất duy nhất.
-    → Evaluative: opioid = primary chemical. Cần H10. Phức tạp.
+    → Evaluative: opioid = primary chemical. Cần Body-Feedback-Precondition. Phức tạp.
       VD: nghe nhạc hay, giải puzzle, insight, connection sâu.
     → Direct-State: NON-opioid (CT afferents, endocannabinoid).
       VD: touch, ôm ấm, tập thể dục, warmth. Có từ sơ sinh.
@@ -306,7 +386,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Step 1: VTA detect delta (PE) — ATTENTION ← Schultz 1997
     Step 2: Dopamine cascade (salience) — ALERTING
     Step 3: Spreading activation (chunks fire)
-    Step 4: Body-base evaluate (coherence + H10) ← Framework thêm
+    Step 4: Body-base evaluate (coherence + Body-Feedback-Precondition) ← Framework thêm
     Step 5: Body-base VOTE (reward/dissonance) — EVALUATION
     Step 6: Opioid release (if reward) — ACTUAL REWARD
     Step 7: PFC observe (feeling) — CONSCIOUS EXPERIENCE
@@ -349,18 +429,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CASE 5 — PE cao + CONFUSED:
     Free jazz lần đầu nghe (người không quen)
-    → PE cực cao + chunks base KHÔNG adequate (P2 fail)
+    → PE cực cao + chunks base KHÔNG adequate (Precondition-2 fail)
     → Body KHÔNG evaluate được → confused → "chả hiểu"
-    → = PE cao nhưng P2 fail → không reward, không dissonance rõ
-    → NHƯNG: người có chunks jazz → P2 pass → CÓ THỂ reward
+    → = PE cao nhưng Precondition-2 fail → không reward, không dissonance rõ
+    → NHƯNG: người có chunks jazz → Precondition-2 pass → CÓ THỂ reward
     → = Reward PER-PERSON (tùy chunk library), không universal
 
   CASE 6 — PE cao + BLOCKED:
     Bài nhạc mới hay NHƯNG do người ghét hát
     → PE fire + coherence ok + Goldilocks ok
-    → NHƯNG P5 association tag = AVOIDANCE (ghét người hát)
+    → NHƯNG Precondition-5 Compile-Gate = AVOIDANCE (ghét người hát)
     → Body block reward → "bài hay nhưng ghét nghe"
-    → = PE + coherence pass, nhưng P5 fail → reward blocked
+    → = PE + coherence pass, nhưng Precondition-5 fail → reward blocked
 
   → 6 cases cho thấy: PE và REWARD = 2 biến ĐỘC LẬP ở người
   → Case 1 (simple) ≈ animal research context — PE ≈ reward, nghiên cứu đúng
@@ -423,13 +503,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Goldilocks zone / optimal novelty (Berlyne 1960) ✅
   → AI/RL uses PE as reward signal successfully (TD learning) ✅
 
-🟡 FRAMEWORK SYNTHESIS (mở rộng từ research):
+🟢 v2.1 UPGRADED (music neuroscience validation — §3b):
   → PE = attention signal, NOT sufficient for reward ở người
-    (consistent with Berridge, framework thêm mechanism detail)
+    (v2.0: 🟡 consistent with Berridge. v2.1: 🟢 Salimpoor 2011 confirms
+    caudate (anticipation) ≠ NAcc (experience) = 2 neural substrates, 2 phases.
+    PE = Steps 1-3, Reward = Steps 5-6 — temporal + spatial dissociation.)
+  → PE + coherence = reward formula (Goldilocks applied to PE)
+    (v2.0: 🟡 "Spotify Test" = logical construct. v2.1: 🟢 Cheung 2019
+    QUANTIFIES with 80,000 chords — pleasure MAX khi uncertainty (PE) CAO
+    + outcome POSITIVE (coherence). §3 construct → §3b validation.
+    Note: Goldilocks CONCEPT = 🟢 established (Berlyne 1960, §7 ESTABLISHED).
+    Upgrade ở đây = cách framework APPLY Goldilocks cho PE vs reward.)
+
+🟡 FRAMEWORK SYNTHESIS (mở rộng từ research):
   → Coherence evaluation as separate step
     (framework organizing, consistent with neuroscience, chưa formalized elsewhere)
-  → H10 5 preconditions (framework hypothesis, empirically testable)
-  → 4-step mechanism (VTA → coherence → H10 → body-base signal) — framework integration
+  → Body-Feedback-Precondition 5 preconditions (framework hypothesis, empirically testable)
+  → 4-step mechanism (VTA → coherence → Body-Feedback-Precondition → body-base signal) — framework integration
   → Evaluative/Direct-State reward distinction (opioid vs non-opioid pathways)
   → AI/human distinction re: PE (logical argument, testable)
 
@@ -441,7 +531,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⚠️ TÓM LẠI:
   → PE research = NỀN TẢNG. Đúng. Có giá trị. Framework kế thừa.
   → Framework KHÔNG bác bỏ Schultz 1997 hay Berridge.
-  → Framework MỞ RỘNG: thêm coherence + H10 + Evaluative/Direct-State cho con người.
+  → Framework MỞ RỘNG: thêm coherence + Body-Feedback-Precondition + Evaluative/Direct-State cho con người.
   → Reward = PROCESS, không phải chemical (không opioid cũng không dopamine).
   → = Đặt PE đúng vị trí (Step 1 of 7), không phải bỏ PE.
   → = CLARIFICATION + EXTENSION, không phải rejection.
@@ -461,7 +551,7 @@ WITHIN FRAMEWORK:
   Gap-Direction.md — ⭐ 2-layer model formalizes PE vs reward:
     Layer 1 = signal mechanism (PE), Layer 2 = direction content (gap direction)
   Dopamine-Is-Not-Reward.md — dopamine ≠ reward, 7-step mechanism
-  Body-Feedback.md — H10 5 preconditions, dual-pull architecture
+  Body-Feedback.md — Body-Feedback-Precondition 5 preconditions, dual-pull architecture
   Body-Feedback-Mechanism.md — 3 chunk dynamics (Shift/Miss/Gap)
   03-Reward.md — ô tô paradox, Van Gogh gradient, reward mechanism
   Chunk.md v2.0 — chunk substrate, activation dynamics
@@ -469,6 +559,13 @@ WITHIN FRAMEWORK:
   Feeling.md v2.1 §2.2b — PFC threshold 2 chiều (magnitude × clarity)
   Why-Body-Knows.md §2 — Goldilocks zone
   Novelty.md — VTA as seismograph, novelty ≠ reward
+
+Drill-Sound-Brain (v2.1 — music neuroscience validation):
+  Drill-Sound-Brain/03-Sound-Reward-Pipeline.md §2, §4
+    → Salimpoor 2011 (caudate ≠ NAcc) + Cheung 2019 (80k chords)
+    → Per-step validation of 7-step mechanism
+  Drill-Sound-Brain/10-Synthesis.md §2 Validation 1, 3
+    → PE ≠ Reward (Validation 1) + Goldilocks (Validation 3)
 
 KEY RESEARCH (framework ghi nhận + kế thừa):
   Schultz 1997 — VTA PE signal (foundational — framework builds on this)
@@ -478,14 +575,22 @@ KEY RESEARCH (framework ghi nhận + kế thừa):
   Crespi 1942 / Flaherty 1996 — SNC (baseline violation)
   Fields 2007 — opioid hedonic system
   Sutton & Barto 1998 — TD learning (PE works for AI — đúng cho AI)
+
+v2.1 RESEARCH (§3b validation):
+  🟢 Salimpoor et al. 2011 (Nature Neuroscience 14:257-262) — caudate ≠ NAcc,
+      anticipation ≠ experience, ~1,600+ citations, PET raclopride
+  🟢 Cheung et al. 2019 (Current Biology 29:4084-4092) — 80k chords,
+      pleasure MAX = uncertainty CAO + outcome POSITIVE
+  🟢 Ferreri et al. 2019 (PNAS) — bidirectional dopamine modulation (causal)
+  🟢 Gold et al. 2019 (PNAS) — acoustic × schematic interaction required
 ```
 
 ---
 
-> *Prediction Error v2.0 — "PE (Schultz 1997) = phát hiện nền tảng, đúng, có giá trị.
+> *Prediction Error v2.1 — "PE (Schultz 1997) = phát hiện nền tảng, đúng, có giá trị.
 > Framework kế thừa: PE = Step 1 (attention signal). Reward ở con người
-> = multi-step process, cần thêm: coherence + H10 + body-base evaluation.
-> Reward ≠ single chemical (không dopamine, cũng không chỉ opioid).
-> Animal research = context đơn giản. Con người = phức tạp hơn nhiều.
-> Spotify test: random note = PE cao nhất nhưng dở nhất.
+> = multi-step process, cần thêm: coherence + Body-Feedback-Precondition + body-base evaluation.
+> v2.1: §3b Neuroscience Validation — Salimpoor 2011 confirms caudate (anticipation)
+> ≠ NAcc (experience) = PE ≠ Reward ở mức neural substrate. Cheung 2019
+> validates Goldilocks with 80k chords. §3 construct → §3b validation.
 > PE = chuông cửa — foundational. Quà hay rắn = body evaluate thêm."*

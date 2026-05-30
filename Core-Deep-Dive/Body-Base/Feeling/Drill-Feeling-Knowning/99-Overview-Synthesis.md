@@ -116,7 +116,7 @@ Looking across all 6 themes, here are 10 meta-insights that emerge when we view 
 | Theme | How body-first appears |
 |---|---|
 | A Architecture | Explicit: "Body computes → Feeling emerges → PFC observes. NEVER reversed." 4 evidences (Libet, Damasio, Craig, Gendlin). |
-| D Right/Wrong | Wrongness feeling emerges at Layer 3 BEFORE PFC labels. Einstein: body simulation contradiction BEFORE math formalization. |
+| D Right/Wrong | Wrongness feeling emerges at Feel-Consciousification BEFORE PFC labels. Einstein: body simulation contradiction BEFORE math formalization. |
 | B Verbal-Chain | Plan (body/PFC sequential) came ~2 mya BEFORE verbal ~50-200k years. Verbal downstream of body-sourced chains. |
 | C Ritual | Ritual compiles body-level via repetition + emotion BEFORE conscious deliberation. Bypass PFC entirely. |
 | E Empathy-Giving | Resonance simulator runs body-level BEFORE PFC interpretation. Thiện cảm felt before explained. |
@@ -501,7 +501,7 @@ Session đã answer 40+ user sub-questions across 6 themes. Section này consoli
 → **Partial YES**. PFC has attention direction + anchor setting + reload cycle (Imagine-Final §1.5 Lifecycle). BUT "active hold for chain" is actually **background processing** (Phase 3) — DMN, REM consolidation, spreading activation. PFC doesn't wait actively, it disengages and reloads. **Confidence: MEDIUM**.
 
 **Q: "Từ PFC detect body-base cơ bản tới PFC detect qua lớp imagine mờ mờ — cùng cơ chế hay khác?"**
-→ **CÙNG cơ chế**, khác signal strength + source. Clear signals (đói) reach Layer 5-6 easily. Fuzzy signals (felt sense) stay at Layer 3-4. Same PFC observation interface, different fidelity levels. **Confidence: MEDIUM-HIGH**.
+→ **CÙNG cơ chế**, khác signal strength + source. Clear signals (đói) reach Feel-Location–Feel-Labeling easily. Fuzzy signals (felt sense) stay at Feel-Consciousification–Feel-Observation. Same PFC observation interface, different fidelity levels. **Confidence: MEDIUM-HIGH**.
 
 **Q: "Hay là cơ chế xử lý khác nữa nhỉ?"**
 → **KHÔNG có secret third mechanism**. Framework has: ONE observation interface + bidirectional flow + many sources feeding integration + potential deeper unification via predictive processing (not committed). **Confidence: HIGH**.
@@ -515,7 +515,7 @@ Session đã answer 40+ user sub-questions across 6 themes. Section này consoli
 → **YES, verified**. Spelke Core Knowledge Systems (Harvard 2007) + Baillargeon violation-of-expectation (1987+). Replicated cross-cultural 40+ years. Infants 5-6 months apply different rules to Object vs Agent. **Framework explicitly cites in Mirror-Neuron-Analysis.md**. **Confidence: HIGH**.
 
 **Q: "Einstein cảm thấy không đúng về Newton — mechanism?"**
-→ **Cross-domain body simulation** (agent processing applied to object). Body simulates riding light beam → Maxwell schema contradiction → Layer 3 wrongness → PFC investigates → eventually math verifies. **Hadamard letter 1945 primary source**: "visual + muscular type, math sought laboriously only in SECONDARY STAGE". **Confidence: HIGH**.
+→ **Cross-domain body simulation** (agent processing applied to object). Body simulates riding light beam → Maxwell schema contradiction → Feel-Consciousification wrongness → PFC investigates → eventually math verifies. **Hadamard letter 1945 primary source**: "visual + muscular type, math sought laboriously only in SECONDARY STAGE". **Confidence: HIGH**.
 
 **Q: "Multi-input hay single input?"**
 → **MULTI-INPUT**. Cognitive pattern matching + body simulation + compiled chunks + ACC error + prediction error. Multiple channels integrate. **Confidence: HIGH**.
@@ -524,13 +524,13 @@ Session đã answer 40+ user sub-questions across 6 themes. Section này consoli
 → **Gradient, not binary**. 4 dimensions: signal strength + source variety + temporal persistence + PFC clarity. Body integration is continuous. **Confidence: MEDIUM-HIGH**.
 
 **Q: "Scientist thấy sinh vật lạ — mechanism?"**
-→ **Compiled schema mismatch**. Years of species/ecology chunks + current observation → pattern mismatch → prediction error → Layer 3 wrongness → investigation. Same mechanism as Einstein + child VoE, different domain. **Confidence: HIGH**.
+→ **Compiled schema mismatch**. Years of species/ecology chunks + current observation → pattern mismatch → prediction error → Feel-Consciousification wrongness → investigation. Same mechanism as Einstein + child VoE, different domain. **Confidence: HIGH**.
 
 **Q: "Random hay compiled?"**
 → **COMPILED, not random**. Innate Core Knowledge (Spelke) + learned chunks. Specific neural mechanisms (ACC, hippocampus, cortex). **Confidence: HIGH**.
 
 **Q: "Partner hành vi bất thường — mechanism?"**
-→ **Resonance mismatch**. Compiled relationship chunks + current observation → mismatch → Layer 3 wrongness → PFC engages. Case A (cold) and Case B (unexpectedly polite) = **same mechanism**, different PFC strategy (active vs passive investigation). **Confidence: HIGH**.
+→ **Resonance mismatch**. Compiled relationship chunks + current observation → mismatch → Feel-Consciousification wrongness → PFC engages. Case A (cold) and Case B (unexpectedly polite) = **same mechanism**, different PFC strategy (active vs passive investigation). **Confidence: HIGH**.
 
 ### §3.3 — Theme B (Verbal × Chain) — 6 sub-questions
 
@@ -600,7 +600,7 @@ Session đã answer 40+ user sub-questions across 6 themes. Section này consoli
 → **Any of**: safe agent, prior positive interactions, moral alignment, resemblance to loved one, reciprocal gift, community belonging, vulnerability, competence shown. Multiple triggers possible, often compound. **Confidence: HIGH**.
 
 **Q: "Khi nào giúp mà thấy khó chịu?"**
-→ **4 sub-cases**: A. Cost > reward, B. Recipient rejection (prediction error + L3 hit), C. Low reaction vs high expectation, D. Exploitation discovered (major trust break). All involve Resonance negative fit or trust violation. **Confidence: HIGH**.
+→ **4 sub-cases**: A. Cost > reward, B. Recipient rejection (prediction error + status hit), C. Low reaction vs high expectation, D. Exploitation discovered (major trust break). All involve Resonance negative fit or trust violation. **Confidence: HIGH**.
 
 **Q: "Cho đi vô tư — trained, default, or broader schema?"**
 → **Primarily OPTION 3 (broader schema)** + elements of OPTION 1 (trained). NOT option 2 (random). Trust anchored in broad schema (religious/values/abundance) so individual responses don't dominate body-level evaluation. **Confidence: MEDIUM** (framework doesn't formalize "broad schema trust" explicitly, but principle clear).
@@ -801,7 +801,7 @@ SELF-PATTERN MATCH (mechanism — PFC observation interface)
 ├── L0 Threat
 ├── L1 Physiological
 ├── L2 Novelty
-├── L3 Mastery/Meaning
+├── Mastery/Meaning (evaluative)
 ├── Agent Input
 ├── Mirror / Resonance (interpersonal — refined from "mirror")
 ├── Schema (compiled memory)
@@ -925,7 +925,7 @@ Theme analysis isn't just academic. If framework is correct, it has specific pra
 - Feeling literacy = ability to READ the compiled layer
 
 **What it involves** (from Feeling-Accuracy.md §5):
-1. Access — notice feelings (Layer 3-4)
+1. Access — notice feelings (Feel-Consciousification–Feel-Observation)
 2. Location — where in body
 3. Vocabulary — richness of labels
 4. Attribution — mapping feeling to cause
@@ -937,7 +937,7 @@ Theme analysis isn't just academic. If framework is correct, it has specific pra
 
 **How to train** (Feeling-Accuracy §7):
 - Meditation / mindfulness (Farb 2013 🟢 improved interoceptive accuracy)
-- **Focusing (Gendlin)** — direct Layer 3 access method, 50+ years clinical
+- **Focusing (Gendlin)** — direct Feel-Consciousification access method, 50+ years clinical
 - Body awareness practices (yoga, Feldenkrais, Alexander)
 - Therapy modalities (EFT, IFS, Hakomi, AEDP)
 - Journaling (verbal articulation practice — see Theme B)
@@ -952,7 +952,7 @@ Theme analysis isn't just academic. If framework is correct, it has specific pra
 **Practical decision framework** (synthesizing framework):
 
 **Small decisions** (daily):
-- Trust body signals at Layer 3-4
+- Trust body signals at Feel-Consciousification–Feel-Observation
 - Don't over-deliberate
 - Examples: "which route to work", "what to eat" — feeling-guided is fine
 
@@ -973,7 +973,7 @@ Theme analysis isn't just academic. If framework is correct, it has specific pra
 - Expert intuition = compiled feelings (Klein 1998)
 - Trust body's "something's off" signal (de Becker "Gift of Fear")
 
-**Framework's warning**: Decisions based on Layer 7 explanations often = wrong actions.
+**Framework's warning**: Decisions based on Feel-Explanation explanations often = wrong actions.
 - "I feel tired because work is hard" → quit job vs actually bad sleep + no exercise
 - "I feel empty, need relationship" → chase partner vs actually lost meaning at work
 - "I'm angry at driver" → road rage vs actually stressed + hungry
@@ -1044,11 +1044,11 @@ Theme analysis isn't just academic. If framework is correct, it has specific pra
 
 **Personal ritual examples framework supports**:
 - **Morning body scan** (5-10 min interoception practice)
-- **Focusing session** (structured Layer 3 access, Gendlin method)
+- **Focusing session** (structured Feel-Consciousification access, Gendlin method)
 - **Gratitude journal** (compiles positive valence chunks)
 - **Daily reflection** (activates DMN background processing for insights)
 - **Yoga / movement practice** (body awareness + schemas)
-- **Meditation** (trains Layer 3-4 access over Layer 6-7)
+- **Meditation** (trains Feel-Consciousification–Feel-Observation access over Feel-Labeling–Feel-Explanation)
 
 **What makes ritual EFFECTIVE vs empty habit**:
 - **Effective**: engaged attention + emotional weight + connection to meaning
@@ -1119,7 +1119,7 @@ Modern era = maximum complexity + minimum anchor:
 **Framework's AI position** (Feeling-Research §15, Empathy-Mirror §9):
 
 AI can simulate:
-- Layer 6-7 language processing
+- Feel-Labeling–Feel-Explanation language processing
 - Cognitive empathy (theory of mind from text)
 - Rule-based responses
 - Pattern matching on data
@@ -1128,7 +1128,7 @@ AI can simulate:
 AI cannot (per framework):
 - Have interoception (no body)
 - Generate actual body-state feelings
-- Run Layer 1-3 body integration
+- Run Feel-RawSignals–Feel-Consciousification body integration
 - Have real Resonance (no body for simulation to use)
 - Compiled body-level wisdom
 
@@ -1166,7 +1166,7 @@ AI cannot (per framework):
 - Rituals + routines (compile Anchor-Schemas early)
 
 **Middle childhood (5-12 years)**:
-- Expand feeling vocabulary (Layer 6 granularity — Barrett)
+- Expand feeling vocabulary (Feel-Labeling granularity — Barrett)
 - Discuss emotions openly (no "don't cry")
 - Family rituals (dinner, bedtime, weekly activities)
 - Body practices (sports, dance, arts) — compile body knowledge
@@ -1180,8 +1180,8 @@ AI cannot (per framework):
 - Feeling literacy explicit (metacognitive)
 
 **Framework's education critique**:
-- Traditional schools over-emphasize Layer 6-7 (verbal logic)
-- Under-develop Layer 3-4 (body literacy)
+- Traditional schools over-emphasize Feel-Labeling–Feel-Explanation (verbal logic)
+- Under-develop Feel-Consciousification–Feel-Observation (body literacy)
 - Miss positive trust cultivation (threat-based learning via grades → cortisol compile)
 - Lose creative insight (feeling-first) to pure logic
 - Theme D Case 5 (mẹ bảo học): "Logic đúng destination, feeling đúng journey cost"
@@ -1199,8 +1199,8 @@ AI cannot (per framework):
 **Framework's mental health framing** (from Feeling-Research §14 + themes):
 
 **Many "disorders" involve feeling system dysfunction**:
-- **Alexithymia** (~10% population): can't access Layer 4+, body suffers while PFC unlabels
-- **Depression**: sustained feeling state, distorted interpretation, L3 meaning deficit
+- **Alexithymia** (~10% population): can't access Feel-Observation+, body suffers while PFC unlabels
+- **Depression**: sustained feeling state, distorted interpretation, meaning deficit (evaluative)
 - **Anxiety**: L0 threat over-activation, chronic cortisol damage, prediction error amplified
 - **PTSD**: trauma schema encoding overwhelms, subsequent triggers fire stored pattern
 - **Addiction**: often secondary to alexithymia / trauma, substance suppresses feelings
@@ -1509,7 +1509,7 @@ These are framework claims with limited research support. Should be flagged clea
 
 **Quantitative**:
 - **Specific numbers** (5 cm³ Broca, ~80% compiled, 4±1 chain limit): Rough estimates, not measured directly in framework context.
-- **Fidelity percentages per layer** (Layer 1 100%, Layer 7 20-70%): Illustrative, not measured.
+- **Fidelity percentages per layer** (Feel-RawSignals 100%, Feel-Explanation 20-70%): Illustrative, not measured.
 - **Compression ratios** (9:1 for "yêu em"): Illustrative, not measured.
 - **Mix ratios across entity types** (cục đá 100/0, con mới sinh 10/90): Heuristic, not measured.
 

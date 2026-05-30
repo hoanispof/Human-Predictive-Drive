@@ -35,6 +35,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 >
 > Body (B+C+D) xử lý ~95% tự động.
 > PFC (~5%) quyết định HƯỚNG.
+> ⚠️ % = calibration anchor, KHÔNG phải đo lường chính xác.
 > "Vô thức xây nhà, PFC chọn XÂY Ở ĐÂU." — Chunk.md §8.1
 >
 > PFC KHÔNG điều khiển trực tiếp body.
@@ -73,9 +74,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ① OBSERVE FEELING (7-layer fidelity gradient):
      → Feeling = integrated body-chunk signal emerge tại anterior insula (B)
-     → PFC observe ở Layer 4+ (observation → location → label → explanation)
+     → PFC observe ở Feel-Observation+ (observation → location → label → explanation)
      → Fidelity GIẢM DẦN: raw 100% → explanation 20-70%
-     → Wise: trust Layer 3-4 (pre-label). Naive: trust Layer 6-7 (lossy)
+     → Wise: trust Feel-Consciousification-Feel-Observation (pre-label). Naive: trust Feel-Labeling-Feel-Explanation (lossy)
      → TRAINABLE: meditation, Focusing, somatic therapy → access lower layers
      Source: Feeling.md v2.0 §2
 
@@ -171,13 +172,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → NÂNG CẤP: practice imagination + body-check (not just verbal fantasy)
      Source: Imagine-Final.md, Imagination-Analysis-v2.md
 
-  ⑪ DOMAIN-CHECK (verify smooth vs reality — 1A vs 1B):
+  ⑪ DOMAIN-CHECK (verify smooth vs reality — Domain-Checked vs Self-Referencing):
      → PFC = BỘ CHECK DOMAIN DUY NHẤT — tắt PFC = mất check
-     → 1A (domain-real): chunks tested against EXTERNAL REALITY regularly
+     → Domain-Checked: chunks tested against EXTERNAL REALITY regularly
        → Body vote ACCURATE: smooth = actually correct
-     → 1B (self-referencing): chunks tested against EXISTING CHUNKS only
+     → Self-Referencing: chunks tested against EXISTING CHUNKS only
        → Body vote MISLEADING: smooth = consistent with self (NOT reality)
-     → = Scientist, craftsman = 1A. Echo chamber, ideologue = 1B.
+     → = Scientist, craftsman = Domain-Checked. Echo chamber, ideologue = Self-Referencing.
      → NÂNG CẤP: deliberately seek domain feedback, not just internal coherence
      Source: Chunk.md v2.0 §10.3
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: By-Product-Gap-Resonance — Observation Lens for Mutual By-Product Match
 version: 1.4
 created: 2026-05-19
@@ -13,9 +13,9 @@ changes_v1.3: |
   §11 trimmed: amplification + trajectory → BRIEF + cross-ref Resonance-Sustainability.md v1.0 §6-§13
   Resonance-Sustainability.md v1.0 added to dependencies + §18 cross-references
 changes_v1.2: |
-  § 9 trimmed: over-clone reframe + gap-clone impossible → BRIEF + cross-ref Bond-Architecture.md v1.0 §3
-  §10 trimmed: 4 mechanisms resonance decline → BRIEF + cross-ref Bond-Architecture.md v1.0 §4
-  Bond-Architecture.md v1.0 added to dependencies + §18 cross-references
+  § 9 trimmed: over-clone reframe + gap-clone impossible → BRIEF + cross-ref Bond-Architecture.md v2.0 §3
+  §10 trimmed: Resonance Decline (2 Forces + 1 Fuel) → BRIEF + cross-ref Bond-Architecture.md v2.0 §4
+  Bond-Architecture.md v2.0 added to dependencies + §18 cross-references
 previous_versions:
   - v1.0 (2026-05-19) → backup/By-Product-Gap-Resonance-v1.0-backup.md
   - Pattern-Resonance v3.1 → backup/Pattern-Resonance-v3.1-backup.md
@@ -30,13 +30,13 @@ scope: |
   v1.1 KEY CHANGES từ v1.0:
     ① 4 Conditions enriched (positive valence + mutual Agent-mode + gap overlap + drive riêng)
     ② Over-clone reframe: observation label, 3 mechanisms thật, gap-clone impossible
-    ③ Resonance decline: 4 mechanisms (M1 compiled suppress + M2 habituation + M3 prediction completion + M4 Entity-Compiled saturation)
+    ③ Resonance Decline: 2 Forces (Compiled-Suppress + Reward-Habituated) + 1 Fuel (Novelty Threshold) + Gap Drift
     ④ Enhancers formalized: 5 enhancers TÁCH RIÊNG khỏi Resonance Core
     ⑤ Sustainability: 3 primitive conditions, 3 modalities, amplification mechanisms → TÁCH Resonance-Sustainability.md v1.0
     ⑥ 3 Scales preview: Pair / Hub / Institutional → TÁCH By-Product-Scale.md v1.0
     ⑦ Resonance Core vs Enhancers distinction
     ⑧ "Duyên số" = filtering cost (3 types)
-    ⑨ PFC-Operations + Entity-Access + Entity-Compiled + Simulation Engine integration
+    ⑨ PFC-Operations + Entity-Access + Entity-Compiled + Simulation-Engine integration
     ⑩ Self-Pattern-Modeling references: Self-Pattern-Match → Self-Pattern-Modeling v3.1
   Viết tắt: Resonance, Gap-Resonance, hoặc By-Product-Resonance (tùy context)
   KHÔNG viết tắt thành abbreviation.
@@ -62,7 +62,7 @@ dependencies:
   - PFC-Operations.md v1.0 — Hold/Suppress, compiled quality, PFC budget
   - Simulation-Engine.md v1.0 — resonance as application on shared engine
   - Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation 40→200h, Grief A+B+C
-  - Bond-Architecture.md v1.0 — cross-bond: 4 types, over-clone, 4 mechanisms decline
+  - Bond-Architecture.md v2.0 — cross-bond: 4 types, over-clone, Resonance Decline (2 Forces + 1 Fuel)
   - Resonance-Sustainability.md v1.0 — sustainability: 3 conditions, 3 modalities, amplification, trajectory
   - Entity-Access.md v1.0 — 3-Factor Model, Gradient Mức 0-5
   - Gap-Distribution-Profile.md v1.0 — gap landscape, 4 trục, body-domain tail
@@ -84,7 +84,7 @@ dependencies:
 sources:
   - By-Product-Gap-Resonance v1.0 (1,995L) — previous version
   - Drill-PR-Definition v1.0 (11 insights) — Core vs Enhancers, 5 trục, "duyên số"
-  - Drill-Bond-Architecture v1.0 (23 insights) — 4 bond types, over-clone, 4 mechanisms decline
+  - Drill-Bond-Architecture v2.0 (23 insights) — 4 bond types, over-clone, Resonance Decline (2 Forces + 1 Fuel)
   - Drill-Over-Self-Pattern-Modeling-Clarification v1.0 §3-§4 — gap-clone impossible, bias prevention
   - Drill-Resonance-Sustainability v1.0 (24 insights) — 3 conditions, 3 modalities, amplification
   - Drill-By-Product-Scale v1.0 (20 insights) — 3 scales, Prestige/Dominance
@@ -111,8 +111,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 >
 > **4 conditions ĐỒNG THỜI: positive valence + mutual Agent-mode + gap overlap + drive riêng.**
 > **"Over-clone kills resonance" = observation label. Mechanism thật = compiled suppress gap riêng.**
-> **4 mechanisms decline: M1 compiled suppress + M2 habituation + M3 prediction complete + M4 Entity-Compiled saturation.**
-> **M1 = accelerator cho M2-M4. Fix M1 = giải phóng drive riêng.**
+> **Resonance Decline: 2 Forces (Compiled-Suppress + Reward-Habituated) + 1 Fuel (Novelty Threshold) + Gap Drift.**
+> **Compiled-Suppress = LEVERAGE POINT. Fix ① = giải phóng drive riêng → counter ② + restore novelty.**
 >
 > **Resonance truyền qua 3 modality: Verbal × Non-verbal × Body-level.**
 > **Sustainability cần: Capitalization + PPR + Secure Base + Self-expansion.**
@@ -141,12 +141,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §7 — 3 PRIMITIVE CONDITIONS + GAP FLEXIBILITY
 - §8 — 3 RESONANCE MODALITIES + SILENCE TAXONOMY
 - §9 — OVER-CLONE REFRAME + GAP-CLONE IMPOSSIBLE
-- §10 — 4 MECHANISMS RESONANCE DECLINE (M1-M4)
+- §10 — RESONANCE DECLINE: 2 FORCES + 1 FUEL
 - §11 — SUSTAINABILITY + AMPLIFICATION
 - §12 — TRUE UNDERSTANDING = ANTI-COMPILED-SUPPRESS
 - §13 — 3 SCALES PREVIEW (Pair / Hub / Institutional)
 - §14 — "DUYÊN SỐ" = FILTERING COST
-- §15 — PFC-Operations + ENTITY-ACCESS + ENTITY-COMPILED + SIMULATION ENGINE
+- §15 — PFC-Operations + ENTITY-ACCESS + ENTITY-COMPILED + SIMULATION-ENGINE
 - §16 — CASES
 - §17 — HONEST ASSESSMENT
 - §18 — CROSS-REFERENCES + RESEARCH CITATIONS
@@ -207,9 +207,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     3 mechanisms thật: gap redirect + compiled suppress + behavior converge.
     "Over-clone kills resonance" → compiled suppress gap riêng = cái thật sự giết.
 
-  4 MECHANISMS DECLINE (§10):
-    M1 compiled suppress (PRIMARY) + M2 habituation + M3 prediction complete + M4 Entity-Compiled saturation.
-    M1 = accelerator cho M2-M4. Fix M1 = highest leverage.
+  RESONANCE DECLINE (§10):
+    2 Forces: Compiled-Suppress (①, LEVERAGE POINT) + Reward-Habituated (②).
+    1 Fuel: Novelty Threshold. + Gap Drift (contextual).
+    Fix ① = highest leverage → counter ② + restore novelty.
 
   SUSTAINABILITY (§7-§8, §11):
     3 Primitive Conditions: Proximity × Duration × Agent-mode.
@@ -251,7 +252,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   C2. 4 conditions cần ĐỒNG THỜI: positive valence, mutual Agent-mode, gap overlap, drive riêng. [🟡]
   C3. Gap-clone = impossible về kiến trúc (5-step proof). [🟡, 🟢 twin evidence]
   C4. Over-clone = observation label. 3 mechanisms thật: redirect + suppress + converge. [🟡]
-  C5. M1 (compiled suppress) = strongest decline mechanism. Accelerate M2-M4. [🟡]
+  C5. Compiled-Suppress = LEVERAGE POINT in Resonance Decline (2 Forces + 1 Fuel). [🟡]
   C6. True understanding = anti-compiled-suppress (7-step logic chain). [🟡, 🟢 Muise 2024]
   C7. 3 modalities (Verbal/Non-verbal/Body-level) = independent contributions. [🟢 per modality]
   C8. Cùng by-product match mechanism hoạt động ở 3 scales: Pair/Hub/Institutional. [🟡]
@@ -263,18 +264,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 v1.1 (2026-05-22): REWRITE — absorb 5 drill files (~78 insights).
-  Sources: Drill-PR-Definition v1.0, Drill-Bond-Architecture v1.0,
+  Sources: Drill-PR-Definition v1.0, Drill-Bond-Architecture v2.0,
            Drill-Over-Self-Pattern-Modeling-Clarification v1.0, Drill-Resonance-Sustainability v1.0,
            Drill-By-Product-Scale v1.0.
   ① 4 Conditions enriched: positive valence + mutual Agent-mode + gap overlap + drive riêng
   ② Over-clone reframe: observation label, 3 mechanisms, gap-clone impossible
-  ③ 4 Mechanisms decline: M1 compiled suppress + M2 habituation + M3 prediction + M4 Entity-Compiled saturation
+  ③ Resonance Decline: 2 Forces (Compiled-Suppress + Reward-Habituated) + 1 Fuel (Novelty Threshold) + Gap Drift
   ④ 5 Enhancers formalized: hardware, chunk/Self-Pattern-Modeling, state, modality, exposure
   ⑤ Sustainability: 3 primitive conditions, 3 modalities, silence 4 types, amplification
   ⑥ 3 Scales: Pair / Hub / Institutional (same mechanism, different topology)
   ⑦ Resonance Core vs Enhancers distinction
   ⑧ "Duyên số" = filtering cost
-  ⑨ Phase A integration: PFC-Operations, Simulation Engine, Entity-Compiled, Entity-Access
+  ⑨ Phase A integration: PFC-Operations, Simulation-Engine, Entity-Compiled, Entity-Access
   ⑩ Self-Pattern-Modeling rename: Self-Pattern-Match → Self-Pattern-Modeling v3.1
 
 v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
@@ -423,7 +424,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
     By-product = output khi entity fill gap CỦA MÌNH.
     → Entity PHẢI CÓ gap + drive riêng → mới CÓ by-product.
     Drive riêng bị suppress → mất by-product → resonance CHẾT.
-    = TẠI SAO M1 compiled suppress = strongest decline mechanism (§10).
+    = TẠI SAO Compiled-Suppress = LEVERAGE POINT in Resonance Decline (§10).
 
   THIẾU 1 CONDITION → KHÔNG PHẢI RESONANCE:
     Positive nhưng 1 chiều → parasocial.
@@ -982,9 +983,9 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 
 ---
 
-## §9 — OVER-CLONE REFRAME + GAP-CLONE IMPOSSIBLE — BRIEF (chi tiết → Bond-Architecture.md v1.0 §3)
+## §9 — OVER-CLONE REFRAME + GAP-CLONE IMPOSSIBLE — BRIEF (chi tiết → Bond-Architecture.md v2.0 §3)
 
-> → CHI TIẾT: Bond-Architecture.md v1.0 §3 (~120L, 28 citations)
+> → CHI TIẾT: Bond-Architecture.md v2.0 §3 (~120L, 28 citations)
 > → KEY MECHANISMS:
 > ```
 > ① Gap clone = IMPOSSIBLE (5-step proof: chunk fraction + Background-Pattern resist + hardware immutable + twins decisive)
@@ -1061,23 +1062,22 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 
 ---
 
-## §10 — 4 MECHANISMS RESONANCE DECLINE (M1-M4) — BRIEF (chi tiết → Bond-Architecture.md v1.0 §4)
+## §10 — RESONANCE DECLINE: 2 FORCES + 1 FUEL — BRIEF (chi tiết → Bond-Architecture.md v2.0 §4)
 
-> → CHI TIẾT: Bond-Architecture.md v1.0 §4 (~100L, per-mechanism analysis + interaction model)
-> → KEY MECHANISMS:
+> → CHI TIẾT: Bond-Architecture.md v2.0 §4 (~110L, 2 Forces + 1 Fuel + Gap Drift + interaction model)
+> → KEY:
 > ```
-> M1 Compiled suppress gap riêng = STRONGEST (tấn công NGUỒN + accelerate M2-M4)
-> M2 Habituation (Weber-Fechner) = tự nhiên, độc lập
-> M3 Prediction completion = Self-Pattern-Modeling quá accurate → no prediction-delta
-> M4 Entity-Compiled saturation = đã compile hết → diminishing returns
-> M1+M2+M3+M4 compound = "over-clone kills resonance"
-> FIX M1 = giải phóng drive riêng → counter M2+M3+M4
+> ① Compiled-Suppress (force) = tấn công NGUỒN + LEVERAGE POINT
+> ② Reward-Habituated (force) = hardware adaptation, tự nhiên, độc lập
+> Novelty threshold (fuel) = nhiên liệu cho ①b growth, threshold-based, probabilistic
+> Gap drift (context) = gap landscapes diverge → direction match ↓
+> ① accelerate ② + drain novelty. Fix ① = highest leverage.
 > ```
 
-### §10.1 — M1: Compiled suppress gap riêng (★ STRONGEST) — BRIEF (chi tiết → Bond-Architecture §4.1)
+### §10.1 — Compiled-Suppress (force — tấn công NGUỒN) ★ LEVERAGE POINT — BRIEF (chi tiết → Bond-Architecture §4.1)
 
 ```
-⭐⭐ M1 TẤN CÔNG NGUỒN BY-PRODUCTS (Drill-Bond-Architecture §4.1):
+⭐⭐ COMPILED-SUPPRESS TẤN CÔNG NGUỒN BY-PRODUCTS:
 
   CƠ CHẾ:
     Schema "phải giống nhau" / fear "theo gap riêng → mất nhau."
@@ -1085,66 +1085,68 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
     → Compiled suppress → flat affect, no own drive.
     → No drive riêng → no by-products riêng → by-product match CHẾT.
 
-  TẠI SAO MẠNH NHẤT:
+  TẠI SAO LÀ LEVERAGE POINT:
     → Tấn công NGUỒN (drive riêng) — không phải triệu chứng.
     → Compiled suppress = automatic, invisible.
-    → M1 ACCELERATE M2+M3+M4 (§10.5).
+    → Accelerate ② + drain novelty fuel (§10.5).
 
   🟢 Muise & Goss 2024: closeness OK only WITH "otherness."
   🟢 Gottman Type 2 divorce (~16 năm): no conflict, just FADE = compiled suppress slowly.
 ```
 
-### §10.2 — M2: Habituation (Weber-Fechner) — BRIEF (chi tiết → Bond-Architecture §4.2)
+### §10.2 — Reward-Habituated (force — hardware adaptation) — BRIEF (chi tiết → Bond-Architecture §4.2)
 
 ```
-⭐ M2 = TỰ NHIÊN, ĐỘC LẬP VỚI M1:
+⭐ REWARD-HABITUATED = TỰ NHIÊN, ĐỘC LẬP:
   Hardware by-product (①a) habituates tự nhiên → VTA giảm fire → reward giảm.
-  Xảy ra NGAY CẢ không compiled suppress.
+  Xảy ra NGAY CẢ không Compiled-Suppress.
   🟢 Bao & Lyubomirsky 2013: hedonic adaptation in relationships.
 ```
 
-### §10.3 — M3: Prediction completion (hết novelty) — BRIEF (chi tiết → Bond-Architecture §4.3)
+### §10.3 — Novelty Threshold (fuel — calibration parameter) — BRIEF (chi tiết → Bond-Architecture §4.3)
 
 ```
-⭐ M3 = Self-Pattern-Modeling QUÁ ACCURATE → NO PREDICTION-DELTA:
-  Self-Pattern-Modeling compiled sâu → predict hoàn hảo → no new reward.
-  🟢 Baumeister & Bratslavsky 1999: passion = RATE OF CHANGE in intimacy.
-  KHÁC M1: gap vẫn CÓ, chỉ KHÔNG được fill MỚI.
-  FIX: mỗi người TIẾP TỤC GROW → new by-products liên tục.
+⭐⭐ NOVELTY = NHIÊN LIỆU CHO ①b GROWTH, KHÔNG PHẢI CƠ CHẾ:
+  ①b (compiled by-product) anti-habituates (Hebbian) — cần INPUT MỚI để grow.
+  Dưới ngưỡng novelty: ①b plateau + ①a dominates → decline.
+  2 lenses cùng 1 phenomenon:
+    Lens prediction: Self-Pattern-Modeling quá accurate → prediction-delta = 0.
+    Lens knowledge: Entity-Compiled 40→200h → diminishing returns.
+  KHÁC Compiled-Suppress: gap vẫn OPEN, chỉ KHÔNG có NEW input to fill.
+  FIX: more novelty input (shared + individual growth). Threshold khác nhau mỗi cặp.
+  🟢 Baumeister 1999: passion = rate of change. 🟢 Aron 1996, 2000: self-expansion.
 ```
 
-### §10.4 — M4: Entity-Compiled saturation (plateau) — BRIEF (chi tiết → Bond-Architecture §4.4)
+### §10.4 — Gap Drift (contextual — direction diverge) — BRIEF (chi tiết → Bond-Architecture §4.4)
 
 ```
-⭐ M4 = ĐÃ COMPILE HẾT VỀ NHAU:
-  Entity-Compiled formation: 40→80→200h → diminishing returns.
-  No new Entity-Compiled chunks → same patterns repeat.
-  🟢 Aron & Aron 1996, 2000: self-expansion slows → satisfaction giảm.
-  FIX: shared NOVEL experiences → new chunks → new Entity-Compiled growth.
+⭐ GAP DRIFT = GAP LANDSCAPES DIVERGE → DIRECTION MATCH ↓:
+  Theo thời gian: gap directions CÓ THỂ diverge (career, interests, values).
+  KHÁC novelty: CÓ novelty nhưng HƯỚNG không match → không resonance.
+  Proximity paradox: gần → ②↑ + ①risk↑, xa → gap drift↑.
+  → Cross-ref: Gap-Direction.md v2.0.
 ```
 
-### §10.5 — 4 mechanisms tương tác — BRIEF (chi tiết → Bond-Architecture §4.5)
+### §10.5 — Interaction Model — BRIEF (chi tiết → Bond-Architecture §4.5)
 
 ```
-⭐⭐ 4 CƠ CHẾ ĐỘC LẬP + TƯƠNG TÁC CỘNG HƯỞNG:
+⭐⭐ 2 FORCES + 1 FUEL — TƯƠNG TÁC:
 
-  M1 (compiled suppress) → xóa NGUỒN by-products riêng.
-  M2 (habituation)       → giảm reward từ by-products CŨ.
-  M3 (prediction complete)→ chặn by-products MỚI emerge.
-  M4 (Entity-Compiled saturation)     → chặn chunks MỚI về partner.
+  ① Compiled-Suppress (force) → tấn công NGUỒN by-products riêng.
+  ② Reward-Habituated (force) → hardware giảm reward from by-products CŨ.
+  Novelty threshold (fuel) → nhiên liệu cho ①b growth.
+  Gap drift (context) → hướng gap diverge → direction match ↓.
 
-  TƯƠNG TÁC: M1 + M2 + M3 + M4 = "over-clone kills resonance" COMPOUND.
+  TƯƠNG TÁC: ① accelerate ② + drain novelty fuel. Compound → decline.
 
-  INDEPENDENCE: M2, M3, M4 xảy ra NGAY CẢ không M1.
-  NHƯNG: M1 ACCELERATE M2+M3+M4:
-    Compiled suppress → ít grow riêng → prediction complete NHANH HƠN.
-    Compiled suppress → ít novelty → habituation NHANH HƠN.
-    = M1 là ACCELERATOR cho 3 cơ chế kia.
-    → FIX M1 = giải phóng drive riêng → tự động counter M2+M3+M4.
-    → = TẠI SAO M1 = HIGHEST LEVERAGE to address.
+  INDEPENDENCE: ②, novelty, gap drift xảy ra NGAY CẢ không ①.
+  NHƯNG: ① ACCELERATE tất cả — Compiled-Suppress = CATALYST.
+    → FIX Compiled-Suppress = giải phóng drive riêng
+    → tự động counter ② + restore novelty fuel.
+    → = TẠI SAO Compiled-Suppress = HIGHEST LEVERAGE to address.
 
-🟡 4-mechanism model = framework synthesis.
-🟢 Individual mechanisms: established (per-section citations).
+🟡 2 Forces + 1 Fuel model = framework synthesis.
+🟢 Individual components: established (per-section citations).
 ```
 
 ---
@@ -1234,11 +1236,11 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
     PFC KHÔNG observe baseline → KHÔNG feel need to maintain.
     = TRAP: better compilation → less visible → less maintained.
 
-  SELF-EXPANSION = COUNTER TO M2+M3+M4:
+  SELF-EXPANSION = COUNTER TO ② + RESTORE NOVELTY FUEL:
     🟢 Tsapelas et al. 2009: boredom year 7 → ↓ satisfaction year 16.
     🟢 Aron et al. 2000: novel activities → satisfaction tăng.
-    Novel shared activities: new stimuli (M2) + new predictions (M3) + new chunks (M4).
-    NHƯNG M1 cần KHÁC treatment: awareness + uncompile + secure base.
+    Novel shared activities: counter Reward-Habituated (②) + restore novelty fuel.
+    NHƯNG Compiled-Suppress (①) cần KHÁC treatment: awareness + uncompile + secure base.
 
   CO-REGULATION U-CURVE:
     🟢 Coutinho 2021: young HIGH → middle LOW → old HIGH again.
@@ -1317,7 +1319,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
 ```
 KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
   ① 1 Mechanism × 3 Scales: Pair (A↔B) / Hub (Node↔Collective) / Institutional (Distributed)
-  ② Hardware subsidy per scale: oxytocin → serotonin → trust infrastructure
+  ② Hardware-subsidy per scale: oxytocin → serotonin → trust infrastructure
   ③ Compilation per scale: direct verify → trust bypass → institutional (speed↑ accuracy↓)
   ④ Failure + self-correction: "chán" → overthrow → arc shift (catastrophe↑ speed↓)
   ⑤ Prestige = genuine resonance at hub scale (opioid) vs Dominance = schema (relief)
@@ -1372,7 +1374,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
 
 ---
 
-## §15 — PFC-Operations + ENTITY-ACCESS + ENTITY-COMPILED + SIMULATION ENGINE
+## §15 — PFC-Operations + ENTITY-ACCESS + ENTITY-COMPILED + SIMULATION-ENGINE
 
 ### §15.1 — PFC-Operations integration (★ NEW v1.1)
 
@@ -1381,7 +1383,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
 
   Hold: PFC giữ pattern mới → ②a genuine exploration → compile → resonance deepen.
   Suppress: PFC ép pattern cũ → ②b forced → 3 outcomes (A/B/C).
-  Compiled suppress → M1 (§10.1): strongest mechanism killing resonance.
+  Compiled suppress → Compiled-Suppress (§10.1): LEVERAGE POINT in Resonance Decline.
 
   COMPILED QUALITY DIMENSION:
     Genuine compiled: body reward thật → approach tag → healthy resonance.
@@ -1408,7 +1410,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
   Entity-Owned = PFC lens: "entity này = extension CỦA TÔI" = Mức 4-5.
 ```
 
-### §15.3 — Entity-Compiled + Simulation Engine (★ NEW v1.1)
+### §15.3 — Entity-Compiled + Simulation-Engine (★ NEW v1.1)
 
 ```
 ⭐ ENTITY-COMPILED = 1 MECHANISM × NHIỀU CONFIGURATIONS:
@@ -1420,7 +1422,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
   4 bond types (parent→child, child→parent, romantic, friendship) dùng CÙNG mechanism.
   🟢 Bartels & Zeki 2004, Young & Wang 2004, Feldman 2017.
 
-  SIMULATION ENGINE (Simulation-Engine v1.0):
+  SIMULATION-ENGINE (Simulation-Engine v1.0):
     1 Engine: DMN + vMPFC + anterior insula + hippocampus.
     3 Components: Interoception × Constructive Simulation × Self/Other Model.
     Resonance = application on shared engine. Self-Pattern-Modeling = (Other, Present, Simulate).
@@ -1530,7 +1532,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
   By-product gap match as THE mechanism. Resonance Core vs Enhancers.
   4 conditions. Tool/Agent as modes. 5 trục.
   Over-clone = observation label. 3 mechanisms (redirect + suppress + converge).
-  Gap-clone impossible. 4 mechanisms decline (M1-M4). M1 as accelerator.
+  Gap-clone impossible. Resonance Decline: 2 Forces + 1 Fuel. Compiled-Suppress = LEVERAGE POINT.
   True understanding = anti-compiled-suppress.
   3 modalities taxonomy. 3 primitive conditions. Gap ≠ Strategy.
   3 scales unification. Prestige = genuine resonance at hub scale.
@@ -1568,7 +1570,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
 ```
   → Agent-Mechanism.md v2.0 — parent integration hub
   → Self-Pattern-Modeling.md v3.1 — Agent-mode engine (1 mechanism × 3 dimensions)
-  → Bond-Architecture.md v1.0 — cross-bond: 4 types, over-clone, M1-M4 (DETAIL: §9-§10 tách)
+  → Bond-Architecture.md v2.0 — cross-bond: 4 types, over-clone, Resonance Decline 2 Forces + 1 Fuel (DETAIL: §9-§10 tách)
   → Resonance-Sustainability.md v1.0 — sustainability: 3 conditions, 3 modalities, amplification, trajectory (DETAIL: §7-§8-§11 tách)
 ```
 
@@ -1699,10 +1701,10 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
 >
 > By-product match = mechanism nền tảng.
 > Core ở OUTPUT, enhancers ở INPUT.
-> 4 conditions ĐỒNG THỜI. 4 mechanisms decline.
+> 4 conditions ĐỒNG THỜI. 2 Forces + 1 Fuel decline.
 > 3 modalities. 3 primitive conditions. 3 scales.
 >
-> M1 compiled suppress = accelerator.
+> Compiled-Suppress = LEVERAGE POINT.
 > True understanding = anti-compiled-suppress.
 > Drive riêng = source of by-products = source of resonance.
 >

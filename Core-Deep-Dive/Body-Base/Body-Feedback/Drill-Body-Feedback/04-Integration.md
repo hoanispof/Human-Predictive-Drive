@@ -18,6 +18,8 @@ language: Tiếng Việt primary + English technical terms
 > **This phase is about seeing the whole**. Less new content, more connections. "Aha moments" should come from watching the architecture operate coherently.
 >
 > **Style**: Tiếng Việt primary + English technical terms. 🟢 Research / 🟡 Framework suy luận / 🔴 Hypothesis.
+>
+> ⚠️ **H10 formalized**: H10 đã được formalize thành [Body-Feedback-Precondition.md](../Body-Feedback-Precondition.md). File này giữ nguyên H10 là tên hypothesis gốc trong quá trình drill.
 
 ---
 
@@ -42,7 +44,7 @@ Each isolated concept is useful, but **architecture emerges from interaction**. 
 
 - Interface loop (exposure → body → schema)
 - Imagine-Final lifecycle (SAVE → BACKGROUND → RELOAD)
-- Body-feedback vs Feeling (Layer 3-4 "có gì đó")
+- Body-feedback vs Feeling (Feel-Consciousification — Feel-Observation "có gì đó")
 - Spreading activation (hoa → sân chunks combining)
 - Reward preconditions (not met → dissonance not reward)
 
@@ -119,7 +121,7 @@ This file formalizes this sequence into rigorous model with timing, substrate, a
 │  │ Step 3: UPSTREAM INTEGRATION (insula + ACC + VMPFC)         │   │
 │  │   - Multi-channel signal integration                         │   │
 │  │   - Self-signal interoception reads integrated state        │   │
-│  │   - Produces "Layer 3 noticeable signal" for PFC            │   │
+│  │   - Produces "Feel-Consciousification noticeable signal" for PFC │   │
 │  │   Timing: seconds                                            │   │
 │  └──────────────────────────┬──────────────────────────────────┘   │
 │                             ↓                                      │
@@ -134,8 +136,8 @@ This file formalizes this sequence into rigorous model with timing, substrate, a
 │                             ↓                                      │
 │  ┌─────────────────────────────────────────────────────────────┐   │
 │  │ Step 5: PFC GATEWAY (5% attention when signal > threshold)  │   │
-│  │   - PFC observes integrated signal (Layer 3-4)               │   │
-│  │   - Labels via chunks (Layer 6-7) — feeling emerges          │   │
+│  │   - PFC observes integrated signal (Feel-Consciousification — Feel-Observation) │   │
+│  │   - Labels via chunks (Feel-Labeling — Feel-Explanation) — feeling emerges │   │
 │  │   - Simulates options (Imagine-Final candidates)             │   │
 │  │   - Checks domain (only PFC does this)                       │   │
 │  │   - Chooses action or updates schema                         │   │
@@ -767,7 +769,7 @@ User's verbatim was rich (see §4.5 P3). This walkthrough traces the full archit
 - Multi-schema cascade fires: physics + math + career + self-identity
 
 **Step 5**: PFC experiences "intensely pleasant" (Einstein's reported state)
-- Feeling layer Layer 6-7: "I've found it"
+- Feeling layer Feel-Labeling — Feel-Explanation: "I've found it"
 - Cannot fully articulate in that moment
 - Body-level conviction
 
@@ -1198,11 +1200,11 @@ Understanding architecture guides intervention points:
 #### §9.2.4 — Precondition 4: Goldilocks Zone Position
 
 **Definition**:
-> Match ratio between input pattern and existing chunks base must fall in the **40-70% zone** (Why-Body-Knows §2).
+> Match ratio between input pattern and existing chunks base must fall in the **Goldilocks zone** (dynamic per person/context — Why-Body-Knows §2).
 
 **Operationalization**:
 - <20%: too alien → cannot decode → cortisol mild
-- 40-70%: recognized + novel → opioid + dopamine → **HAY**
+- Goldilocks zone: recognized + novel → opioid + dopamine → **HAY**
 - >90%: too familiar → habituated → nothing
 
 **Failure modes**:
@@ -1305,7 +1307,7 @@ Each precondition validated by multiple drill cases:
 **Alternative F — "Reward is cognitive appraisal" (appraisal theory)**:
 - Claim: Reward = PFC cognitive evaluation of stimulus
 - H10 position: **Rejected as putting PFC ahead**. Framework firmly: vô thức first, PFC observer
-- Evidence: Body reactions precede conscious labeling (Layer 1-2 vs Layer 3-7 split in P1 §5)
+- Evidence: Body reactions precede conscious labeling (Feel-RawSignals — Feel-Integration vs Feel-Consciousification — Feel-Explanation split in P1 §5)
 - H10 uses: Body-feedback vs feeling distinction (architecture prevents PFC-first view)
 
 ### §9.6 — Relationship with H8 (Learning Dissonance Cycle)
@@ -1582,7 +1584,7 @@ To avoid over-reach, explicit non-claims:
 ### §11.3 — Research approach suggestions
 
 **For Q1 (body-feedback measurement)**:
-- Use Garfinkel 3-levels framework + Layer 3-4 vs Layer 6-7 decomposition
+- Use Garfinkel 3-levels framework + Feel-Consciousification — Feel-Observation vs Feel-Labeling — Feel-Explanation decomposition
 - Physiological markers (HRV, GSR, insula fMRI) during stimulus + self-report
 - Compare high vs low interoceptive accuracy individuals
 
@@ -1617,7 +1619,7 @@ To avoid over-reach, explicit non-claims:
 
 > §5.4 — Goldilocks zone integration
 > 
-> "Hay" cũng có yếu tố Goldilocks match ratio. Pattern too familiar → habituated → không còn hay. Pattern too alien → can't decode → không hay. Match 40-70% → recognized + novel → HAY.
+> "Hay" cũng có yếu tố Goldilocks match ratio. Pattern too familiar → habituated → không còn hay. Pattern too alien → can't decode → không hay. Goldilocks zone match → recognized + novel → HAY.
 > 
 > → Melody đánh giá "hay" per-moment depends on both:
 > - 4 criteria (hardware + domain + breadth + sustainability)
@@ -1713,7 +1715,7 @@ H10 mechanism layer = Body-Feedback.md §6 + Body-Feedback-Mechanism.md §7.
 
 ### §12.7 — R7: Feeling/ folder add cross-ref body-feedback substrate
 
-**Current state**: `Body-Base/Feeling/` folder has 7-layer structure + evolutionary framing, complete per memory. Doesn't explicitly connect to body-feedback (raw L1-L2) side.
+**Current state**: `Body-Base/Feeling/` folder has 7-layer structure + evolutionary framing, complete per memory. Doesn't explicitly connect to body-feedback (raw Feel-RawSignals — Feel-Integration) side.
 
 **Proposed update**: Add cross-ref to Body-Feedback-Draft/01-Foundation.md §5 "body-feedback vs feeling" distinction.
 
@@ -1721,9 +1723,9 @@ H10 mechanism layer = Body-Feedback.md §6 + Body-Feedback-Mechanism.md §7.
 
 > **Cross-ref for body-feedback substrate**:
 > 
-> This folder focuses on Feeling layer (PFC observation + chunk-based labeling, Layer 3-7 in 7-layer model).
+> This folder focuses on Feeling layer (PFC observation + chunk-based labeling, Feel-Consciousification — Feel-Explanation in 7-layer model).
 > 
-> For body-feedback substrate (raw signal, Layer 1-2, pre-verbal), see `Chunk-Analysis/Body-Feedback-Draft/01-Foundation.md §5`.
+> For body-feedback substrate (raw signal, Feel-RawSignals — Feel-Integration, pre-verbal), see `Chunk-Analysis/Body-Feedback-Draft/01-Foundation.md §5`.
 > 
 > Body-feedback and Feeling form integrated gradient: raw signal → upstream integration → PFC observation → verbal labeling → narrative explanation. Both needed for full affective architecture.
 
@@ -1786,8 +1788,8 @@ H10 mechanism layer = Body-Feedback.md §6 + Body-Feedback-Mechanism.md §7.
 **Proposed update**: Add terms emerging from drill to framework glossary (if exists) or create one.
 
 **Terms introduced/refined**:
-- **Body-feedback layer** (vs Feeling layer) — raw signal, pre-verbal, L1-L2
-- **Feeling layer** — PFC observation via chunks, L3-L7
+- **Body-feedback layer** (vs Feeling layer) — raw signal, pre-verbal, Feel-RawSignals — Feel-Integration
+- **Feeling layer** — PFC observation via chunks, Feel-Consciousification — Feel-Explanation
 - **H10 preconditions** (5 of them)
 - **Chunk association tag** (opioid/cortisol/other)
 - **Schema maintenance cost** (portfolio dynamics)

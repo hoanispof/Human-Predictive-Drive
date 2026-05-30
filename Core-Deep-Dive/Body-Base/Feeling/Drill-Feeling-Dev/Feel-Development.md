@@ -104,9 +104,9 @@ elsewhere.
 - Directly access raw body (integration happens upstream)
 
 ### §2.4 7-layer structure refined
-- Layer 1-2: upstream integration (PFC no direct access)
-- Layer 3-4: PFC's read interface (genuine "felt sense")
-- Layer 5-7: chunk-based labeling (error-prone)
+- Feel-RawSignals — Feel-Integration: upstream integration (PFC no direct access)
+- Feel-Consciousification — Feel-Observation: PFC's read interface (genuine "felt sense")
+- Feel-Location — Feel-Explanation: chunk-based labeling (error-prone)
 
 This partially resolves Q3 (Logic-Feeling flow):
 - NOT Model A (PFC directly senses raw body)
@@ -311,12 +311,12 @@ systematically.
 - Body scan (interoception)
 - Mindfulness of feelings
 - Vipassana insight
-- Moves L6-7 labeling toward L3-4 direct sensing
+- Moves Feel-Labeling — Feel-Explanation labeling toward Feel-Consciousification — Feel-Observation direct sensing
 
 ### §8.2 Focusing (Gendlin)
 - 6-step method
 - Pre-verbal body wisdom access
-- Cultivates felt sense Layer 3
+- Cultivates felt sense Feel-Consciousification
 
 ### §8.3 Therapy modalities
 - CBT (chunks for cognitive feelings)

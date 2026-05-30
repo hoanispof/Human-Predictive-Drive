@@ -12,7 +12,7 @@ dependencies:
   - 01-Chunk-Connection-Logical.md (body vote mechanism — just drilled)
   - Somatic-Articulation-Loop.md §1-§2 (implicit → explicit transition)
   - Feeling/ folder (7-layer model — COMPLETE)
-  - Body-Feedback-Draft/ (H10 body signal model — COMPLETE)
+  - Body-Feedback-Draft/ (Body-Feedback-Precondition model — COMPLETE)
   - Klein 1998, Kahneman & Klein 2009 (expert intuition)
   - Gendlin 1978 (Focusing + felt sense)
 test_hypothesis: H5
@@ -57,21 +57,21 @@ Câu hỏi cụ thể:
 ```
 Feeling/ folder đã committed 7-layer model:
 
-  L1 — Body-input raw signal (đau, nóng, đói)
-  L2 — Novelty detection (VTA signal: mới/quen)
-  L3 — Schema-matching (familiar? threatening? rewarding?)
-  L4 — PFC-observation (aware of own body state)
-  L5 — Verbal labeling ("tôi buồn", "tôi sợ")
-  L6 — Contextual understanding ("tôi buồn VÌ X")
-  L7 — Meta-feeling ("tôi nhận ra mình buồn và chấp nhận")
+  Feel-RawSignals — Body-input raw signal (đau, nóng, đói)
+  Feel-Integration — Novelty detection (VTA signal: mới/quen)
+  Feel-Consciousification — Schema-matching (familiar? threatening? rewarding?)
+  Feel-Observation — PFC-observation (aware of own body state)
+  Feel-Location — Verbal labeling ("tôi buồn", "tôi sợ")
+  Feel-Labeling — Contextual understanding ("tôi buồn VÌ X")
+  Feel-Explanation — Meta-feeling ("tôi nhận ra mình buồn và chấp nhận")
 
 Thread 3 OPERATES ACROSS layers:
 
-  CLEAR FEELING = strong signal at L1-L3, captured at L4-L5
-  → "Tôi đau" = L1 strong → L4 aware → L5 labeled → CLEAR
+  CLEAR FEELING = strong signal at Feel-RawSignals — Feel-Consciousification, captured at Feel-Observation — Feel-Location
+  → "Tôi đau" = Feel-RawSignals strong → Feel-Observation aware → Feel-Location labeled → CLEAR
 
-  VAGUE INTUITION = weak signals at L1-L3, partially captured at L4
-  → "Có gì đó sao sao" = L1-L3 weak → L4 partial → L5 missing → VAGUE
+  VAGUE INTUITION = weak signals at Feel-RawSignals — Feel-Consciousification, partially captured at Feel-Observation
+  → "Có gì đó sao sao" = Feel-RawSignals — Feel-Consciousification weak → Feel-Observation partial → Feel-Location missing → VAGUE
 
   → Gradient = signal STRENGTH × signal COUNT × PFC capture capacity
 ```
@@ -111,7 +111,8 @@ Thread 3 OPERATES ACROSS layers:
   │ TRUST:    Very high  High       Medium      Variable   Low/High  │
   │ (valid?)  (body)     (match)    (maybe)     (expert?)  (depends) │
   │                                                                  │
-  │ LAYER:    L1-L2      L3-L5      L4-L5      L4         L3-L4     │
+  │ LAYER:    RawSig—    Consc—     Obs—       Obs        Consc—    │
+  │          Integr     Location   Location              Obs       │
   │           (raw)      (matched)  (partial)  (vague)    (pre-PFC) │
   │                                                                  │
   └──────────────────────────────────────────────────────────────────┘
@@ -144,7 +145,7 @@ WHAT MAKES FEELING CLEAR vs VAGUE?
     → = H5 core claim
 
   VARIABLE 3 — LABEL AVAILABILITY:
-    Label available → CLEARER (verbal tag = L5 anchoring)
+    Label available → CLEARER (verbal tag = Feel-Location anchoring)
     No label → VAGUER (stuck at L4, cannot articulate)
     → NT6 verbal-as-handle: label = retrieval path, not content
     → Having label does NOT change the signal — changes ACCESS to signal
@@ -698,7 +699,7 @@ WITHIN F4:
   → 06-Internal-Synthesis.md (H5 verdict aggregation)
 
 WITHIN CHUNK-ANALYSIS:
-  → F1 10-F1-Synthesis.md §6.4 (Feeling L3 output contracts)
+  → F1 10-F1-Synthesis.md §6.4 (Feeling Feel-Consciousification output contracts)
   → F3 01-External-Synthesis.md §3.1 (F3 output contracts)
   → Body-Feedback-Draft/04-Integration.md §1.3 (unified body-feedback cycle)
   → Learning-Cycle.md §3 (learning mechanism stages)

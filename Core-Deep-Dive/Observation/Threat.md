@@ -1,10 +1,10 @@
----
+﻿---
 title: Threat — Observation Parameter
-version: 1.2
+version: 1.3
 created: 2026-04-20
-updated: 2026-05-17
+updated: 2026-05-25 (v1.3 — §3 +Evaluative/Direct-State × 3 nguồn mechanism mapping, Dissonance-Signal-Architecture v1.0 integration)
 refined: 2026-05-23 (v1.2 — Concept Cascade: +Simulation-Engine, +Entity-Access, +Bond-Architecture. Updated versions + cross-refs)
-status: OBSERVATION PARAMETER v1.2
+status: OBSERVATION PARAMETER v1.3
 scope: |
   OBSERVATION FILE: Threat = named pattern khi quan sát body-feedback
   (dissonance direction) + prediction of harm. Không phải component.
@@ -35,7 +35,7 @@ dependencies:
   - Body-Feedback-Label.md v2.0 — vocabulary reference
   - PFC/Simulation-Engine.md v1.0 — simulated threat (Imagine-Final v3.0 boundary)
   - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — threat FROM entities (access-based)
-  - Chunk/Agent-Mechanism/Bond-Architecture.md v1.0 — threat to bond → protect response
+  - Chunk/Agent-Mechanism/Bond-Architecture.md v2.0 — threat to bond → protect response
 sources_backup: |
   Gộp + rewrite từ: Threat.md v1.1 (1,936L) + Threat-Drive-Analysis.md (700L)
   Backup: _backup/Drive-v75-era/
@@ -583,24 +583,47 @@ SUMMARY 3 NGUỒN:
   └──────────────────┴──────────────┴──────────────┴──────────────────┘
 
 
+EVALUATIVE/DIRECT-STATE × THREAT (Dissonance-Signal-Architecture.md v1.0 §1):
+
+  3 NGUỒN MECHANISM ÁNH XẠ LÊN 2 TYPES DISSONANCE:
+
+    ① Physical threat ≈ DIRECT-STATE DISSONANCE territory:
+      → Nociception, hardware pathways, endorphin buffer
+      → Body từ birth ĐÃ xử lý được, PFC minimal
+      → Numbness-proof: Direct-State vẫn fire dù Evaluative tê liệt
+
+    ② Social threat ≈ EVALUATIVE DISSONANCE territory:
+      → dACC + anterior insula (Eisenberger 2003), KHÔNG endorphin
+      → Compiled chunks required (social schema ≠ reality)
+      → PFC can modulate (reframe → giảm, nocebo → tăng)
+
+    ③ Anticipation threat ≈ EVALUATIVE DISSONANCE territory:
+      → Simulation-Engine generates dissonance WITHOUT external input
+      → CRH → amygdala, PFC loop, cortisol tích lũy
+      → Direct-State CANNOT create anticipation (hardware = NOW only)
+
+  → Physical NGẮN + có buffer. Social/Anticipation DÀI + không buffer.
+  → Dissonance-Signal-Architecture giải thích: vì Direct-State có endorphin, Evaluative KHÔNG.
+
+
 THREAT × NEW CONCEPTS (28-session Drill Propagation):
 
-  SIMULATION ENGINE × THREAT (Simulation-Engine.md v1.0):
-    → Anticipation (③ above) = Simulation Engine draft outcome → body evaluate as THREAT
+  SIMULATION-ENGINE × THREAT (Simulation-Engine.md v1.0):
+    → Anticipation (③ above) = Simulation-Engine draft outcome → body evaluate as THREAT
     → Imagine-Final v3.0 KEY BOUNDARY: hardware prediction (automatic) ≠ Imagine-Final
-    → Simulated threat = Simulation Engine running threat scenario
+    → Simulated threat = Simulation-Engine running threat scenario
     → PFC budget: prolonged simulation COSTS metabolic resources
-    → = Anticipation loop = Simulation Engine STUCK on threat scenario
+    → = Anticipation loop = Simulation-Engine STUCK on threat scenario
 
   ENTITY-ACCESS × THREAT (Entity-Access.md v1.2):
     → Threat FROM entities = function of Entity-Access gradient:
-      Mức 5 (con/self) threat = CỰC MẠNH (hardware subsidy amplify)
+      Mức 5 (con/self) threat = CỰC MẠNH (hardware-subsidy amplify)
       Mức 3 (bạn thân) threat = MẠNH
       Mức 1 (acquaintance) threat = NHẸHƠN nhiều
     → LOSING access = threat direction (Entity-Access-Excess.md v1.0)
     → Threat of access DROP = anticipation source thường gặp
 
-  BOND-ARCHITECTURE × THREAT (Bond-Architecture.md v1.0):
+  BOND-ARCHITECTURE × THREAT (Bond-Architecture.md v2.0):
     → Threat TO bond = protect response (Protect.md)
     → 4 bond types → 4 threat profiles:
       Proximity bond threat: physical separation (MẤT vùng an toàn)
@@ -609,7 +632,7 @@ THREAT × NEW CONCEPTS (28-session Drill Propagation):
       Identity threat: values clash (BỊ thay đổi bản sắc)
     → Bond type determines WHAT COUNTS as threat — cùng event, khác bond, khác threat
 
-  🟡 Simulation Engine × threat = framework formalization
+  🟡 Simulation-Engine × threat = framework formalization
   🟡 Entity-Access × threat = framework application (consistent with attachment theory)
   🟡 Bond-Architecture × threat = framework taxonomy (novel)
 ```
@@ -1018,8 +1041,9 @@ TÓM TẮT:
 
   ← MECHANISM MỚI (28-session Drill):
     Simulation-Engine.md v1.0 — simulated threat = Simulation-Engine draft outcome
+    Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State × 3 nguồn mechanism mapping
     Entity-Access.md v1.2 — threat FROM entities along gradient
-    Bond-Architecture.md v1.0 — threat to bond → protect response (4 types)
+    Bond-Architecture.md v2.0 — threat to bond → protect response (4 types)
     Imagine-Final.md v3.0 — hardware prediction ≠ Imagine-Final boundary
 
   ↔ SONG SONG (cùng Observation/ folder):
@@ -1043,6 +1067,7 @@ TÓM TẮT:
     v1.0 — 2026-04-20 — viết mới cho v7.8 cycle-based architecture
     v1.1 — 2026-05-17 — +Compilable Architecture, +Compiled/Fresh, +PFC=Lawyer, version sync
     v1.2 — 2026-05-23 — Concept Cascade: +Simulation-Engine, +Entity-Access gradient, +Bond-Architecture 4 bond types, version updates
+    v1.3 — 2026-05-25 — §3 +Evaluative/Direct-State × 3 nguồn mechanism mapping (Dissonance-Signal-Architecture v1.0)
     Gộp từ: Threat.md v1.1-old + Threat-Drive-Analysis.md (backup: _backup/Drive-v75-era/)
     Aligned: Core v7.8, Inter-Body-Mechanism v1.0, prediction-delta terminology
 ```

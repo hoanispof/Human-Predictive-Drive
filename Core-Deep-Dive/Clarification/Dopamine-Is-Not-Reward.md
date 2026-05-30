@@ -1,13 +1,14 @@
----
+﻿---
 title: Dopamine-Is-Not-Reward — Tại Sao Framework Bác Bỏ "Dopamine = Reward"
-version: 1.2
+version: 1.4
 created: 2026-04-18
-updated: 2026-05-15 (v1.2 — §5.5 3-way comparison table, NIC-PD 2024, Health Conditions Drill cross-refs)
-status: v1.2 — REFERENCE FILE
+updated: 2026-05-30 (v1.4 — §3.8 Naltrexone evidence + Adderall misconception. §4.4 3-type addiction. 8→9 bằng chứng. Open Q5 active-trigger vs permissive-tone. +13 citations.)
+previous_update: 2026-05-15 (v1.2 — §5.5 3-way comparison table, NIC-PD 2024, Health Conditions Drill cross-refs)
+status: v1.4 — REFERENCE FILE
 scope: |
   TẠI SAO framework bác bỏ "dopamine = reward/pleasure" (khái niệm phổ biến).
   3 positions so sánh (Classical "pleasure hypothesis" / Berridge-Robinson wanting≠liking / Framework VTA-salience + body-base opioid).
-  7 bằng chứng chống "dopamine = reward".
+  9 bằng chứng chống "dopamine = reward".
   Alternative model: Dopamine = VTA→PFC salience alert (chuông cửa). Opioid body-base = reward thật (quà đằng sau cửa). 7-step mechanism.
 purpose: |
   File định vị rõ ràng cho người đọc Drive/ folder:
@@ -38,7 +39,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Đọc file này nếu bạn muốn hiểu:**
 > - Tại sao "dopamine detox", "dopamine hit" = pop misconception
 > - 3 vị trí trong debate (Classical / Berridge-Robinson / Framework)
-> - 7 bằng chứng chống "dopamine = reward"
+> - 9 bằng chứng chống "dopamine = reward"
 > - Alternative: 7-step mechanism (VTA salience → body-base opioid)
 > - Tại sao framework gần Berridge nhưng SÂU HƠN (thêm mechanism)
 
@@ -53,7 +54,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 - §1 — MAINSTREAM RESEARCH STATE (2026)
 - §2 — 3 VỊ TRÍ TRONG DEBATE
-- §3 — 7 BẰNG CHỨNG CHỐNG "DOPAMINE = REWARD"
+- §3 — 9 BẰNG CHỨNG CHỐNG "DOPAMINE = REWARD"
 - §4 — FRAMEWORK ALTERNATIVE: 7-STEP MECHANISM
 - §5 — TẠI SAO FRAMEWORK GẦN BERRIDGE NHƯNG SÂU HƠN
 - §6 — HONEST ASSESSMENT
@@ -76,6 +77,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     (dopamine depletion → seeking impaired, enjoyment preserved)
   → Addiction ≠ simple "dopamine high"
     (Koob & Volkow 2010 — allostatic, multi-system)
+  → Naltrexone (opioid blocker) giảm stimulant euphoria 🟢
+    (Jayaram-Lindström 2004, 2008; Ray 2015; Spencer 2018 — multi-lab)
 
 
 🟡 ĐANG TRANH CÃI trong academia:
@@ -84,6 +87,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Prediction error vs salience vs incentive salience interpretation
   → Vai trò dopamine trong motivation vs learning vs attention
   → "Liking" có phải đơn thuần opioid? Hay multi-chemical?
+  → Stimulant euphoria: dopamine active-trigger opioid hay tonic opioid permissive?
 
 
 🔴 CHƯA AI UNIFY — pop science + textbook LAG BEHIND:
@@ -153,7 +157,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 │                                                                        │
 │   Reward = BODY-BASE opioid release WHEN chunk fits body-need          │
 │            = QUÀ ĐẰNG SAU CỬA (gift behind door)                       │
-│            Phụ thuộc H10 5 preconditions (§3 03-Reward.md)             │
+│            Phụ thuộc Body-Feedback-Precondition 5 preconditions (§3 03-Reward.md)             │
 │                                                                        │
 │   Mechanism: 7-step                                                    │
 │     1. Unconscious neurons fire 24/7 (Hebbian self-organize)           │
@@ -182,7 +186,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Tiêu chí | Classical (1980s) | Berridge-Robinson | Framework |
 |---|---|---|---|
 | **Dopamine = gì?** | Reward/pleasure chemical | Incentive salience (wanting) | VTA→PFC salience alert (chuông cửa) |
-| **Pleasure từ đâu?** | Dopamine fire = pleasure | Opioid system (black box) | Opioid body-base + H10 5 preconditions |
+| **Pleasure từ đâu?** | Dopamine fire = pleasure | Opioid system (black box) | Opioid body-base + Body-Feedback-Precondition 5 preconditions |
 | **Mechanism của liking** | KHÔNG CÓ (conflate with dopamine) | Tách ra nhưng mechanism chưa specify | 7-step + body-base check + body-need match |
 | **Addiction giải thích** | "Reward system hyperactive" | Wanting pathological without liking | Dopamine hijack WITHOUT body-need match (L1 mismatch) |
 | **Parkinson's anhedonia** | Matches (dopamine depleted → less pleasure) | Matches (wanting impaired, liking preserved) | Matches + explains: VTA weak → PFC no alert, but body-base opioid intact |
@@ -197,7 +201,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §3 — 7 BẰNG CHỨNG CHỐNG "DOPAMINE = REWARD"
+## §3 — 9 BẰNG CHỨNG CHỐNG "DOPAMINE = REWARD"
 
 ### §3.1 — Bằng chứng 1: Berridge rat lesion (decisive)
 
@@ -255,6 +259,57 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 **v1.2 NOTE** (Parkinson-Analysis.md §6.2): 3 dopamine pathways affected at different rates (nigrostriatal TRƯỚC → mesolimbic → mesocortical SAU). Wanting/liking separation maps CHÍNH XÁC to 7-step: Steps 2-4 (VTA → PFC) weakened, Step 5 (opioid body-base) preserved. = CLEANEST clinical dissociation. Chi tiết + 3-way comparison: §5.5.
 
+### §3.3b — Bằng chứng 3b: Musical anhedonia = STRONGEST pipeline integrity test
+
+🟢 **Martínez-Molina et al. 2016 (PNAS 113:E7337-E7345)**:
+
+Musical anhedonics (~3-5% population):
+- Auditory cortex: **NORMAL** (nghe nhạc bình thường)
+- Reward system (NAcc): **NORMAL** (food/money/sex pleasure bình thường)
+- CONNECTION auditory cortex ↔ NAcc: **REDUCED**
+- → Domain-specific **DISCONNECT**, not global deficit
+
+**Tại sao đây là STRONGEST test case — proof-by-contradiction**:
+
+> NẾU dopamine = reward (single step):
+> → Auditory cortex works fine → VTA detects delta → dopamine fires
+> → **PHẢI** feel pleasure → Anhedonia **KHÔNG THỂ** xảy ra
+>
+> MULTI-STEP MODEL:
+> → Steps 1-3 (VTA detect + dopamine + spreading activation): **OK**
+>   (auditory cortex processes music normally)
+> → Step 4 pathway (auditory cortex → NAcc): **BROKEN**
+>   (connectivity reduced — signal KHÔNG reach reward system)
+> → Steps 5-6 (body-base vote + opioid): **NEVER FIRE**
+> → Anhedonia **CÓ THỂ** xảy ra. **CONFIRMED.**
+
+**So sánh §3.3 Parkinson vs §3.3b Musical anhedonia**:
+
+| Dimension | Parkinson (§3.3) | Musical anhedonia (§3.3b) |
+|---|---|---|
+| **Cơ chế** | GLOBAL dopamine loss | DOMAIN-SPECIFIC disconnect |
+| **Scope** | Toàn bộ reward system | CHỈ music → reward pathway |
+| **Steps affected** | Steps 2-4 WEAKENED | Step 4 pathway BROKEN |
+| **Step 5 (opioid)** | PRESERVED (food ok) | PRESERVED (food/money ok) |
+| **Wanting** | Impaired (global) | Normal (non-music domains) |
+| **Liking** | Partly preserved | Normal (non-music domains) |
+| **Specificity** | Low (global) | HIGH (domain-specific) |
+| **Test strength** | Strong (clinical) | **STRONGEST** (proof-by-contradiction) |
+
+→ Parkinson = global disruption → wanting/liking TÁCH (consistent with 7-step)
+→ Musical anhedonia = domain-specific disconnect → pipeline integrity **PROVEN**
+→ 2 clinical cases, 2 kiểu disruption, **CÙNG confirm multi-step model**
+
+**Motor entrainment insight**:
+- Motor urge to move CAN remain intact in musical anhedonia
+- → Entrainment pathway (auditory → motor cortex) ≠ reward pathway (auditory → NAcc)
+- → = 2 **INDEPENDENT** pathways from auditory processing
+- → Entrainment ≠ pleasure: rhythm WITHOUT reward possible
+
+**Framework verdict**: ✅ Musical anhedonia = strongest test case cho 7-step mechanism. Nếu PE = reward (1 step), anhedonia impossible. Multi-step model predicts AND explains anhedonia. §3.3 (Parkinson) + §3.3b (musical anhedonia) = 2 complementary clinical dissociations.
+
+---
+
 ### §3.4 — Bằng chứng 4: Opioid = direct pleasure (morphine, endorphin)
 
 🟢 **Pharmacological evidence**:
@@ -301,8 +356,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - Thực tế: scroll feel "chán empty" nhưng vẫn tiếp tục
 
 **Framework explanation**:
-- VTA detect delta (satisfies Precondition 3) → dopamine fire
-- Body-need KHÔNG match (no schema pending fill, no connection, no meaning) → Precondition 1 fail
+- VTA detect delta (satisfies Precondition-3) → dopamine fire
+- Body-need KHÔNG match (no schema pending fill, no connection, no meaning) → Precondition-1 fail
 - → No opioid → no reward thật
 - Loop stuck: VTA keeps firing (new posts) + opioid never fires → "want more" without "getting satisfaction"
 
@@ -316,7 +371,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > NEW framework: Eureka reward = **opioid** (schema match). Dopamine = salience alert. Cortisol drop = relief bonus (nếu có threat context).
 
 **Mechanism**:
-- Schema đang có dissonance (Precondition 1 met)
+- Schema đang có dissonance (Precondition-1 met)
 - Chunk mới xuất hiện → VTA detect delta → dopamine → PFC attend
 - PFC simulate chunk → body-base check → chunk fits gap → **opioid RELEASE**
 - Subjective: "AHA! EUREKA!" = opioid burst
@@ -331,19 +386,73 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 **Implication**: Pop "dopamine rush = insight" = WRONG. Insight reward = opioid-based.
 
-### §3.8 — Tổng kết 7 bằng chứng
+### §3.8 — Bằng chứng 8: Naltrexone tách dopamine khỏi euphoria (stimulant case)
+
+🟢 **Naltrexone (opioid blocker) GIẢM stimulant euphoria — nhiều study, nhiều lab**:
+
+| Study | n | Stimulant | Finding |
+|---|---|---|---|
+| Jayaram-Lindström 2004 (J Clin Psychopharmacology) | 12 | Dexamphetamine 30mg | Naltrexone giảm subjective effects |
+| Jayaram-Lindström 2008 (Neuropsychopharmacology) | clinical | Dexamphetamine challenge | Giảm effects (p<0.001) + craving (p<0.001) |
+| Jayaram-Lindström 2008 (Am J Psychiatry) | 80 | 12-week maintenance | Giảm relapse |
+| Ray 2015 (Neuropsychopharmacology) | 30 | IV methamphetamine | Giảm craving |
+| Spencer 2018 (J Clin Psychopharmacology) | 37 | Methylphenidate 60mg (ADHD) | Giảm euphoria ("Liking Effect") |
+
+**⭐ KEY study — Jayaram-Lindström 2017** (Translational Psychiatry):
+- PET [11C]raclopride ở người + microdialysis ở chuột
+- Naltrexone block euphoria NHƯNG **KHÔNG block dopamine release**
+- → Dopamine vẫn fire bình thường → euphoria VẪN mất
+- → Opioid system đóng góp cho hedonic experience **ĐỘC LẬP** với dopamine signal
+
+**PET evidence — amphetamine gây opioid displacement** 🟡:
+- Colasanti 2012 (Biological Psychiatry, n=12): [11C]carfentanil PET, amphetamine gây giảm opioid binding
+- Mick 2014 (n=9): replication confirmed
+- Mick 2016 (n=14 gamblers vs 15 controls): opioid release **blunted** ở gamblers
+- ⚠️ Guterstam 2013 (n=10): IV route → null finding (route + timing khác)
+- Caveat: replications chủ yếu 1 lab group (Imperial/King's College London)
+
+**Tại sao bằng chứng MẠNH — proof by pharmacological dissociation**:
+
+> NẾU dopamine = reward (1 signal):
+> → Block opioid (naltrexone) KHÔNG NÊN ảnh hưởng euphoria
+>
+> THỰC TẾ: Block opioid = euphoria GIẢM rõ rệt (5+ studies)
+> MÀ: Dopamine release KHÔNG bị block (Jayaram-Lindström 2017)
+> → 2 hệ ĐỘC LẬP. Dopamine ≠ reward. QED.
+
+**Adderall misconception**:
+- Pop science: "Adderall bổ sung dopamine → euphoria → dopamine = reward"
+- Sai 2 chỗ: (1) Adderall tác động cả dopamine + norepinephrine + serotonin nhẹ, KHÔNG chỉ dopamine. (2) Euphoria ở liều cao requires opioid system (naltrexone block → euphoria giảm)
+- Liều therapeutic ở ADHD: thường KHÔNG gây euphoria — chỉ normalize PFC dopamine
+- → Cùng thuốc, liều khác = output khác = dopamine ≠ simple reward signal
+
+**2 model cạnh tranh cho opioid role — CHƯA SETTLE** 🟡:
+
+| Model | Cơ chế | Evidence chính | Limitation |
+|---|---|---|---|
+| **Active trigger** | Dopamine flood → trigger opioid release mới | PET (Colasanti 2012) | 1 lab group, 1 null |
+| **Permissive tone** | Tonic opioid sẵn có = điều kiện cần | Jayaram-Lindström 2017, OPRM1 genetics | Khó giải thích dose-dependence |
+
+- Likely combination: tonic opioid = nền + dopamine stimulation = boost
+- Tools mới (opioid biosensors — Bhatt 2024, Nature Neuroscience) có thể settle
+
+**Framework verdict**: ✅ Naltrexone evidence = **strongest pharmacological proof** cho "dopamine ≠ reward". Mechanism chính xác (active trigger vs permissive tone) chưa settle, nhưng kết luận CLEAR: euphoria requires opioid system, dopamine alone không đủ. Confirms 7-step: Step 5 (opioid) ≠ Steps 2-4 (dopamine).
+
+### §3.9 — Tổng kết 9 bằng chứng
 
 | # | Bằng chứng | Nguồn | Classical giải thích? | Framework giải thích? |
 |---|---|---|---|---|
 | 1 | Rat lesion dopamine vẫn like sugar | Berridge 1998 🟢 | ❌ Fail decisively | ✅ Opioid intact |
 | 2 | Schultz VTA = delta/salience | Schultz 1997 🟢 reinterpret 🟡 | 🟡 Partial (conflate) | ✅ Habituation cleaner |
 | 3 | Parkinson's anhedonia incomplete | Sienkiewicz-Jarosz 2005 🟢 | ❌ Predicts total anhedonia | ✅ Wanting impaired, liking preserved |
+| 3b | **Musical anhedonia = pipeline broken** | **Martínez-Molina 2016 🟢** | **❌ Impossible if PE=reward** | **✅ Step 4 pathway broken, Steps 5-6 never fire** |
 | 4 | Morphine direct pleasure without dopamine | Peciña 2005 🟢 | ❌ Contradicts | ✅ Opioid = direct reward |
 | 5 | Addiction wanting≠liking | Robinson-Berridge 2003 🟢 | ❌ Cannot explain | ✅ Sensitization + tolerance |
 | 6 | Scroll phone empty dopamine | Daily observable 🟡 | ❌ Contradicts | ✅ VTA fire + opioid absent |
 | 7 | Eureka = opioid not dopamine | Framework N+10 🟡 | ❌ Inaccurate mechanism | ✅ Schema match + opioid |
+| 8 | **Naltrexone block euphoria, NOT dopamine** | **Jayaram-Lindström 2004-2017 🟢** | **❌ Opioid block shouldn't affect** | **✅ 2 hệ independent, dopamine ≠ reward** |
 
-**Kết luận §3**: 5/7 có direct research support (🟢), 2/7 framework reinterpret của established data. Tổng hợp = decisive rejection of "dopamine = reward".
+**Kết luận §3**: 7/9 có direct research support (🟢), 2/9 framework reinterpret của established data. Tổng hợp = decisive rejection of "dopamine = reward". v1.3: §3.3b musical anhedonia = strongest pipeline integrity test. v1.4: §3.8 naltrexone = strongest pharmacological proof (5+ studies, nhiều lab).
 
 ---
 
@@ -410,34 +519,50 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ **Step 5 là chỗ framework khác tất cả các position khác**:
 - Classical: bỏ step này (dopamine = pleasure, không cần body check)
 - Berridge: acknowledge opioid khác dopamine, không specify WHEN/HOW opioid fires
-- Framework: opioid fires WHEN chunk fits body-need (H10 5 preconditions 03-Reward §3)
+- Framework: opioid fires WHEN chunk fits body-need (Body-Feedback-Precondition 5 preconditions 03-Reward §3)
 
-**H10 5 preconditions cho opioid fire**:
-1. Schema pending status (body có need đang chờ fill)
-2. Chunks base adequate (đủ substrate để decode)
-3. VTA delta threshold (biến động đủ lớn)
-4. Goldilocks zone (match ratio 40-70%)
-5. Chunk association tag (opioid-tagged not threat-tagged)
+**Body-Feedback-Precondition 5 preconditions cho opioid fire**:
+1. Precondition-1 Directed-Gap (body có need đang chờ fill)
+2. Precondition-2 Chunk-Substrate (đủ substrate để decode)
+3. Precondition-3 Delta-Gate (biến động đủ lớn)
+4. Precondition-4 Match-Range (Goldilocks zone — dynamic)
+5. Precondition-5 Compile-Gate (opioid-tagged not threat-tagged)
 
 **ALL 5 must be met** → full reward. Miss ANY → weak/absent/wrong-direction signal.
 
 ### §4.4 — Addiction giải thích qua 7-step
 
-**Addiction mechanism**:
-- Drug bypass normal route: fire VTA + opioid receptors directly
-- Steps 1-4: hyperactive (VTA sensitized to drug cues)
-- Step 5: **BYPASSED** — drug fires opioid receptors artificially, không cần body-need match
+⚠️ **3 loại addiction, 3 cơ chế khác nhau trong 7-step**:
+
+**Type A — Opioid drugs (morphine, heroin)**:
+- Direct μ-receptor activation → Step 5 **BYPASSED** hoàn toàn
+- Drug fire opioid receptors trực tiếp, không cần body-need match
+- Also: μ-receptor → disinhibit VTA GABA → dopamine surge (Steps 2-4 fire ngược)
 - Step 6: reinforce drug-seeking chunks (strong Hebbian due to direct opioid hit)
-- Step 7: tolerance — receptor adaptation (less response over time)
+- Step 7: tolerance — opioid receptor adaptation → need more for same effect
 
-**Result**: Wanting sensitized (steps 2-4 boost) + Liking habituates (step 5 receptor adapt) + Body-need never actually fulfilled (step 5 bypass)
+**Type B — Stimulant drugs (amphetamine, cocaine, Adderall liều cao)** 🟡:
+- Flood dopamine ở Steps 2-4 (block reuptake + reverse transporters)
+- + Norepinephrine + serotonin nhẹ (KHÔNG chỉ dopamine)
+- Step 5 opioid involvement: **CÓ** (naltrexone block euphoria 🟢 §3.8) nhưng mechanism CHƯA SETTLE:
+  - Model 1: dopamine flood trigger opioid release mới (Colasanti 2012)
+  - Model 2: tonic opioid = permissive condition (Jayaram-Lindström 2017)
+- KEY: naltrexone block euphoria WITHOUT blocking dopamine release (2017)
+  → Opioid contribution INDEPENDENT, không phải downstream đơn giản
+- Dynorphin feedback: D1-MSN activation → dynorphin (κ-opioid) → GIẢM dopamine
+  = negative feedback loop, giải thích tolerance + withdrawal dysphoria
+- Step 7: D2 receptor down-regulation → need more stimulant for same dopamine flood
+
+**Type C — Behavioral addictions (scroll, slot machine, social media)**:
+- Micro-delta per stimulus → VTA constant fire → dopamine micro-doses
+- Body-need rarely/never met → Step 5 opioid absent → "empty chase"
+- Intermittent reinforcement (random reward schedule) → VTA sensitized
+- = Wanting active + liking absent → "chán mà không dừng được"
+
+**Result chung**: Wanting sensitized (Steps 2-4 boost) + Liking habituates/absent + Body-need never actually fulfilled
 - → Pattern: "need more, enjoy less, never satisfied"
-- Classical cannot explain. Framework 7-step can.
-
-**Extended to behavioral addictions**:
-- Slot machine: random reward schedule → VTA hyperfire + rare body-match → intermittent reinforcement
-- Social media scroll: micro-delta per post → VTA constant fire + body-need rarely met → "empty chase"
-- → Same mechanism, different substrate
+- Classical "dopamine = reward" cannot explain. Framework 7-step can.
+- 3 types, 3 disruption points, CÙNG 1 output pattern
 
 ### §4.5 — Integration với Chunk compile (Cortisol-Baseline v2.0 §3)
 
@@ -498,8 +623,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 **2. Mechanism của liking (Step 5)**:
 - Berridge: opioid system fires on "liking" (black box điều kiện)
-- Framework: **H10 5 preconditions** specify WHEN opioid fires
-  - Schema pending + chunks adequate + delta threshold + Goldilocks zone + chunk tag
+- Framework: **Body-Feedback-Precondition 5 preconditions** specify WHEN opioid fires
+  - Directed-Gap + Chunk-Substrate + Delta-Gate + Match-Range + Compile-Gate
 - → Each precondition falsifiable independently
 
 **3. Body-base grounding (PFC → body simulate)**:
@@ -524,7 +649,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 Berridge 2016 explicitly asks: "What determines when liking fires?"
 
-Framework answer: H10 5 preconditions matrix (03-Reward §3). Each precondition = specific, testable, falsifiable.
+Framework answer: Body-Feedback-Precondition 5 preconditions matrix (03-Reward §3). Each precondition = specific, testable, falsifiable.
 
 **Không phải framework "biết hơn" Berridge**. Framework chỉ **take Berridge's open question** và **propose a specific mechanism** testable.
 
@@ -574,9 +699,9 @@ Framework position 🟡:
 
 ### §6.1 — Điều framework claim chắc chắn 🟢🟡
 
-- Dopamine ≠ pleasure (decisive, 7 lines of evidence)
+- Dopamine ≠ pleasure (decisive, 9 lines of evidence)
 - Opioid = actual pleasure (morphine + Berridge rat evidence)
-- Body-base reward fires on body-need match (H10 falsifiable)
+- Body-base reward fires on body-need match (Body-Feedback-Precondition falsifiable)
 - 7-step mechanism coherent with PFC-Analysis §8.3 + 03-Reward
 
 ### §6.2 — Điều framework còn chưa chắc 🟡🔴
@@ -586,9 +711,9 @@ Framework position 🟡:
 - Direct test requires recording VTA during novel-but-predictable vs expected-surprise conditions
 - Framework predicts habituation explains > PE explains; not yet tested decisively
 
-**Open question 2**: Goldilocks zone 40-70% — precise threshold?
+**Open question 2**: Precondition-4 Match-Range — Goldilocks zone boundaries?
 - Research supports inverted-U generally (Berlyne, Zajonc)
-- Exact numbers = framework synthesis, not measured
+- Zone is dynamic per person/context/gap-type/time (Body-Feedback-Precondition §5.3)
 - → Testable via systematic familiarity manipulation
 
 **Open question 3**: Imagine-Final body simulation fidelity — real mechanism?
@@ -601,6 +726,13 @@ Framework position 🟡:
 - Framework uses DRD4 as Step 3 filter but evidence mixed
 - → Framework có thể wrong về DRD4 specifically, 7-step still hold
 
+**Open question 5**: Active trigger vs permissive tone — opioid role trong stimulant euphoria?
+- Colasanti 2012 PET: amphetamine gây opioid displacement (suggests active release)
+- Jayaram-Lindström 2017: naltrexone block euphoria WITHOUT blocking dopamine (suggests independence)
+- Guterstam 2013: IV amphetamine → no opioid change (null finding)
+- → 2 competing models, new biosensor tools (Bhatt 2024) may resolve
+- Framework impact: LOW — dù model nào đúng, kết luận "dopamine ≠ reward" vẫn hold
+
 ### §6.2b — v1.2: Health Conditions Drill validation
 
 **3 health conditions CONFIRM framework's dopamine model** (§5.5):
@@ -609,18 +741,30 @@ Framework position 🟡:
 - 🟢 NIC-PD 2024: nicotine hijack ≠ neuroprotection (NEJM Evidence n=162)
 - = Drill confirms framework's core claim: dopamine = salience, NOT reward
 
+### §6.2c — v1.3: Musical anhedonia = domain-specific pipeline integrity test
+
+**Musical anhedonia ADDS to health conditions validation** (§3.3b):
+- 🟢 Martínez-Molina 2016 (PNAS): domain-specific disconnect (auditory ↔ NAcc)
+- = **Strongest** test case for multi-step model (proof-by-contradiction)
+- §3.3 Parkinson = GLOBAL disruption → wanting/liking tách
+- §3.3b Musical anhedonia = DOMAIN-SPECIFIC disconnect → pipeline broken, components intact
+- = 2 complementary clinical dissociations, CÙNG confirm multi-step mechanism
+- Motor entrainment CAN remain intact → 2 independent pathways from auditory processing
+- = Dopamine fires (Steps 1-3 ok) nhưng reward KHÔNG (Steps 5-6 never fire)
+- → If dopamine = reward → anhedonia impossible. Anhedonia exists. → QED.
+
 ### §6.3 — Mainstream vs framework positioning
 
 **Framework position**:
 - Rebut: Pop science + textbook "dopamine = pleasure/reward"
 - Endorse: Berridge-Robinson wanting/liking split (🟢 research validated)
-- Extend: Add mechanism (7-step + H10 + body-base check)
+- Extend: Add mechanism (7-step + Body-Feedback-Precondition + body-base check)
 - Integrate: Với chunk compile, cortisol direction, Imagine-Final, addiction
 
 **Framework KHÔNG claim**:
 - Revolution khoa học (Berridge đã làm major part)
 - Bác bỏ hoàn toàn Schultz (framework = alternative interpretation, not refutation)
-- Đo được chính xác tất cả preconditions (H10 = testable hypothesis, chưa test đầy đủ)
+- Đo được chính xác tất cả preconditions (Body-Feedback-Precondition = testable hypothesis, chưa test đầy đủ)
 
 ### §6.4 — Tại sao file rejection này cần thiết
 
@@ -649,7 +793,7 @@ Khác cortisol case (scientific community đã align — rejection file thừa),
   → Naltrexone blocks Evaluative but NOT Direct-State (🟢 Loseth 2019, Siebers 2021)
 
 **Framework core sources** (dependency cho file này):
-- [03-Reward.md](../../Body-Base/Body-Feedback/03-Reward.md) — 7-step mechanism + H10 5 preconditions + 7 reward cases
+- [03-Reward.md](../../Body-Base/Body-Feedback/03-Reward.md) — 7-step mechanism + Body-Feedback-Precondition 5 preconditions + 7 reward cases
 - [Feeling-Mechanism-Deep.md §4](../Feeling/Feeling-Mechanism-Deep.md) — reward corrected, unified, definitive
 - [PFC-Analysis.md §8.3](../PFC-Analysis.md) — VTA Detection Mechanism nguyên gốc
 - [Neurochemistry-v8-Draft.md §3.1](../../Neurochemistry-v8-Draft.md) — dopamine = novelty signal architecture
@@ -671,6 +815,13 @@ Khác cortisol case (scientific community đã align — rejection file thừa),
 - Nicotine-Brain-Mechanism.md v1.1 — §1-§3 hijack mechanism
 - → Informed: §3.3 note, §5.5 (3-way comparison + NIC-PD), §6.2b
 
+**Drill-Sound-Brain (v1.3 — musical anhedonia validation)**:
+- Drill-Sound-Brain/03-Sound-Reward-Pipeline.md §3
+  → Musical anhedonia = pipeline integrity proof. Martínez-Molina 2016.
+- Drill-Sound-Brain/10-Synthesis.md §2 Validation 2
+  → Pipeline integrity = strongest test case for multi-step model
+- → Informed: §3.3b (musical anhedonia), §6.2c
+
 **Pattern reference**:
 - [Mirror-Neuron-Rejection.md](../../Body-Base/Chunk/Agent/Mirror-Neuron-Rejection.md) — rejection file template (7-section pattern)
 
@@ -688,6 +839,26 @@ Khác cortisol case (scientific community đã align — rejection file thừa),
 - 🟢 Collins & Loftus 1975 — spreading activation
 - 🟢 Brickman 1978 — hedonic treadmill
 
+**v1.3 RESEARCH (§3.3b musical anhedonia)**:
+- 🟢 Martínez-Molina et al. 2016 (PNAS 113:E7337-E7345) — musical anhedonia,
+    domain-specific disconnect (auditory ↔ NAcc), pipeline integrity proof
+- 🟢 Mas-Herrero et al. 2014 — BMRQ development + 3-5% prevalence
+
+**v1.4 RESEARCH (§3.8 naltrexone + stimulant, §4.4 3-type addiction)**:
+- 🟢 Jayaram-Lindström et al. 2004 (J Clin Psychopharmacology) — naltrexone attenuates amphetamine effects, n=12
+- 🟢 Jayaram-Lindström et al. 2008a (Neuropsychopharmacology) — naltrexone attenuates in dependent patients
+- 🟢 Jayaram-Lindström et al. 2008b (Am J Psychiatry) — 12-week RCT, n=80, naltrexone reduces relapse
+- 🟢 Jayaram-Lindström et al. 2017 (Translational Psychiatry) — ⭐ naltrexone blocks euphoria WITHOUT blocking dopamine release
+- 🟢 Ray et al. 2015 (Neuropsychopharmacology) — naltrexone + methamphetamine, n=30
+- 🟢 Spencer et al. 2018 (J Clin Psychopharmacology) — naltrexone + methylphenidate, ADHD, n=37
+- 🟡 Colasanti et al. 2012 (Biological Psychiatry) — [11C]carfentanil PET, amphetamine opioid displacement, n=12
+- 🟢 Mick et al. 2014 (Int J Neuropsychopharmacology) — Colasanti replication, n=9
+- 🟡 Mick et al. 2016 (Neuropsychopharmacology) — blunted opioid release in gamblers, n=14 vs 15
+- ⚠️ Guterstam et al. 2013 (Int J Neuropsychopharmacology) — null finding with IV amphetamine, n=10
+- 🟡 Dlugos et al. 2011 (Genes Brain Behav) — OPRM1 polymorphisms modulate amphetamine euphoria, n=162
+- 🟢 Bhatt et al. 2024 (Nature Neuroscience) — genetically encoded opioid biosensors (kappaLight, deltaLight, muLight)
+- 🟡 Dai et al. 2022 (Cell Reports) — D2R bidirectionally regulates enkephalin
+
 ---
 
-**Kết luận**: "Dopamine = reward" = misconception vững chắc trong pop science và textbook, nhưng đã bị bác bỏ trong research từ Berridge 1998. Framework endorse Berridge-Robinson separation (wanting ≠ liking) và **thêm mechanism**: 7-step với body-base check (Step 5) là chỗ opioid fires khi chunk fits body-need. Reward = opioid body-base, không phải dopamine VTA. Dopamine = chuông cửa salience alert. Quà thật = opioid đằng sau cửa. v1.2: 3-way comparison (Hijack × Loss × Tuning) confirms — cùng dopamine, 3 disruption points, 3 outcomes khác nhau hoàn toàn. Phiên bản: v1.2, 2026-05-15.
+**Kết luận**: "Dopamine = reward" = misconception vững chắc trong pop science và textbook, nhưng đã bị bác bỏ trong research từ Berridge 1998. Framework endorse Berridge-Robinson separation (wanting ≠ liking) và **thêm mechanism**: 7-step với body-base check (Step 5) là chỗ opioid fires khi chunk fits body-need. Reward = opioid body-base, không phải dopamine VTA. Dopamine = chuông cửa salience alert. Quà thật = opioid đằng sau cửa. v1.2: 3-way comparison (Hijack × Loss × Tuning) confirms. v1.3: §3.3b Musical anhedonia = strongest pipeline integrity test. v1.4: §3.8 Naltrexone = strongest pharmacological proof — block opioid giảm euphoria MÀ dopamine vẫn fire bình thường (Jayaram-Lindström 2017). §4.4 refined: 3 addiction types (opioid-drug / stimulant / behavioral). 9 bằng chứng, 7/9 direct research support. Phiên bản: v1.4, 2026-05-30.

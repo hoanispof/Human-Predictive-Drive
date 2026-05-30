@@ -1,6 +1,6 @@
 # Imagine-Final Evaluation — Đánh Giá Chất Lượng Hướng Đi
 
-> **Trạng thái:** COMPLETE — v1.2 (refined 2026-04-18: L0/L1/L3 taxonomy alignment + deep-drill cross-refs)
+> **Trạng thái:** COMPLETE — v1.3 (refined 2026-05-29: L3 RETIRE — L0/L1/L3→L0+L1 substrate + observation parameters. Body-Base v3.3 aligned)
 > **Ngày:** 2026-04-18
 > **Mục đích:** Đánh giá Imagine-Final HƯỚNG VỀ ĐÂU — tốt hay xấu, đúng hay sai
 > = "Imagine-Final này có dẫn tới melody smooth THẬT không? Hay chạy lâu rồi sai?"
@@ -32,9 +32,9 @@
 >   → §8 Kết Nối: bổ sung 6+ file thiếu, tổ chức theo nhóm
 >
 > **Refinement v1.2 (2026-04-18) — đồng bộ với deep-drill files N+1→N+19:**
->   → §2B-ii: L1-L2-L3 → L0/L1/L3 taxonomy (Body-Input-Enumeration.md reframe)
+>   → §2B-ii: L1-L2-L3 → L0/L1/L3 taxonomy (v1.2) → L0+L1 substrate + observation parameters (v1.3)
 >   → §2B-ii VD: "giàu" / "expert" / "gia đình ấm" — cập nhật channel labels
->   → §2B-ii CÁCH CHECK: channel listing canonical (L0 + L1 inputs + L3 drives)
+>   → §2B-ii CÁCH CHECK: channel listing canonical (L0 + L1 substrate + observation parameters)
 >   → 7 scattered L2 references → L1/L0 (tree diagram, tables, VD Sweet Spot/Mismatch)
 >   → §7 MISSING: +2 🟡 constraints (Feeling fidelity + Chunk/Cortisol transition inertia)
 >   → §8 Kết Nối: +7 deep-drill cross-refs (Body-Input-Enum, Feeling, Chunk, Valence,
@@ -104,7 +104,7 @@ FILE NÀY TRONG FRAMEWORK:
     │  VD: Einstein        │  VD: "tiền = hạnh    │
     │  + vật lý thống nhất │  phúc" với fidelity  │
     │                      │  cao → pursue 10 năm │
-    │                      │  → trống rỗng        │
+    │                      │  → emptiness          │
     │                      │                      │
     ├──────────────────────┼──────────────────────┤
     │                      │                      │
@@ -771,7 +771,7 @@ CÁCH CHECK DOMAIN FIT — TỔNG HỢP
     → VD: physics → flight = ✓ (không constraint nào cấm)
     → = Hữu ích nhất khi check Imagine-Final TỔNG THỂ trước khi all-in
 
-  ⑤ CÀ​NG TIẾN GẦN → CÀNG THẤY RÕ:
+  ⑤ CÀNG TIẾN GẦN → CÀNG THẤY RÕ:
     → Domain fit KHÔNG CẦN biết CHẮC từ đầu
     → Build chunks → hiểu domain hơn → domain fit EVALUATION cải thiện
     → = Imagine-Final TIẾN HÓA cùng knowledge (Imagine-Final.md §6.2 + §5)
@@ -812,7 +812,7 @@ CÁCH CHECK DOMAIN FIT — TỔNG HỢP
     Capacity ✓ + Compatibility ✓ = TỐI ƯU
       → Đi được + tới rồi pleasant → full hardware fit
     Capacity ✓ + Compatibility ✗ = "GIỎI NHƯNG GHÉT"
-      → Làm được nhưng body-base không harmony → trống rỗng
+      → Làm được nhưng body-base không harmony → emptiness
     Capacity ✗ + Compatibility ✓ = "MUỐN NHƯNG KHÔNG ĐƯỢC"
       → Body muốn tới nhưng đi không được → frustrated
     Capacity ✗ + Compatibility ✗ = RÕ RÀNG KHÔNG PHÙ HỢP
@@ -843,7 +843,7 @@ CÁCH CHECK DOMAIN FIT — TỔNG HỢP
   │      ├── 2B-i.   Modality Match                                │
   │      │           (cuộc sống hàng ngày ở đích HỢP hardware?)    │
   │      ├── 2B-ii.  Body-Base Channels Satisfaction                │
-  │      │           (L0/L1/L3 channels được FEED đủ?)             │
+  │      │           (body-base substrate + obs params FEED đủ?)    │
   │      └── 2B-iii. Source Alignment (predictor)                  │
   │                  (Imagine-Final từ body hay từ ngoài?)          │
   └──────────────────────────────────────────────────────────────────┘
@@ -1113,7 +1113,7 @@ CAPACITY — TỔNG KẾT
 ═══════════════════════════════════════════════════════
 
   COMPATIBILITY = NẾU đạt Imagine-Final → melody CÓ SMOOTH không?
-  = Body-base có SATISFIED không? Hay "thành công mà trống rỗng"?
+  = Body-base có SATISFIED không? Hay "thành công mà emptiness"?
 
   ĐÂY LÀ SUB-DIMENSION ÍT AI HỎI — NHƯNG QUYẾT ĐỊNH DÀI HẠN:
 
@@ -1121,7 +1121,7 @@ CAPACITY — TỔNG KẾT
     → Compatibility trả lời: "tới rồi SƯỚNG không?" → quan trọng cho KẾT QUẢ
     → Nhiều người CHECK capacity kỹ (plan, resource, timeline)
       nhưng QUÊN check compatibility (body-base có muốn state đó không?)
-    → = Tại sao "thành công mà trống rỗng" xảy ra:
+    → = Tại sao "thành công mà emptiness" xảy ra:
       capacity ✓ (đi được) + compatibility ✗ (tới rồi không pleasant)
 
 
@@ -1175,6 +1175,7 @@ CAPACITY — TỔNG KẾT
     → Kiểm tra: ngày thường đó có bao nhiêu % hoạt động MATCH modality?
     → > 60% match → likely sustainable
     → < 40% match → likely draining long-term
+    (⚠️ % = calibration anchor, không đo lường chính xác)
     → Hoặc: TRẢI NGHIỆM thật (thực tập, shadowing, thử 1 tuần)
       → Body cho biết: energize hay drain?
 
@@ -1183,39 +1184,39 @@ CAPACITY — TỔNG KẾT
   🟢 Daily activities → wellbeing (experience sampling research)
 
 
-── 2B-ii. BODY-BASE CHANNELS SATISFACTION ──
-   = Imagine-Final đạt → L0/L1/L3 channels có được FEED đủ?
-   (L0/L1/L3 taxonomy: Body-Input-Enumeration.md)
+── 2B-ii. BODY-BASE SATISFACTION ──
+   = Imagine-Final đạt → body-base substrate (L0+L1) + observation parameters có được FEED đủ?
+   (Body-Base.md v3.3 — L0+L1 substrate + observation parameters)
 
   Imagine-Final KHÔNG CHỈ là "đạt 1 mục tiêu"
   = Imagine-Final = 1 TRẠNG THÁI mà TOÀN BỘ body-base SỐNG TRONG
 
   NẾU Imagine-Final CHỈ feed 1-2 channels → channels khác THIẾU:
 
-    VD: Imagine-Final "giàu" (L1 met, L3 Status met):
+    VD: Imagine-Final "giàu" (L1 met, Status met):
       → L1 ✓: tiền đủ → ăn ngủ tốt → survival met
-      → L3 ✓ (Status): được công nhận → "thành công"
+      → Status ✓: được công nhận → "thành công"
       → NHƯNG L1 connection THIẾU:
         → Bận kiếm tiền → ít thời gian cho gia đình, bạn bè
         → = "Thành công mà cô đơn"
-      → NHƯNG L3 Novelty CÓ THỂ THIẾU:
+      → NHƯNG Novelty CÓ THỂ THIẾU:
         → Giàu nhờ đầu tư (ít skill mới) → mastery hunger vẫn còn
         → = "Giàu mà chán"
-      → = Imagine-Final HẸP (chỉ L1 survival + L3 Status) → channels khác THIẾU
+      → = Imagine-Final HẸP (chỉ L1 survival + Status) → dimensions khác THIẾU
 
-    VD: Imagine-Final "expert domain X" (L3 Novelty met):
-      → L3 ✓ (Novelty): giỏi → body reward khi giải quyết vấn đề
+    VD: Imagine-Final "expert domain X" (Novelty met):
+      → Novelty ✓: giỏi → body reward khi giải quyết vấn đề
       → NHƯNG L1 connection CÓ THỂ THIẾU:
         → Expert thường: ÍT người hiểu → cô đơn trí tuệ
         → Nếu domain = isolating (research solo) → connection ĐÓI
       → NHƯNG L1 nutrition/comfort CÓ THỂ THIẾU:
         → "Giỏi nhưng nghèo" (expert domain không trả tiền tốt)
         → Hoặc: hy sinh ngủ/ăn VÌ Novelty drive → L1 nutrition/sleep thiếu
-      → = Imagine-Final HẸP (chỉ L3 Novelty) → channels khác THIẾU
+      → = Imagine-Final HẸP (chỉ Novelty) → dimensions khác THIẾU
 
     VD: Imagine-Final "gia đình ấm" (L1 connection met):
       → L1 ✓ (connection): gắn kết → oxytocin → body warm
-      → L3 CÓ THỂ THIẾU:
+      → Novelty/Status CÓ THỂ THIẾU:
         → "Gia đình ấm nhưng cá nhân không phát triển"
         → Novelty hunger vẫn có → nếu không feed → bứt rứt
       → = Imagine-Final CÓ THỂ HẸP nếu CHỈ focus connection
@@ -1223,13 +1224,13 @@ CAPACITY — TỔNG KẾT
   IMAGINE-FINAL TOÀN DIỆN = COVER NHIỀU CHANNELS:
     → KHÔNG CẦN cover TẤT CẢ ở mức CAO
     → CẦN: không channel nào bị BỎ ĐÓI HOÀN TOÀN
-    → L1 met (nutrition, comfort, connection ổn) + L3 balanced (Novelty + Status vừa đủ)
+    → L1 met (nutrition, comfort, connection ổn) + observation parameters balanced (Novelty + Status vừa đủ)
     → = "Đời sống cân bằng" = Imagine-Final cover đủ channels
     → = KHÔNG PHẢI "tất cả đều giỏi" — mà "không cái nào bị bỏ đói"
 
   CÁCH CHECK:
     → Liệt kê body-base channels: L0 (alive) + L1 (nutrition, comfort, sleep,
-      autonomy, connection, ...) + L3 (Novelty, Status, Protect)
+      autonomy, connection, ...) + observation parameters (Novelty, Status, Protect)
     → Với Imagine-Final đã define → mỗi channel được feed thế nào?
     → Channel nào = 0? → RED FLAG (sẽ thành dissonance source dài hạn)
     → Channel nào ĐỦ nhưng không DƯ? → OK (không cần dư, cần đủ)
@@ -1323,7 +1324,7 @@ COMPATIBILITY — TỔNG KẾT
     │                   │ Energize hay drain?                  │
     ├──────────────────┼──────────────────────────────────────┤
     │ Channels          │ Imagine-Final đạt → mỗi channel    │
-    │ Satisfaction      │ L0/L1/L3 được feed thế nào?        │
+    │ Satisfaction      │ body-base được feed thế nào?        │
     │                   │ Channel nào = 0? (red flag)          │
     ├──────────────────┼──────────────────────────────────────┤
     │ Source            │ Imagine-Final từ body hay người khác?│
@@ -1333,7 +1334,7 @@ COMPATIBILITY — TỔNG KẾT
 
   ⚠️ COMPATIBILITY KHÓ BIẾT TRƯỚC:
     → "Mình có thực sự muốn X?" → chỉ biết khi TỚI GẦN hoặc ĐẠT
-    → Imagine-Final.md §4.2: "thành công mà trống rỗng" (schema-compiled)
+    → Imagine-Final.md §4.2: "thành công mà emptiness" (schema-compiled)
       = đạt Imagine-Final sai compatibility
     → CÁCH TĂNG CONFIDENCE: trải nghiệm TRƯỚC (thực tập, shadowing, pilot)
       → Body CÓ chunks thật → simulate RÕ hơn → compatibility check TỐT hơn
@@ -1454,7 +1455,7 @@ Domain Fit ✓ + Hardware Fit ✓
       Domain fit: nghề mộc CÓ THẬT, thị trường có, attractor rõ
       Capacity: hardware fit body work ✓, learnable ✓, tools có ✓
       Compatibility: hàng ngày dùng tay + feel gỗ = modality match ✓
-      Channels: L1 (thu nhập đủ, cảm giác tay, kết nối khách) + L3 (Novelty)
+      Channels: L1 (thu nhập đủ, cảm giác tay, kết nối khách) + Novelty (evaluative)
       Source: body-base từ nhỏ thích tháo lắp → internal ✓
       → = Full Sweet Spot
 
@@ -1462,7 +1463,7 @@ Domain Fit ✓ + Hardware Fit ✓
       Domain fit: nghiên cứu = map domain → CÓ THẬT, vô tận
       Capacity: PFC-Cap cao + Met/Met (linger sâu) = natural fit research
       Compatibility: hàng ngày đọc + nghĩ + viết = verbal dominant ✓
-      Channels: L3 Novelty ✓, L1 tùy funding, L1 connection cần chủ động maintain
+      Channels: Novelty ✓, L1 tùy funding, L1 connection cần chủ động maintain
       Source: body-base curiosity-driven → internal ✓
       → = Sweet Spot (cần chú ý L1 connection)
 
@@ -1542,7 +1543,7 @@ Domain Fit ✓ + Hardware Fit ✗
       Domain fit: y khoa CÓ THẬT ✓
       Capacity: IQ đủ → có thể đỗ (Mismatch-A path)
       Compatibility: somatic + visual dominant → hàng ngày ngồi phòng khám ✗
-      Channels: L3 Novelty (y khoa ≠ passion) → L1 connection (ok) → L3 Status (ok)
+      Channels: Novelty (y khoa ≠ passion) → L1 connection (ok) → Status (ok)
       Source: inject từ bố mẹ → source alignment ✗
       → Mismatch-A: đỗ được, hành nghề được, nhưng body-base KHÔNG harmony
       → Long-term: "bác sĩ giỏi nhưng mệt mỏi mãn tính"
@@ -1557,7 +1558,7 @@ Domain Fit ✓ + Hardware Fit ✗
       → Mismatch-B: "kẹt giữa 2 threats"
       → (ref: VN 22.8% depression, 26.3% suicidal ideation ở học sinh)
 
-    ── "Tiền = hạnh phúc" → kiếm tiền → giàu → trống rỗng ──
+    ── "Tiền = hạnh phúc" → kiếm tiền → giàu → emptiness ──
       ⚠️ Case NÀY NẰM GIỮA Mismatch VÀ Delusion:
       → Domain fit: "kiếm tiền" = ✓ (domain cho phép)
       → Domain fit: "tiền = hạnh phúc" = ✗ (domain KHÔNG confirm beyond threshold)
@@ -1575,7 +1576,7 @@ Domain Fit ✓ + Hardware Fit ✗
     → Tự hỏi "tại sao mình làm cái này?" THƯỜNG XUYÊN
     → So sánh: Sweet Spot = "khó nhưng xứng", Mismatch = "được nhưng mệt"
 
-  🟢 "Thành công mà trống rỗng" = hedonic treadmill (Brickman 1971)
+  🟢 "Thành công mà emptiness" = hedonic treadmill (Brickman 1971)
   🟢 Forced-fit → dissonance = cognitive dissonance (Festinger 1957)
   🟢 VN student mental health data = UNICEF, Bộ GD&ĐT reports
   🟢 Burnout phases = Maslach burnout inventory
@@ -1855,8 +1856,8 @@ Domain Fit ✗ + Hardware Fit ✗
   ├────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
   │ Tần suất  │ HIẾM (cần    │ PHỔ BIẾN     │ THƯỜNG       │ RẤT PHỔ BIẾN│
   │            │ cả 2 fit)    │ NHẤT (domain │ (hardware    │ (nhưng vô   │
-  │            │              │ ✓ dễ, hw ✗) │ ✓ tạo ảo    │ hại nên ít  │
-  │            │              │              │ giác)        │ ai để ý)    │
+  │            │              │ ✓ dễ,        │ ✓ tạo ảo    │ hại nên ít  │
+  │            │              │ Hardware ✗)  │ giác)        │ ai để ý)    │
   └────────────┴──────────────┴──────────────┴──────────────┴──────────────┘
 
   ⭐ QUAN SÁT QUAN TRỌNG:
@@ -2033,7 +2034,7 @@ MISMATCH + THREAT = DESTRUCTIVE SPIRAL
         → Nhưng văn hóa "chỉ có đại học" → không thấy alternative → kẹt Mismatch
 
   THREAT Ở ĐÂY = PUSH VÀO CHỖ SAI:
-    → Threat CÀ​NG MẠNH → override body-base CÀ​NG sâu → damage CÀ​NG lớn
+    → Threat CÀNG MẠNH → override body-base CÀNG sâu → damage CÀNG lớn
     → Threat-based parenting/management: đặt threat mạnh → override body-base warning
       → Người tiếp tục dù body báo "sai hướng" hoặc "quá tải"
     → = Threat KHÔNG XẤU — nhưng threat PUSH VÀO MISMATCH = xấu
@@ -2854,7 +2855,7 @@ THIẾU SÓT (MISSING — cần phát triển):
     = Observer assessment guide?
     → Chưa phát triển — priority cho future work
     🟡 CONSTRAINT (2026-04-18):
-      → Feeling.md §2: self-report = Layer 6-7 fidelity (20-80%)
+      → Feeling.md §2: self-report = Feel-Labeling—Feel-Explanation fidelity (20-80%)
       → Bất kỳ measurement tool nào = LOSSY by design
       → Cần thiết kế tool BIẾT mình lossy (hỏi body signal, không chỉ hỏi PFC)
 
@@ -3028,8 +3029,8 @@ SONG SONG (cùng layer Core-Deep-Dive)
   Hardware-Calibration.md (TRUE-FIT vs FORCED-FIT = Sweet Spot vs Mismatch)
   Body-Listening.md (countermeasure cho Delusion + Hardware-First Harm)
 
-  Body-Input-Enumeration.md (L0/L1/L3 taxonomy — §2B-ii channels reference)
-  Feeling.md §2 (7-layer fidelity gradient — tự đánh giá = Layer 6-7 = lossy)
+  Body-Base.md v3.3 (L0+L1 substrate + observation parameters — §2B-ii reference)
+  Feeling.md §2 (7-layer fidelity gradient — tự đánh giá = Feel-Labeling—Feel-Explanation = lossy)
   Chunk.md §3 (chunk compile + connections — transition resistance mechanism)
   Valence-Propagation.md (indirect valence chains — evaluation phải tính cả indirect)
   Cortisol-Baseline.md §3.7 (cortisol gates Imagine-Final activation)

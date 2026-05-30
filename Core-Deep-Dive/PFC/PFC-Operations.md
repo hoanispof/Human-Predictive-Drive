@@ -1,14 +1,17 @@
----
+﻿---
 title: PFC-Operations — Hold + Suppress trên Compiled/Fresh Spectrum
-version: 1.0
+version: 1.2
 created: 2026-05-22
-status: MECHANISM v1.0
+updated: 2026-05-30 (v1.2 — §9.3 2-Mode Engagement: Compiled/Fresh at meta-level, Drill-Sound-Brain propagation)
+previous_update: 2026-05-25 (v1.1 — §2.4 +Hold/Suppress × Dissonance Type effectiveness, +Dissonance-Signal-Architecture cross-ref)
+status: MECHANISM v1.2
 scope: |
   HOW PFC operates: 2 operations (Hold + Suppress), 4 combinations, 3 outcomes.
   Compiled Quality Dimension (genuine / schema / threat).
   B vs C Determinant (7 factors). Pattern Shiftability × Background-Pattern Quadrants.
   Compiled Suppress pathways (→ learned helplessness, 6-step reversal).
   PFC Budget = Universal Resource (shared, finite).
+  2-Mode Engagement: Compiled/Fresh at meta-level (effort vs knowledge).
   Compilable Architecture + 3-Cost integration.
 purpose: |
   PFC-Function.md = WHAT PFC does (24 functions, catalog).
@@ -26,7 +29,8 @@ dependencies:
   - Background-Pattern.md v1.1 — 2D model Depth×Density, §8 self-reinforcing loop
   - Autonomy-Hardware.md v1.1 — vmPFC/DRN, controllability, efference copy
   - Cortisol-Baseline.md v2.1 — cortisol direction tag, PFC damage pathway
-  - Body-Feedback-Label.md v2.0 — vocabulary reference (§8 Compiled/Fresh, §9C 3-cost)
+  - Body-Feedback-Label.md v2.1 — vocabulary reference (§8 Compiled/Fresh, §9C 3-cost)
+  - Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance × PFC effectiveness
   - Compile-Taxonomy.md v2.0 — 3 Compile Types, pathways
   - Body-Coupling.md v2.0 — relationship suppress dynamics
 sources:
@@ -63,6 +67,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §7 — PATTERN SHIFTABILITY × Background-Pattern QUADRANTS
 - §8 — COMPILED SUPPRESS PATHWAYS
 - §9 — PFC BUDGET: UNIVERSAL RESOURCE
+- §9.3 — 2-MODE ENGAGEMENT: COMPILED/FRESH AT META-LEVEL
 - §10 — COMPILABLE ARCHITECTURE + 3-COST INTEGRATION
 - §11 — CROSS-FRAMEWORK CONNECTIONS
 - §12 — HONEST ASSESSMENT
@@ -201,6 +206,42 @@ COMPILED → FRESH (Disruption):
 
   🟡 Hold/Suppress as 2 structurally distinct PFC operations = framework synthesis.
   🟢 Individual components established (Miller 2001, Aron 2007).
+```
+
+### §2.4 — Hold/Suppress × Dissonance Type: Effectiveness khác nhau
+
+```
+🟡 PFC OPERATIONS × 2 LOẠI DISSONANCE (Dissonance-Signal-Architecture.md v1.0 §7.2):
+
+  ┌─────────────────┬──────────────────────┬──────────────────────┐
+  │ PFC Operation   │ On Evaluative Dissonance │ On Direct-State Dissonance │
+  ├─────────────────┼──────────────────────┼──────────────────────┤
+  │ HOLD            │ ✅ EFFECTIVE          │ ⚠️ PARTIAL           │
+  │ (amplify)       │ "Focus on worry" →   │ "Focus on pain" →    │
+  │                 │ worry GROWS          │ awareness grows      │
+  │                 │ → rumination         │ (limited amplify)    │
+  ├─────────────────┼──────────────────────┼──────────────────────┤
+  │ SUPPRESS        │ ⚠️ TEMPORARY         │ ❌ VERY LIMITED      │
+  │ (block)         │ "Don't think about   │ "Ignore pain" →      │
+  │                 │ it" → works short-   │ pain persists, PFC   │
+  │                 │ term (🟢 Wegner 1994)│ budget exhausts      │
+  └─────────────────┴──────────────────────┴──────────────────────┘
+
+  → Evaluative Dissonance = compiled → PFC CAN operate (hold amplifies, suppress blocks temporarily)
+  → Direct-State Dissonance = hardware → PFC CANNOT effectively suppress (not gated by PFC)
+  → = WHY "thinking away the pain" doesn't work (Direct-State)
+  → = WHY "not thinking about worry" works SHORT-TERM (Evaluative)
+  → PFC budget WASTED on Direct-State suppress → depletes without benefit
+
+  CLINICAL IMPLICATION:
+  → Therapy targeting Evaluative Dissonance (CBT, reframe) = effective
+  → Therapy targeting Direct-State Dissonance (body-based: PT, medication) = different pathway
+  → MIXED cases (chronic pain + anxiety) = cần BOTH approaches
+
+  🟡 Dissonance type × PFC effectiveness mapping = framework synthesis.
+  🟢 Evaluative/Direct-State dissonance: Dissonance-Signal-Architecture v1.0 §1.
+  🟢 Gate control theory partial effect: Melzack & Wall 1965.
+  🟢 Wegner ironic process: Wegner 1987, 1994.
 ```
 
 ---
@@ -385,7 +426,7 @@ COMPILED → FRESH (Disruption):
   │ Sustainable?     │ Self-reinforcing│ Needs bridge    │ Decays without  │
   │                  │                 │ (schema/trust)  │ threat          │
   │ Long-term        │ Compound growth │ Stable if bridge│ Burnout risk    │
-  │ Autonomy-HW path │ Path A (opioid) │ Mixed           │ Path B (relief) │
+  │ Autonomy-Hardware path │ Path A (opioid) │ Mixed           │ Path B (relief) │
   └──────────────────┴─────────────────┴─────────────────┴─────────────────┘
 
   🟢 Cortisol direction tag: Autonomy-Hardware §3, Cortisol-Baseline §7.
@@ -760,6 +801,116 @@ CAN COMPILED SUPPRESS BE MEASURED?
   🟡 Parent-child as highest PFC cost = framework synthesis.
 ```
 
+### §9.3 — 2-Mode Engagement: Compiled/Fresh at Meta-Level
+
+```
+⭐ COMPILED/FRESH KHÔNG CHỈ ÁP DỤNG CHO WHAT — MÀ CÒN HOW:
+
+  §9.1: PFC budget shared GIỮA activities.
+  Section này: PFC budget khác nhau TRONG CÙNG 1 ACTIVITY
+  tùy theo CÁCH engage = compiled hay fresh.
+
+
+  ═══ 2 MODES OF ENGAGEMENT ═══
+
+  MODE 1 — Flow/Immersion (PFC relaxed):
+    → Body-feedback dominant, emotion/reward systems active.
+    → "Hay mà không biết tại sao" / "Cảm thấy đúng."
+    → PFC NOT effortfully engaged → channels FREED cho body-feedback.
+    → Optimal khi knowledge đã COMPILED + context familiar.
+    → 🟢 Limb & Braun 2008 (PNAS): lateral PFC DECREASE during jazz improvisation.
+      ⚠️ Specifically lateral PFC self-monitoring — medial PFC INCREASED.
+      = NOT "all PFC off" — self-monitoring off, self-expression on.
+
+  MODE 2 — Analytical Appreciation (PFC engaged WITH compiled knowledge):
+    → Cognitive appreciation THÊM VÀO body-feedback (not replace).
+    → "Hay VÌ chord progression bất ngờ ở bar 12" / "Code đẹp vì abstraction đúng level."
+    → PFC engaged BUT with COMPILED analytical vocabulary.
+    → Compiled analysis = AUTOMATIC recognition → THÊM channel, KHÔNG tiêu budget.
+    → 🟢 Brattico et al. 2016 (Frontiers Neuroscience):
+      Musicians = enhanced fronto-insular activity during liking.
+      Experts access ADDITIONAL pleasure channels through cognitive appreciation.
+    → 🟢 Hou et al. 2024 (PsyCh Journal):
+      Analytical knowledge → INCREASED music liking (more than historical knowledge alone).
+      = TRỰC TIẾP BÁC BỎ "phân tích → hết sướng."
+
+
+  ⭐ CRITICAL DISTINCTION — Effort ≠ Knowledge:
+
+    ┌──────────────────────┬────────────────────┬─────────────────────┐
+    │                      │ Real-time EFFORT    │ Accumulated         │
+    │                      │ (fresh analysis)    │ KNOWLEDGE           │
+    │                      │                    │ (compiled analysis)  │
+    ├──────────────────────┼────────────────────┼─────────────────────┤
+    │ PFC load             │ HIGH — workspace   │ LOW — compiled      │
+    │                      │ occupied            │ chunks auto-fire    │
+    │ Body-feedback        │ CONSTRAINED (PFC   │ ENRICHED (thêm      │
+    │                      │ Hold override)      │ recognition layer)  │
+    │ Effect on experience │ CAN interfere      │ ADDS channels       │
+    │ Compiled/Fresh       │ = FRESH at meta-   │ = COMPILED at       │
+    │                      │   level             │   meta-level        │
+    │ §2 mapping           │ Hold consumes PFC  │ Compiled ≈ 0 cost   │
+    │                      │ budget (§2.1)       │ (§1.1)              │
+    └──────────────────────┴────────────────────┴─────────────────────┘
+
+    = Effort vs Knowledge = Fresh vs Compiled AT META-LEVEL.
+    = CÙNG person, CÙNG activity, KHÁC mode → KHÁC experience.
+
+
+  ⭐ GENERALIZATION — 4 DOMAINS NGOÀI MUSIC:
+
+    RƯỢU VANG:
+      Novice phân tích mùi vị = effortful → PFC busy → GIẢM enjoyment.
+      Expert = compiled vocabulary → recognition AUTOMATIC → THÊM appreciation.
+      → Mode 2 cho expert = RICHER experience, not poorer.
+
+    CODE REVIEW:
+      Junior = effortful analysis = slow, misses big picture.
+      Senior = compiled patterns → sees beauty + issues SIMULTANEOUSLY.
+      → Senior "feels" code quality = Body-Knowing (Logic-Feeling v4.0 §1).
+
+    THỂ THAO:
+      Casual fan = immersive enjoyment (Mode 1 only).
+      Expert fan = sees strategy + enjoys drama = richer (Mode 1 + Mode 2).
+      → Knowledge THÊM enjoyment, không bớt.
+
+    GIÁO DỤC (⚠️ QUAN TRỌNG):
+      Ép phân tích khi chưa có compiled base = GIẢM enjoyment.
+      → PFC busy với fresh analysis → body-feedback CONSTRAINED.
+      → Enjoyment ↓ → motivation ↓ → learning SLOWER.
+      → Build genuine interest TRƯỚC → analytical vocabulary EMERGES → appreciation TĂNG.
+      → = §5 compile-time direction lock: ép phân tích sớm = threat-compile risk.
+
+
+  ⭐ 4 FRAMEWORK IMPLICATIONS:
+
+    ① "PARADOX OF EXPERTISE" RESOLVED:
+      Expert enjoy MORE vì compiled analysis THÊM channels.
+      Body-feedback vẫn ĐÓ. Cognitive appreciation ĐÈ LÊN, không CHẶN.
+
+    ② EDUCATION WARNING:
+      Forcing analysis BEFORE compiled base → counterproductive.
+      Student chưa có base → analysis = fresh = PFC drain → enjoyment ↓.
+      Build genuine interest trước. Analytical vocabulary sẽ EMERGE.
+
+    ③ COMPILED/FRESH AT META-LEVEL:
+      Không chỉ task compiled/fresh, mà CÁCH engage cũng compiled/fresh.
+      = Trục Compiled/Fresh apply ở NHIỀU levels, không chỉ 1.
+
+    ④ MODE SWITCHING (KHÔNG exclusive):
+      Expert CAN SWITCH: Mode 1 (immerse) → Mode 2 (appreciate) → Mode 1.
+      Switching requires compiled analytical vocabulary = prerequisite.
+      Novice CHƯA THỂ Mode 2 (chưa có compiled vocabulary).
+      → Mode 2 = EARNED capability, không phải default.
+
+
+  🟢 Analytical knowledge increases liking: Hou et al. 2024.
+  🟢 Expert enhanced pleasure via cognition: Brattico et al. 2016.
+  🟢 Lateral PFC decrease during flow: Limb & Braun 2008.
+  🟡 Transient hypofrontality — lateral PFC specific: Dietrich 2004.
+  🟡 2-mode engagement model as taxonomy: framework synthesis.
+```
+
 ---
 
 ## §10 — COMPILABLE ARCHITECTURE + 3-COST INTEGRATION
@@ -828,7 +979,7 @@ CAN COMPILED SUPPRESS BE MEASURED?
     → ≠ Education BAD — ép without genuine engagement = bad.
     (Compile-Taxonomy §2.1, Education files.)
 
-  5. ENTITY-COMPILED (Valence-Propagation §3):
+  5. ENTITY-COMPILED (Entity-Valence-Dynamics.md v1.0 §2):
     Entity-Compiled with compatible = Hold only → genuine.
     Entity-Compiled with khác tính = Hold + Suppress → 3 outcomes.
     → Roommate = Outcome B dominant ("chịu được nhưng không sâu").
@@ -858,6 +1009,9 @@ CAN COMPILED SUPPRESS BE MEASURED?
   HRV × PFC regulation:                Thayer & Lane 2009
   SCR fear conditioning:                LaBar & Phelps 2006
   ACE dose-response:                    Felitti 1998
+  Analytical knowledge ↑ liking:        Hou et al. 2024
+  Expert enhanced pleasure (cognition): Brattico et al. 2016
+  Lateral PFC ↓ during flow:            Limb & Braun 2008
 
 ═══════════════════════════════════════
 🟡 FRAMEWORK SYNTHESIS (novel integration)
@@ -878,6 +1032,9 @@ CAN COMPILED SUPPRESS BE MEASURED?
   PFC budget as shared universal resource
   Parent-child as highest PFC cost
   3-cost → Hold/Suppress mapping
+  2-mode engagement (flow/immersion vs analytical appreciation)
+  Compiled/Fresh at meta-level (effort vs knowledge distinction)
+  Paradox of expertise resolved (compiled analysis adds channels)
 
 ═══════════════════════════════════════
 🔴 HYPOTHESIS (testable but unverified)
@@ -905,10 +1062,19 @@ CAN COMPILED SUPPRESS BE MEASURED?
 | Self-Pattern-Modeling v3.0 | §2 Compiled/Fresh | Self-Pattern-Modeling × compiled quality |
 | Body-Coupling v2.0 | Depth × Direction | Relationship suppress |
 | By-Product-Gap-Resonance v1.0 | Mutual by-product match | Genuine compiled × resonance |
-| Body-Feedback-Mechanism v2.0 | §3 Chunk dynamics | Shift/Miss/Gap during suppress |
+| Body-Feedback-Mechanism v2.1 | §3 Chunk dynamics | Shift/Miss/Gap during suppress |
+| Dissonance-Signal-Architecture v1.0 | §7.2 PFC × 2 types | Hold/Suppress effectiveness × dissonance type |
 | Body-Feedback-Label v2.0 | §8 Compiled/Fresh, §9C 3-cost | Vocabulary companion |
 | Gap-Distribution-Profile v1.0 | Per-person landscape | Hardware↔Collective-Arc shift |
-| Somatic-Articulation-Loop.md | Somatic-Articulation-Loop mechanism | Step 4 of reversal |
+| Somatic-Articulation-Loop.md | Somatic-Articulation-Loop mechanism | Step 4 of reversal + §9.3 body→word |
+| Logic-Feeling v4.0 | §1 Body-Knowing | §9.3 Mode 2 = compiled recognition |
+
+**Drill-Sound-Brain (v1.2 — §9.3 source):**
+
+| File | Sections | Relationship |
+|------|----------|-------------|
+| Drill-Sound-Brain/07-Music-Entrainment-Reward-Dynamics v1.2 | §7b 2-Mode Enjoyment | SOURCE: effort vs knowledge distinction, 4 citations |
+| Drill-Sound-Brain/10-Synthesis v1.0 | §4 Extension 4 | Impact Assessment: PFC-Operations enrichment |
 
 ---
 
@@ -946,12 +1112,16 @@ CAN COMPILED SUPPRESS BE MEASURED?
 | R28 | Inzlicht & Schmeichel 2012 — Motivational Account | §8 | 🟢 |
 | R29 | Baumeister 1998 — Self-Control as Limited Resource | §8 | 🟢 |
 | R30 | Miller et al. 2007 — Flat Diurnal Cortisol | §8 | 🟢 |
+| R31 | Hou et al. 2024 — Analytical Knowledge Increases Liking (PsyCh Journal) | §9.3 | 🟢 |
+| R32 | Brattico et al. 2016 — Expert Enhanced Pleasure (Frontiers Neuroscience) | §9.3 | 🟢 |
+| R33 | Limb & Braun 2008 — Lateral PFC During Jazz Improvisation (PNAS) | §9.3 | 🟢 |
+| R34 | Dietrich 2004 — Transient Hypofrontality | §9.3 | 🟡 |
 
 ---
 
-**END OF FILE — v1.0 (14 sections, 30 citations)**
+**END OF FILE — v1.2 (14 sections + §9.3, 34 citations)**
 
-> *PFC-Operations v1.0 — HOW PFC operates trên Compiled/Fresh spectrum.*
+> *PFC-Operations v1.2 — HOW PFC operates trên Compiled/Fresh spectrum.*
 >
 > *§1 Spectrum brief. §2 Hold (amplify) + Suppress (block) = 2 operations.*
 > *§3 4 combinations. §4 3 outcomes (Genuine Shift / Compiled Suppress / Failure).*
@@ -959,5 +1129,6 @@ CAN COMPILED SUPPRESS BE MEASURED?
 > *§6 B vs C Determinant: 7 factors. §7 Shiftability × Background-Pattern quadrants.*
 > *§8 Compiled Suppress pathways: escalation → helplessness, 6-step reversal, ego depletion position, biomarkers.*
 > *§9 PFC Budget = universal shared resource. Parent-child = highest cost.*
+> *§9.3 2-Mode Engagement: Compiled/Fresh at meta-level (effort vs knowledge, 4 domains).*
 > *§10 Compilable Architecture + 3-cost integration. §11 Cross-framework connections.*
 > *Companion files: PFC-Function (WHAT), Logic-Feeling (WHY labels), PFC-Operations (HOW).*

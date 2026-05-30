@@ -26,7 +26,7 @@ position: |
 dependencies:
   - Valence-Propagation.md v2.0 §3 — DEFINES Entity-Compiled, 3 subtypes
   - Inter-Body-Mechanism.md v1.0 §8 — REFRAMES Entity-Owned → Entity-Compiled
-  - Self-Pattern-Modeling.md v3.0 — Compiled/Fresh mechanism, Self-Pattern-Modeling as simulation engine
+  - Self-Pattern-Modeling.md v3.0 — Compiled/Fresh mechanism, Self-Pattern-Modeling as Simulation-Engine
   - By-Product-Gap-Resonance.md v1.0 — mutual phenomenon, 5 trục
   - Agent-Mechanism.md v2.0 — integration hub, Compilable Architecture
   - Body-Coupling.md v2.0 — coupling mechanism, love↔hate
@@ -601,7 +601,7 @@ STRATEGY C — NHIỀU KHÁC, NÔNG (networking):
 
 TẠI SAO KIN COST THẤP HƠN:
 
-① EVOLUTION HARDWARE SUBSIDY:
+① EVOLUTION HARDWARE-SUBSIDY:
   Oxytocin system (mẹ-con): compile NHANH, habituation CHẬM
   Kin recognition (MHC, phenotype matching)
   Hamilton's rule (inclusive fitness): bias toward kin
@@ -621,7 +621,7 @@ NHƯNG: kin = GIVEN → có thể KHÔNG match
   → = "Vừa thương vừa giận" = cả positive + negative channels
 
 🟢 Kin vs friend cost = well-replicated finding
-🟡 Hardware subsidy explanation = framework synthesis
+🟡 Hardware-subsidy explanation = framework synthesis
 ```
 
 ---
@@ -1137,7 +1137,7 @@ Brain designed for:                Modern reality:
 |------|----------|-------------|
 | Valence-Propagation v2.0 | §3 Entity-Compiled, §3.2 subtypes | DEFINES concept |
 | Inter-Body-Mechanism v1.0 | §8 Entity-Compiled, §4 3-cost | Reframes + mechanism foundation |
-| Self-Pattern-Modeling v3.0 | §2 Compiled/Fresh, §6 quality axes | Self-Pattern-Modeling = simulation engine per entity |
+| Self-Pattern-Modeling v3.0 | §2 Compiled/Fresh, §6 quality axes | Self-Pattern-Modeling = Simulation-Engine per entity |
 | By-Product-Gap-Resonance v1.0 | §4 Trục 1 Gap Overlap | Resonance observation |
 | Agent-Mechanism v2.0 | §12 body-need feeder, §13 developmental | Integration hub |
 | Body-Coupling v2.0 | §3 Phase, §6 Love↔Hate | Coupling mechanism companion |

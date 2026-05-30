@@ -2,12 +2,12 @@
 title: Interoceptive Other States — Hunger + Pain + Thermal + Emotional Arc
 created: 2026-04-16 (Session N+4c1, Phase F1-P11)
 status: DRAFT N+4c1 P11 — ready for user review
-scope: Apply 06a methodology (L0→L4 PFC-Inference Ladder + event-inference + chunks compile mechanism) to the 4 interoceptive body states other than bladder. Parallel structure to 06a but shorter — 06a established the analytical machinery, 06b uses it. Cross-body-state comparison strengthens Nút Thắt 2 (P2 mechanism varies non-uniformly across states) and Nút Thắt 7 (cortisol tagging mechanism visible in each state with state-specific critical periods).
+scope: Apply 06a methodology (L0→L4 PFC-Inference Ladder + event-inference + chunks compile mechanism) to the 4 interoceptive body states other than bladder. Parallel structure to 06a but shorter — 06a established the analytical machinery, 06b uses it. Cross-body-state comparison strengthens Nút Thắt 2 (Precondition-2 mechanism varies non-uniformly across states) and Nút Thắt 7 (cortisol tagging mechanism visible in each state with state-specific critical periods).
 parent: plan.md §3.2 (file 06b outline)
 depends_on: [01-PFC-Hardware-Reframe.md, 02-Womb-to-Birth-Baseline.md, 06a-Interoceptive-Bladder-Keystone.md]
 language: Tiếng Việt primary + English technical terms
 addresses:
-  - Nút Thắt 2 (P2 Chunks Base Adequacy — cross-body-state variance in compile rates)
+  - Nút Thắt 2 (Precondition-2 Chunk-Substrate — cross-body-state variance in compile rates)
   - Nút Thắt 5 (H11 Receptive-Productive — parallel gaps across 4 body states)
   - Nút Thắt 7 (Cortisol tagging critical period — state-specific critical periods)
   - Nút Thắt 4 (PFC hardware × chunks missing — additional L2 markers per state)
@@ -32,9 +32,9 @@ sub_folder: F1 Child-Chunk-Development
 
 | Nút Thắt | 06b contribution |
 |---|---|
-| 2 (P2 mechanism) | Cross-state variance table (§6.1) strengthens 06a §6.3 mechanism claim by showing parameters produce predictable rate differences |
+| 2 (Precondition-2 mechanism) | Cross-state variance table (§6.1) strengthens 06a §6.3 mechanism claim by showing parameters produce predictable rate differences |
 | 5 (H11) | Parallel receptive-productive gaps visible in each state (hunger ~13mo, pain ~15-18mo, thermal unknown, emotional 12+ mo) |
-| 7 (Cortisol tagging) | Each state has its own critical period + adult outcome trajectory; multi-state convergence strengthens H10 P5 claim |
+| 7 (Cortisol tagging) | Each state has its own critical period + adult outcome trajectory; multi-state convergence strengthens Precondition-5 Compile-Gate claim |
 | 4 (PFC hardware × chunks) | Additional L2 markers per state (vaccination pre-cry for pain; anticipatory feeding response for hunger) |
 
 **Events analyzed** (~15 events across 4 states, organized in §2-§5):
@@ -484,7 +484,7 @@ From [Feel-Example E4 Notes](../../Body-Base/Feeling/Feel-Example-Draft.md#e4) (
 
 > "Đây là **edge case nguy hiểm** đáng lưu ý cho framework. SIDS (Sudden Infant Death Syndrome) liên quan mạnh đến overheating (Mitchell et al. 1993; Ponsonby et al. 1993). Bé KHÔNG tự 'biết' để wake up và escape thermal stress, vì chưa có Self-Pattern Match cho temperature. Distress signal có thể không đủ mạnh để vượt qua sleep state. Đây là minh họa cụ thể cho cost của việc thiếu Self-Pattern Match — cơ thể có thể chịu damage mà PFC không observe được."
 
-**Framework-critical implication**: Thermal is a case where **lack of P2 adequacy has mortal consequences**. The hardware is intact (thermoreceptors fire, POA signals distress), the PFC is online (per 5 pillars), but without a compiled chunk tying "thermal distress → wake up → escape action", the baby cannot act on the signal. In the specific case of overheating during sleep, this P2 inadequacy can be fatal.
+**Framework-critical implication**: Thermal is a case where **lack of Precondition-2 adequacy has mortal consequences**. The hardware is intact (thermoreceptors fire, POA signals distress), the PFC is online (per 5 pillars), but without a compiled chunk tying "thermal distress → wake up → escape action", the baby cannot act on the signal. In the specific case of overheating during sleep, this Precondition-2 inadequacy can be fatal.
 
 **Contrast with adult**: Adult has compiled chunks "I feel too hot → wake up → adjust blankets or temperature". This chunks stack is absent in newborns, present by Stage C toddlers (~14-18mo when thermal-discomfort wriggling emerges), but during the gap window newborns are dependent on caregiver thermoregulation.
 
@@ -562,7 +562,7 @@ This is the **framework-critical edge case**. SIDS (🟢 Mitchell et al. 1993, P
 
 Emotional interoception is **multi-channel by definition** — limbic + amygdala + insula + mPFC + ACC all contribute. Unlike bladder/hunger/pain/thermal which have clean peripheral afferent pathways, emotional states arise from complex network activity. This makes the "interoceptive" framing only partial — emotion is interoceptive-and-more.
 
-This section covers emotional chunks **from the interoceptive angle**: how baby's own emotional states become observable (Layer 3+) and labeled (Layer 6-7). Social-side of emotional chunks (recognizing caregiver emotion, social smile, cry contagion, empathy giving) is covered in [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) — 06b crosses with 07 at E12 (social smile) and E26 (egocentric empathy).
+This section covers emotional chunks **from the interoceptive angle**: how baby's own emotional states become observable (Feel-Consciousification+) and labeled (Feel-Labeling–Feel-Explanation). Social-side of emotional chunks (recognizing caregiver emotion, social smile, cry contagion, empathy giving) is covered in [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) — 06b crosses with 07 at E12 (social smile) and E26 (egocentric empathy).
 
 ### §5.2 — Stage A: L0-L1 newborn emotional states
 
@@ -795,11 +795,11 @@ The 4 body states covered in 06b + bladder from 06a show **non-uniform ladder pr
 
 5. **Emotional has the largest spread**. Different sub-states compile at different rates. Social-emotional (E12) at L2 at ~7 weeks (fastest L2 emergence) but verbal emotional productive is slowest (~2-3 years).
 
-**Framework claim**: The rate variance is **not random**. It follows the 4-parameter formula predicted by the compile mechanism. High contingency + high valence + moderate-high exposure → fast ladder traversal. Low contingency + low valence → truncated traversal. This is the **strongest available empirical validation** of the P2 compile mechanism claim (Nút Thắt 2 from 06a §6.3).
+**Framework claim**: The rate variance is **not random**. It follows the 4-parameter formula predicted by the compile mechanism. High contingency + high valence + moderate-high exposure → fast ladder traversal. Low contingency + low valence → truncated traversal. This is the **strongest available empirical validation** of the Precondition-2 compile mechanism claim (Nút Thắt 2 from 06a §6.3).
 
-### §6.2 — P2 compile mechanism cross-state validation
+### §6.2 — Precondition-2 compile mechanism cross-state validation
 
-**Claim (from 06a §6.3)**: P2 adequacy is reached through 4-channel compile (repetition + emotional + multi-modal + sleep) modulated by exposure × saliency × contingency × valence.
+**Claim (from 06a §6.3)**: Precondition-2 adequacy is reached through 4-channel compile (repetition + emotional + multi-modal + sleep) modulated by exposure × saliency × contingency × valence.
 
 **06b cross-body-state evidence**:
 
@@ -813,7 +813,7 @@ The 4 body states covered in 06b + bladder from 06a show **non-uniform ladder pr
 
 **Falsification test**: If the formula is wrong, we should see inversions — e.g., thermal reaching L4 before hunger despite low parameters, or bladder reaching L4 before hunger despite lower contingency. No such inversions are observed in standard developmental reports.
 
-**Nút Thắt 2 verdict contribution (for [10-F1-Synthesis.md](10-F1-Synthesis.md))**: The P2 compile mechanism is 🟢🟡 supported by 5-case converging evidence from 06a + 06b. The mechanism is: 4-channel compile × 4-parameter rate modulation. Chunks reach adequacy threshold at state-specific times predictable from the parameters.
+**Nút Thắt 2 verdict contribution (for [10-F1-Synthesis.md](10-F1-Synthesis.md))**: The Precondition-2 compile mechanism is 🟢🟡 supported by 5-case converging evidence from 06a + 06b. The mechanism is: 4-channel compile × 4-parameter rate modulation. Chunks reach adequacy threshold at state-specific times predictable from the parameters.
 
 ### §6.3 — Cross-state body-state-at-compile synthesis
 
@@ -881,7 +881,7 @@ The cross-state analysis supports a **refined NT7 verdict**:
 🟡🟢 **Framework verdict**: 
 > Interoceptive chunks compile with a body-state fingerprint that depends on: (1) the novelty vs threat direction of the co-active drive, (2) the 4-threshold gradient level (nhẹ/vừa/nặng/cực đoan), (3) the mechanism sources activated (Physical/Social/Anticipation), (4) the origin (Domain/Peer/Imposed-parent), and (5) the critical period window timing. Chunks compiled under threat-dominant Level 3/4 body states during state-specific critical period windows carry that body state into adulthood, with damage amplified by imposed-parent origin and compounded by cumulative neural wear on developing PFC. The 5-state cross-cutting evidence is strongest for emotional attachment (🟢 Bowlby/Ainsworth/Sroufe) and progressively more indirect for other states (🟡 Brazelton/Bakker for bladder, 🟡 Birch/Bird-Cook for hunger, 🟢 Anand-Craig for pain, 🟢 Mitchell for thermal edge case). Multi-state convergence supports the framework with differentiated confidence across states.
 
-This is a refinement over the earlier draft verdict ("5 state-specific critical periods, multi-state convergence supports H10 P5") — the refinement is that the mechanism itself is the more detailed model from §6.3.2, not just "cortisol tagging".
+This is a refinement over the earlier draft verdict ("5 state-specific critical periods, multi-state convergence supports Precondition-5 Compile-Gate") — the refinement is that the mechanism itself is the more detailed model from §6.3.2, not just "cortisol tagging".
 
 **Primary home for full verdict writing**: [10-F1-Synthesis.md](10-F1-Synthesis.md) §1.7 finalizes this verdict with appropriate Master-Synthesis framing.
 
@@ -907,7 +907,7 @@ The **emotional state has the largest gap** (~24-30mo) because emotional product
 
 ## §7 — Nút Thắt contributions
 
-### §7.1 — Nút Thắt 2 (P2 Chunks Base Adequacy)
+### §7.1 — Nút Thắt 2 (Precondition-2 Chunk-Substrate)
 
 **06b contribution**: Cross-body-state validation (§6.1 + §6.2). The 4-channel compile × 4-parameter formula predicts 5-for-5 ordinal ranking of L4 onset times. This is strong converging evidence.
 
@@ -921,7 +921,7 @@ The **emotional state has the largest gap** (~24-30mo) because emotional product
 
 ### §7.3 — Nút Thắt 7 (Cortisol tagging critical period)
 
-**06b contribution**: 5 state-specific critical period profiles (§6.3) with adult outcome trajectories and empirical anchors. Multi-state convergence substantially strengthens the H10 P5 critical period claim.
+**06b contribution**: 5 state-specific critical period profiles (§6.3) with adult outcome trajectories and empirical anchors. Multi-state convergence substantially strengthens the Precondition-5 Compile-Gate critical period claim.
 
 **Key cases**:
 - **Attachment / emotional** (§5.8) is the most empirically developed cortisol tagging case in the broader literature (Bowlby, Ainsworth, Sroufe, Fonagy) — this gives Nút Thắt 7 its strongest evidence base overall
@@ -1128,7 +1128,7 @@ The **emotional state has the largest gap** (~24-30mo) because emotional product
 
 **Review points** for user:
 1. Is the cross-state synthesis §6 formula adequately predictive? Does the 5-for-5 ranking feel compelling?
-2. Is the thermal SIDS edge case §4.3 framing appropriate (mortal consequence of P2 inadequacy)?
+2. Is the thermal SIDS edge case §4.3 framing appropriate (mortal consequence of Precondition-2 inadequacy)?
 3. Is the attachment + emotional cortisol tagging §5.8 treatment adequate or does it need expansion?
 4. Does the handling of E26 egocentric empathy fit here (interoceptive side) vs 07 (social side)?
 5. Is the §3.3 vaccination pre-cry as "L2 marker with peak-negative valence" distinction from đơ mặt clear?

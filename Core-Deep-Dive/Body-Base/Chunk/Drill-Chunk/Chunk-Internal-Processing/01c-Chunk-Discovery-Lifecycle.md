@@ -8,7 +8,7 @@ purpose: |
   ① Accumulate → Vague emergence → Curiosity → Clarify → Label → Logic-Planning → Repeat
   ② Convergence Zone concept — what "vague" IS at mechanism level
   ③ Label = prerequisite for logic-planning participation
-  ④ 1A vs 1B selection pressure → accuracy vs coherence convergence
+  ④ Domain-Checked vs Self-Referencing selection pressure → accuracy vs coherence convergence
   ⑤ Dissonance tolerance as function of anchor type
   ⑥ Post-discovery cleanup (parsimony gain)
   Companion to 01b (micro mechanism). 01b = zoom IN (1 chunk fires).
@@ -79,12 +79,12 @@ FRAMEWORK CHƯA CÓ:
      → Label biến chunk từ body-only → body + logic
      → = "Vé vào cửa" cho planning system — CHƯA formalize rõ
 
-  ❌ 1A vs 1B SELECTION PRESSURE:
+  ❌ Domain-Checked vs Self-Referencing SELECTION PRESSURE:
      → Chunk.md §5 "mượt giả vs mượt thật" ở individual level
      → CHƯA nâng lên SYSTEM LEVEL: selection pressure determines outcome
 
   ❌ DISSONANCE TOLERANCE mechanism:
-     → WHY 1A chịu dissonance hơn 1B — CHƯA formalize
+     → WHY Domain-Checked chịu dissonance hơn Self-Referencing — CHƯA formalize
 
   ❌ POST-DISCOVERY CLEANUP (parsimony gain):
      → Sau Imagine-Final → simplify → melody smooth hơn — CHƯA formalize
@@ -187,7 +187,7 @@ STEP 2 — CÁI LỜ MỜ XUẤT HIỆN:
     → = H5 multi-weak-signal convergence (02 §2.2):
       → Many weak signals → PFC cannot isolate individual source
       → But AGGREGATE signal exceeds awareness threshold
-    → Body: vague feeling — "lờ mờ", "sao sao ấy", "có cái gì đó"
+    → Body: vague feeling — "dimly sensing", "something feels off", "there's something"
 
   CẢM NHẬN TỪ BÊN TRONG (first-person phenomenology):
     → "Thấy nó ở hướng đó" — visual-spatial approximation
@@ -434,10 +434,10 @@ STEP 6 — CHUNK THAM GIA LOGIC-PLANNING:
     → CÓ THỂ:
       → Influence body vote (Direction A: body feels convergence)
       → Fire weakly khi surrounding chunks active
-      → Produce vague feeling ("lờ mờ", "sao sao ấy")
+      → Produce vague feeling ("dimly sensing", "something feels off")
     → KHÔNG THỂ:
       → Hold rõ ràng trong WM (vague = hard to hold, slip away)
-      → Type 4 deliberate chain ("nối cái lờ mờ với cái kia" = impossible)
+      → Type 4 deliberate chain ("connect this vague sense with that" = impossible)
       → Communicate cho người khác ("tôi thấy cái gì đó nhưng...")
       → Cross-reference ổn định với concepts khác
     → = Chunk tồn tại nhưng KHÔNG tham gia logic-planning
@@ -692,14 +692,14 @@ FRAMEWORK-LEVEL IMPORTANCE:
 
 ---
 
-## §4 — Selection Pressure: 1A vs 1B
+## §4 — Selection Pressure: Domain-Checked vs Self-Referencing
 
 ### §4.1 — Two fundamentally different chunk accumulation strategies
 
 ```
 ⭐ SAME MECHANISM, DIFFERENT SELECTION PRESSURE:
 
-  Both 1A and 1B use IDENTICAL micro mechanisms:
+  Both Domain-Checked and Self-Referencing use IDENTICAL micro mechanisms:
     → Hebbian learning, spreading activation, reconsolidation
     → 4 compile mechanisms (repetition, emotional peak, multi-modal, sleep)
     → Body vote, Type 4 deliberate linking
@@ -709,7 +709,7 @@ FRAMEWORK-LEVEL IMPORTANCE:
 
   ┌─────────────────────────────────────────────────────────────────┐
   │                                                                 │
-  │  1A: DOMAIN-REAL SELECTION              1B: SELF-REFERENCING    │
+  │  DOMAIN-CHECKED SELECTION              SELF-REFERENCING         │
   │                                                                 │
   │  Chunk X says "Y happens"              Chunk X says "Y happens" │
   │       ↓                                      ↓                  │
@@ -730,10 +730,10 @@ FRAMEWORK-LEVEL IMPORTANCE:
   └─────────────────────────────────────────────────────────────────┘
 ```
 
-### §4.2 — 1A: Domain-real selection → accuracy convergence
+### §4.2 — Domain-Checked selection → accuracy convergence
 
 ```
-1A — TÍCH LŨY + CHECK REAL THƯỜNG XUYÊN:
+DOMAIN-CHECKED — TÍCH LŨY + CHECK REAL THƯỜNG XUYÊN:
 
   MECHANISM:
     → Accumulate chunks from DIVERSE sources
@@ -768,10 +768,10 @@ FRAMEWORK-LEVEL IMPORTANCE:
     → Framework building: concept → check against neuroscience → refine
 ```
 
-### §4.3 — 1B: Self-referencing selection → coherence convergence
+### §4.3 — Self-Referencing selection → coherence convergence
 
 ```
-1B — TÍCH LŨY NHƯNG KHÔNG CHECK REAL:
+SELF-REFERENCING — TÍCH LŨY NHƯNG KHÔNG CHECK REAL:
 
   MECHANISM:
     → Accumulate chunks from FILTERED sources:
@@ -798,7 +798,7 @@ FRAMEWORK-LEVEL IMPORTANCE:
         experience doesn't improve if feedback absent/misleading
     → = "Mượt GIẢ" (Chunk.md §5): body smooth BECAUSE self-consistent
 
-  WHY 1B CAN STILL "SUCCEED":
+  WHY Self-Referencing CAN STILL "SUCCEED":
     → IF domain SIMPLE or STABLE → existing chunks may suffice
     → IF social environment REWARDS coherence → success by social metrics
     → IF never encounter HARD TESTS → wrong chunks never exposed
@@ -807,7 +807,7 @@ FRAMEWORK-LEVEL IMPORTANCE:
   BUT FUNDAMENTALLY FRAGILE:
     → Domain CHANGES (AI era, market shift, paradigm shift)
     → Old chunks NO LONGER map reality
-    → 1B has NO MECHANISM to detect this (no real-checking habit)
+    → Self-Referencing has NO MECHANISM to detect this (no real-checking habit)
     → = "Đang sai mà không biết đang sai"
     → Body still says smooth → checking against wrong chunks
     → = Circular validation: A validates B validates A → feels OK → is wrong
@@ -822,10 +822,10 @@ FRAMEWORK-LEVEL IMPORTANCE:
 ### §4.4 — Comparison: same mechanism, different fitness function
 
 ```
-⭐ 1A vs 1B = SAME ENGINE, DIFFERENT FUEL:
+⭐ Domain-Checked vs Self-Referencing = SAME ENGINE, DIFFERENT FUEL:
 
   ┌──────────────────────┬──────────────────────────────────────────┐
-  │ Dimension            │ 1A (Domain-Real)   │ 1B (Self-Reference) │
+  │ Dimension            │ Domain-Checked   │ Self-Referencing │
   ├──────────────────────┼────────────────────┼─────────────────────┤
   │ Selection pressure   │ External reality   │ Internal coherence  │
   │ Fitness function     │ Domain accuracy    │ Chunk compatibility │
@@ -842,20 +842,20 @@ FRAMEWORK-LEVEL IMPORTANCE:
   └──────────────────────┴────────────────────┴─────────────────────┘
 
   ⚠️ NUANCE — KHÔNG binary:
-    → Most people = MIX of 1A and 1B across different domains
-    → Same person: 1A in profession + 1B in relationships (or vice versa)
+    → Most people = MIX of Domain-Checked and Self-Referencing across different domains
+    → Same person: Domain-Checked in profession + Self-Referencing in relationships (or vice versa)
     → = Domain-specific, not person-level trait
-    → CAN shift: 1B → 1A by INTRODUCING real-checking habit in that domain
+    → CAN shift: Self-Referencing → Domain-Checked by INTRODUCING real-checking habit in that domain
 ```
 
 ---
 
 ## §5 — Dissonance Tolerance = f(Selection Pressure History)
 
-### §5.1 — Why 1A tolerates more dissonance
+### §5.1 — Why Domain-Checked tolerates more dissonance
 
 ```
-⭐ 1A: HIGH TOLERANCE — vì foundation EXTERNAL:
+⭐ Domain-Checked: HIGH TOLERANCE — vì foundation EXTERNAL:
 
   MECHANISM:
     → Chunk library built via domain-real checking
@@ -864,14 +864,14 @@ FRAMEWORK-LEVEL IMPORTANCE:
     → Anchor points = INDEPENDENT of each other (each verified separately)
 
   WHEN DISSONANCE ARRIVES (new info contradicts some chunks):
-    → 1A response:
+    → Domain-Checked response:
       → "5% of my chunks may be wrong"
       → "BUT 95% independently confirmed → still solid"
       → = Shake 5% ≠ shake foundation
       → Body: "uncomfortable but stable" → CAN continue processing
       → = CAN HOLD dissonance WHILE investigating
 
-  WHY 1A CAN PURSUE EXTREME IMAGINE-FINAL:
+  WHY Domain-Checked CAN PURSUE EXTREME IMAGINE-FINAL:
     → Melody đuổi theo domain real → accepts temporary hardware discomfort
     → "Chưa mượt trên hardware nhưng ĐÚNG với domain real"
     → KNOWS: consolidation will process → "sáng mai rõ hơn"
@@ -890,10 +890,10 @@ FRAMEWORK-LEVEL IMPORTANCE:
   → 🟢 Consistent with: desirable difficulty (Bjork 1994) — struggle = learning signal
 ```
 
-### §5.2 — Why 1B has low tolerance
+### §5.2 — Why Self-Referencing has low tolerance
 
 ```
-⭐ 1B: LOW TOLERANCE — vì foundation INTERNAL:
+⭐ Self-Referencing: LOW TOLERANCE — vì foundation INTERNAL:
 
   MECHANISM:
     → Chunk library built via self-referencing
@@ -902,7 +902,7 @@ FRAMEWORK-LEVEL IMPORTANCE:
     → = Foundation = the chunks themselves (circular dependency)
 
   WHEN DISSONANCE ARRIVES:
-    → 1B response:
+    → Self-Referencing response:
       → ANY dissonance = threatens WHOLE STRUCTURE
       → Vì: A validates B validates C → shake A → shake ALL
       → = "House of cards" — remove 1 card → collapse risk
@@ -918,14 +918,14 @@ FRAMEWORK-LEVEL IMPORTANCE:
     → 🟢 Cognitive dissonance reduction (Festinger 1957)
     → 🟢 Backfire effect (Nyhan & Reifler 2010)
 
-  WHY 1B CANNOT PURSUE EXTREME IMAGINE-FINAL:
+  WHY Self-Referencing CANNOT PURSUE EXTREME IMAGINE-FINAL:
     → Extreme Imagine-Final REQUIRES tolerance for:
       → "Chưa mượt nhưng đang đúng hướng"
       → "Hardware khó chịu nhưng domain real đang converge"
-    → 1B CANNOT distinguish:
+    → Self-Referencing CANNOT distinguish:
       → "Khó chịu vì đang ĐÚNG nhưng chưa consolidate" (growth)
       → "Khó chịu vì đang SAI" (error)
-    → BECAUSE: 1B's only reference = internal coherence
+    → BECAUSE: Self-Referencing's only reference = internal coherence
     → = All discomfort feels like "wrong" → reject → cycle stops
     → = Discovery cycle CHẶN ở step ③ (curiosity → fear → avoid)
 ```
@@ -935,7 +935,7 @@ FRAMEWORK-LEVEL IMPORTANCE:
 ```
 ⭐ SAU KHI ĐẠT IMAGINE-FINAL → CLEANUP:
 
-  MECHANISM (only available to 1A who reached Imagine-Final):
+  MECHANISM (only available to Domain-Checked who reached Imagine-Final):
 
     ① DURING discovery: accumulate MANY chunks, tools, scaffolding
        → Some chunks = essential (core insight)
@@ -960,9 +960,9 @@ FRAMEWORK-LEVEL IMPORTANCE:
        → After cleanup: hardware dissonance LOW (clean, organized)
        → = "Đuổi theo domain real → chấp nhận dissonance → reach goal →
            dọn dẹp → melody smooth HƠN mà vẫn có Imagine-Final"
-       → = Long-term: 1A melody SMOOTHER than 1B
-         (1B smooth from start nhưng shallow + fragile)
-         (1A rough during discovery nhưng deep + smooth after cleanup)
+       → = Long-term: Domain-Checked melody SMOOTHER than Self-Referencing
+         (Self-Referencing smooth from start nhưng shallow + fragile)
+         (Domain-Checked rough during discovery nhưng deep + smooth after cleanup)
 
   LEARNING-CYCLE CONNECTION:
     → Cleanup = multiple Learning-Cycle iterations (§8 baseline shift)
@@ -1010,7 +1010,7 @@ FRAMEWORK-LEVEL IMPORTANCE:
                                                phenomenon, different level description
   Label = logic-planning prerequisite:         Novel formalization — consistent with NT6
   2 fates of unlabeled convergence:            Novel distinction — consistent with memory
-  1A vs 1B selection pressure model:           Novel framing — components established
+  Domain-Checked vs Self-Referencing selection pressure model:           Novel framing — components established
   Dissonance tolerance = f(anchor type):       Novel — consistent with cognitive dissonance
   Post-discovery cleanup / parsimony:          Novel formalization — Learning-Cycle extends
   AI as external crystallization catalyst:     Novel — consistent with ZPD + Somatic-Articulation-Loop
@@ -1026,7 +1026,7 @@ FRAMEWORK-LEVEL IMPORTANCE:
   7 steps always in this order:                     Likely variable in practice
   "Vé vào cửa" as binary transition:               Probably gradient (partial label
                                                     = partial access)
-  1A/1B as systematic comparison:                   Framework-level, needs empirical
+  Domain-Checked/Self-Referencing as systematic comparison:                   Framework-level, needs empirical
   Post-discovery cleanup mechanism specifics:       Plausible, timing speculative
   AI crystallization mechanism details:             Reasonable inference, not tested
 ```
@@ -1054,9 +1054,9 @@ P-01c-3: Fragmented descriptions synthesized by external agent (AI/human)
           → Testable via: time-to-label in aided vs unaided conditions
           → 🟡 Consistent with ZPD but specific prediction is novel
 
-P-01c-4: 1B-pattern individuals should show STRONGER backfire effect
+P-01c-4: Self-Referencing-pattern individuals should show STRONGER backfire effect
           (increased confidence after disconfirming evidence) compared to
-          1A-pattern individuals in matched domains.
+          Domain-Checked-pattern individuals in matched domains.
           → Testable via: backfire effect magnitude × information-seeking style
           → 🟡 Novel combination, components established
 
@@ -1101,7 +1101,7 @@ WITHIN CHUNK-ANALYSIS:
   → Learning-Cycle.md: 3 signals → step ①-② consolidation between cycles
 
 CORE FRAMEWORK:
-  → Schema/Chunk.md §5: "mượt giả vs mượt thật" → §4 1A vs 1B (system level)
+  → Schema/Chunk.md §5: "mượt giả vs mượt thật" → §4 Domain-Checked vs Self-Referencing (system level)
   → Logic-Planning.md: "feel đúng → plan đúng" → §3.4 logic = domain real property
   → Somatic-Articulation-Loop.md: body→explicit → §2.5 Strategy B+C (articulation)
   → Drive/Novelty.md: prediction-delta detection → §2.4 step ③ curiosity drive
@@ -1150,7 +1150,7 @@ ACADEMIC REFERENCES:
     ① Convergence Zone concept (what "vague" IS structurally)
     ② Label = logic-planning prerequisite (formalized)
     ③ 2 fates of unlabeled convergence (persistent vague vs forgotten)
-    ④ 1A vs 1B selection pressure (domain-real vs self-referencing)
+    ④ Domain-Checked vs Self-Referencing selection pressure (domain-real vs self-referencing)
     ⑤ Dissonance tolerance = f(anchor type/selection history)
     ⑥ Post-discovery cleanup → parsimony gain → melody smooth
     ⑦ AI as external crystallization catalyst (Somatic-Articulation-Loop + AI variant)
@@ -1175,7 +1175,7 @@ ACADEMIC REFERENCES:
 > Chunk Discovery Cycle: Accumulate → Vague → Curious → Clarify → Label → Plan → Repeat.
 > Convergence Zone = where activation paths intersect before label exists.
 > Label = prerequisite for logic-planning participation.
-> 1A (domain-real) vs 1B (self-referencing) = same engine, different fitness function.
+> Domain-Checked vs Self-Referencing = same engine, different fitness function.
 > "Chậm mà chắc" — companion to 01b, filling the macro lifecycle gap.
 >
 > Phiên bản: v1.0, 2026-04-17.

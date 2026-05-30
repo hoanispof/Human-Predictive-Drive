@@ -337,11 +337,11 @@ GIÁ TRỊ CỦA FILE NÀY:
 
 §1.5 — NOVELTY × NEW CONCEPTS (28-session Drill Propagation)
 
-  SIMULATION ENGINE (Simulation-Engine.md v1.0):
-    → Novelty = prediction MISMATCH detected in Simulation Engine output
+  SIMULATION-ENGINE (Simulation-Engine.md v1.0):
+    → Novelty = prediction MISMATCH detected in Simulation-Engine output
     → PFC simulate expected pattern → body compare actual → delta → novelty
-    → Imagination-driven novelty (§2) = Simulation Engine draft WITHOUT external input
-    → = Simulation Engine = machinery that GENERATES prediction for VTA to compare
+    → Imagination-driven novelty (§2) = Simulation-Engine draft WITHOUT external input
+    → = Simulation-Engine = machinery that GENERATES prediction for VTA to compare
 
   NOVELTY SATIATION (Gap-Body-Need.md v1.0):
     → Novelty drive có 3 satiation patterns:
@@ -357,7 +357,7 @@ GIÁ TRỊ CỦA FILE NÀY:
     → Quá nhiều novelty → PFC budget exhausted → shutdown → "overwhelmed"
     → = Tại sao novelty CŨNG CẦN phanh — không chỉ threat (§3 below)
 
-  🟡 Simulation Engine × novelty = framework formalization
+  🟡 Simulation-Engine × novelty = framework formalization
   🟡 3 satiation types × novelty = framework application
   🟡 PFC budget limit on novelty = framework inference
 ```
@@ -682,7 +682,7 @@ TÓM TẮT:
     → Threat KHÔNG KIỂM SOÁT ĐƯỢC → risk burnout
     → Ví dụ: Einstein (nghèo + academic pressure), Newton (plague isolation)
 
-  MỨC 4 — NOVELTY + THREAT TỰ TẠO (L3, controllable):
+  MỨC 4 — NOVELTY + THREAT TỰ TẠO (PFC-mediated, controllable):
     Trigger: chunks đủ + TỰ TẠO threat (competition, mortality awareness)
     Duration: NĂM → CẢ ĐỜI. Output: sustained innovation.
     → Threat BẬT/TẮT ĐƯỢC (vì tự PFC tạo, PFC có thể dismiss)

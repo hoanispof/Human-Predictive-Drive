@@ -1524,7 +1524,7 @@ SCOPE OUT:
   LATE ADULT (50+):
     Gap-Distribution: anchor exhausted? → Action-Space: declining (health, retirement)
     → = POTENTIAL MISMATCH: gaps change + capacity reduces
-    → Meaning §2.2: "trống rỗng" khi anchor gone + Action-Space narrow
+    → Meaning §2.2: "emptiness" khi anchor gone + Action-Space narrow
 ```
 
 ---

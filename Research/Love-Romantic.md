@@ -9,20 +9,20 @@ scope: |
   Tình yêu = cơ chế GÌ, TẠI SAO evolution thiết kế vậy,
   CÁC GIAI ĐOẠN diễn ra thế nào, và MECHANISM map vào framework ra sao.
   v3.0 KEY CHANGES vs v2.4:
-    ① Hardware Subsidy TEMPORARY (18-36m) × romantic trajectory (Valence-Propagation v3.0 §7)
+    ① Hardware-Subsidy TEMPORARY (18-36m) × romantic trajectory (Valence-Propagation v3.0 §7)
     ② Satiation Types × romantic: Generative→Tonic shift (Valence-Propagation v3.0 §8, Gap-Body-Need v1.0)
     ③ 3 Firing Modes × romantic stages (Valence-Propagation v3.0 §6)
     ④ Entity-Access gradient × romantic deepening Mức 2→5 (Entity-Access v1.2)
     ⑤ Entity-Access-Excess × limerence — Mức 5 bilateral/unilateral (Entity-Access-Excess v1.0)
-    ⑥ M1-M4 Resonance Decline × romantic bonding (Bond-Architecture v1.0 §4)
-    ⑦ Anti-compiled-suppress = §11.4 differentiation REFRAME (Bond-Architecture v1.0 §5)
+    ⑥ Resonance Decline (2 Forces + 1 Fuel) × romantic bonding (Bond-Architecture v2.0 §4)
+    ⑦ Anti-compiled-suppress = §11.4 differentiation REFRAME (Bond-Architecture v2.0 §5)
     ⑧ 4-Layer Sustainability × romantic stages (Resonance-Sustainability v1.0)
     ⑨ PPR + Secure Base + 4 Silence Types (Resonance-Sustainability v1.0)
     ⑩ Compilation Chain × romantic (Resonance-Per-Entity v1.0 §1)
     ⑪ Phantom 4-factor × break-up grief (Valence-Propagation v3.0 §12, Resonance-Per-Entity v1.0)
     ⑫ PFC Budget × romantic cost + Compiled Quality (PFC-Operations v1.0)
     ⑬ Entity-Compiled v1.0 formal refs (Hub-and-Spoke, Grief A+B+C, Decay 3-Layer)
-    ⑭ Domain Coverage per bond type (Bond-Architecture v1.0 §6)
+    ⑭ Domain Coverage per bond type (Bond-Architecture v2.0 §6)
     ⑮ Structural vs Current valence × romantic (Valence-Propagation v3.0 §3)
     ⑯ Exit Cost × Calibration paradox (Entity-Access-Calibration v1.0)
     ⑰ Self-Pattern-Modeling v3.1 (Match→Modeling) + all ~35 deps updated
@@ -43,24 +43,24 @@ dependencies:
   - Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation 40→200h, Dunbar, Grief A+B+C, Decay 3-Layer
   - Entity-Access.md v1.2 — Mức 0-5 gradient, 3-Factor model
   - Entity-Access-Excess.md v1.0 — Mức 5 excess, bilateral/unilateral, gap shift + compiled suppress
-  - Entity-Access-Calibration.md v1.0 — Exit Cost, Hardware Subsidy = Calibration Bias, 3-Layer calibration
-  - Bond-Architecture.md v1.0 — 4 bond types × 1 Entity-Compiled, M1-M4, anti-compiled-suppress, domain coverage
+  - Entity-Access-Calibration.md v1.0 — Exit Cost, Hardware-Subsidy = Calibration Bias, 3-Layer calibration
+  - Bond-Architecture.md v2.0 — 4 bond types × 1 Entity-Compiled, Resonance Decline (2 Forces + 1 Fuel), anti-compiled-suppress, domain coverage
   - Resonance-Sustainability.md v1.0 — 4-Layer, PPR, Secure Base, 4 silence types, motivated inaccuracy
-  - Resonance-Per-Entity.md v1.0 — Compilation Chain, Hardware Subsidy spectrum, per-entity profiles, Phantom 4-factor
+  - Resonance-Per-Entity.md v1.0 — Compilation Chain, Hardware-Subsidy spectrum, per-entity profiles, Phantom 4-factor
   PFC (4):
   - PFC-Operations.md v1.0 — PFC budget, Compiled Quality, compiled suppress → vmPFC
-  - Simulation-Engine.md v1.0 — 1 Engine × 3 Components × 3 Axes, Self-Pattern-Modeling = Application 1
+  - Simulation-Engine.md v1.0 — 1 Engine × 3 Components × 3 Axes, Self-Pattern-Modeling = APPLICATION-1
   - PFC-Configuration.md v1.0 — 6 modes, limerence = Mode ③ Reconfigured
   - PFC-Label.md v1.0 — vocabulary standard
   BODY-BASE + OBSERVATION (12):
   - Connection.md v5.0 — 3 Generative Primitives, 8 pathways, chunk dynamics
   - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, 5 Pattern-Types, 1 mechanism × 3 dimensions
   - By-Product-Gap-Resonance.md v1.4 — 2-Stream, by-product match
-  - Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, Hardware Subsidy, Satiation Types, Phantom
+  - Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, Hardware-Subsidy, Satiation Types, Phantom
   - By-Product-Scale.md v1.0 — 3 scales (Pair/Hub/Institutional)
   - Gap-Body-Need.md v1.0 — 3 Satiation Types, entity-gap matching
   - Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap, Compound
-  - Body-Coupling.md v3.0 — coupling mechanism, 3 Phase, Hardware Subsidy × coupling
+  - Body-Coupling.md v3.0 — coupling mechanism, 3 Phase, Hardware-Subsidy × coupling
   - Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, Evaluative Gates Direct-State
   - Cortisol-Baseline.md v2.0 — 5 Cortisol Roles, cascade, recovery asymmetry
   - Empathy.md v4.0 — Self-Pattern-Modeling Compiled, burnout reframe, PFC budget × empathy
@@ -136,12 +136,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Research/ folder — PHÂN TÍCH, KHÔNG phải mechanism/observation.
   Apply toàn bộ framework v7.8 vào 1 hiện tượng phức tạp nhất: tình yêu ĐÔI LỨA.
 
-  ⭐ SIMULATION ENGINE CONTEXT (v3.0):
-    Self-Pattern-Modeling = Application 1 trên Simulation Engine (Simulation-Engine v1.0).
+  ⭐ SIMULATION-ENGINE CONTEXT (v3.0):
+    Self-Pattern-Modeling = APPLICATION-1 trên Simulation-Engine (Simulation-Engine v1.0).
     1 Engine (DMN + vmPFC + anterior insula + hippocampus)
     × 3 Components (Interoception + Constructive Simulation + Self/Other Model)
     × 3 Axes (Target × Time × Operation).
-    Love = Simulation Engine chạy ở TẢI CAO NHẤT:
+    Love = Simulation-Engine chạy ở TẢI CAO NHẤT:
       Self-Pattern-Modeling composite fire trên partner = (Other, Present, Simulate) ở ALL modalities.
       Imagine-Final preview tương lai = (Self, Future, Construct) CÓ partner.
       Empathic accuracy = engine CALIBRATION cho love-specific context.
@@ -150,14 +150,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Entity-Access v1.2 Mức 0-5:
       Mức 2 (lust) → 3 (dating) → 4 (attachment, healthy deep bond) → 5 risk (excess)
     Romantic love = HÀNH TRÌNH Mức 2→4. Mức 5 = excess territory (Entity-Access-Excess v1.0).
-    Hardware Subsidy TEMPORARY (18-36m) modulates toàn bộ trajectory.
+    Hardware-Subsidy TEMPORARY (18-36m) modulates toàn bộ trajectory.
 
   LOVE = TEST CASE CHO FRAMEWORK:
     → Connection v5.0: 3 primitives ❶❷❸ fire TẤT CẢ ở max
     → Self-Pattern-Modeling v3.1: Compiled+Fresh composite fire MẠNH NHẤT con người trải nghiệm
-    → Valence-Propagation v3.0: Structural/Current valence, 3 Firing Modes, Hardware Subsidy, Satiation Types
+    → Valence-Propagation v3.0: Structural/Current valence, 3 Firing Modes, Hardware-Subsidy, Satiation Types
     → Entity-Compiled v1.0: Hub-and-Spoke compile, Formation 40→200h, Grief A+B+C
-    → Bond-Architecture v1.0: 4 bond types × 1 Entity-Compiled mechanism, M1-M4, anti-compiled-suppress
+    → Bond-Architecture v2.0: 4 bond types × 1 Entity-Compiled mechanism, Resonance Decline (2 Forces + 1 Fuel), anti-compiled-suppress
     → Resonance-Sustainability v1.0: 4-Layer Sustainability, PPR, Secure Base, 4 silence types
     → Resonance-Per-Entity v1.0: Compilation Chain, per-entity profiles, Phantom 4-factor
     → PFC-Operations v1.0: PFC budget (shared, finite), Compiled Quality
@@ -168,9 +168,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 
   TIỀN ĐỀ ĐỌC (v3.0):
-    ① Connection.md v5.0 (3 Primitives, 8 pathways, M1-M4 decline)
-    ② Valence-Propagation.md v3.0 (Structural/Current, Hardware Subsidy, 3 Firing Modes, Satiation)
-    ③ Bond-Architecture.md v1.0 (4 bond types, M1-M4, anti-compiled-suppress)
+    ① Connection.md v5.0 (3 Primitives, 8 pathways, Resonance Decline)
+    ② Valence-Propagation.md v3.0 (Structural/Current, Hardware-Subsidy, 3 Firing Modes, Satiation)
+    ③ Bond-Architecture.md v2.0 (4 bond types, Resonance Decline, anti-compiled-suppress)
     ④ Entity-Access.md v1.2 (Mức 0-5 gradient)
     ⑤ Resonance-Sustainability.md v1.0 (4-Layer, PPR, Secure Base)
     ⑥ Resonance-Per-Entity.md v1.0 (Compilation Chain, Phantom 4-factor)
@@ -182,9 +182,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → §3-§4 (map v7.8 + 2-luồng reward)
     → §5 (PFC blindness)
     → §6-§8 (amplifiers + selection + preparation)
-    → §9 (limerence window + hw subsidy + satiation)
+    → §9 (limerence window + Hardware-Subsidy + satiation)
     → §10 (transition + compilation chain + firing modes)
-    → §11 (bonding lâu dài + M1-M4 + 4-layer + Entity-Access gradient + excess)
+    → §11 (bonding lâu dài + Resonance Decline + 4-layer + Entity-Access gradient + excess)
     → §12 (break-up + phantom + grief formula)
     → §13-§14 (assessment + cross-refs)
 
@@ -195,7 +195,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   PHÂN BIỆT:
     File NÀY: ROMANTIC love deep-dive qua framework lens
     Love-Unified.md: ALL love types unified view qua L2 mechanism
-    Body-Coupling.md v3.0: coupling MECHANISM (Hardware Subsidy, 3 Firing Modes, Satiation)
+    Body-Coupling.md v3.0: coupling MECHANISM (Hardware-Subsidy, 3 Firing Modes, Satiation)
     Connection.md v5.0: mechanism file — 3 primitives, 8 pathways
     Empathy.md v4.0: observation parameter — Self-Pattern-Modeling Compiled, burnout reframe
     = File này DÙNG các mechanism files, KHÔNG duplicate chúng
@@ -309,18 +309,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Giải thích "hết yêu từ lúc nào" = structural DẦN erode mà không nhận ra
 
 
-  ⭐ HARDWARE SUBSIDY TEMPORARY × ROMANTIC (v3.0 — Valence-Propagation v3.0 §7):
+  ⭐ HARDWARE-SUBSIDY TEMPORARY × ROMANTIC (v3.0 — Valence-Propagation v3.0 §7):
 
-    Valence-Propagation v3.0 phân biệt 4 mức Hardware Subsidy chống VTA habituation:
+    Valence-Propagation v3.0 phân biệt 4 mức Hardware-Subsidy chống VTA habituation:
       MAXIMUM (mẹ→con): oxytocin + baby schema + synchrony → auto-sustain
       MODERATE (kin): attachment scaffold → slow decay
       TEMPORARY (romantic limerence): dopamine+NE surge 18-36m → expires
       NONE (bạn bè): μ-opioid only → must maintain
 
     ROMANTIC = TEMPORARY:
-      → 18-36 tháng: hw subsidy SIMULATE slow habituation (giả tạo "không chán")
+      → 18-36 tháng: Hardware-Subsidy SIMULATE slow habituation (giả tạo "không chán")
       → Subsidy EXPIRES → VTA habituation rate trở về STANDARD
-      → = "Hết lửa" ≠ hết yêu → = hardware subsidy HẾT HẠN
+      → = "Hết lửa" ≠ hết yêu → = hardware-subsidy HẾT HẠN
       → = Evolution design: đủ lâu để bond compile, sau đó TỰ LO
     (Chi tiết §9.2 + §11)
 ```
@@ -855,7 +855,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ROMANTIC = ACCELERATED:
       → Limerence turbo-charges Stage 1→2 (motivation + salience + time)
-      → Hardware Subsidy TEMPORARY makes Stage 2 feel like Stage 3 (subsidy masks cost)
+      → Hardware-Subsidy TEMPORARY makes Stage 2 feel like Stage 3 (subsidy masks cost)
       → Subsidy expires → true Stage 3 or Stage 4 reveals
       → Hướng A = Stage 4A (sustained), Hướng C = Stage 4B (flat), Hướng D = Stage 4C (death)
 
@@ -949,12 +949,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ALL activities SHARE 1 PFC budget (PFC-Operations §3):
       → Romantic relationship = SIGNIFICANT PFC consumer
-      → Limerence: PFC cost THẤP (hw subsidy bù, body smooth → PFC ít gọi)
+      → Limerence: PFC cost THẤP (Hardware-Subsidy bù, body smooth → PFC ít gọi)
       → Post-limerence: PFC cost TĂNG (cần evaluate, negotiate, resolve)
       → "Mệt ở công ty → về nhà hết kiên nhẫn" = PFC đã depleted
 
     ROMANTIC × PFC budget THẤP HƠN parent-child (PFC-Operations §3):
-      → Parent-child = HIGHEST PFC cost (moving target + hw mismatch)
+      → Parent-child = HIGHEST PFC cost (moving target + Hardware mismatch)
       → Romantic = HIGH but not MAX (partner = adult, stable target)
       → NHƯNG: romantic + parenting đồng thời = PFC budget CẠN KIỆT
       → = Tại sao couples có con nhỏ stress MẠNH (double PFC drain)
@@ -1809,10 +1809,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → = Fuel: energy để invest → dùng cho SHARED CHUNKS + Self-Pattern-Modeling DEPTH
 ```
 
-### §9.2 — Hardware Subsidy TEMPORARY × Limerence Window (v3.0)
+### §9.2 — Hardware-Subsidy TEMPORARY × Limerence Window (v3.0)
 
 ```
-⭐ LIMERENCE WINDOW = HARDWARE SUBSIDY WINDOW (Valence-Propagation v3.0 §7, Resonance-Per-Entity v1.0 §2):
+⭐ LIMERENCE WINDOW = HARDWARE-SUBSIDY WINDOW (Valence-Propagation v3.0 §7, Resonance-Per-Entity v1.0 §2):
 
   TEMPORARY subsidy (Fisher 2004 🟢: 18-36m):
     → Dopamine + NE surge → SIMULATE slow VTA habituation
@@ -1823,7 +1823,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   SO SÁNH VỚI CÁC BOND TYPE KHÁC:
 
     ┌──────────────┬──────────────────┬───────────────────────────┐
-    │ Bond type     │ Hardware Subsidy       │ Romantic implication       │
+    │ Bond type     │ Hardware-Subsidy       │ Romantic implication       │
     ├──────────────┼──────────────────┼───────────────────────────┤
     │ Mẹ→Con       │ MAXIMUM (auto)   │ Parent love auto-sustain  │
     │              │ oxytocin+schema  │ → KHÔNG cần effort duy trì │
@@ -1846,7 +1846,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = TEMPORARY subsidy = FEATURE, không phải bug
       (ép phải build genuine connection, không cho coast trên hardware)
 
-  (Chi tiết Hardware Subsidy: Valence-Propagation v3.0 §7, Body-Coupling.md v3.0 §4.8)
+  (Chi tiết Hardware-Subsidy: Valence-Propagation v3.0 §7, Body-Coupling.md v3.0 §4.8)
 ```
 
 ### §9.3 — Satiation Types × Romantic Stages (v3.0)
@@ -1958,19 +1958,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Stage 2 Compiled DEVELOPING (limerence window):
       → Self-Pattern-Modeling library building FAST (salience + time + motivation)
       → Cost DECREASING (patterns compiling, becoming automatic)
-      → Hardware Subsidy TEMPORARY bù chi phí → TƯỞNG cost ≈ 0
+      → Hardware-Subsidy TEMPORARY bù chi phí → TƯỞNG cost ≈ 0
       → Compiled developing = partner dần "quen" → predictions dần accurate
 
     Stage 3 BASELINE (attachment):
       → Cost ≈ 0 (patterns compiled, VTA habituated)
       → Reward INVISIBLE (Tonic satiation — §9.3)
-      → Hardware Subsidy EXPIRED → cost THẬT lộ ra
+      → Hardware-Subsidy EXPIRED → cost THẬT lộ ra
       → = "Transition shock" = body từ Stage 2 (subsidized) → Stage 3 (real cost)
 
   ⭐ 3 FIRING MODES × TRANSITION (Valence-Propagation v3.0 §6):
 
     Mode 1 MAINTENANCE (entity present, daily):
-      LIMERENCE: Hardware subsidy → rich Mode 1 (VTA vẫn fire, opioid visible)
+      LIMERENCE: Hardware-subsidy → rich Mode 1 (VTA vẫn fire, opioid visible)
       ATTACHMENT: subsidy hết → Mode 1 = invisible baseline (opioid low-level)
       → Transition = Mode 1 từ "cảm nhận được" → "vô hình"
       → = "Hết cảm giác" ≠ "hết reward" → reward VẪN CÓ, chỉ INVISIBLE
@@ -2255,7 +2255,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §11.4 — Anti-Compiled-Suppress × Romantic (v3.0 REFRAME)
 
 ```
-⭐ "DIFFERENTIATION" = ANTI-COMPILED-SUPPRESS (Bond-Architecture v1.0 §5):
+⭐ "DIFFERENTIATION" = ANTI-COMPILED-SUPPRESS (Bond-Architecture v2.0 §5):
 
   v2.4: §11.4 nói "differentiation" (Schnarch) = giữ identity RIÊNG.
   v3.0 REFRAME: differentiation = ANTI-COMPILED-SUPPRESS ở romantic level.
@@ -2264,7 +2264,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Relationship thrives khi MỖI NGƯỜI VẪN GROW.
   🟢 Schnarch: passion lâu dài CẦN differentiation (giữ identity RIÊNG).
 
-  COMPILED SUPPRESS × ROMANTIC (Bond-Architecture v1.0 §5):
+  COMPILED SUPPRESS × ROMANTIC (Bond-Architecture v2.0 §5):
     Shallow understanding: "phải giống nhau" → suppress own gap/drive
       → "Partner thích X → tôi CŨNG phải thích X" = compiled suppress
       → Resonance CHẾT (suppress own drive → no by-products → nothing to match)
@@ -2272,7 +2272,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → "Partner thích X, tôi thích Y → CẢ HAI explore riêng → SHARE results"
       → Resonance SỐNG (by-products flow → new matching opportunities)
 
-  META-PRINCIPLE: applies ALL bond types (Bond-Architecture v1.0 §5):
+  META-PRINCIPLE: applies ALL bond types (Bond-Architecture v2.0 §5):
     → Parent: "con PHẢI giống mình" = compiled suppress con
     → Friend: "phải cùng sở thích" = suppress if mismatch
     → Romantic: "phải hòa hợp MỌI THỨ" = suppress nếu khác
@@ -2292,7 +2292,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = "2 cây riêng, rễ CHUNG" → mỗi cây lớn → rễ CŨNG lớn
 
 
-  ⭐ DOMAIN COVERAGE × ROMANTIC (Bond-Architecture v1.0 §6):
+  ⭐ DOMAIN COVERAGE × ROMANTIC (Bond-Architecture v2.0 §6):
 
     NO entity type = ✅ at ALL 5 domains:
 
@@ -2311,7 +2311,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → "Partner phải fill MỌI THỨ" = structural impossibility
     → = Anti-compiled-suppress applies: đừng ép partner fill domain họ KHÔNG cover
 
-  (Chi tiết: Bond-Architecture.md v1.0 §5-§6)
+  (Chi tiết: Bond-Architecture.md v2.0 §5-§6)
 ```
 
 ### §11.5 — Novelty injection + Deepen channels
@@ -2385,14 +2385,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Romantic exit cost = MODERATE (Entity-Access-Calibration v1.0):
       → Cao hơn bạn bè (shared life, L2 deep, social disruption)
       → Thấp hơn parent-child (child can't exit)
-      → NHƯNG: Hardware Subsidy = Calibration Bias (Entity-Access-Calibration v1.0 §4):
+      → NHƯNG: Hardware-Subsidy = Calibration Bias (Entity-Access-Calibration v1.0 §4):
         Limerence: bias HIGH→LOW (hormone mask → can't calibrate)
         Post-limerence: bias LOW (calibration RETURNS)
       → = HARDEST to calibrate DURING limerence, EASIEST after
 
     Mức 4 = CRITICAL CALIBRATION ZONE (Entity-Access-Calibration v1.0 §12):
       → Romantic attachment lives at Mức 4 (Entity-Owned level)
-      → Exit cost ↑ + hw subsidy → calibration signal MASKED
+      → Exit cost ↑ + Hardware-Subsidy → calibration signal MASKED
       → Self-awareness (Trục 2) = primary calibration source
       → = "Biết mình cần gì" + "biết relationship đang ở đâu" = calibrate
 
@@ -2406,7 +2406,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Mode 1 MAINTENANCE (entity present, daily):
     → Post-limerence: opioid low-level, VTA habituated = "invisible baseline"
-    → Hardware subsidy hết → Mode 1 = standard (như bạn thân lâu năm)
+    → Hardware-subsidy hết → Mode 1 = standard (như bạn thân lâu năm)
     → QUAN TRỌNG: invisible ≠ absent. Mất Mode 1 = DEVASTATING
     → = "Không biết quý cho đến khi MẤT" = Mode 1 invisible → Mode 2 acute
 
@@ -2430,40 +2430,50 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   (Chi tiết: Valence-Propagation.md v3.0 §6)
 ```
 
-### §11.8 — M1-M4 Resonance Decline × Romantic (v3.0)
+### §11.8 — Resonance Decline × Romantic (v3.0)
 
 ```
-⭐ 4 CƠ CHẾ LÀM SUY GIẢM RESONANCE (Bond-Architecture v1.0 §4):
+⭐ RESONANCE DECLINE: 2 FORCES + 1 FUEL (Bond-Architecture v2.0 §4):
 
-  M1 — COMPILED SUPPRESS (STRONGEST — attacks SOURCE):
+  FORCE: COMPILED-SUPPRESS (★ LEVERAGE POINT — tấn công NGUỒN):
     → "Phải giống nhau" → suppress own gap/drive
     → Suppress → no by-products → nothing to match → resonance dies
     → ROMANTIC: "phải cùng sở thích, cùng bạn bè, cùng schedule"
-    → = §11.4 anti-compiled-suppress là COUNTER cho M1
+    → = §11.4 anti-compiled-suppress là COUNTER cho Compiled-Suppress
+    → ACCELERATES Reward-Habituated + DRAINS novelty fuel
 
-  M2 — HABITUATION (Weber-Fechner, natural):
-    → Cùng stimulus lặp lại → VTA fire giảm → "không còn mới"
-    → ROMANTIC: partner "không mới" sau vài năm → M2 tự nhiên
+  FORCE: REWARD-HABITUATED (hardware adaptation, ĐỘC LẬP):
+    → Cùng stimulus lặp lại → VTA fire giảm → "không còn mới" (Weber-Fechner)
+    → ROMANTIC: partner "không mới" sau vài năm → Reward-Habituated tự nhiên
     → Counter: novelty injection (§11.5 Aron 2000 🟢)
+    → Xảy ra NGAY CẢ không Compiled-Suppress (hardware by-product habituates)
 
-  M3 — PREDICTION COMPLETION (Self-Pattern-Modeling quá chính xác):
-    → Self-Pattern-Modeling predict partner quá đúng → prediction-delta ≈ 0 → VTA rate → 0
-    → ROMANTIC: "biết hết rồi, không gì surprise" → "chán"
-    → Counter: individual growth → new facets → predictions FAIL lại → VTA fire
+  FUEL: NOVELTY ≥ THRESHOLD? (calibration parameter, PROBABILISTIC):
+    → 2 lenses cùng 1 phenomenon:
+      Lens prediction: Self-Pattern-Modeling predict partner quá đúng → prediction-delta ≈ 0 → VTA rate → 0
+      Lens knowledge: Entity-Compiled slots filled, network stabilized → no new connections
+    → ROMANTIC: "biết hết rồi, không gì surprise" + sau 200+h → Entity-Compiled plateau
+    → Counter: individual growth (predictions FAIL lại) + deepen existing channels
+    → Threshold khác nhau mỗi cặp — KHÔNG đo chính xác, chỉ general direction
 
-  M4 — ENTITY-COMPILED SATURATION (plateau):
-    → Entity-Compiled slots filled, network stabilized → no new connections
-    → ROMANTIC: sau 200+h → Entity-Compiled formation plateau
-    → Counter: deepen EXISTING channels (not just add new)
+  CONTEXTUAL: GAP DRIFT (direction diverge):
+    → Gap landscapes diverge → "chúng tôi không còn chung hướng nữa"
+    → ROMANTIC: career, interests, values diverge → direction match ↓
+    → Proximity paradox: gần → Reward-Habituated↑ + Compiled-Suppress risk↑, xa → drift↑
 
-  ⭐ M1 ACCELERATES M2+M3+M4 COMPOUND (Bond-Architecture v1.0 §4):
-    → M1 (suppress drive) → ít explore → ít novelty → M2 tăng
-    → M1 (suppress drive) → ít grow → ít surprise → M3 tăng
-    → M1 (suppress drive) → ít build → network stagnate → M4 tăng
-    → = FIX M1 = HIGHEST LEVERAGE (fix M1 → M2+M3+M4 slow down)
+  ⭐ INTERACTION (Bond-Architecture v2.0 §4.5):
+    → Compiled-Suppress (suppress drive) → ít explore → ít novelty → Reward-Habituated NHANH HƠN
+    → Compiled-Suppress (suppress drive) → ít grow → novelty fuel CẠN
+    → = FIX Compiled-Suppress = HIGHEST LEVERAGE (giải phóng drive riêng → counter tất cả)
     → = Anti-compiled-suppress (§11.4) là KEY intervention
 
-  (Chi tiết: Bond-Architecture.md v1.0 §4)
+  SATIATION MAPPING (Gap-Body-Need §3.2):
+    → Compiled-Suppress → attacks BOTH Tonic AND Generative
+    → Reward-Habituated → Tonic slowly declining
+    → Novelty threshold → Generative alive/dead
+    → "Chán nhau" = Tonic intact + Generative dead
+
+  (Chi tiết: Bond-Architecture.md v2.0 §4)
 ```
 
 ### §11.9 — 4-Layer Sustainability × Romantic (v3.0)
@@ -2551,7 +2561,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Drive riêng VẪN CÓ (anti-compiled-suppress intact)
 
   LIMERENCE có thể ACCELERATE to Mức 4 or OVERSHOOT to Mức 5:
-    → Hardware subsidy → fast compilation → fast Entity-Access increase
+    → Hardware-subsidy → fast compilation → fast Entity-Access increase
     → Nếu domains narrowing quá nhanh → Mức 5 risk
     → = §9.1 build foundation = maintain Mức 4, prevent Mức 5
 
@@ -2573,7 +2583,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Year 5-8: flat familiarity (all gaps entity-directed)
       Year 8+: stagnation (Gottman Type 2 divorce ~16.2yr)
     → CẢ 2 suppress drive riêng → no by-products → no novelty → flat
-    → = M1 compiled suppress × 2 = compound stagnation
+    → = Compiled-Suppress × 2 = compound stagnation
 
   ⭐ UNILATERAL SUFFOCATION (Entity-Access-Excess v1.0 §4.2):
     A excessive, B normal:
@@ -2805,7 +2815,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   4 factors quyết định phantom intensity:
 
   ① COMPILATION DEPTH: more channels compiled → more phantom firing points
-  ② HARDWARE SUBSIDY: hw-supported bond → hw KEEPS firing after loss
+  ② HARDWARE-SUBSIDY: Hardware-supported bond → Hardware KEEPS firing after loss
   ③ L2 STRUCTURAL: entity = body-base extension → loss = body-base amputation
   ④ DURATION COMPILED: longer → deeper Hebbian → slower fade
 
@@ -2815,7 +2825,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Factor       │ Romantic break-up                   │
     ├──────────────┼────────────────────────────────────┤
     │ ① Compilation│ DEEP (multi-modal, years)           │
-    │ ② Hardware Subsidy │ SOME (vasopressin/oxytocin residual)│
+    │ ② Hardware-Subsidy │ SOME (vasopressin/oxytocin residual)│
     │ ③ L2 Struct  │ STRONG → VERY STRONG               │
     │ ④ Duration   │ YEARS → DECADES                     │
     │ Dominant type│ MIXED (all 3 satiation types fire)  │
@@ -2947,7 +2957,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Silence taxonomy × well-being (Weinstein 2024, N=587)
   → Neuroticism → anxious attachment r=.49-.56 (Noftle & Shaver 2006)
   → Trauma bonding: intermittent abuse → stronger attachment (Dutton & Painter 1993)
-  → Baby schema NAcc 140ms (Glocker 2009) — hw subsidy evidence
+  → Baby schema NAcc 140ms (Glocker 2009) — Hardware-Subsidy evidence
   → Kin recognition slower decay (Roberts & Dunbar 2011)
   → VTA habituation (Schultz 1997) — prediction-delta
   → Active-Constructive responding predicts breakup (Gable 2006)
@@ -3038,7 +3048,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   v3.0 NEW 🟡:
 
-  → ⭐ "Hardware Subsidy TEMPORARY = subsidy ≠ quality" (§1, §9.2):
+  → ⭐ "Hardware-Subsidy TEMPORARY = subsidy ≠ quality" (§1, §9.2):
      18-36m subsidy simulates slow habituation → expires → "hết lửa".
      Subsidy = insurance, not quality. TEMPORARY = feature not bug.
      Cross-ref: Valence-Propagation v3.0 §7, Resonance-Per-Entity v1.0 §2.
@@ -3050,7 +3060,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   → ⭐ "Compilation Chain × romantic acceleration" (§3.3, §10.3):
      4 stages Fresh→Compiled→Baseline→Dynamics. Romantic = accelerated.
-     Hardware Subsidy makes Stage 2 feel like Stage 3. Expiry reveals truth.
+     Hardware-Subsidy makes Stage 2 feel like Stage 3. Expiry reveals truth.
      Cross-ref: Resonance-Per-Entity v1.0 §1.
 
   → ⭐ "3 Firing Modes × romantic stages" (§10.3, §11.7):
@@ -3058,18 +3068,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Mode 3 context-trigger = olfactory strongest.
      Cross-ref: Valence-Propagation v3.0 §6.
 
-  → ⭐ "M1-M4 × romantic: M1 = highest leverage" (§11.8):
-     M1 compiled suppress accelerates M2+M3+M4. Fix M1 = anti-compiled-suppress.
-     Cross-ref: Bond-Architecture v1.0 §4.
+  → ⭐ "Resonance Decline × romantic: Compiled-Suppress = highest leverage" (§11.8):
+     Compiled-Suppress accelerates Reward-Habituated + drains novelty fuel. Fix = anti-compiled-suppress.
+     Cross-ref: Bond-Architecture v2.0 §4.
 
   → ⭐ "Anti-compiled-suppress = differentiation REFRAME" (§11.4):
      Schnarch's differentiation = anti-compiled-suppress in framework terms.
      Deep understanding → "khác nhau là giá trị" → resonance sustained.
-     Cross-ref: Bond-Architecture v1.0 §5.
+     Cross-ref: Bond-Architecture v2.0 §5.
 
   → ⭐ "Domain coverage: partner ≠ fill everything" (§11.4):
-     5-domain × 4-entity matrix. Partner BEST hw+emotional, ❌ career.
-     Need PORTFOLIO (Dunbar layers). Cross-ref: Bond-Architecture v1.0 §6.
+     5-domain × 4-entity matrix. Partner BEST Hardware+emotional, ❌ career.
+     Need PORTFOLIO (Dunbar layers). Cross-ref: Bond-Architecture v2.0 §6.
 
   → ⭐ "4-Layer Sustainability × romantic" (§11.9):
      Foundation + Modality + Amplification (PPR+Secure Base) + Trajectory.
@@ -3086,7 +3096,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Cross-ref: Entity-Access-Excess v1.0 §4-§6.
 
   → ⭐ "Phantom 4-factor × romantic grief" (§12.7):
-     4 factors: compilation depth × hw subsidy × L2 structural × duration.
+     4 factors: compilation depth × Hardware-Subsidy × L2 structural × duration.
      Romantic = COMPLEX (all 3 satiation types). Cross-ref: Valence-Propagation v3.0 §12.
 
   → ⭐ "Grief A+B+C formula × romantic" (§12.7):
@@ -3148,7 +3158,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   v3.0 NEW 🔴:
 
-  → ⭐ P8 — Hardware Subsidy magnitude measurable (§9.2):
+  → ⭐ P8 — Hardware-Subsidy magnitude measurable (§9.2):
      Proxy: dopamine transporter availability (DAT-SPECT) at 6m vs 24m vs 48m.
      Prediction: DAT availability INCREASES significantly 24-36m (subsidy expiry).
 
@@ -3158,10 +3168,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Generative dead + Tonic present → Hướng C.
      Both dead → Hướng B or D.
 
-  → P10 — M1-M4 relative contribution measurable (§11.8):
-     Design: couples reporting "stale" → assess M1 (compiled suppress),
-     M2 (habituation), M3 (prediction completion), M4 (saturation).
-     Prediction: M1 presence = strongest predictor of dissatisfaction.
+  → P10 — Resonance Decline factor contribution measurable (§11.8):
+     Design: couples reporting "stale" → assess Compiled-Suppress (drive suppression),
+     Reward-Habituated (habituation), novelty threshold (prediction complete + saturation).
+     Prediction: Compiled-Suppress presence = strongest predictor of dissatisfaction.
 
   → P11 — Entity-Access gradient × divorce timing (§11.10):
      Prediction: couples where BOTH reach Mức 5 = later divorce (~16yr, Gottman Type 2).
@@ -3183,26 +3193,26 @@ AGENT-MECHANISM (7):
   → Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation 40→200h, Dunbar, Grief A+B+C, Decay 3-Layer
   → Entity-Access.md v1.2 — Mức 0-5 gradient, romantic Mức 2→4→5
   → Entity-Access-Excess.md v1.0 — Mức 5 excess, bilateral/unilateral, gap shift+compiled suppress, 3 origins
-  → Entity-Access-Calibration.md v1.0 — Exit Cost, Hardware Subsidy = Calibration Bias, Mức 4 critical zone
-  → Bond-Architecture.md v1.0 — 4 bond types × 1 Entity-Compiled, M1-M4 decline, anti-compiled-suppress, domain coverage
+  → Entity-Access-Calibration.md v1.0 — Exit Cost, Hardware-Subsidy = Calibration Bias, Mức 4 critical zone
+  → Bond-Architecture.md v2.0 — 4 bond types × 1 Entity-Compiled, Resonance Decline (2 Forces + 1 Fuel), anti-compiled-suppress, domain coverage
   → Resonance-Sustainability.md v1.0 — 4-Layer, PPR, Secure Base, 4 silence types, motivated inaccuracy
-  → Resonance-Per-Entity.md v1.0 — Compilation Chain, Hardware Subsidy spectrum, per-entity profiles, Phantom 4-factor
+  → Resonance-Per-Entity.md v1.0 — Compilation Chain, Hardware-Subsidy spectrum, per-entity profiles, Phantom 4-factor
 
 PFC (4):
   → PFC-Operations.md v1.0 — PFC budget (shared, finite), Compiled Quality, compiled suppress → vmPFC
-  → Simulation-Engine.md v1.0 — 1 Engine × 3 Components × 3 Axes, Self-Pattern-Modeling = Application 1
+  → Simulation-Engine.md v1.0 — 1 Engine × 3 Components × 3 Axes, Self-Pattern-Modeling = APPLICATION-1
   → PFC-Configuration.md v1.0 — 6 modes, limerence = Mode ③ Reconfigured
   → PFC-Label.md v1.0 — vocabulary standard
 
 BODY-BASE + OBSERVATION (13):
-  → Connection.md v5.0 — 3 Generative Primitives, 8 pathways, M1-M4, 4-Layer
+  → Connection.md v5.0 — 3 Generative Primitives, 8 pathways, Resonance Decline, 4-Layer
   → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, 1 mechanism × 3 dimensions
   → Agent-Mechanism.md v2.1 — Self-Pattern-Modeling hub, body-need feeder
   → By-Product-Gap-Resonance.md v1.4 — 2-Stream Architecture, by-product match
   → By-Product-Scale.md v1.0 — 3 scales (Pair/Hub/Institutional)
   → Gap-Body-Need.md v1.0 — 3 Satiation Types, entity-gap matching
-  → Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, Hardware Subsidy, Satiation, Phantom
-  → Body-Coupling.md v3.0 — coupling mechanism, Hardware Subsidy × coupling, 3 Phase
+  → Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, Hardware-Subsidy, Satiation, Phantom
+  → Body-Coupling.md v3.0 — coupling mechanism, Hardware-Subsidy × coupling, 3 Phase
   → Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap, Compound
   → Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, Evaluative Gates Direct-State
   → Cortisol-Baseline.md v2.0 — 5 Cortisol Roles, cascade, recovery asymmetry
@@ -3244,17 +3254,17 @@ CLARIFICATION + LENS:
 
   v3.0 REWRITE (2026-05-22) — integrating Phase A+B+T+C1+C2+C3:
     §0 REWRITE: +Simulation-Engine context, +Entity-Access gradient preview, +TIỀN ĐỀ ĐỌC (8), +ĐỌC FLOW v3.0, +SCOPE IN/OUT
-    §1 ENRICHED: +Structural vs Current valence × romantic, +Hardware Subsidy TEMPORARY context
+    §1 ENRICHED: +Structural vs Current valence × romantic, +Hardware-Subsidy TEMPORARY context
     §2.1 ENRICHED: +Compiled Quality × romantic compilation (genuine/schema/threat)
     §3.3 ENRICHED: +Entity-Compiled v1.0 Hub-and-Spoke, +Formation 40→200h, +Compilation Chain × romantic
     §4 ENRICHED: +PFC Budget × romantic cost, +By-Product-Scale Level 1
     §5 ENRICHED: +PFC-Operations integration, +Motivated Inaccuracy × romantic (triple mechanism)
-    §9.2 ★ NEW: Hardware Subsidy TEMPORARY × Limerence Window (subsidy ≠ quality)
+    §9.2 ★ NEW: Hardware-Subsidy TEMPORARY × Limerence Window (subsidy ≠ quality)
     §9.3 ★ NEW: 3 Satiation Types × Romantic Stages (Generative→Tonic shift, "chán" mechanism)
     §10.3 ★ NEW: Compilation Chain × Transition (Stage 2→3, 3 Firing Modes × transition)
     §11.4 REFRAME: differentiation → anti-compiled-suppress + Domain Coverage matrix
     §11.7 ★ NEW: 3 Firing Modes × Romantic Bonding (Mode 1/2/3)
-    §11.8 ★ NEW: M1-M4 Resonance Decline × Romantic (M1 highest leverage)
+    §11.8 ★ NEW: Resonance Decline (2 Forces + 1 Fuel) × Romantic (Compiled-Suppress highest leverage)
     §11.9 ★ NEW: 4-Layer Sustainability × Romantic (PPR, Secure Base, 4 silence types)
     §11.10 ★ NEW: Entity-Access Gradient × Romantic Deepening (Mức 2→5)
     §11.11 ★ NEW: Entity-Access-Excess × Romantic (bilateral/unilateral, 3 origins)
@@ -3274,10 +3284,10 @@ CLARIFICATION + LENS:
 ---
 
 > *Love Romantic v3.0 — "Tình yêu = ❶ Hardware flood + ❷ Self-Pattern-Modeling (Compiled + Fresh) + ❸ Valence → Body-Base Extension.
-> Hardware Subsidy TEMPORARY (18-36m) → expires → 'hết lửa' ≠ hết yêu.
+> Hardware-Subsidy TEMPORARY (18-36m) → expires → 'hết lửa' ≠ hết yêu.
 > 3 Satiation: Generative (limerence) → Tonic+Generative (attachment). 'Chán' = Generative dead + Tonic invisible.
 > 3 Firing Modes: Mode 1 invisible baseline, Mode 2 chunk-miss grief, Mode 3 context-trigger phantom.
-> M1-M4 Decline: M1 compiled suppress = STRONGEST. Anti-compiled-suppress = highest leverage.
+> Resonance Decline: Compiled-Suppress = STRONGEST (leverage point). Anti-compiled-suppress = highest leverage.
 > 4-Layer Sustainability: Foundation + Modality + Amplification (PPR+Secure Base) + Trajectory.
 > Entity-Access gradient Mức 2→4 (healthy). Mức 5 = excess (bilateral trap / unilateral suffocation).
 > PFC TỰ GIẢM + PFC=LAWYER + Motivated Inaccuracy = TRIPLE mechanism blindness.

@@ -766,7 +766,7 @@ Hầu như mọi milestone xã hội thị giác (CONSPEC, direct gaze, mother r
 
 ### §9.3 — Đề cập ngắn gọn các nút thắt khác
 
-- **Nút Thắt 2 (P2 Chunks Base Adequacy)**: Visual chunks là **hệ thống body-input compile nhanh nhất** vì đầu vào thị giác dày đặc nhất. Visual adequacy xuất hiện tương đối sớm (nhiều sự kiện đã ở L3-L4 vào 12 tháng). Tương phản với interoceptive (bàng quang) vốn lag đáng kể. Sự khác biệt tốc độ cross-body-input này là bằng chứng quan trọng cho Nút Thắt 2 "tỷ lệ compile khác nhau theo saliency đầu vào + tần suất lặp lại + contingency" — xem [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md).
+- **Nút Thắt 2 (Precondition-2 Chunk-Substrate)**: Visual chunks là **hệ thống body-input compile nhanh nhất** vì đầu vào thị giác dày đặc nhất. Visual adequacy xuất hiện tương đối sớm (nhiều sự kiện đã ở L3-L4 vào 12 tháng). Tương phản với interoceptive (bàng quang) vốn lag đáng kể. Sự khác biệt tốc độ cross-body-input này là bằng chứng quan trọng cho Nút Thắt 2 "tỷ lệ compile khác nhau theo saliency đầu vào + tần suất lặp lại + contingency" — xem [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md).
 - **Nút Thắt 4 (PFC hardware × chunks missing)**: Đã committed trong 01 — file này áp dụng reframe nhất quán xuyên suốt. Direct gaze ở 2-5 ngày (§3.2) là một trong những bằng chứng visual falsification mạnh nhất cho quan điểm cũ "PFC offline".
 
 ---
@@ -816,8 +816,8 @@ Hầu như mọi milestone xã hội thị giác (CONSPEC, direct gaze, mother r
 
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) — H8 learning dissonance cycle dùng chunks, visual learning cycles áp dụng được (object permanence violation → learning)
 - [../Agent/Agent.md](../Agent/Agent.md) + [../Agent/Self-Pattern-Modeling.md](../Agent/Self-Pattern-Modeling.md) — H9 Agent formation dùng visual self-chunks (mirror recognition ở 18-24 tháng là substrate cho Self-Pattern-Modeling Stage 2)
-- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) — H10 body-feedback substrate, §5.4 caregiver mirroring như developmental foundation. Visual mirroring events (khuôn mặt mẹ, smile contagion) là cơ chế cho infant interoception development.
-- [../Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) — H10 P2 Chunks Base Adequacy bottleneck. Tích lũy visual chunks của file này đóng góp bằng chứng fast-compile.
+- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) — Body-Feedback-Precondition body-feedback substrate, §5.4 caregiver mirroring như developmental foundation. Visual mirroring events (khuôn mặt mẹ, smile contagion) là cơ chế cho infant interoception development.
+- [../Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) — Body-Feedback-Precondition Precondition-2 Chunk-Substrate bottleneck. Tích lũy visual chunks của file này đóng góp bằng chứng fast-compile.
 
 ### §11.4 — Empirical Feel-Example cross-references
 

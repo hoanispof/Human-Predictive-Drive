@@ -1,4 +1,4 @@
----
+﻿---
 title: Domain-Mapping-Drive
 version: v2.0
 status: COMPLETE
@@ -25,7 +25,7 @@ dependencies:
     - Observation/Novelty.md v1.2, Threat.md v1.2, Drive.md v1.2
     - Observation/Boredom.md v2.0 (by-product match)
   agent-mechanism:
-    - Agent-Mechanism/Bond-Architecture.md v1.0 (4 bond types — NEW v2.0)
+    - Agent-Mechanism/Bond-Architecture.md v2.0 (4 bond types — NEW v2.0)
     - Agent-Mechanism/Entity-Access.md v1.2 (gradient Mức 0-5 — NEW v2.0)
     - Agent-Mechanism/Entity-Compiled.md v1.0 (neural reality — NEW v2.0)
     - Agent-Mechanism/Resonance-Sustainability.md v1.0 (4-layer — NEW v2.0)
@@ -44,7 +44,7 @@ dependencies:
     - Domain/Domain.md v1.0 (knowledge convergence)
 changelog:
   - v1.0 (2026-04-10) — Initial complete draft §0-§10, 3,433L
-  - v2.0 (2026-05-23) — YAML header + concept cascade (Simulation Engine, Entity-Access, Bond-Architecture, Hardware Subsidy, M1-M4, Satiation, Resonance-Sustainability, By-Product-Scale, PFC Budget, Entity-Compiled, Resonance-Per-Entity, PFC-Label) + cross-ref overhaul
+  - v2.0 (2026-05-23) — YAML header + concept cascade (Simulation-Engine, Entity-Access, Bond-Architecture, Hardware-Subsidy, 4 firing modes, Satiation, Resonance-Sustainability, By-Product-Scale, PFC Budget, Entity-Compiled, Resonance-Per-Entity, PFC-Label) + cross-ref overhaul
 ---
 
 # Domain-Mapping-Drive — Cơ Chế Tự-Drive Con Người + Hệ Quả Cho Giáo Dục Tương Lai
@@ -80,7 +80,7 @@ Câu hỏi này có vẻ vớ vẩn nhưng thực ra nó trúng ngay trung tâm 
   → Education paradox: tại sao trẻ có MỌI tài liệu (sách, video, AI)
     nhưng ngày càng khó chịu khi học?
   → Existential paradox: tại sao người nghỉ hưu với đầy đủ vật chất
-    lại thấy "trống rỗng" và tìm việc làm miễn phí?
+    lại thấy "emptiness" và tìm việc làm miễn phí?
 
 Cả 3 đều KHÔNG phải nghịch lý. Chúng là cùng 1 hiện tượng nhìn từ 3
 góc khác nhau. Và khi hiểu được câu trả lời, hàng loạt câu hỏi khác
@@ -424,7 +424,7 @@ giấu. Bằng chứng:
 ═══════════════════════════════════════════════════════
 
 Nhiều người coi cảm giác "không thể ngồi yên", "luôn phải làm gì đó", "cảm thấy
-trống rỗng khi không có project" là 1 dạng BỆNH hoặc character flaw. Framework
+emptiness khi không có project" là 1 dạng BỆNH hoặc character flaw. Framework
 nói: đây là **hardware working as designed**.
 
   🟡 RESTLESS = BODY BÁO "CÒN DOMAIN ĐỂ MAP":
@@ -444,7 +444,7 @@ nói: đây là **hardware working as designed**.
     → = Tương tự đau thể chất: đau khó chịu vì nó PHẢI khó chịu để bạn
       phản ứng. Nếu đau comfortable, bạn sẽ bị thương mà không biết.
 
-  🟡 TRỐNG RỖNG KHI ĐẠT MỤC TIÊU = "IMAGINE-FINAL COLLAPSE":
+  🟡 EMPTINESS KHI ĐẠT MỤC TIÊU = "IMAGINE-FINAL COLLAPSE":
     → Nhiều người đạt goal lớn (tốt nghiệp, promote, cưới, đẻ con, mua nhà)
     → Thay vì thấy "hoàn thành + yên bình" → thấy TRỐNG
     → Common interpretation: "tôi không biết trân trọng"
@@ -469,9 +469,9 @@ nói: đây là **hardware working as designed**.
 
     Body đói báo bằng cortisol + ghrelin.
     Body restless báo bằng... gì nhỉ? Cortisol nhẹ + VTA im lặng + opioid thấp.
-    = Trống rỗng.
+    = Emptiness.
 
-→ Vậy nên: nếu đang cảm thấy restless / empty / trống rỗng,
+→ Vậy nên: nếu đang cảm thấy restless / empty / emptiness,
   câu trả lời KHÔNG phải "cố gắng cảm thấy đủ"
   Câu trả lời LÀ "tìm domain có dissonance đúng với hardware của bạn,
   và bắt đầu map nó"
@@ -574,16 +574,16 @@ TÓM TẮT §1
 §1 mô tả drive explore là hardware default. Các concept mới từ drill
 sessions làm rõ CƠ CHẾ DƯỚI drive này:
 
-  Hardware Subsidy — Body không chỉ "có drive" mà ACTIVELY SUPPORT
+  Hardware-Subsidy — Body không chỉ "có drive" mà ACTIVELY SUPPORT
     drive explore bằng baseline neurochemical (VTA tonic, serotonin
-    stability, opioid readiness). Hardware Subsidy = body ĐẦU TƯ
+    stability, opioid readiness). Hardware-Subsidy = body ĐẦU TƯ
     resource vào entities/domains có bond. "Restless" (§1.5) = Hardware
     Subsidy đang tìm target để invest.
-    → Xem Body-Coupling.md v3.0 §Hardware Subsidy
+    → Xem Body-Coupling.md v3.0 §Hardware-Subsidy
 
-  Simulation Engine — PFC không chỉ "nghĩ" mà CÓ CƠ CHẾ CỤ THỂ:
+  Simulation-Engine — PFC không chỉ "nghĩ" mà CÓ CƠ CHẾ CỤ THỂ:
     1 Engine (PFC prediction), 3 Components (context loader, simulator,
-    evaluator). Drive explore sử dụng Simulation Engine để draft
+    evaluator). Drive explore sử dụng Simulation-Engine để draft
     Imagine-Final trước khi body commit resource.
     → Xem PFC/Simulation-Engine.md v1.0
 
@@ -685,7 +685,7 @@ KEY INSIGHT: VTA không fire khi có "cái gì tốt". VTA fire khi có "BIẾN
     → Total body: "ugh, mưa"
 
   → Cùng 1 hiện tượng mưa. 1 người feel như phép màu. 1 người feel như gánh nặng.
-  → Đây không phải vì người lớn "vô cảm" về đạo đức
+  → Đây không phải vì người lớn "apathetic" về đạo đức
   → Mà vì VTA đã habituate hoàn toàn → cần delta MỚI để fire
 
 
@@ -933,7 +933,7 @@ KẾT LUẬN §2.2:
   → Đây là cơ chế sinh học của câu quote "hạnh phúc là hành trình"
   → Không phải ẩn dụ, không phải motivational slogan — là cơ chế
 
-  ⭐ CONCEPT MỚI — PFC BUDGET + M1-M4 FIRING MODES (v2.0):
+  ⭐ CONCEPT MỚI — PFC BUDGET + 4 FIRING MODES (v2.0):
 
     PFC Budget — BUILD phase tiêu tốn PFC resource (glucose, oxygen,
       attention bandwidth). PFC Budget hữu hạn per session → giải thích
@@ -941,14 +941,13 @@ KẾT LUẬN §2.2:
       Phase 2-3 (§2.4) chính là body RESTORE PFC Budget.
       → Xem PFC/PFC-Operations.md v1.0
 
-    M1-M4 Firing Modes — Mỗi BUILD step fire ở 1 trong 4 modes:
-      M1 (Structural) — baseline, steady, low-resource (routine practice)
-      M2 (Current-Shift) — medium, VTA fire khi có delta (learning new)
-      M3 (Peak) — high, opioid + dopamine cùng fire (breakthrough "aha")
-      M4 (Compound) — mixed valence, nhiều systems cùng fire (complex tasks)
-    Mapping-drive chủ yếu dùng M2 (exploration) và M3 (insight).
-    Người ở Zone 3 dissonance (§3.1) bị locked ở M1 hoặc crash.
-      → Xem Bond-Architecture.md v1.0 §M1-M4
+    4 Firing Modes — Mỗi BUILD step fire ở 1 trong 4 modes:
+      Structural — baseline, steady, low-resource (routine practice)
+      Current-Shift — medium, VTA fire khi có delta (learning new)
+      Peak — high, opioid + dopamine cùng fire (breakthrough "aha")
+      Compound — mixed valence, nhiều systems cùng fire (complex tasks)
+    Mapping-drive chủ yếu dùng Current-Shift (exploration) và Peak (insight).
+    Người ở Zone 3 dissonance (§3.1) bị locked ở Structural mode hoặc crash.
 
     🟡 Concept mapping: framework từ drill sessions 2026-05
 
@@ -1344,8 +1343,8 @@ TÓM TẮT §2 — TẠI SAO "GIVEN" KHÔNG CÓ REWARD
 → Bỏ qua process = bỏ qua cả 4 cơ chế reward cùng lúc
 → Kết quả: "có mọi thứ mà không feel gì" — đây là mechanism, không phải character flaw
 
-  ⭐ CONCEPT MỚI — SIMULATION ENGINE × 4 CƠ CHẾ (v2.0):
-    §2.4 mô tả 5 phases lifecycle. Simulation Engine formalize cơ chế
+  ⭐ CONCEPT MỚI — SIMULATION-ENGINE × 4 CƠ CHẾ (v2.0):
+    §2.4 mô tả 5 phases lifecycle. Simulation-Engine formalize cơ chế
     TRONG mỗi phase:
       BUILD phase = Simulation-Engine chạy: PFC load context → simulate outcomes →
         evaluate match → body feedback → adjust
@@ -1509,7 +1508,7 @@ mà "giúp trẻ navigate 4 góc → tìm Sweet Spot của riêng mình".
       → Mismatch góc (Domain ✓ + Hardware ✗)
       → Ngắn hạn: trẻ cố học, đỗ được, bắt đầu hành nghề
       → Dài hạn: burnout / midlife crisis / "giỏi nhưng ghét"
-      → Anchor L3 status bị lock vào "bác sĩ = giá trị" → khó thoát
+      → Anchor status bị lock vào "bác sĩ = giá trị" → khó thoát
 
     Outcome C — Inject về cái không tồn tại:
       "Con phải thành công nhất lớp mãi mãi"
@@ -2184,12 +2183,12 @@ TÓM TẮT §5
       Functional bond (student + school system): task-oriented, shallow
       Parasocial bond (learner + book author): one-way, nhưng chunks vẫn transfer
     Condition ⑤ "adult = supporter" chính là trust bond quality.
-    → Xem Agent-Mechanism/Bond-Architecture.md v1.0
+    → Xem Agent-Mechanism/Bond-Architecture.md v2.0
 
     Resonance-Per-Entity × Learning — Mỗi mentor-student relationship
     có resonance dynamics riêng:
       Resonance cao (Einstein + chú Jakob) = chunks transfer nhanh,
-        Hardware Subsidy compounds, drive amplify
+        Hardware-Subsidy compounds, drive amplify
       Resonance thấp (trẻ + thầy ép buộc) = chunks transfer kèm
         cortisol, bond functional không compile
     → 5 patterns đều có HIGH RESONANCE với ít nhất 1 entity
@@ -2403,7 +2402,7 @@ TÓM TẮT §6 — COSMIC LOOP VÀ GIÁO DỤC
 → Hệ quả sâu nhất cho giáo dục:
   Dạy trẻ "bạn là 1 nút trong cosmic loop — contribution của bạn matters
   dù visible hay không" = anchor identity mạnh hơn nhiều "bạn phải thành công"
-  → Đây là Anchor-Schema L3 healthy version: status từ contribution không
+  → Đây là Anchor-Schema healthy version: status từ contribution không
     phải từ competition
 
   🟡 Cosmic loop framing: Collective-Purpose.md
@@ -3565,7 +3564,7 @@ INPUT — CORE MECHANISM (đọc trước file này)
     Observation/Boredom.md v2.0 (by-product match stop)
 
   AGENT-MECHANISM (NEW v2.0):
-    Agent-Mechanism/Bond-Architecture.md v1.0 (4 bond types, M1-M4)
+    Agent-Mechanism/Bond-Architecture.md v2.0 (4 bond types, Resonance Decline 2 Forces + 1 Fuel)
     Agent-Mechanism/Entity-Access.md v1.2 (gradient Mức 0-5)
     Agent-Mechanism/Entity-Compiled.md v1.0 (neural reality, 40-200h)
     Agent-Mechanism/Resonance-Sustainability.md v1.0 (4-layer model)
@@ -3626,7 +3625,7 @@ RELATED ANALYSIS
   Body-Base/Schema/Anchor-Schema.md — Trust + 4 nguồn fill
   Domain/Expansion-Saturation-Crisis.md — grad unemployment context
   Observation/Status.md v2.2 — status × education
-  Body-Base/Body-Coupling.md v3.0 — Hardware Subsidy mechanism
+  Body-Base/Body-Coupling.md v3.0 — Hardware-Subsidy mechanism
 
 
 ═══════════════════════════════════════════════════════
@@ -3661,6 +3660,6 @@ EXPECTED READER JOURNEY
 > Chunks đủ + hardware fit + rich environment → self-sustaining novelty.
 > Giáo dục tương lai không tạo drive — chỉ unblock drive + guide nó.
 > 3 loại threat: KEEP domain + peer, REDUCE imposed.
-> Simulation Engine × Entity-Access × Bond-Architecture × Hardware Subsidy
+> Simulation-Engine × Entity-Access × Bond-Architecture × Hardware-Subsidy
 > → formalize cơ chế dưới mỗi nguyên tắc.
 > Transition chậm nhưng path rõ. Chậm mà chắc."*

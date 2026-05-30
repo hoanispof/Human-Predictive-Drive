@@ -1,45 +1,47 @@
-# Logic-Feeling — Compiled/Fresh Spectrum và 2 Observer Labels
+# Logic-Feeling — Body-Knowing, Compiled/Fresh Spectrum, và Observer Labels
 
-> **Einstein: years compile toán → chunks fire fast → "thấy" lời giải.**
-> **Therapist: years compile patterns → chunks fire fast → "thấy" patient state.**
+> **Einstein: years compile toán → chunks fire fast → Body-Knowing: "thấy" lời giải.**
+> **Therapist: years compile patterns → chunks fire fast → Body-Knowing: "thấy" patient state.**
 >
-> CƠ CHẾ BÊN TRONG: GIỐNG HỆT.
-> Observer bên ngoài: "Einstein dùng logic", "Therapist dùng intuition."
+> CƠ CHẾ BÊN TRONG: GIỐNG HỆT. Observer bên ngoài: "Einstein dùng logic", "Therapist dùng intuition."
 >
-> KHÁC BIỆT THẬT: Toán = DETERMINISTIC → compiled chunks CONVERGE → SHAREABLE.
-> Tâm lý = PROBABILISTIC → compiled chunks DIVERGE → NON-SHAREABLE.
+> BODY-KNOWING: compiled chunks fire → body-direct → "biết mà không cần giải thích."
 >
-> "Logic" vs "Feeling" = 2 labels cho CÙNG 1 spectrum: COMPILED ←→ FRESH.
+> "Logic" = observer label khi Body-Knowing SHAREABLE (deterministic domain).
+> "Feeling/Intuition" = observer label khi Body-Knowing NON-SHAREABLE (probabilistic domain).
+> "Fresh" = PFC đang DRAFT (chưa Body-Knowing, cost > 0, "phải nghĩ ra").
 >
-> COMPILED: body-direct, automatic, cost ≈ 0, "cảm thấy biết."
-> FRESH: PFC draft, deliberate, cost > 0, "phải nghĩ ra."
+> Labels vẫn hữu ích — nhưng mechanism UNDERNEATH chỉ có 1: compilation level → Body-Knowing.
 >
-> Bản đồ (compiled rules) + La bàn (compiled body-feedback) → cả 2 = COMPILED.
-> Sự khác biệt duy nhất: bản đồ SHARE ĐƯỢC, la bàn RIÊNG MỖI NGƯỜI.
->
-> Labels vẫn hữu ích — nhưng mechanism UNDERNEATH chỉ có 1: compilation level.
->
-> **"Con người 100% feeling ở tầng nền — 'logic' chỉ là phase trước khi compile xong."**
+> **"'Logic' chỉ là fresh phase trước khi compile thành Body-Knowing. PFC = Lawyer, không phải independent rational agent."**
 
 ---
 
-> **Trạng thái:** v2.1 — SURGICAL (2026-05-17: +Domain Stability, +Trader example, +Shelf-Life)
-> **Previous:** v2.0 FULL REWRITE (2026-05-17) | v1.0 DRAFT → backup/Logic-Feeling-v1.0-backup.md
-> **Mục đích:** Define Compiled/Fresh spectrum (trục thật) + explain WHY "Logic" và "Feeling"
-> labels emerge + WHEN each label useful + FLOW giữa compiled/fresh + parallel processing.
+> **Trạng thái:** v4.0 — FULL REWRITE (2026-05-26: align Body-Knowing.md v1.0, trim overlaps, restructure §3)
+> **Previous:** v3.0 FULL REWRITE (2026-05-25) | v2.1 SURGICAL (2026-05-17) | v2.0 FULL REWRITE (2026-05-17) | v1.0 → backup/
+> **Mục đích:** Body-Knowing recap + Compiled/Fresh (trục thật) + WHY "Logic"/"Feeling"
+> labels emerge + FLOW + parallel processing.
 > **Vị trí:** Core-Deep-Dive/PFC/ (processing mechanism file)
-> **v2.0 changes:** Compiled/Fresh = primary axis (Inter-Body drill §3). Logic/Feeling = observer
-> labels (shareability-based). +PFC=Lawyer, +Domain=Arbiter, +3-cost, +1B trap case.
+> **v4.0 changes:** Align definitions with Body-Knowing.md v1.0 (3 Properties, formula).
+>   §1 TRIM: definition + spectrum → brief recap + reference Body-Knowing.md.
+>   §3 RESTRUCTURE: Loop → Shelf-Life → Domain Verify → Transitions Brief.
+>   §3.6 Development Trajectory REMOVED (→ Body-Knowing.md §9).
+>   All 3 Properties (Compiled, Body-direct, PFC-encodable) consistent.
+>   Formula aligned: f(compiled_chunks × signal_match × PFC_access).
+>   +Body-Knowing.md in §0, dependencies, §10.
+>   §4.3: "100% body-need-driven" RETIRED → PFC = Lawyer + Learning Trajectory.
 >
 > **Dependencies:**
->   - Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh axis, Shareable/Non-shareable
->   - Feeling.md v3.0 §2.5 — Compiled/Fresh × 7-Layer mapping
->   - Body-Feedback-Mechanism.md v2.0 — 2-source, Body-Need, chunk dynamics
->   - Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, development trajectory
+>   - Body-Knowing.md v1.0 — compiled recognition definition, 3 properties, quality, formation
+>   - Inter-Body-Mechanism.md v2.0 §3 — Compiled/Fresh axis, Shareable/Non-shareable (SOURCE)
+>   - Feeling.md v3.0 §1.1 — Feeling definition, §2.5 — Compiled/Fresh × 7-Layer
+>   - Body-Feedback-Mechanism.md v2.1 — 2-source, Body-Need, chunk dynamics
+>   - Reward-Signal-Architecture.md v2.1 — Evaluative/Direct-State, development trajectory
 >   - Body-Feedback-Label.md v2.0 — vocabulary reference
 >   - Gap-Direction.md v2.0 — gap has direction
->   - Ask-AI.md v3.1 — Dual Check (body=QC, domain=arbiter)
->   - Logic-Feeling-Balance.md v2.1 — META-PRINCIPLE companion
+>   - Ask-AI.md v3.1 §6.1 — Dual Check (body=quality controller, domain=arbiter)
+>   - Logic-Feeling-Balance.md v3.0 — META-PRINCIPLE companion
+>   - PFC-Function.md v1.2 — 24 functions / 5 categories (supersedes PFC-Analysis)
 >
 > **Liên quan mainstream:**
 >   🟢 Dual Process Theory (Kahneman 2011, Evans & Stanovich 2013)
@@ -61,25 +63,23 @@
 ## Mục lục
 
 - §0 — VỊ TRÍ TRONG FRAMEWORK
-- §1 — COMPILED/FRESH: TRỤC THẬT
-- §2 — LOGIC/FEELING = OBSERVER LABELS
-- §3 — TẠI SAO CẢ 2 "LABELS" VẪN CẦN THIẾT
-- §4 — FLOW: Compiled Anchor ↔ Fresh Explore
+- §1 — BODY-KNOWING + COMPILED/FRESH (RECAP)
+- §2 — LOGIC/FEELING = OBSERVER LABELS FOR BODY-KNOWING
+- §3 — FLOW: Body-Knowing ↔ Fresh ↔ Domain Verify
+- §4 — BOTH NEEDED + DUAL CHECK
 - §5 — CASES PHÂN TÍCH (6 cases)
-- §6 — PARALLEL PROCESSING CHO MỌI ENTITY
-- §7 — MODALITY BIAS ẢNH HƯỞNG TỈ LỆ
-- §8 — TƯƠNG TÁC VỚI OBJECT-AGENT
-- §9 — CONNECTIONS VỚI FRAMEWORK
-- §10 — HONEST ASSESSMENT
-- §11 — CÂU HỎI MỞ
-- §12 — KẾT NỐI
+- §6 — PARALLEL PROCESSING + MODALITY BIAS
+- §7 — TƯƠNG TÁC VỚI OBJECT-AGENT
+- §8 — HONEST ASSESSMENT
+- §9 — CÂU HỎI MỞ
+- §10 — KẾT NỐI
 
 ---
 
 ## §0 — VỊ TRÍ TRONG FRAMEWORK
 
 ```
-LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
+LOGIC-FEELING v4.0 TRONG KIẾN TRÚC FRAMEWORK:
 
   v1.0 (2026-04-13): "Logic + Feeling = 2 processing modes khác nhau"
     → Useful but SURFACE-LEVEL description
@@ -89,356 +89,221 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
     → DEEPER: mechanism underneath = COMPILATION LEVEL
     → "Logic" = label khi compiled chunks SHAREABLE (deterministic domain)
     → "Feeling" = label khi compiled chunks NON-SHAREABLE (probabilistic domain)
-    → "Fresh" = label khi PFC đang DRAFT (chưa compile, cost > 0)
+    → ⚠️ VẤN ĐỀ: "100% feeling ở tầng nền" — TERMINOLOGY COLLISION
 
-  EVOLUTION:
-    Inter-Body-Mechanism.md §3 drill (2026-05-16):
-      → Phát hiện: Feeling/Logic = observer perspective labels
-      → Bên trong body: CHỈ CÓ compiled ←→ fresh spectrum
-      → Content (emotion/reasoning) KHÔNG quyết định Compiled/Fresh
-      → COMPILATION LEVEL quyết định
+  v3.0 (2026-05-25): "Body-Knowing = compiled body-direct knowing"
+    → GIẢI QUYẾT collision: Body-Knowing = term formal
+    → "100% feeling" → "100% body-need-driven" → v4.0: RETIRED
+       (PFC = Lawyer + Learning Trajectory = mechanism descriptions sufficient)
+
+  v4.0 (2026-05-26): Align Body-Knowing.md v1.0
+    → §1 TRIM: Body-Knowing definition → brief recap + reference Body-Knowing.md
+    → §3 RESTRUCTURE: Loop → Shelf-Life → Domain Verify → Transitions Brief
+    → §4.3: "100% body-need-driven" RETIRED — bootstrap insight đã hoàn thành.
+      PFC = Lawyer + Learning Trajectory = same insight, mechanism-level, testable.
+    → All definitions ALIGNED: 3 Properties (Compiled, Body-direct, PFC-encodable),
+      formula f(compiled_chunks × signal_match × PFC_access)
+    → Body-Knowing.md = DEFINITION chi tiết, file này = OBSERVER LABELS + FLOW
+
+  TẠI SAO CẦN "BODY-KNOWING":
+    "Feeling" trong framework mang ≥3 nghĩa:
+      ① Observer label cho non-shareable compiled (Logic-Feeling.md §2)
+      ② Body-feedback system umbrella (Feeling.md §1.1: 7 types)
+      ③ Emotional experience (ngôn ngữ thông thường)
+    → Dùng "feeling" cho compiled body-direct knowing = collision nghĩa ①②③
+    → Body-Knowing = term riêng, không collision, mô tả đúng mechanism
 
   VỊ TRÍ:
-    Feeling.md v3.0      = WHAT feeling IS (unified feedback system)
-    Logic-Feeling.md     = WHY "Logic" and "Feeling" labels emerge
+    Feeling.md v3.0      = WHAT feeling IS (unified body-feedback system, 7 types)
+    Body-Knowing.md v1.0 = WHEN PFC "biết" (compiled recognition — definition,
+                           quality 6 dimensions, formation, pre-Body-Knowing)
+    Logic-Feeling.md     = WHY "Logic"/"Feeling" labels emerge (shareability)
                            + WHEN each useful + HOW they interact
-    Logic-Feeling-Balance = META-PRINCIPLE (balance = Compiled×Domain)
+    Logic-Feeling-Balance = META-PRINCIPLE (balance = Body-Knowing × Domain verify)
     Inter-Body §3        = SOURCE-OF-TRUTH cho Compiled/Fresh axis
 
   FILE NÀY KHÔNG TẠO MECHANISM MỚI — giải thích:
-    ① Tại sao 1 spectrum bị NHÌN THẤY như 2 modes
-    ② Tại sao labels vẫn hữu ích dù mechanism = 1
-    ③ Implications cho processing, training, communication
+    ① Body-Knowing = TÊN cho compiled body-direct knowing (→ Body-Knowing.md §1)
+    ② Tại sao 1 mechanism bị NHÌN THẤY như 2 modes ("logic" vs "feeling")
+    ③ Tại sao labels vẫn hữu ích dù mechanism = 1
+    ④ Implications cho processing, training, communication
 ```
 
 ---
 
-## §1 — COMPILED/FRESH: TRỤC THẬT
+## §1 — BODY-KNOWING + COMPILED/FRESH (RECAP)
 
-> **Source:** Inter-Body-Mechanism.md §3 (drilled + verified 2026-05-16).
-> Framework trước v2.0 nói: "Compiled = Feeling, Fresh = Logic."
-> Drill reveals: "Compiled = automatic processing, Fresh = PFC deliberate draft. Content irrelevant."
+> **Body-Knowing.md v1.0 = COMPREHENSIVE definition (12 sections, ~2,000 lines).**
+> **Section này = RECAP đủ cho file này hoạt động độc lập.**
+> **Đọc Body-Knowing.md §1 để hiểu đầy đủ.**
 
-### 1.1 — Spectrum Definition
+### 1.1 — Definition (→ Body-Knowing.md §1 chi tiết)
+
+```
+⭐ BODY-KNOWING — DEFINITION:
+
+  Body-Knowing = compiled chunks fire → body-direct response
+              → PFC encode → "biết mà không cần giải thích."
+
+  3 ĐẶC TÍNH (Body-Knowing.md §1.2):
+    ① COMPILED     — Hebbian-reinforced. No chunks = no Body-Knowing.
+    ② BODY-DIRECT  — bypasses PFC deliberation. Cost ≈ 0.
+    ③ PFC-ENCODABLE — PFC CÓ THỂ detect result (≠ pure implicit).
+
+  FORMULA (Body-Knowing.md §1.3):
+    Body-Knowing = f(compiled_chunks × signal_match × PFC_access)
+    Thiếu 1 trong 3 → Body-Knowing KHÔNG fires:
+      → Thiếu compiled_chunks: novice → no Body-Knowing in domain
+      → Thiếu signal_match: input mới → Fresh processing needed
+      → Thiếu PFC_access: body acts nhưng PFC unaware → pure implicit
+
+  ~95% cuộc sống = Body-Knowing territory. Fresh = ~5% exception.
+  ⚠️ % = calibration anchor, KHÔNG phải đo lường chính xác.
+
+  ⚠️ Body-Knowing ≠ ALWAYS CORRECT:
+    Self-Referencing Trap: compiled in WRONG context → "mượt giả" (Body-Knowing.md §7.1)
+  ⚠️ Body-Knowing ≠ EMOTIONAL FEELING alone:
+    Covers ALL domains: toán, nấu ăn, lái xe, social, body-state...
+
+  → Chi tiết: Body-Knowing.md §1 (definition, 3 properties, formula,
+    4 hiểu nhầm, ví dụ 3 hướng outward + inward + social).
+
+🟡 Body-Knowing as formal term = framework synthesis.
+   Mechanism = Inter-Body §3. Consistent with Klein 1998, Gendlin 1978.
+```
+
+### 1.2 — Compiled/Fresh Spectrum (→ Body-Knowing.md §8)
 
 ```
 ⭐ TRỤC THẬT BÊN TRONG BODY: COMPILATION LEVEL
 
-  COMPILED ─────────────────────────────────────── FRESH
-  (automatic)                                    (PFC draft)
-  body-direct                                    PFC-mediated
+  COMPILED (Body-Knowing) ────────────────────── FRESH (PFC Draft)
+  automatic                                     PFC deliberate
+  body-direct                                   PFC-mediated
   cost ≈ 0                                      cost > 0
-  "cảm thấy biết"                               "phải nghĩ ra"
-  tức thời                                      cần thời gian
+  "biết mà không cần giải thích"                "phải nghĩ ra"
+  near-instant                                  cần thời gian
   Hebbian reinforced                            mỗi lần = effort mới
-
-  ĐẶC ĐIỂM COMPILED:
-    → Fire automatically when triggered
-    → Body-feedback direct (body confirm/reject immediate)
-    → Near-zero PFC cost (path đã tạo sẵn)
-    → "Biết" mà KHÔNG CẦN articulate WHY
-    → VÍ DỤ: Chef nếm → biết thiếu muối. Einstein → "thấy" lời giải toán quen.
-
-  ĐẶC ĐIỂM FRESH:
-    → PFC phải DRAFT novel path
-    → Body-feedback DELAYED (chưa có path → chưa biết body nói gì)
-    → Cost > 0 (glucose, neurotransmitters — 🟢 Gailliot & Baumeister 2007)
-    → "Nghĩ" = conscious effort, CAN articulate steps
-    → VÍ DỤ: Người thường giải bài toán khó. Therapist gặp case hoàn toàn mới.
 
   SPECTRUM, KHÔNG PHẢI BINARY:
     → Mỗi chunk nằm SOMEWHERE trên spectrum
-    → Mỗi moment = tổng hợp nhiều chunks ở nhiều positions
     → "Bán-compiled": steps 1-3 automatic, step 4 needs fresh draft
-    → = Tại sao expert có thể "partially stuck" — compiled phần quen,
-      fresh phần mới
+    → Expert "partially stuck": Body-Knowing phần quen, fresh phần mới
 
-🟡 Compiled/Fresh spectrum = framework synthesis (Inter-Body §3).
+  → Chi tiết: Body-Knowing.md §8 (spectrum, transitions, 3-cost).
+  → Source-of-Truth: Inter-Body-Mechanism.md v2.0 §3.
+
+🟡 Compiled/Fresh spectrum = framework synthesis.
    Consistent with Kahneman System 1/2, expertise research (Klein 1998).
    Novel: frame as COMPILATION LEVEL thay vì speed hoặc content.
 ```
 
-### 1.2 — Evidence: Content ≠ Processing Level
+### 1.3 — Evidence: Content ≠ Processing Level
 
 ```
 ⭐ NỘI DUNG KHÔNG QUYẾT ĐỊNH — COMPILATION LEVEL QUYẾT ĐỊNH:
 
-  ① Einstein + toán quen = COMPILED:
-     Nội dung = toán ("logic"). Processing = compiled → automatic → "cảm thấy"
+  ① Einstein + toán quen = BODY-KNOWING:
+     Nội dung = toán ("logic"). Processing = compiled → automatic
      → Observer nói "logic" vì content = math
-     → Inside Einstein: compiled chunks fire fast = FEELING for him
+     → Inside Einstein: compiled chunks fire fast = Body-Knowing for him
 
   ② Người lạ thử đoán cảm xúc stranger = FRESH:
-     Nội dung = emotion ("feeling"). Processing = fresh → deliberate → "phải suy luận"
+     Nội dung = emotion ("feeling"). Processing = fresh → deliberate
      → Observer nói "feeling" vì content = emotion
-     → Inside person: PFC DRAFT actively = FRESH processing
+     → Inside person: PFC DRAFT actively = Fresh processing
 
-  ③ Chef nếm → biết ngay thiếu muối = COMPILED:
+  ③ Chef nếm → biết ngay thiếu muối = BODY-KNOWING:
      Nội dung = complex (nhiều chất, texture, balance). Processing = compiled
      → Body-direct: tongue → insula → "thiếu muối" (near-instant)
-     → Observer nói "intuition". Mechanism = compiled pattern match.
+     → Observer nói "intuition". Mechanism = Body-Knowing.
 
   ④ Therapist gặp case hoàn toàn mới = FRESH:
      Nội dung = tâm lý ("feeling"). Processing = fresh → PFC draft actively
-     → Observer nói "feeling work". Mechanism = PFC FRESH draft.
+     → Observer nói "feeling work". Mechanism = Fresh processing.
 
   → TRỤC:
-    COMPILED ─────────────────────────────── FRESH
-    Einstein (toán quen)                    Người thường (toán khó)
-    Chef (nếm quen)                         Student (nếm lần đầu)
-    Thiền sư (body-state quen)              Beginner meditator
-    Mẹ hiểu con (compiled decades)          Babysitter ngày đầu
-    Trader kỳ cựu (chart patterns)          Trader mới (fresh giả compiled)
+    BODY-KNOWING ──────────────────────── FRESH
+    Einstein (toán quen)                 Người thường (toán khó)
+    Chef (nếm quen)                      Student (nếm lần đầu)
+    Thiền sư (body-state quen)           Beginner meditator
+    Mẹ hiểu con (compiled decades)       Babysitter ngày đầu
+    Trader kỳ cựu (chart patterns)       Trader mới (fresh giả Body-Knowing)
 
-  → OBSERVER mislabels:
-    "Einstein dùng logic" → thực ra: COMPILED (feels automatic for him)
-    "Therapist dùng cảm nhận" → thực ra: CÓ THỂ compiled OR fresh (tùy case)
-    "Người đó quá cảm tính" → thực ra: COMPILED patterns fire (not random)
-    "Trader dùng cảm tính" → thực ra: CÓ THỂ compiled expert (10,000 charts)
-                              OR 1B trap novice (50 charts, chưa domain-verify)
-    "Quyết định lý trí" → thực ra: PFC FRESH draft (costly, not "better")
+  → OBSERVER MISLABELS:
+    "Einstein dùng logic" → thực ra: Body-Knowing (automatic for him)
+    "Therapist dùng cảm nhận" → thực ra: CÓ THỂ Body-Knowing OR fresh (tùy case)
+    "Người đó quá cảm tính" → thực ra: Body-Knowing fire (compiled, not random)
+    "Trader dùng cảm tính" → thực ra: CÓ THỂ Body-Knowing expert (10,000 charts)
+                              OR Self-Referencing Trap novice (50 charts, chưa domain-verify)
+    "Quyết định lý trí" → thực ra: Fresh processing (costly, not "better")
 
 🟢 Expert intuition = compiled patterns (Klein 1998, Chase & Simon 1973).
 🟢 Dual process: System 1 = compiled-like, System 2 = fresh-like (Kahneman 2011).
 🟡 Content-independent framing = framework synthesis.
 ```
 
-### 1.3 — Transition: Learning + Unlearning
+### 1.4 — Shareable vs Non-shareable Body-Knowing
 
 ```
-⭐ FRESH → COMPILED (Learning):
-
-  Mechanism: Repeat + verify OK → Hebbian strengthen → automatic
-  = "Logic → feeling" (cho PERSON ĐÓ, ở DOMAIN ĐÓ)
-  Timeline: simple (hours-days) → complex (years-decades)
-
-  VÍ DỤ:
-    Einstein tuổi nhỏ: toán = FRESH (phải nghĩ từng bước)
-    Einstein adult: toán quen = COMPILED (body "thấy" lời giải)
-    Driver ngày 1: lái xe = FRESH (mỗi action = conscious effort)
-    Driver năm 10: lái xe = COMPILED (vô thức, body-direct)
-    Therapist năm 1: mỗi case = FRESH (PFC analyze heavily)
-    Therapist năm 20: most patterns = COMPILED ("thấy" pattern ngay)
-
-  CONDITION cho compile thành công:
-    → Repetition (Hebbian: neurons co-fire → strengthen)
-    → Domain verify (outcome confirm → compile ĐÚNG)
-    → WITHOUT verify: compile CÓ THỂ SAI (1B trap — §5 Case 6)
-
-
-⭐ COMPILED → FRESH (Unlearning / Re-learning):
-
-  Mechanism: Disrupted (new context, error, betrayal) → phải FRESH lại
-  = "Feeling → logic" (phải nghĩ lại cái đã automatic)
-  Cost: HIGH (compiled path RESIST being overridden — suppress cost)
-
-  VÍ DỤ:
-    Bạn thân betray → compiled "trust" DISRUPTED → FRESH re-evaluate
-    Career shift → old domain compiled → new domain = FRESH lại từ đầu
-    Paradigm shift → Newton compiled → Einstein FRESH: "spacetime cong?"
-    Trauma recovery → compiled "danger" → therapy FRESH re-evaluate
-
-  → = Unlearning EXPENSIVE (3-cost model: PFC draft + suppress old + uncertainty)
-  → = WHY "change is hard" — not lazy, STRUCTURALLY costly
-  → = WHY therapy takes time — re-compiling = building NEW paths competitive enough
-
-🟡 Learning/Unlearning as Compiled/Fresh transition = framework synthesis.
-   Consistent with expertise research, neuroplasticity literature.
-```
-
-### 1.3b — Domain Stability → Compilation Shelf-Life
-
-```
-⭐ COMPILED CÓ THỂ HẾT HẠN — KHÔNG CẦN "DISRUPTION EVENT":
-
-  §1.3 mô tả Compiled→Fresh khi BỊ disrupted (betrayal, paradigm shift).
-  Nhưng có case KHÁC: KHÔNG AI gây disruption, mà patterns vẫn hết hạn.
-
-  ⚠️ PRECISION (consistent với Domain.md §2 ⑥):
-    Domain tự thân LUÔN ĐÚNG — domain không thay đổi (Domain.md: "domain không nói dối").
-    Cái thay đổi = COLLECTIVE ARC mapping domain.
-    Millions of participants đang build map → map EVOLVES over time.
-    Individual compiled patterns = snapshot of collective arc TẠI THỜI ĐIỂM compile.
-    Collective arc shift → individual snapshot outdated → patterns expire.
-    = NOT "domain thay đổi." = "Collective MAP of domain evolves."
-
-  STABLE-ARC DOMAINS (toán, vật lý cơ bản, ngữ pháp):
-    → Collective arc ≈ converged (consensus ổn định qua centuries)
-    → Compile once → works indefinitely. Shelf-life ≈ ∞.
-    → 2+2=4 không bao giờ expire. Newton valid in everyday scope.
-    → Expert compiled = reliable vĩnh viễn (trong scope)
-
-  SHIFTING-ARC DOMAINS (thị trường, y khoa, chiến thuật, thời tiết, thể thao):
-    → Collective arc ĐANG EVOLVE: new participants, new info, new technology
-    → Domain (kinh tế, sinh học, vật lý) = stable.
-      Nhưng collective's MAP of domain shifts liên tục.
-    → Individual compiled patterns matched arc CŨ → arc shift → patterns expire
-    → Shelf-life = LIMITED = f(arc stability trong domain đó)
-    → Expert shifting-arc PHẢI: compile + domain-verify + RE-compile LIÊN TỤC
-
-  VÍ DỤ:
-    → Trader kỳ cựu: 10,000 charts compiled → "cảm tính" = non-shareable compiled.
-      Patterns matched collective arc lúc compile (market regime cũ).
-      Market regime shift (collective arc evolves) → old patterns hết hạn.
-      P&L = domain verify (clearest arbiter). PHẢI re-compile hoặc thua.
-    → Bác sĩ: treatment compiled → collective knowledge evolves (new research)
-      → old protocol outdated → re-compile hoặc patient outcome xấu
-    → Tướng quân: chiến thuật compiled → enemy adapts (THEIR arc shifts)
-      → old tactics fail → re-compile hoặc thua trận
-    → HLV thể thao: game plan compiled → đối thủ thay đổi → re-compile
-
-  1B TRAP CAO NHẤT Ở SHIFTING-ARC DOMAINS:
-    → Old compiled "mượt" (smooth) — body vote positive
-    → Nhưng collective arc ĐÃ SHIFT → patterns OUTDATED
-    → = "Cảm thấy đúng" + "bức tranh collective đã khác" = tổ hợp nguy hiểm nhất
-    → Trader cũ bám pattern cũ: "mượt" nhưng thua liên tục
-    → Bác sĩ bám protocol cũ: "quen" nhưng patient outcome xấu
-    → Domain verify = ONLY protection — P&L / patient outcome nói sự thật
-    → Domain luôn đúng. Compiled patterns chỉ đúng KHI khớp current arc.
-
-  → COMPILATION CÓ SHELF-LIFE = f(collective arc stability trong domain)
-  → Shifting-arc expert ≠ "compile xong nghỉ" — = "compile + verify + re-compile LOOP"
-  → = §4.1 Compiled Anchor ↔ Fresh Explore loop, nhưng FORCED bởi arc instability
-    (không phải chỉ khi self muốn explore — mà collective arc evolution BẮT BUỘC)
-
-🟡 Compilation shelf-life = framework synthesis.
-   Consistent with Kahneman + Klein 2009: intuition fails when environment changes.
-   Precision: "environment changes" = collective arc shifts, not domain itself.
-   Trader "cảm tính" = most relatable example (ai cũng biết, P&L = clear arbiter).
-   Deep analysis WHY stable vs shifting: Collective-Arc-Dynamics.md (dependency ratio).
-```
-
-### 1.4 — "Shareable" vs "Non-shareable" Compiled
-
-```
-⭐ INSIGHT: "Logic vs Intuition" = NAMING ARTIFACT, không phải mechanism difference
+⭐ "LOGIC vs INTUITION" = SHAREABILITY CỦA BODY-KNOWING
 
   TOÁN HỌC (deterministic domain):
-    Compiled chunks: 2+2=4 (SHARED — mọi người giống nhau)
+    Body-Knowing chunks: 2+2=4 (SHARED — mọi người giống nhau)
     Reproduce: chuyên gia A và B cho cùng kết quả (verifiable)
     Global label: "LOGIC" (vì shared + reproducible)
 
   TÂM LÝ HỌC (probabilistic domain):
-    Compiled chunks: patterns from 1,000+ cases (RIÊNG mỗi chuyên gia)
+    Body-Knowing chunks: patterns from 1,000+ cases (RIÊNG mỗi chuyên gia)
     Reproduce: chuyên gia A và B CÓ THỂ khác kết luận (different cases)
     Global label: "INTUITION / CẢM NHẬN" (vì not perfectly reproducible)
 
   BÊN TRONG: CƠ CHẾ GIỐNG HỆT
-    Toán gia: years compile → chunks fire fast → "thấy" lời giải
-    Therapist: years compile → chunks fire fast → "thấy" pattern
-    Thiền sư: years compile → chunks fire fast → "thấy" body-state
-    CẢ BA = compiled automatic processing.
-    CẢ BA = NHẤT QUÁN qua thời gian (cùng input → cùng response)
+    Toán gia: years compile → chunks fire fast → Body-Knowing: "thấy" lời giải
+    Therapist: years compile → chunks fire fast → Body-Knowing: "thấy" pattern
+    Thiền sư: years compile → chunks fire fast → Body-Knowing: "thấy" body-state
+    CẢ BA = Body-Knowing. CẢ BA = NHẤT QUÁN qua thời gian.
     CẢ BA = tuân thủ "logic" RIÊNG (compiled pattern network)
 
   KHÁC BIỆT:
-    Toán: subject = DETERMINISTIC → compiled chunks CONVERGE across people
-    Tâm lý: subject = PROBABILISTIC + INDIVIDUAL → compiled chunks DIVERGE
-    Body-state: subject = PRIVATE → compiled chunks CANNOT be shared at all
+    Toán: subject = DETERMINISTIC → Body-Knowing CONVERGE across people
+    Tâm lý: subject = PROBABILISTIC + INDIVIDUAL → Body-Knowing DIVERGE
+    Body-state: subject = PRIVATE → Body-Knowing CANNOT be shared at all
     → KHÔNG phải chuyên gia tâm lý "bừa"
     → KHÔNG phải thiền sư "tùy ý cảm tính"
-    → Domain không deterministic → compiled patterns RIÊNG = LEGITIMATE
+    → Domain không deterministic → Body-Knowing riêng = LEGITIMATE
     → Domain reality = patient outcomes / body-state clarity = final arbiter
 
   FRAMEWORK REFRAME:
-    "Logic"     = compiled chunks SHAREABLE (deterministic domain)
-    "Intuition" = compiled chunks NOT EASILY SHAREABLE (probabilistic domain)
-    "Fresh"     = PFC đang draft (chưa compile — CAN articulate steps)
+    "Logic"     = Body-Knowing SHAREABLE (deterministic domain)
+    "Intuition" = Body-Knowing NOT EASILY SHAREABLE (probabilistic domain)
+    "Fresh"     = PFC đang draft (chưa Body-Knowing — CAN articulate steps)
     KHÁC: shareability. KHÔNG KHÁC: quality of processing.
 
-  THÊM CHIỀU: ARC STABILITY (§1.3b)
-    "Logic" (stable-arc)    = compiled + shareable + shelf-life ≈ ∞ (toán)
-    "Intuition" (stable-arc) = compiled + non-shareable + shelf-life dài (therapist)
-    "Cảm tính" (shifting-arc) = compiled + non-shareable + shelf-life LIMITED (trader)
-    → Therapist: human psychology arc ≈ stable → compiled reliable lâu dài
-    → Trader: market arc shifts → compiled reliable CHỈ trong regime hiện tại
-    → Cùng "non-shareable compiled" nhưng KHÁC shelf-life
+  THÊM CHIỀU: ARC STABILITY (§3.2)
+    Shareable + stable-arc Body-Knowing     = "logic" (toán, shelf-life ≈ ∞)
+    Non-shareable + stable-arc Body-Knowing = "intuition" (therapist kỳ cựu)
+    Non-shareable + shifting-arc Body-Knowing = "cảm tính" (trader, shelf-life LIMITED)
+    → Therapist: human psychology arc ≈ stable → Body-Knowing reliable lâu dài
+    → Trader: market arc shifts → Body-Knowing reliable CHỈ trong regime hiện tại
+    → Cùng non-shareable Body-Knowing nhưng KHÁC shelf-life
     → "Cảm tính" shifting-arc = xứng đáng respect + CẦN continuous domain verify
 
-  TẠI SAO "LOGIC" ĐƯỢC TIN HƠN:
+  TẠI SAO SHAREABLE BODY-KNOWING ĐƯỢC TIN HƠN:
     → Shareable = verifiable by others → social trust CAO
     → Non-shareable = "chỉ tôi biết" → social trust THẤP
-    → Nhưng INSIDE BODY: cả 2 equally compiled, equally "biết"
+    → Nhưng INSIDE BODY: cả 2 equally Body-Knowing, equally "biết"
     → Expert "intuition" = expert "logic" — chỉ khác: domain shareability
 
 🟢 Expert intuition = compiled patterns (Kahneman 2011, Klein 1998).
 🟡 "Shareable vs non-shareable" as organizing principle = framework synthesis.
 ```
 
-### 1.5 — Development Trajectory (Direct-State → Evaluative compiles)
-
-```
-⭐ LIFECYCLE: Compiled/Fresh × Evaluative/Direct-State (Reward-Signal-Architecture v2.0 §8.1):
-
-  STAGE 1 — Infant (0-18 months): Direct-State dominant, few chunks
-    → Nearly pure "feeling" (hardware body-feedback)
-    → Evaluative barely active (nothing compiled yet to evaluate WITH)
-    → FRESH processing minimal (PFC immature)
-    → = "Pure body-direct experience"
-
-  STAGE 2 — Child (2-7 years): Compilation begins
-    → Chunks accumulate rapidly (language, patterns, routines)
-    → Evaluative grows: "thích/không thích" based on compiled evaluations
-    → Some patterns become COMPILED → start "feeling automatic"
-    → "Logic" label begins: "2+3=5" = compiled + shareable = "logic"
-
-  STAGE 3 — Adolescent/Young adult: Heavy FRESH period
-    → Many domains = FRESH (career, identity, relationships)
-    → Observer says: "dùng logic nhiều" (vì PFC visibly active)
-    → Actually: FRESH processing dominant (not yet compiled)
-    → High cost period → why young adults exhausted by decisions
-
-  STAGE 4 — Expert (10,000+ hours in domain): COMPILED returns
-    → Domain chunks dense → fire fast → "cảm thấy biết"
-    → Observer says: "expert intuition" or "expert logic" (depends on domain)
-    → INSIDE: SAME mechanism — compiled patterns match input → body-direct
-    → Einstein toán: "thấy" lời giải = compiled body-feedback = "FEELING"
-    → = CIRCLE: feeling (infant) → fresh/logic → compiled/feeling (expert)
-      But DIFFERENT feeling: infant = hardware. Expert = VERIFIED compiled.
-
-  IMPLICATION:
-    → "Dùng logic" = observer label cho "đang ở FRESH phase"
-    → "Dùng feeling" = observer label cho "đã COMPILED (or still hardware)"
-    → Neither is "better" — APPROPRIATE depends on compilation state
-    → Expert who "feels" answers = NOT lazy, = MAXIMALLY COMPILED
-
-  Cross-ref: Reward-Signal-Architecture v2.0 §8.1 (A/B ratio across development)
-```
-
-### 1.6 — Implication: "100% Feeling at Base Level"
-
-```
-🟡 LOGICAL CONSEQUENCE (Inter-Body §3.5):
-
-  Premise 1: Mọi output cuối cùng = satisfy body-need
-  Premise 2: PFC serve body-base (not independent agent)
-  Premise 3: Compiled processing = body-direct = "feeling"
-  Premise 4: "Logic" = chỉ là FRESH phase TRƯỚC KHI compile xong
-
-  Conclusion: Từ góc body-base, con người 100% feeling-driven.
-  "Logic" = observer's label cho "PFC đang draft vì CHƯA compile."
-  Sau compile: "logic" đó TRỞ THÀNH "feeling" cho person đó.
-
-  VÍ DỤ:
-    → Toán = "logic" cho người thường. Toán = "feeling" cho Einstein.
-    → Lái xe = "logic" ngày đầu. Lái xe = "feeling" năm thứ 10.
-    → Therapy = "logic" cho intern. Therapy = "feeling" cho senior.
-    → SAME content, different compilation level, different label.
-
-  ⚠️ KHÔNG CÓ NGHĨA "ignore logic" hay "chỉ trust feeling":
-    → "Feeling" compiled SAI vẫn SAI (1B trap)
-    → FRESH processing (= "logic") CẦN THIẾT khi compiled chưa có/đã sai
-    → Domain Reality = final arbiter ALWAYS (cả compiled lẫn fresh phải verify)
-
-🟡 "100% feeling at base level" = logical consequence of architecture.
-   Not a prescriptive claim. Descriptive of mechanism.
-```
-
 ---
 
-## §2 — LOGIC/FEELING = OBSERVER LABELS
+## §2 — LOGIC/FEELING = OBSERVER LABELS FOR BODY-KNOWING
 
-> **§1 establishes mechanism (Compiled/Fresh).**
+> **§1 establishes Body-Knowing and Compiled/Fresh spectrum.**
 > **§2 explains WHY observer SEES "2 modes" and why labels remain useful.**
 
 ### 2.1 — Why Labels Emerge
@@ -448,28 +313,30 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
 
   Observer nhìn từ NGOÀI vào processing:
 
-  CASE A — "Logic":
+  CASE A — Observer labels "Logic":
     Person articulates steps: "Vì A, nên B, do đó C."
     → OBSERVABLE: verbal chain, sequential, reproducible
     → Observer CAN follow → CAN verify → trust HIGH
     → Label: "LOGIC"
-    → Inside: PFC FRESH draft (if novel) OR compiled-shareable (if routine)
+    → Inside: Body-Knowing (if compiled + shareable) OR Fresh (if novel PFC draft)
 
-  CASE B — "Feeling/Intuition":
+  CASE B — Observer labels "Feeling/Intuition":
     Person says: "Tôi cảm thấy... không giải thích được."
     → OBSERVABLE: no verbal chain, immediate, not reproducible by observer
     → Observer CANNOT follow → CANNOT verify → trust LOW
     → Label: "FEELING" or "INTUITION"
-    → Inside: COMPILED body-direct (in expert domain) OR hardware (in novice)
+    → Inside: Body-Knowing (compiled body-direct — in expert domain)
 
-  CASE C — "Cảm tính / Tùy ý":
+  CASE C — Observer labels "Cảm tính / Tùy ý":
     Person says: "Tôi muốn vậy" without domain expertise
     → OBSERVABLE: no chain + no track record + no domain verify
     → Observer: "person bừa"
-    → Inside: MAY be 1B compiled (wrong but feels smooth) OR truly random fresh
+    → Inside: MAY be Self-Referencing Body-Knowing (wrong but feels smooth) OR truly random fresh
 
-  → LABELS = f(observer's ability to UNDERSTAND + VERIFY what's happening)
-  → SHAREABLE → "logic". NON-SHAREABLE → "feeling". UNVERIFIED → "cảm tính"
+  → LABELS = f(observer's ability to UNDERSTAND + VERIFY)
+  → SHAREABLE Body-Knowing → "logic"
+  → NON-SHAREABLE Body-Knowing → "feeling/intuition"
+  → UNVERIFIED → "cảm tính"
   → INSIDE: mechanism may be IDENTICAL across all 3 labels
 
 🟡 Labels as observer-perspective artifact = framework synthesis.
@@ -484,24 +351,24 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
   "LOGIC" label useful when:
     → Need COMMUNICATE reasoning (others can follow your steps)
     → Need VERIFY (reproduce + check = trust building)
-    → Need TEACH (transfer compiled patterns to others)
+    → Need TEACH (transfer Body-Knowing to others via articulated steps)
     → Need ACCUMULATE (build rule on rule → collective knowledge)
     → Need DEBATE (explicit claims → explicit counter-claims)
     = When SHAREABILITY matters for the task
 
-  "FEELING" label useful when:
-    → Need TRUST BODY (compiled patterns too complex to articulate)
+  "FEELING/INTUITION" label useful when:
+    → Need TRUST BODY-KNOWING (compiled patterns too complex to articulate)
     → Need SPEED (wait for fresh = too slow for situation)
-    → Need CROSS-DOMAIN (body detect patterns logic can't encode yet)
-    → Need DETECT ERROR (body "sai sai" = compiled truth PFC missed)
+    → Need CROSS-DOMAIN (Body-Knowing detect patterns fresh can't encode yet)
+    → Need DETECT ERROR (body "sai sai" = Body-Knowing truth PFC missed)
     → Need QUALITY CHECK (body vote on PFC output — Dual Check)
     = When BODY-DIRECT ACCESS matters for the task
 
   "FRESH/LOGIC" specifically needed when:
-    → Domain is NEW (no compiled patterns yet)
-    → Compiled patterns are WRONG (need override — unlearning)
+    → Domain is NEW (no Body-Knowing yet — no compiled chunks)
+    → Body-Knowing is WRONG (need override — unlearning)
     → Stakes are HIGH (need deliberate verify, not automatic)
-    → Need to FORMALIZE (body knows → words → shareable → teachable)
+    → Need to FORMALIZE (Body-Knowing → words → shareable → teachable)
 
   → Labels = PRAGMATIC TOOLS for communication about processing
   → Not ontological claims about "2 types of thinking"
@@ -511,7 +378,7 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
 ### 2.3 — PFC = Lawyer Applies to BOTH Labels
 
 ```
-⭐ NEITHER "LOGIC" NOR "FEELING" = NEUTRAL TRUTH (Inter-Body §7):
+⭐ NEITHER "LOGIC" NOR BODY-KNOWING = NEUTRAL TRUTH (Inter-Body §7):
 
   PFC = LAWYER cho body-base (not neutral judge):
     → Body-need fires TRƯỚC
@@ -528,14 +395,14 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
     → PFC chain VALID nhưng NOT SOUND (premise = body-need hidden)
     → = "Logic correct" ≠ "Logic honest"
 
-  "FEELING" output can ALSO be distorted:
-    → Compiled patterns CÓ THỂ SAI (trauma, 1B, wrong context)
-    → Body vote CÓ THỂ based on PAST not CURRENT reality
-    → "Cảm thấy đúng" ≠ "Thực sự đúng" (smooth ≠ accurate)
+  BODY-KNOWING output can ALSO be distorted:
+    → Compiled patterns CÓ THỂ SAI (trauma, Self-Referencing, wrong context)
+    → Body-Knowing CÓ THỂ based on PAST not CURRENT reality
+    → "Body-Knowing feels right" ≠ "Actually right" (smooth ≠ accurate)
 
   → NEITHER track = pure truth source
-  → DOMAIN REALITY = final arbiter for BOTH (drill principle ⑧)
-  → Dual Check (Ask-AI v3.1 §6.1):
+  → DOMAIN REALITY = final arbiter for BOTH
+  → Dual Check (Ask-AI v3.1 §6.1, Body-Knowing.md §7.6):
     Step 1: Body-feedback = quality controller ("có gì sai không?")
     Step 2: Domain reality = final arbiter (outcome confirm/reject)
   → = Both labels point to PARTIAL access. Domain = complete.
@@ -544,42 +411,42 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
 🟡 "PFC = Lawyer for BOTH tracks" = framework synthesis
 ```
 
-### 2.4 — Updated Relationship to Kahneman System 1/2
+### 2.4 — Kahneman Reframe qua Body-Knowing Lens
 
 ```
-🟡 KAHNEMAN REFRAME QUA COMPILED/FRESH LENS:
+🟡 KAHNEMAN REFRAME:
 
   KAHNEMAN (2011):
     System 1: fast, automatic, intuitive, error-prone
     System 2: slow, deliberate, rational, effortful
 
-  FRAMEWORK v2.0:
-    System 1 ≈ COMPILED processing (automatic because compiled, not because "fast")
+  FRAMEWORK v4.0:
+    System 1 ≈ BODY-KNOWING (automatic because compiled, not because "fast")
     System 2 ≈ FRESH processing (slow because novel, not because "deliberate is slow")
 
   FRAMEWORK ADDS:
     ① Speed = CONSEQUENCE of compilation, not defining feature
-       → Compiled CÓ THỂ slow (complex compiled chain)
+       → Body-Knowing CÓ THỂ slow (complex compiled chain)
        → Fresh CÓ THỂ fast (simple novel choice)
        → Speed misleads — compilation level is the real variable
 
-    ② "System 1 biases" = COMPILED WRONG — not "feeling bad"
+    ② "System 1 biases" = BODY-KNOWING COMPILED FOR WRONG DOMAIN
        → Cognitive biases = compiled heuristics from ANCESTRAL environment
-       → WORKED in ancestral context (1A — domain verified by survival)
+       → WORKED in ancestral context (domain verified by survival)
        → FAIL in modern context (domain CHANGED, compiled patterns OUTDATED)
-       → = NOT "System 1 unreliable" — "System 1 compiled for DIFFERENT domain"
+       → = NOT "System 1 unreliable" — "Body-Knowing compiled for DIFFERENT domain"
        → Fix: re-compile for CURRENT domain (not "suppress System 1")
 
     ③ Kahneman + Klein (2009) synthesis SUPPORTS framework:
        → Intuition reliable WHEN: environment has patterns + learner has feedback
-       → = Compiled chunks verified by domain → reliable (1A)
-       → = Compiled chunks NOT verified → unreliable (1B)
-       → = DOMAIN FEEDBACK as condition for reliability = our "Domain = Arbiter"
+       → = Body-Knowing verified by domain → reliable
+       → = Body-Knowing NOT verified → unreliable (Self-Referencing Trap)
+       → = DOMAIN FEEDBACK as condition = our "Domain = Arbiter"
 
     ④ Framework rejects "System 2 corrects System 1" hierarchy:
        → BOTH can be wrong. BOTH can be right.
        → Fresh (System 2) = Lawyer drafting narrative (may confabulate)
-       → Compiled (System 1) = body truth (may be outdated)
+       → Body-Knowing (System 1) = body truth (may be outdated)
        → DOMAIN = arbiter for both. Neither system "above" the other.
 
 🟢 Kahneman 2011, Evans & Stanovich 2013
@@ -589,196 +456,106 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
 
 ---
 
-## §3 — TẠI SAO CẢ 2 "LABELS" VẪN CẦN THIẾT
+## §3 — FLOW: Body-Knowing ↔ Fresh ↔ Domain Verify
 
-> **Dù mechanism = 1 (compiled/fresh spectrum), labels "logic" và "feeling"**
-> **vẫn hữu ích vì chúng flag different ACCESS MODES into processing.**
+> **How Body-Knowing and Fresh interact dynamically:**
+> **the basic loop, shelf-life, domain verify, and transitions.**
 
-### 3.1 — Fresh Processing Alone: Limits
-
-```
-⭐ CHỈ ATTEND TO FRESH/ARTICULATED OUTPUT — mạnh nhưng ĐÓNG KHUNG:
-
-  ✅ Chặt chẽ: mỗi bước verify được
-  ✅ Communicate: viết ra → ai cũng check được
-  ✅ Accumulate: build rule trên rule → tháp kiến thức
-  ✅ Reproducible: lặp lại → cùng kết quả
-  ✅ Teachable: transfer compiled patterns to others
-
-  ❌ CHỈ THẤY TRONG PHẠM VI ĐÃ COMPILE/ARTICULATE:
-    → Rules nối A→B, B→C → thấy A→C
-    → Nhưng nếu A→D (body senses nhưng chưa articulate) → KHÔNG THẤY
-    → = "Biết mọi thứ trong hộp — không thấy ngoài hộp"
-
-  ❌ ĐÚNG CORRELATION, SAI MECHANISM (Case 1):
-    → "Cortisol cao = stressed" → correlation ĐÚNG 100%
-    → NHƯNG: cortisol = SUSTAINER, không phải CAUSE
-    → Articulated knowledge dừng ở correlation — miss deeper pattern
-
-  ❌ ĐÚNG DESTINATION, SAI JOURNEY (Case 5):
-    → "Học → kiến thức → việc tốt" → chain ĐÚNG
-    → NHƯNG: body COST tích lũy qua journey → body hao mòn
-    → Fresh/articulated track không encode body cost
-
-  ❌ KHÔNG CROSS-DOMAIN:
-    → Dầu = hệ rules A. Máy = hệ rules B.
-    → Articulated: A ≠ B. Xong. Không connect.
-    → Body-level pattern match CẦN for cross-domain discovery
-
-  ❌ DAMASIO PARALYSIS:
-    → VMPFC patients retain fresh processing (logic intact)
-    → Lose compiled body-feedback → decision-making paralysis
-    → Có thể reason nhưng KHÔNG thể CHỌN
-    → 🟢 Damasio 1994: somatic markers necessary for decisions
-```
-
-### 3.2 — Compiled Body-Feedback Alone: Limits
-
-```
-⭐ CHỈ TRUST COMPILED BODY OUTPUT — linh hoạt nhưng KHÔNG CHẮC CHẮN:
-
-  ✅ Cross-domain: body detect shared signature (Case 4: "no ngon")
-  ✅ Thấy mâu thuẫn: "logic đúng nhưng cứ SAI SAI" (ACC signal)
-  ✅ Feel trước khi articulate: body biết trước PFC có từ
-  ✅ Speed: compiled = near-instant response
-  ✅ Integrate multi-source: 9+ channels → single unified sense
-  ✅ Guide decisions: somatic marker (Damasio) — body votes
-
-  ❌ KHÔNG CHẮC CHẮN:
-    → "Cảm thấy sai" → nhưng sai CHỖ NÀO?
-    → Compiled patterns CÓ THỂ SAI: 1B trap, trauma, wrong context
-    → = "Thấy nhiều — không chắc thứ nào thật"
-
-  ❌ KHÔNG COMMUNICATE:
-    → "Tôi cảm thấy..." → ai tin? Không verify được.
-    → Non-shareable compiled → social trust THẤP
-    → Layer 3 felt sense → cần FRESH processing to formalize + share
-
-  ❌ KHÔNG ACCUMULATE TỐT:
-    → Feeling A + Feeling B → không tự ghép thành sharable Feeling C
-    → Cần FRESH EXTRACT pattern → formalize → stack
-    → Collective knowledge CẦN shareability
-
-  ❌ 1B TRAP (most dangerous):
-    → Compiled in WRONG context → "mượt giả" (smooth but wrong)
-    → No domain verify → incorrect patterns PERSIST
-    → "Cảm thấy đúng" về conspiracy theory
-    → Overprotected child: compiled for HOME → fail in SOCIAL (§5 Case 6)
-
-  ❌ ALEXITHYMIA RISK:
-    → 10% population: body fires but PFC cannot ACCESS
-    → Compiled signals present but observation IMPAIRED
-    → = Compiled alone INSUFFICIENT when access is broken
-```
-
-### 3.3 — Both Needed: Reframe via Compiled/Fresh
-
-```
-⭐ CẢ HAI = 2 PHASES CỦA CÙNG 1 PROCESS:
-
-  COMPILED = body truth accumulated (may be wrong without verify)
-  FRESH = PFC draft new paths (may be lawyering without body check)
-  DOMAIN = final arbiter for BOTH
-
-  → CẦN CẢ 2:
-    Compiled DISCOVER (body detect patterns fresh processing can't encode yet)
-    Fresh FORMALIZE + VERIFY (articulate → test → accumulate)
-    Domain ARBITRATE (outcome confirms or rejects — for both)
-
-  → = Không phải "2 loại tư duy cạnh tranh"
-  → = 2 phases CỦA CÙNG 1 PROCESS: discover + formalize + verify
-
-  METAPHOR (preserved from v1.0):
-    Compiled body-feedback = LA BÀN (chỉ HƯỚNG, kể cả nơi chưa map)
-    Fresh/articulated = BẢN ĐỒ (chi tiết, chính xác, chỉ nơi ĐÃ BIẾT)
-
-    Chỉ bản đồ: ở mãi nơi đã biết
-    Chỉ la bàn: biết hướng nhưng có thể lạc (1B — la bàn calibrate sai)
-    Cả hai + domain verify: khám phá domain MỚI có hướng + verify từng bước
-
-  ⭐ DUAL CHECK (Ask-AI v3.1 §6.1):
-    Step 1: Body-feedback = quality controller ("cảm thấy không ổn?" → pause)
-    Step 2: Domain reality = final arbiter (outcome confirms/rejects)
-    → Neither compiled nor fresh is ultimate authority. Domain is.
-
-  ⭐ 3-COST MODEL (Inter-Body §4) — WHY CAN'T "FRESH" ALL THE TIME:
-    ① PFC Draft Cost: fresh processing = glucose + neurotransmitter consumption
-    ② Suppress Cost: override compiled = body RESIST = dissonance
-    ③ Uncertainty Cost: hold options open = cortisol
-    → Total cost = finite resource → MUST compile eventually
-    → = WHY "fresh/logic" cannot be permanent mode
-    → = WHY compiled/feeling NECESSARY (not lazy — SUSTAINABLE)
-    → = Expert: compiled → low cost → can work ALL DAY
-    → = Beginner: fresh → high cost → burns out in HOURS
-
-🟢 Damasio 1994 (decisions need both)
-🟢 Gailliot & Baumeister 2007 (cognitive effort = metabolic cost)
-🟡 3-cost as fresh processing limit = framework synthesis
-```
-
----
-
-## §4 — FLOW: Compiled Anchor ↔ Fresh Explore
-
-> **Core loop preserved from v1.0, renamed and enriched with domain verify + 3-cost.**
-
-### 4.1 — Basic Loop (renamed)
+### 3.1 — Basic Loop: Body-Knowing Anchor ↔ Fresh Explore
 
 ```
 ⭐ LOOP CƠ BẢN:
 
   ┌──────────────────────────────────────────────────────────────┐
   │                                                              │
-  │  COMPILED ANCHOR        ←→        FRESH EXPLORE              │
-  │  (compiled patterns)              (PFC draft novel paths)    │
+  │  BODY-KNOWING ANCHOR       ←→       FRESH EXPLORE            │
+  │  (compiled patterns)               (PFC draft novel paths)   │
   │                                                              │
-  │  "Tôi BIẾT: A→B→C"    ←→    "Nhưng body FEEL có D ở đây..."│
+  │  "Tôi BIẾT: A→B→C"       ←→   "Nhưng body detect D..."     │
   │                                                              │
   │  FLOW:                                                       │
   │                                                              │
-  │  ① Compiled anchor: chunks ĐÃ VERIFIED giữ stable           │
-  │     → Body-direct, cost ≈ 0, communicate được               │
+  │  ① Body-Knowing anchor: chunks ĐÃ VERIFIED giữ stable       │
+  │     → Body-direct, cost ≈ 0, communicate được (if shareable) │
   │                                                              │
-  │  ② Fresh explore: "Có gì NGOÀI compiled hiện tại?"          │
-  │     → Body signal "sai sai" + PFC draft novel connection    │
-  │     → Layer 3 felt sense: "pattern MỚI... chưa chắc..."    │
-  │     → Cost > 0 (PFC draft + uncertainty + maybe suppress)   │
+  │  ② Fresh explore: "Có gì NGOÀI Body-Knowing hiện tại?"      │
+  │     → Body signal "sai sai" + PFC draft novel connection     │
+  │     → Felt sense: "pattern MỚI... chưa chắc..."             │
+  │     → Cost > 0 (PFC draft + uncertainty + maybe suppress)    │
   │                                                              │
-  │  ③ Domain verify: check pattern mới VỚI DOMAIN REALITY     │
-  │     → Đúng → ACCEPT → compile → anchor EXPAND               │
+  │  ③ Domain verify: check pattern mới VỚI DOMAIN REALITY      │
+  │     → Đúng → ACCEPT → compile → Body-Knowing EXPAND         │
   │     → Sai → REJECT → quay về anchor cũ                      │
-  │     → ⚠️ NOT "logic verify" — DOMAIN OUTCOME verify         │
+  │     → ⚠️ NOT "logic verify" — DOMAIN OUTCOME verify (§3.3)  │
   │                                                              │
-  │  ④ Anchor mới: compiled patterns + pattern mới              │
-  │     → Scope RỘNG HƠN trước, cost GIẢM (newly compiled)     │
-  │     → Fresh explore tiếp từ anchor mới...                   │
+  │  ④ Anchor mới: Body-Knowing + pattern mới compiled           │
+  │     → Scope RỘNG HƠN trước, cost GIẢM (newly compiled)      │
+  │     → Fresh explore tiếp từ anchor mới...                    │
   │                                                              │
-  │  → LOOP VÔ TẬN: anchor → explore → DOMAIN verify → anchor  │
-  │  → = Incremental expansion of compiled domain               │
+  │  → LOOP VÔ TẬN: anchor → explore → DOMAIN verify → anchor   │
+  │  → = Incremental expansion of Body-Knowing domain            │
   └──────────────────────────────────────────────────────────────┘
-
 
   TẠI SAO INCREMENTAL (not jump):
     → Fresh exploration CẦN COMPILED CHUNKS as raw material
     → Body chỉ combine cái ĐÃ CÓ → quá xa = noise
     → = Người cổ đại không imagine thang máy (thiếu chunks)
     → = Einstein CÓ THỂ vì CÓ chunks: cưỡi + ánh sáng + tốc độ
-    → = Compiled tạo NỀN → Fresh EXPLORE trên nền → Domain verify
-
-  KHỚP VỚI FRAMEWORK:
-    → Core §7.⑦ Incremental Calibration: BASE → SHIFT → BODY CHECK → UPDATE
-    → PFC-Analysis §1: DRAFT (fresh) + TEST (domain) + ROUTE (compile)
-    → Feeling.md v3.0 §5 Feeling Loop: same loop, feeling zoom
-    → Collective-Purpose: cosmic loop = mỗi cá nhân's compiled/fresh loop ở macro
+    → = Body-Knowing tạo NỀN → Fresh EXPLORE trên nền → Domain verify
 ```
 
-### 4.2 — Domain Verify: Not "Logic Verify"
+### 3.2 — Body-Knowing Shelf-Life + Arc Stability
 
 ```
-⭐ v2.0 CRITICAL UPDATE: Step ③ = DOMAIN, not "Logic"
+⭐ BODY-KNOWING CÓ SHELF-LIFE — KHÔNG CẦN "DISRUPTION EVENT":
 
-  v1.0 said: "Logic verify pattern mới"
-  v2.0 corrects: "DOMAIN REALITY verify pattern mới"
+  ⚠️ PRECISION (consistent với Domain.md §2 ⑥):
+    Domain tự thân LUÔN ĐÚNG — domain không thay đổi.
+    Cái thay đổi = COLLECTIVE ARC mapping domain.
+    Individual Body-Knowing = snapshot of collective arc TẠI THỜI ĐIỂM compile.
+    Collective arc shift → individual snapshot outdated → Body-Knowing expire.
+    = NOT "domain thay đổi." = "Collective MAP of domain evolves."
+
+  STABLE-ARC DOMAINS (toán, vật lý cơ bản, ngữ pháp):
+    → Collective arc ≈ converged (consensus ổn định qua centuries)
+    → Compile once → Body-Knowing indefinitely. Shelf-life ≈ ∞.
+    → 2+2=4 không bao giờ expire. Newton valid in everyday scope.
+
+  SHIFTING-ARC DOMAINS (thị trường, y khoa, chiến thuật, thể thao):
+    → Collective arc ĐANG EVOLVE: new participants, new info, new technology
+    → Individual Body-Knowing matched arc CŨ → arc shift → Body-Knowing expire
+    → Shelf-life = LIMITED = f(arc stability trong domain đó)
+    → Expert shifting-arc PHẢI: compile + domain-verify + RE-compile LIÊN TỤC
+
+  VÍ DỤ:
+    → Trader kỳ cựu: 10,000 charts compiled → Body-Knowing = non-shareable.
+      Patterns matched collective arc lúc compile (market regime cũ).
+      Market regime shift → old Body-Knowing hết hạn.
+      P&L = domain verify (clearest arbiter). PHẢI re-compile hoặc thua.
+    → Bác sĩ: treatment Body-Knowing → collective knowledge evolves (new research)
+      → old protocol outdated → re-compile hoặc patient outcome xấu
+    → Tướng quân: chiến thuật Body-Knowing → enemy adapts (THEIR arc shifts)
+      → old tactics fail → re-compile hoặc thua trận
+
+  SELF-REFERENCING TRAP CAO NHẤT Ở SHIFTING-ARC DOMAINS:
+    → Old Body-Knowing "mượt" (smooth) — body vote positive
+    → Nhưng collective arc ĐÃ SHIFT → patterns OUTDATED
+    → = "Cảm thấy đúng" + "bức tranh collective đã khác" = tổ hợp nguy hiểm nhất
+    → Domain verify = ONLY protection
+
+  → BODY-KNOWING CÓ SHELF-LIFE = f(collective arc stability trong domain)
+  → Shifting-arc expert ≠ "compile xong nghỉ" — = "compile + verify + re-compile LOOP"
+  → Chi tiết: Body-Knowing.md §7.2 (Shelf-Life dimension)
+
+🟡 Body-Knowing shelf-life = framework synthesis.
+   Consistent with Kahneman + Klein 2009: intuition fails when environment changes.
+   Precision: "environment changes" = collective arc shifts, not domain itself.
+```
+
+### 3.3 — Domain Verify: Not "Logic Verify"
+
+```
+⭐ CRITICAL: Step ③ trong Loop = DOMAIN, not "Logic"
 
   TẠI SAO QUAN TRỌNG:
     → "Logic verify" = PFC check (fresh processing check fresh output)
@@ -793,7 +570,7 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
     → Investor: analysis (fresh) → market result (domain) → profit/loss
     → Student: solution (fresh) → answer check (domain) → right/wrong
 
-  TIMELINE FOR DOMAIN VERIFY (Inter-Body §6.4):
+  TIMELINE FOR DOMAIN VERIFY:
     → Some: immediate (math check, experiment)
     → Some: days-weeks (product launch, therapy session)
     → Some: years-decades (childhood schemas, career choices)
@@ -809,70 +586,231 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
    Consistent with scientific method, clinical evidence-based practice.
 ```
 
-### 4.3 — 3-Cost in Flow
+### 3.4 — Transitions + 3-Cost (Brief → Body-Knowing.md §4 + §8)
 
 ```
-⭐ FRESH EXPLORE = EXPENSIVE (Inter-Body §4):
+⭐ TRANSITIONS (Body-Knowing.md §4 + §8.2):
 
-  Each "Fresh Explore" cycle costs:
+  LEARNING: Fresh → Body-Knowing
+    Repeat + verify OK → Hebbian strengthen → automatic → Body-Knowing.
+    = "Logic → feeling" (cho PERSON ĐÓ, ở DOMAIN ĐÓ)
+    Timeline: simple (hours) → complex (years-decades)
+    VD: Einstein tuổi nhỏ: toán = FRESH → adult: toán = Body-Knowing
+    → Chi tiết: Body-Knowing.md §4 (formation 5 stages)
 
-  ① PFC DRAFT COST (metabolic):
-     → Novel path = glucose + neurotransmitters consumed
-     → f(chain_length × novelty_degree)
-     → Einstein (compiled blocks available): moderate cost per cycle
-     → Beginner (all novel): extreme cost per cycle
+  UNLEARNING: Body-Knowing → Fresh
+    Disrupted (new context, error, betrayal) → phải FRESH lại.
+    = "Feeling → logic" (phải nghĩ lại cái đã automatic)
+    Cost: HIGH — compiled path RESIST being overridden (suppress cost).
+    VD: Bạn thân betray → Body-Knowing "trust" disrupted → fresh re-evaluate
+    → Chi tiết: Body-Knowing.md §8.2
 
-  ② SUPPRESS COST (if compiled path must be overridden):
-     → Old compiled says "do X" → fresh says "try Y instead"
-     → Body RESISTS override → efference mismatch → dissonance
-     → f(intensity_of_suppressed × duration)
-     → = WHY "thinking differently" physically uncomfortable
+  → Unlearning EXPENSIVE — = WHY "change is hard" (structurally costly, not lazy)
+  → = WHY therapy takes time (re-compiling = building NEW competitive paths)
 
-  ③ UNCERTAINTY COST (cortisol holding):
-     → Multiple options, none clearly compiled → must hold open
-     → Cortisol = holding signal while evaluating
-     → f(options × time_held × stakes)
-     → = WHY indecision = physically stressful
 
-  SUSTAINABILITY = f(reward from discovery ÷ total cost per cycle):
-    → Expert: many compiled blocks → low fresh cost → sustainable exploration
-    → Beginner: all fresh → high cost → burns out fast without reward
-    → = WHY beginners need FREQUENT reward (micro-reward from micro-progress)
-    → = WHY experts can sustain long arcs (low cost, high compiled base)
+⭐ 3-COST: TẠI SAO KHÔNG THỂ FRESH MÃI (Inter-Body §4):
 
-  IMPLICATION FOR "BALANCE":
-    → "Use more logic" = "do more fresh processing" = EXPENSIVE
-    → Cannot be permanent mode — MUST compile eventually or burn out
-    → "Trust feeling" = "use compiled" = CHEAP — sustainable
-    → BUT: compiled wrong = 1B trap
-    → BALANCE = compile + verify + update cycle (not fixed ratio)
-    → (Detail: Logic-Feeling-Balance.md)
+  ① PFC DRAFT COST — glucose, neurotransmitters (🟢 Gailliot & Baumeister 2007)
+  ② SUPPRESS COST — override old Body-Knowing → efference mismatch → dissonance
+  ③ UNCERTAINTY COST — hold multiple options → cortisol holding signal
+
+  → MUST compile to Body-Knowing eventually or burn out.
+  → Expert: deep Body-Knowing → low fresh cost → sustainable exploration.
+  → Beginner: no Body-Knowing → all fresh → exhausting without frequent reward.
+  → Balance: Body-Knowing × Domain verify (→ Logic-Feeling-Balance.md).
+  → Chi tiết: Body-Knowing.md §8.3, Inter-Body-Mechanism.md §4.
+
+
+⭐ DEVELOPMENT (Body-Knowing.md §9):
+
+  Hardware (infant) → Fresh-heavy (learning) → Body-Knowing (expert)
+  → Body-Knowing = ĐÍCH ĐẾN CỦA LEARNING.
+  → Expert who "feels" answers = MAXIMALLY Body-Knowing, not lazy.
+  → Chi tiết: Body-Knowing.md §9 (5-stage training, Focusing, AI era).
 
 🟢 Gailliot & Baumeister 2007 (cognitive effort = metabolic)
-🟢 Maier & Seligman 2016 (controllability, efference mismatch)
-🟡 3-cost as structural limit on fresh processing = framework synthesis
+🟡 Learning trajectory + 3-cost = framework synthesis
+```
+
+---
+
+## §4 — BOTH NEEDED + DUAL CHECK
+
+> **Body-Knowing alone: limits. Fresh alone: limits.**
+> **Dual Check + PFC = Lawyer + Learning Trajectory.**
+
+### 4.1 — Body-Knowing Alone: Limits
+
+```
+⭐ CHỈ TRUST BODY-KNOWING — linh hoạt nhưng KHÔNG CHẮC CHẮN:
+
+  ✅ Cross-domain: Body-Knowing detect shared signature (dầu+máy → engine)
+  ✅ Thấy mâu thuẫn: "logic đúng nhưng cứ SAI SAI" (ACC signal)
+  ✅ Speed: Body-Knowing = near-instant response
+  ✅ Integrate multi-source: 9+ channels → single unified sense
+  ✅ Guide decisions: somatic marker (Damasio) — body votes
+
+  ❌ KHÔNG CHẮC CHẮN:
+    → "Biết sai" → nhưng sai CHỖ NÀO?
+    → Body-Knowing CÓ THỂ SAI: Self-Referencing Trap, trauma, wrong context
+    → = "Thấy nhiều — không chắc thứ nào thật"
+
+  ❌ KHÔNG COMMUNICATE:
+    → "Tôi biết..." → ai tin? Không verify được.
+    → Non-shareable Body-Knowing → social trust THẤP
+    → Cần FRESH processing to formalize + share
+
+  ❌ KHÔNG ACCUMULATE TỐT:
+    → Body-Knowing A + Body-Knowing B → không tự ghép thành sharable C
+    → Cần FRESH EXTRACT pattern → formalize → stack
+    → Collective knowledge CẦN shareability
+
+  ❌ SELF-REFERENCING TRAP (most dangerous):
+    → Compiled in WRONG context → "mượt giả" (smooth but wrong)
+    → No domain verify → incorrect Body-Knowing PERSIST
+    → "Cảm thấy đúng" về conspiracy theory
+    → Body-Knowing for HOME → fail in SOCIAL (§5 Case 6)
+
+  ❌ ALEXITHYMIA RISK:
+    → 10% population: body fires but PFC cannot ACCESS
+    → Body-Knowing present but observation IMPAIRED
+    → = Body-Knowing alone INSUFFICIENT when access is broken
+
+🟢 Damasio 1994 (decisions need body-feedback)
+```
+
+### 4.2 — Fresh Alone: Limits
+
+```
+⭐ CHỈ ATTEND TO FRESH/ARTICULATED OUTPUT — mạnh nhưng ĐÓNG KHUNG:
+
+  ✅ Chặt chẽ: mỗi bước verify được
+  ✅ Communicate: viết ra → ai cũng check được
+  ✅ Accumulate: build rule on rule → tháp kiến thức
+  ✅ Reproducible: lặp lại → cùng kết quả
+  ✅ Teachable: transfer to others
+
+  ❌ CHỈ THẤY TRONG PHẠM VI ĐÃ ARTICULATE:
+    → Rules nối A→B, B→C → thấy A→C
+    → Nhưng nếu A→D (Body-Knowing detects nhưng chưa articulate) → KHÔNG THẤY
+    → = "Biết mọi thứ trong hộp — không thấy ngoài hộp"
+
+  ❌ ĐÚNG CORRELATION, SAI MECHANISM:
+    → "Cortisol cao = stressed" → correlation ĐÚNG 100%
+    → NHƯNG: cortisol = SUSTAINER, không phải CAUSE
+    → Fresh/articulated knowledge dừng ở correlation — miss deeper pattern
+
+  ❌ KHÔNG CROSS-DOMAIN:
+    → Dầu = hệ rules A. Máy = hệ rules B.
+    → Fresh: A ≠ B. Xong. Không connect.
+    → Body-Knowing CẦN for cross-domain discovery
+
+  ❌ DAMASIO PARALYSIS:
+    → vmPFC patients retain fresh processing (logic intact)
+    → Lose body-feedback → decision-making paralysis
+    → Có thể reason nhưng KHÔNG thể CHỌN
+    → 🟢 Damasio 1994: somatic markers necessary for decisions
+
+  ❌ 3-COST → UNSUSTAINABLE:
+    → Fresh = expensive (§3.4). Cannot maintain permanently.
+    → MUST compile to Body-Knowing eventually → sustainability
+
+🟢 Damasio 1994 (somatic markers necessary)
+🟢 Gailliot & Baumeister 2007 (cognitive effort = metabolic cost)
+```
+
+### 4.3 — Dual Check + Architecture Claim
+
+```
+⭐ CẢ HAI = 2 PHASES CỦA CÙNG 1 PROCESS:
+
+  Body-Knowing = body truth accumulated (may be wrong without verify)
+  Fresh = PFC draft new paths (may be lawyering without body check)
+  Domain = final arbiter for BOTH
+
+  → CẦN CẢ 2:
+    Body-Knowing DISCOVER (detect patterns fresh can't encode yet)
+    Fresh FORMALIZE + VERIFY (articulate → test → accumulate)
+    Domain ARBITRATE (outcome confirms or rejects — for both)
+
+  → = Không phải "2 loại tư duy cạnh tranh"
+  → = 2 phases CỦA CÙNG 1 PROCESS: discover + formalize + verify
+
+  METAPHOR:
+    Body-Knowing = LA BÀN (chỉ HƯỚNG, kể cả nơi chưa map)
+    Fresh/articulated = BẢN ĐỒ (chi tiết, chính xác, chỉ nơi ĐÃ BIẾT)
+
+    Chỉ bản đồ: ở mãi nơi đã biết
+    Chỉ la bàn: biết hướng nhưng có thể lạc (Self-Referencing — la bàn calibrate sai)
+    Cả hai + domain verify: khám phá domain MỚI có hướng + verify từng bước
+
+
+⭐ DUAL CHECK (Ask-AI v3.1 §6.1, Body-Knowing.md §7.6):
+
+  Step 1: Body-feedback = quality controller
+    → Body-Knowing vote: coherent hay không?
+    → Đúng ~90% (2-tầng calibration)
+    → NHƯNG: đánh giá COHERENCE, không phải TRUTH
+
+  Step 2: Domain reality = final arbiter
+    → Dữ liệu thực tế, kết quả THẬT, evidence
+    → Domain feedback LUÔN ĐẾN — chỉ là sớm hay muộn
+
+  4 TRƯỜNG HỢP:
+    Body YES + Domain YES → HIGH confidence (cả 2 align)
+    Body NO  + Domain YES → Investigate (body detect gì?)
+    Body YES + Domain NO  → ⚠️ NGUY HIỂM — likely Self-Referencing smooth
+    Body NO  + Domain NO  → Clear rejection
+
+  → Chi tiết: Body-Knowing.md §7.6 (Dual Check full analysis)
+
+
+⭐ ARCHITECTURE SUMMARY (PFC = Lawyer + Learning Trajectory):
+
+  Premise 1: PFC serve body-base (not independent agent) = PFC = Lawyer
+  Premise 2: Body-Knowing = compiled body-direct = đích đến của learning
+  Premise 3: Fresh = temporary phase TRƯỚC KHI compile thành Body-Knowing
+  Premise 4: Domain reality = final arbiter cho cả Body-Knowing lẫn Fresh
+
+  Conclusion 1: "LOGIC" ≠ INDEPENDENT RATIONAL AGENT.
+    PFC = Lawyer cho body-base. Mọi processing serve body architecture.
+    "Logic" = observer label cho Fresh phase — không phải separate faculty.
+
+  Conclusion 2: LEARNING TRAJECTORY luôn hướng về Body-Knowing.
+    Fresh → compile → Body-Knowing (if domain verified).
+    "Logic" cho người này = "Body-Knowing" cho expert kia.
+    Toán = "fresh/logic" ngày đầu → "Body-Knowing" sau years.
+
+  ⚠️ KHÔNG CÓ NGHĨA "ignore fresh" hay "chỉ trust Body-Knowing":
+    → Body-Knowing compiled SAI vẫn SAI (Self-Referencing Trap)
+    → Fresh CẦN THIẾT khi Body-Knowing chưa có/đã sai
+    → Domain Reality = final arbiter ALWAYS
+
+🟢 PFC = Lawyer: Gazzaniga split-brain, Haidt 2001, Nisbett & Wilson 1977.
+🟡 Learning trajectory framing = framework synthesis (consistent with Klein 1998).
 ```
 
 ---
 
 ## §5 — CASES PHÂN TÍCH (6 cases)
 
-> **5 signature cases preserved from v1.0 + Case 6 NEW (1B trap).**
-> **Each annotated with Compiled/Fresh lens.**
+> **6 cases minh họa Body-Knowing + Fresh + Domain verify.**
+> **Each annotated with Body-Knowing lens.**
 
-### 5.1 — Case 1: Cortisol — "Compiled correlation, body detects timing"
+### 5.1 — Case 1: Cortisol — "Body-Knowing detects timing mà fresh misses"
 
 ```
-⭐ COMPILED/FRESH ANNOTATION:
+⭐ BODY-KNOWING / FRESH ANNOTATION:
 
-  Compiled anchor (mainstream):
-    → "Stress → cortisol tăng" = compiled correlation (decades, verifiable)
+  Fresh anchor (mainstream):
+    → "Stress → cortisol tăng" = articulated correlation (decades, verifiable)
     → SHAREABLE → label "LOGIC" / "established science"
 
-  Body detect (fresh exploration):
+  Body-Knowing detect:
     → "Nhưng cortisol KHÔNG spike — fire SAU 20-30 phút"
     → "Nếu stress CAUSE cortisol → tại sao delay?"
-    → Compiled body-patterns of TIMING detect inconsistency
+    → Body-Knowing of TIMING detect inconsistency
     → = Body's compiled experience says "sequence wrong"
 
   Domain verify:
@@ -881,30 +819,30 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
     → Domain: timing measured → confirms "sustainer" model
     → = "Lính cứu hỏa LUÔN ở hiện trường → tương quan ĐÚNG → nhân quả SAI"
 
-  Compiled/Fresh lens:
-    → Old "logic" (correlation) = compiled WRONG (1B — no timing verify)
-    → Body "feeling" (timing off) = compiled CORRECTLY from experience
-    → Domain arbiter: confirms body was right, articulated was incomplete
+  Body-Knowing lens:
+    → Old "logic" (correlation) = articulated but INCOMPLETE
+    → Body-Knowing (timing patterns) = detected what articulated missed
+    → Domain arbiter: confirms Body-Knowing was right
 
-  LESSON: Compiled-shareable ("logic") CAN BE INCOMPLETE.
-    Compiled-body ("feeling") CAN detect what articulated misses.
+  LESSON: Shareable articulated knowledge CAN BE INCOMPLETE.
+    Body-Knowing CAN detect what fresh/articulated misses.
     Domain verify resolves. (Detail: Cortisol-Baseline.md)
 ```
 
-### 5.2 — Case 2: Newton → Einstein — "Compiled scope limit"
+### 5.2 — Case 2: Newton → Einstein — "Body-Knowing scope limit"
 
 ```
-⭐ COMPILED/FRESH ANNOTATION:
+⭐ BODY-KNOWING / FRESH ANNOTATION:
 
-  Compiled anchor (Newton):
+  Body-Knowing anchor (Newton):
     → F=ma, gravity=force, space=flat, time=absolute
-    → Compiled + SHAREABLE + VERIFIED in everyday scale
+    → Body-Knowing + SHAREABLE + VERIFIED in everyday scale
     → = "LOGIC" label (strongest possible — centuries of domain confirm)
 
   Fresh explore (Einstein, 16 tuổi):
     → "Nếu tôi CƯỠI tia sáng → thấy gì?"
     → Body simulate: electromagnetic field đứng yên — IMPOSSIBLE
-    → = FRESH exploration using COMPILED chunks as raw material
+    → = FRESH exploration using BODY-KNOWING chunks as raw material
       (cưỡi + ánh sáng + tốc độ → novel COMBINATION → body simulate)
 
   Domain verify:
@@ -912,167 +850,151 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
     → Solar eclipse 1919: Mercury orbit matches prediction
     → = DOMAIN confirm (not just "logic correct")
 
-  Compiled/Fresh lens:
-    → Newton = compiled CORRECTLY but SCOPE-LIMITED
+  Body-Knowing lens:
+    → Newton = Body-Knowing CORRECTLY but SCOPE-LIMITED
     → Einstein = fresh explore BEYOND scope → body detect mâu thuẫn
-    → Verify = domain (not PFC reasoning alone)
-    → New compiled: GR BAO GỒM Newton (🟢 Bohr Correspondence Principle)
+    → New Body-Knowing: GR BAO GỒM Newton (🟢 Bohr Correspondence Principle)
 
   Einstein PRIMARY SOURCE (thư gửi Hadamard, 1945):
     🟢 "Psychical entities: VISUAL and some MUSCULAR type"
     🟢 "Words sought laboriously in SECONDARY STAGE"
     🟢 To Wertheimer: "never thought in logical symbols, but in
        images, feelings, and even musical architectures"
-    → = Einstein CONFIRM: explore = body-based (compiled simulation)
-    → = "Logic" (formalization) came AFTER body discovery
+    → = Einstein CONFIRM: explore = body-based (Body-Knowing material → fresh combine)
+    → = "Logic" (formalization) came AFTER body-based discovery
 
-  LESSON: Strongest compiled anchor CAN be scope-limited.
-    Body-based exploration (using compiled raw material) finds edges.
+  LESSON: Strongest Body-Knowing CAN be scope-limited.
+    Body-based exploration (using Body-Knowing raw material) finds edges.
     Domain verify confirms. (Not "feeling good enough" — domain necessary.)
 ```
 
-### 5.3 — Case 3: Dầu + Máy — "Cross-domain via compiled body"
+### 5.3 — Case 3: Dầu + Máy — "Cross-domain via Body-Knowing"
 
 ```
-⭐ COMPILED/FRESH ANNOTATION:
+⭐ BODY-KNOWING / FRESH ANNOTATION:
 
-  2 compiled domains separate:
-    → Dầu: cháy, lỏng, đào từ đất → compiled hệ A
-    → Máy: sắt, bánh răng, pittong → compiled hệ B
-    → ARTICULATED (fresh/logic): A ≠ B. Không liên quan. Xong.
+  2 Body-Knowing domains separate:
+    → Dầu: cháy, lỏng, đào từ đất → Body-Knowing hệ A
+    → Máy: sắt, bánh răng, pittong → Body-Knowing hệ B
+    → FRESH (articulated): A ≠ B. Không liên quan. Xong.
 
   Body-level cross-connect:
     → "Dầu cháy → nhiệt... nếu nhiệt ĐÓNG KÍN → áp suất → ĐẨY..."
     → Body simulate: nhiệt + áp suất + pittong → feel chuyển động
-    → = Compiled chunks from BOTH domains → body COMBINES → feel pattern
+    → = Body-Knowing chunks from BOTH domains → body COMBINES → detect pattern
 
   Domain verify: build engine → works → domain confirm
 
-  Compiled/Fresh lens:
-    → Articulated processing: "2 khác nhau" (correct but LIMITED)
-    → Compiled body: COMBINES patterns (novel combination of compiled material)
-    → Domain: confirms cross-domain connection exists
-    → = Cross-domain discovery = BODY operation on compiled material
+  Body-Knowing lens:
+    → Fresh processing: "2 khác nhau" (correct but LIMITED)
+    → Body-Knowing: COMBINES patterns (novel combination of compiled material)
+    → = Cross-domain discovery = BODY operation on Body-Knowing material
     → = Fresh processing ALONE cannot cross (no rules connecting A→B)
-    → = Compiled body CAN cross (detects shared PATTERN: energy → movement)
+    → = Body-Knowing CAN cross (detects shared PATTERN: energy → movement)
 
-  LESSON: Articulated/fresh processing STAYS within domains.
-    Compiled body-patterns CAN cross-domain (detect shared signatures).
-    Domain verify confirms connection. = Core §7.⑧ Domain Combination.
+  LESSON: Fresh/articulated processing STAYS within domains.
+    Body-Knowing CAN cross-domain (detect shared signatures).
+    Domain verify confirms connection.
 ```
 
 ### 5.4 — Case 4: Táo + Chuối → Concept "Quả"
 
 ```
-⭐ COMPILED/FRESH ANNOTATION:
+⭐ BODY-KNOWING / FRESH ANNOTATION:
 
-  Articulated: 2 cây KHÁC. 2 quả KHÁC. 2 vị trí KHÁC. Không liên quan.
-  Compiled body: "Cả 2 → body tôi NO + NGON" → detect PATTERN CHUNG
-    (L1 satiety + reward → shared body signature)
+  Fresh: 2 cây KHÁC. 2 quả KHÁC. 2 vị trí KHÁC. Không liên quan.
+  Body-Knowing: "Cả 2 → body tôi NO + NGON" → detect PATTERN CHUNG
+    (satiety + reward → shared body signature)
   Fresh formalize: "Quả" = label cho pattern → shareable → teachable
   Body predict: "quả khác cũng ăn được?" → fresh verify: thử ăn → domain confirm
 
-  Compiled/Fresh lens:
-    → Abstraction = COMPILED BODY detect shared pattern between DIFFERENT things
+  Body-Knowing lens:
+    → Abstraction = Body-Knowing detect shared pattern between DIFFERENT things
     → Fresh processing NAMES it (→ becomes shareable → "logic")
     → Domain verify confirms prediction
-    → = HOW concepts FORM: body detect → fresh name → domain verify → compile
+    → = HOW concepts FORM: Body-Knowing detect → fresh name → domain verify → compile
 
-  LESSON: Abstraction = body-compiled pattern detection + fresh naming.
-    Neither alone sufficient. Body detects. Fresh formalizes. Domain confirms.
+  LESSON: Abstraction = Body-Knowing pattern detection + fresh naming.
+    Neither alone sufficient. Body-Knowing detects. Fresh formalizes. Domain confirms.
     = Somatic-Articulation-Loop: body-knowledge → explicit-knowledge
 ```
 
-### 5.5 — Case 5: Mẹ bảo học — "Compiled chain correct, body detects cost"
+### 5.5 — Case 5: Mẹ bảo học — "Articulated chain correct, Body-Knowing detects cost"
 
 ```
-⭐ COMPILED/FRESH ANNOTATION:
+⭐ BODY-KNOWING / FRESH ANNOTATION:
 
-  Mẹ (compiled-shareable chain):
+  Mẹ (shareable articulated chain):
     → "Học → kiến thức → việc tốt → tương lai tốt"
     → Chain VERIFIABLE, SHAREABLE → label "LOGIC"
-    → Each step compilable individually
+    → Each step verifiable individually
 
-  Con (compiled body-feedback):
-    → Body: mệt (L1) + chán (L2) + meaningless (L3) + threat (NE from punishment)
-    → = Body COMPILED COST signals → fire every study session
-    → = NOT "lazy" — body detecting REAL cost accumulation
+  Con (Body-Knowing):
+    → Body: mệt (physical) + chán (prediction-delta) + meaningless (PFC-level)
+      + threat (NE from punishment)
+    → = Body-Knowing COST signals → fire every study session
+    → = NOT "lazy" — Body-Knowing detecting REAL cost accumulation
 
   Domain reality (both partially right):
     → Chain destination CORRECT (education → opportunities)
     → Body cost REAL (threat-tagged learning → "giỏi nhưng ghét")
     → Optimal: chain correct + body cost LOW (reward-tagged learning)
-    → = Mẹ bảo học UNDER THREAT → chunks compile WITH cortisol tag (P5 violated)
 
-  Compiled/Fresh lens:
-    → Mẹ: compiled chain = correct but INCOMPLETE (misses cost dimension)
-    → Con: compiled body = correct about COST but cannot articulate WHY
+  Body-Knowing lens:
+    → Mẹ: articulated chain = correct but INCOMPLETE (misses cost dimension)
+    → Con: Body-Knowing = correct about COST but cannot articulate WHY
     → Resolution: chain + reward-path → chunks compile WITHOUT threat tag
-    → = Education needs BOTH: structure (articulated) + reward (body-confirm)
+    → = Education needs BOTH: structure (articulated) + reward (Body-Knowing confirm)
 
-  LESSON: Compiled-shareable chain (logic) and compiled-body (feeling)
+  LESSON: Shareable chain ("logic") and Body-Knowing
     can BOTH be correct — about DIFFERENT DIMENSIONS of same situation.
-    Logic = destination. Body = journey cost. Both real. Both needed.
+    Logic = destination. Body-Knowing = journey cost. Both real. Both needed.
 ```
 
-### 5.6 — Case 6: Trẻ bao bọc quá mức — "1B Trap" (v2.0 NEW)
+### 5.6 — Case 6: Trẻ bao bọc quá mức — "Self-Referencing Trap: Body-Knowing compiled wrong"
 
 ```
-⭐ NEW CASE — CONFIRMED BY DRILL SESSION 2026-05-17:
+⭐ SELF-REFERENCING TRAP CASE:
 
   Context:
     → Trẻ không được ra ngoài giao tiếp xã hội tới trưởng thành
-    → Bố mẹ bao bọc quá mức HOẶC kèm cặp học tập quá mức (ở nhà)
+    → Bố mẹ bao bọc quá mức HOẶC kèm cặp quá mức (ở nhà)
     → Chunks compile DÀY trong HOME-ONLY context
 
-  Compiled patterns (WRONG context):
+  Body-Knowing (WRONG context):
     → "Mọi người sẽ chấp nhận tôi" (vì bố mẹ luôn chấp nhận)
     → "Nếu tôi buồn, ai đó sẽ come" (vì bố mẹ luôn đến)
     → "Conflicts resolve bằng 1 bên nhường" (vì bố mẹ nhường)
-    → Social A gate: "mọi entity = safe" (vì home = only entities known)
-    → Gap direction: all point toward "home-like context"
-    → = SMOOTH cảm giác = compiled patterns FIRE correctly IN CONTEXT
+    → = SMOOTH Body-Knowing = compiled patterns FIRE correctly IN HOME CONTEXT
 
   Khi đột ngột vào social domain:
     → Massive CHUNK-MISS: situations xảy ra mà KHÔNG có chunks match
-    → Massive prediction-delta: domain reality ≠ compiled expectations
+    → Massive prediction-delta: domain reality ≠ Body-Knowing expectations
     → 3-cost EXPLODE:
       ① PFC draft: MỌI social interaction = FRESH (phải nghĩ mọi bước)
-      ② Suppress: compiled "muốn về nhà" phải suppress liên tục
+      ② Suppress: Body-Knowing "muốn về nhà" phải suppress liên tục
       ③ Uncertainty: KHÔNG biết entity này friendly/threat → cortisol hold
     → Total cost >>> reward → burnout CỰC NHANH
-    → Body-need: "QUAY VỀ NƠI AN TOÀN" (compiled environment)
 
-  Tại sao 1B trap:
-    → Compiled in HOME-ONLY = 1B (self-referencing: no domain verify)
-    → "Mượt" trong home = body vote SMOOTH → "cảm thấy đúng"
-    → NHƯNG: social domain = DIFFERENT DOMAIN → compiled patterns WRONG
-    → = "Feeling đúng" (smooth in home) ≠ "Thực sự đúng" (fails in social)
+  Tại sao Self-Referencing Trap:
+    → Body-Knowing compiled in HOME-ONLY = Self-Referencing (no domain verify)
+    → "Mượt" trong home = Body-Knowing SMOOTH → "cảm thấy đúng"
+    → NHƯNG: social domain = DIFFERENT DOMAIN → Body-Knowing WRONG
+    → = "Body-Knowing says right" ≠ "Actually right" (smooth ≠ accurate)
     → Domain reality arrives: isolation, anxiety, inability to function
 
   Resolution (costly):
     → FRESH re-compile social patterns (= therapy, gradual exposure)
     → High cost initially (all 3 sources)
-    → Gradual: new patterns compile → cost decreases → sustainability grows
-    → Domain verify: social outcomes improve → new patterns = 1A (verified)
-
-  Compiled/Fresh lens:
-    → HOME: all compiled → smooth → low cost → "đứa trẻ ngoan / giỏi"
-    → SOCIAL: all fresh → expensive → high cost → "đứa trẻ yếu / lạ"
-    → Neither label accurate — = COMPILATION MISMATCH between context
+    → Gradual: new patterns compile → new Body-Knowing → cost decreases
+    → Domain verify: social outcomes improve → new Body-Knowing = verified
 
   LESSON QUAN TRỌNG:
-    → Compilation WITHOUT domain verify = DANGEROUS (1B trap)
-    → "Trust feeling" = dangerous IF feeling compiled in WRONG context
-    → Domain Reality = final arbiter (not body smoothness, not PFC logic)
-    → = WHY drill principle ⑧ "Domain = Arbiter" is FOUNDATIONAL
+    → Body-Knowing WITHOUT domain verify = DANGEROUS (Self-Referencing Trap)
+    → "Trust Body-Knowing" = dangerous IF compiled in WRONG context
+    → Domain Reality = final arbiter (not Body-Knowing smoothness, not PFC logic)
 
-  CONNECTION:
-    → Feeling.md v3.0 §8.3 (1A vs 1B: domain-checked vs self-referencing)
-    → Inter-Body §6.4 (domain reality timeline: childhood schemas = 10-30 years)
-    → Reward-Signal-Architecture v2.0 §8.1 (domain verify mechanism)
-
-🟡 Overprotected child as 1B trap case = framework synthesis.
+🟡 Overprotected child as Self-Referencing Trap case = framework synthesis.
    Consistent with attachment theory, social anxiety literature.
 ```
 
@@ -1082,197 +1004,106 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
 ⭐ MỌI CASE — CÙNG PATTERN:
 
   ┌───────────────────────┬──────────────────────┬─────────────────────────┐
-  │ Case                  │ Compiled alone       │ + Fresh + Domain verify │
+  │ Case                  │ Một track alone      │ + Cả 2 + Domain verify  │
   ├───────────────────────┼──────────────────────┼─────────────────────────┤
-  │ 1. Cortisol           │ correlation (incomplete)│ body timing → sustainer │
-  │ 2. Newton→Einstein    │ scope-limited        │ body simulate → GR      │
-  │ 3. Dầu + Máy         │ "không liên quan"    │ body cross-connect      │
-  │ 4. Táo + Chuối       │ "2 thứ khác"         │ body pattern → "quả"    │
-  │ 5. Mẹ bảo học        │ chain correct (cost?) │ body detect cost        │
-  │ 6. Trẻ bao bọc       │ "smooth" (wrong ctx) │ domain reject → recompile│
+  │ 1. Cortisol           │ Articulated incomplete│ Body-Knowing timing     │
+  │ 2. Newton→Einstein    │ Body-Knowing limited │ Fresh explore → GR      │
+  │ 3. Dầu + Máy         │ Fresh: "không liên quan"│ Body-Knowing cross    │
+  │ 4. Táo + Chuối       │ Fresh: "2 thứ khác"  │ Body-Knowing → "quả"   │
+  │ 5. Mẹ bảo học        │ Chain correct (cost?) │ Body-Knowing cost      │
+  │ 6. Trẻ bao bọc       │ Body-Knowing smooth  │ Domain reject → recompile│
   └───────────────────────┴──────────────────────┴─────────────────────────┘
 
   UNIFIED INSIGHT:
-    → Compiled-shareable ("logic") = valuable but SCOPE-LIMITED
-    → Compiled-body ("feeling") = valuable but CONTEXT-DEPENDENT
+    → Shareable articulated ("logic") = valuable but SCOPE-LIMITED
+    → Body-Knowing ("feeling/intuition") = valuable but CONTEXT-DEPENDENT
     → Fresh processing = valuable but COSTLY
     → DOMAIN VERIFY = only reliable arbiter
-    → Optimal processing = compiled + fresh + domain-verify cycle
+    → Optimal processing = Body-Knowing + fresh + domain-verify cycle
     → NO single mode sufficient. CYCLE is the mechanism.
 ```
 
 ---
 
-## §6 — PARALLEL PROCESSING CHO MỌI ENTITY
+## §6 — PARALLEL PROCESSING + MODALITY BIAS
 
-> **Preserved from v1.0 §5. Reframed: "Logic/Feeling ratio" → "Fresh-required/Compiled ratio."**
+> **Body-Knowing + Fresh always running in parallel.**
+> **Individual differences in which track they ATTEND TO first.**
 
-### 6.1 — Core Insight: Both Tracks Always Running
+### 6.1 — Both Tracks Always Running
 
 ```
-⭐ KHÔNG PHẢI "object = logic, agent = feeling" (v1.0 correction preserved):
+⭐ KHÔNG PHẢI "object = logic, agent = feeling":
 
-  COMPILED + FRESH chạy SONG SONG cho MỌI entity:
-    → Mọi entity đều trigger body-level responses (compiled patterns fire)
+  BODY-KNOWING + FRESH chạy SONG SONG cho MỌI entity:
+    → Mọi entity đều trigger Body-Knowing (compiled patterns fire)
     → PFC cũng luôn process (fresh draft if needed, compiled if routine)
     → Cả 2 always-on. Difference = WEIGHTING, not presence.
 
-  REFRAME from v1.0:
-    OLD: "Logic track + Feeling track parallel"
-    NEW: "Fresh processing + Compiled processing parallel"
-    → At any moment: some chunks fire COMPILED, some gaps need FRESH
-    → Ratio = how much compiled-sufficient vs how much fresh-required
+  At any moment: some chunks fire as Body-Knowing, some gaps need fresh.
+  Ratio = how much Body-Knowing-sufficient vs how much fresh-required.
 
-  KHÔNG phải: [Compiled] ON for routine, [Fresh] ON for novel
-  LÀ:        [Compiled + Fresh] BOTH ON, ratio shifts by situation
+  KHÔNG phải: [Body-Knowing] ON for routine, [Fresh] ON for novel
+  LÀ:        [Body-Knowing + Fresh] BOTH ON, ratio shifts by situation
 ```
 
-### 6.2 — Mix Ratios Across Entity Spectrum
+### 6.2 — Entity Spectrum (illustrative)
 
 ```
-🟡 SPECTRUM (preserved from v1.0 — reframed labels):
+🟡 SPECTRUM (⚠️ ratios = illustrative, not measured):
 
   ┌─────────────────────────────────────────────────────────────┐
-  │  COMPILED-SUFFICIENT ──────────────── FRESH-REQUIRED        │
+  │  BODY-KNOWING SUFFICIENT ──────────── FRESH REQUIRED        │
   │  (routine, known)                    (novel, unknown)       │
   │                                                              │
-  │  Cục đá           ← 100% compiled, 0% fresh needed          │
+  │  Cục đá           ← ~all Body-Knowing, ~no fresh needed     │
   │  Cái bàn          ← known object, all patterns compiled     │
   │                                                              │
-  │  Đồng nghiệp quen  ← 70% compiled (routine), 30% fresh     │
-  │  Chó quen          ← 70/30 (routine + some state tracking)  │
+  │  Đồng nghiệp quen  ← mostly Body-Knowing, some fresh       │
+  │  Chó quen          ← routine + some state tracking          │
   │                                                              │
-  │  Bạn thân mới      ← 50/50 (learning entity patterns)       │
-  │  Người yêu đầu     ← 50/50 (high novelty, many unknowns)   │
+  │  Bạn thân mới      ← mixed (learning entity patterns)       │
+  │  Người yêu đầu     ← mixed (high novelty, many unknowns)   │
   │                                                              │
-  │  Bạn thân lâu năm  ← 30% fresh, 70% compiled (deep model)  │
-  │  Bố mẹ            ← 30/70 (decades of compilation)          │
+  │  Bạn thân lâu năm  ← mostly Body-Knowing (deep model)      │
+  │  Bố mẹ            ← mostly Body-Knowing (decades compiled)  │
   │                                                              │
-  │  Con mới sinh      ← 10% compiled, 90% fresh (all new)      │
-  │  Crisis với người thân ← 10/90 (compiled patterns disrupted)│
+  │  Con mới sinh      ← mostly fresh (all new)                  │
+  │  Crisis với người thân ← mostly fresh (Body-Knowing disrupted)│
   └─────────────────────────────────────────────────────────────┘
 
   KEY OBSERVATIONS:
-    ① Cục đá KHÔNG phải "zero compiled-body": có valence (đẹp?), schema (kỷ niệm?)
+    ① Cục đá KHÔNG phải "zero body": có valence (đẹp?), schema (kỷ niệm?)
     ② Bạn thân KHÔNG phải "zero fresh": surprises happen, states change
-    ③ Con mới sinh = extreme fresh-required: parent has FEW compiled patterns for baby
-    ④ = Ratio DYNAMIC, not fixed property of entity (see §6.3)
+    ③ Con mới sinh = extreme fresh: parent has FEW compiled patterns for baby
+    ④ Ratio DYNAMIC, not fixed property of entity (§6.5)
 ```
 
-### 6.3 — Parallel Processing Examples (preserved)
+### 6.3 — Modality Bias
 
 ```
-🟡 VÍ DỤ 1 — BẮT CHUỘT:
+🟡 VERBAL/VISUAL DOMINANT → TENDS TO TRUST FRESH/ARTICULATED:
 
-  Compiled track: "Chuột dọc tường, tránh sáng, có mùi" (compiled from observation)
-  Fresh track: "Nếu tôi là chuột, đói, sợ → sẽ prefer đường này" (body simulate)
-  COMBINED: compiled gives WHERE (tường) + fresh gives WHY (safety preference)
-  → NOT sequential — CẢ 2 RUN PARALLEL
-
-🟡 VÍ DỤ 2 — HIỂU MẸ:
-
-  Compiled track: "Mẹ LUÔN pha trà 6:30, đọc báo 5h, gọi chủ nhật" (routine)
-  Fresh track: "Hôm nay khác... giọng có edge... body fire 'mẹ buồn' pattern"
-  COMBINED: compiled = BASELINE. Fresh detect = DEVIATION from baseline.
-  → Without compiled: no baseline to compare
-  → Without fresh: routine match/mismatch but no state detection
-
-🟡 VÍ DỤ 3 — EINSTEIN RIDING LIGHT:
-
-  Compiled track: Newton's equations + Maxwell's equations (compiled from training)
-  Fresh track: "Nếu CƯỠI tia sáng..." body simulate → feel: "impossible — field đứng yên"
-  COMBINED: compiled provides MATERIAL. Fresh COMBINES + body detects CONTRADICTION.
-  → 🟢 Hadamard letter: "images, feelings, muscular" + math LATER
-  → = Fresh-led discovery using compiled raw material, domain-verified later
-```
-
-### 6.4 — Dynamic Ratio Shifts
-
-```
-🟡 RATIO KHÔNG CỐ ĐỊNH — shifts with context (preserved from v1.0):
-
-  RELATIONSHIP PHASES:
-    NEW:          compiled ⎯⎯●⎯⎯⎯⎯⎯⎯⎯⎯ fresh  (20/80 — reading heavy)
-    ESTABLISHED:  compiled ⎯⎯⎯⎯⎯⎯●⎯⎯⎯⎯ fresh  (60/40 — routine)
-    CRISIS:       compiled ⎯⎯●⎯⎯⎯⎯⎯⎯⎯⎯ fresh  (25/75 — re-reading)
-
-  CONTEXTUAL:
-    Cục đá ở bảo tàng:   compiled (description plaque) dominant
-    Cục đá từ mẹ:         fresh + compiled-body (schema + valence) fire
-
-  STATE:
-    Bình thường: balanced
-    Mệt: compiled dominant (fresh too costly — conserve energy)
-    Stressed: compiled-body dominant (L0 threat priority)
-    Fit: balanced with deeper access
-
-  → Ratio = dynamic function of:
-    Entity type (base), context (situational), relationship phase (temporal),
-    internal state (energy), intentional attention (PFC modulator)
-```
-
-### 6.5 — Why This Matters
-
-```
-🟡 IMPLICATIONS:
-
-  ① NO "PURE COMPILED" OR "PURE FRESH" entities:
-     → Even routine objects have body-response weight (compiled-body)
-     → Even loved ones have fresh-required moments (surprises, crises)
-
-  ② PROCESSING DEFECTS = RATIO IMBALANCE:
-     → Alexithymia: fresh dominant (compiled-body ACCESS blocked)
-     → Over-emotionality: compiled-body dominant without fresh verify
-     → Psychopathy: compiled-body for targets SUPPRESSED (dehumanization)
-     → = Neither mode lost, just imbalanced
-
-  ③ TRAINING TARGETS RATIO FLEXIBILITY:
-     → Meditation: develops compiled-body access (lower threshold)
-     → CBT: develops fresh processing skill (reframe)
-     → Domain practice: converts fresh → compiled (expertise)
-     → = Literacy = flexible ratio, shift-able by context
-
-  ④ AI = "100% fresh-articulated":
-     → AI processes ALL input through articulated/shareable paths
-     → AI CANNOT have compiled-body track (no body, no interoception)
-     → = AI ≈ "pure fresh processing" — missing compiled-body dimension
-     → = Humans irreplaceable where body-compilation matters
-
-🟢 Farb 2013 (meditation → interoceptive access)
-🟡 Parallel processing + ratio dynamics = framework synthesis
-```
-
----
-
-## §7 — MODALITY BIAS ẢNH HƯỞNG TỈ LỆ
-
-> **Preserved from v1.0 §6. Minor Compiled/Fresh reframe.**
-
-### 7.1 — Two Modality Biases
-
-```
-🟡 VERBAL/VISUAL DOMINANT → FRESH-BIASED (tends to TRUST articulated):
-
-  Default ratio: ~70% fresh-articulated / 30% compiled-body
+  Default: attend more to PFC articulated output
   Strengths: articulate, teach, debate, build explicit knowledge
-  Weaknesses: miss body signals, over-intellectualize, Layer 6-7 bias
+  Weaknesses: miss body signals, over-intellectualize
   Professions: engineers, programmers, lawyers, academics, analysts
-  → = Tends to TRUST fresh PFC output (can articulate = feels "correct")
+  → Tends to TRUST fresh PFC output (can articulate = feels "correct")
 
 
-🟡 SOMATIC DOMINANT → COMPILED-BODY-BIASED (tends to TRUST body):
+🟡 SOMATIC DOMINANT → TENDS TO TRUST BODY-KNOWING:
 
-  Default ratio: ~30% fresh-articulated / 70% compiled-body
+  Default: attend more to Body-Knowing / body-direct signals
   Strengths: read state changes, deep attunement, aesthetic, speed
   Weaknesses: hard to articulate WHY, slower to formalize, can overwhelm
   Professions: therapists, artists, musicians, craftspeople, athletes
-  → = Tends to TRUST compiled body output (body says = feels "correct")
+  → Tends to TRUST Body-Knowing (body says = feels "correct")
 
   ⚠️ BIAS ≠ DEFICIT. Different access PREFERENCE, not different mechanism.
   Both = equally compiled. Differ in: which output they ATTEND TO first.
 ```
 
-### 7.2 — Practical Example: Relationship Conflict (preserved)
+### 6.4 — Practical Example: Relationship Conflict
 
 ```
 🟡 VERBAL PARTNER + SOMATIC PARTNER — classic mismatch:
@@ -1281,11 +1112,11 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
 
   VERBAL partner (fresh-biased):
     → Fresh check: "Did anything happen? No event. Therefore fine."
-    → Compiled-body: some vague unease, quickly rationalized away
+    → Body-Knowing: some vague unease, quickly rationalized away
     → Conclusion: "Everything's fine."
 
-  SOMATIC partner (compiled-body-biased):
-    → Compiled-body: "Something's wrong. Silence different. Voice has edge."
+  SOMATIC partner (Body-Knowing-biased):
+    → Body-Knowing: "Something's wrong. Silence different. Voice has edge."
     → Fresh check: no fact matches. Cannot explain.
     → Conclusion: "Something is definitely wrong."
 
@@ -1294,55 +1125,109 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
     Somatic: "I can feel it." Verbal: "You're imagining things."
     → Both feel dismissed. Both partially right.
 
-  WHAT HAPPENED: Verbal had stressful day but logic-track said "no event = fine."
-    Body WAS firing (tension, cortisol). Somatic partner mirrored it directly.
+  WHAT HAPPENED: Verbal had stressful day but fresh track said "no event = fine."
+    Body WAS firing (tension, cortisol). Somatic partner's Body-Knowing mirrored it.
 
   WISE RESOLUTION:
     Verbal: "You're right, body is tense. Can't explain yet. Let me sit with it."
-    Somatic: "I'll give space. My sense didn't come from nothing."
+    Somatic: "I'll give space. My Body-Knowing didn't come from nothing."
     → Both modalities valid. Both needed. Neither sufficient alone.
 
 🟡 Modality bias as stable individual difference = framework hypothesis.
    Consistent with alexithymia research (Taylor 2000), interoception (Garfinkel 2015).
 ```
 
+### 6.5 — Dynamic Ratio Shifts
+
+```
+🟡 RATIO KHÔNG CỐ ĐỊNH — shifts with context:
+
+  RELATIONSHIP PHASES:
+    NEW:          Body-Knowing ⎯●⎯⎯⎯⎯⎯⎯⎯⎯ fresh  (mostly fresh)
+    ESTABLISHED:  Body-Knowing ⎯⎯⎯⎯⎯●⎯⎯⎯⎯ fresh  (mostly Body-Knowing)
+    CRISIS:       Body-Knowing ⎯⎯●⎯⎯⎯⎯⎯⎯⎯ fresh  (re-reading)
+
+  CONTEXTUAL:
+    Cục đá ở bảo tàng:   Body-Knowing (description plaque) dominant
+    Cục đá từ mẹ:         fresh + Body-Knowing (schema + valence) fire
+
+  STATE:
+    Bình thường: balanced
+    Mệt: Body-Knowing dominant (fresh too costly — conserve energy)
+    Stressed: Body-Knowing dominant (threat priority)
+    Fit: balanced with deeper access
+
+  → Ratio = dynamic function of:
+    Entity type (base), context (situational), relationship phase (temporal),
+    internal state (energy), intentional attention (PFC modulator)
+```
+
+### 6.6 — Implications
+
+```
+🟡 IMPLICATIONS:
+
+  ① NO "PURE BODY-KNOWING" OR "PURE FRESH" entities:
+     → Even routine objects have body-response weight
+     → Even loved ones have fresh-required moments (surprises, crises)
+
+  ② PROCESSING DEFECTS = RATIO IMBALANCE:
+     → Alexithymia: fresh dominant (Body-Knowing ACCESS blocked)
+     → Over-emotionality: Body-Knowing dominant without fresh verify
+     → Psychopathy: Body-Knowing for targets SUPPRESSED (dehumanization)
+     → = Neither mode lost, just imbalanced
+
+  ③ TRAINING TARGETS RATIO FLEXIBILITY:
+     → Meditation: develops Body-Knowing access (lower threshold)
+     → CBT: develops fresh processing skill (reframe)
+     → Domain practice: converts fresh → Body-Knowing (expertise)
+     → = Literacy = flexible ratio, shift-able by context
+
+  ④ AI ≈ pure fresh processing:
+     → AI processes ALL input through articulated/shareable paths
+     → AI CANNOT have Body-Knowing (no body, no interoception, no compilation)
+     → = Missing Body-Knowing dimension entirely
+     → = Humans irreplaceable where Body-Knowing matters
+
+🟢 Farb 2013 (meditation → interoceptive access)
+🟡 Parallel processing + ratio dynamics = framework synthesis
+```
+
 ---
 
-## §8 — TƯƠNG TÁC VỚI OBJECT-AGENT
+## §7 — TƯƠNG TÁC VỚI OBJECT-AGENT
 
-> **Preserved from v1.0 §7. 4-cell matrix + 5 sub-cases Agent+Logic.**
+> **4-cell matrix + 5 sub-cases Agent+Body-Knowing-dominant.**
 
-### 8.1 — 4-Cell Matrix
+### 7.1 — 4-Cell Matrix
 
 ```
 ⭐ 2 CẶP INDEPENDENT nhưng INTERACT:
 
   Object-Agent = PHÂN LOẠI: "Cái này là ĐỒ VẬT hay SINH VẬT?"
-  Compiled/Fresh = XỬ LÝ: processing mode dominant?
+  Body-Knowing/Fresh = XỬ LÝ: processing mode dominant?
 
   ┌──────────────────┬─────────────────────┬───────────────────────────┐
-  │                  │ COMPILED-dominant   │ FRESH-dominant            │
+  │                  │ BODY-KNOWING-dom.   │ FRESH-dominant            │
   ├──────────────────┼─────────────────────┼───────────────────────────┤
   │ OBJECT           │ Phổ biến nhất       │ Einstein hack             │
   │ (đồ vật)         │ Physics, math, code │ "Cưỡi tia sáng" — body   │
   │                  │ Routine tool use    │ simulate abstract system  │
-  │                  │ Ratio: ~95/5        │ Ratio: ~30/70             │
   ├──────────────────┼─────────────────────┼───────────────────────────┤
-  │ AGENT            │ 5 sub-cases (§8.2)  │ Phổ biến nhất             │
+  │ AGENT            │ 5 sub-cases (§7.2)  │ Phổ biến nhất             │
   │ (sinh vật)       │ Schema / Routine /  │ Empathy, connection       │
   │                  │ Clinical / Danger   │ Mirror, body-based read   │
-  │                  │ Varies by sub-case  │ Ratio: ~30/70             │
   └──────────────────┴─────────────────────┴───────────────────────────┘
 ```
 
-### 8.2 — Agent + Compiled-dominant: 5 Sub-cases (preserved)
+### 7.2 — Agent + Body-Knowing-dominant: 5 Sub-cases
 
 ```
-🟡 KHÔNG ĐƠN GIẢN "danger zone" (v1.0 refinement preserved):
+🟡 KHÔNG ĐƠN GIẢN "danger zone":
 
-  SUB-CASE A: SCHEMA AGENTS (Đức Mẹ Mode 1)
+  SUB-CASE A: SCHEMA AGENTS
     → Agent đã schema DEFINE hoàn toàn → zero uncertainty
-    → Compiled-dominant = efficient. NEUTRAL/POSITIVE.
+    → Body-Knowing-dominant = efficient. NEUTRAL/POSITIVE.
 
   SUB-CASE B: ROUTINE ROLE INTERACTIONS
     → Co-worker greeting, cashier → enough compiled routine
@@ -1350,46 +1235,46 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
 
   SUB-CASE C: CLINICAL / SYSTEMATIC EMPATHY
     → Therapist analyzing patterns, doctor mapping symptoms
-    → Compiled used AS TOOL for serving agents. POSITIVE.
+    → Body-Knowing used AS TOOL for serving agents. POSITIVE.
 
   SUB-CASE D: DEHUMANIZATION (true danger)
-    → Reduce agent to rule-object. SUPPRESS compiled-body track for them.
+    → Reduce agent to rule-object. SUPPRESS Body-Knowing for them.
     → Enables: exploitation, abuse. NEGATIVE.
 
   SUB-CASE E: MANIPULATION
-    → Use compiled knowledge to exploit target's body-responses.
-    → Own compiled-body intact but used against other. NEGATIVE.
+    → Use Body-Knowing to exploit target's body-responses.
+    → Own Body-Knowing intact but used against other. NEGATIVE.
 
   DISTINGUISHING FACTOR:
-    D+E = compiled-body track for TARGET actively SUPPRESSED
-    A+B+C = compiled-body track still RUNNING (just low weight)
-    → Danger = SUPPRESSION of body-response-to-other, not mere compiled-dominance
+    D+E = Body-Knowing for TARGET actively SUPPRESSED
+    A+B+C = Body-Knowing still RUNNING (just low weight)
+    → Danger = SUPPRESSION of body-response-to-other, not mere Body-Knowing-dominance
 
-🟡 5 sub-cases = framework refinement. More accurate than binary "danger zone."
+🟡 5 sub-cases = framework refinement.
 ```
 
-### 8.3 — Object + Fresh-dominant: Creative Insight
+### 7.3 — Object + Fresh-dominant: Creative Insight
 
 ```
-🟡 EINSTEIN'S METHOD (preserved):
+🟡 EINSTEIN'S METHOD:
 
   Object: light beam, spacetime, electromagnetic field
-  Normal: compiled-dominant (physics rules apply → predict)
+  Normal: Body-Knowing-dominant (physics rules apply → predict)
   Einstein: FRESH body-simulation of abstract system
-    → "If I rode a light beam..." → body simulate → feel contradiction
+    → "If I rode a light beam..." → body simulate → Body-Knowing detects contradiction
     → 🟢 Hadamard letter: "images, feelings, muscular"
     → Logic/formalization came LATER (tensor calculus)
 
   OTHER EXAMPLES:
     → Kekulé benzene ring from dream (body simulation)
     → Poincaré insights during walks (incubation)
-    → Engineers "feel" when design is right
+    → Engineers feel when design is right
     → Musicians feel when composition works
     → Programmers feel code smell
 
   = Object + Fresh-body-exploration = INSIGHT ENGINE
-  = Requires development of body sense for abstract domains
-  = Traditional STEM education = Object + Compiled heavy → misses this path
+  = Requires development of Body-Knowing for abstract domains
+  = Traditional STEM education = Object + Body-Knowing heavy → misses this path
 
 🟢 Einstein Hadamard letter 1945
 🟡 Object+Fresh as insight mechanism = framework synthesis
@@ -1397,52 +1282,186 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
 
 ---
 
-## §9 — CONNECTIONS VỚI FRAMEWORK
+## §8 — HONEST ASSESSMENT
 
 ```
-📚 INTER-BODY DRILL (v2.0 SOURCE):
+🟢 HIGH CONFIDENCE — research-established:
 
-  Inter-Body-Mechanism.md v1.0 §3 — Compiled/Fresh = real axis
-    → Source-of-truth cho §1 primary reframe
+  ✓ Dual Process Theory: System 1/2 distinction (Kahneman 2011, Evans & Stanovich)
+  ✓ Somatic marker hypothesis: body-feedback needed for decisions (Damasio 1994, 1999)
+  ✓ Felt sense: body knowing before words (Gendlin 1978)
+  ✓ Interoception pathways: body → insula → awareness (Craig 2002, 2013)
+  ✓ Embodied simulation: body fires to understand (Gallese 2007)
+  ✓ Expert intuition = compiled patterns (Klein 1998, Chase & Simon 1973)
+  ✓ Intuition reliable under: patterns + feedback learning (Kahneman + Klein 2009)
+  ✓ Einstein: "images, feelings, muscular" — primary source (Hadamard 1945)
+  ✓ Cognitive effort = metabolic cost (Gailliot & Baumeister 2007)
+  ✓ Meditation → interoceptive accuracy (Farb 2013)
+  ✓ Alexithymia spectrum (Taylor 2000)
+  ✓ Split-brain confabulation (Gazzaniga)
+  ✓ Moral intuition first, reasoning post-hoc (Haidt 2001)
+  ✓ Cannot report actual causes of behavior (Nisbett & Wilson 1977)
+  ✓ Correspondence Principle: new theory reduces to old (Bohr)
+  ✓ Core knowledge: object vs agent from infancy (Spelke 2007)
+
+
+🟡 MEDIUM CONFIDENCE — framework synthesis:
+
+  ⚠ Body-Knowing as formal concept — names existing mechanism, consistent
+    with Klein 1998 + Gendlin 1978 (→ Body-Knowing.md v1.0 = comprehensive treatment)
+  ⚠ Compiled/Fresh as PRIMARY axis (vs speed or content) — consistent, novel frame
+  ⚠ "Shareable vs Non-shareable" Body-Knowing as WHY labels emerge — logically sound
+  ⚠ PFC = Lawyer for BOTH tracks — consistent with research, generalized
+  ⚠ Domain = Final Arbiter (stronger than "logic verify") — logical principle
+  ⚠ 3-cost model as structural limit on fresh processing — individually grounded
+  ⚠ Self-Referencing Trap (overprotected child) — consistent with attachment theory
+  ⚠ Body-Knowing shelf-life = f(collective arc stability) — Kahneman+Klein supports
+  ⚠ Parallel processing + mix ratios spectrum — plausible, not yet measured
+  ⚠ Modality bias as stable individual difference — consistent, not proven
+  ⚠ 5 sub-cases Agent+Body-Knowing (danger = suppression not dominance)
+  ⚠ Labels as observer-perspective artifact — novel framing of established data
+  ⚠ Kahneman reframe (compilation level not speed) — plausible alternative
+
+
+🔴 LOW CONFIDENCE — hypotheses:
+
+  ⚠ Exact ratio numbers — illustrative, not measured
+  ⚠ AI "cannot have Body-Knowing" — depends on consciousness theory
+  ⚠ Modality bias binary (verbal/somatic) — oversimplification
+  ⚠ "Mọi discovery follows cùng loop" — strong claim, exceptions possible
+
+
+NOT CLAIMING:
+  ✗ Logic-Feeling = only useful distinction
+  ✗ All thinking reduces to Body-Knowing + Fresh
+  ✗ Everyone should aim for 50/50 (context-dependent)
+  ✗ "Body-Knowing better than fresh" or vice versa (both needed)
+  ✗ Labels meaningless (useful pragmatically)
+  ✗ Body-Knowing = always correct (Self-Referencing Trap exists)
+  ✗ This taxonomy is final
+
+CLAIMING:
+  ✓ Body-Knowing = compiled body-direct knowing (formal name for mechanism)
+  ✓ Body-Knowing defined comprehensively in Body-Knowing.md v1.0
+  ✓ Compiled/Fresh = deeper mechanism than Logic/Feeling labels
+  ✓ Labels emerge from observer perspective (shareability)
+  ✓ Both labels still useful pragmatically
+  ✓ Domain reality = final arbiter for both tracks
+  ✓ PFC = Lawyer (neither track neutral)
+  ✓ Fresh processing has structural cost limits
+  ✓ Body-Knowing without domain verify = Self-Referencing Trap danger
+  ✓ Expert "intuition" = expert "logic" = same Body-Knowing
+  ✓ PFC = Lawyer → "Logic" ≠ independent rational agent (mechanism, not philosophical absolute)
+```
+
+---
+
+## §9 — CÂU HỎI MỞ
+
+```
+RESOLVED:
+
+  ✅ Logic-Model-1: Binary switch hay spectrum? → Spectrum (§6 parallel)
+  ✅ Logic-Model-3: Modality influence? → Yes (§6.3 modality bias)
+  ✅ Logic-Model-4: Agent + Logic = danger? → 5 sub-cases (§7.2)
+  ✅ v2.0: "Logic/Feeling = mechanism?" → No. Observer labels for Body-Knowing.
+  ✅ v3.0→v4.0: "100% feeling collision?" → Resolved: terminology retired.
+     PFC = Lawyer + Learning Trajectory = mechanism descriptions đã sufficient.
+  ✅ v3.0: "Missing term for compiled body-direct knowing?" → Body-Knowing (§1.1)
+  ✅ Logic-Feeling-11: "Body-Knowing propagation to other framework files?"
+     → Body-Knowing.md v1.0 CREATED (2026-05-25). Phase 2 cascade underway.
+
+PARTIALLY RESOLVED:
+
+  Logic-Feeling-1: Hardware correlates?
+    Body-Knowing ≈ basal ganglia + cerebellum + insula (automatic pathways)
+    Fresh ≈ dorsolateral PFC + anterior cingulate (effortful pathways)
+
+  Logic-Feeling-2: Training balance?
+    Balance = Body-Knowing × Domain verify, not fixed ratio
+    (Logic-Feeling-Balance.md v3.0)
+
+STILL OPEN:
+
+  Logic-Feeling-3: Developmental trajectory precise mapping?
+    → Body-Knowing.md §9 covers 5-stage. Precise mapping TBD.
+  Logic-Feeling-4: Ratio malleability in adulthood?
+  Logic-Feeling-5: Body-Knowing suppression — measurable?
+  Logic-Feeling-6: Individual entity ratio stability?
+  Logic-Feeling-7: Cross-cultural variation in baseline?
+  Logic-Feeling-8: How to MEASURE compilation level empirically?
+  Logic-Feeling-9: Boundary conditions for "shareable"
+    (when does non-shareable BECOME shareable?)
+  Logic-Feeling-10: Body-Knowing vs emotional feeling — where exactly is the boundary?
+    Body-Knowing = compiled → body-direct → "biết" (pattern recognition)
+    Emotional feeling = body-state → PFC observe → "trải nghiệm" (affect)
+    Overlap: "I know I'm sad" (Body-Knowing about emotional state)
+    → Boundary may be SPECTRUM, not binary. Needs further analysis.
+```
+
+---
+
+## §10 — KẾT NỐI
+
+```
+📚 BODY-KNOWING DEFINITION:
+
+  Body-Knowing.md v1.0 — COMPREHENSIVE definition (12 sections)
+    → §1 Definition (3 Properties, formula, 4 hiểu nhầm)
+    → §2 Ba Hướng + Cross-species (outward/inward/social)
+    → §3 7-Layer Mapping (Feel-Observation–Feel-Labeling = key zone)
+    → §4 Formation Process (5 stages → Somatic-Articulation-Loop 7 stages)
+    → §5 Pre-Body-Knowing (3 sub-types: vague/hunch/nagging unease)
+    → §6 4 Cases không "biết"
+    → §7 Quality (6 dimensions: Domain-Checked/Self-Referencing, shelf-life, context, Lawyer, multi-ch, Dual Check)
+    → §8 Compiled/Fresh Spectrum
+    → §9 Development Trajectory (5-stage training, Focusing, AI era)
+
+📚 BODY-KNOWING SOURCE:
+
+  Inter-Body-Mechanism.md v2.0 §3 — Compiled/Fresh axis (SOURCE-OF-TRUTH)
     → §3.1 Reframe, §3.2 Evidence, §3.3 Transitions
-    → §3.4 Shareable vs Non-shareable (→ §1.4)
-    → §3.5 "100% feeling at base level" (→ §1.6)
-  Inter-Body-Mechanism.md v1.0 §4 — 3 Independent Cost Sources
-    → §3.3 + §4.3: WHY fresh processing has structural limits
-  Inter-Body-Mechanism.md v1.0 §7 — PFC = Lawyer
-    → §2.3: applies to BOTH "logic" and "feeling" output
+    → §3.4 Shareable vs Non-shareable
+    → §3.5 "100% feeling" → retired (PFC = Lawyer + Learning Trajectory sufficient)
+  Inter-Body-Mechanism.md v2.0 §4 — 3 Independent Cost Sources (→ §3.4)
+  Inter-Body-Mechanism.md v2.0 §7 — PFC = Lawyer (→ §2.3)
 
-📚 FEELING SYSTEM (Body-Base/Feeling/):
+📚 FEELING SYSTEM:
 
+  Feeling.md v3.0 §1.1 — Feeling definition (umbrella body-feedback system)
+    → Body-Knowing = specific aspect (compiled knowing) within this system
   Feeling.md v3.0 §2.5 — Compiled/Fresh × 7-Layer mapping
-    → 7-layer fidelity gradient = inversely correlated with fresh processing
   Feeling.md v3.0 §3.4 — PFC = Lawyer formal section
   Feeling.md v3.0 §5 — 8-Step Operational Flow
-  Feeling.md v3.0 §8.3 — 1A vs 1B (domain-checked vs self-referencing)
+  Feeling.md v3.0 §8.3 — Domain-Checked vs Self-Referencing (domain-checked vs self-referencing)
 
 📚 REWARD & BODY-FEEDBACK:
 
-  Reward-Signal-Architecture.md v2.0 §8.1 — Development trajectory (B→A)
-    → §1.5: Direct-State dominant → Evaluative compiles
-  Body-Feedback-Mechanism.md v2.0 — 2-source, Body-Need aggregate
+  Reward-Signal-Architecture.md v2.1 §8.1 — Development trajectory
+  Body-Feedback-Mechanism.md v2.1 — 2-source, Body-Need aggregate
   Body-Feedback-Label.md v2.0 — Vocabulary reference
-  Gap-Direction.md v2.0 — Gap has direction (why compiled body can be "wrong direction")
-  Ask-AI.md v3.1 §6.1 — Dual Check (body=QC, domain=arbiter)
+  Gap-Direction.md v2.0 — Gap has direction
+  Ask-AI.md v3.1 §6.1 — Dual Check (body=quality controller, domain=arbiter)
 
-📚 CORE + MECHANISM:
+📚 PFC MECHANISM:
 
-  Core-v7.5-Draft.md §7.⑦ — Incremental Calibration = Compiled/Fresh loop
-  Core-v7.5-Draft.md §7.⑧ — Domain Combination (cross-domain via body)
-  PFC-Analysis.md §1 — DRAFT (fresh) + TEST (domain) + ROUTE (compile)
-  Somatic-Articulation-Loop.md — Body-knowledge (compiled) → explicit (fresh formalize)
+  PFC-Function.md v1.2 — 24 functions / 5 categories (OBSERVE→HOLD→PROCESS→ORCHESTRATE→STRATEGIC)
+  Somatic-Articulation-Loop.md — Body-knowledge (Body-Knowing) → explicit (fresh formalize)
   Chunk.md v2.0 §8 — Two Operators: compiled search vs PFC fresh hold
 
 📚 COMPANION:
 
-  Logic-Feeling-Balance.md v2.1 — META-PRINCIPLE
-    → Balance = Compiled×Domain, not fixed L/F ratio
+  Logic-Feeling-Balance.md v3.0 — META-PRINCIPLE
+    → Balance = Body-Knowing × Domain verify, not fixed ratio
     → Domain feedback = HƯỚNG calibrate
-  Logic-Feeling-Failure-Examples.md — failure case library
+  Logic-Feeling-Failure-Examples.md v1.0 — 18 failure case library
+
+📚 DOMAIN + APPLICATION:
+
+  Domain/Object-Agent.md — classification modes
+  Domain/Agent-2Axis-Analysis.md — parallel + modality source
+  Cortisol-Baseline.md v2.0 — Case 1 source
+  Collective-Purpose.md — cosmic loop = macro version
 
 📚 MAINSTREAM RESEARCH:
 
@@ -1466,191 +1485,42 @@ LOGIC-FEELING v2.0 TRONG KIẾN TRÚC FRAMEWORK:
   Garfinkel S. (2015) — Individual interoceptive accuracy differences
   Bohr N. — Correspondence Principle
   Spelke E. (2007) — Core knowledge: object vs agent systems
+
+
+v4.0 CHANGELOG:
+  v1.0 (2026-04-13): DRAFT. "2 Processing Modes" (Logic + Feeling).
+  v2.0 (2026-05-17): FULL REWRITE. Compiled/Fresh = trục thật. Logic/Feeling = observer labels.
+  v2.1 (2026-05-17): SURGICAL. +Domain Stability, +Trader example, +Shelf-Life.
+  v3.0 (2026-05-25): FULL REWRITE.
+    → §1: Body-Knowing = formal concept cho compiled body-direct knowing
+    → §4.3: "100% feeling/body-need-driven" → retired (PFC = Lawyer established)
+    → Structure: merge + deduplicate + reframe
+  v4.0 (2026-05-26): FULL REWRITE — align Body-Knowing.md v1.0.
+    → §1 TRIM: definition + spectrum → brief recap + reference Body-Knowing.md
+      (3 Properties: Compiled, Body-direct, PFC-encodable — consistent)
+      (Formula: f(compiled_chunks × signal_match × PFC_access) — aligned)
+    → §3 RESTRUCTURE: Loop → Shelf-Life → Domain Verify → Transitions Brief
+      (Development Trajectory → removed, reference Body-Knowing.md §9)
+    → §4.3 Dual Check: trimmed, reference Body-Knowing.md §7.6
+    → §5.5: L1/L2/L3 → explicit descriptions (avoid layer-numbering ambiguity)
+    → §9 Logic-Feeling-11: RESOLVED (Body-Knowing.md v1.0 exists)
+    → §10: +Body-Knowing.md v1.0 entry (BODY-KNOWING DEFINITION section)
+    → Dependencies: +Body-Knowing.md v1.0
+    → ALL research citations preserved (19)
+    → ALL 6 cases preserved
+    → ALL cross-references updated
 ```
 
 ---
 
-## §10 — HONEST ASSESSMENT
-
-```
-🟢 HIGH CONFIDENCE — research-established:
-
-  ✓ Dual Process Theory: System 1/2 distinction (Kahneman 2011, Evans & Stanovich)
-  ✓ Somatic marker hypothesis: feeling needed for decisions (Damasio 1994, 1999)
-  ✓ Felt sense: body knowing before words (Gendlin 1978)
-  ✓ Interoception pathways: body → insula → awareness (Craig 2002, 2013)
-  ✓ Embodied simulation: body fires to understand (Gallese 2007)
-  ✓ Expert intuition = compiled patterns (Klein 1998, Chase & Simon 1973)
-  ✓ Intuition reliable under: patterns + feedback learning (Kahneman + Klein 2009)
-  ✓ Einstein: "images, feelings, muscular" — primary source (Hadamard 1945)
-  ✓ Cognitive effort = metabolic cost (Gailliot & Baumeister 2007)
-  ✓ Meditation → interoceptive accuracy (Farb 2013)
-  ✓ Alexithymia spectrum (Taylor 2000)
-  ✓ Split-brain confabulation (Gazzaniga)
-  ✓ Moral intuition first, reasoning post-hoc (Haidt 2001)
-  ✓ Cannot report actual causes of behavior (Nisbett & Wilson 1977)
-  ✓ Correspondence Principle: new theory reduces to old (Bohr)
-  ✓ Core knowledge: object vs agent from infancy (Spelke 2007)
-
-
-🟡 MEDIUM CONFIDENCE — framework synthesis:
-
-  ⚠ Compiled/Fresh as PRIMARY axis (vs speed or content) — consistent, novel frame
-  ⚠ "Shareable vs Non-shareable" as WHY labels emerge — logically sound, novel
-  ⚠ PFC = Lawyer for BOTH tracks — consistent with research, generalized
-  ⚠ Domain = Final Arbiter (stronger than "logic verify") — logical principle
-  ⚠ 3-cost model as structural limit on fresh processing — individually grounded
-  ⚠ Development trajectory (B→A→compiled=feels-like-B) — consistent with Reward-Signal-Architecture
-  ⚠ 1B trap (overprotected child) — consistent with attachment theory
-  ⚠ "100% feeling at base level" — logical consequence of architecture
-  ⚠ Parallel processing + mix ratios spectrum — plausible, not yet measured
-  ⚠ Modality bias as stable individual difference — consistent, not proven
-  ⚠ 5 sub-cases Agent+Compiled (danger = suppression not dominance)
-  ⚠ Labels as observer-perspective artifact — novel framing of established data
-  ⚠ Kahneman reframe (compilation level not speed) — plausible alternative
-  ⚠ Domain stability → compilation shelf-life — logically sound, Kahneman+Klein 2009 supports
-
-
-🔴 LOW CONFIDENCE — hypotheses:
-
-  ⚠ Exact ratio numbers (100/0 → 10/90) — illustrative, not measured
-  ⚠ "100% feeling at base level" — philosophical consequence, hard to test
-  ⚠ AI "cannot have compiled-body track" — depends on consciousness theory
-  ⚠ Modality bias binary (verbal/somatic) — oversimplification
-  ⚠ "Mọi discovery follows cùng loop" — strong claim, exceptions possible
-
-
-NOT CLAIMING:
-  ✗ Logic-Feeling = only useful distinction
-  ✗ All thinking reduces to Compiled + Fresh
-  ✗ Everyone should aim for 50/50 (context-dependent)
-  ✗ "Feeling better than logic" or vice versa (both needed)
-  ✗ Labels meaningless (useful pragmatically)
-  ✗ This taxonomy is final
-
-CLAIMING:
-  ✓ Compiled/Fresh = deeper mechanism than Logic/Feeling labels
-  ✓ Labels emerge from observer perspective (shareability)
-  ✓ Both labels still useful pragmatically
-  ✓ Domain reality = final arbiter for both tracks
-  ✓ PFC = Lawyer (neither track neutral)
-  ✓ Fresh processing has structural cost limits
-  ✓ Compilation without domain verify = 1B trap danger
-  ✓ Expert "intuition" = expert "logic" (same mechanism, different shareability)
-```
-
----
-
-## §11 — CÂU HỎI MỞ
-
-```
-RESOLVED (from v1.0):
-
-  ✅ LM-1: Binary switch hay spectrum? → RESOLVED: Spectrum (§6 parallel)
-  ✅ LM-3: Modality influence? → RESOLVED: Yes (§7 modality bias)
-  ✅ LM-4: Agent + Logic = danger? → RESOLVED: 5 sub-cases (§8.2)
-  ✅ v2.0 NEW: "Logic/Feeling = mechanism?" → RESOLVED: No. Observer labels.
-    Mechanism = Compiled/Fresh spectrum.
-
-PARTIALLY RESOLVED:
-
-  LF-1: Hardware correlates? → PARTIALLY via Compiled/Fresh axis
-    Compiled ≈ basal ganglia + cerebellum + insula (automatic pathways)
-    Fresh ≈ dorsolateral PFC + anterior cingulate (effortful pathways)
-    Cross-ref: Feeling.md v3.0 §2.5 (7-layer × Compiled/Fresh)
-
-  LF-2: Training balance? → PARTIALLY via Logic-Feeling-Balance.md
-    Balance = Compiled×Domain, not fixed ratio
-    Training = compile + verify cycle (not "more logic" or "more feeling")
-
-STILL OPEN:
-
-  LF-3: Developmental trajectory precise mapping?
-  LF-4: Ratio malleability in adulthood?
-  LF-5: Compiled-body suppression — measurable?
-  LF-6: Individual entity ratio stability?
-  LF-7: Cross-cultural variation in baseline?
-  LF-8 (NEW): How to MEASURE compilation level empirically?
-  LF-9 (NEW): Boundary conditions for "shareable" (when does non-shareable BECOME shareable?)
-```
-
----
-
-## §12 — KẾT NỐI
-
-```
-📚 FULL CROSS-REFERENCE LIST (v2.0):
-
-  FEELING SYSTEM:
-    → Feeling.md v3.0 (§2.5 Compiled/Fresh×7-Layer, §3.4 PFC=Lawyer, §8.3 1A/1B)
-    → Feeling-Sources.md (10 channels)
-    → Feeling-Accuracy.md (error modes, body-first)
-    → Feeling-Research.md (Damasio, Gendlin, Craig)
-    → Feeling-Mechanism-Deep.md (8-step, reward, gradient)
-    → Feeling-Literacy-Training.md (5-stage, Focusing)
-
-  INTER-BODY DRILL:
-    → Inter-Body-Mechanism.md v1.0 §3-§4, §7 (SOURCE for v2.0 reframe)
-
-  BODY-FEEDBACK:
-    → Body-Feedback-Mechanism.md v2.0 (2-source, Body-Need)
-    → Reward-Signal-Architecture.md v2.0 (Evaluative/Direct-State, development)
-    → Body-Feedback-Label.md v2.0 (vocabulary)
-    → Gap-Direction.md v2.0 (direction, by-product match)
-    → Ask-AI.md v3.1 (Dual Check)
-
-  CORE + MECHANISM:
-    → Core-v7.5-Draft.md §7.⑦ (incremental calibration)
-    → Core-v7.5-Draft.md §7.⑧ (domain combination)
-    → PFC-Analysis.md §1 (draft + test + route)
-    → Somatic-Articulation-Loop.md (body → words)
-    → Chunk.md v2.0 §8 (two operators)
-
-  COMPANION:
-    → Logic-Feeling-Balance.md v2.1 (META-PRINCIPLE)
-    → Logic-Feeling-Failure-Examples.md (case library)
-
-  DOMAIN + APPLICATION:
-    → Domain/Object-Agent.md (classification modes)
-    → Domain/Agent-2Axis-Analysis.md (parallel + modality source)
-    → Cortisol-Baseline.md v2.0 (Case 1 source)
-    → Collective-Purpose.md (cosmic loop = macro version)
-
-
-  v2.0 CHANGELOG:
-    v1.0 (2026-04-13): DRAFT. "2 Processing Modes" (Logic + Feeling).
-    v2.0 (2026-05-17): FULL REWRITE.
-    v2.1 (2026-05-17): SURGICAL.
-      → §1.2: +trader example in spectrum + observer mislabel
-      → §1.3b NEW: Compilation Shelf-Life = f(collective arc stability)
-        (domain stable, collective arc shifts → compiled patterns expire.
-         Stable-arc ≈ ∞ vs shifting-arc = limited.
-         Trader/bác sĩ/tướng quân examples. 1B trap highest ở shifting-arc.
-         Kahneman+Klein 2009. Consistent with Domain.md §2 ⑥.)
-      → §1.4: +Arc stability dimension in Shareable/Non-shareable
-      → §10: +1 🟡 item (compilation shelf-life)
-      → §1 NEW: Compiled/Fresh = primary axis (6 sub-sections)
-      → §2 NEW: Logic/Feeling = observer labels (4 sub-sections)
-      → §3 REFRAME: "Both needed" via Compiled/Fresh + 3-cost + Dual Check
-      → §4 RENAME: "Compiled Anchor ↔ Fresh Explore" + Domain verify
-      → §5: +Case 6 (1B trap: overprotected child)
-      → §6-§8: KEEP + minor Compiled/Fresh reframe
-      → §9-§12: UPDATE cross-refs + honest assessment
-      → ALL research citations preserved (15+ → 19)
-      → ALL signature cases preserved (5 → 6)
-      → Einstein Hadamard primary source preserved
-      → Parallel processing + modality bias preserved
-      → 5 sub-cases Agent+Compiled preserved
-```
-
----
-
-> **END OF Logic-Feeling.md v2.0**
+> **END OF Logic-Feeling.md v4.0**
 >
-> **Core insight:** "Logic" vs "Feeling" = observer labels for SAME mechanism (compiled/fresh).
-> Compiled chunks SHAREABLE → label "logic." Non-shareable → label "intuition/feeling."
-> Fresh processing → label "logic" (vì PFC visible). NONE is mechanism difference.
+> **Core insight:** Body-Knowing = compiled body-direct knowing (→ Body-Knowing.md v1.0).
+> "Logic" vs "Feeling" = observer labels for SAME Body-Knowing (differ only in shareability).
+> Shareable Body-Knowing → "logic." Non-shareable Body-Knowing → "feeling/intuition."
+> Fresh processing → "logic" (vì PFC visible). NONE is mechanism difference.
 >
-> **Compiled/Fresh = trục thật. Labels = useful pragmatic tools. Domain = final arbiter.**
+> **Body-Knowing = mechanism. Labels = useful pragmatic tools. Domain = final arbiter.**
+> **PFC = Lawyer. Learning trajectory → Body-Knowing.**
 >
-> **Phiên bản:** v2.0, 2026-05-17.
+> **Phiên bản:** v4.0, 2026-05-26.

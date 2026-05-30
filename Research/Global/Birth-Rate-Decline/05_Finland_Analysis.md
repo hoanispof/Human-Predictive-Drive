@@ -439,14 +439,14 @@
       L0 (safety): ✅ (safe country, low crime)
       L1 (resources): ✅ (welfare provides)
       L2 (connection): ⚠️ (possible alone via digital + casual social)
-      L3 (meaning): ⚠️ (career provides identity + purpose)
+      meaning (evaluative): ⚠️ (career provides identity + purpose)
       → = Body: "MỌI THỨ OK" → NO SIGNAL to change
 
     Body needs KHI CÓ CON:
       L0: neutral (Finland safe with or without)
       L1: slight negative (some cost despite subsidies)
       L2: POSSIBLE positive (but also possible without — friends, community)
-      L3: POSSIBLE positive (but career ALSO provides meaning)
+      meaning (evaluative): POSSIBLE positive (but career ALSO provides meaning)
       → = Body: "children = optional enhancement, not necessity"
 
     → = Welfare REMOVE urgency → children become LUXURY, not NEED

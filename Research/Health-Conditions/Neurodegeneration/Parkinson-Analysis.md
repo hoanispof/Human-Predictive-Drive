@@ -1,7 +1,8 @@
 ---
 title: Parkinson-Analysis — Cơ Chế Parkinson Qua Framework v7.8
-version: 1.1
+version: 1.2
 created: 2026-05-15
+refined: 2026-05-29 (v1.2 — L3 RETIRE: "L0→L1→L3→PFC"→"L0 substrate→L1 substrate→modulatory→PFC". Body-Base v3.3 aligned)
 updated: 2026-05-15 (v1.1 — FULL REWRITE: +Modulatory vs Processing neurons distinction, +Basal ganglia GATE mechanism, +α-synuclein physical transfer/seeding detail, +WHY SNc vulnerable consolidated, +Remaining neurons overwork→accelerate, +Levodopa efficacy timeline, +NIC-PD 2024 nicotine NOT protective)
 status: v1.1 — REFERENCE FILE
 scope: |
@@ -11,7 +12,7 @@ scope: |
   Basal ganglia = GATE (default CLOSED). Dopamine = KEY mở gate. Parkinson = key destroyed → gate locked.
   α-synuclein: normal protein misfold → prion-like physical spread (exosome/nanotube/synapse/lysis) → template seeding.
   WHY SNc FIRST: self-toxic environment (dopamine metabolism + iron + calcium + massive axon arbor + aging quality control).
-  Braak 6 stages = bottom-up qua framework L0→L1→L3→PFC.
+  Braak 6 stages = bottom-up qua framework L0 substrate→L1 substrate→modulatory operators→PFC.
   Wanting impaired / Liking preserved = 7-step mechanism confirmed (Sienkiewicz-Jarosz 2005).
   Levodopa paradox: dopamine overdose hypothesis → ICDs 13.6%. Efficacy declines as converters die + cortex degrades.
   NIC-PD 2024: nicotine KHÔNG phải chất bảo vệ → MAO-B/CO candidates.
@@ -30,7 +31,7 @@ dependencies:
   - Dopamine-Is-Not-Reward.md v1.1 — 7-step, wanting≠liking, 3 positions
   - Core-Software.md v1.0 — cycle architecture, prediction cycle
   - Body-Feedback-Mechanism.md v1.2 — Chunk-Shift/Miss/Gap, 4 axes
-  - Body-Base.md v2.0 — L0/L1/L3, body evaluates patterns
+  - Body-Base.md v3.3 — L0+L1 substrate, body evaluates patterns
   - Reward-Calibration.md v1.1 — Goldilocks per-gap
   - Cortisol-Baseline.md v2.0 — amplifier, 10 touchpoints
   - Nicotine-Brain-Mechanism.md v1.1 — File 1, nicotine × Parkinson bridge
@@ -199,7 +200,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Depression (raphe nuclei — serotonin)
     → Anxiety (locus coeruleus — NE)
 
-  = Body-base (L0/L1) degrade TRƯỚC drives + execution (L3)
+  = Body-base (L0/L1) substrate degrade TRƯỚC modulatory operators + execution
   = Bệnh bắt đầu TỪ NỀN, leo LÊN ĐỈNH (§4 Braak)
 ```
 
@@ -707,14 +708,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├───────────┼────────────────┼──────────────────────────────────┤
   │ Stage 1   │ L0 body-base   │ Gut (enteric), olfactory         │
   │ Stage 2   │ L1 body-inputs │ Serotonin, NE, sleep, autonomic  │
-  │ Stage 3-4 │ L3 drives +    │ Dopamine (gate key), motor,      │
+  │ Stage 3-4 │ Modulatory +   │ Dopamine (gate key), motor,      │
   │           │ execution      │ mesolimbic (motivation)           │
   │ Stage 5-6 │ PFC + cortex   │ Executive, memory → dementia     │
   └───────────┴────────────────┴──────────────────────────────────┘
 
-  Direction: L0 → L1 → L3 → PFC = BOTTOM-UP
+  Direction: L0 substrate → L1 substrate → modulatory → PFC = BOTTOM-UP
 
-  Body-Base.md v2.0 §5: L0 (Alive) → L1 (body-inputs) → L3 (drives)
+  Body-Base.md v3.3: L0 (Alive) + L1 (body-inputs) substrate + observation parameters
   Braak staging: gut/olfactory → brainstem → midbrain → cortex
   = CÙNG HƯỚNG ĐI LÊN
 
@@ -1476,7 +1477,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     "Gate" metaphor = simplification of complex circuit dynamics.
     USEFUL but not complete (actual circuit = more nuanced).
 
-  → Braak maps to L0→L1→L3→PFC:
+  → Braak maps to L0 substrate→L1 substrate→modulatory→PFC:
     Mapping COHERENT. Framework layers not independently validated — post-hoc fit.
 
   → FOG as "gate overload" (multiple demands > depleted key):
@@ -1541,7 +1542,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 **Framework core**:
 - [Dopamine-Is-Not-Reward.md v1.1](../../Core-Deep-Dive/Clarification/Dopamine-Is-Not-Reward.md) — 7-step, wanting≠liking
 - [Core-Software.md v1.0](../../Core-Software.md) — cycle architecture, Body-Output stage
-- [Body-Base.md v2.0](../../Core-Deep-Dive/Body-Base/Body-Base.md) — L0/L1/L3, body evaluates patterns
+- [Body-Base.md v3.3](../../Core-Deep-Dive/Body-Base/Body-Base.md) — L0+L1 substrate, body evaluates patterns
 - [Body-Feedback-Mechanism.md v1.2](../../Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Mechanism.md) — Chunk-Miss, 4 axes
 - [Reward-Calibration.md v1.1](../../Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Calibration.md) — Goldilocks
 - [Cortisol-Baseline.md v2.0](../../Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — amplifier, cascade
@@ -1591,7 +1592,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > *"2 loại neurons: Modulatory (mạch phụ, đang CHẾT) vs Processing (mạch chính, ban đầu CÒN)."*
 > *"Basal ganglia = GATE. Default = ĐÓNG. Dopamine = chìa khóa. Parkinson = chìa bị PHÁ HỦY."*
 > *"α-synuclein: protein bình thường → misfold ở SNc (self-toxic) → CHUI VẬT LÝ sang neurons khác → cascade."*
-> *"Braak staging = α-syn ascending L0→L1→L3→PFC. Bottom-up qua framework architecture."*
+> *"Braak staging = α-syn ascending L0 substrate→L1 substrate→modulatory→PFC. Bottom-up qua framework architecture."*
 > *"Wanting impaired, Liking preserved = 7-step mechanism xác nhận."*
 > *"NIC-PD 2024: nicotine KHÔNG bảo vệ. MAO-B/CO candidates. Thuốc LÁ ≠ nicotine."*
 > *"Addiction = SOFTWARE (chìa khóa bị copy sai). Parkinson = HARDWARE (chìa khóa bị PHÁ HỦY)."*

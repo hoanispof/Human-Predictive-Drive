@@ -10,6 +10,7 @@
 >
 > **Hiểu bản thân = prerequisite. Không phải optional.**
 > **Body = quality controller (~90%). Domain reality = final arbiter.**
+> ⚠️ % = calibration anchor, KHÔNG phải đo lường chính xác.
 > **Calibration của bạn còn fresh không?**
 >
 > **File này phân tích: cơ chế amplification hoạt động thế nào?
@@ -34,7 +35,7 @@
 >   - Human-AI-Future.md v3.0 — §0 mechanism table, §5 risk xã hội, §7 symbiosis, §8 tự nâng cấp
 >   - Core-Software.md v1.0 — PFC vs body-base 2-system architecture
 >   - Body-Base.md v3.1 — §7 2-Tier + 2-Pathway calibration, 3 failure modes, body ~90%
->   - Body-Feedback.md v1.1 — dual-pull, body accuracy ~90%, H10
+>   - Body-Feedback.md v1.1 — dual-pull, body accuracy ~90%, Body-Feedback-Precondition
 >   - PFC-Function.md v1.2 — PFC override, observe, ~5% influence
 >   - AI-Schema-Detection.md v2.0 — 3-layer detection, AI trust guardrails §8
 >   - Ask-AI.md v3.1 — §6.1 Dual Check (body + domain), §3.2⑦ coherence ≠ truth
@@ -217,7 +218,7 @@
   Self-model = tập hợp chunks bạn compiled về chính mình:
     → "Tôi là người thế nào" (identity chunks — Anchor-Schema.md)
     → "Tôi giỏi/kém ở đâu" (competence chunks — Mastery, §8 Core-Software.md)
-    → "Tại sao tôi phản ứng vậy" (explanation chunks — PFC Layer 7, 20-70% fidelity)
+    → "Tại sao tôi phản ứng vậy" (explanation chunks — PFC Feel-Explanation, 20-70% fidelity)
     → "Tôi cần gì" (need assessment — Body-Feedback.md, often wrong)
 
   Self-model ĐA SỐ = Trust Compile compiled (trust-installed):
@@ -840,7 +841,7 @@
 
   AI CONFIRMS:
     → AI giải thích chi tiết, ví dụ phong phú, step-by-step
-    → PFC: "à! rõ rồi!" → feeling of understanding (Layer 6-7, 40-80% fidelity)
+    → PFC: "à! rõ rồi!" → feeling of understanding (Feel-Labeling/Feel-Explanation, 40-80% fidelity)
     → 🟢 Bastani et al. 2024: students dùng GPT-4 practice → WORSE performance on test WITHOUT AI
 
   BODY-FEEDBACK DISMISSED:
@@ -1472,7 +1473,7 @@ CÂU HỎI MỞ:
 MECHANISM FILES (core evidence):
   → Core-Software.md v1.0 — PFC vs body-base 2-system, cycle, sole substrate
   → Body-Base.md v3.1 — §7 2-Tier + 2-Pathway calibration, 3 failure modes, body ~90%
-  → Body-Feedback.md v1.1 — dual-pull, body accuracy ~90%, H10 5 preconditions
+  → Body-Feedback.md v1.1 — dual-pull, body accuracy ~90%, Body-Feedback-Precondition 5 preconditions
   → Body-Feedback-Mechanism.md v1.2 — chunk dynamics: Shift/Miss/Gap
   → Feeling.md v2.1 — 7-layer fidelity gradient, PFC observation interface
   → PFC-Function.md v1.2 — 24 functions, PFC override, confabulation

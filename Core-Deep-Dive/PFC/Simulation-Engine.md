@@ -1,19 +1,20 @@
 ---
-title: Simulation Engine — 1 Engine, 3 Components, N Applications
-version: 1.0
+title: Simulation-Engine — 1 Engine, 3 Components, N Applications
+version: 1.1
 created: 2026-05-22
-status: MECHANISM v1.0
+updated: 2026-05-25 (v1.1 — §3.3 +Simulation-Engine × Dissonance Type output asymmetry, +Dissonance-Signal-Architecture cross-ref)
+status: MECHANISM v1.1
 scope: |
-  ARCHITECTURE file: Brain có 1 general-purpose Simulation Engine, KHÔNG PHẢI N modules riêng.
+  ARCHITECTURE file: Brain có 1 general-purpose Simulation-Engine, KHÔNG PHẢI N modules riêng.
   3 Components: Interoception (readout) × Constructive Simulation (CPU) × Self/Other Model (target).
   3 Axes: Target (Self↔Other) × Time (Past↔Future) × Operation (Observe↔Construct).
   Application = tọa độ trong 3D space. Self-Pattern-Modeling, Self-Observation, Imagine-Final = 3 named points.
   Alexithymia = decisive proof cho shared substrate.
   PFC accessibility spectrum, engine use quality, bidirectional loop, training implications.
 purpose: |
-  Self-Pattern-Modeling.md = APPLICATION 1 (mechanism riêng cho agent prediction).
-  Feeling.md = APPLICATION 2 (mechanism riêng cho body observation).
-  Imagine-Final.md = APPLICATION 3 (mechanism riêng cho future simulation).
+  Self-Pattern-Modeling.md = APPLICATION-1 (mechanism riêng cho agent prediction).
+  Imagine-Final.md = APPLICATION-2 (mechanism riêng cho future simulation).
+  Self-Observation = APPLICATION-3 (PFC observe body state; partially described in Feeling.md, chưa có file riêng).
   File NÀY = SHARED ENGINE underneath tất cả — KIẾN TRÚC THỐNG NHẤT.
   Giải thích TẠI SAO: luyện 1 → improve tất cả. Hỏng 1 → degrade tất cả.
   = "Missing architecture file" — mỗi application file mô tả 1 app, file này mô tả ENGINE.
@@ -26,10 +27,11 @@ position: |
 dependencies:
   - Inter-Body-Mechanism.md v1.0 — §3 Compiled/Fresh axis, Compilable Architecture
   - PFC-Operations.md v1.0 — §9 PFC Budget, §10 Compilable Architecture + 3-Cost
-  - Self-Pattern-Modeling.md v3.1 — APPLICATION 1, Compiled/Fresh on engine
-  - Feeling.md v3.0 — APPLICATION 2, PFC observation interface
-  - Imagine-Final.md — APPLICATION 3, future simulation
-  - Body-Feedback-Mechanism.md v2.0 — §3 chunk dynamics, body-feedback readout
+  - Self-Pattern-Modeling.md v3.1 — APPLICATION-1, Compiled/Fresh on engine
+  - Imagine-Final.md v3.0 — APPLICATION-2, future simulation
+  - Feeling.md v3.0 — PFC observation interface (broader than APPLICATION-3; Self-Observation chưa có file riêng)
+  - Body-Feedback-Mechanism.md v2.1 — §3 chunk dynamics, body-feedback readout
+  - Dissonance-Signal-Architecture.md v1.0 — §7.1 Simulation-Engine × Evaluative Dissonance generator
   - Entity-Access.md v1.1 — Entity-Access gradient = mPFC gradient
   - Entity-Valence-Dynamics.md v2.0 — per-entity valence on engine
   - Connection.md v4.0 — social context for bidirectional loop
@@ -40,7 +42,7 @@ language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Simulation Engine — 1 Engine, 3 Components, N Applications
+# Simulation-Engine — 1 Engine, 3 Components, N Applications
 
 > **Brain KHÔNG CÓ module riêng cho mỗi "mental function."**
 > **Self-Pattern-Modeling, Self-Observation, Imagine-Final, memory, counterfactual, moral judgment, creativity...**
@@ -91,9 +93,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §0.1 — Core thesis
 
 ```
-⭐⭐⭐ SIMULATION ENGINE:
+⭐⭐⭐ SIMULATION-ENGINE:
 
-  ① Brain có 1 general-purpose SIMULATION ENGINE (not N separate modules)
+  ① Brain có 1 general-purpose SIMULATION-ENGINE (not N separate modules)
   ② Engine = 3 COMPONENTS: Interoception × Constructive Simulation × Self/Other Model
   ③ 3 AXES xác định application: Target × Time × Operation
   ④ Mọi "mental function" = tọa độ cụ thể trong 3D space
@@ -121,14 +123,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │
     ├── Drill-Self-Pattern-Modeling-Self-Shared-Substrate v1.0 = EVIDENCE (neural proof)
     │
-    ├── Self-Pattern-Modeling v3.1 = APPLICATION 1 (Self-Pattern-Modeling mechanism)
+    ├── Self-Pattern-Modeling v3.1 = APPLICATION-1 (Self-Pattern-Modeling mechanism)
     │   = Other × Present × Simulate
     │
-    ├── Imagine-Final.md v3.0 = APPLICATION 2 (future simulation)
+    ├── Imagine-Final.md v3.0 = APPLICATION-2 (future simulation)
     │   = Self × Future × Simulate+Construct
     │
-    ├── Feeling.md v3.0 = APPLICATION 3 (self-observation)
+    ├── Self-Observation = APPLICATION-3 (chưa có file riêng)
     │   = Self × Present × Observe
+    │   (partially described in Feeling.md — Feeling scope rộng hơn APPLICATION này)
     │
     ├── PFC-Operations.md v1.0 = HOW PFC operates trên engine
     │   = Hold/Suppress on Compiled/Fresh spectrum
@@ -150,7 +153,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 ⭐⭐⭐ COMPILED/FRESH = GENERAL-PURPOSE HARDWARE (Inter-Body-Mechanism §3).
-    SIMULATION ENGINE = 3 COMPONENTS TRÊN HARDWARE NÀY:
+    SIMULATION-ENGINE = 3 COMPONENTS TRÊN HARDWARE NÀY:
 
   COMPONENT 1 — INTEROCEPTION (anterior insula):
     = ĐỌC body signals TRỰC TIẾP
@@ -187,7 +190,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Upgrade CPU = upgrade ALL apps
     → Display broken = ALL apps broken (alexithymia)
     
-  🟢 DMN as simulation engine: Buckner et al. 2008
+  🟢 DMN as Simulation-Engine: Buckner et al. 2008
   🟢 Constructive simulation: Schacter, Addis & Buckner 2007
   🟢 Interoception readout: Bird, Silani et al. 2010
   🟡 "3 components" explicit model = framework synthesis
@@ -295,8 +298,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ ① │ Self-Pattern-Modeling              │ Other(close) │ Present   │ Simulate │ Self-Pattern-Modeling │
   │   │ "bạn đang buồn"  │ or far       │           │          │ v3.0                 │
   ├───┼──────────────────┼──────────────┼───────────┼──────────┼──────────────────────┤
-  │ ② │ Self-Observation  │ Self         │ Present   │ Observe  │ Feeling.md v3.0      │
-  │   │ "tôi đang lo"    │              │           │(+intero.)│                      │
+  │ ② │ Self-Observation  │ Self         │ Present   │ Observe  │ (chưa có file riêng) │
+  │   │ "tôi đang lo"    │              │           │(+intero.)│ cf. Feeling.md v3.0  │
   ├───┼──────────────────┼──────────────┼───────────┼──────────┼──────────────────────┤
   │ ③ │ Imagine-Final     │ Self         │ Future    │ Simulate │ Imagine-Final.md     │
   │   │ "nếu tôi bỏ việc"│              │           │+Construct│                      │
@@ -360,6 +363,35 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Full taxonomy = framework synthesis
 ```
 
+### §3.3 — Simulation-Engine × Dissonance Type: Output Asymmetry
+
+```
+🟡 SIMULATION-ENGINE = EVALUATIVE DISSONANCE GENERATOR (Dissonance-Signal-Architecture.md v1.0 §7.1):
+
+  Simulation-Engine CAN generate Evaluative Dissonance WITHOUT external input:
+    "Imagine-Final: công ty phá sản" → body pre-feel → Evaluative Dissonance
+    "Preview: bị đuổi việc" → body simulate → Evaluative Dissonance
+    "Self-model: mình không xứng đáng" → schema mismatch → Evaluative Dissonance
+    → Applications ③④⑦⑧⑨⑩ ALL có thể generate Evaluative Dissonance
+
+  Simulation-Engine KHÔNG generate Direct-State Dissonance:
+    Cannot create real tissue damage through simulation.
+    Cannot create real hunger, real pain, real temperature change.
+    → Direct-State Dissonance requires HARDWARE activation — not simulation.
+
+  NHƯNG: Simulation-Engine CAN CASCADE Evaluative → Direct-State body symptoms:
+    "Imagine-Final: hổ tấn công" → cortisol spike → heart rate up → body symptoms
+    = Evaluative TRIGGER → Direct-State CASCADE (not Direct-State origin)
+    → Anxiety disorder = Simulation-Engine over-generates Evaluative → cascades to body symptoms
+
+  → Animals: Simulation-Engine limited → Evaluative Dissonance limited → less "worry"
+  → Humans: Simulation-Engine rich → Evaluative Dissonance VAST → "suffering from thoughts alone"
+  → = WHY Compilable Architecture = more suffering types (Dissonance-Signal-Architecture §0.3)
+
+  🟡 Simulation-Engine × dissonance type asymmetry = framework synthesis.
+  🟢 Simulation generates anticipatory distress: Grupe & Nitschke 2013 (uncertainty and anticipatory anxiety).
+```
+
 ---
 
 ## §4 — COMPONENT 1: INTEROCEPTION (readout)
@@ -421,7 +453,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §5.1 — Mechanism
 
 ```
-⭐⭐ DMN + HIPPOCAMPUS = "CPU + RAM" — SIMULATION ENGINE:
+⭐⭐ DMN + HIPPOCAMPUS = "CPU + RAM" — SIMULATION-ENGINE:
 
   🟢 Schacter & Addis 2007 (Nature Reviews Neuroscience):
     "Constructive Episodic Simulation Hypothesis":
@@ -844,7 +876,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Interoception → empathy:                Fukushima et al. 2011
   Interoception ↔ empathy bidirectional:  Terasawa et al. 2021
   Constructive episodic simulation:       Schacter & Addis 2007 (Nature Rev. Neurosci.)
-  DMN as simulation engine:               Buckner et al. 2008 (Annals NYAS)
+  DMN as Simulation-Engine:               Buckner et al. 2008 (Annals NYAS)
   Self-projection:                        Buckner & Carroll 2007
   Hippocampus required for simulation:    Hassabis et al. 2007 (PNAS)
   Memory = reconstruction:               Schacter 2001
@@ -895,14 +927,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | File | Sections | Relationship |
 |------|----------|-------------|
 | Drill-Self-Pattern-Modeling-Self-Shared-Substrate v1.0 | Full file | EVIDENCE file for this ARCHITECTURE |
-| Self-Pattern-Modeling v3.0 | §2 (Compiled/Fresh), §10 (Self-Pattern-Modeling×IF) | APPLICATION 1: Self-Pattern-Modeling mechanism |
-| Imagine-Final.md | Full file | APPLICATION 2: future simulation |
-| Feeling.md v3.0 | §3 (PFC observation) | APPLICATION 3: self-observation |
+| Self-Pattern-Modeling v3.1 | §2 (Compiled/Fresh), §10 (Self-Pattern-Modeling×Imagine-Final) | APPLICATION-1: Self-Pattern-Modeling mechanism |
+| Imagine-Final.md v3.0 | Full file | APPLICATION-2: future simulation |
+| Feeling.md v3.0 | §3 (PFC observation) | Broader than APPLICATION-3; Self-Observation chưa có file riêng |
 | Inter-Body-Mechanism.md v1.0 | §3 (Compiled/Fresh), §1 (Compilable Architecture) | SOURCE-OF-TRUTH for spectrum |
 | PFC-Operations.md v1.0 | §5 (Compiled Quality), §9 (PFC Budget) | HOW PFC operates on engine |
 | Entity-Access.md v1.1 | §3 (gradient model) | mPFC gradient = Entity-Access spectrum |
 | Entity-Valence-Dynamics.md v2.0 | §4 (per-entity table) | Valence modulates engine output |
-| Body-Feedback-Mechanism.md v2.0 | §3 (chunk dynamics, readout) | FOUNDATION: body-feedback |
+| Body-Feedback-Mechanism.md v2.1 | §3 (chunk dynamics, readout) | FOUNDATION: body-feedback |
+| Dissonance-Signal-Architecture v1.0 | §7.1 (Simulation-Engine × dissonance type) | Simulation-Engine generates Evaluative Dissonance only |
 | Connection.md v4.0 | §3 (3 primitives) | SOCIAL context for bidirectional loop |
 | Compiled-Fresh.md v2.0 | §6.2 (compile-time direction lock) | MECHANISM: reflection vs rumination |
 | Body-Coupling.md v2.0 | §2 (depth × direction) | Coupling uses engine for synchronization |

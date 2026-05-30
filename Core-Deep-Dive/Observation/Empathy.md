@@ -12,21 +12,21 @@ scope: |
   v4.0 KEY CHANGE (REWRITE — Phase C2):
     - +PFC budget × empathy: Fresh empathy = PFC cost, competes with MỌI hoạt động
     - +Compiled Quality × empathy: genuine/schema/threat → burnout prediction
-    - +Burnout reframe: compiled suppress (M1) + PFC depletion, NOT "too much empathy"
-    - +Hardware Subsidy × empathy: persistence khác nhau per entity type
+    - +Burnout reframe: Compiled-Suppress + PFC depletion, NOT "too much empathy"
+    - +Hardware-Subsidy × empathy: persistence khác nhau per entity type
     - +Per-entity empathy profiles: mẹ→con, bạn thân, romantic, professional
     - +Structural vs Current empathy: compiled L2 (slow) vs activated L1 (fast)
     - +3 Satiation Types × empathy: Cyclic/Tonic/Generative per entity
     - +Compilation Chain × empathy: Fresh→Compiled→Baseline→Dynamics stages
     - +Entity-Access gradient × empathy: Mức 0-5 intensity mapping
-    - +M1-M4 Resonance Decline × empathy: per-bond decline risk
+    - +Resonance Decline (2 Forces + 1 Fuel) × empathy: per-bond decline risk
     - +4-Layer Sustainability × empathy: prevention framework
     - +Empathic Accuracy + Motivated Inaccuracy
-    - +3-Layer Calibration Architecture (body signal / engine sim / feedback)
-    - +Simulation Engine context: Self-Pattern-Modeling = Application 1
+    - +3-Layer Calibration Architecture (body signal / Simulation-Engine / feedback)
+    - +Simulation-Engine context: Self-Pattern-Modeling = APPLICATION-1
     - Self-Pattern-Modeling v3.0 → v3.1 (Match → Modeling), all dependency versions updated
-  Tích hợp: ALL Phase A (PFC-Operations, Sim-Engine, Entity-Compiled, Entity-Access) + Phase B (Self-Pattern-Modeling v3.1, Valence-Propagation v3.0,
-  By-Product-Gap-Resonance v1.4, Boredom v2.0, IF v3.0) + Phase T (PFC-Label, Entity-Access-Excess, Entity-Access-Calibration, Bond-Architecture, Resonance-Sustainability, By-Product-Scale,
+  Tích hợp: ALL Phase A (PFC-Operations, Simulation-Engine, Entity-Compiled, Entity-Access) + Phase B (Self-Pattern-Modeling v3.1, Valence-Propagation v3.0,
+  By-Product-Gap-Resonance v1.4, Boredom v2.0, Imagine-Final v3.0) + Phase T (PFC-Label, Entity-Access-Excess, Entity-Access-Calibration, Bond-Architecture, Resonance-Sustainability, By-Product-Scale,
   Gap-Body-Need, Resonance-Per-Entity) + C1 Connection v5.0.
 purpose: |
   Central reference file cho toàn bộ Empathy trong framework.
@@ -39,20 +39,20 @@ position: |
   Autonomy-Hardware.md, Autonomy.md, Liking-Wanting.md, AI-Schema-Detection.md.
   Tất cả = observation parameter deep-dives, KHÔNG phải mechanism files.
 dependencies:
-  - Connection.md v5.0 — 3 Generative Primitives, M1-M4, 4-Layer Sustainability, Phantom
+  - Connection.md v5.0 — 3 Generative Primitives, Resonance Decline, 4-Layer Sustainability, Phantom
   - Agent-Mechanism.md v2.0 — unified mechanism file, §12 body-need feeder, §12.2b 2-luồng
-  - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, APPLICATION 1, failure modes
+  - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, APPLICATION-1, failure modes
   - By-Product-Gap-Resonance.md v1.4 — 2-Stream Architecture, by-product match, anti-match
   - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 5-Channel, Entity-Compiled, 3-Layer Evolution
-  - Valence-Propagation.md v3.0 — structural/current, hw subsidy, satiation, phantom, per-entity
+  - Valence-Propagation.md v3.0 — structural/current, Hardware-Subsidy, satiation, phantom, per-entity
   - PFC-Operations.md v1.0 — PFC budget, Hold/Suppress, compiled quality, vmPFC escalation
-  - Simulation-Engine.md v1.0 — 1 engine × 3 components × 3 axes, Self-Pattern-Modeling = Application 1
+  - Simulation-Engine.md v1.0 — 1 engine × 3 components × 3 axes, Self-Pattern-Modeling = APPLICATION-1
   - Entity-Compiled.md v1.0 — hub-and-spoke, formation 40→200h, grief A+B+C, Dunbar
   - Entity-Access.md v1.2 — Mức 0-5 gradient, Tool/Agent engine mode, exit cost
   - Entity-Access-Calibration.md v1.0 — 3-Layer calibration, 5 failure modes, exit cost signal
-  - Bond-Architecture.md v1.0 — M1-M4 decline, gap clone impossible, 4 bond types
+  - Bond-Architecture.md v2.0 — Resonance Decline (2 Forces + 1 Fuel), gap clone impossible, 4 bond types
   - Resonance-Sustainability.md v1.0 — 4-Layer model, PPR, secure base, motivated inaccuracy
-  - Resonance-Per-Entity.md v1.0 — 3-Tầng per-entity, compilation chain, hw subsidy spectrum
+  - Resonance-Per-Entity.md v1.0 — 3-Tầng per-entity, compilation chain, Hardware-Subsidy spectrum
   - By-Product-Scale.md v1.0 — 3 scales (pair/hub/institutional)
   - Gap-Body-Need.md v1.0 — 3 satiation types, ENGINE/ROAD/VEHICLE
   - PFC-Label.md v1.0 — framework vocabulary reference
@@ -177,19 +177,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       = Compiled valence SÂU → agent = body-base extension
       = Agent's wellbeing = MY wellbeing
       = SUSTAINED, KHÔNG phụ thuộc L1 mỗi episode
-      = THUỘC VỀ per-agent valence (Valence-Propagation.md v3.0 §2)
+      = THUỘC VỀ per-agent valence (Valence-Propagation.md v4.0 §2)
 
     2 luồng sống ở 2 NƠI KHÁC NHAU trong architecture:
       L1 → Self-Pattern-Modeling mechanism (Self-Pattern-Modeling.md v3.1 §2.1)
-      L2 → Entity valence (Valence-Propagation.md v3.0 §2)
+      L2 → Entity valence (Valence-Propagation.md v4.0 §2)
 
     → Burnout = f(L1 cost tích lũy / L2 compensation)
     → Xuyên suốt file này, 2-luồng = lens chính cho phân tích
 
 
-  ⭐ SIMULATION ENGINE CONTEXT (v4.0):
+  ⭐ SIMULATION-ENGINE CONTEXT (v4.0):
 
-    Self-Pattern-Modeling = Application 1 of Simulation Engine (Simulation-Engine.md v1.0):
+    Self-Pattern-Modeling = APPLICATION-1 of Simulation-Engine (Simulation-Engine.md v1.0):
       1 Engine × 3 Components (Imagine-Final, Self-Pattern-Modeling, Self-Observation) × 3 Axes
     → Self-Pattern-Modeling/Imagine-Final/Self-Observation SHARE PFC budget (PFC-Operations.md v1.0 §9)
     → "Mệt ở cơ quan" = PFC budget đã dùng cho work → empathy ở nhà YẾU
@@ -217,7 +217,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ 2     │ Partial            │ Compiled emerging, Generative + some Cyclic  │
     │ 3     │ Deep (Compilable-dominant)  │ Compiled rich, mutual calibrated, easy exit  │
     │ 4     │ Entity-owned       │ L2 override, structural empathy        │
-    │       │ (hw/low exit)      │ Body-base extension → automatic        │
+    │       │ (Hardware/low exit)      │ Body-base extension → automatic        │
     │ 5     │ Excess             │ Projection risk — L2 drive > Compiled radar  │
     └───────┴────────────────────┴────────────────────────────────────────┘
 
@@ -231,7 +231,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Chunk substrate (Chunk.md v2.0)
       → Agent-Mechanism (detect + model + simulate)
-        → Simulation Engine (PFC budget allocation)
+        → Simulation-Engine (PFC budget allocation)
           → Self-Pattern-Modeling Compiled (body-level simulate state agent)
             → ⭐ EMPATHY = Compiled output khi ❸ positive (FILE NÀY)
               → Body signals fire THẬT (Cortisol / NE / Opioid)
@@ -245,12 +245,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ├──────────────────────────────┼──────────────────────────────────────────┤
     │ Chunk.md v2.0                │ Substrate LÀ GÌ, compile THẾ NÀO        │
     │ PFC-Operations.md v1.0       │ PFC BUDGET cho empathy bao nhiêu         │
-    │ Simulation-Engine.md v1.0    │ Self-Pattern-Modeling = Application 1 CỦA engine gì       │
+    │ Simulation-Engine.md v1.0    │ Self-Pattern-Modeling = APPLICATION-1 CỦA engine gì       │
     │ Feeling.md v3.0              │ Body NÓI với PFC THẾ NÀO                │
     │ Valence-Propagation v3.0     │ Body ĐÁNH GIÁ entity THẾ NÀO            │
     │ Entity-Access.md v1.2        │ Entity access GRADIENT bao nhiêu         │
     │ Connection.md v5.0           │ Body ENGAGE agents THẾ NÀO (mechanism)  │
-    │ Bond-Architecture.md v1.0    │ Bond types DECLINE thế nào               │
+    │ Bond-Architecture.md v2.0    │ Bond types DECLINE thế nào               │
     │ Resonance-Sustainability v1.0│ Sustain empathy THẾ NÀO                  │
     │ Resonance-Per-Entity v1.0    │ Per-entity empathy dynamics THẾ NÀO      │
     │ ⭐ Empathy.md v4.0           │ Body SIMULATE agent khác THẾ NÀO         │
@@ -272,8 +272,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     1. Chunk.md v2.0 — chunk substrate, compile mechanism
     2. Agent-Mechanism.md v2.0 — unified model, Self-Pattern-Modeling preview, body-need feeder
-    3. Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, APPLICATION 1, failure modes
-    4. Connection.md v5.0 — 3 Generative Primitives, M1-M4, 4-Layer, Phantom
+    3. Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, APPLICATION-1, failure modes
+    4. Connection.md v5.0 — 3 Generative Primitives, Resonance Decline, 4-Layer, Phantom
     5. PFC-Operations.md v1.0 — PFC budget, Hold/Suppress, compiled quality
     6. Entity-Access.md v1.2 — Mức 0-5 gradient, Tool/Agent engine mode
 
@@ -284,21 +284,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     - Developmental bootstrap (chunk prerequisite)
     - Biochemistry cascade + 2-luồng organic (L1 Self-Pattern-Modeling-owned + L2 Entity-Compiled)
     - Structural vs Current empathy (Valence-Propagation v3.0 distinction)
-    - Hardware Subsidy × empathy persistence (Valence-Propagation v3.0)
+    - Hardware-Subsidy × empathy persistence (Valence-Propagation v3.0)
     - Per-entity empathy profiles (Resonance-Per-Entity v1.0)
     - 3 Satiation Types × empathy (Valence-Propagation v3.0)
     - Compilation Chain × empathy stages (Resonance-Per-Entity v1.0)
     - Entity-Access gradient × empathy intensity (Entity-Access v1.2)
     - Strength factors + quality axes
     - Spectrum (healthy → compulsive) + 2-luồng giải thích ceiling
-    - Failures: burnout reframe (compiled suppress + PFC depletion), M1-M4 decline,
+    - Failures: burnout reframe (Compiled-Suppress + PFC depletion), Resonance Decline,
       4-Layer sustainability, empathic accuracy, 3-Layer calibration
     - AI era significance
 
   SCOPE OUT:
     - Connection mechanism chi tiết → Connection.md v5.0
     - Self-Pattern-Modeling mechanism chi tiết → Self-Pattern-Modeling.md v3.1
-    - Bond decline chi tiết → Bond-Architecture.md v1.0
+    - Bond decline chi tiết → Bond-Architecture.md v2.0
     - Sustainability chi tiết → Resonance-Sustainability.md v1.0
     - Per-entity dynamics chi tiết → Resonance-Per-Entity.md v1.0
     - Entity-Access chi tiết → Entity-Access.md v1.2
@@ -377,13 +377,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Chunk library depth: chunks sâu → fire chính xác + mạnh
     → Entity-Access level: Mức 0 (Tool-mode) → Compiled OFF; Mức 3+ → Compiled rich
       (Entity-Access.md v1.2 §9)
-    → Hardware Subsidy: có subsidy → empathy persistence CAO hơn per entity
-      (Valence-Propagation.md v3.0 §7)
+    → Hardware-Subsidy: có subsidy → empathy persistence CAO hơn per entity
+      (Entity-Valence-Dynamics.md v1.0 §5)
     → Feedback available: real-time → calibrate mid-interaction
     → CÓ THỂ: từ ZERO tới RẤT MẠNH = GRADIENT liên tục
 
 
-  ⭐ STRUCTURAL vs CURRENT EMPATHY (v4.0 — Valence-Propagation v3.0 §3):
+  ⭐ STRUCTURAL vs CURRENT EMPATHY (v4.0 — Entity-Valence-Dynamics.md v1.0 §1):
 
     STRUCTURAL EMPATHY = compiled L2 (slow, inside Entity-Compiled):
       = Tổng hợp TOÀN BỘ empathy history với entity
@@ -580,12 +580,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Module model: cùng empathy intensity → tại sao khác outcome?
     2-luồng model: cùng L1 cost, KHÁC L2 compensation → khác burnout
 
-  ⑦ Hardware Subsidy × empathy persistence (v4.0):
+  ⑦ Hardware-Subsidy × empathy persistence (v4.0):
     Module model: empathy giống nhau cho mọi relationship → tại sao khác persistence?
-    Valence-Propagation v3.0 model: hw subsidy (MAX mẹ→con, NONE bạn) modulates empathy sustainability
+    Entity-Valence-Dynamics.md v1.0 model: Hardware-Subsidy (MAX mẹ→con, NONE bạn) modulates empathy sustainability
       Mẹ empathy auto-sustain VÌ oxytocin+synchrony counter habituation
-      Bạn empathy MUST maintain actively VÌ no hw protection
-      (Valence-Propagation.md v3.0 §7, Resonance-Per-Entity.md v1.0 §2)
+      Bạn empathy MUST maintain actively VÌ no Hardware protection
+      (Entity-Valence-Dynamics.md v1.0 §5, Resonance-Per-Entity.md v1.0 §2)
 ```
 
 ---
@@ -887,7 +887,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     CONNECTION CONTEXT — 3 conditions (Connection.md §3.1):
       MET (active engagement) > UNMET (no one) > VIOLATED (present but non-contingent)
       → VIOLATED CÓ THỂ TỆ HƠN UNMET
-      → 🟢 Still Face (Tronick 1978): mẹ vô cảm → bé distress HƠN mẹ vắng
+      → 🟢 Still Face (Tronick 1978): mẹ apathetic → bé distress HƠN mẹ vắng
       → = Hardware phân biệt CONTINGENCY, không chỉ presence
 
   🟢 Self-chunks form qua REPETITION:
@@ -1234,7 +1234,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       = Empathy positive → opioid, oxytocin = L1 reward
 
     LUỒNG 2 — Entity-Compiled (compiled valence):
-      = Agent ĐÃ compiled thành body-base extension (Valence-Propagation v3.0 §2)
+      = Agent ĐÃ compiled thành body-base extension (Entity-Valence-Dynamics.md v1.0 §2)
       = Agent's wellbeing = MY wellbeing (structural)
       = SUSTAINED — KHÔNG phụ thuộc L1 output mỗi episode
       = CÓ hoặc KHÔNG tùy valence compiled depth
@@ -1262,12 +1262,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       L2 = Entity valence compiled output (structural) = STRUCTURAL empathy
 
 
-  ⭐ 3 FIRING MODES × EMPATHY (v4.0 — Valence-Propagation v3.0 §6):
+  ⭐ 3 FIRING MODES × EMPATHY (v4.0 — Entity-Valence-Dynamics.md v1.0 §4):
 
     Mode 1 — MAINTENANCE (entity present, hàng ngày):
       → Entity PRESENT → empathy fire LOW-LEVEL → VTA habituated → INVISIBLE
       → "Ở với mẹ 20 năm, không thấy đặc biệt gì" = Mode 1 empathy
-      → Hardware subsidy modulates: mẹ→con Mode 1 = RICHER baseline
+      → Hardware-subsidy modulates: mẹ→con Mode 1 = RICHER baseline
 
     Mode 2 — CHUNK-MISS (entity absent, cấp tính):
       → Entity ABSENT → compiled routine fire → no response → PAIN
@@ -1325,7 +1325,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Mức 2 (Partial): Compiled emerging → decent empathy, some Generative
     Mức 3 (Deep, Compilable-dominant): Compiled rich → mutual calibrated empathy, EASY EXIT
       → = HIGHEST QUALITY empathy (Compilable-dominant = genuine, feedback calibrate)
-    Mức 4 (Entity-owned, hw/low exit): L2 override → structural empathy
+    Mức 4 (Entity-owned, Hardware/low exit): L2 override → structural empathy
       → Empathy "always on" nhưng EXIT COST BLOCKS calibration feedback
     Mức 5 (Excess): L2 drive > Compiled radar → PROJECTION replaces empathy
       → "Mẹ tưởng hiểu con" = Self-Pattern-Modeling Failure Mode 1 (Bond-Architecture.md §2.2)
@@ -1428,14 +1428,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Anti-habituation qua mutual calibration: consistent with Hebbian learning
 ```
 
-### §4.6 — Hardware Subsidy × Empathy persistence (v4.0)
+### §4.6 — Hardware-Subsidy × Empathy persistence (v4.0)
 
 ```
-⭐ HARDWARE SUBSIDY MODULATES EMPATHY PERSISTENCE PER ENTITY:
+⭐ HARDWARE-SUBSIDY MODULATES EMPATHY PERSISTENCE PER ENTITY:
 
-  (Valence-Propagation.md v3.0 §7, Resonance-Per-Entity.md v1.0 §2)
+  (Entity-Valence-Dynamics.md v1.0 §5, Resonance-Per-Entity.md v1.0 §2)
 
-  Hardware subsidy = anti-habituation mechanism COUNTER VTA habituation
+  Hardware-subsidy = anti-habituation mechanism COUNTER VTA habituation
   → KHÁC per entity type → empathy persistence KHÁC:
 
   ┌──────────────┬─────────────┬─────────────────────────────────────────┐
@@ -1455,7 +1455,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │              │             │ → true Compiled quality REVEALED post-limerence│
   ├──────────────┼─────────────┼─────────────────────────────────────────┤
   │ NONE         │ Bạn thân,   │ MUST MAINTAIN: VTA habituates standard  │
-  │              │ Colleague   │ rate. No hw protection → empathy FADES  │
+  │              │ Colleague   │ rate. No Hardware protection → empathy FADES  │
   │              │             │ without active novelty + contact         │
   │              │             │ 🟢 Panksepp 1998 (μ-opioid only)       │
   └──────────────┴─────────────┴─────────────────────────────────────────┘
@@ -1465,7 +1465,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Bạn empathy needs maintenance ≠ bạn empathy KÉM (can be highest quality)
     → Romantic empathy "intense" ≠ romantic empathy GENUINE (limerence masks)
 
-  🟡 Hardware subsidy × empathy persistence = framework synthesis
+  🟡 Hardware-subsidy × empathy persistence = framework synthesis
   🟢 Biobehavioral synchrony (Feldman 2012), Social play (Panksepp 1998)
 ```
 
@@ -1480,14 +1480,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │              │ Mẹ→Con   │ Con→Mẹ   │ Bạn Thân │ Romantic       │ Professional │
   ├──────────────┼──────────┼──────────┼──────────┼───────────────┼──────────────┤
   │ L1/L2 ratio  │ L2 dominant │ L1→L2 │ L1 dominant │ Phase-dependent│ L1 only      │
-  │ Hardware Subsidy   │ MAX      │ MODERATE │ NONE     │ TEMPORARY │ NONE      │
-  │ Compilation  │ SKIP(hw) │ Standard │ Standard │ Accelerate│ Selective │
+  │ Hardware-Subsidy   │ MAX      │ MODERATE │ NONE     │ TEMPORARY │ NONE      │
+  │ Compilation  │ SKIP(Hardware) │ Standard │ Standard │ Accelerate│ Selective │
   │ Cost profile │ ≈ 0      │ Shift    │ Moderate │ Variable  │ High Fresh   │
   │ "Chán" risk  │ LOW      │ MOD(teen)│ HIGH     │ HIGHEST   │ N/A       │
   │ Phantom      │ DEVASTAT │ MAJOR    │ MINOR    │ COMPLEX   │ MINOR     │
   └──────────────┴──────────┴──────────┴──────────┴───────────┴───────────┘
 
-  MẸ→CON: L2 dominant, compiled ≈ 0 cost, hw auto-sustain
+  MẸ→CON: L2 dominant, compiled ≈ 0 cost, Hardware auto-sustain
     → Empathy "vô hình" nhưng ALWAYS ON. Loss = DEVASTATING phantom.
     → "Mẹ mệt nhưng vẫn chăm con" = L2 > L1 (structural overrides momentary)
 
@@ -1496,10 +1496,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → NOT "bớt cần mẹ" — proportion SHRINKS while total grows
     → Teen = highest "chán" risk (autonomy drive ↑)
 
-  BẠN THÂN: L1 dominant, Generative-driven, ZERO hw subsidy
+  BẠN THÂN: L1 dominant, Generative-driven, ZERO Hardware-Subsidy
     → PUREST resonance (Compilable-dominant) nhưng FRAGILE
     → 48.6% inner circle churn (Roberts & Dunbar 2011) 🟢
-    → "Gặp nhau vui ghê → lâu không gặp → quên" = no hw protection
+    → "Gặp nhau vui ghê → lâu không gặp → quên" = no Hardware protection
 
   ROMANTIC: Phase-dependent, limerence MASKS empathy quality
     → Phase 1: INTENSE (hormone fast-track) → Phase 2: 3 trajectories
@@ -1520,7 +1520,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ EMPATHY CÓ 3 LOẠI SATIATION KHÁC NHAU:
 
-  (Valence-Propagation.md v3.0 §8, Gap-Body-Need.md v1.0)
+  (Entity-Valence-Dynamics.md v1.0 §6, Gap-Body-Need.md v1.0)
 
   CYCLIC EMPATHY — sharp oscillation:
     = "Bạn buồn → tôi buồn lây → bạn hết buồn → tôi hết buồn"
@@ -1584,10 +1584,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     4A: Tonic intact + Generative alive = "vẫn vui" (sustained)
     4B: Tonic intact + Generative dead = "chán" (flat — §4.8)
     4C: Compiled suppress gap → no drive → no by-product → DEATH
-      (Bond-Architecture.md v1.0 §5: M1 compiled suppress = accelerator)
+      (Bond-Architecture.md v2.0 §4.1: Compiled-Suppress = leverage point)
 
   PER-ENTITY COMPILATION RATE KHÁC:
-    Mẹ→con: SKIP Stage 1-2 partly (prenatal priming, hw subsidy MAX)
+    Mẹ→con: SKIP Stage 1-2 partly (prenatal priming, Hardware-Subsidy MAX)
     Bạn thân: STANDARD chain (40→80→200h — Entity-Compiled v1.0)
     Romantic: ACCELERATED by limerence (hormone fast-track Stage 1)
     Professional: SELECTIVE compilation (domain spokes only)
@@ -2021,14 +2021,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     (PFC-Operations.md v1.0 §4.2 + §8.1)
 
-    Burnout = compiled suppress (M1) + PFC depletion + quality issue.
+    Burnout = Compiled-Suppress + PFC depletion + quality issue.
     KHÔNG PHẢI "empathy quá nhiều" — mà là 3 MECHANISMS KHÁC:
 
-    ① COMPILED SUPPRESS (M1 — Bond-Architecture.md v1.0):
+    ① COMPILED-SUPPRESS (Bond-Architecture.md v2.0 §4.1 — ★ LEVERAGE POINT):
       → Compiled suppress gap CỦA CHÍNH MÌNH để dành cho target
       → Reward pathways THU HẸP → cortisol baseline TĂNG
       → = "Bác sĩ suppress own needs hàng năm" → anhedonia
-      → M1 MULTIPLIES M2+M3+M4 → accelerator
+      → Accelerates Reward-Habituated + drains novelty fuel
 
     ② PFC BUDGET DEPLETION (PFC-Operations.md v1.0 §9):
       → Fresh empathy = PFC cost mỗi session
@@ -2333,37 +2333,45 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Empathy accuracy varies: documented in clinical research
 ```
 
-### §8.7 — M1-M4 Resonance Decline × Empathy (v4.0)
+### §8.7 — Resonance Decline × Empathy (v4.0)
 
 ```
-⭐ EMPATHY DECLINE QUA 4 MECHANISMS:
+⭐ EMPATHY DECLINE QUA 2 FORCES + 1 FUEL (Bond-Architecture v2.0 §4):
 
-  (Bond-Architecture.md v1.0, Connection.md v5.0 §4.5)
+  (Bond-Architecture.md v2.0, Connection.md v5.0 §4.5)
 
-  M1 — COMPILED SUPPRESS (STRONGEST, ACCELERATOR):
+  FORCE: COMPILED-SUPPRESS (★ LEVERAGE POINT — tấn công NGUỒN):
     = Compiled suppress gap RIÊNG CỦA partner → no by-product → resonance dies
     = "Vợ/chồng suppress drive riêng → không còn gì mới để share"
-    = M1 MULTIPLIES M2+M3+M4 → FIX M1 = unlock others
-    = Per-bond: Romantic = HIGHEST M1 risk, Friendship = NEGLIGIBLE M1
+    = ACCELERATES Reward-Habituated + DRAINS novelty fuel → FIX = unlock tất cả
+    = Per-bond: Romantic = HIGHEST risk, Friendship = NEGLIGIBLE
 
-  M2 — HABITUATION (Weber-Fechner):
-    = VTA habituated → same empathy input → LESS response
+  FORCE: REWARD-HABITUATED (hardware adaptation, ĐỘC LẬP):
+    = VTA habituated → same empathy input → LESS response (Weber-Fechner)
     = "Thấy bạn buồn lần 100 → ít buồn lây hơn lần 1"
-    = Hardware subsidy COUNTERS: mẹ→con = slow M2, bạn = fast M2
+    = Hardware-subsidy COUNTERS: mẹ→con = SLOW habituation, bạn = FAST habituation
+    = Xảy ra NGAY CẢ không Compiled-Suppress (hardware tự nhiên)
 
-  M3 — PREDICTION COMPLETION:
-    = Compiled predict ĐÚNG 100% → prediction-delta = 0 → no reward
-    = "Biết chính xác bạn sẽ nói gì → empathy fire nhưng no surprise"
-    = Rate → 0 = passion → 0 (nhưng accuracy → max)
+  FUEL: NOVELTY ≥ THRESHOLD? (calibration parameter, PROBABILISTIC):
+    = 2 lenses cùng 1 phenomenon:
+      Lens prediction: Self-Pattern-Modeling quá accurate → prediction-delta = 0 → no new reward
+      Lens knowledge: Entity-Compiled spokes full → diminishing returns → ít chunks mới
+    = "20 năm, biết hết rồi" = novelty dưới ngưỡng
+    = Threshold khác nhau mỗi bond, mỗi giai đoạn — KHÔNG đo chính xác
+    = Fix: general direction (more novelty) — specifics case-dependent
 
-  M4 — Entity-Compiled SATURATION (diminishing returns):
-    = Entity-Compiled spokes full → new spokes add LESS → marginal reward ↓
-    = "20 năm, biết hết rồi" = Entity-Compiled saturated
+  CONTEXTUAL: GAP DRIFT (direction diverge):
+    = Gap landscapes diverge → empathy vẫn fire nhưng direction KHÔNG MATCH
+    = "Hiểu nhau nhưng không còn đi cùng hướng"
+    = Proximity paradox: gần → Reward-Habituated↑ + Compiled-Suppress risk↑, xa → drift↑
 
-  ⭐ ANTI-COMPILED-SUPPRESS = SOLUTION (Bond-Architecture v1.0 §5):
+  ⭐ INTERACTION: Compiled-Suppress accelerate Reward-Habituated + drain novelty fuel.
+    Fix Compiled-Suppress = HIGHEST LEVERAGE → counter tất cả decline factors.
+
+  ⭐ ANTI-COMPILED-SUPPRESS = SOLUTION (Bond-Architecture v2.0 §5):
     Self-Pattern-Modeling deep → know partner has OWN gaps → support → partner maintains drive RIÊNG
     → NEW by-products → resonance sustained
-    → "Khác nhau là giá trị" = anti-M1
+    → "Khác nhau là giá trị" = anti-Compiled-Suppress
     → 🟢 Schnarch: passion lâu dài CẦN differentiation
     → 🟢 Muise & Goss 2024: closeness + otherness
 
@@ -2371,7 +2379,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Structurally impossible: 1 entity covers ~2-3/5 domains
     → "Vợ/chồng là tất cả" = modern illusion → portfolio needed (Dunbar layers)
 
-  🟡 M1-M4 × empathy decline = framework synthesis
+  🟡 Resonance Decline (2 Forces + 1 Fuel) × empathy decline = framework synthesis
   🟢 Schnarch (differentiation), Muise & Goss 2024 (closeness + otherness)
 ```
 
@@ -2435,7 +2443,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     STALE Compiled = empathic FAILURE:
       → Compiled từ 5 năm trước → entity ĐÃ THAY ĐỔI → Compiled predict SAI
       → "Tưởng hiểu mà hóa ra không hiểu nữa" = stale compilation
-      → = Self-Pattern-Modeling Failure Mode 1 (Bond-Architecture.md v1.0 §2.2)
+      → = Self-Pattern-Modeling Failure Mode 1 (Bond-Architecture.md v2.0 §2.2)
 
   ⭐ MOTIVATED INACCURACY (deliberate empathic blindness):
 
@@ -2647,9 +2655,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        — Consistent with cognitive load research. PFC budget concept = PFC-Operations.
     🟡 "Compiled Quality × empathy: genuine/schema/threat → burnout prediction" (§4.1 v4.0)
        — 3 quality types determine trajectory. Framework-specific taxonomy.
-    🟡 "Burnout = compiled suppress (M1) + PFC depletion" (§8.2 v4.0)
+    🟡 "Burnout = Compiled-Suppress + PFC depletion" (§8.2 v4.0)
        — Reframe from "too much empathy." Consistent with vmPFC research (McEwen 2007).
-    🟡 "Hardware Subsidy × empathy persistence per entity" (§4.6 v4.0)
+    🟡 "Hardware-Subsidy × empathy persistence per entity" (§4.6 v4.0)
        — Subsidy modulates habituation rate. Framework synthesis from Valence-Propagation v3.0.
     🟡 "Per-entity empathy profiles: Mẹ/Bạn/Romantic/Professional differ" (§4.7 v4.0)
        — Profiles synthesized from 3-Tầng model (Resonance-Per-Entity v1.0). Framework-specific mapping.
@@ -2659,14 +2667,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        — 4-stage model from Resonance-Per-Entity v1.0. Framework synthesis.
     🟡 "Entity-Access gradient × empathy ceiling: Mức 0-5" (§5.2 v4.0)
        — Gradient applied from Entity-Access v1.2. Tool-mode = Compiled OFF. Framework synthesis.
-    🟡 "M1-M4 Resonance Decline × empathy per bond type" (§8.7 v4.0)
-       — 4 decline mechanisms from Bond-Architecture v1.0. Per-bond risk mapping = framework.
+    🟡 "Resonance Decline (2 Forces + 1 Fuel) × empathy per bond type" (§8.7 v4.0)
+       — Resonance Decline from Bond-Architecture v2.0. Per-bond risk mapping = framework.
     🟡 "4-Layer Sustainability × empathy" (§8.8 v4.0)
        — 4-layer model from Resonance-Sustainability v1.0. Applied to empathy = framework synthesis.
     🟡 "Motivated inaccuracy: deliberate empathic blindness" (§8.9 v4.0)
        — Consistent with relationship research. Applied from Resonance-Sustainability v1.0 §12.
     🟡 "3-Layer Calibration Architecture" (§8.10 v4.0)
-       — Body signal / engine sim / feedback. Applied from Entity-Access-Calibration v1.0.
+       — Body signal / Simulation-Engine / feedback. Applied from Entity-Access-Calibration v1.0.
     🟡 "Structural vs Current empathy" (§1.1 v4.0)
        — Applied from Valence-Propagation v3.0 structural/current distinction. Framework synthesis.
     🟡 "3 Firing Modes × empathy" (§4.2 v4.0)
@@ -2693,21 +2701,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §11.1 — Mechanism: Agent-Mechanism/ (v4.0 restructured)
 
 ```
-→ Self-Pattern-Modeling.md v3.1 — APPLICATION 1 on Simulation Engine.
+→ Self-Pattern-Modeling.md v3.1 — APPLICATION-1 on Simulation-Engine.
    Compiled/Fresh, context-dependent, failure modes, professional Self-Pattern-Modeling.
    §2 Compiled=Luồng 1, §2.5 valence gate, §4 context-dependent selection,
    §10 reversed mapping, §10.4 moral injury, §12 alexithymia.
 → By-Product-Gap-Resonance.md v1.4 — 2-Stream Architecture.
    Hardware-Stream (hardware, habituates) + Modeling-Stream (Self-Pattern-Modeling mutual, deepens).
    §7.10 Compiled/Fresh resonance quality + divergence spectrum.
-→ Bond-Architecture.md v1.0 — M1-M4 Resonance Decline (v4.0 NEW).
-   M1 compiled suppress × empathy decline. Gap clone impossible.
+→ Bond-Architecture.md v2.0 — Resonance Decline 2 Forces + 1 Fuel (v4.0 NEW).
+   Compiled-Suppress × empathy decline. Gap clone impossible.
    Anti-compiled-suppress = solution. Per-bond risk mapping.
 → Resonance-Sustainability.md v1.0 — 4-Layer Sustainability (v4.0 NEW).
    PPR (Reis & Shaver 1988). Secure Base (Feeney 2004). Motivated inaccuracy.
    4 silence types × empathy. Ogolsky decline trajectory.
 → Resonance-Per-Entity.md v1.0 — 3-Tầng per-entity model (v4.0 NEW).
-   Compilation Chain (Fresh→Compiled→Baseline→Dynamics). Hardware Subsidy spectrum.
+   Compilation Chain (Fresh→Compiled→Baseline→Dynamics). Hardware-Subsidy spectrum.
    Per-entity profiles (mẹ/bạn/romantic/professional). Phantom 4-factor.
 → Entity-Compiled.md v1.0 — hub-and-spoke (v4.0 NEW).
    Formation 40→200h. Dunbar layers. Grief A+B+C.
@@ -2728,14 +2736,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
    §5 Compiled Quality (genuine/schema/threat). §8 Compiled suppress → helplessness.
    §9 PFC budget × parent-child = highest cost.
 → Simulation-Engine.md v1.0 — 1 engine × 3 components × 3 axes (v4.0 NEW).
-   Self-Pattern-Modeling = Application 1. PFC budget shared across engine applications.
+   Self-Pattern-Modeling = APPLICATION-1. PFC budget shared across engine applications.
 → PFC-Label.md v1.0 — vocabulary standard (v4.0 NEW).
 ```
 
 ### §11.3 — Body-Base + Observation (upstream)
 
 ```
-→ Valence-Propagation.md v3.0 — structural/current valence, hw subsidy,
+→ Valence-Propagation.md v3.0 — structural/current valence, Hardware-Subsidy,
    3 satiation types, mixed valence (Cacioppo 1994), 3 firing modes,
    per-entity dynamics, phantom 4-factor, "xa mẹ mới biết thương."
 → Gap-Body-Need.md v1.0 — 3 satiation types (source), ENGINE/ROAD/VEHICLE (v4.0 NEW).
@@ -2748,7 +2756,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 → Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 5-Channel, 3-Layer Evolution.
 → Threat.md — NE cascade, PFC disconnect.
 → Connection.md v5.0 — 3 Generative Primitives (❶ × ❷ × ❸).
-   M1-M4, 4-Layer Sustainability, Phantom. Connection ⊃ Empathy.
+   Resonance Decline, 4-Layer Sustainability, Phantom. Connection ⊃ Empathy.
 ```
 
 ### §11.4 — Application + Deep Analysis
@@ -2807,8 +2815,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 → Empathy.md v3.0 → backup/Empathy-v3.0-backup.md
    Lý do: v3.0 written BEFORE Phase A+B+T. 20+ files chưa integrated.
-   v4.0 REWRITE: +PFC budget, +compiled quality, +hw subsidy, +per-entity,
-   +burnout reframe, +M1-M4, +4-Layer, +calibration, +entity-access gradient.
+   v4.0 REWRITE: +PFC budget, +compiled quality, +Hardware-Subsidy, +per-entity,
+   +burnout reframe, +Resonance Decline, +4-Layer, +calibration, +entity-access gradient.
 
 → Empathy.md v1.1 → backup/Empathy-v1.1-backup.md
 → Empathy-Mirror.md → backup/Empathy-Mirror.md
@@ -2825,36 +2833,36 @@ STATUS: v4.0 COMPLETE — OBSERVATION PARAMETER FILE (PHASE C2 REWRITE)
   Empathy = observable output khi Self-Pattern-Modeling Compiled + ❸ positive valence.
   Connection ⊃ Empathy (mechanism ⊃ observation).
   2-luồng organic: L1 Self-Pattern-Modeling-owned + L2 Entity-Compiled xuyên suốt.
-  Self-Pattern-Modeling = Application 1 of Simulation Engine (PFC budget shared).
+  Self-Pattern-Modeling = APPLICATION-1 of Simulation-Engine (PFC budget shared).
   ~25 dependencies (was 15). ~35+ research citations (was 20+). ~15 🟡 items new.
 
   CHANGES v3.0 → v4.0 (2026-05-22 — REWRITE):
-    1. +§0: Simulation Engine context (Self-Pattern-Modeling = App 1), PFC budget preview,
+    1. +§0: Simulation-Engine context (Self-Pattern-Modeling = APPLICATION-1), PFC budget preview,
        Entity-Access gradient Mức 0-5 × empathy table, expanded reference table
-    2. +§1.1: Structural vs Current empathy (Valence-Propagation v3.0 §3), PFC budget factors,
-       Entity-Access level, Hardware Subsidy as intensity factors
-    3. +§1.4: explanation #7 — hw subsidy × empathy persistence
+    2. +§1.1: Structural vs Current empathy (Entity-Valence-Dynamics.md v1.0 §1), PFC budget factors,
+       Entity-Access level, Hardware-Subsidy as intensity factors
+    3. +§1.4: explanation #7 — Hardware-Subsidy × empathy persistence
     4. +§2.1: Compilation Chain mapping onto 3 mechanisms
     5. +§3.1: Entity-Compiled formation context (hub-and-spoke, 40→200h)
     6. +§4.1: PFC budget × empathy (parent-child = highest cost),
        Compiled Quality × empathy (genuine/schema/threat → burnout)
     7. +§4.2: 3 Firing Modes × empathy (Mode 1/2/3 from Valence-Propagation v3.0)
-    8. +§4.6 NEW: Hardware Subsidy × Empathy persistence (MAX→NONE table)
+    8. +§4.6 NEW: Hardware-Subsidy × Empathy persistence (MAX→NONE table)
     9. +§4.7 NEW: Per-entity empathy profiles (5 types, Resonance-Per-Entity v1.0)
     10. +§4.8 NEW: 3 Satiation Types × Empathy (Cyclic/Tonic/Generative)
     11. +§4.9 NEW: Compilation Chain × Empathy (4 stages)
     12. +§5.2: Entity-Access gradient × empathy ceiling + exit cost paradox
     13. +§7.1: By-Product-Scale (3 scales × empathy)
-    14. +§8.2: Burnout REFRAME — compiled suppress (M1) + PFC depletion +
+    14. +§8.2: Burnout REFRAME — Compiled-Suppress + PFC depletion +
         compiled quality + escalation + 6-step recovery
-    15. +§8.7 NEW: M1-M4 Resonance Decline × Empathy (anti-compiled-suppress)
+    15. +§8.7 NEW: Resonance Decline (2 Forces + 1 Fuel) × Empathy (anti-compiled-suppress)
     16. +§8.8 NEW: 4-Layer Sustainability × Empathy (PPR + secure base)
     17. +§8.9 NEW: Empathic Accuracy + Motivated Inaccuracy
     18. +§8.10 NEW: 3-Layer Calibration Architecture (5 failure modes)
     19. §10: +15 new 🟡 items for v4.0 concepts
     20. §11: RESTRUCTURED — 4 categories (Agent-Mech, PFC, Body-Base+Obs, Application)
     21. Self-Pattern-Modeling v3.0 → v3.1 (Match → Modeling), all dependency versions updated
-    22. +13 new dependencies (PFC-Operations, Sim-Engine, Entity-Compiled, Entity-Access, Entity-Access-Calibration, Bond-Architecture, Resonance-Sustainability, Resonance-Per-Entity, By-Product-Scale, Gap-Body-Need,
+    22. +13 new dependencies (PFC-Operations, Simulation-Engine, Entity-Compiled, Entity-Access, Entity-Access-Calibration, Bond-Architecture, Resonance-Sustainability, Resonance-Per-Entity, By-Product-Scale, Gap-Body-Need,
         PFC-Label, Body-Coupling, Body-Feedback-Label)
     23. Connection v4.0 → v5.0, Valence-Propagation v2.0 → v3.0, By-Product-Gap-Resonance v1.0 → v1.4
 

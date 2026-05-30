@@ -4,7 +4,7 @@ version: 1.2
 created: 2026-03-25
 rewritten: 2026-05-17 (v1.0 — FULL REWRITE from DRAFT. Compilable Architecture, Compiled/Fresh, Dual Check, 3-Layer reconcile)
 refined: 2026-05-17 (v1.1 — §3 MAJOR REWRITE: 4-tầng → 2-tầng + 2 đường. Recursive compile. Passive social compile. Culture/AI = input sources, not tiers)
-refined: 2026-05-23 (v1.2 — Concept Cascade: +Simulation-Engine, +Entity-Access, +Hardware Subsidy. Updated versions + cross-refs)
+refined: 2026-05-23 (v1.2 — Concept Cascade: +Simulation-Engine, +Entity-Access, +Hardware-Subsidy. Updated versions + cross-refs)
 previous: v1.1 (inline — additive changes only)
 status: META-FOUNDATION v1.2
 scope: |
@@ -25,7 +25,7 @@ scope: |
     + Compilable Architecture: WHY general-purpose reward NEEDS calibration
     + Compiled/Fresh: "body biết" = chunks compiled fire automatic
     + Vòng Tròn formalized: Domain → Body → Behavior → Domain (loop)
-    + Dual Check (Ask-AI v3.1): body=QC (~90%), domain=final arbiter
+    + Dual Check (Ask-AI v3.1): body=quality controller (~90%), domain=final arbiter
     + PFC=Lawyer in coherence evaluation
     + Circuit Breaker: body self-detects calibration errors
 purpose: |
@@ -49,7 +49,7 @@ dependencies:
   - Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, E₀→E₃ complexity gradient
   - Self-Pattern-Modeling.md v3.1 — solo simulation, Compiled/Fresh axis, per-domain
   - Logic-Feeling.md v2.1 — Compiled/Fresh primary axis, Shareable/Non-shareable
-  - Ask-AI.md v3.1 — Dual Check §6.1 (body=QC, domain=arbiter)
+  - Ask-AI.md v3.1 — Dual Check §6.1 (body=quality controller, domain=arbiter)
   - Feeling.md v3.0 — PFC observation interface, PFC=Lawyer
   - Gap-Direction.md v2.0 — gap has direction
   - Body-Feedback-Label.md v2.0 — vocabulary reference
@@ -130,6 +130,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Coherence ≈ truth PHẦN LỚN (vì 2 tầng calibrate chồng lập)
     → Coherence ≠ truth KHI: evolution lag, chunks nền sai, schema override
     → = Body đúng ~90%+. Sai ~10% ở cái domain thay đổi nhanh hơn body.
+    → ⚠️ ~90%/~10% = calibration anchor, KHÔNG phải đo lường chính xác. Xem §8 Honest Assessment.
     → = CẦN external check (domain reality = final arbiter)
 
 
@@ -204,22 +205,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → CÙNG mechanism (coherence evaluation) → KHÁC complexity level.
 
 
-⭐ H10 PRECONDITIONS — KHÔNG PHẢI pattern NÀO CŨNG REWARD:
+⭐ BODY-FEEDBACK-PRECONDITION — KHÔNG PHẢI pattern NÀO CŨNG REWARD:
 
-  (Body-Feedback.md — H10 5 preconditions)
+  (Body-Feedback.md — Body-Feedback-Precondition 5 preconditions)
 
   Reward chỉ fire KHI:
-    P1: Body-need active (có gap đang fire)
-    P2: Chunks base adequate (có ĐỦ chunks để evaluate)
-    P3: Prediction-delta threshold (đủ MỚI — vượt ngưỡng)
-    P4: Goldilocks zone (40-70% quen — vừa quen vừa lạ)
-    P5: Association tag neutral/positive (không bị tagged negative)
+    Precondition-1 Directed-Gap: Body-need active (có gap đang fire)
+    Precondition-2 Chunk-Substrate: Chunks base adequate (có ĐỦ chunks để evaluate)
+    Precondition-3 Delta-Gate: Prediction-delta threshold (đủ MỚI — vượt ngưỡng)
+    Precondition-4 Match-Range: Goldilocks zone (dynamic — vừa quen vừa lạ)
+    Precondition-5 Compile-Gate: Association tag neutral/positive (không bị tagged negative)
 
   Thiếu BẤT KỲ → reward KHÔNG fire:
-    → P2 fail: nghe nhạc cổ điển lần đầu = "không hiểu" (chunks thiếu)
-    → P3 fail: nghe bài quen lần 100 = "chán" (không đủ mới)
-    → P4 fail: nghe noise random = "khó chịu" (quá lạ, không Goldilocks)
-    → P5 fail: nhạc gắn ký ức đau = "không nghe nổi" (negative tag)
+    → Precondition-2 fail: nghe nhạc cổ điển lần đầu = "không hiểu" (chunks thiếu)
+    → Precondition-3 fail: nghe bài quen lần 100 = "chán" (không đủ mới)
+    → Precondition-4 fail: nghe noise random = "khó chịu" (quá lạ, không Goldilocks)
+    → Precondition-5 fail: nhạc gắn ký ức đau = "không nghe nổi" (negative tag)
 
 
 ⭐ COMPILED/FRESH TRONG COHERENCE EVALUATION:
@@ -254,7 +255,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟢 Coherence evaluation mechanism: consistent with Predictive Processing (Clark 2013)
 🟢 Evaluative Reward: consistent with opioid research (Berridge 2003)
 🟡 "Body checks coherence, not truth" = framework synthesis
-🟡 Full mechanism (VTA + coherence + H10 + Compiled/Fresh) = framework integration
+🟡 Full mechanism (VTA + coherence + Body-Feedback-Precondition + Compiled/Fresh) = framework integration
 ```
 
 ---
@@ -285,11 +286,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Quà hay rắn phụ thuộc COHERENCE, không phụ thuộc prediction-delta level
     → = Spotify thêm note random → prediction-delta CAO nhưng coherence FAIL → DỞ
 
-  BƯỚC 3 — H10 PRECONDITIONS (ALL required):
-    → P2: Chunks nhạc adequate (có đủ music patterns để evaluate?)
-    → P3: Prediction-delta threshold (đủ mới?)
-    → P4: Goldilocks 40-70% (vừa quen vừa lạ?)
-    → P5: Association tag neutral/positive?
+  BƯỚC 3 — BODY-FEEDBACK-PRECONDITION (ALL required):
+    → Precondition-2 Chunk-Substrate: Chunks nhạc adequate (có đủ music patterns để evaluate?)
+    → Precondition-3 Delta-Gate: Prediction-delta threshold (đủ mới?)
+    → Precondition-4 Match-Range: Goldilocks zone (dynamic — vừa quen vừa lạ?)
+    → Precondition-5 Compile-Gate: Association tag neutral/positive?
     → Thiếu BẤT KỲ → reward không fire
 
   ⚠️ PREDICTION-DELTA ĐƠN THUẦN ≠ REWARD (Prediction-Error-Is-Not-Reward.md):
@@ -302,22 +303,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ GOLDILOCKS ZONE — 4 VÙNG:
 
   QUÁ QUEN → "CHÁN":
-    VTA habituate → dopamine THẤP → P3 fail → body: "biết rồi, nhàm"
+    VTA habituate → dopamine THẤP → Precondition-3 fail → body: "biết rồi, nhàm"
     🟢 Zajonc 1968: mere exposure → thích HƠN → plateau → habituate
 
   VỪA QUEN VỪA LẠ + COHERENT → "HAY!":
-    Prediction-delta fire (P3) + coherence pass + Goldilocks (P4) = ALL conditions met
+    Prediction-delta fire (Precondition-3) + coherence pass + Goldilocks (Precondition-4) = ALL conditions met
     → opioid → "HAY!" = E₁ reward fire
     🟢 Berlyne 1960: optimal novelty = max hedonic value (inverted-U)
     🟢 North & Hargreaves 1995: inverted-U musical preference × familiarity
 
   VỪA QUEN VỪA LẠ + INCOHERENT → "lạ nhưng DỞ":
-    Prediction-delta fire (P3) + Goldilocks ok (P4) → NHƯNG coherence FAIL
+    Prediction-delta fire (Precondition-3) + Goldilocks ok (Precondition-4) → NHƯNG coherence FAIL
     → cortisol nhẹ → "interesting but don't like"
     → = Experimental jazz: some fascinated (chunks match), some reject (chunks mismatch)
 
   QUÁ LẠ → "KHÔNG HIỂU":
-    P2 fail (chunks không adequate) + P4 fail (ngoài Goldilocks)
+    Precondition-2 fail (chunks không adequate) + Precondition-4 fail (ngoài Goldilocks)
     → "Chả hiểu gì" → NHƯNG: người KHÁC (khác chunks) CÓ THỂ "hay"
     → = Classical music cho người chỉ nghe pop: "boring/weird"
 
@@ -369,7 +370,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟢 North & Hargreaves 1995: musical preference × familiarity
 🟢 Berridge 2003: wanting (dopamine) ≠ liking (opioid)
 🟢 Schultz 1997: VTA prediction error = attention signal
-🟡 Full music mechanism (prediction-delta + coherence + H10) = framework integration
+🟡 Full music mechanism (prediction-delta + coherence + Body-Feedback-Precondition) = framework integration
 🟡 Compilable Architecture → music reward exists = logical consequence
 ```
 
@@ -447,7 +448,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TẤT CẢ learning suốt đời = CƠ CHẾ NÀY.
   BẤT KỂ input source (tự thử, được dạy, absorb vô thức).
   Mechanism: experience → body-feedback → Hebbian strengthen → compiled
-  = Fresh → Compiled trajectory (Logic-Feeling.md v2.1 §4)
+  = Fresh → Compiled trajectory (Logic-Feeling.md v4.0 §3)
   = Learning = body "knowing MORE" at body-direct level
 
   NHƯNG: cùng cơ chế Hebbian → 2 ĐƯỜNG VÀO rất khác nhau:
@@ -1112,13 +1113,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §7.1 — × New Concepts (28-session Drill Propagation)
 
 ```
-SIMULATION ENGINE × CALIBRATION (Simulation-Engine.md v1.0):
-  → Simulation Engine = PFC's calibration TOOL:
+SIMULATION-ENGINE × CALIBRATION (Simulation-Engine.md v1.0):
+  → Simulation-Engine = PFC's calibration TOOL:
     PFC simulate outcome → body compare against domain feedback
     Match → calibration CONFIRMED → "body biết"
     Mismatch → calibration FAILED → need adjustment
-  → §3 (2-tầng): Tầng 2 Hebbian = Simulation Engine running + body evaluating
-  → §5 (Vòng Tròn): Simulation Engine DRIVES the loop
+  → §3 (2-tầng): Tầng 2 Hebbian = Simulation-Engine running + body evaluating
+  → §5 (Vòng Tròn): Simulation-Engine DRIVES the loop
     (Domain → Body → Simulation-Engine draft → Action → Domain feedback → Body learn)
 
 ENTITY-ACCESS × CALIBRATION (Entity-Access.md v1.2):
@@ -1129,10 +1130,10 @@ ENTITY-ACCESS × CALIBRATION (Entity-Access.md v1.2):
   → §6 (Khi Body Sai): calibration ERROR varies by entity level
     Mức 5 error = rare but devastating (self-deception)
     Mức 1 error = common but low cost (stereotype, first impression wrong)
-  → Hardware Subsidy: body INVESTS MORE calibration resource per Mức level
+  → Hardware-Subsidy: body INVESTS MORE calibration resource per Mức level
     → = TẠI SAO calibration for family > calibration for stranger
 
-🟡 Simulation Engine × calibration = framework formalization
+🟡 Simulation-Engine × calibration = framework formalization
 🟡 Entity-Access × calibration = framework application (per-entity calibration depth)
 ```
 
@@ -1188,7 +1189,7 @@ ENTITY-ACCESS × CALIBRATION (Entity-Access.md v1.2):
   HYPOTHESIS (🔴):
 
     🔴 "90%" number — not measurable precisely, estimated from calibration argument
-    🔴 Goldilocks zone 40-70% — range approximate, varies per individual
+    🔴 Goldilocks zone — range approximate, dynamic per person/context (not fixed number)
     🔴 E₁ coherence boundary — where "coherent enough" starts = fuzzy
     🔴 AI amplification quantification — conceptual, not measured
     🔴 2a/2b boundary precision — where exactly passive absorption ↔ trust-injection?
@@ -1218,16 +1219,16 @@ ENTITY-ACCESS × CALIBRATION (Entity-Access.md v1.2):
     → Gap-Direction.md v2.0 — "chưa biết = không có gap" (recursive compile)
     → Simulation-Engine.md v1.0 — PFC simulation = calibration tool
     → Entity-Access.md v1.2 — trust = gradient Mức 0-5, calibration per-entity
-    → Entity-Access-Calibration.md v1.0 — self-regulation, hardware subsidy
+    → Entity-Access-Calibration.md v1.0 — self-regulation, hardware-subsidy
 
   OBSERVATION + APPLICATION FILES:
     → Feeling.md v3.0 — PFC observation interface, §2 magnitude × clarity
     → Cortisol-Baseline.md v2.1 — amplifier, holding signal
-    → Body-Feedback.md — H10 5 preconditions, dual-pull, interface loop
+    → Body-Feedback.md — Body-Feedback-Precondition 5 preconditions, dual-pull, interface loop
     → Schema/Anchor-Schema.md — §3 nguồn ④ (external inject = 2b)
 
   AI + EXTERNAL CHECK:
-    → Ask-AI.md v3.1 — §6.1 Dual Check (body=QC, domain=arbiter)
+    → Ask-AI.md v3.1 — §6.1 Dual Check (body=quality controller, domain=arbiter)
     → AI-Schema-Detection.md v2.0 — AI Trust Guardrails, Self-Drill
     → AI-Self-Model.md v2.0 — Dual Check, Stale Calibration, Honest AI
 

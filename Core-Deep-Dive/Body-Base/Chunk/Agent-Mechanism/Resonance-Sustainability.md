@@ -1,4 +1,4 @@
----
+﻿---
 title: Resonance-Sustainability — Điều Kiện Quan Sát Cho Resonance Bền Vững
 version: 1.0
 created: 2026-05-22
@@ -6,7 +6,7 @@ status: OBSERVATION FILE v1.0
 scope: |
   SUSTAINABILITY CONDITIONS file:
   By-Product-Gap-Resonance v1.2 = WHAT resonance is (mutual by-product gap fill).
-  Bond-Architecture v1.0 = HOW Entity-Compiled plays out across 4 bond types.
+  Bond-Architecture v2.0 = HOW Entity-Compiled plays out across 4 bond types.
   Boredom v2.0 = WHY resonance decays (6 sources, unified formula).
   FILE NÀY = WHAT CONDITIONS predict sustained vs decaying resonance:
     → THROUGH WHAT CHANNELS (3 modalities)
@@ -48,12 +48,12 @@ position: |
   Resonance-Per-Entity.md v1.0 = per-entity resonance dynamics.
 dependencies:
   - By-Product-Gap-Resonance.md v1.2 — Resonance Core, 5 Trục, Tool/Agent-mode
-  - Bond-Architecture.md v1.0 — 4 bond types, M1-M4 decline, true understanding
+  - Bond-Architecture.md v2.0 — 4 bond types, Resonance Decline (2 Forces + 1 Fuel), true understanding
   - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Agent-mode engine, Self-Pattern-Modeling accuracy
   - PFC-Operations.md v1.0 — Hold/Suppress, compiled quality, PFC budget
   - Entity-Compiled.md v1.0 — Formation 40→200h, compilation chain
   - Entity-Access-Calibration.md v1.0 — 3-Layer, engine use quality
-  - Boredom.md v2.0 — Source ⑥, M1-M4, unified formula
+  - Boredom.md v2.0 — Source ⑥, Resonance Decline, unified formula
   - Connection.md v4.0 — 3 Generative Primitives, Compilable Architecture social
   - Body-Coupling.md v2.0 — coupling mechanism, depth × direction
   - Gap-Direction.md v2.0 — gap = f(surrounding chunks), gap flexibility basis
@@ -132,7 +132,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   EXISTING FRAMEWORK COVERS:
     By-Product-Gap-Resonance v1.2: WHAT resonance is (mutual by-product gap fill)
-    Bond-Architecture v1.0: HOW Entity-Compiled plays out across 4 bond types
+    Bond-Architecture v2.0: HOW Entity-Compiled plays out across 4 bond types
     Boredom v2.0: WHY resonance decays (6 sources, unified formula)
 
   FILE NÀY = CÁI GÌ CÒN THIẾU:
@@ -198,7 +198,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   OBSERVATION LAYER:
     By-Product-Gap-Resonance v1.2 = WHAT resonance is + 5 Trục
-    Bond-Architecture v1.0        = HOW Entity-Compiled differs per bond type + M1-M4
+    Bond-Architecture v2.0        = HOW Entity-Compiled differs per bond type + Resonance Decline
     ★ File này v1.0               = WHAT CONDITIONS sustain resonance over time
 
   COMPANION FILES:
@@ -209,7 +209,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   FILE NÀY ENRICHES:
     By-Product-Gap-Resonance §5: Deepen/Fade/Break → ADDS modality + amplification + trajectory
     Boredom §2-§3: Source ⑥ → ADDS conditions that PREVENT source ⑥
-    Bond-Architecture §4-§5: M1-M4 + true understanding → ADDS amplification mechanisms
+    Bond-Architecture §4-§5: Resonance Decline + true understanding → ADDS amplification mechanisms
     Entity-Access-Calibration §6: engine quality → ADDS response quality detail
 ```
 
@@ -750,7 +750,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Anxious partner: over-monitoring → MY drive suppressed → less by-products.
     Avoidant partner: unavailable → MY distress unmet → energy diverted to seeking.
     → Both patterns REDUCE by-products → REDUCE resonance → weaker base.
-    → = Bond-Architecture §4.1: M1 compiled suppress gap riêng.
+    → = Bond-Architecture §4.1: Compiled-Suppress gap riêng.
 
   🟢 Feeney 2004, 2007: secure base in adults.
   🟢 Feeney & Thrush 2010: 3 components predict exploration (N=167 couples).
@@ -779,16 +779,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → Greater increases in relationship quality after novel task.
 
 
-  MAPPING TO BOREDOM M1-M4 (Boredom v2.0 §3, Bond-Architecture §4):
+  MAPPING TO RESONANCE DECLINE (Boredom v2.0 §3, Bond-Architecture v2.0 §4):
 
-    Self-expansion = COUNTER to M2 + M3 + M4:
-    → Novel shared activities → new stimuli (counter M2 habituation).
-    → Novel shared activities → new predictions needed (counter M3 prediction complete).
-    → Novel shared activities → new chunks form (counter M4 Entity-Compiled saturation).
+    Self-expansion = COUNTER to Reward-Habituated + restores novelty fuel:
+    → Novel shared activities → new sensory stimuli → counter Reward-Habituated (②).
+    → Novel shared activities → new prediction-deltas + new chunks → novelty fuel restored.
+    → = Counter BOTH force ② AND restore fuel in one action.
 
-    NHƯNG M1 (compiled suppress) cần KHÁC treatment:
+    NHƯNG Compiled-Suppress (①) cần KHÁC treatment:
     → Novel activities không help nếu partner suppress drive riêng.
-    → M1 fix = awareness + uncompile + secure base (§8).
+    → Compiled-Suppress fix = awareness + uncompile + secure base (§8).
     → = Bond-Architecture §5: true understanding = anti-compiled-suppress.
 
 
@@ -809,7 +809,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Tsapelas 2009: boredom → satisfaction lag (longitudinal).
   🟢 Aron 2000: novel activities → satisfaction (3 experiments).
   🟢 Reissman 1993: exciting > pleasant > control (RCT).
-  🟡 Self-expansion × M1-M4 mapping = framework synthesis.
+  🟡 Self-expansion × Resonance Decline mapping = framework synthesis.
 ```
 
 ---
@@ -1102,7 +1102,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ┌─────────────────────────────────────────────────────────────┐
     │ Self-expansion: stopping → boredom → satisfaction ↓         │
-    │   → Novel shared experiences = counter to M2+M3+M4          │
+    │   → Novel shared experiences = counter ② + restore novelty   │
     │                                                             │
     │ Maintenance: naturally DECLINE with duration                 │
     │   → Longer relationships need MORE effort, not less         │
@@ -1165,7 +1165,7 @@ CASE 1 — Vợ chồng 20 năm ngồi đọc sách:
   Tầng 3: Capitalization limited (không nói). PPR = compiled high. Secure base = stable.
   Tầng 4: Maintenance adequate IF periodic Generative injection (talk about books).
   Assessment: BỀN VỮNG nếu cả hai duy trì drive riêng + share periodically.
-  Risk: M1 compiled suppress nếu "đọc sách" = tránh conversation.
+  Risk: Compiled-Suppress nếu "đọc sách" = tránh conversation.
 
 
 CASE 2 — Long-distance relationship chỉ text:
@@ -1256,7 +1256,7 @@ CASE 4 — Mẹ-con teen, introjected silence:
   PPR × Self-Pattern-Modeling interpretation
   PPR × modality analysis
   Secure base → drive → by-product → resonance spiral
-  Self-expansion × M1-M4 sub-mechanisms mapping
+  Self-expansion × Resonance Decline (2 Forces + 1 Fuel) mapping
   Maintenance decline × compilation stage
   Compilation visibility trap
   Co-regulation U-curve × compilation stage
@@ -1285,7 +1285,7 @@ CASE 4 — Mẹ-con teen, introjected silence:
 
 ```
   → By-Product-Gap-Resonance.md v1.2 — resonance definition, 5 Trục, Tool/Agent-mode
-  → Bond-Architecture.md v1.0 — 4 bond types, M1-M4 decline, true understanding
+  → Bond-Architecture.md v2.0 — 4 bond types, Resonance Decline (2 Forces + 1 Fuel), true understanding
   → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Agent-mode engine, Self-Pattern-Modeling accuracy
   → Entity-Compiled.md v1.0 — Formation 40→200h, compilation chain
   → Entity-Access-Calibration.md v1.0 — 3-Layer, engine use quality
@@ -1308,7 +1308,7 @@ CASE 4 — Mẹ-con teen, introjected silence:
 
 ```
   → Connection.md v4.0 — 3 Generative Primitives, Compilable Architecture social
-  → Boredom.md v2.0 — Source ⑥, M1-M4, unified formula (FAILURE MODES)
+  → Boredom.md v2.0 — Source ⑥, Resonance Decline, unified formula (FAILURE MODES)
   → Resonance-Per-Entity.md v1.0 — per-entity resonance dynamics
   → By-Product-Scale.md v1.0 — 3 scales Pair/Hub/Institutional
 ```

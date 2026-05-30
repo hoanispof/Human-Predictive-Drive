@@ -9,7 +9,7 @@ scope: |
   Cùng mechanism, KHÁC topology + hardware + compilation + failure mode.
   v1.0 KEY CONTENT:
     ① 1 Mechanism × 3 Scales: Pair (A↔B) / Hub (Node↔Collective) / Institutional (Distributed)
-    ② Hardware subsidy per scale: oxytocin (L1) → serotonin (L2) → trust infrastructure (L3)
+    ② Hardware-subsidy per scale: oxytocin (L1) → serotonin (L2) → trust infrastructure (L3)
     ③ Compilation per scale: direct verify → trust bypass → institutional (speed↑ accuracy↓)
     ④ Failure + self-correction per scale: "chán" → overthrow → arc shift
     ⑤ Prestige = genuine resonance at hub scale (opioid). Dominance = schema resonance (relief tag)
@@ -88,7 +88,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §2 — LEVEL 1: PAIR-WISE RESONANCE (A↔B)
 - §3 — LEVEL 2: HUB-AND-SPOKE (Node↔Collective)
 - §4 — LEVEL 3: INSTITUTIONAL (Distributed)
-- §5 — HARDWARE SUBSIDY PER SCALE
+- §5 — HARDWARE-SUBSIDY PER SCALE
 - §6 — COMPILATION PER SCALE
 - §7 — FAILURE + SELF-CORRECTION PER SCALE
 - §8 — PRESTIGE vs DOMINANCE = GENUINE vs SCHEMA RESONANCE
@@ -152,7 +152,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   CLAIM 1: By-product match = SINGLE mechanism at ALL social scales.
-  CLAIM 2: Hardware subsidy SHIFTS body → collective across scales.
+  CLAIM 2: Hardware-subsidy SHIFTS body → collective across scales.
   CLAIM 3: Compilation speed × accuracy = INVERSE trade-off per scale.
   CLAIM 4: Prestige = genuine resonance at hub scale. Dominance = schema resonance.
   CLAIM 5: Mẹ = first coordination node (all 5 capabilities present).
@@ -222,7 +222,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   HARDWARE:
     Oxytocin (kin bonds), dopamine/NE (limerence), μ-opioid (social play).
     → Attachment system + reward system = PAIR-OPTIMIZED.
-    → Hardware subsidy spectrum: MAX (mẹ→con) → NONE (bạn thân).
+    → Hardware-subsidy spectrum: MAX (mẹ→con) → NONE (bạn thân).
     (Resonance-Entity v2.0, Entity-Compiled v1.0)
     
   LIMITATION:
@@ -361,7 +361,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §5 — HARDWARE SUBSIDY PER SCALE
+## §5 — HARDWARE-SUBSIDY PER SCALE
 
 ```
 ⭐⭐ CÙNG FUNCTION (anti-habituation), KHÁC NEUROCHEMISTRY:
@@ -386,12 +386,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                │                  │ (institutional)   │ history)          │
   └────────────────┴──────────────────┴──────────────────┴───────────────────┘
 
-  ⭐ PATTERN: Hardware subsidy SHIFTS body → collective across scales:
+  ⭐ PATTERN: Hardware-subsidy SHIFTS body → collective across scales:
     Level 1: body hormones (oxytocin, dopamine) = DIRECT biological.
     Level 2: body hormones (serotonin) + institutional backing = MIXED.
     Level 3: institutional trust + cultural norms = ABSTRACT (no direct hormone).
     
-  ⭐ SEROTONIN = LEVEL 2 HARDWARE SUBSIDY:
+  ⭐ SEROTONIN = LEVEL 2 HARDWARE-SUBSIDY:
     R4 Sapolsky (30+ years baboon research):
       Alpha: serotonin ↑ → stable, confident → maintain position.
       Lose status: serotonin ↓ → collapse, depression.
@@ -402,7 +402,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   🟢 Serotonin × status: R4 Sapolsky, R5 Raleigh 1991
   🟢 Oxytocin × pair bonds: R11 Feldman 2012
-  🟡 Cross-scale hardware subsidy mapping = framework synthesis
+  🟡 Cross-scale hardware-subsidy mapping = framework synthesis
 ```
 
 ---
@@ -461,12 +461,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐ BY-PRODUCT MATCH CAN FAIL → SELF-CORRECTION AT EACH SCALE:
 
-  LEVEL 1 — "CHÁN" (resonance decline):
-    4 mechanisms (Bond-Architecture §4):
-      M1: Compiled suppress gap riêng (nhân tạo) → mất by-product.
-      M2: VTA habituation (tự nhiên) → reward invisible.
-      M3: Prediction complete → delta = 0.
-      M4: Entity-Compiled saturation → no new chunks.
+  LEVEL 1 — "CHÁN" (Resonance Decline — Bond-Architecture v2.0 §4):
+    2 Forces + 1 Fuel:
+      Force: Compiled-Suppress gap riêng (nhân tạo, ★ LEVERAGE) → mất by-product source.
+      Force: Reward-Habituated (tự nhiên, Weber-Fechner) → reward invisible.
+      Fuel: Novelty threshold (prediction complete + Entity-Compiled saturated = 2 lenses).
     Correction: drift apart / new experiences / rebuild drive riêng.
     Cost: LOW (individual level, reversible, replaceable).
     Speed: FAST (weeks-months).
@@ -610,7 +609,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     └────────────────────────────────┴────────────────────────────┘
     
   SCALE PROGRESSION: mẹ → family → school → company → nation.
-    → Mẹ = personal node (scale 1-5, face-to-face, MAX hardware subsidy).
+    → Mẹ = personal node (scale 1-5, face-to-face, MAX hardware-subsidy).
     → Family = first collective (scale 5-20, personal maps).
     → School = first institutional node (scale 30-500, role-based).
     → Company = Level 2 hub (scale 10-10,000).
@@ -793,7 +792,7 @@ CASE 4: VILLAGE → CITY — Scale transition.
 ═══════════════════════════════════════
 
   3-level unification under 1 mechanism (pair/hub/institutional)
-  Hardware subsidy cross-scale mapping (oxytocin/serotonin/trust)
+  Hardware-subsidy cross-scale mapping (oxytocin/serotonin/trust)
   Compilation speed × accuracy trade-off across scales
   Prestige = genuine resonance at hub scale (Henrich → By-Product-Gap-Resonance mapping)
   Dominance = schema resonance at hub scale
@@ -826,7 +825,7 @@ CASE 4: VILLAGE → CITY — Scale transition.
 ```
   → Agent-Mechanism.md v2.0 — parent integration hub
   → By-Product-Gap-Resonance.md v1.4 — core definition, by-product match, 4 conditions
-  → Bond-Architecture.md v1.0 — cross-bond: 4 types, over-clone, M1-M4
+  → Bond-Architecture.md v2.0 — cross-bond: 4 types, over-clone, Resonance Decline
   → Resonance-Sustainability.md v1.0 — sustainability: 3 conditions, 3 modalities
   → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Agent-mode engine
   → Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation, Grief A+B+C

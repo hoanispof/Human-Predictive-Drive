@@ -1,12 +1,13 @@
 ---
 title: Body-Base — Entry Point cho Toàn Bộ Body-Base System
-version: 3.2
+version: 3.3
 created: 2026-04-14 (v1.0 BASIC — Phase C)
 rewritten: 2026-05-16 (v3.0 — Phase 4 ALL REWRITE: 3 Hardware Foundations, Compilable Architecture, Body-Need 2-source, Compiled/Fresh axis, L3→PFC Operators reframe, 3-Layer Evolution, cross-refs updated)
 refined: 2026-05-17 (v3.1 — §7 REWRITE: 4-Tier → 2-Tier + 2-Pathway calibration model. Aligned with Why-Body-Knows.md v1.1)
-refined: 2026-05-23 (v3.2 — Concept Cascade: +Simulation-Engine, +Entity-Access, +Entity-Compiled, +Bond-Architecture, +Hardware Subsidy, +M1-M4, +Satiation, +Resonance-Sustainability, +By-Product-Scale, +Resonance-Per-Entity. Updated versions + deps + §0 flow + §10 reading guide + §12 cross-refs)
-previous: v3.1 (inline — no backup needed, additive changes only)
-status: v3.2 REFERENCE FILE
+refined: 2026-05-23 (v3.2 — Concept Cascade: +Simulation-Engine, +Entity-Access, +Entity-Compiled, +Bond-Architecture, +Hardware-Subsidy, +Resonance Decline, +Satiation, +Resonance-Sustainability, +By-Product-Scale, +Resonance-Per-Entity. Updated versions + deps + §0 flow + §10 reading guide + §12 cross-refs)
+refined: 2026-05-25 (v3.3 — +Dissonance-Signal-Architecture.md v1.0 integration. §9 Body-Feedback 6→16 files. §10 folder structure fix: Drill-Inter-Body→backup, Inter-Body v2.0 top-level, Body-Feedback/ 13→16 files. Versions fixed: Cortisol v2.1, Inter-Body v2.0, Body-Feedback-Mechanism v2.1, Body-Feedback-Label v2.1. +§11 Dissonance-Signal-Architecture confidence items)
+previous: v3.2 (inline — no backup needed, additive + version updates)
+status: v3.3 REFERENCE FILE
 scope: |
   ENTRY POINT cho toàn bộ Body-Base/ folder (~60+ files).
   Body-Base LÀ GÌ + 3 Hardware Foundations + Compilable Architecture +
@@ -28,10 +29,16 @@ scope: |
     ⑨ Deps + versions updated for ~15 new/rewritten files
     ⑩ §0 flow diagram: +Simulation-Engine, +Agent-Mechanism sub-files
     ⑪ §1.3: +Satiation types, +Gap-Body-Need reference
-    ⑫ §3: +Simulation Engine (PFC), +Entity-Access (Trust), +Bond-Architecture
+    ⑫ §3: +Simulation-Engine (PFC), +Entity-Access (Trust), +Bond-Architecture
     ⑬ §4: +Entity-Compiled formal file reference
     ⑭ §10: Reading Guide comprehensive update (Agent-Mechanism/ 11 files)
     ⑮ §12: +15 new cross-references
+  v3.3 KEY CHANGES (Dissonance-Signal-Architecture integration + folder structure fix):
+    ⑯ YAML deps: +Dissonance-Signal-Architecture v1.0, +Reward-Signal-Architecture v2.1, Cortisol v2.1, Inter-Body v2.0, Body-Feedback-Mechanism/Body-Feedback-Label v2.1
+    ⑰ §9: Body-Feedback folder 6→16 files, ~9,050→~26,100L
+    ⑱ §10: Folder structure updated (Drill-Inter-Body→backup, +Dissonance-Signal-Architecture, +Reward-Calibration, +Drill-Evolutionary-Sensor-Architecture)
+    ⑲ §11: +Dissonance-Signal-Architecture confidence items (🟢 pain 2-component, placebo/nocebo + 🟡 7 items)
+    ⑳ §12: Cortisol v2.1, Inter-Body v2.0, Drill files→backup notation
 purpose: |
   Người đọc NÊN ĐỌC FILE NÀY TRƯỚC khi đi vào bất kỳ sub-file nào.
   File này consolidate, KHÔNG duplicate — detail ở sub-files.
@@ -40,31 +47,34 @@ previous_version: backup/Body-Base-v2.1-backup.md
 parent: Core-Deep-Dive/ (foundation file)
 dependencies:
   - Why-Body-Knows.md v1.1 — 2-tier + 2-pathway calibration, coherence ≠ truth
-  - Body-Feedback/Body-Feedback.md — Dual-Pull, H10, Interface Loop
+  - Body-Feedback/Body-Feedback.md v3.1 — Dual-Pull, Body-Feedback-Precondition, Interface Loop, 16 files synthesis
   - Body-Feedback/01-Foundation.md — body-feedback vs feeling 2-layer
-  - Body-Feedback/Body-Feedback-Mechanism.md v2.0 — chunk dynamics, Body-Need aggregate
+  - Body-Feedback/Body-Feedback-Mechanism.md v2.1 — chunk dynamics, Body-Need aggregate
   - Body-Feedback/Gap-Body-Need.md v1.0 — 3 satiation types, ENGINE/ROAD/VEHICLE, entity-gap matching
-  - Feeling/Feeling.md v2.0 — 7-layer fidelity, PFC observation
+  - Body-Feedback/Reward-Signal-Architecture.md v2.1 — Evaluative/Direct-State, 5 Profiles
+  - Body-Feedback/Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance, clinical
+  - Feeling/Feeling.md v3.0 — 7-layer fidelity, PFC observation
   - Chunk/Chunk.md v2.0 — sole substrate, 4 compile mechanisms
-  - Valence-Propagation.md v3.0 — structural/current valence, 3 firing modes, hardware subsidy, per-entity
-  - Body-Coupling.md v3.0 — coupling mechanism, 4 bond types, hardware subsidy, M1-M4
-  - Cortisol-Baseline.md v2.0 — amplifier, direction > level
+  - Valence-Propagation.md v4.0 — valence definition, formation, propagation qua schema chain
+  - Entity-Valence-Dynamics.md v1.0 — per-entity dynamics: structural/current, 3 firing modes, hardware-subsidy
+  - Body-Coupling.md v3.0 — coupling mechanism, 4 bond types, hardware-subsidy, Resonance Decline
+  - Cortisol-Baseline.md v2.1 — amplifier, direction > level
   - PFC/PFC-Function.md — 24 functions, 95/5 split
   - PFC/Simulation-Engine.md v1.0 — 1 engine, 3 components, N applications
   - PFC/PFC-Label.md v1.0 — vocabulary reference, 13 domains, 3-tier labels
   - Neural-Architecture.md — A/B/C/D 4-zone physical map
-  - Inter-Body-Mechanism.md v1.0 — 8 drill principles
-  - Body-Feedback/Body-Feedback-Label.md v2.0 — vocabulary reference
+  - Inter-Body-Mechanism.md v2.0 — 8 drill principles, Compilable Architecture
+  - Body-Feedback/Body-Feedback-Label.md v2.1 — vocabulary reference
   - Chunk/Agent-Mechanism/Self-Pattern-Modeling.md v3.1 — solo simulation, 1 mech × 3 dims
   - Chunk/Agent-Mechanism/Entity-Compiled.md v1.0 — neural reality, formation 40→200h, Dunbar
   - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — gradient model, Mức 0-5, per-entity
-  - Chunk/Agent-Mechanism/Bond-Architecture.md v1.0 — 1 mechanism × 4 bond types, M1-M4
+  - Chunk/Agent-Mechanism/Bond-Architecture.md v2.0 — 1 mechanism × 4 bond types, Resonance Decline
   - Chunk/Agent-Mechanism/By-Product-Gap-Resonance.md v1.4 — mutual match, 5 drills
   - Chunk/Agent-Mechanism/Resonance-Sustainability.md v1.0 — 4-layer, 3 conditions, 3 modalities
   - Chunk/Agent-Mechanism/By-Product-Scale.md v1.0 — 1 mechanism × 3 scales
-  - Chunk/Agent-Mechanism/Resonance-Per-Entity.md v1.0 — per-relationship, hardware subsidy spectrum
+  - Chunk/Agent-Mechanism/Resonance-Per-Entity.md v1.0 — per-relationship, hardware-subsidy spectrum
   - Chunk/Agent-Mechanism/Entity-Access-Excess.md v1.0 — excess territory, addiction
-  - Chunk/Agent-Mechanism/Entity-Access-Calibration.md v1.0 — self-regulation, hardware subsidy
+  - Chunk/Agent-Mechanism/Entity-Access-Calibration.md v1.0 — self-regulation, hardware-subsidy
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -134,7 +144,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Protect = observation parameter, KHÔNG phải operator (Protect.md §0)
 
   BODY-NEED = aggregate output CỦA body-base signals:
-    → Hardware/sensory + chunk dynamics → body-need (Body-Feedback-Mechanism v2.0 §1)
+    → Hardware/sensory + chunk dynamics → body-need (Body-Feedback-Mechanism v2.1 §1)
     → PFC KHÔNG luôn biết body-need hiện tại
     → Chi tiết: Inter-Body-Mechanism.md §2
 
@@ -148,26 +158,29 @@ FILE NÀY TRONG FLOW:
   │                                                                │
   │  Mechanism files (HOW):                                        │
   │    Chunk/Chunk.md v2.0             — chunk system (sole substrate)│
-  │    Body-Feedback-Mechanism.md v2.0 — chunk dynamics, Body-Need│
-  │    Valence-Propagation.md v3.0     — structural/current valence, 3 firing modes│
-  │    Body-Coupling.md v3.0           — coupling, 4 bond types, hardware subsidy│
-  │    Cortisol-Baseline.md v2.0       — amplifier mechanism       │
-  │    Inter-Body-Mechanism.md v1.0    — inter-body 8 principles  │
+  │    Body-Feedback-Mechanism.md v2.1 — chunk dynamics, Body-Need│
+  │    Valence-Propagation.md v4.0     — valence definition + propagation          │
+  │    Entity-Valence-Dynamics.md v1.0 — per-entity dynamics, 3 firing modes      │
+  │    Body-Coupling.md v3.0           — coupling, 4 bond types, hardware-subsidy│
+  │    Cortisol-Baseline.md v2.1       — amplifier mechanism       │
+  │    Inter-Body-Mechanism.md v2.0    — inter-body 8 principles  │
   │                                                                │
   │  Agent-Mechanism files (PER-ENTITY):                           │
   │    Self-Pattern-Modeling.md v3.1   — solo simulation, 1 mech × 3 dims│
   │    Entity-Compiled.md v1.0         — neural reality, formation, Dunbar│
   │    Entity-Access.md v1.2           — gradient model, Mức 0-5  │
-  │    Bond-Architecture.md v1.0       — 1 mechanism × 4 bond types│
+  │    Bond-Architecture.md v2.0       — 1 mechanism × 4 bond types│
   │    By-Product-Gap-Resonance.md v1.4 — mutual match, sustainability│
   │    Resonance-Sustainability.md v1.0 — 4-layer, 3 conditions   │
   │    Resonance-Per-Entity.md v1.0    — per-relationship dynamics │
   │    By-Product-Scale.md v1.0        — 1 mech × 3 scales        │
   │                                                                │
   │  Observation files (WHAT PFC SEES):                            │
-  │    Feeling/Feeling.md v2.0         — PFC observation interface │
-  │    Body-Feedback/                  — signal architecture        │
+  │    Feeling/Feeling.md v3.0         — PFC observation interface │
+  │    Body-Feedback/                  — signal architecture (16 files)│
   │    Body-Feedback/Gap-Body-Need.md v1.0 — 3 satiation types    │
+  │    Body-Feedback/Dissonance-Signal-Architecture.md v1.0        │
+  │                                    — Evaluative/Direct-State Dissonance│
   │                                                                │
   │  Foundation files (WHY):                                       │
   │    Why-Body-Knows.md               — tại sao body đáng tin     │
@@ -206,7 +219,7 @@ FILE NÀY TRONG FLOW:
     → Schema phục vụ body-base (Drill §23, PFC-Function §9)
     → Reward = body decides, PFC observes
     → PFC KHÔNG tạo feeling — PFC observe body-chunk interaction
-    → = Feeling.md v2.0: "Feeling = WHAT PFC SEES"
+    → = Feeling.md v3.0: "Feeling = WHAT PFC SEES"
 ```
 
 ### §1.2 — 3 Hardware Foundations → Compilable Architecture
@@ -292,7 +305,7 @@ Chi tiết: Inter-Body-Mechanism.md §1
 ### §1.3 — Body-Need: 2-Source Aggregate
 
 ```
-⭐ BODY-NEED = TỔNG HỢP TRẠNG THÁI CẦN HIỆN TẠI (Body-Feedback-Mechanism v2.0 §1):
+⭐ BODY-NEED = TỔNG HỢP TRẠNG THÁI CẦN HIỆN TẠI (Body-Feedback-Mechanism v2.1 §1):
 
   2 GENUINE SOURCES:
     ① Hardware/Sensory-Driven: đói, khát, đau, nhiệt, oxy, ngủ
@@ -320,7 +333,7 @@ Chi tiết: Inter-Body-Mechanism.md §1
     → Mỗi type → khác intervention. Nhầm type = fix sai.
     → Entity-gap matching: mỗi gap có entity phù hợp riêng (Gap-Body-Need.md §4)
 
-Chi tiết: Body-Feedback-Mechanism.md v2.0 §1, Inter-Body-Mechanism.md §2, Gap-Body-Need.md v1.0
+Chi tiết: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2, Gap-Body-Need.md v1.0
 ```
 
 ### §1.4 — Architectural Claim: Schema Phục Vụ Body-Base
@@ -349,7 +362,7 @@ Chi tiết: Body-Feedback-Mechanism.md v2.0 §1, Inter-Body-Mechanism.md §2, Ga
 
   Corollary: Reward = PERSONALIZED
     → Same stimulus → different person → different chunks base → different reward
-    → "Ô tô paradox" (Body-Feedback.md §7.1): same car → 5 opposite reactions
+    → "Ô tô paradox" (Body-Feedback.md §8.1): same car → 5 opposite reactions
     → Reward = f(object, person's chunks, pending needs, history)
 ```
 
@@ -404,6 +417,7 @@ Chi tiết: Body-Feedback-Mechanism.md v2.0 §1, Inter-Body-Mechanism.md §2, Ga
     → Body đúng ~90%+ (patterns calibrated qua 2 cơ chế — §7 below)
     → Body sai ở ~10% (evolution lag, chunks nền sai, schema override)
     → External check cần thiết cho 10% gap: người khác, AI, domain thật
+    → ⚠️ Tất cả % trong file = calibration anchor, KHÔNG phải đo lường chính xác. Xem §11.
 
 
 🟢 Research support:
@@ -464,7 +478,7 @@ Chi tiết: Body-Feedback-Mechanism.md v2.0 §1, Inter-Body-Mechanism.md §2, Ga
   │   PFC = conductor (không chơi nhạc cụ, chỉ điều phối dàn nhạc). │
   │   Specialty: novel sequencing (sắp xếp tổ hợp chưa compiled).   │
   │                                                                  │
-  │   SIMULATION ENGINE = formalized PFC mechanism:                  │
+  │   SIMULATION-ENGINE = formalized PFC mechanism:                  │
   │     Interoceptive Model × Simulation × Self-Pattern-Modeling = 1 engine           │
   │     Chi tiết: Simulation-Engine.md v1.0                          │
   │                                                                  │
@@ -472,7 +486,7 @@ Chi tiết: Body-Feedback-Mechanism.md v2.0 §1, Inter-Body-Mechanism.md §2, Ga
   ├─────────────────────────────────────────────────────────────────┤
   │ COMPONENT 3 (BRIDGE) — TRUST: GATE + MODULATE + CONNECT         │
   │                                                                  │
-  │   Trust = per-entity meta-tag trên chunks (Valence-Propagation v3.0 §2).         │
+  │   Trust = per-entity meta-tag trên chunks (Valence-Propagation v4.0 §2).         │
   │   MỌI trust sources (bản thân, cha mẹ, thầy, tập thể, hệ thống)│
   │   dùng IDENTICAL mechanism — khác verification path.             │
   │                                                                  │
@@ -489,7 +503,7 @@ Chi tiết: Body-Feedback-Mechanism.md v2.0 §1, Inter-Body-Mechanism.md §2, Ga
   │   BOND-ARCHITECTURE = 4 bond types qua 1 mechanism:             │
   │     Proximity / Shared-Experience / Reciprocal / Identity        │
   │     Entity-Compiled = neural reality, KHÔNG phải metaphor        │
-  │     Chi tiết: Bond-Architecture.md v1.0, Entity-Compiled.md v1.0│
+  │     Chi tiết: Bond-Architecture.md v2.0, Entity-Compiled.md v1.0│
   │                                                                  │
   │   Tại sao Trust = Bridge, không phải component:                  │
   │     → Trust KHÔNG process — trust ENABLE processing              │
@@ -509,17 +523,17 @@ Chi tiết: Body-Feedback-Mechanism.md v2.0 §1, Inter-Body-Mechanism.md §2, Ga
   └─────────────────────────────────────────────────────────────────┘
 
 
-  BB1 + BB2 CONVERGENCE (Drill §26 D1):
+  BLACKBOX-1 + BLACKBOX-2 CONVERGENCE (Drill §26):
 
-    Blackbox 1 (chunk substrate) + Blackbox 2 (valence complexity)
+    Blackbox-1 (chunk substrate) + Blackbox-2 (valence complexity)
     = KHÔNG PHẢI 2 blackbox riêng biệt.
     = CÙNG 1 mechanism ở behavioral level:
       Compile = structural aspect (patterns form)
       Valence = evaluative aspect (patterns get tagged)
       → XẢY RA ĐỒNG THỜI, không tuần tự.
 
-    BB2 = BB1 + collective scale + hardware variance.
-    BB1 ⊂ BB2 ⊂ Model 3+1.
+    Blackbox-2 = Blackbox-1 + collective scale + hardware variance.
+    Blackbox-1 ⊂ Blackbox-2 ⊂ Model 3+1.
 
     Chi tiết convergence: Drill-Compile-Short-Collective.md §26,
     Blackbox-Map.md §4.2 (supersedes Framework-Boundaries.md v2.0).
@@ -662,7 +676,7 @@ Chi tiết: Body-Feedback-Mechanism.md v2.0 §1, Inter-Body-Mechanism.md §2, Ga
 🟡 Compiled/Fresh reframe = framework synthesis.
    Consistent with Kahneman 2011 System 1/2, Klein 1998 (🟢).
 
-Chi tiết: Inter-Body-Mechanism.md §3, Self-Pattern-Modeling.md v2.4 §2
+Chi tiết: Inter-Body-Mechanism.md §3, Self-Pattern-Modeling.md v3.1 §2
 ```
 
 ---
@@ -756,18 +770,18 @@ Chi tiết: Inter-Body-Mechanism.md §3, Self-Pattern-Modeling.md v2.4 §2
     → KHÔNG phải operator — là TÊN GỌI cho patterns
     → v2.1 listed Protect as "L3 drive" → CORRECTED in v3.0
 
-  HARDWARE SUBSIDY (Valence-Propagation v3.0 §5, Body-Coupling.md v3.0):
+  HARDWARE-SUBSIDY (Entity-Valence-Dynamics.md v1.0 §5, Body-Coupling.md v3.0):
     → Body hardware cung cấp baseline support "miễn phí" cho operators
     → VD: oxytocin system → social reward KHÔNG cần PFC effort
-    → Hardware Subsidy = TẠI SAO một số drives mạnh hơn hẳn
+    → Hardware-Subsidy = TẠI SAO một số drives mạnh hơn hẳn
     → Khác nhau theo entity type: con > bạn thân > đồng nghiệp > stranger
     → = Evolutionary investment per-relationship
 
-  M1-M4: 4 FIRING MODES (Bond-Architecture.md v1.0):
-    → M1 Tonic: low-intensity, liên tục, duy trì baseline
-    → M2 Phasic: burst cụ thể, response to event
-    → M3 Compound: nhiều hệ fire ĐỒNG THỜI (VD: reunion = oxytocin+dopamine+opioid)
-    → M4 Cascade: 1 event trigger chain nhiều systems theo thứ tự
+  4 FIRING MODES:
+    → Tonic: low-intensity, liên tục, duy trì baseline
+    → Phasic: burst cụ thể, response to event
+    → Compound: nhiều hệ fire ĐỒNG THỜI (VD: reunion = oxytocin+dopamine+opioid)
+    → Cascade: 1 event trigger chain nhiều systems theo thứ tự
     → Operators fire KHÁC NHAU tùy mode → cùng stimulus, khác response
 
   Operators ≠ layer:
@@ -974,7 +988,7 @@ Chi tiết: Inter-Body-Mechanism.md §9
 
   ② VIOLENT FLIP (fast, traumatic):
      → Betrayal / extreme experience → valence FLIP immediately
-     → Deep schema collapse (Valence-Propagation v2.0 §4: violent flip mechanism)
+     → Deep schema collapse (Valence-Propagation v4.0 §3: violent flip mechanism)
      → VD: phản bội → chunks person VẪN ĐÓ, valence flip từ + sang -
      → Timeline: instant (1 trial — emotional peak compile)
 
@@ -1026,7 +1040,7 @@ Chi tiết: Inter-Body-Mechanism.md §9
 ```
 ⭐ BODY-FEEDBACK = SIGNAL ARCHITECTURE CỦA BODY-BASE:
 
-  Body-Feedback/ folder (6 files, ~9,050L) chứa chi tiết.
+  Body-Feedback/ folder (16 files, ~26,100L) chứa chi tiết.
   Section này = overview entry point.
 
 
@@ -1064,27 +1078,31 @@ Chi tiết: Inter-Body-Mechanism.md §9
     → Cycle CONTINUOUS. Không có điểm bắt đầu/kết thúc.
 
 
-  H10 — 5 PRECONDITIONS FOR BODY SIGNAL (Body-Feedback §6):
+  5 Body-Feedback-Preconditions FOR BODY SIGNAL (Body-Feedback §5.2):
     🟡 Body signal (reward hoặc dissonance) = function of 5 preconditions ĐỒNG THỜI:
 
     ┌───┬──────────────────────┬──────────────────────────┐
     │ # │ Precondition         │ Failure → subjective     │
     ├───┼──────────────────────┼──────────────────────────┤
-    │ 1 │ Schema pending       │ "Không cần"              │
-    │ 2 │ Chunks base adequate │ "Chả hiểu"              │
-    │ 3 │ prediction-delta threshold  │ "Bình thường"            │
-    │ 4 │ Goldilocks zone      │ "Quá lạ" / "quá quen"   │
-    │ 5 │ Chunk association tag│ "Ghét dù hiểu"           │
+    │ 1 │ Directed-Gap         │ "Không cần"              │
+    │ 2 │ Chunk-Substrate      │ "Chả hiểu"              │
+    │ 3 │ Delta-Gate           │ "Bình thường"            │
+    │ 4 │ Match-Range          │ "Quá lạ" / "quá quen"   │
+    │ 5 │ Compile-Gate         │ "Ghét dù hiểu"           │
     └───┴──────────────────────┴──────────────────────────┘
     ALL 5 REQUIRED. Missing ANY → signal absent or wrong direction.
 
 
-  3 GENUINE DISCOMFORT SOURCES (Body-Feedback §5):
+  3 GENUINE DISCOMFORT SOURCES (Body-Feedback §3.3):
     ⭐ CORTISOL KHÔNG GÂY ĐAU. 3 nguồn đau THẬT:
     ① Nociception (physical damage)
     ② Mismatch (schema ≠ reality) — CORE of almost ALL dissonance
+       → "Mismatch" split: hardware mismatch → Direct-State Dissonance,
+         compiled mismatch → Evaluative Dissonance (Dissonance-Signal-Architecture §4)
     ③ Recalibration (neurons adjusting pattern — "gym for neurons")
     → "Reduce cortisol" = WRONG strategy. "Fix mismatch" = RIGHT strategy.
+    → Dissonance cũng có Evaluative/Direct-State dimension — parallel reward
+      (Dissonance-Signal-Architecture.md v1.0)
 
 
   Chi tiết: Body-Feedback/Body-Feedback.md (entry point cho folder)
@@ -1099,32 +1117,32 @@ BODY-BASE/ FOLDER OVERVIEW (~70+ files):
 
   Body-Base.md (THIS FILE)           — Entry point
   ├── Why-Body-Knows.md v1.1         — META: tại sao body đáng tin
-  ├── Cortisol-Baseline.md v2.0      — Amplifier mechanism (3,059L)
-  ├── Valence-Propagation.md v3.0    — Structural/current valence, 3 firing modes, per-entity
-  ├── Body-Coupling.md v3.0          — Coupling, 4 bond types, hardware subsidy, M1-M4
+  ├── Cortisol-Baseline.md v2.1      — Amplifier mechanism (3,059L)
+  ├── Valence-Propagation.md v4.0    — Valence definition + formation + propagation (~918L)
+  ├── Entity-Valence-Dynamics.md v1.0 — Per-entity dynamics, 3 firing modes, hardware-subsidy (~1,545L)
+  ├── Body-Coupling.md v3.0          — Coupling, 4 bond types, hardware-subsidy, Resonance Decline
+  ├── Inter-Body-Mechanism.md v2.0   — 8 principles, Compilable Architecture
   │
-  ├── Drill-Inter-Body-Mechanism/    — Inter-Body drill + mechanism
-  │   ├── Inter-Body-Mechanism.md v1.0 — 8 principles, Compilable Architecture
-  │   ├── Drill-Inter-Body-Main.md   — Raw drill (2,768L)
-  │   └── Architecture-Summary.md    — Drill summary (571L)
-  │
-  ├── Body-Feedback/                 — Signal architecture (~12,000L)
-  │   ├── Body-Feedback.md           — Synthesis entry point
-  │   ├── Body-Feedback-Mechanism.md v2.0 — Chunk dynamics, Body-Need aggregate
-  │   ├── Body-Feedback-Label.md v2.0 — Vocabulary reference (3-tier)
-  │   ├── Gap-Direction.md           — Gap có hướng cụ thể
+  ├── Body-Feedback/                 — Signal architecture (16 files, ~26,100L)
+  │   ├── Body-Feedback.md v3.1      — Synthesis entry point
+  │   ├── Body-Feedback-Mechanism.md v2.1 — Chunk dynamics, Body-Need aggregate
+  │   ├── Body-Feedback-Label.md v2.1 — Vocabulary reference (3-tier)
+  │   ├── Gap-Direction.md v2.0      — Gap có hướng cụ thể
   │   ├── Gap-Body-Need.md v1.0      — 3 satiation types, ENGINE/ROAD/VEHICLE
   │   ├── Gap-Distribution-Profile.md v1.1 — 5-parameter, technology fill
-  │   ├── Reward-Signal-Architecture.md — Evaluative:Direct-State ratio, calibration
+  │   ├── Reward-Signal-Architecture.md v2.1 — Evaluative/Direct-State, 5 Profiles
+  │   ├── Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance
+  │   ├── Reward-Calibration.md v1.1 — Goldilocks per-gap, 6 mechanisms
   │   ├── Hidden-Quality-Perception.md v1.0 — 2 types, Dunning-Kruger meta
-  │   ├── Action-Space.md            — By-Product-Gap-Resonance action context
-  │   ├── 01-Foundation.md           — Dual-Pull, Interface Loop
-  │   ├── 02-Dissonance.md           — 14 levels, trauma loop
-  │   ├── 03-Reward.md               — H10, ô tô paradox
-  │   └── 04-Integration.md          — Unified cycle, walkthroughs
+  │   ├── Action-Space.md v1.0       — Supply-side, 4 trục, DEMAND × SUPPLY
+  │   ├── Drill-Evolutionary-Sensor-Architecture.md v1.0 — WHY architecture
+  │   ├── Drill-Body-Feedback/01-Foundation.md — Dual-Pull, Interface Loop
+  │   ├── Drill-Body-Feedback/02-Dissonance.md — 14 levels, trauma loop
+  │   ├── Drill-Body-Feedback/03-Reward.md — Body-Feedback-Precondition, ô tô paradox
+  │   └── Drill-Body-Feedback/04-Integration.md — Unified cycle, walkthroughs
   │
   ├── Feeling/                       — PFC observation system (~6,924L)
-  │   ├── Feeling.md v2.0            — Central reference (WHAT + HOW)
+  │   ├── Feeling.md v3.0            — Central reference (WHAT + HOW)
   │   ├── Feeling-Mechanism-Deep.md  — 8-step flow, reward
   │   ├── Feeling-Sources.md         — 10+ channels, 50+ examples
   │   ├── Feeling-Accuracy.md        — Error modes, literacy
@@ -1146,8 +1164,8 @@ BODY-BASE/ FOLDER OVERVIEW (~70+ files):
   │   │   ├── Entity-Compiled.md v1.0 — Neural reality, formation, Dunbar
   │   │   ├── Entity-Access.md v1.2   — Gradient Mức 0-5
   │   │   ├── Entity-Access-Excess.md v1.0 — Excess territory, addiction
-  │   │   ├── Entity-Access-Calibration.md v1.0 — Self-regulation, hardware subsidy
-  │   │   ├── Bond-Architecture.md v1.0 — 1 mechanism × 4 bond types
+  │   │   ├── Entity-Access-Calibration.md v1.0 — Self-regulation, hardware-subsidy
+  │   │   ├── Bond-Architecture.md v2.0 — 1 mechanism × 4 bond types
   │   │   ├── By-Product-Gap-Resonance.md v1.4 — Mutual match, 5 drills
   │   │   ├── Resonance-Sustainability.md v1.0 — 4-layer, 3 conditions
   │   │   ├── Resonance-Per-Entity.md v1.0 — Per-relationship dynamics
@@ -1180,23 +1198,24 @@ READING PATHS:
   Core mechanism deep dive (~3-5 giờ):
     1. THIS FILE
     2. Chunk/Chunk.md v2.0
-    3. Valence-Propagation.md v3.0
+    3. Valence-Propagation.md v4.0
+    3b. Entity-Valence-Dynamics.md v1.0 (companion)
     4. Body-Coupling.md v3.0
-    5. Cortisol-Baseline.md v2.0
-    6. Inter-Body-Mechanism.md v1.0
+    5. Cortisol-Baseline.md v2.1
+    6. Inter-Body-Mechanism.md v2.0
 
   Agent-Mechanism deep dive (~4-6 giờ):
     1. THIS FILE §3-§4 (Model 3+1, compile)
     2. Entity-Compiled.md v1.0 (neural reality)
     3. Entity-Access.md v1.2 (gradient model)
-    4. Bond-Architecture.md v1.0 (4 bond types)
+    4. Bond-Architecture.md v2.0 (4 bond types)
     5. By-Product-Gap-Resonance.md v1.4 (mutual match)
     6. Resonance-Sustainability.md v1.0 (sustainability)
     7. Self-Pattern-Modeling.md v3.1 (solo simulation)
 
   Feeling system (~2-3 giờ):
     1. THIS FILE §1-§2
-    2. Feeling/Feeling.md v2.0
+    2. Feeling/Feeling.md v3.0
     3. Body-Feedback/01-Foundation.md §5 (body-feedback vs feeling)
     4. Feeling/Feeling-Mechanism-Deep.md
 
@@ -1209,9 +1228,9 @@ READING PATHS:
 
   Inter-Body deep dive (~2 giờ):
     1. THIS FILE §1.2-§1.3 (3 foundations + body-need)
-    2. Inter-Body-Mechanism.md v1.0
-    3. Body-Feedback-Mechanism.md v2.0
-    4. Valence-Propagation.md v3.0 §3 (Entity-Compiled)
+    2. Inter-Body-Mechanism.md v2.0
+    3. Body-Feedback-Mechanism.md v2.1
+    4. Entity-Valence-Dynamics.md v1.0 §2 (Entity-Compiled)
 ```
 
 ---
@@ -1242,6 +1261,10 @@ READING PATHS:
   ✓ Social Baseline Theory (Coan & Sbarra 2015) [v3.0]
   ✓ Dual inheritance genes + culture (Boyd & Richerson 2005) [v3.0]
   ✓ Cumulative cultural evolution (Tomasello 2009) [v3.0]
+  ✓ Pain 2-component (Melzack & Casey 1968, Rainville 1997, Price 2000) [v3.3]
+  ✓ Placebo/Nocebo mechanism (Wager 2004, Zubieta 2005, Colloca & Benedetti 2005) [v3.3]
+  ✓ Negativity bias (Baumeister 2001, Rozin & Royzman 2001) [v3.3]
+  ✓ Amygdala fast path ~12ms (LeDoux 1996) [v3.3]
 
 
 🟡 MEDIUM CONFIDENCE (Framework Synthesis):
@@ -1254,10 +1277,10 @@ READING PATHS:
   ⚠ Trust as BRIDGE component (mechanism established, positioning = novel)
   ⚠ L0-L1 substrate model (components established, organization = novel)
   ⚠ 2-tier + 2-pathway calibration model (each component established, integration = novel)
-  ⚠ BB1+BB2 convergence (novel insight from Drill §26)
+  ⚠ Blackbox-1 + Blackbox-2 convergence (novel insight from Drill §26)
   ⚠ Circuit breaker 3 pathways (mechanisms established, taxonomy = novel)
   ⚠ Dual-pull as architectural principle (each pull established, 2-force = novel)
-  ⚠ H10 5-precondition model (each precondition grounded, ALL-5 = novel)
+  ⚠ 5 Body-Feedback-Preconditions model (each precondition grounded, ALL-5 = novel)
   ⚠ 3 Loại compile taxonomy (components established, taxonomy = novel)
   ⚠ L2 ceiling mechanism (mechanism plausible, not directly tested)
   ⚠ Modulatory vs Processing × L0-L1 mapping (Parkinson drill validates)
@@ -1272,17 +1295,24 @@ READING PATHS:
   ⚠ Entity-Access gradient Mức 0-5 (trust research 🟢, gradient model = 🟡) [v3.2]
   ⚠ Entity-Compiled = neural reality (neuroscience 🟢, naming = 🟡) [v3.2]
   ⚠ Bond-Architecture 4 types (attachment research 🟢, taxonomy = 🟡) [v3.2]
-  ⚠ Hardware Subsidy as named mechanism (oxytocin/opioid 🟢, concept = 🟡) [v3.2]
-  ⚠ M1-M4 firing modes (neurochemistry 🟢, 4-mode taxonomy = 🟡) [v3.2]
+  ⚠ Hardware-Subsidy as named mechanism (oxytocin/opioid 🟢, concept = 🟡) [v3.2]
+  ⚠ 4 firing modes Tonic/Phasic/Compound/Cascade (neurochemistry 🟢, 4-mode taxonomy = 🟡) [v3.2]
   ⚠ 3 Satiation types ENGINE/ROAD/VEHICLE (receptor dynamics 🟢, metaphor = 🟡) [v3.2]
-  ⚠ Simulation Engine 3-component model (PFC sim research 🟢, formalization = 🟡) [v3.2]
+  ⚠ Simulation-Engine 3-component model (PFC sim research 🟢, formalization = 🟡) [v3.2]
+  ⚠ Evaluative/Direct-State Dissonance = orthogonal dimension (pain 2-comp 🟢, unification = 🟡) [v3.3]
+  ⚠ Mismatch Splitting: hardware vs compiled sub-types (each grounded, splitting = 🟡) [v3.3]
+  ⚠ Numbness-Proof ↔ Burnout-Proof symmetry (each side grounded, symmetric framing = 🟡) [v3.3]
+  ⚠ Asymmetric Transition Speed: reward→dissonance FAST, reverse SLOW (negativity bias 🟢, localization = 🟡) [v3.3]
+  ⚠ E₀→E₃ applied to BOTH reward + dissonance (evaluation complexity, not reward-specific = 🟡) [v3.3]
+  ⚠ Clinical mappings: dissociation/alexithymia/anxiety/chronic pain via 2-type (clinical 🟢, mapping = 🟡) [v3.3]
+  ⚠ Placebo/Nocebo = Evaluative Gates Direct-State proof for dissonance (placebo 🟢, architecture = 🟡) [v3.3]
 
 
 🔴 LOW CONFIDENCE:
 
   ⚠ Body accuracy "~90%" estimate (qualitative, not measurable)
   ⚠ Vô thức "~95%" / PFC "~5%" ratio (heuristic, not measured)
-  ⚠ Goldilocks "40-70%" specific percentages (inverted-U established, cutoffs approximate)
+  ⚠ Goldilocks zone boundaries (inverted-U established, dynamic per person/context)
   ⚠ "Melody hay" sustainability prediction (logical but untested)
 ```
 
@@ -1293,16 +1323,17 @@ READING PATHS:
 ```
 WITHIN BODY-BASE/ FOLDER:
   Why-Body-Knows.md v1.1    — 2-tier + 2-pathway calibration, coherence ≠ truth, 3 failure modes
-  Cortisol-Baseline.md v2.0 — amplifier mechanism, 10 touchpoints, direction > level
-  Valence-Propagation.md v3.0 — structural/current valence, 3 firing modes, hardware subsidy, per-entity
-  Body-Coupling.md v3.0     — coupling, 4 bond types, hardware subsidy, M1-M4, anti-suppress
-  Body-Feedback/            — signal architecture, Dual-Pull, H10, trauma loop
-  Body-Feedback-Mechanism.md v2.0 — chunk dynamics, Body-Need aggregate, 3 dynamics
-  Body-Feedback-Label.md v2.0 — vocabulary reference, 3-tier labels
+  Cortisol-Baseline.md v2.1 — amplifier mechanism, 10 touchpoints, direction > level
+  Valence-Propagation.md v4.0 — valence definition, formation, propagation (companion: Entity-Valence-Dynamics.md v1.0)
+  Body-Coupling.md v3.0     — coupling, 4 bond types, hardware-subsidy, Resonance Decline, anti-suppress
+  Body-Feedback/            — signal architecture, Dual-Pull, Body-Feedback-Precondition, trauma loop
+  Body-Feedback-Mechanism.md v2.1 — chunk dynamics, Body-Need aggregate, 3 dynamics
+  Body-Feedback-Label.md v2.1 — vocabulary reference, 3-tier labels
+  Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance, mismatch split, clinical
   Gap-Body-Need.md v1.0     — 3 satiation types, ENGINE/ROAD/VEHICLE, entity-gap matching
   Gap-Distribution-Profile.md v1.1 — 5-parameter, technology fill, PFC budget
   Hidden-Quality-Perception.md v1.0 — 2 types (Expert+Leader), Dunning-Kruger meta
-  Reward-Signal-Architecture.md — Evaluative:Direct-State ratio, reward calibration
+  Reward-Signal-Architecture.md v2.1 — Evaluative:Direct-State ratio, reward calibration
   Feeling/                  — PFC observation interface, 7-layer fidelity
   Chunk/Chunk.md v2.0       — sole substrate, 4 compile mechanisms, 4 connection types
   Background-Pattern.md v2.0 — Triple Bias, valence system, pattern shiftability
@@ -1315,17 +1346,16 @@ AGENT-MECHANISM/ FOLDER (11 files):
   Entity-Compiled.md v1.0   — neural reality, formation 40→200h, Dunbar ~150, grief A+B+C
   Entity-Access.md v1.2     — gradient Mức 0-5, per-entity access model
   Entity-Access-Excess.md v1.0 — excess territory, when access becomes addiction
-  Entity-Access-Calibration.md v1.0 — self-regulation, hardware subsidy, failure modes
-  Bond-Architecture.md v1.0 — 1 mechanism × 4 bond types, M1-M4, gap-clone proof
+  Entity-Access-Calibration.md v1.0 — self-regulation, hardware-subsidy, failure modes
+  Bond-Architecture.md v2.0 — 1 mechanism × 4 bond types, Resonance Decline, gap-clone proof
   By-Product-Gap-Resonance.md v1.4 — mutual match, 5 drills, sustainability bridge
   Resonance-Sustainability.md v1.0 — 4-layer, 3 conditions, 3 modalities, U-curve
-  Resonance-Per-Entity.md v1.0 — per-relationship dynamics, hardware subsidy spectrum
+  Resonance-Per-Entity.md v1.0 — per-relationship dynamics, hardware-subsidy spectrum
   By-Product-Scale.md v1.0  — 1 mechanism × 3 scales (pair/hub/institutional)
 
-INTER-BODY DRILL:
-  Inter-Body-Mechanism.md v1.0 — 8 principles, Compilable Architecture, 5-channel, 3-cost
-  Architecture-Summary.md v1.1 — drill summary (571L, 8 principles)
-  Drill-Inter-Body-Main.md v1.6 — raw drill (2,768L, 6 rounds)
+INTER-BODY:
+  Inter-Body-Mechanism.md v2.0 — 8 principles, Compilable Architecture, 5-channel, 3-cost
+  (Drill files → Core-Deep-Dive/backup/Drill-Inter-Body-Mechanism/)
 
 PFC/ FOLDER:
   PFC-Function.md           — 24 functions, 95/5 split, "PFC tạo context"
@@ -1335,7 +1365,7 @@ PFC/ FOLDER:
   PFC-Hardware.md           — COMT, DRD4, NE, hardware variation
   PFC-Development.md        — lifecycle, training
   PFC-Hold-Dimensions.md    — tại sao ~4±1 (6 convergent forces)
-  Logic-Feeling.md          — 2 processing modes song song
+  Logic-Feeling.md          — Body-Knowing + observer labels, Compiled/Fresh spectrum
   Logic-Feeling-Balance.md  — meta-principle, infinite regress, mỗi người tự cân bằng
   Imagination/              — Imagine-Final v3.0, Somatic-Articulation-Loop
 
@@ -1353,7 +1383,7 @@ NEURAL + DOMAIN:
 
 DRILL SOURCES:
   Drill-Draft/Drill-Compile-Short-Collective.md — §6b, §19, §21, §23, §26
-  Drill-Draft/Drill-L2-Phenomenology-Emptiness.md — L2, trống rỗng, 2 cơ chế nền
+  Drill-Draft/Drill-L2-Phenomenology-Emptiness.md — L2, emptiness, 2 cơ chế nền
   plan-Phase-E-Refinement.md — E1-E5 sequence
 
 HEALTH CONDITIONS:
@@ -1385,26 +1415,26 @@ KEY RESEARCH:
 
 ---
 
-> **Body-Base.md v3.2**
+> **Body-Base.md v3.3**
 >
 > Entry point cho toàn bộ Body-Base system.
 > Foundation layer: mọi thứ trong framework build trên body-base.
 >
-> Core principles (v3.2):
+> Core principles (v3.3):
 >   §1: 3 Hardware Foundations → Compilable Architecture (general-purpose adaptive)
 >   §2: Body evaluates PATTERNS, not reality (Treisman 1977 + 6 cases)
->   §3: Unified Model 3+1 + Simulation Engine + Entity-Access + Bond-Architecture
+>   §3: Unified Model 3+1 + Simulation-Engine + Entity-Access + Bond-Architecture
 >   §4: PFC = director, body = compiler + Entity-Compiled + Compiled/Fresh axis
->   §5: L0-L1 substrate + Hardware Subsidy + M1-M4 firing modes
+>   §5: L0-L1 substrate + Hardware-Subsidy + 4 firing modes (Tonic/Phasic/Compound/Cascade)
 >   §6: 3-Layer Evolution (Hardware → Compiled → Cultural)
 >   §7: 2-tier calibration (Darwinian + Hebbian, 2a domain + 2b trust-inject)
 >   §8: Circuit breaker (3 pathways, L2 ceiling)
->   §9: Body-feedback overview (Dual-Pull, H10, 3 Genuine Discomfort Sources)
+>   §9: Body-feedback overview (Dual-Pull, Body-Feedback-Precondition, 3 Genuine Discomfort Sources, Dissonance Types)
 >
 > Schema phục vụ body-base. Body is final arbiter of value.
 > Body đúng ~90%+. External check cho 10% gap.
 >
-> Phiên bản: v3.2, 2026-05-23.
+> Phiên bản: v3.3, 2026-05-25.
 > Source: Inter-Body Drill (8 principles) + 28-session Drill Propagation concept cascade.
 >
 > Changelog:
@@ -1436,10 +1466,19 @@ KEY RESEARCH:
 >     — YAML deps: +13 new files, Valence-Propagation v2.0→v3.0, Body-Coupling v2.0→v3.0
 >     — §0: flow diagram +Agent-Mechanism (11 files), +PFC (Simulation-Engine, PFC-Label)
 >     — §1.3: +Satiation 3 types (ENGINE/ROAD/VEHICLE), +Gap-Body-Need ref
->     — §3: +Simulation Engine (PFC component), +Entity-Access gradient, +Bond-Architecture
+>     — §3: +Simulation-Engine (PFC component), +Entity-Access gradient, +Bond-Architecture
 >     — §4.2: +Entity-Compiled neural reality, Entity-Access gradient refs
->     — §5.3: +Hardware Subsidy mechanism, +M1-M4 firing modes
+>     — §5.3: +Hardware-Subsidy mechanism, +4 firing modes
 >     — §10: comprehensive folder update (Agent-Mechanism/ 11 files, Body-Feedback/ 13 files)
 >     — §10: +Agent-Mechanism reading path, versions updated throughout
 >     — §11: +7 🟡 items for new concepts
 >     — §12: +Agent-Mechanism/ section (11 refs), +PFC (3 refs), versions updated
+>   v3.3 (2026-05-25): Dissonance-Signal-Architecture integration + folder structure fix
+>     — YAML deps: +Dissonance-Signal-Architecture v1.0, +Reward-Signal-Architecture v2.1, Cortisol v2.0→v2.1, Inter-Body v1.0→v2.0, Body-Feedback-Mechanism/Body-Feedback-Label v2.0→v2.1
+>     — §0: +Dissonance-Signal-Architecture in Body-Feedback/ observation files
+>     — §9: Body-Feedback folder 6→16 files, ~9,050→~26,100L
+>     — §10: Drill-Inter-Body-Mechanism/ removed (→backup), Inter-Body top-level v2.0
+>     — §10: Body-Feedback/ listing: +Dissonance-Signal-Architecture, +Reward-Calibration, +Drill-Evolutionary-Sensor-Architecture, all versions updated
+>     — §10: Reading paths: Cortisol v2.1, Inter-Body v2.0, Body-Feedback-Mechanism v2.1
+>     — §11: +4 🟢 items (Melzack, Wager, Baumeister, LeDoux) + 7 🟡 Dissonance-Signal-Architecture items
+>     — §12: Cortisol v2.1, Inter-Body v2.0, Drill files→backup notation

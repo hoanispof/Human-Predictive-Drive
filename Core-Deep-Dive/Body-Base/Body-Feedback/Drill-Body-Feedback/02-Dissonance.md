@@ -16,6 +16,8 @@ language: Tiếng Việt primary + English technical terms
 > **Drill priority** (per plan §2.2): "Decode dissonance across full spectrum với case-driven mechanism analysis."
 >
 > **Style**: Tiếng Việt primary + English technical terms. 🟢 Research / 🟡 Suy luận / 🔴 Hypothesis. "Imagine-Final" không viết tắt.
+>
+> ⚠️ **H10 formalized**: H10 đã được formalize thành [Body-Feedback-Precondition.md](../Body-Feedback-Precondition.md). File này giữ nguyên H10 là tên hypothesis gốc trong quá trình drill.
 
 ---
 
@@ -57,7 +59,7 @@ File này drill từng câu hỏi với case-driven approach.
 **Direct link to P1 Foundation**:
 - **§2 Dual-pull**: dissonance = tension between Hardware smooth và Domain adapt
 - **§3 Interface loop**: dissonance emerges at Step 6 (domain feedback → body check)
-- **§5 Body-feedback vs Feeling**: raw dissonance (Layer 1-2) vs interpreted dissonance (Layer 3-7)
+- **§5 Body-feedback vs Feeling**: raw dissonance (Feel-RawSignals — Feel-Integration) vs interpreted dissonance (Feel-Consciousification — Feel-Explanation)
 - **§6 Vô thức vs PFC**: vô thức detects raw, PFC interprets via chunks
 - **§7 Schema phục vụ body-base**: dissonance = body's evaluation "schema này không fit body-need"
 
@@ -210,7 +212,7 @@ File này cover 9 drill sections:
 
 **Why this case is classic mini dissonance**:
 - **Sub-threshold for PFC engagement**: "thôi không nhìn nữa" = PFC actively suppresses → mini signal remains but below conscious attention
-- **Stays at Layer 3-4 in 7-layer model** (P1 §5.3): body fires signal, PFC notices briefly, doesn't label deeply, doesn't explain
+- **Stays at Feel-Consciousification — Feel-Observation in 7-layer model** (P1 §5.3): body fires signal, PFC notices briefly, doesn't label deeply, doesn't explain
 - **Resolution via avoidance**: walk past = input removed → desire schema deactivates → residual dissonance fades within minutes
 
 **User's specific insight**: "Thôi không nhìn nữa" is **avoidance strategy** — prevents further spreading activation of desire schema. Very different from "pretend it doesn't exist" (suppression). It's smart resource management.
@@ -310,10 +312,10 @@ This is the mechanism behind:
 **Phase 3 — Current state comparison**:
 - Self-schema: "mình học bình thường, không được khen"
 - **DELTA** between simulated-self (khen) and actual-self (not khen)
-- Body signal: L3 status gap
+- Body signal: status gap (evaluative observation parameter)
 
 **Phase 4 — Social comparison dissonance fire**:
-- **Framework mapping**: L3 Status source (Threat.md §2 L3 threat — "moving target")
+- **Framework mapping**: Status source (observation parameter) (Threat.md §2 — "moving target")
 - Social pain pathway activated (🟢 Eisenberger 2003 — social pain uses physical pain pathway)
 - Body signal: "oai thật" = envy tinged with admiration
 - **Cortisol slight elevation** → change-readiness increased
@@ -331,17 +333,17 @@ This is the mechanism behind:
 | Bạn C observation | Agent modeling (Self-Pattern-Modeling) | Chunk-Analysis/Agent/Self-Pattern-Modeling.md |
 | Simulation of being C | Imagine-Final vô thức simulation | Imagine-Final §1 |
 | Opioid preview "khen" | Body-base check positive | PFC-Analysis §8.3 bước 5 |
-| Social comparison | L3 status threat | Threat.md §2 |
+| Social comparison | Status threat (observation parameter) | Threat.md §2 |
 | Social pain | Eisenberger 2003 pathway | Social damage source (🟢) |
 | "Oai thật" mixed | Simultaneous body signals | Logic-Feeling §5 parallel |
 
 **Critical — body-feedback vs feeling distinction** (P1 §5):
-- **Body-feedback raw** (Layer 1-2): cortisol mild elevation + opioid admiration
-- **Feeling interpretation** (Layer 6-7): PFC labels as "oai thật" (specific chunks about social comparison)
+- **Body-feedback raw** (Feel-RawSignals — Feel-Integration): cortisol mild elevation + opioid admiration
+- **Feeling interpretation** (Feel-Labeling — Feel-Explanation): PFC labels as "oai thật" (specific chunks about social comparison)
 
 **A young child** observing same scene might have:
 - Same body-feedback (raw dissonance + admiration)
-- DIFFERENT feeling label: "bạn C khóc khi bị phạt" (if child doesn't understand "tuyên dương") → doesn't trigger L3 status schema → no dissonance
+- DIFFERENT feeling label: "bạn C khóc khi bị phạt" (if child doesn't understand "tuyên dương") → doesn't trigger status schema → no dissonance
 
 **→ Same event → different body response based on chunks about social hierarchy**. Demonstrates feeling layer chunks-dependence.
 
@@ -360,7 +362,7 @@ This is the mechanism behind:
 
 **Mechanism decomposition** 🟡:
 
-Similar structure to B1.4 but with **L3 status + resource gap** combined, and more chronic potential.
+Similar structure to B1.4 but with **status (evaluative) + resource gap** combined, and more chronic potential.
 
 **Phase 1 — Discovery**:
 - Lương thông tin thường ẩn → discovery moment = acute
@@ -397,13 +399,13 @@ Similar structure to B1.4 but with **L3 status + resource gap** combined, and mo
 |---|---|---|
 | Discovery shock | Emotional peak compile | Chunk.md §2 mode 2 |
 | Comparison calculation | PFC simulation + domain check | Imagine-Final §1 |
-| L3 status threat | "Moving target" threat type | Threat.md §2 |
+| Status threat (observation parameter) | "Moving target" threat type | Threat.md §2 |
 | Resource gap | Survival-adjacent concern | Mismatch source (homeostasis adjacent) |
 | Self-worth schema | Anchor-Schema identity nguồn | Anchor-Schema §3 |
 | Anticipation loop risk | Chronic cortisol pathway | Threat-Drive-Analysis §3.3 |
 
 **Why this is MORE dangerous than B1.4**:
-- **Survival component**: lương ≈ resource → closer to L1 survival (not just L3 status)
+- **Survival component**: lương ≈ resource → closer to L1 survival (not just status)
 - **Ongoing**: unlike "bạn C" who's just observed, colleague D is present daily → continuous trigger
 - **Can compound**: each payday = reminder → schema strengthens
 - **Modern unique**: ancestral environment didn't have "salary" concept — evolution lag applies (Why-Body-Knows §6 ①)
@@ -461,7 +463,7 @@ Consolidating across 5 cases:
 - Fix mismatch (source-based) → signal hết (Cortisol-Baseline §2.5)
 - Accept what cannot be fixed → schema update (e.g., "lương D cao hơn vì domain khác")
 - Avoidance when appropriate (B1.2 "thôi không nhìn nữa" was smart)
-- Meditation → train Layer 3-4 felt sense access → better signal management
+- Meditation → train Feel-Consciousification — Feel-Observation felt sense access → better signal management
 - Reduce modern overstimulation (fewer novel Imagine-Final spawn triggers)
 
 **→ User's question answered**: Mini dissonance exists because body-domain-schema system works. The question is not "how to eliminate" but "how to respond wisely."
@@ -527,6 +529,12 @@ Consolidating across 5 cases:
 
 **This IS the core dissonance mechanism**. Almost all "dissonance cases" in drill trace to this source.
 
+🟡 **MISMATCH SUB-TYPES** (Dissonance-Signal-Architecture.md v1.0 §4):
+- **Hardware mismatch → Direct-State Dissonance**: temperature deviation, hunger, vestibular = body-state ≠ setpoint. Hardware pathways, from birth.
+- **Compiled mismatch → Evaluative Dissonance**: betrayal, career worry, identity crisis = schema ≠ reality. dACC + anterior insula, PFC modulated.
+- "Mismatch" quá rộng — cần phân loại mechanism sub-type cho chính xác.
+- Evaluative/Direct-State dimension: Dissonance-Signal-Architecture §1 (parallel Reward-Signal-Architecture.md §1).
+
 #### §3.2.3 — Source 3: RECALIBRATION (neurons adjusting pattern)
 
 **Mechanism**:
@@ -563,7 +571,7 @@ Consolidating across 5 cases:
 
 **B1.3 cây hoa**: Mismatch (new Imagine-Final ≠ current). Imagine-Final formation = mild recalibration. Cortisol mild.
 
-**B1.4 bạn C**: Mismatch (self ≠ simulated-self-as-C). L3 status schema. Cortisol mild-moderate.
+**B1.4 bạn C**: Mismatch (self ≠ simulated-self-as-C). Status schema (evaluative). Cortisol mild-moderate.
 
 **B1.5 lương D**: Mismatch (self value ≠ perceived market value) + potential L1 survival adjacent if money tight. Cortisol moderate-high.
 
@@ -1106,7 +1114,7 @@ This insight refines H10 precondition 5 (chunk association tag) significantly.
 | Match ratio | Body response | Signal |
 |---|---|---|
 | **>90%** | "Quá quen → chán" | VTA habituate, dopamine low |
-| **40-70%** | "Vừa quen vừa lạ → HAY" | Opioid reward + dopamine alert |
+| **Goldilocks zone** | "Vừa quen vừa lạ → HAY" | Opioid reward + dopamine alert |
 | **<20%** | "Quá lạ → khó chịu" | Cortisol mild, uncertainty |
 
 **Mechanism when match <20%**:
@@ -1224,7 +1232,7 @@ Each of 3 signals maps to body-feedback layer:
 
 **Reward signal**:
 - Source: schema match → opioid (PFC-Analysis §8.3 bước 5)
-- Layer: Raw (body-feedback L1-2) → PFC observes L3-4
+- Layer: Raw (body-feedback Feel-RawSignals — Feel-Integration) → PFC observes Feel-Consciousification — Feel-Observation
 - Chunk tag: opioid (if novelty context) or cortisol-tinged (if threat context)
 
 **Fatigue signal**:
@@ -1234,7 +1242,7 @@ Each of 3 signals maps to body-feedback layer:
 
 **Dissonance signal**:
 - Source: pattern coherence check (mismatch with neighbors)
-- Layer: Body-feedback raw (insula integration) → PFC L3-4 ("có gì đó chưa settle")
+- Layer: Body-feedback raw (insula integration) → PFC Feel-Consciousification — Feel-Observation ("có gì đó chưa settle")
 - Function: maintains pattern active in background for integration
 
 ### §7.4 — The 8-Stage Cycle (Learning-Cycle §3)
@@ -1614,7 +1622,7 @@ All 5 preconditions compromised → reward cannot fire → only dissonance → s
 - PFC expects reward
 - Anticipates the happiness Imagine-Final promised
 
-**Phase 7 — Empty**: "Lại trống rỗng"
+**Phase 7 — Empty**: "Lại emptiness"
 - **Body-base check** (PFC-Analysis §8.3 bước 5): money arriving → does it fit body-need?
 - Body-need was NEVER "money itself" — was what money promised (experiences, freedom, love, status, security)
 - **Body checks against NEGLECTED schemas**:
@@ -1785,6 +1793,7 @@ H10 predicts: "Reward arrives only when 5 preconditions met." Hedonic trap = pre
 
 **Dissonance sources**:
 - `Body-Feedback/Body-Feedback-Mechanism.md` — chunk dynamics (Shift/Miss/Gap) + compound
+- `Body-Feedback/Dissonance-Signal-Architecture.md` v1.0 — WHAT KINDS of dissonance (Evaluative/Direct-State, mismatch sub-types, clinical implications)
 - `Cortisol-Baseline.md` §1 + §2.5 + §3 + §3.5 — change-readiness + 3 nguồn + novelty/threat cortisol
 - `Drive/Threat.md` — threat 5-level spectrum + Body-Dissonance + Prediction of Harm
 - `Drive/Threat-Drive-Analysis.md` — 3 threat sources + schema=trigger/hormone=sustain

@@ -173,7 +173,7 @@ FRAMEWORK INTERPRETATION:
      → = "Automatic" / "intuitive" / "just know"
 
   WHY PFC CANNOT SEE PROCESS:
-  → PFC observes via Feeling model L4 (observation of own states)
+  → PFC observes via Feeling model Feel-Observation (observation of own states)
   → When process runs AS ONE meta-chunk → no intermediate states to observe
   → = Compiled chain runs SUB-PFC (below observation threshold)
   → = Like compiled subroutine in programming: call function → get result → don't see internals
@@ -561,7 +561,7 @@ RECURSIVE UPGRADE:
 
   → LEVEL 2+ = unique to humans with sufficient chunk library
   → = "Tôi nhận ra mình hay giận khi..." = Level 3 meta-cognition
-  → = Feeling model L7: meta-feeling = Level 3 applied to feelings
+  → = Feeling model Feel-Explanation: meta-feeling = Level 3 applied to feelings
 
 ⭐ AI ERA:
   → AI can HELP meta-cognition:

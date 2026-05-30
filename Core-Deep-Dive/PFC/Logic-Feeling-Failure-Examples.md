@@ -13,7 +13,7 @@ purpose: |
   Reader nhận diện → tự tìm balance cho mình.
 sources: |
   Logic-Feeling-Balance.md (nguyên lý meta)
-  Logic-Feeling.md §4 (5 cases đã có)
+  Logic-Feeling.md §5 (6 cases)
   Why-Body-Knows.md §6 (3 error types)
   Feeling-Accuracy.md §3 (6 PFC error modes)
   Historical sources: verified qua research (citations inline)
@@ -50,8 +50,8 @@ Logic-Feeling-Balance.md          Logic-Feeling-Fail-Example.md
 "Tại sao không thể prescribe"  ←  "Đây là bằng chứng thực tế"
                                    
         ↑                                  ↑
-Logic-Feeling.md §4              Why-Body-Knows.md §6
-(5 cases phân tích cơ chế)       (3 error types cơ chế)
+Logic-Feeling.md §5              Why-Body-Knows.md §6
+(6 cases phân tích cơ chế)       (3 error types cơ chế)
 ```
 
 **File này KHÔNG phân tích cơ chế** (đã có ở các file khác).
@@ -402,7 +402,7 @@ Mỗi case dưới đây có chung 1 pattern:
 │ L6 Lobotomy  │ Oversimplify system  │ ~decades          │ Follow-up    │
 │ L7 Continents│ "No mechanism"≠false │ ~50 năm           │ New data     │
 │ L8 Spontan.  │ Miss hidden variable │ ~2,000 năm        │ Simple test  │
-│ L9 Ether     ��� False analogy        │ ~decades          │ Experiment   │
+│ L9 Ether     │ False analogy        │ ~decades          │ Experiment   │
 └──────────────┴──────────────────────┴───────────────────┴──────────────┘
 
 PATTERN: KHÔNG CÓ loại sai nào chỉ xảy ra 1 lần.
@@ -511,7 +511,7 @@ Mỗi loại lặp đi lặp lại xuyên suốt lịch sử.
   → Họ có context, chunks, history KHÁC → path của họ ĐÃ ĐƯỢC calibrate CHO HỌ
   → Body mình check coherence với CÂU CHUYỆN (coherent!) 
     nhưng KHÔNG check với DOMAIN CỦA MÌNH
-  → Imagine-Final hình thành từ 1B (self-referencing) — body check internal loop
+  → Imagine-Final hình thành từ Self-Referencing — body check internal loop
   → Anchor-Schema lock → PFC spotlight thu hẹp → không scan alternatives
   → Có thể: path KHÁC hợp hơn — nhưng đã bị bỏ qua
 
@@ -522,7 +522,7 @@ Mỗi loại lặp đi lặp lại xuyên suốt lịch sử.
   → Tinh tế vì: không có red flag, không có dissonance
   → Chỉ domain feedback (THỬ → kết quả) mới cho biết
   (Anchor-Schema.md §3 ④: External Inject bypass PFC)
-  (Feeling.md §8: 1A domain-checked vs 1B self-referencing)
+  (Feeling.md §8: Domain-Checked vs Self-Referencing)
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ### CASE F4: KHÓ CHỊU KHI NHẬN FEEDBACK TỪ NGƯỜI CÓ EXPERTISE
@@ -538,7 +538,7 @@ Mỗi loại lặp đi lặp lại xuyên suốt lịch sử.
   → Amygdala: threat to self-schema → cortisol nhẹ
   → Status shift: "vị trí của mình bị challenge" → discomfort
   → Body: "KHÔNG THÍCH. MUỐN PHẢN BÁC. HOẶC RÚT LUI."
-  → PFC Layer 6-7 có thể:
+  → PFC Feel-Labeling—Feel-Explanation có thể:
     - Rationalize: "họ không hiểu context của mình"
     - Displacement: "họ chỉ muốn thể hiện"
     - Denial: "feedback không quan trọng"
@@ -592,6 +592,7 @@ Mỗi loại lặp đi lặp lại xuyên suốt lịch sử.
     → Mỗi lần giảm nhỏ → delta DƯỚI threshold → VTA không fire
     → Baseline tự hạ theo → "bình thường mới" = thấp hơn "bình thường cũ"
     → Sau 1 năm: quality giảm 50% nhưng body nói "bình thường"
+      (⚠️ 50% = illustrative, không đo lường chính xác)
   
   Khi nào NHẬN RA:
   → Gặp lại environment CŨ (về quê, gặp bạn cũ, thay đổi context)
@@ -784,7 +785,7 @@ CÓ THỂ:
   → File này — EVIDENCE (thực tế cho thấy cả hai đều sai)
 
 📚 Cơ chế:
-  → Logic-Feeling.md §4 — 5 cases phân tích cơ chế Logic-Feeling interaction
+  → Logic-Feeling.md §5 — 6 cases phân tích cơ chế Body-Knowing ↔ Fresh interaction
   → Why-Body-Knows.md §6 — 3 error types (evolution lag, chunks nền sai, schema override)
   → Feeling-Accuracy.md §3 — 6 PFC error modes
   → Body-Feedback.md — Dual-Pull + 3 nguồn discomfort (nociception, mismatch, recalibration)
@@ -792,7 +793,7 @@ CÓ THỂ:
 
 📚 Context:
   → Anchor-Schema.md §3 ④ — External Inject mechanism
-  → Feeling.md §8 — 1A (domain-checked) vs 1B (self-referencing)
+  → Feeling.md §8 — Domain-Checked vs Self-Referencing
   → Conflict-Dynamics.md §7 — Scarcity → Expansion (tại sao thử-sai = engine)
 ```
 
@@ -817,7 +818,7 @@ Examples:
 
 Dependencies:
   → Logic-Feeling-Balance.md (companion — nguyên lý)
-  → Logic-Feeling.md (mechanism — parallel processing)
+  → Logic-Feeling.md (Body-Knowing + observer labels + Compiled/Fresh spectrum)
   → Why-Body-Knows.md (mechanism — body error types)
   → Feeling-Accuracy.md (mechanism — PFC error modes)
   → Body-Feedback.md (mechanism — discomfort sources)

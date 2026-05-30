@@ -377,7 +377,7 @@ Hodel 2018 is a **review paper**, not an experimental one. It consolidates exist
 | **Functional responsiveness** | ✅ Present from 2-5 days (Farroni 2002), 4mo (Grossmann 2013), 8mo (Werchan 2016) | Amplitude increases, latency decreases | PFC participates in cognition from first days |
 | **Myelination** | 🟡 Immature (Yakovlev & Lecours 1967) | Continues through third decade | Signal speed + SNR improving slowly |
 | **Long-range integration efficiency** | 🟡 Low | Improves with myelination + chunks | Cross-region coordination gradually better |
-| **Compiled chunks (content)** | 🔴 Minimal — **F1 target** | Experience-dependent accumulation — P2 bottleneck (H10) | **This is the actual F1 drill subject** |
+| **Compiled chunks (content)** | 🔴 Minimal — **F1 target** | Experience-dependent accumulation — Precondition-2 bottleneck (Body-Feedback-Precondition) | **This is the actual F1 drill subject** |
 | **Working memory capacity** | 🔴 Limited | Chunks accumulation + integration efficiency | Downstream of chunks |
 
 ### §5.2 — What old view got wrong
@@ -412,7 +412,7 @@ Given this decomposition, F1 drill targets specifically the **"compiled chunks (
 2. **It is the mechanism that explains infant failure** — infant fails verbal task not because PFC offline but because verbal chunks haven't compiled yet
 3. **It is the mechanism that explains developmental progression** — chunks accumulate through experience, not through PFC hardware maturation
 4. **It is observable through events** — we can infer chunks state from observable behavior via event-inference methodology (§6)
-5. **It is the H10 P2 bottleneck keystone** — Body-Feedback-Draft N+3 identified chunks base adequacy as the developmental keystone; F1 provides the accumulation mechanism
+5. **It is the Body-Feedback-Precondition Precondition-2 bottleneck keystone** — Body-Feedback-Draft N+3 identified chunks base adequacy as the developmental keystone; F1 provides the accumulation mechanism
 
 Other components (myelination, pruning, integration efficiency) continue in parallel but are **not F1 drill targets**. They provide background tempo but are not the mechanism F1 formalizes.
 
@@ -546,7 +546,7 @@ As chunks accumulate through experience, **the same observable event type** can 
 
 **F1 drill home**: [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) — bladder case is the cleanest developmental arc in F1 drill because it spans L0→L4 within a single body system. Full exposition in §3-§5 of that file.
 
-**Empirical anchor**: Feel-Example-Draft E1 (newborn undifferentiated cry, 2 weeks), E3 (cry post-wet-diaper, newborn), E23 "buồn đái" verbal (22 months). The 22-month gap is the P2 chunks accumulation timeline — not a PFC maturation timeline.
+**Empirical anchor**: Feel-Example-Draft E1 (newborn undifferentiated cry, 2 weeks), E3 (cry post-wet-diaper, newborn), E23 "buồn đái" verbal (22 months). The 22-month gap is the Precondition-2 Chunk-Substrate accumulation timeline — not a PFC maturation timeline.
 
 ### §7.2 — Example 2: "Không nghe hiểu tên mẹ gọi"
 
@@ -700,7 +700,7 @@ From F1 drill as a whole, anticipated framework update recommendations (to be fi
 - **R-F1-1** (this file): Rewrite PFC-Analysis §4 timeline with reframe
 - **R-F1-2** (from 06a): Propose "đơ mặt" as developmental marker for chunks accumulation assessment
 - **R-F1-3** (from 04): Update Schema/Chunk.md §2 with proto-chunk gradient interpretation
-- **R-F1-4** (from 06a): Update Body-Feedback-Draft P2 section with F1 substrate evidence
+- **R-F1-4** (from 06a): Update Body-Feedback-Draft Precondition-2 section with F1 substrate evidence
 - **R-F1-5** (from 09): Update Feel-Example-Draft with cross-ref to F1 event analyses
 - **R-F1-6** (from 10): Propose H11 + PFC-Inference Ladder as framework contributions for 99-Master-Synthesis
 - **R-F1-7** (from 08): Update Body-Parenting-Optimization.md developmental stages with F1 chunks arc evidence
@@ -718,7 +718,7 @@ All logged in 10-F1-Synthesis §5 for 99-Master-Synthesis commit.
 - [../../Body-Base/Body-Parenting-Optimization.md](../../Body-Base/Body-Parenting-Optimization.md) §0 REFRAME NOTE — sister reframe in parenting context
 - [../../Schema/Chunk.md](../../Schema/Chunk.md) §2 (4 compile mechanisms) — substrate compile theory
 - [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5 — body-feedback vs feeling architecture + 7-layer model
-- [../Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) — H10 5 preconditions (P2 chunks base adequacy)
+- [../Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) — Body-Feedback-Precondition 5 preconditions (Precondition-2 Chunk-Substrate)
 - [../../Body-Base/Feeling/Feel-Example-Draft.md](../../Body-Base/Feeling/Feel-Example-Draft.md) — E1, E3, E21, E22, E23 developmental cases
 
 ### §9.2 — F1 internal forward references
@@ -793,7 +793,7 @@ Both quotes operationalized in this file's §7 (examples) and §6 (methodology).
 
 2. **Individual variation in PFC-Inference Ladder climb speed**: Same chunk content (e.g., bladder signal → verbal label) takes ~22 months for one baby, ~30 months for another. What drives individual variation? Genetic + epigenetic + caregiver practice + culture + biological timing. F1 touches on but does not deep-drill — could be future sub-folder or F4 topic.
 
-3. **Critical period boundaries**: When do P5 body-state-at-compile critical period windows start and end per body-input system? File 06a drills bladder case with refined framework (N+4c2-REV1 — novelty vs threat cortisol direction + 4-threshold gradient + imposed-parent dual-source + neural wear dimension); 06b §6.3 aggregates the 5-state profile map. Broader critical period theory for feeling capacity specifically is deferred to Feeling folder L3 drill (future after F4).
+3. **Critical period boundaries**: When do Precondition-5 body-state-at-compile critical period windows start and end per body-input system? File 06a drills bladder case with refined framework (N+4c2-REV1 — novelty vs threat cortisol direction + 4-threshold gradient + imposed-parent dual-source + neural wear dimension); 06b §6.3 aggregates the 5-state profile map. Broader critical period theory for feeling capacity specifically is deferred to Feeling folder L3 drill (future after F4).
 
 4. **Cross-cultural variation**: Body-input arcs assume general developmental sequence. Cross-cultural variation (elimination communication cultures show earlier bladder chunks; tonal language cultures show different auditory chunk profiles) is real but not drill target for F1.
 

@@ -41,7 +41,7 @@ dependencies:
     - PFC-Operations.md v1.0 — §5 Compiled Quality, §9 PFC Budget
   Body:
     - Body-Feedback-Mechanism.md v2.0 — §3 Chunk dynamics (Shift/Miss/Gap)
-    - Cortisol-Baseline.md v2.1 — §3.3 Direction tag NT7
+    - Cortisol-Baseline.md v2.1 — §3.3 Direction-At-Compile
   Self-Pattern-Modeling:
     - Self-Pattern-Modeling.md v3.1 — §3 Compiled/Fresh, §9 Triple Bias source
   Application:
@@ -800,7 +800,7 @@ HYPOTHESIS (🔴):
   Schema.md v2.0               — §4 depth, §6 PFC observe, §8 body baseline
   PFC-Operations.md v1.0       — §5 Compiled Quality, §9 PFC Budget
   Self-Pattern-Modeling.md v3.1 — §3 Compiled/Fresh, §9 Triple Bias source
-  Cortisol-Baseline.md v2.1    — §3.3 Direction tag NT7
+  Cortisol-Baseline.md v2.1    — §3.3 Direction-At-Compile
   Body-Feedback-Mechanism.md v2.0 — §3 Chunk dynamics
   Ask-AI.md v3.1               — §6.1 Dual Check
   Gratitude.md v1.0            — appreciation of compiled base

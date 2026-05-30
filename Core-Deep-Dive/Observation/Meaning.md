@@ -1,4 +1,4 @@
----
+﻿---
 title: Meaning — Observation Parameter
 version: 2.2
 created: 2026-04-20
@@ -46,7 +46,7 @@ dependencies:
   - Imagine-Final.md — 3-layer hierarchy, lifecycle 5 phases, reference pattern
   - Boredom.md v2.0 — Loại 3 TRỐNG = gateway tới meaning question, by-product match dừng
   - Drive.md v1.2 — PFC Mode 3 Spinning, Signal Strength Model
-  - Status.md v2.1 — "Thành công nhưng trống rỗng"
+  - Status.md v2.1 — "Thành công nhưng emptiness"
   - Cortisol-Baseline.md v2.0 — inertia, burnout, direction gate
   - Protect.md v1.1 — identity protect (§3.4), existential crisis
   - Gratitude.md v2.0 — Q4: Meaning × Gratitude interaction
@@ -55,7 +55,7 @@ dependencies:
   - Collective-Purpose.md — cosmic loop, "sống có ý nghĩa" reframe
   - Inter-Body-Mechanism.md v1.0 — Compilable Architecture §1.2
   - Body-Feedback-Label.md v2.0 — vocabulary consistency
-  - Chunk/Agent-Mechanism/Bond-Architecture.md v1.0 — meaning through 4 bond types
+  - Chunk/Agent-Mechanism/Bond-Architecture.md v2.0 — meaning through 4 bond types
   - Chunk/Agent-Mechanism/Resonance-Sustainability.md v1.0 — meaning sustainability (4-layer)
   - Chunk/Agent-Mechanism/Resonance-Per-Entity.md v1.0 — meaning per-entity dynamics
 ---
@@ -408,7 +408,7 @@ dependencies:
     → NHƯNG: có anchor ("tôi sẽ kể lại") → meaning present
     → = Meaning nằm ở ANCHOR, không ở body-inputs
 
-  CASE ① = "THÀNH CÔNG NHƯNG TRỐNG RỖNG" (Status.md §10.1):
+  CASE ① = "THÀNH CÔNG NHƯNG EMPTINESS" (Status.md §10.1):
     → Body-inputs EXCELLENT (giàu, khỏe, thoải mái)
     → NHƯNG: life anchor EXHAUSTED (achieved → void) → meaning absent
     → = Meaning nằm ở ANCHOR, không ở body-inputs
@@ -473,7 +473,7 @@ dependencies:
 ```
 🟡 ANCHOR EXHAUSTED = ĐÃ ĐẠT → KHÔNG CÒN LÀ ANCHOR:
 
-  C�� CHẾ:
+  CƠ CHẾ:
     → Life-level anchor: "build career thành công"
     → 20 năm nỗ lực → ĐẠT → anchor FULFILLED
     → Fulfilled anchor = KHÔNG CÒN tạo direction (Imagine-Final achieved)
@@ -492,7 +492,7 @@ dependencies:
     → = "Post-project blues" ở life-scale
     → = "Đạt rồi mà VẪN không satisfied" ≠ tham lam → là cortisol inertia
 
-  = STATUS.MD §10.1: "Thành công nhưng trống rỗng" = EXACTLY THIS
+  = STATUS.MD §10.1: "Thành công nhưng emptiness" = EXACTLY THIS
     → Status position CAO + body-inputs tốt + anchor EXHAUSTED
     → = Meaning absent DÙ happiness có thể cao (§1.4 Case ①)
 ```
@@ -608,7 +608,7 @@ dependencies:
 
   TẠI SAO "NGƯỜI GIÀ SÁNG SUỐT" (khác nhau):
     → Người A: đã tìm được life-level anchor compiled deep → "bình an"
-    → Người B: medium anchors cạn + chưa tìm life anchor → "trống rỗng"
+    → Người B: medium anchors cạn + chưa tìm life anchor → "emptiness"
     → = Cùng tuổi, khác anchor status → khác meaning state
     → = "Sáng suốt" ≠ tuổi → = đã tìm được anchor ổn
 
@@ -674,7 +674,7 @@ dependencies:
     → = CEO thành công nhưng gia đình rạn → GOAL anchor ≠ cover everything
 ```
 
-### ��3.2 — STATE Type: "An lạc trong tâm hồn"
+### §3.2 — STATE Type: "An lạc trong tâm hồn"
 
 ```
 🟡 STATE TYPE = ANCHOR VÀO TRẠNG THÁI NỘI TẠI:
@@ -914,7 +914,7 @@ dependencies:
 
   VÍ DỤ:
     → Jensen Huang 25 tuổi: PFC simulate "GPU = future computing"
-      → Body preview: "XỨ​NG" → anchor build → 30 năm consistent
+      → Body preview: "XỨNG" → anchor build → 30 năm consistent
     → Sinh viên y: PFC simulate "tôi = bác sĩ cứu người"
       → Body preview: opioid → anchor build → 10 năm training chịu được
 ```
@@ -1427,7 +1427,7 @@ dependencies:
 ### §7.8 — × New Concepts (28-session Drill Propagation)
 
 ```
-BOND-ARCHITECTURE × MEANING (Bond-Architecture.md v1.0):
+BOND-ARCHITECTURE × MEANING (Bond-Architecture.md v2.0):
 
   Life-level anchor OFTEN involves ENTITIES → Bond-Architecture matters:
 
@@ -1452,7 +1452,7 @@ RESONANCE-SUSTAINABILITY × MEANING (Resonance-Sustainability.md v1.0):
     Cognitive: does anchor still MAKE SENSE? (coherence with new chunks)
     Contextual: does environment still SUPPORT anchor? (external validation)
 
-  → "Thành công nhưng trống rỗng" (Status.md) = Neurochemical + Behavioral ok,
+  → "Thành công nhưng emptiness" (Status.md) = Neurochemical + Behavioral ok,
     but Cognitive layer FAILED (anchor exhausted → no longer makes sense)
   → Frankl (§5) = ALL 4 layers STRIPPED → build NEW anchor từ zero
   → = Sustainability framework PREDICTS when meaning will erode
@@ -1529,7 +1529,7 @@ RESONANCE-PER-ENTITY × MEANING (Resonance-Per-Entity.md v1.0):
   ✅ KHỚP: anchor habituated + negative trust = approaching meaning question
 ```
 
-### Case 4: CEO 50 tuổi — "thành công nhưng trống rỗng"
+### Case 4: CEO 50 tuổi — "thành công nhưng emptiness"
 
 ```
   SITUATION: Công ty lớn, giàu, uy tín. Nhưng "mỗi sáng thức dậy — trống"
@@ -1828,7 +1828,7 @@ MECHANISM FILES:
   → Somatic-Articulation-Loop.md — body-knowledge → explicit (anchor building tool)
 
 NEW CONCEPT FILES (28-session Drill — §7.8):
-  → Bond-Architecture.md v1.0 — meaning through 4 bond types (4 pathways)
+  → Bond-Architecture.md v2.0 — meaning through 4 bond types (4 pathways)
   → Resonance-Sustainability.md v1.0 — meaning sustainability (4-layer prediction)
   → Resonance-Per-Entity.md v1.0 — meaning per-entity dynamics, grief → anchor collapse
 
@@ -1837,7 +1837,7 @@ VOCABULARY:
 
 OBSERVATION PARAMETER FILES (cùng folder):
   → Boredom.md v2.0 — Loại 3 TRỐNG = gateway tới meaning question
-  → Status.md v2.2 — "Thành công nhưng trống rỗng" = anchor exhausted
+  → Status.md v2.2 — "Thành công nhưng emptiness" = anchor exhausted
   → Drive.md v1.2 — PFC Mode 3 Spinning ≈ meaning territory; drive conflict
   → Protect.md v1.1 — Identity protect blocks anchor change
   → Novelty.md v1.2 — Raw material supplier cho anchor building
@@ -1934,7 +1934,7 @@ SELF-HELP CRITIQUE (§6):
 
 CROSS-PARAMETERS (§7):
   → ×Anchor-Schema (IS the mechanism)
-  → ×Imagine-Final (one source), ×Boredom L3 (gateway)
+  → ×Imagine-Final (one source), ×Boredom (gateway)
   → ×Novelty (raw material), ×Protect (tension), ×Connection (catalyst)
   → ×Gratitude (anchor strengthening? — 🔴 hypothesis)
 

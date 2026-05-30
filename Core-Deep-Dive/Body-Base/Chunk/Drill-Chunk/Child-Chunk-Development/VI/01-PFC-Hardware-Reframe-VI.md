@@ -379,7 +379,7 @@ Hodel 2018 là **review paper**, không phải paper thực nghiệm. Nó consol
 | **Functional responsiveness** | ✅ Hiện diện từ 2-5 ngày (Farroni 2002), 4 tháng (Grossmann 2013), 8 tháng (Werchan 2016) | Biên độ tăng, latency giảm | PFC tham gia nhận thức từ những ngày đầu tiên |
 | **Myelination** | 🟡 Chưa hoàn thiện (Yakovlev & Lecours 1967) | Tiếp tục qua thập niên thứ ba | Tốc độ tín hiệu + SNR đang cải thiện chậm |
 | **Hiệu quả tích hợp tầm xa** | 🟡 Thấp | Cải thiện với myelination + chunks | Phối hợp cross-region dần tốt hơn |
-| **Compiled chunks (nội dung)** | 🔴 Tối thiểu — **Mục tiêu F1** | Tích lũy phụ thuộc kinh nghiệm — bottleneck P2 (H10) | **Đây là chủ đề drill F1 thực sự** |
+| **Compiled chunks (nội dung)** | 🔴 Tối thiểu — **Mục tiêu F1** | Tích lũy phụ thuộc kinh nghiệm — bottleneck Precondition-2 (Body-Feedback-Precondition) | **Đây là chủ đề drill F1 thực sự** |
 | **Working memory capacity** | 🔴 Hạn chế | Tích lũy chunks + hiệu quả tích hợp | Downstream của chunks |
 
 ### §5.2 — Quan điểm cũ sai ở đâu
@@ -414,7 +414,7 @@ Với phân tích này, drill F1 nhắm cụ thể vào hàng **"compiled chunks
 2. **Đó là cơ chế giải thích thất bại trẻ sơ sinh** — trẻ thất bại ở verbal task không phải vì PFC offline mà vì verbal chunks chưa compile
 3. **Đó là cơ chế giải thích tiến trình phát triển** — chunks tích lũy qua kinh nghiệm, không phải qua PFC hardware maturation
 4. **Nó quan sát được qua events** — chúng ta có thể suy luận trạng thái chunks từ hành vi quan sát được qua event-inference methodology (§6)
-5. **Nó là bottleneck keystone H10 P2** — Body-Feedback-Draft N+3 xác định chunks base adequacy là keystone phát triển; F1 cung cấp cơ chế tích lũy
+5. **Nó là bottleneck keystone Precondition-2 Chunk-Substrate** — Body-Feedback-Draft N+3 xác định chunks base adequacy là keystone phát triển; F1 cung cấp cơ chế tích lũy
 
 Các thành phần khác (myelination, pruning, hiệu quả tích hợp) tiếp tục song song nhưng **không phải mục tiêu drill F1**. Chúng cung cấp nhịp độ nền nhưng không phải cơ chế F1 hình thức hóa.
 
@@ -548,7 +548,7 @@ Khi chunks tích lũy qua kinh nghiệm, **cùng loại event quan sát được
 
 **Drill home F1**: [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) — trường hợp bàng quang là developmental arc sạch nhất trong drill F1 vì nó trải qua L0→L4 trong một hệ thống cơ thể. Trình bày đầy đủ trong §3-§5 của file đó.
 
-**Empirical anchor**: Feel-Example-Draft E1 (newborn cry không phân biệt, 2 tuần), E3 (khóc sau tã ướt, sơ sinh), E23 "buồn đái" verbal (22 tháng). Khoảng cách 22 tháng là timeline tích lũy chunks P2 — không phải timeline PFC maturation.
+**Empirical anchor**: Feel-Example-Draft E1 (newborn cry không phân biệt, 2 tuần), E3 (khóc sau tã ướt, sơ sinh), E23 "buồn đái" verbal (22 tháng). Khoảng cách 22 tháng là timeline tích lũy chunks Precondition-2 — không phải timeline PFC maturation.
 
 ### §7.2 — Ví dụ 2: "Không nghe hiểu tên mẹ gọi"
 
@@ -702,7 +702,7 @@ Từ drill F1 tổng thể, các khuyến nghị cập nhật framework được
 - **R-F1-1** (file này): Viết lại PFC-Analysis §4 timeline với reframe
 - **R-F1-2** (từ 06a): Đề xuất "đơ mặt" như developmental marker để đánh giá tích lũy chunks
 - **R-F1-3** (từ 04): Cập nhật Schema/Chunk.md §2 với diễn giải proto-chunk gradient
-- **R-F1-4** (từ 06a): Cập nhật phần P2 Body-Feedback-Draft với bằng chứng substrate F1
+- **R-F1-4** (từ 06a): Cập nhật phần Precondition-2 Body-Feedback-Draft với bằng chứng substrate F1
 - **R-F1-5** (từ 09): Cập nhật Feel-Example-Draft với cross-ref đến phân tích event F1
 - **R-F1-6** (từ 10): Đề xuất H11 + PFC-Inference Ladder như đóng góp framework cho 99-Master-Synthesis
 - **R-F1-7** (từ 08): Cập nhật Body-Parenting-Optimization.md developmental stages với bằng chứng chunks arc F1
@@ -720,7 +720,7 @@ Tất cả được ghi log trong 10-F1-Synthesis §5 cho commit 99-Master-Synth
 - [../../Body-Base/Body-Parenting-Optimization.md](../../Body-Base/Body-Parenting-Optimization.md) §0 REFRAME NOTE — file reframe chị trong bối cảnh nuôi dạy con
 - [../../Schema/Chunk.md](../../Schema/Chunk.md) §2 (4 compile mechanisms) — lý thuyết substrate compile
 - [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5 — kiến trúc body-feedback vs feeling + 7-layer model
-- [../Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) — H10 5 điều kiện tiên quyết (P2 chunks base adequacy)
+- [../Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) — Body-Feedback-Precondition 5 điều kiện tiên quyết (Precondition-2 Chunk-Substrate)
 - [../../Body-Base/Feeling/Feel-Example-Draft.md](../../Body-Base/Feeling/Feel-Example-Draft.md) — E1, E3, E21, E22, E23 developmental cases
 
 ### §9.2 — F1 internal forward references
@@ -795,7 +795,7 @@ Cả hai quotes được operationalize trong §7 (examples) và §6 (methodolog
 
 2. **Biến thể cá nhân trong tốc độ leo ladder PFC-Inference**: Cùng nội dung chunk (ví dụ: tín hiệu bàng quang → nhãn verbal) mất ~22 tháng với một em bé, ~30 tháng với em bé khác. Điều gì tạo ra biến thể cá nhân? Genetic + epigenetic + caregiver practice + văn hóa + timing sinh học. F1 đề cập đến nhưng không drill sâu — có thể là sub-folder tương lai hoặc topic F4.
 
-3. **Ranh giới critical period**: Khi nào cửa sổ critical period P5 body-state-at-compile bắt đầu và kết thúc theo mỗi hệ thống body-input? File 06a drill trường hợp bàng quang với framework được tinh chỉnh (N+4c2-REV1 — hướng novelty vs threat cortisol + 4-threshold gradient + imposed-parent dual-source + chiều neural wear); 06b §6.3 tổng hợp profile map 5-state. Lý thuyết critical period rộng hơn cho feeling capacity cụ thể được hoãn đến drill Feeling folder L3 (tương lai sau F4).
+3. **Ranh giới critical period**: Khi nào cửa sổ critical period Precondition-5 Compile-Gate body-state-at-compile bắt đầu và kết thúc theo mỗi hệ thống body-input? File 06a drill trường hợp bàng quang với framework được tinh chỉnh (N+4c2-REV1 — hướng novelty vs threat cortisol + 4-threshold gradient + imposed-parent dual-source + chiều neural wear); 06b §6.3 tổng hợp profile map 5-state. Lý thuyết critical period rộng hơn cho feeling capacity cụ thể được hoãn đến drill Feeling folder L3 (tương lai sau F4).
 
 4. **Biến thể liên văn hóa**: Các body-input arcs giả định chuỗi phát triển chung. Biến thể liên văn hóa (các nền văn hóa elimination communication cho thấy chunks bàng quang sớm hơn; các nền văn hóa tonal language cho thấy chunk profiles thính giác khác nhau) là thực tế nhưng không phải target drill cho F1.
 

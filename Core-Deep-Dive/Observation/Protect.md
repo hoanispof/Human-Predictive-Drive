@@ -1,9 +1,9 @@
----
+﻿---
 title: Protect — Observation Parameter
 version: 1.2
 created: 2026-04-20
 updated: 2026-05-17
-refined: 2026-05-23 (v1.2 — Concept Cascade: +Entity-Access, +Bond-Architecture, +M1-M4 firing modes. Updated versions + cross-refs)
+refined: 2026-05-23 (v1.2 — Concept Cascade: +Entity-Access, +Bond-Architecture, +Firing Modes. Updated versions + cross-refs)
 status: OBSERVATION PARAMETER v1.2
 scope: |
   OBSERVATION FILE: Protect = named pattern khi quan sát loss aversion
@@ -210,7 +210,7 @@ dependencies:
     → KHÁC novelty drive = cortisol LOW-MODERATE, domain-pull
     → = Protect gắn với AVOIDANCE direction, novelty gắn với APPROACH
     → = Chunks compiled under protect = tagged AVOIDANCE
-      (Chunk.md v2.0 §2.4 NT7: cortisol direction gate at compile)
+      (Chunk.md §2.4 Direction-At-Compile: cortisol compile direction gate)
 ```
 
 ---
@@ -449,7 +449,7 @@ dependencies:
        → = Protect ANXIETY PERSISTS sau khi threat resolved
        → Ví dụ: tìm được ví bị mất → vẫn kiểm ví liên tục 1 tuần sau
 
-  DIRECTION GATE (Cortisol-Baseline.md §3, Chunk.md §2.4 NT7):
+  DIRECTION GATE (Cortisol-Baseline.md §3, Chunk.md §2.4 Direction-At-Compile):
     → Cùng cortisol level, KHÁC direction:
     → Protect cortisol = threat-pull → chunks tag AVOIDANCE
     → Novelty cortisol = domain-pull → chunks tag APPROACH
@@ -903,7 +903,7 @@ NGƯỜI = PROTECT PHỨC TẠP NHẤT:
 ```
 🟡 CORTISOL DIRECTION — TẠI SAO PROTECT = AVOIDANCE-TAGGED:
 
-  (Cortisol-Baseline.md §7, Chunk.md v2.0 §2.4 NT7)
+  (Cortisol-Baseline.md §7, Chunk.md §2.4 Direction-At-Compile)
 
   DIRECTION PRINCIPLE (Source > Level):
     → CÙNG cortisol level, KHÁC direction → KHÁC chunk tag:
@@ -1591,14 +1591,14 @@ PROTECT × STATUS = TERRITORIAL OVERLAP:
 ENTITY-ACCESS × PROTECT (Entity-Access.md v1.2):
   → Protect = MAINTAIN entity access:
     Mất entity = access DROP → protect fire proportional to access level
-    Mức 5 (con): protect CỰC MẠNH (hardware subsidy amplify, loss = catastrophic)
+    Mức 5 (con): protect CỰC MẠNH (hardware-subsidy amplify, loss = catastrophic)
     Mức 3 (bạn thân): protect MẠNH (compiled deep, Dunbar-level Entity-Compiled)
     Mức 1 (acquaintance): protect NHẸ (shallow compiled, easy replace)
   → §2 formula f(replaceability × attachment) = Entity-Access gradient reframe:
     Replaceability = inverse of entity uniqueness at that Mức level
     Attachment = compile depth = Entity-Compiled formation hours
 
-BOND-ARCHITECTURE × PROTECT (Bond-Architecture.md v1.0):
+BOND-ARCHITECTURE × PROTECT (Bond-Architecture.md v2.0):
   → Protect BOND INTEGRITY — 4 bond types, 4 protect patterns:
     Proximity bond threat → protect = physical CLOSENESS (không cho xa)
     Shared-Experience threat → protect = ACTIVITY together (không cho tách)
@@ -1607,17 +1607,17 @@ BOND-ARCHITECTURE × PROTECT (Bond-Architecture.md v1.0):
   → §3.2 (people) = protect Entity-Compiled → grief = protect FAILED
   → §3.4 (identity) = protect identity bond → existential crisis = bond BROKEN
 
-M1-M4 FIRING MODES × PROTECT (Bond-Architecture.md v1.0):
+FIRING MODES × PROTECT (Entity-Valence-Dynamics.md v1.0 §4):
   → Protect response KHÁC theo firing mode:
-    M1 Tonic: vigilance liên tục (cảnh giác mãn tính → cortisol baseline ↑)
-    M2 Phasic: burst response to specific threat (VD: con bị ngã → rush)
-    M3 Compound: nhiều systems fire (VD: mất việc = financial+status+identity threat)
-    M4 Cascade: chain reactions (VD: bị phản bội → trust collapse → withdrawal → isolation)
-  → M3/M4 = "devastating loss" (§5.4 Compound) ở firing mode level
+    Tonic: vigilance liên tục (cảnh giác mãn tính → cortisol baseline ↑)
+    Phasic: burst response to specific threat (VD: con bị ngã → rush)
+    Compound: nhiều systems fire (VD: mất việc = financial+status+identity threat)
+    Cascade: chain reactions (VD: bị phản bội → trust collapse → withdrawal → isolation)
+  → Compound/Cascade = "devastating loss" (§5.4 Compound) ở firing mode level
 
 🟡 Entity-Access × protect = framework convergence (access gradient predicts protect intensity)
 🟡 Bond-Architecture × protect = framework application (4 protect patterns)
-🟡 M1-M4 × protect = framework application (4 response modes)
+🟡 Firing Modes × protect = framework application (4 response modes)
 ```
 
 ---
@@ -1897,7 +1897,7 @@ MECHANISM FILES:
   → Cortisol-Baseline.md v2.0 §3 — Direction gate (novelty vs threat cortisol)
   → Cortisol-Baseline.md v2.0 §7 — Source > Level principle
   → Cortisol-Baseline.md v2.0 §10.6 — Cortisol × baseline coupling
-  → Chunk.md v2.0 §2.4 NT7 — Cortisol direction gate at compile
+  → Chunk.md §2.4 Direction-At-Compile — Cortisol compile direction gate
   → Agent-Mechanism.md §12 — Body-need feeder (social presence as need)
   → Agent-Mechanism.md §12.3 — Mirror reward override (giving mechanism)
   → Agent-Mechanism.md §12.6 — Grief = loss of agent source + Self-Pattern-Modeling open-loop

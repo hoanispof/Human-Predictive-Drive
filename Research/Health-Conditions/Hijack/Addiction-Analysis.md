@@ -24,7 +24,7 @@ dependencies:
   - Core-Software.md v1.0 — cycle architecture, 7-step
   - Core-Hardware.md v1.0 — 4 zones A/B/C/D, PFC reach gradient
   - Chunk.md v2.1 — chunk substrate, compile, trust gate
-  - 03-Reward.md v1.1 — H10 5 preconditions, 7-step VTA, opioid = reward thật
+  - 03-Reward.md v1.1 — Body-Feedback-Precondition 5 preconditions, 7-step VTA, opioid = reward thật
   - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, E₀→E₃, Evaluative Gates Direct-State, 5 Profiles
   - Reward-Calibration.md v1.1 — Goldilocks per-gap, over-reward, premature compilation
   - Body-Feedback-Mechanism.md v1.2 — Sensory-Driven / Pattern-Driven, Chunk-Shift/Miss/Gap
@@ -53,7 +53,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Dopamine = chuông cửa ("có gì đó đáng chú ý"). Nghiện = quà đằng sau cửa.
 >
 > Nghiện qua v7.8: **chunk-reward loop bị hijack**.
-> Substance/behavior bypass H10 preconditions → deliver reward
+> Substance/behavior bypass Body-Feedback-Precondition preconditions → deliver reward
 > KHÔNG phục vụ body-need thật → compile "shortcut" chunks →
 > tolerance = baseline shift → withdrawal = body-coupling disruption.
 >
@@ -61,7 +61,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Drill từng chất cụ thể → file riêng (Alcohol-Brain-Mechanism.md đã có).
 >
 > **Đọc trước**: Dopamine-Is-Not-Reward.md (tại sao dopamine ≠ reward).
-> **Đọc trước hoặc song song**: 03-Reward.md (H10 5 preconditions).
+> **Đọc trước hoặc song song**: 03-Reward.md (Body-Feedback-Precondition 5 preconditions).
 
 ---
 
@@ -117,7 +117,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   V2 → V3.0 REFRAME:
     v2 (v7.5): "Imagine layer DISCONNECT khỏi Body-Base"
-    v3.0 (v7.8): "Chunk-reward loop bị hijack — H10 bypass + compile shortcut"
+    v3.0 (v7.8): "Chunk-reward loop bị hijack — Body-Feedback-Precondition bypass + compile shortcut"
     v2 insight cốt lõi VẪN ĐÚNG — chỉ terminology + mechanism depth thay đổi.
 ```
 
@@ -159,7 +159,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │   = CHUÔNG CỬA — signal salience, KHÔNG phải reward.              │
   │                                                                    │
   │   Reward = body-base opioid release KHI chunk fits body-need.      │
-  │   = QUÀ ĐẰNG SAU CỬA — actual reward, phụ thuộc H10.            │
+  │   = QUÀ ĐẰNG SAU CỬA — actual reward, phụ thuộc Body-Feedback-Precondition.            │
   │                                                                    │
   │   7-step mechanism (chi tiết: Dopamine-Is-Not-Reward.md §4):   │
   │   ① Neurons fire 24/7 → ② VTA detect delta → ③ DRD4 filter →    │
@@ -168,7 +168,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                                                    │
   │   Bước ⑤ = CRITICAL: body-base CHECK.                             │
   │   Có body-need match → opioid → reward THẬT.                      │
-  │   KHÔNG match → "meh" → PFC discard → TRỐNG RỖNG.                │
+  │   KHÔNG match → "meh" → PFC discard → EMPTINESS.                │
   │                                                                    │
   │   → "Nghiện dopamine" SAI vì:                                     │
   │   Dopamine = chuông cửa. Không ai nghiện tiếng chuông.            │
@@ -224,44 +224,44 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
                     Match? → Opioid reward → Gap closes → DỪNG.
 
   ĐẶC ĐIỂM QUAN TRỌNG:
-    ① Body-need gap THẬT tồn tại trước (P1 Schema pending)
+    ① Body-need gap THẬT tồn tại trước (Precondition-1 Directed-Gap)
     ② Behavior phục vụ gap đó (ăn khi đói, uống khi khát)
     ③ Body-base CHECK sau behavior: "có đáp ứng need không?"
     ④ Match → opioid → reward → gap closes → cycle DỪNG tự nhiên
-    ⑤ H10 5 preconditions ĐỀU phải met (03-Reward.md §3)
+    ⑤ Body-Feedback-Precondition 5 preconditions ĐỀU phải met (03-Reward.md §3)
 
 
   ADDICTION CYCLE — HIJACK Ở ĐÂU:
 
   ┌─────────────────────────────────────────────────────────────────────┐
   │                                                                     │
-  │  HIJACK POINT 1 — H10 BYPASS:                                      │
+  │  HIJACK POINT 1 — Body-Feedback-Precondition BYPASS:                                      │
   │                                                                     │
   │    Chemical tấn công TRỰC TIẾP receptor/neurotransmitter system     │
-  │    → deliver opioid (hoặc opioid-like signal) KHÔNG CẦN P1-P5:     │
+  │    → deliver opioid (hoặc opioid-like signal) KHÔNG CẦN Precondition-1 through Precondition-5: │
   │                                                                     │
-  │    P1 (Schema pending — body-need gap):                             │
+  │    Precondition-1 Directed-Gap (Schema pending — body-need gap):     │
   │      Normal: cần gap THẬT. Addiction: chất tạo reward KHÔNG CÓ gap │
   │      hoặc gap KHÔNG LIÊN QUAN (đói → uống rượu, buồn → hút thuốc) │
   │                                                                     │
-  │    P2 (Compiled chunks — evaluation capacity):                      │
+  │    Precondition-2 Chunk-Substrate (Compiled chunks — evaluation capacity): │
   │      Normal: cần chunks để đánh giá "input có tốt không?"           │
   │      Addiction: chất BYPASS evaluation → reward trực tiếp            │
   │                                                                     │
-  │    P3 (prediction-delta — novelty signal):                                 │
+  │    Precondition-3 Delta-Gate (prediction-delta — novelty signal):           │
   │      Normal: cần prediction-delta. Addiction: chất FLOOD dopamine   │
   │      → VTA overwhelmed → signal bất thường                          │
   │                                                                     │
-  │    P4 (Goldilocks — vừa đủ):                                       │
-  │      Normal: ~40-70% match = optimal. Addiction: chất OVERRIDE      │
+  │    Precondition-4 Match-Range (Goldilocks zone — dynamic):           │
+  │      Normal: Goldilocks zone = optimal. Addiction: chất OVERRIDE    │
   │      → reward cường độ vượt xa Goldilocks → over-reward             │
   │                                                                     │
-  │    P5 (Chunk tag — cortisol direction):                             │
+  │    Precondition-5 Compile-Gate (Chunk tag — cortisol direction):     │
   │      Normal: novelty cortisol → approach. Addiction: substance      │
   │      CÓ THỂ tag positive DÙ hại body (§2.3 false positive)        │
   │                                                                     │
-  │  → CHEMICAL = BYPASS H10, deliver reward KHÔNG QUA body-base check  │
-  │  → Behavioral = EXPLOIT H10 weaknesses (variable ratio, low cost)   │
+  │  → CHEMICAL = BYPASS Body-Feedback-Precondition, deliver reward KHÔNG QUA body-base check  │
+  │  → Behavioral = EXPLOIT Body-Feedback-Precondition weaknesses (variable ratio, low cost)   │
   │                                                                     │
   └─────────────────────────────────────────────────────────────────────┘
 
@@ -415,13 +415,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Evaluative — EVALUATIVE CONFIRM:
     Circuit: Hedonic hotspot (NAcc shell, VP, mOFC). μ-opioid primary.
-    H10: Full 5 preconditions REQUIRED.
+    Body-Feedback-Precondition: Full 5 preconditions REQUIRED.
     Learned: YES — quality depends on chunk library.
     Examples: Food, music, insight, social praise.
 
   Direct-State — DIRECT STATE CONFIRM:
     Circuit: Interoceptive / body-state regulation. VARIES by modality.
-    H10: Simplified (P1 basic, P2-P5 reduced/N/A).
+    Body-Feedback-Precondition: Simplified (Precondition-1 basic, Precondition-2 through Precondition-5 reduced/N/A).
     Learned: MINIMAL — hardware from birth.
     Examples: Touch comfort, exercise, warmth, stretching.
 
@@ -525,7 +525,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟢🟡 NGUYÊN TẮC: Chất tấn công TRỰC TIẾP hệ thống neurochemical.
 
   ĐẶC ĐIỂM CHUNG:
-    → Bypass H10 evaluation gate (§2.1 Hijack Point 1)
+    → Bypass Body-Feedback-Precondition evaluation gate (§2.1 Hijack Point 1)
     → Receptor downregulate → tolerance
     → Hormone tự nhiên GIẢM sản xuất
     → Withdrawal = body threat (nhẹ → cực nặng tùy chất)
@@ -560,11 +560,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 🟡 NGUYÊN TẮC: Hành vi tạo body reward THẬT từ body-base channels —
-   KHÔNG tấn công hormone trực tiếp, nhưng EXPLOIT weaknesses trong H10.
+   KHÔNG tấn công hormone trực tiếp, nhưng EXPLOIT weaknesses trong Body-Feedback-Precondition.
 
   ĐẶC ĐIỂM CHUNG:
-    → H10 KHÔNG bị bypass — nhưng bị EXPLOIT:
-      - Variable ratio reinforcement → P3 prediction-delta LIÊN TỤC
+    → Body-Feedback-Precondition KHÔNG bị bypass — nhưng bị EXPLOIT:
+      - Variable ratio reinforcement → Precondition-3 Delta-Gate LIÊN TỤC
       - Low cost behavior → lặp lại DỄ → compile NHANH
       - Multi-channel reward → multi-modal compile → MẠNH
     → Receptor KHÔNG downregulate nặng như chất
@@ -603,7 +603,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌──────────────┬──────────────────────┬──────────────────────┐
     │ Đặc điểm     │ Chemical              │ Behavioral            │
     ├──────────────┼──────────────────────┼──────────────────────┤
-    │ H10          │ BYPASS (phá cửa sau) │ EXPLOIT (lách cửa    │
+    │ Body-Feedback-Precondition │ BYPASS (phá cửa sau) │ EXPLOIT (lách cửa    │
     │              │                      │ trước ở tần suất cao) │
     ├──────────────┼──────────────────────┼──────────────────────┤
     │ Receptor     │ Downregulate NẶNG    │ Downregulate NHẸ     │
@@ -856,7 +856,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Evaluative: CÓ THỂ bị damage bởi addiction
     → Receptor downregulate → E₁-E₃ evaluation impaired
-    → Anhedonia: "ăn mà không thấy ngon, nghe nhạc mà trống rỗng"
+    → Anhedonia: "ăn mà không thấy ngon, nghe nhạc mà emptiness"
 
   Direct-State: HARDWARE-BASED → VẪN accessible
     → Touch comfort: CT afferents VẪN hoạt động
@@ -1016,7 +1016,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Environment affects recovery         │ 🟢 Alexander 1978     │
   │ Body-oriented therapy effective      │ 🟢 Van der Kolk 2014  │
   ├──────────────────────────────────────┼──────────────────────┤
-  │ H10 bypass model (§2.1)             │ 🟡 Framework synthesis │
+  │ Body-Feedback-Precondition bypass model (§2.1) │ 🟡 Framework synthesis │
   │ Evaluative/Direct-State × addiction mapping (§3)   │ 🟡 Framework synthesis │
   │ 4-phase × chunk dynamics (§2.2)     │ 🟡 Framework synthesis │
   │ PFC-Config × addiction stages (§6)  │ 🟡 Framework synthesis │
@@ -1043,7 +1043,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Goldstein PFC impairment → framework ĐỒNG Ý + map vào 6 Config modes
 
   FRAMEWORK THÊM:
-    → H10 bypass model: formalize TẠI SAO substance bypass body-base check
+    → Body-Feedback-Precondition bypass model: formalize TẠI SAO substance bypass body-base check
     → Evaluative/Direct-State × addiction: formalize LOẠI REWARD NÀO bị tấn công
     → Chunk competition model: recovery = new chunks vs addiction chunks
     → PFC-Configuration × stages: formalize PFC state per-phase
@@ -1062,7 +1062,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Q1: "Healthy addiction" có tồn tại không?
       → "Nghiện" exercise, "nghiện" sáng tạo, "nghiện" học?
       → = Body reward THẬT + phục vụ body-need THẬT
-      → Nếu H10 preconditions MET + body-need THẬT → gọi "addiction"?
+      → Nếu Body-Feedback-Precondition preconditions MET + body-need THẬT → gọi "addiction"?
       → Hay gọi "sustained drive" / "flow" / "Imagine-Final pursuit"?
       → Framework lean: nếu body reward THẬT + need THẬT → KHÔNG phải addiction
         (vì cycle DỪNG tự nhiên khi need met).
@@ -1115,7 +1115,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Chunk-Activation-Dynamics.md — probability, competitive re-linking, trigger surface
 
   REWARD SYSTEM (bị hijack):
-    → 03-Reward.md v1.1 — H10 5 preconditions, 7-step VTA
+    → 03-Reward.md v1.1 — Body-Feedback-Precondition 5 preconditions, 7-step VTA
     → Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, E₀→E₃, Evaluative Gates Direct-State
     → Reward-Calibration.md v1.1 — Goldilocks, over-reward, premature compilation
     → Dopamine-Is-Not-Reward.md v1.1 — dopamine ≠ reward, 7 bằng chứng

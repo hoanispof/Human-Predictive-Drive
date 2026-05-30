@@ -1,4 +1,4 @@
-# Collective Purpose — Vòng Tròn Map Domain Của Loài Người
+﻿# Collective Purpose — Vòng Tròn Map Domain Của Loài Người
 
 > **Cá nhân chỉ thấy daily life: anchor, melody, drive.**
 > **Khi ZOOM OUT toàn bộ loài người + qua thời gian:**
@@ -17,6 +17,7 @@
 > Connect cá nhân (anchor, melody, drive) với collective (knowledge mapping domain).
 > = "Mục đích" có thể infer của humanity (descriptive, không prescriptive).
 > **Vị trí:** Core-Deep-Dive/Collective/ (file META-level, moved from Domain/ 2026-05-18)
+> → **Overview:** Collective.md v1.0 (integration hub cho folder)
 > **Tiền đề:**
 >   Domain.md (substrate — thực tế bên ngoài, cố định, vô tận)
 >   Knowledge-Flow.md (cơ chế HOW — internal → output → external chunk)
@@ -1070,7 +1071,7 @@ SONG SONG:
 ## Collective-Purpose × New Concepts (28-session Drill Propagation)
 
 ```
-BOND-ARCHITECTURE × COLLECTIVE (Bond-Architecture.md v1.0):
+BOND-ARCHITECTURE × COLLECTIVE (Bond-Architecture.md v2.0):
   → Collective = MANY bonds operating at scale:
     Proximity bonds → local community (village, neighborhood)
     Shared-Experience bonds → cohort groups (class, military unit)
@@ -1084,7 +1085,7 @@ RESONANCE-SUSTAINABILITY × COLLECTIVE (Resonance-Sustainability.md v1.0):
     Behavioral: members still PARTICIPATE (rituals, meetings)
     Cognitive: narrative still MAKES SENSE (ideology coherent)
     Contextual: environment still SUPPORTS (resources available)
-  → Cosmic loop sustainable IFF all 4 layers maintained across generations
+  → Cosmic loop sustainable if and only if all 4 layers maintained across generations
 
 BY-PRODUCT-SCALE × COLLECTIVE (By-Product-Scale.md v1.0):
   → Loop operates at 3 scales simultaneously:

@@ -543,14 +543,14 @@ HƯỚNG NGHIÊN CỨU TỪ GAP 2:
   — KHÔNG phải level tế bào.
 ```
 
-### §4.2 D1 Convergence — BB1 + BB2 = Cùng 1 mechanism
+### §4.2 Convergence — Blackbox-1 + Blackbox-2 = Cùng 1 mechanism
 
 ```
-⭐ PHÁT HIỆN (Drill §26 D1 — Framework-Boundaries.md v2.0):
+⭐ PHÁT HIỆN (Drill §26 — Framework-Boundaries.md v2.0):
 
   Trước (v1.0): framework gọi "2 blackbox":
-    BB1 = Chunk substrate (brain biology unknown)
-    BB2 = Valence complexity (complex chains unpredictable)
+    Blackbox-1 = Chunk substrate (brain biology unknown)
+    Blackbox-2 = Valence complexity (complex chains unpredictable)
 
   Drill phát hiện: KHÔNG PHẢI 2 mechanism riêng biệt.
 
@@ -558,16 +558,16 @@ HƯỚNG NGHIÊN CỨU TỪ GAP 2:
     COMPILE = wire neurons together (structural aspect)
     VALENCE = tag neurons with body-base impact (evaluative aspect)
     = ĐỒNG THỜI, 1 process — KHÔNG TÁCH ĐƯỢC
-    → BB1 + BB2 ở Cấp 1 = CÙNG mechanism
+    → Blackbox-1 + Blackbox-2 ở Cấp 1 = CÙNG mechanism
 
-  "Valence phức tạp" (BB2 cũ) = TẠI SAO?
-    Vì chunk substrate (BB1) hoạt động ở SCALE lớn hơn:
+  "Valence phức tạp" (Blackbox-2 cũ) = TẠI SAO?
+    Vì chunk substrate (Blackbox-1) hoạt động ở SCALE lớn hơn:
     → Chain DÀI + distributed + nhiều links + trust × nhiều nguồn
-    → = BB2 "complexity" PHẦN LỚN nằm ở Cấp 2 (collective), KHÔNG phải Cấp 1
+    → = Blackbox-2 "complexity" PHẦN LỚN nằm ở Cấp 2 (collective), KHÔNG phải Cấp 1
 
   REFRAME:
-    BB1 (chunk substrate)    = 1 FUNDAMENTAL BLACKBOX (giữ nguyên)
-    BB2 (valence complexity) = BB1 + scale + variance (→ §7 Complexity Dimensions)
+    Blackbox-1 (chunk substrate)    = 1 FUNDAMENTAL BLACKBOX (giữ nguyên)
+    Blackbox-2 (valence complexity) = Blackbox-1 + scale + variance (→ §7 Complexity Dimensions)
 ```
 
 ### §4.3 Neuroscience candidates cho "chunk"
@@ -652,13 +652,13 @@ HƯỚNG NGHIÊN CỨU TỪ GAP 3:
 Framework mô tả feeling qua 7-layer fidelity gradient
 (Feeling.md v2.1, Core-Software.md §5):
 
-  L1: Raw body signals              ~100% fidelity
-  L2: Integration (insula)          ~95%
-  L3: Consciousification            ~90%
-  L4: Observation (PFC threshold)   ~85%
-  L5: Location                      70-90%
-  L6: Labeling                      40-80%  ← CRITICAL LOSS
-  L7: Explanation                   20-70%  ← MOST RISKY
+  Feel-RawSignals: Raw body signals              ~100% fidelity
+  Feel-Integration: Integration (insula)          ~95%
+  Feel-Consciousification: Consciousification     ~90%
+  Feel-Observation: Observation (PFC threshold)   ~85%
+  Feel-Location: Location                      70-90%
+  Feel-Labeling: Labeling                      40-80%  ← CRITICAL LOSS
+  Feel-Explanation: Explanation                   20-70%  ← MOST RISKY
 
   (🟡 % = calibration anchor, không đo chính xác — Core-Software.md §12.4)
 
@@ -688,7 +688,7 @@ Framework biết:
     → NHƯNG: chi tiết computational model = still active research
 
   SUB-GAP 2: "Consciousification" — HOW?
-    Framework: L2→L3 = "trở thành conscious"
+    Framework: Feel-Integration→Feel-Consciousification = "trở thành conscious"
     Missing: CHÍNH XÁC thế nào neural activity TRỞ THÀNH
       subjective experience?
     → = HARD PROBLEM OF CONSCIOUSNESS (Chalmers 1995)
@@ -729,7 +729,7 @@ HƯỚNG NGHIÊN CỨU TỪ GAP 4:
       vs insula activation vs PFC activation
     → = Quantify fidelity gradient TRỰC TIẾP
 
-  RD-4.3: L6 Labeling loss mechanism
+  RD-4.3: Feel-Labeling loss mechanism
     → Framework: labeling = CRITICAL loss point (40-80%)
     → Predict: forcing verbal label CHANGES neural activation pattern
       (not just describes it — label ALTERS the experience)
@@ -750,7 +750,7 @@ Framework mô tả từng hormone ở BEHAVIORAL level:
              (Cortisol-Baseline.md v2.0, 15 sections)
   Dopamine:  VTA salience signal, KHÔNG phải reward
              (Dopamine-Is-Not-Reward.md, 7 bằng chứng)
-  Opioid:    body-need match reward, H10 5 preconditions
+  Opioid:    body-need match reward, Body-Feedback-Precondition 5 preconditions
              (03-Reward.md, Reward-Signal-Architecture.md)
   Oxytocin:  bonding-related, OXTR sensitivity varies
              (Core-Hardware.md §5)
@@ -1074,7 +1074,7 @@ COMPLEXITY DIMENSIONS:
 
 SUPERSEDED:
   Research/Meta-Impact/Framework-Boundaries.md v2.0 → backup/
-    §4.1-§4.2 ← Blackbox + D1 Convergence (tích hợp nguyên)
+    §4.1-§4.2 ← Blackbox + Convergence (tích hợp nguyên)
     §7.1-§7.2 ← Complexity Dimensions (tích hợp nguyên)
 
 RELATED META-ANALYSIS:

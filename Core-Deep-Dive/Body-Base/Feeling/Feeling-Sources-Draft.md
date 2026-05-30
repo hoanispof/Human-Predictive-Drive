@@ -26,7 +26,7 @@
 >   └── Feeling-Research.md (RESEARCH foundation)
 > **Tiền đề:**
 >   Feeling.md §1 (definition) + §2 (7-layer structure)
->   Core-v7.5-Draft.md §2 (Body-Base L0-L3)
+>   Core-v7.5-Draft.md §2 (Body-Base L0+L1 substrate)
 >   Domain/Valence.md (multi-channel evaluation)
 >   Domain/Domain-Mechanisms.md §1 (mirror mechanism)
 >   Imagine-Final.md (preview mechanism)
@@ -52,7 +52,7 @@
 - §1 — L0 THREAT CHANNEL FEELINGS
 - §2 — L1 PHYSIOLOGICAL / INTEROCEPTIVE FEELINGS
 - §3 — L2 EXPERIENCE / NOVELTY FEELINGS
-- §4 — L3 MASTERY / MEANING / STATUS FEELINGS
+- §4 — MASTERY / MEANING / STATUS (evaluative) FEELINGS
 - §5 — AGENT INPUT CHANNEL FEELINGS
 - §6 — MIRROR-GENERATED FEELINGS
 - §7 — SCHEMA-TRIGGERED FEELINGS
@@ -82,7 +82,7 @@
   │  ① L0 THREAT              → threat feelings                 │
   │  ② L1 PHYSIOLOGICAL       → body state feelings             │
   │  ③ L2 EXPERIENCE          → novelty/boredom feelings        │
-  │  ④ L3 MASTERY/MEANING     → meaning/status feelings         │
+  │  ④ MASTERY/MEANING (evaluative)     → meaning/status feelings         │
   │  ⑤ AGENT INPUT            → social presence feelings        │
   │  ⑥ MIRROR                 → others' state feelings          │
   │  ⑦ SCHEMA                 → compiled knowledge feelings     │
@@ -117,7 +117,7 @@
 
 
   CẤU TRÚC FILE:
-    §1-4: 4 body-base levels (L0-L3)
+    §1-4: body-base levels (L0+L1 substrate + evaluative)
     §5: Agent input (body-base need riêng, cấp độ sâu)
     §6-10: 5 cơ chế khác tạo feelings (mirror, schema, imagine-final, valence, cognitive)
     §11: 7 categories view (regrouping by phenomenal type)
@@ -176,14 +176,14 @@
 
 
   PFC ACCURACY:
-    → Layer 3 (noticeable): HIGH — body reliable
-    → Layer 4 (observe): MEDIUM — often override or dismiss
-    → Layer 5 (locate): LOW — "whole body" feeling
-    → Layer 6 (label): MEDIUM — "fear", "unease", "bad feeling"
-    → Layer 7 (explain): LOW — confabulation high
+    → Feel-Consciousification (noticeable): HIGH — body reliable
+    → Feel-Observation (observe): MEDIUM — often override or dismiss
+    → Feel-Location (locate): LOW — "whole body" feeling
+    → Feel-Labeling (label): MEDIUM — "fear", "unease", "bad feeling"
+    → Feel-Explanation (explain): LOW — confabulation high
 
   LITERACY IMPLICATION:
-    → Trust Layer 3-4 L0 signals especially in unfamiliar contexts
+    → Trust Feel-Consciousification–Feel-Observation L0 signals especially in unfamiliar contexts
     → Don't rationalize away "bad feeling" about person/place
     → But verify when possible — L0 also has false positives
     → Anxiety disorders = L0 chronic over-activation
@@ -275,18 +275,18 @@
 
 
   PFC ACCURACY:
-    → Layer 3: HIGH — body state clear
-    → Layer 4: HIGH if attention allocated
-    → Layer 5: VARIES (somatic HIGH, visceral LOW)
-    → Layer 6: HIGH for common feelings, LOW for subtle
-    → Layer 7: MEDIUM — often confused with emotional states
+    → Feel-Consciousification: HIGH — body state clear
+    → Feel-Observation: HIGH if attention allocated
+    → Feel-Location: VARIES (somatic HIGH, visceral LOW)
+    → Feel-Labeling: HIGH for common feelings, LOW for subtle
+    → Feel-Explanation: MEDIUM — often confused with emotional states
       (VD: hunger → anger, "hangry"; thirst → fatigue)
 
 
   LITERACY IMPLICATION:
     → Before labeling emotion, check physiological basics
     → "Am I hungry? Thirsty? Tired? In pain? Needing movement?"
-    → Simple check prevents many mislabels at Layer 6-7
+    → Simple check prevents many mislabels at Feel-Labeling–Feel-Explanation
     → Pain literacy: describe quality + location + quality + timing
 
 
@@ -363,10 +363,10 @@
 
 
   PFC ACCURACY:
-    → Layer 3: MEDIUM — subtle, often background
-    → Layer 4: MEDIUM — easy to miss
-    → Layer 6: HIGH — common vocabulary
-    → Layer 7: MEDIUM — causes often misattributed
+    → Feel-Consciousification: MEDIUM — subtle, often background
+    → Feel-Observation: MEDIUM — easy to miss
+    → Feel-Labeling: HIGH — common vocabulary
+    → Feel-Explanation: MEDIUM — causes often misattributed
 
 
   LITERACY IMPLICATION:
@@ -384,10 +384,10 @@
 
 ---
 
-## §4 — L3 MASTERY / MEANING / STATUS FEELINGS
+## §4 — MASTERY / MEANING / STATUS (evaluative) FEELINGS
 
 ```
-🟢 L3 — MASTERY / MEANING / STATUS CHANNEL:
+🟢 MASTERY / MEANING / STATUS (evaluative observation parameters):
 
   Mechanism:
     → Ventral striatum + mPFC integration
@@ -450,8 +450,8 @@
 
 
   SCHEMA-MEDIATED NATURE:
-    → L3 feelings KHÔNG phải "raw input"
-    → L3 feelings = schema firing about body state
+    → Evaluative feelings KHÔNG phải "raw input"
+    → Evaluative feelings = schema firing about body state
     → Schema built from years of history
     → → Changes slowly, feels deeply
 
@@ -465,19 +465,19 @@
 
 
   PFC ACCURACY:
-    → Layer 3: HIGH (body deeply engaged)
-    → Layer 4: HIGH
-    → Layer 5: HARD — often "whole body" or "chest/stomach"
-    → Layer 6: HIGH for common, LOW for subtle
-    → Layer 7: OFTEN WRONG — rationalization heavy
+    → Feel-Consciousification: HIGH (body deeply engaged)
+    → Feel-Observation: HIGH
+    → Feel-Location: HARD — often "whole body" or "chest/stomach"
+    → Feel-Labeling: HIGH for common, LOW for subtle
+    → Feel-Explanation: OFTEN WRONG — rationalization heavy
 
 
   LITERACY IMPLICATION:
-    → L3 feelings encode long-term patterns
+    → Evaluative feelings encode long-term patterns
     → Don't dismiss as "just emotions"
-    → But also: don't react to L3 feelings as immediate truth
+    → But also: don't react to Evaluative feelings as immediate truth
     → Verify schema — is it still accurate?
-    → Therapy often addresses L3 schema updates
+    → Therapy often addresses evaluative schema updates
 
 
   Research:
@@ -539,7 +539,7 @@
       → Schema form around isolation
     "Thèm người" (active agent craving)
       → Drive to seek contact
-    "Trống rỗng" (deep agent deficit)
+    "Emptiness" (deep agent deficit)
       → Chronic lack calcified
     "Bị bỏ rơi" (expected agent missing)
       → Schema violation + L0 threat
@@ -576,10 +576,10 @@
 
 
   PFC ACCURACY:
-    → Layer 3: MEDIUM — often normalized as "life"
-    → Layer 4: VARIES — cultures vary in attention to loneliness
-    → Layer 6: HIGH for acute, LOW for chronic
-    → Layer 7: OFTEN WRONG — "I just need more work",
+    → Feel-Consciousification: MEDIUM — often normalized as "life"
+    → Feel-Observation: VARIES — cultures vary in attention to loneliness
+    → Feel-Labeling: HIGH for acute, LOW for chronic
+    → Feel-Explanation: OFTEN WRONG — "I just need more work",
              "I'm fine alone", etc.
 
 
@@ -679,11 +679,11 @@
 
 
   PFC ACCURACY:
-    → Layer 3: HIGH — body simulation active
-    → Layer 4: OFTEN MISS — often "background" automatic
-    → Layer 5: HARD — "whole body" or "chest"
-    → Layer 6: MEDIUM — might mislabel as own feeling
-    → Layer 7: OFTEN WRONG — "I'm anxious because..."
+    → Feel-Consciousification: HIGH — body simulation active
+    → Feel-Observation: OFTEN MISS — often "background" automatic
+    → Feel-Location: HARD — "whole body" or "chest"
+    → Feel-Labeling: MEDIUM — might mislabel as own feeling
+    → Feel-Explanation: OFTEN WRONG — "I'm anxious because..."
              (actually catching other's anxiety)
 
 
@@ -806,11 +806,11 @@
 
 
   PFC ACCURACY:
-    → Layer 3: HIGH — body reacts fully
-    → Layer 4: VARIES — often unnoticed until strong
-    → Layer 5: HARD — "whole body" typical
-    → Layer 6: HIGH if schema has common name
-    → Layer 7: OFTEN WRONG — attributes to current, not past
+    → Feel-Consciousification: HIGH — body reacts fully
+    → Feel-Observation: VARIES — often unnoticed until strong
+    → Feel-Location: HARD — "whole body" typical
+    → Feel-Labeling: HIGH if schema has common name
+    → Feel-Explanation: OFTEN WRONG — attributes to current, not past
 
 
   LITERACY IMPLICATION:
@@ -916,11 +916,11 @@
 
 
   PFC ACCURACY:
-    → Layer 3: HIGH when vivid simulation
-    → Layer 4: Depends on attention
-    → Layer 5: Often whole-body
-    → Layer 6: Usually labeled as "gut feeling", "intuition"
-    → Layer 7: Can be explained via simulation retrieval
+    → Feel-Consciousification: HIGH when vivid simulation
+    → Feel-Observation: Depends on attention
+    → Feel-Location: Often whole-body
+    → Feel-Labeling: Usually labeled as "gut feeling", "intuition"
+    → Feel-Explanation: Can be explained via simulation retrieval
 
 
   LITERACY IMPLICATION:
@@ -1007,7 +1007,7 @@
       + L0 safe
       + L1 calm regulation
       + L2 novelty still present
-      + L3 meaning schema active
+      + meaning schema active (evaluative)
       + Agent input fulfilled deep
       + Mirror + mutual
       + Imagine-final positive preview
@@ -1028,11 +1028,11 @@
 
 
   PFC ACCURACY:
-    → Layer 3: HIGH — strong signal
-    → Layer 4: HIGH if attending
-    → Layer 5: Whole-body typical
-    → Layer 6: Single word (compression lossy but strong)
-    → Layer 7: Hard to explain fully, justified attempts inadequate
+    → Feel-Consciousification: HIGH — strong signal
+    → Feel-Observation: HIGH if attending
+    → Feel-Location: Whole-body typical
+    → Feel-Labeling: Single word (compression lossy but strong)
+    → Feel-Explanation: Hard to explain fully, justified attempts inadequate
 
 
   LITERACY IMPLICATION:
@@ -1148,11 +1148,11 @@
 
 
   PFC ACCURACY:
-    → Layer 3: HIGH in domain of expertise
-    → Layer 4: HIGH when attending
-    → Layer 5: Often "head" or "chest" (abstract)
-    → Layer 6: VARIES (common labels: "right", "wrong", "off")
-    → Layer 7: Often hard to articulate the "why"
+    → Feel-Consciousification: HIGH in domain of expertise
+    → Feel-Observation: HIGH when attending
+    → Feel-Location: Often "head" or "chest" (abstract)
+    → Feel-Labeling: VARIES (common labels: "right", "wrong", "off")
+    → Feel-Explanation: Often hard to articulate the "why"
              → Hence: "I just feel it" common expert phrase
 
 
@@ -1192,7 +1192,7 @@
   ──────────────────────────
     Pure physiological reports, mostly L1.
     → "Đói", "khát", "mệt", "đau", "lạnh", "ngứa"
-    → Clearest PFC access at Layer 5-6
+    → Clearest PFC access at Feel-Location–Feel-Labeling
     → Literacy entry point
 
 
@@ -1300,7 +1300,7 @@
      → Surprises, learning, discovery with em
 
 
-  ── L3 MASTERY / MEANING / STATUS CHANNEL ──
+  ── MASTERY / MEANING / STATUS (evaluative) CHANNEL ──
      "Em làm cho đời tôi có ý nghĩa"
      → Meaning schema fires strongly
      → "We together" = identity component
@@ -1394,10 +1394,10 @@
   IMPLICATION:
     → Don't demand perfect verbal justification for deep feelings
     → "Vì em là em" is intellectually honest
-    → Trust the compiled valence over Layer 7 explanations
+    → Trust the compiled valence over Feel-Explanation explanations
     → BUT: also verify the channels over time
-      (does L3 still fire? Still agent input? Still mirror?)
-    → Lost channels = weakening compile, even if Layer 6 word "yêu" persists
+      (does evaluative still fire? Still agent input? Still mirror?)
+    → Lost channels = weakening compile, even if Feel-Labeling word "yêu" persists
 
 
   CONTRAST CASE: "Ghét" decomposed
@@ -1430,13 +1430,13 @@
   "Sợ ma" = L0 + schema (cultural) + imagine-final preview
            = 3 channels
 
-  "Ganh tỵ bạn" = L3 status + compiled valence + schema
+  "Ganh tỵ bạn" = status (evaluative) + compiled valence + schema
                 = 3 channels compressed
 
-  "Thương bản thân" = mirror (reflexive) + meta-feeling + L3
+  "Thương bản thân" = mirror (reflexive) + meta-feeling + evaluative
                     = 3 channels
 
-  "Tự hào về con" = L3 meaning + mirror + agent input + schema
+  "Tự hào về con" = meaning (evaluative) + mirror + agent input + schema
                   = 4 channels
 
 
@@ -1456,7 +1456,7 @@
 
   🟢 HIGH CONFIDENCE:
      ✓ Body has multiple channels for feedback (Craig, Damasio)
-     ✓ L0-L3 body-base levels exist (framework synthesis, solid components)
+     ✓ body-base levels (L0+L1 substrate + evaluative) exist (framework synthesis, solid components)
      ✓ Interoception pathways (well-mapped)
      ✓ Mirror system fires when observing others (Gallese, Rizzolatti)
      ✓ Schema triggers body response (Damasio, reconsolidation research)
@@ -1472,7 +1472,7 @@
      ⚠ 7-category phenomenal regrouping (heuristic)
      ⚠ "Yêu em = 9+ channels" specific count (illustrative)
      ⚠ Channel weights/proportions (not measured)
-     ⚠ Agent input as distinct from L0-L3 (framework insight)
+     ⚠ Agent input as distinct from body-base levels (framework insight)
 
 
   🔴 LOW CONFIDENCE / HYPOTHESIS:
@@ -1514,7 +1514,7 @@
 
   Feeling.md §1            — Definition + disclaimer
   Feeling.md §2            — 7-layer structure
-  Feeling.md §4            — L0-L3 levels brief overview
+  Feeling.md §4            — body-base levels brief overview
   Feeling-Accuracy.md §1-3 — PFC reading accuracy + error modes
   Feeling-Accuracy.md §4   — Pain as special case (see §2 L1 here)
   Feeling-Research.md §2-9 — Research streams detail
@@ -1522,7 +1522,7 @@
 
 📚 FRAMEWORK DEPENDENCIES:
 
-  Core-v7.5-Draft.md §2        — Body-Base L0-L3 foundation
+  Core-v7.5-Draft.md §2        — Body-Base L0+L1 substrate foundation
   Body-Dissonance.md           — 14+ specific signals
   Domain/Valence.md            — Compiled feelings detail (§9 here references)
   Domain/Domain-Mechanisms.md  — Mirror mechanism (§6 here references §1)
@@ -1548,7 +1548,7 @@
     Panksepp SEEKING system
     Schultz reward prediction error
 
-  L3 Mastery/Meaning:
+  Mastery/Meaning (evaluative):
     Ventral striatum
     Social comparison research
 

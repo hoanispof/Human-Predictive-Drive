@@ -13,6 +13,29 @@ scope: Commitment file — delivers verdicts, does not drill new analyses
 
 # 10 — F1-Synthesis
 
+```
+Drill Label → Framework Name Mapping (added 2026-05-30)
+
+  Labels trong file này = drill provenance markers.
+  Framework active files dùng TÊN CỐ ĐỊNH bên dưới.
+  Bảng đầy đủ: xem 99-Master-Synthesis.md §2.6.
+
+  ┌────────┬────────────────────────────────────┐
+  │ Drill  │ Framework Name (cố định)           │
+  ├────────┼────────────────────────────────────┤
+  │ H1     │ Chunk-Substrate                    │
+  │ H11    │ Receptive-Productive-Asymmetry     │
+  ├────────┼────────────────────────────────────┤
+  │ NT1    │ Compile-Gradient                   │
+  │ NT2    │ Compile-Rate-Formula               │
+  │ NT3    │ Emergent-Binding                   │
+  │ NT4    │ PFC-From-Prenatal                  │
+  │ NT5    │ Receptive-Productive-Gap (= H11)   │
+  │ NT6    │ Label-As-Handle                    │
+  │ NT7    │ Direction-At-Compile               │
+  └────────┴────────────────────────────────────┘
+```
+
 ## §0 — Abstract
 
 File này là **commitment file** cho F1 Child-Chunk-Development. Không drill phân tích mới. Tổng hợp và formalize:
@@ -28,7 +51,7 @@ File này là **commitment file** cho F1 Child-Chunk-Development. Không drill p
 
 **F1 drill status at start of 10**: 11/12 files drilled (10264 lines cumulative before 10). Verdicts committed:
 - ⭐ Nút Thắt 1 (gradient view) — [04 §6.4](04-Auditory-System-Arc.md#§6.4)
-- ⭐ Nút Thắt 2 (P2 compile mechanism) — [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) + [06b §6.2](06b-Interoceptive-Other-States.md#§6.2) 5-for-5 validation
+- ⭐ Nút Thắt 2 (Precondition-2 compile mechanism) — [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) + [06b §6.2](06b-Interoceptive-Other-States.md#§6.2) 5-for-5 validation
 - ⭐ Nút Thắt 3 (multi-mechanism binding) — [07 §6](07-Social-Recognition-Arc.md#§6)
 - ⭐ Nút Thắt 4 (PFC hardware × chunks) — [01](01-PFC-Hardware-Reframe.md) + reinforced by 10-marker catalog
 - ⭐ Nút Thắt 5 (H11 Receptive-Productive) — [08 §6](08-Verbal-Production-Arc.md#§6)
@@ -70,13 +93,13 @@ File này là **commitment file** cho F1 Child-Chunk-Development. Không drill p
 
 **Framework update**: R-F1-10 proposes adding gradient architecture note to [Body-Base/Schema/Chunk.md](../../Body-Base/Schema/Chunk.md) §2.
 
-### §1.2 — Nút Thắt 2: P2 Chunks Base Adequacy compile mechanism
+### §1.2 — Nút Thắt 2: Precondition-2 Chunk-Substrate compile mechanism
 
-**Question** (plan §0.6): How do chunks reach "adequate" base for H10 P2 precondition? What is the compile mechanism?
+**Question** (plan §0.6): How do chunks reach "adequate" base for Body-Feedback-Precondition Precondition-2? What is the compile mechanism?
 
 **Primary home**: [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) + [06b §6.2](06b-Interoceptive-Other-States.md#§6.2) 5-for-5 cross-state validation (drilled N+4c1).
 
-🟡🟢 **Final verdict**: **P2 adequacy is reached via 4-channel compile × 4-parameter rate formula.**
+🟡🟢 **Final verdict**: **Precondition-2 adequacy is reached via 4-channel compile × 4-parameter rate formula.**
 
 **4-channel compile** (per plan §0.7, applied to interoceptive via bladder case):
 1. **Repetition** — LTP-based strengthening via event cycling
@@ -105,12 +128,12 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 **Confidence**: 🟡🟢 strong mechanism-level claim with direct bladder case grounding + cross-state validation.
 
 **Implications**:
-- **H10 P2 precondition resolved** — F1 delivers the mechanism content that N+3 Body-Feedback-Draft flagged as pending
+- **Body-Feedback-Precondition Precondition-2 resolved** — F1 delivers the mechanism content that N+3 Body-Feedback-Draft flagged as pending
 - **Cross-state rate differences explained** — not arbitrary developmental timing but formula-predicted outcomes
 - **Thermal truncation explained** — weak modulators → insufficient compile → L4 not reached (with mortally consequential SIDS edge case)
 - **Individual variation explained** — children with different environments show different parameter values → different rate outcomes
 
-**Framework update**: R-F1-4 updates [Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5 P2 section with mechanism content.
+**Framework update**: R-F1-4 updates [Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5 Precondition-2 section with mechanism content.
 
 ### §1.3 — Nút Thắt 3: Multi-modal binding at newborn
 
@@ -306,7 +329,7 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 >
 > **Beyond chunk association, chronic threat cortisol also produces structural neural wear** on the developing PFC (Stage 2 accumulated wear per Arnsten 2009, McEwen 2007, Vyas 2002). This wear is **additional to** chunk-association damage and **multiplicative with it** — the PFC that would later update the damaged chunks is itself compromised. This is the structural mechanism behind ACE (Adverse Childhood Experiences, Felitti 1998) dose-response findings.
 >
-> **Multi-state convergent evidence supports H10 P5 with these refinements**, with confidence distributed across states: strongest for emotional attachment (🟢 Bowlby/Ainsworth/Sroufe/van der Kolk), progressively more indirect for bladder (🟡 Brazelton/Bakker), hunger (🟡 Birch/Bird-Cook), pain (🟢 Anand-Craig, 🟡 Taddio), and thermal (🟢 Mitchell edge case with distinct mechanism).
+> **Multi-state convergent evidence supports Body-Feedback-Precondition Precondition-5 with these refinements**, with confidence distributed across states: strongest for emotional attachment (🟢 Bowlby/Ainsworth/Sroufe/van der Kolk), progressively more indirect for bladder (🟡 Brazelton/Bakker), hunger (🟡 Birch/Bird-Cook), pain (🟢 Anand-Craig, 🟡 Taddio), and thermal (🟢 Mitchell edge case with distinct mechanism).
 
 #### §1.7.2 — 5 state-specific profiles (refined table)
 
@@ -326,9 +349,9 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 
 **Observation 3 — Neural wear compounds multiplicatively with chunk-association damage**: ACE dose-response (Felitti 1998) is not a single-state additive effect. It is the multiplicative compounding of (state-specific chunk association damage) × (cumulative PFC wear) × (compromised emotional regulation infrastructure) × (future update capacity degraded). A framework that only counts "cortisol tagging" undercounts the damage substantially.
 
-#### §1.7.4 — H10 P5 Prediction #8 validation (refined)
+#### §1.7.4 — Body-Feedback-Precondition Precondition-5 Prediction #8 validation (refined)
 
-[Body-Feedback-Draft H10 Prediction #8]: "Childhood threat-learned content elicits adult discomfort when accessed, even without threat context present."
+[Body-Feedback-Draft Body-Feedback-Precondition Prediction #8]: "Childhood threat-learned content elicits adult discomfort when accessed, even without threat context present."
 
 **Validation is cleaner under the refined framework**:
 - **It is specifically Level 3/4 (threat-path) compile context that produces the adult pattern**, not all cortisol exposure. Brazelton's child-led training (Level 1) occasionally involves mild cortisol but does not produce the adult anxiety pattern — because Level 1 cortisol is novelty cortisol, not threat cortisol. If cortisol alone were the mechanism, Level 1 training should also produce tagging. It doesn't, which **falsifies the cortisol-alone model and validates the refined body-state-direction model**.
@@ -348,20 +371,20 @@ Formula correctly predicts ordinal ranking of every body state's L4 onset timing
 
 #### §1.7.6 — Implications
 
-- **H10 P5 precondition substantiated + refined** with developmental evidence. The refinement (body state direction, not cortisol level) is a framework-level upgrade that will propagate to Body-Feedback-Draft and 99-Master-Synthesis.
+- **Body-Feedback-Precondition Precondition-5 precondition substantiated + refined** with developmental evidence. The refinement (body state direction, not cortisol level) is a framework-level upgrade that will propagate to Body-Feedback-Draft and 99-Master-Synthesis.
 - **Parenting implications** — R-F1-7 (expanded scope, §5.7) covers 5 body states + 4-threshold gradient + imposed-parent origin + neural wear dimension, replacing the binary "supportive/punitive" framing.
 - **Clinical implications** for trauma-informed care — the 2-layer damage model (Level 3 pain: interoception intact + expression suppressed) is a specific clinical hypothesis worth testing with alexithymia research.
 - **Intervention timing** — state-specific critical periods suggest earlier intervention is more effective, AND the 3 update paths (re-associate / novelty hijack / therapy) give recovery hope even for already-compiled damage.
 - **"Cortisol is not the enemy"** principle — a crucial public-health message. The cultural narrative "lower cortisol = good" is wrong because it removes both novelty-cortisol growth substrate AND genuine learning challenge. Goal is to shift direction (novelty-path) rather than eliminate cortisol.
 
-**Framework update**: R-F1-7 (§5.7, expanded) updates [Body-Parenting-Optimization.md](../../Body-Base/Body-Parenting-Optimization.md) with the refined framework. R-F1-4 cross-links to [Body-Feedback-Draft](../Body-Feedback-Draft/01-Foundation.md) P5 section with body-state-direction refinement.
+**Framework update**: R-F1-7 (§5.7, expanded) updates [Body-Parenting-Optimization.md](../../Body-Base/Body-Parenting-Optimization.md) with the refined framework. R-F1-4 cross-links to [Body-Feedback-Draft](../Body-Feedback-Draft/01-Foundation.md) Precondition-5 section with body-state-direction refinement.
 
 ### §1.8 — Summary table of 7 verdicts
 
 | # | Nút Thắt | Verdict | Confidence | Primary home |
 |---|---|---|---|---|
 | 1 | Proto-chunk gradient | Gradient (strength-weighted associative networks) | 🟢 | [04 §6.4](04-Auditory-System-Arc.md#§6.4) |
-| 2 | P2 Chunks Base Adequacy | 4-channel compile × 5-parameter rate formula | 🟡🟢 | [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) + [06b §6.2](06b-Interoceptive-Other-States.md#§6.2) |
+| 2 | Precondition-2 Chunk-Substrate | 4-channel compile × 5-parameter rate formula | 🟡🟢 | [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) + [06b §6.2](06b-Interoceptive-Other-States.md#§6.2) |
 | 3 | Multi-modal binding | Emergent from 4 concurrent mechanisms (no single binder) | 🟡 (🟢 negative claim) | [07 §6](07-Social-Recognition-Arc.md#§6) |
 | 4 | PFC hardware × chunks | Reframe: PFC online, chunks-missing | 🟢 | [01](01-PFC-Hardware-Reframe.md) + 10-marker catalog |
 | 5 | Receptive-Productive H11 | Asymmetric chunks accumulation (~1:3 ratio) | 🟡 | [08 §6](08-Verbal-Production-Arc.md#§6) |
@@ -398,7 +421,7 @@ F1 is one of four drilled sub-folders. Cross-folder evidence for H1:
 
 - **N+1 Learning-Cycle** ([../Learning-Cycle/](../Learning-Cycle/)): Learning is error-driven chunk modification/creation. Chunks are the unit of learning.
 - **N+2 Agent** ([../Agent/](../Agent/)): Resonance + Self-Pattern-Modeling frameworks both operate on chunks. Chunks support agency, identity, social cognition.
-- **N+3 Body-Feedback** ([../Body-Feedback-Draft/](../Body-Feedback-Draft/)): P1-P5 preconditions all reference chunks state. H10 requires chunks substrate. F1 (P2 + P5) drills substrate mechanisms directly.
+- **N+3 Body-Feedback** ([../Body-Feedback-Draft/](../Body-Feedback-Draft/)): Precondition-1–Precondition-5 all reference chunks state. Body-Feedback-Precondition requires chunks substrate. F1 (Precondition-2 + Precondition-5) drills substrate mechanisms directly.
 
 ### §2.3 — H1 architectural position
 
@@ -409,11 +432,11 @@ Domain layer (cross-situational generalization, context binding)
        ↑
 Schema layer (composition, invariants, structural patterns)
        ↑
-Feeling layer 3-7 (PFC observation of body + chunk firing + labeled awareness)
+Feeling layer (Feel-Consciousification–Feel-Explanation: PFC observation of body + chunk firing + labeled awareness)
        ↑
 Chunks substrate layer (strength-weighted associative networks)
        ↑
-Body-input signals + Body output actions (Layer 1-2 raw signals)
+Body-input signals + Body output actions (Feel-RawSignals–Feel-Integration raw signals)
        ↑
 Hardware (neural substrate)
 ```
@@ -587,16 +610,16 @@ The PFC-Inference Ladder is proposed as a framework tool for:
 - Mechanism statement per [07 §6.2](07-Social-Recognition-Arc.md#§6.2)
 - E12 social smile as keystone exemplar
 - 4 converging mechanism lines each with independent support
-- Link to Nút Thắt 1 gradient verdict + Nút Thắt 2 P2 mechanism (compile rate modulators)
+- Link to Nút Thắt 1 gradient verdict + Nút Thắt 2 Precondition-2 mechanism (compile rate modulators)
 - Link to Nút Thắt 6 hybrid verdict (labels are not 5th modality but distinct layer)
 
 **Status**: Fully formalized in [07 §6](07-Social-Recognition-Arc.md#§6). Ready for Chunk.md update.
 
-### §5.4 — R-F1-4: Body-Feedback-Draft P2 mechanism content
+### §5.4 — R-F1-4: Body-Feedback-Draft Precondition-2 mechanism content
 
 **Target**: [Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5
 
-**Action**: Update P2 section with F1 substrate evidence:
+**Action**: Update Precondition-2 section with F1 substrate evidence:
 - 4-channel compile mechanism (repetition + emotional + multi-modal + sleep)
 - 5-parameter rate formula (exposure × saliency × contingency × peak valence × multi-modal richness)
 - Bladder case as keystone empirical grounding
@@ -771,7 +794,7 @@ All 10 recommendations are traceable to specific F1 drill sections with 🟢🟡
 
 ### §6.4 — Future Feeling L3 receives
 
-1. **Developmental mechanism for 7-layer feeling model** — chunks enable Layer 3-7 (above Layer 1-2 raw body signals).
+1. **Developmental mechanism for 7-layer feeling model** — chunks enable Feel-Consciousification–Feel-Explanation (above Feel-RawSignals–Feel-Integration raw body signals).
 
 2. **⭐ Body state at compile determines feeling accessibility** (refined from earlier "cortisol tagging critical period" framing per N+4c2-REV1). The adult's capacity to feel, identify, and express feelings from each body-input domain is shaped by the body state (novelty vs threat direction + threshold level + mechanism mix + origin + window) during the developmental compile. This model explains:
    - **Alexithymia** as a compile-context artifact (Level 2-3 emotional compile = weak mirror-labeling substrate → adult cannot identify own feelings clearly)
@@ -779,7 +802,7 @@ All 10 recommendations are traceable to specific F1 drill sections with 🟢🟡
    - **Cross-cultural variation in feeling expression** as a compile-context + handle-granularity artifact
    - **Clinical variance in emotional regulation** (secure attachment Type B produces strongest regulation substrate per 06b §5.8.1)
 
-3. **⭐ Neural wear dimension applies to feeling capacity too** — the PFC that would observe feelings (Layer 3-7 functional substrate) is the same PFC that is damaged by chronic threat cortisol during developmental compile. An adult with compromised PFC from childhood Level 3/4 exposure has simultaneously (a) feeling chunks tagged with aversion and (b) reduced PFC capacity to observe those chunks cleanly. This compounds the adult difficulty of feeling work and explains why trauma-informed therapy often requires both body-level and cognitive-level intervention — both the chunks and the PFC regulatory circuits need repair.
+3. **⭐ Neural wear dimension applies to feeling capacity too** — the PFC that would observe feelings (Feel-Consciousification–Feel-Explanation functional substrate) is the same PFC that is damaged by chronic threat cortisol during developmental compile. An adult with compromised PFC from childhood Level 3/4 exposure has simultaneously (a) feeling chunks tagged with aversion and (b) reduced PFC capacity to observe those chunks cleanly. This compounds the adult difficulty of feeling work and explains why trauma-informed therapy often requires both body-level and cognitive-level intervention — both the chunks and the PFC regulatory circuits need repair.
 
 4. **PFC observation layer developmental emergence** — PFC reframe applies to feeling observation capability from birth (content missing, not hardware missing). Feeling capability is not "maturing" — it is the chunks that observe-body-state compiling, and the PFC substrate is online from prenatal (per 01).
 
@@ -803,9 +826,9 @@ All 10 recommendations are traceable to specific F1 drill sections with 🟢🟡
 
 Cross-linking updates (not new content for F1):
 
-1. **P2 mechanism content** (R-F1-4) — 4-channel compile × 5-parameter formula anchored in bladder case
-2. **P5 critical period content** (R-F1-7 cross-link) — 5 state-specific cortisol tagging profiles
-3. **H10 P2 + P5 predictions** — both preconditions have developmental evidence bases in F1
+1. **Precondition-2 mechanism content** (R-F1-4) — 4-channel compile × 5-parameter formula anchored in bladder case
+2. **Precondition-5 critical period content** (R-F1-7 cross-link) — 5 state-specific cortisol tagging profiles
+3. **Body-Feedback-Precondition Precondition-2 + Precondition-5 predictions** — both preconditions have developmental evidence bases in F1
 
 ### §6.6 — Agent sub-folder (already drilled N+2) receives
 
@@ -872,7 +895,7 @@ Cross-linking updates (R-F1-8):
 3. [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) §6 — Nút Thắt 3 multi-mechanism binding (prerequisite for word-referent compile)
 4. [Chunk-External-Development/plan.md](../Chunk-External-Development/plan.md) — F3 stub + Language sub-folder plan
 5. [Chunk-External-Development/Language/plan.md](../Chunk-External-Development/Language/plan.md) — migrated from old Grammar-Scaffolding folder
-6. [Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5 P2 + P5 preconditions (cross-link with R-F1-4)
+6. [Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5 Precondition-2 + Precondition-5 (cross-link with R-F1-4)
 7. [Chunk-Analysis/plan.md](../plan.md) — parent plan F3 section
 
 ### §8.2 — F3 depends on F1 outputs
@@ -942,7 +965,7 @@ F3 Language drill will build on these as starting substrate.
 
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) — H8 (learning mechanism)
 - [../Agent/](../Agent/) — H9 Resonance + Self-Pattern-Modeling (R-F1-8 cross-links)
-- [../Body-Feedback-Draft/](../Body-Feedback-Draft/) — H10 (R-F1-4 P2 mechanism cross-link)
+- [../Body-Feedback-Draft/](../Body-Feedback-Draft/) — Body-Feedback-Precondition (R-F1-4 Precondition-2 mechanism cross-link)
 
 ### §9.4 — Downstream sub-folders (receivers)
 
@@ -978,7 +1001,7 @@ F3 Language drill will build on these as starting substrate.
 
 **Confidence distribution across 7 verdicts**: 
 - 🟢: NT1 gradient, NT4 PFC reframe (2 at strong)
-- 🟡🟢: NT2 P2 compile, NT7 cortisol (2 at strong-moderate)
+- 🟡🟢: NT2 Precondition-2 compile, NT7 cortisol (2 at strong-moderate)
 - 🟡: NT3 multi-mechanism, NT5 H11, NT6 verbal-handle (3 at moderate)
 
 No 🔴 verdicts — all Nút Thắt reached committable confidence in F1 drill.

@@ -4,7 +4,7 @@ version: 2.0
 created: 2026-05-16
 updated: 2026-05-23
 refined: |
-  2026-05-23 (v1.1 — Concept Cascade: +refs to ALL formal files from 28-session Drill. Updated versions. +Simulation-Engine, +Entity-Access, +Hardware Subsidy)
+  2026-05-23 (v1.1 — Concept Cascade: +refs to ALL formal files from 28-session Drill. Updated versions. +Simulation-Engine, +Entity-Access, +Hardware-Subsidy)
   2026-05-23 (v2.0 — Architecture Rename: Architecture A → Hardwired Architecture, Architecture B → Compilable Architecture. Descriptive names throughout)
 status: MECHANISM FILE v2.0
 scope: |
@@ -40,15 +40,15 @@ dependencies:
   - Autonomy-Hardware.md — efference copy, vmPFC/DRN, controllability
   - Self-Pattern-Modeling.md v3.1 — solo simulation, 1 mech × 3 dims
   - By-Product-Gap-Resonance.md v1.4 — mutual match, 5 drills, sustainability bridge
-  - Connection.md v5.0 — 4-Layer Sustainability, M1-M4, hardware subsidy
+  - Connection.md v5.0 — 4-Layer Sustainability, Resonance Decline, hardware-subsidy
   - Agent-Mechanism.md v2.1 — integration hub, 10 dimensions, Compiled/Fresh
-  - Valence-Propagation.md v3.0 — structural/current valence, 3 firing modes, hardware subsidy
-  - Body-Coupling.md v3.0 — coupling, 4 bond types, hardware subsidy, M1-M4
+  - Valence-Propagation.md v3.0 — structural/current valence, 3 firing modes, hardware-subsidy
+  - Body-Coupling.md v3.0 — coupling, 4 bond types, hardware-subsidy, Resonance Decline
   - Entity-Compiled.md v1.0 — neural reality, formation 40→200h, Dunbar
   - Entity-Access.md v1.2 — gradient Mức 0-5, per-entity access
   - Entity-Access-Excess.md v1.0 — excess territory, addiction
-  - Entity-Access-Calibration.md v1.0 — self-regulation, hardware subsidy
-  - Bond-Architecture.md v1.0 — 1 mechanism × 4 bond types, M1-M4
+  - Entity-Access-Calibration.md v1.0 — self-regulation, hardware-subsidy
+  - Bond-Architecture.md v2.0 — 1 mechanism × 4 bond types, Resonance Decline
   - Resonance-Sustainability.md v1.0 — 4-layer, 3 conditions, 3 modalities
   - Resonance-Per-Entity.md v1.0 — per-relationship dynamics
   - By-Product-Scale.md v1.0 — 1 mechanism × 3 scales
@@ -1382,15 +1382,15 @@ FAR FUTURE (speculative):
 MECHANISM FILES (inter-body trực tiếp):
   Body-Feedback-Mechanism.md v2.0 — §1 Body-Need, §2 2-source, §3 dynamics
   Gap-Direction.md v2.0           — direction riêng, by-product match
-  Autonomy-Hardware.md v1.2       — efference copy, vmPFC/DRN, hardware subsidy
+  Autonomy-Hardware.md v1.2       — efference copy, vmPFC/DRN, hardware-subsidy
   Self-Pattern-Modeling.md v3.1   — solo simulation, 1 mech × 3 dims
   By-Product-Gap-Resonance.md v1.4 — mutual match, 5 drills, sustainability
-  Connection.md v5.0              — 4-Layer Sustainability, M1-M4, hardware subsidy
+  Connection.md v5.0              — 4-Layer Sustainability, Resonance Decline, hardware-subsidy
   Agent-Mechanism.md v2.1         — integration hub, 10 dimensions
 
 MECHANISM FILES (supporting):
   Valence-Propagation.md v3.0     — structural/current valence, 3 firing modes
-  Body-Coupling.md v3.0           — coupling, 4 bond types, hardware subsidy, M1-M4
+  Body-Coupling.md v3.0           — coupling, 4 bond types, hardware-subsidy, Resonance Decline
   PFC-Function.md v1.2            — 24 functions, PFC limitations
   Simulation-Engine.md v1.0       — 1 engine, 3 components, N applications
   Cortisol-Baseline.md v2.0       — amplifier, holding signal, inertia
@@ -1401,8 +1401,8 @@ FORMAL FILES CREATED FROM THIS DRILL (28-session Propagation):
   Entity-Compiled.md v1.0         — §8 Entity-Compiled → neural reality, Dunbar
   Entity-Access.md v1.2           — trust → gradient Mức 0-5
   Entity-Access-Excess.md v1.0    — excess territory, addiction
-  Entity-Access-Calibration.md v1.0 — self-regulation, hardware subsidy
-  Bond-Architecture.md v1.0       — §8 subtypes → 1 mechanism × 4 bond types
+  Entity-Access-Calibration.md v1.0 — self-regulation, hardware-subsidy
+  Bond-Architecture.md v2.0       — §8 subtypes → 1 mechanism × 4 bond types
   Resonance-Sustainability.md v1.0 — sustainability → 4-layer, 3 conditions
   Resonance-Per-Entity.md v1.0    — per-relationship dynamics, lifecycle
   By-Product-Scale.md v1.0        — scale → 1 mechanism × 3 scales

@@ -973,9 +973,9 @@ Nếu "trade hub = innovation" ĐÚNG tuyệt đối, phải giải thích:
   → Location irrelevant, body KHÔNG irrelevant
 
   Observation:
-    Vùng nóng + AC + AI: execute work OK, nhưng deep imagine VẪN KHÓ
+    Vùng nóng + air conditioning + AI: execute work OK, nhưng deep imagine VẪN KHÓ
     → Vì body state ảnh hưởng PFC KHÔNG PHỤ THUỘC vào tool nào đang dùng
-    → Climate-Cognition.md §4.5-4.6: AC giải quyết tầng 1, không đủ tầng 2-3
+    → Climate-Cognition.md §4.5-4.6: air conditioning giải quyết tầng 1, không đủ tầng 2-3
     → Body = nền tảng, AI = công cụ. Nền xấu → công cụ giỏi vẫn output kém.
 ```
 

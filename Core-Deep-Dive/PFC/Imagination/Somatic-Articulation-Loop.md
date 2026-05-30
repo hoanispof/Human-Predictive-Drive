@@ -2689,7 +2689,7 @@ CORE + BODY
 → PFC/Feeling/Feeling.md v2.0 §6 — REWARD (dopamine ≠ reward)
    Opioid reward on body-need match (Stage 5 body-confirm)
    Opioid release on felt shift (Stage 7)
-   5 preconditions for full reward (H10)
+   5 preconditions for full reward (Body-Feedback-Precondition)
 
 → Chunk-Analysis/Chunk.md v2.0 — CHUNK SYSTEM (14 sections)
    §2: Compile mechanisms (5 pathways + compile rate formula)
@@ -2699,7 +2699,7 @@ CORE + BODY
 
 → PFC/Feeling/Feeling.md v2.0 — FEELING SYSTEM (15 sections)
    §5: 8-step operational flow (parallels Somatic-Articulation-Loop 7-stage mechanism)
-   §7: Feeling gradient clear↔vague (H5, convergence zone = felt sense)
+   §7: Feeling gradient clear↔vague (Multi-Weak-Signal-Convergence, convergence zone = felt sense)
    §9: Feeling Loop + Chunk-Feeling Bridge (bidirectional)
    §10: Feeling Literacy + Training (5-stage framework)
 

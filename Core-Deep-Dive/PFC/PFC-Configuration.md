@@ -200,6 +200,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Task-processing: ON
 
   Khi nào: ~60-70% thời gian thức, safe context, không threat/flow/trauma.
+  (⚠️ % = calibration anchor, không đo lường chính xác)
   = "Default operating system." Mọi function ĐỀU sẵn sàng nhưng
     KHÔNG ĐỀU tối ưu (jack of all trades).
 
@@ -723,9 +724,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Nearly ZERO functions active
     → ⑭ Modify Chunks = ⭐ENHANCED — UNIQUE access
     → ⑪ Domain-Check OFF → no quality control → risk
-    → = BOTH opportunity (modify) AND risk (no QC)
-    → = WHY therapist/guide REQUIRED: provides EXTERNAL QC
-      when INTERNAL QC (⑪⑬⑱) all offline
+    → = BOTH opportunity (modify) AND risk (no quality control)
+    → = WHY therapist/guide REQUIRED: provides EXTERNAL quality control
+      when INTERNAL quality control (⑪⑬⑱) all offline
 
   ⑤ ⑫ Label + ⑥ Quick Search = MOST RESILIENT:
     → Survive in 4-5/6 configs (lost only in ④ disconnect + ⑥ disintegrate)
@@ -1093,7 +1094,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │   (set & setting)    │ = APPROACH → positive │ tag → re-traumatize  │
   ├──────────────────────┼───────────────────────┼──────────────────────┤
   │ ③ Guided recompil.   │ Therapist provides    │ No guide: chaotic    │
-  │                      │ external QC (replaces │ reorganization →     │
+  │                      │ external quality control (replaces │ reorganization →     │
   │                      │ ⑪ Domain-Check, off   │ unstable config      │
   │                      │ in config ⑥)          │                      │
   ├──────────────────────┼───────────────────────┼──────────────────────┤
@@ -1101,7 +1102,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │   consolidation      │ → new config stable   │ patterns don't hold  │
   └──────────────────────┴───────────────────────┴──────────────────────┘
 
-  GOLDILOCKS PRINCIPLE (H10 P4):
+  GOLDILOCKS PRINCIPLE (Body-Feedback-Precondition Precondition-4 Match-Range):
     Too little destabilization → no structural change
     Too much → overwhelming → body defense
     Just right → structural change → lasting improvement
@@ -1269,7 +1270,7 @@ DRIVE INTEGRATION:
 REWARD:
   Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State × config interaction
     → §3 control spectrum × reward types
-  03-Reward.md — H10 preconditions, 7-step VTA
+  03-Reward.md — Body-Feedback-Precondition preconditions, 7-step VTA
     → Config affects WHICH preconditions can be met
 
 BODY SYSTEMS:
@@ -1291,7 +1292,7 @@ THREAT:
     → §7 Strategy A (config ④) vs Strategy B (config ⑤)
 
 COMPILATION:
-  Compile-Taxonomy.md v1.0 — 3 compile types
+  Compile-Taxonomy.md v2.0 — 3 compile types
     → Trauma compilation = config ⑤ foundation (§7 age variable)
   Chunk.md v2.0 — Chunk substrate PFC operates on
     → Reconsolidation = chunk modification (⑭) mechanism

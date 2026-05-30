@@ -52,6 +52,23 @@ language: Tiếng Việt primary + English technical
 
 ---
 
+## NT Label Mapping (added 2026-05-30)
+
+```
+  NT labels trong file này là DRILL PROVENANCE MARKERS.
+  Framework files dùng DESCRIPTIVE NAMES thay thế:
+
+  NT1 → Compile-Gradient          (Chunk.md §1.1 + §2)
+  NT2 → Compile-Rate-Formula      (Chunk.md §2.1 + §2.2)
+  NT3 → Emergent-Binding          (Chunk.md §1.2)
+  NT4 → PFC-From-Prenatal         (Chunk.md §8.2)
+  NT5 → Receptive-Productive-Gap  (Chunk.md §11.3, = H11)
+  NT6 → Label-As-Handle           (Chunk.md §6)
+  NT7 → Direction-At-Compile      (Chunk.md §2.4)
+```
+
+---
+
 ## §0 — Abstract: Chunk System in One Page
 
 ```
@@ -85,7 +102,7 @@ CHUNK SYSTEM = 4-PHASE LIFECYCLE:
      Anchor-decay: 5 anchor types, retrieval vs substrate decay
      Insight + tacit + cognition upgrade: low-probability links, Gap 2, Piaget
      Vague detection: ACC conflict/coherence monitor
-     Selection pressure: 1A domain-real vs 1B self-referencing
+     Selection pressure: Domain-Checked domain-real vs Self-Referencing self-referencing
 
   ④ PLAN (Logic):
      Label = "vé vào cửa" → chunk enters logic-planning system
@@ -303,12 +320,12 @@ INTERNAL PROCESSING = what happens AFTER chunks compiled + labeled:
         Before label: chunk influence via body ONLY (Direction A)
         After label: chunk influence via body + logic (A + B)
         = "Vé vào cửa" cho planning system
-      → 1A vs 1B SELECTION PRESSURE:
-        1A: test chunks against DOMAIN REAL → accuracy convergence
-        1B: test chunks against EXISTING CHUNKS → coherence convergence
+      → Domain-Checked vs Self-Referencing SELECTION PRESSURE:
+        Domain-Checked: test chunks against DOMAIN REAL → accuracy convergence
+        Self-Referencing: test chunks against EXISTING CHUNKS → coherence convergence
         Same engine, different fitness function. "Mượt thật" vs "mượt giả"
       → DISSONANCE TOLERANCE = f(selection pressure history):
-        1A high (external anchors, independent). 1B low (circular validation).
+        Domain-Checked high (external anchors, independent). Self-Referencing low (circular validation).
       → POST-DISCOVERY CLEANUP → parsimony gain → melody smooth
       → AI = external crystallization catalyst (Somatic-Articulation-Loop + AI variant)
       → Logic = domain real property → substrate-independent
@@ -404,8 +421,8 @@ ALREADY-DRILLED SUB-FOLDERS (N+1 → N+3):
     → Framework for social cognition
 
   BODY-FEEDBACK-DRAFT/ (9,707L, 5 files):
-    → H10: Body-feedback model (P1-P5 preconditions)
-    → P2 + P5 substantiated by F1 drill
+    → Body-Feedback-Precondition: Body-feedback model (Precondition-1–Precondition-5)
+    → Precondition-2 + Precondition-5 substantiated by F1 drill
     → Multi-source feedback: interoceptive + proprioceptive + evaluative
     → Foundation for feeling mechanism
 
@@ -439,7 +456,7 @@ ALREADY-DRILLED SUB-FOLDERS (N+1 → N+3):
      → Macro: vague detection → curiosity → clarify → label → plan → repeat
      → Connection types enable complex relationships
      → Body vote evaluates every step
-     → Selection pressure determines accuracy (1A) vs coherence (1B)
+     → Selection pressure determines accuracy (Domain-Checked) vs coherence (Self-Referencing)
 
   ④ PLAN uses labeled chunks for DELIBERATE action:
      → Type 4 chains in WM → planning → execution
@@ -474,8 +491,9 @@ ALREADY-DRILLED SUB-FOLDERS (N+1 → N+3):
 │ NT1  │ Chunk compilation is GRADIENT, not discrete.     │ 🟢        │ F1 04 §6.4           │
 │      │ Proto-chunks = weak chunks. Strength-weighted.   │            │                      │
 ├──────┼──────────────────────────────────────────────────┼────────────┼──────────────────────┤
-│ NT2  │ P2 adequacy via 4-channel × 5-parameter rate     │ 🟡🟢      │ F1 06a §6 + 06b §6.2│
-│      │ formula. Cross-state 5-for-5 validation.         │            │                      │
+│ NT2  │ Precondition-2 adequacy via 4-channel ×           │ 🟡🟢      │ F1 06a §6 + 06b §6.2│
+│      │ 5-parameter rate formula. Cross-state            │            │                      │
+│      │ 5-for-5 validation.                              │            │                      │
 ├──────┼──────────────────────────────────────────────────┼────────────┼──────────────────────┤
 │ NT3  │ Multi-modal binding = emergent from 4 concurrent │ 🟡        │ F1 07 §6             │
 │      │ mechanisms. No single binder module.              │            │ 🟢 negative claim    │
@@ -562,8 +580,8 @@ ALREADY-DRILLED SUB-FOLDERS (N+1 → N+3):
 │      │ Empathy = chunks fire for others.                 │            │                      │
 │      │ Identity = chunk network about self.              │            │                      │
 ├──────┼──────────────────────────────────────────────────┼────────────┼──────────────────────┤
-│ H10  │ Body-feedback model (P1-P5 preconditions).       │ 🟡        │ Body-Feedback-Draft/ │
-│      │ P2 + P5 substantiated by F1 drill.               │            │                      │
+│ H10  │ Body-Feedback-Precondition (5 preconditions).     │ 🟡        │ Body-Feedback-Draft/ │
+│      │ Precondition-2 + Precondition-5 by F1 drill.    │            │                      │
 └──────┴──────────────────────────────────────────────────┴────────────┴──────────────────────┘
 ```
 
@@ -587,6 +605,53 @@ ALREADY-DRILLED SUB-FOLDERS (N+1 → N+3):
     → 2 at 🟢 = directly supported by extensive empirical evidence
     → 3 at 🟡🟢 = strong mechanism claims with multi-state/multi-line validation
     → Framework methodology: honest assessment prevents overclaiming
+```
+
+### §2.6 — Framework Name Mapping (Translation Key)
+
+```
+  ⭐ CHỐT 2026-05-30
+
+  Drill files giữ nguyên labels gốc (H1-H12, NT1-NT7).
+  Framework active files dùng TÊN CỐ ĐỊNH bên dưới.
+  Bảng này = translation key giữa drill ↔ framework.
+
+  ┌────────┬────────────────────────────────────┬──────────────────────────┐
+  │ Drill  │ Framework Name (cố định)           │ Rename Status            │
+  ├────────┼────────────────────────────────────┼──────────────────────────┤
+  │        │ ── H HYPOTHESES ──                 │                          │
+  ├────────┼────────────────────────────────────┼──────────────────────────┤
+  │ H1     │ Chunk-Substrate                    │ ✅ Plan D (executed)     │
+  │ H2     │ Static-Logical-Linking             │ ✅ Plan D (executed)     │
+  │ H3     │ Grammar-Versatile-Anchor           │ ✅ Plan D (executed)     │
+  │ H4     │ Abstract-Metaphysical-Grounding    │ ✅ Plan D (executed)     │
+  │ H5     │ Multi-Weak-Signal-Convergence      │ ✅ Plan D (executed)     │
+  │ H6     │ Anchor-Decay                       │ ✅ Plan D (executed)     │
+  │ H7     │ Valence-Chunk-Interaction          │ ✅ Plan D (executed)     │
+  │ H8     │ Learning-Dissonance-Cycle          │ ✅ Plan D (executed)     │
+  │ H9     │ Agent-Unified-Mechanism            │ ✅ Plan D (executed)     │
+  │ H10    │ Body-Signal-Precondition           │ ✅ Plan D (executed)     │
+  │ H11    │ Receptive-Productive-Asymmetry     │ ✅ Plan C (executed)     │
+  │ H12    │ Gap2-Language-Evolution             │ ✅ Plan D (executed)     │
+  │ H12p   │ Gap2-Language-Evolution (partial)  │ ✅ Plan D (executed)     │
+  │ H12f   │ Gap2-Language-Evolution (full)     │ ✅ Plan D (executed)     │
+  ├────────┼────────────────────────────────────┼──────────────────────────┤
+  │        │ ── NT NÚT THẮT ──                 │                          │
+  ├────────┼────────────────────────────────────┼──────────────────────────┤
+  │ NT1    │ Compile-Gradient                   │ ✅ Plan A (executed)     │
+  │ NT2    │ Compile-Rate-Formula               │ ✅ Plan A (executed)     │
+  │ NT3    │ Emergent-Binding                   │ ✅ Plan A (executed)     │
+  │ NT4    │ PFC-From-Prenatal                  │ ✅ Plan A (executed)     │
+  │ NT5    │ = H11 (Receptive-Productive-Asymmetry) │ ✅ Plan C (executed) │
+  │ NT6    │ Label-As-Handle                    │ ✅ Plan A (executed)     │
+  │ NT7    │ Direction-At-Compile               │ ✅ Plan A (executed)     │
+  └────────┴────────────────────────────────────┴──────────────────────────┘
+
+  NGUYÊN TẮC:
+    → Drill files: H1, NT1, R-F1-1,... = provenance labels (giữ nguyên)
+    → Framework files: dùng tên cố định (cột "Framework Name")
+    → Khi cần tra cứu: drill label → bảng này → tên framework
+    → Khi cần rà soát drill: tên framework → bảng này → drill label
 ```
 
 ---
@@ -623,7 +688,7 @@ ALREADY-DRILLED SUB-FOLDERS (N+1 → N+3):
 │                                 │ • 01c MACRO: 7-step discovery cycle        │
 │                                 │ • Convergence Zone concept                 │
 │                                 │ • Label = logic-planning prerequisite      │
-│                                 │ • 1A vs 1B selection pressure              │
+│                                 │ • Domain-Checked vs Self-Referencing selection pressure              │
 │                                 │ • 4-type connection taxonomy               │
 │                                 │ • 6-point feeling-intuition gradient       │
 │                                 │ • 5 anchor types + decay model             │
@@ -640,8 +705,8 @@ ALREADY-DRILLED SUB-FOLDERS (N+1 → N+3):
 │                                 │ • Resonance (empathy)              │
 │                                 │ • Object-Agency 2-axis model               │
 ├─────────────────────────────────┼────────────────────────────────────────────┤
-│ Body-Feedback-Draft/ (9,707L)  │ • H10 body-feedback model                  │
-│                                 │ • P1-P5 preconditions                      │
+│ Body-Feedback-Draft/ (9,707L)  │ • Body-Feedback-Precondition model         │
+│                                 │ • Precondition-1–Precondition-5            │
 │                                 │ • Multi-source feedback architecture       │
 ├─────────────────────────────────┼────────────────────────────────────────────┤
 │ Logic-Planning (610L)          │ • Logic đóng gói statement                 │
@@ -685,7 +750,7 @@ CHUNK LABELS:
   → Logic đóng gói: Logic-Planning.md
 
 CHUNK QUALITY:
-  → Selection pressure: 01c §4 (1A domain-real vs 1B self-referencing)
+  → Selection pressure: 01c §4 (Domain-Checked domain-real vs Self-Referencing self-referencing)
   → Body vote: F4 01 (smooth/resist/empty), Chunk.md §5
   → "Mượt thật vs mượt giả": 01c §4 → Chunk.md §5
   → Dissonance tolerance: 01c §5
@@ -697,7 +762,7 @@ CHUNK DEVELOPMENT:
   → Education: F3 (batch Direction B, 4 failure modes)
 
 CHUNK AND BODY:
-  → Body-feedback: Body-Feedback-Draft (H10, P1-P5)
+  → Body-feedback: Body-Feedback-Draft (Body-Feedback-Precondition, Precondition-1–Precondition-5)
   → Trauma = expertise: F4 01b §4.3
   → Learning cycle: Learning-Cycle (H8, 3 signals)
   → Neural wear: F1 NT7 (PFC damage, ACE)
@@ -745,7 +810,7 @@ FROM F4 (39 predictions, formal P-codes):
     P-01c-1: Real-checkers show higher dissonance tolerance
     P-01c-2: Labeling increases WM accessibility 🟢(partial)
     P-01c-3: External synthesis → faster label-finding
-    P-01c-4: 1B-pattern → stronger backfire effect
+    P-01c-4: Self-Referencing-pattern → stronger backfire effect
     P-01c-5: Unlabeled convergence zones decay over time
     P-01c-6: Post-discovery cleanup → better teaching
 
@@ -829,7 +894,7 @@ PREDICTION CATEGORIES:
 R-F1-1:  PFC-Analysis.md §4 timeline reframe (chunks-missing, not hardware)
 R-F1-2:  đơ mặt as developmental marker (99-Master + Body-Parenting)
 R-F1-3:  Multi-mechanism binding → Chunk.md §2 (4 concurrent mechanisms)
-R-F1-4:  Body-Feedback-Draft P2 mechanism content (4-channel × 5-parameter)
+R-F1-4:  Body-Feedback-Draft Precondition-2 mechanism content (4-channel × 5-parameter)
 R-F1-5:  Feel-Example cross-references (F1 events → Feel-Example entries)
 R-F1-6:  H11 + PFC Ladder + NT6 verbal-handle → 99-Master framework contributions
 R-F1-7:  Body-Parenting-Optimization critical period updates (expanded, 8 items)
@@ -879,7 +944,7 @@ PRIORITY: R-F3-2 > R-F3-3 > R-F3-6 > R-F3-1 > R-F3-4 > R-F3-5
 
   MEDIUM — Cross-references:
     R-F1-2  (đơ mặt marker)
-    R-F1-4  (Body-Feedback P2)
+    R-F1-4  (Body-Feedback Precondition-2)
     R-F1-5  (Feel-Example cross-refs)
     R-F1-8  (Agent/ cross-refs)
     R-F1-9  (Modality-Analysis verbal)
@@ -923,7 +988,7 @@ PRIORITY: R-F3-2 > R-F3-3 > R-F3-6 > R-F3-1 > R-F3-4 > R-F3-5
 
   GAP 4 — BODY-STATE-AT-COMPILE → ADULT FEELING:
     → F1 NT7: compile context shapes lifelong association
-    → Body-Feedback-Draft: H10 P1-P5 architecture
+    → Body-Feedback-Draft: Body-Feedback-Precondition (Precondition-1–Precondition-5) architecture
     → BUT: how compile context SPECIFICALLY affects adult feeling QUALITY
       → Feeling Deep scope (deeper than F1 → F4 → this Master)
 
@@ -977,7 +1042,7 @@ FEELING DEEP DIVE (N+12+, 2-3 sessions):
      → Feeling literacy as educational priority
 
   INPUT FROM CHUNK ANALYSIS:
-    → F1 §6.4 (output contracts for Feeling L3): 8 items
+    → F1 §6.4 (output contracts for Feeling Feel-Consciousification): 8 items
     → F3 §3.3 (output contracts for Feeling Deep): 4 items
     → F4 §5 (bridge to Feeling Deep): 5 items
     → Already-drilled: Body-Feedback-Draft, Feeling/ folder
@@ -1012,7 +1077,7 @@ CURRENT CHUNK.MD (2026-03-28 DRAFT, ~435L):
     → No 7-step discovery lifecycle (01c)
     → No convergence zone concept
     → No label → logic-planning prerequisite (01c §3)
-    → No 1A vs 1B selection pressure
+    → No Domain-Checked vs Self-Referencing selection pressure
     → No 5-parameter compile rate formula (NT2)
     → No PFC reframe (NT4 — chunks-missing)
     → No anchor-decay model (5 anchor types, H6)
@@ -1070,7 +1135,7 @@ CURRENT CHUNK.MD (2026-03-28 DRAFT, ~435L):
   §7 — Discovery Lifecycle (NEW — from 01c):
     → 7-step cycle (summary)
     → Convergence zone concept
-    → 1A vs 1B selection pressure
+    → Domain-Checked vs Self-Referencing selection pressure
 
   §8 — Two Operators (KEEP + update):
     → Vô thức + PFC (keep structure)
@@ -1085,7 +1150,7 @@ CURRENT CHUNK.MD (2026-03-28 DRAFT, ~435L):
     → "Mượt ≠ đúng" (keep)
     → ADD: feeling-intuition gradient (H5)
     → ADD: vague detection (ACC, 3 modes)
-    → ADD: 1A vs 1B at evaluation level
+    → ADD: Domain-Checked vs Self-Referencing at evaluation level
 
   §11 — Expert vs Beginner (KEEP + update):
     → Database size matters (keep)
@@ -1256,7 +1321,7 @@ F4 CHUNK-INTERNAL-PROCESSING (9 files):
 ALREADY-DRILLED:
   Learning-Cycle/Learning-Cycle.md  — H8
   Agent/ (4 files)                  — H9, identity, empathy
-  Body-Feedback-Draft/ (5 files)    — H10, P1-P5
+  Body-Feedback-Draft/ (5 files)    — Body-Feedback-Precondition, Precondition-1–Precondition-5
 
 N+5 OUTPUTS:
   Logic-Planning.md                 — logic đóng gói

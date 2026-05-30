@@ -29,7 +29,7 @@ sources: |
   Drill-Compile-Short-Collective.md §4 — Trust-to-compile 5 bước
   Drill-Compile-Short-Collective.md §7 — 6 trade-offs
   Drill-Compile-Short-Collective.md §19 — PFC = director, body = compiler
-  Drill-Compile-Short-Collective.md §22 — 4 compile pathways + BB2 reframe
+  Drill-Compile-Short-Collective.md §22 — 4 compile pathways + Blackbox-2 reframe
   Drill-Compile-Short-Collective.md §5 — Model 3 cấp
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -268,7 +268,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ① PFC DIRECT ATTENTION: chọn CHÚ Ý vào domain cụ thể
     ② PFC HOLD IN WM: giữ ~4 chunks active → co-fire → body wire
     ③ PFC IMAGINE: simulate scenario → body REACT + compile
-    ④ PFC DOMAIN-CHECK: verify smooth vs reality (1A vs 1B)
+    ④ PFC DOMAIN-CHECK: verify smooth vs reality (Domain-Checked vs Self-Referencing)
     ⑤ PFC CHANGE ENVIRONMENT: thay đổi context → body-input mới
 
     MỖI BƯỚC: PFC direct. Body compile.
@@ -284,7 +284,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ĐẶC ĐIỂM:
 
     ✅ CHÍNH XÁC NHẤT:
-       Calibrated qua domain feedback (Body-Feedback §1 — 1A check)
+       Calibrated qua domain feedback (Body-Feedback §1 — Domain-Checked verification)
        Direct experience + domain-check = compile ĐỦ ĐỘ TIN CẬY
        = Expert intuition reliable (F4 02: feeling-intuition gradient)
 
@@ -425,7 +425,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                    │                 │ qua nhiều năm   │ + post-hoc│
   ├────────────────────┼─────────────────┼─────────────────┼───────────┤
   │ Trust role          │ Low/optional   │ Low (self-      │ CỐT LÕI  │
-  │                    │                 │ verify via 1A)  │ = gate    │
+  │                    │                 │ verify via Domain-Checked)  │ = gate    │
   ├────────────────────┼─────────────────┼─────────────────┼───────────┤
   │ Speed              │ Fastest         │ Slowest         │ Fast      │
   │                    │ (ms → hours)    │ (years)         │ (install) │
@@ -440,7 +440,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                    │                 │                 │ chain gãy │
   ├────────────────────┼─────────────────┼─────────────────┼───────────┤
   │ Verify mechanism   │ Direct body     │ Domain feedback │ KHÔNG     │
-  │                    │ feedback (1A)   │ (1A repeated)   │ (trust    │
+  │                    │ feedback (Domain-Checked)   │ (Domain-Checked repeated)   │ (trust    │
   │                    │                 │                 │ bypass)   │
   └────────────────────┴─────────────────┴─────────────────┴───────────┘
 
@@ -553,12 +553,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Approach vs avoidance motivation: Elliot 2006
 
   🟡 REWARD IMPLICATION (v1.1 — Reward-Signal-Architecture.md §8.4):
-    4 pathways tạo DIFFERENT P5 tags → khác reward capacity ở người lớn:
-    → ① HW Fit → approach tag → Profile ② coherence NATURAL, flow accessible
+    4 pathways tạo DIFFERENT Precondition-5 tags → khác reward capacity ở người lớn:
+    → ① Hardware Fit → approach tag → Profile ② coherence NATURAL, flow accessible
     → ② Trust + moderate → moderate approach → depends on collective chain
     → ③ Social Default → neutral tag → Profile ④ relief dominant ("xong rồi" > "hay")
     → ④ Threat Avoidance → avoidance tag → Profile ④ relief ONLY, burnout trajectory
-    → Chi tiết: Reward-Signal-Architecture.md §8.4 (4-Pathway × P5 Tag Model)
+    → Chi tiết: Reward-Signal-Architecture.md §8.4 (4-Pathway × Precondition-5 Tag Model)
 ```
 
 ---
@@ -684,7 +684,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → Body PHẢN ỨNG với imagination → body compile nếu coherent
 
     ④ DOMAIN-CHECK (PFC-Function ⑪):
-       Verify smooth vs reality (1A vs 1B)
+       Verify smooth vs reality (Domain-Checked vs Self-Referencing)
        → KHÔNG compile — verify để body compile ĐÚNG HƯỚNG
 
     ⑤ CHANGE ENVIRONMENT (PFC-Function ⑳):
@@ -713,9 +713,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        Touch lửa: visual (rõ) + heat + pain + smell = RICH
        → Direct = compile SÂU + NHANH hơn imagination
 
-    ② 1B RISK (self-referencing):
-       Imagination alone = test chunks against EXISTING chunks (1B)
-       Direct experience = test chunks against REALITY (1A)
+    ② SELF-REFERENCING RISK:
+       Imagination alone = test chunks against EXISTING chunks (Self-Referencing)
+       Direct experience = test chunks against REALITY (Domain-Checked)
        → Imagination CÓ THỂ consistent với SELF mà SAI với DOMAIN
        → CẦN domain feedback: peer review, experiments, real results
 
@@ -1161,7 +1161,7 @@ DRILL SOURCE (read-only reference):
   Drill-Compile-Short-Collective.md §4 — Trust-to-compile 5 bước
   Drill-Compile-Short-Collective.md §7 — 6 trade-offs
   Drill-Compile-Short-Collective.md §19 — PFC = director, body = compiler
-  Drill-Compile-Short-Collective.md §22 — 4 pathways + BB2 reframe
+  Drill-Compile-Short-Collective.md §22 — 4 pathways + Blackbox-2 reframe
   Drill-Compile-Short-Collective.md §5 — Model 3 cấp
 
 

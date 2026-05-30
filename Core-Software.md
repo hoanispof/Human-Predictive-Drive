@@ -1,30 +1,43 @@
-# Core-Software — Cycle-Based Architecture (Software Map)
+﻿# Core-Software — Cycle-Based Architecture (Software Map)
 
-> **Trạng thái:** v1.0 — 1 trong 3 bản đồ Core v7.8
-> **Ngày:** 2026-05-10
+> **Trạng thái:** v2.2 — 1 trong 2 bản đồ Core v7.8
+> **Ngày:** 2026-05-25 (v2.2 — Core-Interface.md → backup, 3→2 bản đồ, Ask-AI.md = dynamic interface)
+> **v2.1:** 2026-05-25 (§4.2 +Evaluative/Direct-State Dissonance parallel, §11 +Reframe #21, Dissonance-Signal-Architecture v1.0)
+> **v2.0:** 2026-05-24 (FULL REWRITE — tích hợp 14 concept mới từ 28-session drill)
+> **v1.0:** backup/Core-Software-v1.0-backup.md (2026-05-10)
 > **Bản đồ này:** SOFTWARE MAP — CHẠY THẾ NÀO (mechanism chi tiết nhất)
-> **2 bản đồ khác:** Core-Hardware.md (CÁI GÌ ở ĐÂU) | Core-Interface.md (QUAN SÁT + TƯƠNG TÁC)
-> **Supersedes:** Core-v7.8-Draft.md v0.2 (2026-04-19, tách thành 3 file)
+> **Bản đồ khác:** Core-Hardware.md (CÁI GÌ ở ĐÂU)
+> **Tương tác:** Ask-AI.md (AI generate dynamic interface per user)
 > **Nguyên tắc:**
 > - Cycle-based: Domain → Body-Input → Unconscious → Feeling → PFC → Body-Output → Domain
 > - Chunk-System = sole substrate (mọi thứ chạy trên chunks)
-> - Body-Feedback chỉ có 2 hướng: REWARD hoặc DISSONANCE
-> - PFC = observer + indirect orchestrator (hold chunks, bias direction)
+> - Body-Feedback: Reward (Evaluative + Direct-State) hoặc Dissonance
+> - PFC = observer + indirect orchestrator (Simulation-Engine + Hold/Suppress)
 > - Schema, Drives, Valence = observation parameters, không phải components
 > - Development = chunk density tăng dần (cùng architecture, khác chunks)
 > **Tiền đề đọc:**
-> - Chunk.md v2.1 — chunk substrate, trust gate, pattern hierarchy
-> - Body-Feedback.md — dual-pull, H10, 3 nguồn
-> - Feeling.md v2.1 — PFC observation interface, 7-layer
-> - Agent-Mechanism.md v1.0 — agent = function on chunks, Self-Pattern-Modeling + Resonance
-> - Empathy.md v2.0 — Self-Pattern-Modeling applied to others, 2-luồng, burnout
-> - Valence-Propagation.md v1.4 — body evaluation + chain + Valence-Propagation §4 clarification
-> - Cortisol-Baseline.md v2.0 — amplifier, not stress
-> - Body-Base.md v3.1 — Model 3+1, 2-tier + 2-pathway calibration, circuit breaker
+> - Chunk.md v2.3 — chunk substrate, trust gate, pattern hierarchy, Entity-Compiled ref
+> - Body-Feedback.md — dual-pull, Body-Feedback-Precondition, 3 nguồn, interface loop
+> - Body-Feedback-Mechanism.md v2.0 — 4th axis: chunk dynamics, Body-Need 2-source
+> - Gap-Body-Need.md v1.0 — 3 Satiation Types, ENGINE/ROAD/VEHICLE, entity-gap matching
+> - Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, E₀→E₃, 5 Profiles
+> - Feeling.md v3.0 — PFC observation interface, 7-layer, PFC=Lawyer integrated
+> - Agent-Mechanism.md v2.1 — agent = function on chunks, 11 sub-files, Compilable Architecture
+> - Self-Pattern-Modeling.md v3.1 — 1 mechanism × 3 dimensions, Compiled/Fresh
+> - Entity-Compiled.md v1.0 — hub-and-spoke, formation 40→200h, Dunbar, grief
+> - Entity-Access.md v1.2 — gradient model Mức 0-5, 3-Factor, per-entity dynamics
+> - Bond-Architecture.md v2.0 — 1 mechanism × 4 bond types, gap clone impossible, Resonance Decline
+> - Simulation-Engine.md v1.0 — 1 engine, 3 components, 3 axes, N applications
+> - PFC-Operations.md v1.0 — Hold/Suppress, Budget, Compiled Quality
+> - Empathy.md v4.0 — Self-Pattern-Modeling applied, PFC budget, per-entity, 4-Layer
+> - Valence-Propagation.md v3.0 — structural/current, 3 Firing Modes, Hardware-Subsidy
+> - Cortisol-Baseline.md v2.1 — amplifier, direction gate, 7 modes, HPA paradox
+> - Body-Base.md v3.2 — entry point, Model 3+1, Compilable Architecture
 > - Compile-Taxonomy.md v2.0 — 3 Compile Types, 4 pathways, 6 trade-offs
-> - Collective-Body.md v1.1 — Model 3 cấp, trust = only bridge, AI era
-> - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, 5 Profiles, Interaction Model
-> - PFC-Configuration.md v1.0 — 6 dynamic modes, survival matrix
+> - Collective-Body.md v2.1 — Model 3 cấp, trust = only bridge, By-product L3
+> - Connection.md v5.0 — 3 Generative Primitives, Entity-Access, Hardware-Subsidy, 4-Layer
+> - Domain.md v2.0 — 3 Domain Types, Dual Check, 3 Nguồn Constraint
+> - PFC-Configuration.md v1.1 — 6 dynamic modes, survival matrix
 > **Confidence:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Numbers (🟡):** `~X%` = calibration anchor — hướng + cỡ, KHÔNG phải đo lường.
 >   `X-Y%` = range minh họa (biến thiên lớn). Insight nằm ở HƯỚNG + TƯƠNG QUAN,
@@ -47,7 +60,7 @@
 - §8 — OBSERVATION PARAMETERS
 - §9 — DEVELOPMENT TRAJECTORY
 - §10 — MULTIPLE TIMESCALES
-- §11 — KEY REFRAMES TỪ V7.5
+- §11 — KEY REFRAMES
 - §12 — HONEST ASSESSMENT
 - §13 — CROSS-REFERENCES
 
@@ -57,23 +70,23 @@
 
 ### §0.1 Ba bản đồ Core v7.8
 
-Framework mô tả body-brain system từ 3 góc nhìn, mỗi góc = 1 bản đồ:
+Framework mô tả body-brain system từ 2 góc nhìn, mỗi góc = 1 bản đồ:
 
 | # | Bản đồ | Góc nhìn | Đối tượng | File |
 |---|---|---|---|---|
 | 1 | Hardware Map | CÁI GÌ ở ĐÂU | Neuroscience researcher | Core-Hardware.md |
 | 2 | **Software Map** | **CHẠY THẾ NÀO** | **Framework researcher** | **File này** |
-| 3 | Interface Map | QUAN SÁT + TƯƠNG TÁC | Mọi người | Core-Interface.md |
 
-3 bản đồ mô tả CÙNG hệ thống. Khác góc nhìn. Đọc độc lập được.
-Giống máy tính: sơ đồ mạch / code architecture / user guide.
+2 bản đồ mô tả CÙNG hệ thống. Khác góc nhìn. Đọc độc lập được.
+Giống máy tính: sơ đồ mạch (Hardware) / code architecture (Software).
+Tương tác với framework: Ask-AI.md — AI đọc framework, adapt theo mức hiểu của từng người.
 
 ### §0.2 Tại sao v7.8 cycle-based
 
 Core-v7.5-Draft.md (2026-03) tổ chức: 4 layers + 3 drives + Schema System.
-Scaffolding đó cho phép drill 63,000+ dòng phân tích (44+ files, 13 mechanism files).
+Scaffolding đó cho phép drill 35,000+ dòng phân tích (130+ files, 500+ citations).
 
-Sau khi drill: 13/13 files compatible — layers/drives/schemas = observation labels,
+Sau khi drill: tất cả mechanism files compatible — layers/drives/schemas = observation labels,
 không phải architecture. Cycle-based match cách body-brain thực sự hoạt động.
 
 | V7.5 | V7.8 | Lý do |
@@ -84,6 +97,8 @@ không phải architecture. Cycle-based match cách body-brain thực sự hoạ
 | Layer priority | Signal strength | Loudest wins, not highest layer |
 | Cross-cutting | Properties of cycle | Cortisol = amplifier, Empathy = function |
 | Feeling (implicit) | Explicit bridge | PFC observation interface |
+| N modules riêng | 1 Simulation-Engine | Shared substrate cho Self-Pattern-Modeling, Imagine-Final, ... |
+| Type A/Type B | Compiled/Fresh | Processing spectrum thật, không phải content types |
 
 ### §0.3 Nguyên tắc thiết kế
 
@@ -92,7 +107,8 @@ không phải architecture. Cycle-based match cách body-brain thực sự hoạ
 3. **Cycle, not layers**: perception-action loop liên tục
 4. **Observation parameters, not components**: Schema, Drives, Valence = cách quan sát
 5. **Development = chunk density**: cùng architecture, khác chunks tích lũy
-6. **Honest about limits**: descriptive architecture + hypothesis generator, không phải clinical protocol
+6. **1 Engine, N Applications**: Self-Pattern-Modeling, Imagine-Final, Self-Observation = applications trên cùng Simulation-Engine
+7. **Honest about limits**: descriptive architecture + hypothesis generator, không phải clinical protocol
 
 ---
 
@@ -115,14 +131,13 @@ không phải architecture. Cycle-based match cách body-brain thực sự hoạ
     → "CÁI GÌ CHẠY thế nào, flow ra sao, mechanism chi tiết"
     → Cho researcher muốn hiểu WHY hệ thống hoạt động
 
-  INTERFACE MAP (Core-Interface.md):
-    → Dùng robot → bấm nút, xem màn hình, nhận kết quả
-    → "QUAN SÁT cái gì, TƯƠNG TÁC thế nào"
-    → Cho mọi người, không cần biết mechanism
+  TƯƠNG TÁC (Ask-AI.md):
+    → Hỏi AI → AI đọc framework → adapt theo mức hiểu → trả lời phù hợp
+    → Dynamic interface — không cần đọc trực tiếp mechanism files
+    → Cho mọi người, AI làm cầu nối giữa framework và người hỏi
 
-  Cả ba bản đồ mô tả CÙNG body-brain system.
+  Cả hai bản đồ mô tả CÙNG body-brain system.
   Hardware: 4 zones A/B/C/D. Software: 7-step cycle ①→⑦.
-  Interface: observable patterns + interaction principles.
   Mapping Hardware ↔ Software → §1.3.
 ```
 
@@ -140,9 +155,17 @@ không phải architecture. Cycle-based match cách body-brain thực sự hoạ
   │                                                                    │
   │  OBSERVE: feeling + body vote + chunk activations                  │
   │  HOLD: ~4±1 WM slots (beginner: small, expert: meta-chunks)       │
-  │  TYPE 4: deliberate linking = "thinking"                           │
-  │  IMAGINE: combine chunks → simulate scenarios chưa xảy ra         │
+  │  SUPPRESS: block unwanted pattern (costly, unsustainable)          │
+  │  BUDGET: finite shared resource (mệt ở work → kém ở nhà)          │
+  │  IMAGINE: Simulation-Engine-APPLICATION-2 (future simulation)       │
   │  DOMAIN-CHECK: "smooth" hay "sai so với reality"?                  │
+  │                                                                    │
+  │  SIMULATION-ENGINE (1 engine, N applications):                     │
+  │    DMN + mPFC + insula + hippocampus = shared substrate            │
+  │    Self-Pattern-Modeling = APPLICATION-1 (Other, Present, Simulate) │
+  │    Imagine-Final = APPLICATION-2 (Self, Future, Simulate+Construct) │
+  │    Self-Observation = APPLICATION-3 (Self, Present, Observe)        │
+  │    Hỏng 1 component → ALL apps degrade (alexithymia proof)        │
   │                                                                    │
   │  ⚠️ KHÔNG THỂ: feel trực tiếp | compile | override signal mạnh   │
   │  PFC effectiveness = f(chunks đã compiled cho tình huống đó)       │
@@ -156,7 +179,8 @@ không phải architecture. Cycle-based match cách body-brain thực sự hoạ
   │                                                                     │
   │  Body signals integrate → trở thành PFC-observable                  │
   │  7-layer fidelity: raw 100% → ... → explanation 20-70%             │
-  │  Wise: trust L3-4 (pre-label) | Naive: trust L6-7 (lossy nhất)    │
+  │  Compiled feeling (body biết) vs Fresh feeling (PFC mới thấy)       │
+  │  Wise: trust Feel-Consciousification-Feel-Observation (pre-label) | Naive: trust Feel-Labeling-Feel-Explanation (lossy nhất)    │
   │                                                                     │
   └──────┬──────────────────────────────────────────────────────────────┘
     ③↑ magnitude × clarity → PFC-observable
@@ -165,46 +189,53 @@ không phải architecture. Cycle-based match cách body-brain thực sự hoạ
   │                                                                      │
   │  CHUNK-SYSTEM (sole substrate):                                      │
   │    Compile: repetition + emotional peak + multi-modal + sleep        │
+  │    Compiled Quality: genuine / schema / threat (compile-time lock)   │
+  │    Entity-Compiled: agent compile vào body-base (40→200h)            │
   │    Activate: probability-weighted spreading activation               │
   │    Link: Type 1-3 auto + Type 4 PFC deliberate                      │
   │    Never delete — only probability shift                             │
   │    Proto-chunk → Compiled → Meta-chunk (gradient)                    │
   │                                                                      │
   │  BODY-FEEDBACK (continuous evaluation):                              │
-  │    REWARD (input > baseline) | DISSONANCE (input < baseline)        │
+  │    REWARD: Evaluative (opioid, Body-Feedback-Precondition) + Direct-State (non-opioid) │
+  │    DISSONANCE: input < baseline, mismatch, recalibration             │
   │    Dual-Pull: hardware pull (smooth) × domain pull (adapt)          │
-  │    H10: 5 preconditions ALL required for full signal                 │
+  │    3 Satiation Types: Cyclic / Tonic / Generative                   │
+  │    Hardware-Subsidy: body subsidize entity processing per Mức        │
   │                                                                      │
   │  CORTISOL (amplifier xuyên suốt):                                   │
   │    Modulates: sensitivity + energy + direction                       │
   │    Direction gate: novelty cortisol → approach | threat → avoidance │
   │    7 modes: IDLE → LAZY → ACTIVE → FOCUSED → PUSH → FREEZE → CRASH │
   │                                                                      │
-  │  FUNCTIONS trên chunks:                                              │
-  │    Self-Pattern-Modeling (Self-Pattern-Modeling): bản thân → template → hiểu người khác   │
-  │    Agent Modeling: object + logic + modeling + schema override        │
-  │    Valence: body assessment stored in chunks, propagates             │
-  │    Imagination: PFC combine chunks → simulate chưa xảy ra           │
+  │  AGENT-MECHANISM (functions trên chunks):                            │
+  │    Self-Pattern-Modeling v3.1: self → template → hiểu người khác    │
+  │    Entity-Access Mức 0-5: Tool → Utility → Anchor → Deep → Excess  │
+  │    Entity-Compiled: agent compile vào body structural level          │
+  │    Bond-Architecture: 1 mechanism × 4 bond types                     │
+  │    Valence: body assessment per entity, structural + current         │
+  │    Resonance Decline: Compiled-Suppress → Reward-Habituated → ...   │
   │                                                                      │
-  └──────┬──────────────────────────────────────────────┬────────────────┘
+  └──────┬──────────────────────────────────────────┬────────────────────┘
     ②↑ raw signals                              ⑥↓ compiled → execute
-  ┌──────┴──────────────────────────┐  ┌────────────────┴────────────────┐
-  │         BODY-INPUT               │  │        BODY-OUTPUT              │
-  │                                  │  │                                 │
-  │  L0: Alive threshold             │  │  Motor: compiled chunks         │
-  │    (circuit breaker, binary)     │  │    → movement                   │
-  │  L1: 17 categories               │  │  Speech: language chunks        │
-  │    (receptors → raw signals)     │  │    → verbal output              │
-  │    Mỗi input: evolved baseline   │  │  Expression: facial, postural, │
-  │    + individual baseline         │  │    vocal (often unconscious)    │
-  │    + delta rule evaluation       │  │  PFC hold intention →           │
-  │                                  │  │  vô thức execute details        │
-  └──────┬───────────────────────────┘  └────────────────┬───────────────┘
+  ┌──────┴──────────────────────┐  ┌────────────────┴────────────────┐
+  │         BODY-INPUT           │  │        BODY-OUTPUT              │
+  │                              │  │                                 │
+  │  L0: Alive threshold         │  │  Motor: compiled chunks         │
+  │    (circuit breaker, binary) │  │    → movement                   │
+  │  L1: 17 categories           │  │  Speech: language chunks        │
+  │    (receptors → raw signals) │  │    → verbal output              │
+  │    Mỗi input: evolved BL     │  │  Expression: facial, postural, │
+  │    + individual baseline     │  │    vocal (often unconscious)    │
+  │    + delta rule evaluation   │  │  PFC hold intention →           │
+  │                              │  │  vô thức execute details        │
+  └──────┬───────────────────────┘  └────────────────┬───────────────┘
     ①↑ stimuli                                      ⑦↓ effects
   ┌──────┴───────────────────────────────────────────────┴───────────────┐
   │                            DOMAIN                                     │
-  │  Môi trường thực (vật lý, sinh học, xã hội, thông tin)               │
+  │  3 TYPES: Reality (vật lý) | Abstract (toán) | Abstract-Dynamic (xã hội) │
   │  Tồn tại khách quan — domain KHÔNG nói dối                           │
+  │  Dual Check: body = quality controller, domain = final arbiter       │
   │  Cục bộ thay đổi khi: tương tác + di chuyển + đổi góc nhìn          │
   └──────────────────────────────────────────────────────────────────────┘
 
@@ -228,6 +259,8 @@ không phải architecture. Cycle-based match cách body-brain thực sự hoạ
   │ Feeling integrate    │ B (anterior insula → ACC → vmPFC)            │
   │ PFC observe + hold   │ A (dlPFC working memory)                     │
   │ PFC orchestrate      │ A → B (top-down) + A → C (vmPFC-amygdala)   │
+  │ Simulation-Engine    │ A (mPFC) + B (DMN, insula) + C (hippocampus)│
+  │ Entity-Compiled      │ A (ATL hub) + B (multi-modal spokes) + C     │
   │ Cortisol amplifier   │ C (HPA axis) → effects xuyên A+B+C+D        │
   │ Motor execute        │ A hold → B (motor cortex) → D (spinal)      │
   │ Delta rule (VTA)     │ C (VTA fire) → signal tới B + A              │
@@ -257,7 +290,7 @@ V7.5 LAYERS — vấn đề gì:
      → Đau mạnh thắng đói nhẹ, nhưng đói cực nặng thắng đau nhẹ
      → = Signal strength decides, not layer position
   ② Drives = emergent patterns trong cycle, không phải operators
-  ③ Connection = L1 multi-input aggregate + attachment chunks → solved
+  ③ Connection = L1 multi-input aggregate + Entity-Compiled → solved
   ④ Development = chunk density → clear
 
 V7.8 CYCLE — giải quyết:
@@ -282,44 +315,77 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 ```
 🟢 DOMAIN = MÔI TRƯỜNG THỰC MÀ CON NGƯỜI TỒN TẠI:
 
-  VẬT LÝ: ánh sáng, âm thanh, nhiệt độ, không khí, mặt đất,...
-  SINH HỌC: thực phẩm, nước, sinh vật, vi khuẩn, virus,...
-  XÃ HỘI: agents (người, động vật), cộng đồng, văn hóa, ngôn ngữ,...
-  THÔNG TIN: sách, internet, AI, truyền thông, giáo dục,...
+  3 DOMAIN TYPES (Domain.md v2.0 §2):
 
-  Domain CÓ CÁC ĐẶC TÍNH (Domain.md §2):
-    → Tồn tại KHÁCH QUAN — không phụ thuộc vào body observation
-    → KHÔNG BAO GIỜ THAY ĐỔI bản chất — luật vật lý, cấu trúc thực tế
-      vẫn y nguyên. Trước con người → domain ĐÃ CÓ.
-      Sau con người tuyệt chủng → domain VẪN CÒN.
-    → CÁI THAY ĐỔI là domain CỤC BỘ xung quanh cá nhân:
-      ① Cá nhân TƯƠNG TÁC với domain → thay đổi cục bộ (xây nhà, trồng cây)
-      ② Cá nhân DI CHUYỂN trong domain → gặp phần domain khác
-      ③ Cá nhân THAY ĐỔI GÓC NHÌN → chunks thay đổi → "thấy" domain khác
-      → Chuyên gia xem tranh thấy bầu trời, người thường thấy đồ cũ
-        = cùng domain, khác chunks → khác observation
-    → KHÔNG THỂ biết hoàn toàn — body chỉ sample qua receptors (fragments)
-    → Cung cấp FEEDBACK THẬT — domain không nói dối
-      (domain feedback thật, NHƯNG human nhận + giải thích CÓ THỂ SAI
-      → sai nằm ở interface, không nằm ở domain — Domain.md §2 ⑥)
+    ┌─────────────────────┬────────────────────────┬──────────────────────┐
+    │ Type                │ Ví dụ                   │ Constraint           │
+    ├─────────────────────┼────────────────────────┼──────────────────────┤
+    │ REALITY             │ Vật lý, sinh học,       │ Laws cố định.        │
+    │ (vật lý)            │ hóa học, địa lý         │ Gravity = gravity.   │
+    ├─────────────────────┼────────────────────────┼──────────────────────┤
+    │ ABSTRACT             │ Toán, logic hình thức  │ Axiom-derived.       │
+    │ (khái niệm tĩnh)   │                         │ 2+2 = 4 vĩnh viễn.  │
+    ├─────────────────────┼────────────────────────┼──────────────────────┤
+    │ ABSTRACT-DYNAMIC     │ Xã hội, kinh tế,      │ Collective maintain. │
+    │ (khái niệm động)    │ luật, văn hóa, tiền   │ Tiền = domain chỉ   │
+    │                     │                         │ khi collective tin.  │
+    └─────────────────────┴────────────────────────┴──────────────────────┘
 
-  ANCESTRAL DOMAIN (2M+ năm):
-    → Natural fractals, pink noise, tribal voices 30-150,
-      daily walking 8-15 km, whole foods, natural light cycles,
-      frequent social touch, multi-generational community
-    → Body-input baselines CALIBRATED cho domain này
-    → Why-Body-Knows.md §3: 2-tầng + 2-đường calibration
+    → Reality: "laws" cố định, human chỉ MAP, không thay đổi được
+    → Abstract: axiom-derived, consistent mãi mãi
+    → Abstract-Dynamic: HUMAN TẠO + MAINTAIN → CÓ shelf-life
+      → Tiền mất giá trị khi collective ngừng tin
+      → Luật thay đổi khi collective thay đổi
+      → "Bảo kê" mất khi hệ thống mất
 
-  MODERN DOMAIN:
-    → Screens, processed food, sedentary, artificial light,
-      reduced touch, nuclear family, attention economy
-    → Mismatch với ancestral baseline → "silent deficiencies"
-    → Body-Input-Enumeration.md §5: baseline adaptation mechanism
+  8 ĐẶC ĐIỂM CHẮC CHẮN (Domain.md v2.0 §3):
+    ① Tồn tại KHÁCH QUAN — không phụ thuộc body observation
+    ② Lớn hơn MỌI mô tả — mọi map = lossy summary
+    ③ Feedback THẬT — domain KHÔNG nói dối (sai nằm ở interface)
+    ④ Cục bộ thay đổi qua: tương tác + di chuyển + đổi góc nhìn
+    ⑤ Chuyên gia vs người thường thấy KHÁC nhau ở cùng domain
+    ⑥ Body tiếp xúc qua FRAGMENTS (receptors sample, không toàn bộ)
+    ⑦ 3 types → 3 verification methods khác nhau
+    ⑧ Domain TRƯỚC + SAU con người (Reality, Abstract vĩnh viễn)
 
-  AI ERA DOMAIN:
-    → Unlimited information, AI assistance, screen-mediated life
-    → New mismatch patterns emerging
-    → Framework concern: body-input deprivation accelerating
+  3 NGUỒN CONSTRAINT × SHELF-LIFE (Domain.md v2.0 §4):
+
+    ┌─────────────────┬─────────────────────────┬──────────────────────┐
+    │ Constraint       │ Hoạt động thế nào        │ Shelf-life           │
+    ├─────────────────┼─────────────────────────┼──────────────────────┤
+    │ PHYSICS          │ Laws vật lý, hóa, sinh  │ Vĩnh viễn            │
+    │ HARDWARE         │ Evolved body specs      │ ~100K years          │
+    │ COLLECTIVE       │ Institutions, norms     │ Decades-centuries    │
+    └─────────────────┴─────────────────────────┴──────────────────────┘
+    → Dependency ratio = f(3 nguồn) → predict stability + shift speed
+
+  ⭐ DUAL CHECK (Domain.md v2.0 §5, Ask-AI.md v3.1):
+
+    Body = QUALITY CONTROLLER: "có gì đó sai" / "smooth"
+    Domain = FINAL ARBITER: Reality trả lời đúng/sai bất kể body nghĩ gì
+
+    4 trường hợp (domain LUÔN ĐÚNG — "sai" = schema/body LỆCH domain):
+    ① Body smooth + Domain confirms   → TỐT (schema khớp reality)
+    ② Body flags  + Domain confirms   → BODY BIASED (false alarm, trauma, anxiety)
+    ③ Body smooth + Domain contradicts → NGUY HIỂM NHẤT (schema sai mà body miss)
+    ④ Body flags  + Domain contradicts → RÕ RÀNG (cả body + domain đều nói "sai")
+
+    → Case ③ nguy hiểm nhất: body comfortable → KHÔNG có warning signal
+      VD: pyramid scheme (tiền vào đều → body OK, reality = không bền)
+    → "Domain contradicts" xảy ra khi:
+      a) Schema person LỖI THỜI — domain Reality/Abstract không đổi, nhưng model sai
+      b) Abstract-Dynamic domain THAY ĐỔI — collective shift, model cũ outdated
+      c) Hardware error — receptor/processing hỏng → body nhận SAI từ domain
+      → Cả 3 trường hợp: domain VẪN ĐÚNG. Lỗi ở schema hoặc interface.
+
+  ANCESTRAL vs MODERN vs AI ERA:
+    → Ancestral (2M+ years): natural fractals, tribal 30-150, daily walking,
+      whole foods, natural light → body baselines CALIBRATED cho domain này
+    → Modern: screens, processed food, sedentary → mismatch → "silent deficiencies"
+    → AI era: unlimited information, AI assistance → new mismatch patterns emerging
+    → Body-input deprivation accelerating across eras
+
+  Reference: Domain.md v2.0 (full 712L, 3 Types, 8 đặc điểm, Dual Check)
 ```
 
 ---
@@ -429,7 +495,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 
   UNIVERSAL ACROSS ALL 17 BODY-INPUT CATEGORIES:
     → Food (Hall 2019), sex, visual (screen), auditory (music),
-      social validation, substances, mastery (Jiro)
+      social validation, substances, mastery
     → One mechanism explains all — direction matters, not mechanism
 
   Reference: Body-Input-Enumeration.md §5
@@ -467,41 +533,53 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     ④ Label installation ⑤ Cultural transmission
     → TẤT CẢ 5 yêu cầu TRUST GATE ở mức nào đó
     → Trust = ONLY BRIDGE giữa external → internal compile
-    → (Collective-Body.md §5: trust = cơ chế DUY NHẤT nối cấp 1 và cấp 2)
+    → (Collective-Body.md v2.1 §5: trust = cơ chế DUY NHẤT nối cấp 1 và cấp 2)
 
-  3 COMPILE TYPES (Compile-Taxonomy.md v2.0, Drill §2-§3):
+  3 COMPILE TYPES (Compile-Taxonomy.md v2.0):
 
     Experience Compile — Direct Short (~90%): body trải nghiệm trực tiếp → compile
       [toán → brain fire → reward] hoặc [không học → mắng → sợ]
       = Hardware fit (approach) hoặc Threat (avoidance). 1-2 nodes.
-      PFC accuracy ~90%. Cơ chế: 4 compile mechanisms trực tiếp.
 
     Expertise Compile (~5%): repetition + PFC-directed + domain verify
       [bán hàng → feedback → adjust → compile] lặp 1000+ lần
       = Deliberate practice. Meta-chunks. "Chuyên gia = library rất sâu."
-      PFC = DIRECTOR (hold + guide), Body = COMPILER (wire thật).
 
     Trust Compile — Installed + Collective (~5%): external source → trust gate → compile
       [mẹ nói học tốt → trust → compile "học=tốt"] = 1-2 nodes
       = Trust install. Social default. Chain dài SỐNG ở collective (Cấp 2).
-      PFC accuracy ~30-60% (confabulation phổ biến nhất ở Trust Compile).
 
     → Cùng 4 compile mechanisms, KHÁC LOẠI sử dụng.
-    → ~90%/~5% = calibration anchor (§12.4). Overlap Experience/Trust → không cộng 100%.
-    → Chi tiết: Compile-Taxonomy.md §2-§3
+    → ~90%/~5% = calibration anchor (§12.4).
 
-  Valence-Propagation §4 CLARIFICATION (Valence-Propagation v1.4, Drill §6, §22):
-    Chain analysis [toán→điểm→đại học→việc→lương→body-base]
-    = CẤP 3 (framework giải thích tại sao behavior hoạt động).
-    KHÔNG phải cách brain PROCESS ở CẤP 1 — cá nhân compile SHORT (1-2 nodes).
-    Chain dài SỐNG ở CẤP 2 (collective infrastructure hold cho cá nhân).
-    Vẫn CÓ GIÁ TRỊ: chẩn đoán chain gãy, thiết kế collective, verify trust.
-    → Chi tiết: Valence-Propagation v1.4 §4, Collective-Body.md §1 (Model 3 cấp)
+  COMPILED QUALITY DIMENSION (PFC-Operations.md v1.0 §5):
+    → Chunks compile xong → có QUALITY TAG vĩnh viễn (compile-time lock):
 
-  COMPILE RATE:
-    ≈ f(exposure × saliency × contingency × peak_valence × multi_modal_richness)
-    → Individual variation EXPLAINED: different environments → different outcomes
-    → = NOT "tài năng bẩm sinh" → mà "môi trường compile khác nhau"
+    ┌──────────────────┬────────────────────────────────────────────────┐
+    │ Quality          │ Meaning                                         │
+    ├──────────────────┼────────────────────────────────────────────────┤
+    │ GENUINE-compiled │ Body confirmed qua domain feedback thật.        │
+    │                  │ Approach-tagged. Self-Pattern-Modeling accurate. │
+    │                  │ = Experience Compile + Expertise Compile.        │
+    ├──────────────────┼────────────────────────────────────────────────┤
+    │ SCHEMA-compiled  │ PFC-driven, chưa body-confirm đầy đủ.          │
+    │                  │ Trust Compile dominant. Confabulation phổ biến. │
+    │                  │ Self-Pattern-Modeling may be inaccurate.         │
+    ├──────────────────┼────────────────────────────────────────────────┤
+    │ THREAT-compiled  │ Compiled dưới stress/ép buộc.                   │
+    │                  │ Avoidance-tagged. Trigger defensive Self-Pattern-Modeling.   │
+    │                  │ = "Biết" nhưng body phản ứng tiêu cực.          │
+    └──────────────────┴────────────────────────────────────────────────┘
+    → Cùng "compiled" nhưng KHÁC tag → KHÁC Self-Pattern-Modeling capacity, KHÁC suốt đời
+
+  ENTITY-COMPILED (Entity-Compiled.md v1.0):
+    → Brain compile AGENT vào body-base ở STRUCTURAL level
+    → Agent's state = MY state. Agent's loss = body-base amputation.
+    → Hub-and-Spoke neural architecture (ATL hub + multi-modal spokes)
+    → Formation: 40→80→200h exposure (schema acceleration, Tse 2007)
+    → Dunbar capacity ceiling: chunks finite + maintenance + interference
+    → Grief = opioid withdrawal khi Entity-Compiled bị cắt
+    → Reference: Entity-Compiled.md v1.0 (1,231L, 67 citations)
 
   4 CONNECTION TYPES (Chunk.md §3):
     Type 1: Shared contamination (automatic, spreading activation)
@@ -515,22 +593,15 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
       multi-modal, context match, emotional state match, anchor strength
     → Competitive re-linking: new links compete with old (🟢 Nader 2000)
     → NEVER delete — only probability shift
-    → Trauma = Expertise = CÙNG cơ chế, KHÁC hướng
-
-  ANCHORS (Chunk.md §5):
-    → 5 types: verbal, contextual, ritual, emotional, multi-anchor
-    → Anchor = retrieval PATH (not content)
-    → "Quên" = retrieval path weak (chunk still exists)
-    → Label = "vé vào cửa" cho PFC planning system
+    → Compiled chunks KHÔNG bao giờ bị xóa — chỉ probability shift
 
   "SCHEMA" TRONG V7.8 = OBSERVATION LABEL:
     → Schema = named chunk-network pattern (chunks + links + purpose)
     → Giống "feature" trong software: tên gọi cho composition of functions
     → Schema KHÔNG phải component riêng biệt — là CÁCH QUAN SÁT chunk networks
-    → Vẫn hữu ích như shorthand (giống "channel" shorthand trong Body-Base reframe)
-    → Nhưng không phải đặc tính kỹ thuật của brain architecture
+    → Vẫn hữu ích như shorthand. Không phải đặc tính kỹ thuật của brain architecture
 
-  MODEL 3+1 (Body-Base.md v2.0 §3, Drill §23):
+  MODEL 3+1 (Body-Base.md v3.2 §3):
 
     3 COMPONENTS CHẠY ĐỒNG THỜI trên chunk substrate:
       ① VÔ THỨC (~95%): compile + fire + evaluate
@@ -539,31 +610,18 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     + 1 BRIDGE:
       ④ EXTERNAL TOOLS (×∞): giấy, máy tính, AI → mở rộng PFC capacity
 
-    → Model 3+1 = REFINE §4 unconscious processing components
-    → Cycle architecture KHÔNG đổi — chỉ formalize components BÊN TRONG
     → Trust = Component 3, KHÔNG phải property — vì trust GATE tất cả external install
 
-  MODEL 3 CẤP (Collective-Body.md v1.1 §1):
+  MODEL 3 CẤP (Collective-Body.md v2.1 §1):
 
     Cấp 1: Individual — compile SHORT ở body (1-2 nodes). File NÀY mô tả.
     Cấp 2: Collective — institutions/culture HOLD chain dài (distributed).
-    Cấp 3: Framework — explanatory decomposition (Valence-Propagation §4 chain analysis).
+    Cấp 3: Framework — explanatory decomposition (chain analysis).
 
     → Individual cycle (file này) = Cấp 1
-    → Collective phenomena = Cấp 2 (chi tiết: Collective-Body.md)
     → Trust = ONLY BRIDGE giữa Cấp 1 và Cấp 2
 
-  SO SÁNH CHUNKS VỚI CODE FUNCTIONS:
-    → Functions trong code = atomic units, KHÔNG THỂ phân loại hết
-    → Features trong software = named patterns of function composition
-    → Chunks trong não = atomic associative networks
-    → Schemas = named patterns of chunk composition
-    → Giáo sư toán ≠ biết bơi: chunks toán ≠ chunks bơi, dù cùng 1 não
-    → Dev game → dev web dễ hơn newbie: engine overlap, nhưng domain chunks khác
-    → Nhân viên tạp hóa + giáo sư toán: cùng dùng math chunks hàng ngày,
-      cùng coherence khi hoàn thành phép tính, vị trí rất khác nhau
-
-  Reference: Chunk.md v2.1 (full detail, 14 sections)
+  Reference: Chunk.md v2.3 (full detail)
 ```
 
 ### §4.2 Body-Feedback — Continuous Evaluation
@@ -571,74 +629,104 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 ```
 🟡🟢 BODY-FEEDBACK = CÁCH BODY ĐÁNH GIÁ MỌI THỨ LIÊN TỤC:
 
-  CHỈ 2 HƯỚNG:
-    → REWARD (input above baseline, positive prediction-delta)
-    → DISSONANCE (input below baseline, negative prediction-delta)
-    → + NEUTRAL (at baseline, no signal)
+  REWARD + DISSONANCE — EVALUATIVE/DIRECT-STATE DIMENSION (CẢ 2 DIRECTIONS):
+
+    EVALUATIVE REWARD (opioid — Reward-Signal-Architecture.md v2.0 §1):
+      → Body-Feedback-Precondition pass → VTA → opioid hedonic hotspot (NAcc shell, VP, mOFC)
+      → CÓ ĐIỀU KIỆN: cần 5 preconditions đồng thời
+      → Learned/compiled: E₀ hardware-install → E₁ basic → E₂ complex → E₃ deep
+      → Naltrexone blocks hoàn toàn (🟢 Blass & Ciaramitaro 1994)
+      → Berridge "liking" = chỉ loại này
+
+    DIRECT-STATE REWARD (non-opioid — Reward-Signal-Architecture.md v2.0 §2):
+      → Body-state change itself IS reward (không cần Body-Feedback-Precondition)
+      → Hardware from birth: CT afferents (touch), eCB CB1 (exercise),
+        thermoreceptors (warmth), vestibular (rocking)
+      → Naltrexone KHÔNG block (pathway khác)
+      → BURNOUT-PROOF: khi Evaluative rewards exhausted, Direct-State vẫn accessible
+      → Van der Kolk 2014: body-oriented therapy = activate Direct-State pathways
+
+    EVALUATIVE DISSONANCE (compiled — Dissonance-Signal-Architecture.md v1.0 §1):
+      → dACC + anterior insula (social pain: Eisenberger 2003)
+      → CRH → amygdala (anxiety/threat: HPA axis)
+      → CÓ ĐIỀU KIỆN: cần compiled chunks, PFC can modulate
+      → Develops with age: E₀ bitter aversion → E₃ moral injury
+      → MOST adult suffering = Evaluative Dissonance
+      → Chunk-Shift = Evaluative-only proof (context thay đổi → re-evaluate)
+
+    DIRECT-STATE DISSONANCE (hardware — Dissonance-Signal-Architecture.md v1.0 §1):
+      → Nociception: A-delta + C fibers → substance P + glutamate + CGRP
+      → Thermoreceptors, visceral signals, ghrelin (hunger), histamine (itch)
+      → Hardware from birth: PFC minimal
+      → NUMBNESS-PROOF: khi Evaluative processing tê liệt, Direct-State vẫn fire
+      → Parallel burnout-proof (Direct-State Reward) = 2 sàn tiến hóa
+
+    DISSONANCE SOURCES:
+      → 3 genuine sources: nociception / mismatch / recalibration
+      → "Mismatch" splits: hardware mismatch → Direct-State, compiled mismatch → Evaluative
+      → Evaluative/Direct-State ORTHOGONAL to source classification
 
   DUAL-PULL ARCHITECTURE (Body-Feedback.md §2):
 
     ① HARDWARE PULL (bảo thủ, muốn smooth):
        → Hebbian LTP: patterns quen càng mạnh
-       → Habituation: VTA quen → không fire
        → Metabolic efficiency: compiled = low cost
        → Feature: comfort zone, routine, contentment
        → Dark side: stagnation, evolution lag
 
     ② DOMAIN PULL (đòi adapt, map reality):
-       → prediction-delta: pattern mới → dopamine → attention
-       → Prediction-delta: mismatch → update pressure
+       → Prediction-delta: pattern mới → dopamine → attention
        → Evolutionary: không map reality → không sống sót
        → Feature: learning, growth, curiosity
        → Dark side: burnout, neural wear
 
     ⭐ TENSION = EVOLUTIONARY FEATURE, NOT BUG:
-       → Body signals (reward/dissonance) = READOUT of this tension
        → Reward fires khi 2 lực ALIGN ("passion" = body thích + domain cần)
        → Dissonance fires khi 2 lực CONFLICT
-       → Externalization: tension này PROPAGATE sang mọi hệ thống
-         con người thiết kế + vận hành (software, luật, y tế, tổ chức).
-         PROPAGATION, không phải analogy. Collective-Body.md §3.5.
 
-  H10 — 5 PRECONDITIONS FOR SIGNAL FIRE (Body-Feedback.md §5):
+  Body-Feedback-Precondition — 5 PRECONDITIONS FOR EVALUATIVE SIGNAL FIRE (Body-Feedback-Precondition.md):
 
     ┌───┬──────────────────────────┬────────────────────────────┐
     │ # │ Precondition             │ Failure → subjective        │
     ├───┼──────────────────────────┼────────────────────────────┤
-    │ 1 │ Body-need gap open       │ "Không cần" / polite no     │
-    │ 2 │ Chunks base adequate     │ "Chả hiểu" / confusion      │
-    │ 3 │ prediction-delta threshold met  │ "Bình thường" / "quen rồi" │
-    │ 4 │ Goldilocks zone (40-70%) │ Too alien or too familiar   │
-    │ 5 │ Chunk association tag    │ "Ghét dù hiểu" / avoidance  │
+    │ 1 │ Directed-Gap             │ "Không cần" / polite no     │
+    │ 2 │ Chunk-Substrate          │ "Chả hiểu" / confusion      │
+    │ 3 │ Delta-Gate               │ "Bình thường" / "quen rồi" │
+    │ 4 │ Match-Range              │ Too alien or too familiar   │
+    │ 5 │ Compile-Gate             │ "Ghét dù hiểu" / avoidance  │
     └───┴──────────────────────────┴────────────────────────────┘
-    ALL 5 REQUIRED for full signal. Missing ANY → absent or wrong.
+    ALL 5 REQUIRED for full Evaluative signal. Direct-State KHÔNG cần Body-Feedback-Precondition.
 
-  3 GENUINE DISCOMFORT SOURCES (Body-Feedback.md §4):
-    ① Nociception (physical damage — tissue → nociceptors → pain)
-    ② Mismatch (schema ≠ reality — prediction-delta → "something is off")
-    ③ Recalibration (neurons adjusting — "căng đầu khi học" = wiring change)
-    → Cortisol arrives AFTER, KHÔNG gây đau — sustainer, not cause
+  3 SATIATION TYPES (Gap-Body-Need.md v1.0 §2):
 
-  CHUNK DYNAMICS — TRỤC THỨ 4 (Body-Feedback-Mechanism.md v1.2):
+    ┌──────────────┬─────────────────────────┬────────────────────────┐
+    │ Type         │ Mechanism                │ Ví dụ                   │
+    ├──────────────┼─────────────────────────┼────────────────────────┤
+    │ CYCLIC       │ Fill → deplete → refill │ Ăn, ngủ, social touch  │
+    │ TONIC        │ Maintain continuous      │ Connection, autonomy   │
+    │ GENERATIVE   │ Fill → expand → new gap │ Mastery, creativity    │
+    └──────────────┴─────────────────────────┴────────────────────────┘
+    → "Chán nhau" = Cyclic gap filled + no Generative gap remaining
+    → Technology fills ROUTINE gaps → frontier shifts to GENUINE gaps
+
+  HARDWARE-SUBSIDY (Valence-Propagation.md v3.0):
+    → Body subsidize entity processing per Entity-Access Mức:
+      Mẹ→con (MAX oxytocin) → romantic (limerence TEMP) → bạn (NONE)
+    → VTA habituation SLOWER for subsidized entities
+    → = TẠI SAO mẹ không "chán" con dù chăm mỗi ngày
+
+  CHUNK DYNAMICS — TRỤC THỨ 4 (Body-Feedback-Mechanism.md v2.0):
     Body-feedback có 4 trục phân loại ORTHOGONAL:
       Trục 1 — Direction: reward/dissonance (dual-pull ở trên)
       Trục 2 — Magnitude: 14 levels (02-Dissonance.md)
-      Trục 3 — Source: nociception/mismatch/recalibration (3 nguồn ở trên)
+      Trục 3 — Source: nociception/mismatch/recalibration
       Trục 4 — Chunk Dynamics: HOW chunks fire tạo signal
         → 2 input sources: Sensory-Driven / Pattern-Driven
         → 3 dynamics: Chunk-Shift / Chunk-Miss / Chunk-Gap
         → Compound: multi-layer chunk firing = multi-flavor signal
-    Reference: Body-Feedback-Mechanism.md v1.2
 
-  REWARD SIGNAL ARCHITECTURE (Reward-Signal-Architecture.md v1.0):
-    → Evaluative (opioid) — H10 pass → VTA → opioid reward
-    → Direct-State (non-opioid) — body-state change itself IS reward
-    → E₀→E₃: Complexity gradient (simple match → creative insight)
-    → Evaluative Gates Direct-State: evaluative layer modulates direct-state reward
-    → 5 Reward Profiles: "hương vị" reward (cognitive, social, body, creative, flow)
-    Reference: Reward-Signal-Architecture.md v1.0
-
-  Reference: Body-Feedback.md + 01-04 drill files (~7,100L)
+  Reference: Body-Feedback.md + Body-Feedback-Mechanism.md v2.1
+    + Reward-Signal-Architecture.md v2.1 + Dissonance-Signal-Architecture.md v1.0
 ```
 
 ### §4.3 Cortisol — Amplifier
@@ -654,7 +742,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     → ENERGY: how sustained action can be
     → DIRECTION: approach (novelty) vs avoid (threat) — at compile time
 
-  DIRECTION GATE (Chunk.md §2.4 NT7):
+  DIRECTION GATE (Chunk.md §2.4):
     → Cortisol tại compile time = determines chunk association tag
     → Novelty-direction cortisol → chunks tag APPROACH
     → Threat-direction cortisol → chunks tag AVOIDANCE
@@ -665,68 +753,130 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 
   ⚠️ PHÂN BIỆT QUAN TRỌNG — 2 cơ chế KHÁC NHAU:
 
-    NE (Norepinephrine) → FREEZE TỨC THỜI (Cortisol-Baseline §9.1):
+    NE (Norepinephrine) → FREEZE TỨC THỜI (Cortisol-Baseline.md v2.1 §9.1):
       → Threat detect → amygdala → NE flood → α1 receptors → PFC OFFLINE
-      → Timeline: milliseconds
-      → KHÔNG phải damage — là DESIGN FEATURE (circuit breaker)
-      → Tắt PFC để nhường subcortical (nhanh hơn cho survival)
+      → Timeline: milliseconds. KHÔNG phải damage — là DESIGN FEATURE
       → Recovery: seconds sau khi threat qua → PFC bật lại hoàn toàn
       → 🟢 Arnsten 2009, 2015 — α1/α2 mechanism
 
-    CORTISOL → NEURAL WEAR MÃN TÍNH (Cortisol-Baseline §9.2-§9.4):
+    CORTISOL → NEURAL WEAR MÃN TÍNH (Cortisol-Baseline.md v2.1 §9.2-§9.4):
       → Cortisol baseline CAO MÃN TÍNH (weeks-months-years)
       → → Glutamate cao liên tục → PFC dendrite retraction
       → → Worse pattern recognition → worse solving → more cortisol → loop
-      → = Trauma loop 4-stage degradation (Body-Feedback.md §7)
+      → HPA paradox: acute trauma → HIGH cortisol, chronic PTSD → LOW cortisol
+        (Yehuda: HPA axis recalibrate, KHÔNG phải "hết stress")
       → 🟢 Arnsten 2009, McEwen 2007
 
-    ORDER: Schema detect → NE spike (ms) → Adrenaline (1-2s) →
-      Cortisol peak (5-20min) → Cortisol sustain → merge baseline
-    → NE = ACUTE circuit breaker (instant, recoverable)
-    → Cortisol = CHRONIC wear (cumulative, slow damage)
-
-  Reference: Cortisol-Baseline.md v2.0 (full 3,059L)
+  Reference: Cortisol-Baseline.md v2.1 (full 3,059L)
 ```
 
-### §4.4 Functions chạy trên Chunk Substrate
+### §4.4 Agent-Mechanism — Functions on Chunk Substrate
 
 ```
 🟡 MỌI "MODULE" CŨ = FUNCTION CHẠY TRÊN CÙNG CHUNK SUBSTRATE:
 
-  SELF-PATTERN-MATCH (Agent-Mechanism.md §0 / Self-Pattern-Modeling.md v2.3):
-    → Dùng cảm nhận bản thân để hiểu người khác
+  ⭐ KEY INSIGHT V2.0: Brain có 1 SIMULATION-ENGINE, KHÔNG PHẢI N modules riêng.
+  TẤT CẢ functions dưới đây = APPLICATIONS chạy trên ENGINE này.
+  (Simulation-Engine chi tiết → §6.5)
+
+  SELF-PATTERN-MODELING (Self-Pattern-Modeling.md v3.1):
+    → Dùng cảm nhận bản thân để MODELING người khác
       — dựa trên dự đoán họ cũng giống mình một phần
-    → 2 Functions: Compiled (body simulate target) + Fresh (PFC chain predict hành vi)
-    → Dùng self-chunks làm template → simulate target's state
-    → Valence gate: positive → empathy | negative → strategic/reversed | extreme → dehumanize
+    → = Simulation-Engine-APPLICATION-1 (Other, Present, Simulate)
+    → 1 mechanism × 3 dimensions:
+      Processing Level (Compiled vs Fresh)
+      Valence (positive → empathy | negative → strategic | extreme → dehumanize)
+      Output Intensity (automatic background → deliberate)
     → Quality = f(chunk library depth × overlap × feedback)
+    → Gap-clone impossible: 5-step proof (Bond-Architecture.md v2.0 §3)
+    → Over-clone = observation label cho 3 cơ chế thật:
+      redirect + compiled suppress + converge
 
-  AGENT MODELING (Agent-Mechanism.md §3):
-    → 4-layer: Object chunks + Logic + Modeling overlay + Schema override
-    → Logic + Modeling run PARALLEL, different mix ratios per entity
-    → Mix: cục đá 100% logic / bạn thân 70% modeling / Đức Mẹ Mode 1 100% schema
+  ENTITY-ACCESS GRADIENT (Entity-Access.md v1.2):
+    → Brain builds PREDICTIVE ACCESS-RELATIONSHIP with entity for gap-filling
+    → 3-Factor Model: Engine Mode × Gap-Need Profile × Access Confidence
+    → Gradient Mức 0-5:
 
-  EMPATHY (Empathy.md v2.0):
+    ┌───────┬──────────────────┬────────────────────────────────────────┐
+    │ Mức   │ Label            │ Meaning                                 │
+    ├───────┼──────────────────┼────────────────────────────────────────┤
+    │ 0     │ Tool/Service     │ Gap fill = transactional only           │
+    │ 1     │ Utility          │ Repeated access, some prediction        │
+    │ 2     │ Anchor           │ Stable gap source, body tracks          │
+    │ 3     │ Deep             │ Entity-Compiled significant             │
+    │ 4     │ Core             │ Entity = body-base structural           │
+    │ 5     │ Excess           │ GẦN NHƯ DUY NHẤT gap source (clinical) │
+    └───────┴──────────────────┴────────────────────────────────────────┘
+    → Entity-Owned = PFC LABEL cho Mức 4-5 (observation, NOT mechanism)
+    → Reference: Entity-Access.md v1.2 (73 citations)
+
+  BOND-ARCHITECTURE (Bond-Architecture.md v2.0):
+    → Entity-Compiled = 1 mechanism DUY NHẤT × 4 bond type configurations:
+
+    ┌────────────────┬───────────────────────┬──────────────────────────┐
+    │ Bond type      │ Hardware-Subsidy       │ Design                    │
+    ├────────────────┼───────────────────────┼──────────────────────────┤
+    │ Parent→Child   │ MAX (oxytocin flood)  │ Asymmetric, unconditional │
+    │ Child→Parent   │ HIGH (attachment)     │ Dependency → autonomy     │
+    │ Romantic       │ TEMP (limerence 6-18m)│ Bilateral, reproductive   │
+    │ Friendship     │ NONE (zero subsidy)   │ Mutual, voluntary, FAST   │
+    └────────────────┴───────────────────────┴──────────────────────────┘
+    → Gap clone = STRUCTURALLY IMPOSSIBLE (architecture proof: 1 gap ≠ 2 entities)
+    → Cùng mechanism, khác configuration → khác dynamics hoàn toàn
+
+  RESONANCE DECLINE (Bond-Architecture.md v2.0 §4):
+    → 2 Forces + 1 Fuel giải thích TẠI SAO resonance giảm theo thời gian:
+      Force: Compiled-Suppress (STRONGEST — suppress drive riêng → source dies) ★ LEVERAGE
+      Force: Reward-Habituated (VTA quen → prediction-delta giảm, Weber-Fechner)
+      Fuel: Novelty threshold (prediction complete + Entity-Compiled saturated = 2 lenses)
+    → True understanding = anti-compiled-suppress (meta-principle ALL bonds)
+
+  BY-PRODUCT-SCALE (By-Product-Scale.md v1.0):
+    → CÙNG by-product match mechanism × 3 scales khác nhau:
+      Pair (L1): oxytocin, direct, fast, personal
+      Hub (L2): serotonin, reputation, medium, group
+      Institutional (L3): trust infrastructure, slow, system
+    → Prestige = genuine resonance (opioid reward)
+    → Dominance = forced resonance (relief, not reward)
+
+  RESONANCE-SUSTAINABILITY (Resonance-Sustainability.md v1.0):
+    → WHAT CONDITIONS predict sustained vs decaying resonance:
+      3 Primitive Conditions: Proximity × Duration × Agent-mode
+      3 Modalities INDEPENDENT: Verbal / Non-verbal / Body-level
+      4 Silence types: chỉ Intrinsic bền vững
+      4-Layer synthesis: conditions × gap flexibility × modalities × amplification
+
+  PHANTOM 4-FACTOR (Entity-Valence-Dynamics.md v2.0):
+    → Khi entity MẤT (chết, chia tay, xa cách):
+      ① Entity-Compiled depth (how deep in body-base)
+      ② Gap redirect difficulty (specialized gaps = harder)
+      ③ Hardware-Subsidy withdrawal (oxytocin/vasopressin drop)
+      ④ Compiled pattern persistence (body still fires for absent entity)
+    → Grief intensity = f(4 factors) — explains why some losses devastating, others mild
+
+  EMPATHY (Empathy.md v4.0):
     → = Self-Pattern-Modeling applied to other agent's states
     → Connection ⊃ Empathy (mechanism ⊃ observation)
-    → 2-luồng: L1 (Self-Pattern-Modeling-owned, momentary) + L2 (Entity-compiled, structural)
-    → Burnout = f(L1/L2 ratio): too much L1, not enough L2
-    → 🟢 Bird & Cook 2013: self-awareness = prerequisite for empathy
+    → PFC budget × empathy: Fresh Self-Pattern-Modeling costs PFC → competes với ALL other tasks
+    → Burnout = Compiled-Suppress + PFC depletion (NOT "too much empathy")
 
-  VALENCE (Valence-Propagation.md v1.4):
+  VALENCE (Valence-Propagation.md v3.0):
     → Body's assessment of how entity affects body-inputs
-    → Multi-channel profile (NOT good/bad binary)
-    → Stored as property of chunks (valence tag at compile time)
-    → Propagates qua chunk links — PFC often BLIND to chains
-    → Valence-Propagation §4 chains = EXPLANATORY (Cấp 3), not processing (Cấp 1)
+    → Structural valence (compiled, stable) vs Current valence (momentary, fluctuating)
+    → 3 Firing Modes: Tonic (background hum) / Phasic (acute spike) / Compound (mixed)
+    → Per-entity dynamics: mỗi entity → unique valence profile
+    → Hardware-Subsidy × VTA habituation: subsidized entities = slower habituation
 
-  IMAGINATION (Imagine-Final concept):
-    → PFC combines existing chunks → simulate scenarios chưa xảy ra
+  IMAGINATION (Imagine-Final.md v3.0):
+    → = Simulation-Engine-APPLICATION-2 (Self, Future, Simulate+Construct)
+    → KEY REFRAME v3.0: Imagine-Final ≠ mọi body prediction
+      → Hardware prediction (subcortical: khát→uống) ≠ Imagine-Final
+      → Imagine-Final = CONSTRUCTIVE simulation only (chunk-based, PFC-accessible)
     → Body-feedback evaluates imagined scenarios (body reacts to imagination)
     → Imagined chunks CAN trigger real body-base responses
-    → = PFC "hijack" body-input: vẽ ra giấy → mắt thấy → continue imagine
 
-  NONE of these need separate module. ALL run on chunk substrate.
+  NONE of these need separate module. ALL run on Simulation-Engine substrate.
+  Agent-Mechanism.md v2.1 = integration hub (11 sub-files, ~15,000L).
 ```
 
 ---
@@ -740,65 +890,65 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   Feeling = INTERFACE giữa body computation và PFC awareness.
   Body = xử lý (compiled patterns fire). Feeling = kết quả hiện lên. PFC = observe.
 
+  PFC = LAWYER (Feeling.md v3.0):
+    → PFC KHÔNG phải judge (không tạo verdict mới)
+    → PFC = lawyer (tìm argument cho verdict body ĐÃ đưa ra)
+    → Body compute FIRST → Feeling emerge → PFC argue/justify LAST
+    → "Rationalizing" = PFC làm lawyer cho body's verdict
+
   3 ĐẶC TÍNH DEFINING:
     ① MULTI-SOURCE: convergence từ nhiều body systems đồng thời
     ② INTEGRATED: unified sense, không phải list of signals
     ③ OBSERVABLE: threshold phụ thuộc magnitude × clarity (2 chiều)
 
-  7-LAYER FIDELITY GRADIENT (Feeling.md §2):
+  7-LAYER FIDELITY GRADIENT (Feeling.md v3.0 §2):
 
-    Layer 1: Raw body signals              100% fidelity
-    Layer 2: Integration (insula+ACC+VMPFC)  ~95%
-    Layer 3: Consciousification              ~90%
+    Feel-RawSignals: Raw body signals              100% fidelity
+    Feel-Integration: Integration (insula+ACC+VMPFC)  ~95%
+    Feel-Consciousification: Consciousification              ~90%
     ════════ PFC THRESHOLD ════════════════════════
-    Layer 4: Observation                     ~85%
-    Layer 5: Location                        70-90%
-    Layer 6: Labeling                        40-80%  ← CRITICAL LOSS
-    Layer 7: Explanation                     20-70%  ← MOST RISKY
+    Feel-Observation: Observation                     ~85%
+    Feel-Location: Location                        70-90%
+    Feel-Labeling: Labeling                        40-80%  ← CRITICAL LOSS
+    Feel-Explanation: Explanation                     20-70%  ← MOST RISKY
 
-    → Wise: trust Layer 3-4 (body noticeable, pre-label)
-    → Naive: trust Layer 6-7 (label + explanation = lossy nhất)
-    → Training = đưa attention ngược về Layer 3-4
+    → Wise: trust Feel-Consciousification-Feel-Observation (body noticeable, pre-label)
+    → Naive: trust Feel-Labeling-Feel-Explanation (label + explanation = lossy nhất)
+    → Training = đưa attention ngược về Feel-Consciousification-Feel-Observation
 
     🟡 % = calibration anchor, KHÔNG phải đo lường (§12.4).
-       Insight: fidelity GIẢM DẦN + drop critical ở L6-L7.
-       Mỗi người/domain/context → % thực tế khác.
 
   ⭐ PFC OBSERVATION THRESHOLD — 2 CHIỀU (magnitude × clarity):
 
-    Threshold KHÔNG chỉ phụ thuộc cường độ signal.
-    Còn phụ thuộc ĐỘ RÕ = f(chunk density cho lĩnh vực đó).
-
     MAGNITUDE = cường độ body signal (body-feedback generate):
-      → prediction-delta, nociception, mismatch, cortisol amplification
       → Cao: đau, sợ, phấn khích → signal loud → PFC khó bỏ qua
-      → Thấp: nagging unease nhẹ, vi sai nhỏ → signal quiet → dễ lọt
+      → Thấp: nagging unease nhẹ → signal quiet → dễ lọt
 
     CLARITY = chunk density cho phép PFC PHÂN BIỆT signal nói gì:
-      → Chunks tích lũy trong domain + self-signal interoception (§3.2.1)
       → Cao: expert biết chính xác "đây là gì" → detect dù magnitude nhẹ
-      → Thấp: novice thấy "có gì đó" nhưng không biết gì → cần mạnh mới notice
+      → Thấp: novice thấy "có gì đó" nhưng không biết gì
 
     ┌────────────┬──────────────────────┬──────────────────────────┐
     │            │ MỜ (ít chunks)        │ RÕ (nhiều chunks)         │
     ├────────────┼──────────────────────┼──────────────────────────┤
     │ MẠNH       │ PFC thấy nhưng mờ    │ PFC thấy rõ ràng         │
-    │ (cường độ  │ "có gì đó sai"       │ "cái này sai ở ĐÂY"     │
-    │  cao)      │ Vague anxiety,       │ Expert crisis response,  │
-    │            │ panic không rõ nguồn │ bác sĩ cấp cứu           │
+    │            │ "có gì đó sai"       │ "cái này sai ở ĐÂY"     │
     ├────────────┼──────────────────────┼──────────────────────────┤
     │ NHẸ        │ PFC không notice     │ PFC tinh tế phát hiện    │
-    │ (cường độ  │ Signal quá yếu +    │ Expert subtle detection:  │
-    │  thấp)     │ quá mờ → bỏ qua    │ chuyên gia xem tranh ở   │
-    │            │ hoàn toàn           │ chợ đồ cũ, sommelier      │
+    │            │ Signal quá yếu +    │ Expert subtle detection   │
+    │            │ quá mờ → bỏ qua    │ sommelier, chuyên gia     │
     └────────────┴──────────────────────┴──────────────────────────┘
 
     → Clarity CAO = HẠ magnitude threshold → expert "thấy nhiều hơn"
-    → Cùng input, cùng cường độ → expert thấy rõ, novice bỏ qua
-    → = Giải thích tại sao chuyên gia phát hiện patterns người khác miss
     → Self-signal interoception (§3.2.1) = clarity cho TOÀN BỘ feeling
-    → Alexithymia = clarity thấp cho self-signal → PFC "deaf" to own body
-    → Connection: H10 P2 "chunks base adequate" = clarity cho body-feedback
+    → Alexithymia = clarity thấp → PFC "deaf" to own body (🟢 Bird & Cook 2013)
+
+  COMPILED vs FRESH FEELING:
+    → Compiled feeling: body đã biết (chuyên gia → "cái này sai" tức thì)
+    → Fresh feeling: PFC mới observe lần đầu (novice → "có gì đó...")
+    → Compiled = faster, cheaper, more accurate (in familiar domains)
+    → Fresh = slower, expensive, but necessary for new domains
+    → Cùng mechanism, khác processing position trên Compiled/Fresh spectrum
 
   7 LOẠI FEELING (cùng mechanism):
     ① Body-physical: "đói", "mệt", "đau"
@@ -810,18 +960,12 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     ⑦ Schema-triggered: "bình yên khi về nhà"
     → TẤT CẢ = cùng mechanism: integrated body signal → PFC observe
 
-  6-POINT FEELING-INTUITION GRADIENT (Chunk.md §10):
-    ① Body Signal (clear, <100ms) → ⑥ Pre-monition (vague, hours)
-    → NOT discrete types — CONTINUOUS spectrum
-    → Expert intuition = position ④ but HIGH accuracy (calibrated chunks)
-    → Beginner gut feeling = position ③ but LOW accuracy (few chunks)
-
   TEMPORAL ORDER (invariant):
     Body compute FIRST → Feeling emerge → PFC observe LAST
     → 🟢 Damasio 1994, 1999: somatic markers PRECEDE conscious decision
     → Feeling KHÔNG tạo ra thông tin mới — feeling REPORT body state
 
-  Reference: Feeling.md v2.1 (full 14 sections)
+  Reference: Feeling.md v3.0 (full, PFC=Lawyer integrated)
 ```
 
 ---
@@ -833,11 +977,12 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 ```
 🟡🟢 PFC CÓ THỂ:
   → OBSERVE: đọc feeling, detect chunk activations
-  → HOLD: ~4±1 WM slots (🟢 Cowan 2001)
+  → HOLD: ~4±1 WM slots (🟢 Cowan 2001) — amplify target pattern
+  → SUPPRESS: block unwanted pattern (costly, unsustainable)
   → SEARCH: hold chunks → bias spreading activation direction
   → TYPE 4 LINKING: deliberate "thinking" (PFC hold A + B → check overlap → body vote)
-  → IMAGINATION: combine chunks → simulate scenarios chưa xảy ra
-  → DOMAIN-CHECK: verify "smooth" vs reality (1A vs 1B selection pressure)
+  → SIMULATION-ENGINE: run applications (Self-Pattern-Modeling, Imagine-Final, Self-Observation)
+  → DOMAIN-CHECK: verify "smooth" vs reality (Dual Check — §2)
   → ORCHESTRATE: hold goals → bias unconscious processing direction
 
 🟡🟢 PFC KHÔNG THỂ:
@@ -867,39 +1012,16 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
       → Vô thức đã compile [gõ c-o-n space c-h-ó]
       → Ngón tay tự gõ → PFC nhìn lại: đúng ✓
 
-    PFC hold "nói con chó":
-      → Vô thức đã compile [thanh quản + lưỡi + hơi thở]
-      → Miệng tự nói → PFC nghe lại: đúng ✓
-      → PFC KHÔNG nghĩ gì tới cổ họng
-
     Chuyên gia xem tranh ở chợ đồ cũ:
       → Lướt qua → vô thức match weak pattern "nét vẽ kỳ lạ"
-      → PFC notice → cầm lên, dùng kính lúp
+      → PFC notice → cầm lên, xem kỹ hơn
       → PFC CHỦ ĐỘNG amplify input cho vô thức (xem kỹ hơn)
       → Vô thức match SÂU hơn → "bức tranh đặc biệt thật"
       → PFC không "thấy" tranh đẹp — PFC hold attention → vô thức match → body reward
 
-    Đàm phán với đối tác:
-      → TRƯỚC: PFC pre-compile chunks (đọc sách, kinh nghiệm, rehearsal)
-      → TRONG: PFC hold 3 goals, switch qua lại:
-        ① "nói chuyện với đối tác"
-        ② "làm đối tác tin tưởng"
-        ③ "lợi ích tối đa"
-      → Vô thức đã có chunks cho từng goal → PFC chỉ direct attention
-      → PFC observe: "đang ok" hoặc "cần switch goal"
-
   KHI PFC BẤT LỰC:
-
-    Đói cực nặng → body-base signal quá mạnh:
-      → PFC hold "ăn lịch sự" nhưng signal overwhelm
-      → Vô thức override → ăn ngấu nghiến
-      → PFC KHÔNG ĐỦ "lực" override body-base signal mạnh
-
-    Gặp crush → body fire quá mạnh:
-      → Tim đập, rạo rực, ấp úng
-      → PFC hold "bình tĩnh" nhưng body overwhelm
-      → Chunks cho tình huống rạo rực quá mức CHƯA COMPILED
-      → Vô thức không có gì để run → PFC bất lực
+    Đói cực nặng → body-base signal quá mạnh → PFC hold "ăn lịch sự" nhưng overwhelm
+    Gặp crush → body fire quá mạnh → PFC hold "bình tĩnh" nhưng chunks chưa compiled
 
   → PFC effectiveness = f(chunks đã compiled cho tình huống đó)
   → Nhiều chunks → PFC chỉ hold direction, vô thức run
@@ -919,19 +1041,17 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     Active problem → PFC ~ 20-40% (Type 4 linking, search)
     High stakes → PFC ~ 40-70% (strategic hold, domain-check)
     Crisis → PFC ~ 70-95% (full engagement, override attempts)
-    Acute threat → NE α1 FREEZE — PFC offline tạm (ms, design feature, recover instant)
-    Chronic overload → Cortisol neural wear — PFC dendrite retraction (weeks+, DAMAGE)
+    Acute threat → NE α1 FREEZE — PFC offline tạm (ms, design feature)
+    Chronic overload → Cortisol neural wear — PFC dendrite retraction (DAMAGE)
 
   → "95% vô thức" = observation that MOST processing doesn't need PFC
-  → NOT "PFC only runs 5% of time"
   → PFC có thể tham gia bất cứ lúc nào nếu dissonance sufficient
-  → % trên mỗi level = calibration anchor (§12.4). Mỗi người/context → khác.
 ```
 
 ### §6.4 PFC Dynamic Configurations
 
 ```
-🟡 PFC KHÔNG PHẢI ON/OFF — CÓ 6 CONFIGURATION MODES (PFC-Configuration.md v1.0):
+🟡 PFC KHÔNG PHẢI ON/OFF — CÓ 6 CONFIGURATION MODES (PFC-Configuration.md v1.1):
 
   ① Normal: full function suite available
   ② Reallocation (Flow): task-serving ON, self-monitoring OFF — effortless
@@ -943,7 +1063,102 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   Configuration ≠ Participation (Drive.md §2). Orthogonal:
   "PFC bận CỠ NÀO" (participation) ≠ "PFC wired THẾ NÀO" (configuration).
 
-  Reference: PFC-Configuration.md v1.0 (full 24 Functions × 6 Modes matrix)
+  v1.1: +PTSD ④↔⑤ oscillation, +ADHD DMN interference (Config ① unstable)
+  Reference: PFC-Configuration.md v1.1
+```
+
+### §6.5 Simulation-Engine — 1 Engine, N Applications
+
+```
+🟡🟢 BRAIN CÓ 1 GENERAL-PURPOSE SIMULATION-ENGINE (Simulation-Engine.md v1.0):
+
+  KHÔNG PHẢI N modules riêng (empathy module, imagination module, self-reflection module).
+  TẤT CẢ = APPLICATIONS chạy trên CÙNG 1 ENGINE.
+
+  ENGINE = Constructive Simulation Substrate:
+    DMN + vMPFC + anterior insula + hippocampus
+
+  3 COMPONENTS:
+    ① Interoception (anterior insula): ĐỌC body signals
+    ② Constructive Simulation (DMN + hippocampus): RECOMBINE chunks vào scenarios
+    ③ Self/Other Model (mPFC gradient): VENTRAL = self+close, DORSAL = distant
+
+  3 AXES XÁC ĐỊNH APPLICATION:
+    Target (Self ↔ Other) × Time (Past ↔ Future) × Operation (Observe ↔ Construct)
+
+  APPLICATION = TỌA ĐỘ trong không gian 3 trục:
+
+    ┌─────────────────────────┬───────────┬────────┬──────────────────┐
+    │ Application             │ Target    │ Time   │ Operation        │
+    ├─────────────────────────┼───────────┼────────┼──────────────────┤
+    │ Self-Pattern-Modeling   │ Other     │ Present│ Simulate         │
+    │ Self-Observation        │ Self      │ Present│ Observe          │
+    │ Imagine-Final           │ Self      │ Future │ Simulate+Constr. │
+    │ Episodic Memory         │ Self      │ Past   │ Reconstruct      │
+    │ Counterfactual          │ Self      │ Past   │ Construct        │
+    │ Moral Judgment          │ Other     │ Future │ Simulate         │
+    │ Creativity              │ Abstract  │ Future │ Construct        │
+    └─────────────────────────┴───────────┴────────┴──────────────────┘
+
+  ⭐ DECISIVE PROOF — ALEXITHYMIA:
+    → Component ① (interoception) DAMAGED → ALL applications degrade
+    → Self-Pattern-Modeling kém, Imagine-Final mờ, Self-Observation yếu
+    → = CÙNG engine → 1 component hỏng → ALL apps affected (🟢 Bird & Cook 2013)
+
+  TRAINING IMPLICATION:
+    → Luyện 1 application → improve TOÀN BỘ (shared engine substrate)
+    → Mindfulness → tốt hơn ở Self-Pattern-Modeling VÀ Imagine-Final
+
+  mPFC GRADIENT = ENTITY-ACCESS NEURAL MIGRATION:
+    → Ventral mPFC = self + close entities (Entity-Access Mức 3-4)
+    → Dorsal mPFC = distant entities (Entity-Access Mức 0-1)
+    → Khi entity compile sâu → migrate từ dorsal → ventral
+    → = Entity-Access gradient CÓ neural correlate thật
+
+  Reference: Simulation-Engine.md v1.0 (900L, 27 citations)
+```
+
+### §6.6 PFC-Operations — Hold + Suppress + Budget
+
+```
+🟡 PFC CÓ 2 OPERATIONS CƠ BẢN (PFC-Operations.md v1.0):
+
+  ┌──────────────┬──────────────────────────────────────────────────────┐
+  │ Operation    │ Mechanism                                             │
+  ├──────────────┼──────────────────────────────────────────────────────┤
+  │ HOLD         │ Amplify target pattern (tăng activation)              │
+  │              │ CAN compile → sustainable (body learns over time)     │
+  │              │ Cost: moderate, giảm dần khi compile                  │
+  ├──────────────┼──────────────────────────────────────────────────────┤
+  │ SUPPRESS     │ Block unwanted pattern (giảm activation)              │
+  │              │ CANNOT compile "not" → unsustainable                  │
+  │              │ Cost: HIGH, KHÔNG giảm (phải hold liên tục)           │
+  │              │ = Tại sao "đừng nghĩ về con gấu trắng" thất bại     │
+  └──────────────┴──────────────────────────────────────────────────────┘
+
+  4 TỔ HỢP:
+    Hold old + Hold new → Genuine shift (ideal)
+    Hold new + Suppress old → Compiled suppress (common but fragile)
+    Hold old only → Stagnation (comfort zone)
+    Suppress old only → Depletion (futile)
+
+  3 OUTCOMES:
+    Genuine Shift: old pattern weakens naturally, new strengthens → permanent
+    Compiled Suppress: old stays, new blocks → fragile, relapse risk
+    Failure: PFC runs out of budget → old fires again
+
+  ⭐ PFC BUDGET = FINITE SHARED RESOURCE:
+    → PFC = universal resource: work, parenting, relationships, self-regulation
+    → Mệt ở work → Self-Pattern-Modeling cho con YẾU → KHÔNG phải "không yêu con"
+    → Parent-child = highest PFC cost (asymmetric: parent always monitors child)
+    → Budget recharges: sleep, rest, routine (compiled chunks = cheaper)
+
+  COMPILED QUALITY × PFC OPERATIONS:
+    → Genuine-compiled chunks: PFC can use efficiently (low cost)
+    → Schema-compiled chunks: PFC uses but with confabulation risk
+    → Threat-compiled chunks: PFC must suppress → HIGH cost, unstable
+
+  Reference: PFC-Operations.md v1.0 (30 citations)
 ```
 
 ---
@@ -989,68 +1204,67 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   │ Schema       │ Named chunk-network pattern (software "feature")      │
   │              │ Chunks + links + purpose = observation, not component  │
   ├──────────────┼──────────────────────────────────────────────────────┤
-  │ Novelty      │ Positive prediction-delta pattern                      │
-  │              │ Direct: đồ ăn ngon, cảnh đẹp, nhạc mới              │
-  │              │ Via Imagination: sáng tác, Einstein years of novelty  │
-  │              │ Tendency: người thích novelty X → xu hướng tiếp tục   │
+  │ Novelty      │ Positive prediction-delta pattern (Drive.md v1.2)     │
+  │              │ DRD4: depth vs breadth tradeoff                       │
+  │              │ 2 dạng: Sensory-Driven / Imagination-Driven           │
   ├──────────────┼──────────────────────────────────────────────────────┤
-  │ Threat       │ Dissonance from predicted harm                        │
-  │              │ Body-base signal + anticipatory schema fire            │
+  │ Threat       │ Dissonance from predicted harm (Threat.md v1.2)       │
+  │              │ 5 mức × 3 trục. Modern = anticipation-dominant        │
+  ├──────────────┼──────────────────────────────────────────────────────┤
+  │ Boredom      │ Unified formula: Dissonance + Imagine-Final mờ        │
+  │              │ (Boredom.md v2.0) 6 nguồn dissonance, Resonance Decline │
+  │              │ ⑥ By-product match dừng → resonance decay felt        │
   ├──────────────┼──────────────────────────────────────────────────────┤
   │ Status       │ Resource Access Map (Status.md v2.0)                  │
   │              │ Evolutionary: resource access = body-base reward THẬT │
   │              │ Spectrum: hổ(1D) → khỉ(hierarchy) → người(multi-dim) │
-  │              │ 3 modes: Lấy/Trao đổi/Comply                         │
-  │              │ Disruption→re-calibrate cycle                         │
   ├──────────────┼──────────────────────────────────────────────────────┤
   │ Protect      │ Loss aversion + ownership chunk patterns              │
-  │              │ "Tính sở hữu": tay tôi, con tôi, laptop tôi         │
-  │              │ Mức độ: laptop hỏng + đủ tiền mua mới → ok           │
-  │              │         laptop hỏng + không đủ tiền → ghét bạn       │
-  │              │ = f(perceived replaceability × attachment chunks)     │
+  │              │ (Protect.md v1.0) f(replaceability × attachment)      │
+  │              │ Vasopressin + cortisol threat-pull. Giving đối trọng  │
   ├──────────────┼──────────────────────────────────────────────────────┤
-  │ Connection   │ 3 Generative Primitives (Connection.md v3.1)          │
-  │              │ ❶ Hardware × ❷ Self-Pattern-Modeling Compiled/Fresh × ❸ Per-Agent Valence       │
-  │              │ 2-tầng: ❶ body-level pre-Self-Pattern-Modeling + ❷ Self-Pattern-Modeling adds precision  │
-  │              │ "Cô đơn" = ❶ social dissonance + no anchor override  │
+  │ Connection   │ 3 Generative Primitives (Connection.md v5.0)          │
+  │              │ ❶ Hardware × ❷ Self-Pattern-Modeling Compiled/Fresh    │
+  │              │ × ❸ Per-Agent Valence                                 │
+  │              │ Entity-Access gradient × connection spectrum           │
+  │              │ Hardware-Subsidy (MAX → NONE per entity type)          │
+  │              │ 4-Layer Sustainability model                          │
   ├──────────────┼──────────────────────────────────────────────────────┤
   │ Meaning      │ Life-level Anchor-Schema ổn định (Meaning.md v2.0)    │
   │              │ 5 types: GOAL/STATE/IDENTITY/FAITH/ROLE               │
   │              │ Mỗi người meaning KHÁC vì optimal anchor KHÁC        │
-  │              │ Frankl: cùng body-inputs, khác anchor → khác outcome  │
   ├──────────────┼──────────────────────────────────────────────────────┤
   │ Mastery      │ Domain chunk accumulation + sustained delta rule      │
-  │              │ Nhân viên tạp hóa + giáo sư toán: cùng math chunks,  │
-  │              │ cùng coherence khi tính xong, vị trí rất khác        │
+  │              │ Generative gap: fill → expand → new gap                │
   ├──────────────┼──────────────────────────────────────────────────────┤
-  │ Autonomy     │ Prediction accuracy pattern (agency feeling)          │
+  │ Autonomy     │ Prediction accuracy pattern (Autonomy.md + Hardware)   │
   │              │ "Tôi quyết định → kết quả tôi muốn" = high accuracy  │
-  │              │ "Bị ép buộc" = prediction override → dissonance       │
+  │              │ vmPFC + DRN controllability learning                   │
   ├──────────────┼──────────────────────────────────────────────────────┤
   │ Disgust      │ Gustatory/olfactory rejection threshold               │
   │              │ Hardware: rejection threshold innate                   │
   │              │ What triggers: heavily learned (cultural)              │
   ├──────────────┼──────────────────────────────────────────────────────┤
-  │ Melody       │ Emergent state of all systems running simultaneously │
-  │              │ Good Melody 4 criteria: hardware smooth + map accurate │
-  │              │ + map wide + sustainable long-term                     │
-  ├──────────────┼──────────────────────────────────────────────────────┤
   │ Gratitude    │ Tầng 5 observation (Gratitude.md v1.1)                │
   │              │ 9 prerequisites đồng thời, agent-entity only          │
   │              │ 3 anti-habituation mechanisms. "Cảm ơn" = body tool  │
   ├──────────────┼──────────────────────────────────────────────────────┤
-  │ Obligation   │ Compiled prediction về cost duy trì access           │
+  │ Obligation   │ Compiled prediction về cost maintain access           │
   │              │ (Obligation.md v1.0) 5-factor + StatusGap. 6 types   │
   │              │ Tiền = obligation technology. Access cost = mode shift│
   ├──────────────┼──────────────────────────────────────────────────────┤
+  │ Melody       │ Emergent state of all systems running simultaneously │
+  │              │ Good Melody 4 criteria: hardware smooth + map accurate │
+  │              │ + map wide + sustainable long-term                     │
+  ├──────────────┼──────────────────────────────────────────────────────┤
   │ Passion      │ When hardware pull + domain pull ALIGN (rare, quý)   │
+  │              │ Gap-Distribution-Profile alignment indicator           │
   └──────────────┴──────────────────────────────────────────────────────┘
 
   CROSS-SPECIES PATTERN:
     Ở động vật: hardware (hormone) → behavior trực tiếp
     Ở con người: hardware → chunk processing → behavior
     = Cùng hormones, nhưng chunk system phức tạp → override đáng kể
-    = Giải thích tại sao human behavior khó đoán hơn nhiều
 
   GIÁ TRỊ CỦA OBSERVATION PARAMETERS:
     → Predict patterns: người thích novelty X → xu hướng tiếp tục
@@ -1073,44 +1287,53 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   ┌────────────┬────────────────────────────────────────────────────────┐
   │ Stage      │ Chunk state → Behavior                                 │
   ├────────────┼────────────────────────────────────────────────────────┤
-  │ Newborn    │ Near-zero chunks (some prenatal compiled)              │
+  │ Newborn    │ Near-zero chunks (some prenatal compiled: auditory)    │
   │            │ → Gross reward/dissonance → cry/smile                  │
-  │            │ → PFC hardware online BUT chunks missing               │
+  │            │ → PFC hardware ONLINE BUT chunks missing               │
   │            │ → Pattern matching limbic (arousal contagion, NOT mirror)│
   ├────────────┼────────────────────────────────────────────────────────┤
   │ Infant     │ Proto-chunks building rapidly                          │
   │ (0-12mo)   │ → Visual arc, auditory arc, motor arc compiling       │
   │            │ → Social referencing start (6-9mo)                     │
-  │            │ → Body-state discrimination improving                  │
+  │            │ → Entity-Compiled begins: mẹ = first entity compiled  │
   ├────────────┼────────────────────────────────────────────────────────┤
   │ Toddler    │ Compiled chunks + self-other distinction              │
   │ (1-3yr)    │ → Rouge test (18-24mo, Amsterdam 1972)                │
-  │            │ → TRUE empathy starts (14-24mo, Warneken 2006)         │
-  │            │ → Verbal labels begin → feeling detection improves    │
-  │            │ → "Biết đói", "biết buồn đái" → chunks for body-state │
+  │            │ → TRUE Self-Pattern-Modeling starts (14-24mo, Warneken)│
+  │            │ → Verbal labels → feeling detection improves           │
   ├────────────┼────────────────────────────────────────────────────────┤
   │ Child      │ Language chunks + label system                        │
   │ (3-10yr)   │ → Logic-planning enabled via verbal anchors            │
   │            │ → Complex emotions: ấm ức, ghen tị, tự hào            │
-  │            │ → Theory of Mind deepening                             │
   │            │ → Cultural chunk installation accelerating             │
+  │            │ → Entity-Access developing: Mức 0-1 → Mức 2-3         │
   ├────────────┼────────────────────────────────────────────────────────┤
   │ Teen       │ Abstract chunks + identity schemas                    │
   │ (10-18yr)  │ → "Tôi là ai", "ý nghĩa cuộc đời"                   │
-  │            │ → Future planning via Imagination                      │
+  │            │ → Imagine-Final increasingly sophisticated             │
   │            │ → Domain specialization starting                       │
+  │            │ → Bond types diversifying (friendship, romantic emerge) │
   ├────────────┼────────────────────────────────────────────────────────┤
   │ Adult      │ Deep domain chunks + nuanced feeling                  │
   │            │ → Expert intuition in practiced domains               │
-  │            │ → Cross-domain linking possible                        │
-  │            │ → Chunk system override hormone significantly         │
+  │            │ → Entity-Compiled deep relationships (Mức 3-4)        │
+  │            │ → Compiled/Fresh ratio shifts toward Compiled          │
+  │            │ → PFC budget management = key adult skill              │
   ├────────────┼────────────────────────────────────────────────────────┤
   │ Expert     │ Deep + cross-domain → creative, accurate intuition    │
   │            │ → 50,000+ patterns (Chase & Simon 1973 chess)          │
   │            │ → Meta-chunks → PFC freed → fluid performance         │
   │            │ → Expertise = large trigger surface + novelty direction│
-  │            │   (Chunk.md §4.4: trauma = same mechanism, threat dir.)│
   └────────────┴────────────────────────────────────────────────────────┘
+
+  COMPILABLE ARCHITECTURE (Body-Base.md v3.2 §2, Inter-Body-Mechanism.md v1.1):
+    → Body hardware DESIGNED to compile (Compilable-dominant destination)
+    → Receptors → neurons → synaptic plasticity → Hebbian → compile
+    → 3-Layer Evolution: Hardware → Compiled → Cultural
+      Hardware: evolved specs (receptor sensitivity, hormone ratios)
+      Compiled: individual accumulated chunks (experience + expertise + trust)
+      Cultural: collective-maintained patterns (language, norms, institutions)
+    → = TẠI SAO body works this way: evolution selected for compilable architecture
 
   CRITICAL PERIODS:
     → Some baselines lock during sensitive periods
@@ -1149,52 +1372,91 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 
 ---
 
-## §11 — KEY REFRAMES TỪ V7.5
+## §11 — KEY REFRAMES
 
 ```
-📌 SUMMARY CÁC THAY ĐỔI SO VỚI V7.5:
+📌 REFRAMES LỚN — TỪ V7.5 QUA 28-SESSION DRILL:
 
-  1. L2 Quality layer REMOVED (Phase R reframe 2026-04-14)
+  V7.5 → V7.8 (10 reframes gốc):
+
+  1. L2 Quality layer REMOVED
      → "Quality channels" = L1 inputs với baseline shifted by delta rule
 
   2. L3 Drives COLLAPSED → observation parameters
-     → Novelty = positive prediction-delta pattern
-     → Status = self-assessment chunks + serotonin baseline
-     → Protect = loss aversion + ownership chunks
-     → ALL are emergent từ body-feedback + chunks, not separate operators
+     → Novelty, Status, Protect = emergent patterns, not separate operators
 
   3. Schema System → Chunk-System (sole substrate)
      → Schema = observation label cho chunk network patterns
-     → Analogy: features in software = observation, not architecture
 
-  4. Layer priority (L0>L1>L2>L3) → Signal strength
+  4. Layer priority → Signal strength
      → Loudest signal wins, regardless of "layer"
-     → L0 signals HAPPEN to be loudest (evolutionary design)
 
   5. Cross-cutting → Properties of cycle
-     → Cortisol = physical mechanism (amplifier, not component)
-     → Empathy = function on chunk substrate (Self-Pattern-Modeling, not module)
+     → Cortisol = physical mechanism, Empathy = function on chunk substrate
 
   6. Imagine (PFC layer) → PFC (component in cycle)
-     → PFC = observer + orchestrator
      → Imagination = one PFC function among several
 
   7. Connection (unclear position) → Solved
-     → L1 multi-input aggregate + attachment chunks
-     → No special component needed
+     → L1 multi-input aggregate + Entity-Compiled + attachment chunks
 
   8. Feeling (implicit) → Explicit bridge
-     → Feeling = interface between unconscious and PFC
-     → 7-layer fidelity gradient
-     → Critical position in cycle
+     → 7-layer fidelity gradient, critical position in cycle
 
   9. Development (unclear) → Chunk density trajectory
      → Same architecture, different chunk density
-     → PFC hardware online from birth (NT4)
 
   10. Architecture metaphor: Layers → Cycle
-      → From stack (priority ordering) to loop (continuous processing)
-      → Better matches actual brain-body mechanism
+      → From stack to loop. Better matches actual mechanism.
+
+  POST-DRILL REFRAMES (10 reframes mới từ 28-session drill):
+
+  11. Entity-Compiled = structural body-base integration
+      → Agent compile vào body ở STRUCTURAL level. Loss = amputation.
+      → KHÔNG chỉ "mối quan hệ" — là neural architecture thật.
+
+  12. Simulation-Engine = 1 engine, N applications
+      → Self-Pattern-Modeling, Imagine-Final, Self-Observation = CÙNG engine.
+      → Alexithymia = decisive proof. Luyện 1 → improve ALL.
+
+  13. PFC Budget = shared finite resource
+      → Mệt work → kém parenting. KHÔNG phải "không yêu" — là hết budget.
+      → Hold vs Suppress: Hold CAN compile, Suppress CANNOT.
+
+  14. Compiled Quality = compile-time lock
+      → Genuine vs Schema vs Threat. Cùng "compiled" nhưng KHÁC tag suốt đời.
+      → Explains: tại sao trust compile dễ confabulate, threat compile dễ trigger.
+
+  15. Hardware-Subsidy = body subsidize entity processing
+      → Mẹ→con MAX, romantic TEMP, bạn NONE.
+      → = TẠI SAO mẹ không "chán" con. Friendship decay FAST vì zero subsidy.
+
+  16. 3 Satiation Types = Cyclic / Tonic / Generative
+      → KHÔNG phải tất cả gaps giống nhau. "Chán nhau" = Cyclic gap filled.
+      → Technology fills Cyclic/Tonic → frontier = Generative.
+
+  17. Entity-Access gradient = Mức 0-5
+      → KHÔNG binary "yêu/không yêu" — là GRADIENT liên tục.
+      → Entity-Owned = PFC LABEL cho Mức 4-5 (observation, NOT mechanism).
+
+  18. Evaluative vs Direct-State Reward
+      → 2 hệ reward KHÁC NHAU. Berridge chỉ study Evaluative (opioid).
+      → Direct-State = burnout-proof, hardware, always available.
+
+  19. Resonance Decline = 2 Forces + 1 Fuel
+      → Resonance GIẢM theo thời gian = NORMAL (Compiled-Suppress + Reward-Habituated + novelty threshold).
+      → Gap clone IMPOSSIBLE. True understanding = anti-compiled-suppress.
+
+  20. Self-Pattern-Match → Self-Pattern-Modeling
+      → Rename: "Match" implies passive. "Modeling" = active constructive process.
+      → = Simulation-Engine-APPLICATION-1, KHÔNG phải standalone module.
+
+  21. Evaluative/Direct-State = GENERAL body-feedback dimension (cả reward VÀ dissonance)
+      → Reward-Signal-Architecture v2.0 chỉ defined cho reward. Dissonance-Signal-Architecture v1.0 extends cho dissonance.
+      → Cùng architecture (Evaluative/Direct-State, insula gradient, E₀→E₃).
+      → Khác neurochemistry: reward = opioid/CT/eCB, dissonance = substance P/dACC/CRH.
+      → Evaluative Gates Direct-State = GENERAL mechanism (Placebo/Nocebo = proof).
+      → Numbness-proof (dissonance) parallel burnout-proof (reward) = 2 sàn tiến hóa.
 ```
 
 ---
@@ -1210,21 +1472,34 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   → Chunk-System as sole substrate (simplification + accuracy)
   → Observation parameters replacing component taxonomy
   → PFC as observer + indirect orchestrator
-  → Development as chunk density trajectory
-  → Body-Feedback 2-signal model (reward/dissonance)
-  → H10 5-precondition hypothesis
+  → Simulation-Engine: 1 engine, N applications (unified substrate)
+  → Entity-Compiled: structural body-base integration
+  → Entity-Access gradient Mức 0-5 (continuous, not binary)
+  → Hardware-Subsidy spectrum per entity type
+  → 3 Satiation Types (Cyclic/Tonic/Generative)
+  → Compiled Quality dimension (genuine/schema/threat)
+  → PFC Budget as shared finite resource
+  → Evaluative vs Direct-State Reward (2 independent systems)
+  → Bond-Architecture: 1 mechanism × 4 configurations
+  → Resonance Decline 2 Forces + 1 Fuel (gap clone impossible)
+  → Body-Feedback 2-signal model + 4 axes classification
+  → Body-Feedback-Precondition 5-precondition hypothesis
   → Dual-Pull architecture
   → Signal strength replacing layer priority
-  → "Schema = observation label" reframe
+  → Dual Check: body = quality controller, domain = arbiter
+  → 3 Domain Types (Reality/Abstract/Abstract-Dynamic)
+  → Development as chunk density trajectory
 
 🟢 EMPIRICAL GROUNDING:
 
-  → 13 reference files, all compatible
-  → 63,000+ dòng deep analysis across 44+ files
-  → ~80 research citations across 16 topic areas
+  → 130+ files, 35,000+ dòng phân tích chuyên sâu
+  → 500+ research citations across 30+ topic areas
+  → 28-session drill + 6-session foundation rewrite
   → 15/15 case tests PASS (Phase R)
   → 50 extreme cases analyzed (Body-Base-Example.md)
-  → Hall 2019 NIH = direct empirical validation
+  → Hall 2019 NIH = direct empirical validation (delta rule)
+  → Alexithymia = decisive proof (Simulation-Engine shared substrate)
+  → Cross-species patterns validated (Berridge, Panksepp, Schultz)
 ```
 
 ### §12.2 Cái framework này KHÔNG provides
@@ -1238,46 +1513,45 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   → Biomarker specifications (architecture, not measurement)
   → Dose-response cho interventions (future + empirical work)
   → Consciousness/qualia explanation (out of scope)
+  → Precise boundary L0↔L1 transition mechanism (neuroscience open question)
+  → Quantitative: khi nào PFC override thành công vs thất bại
 ```
 
 ### §12.3 Open questions
 
 ```
-✅ RESOLVED (1/10):
+✅ RESOLVED từ v1.0 (qua 28-session drill):
 
-  3. Collective architectures scope limit (Gap 3)
-     → ✅ RESOLVED — Collective-Body.md v1.1 (Model 3 cấp, 1,259L)
+  3. Collective architectures scope → ✅ Collective-Body.md v2.1 (Model 3 cấp)
+  4. Schema-body coupling → ✅ Body-Coupling.md v3.0 (full mechanism)
+  7. How PFC "hold" biases spreading activation → ✅ PFC-Operations.md v1.0
 
-🟡 PARTIALLY RESOLVED (5/10):
+🟡 PARTIALLY RESOLVED:
 
-  1. Meaning cases not directly tested (B21-B23, Gap 1 từ Phase R)
-     → PARTIALLY — B21-B23 tested in Body-Base-Example.md + Meaning.md v2.0 (5 types, anchor-schema)
-     Remaining: Phase R original test protocol not replicated
-  2. Mastery compound under-specified (Gap 2)
-     → PARTIALLY — Autonomy.md §4.7 (Mastery = Competence + Autonomy compound, approach/avoidance tag)
-     Remaining: quantitative accumulation thresholds
-  4. Schema-body coupling via predictive processing (Gap 4)
-     → PARTIALLY — Body-Coupling.md v1.1 (2D Depth×Direction, 3 Phase, compile rate mechanism)
-     Remaining: underlying predictive processing neuroscience detail
-  7. How exactly PFC "hold" biases spreading activation (mechanism detail)
-     → PARTIALLY — PFC-Function.md ⑯ (functional level: hold → bias → cortical amplify)
-     Remaining: neural circuit specifics (TRN gating, subregion projections)
+  1. Meaning cases not directly tested (B21-B23)
+     → Meaning.md v2.0 (5 types, anchor-schema). Original test protocol chưa replicate.
+  2. Mastery compound under-specified
+     → Autonomy.md §4.7 + Gap-Body-Need v1.0 (Generative gap). Quantitative thresholds missing.
   9. Whether observation parameters list is complete
-     → PARTIALLY — 14 params total (+Gratitude v1.1, +Obligation v1.0 added to §8)
-     Remaining: no formal closure — list may expand
+     → 15 params (§8). No formal closure — list may expand.
 
-🔴 STILL OPEN (4/10):
+🔴 STILL OPEN:
 
-  5. Cultural specificity beyond amplification (Gap 5)
-     WHERE culture acts identified (schema compilation, role, obligation types) — cross-cultural data lacking
-  6. Precise boundary between L0 reflex và L1 processing
-     Timescale known (ms vs 100ms) — transition mechanism = neuroscience open question
-  8. Protect parameter: hormone contribution vs chunk contribution ratio
+  5. Cultural specificity beyond amplification
+     WHERE culture acts identified — cross-cultural data lacking
+  6. Precise boundary L0 reflex vs L1 processing
+     Timescale known (ms vs 100ms) — transition mechanism = open
+  8. Protect parameter: hormone vs chunk contribution ratio
      Position: vasopressin SET bias, chunks DETERMINE expression — exact ratio unknown
-     Needs: pharmacological studies + behavioral correlation
-  10. Quantitative: khi nào PFC override thành công vs thất bại
-     Factors identified: f(PFC hold strength, body signal intensity, compiled chunks)
-     PFC-Configuration.md v1.0 maps 6 modes — quantitative thresholds missing
+
+🟡 NEW QUESTIONS (post-drill):
+
+  11. Entity-Compiled capacity: can chunk capacity expand with training?
+      Dunbar ceiling (3 mechanisms) suggests NO — but training can increase EFFICIENCY
+  12. Hardware-Subsidy: precise oxytocin→VTA habituation mechanism?
+      Position described, molecular pathway detail = open
+  13. Compiled Quality: can threat-compiled be re-tagged?
+      PFC-Operations suggests 6-step reversal pathway — empirical validation needed
 ```
 
 ### §12.4 Number Convention
@@ -1296,29 +1570,16 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 
   VÍ DỤ:
     "~95% vô thức / ~5% PFC"
-      → INSIGHT: phần lớn processing KHÔNG cần PFC. PFC = phần nhỏ.
+      → INSIGHT: phần lớn processing KHÔNG cần PFC.
       → KHÔNG PHẢI: PFC chính xác chạy 5.0% thời gian.
-      → Context khác → tỷ lệ khác (§6.3: PFC 0-95% tùy dissonance level).
 
     "7-layer fidelity: 100% → ... → 20-70%"
-      → INSIGHT: fidelity GIẢM DẦN qua processing. Drop lớn ở labeling + explanation.
-      → KHÔNG PHẢI: Layer 4 luôn chính xác 85% cho tất cả mọi người.
-      → Người có chunk density cao cho domain đó → fidelity cao hơn.
+      → INSIGHT: fidelity GIẢM DẦN. Drop critical ở labeling + explanation.
+      → KHÔNG PHẢI: Feel-Observation luôn chính xác 85% cho tất cả mọi người.
 
     "~90% Experience Compile / ~5% Expertise Compile"
       → INSIGHT: PHẦN LỚN behavior = direct compiled. Expertise = phần nhỏ.
       → KHÔNG PHẢI: chính xác 90.0% behavior là Experience Compile.
-      → Overlap Experience/Trust → không cộng thành 100% (Compile-Taxonomy.md §3).
-
-  TẠI SAO GIỮ SỐ:
-    → "Phần lớn" quá mơ hồ → không giúp calibrate
-    → "~95%" cho directional anchor rõ ràng → giúp người đọc ước lượng
-    → Con số = CÔNG CỤ giao tiếp, không phải claim chính xác
-
-  TẠI SAO KHÔNG ÉP CHẶT:
-    → Mỗi người khác: chunk density, hardware config (COMT, MAO-A), experience history
-    → Mỗi context khác: stress level, sleep, environment, social, domain familiarity
-    → Cùng mechanism, khác inputs → khác outputs → KHÔNG CÓ 1 số đúng cho tất cả
 
   → Đọc số trong framework = đọc HƯỚNG + CỠ, không đọc measurement.
 ```
@@ -1327,81 +1588,177 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 
 ## §13 — CROSS-REFERENCES
 
-### §13.1 Hai bản đồ khác
+### §13.1 Bản đồ khác + Tương tác
 
 ```
   Core-Hardware.md              — CÁI GÌ ở ĐÂU: 4 zones A/B/C/D, PFC hardware specs, receptors
-  Core-Interface.md             — QUAN SÁT + TƯƠNG TÁC: observer perspective, practical principles
+  Ask-AI.md v3.1                — TƯƠNG TÁC: AI generate dynamic interface per user (protocol + navigation)
 ```
 
-### §13.2 Core mechanism files (đọc song song)
+### §13.2 Body-Base (foundation)
 
 ```
-  Chunk.md v2.1               — chunk substrate, trust gate, pattern hierarchy
-  Body-Feedback.md            — dual-pull, H10, 3 nguồn, cases
-  Body-Feedback-Mechanism.md v1.2 — 4th axis: chunk dynamics classification
-  Feeling.md v2.1             — PFC observation interface, 7-layer, Evaluative/Direct-State
-  Agent-Mechanism.md v1.0     — agent = function on chunks, Self-Pattern-Modeling + Resonance
-  Self-Pattern-Modeling.md v2.3                 — 2 Functions Compiled/Fresh, valence gate, professional Self-Pattern-Modeling
-  Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, 5 Profiles, Evaluative Gates Direct-State, Interaction Model
-  PFC-Configuration.md v1.0   — 6 dynamic modes, survival matrix, Evaluative→Direct-State transition
-  PFC-Function.md v1.1        — 24 functions, confabulation, proxy trigger
-  Empathy.md v2.0             — Self-Pattern-Modeling applied, 2-luồng, burnout, moral injury
-  Valence-Propagation.md v1.4 — body evaluation + chain + Valence-Propagation §4 clarification
-  Cortisol-Baseline.md v2.0   — amplifier, direction gate, 7 modes
-  Body-Base.md v3.1           — Model 3+1, 2-tier + 2-pathway calibration, circuit breaker
-  Compile-Taxonomy.md v2.0    — 3 Compile Types, 4 pathways, 6 trade-offs
-  Collective-Body.md v1.1     — Model 3 cấp, trust = only bridge, AI era
-  Body-Coupling.md v1.1       — 2D Depth×Direction, L2 phenomenology
-  Connection.md v3.1          — 3 Generative Primitives, 2-tầng, 2-luồng
+  Body-Base/Body-Base.md v3.2              — Entry point, Model 3+1, Compilable Architecture
+  Body-Base/Why-Body-Knows.md v1.2         — TẠI SAO body check đáng tin
+  Body-Base/Cortisol-Baseline.md v2.1      — Amplifier, direction gate, 7 modes, HPA paradox
+  Body-Base/Valence-Propagation.md v3.0    — Structural/Current, 3 Firing Modes, Hardware-Subsidy
+  Body-Base/Body-Coupling.md v3.0          — HOW body couples with entity, 4 bond types
+  Body-Base/Inter-Body-Mechanism.md v1.1   — Source-of-truth: 8 inter-body principles
 ```
 
-### §13.3 Evidence files
+### §13.3 Chunk system
 
 ```
-  Body-Base-Example.md        — 50 extreme cases, cross-case synthesis
-  Body-Base-Deep-Cases.md     — 2 deep cases multi-angle triangulation
-  Body-Input-Enumeration.md   — 17 body-inputs, delta rule, 15/15 case test
-  Feel-Example-Draft.md       — 124 feeling examples developmental
-  Chunk/Child-Chunk-Development/ — 12 files, developmental arcs
+  Chunk/Chunk.md v2.3                      — Chunk substrate, trust gate, pattern hierarchy
+  Chunk/Compile-Taxonomy.md v2.0           — 3 Compile Types, 4 pathways, 6 trade-offs
+  Chunk/Background-Pattern.md v2.0         — Accumulated chunk bias invisible to PFC
 ```
 
-### §13.4 Application files
+### §13.4 Agent-Mechanism (11 files)
 
 ```
-  AI-Schema-Detection.md v2.0  — GATEWAY: 9 AI capabilities, compile type, self-drill
-  Body-Personal-Optimization.md — personal tuning
-  Body-Parenting-Optimization.md — parenting application
-  Research/Education/           — education applications (Mechanism + Domain-Map + Empathy-Education)
-  Research/Child-Development/   — child development applications (4 files v7.8-aligned)
+  Agent-Mechanism/Agent-Mechanism.md v2.1      — Integration hub, Compilable Architecture
+  Agent-Mechanism/Self-Pattern-Modeling.md v3.1 — 1 mech × 3 dims, Compiled/Fresh, Simulation-Engine-APPLICATION-1
+  Agent-Mechanism/By-Product-Gap-Resonance.md v1.4 — Mutual match, 4 conditions, Resonance Decline
+  Agent-Mechanism/Entity-Compiled.md v1.0       — Hub-and-spoke, 40→200h, Dunbar, grief
+  Agent-Mechanism/Entity-Access.md v1.2         — Gradient Mức 0-5, 3-Factor Model
+  Agent-Mechanism/Entity-Access-Excess.md v1.0  — Excess territory, addiction spectrum
+  Agent-Mechanism/Entity-Access-Calibration.md v1.0 — 3-Layer self-regulation
+  Agent-Mechanism/Bond-Architecture.md v2.0     — 1 mech × 4 bonds, gap clone impossible
+  Agent-Mechanism/Resonance-Sustainability.md v1.0 — 4-Layer, 3 conditions, 3 modalities
+  Agent-Mechanism/By-Product-Scale.md v1.0      — 1 mech × 3 scales (Pair/Hub/Institutional)
+  Agent-Mechanism/Resonance-Per-Entity.md v1.0  — Per-relationship dynamics, Hardware-Subsidy spectrum
 ```
 
-### §13.5 Superseded files
+### §13.5 Body-Feedback (10+ files)
 
 ```
-  Core-v7.8-Draft.md v0.2       → backup (_backup/Core-v7.8-Draft-pre-3maps.md)
-  Core-v7.5-Draft.md            → backup (layer-based architecture)
-  Domain/backup/Object-Agent.md → replaced by Agent.md
-  Core-Deep-Dive/backup/Empathy-Mirror.md → replaced by Empathy.md
-  Feeling/backup/ (old files)  → replaced by v2.0 files
+  Body-Feedback/Body-Feedback.md               — Dual-Pull, Body-Feedback-Precondition, Interface Loop
+  Body-Feedback/Body-Feedback-Precondition.md v1.0 — 5 preconditions for signal fire
+  Body-Feedback/Body-Feedback-Mechanism.md v2.0 — 4th axis, chunk dynamics, Body-Need
+  Body-Feedback/Body-Feedback-Label.md v2.0     — Vocabulary reference, 3-tier labels
+  Body-Feedback/Gap-Direction.md v2.0           — Gap = f(surrounding chunks)
+  Body-Feedback/Gap-Distribution-Profile.md v1.1— Per-person gap landscape
+  Body-Feedback/Gap-Body-Need.md v1.0           — 3 Satiation Types, ENGINE/ROAD/VEHICLE
+  Body-Feedback/Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, E₀→E₃
+  Body-Feedback/Reward-Calibration.md v1.1      — Goldilocks per-gap, over-reward
+  Body-Feedback/Hidden-Quality-Perception.md v1.0 — "Mặt lưng cái tủ"
+  Body-Feedback/Action-Space.md v1.0            — Supply-side capability landscape
+```
+
+### §13.6 Feeling
+
+```
+  Feeling/Feeling.md v3.0                  — PFC observation interface, 7-layer, PFC=Lawyer
+  Feeling/Feeling-Research.md              — 7+ research stream foundation
+  Feeling/Feeling-Mechanism-Deep-Draft.md  — HOW body signals → felt experience end-to-end
+```
+
+### §13.7 PFC
+
+```
+  PFC/PFC-Function.md v1.2                — 24 functions × 5 categories
+  PFC/PFC-Hardware.md v1.1                — 4 receptor systems, COMT/DRD4
+  PFC/PFC-Configuration.md v1.1           — 6 dynamic modes, PTSD, ADHD
+  PFC/PFC-Operations.md v1.0              — Hold/Suppress, Budget, Compiled Quality
+  PFC/PFC-Label.md v1.0                   — Vocabulary reference, 13 domains
+  PFC/Simulation-Engine.md v1.0           — 1 engine, 3 components, 3 axes, N apps
+  PFC/Logic-Feeling.md v4.0               — Body-Knowing + Compiled/Fresh spectrum, observer labels
+  PFC/Logic-Feeling-Balance.md v1.0       — Meta-principle: domain feedback = only arbiter
+  PFC/Imagination/Imagine-Final.md v3.0   — Constructive simulation, boundary reframe
+  PFC/Imagination/Imagination.md v2.0     — Process file, 5 modalities, cortisol×modes
+```
+
+### §13.8 Observation files
+
+```
+  Observation/Novelty.md v1.2              — Positive prediction-delta, DRD4
+  Observation/Threat.md v1.2               — Dissonance from predicted harm
+  Observation/Boredom.md v2.0              — Unified formula, 6 sources, Resonance Decline
+  Observation/Drive.md v1.2                — Integration: HOW drives combine
+  Observation/Empathy.md v4.0              — Self-Pattern-Modeling applied, PFC budget, 4-Layer
+  Observation/Connection.md v5.0           — 3 Generative Primitives, Entity-Access, Hardware-Subsidy
+  Observation/Status.md v2.0               — Resource Access Map, multi-dimensional
+  Observation/Protect.md v1.0              — Loss aversion + ownership
+  Observation/Meaning.md v2.0              — Life-level Anchor-Schema, 5 types
+  Observation/Gratitude.md v1.1            — Tầng 5, 9 prerequisites
+  Observation/Obligation.md v1.0           — Access cost, 6 types, tiền = technology
+  Observation/Liking-Wanting.md v2.0       — Bridge Berridge→framework
+  Observation/AI-Schema-Detection.md v2.0  — Gateway: 9 AI capabilities, self-drill
+```
+
+### §13.9 Domain
+
+```
+  Domain/Domain.md v2.0                    — 3 Types, Dual Check, 3 Nguồn Constraint
+  Domain/Conflict-Dynamics.md v2.0         — OVERLAP × SCARCITY × COMMITMENT
+  Domain/Drill-Emergent-Pattern.md v2.0    — Enemy, Nurturing, Violation
+  Domain/Domain-Mapping-Drive.md v2.0      — WHY humans drive to map domain
+```
+
+### §13.10 Collective
+
+```
+  Collective/Collective.md v1.0            — Integration hub, 5 con đường
+  Collective/Collective-Body.md v2.1       — Model 3 cấp, trust = only bridge
+  Collective/Coordination-Node.md v1.2     — Prestige vs Dominance, Mẹ = first node
+  Collective/Collective-Arc-Dynamics.md v1.2 — Shelf-life × constraint source
+  Collective/Collective-Purpose.md v1.2    — Cosmic loop, humanity maps domain
+  Collective/Compliance-Floor.md v2.1      — Luật tối thiểu
+```
+
+### §13.11 Schema + Melody + Evidence
+
+```
+  Schema/Schema.md v2.0                    — Observation parameter reframe
+  Schema/Anchor-Schema.md                  — Sync point, 4 nguồn fill
+  Melody Lens/Personal-Melody.md v2.0      — Metaphor: mỗi người = 1 bài nhạc
+  Body-Base-Example.md                     — 50 extreme cases
+  Body-Input-Enumeration.md               — 17 body-inputs, delta rule, 15/15 tests
+```
+
+### §13.12 Application files
+
+```
+  AI-Schema-Detection.md v2.0              — Gateway: self-drill, AI guardrails
+  AI-Self-Model.md v2.0                    — Dual Check, stale calibration
+  Ask-AI.md v3.1                           — Dual Check protocol (body + domain)
+  Research/Education/                      — 5 education files
+  Research/Child-Development/              — 4 child development files
+```
+
+### §13.13 Superseded files
+
+```
+  Core-v7.8-Draft.md v0.2                  → backup (_backup/Core-v7.8-Draft-pre-3maps.md)
+  Core-v7.5-Draft.md                       → backup (layer-based architecture)
+  Core-Software.md v1.0                    → backup/Core-Software-v1.0-backup.md
 ```
 
 ---
 
 ## Closing note
 
-**Core-Software v1.0** — 1 trong 3 bản đồ Core v7.8.
+**Core-Software v2.2** — 1 trong 2 bản đồ Core v7.8.
 
 Bản đồ phần mềm mô tả CHI TIẾT NHẤT cách body-brain system HOẠT ĐỘNG.
-Cycle-based architecture emerge từ 63,000+ dòng phân tích chuyên sâu.
-13/13 mechanism files compatible. Architecture stable. Detail deepens with each drill.
+Cycle-based architecture emerge từ 35,000+ dòng phân tích chuyên sâu (130+ files, 500+ citations).
+v2.0 tích hợp 14 concept mới từ 28-session drill + 6-session foundation rewrite:
+Simulation-Engine, Entity-Compiled, Entity-Access, Bond-Architecture, Hardware-Subsidy,
+3 Satiation Types, PFC-Operations, Compiled Quality, Resonance Decline, By-Product-Scale,
+Resonance-Sustainability, Phantom 4-factor, Domain Types, Evaluative/Direct-State.
 
 Muốn biết CÁI GÌ ở ĐÂU → Core-Hardware.md.
-Muốn QUAN SÁT + TƯƠNG TÁC → Core-Interface.md.
+Muốn TƯƠNG TÁC với framework → Ask-AI.md (AI generate dynamic interface per user).
 
-> *Core-Software — "Perception-Action Cycle: Domain → Body-Input → Unconscious(Chunks) →
-> Feeling → PFC → Body-Output → Domain. Chunks = sole substrate. Body-Feedback = reward
-> hoặc dissonance. PFC = observer + indirect orchestrator. Schema, Drives = observation
-> parameters. Development = chunk density. 3 Compile Types (Experience/Expertise/Trust) on same substrate.
-> Model 3+1 (Unconscious + PFC + Trust + Tools). Individual = Cấp 1, Collective = Cấp 2.
-> Trust = only bridge. Framework iterates."*
+> *Core-Software v2.0 — "Perception-Action Cycle: Domain → Body-Input → Unconscious(Chunks) →
+> Feeling → PFC → Body-Output → Domain. Chunks = sole substrate. Simulation-Engine = 1 engine,
+> N applications (Self-Pattern-Modeling, Imagine-Final, Self-Observation). Body-Feedback = Evaluative
+> reward (opioid, Body-Feedback-Precondition) + Direct-State reward (non-opioid, burnout-proof) + Dissonance.
+> PFC = observer + orchestrator (Hold/Suppress, Budget, Compiled Quality).
+> Entity-Compiled = structural body-base integration. Entity-Access Mức 0-5.
+> Bond-Architecture = 1 mechanism × 4 bonds. Hardware-Subsidy per entity.
+> 3 Satiation Types. Resonance Decline. Schema, Drives = observation parameters.
+> Development = chunk density. 3 Domain Types + Dual Check.
+> Model 3+1. Cấp 1 Individual, Cấp 2 Collective. Trust = only bridge.
+> 20 key reframes. Framework iterates."*

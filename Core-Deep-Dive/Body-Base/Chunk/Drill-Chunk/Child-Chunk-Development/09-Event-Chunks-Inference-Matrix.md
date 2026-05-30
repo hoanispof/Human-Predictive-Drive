@@ -477,7 +477,7 @@ Approximate ages at which each arc reaches each ladder level:
 | Nút Thắt | Primary home | Supporting events | Verdict readiness |
 |---|---|---|---|
 | **1 Proto-chunk gradient** | [04 §6.4](04-Auditory-System-Arc.md#§6.4) | A5 phoneme narrowing (primary), V5-V9 visual gradient, M14-M21 motor gradient, B3-B4 bladder gradient, Ve2-Ve6 verbal gradient | ⭐ **PRIMARY VERDICT COMMITTED** N+4b |
-| **2 P2 Chunks Base Adequacy** | [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) + [06b §6.2](06b-Interoceptive-Other-States.md#§6.2) | B1-B7 full ladder traversal (primary), H1-H5 hunger (validation), P1-P4 pain, T1-T4 thermal, Em1-Em5 emotional (5-for-5 ordinal ranking) | ⭐ **PRIMARY VERDICT COMMITTED** N+4c1 (4-channel compile × 4-parameter formula) |
+| **2 Precondition-2 Chunk-Substrate** | [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) + [06b §6.2](06b-Interoceptive-Other-States.md#§6.2) | B1-B7 full ladder traversal (primary), H1-H5 hunger (validation), P1-P4 pain, T1-T4 thermal, Em1-Em5 emotional (5-for-5 ordinal ranking) | ⭐ **PRIMARY VERDICT COMMITTED** N+4c1 (4-channel compile × 4-parameter formula) |
 | **3 Multi-modal binding** | [07 §6](07-Social-Recognition-Arc.md#§6) | S4 E12 social smile (keystone), S3 E9 cry contagion (anti-hardware-mirror), S5 E13 smile contagion (timing lag), V4/S6 mother recognition, Ve6 "mama" referential | ⭐ **PRIMARY VERDICT COMMITTED** N+4c1 (4-mechanism concurrent) |
 | **4 PFC hardware × chunks missing** | [01](01-PFC-Hardware-Reframe.md) + all arcs | 10 L2 markers (see §3.3) + non-uniform progression evidence (§3.6) + every arc file event-inference methodology application | ⭐ **COMMITTED** in 01; reinforced by all arcs |
 | **5 Receptive-Productive H11** | [08 §6](08-Verbal-Production-Arc.md#§6) | 7 converging lines (A6-A8 name gap + M11 gesture-verbal + B4-B6 bladder + H2-H5 hunger + P2-P4 pain + T-truncated + Em1-Em5 emotional) | ⭐ **PRIMARY VERDICT COMMITTED** N+4c2 (H11 formal statement + 7 predictions + 4 rejections) |
@@ -490,8 +490,8 @@ Approximate ages at which each arc reaches each ladder level:
 
 Some events contribute to multiple Nút Thắt simultaneously:
 
-- **B4 Bladder đơ mặt L2** contributes to Nút Thắt 1 (gradient evidence), 2 (P2 compile mechanism anchor), 4 (⭐ cleanest L2 marker), 7 (body-state-at-compile test case, 4-threshold gradient keystone), 5 (H11 line 3), reinforcing multiple verdicts with one event.
-- **S4 E12 social smile L2** contributes to Nút Thắt 1 (gradient), 2 (P2 compile mechanism via multi-mod richness), 3 (⭐ keystone), 4 (L2 marker via Em3/S4), showing the interconnected nature of the framework commitments.
+- **B4 Bladder đơ mặt L2** contributes to Nút Thắt 1 (gradient evidence), 2 (Precondition-2 compile mechanism anchor), 4 (⭐ cleanest L2 marker), 7 (body-state-at-compile test case, 4-threshold gradient keystone), 5 (H11 line 3), reinforcing multiple verdicts with one event.
+- **S4 E12 social smile L2** contributes to Nút Thắt 1 (gradient), 2 (Precondition-2 compile mechanism via multi-mod richness), 3 (⭐ keystone), 4 (L2 marker via Em3/S4), showing the interconnected nature of the framework commitments.
 - **A5 Phoneme narrowing** contributes to Nút Thắt 1 (⭐ primary gradient evidence) + 4 (pattern-match L2 without PFC maturation).
 
 This interconnection is not a design flaw — it reflects the fact that developmental events have multiple interpretive angles.
@@ -691,7 +691,7 @@ Aggregated from arc files. Finalized in [10-F1-Synthesis.md](10-F1-Synthesis.md)
 
 - **R-F1-3**: Commit multi-mechanism cross-modal binding (4 concurrent mechanisms) architectural commitment in [Body-Base/Schema/Chunk.md](../../Body-Base/Schema/Chunk.md) §2. **Fully formalized** in [07 §6](07-Social-Recognition-Arc.md#§6). Ready for Schema/Chunk update.
 
-- **R-F1-4**: Update [Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5 P2 mechanism with F1 substrate evidence (cross-link with 4-channel compile × 4-parameter rate formula from [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6)).
+- **R-F1-4**: Update [Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5 Precondition-2 mechanism with F1 substrate evidence (cross-link with 4-channel compile × 4-parameter rate formula from [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6)).
 
 - **R-F1-5**: Update [Body-Base/Feeling/Feel-Example-Draft.md](../../Body-Base/Feeling/Feel-Example-Draft.md) with cross-references to F1 event analyses.
 
@@ -728,7 +728,7 @@ Aggregated from arc files. Finalized in [10-F1-Synthesis.md](10-F1-Synthesis.md)
 ### §9.2 — Upstream framework files
 
 - [../../Body-Base/Schema/Chunk.md](../../Body-Base/Schema/Chunk.md) — substrate architecture (target for R-F1-3 + R-F1-10 updates)
-- [../../Body-Base/Body-Input-Enumeration.md](../../Body-Base/Body-Input-Enumeration.md) — body-input taxonomy (L0 + L1 + L3 drives)
+- [../../Body-Base/Body-Base.md](../../Body-Base/Body-Base.md) — body-base L0+L1 substrate + observation parameters (Body-Input-Enumeration.md → backup)
 - [../../Body-Base/Feeling/Feel-Example-Draft.md](../../Body-Base/Feeling/Feel-Example-Draft.md) — 50+ events verbatim, anchors for F1
 - [../../Body-Base/Body-Parenting-Optimization.md](../../Body-Base/Body-Parenting-Optimization.md) — R-F1-7 update target
 - [../../Imagination/PFC-Analysis.md](../../Imagination/PFC-Analysis.md) — R-F1-1 update (partially completed)
@@ -739,7 +739,7 @@ Aggregated from arc files. Finalized in [10-F1-Synthesis.md](10-F1-Synthesis.md)
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) — H8 learning cycle (applies to all L3-L4 events via error → correction → repetition)
 - [../Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) — H9 Resonance (anchors E9/E10/E12/E26 social events)
 - [../Agent/Self-Pattern-Modeling.md](../Agent/Self-Pattern-Modeling.md) — H9 Self-Pattern-Modeling (anchors E21-E31 self chunks)
-- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) — H10 P2 mechanism (cross-link with 06a §6)
+- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) — Body-Feedback-Precondition Precondition-2 mechanism (cross-link with 06a §6)
 
 ---
 

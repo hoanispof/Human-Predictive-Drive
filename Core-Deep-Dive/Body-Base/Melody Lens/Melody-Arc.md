@@ -644,7 +644,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Bridge: imagine-final + identity + threat (runway — NGẮN HẠN only)
     ⚠️ Delusion risk CỰC CAO:
-       → Founder imagine CÀ​NG lâu → CÀ​NG tin → PHẢI force real-check
+       → Founder imagine CÀNG lâu → CÀNG tin → PHẢI force real-check
        → "Fall in love with problem, not solution" = keep checking domain
     ⚠️ Body-base CỰC CRITICAL:
        → CEO bỏ ăn ngủ = arc GIỮ nhưng body PHÁ → paradox → crash
@@ -676,7 +676,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   FRAMEWORK (🟡):
     → "Arc shape" (smooth → dissonance → smooth): consistent với learning curves
     → "Anchor first": consistent với schema theory + advance organizers
-    �� "Mini-arc = mini-compile": consistent với microlearning + gamification
+    → "Mini-arc = mini-compile": consistent với microlearning + gamification
     → "Real-check intervals": consistent với feedback loops in skill acquisition
     → "The Valley": consistent với U-shaped learning curves
     → "Chunk dynamics mapped to arc phases": novel framework mapping,

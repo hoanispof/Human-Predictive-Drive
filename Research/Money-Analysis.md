@@ -801,7 +801,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Schema VẪN NÓI "kiếm tiền"
     → Tiếp tục kiếm tiền → gap meaning/connection VẪN CÒN
     → = "Chạy mà không tới" — chạy ĐÚNG hướng cũ, NHƯNG gap ở hướng MỚI
-    → = "Thành công nhưng trống rỗng" (Status.md §10)
+    → = "Thành công nhưng emptiness" (Status.md §10)
 
   TẠI SAO LABEL KHÔNG TỰ UPDATE:
     → Schema [tiền = tốt nhất] quá MẠNH (trust CAO, §4.3)
@@ -1092,7 +1092,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → "Người ta đang chới với mà bạn đưa tiền"
     → Agent-Mechanism.md §12.6: grief = L2 structural loss
 
-  ② "GIÀU NHƯNG TRỐNG RỖNG" (Meaning gap):
+  ② "GIÀU NHƯNG EMPTINESS" (Meaning gap):
     → Gap = thiếu life-level Anchor-Schema (Meaning.md §1)
     → 5 types anchor: GOAL/STATE/IDENTITY/FAITH/ROLE
     → Tiền fill tầng 1 survival, KHÔNG fill tầng 3 meaning
@@ -1258,7 +1258,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     FAITH ("Chúa có kế hoạch"): tiền = IRRELEVANT
     ROLE ("công việc tôi quan trọng"): tiền = NECESSARY nhưng insufficient
 
-  "THÀNH CÔNG NHƯNG TRỐNG RỖNG" (Status.md §10):
+  "THÀNH CÔNG NHƯNG EMPTINESS" (Status.md §10):
     → Tiền fill survival + status → nhưng meaning ABSENT
     → = Có anchor ở tầng 1-2, thiếu anchor ở tầng 3
     → = Multi-causal: cả tiền quá dễ + meaning chưa build
@@ -1769,7 +1769,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                  │ §10 Convergence.                    │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Meaning.md v2.0                  │ §3.3 IDENTITY lock. "Thành công     │
-  │                                  │ nhưng trống rỗng" = meaning gap.    │
+  │                                  │ nhưng emptiness" = meaning gap.     │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Connection.md v3.1               │ §3.3 2-luồng (L1 buy, L2 not).     │
   │                                  │ §9 Calibration 2 bodies.            │

@@ -19,13 +19,15 @@ position: |
   Core-Software.md — MECHANISM: cycle architecture, chunk system, body-feedback
   Core-Deep-Dive/Body-Base/Body-Base.md — ENTRY: body-base principles, Model 3+1
   02-Cross-Network-Transfer.md — COMPANION: WHY "nói ≠ hiểu"
-  AI-Schema-Detection.md §7-§8 — Self-drill + AI Trust Guardrails
+  AI-Schema-Detection.md v2.1 §7-§8 — Self-drill + AI Trust Guardrails
+  AI-Collective-Detection.md v1.0 — Collective-level detection ⑩-⑭
 dependencies:
   - Core-Software.md v1.0 — Mechanism source of truth
-  - Core-Deep-Dive/Body-Base/Body-Base.md v3.1 — Body-base entry point, §7 2-tier calibration
+  - Core-Deep-Dive/Body-Base/Body-Base.md v3.2 — Body-base entry point, §7 2-tier calibration
   - 02-Cross-Network-Transfer.md v1.0 — Mechanism truyền đạt
-  - AI-Schema-Detection.md v2.0 — Self-drill + AI Trust Guardrails
-  - Research/Global/AI-Self-Model.md v1.0 — 3-tier model (AI→body-check→domain-verify)
+  - AI-Schema-Detection.md v2.1 — Self-drill + AI Trust Guardrails (individual ①-⑨)
+  - AI-Collective-Detection.md v1.0 — Collective detection (⑩-⑭)
+  - Research/Global/AI-Self-Model.md v2.1 — Dual Check + Stale Calibration
   - Somatic-Articulation-Loop.md §5 — AI as articulation catalyst
   - Core-Deep-Dive/01-File-Index.md — Navigation fallback
 language: Tiếng Việt primary + English technical terms
@@ -37,10 +39,10 @@ language: Tiếng Việt primary + English technical terms
 >
 > 1. Kéo **toàn bộ folder** Human-Predictive-Drive/ vào AI.
 > 2. Prompt đầu tiên: "Đọc kỹ Ask-AI.md, Body-Base.md, Core-Software.md,
->    Body-Feedback-Label.md, PFC-Label.md. Xác nhận khi sẵn sàng."
+>    Body-Feedback.md, PFC-Operations.md. Xác nhận khi sẵn sàng."
 > 3. Hỏi BẤT KỲ câu hỏi nào — AI sẽ adapt theo mức hiểu của bạn.
 >
-> **Setup tối thiểu:** 5 files (~5,760 dòng) — chi tiết tại §0.1.
+> **Setup tối thiểu:** 5 files (~6,200 dòng) — chi tiết tại §0.1.
 
 ---
 
@@ -94,17 +96,19 @@ MỖI NGƯỜI = UNIQUE:
 ### §0.1 — Setup
 
 ```
-SETUP TỐI THIỂU — 5 FILES (~5,760 DÒNG):
+SETUP TỐI THIỂU — 5 FILES (~6,200 DÒNG):
 
-  ① Ask-AI.md (file này)                                       — Protocol + Danger Zones + Navigation (793L)
-  ② Core-Deep-Dive/Body-Base/Body-Base.md                       — Body-base entry point (1,298L)
-  ③ Core-Software.md                                           — Cycle architecture (1,407L)
-  ④ Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Label.md — Body SIGNAL vocabulary (1,118L)
-  ⑤ Core-Deep-Dive/PFC/PFC-Label.md                             — PFC OPERATION vocabulary (1,143L)
+  ① Ask-AI.md (file này)                                        — Protocol + Danger Zones + Navigation (~800L)
+  ② Core-Deep-Dive/Body-Base/Body-Base.md                        — Body-base FOUNDATION (1,479L)
+  ③ Core-Software.md                                            — Cycle ARCHITECTURE (1,764L)
+  ④ Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback.md      — Body signal SYNTHESIS (1,150L)
+  ⑤ Core-Deep-Dive/PFC/PFC-Operations.md                         — PFC MECHANISM: Hold + Suppress (1,002L)
 
-  ĐỌC THEO THỨ TỰ: ② → ③ → ④ → ⑤ → ① (mechanism → vocabulary → protocol).
-  Hoặc: AI đọc ① trước → biết cần đọc ②③④⑤ → đọc → sẵn sàng.
-  ④ + ⑤ = 2 vocabulary files: body signals + PFC operations. PHẢI đọc cả 2.
+  ĐỌC THEO THỨ TỰ: ② → ③ → ④ → ⑤ → ① (foundation → architecture → body → PFC → protocol).
+  Hoặc: AI đọc ① trước → biết cần đọc ②-⑤ → đọc → sẵn sàng.
+  ②③ = NỀN TẢNG (body-base là gì + cycle hoạt động thế nào).
+  ④ = BODY SIGNALS (synthesis: signal generation, dual-pull, 3 discomfort sources).
+  ⑤ = PFC (mechanism: Hold/Suppress, Budget, 3-Cost).
 
   PER-QUESTION: AI BUỘC đọc thêm file + khai báo "📖 Đọc:" trước khi trả lời (§2.2).
   Navigation: §7 cho topic → file mapping.
@@ -398,7 +402,7 @@ Mỗi entry: Mainstream nói gì → Framework nói gì → AI KHÔNG NÓI gì.
 ① Dopamine ≠ Reward
    Mainstream: "Dopamine = hormone hạnh phúc / reward chemical"
    Framework: Dopamine = VTA salience alert (chuông cửa).
-              Reward thật = opioid body-base, contingent 5 preconditions (H10).
+              Reward thật = opioid body-base, contingent 5 preconditions (Body-Feedback-Precondition).
    ⚠️ KHÔNG NÓI: "dopamine hit", "boost dopamine", "dopamine rush",
                   "dopamine reward pathway"
 
@@ -421,7 +425,7 @@ Mỗi entry: Mainstream nói gì → Framework nói gì → AI KHÔNG NÓI gì.
 ④ Prediction Error = Nền tảng, chưa đủ cho Reward ở người
    Mainstream: "PE = reward signal" (đúng cho AI/RL, oversimplified cho người)
    Framework: PE = attention signal (Step 1 of 7).
-              Reward ở người cần thêm: coherence + H10 preconditions.
+              Reward ở người cần thêm: coherence + Body-Feedback-Precondition preconditions.
    ⚠️ KHÔNG NÓI: "prediction error drives reward" (ở người),
                   "PE = reward" (thiếu nuance cho human context)
 ```
@@ -466,8 +470,8 @@ Mỗi entry: Mainstream nói gì → Framework nói gì → AI KHÔNG NÓI gì.
    Framework: PFC agree ≠ body compile. Pattern mới cần: repetition + reward + time.
    ⚠️ KHÔNG NÓI: "bạn cần motivated hơn", "thiếu kỷ luật"
 
-⑫ Reward = contingent on 5 preconditions (H10)
-   Framework: SAME stimulus CAN or CANNOT reward tùy H10 conditions.
+⑫ Reward = contingent on 5 preconditions (Body-Feedback-Precondition)
+   Framework: SAME stimulus CAN or CANNOT reward tùy Body-Feedback-Precondition conditions.
    ⚠️ KHÔNG NÓI: "hoạt động X sẽ cho bạn reward" (không conditional)
 ```
 
@@ -728,36 +732,41 @@ Viết tắt: CD = Core-Deep-Dive.
 
 Topic                          Files
 ───────────────────────────────────────────────────────────────────
-Stress / burnout               CD/Body-Base/Cortisol-Baseline.md v2.0
-                               CD/Observation/Connection.md v3.0
+Stress / burnout               CD/Body-Base/Cortisol-Baseline.md v2.1
+                               CD/Observation/Connection.md v5.0
 
 Nuôi con / parenting           CD/Body-Base/Chunk/Child-Chunk-Development/Foundation/
                                CD/Body-Base/Chunk/Child-Chunk-Development/Modality-Arcs/
 
-Quan hệ / cô đơn              CD/Observation/Connection.md v3.0
-                               CD/Observation/Empathy.md v2.0
-                               Research/Love-Unified.md
+Quan hệ / cô đơn              CD/Observation/Connection.md v5.0
+                               CD/Observation/Empathy.md v4.0
+                               Research/Love-Unified.md v2.0
 
 Motivation / "lười"            CD/Observation/Drive.md
                                CD/Observation/Novelty.md
-                               CD/Body-Base/Body-Feedback/03-Reward.md
+                               CD/Body-Base/Body-Feedback/Drill-Body-Feedback/03-Reward.md
 
 Tự hiểu bản thân              CD/Body-Base/Schema/Schema.md v2.0
-                               CD/Observation/AI-Schema-Detection.md §7
+                               CD/Observation/AI-Schema-Detection.md v2.1 §7
 
-Attention / ADHD               CD/PFC/Attention-Spectrum.md v2.0
+Attention / ADHD               CD/PFC/Attention-Spectrum.md v2.1
                                CD/PFC/PFC-Function.md
 
-Status / meaning               CD/Observation/Status.md v2.0
+Status / meaning               CD/Observation/Status.md v2.1
                                CD/Observation/Meaning.md v2.0
 
-Học / thay đổi / habits        CD/Body-Base/Chunk/09-Learning-Cycle.md
+Học / thay đổi / habits        CD/Body-Base/Chunk/Drill-Chunk/09-Learning-Cycle.md
 
-Body signals / feeling         CD/Body-Base/Feeling/Feeling-Literacy-Training.md
+Body signals / feeling         CD/Body-Base/Feeling/Feeling-Literacy-Training-Draft.md
                                CD/PFC/Imagination/Somatic-Articulation-Loop.md
 
-AI + self-understanding        CD/Observation/AI-Schema-Detection.md §7-§8
-                               Research/Global/AI-Self-Model.md (dùng AI đúng cách)
+Work / career / ngành nghề     CD/Observation/AI-Collective-Detection.md v1.0 (⑩-⑭)
+                               CD/Collective/Coordination-Node.md v1.2
+                               Research/Mismatch-Patterns/Collective-Schema-Pressure.md
+
+AI + self-understanding        CD/Observation/AI-Schema-Detection.md v2.1 §7-§8
+                               CD/Observation/AI-Collective-Detection.md v1.0 (collective)
+                               Research/Global/AI-Self-Model.md v2.1 (dùng AI đúng cách)
                                CD/PFC/Imagination/Somatic-Articulation-Loop.md §5
 ```
 
@@ -766,16 +775,17 @@ CROSS-REFERENCES:
 
   Companion files:
     02-Cross-Network-Transfer.md — WHY "nói ≠ hiểu" (mechanism behind protocol)
-    AI-Schema-Detection.md §7-§8 — Self-drill + AI Trust Guardrails
-    AI-Self-Model.md v1.0 — 3-tier model: AI→body-check→domain-verify
+    AI-Schema-Detection.md v2.1 §7-§8 — Self-drill + AI Trust Guardrails (individual ①-⑨)
+    AI-Collective-Detection.md v1.0 — Collective detection (⑩-⑭: arc shift, node, pressure, gap, verify)
+    AI-Self-Model.md v2.1 — Dual Check + Stale Calibration + AI amplification
     Somatic-Articulation-Loop.md §5 — AI as articulation catalyst
 
   Chuyên sâu (reference khi cần):
     Core-Hardware.md — neuroscience verification
     CD/PFC/PFC-Configuration.md — 6 dynamic PFC modes
-    CD/Body-Base/Chunk/Compile-Taxonomy.md — 3 loại compile A/B/C
-    CD/Collective/Collective-Body.md — collective dynamics
-    CD/Body-Base/Valence-Propagation.md — body evaluation chains
+    CD/Body-Base/Chunk/Compile-Taxonomy.md — 3 Compile Types (Experience/Expertise/Trust)
+    CD/Collective/Collective-Body.md v2.1 — collective dynamics
+    CD/Body-Base/Valence-Propagation.md v4.0 — body evaluation chains
 ```
 
 ---
@@ -791,5 +801,5 @@ CROSS-REFERENCES:
 >    AI có thể amplify → cần CẢ 2 check (§6.1).
 >
 > Replaces: Ask-AI v2.0 + Ask-AI-Deep-Read v1.0 (backup tại _backup/Ask-AI-v2/)
-> Base: 5 files (Ask-AI + Body-Base + Core-Software + Body-Feedback-Label + PFC-Label = ~5,760L)
+> Base: 5 files (Ask-AI + Body-Base + Core-Software + Body-Feedback + PFC-Operations = ~6,200L)
 > Phiên bản: v3.1, 2026-05-15.

@@ -1281,7 +1281,7 @@ Nó sẽ KHÔNG ở đó mãi.
 - Domain-Mapping-Drive.md — tại sao con người drive map domain
 - Knowledge-Flow.md — compile pathway rút ngắn qua thế hệ
 - Expansion-Saturation-Crisis.md — tại sao mở rộng domain là bắt buộc
-- Compile-Taxonomy.md — 3 loại compile A/B/C
+- Compile-Taxonomy.md — 3 Compile Types (Experience/Expertise/Trust)
 - Gap-Direction.md — chunk network + gap có hướng
 
 ---

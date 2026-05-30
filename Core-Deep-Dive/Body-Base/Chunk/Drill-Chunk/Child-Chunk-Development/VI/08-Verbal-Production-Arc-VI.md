@@ -309,7 +309,7 @@ Những gì còn thiếu là **cortical pattern chunks** điều phối hardware
 
 **PFC-Inference Ladder level**: **L3** (crude coordinated productive response cho mỗi từ).
 
-**Compile mechanism observation**: Các early words là **concrete + high-contingency + high-frequency** — nhất quán với [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) P2 compile mechanism (repetition × saliency × contingency × valence). Abstract hoặc low-frequency words đến sau vì compile rate modulators yếu hơn.
+**Compile mechanism observation**: Các early words là **concrete + high-contingency + high-frequency** — nhất quán với [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) Precondition-2 Chunk-Substrate compile mechanism (repetition × saliency × contingency × valence). Abstract hoặc low-frequency words đến sau vì compile rate modulators yếu hơn.
 
 ### §4.8 — Body-state verbal labels: "đói" 18 tháng, "đau" 20 tháng, "buồn đái" 22 tháng
 
@@ -459,7 +459,7 @@ Những gì còn thiếu là **cortical pattern chunks** điều phối hardware
 
 ---
 
-> *[Phase C hoàn thành — §3 Read brief (cross-refs 04, H11 preview), §4 Control phase đầy đủ: §4.1 cooing (L1, vocal-tract shaping chunk, repetition-compiled); §4.2 reduplicated babbling ⭐ L2 Marker #9 (deaf infant evidence anti-purely-motor, CV closure chunks); §4.3 variegated babbling (L2-L3 transition, sequence chunk mới); §4.4 canonical babbling (L2-L3, native phonotactic templates, H11 preview); §4.5 pre-referential "mama" ⭐ L2 Marker #10 (phonological chunk không có semantic binding, falsifies naive first-word claim); §4.6 referential "mama" (L3, word-referent binding chunk, H11 within-pair 7-10mo gap); §4.7 first 10 words (L3, concrete-noun bias, P2 compile formula); §4.8 body-state verbal (E21 "đói" L4 + handle verbatim ⭐, E22 "đau" + body schema + Whorfian moderate verbatim, E23 "buồn đái" cross-ref 06a); §4.9 vocabulary spurt (phase transition not PFC maturation, gradient view); §4.10 two-word combinations (L4, combinatorial chunk); §4.11 E31 "không" (self-agency verbatim, "không về AGENCY không về food"); §4.12 arc summary table.]*
+> *[Phase C hoàn thành — §3 Read brief (cross-refs 04, H11 preview), §4 Control phase đầy đủ: §4.1 cooing (L1, vocal-tract shaping chunk, repetition-compiled); §4.2 reduplicated babbling ⭐ L2 Marker #9 (deaf infant evidence anti-purely-motor, CV closure chunks); §4.3 variegated babbling (L2-L3 transition, sequence chunk mới); §4.4 canonical babbling (L2-L3, native phonotactic templates, H11 preview); §4.5 pre-referential "mama" ⭐ L2 Marker #10 (phonological chunk không có semantic binding, falsifies naive first-word claim); §4.6 referential "mama" (L3, word-referent binding chunk, H11 within-pair 7-10mo gap); §4.7 first 10 words (L3, concrete-noun bias, Precondition-2 compile formula); §4.8 body-state verbal (E21 "đói" L4 + handle verbatim ⭐, E22 "đau" + body schema + Whorfian moderate verbatim, E23 "buồn đái" cross-ref 06a); §4.9 vocabulary spurt (phase transition not PFC maturation, gradient view); §4.10 two-word combinations (L4, combinatorial chunk); §4.11 E31 "không" (self-agency verbatim, "không về AGENCY không về food"); §4.12 arc summary table.]*
 
 ---
 
@@ -906,7 +906,7 @@ Hai markers này expand catalog từ 8+ markers (từ 06b §7.4) lên 10+ marker
 
 **Primary home**: [04 §6.4](04-Auditory-System-Arc.md#§6.4). 08 thêm supporting evidence.
 
-### §9.5 — Nút Thắt 2 (P2 compile mechanism) — reinforcement
+### §9.5 — Nút Thắt 2 (Precondition-2 Chunk-Substrate compile mechanism) — reinforcement
 
 **Contribution của file này**: Verbal arc cung cấp additional compile mechanism evidence:
 - **Cooing → babbling**: repetition + social reinforcement dominant
@@ -1014,7 +1014,7 @@ Tất cả nhất quán với 4-channel compile × 4-parameter rate formula từ
 - [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) — receptive counterpart; H11 line 1; Nút Thắt 1 verdict
 - [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) — motor substrate; H11 line 2; Nút Thắt 6 preview
 - [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) — bladder case; H11 line 3; Nút Thắt 2+7; đơ mặt R-F1-2
-- [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md) — cross-state arcs; H11 lines 4-7; P2 5-for-5 validation
+- [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md) — cross-state arcs; H11 lines 4-7; Precondition-2 5-for-5 validation
 - [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) — Nút Thắt 3 multi-mechanism binding; pre-verbal social chunks; E31 autonomy cross-ref
 - [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md) — cross-cutting event matrix (verbal events sẽ appear ở đó)
 - [10-F1-Synthesis.md](10-F1-Synthesis.md) — 7 Nút Thắt final verdicts + H11 aggregation + R-F1-6 commitment
@@ -1034,7 +1034,7 @@ Tất cả nhất quán với 4-channel compile × 4-parameter rate formula từ
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) — learning-cycle mechanism applied đến auditory-articulatory loop (§2.3)
 - [../Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) — Resonance framework (E31 "không" self-agency + [07 §7](07-Social-Recognition-Arc.md#§7) cross-refs)
 - [../Agent/Self-Pattern-Modeling.md](../Agent/Self-Pattern-Modeling.md) — self-chunks cho E31 self-as-agent
-- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5 — P2 compile mechanism cho body-state verbal
+- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5 — Precondition-2 Chunk-Substrate compile mechanism cho body-state verbal
 
 ### §11.4 — F3 Language folder (downstream)
 

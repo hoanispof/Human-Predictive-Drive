@@ -26,8 +26,8 @@ dependencies:
   - Entity-Compiled.md v1.0 — FOUNDATION: brain compile agent vào body-base
   - PFC-Operations.md v1.0 — FOUNDATION: Compiled/Fresh, Hold/Suppress, PFC budget
   - Simulation-Engine.md v1.0 — FOUNDATION: 1 engine, 3 components
-  - Valence-Propagation.md v3.0 — FOUNDATION: Hardware Subsidy, Structural/Current
-  - Self-Pattern-Modeling.md v3.1 — FOUNDATION: Self-Pattern-Modeling as Simulation Engine application
+  - Valence-Propagation.md v3.0 — FOUNDATION: Hardware-Subsidy, Structural/Current
+  - Self-Pattern-Modeling.md v3.1 — FOUNDATION: Self-Pattern-Modeling as Simulation-Engine application
   - Body-Feedback-Mechanism.md v2.0 §3.3c — FOUNDATION: Gap→Miss baseline
   - Compiled-Fresh.md v2.0 — FOUNDATION: compiled suppress, reversal, PFC budget
   - By-Product-Gap-Resonance.md v1.1 — COMPANION: resonance, 4 conditions
@@ -36,7 +36,7 @@ dependencies:
   - Gap-Direction.md v2.0 — FOUNDATION: gap formation from surrounding chunks
   - Gap-Distribution-Profile.md v1.0 — COMPANION: portfolio risk, diversification
   - Gap-Body-Need.md v2.0 — FOUNDATION: satiation types, existence-based gaps
-  - Resonance-Entity.md v2.0 — FOUNDATION: hardware subsidy, Hardwired:Compilable Architecture
+  - Resonance-Entity.md v2.0 — FOUNDATION: hardware-subsidy, Hardwired:Compilable Architecture
   - Connection.md v4.0 — COMPANION: 3 Generative Primitives, 2-tầng/2-luồng
   - Love-Romantic.md v2.2 — APPLICATION: romantic lifecycle
   - Reward-Calibration.md v1.1 — PARALLEL: Goldilocks, cannot prescribe
@@ -184,7 +184,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Mức 4 (Entity-Owned label):
       Compiled: Agent deep + hardware-assisted
       Fresh: Hardwired+Compilable compound (hardware genuine + resonance)
-      F3: HIGH (compiled deep + hardware subsidy + low exit cost)
+      F3: HIGH (compiled deep + hardware-subsidy + low exit cost)
       → PFC labels: "phần đời tôi" — CAN be healthy if A+B dominant
 
     Mức 5 (Excess):
@@ -376,7 +376,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   3-FACTOR MODEL AT MẸ→CON (Entity-Access.md §1+§3.1):
     Compiled: Agent-mode PRE-INSTALLED (hardware switches on at birth)
     Fresh: BROADEST gap coverage (A existence + B by-products + C/D variable)
-    F3: MAX confidence (hardware subsidy + child always present)
+    F3: MAX confidence (hardware-subsidy + child always present)
     → ALL 3 FACTORS = MAXIMUM → entity-access = Mức 4-5 by DEFAULT
 
   TẠI SAO EXCESS WORKS CHO MẸ→CON:
@@ -1302,7 +1302,7 @@ CÁI FRAMEWORK THÊM vs CÁI ĐÃ CÓ:
 | Entity-Compiled.md v1.0 | §1-§10 | FOUNDATION: brain compile agent, Entity-Compiled depth |
 | Simulation-Engine.md v1.0 | §1, §3 | FOUNDATION: 1 engine, Self-Pattern-Modeling as application |
 | PFC-Operations.md v1.0 | §1-§7 | FOUNDATION: Compiled/Fresh, compiled suppress |
-| Valence-Propagation.md v3.0 | §3, §8 | FOUNDATION: Entity-Compiled, Hardware Subsidy |
+| Valence-Propagation.md v3.0 | §3, §8 | FOUNDATION: Entity-Compiled, Hardware-Subsidy |
 | Self-Pattern-Modeling.md v3.1 | §0-§3, §8 | FOUNDATION: Self-Pattern-Modeling mechanism, atrophy |
 | Compiled-Fresh.md v2.0 | §4, §5, §9 | FOUNDATION: compiled suppress, 6-step reversal |
 | By-Product-Gap-Resonance.md v1.1 | §1, §5-§7 | COMPANION: resonance, decline mechanisms |

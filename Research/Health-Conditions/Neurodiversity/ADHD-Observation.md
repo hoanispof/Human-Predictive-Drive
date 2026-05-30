@@ -1,4 +1,4 @@
-# ADHD-Observation.md — ADHD Qua Lens Framework v7.8
+﻿# ADHD-Observation.md — ADHD Qua Lens Framework v7.8
 
 > **"Attention Deficit" là tên gọi SAI.**
 >
@@ -21,15 +21,17 @@
 ---
 
 **File type**: OBSERVATION (framework OBSERVE, không chẩn đoán, không đề xuất điều trị)
-**Version**: v1.2 (refine từ v1.1 — enriched §12 with Autism v1.0 + PTSD v1.0 insights)
-**Date**: 2026-05-15
-**Confidence**: 🟢 Research (DAT, DRD4, medication, EF model) | 🟡 Synthesis (framework mapping, 2D model, PTSD mimicry) | 🔴 Hypothesis (time=temporal resolution, DMN=mode-switch, inverted-U mechanism)
+**Version**: v1.3 (refine từ v1.2 — cortisol correction, +7 findings, companion file refs, version sync)
+**Date**: 2026-05-30
+**Confidence**: 🟢 Research (DAT, DRD4, medication, executive function model) | 🟡 Synthesis (framework mapping, 2D model, PTSD mimicry) | 🔴 Hypothesis (time=temporal resolution, DMN=mode-switch, inverted-U mechanism)
 **Cluster**: Dopamine Cluster File 3/3 (Nicotine -> Parkinson -> **ADHD**) + Neurodiversity Cluster 1/2 (ADHD + Autism)
-**Build on**: Attention-Spectrum.md v2.0 (FOUNDATION — không lặp, reference)
-**Dependencies**: PFC-Hardware.md v1.1, PFC-Configuration.md v1.0, Dopamine-Is-Not-Reward.md v1.1, Gap-Direction.md v1.0, Body-Feedback-Mechanism.md v1.2, Novelty.md v1.0, Cortisol-Baseline.md v2.0, PFC-Hold-Dimensions.md v1.0, Autism-Observation.md v1.0, PTSD-Analysis.md v1.0
+**Build on**: Attention-Spectrum.md v2.1 (FOUNDATION — không lặp, reference)
+**Dependencies**: PFC-Hardware.md v1.1, PFC-Configuration.md v1.0, Dopamine-Is-Not-Reward.md v1.1, Gap-Direction.md v2.0, Body-Feedback-Mechanism.md v2.1, Novelty.md v1.2, Cortisol-Baseline.md v2.2, PFC-Hold-Dimensions.md v1.0, Autism-Observation.md v1.0, PTSD-Analysis.md v1.0
+**Companion files**: ADHD-Trade-Off.md v1.0 (WHY), ADHD-Attention-Optimization.md v1.0 (HOW)
 **Disclaimer**: Framework KHÔNG thay thế chẩn đoán y khoa. ADHD = neurodevelopmental condition cần đánh giá lâm sàng chuyên môn.
 **v1.0 backup**: Research/Health-Conditions/Neurodiversity/backup/ADHD-Observation-v1.0.md
 **v1.1 → v1.2**: Enriched §12 (2D model + 3 pathways + habituation distinction), added §12.4 (PTSD mimicry), updated cross-refs
+**v1.2 → v1.3**: §5.3+§10.3 cortisol CORRECTED (lower baseline, higher reactivity), +7 new findings (gaze cueing, alpha inverse, PIB, motivation≠activation, anticipation split, inattention→switch costs, exercise SMD), companion file refs, 12 version bumps, scope refinement §9+§13
 
 ---
 
@@ -40,19 +42,19 @@
 §1  — ADHD: REFRAME
 §2  — NEUROCHEMISTRY: DOUBLE HIT (DAT + DRD4)
 §3  — 3-WAY COMPARISON TABLE: DOPAMINE CLUSTER
-§4  — EXECUTIVE FUNCTION BEYOND ATTENTION
-§5  — EMOTIONAL DYSREGULATION + ANXIETY CHAIN
+§4  — EXECUTIVE FUNCTION BEYOND ATTENTION (+§4.6 Motivation ≠ Activation v1.3)
+§5  — EMOTIONAL DYSREGULATION + ANXIETY CHAIN (+§5.7 Gaze+Alpha v1.3)
 §6  — TIME PERCEPTION: TEMPORAL MYOPIA
-§7  — HYPERFOCUS x GAP-DIRECTION
+§7  — HYPERFOCUS x GAP-DIRECTION (+Anticipation split v1.3)
 §8  — DMN INTERFERENCE HYPOTHESIS
-§9  — INVERTED-U: SEVERITY x OUTCOME
-§10 — ADHD x LIFESPAN
+§9  — INVERTED-U: SEVERITY x OUTCOME (→ Trade-Off §6 detail)
+§10 — ADHD x LIFESPAN (+PIB v1.3, §10.3 CORRECTED v1.3)
 §11 — MEDICATION MECHANISM QUA FRAMEWORK
 §12 — ADHD x AUTISM: CO-OCCURRENCE + NEURODIVERSITY 2D MODEL
-§13 — CALIBRATION PRINCIPLES
+§13 — CALIBRATION PRINCIPLES (+Exercise v1.3, → Optimization detail)
 §14 — FRAMEWORK PREDICTIONS (TESTABLE)
 §15 — HONEST ASSESSMENT
-§16 — CROSS-REFERENCES
+§16 — CROSS-REFERENCES (+§16.7 Companion files v1.3)
 ```
 
 ---
@@ -97,10 +99,10 @@ Tại sao Neurodiversity/ (KHÔNG phải Neurodegeneration/):
   -> Không "hỏng" — KHÁC
 ```
 
-### §0.3 — Build on Attention-Spectrum.md v2.0
+### §0.3 — Build on Attention-Spectrum.md v2.1
 
 ```
-Attention-Spectrum.md ĐÃ CÓ (reference, KHÔNG lặp lại ở đây):
+Attention-Spectrum.md v2.1 ĐÃ CÓ (reference, KHÔNG lặp lại ở đây):
   + 4-factor attention model (COMT + DRD4 threshold + NE + cortisol)
   + Spectrum continuum (detail -> balanced -> big-picture -> ADHD range)
   + Hyperfocus = noise cancelling mechanism cơ bản
@@ -130,6 +132,18 @@ v1.2 THÊM (enriched after Autism v1.0 + PTSD v1.0):
   -> §12.3 enriched: 3 pathways (Autism §1.9) + sensory mechanism khác biệt
   -> §12.4 NEW: PTSD × ADHD mimicry (cross-ref PTSD-Analysis §12.3)
   -> Cross-references updated: Autism v1.0 + PTSD v1.0 DONE
+
+v1.3 THÊM (after Research-Verify + companion files):
+  -> §4.6 NEW: Motivation ≠ Activation distinction
+  -> §4.5 enriched: inattention predicts switch costs (not hyperactivity)
+  -> §5.3 CORRECTED: cortisol baseline LOWER (hypo-tonic + hyper-phasic)
+  -> §5.7 NEW: Gaze Cueing Selective + Alpha Modulation Inverse (neural evidence)
+  -> §7.2 enriched: anticipation vs consummation split (d=0.48-0.58)
+  -> §10.2 enriched: PIB (Positive Illusory Bias) protective→crash
+  -> §10.3 CORRECTED: burnout = PFC effort depletion, not cortisol elevation
+  -> §13.2 enriched: exercise evidence (SMD 0.52-0.78)
+  -> §9, §13 trimmed: reference companion files (Trade-Off + Optimization)
+  -> §16 updated: +companion files, 12 version bumps
 ```
 
 ---
@@ -265,7 +279,7 @@ ADHD qua lens v7.8:
     (environment cần constant novelty, high-stakes, immediate feedback)
 
   NHƯNG: severity matters (Inverted-U)
-    -> Subclinical-mild: advantage zone (big pattern detect + đủ EF execute)
+    -> Subclinical-mild: advantage zone (big pattern detect + đủ executive function execute)
     -> Severe: executive function DƯỚI minimum -> output giảm dù có vision
 ```
 
@@ -500,7 +514,7 @@ CÙNG phân tử dopamine. 3 cơ chế HOÀN TOÀN KHÁC:
 CÙNG 1 kiến trúc (v7.8), 3 bài học KHÁC NHAU:
 
   Nicotine dạy: Hệ reward CÓ THỂ bị cướp từ bên ngoài
-    -> Chunk-reward loop bypass H10
+    -> Chunk-reward loop bypass Body-Feedback-Precondition
     -> Software problem on normal hardware
 
   Parkinson dạy: Hardware chết -> toàn bộ kiến trúc cascade
@@ -550,7 +564,7 @@ CÙNG 1 kiến trúc (v7.8), 3 bài học KHÁC NHAU:
 ### §4.2 — Working Memory: HOLD DURATION, không phải capacity
 
 ```
-INSIGHT MỚI (v1.1): Vấn đề WM ở ADHD KHÔNG phải "ít slot hơn"
+INSIGHT MỚI (v1.1): Vấn đề working memory ở ADHD KHÔNG phải "ít slot hơn"
 
   PFC-Hold-Dimensions.md: 4+-1 = giới hạn VẬT LÝ dao động gamma
     -> ~30ms/chu kỳ, ~7.5ms mỗi pha -> 4+-1 pha tách biệt
@@ -566,7 +580,7 @@ INSIGHT MỚI (v1.1): Vấn đề WM ở ADHD KHÔNG phải "ít slot hơn"
     Bình thường:
       Load dimension -> dopamine sustain -> hold 5-15 giây
       -> process xong -> clear -> load mới
-      = 4 dimensions x stable hold = WM effective
+      = 4 dimensions x stable hold = working memory effective
 
     ADHD:
       Load dimension -> dopamine CLEAR NHANH -> hold chỉ 2-5 giây
@@ -580,7 +594,7 @@ INSIGHT MỚI (v1.1): Vấn đề WM ở ADHD KHÔNG phải "ít slot hơn"
     -> Thực tế chỉ dùng được 2-3
 
   🟢 Martinussen et al. 2005 (meta-analysis, 26 studies):
-    ADHD shows deficits in BOTH verbal AND spatial WM
+    ADHD shows deficits in BOTH verbal AND spatial working memory
     -> Cả storage lẫn manipulation bị ảnh hưởng
     -> INDEPENDENT of IQ
 
@@ -617,7 +631,7 @@ Multi-step tasks require:
   4. SWITCH attention between steps
 
   ADHD: ALL 4 under-fueled simultaneously:
-    -> 1. Sequence drops từ WM mid-way (hold duration ngắn)
+    -> 1. Sequence drops từ working memory mid-way (hold duration ngắn)
     -> 2. Later steps execute before earlier ones complete
     -> 3. Lose track of progress
     -> 4. Switch TO distractors easy, switch BACK difficult
@@ -644,6 +658,45 @@ PARADOX:
 
   = SAME mechanism (dopamine-gated attention locking)
     Different TRIGGERS produce opposite-looking behaviors
+
+  v1.3 ENRICHMENT — INATTENTION, NOT HYPERACTIVITY, predicts switch costs:
+    🟢 PMC7515948: Inattention → goal neglect → costly switching
+    -> Hyperactivity/impulsivity → may actually HELP some switching tasks
+    -> = "ADHD" not monolithic — WHICH symptom dimension matters
+    -> Inattention = the dimension that disrupts task switching
+    -> Hyperactivity = separate axis, different behavioral consequences
+```
+
+### §4.6 — Motivation ≠ Activation (v1.3 NEW)
+
+```
+🟢 KEY INSIGHT (from Research-Verify 2026-05-30):
+
+  ADHD person WANTS to start → nhưng CAN'T activate:
+
+    Neurotypical:
+      Motivation ("tôi muốn") → PFC initiation → Action starts
+      = Motivation ĐỦ để kích hoạt hành động
+
+    ADHD:
+      Motivation ("tôi muốn") → PFC initiation UNDER-FUELED → Action BLOCKED
+      = Motivation CÓ nhưng "activation energy" KHÔNG ĐỦ
+
+  Framework mapping:
+    -> PFC = "ignition system" — cần dopamine để START action
+    -> Motivation = drive signal (VTA → NAcc) — CÓ ở ADHD
+    -> Activation = PFC initiation (VTA → PFC) — UNDER-FUELED ở ADHD
+    -> = 2 hệ thống KHÁC NHAU, cả 2 dùng dopamine nhưng tại VÙNG KHÁC
+    -> Motivation ≈ mesolimbic (WANTING) — hoạt động
+    -> Activation ≈ mesocortical (PFC EXECUTE) — under-fueled
+
+  Tại sao URGENCY compensates:
+    -> Deadline → threat → NE + cortisol SPIKE → arousal TĂNG
+    -> Arousal ĐỦ CAO → PFC nhận đủ fuel → activation VƯỢT threshold
+    -> = "Chỉ làm được khi deadline cận" = PFC chỉ fire khi AROUSAL bù cho dopamine deficit
+    -> = KHÔNG phải "lười" — là ACTIVATION THRESHOLD chưa đạt
+
+  Cross-ref: ADHD-Attention-Optimization.md §3 (reward engineering addresses this)
 ```
 
 ---
@@ -686,17 +739,27 @@ RSD = Cơn đau cảm xúc mãnh liệt từ rejection/criticism ĐƯỢC CẢM 
     6. Observable: shutdown, rage, hoặc intense sadness — "không tương xứng"
 ```
 
-### §5.3 — Emotional Cascade x Cortisol
+### §5.3 — Emotional Cascade x Cortisol (v1.3 CORRECTED)
 
 ```
-Cortisol-Baseline.md §7: SOURCE > LEVEL
+⚠️ v1.3 CORRECTION (Research-Verify 2026-05-30):
+  ADHD basal cortisol = LOWER than neurotypical (meta-analysis, Nature Transl Psych 2021)
+  BUT: cortisol REACTIVITY to acute stress = GREATER (PMC5837926, 2018)
+  HPA axis pattern = hypo-TONIC + hyper-PHASIC
+
+Cortisol-Baseline.md v2.2 §7: SOURCE > LEVEL
+
+  ADHD cortisol profile:
+    -> Baseline: LOWER morning cortisol, lower cumulative daily
+    -> NHƯNG: khi trigger xảy ra → SPIKE LỚN HƠN neurotypical
+    -> = "Yên tĩnh lúc bình thường, BÃO khi có sự kiện"
 
   ADHD emotional events:
     -> Trigger -> amygdala -> HPA axis
-    -> Cortisol ARRIVES (20-30 phút sau trigger)
-    -> PFC ALREADY under-fueled -> cortisol makes PFC WORSE
-    -> Inverted-U: even moderate cortisol pushes ADHD PFC past optimal
-    -> = Double hit: baseline under-fueled + cortisol impairs further
+    -> Cortisol SPIKE (20-30 phút sau trigger) — LỚNHƠN bình thường
+    -> PFC ALREADY under-fueled -> cortisol spike makes PFC WORSE
+    -> Inverted-U: cortisol spike pushes ADHD PFC PAST optimal nhanh hơn
+    -> = Double hit: PFC baseline under-fueled + cortisol SPIKE impairs further
 
   ADHD adults: emotional "hangovers"
     -> Sự kiện ảnh hưởng mood HÀNG GIỜ sau (cortisol INERTIA)
@@ -745,8 +808,8 @@ Cortisol-Baseline.md §7: SOURCE > LEVEL
     -> Schema "threats unpredictable" -> chronic anticipatory worry
     -> PFC cố bù bằng cách imagine NHIỀU threat scenarios
     -> = Hypervigilance (detect threats bằng IMAGINATION thay vì OBSERVATION)
-    -> = Chiếm THÊM WM slots cho threat-drafts
-    -> = WM CÒN ÍT HƠN cho task chính -> performance GIẢM
+    -> = Chiếm THÊM working memory slots cho threat-drafts
+    -> = working memory CÒN ÍT HƠN cho task chính -> performance GIẢM
     -> = Failures THÊM -> anxiety THÊM -> LOOP
 
   TẠI SAO 47% ADHD có anxiety (Kessler 2006, n=3,199):
@@ -826,6 +889,51 @@ Cortisol-Baseline.md §7: SOURCE > LEVEL
       nhưng THAY ĐỔI anxiety schema compile hay không
 ```
 
+### §5.7 — Neural Evidence: Gaze Cueing + Alpha Modulation (v1.3 NEW)
+
+```
+🟢 STRONGEST neural evidence cho §5.4 threshold × social cues:
+
+  GAZE CUEING SELECTIVE — Eyes fail, arrows intact:
+
+    🟢 Psychiatry Research 2016 (ScienceDirect):
+      -> Neurotypical: eye-gaze cues AUTO-ORIENT attention (interference effect)
+      -> ADHD: eye-gaze cues produce NO interference effect
+      -> BUT: arrow cues STILL WORK normally in ADHD
+      -> = Social-SPECIFIC automatic orienting IMPAIRED, NOT general inattention
+
+    Framework: §5.4 BƯỚC 1 giờ có DIRECT EVIDENCE
+      -> Micro-cue miss = KHÔNG PHẢI "distracted chung chung"
+      -> = SELECTIVE impairment trong biological/social signal processing
+      -> Arrow (non-social) vẫn hoạt động → chứng minh: threshold ĐẶC BIỆT
+        cho social cues, không phải attention nói chung
+
+  ALPHA MODULATION INVERSE (EEG):
+
+    🟢 PMC6969336 (2019, n=45 children, EEG):
+      -> Neurotypical: alpha lateralization CORRECT in response to gaze cues
+      -> ADHD: alpha modulation INVERSE in left parieto-occipital
+      -> Alpha pattern PREDICTS inattention severity (classification-level accuracy)
+      -> = Neural-level: social cue processing DIFFERENT, not just weaker
+
+  2-PHASE AVOIDANCE MODEL (from research analysis):
+    -> Phase 1 (early): PASSIVE non-attendance
+       Attention KHÔNG automatically pulled to faces (social magnet absent)
+       → Not active avoidance — attention simply goes elsewhere
+    -> Phase 2 (over time): ACTIVE avoidance (compiled)
+       Repeated [look at face → no info → social error → punishment]
+       → Compile: [face = confusing/threatening] → learned gaze avoidance
+    -> = Passive → Active timeline explains developmental trajectory
+
+  ADDITIONAL EVIDENCE:
+    🟢 Herrington 2021: Amygdala-vmPFC coupling ALTERED during face processing in ADHD
+    🟢 PMC12087504 (longitudinal): Shorter gaze fixation on social info at AGE 4
+      → PREDICTS hyperactivity/inattention at AGE 6-7
+      → = Pattern appears VERY EARLY, before school-age social demands
+
+  Cross-ref: ADHD-Trade-Off.md §2 (social compilation asymmetry — full analysis)
+```
+
 ---
 
 ## §6 — TIME PERCEPTION: TEMPORAL MYOPIA
@@ -874,7 +982,7 @@ Cortisol-Baseline.md §7: SOURCE > LEVEL
   Framework mapping:
     -> PFC-Hold-Dimensions.md: ~4+-1 dimensions
     -> Thời gian = MỘT dimension chiếm 1 slot
-    -> ADHD: time dimension DROPS từ WM first (lowest salience per DRD4)
+    -> ADHD: time dimension DROPS từ working memory first (lowest salience per DRD4)
     -> = Thời gian literally biến mất khỏi consciousness
 ```
 
@@ -916,14 +1024,24 @@ CONDITION 1: Gap-direction MASSIVE
   -> Surrounding chunk network LỚN (deep knowledge trong area)
   -> Gap depth INTENSE (signal đủ mạnh vượt threshold)
 
-CONDITION 2: H10 preconditions partially met
-  -> Ít nhất: novelty (P1) + appropriate difficulty (P4)
-  -> Thường: personal relevance (P3) + clear progress signal (P5)
+CONDITION 2: Body-Feedback-Precondition preconditions partially met
+  -> Ít nhất: novelty (Precondition-1) + appropriate difficulty (Precondition-4)
+  -> Thường: personal relevance (Precondition-3) + clear progress signal (Precondition-5)
 
 CONDITION 3: Reward timing IMMEDIATE
   -> Dopamine signal NGẮN -> cần reward signals THƯỜNG XUYÊN
   -> Video games, coding, art, puzzle-solving = CONTINUOUS micro-rewards
   -> Long-term planning (no immediate reward) = dopamine drops
+
+  v1.3 ENRICHMENT — Anticipation vs Consummation split:
+    🟢 Plichta & Scheres 2014: VS hyporesponsive during ANTICIPATION (d=0.48-0.58)
+    🟢 PLOS ONE 2014: Anticipation ↓, delivery normal or ↑
+    -> ADHD: CAN'T build anticipation (PFC future-modeling under-fueled)
+    -> BUT: when reward ARRIVES → response normal or STRONGER
+    -> = "Feast-or-famine": can't anticipate → no initiation
+      BUT when reward arrives → strong response → hyperfocus lock
+    -> = CONDITION 3 STRENGTHENED: immediate rewards work BECAUSE
+      anticipation pathway is broken — only DELIVERY pathway intact
 
 CONDITION 4: Environment LOW distraction
   -> PFC Config 2 requires STABLE catecholamine state
@@ -1005,6 +1123,10 @@ CONDITION 4: Environment LOW distraction
 
 ## §9 — INVERTED-U: SEVERITY x OUTCOME
 
+> v1.3 NOTE: Cost-benefit analysis mở rộng ở ADHD-Trade-Off.md §6.
+> File này giữ MODEL + research evidence. Trade-Off có full 3D analysis
+> + subclinical creativity g=0.36 (clinical = no benefit).
+
 ### §9.1 — Research Evidence
 
 ```
@@ -1060,7 +1182,7 @@ CONDITION 4: Environment LOW distraction
 1. EXECUTIVE FUNCTION MINIMUM
   Big pattern detect -> CHỈ LÀ BƯỚC 1
   Translate pattern -> plan -> action cần:
-    -> WM: hold plan structure
+    -> working memory: hold plan structure
     -> Sequencing: order steps
     -> Inhibition: resist distractions
     -> Monitoring: track progress
@@ -1078,7 +1200,7 @@ CONDITION 4: Environment LOW distraction
     Severe: ~60% anxiety, ~45% depression, + OCD/substance/sleep
 
   Comorbidities = CƠ CHẾ MỚI chồng lên:
-    -> Anxiety chiếm WM slots -> ÍT capacity cho creative work
+    -> Anxiety chiếm working memory slots -> ÍT capacity cho creative work
     -> Depression = drive giảm -> KHÔNG CÒN motivation cho big patterns
 
 3. ARC FAILURE ACCUMULATION
@@ -1148,20 +1270,18 @@ BIG ARC ANXIETY CHAIN:
     -> = Hypothesis hợp lý nhưng cần controlled study
 ```
 
-### §9.6 — ADHD + Neurotypical Pairing
+### §9.6 — ADHD + Neurotypical Pairing (summary — detail ở Trade-Off §9)
 
 ```
 ADHD: detect big pattern + intense drive + START
 Neurotypical: sustain execution + detect small steps + FINISH
+= 2 TUNING KHÁC NHAU, mỗi cái optimal cho PHASE KHÁC
 
-  ADHD founder + neurotypical COO = classic startup pattern
-  ADHD creative + neurotypical project manager = effective team
-  ADHD architect + neurotypical engineer = system gets BUILT
+🟡 Conceptual (flagged UNTESTED — no controlled study):
+  -> Observationally supported (startup patterns, team dynamics)
+  -> Formal complementarity study needed
 
-  = KHÔNG PHẢI "ADHD kém hơn" hay "neurotypical kém hơn"
-  = 2 TUNING KHÁC NHAU, mỗi cái optimal cho PHASE KHÁC:
-    ADHD = PHASE 1 (detect + design + initiate)
-    Neurotypical = PHASE 2 (implement + maintain + complete)
+Chi tiết: ADHD-Trade-Off.md §9 (collective role analysis)
 ```
 
 ---
@@ -1183,7 +1303,7 @@ Tuổi 3-12:
     -> Classroom = sustained, quiet, sequential = WORST environment cho ADHD
 ```
 
-### §10.2 — Adolescence: Nội tâm hóa + Label damage
+### §10.2 — Adolescence: Nội tâm hóa + Label damage + PIB crash
 
 ```
 Tuổi 12-18:
@@ -1196,9 +1316,25 @@ Tuổi 12-18:
     -> Self-Pattern-Modeling self-chunks compile: "Tôi = lười/ngu/hỏng"
     -> = Trust Compile install via repeated authority figures (bố mẹ, thầy cô)
     -> Schema deep-compile -> ảnh hưởng Imagine-Final formation
+
+  v1.3 ENRICHMENT — Positive Illusory Bias (PIB):
+    🟢 PIB literature (multiple studies):
+      -> ADHD children OVERESTIMATE own competence vs objective measures
+      -> Framework: PIB = PROTECTIVE self-model (buffer against negative feedback)
+      -> ADHD child: "Tôi giỏi toán" dù điểm thấp → bảo vệ identity chunks
+    -> PIB = functional ở childhood (giữ motivation khi environment hostile)
+    -> NHƯNG: PIB FRAGILE — collapses in adolescence when:
+      ① Social comparison intensifies (peer evaluation increases)
+      ② Academic demands exceed compensation capacity
+      ③ Self-awareness develops (PFC matures → Self-Pattern-Modeling accurate hơn)
+    -> PIB collapse → self-concept CRASH
+    -> 🟢 Betancourt 2024 meta-analysis: Self-esteem ES 0.46-0.67 (ADHD lower)
+    -> = Older children + adolescents = LOWER self-concept (cumulative)
+    -> Timeline: PIB protects (childhood) → PIB breaks (adolescence)
+      → crash meets label damage → compound identity crisis
 ```
 
-### §10.3 — Trưởng thành: Compensation + Cortisol cost
+### §10.3 — Trưởng thành: Compensation + PFC Depletion Cost (v1.3 CORRECTED)
 
 ```
 Tuổi 18+:
@@ -1206,12 +1342,21 @@ Tuổi 18+:
   -> External scaffolding thay thế internal regulation
   -> NHƯNG: compensation khác cure — CẦN EFFORT liên tục để maintain
 
-  Chronic cortisol cost:
+  ⚠️ v1.3 CORRECTION: "Chronic cortisol cost" → "PFC depletion cost"
+    v1.2 nói: "constant self-monitoring = chronic cortisol elevation"
+    Research says: ADHD basal cortisol = LOWER, not elevated
+    REFRAME:
+
+  PFC depletion cost (v1.3):
     -> Mỗi task "đơn giản" cần CONSCIOUS EFFORT mà neurotypical automate
-    -> Constant self-monitoring = chronic low-level threat (self-created)
-    -> Cortisol-Baseline.md §4: chronic cortisol -> PFC damage timeline
-    -> = ADHD adults dễ burnout hơn (higher baseline effort)
+    -> = PFC Fresh processing liên tục (neurotypical = Compiled, cost ≈ 0)
+    -> Dopamine signal NGẮN → mỗi task = refuel PFC liên tục
+    -> = "Cognitive tax" — cùng output nhưng tiêu tốn NHIỀU PFC hơn
+    -> Burnout = PFC EFFORT depletion (dopamine-dependent), KHÔNG phải cortisol elevation
+    -> NHƯNG: mỗi stressor → cortisol SPIKE lớn hơn (hyper-phasic) → PFC impaired thêm
+    -> = Burnout trajectory: PFC depleted + periodic cortisol spikes = compound
     -> 🟢 Ít nhất 70% adults ADHD có comorbid mental health condition
+    -> 🟢 executive function strain → burnout mediation model (2024, n=171 employees)
 ```
 
 ### §10.4 — Sau 25 tuổi: 3 tầng x age mapping
@@ -1600,6 +1745,10 @@ QUAN TRỌNG:
 
 ## §13 — CALIBRATION PRINCIPLES
 
+> v1.3 NOTE: Optimization strategies chi tiết ở ADHD-Attention-Optimization.md.
+> File này giữ PRINCIPLES per-position. Optimization có full hierarchy
+> (domain→exercise→environment→external PFC→sleep→social→big-arc→Background-Pattern→medication).
+
 ### §13.1 — Per-position trên spectrum
 
 ```
@@ -1607,28 +1756,28 @@ QUAN TRỌNG:
 
   SUBCLINICAL (gần ADHD, không clinical):
     -> Threshold hơi cao -> filter một số noise -> thấy bigger patterns
-    -> EF đủ -> capitalize on vision
+    -> executive function đủ -> capitalize on vision
     -> Calibration: leverage advantage, minimal intervention
     -> Environment: novelty + autonomy + immediate feedback
     -> = "Sweet spot" — inverted-U peak zone
 
   MILD (clinical, manageable):
     -> Threshold cao -> big pattern detect + daily tasks struggle
-    -> EF hơi impaired -> cần some scaffolding
+    -> executive function hơi impaired -> cần some scaffolding
     -> Calibration: environment + behavioral strategies + optional medication
     -> Environment: structure + novelty BALANCE
     -> Bố mẹ/giáo viên: communicate TRỰC TIẾP, break tasks thành visible steps
 
   MODERATE (clinical, significant impact):
     -> Threshold rất cao -> big-arc advantage + daily life significant difficulty
-    -> EF notably impaired -> CẦN external scaffolding
+    -> executive function notably impaired -> CẦN external scaffolding
     -> Calibration: medication LIKELY + environment + therapy
     -> Environment: scaffolding CRITICAL (partner, tools, team)
     -> Bố mẹ/giáo viên: hiểu threshold -> adjust communication -> giảm anxiety
 
   SEVERE (clinical, major impact):
     -> Threshold cực cao -> even big patterns may not sustain
-    -> EF critically impaired -> dù có scaffolding vẫn khó
+    -> executive function critically impaired -> dù có scaffolding vẫn khó
     -> Calibration: medication ESSENTIAL + intensive support
     -> Environment: highly structured + immediate feedback + minimal distraction
     -> Bố mẹ/giáo viên: medical team partnership required
@@ -1660,6 +1809,15 @@ QUAN TRỌNG:
 
   CÓ CẢ 3: ADHD = genuine advantage (big-picture + deep focus)
   THIẾU 1+: ADHD = struggle (same hardware, wrong environment)
+
+  v1.3 ENRICHMENT — EXERCISE as evidence-based condition thứ 4:
+    🟢 Exercise executive function meta-analysis 2023 (PMC10434964): SMD 0.611 overall
+    🟢 Aerobic exercise 2025: Inhibition g=0.761, Flexibility g=0.780, working memory SMD=0.52
+    🟢 Chronic exercise = 2× more effective than acute
+    -> Exercise = BEST-EVIDENCED non-pharma intervention cho ADHD executive function
+    -> Mechanism: tăng BDNF, tăng dopamine + NE tạm thời, improve PFC function
+    -> = Condition thứ 4: PHYSICAL ACTIVITY REGULAR
+    -> Chi tiết: ADHD-Attention-Optimization.md §5 (repair cycle)
 ```
 
 ### §13.3 — Parent/Educator Implications
@@ -1718,9 +1876,9 @@ P4: Threshold -> Anxiety chain
     🟢 Partially supported (meta-analysis 59 studies: warmth = protective)
     🟡 Specific mechanism (threshold filter micro-cues) untested
 
-P5: WM hold duration (not capacity) -> predict task completion
+P5: working memory hold duration (not capacity) -> predict task completion
     Dopamine sustain -> predict how long each dimension held
-    🟢 WM deficits đo được (Martinussen 2005)
+    🟢 working memory deficits đo được (Martinussen 2005)
     🔴 Specific "hold duration" measurement cần EEG/PET per-task
 
 P6: Environment fit index -> predict medication necessity
@@ -1767,7 +1925,7 @@ P8: ADHD + neurotypical pairing -> predict team creative output
 
 🟡 FRAMEWORK SYNTHESIS (logically consistent, partially supported):
   -> DAT + DRD4 double hit model (both established riêng, compound untested)
-  -> WM = hold duration not capacity (physics giải thích, behavioral data support)
+  -> working memory = hold duration not capacity (physics giải thích, behavioral data support)
   -> Hyperfocus = gap-direction x threshold x PFC Config 2
   -> RSD = social prediction-delta x amygdala x PFC under-fueled
   -> DMN interference = PFC mode-sustain failure (dopamine link)
@@ -1780,14 +1938,23 @@ P8: ADHD + neurotypical pairing -> predict team creative output
   -> (v1.2) ADHD vs Autism sensory distinction: normal vs reduced habituation
   -> (v1.2) 3 pathways → "khó giao tiếp" (Config/Tuning/Deprivation)
   -> (v1.2) PTSD × ADHD mimicry framework (mechanism distinction)
+  -> (v1.3) Gaze cueing selective: eyes fail, arrows intact = social-specific
+  -> (v1.3) Alpha modulation inverse (EEG) = neural marker for social processing
+  -> (v1.3) PIB protective→crash trajectory in adolescence
+  -> (v1.3) Motivation ≠ Activation (mesolimbic vs mesocortical distinction)
+  -> (v1.3) Anticipation hyporesponsiveness d=0.48-0.58 → feast-or-famine
+  -> (v1.3) Passive→Active avoidance 2-phase developmental model
 
 🔴 HYPOTHESIS (framework-derived, CẦN validation):
   -> Time perception = prediction model temporal RESOLUTION
   -> 2D neurodiversity model (Configuration x Tuning) — adequate simplification?
   -> Inverted-U peak shift mechanism (environment variable)
   -> COMT x DRD4 interaction predictions
-  -> Compensation -> cortisol -> burnout causal chain
+  -> ~~Compensation -> cortisol -> burnout causal chain~~ v1.3 CORRECTED:
+     Burnout = PFC effort depletion + periodic cortisol spikes (NOT chronic elevation)
   -> (v1.2) PTSD overlay as non-dimensional modifier trên 2D model
+  -> (v1.3) Motivation ≠ Activation = 2 separate dopamine systems
+  -> (v1.3) Passive → Active avoidance developmental timeline
 ```
 
 ### §15.2 — Limitations
@@ -1816,6 +1983,8 @@ Framework CÓ THỂ SAI về:
   ? Inverted-U peak shift magnitude
   ? (v1.2) Sensory habituation = sufficient distinction Autism vs ADHD
   ? (v1.2) PTSD mimicry framework (overlap may be deeper than presentation)
+  ? (v1.3) Motivation ≠ Activation = truly separate systems vs gradient
+  ? (v1.3) Passive→Active avoidance = developmental or individual variation
 ```
 
 ---
@@ -1826,13 +1995,13 @@ Framework CÓ THỂ SAI về:
 
 ```
 FOUNDATION (build on, KHÔNG lặp):
-  -> Attention-Spectrum.md v2.0 — 4-factor model, hyperfocus, spectrum
+  -> Attention-Spectrum.md v2.1 — 4-factor model, hyperfocus, spectrum
   -> PFC-Hold-Dimensions.md v1.0 — 4+-1 physics (gamma oscillation)
 
 DOPAMINE CLUSTER (3 files, file này = 3/3):
   -> Nicotine-Brain-Mechanism.md v1.1 — SOURCE ÉP fire
   -> Parkinson-Analysis.md v1.1 — SOURCE CHẾT
-  -> ADHD-Observation.md v1.1 — CLEARANCE nhanh + RECEPTOR kém nhạy <- FILE NÀY
+  -> ADHD-Observation.md v1.3 — CLEARANCE nhanh + RECEPTOR kém nhạy <- FILE NÀY
 ```
 
 ### §16.2 — PFC + Hardware
@@ -1847,19 +2016,19 @@ DOPAMINE CLUSTER (3 files, file này = 3/3):
 
 ```
   -> Dopamine-Is-Not-Reward.md v1.1 — 7-step, dopamine = salience NOT reward
-  -> Body-Feedback-Mechanism.md v1.2 — §3 Chunk dynamics (Miss/Gap)
-  -> Gap-Direction.md v1.0 — gap direction x hyperfocus
-  -> Novelty.md v1.0 — VTA delta, DRD4 threshold, novelty loop
+  -> Body-Feedback-Mechanism.md v2.1 — §3 Chunk dynamics (Miss/Gap)
+  -> Gap-Direction.md v2.0 — gap direction x hyperfocus
+  -> Novelty.md v1.2 — VTA delta, DRD4 threshold, novelty loop
   -> Reward-Calibration.md v1.1 — threshold, over-reward
-  -> Cortisol-Baseline.md v2.0 — §7 Source > Level, emotional cascade
+  -> Cortisol-Baseline.md v2.2 — §7 Source > Level, emotional cascade
 ```
 
 ### §16.4 — Identity + Development
 
 ```
-  -> Self-Pattern-Modeling.md v2.3 — Self-Pattern-Modeling self-chunks, identity compile
+  -> Self-Pattern-Modeling.md v3.1 — Self-Pattern-Modeling self-chunks, identity compile
   -> Child-Development-Mechanism.md v1.0 — developmental trajectory
-  -> Self-Created-Threat.md v1.0 — compensation = self-created threat chronic
+  -> Self-Created-Threat.md v1.1 — compensation = self-created threat chronic
 ```
 
 ### §16.5 — Neurodiversity cluster
@@ -1883,6 +2052,27 @@ DOPAMINE CLUSTER (3 files, file này = 3/3):
      §4 Body-first AMPLIFIED (amygdala 12ms → body → PFC = temporal sequence)
      → PTSD = acquired overlay, ADHD = developmental trait
      → Stimulants may WORSEN PTSD (increase NE → more hyperarousal)
+```
+
+### §16.7 — ADHD Analysis Cluster (companion files)
+
+```
+  -> ADHD-Trade-Off.md v1.0 — WHY file
+     §1 Evolutionary context (honest — hypotheses downgraded)
+     §2 Social compilation asymmetry (gaze cueing, alpha inverse)
+     §3 Masking cost (passing tax, ADHD < Autism)
+     §4 Background-Pattern (cortisol CORRECTED: lower baseline)
+     §5 Satiation + shared vulnerability (CORRECTED: not distinct from addiction)
+     §6 Cost-benefit 3D (subclinical creativity g=0.36)
+     §10 Central thesis: f(Hardware Severity × Environment Fit × Compilation Quality)
+
+  -> ADHD-Attention-Optimization.md v1.0 — HOW file
+     §1 Foundation (threshold=hardware, domain selection=highest leverage)
+     §2 Environment design (3+1 conditions)
+     §3 Reward engineering (anticipation deficit, motivation≠activation)
+     §4 External PFC (5 functions, AI as partner)
+     §5 Repair cycle (exercise #2 SMD 0.52-0.78, sleep 73-80%)
+     §10 Central thesis: optimization hierarchy
 ```
 
 ---
@@ -1935,6 +2125,36 @@ DOPAMINE CLUSTER (3 files, file này = 3/3):
   PMC (2021) Helpful family climate moderator.
   Springer (2025) Paternal affection x ADHD x anxiety.
 
+🟢 v1.3 NEW — Social/neural evidence:
+  Psychiatry Research 2016 (ScienceDirect): Gaze cues NO interference ADHD;
+    arrow cues INTACT. Social-specific automatic orienting impaired.
+  PMC6969336 (2019, n=45 children, EEG): Alpha modulation INVERSE
+    in ADHD left parieto-occipital. Predicts inattention severity.
+  Herrington 2021 (PubMed 34120213): Amygdala-vmPFC coupling ALTERED
+    during emotional face processing in ADHD.
+  PMC12087504 (2025, longitudinal): Shorter gaze fixation on social info
+    at age 4 → predicts ADHD symptoms at age 6-7.
+
+🟢 v1.3 NEW — Reward/activation:
+  Plichta & Scheres 2014: VS hyporesponsiveness d = 0.48-0.58.
+  PLOS ONE 2014: Anticipation ↓, delivery normal/↑.
+
+🟢 v1.3 NEW — Cortisol correction:
+  Cortisol meta-analysis 2021 (Nature Transl Psych): LOWER basal cortisol.
+  Cortisol reactivity meta-analysis 2018 (PMC5837926): r ≈ 0 overall, heterogeneous.
+
+🟢 v1.3 NEW — Exercise:
+  Exercise executive function meta-analysis 2023 (PMC10434964): SMD 0.611 overall.
+  Aerobic exercise 2025: Inhibition g=0.761, Flexibility g=0.780, working memory SMD=0.52.
+
+🟢 v1.3 NEW — Identity/self-concept:
+  Betancourt 2024 (Clin Psych Rev): Self-esteem ES 0.46-0.67.
+  PIB literature (multiple): ADHD children overestimate competence.
+  executive function→burnout mediation 2024 (PMC11007411, n=171 employees).
+
+🟢 v1.3 NEW — Task switching:
+  PMC7515948: Inattention → goal neglect → switch costs.
+
 🟡 Framework synthesis references:
   Barkley RA (1997) Temporal myopia concept.
   Liddle EB et al. (2011) DMN modulation methylphenidate.
@@ -1944,16 +2164,19 @@ DOPAMINE CLUSTER (3 files, file này = 3/3):
 
 🔴 Hypothesis (untested framework-derived):
   DRD4-DAT double hit compound model — from this analysis.
-  WM = hold duration not capacity — from PFC-Hold-Dimensions physics.
+  working memory = hold duration not capacity — from PFC-Hold-Dimensions physics.
   Threshold -> Anxiety 6-step chain — from this analysis.
   2D neurodiversity model (Configuration x Tuning) — from this analysis.
   Inverted-U peak environment shift — from this analysis.
   Time = prediction temporal resolution — extended from Barkley + framework.
+  Motivation ≠ Activation (mesolimbic vs mesocortical) — v1.3 addition.
+  Passive → Active avoidance 2-phase model — v1.3 addition.
 ```
 
 ---
 
-*ADHD-Observation.md v1.2 — Dopamine Cluster File 3/3 + Neurodiversity Cluster 1/2 — 2026-05-15*
-*v1.0→v1.1 REWRITE (1,349L→1,803L). v1.2 enriched §12 (+Autism v1.0, +PTSD v1.0 insights)*
-*Framework v7.8 | Build on Attention-Spectrum.md v2.0*
+*ADHD-Observation.md v1.3 — Dopamine Cluster File 3/3 + Neurodiversity Cluster 1/2 — 2026-05-30*
+*v1.0→v1.1 REWRITE. v1.2 enriched §12. v1.3 cortisol CORRECTED + 7 findings + companion refs*
+*Framework v7.8 | Build on Attention-Spectrum.md v2.1*
+*Companion: ADHD-Trade-Off.md v1.0 (WHY) + ADHD-Attention-Optimization.md v1.0 (HOW)*
 *Observation file — KHÔNG thay thế chẩn đoán y khoa*

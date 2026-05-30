@@ -22,7 +22,7 @@ dependencies:
   Mechanism:
     - PFC-Operations.md v1.0 — §2 Hold+Suppress, §5 Compiled Quality, §9 PFC Budget
     - Background-Pattern.md v2.0 — §6 Triple Bias, §2 Depth×Density
-    - Cortisol-Baseline.md v2.1 — §3.3 Direction tag (NT7), §3.4 7 Modes, §7 Novelty vs Threat
+    - Cortisol-Baseline.md v2.1 — §3.3 Direction-At-Compile, §3.4 7 Modes, §7 Novelty vs Threat
     - Drive.md v1.2 — §2 PFC 6 Modes (Mode 3 Spinning, Mode 4 Resolve)
   Dynamics:
     - Novelty.md v1.2 — §1 VTA+prediction-delta, §1.4 Combinatorial space
@@ -233,7 +233,7 @@ QUOTE NÀY ĐẶC BIỆT SO VỚI 2 FILE TRƯỚC:
 ### §2.2 — Cùng Break, Khác Direction Tag → Khác Suốt Đời
 
 ```
-⭐ CORTISOL-BASELINE §3.3 (NT7) — COMPILE-TIME VARIABLE:
+⭐ CORTISOL-BASELINE §3.3 (Direction-At-Compile) — COMPILE-TIME VARIABLE:
 
   Chunks compile tại MOMENT cortisol fires.
   Body state direction tại moment đó = LOCK IN vào chunk.
@@ -260,7 +260,7 @@ QUOTE NÀY ĐẶC BIỆT SO VỚI 2 FILE TRƯỚC:
     Nếu team ĐÃ mệt/sợ → mỗi "break" compile AVOIDANCE tag.
     → Functional nhưng GHÉT work → "giỏi nhưng ghét."
 
-  🟢 Cortisol direction tag: Chunk.md §2.4 NT7
+  🟢 Cortisol direction tag: Chunk.md §2.4 Direction-At-Compile
   🟡 Direction tag per person within same event: framework synthesis
 ```
 
@@ -664,7 +664,7 @@ MECHANISM:
     §5 Compiled Quality (genuine/schema/threat), §9 PFC Budget
   Background-Pattern.md v2.0 — §2 Depth×Density, §5 PFC invisible,
     §6 Triple Bias (Retrieval+Template+Interpretation)
-  Cortisol-Baseline.md v2.1 — §3.3 Direction tag NT7, §3.5 Novelty compile fast,
+  Cortisol-Baseline.md v2.1 — §3.3 Direction-At-Compile, §3.5 Novelty compile fast,
     §9 PFC damage timeline
   Drive.md v1.2 — §0 Domain=Arbiter, §1 Vô thức=Engine,
     §2 PFC 6 Modes (Mode 3 Spinning, Mode 4 Resolve)

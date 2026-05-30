@@ -625,7 +625,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Bước 4 — DOMAIN FEEDBACK:
     → Schema nào khi follow → body reward THẬT (opioid, not just relief)?
-    → Schema nào khi follow → chỉ relief (hết lo, nhưng trống rỗng)?
+    → Schema nào khi follow → chỉ relief (hết lo, nhưng emptiness)?
     → Schema nào khi follow → sustained dissonance (vẫn chưa đủ)?
     → Domain feedback = trọng tài: kết quả THẬT cho biết schema có functional không.
 

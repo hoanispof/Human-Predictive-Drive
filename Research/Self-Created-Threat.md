@@ -20,7 +20,7 @@
 
 ---
 
-> **Trạng thái:** v1.0
+> **Trạng thái:** v1.1 (refined 2026-05-29: L3 RETIRE — "L3/L1-L2"→"PFC-level/body-compiled". Pattern C terminology)
 > **Ngày:** 2026-05-13
 > **Vị trí:** Research/ (cross-domain analysis, observation-level)
 > **Dependencies:**
@@ -48,7 +48,7 @@
 - §1 — CORE MECHANISM: PFC-TO-BODY TRUST-COMPILE
 - §2 — 4 LOẠI SELF-CREATED THREAT
 - §3 — 3 GIAI ĐOẠN HỌC (trải nghiệm → quan sát → tự tạo)
-- §4 — BẬT/TẮT: TẠI SAO L3 CONTROLLABLE, L1-L2 KHÔNG
+- §4 — BẬT/TẮT: TẠI SAO PFC-LEVEL CONTROLLABLE, BODY-COMPILED KHÔNG
 - §5 — AI ERA: NGUỒN DRIVE CŨ BIẾN MẤT
 - §5.5 — FULL CYCLE: TỰ QUẢN TRỊ DRIVE (xã hội cũ vs tương lai)
 - §6 — CALIBRATION: INVERTED-U ÁP DỤNG CHO SELF-DRIVE
@@ -85,7 +85,7 @@
   │ HỌC ĐƯỢC không?          │ §3 — 3 giai đoạn: compiled → observed │
   │                           │       → self-created                   │
   ├───────────────────────────┼───────────────────────────────────────┤
-  │ Sao CEO TẮT được mà      │ §4 — L3 (PFC) vs L1-L2 (compiled)    │
+  │ Sao CEO TẮT được mà      │ §4 — PFC-level vs body-compiled       │
   │ người lo âu KHÔNG?       │                                       │
   ├───────────────────────────┼───────────────────────────────────────┤
   │ AI era thay đổi gì?      │ §5 — Nguồn drive cũ biến mất          │
@@ -262,7 +262,7 @@
    "Đối thủ đang bắt kịp. Phải nhanh hơn."
 
    Chain: đối thủ tiến → status giảm tương đối → mất resource access → nguy hiểm
-   Anchor: L3 Status (resource access map) + Protect (loss aversion)
+   Anchor: Status (evaluative, resource access map) + Protect (loss aversion)
    Cortisol: trung bình, ổn định, dài hạn
    BẬT: khi review đối thủ, họp chiến lược, đọc tin thị trường
    TẮT: khi về nhà, nghỉ phép, context chuyển sang Connection
@@ -271,7 +271,7 @@
      Jensen Huang: "Chúng tôi cách phá sản 30 ngày"
        (dù NVIDIA = công ty giá trị nhất thế giới 2024-2025)
        Chain: competition → NVIDIA mất vị trí → 30 năm Anchor-Schema sụp
-       → Chạm MỌI tầng: L0 (identity survival) + L3 (Status + Meaning)
+       → Chạm MỌI tầng: L0 (identity survival) + Status + Meaning (evaluative)
        ⚠️ Internal mechanism CỤ THỂ = chỉ Jensen Huang biết.
        Framework infer từ observable behavior, không phải đọc vị chính xác.
 
@@ -283,8 +283,8 @@
    "Đời ngắn. Còn nhiều thứ chưa làm."
 
    Chain: thời gian hữu hạn → chưa đạt Imagine-Final → chết = mất cơ hội vĩnh viễn
-   Anchor: L0 (mortality awareness) + L3 Novelty (expansion drive)
-   ĐẶC BIỆT: dùng L0 threat (mạnh nhất) để FUEL L3 (expand territory)
+   Anchor: L0 (mortality awareness) + Novelty (evaluative, expansion)
+   ĐẶC BIỆT: dùng L0 threat (mạnh nhất) để FUEL evaluative drive (expand territory)
 
    🟢 Ví dụ (public):
      Steve Jobs (sau chẩn đoán ung thư 2003):
@@ -305,7 +305,7 @@
    "Nếu tôi fail → hàng nghìn người chịu hậu quả."
 
    Chain: quyết định sai → team mất việc → gia đình họ ảnh hưởng
-   Anchor: L2 Connection (care people) + L3 Status (leader = responsible)
+   Anchor: Connection (care people) + Status (evaluative, leader = responsible)
    DOUBLE drive: 2 anchor cùng lúc = reinforced
 
    🟡 Pattern phổ biến:
@@ -321,7 +321,7 @@
    "Tôi sẽ được nhớ đến thế nào? Đã đóng góp đủ chưa?"
 
    Chain: chết → mọi người quên → như chưa từng tồn tại
-   Anchor: L3 Status (projected vào tương lai) + Novelty (muốn để lại dấu ấn)
+   Anchor: Status (projected, evaluative) + Novelty (muốn để lại dấu ấn)
    ĐẶC BIỆT: threat MƠ HỒ — không biết khi nào "đủ" → loop RẤT DÀI
 
    🟢 Ví dụ (public):
@@ -434,7 +434,7 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
 
 ---
 
-## §4 — BẬT/TẮT: TẠI SAO L3 CONTROLLABLE, L1-L2 KHÔNG
+## §4 — BẬT/TẮT: TẠI SAO PFC-LEVEL CONTROLLABLE, BODY-COMPILED KHÔNG
 
 ```
 🟡 FRAMEWORK SYNTHESIS (kết nối Threat.md + Body-Base model):
@@ -445,24 +445,24 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
   ┌────────────────┬────────────────────────┬────────────────────────┐
   │ Threat ở tầng  │ Ai tạo                 │ Ai tắt được            │
   ├────────────────┼────────────────────────┼────────────────────────┤
-  │ L3 (PFC)       │ PFC imagine             │ PFC dismiss ✅         │
+  │ PFC-level      │ PFC imagine             │ PFC dismiss ✅         │
   │                │ "đối thủ đang tiến"     │ "về nhà, tắt đi"      │
   ├────────────────┼────────────────────────┼────────────────────────┤
-  │ L1-L2          │ Vô thức compiled deep   │ PFC KHÔNG reach ❌    │
-  │ (compiled)     │ Childhood trauma, schema │ "Lo mà không biết lo  │
+  │ Body-compiled  │ Vô thức compiled deep   │ PFC KHÔNG reach ❌    │
+  │                │ Childhood trauma, schema │ "Lo mà không biết lo  │
   │                │ sâu, body auto-fire      │  gì" = threat tự fire │
   └────────────────┴────────────────────────┴────────────────────────┘
 
 
-  CEO SELF-CREATED THREAT = L3:
+  CEO SELF-CREATED THREAT = PFC-LEVEL:
     → PFC TẠO threat → PFC CÓ THỂ TẮT threat
     → Họp chiến lược: "chúng ta sắp thua" → cortisol ON → team chạy
     → Về nhà cuối tuần: tắt → thư giãn → repair → recovery
-    → = Giống bật/tắt công tắc (vì L3 = PFC territory)
+    → = Giống bật/tắt công tắc (vì PFC territory)
     → REPAIR xảy ra → sustainable
 
 
-  NGƯỜI BỊ ANXIETY = L1-L2:
+  NGƯỜI BỊ ANXIETY = BODY-COMPILED:
     → Body tự threat → PFC KHÔNG can thiệp được → không tắt được
     → "Lo lắng mà không biết lo gì" = threat schema compiled quá sâu
     → PFC mất access → giống hardware lock, software không override được
@@ -472,27 +472,27 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
 
   ⭐ PHÂN BIỆT QUAN TRỌNG:
 
-    Self-created threat (§2, §3) → L3 → controllable → CÓ LỢI (nếu calibrate)
-    Anxiety / trauma threat → L1-L2 → uncontrollable → CẦN THERAPY
+    Self-created threat (§2, §3) → PFC-level → controllable → CÓ LỢI (nếu calibrate)
+    Anxiety / trauma threat → body-compiled → uncontrollable → CẦN THERAPY
 
     CÙNG HIỆN TƯỢNG bên ngoài ("người này lúc nào cũng căng"),
     nhưng KHÁC mechanism bên trong:
-      → Nếu L3: người đó TỰ CHỌN căng → tắt được → productive
-      → Nếu L1-L2: người đó BỊ căng → không tắt được → destructive
+      → Nếu PFC-level: người đó TỰ CHỌN căng → tắt được → productive
+      → Nếu body-compiled: người đó BỊ căng → không tắt được → destructive
 
 
-  ⚠️ RISK: L3 CÓ THỂ COMPILE THÀNH L1-L2:
+  ⚠️ RISK: PFC-LEVEL CÓ THỂ COMPILE THÀNH BODY-LEVEL:
 
     Nếu self-created threat CHẠY QUÁ LÂU + không tắt + không repair:
-      → Schema [threat → action] compile SÂU → vào L1-L2
-      → BAN ĐẦU: controllable (L3)
+      → Schema [threat → action] compile SÂU → vào body-level
+      → BAN ĐẦU: controllable (PFC-level)
       → SAU NHIỀU NĂM: compiled → auto-fire → KHÔNG tắt được nữa
       → = "Workaholic" = threat ban đầu tự tạo → sau thành compiled anxiety
       → = CEO burnout after decades
 
     Phòng: PHẢI có cycle repair (§6)
     → Tắt threat → sleep → repair → bật lại
-    → Không có repair cycle → L3 threat compile dần thành L1-L2
+    → Không có repair cycle → PFC-level threat compile dần thành body-level
 ```
 
 ---
@@ -708,7 +708,7 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
   │   → Complete arc hoặc giữa arc khi mệt → TẮT threat       │
   │   → Sleep + connection + vui chơi → cortisol reset          │
   │   → Chi tiết: §6.3 file này + Cortisol-Baseline.md §8     │
-  │   → KHÔNG repair → L3 compile thành L1-L2 → anxiety        │
+  │   → KHÔNG repair → PFC-level compile thành body-level → anxiety│
   │                       ↓                                     │
   │   ⑥ RE-FIRE (bật lại)                                     │
   │   → Sau repair → body thoải mái → drive = 0                │
@@ -798,7 +798,7 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
     → PFC damage tích lũy (Cortisol-Baseline.md §6)
 
   CỰC CAO (crash zone):
-    → Threat overwhelming → L3 compile thành L1-L2 (§4)
+    → Threat overwhelming → PFC-level compile thành body-level (§4)
     → Controllable → uncontrollable → anxiety/depression
     → Body shutdown: "không chịu nổi nữa"
 ```
@@ -808,7 +808,7 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
 ```
 🟡 (tương tự Cortisol-Baseline.md §8.2 — 6 parameters):
 
-  ĐỈ​NH DỊCH PHẢI (chịu được nhiều threat hơn) khi:
+  ĐỈNH DỊCH PHẢI (chịu được nhiều threat hơn) khi:
     → Sleep quality TỐT → repair mạnh → chịu cortisol CAO hơn
     → PFC capacity CAO → xử lý nhiều signal → không ngập
     → Cortisol baseline THẤP → headroom nhiều
@@ -895,7 +895,7 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
   → Self-created threat = Trust Compile from PFC
   → 4 loại phân theo anchor (body-base level)
   → 3 giai đoạn học sequence
-  → L3 controllable vs L1-L2 uncontrollable
+  → PFC-level (controllable) vs body-compiled (uncontrollable)
   → Inverted-U applied to self-drive
   → Repair cycle necessity
 
@@ -904,7 +904,7 @@ GIAI ĐOẠN 3 — TỰ TẠO CÓ Ý THỨC (leadership / mastery phase):
   → AI era "khoảng trống drive" prediction
   → "Quiet quitting" = symptom of drive gap (correlation ≠ causation)
   → Exact 3-phase learning sequence (inferred from cases, not tested)
-  → L3 → L1-L2 compilation timeline (years? decades?)
+  → PFC-level → body-level compilation timeline (years? decades?)
   → Self-Created Threat effectiveness ĐÚNG NHƯ MÔ TẢ hay còn factors khác?
 
 
@@ -977,7 +977,7 @@ BACKUP (source material):
 > Body không phân biệt "ai nói" — chỉ care "chain có chạm body-base không."
 >
 > 4 loại threat tự tạo. 3 giai đoạn học (skill, không bẩm sinh).
-> L3 controllable — L1-L2 không. Repair cycle = non-negotiable.
+> PFC-level controllable — body-compiled không. Repair cycle = non-negotiable.
 > AI era: nguồn drive cũ biến mất → skill này quan trọng hơn bao giờ hết.
 > Novelty-pull = con đường khác (đã có file riêng).
 > Giáo dục đúng → thế hệ sau có thể novelty-pull tự đủ → threat ít cần hơn.

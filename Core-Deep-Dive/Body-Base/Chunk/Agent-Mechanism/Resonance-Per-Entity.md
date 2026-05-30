@@ -7,12 +7,12 @@ scope: |
   Per-entity resonance dynamics: CÙNG mechanism (by-product match) nhưng KHÁC dynamics
   per relationship type. Gap type + satiation profile + Reward-Signal-Architecture Evaluative:Direct-State → resonance profile RIÊNG.
   3-Tầng per-entity model (Supply × Mechanism × Dynamics) với 14 parameters.
-  Hardware subsidy = anti-habituation spectrum. Compilation chain Fresh→Compiled→baseline→dynamics.
+  Hardware-subsidy = anti-habituation spectrum. Compilation chain Fresh→Compiled→baseline→dynamics.
   Per-entity profiles: mẹ-con (asymmetric), bạn thân, romantic, first meeting, tool-mode, professional.
   Lifecycle resonance shift, ENGINE/ROAD/VEHICLE × resonance, technology frontier, phantom resonance.
 purpose: |
   By-Product-Gap-Resonance v1.4 = DEFINES resonance mechanism (what + conditions + enhancers).
-  Bond-Architecture v1.0 = Entity-Compiled × 4 bond types (neurochemistry, M1-M4, gap clone impossible).
+  Bond-Architecture v2.0 = Entity-Compiled × 4 bond types (neurochemistry, Resonance Decline 2 Forces + 1 Fuel, gap clone impossible).
   Resonance-Sustainability v1.0 = 4-Layer sustainability model (conditions → modality → amplification → trajectory).
   File NÀY = PER-ENTITY DYNAMICS: how resonance DIFFERS across entity types,
   observed through 3-Tầng model (Supply × Mechanism × Dynamics).
@@ -27,15 +27,15 @@ position: |
     Entity-Access v1.2 = gradient model, access level (Level 4)
 dependencies:
   - By-Product-Gap-Resonance.md v1.4 — FOUNDATION: resonance definition, 5 trục, 4 conditions
-  - Bond-Architecture.md v1.0 — COMPANION: Entity-Compiled × 4 bond types, M1-M4, gap clone impossible
+  - Bond-Architecture.md v2.0 — COMPANION: Entity-Compiled × 4 bond types, Resonance Decline 2 Forces + 1 Fuel, gap clone impossible
   - Resonance-Sustainability.md v1.0 — COMPANION: 4-Layer sustainability model, 3 modalities
   - By-Product-Scale.md v1.0 — COMPANION: 3 scales (pair/hub/institutional)
   - Gap-Body-Need.md v1.0 — PREREQUISITE: 3 Satiation Profiles, 5-Parameter, ENGINE/ROAD/VEHICLE
   - Entity-Compiled.md v1.0 — MECHANISM: Hub-and-Spoke, Dunbar, formation, grief, decay
   - Entity-Access.md v1.2 — GRADIENT: Mức 0-5, 3-Factor Model, excess, calibration
-  - Valence-Propagation.md v3.0 — CONTEXT: structural/current valence, 3 Firing Modes, Hardware Subsidy
+  - Valence-Propagation.md v3.0 — CONTEXT: structural/current valence, 3 Firing Modes, Hardware-Subsidy
   - Inter-Body-Mechanism.md v1.0 — SOURCE: 3-cost model §4, compilation chain §5, by-product match §5.4
-  - Self-Pattern-Modeling.md v3.1 — ENGINE: Compiled/Fresh mechanism, Simulation Engine application 1
+  - Self-Pattern-Modeling.md v3.1 — ENGINE: Compiled/Fresh mechanism, Simulation-Engine application 1
   - PFC-Operations.md v1.0 — MECHANISM: Hold/Suppress, Compiled/Fresh spectrum, PFC budget
   - Simulation-Engine.md v1.0 — MECHANISM: 1 engine, 3 components, self/other model gradient
   - Connection.md v4.0 — SOURCE: 3 Generative Primitives, 2-tầng/2-luồng architecture
@@ -98,11 +98,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Romantic: limerence (hormone mask) → post-limerence (resonance or dissolution).**
 >
 > **Compilation chain: Fresh (cautious) → Compiled (automatic) → baseline → dynamics.**
-> **Hardware subsidy = ANTI-HABITUATION: mẹ→con MAXIMUM, bạn thân NONE, romantic TEMPORARY.**
+> **Hardware-subsidy = ANTI-HABITUATION: mẹ→con MAXIMUM, bạn thân NONE, romantic TEMPORARY.**
 >
 > **Per-entity resonance quan sát qua 3 TẦNG:**
 > **Tầng 1 SUPPLY: gap fill profile + Cyclic/Tonic/Generative + Reward-Signal-Architecture Evaluative:Direct-State ratio.**
-> **Tầng 2 MECHANISM: hardware subsidy + compilation path + 3-cost + 2-tầng/2-luồng.**
+> **Tầng 2 MECHANISM: hardware-subsidy + compilation path + 3-cost + 2-tầng/2-luồng.**
 > **Tầng 3 DYNAMICS: novelty architecture + decay + phantom + technology fill.**
 >
 > **ENGINE/ROAD/VEHICLE áp dụng: resonance = 2 VEHICLE trên cùng ROAD.**
@@ -115,7 +115,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 - §0 — POSITION + THESIS + CLAIMS
 - §1 — COMPILATION CHAIN: Fresh → Compiled → BASELINE → DYNAMICS
-- §2 — HARDWARE SUBSIDY: ANTI-HABITUATION SPECTRUM
+- §2 — HARDWARE-SUBSIDY: ANTI-HABITUATION SPECTRUM
 - §3 — 3-TẦNG PER-ENTITY MODEL
 - §4 — RESONANCE × MẸ-CON (asymmetric)
 - §5 — RESONANCE × BẠN THÂN (genuine, fragile)
@@ -148,7 +148,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   
   COMPANION FILES (cùng Agent-Mechanism/):
     By-Product-Gap-Resonance v1.4 = resonance DEFINITION + mechanism + conditions
-    Bond-Architecture v1.0 = Entity-Compiled × 4 bond types + neurochemistry + M1-M4
+    Bond-Architecture v2.0 = Entity-Compiled × 4 bond types + neurochemistry + Resonance Decline 2 Forces + 1 Fuel
     Resonance-Sustainability v1.0 = 4-Layer sustainability model
     By-Product-Scale v1.0 = 3 scales (pair / hub / institutional)
     
@@ -171,7 +171,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ① CÙNG mechanism (by-product match) nhưng KHÁC dynamics per relationship
   ② Dynamics phụ thuộc: gap type + satiation profile + Reward-Signal-Architecture Evaluative:Direct-State ratio
   ③ Compilation chain: Fresh → Compiled → baseline → dynamics (Inter-Body-Mechanism v1.0 §5)
-  ④ Hardware subsidy = ANTI-HABITUATION mechanism (mẹ→con MAX, bạn NONE)
+  ④ Hardware-subsidy = ANTI-HABITUATION mechanism (mẹ→con MAX, bạn NONE)
   ⑤ Per-entity resonance quan sát qua 3 TẦNG (Supply × Mechanism × Dynamics)
   ⑥ 2-tầng: Hardware-driven (A) + Self-Pattern-Modeling-driven (B) — proportion KHÁC per entity
   ⑦ 2-luồng: L1 momentary (Self-Pattern-Modeling fire) + L2 structural (Entity-Compiled) — KHÁC per entity
@@ -187,13 +187,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
   C1. Same resonance mechanism, different per-entity dynamics
       🟢 By-product match: By-Product-Gap-Resonance v1.4 §1, Inter-Body-Mechanism v1.0 §5.4
-  C2. Hardware subsidy spectrum explains bond durability differences
+  C2. Hardware-subsidy spectrum explains bond durability differences
       🟢 Oxytocin (Feldman 2012), limerence (Fisher 2004), friend decay (Roberts & Dunbar 2011)
   C3. 3-Tầng model maps entity-specific resonance profiles
       🟡 Framework synthesis — component models established independently
   C4. Mẹ→con resonance architecturally guaranteed, con→mẹ shifts with lifecycle
       🟢 Attachment theory (Bowlby 1969), prenatal (Cranley 1981, Hoekzema 2017)
-  C5. Friendship = purest resonance test (zero hardware subsidy)
+  C5. Friendship = purest resonance test (zero hardware-subsidy)
       🟡 Synthesis from Roberts & Dunbar 2011 + Panksepp 1998
   C6. Romantic resonance masked during limerence, revealed post-limerence
       🟢 Fisher 2004, Marazziti 2003, Acevedo 2012
@@ -284,7 +284,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → By-product match STOPS (nothing to match)
       → L1 ≈ 0. L2 habituated. Entity-Compiled = structural only.
       → = "Chán hoàn toàn" = resonance dead
-      → = Bond-Architecture v1.0 §4 M1 (primary mechanism)
+      → = Bond-Architecture v2.0 §4 Compiled-Suppress (primary mechanism)
       → Fix: awareness + uncompile suppress + rebuild drive riêng
 
   ⭐ COMPILATION RATE VARIES PER ENTITY TYPE:
@@ -292,7 +292,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Bạn thân: STANDARD (R6 Hall 2018: ~200h → close friend)
     Romantic: ACCELERATED by limerence (hormone fast-track)
     Colleague: SLOW if mostly Tool-mode (limited Agent-mode time)
-    → Rate depends on: hardware subsidy + interaction frequency + Agent-mode proportion
+    → Rate depends on: hardware-subsidy + interaction frequency + Agent-mode proportion
 
   🟢 Fresh→Compiled compilation: Inter-Body-Mechanism v1.0 §5
   🟢 VTA habituation: R1 Schultz 1997
@@ -303,9 +303,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §2 — HARDWARE SUBSIDY: ANTI-HABITUATION SPECTRUM
+## §2 — HARDWARE-SUBSIDY: ANTI-HABITUATION SPECTRUM
 
-> Valence-Propagation v3.0 §5 (Hardware Subsidy), Gap-Body-Need v1.0 §4 (hardware gaps), Reward-Signal-Architecture v2.0 §1 (Evaluative/Direct-State).
+> Entity-Valence-Dynamics.md v1.0 §5 (Hardware-Subsidy), Gap-Body-Need v1.0 §4 (hardware gaps), Reward-Signal-Architecture v2.0 §1 (Evaluative/Direct-State).
 
 ```
 ⭐⭐ KEY ARCHITECTURAL INSIGHT:
@@ -314,7 +314,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Repeated reward → VTA giảm fire → reward "invisible"
     = UNIVERSAL law. Applies to ALL relationships.
     
-  NHƯNG: một số relationship types CÓ hardware subsidy:
+  NHƯNG: một số relationship types CÓ hardware-subsidy:
     = Hormone/circuit ĐẶC BIỆT actively COUNTER VTA habituation
     = "Tự động bảo trì" — body maintenance KHÔNG cần PFC effort
     
@@ -322,7 +322,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ┌────────────────────┬─────────────────────────────────────────────────┐
   │ MAXIMUM            │ MẸ→CON                                         │
-  │ Hardware subsidy   │                                                 │
+  │ Hardware-subsidy   │                                                 │
   │                    │ Oxytocin: sustained → SLOW habituation          │
   │                    │ Baby schema: visual trigger → NAcc 140ms        │
   │                    │ Biobehavioral synchrony: 4-system sync          │
@@ -348,7 +348,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                    │                                                 │
   │                    │ Dopamine + NE surge: 18-36 months               │
   │                    │ Serotonin↓: obsessive focus                     │
-  │                    │ → SIMULATES hardware subsidy — NOT permanent    │
+  │                    │ → SIMULATES hardware-subsidy — NOT permanent    │
   │                    │ → When fades: resonance MUST carry alone        │
   │                    │ → "Hết lửa" = temporary subsidy expired         │
   │                    │                                                 │
@@ -368,19 +368,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                    │     (general, NOT relationship-specific)         │
   └────────────────────┴─────────────────────────────────────────────────┘
 
-  ⭐ HARDWARE SUBSIDY GIẢI THÍCH:
+  ⭐ HARDWARE-SUBSIDY GIẢI THÍCH:
     Tại sao mẹ→con BỀN hơn tất cả? → MAXIMUM anti-habituation
     Tại sao kin resilient hơn friends? → MODERATE vs NONE
     Tại sao romantic "hết lửa" sau 2-3 năm? → TEMPORARY subsidy expired
     Tại sao friendship DECAY nhanh? → NONE → must maintain actively
 
-  ⭐ HARDWARE SUBSIDY ≠ RESONANCE QUALITY:
+  ⭐ HARDWARE-SUBSIDY ≠ RESONANCE QUALITY:
     Mẹ→con: HIGH subsidy + MEDIUM resonance quality (asymmetric)
     Bạn thân: ZERO subsidy + potentially HIGH resonance quality (genuine match)
     → Subsidy = SUSTAINABILITY insurance, NOT quality indicator
     → Best relationships = high subsidy AND high genuine resonance
     
-  🟡 Hardware subsidy spectrum as unified anti-habituation model = framework synthesis
+  🟡 Hardware-subsidy spectrum as unified anti-habituation model = framework synthesis
   🟢 Individual mechanisms established independently (Feldman, Fisher, Panksepp)
 ```
 
@@ -395,7 +395,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   TẦNG 1 — SUPPLY (entity này fill WHAT):
   ┌──────────────────────────────────────────────────────────────────┐
-  │ S1. Gaps filled: WHICH specific gaps? (P1+P2 từ 5-Parameter)   │
+  │ S1. Gaps filled: WHICH specific gaps? (Axis-1+Axis-2 từ 5-Parameter) │
   │ S2. Satiation profile: Cyclic / Tonic / Generative proportion  │
   │ S3. Reward-Signal-Architecture Evaluative:Direct-State ratio: Evaluative vs Direct-State reward   │
   │ S4. Gap count: single-gap (Tool) vs multi-gap (Agent-mode)     │
@@ -403,18 +403,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   TẦNG 2 — MECHANISM (resonance HOẠT ĐỘNG thế nào):
   ┌──────────────────────────────────────────────────────────────────┐
-  │ M1. Hardware subsidy: anti-habituation level (§2)               │
-  │ M2. Compilation path: standard / accelerated / skip             │
-  │ M3. Cost profile: 3-cost (PFC draft + suppress + uncertainty)   │
-  │ M4. 2-tầng proportion: Hardware-driven (A) : Self-Pattern-Modeling-driven (B)    │
-  │ M5. 2-luồng proportion: L1 momentary : L2 structural           │
+  │ ① Hardware-subsidy: anti-habituation level (§2)                  │
+  │ ② Compilation path: standard / accelerated / skip               │
+  │ ③ Cost profile: 3-cost (PFC draft + suppress + uncertainty)     │
+  │ ④ 2-tầng proportion: Hardware-driven (A) : Self-Pattern-Modeling-driven (B)    │
+  │ ⑤ 2-luồng proportion: L1 momentary : L2 structural             │
   └──────────────────────────────────────────────────────────────────┘
 
   TẦNG 3 — DYNAMICS (resonance THAY ĐỔI thế nào):
   ┌──────────────────────────────────────────────────────────────────┐
   │ D1. Novelty architecture: auto-source vs require active effort  │
   │ D2. Decay profile: hardware scaffold (slow) vs no scaffold (fast)│
-  │ D3. "Chán" vulnerability: which M1-M4 mechanisms attack?        │
+  │ D3. "Chán" vulnerability: which decline factors attack?          │
   │ D4. Phantom intensity: compilation depth × channels × subsidy   │
   │ D5. Technology substitution: how much can tech replace?         │
   └──────────────────────────────────────────────────────────────────┘
@@ -432,14 +432,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Component models established independently:
       5-Parameter (Gap-Body-Need v1.0 §6), 3-cost (Inter-Body-Mechanism v1.0 §4),
       2-tầng (Connection v4.0 §3.2b), 2-luồng (Connection v4.0 §3.3b),
-      M1-M4 (Bond-Architecture v1.0 §4)
+      Resonance Decline 2 Forces + 1 Fuel (Bond-Architecture v2.0 §4)
 ```
 
 ---
 
 ## §4 — RESONANCE × MẸ-CON (asymmetric)
 
-> Entity-Compiled v1.0 §5 (parent-child), Bond-Architecture v1.0 §2.2-§2.3 (bond types), Gap-Body-Need v1.0 §12 (existence-based gaps).
+> Entity-Compiled v1.0 §5 (parent-child), Bond-Architecture v2.0 §2.2-§2.3 (bond types), Gap-Body-Need v1.0 §12 (existence-based gaps).
 
 ### §4.1 — Mẹ → Con
 
@@ -460,17 +460,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         Con tồn tại = 1 meta-gap → fill across channels simultaneously
         
   TẦNG 2 — MECHANISM:
-    M1. Hardware subsidy: MAXIMUM (§2 — oxytocin + baby schema + synchrony + prolactin)
-    M2. Compilation: SKIP Stage 1-2 (partially)
+    ① Hardware-subsidy: MAXIMUM (§2 — oxytocin + baby schema + synchrony + prolactin)
+    ② Compilation: SKIP Stage 1-2 (partially)
         Prenatal: hormone priming → brain restructure (R11 Hoekzema 2017)
         Birth: oxytocin surge → IMMEDIATE baseline precursor
         → Compiled ALREADY partially compiled before significant interaction
         → = "Con chưa làm gì, mẹ đã thương"
-    M3. Cost: ≈ 0 (hardware-compiled, no suppress, no uncertainty)
-    M4. 2-tầng: Tầng Hardware DOMINANT (hardware-driven, pre-Self-Pattern-Modeling)
+    ③ Cost: ≈ 0 (hardware-compiled, no suppress, no uncertainty)
+    ④ 2-tầng: Tầng Hardware DOMINANT (hardware-driven, pre-Self-Pattern-Modeling)
         Infant 0-6m: ❶ only (social smile, sync — Connection v4.0 §3.2b)
         Toddler+: ❶ + ❷ compound (hardware + Self-Pattern-Modeling developing)
-    M5. 2-luồng: L2 DOMINANT (structural)
+    ⑤ 2-luồng: L2 DOMINANT (structural)
         Con = body-base extension → con's state = MY state (Entity-Compiled v1.0 §3)
         L1 (momentary) present but L2 DRIVES behavior
         → Mẹ sacrifice = L2 structural override L1 negative (Connection v4.0 §3.3b)
@@ -483,8 +483,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     D2. Decay: VERY SLOW (kin hardware scaffold + maximum subsidy)
         → Mẹ xa con 10 năm → gặp lại vẫn "ôm mà khóc"
     D3. "Chán" vulnerability: LOW
-        → M1+M2 không attack (hardware shield + auto-novelty)
-        → M3+M4 POSSIBLE nhưng rare (prediction complete + all channels compiled)
+        → Compiled-Suppress: N/A (hardware drive, not suppressible)
+        → Reward-Habituated: COUNTERED (maximum hardware-subsidy)
+        → Novelty: ABOVE threshold nhưng can plateau (elderly parent→adult child)
         → ONLY when child STOPS changing (elderly parent→adult child plateau)
     D4. Phantom: DEVASTATING on child loss
         → Multi-channel + hardware + L2 structural → ALL fire, NO response
@@ -526,15 +527,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     S4. Gap count: MULTI-GAP (hunger + comfort + safety + emotional + guidance)
         
   TẦNG 2 — MECHANISM:
-    M1. Hardware subsidy: MODERATE (attachment hardware, weaker than mẹ direction)
-    M2. Compilation: STANDARD with attachment scaffold
+    ① Hardware-subsidy: MODERATE (attachment hardware, weaker than mẹ direction)
+    ② Compilation: STANDARD with attachment scaffold
         0-6m: indiscriminate → any caregiver (R9 Schaffer & Emerson 1964)
         ~7m: SPECIFIC attachment → Compiled begins for mẹ specifically
         1-3yr: Compiled deepening → Entity-Compiled forming
         → STANDARD chain nhưng CÓ hardware scaffold (oxytocin, attachment)
-    M3. Cost: LOW (hardware scaffold giảm uncertainty + suppress)
-    M4. 2-tầng: A+B balanced (hardware + Self-Pattern-Modeling develop cùng lúc)
-    M5. 2-luồng: L1→L2 shifting (forming Entity-Compiled over years)
+    ③ Cost: LOW (hardware scaffold giảm uncertainty + suppress)
+    ④ 2-tầng: A+B balanced (hardware + Self-Pattern-Modeling develop cùng lúc)
+    ⑤ 2-luồng: L1→L2 shifting (forming Entity-Compiled over years)
         Infant: L1 dominant (momentary reward from fill)
         Toddler: L2 building (mẹ = baseline → structural)
         Child: L2 established (mẹ absence = baseline violation)
@@ -572,7 +573,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §5 — RESONANCE × BẠN THÂN
 
-> Bond-Architecture v1.0 §2.5 (friendship bond), Resonance-Sustainability v1.0 §13 (dormant ties), Gap-Body-Need v1.0 §5 (domain gaps).
+> Bond-Architecture v2.0 §2.5 (friendship bond), Resonance-Sustainability v1.0 §13 (dormant ties), Gap-Body-Need v1.0 §5 (domain gaps).
 
 ```
 ⭐ BẠN THÂN = GENUINE BY-PRODUCT MATCH, FRAGILE WITHOUT MAINTENANCE:
@@ -592,15 +593,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → NHƯNG thường ÍT HƠN romantic hoặc parent-child
 
   TẦNG 2 — MECHANISM:
-    M1. Hardware subsidy: NONE (§2 — no dedicated hormone for friendship)
-    M2. Compilation: STANDARD chain, NO hardware skip
+    ① Hardware-subsidy: NONE (§2 — no dedicated hormone for friendship)
+    ② Compilation: STANDARD chain, NO hardware skip
         R6 Hall 2018: 40-60h casual → 80-100h friend → 200+h close
         → FULL chain: Stage 1 (weeks) → Stage 2 (months) → Stage 3 (years)
-    M3. Cost: ≈ 0 when compiled (mutual Compiled, no suppress, no uncertainty)
+    ③ Cost: ≈ 0 when compiled (mutual Compiled, no suppress, no uncertainty)
         → Cost SPIKES if conflict arises (trust broken → back to Fresh)
-    M4. 2-tầng: Tầng PFC DOMINANT (Self-Pattern-Modeling-compiled, no significant hardware)
+    ④ 2-tầng: Tầng PFC DOMINANT (Self-Pattern-Modeling-compiled, no significant hardware)
         → Almost purely ❷ Self-Pattern-Modeling-driven resonance
-    M5. 2-luồng: L1 DOMINANT (momentary reward from Self-Pattern-Modeling fire)
+    ⑤ 2-luồng: L1 DOMINANT (momentary reward from Self-Pattern-Modeling fire)
         → L2 (structural) ONLY if Entity-Compiled forms (multi-gap + Agent-mode)
         → Most friendships: L1 with SOME L2 build-up
         → "Nhớ bạn" = L2 baseline violated. "Gặp bạn vui" = L1 fire.
@@ -616,9 +617,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → 48.6% inner circle friends CHANGE when context changes
         → Hebbian weaken → Entity-Compiled fades → "nhớ vài ngày, rồi fine, rồi quên"
     D3. "Chán" vulnerability: HIGH if no novelty
-        → M2 (natural habituation) = primary mechanism
-        → M3 (prediction complete) khi "biết bạn quá rõ"
-        → M1 (compiled suppress) less common (no obligation to suppress)
+        → Reward-Habituated = primary (no hardware-subsidy to counter)
+        → Novelty dưới ngưỡng khi "biết bạn quá rõ" (prediction complete)
+        → Compiled-Suppress less common (no obligation to suppress for friend)
         → FIX = shared novel experiences (R8 Aron 2000 applies to friendships)
     D4. Phantom: MINOR-MODERATE (L1 dominant + no hardware scaffold)
         → "Mất bạn thân" = buồn nhưng recoverable
@@ -645,7 +646,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §6 — RESONANCE × ROMANTIC (limerence → attachment)
 
-> Love-Romantic v2.4, Bond-Architecture v1.0 §2.4 (romantic bond), Resonance-Sustainability v1.0 §9-§10 (self-expansion + maintenance).
+> Love-Romantic v2.4, Bond-Architecture v2.0 §2.4 (romantic bond), Resonance-Sustainability v1.0 §9-§10 (self-expansion + maintenance).
 
 ```
 ⭐⭐ ROMANTIC = 2 PHASES HOÀN TOÀN KHÁC CƠ CHẾ:
@@ -673,17 +674,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       S4. Gap count: ARTIFICIALLY MULTI (hormone inflates ALL channels)
       
     TẦNG 2 — MECHANISM:
-      M1. Hardware subsidy: TEMPORARY (limerence hormones — §2)
+      ① Hardware-subsidy: TEMPORARY (limerence hormones — §2)
           → SIMULATES maximum subsidy → but TIME-LIMITED (18-36m)
-      M2. Compilation: ACCELERATED (hormone fast-track → rapid Entity-Compiled building)
+      ② Compilation: ACCELERATED (hormone fast-track → rapid Entity-Compiled building)
           → DANGER: compile Entity-Compiled UNDER HORMONE → INFLATED
           → Compile: "partner = fill ALL gaps" → NOT representative
-      M3. Cost: ARTIFICIALLY LOW
+      ③ Cost: ARTIFICIALLY LOW
           → Hormone mask cost signals. "Adrenaline" hides suppress cost.
           → "Yêu thì mù" = PFC evaluation DAMPENED (serotonin↓)
-      M4. 2-tầng: Tầng Hardware SIMULATED (hormone mimics hardware-driven)
+      ④ 2-tầng: Tầng Hardware SIMULATED (hormone mimics hardware-driven)
           → Looks like mẹ→con architecture, but TEMPORARY
-      M5. 2-luồng: L1 dominant (momentary hormone fire)
+      ⑤ 2-luồng: L1 dominant (momentary hormone fire)
           → L2 BUILDING rapidly but ON INFLATED FOUNDATION
 
     🟢 R2 Fisher 2004: limerence = drive, not attachment
@@ -706,12 +707,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         S4. Gap count: genuine multi-gap
         
       TẦNG 2 — MECHANISM (stabilized):
-        M1. Hardware subsidy: vasopressin + oxytocin scaffold (R4 Acevedo 2012)
+        ① Hardware-subsidy: vasopressin + oxytocin scaffold (R4 Acevedo 2012)
             → WEAKER than mẹ→con but REAL (not temporary like limerence)
-        M2. Compilation: deep (years of genuine patterns compiled)
-        M3. Cost: LOW (compiled mutual Compiled)
-        M4. 2-tầng: Tầng PFC dominant (Self-Pattern-Modeling-compiled mutual)
-        M5. 2-luồng: L2 dominant (Entity-Compiled = structural extension)
+        ② Compilation: deep (years of genuine patterns compiled)
+        ③ Cost: LOW (compiled mutual Compiled)
+        ④ 2-tầng: Tầng PFC dominant (Self-Pattern-Modeling-compiled mutual)
+        ⑤ 2-luồng: L2 dominant (Entity-Compiled = structural extension)
         
       → R4 Acevedo 2012: long-term couples → VTA STILL active + vasopressin
       → Entity-Compiled deep + genuine valence → healthy long-term
@@ -737,7 +738,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → Post-L genuine: slow (vasopressin/oxytocin scaffold)
         → Post-L flat: structural intact but hollow
     D3. "Chán" vulnerability: HIGHEST (§14)
-        → Inflated baseline + no permanent hardware subsidy + max habituation exposure
+        → Inflated baseline + no permanent hardware-subsidy + max habituation exposure
     D4. Phantom: COMPLEX (deep Entity-Compiled + possible hormone echo)
         → R3 Fisher 2010: rejected lovers → cocaine circuits → prolonged grief
         → Phantom mixes L2 structural + L1 hormone memory
@@ -1098,6 +1099,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   RESONANCE = 2 VEHICLE TƯƠNG TÁC TRÊN CÙNG ROAD:
   
   ENGINE OVERLAP → MATCH PROBABILITY:
+    ⚠️ % overlap = calibration anchor, không đo lường chính xác.
     2 bodies cùng hardware → cùng basic drives → gap directions OVERLAP
     → By-product match POSSIBLE (By-Product-Gap-Resonance v1.4 §3)
     → Species-level: ~60-70% hardware overlap → resonance POSSIBLE with any human
@@ -1240,69 +1242,89 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §14 — "CHÁN" QUA RESONANCE LENS
 
-> Bond-Architecture v1.0 §4 (M1-M4 decline), Boredom v2.0 §2 (6 sources), Gap-Body-Need v1.0 §3 (profile compounds).
+> Bond-Architecture v2.0 §4 (Resonance Decline 2 Forces + 1 Fuel), Boredom v2.1 §3 (6 sources), Gap-Body-Need v1.0 §3 (profile compounds).
 
 ```
-⭐⭐ "CHÁN" = RESONANCE DECLINE QUA 4 CƠ CHẾ (Bond-Architecture v1.0 §4):
+⭐⭐ "CHÁN" = RESONANCE DECLINE QUA 2 FORCES + 1 FUEL (Bond-Architecture v2.0 §4):
 
-  M1 — COMPILED SUPPRESS GAP RIÊNG (nhân tạo, PRIMARY):
+  COMPILED-SUPPRESS (force — tấn công NGUỒN, ★ LEVERAGE POINT):
     Gap riêng bị suppress → mất drive → mất by-product
     → By-product match STOPS (nothing to produce)
     → ATTACKS SOURCE of resonance
+    → Accelerate Reward-Habituated: suppress → ít grow → habituation nhanh hơn
+    → Drain novelty fuel: suppress drive → compiled by-products plateau
     → FIX: awareness + uncompile + rebuild drive riêng
+    → Fix Compiled-Suppress = giải phóng drive riêng → tự động counter Reward-Habituated + restore novelty
     
-  M2 — HABITUATION (tự nhiên):
+  REWARD-HABITUATED (force — hardware adaptation, INDEPENDENT):
     Weber-Fechner → same stimulus → VTA giảm fire
-    → Hardware by-product habituates
-    → COUNTERED by hardware subsidy (mẹ→con) or NOT (bạn thân)
+    → Hardware by-product habituates TỰ NHIÊN
+    → COUNTERED by hardware-subsidy (mẹ→con) or NOT (bạn thân)
+    → Xảy ra NGAY CẢ không Compiled-Suppress (couple healthy vẫn habituate)
     → FIX: novel shared experiences → new stimuli
     
-  M3 — PREDICTION COMPLETION (tự nhiên):
-    Self-Pattern-Modeling compiled SÂU → predict HOÀN HẢO → no prediction-delta
-    → No new gap fill → no reward signal
-    → FIX: grow riêng → new by-products → new delta
-    
-  M4 — ENTITY-COMPILED SATURATION (tự nhiên):
-    All channels COMPILED → no new chunks to add
-    → Self-expansion rate = 0 → satisfaction ↓ (Aron & Aron 1996)
-    → FIX: shared NOVEL experiences → new chunks
+  NOVELTY THRESHOLD (fuel — calibration parameter, PROBABILISTIC):
+    Novelty = nhiên liệu cho compiled by-product growth
+    Dưới ngưỡng → compiled by-products plateau → resonance decline
+    Trên ngưỡng → compiled by-products tiếp tục grow → resonance sustained
+    2 lenses cùng 1 phenomenon:
+      → Prediction-delta = 0 (Self-Pattern-Modeling quá accurate → no new reward)
+      → Entity-Compiled saturated (all channels compiled → no new chunks)
+    Threshold khác nhau mỗi người, mỗi giai đoạn — KHÔNG đo chính xác
+    → FIX: general direction = more novelty (shared + individual growth)
+
+  GAP DRIFT (contextual — direction diverge):
+    Gap landscapes diverge → direction match probability ↓
+    → KHÁC novelty: ngay cả CÓ novelty, nếu hướng gap xa → không match
+    → "Chúng tôi không còn chung sở thích/giá trị nữa"
+    → Proximity paradox: gần → Reward-Habituated ↑ + Compiled-Suppress risk ↑, xa → drift ↑
+
+  INTERACTION: Compiled-Suppress accelerate Reward-Habituated + drain novelty fuel.
+    Fix Compiled-Suppress = LEVERAGE POINT → counter cả Reward-Habituated và novelty depletion.
 
   ⭐ TONIC + GENERATIVE COMPOUND LOSS:
     Most relationships = Tonic + Generative compound (Gap-Body-Need v1.0 §3)
     "Chán" = Generative component dies, Tonic survives
     → "Vẫn thoải mái nhưng không exciting" = Tonic intact, Generative dead
+    → Compiled-Suppress attacks BOTH Tonic AND Generative
+    → Reward-Habituated = Tonic slowly declining
+    → Novelty threshold = Generative alive/dead
     → = Stage 4B (Habituated Flat) precise mechanism
 
   PER-ENTITY "CHÁN" (enriched with 3-tầng):
   
     Mẹ→con: "CHÁN" RARE
-      → M1: N/A (hardware drive, not compiled suppressible)
-      → M2: COUNTERED (maximum hardware subsidy)
-      → M3: COUNTERED (child changes daily → prediction never complete)
-      → M4: COUNTERED (child grows → new channels → Entity-Compiled never saturated)
+      → Compiled-Suppress: N/A (hardware drive, not compiled suppressible)
+      → Reward-Habituated: COUNTERED (maximum hardware-subsidy)
+      → Novelty: ABOVE threshold (child changes daily → prediction never complete, Entity-Compiled never saturated)
+      → Gap Drift: COUNTERED (child = moving target → directions co-evolve)
       → = "Mẹ chán con" = pathological (hardware dysfunction, NOT normal mechanism)
       
-    Con→mẹ (teen): "CHÁN" qua LIFECYCLE, NOT M1-M4
+    Con→mẹ (teen): "CHÁN" qua LIFECYCLE, NOT Resonance Decline
       → Autonomy drive (hardware) → mẹ's guidance = restrict → cost ↑
       → Domain gaps EMERGE → mẹ fill FEWER proportion → resonance SHRINKS
       → NOT really "chán" — gap landscape SHIFT → entity proportion change
       
-    Bạn thân: "CHÁN" = M2+M3 dominant
-      → Generative habituated (same routine) → reward ↓
-      → Prediction complete ("biết bạn quá rõ") → delta = 0
-      → No hardware subsidy to counter → vulnerable
+    Bạn thân: "CHÁN" = Reward-Habituated + novelty dưới ngưỡng
+      → Generative habituated (same routine) → reward ↓ (Reward-Habituated)
+      → Prediction complete ("biết bạn quá rõ") → novelty dưới ngưỡng
+      → No hardware-subsidy to counter Reward-Habituated → vulnerable
+      → Compiled-Suppress less common (no obligation to suppress for friend)
       → FIX: new shared activities, travel, new domains together
       
-    Romantic (post-L): "CHÁN" = M1+M2+M3+M4 COMPOUND → HIGHEST risk
+    Romantic (post-L): "CHÁN" = ALL FACTORS COMPOUND → HIGHEST risk
       → Limerence creates INFLATED baseline → reality < baseline → disappoint
-      → No permanent hardware subsidy (limerence expired)
-      → Live together → MAXIMUM habituation exposure (M2)
-      → Social schema "phải yêu nhau" → compiled suppress genuine complaints (M1)
+      → No permanent hardware-subsidy (limerence expired)
+      → Live together → MAXIMUM habituation exposure (Reward-Habituated)
+      → Social schema "phải yêu nhau" → compiled suppress genuine complaints (Compiled-Suppress)
+      → Novelty dưới ngưỡng: prediction complete + Entity-Compiled saturated
+      → Gap Drift: career/interest diverge over years
       → R5 Gottman Type 2: emotional disengagement → divorce ~16.2 years
 
-  🟢 4 mechanisms: Bond-Architecture v1.0 §4 (M1-M4)
+  🟢 Resonance Decline 2 Forces + 1 Fuel: Bond-Architecture v2.0 §4
   🟢 R5 Gottman & Levenson 2000: Type 2 divorce ~16.2 years
   🟢 Aron & Aron 1996: self-expansion model
+  🟢 Baumeister & Bratslavsky 1999: passion = rate of change
   🟡 Tonic+Generative compound loss + per-entity "chán" analysis = framework synthesis
 ```
 
@@ -1310,7 +1332,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §15 — PHANTOM RESONANCE × GRIEF
 
-> Entity-Compiled v1.0 §8 (grief mechanism), Bond-Architecture v1.0 §2 (per-bond neurochemistry).
+> Entity-Compiled v1.0 §8 (grief mechanism), Bond-Architecture v2.0 §2 (per-bond neurochemistry).
 
 ```
 ⭐⭐ PHANTOM RESONANCE = ENTITY LOST → COMPILED PATTERNS FIRE → NO RESPONSE:
@@ -1324,7 +1346,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   PHANTOM DEPTH = f(4 factors):
     ① Compilation depth: more channels compiled → more phantom firing points
-    ② Hardware subsidy: hardware-supported bond → hardware KEEPS firing after loss
+    ② Hardware-subsidy: hardware-supported bond → hardware KEEPS firing after loss
     ③ L2 structural: entity = body-base extension → loss = body-base AMPUTATION
     ④ Duration compiled: longer relationship → deeper Hebbian → slower fade
 
@@ -1352,7 +1374,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ MẸ MẤT CON = MOST DEVASTATING:
     ① ALL channels compiled (visual, auditory, touch, smell, behavioral, emotional)
-    ② MAXIMUM hardware subsidy → hardware KEEPS FIRING → body "search" for child
+    ② MAXIMUM hardware-subsidy → hardware KEEPS FIRING → body "search" for child
     ③ L2 = body-base extension AMPUTATED → structural loss → identity disruption
     ④ Duration: years of compiled patterns
     → R20 Sanders 1980: parental grief = most severe category
@@ -1361,7 +1383,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ ROMANTIC PHANTOM = COMPLEX:
     If limerence: hormone circuits echo → craving → R3 Fisher 2010 cocaine analogy
     If post-L genuine: L2 structural → deep phantom → prolonged grief
-    If post-L flat: L2 structural nhưng L1 ≈ 0 → phantom = structural only → "trống rỗng"
+    If post-L flat: L2 structural nhưng L1 ≈ 0 → phantom = structural only → "emptiness"
     If dissolution: Entity-Compiled still exists → phantom fires → "vẫn nhớ dù biết không hợp"
     
   🟢 Grief = phantom limb: R33 Ratcliffe 2018 (🟡 confidence)
@@ -1382,7 +1404,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   3-TẦNG ANALYSIS:
     Supply: Tonic = intact (comfort, presence, routine). Generative = DEAD (no novelty).
     Mechanism: Limerence subsidy expired (>10 năm). L2 structural. L1 ≈ 0.
-    Dynamics: M2 (habituation) + M3 (prediction complete) COMPOUND.
+    Dynamics: Reward-Habituated + novelty dưới ngưỡng (prediction complete) COMPOUND.
     
   FRAMEWORK EXPLAINS:
     Stage 4B (Habituated Flat): Tonic survives (no cutoff), Generative dies (novelty = 0).
@@ -1393,20 +1415,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   EVIDENCE: R8 Aron 2000: novel activities → relationship satisfaction. R5 Gottman Type 2.
 ```
 
-### Case 2 — Einstein: resonance × specialization (P4/P5 decouple)
+### Case 2 — Einstein: resonance × specialization (Axis-4/Axis-5 decouple)
 
 ```
   Einstein: physics resonance = chỉ vài người TẦM CỠ (Bohr, Planck) fill domain gap.
   
   3-TẦNG ANALYSIS:
     Supply: Generative dominant (physics = self-generating gaps). Reward-Signal-Architecture ~90A/10B (pure evaluation).
-    Mechanism: Self-Pattern-Modeling-driven (Tầng PFC), no hardware subsidy, L1 momentary (intellectual fire).
+    Mechanism: Self-Pattern-Modeling-driven (Tầng PFC), no hardware-subsidy, L1 momentary (intellectual fire).
     Dynamics: VEHICLE alignment rare (§11 — chỉ vài VEHICLE compile physics đủ sâu).
     
   FRAMEWORK EXPLAINS:
-    P4 (chain to body-base) = 0 → Pathway 1 direct coherence → opioid (Gap-Body-Need v1.0 §8).
-    P5 (collective dependency) = MAX → centuries of physics needed (Gap-Body-Need v1.0 §6).
-    → P4 × P5 INDEPENDENT: direct reward nhưng rely on massive collective infrastructure.
+    Axis-4 (chain to body-base) = 0 → Pathway 1 direct coherence → opioid (Gap-Body-Need v1.0 §8).
+    Axis-5 (collective dependency) = MAX → centuries of physics needed (Gap-Body-Need v1.0 §6).
+    → Axis-4 × Axis-5 INDEPENDENT: direct reward nhưng rely on massive collective infrastructure.
     → Resonance portfolio NARROW (domain) → fragile if domain entity lost.
     → "Genius is lonely" = VEHICLE too specialized → fewer possible resonance matches.
 ```
@@ -1492,7 +1514,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 FRAMEWORK SYNTHESIS (internally consistent)
 ═══════════════════════════════════════
 
-  Hardware subsidy spectrum (anti-habituation unified model)
+  Hardware-subsidy spectrum (anti-habituation unified model)
   3-tầng per-entity model (Supply × Mechanism × Dynamics)
   Reward-Signal-Architecture Evaluative:Direct-State ratio per entity type (approximate, pattern-level)
   2-tầng/2-luồng proportion per entity type
@@ -1536,7 +1558,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 | File | Sections | Relationship |
 |------|----------|-------------|
-| Bond-Architecture v1.0 | §2 (4 bonds), §4 (M1-M4) | COMPANION: per-bond mechanics |
+| Bond-Architecture v2.0 | §2 (4 bonds), §4 (Resonance Decline 2 Forces + 1 Fuel) | COMPANION: per-bond mechanics |
 | Resonance-Sustainability v1.0 | §1-§14 (4-Layer model) | COMPANION: sustainability conditions |
 | By-Product-Scale v1.0 | §0-§11 (3 scales) | COMPANION: pair/hub/institutional |
 | Entity-Compiled v1.0 | §3-§8 | MECHANISM: Entity-Compiled formation, grief, decay |
@@ -1548,7 +1570,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | File | Sections | Relationship |
 |------|----------|-------------|
 | Gap-Body-Need v1.0 | §2-§14 | PREREQUISITE: gap types, 5P, ENGINE/ROAD/VEHICLE |
-| Valence-Propagation v3.0 | §3-§6 | CONTEXT: structural/current, Firing Modes, Hardware Subsidy |
+| Valence-Propagation v3.0 | §3-§6 | CONTEXT: structural/current, Firing Modes, Hardware-Subsidy |
 | Gap-Distribution-Profile v1.0 | §3 (4 trục), §8 | SUPPLY: per-person gap landscape |
 | PFC-Operations v1.0 | §4 (Hold/Suppress) | MECHANISM: compiled/fresh, PFC budget |
 | Simulation-Engine v1.0 | §1-§3 | MECHANISM: prediction engine |

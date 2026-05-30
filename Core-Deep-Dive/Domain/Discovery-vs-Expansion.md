@@ -2,7 +2,7 @@
 title: Discovery vs Expansion — 3 Điểm Hội Tụ Của Progress
 version: 1.0
 created: 2026-04-02 (DRAFT)
-refined: 2026-05-23 (v1.0 — YAML standardized. Concept Cascade: +Simulation-Engine, +M1-M4, +Satiation types. Cross-refs updated)
+refined: 2026-05-23 (v1.0 — YAML standardized. Concept Cascade: +Simulation-Engine, +4 firing modes, +Satiation types. Cross-refs updated)
 status: v1.0 REFERENCE FILE
 scope: |
   3 điểm hội tụ: Sense → Verify → Scale.
@@ -13,9 +13,9 @@ dependencies:
   - Domain.md v1.0 — domain = thực tế bên ngoài
   - Knowledge-Flow.md v1.0 — internal → output → external
   - Imagine-Final.md v3.0 — 2 tầng + PFC reactive
-  - Conflict-Dynamics.md v1.1 — scarcity = engine
-  - PFC/Simulation-Engine.md v1.0 — Phase 2 "thử ghép" = simulation engine
-  - Chunk/Agent-Mechanism/Bond-Architecture.md v1.0 — M1-M4 firing modes
+  - Conflict-Dynamics.md v2.0 — scarcity = engine
+  - PFC/Simulation-Engine.md v1.0 — Phase 2 "thử ghép" = Simulation-Engine
+  - Chunk/Agent-Mechanism/Bond-Architecture.md v2.0 — 4 firing modes (Tonic/Phasic/Compound/Cascade)
   - Body-Feedback/Gap-Body-Need.md v1.0 — mapping-drive satiation ≠ consumption satiation
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -1015,8 +1015,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 → §2.5 (file này): "triết học" = Discovery Phase 1-2 thiếu domain verify
   → Tồn tại ở MỌI lĩnh vực, KHÔNG chỉ đời sống
   → Mọi ngành khoa học từng là "philosophy" trước khi có verify tools
-→ Simulation-Engine.md v1.0: Phase 2 "thử ghép" = simulation engine
-→ Bond-Architecture.md v1.0: M1-M4 firing modes
+→ Simulation-Engine.md v1.0: Phase 2 "thử ghép" = Simulation-Engine
+→ Bond-Architecture.md v2.0: 4 firing modes (Tonic/Phasic/Compound/Cascade)
 → Gap-Body-Need.md v1.0: mapping-drive satiation ≠ consumption satiation
 ```
 
@@ -1025,22 +1025,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## Discovery × New Concepts (28-session Drill Propagation)
 
 ```
-SIMULATION ENGINE × DISCOVERY (Simulation-Engine.md v1.0):
-  → Phase 2 "thử ghép" = Simulation Engine running:
-    Sense (Phase 1): body detect vague pattern → Simulation Engine PRE-DRAFT
-    Verify (Phase 2): Simulation Engine draft → domain TEST → feedback
-    Scale (Phase 3): Simulation Engine draft COMPILED → distribute
-  → Discovery mode = Simulation Engine in EXPLORATION mode (many drafts, most fail)
-  → Expansion mode = Simulation Engine in EXECUTION mode (compiled drafts, efficient)
+SIMULATION-ENGINE × DISCOVERY (Simulation-Engine.md v1.0):
+  → Phase 2 "thử ghép" = Simulation-Engine running:
+    Sense (Phase 1): body detect vague pattern → Simulation-Engine PRE-DRAFT
+    Verify (Phase 2): Simulation-Engine draft → domain TEST → feedback
+    Scale (Phase 3): Simulation-Engine draft COMPILED → distribute
+  → Discovery mode = Simulation-Engine in EXPLORATION mode (many drafts, most fail)
+  → Expansion mode = Simulation-Engine in EXECUTION mode (compiled drafts, efficient)
 
-M1-M4 × DISCOVERY (Bond-Architecture.md v1.0):
+4 FIRING MODES × DISCOVERY:
   → Discovery scatter/converge ↔ firing modes:
-    M1 Tonic: background exploration (scanning continuously) → SENSE phase
-    M2 Phasic: focused burst on specific hypothesis → VERIFY phase
-    M3 Compound: multi-system convergence → EUREKA moment (aha!)
-    M4 Cascade: chain breakthroughs → PARADIGM SHIFT
-  → Discovery = primarily M1 (sense) + M2 (verify)
-  → Scale = primarily compiled (no M1-M4 needed — automatic)
+    Tonic: background exploration (scanning continuously) → SENSE phase
+    Phasic: focused burst on specific hypothesis → VERIFY phase
+    Compound: multi-system convergence → EUREKA moment (aha!)
+    Cascade: chain breakthroughs → PARADIGM SHIFT
+  → Discovery = primarily Tonic (sense) + Phasic (verify)
+  → Scale = primarily compiled (no active firing modes needed — automatic)
 
 SATIATION × DISCOVERY (Gap-Body-Need.md v1.0):
   → Mapping-drive satiation ≠ consumption satiation:
@@ -1051,8 +1051,8 @@ SATIATION × DISCOVERY (Gap-Body-Need.md v1.0):
   → ROAD satiation in discovery: cùng method → bored → need new approach
     → = TẠI SAO interdisciplinary > mono-disciplinary over long term
 
-🟡 Simulation Engine × discovery = framework formalization (3 phases map to Simulation-Engine modes)
-🟡 M1-M4 × discovery = framework application (firing modes ↔ discovery phases)
+🟡 Simulation-Engine × discovery = framework formalization (3 phases map to Simulation-Engine modes)
+🟡 4 firing modes × discovery = framework application (firing modes ↔ discovery phases)
 🟡 Satiation × discovery = framework inference (mapping-drive ≠ consumption)
 ```
 

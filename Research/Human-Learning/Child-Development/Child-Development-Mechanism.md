@@ -1,8 +1,9 @@
----
+﻿---
 title: Child-Development-Mechanism — Khung Nguyên Lý v7.8
-version: 1.0
+version: 2.0
 created: 2026-04-21
-status: REFERENCE v1.0
+updated: 2026-05-25
+status: REFERENCE v2.0
 scope: |
   MECHANISM FILE: Giải thích CƠ CHẾ phát triển trẻ 0-6 tuổi qua lens v7.8.
   Bridge giữa Core-Deep-Dive (mechanism) và Child-Development (practical).
@@ -14,26 +15,46 @@ purpose: |
   Natural-Development.md, Skill-Introduction.md, Mother-Optimization.md
   reference file này thay vì tự giải thích mechanism.
 position: |
-  Research/Child-Development/ — TẦNG 2 trong kiến trúc 5 tầng.
+  Research/Human-Learning/Child-Development/ — TẦNG 2 trong kiến trúc 5 tầng.
   TẦNG 1: Core-Deep-Dive/ (não hoạt động thế nào)
-  TẦNG 2: Research/Child-Development/ (con người phát triển 0-6) ← ĐÂY
-  TẦNG 3: Research/Education/ (nguyên lý giáo dục bất biến)
-  TẦNG 4: Applications/Education/ (ứng dụng per-era)
+  TẦNG 2: Research/Human-Learning/Child-Development/ (con người phát triển 0-6) ← ĐÂY
+  TẦNG 3: Research/Human-Learning/Education-Mechanism/ (nguyên lý giáo dục bất biến)
+  TẦNG 4: Applications/Education-System/ (ứng dụng per-era)
   TẦNG 5: Country/ (per-country)
 dependencies:
   - Core-v7.8-Draft.md — cycle architecture, observation parameters
   - PFC-Development.md — PFC reframe, 5 empirical pillars
+  - PFC-Label.md v1.0 — PFC Budget, vocabulary standard
   - F1/01-PFC-Hardware-Reframe.md — PFC evidence chi tiết, Hodel 2018
   - F1/02-Womb-to-Birth-Baseline.md — prenatal baseline
-  - F1/10-F1-Synthesis.md — 7 nút thắt, H1/H11
+  - F1/10-F1-Synthesis.md — 7 nút thắt, Chunk-Substrate/Receptive-Productive-Asymmetry
   - Chunk.md v2.0 — chunk substrate, compile, lifecycle
-  - Body-Feedback.md — dual-pull, interface loop, H10
+  - Compiled-Fresh.md v2.0 — Compiled/Fresh processing
+  - Body-Feedback.md — dual-pull, interface loop, Body-Feedback-Precondition
   - Body-Feedback-Mechanism.md — 2 sources × 3 dynamics
+  - Body-Feedback-Label.md v1.1 — 3-tier vocabulary, prediction-delta
   - Cortisol-Baseline.md v2.0 — amplifier reframe, direction > level
   - Feeling.md v2.0 — 7-layer fidelity gradient
   - Empathy.md — Self-Pattern-Modeling function, developmental bootstrap
-  - Autonomy-Hardware.md + Autonomy.md — efference copy, 5-phase arc
-  - Connection.md — hardware drive, compiled patterns, virtual chunks
+  - Self-Pattern-Modeling.md v3.1 — 1 mechanism × 3 dimensions
+  - Autonomy-Hardware.md + Autonomy-Software.md — efference copy, 5-phase arc
+  - Connection.md v5.0 — Resonance Decline, Hardware-Subsidy, 4-Layer, Phantom
+  - Bond-Architecture.md v2.0 — Entity-Compiled × 4 bond types, Gap Clone
+  - Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation 40-200h, Dunbar
+  - Entity-Access.md v1.2 — gradient Mức 0-5
+  - Resonance-Sustainability.md v1.0 — 4-Layer sustainability model
+  - Resonance-Per-Entity.md v1.0 — per-entity resonance depth
+  - By-Product-Gap-Resonance.md v1.4 — resonance as by-product
+  - Coordination-Node.md v1.2 — mẹ = first node, trust cascade
+  - Valence-Propagation.md v3.0 — Structural/Current, Mixed, 3 Firing Modes
+  - Background-Pattern.md v2.0 — Triple Bias
+  - Gap-Direction.md v1.0 — direction = f(surrounding chunks)
+  - Gap-Body-Need.md v1.0 — 3 Satiation Types
+  - Gap-Distribution-Profile.md v1.1 — gap distribution fingerprint
+  - Imagine-Final.md v3.0 — boundary reframe, hardware prediction ≠ Imagine-Final
+  - Simulation-Engine.md v1.0 — 1 Engine, 3 Components, 3 Axes
+  - Dissonance-Signal-Architecture.md v1.0 — dissonance signal mechanisms
+  - Boredom.md v2.0 — Resonance Decline, unified formula
   - Observation/ folder — all observation parameter files
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -64,6 +85,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §0 — VỊ TRÍ VÀ CÁCH ĐỌC
 - §1 — PFC REFRAME: HARDWARE ONLINE, CHUNKS MISSING
 - §2 — 4+1 CHANNEL COMPILE: CHUNKS TÍCH LŨY THẾ NÀO
+  - §2.5 — ADVANCED COMPILE DYNAMICS
 - §3 — APPROACH/AVOIDANCE TAG × PARENTING
 - §4 — CHUNK DYNAMICS TRONG PHÁT TRIỂN TRẺ
 - §5 — FEELING DEVELOPMENT: TỪ THÔ ĐẾN LAYERED
@@ -275,7 +297,7 @@ PREDICTION DELTA = khoảng cách giữa PREDICTED outcome vs ACTUAL outcome
 
   Framework dùng "prediction-delta" thay cho "prediction error" truyền thống.
   Lý do: "error" gợi ý sai = xấu. Thực tế delta CHỈ là signal —
-  reward phụ thuộc thêm coherence + H10 preconditions.
+  reward phụ thuộc thêm coherence + Body-Feedback-Precondition preconditions.
   (Chi tiết: Prediction-Error-Is-Not-Reward.md)
 
   Ở trẻ: prediction-delta CAO LIÊN TỤC:
@@ -316,7 +338,7 @@ PREDICTION DELTA = khoảng cách giữa PREDICTED outcome vs ACTUAL outcome
 
   ③ "Con không hiểu"
      → ĐỔI THÀNH: "Con đang xử lý — chưa có output vì chunks chưa compiled
-        đủ mạnh để tạo action. Receptive trước, productive sau (H11)."
+        đủ mạnh để tạo action. Receptive trước, productive sau (Receptive-Productive-Asymmetry)."
 
   ④ "Bố mẹ = PFC bên ngoài cho con"
      → ĐỔI THÀNH: "Bố mẹ = facilitator giúp con compile chunks.
@@ -343,7 +365,7 @@ PREDICTION DELTA = khoảng cách giữa PREDICTED outcome vs ACTUAL outcome
        (nếu PFC offline, sao baby freeze trước khi đi?)
 
 
-  H11 — RECEPTIVE-PRODUCTIVE ASYMMETRY (F1/08):
+  RECEPTIVE-PRODUCTIVE-ASYMMETRY (F1/08):
 
     Hiểu TRƯỚC, nói/làm SAU — gap ~6-12 tháng.
 
@@ -366,8 +388,22 @@ PREDICTION DELTA = khoảng cách giữa PREDICTED outcome vs ACTUAL outcome
     → First verbal "đói" ~18 tháng — productive
     → Gap 13.5 tháng = KHÔNG phải PFC maturation, mà chunks accumulation
 
+  ⭐ PFC BUDGET (PFC-Label.md v1.0):
+     PFC = LIMITED RESOURCE, not unlimited processor.
+     Mỗi quyết định, mỗi inhibition, mỗi simulation = COST PFC budget.
+
+     Trẻ 0-6: PFC budget ĐẶC BIỆT HẠN CHẾ vì:
+       ① Myelination chưa hoàn thiện → bandwidth thấp → signal chậm
+       ② Chunks ít → mỗi task cần NHIỀU PFC hơn (Fresh processing = tốn PFC)
+       ③ Competing demands: regulation + learning + social = ĐỒNG THỜI
+
+     → "Con mệt" sau giờ học = PFC depleted, KHÔNG phải "lười"
+     → Over-scheduling = PFC depletion → cortisol ↑ → §3.5 neural wear
+     → Nghỉ giữa tasks = REPAIR PFC budget = NON-NEGOTIABLE cho trẻ
+
+
   ⭐ KẾT LUẬN §1:
-     PFC hardware sẵn sàng. Chunks = bottleneck thật.
+     PFC hardware sẵn sàng. Chunks = bottleneck thật. PFC budget hạn chế.
      Mọi hiện tượng phát triển ở §2-§9 đều chạy trên nền tảng này:
      CÙNG architecture, KHÁC chunk density.
 ```
@@ -571,20 +607,20 @@ PREDICTION DELTA = khoảng cách giữa PREDICTED outcome vs ACTUAL outcome
      KHÔNG PHẢI hardware kém
 
 
-  ⭐ H10 P2: CHUNKS BASE ADEQUACY = DEVELOPMENTAL BOTTLENECK:
+  ⭐ Body-Feedback-Precondition Precondition-2 Chunk-Substrate: CHUNKS BASE ADEQUACY = DEVELOPMENTAL BOTTLENECK:
 
-    Body-Feedback.md H10: body signal = function of 5 preconditions.
-    P2 (Chunks Base Adequate) = BOTTLENECK CHÍNH cho trẻ:
+    Body-Feedback.md Body-Feedback-Precondition: body signal = function of 5 preconditions.
+    Precondition-2 (Chunks Base Adequate) = BOTTLENECK CHÍNH cho trẻ:
 
     ┌──────────────────────────────────────────────────────────────┐
-    │ P1 (Body Input Present):      ✅ từ lúc sinh                │
-    │ P2 (Chunks Base Adequate):    ❌ → ĐÂY LÀ BOTTLENECK       │
-    │ P3 (Prediction-Delta Threshold): ⚠️ có nhưng competing inputs│
-    │ P4 (Goldilocks Zone):         ⚠️ narrow ở trẻ               │
-    │ P5 (Chunk Association Tag):   ⚠️ phụ thuộc caregiving       │
+    │ Precondition-1 Directed-Gap (Body Input Present):      ✅ từ lúc sinh                │
+    │ Precondition-2 Chunk-Substrate (Chunks Base Adequate):    ❌ → ĐÂY LÀ BOTTLENECK       │
+    │ Precondition-3 Delta-Gate (Prediction-Delta Threshold): ⚠️ có nhưng competing inputs│
+    │ Precondition-4 Match-Range (Goldilocks Zone):         ⚠️ narrow ở trẻ               │
+    │ Precondition-5 Compile-Gate (Chunk Association Tag):   ⚠️ phụ thuộc caregiving       │
     └──────────────────────────────────────────────────────────────┘
 
-    P2 = Trẻ cần COMPILE ĐỦ chunks về 1 trạng thái thì body mới fire
+    Precondition-2 = Trẻ cần COMPILE ĐỦ chunks về 1 trạng thái thì body mới fire
          signal CHÍNH XÁC cho trạng thái đó.
 
     VD: Bladder control ~22 tháng
@@ -595,7 +631,7 @@ PREDICTION DELTA = khoảng cách giữa PREDICTED outcome vs ACTUAL outcome
         Trẻ biết phân biệt "đói" vs "khó chịu chung"
         → Chunks base cho hunger state ĐÃ adequate
 
-    → "Chưa làm được" thường = P2 chưa met, KHÔNG phải "hư" hay "chậm"
+    → "Chưa làm được" thường = Precondition-2 chưa met, KHÔNG phải "hư" hay "chậm"
 ```
 
 ### §2.4 — Hệ Quả Cho Parenting/Education
@@ -624,10 +660,79 @@ TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
      → Repetition KHÔNG variation = habituation (VTA quen)
      → "Same but different" = optimal
 
-  ⑤ P2 BOTTLENECK = KIÊN NHẪN:
+  ⑤ Precondition-2 BOTTLENECK = KIÊN NHẪN:
      → "Chưa làm được" = chunks chưa đủ, KHÔNG phải hardware kém
      → Kiên nhẫn + tiếp tục expose = chunks SẼ compile
      → Ép = threat-path compile → avoidance tag → TỆ HƠN không dạy
+```
+
+### §2.5 — Advanced Compile Dynamics
+
+```
+🟡 3 LOẠI SATIATION — KHI NÀO COMPILE "DỪNG" (Gap-Body-Need.md v1.0):
+
+  ① GAP-FILL SATIATION:
+     Gap filled → opioid → contentment → "đủ rồi"
+     VD trẻ: nghe câu chuyện → "rồi sao?" → kết thúc → "con hiểu rồi"
+     = Gap filled = learning DỪNG tự nhiên cho chunk đó
+
+  ② HABITUATION SATIATION:
+     VTA habituates → dopamine GIẢM → "chán"
+     VD trẻ: chơi đồ chơi mới 30 phút → VTA quen → "chán, cái khác"
+     = VTA quen ≠ đã học xong → chỉ là reward signal HẾT
+     → GIẢI PHÁP: variation trong repetition (§2.1 kênh ①)
+
+  ③ COMPILATION-COMPLETE SATIATION:
+     Chunk FULLY compiled → delta = 0 → "biết rồi, xong"
+     VD trẻ: bò thành thạo → motor chunk compiled → MOVE ON to walking
+     = Natural transition: compiled skill → new challenge
+     → BÌNH THƯỜNG: trẻ "bỏ" đồ chơi cũ = chunks cho đồ đó ĐÃ compiled
+
+  → 3 SATIATION TYPES × PARENTING:
+    Gap-Fill: trẻ hài lòng → ĐỪNG ép thêm
+    Habituation: trẻ chán → THAY ĐỔI stimulus, đừng ép cùng stimulus
+    Compilation-Complete: trẻ "biết rồi" → cung cấp CHALLENGE mới
+
+
+🟡 COMPILED vs FRESH PROCESSING (Compiled-Fresh.md v2.0):
+
+  COMPILED = automatic, low PFC cost:
+    VD: trẻ đi bộ (đã compiled) = gần zero PFC
+  FRESH = cần PFC, high cost:
+    VD: trẻ buộc dây giày (đang learn) = PFC engaged heavy
+
+  Ở trẻ 0-6: đa số tasks = FRESH (chưa compiled nhiều)
+    → = Tại sao trẻ MỆT nhanh hơn adult cho cùng task
+    → = Tại sao trẻ CẦN nhiều nghỉ + nhiều sleep hơn
+    → Compiled/Fresh ratio thay đổi: 0y ~5/95 → 6y ~40/60 → adult ~80/20
+
+
+🟡 3 FIRING MODES (Valence-Propagation.md v3.0 §6):
+
+  GENERATIVE: creating NEW → dopamine-dominant → approach
+    VD: trẻ tự nghĩ game mới → "thú vị, muốn thử"
+  TONIC: maintaining BASELINE → opioid → invisible contentment
+    VD: trẻ ôm mẹ → "an toàn" (tonic, invisible until disrupted)
+  REACTIVE: responding to STIMULUS → varies → most common ở trẻ
+    VD: trẻ nghe tiếng lớn → startle. Thấy bóng → chase.
+
+  Trẻ 0-6 = chủ yếu REACTIVE (respond to environment):
+    → Dần dần: Reactive → Tonic (routines) → Generative (self-directed)
+    → Generative emergence = sign of growing chunk library + PFC maturation
+    → Pretend play (18m+) = first Generative firing (Simulation-Engine)
+
+
+  HARDWARE-SUBSIDY TẠI EMOTIONAL PEAK COMPILE:
+
+    Oxytocin/dopamine present at emotional peak → approach tag CỰC MẠNH:
+    → VD: First time successfully walking + mẹ cheering (oxytocin)
+      = approach tag cho "walking" CỰC MẠNH + CỰC BỀN
+    → VD: First time swimming + mẹ bên cạnh (safe + oxytocin)
+      = approach tag cho "nước" hardware-subsidized
+
+    → CELEBRATION matters: thêm hardware-subsidy vào compile moment
+    → Emotional peak (§2.1 kênh ②) + Hardware-Subsidy = MOST PERSISTENT tag
+    → = Tại sao "lần đầu thành công" với mẹ bên cạnh = GHI DẤU suốt đời
 ```
 
 ---
@@ -689,25 +794,59 @@ TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
     ┌──────────────┬─────────────────────────────────────────────┐
     │ NHẸ          │ Body adapt nhanh → minimal impact           │
     │              │ VD: thử đồ ăn mới hơi lạ → adapt → OK      │
-    ├──���───────────┼────────────────────────────────────────���────┤
+    ├──────────────┼─────────────────────────────────────────────┤
     │ VỪA          │ ⭐ OPTIMAL ZONE → compile MẠNH NHẤT         │
     │              │ VD: thử bơi lần đầu + mẹ bên cạnh          │
     │              │ → Novelty cortisol vừa + safe = approach tag │
-    ├──────���───────┼──────���──────────────────────────���───────────┤
+    ├──────────────┼─────────────────────────────────────────────┤
     │ NẶNG         │ Compile nhưng VỚI DAMAGE RISK              │
     │              │ VD: bị ép học dưới áp lực mạnh              │
     │              │ → Threat cortisol → avoidance tag + neural  │
     │              │   wear bắt đầu                              │
-    ├───────────��──┼─────────────────���───────────────────────────┤
+    ├──────────────┼─────────────────────────────────────────────┤
     │ CỰC ĐOAN    │ Overwhelming → SHUTDOWN → ít compile         │
     │              │ VD: bạo lực, bị bỏ rơi, trauma nặng        │
     │              │ → PFC disconnect (α1 NE) → body-only mode   │
-    └───��──────────┴────────────���────────────────────────────────┘
+    └──────────────┴─────────────────────────────────────────────┘
 
     ⭐ HÀM Ý: Ép VỪA PHẢI (structured practice) ≠ ép CỰC ĐOAN (punishment)
        Nhưng CẢ HAI đều ở threat-direction → CẢ HAI đều tag avoidance
        Chỉ khác mức độ damage
        → Novelty-direction MỚI là approach → cần TẠO HỨNG THÚ, không ép
+
+
+    ⭐ STRUCTURAL vs CURRENT VALENCE (Valence-Propagation.md v3.0 §3):
+
+      STRUCTURAL VALENCE = valence INSIDE compiled chunks:
+        Mỗi tag approach/avoidance ở trên = gắn VÀO chunk at compile-time
+        Tích lũy nhiều tags → thành "structural" = thay đổi CHẬM (months/years)
+        → VD: "toán = avoidance" structural → cần NHIỀU positive experiences mới shift
+
+      CURRENT VALENCE = valence tại THỜI ĐIỂM hiện tại:
+        Body state NGAY LÚC NÀY modulate cách chunks fire
+        Thay đổi PER SECOND (mood, context, energy level)
+        → VD: trẻ vui → "toán" chunk fire ít avoidance hơn bình thường
+        → VD: trẻ mệt → "toán" chunk fire MẠNH avoidance hơn (PFC yếu)
+
+      Ở trẻ 0-6: tags chủ yếu CURRENT (chưa compile đủ lâu để structural)
+        → = Cơ hội: tags DỄ SHIFT hơn adult
+        → = Rủi ro: tags KHÔNG ỔN ĐỊNH — "hôm nay thích, mai không"
+        → = BÌNH THƯỜNG: trẻ đổi ý liên tục = tags chưa structural
+
+
+    ⭐ HARDWARE-SUBSIDY TẠI COMPILE (Connection.md v5.0 §5):
+
+      Khi oxytocin/dopamine CÓ MẶT tại thời điểm compile:
+        → Approach tag được HARDWARE SUBSIDIZED
+        → Mạnh hơn, bền hơn approach tag compile KHÔNG có subsidy
+
+      VD: Học bơi KHI mẹ ôm (oxytocin present)
+        = approach tag MẠNH hơn học bơi với người lạ
+      VD: Explore khi safe (opioid present)
+        = approach tag MẠNH hơn explore khi stressed
+
+      → = Tại sao HỌC TRONG MÔI TRƯỜNG AN TOÀN > học trong áp lực
+        (cùng nội dung, nhưng hardware-subsidy tại compile → approach tag BỀN HƠN)
 ```
 
 ### §3.2 — "Cách Dạy Quyết Định Tag"
@@ -807,7 +946,7 @@ TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
     → PHÒNG (set approach tags từ đầu) >> Chữa (reverse avoidance tags)
 
 
-  VALENCE PROPAGATION (Valence-Propagation.md):
+  VALENCE PROPAGATION (Valence-Propagation.md v3.0):
 
     Tag KHÔNG chỉ ở 1 chunk — truyền qua network:
 
@@ -819,6 +958,45 @@ TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
 
     = 1 avoidance tag → CONTAMINATE cả 1 mạng lưới chunks
     = Tại sao 1 trải nghiệm xấu có thể ảnh hưởng RỘNG
+
+
+  MIXED VALENCE (Valence-Propagation.md v3.0 §9):
+
+    Positive + negative = 2 HỆ THỐNG RIÊNG, fire ĐỘC LẬP
+    (🟢 Cacioppo & Berntson 1994 + Vaccaro et al. 2020)
+    → 1 chunk CÓ THỂ có CẢ approach VÀ avoidance tags ĐỒNG THỜI
+    → KHÔNG phải trung bình → là MIXED (cả 2 active)
+
+    VD trẻ: "nước" = approach +2 (fun splash) VÀ avoidance -1 (sợ sâu)
+    VD trẻ: "chó" = approach +3 (mềm, vui) VÀ avoidance -2 (cắn)
+    VD trẻ: "mẹ" = approach +5 (an toàn) VÀ avoidance -1 (mẹ la)
+
+    → ~50% parent-child relationships have mixed valence = NORMATIVE
+    → Trẻ nói "con vừa thích vừa sợ" = CÓ NGHĨA ĐÚNG (không phải confused)
+    → Mixed TĂNG khi relationship sâu hơn + lâu hơn
+
+    ⭐ HÀM Ý: "Con có thích X không?" = câu hỏi SAI
+       Đúng hơn: "Con thích phần nào? Sợ phần nào?"
+       → Acknowledge CÙNG LÚC cả 2 → trẻ cảm thấy ĐƯỢC HIỂU
+
+
+  TRIPLE BIAS — TẠI SAO FIRST EXPERIENCES QUAN TRỌNG (Background-Pattern.md v2.0 §6):
+
+    Background-Pattern = pattern nền tảng INVISIBLE nhưng bias MẠNH:
+      ① RETRIEVAL BIAS: pattern quyết định CHUNKS NÀO được recall
+      ② TEMPLATE BIAS: retrieved chunks filtered qua lens hiện tại
+      ③ INTERPRETATION BIAS: meaning gán theo hướng confirm pattern
+
+    → Trẻ 0-6: Background-Pattern ĐANG BUILD từ zero
+      → First tags = trở thành Background-Pattern → bias TẤT CẢ tags sau
+      → Positive first experience → retrieval + interpretation tích cực
+        → more positive tags → snowball APPROACH
+      → Negative first experience → retrieval + interpretation tiêu cực
+        → more negative tags → snowball AVOIDANCE
+
+    → = Lý do #2 tại sao PHÒNG >> CHỮA (ngoài neural wear ở §3.5):
+      First tags SET Background-Pattern → bias toàn bộ future experiences
+      → "Lần đầu" quan trọng GẤP NHIỀU LẦN so với lần thứ 100
 ```
 
 ### §3.4 — Reconsolidation Window: Tag Có Thể SHIFT
@@ -904,7 +1082,7 @@ TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
     │ Amygdala     │ Gets STRONGER     │ Slow to de-sensitize│
     │ Hippocampus  │ Weeks-months      │ Months (if young)  │
     │ Baseline     │ Days to shift up  │ Weeks-months down  │
-    └──────��───────┴───────────────────┴────────────────────┘
+    └──────────────┴───────────────────┴────────────────────┘
 
     → Damage nhanh, recovery chậm = BẤT ĐỐI XỨNG
     → = Lý do #1 tại sao PHÒNG >> CHỮA cho trẻ nhỏ
@@ -930,7 +1108,7 @@ TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
   ⭐ CÂU HỎI KIỂM TRA cho mọi tình huống dạy trẻ:
      "Body state của con LÚC NÀY là novelty-path hay threat-path?"
      → Nếu novelty: tiếp tục — chunks đang compile với approach tag
-     �� Nếu threat: DỪNG — chunks đang compile với avoidance tag
+     → Nếu threat: DỪNG — chunks đang compile với avoidance tag
      → 1 kỹ năng KHÔNG ĐÁNG để đổi lấy 1 avoidance tag suốt đời
 ```
 
@@ -979,7 +1157,7 @@ TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
      → Miss = prediction fail → learning signal → update chunk hoặc build mới
 
 
-  �� CHUNK-SHIFT — cùng chunks, KHÁC valence:
+  ③ CHUNK-SHIFT — cùng chunks, KHÁC valence:
 
      Valence thay đổi mà content giữ nguyên
 
@@ -1078,18 +1256,100 @@ TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
 ```
 ⭐⭐ ATTACHMENT = PREREQUISITE CHO TẤT CẢ PHÁT TRIỂN KHÁC:
 
-  HARDWARE DRIVE (từ lúc sinh — Connection.md §1):
+  HARDWARE DRIVE (từ lúc sinh — Connection.md v5.0 §1):
     Body CẦN social input — giống cần thức ăn, nước
     🟢 Eisenberger 2003: social pain = same neural pathways as physical pain
     🟢 CT afferent fibers (Löken 2009): hardware CHUYÊN cho gentle touch
     🟢 Solitary confinement: isolation → severe harm DÙ food/shelter ĐỦ
     → Thiếu connection = body pain THẬT, không phải "tâm lý"
 
-  COMPILED ATTACHMENT CHUNKS (qua experience):
+    ⭐ HARDWARE-SUBSIDY (Connection.md v5.0 §5):
+      Anti-habituation mechanisms COUNTER VTA burnout per entity type:
+
+      Mẹ→con = MAXIMUM Subsidy:
+        Oxytocin: synchrony amplification, anti-habituation
+        Baby schema: neural caregiving cascade
+        Prolactin (lactating): emotional attachment scaffold
+        CT afferent fibers: opioid-independent warmth qua touch
+
+      Con→mẹ = MODERATE Subsidy:
+        Opioid/endorphin dominant (safety-seeking, KHÔNG phải caregiving)
+        Attachment scaffold: hardware resilience không cần active maintenance
+
+      → TẠI SAO mẹ-con bond KHÔNG phai dù exposure liên tục:
+        Friends: subsidy = NONE → phải maintain bằng novelty
+        Mẹ-con: subsidy = MAX → auto-counter VTA habituation
+
+      → ⚠️ Subsidy amplify CẢ HAI CHIỀU:
+        Mẹ khen → impact MẠNH hơn người lạ khen (reward amplified)
+        Mẹ mắng → impact MẠNH hơn người lạ mắng (dissonance amplified)
+        = Mẹ-con = highest stakes relationship BOTH ways
+
+
+  ENTITY-COMPILED: CAREGIVER = FIRST ENTITY (Entity-Compiled.md v1.0):
+
     Consistent caregiving (khóc → bố mẹ đến → ôm → calm)
     × hàng nghìn lần → compile: "người NÀY = AN TOÀN, TIN ĐƯỢC"
     = Connection KHÔNG phải feeling chung chung
-    = Là CHUNK PATTERN compiled qua repetition
+    = Là ENTITY-COMPILED pattern: brain integrates caregiver vào body-base
+
+    Hub-and-Spoke Architecture (🟢 Patterson et al. 2007):
+      Spokes (dispersed cortex): Visual (mặt mẹ), Auditory (giọng mẹ),
+        Somatosensory (touch mẹ), Olfactory (mùi mẹ), Interoceptive
+      Hub (binding): Anterior Temporal Lobe + Amygdala + OFC + Hippocampus
+      → Entity-Compiled = assembly deep + structural ĐỦ để body treat
+        person-schema như EXTENSION of self
+
+    Formation Timeline (trẻ compile caregiver):
+      0-9 tháng: PRE-ENTITY — hardware: proximity = safe, absence = distress
+        → Chưa object permanence → "mẹ đi = mẹ BIẾN MẤT"
+      9-18 tháng: ENTITY FORMATION peak — separation anxiety ĐẠT ĐỈNH
+        → Compile mẹ như entity riêng: "mẹ TỒN TẠI dù không thấy"
+      2-6 tuổi: DEEPENING — parent compiled as body-base extension
+        → S1 Dunbar layer (~5 entities sâu nhất): parent = 1 trong ~5
+        → Body treat mẹ như "phần thân thể mình" (structural)
+
+    → Formation ở trẻ = CỰC SỚM (weeks, not months) vì:
+      Oxytocin surge + multi-modal interaction + repetition liên tục
+      → Hardware SUBSIDIZE compilation speed → nhanh hơn normal 40-200h
+
+
+  2 ASYMMETRIC BONDS (Bond-Architecture.md v2.0):
+
+    Entity-Compiled = 1 mechanism × 4 bond types.
+    Mẹ-con = 2 BONDS RIÊNG BIỆT chạy CÙNG LÚC:
+
+    ① Parent→Child (oxytocin-driven CAREGIVING):
+       Mẹ nhìn con → oxytocin → "phải bảo vệ, phải chăm"
+       Gap direction = parent's OWN drive, KHÔNG phải child's need
+
+    ② Child→Parent (opioid-driven SAFETY-SEEKING):
+       Con gần mẹ → endorphin baseline → "an toàn, yên"
+       Con xa mẹ → endorphin withdrawal → distress
+       → Age-invariant: neural response tới mẹ GIỐNG NHAU suốt đời
+
+    ⭐ GAP CLONE = STRUCTURALLY IMPOSSIBLE:
+       Parent's gap direction = PARENT'S, not child's
+       → Parent có thể reward từ child's behavior (điểm cao)
+         trong khi child miserable
+       → "Yêu con" ≠ tự động "con hạnh phúc"
+       → Nhận ra asymmetry = hiểu vì sao parenting CẦN calibrate
+
+
+  ENTITY-ACCESS GRADIENT (Entity-Access.md v1.2):
+
+    ┌───────────────┬──────────────────────────────────────┐
+    │ Giai đoạn     │ Entity-Access Level                  │
+    ├───────────────┼──────────────────────────────────────┤
+    │ Fetus         │ Mức 0 (no entity, only Hardware environ)   │
+    │ 0-3 tháng     │ Mức 4 pre-installed (hardware)       │
+    │ 9-18 tháng    │ Mức 4 compiling (entity forming)     │
+    │ 2-6 tuổi      │ Mức 4 stable (body-base extension)   │
+    └───────────────┴──────────────────────────────────────┘
+    Entity-Access Level ≠ Connection Quality
+    Mức 4 = HEALTHY (parent = "phần đời tôi")
+    Mức 5 = EXCESS (distorted, possessive) — xem Entity-Access-Excess.md
+
 
   SECURE BASE → EXPLORATION (🟢 Bowlby/Ainsworth, replicated nhiều lần):
     Secure attachment → DÁM explore xa hơn, lâu hơn, mạnh dạn hơn
@@ -1107,7 +1367,24 @@ TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
       → free domain pull → enable exploration → enable learning
 
 
-  VIRTUAL CHUNKS (Connection.md §2):
+  4-LAYER SUSTAINABILITY (Resonance-Sustainability.md v1.0):
+
+    Layer 1 (Foundation): Proximity + Duration + Agent-mode
+      → Mẹ-con 0-6: proximity CỰC CAO → foundation TỰ ĐÁP ỨNG
+    Layer 2 (Modality): Verbal + Non-verbal + Body-level
+      → 0-6: body-level DOMINANT (touch, HR coupling, physiological sync)
+    Layer 3 (Amplification): Capitalization + PPR + Secure Base
+      → PPR = perceived partner responsiveness = "mẹ HIỂU mình"
+    Layer 4 (Trajectory): Decline natural → countered by novelty
+
+    Mẹ-con = bond CHỐNG SUY GIẢM tốt nhất (Resonance Decline — Bond-Architecture v2.0 §4):
+      Reward-Habituated → countered bởi Hardware-Subsidy MAX (oxytocin)
+      Novelty threshold → countered bởi child's rapid development + thay đổi hàng ngày
+      (prediction-delta liên tục + Entity-Compiled luôn có chunks mới = novelty auto-generated)
+      → = Novelty AUTO-GENERATED + Subsidy MAX = bond bền nhất trong 4 types
+
+
+  VIRTUAL CHUNKS (Connection.md v5.0 §2):
 
     Trẻ maintain connection qua ABSENCE:
       Mẹ đi → "mẹ VẪN TỒN TẠI" (object permanence × attachment)
@@ -1124,6 +1401,18 @@ TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
       → Body KHÔNG compile prediction "mẹ sẽ về"
       → = "Mẹ đi = mất" → anxiety PERSISTENT
 
+    ⭐ PHANTOM 4-FACTOR (Connection.md v5.0 §16):
+      Khi caregiver absent, Entity-Compiled chunks VẪN fire → "phantom":
+        ① Compilation depth: càng nhiều modalities → càng nhiều firing points
+        ② Hardware-Subsidy: Hardware-supported bonds keep firing sau absence
+        ③ Structural (body-base extension): mất = "cắt bỏ phần thân thể"
+        ④ Duration compiled: lâu hơn → Hebbian sâu hơn → fade chậm hơn
+      → Separation anxiety = PROTO-PHANTOM:
+        Caregiver = S1 entity + Maximum Subsidy + body-base extension
+        → CẢ 4 factors ĐỀU MAXIMUM → anxiety CỰC MẠNH khi mẹ đi
+        → = KHÔNG phải "bám mẹ" → là body detect LOSS of compiled extension
+      → Virtual chunks (ở trên) = giải pháp: "mẹ SẼ VỀ" → phantom GIẢM
+
 
   CO-REGULATION → SELF-REGULATION:
 
@@ -1136,6 +1425,25 @@ TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
        Bố mẹ ignore BÂY GIỜ → trẻ phụ thuộc/lo âu SAU
        → "Đáp ứng nhiều = chiều hư" = SAI
        → "Đáp ứng nhiều = build co-regulation chunks → tự regulate SAU" = ĐÚNG
+
+
+  MẸ = FIRST COORDINATION NODE (Coordination-Node.md v1.2 §2.5):
+
+    Mẹ map vào 5 Coordination Capabilities:
+      ① Self-Pattern-Modeling across domains: đọc health, emotion, social, learning
+      ② Gap detection: infant CHƯA THỂ tự detect → mẹ detect hộ
+      ③ PFC bandwidth allocation: balance eating, play, sleep, social, learning
+      ④ Uncertainty tolerance: "khóc vì đói hay vì sợ?" → decide incomplete data
+      ⑤ Trust cascade: con trust mẹ → trust người mẹ giới thiệu → propagate
+
+    0-3 tuổi: mẹ = ONLY coordination node (L1, maximum oxytocin subsidy)
+    3-6 tuổi: mẹ begins sharing với teacher/peers (secondary nodes)
+    Trust cascade: nền tảng cho TOÀN BỘ social trust sau này
+
+    ⭐ MẸ = VEHICLE + ROAD:
+      Vehicle: fills OWN parental gap (satisfy → contentment)
+      Road: enables CHILD'S development as by-product
+      → CẢ HAI CẦN — mẹ burnt out = vehicle broken = road blocked
 ```
 
 ---
@@ -1157,51 +1465,60 @@ TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
 
   Fidelity GIẢM DẦN khi đi lên — body level ĐÚNG NHẤT, PFC level LOSSY NHẤT:
 
-    Layer 7: EXPLANATION    "Vì sao con khóc?"         20-70% fidelity
-    Layer 6: LABELING       "Con buồn / con tức"        40-80%
-    Layer 5: LOCATION       "Con đau ở đây"             70-90%
-    Layer 4: OBSERVATION    "Con cảm thấy có gì đó"     ~85%
+    Feel-Explanation:      EXPLANATION    "Vì sao con khóc?"         20-70% fidelity
+    Feel-Labeling:         LABELING       "Con buồn / con tức"        40-80%
+    Feel-Location:         LOCATION       "Con đau ở đây"             70-90%
+    Feel-Observation:      OBSERVATION    "Con cảm thấy có gì đó"     ~85%
     ════════════════════════════════════════════════
-    Layer 3: FELT SENSE     Body state noticeable        ~90%
-    Layer 2: INTEGRATION    Insula + ACC tích hợp        ~95%
-    Layer 1: RAW SIGNALS    Body systems fire            100%
+    Feel-Consciousification: FELT SENSE   Body state noticeable        ~90%
+    Feel-Integration:      INTEGRATION    Insula + ACC tích hợp        ~95%
+    Feel-RawSignals:       RAW SIGNALS    Body systems fire            100%
 
-  Layer 1-3 = BODY-based (pre-PFC)
-  Layer 4-7 = PFC processing (fidelity loss zone)
+  Feel-RawSignals → Feel-Consciousification = BODY-based (pre-PFC)
+  Feel-Observation → Feel-Explanation = PFC processing (fidelity loss zone)
+
+  ⭐ VOCABULARY REFERENCE (Body-Feedback-Label.md v1.1 + PFC-Label.md v1.0):
+    3-tier vocabulary chuẩn cho body signals:
+      HARDWARE-SIGNAL: raw body input (Feel-RawSignals/Feel-Integration) — "đau", "nóng", "đói"
+      EVALUATIVE-SIGNAL: body's assessment (Feel-Consciousification → Feel-Location) — "khó chịu", "thoải mái"
+      INTEGRATION-SIGNAL: PFC's synthesis (Feel-Labeling/Feel-Explanation) — "buồn", "ghen tị"
+    → Caregiving label (§5.2) chủ yếu build EVALUATIVE vocabulary
+    → PFC-Label chuẩn hóa thuật ngữ cho PFC observation
+    → Prediction-delta = thuật ngữ chuẩn (thay cho "prediction error")
 
   ⭐ INSIGHT CỐT LÕI:
-    Wise people TRUST Layer 3-4 (body noticeable, chưa label)
-    Naive people TRUST Layer 6-7 (label + explanation = lossy nhất)
+    Wise people TRUST Feel-Consciousification/Feel-Observation (body noticeable, chưa label)
+    Naive people TRUST Feel-Labeling/Feel-Explanation (label + explanation = lossy nhất)
 
 
 TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
 
-  0-6 THÁNG — Layer 1-2 (thô, chưa phân biệt):
+  0-6 THÁNG — Feel-RawSignals/Feel-Integration (thô, chưa phân biệt):
     Body fire raw signals liên tục
     Trẻ chỉ có: "khó chịu chung" vs "thoải mái chung"
     CHƯA phân biệt đói vs đau vs mệt vs sợ vs cô đơn
     → Tất cả = 1 output: KHÓC
 
-  6-18 THÁNG — Layer 2-3 (bắt đầu phân biệt):
+  6-18 THÁNG — Feel-Integration/Feel-Consciousification (bắt đầu phân biệt):
     Nhờ CAREGIVING LABEL (§5.2): bắt đầu phân biệt
     "Đói" khác "đau" khác "mệt" — nhưng vẫn thô
     Body signals noticeable hơn nhờ chunks tích lũy
     → Khóc có SẮC THÁI khác nhau (mẹ nhận ra khóc đói vs khóc đau)
 
-  18 THÁNG - 3 TUỔI — Layer 3-4 (cảm nhận rõ hơn):
+  18 THÁNG - 3 TUỔI — Feel-Consciousification/Feel-Observation (cảm nhận rõ hơn):
     Bắt đầu có TỪ cho cảm xúc cơ bản: "đau", "sợ", "vui"
     PFC observation BẮT ĐẦU hoạt động → có thể "chỉ" vào feeling
-    → "Con đau!" = Layer 4 (observation) + Layer 5 (location) + Layer 6 (label)
+    → "Con đau!" = Feel-Observation + Feel-Location + Feel-Labeling
 
-  3-6 TUỔI — Layer 4-5 (vocabulary mở rộng):
+  3-6 TUỔI — Feel-Observation/Feel-Location (vocabulary mở rộng):
     Từ vựng cảm xúc mở rộng: "ghen tị", "xấu hổ", "tự hào", "lo lắng"
     Mỗi từ mới = 1 LABEL HANDLE gắn vào chunk pattern đã tồn tại
     → 🟢 Barrett 2017: emotional granularity predicts health outcomes
     → Càng nhiều từ phân biệt → PFC observe chính xác hơn
 
-  ADULT — Layer 1-7 (tùy feeling literacy training):
-    Người chưa train: mostly Layer 6-7 → fidelity thấp → quyết định tệ
-    Người đã train (meditation, Focusing): access Layer 3-4 → fidelity cao
+  ADULT — Feel-RawSignals → Feel-Explanation (tùy feeling literacy training):
+    Người chưa train: mostly Feel-Labeling/Feel-Explanation → fidelity thấp → quyết định tệ
+    Người đã train (meditation, Focusing): access Feel-Consciousification/Feel-Observation → fidelity cao
     → Feeling literacy = TRAINABLE SKILL, không phải talent bẩm sinh
 ```
 
@@ -1212,11 +1529,11 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
 
   CƠ CHẾ:
 
-    Trẻ khóc (Layer 1-2: "khó chịu" chung, chưa phân biệt)
+    Trẻ khóc (Feel-RawSignals/Feel-Integration: "khó chịu" chung, chưa phân biệt)
     → Mẹ: "con ĐÓI hả?" (label hypothesis)
     → Cho ăn → trẻ calm (confirm: đúng là đói)
     → Body compile: signal pattern X = "đói" (not just "khó chịu chung")
-    → NEXT TIME: cùng signal pattern X → trẻ CÓ chunk "đói" → fire Layer 3
+    → NEXT TIME: cùng signal pattern X → trẻ CÓ chunk "đói" → fire Feel-Consciousification
 
     Trẻ khóc (khác pattern)
     → Mẹ: "con MỆT hả?" (label hypothesis)
@@ -1275,7 +1592,7 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
   CHAIN HOÀN CHỈNH:
 
     Caregiving label (§5.2)
-      ��� Feeling fidelity ↑ (phân biệt body states)
+      → Feeling fidelity ↑ (phân biệt body states)
         → Self-chunk formation (body states CÓ TÊN, CÓ RANH GIỚI)
           → Self-awareness (rouge test 18-24m: "đó là TÔI")
             → Templates available (self-chunks = template cho Self-Pattern-Modeling)
@@ -1334,7 +1651,7 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
      → MÀ LÀ "tiếng đó = khó chịu cho TÔI"
 
 
-  ② SELF-PATTERN-MATCH = True Empathy (learned, chunk-dependent):
+  ② SELF-PATTERN-MODELING = True Empathy (learned, chunk-dependent):
 
      PFC dùng self-chunks làm template → simulate trạng thái NGƯỜI KHÁC
      Body MÌNH fire bản sao yếu → PFC observe → "feeling about other"
@@ -1359,6 +1676,15 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
 
      → Ở trẻ nhỏ: Resonance chủ yếu VỚI caregiver
        (người duy nhất có đủ data để Self-Pattern-Modeling calibrate)
+
+     ⭐ CROSS-FRAMEWORK CONNECTIONS:
+       Self-Pattern-Modeling = 1 APPLICATION of Simulation-Engine (Simulation-Engine v1.0)
+         Target: Other, Time: Present, Operation: Simulate
+       Resonance = By-Product (By-Product-Gap-Resonance.md v1.4)
+         KHÔNG phải mục đích → emergent từ successful Self-Pattern-Modeling
+       Resonance depth per entity (Resonance-Per-Entity.md v1.0):
+         Mẹ-con: resonance SỚM NHẤT + SÂU NHẤT (Hardware-Subsidy + S1 Dunbar)
+         Friends: resonance CẦN THỜI GIAN (no subsidy, standard compilation)
 ```
 
 ### §6.2 — Timeline Phát Triển Empathy
@@ -1418,7 +1744,7 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
 
   Contingent caregiving (responsive, nhất quán)
     → Caregiving LABEL (§5.2: "con đói", "con mệt", "con sợ")
-      → Feeling fidelity ↑ (§5.1: Layer 1-2 → Layer 3-4)
+      → Feeling fidelity ↑ (§5.1: Feel-RawSignals/Feel-Integration → Feel-Consciousification/Feel-Observation)
         → Self-chunk formation (body states PHÂN BIỆT ĐƯỢC)
           → Self-awareness (rouge test 18-24m: "đó là TÔI")
             → Templates available (self-chunks = template cho Self-Pattern-Modeling)
@@ -1526,12 +1852,33 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
 
     DOMAIN-SPECIFIC:
       Trẻ có thể controllable ở feeding nhưng helpless ở emotion
-      = vmPFC train RIÊNG cho m��i domain
+      = vmPFC train RIÊNG cho mỗi domain
 
     ⭐ HÀM Ý:
       Bé bị làm hết → vmPFC KHÔNG ĐƯỢC TRAIN → DRN vẫn dominant
       = "Failure to launch" ở adult = DRN stays, vmPFC untrained
       ≠ "Lười" → = Hardware default chưa được override bằng experience
+
+
+  ⭐ ENRICHMENT v2.0:
+
+    HARDWARE-SUBSIDY CHO SELF-ACTION:
+      Efference copy match → opioid micro-reward = Hardware-Subsidy cho autonomy
+      → Self-action = body SUBSIDIZE reward path (giống oxytocin cho attachment)
+      → = Tại sao tự làm CỐ HỮU hơn: hardware đã wire reward for self-action
+
+    PFC BUDGET × AUTONOMY:
+      Mỗi quyết định tự chủ = COST PFC budget
+      → Trẻ 0-6 PFC budget hạn chế → quyết định nhiều quá = depleted
+      → "Con mệt không quyết được nữa" = PFC depleted, KHÔNG phải hư
+      → Giải pháp: giới hạn SỐ LƯỢNG quyết định/ngày → chất lượng hơn
+
+    COMPILED/FRESH × AUTONOMY (Compiled-Fresh.md v2.0):
+      Compiled routines = smooth autonomy (low PFC cost)
+        VD: tự xúc ăn (compiled) = easy, tự tin
+      Fresh decisions = high PFC cost
+        VD: tự chọn quần áo lần đầu = PFC heavy, dễ overwhelmed
+      → Build autonomy DẦN: compile routines trước → fresh decisions sau
 ```
 
 ### §7.2 — 5-Phase Developmental Arc
@@ -1819,6 +2166,23 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
 
     → Cortisol KHÔNG phải 1 section riêng — là AMPLIFIER chạy XUYÊN QUA
       mọi mechanism ở §1-§7. §8 chỉ formalize riêng để thấy rõ hơn.
+
+
+  ⭐ ENRICHMENT v2.0:
+
+    DISSONANCE SIGNAL ARCHITECTURE (Dissonance-Signal-Architecture.md v1.0):
+      Khi trẻ detect mismatch giữa expected vs actual:
+        → Dissonance signal fire → cortisol AMPLIFY
+        → KHÔNG phải cortisol GÂY dissonance → cortisol AMPLIFY dissonance đã có
+      VD: mẹ nói "con giỏi" (expected) → mẹ quát (actual) = dissonance
+        → Cortisol amplify → tag avoidance MẠNH hơn bình thường
+        → = Inconsistency từ caregiver = DAMAGING vì dissonance + amplification
+
+    PFC BUDGET × CORTISOL:
+      Chronic elevated cortisol → PFC budget GIẢM (§3.5 neural wear)
+      → Trẻ stressed mãn tính → PFC budget shrinks → ÍT resource cho:
+        Learning (Fresh processing), Emotion regulation, Autonomy decisions
+      → = Stress mãn tính KHÔNG chỉ damage structure → GIẢM daily capacity
 ```
 
 ---
@@ -1851,9 +2215,10 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
       Anticipation → emerge khi prediction chunks build (12m+)
     → Modern life = anticipation-dominant (không có endorphin buffer)
 
-  CONNECTION (sơ sinh — Connection.md, §4.4):
+  CONNECTION (sơ sinh — Connection.md v5.0, §4.4):
     Hardware drive có từ lúc sinh (body CẦN social input)
-    Attachment chunks compile qua consistent caregiving
+    Entity-Compiled: caregiver = first entity, S1 Dunbar (~5 deepest)
+    Hardware-Subsidy (oxytocin): anti-habituation cho mẹ-con bond
     → Secure attachment = prerequisite cho mọi thứ khác
 
   PROTECT (12-18 tháng — Protect.md):
@@ -1877,11 +2242,13 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
     → "Công bằng!" sensitivity = status parameter emerging
     → ĐỪNG thêm dầu bằng so sánh giữa trẻ ("sao em A giỏi hơn con")
 
-  BOREDOM (2-3 tuổi sơ khai — Boredom.md):
-    Requires: chunks compiled ĐỦ để PREDICT "sẽ chán"
+  BOREDOM (2-3 tuổi sơ khai — Boredom.md v2.0):
+    Source ⑥ by-product match dừng: stimulus hết match by-product → bored
+    Unified formula: Boredom = f(delta=0 × no alternative × no exit)
     → Sơ sinh: KHÔNG chán được (mọi thứ novel → VTA fire liên tục)
     → 2-3y: đủ compiled → "đã biết rồi" → delta = 0 → "chán"
     → 3 loại: Idle (không input) / Trapped (input bị ép) / Existential (sơ khai)
+    → Resonance Decline applies: Reward-Habituated = boredom driver chính
     → "Chán" ở trẻ thường = Idle hoặc Trapped
     → Fix: đa dạng input (Idle) hoặc giảm ép (Trapped)
 
@@ -1899,41 +2266,76 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
 
   Ở người lớn: body feel about future state.
   3 tầng: Body-Need (tại sao) → Imagine-Final (về đâu) → Plan (bằng cách nào)
-  (Imagine-Final.md §1)
+  (Imagine-Final.md v3.0 §1)
+
+  ⭐ v3.0 RANH GIỚI MỚI:
+    Hardware prediction (khát → uống) = subcortical, hardwired → KHÔNG PHẢI Imagine-Final
+    Imagine-Final = CONSTRUCTIVE SIMULATION: cần chunks + PFC + novel combination
+    → Body-Feedback-Mechanism.md §1.2 Source ① (hardware) ≠ Imagine-Final
+    → "Pre-Imagine-Final" (v2.0) = THUẬT NGỮ CŨ — nay dùng "hardware prediction"
 
   Ở TRẺ 0-6, IMAGINE-FINAL HÌNH THÀNH THẾ NÀO:
 
 
-  [0-6 THÁNG] PRE-IMAGINE-FINAL:
+  [0-6 THÁNG] HARDWARE PREDICTION ONLY:
 
-    Body có EXPECTATIONS nhưng chưa phải Imagine-Final:
+    Body có EXPECTATIONS nhưng đây là HARDWARE PREDICTION, không phải Imagine-Final:
       Đói → expect sữa → sữa đến → confirm → OK
-      = Body đang BUILD pattern: "expect → check → confirm/disconfirm"
-      = CƠ CHẾ GỐC sẽ trở thành Imagine-Final sau
+      Lạnh → expect warmth → được ôm → confirm → OK
+      = Subcortical, hardwired — KHÔNG cần chunks hay PFC
+      = Source ① (Body-Feedback-Mechanism.md §1.2): body-need prediction
+
+    → CHƯA có Imagine-Final: chưa có chunks ĐỦ để constructive simulation
+    → Chỉ có hardware reflexes + early chunk accumulation
+    → Đây là FOUNDATION — hardware prediction sẽ dần MỞ RỘNG
+      khi chunks tích lũy, nhưng BẢN THÂN hardware prediction ≠ Imagine-Final
 
 
-  [6-18 THÁNG] PROTO-IMAGINE-FINAL:
+  [6-18 THÁNG] CHUNK-BASED ANTICIPATION:
 
-    Body bắt đầu có HƯỚNG: "tôi muốn ĐẾN chỗ đó" (bò tới đồ chơi)
-    = Body want + domain confirm (thấy đồ chơi = domain data)
-    = Imagine-Final tầng 1 sơ khai: want + reach (ngay lúc này, ngắn hạn)
+    Body bắt đầu PREDICT dựa trên COMPILED CHUNKS (không chỉ hardware):
+      "Mẹ lấy bình" → expect sữa (compiled association, not hardware)
+      "Muốn ĐẾN chỗ đó" → bò tới đồ chơi (goal from compiled chunks)
+
+    Gap-Direction sơ khai (Gap-Direction.md v1.0):
+      Gap + ít direction (ít chunks = ít options)
+      direction = f(surrounding chunks) → 6-18m: ít chunks → gap mờ hướng
+      → "Muốn gì đó" nhưng CHƯA biết cụ thể muốn GÌ
+
+    = CHƯA PHẢI Imagine-Final: chưa CONSTRUCTIVE (chỉ replay compiled patterns)
+    → Transition: hardware prediction → chunk-based prediction
 
 
-  [18 THÁNG - 3 TUỔI] EARLY IMAGINE-FINAL:
+  [18 THÁNG - 3 TUỔI] SIMULATION ENGINE EMERGES:
 
-    PRETEND PLAY = PFC bắt đầu simulate thế giới KHÔNG CÓ THẬT:
-      "Que = kiếm" = PFC tạo representation → body ENGAGE (vung kiếm thật)
-      = Tầng 2 (PFC simulate) BẮT ĐẦU hoạt động
+    PRETEND PLAY = FIRST EVIDENCE of Simulation-Engine hoạt động:
+      "Que = kiếm" = PFC + DMN + Hippocampus RECOMBINE chunks → NOVEL scenario
+      = Simulation-Engine (Simulation-Engine.md v1.0):
+        ① Constructive Simulation: DMN + hippocampus retrieve + recombine chunks
+        ② Interoception: anterior insula reads body-feedback từ simulation
+        ③ Self/Other Model: mPFC gradient (self → close → far)
+      = FIRST constructive simulation = FIRST true Imagine-Final possible
 
-    Simulation ĐƠN GIẢN, ngắn, hay thay đổi:
-      → Imagine-Final chưa ỔN ĐỊNH (thay đổi mỗi phút)
+    EARLY IMAGINE-FINAL xuất hiện:
+      "Con muốn kem!" = PFC simulate kem + body feel APPROACH → drive action
+      = Constructive (novel scenario) + body-feedback (feel about it)
+      → Nhưng ĐƠN GIẢN, ngắn, hay thay đổi (mỗi phút)
       → BÌNH THƯỜNG: PFC đang THỬ simulate capabilities
+
+    Gap-Direction RÕ HƠN:
+      Chunks tăng → more options → gap có DIRECTION cụ thể hơn
+      → "Tại sao?" (3y) = gap detection + direction seeking liên tục
 
 
   [3-6 TUỔI] EMERGING IMAGINE-FINAL:
 
     "Con muốn làm bác sĩ!" = PFC simulate role + body feel about it
     Thay đổi mỗi tuần → BÌNH THƯỜNG: đang THỬ nhiều Imagine-Final
+
+    Gap-Distribution-Profile đang shift nhanh (Gap-Distribution-Profile.md v1.1):
+      0-3y: gaps chủ yếu IMMEDIATE (đói, khát, play)
+      3-6y: gaps bắt đầu DOMAIN-DIVERSE (social, skill, identity)
+      → Gap distribution = fingerprint thay đổi mạnh nhất giai đoạn này
 
     SỞ THÍCH BỀN bắt đầu (~4-6 tuổi):
       "Con thích côn trùng" = body resonance mạnh + lặp lại nhiều lần
@@ -2028,7 +2430,7 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
   Cortisol direction > level principle                        — §8.4
   Feeling fidelity gradient development (inferred from observations) — §5.1
   Caregiving label → feeling fidelity chain (mechanism plausible) — §5.2
-  H10 P2 bottleneck as primary developmental constraint       — §2.3
+  Body-Feedback-Precondition Precondition-2 bottleneck as primary developmental constraint — §2.3
   Dual-pull architecture (each pull established, integration = synthesis) — §4.3
   Virtual chunks development (concept plausible)              — §4.4
   Co-regulation → self-regulation pathway                     — §4.4
@@ -2055,36 +2457,62 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
 ```
 MECHANISM FILES (source of truth for mechanisms in this file):
 
+  CORE ARCHITECTURE:
   Core-v7.8-Draft.md            — Framework architecture, perception-action cycle
   PFC-Development.md §1         — PFC reframe chi tiết + 5 pillars
   PFC-Function.md               — 24 PFC functions
   PFC-Hardware.md               — COMT, DRD4, NE receptors
+  PFC-Label.md v1.0             — PFC Budget, vocabulary standard [NEW v2.0]
+  Simulation-Engine.md v1.0     — 1 Engine, 3 Components, 3 Axes [NEW v2.0]
 
+  CHUNK + COMPILE:
   Chunk.md v2.0                 — Chunk lifecycle, 4-phase, compile formula
-  Body-Feedback.md              — Dual-pull, interface loop 6-step, H10
+  Compiled-Fresh.md v2.0        — Compiled/Fresh processing types [NEW v2.0]
+  Body-Feedback.md              — Dual-pull, interface loop 6-step, Body-Feedback-Precondition
   Body-Feedback-Mechanism.md    — 2 sources × 3 dynamics (Shift/Miss/Gap)
+  Body-Feedback-Label.md v1.1   — 3-tier vocabulary, prediction-delta [NEW v2.0]
+  Gap-Body-Need.md v1.0         — 3 Satiation Types [NEW v2.0]
+  Gap-Direction.md v1.0         — Direction = f(surrounding chunks) [NEW v2.0]
+  Gap-Distribution-Profile.md v1.1 — Gap distribution fingerprint [NEW v2.0]
 
+  CORTISOL + DISSONANCE:
   Cortisol-Baseline.md v2.0    — 10 mechanisms, amplifier reframe, recovery
   Cortisol-Amplifier-Not-Cause.md — Key variable = repair, not level
+  Dissonance-Signal-Architecture.md v1.0 — Dissonance signal mechanisms [NEW v2.0]
 
+  FEELING + EMPATHY:
   Feeling.md v2.0               — 7-layer fidelity gradient, body-first
   Feeling-Accuracy.md           — 6 error modes, literacy trainable
   Feeling-Literacy-Training.md  — 5-stage training framework
+  Empathy.md                    — Self-Pattern-Modeling function, developmental bootstrap
+  Self-Pattern-Modeling.md v3.1 — 1 mechanism × 3 dimensions [NEW v2.0]
 
-  Empathy.md                    — Self-Pattern-Modeling function, developmental bootstrap, 7 failures
+  AUTONOMY:
   Autonomy-Hardware.md          — Efference copy, vmPFC+DRN, Maier 2016
-  Autonomy.md                   — 5-phase developmental arc, meta-chunk
+  Autonomy-Software.md          — 5-phase developmental arc, meta-chunk
 
-  Connection.md                 — Hardware drive, compiled patterns, virtual chunks
+  CONNECTION + ENTITY:
+  Connection.md v5.0            — Resonance Decline, Hardware-Subsidy, 4-Layer, Phantom [UPDATED v2.0]
+  Bond-Architecture.md v2.0     — Entity-Compiled × 4 bond types, Gap Clone [NEW v2.0]
+  Entity-Compiled.md v1.0       — Hub-and-Spoke, Formation 40-200h, Dunbar [NEW v2.0]
+  Entity-Access.md v1.2         — Gradient Mức 0-5 [NEW v2.0]
+  Resonance-Sustainability.md v1.0 — 4-Layer sustainability model [NEW v2.0]
+  Resonance-Per-Entity.md v1.0  — Per-entity resonance depth [NEW v2.0]
+  By-Product-Gap-Resonance.md v1.4 — Resonance as by-product [NEW v2.0]
+  Coordination-Node.md v1.2     — Mẹ = first node, trust cascade [NEW v2.0]
+
+  OBSERVATION PARAMETERS:
   Novelty.md                    — VTA, prediction-delta, DRD4 depth/breadth
-  Boredom.md                    — 3 types (Idle/Trapped/Existential)
+  Boredom.md v2.0               — Resonance Decline, unified formula [UPDATED v2.0]
   Status.md                     — Schema Access Map, social comparison
   Protect.md                    — Loss aversion, ownership, f(repl×attach)
   Meaning.md                    — Schema coherence ≠ purpose
-  Valence-Propagation.md        — Tag propagation mechanism
 
+  VALENCE + PATTERNS:
+  Valence-Propagation.md v3.0   — Structural/Current, Mixed, 3 Firing Modes [UPDATED v2.0]
+  Background-Pattern.md v2.0    — Triple Bias [NEW v2.0]
   Melody-Arc.md v2.0            — Dissonance → compile → upgrade
-  Imagine-Final.md              — 14 ngưỡng clarity, 3-layer hierarchy
+  Imagine-Final.md v3.0         — v3.0 boundary reframe, Simulation-Engine [UPDATED v2.0]
   Prediction-Error-Is-Not-Reward.md — PE ≠ reward
   Mirror-Neuron-Rejection.md    — 3 mechanisms, Heyes extended
 ```
@@ -2096,11 +2524,11 @@ F1 FILES (detailed evidence for claims in §1-§2):
 
   F1/01-PFC-Hardware-Reframe    — 5 pillars chi tiết, Hodel 2018
   F1/02-Womb-to-Birth-Baseline  — Prenatal chunks, first cry = reflex
-  F1/06a-Interoceptive-Bladder  — Body-state-at-compile, P2 bottleneck
+  F1/06a-Interoceptive-Bladder  — Body-state-at-compile, Precondition-2 bottleneck
   F1/06b-Interoceptive-Other    — Cross-state validation (5-for-5)
   F1/07-Social-Recognition-Arc  — Social smile, stranger anxiety
-  F1/08-Verbal-Production-Arc   — H11 Receptive-Productive Asymmetry
-  F1/10-F1-Synthesis            — 7 Nút Thắt, H1/H11, PFC-Inference Ladder
+  F1/08-Verbal-Production-Arc   — Receptive-Productive-Asymmetry
+  F1/10-F1-Synthesis            — 7 Nút Thắt, Chunk-Substrate/Receptive-Productive-Asymmetry, PFC-Inference Ladder
 ```
 
 ### §11.3 — Trong bộ Child-Development
@@ -2137,18 +2565,25 @@ CÁC FILE ĐI KÈM (reference ngược):
   Meltzoff & Moore 1977 — neonatal imitation
   Sorce et al. 1985 — social referencing / visual cliff
 
-§3 TAGS + NEURAL WEAR:
+§3 TAGS + VALENCE (v2.0 additions marked):
   Nader 2000 — reconsolidation
   Bouton 2004 — extinction ≠ erasure
   Arnsten 2009 — chronic stress → PFC damage
   McEwen 2007 — stress → brain structural changes
   Vyas 2002 — chronic stress → amygdala hypertrophy
   Felitti 1998 — ACE dose-response
+  Cacioppo & Berntson 1994 — separate positive/negative systems [v2.0]
+  Vaccaro et al. 2020 — mixed valence neural substrates [v2.0]
 
-§4 DYNAMICS + ATTACHMENT:
+§4 DYNAMICS + ATTACHMENT + CONNECTION (v2.0 major expansion):
   Eisenberger 2003 — social pain = physical pain pathways
   Löken 2009 — CT afferent fibers for gentle touch
   Bowlby 1969, Ainsworth 1978 — attachment theory
+  Patterson et al. 2007 — Hub-and-Spoke neural architecture [v2.0]
+  Feldman 2012 — oxytocin synchrony in parent-child [v2.0]
+  Fisher 2004 — romantic dopamine/NE surge timeline [v2.0]
+  Panksepp 1998 — opioid attachment system [v2.0]
+  Hall 2019 — friendship formation hours (40→200h) [v2.0]
 
 §5 FEELING:
   Damasio 1994, 1999 — somatic markers
@@ -2178,20 +2613,28 @@ CÁC FILE ĐI KÈM (reference ngược):
 
 ---
 
-> **END OF Child-Development-Mechanism.md v1.0**
+> **END OF Child-Development-Mechanism.md v2.0**
 >
 > **Summary:** Khung nguyên lý v7.8 cho phát triển trẻ 0-6 tuổi.
 >   §0: Vị trí + cách đọc
->   §1: PFC Reframe (hardware online, chunks missing — 5 pillars 🟢)
->   §2: 4+1 Channel Compile (4 internal + 1 external + formula)
->   §3: ⭐ Approach/Avoidance Tags (cách dạy quyết định tag — suốt đời)
->   §4: Chunk Dynamics (Gap/Miss/Shift + attachment prerequisite)
->   §5: Feeling Development (7-layer + caregiving label → fidelity)
->   §6: Self-Pattern-Modeling Bootstrap (3 mechanisms, timeline, prerequisite chain)
->   §7: Autonomy (efference copy → meta-chunk → "KHÔNG!")
->   §8: Cortisol (amplifier, not cause + sleep repair + direction > level)
->   §9: Observation Parameters + Imagine-Final emergence timeline
+>   §1: PFC Reframe (hardware online, chunks missing — 5 pillars 🟢) + PFC Budget
+>   §2: 4+1 Channel Compile + §2.5 Advanced Dynamics (Satiation, Compiled/Fresh, Firing Modes)
+>   §3: ⭐ Approach/Avoidance Tags + Structural/Current Valence + Mixed + Triple Bias
+>   §4: Chunk Dynamics + Connection v5.0 (Entity-Compiled, Bond-Architecture,
+>        Hardware-Subsidy, 4-Layer, Phantom, Coordination-Node, Entity-Access)
+>   §5: Feeling Development (7-layer + Body-Feedback-Label vocabulary + caregiving label → fidelity)
+>   §6: Self-Pattern-Modeling Bootstrap (3 mechanisms + Simulation-Engine + Resonance)
+>   §7: Autonomy (efference copy → meta-chunk + Hardware-Subsidy + PFC Budget)
+>   §8: Cortisol (amplifier + Dissonance-Signal-Architecture + PFC Budget × cortisol)
+>   §9: Observation Parameters + Imagine-Final v3.0 (hardware prediction ≠ Imagine-Final) + Gap-Direction
 >   §10: Honest Assessment (🟢12 / 🟡13 / 🔴7)
->   §11: Cross-References (30+ core files + 40+ research citations)
+>   §11: Cross-References (50+ core files + 40+ research citations)
 >
-> **Phiên bản:** v1.0, 2026-04-21.
+> **v2.0 changes (2026-05-25):** +20 new framework file integrations.
+>   CRITICAL: Imagine-Final v3.0 boundary (hardware prediction ≠ Imagine-Final).
+>   HEAVY: §4.4 Connection rewrite (Entity-Compiled, Bond-Architecture, Hardware-Subsidy,
+>     4-Layer Sustainability, Phantom, Coordination-Node, Entity-Access).
+>   NEW §2.5: Satiation Types, Compiled/Fresh, 3 Firing Modes.
+>   MODERATE: Valence-Propagation v3.0 (Structural/Current, Mixed, Triple Bias), PFC Budget, Dissonance-Signal-Architecture.
+>
+> **Phiên bản:** v2.0, 2026-05-25. (v1.0: 2026-04-21)

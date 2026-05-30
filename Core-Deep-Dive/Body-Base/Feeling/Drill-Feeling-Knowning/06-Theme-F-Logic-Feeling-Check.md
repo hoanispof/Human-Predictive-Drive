@@ -56,8 +56,8 @@ Primary file already read deeply in Phase P-3b:
 From §1.9 of reading notes, Logic-Feeling.md's core claims:
 
 **§1 Definition**:
-- **LOGIC PROCESSING** = Xử lý bằng RULES ĐÃ COMPILED (PFC Layer 5-7)
-- **FEELING PROCESSING** = Xử lý bằng BODY FEEDBACK INTEGRATED (Layer 1-4)
+- **LOGIC PROCESSING** = Xử lý bằng RULES ĐÃ COMPILED (PFC Feel-Location–Feel-Explanation)
+- **FEELING PROCESSING** = Xử lý bằng BODY FEEDBACK INTEGRATED (Feel-RawSignals–Feel-Observation)
 - NOT two types of thinking — 2 processing modes that can switch/blend
 
 **§5 Parallel processing** (critical refinement):
@@ -122,7 +122,7 @@ These are **NOT contradictory**. They're different levels of description:
 ```
 UNCONSCIOUS PROCESSING (always running)
 ├── Rule-based subsystem (chunks, schemas, compiled rules)  ← Logic's source
-└── Body integration subsystem (L0-L3 + mirror + simulator + etc.)  ← Feeling's source
+└── Body integration subsystem (body-base + mirror + simulator + etc.)  ← Feeling's source
      ↓
 PFC OBSERVATION INTERFACE (Theme A)
      ↓

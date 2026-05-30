@@ -286,7 +286,7 @@ What's missing is **cortical pattern chunks** that orchestrate the existing hard
 
 **PFC-Inference Ladder level**: **L3** (crude coordinated productive response for each word).
 
-**Compile mechanism observation**: Early words are **concrete + high-contingency + high-frequency** — consistent with the [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) P2 compile mechanism (repetition × saliency × contingency × valence). Abstract or low-frequency words come later because they have weaker compile rate modulators.
+**Compile mechanism observation**: Early words are **concrete + high-contingency + high-frequency** — consistent with the [06a §6](06a-Interoceptive-Bladder-Keystone.md#§6) Precondition-2 compile mechanism (repetition × saliency × contingency × valence). Abstract or low-frequency words come later because they have weaker compile rate modulators.
 
 ### §4.8 — Body state verbal labels: "đói" 18mo, "đau" 20mo, "buồn đái" 22mo
 
@@ -942,7 +942,7 @@ These expand the 8-marker catalog from [06b §7.4](06b-Interoceptive-Other-State
 
 **Primary home**: [04 §6.4](04-Auditory-System-Arc.md#§6.4). 08 adds supporting evidence.
 
-### §9.5 — Nút Thắt 2 (P2 compile mechanism) — reinforcement
+### §9.5 — Nút Thắt 2 (Precondition-2 compile mechanism) — reinforcement
 
 **This file's contribution**: Verbal arc provides additional compile mechanism evidence:
 - **Cooing → babbling**: repetition + social reinforcement dominant
@@ -1050,7 +1050,7 @@ All consistent with the 4-channel compile × 4-parameter rate formula from [06a 
 - [04-Auditory-System-Arc.md](04-Auditory-System-Arc.md) — receptive counterpart; H11 line 1; Nút Thắt 1 verdict
 - [05-Motor-Output-Arc.md](05-Motor-Output-Arc.md) — motor substrate; H11 line 2; Nút Thắt 6 preview
 - [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md) — bladder case; H11 line 3; Nút Thắt 2+7; đơ mặt R-F1-2
-- [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md) — cross-state arcs; H11 lines 4-7; P2 5-for-5 validation
+- [06b-Interoceptive-Other-States.md](06b-Interoceptive-Other-States.md) — cross-state arcs; H11 lines 4-7; Precondition-2 5-for-5 validation
 - [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) — Nút Thắt 3 multi-mechanism binding; pre-verbal social chunks; E31 autonomy cross-ref
 - [09-Event-Chunks-Inference-Matrix.md](09-Event-Chunks-Inference-Matrix.md) — cross-cutting event matrix (verbal events will appear there)
 - [10-F1-Synthesis.md](10-F1-Synthesis.md) — 7 Nút Thắt final verdicts + H11 aggregation + R-F1-6 commitment
@@ -1070,7 +1070,7 @@ All consistent with the 4-channel compile × 4-parameter rate formula from [06a 
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) — learning-cycle mechanism applied to auditory-articulatory loop (§2.3)
 - [../Agent/By-Product-Gap-Resonance.md](../Agent/By-Product-Gap-Resonance.md) — Resonance framework (E31 "không" self-agency + [07 §7](07-Social-Recognition-Arc.md#§7) cross-refs)
 - [../Agent/Self-Pattern-Modeling.md](../Agent/Self-Pattern-Modeling.md) — self-chunks for E31 self-as-agent
-- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5 — P2 compile mechanism for body-state verbal
+- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) §5.5 — Precondition-2 compile mechanism for body-state verbal
 
 ### §11.4 — F3 Language folder (downstream)
 

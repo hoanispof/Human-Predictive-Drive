@@ -20,7 +20,7 @@ dependencies:
   - Addiction-Analysis-v2.md — addiction 4 giai đoạn, 3 nhóm, gradient
   - Chemical-Enhancement-Notes.md — chemical × creativity, sáng tạo vs triển khai
   - Dopamine-Is-Not-Reward.md — 7-step mechanism, dopamine ≠ reward
-  - 03-Reward.md — H10 5 preconditions, opioid = reward thật
+  - 03-Reward.md — Body-Feedback-Precondition 5 preconditions, opioid = reward thật
   - Cortisol-Baseline.md v2.0 — amplifier, novelty vs threat direction
   - PFC-Function.md — 24 functions, §7 PFC offline cases
   - PFC-Hardware.md — COMT, DRD4, individual profiles
@@ -807,7 +807,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - [Addiction-Analysis-v2.md](Addiction-Analysis-v2.md) — addiction mechanism 4 giai đoạn, 3 nhóm
 - [Chemical-Enhancement-Notes.md](Chemical-Enhancement-Notes.md) — rượu × sáng tạo (PFC filter off)
 - [Dopamine-Is-Not-Reward.md](../../Core-Deep-Dive/Clarification/Dopamine-Is-Not-Reward.md) — 7-step mechanism, opioid = reward
-- [03-Reward.md](../../Core-Deep-Dive/Body-Base/Body-Feedback/03-Reward.md) — H10 5 preconditions
+- [03-Reward.md](../../Core-Deep-Dive/Body-Base/Body-Feedback/03-Reward.md) — Body-Feedback-Precondition 5 preconditions
 - [Cortisol-Baseline.md v2.0](../../Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — cortisol × stress direction
 - [PFC-Function.md](../../Core-Deep-Dive/PFC/PFC-Function.md) — §7 PFC offline cases
 - [PFC-Hardware.md](../../Core-Deep-Dive/PFC/PFC-Hardware.md) — COMT, DRD4 profiles

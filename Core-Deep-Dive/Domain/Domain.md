@@ -1,24 +1,40 @@
 ---
 title: Domain — Thực Tế Bên Ngoài Human
-version: 1.0
-created: 2026-03-30 (DRAFT)
-refined: 2026-05-23 (v1.0 — YAML standardized. Concept Cascade: +Simulation-Engine, +Entity-Access, +PFC Budget. Cross-refs updated)
-status: v1.0 REFERENCE FILE
+version: 2.0
+created: 2026-03-30 (v1.0 DRAFT)
+rewritten: 2026-05-24 (v2.0 — FULL REWRITE: +3 Domain Types, +Dual Check, +Gap System, +Compiled/Fresh, +Satiation, +Simulation-Engine, +Entity-Access. Tích hợp hữu cơ)
+previous: v1.0 → backup/Domain-v1.0-backup.md
+status: v2.0 REFERENCE FILE
 scope: |
   Domain = thực tế bên ngoài human. File này KHÔNG mô tả domain trực tiếp —
   mô tả những gì CHẮC CHẮN BIẾT qua phản chiếu từ human interaction.
-  Feedback thật, knowledge convergence, finite tại mỗi điểm, combination.
+  3 Domain Types: Reality / Abstract / Abstract-Dynamic.
+  3 Nguồn Constraint: Physics / Hardware / Collective → shelf-life khác nhau.
+  Dual Check: body = quality controller, domain = final arbiter.
   Lean epistemological stance: infer domain through reflection.
 parent: Core-Deep-Dive/Domain/
 dependencies:
-  - Core-v7.8-Draft.md — cycle architecture
-  - Conflict-Dynamics.md v1.1 — OVERLAP × SCARCITY × COMMITMENT
-  - Knowledge-Flow.md v1.0 — dòng chảy internal → output → external
-  - Imagine-Final.md v3.0 — bridge giữa "muốn" và "thật"
-  - Body-Feedback-Mechanism.md v2.0 — body check = domain feedback
-  - PFC/Simulation-Engine.md v1.0 — domain simulation in PFC
-  - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — domain access = gradient
-  - Gap-Distribution-Profile.md v1.1 — PFC budget limits domain mapping
+  core:
+    - Conflict-Dynamics.md v2.0 — OVERLAP x SCARCITY x COMMITMENT
+    - Domain-Mapping-Drive.md v2.0 — WHY humans drive to map domain
+    - Knowledge-Flow.md v1.0 — knowledge flow between mapped regions
+    - Discovery-vs-Expansion.md v1.0 — Sense-Verify-Scale pipeline
+  pfc:
+    - Imagine-Final.md v3.0 — constructive simulation, bridge body x domain
+    - Simulation-Engine.md v1.0 — 1 engine, 3 components, domain simulation
+    - PFC-Operations.md v1.0 — Compiled/Fresh spectrum, PFC Budget
+  body-base:
+    - Body-Feedback-Mechanism.md v2.0 — body check = domain feedback mechanism
+    - Gap-Direction.md v2.0 — gap direction, "chưa biết = không có gap"
+    - Gap-Body-Need.md v1.0 — 3 Satiation types (Cyclic/Tonic/Generative)
+    - Gap-Distribution-Profile.md v1.1 — PFC Budget limits domain mapping
+  agent:
+    - Entity-Access.md v1.2 — per-entity domain access gradient Mức 0-5
+  collective:
+    - Collective-Arc-Dynamics.md v1.2 — shelf-life × 3 nguồn constraint
+    - Collective-Purpose.md v1.2 — cosmic loop, vertical knowledge mapping
+  application:
+    - Ask-AI.md v3.1 — Dual Check protocol (body + domain reality)
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -31,226 +47,326 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Domain cũng vậy.
 > Chúng ta KHÔNG THỂ mô tả domain trực tiếp — nó vô tận, lớn hơn mọi mô tả.
 > Nhưng chúng ta thấy BÓNG CỦA NÓ phản chiếu qua cách human tương tác:
-> body check → có feedback thật → domain PHẢI tồn tại.
-> Schema tụ về cùng pattern → domain PHẢI có attractor.
-> 2 vùng nối nhau → emerge → domain PHẢI cho phép combination.
+> feedback thật, knowledge convergence, combination khả thi.
 >
-> File này: KHÔNG mô tả "domain trông thế nào".
-> File này: mô tả những gì CHẮC CHẮN BIẾT qua phản chiếu từ human.
+> 3 loại domain. 8 đặc điểm chắc chắn. 3 nguồn constraint.
+> Và 1 nguyên tắc kiểm chứng: body check + domain reality.
 
 ---
 
-> **Trạng thái:** DRAFT — inference từ framework, không thể verify trực tiếp
-> **Ngày:** 2026-03-30
-> **Mục đích:** Gom các đặc điểm domain ĐÃ BIẾT CHẮC vào 1 nơi.
-> Giúp người đọc hình dung domain TỒN TẠI và QUAN TRỌNG — dù không thể mô tả hết.
-> **Reference:** Core-v7.5-Draft.md §7, Conflict-Dynamics.md §7,
-> Knowledge-Flow.md, Innovation-Geography.md, Global-Melody.md §5
-> **⚠️ Mỗi đặc điểm dưới đây = PHẢN CHIẾU từ human interaction, không phải mô tả trực tiếp**
-> **⚠️ Domain LỚN HƠN mọi thứ trong file này — file chỉ là FRAGMENTS chúng ta thấy**
-> **Quy ước:** 🟢 Research support | 🟡 Suy luận từ framework | 🔴 Hypothesis
+## Mục lục
+
+- §0 — VỊ TRÍ + SCOPE
+- §1 — EPISTEMOLOGY: PHẢN CHIẾU, KHÔNG NHÌN TRỰC TIẾP
+- §2 — 3 DOMAIN TYPES (Reality / Abstract / Abstract-Dynamic)
+- §3 — 8 ĐẶC ĐIỂM CHẮC CHẮN — PHẢN CHIẾU TỪ FRAMEWORK
+- §4 — 3 NGUỒN CONSTRAINT × DOMAIN TYPES
+- §5 — DUAL CHECK: Body = Quality Controller, Domain = Final Arbiter
+- §6 — DOMAIN × FRAMEWORK CONCEPTS
+- §7 — HONEST ASSESSMENT
+- §8 — CÂU HỎI MỞ
+- §9 — KẾT NỐI
 
 ---
 
-## 1. Cách Chúng Ta "Biết" Domain — Phản Chiếu, Không Nhìn Trực Tiếp
+## §0 — VỊ TRÍ + SCOPE
+
+```
+⭐ FILE NÀY TRONG FRAMEWORK:
+
+  Core-Deep-Dive/Domain/ — DEFINITION FILE.
+
+  PHÂN BIỆT VỚI CÁC FILE GẦN:
+
+    ┌───────────────────────────────┬────────────────────────────────────────┐
+    │ File                          │ Trả lời                                │
+    ├───────────────────────────────┼────────────────────────────────────────┤
+    │ Domain.md (FILE NÀY)          │ WHAT = domain là gì, 3 types, 8 đặc   │
+    │                               │ điểm, 3 nguồn constraint, Dual Check   │
+    ├───────────────────────────────┼────────────────────────────────────────┤
+    │ Domain-Mapping-Drive.md v2.0  │ WHY = tại sao human drive to map       │
+    │                               │ "Có sẵn mà không pleasant" = modern    │
+    │                               │ paradox → mapping drive mechanism       │
+    ├───────────────────────────────┼────────────────────────────────────────┤
+    │ Conflict-Dynamics.md v2.0     │ WHEN = xung đột khi OVERLAP ×          │
+    │                               │ SCARCITY × COMMITMENT                  │
+    ├───────────────────────────────┼────────────────────────────────────────┤
+    │ Knowledge-Flow.md v1.0        │ HOW = knowledge chảy giữa mapped       │
+    │                               │ regions (internal → output → external) │
+    ├───────────────────────────────┼────────────────────────────────────────┤
+    │ Discovery-vs-Expansion v1.0   │ HOW = Sense → Verify → Scale pipeline  │
+    ├───────────────────────────────┼────────────────────────────────────────┤
+    │ Collective-Arc-Dynamics v1.2  │ WHY = patterns expire differently      │
+    │                               │ (shelf-life × constraint source)       │
+    └───────────────────────────────┴────────────────────────────────────────┘
+
+  FILE NÀY:
+    → ĐỊNH NGHĨA domain = gì
+    → PHÂN LOẠI 3 domain types
+    → GOM 8 đặc điểm BIẾT CHẮC qua phản chiếu
+    → TÍCH HỢP 3-nguồn constraint × domain types
+    → THIẾT LẬP Dual Check principle
+    → KẾT NỐI domain × framework concepts
+
+  FILE NÀY KHÔNG:
+    → Giải thích TẠI SAO map domain (→ Domain-Mapping-Drive.md)
+    → Phân tích cơ chế xung đột (→ Conflict-Dynamics.md)
+    → Mô tả domain mapping pipeline (→ Discovery-vs-Expansion.md)
+```
+
+---
+
+## §1 — EPISTEMOLOGY: Phản Chiếu, Không Nhìn Trực Tiếp
 
 ```
 ⭐ CON NGƯỜI KHÔNG TIẾP XÚC DOMAIN TRỰC TIẾP:
 
   Não KHÔNG chạm domain → Body chạm (mắt, tai, tay, da,...) → Body feedback → Não biết
-  → = Body = GIAO DIỆN DUY NHẤT giữa human và domain
-  → = Mọi thứ não "biết" về domain = FRAGMENTS qua body
+  → Body = GIAO DIỆN DUY NHẤT giữa human và domain
+  → Mọi thứ não "biết" về domain = FRAGMENTS qua body
+
 
   VẬY LÀM SAO BIẾT DOMAIN CÓ ĐẶC ĐIỂM GÌ?
 
   CÁCH 1 — Feedback thật:
     → Nhảy xuống → ngã → ĐAU → gravity CÓ THẬT
     → Chạm lửa → bỏng → nhiệt CÓ THẬT
-    → = Domain TRẢ LỜI khi body interact → feedback = "bóng" của domain
+    → Domain TRẢ LỜI khi body interact → feedback = "bóng" của domain
 
-  CÁCH 2 — Patterns lặp lại (knowledge convergence):
-    → Não, công ty, quân đội → CÙNG pattern "leader + filter + workers"
-    → = Nhiều hệ thống KHÁC NHAU map về CÙNG pattern
-    → = Pattern lặp = quan sát knowledge convergence
-    → 2 interpretations possible (chi tiết §2 ④):
-      A: domain CÓ attractor (ontological — claim vượt observation)
-      B: shared constraints → emergent convergence (epistemological careful)
-    → Framework lean B — stays at observation level
+  CÁCH 2 — Knowledge convergence (nhiều systems map cùng pattern):
+    → Não (PFC + VTA + unconscious), công ty (giám đốc + thư ký + nhân viên),
+      quân đội (tổng tư lệnh + phó tướng + quân lính)
+      → 3 hệ thống KHÁC NHAU → CÙNG pattern "leader + filter + workers"
+    → Nhiều hệ thống KHÁC NHAU tụ về CÙNG pattern qua shared constraints
+    → Framework lean epistemological: "knowledge convergence"
+      (observation level — KHÔNG claim "attractor IN domain")
 
   CÁCH 3 — Combination hoạt động:
-    → Dầu + Máy = chạy được → connection LUÔN khả thi
-    → Con người TÌM RA, không TẠO RA → domain ĐÃ cho phép từ trước
-    → = Combination thành công = "bóng" của domain structure
+    → Hydrocarbon cháy được (chemistry) + khí nở đẩy piston (physics)
+      → 2 tính chất này đã TỒN TẠI trước khi ai nghĩ tới "động cơ"
+      → Con người TÌM RA 2 tính chất → NỐI lại → động cơ đốt trong
+    → Con người TÌM RA combination, không TẠO RA tính chất → domain ĐÃ cho phép từ trước
+    → Combination thành công = "bóng" của domain structure
 
-  → = Chúng ta KHÔNG nhìn domain → nhìn BÓNG CỦA domain qua human
-  → = Mỗi đặc điểm dưới đây = 1 "bóng" chắc chắn thấy
+
+  → Chúng ta KHÔNG nhìn domain → nhìn BÓNG CỦA domain qua human
+  → Mỗi đặc điểm dưới đây = 1 "bóng" chắc chắn thấy
+
+  🟢 Epistemological framing: consistent với Kant (phenomena, not noumena)
+  🟡 "3 cách biết" = framework synthesis from research consensus
 ```
 
 ---
 
-## 2. Đặc Điểm Chắc Chắn — Phản Chiếu Từ Framework
+## §2 — 3 DOMAIN TYPES
+
+```
+⭐ DOMAIN KHÔNG ĐỒNG NHẤT — 3 loại domain, 3 cơ chế feedback:
+
+
+  ① REALITY DOMAIN — vật lý, sinh học, hóa học, địa chất:
+
+    Đặc điểm:
+      → Tồn tại TRƯỚC con người, VẪN TỒN TẠI sau con người tuyệt chủng
+      → Feedback tức thì, objective, KHÔNG PHỤ THUỘC observer
+      → Con người PHÁT HIỆN, không TẠO RA (gravity đã có trước Newton)
+      → KHÔNG thay đổi theo participants
+
+    Feedback mechanism:
+      → Body chạm trực tiếp → nhận feedback thật
+      → Rơi → đau. Chạm lửa → bỏng. Uống nước → hết khát.
+      → Domain TRẢ LỜI unconditionally
+
+    Shelf-life: patterns map Reality Domain → ≈ ∞
+    VD: gravity, entropy, thermodynamics, biology, chemistry
+
+
+  ② ABSTRACT DOMAIN — toán, logic, formal systems:
+
+    Đặc điểm:
+      → KHÔNG CÓ physical substrate trực tiếp
+      → Con người PHÁT HIỆN, không TẠO RA (mathematical truths exist independently)
+        → 🟡 Platonism vs Formalism debate — framework lean "discovered"
+            nhưng không commit mạnh (câu hỏi mở DM-6)
+      → Internal consistency = verification mechanism
+      → KHÔNG thay đổi theo participants
+
+    Feedback mechanism:
+      → KHÔNG có body feedback trực tiếp (không "đau" khi sai toán)
+      → Verify qua LOGICAL CONSISTENCY — proof, derivation, peer review
+      → Body feedback GIÁN TIẾP: coherence (smooth → pleasant,
+        inconsistency → dissonance)
+
+    Shelf-life: patterns map Abstract Domain → ≈ ∞
+    VD: mathematics, formal logic, set theory, number theory
+
+
+  ③ ABSTRACT-DYNAMIC DOMAIN — xã hội, thị trường, văn hóa, ngôn ngữ:
+
+    Đặc điểm:
+      → Abstract (không có physical substrate cố định)
+      → DYNAMIC — THAY ĐỔI theo participants (collective arc shift)
+      → Con người VỪA phát hiện VỪA tạo ra (market rules = human construct)
+      → ⚠️ "Behaves like domain" cho cá nhân — vi phạm → bị phạt THẬT
+
+    Feedback mechanism:
+      → Body feedback THẬT cho individual — bị sa thải = ĐAU THẬT
+      → NHƯNG: feedback CÓ THỂ SHIFT (rules thay đổi → feedback thay đổi)
+      → Bị kết án oan → hậu quả ĐAU THẬT (collective = real constraint)
+      → Scale >> individual → cá nhân KHÔNG THỂ đơn phương thay đổi
+
+    Shelf-life: LIMITED = f(tốc độ collective shift)
+      → "Bằng ĐH → việc tốt" = ĐANG expire
+      → Chi tiết: Collective-Arc-Dynamics.md v1.2
+    VD: markets, law, culture, social norms, trends, language
+
+
+  ⭐ TẠI SAO PHÂN LOẠI NÀY QUAN TRỌNG:
+
+    ┌──────────────────┬────────────┬────────────┬────────────────┐
+    │                  │ Reality    │ Abstract   │ Abstract-      │
+    │                  │            │            │ Dynamic        │
+    ├──────────────────┼────────────┼────────────┼────────────────┤
+    │ Feedback         │ Body trực  │ Logic      │ Body THẬT      │
+    │                  │ tiếp       │ consistency│ nhưng CAN SHIFT│
+    ├──────────────────┼────────────┼────────────┼────────────────┤
+    │ Thay đổi theo    │ Không      │ Không      │ Có             │
+    │ participants?    │            │            │                │
+    ├──────────────────┼────────────┼────────────┼────────────────┤
+    │ Shelf-life       │ ∞          │ ∞          │ LIMITED        │
+    ├──────────────────┼────────────┼────────────┼────────────────┤
+    │ Con người        │ Phát hiện  │ Phát hiện  │ Phát hiện +    │
+    │                  │            │            │ Tạo ra         │
+    ├──────────────────┼────────────┼────────────┼────────────────┤
+    │ Nguồn constraint │ Physics    │ Internal   │ Collective     │
+    │ chính            │            │ logic (*)  │                │
+    └──────────────────┴────────────┴────────────┴────────────────┘
+    (*) Abstract Domain constraint source: debated (DM-6)
+
+    → Cá nhân bên TRONG cả 3 domain types → body register GIỐNG NHAU
+    → Phân biệt = META-LEVEL observation, không phải individual experience
+    → Chi tiết tại sao individual không phân biệt: §4
+
+  🟢 Reality vs Abstract distinction: philosophy of science
+  🟡 Abstract-Dynamic = framework classification (original contribution)
+  🟡 "Con người phát hiện" Abstract Domain: Platonism — debated (DM-6)
+```
+
+---
+
+## §3 — 8 Đặc Điểm Chắc Chắn — Phản Chiếu Từ Framework
 
 ```
 ⭐ 8 ĐẶC ĐIỂM — mỗi cái BIẾT CHẮC qua phản chiếu:
 
 
   ① TỒN TẠI + KHÔNG PHỤ THUỘC HUMAN:
-
-    Phản chiếu từ: body check → nhận feedback THẬT
     → Gravity kéo dù ai biết hay không. Virus lây dù ai tin hay không.
-    → = Domain KHÔNG CARE human biết gì → domain CỨ HOẠT ĐỘNG
-    → = Trước khi có con người → domain ĐÃ CÓ
-    → = Sau khi con người tuyệt chủng → domain VẪN CÒN
+    → Trước con người → domain ĐÃ CÓ. Sau tuyệt chủng → VẪN CÒN.
+    → Áp dụng chủ yếu Reality + Abstract Domain.
+    → Abstract-Dynamic: tồn tại CHỈ KHI có participants → khác.
+    🟢 Physical reality independent of observation (physics consensus)
 
 
   ② VÔ TẬN TỔNG THỂ:
-
-    Phản chiếu từ: 86 tỷ neurons chỉ chứa FRAGMENTS
-    → Mọi kiến thức con người = MỘT PHẦN CỰC NHỎ
-    → Mỗi thế kỷ phát hiện thêm → VẪN CHƯA HẾT → domain > mọi brain
-    → Toàn bộ vũ trụ = domain → human chỉ thấy 1 PHẦN
+    → 86 tỷ neurons chỉ chứa FRAGMENTS. Mọi kiến thức = PHẦN CỰC NHỎ.
+    → Mỗi thế kỷ phát hiện thêm → VẪN CHƯA HẾT.
+    → "Chưa biết = không có gap" (Gap-Direction.md v2.0) →
+      phần chưa map = INVISIBLE cho individual (§6.1)
+    🟡 Inference from ongoing discovery (consistent with history of science)
 
 
   ③ FINITE TẠI MỖI ĐIỂM:
+    → 1 miếng đất: chỉ 1 người dùng. 1 vị trí: chỉ 1 người ngồi.
+    → = GỐC xung đột VÀ engine mở rộng:
+      Finite + overlap → conflict (Conflict-Dynamics.md v2.0 §1)
+      Finite + scarcity → exploration → expansion (Conflict-Dynamics.md v2.0 §7)
+    🟢 Resource scarcity → conflict + innovation (economics consensus)
 
-    Phản chiếu từ: xung đột xảy ra (Conflict-Dynamics.md §1)
-    → 1 miếng đất: chỉ 1 người dùng tại 1 thời điểm
-    → 1 vị trí: chỉ 1 người ngồi. 1 con mồi: chỉ 1 người ăn.
-    → = Domain vô tận TỔNG → nhưng resource tại mỗi điểm = FINITE
-    → = Đây là GỐC xung đột VÀ engine mở rộng (§3)
 
-
-  ④ KNOWLEDGE CONVERGENCE — multiple systems map về cùng pattern:
-
-    ⚠️ EPISTEMOLOGICAL CAREFUL: framework refine từ "domain CÓ attractor"
-       (ontological claim) → "knowledge từ nhiều systems converge"
-       (observation level). Lý do: §1 nói rõ "không nhìn domain trực tiếp"
-       → Mọi claim về "cái gì TRONG domain" đều là inference.
-
-    Phản chiếu từ: nhiều hệ thống KHÁC NHAU tụ về CÙNG pattern
-    → Não (VTA+PFC+neurons), công ty (thư ký+CEO+nhân viên),
-      quân đội (cấp phó+tướng+lính) → CÙNG "leader + filter + workers"
-    → Vì CÙNG constraint: "1 quyết định + triệu input + bandwidth hạn chế"
-    → = Quan sát: knowledge của nhiều systems độc lập converge cùng pattern
-
-    2 CÁCH INTERPRET (operationally tương đương):
-
-      Interpretation A — STRONG (ontological):
-        "Domain CÓ attractor cứng → buộc mọi system converge cùng đó"
-        → Implication: attractors EXIST trong domain
-        → Risk: claim vượt observation (không verify trực tiếp được)
-
-      Interpretation B — WEAK (epistemological):
-        "Shared constraints → emergent convergence của knowledge"
-        → Implication: convergence emerge từ chung constraints
-        → KHÔNG claim "attractor TRONG domain"
-        → Stays at observation level
-
-      → 2 interpretations PREDICT cùng thứ (multiple systems → cùng pattern)
-      → Operationally tương đương → khó test khác biệt
-      → KHÁC nhau ở epistemological level (claim ontological vs descriptive)
-
-    FRAMEWORK LEAN VỀ B (consistent với §1):
-      → §1 đã nói: chúng ta không nhìn domain trực tiếp
-      → Vậy claim "domain có attractor" = inference vượt observation
-      → Stay at: "knowledge convergence khi có shared constraints"
-      → Vẫn dùng từ "attractor" như shorthand — nhưng hiểu là convergence pattern,
-        không phải feature ontological của domain
-
-    → Trước khi phát hiện = "innovation", sau khi phát hiện = "hiển nhiên"
+  ④ KNOWLEDGE CONVERGENCE:
+    → Nhiều hệ thống KHÁC NHAU map về CÙNG pattern qua shared constraints
+    → Não, công ty, quân đội → "leader + filter + workers"
+    → 2 interpretations (operationally tương đương):
+      A — Strong (ontological): "Domain CÓ attractor" → claim vượt observation
+      B — Weak (epistemological): "Knowledge converge qua shared constraints"
+    → Framework lean B — consistent §1: không nhìn domain trực tiếp
+    → Vẫn dùng "attractor" như shorthand — hiểu là convergence pattern
     → Cross-domain insight = phát hiện 2 knowledge mappings CÙNG converge
-
-    🟢 Convergent evolution = supports knowledge convergence (Conway Morris)
-    🟡 "2 interpretations" = framework epistemological distinction
-    🟡 "Lean B" = consistent với §1 phản chiếu framing
-    → Chi tiết META-frame: Collective-Purpose.md §1 (vertical loop, knowledge mapping)
+    🟢 Convergent evolution supports pattern (Conway Morris 2003)
+    🟡 "Lean B" = framework epistemological position
 
 
-  ⑤ CHO PHÉP COMBINATION (vùng mới khi nối):
-
-    Phản chiếu từ: khi 2 vùng đã map NỐI NHAU → emerge vùng mới
-    → Dầu (A) + Máy (B) = Công nghiệp (C)
-    → Điện (A) + Truyền thông (B) = Internet (C)
-    → Silicon (A) + Logic (B) = Computing (C)
-    → Tâm lý (A) + Neuroscience (B) = Framework này (C)
-    → = C LUÔN khả thi trong domain → nhưng cần map A + B trước mới THẤY C
-    → = "Domain mới" = KHÔNG xuất hiện từ hư không → luôn ở đó, mới TÌM RA
+  ⑤ CHO PHÉP COMBINATION:
+    → 2 vùng map NỐI → emerge vùng mới
+    → Dầu + Máy = Công nghiệp. Silicon + Logic = Computing.
+    → C LUÔN khả thi trong domain → cần map A + B trước mới THẤY C
+    → "Domain mới" = KHÔNG xuất hiện từ hư không → luôn ở đó, mới TÌM RA
+    → PFC simulate combination TRƯỚC khi thử (Simulation-Engine — §6.4)
+    🟢 Combinatorial innovation (Arthur 2009 "The Nature of Technology")
 
 
   ⑥ FEEDBACK THẬT (domain không nói dối):
-
-    Phản chiếu từ: body check → kết quả KHÔNG PHỤ THUỘC ý muốn
-    → Gravity kéo: dù tin hay không. Market phạt: dù marketing tốt.
-    → Schema "sai" + domain check = BIẾT SAI (feedback thật)
-    → Schema "đúng" + domain check = BIẾT ĐÚNG (feedback thật)
-    → = Domain = NGUỒN SỰ THẬT duy nhất → không thể bẻ cong
+    → Body check → kết quả KHÔNG PHỤ THUỘC ý muốn
+    → Domain = NGUỒN SỰ THẬT duy nhất → không thể bẻ cong
     → ⚠️ NHƯNG: body interpret feedback CÓ THỂ SAI
       → Domain feedback thật → body nhận → PFC giải thích → CÓ THỂ sai
-      → = "Sai" nằm ở HUMAN, không nằm ở domain
+      → "Sai" nằm ở HUMAN interpretation, không nằm ở domain
+    → Dual Check: body check coherence, domain check truth (§5)
+    🟢 Domain feedback independent of human desire (physics consensus)
 
 
   ⑦ CHỈ MAP ĐƯỢC DẦN (incremental, không nhảy):
-
-    Phản chiếu từ: body cần reference để check → chưa experience = không check được
     → Base → shift nhẹ → body check → accept/reject → base mới → tiếp
-    → KHÔNG THỂ nhảy từ A → Z (quá xa = noise = body không evaluate được)
-    → = "Leo núi mỗi bước 1 chút, kiểm tra chỗ đặt chân, rồi bước tiếp"
-    → = Universal pattern: evolution, science, market, AI training → CÙNG cơ chế
-    → (ref: Core-v7.5 §7 ⑦: incremental calibration)
+    → KHÔNG THỂ nhảy A → Z (quá xa = body không evaluate được)
+    → Universal: evolution, science, market, AI training → CÙNG cơ chế
+    → Compiled domain knowledge = base cho Fresh exploration tiếp (§6.2)
+    🟢 Incremental learning: gradient descent, evolution, scientific method
 
 
-  ⑧ EXPANSION TĂNG TỐC (nhiều vùng map = nhiều nối tiềm năng):
-
-    Phản chiếu từ: tốc độ phát hiện TĂNG qua thời gian
-    → 1 vùng map → 0 combination
-    → 2 vùng map → 1 combination tiềm năng
-    → 10 vùng map → 45 combinations tiềm năng
-    → 100 vùng map → 4,950 combinations tiềm năng
-    → = Tốc độ expansion = n(n-1)/2 → TĂNG TỐC theo hàm mũ
-    → = Tại sao 10,000 năm đầu = chậm → 100 năm gần = CỰC NHANH
-    → = Không phải con người "giỏi hơn" → mà CÓ NHIỀU VÙNG ĐÃ MAP hơn
+  ⑧ EXPANSION TĂNG TỐC:
+    → 1 vùng → 0 combination. 10 vùng → 45. 100 vùng → 4,950.
+    → Tốc độ = n(n-1)/2 → tăng theo hàm mũ
+    → 10,000 năm đầu = chậm → 100 năm gần = CỰC NHANH
+    → Không phải human "giỏi hơn" → CÓ NHIỀU VÙNG ĐÃ MAP hơn
+    🟢 Accelerating returns (Kurzweil 2005) — simplified model, data-consistent
 ```
 
-### 2.1 — PRECISION: 3 Nguồn Constraint + Individual Không Phân Biệt
+---
+
+## §4 — 3 Nguồn Constraint × Domain Types
 
 ```
-⭐ "DOMAIN" TRONG TRẢI NGHIỆM CÁ NHÂN vs META-LEVEL:
-
-  §2 ⑥ dùng ví dụ "Market phạt" = domain feedback thật.
-  Từ GÓC NHÌN CÁ NHÂN: đúng — market cho hậu quả thật, không phụ thuộc ý muốn.
-  Từ META-LEVEL: market = COLLECTIVE ARC, không phải physics domain.
-  (ref: Logic-Feeling.md §1.3b — "domain không thay đổi, collective arc thay đổi")
-
-  File này (§2 ①-⑧) mô tả domain QUA PHẢN CHIẾU từ individual experience.
-  Individual KHÔNG phân biệt nguồn → TẤT CẢ feedback = "domain" cho body.
-  Meta-level precision bên dưới PHÂN BIỆT — nhưng KHÔNG mâu thuẫn với §2.
+⭐ 3 NGUỒN CONSTRAINT — phân biệt TẠI SAO patterns có shelf-life KHÁC NHAU:
 
 
-  ⭐ 3 NGUỒN CONSTRAINT ẢNH HƯỞNG PATTERNS CÁ NHÂN:
-
-  ① PHYSICS DOMAIN (vĩnh viễn, không phụ thuộc human):
-    → Gravity, entropy, thermodynamics, chemistry, math structure
-    → Trước loài người = có. Sau loài người tuyệt chủng = VẪN CÓ.
+  ① PHYSICS (vĩnh viễn, không phụ thuộc human):
+    → Gravity, entropy, thermodynamics, chemistry, mathematical structure
+    → Trước loài người = có. Sau tuyệt chủng = VẪN CÓ.
     → Feedback: absolute, unconditional
+    → UNDERLIES: Reality Domain + Abstract Domain
     → Compiled patterns khớp physics: shelf-life ≈ ∞
 
-  ② BODY HARDWARE (temporary system, ~100K year evolution):
-    → PFC bandwidth 4±1, opioid/dopamine, senses, needs
-    → = Hệ điều hành cho patterns hoạt động + tương tác với domain
-    → Chết → trở về physics (tro bụi). Hackable by chemicals.
-    → Constraints CỨNG cho cá nhân — nhưng không vĩnh viễn ở scale evolution
-    → Compiled patterns khớp body hardware: shelf-life ≈ ∞ trong 1 đời
-      (hardware KHÔNG đổi trong 1 đời, chỉ đổi qua natural selection)
+
+  ② BODY HARDWARE (~100K year evolution, stable within lifetime):
+    → PFC bandwidth 4±1, opioid/dopamine reward, sensory systems, needs
+    → = HỆ ĐIỀU HÀNH cho patterns hoạt động + tương tác domain
+    → CONSTRAINT CHUNG mọi domain type — body hardware GIỚI HẠN:
+      HOW MUCH domain map được (PFC Budget — PFC-Operations.md v1.0)
+      HOW FAST domain map được (incremental only — §3 ⑦)
+      WHAT COUNTS as reward (Gap-Body-Need.md v1.0 — Satiation types)
+    → Chết → trở về physics. Hackable by chemicals.
+    → Compiled patterns khớp hardware: shelf-life ≈ ∞ trong 1 đời
+
 
   ③ COLLECTIVE (emergent từ nhiều body tương tác):
     → Market, law, culture, norms, trends, language, technology
     → Real constraints: vi phạm → bị phạt/loại THẬT
-      (bị kết án oan hay đúng → hậu quả ĐỀU THẬT cho body)
     → NHƯNG: CAN SHIFT (participants thay đổi → rules thay đổi)
     → Scale >> individual → cá nhân KHÔNG THỂ đơn phương thay đổi
-    → = "Behaves like domain" cho cá nhân
+    → TẠO RA: Abstract-Dynamic Domain (§2 ③)
     → Compiled patterns khớp collective: shelf-life = LIMITED
-      = f(tốc độ collective shift trong lĩnh vực đó)
+      = f(tốc độ collective shift — Collective-Arc-Dynamics.md v1.2)
 
 
   ⭐ TẠI SAO CÁ NHÂN KHÔNG PHÂN BIỆT:
@@ -262,225 +378,339 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Bị sa thải = đau (collective)
     Bị bỏ tù oan = đau (collective, SAI nhưng VẪN ĐAU THẬT)
 
-    → Cái cây = thật. Bạn bè = thật. Bố mẹ = thật.
-    → Sông, núi, luật pháp, thị trường = TẤT CẢ "thật" cho body.
-    → Body register TẤT CẢ giống nhau → compile patterns giống nhau.
-
-    → = Mỗi body ĐÃ nằm trong collective thì như 1 tế bào.
-    → = Collective punishment/reward → trở thành hình phạt/thưởng THẬT.
-    → = §2 ⑥ ĐÚNG ở individual level: mọi feedback đều thật cho cá nhân.
+    → Body register TẤT CẢ giống nhau → compile patterns giống nhau
+    → Mỗi body ĐÃ nằm trong collective → collective = "domain" cho body
+    → Phân biệt = META-LEVEL (framework, science) — KHÔNG phải cá nhân
+    → Chi tiết deep analysis: Collective-Arc-Dynamics.md v1.2 §1-§3
 
 
-  ⭐ IMPLICATION — SHELF-LIFE KHÁC NHAU:
+  ⭐ SHELF-LIFE TABLE:
 
-    Patterns phụ thuộc physics → shelf-life ≈ ∞ (2+2=4 vĩnh viễn)
-    Patterns phụ thuộc body hardware → shelf-life ≈ ∞ trong 1 đời
-    Patterns phụ thuộc collective → shelf-life = LIMITED
-      → f(tốc độ collective shift)
-      → "Bằng ĐH → việc tốt" = collective pattern, ĐANG expire
-      → "SEO strategy X" = collective pattern, expires nhanh
-      → "2+2=4" = physics, không bao giờ expire
+    ┌────────────────┬──────────────┬───────────────────────────────────┐
+    │ Nguồn          │ Shelf-life   │ Ví dụ                             │
+    ├────────────────┼──────────────┼───────────────────────────────────┤
+    │ Physics        │ ≈ ∞          │ 2+2=4, gravity, entropy           │
+    ├────────────────┼──────────────┼───────────────────────────────────┤
+    │ Body hardware  │ ≈ ∞ / 1 đời │ PFC bandwidth, opioid reward      │
+    ├────────────────┼──────────────┼───────────────────────────────────┤
+    │ Collective     │ LIMITED      │ "Bằng ĐH → việc tốt" (expiring)  │
+    │                │ = f(shift)   │ "SEO strategy" (expires nhanh)    │
+    └────────────────┴──────────────┴───────────────────────────────────┘
 
-    → Chi tiết: Collective-Arc-Dynamics.md (tốc độ shift, lifecycle, implications)
-    → Logic-Feeling.md §1.3b (stable-arc vs shifting-arc domains)
-
-  🟡 Framework synthesis: phân biệt 3 nguồn = precision mới.
-     Consistent với Logic-Feeling §1.3b + Why-Body-Knows §1.
-     Individual experience (§2 ⑥) + meta-level precision = không mâu thuẫn.
+  🟡 3 nguồn distinction = framework precision
+     (consistent Logic-Feeling.md v4.0 §3.2 + Collective-Arc-Dynamics v1.2)
+  🟡 "Individual không phân biệt" = body architecture observation
 ```
 
 ---
 
-## 3. Scarcity = Engine — Tại Sao Domain Finite Tại Mỗi Điểm Là TÍCH CỰC
+## §5 — DUAL CHECK: Body = Quality Controller, Domain = Final Arbiter
 
 ```
-🟡 SCARCITY KHÔNG CHỈ LÀ VẤN ĐỀ — NÓ LÀ ENGINE:
+⭐ NGUYÊN TẮC KIỂM CHỨNG — 2 BƯỚC, KHÔNG CHỈ 1:
 
-  NẾU domain vô tận VÀ share vô tận tại mỗi điểm:
-    → Ai cũng có mọi thứ → KHÔNG CẦN tìm thêm → KHÔNG map thêm
-    → = Stagnation
 
-  VÌ domain FINITE tại mỗi điểm:
-    → Tranh giành → BUỘC tìm nơi khác → MAP thêm → EXPAND domain
-    → = Scarcity → exploration → combination → expansion → abundance MỚI
+  BƯỚC 1 — BODY CHECK (quality controller):
 
-  VÒNG LẶP:
-    Scarcity ở A → tìm B → nối A+B → C emerge → resource mới
-    → Đông lên ở C → scarcity mới → tìm D → nối C+D → E emerge → ...
-    → = Mỗi vòng: tổng pie LỚN HƠN + tốc độ NHANH HƠN (⑧)
+    → Body cảm giác thế nào? Schema smooth hay resistance?
+    → Coherence check: "thông tin này fit với chunks đã compiled?"
+    → Nhanh, tự động, ~90% reliable (Body-Base.md v3.2 §7)
+    → NHƯNG: đánh giá COHERENCE, không phải TRUTH
+    → 3 failure modes:
+      ① Evolution lag — hardware chưa cập nhật reality mới
+      ② Chunks nền sai — compiled patterns chứa sai lệch
+      ③ Schema override — schema ép body accept qua PFC
 
-  → = Scarcity tạo đa dạng (mỗi người tìm niche RIÊNG)
-  → = Đa dạng giảm overlap (ít tranh nhau hơn)
-  → = Đa dạng tăng combination potential (nhiều vùng map hơn)
-  → = 8 tỉ người × 8 tỉ melody = map domain CỰC NHANH
-  → (ref: Conflict-Dynamics.md §7: chi tiết scarcity = engine)
 
-  ⚠️ GIỚI HẠN: scarcity = engine CHỈ KHI agent CÓ KHẢ NĂNG expand:
-    → Có PFC (simulate cross-domain), có exposure (thấy domain mới)
-    → Bị lock (nghèo, thiếu giáo dục, thiếu tự do) → scarcity = trap, không phải engine
-    → = Xã hội tốt = tạo ĐIỀU KIỆN cho agent expand domain
-```
+  BƯỚC 2 — DOMAIN CHECK (final arbiter):
 
----
+    → Dữ liệu thực tế, kết quả THẬT, evidence
+    → Domain feedback LUÔN ĐẾN — chỉ là sớm hay muộn
+    → KHÔNG bị amplify, smooth, hay schema override
+    → Domain feedback ≠ body interpretation (§3 ⑥)
 
-## 4. Imagine-Final × Domain — Bridge Giữa "Muốn" Và "Thật"
 
-```
-🟡 IMAGINE-FINAL = BRIDGE giữa body (muốn) và domain (thật):
+  ⭐ 4 TRƯỜNG HỢP:
 
-  Body muốn X (Imagine-Final vô thức hoặc conscious)
-  Domain có hoặc không có X
-  → Imagine-Final HOÀN CHỈNH = body muốn + domain confirm
+    Body YES + Domain YES → ✅ HIGH confidence (cả 2 align)
+    Body NO  + Domain YES → 🔍 Investigate (body resist incoherent-but-true?)
+    Body YES + Domain NO  → ⚠️ NGUY HIỂM — likely smoothing / amplification
+    Body NO  + Domain NO  → ❌ Clear rejection
 
-  3 TRƯỜNG HỢP:
-    Body muốn + domain confirm     = Imagine-Final HOÀN CHỈNH ("passion")
-    Body muốn + domain KHÔNG có    = Ảo tưởng (delusion)
-    Domain có + body KHÔNG muốn    = Ép buộc (external inject)
+    Body YES + Domain NO = NGUY HIỂM NHẤT:
+      → Body feel coherent → confident → NHƯNG domain VẪN NO
+      → Delay crash → crash LỚN HƠN
+      → AI có thể amplify risk này (Ask-AI.md v3.1 §6.1):
+        AI confirm → body coherence TĂNG → body YES mạnh hơn
+        → domain reality KHÔNG thay đổi → gap coherence↔truth LỚN HƠN
 
-  DOMAIN COMBINATION QUA IMAGINE-FINAL:
-    → PFC simulate: "NẾU nối A + B → kết quả gì?"
-    → Body preview: "sẽ smooth hơn" → muốn thử
-    → Thử → domain feedback → confirm/reject
-    → = Imagine-Final = CÔNG CỤ TÌM combination mới
-    → = PFC lớn = simulate NHIỀU combination = tìm NHANH hơn
-    → = Tại sao con người map domain nhanh hơn mọi loài khác
 
-  → (ref: Imagine-Final.md §1: 2 tầng vô thức + PFC)
-  → (ref: Personal-Melody.md §5: melody hay = body smooth + domain accurate)
+  ⭐ DOMAIN TYPES × DUAL CHECK:
+
+    Reality Domain: domain check = TRỰC TIẾP (thử → thấy → biết)
+    Abstract Domain: domain check = LOGICAL (proof, derivation, peer review)
+    Abstract-Dynamic: domain check = PHỨC TẠP
+      → Rules CAN shift → cần time + exposure + cross-validation
+      → Chi tiết: Collective-Arc-Dynamics.md v1.2
+
+  🟡 Dual Check = framework principle (chi tiết Ask-AI.md v3.1 §6.1)
+  🟢 Body coherence ≠ truth: cognitive bias research (Kahneman 2011)
 ```
 
 ---
 
-## 5. Honest Assessment
+## §6 — DOMAIN × FRAMEWORK CONCEPTS
+
+### §6.1 — Gap System × Domain
 
 ```
-  ESTABLISHED (🟢):
-    🟢 Physical reality exists independently of observation
-       (physics consensus — dù quantum interpretation debated)
-    🟢 Convergent evolution: same constraints → same solutions
-       across unrelated species (eyes, wings, echolocation)
-       = supports knowledge convergence pattern (Conway Morris)
-       ⚠️ Note: supports CONVERGENCE observation, not necessarily
-         "attractor in domain" claim — see §2 ④ refined framing
-    🟢 Combinatorial innovation: most innovations = recombination
-       of existing ideas (Arthur 2009 "The Nature of Technology")
-    🟢 Accelerating returns: rate of innovation increases over time
-       (Kurzweil 2005) = consistent with expansion tăng tốc (§2 ⑧)
-    🟢 Resource scarcity drives innovation (economic history consensus)
+⭐ "CHƯA BIẾT = KHÔNG CÓ GAP" (Gap-Direction.md v2.0):
 
-  FRAMEWORK SUY LUẬN (🟡):
-    🟡 "Nhìn domain qua phản chiếu": consistent với epistemology
-       (Kant: we know phenomena, not noumena). Framework-specific framing.
-    🟡 "Domain finite tại mỗi điểm = gốc conflict + engine progress":
-       consistent với resource competition theory + innovation economics.
-    🟡 "Domain combination = vùng MỚI emerge": consistent với
-       combinatorial innovation literature. Framework adds: "C luôn ở đó."
-    🟡 "Expansion tăng tốc = n(n-1)/2": mathematical observation,
-       consistent với accelerating returns data. Simplified model.
-    🟡 "Imagine-Final = bridge body × domain": framework-specific,
-       consistent với prospection theory (Seligman 2013).
-    🟡 "Knowledge convergence" (refined §2 ④) vs "attractor points" (cũ):
-       Framework refine từ ontological claim ("domain CÓ attractor")
-       → epistemological observation ("knowledge convergence khi shared
-       constraints"). Consistent với §1 phản chiếu framing. 2 interpretations
-       operationally tương đương — framework lean weak claim (epistemological
-       careful). Chi tiết: Collective-Purpose.md §3.
+  Gap = hole trong chunk network. Gap có HƯỚNG = f(surrounding chunks).
+  Không có chunks xung quanh = không có bờ = không có hole = KHÔNG CÓ GAP.
 
-  HYPOTHESIS (🔴):
-    🔴 "Domain không thay đổi, chỉ human map thêm" — strong claim.
-       Quantum mechanics gợi ý observer CÓ THỂ ảnh hưởng domain.
-       Framework giả định domain tĩnh — có thể cần revisit.
-    🔴 "8 đặc điểm = đầy đủ" — chắc chắn CHƯA đầy đủ.
-       Domain vô tận → luôn có đặc điểm chưa phát hiện.
-    🔴 "Scarcity = engine" — chỉ đúng khi agent CÓ KHẢ NĂNG expand.
+  Domain implications:
+    → Phần domain CHƯA MAP = INVISIBLE cho individual
+    → Bạn KHÔNG THỂ thiếu thứ bạn không biết tồn tại
+    → Exposure = PREREQUISITE cho domain mapping
+      (tạo chunks bờ → gap xuất hiện → drive to fill)
+    → "Chưa biết" KHÁC "biết mà chưa hiểu":
+      "Chưa biết" = no gap, no drive
+      "Biết mà chưa hiểu" = gap exists, drive active
+
+  → §3 ② (vô tận tổng thể): phần vô tận chưa map = NO GAP = no drive
+  → Chi tiết: Gap-Direction.md v2.0 §1-§3
+
+  🟡 Framework principle (consistent Schultz 1997 prediction-delta)
+```
+
+### §6.2 — Compiled/Fresh × Domain
+
+```
+⭐ DOMAIN KNOWLEDGE CÓ 2 CHẾ ĐỘ XỬ LÝ (PFC-Operations.md v1.0):
+
+  COMPILED domain knowledge (Hardware-Stream):
+    → Expert: compiled maps → nhận diện patterns nhanh, tự động
+    → Ưu: fast, energy-efficient, reliable trong stable domain
+    → Nhược: có thể miss novel patterns (compiled = nhìn qua lens cũ)
+    → Phù hợp: Reality + Abstract Domain (stable → compiled quality cao)
+
+  FRESH domain exploration (Modeling-Stream):
+    → Beginner hoặc expert ở domain mới: chậm, tốn PFC Budget
+    → Ưu: thấy patterns MỚI mà compiled eyes bỏ qua
+    → Nhược: slow, tốn energy, sai nhiều
+    → Phù hợp: Abstract-Dynamic Domain (shifting → cần fresh thường xuyên)
+
+  Compiled Quality Dimension:
+    → Genuine-compiled: body confirmed qua domain feedback → reliable
+    → Schema-compiled: PFC-driven, chưa domain verify → risky
+    → Threat-compiled: bị ép (collective/authority) → shelf-life uncertain
+
+  → §3 ⑦ = Compiled base → Fresh exploration → Compiled mới
+  → Expert blind spot: compiled TOO deep → resist fresh patterns ở domain shift
+  → Chi tiết: PFC-Operations.md v1.0 §1-§5
+
+  🟡 Framework application of Compiled/Fresh to domain mapping
+```
+
+### §6.3 — Satiation × Domain
+
+```
+⭐ 3 LOẠI SATIATION × DOMAIN (Gap-Body-Need.md v1.0):
+
+  CYCLIC satiation (ăn → no → đói → ăn):
+    → Domain resources: food, water, sleep, temperature
+    → Reality Domain feedback tức thì, cycle predictable
+    → Technology fill: agriculture, water system → GIẢI QUYẾT phần lớn
+
+  TONIC satiation (baseline cần duy trì liên tục):
+    → Domain stability: safety, shelter, predictability
+    → Reality + Abstract-Dynamic → mixed feedback
+    → Technology fill: partial (housing yes, social stability harder)
+
+  GENERATIVE satiation (mapping → more mapping → never fully satiates):
+    → Domain knowledge: mastery, discovery, understanding
+    → ACROSS all domain types → mỗi map MỚI open MORE combinations (§3 ⑧)
+    → Technology fill: accelerates (AI × domain mapping — DM-4)
+    → = Domain-Mapping-Drive mechanism (Domain-Mapping-Drive.md v2.0)
+
+  → Cyclic + Tonic: phần lớn Reality Domain, technology CAN fill
+  → Generative: spans ALL domains, NEVER fully fill → engine vĩnh cửu
+
+  🟡 3 Satiation types × domain = framework application
+```
+
+### §6.4 — Simulation-Engine × Domain
+
+```
+⭐ PFC SIMULATE DOMAIN QUA 1 ENGINE (Simulation-Engine.md v1.0):
+
+  Simulation-Engine = MACHINERY cho domain access qua PFC:
+    → PFC simulate "nếu tôi làm X → domain trả lời Y" → body evaluate
+    → = Human's primary domain EXPLORATION tool (vượt direct body check)
+    → Cho phép map domain TRƯỚC KHI body chạm (preview, planning)
+
+  Domain simulation quality = f(compiled chunk quality × PFC Budget):
+    → Expert: compiled chunks → simulate CHÍNH XÁC hơn
+    → Beginner: ít chunks → simulate THÔ hơn
+    → PFC Budget finite → phải CHỌN domain nào simulate
+      (Gap-Distribution-Profile.md v1.1)
+
+  → §3 ⑤ (combination) × Simulation-Engine:
+    PFC simulate "NẾU nối A + B → C?" → body preview → thử → domain confirm
+    → Tại sao con người map domain NHANH hơn mọi loài (PFC size)
+
+  🟡 Simulation-Engine × domain = framework formalization
+```
+
+### §6.5 — Entity-Access × Domain
+
+```
+⭐ MỖI ENTITY = 1 "CỬA SỔ" VÀO DOMAIN (Entity-Access.md v1.2):
+
+  Domain access = per-entity phenomenon:
+    → Mỗi entity = 1 agent qua đó individual tiếp cận domain KHÁC NHAU
+    → Entity-Access gradient: Mức 0 (stranger) → Mức 5 (excess)
+    → Mức cao (self, close) → deep domain access (know body-state)
+    → Mức thấp (stranger) → shallow (guess via compiled patterns)
+
+  → §3 ④ (knowledge convergence):
+    Nhiều entities access CÙNG domain region → report consistent patterns
+    → Cross-validation → domain REAL
+
+  → Entity-Access KHÁC per domain type:
+    Reality Domain → entity-access ít relevant (gravity applies to everyone)
+    Abstract-Dynamic → entity-access CỰC relevant
+    (mỗi entity = 1 "cửa sổ" vào social landscape, market, culture)
+
+  🟡 Entity-Access × domain = framework application
 ```
 
 ---
 
-## 6. Câu Hỏi Mở
+## §7 — HONEST ASSESSMENT
 
 ```
-  DM-1: Domain có THAY ĐỔI không? Hay chỉ human map thêm?
-        → Quantum: observer affect? Universe expand? Laws change?
-  DM-2: Knowledge convergence patterns — finite hay infinite?
-        → Câu hỏi này EPISTEMOLOGICAL (về cái observable), không ontological
-        → Có bao nhiêu pattern mà nhiều systems có thể converge về?
-        → Có giới hạn bao nhiêu shared constraints khả thi?
-  DM-3: Combination potential = n(n-1)/2 — chính xác hay simplified?
-        → Có combinations KHÔNG khả thi (domain constraint block)?
-  DM-4: AI × domain: AI map domain NHANH HƠN human → implications?
-        → AI tìm combination human KHÔNG THỂ thấy (quá xa cho PFC)?
-  DM-5: Digital domain: có phải "domain mới" hay "extension"?
-        → Internet, virtual worlds = domain thật hay human construct?
+ESTABLISHED (🟢):
+  🟢 Physical reality exists independently of observation
+     (physics consensus — dù quantum interpretation debated)
+  🟢 Convergent evolution: same constraints → same solutions
+     across unrelated species (Conway Morris 2003)
+  🟢 Combinatorial innovation: recombination of existing ideas
+     (Arthur 2009 "The Nature of Technology")
+  🟢 Accelerating returns: innovation rate increases over time
+     (Kurzweil 2005 — simplified model, data-consistent)
+  🟢 Resource scarcity drives innovation (economic history consensus)
+  🟢 Body coherence ≠ truth (Kahneman 2011 — cognitive bias research)
+  🟢 Incremental learning: gradient descent, evolution, scientific method
+
+
+FRAMEWORK SYNTHESIS (🟡):
+  🟡 "Nhìn domain qua phản chiếu": consistent Kant (phenomena, not noumena)
+  🟡 3 Domain Types (Reality/Abstract/Abstract-Dynamic):
+     Reality vs Abstract = philosophy of science.
+     Abstract-Dynamic = original framework classification.
+  🟡 3 nguồn constraint × shelf-life: framework precision.
+     Consistent Logic-Feeling v2.1 §1.3b + Collective-Arc-Dynamics v1.2.
+  🟡 Dual Check principle: framework application.
+     Body = quality controller. Domain = final arbiter.
+  🟡 Gap system × domain ("chưa biết = không có gap"): framework principle.
+  🟡 Compiled/Fresh × domain: framework application of learning theory.
+  🟡 3 Satiation types × domain: framework classification.
+  🟡 Simulation-Engine × domain: framework formalization.
+  🟡 Entity-Access × domain: framework application.
+  🟡 "Individual không phân biệt 3 nguồn": body architecture observation.
+  🟡 Knowledge convergence (refined): lean epistemological (Kant-consistent).
+
+
+HYPOTHESIS (🔴):
+  🔴 "Domain không thay đổi, chỉ human map thêm" — strong claim.
+     Quantum mechanics gợi ý observer CÓ THỂ ảnh hưởng domain (DM-1).
+  🔴 "8 đặc điểm = đầy đủ" — chắc chắn CHƯA đầy đủ.
+     Domain vô tận → luôn có đặc điểm chưa phát hiện (DM-7).
+  🔴 "Abstract Domain = discovered, not created" — Platonism debate (DM-6).
+  🔴 "Scarcity = engine" — chỉ đúng khi agent CÓ KHẢ NĂNG expand
+     (PFC, exposure, freedom — Conflict-Dynamics.md v2.0 §7).
 ```
 
 ---
 
-## 7. Kết Nối
+## §8 — CÂU HỎI MỞ
 
 ```
-→ ⭐ Collective-Arc-Dynamics.md: 3 nguồn constraint, shift speed, shelf-life
-→   File NÀY §2.1 = precision note. Collective-Arc = DEEP analysis dynamics.
-→ ⭐ Collective-Purpose.md: META-frame — humanity collective ↔ domain loop
-→   Vertical loop: domain → body → schema → knowledge → domain (refined)
-→   File NÀY = WHAT (substrate), Collective-Purpose = WHY (cosmic loop framing)
-→ Core-v7.5-Draft.md §7: Domain overview (8 sub-points, ① → ⑧)
-→ Imagine-Final.md §1: Imagine-Final = bridge body × domain
-→ Conflict-Dynamics.md §1+§7: scarcity × domain + engine
-→ Knowledge-Flow.md: cách knowledge chảy giữa mapped domains
-→ Innovation-Geography.md: nơi domains cross-pollinate (trade hubs)
-→ Global-Melody.md §5: domain melody → split → domain mới
-→ Personal-Melody.md §5: melody hay = body smooth + domain accurate
-→ Chunk.md v2.3: vô thức không check domain → PFC check
-→ Valence-Propagation.md v3.0: body evaluation, structural/current valence
-→ Simulation-Engine.md v1.0: PFC simulate domain outcomes
-→ Entity-Access.md v1.2: domain access per-entity gradient
-→ Gap-Distribution-Profile.md v1.1: PFC budget limits domain mapping
+DM-1: Domain có THAY ĐỔI không? Hay chỉ human map thêm?
+      → Quantum: observer affect? Universe expand? Laws change?
+
+DM-2: Knowledge convergence — finite hay infinite patterns?
+      → Epistemological: bao nhiêu shared constraints khả thi?
+
+DM-3: Combination potential n(n-1)/2 — chính xác hay simplified?
+      → Có combinations domain constraint block?
+
+DM-4: AI × domain: AI map domain NHANH HƠN human → implications?
+      → AI tìm combination human KHÔNG THỂ thấy (quá xa cho PFC)?
+      → AI × Generative satiation: accelerate hay replace human mapping?
+
+DM-5: Digital domain: "domain mới" hay "extension"?
+      → Internet, virtual worlds = domain thật hay human construct?
+
+DM-6: Abstract Domain = "discovered" (Platonism) hay "created" (Formalism)?
+      → Framework lean "discovered" nhưng chưa commit mạnh.
+      → Impact: nếu "created" → Abstract ≈ Abstract-Dynamic?
+
+DM-7: 8 đặc điểm hiện tại = đầy đủ?
+      → Chắc chắn chưa. Đặc điểm nào TIẾP THEO cần formalize?
 ```
 
 ---
 
-## 8. Domain × New Concepts (28-session Drill Propagation)
+## §9 — KẾT NỐI
 
 ```
-SIMULATION ENGINE × DOMAIN (Simulation-Engine.md v1.0):
-  → §4 (Imagine-Final × Domain) = Simulation Engine running domain scenarios:
-    PFC simulate "nếu tôi làm X → domain trả lời Y" → body evaluate
-    Simulation Engine = MACHINERY cho domain bridge
-  → Domain ĐÚNG khi: Simulation Engine draft → domain feedback MATCH
-  → Domain SAI khi: Simulation Engine draft → domain feedback MISMATCH
-  → = Simulation Engine = human's primary domain access tool (qua PFC)
+DOMAIN/ FOLDER:
+  → Domain-Mapping-Drive.md v2.0 — WHY humans drive to map domain
+  → Conflict-Dynamics.md v2.0 — WHEN domain causes conflict (OVERLAP x SCARCITY x COMMITMENT)
+  → Knowledge-Flow.md v1.0 — HOW knowledge flows between mapped regions
+  → Discovery-vs-Expansion.md v1.0 — HOW domain knowledge spreads (Sense-Verify-Scale)
+  → Drill-Emergent-Pattern.md v2.0 — WHERE patterns emerge in domain
 
-ENTITY-ACCESS × DOMAIN (Entity-Access.md v1.2):
-  → Domain access = per-entity phenomenon:
-    Mỗi entity = 1 "cửa sổ" nhìn vào domain (§1: body chạm domain qua body)
-    Entity-Access gradient = depth of domain access per-entity
-    Mức 5 entity (self) → deepest domain access (know own body-state)
-    Mức 0 entity (stranger) → shallowest (guess via compiled patterns)
-  → §2 ④ (knowledge convergence) = many entities access SAME domain region
-    → convergence = ENTITIES report consistent patterns = domain real
+CORE MECHANISM:
+  → Body-Feedback-Mechanism.md v2.0 — body check = domain feedback mechanism
+  → Simulation-Engine.md v1.0 — domain simulation via 1 engine, 3 components
+  → PFC-Operations.md v1.0 — Compiled/Fresh spectrum, PFC Budget, Hold/Suppress
+  → Entity-Access.md v1.2 — per-entity domain access gradient Mức 0-5
 
-PFC BUDGET × DOMAIN (Gap-Distribution-Profile.md v1.1):
-  → Domain mapping LIMITED BY PFC budget:
-    Mỗi ngày = finite metabolic resource cho PFC draft
-    Map domain rộng = tốn PFC budget → phải CHỌN domain nào map
-    → = TẠI SAO chuyên môn hóa exists (map DEEP 1 domain > shallow many)
-  → §6 (Arc Wave) trong Knowledge-Flow.md = PFC budget rhythm
-    Peak = high PFC spend → trough = PFC recover → peak tiếp
+BODY-BASE:
+  → Gap-Direction.md v2.0 — "chưa biết = không có gap", gap direction
+  → Gap-Body-Need.md v1.0 — 3 Satiation types (Cyclic/Tonic/Generative) × domain
+  → Gap-Distribution-Profile.md v1.1 — PFC Budget limits domain mapping
+  → Valence-Propagation.md v3.0 — body evaluation, structural/current valence
 
-🟡 Simulation Engine × domain = framework formalization
-🟡 Entity-Access × domain = framework application (per-entity access depth)
-🟡 PFC Budget × domain = framework inference (metabolic constraint on mapping)
+COLLECTIVE:
+  → Collective-Arc-Dynamics.md v1.2 — shelf-life × 3 nguồn constraint (DEEP)
+  → Collective-Purpose.md v1.2 — cosmic loop, vertical knowledge mapping
+  → Collective-Body.md v2.1 — Model 3 cấp, trust bridge, coupling proxy
+
+APPLICATION:
+  → Ask-AI.md v3.1 — Dual Check protocol (body + domain reality)
+  → Imagine-Final.md v3.0 — bridge body × domain (constructive simulation)
+  → Self-Pattern-Modeling.md v3.1 — per-agent domain access quality
+
+RESEARCH:
+  → Conway Morris 2003 — convergent evolution
+  → Arthur 2009 — The Nature of Technology (combinatorial innovation)
+  → Kurzweil 2005 — accelerating returns
+  → Kahneman 2011 — cognitive biases (body coherence ≠ truth)
+  → Kant 1781 — Critique of Pure Reason (phenomena, not noumena)
+  → Schultz 1997 — prediction-delta (VTA dopamine)
+  → Seligman 2013 — prospection theory
 ```
 
 ---
 
 > *Domain — "Chúng ta không thể nhìn gió. Nhưng thấy lá bay → biết có gió.
-> Domain cũng vậy — vô tận, cố định, không mô tả được trực tiếp.
-> Chỉ thấy QUA phản chiếu: feedback thật (domain không nói dối),
-> knowledge convergence (nhiều systems map cùng pattern qua shared constraints),
-> finite tại mỗi điểm (gốc xung đột + engine mở rộng),
-> combination (2 vùng nối → vùng mới emerge — luôn ở đó, mới tìm ra).
-> Expansion tăng tốc: nhiều vùng map → nhiều nối tiềm năng → nhanh hơn.
-> 'Có điểm hội tụ' = thực ra knowledge của humanity đang hội tụ — domain đứng im.
+> Domain cũng vậy — vô tận, không mô tả được trực tiếp.
+> 3 loại: vật lý (vĩnh viễn), trừu tượng (vĩnh viễn), xã hội (thay đổi).
+> Body check = quality controller, domain = final arbiter.
+> 'Chưa biết = không có gap' — phần chưa map = invisible.
 > 8 tỉ melody × domain vô tận = map mãi không hết. Và đó là điều ĐẸP."*

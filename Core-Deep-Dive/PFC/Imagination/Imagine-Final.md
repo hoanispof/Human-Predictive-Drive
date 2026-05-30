@@ -1,10 +1,11 @@
 ---
-title: Imagine-Final — Constructive Future Simulation trên Simulation Engine
-version: 3.0
+title: Imagine-Final — Constructive Future Simulation trên Simulation-Engine
+version: 3.1
 created: 2026-03-27
 updated: 2026-05-22
+refined: 2026-05-29 (v3.1 — L3 RETIRE: "L3 Novelty/Status"→observation parameters. Body-Base v3.3 aligned)
 previous: v2.0 → backup/Imagine-Final-v2.0.md
-status: MECHANISM v3.0
+status: MECHANISM v3.1
 scope: |
   APPLICATION file: Imagine-Final = Constructive Future Simulation (Self, Future, Simulate+Construct).
   v3.0 KEY REFRAME: Imagine-Final ≠ mọi body prediction.
@@ -16,12 +17,12 @@ scope: |
   PFC Operations integration. Entity-Access integration. Engine use quality.
 purpose: |
   Simulation-Engine.md = SHARED ENGINE underneath tất cả applications.
-  Self-Pattern-Modeling.md = APPLICATION 1: simulate OTHER (present).
-  Feeling.md = APPLICATION 2: observe SELF (present).
-  File NÀY = APPLICATION 3: simulate SELF (future).
+  Self-Pattern-Modeling.md = APPLICATION-1: simulate OTHER (present).
+  File NÀY = APPLICATION-2: simulate SELF (future).
+  Self-Observation = APPLICATION-3: observe SELF (present) — chưa có file riêng, partially described in Feeling.md.
   v3.0 KEY CHANGE: phân biệt hardware prediction (Body-Feedback-Mechanism §1.2 Source ①) vs constructive Imagine-Final.
   = Giải thích TẠI SAO "khát→uống" KHÁC CƠ CHẾ với "NVIDIA phải thành công".
-  = Reconcile với Body-Feedback-Mechanism §1.2 (2 sources), Simulation Engine (constructive substrate).
+  = Reconcile với Body-Feedback-Mechanism §1.2 (2 sources), Simulation-Engine (constructive substrate).
 position: |
   Core-Deep-Dive/PFC/Imagination/ — cùng thư mục với companion files.
   ENGINE at Simulation-Engine.md (PFC/). PFC OPERATIONS at PFC-Operations.md (PFC/).
@@ -48,14 +49,14 @@ language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Imagine-Final — Constructive Future Simulation trên Simulation Engine
+# Imagine-Final — Constructive Future Simulation trên Simulation-Engine
 
 > **"Khát → uống nước" và "NVIDIA phải thành công" — KHÁC CƠ CHẾ.**
 > **Khát = hardware drive, subcortical, không cần simulation.**
 > **NVIDIA = constructive future simulation, PFC construct + hold + reload.**
 >
 > **Imagine-Final = khi brain CẦN BUILD scenario tương lai từ chunks.**
-> **= APPLICATION (Self, Future, Simulate+Construct) trên Simulation Engine.**
+> **= APPLICATION (Self, Future, Simulate+Construct) trên Simulation-Engine.**
 > **Ranh giới: hardware prediction (hardwired) ≠ Imagine-Final (constructed).**
 >
 > **3 tầng: Body-Need → Imagine-Final (khi cần construct) → Plan.**
@@ -68,7 +69,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 - §0 — THESIS + POSITION
 - §1 — RANH GIỚI: HARDWARE PREDICTION vs CONSTRUCTIVE IMAGINE-FINAL
-- §2 — SIMULATION ENGINE APPLICATION
+- §2 — SIMULATION-ENGINE APPLICATION
 - §3 — 2 TẦNG: VÔ THỨC BASE + PFC EXTENSION
 - §4 — PFC OPERATIONS × IMAGINE-FINAL
 - §5 — LIFECYCLE: 5 PHASES
@@ -95,12 +96,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      (vì "IF" dễ nhầm với "if" trong tiếng Anh hoặc programming)
 
   ① Imagine-Final = CONSTRUCTIVE FUTURE SIMULATION
-    = APPLICATION (Self, Future, Simulate+Construct) trên Simulation Engine
+    = APPLICATION (Self, Future, Simulate+Construct) trên Simulation-Engine
     = Brain BUILD scenario tương lai từ compiled chunks
     
   ② v3.0 KEY REFRAME: Imagine-Final ≠ mọi body prediction
     → Hardware prediction (khát→uống): subcortical, hardwired → KHÔNG cần simulation
-    → Imagine-Final: constructive, chunk-based → CẦN Simulation Engine
+    → Imagine-Final: constructive, chunk-based → CẦN Simulation-Engine
     → Body-Feedback-Mechanism §1.2 Source ① (hardware) KHÔNG PHẢI Imagine-Final
     → Chi tiết: §1
 
@@ -141,14 +142,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ★ Simulation-Engine.md = ENGINE (shared substrate)
     │
-    ├── Self-Pattern-Modeling.md = APPLICATION 1: (Other, Present, Simulate)
+    ├── Self-Pattern-Modeling.md = APPLICATION-1: (Other, Present, Simulate)
     │   = Predict other's state/behavior
     │
-    ├── Feeling.md = APPLICATION 2: (Self, Present, Observe)
-    │   = Observe current body-state
-    │
-    ├── ★ File NÀY = APPLICATION 3: (Self, Future, Simulate+Construct)
+    ├── ★ File NÀY = APPLICATION-2: (Self, Future, Simulate+Construct)
     │   = Preview future state, create gaps, planning tool
+    │
+    ├── Self-Observation = APPLICATION-3: (Self, Present, Observe)
+    │   = chưa có file riêng; cf. Feeling.md v3.0
     │
     ├── PFC-Operations.md = HOW PFC operates trên engine
     │   = Hold/Suppress on Compiled/Fresh spectrum
@@ -182,12 +183,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                                                 │
   │   = Nhu cầu LUÔN tồn tại, drive MỌI hành vi                   │
   │   = Hardware (L0/L1): đói, khát, nhiệt, oxy, ngủ              │
-  │   = Chunk-based (L3): kết nối, chứng minh giá trị              │
+  │   = Evaluative: kết nối, chứng minh giá trị (obs params)       │
   │   = KHÔNG BAO GIỜ là Imagine-Final — là NGUỒN sinh ra          │
   ├─────────────────────────────────────────────────────────────────┤
   │ TẦNG ②: IMAGINE-FINAL (constructive preview — "VỀ ĐÂU")       │
   │                                                                 │
-  │   = Body's PRE-FELT preview of END STATE via Simulation Engine  │
+  │   = Body's PRE-FELT preview of END STATE via Simulation-Engine  │
   │   = CHỈ khi constructive simulation CẦN THIẾT                  │
   │   = Hardware drives CÓ THỂ BYPASS tầng này hoàn toàn           │
   │                                                                 │
@@ -218,8 +219,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├──────────────────┼──────────────────────────┼──────────────────────┤
   │ Brief-construct  │ "Phở hay cơm?" (compare) │ L1 nutrition → chọn │
   │ Short            │ "Gặp bạn → giải tỏa"    │ L1 connection        │
-  │ Medium           │ "Xong project → thành tựu"│ L3 Novelty + Status │
-  │ Long             │ "NVIDIA thành công"       │ L3 Status + Novelty  │
+  │ Medium           │ "Xong project → thành tựu"│ Novelty + Status    │
+  │ Long             │ "NVIDIA thành công"       │ Status + Novelty     │
   └──────────────────┴──────────────────────────┴──────────────────────┘
 
   TẠI SAO PHÂN BIỆT NÀY QUAN TRỌNG:
@@ -237,14 +238,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §1 — RANH GIỚI: HARDWARE PREDICTION vs CONSTRUCTIVE IMAGINE-FINAL
 
-### §1.1 — Hardware prediction: subcortical, không cần Simulation Engine
+### §1.1 — Hardware prediction: subcortical, không cần Simulation-Engine
 
 ```
 ⭐⭐ NÃO CÓ HỆ THỐNG PREDICTION SUBCORTICAL, KHÔNG PHẢI IMAGINE-FINAL:
 
   CƠ CHẾ:
     Receptors → Hypothalamus / Brainstem → Automatic response
-    → KHÔNG cần PFC, KHÔNG cần chunks, KHÔNG cần Simulation Engine
+    → KHÔNG cần PFC, KHÔNG cần chunks, KHÔNG cần Simulation-Engine
     → = Body-Feedback-Mechanism §1.2 Source ①: Hardware/Sensory-Driven
 
   VÍ DỤ:
@@ -267,7 +268,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Berridge & Robinson 2016: subcortical wanting (VTA → NAc)
       hoạt động KHÔNG cần neocortex
 
-  = KHÔNG chạy trên Simulation Engine
+  = KHÔNG chạy trên Simulation-Engine
   = KHÔNG phải Imagine-Final
   = Cơ chế RIÊNG, hardwired, evolutionary
 
@@ -277,13 +278,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Gizowski & Bourque 2017 (Nature Reviews Nephrology): anticipatory thirst
 ```
 
-### §1.2 — Constructive Imagine-Final: Simulation Engine territory
+### §1.2 — Constructive Imagine-Final: Simulation-Engine territory
 
 ```
 ⭐⭐ IMAGINE-FINAL = CONSTRUCTIVE SIMULATION, CẦN CHUNKS + ENGINE:
 
   CƠ CHẾ:
-    Simulation Engine (DMN + mPFC + anterior insula + hippocampus)
+    Simulation-Engine (DMN + mPFC + anterior insula + hippocampus)
     → Hippocampus RETRIEVE chunks + DMN RECOMBINE → novel scenario
     → Anterior insula READ body-feedback từ simulated future state
     → mPFC SET target (self/other, close/distant)
@@ -303,7 +304,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Không phù hợp → "vô nghĩa" → irritated
 
   = Body-Feedback-Mechanism §1.2 Source ②: Chunk Dynamics/Pattern-Driven
-  = CHẠY trên Simulation Engine (Simulation-Engine.md)
+  = CHẠY trên Simulation-Engine (Simulation-Engine.md)
   = Imagine-Final territory
 
   🟢 Schacter & Addis 2007: constructive episodic simulation
@@ -345,7 +346,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   TẠI SAO PHÂN BIỆT NÀY QUAN TRỌNG:
     → Giải thích WHY "khát→uống" KHÔNG FEEL là "mục tiêu"
-      (vì KHÔNG đi qua Simulation Engine → PFC không engage)
+      (vì KHÔNG đi qua Simulation-Engine → PFC không engage)
     → Giải thích WHY "NVIDIA" FEEL là "mục tiêu" rõ ràng
       (vì PFC phải construct + hold + suppress + reload liên tục)
     → Giải thích WHY "gặp bạn" có thể feel "mục tiêu" hoặc không
@@ -362,7 +363,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ CRITICAL DISTINCTION — CÙNG "TỰ ĐỘNG" NHƯNG KHÁC NGUỒN GỐC:
 
   COMPILED IMAGINE-FINAL:
-    → Nguồn gốc: TỪNG được CONSTRUCT qua Simulation Engine
+    → Nguồn gốc: TỪNG được CONSTRUCT qua Simulation-Engine
     → Cách compile: PFC hold → Hebbian learning → automatic
     → Substrate: compiled CHUNKS (experience-based)
     → CÓ THỂ decompile: new evidence → shift → reconstruct
@@ -430,14 +431,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §2 — SIMULATION ENGINE APPLICATION
+## §2 — SIMULATION-ENGINE APPLICATION
 
 ### §2.1 — Coordinates in 3D space
 
 ```
 ⭐⭐ IMAGINE-FINAL = POINT IN APPLICATION SPACE:
 
-  Simulation Engine 3 trục (Simulation-Engine.md §2):
+  Simulation-Engine 3 trục (Simulation-Engine.md §2):
     Trục A (Target):    SELF (ventral mPFC)
     Trục B (Time):      FUTURE (construct novel scenario)
     Trục C (Operation): SIMULATE + CONSTRUCT (PFC active)
@@ -470,7 +471,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §2.2 — 3 Components × Imagine-Final
 
 ```
-⭐⭐ SIMULATION ENGINE 3 COMPONENTS (Simulation-Engine.md §1):
+⭐⭐ SIMULATION-ENGINE 3 COMPONENTS (Simulation-Engine.md §1):
 
   COMPONENT 1 — INTEROCEPTION (anterior insula) = "MÀN HÌNH":
     → Imagine-Final: đọc body-feedback từ simulated future state
@@ -578,11 +579,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ① HARDWARE PREDICTION (KHÔNG phải Imagine-Final):
     → Homeostatic: đói, khát, nhiệt → subcortical → automatic
-    → KHÔNG dùng Simulation Engine → §1.1
+    → KHÔNG dùng Simulation-Engine → §1.1
     → Luôn chạy, evolutionary hardwired, pre-chunk
 
   ② COMPILED IMAGINE-FINAL (Imagine-Final VÔ THỨC):
-    → TỪNG được CONSTRUCT qua Simulation Engine → compile → giờ tự fire
+    → TỪNG được CONSTRUCT qua Simulation-Engine → compile → giờ tự fire
     → CẦN chunks (compiled từ experience)
 
     Short (phút→giờ):
@@ -763,7 +764,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Threat-compiled Imagine-Final: bị ép / trauma → RIGID, AVOIDANCE-tagged
       → "Tôi phải giỏi vì sợ bị bỏ rơi"
     → CÙNG "compiled Imagine-Final" nhưng KHÁC tag → KHÁC body-feedback quality
-    → = WHY "thành công mà trống rỗng" (schema-compiled, body không genuine)
+    → = WHY "thành công mà emptiness" (schema-compiled, body không genuine)
 
   🟡 Compiled/Fresh applied to Imagine-Final = framework synthesis
   🟢 Compiled Quality: PFC-Operations.md §5 (7 factors)
@@ -794,7 +795,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⚠️ PREVIEW OPIOID ≠ ACTUAL OPIOID:
     → Preview = body "thử feel" → YẾU, có thể sai
       = Wanting mechanism ① (Liking-Wanting.md §2.1)
-    → Actual = kết quả THẬT → cần H10 5 preconditions
+    → Actual = kết quả THẬT → cần Body-Feedback-Precondition 5 preconditions
       (Dopamine-Is-Not-Reward.md §4)
     → Preview fidelity phụ thuộc chunk quality + Trust vào Imagine-Final
 
@@ -1241,7 +1242,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   LEVEL 2-3 + SAI HƯỚNG — "Chạy nhanh sai đường":
     → Goal/Ambition RÕ + MẠNH → nhưng hướng SAI (xã hội chọn)
-    → Đạt được → body KHÔNG harmony → "thành công mà trống rỗng"
+    → Đạt được → body KHÔNG harmony → "thành công mà emptiness"
     → = Schema-compiled Imagine-Final: PFC-driven, body không genuine
     → Fix: real-check body: "body TÔI có reward? hay chỉ PFC?"
 
@@ -1365,7 +1366,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Anterior insula shared readout:             Bird & Silani 2010
   Alexithymia = broken readout:               Bird & Cook 2013
   Interoceptive accuracy → empathic accuracy: Fukushima 2011
-  DMN as simulation engine:                   Buckner et al. 2008
+  DMN as Simulation-Engine:                   Buckner et al. 2008
   Self-projection:                            Buckner & Carroll 2007
   Self-reflection vs self-rumination:         Trapnell & Campbell 1999
   Reflection → empathy:                       Joireman et al. 2002
@@ -1393,7 +1394,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   "Constructive Imagine-Final" framing: only chunk-based constructive simulation
   Boundary: hardware prediction vs Imagine-Final (consistent with Body-Feedback-Mechanism §1.2)
   Compiled Imagine-Final vs Hardware reflex distinction (same "automatic", different origin)
-  "Application on Simulation Engine" model: coordinates trong 3D space
+  "Application on Simulation-Engine" model: coordinates trong 3D space
   3-Layer Hierarchy: Body-Need → Imagine-Final → Plan (with hardware bypass)
   "Reference pattern body pre-feel": consistent with Somatic Marker
   "Most PFC-accessible application": logical from PFC involvement spectrum
@@ -1435,7 +1436,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Entity-Access.md v1.0 | §2 Gradient, §4 Gap Source, §5 Per-entity | Per-entity Imagine-Final dynamics |
 | Entity-Compiled.md v1.0 | §3 Formation, §7 Grief, §8 Love↔Hate | Entity compilation × Imagine-Final |
 | Self-Pattern-Modeling.md v3.1 | §2 Compiled/Fresh, §10 Self-Pattern-Modeling×Imagine-Final overlap | SIBLING APPLICATION on engine |
-| Feeling.md v3.0 | PFC observation interface | SIBLING APPLICATION on engine |
+| Feeling.md v3.0 | PFC observation interface | Broader than APPLICATION-3 (Self-Observation chưa có file riêng) |
 | Body-Feedback-Mechanism.md v2.0 | §1.2 Two Sources, §3 chunk dynamics | Foundation: ★ Source ① vs ② = boundary definition |
 | Anchor-Schema.md v1.0 | §2 Trust, §3 4-nguồn fill | Imagine-Final → Anchor-Schema transition |
 | Imagine-Final-Evaluation.md v1.1 | 2 trục × 4 góc, Quality dimension | COMPANION: quality check |
@@ -1444,7 +1445,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Meaning.md v2.0 | §1 life-level Anchor-Schema | Meaning = compiled Imagine-Final landscape |
 | Connection.md v4.0 | §3 3-primitives, §7 Imagine-Final per layer | Social context |
 | Liking-Wanting.md v1.0 | §2.1 wanting mechanism ① | Preview opioid = wanting mechanism |
-| Dopamine-Is-Not-Reward.md v1.0 | §4 7-step, H10 | Preview vs actual reward |
+| Dopamine-Is-Not-Reward.md v1.0 | §4 7-step, Body-Feedback-Precondition | Preview vs actual reward |
 | By-Product-Gap-Resonance.md v1.0 | 4 conditions, resonance decline | Resonance × Imagine-Final alignment |
 | Love-Romantic.md v2.2 | §1 body evaluate first, §7 Evaluative/Direct-State | Relationship Imagine-Final dynamics |
 | Education-Mechanism.md v2.0 | Exposure, per-age guide | Imagine-Final injection vs facilitation |
@@ -1505,9 +1506,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-> *Imagine-Final — Constructive Future Simulation trên Simulation Engine.*
+> *Imagine-Final — Constructive Future Simulation trên Simulation-Engine.*
 > *Body PRE-FEEL trạng thái tương lai = Reference Pattern.*
-> *≠ mọi body prediction. CHỈ constructive simulation (chunk-based, Simulation Engine).*
+> *≠ mọi body prediction. CHỈ constructive simulation (chunk-based, Simulation-Engine).*
 > *Hardware drives (khát, đói) bypass hoàn toàn — KHÁC cơ chế.*
 > *3 tầng: Body-Need (tại sao) → Imagine-Final (về đâu, khi cần construct) → Plan (bằng cách nào).*
 > *MOST PFC-ACCESSIBLE application: SET scenario + READ output + ITERATE.*

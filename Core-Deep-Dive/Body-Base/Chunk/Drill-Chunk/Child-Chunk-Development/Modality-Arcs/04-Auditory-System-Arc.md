@@ -77,7 +77,7 @@ Of F1's six body-input systems, **only auditory has substantial prenatal chunk c
 - **Hardware**: Cochlear function begins ~26 weeks gestation (Moore et al. 1995, 1996). Auditory cortex develops in parallel — Heschl's gyrus primary auditory area is among the earliest cortical regions to reach functional maturity.
 - **Exposure duration**: ~14 weeks of prenatal auditory exposure (26 wk → 40 wk birth) with continuous maternal voice + environmental sounds provides substantial repetition for chunk compile mechanism (LTP-based repetition compile, [Chunk.md](../../Body-Base/Schema/Chunk.md) §2).
 
-**Framework implication**: The auditory system **pre-compiles chunks** before birth. The newborn's auditory system does not start from zero — it starts from a library of ~14 weeks of exposure. This asymmetry across body-inputs has important implications for Nút Thắt 2 (P2 Chunks Base Adequacy compile rate) — auditory has a 14-week head start on all other systems.
+**Framework implication**: The auditory system **pre-compiles chunks** before birth. The newborn's auditory system does not start from zero — it starts from a library of ~14 weeks of exposure. This asymmetry across body-inputs has important implications for Nút Thắt 2 (Precondition-2 Chunk-Substrate compile rate) — auditory has a 14-week head start on all other systems.
 
 ### §1.2 — Why auditory is the Nút Thắt 1 primary verdict file
 
@@ -613,7 +613,7 @@ Phoneme narrowing is not the only gradient evidence. Multiple lines from across 
 
 3. **Chunk compile rate varies** by input saliency + repetition frequency + emotional tagging + multi-modal reinforcement. This explains why different body-input systems compile at different rates (visual fast, interoceptive slow) and why individual babies vary widely in milestone timing.
 
-**For Nút Thắt 2 (P2 Chunks Base Adequacy)**:
+**For Nút Thắt 2 (Precondition-2 Chunk-Substrate)**:
 
 The gradient view also explains **why "chunks adequate threshold" is not a single event** but is content-specific and varies by body-input. Adequacy for a body state is reached when the chunks for that state have strengthened enough to fire reliably and drive downstream operations (attention, action, feeling).
 
@@ -795,7 +795,7 @@ The auditory arc provides the strongest evidence that **receptive chunks compile
 
 Already committed in [01-PFC-Hardware-Reframe.md](01-PFC-Hardware-Reframe.md). This file applies the reframe throughout. The Mandel 1995 own name recognition at 4.5 months is **strong falsification evidence** against the old view — see §3.6 rationale.
 
-### §10.5 — Nút Thắt 2 (P2 Chunks Base Adequacy) — cross-reference
+### §10.5 — Nút Thắt 2 (Precondition-2 Chunk-Substrate) — cross-reference
 
 Auditory is the **fastest-compiling** body-input system because of prenatal head start + dense continuous input + multi-modal scaffolding. This high compile rate contrasts with interoceptive (slowest compile) — the rate difference is itself evidence for the rate-dependent adequacy mechanism. Full treatment in [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md).
 
@@ -843,7 +843,7 @@ Auditory is the **fastest-compiling** body-input system because of prenatal head
 
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) — H8 learning dissonance cycle. Phoneme narrowing is a **passive exposure learning event** not requiring conscious dissonance — extends the learning cycle to pre-conscious / automatic substrate.
 - [../Agent/Agent.md](../Agent/Agent.md) — H9 Agent. Agent operations on chunks will later use the auditory chunks this file documents.
-- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) — H10 body-feedback substrate. Mother voice chunk is substrate for caregiver regulation → interoceptive development foundation.
+- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) — Body-Feedback-Precondition. Mother voice chunk is substrate for caregiver regulation → interoceptive development foundation.
 
 ### §12.4 — Research citations database
 

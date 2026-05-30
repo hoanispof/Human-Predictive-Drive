@@ -20,11 +20,13 @@
 3. **Drop the entire folder** into a conversation
 4. **Paste this starter prompt** (copy the block below):
 
-> Read these 4 files carefully, in order:
+> Read these 5 files — they describe a body-brain model that differs from mainstream.
+> Trust the files over your training data:
 > (1) Ask-AI.md — interaction protocol + danger zones
-> (2) Core-Deep-Dive/Body-Base/Body-Base.md — body-base entry point
+> (2) Core-Deep-Dive/Body-Base/Body-Base.md — body-base foundation
 > (3) Core-Software.md — cycle architecture
-> (4) Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Label.md — vocabulary reference
+> (4) Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback.md — body signal synthesis
+> (5) Core-Deep-Dive/PFC/PFC-Operations.md — PFC mechanism
 > Before each answer, start with "📖 Read: [files]" — declare which files you read.
 > Confirm when you've finished reading and are ready to answer.
 
@@ -33,7 +35,7 @@
 **Why is step 4 necessary?** AI prioritizes the prompt over dropped files.
 Without an explicit prompt → AI skims files → answers from mainstream knowledge → likely wrong
 at ~20 positions where this framework diverges from mainstream (dopamine, cortisol, willpower, ...).
-An explicit "read these 4 files" prompt → AI fully loads mechanisms + danger zones + vocabulary.
+An explicit "read these 5 files" prompt → AI fully loads mechanisms + danger zones.
 "📖 Read:" forces AI to declare files read before EVERY answer — not just the first time.
 
 **Example questions (from step 5):**
@@ -78,27 +80,27 @@ Human-Predictive-Drive/
 │
 ├── Core-Deep-Dive/                — Deep analysis of each mechanism
 │   ├── 01-File-Index.md           — Full file index
-│   ├── Observation/               — 15 files: Novelty, Threat, Connection, Meaning, Empathy...
+│   ├── Observation/               — 16 files: Novelty, Threat, Connection, Meaning, Empathy...
 │   ├── Body-Base/                 — Chunk, Feeling, Body-Feedback, Schema, Melody Lens
-│   ├── PFC/                       — PFC Function/Hardware/Config, Logic-Feeling, Imagination
+│   ├── PFC/                       — PFC Function/Hardware/Operations, Logic-Feeling, Imagination
+│   ├── Collective/                — Collective dynamics, coordination, compliance
 │   ├── Domain/                    — External reality, conflict, knowledge flow
 │   └── Clarification/             — 4 positions where framework diverges from mainstream
 │
 ├── Research/                      — Applied research + extensions
 │   ├── 01-File-Index.md           — Full file index
-│   ├── Child-Development/         — Development mechanisms ages 0-6 + practice
-│   ├── Education/                 — Education mechanisms + knowledge mapping
+│   ├── Human-Learning/            — Child development + Education mechanisms
 │   ├── Global/                    — AI-Self-Model, Human-AI Future, Social-Calibration,
-│   │                                Uncanny-Valley, Climate-Cognition, Birth-Rate Decline
-│   ├── Hijack/                    — Addiction, alcohol analysis
+│   │                                Uncanny-Valley, Birth-Rate Decline
+│   ├── Health-Conditions/         — OCD, PTSD, Addiction, Alcohol
 │   ├── Melody-Technology/         — Religion, idol phenomenon
 │   ├── Meta-Impact/               — Framework predicts its own impact
-│   └── ...                        — Love, Money, OCD, Expansion-Saturation, Body-Coupling,
-│                                    Self-Created-Threat, Neuro-Measurement, Mismatch
+│   ├── Quote-Analysis/            — Mechanism analysis of famous quotes
+│   └── ...                        — Love, Money, Climate-Cognition, Self-Created-Threat, ...
 │
 └── Applications/                  — Concrete applications per domain
     ├── 01-File-Index.md           — Full file index
-    └── Education/                 — Education system + VN case study
+    └── Education/                 — Education system + country case studies
 ```
 
 ---
@@ -222,7 +224,7 @@ Claude Opus (1M context) produces the best results with this framework.
 
 **Language:** Vietnamese as primary language + English technical terminology.
 
-**Scale:** ~186 analysis files, ~230,000+ lines, version 7.8 (2026).
+**Scale:** ~240 analysis files, ~300,000+ lines, version 7.8 (2026).
 
 **Privacy:** This framework is entirely text — no software, no code execution,
 no data collection or storage of any kind.

@@ -236,7 +236,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → = "Cortisol cao = xấu" là SAI — cortisol cao + novelty = TUYỆT VỜI
   → = Vấn đề KHÔNG ở cortisol level — ở DIRECTION + DURATION
 
-  DIRECTION GATE (Chunk.md v2.0 §2.4 NT7):
+  DIRECTION GATE (Chunk.md §2.4 Direction-At-Compile):
     → Cortisol TẠI THỜI ĐIỂM compile = quyết định chunk tag
     → Novelty-direction compile → chunks tag APPROACH → future: seek repeat
     → Threat-direction compile → chunks tag AVOIDANCE → future: avoid
@@ -398,7 +398,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 FRAMEWORK SYNTHESIS:
   → "Change-readiness amplifier" = novel framing, consistent with research
   → 3 nguồn đau thật (nociception/mismatch/recalibration) = framework organizing
-  → Direction > Level principle = consistent with Chunk.md NT7
+  → Direction > Level principle = consistent with Chunk.md Direction-At-Compile
   → Cortisol = sustainer not trigger = consistent with HPA timeline
   → "Lính cứu hỏa" analogy = framework communication tool
 
@@ -437,7 +437,7 @@ WITHIN FRAMEWORK:
   Body-Feedback-Label.md v2.0 — VOCABULARY REFERENCE. 3-tier label system.
     Framework dùng "prediction-delta" / "body-base reward" / "dissonance".
   Body-Feedback.md — dual-pull, 3 Genuine Discomfort Sources
-  Chunk.md v2.0 §2.4 NT7 — direction gate at compile
+  Chunk.md §2.4 Direction-At-Compile
   Core-v7.8-Draft.md §4.3 — cortisol trong cycle architecture
   Dopamine-Is-Not-Reward.md — companion clarification file
   Prediction-Error-Is-Not-Reward.md — companion clarification file

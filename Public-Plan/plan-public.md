@@ -129,7 +129,7 @@ KHÁC BIỆT VỚI SELF-HELP:
     → Cả 2 = SKILL có thể học, không phải trait cố định.
     → (Self-Created-Threat.md, Novelty.md)
 
-  ④ Tại sao burnout / trống rỗng / mất phương hướng?
+  ④ Tại sao burnout / emptiness / mất phương hướng?
     → Reward mis-calibration, L2 smoothing, Meaning = life-level Anchor-Schema bị mất.
     → Đều có mechanism cụ thể → có hướng xử lý cụ thể.
     → (Reward-Calibration.md, Meaning.md)

@@ -66,7 +66,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Speculative
 
   → Chunk = nhóm neurons đã wire together → fire thành 1 ĐƠN VỊ
   → KHÔNG phải binary (có/không) → mà GRADIENT (yếu → mạnh)
-  → 🟢 NT1 (F1 04 §6.4): Proto-chunks = weak chunks, NOT "pre-chunks"
+  → 🟢 Compile-Gradient (F1 04 §6.4): Proto-chunks = weak chunks, NOT "pre-chunks"
     → Behavioral "switch on" = thresholding artifact
     → Strengthen qua repetition, emotional peak, multi-modal, sleep
 
@@ -78,7 +78,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Speculative
     → Beginner: [lái]+[phanh]+[mirror]+[signal] = 4 chunks → PFC overloaded
     → 🟢 Chase & Simon 1973: expert chess 50,000+ chunk patterns
 
-  → = SUBSTRATE LAYER of cognitive architecture (H1 🟡🟢)
+  → = SUBSTRATE LAYER of cognitive architecture (Chunk-Substrate 🟡🟢)
   → Everything runs on chunks: feeling, thinking, planning, identity
 
   ENTITY-COMPILED = NEURAL REALITY (Entity-Compiled.md v1.0):
@@ -106,7 +106,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Speculative
   → 🟢 Distributed representations (Rumelhart & McClelland 1986)
 
   MULTI-MODAL BINDING = emergent, KHÔNG có single binder module:
-    🟡 NT3 (F1 07 §6): 4 concurrent mechanisms:
+    🟡 Emergent-Binding (F1 07 §6): 4 concurrent mechanisms:
       ① Temporal co-occurrence + Hebbian binding (🟢 Bliss & Lømo 1973)
       ② Multisensory neurons (🟢 Stein & Meredith 1993)
       ③ Default Mode Network scaffolding (🟡 Doria 2010)
@@ -197,7 +197,7 @@ CHI TIẾT TỪNG LEVEL:
 
   LABEL = HANDLE:
     → Verbal/symbolic tag ATTACHED to chunk (NOT part of chunk content)
-    → Label = retrieval path, NOT 5th modality (NT6 🟡)
+    → Label = retrieval path, NOT 5th modality (Label-As-Handle 🟡)
     → Label KHÔNG thay đổi content — thay đổi ACCESSIBILITY
     → 5 handle systems: gestural, action, image, verbal, internal-only
     → Chi tiết: §6, F1 08 §5
@@ -215,7 +215,7 @@ CHI TIẾT TỪNG LEVEL:
 ### §2.1 — 4 compile mechanisms
 
 ```
-🟡🟢 NT2 (F1 06a §6 + 06b §6.2):
+🟡🟢 Compile-Rate-Formula (F1 06a §6 + 06b §6.2):
 
   ① REPETITION — lặp lại nhiều lần:
      → LTP-based strengthening (🟢 Bliss & Lømo 1973)
@@ -241,7 +241,7 @@ CHI TIẾT TỪNG LEVEL:
 ### §2.2 — 5-parameter compile rate formula
 
 ```
-🟡🟢 NT2 EXTENDED (F1 06a §6 + 07 §6.4):
+🟡🟢 Compile-Rate-Formula EXTENDED (F1 06a §6 + 07 §6.4):
 
   compile_rate ≈ f(exposure × saliency × contingency
                    × peak_valence × multi_modal_richness)
@@ -278,7 +278,7 @@ CHI TIẾT TỪNG LEVEL:
 
   4 EDUCATION FAILURE MODES:
     ① Shallow compile (repetition without multi-modal)
-    ② Threat context (cortisol direction wrong → NT7)
+    ② Threat context (cortisol direction wrong → Direction-At-Compile)
     ③ No Imagine-Final (no body-need connection → no motivation)
     ④ Conflict (installed chunks contradict existing chunks)
 
@@ -298,7 +298,7 @@ CHI TIẾT TỪNG LEVEL:
     ④ Kinh sách: compiled + unfalsifiable → KHÔNG BAO GIỜ bị challenge
     ⑤ Lãnh đạo: L2 coupling + authority = deep trust
 
-  TRUST = VALENCE META-DIMENSION (Valence-Propagation v3.0 §2):
+  TRUST = VALENCE META-DIMENSION (Valence-Propagation v4.0 §2):
     → Trust KHÔNG phải hệ thống riêng biệt
     → Trust = 1 CHIỀU trong valence profile per-entity
     → Trust MODULATE CƯỜNG ĐỘ các channels KHÁC:
@@ -334,7 +334,7 @@ CHI TIẾT TỪNG LEVEL:
 ### §2.4 — Body-state at compile (direction matters)
 
 ```
-🟡🟢 NT7 (F1 06a §7 + 06b §6.3):
+🟡🟢 Direction-At-Compile (F1 06a §7 + 06b §6.3):
 
   ⭐ KHÔNG PHẢI "stress tốt/xấu" — MÀ "HƯỚNG nào":
 
@@ -384,7 +384,7 @@ CHI TIẾT TỪNG LEVEL:
   → "Bỏ thói cũ" = chunk MỚI compile ĐỦ MẠNH → ĐÈ chunk cũ
   → Stress → PFC yếu → chunk cũ CÓ THỂ fire lại ("tái phát khi mệt")
 
-GRADIENT COMPILE (NT1 + R-F1-10):
+GRADIENT COMPILE (Compile-Gradient + R-F1-10):
   → Compile is gradient, not discrete
   → Non-uniform progression across arcs
   → Each chunk = different compile stage at any given time
@@ -468,7 +468,7 @@ GRADIENT COMPILE (NT1 + R-F1-10):
 ### §3.1 — Complete taxonomy
 
 ```
-🟡 H2 SUPPORTED (F4 01):
+🟡 Static-Logical-Linking SUPPORTED (F4 01):
 
   ┌───────────────────────────────────────────────────────────────────┐
   │ TYPE │ NAME                │ MECHANISM            │ PFC ROLE     │
@@ -483,7 +483,7 @@ GRADIENT COMPILE (NT1 + R-F1-10):
   │      │ Compile             │ merge into unit      │ (repetition) │
   ├───────────────────────────────────────────────────────────────────┤
   │  4   │ Static Logical      │ PFC hold + overlap   │ Active       │
-  │      │ Linking (H2)        │ check + body vote    │ (intentional)│
+  │      │ Linking              │ check + body vote    │ (intentional)│
   └───────────────────────────────────────────────────────────────────┘
 
   8-DIMENSION DISTINCTION (trigger, PFC role, tempo, awareness,
@@ -518,7 +518,7 @@ TYPE 3 — META-CHUNK COMPILE:
   → Expert: 50,000+ patterns = meta-chunks → PFC freed
   → Gradual, qua repetition → hierarchy: chunks → meta → schemas
 
-TYPE 4 — STATIC LOGICAL LINKING (H2 🟡):
+TYPE 4 — STATIC LOGICAL LINKING (Static-Logical-Linking 🟡):
   → PFC CHỦ ĐÍCH hold chunk A + chunk B → check overlap → body vote
   → = "THINKING" = chaining Type 4 connections
   → Body vote 3 outcomes:
@@ -571,7 +571,7 @@ TYPE 4 — STATIC LOGICAL LINKING (H2 🟡):
 
     → Chunk nào nhận ĐỦ activation (vượt threshold) → fires
     → Chunk nào nhận KHÔNG ĐỦ → partial activation
-      (contribute to H5 multi-weak-signal nhưng không fire riêng)
+      (contribute to Multi-Weak-Signal-Convergence nhưng không fire riêng)
 
   → = "Khi nghĩ về X, hầu hết tôi nghĩ đến A"
   → = KHÔNG phải X→A là link DUY NHẤT
@@ -659,7 +659,7 @@ LINK STRENGTH = f(7 factors):
   ⭐ TRAUMA = EXPERTISE = CÙNG CƠ CHẾ, KHÁC HƯỚNG:
     Trauma:   large trigger surface + threat → fear/avoidance
     Expertise: large trigger surface + novelty → insight/competence
-    → = NT7 confirmed: DIRECTION matters, not mechanism
+    → = Direction-At-Compile confirmed: DIRECTION matters, not mechanism
 
   TRIGGER SURFACE REDUCTION:
     → Natural: new environment + positive chunks → narrows over time
@@ -706,7 +706,7 @@ LINK STRENGTH = f(7 factors):
 ### §5.1 — Anchor = retrieval path (not content)
 
 ```
-🟡 H6 SUPPORTED WITH REFINEMENT (F4 03):
+🟡 Anchor-Decay SUPPORTED WITH REFINEMENT (F4 03):
 
   ⭐ CRITICAL DISTINCTION:
     Anchor = RETRIEVAL PATH to chunk (not part of chunk content)
@@ -726,9 +726,9 @@ LINK STRENGTH = f(7 factors):
   │ Anchor Type  │ Mechanism          │ Versatility  │ Decay Rate       │
   ├──────────────┼────────────────────┼──────────────┼──────────────────┤
   │ Verbal       │ Word/label         │ HIGHEST      │ Moderate         │
-  │              │ attached           │ (H3: "jack   │ (needs rehearsal)│
-  │              │                    │  of all      │                  │
-  │              │                    │  trades")    │                  │
+  │              │ attached           │ (Grammar-    │ (needs rehearsal)│
+  │              │                    │  Versatile-  │                  │
+  │              │                    │  Anchor)     │                  │
   ├──────────────┼────────────────────┼──────────────┼──────────────────┤
   │ Contextual   │ Place/setting/     │ Moderate     │ Fast without     │
   │              │ people present     │              │ revisit          │
@@ -747,13 +747,13 @@ LINK STRENGTH = f(7 factors):
   → Context = most POWERFUL per single activation
   → Ritual = most STABLE (motor memory slow decay)
   → Multi-anchor = most ROBUST (redundancy protects)
-  → 🟡 Grammar = most versatile external anchor (H3 — ~100K years refinement)
+  → 🟡 Grammar = most versatile external anchor (Grammar-Versatile-Anchor — ~100K years refinement)
 ```
 
 ### §5.3 — Retrieval decay vs substrate decay
 
 ```
-🟡 H6 REFINEMENT:
+🟡 Anchor-Decay REFINEMENT:
 
   RETRIEVAL DECAY (Ebbinghaus applies):
     → Anchor weakens over time without rehearsal
@@ -821,7 +821,7 @@ LINK STRENGTH = f(7 factors):
 ### §6.1 — Label = retrieval path + symbolic compression
 
 ```
-🟡 NT6 (F1 08 §5):
+🟡 Label-As-Handle (F1 08 §5):
 
   LABEL = verbal/symbolic tag attached to chunk:
     → NOT 5th modality (label ≠ part of chunk content)
@@ -835,7 +835,7 @@ LINK STRENGTH = f(7 factors):
     ④ Verbal (word/phrase — most versatile for general cognition)
     ⑤ Internal-only (felt sense, no external expression)
 
-  MODERATE WHORFIAN CLAIM (NT6 §5.6):
+  MODERATE WHORFIAN CLAIM (Label-As-Handle §5.6):
     → Label DOES NOT change chunk content
     → Label DOES shape access patterns + reasoning paths
     → = Having word "saudade" doesn't CREATE the feeling
@@ -935,14 +935,14 @@ LINK STRENGTH = f(7 factors):
      → Vùng này = KHÔNG PHẢI 1 chunk → mà intersection of many paths
      → PFC detect "có gì đó" nhưng KHÔNG identify "cái gì"
      → = Gendlin "felt sense" at mechanism level
-     → = H5 multi-weak-signal convergence at concept level
-     → Body: "lờ mờ", "sao sao ấy", "có cái gì đó"
+     → = Multi-Weak-Signal-Convergence at concept level
+     → Body: "vague", "something feels off", "there's something"
 
   ③ CURIOSITY DRIVE:
      → Convergence zone detected → NOVELTY signal (VTA)
      → Dopamine → approach motivation → "muốn biết!"
      → ⚠️ IF threat-compiled → BLOCK cycle (sợ, không phải tò mò)
-     → = NT7 direction determines cycle TIẾP hay DỪNG
+     → = Direction-At-Compile determines cycle TIẾP hay DỪNG
 
   ④ CLARIFY:
      → Strategy A: Deliberate search (Type 4 — try connections → body vote)
@@ -953,7 +953,7 @@ LINK STRENGTH = f(7 factors):
   ⑤ LABEL / ANCHOR:
      → PFC search verbal library → metaphor / description / coin new term
      → Body check each candidate → smooth = keep, resist = try another
-     → 🟡 H12: Gap 2 drives language evolution (coin words for unlabeled experiences)
+     → 🟡 Gap2-Language-Evolution: Gap 2 drives language evolution (coin words for unlabeled experiences)
 
   ⑥ LOGIC-PLANNING ENABLEMENT:
      → Label = "vé vào cửa" → chunk enters planning system (§6.2)
@@ -1016,7 +1016,7 @@ LINK STRENGTH = f(7 factors):
 ### §8.2 — PFC hardware reframe
 
 ```
-🟢 NT4 (F1 01):
+🟢 PFC-From-Prenatal (F1 01):
 
   ⭐ PFC HARDWARE ONLINE FROM PRENATAL:
 
@@ -1065,10 +1065,10 @@ LINK STRENGTH = f(7 factors):
     → Process 95% nền
     → Compile tự động
 
-  SIMULATION ENGINE = FORMALIZED PFC MECHANISM (Simulation-Engine.md v1.0):
+  SIMULATION-ENGINE = FORMALIZED PFC MECHANISM (Simulation-Engine.md v1.0):
     → 1 Engine, 3 Components: Interoceptive Model × Simulation × Self-Pattern-Modeling
-    → PFC "search" (§9 below) = Simulation Engine running on chunk database
-    → IMAGINE scenario = Simulation Engine draft → body evaluate
+    → PFC "search" (§9 below) = Simulation-Engine running on chunk database
+    → IMAGINE scenario = Simulation-Engine draft → body evaluate
     → Chi tiết: Simulation-Engine.md v1.0 (PFC/), PFC-Operations.md v1.0
 
   → VÔ THỨC: giỏi "bây giờ body thế nào" (state detection)
@@ -1186,7 +1186,7 @@ LINK STRENGTH = f(7 factors):
 ### §10.2 — Feeling-Intuition Gradient
 
 ```
-🟡 H5 SUPPORTED (F4 02):
+🟡 Multi-Weak-Signal-Convergence SUPPORTED (F4 02):
 
   6-POINT GRADIENT:
 
@@ -1210,21 +1210,21 @@ LINK STRENGTH = f(7 factors):
   → Beginner "gut feeling" = ③ but LOW accuracy (few chunks)
 ```
 
-### §10.3 — "Mượt thật" vs "Mượt giả" (1A vs 1B)
+### §10.3 — "Mượt thật" vs "Mượt giả" (Domain-Checked vs Self-Referencing)
 
 ```
-⭐ 1A vs 1B SELECTION PRESSURE (F4 01c §4):
+⭐ Domain-Checked vs Self-Referencing SELECTION PRESSURE (F4 01c §4):
 
   ⚠️⚠️⚠️ "FEEL MƯỢT" ≠ "ĐÚNG":
 
-  1A — DOMAIN-REAL SELECTION:
+  DOMAIN-CHECKED SELECTION:
     → Chunks tested against EXTERNAL REALITY regularly
     → Confirmed → strengthen. Falsified → dissonance → correct
     → Body vote ACCURATE: smooth = actually correct (most of time)
     → = "Mượt THẬT" — calibrated against reality
     → = Scientist, craftsman, calibrated expert
 
-  1B — SELF-REFERENCING SELECTION:
+  SELF-REFERENCING SELECTION:
     → Chunks tested against EXISTING CHUNKS only
     → Compatible → smooth → accept. Incompatible → reject (not investigate)
     → Body vote MISLEADING: smooth = consistent with self (NOT reality)
@@ -1233,15 +1233,15 @@ LINK STRENGTH = f(7 factors):
     → 🟢 Confirmation bias (Wason 1960, Nickerson 1998)
 
   ⚠️ NUANCE — KHÔNG binary:
-    → Most people = MIX of 1A and 1B across different domains
-    → Same person: 1A in profession + 1B in relationships (or vice versa)
-    → CAN shift: 1B → 1A by INTRODUCING real-checking habit
+    → Most people = MIX of Domain-Checked and Self-Referencing across different domains
+    → Same person: Domain-Checked in profession + Self-Referencing in relationships (or vice versa)
+    → CAN shift: Self-Referencing → Domain-Checked by INTRODUCING real-checking habit
 
   DISSONANCE TOLERANCE:
-    → 1A: HIGH tolerance (foundation = external anchors, independent)
-    → 1B: LOW tolerance (foundation = circular chunks, fragile)
-    → = 1A CAN pursue extreme Imagine-Final (tolerate temporary hardware discomfort)
-    → = 1B CANNOT (all discomfort = "wrong" → reject → cycle stops)
+    → Domain-Checked: HIGH tolerance (foundation = external anchors, independent)
+    → Self-Referencing: LOW tolerance (foundation = circular chunks, fragile)
+    → = Domain-Checked CAN pursue extreme Imagine-Final (tolerate temporary hardware discomfort)
+    → = Self-Referencing CANNOT (all discomfort = "wrong" → reject → cycle stops)
 ```
 
 ---
@@ -1273,9 +1273,9 @@ LINK STRENGTH = f(7 factors):
     → Thousands of chunks compiled over years
     → Multi-modal + deep emotional engagement + many cross-links
     → = Many entry points → many chunks fire simultaneously
-    → = H5 multi-weak-signal convergence → ACCURATE "gut feeling"
+    → = Multi-Weak-Signal-Convergence → ACCURATE "gut feeling"
     → 🟢 Klein 1998: firefighter intuition = pattern recognition from large database
-    → 🟢 Kahneman & Klein 2009: reliable intuition requires "kind environment" (= 1A feedback)
+    → 🟢 Kahneman & Klein 2009: reliable intuition requires "kind environment" (= Domain-Checked feedback)
 
   BEGINNER PITFALL:
     → Few chunks → few conflicts → feels "smooth"
@@ -1287,7 +1287,7 @@ LINK STRENGTH = f(7 factors):
 ### §11.3 — Receptive-Productive Asymmetry
 
 ```
-🟡 H11 (F1 08 §6):
+🟡 Receptive-Productive-Asymmetry (F1 08 §6):
 
   → Receptive chunk formation PRECEDES productive by ~6-12 months
   → Because productive bundle ~3× receptive bundle (more chunks required)
@@ -1340,20 +1340,20 @@ LINK STRENGTH = f(7 factors):
 
 ```
   🟡 "Não = search engine" — consistent with connectionist models
-  🟡 4-type connection taxonomy (H2) — components established, taxonomy novel
+  🟡 4-type connection taxonomy (Static-Logical-Linking) — components established, taxonomy novel
   🟡 Activation probability distribution model — novel formalization
   🟡 Competitive re-linking as unified mechanism — novel integration
   🟡 Trigger surface concept — novel name, mechanism established
-  🟡 Trauma = expertise same mechanism diff direction — novel insight, consistent NT7
+  🟡 Trauma = expertise same mechanism diff direction — novel insight, consistent Direction-At-Compile
   🟡 7-factor link strength model — framework formalization
   🟡 7-step discovery lifecycle — novel, components established
   🟡 Convergence zone as structural concept — novel name, Gendlin felt sense = same
-  🟡 Label = logic-planning prerequisite — novel formalization, consistent NT6
-  🟡 1A vs 1B selection pressure — novel framing, components established
+  🟡 Label = logic-planning prerequisite — novel formalization, consistent Label-As-Handle
+  🟡 Domain-Checked vs Self-Referencing selection pressure — novel framing, components established
   🟡 Dissonance tolerance = f(anchor type) — novel, consistent cognitive dissonance
   🟡 5-parameter compile rate formula — ordinal validated, not quantitative
-  🟡 Multi-modal binding = 4 concurrent mechanisms (NT3) — mechanism novel, components 🟢
-  🟡 6-point feeling-intuition gradient (H5) — novel spectrum, components established
+  🟡 Multi-modal binding = 4 concurrent mechanisms (Emergent-Binding) — mechanism novel, components 🟢
+  🟡 6-point feeling-intuition gradient (Multi-Weak-Signal-Convergence) — novel spectrum, components established
   🟡 5 anchor types with ranking — framework model
   🟡 Retrieval decay vs substrate decay distinction — novel formalization
   🟡 Post-discovery cleanup → parsimony gain — novel formalization
@@ -1384,11 +1384,11 @@ LINK STRENGTH = f(7 factors):
 ```
   ALL HYPOTHESES ACROSS CHUNK SYSTEM:
 
-  TOTAL: 15 hypothesis entries (H1-H12 + NT1-NT7)
+  TOTAL: 15 hypothesis entries (12 main hypotheses + 7 verdicts)
 
   CONFIDENCE DISTRIBUTION:
-    🟢  : 2  (NT1 gradient, NT4 PFC reframe)
-    🟡🟢: 3  (H1 substrate, NT2 compile mechanism, NT7 body-state direction)
+    🟢  : 2  (Compile-Gradient, PFC-From-Prenatal reframe)
+    🟡🟢: 3  (Chunk-Substrate, Compile-Rate-Formula, Direction-At-Compile)
     🟡  : 10 (all remaining — framework synthesis with evidence)
     🔴  : 0  (no hypothesis remained at speculative level)
 
@@ -1406,33 +1406,33 @@ LINK STRENGTH = f(7 factors):
 ```
   F1 CHILD-CHUNK-DEVELOPMENT (12 files, ~11,596L):
     00 → F1 orientation
-    01 → NT4 PFC reframe (🟢)
+    01 → PFC-From-Prenatal reframe (🟢)
     02 → t=0 baseline
-    03-05 → Visual, Auditory (NT1 🟢), Motor arcs
-    06a-06b → Interoceptive (NT2 🟡🟢 keystone + NT7 🟡🟢)
-    07 → Social (NT3 🟡 binding)
-    08 → Verbal (H11 🟡 + NT5 + NT6 🟡)
+    03-05 → Visual, Auditory (Compile-Gradient 🟢), Motor arcs
+    06a-06b → Interoceptive (Compile-Rate-Formula 🟡🟢 keystone + Direction-At-Compile 🟡🟢)
+    07 → Social (Emergent-Binding 🟡)
+    08 → Verbal (Receptive-Productive-Asymmetry 🟡 + Receptive-Productive-Gap + Label-As-Handle 🟡)
     09 → Event matrix (80+ events, 10 arcs)
     10 → ⭐ F1 Synthesis (verdicts + R-F1-1→10)
 
   F3 CHUNK-EXTERNAL-DEVELOPMENT (2 files, ~1,286L):
     00 → 5 mechanisms + threads
-    01 → ⭐ F3 Synthesis (H3 🟡 + H4 🟡 + H7 🟡 + H12p 🟡 + R-F3-1→6)
+    01 → ⭐ F3 Synthesis (Grammar-Versatile-Anchor 🟡 + Abstract-Metaphysical-Grounding 🟡 + Valence-Chunk-Interaction 🟡 + Gap2-Language-Evolution (partial) 🟡 + R-F3-1→6)
 
   F4 CHUNK-INTERNAL-PROCESSING (9 files, ~7,464L):
     00 → F4 sketch
-    01 → H2 4-type connections (🟡)
+    01 → Static-Logical-Linking 4-type connections (🟡)
     01b → ⭐ CORE mechanism (probability, re-linking, trigger surface)
-    01c → ⭐ MACRO lifecycle (7-step, convergence zone, 1A/1B)
-    02 → H5 feeling-intuition gradient (🟡)
-    03 → H6 anchor-decay (🟡)
+    01c → ⭐ MACRO lifecycle (7-step, convergence zone, Domain-Checked/Self-Referencing)
+    02 → Multi-Weak-Signal-Convergence feeling-intuition gradient (🟡)
+    03 → Anchor-Decay (🟡)
     04 → T10 vague detection + ACC (🟡)
-    05 → H12 insight + tacit + Gap 2 (🟡)
+    05 → Gap2-Language-Evolution + insight + tacit (🟡)
     06 → ⭐ F4 Synthesis (verdicts + contracts)
 
   ALREADY-DRILLED:
-    Learning-Cycle.md → H8 learning cycle
-    Body-Feedback-Draft/ (5 files) → H10 P1-P5
+    Learning-Cycle.md → Learning-Dissonance-Cycle
+    Body-Feedback-Draft/ (5 files) → 5 Body-Feedback-Preconditions (Precondition-1–Precondition-5)
 
   AGENT-MECHANISM/ (11 files — formerly Agent/ 4 files):
     Agent-Mechanism.md v2.1     — master: 10 dimensions per-entity
@@ -1440,8 +1440,8 @@ LINK STRENGTH = f(7 factors):
     Entity-Compiled.md v1.0     — neural reality, formation 40→200h, Dunbar
     Entity-Access.md v1.2       — gradient Mức 0-5, per-entity access
     Entity-Access-Excess.md v1.0 — excess territory, addiction
-    Entity-Access-Calibration.md v1.0 — self-regulation, hardware subsidy
-    Bond-Architecture.md v1.0   — 1 mechanism × 4 bond types, M1-M4
+    Entity-Access-Calibration.md v1.0 — self-regulation, hardware-subsidy
+    Bond-Architecture.md v2.0   — 1 mechanism × 4 bond types, Resonance Decline
     By-Product-Gap-Resonance.md v1.4 — mutual match, 5 drills
     Resonance-Sustainability.md v1.0 — 4-layer, 3 conditions, 3 modalities
     Resonance-Per-Entity.md v1.0 — per-relationship dynamics
@@ -1463,10 +1463,10 @@ LINK STRENGTH = f(7 factors):
   REFERENCE FILES (current versions):
     Body-Base/Feeling/Feeling.md v2.0 → feeling = PFC observation, 7-layer, 8-step flow
     Body-Base/Valence-Propagation.md v3.0 → structural/current valence, 3 firing modes, per-entity
-    Body-Base/Body-Coupling.md v3.0 → coupling, 4 bond types, hardware subsidy, M1-M4
+    Body-Base/Body-Coupling.md v3.0 → coupling, 4 bond types, hardware-subsidy, Resonance Decline
     Collective/Collective-Body.md v2.1 → Model 3 cấp (Individual → Collective → Framework)
     Body-Base/Body-Base.md v3.2 → entry point cho Body-Base system
-      → §3: Simulation Engine + Entity-Access + Bond-Architecture
+      → §3: Simulation-Engine + Entity-Access + Bond-Architecture
       → §4: Entity-Compiled, valence propagation trên chunk substrate
     AI-Schema-Detection.md v2.0 → AI-assisted schema detection
       → §3⑥: chunk depth inference từ verbal output
@@ -1476,12 +1476,12 @@ LINK STRENGTH = f(7 factors):
     Schema/Anchor-Schema.md → anchor + trust (3 chiều: Clarity × Quality × Trust)
     Observation/Drive.md v1.1 → drive integration, melody lens
     Observation/Novelty.md + Threat.md → drive mechanisms
-    Observation/Boredom.md v2.0 → by-product match dừng, M1-M4
+    Observation/Boredom.md v2.0 → by-product match dừng, Resonance Decline
     Agent-Mechanism/Agent-Mechanism.md v2.1 → 10 dimensions per-entity
     PFC/Simulation-Engine.md v1.0 → 1 engine, 3 components, N applications
     PFC/PFC-Label.md v1.0 → vocabulary reference, 13 domains
     PFC/PFC-Operations.md v1.0 → operational mechanisms
-    Logic-Feeling.md → 2 processing modes
+    Logic-Feeling.md → Body-Knowing + observer labels, Compiled/Fresh
     Somatic-Articulation-Loop.md → body → explicit knowledge
 
   ANALYSIS FILES:
@@ -1576,16 +1576,16 @@ LINK STRENGTH = f(7 factors):
     v2 (2026-04-17): ~1,800L, 14 sections, incorporates 44+ files deep analysis
 
   MAJOR ADDITIONS:
-    → §1: Gradient architecture (NT1) + multi-modal binding (NT3)
-    → §2: 5-parameter formula (NT2) + external install (F3) + body-state direction (NT7)
-    → §3: 4-type connection taxonomy (H2) — entirely NEW
+    → §1: Gradient architecture (Compile-Gradient) + multi-modal binding (Emergent-Binding)
+    → §2: 5-parameter formula (Compile-Rate-Formula) + external install (F3) + Direction-At-Compile
+    → §3: 4-type connection taxonomy (Static-Logical-Linking) — entirely NEW
     → §4: Activation dynamics (01b CORE) — entirely NEW
-    → §5: Anchor-decay model (H6) — entirely NEW
-    → §6: Labels + logic-planning enablement (NT6 + 01c) — entirely NEW
+    → §5: Anchor-Decay model — entirely NEW
+    → §6: Labels + logic-planning enablement (Label-As-Handle + 01c) — entirely NEW
     → §7: Discovery lifecycle 7 steps (01c) — entirely NEW
-    → §8: PFC reframe (NT4) + PFC-Inference Ladder — MAJOR UPDATE
-    → §10: Feeling-intuition gradient (H5) + 1A/1B — MAJOR UPDATE
-    → §11: Trigger surface + H11 — MAJOR UPDATE
+    → §8: PFC reframe (PFC-From-Prenatal) + PFC-Inference Ladder — MAJOR UPDATE
+    → §10: Feeling-intuition gradient (Multi-Weak-Signal-Convergence) + Domain-Checked/Self-Referencing — MAJOR UPDATE
+    → §11: Trigger surface + Receptive-Productive-Asymmetry — MAJOR UPDATE
     → §12: All 15 hypotheses aggregated — MAJOR UPDATE
 
   PRESERVED FROM V1:
@@ -1635,10 +1635,10 @@ LINK STRENGTH = f(7 factors):
   §1.1: +Entity-Compiled reference (neural reality, formation 40→200h, Dunbar)
   §2.3: +Entity-Access gradient (Mức 0-5), +Entity-Access-Calibration, +Entity-Access-Excess references
   §6.1: +PFC-Label.md v1.0 vocabulary reference
-  §8.3: +Simulation Engine (1 engine, 3 components — formalized PFC mechanism)
+  §8.3: +Simulation-Engine (1 engine, 3 components — formalized PFC mechanism)
   §13.1: Agent-Mechanism/ expanded (4 → 11 files, folder renamed)
   §13.2: Major version updates (Valence-Propagation v1.4→v3.0, BB v2.0→v3.2, Collective-Body v2.0→v2.1,
-          AI-Schema v1.0→v2.0, IF→v3.0). Folder paths updated (Drive/→Observation/,
+          AI-Schema v1.0→v2.0, Imagine-Final→v3.0). Folder paths updated (Drive/→Observation/,
           Agent/→Agent-Mechanism/). +Simulation-Engine, +PFC-Label, +PFC-Operations, +Boredom v2.0.
 
   Source: plan-concept-cascade-refine.md Phase A2
@@ -1654,7 +1654,7 @@ LINK STRENGTH = f(7 factors):
 > Core mechanism: probability distribution + competitive re-linking + trigger surface.
 > Trauma = expertise = CÙNG cơ chế, KHÁC hướng.
 > Entity-Compiled = neural reality khi compile đủ sâu per-entity.
-> Simulation Engine = formalized PFC mechanism (1 engine, 3 components).
+> Simulation-Engine = formalized PFC mechanism (1 engine, 3 components).
 > Entity-Access gradient Mức 0-5 = trust formalized.
 > Context-tag: 4 metadata types → contextual vs context-free chunks.
 > Compile depth predicts resistance — Alzheimer "last in first out" confirms.

@@ -697,7 +697,7 @@ Xem [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) để xử lý 
 
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) — H8 learning cycle. Motor learning qua error → correction → repetition là một instance của learning cycle, với error signal là "với tay lỡ mục tiêu" v.v.
 - [../Agent/Agent.md](../Agent/Agent.md) — H9 Agent operations trên motor chunks cho phép hành động hướng mục tiêu (Self-Pattern-Modeling dùng motor chunks).
-- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) — H10 body-feedback substrate. Motor chunks là downstream của body-feedback L1-L2 raw signals (proprioception, nỗ lực, đau).
+- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) — Body-Feedback-Precondition body-feedback substrate. Motor chunks là downstream của body-feedback L1-L2 raw signals (proprioception, nỗ lực, đau).
 
 ### §10.4 — Feel-Example cross-references thực nghiệm
 

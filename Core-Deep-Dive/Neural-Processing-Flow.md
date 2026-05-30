@@ -299,7 +299,7 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
 
 ## §4 — Binding: Cách não sync multi-modal input
 
-> **F1 verdict: 07 §6 NT3 — 4 concurrent mechanisms**
+> **F1 verdict: 07 §6 Emergent-Binding — 4 concurrent mechanisms**
 
 ### §4.1 — Gamma oscillation ~40Hz — Temporal synchrony
 
@@ -365,7 +365,7 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
   → = "Emotional event → bind MẠNH + compile NHANH"
 
   = Flashbulb memory mechanism (Brown & Kulik 1977)
-  = NT7 body-state-at-compile: cùng cơ chế, khác direction (novelty vs threat)
+  = Direction-At-Compile: cùng cơ chế, khác direction (novelty vs threat)
   
   🟢 McGaugh 2004, LeDoux 1996
 ```
@@ -475,8 +475,8 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
     ③ Dendritic spine growth: more connection points per neuron
     ④ Pruning: competing weak paths WEAKENED (competitive)
     → = Compilation = PHYSICAL INFRASTRUCTURE built over time
-    → = "Feeling" (compiled) = signal on SUPERHIGHWAY
-    → = "Logic" (fresh) = signal on DIRT ROAD being built
+    → = Compiled (Body-Knowing) = signal on SUPERHIGHWAY
+    → = Fresh (PFC draft) = signal on DIRT ROAD being built
 
   CONNECTION VỚI FRAMEWORK:
     → Logic-Feeling.md v2.0 §1: Compiled/Fresh = trục thật
@@ -683,24 +683,24 @@ FEELING = hành trình TÍN HIỆU từ body LÊN consciousness:
   ┌───────────────────────────────────────────────────────────────┐
   │ Layer │ Name              │ Content                │ Fidelity│
   ├───────────────────────────────────────────────────────────────┤
-  │  L1   │ Raw body signals  │ Heart rate, gut, pain  │  100%   │
-  │  L2   │ Integration       │ Multi-source combine   │  ~95%   │
-  │  L3   │ Felt sense        │ "Cái gì đó sao sao"   │  ~90%   │
-  │  L4   │ Location          │ "Ở ngực / ở bụng"     │  ~85%   │
-  │  L5   │ Observation       │ "Giống lần trước"      │  ~80%   │
-  │  L6   │ LABELING          │ "Tôi lo lắng"         │  40-80% │
-  │  L7   │ EXPLANATION       │ "Vì deadline"          │  20-70% │
+  │  Feel-RawSignals      │ Raw body signals  │ Heart rate, gut, pain  │  100%   │
+  │  Feel-Integration     │ Integration       │ Multi-source combine   │  ~95%   │
+  │  Feel-Consciousification │ Felt sense     │ "Cái gì đó sao sao"   │  ~90%   │
+  │  Feel-Observation     │ Observation       │ "Ở ngực / ở bụng"     │  ~85%   │
+  │  Feel-Location        │ Location          │ "Giống lần trước"      │  ~80%   │
+  │  Feel-Labeling        │ LABELING          │ "Tôi lo lắng"         │  40-80% │
+  │  Feel-Explanation     │ EXPLANATION       │ "Vì deadline"          │  20-70% │
   └───────────────────────────────────────────────────────────────┘
 
   ⭐ FIDELITY GIẢM DẦN ĐI LÊN (% = calibration anchor, không đo chính xác — Core-Software.md §12.4):
-    L1 = body truth (100% — body không nói dối)
-    L6 = compressed label (40-80% — 1 từ nén 80%+ thông tin)
-    L7 = PFC confabulation (20-70% — PFC BỊA lý do post-hoc)
+    Feel-RawSignals = body truth (100% — body không nói dối)
+    Feel-Labeling = compressed label (40-80% — 1 từ nén 80%+ thông tin)
+    Feel-Explanation = PFC confabulation (20-70% — PFC BỊA lý do post-hoc)
 
-  → Người thường "access" feeling ở L6-L7 (label + explain)
-  → Nhưng L6-L7 = LOSSY NHẤT
-  → Wise practitioners dwell ở L3-L4 (felt sense — pre-verbal, high fidelity)
-  → = Gendlin Focusing: train ở lại L3, không vội nhảy lên L6-L7
+  → Người thường "access" feeling ở Feel-Labeling—Feel-Explanation (label + explain)
+  → Nhưng Feel-Labeling—Feel-Explanation = LOSSY NHẤT
+  → Wise practitioners dwell ở Feel-Consciousification—Feel-Observation (felt sense — pre-verbal, high fidelity)
+  → = Gendlin Focusing: train ở lại Feel-Consciousification, không vội nhảy lên Feel-Labeling—Feel-Explanation
 ```
 
 ### §8.2 — Feeling observation circuit: Insula + ACC + vmPFC
@@ -729,11 +729,11 @@ FEELING = hành trình TÍN HIỆU từ body LÊN consciousness:
 
   FLOW:
     Body signals → Insula (integrate) → ACC (check conflict) → vmPFC (bridge to conscious)
-    → PFC observe → Layer 3 felt sense → (optional) Layer 6 label → (optional) Layer 7 explain
+    → PFC observe → Feel-Consciousification felt sense → (optional) Feel-Labeling label → (optional) Feel-Explanation explain
 
   ⭐ FEELING KHÔNG "ở trong PFC" — feeling ở INSULA + ACC:
     PFC chỉ OBSERVE feeling (qua vmPFC bridge)
-    Feeling EXIST ở body level (L1) → insula integrate (L2) → felt sense emerge (L3)
+    Feeling EXIST ở body level (Feel-RawSignals) → insula integrate (Feel-Integration) → felt sense emerge (Feel-Consciousification)
     PFC có thể KHÔNG observe (nếu vmPFC weak, hoặc attention elsewhere)
     → = Feeling tồn tại DÙ PFC không nhận ra (alexithymia)
     → = "Body biết mà đầu không biết" = insula has signal, PFC doesn't read it
@@ -746,8 +746,8 @@ FEELING = KHÔNG CHỈ 1 INPUT — mà ~10 channels tích hợp:
 
   ① L0 Threat signal       (amygdala: nguy hiểm không?)
   ② L1 Interoceptive       (insula: body state — tim, phổi, ruột)
-  ③ L2 Novelty signal      (VTA dopamine: mới không? interesting?)
-  ④ L3 Meaning/Schema      (temporal: matches gì đã biết?)
+  ③ Novelty signal          (VTA dopamine: mới không? interesting?)
+  ④ Meaning/Schema          (temporal: matches gì đã biết?)
   ⑤ Agent mirror input     (mPFC: người khác đang feel gì?)
   ⑥ Mirror-resonance       (mirror neurons: body tự fire theo người khác)
   ⑦ Schema expectation     (đúng predict hay vi phạm?)
@@ -787,8 +787,8 @@ FEELING = KHÔNG CHỈ 1 INPUT — mà ~10 channels tích hợp:
 ⭐ FEELING → LABEL: 2 hướng vào cùng đích
 
   DIRECTION A — FEEL-FIRST (bottom-up):
-    Body pattern fire → feel vague (L3) → PFC chú ý → chunk rõ dần
-    → tìm label (L6) → dùng trong logic plan
+    Body pattern fire → feel vague (Feel-Consciousification) → PFC chú ý → chunk rõ dần
+    → tìm label (Feel-Labeling) → dùng trong logic plan
     = Trẻ sơ sinh, adult novel insight, Einstein
 
   DIRECTION B — LABEL-FIRST (top-down):
@@ -851,7 +851,7 @@ FEELING = KHÔNG CHỈ 1 INPUT — mà ~10 channels tích hợp:
 ```
   Feeling version của externalization loop:
 
-  Feel vague (L3, weak) → thử nói ra / viết ra → nghe lại / đọc lại (strong)
+  Feel vague (Feel-Consciousification, weak) → thử nói ra / viết ra → nghe lại / đọc lại (strong)
   → Body check: "gần đúng" / "chưa" / "ĐÚNG RỒI!"
   → Adjust label → thử lại → body check → ...
   → Cuối cùng: feeling có label chính xác → dùng được trong logic
@@ -945,7 +945,7 @@ FEELING = KHÔNG CHỈ 1 INPUT — mà ~10 channels tích hợp:
   │  ACC: detect conflict → "sao sao ấy" signal                    │
   │  vmPFC: bridge body → conscious (somatic marker)                │
   │                         │                                        │
-  │  → L1 raw → L2 integrate → L3 felt sense → (optional L6 label) │
+  │  → Feel-RawSignals raw → Feel-Integration integrate → Feel-Consciousification felt sense → (optional Feel-Labeling label) │
   └────────────────────────┬─────────────────────────────────────────┘
                            │ feeling signals + compiled chunks
                            ▼
@@ -1001,7 +1001,7 @@ BOTTOM-UP (reality → brain):
   Sensor → Thalamus → Cortex → Binding → Chunk → Feeling → PFC observe
   = "Thế giới nói cho não biết"
   = MẠNH, chính xác, body-driven
-  = Source of feeling (L1-L3)
+  = Source of feeling (Feel-RawSignals—Feel-Consciousification)
   = Source of chunk compilation
 
 TOP-DOWN (brain → cortex re-activation):
@@ -1098,7 +1098,7 @@ TOP-DOWN (brain → cortex re-activation):
 ═══════════════════════════════════════
 
   Gamma binding as PRIMARY mechanism:    Singer well-supported, debate ongoing
-  5-mechanism binding model:             4 from NT3 + gamma = synthesis
+  5-mechanism binding model:             4 from Emergent-Binding + gamma = synthesis
   Many-to-many mapping as reframe:       Consistent with evidence, framework framing
   7-layer feeling fidelity gradient:     Framework contribution (Feeling.md)
   10-channel feeling integration:        Framework contribution (Feeling-Sources.md)
@@ -1118,7 +1118,7 @@ TOP-DOWN (brain → cortex re-activation):
 🔴 HYPOTHESES
 ═══════════════════════════════════════
 
-  Specific fidelity percentages (L1 100%, L7 20-70%):  Illustrative, not measured
+  Specific fidelity percentages (Feel-RawSignals 100%, Feel-Explanation 20-70%):  Illustrative, not measured
   Imagination fidelity % per modality:                  Approximate, varies individually
   "ACC = physical mechanism for 'sao sao ấy'":         Plausible, not directly tested
   AI as externalization catalyst effectiveness:         New, unstudied longitudinally
@@ -1216,7 +1216,7 @@ NOT CLAIMING:
 
 📚 PROCESSING:
   → Logic-Feeling.md v2.0 §1: Compiled/Fresh = trục thật
-  → Logic-Feeling.md v2.0 §4: Flow (Compiled Anchor ↔ Fresh Explore)
+  → Logic-Feeling.md v4.0 §3: Flow (Body-Knowing Anchor ↔ Fresh Explore ↔ Domain Verify)
   → PFC-Analysis.md: PFC functions detail
   → Somatic-Articulation-Loop.md: externalization mechanism detail
 

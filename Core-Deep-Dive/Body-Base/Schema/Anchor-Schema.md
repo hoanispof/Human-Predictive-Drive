@@ -488,7 +488,7 @@ TRUST DYNAMICS — BUILD, BREAK, REBUILD:
 
     ② Body-base confirm (feel đúng):
       → Mỗi ngày làm việc → body reward → "xứng đáng"
-      → = Body-base nói "ĐÚ​NG" → trust tăng ở UNCONSCIOUS level
+      → = Body-base nói "ĐÚNG" → trust tăng ở UNCONSCIOUS level
       → = Tại sao "trải nghiệm" build trust hơn "nghĩ"
 
     ③ Repetition → compile (lặp lại → compiled deep):
@@ -944,6 +944,7 @@ NGUỒN ④ — EXTERNAL INJECT (outside-in)
   └─────────────┴────────────────┴──────────────┴───────────────┴─────────────────┘
 
   ⭐ PHẦN LỚN CUỘC SỐNG = NGUỒN ③ (compiled):
+    ⚠️ % below = calibration anchor, exact % = guess (§12 Honest Assessment).
     → ~80% hành vi = compiled schemas auto-fire → auto-anchor
     → PFC (①) chỉ tham gia ~5% (tình huống mới, complex, conflict)
     → = Đa số thời gian: Anchor-Schema SẴN, PFC nghỉ
@@ -1678,7 +1679,7 @@ TOÀN FILE — ĐÁNH GIÁ TRUNG THỰC:
   │                                                                │
   │ "MXH = anti-anchor":                                           │
   │   → Consistent with social comparison research                │
-  │   → NHƯNG: MXH CÓ THỂ CŨ​NG BUILD anchor                    │
+  │   → NHƯNG: MXH CÓ THỂ CŨNG BUILD anchor                    │
   │     (communities, influencer as anchor source, identity)      │
   │   → = Framework nhấn mạnh PHÁ → có thể miss BUILD function  │
   │                                                                │
@@ -1803,7 +1804,7 @@ V2.0 REFERENCE FILES (v1.2 added):
     → = Anchor-Schema + Valence Propagation = 2 concepts BỔ SUNG
 
   Feeling.md v2.0:
-    �� §5: 8-step flow — anchor influence ở step 5 (chunk match) + step 7 (body vote)
+    → §5: 8-step flow — anchor influence ở step 5 (chunk match) + step 7 (body vote)
     → PFC observe anchor-driven body state → feeling
     → = "Tại sao cảm thấy 'đúng hướng' khi anchor strong"
 

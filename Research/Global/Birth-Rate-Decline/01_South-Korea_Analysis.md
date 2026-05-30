@@ -260,7 +260,7 @@
 🟡 FRAMEWORK INTERPRETATION:
   → XƯA: đại gia đình + cả làng nuôi con:
       → 1 đứa trẻ = 10-20 người chăm → CHIA TẢI
-      → Connection L2-L3 mạnh: cộng đồng, gia tộc
+      → Connection mạnh (evaluative): cộng đồng, gia tộc
       → = Nuôi con = shared task → manageable
 
   → NAY: hạt nhân 2 người (hoặc 1 người):
@@ -270,7 +270,7 @@
 
   → Digital connection KHÔNG thay thế physical:
       → Social media tạo ẢO GIÁC connection
-      → Nhưng body cần L2-L3 connection THẬT (physical, prolonged)
+      → Nhưng body cần connection THẬT (physical, prolonged)
       → = Có "bạn online" nhưng KHÔNG AI giúp trông con
       → = Connection perceived ≠ connection functional
 
@@ -312,7 +312,7 @@
   Đồng thời:
 
   ┌─────────────────────────────────────────────────────────────┐
-  │   Ít kết hôn → ít connection L2-L3                         │
+  │   Ít kết hôn → ít connection sâu                            │
   │      ↓                                                      │
   │   Ít người nuôi con → mỗi người gánh nhiều hơn            │
   │      ↓                                                      │
@@ -459,8 +459,8 @@
     🟡 Framework: anti-feminism = body detect "STATUS THREAT":
       → Military service: nam 18-21 tháng, nữ không → "bất bình đẳng"
       → Gender quota: nữ được ưu tiên tuyển → "tôi mất cơ hội"
-      → = L3 status Imagine-Final bị threatened → body react
-      → = KHÔNG phải "ghét nữ" → mà body protect L3 position
+      → = status (evaluative) Imagine-Final bị threatened → body react
+      → = KHÔNG phải "ghét nữ" → mà body protect status position
 
     ⭐ MUTUAL WITHDRAWAL = BIRTH RATE COLLAPSE:
       → Nữ: "nam = threat" → avoid relationship

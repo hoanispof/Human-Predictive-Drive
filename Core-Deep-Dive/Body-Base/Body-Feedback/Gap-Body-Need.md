@@ -1,4 +1,4 @@
----
+﻿---
 title: Gap Body-Need — Per-Gap Feed Dynamics, Architecture, Entity Matching
 version: 1.0
 created: 2026-05-22
@@ -35,7 +35,7 @@ dependencies:
   - Body-Feedback-Mechanism.md v2.0 — Body-Need aggregate, 3 chunk dynamics, 2 sources
   - Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, E₀→E₃, 5 Profiles
   - Reward-Calibration.md v1.1 — Goldilocks per-gap, 6 over-reward mechanisms
-  - Valence-Propagation.md v3.0 — per-entity valence, structural/current, hardware subsidy
+  - Valence-Propagation.md v3.0 — per-entity valence, structural/current, hardware-subsidy
   - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 3-cost, 5-channel, PFC = Lawyer
   - Entity-Access.md v1.2 — entity-access gradient, 3-layer
   - Entity-Compiled.md v1.0 — Hub-and-Spoke, Formation 40→200h, Grief A+B+C
@@ -45,7 +45,7 @@ dependencies:
   - PFC-Operations.md v1.0 — Hold+Suppress, Compiled Quality Dimension
   - By-Product-Gap-Resonance.md v1.4 — by-product match, 4 conditions
   - By-Product-Scale.md v1.0 — 3 scales, Pair/Hub/Institutional
-  - Bond-Architecture.md v1.0 — 4 bond types, gap clone impossible
+  - Bond-Architecture.md v2.0 — 4 bond types, gap clone impossible
   - Expansion-Saturation-Crisis.md v1.1 — abundance → higher gaps emerge
   - Body-Feedback-Label.md v2.0 — vocabulary reference (3-tier labels)
 sources:
@@ -185,7 +185,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Entity-Compiled.md v1.0       = entity-specific dynamics
     Entity-Access.md v1.2         = entity-access gradient
     Entity-Access-Excess.md v1.0  = addiction + excess mechanism
-    Bond-Architecture.md v1.0     = bond types, gap redirect
+    Bond-Architecture.md v2.0     = bond types, gap redirect
     Resonance-Sustainability.md   = sustainability mechanics
 ```
 
@@ -197,8 +197,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   C1. 3 satiation profiles (Cyclic/Tonic/Generative) = orthogonal to reward type
       → SAME gap can have different reward ratio tùy how fill
       
-  C2. P4 (chain to body-base) và P5 (collective dependency) = INDEPENDENT
-      → Einstein: P4=0 (direct coherence reward) + P5=MAX (centuries physics)
+  C2. Axis-4 (chain to body-base) và Axis-5 (collective dependency) = INDEPENDENT
+      → Einstein: Axis-4=0 (direct coherence reward) + Axis-5=MAX (centuries physics)
       
   C3. Hardware × Domain: competition via CONTEXT-DEPENDENT priority
       → NOT Maslow hierarchy — Max-Neef: simultaneous + context-dependent
@@ -526,6 +526,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     PhD thesis → chapters → experiments → each fill = mini reward
     → SUSTAINS drive over years
     → Without decomposition: one big gap → overwhelm → give up
+
+  CROSS-DOMAIN NEURAL EVIDENCE cho mini-arc decomposition:
+    🟢 Nakai, Daikoku & Oseki 2026 (Neuroscience Research):
+      IFG (inferior frontal gyrus, BA44) shared across music × math × language.
+      "Brain integrates hierarchical structures with statistical learning" across domains.
+      BA44 = "supramodal hierarchical parser" (Fadiga et al. 2009).
+    → Mini-arc decomposition dùng CÙNG neural substrate across domains.
+    → Music = "pure form" of hierarchical prediction:
+      5 simultaneous levels (beat → phrase → section → song → album).
+      Fractal structure confirmed: 🟢 Voss & Clarke 1975, Hsü & Hsü 1991.
+    → Drill-Sound-Brain/07-Music-Entrainment-Reward-Dynamics v1.2 §4b.
     
   ⭐ SCHEMA-INSTALLED GAP ĐẶC BIỆT:
     Fill = RELIEF tag (cortisol drop), KHÔNG PHẢI opioid
@@ -550,39 +561,39 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐⭐ MỖI GAP CÓ THỂ QUAN SÁT BẰNG 5 PARAMETERS:
 
   ┌──────────────────────────────────────────────────────────────┐
-  │  P1 — HARDWARE SOURCE: sensor/hormone/coherence nào?         │
-  │  P2 — SATIATION PROFILE: Cyclic / Tonic / Generative?       │
-  │  P3 — REWARD COMPOSITION: Reward-Signal-Architecture Evaluative : Direct-State ratio?         │
-  │  P4 — CHAIN TO BODY-BASE: fill trực tiếp hay qua bao nhiêu? │
-  │  P5 — COLLECTIVE DEPENDENCY: infrastructure cần bao nhiêu?   │
+  │  Axis-1 — HARDWARE SOURCE: sensor/hormone/coherence nào?         │
+  │  Axis-2 — SATIATION PROFILE: Cyclic / Tonic / Generative?       │
+  │  Axis-3 — REWARD COMPOSITION: Reward-Signal-Architecture Evaluative : Direct-State ratio?         │
+  │  Axis-4 — CHAIN TO BODY-BASE: fill trực tiếp hay qua bao nhiêu? │
+  │  Axis-5 — COLLECTIVE DEPENDENCY: infrastructure cần bao nhiêu?   │
   └──────────────────────────────────────────────────────────────┘
   
-  P1 — HARDWARE SOURCE:
+  Axis-1 — HARDWARE SOURCE:
     Sensory: 17 receptor categories (Body-Feedback-Mechanism v2.0 §2.2)
     Homeostatic: đường huyết, oxy, pH, áp suất — internal monitor
     Hormone: oxytocin (parental), dopamine/NE/serotonin↓ (limerence)
     Coherence: ACC/insula detect pattern inconsistency
-    → P1 = UNCHANGEABLE (hardware-determined)
+    → Axis-1 = UNCHANGEABLE (hardware-determined)
     → NHƯNG: compilation MỞ RỘNG what counts as "input" (Reward-Signal-Architecture v2.0: E₀→E₃)
     
-  P2 — SATIATION PROFILE:
+  Axis-2 — SATIATION PROFILE:
     Cyclic / Tonic / Generative / Compound
-    → P2 = primarily HARDWARE (cyclic/tonic) hoặc EMERGE từ compilation (generative)
+    → Axis-2 = primarily HARDWARE (cyclic/tonic) hoặc EMERGE từ compilation (generative)
     
-  P3 — REWARD COMPOSITION:
+  Axis-3 — REWARD COMPOSITION:
     Evaluative Reward (opioid) : Direct-State Reward (non-opioid)
     reward ratio = PER-GAP, PER-FILL (same gap, different fill = different ratio)
-    → P3 = depends on BOTH hardware source AND compilation depth
+    → Axis-3 = depends on BOTH hardware source AND compilation depth
     → Beginner: wine tasting = mostly Direct-State (taste) + little Evaluative (shallow eval)
     → Expert: wine tasting = mostly Evaluative (rich evaluation) + some Direct-State (taste)
     
-  P4 — CHAIN TO BODY-BASE:
+  Axis-4 — CHAIN TO BODY-BASE:
     Chain = 0: fill TRỰC TIẾP (ăn → no, giải toán → pleasant)
     Chain = 1-3: fill QUA BƯỚC (kiếm tiền → mua đồ → fill gap)
     Chain = dài: fill qua DOMAIN (học ngành → việc → tiền → fill nhiều gaps)
     → Chi tiết tại §8
     
-  P5 — COLLECTIVE DEPENDENCY:
+  Axis-5 — COLLECTIVE DEPENDENCY:
     Low: sensory (genes pre-install, baby đói ngay)
     Medium: near-body (vài năm experience + social comparison)
     High: abstract (decades accumulated knowledge)
@@ -594,7 +605,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   ┌──────────────┬──────────────┬──────────────┬──────────────┬──────────────┬──────────┐
-  │ Gap          │ P1 Source    │ P2 Satiation │ P3 Reward    │ P4 Chain     │ P5 Coll. │
+  │ Gap          │ Axis-1 Source   │ Axis-2 Satiation│ Axis-3 Reward   │ Axis-4 Chain    │ Axis-5 Coll.│
   ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┼──────────┤
   │ Hunger       │ Taste+homeo. │ Cyclic       │ ~80/20     │ 0 (eat)      │ Low      │
   │ (basic)      │              │              │              │ or 2+ (work  │ (gene)   │
@@ -616,14 +627,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └──────────────┴──────────────┴──────────────┴──────────────┴──────────────┴──────────┘
 
   ⭐ INSIGHT TỪ 5-PARAMETER:
-    P4 và P5 CORRELATE ở 2 cực nhưng DECOUPLE ở giữa:
-      Sensory gap: P4 = 0 (direct) + P5 = low → CẢ HAI đơn giản
-      Abstract gap: P4 CÓ THỂ = 0 (Pathway 1!) + P5 = HIGH → DECOUPLE
+    Axis-4 và Axis-5 CORRELATE ở 2 cực nhưng DECOUPLE ở giữa:
+      Sensory gap: Axis-4 = 0 (direct) + Axis-5 = low → CẢ HAI đơn giản
+      Abstract gap: Axis-4 CÓ THỂ = 0 (Pathway 1!) + Axis-5 = HIGH → DECOUPLE
       → Einstein: chain = 0 (pleasant trực tiếp khi giải) nhưng dependency = MAX
-      → Vì: Collective provide CHUNKS (P5), reward = INTERNAL (P4 chain=0)
+      → Vì: Collective provide CHUNKS (Axis-5), reward = INTERNAL (Axis-4 chain=0)
       → = 2 parameters ĐỘC LẬP:
-        P4 = chain từ fill event → body-base reward
-        P5 = infrastructure cần cho gap TỒN TẠI
+        Axis-4 = chain từ fill event → body-base reward
+        Axis-5 = infrastructure cần cho gap TỒN TẠI
 
   🟡 5-parameter per-gap model = framework synthesis
   🟢 Individual parameters: established in respective source files
@@ -775,12 +786,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = WHY childhood dependency = architecture REQUIREMENT, not weakness
     
   ⭐ EINSTEIN PARADOX RESOLVED:
-    P4 (chain to body-base) = 0 (Pathway 1: coherence → opioid trực tiếp)
-    P5 (collective dependency) = MAX (centuries physics knowledge)
-    → P4 VÀ P5 = 2 PARAMETERS ĐỘC LẬP:
-      P4 = chain từ fill event → body-base reward
-      P5 = infrastructure cần cho gap TỒN TẠI
-      → Einstein: reward trực tiếp (P4=0) nhưng gap cần collective (P5=max)
+    Axis-4 (chain to body-base) = 0 (Pathway 1: coherence → opioid trực tiếp)
+    Axis-5 (collective dependency) = MAX (centuries physics knowledge)
+    → Axis-4 VÀ Axis-5 = 2 PARAMETERS ĐỘC LẬP:
+      Axis-4 = chain từ fill event → body-base reward
+      Axis-5 = infrastructure cần cho gap TỒN TẠI
+      → Einstein: reward trực tiếp (Axis-4=0) nhưng gap cần collective (Axis-5=max)
       → By-product (giáo sư, tiền, fame) = Pathway 2, arrives LATER
       → "Einstein pleasant KHI giải, TRƯỚC KHI ai biết" = Pathway 1
     
@@ -902,7 +913,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ Reward-Signal-Architecture × TECHNOLOGY:
     Technology fill PRIMARILY Direct-State territory (direct-state hardware):
       → Clothing: touch comfort (Direct-State) ✅ filled
-      → AC: temperature (Direct-State) ✅ filled
+      → Air conditioning: temperature (Direct-State) ✅ filled
       → Food supply: basic nutrition (Direct-State component) ✅ filled
     Technology CANNOT fill Evaluative evaluation:
       → "Ngon" = Evaluative evaluation of food → cần personal compilation
@@ -992,7 +1003,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Primary filler established → baseline include entity
     → Switch to backup = Chunk-Miss on primary + uncertainty on backup
     → = WHY Entity-Access hard to redirect (cost of switching > staying)
-    → = Bond-Architecture v1.0 §3.2: gap redirect mechanism
+    → = Bond-Architecture v2.0 §3.2: gap redirect mechanism
     
   "VÔ THỨC VALENCE KHÁ CHÍNH XÁC":
     Self-Pattern-Modeling Compiled predict ACCURATELY → body APPROACH
@@ -1180,7 +1191,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Partner suppress drive riêng → no new by-products → generative impossible
 ```
 
-### Case 2: Einstein — P4 vs P5 decouple
+### Case 2: Einstein — Axis-4 vs Axis-5 decouple
 
 ```
   TÌNH HUỐNG:
@@ -1189,12 +1200,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Tiền, giáo sư, Nobel đến SAU.
     
   PHÂN TÍCH 5-PARAMETER:
-    P1 = ACC coherence detection (pattern inconsistency in physics)
-    P2 = Generative (mỗi insight → new gaps → perpetual)
-    P3 = ~95/5 (cortical evaluation dominant)
-    P4 = 0 (Pathway 1: coherence → opioid trực tiếp — chain = 0!)
-    P5 = MAX (centuries of collective physics knowledge cần tồn tại)
-    → P4 VÀ P5 DECOUPLE: reward trực tiếp, nhưng gap cần collective
+    Axis-1 = ACC coherence detection (pattern inconsistency in physics)
+    Axis-2 = Generative (mỗi insight → new gaps → perpetual)
+    Axis-3 = ~95/5 (cortical evaluation dominant)
+    Axis-4 = 0 (Pathway 1: coherence → opioid trực tiếp — chain = 0!)
+    Axis-5 = MAX (centuries of collective physics knowledge cần tồn tại)
+    → Axis-4 VÀ Axis-5 DECOUPLE: reward trực tiếp, nhưng gap cần collective
     
   FRAMEWORK PREDICTION:
     → By-product (fame, money) = Pathway 2, arrives LATER
@@ -1212,7 +1223,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     "Biết vậy mà vẫn không cưỡng được."
     
   PHÂN TÍCH:
-    Hardware gap (sweet taste): P1 = taste receptor, P2 = Cyclic
+    Hardware gap (sweet taste): Axis-1 = taste receptor, Axis-2 = Cyclic
     Schema re-tag: approach → avoidance (CƠ CHẾ 3 collective bias)
     → NHƯNG: hardware gap = STRONG (evolutionary: sugar = scarce = survive)
     → Schema re-tag at PFC level, KHÔNG override body-level signal
@@ -1293,8 +1304,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   3 satiation profiles RENAME (Cyclic/Tonic/Generative)
   Profile transitions + compounds
   Reward-Signal-Architecture Evaluative:B integration into gap tables
-  5-parameter per-gap model (P1-P5)
-  P4 × P5 independence (chain vs dependency)
+  5-parameter per-gap model (Axis-1-Axis-5)
+  Axis-4 × Axis-5 independence (chain vs dependency)
   ENGINE/ROAD/VEHICLE architecture
   Chain compilation + PFC auto-pilot
   Collective-Arc = infrastructure (not opposing force)
@@ -1319,7 +1330,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Agent-mode vs Tool-mode switch threshold (what triggers mode switch?)
   Existence-based gap as distinct neural mechanism (vs very deep Tonic?)
   Gap "death" conditions (exact threshold for chunk decay → gap disappear?)
-  P4×P5 decouple boundary (where exactly do chain and dependency diverge?)
+  Axis-4×Axis-5 decouple boundary (where exactly do chain and dependency diverge?)
 ```
 
 ---
@@ -1341,11 +1352,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Connection v4.0 | §3 (3 Generative Primitives) | CONNECTOR — connection emerge |
 | PFC-Operations v1.0 | §4 (3 outcomes), §6 (Compiled Quality) | MECHANISM — suppress + compiled quality |
 | By-Product-Gap-Resonance v1.4 | §1 (by-product match), §4 (4 conditions) | COMPANION — resonance mechanism |
-| By-Product-Scale v1.0 | §2-§4 (3 levels), §5 (hardware subsidy) | COMPANION — cross-scale |
-| Bond-Architecture v1.0 | §3 (gap redirect), §4 (M1-M4) | COMPANION — bond dynamics |
+| By-Product-Scale v1.0 | §2-§4 (3 levels), §5 (hardware-subsidy) | COMPANION — cross-scale |
+| Bond-Architecture v2.0 | §3 (gap redirect), §4 (Resonance Decline) | COMPANION — bond dynamics |
 | Expansion-Saturation-Crisis v1.1 | §1 (abundance → higher gaps) | COMPANION — modern gap frontier |
-| Valence-Propagation v3.0 | §2 (structural/current), §5 (hardware subsidy) | MECHANISM — valence per-entity |
+| Valence-Propagation v3.0 | §2 (structural/current), §5 (hardware-subsidy) | MECHANISM — valence per-entity |
 | Body-Feedback-Label v2.0 | §2 (Foundation terms), §3 (Body-level) | VOCABULARY — terminology reference |
+| Drill-Sound-Brain/07 v1.2 | §4b Unified Hierarchy | Mini-arc neural substrate (Nakai 2026, fractal) |
 
 ---
 
@@ -1386,3 +1398,6 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | R31 | Kapur 2003 — Aberrant salience: dopamine makes irrelevant seem important | §8 | 🟢 |
 | R32 | Durkheim 1893 — Division of Labor → organic solidarity | §9 | 🟢 |
 | R33 | Adam Smith 1776 — Specialization → productivity + dependency | §9 | 🟢 |
+| R34 | Nakai, Daikoku & Oseki 2026 — IFG/BA44 shared across music × math × language | §5 | 🟢 |
+| R35 | Fadiga et al. 2009 — BA44 = supramodal hierarchical parser | §5 | 🟢 |
+| R36 | Voss & Clarke 1975 — Fractal 1/f noise in music structure | §5 | 🟢 |

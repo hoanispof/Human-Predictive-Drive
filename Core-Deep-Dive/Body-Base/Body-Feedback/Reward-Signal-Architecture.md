@@ -1,10 +1,11 @@
 ---
-title: Reward Signal Architecture — Evaluative/Direct-State + 5 Profiles + Interaction Model
-version: 2.0
+title: Reward-Signal-Architecture — Evaluative/Direct-State + 5 Profiles + Interaction Model
+version: 2.1
 created: 2026-05-09
 rewritten: 2026-05-17 (v2.0 — +Compilable Architecture connection, +Compiled/Fresh note, +Development trajectory enriched, +Inter-Body cross-refs, +Label v2.0 vocabulary)
+updated: 2026-05-25 (v2.1 — §1.1+§2.1+§3.1 notes "GENERAL mechanism" for both directions, §12 +Dissonance-Signal-Architecture v1.0 counterpart cross-ref)
 previous: v1.0 → backup/Reward-Signal-Architecture-v1.0-backup.md
-status: REFERENCE v2.0
+status: REFERENCE v2.1
 scope: |
   WHAT KINDS of reward signals exist + HOW they interact.
   Evaluative Reward (opioid) vs Direct-State Reward (non-opioid).
@@ -16,7 +17,7 @@ scope: |
   v2.0: Compilable Architecture = WHY Evaluative Reward possible. Compiled/Fresh = E₀→E₃ mechanism.
   v2.0: Development = Direct-State Reward dominant → Evaluative Reward compiles. Domain verify → accuracy.
 purpose: |
-  03-Reward.md answers: WHEN reward fires (H10 5 preconditions) + HOW mechanism works (7-step VTA).
+  03-Reward.md answers: WHEN reward fires (5 Body-Feedback-Preconditions) + HOW mechanism works (7-step VTA).
   File này answers: WHAT KINDS of reward exist + HOW they interact.
   Complement, not replacement. Different questions → different files.
   Source: Distilled from Drill-Reward-Feeling-Main.md v1.2 (~6,700L, ALL 20 GAPs COMPLETE).
@@ -24,13 +25,14 @@ purpose: |
 position: |
   Body-Feedback/ folder — ngang hàng với Body-Feedback-Mechanism.md + Gap-Direction.md.
   KHÔNG nằm trong chuỗi P1→P4 (01-Foundation → 02-Dissonance → 03-Reward → 04-Integration).
-  Reading order: SAU 03-Reward.md (cần H10 foundation).
+  Reading order: SAU 03-Reward.md (cần Body-Feedback-Precondition foundation).
 dependencies:
-  - 03-Reward.md — H10 5 preconditions, 7-step VTA mechanism
+  - 03-Reward.md — 5 Body-Feedback-Preconditions, 7-step VTA mechanism
+  - Body-Feedback-Precondition.md v1.0 — 5 preconditions formal definitions (§1.3 mapping)
   - Body-Feedback-Mechanism.md v2.0 — 2 sources, 3 chunk dynamics, compound, Body-Need
   - Feeling.md v2.0 — feeling = PFC observation of body-feedback
   - Feeling-Mechanism-Deep.md — §4 reward mechanism detail
-  - Compile-Taxonomy.md v1.0 — 3 compile types, 4 pathways
+  - Compile-Taxonomy.md v2.0 — 3 compile types, 4 pathways
   - PFC-Function.md v1.1 — 24 functions, PFC offline cases
   - PFC-Hardware.md v1.0 — COMT, DRD4, MAO-A, NE
   - Cortisol-Baseline.md v2.0 — amplifier, direction > level
@@ -45,15 +47,15 @@ language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Reward Signal Architecture — Evaluative/Direct-State + 5 Profiles + Interaction Model
+# Reward-Signal-Architecture — Evaluative/Direct-State + 5 Profiles + Interaction Model
 
-> **03-Reward.md: KHI NÀO reward fire? (H10 preconditions, 7-step VTA)**
+> **03-Reward.md: KHI NÀO reward fire? (Body-Feedback-Preconditions, 7-step VTA)**
 > **File này: reward fire CHẤT LƯỢNG THẾ NÀO? (Types, Profiles, Interaction)**
 >
 > Ăn ngon → "pleasant." Hiểu bài toán → "pleasant." Nghe nhạc hay → "pleasant."
 > Cùng 1 từ. Cùng 1 hệ opioid. Nhưng cảm giác KHÁC NHAU.
 >
-> Framework nói: Reward = body-base confirm signal (H10, 03-Reward.md).
+> Framework nói: Reward = body-base confirm signal (Body-Feedback-Precondition, 03-Reward.md).
 > File này drill: **"Hương vị" reward đến từ đâu?**
 > Và: tại sao cùng hệ thống mà 3 cái "pleasant" trên KHÁC NHAU?
 >
@@ -68,7 +70,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 03-Reward.md (P3):
-  → WHEN reward fires: H10 5 preconditions (P1-P5)
+  → WHEN reward fires: 5 Body-Feedback-Preconditions (Precondition-1–Precondition-5)
   → HOW mechanism works: 7-step VTA → opioid pipeline
   → 7 reward cases (C1.1-C1.7)
 
@@ -145,8 +147,8 @@ Reward-Signal-Architecture.md (file này):
   │  Circuit: Hedonic hotspot (NAcc shell, VP, mOFC)                │
   │  Primary signal: μ-opioid                                       │
   │  Amplifier: Endocannabinoid (dependent on opioid — Stacey 2018) │
-  │  H10: Full 5 preconditions required                             │
-  │  Requires: Compiled chunks (P2) + body-need gap (P1)           │
+  │  Body-Feedback-Precondition: Full 5 preconditions required       │
+  │  Requires: Compiled chunks (Precondition-2) + body-need gap (Precondition-1) │
   │  Learned: YES — quality depends on chunk library                │
   │  Modulated by: Alliesthesia (body state changes evaluation)     │
   │  Examples: Food, music, insight, visual beauty, social praise   │
@@ -161,7 +163,7 @@ Reward-Signal-Architecture.md (file này):
   │    Touch: CT afferents → posterior insula (🟢 Löken 2009)       │
   │    Exercise: Endocannabinoid CB1 (🟢 Fuss 2015 PNAS)           │
   │    Temperature: thermoreceptor → hypothalamus                    │
-  │  H10: Simplified (P1 basic, P2-P5 reduced/N/A)                 │
+  │  Body-Feedback-Precondition: Simplified (Precondition-1 basic, Precondition-2–Precondition-5 reduced/N/A) │
   │  Requires: Hardware pathways (minimal compiled chunks)          │
   │  Learned: MINIMAL — hardware from birth                         │
   │  Modulated by: Less — sensor-level adaptation only              │
@@ -173,6 +175,12 @@ Reward-Signal-Architecture.md (file này):
   COMMON ELEMENT (framework level):
   "Reward = body-base confirm signal" — cả Evaluative VÀ Direct-State.
   Framework ĐÚNG ở abstraction level. Evaluative/Direct-State = mechanism detail bên dưới.
+
+  GENERAL ARCHITECTURE — APPLIES TO BOTH DIRECTIONS:
+  Evaluative/Direct-State = GENERAL body-feedback dimension, không chỉ reward.
+  Dissonance CŨNG CÓ Evaluative Dissonance (compiled) + Direct-State Dissonance (hardware).
+  Cùng architecture, cùng insula gradient. Khác neurochemistry, khác direction.
+  → Dissonance-Signal-Architecture.md v1.0 = COUNTERPART file.
 
   Source: Drill §3.5, §3.7 (R1+R13).
   🟢 Berridge & Robinson 1998, 2003. 🟢 Loseth 2019. 🟢 Fuss 2015.
@@ -199,39 +207,39 @@ Reward-Signal-Architecture.md (file này):
   → Evaluative/Direct-State = spectrum, NOT binary
 ```
 
-### §1.3 — H10 × Evaluative/Direct-State
+### §1.3 — Body-Feedback-Precondition × Evaluative/Direct-State
 
 ```
-🟡 H10 PRECONDITIONS — KHÁC NHAU CHO 2 LOẠI:
+🟡 BODY-FEEDBACK-PRECONDITIONS — KHÁC NHAU CHO 2 LOẠI:
 
-  ┌──────────────────┬─────────────────┬────────────────┐
-  │ Precondition     │ Evaluative Reward          │ Direct-State Reward         │
-  ├──────────────────┼─────────────────┼────────────────┤
-  │ P1 Schema        │ REQUIRED —      │ SIMPLIFIED —   │
-  │    pending       │ specific gap    │ body-need      │
-  │                  │                 │ always present │
-  ├──────────────────┼─────────────────┼────────────────┤
-  │ P2 Chunks base   │ REQUIRED —      │ MINIMAL —      │
-  │                  │ compiled for    │ hardware paths │
-  │                  │ evaluation      │ from birth     │
-  ├──────────────────┼─────────────────┼────────────────┤
-  │ P3 prediction-delta     │ REQUIRED —      │ UNCERTAIN —    │
-  │                  │ novelty/change  │ may bypass VTA │
-  │                  │                 │ (posterior     │
-  │                  │                 │  insula path)  │
-  ├──────────────────┼─────────────────┼────────────────┤
-  │ P4 Goldilocks    │ REQUIRED —      │ HARDWARE —     │
-  │                  │ ~40-70% match   │ CT ~1-10cm/s   │
-  │                  │                 │ = fixed range  │
-  ├──────────────────┼─────────────────┼────────────────┤
-  │ P5 Chunk tag     │ REQUIRED —      │ N/A —          │
-  │                  │ opioid/cortisol │ hardware, no   │
-  │                  │ tag direction   │ tag needed     │
-  └──────────────────┴─────────────────┴────────────────┘
+  ┌────────────────────────────────┬─────────────────┬────────────────┐
+  │ Body-Feedback-Precondition     │ Evaluative Reward          │ Direct-State Reward         │
+  ├────────────────────────────────┼─────────────────┼────────────────┤
+  │ Precondition-1 Directed-Gap   │ REQUIRED —      │ SIMPLIFIED —   │
+  │   (schema pending)            │ specific gap    │ body-need      │
+  │                                │                 │ always present │
+  ├────────────────────────────────┼─────────────────┼────────────────┤
+  │ Precondition-2 Chunk-Substrate│ REQUIRED —      │ MINIMAL —      │
+  │                                │ compiled for    │ hardware paths │
+  │                                │ evaluation      │ from birth     │
+  ├────────────────────────────────┼─────────────────┼────────────────┤
+  │ Precondition-3 Delta-Gate     │ REQUIRED —      │ UNCERTAIN —    │
+  │   (prediction-delta)          │ novelty/change  │ may bypass VTA │
+  │                                │                 │ (posterior     │
+  │                                │                 │  insula path)  │
+  ├────────────────────────────────┼─────────────────┼────────────────┤
+  │ Precondition-4 Match-Range    │ REQUIRED —      │ HARDWARE —     │
+  │   (Goldilocks zone — dynamic) │ dynamic zone    │ CT ~1-10cm/s   │
+  │                                │                 │ = fixed range  │
+  ├────────────────────────────────┼─────────────────┼────────────────┤
+  │ Precondition-5 Compile-Gate   │ REQUIRED —      │ N/A —          │
+  │   (chunk tag)                 │ opioid/cortisol │ hardware, no   │
+  │                                │ tag direction   │ tag needed     │
+  └────────────────────────────────┴─────────────────┴────────────────┘
 
-  → Direct-State Reward KHÔNG bị block bởi P2, P3, P5 failures
+  → Direct-State Reward KHÔNG bị block bởi Precondition-2, Precondition-3, Precondition-5 failures
   → Direct-State Reward = RELIABLE, ALWAYS-AVAILABLE baseline reward
-  → Evaluative Reward = RICH, VARIABLE, but CONDITIONAL on P1-P5
+  → Evaluative Reward = RICH, VARIABLE, but CONDITIONAL on Precondition-1–Precondition-5
   → Loss of Evaluative (burnout, anhedonia) → Direct-State remains ("touch still good")
   → Loss of Direct-State (neuropathy) → Evaluative remains ("can still enjoy music")
   → Loss of BOTH → severe anhedonia (rare, devastating)
@@ -245,8 +253,8 @@ Reward-Signal-Architecture.md (file này):
 🟡 DIRECT-STATE = EVOLUTIONARY FLOOR:
 
   Direct-State Reward KHÔNG bị ảnh hưởng bởi:
-  → P2 failure (chưa compile) — infant CAN experience
-  → P5 cortisol tag — KHÔNG associated với threat
+  → Precondition-2 failure (chưa compile) — infant CAN experience
+  → Precondition-5 cortisol tag — KHÔNG associated với threat
   → VTA habituation — Direct-State bypass VTA (🔴 prediction, §5)
 
   → Direct-State = reward CỔ HƠN Evaluative Reward:
@@ -379,7 +387,14 @@ Reward-Signal-Architecture.md (file này):
 ### §2.1 — Core finding: Evaluative Reward is NOT monolithic
 
 ```
-⭐ EVALUATIVE REWARD CÓ SPECTRUM OF EVALUATION COMPLEXITY:
+⭐ E₀→E₃ = EVALUATION COMPLEXITY GRADIENT — APPLIES TO BOTH DIRECTIONS:
+
+  File này: E₀→E₃ applied to REWARD direction.
+  Dissonance-Signal-Architecture.md §2: E₀→E₃ applied to DISSONANCE direction.
+  E₀→E₃ = evaluation complexity, không phải reward-specific.
+  VD: E₀ reward = sweet taste. E₀ dissonance = bitter aversion. CÙNG Steiner 1973.
+
+  EVALUATIVE REWARD CÓ SPECTRUM OF EVALUATION COMPLEXITY:
 
   ┌──────────────────────────────────────────────────────────────────┐
   │                                                                  │
@@ -499,6 +514,13 @@ Reward-Signal-Architecture.md (file này):
 
 ```
 ⭐ EVALUATIVE GATES DIRECT-STATE = POSTERIOR-TO-ANTERIOR INSULA GRADIENT:
+
+  GENERAL MECHANISM — APPLIES TO BOTH DIRECTIONS:
+  File này: Evaluative Gates applied to REWARD (evaluation modulates reward experience).
+  Dissonance-Signal-Architecture.md §3: CÙNG mechanism applied to DISSONANCE.
+  PROOF: Placebo = Evaluative suppresses Direct-State Dissonance (Wager 2004).
+         Nocebo = Evaluative amplifies Direct-State Dissonance (Colloca & Benedetti 2005).
+  Insula gradient = GENERAL interoceptive processing, không chỉ reward.
 
   🟢 Craig 2002, 2013: posterior insula → mid-insula → anterior insula
   = progressively context-enriched interoceptive representation.
@@ -822,7 +844,7 @@ Reward-Signal-Architecture.md (file này):
   Source: Drill §7.3 (R4).
 ```
 
-### §4.5 — Poincaré Equivalence: Beauty = H10 P4
+### §4.5 — Poincaré Equivalence: Beauty = Precondition-4 Match-Range
 
 ```
 🟢🟡 BEAUTY = THE FEELING OF GOLDILOCKS-LEVEL PATTERN COHERENCE:
@@ -834,26 +856,26 @@ Reward-Signal-Architecture.md (file này):
       Musical beauty (🟢 Blood & Zatorre 2001)
       Facial beauty (🟢 O'Doherty et al. 2003)
 
-  Framework: beauty = H10 P4 operating on ANY domain's chunks.
+  Framework: beauty = Precondition-4 Match-Range operating on ANY domain's chunks.
   NOT a separate aesthetic faculty.
 
   3 simultaneous conditions:
-    ① Sufficient COMPLEXITY (P4 floor): 1+1=2 → no beauty (trivial)
-    ② Sufficient SURPRISE (P3 delta): known proof 100th time → no beauty
-    ③ Sufficient COHERENCE (P4 ceiling): random → no beauty
+    ① Sufficient COMPLEXITY (Precondition-4 floor): 1+1=2 → no beauty (trivial)
+    ② Sufficient SURPRISE (Precondition-3 delta): known proof 100th time → no beauty
+    ③ Sufficient COHERENCE (Precondition-4 ceiling): random → no beauty
 
   Beauty = OPTIMAL coherence-to-complexity ratio = Goldilocks for patterns.
 
-  P2 = BEAUTY GATE:
-    No chunks in domain → P4 CANNOT fire → no beauty experience.
-    → Visual beauty: MOST ACCESSIBLE (hardware-aided P2)
+  Precondition-2 = BEAUTY GATE:
+    No chunks in domain → Precondition-4 CANNOT fire → no beauty experience.
+    → Visual beauty: MOST ACCESSIBLE (hardware-aided Precondition-2)
     → Math beauty: LEAST ACCESSIBLE (expert E₃ chunks required)
     → = "Tại sao không phải ai cũng thấy toán đẹp"
-      = P2 gate highest for math, not lack of aesthetic sense
+      = Precondition-2 gate highest for math, not lack of aesthetic sense
 
   ② cross-domain priming (Einstein's music mechanism):
     → Music ② active → ACC coherence detection WARM
-    → Physics chunks also activate (background P1)
+    → Physics chunks also activate (background Precondition-1)
     → Already-warm ACC detects coherence MORE EASILY
     → = "Music is the driving force behind intuition" — ② pathway warmed
 
@@ -1277,14 +1299,14 @@ Reward-Signal-Architecture.md (file này):
     Definition: Body-need state changes EVALUATION OUTCOME.
     → Đói → chocolate = "fit body-need" → opioid → pleasant
     → No → chocolate = "no body-need" → no opioid → neutral
-    → Mechanism: P1 (schema pending) modulates evaluation result
+    → Mechanism: Precondition-1 (schema pending) modulates evaluation result
     → 🟢 Cabanac 1971: gustatory alliesthesia
 
     Characteristics:
     → CAN partially override by PFC (force-eat when full = possible)
     → Develops with CHUNK COMPILATION (needs chunks)
     → Evaluative Reward territory primarily
-    → = H10 P1 mechanism
+    → = Precondition-1 Directed-Gap mechanism
 
 
   ❸ GATE-LEVEL STATE DEPENDENCE (Evaluative modulates Direct-State experience):
@@ -1418,7 +1440,7 @@ Reward-Signal-Architecture.md (file này):
   → = WHY diverse domain exposure improves Evaluative accuracy over lifetime
 
   Cross-ref: Inter-Body-Mechanism.md §1 (domain = final arbiter).
-  Cross-ref: Ask-AI.md §6.1 (Dual Check: body=QC, domain=arbiter).
+  Cross-ref: Ask-AI.md §6.1 (Dual Check: body=quality controller, domain=arbiter).
 
   Source: Drill §3.8, §3.10 (R19).
 ```
@@ -1426,25 +1448,25 @@ Reward-Signal-Architecture.md (file này):
 ### §8.2 — 4 Sensitive Periods (NOT critical)
 
 ```
-🟡 WINDOWS WHERE P5 TAGS COMPILE MORE READILY:
+🟡 WINDOWS WHERE Precondition-5 TAGS COMPILE MORE READILY:
 
   WINDOW 1 — Foundation (0-3 tuổi):
-    Evaluative/Direct-State ≈ 5-20% / 95-80%. P5 tags from BODY experience.
-    → Attachment quality = P5 FOUNDATION tag (🟢 Sroufe 2005).
+    Evaluative/Direct-State ≈ 5-20% / 95-80%. Precondition-5 tags from BODY experience.
+    → Attachment quality = Precondition-5 FOUNDATION tag (🟢 Sroufe 2005).
     → [người → safe] vs [người → unsafe] — PERSISTS deepest.
 
   WINDOW 2 — Exploration (3-7 tuổi):
-    Evaluative/Direct-State ≈ 40/60. P5 tags from PLAY + exploration.
+    Evaluative/Direct-State ≈ 40/60. Precondition-5 tags from PLAY + exploration.
     THE WINDOW where approach/avoidance tags for DOMAINS compile.
     → 1 STRONG avoidance tag can override many mild approach tags.
 
   WINDOW 3 — Deepening (7-12 tuổi):
     Evaluative/Direct-State ≈ 50/50. School begins → threat vs novelty DIVERGES.
     → "Ghét toán" or "thích toán" compiled here → persists decades.
-    → Education system = MASS P5 TAG INSTALLATION mechanism.
+    → Education system = MASS Precondition-5 TAG INSTALLATION mechanism.
 
   WINDOW 4 — Identity (12-18 tuổi):
-    Evaluative/Direct-State ≈ 60/40. P5 tags COMPOUND with social (③) tags.
+    Evaluative/Direct-State ≈ 60/40. Precondition-5 tags COMPOUND with social (③) tags.
     → "Tôi là người thích X" = accumulated approach → identity chunk.
     → Reconsolidation still possible but HARDER.
 
@@ -1455,10 +1477,10 @@ Reward-Signal-Architecture.md (file này):
   Source: Drill §3.21 (R6). 🟢 Sroufe 2005, Bowlby 1969, Ainsworth 1978.
 ```
 
-### §8.3 — 4-Pathway × P5 Tag Model
+### §8.3 — 4-Pathway × Precondition-5 Tag Model
 
 ```
-🟡 COMPILE PATHWAY → DIFFERENT P5 TAGS → DIFFERENT ADULT REWARD:
+🟡 COMPILE PATHWAY → DIFFERENT Precondition-5 TAGS → DIFFERENT ADULT REWARD:
 
   ┌────────────────────────┬──────────────────────┬──────────────────────┐
   │ Pathway                │ Body State at Compile│ Adult Reward Profile  │
@@ -1479,7 +1501,7 @@ Reward-Signal-Architecture.md (file này):
   └────────────────────────┴──────────────────────┴──────────────────────┘
 
   KEY: Adult reward capacity = NOT random trait.
-  = Accumulated P5 tags through childhood × pathway used.
+  = Accumulated Precondition-5 tags through childhood × pathway used.
   = "Talent" = early opioid-tagged exposure + hardware fit + years
 
   COMPOUND TAG ACCUMULATION:
@@ -1490,10 +1512,10 @@ Reward-Signal-Architecture.md (file này):
   → Avoidance snowball: avoid → no compile → tag stays → avoid more
   → BOTH self-reinforcing. Breaking avoidance = EXTERNAL intervention needed.
 
-  OVERJUSTIFICATION = P5 TAG OVERWRITE:
+  OVERJUSTIFICATION = Precondition-5 TAG OVERWRITE:
   → 🟢 Lepper, Greene & Nisbitt 1973:
     Free drawing → expected reward → drawing DROPS
-  → Framework: extrinsic reward OVERWRITES P5 from approach to instrumental
+  → Framework: extrinsic reward OVERWRITES Precondition-5 from approach to instrumental
   → Pathway ① → ④ shift = DESTRUCTIVE (intrinsic → extrinsic)
 
   Source: Drill §3.21 (R6). Cross-ref: Compile-Taxonomy.md §3.
@@ -1513,11 +1535,13 @@ Reward-Signal-Architecture.md (file này):
   │                      │                      │ NE, opioid density   │
   ├──────────────────────┼──────────────────────┼─────────────────────┤
   │ ② Childhood          │ Reward DIRECTION +   │ VERY HARD (deepest   │
-  │   Compilation        │ P5 tags (§8.3)       │ chunks, reconsolid.  │
+  │   Compilation        │ Precondition-5 tags  │ chunks, reconsolid.  │
+  │                      │ (§8.3)               │                      │
   │                      │                      │ possible but costly) │
   ├──────────────────────┼──────────────────────┼─────────────────────┤
   │ ③ Domain Exposure    │ WHERE reward         │ YES (education +     │
-  │                      │ expresses (P2 met)   │ experience)          │
+  │                      │ expresses            │ experience)          │
+  │                      │ (Precondition-2 met) │                      │
   ├──────────────────────┼──────────────────────┼─────────────────────┤
   │ ④ Channel Balance    │ HOW DOMINANT one     │ PARTIALLY (lifestyle │
   │                      │ profile becomes      │ choices, culture)    │
@@ -1708,7 +1732,7 @@ Reward-Signal-Architecture.md (file này):
   │                     │ → CONTINUOUS background identity-coherence  │
   │                     │ → Absent: "để làm gì?" → break dễ          │
   ├─────────────────────┼────────────────────────────────────────────┤
-  │ F2: GAP-DIRECTION   │ Persistent P1 at life scale                │
+  │ F2: GAP-DIRECTION   │ Persistent Precondition-1 at life scale    │
   │ (Zeigarnik life)    │ = Specific research question / project     │
   │                     │ → PFC ⑧ Active Lock — CANNOT release       │
   │                     │ → Absent: có meaning nhưng không biết hướng │
@@ -1766,8 +1790,8 @@ Reward-Signal-Architecture.md (file này):
     Trust thái độ without nội dung: "yêu mọi người, không tin hệ thống"
 
   → F4 = GATE deciding WHERE intelligence POINTS
-  → Reward mechanism = AMORAL — H10 fires for coherence bất kể moral
-  → P5 tag determines direction: childhood compilation decides
+  → Reward mechanism = AMORAL — Body-Feedback-Precondition fires for coherence bất kể moral
+  → Precondition-5 tag determines direction: childhood compilation decides
 
   Source: Drill §3.20 (R3 extended).
   🟢 Bowlby 1969, Ainsworth 1978: attachment styles.
@@ -1868,11 +1892,11 @@ Reward-Signal-Architecture.md (file này):
 
   Development:
   → Evaluative/Direct-State development gradient lifecycle
-  → 4-Pathway × P5 Tag Model
+  → 4-Pathway × Precondition-5 Tag Model
   → Compound Tag Accumulation (bidirectional snowball)
   → 5-Axis Individual Differences Model
   → 4 Departure Patterns
-  → Poincaré Equivalence = H10 P4 on any domain
+  → Poincaré Equivalence = Precondition-4 Match-Range on any domain
 
   Sustained arcs:
   → 5 Forces Holding Model
@@ -1908,9 +1932,9 @@ Reward-Signal-Architecture.md (file này):
   → Conditional Interaction Model (P-R7a through P-R7d)
 
   Development:
-  → P5 → adult capacity (P-R6a through P-R6d)
+  → Precondition-5 → adult capacity (P-R6a through P-R6d)
   → 5-Axis model (P-R8a through P-R8d)
-  → Beauty = H10 P4 (P-R3a through P-R3e)
+  → Beauty = Precondition-4 Match-Range (P-R3a through P-R3e)
 
   Sustained arcs:
   → 5 Forces predictions (P-R3f through P-R3h)
@@ -1947,7 +1971,12 @@ Reward-Signal-Architecture.md (file này):
 FRAMEWORK FILES LIÊN QUAN:
 
   COMPLEMENT FILE:
-  → 03-Reward.md — HOW reward fires (H10 preconditions) → file này WHAT KINDS
+  → 03-Reward.md — HOW reward fires (Body-Feedback-Preconditions) → file này WHAT KINDS
+
+  COUNTERPART FILE:
+  → Dissonance-Signal-Architecture.md v1.0 — COUNTERPART: Evaluative/Direct-State Dissonance,
+    E₀→E₃ dissonance, Evaluative Gates dissonance, Mismatch Splitting, Clinical Implications.
+    Cùng architecture (Evaluative/Direct-State, insula gradient). Khác direction + neurochemistry.
 
   INTER-BODY DRILL (v2.0 additions):
   → Inter-Body-Mechanism.md v1.0 — Compilable Architecture, Compiled/Fresh, 3-cost, domain arbiter
@@ -1964,7 +1993,7 @@ FRAMEWORK FILES LIÊN QUAN:
   → PFC-Hardware.md — COMT/DRD4 × reward patterns (Axis ①)
 
   RELATED SYSTEMS:
-  → Compile-Taxonomy.md v1.0 — 4 pathways × P5 tag
+  → Compile-Taxonomy.md v2.0 — 4 pathways × Precondition-5 tag
   → Dopamine-Is-Not-Reward.md v1.0 — dopamine = alert, Evaluative Reward opioid = reward
   → Liking-Wanting.md v1.0 — bridge Berridge, wanting mechanisms
   → Cortisol-Baseline.md v2.0 — relief profile ④
@@ -1972,10 +2001,10 @@ FRAMEWORK FILES LIÊN QUAN:
   → Meaning.md v2.0 — life-level Anchor-Schema = F1
   → Status.md v2.0 — Resource Access Map = F5
   → Connection.md v3.1 — L1 Self-Pattern-Modeling-owned, 3 Generative Primitives
-  → Ask-AI.md v3.1 — Dual Check (body=QC, domain=arbiter)
+  → Ask-AI.md v3.1 — Dual Check (body=quality controller, domain=arbiter)
 
   PHASE 1-9 FILES (updated versions):
-  → Body-Base.md v3.1 — entry point, Compilable Architecture, L3 fix
+  → Body-Base.md v3.3 — entry point, Compilable Architecture, L3→observation parameters
   → Body-Coupling.md v2.0 — Entity-Compiled subtypes, mixed coupling
   → Self-Pattern-Modeling.md v3.0 — Compiled/Fresh reframe
   → By-Product-Gap-Resonance.md v1.0 — 2-Stream, by-product match

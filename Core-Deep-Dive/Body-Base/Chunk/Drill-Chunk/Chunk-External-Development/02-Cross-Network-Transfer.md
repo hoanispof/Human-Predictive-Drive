@@ -24,7 +24,7 @@ dependencies:
   - Gap-Direction.md v1.0 — "Chưa biết = không gap", 4 properties, external install, oscillation
   - 01b-Chunk-Activation-Dynamics.md — Competitive re-linking, probability distribution
   - 01c-Chunk-Discovery-Lifecycle.md — Macro lifecycle accumulate → label → plan
-  - Core-Interface.md v1.0 — Experience-based language model (observer perspective)
+  - Ask-AI.md v3.1 — Dynamic interface: AI generate experience-based language per user (thay Core-Interface.md → backup)
   - Feeling-Literacy-Training.md — 5-stage progressive building model
   - Somatic-Articulation-Loop.md — AI as articulation catalyst
   - AI-Schema-Detection.md v2.0 — Self-drill + AI Trust Guardrails
@@ -92,7 +92,7 @@ CHƯA COVER:
   ❌ Gap Direction implications cho communication strategy
   ❌ Mini-gap chain theory — optimal sequencing for chunk installation
   ❌ Audience chunk detection — WHY necessary + WHAT to detect
-  ❌ Alternative: experience-based language (Core-Interface model)
+  ❌ Alternative: experience-based language (observer-level model)
   ❌ 2-force tension: [match user chunks] vs [present real mechanism]
 ```
 
@@ -110,9 +110,9 @@ CHƯA COVER:
   01c-Chunk-Discovery-Lifecycle.md: macro lifecycle accumulate → label → plan
   → Model cho conversation flow
 
-  Core-Interface.md v1.0: experience-based language — TOÀN BỘ framework
-  translated sang observer language KHÔNG jargon, KHÔNG analogy
-  → PROVEN alternative approach
+  Experience-based language model (§5): TOÀN BỘ framework
+  có thể translate sang observer language KHÔNG jargon, KHÔNG analogy
+  → PROVEN alternative approach (Ask-AI.md v3.1 triển khai dynamic per user)
 
   00-External-Mechanism.md §7: Education = batch Direction B
   → Foundation, file này EXTENDS: HOW to make Direction B effective
@@ -376,7 +376,7 @@ APPLIED TO COMMUNICATION:
     Analogy install:
       [PFC] → [kiểm soát] + [biết tốt nhất] + [ra lệnh → nghe]
     
-    Mechanism thật (Core-Interface.md §4):
+    Mechanism thật (Core-Software.md §6.1):
       [PFC] → [reach limited ~5%] + [KHÔNG access body processing]
              + [chỉ giữ HƯỚNG, không kiểm soát chi tiết]
     
@@ -453,7 +453,7 @@ APPLIED TO COMMUNICATION:
     Domain A constraint: "giám đốc ra lệnh → nhân viên nghe"
     Installed vào Domain B: "PFC ra lệnh → cơ thể nghe"
     
-    Mechanism thật (Core-Interface.md §4):
+    Mechanism thật (Core-Software.md §6.1):
       Vô thức KHÔNG nghe lệnh PFC.
       Bạn không quyết định nhịp tim, không chọn lúc nào đói.
       PFC giữ hướng — body tự quyết định chi tiết.
@@ -640,18 +640,21 @@ APPLIED TO COMMUNICATION:
 
 ## §5 — ALTERNATIVE: EXPERIENCE-BASED LANGUAGE
 
-### §5.1 — Core-Interface.md model
+### §5.1 — Experience-based language model
 
 ```
-⭐ CORE-INTERFACE.MD = PROOF EXPERIENCE-BASED LANGUAGE WORKS:
+⭐ EXPERIENCE-BASED LANGUAGE = PROVEN ALTERNATIVE:
 
-  Core-Interface.md (v1.0, 679 dòng):
+  Core-Interface.md v1.0 (679 dòng, nay tại _backup/Ask-AI-v2/):
     → Translate TOÀN BỘ framework mechanism → ngôn ngữ TRẢI NGHIỆM
     → KHÔNG dùng analogy (không "PFC = giám đốc")
     → KHÔNG dùng jargon (không "dopamine activation")
     → Dùng chunks MỌI NGƯỜI ĐÃ CÓ từ observation hàng ngày
+    → File đã hoàn thành vai trò proof-of-concept
+    → Approach hiện triển khai DYNAMIC qua Ask-AI.md v3.1:
+       AI đọc framework → adapt ngôn ngữ per user → không cần static file
 
-  VD — Core-Interface.md cách mô tả PFC limitations:
+  VD — experience-based language mô tả PFC limitations (Core-Software.md §6.1):
     "Bạn không quyết định nhịp tim.
      Bạn không chọn lúc nào đói.
      Ý thức luôn là NGƯỜI ĐẾN SAU — quan sát kết quả
@@ -886,7 +889,7 @@ APPLIED TO COMMUNICATION:
     → Start từ hành vi hàng ngày: ăn, ngủ, stress, lười, buồn
     → VD: "Bạn có bao giờ đói mà không muốn ăn không?"
     → Chunks [đói], [muốn ăn] = universal → BỜ THẬT → gap form
-    → = Core-Interface.md language: observer-level, ai cũng có
+    → = experience-based language (§5): observer-level, ai cũng có
 
   Chuyên gia tâm lý (domain chunks + behavioral chains):
     → Start từ observations chuyên môn đã có
@@ -923,7 +926,7 @@ APPLIED TO COMMUNICATION:
     "Bạn có thấy X trong cuộc sống?"
     → Receiver recognize own experience → chunks fire → "đúng!"
     → = Build bờ từ existing observation → gap direction form
-    → Core-Interface.md language
+    → experience-based language (§5)
 
   LEVEL 2 — PATTERN:
     "Bạn thấy X xảy ra KHI NÀO? Có pattern không?"
@@ -1059,8 +1062,7 @@ APPLIED TO COMMUNICATION:
     Chunks: hành vi hàng ngày, trải nghiệm cá nhân, cảm xúc
     Gaps: about self-behavior ("tại sao tôi X?"), relationships
     STRATEGY:
-      → Core-Interface language (observer-level)
-      → Experience-based (§5) — dùng trải nghiệm hàng ngày
+      → Experience-based language (§5, observer-level) — dùng trải nghiệm hàng ngày
       → Mini-gap chain start từ daily observation
       → Analogy: RARE, chỉ khi structural similarity cao
       → Pacing: slower, more examples, more validation
@@ -1103,7 +1105,7 @@ APPLIED TO COMMUNICATION:
 
   VD:
     Ban đầu: "Tại sao tôi lười?" → estimate Profile A
-    → Dùng Core-Interface language, daily observation entry point
+    → Dùng experience-based language (§5), daily observation entry point
 
     Giữa conversation: "Thú vị — giống dopamine signaling theory"
     → UPDATE: receiver CÓ neuroscience chunks → adjust toward Profile B/C
@@ -1261,7 +1263,7 @@ APPLIED TO COMMUNICATION:
   ✅ 4 risks formally grounded: direction mismatch, shift cost, 
      false specificity, double unknown
   ✅ Criteria: khi nào analogy nên/không nên dùng
-  ✅ Alternative: experience-based language (proven via Core-Interface.md)
+  ✅ Alternative: experience-based language (proven — approach triển khai via Ask-AI.md v3.1)
   ✅ Mini-gap chain theory: applied oscillation dynamics to communication
   ✅ Audience detection protocol: framework-grounded
   ✅ 2-force tension resolution: sequential integration via mini-gap chain
@@ -1316,7 +1318,7 @@ APPLIED TO COMMUNICATION:
   Mini-gap chain theory:
     Applied Gap-Direction §7.5 oscillation, novel communication theory
   Experience-based > analogy for deep understanding:
-    Supported by Core-Interface.md success, consistent logic
+    Supported by experience-based language success (§5.1), consistent logic
   Audience chunk detection protocol:
     Novel formalization, grounded in gap direction principles
   2-force resolution via sequential mini-gap chain:
@@ -1388,7 +1390,7 @@ CNT-Q5: AI-mediated transfer:
 | [01b-Chunk-Activation-Dynamics.md](../Chunk-Internal-Processing/01b-Chunk-Activation-Dynamics.md) | §2 Probability | Activation distribution → analogy firing mechanism |
 | [01b-Chunk-Activation-Dynamics.md](../Chunk-Internal-Processing/01b-Chunk-Activation-Dynamics.md) | §3 Competitive re-linking | Shift cost mechanism → Risk 2 |
 | [01c-Chunk-Discovery-Lifecycle.md](../Chunk-Internal-Processing/01c-Chunk-Discovery-Lifecycle.md) | §2 7-step cycle | Conversation maps to discovery lifecycle |
-| [Core-Interface.md](../../../../Core-Interface.md) | Full file | PROOF: experience-based language works (679L, no jargon/analogy) |
+| [Ask-AI.md](../../../../Ask-AI.md) | v3.1 | Dynamic interface: AI generate experience-based language per user (thay Core-Interface.md → _backup/Ask-AI-v2/) |
 
 ### §10.3 — Application references
 

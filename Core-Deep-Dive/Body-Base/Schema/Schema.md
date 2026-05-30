@@ -16,7 +16,7 @@ parent: Core-v7.8-Draft.md §8 (observation parameters table)
 dependencies:
   - Core-v7.8-Draft.md — cycle architecture, observation parameters
   - Chunk.md v2.0 — chunk substrate (sole substrate)
-  - Body-Feedback.md v1.1 — dual-pull, H10, interface loop
+  - Body-Feedback.md v1.1 — dual-pull, Body-Feedback-Precondition, interface loop
   - Body-Feedback-Mechanism.md v1.0 — chunk dynamics (Shift/Miss/Gap)
   - Feeling.md v2.0 — PFC observation interface
   - Cortisol-Baseline.md v2.0 — amplifier, direction gate
@@ -483,7 +483,7 @@ V2.0 REFRAME:
     → VD: học sinh bị ép học toán → chunk gắn cortisol → GHÉT
 
   → CÙNG kiến thức → KHÁC association → KHÁC khả năng dùng
-  → Cortisol at compile time = determines chunk association tag (Chunk.md §2.4 NT7)
+  → Cortisol at compile time = determines chunk association tag (Chunk.md §2.4 Direction-At-Compile)
   → MỌI HÀNH VI = MIX threat + novelty (tỉ lệ KHÁC NHAU)
 
   Ngưỡng:
@@ -532,7 +532,7 @@ V2.0 REFRAME:
   PFC observe:
     → Nhiều chunks fire ĐỒNG THỜI theo pattern → PFC nhận tổng hợp
     → PFC label: "à, đây là 'sợ chó'" (verbal label cho chunk pattern)
-    → Label = Feeling.md v2.0 Layer 6 (40-80% fidelity) — LOSSY
+    → Label = Feeling.md v2.0 Feel-Labeling (40-80% fidelity) — LOSSY
 
   PFC KHÔNG thấy:
     → Chunks CỤ THỂ nào đang fire (too many, too fast)
@@ -780,7 +780,7 @@ METAPHOR (⚠️):
 ```
   Core-v7.8-Draft.md             — cycle architecture, §8 observation parameters
   Chunk.md v2.0                  — chunk substrate (sole substrate, 14 sections)
-  Body-Feedback.md v1.1          — dual-pull, H10, interface loop
+  Body-Feedback.md v1.1          — dual-pull, Body-Feedback-Precondition, interface loop
   Body-Feedback-Mechanism.md v1.0— chunk dynamics (Shift/Miss/Gap), compound
   Feeling.md v2.0                — PFC observation interface, 7-layer fidelity
   Cortisol-Baseline.md v2.0      — amplifier, direction gate, 7 modes

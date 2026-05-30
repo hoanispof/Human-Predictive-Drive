@@ -50,24 +50,25 @@ purpose: |
 position: |
   Core-Deep-Dive/Collective/ — ngang hàng Collective-Arc-Dynamics.md,
   Collective-Purpose.md, Coordination-Node.md, Compliance-Floor.md.
+  → Overview: Collective.md v1.0 (integration hub cho folder).
   MECHANISM FILE. Moved from Body-Base/ (2026-05-18).
   SAU tạo file này: Body-Base.md §9 Reading Guide → add reference.
 dependencies:
   core-mechanism:
     - Body-Base.md v3.1 — Model 3+1, Compilable Architecture, 3-Layer Evolution, 2-tầng calibration
     - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, by-product match, 3-cost, PFC=Lawyer
-    - Valence-Propagation.md v3.0 — per-entity valence, 3 Firing Modes, Hardware Subsidy, Satiation Type
+    - Valence-Propagation.md v3.0 — per-entity valence, 3 Firing Modes, Hardware-Subsidy, Satiation Type
     - Gap-Direction.md v2.0 — gap = f(surrounding chunks), "chưa biết = không có gap"
     - Gap-Distribution-Profile.md v1.1 — 4 trục, Satiation Types, ENGINE/ROAD/VEHICLE, Technology fill
     - Chunk.md v2.0 — compile mechanisms, 4 connection types
   agent-mechanism:
-    - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, per-domain, Application 1 on Simulation Engine
+    - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, per-domain, APPLICATION-1 on Simulation-Engine
     - By-Product-Scale.md v1.0 — 1 mechanism × 3 scales, L3 institutional, Technology × scale
     - Agent-Mechanism.md v2.1 — integration hub, entity mechanism
     - By-Product-Gap-Resonance.md v1.4 — 2-Stream, by-product match, resonance baseline
   connection-observation:
-    - Body-Coupling.md v3.0 — per-agent coupling, System Compilation, Hardware Subsidy, 3 Firing Modes
-    - Connection.md v5.0 — 3 Generative Primitives, M1-M4, 4-Layer Sustainability, Hardware Subsidy
+    - Body-Coupling.md v3.0 — per-agent coupling, System Compilation, Hardware-Subsidy, 3 Firing Modes
+    - Connection.md v5.0 — 3 Generative Primitives, Resonance Decline, 4-Layer Sustainability, Hardware-Subsidy
     - Coordination-Node.md v1.2 — node = partial PFC, Prestige=genuine resonance, Mẹ=first node
     - Religion.md v2.0 — 7 functions, system compilation test case, FAITH anchor
     - Global-Melody.md v2.0 — collective melody, 5 tầng zoom, center/edge
@@ -140,7 +141,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌────────────────────────┬──────────────────────────────────────────┐
     │ File                   │ Scope                                     │
     ├────────────────────────┼──────────────────────────────────────────┤
-    │ Body-Base.md v2.0      │ ENTRY POINT: Model 3+1, L0-L1-L3,       │
+    │ Body-Base.md v3.3      │ ENTRY POINT: Model 3+1, L0+L1 substrate, │
     │                        │ core principles (patterns not reality)    │
     │                        │ = INDIVIDUAL body-base foundation         │
     ├────────────────────────┼──────────────────────────────────────────┤
@@ -241,20 +242,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → "Kỳ quái" = MISMATCH GIỮA CẤP → confuse → giải mã xong.
 
 
-  ⭐ BB2 = BB1 + COLLECTIVE SCALE + HARDWARE VARIANCE (Drill §26 D1):
+  ⭐ BLACKBOX-2 = BLACKBOX-1 + COLLECTIVE SCALE + HARDWARE VARIANCE (Drill §26):
 
-    BB1 (Blackbox 1 — chunk substrate):
+    Blackbox-1 (chunk substrate):
       = CẤP 1 individual compile + valence tags = ĐỒNG THỜI
 
-    BB2 (Blackbox 2 — valence complexity):
-      = BB1 + CẤP 2 collective complexity (distributed × trust × many links)
+    Blackbox-2 (valence complexity):
+      = Blackbox-1 + CẤP 2 collective complexity (distributed × trust × many links)
            + hardware variance (hormone, gene = irreducible)
 
-    → BB2 KHÔNG PHẢI mechanism KHÁC BB1
-    → BB2 = BB1 + SCALE + VARIANCE
+    → Blackbox-2 KHÔNG PHẢI mechanism KHÁC Blackbox-1
+    → Blackbox-2 = Blackbox-1 + SCALE + VARIANCE
     → Compile = structural aspect. Valence = evaluative aspect. ĐỒNG THỜI.
 
-    Chi tiết: Body-Base.md §3 (Model 3+1), Drill §26 D1.
+    Chi tiết: Body-Base.md §3 (Model 3+1), Drill §26.
 
 
   3 CẤP × MODEL 3+1:
@@ -277,7 +278,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       = Valence-Propagation §4 chains thuộc cấp này
 
   🟡 Model 3 cấp = framework synthesis (Drill §5)
-  🟡 BB2 = BB1 + scale = framework synthesis (Drill §26 D1)
+  🟡 Blackbox-2 = Blackbox-1 + scale = framework synthesis (Drill §26)
   🟢 Distributed cognition: Hutchins 1995
   🟢 Extended mind: Clark & Chalmers 1998
 ```
@@ -1438,7 +1439,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
        AI verify Trust Compile install CỦA NGƯỜI KHÁC = useful.
        NHƯNG: AI output = NEW Trust Compile install → "ai verify AI?"
-       → Body-Base.md §6: domain feedback (1A) VẪN LÀ final arbiter.
+       → Body-Base.md §6: domain feedback (Domain-Checked) VẪN LÀ final arbiter.
 
     Expertise Compile MỞ RỘNG qua AI:
        AI = "Cấp 2 cá nhân" cực mạnh (§3.3) → more people reach compiled expertise.
@@ -1554,7 +1555,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⚠ Model 3 cấp (Individual → Collective → Framework)
     — each level established, 3-level organization = novel
-  ⚠ BB2 = BB1 + collective scale + hardware variance
+  ⚠ Blackbox-2 = Blackbox-1 + collective scale + hardware variance
     — convergence insight from Drill §26
   ⚠ "Chain dài sống ở collective" as explicit principle
     — consistent with distributed cognition, phrasing = novel
@@ -1661,8 +1662,8 @@ OPEN QUESTIONS:
 WITHIN BODY-BASE/ FOLDER:
   Body-Base.md v3.1         — Entry point, Compilable Architecture, 3-Layer, 2-tầng calibration
   Inter-Body-Mechanism.md v1.0 — Compilable Architecture, by-product match, 3-cost, PFC=Lawyer
-  Body-Coupling.md v3.0     — per-agent coupling, System Compilation, Hardware Subsidy, 3 Firing Modes
-  Valence-Propagation.md v3.0 — per-entity valence, 3 Firing Modes, Hardware Subsidy, Satiation Type
+  Body-Coupling.md v3.0     — per-agent coupling, System Compilation, Hardware-Subsidy, 3 Firing Modes
+  Valence-Propagation.md v3.0 — per-entity valence, 3 Firing Modes, Hardware-Subsidy, Satiation Type
   Why-Body-Knows.md v1.1    — 2-tầng calibration deep, coherence ≠ truth, vòng tròn
   Cortisol-Baseline.md v2.1 — amplifier, social buffering
   Chunk/Chunk.md v2.0       — §2.3 external install mechanisms, §2 compile mechanisms
@@ -1679,7 +1680,7 @@ PFC/ FOLDER:
   PFC-Hardware.md            — COMT, DRD4, NE, hardware variation
 
 OBSERVATION/ FOLDER:
-  Connection.md v5.0        — 3 Generative Primitives, M1-M4, 4-Layer, Hardware Subsidy
+  Connection.md v5.0        — 3 Generative Primitives, Resonance Decline, 4-Layer, Hardware-Subsidy
   Status.md v2.0            — Resource Access Map (collective status structure)
   Meaning.md v2.0           — §3.3 IDENTITY anchor, §3.4 FAITH anchor
   Empathy.md v4.0           — PFC budget, Compiled Quality, Burnout reframe
@@ -1699,7 +1700,7 @@ RESEARCH:
 
 AGENT-MECHANISM:
   Agent-Mechanism.md v2.1   — integration hub, §12 body-need feeder, entity mechanism
-  Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, per-domain, Application 1 on Simulation-Engine
+  Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, per-domain, APPLICATION-1 on Simulation-Engine
   By-Product-Gap-Resonance.md v1.4 — 2-Stream Architecture, by-product match
   By-Product-Scale.md v1.0  — 1 mechanism × 3 scales, L3 institutional, Technology × scale
 

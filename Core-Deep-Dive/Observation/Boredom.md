@@ -1,9 +1,9 @@
 ---
 title: Boredom — Observation Parameter
-version: 2.0
+version: 2.1
 created: 2026-04-20
-rewritten: 2026-05-22
-status: OBSERVATION PARAMETER v2.0
+rewritten: 2026-05-29 (v2.1 — Resonance Decline reframe: M1-M4 → 2 Forces + 1 Fuel + Gap Drift)
+status: OBSERVATION PARAMETER v2.1
 previous_versions:
   - v1.1 (2026-05-17) → backup/Boredom-v1.1-backup.md
   - v1.0 (2026-04-20) → backup/Boredom-v1.0-backup.md
@@ -15,13 +15,13 @@ scope: |
   + Imagine-Final clarity THIẾU. "Chán" = 1 từ cho NHIỀU trạng thái KHÁC NHAU.
   v2.0 KEY CHANGES từ v1.1:
     ① Source ⑥: by-product match dừng ("chán nhau") → unified formula
-    ② 4 sub-mechanisms M1-M4 cho source ⑥
+    ② Resonance Decline: 2 Forces + 1 Fuel cho source ⑥
     ③ "Chán 1 mình" vs "chán cùng nhau" = CÙNG formula, KHÁC source
     ④ "Chán" vs "ghét" threshold model
     ⑤ 3 điều kiện đồng thời cho boredom emerge
     ⑥ 4 trục quan sát MỚI (Awareness + Social + Chronic/Acute + Abundance)
     ⑦ Abundance hypothesis + historical vs modern context
-    ⑧ PFC-Operations + Entity-Compiled + Simulation Engine integration
+    ⑧ PFC-Operations + Entity-Compiled + Simulation-Engine integration
   TÁCH RÕ: 6 nguồn, 3 loại, 6 trục, 2 hướng fix.
   Refine mainstream (Eastwood 2012), KHÔNG phản đối.
 purpose: |
@@ -45,10 +45,11 @@ dependencies:
   - Feeling.md v3.0 — PFC observation interface
   - Inter-Body-Mechanism.md v1.0 — Compilable Architecture §1.2, Compiled/Fresh §3
   - PFC-Operations.md v1.0 — Hold/Suppress, compiled suppress pathways §8, PFC budget §9
-  - Entity-Compiled.md v1.0 — Formation 40→200h, Entity-Compiled saturation (M4 reference)
+  - Entity-Compiled.md v1.0 — Formation 40→200h, Entity-Compiled saturation (novelty threshold lens)
   - Entity-Access.md v1.0 — Gradient Mức 0-5 (entity-level boredom)
   - Simulation-Engine.md v1.0 — boredom = idle state khi engine không có target
-  - By-Product-Gap-Resonance.md v1.1 — resonance decline M1-M4 §10, gap-clone §9
+  - Bond-Architecture.md v2.0 §4 — Resonance Decline SOURCE (2 Forces + 1 Fuel + Gap Drift)
+  - By-Product-Gap-Resonance.md v1.1 — Resonance Decline §10 mirror, gap-clone §9
   - Self-Pattern-Modeling.md v3.1 — Self-Pattern-Modeling-oversimplify-clone, prediction completion
   - Gap-Direction.md v2.0 — gap = f(surrounding chunks), "chưa biết = không gap"
   - Background-Pattern.md v1.1 — Background-Pattern resist gap shift
@@ -85,7 +86,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §0 — POSITION + THESIS + CLAIMS
 - §1 — UNIFIED FORMULA: DISSONANCE + IMAGINE-FINAL CHƯA RÕ
 - §2 — 6 NGUỒN DISSONANCE
-- §3 — SOURCE ⑥: BY-PRODUCT MATCH DỪNG + 4 SUB-MECHANISMS
+- §3 — SOURCE ⑥: BY-PRODUCT MATCH DỪNG + 2 FORCES + 1 FUEL
 - §4 — 3 LOẠI "CHÁN" + "CHÁN NHAU" MAPPING
 - §5 — CONTENTMENT vs BOREDOM: COMPILED/FRESH LENS
 - §6 — "CHÁN" vs "GHÉT": THRESHOLD MODEL
@@ -162,8 +163,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ② 6 NGUỒN DISSONANCE: ①-⑤ từ v1.1 + ⑥ by-product match dừng (§2-§3).
      Source ⑥ = general (relationship + career + group), KHÔNG chỉ romantic.
 
-  ③ Source ⑥ do 4 SUB-MECHANISMS (M1-M4): compiled suppress + habituation
-     + prediction completion + Entity-Compiled saturation (§3).
+  ③ Source ⑥ do RESONANCE DECLINE: 2 forces (Compiled-Suppress + Reward-Habituated)
+     + 1 fuel (novelty threshold) + gap drift (§3).
      Gap-clone IMPOSSIBLE → "chán nhau" KHÔNG BAO GIỜ do "quá giống."
 
   ④ "CHÁN" vs "GHÉT": cùng dissonance spectrum, khác threshold + Imagine-Final (§6).
@@ -177,10 +178,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Abundance → higher gaps → harder fill → more boredom.
      Boredom TĂNG theo civilization = STRUCTURAL, không phải individual failure.
 
-  ⑦ FIX ORDER: M1 (compiled suppress) = LEVERAGE POINT (§10).
-     Fix M1 → M2+M3+M4 tự follow.
+  ⑦ FIX ORDER: Compiled-Suppress = LEVERAGE POINT (§10).
+     Fix Compiled-Suppress → counter Reward-Habituated + restore novelty.
 
-  ⑧ 6 TRỤC QUAN SÁT: Dissonance × IF clarity × Awareness × Social
+  ⑧ 6 TRỤC QUAN SÁT: Dissonance × Imagine-Final clarity × Awareness × Social
      × Chronic/Acute × Abundance (§8).
 
   🟢 Boredom = unfulfilled desire: Eastwood et al. 2012.
@@ -188,7 +189,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 
 CHANGELOG:
-  v2.0 (2026-05-22): REWRITE. +Source ⑥, +M1-M4, +Unified formula reframe,
+  v2.1 (2026-05-29): Resonance Decline reframe: M1-M4 → 2 Forces + 1 Fuel + Gap Drift.
+    Bond-Architecture v2.0 §4 consistency. All per-mechanism sections → 2 Forces + 1 Fuel model.
+  v2.0 (2026-05-22): REWRITE. +Source ⑥, +Resonance Decline, +Unified formula reframe,
     +Threshold model, +3 conditions, +4 trục mới, +Abundance,
     +Historical, +Phase A integration. Source: Drill-Boredom-Mechanism v2.0.
   v1.1 (2026-05-17): +Compilable Architecture, +Compiled/Fresh lens, +Inter-Body-Mechanism refs.
@@ -350,7 +353,7 @@ CHANGELOG:
     → ⑥ = general source, relationship = strongest application
       (vì Entity-Compiled SÂU NHẤT ở romantic → mismatch ĐAU NHẤT).
 
-  Xem §3 cho 4 sub-mechanisms + gap-clone impossibility.
+  Xem §3 cho Resonance Decline analysis + gap-clone impossibility.
 
   🟡 Source ⑥ = framework synthesis from drill analysis.
 ```
@@ -378,56 +381,68 @@ CHANGELOG:
 
 ---
 
-## §3 — SOURCE ⑥: BY-PRODUCT MATCH DỪNG + 4 SUB-MECHANISMS
+## §3 — SOURCE ⑥: BY-PRODUCT MATCH DỪNG + 2 FORCES + 1 FUEL
 
-### §3.1 — 4 sub-mechanisms (M1-M4)
+### §3.1 — 2 Decline Forces + 1 Fuel + Gap Drift
 
 ```
-⭐⭐ SOURCE ⑥ DO 4 SUB-MECHANISMS ĐỘC LẬP + TƯƠNG TÁC:
-(Full treatment: By-Product-Gap-Resonance v1.1 §10)
+⭐⭐ SOURCE ⑥ — TẠI SAO BY-PRODUCT MATCH DỪNG?
+(Full source definition: Bond-Architecture v2.0 §4)
 
-M1 — COMPILED SUPPRESS GAP RIÊNG (★ STRONGEST):
-  Schema "phải giống nhau" / sợ "theo gap riêng → mất partner."
-  → PFC suppress own unique gap directions → lâu dần compiled suppress.
-  → Meta-pattern: [thấy gap riêng] → [suppress] → [ignore].
-  → Flat affect, no drive riêng → no by-product riêng → match CHẾT.
-  → STRONGEST vì tấn công NGUỒN + accelerate M2+M3+M4.
-  PFC-Operations §8: compiled suppress pathways + escalation.
-  🟢 Muise & Goss 2024: closeness OK only WITH "otherness."
+2 DECLINE FORCES (observable, có thể diagnose cụ thể):
 
-M2 — HABITUATION (Weber-Fechner):
-  Hardware by-product habituates tự nhiên → reward giảm dần.
-  ĐỘC LẬP: xảy ra NGAY CẢ không M1.
-  🟢 Bao & Lyubomirsky 2013: hedonic adaptation in relationships.
+  COMPILED-SUPPRESS (force — tấn công NGUỒN) ★ LEVERAGE POINT:
+    Schema "phải giống nhau" / sợ "theo gap riêng → mất partner."
+    → PFC suppress own unique gap directions → lâu dần compiled suppress.
+    → Meta-pattern: [thấy gap riêng] → [suppress] → [ignore].
+    → Flat affect, no drive riêng → no by-product riêng → match CHẾT.
+    → STRONGEST: tấn công NGUỒN + accelerate Reward-Habituated + drain novelty.
+    PFC-Operations §8: compiled suppress pathways + escalation.
+    🟢 Muise & Goss 2024: closeness OK only WITH "otherness."
 
-M3 — PREDICTION COMPLETION:
-  Self-Pattern-Modeling compiled sâu → predict partner hoàn hảo → no prediction-delta.
-  → No new gap fill → no new reward.
-  🟢 Baumeister & Bratslavsky 1999: passion = rate of change.
+  REWARD-HABITUATED (force — hardware adaptation):
+    Hardware by-product habituates tự nhiên → reward giảm dần.
+    ĐỘC LẬP: xảy ra NGAY CẢ không Compiled-Suppress.
+    🟢 Bao & Lyubomirsky 2013: hedonic adaptation in relationships.
 
-M4 — ENTITY-COMPILED SATURATION:
-  Entity-Compiled formation plateau (40→80→200h diminishing returns).
-  → Ít chunks MỚI compile về partner → same patterns repeat.
-  Entity-Compiled v1.0: Hub-and-Spoke model, saturation trajectory.
-  🟢 Aron & Aron 1996, 2000: self-expansion slows → satisfaction giảm.
+1 FUEL (calibration parameter — threshold-based, KHÔNG đo chính xác):
+
+  NOVELTY THRESHOLD:
+    Novelty = nhiên liệu cho ①b growth (compiled by-product anti-habituates).
+    Dưới ngưỡng → ①b plateau + ①a dominates → resonance decline.
+    Trên ngưỡng → ①b tiếp tục grow → resonance sustained.
+    2 LENSES cùng 1 phenomenon:
+      Lens prediction: Self-Pattern-Modeling quá accurate → prediction-delta = 0 → no new reward.
+      Lens knowledge: Entity-Compiled 40→200h → diminishing returns → ít chunks mới.
+    → ~90%+ trường hợp cùng YES/NO → KHÔNG phân biệt được trong quan sát.
+    Probabilistic: threshold khác nhau mỗi người, KHÔNG đo chính xác.
+    🟢 Baumeister & Bratslavsky 1999: passion = rate of change.
+    🟢 Aron & Aron 1996, 2000: self-expansion slows → satisfaction giảm.
+
+CONTEXTUAL FACTOR:
+
+  GAP DRIFT — direction diverge:
+    Gap landscapes diverge theo thời gian → direction match ↓.
+    Khác novelty: ngay cả CÓ novelty, nếu hướng gap xa → không match.
+    PROXIMITY PARADOX: gần → Reward-Habituated ↑ + Compiled-Suppress risk ↑, xa → drift ↑.
 
 
-TƯƠNG TÁC:
-  M1 → xóa NGUỒN by-products riêng (source attack).
-  M2 → giảm reward từ by-products CŨ (temporal decay).
-  M3 → chặn by-products MỚI emerge (novelty exhaustion).
-  M4 → chặn chunks MỚI về partner (learning plateau).
+TƯƠNG TÁC (Interaction Model):
+  Compiled-Suppress → xóa NGUỒN by-products riêng (source attack).
+  Reward-Habituated → giảm reward từ by-products CŨ (temporal decay).
+  Novelty dưới ngưỡng → by-products MỚI không emerge (fuel depleted).
+  Gap drift → hướng lệch → match less likely (context shift).
 
-  M1 ACCELERATE M2+M3+M4:
-    Compiled suppress → ít grow riêng → prediction complete NHANH HƠN.
-    Compiled suppress → ít novelty → habituation NHANH HƠN.
-    → FIX M1 = LEVERAGE POINT cho tất cả 4 (§10).
+  Compiled-Suppress ACCELERATE Reward-Habituated + DRAIN NOVELTY:
+    Compiled suppress → ít grow riêng → habituation NHANH HƠN.
+    Compiled suppress → ít novelty input → ①b plateau → fuel cạn.
+    → FIX Compiled-Suppress = LEVERAGE POINT (§10).
 
-  🟡 4-mechanism model = framework synthesis.
-  🟢 Individual mechanisms: established (per-mechanism citations).
+  🟡 2 Forces + 1 Fuel model = framework synthesis.
+  🟢 Individual components: established (per-section citations).
 ```
 
-### §3.2 — Gap-clone impossible → ⑥ do M1-M4, KHÔNG do "quá giống"
+### §3.2 — Gap-clone impossible → ⑥ do Resonance Decline, KHÔNG do "quá giống"
 
 ```
 ⭐ GAP-CLONE = KIẾN TRÚC KHÔNG CHO PHÉP:
@@ -440,10 +455,11 @@ TƯƠNG TÁC:
   ⑤ Twin test (DECISIVE): hardware gần giống hệt → gap VẪN khác.
 
   HỆ QUẢ:
-  → NẾU gap-clone impossible → "chán nhau" 100% DO M1-M4.
+  → NẾU gap-clone impossible → "chán nhau" 100% DO Resonance Decline
+    (Compiled-Suppress + Reward-Habituated + novelty depletion + gap drift).
   → "Over-clone" = observation LABEL, KHÔNG phải mechanism thật.
-  → "Chán nhau" FIX bằng address M1-M4, KHÔNG bằng "tìm khác biệt."
-    (Vì gap VỐN ĐÃ khác → vấn đề = suppress + habituation + plateau.)
+  → "Chán nhau" FIX bằng address decline mechanisms, KHÔNG bằng "tìm khác biệt."
+    (Vì gap VỐN ĐÃ khác → vấn đề = suppress + habituation + novelty depleted.)
 
   🟡 Architecture proof = framework synthesis.
   🟢 Bouchard 1990: twins similar but NOT identical.
@@ -757,7 +773,8 @@ TRỤC 4 — SOCIAL DIMENSION (★ NEW):
   │                  │ Fix: feed channels, find activity         │
   ├──────────────────┼──────────────────────────────────────────┤
   │ RELATIONAL       │ "Chán cùng nhau" — source ⑥ dominant     │
-  │ BOREDOM          │ Fix: unlock drives riêng (M1) + novelty  │
+  │ BOREDOM          │ Fix: unlock drives riêng (Compiled-      │
+  │                  │ Suppress) + restore novelty              │
   │                  │ ĐỘC LẬP: solo fine + relationship chán   │
   └──────────────────┴──────────────────────────────────────────┘
 
@@ -898,12 +915,12 @@ TRỤC 6 — ABUNDANCE LEVEL (★ NEW):
     BIẾT nhưng chưa dám/đủ rõ → Loại 2: Hướng B (cụ thể hóa plan).
     Không có gì để muốn → Loại 3: tìm compass.
 
-  Câu 3 (★ NEW): "Source ⑥ do sub-mechanism NÀO?"
-    Partner thay đổi nhưng vẫn chán? → M2 habituation.
-    Mình không còn sở thích riêng? → M1 compiled suppress.
-    "Biết hết về partner"? → M3 prediction completion.
-    "Không có gì mới khám phá cùng nhau"? → M4 saturation.
-    MIX nhiều sub-mechanisms = phổ biến nhất.
+  Câu 3 (★ v2.1): "Source ⑥ do Resonance Decline NÀO?"
+    Partner thay đổi nhưng vẫn chán? → Reward-Habituated (hardware adaptation).
+    Mình không còn sở thích riêng? → Compiled-Suppress (drive bị suppress).
+    "Biết hết / không gì mới"? → Novelty dưới ngưỡng (fuel depleted).
+    "Không còn chung sở thích/giá trị"? → Gap drift (direction diverge).
+    MIX nhiều decline factors = phổ biến nhất.
 ```
 
 ### §10.2 — 2 hướng fix + fix theo source ①-⑤
@@ -947,12 +964,12 @@ FIX THEO SOURCE ①-⑤:
   🟢 Goal-setting → pain tolerance (Locke & Latham).
 ```
 
-### §10.3 — Fix source ⑥ theo sub-mechanism (★ v2.0)
+### §10.3 — Fix source ⑥ theo Resonance Decline (★ v2.1)
 
 ```
-⭐⭐ FIX SOURCE ⑥ THEO SUB-MECHANISM:
+⭐⭐ FIX SOURCE ⑥ THEO 2 FORCES + 1 FUEL + GAP DRIFT:
 
-  M1 (compiled suppress) → FIX: UNLOCK drives riêng.
+  COMPILED-SUPPRESS (force) → FIX: UNLOCK drives riêng.
     Tìm lại sở thích riêng, career riêng, friends riêng.
     CẦN AWARENESS trước: person phải BIẾT đang suppress.
     Nếu invisible → cần external feedback (therapist, friend).
@@ -960,27 +977,30 @@ FIX THEO SOURCE ①-⑤:
     ⚠️ HARDEST to fix vì invisible + automated.
     🟢 Schnarch: differentiation. Muise 2024: otherness.
 
-  M2 (habituation) → FIX: INJECT variation.
+  REWARD-HABITUATED (force) → FIX: INJECT variation.
     Shared NOVEL experiences (new + together).
-    ⚠️ Variation ALONE không đủ nếu M1 active.
+    ⚠️ Variation ALONE không đủ nếu Compiled-Suppress active.
     🟢 Aron 2000: novel activities → satisfaction tăng.
 
-  M3 (prediction completion) → FIX: GROW RIÊNG.
+  NOVELTY DƯỚI NGƯỠNG (fuel) → FIX: GROW RIÊNG + SHARED NEW CHUNKS.
     Mỗi người grow ở domain riêng → new by-products → new match.
-    🟢 Baumeister & Bratslavsky 1999: passion = rate of change.
-
-  M4 (Entity-Compiled saturation) → FIX: SHARED NEW CHUNKS.
     Try new activity TOGETHER → new Entity-Compiled chunks compile.
+    🟢 Baumeister & Bratslavsky 1999: passion = rate of change.
     🟢 Aron 2000: novel + challenging + shared → satisfaction.
 
+  GAP DRIFT (context) → FIX: SHARED NEW DIRECTIONS.
+    Find/create shared gap directions (new projects, shared goals).
+    PROXIMITY PARADOX: đủ gần để share, đủ xa để grow riêng.
 
-  ⭐ FIX ORDER: M1 TRƯỚC → rồi M2+M3+M4 TỰ RESOLVE:
-    Fix M1 (unlock drives) → grow riêng → new by-products (fix M3).
-    → Bring new energy → variation natural (fix M2).
-    → Shared growth → new chunks (fix M4).
-    → M1 FIX = LEVERAGE POINT cho all 4.
 
-  🟡 Fix by sub-mechanism = framework synthesis.
+  ⭐ FIX ORDER: COMPILED-SUPPRESS TRƯỚC → rồi ② + novelty TỰ RESOLVE:
+    Fix Compiled-Suppress (unlock drives) → grow riêng → new by-products.
+    → Bring new energy → variation natural (counter Reward-Habituated).
+    → Growth riêng + shared → restore novelty fuel.
+    → Shared growth → maintain direction match (counter gap drift).
+    → Compiled-Suppress FIX = LEVERAGE POINT.
+
+  🟡 Fix by decline factor = framework synthesis.
 ```
 
 ### §10.4 — Bù tạm vs bù thật
@@ -1024,11 +1044,11 @@ FIX THEO SOURCE ①-⑤:
   │ (Conflict)   │ Active anti-match    │ = DRIVE/THREAT territory│
   │              │ Cortisol: cao, acute │ = KHÔNG phải boredom   │
   ├──────────────┼──────────────────────┼────────────────────────┤
-  │ KIỆT SỨC    │ QUÁ NHIỀU output     │ IF CÓ nhưng CAN'T     │
+  │ KIỆT SỨC    │ QUÁ NHIỀU output     │ Imagine-Final CÓ nhưng CAN'T     │
   │ (Burnout)    │ PFC suy kiệt         │ execute (depleted)     │
   │              │ Cortisol: mãn tính   │ ≠ boredom              │
   ├──────────────┼──────────────────────┼────────────────────────┤
-  │ TRẦM CẢM    │ Nhiều nguồn          │ IF collapse (numbness) │
+  │ TRẦM CẢM    │ Nhiều nguồn          │ Imagine-Final collapse (numbness) │
   │ (Depression) │ (sinh học, trauma)   │ CAN'T feel ≠ bored    │
   │              │ Cortisol: dysregulated│ = Clinical             │
   └──────────────┴──────────────────────┴────────────────────────┘
@@ -1058,7 +1078,7 @@ FIX THEO SOURCE ①-⑤:
   BOREDOM × PFC-OPERATIONS:
 
   COMPILED SUPPRESS (PFC-Operations §8):
-    M1 = compiled suppress gap riêng → boredom source ⑥.
+    Compiled-Suppress = compiled suppress gap riêng → boredom source ⑥.
     Compiled suppress → flat affect → PFC label "bình thường" → INVISIBLE boredom.
     Escalation: compiled suppress nhiều domains → learned helplessness pathway.
     6-step reversal: detect → safe env → uncompile → process → build new → compile.
@@ -1074,11 +1094,11 @@ FIX THEO SOURCE ①-⑤:
     Genuine-compiled contentment ≠ schema-compiled "bình thường" (khác tag).
 ```
 
-### §12.2 — Entity-Compiled + Entity-Access + Simulation Engine
+### §12.2 — Entity-Compiled + Entity-Access + Simulation-Engine
 
 ```
   BOREDOM × ENTITY-COMPILED (Entity-Compiled v1.0):
-    Entity-Compiled formation 40→80→200h diminishing returns → M4 saturation.
+    Entity-Compiled formation 40→80→200h diminishing returns → novelty threshold lens.
     Entity-Compiled = brain compile agent vào body-base → predict reward → unmet = ⑥.
     Hub-and-Spoke: partner = hub entity → boredom ĐAU NHẤT.
     Grief A+B+C: mất entity → boredom END (but grief START).
@@ -1089,9 +1109,9 @@ FIX THEO SOURCE ①-⑤:
       Mức 3+: boredom potential TĂNG (Entity-Compiled predict reward → mismatch đau hơn).
       Mức 5: boredom = existential threat (entity = core identity).
 
-  BOREDOM × SIMULATION ENGINE (Simulation-Engine v1.0):
+  BOREDOM × SIMULATION-ENGINE (Simulation-Engine v1.0):
     Boredom = engine IDLE state: NO active target to simulate.
-    Simulation Engine RUN → exploring Imagine-Final → NOT boredom.
+    Simulation-Engine RUN → exploring Imagine-Final → NOT boredom.
     Engine STUCK (no target, no direction) → boredom emerge.
     = Compilable Architecture: general-purpose system cần input. No input → idle signal.
 ```
@@ -1120,11 +1140,11 @@ CASE 2 — "Chán công ty" (Loại 2, chronic):
 
 
 CASE 3 — "Vẫn yêu nhưng chán" (source ⑥, chronic, partially invisible):
-  Source: ⑥ dominant (M1 compiled suppress + M2 habituation).
+  Source: ⑥ dominant (Compiled-Suppress + Reward-Habituated).
   Imagine-Final: mờ ("relationship tốt mà, sao vẫn...").
   Trục: partially invisible + relational + chronic + abundance.
-  Fix: M1 first → unlock drives riêng → M2+M3+M4 follow.
-  = HARDEST vì invisible + partner MAY RESIST M1 unlock.
+  Fix: Compiled-Suppress first → unlock drives riêng → counter ② + restore novelty.
+  = HARDEST vì invisible + partner MAY RESIST unlock.
   🟢 Gottman Type 2 (~16 năm).
 
 
@@ -1181,9 +1201,9 @@ CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
   Unified formula: dissonance × Imagine-Final clarity
   "Chán 1 mình" vs "chán cùng nhau" = same formula, different source
   Source ⑥ by-product match stopped
-  4 sub-mechanisms M1-M4 of source ⑥
-  M1 as leverage point
-  Gap-clone impossibility → M1-M4 explanation
+  Resonance Decline (2 Forces + 1 Fuel) of source ⑥
+  Compiled-Suppress as leverage point
+  Gap-clone impossibility → Resonance Decline explanation
   Self-Pattern-Modeling-oversimplify-clone mechanism
   "Chán" vs "ghét" threshold model
   3 conditions for boredom emergence
@@ -1233,11 +1253,12 @@ CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
   ← MECHANISM:
     PFC-Operations.md v1.0 §8 — compiled suppress pathways, 6-step reversal
     PFC-Operations.md v1.0 §9 — PFC budget, shared resource
-    Entity-Compiled.md v1.0 — Formation 40→200h, Entity-Compiled saturation (M4)
+    Entity-Compiled.md v1.0 — Formation 40→200h, Entity-Compiled saturation (novelty threshold lens)
     Entity-Access.md v1.0 — Gradient Mức 0-5, entity-level boredom
     Simulation-Engine.md v1.0 — boredom = engine idle state
+    Bond-Architecture.md v2.0 §4 — Resonance Decline SOURCE DEFINITION (2 Forces + 1 Fuel)
     By-Product-Gap-Resonance.md v1.1 §9 — gap-clone impossible proof
-    By-Product-Gap-Resonance.md v1.1 §10 — M1-M4 full treatment
+    By-Product-Gap-Resonance.md v1.1 §10 — Resonance Decline mirror
     Self-Pattern-Modeling.md v3.1 — Self-Pattern-Modeling-oversimplify, prediction completion
 
   ← VOCABULARY:
@@ -1268,6 +1289,7 @@ CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
     Drill-Boredom-Mechanism v2.0 (946L, 16 insights, 21 citations)
 
   STATUS:
+    v2.1 — 2026-05-29 — Resonance Decline reframe (M1-M4 → 2 Forces + 1 Fuel + Gap Drift).
     v2.0 — 2026-05-22 — REWRITE từ v1.1 + Drill-Boredom-Mechanism v2.0.
     v1.1 — 2026-05-17 — +Compilable Architecture, +Compiled/Fresh.
     v1.0 — 2026-04-20 — viết mới cho v7.8.
@@ -1285,8 +1307,8 @@ CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
   | R3 | Berlyne 1960 — Below optimal arousal | §5 | 🟢 |
   | R4 | Baumeister & Bratslavsky 1999 — Passion = rate of change | §3, §10 | 🟢 |
   | R5 | Aron & Aron 1996, 2000 — Self-expansion model | §3, §10 | 🟢 |
-  | R6 | Bao & Lyubomirsky 2013 — Hedonic adaptation | §3 M2 | 🟢 |
-  | R7 | Muise & Goss 2024 — Closeness × otherness | §3 M1, §10 | 🟢 |
+  | R6 | Bao & Lyubomirsky 2013 — Hedonic adaptation | §3 Reward-Habituated | 🟢 |
+  | R7 | Muise & Goss 2024 — Closeness × otherness | §3 Compiled-Suppress, §10 | 🟢 |
   | R8 | Gottman — Type 1/2 divorce | §4, §6 | 🟢 |
   | R9 | Bouchard et al. 1990 — Minnesota Twin Study | §3 | 🟢 |
   | R10 | Krueger 2007 — Projection bias | §3 | 🟢 |

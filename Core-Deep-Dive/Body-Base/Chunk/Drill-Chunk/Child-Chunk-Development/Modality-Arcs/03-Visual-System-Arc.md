@@ -747,7 +747,7 @@ These are not a single discrete "object permanence present/absent" switch. They 
 
 ### §9.3 — Brief touch on other nút thắt
 
-- **Nút Thắt 2 (P2 Chunks Base Adequacy)**: Visual chunks are the **fastest-compiling body-input system** because visual input is densest. Visual adequacy emerges relatively early (many events already at L3-L4 by 12 months). Contrast with interoceptive (bladder) which lags dramatically. This cross-body-input rate difference is key evidence for Nút Thắt 2 "compile rate varies by input saliency + repetition frequency + contingency" — see [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md).
+- **Nút Thắt 2 (Precondition-2 Chunk-Substrate)**: Visual chunks are the **fastest-compiling body-input system** because visual input is densest. Visual adequacy emerges relatively early (many events already at L3-L4 by 12 months). Contrast with interoceptive (bladder) which lags dramatically. This cross-body-input rate difference is key evidence for Nút Thắt 2 "compile rate varies by input saliency + repetition frequency + contingency" — see [06a-Interoceptive-Bladder-Keystone.md](06a-Interoceptive-Bladder-Keystone.md).
 - **Nút Thắt 4 (PFC hardware × chunks missing)**: Already committed in 01 — this file applies the reframe consistently throughout. Direct gaze at 2-5 days (§3.2) is among the strongest visual falsification evidence for the old "PFC offline" view.
 
 ---
@@ -797,8 +797,8 @@ These are not a single discrete "object permanence present/absent" switch. They 
 
 - [../Learning-Cycle/Learning-Cycle.md](../Learning-Cycle/Learning-Cycle.md) — H8 learning dissonance cycle uses chunks, visual learning cycles applicable (object permanence violation → learning)
 - [../Agent/Agent.md](../Agent/Agent.md) + [../Agent/Self-Pattern-Modeling.md](../Agent/Self-Pattern-Modeling.md) — H9 Agent formation uses visual self-chunks (mirror recognition at 18-24 months is substrate for Self-Pattern-Modeling Stage 2)
-- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) — H10 body-feedback substrate, §5.4 caregiver mirroring as developmental foundation. Visual mirroring events (mother face, smile contagion) are mechanism for infant interoception development.
-- [../Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) — H10 P2 Chunks Base Adequacy bottleneck. This file's visual chunks accumulation contributes fast-compile evidence.
+- [../Body-Feedback-Draft/01-Foundation.md](../Body-Feedback-Draft/01-Foundation.md) — Body-Feedback-Precondition, §5.4 caregiver mirroring as developmental foundation. Visual mirroring events (mother face, smile contagion) are mechanism for infant interoception development.
+- [../Body-Feedback-Draft/04-Integration.md](../Body-Feedback-Draft/04-Integration.md) — Precondition-2 Chunk-Substrate bottleneck. This file's visual chunks accumulation contributes fast-compile evidence.
 
 ### §11.4 — Empirical Feel-Example cross-references
 

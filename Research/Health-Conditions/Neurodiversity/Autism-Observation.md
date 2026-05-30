@@ -1657,8 +1657,8 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
     → = POSITIVE FEEDBACK LOOP: depth generates MORE depth
 
   REWARD:
-    → 03-Reward.md: H10 5 preconditions for reward
-    → Special Interests domain: all H10 met (gap exists, direction clear, stimulus matches)
+    → 03-Reward.md: Body-Feedback-Precondition 5 preconditions for reward
+    → Special Interests domain: all Body-Feedback-Precondition met (gap exists, direction clear, stimulus matches)
     → = GENUINE REWARD fires (opioid, endorphin) — not illusory
     → = Autistic person in Special Interests domain = body experiencing real reward
     → = "Obsessive" framing misses: this is architecture WORKING, not failing
@@ -1742,7 +1742,7 @@ FILE NÀY BENEFIT từ TẤT CẢ 4 files trước:
 
   SUPPRESSING Special Interests:
     → Removes calming mechanism (92% report Special Interests calming — Patten Koenig 2017)
-    → Removes reward source (genuine H10 reward fires in Special Interests domain)
+    → Removes reward source (genuine Body-Feedback-Precondition reward fires in Special Interests domain)
     → Removes identity anchor (Special Interests = core part of self-chunks)
     → = TRIPLE loss: coping + reward + identity
 
@@ -2627,7 +2627,7 @@ Q9: Autism as "reverse-engineering lens" for body-input → brain pattern pipeli
      07-Social-Recognition-Arc uses this: social development = compilation
   → Empathy.md v2.0 — Self-Pattern-Modeling Compiled output with positive valence
      §5.3 "empathy deficit" busted via Bird & Cook 2013
-  → Connection.md v3.1 — 3 generative primitives (❶ HW × ❷ Self-Pattern-Modeling × ❸ Valence)
+  → Connection.md v3.1 — 3 generative primitives (❶ Hardware × ❷ Self-Pattern-Modeling × ❸ Valence)
      §5.8 Social motivation via ❶ hardware drive
 ```
 

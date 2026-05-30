@@ -1,9 +1,11 @@
 ---
 title: Mother-Optimization — Tối Ưu Hóa Từ Trước Khi Sinh
-version: 2.0
+version: 2.1
 created: 2026-04-01
-updated: 2026-04-21
-status: REFERENCE v2.0
+updated: 2026-05-25 v2.1 — +Hardware-Subsidy (§0.4, §2.3, §3.1, §6.2), +Coordination-Node (§2.3, §6.2), +Entity-Access Mức 0 (§2), +Structural valence (§3.2), +Body-Feedback Pipeline (§3.1), +PFC Budget stress tools (§6.2), +Partner=secondary node (§6.2), §11 +3 open questions, §12 rewrite (+12 new cross-refs), all paths+versions updated
+previous_updates:
+  - 2026-04-21 (v2.0: v7.8 reframe, cortisol amplifier, direction > level, PFC online, chunk compile)
+status: REFERENCE v2.1
 scope: |
   PRACTICAL FILE: Mẹ = MÔI TRƯỜNG xây dựng HARDWARE cho con.
   Giải thích CƠ CHẾ: cortisol mẹ, dinh dưỡng, toxins, epigenetics
@@ -17,21 +19,35 @@ purpose: |
   Framework chỉ cung cấp CÁCH NHÌN (cortisol direction, baseline calibration),
   không cung cấp cơ chế trung tâm (khác Natural-Dev, Skill-Intro).
 position: |
-  Research/Child-Development/ — TẦNG 2 trong kiến trúc 5 tầng.
+  Research/Human-Learning/Child-Development/ — TẦNG 2 trong kiến trúc 5 tầng.
   TẦNG 1: Core-Deep-Dive/ (não hoạt động thế nào)
-  TẦNG 2: Research/Child-Development/ (con người phát triển 0-6) ← ĐÂY
-  TẦNG 3: Research/Education/ (nguyên lý giáo dục bất biến)
-  TẦNG 4: Applications/Education/ (ứng dụng per-era)
-  TẦNG 5: Country/ (per-country)
+  TẦNG 2: Research/Human-Learning/Child-Development/ (con người phát triển 0-6) ← ĐÂY
+  TẦNG 3: Research/Human-Learning/Education-Mechanism/ (nguyên lý giáo dục bất biến)
+  TẦNG 4: Applications/Education-System/ (ứng dụng per-era)
+  TẦNG 5: Applications/Education-System/Country/ (per-country)
 dependencies:
-  - Child-Development-Mechanism.md — KHUNG NGUYÊN LÝ v7.8 (reference chính)
-  - Core-v7.8-Draft.md — cycle architecture, observation parameters
-  - Cortisol-Baseline.md v2.0 — amplifier reframe, direction > level, 7 modes
-  - Chunk.md v2.0 — chunk substrate, compile, approach/avoidance tag
-  - 02-Womb-to-Birth-Baseline.md — prenatal baseline, birth moment physiology
-  - PFC-Development.md — PFC reframe, 5 empirical pillars, Hodel 2018
-  - Feeling.md v2.0 — 7-layer fidelity gradient
-  - Connection.md — hardware drive, attachment chunks
+  existing-v2.0:
+    - Child-Development-Mechanism.md v2.0 — KHUNG NGUYÊN LÝ v7.8 (reference chính)
+    - Core-Software.md v2.0 — cycle architecture, observation parameters
+    - Cortisol-Baseline.md v2.0 — amplifier reframe, direction > level, 7 modes
+    - Chunk.md v2.2 — chunk substrate, compile, approach/avoidance tag
+    - 02-Womb-to-Birth-Baseline.md — prenatal baseline, birth moment physiology
+    - PFC-Development.md — PFC reframe, 5 empirical pillars, Hodel 2018
+    - Feeling.md v2.2 — 7-layer fidelity gradient
+    - Connection.md v5.0 — hardware drive, attachment chunks, Hardware-Subsidy spectrum
+  new-v2.1:
+    - Valence-Propagation.md v3.0 — Structural/Current valence, Hardware-Subsidy, 3 Firing Modes [NEW v2.1]
+    - Coordination-Node.md v1.2 — mẹ=first node §2.5, Hardware-Subsidy Per Scale §9.4 [NEW v2.1]
+    - Entity-Access.md v1.2 — gradient Mức 0-5, Entity-Access prenatal context [NEW v2.1]
+    - Entity-Compiled.md v1.0 — mẹ=first compiled entity, Hub-and-Spoke [NEW v2.1]
+    - Body-Feedback-Mechanism.md v1.1 — Body-Feedback Pipeline, prediction-delta [NEW v2.1]
+    - Compiled-Fresh.md v2.0 — Compiled/Fresh processing, PFC Budget [NEW v2.1]
+    - By-Product-Scale.md v1.0 — mẹ=VEHICLE+ROAD, prestige=genuine resonance [NEW v2.1]
+    - Body-Feedback-Label.md v2.1 — 3-tier labels vocabulary [NEW v2.1]
+    - Resonance-Per-Entity.md v1.0 — Hardware-Subsidy Spectrum per entity [NEW v2.1]
+    - Natural-Development.md v2.1 — postnatal continuation [NEW v2.1]
+    - Skill-Introduction.md v2.1 — skill build on hardware [NEW v2.1]
+    - Dissonance-Signal-Architecture.md v1.0 — cortisol amplifies dissonance [NEW v2.1]
 supersedes: |
   Mother-Optimization.md v1.0 (2026-04-01, v7.5 lens)
   Backup: Research/Child-Development/backup/Mother-Optimization-v1.0-backup.md
@@ -124,7 +140,7 @@ READER FLOW:
 
   3 FILE KIA: framework parameters = TRUNG TÂM
     → Approach/avoidance tags, chunk compile channels, PFC reframe,
-      body signal, feeling layers, autonomy arc...
+      body-feedback (prediction-delta), Hardware-Subsidy, autonomy arc...
     → Đo bằng: observation parameters, chunk dynamics, body state
 
   FILE NÀY: Y KHOA = TRUNG TÂM, framework = CÁCH NHÌN
@@ -166,7 +182,7 @@ READER FLOW:
   ③ "Biết BÂY GIỜ → áp dụng cho tương lai, ĐỪNG dùng để tự trách quá khứ"
      → Con đã sinh? → Postnatal environment CÓ THỂ compensate RẤT NHIỀU
      → Brain plasticity = cơ chế recovery mạnh nhất của não
-     → = File Natural-Development.md v2.0 + Skill-Introduction.md v2.0 = bước tiếp
+     → = File Natural-Development.md v2.1 + Skill-Introduction.md v2.1 = bước tiếp
 
   ④ "Brain trẻ CỰC plastic → prenatal ≠ destiny"
      → Prenatal = SET UP RANGE (rộng hay hẹp)
@@ -228,6 +244,18 @@ THUẬT NGỮ V7.8 DÙNG TRONG FILE (nhẹ — file này y khoa là chính):
     → PFC KHÔNG phải "chưa phát triển" → hardware có sẵn từ trong bụng
     → Cái thiếu = compiled chunks + myelination + pruning
     → Chi tiết: Mechanism §1, PFC-Development.md
+
+  Hardware-Subsidy (v2.1)
+    → Anti-habituation: cơ chế sinh học CHỐNG quen (VTA habituate)
+    → VTA (reward system) sẽ habituate với MỌI stimulus lặp lại
+    → Hardware-Subsidy = hormone/hardware COUNTER habituation
+    → Mẹ→Con = Hardware-Subsidy MAXIMUM:
+      oxytocin + baby schema + synchrony + prolactin
+      → 4 hệ thống cùng chống quen → mẹ KHÔNG MẤT HỨNG THÚ với con
+    → Evolutionary logic: nếu mẹ habituate → bỏ con → species extinction
+    → Chi tiết: Valence-Propagation.md v3.0 §7,
+      Connection.md v5.0 §3.1, Resonance-Per-Entity.md v1.0 §2
+    → 🟡 Framework synthesis — individual mechanisms 🟢
 
   🟢 🟡 🔴 = 3-tier confidence
     → 🟢 Research support mạnh (meta-analysis, RCT, guidelines)
@@ -478,6 +506,16 @@ HARDWARE CỦA CON ĐƯỢC QUYẾT ĐỊNH BỞI 4 YẾU TỐ:
   → = File này focus vào ③ — cái mẹ CÓ THỂ tối ưu
   → = §3-§7 sẽ detail CƠ CHẾ và THỰC TẾ của ③
 
+  ⭐ V2.1 — THAI NHI VÀ ENTITY-ACCESS (Entity-Access v1.2):
+    → Thai nhi = CHƯA CÓ entity-access (Mức 0 trong gradient)
+    → Chưa có Simulation-Engine (chưa simulate "mẹ muốn gì")
+    → Chưa compile entity nào (Entity-Compiled chưa hình thành)
+    → Thai nhi CHỈ CÓ: hardware environment (cortisol, nutrients, sound)
+    → SAU SINH: mẹ = entity ĐẦU TIÊN được compile
+      (giọng mẹ đã pre-compiled auditory chunks — §1.2)
+    → = Prenatal = BUILD HARDWARE. Entity mechanism BẮT ĐẦU sau sinh.
+    → 🟡 Framework synthesis (Entity-Access v1.2, Entity-Compiled v1.0)
+
   ⚠️ QUAN TRỌNG:
   Hiểu 4 yếu tố = hiểu TẠI SAO
     → Làm đúng mọi thứ → con VẪN CÓ THỂ có vấn đề (gen + random)
@@ -610,6 +648,33 @@ THAI ĐANG LÀM GÌ TRONG ĐÓ?
   │   → 🟢 mechanism cơ bản / 🔴 cross-generational effects   │
   └─────────────────────────────────────────────────────────────┘
 
+  ⭐ V2.1 — HARDWARE-SUBSIDY CHO MẸ (Valence-Propagation v3.0 §7):
+
+  CƠ ĐỊA MẸ ĐẶC BIỆT vì cơ thể mẹ ĐƯỢC SUBSIDIZE:
+    → Pregnancy hormones (progesterone, oxytocin, prolactin)
+      = Hardware-Subsidy MAXIMUM — anti-habituation mạnh nhất trong mọi
+      loại connection (Mẹ→Con — Valence-Propagation v3.0 §7, 🟢 Feldman 2012)
+    → Cơ chế: VTA (reward system) SẼ habituate với mọi stimulus lặp lại
+      → Hardware-Subsidy COUNTER habituation → mẹ KHÔNG ngừng care
+    → Evolutionary logic: nếu mẹ "chán con" → species không tồn tại
+    → = Pregnancy hormones KHÔNG CHỈ cho thai phát triển
+      → CÒN subsidize CONNECTION mẹ→thai → duy trì investment 40 tuần
+    → 🟡 Framework synthesis / 🟢 mỗi hormone riêng lẻ well-established
+
+  ⭐ V2.1 — MẸ = COORDINATION NODE ĐẦU TIÊN (Coordination-Node v1.2 §2.5):
+
+  File này focus: mẹ = ENVIRONMENT BUILDER (hardware cho con).
+  Nhưng V7.8 thêm: mẹ = COORDINATION NODE đầu tiên mà trẻ gặp:
+    → 5 capabilities: Self-Pattern-Modeling (đọc con), gap detection
+      ("con cần gì?"), PFC bandwidth (allocate ăn/chơi/ngủ),
+      uncertainty tolerance ("khóc vì đói hay sợ?"), trust cascade
+    → 0-3 tuổi: mẹ = ONLY coordination node → prototype cho mọi
+      coordination node sau này (giáo viên, mentor, leader)
+    → Node dual nature: VEHICLE (fill parental drive) + ROAD (enable child)
+    → = File này nói MẸ BUILD hardware (prenatal). Coordination-Node nói
+      mẹ ĐIỀU PHỐI development (postnatal) — 2 vai trò KHÁC NHAU
+    → 🟡 Framework synthesis (Coordination-Node v1.2 §2.5, By-Product-Scale v1.0 §9)
+
   = CƠ ĐỊA MẸ ≠ "MẸ PHẢI HOÀN HẢO"
   = CƠ ĐỊA MẸ = "biết cơ chế → optimize TRONG KHẢ NĂNG"
   = Hoàn cảnh sống KHÁC NHAU → khả năng optimize KHÁC NHAU
@@ -712,12 +777,27 @@ YẾU TỐ ÍT AI NÓI TỚI — NHƯNG CÓ THẬT
     → Máu mẹ → nhau thai → máu thai
     → NHƯNG: có "bộ lọc" ở nhau thai
 
+  ⭐ V2.1 — BODY-FEEDBACK PIPELINE ĐẦU TIÊN:
+    → V7.8 lens (Body-Feedback-Mechanism.md v1.1):
+      cortisol qua nhau thai = body-feedback signal ĐẦU TIÊN cho thai nhi
+    → Thai nhi CHƯA CÓ trải nghiệm → cortisol environment mẹ
+      = INPUT body-feedback duy nhất từ BÊN NGOÀI
+    → = Prenatal cortisol → first body-feedback → first calibration data
+
   BỘ LỌC: ENZYME 11β-HSD2 🟢
     → Nằm trong nhau thai (syncytiotrophoblast layer)
     → Chức năng: chuyển cortisol (ACTIVE) → cortisone (INACTIVE)
     → Hiệu suất lọc: ~80% cortisol bị chuyển thành cortisone 🟢
     → = ~10-20% cortisol mẹ ĐI QUA tới thai
     → Enzyme này có từ ~tuần 3 sau thụ tinh
+
+  ⭐ V2.1 — 11β-HSD2 = HARDWARE-SUBSIDY Ở MỨC BIOCHEMICAL:
+    → V7.8 lens: 11β-HSD2 = cơ thể mẹ SUBSIDIZE bảo vệ thai
+    → Cùng logic Hardware-Subsidy (§0.4): body invest resource
+      để COUNTER tác nhân tiêu cực, giống oxytocin counter habituation
+    → 11β-HSD2 = Hardware-Subsidy AGAINST cortisol overexposure
+    → = Body mẹ không chỉ "mang thai" → ĐANG TÍCH CỰC BẢO VỆ thai
+    → 🟢 Enzyme mechanism / 🟡 Framework interpretation
 
   NHƯNG — BỘ LỌC KHÔNG HOÀN HẢO:
     → 10-20% VẪN QUA → nếu mẹ cortisol CAO MÃN TÍNH → tích lũy
@@ -768,6 +848,15 @@ CORTISOL QUA TỚI THAI → ẢNH HƯỞNG GÌ?
        → = Prenatal cortisol environment → SET UP xu hướng,
          KHÔNG quyết định tuyệt đối (postnatal CÓ THỂ recalibrate)
 
+     ⭐ V2.1 — STRUCTURAL VALENCE (Valence-Propagation v3.0 §2):
+       Approach/avoidance tags COMPILE VÀO chunks → thành STRUCTURAL valence:
+       → Chunks compile dưới cortisol cao → Structural avoidance tag
+       → Chunks compile dưới cortisol thấp-vừa → Structural approach tag
+       → Structural valence = SLOW TO CHANGE (đã compile vào chunk)
+       → = Prenatal cortisol SET Structural valence cho earliest chunks
+       → NHƯNG: postnatal chunks NHIỀU HƠN → có thể override
+       → 🟡 Framework synthesis (Valence-Propagation v3.0, Mechanism §3)
+
      → NHƯNG: CÓ THỂ recalibrate SAU SINH (brain plastic!)
        → Postnatal environment an toàn + attachment tốt → recalibrate ↓
 
@@ -780,7 +869,7 @@ CORTISOL QUA TỚI THAI → ẢNH HƯỞNG GÌ?
 
   ③ AMYGDALA 🟡
      → Amygdala (vùng threat detection, emotion processing)
-     �� Cortisol cao mãn tính → amygdala CÓ THỂ reactive HƠN
+     → Cortisol cao mãn tính → amygdala CÓ THỂ reactive HƠN
      → = Hệ cảnh báo "nhạy" hơn mức cần → dễ lo lắng, sợ hãi
      → Research: animal studies mạnh / human = correlation + confounds
 
@@ -802,7 +891,7 @@ CORTISOL QUA TỚI THAI → ẢNH HƯỞNG GÌ?
     → = Mechanism PLAUSIBLE + evidence SUGGESTIVE → chưa phải PROVEN
 ```
 
-### §3.3 — Direction > Level — Cortisol KHÔNG ho��n toàn xấu 🟢/🟡
+### §3.3 — Direction > Level — Cortisol KHÔNG hoàn toàn xấu 🟢/🟡
 
 ```
 ⭐ V7.8 REFRAME QUAN TRỌNG NHẤT CHO SECTION NÀY:
@@ -1470,11 +1559,33 @@ STRESS MANAGEMENT ≠ TRÁNH STRESS
          → Relationships gây stress > không có relationships
          → = Quality > quantity trong social support
 
+       ⭐ V2.1 — SOCIAL SUPPORT = HARDWARE-SUBSIDY CHO MẸ:
+         → Oxytocin từ partner/gia đình = Hardware-Subsidy (§0.4)
+         → Anti-habituation: mẹ có support → oxytocin COUNTER cortisol
+           → stress recovery NHANH HƠN → environment thai ỔN ĐỊNH hơn
+         → Mẹ KHÔNG CÓ support → thiếu Hardware-Subsidy
+           → cortisol recovery CHẬm hơn → compound với pregnancy stress
+         → = Social support KHÔNG CHỈ "tốt cho tinh thần"
+           → CÓ CƠ CHẾ SINH HỌC: oxytocin vs cortisol (🟢 Heinrichs 2003)
+         → = Thêm lý do: partner/gia đình hỗ trợ = ĐẦU TƯ VÀO HARDWARE CON
+
     ⑤ MINDFULNESS / MEDITATION (nếu phù hợp):
        → Evidence: giảm anxiety, cortisol ↓ 🟡
        → KHÔNG bắt buộc — breathing + nature cũng đủ
        → Một số mẹ thấy helpful, một số không → personal preference
        → Apps/guided meditation: dễ bắt đầu
+
+  ⭐ V2.1 — PFC BUDGET CHO STRESS TOOLS (Compiled-Fresh v2.0):
+    → PFC = limited resource — mẹ mệt (cuối ngày, trimester 3)
+      → PFC budget CẠN → tool phức tạp KHÓ DÙNG
+    → XẾP HẠNG THEO PFC COST:
+      → ① Breathing = THẤP NHẤT (Compiled processing, body tự làm)
+      → ② Nature = THẤP (sensory input, không cần plan)
+      → ③ Music = THẤP (passive, Compiled processing)
+      → ④ Social = TRUNG BÌNH (cần tìm người, cần nói)
+      → ⑤ Meditation = CAO NHẤT (Fresh processing, cần tập trung)
+    → = KHI MẸ MỆT → dùng tool PFC THẤP (breathing, music, nature)
+    → = ĐỪNG ép meditation khi PFC cạn → counter-productive
 
   VN CONTEXT — ÁP LỰC ĐẶC THÙ:
     → Áp lực gia đình: "kiêng" này nọ, ý kiến về nuôi dạy
@@ -1496,7 +1607,7 @@ STRESS MANAGEMENT ≠ TRÁNH STRESS
     → = ĐÂY LÀ BỆNH — cần ĐIỀU TRỊ, giống như tiểu đường thai kỳ cần điều trị
 
   DẤU HIỆU CẦN CHÚ Ý:
-    → Buồn bã, trống rỗng KÉO DÀI (>2 tuần, không phải mood swings bình thường)
+    → Buồn bã, emptiness KÉO DÀI (>2 tuần, không phải mood swings bình thường)
     → Mất hứng thú với mọi thứ (kể cả thai nhi)
     → Lo lắng LIÊN TỤC, không thể kiểm soát
     → Khó ngủ KHÔNG PHẢI vì thể chất (nằm được nhưng không ngủ được)
@@ -1547,6 +1658,13 @@ MẸ KHÔNG SỐNG TRONG CHÂN KHÔNG — MÔI TRƯỜNG MẸ = MÔI TRƯỜNG T
     → Hỗ trợ PROTECTION: bảo vệ mẹ khỏi stress không cần thiết
       (gia đình ý kiến, công việc áp lực → partner = buffer)
     → = Partner CÓ THỂ ảnh hưởng hardware con GIÁN TIẾP qua hỗ trợ mẹ
+
+    ⭐ V2.1 — PARTNER = SECONDARY COORDINATION NODE:
+      → V7.8 lens (Coordination-Node v1.2 §2.5):
+        partner = coordination node thứ 2 cho HỆ SINH THÁI gia đình
+      → Partner cung cấp Hardware-Subsidy cho MẸ (oxytocin — §0.4)
+        → Mẹ nhận subsidy → mẹ cung cấp subsidy cho con → chain
+      → = Partner KHÔNG CHỈ giúp mẹ → gián tiếp BUILD hardware con
 
   GIA ĐÌNH:
     → Support = tuyệt vời (kinh nghiệm, giúp đỡ thực tế)
@@ -2232,6 +2350,31 @@ NHỮNG CÂU HỎI MÀ SCIENCE CHƯA TRẢ LỜI ĐỦ — VÀ FRAMEWORK CHƯA A
      → Dose-response curve cho HUMAN = chưa established
      → Animal studies: clear dose-response / Human: confounded
      → = Framework nói "có ảnh hưởng" → y khoa chưa nói "bao nhiêu"
+
+  ⑩ HARDWARE-SUBSIDY VARIATION: TẠI SAO MỘT SỐ MẸ ÍT BOND? (v2.1)
+     → Hardware-Subsidy = MAXIMUM cho mẹ→con (§0.4, Valence-Propagation v3.0 §7)
+     → NHƯNG: postpartum depression, bonding difficulties → CÓ THẬT
+     → Hardware-Subsidy bị SUPPRESS bởi: cortisol mãn tính? Gen variation?
+       Trauma history? Hormone imbalance postpartum?
+     → = Hardware-Subsidy = TENDENCY, không phải guarantee
+     → = Research: mostly depression lens, chưa frame qua subsidy mechanism
+
+  ⑪ FIRST ENTITY-REPRESENTATION: KHI NÀO BẮT ĐẦU? (v2.1)
+     → §2 v2.1: thai nhi chưa có Entity-Access (Mức 0)
+     → SAU SINH: mẹ = first compiled entity
+     → NHƯNG: KHI NÀO chính xác? Hours? Days? Weeks?
+     → Giọng mẹ đã pre-compiled (auditory chunks) — có phải là
+       entity-representation sơ khai nhất? Hay chỉ là auditory chunk?
+     → = Ranh giới "chunk về giọng mẹ" vs "entity mẹ" = chưa clear
+
+  ⑫ FIRST COORDINATION NODE QUALITY: ẢNH HƯỞNG THẾ NÀO? (v2.1)
+     → §2.3 v2.1: mẹ = first coordination node (Coordination-Node v1.2 §2.5)
+     → Mẹ = PROTOTYPE cho mọi coordination node sau này
+     → NHƯNG: nếu prototype KHÔNG TỐT (mẹ không available, depression,
+       overwhelmed) → trẻ compile coordination node PATTERN nào?
+     → = "Coordination node = stress source" vs "coordination node = safe"
+     → = Research: attachment theory addresses some, nhưng coordination
+       node framing = mới (🟡), chưa có specific research
 ```
 
 ---
@@ -2242,10 +2385,10 @@ NHỮNG CÂU HỎI MÀ SCIENCE CHƯA TRẢ LỜI ĐỦ — VÀ FRAMEWORK CHƯA A
 FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
 ```
 
-### Trong folder Child-Development (bộ 4):
+### Child-Development (bộ 4):
 
 ```
-  → Child-Development-Mechanism.md — KHUNG NGUYÊN LÝ v7.8
+  → Child-Development-Mechanism.md v2.0 — KHUNG NGUYÊN LÝ v7.8
      + §1: PFC reframe (Hodel 2018) → áp dụng từ prenatal (§1.3 file này)
      + §2: 4+1 channel compile → thai ĐÃ compile chunks (§2.2 file này)
      + §3: approach/avoidance tags → prenatal baseline SET UP tendency (§3.2)
@@ -2253,15 +2396,14 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
      + §8.2: sleep = repair mechanism → áp dụng cho MẸ (§6.1)
      + §8.4: direction > level → áp dụng cho cortisol MẸ (§3.3)
 
-  → Natural-Development.md v2.0 — Hardware khi sinh → compile chunks
-     + §1: hardware sơ sinh (86 tỷ neuron, synaptogenesis, myelination order)
-       = TIẾP NỐI trực tiếp từ trimester 3 (§1.3 file này)
-     + §2: 8 hành vi tự nhiên = TIẾP TỤC testing circuits bắt đầu trong bụng
-     + §3: sleep/REM = TIẾP TỤC brain compile bắt đầu từ fetal REM (§1.3)
+  → Natural-Development.md v2.1 — Hardware khi sinh → compile chunks
+     + §1: hardware sơ sinh = TIẾP NỐI trực tiếp từ trimester 3 (§1.3)
+     + §2: 8 hành vi tự nhiên = TIẾP TỤC testing circuits từ bụng
+     + §3: sleep/REM = TIẾP TỤC brain compile từ fetal REM (§1.3)
 
-  → Skill-Introduction.md v2.0 — Build skills TRÊN hardware
-     + Hardware quality (file này) → RANGE → Natural-Dev + Skill-Intro FILL range
-     + §1: readiness > age = readiness PHẦN NÀO phụ thuộc hardware quality
+  → Skill-Introduction.md v2.1 — Build skills TRÊN hardware
+     + Hardware quality (file này) → RANGE → Skill-Intro FILL range
+     + §1: readiness > age = readiness phụ thuộc hardware quality
      + §2: 4-step progression = BUILD trên foundation từ 2 files trước
 
   = BỘ 4 = MECHANISM + TIMELINE LIÊN TỤC:
@@ -2270,59 +2412,104 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
     TRƯỚC SINH            → SAU SINH 0-6          → SONG SONG 0-6
 ```
 
-### Trong Core-Deep-Dive:
+### Core — Foundation:
 
 ```
-  → Core-v7.8-Draft.md — Framework gốc (project root)
+  → Core-Software.md v2.0 — Cycle architecture, observation parameters
      + Perception-Action Cycle: thai đang chạy loop đơn giản trong bụng
-     + Observation parameters: prenatal SET UP baseline cho emergence sau sinh
 
-  → Cortisol-Baseline.md v2.0 (Body-Base/Cortisol-Baseline.md)
+  → Cortisol-Baseline.md v2.0 (Body-Base/)
      + §3 file này = prenatal extension của cortisol baseline concept
-     + HPA axis calibration: bắt đầu từ TRONG BỤNG → file này giải thích HOW
+     + HPA axis calibration: bắt đầu từ TRONG BỤNG
      + Repair - damage formula: áp dụng cho MẸ (sleep = repair)
-     + 7 modes: baseline SET trong bụng → ảnh hưởng starting mode
      + Direction > level: áp dụng cho cortisol MẸ (§3.3)
+```
 
-  → Chunk.md v2.0 (Body-Base/Chunk/Chunk.md)
-     + §2.4 NT7: cortisol = direction gate at compile time
+### Core — Body-Base:
+
+```
+  → Chunk.md v2.2 (Body-Base/Chunk/)
+     + §2.4 Direction-At-Compile: cortisol = compile direction gate
      + Thai nhi ĐÃ compile chunks (auditory, motor — §2.2 file này)
 
-  → Feeling.md v2.0 (Body-Base/Feeling/Feeling.md)
+  → Valence-Propagation.md v3.0 (Body-Base/) [NEW v2.1]
+     + §7: Hardware-Subsidy spectrum → Mẹ→Con = MAXIMUM (→ §0.4, §2.3)
+     + §2: Structural vs Current valence (→ §3.2 file này)
+     + §6: 3 Firing Modes
+
+  → Feeling.md v2.2 (Body-Base/Feeling/)
      + 7-layer fidelity gradient — sơ sinh bắt đầu từ layer 1-2
-     + Prenatal body-base → foundation cho feeling development sau sinh
 
-  → Imagine-Final.md (PFC/Imagination/Imagine-Final.md)
-     + Prenatal hardware → RANGE cho Imagine-Final development sau sinh
-     + Prenatal ĐẶT RANGE, postnatal FILL range
+  → Body-Feedback-Mechanism.md v1.1 (Body-Base/Body-Feedback/) [NEW v2.1]
+     + Body-Feedback Pipeline → prenatal cortisol = first signal (→ §3.1)
 
-  → Connection.md (Observation/Connection.md)
-     + Hardware drive có từ lúc sinh → prenatal attachment chunks
-       (giọng mẹ = first connection chunk — §1.2 file này)
+  → Body-Feedback-Label.md v2.1 (Body-Base/Body-Feedback/) [NEW v2.1]
+     + 3-tier labels: Hardware-Signal / Evaluative-Signal / Integration-Signal
 
-  → Body-Feedback-Mechanism.md (Body-Base/Body-Feedback/Body-Feedback-Mechanism.md)
-     + 2 sources × 3 dynamics — áp dụng từ prenatal (fetal movement)
+  → Compiled-Fresh.md v2.0 (Body-Base/) [NEW v2.1]
+     + PFC Budget concept → stress tools PFC cost (→ §6.2)
 
-  → PFC-Development.md (PFC/PFC-Development.md)
-     + PFC reframe chi tiết → 5 evidence pillars → Hodel 2018
-
-  → 02-Womb-to-Birth-Baseline.md
-     (Body-Base/Chunk/Child-Chunk-Development/Foundation/02-Womb-to-Birth-Baseline.md)
-     + Prenatal baseline chi tiết: womb environment, prenatal learning,
-       birth moment physiology, first sensory cascade
+  → 02-Womb-to-Birth-Baseline.md (Body-Base/Chunk/Child-Chunk-Development/Foundation/)
+     + Prenatal baseline chi tiết: womb environment, prenatal learning
      + = File CHUYÊN SÂU cho nội dung §1-§2 file này
 
-  → Attention-Spectrum.md (PFC/Attention-Spectrum.md)
+  → Dissonance-Signal-Architecture.md v1.0 (Body-Base/) [NEW v2.1]
+     + Cortisol AMPLIFIES dissonance, doesn't CREATE it
+```
+
+### Core — PFC:
+
+```
+  → PFC-Development.md (PFC/)
+     + PFC reframe chi tiết → 5 evidence pillars → Hodel 2018
+
+  → Imagine-Final.md v3.0 (PFC/Imagination/)
+     + Prenatal hardware → RANGE cho Imagine-Final development sau sinh
+
+  → Attention-Spectrum.md (PFC/)
      + Gen DRD4 (§2.1 file này) → attention spectrum = PRENATAL (genetic)
-     + Mother-Opt → set range / Attention-Spectrum → understand range
 ```
 
-### Trong Research:
+### Core — Observation:
 
 ```
-  → Education-Bridge.md (Research/Education/Education-Bridge.md)
+  → Connection.md v5.0 (Observation/) [UPDATED v2.1]
+     + §3.1: Hardware-Subsidy spectrum → Mẹ→Con MAXIMUM (→ §0.4, §2.3)
+     + Hardware drive có từ lúc sinh → prenatal attachment chunks
+```
+
+### Core — Agent-Mechanism:
+
+```
+  → Entity-Access.md v1.2 (Agent-Mechanism/) [NEW v2.1]
+     + Gradient Mức 0-5 → thai nhi = Mức 0 (→ §2 file này)
+
+  → Entity-Compiled.md v1.0 (Agent-Mechanism/) [NEW v2.1]
+     + Mẹ = first compiled entity sau sinh (Hub-and-Spoke model)
+
+  → Resonance-Per-Entity.md v1.0 (Agent-Mechanism/) [NEW v2.1]
+     + Hardware-Subsidy Spectrum per entity type
+
+  → By-Product-Scale.md v1.0 (Agent-Mechanism/) [NEW v2.1]
+     + Mẹ = VEHICLE + ROAD (dual nature — →§2.3 file này)
+```
+
+### Core — Collective:
+
+```
+  → Coordination-Node.md v1.2 (Collective/) [NEW v2.1]
+     + §2.5: Mẹ = first coordination node (5 capabilities — →§2.3)
+     + §9.4: Hardware-Subsidy Per Scale (oxytocin→serotonin→trust)
+
+  → Resonance-Sustainability.md v1.0 (Collective/) [NEW v2.1]
+     + 4-Layer Sustainability model
+```
+
+### Research — Education:
+
+```
+  → Education-Bridge.md (Research/Human-Learning/Education-Mechanism/)
      + Prenatal cortisol baseline → ảnh hưởng basal motivation state
-     + = Indirect connection: hardware → affect → motivation → learning
 ```
 
 ### Closing
@@ -2330,7 +2517,7 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
 ```
   ┌─────────────────────────────────────────────────────────────┐
   │                                                             │
-  │  Mother-Optimization v2.0                                   │
+  │  Mother-Optimization v2.1                                   │
   │  "Xuất phát điểm của xuất phát điểm."                      │
   │                                                             │
   │  Từ 1 tế bào → 86 tỷ neuron trong 40 tuần.                │
@@ -2341,6 +2528,7 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
   │    Cortisol = amplifier — direction > level.                │
   │    HPA axis đang calibrate — baseline being SET.            │
   │    PFC hardware online — chunks chưa compile đủ.            │
+  │    Hardware-Subsidy = body bảo vệ mẹ→con connection.       │
   │    Prenatal = RANGE — postnatal = FILL range.               │
   │                                                             │
   │  Optimize cái CÓ THỂ. Accept cái KHÔNG THỂ.               │
@@ -2348,9 +2536,27 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
   │                                                             │
   │  Và nhớ:                                                    │
   │  Hardware = RANGE, không phải DESTINY.                      │
-  │  Natural-Dev v2.0 + Skill-Intro v2.0 = FILL range.         │
+  │  Natural-Dev v2.1 + Skill-Intro v2.1 = FILL range.         │
   │  Brain plasticity = recovery mechanism mạnh nhất.           │
   │  Bắt đầu từ đâu cũng CHƯA MUỘN.                          │
   │                                                             │
   └─────────────────────────────────────────────────────────────┘
+
+  v2.1 (2026-05-25):
+    + Hardware-Subsidy: §0.4 definition, §2.3 pregnancy hormones,
+      §3.1 11β-HSD2, §6.2 social support oxytocin
+    + Coordination-Node: §2.3 mẹ=first node, §6.2 partner=secondary node
+    + Entity-Access: §2 thai nhi Mức 0, mẹ=first entity sau sinh
+    + Structural valence: §3.2 prenatal cortisol sets Structural tags
+    + Body-Feedback Pipeline: §3.1 cortisol=first body-feedback signal
+    + PFC Budget: §6.2 stress tools xếp hạng theo PFC cost
+    + §11: +3 open questions (⑩ Hardware-Subsidy variation,
+      ⑪ first entity-representation, ⑫ first coordination node quality)
+    + §12: complete rewrite (+12 new cross-refs), paths+versions updated
+    + Header: deps 8→20, position paths fixed, v2.0→v2.1
+  v2.0 (2026-04-21):
+    v7.8 reframe. Cortisol amplifier, direction > level, PFC online,
+    chunk compile, baseline calibration. 12 sections. Medical-heavy.
+  v1.0 (2026-04-01):
+    Initial version. v7.5 lens. → backup/
 ```

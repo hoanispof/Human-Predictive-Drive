@@ -8,9 +8,9 @@ purpose: |
   Đóng gói GỌN GÀN toàn bộ "Logic side" của framework.
   Framework core value = Feeling side (AI không thay thế được).
   Logic side = AI hỗ trợ cực mạnh → chỉ cần mô tả cần và đủ.
-  File này = companion cho Logic-Feeling.md (2 modes) — chi tiết Logic mode + Planning.
+  File này = companion cho Logic-Feeling.md (observer labels) — chi tiết Logic side + Planning.
 parent_files:
-  - Logic-Feeling.md (2 processing modes — Logic vs Feeling)
+  - Logic-Feeling.md (Body-Knowing + observer labels — Compiled/Fresh spectrum)
   - Body-Base/Feeling/Feeling.md v2.0 (feeling system — 15 sections, 8-step flow, literacy)
   - Imagine-Final.md (reference pattern — planning target)
   - Chunk-Analysis/Chunk.md v2.0 (chunk system — 14 sections, activation, lifecycle)
@@ -68,13 +68,13 @@ LOGIC PROCESSING:
   Chunk chưa có label → feeling territory (body biết, PFC chưa biết).
   Chunk có label → logic territory (PFC có thể chain, plan, communicate).
 
-  ⚠️ v2.0 NOTE (Logic-Feeling.md v2.0, 2026-05-17):
-  "Logic" = OBSERVER LABEL, không ph���i mechanism riêng.
+  ⚠️ v4.0 NOTE (Logic-Feeling.md v4.0, 2026-05-26):
+  "Logic" = OBSERVER LABEL, không phải mechanism riêng.
   Trục thật: Compiled ←→ Fresh (compilation level).
-  "Logic" = label khi output SHAREABLE (deterministic domain) hoặc PFC visibly active.
-  "Feeling" = label khi output NON-SHAREABLE (compiled body-direct).
+  "Logic" = label khi Body-Knowing SHAREABLE (deterministic domain).
+  "Feeling" = label khi Body-Knowing NON-SHAREABLE (compiled body-direct).
   File này vẫn dùng "Logic" vì = pragmatic label cho territory AI hỗ trợ.
-  Detail: Logic-Feeling.md v2.0 §1-§2.
+  Detail: Logic-Feeling.md v4.0 §1-§2. Body-Knowing.md §1 = full definition.
 ```
 
 **Logic = map.** Chính xác, chi tiết, chỉ cover nơi ĐÃ BIẾT (đã label). Không thấy ngoài map.
@@ -136,7 +136,7 @@ Properties:
     Hai người cùng thấy hổ → chỉ tay → chạy = Group anchor plan
     KHÔNG CẦN biết từ "hổ" — chỉ cần CÙNG THẤY + CÙNG BIẾT
 
-  ⭐ Group anchor = PHẦN LỚN communication hàng ngày:
+  ⭐ Group anchor = PHẦN LỚN communication hàng ngày (% = illustrative, không đo lường):
   → Vợ chồng nói chuyện: 80% = group anchors (shared experience)
   → Team meeting: 60% = group jargon + shared context
   → Bạn bè: "nhớ HÔM ĐÓ không?" = group anchor trigger
@@ -362,7 +362,7 @@ NHƯNG — AI THIẾU:
 AI LÀM TỐT HƠN CON NGƯỜI Ở:
 
   ① TÌM LABEL:
-    Con người: "tôi cảm thấy cái gì đó... lờ mờ... về ánh sáng..."
+    Con người: "I sense something... vague... about the light..."
     AI: "Bạn đang mô tả hiện tượng 'diffraction'? Hoặc 'refraction'?"
     → AI = Somatic-Articulation CATALYST (per Somatic-Articulation-Loop.md §5)
     → AI giúp articulate Individual anchor → Global label
@@ -407,11 +407,11 @@ AI KHÔNG CÓ:
   Feeling side: AI KHÔNG thay thế → framework PHẢI phân tích sâu
   → Core value của framework = HIỂU FEELING
   → Để con người BIẾT:
-    1. Tôi đang feel gì (Layer 1-3 awareness)
+    1. Tôi đang feel gì (Feel-RawSignals → Feel-Consciousification awareness)
     2. Cách articulate feeling → label (Somatic-Articulation Loop)
     3. Khi nào trust feeling, khi nào cần AI check logic
     4. Feeling phát triển thế nào (child development — F1)
-    5. Feeling bị damage thế nào (NT7 cortisol, imposed-parent)
+    5. Feeling bị damage thế nào (Direction-At-Compile cortisol, imposed-parent)
     6. Feeling repair thế nào (3 update paths)
 ```
 
@@ -459,7 +459,7 @@ F1 Child-Chunk-Development (12 files, ~11,596L) chứng minh:
   Label SAU (12-18+ tháng):
     → Verbal label ATTACH lên chunks ĐÃ TỒN TẠI
     → "Đói" attach lên hunger chunk (đã compile từ lúc sơ sinh)
-    → Label = ENHANCEMENT, không phải CREATION (F1 NT6 verdict)
+    → Label = ENHANCEMENT, không phải CREATION (Label-As-Handle verdict)
 
   Logic SAU NỮA (18+ tháng):
     → Chain labels thành plans: "đói" → "muốn cơm" → "mẹ ơi"
@@ -563,10 +563,10 @@ FEELING ĐÃ CÓ:
   ✅ Sources: Feeling-Sources.md (10 channels) (2026-04-13 COMPLETE)
   ✅ Accuracy: Feeling-Accuracy.md (PFC fidelity per layer) (2026-04-13 COMPLETE)
   ✅ Research: Feeling-Research.md (Damasio, Gendlin, Craig, etc.) (2026-04-13 COMPLETE)
-  ✅ 2 Modes: Logic-Feeling.md (Logic vs Feeling interaction) (2026-04-13 COMPLETE)
+  ✅ Observer Labels: Logic-Feeling.md (Body-Knowing + Compiled/Fresh + observer labels) (2026-04-13 → v4.0 2026-05-26)
   ✅ Body→Words: Somatic-Articulation-Loop.md (transition mechanism) (2026-04-11 COMPLETE)
   ✅ Child development: F1 12 files (developmental timeline) (2026-04-16 COMPLETE)
-  ✅ Cortisol/Threat: NT7 refined (damage mechanism) (2026-04-16 REV1 COMPLETE)
+  ✅ Cortisol/Threat: Direction-At-Compile refined (damage mechanism) (2026-04-16 REV1 COMPLETE)
 
 FEELING ĐÃ HOÀN THÀNH THÊM (updated 2026-05-17):
   ✅ Feeling.md v3.0 (2,122L) — +PFC=Lawyer, +Compiled/Fresh×7-Layer, +Compilable Architecture
@@ -618,7 +618,7 @@ FEELING ĐÃ HOÀN THÀNH THÊM (updated 2026-05-17):
 
 | File | Nội dung | Status |
 |---|---|---|
-| [Logic-Feeling.md](Logic-Feeling.md) | Compiled/Fresh axis + observer labels | ✅ v2.0 (2026-05-17) |
+| [Logic-Feeling.md](Logic-Feeling.md) | Compiled/Fresh axis + observer labels | ✅ v4.0 (2026-05-26) |
 | [Feeling.md](Body-Base/Feeling/Feeling.md) | 7-layer + PFC=Lawyer + Compiled/Fresh | ✅ v3.0 (2026-05-17) |
 | [Feeling-Sources.md](Body-Base/Feeling/Feeling-Sources.md) | 10 feeling channels | ✅ COMPLETE |
 | [Somatic-Articulation-Loop.md](Imagination/Somatic-Articulation-Loop.md) | Body→Words transition | ✅ COMPLETE |
@@ -641,7 +641,7 @@ FEELING ĐÃ HOÀN THÀNH THÊM (updated 2026-05-17):
 
 | File | Nội dung | Key for Logic-Planning |
 |---|---|---|
-| [08-Verbal-Production-Arc.md](Chunk-Analysis/Child-Chunk-Development/08-Verbal-Production-Arc.md) | NT6 Verbal-as-handle + H11 | Labels = retrieval + compression, NOT constitutive |
+| [08-Verbal-Production-Arc.md](Chunk-Analysis/Child-Chunk-Development/08-Verbal-Production-Arc.md) | Label-As-Handle + Receptive-Productive-Asymmetry | Labels = retrieval + compression, NOT constitutive |
 | [10-F1-Synthesis.md](Chunk-Analysis/Child-Chunk-Development/10-F1-Synthesis.md) | 7 verdicts + output contracts | Pre-verbal substrate exists |
 
 ### §9.4 — External references

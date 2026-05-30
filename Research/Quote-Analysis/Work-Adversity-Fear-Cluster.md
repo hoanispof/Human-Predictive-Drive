@@ -23,7 +23,7 @@ position: |
   Work-Stay-Hungry-Stay-Foolish.md, Work-Move-Fast-Break-Things.md.
 dependencies:
   Cortisol:
-    - Cortisol-Baseline.md v2.1 — §3.3 Direction tag NT7, §5 PFC vulnerability, §6 Repair×Damage, §8 Inverted-U, §9 PFC damage timeline, §10 Trauma loop 4-stage
+    - Cortisol-Baseline.md v2.1 — §3.3 Direction-At-Compile, §5 PFC vulnerability, §6 Repair×Damage, §8 Inverted-U, §9 PFC damage timeline, §10 Trauma loop 4-stage
   PFC:
     - PFC-Operations.md v1.0 — §2 Hold/Suppress, §3 4 combinations, §4 3 outcomes, §5 Compiled Quality, §8 Compiled Suppress, §9 PFC Budget
     - Drive.md v1.2 — §2 PFC 6 Modes (Mode 3 Spinning vs Mode 4 Resolve)
@@ -37,7 +37,7 @@ dependencies:
     - Body-Feedback-Mechanism.md v2.0 — §3 Chunk dynamics (Shift/Miss/Gap)
     - Autonomy-Hardware.md v1.1 — §2 vmPFC/DRN, Maier & Seligman 2016
   Application:
-    - Self-Created-Threat.md v1.0 — §1 Trust-compile, §3 3 stages, §4 L3 vs L1-L2, §5 AI era
+    - Self-Created-Threat.md v1.1 — §1 Trust-compile, §3 3 stages, §4 PFC-level vs body-compiled, §5 AI era
     - Collective-Body.md v2.1 — §4.2 No unified PFC, §5.1 Trust chain
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -323,7 +323,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   = Measurable trên fMRI: PFC volume giảm, amygdala hyperactive
 
   TẠI SAO "ONLY":
-    Economic problems = specific, addressable, finite (L3 PFC territory)
+    Economic problems = specific, addressable, finite (PFC territory)
     Fear loop = phá hủy PFC — TOOL duy nhất để giải mọi problem khác
     → Fear loop = META-THREAT: phá tool cần để xử lý mọi threat cụ thể
 ```
@@ -345,7 +345,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Bank run: fear ngân hàng sụp (unjustified) → rút tiền → ngân hàng THẬT SỰ sụp
     Background-Pattern §6.3: fear TẠO RA outcome nó sợ → retroactive "justify"
 
-  "CONVERT RETREAT INTO ADVANCE" = Direction Tag (Cortisol-Baseline §3.3 NT7):
+  "CONVERT RETREAT INTO ADVANCE" = Direction Tag (Cortisol-Baseline §3.3 Direction-At-Compile):
     FDR KHÔNG nói "bớt sợ" (reduce cortisol)
     Ông nói CHUYỂN HƯỚNG: cùng energy → retreat (avoidance) → advance (approach)
     = Direction > Level (§7.1): vấn đề KHÔNG phải lượng cortisol mà HƯỚNG
@@ -469,7 +469,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ❌ PFC budget DEPLETED (cuối ngày, chronic stress)
     ❌ Cortisol Mode FREEZE/CRASH → PFC offline
     ❌ vmPFC NOT TRAINED → DRN default → passive
-    ❌ Trauma patterns L1-L2 → BELOW PFC access
+    ❌ Trauma patterns body-compiled → BELOW PFC access
 
   "Space" NEGATIVE (response xảy ra TRƯỚC PFC activate):
     ❌ PTSD trigger → amygdala fires → body responds → PFC gấp đuổi SAU
@@ -486,11 +486,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Framework:
     Response = compiled pattern executing → CÓ THỂ override PFC
-    Attitude = PFC direction (L3 territory) → CONTROLLABLE ngay cả khi
+    Attitude = PFC direction (PFC territory) → CONTROLLABLE ngay cả khi
       L0/L1/L2 đều bị threat (concentration camp)
 
-  Frankl: "LAST freedom" = khi TẤT CẢ bị mất, CÒN LẠI L3
-    Self-Created-Threat §4: L3 controllable vì PFC creates + PFC dismisses
+  Frankl: "LAST freedom" = khi TẤT CẢ bị mất, CÒN LẠI PFC-level
+    Self-Created-Threat §4: PFC-level controllable vì PFC creates + PFC dismisses
     = Frankl's claim CHÍNH XÁC HƠN misquote: hẹp hơn nhưng đúng hơn
 ```
 
@@ -535,7 +535,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⑤ AGE: childhood = PFC developing = most vulnerable
      (ACE studies: dose-response, Felitti 1998, Teicher 2016)
   ⑥ DIRECTION TAG: novelty body state → approach vs threat → avoidance
-     (Cortisol-Baseline §3.3 NT7: COMPILE-TIME variable, PERMANENT)
+     (Cortisol-Baseline §3.3 Direction-At-Compile: COMPILE-TIME variable, PERMANENT)
   ⑦ vmPFC TRAINING: prior controllability experience (Maier 2016)
      Domain-specific: CEO confident business, helpless relationships
 
@@ -586,21 +586,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Obstacle IS the way KHÔNG phải metaphor — LITERALLY the mechanism
 ```
 
-### §6.2 — "Intentions cannot be impeded" = L3 Territory
+### §6.2 — "Intentions cannot be impeded" = PFC Territory
 
 ```
 🟡 MARCUS PHÂN BIỆT: ACTIONS vs INTENTIONS:
 
   ACTIONS = behavior output → CÓ THỂ bị block bởi obstacle
-  INTENTIONS = PFC direction → KHÔNG THỂ bị block (L3 territory)
+  INTENTIONS = PFC direction → KHÔNG THỂ bị block (PFC territory)
 
   = Stoic "dichotomy of control":
-    "Things in our power" = L3 = judgments, intentions, disposition
+    "Things in our power" = PFC-level = judgments, intentions, disposition
     "Things NOT in our power" = L0-L2 = body, external events, others
 
-  = Frankl's "last freedom": choose ATTITUDE (L3)
-    ngay cả khi L0-L2 bị threat
-  = FDR's "convert retreat into advance": change DIRECTION (L3)
+  = Frankl's "last freedom": choose ATTITUDE (PFC-level)
+    ngay cả khi substrate bị threat
+  = FDR's "convert retreat into advance": change DIRECTION (PFC-level)
     same cortisol, different tag
 ```
 
@@ -777,7 +777,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   F2 — CONFUSE OBSERVATION with PRESCRIPTION:
     Cluster OBSERVES: under right conditions, adversity → growth
     Misapply: "therefore CREATE adversity" → seek out suffering
-    → Self-Created-Threat đúng cho L3, SAI khi tạo L1-L2 damage
+    → Self-Created-Threat đúng cho PFC-level, SAI khi tạo body-compiled damage
 
   F3 — CONFUSE ATTITUDE with ACTION:
     Frankl: choose ATTITUDE (internal direction)
@@ -825,7 +825,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Marcus: "The obstacle IS the way"
     AI era: "The WAY is the obstacle"
     = Phải TẠO obstacles có kiểm soát → self-created prediction-delta
-    = Self-Created-Threat = skill tạo obstacle L3 (controllable)
+    = Self-Created-Threat = skill tạo obstacle PFC-level (controllable)
 
   ⚠️ CLUSTER INSIGHT CHO AI ERA:
     Thế hệ hiện tại: cần cluster → handle adversity đang có
@@ -966,7 +966,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ═══════════════════════════════════════
 🟡 FRAMEWORK SYNTHESIS:
 
-  Direction Tag as compile-time variable (NT7) → determines lifetime outcome
+  Direction-At-Compile as compile-time variable → determines lifetime outcome
   "Space" as function of 7 variables (not given)
   5-tầng suppress mechanism (unified model)
   Convergent concept "Adversity Direction" across 5 quotes
@@ -1005,7 +1005,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 MECHANISM (how adversity + fear works):
-  Cortisol-Baseline.md v2.1        — §3.3 NT7, §5-§6, §8-§10 (full mechanism)
+  Cortisol-Baseline.md v2.1        — §3.3 Direction-At-Compile, §5-§6, §8-§10 (full mechanism)
   PFC-Operations.md v1.0           — §2-§4, §8-§9 (Hold/Suppress, Budget)
   Background-Pattern.md v2.0       — §1-§2, §6, §8 (Triple Bias, Self-Reinforcing)
   Drive.md v1.2                    — §2 PFC 6 Modes (Mode 3 Spinning)

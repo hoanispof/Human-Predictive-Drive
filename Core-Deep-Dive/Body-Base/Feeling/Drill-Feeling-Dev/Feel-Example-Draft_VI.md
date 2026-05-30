@@ -7189,9 +7189,9 @@ thể quan sát được. Đây là **giao diện quan sát PFC được tinh lu
    giải phóng tự nhiên (cơ chế chưa được hiểu đầy đủ; có thể qua
    kích hoạt parasympathetic, chú ý làm gián đoạn pattern thói quen)
 
-**Hàm ý framework**: Layer 3–4 (genuine felt sense) trong cấu trúc
+**Hàm ý framework**: Feel-Consciousification/Feel-Observation (genuine felt sense) trong cấu trúc
 7 lớp trở nên có thể truy cập với thực hành thiền định. Người lớn
-không được đào tạo chủ yếu truy cập Layer 5–7 (gắn nhãn dựa trên
+không được đào tạo chủ yếu truy cập Feel-Location/Feel-Labeling/Feel-Explanation (gắn nhãn dựa trên
 chunk, thường dễ sai). Người thiền định truy cập các lớp sâu hơn
 trực tiếp hơn.
 
@@ -7267,12 +7267,12 @@ là chưa được biểu đạt. Người lớn với đào tạo Focusing có 
 các chunk mà người lớn không có đào tạo có nhưng không thể tiếp cận.
 
 **Cầu nối với cấu trúc 7 lớp**:
-- Người lớn không được đào tạo truy cập Layer 5–7 (nhãn ngôn ngữ,
+- Người lớn không được đào tạo truy cập Feel-Location/Feel-Labeling/Feel-Explanation (nhãn ngôn ngữ,
   chunk đã được đặt tên)
-- Hành giả Focusing truy cập Layer 3–4 (felt sense — chunk trước khi
+- Hành giả Focusing truy cập Feel-Consciousification/Feel-Observation (felt sense — chunk trước khi
   đặt tên)
 - Người thiền định truy cập các lớp tương tự qua các phương pháp khác
-- Layer 1–2 (tích hợp thô) có thể không trực tiếp truy cập được với PFC
+- Feel-RawSignals/Feel-Integration (tích hợp thô) có thể không trực tiếp truy cập được với PFC
 
 **Hàm ý framework**: khả năng đọc feeling có thể được **dạy tường minh**
 như một kỹ năng. Focusing là một phương pháp; thiền định là phương pháp

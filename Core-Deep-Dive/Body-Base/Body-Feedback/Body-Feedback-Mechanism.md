@@ -1,10 +1,10 @@
 ---
 title: Body-Feedback Mechanism — Chunk Dynamics Classification
-version: 2.0
+version: 2.1
 created: 2026-04-20
-updated: 2026-05-16 (v2.0 — FULL REWRITE: Body-Need aggregate, Complexity Spectrum, Cross-cutting clarification, Inter-Body drill integration)
+updated: 2026-05-25 (v2.1 — §2.2-§2.4 Evaluative/Direct-State mapping extended for dissonance direction, Dissonance-Signal-Architecture v1.0 integration)
 previous: v1.3 → backup/Body-Feedback-Mechanism-v1.3-backup.md
-status: REFERENCE v2.0
+status: REFERENCE v2.1
 scope: |
   CORE MECHANISM FILE: HOW body-feedback arises from chunk dynamics.
   NEW v2.0: Body-Need aggregate framing + Complexity Spectrum.
@@ -14,7 +14,7 @@ scope: |
   Research anchors: Crespi 1942, Schultz 1997, Berridge 2003, Amsel, Flaherty 1996.
 purpose: |
   Existing files classify body-feedback by INTENSITY (02-Dissonance.md, 14 levels),
-  SOURCE (02-Dissonance.md §3, 3 Genuine Discomfort Sources), and PRECONDITION (H10 5 preconditions).
+  SOURCE (02-Dissonance.md §3, 3 Genuine Discomfort Sources), and PRECONDITION (5 Body-Feedback-Preconditions).
   File này thêm trục thứ 4: CHUNK MECHANISM — HOW chunks fire tạo ra signal.
   Trục này match v7.8 "chunk-centric" principle: everything runs on chunks,
   classification phải chunk-based.
@@ -24,18 +24,20 @@ purpose: |
 position: |
   Body-Feedback/ folder — ngang hàng với Body-Feedback.md (synthesis entry point).
   File này = MECHANISM reference (HOW body-feedback arises).
-  Body-Feedback.md = ARCHITECTURE reference (WHAT body-feedback does + H10).
+  Body-Feedback.md = ARCHITECTURE reference (WHAT body-feedback does + Body-Feedback-Precondition).
   01-04 files = CASE ANALYSES (apply mechanism to specific scenarios).
 dependencies:
   - Chunk.md v2.2 — chunk substrate, context-tag model
   - Chunk-Activation-Dynamics.md — probability, re-linking, trigger surface
   - Valence-Propagation.md v1.4 — valence per-entity + chain propagation
-  - Body-Feedback.md v1.1 — H10, dual-pull, interface loop
+  - Body-Feedback.md v1.1 — Body-Feedback-Precondition, dual-pull, interface loop
+  - Body-Feedback-Precondition.md v1.0 — 5 preconditions formal definitions (§6.2 mapping)
   - Body-Feedback-Label.md v2.0 — vocabulary reference (3-tier labels)
   - 02-Dissonance.md — intensity levels, source taxonomy, case analyses
   - Core-v7.8-Draft.md — cycle architecture, A/B/C/D zones
   - Cortisol-Baseline.md v2.0 — amplifier, holding signal
-  - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, E₀→E₃, 5 Profiles
+  - Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, E₀→E₃, 5 Profiles
+  - Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance, Mismatch Splitting, Evaluative Gates
   - Inter-Body-Mechanism.md v1.0 — Body-Need aggregate, 3-cost, 5-channel
   - Gap-Direction.md v1.1 — gap has direction = f(surrounding chunks)
 language: Tiếng Việt primary + English technical terms
@@ -68,7 +70,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §3 — 3 CHUNK DYNAMICS (Chunk-Shift / Chunk-Miss / Chunk-Gap)
 - §4 — COMPOUND MECHANISM
 - §5 — QUALITY BASELINE SHIFT
-- §6 — MAP VÀO FRAMEWORK (v7.8 Cycle + H10)
+- §6 — MAP VÀO FRAMEWORK (v7.8 Cycle + Body-Feedback-Precondition)
 - §7 — RESEARCH ANCHORS
 - §8 — HONEST ASSESSMENT
 - §9 — CROSS-REFERENCES
@@ -141,7 +143,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     └─────────────────────────────────────────────────────────────┘
          │
          ▼
-    Body-Feedback.md (H10, dual-pull, interface loop)
+    Body-Feedback.md (Body-Feedback-Precondition, dual-pull, interface loop)
     Feeling.md v2.0 (PFC observation of body-feedback)
     02-Dissonance.md (intensity spectrum + source taxonomy + case analyses)
     Inter-Body-Mechanism.md v1.0 (5-channel, 3-cost, entity interaction)
@@ -352,20 +354,25 @@ BODY-NEED CÓ 7 PROPERTIES:
     → Body-input TRỰC TIẾP drive chunk matching
     → Signal strength tùy delta giữa input và compiled baseline
 
-  EVALUATIVE/DIRECT-STATE DIMENSION (Reward-Signal-Architecture.md §1):
-    → Sensory-Driven ≈ DIRECT-STATE territory (direct state signals):
-      Touch (CT afferents), temperature, pain, basic taste = hardware-level
-      Non-opioid pathways, below PFC, minimal cortical involvement
+  EVALUATIVE/DIRECT-STATE DIMENSION (Reward-Signal-Architecture §1 + Dissonance-Signal-Architecture §1):
+    → Sensory-Driven ≈ DIRECT-STATE territory — CẢ 2 DIRECTIONS:
+      REWARD: Touch (CT afferents), warmth, taste = hardware-level
+      DISSONANCE: Nociception, temperature deviation, hunger, itch = hardware-level
+      Non-opioid/non-evaluative pathways, below PFC, minimal cortical involvement
     → Sensory-Driven CÓ THỂ CÓ Evaluative component khi cortical evaluation:
-      Nhạc hay = auditory + cortical pattern match → Evaluative Reward
+      Reward: Nhạc hay = auditory + cortical → Evaluative Reward
+      Dissonance: "Gián trong đĩa" = visual + compiled disgust → Evaluative Dissonance
       Ăn ngon = taste + hedonic evaluation → Evaluative + Direct-State compound
-    → "Pure sensory" = mostly Direct-State. "Sensory + evaluation" = Evaluative + Direct-State.
+    → "Pure sensory" = mostly Direct-State (CẢ reward VÀ dissonance).
+      "Sensory + evaluation" = Evaluative + Direct-State compound.
+    → Dissonance-Signal-Architecture.md §1: parallel distinction for dissonance direction.
 
   🟢 RESEARCH:
     → Sensory processing pathways: established neuroscience
     → Hedonic responses in animals: Berridge facial coding (tongue protrusion)
     → Taste preference without cognition: Berridge 2003 (dopamine-depleted rats
       still show liking reactions to sucrose placed in mouth)
+    → Pain 2-component: Melzack & Casey 1968 (sensory-discriminative vs affective-motivational)
 ```
 
 ### §2.3 — Pattern-Driven (từ chunk network nội bộ)
@@ -392,7 +399,7 @@ BODY-NEED CÓ 7 PROPERTIES:
        → Awake replay (spontaneous recall)
        → "Nhớ lại bị chó cắn" → body respond sợ
 
-    ��� PREVIEW — PFC hoặc hippocampus simulate future
+    ⓑ PREVIEW — PFC hoặc hippocampus simulate future
        → Imagine-Final preview: "nếu mua xe thì sẽ thế nào"
        → Body pre-feel: ~20-60% fidelity (Imagination.md §2)
        → Chuột cũng có: hippocampal preplay trước navigation
@@ -437,16 +444,21 @@ BODY-NEED CÓ 7 PROPERTIES:
     → So sánh "mình giỏi hơn trước" → tự tin (comparison)
     → Gap fill: "À, hiểu rồi!" → opioid burst (gap filled)
 
-  EVALUATIVE/DIRECT-STATE DIMENSION (Reward-Signal-Architecture.md §1):
-    → Pattern-Driven = primarily EVALUATIVE territory (evaluative):
-      Cortical pattern match → OFC/vmPFC evaluation → opioid (if match)
-      Insight, coherence, preview = all require cortical processing
+  EVALUATIVE/DIRECT-STATE DIMENSION (Reward-Signal-Architecture §1 + Dissonance-Signal-Architecture §1):
+    → Pattern-Driven = primarily EVALUATIVE territory — CẢ 2 DIRECTIONS:
+      REWARD: Cortical pattern match → OFC/vmPFC → opioid (if match)
+        Insight, coherence, preview = all require cortical processing
+      DISSONANCE: Social comparison → dACC, moral injury → vmPFC + ACC,
+        anxiety preview → CRH → amygdala = all EVALUATIVE Dissonance
+        (Dissonance-Signal-Architecture.md §1.3: MOST adult suffering = Evaluative)
     → Pattern-Driven CÓ THỂ kích hoạt Direct-State:
-      Replay of touch memory → body re-simulate → B partial activation
-      Preview of exercise → motor cortex pre-activate → B trace
-    → Evaluative Gates Direct-State (Reward-Signal-Architecture.md §3):
-      A evaluation MODULATES B body-state response
-      = WHY "nghĩ về ôm" ≠ "ôm thật" (preview fidelity < 100%)
+      Reward: Replay of touch → body re-simulate → B partial activation
+      Dissonance: Replay of pain → body re-simulate → Direct-State trace
+    → Evaluative Gates Direct-State = GENERAL mechanism (cả 2 directions):
+      Reward: A evaluation MODULATES B body-state reward response
+      Dissonance: Placebo/Nocebo = PROOF (Wager 2004, Zubieta 2005)
+        PFC evaluation MODULATES Direct-State pain (Dissonance-Signal-Architecture §3)
+      = WHY "nghĩ về ôm" ≠ "ôm thật" AND "sợ đau" amplifies đau thật
 
   🟢 RESEARCH:
     → Hippocampal replay/preplay: Pfeiffer & Foster 2013, Wilson & McNaughton 1994
@@ -465,6 +477,7 @@ BODY-NEED CÓ 7 PROPERTIES:
 │ Direction            │ Outside → In         │ Inside → Body        │
 │ Primary zones        │ D + C                │ B + C (A optional)   │
 │ Reward type          │ Mostly Direct-State  │ Mostly Evaluative    │
+│ Dissonance type      │ Mostly Direct-State  │ Mostly Evaluative    │
 │ Animals              │ ĐẦY ĐỦ              │ CÓ nhưng limited     │
 │ PFC cần?             │ KHÔNG                │ Optional             │
 │ Timing               │ ms → seconds         │ seconds → years      │
@@ -1213,46 +1226,46 @@ BODY-NEED CÓ 7 PROPERTIES:
       → PFC role: observe, label, choose response, orchestrate
 ```
 
-### §6.2 — H10 Preconditions
+### §6.2 — Body-Feedback-Preconditions
 
 ```
-🟡 CHUNK DYNAMICS × H10 5 PRECONDITIONS:
+🟡 CHUNK DYNAMICS × 5 BODY-FEEDBACK-PRECONDITIONS:
 
-  H10: Signal fires khi ALL 5 preconditions met.
-  Chunk dynamics MÔ TẢ HOW signal arises — H10 mô tả WHEN.
+  Body-Feedback-Precondition: Signal fires khi ALL 5 preconditions met.
+  Chunk dynamics MÔ TẢ HOW signal arises — Body-Feedback-Precondition mô tả WHEN.
 
-  ┌────────────────────┬─────────────┬─────────────┬─────────────┐
-  │ H10 Precondition   │ Chunk-Shift │ Chunk-Miss  │ Chunk-Gap   │
-  ├────────────────────┼─────────────┼─────────────┼─────────────┤
-  │ P1 Schema pending  │ Shift tạo   │ Miss = body │ Gap = body  │
-  │ (body-need gap)    │ NEW pending │ -need mất   │ -need thiếu │
-  │                    │ (phản bội → │ quality     │ pattern     │
-  │                    │ need fix)   │             │             │
-  ├────────────────────┼─────────────┼─────────────┼─────────────┤
-  │ P2 Chunks base     │ Cần chunks  │ Cần compiled│ Cần enough  │
-  │ (đủ substrate)     │ để evaluate │ baseline    │ network to  │
-  │                    │ new info    │ (no compile │ DETECT gap  │
-  │                    │             │ = no miss)  │             │
-  ├────────────────────┼─────────────┼─────────────┼─────────────┤
-  │ P3 prediction-     │ Shift =     │ Miss = neg. │ Gap detect  │
-  │ delta              │ valence     │ prediction  │ = ACC       │
-  │ (biến động đủ)     │ delta       │ error       │ signal      │
-  ├────────────────────┼─────────────┼─────────────┼─────────────┤
-  │ P4 Goldilocks      │ Shift xảy   │ N/A (body   │ Gap phải    │
-  │ (40-70% match)     │ ra ở BẤT KỲ │ already     │ detectable  │
-  │                    │ match level │ knows)      │ (not too    │
-  │                    │             │             │ alien)      │
-  ├────────────────────┼─────────────┼─────────────┼─────────────┤
-  │ P5 Chunk tag       │ NEW valence │ Compiled    │ Compiled    │
-  │ (opioid/cortisol)  │ tag from    │ baseline    │ surrounding │
-  │                    │ shift event │ carries tag │ chunks tag  │
-  └────────────────────┴─────────────┴─────────────┴─────────────┘
+  ┌────────────────────────────────┬─────────────┬─────────────┬─────────────┐
+  │ Body-Feedback-Precondition     │ Chunk-Shift │ Chunk-Miss  │ Chunk-Gap   │
+  ├────────────────────────────────┼─────────────┼─────────────┼─────────────┤
+  │ Precondition-1 Directed-Gap    │ Shift tạo   │ Miss = body │ Gap = body  │
+  │ (body-need gap)                │ NEW pending │ -need mất   │ -need thiếu │
+  │                                │ (phản bội → │ quality     │ pattern     │
+  │                                │ need fix)   │             │             │
+  ├────────────────────────────────┼─────────────┼─────────────┼─────────────┤
+  │ Precondition-2 Chunk-Substrate │ Cần chunks  │ Cần compiled│ Cần enough  │
+  │ (đủ substrate)                 │ để evaluate │ baseline    │ network to  │
+  │                                │ new info    │ (no compile │ DETECT gap  │
+  │                                │             │ = no miss)  │             │
+  ├────────────────────────────────┼─────────────┼─────────────┼─────────────┤
+  │ Precondition-3 Delta-Gate      │ Shift =     │ Miss = neg. │ Gap detect  │
+  │ (biến động đủ)                 │ valence     │ prediction  │ = ACC       │
+  │                                │ delta       │ error       │ signal      │
+  ├────────────────────────────────┼─────────────┼─────────────┼─────────────┤
+  │ Precondition-4 Match-Range     │ Shift xảy   │ N/A (body   │ Gap phải    │
+  │ (dynamic zone)                 │ ra ở BẤT KỲ │ already     │ detectable  │
+  │                                │ match level │ knows)      │ (not too    │
+  │                                │             │             │ alien)      │
+  ├────────────────────────────────┼─────────────┼─────────────┼─────────────┤
+  │ Precondition-5 Compile-Gate    │ NEW valence │ Compiled    │ Compiled    │
+  │ (Direction-At-Compile)                │ tag from    │ baseline    │ surrounding │
+  │                                │ shift event │ carries tag │ chunks tag  │
+  └────────────────────────────────┴─────────────┴─────────────┴─────────────┘
 
   INSIGHTS:
-  → Chunk-Miss KHÔNG CẦN P4 (Goldilocks) — body already has baseline
-  → Chunk-Gap CẦN P2 (enough network to detect gap)
-  → Chunk-Shift CẦN P3 (delta đủ lớn để register)
-  → Compound = P1-P5 checked MULTIPLE TIMES per dynamic
+  → Chunk-Miss KHÔNG CẦN Precondition-4 (Match-Range) — body already has baseline
+  → Chunk-Gap CẦN Precondition-2 (enough network to detect gap)
+  → Chunk-Shift CẦN Precondition-3 (delta đủ lớn để register)
+  → Compound = Precondition-1–Precondition-5 checked MULTIPLE TIMES per dynamic
 ```
 
 ---
@@ -1387,7 +1400,7 @@ LIMITATIONS:
 WHAT THIS FILE DOES NOT DO:
   ✗ Replace intensity classification (02-Dissonance.md)
   ✗ Replace source classification (02-Dissonance.md §3)
-  ✗ Replace H10 preconditions (Body-Feedback.md §5)
+  ✗ Replace Body-Feedback-Preconditions (Body-Feedback.md §5)
   ✗ Replace case analyses (01-04 files)
   ✗ Replace inter-body mechanism (Inter-Body-Mechanism.md)
   → File này THÊM trục phân loại + aggregate framing, không xóa trục nào
@@ -1413,7 +1426,7 @@ WHAT THIS FILE DOES NOT DO:
     → §6 Conditional Interaction Model = replaces simple additive compound
 
 📚 WITHIN BODY-FEEDBACK FOLDER:
-  → Body-Feedback.md v1.1 — §2 dual-pull, §5 H10 5 preconditions
+  → Body-Feedback.md v1.1 — §2 dual-pull, §5 5 Body-Feedback-Preconditions
   → Body-Feedback-Label.md v2.0 — 3-tier vocabulary reference
   → 01-Foundation.md §3 — 6-step interface loop
   → 01-Foundation.md §5 — body-feedback vs feeling 7-layer
@@ -1457,6 +1470,8 @@ WHAT THIS FILE DOES NOT DO:
   → Observation/Connection.md §1.3 — 4 Cases mapped to chunk dynamics
      (Đủ=Chunk-Miss, Mất=Chunk-Miss++, Thiếu=Chunk-Gap, Toxic=Chunk-Shift)
   → PFC/Imagination/Imagination.md — preview = Pattern-Driven source
+  → PFC/PFC-Operations.md v1.2 §9.3 — 2-Mode Engagement: body-feedback operates
+     PARALLEL (dominant in Mode 1/Flow), PFC adds cognitive channel in Mode 2
 
 📚 KEY RESEARCH (30+ citations):
   🟢 Amabile & Kramer 2011 — progress principle
@@ -1496,7 +1511,7 @@ WHAT THIS FILE DOES NOT DO:
 >      3 dynamics explain ALL substrate levels → parsimony.
 >   ✅ §1.3: Cross-cutting clarification (obs params + state modifiers ≠ sources).
 >   ✅ §3.3 restructured: sub-sections (core/novelty/transition/decomposition).
->   ✅ §6: Merged v7.8 map + H10 map into single section.
+>   ✅ §6: Merged v7.8 map + Body-Feedback-Precondition map into single section.
 >   ✅ §8-§9: Updated assessment + cross-refs for new content + Inter-Body ref.
 >   ✅ All v1.3 content preserved: 2-source, 3 dynamics, compound, baseline shift,
 >      context-free chunk ⓕ, irresolvable miss ⓓ, ALL 30+ research citations.
@@ -1507,7 +1522,7 @@ WHAT THIS FILE DOES NOT DO:
 >   §3: 3 chunk dynamics (restructured Gap sub-sections)
 >   §4: Compound mechanism (Conditional Interaction Model)
 >   §5: Quality Baseline Shift (SNC bridge)
->   §6: Framework maps (v7.8 + H10)
+>   §6: Framework maps (v7.8 + Body-Feedback-Precondition)
 >   §7-§9: Research + Assessment + Cross-refs
 >
 > **Trục thứ 4**: orthogonal to existing 3 trục (direction, magnitude, source).

@@ -7168,9 +7168,9 @@ observation interface refined** — same mechanism, expanded sensitivity.
    release (mechanism not fully understood; possibly through
    parasympathetic activation, attention disrupting habit pattern)
 
-**Implication framework**: Layer 3-4 (genuine felt sense) trong
+**Implication framework**: Feel-Consciousification — Feel-Observation (genuine felt sense) trong
 7-layer structure becomes accessible với meditation practice. Untrained
-adults primarily access Layer 5-7 (chunk-based labeling, often error-
+adults primarily access Feel-Location — Feel-Explanation (chunk-based labeling, often error-
 prone). Meditators access deeper layers more directly.
 
 **Cross-cultural validation**: similar reports từ Vietnamese
@@ -7242,12 +7242,12 @@ expressed. Adults with Focusing training can access chunks that
 adults without training have but cannot reach.
 
 **Bridge với 7-layer structure**:
-- Untrained adults access Layer 5-7 (verbal labels, chunks already
+- Untrained adults access Feel-Location — Feel-Explanation (verbal labels, chunks already
   named)
-- Focusing practitioners access Layer 3-4 (felt sense — chunks
+- Focusing practitioners access Feel-Consciousification — Feel-Observation (felt sense — chunks
   before naming)
 - Meditators access similar layers via different methods
-- Layer 1-2 (raw integration) probably not directly accessible to
+- Feel-RawSignals — Feel-Integration (raw integration) probably not directly accessible to
   PFC
 
 **Implication framework**: feeling literacy can be **explicitly

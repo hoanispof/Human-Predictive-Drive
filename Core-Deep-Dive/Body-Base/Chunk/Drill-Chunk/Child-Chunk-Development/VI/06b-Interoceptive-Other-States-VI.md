@@ -2,12 +2,12 @@
 title: Interoceptive Other States — Đói + Đau + Nhiệt độ + Cảm xúc Arc
 created: 2026-04-16 (Session N+4c1, Phase F1-P11)
 status: DRAFT N+4c1 P11 — sẵn sàng cho user review
-scope: Áp dụng phương pháp luận 06a (L0→L4 PFC-Inference Ladder + event-inference + cơ chế compile chunks) cho 4 trạng thái cơ thể interoceptive khác ngoài bàng quang. Cấu trúc song song với 06a nhưng ngắn hơn — 06a đã thiết lập máy móc phân tích, 06b sử dụng nó. So sánh cross-body-state tăng cường Nút Thắt 2 (cơ chế P2 biến đổi không đồng đều qua các states) và Nút Thắt 7 (cơ chế cortisol tagging hiển thị trong mỗi state với các critical periods đặc hiệu state).
+scope: Áp dụng phương pháp luận 06a (L0→L4 PFC-Inference Ladder + event-inference + cơ chế compile chunks) cho 4 trạng thái cơ thể interoceptive khác ngoài bàng quang. Cấu trúc song song với 06a nhưng ngắn hơn — 06a đã thiết lập máy móc phân tích, 06b sử dụng nó. So sánh cross-body-state tăng cường Nút Thắt 2 (cơ chế Precondition-2 Chunk-Substrate biến đổi không đồng đều qua các states) và Nút Thắt 7 (cơ chế cortisol tagging hiển thị trong mỗi state với các critical periods đặc hiệu state).
 parent: plan.md §3.2 (file 06b outline)
 depends_on: [01-PFC-Hardware-Reframe.md, 02-Womb-to-Birth-Baseline.md, 06a-Interoceptive-Bladder-Keystone.md]
 language: Tiếng Việt primary + English technical terms
 addresses:
-  - Nút Thắt 2 (P2 Chunks Base Adequacy — biến thể cross-body-state trong compile rates)
+  - Nút Thắt 2 (Precondition-2 Chunk-Substrate — biến thể cross-body-state trong compile rates)
   - Nút Thắt 5 (H11 Receptive-Productive — khoảng cách song song qua 4 trạng thái cơ thể)
   - Nút Thắt 7 (Cortisol tagging critical period — critical periods đặc hiệu state)
   - Nút Thắt 4 (PFC hardware × chunks missing — L2 markers bổ sung mỗi state)
@@ -32,9 +32,9 @@ sub_folder: F1 Child-Chunk-Development
 
 | Nút Thắt | Đóng góp 06b |
 |---|---|
-| 2 (Cơ chế P2) | Cross-state variance table (§6.1) tăng cường claim cơ chế 06a §6.3 bằng cách cho thấy các tham số tạo ra sự khác biệt tỷ lệ có thể dự đoán |
+| 2 (Cơ chế Precondition-2) | Cross-state variance table (§6.1) tăng cường claim cơ chế 06a §6.3 bằng cách cho thấy các tham số tạo ra sự khác biệt tỷ lệ có thể dự đoán |
 | 5 (H11) | Khoảng cách receptive-productive song song hiển thị trong mỗi state (đói ~13 tháng, đau ~15-18 tháng, nhiệt độ không xác định, cảm xúc 12+ tháng) |
-| 7 (Cortisol tagging) | Mỗi state có critical period + adult outcome trajectory riêng; hội tụ multi-state tăng cường claim H10 P5 |
+| 7 (Cortisol tagging) | Mỗi state có critical period + adult outcome trajectory riêng; hội tụ multi-state tăng cường claim Body-Feedback-Precondition Precondition-5 Compile-Gate |
 | 4 (PFC hardware × chunks) | L2 markers bổ sung mỗi state (pre-cry tiêm vắc-xin cho đau; phản hồi feeding anticipatory cho đói) |
 
 **Các sự kiện được phân tích** (~15 sự kiện qua 4 states, được tổ chức trong §2-§5):
@@ -492,7 +492,7 @@ Từ [Feel-Example E4 Notes](../../Body-Base/Feeling/Feel-Example-Draft.md#e4) (
 
 > "Đây là **edge case nguy hiểm** đáng lưu ý cho framework. SIDS (Sudden Infant Death Syndrome) liên quan mạnh đến overheating (Mitchell et al. 1993; Ponsonby et al. 1993). Bé KHÔNG tự 'biết' để wake up và escape thermal stress, vì chưa có Self-Pattern Match cho temperature. Distress signal có thể không đủ mạnh để vượt qua sleep state. Đây là minh họa cụ thể cho cost của việc thiếu Self-Pattern Match — cơ thể có thể chịu damage mà PFC không observe được."
 
-**Framework-critical implication**: Thermal là trường hợp mà **thiếu P2 adequacy có hậu quả chết người**. Hardware intact (thermoreceptors fire, POA signals distress), PFC online (per 5 pillars), nhưng không có compiled chunk nào gắn "thermal distress → thức dậy → escape action", em bé không thể hành động dựa trên signal. Trong trường hợp cụ thể là overheating trong khi ngủ, P2 inadequacy này có thể gây tử vong.
+**Framework-critical implication**: Thermal là trường hợp mà **thiếu Precondition-2 adequacy có hậu quả chết người**. Hardware intact (thermoreceptors fire, POA signals distress), PFC online (per 5 pillars), nhưng không có compiled chunk nào gắn "thermal distress → thức dậy → escape action", em bé không thể hành động dựa trên signal. Trong trường hợp cụ thể là overheating trong khi ngủ, Precondition-2 inadequacy này có thể gây tử vong.
 
 **So sánh với người lớn**: Người lớn có compiled chunks "tôi cảm thấy quá nóng → thức dậy → điều chỉnh chăn hoặc nhiệt độ". Chunks stack này vắng mặt ở trẻ sơ sinh, có mặt vào Stage C toddlers (~14-18 tháng khi thermal-discomfort wriggling mới nổi), nhưng trong cửa sổ gap trẻ sơ sinh phụ thuộc vào caregiver thermoregulation.
 
@@ -571,7 +571,7 @@ Adult outcome (🟡 clinical observation): Trauma-linked thermal hypervigilance,
 
 Emotional interoception là **multi-channel by definition** — limbic + amygdala + insula + mPFC + ACC đều đóng góp. Không giống bàng quang/đói/đau/nhiệt độ có peripheral afferent pathways sạch sẽ, các emotional states phát sinh từ hoạt động network phức tạp. Điều này làm cho framing "interoceptive" chỉ là một phần — emotion vừa là interoceptive vừa hơn thế.
 
-Section này bao gồm emotional chunks **từ góc độ interoceptive**: cách các emotional states của em bé trở nên có thể quan sát (Layer 3+) và được labeled (Layer 6-7). Social-side của emotional chunks (nhận biết cảm xúc caregiver, social smile, cry contagion, empathy giving) được đề cập trong [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) — 06b giao cắt với 07 tại E12 (social smile) và E26 (egocentric empathy).
+Section này bao gồm emotional chunks **từ góc độ interoceptive**: cách các emotional states của em bé trở nên có thể quan sát (Feel-Consciousification+) và được labeled (Feel-Labeling–Feel-Explanation). Social-side của emotional chunks (nhận biết cảm xúc caregiver, social smile, cry contagion, empathy giving) được đề cập trong [07-Social-Recognition-Arc.md](07-Social-Recognition-Arc.md) — 06b giao cắt với 07 tại E12 (social smile) và E26 (egocentric empathy).
 
 ### §5.2 — Stage A: L0-L1 các emotional states sơ sinh
 
@@ -808,11 +808,11 @@ Tỷ lệ ~3-4 × phù hợp với dự đoán H11, nhất quán với overall H
 
 5. **Cảm xúc có spread lớn nhất**. Các sub-states khác nhau compile ở các tỷ lệ khác nhau. Social-emotional (E12) ở L2 ở ~7 tuần (L2 emergence nhanh nhất) nhưng verbal emotional productive là chậm nhất (~2-3 năm).
 
-**Framework claim**: Rate variance là **không ngẫu nhiên**. Nó theo công thức 4-parameter được dự đoán bởi compile mechanism. High contingency + high valence + moderate-high exposure → traversal ladder nhanh. Low contingency + low valence → traversal bị cắt cụt. Đây là **empirical validation mạnh nhất có sẵn** của P2 compile mechanism claim (Nút Thắt 2 từ 06a §6.3).
+**Framework claim**: Rate variance là **không ngẫu nhiên**. Nó theo công thức 4-parameter được dự đoán bởi compile mechanism. High contingency + high valence + moderate-high exposure → traversal ladder nhanh. Low contingency + low valence → traversal bị cắt cụt. Đây là **empirical validation mạnh nhất có sẵn** của Precondition-2 compile mechanism claim (Nút Thắt 2 từ 06a §6.3).
 
-### §6.2 — P2 compile mechanism cross-state validation
+### §6.2 — Precondition-2 compile mechanism cross-state validation
 
-**Claim (từ 06a §6.3)**: P2 adequacy đạt được qua 4-channel compile (repetition + emotional + multi-modal + sleep) được điều chỉnh bởi exposure × saliency × contingency × valence.
+**Claim (từ 06a §6.3)**: Precondition-2 adequacy đạt được qua 4-channel compile (repetition + emotional + multi-modal + sleep) được điều chỉnh bởi exposure × saliency × contingency × valence.
 
 **06b cross-body-state evidence**:
 
@@ -826,7 +826,7 @@ Tỷ lệ ~3-4 × phù hợp với dự đoán H11, nhất quán với overall H
 
 **Falsification test**: Nếu công thức sai, chúng ta sẽ thấy inversions — ví dụ, nhiệt độ đạt L4 trước đói mặc dù parameters thấp, hoặc bàng quang đạt L4 trước đói. Không có inversions nào được quan sát trong developmental reports tiêu chuẩn.
 
-**Nút Thắt 2 verdict contribution (cho [10-F1-Synthesis.md](10-F1-Synthesis.md))**: P2 compile mechanism là 🟢🟡 được hỗ trợ bởi 5-case converging evidence từ 06a + 06b. Cơ chế là: 4-channel compile × 4-parameter rate modulation. Chunks đạt adequacy threshold tại các thời điểm đặc hiệu state có thể dự đoán từ các parameters.
+**Nút Thắt 2 verdict contribution (cho [10-F1-Synthesis.md](10-F1-Synthesis.md))**: Precondition-2 compile mechanism là 🟢🟡 được hỗ trợ bởi 5-case converging evidence từ 06a + 06b. Cơ chế là: 4-channel compile × 4-parameter rate modulation. Chunks đạt adequacy threshold tại các thời điểm đặc hiệu state có thể dự đoán từ các parameters.
 
 ### §6.3 — Cross-state body-state-at-compile synthesis
 
@@ -916,7 +916,7 @@ Tất cả 5 trạng thái cơ thể cho thấy receptive-productive asymmetry, 
 
 ## §7 — Đóng góp Nút Thắt
 
-### §7.1 — Nút Thắt 2 (P2 Chunks Base Adequacy)
+### §7.1 — Nút Thắt 2 (Precondition-2 Chunk-Substrate)
 
 **Đóng góp 06b**: Cross-body-state validation (§6.1 + §6.2). Công thức 4-channel compile × 4-parameter dự đoán 5-for-5 ordinal ranking của L4 onset times. Đây là converging evidence mạnh.
 
@@ -930,7 +930,7 @@ Tất cả 5 trạng thái cơ thể cho thấy receptive-productive asymmetry, 
 
 ### §7.3 — Nút Thắt 7 (Cortisol tagging critical period)
 
-**Đóng góp 06b**: 5 state-specific critical period profiles (§6.3) với adult outcome trajectories và empirical anchors. Multi-state convergence tăng cường đáng kể H10 P5 critical period claim.
+**Đóng góp 06b**: 5 state-specific critical period profiles (§6.3) với adult outcome trajectories và empirical anchors. Multi-state convergence tăng cường đáng kể Body-Feedback-Precondition Precondition-5 Compile-Gate critical period claim.
 
 **Key cases**:
 - **Attachment / emotional** (§5.8) là most empirically developed cortisol tagging case trong broader literature (Bowlby, Ainsworth, Sroufe, Fonagy) — điều này cho Nút Thắt 7 evidence base mạnh nhất tổng thể
@@ -1139,7 +1139,7 @@ Tất cả 5 trạng thái cơ thể cho thấy receptive-productive asymmetry, 
 
 **Review points** cho user:
 1. Cross-state synthesis §6 formula có đủ predictive không? 5-for-5 ranking có thuyết phục không?
-2. Thermal SIDS edge case §4.3 framing có thích hợp không (mortal consequence của P2 inadequacy)?
+2. Thermal SIDS edge case §4.3 framing có thích hợp không (mortal consequence của Precondition-2 inadequacy)?
 3. Attachment + emotional §5.8 treatment có đủ không hay cần mở rộng?
 4. Handling E26 egocentric empathy có fit ở đây (interoceptive side) vs 07 (social side) không?
 5. §3.3 vaccination pre-cry như "L2 marker với peak-negative valence" distinction từ đơ mặt có rõ ràng không?

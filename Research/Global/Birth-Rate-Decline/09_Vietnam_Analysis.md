@@ -438,7 +438,7 @@
 
   ✅ BUFFER 3 — Tết = family reconnection:
     → 1-2 lần/năm GẶP gia đình lớn
-    → = Reinforce connection L2-L3
+    → = Reinforce connection (evaluative)
     → HẠN CHẾ: 1-2 lần/năm << Shabbat 52 lần/năm
     → Và Tết đang ngắn lại (áp lực công việc)
     → = Buffer YẾU, chỉ symbolic so với Israel

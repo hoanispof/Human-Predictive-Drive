@@ -8,7 +8,7 @@ scope: |
   Entity-access calibration = Reward-Calibration APPLIED to entity access.
   3-Layer Architecture: Body Signal × Engine Simulation × Feedback Integration.
   Exit Cost = Signal Weight: strongest bond = hardest to calibrate.
-  Hardware Subsidy = Calibration Bias: hormone masks excess.
+  Hardware-Subsidy = Calibration Bias: hormone masks excess.
   Compiled vs Fresh: calibration window. Engine use quality: curiosity vs threat.
   Optimal Zone ≠ Zero C. Per bond type dynamics. 5 failure modes.
   Cannot prescribe. Training + spiral. Per-Mức gradient difficulty.
@@ -34,7 +34,7 @@ dependencies:
   - Simulation-Engine.md v1.0 — FOUNDATION: 1 engine, 3 components, reflection/rumination
   - PFC-Operations.md v1.0 — FOUNDATION: Hold/Suppress, Compiled/Fresh, PFC universal
   - Compiled-Fresh.md v2.0 — FOUNDATION: compiled quality, reversal, PFC shared budget
-  - Self-Pattern-Modeling.md v3.1 — FOUNDATION: Compiled/Fresh, Self-Pattern-Modeling as Simulation Engine application
+  - Self-Pattern-Modeling.md v3.1 — FOUNDATION: Compiled/Fresh, Self-Pattern-Modeling as Simulation-Engine application
   - Valence-Propagation.md v3.0 §3 — DEFINES Entity-Compiled + 3 subtypes
   - Body-Feedback-Mechanism.md v2.0 §3.3c — FOUNDATION: Gap→Miss baseline
   - Reward-Calibration.md v1.1 — PARALLEL: Goldilocks, cannot prescribe, dynamic equilibrium
@@ -74,7 +74,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Bạn bè (Mức 3): exit dễ → "no" = signal mạnh → TỰ calibrate.**
 > **Parent→child (Mức 4-5): exit impossible → "no" = signal yếu → chỉ INTERNAL calibration.**
 >
-> **HARDWARE SUBSIDY = CALIBRATION BIAS:**
+> **HARDWARE-SUBSIDY = CALIBRATION BIAS:**
 > **Hormone fires → entity-access FEELS justified → C masked as A.**
 >
 > **Compiled = BELOW PFC → calibration IMPOSSIBLE.**
@@ -92,7 +92,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §1 — CALIBRATION = DYNAMIC EQUILIBRIUM
 - §2 — 3-LAYER CALIBRATION ARCHITECTURE
 - §3 — EXIT COST = SIGNAL WEIGHT
-- §4 — HARDWARE SUBSIDY = CALIBRATION BIAS
+- §4 — HARDWARE-SUBSIDY = CALIBRATION BIAS
 - §5 — COMPILED vs FRESH: CALIBRATION WINDOW
 - §6 — ENGINE USE QUALITY: CURIOSITY vs THREAT
 - §7 — OPTIMAL ZONE: JUSTIFIED C + BIDS
@@ -122,7 +122,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ① Calibration = dynamic equilibrium: observe → adjust → observe (LOOP)
   ② 3-Layer Architecture: Body Signal × Engine Simulation × Feedback Integration
   ③ Exit Cost = Signal Weight: bạn bè (Mức 3) self-calibrate, parent→child INTERNAL only
-  ④ Hardware Subsidy = Calibration BIAS: hormone → entity-access feels justified → C masked
+  ④ Hardware-Subsidy = Calibration BIAS: hormone → entity-access feels justified → C masked
   ⑤ Compiled entity-access behaviors = BELOW PFC → calibration IMPOSSIBLE until decompile
   ⑥ Fresh entity-access = PFC ACTIVE → calibration POSSIBLE in real-time
   ⑦ Engine use quality: curiosity → productive calibration. Threat → rumination.
@@ -188,7 +188,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ① 2 bodies — not just self-regulation (Connection.md §9)
     ② Power asymmetry — affects signal quality (parent > child)
-    ③ Hardware subsidy — creates BIAS (hormone → overestimate need)
+    ③ Hardware-subsidy — creates BIAS (hormone → overestimate need)
     ④ Compiled patterns — resist change (automatic, below PFC)
     ⑤ PFC = Lawyer — rationalize C as A+B (McNulty 2013)
     → 5 additional complexity factors BEYOND simple reward calibration
@@ -218,7 +218,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │   → relief-seeking → compliance → SCHEMA gap driving               │
   │                                                                     │
   │ Interoception DETECT body signal → biết gap source ĐANG active     │
-  │ = Simulation Engine Component 1 (anterior insula readout)          │
+  │ = Simulation-Engine Component 1 (anterior insula readout)          │
   │                                                                     │
   │ ⚠️ REQUIRES: interoceptive accuracy (trainable — Fukushima 2011)  │
   │ ⚠️ FAILS when: alexithymia, habituation, depleted                 │
@@ -238,7 +238,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │   Tool-mode: "con ăn chưa?" (function check, no state model)      │
   │   Agent-mode: "con có đói thật không? con feel gì?" (state model) │
   │                                                                     │
-  │ = Simulation Engine Component 2 (DMN + hippocampus = CPU)          │
+  │ = Simulation-Engine Component 2 (DMN + hippocampus = CPU)          │
   ├─────────────────────────────────────────────────────────────────────┤
   │ LAYER 3 — FEEDBACK INTEGRATION (Response × Adjustment)             │
   │                                                                     │
@@ -251,7 +251,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ ⚠️ REQUIRES: PFC-Fresh state (Compiled-Fresh.md §10)              │
   │ ⚠️ FAILS when: compiled response override (automatic, bypass PFC) │
   │                                                                     │
-  │ = Simulation Engine Component 3 (mPFC model: adjust self-behavior) │
+  │ = Simulation-Engine Component 3 (mPFC model: adjust self-behavior) │
   └─────────────────────────────────────────────────────────────────────┘
 
   CALIBRATION = ALL 3 LAYERS ĐỒNG THỜI:
@@ -281,7 +281,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   🟡 3-Layer Calibration Architecture = framework synthesis
   🟢 Interoceptive accuracy → empathic accuracy: Fukushima 2011 (R14)
-  🟢 Simulation Engine 3 Components: Simulation-Engine.md §1
+  🟢 Simulation-Engine 3 Components: Simulation-Engine.md §1
   🟢 PFC-Fresh universal resource: Compiled-Fresh.md §10
 ```
 
@@ -359,12 +359,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §4 — HARDWARE SUBSIDY = CALIBRATION BIAS
+## §4 — HARDWARE-SUBSIDY = CALIBRATION BIAS
 
 ```
-⭐⭐ HARDWARE SUBSIDY = ANTI-HABITUATION + CALIBRATION BIAS:
+⭐⭐ HARDWARE-SUBSIDY = ANTI-HABITUATION + CALIBRATION BIAS:
 
-  Entity-Access.md §5: Hardware Subsidy = ANTI-HABITUATION.
+  Entity-Access.md §5: Hardware-Subsidy = ANTI-HABITUATION.
   Mẹ→con MAXIMUM subsidy → entity-access DURABLE.
 
   NHƯNG CÙNG CƠ CHẾ = CALIBRATION BIAS:
@@ -382,12 +382,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → Body signal = MIXED (opioid + cortisol CÙNG LÚC)
         → PFC interpret TOÀN BỘ as "thương con" (A explains everything)
         → C INVISIBLE vì A provides "cover story"
-        → = Hardware subsidy MASKS excess entity-access
+        → = Hardware-subsidy MASKS excess entity-access
 
   SO SÁNH PER BOND TYPE:
 
     ┌──────────────┬───────────┬───────────────┬─────────────────────────┐
-    │ Bond type    │ Hardware subsidy│ Bias level    │ Detection difficulty     │
+    │ Bond type    │ Hardware-subsidy│ Bias level    │ Detection difficulty     │
     ├──────────────┼───────────┼───────────────┼─────────────────────────┤
     │ Mẹ→con      │ MAXIMUM   │ MAXIMUM       │ HARDEST: A always       │
     │ (Mức 4-5)    │           │               │ present → always "cover" │
@@ -406,17 +406,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     └──────────────┴───────────┴───────────────┴─────────────────────────┘
 
   PARADOX — STRONGEST BOND = HARDEST TO CALIBRATE:
-    Mẹ→con: Hardware subsidy MAXIMUM + Exit cost MAXIMUM + Power MAXIMUM
+    Mẹ→con: Hardware-subsidy MAXIMUM + Exit cost MAXIMUM + Power MAXIMUM
     → 3 factors ALL conspire AGAINST calibration
     → Strongest, most durable bond = most vulnerable to excess
     → = Trivers 1972: parental investment = HIGHEST → bias HIGHEST
 
-    Bạn bè (Mức 3): Hardware subsidy ZERO + Exit cost LOW + Power PARITY
+    Bạn bè (Mức 3): Hardware-subsidy ZERO + Exit cost LOW + Power PARITY
     → 3 factors ALL SUPPORT calibration
     → Most fragile bond = most naturally calibrated
     → = WHY friendship rarely becomes "toxic" (self-correcting)
 
-  🟡 Hardware subsidy = calibration bias = framework synthesis
+  🟡 Hardware-subsidy = calibration bias = framework synthesis
   🟢 Oxytocin × parental bias: Feldman 2012 (R17), Strathearn 2009 (R18)
   🟢 Parental investment theory: Trivers 1972 (R16)
 ```
@@ -654,7 +654,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   BẠN BÈ (Mức 3) — SELF-CALIBRATING:
     Gap source: B dominant (by-product resonance)
     Exit cost: LOW → friend's "no" = effective signal
-    Hardware subsidy: ZERO → no bias, clear signal
+    Hardware-subsidy: ZERO → no bias, clear signal
     Entity-access: naturally in Goldilocks (environment corrects)
     Calibration needed: MINIMAL (external mechanism sufficient)
 
@@ -665,7 +665,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ROMANTIC (Mức 4) — BIDIRECTIONAL CALIBRATION:
     Gap source: A (hormone, temporary) + B (resonance) + C variable + D variable
     Exit cost: MODERATE → partner's "no" = moderate signal
-    Hardware subsidy: TEMPORARY (limerence) → fades → clearer calibration
+    Hardware-subsidy: TEMPORARY (limerence) → fades → clearer calibration
     Entity-access: needs ACTIVE calibration from BOTH sides
 
     Gottman insight: BOTH partners make bids + BOTH respond → mutual calibration
@@ -682,12 +682,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   PARENT→CHILD (Mức 4-5) — INTERNAL CALIBRATION ONLY:
     Gap source: A+B+C+D compound (Entity-Access.md §5.2)
     Exit cost: VERY HIGH (child can't leave)
-    Hardware subsidy: MAXIMUM (hormone bias → C masked)
+    Hardware-subsidy: MAXIMUM (hormone bias → C masked)
     Entity-access: needs MOST calibration but has LEAST external correction
 
     TRIPLE CHALLENGE:
       ① Exit cost max → entity's "no" = weak signal (child can't leave)
-      ② Hardware subsidy max → C masked as A (hormone provides cover story)
+      ② Hardware-subsidy max → C masked as A (hormone provides cover story)
       ③ Power max → CAN override entity → excess persists without correction
       → 3 factors ALL conspire against calibration
       → ONLY Self-Awareness (Trục 2) + sufficient PFC resource (Trục 4) can help
@@ -700,7 +700,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   PROFESSIONAL (Mức 2-3) — STRUCTURED CALIBRATION:
     Gap source: D dominant (obligation, contract)
     Exit cost: MODERATE (career consequences)
-    Hardware subsidy: ZERO
+    Hardware-subsidy: ZERO
     Entity-access: LOW (mostly Compiled Tool-mode)
     Calibration: EXTERNAL structures (HR, norms, contracts) → prescribed
 
@@ -906,7 +906,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ (bạn)    │              │ (exit cost)  │ strong signal → self-correct │
   │          │              │              │ Hardware=0 → no bias → C visible  │
   ├──────────┼──────────────┼──────────────┼──────────────────────────────┤
-  │ Mức 4    │ HIGH         │ INTERNAL     │ Exit cost ↑ + hardware subsidy →   │
+  │ Mức 4    │ HIGH         │ INTERNAL     │ Exit cost ↑ + hardware-subsidy →   │
   │ (Entity- │              │ (self-aware  │ C MASKED. PFC = "phần đời   │
   │ Owned)   │              │ + Trục 2)    │ tôi" → rationalize. Need    │
   │          │              │              │ 3-Layer actively.            │
@@ -921,14 +921,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Mức 1-3: SELF-CORRECTING
       → Exit cost low → environment provides calibration signals
-      → Hardware subsidy = zero or low → C/D visible → easy to detect
+      → Hardware-subsidy = zero or low → C/D visible → easy to detect
       → 3-Layer Architecture = useful but not CRITICAL
       → "Barista quá thân → đổi quán" = natural calibration at Mức 1
       → "Bạn kiểm soát nhau → bạn exit" = natural calibration at Mức 3
 
     Mức 4: CRITICAL ZONE
       → Exit cost rising → entity's "no" = weakening signal
-      → Hardware subsidy present → C masked as A → hard to detect
+      → Hardware-subsidy present → C masked as A → hard to detect
       → 3-Layer Architecture = ESSENTIAL
       → Self-Awareness (Trục 2) = DIFFERENCE MAKER
       → This is WHERE calibration matters most and is hardest
@@ -987,9 +987,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 FRAMEWORK SYNTHESIS (novel combinations):
 ═══════════════════════════════════════
 
-  3-Layer Calibration Architecture (maps to Simulation Engine, novel application)
+  3-Layer Calibration Architecture (maps to Simulation-Engine, novel application)
   Exit Cost = Signal Weight (novel framing of established dynamics)
-  Hardware Subsidy = Calibration Bias (novel angle on known hormone effects)
+  Hardware-Subsidy = Calibration Bias (novel angle on known hormone effects)
   Cannot prescribe applied to entity-access (parallel from Reward-Calibration)
   Calibration as Generative reward source (novel extension)
   5 failure modes taxonomy (novel organization of known phenomena)
@@ -1001,7 +1001,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🔴 HYPOTHESIS (testable but unverified):
 ═══════════════════════════════════════
 
-  Exact mapping of 3 calibration layers to Simulation Engine components
+  Exact mapping of 3 calibration layers to Simulation-Engine components
     (conceptually clean but neural correspondence not directly demonstrated)
   "Calibration as Generative reward" — mechanism plausible but no direct study
   "Parenting advice as threat trigger" — anecdotally common, no formal study
@@ -1027,7 +1027,7 @@ CÁI FRAMEWORK THÊM vs CÁI ĐÃ CÓ:
 | Compiled-Fresh.md v2.0 | §6, §9, §10 | FOUNDATION: compiled quality + PFC budget + reversal |
 | Simulation-Engine.md v1.0 | §1, §9, §11 | FOUNDATION: 3 components + reflection/rumination + training |
 | PFC-Operations.md v1.0 | §1-§7 | FOUNDATION: Hold/Suppress, Compiled/Fresh, PFC universal |
-| Self-Pattern-Modeling.md v3.1 | §0-§3 | FOUNDATION: Compiled/Fresh, Self-Pattern-Modeling as Simulation Engine application |
+| Self-Pattern-Modeling.md v3.1 | §0-§3 | FOUNDATION: Compiled/Fresh, Self-Pattern-Modeling as Simulation-Engine application |
 | Reward-Calibration.md v1.1 | §1, §5 | PARALLEL: general reward calibration principle |
 | Logic-Feeling-Balance.md v1.0 | §6-§7 | PARALLEL: cannot prescribe + infinite regress |
 | Connection.md v4.0 | §9 | COMPANION: 2-body calibration dynamic equilibrium |

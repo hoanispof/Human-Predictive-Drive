@@ -43,7 +43,7 @@ dependencies:
   Anti-Habituation:
     - Gratitude.md v2.1 — §3 3 Anti-Habituation Mechanisms (Variation/Comparison/Ritual), §3.1 Hedonic Treadmill, §4 Baseline Shift
   Cortisol:
-    - Cortisol-Baseline.md v2.1 — §3.3 Direction tag NT7, §7 Novelty vs Threat (Source > Level)
+    - Cortisol-Baseline.md v2.1 — §3.3 Direction-At-Compile, §7 Novelty vs Threat (Source > Level)
   Body:
     - Body-Feedback-Mechanism.md v2.0 — §3 Chunk dynamics, §5 Quality Baseline Shift
   PFC:
@@ -573,7 +573,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   FM-D3: SCHEMA-INSTALLED DESTINATION — "phải X trước Y"
     Collective INSTALL: "phải có nhà trước 30" → schema gap.
     Fill = relief tag (cortisol drop), NOT opioid (Gap-Body-Need §13).
-    "Phù, xong rồi" ≠ "thích" → "thành công mà trống rỗng."
+    "Phù, xong rồi" ≠ "thích" → "thành công mà emptiness."
 
   FM-D4: PATHWAY 2 DEPENDENCY — chain dài, dễ gãy
     All reward expected AFTER achievement (Pathway 2, chain dài).

@@ -1,4 +1,4 @@
----
+﻿---
 title: Gap Direction — Body-Feedback Requires Directional Match
 version: 2.0
 created: 2026-04-27
@@ -22,7 +22,7 @@ purpose: |
   Nhưng §3.3 CHƯA formalize: C có HÌNH DẠNG CỤ THỂ.
   File này formalize:
   ① Gap direction = consequence tất yếu của "gap = hole in chunk network"
-  ② "Chưa biết = không có gap" = genesis principle (khác H10 P2 diagnosis)
+  ② "Chưa biết = không có gap" = genesis principle (khác Precondition-2 Chunk-Substrate diagnosis)
   ③ Reward = direction match quality (không chỉ "fill gap or not")
   ④ 2-layer model clarify tại sao Schultz 1997 "đúng nhưng chưa đủ"
   ⑤ Gap direction install, Background-Pattern constraint, implications
@@ -32,15 +32,15 @@ position: |
   Core-Deep-Dive/Body-Base/Body-Feedback/ — ngang hàng Body-Feedback-Mechanism.md.
   Body-Feedback-Mechanism.md = WHAT gap is (chunk dynamics mechanism)
   Gap-Direction.md (FILE NÀY) = WHY gap has direction + evaluation implications
-  03-Reward.md = WHEN reward fires (H10 preconditions + case analyses)
+  03-Reward.md = WHEN reward fires (Body-Feedback-Preconditions + case analyses)
   BỔ SUNG nhau — KHÔNG THAY THẾ.
 dependencies:
   - Body-Feedback-Mechanism.md v2.0 — §3.3 Chunk-Gap definition, Shift/Miss/Gap, §1 Body-Need aggregate
-  - Body-Feedback.md v2.0 — H10 5 preconditions, dual-pull
+  - Body-Feedback.md v2.0 — 5 Body-Feedback-Preconditions, dual-pull
   - Body-Feedback-Label.md v2.0 — vocabulary consistency, §2 Foundation terms
   - Inter-Body-Mechanism.md v1.0 — §2 Body-Need direction, §5 by-product match, §5.3 Full Chain
   - By-Product-Gap-Resonance.md v1.0 — §2 2-Stream Architecture, §1.5 by-product match
-  - 03-Reward.md — Ô Tô Paradox C2.1-C2.5, Van Gogh gradient, H10 cases
+  - 03-Reward.md — Ô Tô Paradox C2.1-C2.5, Van Gogh gradient, Body-Feedback-Precondition cases
   - Chunk.md v2.0 — chunk substrate, compile, activation dynamics
   - Background-Pattern.md v1.0 — Background-Pattern bias gap direction landscape
   - Novelty.md v1.0 — Chunk-Gap = novelty foundation
@@ -48,7 +48,7 @@ dependencies:
   - Cortisol-Baseline.md v2.0 — amplifier, direction tag, novelty vs threat
   - Imagine-Final.md — preview mechanism, Gap→Miss transition
   - Connection.md v3.3 — giving reward, Self-Pattern-Modeling-mediated, altruism
-  - Gratitude.md v1.0 — H10 applied to gifts, gap pre-requisite
+  - Gratitude.md v1.0 — Body-Feedback-Precondition applied to gifts, gap pre-requisite
   - Self-Pattern-Modeling v3.0 — Compiled/Fresh processing (Modeling-Stream mechanism)
   - Body-Base.md v3.1 — Compilable Architecture (3 foundations)
 language: Tiếng Việt primary + English technical terms
@@ -128,17 +128,17 @@ BODY-FEEDBACK-MECHANISM.MD §3.3 (Chunk-Gap):
   → CHƯA formalize: C có HÌNH DẠNG CỤ THỂ determined by A, B, và network
 
 
-H10 5 PRECONDITIONS (Body-Feedback.md §6):
+5 BODY-FEEDBACK-PRECONDITIONS (Body-Feedback.md §6):
 
-  P1: Schema pending (body-need gap open)
-  P2: Chunks base adequate (đủ substrate decode)
-  P3: prediction-delta threshold (biến động đủ lớn)
-  P4: Goldilocks zone (40-70% match)
-  P5: Chunk association tag (opioid vs cortisol)
+  Precondition-1 Directed-Gap (body-need gap open)
+  Precondition-2 Chunk-Substrate (đủ substrate decode)
+  Precondition-3 Delta-Gate (biến động đủ lớn)
+  Precondition-4 Match-Range (Goldilocks zone — dynamic)
+  Precondition-5 Compile-Gate (opioid vs cortisol)
 
-  → P2 nói "chunks base inadequate → confused" — FAILURE MODE khi nhận stimulus
+  → Precondition-2 nói "chunks base inadequate → confused" — FAILURE MODE khi nhận stimulus
   → CHƯA nói: không có chunks = gap KHÔNG THỂ HÌNH THÀNH = desire chưa tồn tại
-  → P4 nói "40-70% match" — NHƯNG match VỚI CÁI GÌ? 
+  → Precondition-4 nói "Goldilocks zone" — NHƯNG match VỚI CÁI GÌ? 
     Với gap direction! (implicit, chưa explicit)
 
 
@@ -164,7 +164,7 @@ H10 5 PRECONDITIONS (Body-Feedback.md §6):
 
   THIẾU (chưa explicit):
     ❌ Gap có HÌNH DẠNG CỤ THỂ = f(surrounding chunk network)
-    ❌ "Chưa biết = không có gap" = GENESIS principle (trước cả P1)
+    ❌ "Chưa biết = không có gap" = GENESIS principle (trước cả Precondition-1)
     ❌ Reward = DIRECTION MATCH quality (không chỉ "fill or not fill")
     ❌ Prediction error = signal, direction = content (2 layers phân biệt)
     ❌ Tất cả direction = chunk pattern direction (unified Tier 1-4)
@@ -184,7 +184,7 @@ H10 5 PRECONDITIONS (Body-Feedback.md §6):
     → Khi nói "gap fill → reward" — thiếu giải thích 
       tại sao CÙNG gap mà fill KHÁC → reward KHÁC
     → Khi nói "reward = personalized" — thiếu MECHANISM underneath
-    → Khi nói "P4 Goldilocks match" — thiếu specify match VỚI CÁI GÌ
+    → Khi nói "Precondition-4 Match-Range" — thiếu specify match VỚI CÁI GÌ
     → Khi nói "by-product match" — thiếu giải thích TẠI SAO match/mismatch
     → = Framework mô tả ĐÚNG nhưng chưa GIẢI THÍCH tầng sâu nhất
 ```
@@ -196,7 +196,7 @@ FILE NÀY:
   → KHÔNG sửa definitions hiện tại — chúng ĐÃ ĐÚNG
   → THÊM chiều mới: direction (content specificity)
   → FORMALIZE consequences tất yếu từ "gap = hole in network"
-  → BRIDGE giữa: gap mechanism (§3.3) ↔ reward evaluation (H10) ↔ 
+  → BRIDGE giữa: gap mechanism (§3.3) ↔ reward evaluation (Body-Feedback-Precondition) ↔ 
     personalized reward (03-Reward §5.9)
   → v2.0: BRIDGE giữa: gap direction ↔ by-product match ↔ 2-Stream
     (WHY inter-body reward works = output match gap DIRECTION)
@@ -468,16 +468,16 @@ FILE NÀY:
     → Dân bản địa chưa biết laptop: concept không tồn tại = impossible gap
 ```
 
-### §3.2 — Khác gì H10 P2?
+### §3.2 — Khác gì Precondition-2 Chunk-Substrate?
 
 ```
-⭐ "CHƯA BIẾT = KHÔNG GAP" ≠ H10 P2:
+⭐ "CHƯA BIẾT = KHÔNG GAP" ≠ Precondition-2 Chunk-Substrate:
 
-  H10 P2 (Chunks Base Adequate):
+  Precondition-2 Chunk-Substrate:
     → WHEN: Nhận stimulus → chunks thiếu → confused → no reward
     → QUESTION: "Tại sao không reward KHI NHẬN?"
     → = DIAGNOSIS — giải thích failure mode khi stimulus ĐÃ ĐẾN
-    → VD: Con nhận tranh Van Gogh → "chả hiểu" → P2 fail
+    → VD: Con nhận tranh Van Gogh → "chả hiểu" → Precondition-2 fail
 
   "Chưa biết = không có gap":
     → BEFORE: Trước khi bất kỳ stimulus nào đến
@@ -488,22 +488,24 @@ FILE NÀY:
   2 CÂU HỎI KHÁC NHAU, 2 TẦNG KHÁC NHAU:
 
     ┌────────────────────────────────────────────────────────────────┐
-    │                                                                ���
+    │                                                                │
     │  TẦNG 1 — GENESIS ("Chưa biết = không gap"):                  │
     │    Chunks about X = ∅ → Gap about X = impossible               │
     │    → Desire KHÔNG TỒN TẠI                                     │
-    │    → TRƯỚC CẢ P1 (schema pending)                              │
+    │    → TRƯỚC CẢ Precondition-1 (schema pending)                   │
     │    → Trả lời: TẠI SAO không muốn                              │
     │                                                                │
-    │  TẦNG 2 — DETECTION (H10 P1-P5):                               │
-    │    Gap TỒN TẠI → stimulus đến → H10 check                     │
-    │    → P1: gap open? P2: decode được? P3: delta đủ?             │
-    │    → P4: match range? P5: tag phù hợp?                        │
+    │  TẦNG 2 — DETECTION (5 Body-Feedback-Preconditions):           │
+    │    Gap TỒN TẠI → stimulus đến → Body-Feedback-Precondition check│
+    │    → Precondition-1: gap open? Precondition-2: decode được?    │
+    │    → Precondition-3: delta đủ? Precondition-4: match range?   │
+    │    → Precondition-5: tag phù hợp?                             │
     │    → Trả lời: TẠI SAO reward fires hay không fires            │
     │                                                                │
     │  = TẦNG 1 quyết định gap CÓ HÌNH THÀNH KHÔNG                  │
     │  = TẦNG 2 quyết định reward CÓ FIRE KHÔNG (khi gap đã có)     │
-    │  = "Chưa biết = không gap" là PREREQUISITE cho toàn bộ H10    │
+    │  = "Chưa biết = không gap" là PREREQUISITE cho toàn bộ         │
+    │    Body-Feedback-Precondition                                  │
     │                                                                │
     └────────────────────────────────────────────────────────────────┘
 ```
@@ -568,6 +570,28 @@ FILE NÀY:
 
   → CÙNG thông tin (E=mc²) → KHÁC reward HOÀN TOÀN
   → Reward = f(gap direction match), KHÔNG f(information value)
+
+
+🟡 VÍ DỤ: MUSIC LISTENING TRAJECTORY (textbook case)
+
+  "Chưa biết = không có gap" applied qua 4 phase nghe nhạc:
+
+  Phase 0 — Chưa nghe jazz:
+    Chunks jazz: ≈ 0 → không có bờ → KHÔNG CÓ GAP → KHÔNG CÓ desire
+    → Nghe jazz lần đầu: confused HOẶC neutral → skip
+
+  Phase 2 — Goldilocks zone (sau vài lần nghe):
+    Chunks: đủ (genre gist compiled, biết swing rhythm, blue notes)
+    → Gap FORMED + direction rõ: "muốn nghe thêm kiểu này"
+    → PE in sweet spot → peak enjoyment
+
+  Phase 4 — Saturation:
+    Chunks: complete cho familiar → prediction-delta → 0
+    → Gap ĐÓNG → desire TẮT cho bài quen → "chán, tìm cái mới"
+
+  = Inverted-U trajectory: 🟢 87.7% of 57 studies confirm (Chmiel & Schubert 2017).
+  = Music = pure case vì inverted-U quantifiable + timeline compact (days-months).
+  → Drill-Sound-Brain/07-Music-Entrainment-Reward-Dynamics v1.2 §5.
 ```
 
 ### §3.4 — Hệ quả của principle
@@ -749,10 +773,10 @@ FILE NÀY:
 ⭐ RANGE = NOT "MORE = BETTER" — BELL CURVE WITHIN DIRECTION:
 
   Range trả lời: "Fill bao nhiêu là TỐI ƯU?"
-  = Goldilocks zone WITHIN gap direction (connect H10 P4)
+  = Goldilocks zone WITHIN gap direction (connect Precondition-4 Match-Range)
 
-  FRAMEWORK HIỆN TẠI (H10 P4):
-    → "40-70% match" = Goldilocks
+  FRAMEWORK HIỆN TẠI (Precondition-4 Match-Range):
+    → Goldilocks zone (dynamic — novel enough + right direction)
     → Too alien (<20%): "lạ quá" → confusion
     → Too familiar (>90%): "biết rồi" → habituation
   
@@ -770,14 +794,14 @@ FILE NÀY:
     Direction: recognition of effort (self-schema relevant)
     Range: "Làm tốt đấy" ✅ → "Rất giỏi" ✅✅ → 
            "Thiên tài" ⚠️ → "Einstein thứ 2" ❌
-    = Beyond range: P4 violated (mismatch self-schema)
+    = Beyond range: Precondition-4 violated (mismatch self-schema)
     = Khen vẫn "đúng hướng" nhưng MAGNITUDE quá lớn → body reject
 
   VD — Tiền thưởng:
     Direction: resource reward (body-need met)
     Range: 1 triệu ✅ → 10 triệu ✅✅ → 100 triệu ⚠️ → 1000 tỷ ❌
     = 1000 tỷ: đúng direction (tiền) nhưng VƯỢT range
-    = Body: "không tin" → P4 violated (too alien for self-schema)
+    = Body: "không tin" → Precondition-4 violated (too alien for self-schema)
 
   VD — Gia vị đồ ăn:
     Direction: taste reward (Tier 1)
@@ -1089,56 +1113,56 @@ FILE NÀY:
       A1 reward, A2 no-match, A3 anti-match (khác gap direction)
 ```
 
-### §6.3 — H10 reinterpretation qua 2 layers
+### §6.3 — Body-Feedback-Precondition reinterpretation qua 2 layers
 
 ```
-⭐ H10 5 PRECONDITIONS = ĐÃ MÔ TẢ 2 LAYERS (chưa nói rõ):
+⭐ 5 BODY-FEEDBACK-PRECONDITIONS = ĐÃ MÔ TẢ 2 LAYERS (chưa nói rõ):
 
-  ┌─────────────────────┬──────────┬──────────────────────────────┐
-  │ H10 Precondition    │ Layer    │ Function trong 2-layer model │
-  ├─────────────────────┼──────────┼──────────────────────────────┤
-  │ P1 Schema Pending   │ Layer 2  │ DIRECTION EXISTS             │
-  │ (body-need gap)     │          │ Gap đã hình thành, có hướng  │
-  │                     │          │ = Prerequisite cho evaluation │
-  ├─────────────────────┼──────────┼──────────────────────────────┤
-  │ P2 Chunks Base      │ Layer 2  │ DIRECTION CAN FORM           │
-  │ (đủ substrate)      │          │ Đủ chunks = đủ bờ = có hole │
-  │                     │          │ = Prerequisite cho P1        │
-  ├─────────────────────┼──────────┼──────────────────────────────┤
-  │ P3 Prediction-Delta  │ Layer 1  │ SIGNAL FIRES                 │
-  │ (biến động đủ)      │          │ Prediction-delta detected    │
-  │                     │          │ = Detection mechanism active  │
-  ├─────────────────────┼──────────┼──────────────────────────────┤
-  │ P4 Goldilocks       │ Layer 2  │ DIRECTION MATCH QUALITY      │
-  │ (40-70% match)      │          │ Match VỚI gap direction      │
-  │                     │          │ = Range property check        │
-  ├─────────────────────┼──────────┼──────────────────────────────┤
-  │ P5 Chunk Tag        │ Layer 2  │ DIRECTION VALENCE            │
-  │ (opioid/cortisol)   │          │ Compiled association tag      │
-  │                     │          │ = Reward or threat direction? │
-  └─────────────────────┴──────────┴──────────────────────────────┘
+  ┌─────────────────────────────────┬──────────┬──────────────────────────────┐
+  │ Body-Feedback-Precondition      │ Layer    │ Function trong 2-layer model │
+  ├─────────────────────────────────┼──────────┼──────────────────────────────┤
+  │ Precondition-1 Directed-Gap    │ Layer 2  │ DIRECTION EXISTS             │
+  │ (body-need gap)                │          │ Gap đã hình thành, có hướng  │
+  │                                 │          │ = Prerequisite cho evaluation │
+  ├─────────────────────────────────┼──────────┼──────────────────────────────┤
+  │ Precondition-2 Chunk-Substrate │ Layer 2  │ DIRECTION CAN FORM           │
+  │ (đủ substrate)                 │          │ Đủ chunks = đủ bờ = có hole │
+  │                                 │          │ = Prerequisite cho Precondition-1 │
+  ├─────────────────────────────────┼──────────┼──────────────────────────────┤
+  │ Precondition-3 Delta-Gate      │ Layer 1  │ SIGNAL FIRES                 │
+  │ (biến động đủ)                 │          │ Prediction-delta detected    │
+  │                                 │          │ = Detection mechanism active  │
+  ├─────────────────────────────────┼──────────┼──────────────────────────────┤
+  │ Precondition-4 Match-Range     │ Layer 2  │ DIRECTION MATCH QUALITY      │
+  │ (Goldilocks zone — dynamic)    │          │ Match VỚI gap direction      │
+  │                                 │          │ = Range property check        │
+  ├─────────────────────────────────┼──────────┼──────────────────────────────┤
+  │ Precondition-5 Compile-Gate    │ Layer 2  │ DIRECTION VALENCE            │
+  │ (opioid/cortisol)              │          │ Compiled association tag      │
+  │                                 │          │ = Reward or threat direction? │
+  └─────────────────────────────────┴──────────┴──────────────────────────────┘
 
   HIERARCHY RÕ HƠN:
 
     "Chưa biết = không gap"
         ↓ (prerequisite)
-    P2: đủ chunks → direction CAN form
+    Precondition-2: đủ chunks → direction CAN form
         ↓ (prerequisite)
-    P1: gap direction EXISTS (pending active)
+    Precondition-1: gap direction EXISTS (pending active)
         ↓ (gap exists, now evaluate stimulus)
-    P3: signal fires (Layer 1 — detection)
+    Precondition-3: signal fires (Layer 1 — detection)
         ↓ (something detected)
-    P4: direction match quality (Layer 2 — within range?)
+    Precondition-4: direction match quality (Layer 2 — within range?)
         ↓ (match quality assessed)
-    P5: valence tag check (Layer 2 — reward or threat?)
+    Precondition-5: valence tag check (Layer 2 — reward or threat?)
         ↓
     REWARD or DISSONANCE fires
 
-  → "Chưa biết = không gap" = TẦNG 0 — trước cả H10
-  → P2 → P1 = Layer 2 prerequisites (gap phải tồn tại)
-  → P3 = Layer 1 (signal phải fire)
-  → P4 → P5 = Layer 2 quality check
-  → = H10 ĐÃ mô tả 2 layers — chỉ chưa PHÂN BIỆT 2 layers
+  → "Chưa biết = không gap" = TẦNG 0 — trước cả Body-Feedback-Precondition
+  → Precondition-2 → Precondition-1 = Layer 2 prerequisites (gap phải tồn tại)
+  → Precondition-3 = Layer 1 (signal phải fire)
+  → Precondition-4 → Precondition-5 = Layer 2 quality check
+  → = Body-Feedback-Precondition ĐÃ mô tả 2 layers — chỉ chưa PHÂN BIỆT 2 layers
 ```
 
 ### §6.4 — Tại sao 2-layer model hữu ích
@@ -1926,7 +1950,7 @@ FILE NÀY:
   C3. TIỀN THƯỞNG:
     Direction: resource reward
     Range: 1tr→10tr→100tr→1000 tỷ
-    → 1000 tỷ: "không tin" → P4 violated (mismatch self-schema) ✅
+    → 1000 tỷ: "không tin" → Precondition-4 violated (mismatch self-schema) ✅
 
   C4. KHEN:
     Direction: recognition (self-schema relevant)
@@ -2471,7 +2495,7 @@ GD-Q8 (v2.0 NEW): Anti-match ACCUMULATION:
     Festinger 1957 cognitive dissonance, Kounios & Beeman 2009 aha moments)
   → Prediction error as signal mechanism: Schultz 1997
   → ACC conflict detection: Bush, Luu, Posner 2000
-  → Reward is personalized: demonstrated across H10 cases (03-Reward §5)
+  → Reward is personalized: demonstrated across Body-Feedback-Precondition cases (03-Reward §5)
   → Goldilocks zone: Berlyne 1960, 1971 (optimal arousal theory)
   → Hedonic adaptation (range): Brickman et al. 1978
   → External chunk install: established (education, advertising, social influence)
@@ -2484,7 +2508,7 @@ GD-Q8 (v2.0 NEW): Anti-match ACCUMULATION:
   → Gap direction as explicit property: LOGICAL CONSEQUENCE of "gap = hole"
     → Each component established — formalization = framework contribution
   → "Chưa biết = không có gap" as genesis principle:
-    → Implicit in H10 P2 — explicit formulation = framework contribution
+    → Implicit in Precondition-2 Chunk-Substrate — explicit formulation = framework contribution
   → 2-layer model (signal vs content):
     → Each layer established individually — distinction = framework contribution
   → Unified direction model (Tier 1-4):
@@ -2552,7 +2576,7 @@ SUMMARY:
 ```
   Body-Feedback-Mechanism.md v2.0  — §3.3 Chunk-Gap (extends), §3.1-§3.2 (Shift/Miss),
                                      §1 Body-Need aggregate
-  Body-Feedback.md v2.0           — §6 H10 (reinterprets qua 2 layers)
+  Body-Feedback.md v2.0           — §6 Body-Feedback-Precondition (reinterprets qua 2 layers)
   Body-Feedback-Label.md v2.0     — §2 Foundation terms, §4 dissonance labels,
                                      §8 Compiled/Fresh processing
   Inter-Body-Mechanism.md v1.0    — §2 Body-Need direction, §5 by-product match + Full Chain,
@@ -2579,7 +2603,7 @@ SUMMARY:
 ```
   Novelty.md v1.0                 — §1 Chunk-Gap = foundation, §4 loop dynamics
   Schema.md v2.0                  — §4.1 depth (extends), §5.1 conflict
-  Gratitude.md v1.0               — H10 applied to gifts (gap prerequisite)
+  Gratitude.md v1.0               — Body-Feedback-Precondition applied to gifts (gap prerequisite)
   Connection.md v3.3              — §8 giving pathway, altruism mechanism
   Body-Base.md v3.1               — Compilable Architecture (3 foundations), entry point
 ```
@@ -2626,6 +2650,16 @@ SUMMARY:
   Cross-refs:
     → Autism-Observation.md v1.0 §6 (Special Interests mechanism)
     → ADHD-Observation.md v1.2 §4 (hyperfocus = related but different: dopamine-sustained)
+```
+
+### §16.7 — Drill-Sound-Brain (v2.0 cross-ref)
+
+```
+  Drill-Sound-Brain/07-Music-Entrainment-Reward-Dynamics v1.2:
+    → §5 Gap-Direction × Music: full inverted-U trajectory (Phase 0→4)
+    → "Chưa biết = không có gap" = textbook case qua music listening
+    → 🟢 Chmiel & Schubert 2017: 87.7% of 57 studies confirm inverted-U
+    → §3.3 music trajectory example added (v2.0 cross-ref)
 ```
 
 ---

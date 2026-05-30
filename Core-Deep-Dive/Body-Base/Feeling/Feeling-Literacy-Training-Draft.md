@@ -17,10 +17,10 @@ dependencies: |
   Feeling-Accuracy.md §5-§7 (literacy definition, development stages, methods)
   01b-Chunk-Activation-Dynamics.md (probability, competitive re-linking, trigger surface)
   01c-Chunk-Discovery-Lifecycle.md (discovery cycle, convergence zone)
-  02-Feeling-Intuition-Gradient.md (H5, 6-point gradient)
+  02-Feeling-Intuition-Gradient.md (Multi-Weak-Signal-Convergence, 6-point gradient)
   Somatic-Articulation-Loop.md (body → explicit knowledge, 7-stage Somatic-Articulation-Loop)
-  Logic-Feeling.md (parallel processing, 1A vs 1B)
-  F1 NT6 (verbal-as-handle), F1 NT7 (body-state-at-compile)
+  Logic-Feeling.md (parallel processing, Domain-Checked vs Self-Referencing)
+  F1 Label-As-Handle (verbal-as-handle), F1 Direction-At-Compile (body-state direction)
 language: Tiếng Việt primary + English technical
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -83,7 +83,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     C) LABEL phong phú (nhiều handle cho logic-planning)
        → = Barrett 2017 emotional granularity
-       → Chunk mechanism: verbal-as-handle (F1 NT6)
+       → Chunk mechanism: Label-As-Handle (Chunk.md §6)
          mỗi label = retrieval path → access nhiều feeling pattern hơn
 
     D) ATTRIBUTION chính xác (gán đúng signal → đúng source)
@@ -92,7 +92,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
          → PFC có nhiều hypothesis candidates → body vote chính xác hơn
 
     E) CALIBRATION phù hợp (biết layer nào tin được)
-       → = Trust Layer 3-4, skeptical Layer 6-7
+       → = Trust Feel-Consciousification–Feel-Observation, skeptical Feel-Labeling–Feel-Explanation
        → Chunk mechanism: meta-chunks (chunks VỀ feeling process)
          = §3 Stage 5 meta-feeling
 
@@ -128,9 +128,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Control without literacy = suppression hoặc flooding
 
     ✗ "Tin hết những gì body nói" (nguy hiểm)
-      → = Body RAW signal (Layer 1-3) = accurate
-      → = PFC INTERPRETATION (Layer 6-7) = often wrong
-      → = 1B trap: "tôi cảm thấy đúng" ≠ đúng (Mechanism-Deep §6.3)
+      → = Body RAW signal (Feel-RawSignals–Feel-Consciousification) = accurate
+      → = PFC INTERPRETATION (Feel-Labeling–Feel-Explanation) = often wrong
+      → = Self-Referencing Trap: "tôi cảm thấy đúng" ≠ đúng (Mechanism-Deep §6.3)
 
     ✗ "Nói nhiều về cảm xúc" (exterior ≠ literacy)
       → = Nói = output. Literacy = internal reading accuracy.
@@ -148,7 +148,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ✓ Chunk-dependent — quality phụ thuộc library + history
     ✓ Trainable — via specific mechanisms (§3-§4)
     ✓ Domain-specific — expert feeling reliable IN DOMAIN
-    ✓ Requires both body awareness + domain feedback (1A check)
+    ✓ Requires both body awareness + domain feedback (Domain-Checked verification)
     ✓ Prerequisite for wise action
 ```
 
@@ -173,7 +173,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                       │ ⑤ Chunk match  │ convergence zone resolves     │
   │                       │                │ faster → phân biệt rõ hơn    │
   ├───────────────────────┼────────────────┼───────────────────────────────┤
-  │ C. Label              │ ⑥ Label search │ Verbal-as-handle (NT6) →      │
+  │ C. Label              │ ⑥ Label search │ Label-As-Handle →      │
   │                       │                │ more retrieval paths →        │
   │                       │                │ logic-planning enabled        │
   ├───────────────────────┼────────────────┼───────────────────────────────┤
@@ -210,8 +210,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → AI-assisted planning already possible
 
   → Feeling = HUMAN TERRITORY:
-    → Body-based computation (L0-L3 + mirror + schema + imagine-final)
-    → Convergence zone detection (H5 multi-weak-signal)
+    → Body-based computation (body-base + mirror + schema + imagine-final)
+    → Convergence zone detection (Multi-Weak-Signal-Convergence)
     → Body vote on interpretation (smooth/resist/empty)
     → Compile context accumulated over LIFETIME of experience
 
@@ -338,7 +338,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ 5-STAGE FEELING LITERACY TRAINING:
 
-  ┌────────────────────────────────────────��───────────────────────────┐
+  ┌────────────────────────────────────────────────────────────────────┐
   │                                                                    │
   │  Stage 1: BODY AWARENESS                                           │
   │    "Detect raw signals" — lower PFC observation threshold          │
@@ -361,11 +361,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │  → CAN train all 5 simultaneously at different levels              │
   │  → Domain-specific: literate in cooking ≠ literate in physics      │
   │                                                                    │
-  └───────��────────────────────────────────────��───────────────────────┘
+  └────────────────────────────────────────────────────────────────────┘
 
   5-STAGE × 8-STEP MAPPING:
     Stage 1 → improves step ① ② ④ (body fire + VTA + threshold)
-    Stage 2 → improves step ③ ��� (integration + chunk match)
+    Stage 2 → improves step ③ ④ (integration + chunk match)
     Stage 3 → improves step ⑤ (chunk match specificity)
     Stage 4 → improves step ⑥ (label search success rate)
     Stage 5 → improves step ⑦ ⑧ (body vote accuracy + action wisdom)
@@ -420,7 +420,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ② INTEROCEPTIVE CHECK-IN:
        → Pause → "how does my body feel RIGHT NOW?"
-       → Not "am I ok?" (Layer 6) → "what body signals exist?" (Layer 1-3)
+       → Not "am I ok?" (Feel-Labeling) → "what body signals exist?" (Feel-RawSignals–Feel-Consciousification)
        → Duration: 30 seconds, multiple times per day
        → Mechanism: primarily A (prediction refinement via frequent sampling)
 
@@ -520,7 +520,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → Record: situation + body feeling + location + quality
        → Over time: PATTERNS emerge across episodes
        → Pattern recognition = Stage 3 preparation
-       → Mechanism: F1 NT6 verbal-as-handle: writing = labeling practice
+       → Mechanism: Label-As-Handle: writing = labeling practice
        → Duration: brief entry, daily or as-needed
 
 
@@ -557,7 +557,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Each feeling episode + situation context → new link
       → Repeated: "tight chest before presentation" → chunk compiled
       → After many repetitions: automatic recognition
-      → = F1 NT2 compile channels:
+      → = Compile-Rate-Formula channels:
         → Channel 1 (repetition): same situation-feeling pair → strong link
         → Channel 2 (emotional peak): intense episode → fast compile
       → = Expert intuition basis: thousands of situation-feeling pairs compiled
@@ -641,7 +641,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CHUNK MECHANISM — HOW training works:
 
-    MECHANISM I — VERBAL-AS-HANDLE COMPILATION (F1 NT6):
+    MECHANISM I — LABEL-AS-HANDLE COMPILATION:
       → Label = verbal chunk → linked to feeling pattern chunk
       → NOT: label = truth about feeling (label ≈ 60-70% fidelity)
       → BUT: label = RETRIEVAL PATH (handle) to access feeling pattern
@@ -696,7 +696,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → Group: shared labels with friends/family/community
        → Global: universal-ish labels (basic emotions, medical terms)
        → Awareness: "this label works for ME but may not translate"
-       → = NT6 moderate Whorfian: language shapes feeling experience
+       → = Label-As-Handle moderate Whorfian: language shapes feeling experience
          but does NOT determine it
 
 
@@ -720,7 +720,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §3.5 — Stage 5: Meta-Feeling (feeling about feelings)
 
 ```
-⭐ STAGE 5 �� META-FEELING:
+⭐ STAGE 5 — META-FEELING:
 
   GOAL: Recursive awareness — feel ABOUT feeling system itself.
         "I know what I feel AND I know how reliable that reading is."
@@ -749,9 +749,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     MECHANISM N — LAYER AWARENESS:
       → Feeling.md 7-layer model → internalized as meta-feeling chunks:
-        → "I am at Layer 3 — pre-verbal body truth — high trust"
-        → "I am at Layer 6 — labeling — moderate trust, could be wrong"
-        → "I am at Layer 7 — explanation — low trust, likely rationalization"
+        → "I am at Feel-Consciousification — pre-verbal body truth — high trust"
+        → "I am at Feel-Labeling — labeling — moderate trust, could be wrong"
+        → "I am at Feel-Explanation — explanation — low trust, likely rationalization"
       → = EACH LAYER AWARENESS = meta-chunk compiled through practice
       → = Not intellectual knowledge ("I know 7 layers")
         but felt knowledge ("I SENSE which layer I'm at")
@@ -767,14 +767,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ② LAYER CHECK PRACTICE:
        → When labeling feeling: "which layer am I at?"
-       → "Am I reporting body truth (L3-4) or PFC story (L6-7)?"
+       → "Am I reporting body truth (Feel-Consciousification–Feel-Observation) or PFC story (Feel-Labeling–Feel-Explanation)?"
        → = Develops automatic layer awareness
        → = Not analysis paralysis — quick check (~2 seconds)
        → Becomes automatic with practice (like rear-view mirror check)
 
-    ③ 1A/1B CHECK (Mechanism-Deep §6.3):
-       → After strong feeling: "is this domain-real checked (1A)
-         or self-referencing (1B)?"
+    ③ DOMAIN-CHECKED/SELF-REFERENCING VERIFICATION (Mechanism-Deep §6.3):
+       → After strong feeling: "is this Domain-Checked
+         or Self-Referencing?"
        → "Have I tested this feeling against domain reality?"
        → = Prevents "mượt giả" trap (feeling smooth but wrong)
        → = Most important meta-skill for avoiding confirmation bias
@@ -791,7 +791,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → After ~1-2 years sustained practice:
       → Automatic layer awareness (know which layer you're at)
       → Domain-calibrated trust (trust expert gut, question beginner gut)
-      → 1A/1B check becomes habitual
+      → Domain-Checked/Self-Referencing verification becomes habitual
       → "I feel X" → automatic metadata: "in this domain, my feelings
         are usually Y% reliable, and I'm currently at Layer Z"
       → = WISDOM = compiled meta-feeling chunks
@@ -801,7 +801,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Meta-chunks compiled: self-evaluative chunks about own feeling system
     → Domain-calibration chunks: "domain X = trust / domain Y = skeptical"
     → Layer-awareness chunks: automatic detection of current layer
-    → 1A/1B check chunks: automatic verification habit
+    → Domain-Checked/Self-Referencing verification chunks: automatic verification habit
     → = RECURSIVE structure: chunks about chunks about body signals
     → = This IS what "wisdom" looks like at mechanism level
 
@@ -833,7 +833,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Stage 2    ████████████████████████████████████ (ongoing)    │
     │ Stage 3         ████████████████████████████ (ongoing)       │
     │ Stage 4            ████████████████████████████ (ongoing)    │
-    �� Stage 5                     ████████████████████ (ongoing)   │
+    │ Stage 5                     ████████████████████ (ongoing)   │
     │                                                              │
     │ KEY:                                                         │
     │   Month 1-2:  Stage 1 foundation + Stage 2 beginning        │
@@ -850,11 +850,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       (threshold change → once lowered, maintenance only)
     → Stage 2 chunks: grow steadily, no plateau
       (feeling library = effectively infinite domain)
-    �� Stage 3 chunks: grow with experience (situation-dependent)
+    → Stage 3 chunks: grow with experience (situation-dependent)
       (new situations = new patterns, ongoing)
     → Stage 4 chunks: grow with vocabulary + verification
       (language learning curve, then steady refinement)
-    �� Stage 5 chunks: slow growth, high value
+    → Stage 5 chunks: slow growth, high value
       (meta-chunks = few but transformative)
 
     → TOTAL FEELING LITERACY = emergent property of ALL 5 stages
@@ -879,7 +879,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     IF analytical/logical type:
       → Stage 1 is HARDEST (attention to body unfamiliar)
       → BUT Stage 4-5 come faster once 1-3 established
-      → 1A/1B check (Stage 5) = natural for analytical mind
+      → Domain-Checked/Self-Referencing verification (Stage 5) = natural for analytical mind
 
     IF trauma history:
       → Stage 1 WITH CARE (titrated, supported)
@@ -924,7 +924,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Chunk mechanism:
       → PFC holds topic loosely (minimal activation)
       → Topic activates related chunks → spreading activation (01b §2)
-      → Multiple chunks fire weakly → converge (H5)
+      → Multiple chunks fire weakly → converge (Multi-Weak-Signal-Convergence)
       → CONVERGENCE ZONE forms (01c §2.3)
       → Body integrates signals → insula + ACC + VMPFC
       → = "Felt sense" = PFC observing convergence zone
@@ -948,7 +948,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Handle = APPROXIMATE verbal/image chunk that resonates with
         convergence zone pattern
       → NOT exact — but close enough for further processing
-      → = F1 NT6 verbal-as-handle: label ≈ retrieval path, not truth
+      → = Label-As-Handle: label ≈ retrieval path, not truth
 
 
   STEP ④ RESONATING:
@@ -1059,8 +1059,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⚠️ LIMITATION OF FOCUSING ALONE:
     → Focusing trains INTERNAL feeling literacy
-    → Does NOT provide domain feedback (1A check)
-    → Without domain reality check → risk of 1B (self-referencing)
+    → Does NOT provide domain feedback (Domain-Checked verification)
+    → Without domain reality check → risk of Self-Referencing
     → = Focusing NEEDS complementary domain engagement
     → Best: Focusing for body access + domain practice for reality check
 ```
@@ -1168,7 +1168,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CHUNK MECHANISM:
     → Feeling chunk library = SMALL (compile-context damage)
-    → = F1 NT7 levels 3-4: compile under chronic stress/neglect
+    → = Direction-At-Compile levels 3-4: compile under chronic stress/neglect
     → Body signals exist BUT:
       → Threshold TOO HIGH (step ④: signals don't reach PFC)
       → Library TOO SMALL (step ⑤: no chunk match possible)
@@ -1209,7 +1209,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ① False positive (over-detection)
       ② Numbing (under-detection)
       ③ Mislabeling (wrong interpretation)
-      ④ Body-state direction locked (NT7)
+      ④ Body-state direction locked (Direction-At-Compile)
     → Training activates BODY → body activates TRAUMA CHUNKS
     → Trauma chunks have LARGE trigger surface (01b §4.3):
       many cues → fire trauma pattern → overwhelm or shutdown
@@ -1310,10 +1310,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Permission is the HARDEST step (identity-level change)
 ```
 
-### §5.5 — Failure Mode 5: 1B Trap (self-referencing disguised as literacy)
+### §5.5 — Failure Mode 5: Self-Referencing Trap (self-referencing disguised as literacy)
 
 ```
-⚠️ 1B TRAP — MOST DANGEROUS failure mode:
+⚠️ SELF-REFERENCING TRAP — MOST DANGEROUS failure mode:
 
   SYMPTOM:
     → Person BELIEVES they are highly literate
@@ -1324,32 +1324,32 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Produces confident, articulate, WRONG feeling reports
 
   CHUNK MECHANISM:
-    → 01c §3.1: 1A vs 1B selection pressure:
-      → 1A: chunks tested against domain reality → corrected → accurate
-      → 1B: chunks loop internally → feel smooth → but no reality check
-    → Training Stage 1-4 ALL work for both 1A and 1B:
+    → 01c §3.1: Domain-Checked vs Self-Referencing selection pressure:
+      → Domain-Checked: chunks tested against domain reality → corrected → accurate
+      → Self-Referencing: chunks loop internally → feel smooth → but no reality check
+    → Training Stage 1-4 ALL work for both Domain-Checked and Self-Referencing:
       → Both detect signals (Stage 1) ✓
       → Both discriminate (Stage 2) ✓
       → Both recognize patterns (Stage 3) ✓
       → Both label (Stage 4) ✓
-      → BUT: 1B patterns self-confirm, 1A patterns domain-confirm
-    → Stage 5 meta-feeling CAN catch this — IF person applies 1A/1B check
+      → BUT: Self-Referencing patterns self-confirm, Domain-Checked patterns domain-confirm
+    → Stage 5 meta-feeling CAN catch this — IF person applies Domain-Checked/Self-Referencing verification
     → Without Stage 5: person becomes CONFIDENTLY wrong
 
   WHY THIS IS MOST DANGEROUS:
     → Other failure modes: person KNOWS they can't feel well
-    → 1B trap: person THINKS they feel well → refuses correction
+    → Self-Referencing Trap: person THINKS they feel well → refuses correction
     → = Conspiracy theorist pattern: "logic confirms my feeling"
     → = Echo chamber pattern: social confirmation of wrong feeling
     → = Therapy-culture risk: "my feeling is valid" → without reality check
 
   INTERVENTION:
-    → Stage 5 (meta-feeling) emphasis: 1A/1B check practice
+    → Stage 5 (meta-feeling) emphasis: Domain-Checked/Self-Referencing verification practice
     → DOMAIN FEEDBACK mandatory: test feelings against reality
     → Question: "have I TESTED this feeling against domain evidence?"
     → If NO → feeling is UNVERIFIED → lower confidence
     → = Logic-Feeling.md: neither alone sufficient, both required
-    → Estimated: ongoing practice (never "done" — 1B is always possible)
+    → Estimated: ongoing practice (never "done" — Self-Referencing is always possible)
 ```
 
 ### §5.6 — Natural Discovery (khi không cần training)
@@ -1510,7 +1510,7 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
 🟡 CULTURE SHAPES FEELING LITERACY VIA CHUNK COMPILATION:
 
   MECHANISM:
-    → F1 NT6 moderate Whorfian: language shapes feeling experience
+    → Label-As-Handle moderate Whorfian: language shapes feeling experience
     → F3: social referencing + external install = cultural feeling norms
     → Compile context includes CULTURAL ENVIRONMENT
     → = Same mechanism, different inputs → different feeling libraries
@@ -1525,7 +1525,7 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
        → Danish "hygge" (cozy contentment in simple pleasures)
      → Each word = compiled chunk category in that culture
      → People WITHOUT word: CAN feel it, but harder to IDENTIFY + COMMUNICATE
-     → = NT6: label = handle for retrieval, not creation of feeling
+     → = Label-As-Handle: label = handle for retrieval, not creation of feeling
      → = Barrett 2017: emotional granularity varies across cultures 🟢
 
   ② EXPRESSION RULES:
@@ -1643,7 +1643,7 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
     of Gendlin observation — mechanism claim not tested)
   ⚠ AI era → feeling literacy critical (logical argument from logic/feeling
     split — prediction about future, not current measurement)
-  ⚠ 1B trap as "most dangerous" failure mode (logical from chunk model,
+  ⚠ Self-Referencing Trap as "most dangerous" failure mode (logical from chunk model,
     clinical observation supports, formal comparison lacking)
   ⚠ Cultural suppression as chunk-level filter (consistent with social
     learning research, specific mechanism = framework proposal)
@@ -1684,7 +1684,7 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
     → Status: 🟡 Gendlin research supports therapy outcome; 5-dimension
       measurement = new
 
-  P-LT3: Domain feedback prevents 1B trap
+  P-LT3: Domain feedback prevents Self-Referencing Trap
     → Prediction: People who train feeling literacy WITH domain reality
       checks → more accurate feelings than those training WITHOUT.
     → Test: Two groups: Focusing+domain vs Focusing-only. Compare
@@ -1760,7 +1760,7 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
 
   ✗ "Training guarantees accurate feelings"
     → Training IMPROVES accuracy — does not guarantee.
-    → 1B trap always possible (§5.5).
+    → Self-Referencing Trap always possible (§5.5).
     → Domain feedback always needed.
 
   ✗ "Natural discovery = better than training"
@@ -1790,12 +1790,12 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
 
   01b-Chunk-Activation-Dynamics  → §2 (probability), §3 (competitive re-linking)
   01c-Chunk-Discovery-Lifecycle  → §2.3 (convergence zone), §2.5 (clarify)
-  02-Feeling-Intuition-Gradient  → H5 (multi-weak-signal convergence)
+  02-Feeling-Intuition-Gradient  → Multi-Weak-Signal-Convergence
   01-Chunk-Connection-Logical    → §2.4 (Type 4 deliberate linking)
   04-Right-Wrong-Vague           → ACC detection (vague spectrum)
   05-Insight-Tacit-Upgrade       → §2 (self-model as chunk system)
-  F1 NT6                         → Verbal-as-handle
-  F1 NT7                         → Body-state-at-compile, 3 update paths
+  F1 Label-As-Handle              → Verbal-as-handle (Chunk.md §6)
+  F1 Direction-At-Compile         → Body-state direction, 3 update paths
   F3                             → External install, social referencing
 
 
@@ -1803,7 +1803,7 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
 
   Somatic-Articulation-Loop.md   → §2 (7-stage Somatic-Articulation-Loop mechanism), §4 (Gendlin),
                                     §5 (AI era catalyst)
-  Logic-Feeling.md               → Parallel processing, 1A vs 1B
+  Logic-Feeling.md               → Parallel processing, Domain-Checked vs Self-Referencing
   Logic-Feeling-Balance.md       → §6-§7 (cannot prescribe balance — parallel §5.6)
   Logic-Planning.md              → AI = logic amplifier, Label 3-tier
   Reward-Calibration.md          → §8.1③ schema [tiền = tốt nhất] (parallel §5.4 ý chí)
@@ -1852,7 +1852,7 @@ SCHEMA BARRIER — YẾU TỐ THỨ 4 (cross-cuts cả 3 điều kiện):
 >   §2: AI era → feeling = critical human skill (logic outsourced)
 >   §3: 5-stage training: Awareness → Discrimination → Pattern → Label → Meta
 >   §4: Gendlin Focusing = Somatic-Articulation-Loop applied to feeling, trains all 5 stages
->   §5: 5 failure modes: cognitive override, alexithymia, trauma, cultural, 1B trap
+>   §5: 5 failure modes: cognitive override, alexithymia, trauma, cultural, Self-Referencing Trap
 >   §6: Cultural variation + developmental windows
 >   §7: 13 🟢 + 8 🟡 + 3 🔴. 6 predictions. Honest limits.
 >

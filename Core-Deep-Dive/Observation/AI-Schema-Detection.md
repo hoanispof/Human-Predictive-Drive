@@ -1,11 +1,15 @@
 ---
 title: AI-Schema-Detection — AI Hỗ Trợ Nhận Diện Schema + Compile Type + Collective Context
-version: 2.0
+version: 2.1
 created: 2026-04-18
-updated: 2026-05-08 (v2.0 — compile type detection, collective chain, self-drill mode, AI trust guardrails)
-status: v2.0 — GATEWAY FILE (cửa ngõ tiếp cận framework qua ứng dụng thực hành)
+updated: 2026-05-30 (v2.1 — companion ref AI-Collective-Detection.md v1.0, collective ⑩-⑭)
+previous_updates:
+  - 2026-05-08 (v2.0 — compile type detection, collective chain, self-drill mode, AI trust guardrails)
+status: v2.1 — GATEWAY FILE (cửa ngõ tiếp cận framework qua ứng dụng thực hành)
 scope: |
   HOW AI có thể hỗ trợ nhận diện schema patterns + compile type + collective context.
+  INDIVIDUAL capabilities ①-⑨ (file này).
+  COLLECTIVE capabilities ⑩-⑭ → AI-Collective-Detection.md v1.0 (companion).
   3-layer model: AI detect → Chuyên gia feel-check → Client self-verify.
   2-layer simplified: AI detect → Client self-verify (cho mild cases).
   9 AI capabilities: ①-④⑥⑦ (giữ v1.1) + ⑤ compile type (upgrade) + ⑧⑨ (mới).
@@ -20,7 +24,7 @@ purpose: |
   GATEWAY ROLE: người đọc không cần hiểu toàn bộ framework trước — file này
   dẫn dắt từ ứng dụng thực tế → hiểu framework tự nhiên.
   v2.0 KEY UPGRADES (DỰA TRÊN Drill S1-S12 findings):
-    ⑤ Compile Type Detection (A/B/C) — detect SOURCE of pattern
+    ⑤ Compile Type Detection (Experience/Expertise/Trust) — detect SOURCE of pattern
     ⑧ Collective Chain Break Detection — individual vs collective
     ⑨ 3 Cấp Detection — tag mỗi finding: Cấp 1/2/3
     §7 Self-Drill Mode — user + AI, không cần expert cho mild cases
@@ -29,7 +33,7 @@ sources: |
   Valence-Propagation.md v1.4 §4 — clarification: Valence-Propagation chains = explanatory (Cấp 3)
   Valence-Propagation.md v1.4 §8 — fundamental limits + 3 nguyên tắc + mở cửa ứng dụng
   Schema.md v2.0 §2 (software analogy), §6.3 ("KHÔNG THỂ phân tích chính xác")
-  Compile-Taxonomy.md v1.0 §3 — 4 compile pathways (source for ⑤ upgrade)
+  Compile-Taxonomy.md v2.0 §3 — 4 compile pathways (source for ⑤ upgrade)
   Collective-Body.md v1.1 §5.2 — chain break (source for ⑧)
   Collective-Body.md v1.1 §8.4 — AI trust entity (source for §8 guardrails)
   Collective-Body.md v1.1 §1 — Model 3 cấp (source for ⑨)
@@ -247,7 +251,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │    Input: verbal data, behavioral patterns, (optional) bio   │
   │    Process: NLP, clustering, contradiction detection         │
   │    Output: schema map SƠ LƯỢC + hypotheses                  │
-  │         + compile type classification (A/B/C) ← v2.0        │
+  │         + compile type classification (Experience/Expertise/Trust) ← v2.0        │
   │         + collective context flag ← v2.0                     │
   │    Strength: NHANH, RỘNG, không bỏ sót pattern              │
   │    Weakness: KHÔNG CÓ BODY → KHÔNG feel-check               │
@@ -455,8 +459,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → NHƯNG: mỗi lần nhắc "bố" → ngôn ngữ shift sang defensive
     → → Flag: verbal forgiveness vs body-level resentment still active
 
-    → = Feeling.md v2.0 §2: Layer 7 (Explanation) = 20-70% accuracy
-    → = AI detect khi Layer 7 CONFLICT với Layer 1-5 behavioral output
+    → = Feeling.md v2.0 §2: Feel-Explanation (Explanation) = 20-70% accuracy
+    → = AI detect khi Feel-Explanation CONFLICT với Feel-RawSignals—Feel-Location behavioral output
 
     🟢 Discrepancy detection = computational linguistics capability
 
@@ -485,12 +489,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟡 Chain hypothesis from behavioral patterns = framework application
 
 
-  ⑤ ⭐ COMPILE TYPE DETECTION — A/B/C (v2.0 UPGRADE):
+  ⑤ ⭐ COMPILE TYPE DETECTION — Experience/Expertise/Trust (v2.0 UPGRADE):
 
     v1.1: "Valence Propagation Pattern Detection" — detect positive/negative/installed
     v2.0: UPGRADE → detect COMPILE SOURCE (WHY pattern tồn tại)
 
-    NGUYÊN LÝ (Compile-Taxonomy.md v1.0 §3):
+    NGUYÊN LÝ (Compile-Taxonomy.md v2.0 §3):
       Cùng output ("đi học toán") nhưng 4 COMPILE PATHWAYS khác nhau:
         ① Hardware Fit (Experience Compile — direct): body tự reward
         ② Trust + Moderate Fit (Trust+Experience Compile — compound): trust install + verify
@@ -549,12 +553,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         ④ → Address threat source, không fix "sự quan tâm tới toán"
 
     ⚠️ MIXED TYPE PHỔ BIẾN:
-      Phần lớn adult behavior = A × C overlap (Compile-Taxonomy.md §7.1)
+      Phần lớn adult behavior = Experience × Trust overlap (Compile-Taxonomy.md §7.1)
       VD: [ăn ngon → ấm] = Experience Compile, NHƯNG "ngon" = partially Trust Compile (cultural)
       → AI classify DOMINANT type, not absolute
       → Chuyên gia verify mix nào đang active
 
-    Source: Compile-Taxonomy.md v1.0 §3 (4 compile pathways, Drill §22A)
+    Source: Compile-Taxonomy.md v2.0 §3 (4 compile pathways, Drill §22A)
     🟡 Compile type detection = novel framework application
     🟢 Approach vs avoidance motivation: Elliot 2006
     🟢 Social proof: Cialdini 1984
@@ -796,6 +800,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟡 Multi-level analysis for therapy = framework contribution
 
 
+  ⑩-⑭ COLLECTIVE-LEVEL CAPABILITIES → AI-Collective-Detection.md v1.0
+
+    ⑧⑨ ở trên = collective BASICS (chain break + 3-cấp tagging).
+    Full collective detection (5 capabilities mới):
+      ⑩ Arc Shift + Scale Diagnosis (3 nguồn "expired" × 4-level scale)
+      ⑪ Coordination Node Assessment (node fail / authority schema / mismatch)
+      ⑫ Collective Schema Pressure Detection (compound + culture-aware)
+      ⑬ Gap Distribution × Collective Matching (observation tool)
+      ⑭ Collective-Level Verification (scale-dependent, 4 approaches)
+    → AI-Collective-Detection.md v1.0 for details.
+    → File NÀY (individual ①-⑨) + file ĐÓ (collective ⑩-⑭) = complete AI capability set.
+
+
   AI LAYER — GIỚI HẠN:
 
     ✗ AI KHÔNG có body → KHÔNG feel-check
@@ -858,8 +875,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   v2.0 — CHUYÊN GIA CŨNG CẦN BIẾT:
 
     COMPILE TYPE AWARENESS:
-      → Chuyên gia nhận AI compile type classification (A/B/C)
-      → Feel-check: "pattern NÀY feel như installed (C) hay direct (A)?"
+      → Chuyên gia nhận AI compile type classification (Experience/Expertise/Trust)
+      → Feel-check: "pattern NÀY feel như installed (Trust) hay direct (Experience)?"
       → Chuyên gia CÓ THỂ verify compile type QUA body simulation
         → Simulate "nếu tôi bị ép" → body feel KHÁC "nếu tôi thật sự thích"
       → = Chuyên gia ADD body-level verify mà AI KHÔNG THỂ
@@ -1068,7 +1085,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     v2.0 — AI THÊM:
 
-    → CLASSIFY COMPILE TYPE (A/B/C) cho mỗi pattern detected:
+    → CLASSIFY COMPILE TYPE (Experience/Expertise/Trust) cho mỗi pattern detected:
       "Im lặng trong họp" → compile type?
         + "sợ bị sếp mắng" → Experience Compile threat (④ pathway)
         + "mẹ luôn nói phải khiêm tốn" → Trust Compile install (② pathway)
@@ -1080,6 +1097,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         + AI check: ngành đang disrupt? Thất nghiệp tăng? Nhiều người cùng than?
         + Nếu CÓ collective context → flag: "possible collective chain break"
         + Nếu KHÔNG → likely individual schema → explore personal
+      → For full collective assessment (arc shift, node, pressure, gap distribution):
+        see AI-Collective-Detection.md v1.0 §7 (process integration)
 
     → TAG CẤP (⑨ — 3 Cấp Detection):
       Mỗi finding tagged: [Cấp 1], [Cấp 2], hoặc [Cấp 3]
@@ -1091,11 +1110,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Body vote: hypothesis nào feel coherent?
     → CHỌN 2-3 hypotheses most likely
     → Feel-check compile type classification:
-      "Pattern NÀY feel như installed (C) hay trải nghiệm thật (A)?"
+      "Pattern NÀY feel như installed (Trust) hay trải nghiệm thật (Experience)?"
 
   Output bước 2:
     → 2-3 schema chain hypotheses (ranked by plausibility)
-    → Compile type classification (A/B/C, verified by expert feel-check)
+    → Compile type classification (Experience/Expertise/Trust, verified by expert feel-check)
     → Collective vs individual flag
     → Chuyên gia đã feel-check (Layer 2 verified)
 
@@ -1277,10 +1296,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌──────────────────────────────────────────────────────────┐
     │ BƯỚC 1: AI DETECT + SUGGEST                             │
     │   AI track verbal patterns → cluster → hypothesis      │
-    │   AI classify compile type (A/B/C)                     │
+    │   AI classify compile type (Experience/Expertise/Trust)  │
     │   AI check collective context                          │
     │   AI output: "Có vẻ bạn có pattern [X]. Possible       │
-    │   compile source: [C/A]. Bạn thấy thế nào?"           │
+    │   compile source: [Trust/Experience]. Bạn thấy thế nào?"│
     │                                                        │
     │ BƯỚC 2: AI HỎI BODY-FOCUSED                            │
     │   AI: "Khi nghe điều đó, body bạn phản ứng thế nào?"  │
@@ -1451,7 +1470,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │   → Nếu body confirm sau → hypothesis likely RIGHT     │
     └──────────────────────────────────────────────────────────┘
 
-    = Body-Base.md v2.0 §6: domain feedback (Tier 1A) VẪN LÀ final arbiter
+    = Body-Base.md v2.0 §6: domain feedback (Tier Domain-Checked) VẪN LÀ final arbiter
     = Body check = CÙNG nguyên tắc check MỌI THỨ từ external
     = AI output = external input, KHÔNG phải internal truth
 
@@ -1520,7 +1539,7 @@ FRAMEWORK REASONING (🟡):
     → ⑦ AI khơi gợi schema ẩn: Somatic-Articulation-Loop §5 + Polanyi applied
 
   Capabilities (v2.0 new):
-    → ⑤ Compile type detection (A/B/C): Compile-Taxonomy.md §3 applied
+    → ⑤ Compile type detection (Experience/Expertise/Trust): Compile-Taxonomy.md §3 applied
       — CÓ THỂ detect dominant type từ verbal signals
       — NHƯNG mixed types phổ biến → classification = approximate
     → ⑧ Collective chain break detection: Collective-Body.md §5.2 applied
@@ -1573,7 +1592,7 @@ HYPOTHESIS (🔴):
       NHƯNG: verbal description itself = verbal modality filter.
 
     → Compile type detection ACCURACY:
-      AI classify A/B/C từ verbal signals — logical nhưng:
+      AI classify Experience/Expertise/Trust từ verbal signals — logical nhưng:
       Mixed types PHỔ BIẾN → dominant classification = APPROXIMATE.
       Body-verbal mismatch = key clue, NHƯNG text-only AI miss body cues.
       Chưa test: AI compile type classification vs expert classification accuracy.
@@ -1624,7 +1643,7 @@ CROSS-REFERENCES:
     → Valence-Propagation.md v1.4 §8 — "Navigate, not GPS" + mở cửa ứng dụng
     → Schema.md v2.0 §2 — software analogy (tính năng/hàm = schema/chunk)
     → Schema.md v2.0 §6.3 — "KHÔNG THỂ phân tích chính xác"
-    → Feeling.md v2.0 §2 — 7-layer fidelity gradient (Layer 7 = 20-70%)
+    → Feeling.md v2.0 §2 — 7-layer fidelity gradient (Feel-Explanation = 20-70%)
     → Feeling.md v2.0 §10 — Feeling Literacy 5-stage + AI era
     → Chunk.md v2.1 §2.3 — trust gate, 5 external install mechanisms
     → Chunk.md v2.1 §4 — activation dynamics, trigger surface, competitive re-linking
@@ -1640,8 +1659,8 @@ CROSS-REFERENCES:
     → Body-Base.md v2.0 §3 — Model 3+1 (Vô thức / PFC / Trust / Tools)
     → Body-Base.md v2.0 §6 — 2-tầng calibration (Darwinian + Hebbian), domain feedback = final arbiter
     → Body-Base.md v2.0 §7 — circuit breaker mechanism
-    → Compile-Taxonomy.md v1.0 §3 — 4 compile pathways (source for ⑤)
-    → Compile-Taxonomy.md v1.0 §7 — A×C interactions, chain break
+    → Compile-Taxonomy.md v2.0 §3 — 4 compile pathways (source for ⑤)
+    → Compile-Taxonomy.md v2.0 §7 — Experience×Trust interactions, chain break
     → Collective-Body.md v1.1 §1 — Model 3 cấp (source for ⑨)
     → Collective-Body.md v1.1 §5.2 — chain break (source for ⑧)
     → Collective-Body.md v1.1 §8.4 — AI trust entity (source for §8)
@@ -1652,7 +1671,12 @@ CROSS-REFERENCES:
   LIÊN QUAN:
     → Core-v7.8-Draft.md §3 — body-inputs (body-base targets)
     → Anchor-Schema.md — anchor sync point (schema detection includes anchor identification)
-    → Emergent-Patterns.md §5 — "Cho đi" pattern (example of hidden valence chain)
+    → Drill-Emergent-Pattern.md §5 — "Cho đi" pattern (example of hidden valence chain)
+
+  COMPANION (v2.1 NEW):
+    → AI-Collective-Detection.md v1.0 — Collective-level capabilities ⑩-⑭
+      File NÀY = individual (①-⑨). File ĐÓ = collective (⑩-⑭).
+      Continuous capability system: ①-⑭.
 
   APPLICATION (2026-05-11 NEW):
     → Ask-AI.md v2.0 — GENERAL AI interaction gateway (any question about self/others)
@@ -1666,13 +1690,20 @@ CROSS-REFERENCES:
 
 STATUS:
 
+  v2.1 — 2026-05-30 — Companion file AI-Collective-Detection.md v1.0
+    → Added: COMPANION section in cross-references
+    → Added: ⑩-⑭ forward pointer block after ⑨ in §3
+    → Added: Collective assessment ref in §6 Bước 2
+    → YAML: version 2.0→2.1, scope updated with companion ref
+    → AI-Collective-Detection.md v1.0 = collective capabilities ⑩-⑭
+
   v2.0 — 2026-05-08 — Major upgrade based on Drill S1-S12 findings
 
   Changes v1.1 → v2.0:
     → §0: Valence-Propagation §4 clarification (Cấp 1 detect + Cấp 3 analyze)
     → §1: +⑨ Valence-Propagation chains = explanatory, +⑩ AI output = Trust Compile install
     → §2: +2-layer simplified mode (AI + Self, cho mild cases)
-    → §3 ⑤: REWRITE — "Valence Propagation Detection" → "Compile Type Detection (A/B/C)"
+    → §3 ⑤: REWRITE — "Valence Propagation Detection" → "Compile Type Detection (Experience/Expertise/Trust)"
     → §3 ⑧: NEW — Collective Chain Break Detection (individual vs collective)
     → §3 ⑨: NEW — 3 Cấp Detection (AI tag mỗi finding Cấp 1/2/3)
     → §4: Reference Agent-Mechanism.md + compile type + collective awareness
@@ -1691,7 +1722,7 @@ STATUS:
     §2  3-Layer Model + 2-Layer Simplified (AI + Self for mild cases)
     §3  AI Layer: 9 capabilities:
         ① verbal pattern tracking, ② schema clustering, ③ contradiction detection,
-        ④ chain hypothesis, ⑤ ⭐compile type detection (A/B/C) — REWRITE,
+        ④ chain hypothesis, ⑤ ⭐compile type detection (Experience/Expertise/Trust) — REWRITE,
         ⑥ ⭐chunk depth inference, ⑦ ⭐AI khơi gợi schema ẩn,
         ⑧ ⭐collective chain break detection — NEW,
         ⑨ ⭐3 cấp detection tagging — NEW
@@ -1712,7 +1743,7 @@ STATUS:
 
   Sources:
     v1.1 base + Drill S1-S12 findings (70 insights + 22 collective Qs)
-    Compile-Taxonomy.md v1.0, Collective-Body.md v1.1, Body-Base.md v2.0
+    Compile-Taxonomy.md v2.0, Collective-Body.md v1.1, Body-Base.md v2.0
     Valence-Propagation v1.4, PFC-Function.md v1.1, Feeling.md v2.0
     Mỗi thay đổi DỰA TRÊN drill findings, KHÔNG suy đoán.
 ```

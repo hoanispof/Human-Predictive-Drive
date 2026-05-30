@@ -176,6 +176,7 @@ COMMUNICATION MODALITY — POWERFUL DÙ KHÔNG PHẢI "REASONER":
     Pattern listening: nghe PATTERN → NGANG (rhythm, melody across contexts)
   Cross-domain: nhẹ (pattern match qua rhythm)
   Ưu: liên tục (tai luôn mở), emotional power mạnh (nhạc → body respond)
+  → Deep dive 6 unique hardware properties: Auditory-Hardware.md
 
 ③ SOMATIC — Cảm nhận cơ thể
   Vùng não: Insula (interoception) + Somatosensory + body-wide receptors
@@ -326,7 +327,7 @@ CHUNK DEPTH × FRAMEWORK DYNAMICS:
     → Body-confirmed chunks = "explicit thật"
 
   LABEL ≠ MODALITY THỨ 6:
-    🟡 Label = retrieval path, NOT modality (Chunk.md v2.0 NT6)
+    🟡 Label = retrieval path, NOT modality (Chunk.md §6 Label-As-Handle)
     Label "chó" = INDEX tới multi-modal chunk {visual+auditory+somatic+...}
     Label KHÔNG chứa experience → chứa REFERENCE tới experience
     → WM compress: 1 label = 1 slot → hold NHIỀU chunks hơn raw experience
@@ -690,7 +691,7 @@ CORE ARCHITECTURE
 
 → Chunk.md v2.0
    §2: 5 compile mechanisms (multi-modal = 1 trong 5)
-   §8.4: Label ≠ modality (NT6)
+   §8.4: Label ≠ modality (Label-As-Handle)
    Chunk depth = modality count
 
 → Neural-Architecture.md
@@ -725,7 +726,7 @@ CLARIFICATION
 
 → Prediction-Error-Is-Not-Reward.md
    Prediction delta = attention signal → fires across modalities
-   Reward = prediction-delta + coherence + H10 preconditions (opioid)
+   Reward = prediction-delta + coherence + Body-Feedback-Precondition preconditions (opioid)
 
 ═══════════════════════════════════════════════════════
 EDUCATION + DEVELOPMENT

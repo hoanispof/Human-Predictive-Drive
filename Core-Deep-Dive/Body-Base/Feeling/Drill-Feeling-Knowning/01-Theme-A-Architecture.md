@@ -57,7 +57,7 @@ confidence_target: HIGH (framework internally consistent + research backing)
 Framework có **2 tiers of definition** đang cùng tồn tại:
 
 **Tier 1** ([Feeling.md](../Feeling.md) §1.1, DRAFT v1.0, 2026-04-13):
-> "FEELING = signal phản hồi đã được INTEGRATED về **state của body systems** (L0-L3 body-base + agent input + mirror + schema + imagine-final + valence + cognitive prediction) → VERBALIZABLE ở PFC level."
+> "FEELING = signal phản hồi đã được INTEGRATED về **state của body systems** (body-base (L0+L1) + agent input + mirror + schema + imagine-final + valence + cognitive prediction) → VERBALIZABLE ở PFC level."
 
 **Tier 2** ([Feel-Development.md](../Feel-Development.md) §1 OUTLINE, 2026-04-14):
 > "Feeling = **mọi thứ PFC quan sát được từ body-base hoặc vô thức**, có thể verbalize hoặc chưa thể định hình rõ. Gọi chung là feeling vì không phải cái gì cũng verbalize được."
@@ -108,7 +108,7 @@ Feel-Development outline identifies 6 types of feelings that don't fit purely bo
 **Example 1 — Metacognitive "feeling of knowing"**:
 - Example from Feel-Example-Draft E78: "Tôi biết bài toán này giải được"
 - Source: memory retrieval + cognitive chunks
-- Not body interoception — not L0/L1/L2/L3 in traditional sense
+- Not body interoception — not body-base substrate in traditional sense
 - But IS a real feeling PFC observes
 
 **Example 2 — Cognitive confidence**:
@@ -160,7 +160,7 @@ Feel-Development outline identifies 6 types of feelings that don't fit purely bo
 │   │ Body     │ │ Compiled │ │ Predic-  │ │ Simulator    │    │
 │   │ intero-  │ │ schemas  │ │ tive     │ │ (Pattern     │    │
 │   │ ception  │ │ fire     │ │ process. │ │  Resonance)  │    │
-│   │ (L0-L3)  │ │          │ │          │ │              │    │
+│   │(body-base)│ │          │ │          │ │              │    │
 │   └──────────┘ └──────────┘ └──────────┘ └──────────────┘    │
 │                                                                │
 │   ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────────┐    │
@@ -178,12 +178,12 @@ Feel-Development outline identifies 6 types of feelings that don't fit purely bo
 │                      ↓                                         │
 │                                                                │
 │                  PFC OBSERVATION INTERFACE                     │
-│                  (Layer 3-4 in 7-layer model)                  │
+│                  (Feel-Consciousific.–Feel-Observation in 7-layer model) │
 │                                                                │
 │                      ↓                                         │
 │                                                                │
 │                  PFC CHUNK-BASED LABELING                      │
-│                  (Layer 5-7 — lossy, error-prone)              │
+│                  (Feel-Location–Feel-Explanation — lossy, error-prone) │
 │                                                                │
 │                      ↓                                         │
 │                                                                │
@@ -200,7 +200,7 @@ Feel-Development outline identifies 6 types of feelings that don't fit purely bo
 - All sources integrated at upstream hub (insula + ACC + VMPFC)
 
 **Claim 2**: **PFC has NO direct access to raw signals**.
-- PFC only sees integrated middle-ground (Layer 3-4 in 7-layer model)
+- PFC only sees integrated middle-ground (Feel-Consciousification–Feel-Observation in 7-layer model)
 - Integration happens UPSTREAM
 - This preserves body-first temporal invariant
 
@@ -222,7 +222,7 @@ Feel-Development.md §2 explicitly lists what PFC does and doesn't do:
 
 **What PFC DOES**:
 - **Observe** (read integrated upstream signals)
-- **Label** (via chunks — error-prone at Layer 6-7)
+- **Label** (via chunks — error-prone at Feel-Labeling–Feel-Explanation)
 - **Integrate** (combine multiple channel reads)
 - **Plan** (strategic reasoning using chunks)
 - **Report** (verbalize if chunks support)
@@ -248,9 +248,9 @@ Feel-Development.md §2 explicitly lists what PFC does and doesn't do:
 - ~5% of decisions: compiled insufficient → PFC engages (new situations, conflicts, long-term decisions)
 
 **→ Answer Part 1 of user's question**: PFC does "quan sát vô thức rồi lựa chọn" — **framework explicitly confirms**. But PFC does more than just observe and choose:
-- Observe (Layer 3-4 integration)
-- Label via chunks (Layer 6, error-prone)
-- Explain via narrative (Layer 7, confabulation risk)
+- Observe (Feel-Consciousification–Feel-Observation integration)
+- Label via chunks (Feel-Labeling, error-prone)
+- Explain via narrative (Feel-Explanation, confabulation risk)
 - Choose between competing (executive)
 - Direct attention (top-down bias)
 
@@ -272,8 +272,8 @@ User asks: **Is there a top-down "query mechanism" where PFC asks unconscious to
 
 **BUT**: Framework hasn't explicitly modeled **"PFC query → wait for response → chain"** as a mechanism.
 
-**Closest framework concept — "Attention allocation"** (Feeling.md §2.5 Layer 4):
-> "Layer 4 OBSERVATION requires PFC allocation (attention budget)."
+**Closest framework concept — "Attention allocation"** (Feeling.md §2.5 Feel-Observation):
+> "Feel-Observation OBSERVATION requires PFC allocation (attention budget)."
 
 **And Imagine-Final §1.5 BACKGROUND phase**:
 > "'Cố nghĩ' KÉM HƠN 'để nó tự thấm'. Phần lớn sự 'tiến hóa' của Imagine-Final xảy ra Ở PHASE 3 (background) — KHÔNG khi PFC actively work."
@@ -300,21 +300,21 @@ User describes spectrum: "từ PFC detect body-base cơ bản (đói, đau rõ r
 
 **Framework's decomposition of this spectrum**:
 
-#### §2.7.1 — Layer 3 Clarity Dimension (from Feeling.md §2)
+#### §2.7.1 — Feel-Consciousification Clarity Dimension (from Feeling.md §2)
 
 The 7-layer structure applies to ALL feeling sources, not just body interoception:
 
 | Layer | Clarity | Example clear signal | Example fuzzy signal |
 |---|---|---|---|
-| Layer 1 Raw | 100% body truth | Gastric signals | Schema partial fire |
-| Layer 2 Integration | 95% | Insula integration | Multi-schema integration |
-| Layer 3 Noticeable | 90% | "Đói rõ" | "Cảm thấy có gì đó..." |
-| Layer 4 Observe | 85% | "Tôi đang đói" | "Tôi đang feel gì đó" |
-| Layer 5 Locate | 70-90% | "Đói ở bụng" | "Ở chest nhưng mờ" |
-| Layer 6 Label | 40-80% | "Đói" | "Uneasy" |
-| Layer 7 Explain | 20-70% | "Vì chưa ăn" | "Vì... không biết" |
+| Feel-RawSignals | 100% body truth | Gastric signals | Schema partial fire |
+| Feel-Integration | 95% | Insula integration | Multi-schema integration |
+| Feel-Consciousification | 90% | "Đói rõ" | "Cảm thấy có gì đó..." |
+| Feel-Observation | 85% | "Tôi đang đói" | "Tôi đang feel gì đó" |
+| Feel-Location | 70-90% | "Đói ở bụng" | "Ở chest nhưng mờ" |
+| Feel-Labeling | 40-80% | "Đói" | "Uneasy" |
+| Feel-Explanation | 20-70% | "Vì chưa ăn" | "Vì... không biết" |
 
-**Clear signals (đói, đau rõ)** reach Layer 5-6 reliably. Fuzzy signals stay at Layer 3-4.
+**Clear signals (đói, đau rõ)** reach Feel-Location–Feel-Labeling reliably. Fuzzy signals stay at Feel-Consciousification–Feel-Observation.
 
 **This is NOT two different mechanisms** — it's the **same observation interface** applied to signals of different strength/source.
 
@@ -324,26 +324,26 @@ From Feeling-Sources.md §0-§10, 10 channels produce feelings. They differ in:
 
 - **Source strength**: L1 physiological (high, clear) vs imagine-final preview (low, fuzzy)
 - **Temporal stability**: L1 (clear over time) vs cognitive prediction (flickering)
-- **Compilation depth**: L3 meaning (deep compile) vs novel cross-domain (no compile yet)
+- **Compilation depth**: meaning (evaluative, deep compile) vs novel cross-domain (no compile yet)
 
 **"Clear đói rõ"**:
 - Source: L1 interoception (gastric, ghrelin signals)
 - Integration: clear — single-source dominant
-- Layer 3 fidelity: high
+- Feel-Consciousification fidelity: high
 - PFC labels easily: "đói"
 
 **"Fuzzy imagine-final preview"**:
 - Source: simulation of future state
 - Integration: weak — preview is diluted version of "real" body response
-- Layer 3 fidelity: lower
+- Feel-Consciousification fidelity: lower
 - PFC labels with uncertainty: "cảm thấy kế hoạch này sẽ work... chắc?"
 
 **Same mechanism, different signal strength**. Framework handles both via same PFC observation interface.
 
-#### §2.7.3 — Why "Fuzzy" Feels Different (Layer 3 felt sense)
+#### §2.7.3 — Why "Fuzzy" Feels Different (Feel-Consciousification felt sense)
 
 **Gendlin's felt sense** (Feeling.md §2.4):
-> "Layer 3 là điểm body đã compute XONG — nhưng PFC CHƯA label gì cả. 'Có gì đó', 'cảm thấy sao sao ấy', 'không biết nhưng cảm thấy...' = TRUTH đã sẵn sàng. PFC chưa có từ."
+> "Feel-Consciousification là điểm body đã compute XONG — nhưng PFC CHƯA label gì cả. 'Có gì đó', 'cảm thấy sao sao ấy', 'không biết nhưng cảm thấy...' = TRUTH đã sẵn sàng. PFC chưa có từ."
 
 **Why some feelings feel "fuzzy"**:
 1. **Source is upstream integration** (not single raw signal) → no single word maps
@@ -355,10 +355,10 @@ From Feeling-Sources.md §0-§10, 10 channels produce feelings. They differ in:
 > "Q3 Logic-Feeling flow partially resolved: NOT Model A (PFC directly senses raw body), NOT Model B (PFC pure labels from outside), IS: **PFC reads integrated middle-ground signals, labels via chunks**."
 
 **→ Fuzzy ≠ another mechanism**. Fuzzy = same PFC observation interface seeing a signal that:
-- Is integrated (Layer 2-3) but
-- Has no compiled Layer 6 label yet
+- Is integrated (Feel-Integration–Feel-Consciousification) but
+- Has no compiled Feel-Labeling label yet
 
-**Training (meditation, Focusing)** = learning to trust Layer 3-4 without forcing premature Layer 6 labels.
+**Training (meditation, Focusing)** = learning to trust Feel-Consciousification–Feel-Observation without forcing premature Feel-Labeling labels.
 
 ### §2.8 — "Hay là cơ chế xử lý khác nữa?" — User's third question
 
@@ -460,7 +460,7 @@ Theme A commits to the following architecture:
 → **Partial YES**. PFC can set attention + anchor. Chain formation itself happens in BACKGROUND phase (DMN, REM consolidation, spreading activation). PFC reloads later. Not "PFC waits actively" — more like "PFC sets direction, releases, reloads".
 
 **Q4: "Từ PFC detect body-base cơ bản tới PFC detect qua lớp imagine mờ mờ — cùng cơ chế hay khác?"**
-→ **CÙNG cơ chế**, khác signal strength + source. Clear signals (đói) reach Layer 5-6 easily. Fuzzy signals (felt sense) stay at Layer 3-4. Same PFC observation interface, different fidelity.
+→ **CÙNG cơ chế**, khác signal strength + source. Clear signals (đói) reach Feel-Location–Feel-Labeling easily. Fuzzy signals (felt sense) stay at Feel-Consciousification–Feel-Observation. Same PFC observation interface, different fidelity.
 
 **Q5: "Hay là cơ chế xử lý khác nữa nhỉ?"**
 → **Không có secret third mechanism**. Framework has: ONE observation interface + bidirectional flow + many sources + potential deeper unification via predictive processing (not committed yet).
@@ -494,19 +494,19 @@ Theme A commits to the following architecture:
 Theme D test cases (Einstein, violation-of-expectation, partner behavior) will use Theme A architecture:
 - **"Cảm thấy đúng/sai"** = PFC observes pattern match signal from integrated unconscious processing
 - Source can be body (L1 tension), cognitive (pattern recognition via ACC error detection), simulation (imagine-final preview), or combination
-- **Einstein case**: Imagine-final simulation of riding light beam → body simulates pressure/movement → contradiction with Newton schema → wrongness feeling at Layer 3-4 → cognitive/predictive channel output
-- **Child violation-of-expectation**: body observes object violating physical schema → Layer 3 "có gì đó không đúng" → Spelke Core Knowledge Object system failure → infant surprise
-- **Partner unusual behavior**: Resonance simulator fails to match → Layer 3 mismatch → "cảm thấy có gì đó khác"
+- **Einstein case**: Imagine-final simulation of riding light beam → body simulates pressure/movement → contradiction with Newton schema → wrongness feeling at Feel-Consciousification–Feel-Observation → cognitive/predictive channel output
+- **Child violation-of-expectation**: body observes object violating physical schema → Feel-Consciousification "có gì đó không đúng" → Spelke Core Knowledge Object system failure → infant surprise
+- **Partner unusual behavior**: Resonance simulator fails to match → Feel-Consciousification mismatch → "cảm thấy có gì đó khác"
 
 All three cases run through **same PFC observation interface**, different sources.
 
 ### §4.2 — Theme B (Verbal × Chain × Plan)
 
 Theme A's architecture informs Theme B:
-- **Layer 6 labeling** requires verbal chunks (cultural vocabulary, Barrett granularity)
-- **Layer 7 explanation** requires narrative chunks (causal stories, SVO grammar)
+- **Feel-Labeling** requires verbal chunks (cultural vocabulary, Barrett granularity)
+- **Feel-Explanation** requires narrative chunks (causal stories, SVO grammar)
 - **Chain formation** in BACKGROUND Phase 3, not active PFC work
-- **Verbal dominance → logic-biased** (Logic-Feeling §6): over-rely on Layer 6-7, miss Layer 3-4
+- **Verbal dominance → logic-biased** (Logic-Feeling §6): over-rely on Feel-Labeling–Feel-Explanation, miss Feel-Consciousification–Feel-Observation
 
 User's hypothesis "chunks need anchors for chaining" aligns partially with framework: anchoring helps PFC reload + share, but chains form in background via consolidation.
 

@@ -728,7 +728,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Approach-tagged → body LIKES using → network grows → coherence
   Chunks via nguồn ④ only (external):
     → Avoidance-tagged → body AVOIDS → network stagnant
-    → = "Giỏi nhiều thứ nhưng trống rỗng" (Status.md §10.1)
+    → = "Giỏi nhiều thứ nhưng emptiness" (Status.md §10.1)
 
   → Autonomy in chunk building = PREREQUISITE for meaning
 ```
@@ -762,16 +762,16 @@ ENTITY-ACCESS × AUTONOMY (Entity-Access.md v1.2):
   → Entity-Access-Calibration.md v1.0: self-regulation = autonomy AT access level
   → = Autonomy cao = tự calibrate. Autonomy thấp = bị calibrate bởi người khác.
 
-SIMULATION ENGINE × AUTONOMY (Simulation-Engine.md v1.0):
+SIMULATION-ENGINE × AUTONOMY (Simulation-Engine.md v1.0):
   → Autonomous simulation = PFC simulate FREELY (not constrained by threat):
-    → High autonomy: Simulation Engine drafts MANY scenarios → body picks best
-    → Low autonomy: Simulation Engine LOCKED on threat scenarios → no exploration
-    → = Autonomy UNLOCKS Simulation Engine's full capacity
-  → vmPFC controllability (§2) = Simulation Engine TRUST that drafts lead to real outcomes
-  → Bị ép = Simulation Engine drafts OVERRIDDEN → 2-layer dissonance (§5)
+    → High autonomy: Simulation-Engine drafts MANY scenarios → body picks best
+    → Low autonomy: Simulation-Engine LOCKED on threat scenarios → no exploration
+    → = Autonomy UNLOCKS Simulation-Engine's full capacity
+  → vmPFC controllability (§2) = Simulation-Engine TRUST that drafts lead to real outcomes
+  → Bị ép = Simulation-Engine drafts OVERRIDDEN → 2-layer dissonance (§5)
 
 🟡 Entity-Access × autonomy = framework convergence (access gradient control)
-🟡 Simulation Engine × autonomy = framework application (simulation freedom)
+🟡 Simulation-Engine × autonomy = framework application (simulation freedom)
 ```
 
 ---

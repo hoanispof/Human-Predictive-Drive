@@ -2,7 +2,7 @@
 title: Knowledge Flow — Dòng Chảy Từ Internal Tới External
 version: 1.0
 created: 2026-03-29 (DRAFT)
-refined: 2026-05-23 (v1.0 — YAML standardized. Concept Cascade: +Simulation-Engine, +PFC Budget, +Hardware Subsidy. Cross-refs updated)
+refined: 2026-05-23 (v1.0 — YAML standardized. Concept Cascade: +Simulation-Engine, +PFC Budget, +Hardware-Subsidy. Cross-refs updated)
 status: v1.0 REFERENCE FILE
 scope: |
   PROCESS FILE: dòng chảy kiến thức/output từ bên trong 1 người → ra ngoài →
@@ -13,9 +13,9 @@ parent: Core-Deep-Dive/Domain/
 dependencies:
   - Domain.md v1.0 — domain = thực tế bên ngoài
   - Chunk.md v2.3 — chunk substrate, compilation
-  - PFC/Simulation-Engine.md v1.0 — PFC draft process = simulation engine
+  - PFC/Simulation-Engine.md v1.0 — PFC draft process = Simulation-Engine
   - Gap-Distribution-Profile.md v1.1 — PFC budget limits arc parallelism
-  - Valence-Propagation.md v3.0 — hardware subsidy, compression mechanism
+  - Valence-Propagation.md v3.0 — hardware-subsidy, compression mechanism
   - Body-Base/Body-Base.md v3.2 — 3-Layer Evolution (§6)
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -547,8 +547,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Body-listening: body = interface DUY NHẤT với domain
     → Connection: oxytocin cần NGƯỜI THẬT
     → Body experience: ăn, ôm, exercise = body trực tiếp
-    → = L1 + L2 body-base schemas = VĨNH VIỄN (body KHÔNG đổi)
-    → = L3 + Imagine schemas = SHIFT liên tục (tools thay đổi)
+    → = L0+L1 body-base schemas = VĨNH VIỄN (body KHÔNG đổi)
+    → = Evaluative + Imagine schemas = SHIFT liên tục (tools thay đổi)
 ```
 
 ---
@@ -617,9 +617,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → TẤT CẢ mô tả CÙNG 1 pattern: mờ → dissonance → verify → smooth → mở rộng
   → KHÁC scale: cá nhân (tuần→năm) → nhóm (năm→thập kỷ) → nhân loại (thế kỷ→thiên niên kỷ)
   → V8.0 có thể gom thành 1 section "Fractal Pattern Across Scales"
-→ Simulation-Engine.md v1.0: PFC draft = simulation engine (§1, §5)
+→ Simulation-Engine.md v1.0: PFC draft = Simulation-Engine (§1, §5)
 → Gap-Distribution-Profile.md v1.1: PFC budget limits arc parallelism
-→ Valence-Propagation.md v3.0: hardware subsidy, compression
+→ Valence-Propagation.md v3.0: hardware-subsidy, compression
 → Body-Base.md v3.2: 3-Layer Evolution (Hardware → Compiled → Cultural)
 ```
 
@@ -628,15 +628,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## 11. Knowledge-Flow × New Concepts (28-session Drill Propagation)
 
 ```
-SIMULATION ENGINE × KNOWLEDGE-FLOW (Simulation-Engine.md v1.0):
-  → §1 PFC draft process = Simulation Engine running:
-    Internal (xưởng) = Simulation Engine drafting MANY scenarios
-    Output (bản thiết kế) = Simulation Engine's BEST draft, externalized
-    External Chunk = someone else's Simulation Engine output, compressed
-  → §5 (dissonance → output → smooth) = Simulation Engine cycle:
-    Dissonance = Simulation Engine detect MISMATCH
-    Draft = Simulation Engine try NEW combination
-    Smooth = Simulation Engine draft ACCEPTED by body
+SIMULATION-ENGINE × KNOWLEDGE-FLOW (Simulation-Engine.md v1.0):
+  → §1 PFC draft process = Simulation-Engine running:
+    Internal (xưởng) = Simulation-Engine drafting MANY scenarios
+    Output (bản thiết kế) = Simulation-Engine's BEST draft, externalized
+    External Chunk = someone else's Simulation-Engine output, compressed
+  → §5 (dissonance → output → smooth) = Simulation-Engine cycle:
+    Dissonance = Simulation-Engine detect MISMATCH
+    Draft = Simulation-Engine try NEW combination
+    Smooth = Simulation-Engine draft ACCEPTED by body
 
 PFC BUDGET × KNOWLEDGE-FLOW (Gap-Distribution-Profile.md v1.1):
   → §6 Arc Wave = PFC budget RHYTHM:
@@ -648,18 +648,18 @@ PFC BUDGET × KNOWLEDGE-FLOW (Gap-Distribution-Profile.md v1.1):
     → = Flow ACCELERATES as compression improves (more output per PFC budget)
   → Bandwidth limits parallelism: PFC ~4±1 → can't map MANY arcs simultaneously
 
-HARDWARE SUBSIDY × COMPRESSION (Valence-Propagation v3.0 §5):
+HARDWARE-SUBSIDY × COMPRESSION (Entity-Valence-Dynamics.md v1.0 §5):
   → §2 TẠI SAO compression works:
-    Hardware subsidy = body does heavy lifting "miễn phí"
+    Hardware-subsidy = body does heavy lifting "miễn phí"
     Compiled chunks = hardware-level processing (cost ≈ 0)
     → Receiver ONLY needs PFC for NOVEL parts (gap between compiled and new)
-    → = Hardware subsidy = ENGINE of compression efficiency
-  → §7 Baseline Shift = hardware subsidy ACCUMULATES across generations:
+    → = Hardware-subsidy = ENGINE of compression efficiency
+  → §7 Baseline Shift = hardware-subsidy ACCUMULATES across generations:
     Generation N's output = Generation N+1's hardware-level baseline
 
-🟡 Simulation Engine × knowledge-flow = framework formalization (PFC draft = Simulation-Engine)
+🟡 Simulation-Engine × knowledge-flow = framework formalization (PFC draft = Simulation-Engine)
 🟡 PFC Budget × knowledge-flow = framework application (arc wave rhythm)
-🟡 Hardware Subsidy × compression = framework convergence (why compression works)
+🟡 Hardware-Subsidy × compression = framework convergence (why compression works)
 ```
 
 ---

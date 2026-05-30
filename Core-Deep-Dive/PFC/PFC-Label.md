@@ -1,13 +1,14 @@
 ---
 title: PFC-Label Convention — Vocabulary Reference
-version: 1.0
+version: 1.1
 created: 2026-05-22
-status: REFERENCE v1.0
+updated: 2026-05-25 (v1.1 — §4 +PFC Operations × dissonance type table, Dissonance-Signal-Architecture v1.0 integration)
+status: REFERENCE v1.1
 scope: |
   VOCABULARY REFERENCE: Quy ước label cho toàn bộ PFC-related concepts.
   Formalize 3-tier label system: General → Direction → Specific.
   13 domain: Roles, Processing, Operations, Cost, Quality, Regions, Hardware,
-  Simulation Engine, Cognitive Ops, Failure Modes, Observer/Mechanism, Deprecated.
+  Simulation-Engine, Cognitive Ops, Failure Modes, Observer/Mechanism, Deprecated.
   KHÔNG giải thích mechanism (source files làm việc đó).
   CHỈ formalize: LABEL NÀO, NGHĨA GÌ, KHI NÀO DÙNG.
 purpose: |
@@ -27,8 +28,9 @@ dependencies:
   - PFC-Function.md v1.2 — 24 functions, 5 categories (companion)
   - PFC-Hardware.md v1.1 — COMT, DRD4, NE, capacity/quality
   - PFC-Hold-Dimensions.md — ~4±1 slots, interference limit
-  - Body-Feedback-Label.md v2.0 — §8 Compiled/Fresh, §9C 3-cost (companion)
-  - Ask-AI.md v3.1 — Dual Check: body=QC, domain=final arbiter
+  - Body-Feedback-Label.md v2.1 — §8 Compiled/Fresh, §9C 3-cost (companion)
+  - Dissonance-Signal-Architecture.md v1.0 — §7.2 PFC Operations × dissonance type
+  - Ask-AI.md v3.1 — Dual Check: body=quality controller, domain=final arbiter
   - Autonomy-Hardware.md v1.1 — vmPFC/DRN, controllability
   - Cortisol-Baseline.md v2.1 — cortisol × PFC damage, NE α1
 sources:
@@ -65,7 +67,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §6 — COMPILED QUALITY LABELS (genuine / schema / threat)
 - §7 — PFC REGION LABELS (anatomy mapping)
 - §8 — PFC HARDWARE LABELS (individual differences)
-- §9 — SIMULATION ENGINE LABELS (1 engine, 3 components)
+- §9 — SIMULATION-ENGINE LABELS (1 engine, 3 components)
 - §10 — PFC COGNITIVE LABELS (spotlight, narrative, labeling, check)
 - §11 — PFC FAILURE MODES (5 patterns)
 - §12 — OBSERVER vs MECHANISM (Logic/Feeling vs Compiled/Fresh)
@@ -195,6 +197,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ ① PFC = Observer        │ PFC QUAN SÁT body-feedback output.       │
   │                         │ Reactive, KHÔNG generative.              │
   │                         │ ~5% decisions, 95% body tự xử lý.       │
+  │                         │ ⚠️ % = calibration anchor.               │
   │                         │ "Đọc output, không tạo output."          │
   │                         │ Dùng: khi nhấn mạnh PFC KHÔNG điều      │
   │                         │ khiển mà chỉ quan sát.                   │
@@ -337,6 +340,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ③ Suppress only   — Block mà không thay thế. Cost: ②. TỆ NHẤT.
                          Wegner ironic process: rebound.
     ④ Neither         — Compiled chạy tự động. Cost: ≈ 0. Không PFC.
+
+  PFC OPERATIONS × DISSONANCE TYPE (Dissonance-Signal-Architecture.md v1.0 §7.2):
+
+    ┌──────────────────┬──────────────────────┬──────────────────────┐
+    │                  │ Evaluative Dissonance│ Direct-State Disson. │
+    ├──────────────────┼──────────────────────┼──────────────────────┤
+    │ HOLD (reframe)   │ CAN compile mới     │ MINIMAL effect       │
+    │                  │ → resolve source      │ (pain stays pain)    │
+    │ SUPPRESS (block) │ Partial, temporary   │ NEAR ZERO            │
+    │                  │ → rebound risk        │ (hardware overrides)  │
+    │ Placebo effect   │ N/A                  │ Evaluative modulates │
+    │                  │                      │ Direct-State (proof)  │
+    └──────────────────┴──────────────────────┴──────────────────────┘
+    → PFC MẠNH hơn với Evaluative Dissonance, YẾU với Direct-State.
+    → Parallel: PFC Hold/Suppress × Reward (Dissonance-Signal-Architecture §7.2 = full table).
 
   (PFC-Operations.md §2-§4 = SOURCE mechanism chi tiết.)
 ```
@@ -485,7 +503,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                         │ (Autonomy-Hardware.md v1.1)              │
   │                         │                                          │
   │ mPFC                    │ Self-model. Social cognition. DMN hub.   │
-  │ (medial PFC)            │ Simulation Engine Component 3:           │
+  │ (medial PFC)            │ Simulation-Engine Component 3:           │
   │                         │   Ventral = self + close others          │
   │                         │   Dorsal = dissimilar others             │
   │                         │ = GRADIENT (not binary).                 │
@@ -600,7 +618,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §9 — SIMULATION ENGINE LABELS
+## §9 — SIMULATION-ENGINE LABELS
 
 > Simulation-Engine.md v1.0 = full architecture.
 > Section này = LABEL reference only.
@@ -612,7 +630,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Label                   │ Nghĩa + khi nào dùng                    │
   ├─────────────────────────┼──────────────────────────────────────────┤
   │                         │                                          │
-  │ Simulation Engine       │ General-purpose brain substrate.         │
+  │ Simulation-Engine       │ General-purpose brain substrate.         │
   │                         │ DMN + mPFC + anterior insula +           │
   │                         │ hippocampus. Retrieve → recombine →      │
   │                         │ simulate → readout.                      │
@@ -682,7 +700,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ PFC narrative           │ Post-hoc verbal explanation.             │
   │                         │ MAY confabulate (PFC = Lawyer).          │
   │                         │ Body-need fire TRƯỚC → PFC justify SAU.  │
-  │                         │ = Feeling Layer 7 (Explained — lossy).   │
+  │                         │ = Feel-Explanation (Explained — lossy).   │
   │                         │ Dùng: khi phân tích explanation ≠ cause. │
   │                         │ (Logic-Feeling-Balance.md)               │
   │                         │                                          │
@@ -912,7 +930,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Post-hoc explanation:      │ "PFC narrative"                          │
   │ Verbal coding:             │ "Labeling" (with fidelity loss noted)    │
   │ Domain verification:       │ "PFC check" / "Dual Check"              │
-  │ Shared substrate:          │ "Simulation Engine"                      │
+  │ Shared substrate:          │ "Simulation-Engine"                      │
   │ Compile quality:           │ "Genuine/Schema/Threat-compiled"         │
   │ Observer-level labels:     │ "Logic/Feeling" (with disclaimer)        │
   │ Mechanism-level labels:    │ "Compiled/Fresh" (BẮT BUỘC for analysis)│
@@ -992,7 +1010,7 @@ WHAT THIS FILE DOES WELL:
   ✓ 4 vocabulary levels (Role/State/Operation/Sub-operation) phân biệt rõ
   ✓ 5 PFC roles với context rules
   ✓ Deprecated terms với replacements cụ thể
-  ✓ Cross-ref strategy: BỔ SUNG, không lặp PFC-Operations / Sim-Engine / Body-Feedback-Label
+  ✓ Cross-ref strategy: BỔ SUNG, không lặp PFC-Operations / Simulation-Engine / Body-Feedback-Label
 
 
 WHAT REMAINS UNCERTAIN:
@@ -1014,7 +1032,7 @@ WHAT REMAINS UNCERTAIN:
 WHAT THIS FILE DOES NOT COVER:
 
   ✗ Mechanism chi tiết (→ PFC-Operations.md v1.0)
-  ✗ Simulation Engine architecture (→ Simulation-Engine.md v1.0)
+  ✗ Simulation-Engine architecture (→ Simulation-Engine.md v1.0)
   ✗ Compiled/Fresh full spectrum (→ Logic-Feeling.md v2.1)
   ✗ Body-feedback vocabulary (→ Body-Feedback-Label v2.0)
   ✗ PFC 24 functions catalog (→ PFC-Function.md v1.2)
@@ -1030,8 +1048,11 @@ WHAT THIS FILE DOES NOT COVER:
   ┌──────────────────────────────────┬──────────────────────────────────────┐
   │ File                             │ Connection                           │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Body-Feedback-Label v2.0         │ COMPANION. §8 Compiled/Fresh labels. │
+  │ Body-Feedback-Label v2.1         │ COMPANION. §8 Compiled/Fresh labels. │
   │                                  │ §9C 3-cost labels. File này BỔ SUNG. │
+  ├──────────────────────────────────┼──────────────────────────────────────┤
+  │ Dissonance-Signal-Arch. v1.0     │ §7.2 PFC Operations × 2 dissonance  │
+  │                                  │ types. SOURCE cho §4 table mới.      │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ PFC-Operations.md v1.0           │ SOURCE: §2-§4 Hold/Suppress, §5     │
   │                                  │ Quality, §8 Compiled Suppress, §9   │
@@ -1055,11 +1076,11 @@ WHAT THIS FILE DOES NOT COVER:
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ PFC-Development.md               │ PFC lifetime trajectory. Training.  │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Ask-AI.md v3.1                   │ Dual Check: body = QC, domain =    │
+  │ Ask-AI.md v3.1                   │ Dual Check: body = quality controller, domain =    │
   │                                  │ final arbiter. SOURCE cho §2 ⑤.    │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Feeling.md v3.0                  │ PFC observation of body-feedback.   │
-  │                                  │ 7-layer gradient. Layer 7 = lossy.  │
+  │                                  │ 7-layer gradient. Feel-Explanation = lossy.  │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Neural-Processing-Flow.md        │ PFC = Director/Orchestrator.        │
   │                                  │ Working memory compression.         │
@@ -1079,10 +1100,10 @@ WHAT THIS FILE DOES NOT COVER:
   │ Discovery-vs-Expansion.md        │ Philosopher trap. PFC imagine       │
   │                                  │ without domain check.               │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Self-Pattern-Modeling.md v3.1    │ APPLICATION 1 on Simulation Engine. │
+  │ Self-Pattern-Modeling.md v3.1    │ APPLICATION-1 on Simulation-Engine. │
   │                                  │ Self-Pattern-Modeling = (Other, Present, Simulate).   │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Imagine-Final.md v3.0            │ APPLICATION 3 on Simulation Engine. │
+  │ Imagine-Final.md v3.0            │ APPLICATION-2 on Simulation-Engine. │
   │                                  │ Imagine-Final = (Self, Future,      │
   │                                  │ Construct).                         │
   └──────────────────────────────────┴──────────────────────────────────────┘
@@ -1136,7 +1157,7 @@ WHAT THIS FILE DOES NOT COVER:
 > *§5 Cost: ① PFC draft + ② Suppress + ③ Uncertainty. Budget = finite, shared.*
 > *§6 Quality: Genuine / Schema / Threat — compile-time lock.*
 > *§7-§8 Regions + Hardware: dlPFC, vlPFC, vmPFC, mPFC, COMT, DRD4.*
-> *§9 Simulation Engine: 1 engine, 3 components, 3 axes.*
+> *§9 Simulation-Engine: 1 engine, 3 components, 3 axes.*
 > *§10-§11 Cognitive ops + Failure modes.*
 > *§12 Observer vs Mechanism: Logic/Feeling ≠ Compiled/Fresh.*
 > *§13 Deprecated: "PFC-Fresh", "draft" standalone, "willpower", "self-control" unspecified.*

@@ -13,7 +13,7 @@
 3 GIÁ TRỊ CỦA QUOTE ANALYSIS:
 
   ① CHO NGƯỜI ĐỌC QUOTE:
-    Quote hay thường được trích dẫn nhưng apply CỨ​NG NHẮC.
+    Quote hay thường được trích dẫn nhưng apply CỨNG NHẮC.
     "Stay Hungry" → workaholism. "Know the goal" → micro-manage.
     Analysis giúp: HIỂU mechanism → biết KHI NÀO apply, KHI NÀO KHÔNG.
     = Quote trở thành TOOL, không phải SLOGAN.

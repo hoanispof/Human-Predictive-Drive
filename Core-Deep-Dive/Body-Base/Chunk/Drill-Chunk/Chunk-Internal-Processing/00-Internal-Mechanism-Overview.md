@@ -242,7 +242,7 @@ CONNECTION TO FEELING SIDE:
   ⭐ Thread 3 = TRỰC TIẾP core framework value
   → Hiểu gradient này = hiểu KHI NÀO trust feeling, khi nào verify
   → AI era: AI verify logic, human trust feeling → complementary
-  → Gendlin Focusing: TRAINING ở lại vùng "vague" → dần rõ (L3 → L6)
+  → Gendlin Focusing: TRAINING ở lại vùng "vague" → dần rõ (Feel-Consciousification → Feel-Labeling)
 ```
 
 ### §2.3 — Chain + Anchor Dynamics (Thread 8, H6 test)
@@ -349,7 +349,7 @@ TACIT KNOWLEDGE (Polanyi 1966):
   
   Mechanism: meta-chunks compiled so deep → PFC chỉ thấy output
   → Process INVISIBLE to PFC (runs in substrate, below observation)
-  → = L1-L3 feeling territory (body biết, PFC chưa biết rõ)
+  → = Feel-RawSignals — Feel-Consciousification feeling territory (body biết, PFC chưa biết rõ)
 
 GAP 2 — POST-VERBAL BYPASS (H12):
   ① Adult có label library (extensive vocabulary)
@@ -550,7 +550,7 @@ F4 EXTENDS:
     → Resonance: emergent mutual mechanism = social internal processing
   
   Body-Feedback-Draft/ (N+3):
-    → H10 5-precondition model = EVALUATION framework cho F4 body votes
+    → Body-Feedback-Precondition (5-precondition model) = EVALUATION framework cho F4 body votes
     → Dissonance-reward signal = FEEDBACK mechanism cho internal processing
 ```
 
@@ -558,7 +558,7 @@ F4 EXTENDS:
 
 ```
   Logic-Feeling.md:       2 processing modes — F4 bridges both
-  Feeling.md:             7-layer model — F4 operates in L3-L5 territory
+  Feeling.md:             7-layer model — F4 operates in Feel-Consciousification — Feel-Location territory
   Somatic-Articulation:   Body→words transition — F4 uses for insight→label
   Neural-Processing-Flow: Hardware — F4 runs ON this hardware
   Chunk-Search-Advanced:  Aha mechanism §2 — F4 formalizes Type 2 connection

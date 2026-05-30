@@ -35,7 +35,7 @@ dependencies:
   - Anchor-Schema.md — Trust binding, sync point
   - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, Compiled/Fresh, Domain=Arbiter
   - Body-Feedback-Label.md v2.0 — vocabulary reference
-  - PFC/Simulation-Engine.md v1.0 — drive prediction uses simulation engine
+  - PFC/Simulation-Engine.md v1.0 — drive prediction uses Simulation-Engine
   - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — drive directed at entities along gradient
   - Body-Feedback/Gap-Body-Need.md v1.0 — different drives have different satiation profiles
 sources_backup: |
@@ -617,15 +617,15 @@ RESOLUTION RULES — 5 rules theo thứ tự
 
 DRIVE × NEW CONCEPTS (28-session Drill Propagation):
 
-  SIMULATION ENGINE (Simulation-Engine.md v1.0):
-    → Drive PREDICTION uses Simulation Engine: PFC simulate outcome → body evaluate
-    → "Muốn làm" = Simulation Engine draft → body REWARD → approach
-    → "Phải làm" = Simulation Engine draft → body THREAT → avoid hoặc endure
+  SIMULATION-ENGINE (Simulation-Engine.md v1.0):
+    → Drive PREDICTION uses Simulation-Engine: PFC simulate outcome → body evaluate
+    → "Muốn làm" = Simulation-Engine draft → body REWARD → approach
+    → "Phải làm" = Simulation-Engine draft → body THREAT → avoid hoặc endure
 
   ENTITY-ACCESS GRADIENT (Entity-Access.md v1.2):
     → Drives DIRECTED AT entities along Mức 0-5 gradient
     → Drive toward Mức 5 entity (con, self) = MẠNH HƠN Mức 1 (acquaintance)
-    → Hardware Subsidy: body cung cấp baseline drive "miễn phí" per entity level
+    → Hardware-Subsidy: body cung cấp baseline drive "miễn phí" per entity level
     → = TẠI SAO drive bảo vệ con > drive bảo vệ đồng nghiệp
 
   SATIATION TYPES (Gap-Body-Need.md v1.0):

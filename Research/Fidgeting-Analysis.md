@@ -242,13 +242,13 @@ TẦNG CAO NHẤT — KHI FIDGET DRIFT SANG SÁNG TẠO:
 
   Tầng 1 proprioceptive calming = DIRECT-STATE reward:
     Body-state change (cortisol ↓, HR ↓) = reward TRỰC TIẾP
-    Hardware-based, non-opioid, KHÔNG cần H10 preconditions
+    Hardware-based, non-opioid, KHÔNG cần Body-Feedback-Precondition
     → Fidgeting calming = fast + cheap + no PFC → đặc trưng Direct-State
 
   Tầng 3 micro-novelty = DOPAMINE SIGNALING, không phải Evaluative:
     VTA prediction-delta → dopamine = salience alert (không phải opioid reward)
     Doodling "vui" = prediction-delta loop engaging ≠ evaluative reward
-    Evaluative cần H10 + PFC evaluation → KHÔNG match fidget profile
+    Evaluative cần Body-Feedback-Precondition + PFC evaluation → KHÔNG match fidget profile
 
   → Fidgeting = chủ yếu Direct-State reward pathway
   → Consistent: fast, unconscious, hardware-level, no PFC evaluation

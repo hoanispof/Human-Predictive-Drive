@@ -18,6 +18,25 @@ language: Tiếng Việt primary + English technical
 > **File này = commitment file** cho F3. Không drill phân tích mới.
 > Tổng hợp từ [00-External-Mechanism.md](00-External-Mechanism.md) và cross-references.
 
+```
+Drill Label → Framework Name Mapping (added 2026-05-30)
+
+  Labels trong file này = drill provenance markers.
+  Framework active files dùng TÊN CỐ ĐỊNH bên dưới.
+  Bảng đầy đủ: xem 99-Master-Synthesis.md §2.6.
+
+  ┌────────┬────────────────────────────────────┐
+  │ Drill  │ Framework Name (cố định)           │
+  ├────────┼────────────────────────────────────┤
+  │ H3     │ Grammar-Versatile-Anchor           │
+  │ H4     │ Abstract-Metaphysical-Grounding    │
+  │ H7     │ Valence-Chunk-Interaction          │
+  │ H12    │ Gap2-Language-Evolution             │
+  ├────────┼────────────────────────────────────┤
+  │ NT7    │ Direction-At-Compile               │
+  └────────┴────────────────────────────────────┘
+```
+
 ---
 
 ## §1 — Hypothesis Verdicts
@@ -153,16 +172,16 @@ HYPOTHESIS (from plan §4):
      → NT7 3 update paths: re-associate / novelty hijack / therapy
 
   ✅ Valence.md multi-channel model CONSISTENT:
-     → L0 threat, L1 interoceptive, L2 novelty, L3 meaning/schema...
+     → L0 threat, L1 interoceptive, novelty (evaluative), meaning/schema (evaluative)...
      → Valence = INTEGRATED signal from multiple channels (not 1 source)
      → Schema context ACTIVATES different channels → different valence
 
   ⚠️ NUANCE: Some valence IS partially chunk-intrinsic:
      → Pain chunks have NEGATIVE valence almost universally (body-level)
      → Sweetness chunks have POSITIVE valence (evolutionary reward)
-     → = L0-L1 valence = chunk-intrinsic (body hardware)
-     → = L2-L3 valence = schema-dependent (context modulates)
-     → H7 holds for L2+ valence. L0-L1 valence has intrinsic component.
+     → = L0-L1 valence = chunk-intrinsic (body hardware, Direct-State)
+     → = Evaluative valence = schema-dependent (context modulates)
+     → H7 holds for evaluative valence. L0-L1 valence has intrinsic component.
 
 CONFIDENCE: 🟡 (strong framework synthesis, consistent with Valence.md)
 

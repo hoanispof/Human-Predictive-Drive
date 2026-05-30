@@ -14,11 +14,12 @@
 
 ---
 
-> **Trạng thái:** v2.1 — 2026-05-23 Concept Cascade +Entity-Access +Hardware Subsidy. v2.0 rewrite from v1.0 (2026-03-28), Self-Pattern-Modeling/v7.8 aligned
+> **Trạng thái:** v2.1 — 2026-05-23 Concept Cascade +Entity-Access +Hardware-Subsidy. v2.0 rewrite from v1.0 (2026-03-28), Self-Pattern-Modeling/v7.8 aligned
 > **Ngày:** 2026-03-28 | Rewritten: 2026-04-25
 > **Mục đích:** Kiến trúc tổng thể cho "luật × melody" — nhìn luật lệ, quy tắc xã hội
 > qua lens framework. Xác định nguyên tắc: khi nào CẦN luật, khi nào THỪA.
 > **Vị trí:** Core-Deep-Dive/Collective/ — Collective mechanism layer (moved from Domain/ 2026-05-18)
+> → **Overview:** Collective.md v1.0 (integration hub cho folder)
 > **Tiền đề:**
 >   Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT
 >   Status.md v2.0 — Resource Access Map, 3 Modes (Lấy/Trao đổi/Comply)
@@ -224,7 +225,7 @@
   ③ HARDWARE ĐA DẠNG → KHÔNG CÓ LUẬT FIT ALL:
 
     Luật áp cho 90 triệu người VN → mỗi người = melody KHÁC
-    → Luật "vừa" cho 70% → "chật" cho 15% → "rộng" cho 15%
+    → Luật "vừa" cho 70% → "chật" cho 15% → "rộng" cho 15% (% = illustrative)
     → = "Luật cho trung bình" = KHÔNG ai perfectly fit
 
     VD: Giới hạn tốc độ 60km/h:
@@ -791,17 +792,17 @@ ENTITY-ACCESS × COMPLIANCE (Entity-Access.md v1.2):
   → Compliance floor SCALES with Entity-Access level
   → "Phá melody người khác" = violate their access gradient expectations
 
-HARDWARE SUBSIDY × COMPLIANCE (Valence-Propagation v3.0 §5):
-  → Hardware subsidy provides NATURAL compliance baseline:
+HARDWARE-SUBSIDY × COMPLIANCE (Entity-Valence-Dynamics.md v1.0 §5):
+  → Hardware-subsidy provides NATURAL compliance baseline:
     Oxytocin/opioid system → body REWARD caring for close entities
-    → = "Luật nội bộ" (Self-Pattern-Modeling + L2) = hardware subsidy operating as compliance
-    → Close entities: hardware subsidy = sufficient compliance (no law needed)
-    → Distant entities: NO hardware subsidy → need EXTERNAL law
+    → = "Luật nội bộ" (Self-Pattern-Modeling + L2) = hardware-subsidy operating as compliance
+    → Close entities: hardware-subsidy = sufficient compliance (no law needed)
+    → Distant entities: NO hardware-subsidy → need EXTERNAL law
   → = TẠI SAO luật pháp chủ yếu regulate stranger interactions
-    (gia đình regulate bằng hardware subsidy + compiled norms)
+    (gia đình regulate bằng hardware-subsidy + compiled norms)
 
 🟡 Entity-Access × compliance = framework convergence
-🟡 Hardware Subsidy × compliance = framework explanation (natural floor)
+🟡 Hardware-Subsidy × compliance = framework explanation (natural floor)
 ```
 
 ---

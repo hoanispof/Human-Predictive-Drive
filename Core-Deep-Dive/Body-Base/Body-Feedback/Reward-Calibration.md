@@ -16,7 +16,7 @@ scope: |
   Observable indicators qua giao tiếp + hành vi (xác suất, không chẩn đoán).
   Evaluative/Direct-State × Calibration. Reward-Economics insights qua v7.8 lens.
 purpose: |
-  03-Reward.md answers: KHI NÀO reward fires (H10 5 preconditions, 7-step VTA)
+  03-Reward.md answers: KHI NÀO reward fires (5 Body-Feedback-Preconditions, 7-step VTA)
   Reward-Signal-Architecture answers: Reward fire CHẤT LƯỢNG thế nào (Evaluative/Direct-State, 5 Profiles, Evaluative Gates Direct-State)
   Gap-Direction.md answers: TẠI SAO reward personal (gap có hướng)
   Gratitude.md §3-4: Anti-habituation + baseline shift
@@ -29,7 +29,7 @@ position: |
   MECHANISM observation file. Calibration là property CỦEvaluative reward system,
   không phải application bên ngoài.
 dependencies:
-  - 03-Reward.md — H10 5 preconditions, 7-step VTA, opioid vs dopamine, 7 cases
+  - 03-Reward.md — 5 Body-Feedback-Preconditions, 7-step VTA, opioid vs dopamine, 7 cases
   - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, E₀→E₃, 5 Profiles, Evaluative Gates Direct-State
   - Body-Feedback-Mechanism.md v1.2 — 2 sources, 3 dynamics (Shift/Miss/Gap), compound
   - Gap-Direction.md v1.0 — gap has direction, "chưa biết = không có gap", 2-layer
@@ -56,7 +56,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Tăng lên 50 triệu. Pleasant... rồi quen.**
 > **Tăng lên 100 triệu. "Đồng nghiệp có bao nhiêu?"**
 >
-> Cùng 1 người. Cùng 1 cơ chế reward (H10, 03-Reward.md).
+> Cùng 1 người. Cùng 1 cơ chế reward (Body-Feedback-Precondition, 03-Reward.md).
 > Nhưng LƯỢNG reward CẦN để tạo satisfaction = THAY ĐỔI LIÊN TỤC.
 >
 > Đường ngọt: ít = nhạt, vừa = ngon, nhiều = ngấy.
@@ -100,7 +100,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ File                      │ Câu hỏi                                │
   ├───────────────────────────┼─────────────────────────────────────────┤
   │ 03-Reward.md              │ KHI NÀO reward fires?                  │
-  │                           │ (H10 5 preconditions, 7-step VTA)      │
+  │                           │ (5 Body-Feedback-Preconditions, 7-step VTA)      │
   ├───────────────────────────┼─────────────────────────────────────────┤
   │ Reward-Signal-            │ Reward fire CHẤT LƯỢNG thế nào?        │
   │ Architecture.md           │ (Evaluative/Direct-State, 5 Profiles, Evaluative Gates Direct-State)      │
@@ -139,7 +139,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
   ✗ KHÔNG phải "cách thiết kế reward" (prescriptive)
   ✗ KHÔNG phải economics file (Reward-Economics.md cũ = Applications layer)
-  ✗ KHÔNG lặp H10 hay Reward-Signal-Architecture (reference only)
+  ✗ KHÔNG lặp Body-Feedback-Precondition hay Reward-Signal-Architecture (reference only)
   ✗ KHÔNG phải education file (Education-Mechanism.md §3 đã cover bridge)
   ✗ KHÔNG phải HR file
   ✗ KHÔNG nói "làm gì" — chỉ nói "đang ở đâu" và "tại sao khó"
@@ -700,7 +700,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   QUÁ NHIỀU DIRECT-STATE:
     → Body-state comfort HIGH nhưng evaluative depth LOW
     → No chunk compilation for E₂-E₃ → no coherence reward
-    → = "Vui nhưng trống rỗng" (fun without depth)
+    → = "Vui nhưng emptiness" (fun without depth)
     → Meaning.md: không có GOAL/STATE/IDENTITY anchor → no meaning
 
   EVALUATIVE/DIRECT-STATE RATIO CẦN BALANCE:
@@ -1009,7 +1009,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ EVALUATIVE (EVALUATIVE) — GOLDILOCKS PHỨC TẠP:
 
-  Evaluative = conditional, H10 full P1-P5 required (Reward-Signal-Architecture §1.3)
+  Evaluative = conditional, all 5 Body-Feedback-Preconditions required (Reward-Signal-Architecture §1.3)
   → Threshold ADAPT: E₀→E₃ gradient → threshold tăng với experience
   → Habituation: VTA habituate → cùng stimulus = prediction-delta giảm → cần MỚI
   → Context-dependent: body state, relationship, cortisol → ALL ảnh hưởng
@@ -1035,7 +1035,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ DIRECT-STATE (DIRECT STATE) — GOLDILOCKS ĐƠN GIẢN HƠN:
 
-  Direct-State = hardware-based, H10 simplified (Reward-Signal-Architecture §1.3)
+  Direct-State = hardware-based, Body-Feedback-Precondition simplified (Reward-Signal-Architecture §1.3)
   → Threshold ÍT ADAPT: body-state sensors = stable
   → Habituation: MINIMAL (body-level adaptation only, not VTA)
   → = RELIABLE baseline reward (Reward-Signal-Architecture §1.4: "evolutionary floor")
@@ -1298,7 +1298,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌──────────────────────────────────┬──────────────────────────────────────┐
   │ File                             │ Connection                           │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ 03-Reward.md                     │ H10 preconditions, 7-step VTA,      │
+  │ 03-Reward.md                     │ Body-Feedback-Preconditions, 7-step VTA,      │
   │                                  │ 7 cases — §0 file vị trí            │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Reward-Signal-Architecture.md    │ Evaluative/Direct-State, E₀→E₃, 5 Profiles,       │
