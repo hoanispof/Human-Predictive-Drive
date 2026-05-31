@@ -1662,7 +1662,7 @@ H10 mechanism layer = Body-Feedback.md §6 + Body-Feedback-Mechanism.md §7.
 > 
 > Learning events typically involve:
 > - Reward signal: schema match component (P1 pending met) → opioid fires when chunk fits
-> - Fatigue signal: PFC glucose cost of sustained hold (P3 processing demand)
+> - Fatigue signal: PFC processing load of sustained hold (P3 processing demand)
 > - Dissonance nhẹ signal: recalibration discomfort + Goldilocks-adjacent (P4 partial match)
 > 
 > → 3 signals emerge because learning activates 3 different aspects of H10 precondition check simultaneously. See `Body-Feedback-Draft/04-Integration.md §9` for H10 formalization.

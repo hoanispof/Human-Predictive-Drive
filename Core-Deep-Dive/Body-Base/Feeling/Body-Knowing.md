@@ -235,7 +235,7 @@ TẠI SAO BODY-KNOWING TỒN TẠI? (Inter-Body-Mechanism.md §1)
      Cost ≈ 0 (path đã tạo sẵn, no PFC draft needed).
 
      → Nhanh: near-instant (milliseconds, not seconds)
-     → Rẻ: no glucose burn for PFC drafting
+     → Rẻ: no PFC processing load (bypasses serial bottleneck)
      → Vô thức-driven: body fires TRƯỚC PFC awareness
      → 🟢 Libet 1985: body activity 300-500ms before conscious awareness
 
@@ -1647,8 +1647,8 @@ COMPILED → FRESH = DISRUPTION (Body-Knowing loss):
 ⭐ FRESH PROCESSING = 3 INDEPENDENT COSTS:
 
   ① PFC DRAFT COST:
-    → PFC phải chain novel paths → glucose, neurotransmitters
-    → 🟢 Gailliot & Baumeister 2007: cognitive effort = metabolic cost
+    → PFC phải chain novel paths → processing load (serial bottleneck + catecholamine)
+    → 🟢 Kurzban 2013: cognitive effort = opportunity cost signal
 
   ② SUPPRESS COST:
     → Must suppress compiled patterns that fire automatically
@@ -1657,7 +1657,7 @@ COMPILED → FRESH = DISRUPTION (Body-Knowing loss):
 
   ③ UNCERTAINTY COST:
     → Fresh = no prior data on outcome → body cannot predict reward
-    → Uncertainty itself = metabolically expensive (body = predictive machine)
+    → Uncertainty itself = costly (body = predictive machine, holding open = cortisol)
     → 🟢 Peters & Büchel 2010: uncertainty = aversive signal
 
   → Body PREFERS compiled (Body-Knowing) over fresh: lower total cost.
@@ -1867,7 +1867,7 @@ GROUNDED IN RESEARCH (12+ independent sources):
 
   Other foundations:
     🟢 Kahneman + Klein 2009 — conditions for reliable intuition
-    🟢 Gailliot & Baumeister 2007 — cognitive effort = metabolic cost
+    🟢 Kurzban 2013 — cognitive effort = opportunity cost (processing load)
     🟢 Seth 2013 — interoceptive prediction
     🟢 Taylor 2000 — alexithymia (~10% population)
     🟢 Barrett 2017 — emotional granularity

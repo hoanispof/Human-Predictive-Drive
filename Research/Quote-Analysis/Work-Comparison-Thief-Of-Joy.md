@@ -638,13 +638,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├────────────┼────────────────┼──────────────┼────────────────┼──────────┤
   │ LATERAL    │ Calibration    │ Map update   │ Joy PROTECTED  │ ❌ Miss  │
   │ (self ≈    │ check          │ Accuracy ↑   │ (navigator)    │          │
-  │  target)   │ (Social-Cal.   │ Neutral      │                │          │
+  │  target)   │ (Social-       │ Neutral      │                │          │
+  │            │  Calibration   │              │                │          │
   │            │  §2.5)         │              │                │          │
   ├────────────┼────────────────┼──────────────┼────────────────┼──────────┤
   │ BIASED     │ Triple Bias    │ Confirm      │ Joy AMPLIFIED  │ ❌ Miss  │
-  │ (Backgr.   │ self-fulfill   │ Background-  │ (good or bad)  │          │
-  │  Pattern)  │ (BG-P §6.2)   │ Pattern      │ → depends on   │          │
-  │            │                │              │ existing BG-P  │          │
+  │ (Background│ self-fulfill   │ Background-  │ (good or bad)  │          │
+  │  Pattern)  │ (Background-   │ Pattern      │ → depends on   │          │
+  │            │  Pattern §6.2) │              │ existing       │          │
+  │            │                │              │ Background-    │          │
+  │            │                │              │ Pattern        │          │
   ├────────────┼────────────────┼──────────────┼────────────────┼──────────┤
   │ GATE       │ Status maps    │ Access       │ Joy ENABLED    │ ❌ Miss  │
   │ (meta)     │ width          │ width ↕      │ or BLOCKED     │          │

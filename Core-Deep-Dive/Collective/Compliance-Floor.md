@@ -434,29 +434,29 @@
     → Sociopath có Self-Pattern-Modeling mạnh — predict người khác giỏi → dùng để EXPLOIT
     → = Self-Pattern-Modeling alone = prediction tool, CÓ THỂ dùng cho tốt HOẶC xấu
 
-  L2 Entity-compiled (Agent-Mechanism.md §12.2b) = CARING structural:
+  Valence-Structural Entity-compiled (Agent-Mechanism.md §12.2b) = CARING structural:
     → Agent trở thành body-base extension
     → "Wellbeing CỦA HỌ = wellbeing CỦA TÔI" (compiled, structural)
     → Hại agent = body signal "đang hại CHÍNH MÌNH"
-    → NHƯNG: L2 alone cũng KHÔNG ĐỦ
-    → Empathy.md v2.0 §8.5: bố mẹ L2 MAX + Compiled ZERO
+    → NHƯNG: Valence-Structural alone cũng KHÔNG ĐỦ
+    → Empathy.md v2.0 §8.5: bố mẹ Valence-Structural MAX + Compiled ZERO
       = "yêu thương hết mình nhưng không hiểu con"
       = vẫn có thể HẠI (vô tình, do không predict được)
 
-  ⭐ EMPATHY = Self-Pattern-Modeling Compiled + L2 POSITIVE — CẢ HAI cùng lúc:
+  ⭐ EMPATHY = Self-Pattern-Modeling Compiled + Valence-Structural POSITIVE — CẢ HAI cùng lúc:
 
-    ┌────────────────────────────────────────────────────────────────┐
-    │                                                                │
-    │  Self-Pattern-Modeling Compiled (predict)  +  L2 positive (care)  =  EMPATHY          │
-    │                                                                │
-    │  BIẾT hại sẽ gây đau  +  QUAN TÂM vì họ   =  TỰ KHÔNG       │
-    │                          là body-base ext     MUỐN hại        │
-    │                                                                │
-    │  Thiếu Self-Pattern-Modeling → care nhưng không hiểu → hại vô tình (§8.5)      │
-    │  Thiếu L2  → hiểu nhưng không care → exploit có ý (sociopath) │
-    │  CÓ CẢ HAI → hiểu VÀ care → INTERNAL COMPLIANCE FLOOR        │
-    │                                                                │
-    └────────────────────────────────────────────────────────────────┘
+    ┌──────────────────────────────────────────────────────────────────────────────────────┐
+    │                                                                                      │
+    │  Self-Pattern-Modeling Compiled (predict)  +  Valence-Structural positive (care)      │
+    │  =  EMPATHY                                                                          │
+    │                                                                                      │
+    │  BIẾT hại sẽ gây đau  +  QUAN TÂM vì họ là body-base ext  =  TỰ KHÔNG MUỐN hại     │
+    │                                                                                      │
+    │  Thiếu Self-Pattern-Modeling → care nhưng không hiểu → hại vô tình (§8.5)            │
+    │  Thiếu Valence-Structural  → hiểu nhưng không care → exploit có ý (sociopath)        │
+    │  CÓ CẢ HAI → hiểu VÀ care → INTERNAL COMPLIANCE FLOOR                               │
+    │                                                                                      │
+    └──────────────────────────────────────────────────────────────────────────────────────┘
 
     → = "Không cần tường rào nếu không ai MUỐN trèo tường"
     → = Empathy = luật NỘI BỘ — mỗi người TỰ CÓ compliance floor
@@ -466,37 +466,37 @@
 §7.3 — 2-LUỒNG TRONG INTERNAL COMPLIANCE
 ═══════════════════════════════════════════════════════
 
-  L1 (Self-Pattern-Modeling-owned, momentary) — hàng rào NGAY LÚC ĐÓ:
+  Valence-Momentary (Self-Pattern-Modeling-owned, momentary) — hàng rào NGAY LÚC ĐÓ:
     → Self-Pattern-Modeling Compiled fire → body simulate trạng thái người khác
     → Nếu simulate "họ sẽ đau" → body MÌNH dissonance NGAY
     → = Hàng rào phản ứng nhanh: "ê, dừng lại, sẽ gây đau"
-    → NHƯNG: L1 yếu, momentary, có thể bị override
+    → NHƯNG: Valence-Momentary yếu, momentary, có thể bị override
 
-  L2 (Entity-compiled, structural) — nền tảng BASELINE:
+  Valence-Structural (Entity-compiled, structural) — nền tảng BASELINE:
     → Agent đã compiled thành body-base extension
     → KHÔNG CẦN fire Self-Pattern-Modeling mỗi lần — baseline "không hại agent này" ĐÃ CÓ
     → = Hàng rào structural: "người này quan trọng, đương nhiên không hại"
-    → MẠNH hơn L1 vì compiled sâu, sustained
+    → MẠNH hơn Valence-Momentary vì compiled sâu, sustained
 
   CẢ HAI cùng hoạt động:
-    → L1 = phản ứng nhanh cho TÌNH HUỐNG MỚI (người lạ, context lạ)
-    → L2 = baseline cho NGƯỜI ĐÃ BIẾT (gia đình, bạn, đồng nghiệp)
+    → Valence-Momentary = phản ứng nhanh cho TÌNH HUỐNG MỚI (người lạ, context lạ)
+    → Valence-Structural = baseline cho NGƯỜI ĐÃ BIẾT (gia đình, bạn, đồng nghiệp)
     → = 2 tầng bảo vệ melody NGƯỜI KHÁC từ BÊN TRONG
 
 
 ═══════════════════════════════════════════════════════
-§7.4 — ⭐ L2 GENERAL CHO "CON NGƯỜI NÓI CHUNG"
+§7.4 — ⭐ Valence-Structural GENERAL CHO "CON NGƯỜI NÓI CHUNG"
 ═══════════════════════════════════════════════════════
 
-  L2 sâu (mẹ, con, bạn thân):
+  Valence-Structural sâu (mẹ, con, bạn thân):
     → Body-base extension MẠNH → compliance RẤT CAO
     → Giết con = body signal "giết MÌNH" → gần như impossible
 
-  L2 vừa (đồng nghiệp, hàng xóm):
+  Valence-Structural vừa (đồng nghiệp, hàng xóm):
     → Body-base extension NHẸ → compliance VỪA
     → Hại họ = dissonance nhưng có thể override nếu lý do đủ mạnh
 
-  ⭐ L2 general ("con người nói chung"):
+  ⭐ Valence-Structural general ("con người nói chung"):
     → Body-base extension RẤT NHẸ nhưng PHỔ QUÁT
     → = "Mọi người xung quanh đều tốt bụng, mọi người đều là
       body-base extension của tôi một chút"
@@ -504,7 +504,7 @@
     → = Tại sao hầu hết người bình thường KHÔNG hại người lạ
       dù không có luật cụ thể cấm
 
-  L2 GENERAL ĐẾN TỪ ĐÂU:
+  Valence-Structural GENERAL ĐẾN TỪ ĐÂU:
 
     ❶ Hardware (Connection.md v3.0):
       → Social brain default — não giả định CÓ agent gần = quý
@@ -514,25 +514,25 @@
     ❷ Cultural compilation:
       → Schema "con người = quý" install từ gia đình, xã hội
       → "Đừng hại người khác" compile từ BÉ (External Install)
-      → Tôn giáo, đạo đức truyền thống = compile L2 general
+      → Tôn giáo, đạo đức truyền thống = compile Valence-Structural general
 
     ❸ Self-Pattern-Modeling exposure rộng:
       → Tương tác ĐA DẠNG người → compile general positive valence
-      → Càng gặp nhiều người → L2 general càng RỘNG
-      → Travel, đa văn hóa = mở rộng L2 general
-      → Isolation, xenophobia = thu hẹp L2 general
+      → Càng gặp nhiều người → Valence-Structural general càng RỘNG
+      → Travel, đa văn hóa = mở rộng Valence-Structural general
+      → Isolation, xenophobia = thu hẹp Valence-Structural general
 
   PHÂN TÍCH SOCIOPATH QUA LENS NÀY:
-    → Sociopath: Self-Pattern-Modeling có thể MẠNH + L2 general ≈ ZERO
+    → Sociopath: Self-Pattern-Modeling có thể MẠNH + Valence-Structural general ≈ ZERO
     → = Predict giỏi + không care → exploit
     → = Internal floor gần ZERO → CẦN external floor (luật) 100%
     → = Tại sao sociopath SỢ luật (consequence) chứ không sợ "hại người"
 
   PHÂN TÍCH "NGƯỜI TỐT" QUA LENS NÀY:
-    → "Người tốt" = Self-Pattern-Modeling OK + L2 general CAO
+    → "Người tốt" = Self-Pattern-Modeling OK + Valence-Structural general CAO
     → = Predict đủ tốt + care phổ quát → internal floor CAO
     → = CẦN external floor ÍT → tự do RỘNG mà vẫn không hại ai
-    → = Đây là MỤC TIÊU của giáo dục: build Self-Pattern-Modeling + L2 general
+    → = Đây là MỤC TIÊU của giáo dục: build Self-Pattern-Modeling + Valence-Structural general
 
 
 ═══════════════════════════════════════════════════════
@@ -545,28 +545,28 @@
     → Người lách = chunk "exploit within rules" COMPILED
     → Luật mới → tìm cách lách mới → chạy đua vô tận
 
-  Internal floor (Empathy = Self-Pattern-Modeling + L2) = CHỮA GỐC:
+  Internal floor (Empathy = Self-Pattern-Modeling + Valence-Structural) = CHỮA GỐC:
     → Thay đổi MELODY → người đó TỰ KHÔNG MUỐN hại
     → KHÔNG CẦN lách vì KHÔNG MUỐN phá
     → = Lối thoát THẬT SỰ: build empathy, không phải build luật
 
   COMPLIANCE FLOOR = f(population empathy quality):
 
-    Empathy CAO (Self-Pattern-Modeling mạnh + L2 general rộng):
+    Empathy CAO (Self-Pattern-Modeling mạnh + Valence-Structural general rộng):
       → External floor THẤP đủ → tự do RỘNG → xã hội vẫn ổn
 
-    Empathy THẤP (Self-Pattern-Modeling yếu HOẶC L2 general hẹp):
+    Empathy THẤP (Self-Pattern-Modeling yếu HOẶC Valence-Structural general hẹp):
       → External floor phải CAO → tự do HẸP → VẪN LÁCH
 
   THỰC TẾ: CẦN CẢ HAI (không phải either/or):
     → Luật = NGẮN HẠN (giữ trật tự NGAY, bảo vệ melody YẾU)
-    → Giáo dục empathy = DÀI HẠN (build Self-Pattern-Modeling + L2 general)
+    → Giáo dục empathy = DÀI HẠN (build Self-Pattern-Modeling + Valence-Structural general)
     → = Luật giữ nền TRONG KHI giáo dục build empathy → rồi HẠ NỀN dần
 
   GIÁO DỤC EMPATHY — 2 trục song song:
     → Trục 1 — BUILD Self-Pattern-Modeling (hiểu): đa dạng trải nghiệm xã hội, exposure
       nhiều loại người, luyện tập simulate → Self-Pattern-Modeling quality tăng
-    → Trục 2 — BUILD L2 GENERAL (care): attachment secure từ 0-3,
+    → Trục 2 — BUILD Valence-Structural GENERAL (care): attachment secure từ 0-3,
       cooperation experience từ 3-6, responsibility từ 6-12,
       meta-empathy từ 12-18 (Empathy-Education.md v2.0)
     → CẢ HAI trục = empathy THẬT → internal floor THẬT
@@ -577,9 +577,9 @@
   🟢 Attachment security → prosocial behavior (Bowlby, meta-analyses)
   🟡 "Empathy = internal compliance floor" = framework synthesis
   🟡 "Luật = bridge" = framework reframe of scaffolding at social scale
-  🟡 "L2 general for humanity" = framework extension of body-base extension
-  🟡 "Sociopath = Self-Pattern-Modeling high + L2 ≈ 0" = framework analysis
-  🔴 "L2 general đo được" = chưa có measurement protocol
+  🟡 "Valence-Structural general for humanity" = framework extension of body-base extension
+  🟡 "Sociopath = Self-Pattern-Modeling high + Valence-Structural ≈ 0" = framework analysis
+  🔴 "Valence-Structural general đo được" = chưa có measurement protocol
 ```
 
 ---
@@ -679,10 +679,10 @@
     🟡 "Cascade check 3 bước" — consistent với evidence-based policy literature
     🟡 "Nền tự tăng theo thời gian" — consistent với regulatory accumulation research
     🟡 "Luật = bridge, giáo dục = intrinsic" — consistent với scaffolding + SDT
-    🟡 "Empathy (Self-Pattern-Modeling Compiled + L2) = internal compliance floor" — consistent với
+    🟡 "Empathy (Self-Pattern-Modeling Compiled + Valence-Structural) = internal compliance floor" — consistent với
         empathy-altruism hypothesis (Batson 1991), Self-Pattern-Modeling mechanism, 2-luồng reward
-    🟡 "L2 general for humanity" = framework extension of body-base extension
-    🟡 "Sociopath = Self-Pattern-Modeling high + L2 ≈ 0" = consistent với psychopathy research
+    🟡 "Valence-Structural general for humanity" = framework extension of body-base extension
+    🟡 "Sociopath = Self-Pattern-Modeling high + Valence-Structural ≈ 0" = consistent với psychopathy research
         (Hare 1993: cognitive empathy intact, affective empathy impaired)
     🟡 "Luật discrete vs reality continuous" — consistent với legal philosophy
         (Hart 1961: open texture of law)
@@ -698,7 +698,7 @@
     🔴 "Floor = f(melody quality)" — logical nhưng melody quality CHƯA ĐO ĐƯỢC
     🔴 "Empathy = key" — strong claim, có thể oversimplify
         (người empathy thấp vẫn tuân thủ vì game theory / Status lock)
-    🔴 "L2 general đo được" — chưa có measurement protocol
+    🔴 "Valence-Structural general đo được" — chưa có measurement protocol
 
   ⚠️ FILE NÀY = APPLIED FRAMEWORK, KHÔNG PHẢI MECHANISM:
     Mechanism files (Self-Pattern-Modeling, Connection, Status) đã established.
@@ -795,7 +795,7 @@ ENTITY-ACCESS × COMPLIANCE (Entity-Access.md v1.2):
 HARDWARE-SUBSIDY × COMPLIANCE (Entity-Valence-Dynamics.md v1.0 §5):
   → Hardware-subsidy provides NATURAL compliance baseline:
     Oxytocin/opioid system → body REWARD caring for close entities
-    → = "Luật nội bộ" (Self-Pattern-Modeling + L2) = hardware-subsidy operating as compliance
+    → = "Luật nội bộ" (Self-Pattern-Modeling + Valence-Structural) = hardware-subsidy operating as compliance
     → Close entities: hardware-subsidy = sufficient compliance (no law needed)
     → Distant entities: NO hardware-subsidy → need EXTERNAL law
   → = TẠI SAO luật pháp chủ yếu regulate stranger interactions
@@ -810,10 +810,10 @@ HARDWARE-SUBSIDY × COMPLIANCE (Entity-Valence-Dynamics.md v1.0 §5):
 > *Compliance Floor v2.1 — "Tự do không cần ai cho phép — tự do TỰ CÓ.
 > Luật chỉ cần 1 việc: ngăn melody bạn PHÁ melody người khác.
 > Nền ĐÚNG = cấm TỐI THIỂU. Nền quá cao = ép vô ích.
-> Empathy (Self-Pattern-Modeling Compiled + L2 positive) = luật nội bộ — mỗi người tự có compliance
-> floor trong melody mình. Self-Pattern-Modeling alone = tool, có thể exploit. L2 alone = care
+> Empathy (Self-Pattern-Modeling Compiled + Valence-Structural positive) = luật nội bộ — mỗi người tự có compliance
+> floor trong melody mình. Self-Pattern-Modeling alone = tool, có thể exploit. Valence-Structural alone = care
 > nhưng không hiểu. CẢ HAI = hiểu VÀ care = internal floor THẬT.
-> L2 general cho 'con người nói chung' = lối thoát: baseline compliance cho MỌI
-> interaction. Luật = bridge. Giáo dục empathy (Self-Pattern-Modeling + L2) = giải pháp gốc.
+> Valence-Structural general cho 'con người nói chung' = lối thoát: baseline compliance cho MỌI
+> interaction. Luật = bridge. Giáo dục empathy (Self-Pattern-Modeling + Valence-Structural) = giải pháp gốc.
 > Mỗi luật phải trả lời được: 'Cái này phá melody AI?'
 > Nếu không trả lời được — luật đó KHÔNG CẦN tồn tại."*

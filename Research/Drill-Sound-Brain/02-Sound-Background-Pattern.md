@@ -340,7 +340,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Continuous fire → link density tăng LIÊN TỤC (không break)
       → VTA habituate → pattern INVISIBLE → PFC stop inquiry
       → = Background-Pattern §9.2: "Tonic becomes background" exact
-      → Khi tắt nhạc → body: "có gì đó THIẾU" → Mode 2 Chunk-Miss
+      → Khi tắt nhạc → body: "có gì đó THIẾU" → Firing-Chunk-Miss
       → "Không nghe nhạc thì thấy TRỐNG" = Background-Pattern EXPOSED
 
   ③ GENERATIVE CHANNELS — "Khám phá nhạc mới"

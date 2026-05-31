@@ -814,7 +814,7 @@ Opioid fire PER STEP của BUILD phase — mỗi lần body-confirm 1 mini-miles
     → Peak opioid fire: "đúng là món tôi muốn"
 
   STEP 9 — Ăn cùng người thân, họ khen
-    L2 Connection channel cũng fire
+    Valence-Structural Connection channel cũng fire
     Empathy mirror: thấy họ enjoy = mình cũng enjoy thêm
     → Social opioid fire: "mọi người cũng pleasant"
 
@@ -935,8 +935,8 @@ KẾT LUẬN §2.2:
 
   ⭐ CONCEPT MỚI — PFC BUDGET + 4 FIRING MODES (v2.0):
 
-    PFC Budget — BUILD phase tiêu tốn PFC resource (glucose, oxygen,
-      attention bandwidth). PFC Budget hữu hạn per session → giải thích
+    PFC Budget — BUILD phase tiêu tốn PFC processing capacity (serial bottleneck,
+      catecholamine demand, allocation competition). PFC Budget hữu hạn per session → giải thích
       TẠI SAO forced BUILD quá dài = diminishing returns. Lifecycle
       Phase 2-3 (§2.4) chính là body RESTORE PFC Budget.
       → Xem PFC/PFC-Operations.md v1.0
@@ -1717,10 +1717,10 @@ Và hệ quả của việc này cho giáo dục tương lai.
 
   5. SOCIAL MEDIA LIKES vs REAL CONVERSATION:
      → Fast feedback, low effort, shallow connection
-     → L2 Connection channel fire ở mức shallow nhưng thường xuyên
+     → Valence-Structural Connection channel fire ở mức shallow nhưng thường xuyên
      → Real conversation has BUILD (listen, formulate, respond, adjust)
      → Problem: likes cho nhiều nhưng shallow; conversation ít nhưng deep
-     → Modern humans thường chọn nhiều + shallow → L2 không sustain
+     → Modern humans thường chọn nhiều + shallow → Valence-Structural không sustain
 
   6. AI GENERATED ART vs TỰ VẼ:
      → Output có ngay, 0 BUILD phase
@@ -2643,7 +2643,7 @@ TẠI SAO KEEP:
 
 
 ─────────────────────────────────────────────────────────────
-TYPE 2 — PEER SOCIAL THREATS (L2 navigation training, KEEP)
+TYPE 2 — PEER SOCIAL THREATS (Valence-Structural navigation training, KEEP)
 ─────────────────────────────────────────────────────────────
 
 VÍ DỤ:
@@ -2656,18 +2656,18 @@ VÍ DỤ:
 
 TÍNH CHẤT:
   → Real — relationships thật, consequences thật
-  → L2 Connection channel training (body-base evolved needs)
+  → Valence-Structural Connection channel training (body-base evolved needs)
   → Scale thường trung bình — không existential nhưng stingful
   → Complex — nhiều factors, không có single correct answer
 
 VAI TRÒ:
-  → Dạy L2 navigation — social skills, empathy, conflict resolution
+  → Dạy Valence-Structural navigation — social skills, empathy, conflict resolution
   → Body learn "mình trong context xã hội thế nào"
   → Chunks về human behavior compile từ experience
   → Resilience để handle future complex relationships
 
 TẠI SAO KEEP:
-  → Con người là loài xã hội — L2 navigation là core survival skill
+  → Con người là loài xã hội — Valence-Structural navigation là core survival skill
   → Không có exposure = không có chunks = không competent adult
   → Sheltered trẻ khỏi mọi social conflict → trẻ không learn
   → Đây là tại sao "homeschooled in isolation" thường có social deficits
@@ -2699,7 +2699,7 @@ TẠI SAO KEEP:
     Sau khi safe, để trẻ tự resolve lại
 
 → B thường là optimal. A quá sheltering. C chỉ khi cần.
-→ Peer social threats là cách DUY NHẤT để build real L2 chunks
+→ Peer social threats là cách DUY NHẤT để build real Valence-Structural chunks
 
 
 NHƯNG CAVEAT — CÓ GIỚI HẠN:
@@ -2789,16 +2789,16 @@ TẠI SAO KHÔNG ELIMINATE HOÀN TOÀN NHƯNG REDUCE MẠNH:
 TÓM TẮT 3 TYPES:
 ─────────────────────────────────────────────────────────────
 
-┌─────────────────┬────────────────┬────────────────┬────────────────┐
-│                 │ DOMAIN         │ PEER SOCIAL    │ IMPOSED ADULT  │
-├─────────────────┼────────────────┼────────────────┼────────────────┤
-│ Source          │ Reality itself │ Peer group     │ Authority figure│
-│ Body-confirm    │ Yes, immediate │ Yes, messy     │ No, artificial │
-│ Cortisol level  │ Low-Medium     │ Medium         │ Varies (often ↑)│
-│ Chunk assoc.    │ Positive-neut. │ Mixed          │ Often negative │
-│ Long-term value │ High           │ High           │ Low-Medium     │
-│ Action          │ KEEP + enable  │ KEEP + monitor │ REDUCE gradual │
-└─────────────────┴────────────────┴────────────────┴────────────────┘
+┌───────────────────┬──────────────────┬────────────────┬────────────────┐
+│                   │ DOMAIN           │ PEER SOCIAL    │ IMPOSED ADULT  │
+├───────────────────┼──────────────────┼────────────────┼────────────────┤
+│ Source            │ Reality itself   │ Peer group     │ Authority figure│
+│ Body-confirm      │ Yes, immediate   │ Yes, messy     │ No, artificial │
+│ Cortisol level    │ Low-Medium       │ Medium         │ Varies (often ↑)│
+│ Chunk association │ Positive-neutral │ Mixed          │ Often negative │
+│ Long-term value   │ High             │ High           │ Low-Medium     │
+│ Action            │ KEEP + enable    │ KEEP + monitor │ REDUCE gradual │
+└───────────────────┴──────────────────┴────────────────┴────────────────┘
 
 → "Eliminate threat" không phải target
 → Target: KEEP 2 types đầu (features) + REDUCE type 3 (tool có điều kiện)

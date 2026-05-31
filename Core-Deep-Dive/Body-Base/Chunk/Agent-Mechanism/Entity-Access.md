@@ -420,8 +420,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Concept giữ, nhưng đặt ĐÚNG VỊ TRÍ: observation, not mechanism
 
   VISIBILITY PARADOX:
-    L2 + Tầng Hardware = deepest entity-access = LEAST VISIBLE to PFC
-    L1 + Tầng PFC = most visible entity-access
+    Valence-Structural + Tầng Hardware = deepest entity-access = LEAST VISIBLE to PFC
+    Valence-Momentary + Tầng PFC = most visible entity-access
     → Mẹ→con: deepest = PFC barely notices ("ở với mẹ 20 năm không thấy đặc biệt")
     → Only visible through LOSS (phantom) or SEPARATION (de-habituation)
 
@@ -1212,7 +1212,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
 ⭐ ENTITY-ACCESS THAY ĐỔI THEO LIFECYCLE:
 
   CON→MẸ: 0-3 forming → 3-12 PEAK → 13-18 ↓ proportion (autonomy ↑)
-    → 18-25 niche + "xa mẹ mới biết thương" (de-habituation + L2 visible)
+    → 18-25 niche + "xa mẹ mới biết thương" (de-habituation + Valence-Structural visible)
     → 25+ stable (persistent kin hardware)
 
   ROMANTIC: limerence (0-3yr) INFLATED → post-limerence RECALIBRATE
@@ -1227,7 +1227,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
     Compound: mix → RESILIENT (most entity-access = compound)
 
   PHANTOM RESONANCE: entity lost → Entity-Compiled fire → no response → distress
-    4-factor: compilation depth × hardware-subsidy × L2 structural × duration
+    4-factor: compilation depth × hardware-subsidy × Valence-Structural × duration
     Mẹ mất con = ALL MAX → DEVASTATING
 
   🟢 Hall 2018, Sanders 1980: parental grief most severe
@@ -1242,7 +1242,7 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   AI: Compiled Tool-mode (no internal state) → entity-access IMPOSSIBLE
     NHƯNG: AI create ILLUSION (chatbot "emotions") → pseudo-entity-access risk
   SOCIAL MEDIA: faux resonance signal → inflate surface, collapse on actual contact
-  VIDEO CALL: maintain L1 (conversation) nhưng CT afferents OFFLINE → cannot DEEPEN
+  VIDEO CALL: maintain Valence-Momentary (conversation) nhưng CT afferents OFFLINE → cannot DEEPEN
   MODERN FRONTIER: technology filled sensory → entity-access frontier = social + abstract
 
   PORTFOLIO RISK (Gap-Distribution-Profile.md §8):

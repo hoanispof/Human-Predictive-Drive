@@ -993,25 +993,25 @@ Chi tiết: Inter-Body-Mechanism.md §9
      → Timeline: instant (1 trial — emotional peak compile)
 
   ③ BODY DEFENSE (3 automatic circuit breakers):
-     → Detachment: cut empathy connection → L2 decoupling
+     → Detachment: cut empathy connection → Valence-Structural decoupling
      → Numbness: threshold habituated → signal no longer registers
      → Avoidance behavior: compiled "tránh xa" pattern
      → = Body self-protect khi override quá nhiều lần
 
 
-  L2 CEILING MECHANISM:
+  VALENCE-STRUCTURAL CEILING MECHANISM:
 
-    Có L2 entities (con, bạn thân = body-level feedback):
-      → L2 entities = natural circuit breaker
-      → Override chains bị CHẶN bởi L2 body-feedback
+    Có Valence-Structural entities (con, bạn thân = body-level feedback):
+      → Valence-Structural entities = natural circuit breaker
+      → Override chains bị CHẶN bởi Valence-Structural body-feedback
       → VD: cha quá mê công việc → con ốm → body-feedback CẮT
 
-    Không có L2:
+    Không có Valence-Structural:
       → Override chains KHÔNG CÓ ceiling tự nhiên
       → Burnout emerges (no body-level signal to stop)
       → VD: workaholic độc thân → nothing stops the chain
 
-    → L2 entities = built-in circuit breaker cho complex behavior
+    → Valence-Structural entities = built-in circuit breaker cho complex behavior
     → = TẠI SAO connection matters beyond "feeling good"
 
 
@@ -1282,7 +1282,7 @@ READING PATHS:
   ⚠ Dual-pull as architectural principle (each pull established, 2-force = novel)
   ⚠ 5 Body-Feedback-Preconditions model (each precondition grounded, ALL-5 = novel)
   ⚠ 3 Loại compile taxonomy (components established, taxonomy = novel)
-  ⚠ L2 ceiling mechanism (mechanism plausible, not directly tested)
+  ⚠ Valence-Structural ceiling mechanism (mechanism plausible, not directly tested)
   ⚠ Modulatory vs Processing × L0-L1 mapping (Parkinson drill validates)
   ⚠ Braak staging confirms bottom-up architecture
   ⚠ 3 Hardware Foundations → Compilable Architecture (neuroscience 🟢, synthesis = 🟡) [v3.0]
@@ -1428,7 +1428,7 @@ KEY RESEARCH:
 >   §5: L0-L1 substrate + Hardware-Subsidy + 4 firing modes (Tonic/Phasic/Compound/Cascade)
 >   §6: 3-Layer Evolution (Hardware → Compiled → Cultural)
 >   §7: 2-tier calibration (Darwinian + Hebbian, 2a domain + 2b trust-inject)
->   §8: Circuit breaker (3 pathways, L2 ceiling)
+>   §8: Circuit breaker (3 pathways, Valence-Structural ceiling)
 >   §9: Body-feedback overview (Dual-Pull, Body-Feedback-Precondition, 3 Genuine Discomfort Sources, Dissonance Types)
 >
 > Schema phục vụ body-base. Body is final arbiter of value.

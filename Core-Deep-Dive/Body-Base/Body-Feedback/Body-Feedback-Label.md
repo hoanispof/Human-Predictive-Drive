@@ -841,7 +841,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ cost (general)          │ TOTAL COST = ① + ② + ③.                 │
   │                         │ Dùng: khi nói chung "interaction costly".│
   │                         │                                          │
-  │ ① PFC draft cost        │ PFC chain novel paths → metabolic.      │
+  │ ① PFC draft cost        │ PFC chain novel paths → processing load.│
   │                         │ f(chain_length × novelty_degree).        │
   │                         │ = Fresh processing (§8) has COST.        │
   │                         │ Dùng: khi mô tả cognitive effort.        │

@@ -83,7 +83,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > (fill → create new gaps → perpetual reward).
 >
 > NHƯNG — bạn vẫn CẦN destination (Imagine-Final) để journey CÓ DIRECTION.
-> Không có direction = Boredom (Mode 3 Spinning).
+> Không có direction = Boredom (Drive-PFC-Spinning).
 >
 > Đích đến = **LA BÀN**. Không phải phần thưởng.
 > Phần thưởng nằm TRONG chuyến đi (Pathway 1).
@@ -323,7 +323,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Journey CẦN gap-direction (Imagine-Final) để Pathway 1 fire.
     Journey KHÔNG CÓ direction = no inconsistency to resolve
     = no cortisol drop = no opioid = NO REWARD.
-    = Boredom (Mode 3 Spinning), không phải happiness.
+    = Boredom (Drive-PFC-Spinning), không phải happiness.
 
   IF GENUINELY JOBS' QUOTE — INTERNAL CONSISTENCY:
     "Stay Hungry" (C2): Generative satiation = never full
@@ -398,7 +398,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = Imagine-Final IS NEEDED.
     = Imagine-Final §3.3: PFC bật khi dissonance → build target → body preview
     = Imagine-Final tạo GAP-DIRECTION (Gap-Direction §1.1)
-    = Không có Imagine-Final = không có direction = Boredom Mode 3 Spinning
+    = Không có Imagine-Final = không có direction = Boredom Drive-PFC-Spinning
     = Le Guin KHÔNG reject destination — ACKNOWLEDGE its value.
 
   TẦNG 2 — "BUT THE JOURNEY THAT MATTERS":
@@ -529,7 +529,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ③ DIRECTION IS ESSENTIAL:
     5/6 quotes = binary (journey vs destination). Only Le Guin: both needed.
     Imagine-Final NEEDED cho gap-direction.
-    Journey KHÔNG CÓ direction = Boredom Mode 3 Spinning.
+    Journey KHÔNG CÓ direction = Boredom Drive-PFC-Spinning.
     Destination = la bàn → cần có, không phải phần thưởng.
 
   ④ DOMAIN FEEDBACK = ARBITER:
@@ -591,7 +591,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
   FM-J1: JOURNEY KHÔNG CÓ DIRECTION — Boredom
     Boredom formula (§1.1): Dissonance + Imagine-Final CHƯA RÕ = "chán."
-    Journey không Imagine-Final = không gap-direction = Mode 3 Spinning.
+    Journey không Imagine-Final = không gap-direction = Drive-PFC-Spinning.
 
   FM-J2: TONIC HABITUATION — "chán dù đang trên journey"
     Journey ở Tonic profile: habituate slowly (Weber-Fechner).

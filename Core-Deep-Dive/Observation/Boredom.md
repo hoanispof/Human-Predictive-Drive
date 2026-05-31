@@ -38,7 +38,7 @@ dependencies:
   - Body-Feedback-Mechanism.md v2.0 §3.2 — Chunk-Miss (ⓑ MISS MỜ = boredom substrate)
   - Observation/Novelty.md v1.1 — PULL (contrast: boredom = thiếu pull)
   - Observation/Threat.md v1.1 — PUSH (boredom ≠ threat)
-  - Observation/Drive.md v1.1 — Mode 3 Spinning ≈ boredom territory
+  - Observation/Drive.md v1.2 — Drive-PFC-Spinning ≈ boredom territory
   - Observation/Meaning.md v2.1 — Loại 3 trống → meaning question gateway
   - Cortisol-Baseline.md v2.1 — cortisol modes, baseline drift
   - Imagine-Final-Evaluation.md — Imagine-Final clarity
@@ -121,7 +121,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Boredom LÀ:
     ○ Observable state trong cycle: drive CÓ nhưng THIẾU direction
     ○ "Body biết thiếu gì đó — PFC không biết làm gì"
-    ○ Mode 3 Spinning territory (Drive.md §2)
+    ○ Drive-PFC-Spinning territory (Drive.md §2)
 
   3 TRẠNG THÁI CƠ BẢN khi observe drive patterns:
     Novelty: PULL toward (có hướng, có reward)
@@ -1268,7 +1268,7 @@ CASE 5 — "Scroll MXH mà vẫn chán" (Loại 1, bù tạm):
   ↔ SONG SONG (Observation/ folder):
     Observation/Novelty.md v1.1 — PULL (boredom = thiếu pull + direction)
     Observation/Threat.md v1.1 — PUSH (boredom ≠ threat, threat lock → loại 2)
-    Observation/Drive.md v1.1 §2 — Mode 3 Spinning ≈ boredom territory
+    Observation/Drive.md v1.2 §2 — Drive-PFC-Spinning ≈ boredom territory
     Observation/Meaning.md v2.1 — Loại 3 trống → meaning question gateway
 
   → DOWNSTREAM:

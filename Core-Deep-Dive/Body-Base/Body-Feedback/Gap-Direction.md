@@ -2254,7 +2254,7 @@ FILE NÀY:
 
     ② SUPPRESS COST — "Output miss my direction → must suppress reaction"
        → Anti-match → body fires dissonance → want to react (withdraw/fight)
-       → Social context requires suppress → PFC override → glucose
+       → Social context requires suppress → PFC override → processing load
        → VD: CEO change → employee SUPPRESS frustration daily = costly
        → = Chronic direction-mismatch + suppress = burnout trajectory
 

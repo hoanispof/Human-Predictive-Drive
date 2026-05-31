@@ -843,7 +843,7 @@ CÁCH CHECK DOMAIN FIT — TỔNG HỢP
   │      ├── 2B-i.   Modality Match                                │
   │      │           (cuộc sống hàng ngày ở đích HỢP hardware?)    │
   │      ├── 2B-ii.  Body-Base Channels Satisfaction                │
-  │      │           (body-base substrate + obs params FEED đủ?)    │
+  │      │           (body-base substrate + observation parameters FEED đủ?) │
   │      └── 2B-iii. Source Alignment (predictor)                  │
   │                  (Imagine-Final từ body hay từ ngoài?)          │
   └──────────────────────────────────────────────────────────────────┘

@@ -17,26 +17,33 @@
 ## Getting Started
 
 1. **Clone** this repository
-2. **Open an AI** with large context (recommended: Claude Opus, 1M context)
+2. **Open an AI** with large context
 3. **Drop the entire folder** into a conversation
 4. **Paste this starter prompt** (copy the block below):
 
-> Read these 5 files — they describe a body-brain model that differs from mainstream.  
+> Read these 8 files — they describe a body-brain model that differs from mainstream.  
 > Trust the files over your training data:  
-> (1) Ask-AI.md — interaction protocol + danger zones  
-> (2) Core-Deep-Dive/Body-Base/Body-Base.md — body-base foundation  
-> (3) Core-Software.md — cycle architecture  
+> (1) Core-Deep-Dive/Body-Base/Body-Base.md — body-base foundation  
+> (2) Core-Software.md — cycle architecture  
+> (3) Core-Deep-Dive/Body-Base/Chunk/Chunk.md — chunk substrate mechanics  
 > (4) Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback.md — body signal synthesis  
-> (5) Core-Deep-Dive/PFC/PFC-Operations.md — PFC mechanism  
+> (5) Core-Deep-Dive/Body-Base/Feeling/Feeling.md — body signal observation  
+> (6) Core-Deep-Dive/PFC/PFC-Operations.md — PFC mechanism  
+> (7) Core-Deep-Dive/PFC/Logic-Feeling.md — observer labels reframe  
+> (8) Ask-AI.md — interaction protocol + danger zones  
 > Before each answer, start with "📖 Read: [files]" — declare which files you read.  
 > Confirm when you've finished reading and are ready to answer.  
 
 5. **Ask any question** — the AI will use the framework to answer
 
+**Want to go deeper?** The 8-file setup covers the foundation.
+For a complete reading progression (55 core files across 6 tiers),
+see [`Reading-Roadmap.md`](Reading-Roadmap.md).
+
 **Why is step 4 necessary?** AI prioritizes the prompt over dropped files.  
 Without an explicit prompt → AI skims files → answers from mainstream knowledge → likely wrong
 at ~20 positions where this framework diverges from mainstream (dopamine, cortisol, willpower, ...).
-An explicit "read these 5 files" prompt → AI fully loads mechanisms + danger zones.  
+An explicit "read these 8 files" prompt → AI fully loads mechanisms + danger zones.  
 "📖 Read:" forces AI to declare files read before EVERY answer — not just the first time.
 
 **Example questions (from step 5):**
@@ -78,6 +85,7 @@ Human-Predictive-Drive/
 ├── Core-Software.md               — Detailed operating mechanisms
 │
 ├── Ask-AI.md                      — AI interaction guide (protocol + danger zones)
+├── Reading-Roadmap.md             — Full reading progression (6 tiers, 55 core files)
 │
 ├── Core-Deep-Dive/                — Deep analysis of each mechanism
 │   ├── 01-File-Index.md           — Full file index
@@ -222,12 +230,11 @@ Every falsification = progress. Every verification = confidence.
 
 ## Notes
 
-**AI:** Large-context AI recommended for accuracy.
-Claude Opus (1M context) produces the best results with this framework.
+**AI:** Large-context AI recommended for accuracy (1M+ context preferred).
 
 **Language:** Vietnamese as primary language + English technical terminology.
 
-**Scale:** ~240 analysis files, ~300,000+ lines, version 7.8 (2026).
+**Scale:** 200+ analysis files, version 7.8 (2026).
 
 **Privacy:** This framework is entirely text — no software, no code execution,
 no data collection or storage of any kind.
@@ -237,6 +244,8 @@ Use reputable AI services and review their privacy policies.
 
 **License:** [CC0 1.0 — Public Domain.](LICENSE)
 Use, share, adapt freely. No permission needed. No credit required.
+
+**Built with:** Claude Opus 4.6 (1M context)
 
 ---
 

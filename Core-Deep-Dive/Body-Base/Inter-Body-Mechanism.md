@@ -2,11 +2,12 @@
 title: Inter-Body Mechanism — Tại sao và Bằng cách nào 2 Body-Base tương tác
 version: 2.0
 created: 2026-05-16
-updated: 2026-05-23
+updated: 2026-05-31
 refined: |
-  2026-05-23 (v1.1 — Concept Cascade: +refs to ALL formal files from 28-session Drill. Updated versions. +Simulation-Engine, +Entity-Access, +Hardware-Subsidy)
+  2026-05-31 (v2.1 — §4.2 PFC Draft Cost: glucose/metabolic → processing load. Gailliot→Kurzban+Musslick+Arnsten. Cross-ref PFC-Operations v1.3 §8.3)
   2026-05-23 (v2.0 — Architecture Rename: Architecture A → Hardwired Architecture, Architecture B → Compilable Architecture. Descriptive names throughout)
-status: MECHANISM FILE v2.0
+  2026-05-23 (v1.1 — Concept Cascade: +refs to ALL formal files from 28-session Drill. Updated versions. +Simulation-Engine, +Entity-Access, +Hardware-Subsidy)
+status: MECHANISM FILE v2.1
 scope: |
   SOURCE-OF-TRUTH cho kiến trúc inter-body tương tác.
   8 nguyên tắc nền tảng từ drill session 2026-05-16 (6 rounds, 2,259L + 409L summary).
@@ -556,10 +557,10 @@ Cost KHÔNG đến từ "dùng logic" per se.
 Cost đến từ 3 NGUỒN RIÊNG BIỆT, INDEPENDENT.
 ```
 
-### §4.2 — Source ① PFC Draft Cost (metabolic)
+### §4.2 — Source ① PFC Draft Cost (processing load)
 
 ```
-SOURCE: PFC chain novel paths → glucose + neurotransmitters consumed
+SOURCE: PFC chain novel paths → processing load (serial bottleneck + catecholamine demand)
 SCALE:  f(chain_length × novelty_degree)
 
   Chain NGẮN, compiled:
@@ -580,7 +581,10 @@ SCALE:  f(chain_length × novelty_degree)
 → Einstein's "moderate" < người thường's "extreme" cho CÙNG bài
 → Compiled building blocks GIẢM draft needed per step
 
-🟢 Cognitive effort = metabolic cost (Gailliot & Baumeister 2007).
+🟢 Kurzban 2013: cognitive effort = opportunity cost signal.
+🟢 Musslick & Cohen 2021: shared representations → serial bottleneck.
+🟢 Arnsten 2009: sustained PFC requires DA/NE → depletes with prolonged use.
+(Chi tiết mechanism: PFC-Operations.md v1.3 §8.3)
 ```
 
 ### §4.3 — Source ② Suppress Cost (efference mismatch)
@@ -1088,7 +1092,7 @@ KHI 2 PEOPLE INTERACT: BOTH PFCs may be "lawyering"
 ① POSITIVE-DOMINANT (≈ old "Entity-Owned"):
    Majority channels positive. Presence = approach + reward. Loss = grief.
    Example: bạn thân lâu năm, con cái, mẹ healthy relationship.
-   Mechanism: repeated feed → L2 threshold cross → structural compile.
+   Mechanism: repeated feed → Valence-Structural threshold cross → structural compile.
 
 ② NEGATIVE-DOMINANT:
    Majority channels negative. Presence = threat/dissonance. Loss = relief.
@@ -1130,15 +1134,15 @@ Entity-Compiled: "entity's state = MY state" (structural, automatic)
 Obligation:      "predict cost to MAINTAIN access" (prediction, PFC-mediated)
 
 CÓ THỂ ĐỘC LẬP:
-  L2 HIGH + Obligation LOW:  bạn thân → vui tự động, không "nợ" gì
-  L2 LOW + Obligation HIGH:  ân nhân xa lạ → không thân nhưng "phải trả"
-  L2 HIGH + Obligation HIGH: bố mẹ → yêu thương + cảm thấy phải chăm sóc
-  L2 LOW + Obligation LOW:   stranger → no drive either way
+  Valence-Structural HIGH + Obligation LOW:  bạn thân → vui tự động, không "nợ" gì
+  Valence-Structural LOW + Obligation HIGH:  ân nhân xa lạ → không thân nhưng "phải trả"
+  Valence-Structural HIGH + Obligation HIGH: bố mẹ → yêu thương + cảm thấy phải chăm sóc
+  Valence-Structural LOW + Obligation LOW:   stranger → no drive either way
 
 SUSTAINABILITY:
-  L2 HIGH + Obligation vô tư (type A) = MOST SUSTAINABLE
-    Giúp nhau = vui (L2) + maintain (obligation satisfied). Self-reinforcing.
-  L2 LOW + Obligation bắt buộc (type C) = UNSUSTAINABLE
+  Valence-Structural HIGH + Obligation vô tư (type A) = MOST SUSTAINABLE
+    Giúp nhau = vui (Valence-Structural) + maintain (obligation satisfied). Self-reinforcing.
+  Valence-Structural LOW + Obligation bắt buộc (type C) = UNSUSTAINABLE
     No reward + chronic cost = obligation-trapped (Resonance §9).
 
 Cross-ref: Obligation.md v1.0 §2-§4 chi tiết.
@@ -1322,7 +1326,7 @@ FAR FUTURE (speculative):
  4. μ-opioid in social play (Panksepp 1998)
  5. Dual inheritance genes+culture (Boyd & Richerson 2005)
  6. Cumulative cultural evolution uniquely human (Tomasello 2009)
- 7. Cognitive effort = metabolic cost (Gailliot & Baumeister 2007)
+ 7. Cognitive effort = processing load (Kurzban 2013, Musslick & Cohen 2021, Arnsten 2009)
  8. Expert intuition = compiled patterns (Kahneman 2011, Klein 1998)
  9. PFC confabulation / lawyer function (Gazzaniga split-brain)
 10. Compiled/Fresh cost difference (established dual-process literature)
@@ -1439,7 +1443,9 @@ FORMAL FILES CREATED FROM THIS DRILL (28-session Propagation):
 │ Schultz 1997                  │ Dopamine prediction error             │
 │ Tomasello 2009                │ Cumulative cultural evolution         │
 │ Boyd & Richerson 2005         │ Dual inheritance genes+culture        │
-│ Gailliot & Baumeister 2007    │ Cognitive effort = metabolic cost     │
+│ Kurzban 2013                  │ Cognitive effort = opportunity cost   │
+│ Musslick & Cohen 2021         │ Shared representations → bottleneck  │
+│ Arnsten 2009                  │ PFC catecholamine modulation         │
 │ Kahneman 2011                 │ System 1/2 ≈ Compiled/Fresh          │
 │ Klein 1998                    │ Recognition-primed (expert intuition) │
 │ Gazzaniga (split-brain)       │ PFC confabulation / "lawyer"          │
@@ -1453,7 +1459,7 @@ FORMAL FILES CREATED FROM THIS DRILL (28-session Propagation):
 │ Segal 2012                    │ Identical > fraternal closeness       │
 │ Hull 2017                     │ Masking = chronic Fresh compensation  │
 │ Bird & Cook 2013              │ Alexithymia breaks feedback loop      │
-│ Bowlby 1969/1982              │ Attachment = secure L2 + obligation   │
+│ Bowlby 1969/1982              │ Attachment = secure Valence-Structural + obligation   │
 │ Jecker & Landy 1969           │ Ben Franklin Effect                   │
 │ Singer 2004                   │ Shared neural activation (empathy)    │
 └──────────────────────────────┴────────────────────────────────────────┘

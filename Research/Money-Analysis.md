@@ -35,7 +35,7 @@ dependencies:
     - Reward-Economics.md v5.5 — §1 hai tầng thưởng, §6 tiền = proxy token, §7-8 phân phối
   secondary:
     - Meaning.md v2.0 — life-level Anchor-Schema, 5 types, IDENTITY lock
-    - Connection.md v3.1 — L2 bonds, §3.3 2-luồng, §9 calibration 2 bodies
+    - Connection.md v3.1 — Valence-Structural bonds, §3.3 2-luồng, §9 calibration 2 bodies
     - Collective-Body.md v1.1 — Model 3 Cấp, §5 trust = bridge, §8.4 AI trust entity
     - Knowledge-Flow.md — internal→output→external chunk, intergenerational flow
     - Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT
@@ -309,7 +309,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├───────────────┼──────────────────────────┼──────────────────────────┤
   │ LÀ GÌ         │ Tool truyền chunks       │ Tool truyền VALUE        │
   │ MẠNH NHẤT      │ Explicit communication   │ Explicit exchange        │
-  │ YẾU NHẤT       │ Implicit (tacit)         │ Implicit (L2 bonds)     │
+  │ YẾU NHẤT       │ Implicit (tacit)         │ Implicit (Valence-Structural bonds)│
   │ SCALE          │ Enable complex society   │ Enable complex economy  │
   │ KHÔNG thay thế │ Trải nghiệm thật        │ Body-base reward thật   │
   │ GIỚI HẠN       │ "Biết hơn nói được"     │ "Có tiền mà không mua  │
@@ -966,33 +966,33 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Premature compilation under over-reward = framework synthesis
 ```
 
-### §5.5 — ⑤ Tiền phá hủy L2 bonds
+### §5.5 — ⑤ Tiền phá hủy Valence-Structural bonds
 
 ```
 ⭐ PARADOX — ÂN TÌNH TỒN TẠI NƠI TIỀN BỊ CẤM (Obligation.md §5.2):
 
-  L2 RELATIONSHIPS (bố mẹ, con, bạn thân):
-    Monetize = signal "đây là Exchange mode, KHÔNG phải L2"
-    → Agent detect signal → L2 bond PHỦ NHẬN → hurt
+  Valence-Structural RELATIONSHIPS (bố mẹ, con, bạn thân):
+    Monetize = signal "đây là Exchange mode, KHÔNG phải Valence-Structural"
+    → Agent detect signal → Valence-Structural bond PHỦ NHẬN → hurt
     → "Bạn trả tiền cho tôi?! Tôi giúp vì tôi QUAN TÂM!"
-    → = Tiền PHÁ HỦY thứ làm relationship CÓ GIÁ TRỊ (L2 bond)
+    → = Tiền PHÁ HỦY thứ làm relationship CÓ GIÁ TRỊ (Valence-Structural bond)
 
   VÍ DỤ:
     Con trai bảo mẹ: "con trả mẹ $50,000 cho 18 năm nuôi"
-      → Mẹ: hurt. Vì mẹ nuôi bằng L2, KHÔNG PHẢI Exchange mode.
-      → Monetize L2 = deny L2 = phá hủy bond.
+      → Mẹ: hurt. Vì mẹ nuôi bằng Valence-Structural, KHÔNG PHẢI Exchange mode.
+      → Monetize Valence-Structural = deny Valence-Structural = phá hủy bond.
     Bạn thân giúp dọn nhà. Bạn đưa tiền.
       → Bạn thân: "tôi giúp vì bạn, KHÔNG vì tiền"
-      → Đưa tiền = reclassify relationship từ L2 → Exchange
+      → Đưa tiền = reclassify relationship từ Valence-Structural → Exchange
       → = DOWNGRADE relationship
 
   NGHỊCH LÝ:
-    → Relationship QUAN TRỌNG NHẤT = L2 cao nhất
+    → Relationship QUAN TRỌNG NHẤT = Valence-Structural cao nhất
     → = Nơi obligation NẶNG NHẤT (implicit, unbounded)
     → = Nơi giải pháp HIỆU QUẢ NHẤT (tiền) KHÔNG THỂ dùng
-    → = Trade-off: L2 cao → obligation nặng → nhưng L2 buffer cao → net OK
-    → = Relationship LÀNH MẠNH: obligation + L2 buffer = bearable
-    → = Relationship TOXIC: obligation cao + L2 suy yếu = trapped
+    → = Trade-off: Valence-Structural cao → obligation nặng → nhưng Valence-Structural buffer cao → net OK
+    → = Relationship LÀNH MẠNH: obligation + Valence-Structural buffer = bearable
+    → = Relationship TOXIC: obligation cao + Valence-Structural suy yếu = trapped
 
   🟢 Crowding out effect: Frey & Jegen 2001
   🟡 "Ân tình ở boundary tiền bị cấm" = framework insight
@@ -1050,8 +1050,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ ④ │ Premature compilation │ Trúng số/thừa kế → quyết định sai →     │
   │   │                       │ mất tiền → chunks lệch cascade           │
   ├───┼───────────────────────┼──────────────────────────────────────────┤
-  │ ⑤ │ L2 bond destruction   │ Monetize L2 → hurt. Ân tình ở boundary  │
-  │   │                       │ tiền bị cấm                              │
+  │ ⑤ │ Valence-Structural    │ Monetize Valence-Structural → hurt.      │
+  │   │ bond destruction      │ Ân tình ở boundary tiền bị cấm           │
   ├───┼───────────────────────┼──────────────────────────────────────────┤
   │ ⑥ │ Habituation blindness │ "Mua iPhone mới nhưng than nước đắt"    │
   │   │                       │ = novelty > essential allocation          │
@@ -1060,7 +1060,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⚠️ 6 cơ chế CÓ THỂ OVERLAP trong practice:
     → ① + ② đồng thời: threshold adapt + internal drive bị kill
     → ④ + ① : premature compilation → threshold adapt nhanh hơn
-    → ⑤ + ③ : L2 bị phá + bridge dependency = double isolated
+    → ⑤ + ③ : Valence-Structural bị phá + bridge dependency = double isolated
 ```
 
 ---
@@ -1085,12 +1085,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ 7 TRƯỜNG HỢP TIỀN KHÔNG FILL ĐƯỢC GAP:
 
-  ① MẤT NGƯỜI THÂN (Chunk-Shift + L2 structural loss):
+  ① MẤT NGƯỜI THÂN (Chunk-Shift + Valence-Structural loss):
     → Body đang re-calibrate TOÀN BỘ baseline
-    → L2 bond = structural part of body-base (Body-Coupling.md)
-    → Tiền không rebuild L2 bond → gap VẪN CÒN
+    → Valence-Structural bond = structural part of body-base (Body-Coupling.md)
+    → Tiền không rebuild Valence-Structural bond → gap VẪN CÒN
     → "Người ta đang chới với mà bạn đưa tiền"
-    → Agent-Mechanism.md §12.6: grief = L2 structural loss
+    → Agent-Mechanism.md §12.6: grief = Valence-Structural loss
 
   ② "GIÀU NHƯNG EMPTINESS" (Meaning gap):
     → Gap = thiếu life-level Anchor-Schema (Meaning.md §1)
@@ -1115,9 +1115,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⑤ CÔ ĐƠN (Social dissonance):
     → ❶ hardware social drive fire → không đủ response
     → Connection.md: 3 Generative Primitives cần agent THẬT
-    → Tiền mua "người xung quanh" nhưng KHÔNG mua L2 bond
-    → L2 = compiled qua THỜI GIAN + EXPERIENCE, không mua được
-    → "Cô đơn giữa đám đông" = có people, thiếu L2
+    → Tiền mua "người xung quanh" nhưng KHÔNG mua Valence-Structural bond
+    → Valence-Structural = compiled qua THỜI GIAN + EXPERIENCE, không mua được
+    → "Cô đơn giữa đám đông" = có people, thiếu Valence-Structural
 
   ⑥ MẤT SỨC KHỎE (Hardware damage):
     → Tiền mua thuốc, treatment → TOOL cho repair
@@ -1142,7 +1142,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Gap đã shift sang:
     → Meaning (phòng "ý nghĩa" — tiền không chìa khóa)
-    → Connection (phòng "thuộc về" — tiền phá L2)
+    → Connection (phòng "thuộc về" — tiền phá Valence-Structural)
     → Autonomy (phòng "tự làm" — tiền thuê người = ngược)
     → Health (phòng "cơ thể" — tiền chỉ assist)
     → Coherence (phòng "hiểu biết" — tiền bypass process)
@@ -1157,30 +1157,30 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §6.3 — Nơi relationship sâu nhất = nơi tiền bị cấm
 
 ```
-⭐ SCALE NGHỊCH ĐẢO: L2 DEPTH × TIỀN EFFECTIVENESS:
+⭐ SCALE NGHỊCH ĐẢO: Valence-Structural DEPTH × TIỀN EFFECTIVENESS:
 
-  ┌────────────────────┬──────────────┬──────────────────────┐
-  │ Relationship depth │ Tiền role    │ Example              │
-  ├────────────────────┼──────────────┼──────────────────────┤
-  │ Stranger           │ MẠNH NHẤT    │ Mua hàng → OK        │
-  │ (L2 = 0)           │ 100% Exchange│                      │
-  ├────────────────────┼──────────────┼──────────────────────┤
-  │ Đồng nghiệp       │ MỘT PHẦN    │ Lương + recognition   │
-  │ (L2 thấp-moderate) │ Exchange+L2  │                      │
-  ├────────────────────┼──────────────┼──────────────────────┤
-  │ Bạn thân           │ GIỚI HẠN    │ Trả tiền = awkward    │
-  │ (L2 cao)           │ L2 > Exchange│                      │
-  ├────────────────────┼──────────────┼──────────────────────┤
-  │ Gia đình/partner   │ BỊ CẤM      │ Monetize = phá L2     │
-  │ (L2 cực cao)       │ 100% L2      │                      │
-  └────────────────────┴──────────────┴──────────────────────┘
+  ┌───────────────────────────────────┬──────────────────────────────┬───────────────────────────────┐
+  │ Relationship depth                │ Tiền role                    │ Example                       │
+  ├───────────────────────────────────┼──────────────────────────────┼───────────────────────────────┤
+  │ Stranger                          │ MẠNH NHẤT                    │ Mua hàng → OK                 │
+  │ (Valence-Structural = 0)          │ 100% Exchange                │                               │
+  ├───────────────────────────────────┼──────────────────────────────┼───────────────────────────────┤
+  │ Đồng nghiệp                      │ MỘT PHẦN                    │ Lương + recognition            │
+  │ (Valence-Structural thấp-moderate)│ Exchange+Valence-Structural  │                               │
+  ├───────────────────────────────────┼──────────────────────────────┼───────────────────────────────┤
+  │ Bạn thân                          │ GIỚI HẠN                    │ Trả tiền = awkward             │
+  │ (Valence-Structural cao)          │ Valence-Structural > Exchange│                               │
+  ├───────────────────────────────────┼──────────────────────────────┼───────────────────────────────┤
+  │ Gia đình/partner                  │ BỊ CẤM                      │ Monetize = phá Valence-Structural│
+  │ (Valence-Structural cực cao)      │ 100% Valence-Structural      │                               │
+  └───────────────────────────────────┴──────────────────────────────┴───────────────────────────────┘
 
-  → L2 càng sâu → tiền càng bị cấm → obligation càng implicit
+  → Valence-Structural càng sâu → tiền càng bị cấm → obligation càng implicit
   → = "Ân tình tồn tại CHÍNH XÁC ở boundary tiền bị cấm"
   → = Trade-off cấu trúc: tiền EFFECTIVE cho exchange,
     HARMFUL cho deep bonds
 
-  🟡 L2 Depth × Tiền effectiveness = inverse relationship = framework insight
+  🟡 Valence-Structural Depth × Tiền effectiveness = inverse relationship = framework insight
 ```
 
 ---
@@ -1230,7 +1230,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   6 TYPES OBLIGATION × TIỀN:
     TYPE 1 (Financial): tiền = SOLUTION hoàn hảo (bounded, clear)
     TYPE 2 (Exchange): tiền = PARTIAL solution (mua hàng hóa/dịch vụ)
-    TYPE 3 (Ân tình): tiền = BỊ CẤM (monetize = phá L2)
+    TYPE 3 (Ân tình): tiền = BỊ CẤM (monetize = phá Valence-Structural)
     TYPE 4 (Role): tiền = NECESSARY nhưng INSUFFICIENT (lương + trust)
     TYPE 5 (Identity): tiền = IRRELEVANT (internal obligation)
     TYPE 6 (Compound): tiền = COMPLEX (mix nhiều types)
@@ -1279,22 +1279,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TIỀN × CONNECTION:
     → Tiền KHÔNG ẢNH HƯỞNG ❶ (hardware = universal)
     → Tiền CÓ THỂ ảnh hưởng ❸ (valence): người giàu = "có thể hữu ích"
-      → Nhưng: valence qua utility ≠ valence qua L2 bond
-    → Tiền CÓ THỂ PHÁ connection: monetize L2 → downgrade (§5.5)
+      → Nhưng: valence qua utility ≠ valence qua Valence-Structural bond
+    → Tiền CÓ THỂ PHÁ connection: monetize Valence-Structural → downgrade (§5.5)
 
   "CÔ ĐƠN GIỮA ĐÁM ĐÔNG" CỦA NGƯỜI GIÀU:
     → Có tiền → nhiều người xung quanh (exchange-motivated)
-    → Nhưng: L2 bonds CÓ THỂ ÍT HƠN (khó phân biệt genuine vs utility)
+    → Nhưng: Valence-Structural bonds CÓ THỂ ÍT HƠN (khó phân biệt genuine vs utility)
     → = "Ai thích tôi vì TÔI, ai thích vì TIỀN?"
     → Schema trust với agents bị NHIỄU vì tiền = confounding variable
     → ❸ valence → uncertain → connection NÔNG dù social circle RỘNG
 
   2-LUỒNG REWARD (Connection.md §3.3):
-    → L1 (Self-Pattern-Modeling-owned): per-exposure, momentary → tiền có thể MUA exposure
-    → L2 (Entity-compiled): structural, over time → tiền KHÔNG mua được
-    → = Tiền mua L1 (quantity), không mua L2 (depth)
+    → Valence-Momentary (Self-Pattern-Modeling-owned): per-exposure, momentary → tiền có thể MUA exposure
+    → Valence-Structural (Entity-compiled): structural, over time → tiền KHÔNG mua được
+    → = Tiền mua Valence-Momentary (quantity), không mua Valence-Structural (depth)
 
-  🟡 "Tiền mua L1 không mua L2" = Connection §3.3 + Obligation §5.2
+  🟡 "Tiền mua Valence-Momentary không mua Valence-Structural" = Connection §3.3 + Obligation §5.2
 ```
 
 ### §7.5 — Tiền × Autonomy
@@ -1675,7 +1675,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → 6 paths "tại sao ai cũng kiếm" = organized classification
     → Gap shift insight: label giữ, mechanism đổi = core contribution
     → Cross-parameter mapping = NEW (chưa file nào cover)
-    → L2 Depth × Tiền effectiveness inverse = structural insight
+    → Valence-Structural Depth × Tiền effectiveness inverse = structural insight
     → Tiền ≈ Ngôn ngữ parallel = meta-insight
 
   GIỚI HẠN:
@@ -1697,8 +1697,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   P2: 6 paths predicts: same behavior ("chase money"), different interventions
       → Measure: classify high-earners by path → tailored intervention → outcomes
 
-  P3: L2 depth × tiền effectiveness inverse predicts:
-      introducing money into L2 relationships will REDUCE relationship satisfaction
+  P3: Valence-Structural depth × tiền effectiveness inverse predicts:
+      introducing money into Valence-Structural relationships will REDUCE relationship satisfaction
       → Measure: relationship satisfaction before/after financial transaction
 
   P4: Premature compilation predicts: sudden wealth without preparation
@@ -1771,7 +1771,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Meaning.md v2.0                  │ §3.3 IDENTITY lock. "Thành công     │
   │                                  │ nhưng emptiness" = meaning gap.     │
   ├──────────────────────────────────┼──────────────────────────────────────┤
-  │ Connection.md v3.1               │ §3.3 2-luồng (L1 buy, L2 not).     │
+  │ Connection.md v3.1               │ §3.3 2-luồng (Valence-Momentary    │
+  │                                  │ buy, Valence-Structural not).       │
   │                                  │ §9 Calibration 2 bodies.            │
   ├──────────────────────────────────┼──────────────────────────────────────┤
   │ Collective-Body.md v1.1          │ §3 Model 3 Cấp. §5 Trust = bridge. │

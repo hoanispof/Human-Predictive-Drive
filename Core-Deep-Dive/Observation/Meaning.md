@@ -45,7 +45,7 @@ dependencies:
   - Anchor-Schema.md — §0 phân biệt, §1 sync mechanism, §2 Trust, §3 4 nguồn fill
   - Imagine-Final.md — 3-layer hierarchy, lifecycle 5 phases, reference pattern
   - Boredom.md v2.0 — Loại 3 TRỐNG = gateway tới meaning question, by-product match dừng
-  - Drive.md v1.2 — PFC Mode 3 Spinning, Signal Strength Model
+  - Drive.md v1.2 — Drive-PFC-Spinning, Signal Strength Model
   - Status.md v2.1 — "Thành công nhưng emptiness"
   - Cortisol-Baseline.md v2.0 — inertia, burnout, direction gate
   - Protect.md v1.1 — identity protect (§3.4), existential crisis
@@ -314,7 +314,7 @@ dependencies:
     → "Cảm thấy có ý nghĩa" ≠ "Sống có ý nghĩa" (Gazzaniga: PFC confabulate)
     → = Tại sao deradicalization KHÓ: phá meaning = phá anchor = body resist
 
-  🟡 Domain=Arbiter for meaning = framework synthesis (Inter-Body-Mechanism §7, LFB v2.0).
+  🟡 Domain=Arbiter for meaning = framework synthesis (Inter-Body-Mechanism §7, Logic-Feeling-Balance v2.0).
   🟢 PFC confabulation = Gazzaniga split-brain studies.
 ```
 
@@ -1838,7 +1838,7 @@ VOCABULARY:
 OBSERVATION PARAMETER FILES (cùng folder):
   → Boredom.md v2.0 — Loại 3 TRỐNG = gateway tới meaning question
   → Status.md v2.2 — "Thành công nhưng emptiness" = anchor exhausted
-  → Drive.md v1.2 — PFC Mode 3 Spinning ≈ meaning territory; drive conflict
+  → Drive.md v1.2 — Drive-PFC-Spinning ≈ meaning territory; drive conflict
   → Protect.md v1.1 — Identity protect blocks anchor change
   → Novelty.md v1.2 — Raw material supplier cho anchor building
   → Connection.md v5.0 — Shared anchors, co-regulation, 4-Layer Sustainability

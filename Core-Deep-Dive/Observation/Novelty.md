@@ -353,7 +353,7 @@ GIÁ TRỊ CỦA FILE NÀY:
 
   PFC BUDGET (PFC-Label.md v1.0, Gap-Distribution-Profile.md v1.1):
     → Novelty seeking LIMITED BY PFC budget: processing fresh input = costly
-    → PFC budget = finite per-day (metabolic, cortisol, sleep)
+    → PFC budget = finite per-day (processing load, cortisol, sleep)
     → Quá nhiều novelty → PFC budget exhausted → shutdown → "overwhelmed"
     → = Tại sao novelty CŨNG CẦN phanh — không chỉ threat (§3 below)
 

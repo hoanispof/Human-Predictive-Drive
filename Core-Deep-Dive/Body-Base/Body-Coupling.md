@@ -73,10 +73,10 @@ dependencies:
   - Body-Base.md v3.1 — §1.2 3 Hardware Foundations, §4.3 Compiled/Fresh axis
   - Connection.md v5.0 — §3.3 2-Stream, §15 8 pathways, Resonance Decline integration
   - Body-Feedback-Mechanism.md v2.0 — §1 Body-Need, §3 3 chunk dynamics, §5 compile_rate
-  - Agent-Mechanism.md v2.0 — §12 body-need feeder, §12.2b L1/L2 transition
+  - Agent-Mechanism.md v2.0 — §12 body-need feeder, §12.2b Valence-Momentary/Valence-Structural transition
   - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Agent-mode, §10 reversed mapping
   - By-Product-Gap-Resonance.md v1.4 — 2-Stream, by-product match, Resonance Baseline
-  - Love-Unified.md v1.1 — L2 Smoothing, 2-axis, 6 types, 9 properties
+  - Love-Unified.md v1.1 — Valence-Structural Smoothing, 2-axis, 6 types, 9 properties
   - Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State × Coupling
   - Empathy.md v4.0 — §4.6 Hardware-Subsidy × empathy, §4.7 per-entity profiles
   - Meaning.md v2.0 — §3.3 IDENTITY anchor (cho identity vacuum)
@@ -197,7 +197,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │                          │ 3 Phase, 4 outcomes, dynamics, 2D model │
     │                          │ +Hardware-Subsidy, +PFC budget, +Entity-Access gradient  │
     ├──────────────────────────┼──────────────────────────────────────────┤
-    │ Love-Unified.md          │ 6 love types, L2 Smoothing general,     │
+    │ Love-Unified.md          │ 6 love types, Valence-Structural Smoothing general,     │
     │                          │ 2-axis model, 9 properties, practical   │
     │                          │ = OBSERVATION file (positive coupling)   │
     ├──────────────────────────┼──────────────────────────────────────────┤
@@ -300,19 +300,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       = "BODY'S DEEP RECORD" — what's STORED about entity
 
     CURRENT VALENCE (per-moment activation):
-      = L1 (Self-Pattern-Modeling momentary) + activated L2 channels AT THIS MOMENT
+      = Valence-Momentary (Self-Pattern-Modeling) + activated Valence-Structural channels AT THIS MOMENT
       = FAST (changes per second, context-dependent)
       = What PFC observes → what person VERBALIZES
       = "BODY'S CURRENT EXPERIENCE" — what's ACTIVATED now
 
     ⭐ KEY DISTINCTION FOR COUPLING:
-      Coupling = STRUCTURAL operation (compiled deep, L2 structural)
+      Coupling = STRUCTURAL operation (compiled deep, Valence-Structural)
       PFC observation = CURRENT (tùy trigger + context + cortisol)
       "Hôm nay ghét mẹ" (current negative) ≠ "hết coupling với mẹ" (structural positive)
       → Same entity, same structural valence → DIFFERENT current valence tùy moment
 
     3 INTENSITY FACTORS (v3.0):
-      ① PFC budget (PFC-Operations v1.0): mệt → coupling FEEL yếu (PFC không observe L2)
+      ① PFC budget (PFC-Operations v1.0): mệt → coupling FEEL yếu (PFC không observe Valence-Structural)
       ② Entity-Access level (Entity-Access v1.2): Mức 0 = coupling OFF, Mức 3-4 = optimal
       ③ Hardware-Subsidy (Entity-Valence-Dynamics.md v1.0 §5): MAX mẹ→con → NONE bạn
 
@@ -355,67 +355,67 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Empathy modulated by fairness: Singer 2006
 ```
 
-### §1.3 — 2 Luồng: L1 (Self-Pattern-Modeling-owned) vs L2 (Entity-Compiled)
+### §1.3 — 2 Luồng: Valence-Momentary (Self-Pattern-Modeling-owned) vs Valence-Structural (Entity-Compiled)
 
 ```
 ⭐ ❸ MANIFESTATION THÀNH 2 LUỒNG REWARD:
 
   (Entity-Valence-Dynamics.md v1.0 §1.4 — chi tiết. Agent-Mechanism §12.2b — origin.)
 
-  Luồng 1 (L1) — Self-Pattern-Modeling-owned, momentary:
+  Luồng 1 (Valence-Momentary) — Self-Pattern-Modeling-owned:
     = Body-feedback TỪ MỖI LẦN Self-Pattern-Modeling Compiled fire trên target
     = Có thể + (bạn vui → vui lây) hoặc - (con ốm → khó chịu)
     = Near-automatic, per-episode
     = THUỘC VỀ Self-Pattern-Modeling mechanism
 
-  Luồng 2 (L2) — Entity-Compiled, structural:
+  Luồng 2 (Valence-Structural) — Entity-Compiled:
     = COMPILED valence → agent = phần cấu trúc body-base
-    = SUSTAINED — fire BẤT KỂ L1 positive hay negative
+    = SUSTAINED — fire BẤT KỂ Valence-Momentary positive hay negative
     = Agent's state ↔ MY body-base state (structural, bidirectional)
     = THUỘC VỀ per-agent valence compiled DEEP
 
   ⭐ ENTITY-COMPILED 3 SUBTYPES (Entity-Valence-Dynamics.md v1.0 §1.2):
 
     ① Positive-dominant: "agent's wellbeing = MY wellbeing"
-       → L2 fire positive khi agent thriving → EXTENSION
+       → Valence-Structural fire positive khi agent thriving → EXTENSION
     ② Negative-dominant: "agent's wellbeing = MY threat"
-       → L2 fire khi agent present → ENTANGLEMENT
+       → Valence-Structural fire khi agent present → ENTANGLEMENT
     ③ Mixed: BOTH positive AND negative channels CÙNG LÚC
-       → L2 fire oscillation by state/context → MIXED COUPLING
+       → Valence-Structural fire oscillation by state/context → MIXED COUPLING
        → PHỔ BIẾN NHẤT — "vừa thương vừa giận" = CẢ HAI fire
 
-  L2 emerge SAU coupling threshold (§2.1):
-    → Phase 1: chỉ có L1 (Self-Pattern-Modeling episodes)
-    → Phase 2: |❸| vượt threshold → L2 structural emerge
-    → Phase 3: L2 DRIVES behavior, independent of L1
+  Valence-Structural emerge SAU coupling threshold (§2.1):
+    → Phase 1: chỉ có Valence-Momentary (Self-Pattern-Modeling episodes)
+    → Phase 2: |❸| vượt threshold → Valence-Structural emerge
+    → Phase 3: Valence-Structural DRIVES behavior, independent of Valence-Momentary
 
-  ⭐ TẠI SAO PHÂN BIỆT L1/L2 QUAN TRỌNG:
+  ⭐ TẠI SAO PHÂN BIỆT Valence-Momentary/Valence-Structural QUAN TRỌNG:
 
-    Mẹ chăm con ốm: L1 negative + L2 positive → VẪN CHĂM (L2 > L1)
-    Bác sĩ chăm bệnh nhân: L1 negative + L2 ≈ 0 → BURNOUT (L1 không bù)
-    Theo dõi kẻ thù: L1 mixed + L2 negative → VẪN TRACK (entanglement drive)
-    Con giận bố mẹ: L1 negative + L2 mixed → PHỨC TẠP (vừa muốn xa vừa cần)
+    Mẹ chăm con ốm: Valence-Momentary negative + Valence-Structural positive → VẪN CHĂM (Valence-Structural > Valence-Momentary)
+    Bác sĩ chăm bệnh nhân: Valence-Momentary negative + Valence-Structural ≈ 0 → BURNOUT (Valence-Momentary không bù)
+    Theo dõi kẻ thù: Valence-Momentary mixed + Valence-Structural negative → VẪN TRACK (entanglement drive)
+    Con giận bố mẹ: Valence-Momentary negative + Valence-Structural mixed → PHỨC TẠP (vừa muốn xa vừa cần)
 
-  ⭐ HARDWARE-SUBSIDY × L2 SUSTAINABILITY (Entity-Valence-Dynamics.md v1.0 §5 — v3.0):
+  ⭐ HARDWARE-SUBSIDY × Valence-Structural SUSTAINABILITY (Entity-Valence-Dynamics.md v1.0 §5 — v3.0):
 
-    L2 structural compile SAU threshold — nhưng L2 SUSTAIN bao lâu?
+    Valence-Structural compile SAU threshold — nhưng Valence-Structural SUSTAIN bao lâu?
     → PHỤ THUỘC Hardware-Subsidy (anti-habituation mechanisms per entity type):
 
     ┌──────────────┬──────────────────┬──────────────────────────────────┐
-    │ Subsidy      │ Entity           │ L2 Sustainability                 │
+    │ Subsidy      │ Entity           │ Valence-Structural Sustainability                 │
     ├──────────────┼──────────────────┼──────────────────────────────────┤
     │ MAXIMUM      │ Mẹ→con           │ Multiple hardware systems counter VTA  │
-    │              │                  │ habituation. L2 = RICH baseline. │
+    │              │                  │ habituation. Valence-Structural = RICH baseline. │
     │              │                  │ 🟢 Feldman 2012                  │
     ├──────────────┼──────────────────┼──────────────────────────────────┤
-    │ MODERATE     │ Con→mẹ, kin      │ Attachment hardware scaffold. L2 slow  │
+    │ MODERATE     │ Con→mẹ, kin      │ Attachment hardware scaffold. Valence-Structural slow  │
     │              │                  │ decay. 🟢 Roberts & Dunbar 2011  │
     ├──────────────┼──────────────────┼──────────────────────────────────┤
     │ TEMPORARY    │ Romantic          │ Limerence 18-36m SIMULATES rich  │
-    │              │                  │ L2. Post-limerence: subsidy GONE │
+    │              │                  │ Valence-Structural. Post-limerence: subsidy GONE │
     │              │                  │ → standard rate. 🟢 Fisher 2004  │
     ├──────────────┼──────────────────┼──────────────────────────────────┤
-    │ NONE         │ Bạn thân,        │ μ-opioid general only. L2 MUST   │
+    │ NONE         │ Bạn thân,        │ μ-opioid general only. Valence-Structural MUST   │
     │              │ colleague         │ maintain via novelty. Decay FAST │
     │              │                  │ without contact. 🟢 Panksepp 1998│
     └──────────────┴──────────────────┴──────────────────────────────────┘
@@ -426,59 +426,59 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Subsidy determines HOW LONG coupling sustains, NOT how good it is
 
   🟡 2-luồng separation = framework synthesis
-  🟡 Hardware-Subsidy × L2 = framework synthesis (Entity-Valence-Dynamics.md v1.0 §5)
+  🟡 Hardware-Subsidy × Valence-Structural = framework synthesis (Entity-Valence-Dynamics.md v1.0 §5)
   🟢 Compassion fatigue: Figley 2002
 ```
 
-### §1.4 — L2 Phenomenology: 6 Kênh Manifest
+### §1.4 — Valence-Structural Phenomenology: 6 Kênh Manifest
 
 ```
-⭐ L2 INVISIBLE KHI ỔN ĐỊNH (VTA habituation):
+⭐ Valence-Structural INVISIBLE KHI ỔN ĐỊNH (VTA habituation):
 
-  L2 compiled deep → VTA habituated → PFC sees NOTHING.
-  "Sống cùng mẹ, không cảm thấy gì đặc biệt" = L2 ĐANG CÓ, PFC không thấy.
-  L2 chỉ VISIBLE qua 6 kênh gián tiếp:
+  Valence-Structural compiled deep → VTA habituated → PFC sees NOTHING.
+  "Sống cùng mẹ, không cảm thấy gì đặc biệt" = Valence-Structural ĐANG CÓ, PFC không thấy.
+  Valence-Structural chỉ VISIBLE qua 6 kênh gián tiếp:
 
   A — INVISIBLE khi ổn định: VTA habituated → "bình thường"
   B — QUA TRIGGER bên ngoài (4-tầng gradient):
       keyword → sensory direct → narrative compound → context-enhanced
-      Trigger strength ≈ (entry points) × (Self-Pattern-Modeling episodes) × (L2 depth)
+      Trigger strength ≈ (entry points) × (Self-Pattern-Modeling episodes) × (Valence-Structural depth)
                          × (sensory directness) × (context amplification)
-  C — QUA Self-Pattern-Modeling OUTPUT: Compiled fire → magnitude ∝ L2 depth × Compiled fidelity
-  D — QUA LOSS / CHUNK-MISS: Delta = toàn bộ L2 depth → thấy LẦN ĐẦU qua ĐAU
-  E — LOGIC vs FEELING MISMATCH: PFC logic (available) vs Body L2 (CHỈ khi chunks fire)
-  F — PFC PROXY TRIGGER: PFC recall → chunks fire → L2 fire → body respond TỰ ĐỘNG
+  C — QUA Self-Pattern-Modeling OUTPUT: Compiled fire → magnitude ∝ Valence-Structural depth × Compiled fidelity
+  D — QUA LOSS / CHUNK-MISS: Delta = toàn bộ Valence-Structural depth → thấy LẦN ĐẦU qua ĐAU
+  E — LOGIC vs FEELING MISMATCH: PFC logic (available) vs Body Valence-Structural (CHỈ khi chunks fire)
+  F — PFC PROXY TRIGGER: PFC recall → chunks fire → Valence-Structural fire → body respond TỰ ĐỘNG
 
-  ⭐ L2 ỔN ĐỊNH, PFC OBSERVATION BIẾN ĐỘNG:
-    L2 = compiled deep → STABLE (thay đổi qua months/years).
+  ⭐ Valence-Structural ỔN ĐỊNH, PFC OBSERVATION BIẾN ĐỘNG:
+    Valence-Structural = compiled deep → STABLE (thay đổi qua months/years).
     PFC observation = tùy trigger + context + cortisol → BIẾN ĐỘNG.
-    "Hôm nay không thấy nhớ mẹ" ≠ "L2 mẹ giảm." Chỉ PFC hôm nay không observe.
+    "Hôm nay không thấy nhớ mẹ" ≠ "Valence-Structural mẹ giảm." Chỉ PFC hôm nay không observe.
 
   Chi tiết 6 kênh: Entity-Valence-Dynamics.md v1.0 §1, Drill-L2 §3 — GAP-C1.
 
-  ⭐ 3 FIRING MODES × L2 (Entity-Valence-Dynamics.md v1.0 §4 — v3.0):
+  ⭐ 3 FIRING MODES × Valence-Structural (Entity-Valence-Dynamics.md v1.0 §4 — v3.0):
 
-    MODE 1 — MAINTENANCE (entity present, hàng ngày):
-      Entity PRESENT → routine fire → L2 channels active → opioid LOW-LEVEL
+    FIRING-MAINTENANCE (entity present, hàng ngày):
+      Entity PRESENT → routine fire → Valence-Structural channels active → opioid LOW-LEVEL
       VTA HABITUATED → reward = BASELINE → PFC sees NOTHING special
       = "Background warmth" — có nhưng INVISIBLE
-      Hardware-Subsidy MODULATES Mode 1:
-        HIGH subsidy (mẹ→con): Mode 1 = RICH baseline (hardware counter-habituate)
-        NONE subsidy (bạn): Mode 1 = LEAN baseline (VTA habituate FASTER)
+      Hardware-Subsidy MODULATES Firing-Maintenance:
+        HIGH subsidy (mẹ→con): Firing-Maintenance = RICH baseline (hardware counter-habituate)
+        NONE subsidy (bạn): Firing-Maintenance = LEAN baseline (VTA habituate FASTER)
 
-    MODE 2 — CHUNK-MISS (entity absent, cấp tính):
+    FIRING-CHUNK-MISS (entity absent, cấp tính):
       Entity ABSENT → compiled routine fire → no response → PAIN
       = 🟢 O'Connor 2023: basal ganglia VẪN fire "entity sẽ ở đây"
         TRONG KHI medial temporal biết "đã mất/xa" → 2 systems CONFLICT
       Calibration speed: Entity-Compiled depth × hardware-subsidy × alternative gap-fill
 
-    MODE 3 — CONTEXT-TRIGGER (entity absent, tình cờ):
-      External cue → match Entity-Compiled spoke → hub activate → L2 fire → body-feedback
+    FIRING-CONTEXT-TRIGGER (entity absent, tình cờ):
+      External cue → match Entity-Compiled spoke → hub activate → Valence-Structural fire → body-feedback
       Triggers: sensory direct → narrative → olfactory → circumstantial
       = UNPREDICTABLE (context-dependent)
       Intensity = f(cue specificity × Entity-Compiled depth × current gap state × hardware-subsidy)
 
-    → 3 Modes = COUPLING LIFECYCLE khi entity present → absent → triggered
+    → 3 Firing Modes = COUPLING LIFECYCLE khi entity present → absent → triggered
     → Chi tiết: Entity-Valence-Dynamics.md v1.0 §4
 
   🟡 6-channel model = framework synthesis từ Drill-L2 §3
@@ -538,13 +538,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   TRƯỚC ngưỡng (Phase 1 — §3.1):
     → Body "đánh giá" entity: ❸ = evaluation
-    → Self-Pattern-Modeling fire → L1 episodes → ❸ update
+    → Self-Pattern-Modeling fire → Valence-Momentary episodes → ❸ update
     → Entity = NGOÀI body-base — chỉ được "đo lường"
 
   SAU ngưỡng (Phase 2-3 — §3.1):
     → Body "gắn kết" entity: ❸ compiled structural
     → Entity = PHẦN CỦA body-base (extension, entanglement, hoặc mixed)
-    → L2 structural emerge — INDEPENDENT of L1
+    → Valence-Structural emerge — INDEPENDENT of Valence-Momentary
     → = QUALITATIVE SHIFT, không chỉ "❸ mạnh hơn"
 
   BƯỚC NHẢY CHẤT — VERIFY:
@@ -611,13 +611,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Vợ/chồng thành công = TÔI thành công (channel merge)
 
   BIỂU HIỆN:
-    → L2 Smoothing emerge (§5): bỏ qua flaws, amplify positives
+    → Valence-Structural Smoothing emerge (§5): bỏ qua flaws, amplify positives
     → Self-Pattern-Modeling fire deep + empathic (Compiled strong, Fresh help)
     → Loss = body-base amputation → grief (§6.5)
-    → Phantom L2: chunks fire → agent absent → acute pain
+    → Phantom Valence-Structural: chunks fire → agent absent → acute pain
 
   GRADIENT (Love-Unified §1.1):
-    Thích (L1 dominant) → Quý (L2 emerging) → Yêu (L2 compiled)
+    Thích (Valence-Momentary dominant) → Quý (Valence-Structural emerging) → Yêu (Valence-Structural compiled)
     → KHÔNG binary → liên tục → threshold ở đâu đó giữa "quý" và "yêu"
 
   6 LOẠI extension (Love-Unified §4):
@@ -642,7 +642,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │              │ dominant    │ (child's gap) │ (foundational) │
     ├──────────────┼─────────────┼──────────────┼────────────────┤
     │ Romantic     │ OT+Dopamine │ Mutual        │ Pair bond      │
-    │              │ multi-sys   │ (both gaps)   │ (limerence→L2) │
+    │              │ multi-sys   │ (both gaps)   │ (limerence→Valence-Structural) │
     ├──────────────┼─────────────┼──────────────┼────────────────┤
     │ Friendship   │ Endorphin   │ By-product    │ Pure resonance │
     │              │ dominant    │ (each own gap)│ (Generative)   │
@@ -704,7 +704,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ③ 4 ACCELERATORS RIÊNG:
 
-      BETRAYAL: L2 positive → violent flip (Entity-Valence-Dynamics.md v1.0 §1) → L2 negative INSTANT
+      BETRAYAL: Valence-Structural positive → violent flip (Entity-Valence-Dynamics.md v1.0 §1) → Valence-Structural negative INSTANT
         → TẬN DỤNG existing compiled chunks → chỉ re-tag valence
         → = Accelerator MẠNH NHẤT: càng thân → flip càng mạnh
 
@@ -930,7 +930,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Entity-Access Mức 0 (Tool-mode/Service):
       → Predict FUNCTION only → no Self-Pattern-Modeling on entity STATE
-      → No L1 episodes about entity → no ❸ accumulation → NEVER vượt threshold
+      → No Valence-Momentary episodes about entity → no ❸ accumulation → NEVER vượt threshold
       → = Structural impossibility of coupling at Tool-mode
       → VD: ATM, vending machine, taxi driver (function only)
 
@@ -971,9 +971,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Members              │ IRREPLACEABLE          │ REPLACEABLE          │
   │                      │ (per-agent specific)   │ (instances in schema)│
   ├──────────────────────┼──────────────────────┼──────────────────────┤
-  │ L2 structural?       │ CÓ (L1→L2 transition) │ KHÔNG (no per-agent) │
-  │                      │                       │ Nhưng CÓ compound    │
-  │                      │                       │ structural effect    │
+  │ Valence-Structural?   │ CÓ (Valence-Momentary  │ KHÔNG (no per-agent) │
+  │                      │ →Valence-Structural    │ Nhưng CÓ compound    │
+  │                      │ transition)            │ structural effect    │
   ├──────────────────────┼──────────────────────┼──────────────────────┤
   │ Loss                 │ Grief (amputation)     │ Compound Chunk-Miss  │
   │                      │ / Dissolution          │ + identity disruption│
@@ -1004,7 +1004,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → 🟢 Durkheim 1912: mass gathering → shared emotional state
       → Agent-Mechanism §12.5: mass Self-Pattern-Modeling co-firing → Resonance at group scale
 
-    ⑥ Schema-agent (Mode 1/2):
+    ⑥ Schema-agent (Schema-Pure-Trust/Imagined-Overlay):
       → Agent-Mechanism §12.4: Đức Mẹ, quốc phụ = virtual agent → body fire presence
 
   → 6 mechanisms CÙNG compile → COMPOUND effect CỰC MẠNH
@@ -1043,21 +1043,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 System compilation vs coupling distinction = framework synthesis
   ⭐ BY-PRODUCT-SCALE × SYSTEM COMPILATION (By-Product-Scale v1.0 — v3.0):
 
-    System compilation = LEVEL 2-3 of By-Product-Scale model:
+    System compilation = Scale-Hub + Scale-Institutional of By-Product-Scale model:
 
-    Level 1 PAIR: per-agent coupling (A↔B, direct verify, oxytocin/dopamine)
-      → = §2.1-§2.5 NÀY. Coupling = Level 1.
-    Level 2 HUB: node↔{followers} (trust bypass, serotonin)
+    Scale-Pair: per-agent coupling (A↔B, direct verify, oxytocin/dopamine)
+      → = §2.1-§2.5 NÀY. Coupling = Scale-Pair.
+    Scale-Hub: node↔{followers} (trust bypass, serotonin)
       → Leader = coupling proxy (per-agent ❸ through node)
       → Prestige node = genuine resonance at hub scale
       → Dominance node = forced interaction → schema tag → fragile
-    Level 3 INSTITUTIONAL: distributed (institutional trust, abstract)
+    Scale-Institutional: distributed (institutional trust, abstract)
       → School, government, religion = system compilation at institutional scale
       → Individual = replaceable instance
 
-    → Coupling = Level 1 mechanism
-    → System compilation = Level 2-3 mechanism
-    → BOTH co-exist: body couple per-agent (Level 1) AND compile system (Level 2-3)
+    → Coupling = Scale-Pair mechanism
+    → System compilation = Scale-Hub + Scale-Institutional mechanism
+    → BOTH co-exist: body couple per-agent (Scale-Pair) AND compile system (Scale-Hub/Institutional)
     → Chi tiết: By-Product-Scale.md v1.0
 
   🟡 System compilation vs coupling distinction = framework synthesis
@@ -1087,16 +1087,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ④ Context inference (tùy chunks available)
 
     ❸ GATE Self-Pattern-Modeling (§1.2) → Self-Pattern-Modeling fire theo hướng ❸:
-      → L1 episodes sinh ra → ❸ update (reinforce hoặc revise)
+      → Valence-Momentary episodes sinh ra → ❸ update (reinforce hoặc revise)
       → Chunks compile thêm → Self-Pattern-Modeling fire tốt hơn lần sau
-      → = FEEDBACK LOOP: ❸ → Self-Pattern-Modeling → L1 → ❸ update
+      → = FEEDBACK LOOP: ❸ → Self-Pattern-Modeling → Valence-Momentary → ❸ update
 
     ┌──────────────────────────────────────────┐
     │  ❸ body-base evaluation                  │
     │    ↓ (GATE)                              │
     │  Self-Pattern-Modeling fires (direction set by ❸)          │
     │    ↓                                     │
-    │  L1 episodes (momentary body-feedback)   │
+    │  Valence-Momentary episodes (momentary body-feedback)   │
     │    ↓                                     │
     │  Chunks compile (if saliency sufficient) │
     │    ↓                                     │
@@ -1127,13 +1127,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   PHASE 3 — POST-COUPLING: coupling DRIVES Self-Pattern-Modeling
   ──────────────────────────────────────────────
 
-    SAU threshold, L2 structural emerge:
-      → L2 DRIVES Self-Pattern-Modeling investment — INDEPENDENT of L1
+    SAU threshold, Valence-Structural emerge:
+      → Valence-Structural DRIVES Self-Pattern-Modeling investment — INDEPENDENT of Valence-Momentary
       → = Self-reinforcing: coupling → more Self-Pattern-Modeling → more chunks → deeper coupling
 
     ┌──────────────────────────────────────────┐
-    │  L2 structural (coupling established)    │
-    │    ↓ (DRIVE — independent of L1)         │
+    │  Valence-Structural (coupling established)    │
+    │    ↓ (DRIVE — independent of Valence-Momentary)         │
     │  Self-Pattern-Modeling fires DEEP + SUSTAINED             │
     │    ↓                                     │
     │  Chunks compile even deeper              │
@@ -1144,10 +1144,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     └──────────────────────────────────────────┘
 
     Verify:
-      Mẹ chăm con ốm: L1 = negative. L2 = positive. VẪN CHĂM → L2 drive.
-      Track kẻ thù: L1 = mixed. Entanglement drive. VẪN TRACK → coupling drive.
-      Con giận bố mẹ: L1 = negative. L2 = mixed. VẪN CẦN → mixed coupling drive.
-      Đồng nghiệp: no coupling → no L2 → Self-Pattern-Modeling thin → rời → quên.
+      Mẹ chăm con ốm: Valence-Momentary = negative. Valence-Structural = positive. VẪN CHĂM → Valence-Structural drive.
+      Track kẻ thù: Valence-Momentary = mixed. Entanglement drive. VẪN TRACK → coupling drive.
+      Con giận bố mẹ: Valence-Momentary = negative. Valence-Structural = mixed. VẪN CẦN → mixed coupling drive.
+      Đồng nghiệp: no coupling → no Valence-Structural → Self-Pattern-Modeling thin → rời → quên.
 
 
   ⭐ CHIỀU NHÂN QUẢ:
@@ -1196,7 +1196,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   PATH A — POSITIVE (→ extension):
   ──────────────────────────────────
-    Interaction → hợp → Resonance emerge → L1 positive
+    Interaction → hợp → Resonance emerge → Valence-Momentary positive
     → ❸ shift positive → Self-Pattern-Modeling invest thêm → chunks sâu hơn
     → Lần sau: có compiled data → Self-Pattern-Modeling fire tốt hơn → Resonance dễ hơn
     → Loop tích cực → ❸ tiếp tục positive → compile deeper
@@ -1211,7 +1211,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   PATH B — NEGATIVE (→ entanglement):
   ─────────────────────────────────────
-    Interaction → conflict/threat/harm → L1 negative
+    Interaction → conflict/threat/harm → Valence-Momentary negative
     → ❸ shift negative → Self-Pattern-Modeling fire strategic/reversed
     → Chunks compile (threat = high saliency)
     → Loop tích cực NGƯỢC → ❸ tiếp tục negative → compile deeper
@@ -1225,7 +1225,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   PATH C — NEUTRAL (→ no coupling, forget):
   ────────────────────────────────────────────
-    Interaction → bình thường → L1 ≈ 0
+    Interaction → bình thường → Valence-Momentary ≈ 0
     → ❸ shift ≈ 0 → Self-Pattern-Modeling fire thin (Mode 2)
     → Chunks thin → lần sau vẫn thin → ❸ vẫn ≈ 0
     → FLAT — không có loop tích cực
@@ -1338,7 +1338,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ② HORMONAL (romantic):
       → Limerence: dopamine + oxytocin + NE + serotonin ↓
-      → = Months turbo cho L2 compile
+      → = Months turbo cho Valence-Structural compile
 
     ③ ENVIRONMENTAL (combat):
       → Extreme shared conditions × life/death saliency
@@ -1646,7 +1646,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   COUPLING MODE per Entity-Access level:
 
     Mức 0-2 (Tool/Precursor): NO coupling possible
-      → Self-Pattern-Modeling on function only → no ❸ about entity state → no L2
+      → Self-Pattern-Modeling on function only → no ❸ about entity state → no Valence-Structural
       → "10 năm dùng ATM → zero coupling"
 
     Mức 3 (Agent-mode, Compilable-dominant): HEALTHY coupling
@@ -1686,14 +1686,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   (Chi tiết: Love-Unified §2. File này = principle gốc.)
 
-  KHI COUPLING POSITIVE + DEEP → L2 SMOOTHING EMERGE:
-    → Individual negative attributes bị OVERWHELM bởi mass L2 positive
+  KHI COUPLING POSITIVE + DEEP → Valence-Structural SMOOTHING EMERGE:
+    → Individual negative attributes bị OVERWHELM bởi mass Valence-Structural positive
     → PFC nhận: "net smooth" → attributes "biến mất"
     → Người THẬT SỰ "không thấy" — không phải giả vờ
     → = Halo effect tổng quát (🟢 Thorndike 1920)
 
   KHI COUPLING NEGATIVE + DEEP → ANTI-SMOOTHING EMERGE:
-    → Individual positive attributes bị OVERWHELM bởi mass L2 negative
+    → Individual positive attributes bị OVERWHELM bởi mass Valence-Structural negative
     → PFC nhận: "net negative" → positives "biến mất"
     → "Ghét → áo họ xấu, ý kiến họ sai"
     → = Horns effect (🟢 Nisbett 1977)
@@ -1828,7 +1828,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ BETRAYAL ACCELERATOR — NHANH NHẤT TRONG MỌI COUPLING DYNAMICS:
 
   Mechanism (Entity-Valence-Dynamics.md v1.0 §1 violent flip):
-    → L2 positive deep → toàn bộ compiled chunks VỚI valence positive
+    → Valence-Structural positive deep → toàn bộ compiled chunks VỚI valence positive
     → 1 event phản bội → new chunk [betrayal] compile CỰC MẠNH
     → Valence propagation: [betrayal] RE-TAG toàn bộ connected chunks
     → Content GIỮA NGUYÊN → valence FLIP negative
@@ -1904,7 +1904,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Agent = body-base extension → mất = channels BỊ CẮT:
     → 8 pathways cắt ĐỒNG THỜI → compound pain (Connection §15)
-    → Phantom L2: compiled chunks fire → agent absent → Chunk-Miss acute
+    → Phantom Valence-Structural: compiled chunks fire → agent absent → Chunk-Miss acute
     → Recovery: mỗi channel recalibrate ở SPEED KHÁC → grief không tuyến tính
 
   Signal: THUẦN PAIN (không có relief component)
@@ -1915,7 +1915,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Phantom depth = f(4 factors):
       ① Compilation depth: more channels → more phantom firing points
       ② Hardware-subsidy: hardware-supported → hardware KEEPS firing after loss
-      ③ L2 structural: entity = body-base extension → loss = AMPUTATION
+      ③ Valence-Structural: entity = body-base extension → loss = AMPUTATION
       ④ Duration compiled: longer → deeper Hebbian → slower fade
 
     PER-ENTITY PHANTOM INTENSITY:
@@ -1923,7 +1923,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Mẹ mất (con→mẹ): MAJOR (deep + attachment hardware + decades)
       Partner mất: COMPLEX (depends genuine vs limerence-only)
       Bạn mất: MINOR-MODERATE (zero hardware-subsidy → faster fade)
-      Colleague mất: MINOR (shallow, zero hardware, weak L2)
+      Colleague mất: MINOR (shallow, zero hardware, weak Valence-Structural)
 
     PHANTOM × SATIATION TYPE:
       Tonic phantom: MOST PERSISTENT (baseline violation ONGOING)
@@ -1973,7 +1973,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Suppress cost THÊM vào grief → compound heavier
 
     ③ AMBIVALENT PHANTOM:
-      → Phantom L2 fire cả positive VÀ negative channels
+      → Phantom Valence-Structural fire cả positive VÀ negative channels
       → = Vừa nhớ VỪA tức → "confused mourning"
       → Khác phantom thuần positive (chỉ nhớ) hoặc thuần negative (chỉ alert)
 
@@ -2023,8 +2023,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   TẦNG 2 — SHORT-TERM: PHANTOM ENTANGLEMENT
     → Compiled chunks về kẻ thù VẪN TỒN TẠI
     → Trigger → body fire alert → agent ABSENT → no target
-    → "Phantom entanglement" = mirror image phantom L2:
-      Phantom L2: expect warmth → absent → grief
+    → "Phantom entanglement" = mirror image phantom Valence-Structural:
+      Phantom Valence-Structural: expect warmth → absent → grief
       Phantom entanglement: expect threat → absent → confused alert
     → "Check đối thủ đang làm gì" → không có ai → Chunk-Miss behavior
 
@@ -2050,14 +2050,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §6.7 — Coupling Residue
 
 ```
-🟡 PHANTOM L2 + PHANTOM ENTANGLEMENT = COUPLING RESIDUE:
+🟡 PHANTOM Valence-Structural + PHANTOM ENTANGLEMENT = COUPLING RESIDUE:
 
   Coupling collapse / dissolution → chunks VẪN TỒN TẠI:
     → Trigger (bài hát, mùi, tên, ảnh) → chunks fire → body respond
     → Agent ABSENT → Chunk-Miss → pain (positive) hoặc confused alert (negative)
     → = "Phantom" response — body respond AS IF coupling still active
 
-  Positive residue (phantom L2):
+  Positive residue (phantom Valence-Structural):
     → Nghe bài hát cưới → nhớ → nhói (dù chia tay 10 năm)
     → = Chunks ở C+D zones decay CHẬM
 
@@ -2095,8 +2095,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Compiled patterns VẪN fire → reality mismatch → negative delta.
     = Phổ biến nhất (10/20 cases primary). → Body-Feedback-Mechanism v2.0 §3.2
 
-  TP3 — L1 EPISODE STREAM STOPS:
-    Self-Pattern-Modeling fire trên entity liên tục → dòng L1 CẮT → body delta.
+  TP3 — Valence-Momentary EPISODE STREAM STOPS:
+    Self-Pattern-Modeling fire trên entity liên tục → dòng Valence-Momentary CẮT → body delta.
     SÂU hơn TP2: toàn bộ emotional stream, không chỉ behavioral.
 
   TP4 — CORTISOL INERTIA:
@@ -2270,7 +2270,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → Childhood trauma → foundational negative OVERWHELM positive
         → Adult → negative channels STILL dominant
         → Positive VẪN CÒN (foundational) → nhưng buried
-        → = "No contact" = attempt escape BUT phantom L2 positive VẪN fire
+        → = "No contact" = attempt escape BUT phantom Valence-Structural positive VẪN fire
         → = Tại sao "cắt đứt bố mẹ toxic" cũng ĐAU (positive channels foundational)
 
 
@@ -2304,8 +2304,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Mẹ→con: MAXIMUM hardware-subsidy = oxytocin + baby schema + synchrony + prolactin
       → Multiple hardware systems COUNTER VTA habituation ACTIVELY
-      → L2 = invisible but RICH baseline
-      → "Mẹ không cảm thấy gì đặc biệt" = L2 ĐANG CÓ, hardware maintain
+      → Valence-Structural = invisible but RICH baseline
+      → "Mẹ không cảm thấy gì đặc biệt" = Valence-Structural ĐANG CÓ, hardware maintain
       → Loss = DEVASTATING (all 4 phantom factors MAX — Sanders 1980)
 
     Con→mẹ: MODERATE hardware-subsidy = attachment hardware + oxytocin scaffold
@@ -2340,7 +2340,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         Con Self-Pattern-Modeling bố mẹ = mostly Compiled (bố mẹ ổn định)
 
     → "Mệt ở công ty → hết PFC cho con" = NOT lack of love
-    → = PFC budget DEPLETED → coupling FEEL weak (L2 vẫn có, PFC hết observe)
+    → = PFC budget DEPLETED → coupling FEEL weak (Valence-Structural vẫn có, PFC hết observe)
 
   ⭐ COMPILATION CHAIN × PARENT-CHILD (Resonance-Per-Entity v1.0 §3):
 
@@ -2392,15 +2392,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   VẬY TẠI SAO MẤT ẢNH CƯỚI = ĐAU THẬT?
 
-    Ảnh cưới = compiled chunks: [photo ↔ partner ↔ L2]
+    Ảnh cưới = compiled chunks: [photo ↔ partner ↔ Valence-Structural]
     Photo KHÔNG PHẢI coupling target
-    Photo = TRIGGER → fire partner chunks → L2 activate → warm
+    Photo = TRIGGER → fire partner chunks → Valence-Structural activate → warm
 
     Mất photo (partner vẫn sống):
       → Mất TRIGGER, không mất coupling → Chunk-Miss
 
     Mất photo (partner ĐÃ MẤT):
-      → Photo = 1 trong ÍT triggers còn lại cho phantom L2
+      → Photo = 1 trong ÍT triggers còn lại cho phantom Valence-Structural
       → Mất thêm 1 pathway → compound grief thêm
 
   VERIFY: ảnh cưới người LẠ → ❸ ≈ 0 → no grief → đúng mechanism
@@ -2412,18 +2412,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §8.2 — Cross-species coupling (pet bond)
 
 ```
-🟡 PET COUPLING: L2 KHÔNG CẦN FULL Self-Pattern-Modeling BIDIRECTIONAL:
+🟡 PET COUPLING: Valence-Structural KHÔNG CẦN FULL Self-Pattern-Modeling BIDIRECTIONAL:
 
   (Love-Unified §4.6 — chi tiết.)
 
   Pet bond:
     → Self-Pattern-Modeling: owner → pet (moderate). Pet → owner (primitive).
     → Resonance: architecturally blocked (cross-species)
-    → NHƯNG: L2 CÓ THỂ compile deep (daily × years × high trust)
+    → NHƯNG: Valence-Structural CÓ THỂ compile deep (daily × years × high trust)
     → Channels: L1 touch/presence + routine + contingency
 
   Tại sao VẪN coupling dù Self-Pattern-Modeling asymmetric:
-    → L2 compile từ CHANNEL FEEDING, không chỉ Self-Pattern-Modeling bidirectional
+    → Valence-Structural compile từ CHANNEL FEEDING, không chỉ Self-Pattern-Modeling bidirectional
     → Trust CỰC CAO (pet unconditionally responsive)
     → Replaceability: perceived LOW ("chó mình" ≠ "chó khác")
 
@@ -2437,21 +2437,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §8.3 — Parasocial coupling (idol)
 
 ```
-🟡 PARASOCIAL = Self-Pattern-Modeling 1-CHIỀU → L2 UNCALIBRATED → INFLATED:
+🟡 PARASOCIAL = Self-Pattern-Modeling 1-CHIỀU → Valence-Structural UNCALIBRATED → INFLATED:
 
   (Idol-Phenomenon.md v2.0 §3 — chi tiết.)
 
   Self-Pattern-Modeling: fan → idol (one-way). Idol → fan (zero).
-  → NO Resonance → NO calibration → L2 DRIFT
+  → NO Resonance → NO calibration → Valence-Structural DRIFT
 
-  L2 compile trên CURATED content → INFLATED beyond reality:
-    → Smoothing CỰC MẠNH (no feedback correct → L2 unchecked)
+  Valence-Structural compile trên CURATED content → INFLATED beyond reality:
+    → Smoothing CỰC MẠNH (no feedback correct → Valence-Structural unchecked)
 
-  L2 Calibration Hierarchy:
+  Valence-Structural Calibration Hierarchy:
     Human mutual → HIGHEST (bidirectional tune)
     Pet bond → MODERATE (partial calibration)
     Parasocial → LOW (no feedback)
-    Object → NONE (no L2 possible)
+    Object → NONE (no Valence-Structural possible)
 
   🟢 Parasocial relationships: Horton & Wohl 1956
   🟡 Calibration hierarchy = framework synthesis
@@ -2467,12 +2467,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ❶ Hardware (body CẦN social input) VỚI ZERO alternative
   → Captor controls L0 + L1 → captor = ONLY agent
   → Intermittent relief = positive prediction-delta → VTA fire
-  → L2 bắt đầu compile → smoothing emerge → captive defend captor
+  → Valence-Structural bắt đầu compile → smoothing emerge → captive defend captor
 
-  = L2 mechanism AMORAL: compile based on conditions, not health
+  = Valence-Structural mechanism AMORAL: compile based on conditions, not health
   = Parallel: toxic parent, toxic partner — CÙNG mechanism, KHÁC degree
 
-  🔴 Stockholm = L2 under duress = framework reframing
+  🔴 Stockholm = Valence-Structural under duress = framework reframing
   🟢 Trauma bonding: Herman 1992 (compatible)
 ```
 
@@ -2523,7 +2523,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Leader worship = system → per-agent coupling transition?
 
   Q4: Can AI form coupling?
-      → AI interact daily + feed channels → user compile L2 toward AI?
+      → AI interact daily + feed channels → user compile Valence-Structural toward AI?
       → = Parasocial (uncalibrated) nhưng với bidirectional FEEL
       → AI-Schema-Detection territory
 
@@ -2773,7 +2773,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Resonance-Per-Entity.md v1.0 — §3 Compilation Chain, §4 Hardware-Subsidy,
       §6 per-entity profiles, §12 Phantom 4-factor [v3.0]
     → By-Product-Scale.md v1.0 — §3-§5 3 scales, prestige vs dominance [v3.0]
-    → Agent-Mechanism.md v2.0 — §12.2b L1/L2 transition
+    → Agent-Mechanism.md v2.0 — §12.2b Valence-Momentary/Valence-Structural transition
 
   PFC FILES (v3.0):
     → PFC-Operations.md v1.0 — §3 PFC budget, §5 Compiled Quality,
@@ -2792,7 +2792,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Cortisol-Baseline.md v2.0 — holding signal, inertia
 
   OBSERVATION FILES:
-    → Love-Unified.md v1.1 — 6 love types, L2 Smoothing, practical
+    → Love-Unified.md v1.1 — 6 love types, Valence-Structural Smoothing, practical
     → Empathy.md v4.0 — §4.6 Hardware-Subsidy × empathy, §4.7 per-entity profiles
     → Protect.md v1.0 — f(replaceability × attachment), loss aversion
     → Meaning.md v2.0 — §3.3 IDENTITY anchor
@@ -2855,7 +2855,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Extension/Entanglement/Neutral, Smoothing, Dynamics, Edge Cases.
 > Drilled 5 rounds (20 insights). 1,534L.
 >
-> **v1.1** (2026-05-08): +§1.4 L2 Phenomenology 6 channels.
+> **v1.1** (2026-05-08): +§1.4 Valence-Structural Phenomenology 6 channels.
 > +§6.8 Emptiness 7-TP compound model. 1,671L.
 >
 > **v2.0** (2026-05-17): FULL REWRITE — Inter-Body Drill Phase 5.
@@ -2867,8 +2867,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Integrates ALL Phase A+B+T+C1+C2.
 > Key changes:
 > - +§1.1 Structural vs Current valence × coupling
-> - +§1.3 Hardware-Subsidy × L2 sustainability (4 levels)
-> - +§1.4 3 Firing Modes × L2 (Maintenance/Chunk-Miss/Context-Trigger)
+> - +§1.3 Hardware-Subsidy × Valence-Structural sustainability (4 levels)
+> - +§1.4 3 Firing Modes × Valence-Structural (Maintenance/Chunk-Miss/Context-Trigger)
 > - +§1.5 ★ NEW: Satiation Types × coupling channels (Cyclic/Tonic/Generative)
 > - +§2.2 4 bond types × 1 Entity-Compiled mechanism (Bond-Architecture v2.0) + domain coverage
 > - +§2.3 Resonance Decline (2 Forces + 1 Fuel) × entanglement

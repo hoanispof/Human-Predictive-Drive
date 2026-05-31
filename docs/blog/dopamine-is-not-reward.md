@@ -26,7 +26,15 @@ This post presents:
 5. **Three clinical dissociations** (nicotine addiction, Parkinson's disease, ADHD) showing the same molecule, three disruption points, three distinct outcomes
 6. **Explicit falsification criteria** — conditions under which this mechanism is wrong
 
-This is a hypothesis inviting falsification, not a claim of established theory. The full framework (170+ files, CC0 licensed) is available for inspection and stress-testing at the repository linked below.
+Three positions, not two:
+
+| Position | Claim | Problem |
+|---|---|---|
+| Pop science (1950s–present) | "Dopamine = reward chemical. More dopamine = more pleasure." | Contradicted by 28 years of research. Depleting dopamine doesn't eliminate pleasure. Boosting it doesn't increase pleasure. |
+| Academic consensus (correct but incomplete) | "Dopamine = wanting. Opioid = liking. Separate systems." | Correct separation — but doesn't specify *when* opioid reward fires, or *why* the same stimulus sometimes produces reward and sometimes doesn't. |
+| **This framework** | **"7-step mechanism connects VTA salience → body-level evaluation → opioid reward. Five preconditions determine when reward fires."** | Testable. See falsification criteria below. |
+
+This is a hypothesis inviting falsification, not a claim of established theory. The full framework (200+ files, CC0 licensed) is available for inspection and stress-testing at the repository linked below.
 
 **Epistemic status:** Builds on established research (Berridge, Schultz, Peciña). The wanting/liking separation is settled science. The 7-step mechanism and 5 preconditions are proposed extensions — testable but not yet experimentally validated as a unified model.
 
@@ -285,43 +293,7 @@ The same molecule — dopamine — disrupted at three different points in the sy
 
 ---
 
-## §7 — Falsification Criteria
-
-This mechanism is wrong if any of the following can be demonstrated:
-
-1. **A pure dopamine agonist produces reliable pleasure in healthy humans without activating the opioid system.** L-DOPA comes closest to pure dopamine enhancement — Liggins et al. (2012) found no mood change. If a cleaner test produces consistent pleasure from dopamine alone, the model fails.
-
-2. **Blocking the opioid system does not reduce reward from any stimulus class.** Naltrexone studies consistently show reduced euphoria across substances. If a stimulus class produces full reward despite opioid blockade and without involving non-opioid pathways (e.g., endocannabinoid, CT afferents), the opioid-centrality claim fails.
-
-3. **Social media with 100% random content sustains the same engagement as algorithmic content.** If dopamine alone drives engagement, content matching should be irrelevant. If engagement drops with random content, body-level evaluation (Step 5) is implicated.
-
-4. **Gambling addiction occurs without physiological arousal.** If a population of gambling addicts is found with no elevated heart rate, skin conductance, or body-state changes during gambling, the body-level evaluation step is unnecessary.
-
-5. **Musical anhedonia is impossible — no one experiences normal hearing, normal non-musical reward, and absent musical pleasure simultaneously.** This would contradict the multi-step pipeline model. Musical anhedonia exists (Martínez-Molina et al., 2016), so this prediction is already confirmed.
-
-6. **A single precondition from the five can be removed without affecting reward.** For example: if reward fires reliably in the *complete absence* of a directed gap (Precondition 1), the five-precondition model is wrong. Eating when stuffed should not produce the same reward as eating when hungry.
-
----
-
-## §8 — Honest Limitations
-
-Five open questions where the model is uncertain or untested:
-
-**1. Habituation vs. prediction error:** The model proposes that VTA detection is *habituation-based* (simpler than Schultz's prediction-error computation). Both produce the same observable dopamine firing patterns. Distinguishing them requires recording VTA during novel-but-predictable vs. expected-but-surprising conditions. This has not been done decisively.
-
-**2. Goldilocks zone boundaries (Precondition 4):** Research supports an inverted-U relationship between familiarity and reward generally (Berlyne; Zajonc). But the zone is dynamic — it varies per person, per context, per need type. The model does not specify exact boundaries, only the principle. This is a real limitation.
-
-**3. Body simulation fidelity:** The model proposes that PFC simulates outcomes and the body evaluates the simulation (Step 5). Motor imagery engaging motor cortex is established (Jeannerod, 1995). Whether abstract, non-motor content produces body-level evaluation at consistent fidelity is not yet measured cleanly.
-
-**4. DRD4 receptor role (Step 3):** The original association between DRD4 7-repeat polymorphism and novelty-seeking is contested. The model uses DRD4 as a filter mechanism, but the evidence is mixed. The 7-step model could survive without this specific claim — Steps 2, 4, and 5 are more load-bearing.
-
-**5. Active trigger vs. permissive tone in stimulant euphoria:** Naltrexone clearly demonstrates that opioid blockade reduces stimulant euphoria. But whether dopamine *actively triggers* opioid release (Colasanti et al., 2012) or tonic opioid tone is a *permissive condition* (Jayaram-Lindström et al., 2017) is unresolved. New genetically encoded opioid biosensors (Bhatt et al., 2024, *Nature Neuroscience*) may resolve this. Either way, the core conclusion — dopamine ≠ reward — holds regardless of which sub-mechanism is correct.
-
-**Author transparency:** This framework was developed by an independent researcher (game developer by background), not a neuroscientist. It builds directly on established research but proposes novel synthesis. The claims are structured for falsification specifically so that domain experts can identify errors. Credentials should not determine truth — evidence should. But the lack of lab access means the novel claims are untested by the author's own experiments.
-
----
-
-## §9 — Implications (If Correct)
+## §7 — Implications (If Correct)
 
 If the 7-step model and its five preconditions hold up under scrutiny:
 
@@ -341,13 +313,49 @@ If the 7-step model and its five preconditions hold up under scrutiny:
 
 ---
 
-## §10 — Verify This
+## §8 — Falsification Criteria
+
+This mechanism is wrong if any of the following can be demonstrated:
+
+1. **A pure dopamine agonist produces reliable pleasure in healthy humans without activating the opioid system.** L-DOPA comes closest to pure dopamine enhancement — Liggins et al. (2012) found no mood change. If a cleaner test produces consistent pleasure from dopamine alone, the model fails.
+
+2. **Blocking the opioid system does not reduce reward from any stimulus class.** Naltrexone studies consistently show reduced euphoria across substances. If a stimulus class produces full reward despite opioid blockade and without involving non-opioid pathways (e.g., endocannabinoid, CT afferents), the opioid-centrality claim fails.
+
+3. **Social media with 100% random content sustains the same engagement as algorithmic content.** If dopamine alone drives engagement, content matching should be irrelevant. If engagement drops with random content, body-level evaluation (Step 5) is implicated.
+
+4. **Gambling addiction occurs without physiological arousal.** If a population of gambling addicts is found with no elevated heart rate, skin conductance, or body-state changes during gambling, the body-level evaluation step is unnecessary.
+
+5. **Musical anhedonia is impossible — no one experiences normal hearing, normal non-musical reward, and absent musical pleasure simultaneously.** This would contradict the multi-step pipeline model. Musical anhedonia exists (Martínez-Molina et al., 2016), so this prediction is already confirmed.
+
+6. **A single precondition from the five can be removed without affecting reward.** For example: if reward fires reliably in the *complete absence* of a directed gap (Precondition 1), the five-precondition model is wrong. Eating when stuffed should not produce the same reward as eating when hungry.
+
+---
+
+## §9 — Honest Limitations
+
+Five open questions where the model is uncertain or untested:
+
+**1. Habituation vs. prediction error:** The model proposes that VTA detection is *habituation-based* (simpler than Schultz's prediction-error computation). Both produce the same observable dopamine firing patterns. Distinguishing them requires recording VTA during novel-but-predictable vs. expected-but-surprising conditions. This has not been done decisively.
+
+**2. Goldilocks zone boundaries (Precondition 4):** Research supports an inverted-U relationship between familiarity and reward generally (Berlyne; Zajonc). But the zone is dynamic — it varies per person, per context, per need type. The model does not specify exact boundaries, only the principle. This is a real limitation.
+
+**3. Body simulation fidelity:** The model proposes that PFC simulates outcomes and the body evaluates the simulation (Step 5). Motor imagery engaging motor cortex is established (Jeannerod, 1995). Whether abstract, non-motor content produces body-level evaluation at consistent fidelity is not yet measured cleanly.
+
+**4. DRD4 receptor role (Step 3):** The original association between DRD4 7-repeat polymorphism and novelty-seeking is contested. The model uses DRD4 as a filter mechanism, but the evidence is mixed. The 7-step model could survive without this specific claim — Steps 2, 4, and 5 are more load-bearing.
+
+**5. Active trigger vs. permissive tone in stimulant euphoria:** Naltrexone clearly demonstrates that opioid blockade reduces stimulant euphoria. But whether dopamine *actively triggers* opioid release (Colasanti et al., 2012) or tonic opioid tone is a *permissive condition* (Jayaram-Lindström et al., 2017) is unresolved. New genetically encoded opioid biosensors (Bhatt et al., 2024, *Nature Neuroscience*) may resolve this. Either way, the core conclusion — dopamine ≠ reward — holds regardless of which sub-mechanism is correct.
+
+**Author transparency:** This framework was developed by an independent researcher (game developer by background), not a neuroscientist. It builds directly on established research but proposes novel synthesis. The claims are structured for falsification specifically so that domain experts can identify errors. Credentials should not determine truth — evidence should. But the lack of lab access means the novel claims are untested by the author's own experiments.
+
+---
+
+## §10 — Call to Verify
 
 This framework is open-source (CC0 — no rights reserved) and structured for verification.
 
 **What you can do:**
 
-- **Read the source:** The full framework (170+ files, 300,000+ lines) is available at [github.com/hoanispof/Human-Predictive-Drive](https://github.com/hoanispof/Human-Predictive-Drive). The dopamine claim is one of approximately 20 positions where the framework diverges from mainstream accounts. Each divergence has its own file with evidence, confidence levels, and falsification criteria.
+- **Read the source:** The full framework (200+ files, CC0 licensed) is available at [github.com/hoanispof/Human-Predictive-Drive](https://github.com/hoanispof/Human-Predictive-Drive). The dopamine claim is one of approximately 20 positions where the framework diverges from mainstream accounts. Each divergence has its own file with evidence, confidence levels, and falsification criteria.
 
 - **Stress-test with AI:** Clone the repository. Feed it to Claude, GPT, or any capable AI. Ask: "Check the citations in Dopamine-Is-Not-Reward.md — do the cited papers actually say what the framework claims?" AI can verify logical consistency and citation accuracy. It cannot verify empirical truth or replication status — that requires domain expertise.
 
@@ -429,6 +437,7 @@ Weintraub, D., et al. (2010). Impulse control disorders in Parkinson disease: a 
 
 ---
 
-*This post is part of the [Human Predictive Drive](https://github.com/hoanispof/Human-Predictive-Drive) framework — an open-source (CC0), independently developed behavioral science framework structured for falsification. All claims have confidence levels, all divergences from mainstream are documented, and all falsification criteria are explicit.*
-
+*Draft v0.1 — 2026-05-31*
+*Full framework: [github.com/hoanispof/Human-Predictive-Drive](https://github.com/hoanispof/Human-Predictive-Drive)*
+*License: CC0 1.0 Universal — use, modify, challenge freely*
 *The most valuable response you can give is a specific counterexample: a finding, observation, or dataset that contradicts something claimed here. The second most valuable is a question about something unclear. Agreement is nice but doesn't advance knowledge.*

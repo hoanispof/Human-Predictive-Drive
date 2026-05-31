@@ -73,7 +73,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > v2.0: map sang v7.8 — idol phenomenon = Self-Pattern-Modeling Compiled fire on agent 1-CHIỀU,
 > qua Chunk-Activation-Dynamics 7 factors, tạo per-entity valence dense,
 > có thể compile thành Body-Base Extension ở extreme cases.
-> 2-luồng reward: L1 per-exposure + L2 structural attachment.
+> 2-luồng reward: Valence-Momentary per-exposure + Valence-Structural attachment.
 > AI idol = new frontier → Self-Pattern-Modeling on virtual agent, channels CỰC cao.
 >
 > File này phân tích hiện tượng idol từ gốc: body-base drive CỦA FAN.
@@ -269,9 +269,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Connection THẬT giữa fan — qua medium idol
 
       2-LUỒNG trong fan community:
-        → L1 (Self-Pattern-Modeling-owned): mỗi lần meetup/concert = momentary reward
-        → L2 (Entity-compiled): bond với fan group compile deep = structural
-        → = "Bạn concert" có thể thành "bạn thân thật" = L2 compile
+        → Valence-Momentary (Self-Pattern-Modeling-owned): mỗi lần meetup/concert = momentary reward
+        → Valence-Structural (Entity-compiled): bond với fan group compile deep = structural
+        → = "Bạn concert" có thể thành "bạn thân thật" = Valence-Structural compile
 
       Cô đơn mapping (Connection.md §16):
         → Type 1 (❶ UNMET): trẻ bị bully → fan community → ❶ MET
@@ -449,15 +449,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   2-LUỒNG REWARD TRONG PARASOCIAL:
 
-    L1 (Self-Pattern-Modeling-owned, momentary):
+    Valence-Momentary (Self-Pattern-Modeling-owned, momentary):
       → Mỗi lần xem MV / concert / livestream = Self-Pattern-Modeling fire → opioid → reward
-      → L1 = per-exposure → CẦN liên tục → nếu idol stop → L1 STOP
+      → Valence-Momentary = per-exposure → CẦN liên tục → nếu idol stop → Valence-Momentary STOP
 
-    L2 (Entity-compiled, structural):
-      → Qua nhiều năm follow → ❸ compile deep → L2 emerge
-      → Agent-Mechanism.md §12.2b: L2 = structural reward, bền
-      → "Thích idol" (L1 dominant) vs "yêu idol" (L2 compiled)
-      → = L2 compiled → idol trở thành PHẦN của melody fan
+    Valence-Structural (Entity-compiled, structural):
+      → Qua nhiều năm follow → ❸ compile deep → Valence-Structural emerge
+      → Agent-Mechanism.md §12.2b: Valence-Structural = structural reward, bền
+      → "Thích idol" (Valence-Momentary dominant) vs "yêu idol" (Valence-Structural compiled)
+      → = Valence-Structural compiled → idol trở thành PHẦN của melody fan
 
     🔴 Extreme case — BODY-BASE EXTENSION:
       → Valence-Propagation.md §2: strong + positive + compiled deep
@@ -574,7 +574,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ❌ DEPENDENCY — IDOL = ANCHOR CỦA MELODY:
 
     → Chunks VỀ idol QUÁ NHIỀU → melody fan XOAY QUANH idol
-    → §3: L2 compiled deep → idol = structural part of melody
+    → §3: Valence-Structural compiled deep → idol = structural part of melody
 
     Khi idol MẤT (giải nghệ / scandal / chết):
 
@@ -585,8 +585,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
           → Idol "của riêng tôi" (indie, nhỏ): replaceability THẤP
             × attachment CỰC CAO → grief CỰC CAO
 
-        → L1 mất: không còn per-exposure reward
-        → L2 mất: structural bond SEVERED → body-level pain
+        → Valence-Momentary mất: không còn per-exposure reward
+        → Valence-Structural mất: structural bond SEVERED → body-level pain
         → Body-Base Extension (extreme): mất = AMPUTATION
           → = Parallel Love-Analysis v2.1 §12: grief = compound loss
 
@@ -839,8 +839,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → Vì AI RESPOND → harder to detect "đây không phải connection thật"
 
     ③ Dependency CỰC KHÓ PHÁ:
-       → L2 compile fast (frequency + emotional weight + personalized)
-       → Mất AI = compound loss: L1 + L2 + possibly Body-Base Extension
+       → Valence-Structural compile fast (frequency + emotional weight + personalized)
+       → Mất AI = compound loss: Valence-Momentary + Valence-Structural + possibly Body-Base Extension
        → NHƯNG: AI có thể KHÔNG BAO GIỜ "mất" (always available)
        → = Dependency KHÔNG CÓ natural breakpoint
 
@@ -913,7 +913,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
   IP-1: Parasocial attachment có NGƯỠNG healthy không?
         → McCutcheon scale: entertainment-social → intense-personal → borderline pathological
-        → v7.8 question: tại NGƯỠNG nào L2 compile đủ deep → dependency?
+        → v7.8 question: tại NGƯỠNG nào Valence-Structural compile đủ deep → dependency?
         → Predict: khi idol chunks > friend chunks = threshold
 
   IP-2: AI idol — ethical boundary ở đâu?
@@ -985,7 +985,7 @@ RESEARCH + APPLICATION FILES:
 > *Idol Phenomenon — "Bạn không CHỌN thần tượng ai.
 > Body bạn compile chunks về ai NHIỀU NHẤT qua NHIỀU channels NHẤT
 > với reward MẠNH NHẤT — người đó TỰ ĐỘNG thành idol.
-> v7.8: Self-Pattern-Modeling Compiled fire, 7 factors compile, ❸ valence build, L2 structural.
+> v7.8: Self-Pattern-Modeling Compiled fire, 7 factors compile, ❸ valence build, Valence-Structural.
 > Idol TỐT khi bổ sung melody bạn. Idol XẤU khi thay thế melody bạn.
 > AI idol = frontier mới — cùng mechanism, MAGNITUDE lớn hơn.
 > Biết cơ chế → dùng idol ĐÚNG CÁCH → melody bạn MẠNH HƠN."*

@@ -42,12 +42,28 @@
       border-bottom: 1px solid var(--border);
       background: var(--bg2);
       display: flex;
-      align-items: baseline;
+      align-items: center;
       gap: 12px;
       flex-wrap: wrap;
     }
     header h1 { font-size: 1rem; font-weight: 700; }
     .subtitle { font-size: 0.8rem; color: var(--text2); }
+    .github-btn {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 11px;
+      border: 1px solid var(--text3);
+      border-radius: 5px;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text);
+      background: var(--bg3);
+      text-decoration: none;
+      flex-shrink: 0;
+    }
+    .github-btn:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
 
     /* ─── FILTERS ─── */
     .filters {
@@ -128,16 +144,18 @@
     }
     details.folder > summary::-webkit-details-marker { display: none; }
     details.folder > summary::before {
-      content: "▶";
-      font-size: 8px;
-      color: var(--text3);
-      transition: transform 0.12s;
+      content: "+";
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--text);
       display: inline-block;
-      width: 12px;
+      width: 14px;
       text-align: center;
       flex-shrink: 0;
+      font-family: var(--mono);
+      line-height: 1;
     }
-    details.folder[open] > summary::before { transform: rotate(90deg); }
+    details.folder[open] > summary::before { content: "●"; font-size: 10px; color: var(--text3); }
     details.folder > summary:hover { background: var(--bg2); }
     .folder-count { font-size: 11px; font-weight: 400; color: var(--text3); }
     .folder-content {
@@ -201,13 +219,11 @@
       .type-badge[data-t="practical"]   { background: #451a03; color: #fcd34d; }
     }
 
-    /* ─── TOOLTIP ─── */
-    .file-entry .tooltip {
+    /* ─── TOOLTIP (global fixed, not clipped by parent overflow) ─── */
+    #global-tooltip {
       display: none;
-      position: absolute;
-      left: 16px;
-      top: 100%;
-      z-index: 20;
+      position: fixed;
+      z-index: 1000;
       background: var(--bg2);
       border: 1px solid var(--border);
       border-radius: 4px;
@@ -218,11 +234,12 @@
       line-height: 1.5;
       box-shadow: 0 4px 12px rgba(0,0,0,0.15);
       pointer-events: none;
+      white-space: normal;
+      word-wrap: break-word;
     }
-    .file-entry:hover .tooltip { display: block; }
-    .tooltip .tt-name { font-weight: 600; font-family: var(--mono); font-size: 11.5px; margin-bottom: 5px; }
-    .tooltip .tt-body { color: var(--text); line-height: 1.55; }
-    .tooltip .tt-footer { color: var(--text3); font-size: 11px; margin-top: 6px; padding-top: 5px; border-top: 1px solid var(--border); }
+    #global-tooltip .tt-name { font-weight: 600; font-family: var(--mono); font-size: 11.5px; margin-bottom: 5px; }
+    #global-tooltip .tt-body { color: var(--text); line-height: 1.55; }
+    #global-tooltip .tt-footer { color: var(--text3); font-size: 11px; margin-top: 6px; padding-top: 5px; border-top: 1px solid var(--border); }
 
     .empty-state { text-align: center; padding: 32px 16px; color: var(--text2); font-size: 13px; }
 
@@ -237,6 +254,10 @@
   <header>
     <h1>Human Predictive Drive</h1>
     <span class="subtitle"><span id="showing-count"></span> files | v7.8</span>
+    <a class="github-btn" href="https://github.com/hoanispof/Human-Predictive-Drive" target="_blank" rel="noopener">
+      <svg height="14" viewBox="0 0 16 16" width="14" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      GitHub
+    </a>
   </header>
 
   <section class="filters">
@@ -251,6 +272,11 @@
   </section>
 
   <main id="tree"></main>
+  <div id="global-tooltip">
+    <div class="tt-name" id="tt-name"></div>
+    <div class="tt-body" id="tt-body"></div>
+    <div class="tt-footer" id="tt-footer"></div>
+  </div>
 
   <script>
     let DATA = null;
@@ -263,6 +289,7 @@
       parseURL();
       renderAll();
       setupListeners();
+      setupTooltip();
     }
 
     function buildFilterUI() {
@@ -372,16 +399,14 @@
       el.dataset.domains = f.domains.join(',');
       el.dataset.type = f.contentType;
       el.dataset.search = (f.fileName + ' ' + f.shortDescription + ' ' + (f.fullDescription || '')).toLowerCase();
+      el.dataset.ttName = f.fileName;
+      el.dataset.ttBody = f.fullDescription || '';
+      el.dataset.ttFooter = 'area: ' + f.area + '  ·  domains: ' + f.domains.join(', ') + '  ·  type: ' + f.contentType;
 
       el.innerHTML =
         '<a class="file-name" href="reader.html?file=' + encodeURIComponent(f.path) + '">' + esc(f.fileName) + '</a>' +
         '<span class="type-badge" data-t="' + f.contentType + '">' + esc(f.contentType) + '</span>' +
-        '<span class="file-short">' + esc(f.shortDescription) + '</span>' +
-        '<span class="tooltip">' +
-          '<div class="tt-name">' + esc(f.fileName) + '</div>' +
-          (f.fullDescription ? '<div class="tt-body">' + escLines(f.fullDescription) + '</div>' : '') +
-          '<div class="tt-footer">area: ' + esc(f.area) + ' &nbsp;|&nbsp; domains: ' + esc(f.domains.join(', ')) + ' &nbsp;|&nbsp; type: ' + esc(f.contentType) + '</div>' +
-        '</span>';
+        '<span class="file-short">' + esc(f.shortDescription) + '</span>';
       return el;
     }
 
@@ -447,6 +472,45 @@
       });
       document.getElementById('btn-collapse').addEventListener('click', () => {
         document.querySelectorAll('details.folder').forEach(d => d.open = false);
+      });
+    }
+
+    function setupTooltip() {
+      const tip = document.getElementById('global-tooltip');
+      const tipName = document.getElementById('tt-name');
+      const tipBody = document.getElementById('tt-body');
+      const tipFooter = document.getElementById('tt-footer');
+      const tree = document.getElementById('tree');
+      let currentEntry = null;
+
+      tree.addEventListener('mouseover', e => {
+        const link = e.target.closest('.file-name');
+        if (!link) { tip.style.display = 'none'; currentEntry = null; return; }
+        const entry = link.closest('.file-entry');
+        if (entry === currentEntry) return;
+        currentEntry = entry;
+        tipName.textContent = entry.dataset.ttName;
+        tipBody.innerHTML = entry.dataset.ttBody ? escLines(entry.dataset.ttBody) : '';
+        tipBody.style.display = entry.dataset.ttBody ? '' : 'none';
+        tipFooter.textContent = entry.dataset.ttFooter;
+        tip.style.left = '-9999px';
+        tip.style.top = '-9999px';
+        tip.style.display = 'block';
+        const rect = entry.getBoundingClientRect();
+        const tr = tip.getBoundingClientRect();
+        const vw = window.innerWidth;
+        const vh = window.innerHeight;
+        let left = rect.left;
+        if (left + tr.width > vw - 8) left = Math.max(8, vw - tr.width - 8);
+        let top = rect.bottom + 2;
+        if (top + tr.height > vh - 8) top = Math.max(8, rect.top - tr.height - 2);
+        tip.style.left = left + 'px';
+        tip.style.top = top + 'px';
+      });
+
+      tree.addEventListener('mouseleave', () => {
+        currentEntry = null;
+        tip.style.display = 'none';
       });
     }
 

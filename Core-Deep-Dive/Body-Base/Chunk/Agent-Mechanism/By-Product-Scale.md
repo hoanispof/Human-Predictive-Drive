@@ -9,7 +9,7 @@ scope: |
   Cùng mechanism, KHÁC topology + hardware + compilation + failure mode.
   v1.0 KEY CONTENT:
     ① 1 Mechanism × 3 Scales: Pair (A↔B) / Hub (Node↔Collective) / Institutional (Distributed)
-    ② Hardware-subsidy per scale: oxytocin (L1) → serotonin (L2) → trust infrastructure (L3)
+    ② Hardware-subsidy per scale: oxytocin (Scale-Pair) → serotonin (Scale-Hub) → trust infrastructure (Scale-Institutional)
     ③ Compilation per scale: direct verify → trust bypass → institutional (speed↑ accuracy↓)
     ④ Failure + self-correction per scale: "chán" → overthrow → arc shift
     ⑤ Prestige = genuine resonance at hub scale (opioid). Dominance = schema resonance (relief tag)
@@ -37,8 +37,8 @@ position: |
 dependencies:
   - By-Product-Gap-Resonance.md v1.4 — core definition, by-product match §0-§5
   - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, by-product match §5.4, 3-cost §4
-  - Coordination-Node.md v1.1 — Level 2 hub analysis §0-§8
-  - Collective-Body.md v2.0 — Level 3, trust bypass §2, no unified PFC §4.2
+  - Coordination-Node.md v1.1 — Scale-Hub hub analysis §0-§8
+  - Collective-Body.md v2.0 — Scale-Institutional, trust bypass §2, no unified PFC §4.2
   - Collective-Arc-Dynamics.md v1.1 — arc shift §4-§5, shelf-life
   - Connection.md v4.0 — 3 Generative Primitives, 2-tầng/2-luồng
   - Compiled-Fresh.md v2.0 — genuine vs schema quality §6
@@ -61,14 +61,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 > **By-product match = CƠ CHẾ DUY NHẤT, hoạt động ở 3 SCALE.**
 >
-> **Level 1 — PAIR:** A fill gap CỦA A → by-product → match B → B reward. Mutual = resonance.
+> **Scale-Pair:** A fill gap CỦA A → by-product → match B → B reward. Mutual = resonance.
 > **Hardware: oxytocin/dopamine. Max ~150 entities (Dunbar).**
 >
-> **Level 2 — HUB:** Node fill coordination gap → by-product = decisions, allocation.
+> **Scale-Hub:** Node fill coordination gap → by-product = decisions, allocation.
 > **Collective fill domain gaps → by-product = deference, resource.**
 > **Hardware: serotonin. 1 node decision replaces N×(N-1)/2 negotiations. Scale: millions.**
 >
-> **Level 3 — INSTITUTIONAL:** Institution fill OWN gap → by-product = infrastructure.
+> **Scale-Institutional:** Institution fill OWN gap → by-product = infrastructure.
 > **Individual benefit = by-product. No single node controls. Scale: 8 billion.**
 >
 > **Cùng mechanism, KHÁC topology + hardware + compilation + failure mode.**
@@ -85,9 +85,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 - §0 — POSITION + THESIS
 - §1 — CORE MECHANISM RECAP
-- §2 — LEVEL 1: PAIR-WISE RESONANCE (A↔B)
-- §3 — LEVEL 2: HUB-AND-SPOKE (Node↔Collective)
-- §4 — LEVEL 3: INSTITUTIONAL (Distributed)
+- §2 — SCALE-PAIR: Pair-Wise Resonance (A↔B)
+- §3 — SCALE-HUB: Hub-and-Spoke (Node↔Collective)
+- §4 — SCALE-INSTITUTIONAL (Distributed)
 - §5 — HARDWARE-SUBSIDY PER SCALE
 - §6 — COMPILATION PER SCALE
 - §7 — FAILURE + SELF-CORRECTION PER SCALE
@@ -130,18 +130,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   NHƯNG: topology + hardware + compilation + failure mode KHÁC per scale:
   
-  ┌──────────────┬──────────────┬──────────────────┬───────────────────┐
-  │              │ LEVEL 1      │ LEVEL 2          │ LEVEL 3           │
-  │              │ PAIR         │ HUB              │ INSTITUTIONAL     │
-  ├──────────────┼──────────────┼──────────────────┼───────────────────┤
-  │ Topology     │ A↔B          │ Node↔{A,B,...N}  │ Distributed net   │
-  │ Hardware     │ Oxytocin     │ Serotonin        │ Trust infra       │
-  │ Compilation  │ Direct verify│ Trust bypass      │ Institutional     │
-  │ Scale        │ ~150 (Dunbar)│ Millions          │ 8 billion         │
-  │ Failure mode │ "Chán"/decay │ Overthrow/replace │ Arc shift/collapse│
-  │ Correction   │ Drift apart  │ Replace node      │ Revolution/reform │
-  │ Speed        │ Weeks-months │ Months-years      │ Decades-centuries │
-  └──────────────┴──────────────┴──────────────────┴───────────────────┘
+  ┌──────────────┬──────────────────┬──────────────────┬─────────────────────┐
+  │              │ SCALE-PAIR       │ SCALE-HUB        │ SCALE-INSTITUTIONAL │
+  ├──────────────┼──────────────────┼──────────────────┼─────────────────────┤
+  │ Topology     │ A↔B              │ Node↔{A,B,...N}  │ Distributed net     │
+  │ Hardware     │ Oxytocin         │ Serotonin        │ Trust infra         │
+  │ Compilation  │ Direct verify    │ Trust bypass     │ Institutional       │
+  │ Scale        │ ~150 (Dunbar)    │ Millions         │ 8 billion           │
+  │ Failure mode │ "Chán"/decay     │ Overthrow/replace│ Arc shift/collapse  │
+  │ Correction   │ Drift apart      │ Replace node     │ Revolution/reform   │
+  │ Speed        │ Weeks-months     │ Months-years     │ Decades-centuries   │
+  └──────────────┴──────────────────┴──────────────────┴─────────────────────┘
   
   🟢 By-product match: By-Product-Gap-Resonance §0.1, Inter-Body-Mechanism §5.4
   🟢 Transaction cost compression: Coase 1937
@@ -199,10 +198,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §2 — LEVEL 1: PAIR-WISE RESONANCE (A↔B)
+## §2 — SCALE-PAIR: Pair-Wise Resonance (A↔B)
 
 ```
-⭐ LEVEL 1 = BY-PRODUCT MATCH GIỮA 2 ENTITIES:
+⭐ SCALE-PAIR = BY-PRODUCT MATCH GIỮA 2 ENTITIES:
 
   TOPOLOGY: A↔B (pair-wise, bidirectional)
   
@@ -217,7 +216,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → PERSONAL: Self-Pattern-Modeling active → model entity state → nuanced.
     → COMPILATION: Fresh→Compiled→baseline→dynamics (Resonance-Entity v2.0).
     → MAX SCALE: ~150 entities (R2: Dunbar 1992).
-      → Beyond 150: PFC KHÔNG ĐỦ bandwidth → PHẢI compress → shift to Level 2.
+      → Beyond 150: PFC KHÔNG ĐỦ bandwidth → PHẢI compress → shift to Scale-Hub.
     
   HARDWARE:
     Oxytocin (kin bonds), dopamine/NE (limerence), μ-opioid (social play).
@@ -228,7 +227,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   LIMITATION:
     → CANNOT SCALE beyond ~150 → by-product match = real but BOUNDED.
     → 1,000 người cần coordination → pair-wise = 500,000 pairs → IMPOSSIBLE.
-    → NEED Level 2: compression through coordination node.
+    → NEED Scale-Hub: compression through coordination node.
     
   🟢 Pair-wise resonance: By-Product-Gap-Resonance v1.4
   🟢 Dunbar limit: R2 (neocortex ↔ group size)
@@ -237,10 +236,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §3 — LEVEL 2: HUB-AND-SPOKE (Node↔Collective)
+## §3 — SCALE-HUB: Hub-and-Spoke (Node↔Collective)
 
 ```
-⭐⭐ LEVEL 2 = BY-PRODUCT MATCH QUA COORDINATION NODE:
+⭐⭐ SCALE-HUB = BY-PRODUCT MATCH QUA COORDINATION NODE:
 
   TOPOLOGY: Node↔{A, B, C, ... N} (hub-and-spoke, 1-to-many)
   
@@ -263,7 +262,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
     = MUTUAL BUT ASYMMETRIC — giống mẹ↔con, khác bạn thân↔bạn thân.
     
-  4 DIFFERENCES FROM LEVEL 1:
+  4 DIFFERENCES FROM SCALE-PAIR:
   
     ① COMPRESSION: 1 node decision → replaces N×(N-1)/2 pair-wise negotiations.
        → R1: Coase 1937 — firm exists because coordination cost < market transaction cost.
@@ -271,14 +270,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → 500 người: 124,750 pairs → compression ENORMOUS.
        
     ② TRUST BYPASS: followers KHÔNG verify every decision.
-       → Level 1: mỗi interaction = direct verify (body-feedback).
-       → Level 2: "CEO quyết → tôi tin → tôi làm" = trust bypass.
+       → Scale-Pair: mỗi interaction = direct verify (body-feedback).
+       → Scale-Hub: "CEO quyết → tôi tin → tôi làm" = trust bypass.
        → Collective-Body §2: proxy trust → exponential scaling.
-       → = HOW Level 2 exceeds Dunbar limit.
+       → = HOW Scale-Hub exceeds Dunbar limit.
        
     ③ ROLE-MEDIATED: node resonates through FUNCTION, not (only) personality.
-       → Level 1: A và B match as whole persons (personality, hardware, interests).
-       → Level 2: node provides COORDINATION → followers provide COMPLIANCE.
+       → Scale-Pair: A và B match as whole persons (personality, hardware, interests).
+       → Scale-Hub: node provides COORDINATION → followers provide COMPLIANCE.
        → At scale 5-20: still personal (team lead biết tên từng người).
        → At scale 150+: SYMBOLIC (CEO = biểu tượng, không biết từng người).
        → Coordination-Node §4: personal→role→symbolic transition.
@@ -296,10 +295,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §4 — LEVEL 3: INSTITUTIONAL (Distributed)
+## §4 — SCALE-INSTITUTIONAL (Distributed)
 
 ```
-⭐⭐ LEVEL 3 = BY-PRODUCT MATCH QUA DISTRIBUTED INSTITUTIONS:
+⭐⭐ SCALE-INSTITUTIONAL = BY-PRODUCT MATCH QUA DISTRIBUTED INSTITUTIONS:
 
   TOPOLOGY: Distributed network — NO single node, MANY interconnected institutions.
   
@@ -322,7 +321,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Institution fills OWN gap → individual benefits = BY-PRODUCT.
     → = Collective-Body §3.1: same mechanism, institutional scale.
     
-  4 DIFFERENCES FROM LEVEL 2:
+  4 DIFFERENCES FROM SCALE-HUB:
   
     ① NO SINGLE NODE: coordination distributed across MANY institutions.
        → Collective-Body §4.2 ⑥: "no unified PFC."
@@ -330,9 +329,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → = WHY collective action problems exist (tragedy of commons, climate).
        
     ② INSTITUTIONAL TRUST (not personal, not proxy):
-       → Level 1: trust from DIRECT experience (body-feedback).
-       → Level 2: trust from PROXY ("anh A tin → tôi tin").
-       → Level 3: trust from INSTITUTION ("luật pháp enforce → tôi tin hợp đồng").
+       → Scale-Pair: trust from DIRECT experience (body-feedback).
+       → Scale-Hub: trust from PROXY ("anh A tin → tôi tin").
+       → Scale-Institutional: trust from INSTITUTION ("luật pháp enforce → tôi tin hợp đồng").
        → = ABSTRACT trust — no person verifies, SYSTEM verifies.
        → R9: North 1990 — institutions reduce transaction costs.
        
@@ -340,7 +339,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → Collective-Body §3: Long chains live at Cấp 2 (collective), not Cấp 1 (individual).
        → [study → degree → job → salary → body-base] = chain DISTRIBUTED across institutions.
        → Individual only compiles SHORT: [trust school → study]. [trust company → work].
-       → = Level 3 HOLDS the chains that Level 1 CANNOT compute.
+       → = Scale-Institutional HOLDS the chains that Scale-Pair CANNOT compute.
        
     ④ SELF-REINFORCING + SELF-CORRECTING (slowly):
        → Institutions create by-products → individuals benefit → individuals CONTRIBUTE.
@@ -351,12 +350,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   SCALE: entire civilization (8 billion humans).
   → No individual, no single node, no single institution CONTROLS the whole.
   → = Emergent order FROM distributed by-product match.
-  → = "Bàn tay vô hình" (R8: Adam Smith 1776) = early observation of Level 3.
+  → = "Bàn tay vô hình" (R8: Adam Smith 1776) = early observation of Scale-Institutional.
     
   🟢 Institutional trust: R9 North 1990
   🟢 No unified PFC: Collective-Body §4.2 ⑥
   🟢 "Invisible hand": R8 Adam Smith 1776
-  🟡 Level 3 as distributed by-product match = framework synthesis
+  🟡 Scale-Institutional as distributed by-product match = framework synthesis
 ```
 
 ---
@@ -366,32 +365,32 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐ CÙNG FUNCTION (anti-habituation), KHÁC NEUROCHEMISTRY:
 
-  ┌────────────────┬──────────────────┬──────────────────┬───────────────────┐
-  │                │ LEVEL 1 (Pair)   │ LEVEL 2 (Hub)    │ LEVEL 3 (Instit.) │
-  ├────────────────┼──────────────────┼──────────────────┼───────────────────┤
-  │ Hardware       │ Oxytocin (kin)   │ Serotonin        │ N/A (abstract)    │
-  │                │ Dopamine (lim.)  │ (hierarchy)      │                   │
-  │                │ μ-opioid (social)│                  │                   │
-  ├────────────────┼──────────────────┼──────────────────┼───────────────────┤
-  │ Function       │ MAINTAIN bond    │ MAINTAIN hierarchy│ MAINTAIN          │
-  │                │ (anti-habituate  │ (anti-habituate   │ institutional     │
-  │                │ pair connection) │ status position)  │ trust             │
-  ├────────────────┼──────────────────┼──────────────────┼───────────────────┤
-  │ When subsidy   │ Bond decays      │ Node challenged  │ Institution       │
-  │ fails          │ ("nhớ vài ngày   │ (alpha mất vị trí│ erodes ("mất niềm │
-  │                │ rồi quên")      │ → serotonin ↓)   │ tin vào hệ thống")│
-  ├────────────────┼──────────────────┼──────────────────┼───────────────────┤
-  │ Subsidy source │ BODY (hormone)   │ BODY (serotonin) │ COLLECTIVE        │
-  │                │                  │ + COLLECTIVE      │ (culture, law,    │
-  │                │                  │ (institutional)   │ history)          │
-  └────────────────┴──────────────────┴──────────────────┴───────────────────┘
+  ┌────────────────┬──────────────────┬──────────────────┬─────────────────────┐
+  │                │ SCALE-PAIR       │ SCALE-HUB        │ SCALE-INSTITUTIONAL │
+  ├────────────────┼──────────────────┼──────────────────┼─────────────────────┤
+  │ Hardware       │ Oxytocin (kin)   │ Serotonin        │ N/A (abstract)      │
+  │                │ Dopamine (lim.)  │ (hierarchy)      │                     │
+  │                │ μ-opioid (social)│                  │                     │
+  ├────────────────┼──────────────────┼──────────────────┼─────────────────────┤
+  │ Function       │ MAINTAIN bond    │ MAINTAIN hierarchy│ MAINTAIN            │
+  │                │ (anti-habituate  │ (anti-habituate   │ institutional       │
+  │                │ pair connection) │ status position)  │ trust               │
+  ├────────────────┼──────────────────┼──────────────────┼─────────────────────┤
+  │ When subsidy   │ Bond decays      │ Node challenged  │ Institution         │
+  │ fails          │ ("nhớ vài ngày   │ (alpha mất vị trí│ erodes ("mất niềm   │
+  │                │ rồi quên")      │ → serotonin ↓)   │ tin vào hệ thống")  │
+  ├────────────────┼──────────────────┼──────────────────┼─────────────────────┤
+  │ Subsidy source │ BODY (hormone)   │ BODY (serotonin) │ COLLECTIVE          │
+  │                │                  │ + COLLECTIVE      │ (culture, law,      │
+  │                │                  │ (institutional)   │ history)            │
+  └────────────────┴──────────────────┴──────────────────┴─────────────────────┘
 
   ⭐ PATTERN: Hardware-subsidy SHIFTS body → collective across scales:
-    Level 1: body hormones (oxytocin, dopamine) = DIRECT biological.
-    Level 2: body hormones (serotonin) + institutional backing = MIXED.
-    Level 3: institutional trust + cultural norms = ABSTRACT (no direct hormone).
+    Scale-Pair: body hormones (oxytocin, dopamine) = DIRECT biological.
+    Scale-Hub: body hormones (serotonin) + institutional backing = MIXED.
+    Scale-Institutional: institutional trust + cultural norms = ABSTRACT (no direct hormone).
     
-  ⭐ SEROTONIN = LEVEL 2 HARDWARE-SUBSIDY:
+  ⭐ SEROTONIN = SCALE-HUB HARDWARE-SUBSIDY:
     R4 Sapolsky (30+ years baboon research):
       Alpha: serotonin ↑ → stable, confident → maintain position.
       Lose status: serotonin ↓ → collapse, depression.
@@ -412,14 +411,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ COMPILATION MECHANISM SHIFTS VỚI SCALE:
 
-  LEVEL 1 — DIRECT VERIFICATION:
+  SCALE-PAIR — DIRECT VERIFICATION:
     Every interaction = body-feedback → by-product match confirmed/denied.
     → Compilation: Fresh→Compiled→baseline → Hebbian strengthen (Inter-Body-Mechanism §5).
     → SLOW but ACCURATE (body verifies every step).
     → RISK: survivorship bias (only remember successes).
     → = "Tin vì tôi TRẢI NGHIỆM."
     
-  LEVEL 2 — TRUST BYPASS:
+  SCALE-HUB — TRUST BYPASS:
     Followers bypass direct verification → trust node's judgment.
     → "CEO quyết → tôi tin CEO → tôi làm" = trust bypass.
     → Proxy trust: "anh A tin CEO → tôi tin anh A → tôi tin CEO."
@@ -428,7 +427,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → FAST but FRAGILE (node wrong → many people wrong simultaneously).
     → = "Tin vì NGƯỜI TÔI TIN tin."
     
-  LEVEL 3 — INSTITUTIONAL COMPILATION:
+  SCALE-INSTITUTIONAL — COMPILATION:
     Trust compiled at cultural/institutional level → individual receives PRE-COMPILED.
     → "Bằng ĐH → việc tốt" = cultural chunk compiled over generations.
     → Individual compiles SHORT: [learn → get degree → trust system]. No verify.
@@ -461,7 +460,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐ BY-PRODUCT MATCH CAN FAIL → SELF-CORRECTION AT EACH SCALE:
 
-  LEVEL 1 — "CHÁN" (Resonance Decline — Bond-Architecture v2.0 §4):
+  SCALE-PAIR — "CHÁN" (Resonance Decline — Bond-Architecture v2.0 §4):
     2 Forces + 1 Fuel:
       Force: Compiled-Suppress gap riêng (nhân tạo, ★ LEVERAGE) → mất by-product source.
       Force: Reward-Habituated (tự nhiên, Weber-Fechner) → reward invisible.
@@ -470,7 +469,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Cost: LOW (individual level, reversible, replaceable).
     Speed: FAST (weeks-months).
     
-  LEVEL 2 — NODE FAILURE (coordination collapse):
+  SCALE-HUB — NODE FAILURE (coordination collapse):
     3 modes (Coordination-Node §8):
       ① Effectiveness decline (node outdated for new environment).
       ② Dominance without Prestige (force only → unsustainable).
@@ -481,7 +480,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Democracy: 4-5 years. Company: months-years. Monarchy: decades.
     → Status §6: "Xã hội tiến bộ = tìm cách re-calibrate RẺ HƠN."
     
-  LEVEL 3 — ARC SHIFT (institutional obsolescence):
+  SCALE-INSTITUTIONAL — ARC SHIFT (institutional obsolescence):
     Collective-Arc-Dynamics §4.5 — 4 mức độ:
       Shift: gradual change (education evolves → old methods fade).
       Disruption: rapid change (internet → bookstores collapse).
@@ -514,7 +513,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §8 — PRESTIGE vs DOMINANCE = GENUINE vs SCHEMA RESONANCE
 
 ```
-⭐⭐⭐ CONNECTION SÂU NHẤT GIỮA LEVEL 1 VÀ LEVEL 2:
+⭐⭐⭐ CONNECTION SÂU NHẤT GIỮA SCALE-PAIR VÀ SCALE-HUB:
 
   R3 Henrich & Gil-White 2001: 2 routes to status:
     ① Dominance: force/threat → followers comply vì SỢ.
@@ -529,7 +528,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │                    │ DOMINANCE         │ PRESTIGE             │
     │                    │ (force)           │ (knowledge value)    │
     ├────────────────────┼───────────────────┼──────────────────────┤
-    │ Level 1 equivalent │ SCHEMA resonance  │ GENUINE resonance    │
+    │ Scale-Pair equivalent │ SCHEMA resonance  │ GENUINE resonance    │
     │                    │ (compiled suppress)│ (by-product match)  │
     ├────────────────────┼───────────────────┼──────────────────────┤
     │ Follower motivation│ Avoid punishment  │ Gain benefit         │
@@ -612,14 +611,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Mẹ = personal node (scale 1-5, face-to-face, MAX hardware-subsidy).
     → Family = first collective (scale 5-20, personal maps).
     → School = first institutional node (scale 30-500, role-based).
-    → Company = Level 2 hub (scale 10-10,000).
-    → Nation = Level 3 institution (scale millions).
+    → Company = Scale-Hub hub (scale 10-10,000).
+    → Nation = Scale-Institutional institution (scale millions).
     → = Child's DEVELOPMENT = progression through by-product match scales.
     
   ⭐ NODE TRANSITION IN CHILD'S LIFE:
     0-3: mẹ = ONLY coordination node (allocate ALL resources for child).
-    3-12: mẹ + teacher (child GAINS new nodes — Level 2 begins).
-    13-18: peers + institutions (Level 2-3 emerging, mẹ-node SHRINKS in scope).
+    3-12: mẹ + teacher (child GAINS new nodes — Scale-Hub begins).
+    13-18: peers + institutions (Scale-Hub-3 emerging, mẹ-node SHRINKS in scope).
     20+: multiple nodes simultaneously (boss, partner, institutions).
     → = Lifecycle resonance shift = SAME AS node transition.
     
@@ -636,19 +635,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Gap-Body-Need v2.0 §8: Specialization = individually WEAKER ↔ collectively STRONGER.
   
-  LEVEL 1 (pair): Specialization → NEED more diverse resonance portfolio.
+  SCALE-PAIR: Specialization → NEED more diverse resonance portfolio.
     → Bác sĩ: fill health gaps excellently, CANNOT fix car / grow food / build house.
     → NEED: thợ sửa xe, nông dân, thợ xây... (Tool-mode at minimum).
     → + NEED: bạn thân, partner (social gaps unfilled by specialization).
     → "Vợ là tất cả" = FRAGILE precisely because specialization requires portfolio.
     
-  LEVEL 2 (hub): Specialization → nodes MUST coordinate across specializations.
+  SCALE-HUB: Specialization → nodes MUST coordinate across specializations.
     → Company: marketing + engineering + sales + finance — all DIFFERENT.
     → CEO coordination = NECESSARY because specialists CAN'T coordinate themselves.
     → More specialized → MORE nodes needed → hierarchy DEEPENS.
     → R7: Durkheim 1893 — organic solidarity: specialized units NEED coordination.
     
-  LEVEL 3 (institutional): Specialization → institutions MUST interconnect.
+  SCALE-INSTITUTIONAL: Specialization → institutions MUST interconnect.
     → Education produces specialists → companies employ specialists.
     → Government regulates → legal system enforces → healthcare serves.
     → EACH institution = specialized → NEED other institutions.
@@ -674,23 +673,23 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ TECHNOLOGY ĐANG THAY ĐỔI BY-PRODUCT MATCH Ở MỌI SCALE:
 
-  LEVEL 1 (pair):
+  SCALE-PAIR:
     → Video call: maintain SOME pair resonance (Generative partial, Tonic offline).
     → AI: fill Generative supply (insight, analysis) — nhưng NO mutual match.
     → Social media: illusion of pair maintenance (parasocial, shallow).
     → Physical presence: IRREPLACEABLE (CT afferents, oxytocin require touch).
     → Net: technology SHIFTS resonance frontier to social + abstract.
     
-  LEVEL 2 (hub):
+  SCALE-HUB:
     → Algorithms: replace SOME coordination functions (scheduling, allocation).
     → AI assistants: reduce node's PFC bandwidth need (data analysis, pattern detect).
     → Remote work: enable hub function WITHOUT physical co-location.
     → NHƯNG: Self-Pattern-Modeling across domains (capability ①) = HARD TO AUTOMATE.
     → Net: technology AUGMENTS node, hasn't REPLACED node yet.
     
-  LEVEL 3 (institutional):
+  SCALE-INSTITUTIONAL:
     → Internet: distribute institutional functions globally.
-    → Blockchain/DAO: attempt to replace Level 2 nodes with Level 3 protocols.
+    → Blockchain/DAO: attempt to replace Scale-Hub nodes with Scale-Institutional protocols.
     → AI governance: emerging (algorithmic regulation, automated compliance).
     → NHƯNG: trust foundation STILL requires collective compilation.
     → "Code is law" → works for SIMPLE rules, fails for COMPLEX judgment.
@@ -698,9 +697,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   ⭐ ACROSS ALL SCALES:
     Technology fills MECHANICAL by-product matching → frontier shifts to JUDGMENT-BASED.
-    Level 1: sensory filled → social frontier (shift to touch + abstract).
-    Level 2: allocation/scheduling filled → vision + trust frontier (shift to Prestige).
-    Level 3: information filled → meaning + trust frontier (shift to purpose).
+    Scale-Pair: sensory filled → social frontier (shift to touch + abstract).
+    Scale-Hub: allocation/scheduling filled → vision + trust frontier (shift to Prestige).
+    Scale-Institutional: information filled → meaning + trust frontier (shift to purpose).
     → AT EVERY LEVEL: technology fills the ROUTINE, leaves the GENUINE.
     → = Genuine by-product match becomes MORE VALUABLE as technology fills routine match.
     → R14: Kahneman & Deaton 2010 — income plateau = technology fills sensory baselines.
@@ -718,7 +717,7 @@ CASE 1: STARTUP FOUNDER — Prestige → Dominance shift.
   Phase 1 (5 người): founder = PERSONAL node. Know everyone. Fill coordination +
     vision gap CỦA MÌNH → by-product = direction, energy, decisions.
     Team fill domain gaps CỦA HỌ → by-product = output, trust, feedback.
-    = Level 1-2 mix. Prestige-based. Genuine resonance. HIGH energy.
+    = Scale-Pair-2 mix. Prestige-based. Genuine resonance. HIGH energy.
   Phase 2 (50 người): founder = ROLE node. CAN'T know everyone.
     Trust bypass begins. Some decisions "because founder said."
     IF founder maintains vision value: Prestige sustained.
@@ -739,27 +738,27 @@ CASE 2: "VỢ LÀ TẤT CẢ" — Portfolio collapse.
   = Bond-Architecture §7: 1 entity cannot fill all domains.
     Specialization (§10) makes portfolio MORE necessary, not less.
 
-CASE 3: DEGREE INFLATION — Level 3 compiled chunk expires.
+CASE 3: DEGREE INFLATION — Scale-Institutional compiled chunk expires.
   1990: "Bằng ĐH → việc tốt" = pre-compiled cultural chunk. Mostly TRUE.
-    Individual compiles SHORT: [learn → degree → career]. Trust Level 3.
+    Individual compiles SHORT: [learn → degree → career]. Trust Scale-Institutional.
   2025: same chunk → OUTDATED. Supply > demand. Degree ≠ guarantee.
-    Individual STILL compiles same way (Level 3 compilation = SLOW to update).
+    Individual STILL compiles same way (Scale-Institutional compilation = SLOW to update).
     Body-feedback mismatch: "có bằng mà thất nghiệp" → confusion.
     → = Collective-Arc-Dynamics §5: "true but unnecessary" transition.
     → = Expansion-Saturation-Crisis: global grad unemployment = arc shift signal.
-  Fix: individual must DOWNGRADE to Level 1 verification:
+  Fix: individual must DOWNGRADE to Scale-Pair verification:
     [try domain → body-feedback → adjust] = slower but accurate.
 
 CASE 4: VILLAGE → CITY — Scale transition.
-  Village (500 người): mostly Level 1 + Level 2 (personal nodes).
+  Village (500 người): mostly Scale-Pair + Scale-Hub (personal nodes).
     Everyone knows everyone. By-product match = DIRECT + VERIFIABLE.
     Chief = personal hub. Trust = face-to-face. Hardware: oxytocin-dominant.
-  City (5 million): Level 2-3 dominant.
+  City (5 million): Scale-Hub-3 dominant.
     By-product match = MEDIATED through institutions + roles.
     Strangers: institutional trust ("contract enforceable") replaces personal trust.
-    → "Lên thành phố = lạnh lùng" = Level 1→Level 3 trust shift.
+    → "Lên thành phố = lạnh lùng" = Scale-Pair→Scale-Institutional trust shift.
     → NOT because people are "colder" — because SCALE requires trust TYPE shift.
-    → Social isolation IN city = Level 1 needs unmet despite Level 3 abundance.
+    → Social isolation IN city = Scale-Pair needs unmet despite Scale-Institutional abundance.
 ```
 
 ---
@@ -797,12 +796,12 @@ CASE 4: VILLAGE → CITY — Scale transition.
   Prestige = genuine resonance at hub scale (Henrich → By-Product-Gap-Resonance mapping)
   Dominance = schema resonance at hub scale
   Mẹ = first coordination node (5 capabilities mapping)
-  Child development = scale progression (L1→L2→L3)
+  Child development = scale progression (Scale-Pair→Scale-Hub→Scale-Institutional)
   Node as DUAL NATURE (vehicle + road)
   Self-correction speed inversely proportional to scale
   Technology fills routine → genuine becomes MORE valuable
   Specialization × dependency at all 3 scales
-  "Invisible hand" = Level 3 by-product match
+  "Invisible hand" = Scale-Institutional by-product match
   "Purpose-driven company" = Prestige hub = genuine resonance at org scale
   Hierarchy = LOSSY COMPRESSION ALGORITHM for by-product coordination
 
@@ -811,9 +810,9 @@ CASE 4: VILLAGE → CITY — Scale transition.
 ═══════════════════════════════════════
 
   Exact serotonin↔oxytocin functional equivalence (similar but not identical)
-  Whether Level 3 CAN be fully distributed (no nodes at all?)
-  Technology timeline for node replacement at Level 2
-  AI governance feasibility at Level 3
+  Whether Scale-Institutional CAN be fully distributed (no nodes at all?)
+  Technology timeline for node replacement at Scale-Hub
+  AI governance feasibility at Scale-Institutional
 ```
 
 ---
@@ -849,8 +848,8 @@ CASE 4: VILLAGE → CITY — Scale transition.
 ### §14.3 — Collective + observation files
 
 ```
-  → Coordination-Node.md v1.1 — Level 2 hub analysis, 5 capabilities, personal→role→symbolic
-  → Collective-Body.md v2.0 — Level 3, trust bypass §2, no unified PFC §4.2
+  → Coordination-Node.md v1.1 — Scale-Hub hub analysis, 5 capabilities, personal→role→symbolic
+  → Collective-Body.md v2.0 — Scale-Institutional, trust bypass §2, no unified PFC §4.2
   → Collective-Arc-Dynamics.md v1.1 — arc shift §4, shelf-life §5
   → Connection.md v4.0 — 3 Generative Primitives
   → Status.md v2.1 — hierarchy, disruption cycle §6

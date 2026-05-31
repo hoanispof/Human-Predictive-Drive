@@ -1,0 +1,4 @@
+đọc các file liên quan nắm context
+rà soát xem còn từ nào chưa hiểu(khó dịch) -> phân tích cách dịch và note ra file
+đọc lại các file liên quan để nắm context
+tiến hành dịch(có thể chia thành nhiều phase tập trung dịch từng phần nếu cần thiết)

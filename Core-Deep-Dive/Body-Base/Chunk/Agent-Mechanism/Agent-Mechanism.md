@@ -126,7 +126,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §7 — Quality axes (4 axes + Compiled/Fresh + v2.1 quality modifiers)
 - §8 — Pattern-Type modalities (5 types)
 - §9 — Gradient validation (18 cases, 2-stream + Entity-Access Mức annotated)
-- §10 — Schema override (Mode 1 / Mode 2)
+- §10 — Schema override (Schema-Pure-Trust / Schema-Imagined-Overlay)
 - §11 — Schema-Linked Agent Processing (individual → collective)
 - §12 — Agent as body-need feeder (+v2.1: §12.7 Satiation, §12.8 ENGINE/ROAD/VEHICLE, §12.9 Phantom)
 - §13 — Developmental timeline (Compilable Architecture → 15-20yr compilation)
@@ -351,7 +351,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - Chó cúp đuôi → sympathy fires but prediction weak
 - Chuột → no simulation, fallback mechanical
 - Cục đá → pure physics
-- Đức Mẹ mẫu ảnh → schema override Mode 1
+- Đức Mẹ mẫu ảnh → schema override Schema-Pure-Trust
 
 Data show **continuous gradient** từ high-quality simulation (family) đến no-simulation (stone) đến schema-override (religious). Binary cannot accommodate.
 
@@ -366,11 +366,11 @@ Bộ đội lạ → schema "Đảng/Bác Hồ" → positive valence, trust.
 Quân giặc lạ → schema "enemy" → hostility.
 Prediction template từ SCHEMA, không phải hardware classification.
 
-**Problem 4 — Đức Mẹ Mode 1**:
+**Problem 4 — Đức Mẹ Schema-Pure-Trust**:
 - VTC hardware: inanimate (image, no motion)
 - User experience: protective agent, full trust
 - Mechanism: schema override bypasses hardware entirely
-- Mode 1: ZERO modeling — pure schema trust
+- Schema-Pure-Trust: ZERO modeling
 
 Binary fails: hardware says object, user treats as agent, with ZERO simulation.
 
@@ -487,8 +487,8 @@ Compilable Architecture (general-purpose):
 
   OVERRIDE — SCHEMA (can bypass or reshape):
     → Community/cultural/personal schemas override natural processing
-    → Mode 1: pure schema trust (zero modeling) — Đức Mẹ luôn bảo vệ
-    → Mode 2: imagined modeling overlay — mystical dialogue prayer
+    → Schema-Pure-Trust (zero modeling) — Đức Mẹ luôn bảo vệ
+    → Schema-Imagined-Overlay — mystical dialogue prayer
     → Can ADD "agent-ness" to objects (religious icons, sacred stones)
     → Can REMOVE "agent-ness" from people (dehumanization)
 ```
@@ -548,14 +548,14 @@ v2.0 described Self-Pattern-Modeling as standalone mechanism. v2.1 adds: Self-Pa
 
   KEY APPLICATIONS (= coordinates in 3D space):
     ① Self-Pattern-Modeling         = (Other, Present, Simulate) ← file này focus
-    ② Self-Obs    = (Self, Present, Observe)
+    ② Self-Observation = (Self, Present, Observe)
     ③ Imagine-Final = (Self, Future, Simulate+Construct)
     ④-⑫: memory recall, counterfactual, moral judgment, narrative, dream...
 
   WHY THIS MATTERS FOR AGENT MECHANISM:
   → Self-Pattern-Modeling KHÔNG phải separate module — shared substrate với Self-Observation + Imagine-Final
   → 🟢 Alexithymia PROOF: C1 broken → ALL applications degrade (Bird & Cook 2013)
-  → Training C1 (interoception) → improves Self-Pattern-Modeling + Self-Obs + Imagine-Final simultaneously
+  → Training C1 (interoception) → improves Self-Pattern-Modeling + Self-Observation + Imagine-Final simultaneously
   → Entity-Access = neural migration: stranger → dorsal mPFC → close other → ventral mPFC
   → mPFC gradient (C3) = neural substrate cho Entity-Access gradient Mức 0-5 (Entity-Access v1.2)
 
@@ -569,7 +569,7 @@ Logic + Modeling chạy SONG SONG cho MỌI entity, chỉ khác **tỉ lệ comp
 ```
 Compiled processing dominant (Self-Pattern-Modeling near-zero):
   → Cục đá, tường, bàn — schema + rules đủ
-  → Schema agents Mode 1 (Đức Mẹ) — schema trust
+  → Schema agents Schema-Pure-Trust (Đức Mẹ) — schema trust
   → Đồng nghiệp routine — compiled interaction script
 
 Mixed compiled + fresh:
@@ -605,12 +605,12 @@ REASON C — Social architecture requirement:
 
 REASON D — Imagined presence:
   Entity không có real state → người imagine (schema provides substrate).
-  VD: Đức Mẹ Mode 2, người đã mất, fictional character.
+  VD: Đức Mẹ Schema-Imagined-Overlay, người đã mất, fictional character.
   Cost: no real feedback → no calibration → potential distortion.
 
 NO MODELING NEEDED:
   → Physics-deterministic (cục đá, bàn)
-  → Schema-defined absolute (Đức Mẹ Mode 1)
+  → Schema-defined absolute (Đức Mẹ Schema-Pure-Trust)
   → Routine-complete (đồng nghiệp chào hỏi xong đi)
   → Below-threshold (chuột — mechanical prediction Layer 1+2 đủ)
 ```
@@ -622,7 +622,7 @@ NO MODELING NEEDED:
 │  HIGH UTILITY × LOW MODELING  │  HIGH UTILITY × HIGH MODELING │
 │                                │                                │
 │  Schema agents:                │  Real relationships:           │
-│  • Đức Mẹ Mode 1              │  • Mẹ, bố ruột                 │
+│  • Đức Mẹ Schema-Pure-Trust              │  • Mẹ, bố ruột                 │
 │  • Tools (tủ lạnh)            │  • Bạn thân, vợ/chồng          │
 │  = COMPILED, EFFICIENT         │  = ACTIVE Self-Pattern-Modeling, HIGH VALUE      │
 ├────────────────────────────────┼────────────────────────────────┤
@@ -704,7 +704,7 @@ NO MODELING NEEDED:
 - **Forward**: produces prediction before verification
 - **Compiled/Fresh spectrum**: same mechanism, different compilation level
 - **PFC = Lawyer**: narrative about WHY self predicts X = post-hoc (not the cause)
-- **3-cost when Fresh**: ①PFC draft metabolic + ②Suppress compiled if conflicts + ③Uncertainty cortisol holding
+- **3-cost when Fresh**: ①PFC draft processing load + ②Suppress compiled if conflicts + ③Uncertainty cortisol holding
 - **Per-domain**: same person, different domain → different compiled/fresh ratio
 - **Context-dependent**: vô thức tùy chọn chunks per agent + context
 - **Per-Agent Valence gates direction**: empathy (positive) vs strategic (neutral) vs reversed (negative)
@@ -808,7 +808,7 @@ Note: Hardware-Stream Resonance fires PARALLEL — independent of this Self-Patt
 
   Fresh = FRESH Self-Pattern-Modeling:
     → PFC draft prediction: deliberate chain reasoning about target
-    → Costly: mỗi lần = metabolic effort (glucose consumption)
+    → Costly: mỗi lần = processing load (serial bottleneck + catecholamine)
     → Fires có ý thức: "tôi nghĩ person X sẽ làm Y vì Z"
     → PHYSICAL: novel neural paths, unmyelinated (1m/s)
     → Novice analysis: student "phân tích" patient = fresh Self-Pattern-Modeling
@@ -828,9 +828,9 @@ Note: Hardware-Stream Resonance fires PARALLEL — independent of this Self-Patt
 ```
 3 INDEPENDENT COST SOURCES khi Fresh Self-Pattern-Modeling fires:
 
-  ① PFC DRAFT COST (metabolic):
-    → Glucose-consuming reasoning about target
-    → Gailliot 2007: PFC energy depletion real
+  ① PFC DRAFT COST (processing load):
+    → Serial bottleneck occupied by reasoning about target
+    → Kurzban 2013: PFC processing capacity finite (opportunity cost)
     → "Mệt sau buổi nói chuyện phức tạp với người mới"
 
   ② SUPPRESS COST (efference mismatch):
@@ -1061,11 +1061,11 @@ Detail: `Resonance-Sustainability.md v1.0`
 
 | Scale | Unit | Mechanism | Example |
 |---|---|---|---|
-| L1 — Pair | 2 individuals | Direct by-product match | Bạn thân, vợ/chồng |
-| L2 — Hub | 1 node + N members | Node's by-products serve group | Team leader, teacher |
-| L3 — Institutional | Distributed system | Trust infrastructure (serotonin) | Company, nation |
+| Scale-Pair | 2 individuals | Direct by-product match | Bạn thân, vợ/chồng |
+| Scale-Hub | 1 node + N members | Node's by-products serve group | Team leader, teacher |
+| Scale-Institutional | Distributed system | Trust infrastructure (serotonin) | Company, nation |
 
-**Prestige = genuine resonance** (by-product match at scale). Dominance = forced resonance (schema override, not genuine). Hardware shift: L1 oxytocin → L2 oxytocin+serotonin → L3 serotonin dominant.
+**Prestige = genuine resonance** (by-product match at scale). Dominance = forced resonance (schema override, not genuine). Hardware shift: Scale-Pair oxytocin → Scale-Hub oxytocin+serotonin → Scale-Institutional serotonin dominant.
 
 Detail: `By-Product-Scale.md v1.0`
 
@@ -1268,8 +1268,8 @@ Speed: Affective (ms) > Somatic (s) > Visual-symbolic (s) > Verbal-cognitive (s-
 | 4 | Mèo stress | Somatic + affective | Thin | Low | Limited | 🟡 Weak | Hardware-Stream only | 1 |
 | 5 | Chuột | None | Very thin | Below threshold | None | 🔴 | No Resonance | 0 |
 | 6 | Cục đá | N/A | N/A | N/A | N/A | N/A | N/A | 0 |
-| 7 | Đức Mẹ Mode 1 | None | N/A | N/A | None | Schema | Hardware-Stream (comfort) | 0 (schema) |
-| 8 | Đức Mẹ Mode 2 | Composite imagined | Schema | Schema | Internal | 🟡 Virtual | Hardware-Stream+imagined | 0 (schema) |
+| 7 | Đức Mẹ Schema-Pure-Trust | None | N/A | N/A | None | Schema | Hardware-Stream (comfort) | 0 (schema) |
+| 8 | Đức Mẹ Schema-Imagined-Overlay | Composite imagined | Schema | Schema | Internal | 🟡 Virtual | Hardware-Stream+imagined | 0 (schema) |
 | 9 | Bộ đội lạ | Affective + cognitive | Schema | Moderate | Minimal | 🟡 | Hardware-Stream (warmth) | 1 (schema) |
 | 10 | Quân giặc | Suppressed | Schema | Hostile | Minimal | 🔴 | Anti-match | 0 (suppress) |
 | 11 | Mother day 0 | Composite fresh | Growing | Moderate | Rich | 🟡 Fresh | Hardware-Stream strong+M-Stream begin | 2→3 |
@@ -1321,7 +1321,7 @@ Speed: Affective (ms) > Somatic (s) > Visual-symbolic (s) > Verbal-cognitive (s-
 1. Self-Pattern-Modeling = function on chunk substrate ✅
 2. Quality gradients smoothly across axes ✅
 3. Threshold failure (chuột) → mechanical fallback ✅
-4. Schema override can replace/provide (Mode 1/2) ✅
+4. Schema override can replace/provide (Schema-Pure-Trust/Imagined-Overlay) ✅
 5. Domain depth ≠ personal depth ✅
 6. Feedback essential for calibration ✅
 7. Compiled/Fresh visible in mother-over-time ✅
@@ -1346,11 +1346,11 @@ None observed. Agent-Unified-Mechanism consistent.
 
 ---
 
-## §10 — Schema override (Mode 1 / Mode 2)
+## §10 — Schema override (Schema-Pure-Trust / Schema-Imagined-Overlay)
 
 Schema override = Layer 4 mechanism có thể bypass hoặc reshape Self-Pattern-Modeling entirely. Explains how abstract/imagined/schema-defined agents elicit agent-like responses without real Self-Pattern-Modeling firing.
 
-### §10.1 — Mode 1: Pure schema trust (zero modeling)
+### §10.1 — Schema-Pure-Trust (zero modeling)
 
 Schema rule defines entity's behavior as **constant + absolute** → eliminates need for Self-Pattern-Modeling.
 
@@ -1363,7 +1363,7 @@ Entity encounter → Schema fires: "Entity X → always Y"
 
 **Examples**:
 
-**Đức Mẹ Mode 1** (daily devotion, rote prayer):
+**Đức Mẹ Schema-Pure-Trust** (daily devotion, rote prayer):
 - Schema: "luôn yêu thương, luôn bảo vệ"
 - No question "hôm nay Đức Mẹ giận không?" — schema eliminates uncertainty
 - Icon = anchor for schema trigger, not target of simulation
@@ -1376,7 +1376,7 @@ Entity encounter → Schema fires: "Entity X → always Y"
 **Simple tools (tủ lạnh, xe máy)**:
 - Schema: "tool provides utility reliably" → zero uncertainty, stable utility
 
-**Why Mode 1 "works"**:
+**Why Schema-Pure-Trust "works"**:
 - Real agents carry uncertainty → possible disappointment
 - Schema agents carry ZERO uncertainty → never disappoint
 - Body-need for stable trust satisfied WITHOUT real-agent cost
@@ -1384,7 +1384,7 @@ Entity encounter → Schema fires: "Entity X → always Y"
 
 **PFC = Lawyer note**: PFC narrative about WHY self trusts schema = post-hoc. Body trusts FIRST (compiled from childhood), PFC explains after.
 
-### §10.2 — Mode 2: Imagined modeling overlay
+### §10.2 — Schema-Imagined-Overlay
 
 Schema provides **substrate** for Self-Pattern-Modeling to run on → virtual agent.
 
@@ -1398,7 +1398,7 @@ Entity + schema active → Self-Pattern-Modeling fires toward schema entity
 
 **Examples**:
 
-**Đức Mẹ Mode 2** (intense prayer, dialogue):
+**Đức Mẹ Schema-Imagined-Overlay** (intense prayer, dialogue):
 - Tín đồ imagines Đức Mẹ's gaze, expression, emotional response
 - Self-Pattern-Modeling fires full composite on virtual agent
 - Schema provides template for what Đức Mẹ would feel/think
@@ -1419,30 +1419,30 @@ Entity + schema active → Self-Pattern-Modeling fires toward schema entity
 - Internalized figure as schema, Self-Pattern-Modeling fires on virtual agent
 - Useful for decision-making, problem-solving
 
-**Mode 2 cost/benefit**:
+**Schema-Imagined-Overlay cost/benefit**:
 - Benefit: deeper engagement, agent-input need strongly fulfilled
 - Cost: high cognitive load, no real feedback → potential distortion
-- **Domain=Arbiter**: Mode 2 outputs are NOT verified by reality (no external agent) → cannot self-correct
+- **Domain=Arbiter**: Schema-Imagined-Overlay outputs are NOT verified by reality (no external agent) → cannot self-correct
 
-### §10.3 — Mode 1/Mode 2 dynamic switching
+### §10.3 — Schema-Pure-Trust/Schema-Imagined-Overlay dynamic switching
 
 Religious practitioner moves fluidly:
-- Routine prayer → Mode 1 (efficient, maintenance)
-- Crisis moment → Mode 2 (intense dialogue)
-- Contemplation → Mode 2 (imaginative reflection)
-- Ritual → Mode 1 (schema comfort, no deep simulation)
-- Confession → Mode 2 (simulated disappointment, guilt)
+- Routine prayer → Schema-Pure-Trust (efficient, maintenance)
+- Crisis moment → Schema-Imagined-Overlay (intense dialogue)
+- Contemplation → Schema-Imagined-Overlay (imaginative reflection)
+- Ritual → Schema-Pure-Trust (schema comfort, no deep simulation)
+- Confession → Schema-Imagined-Overlay (simulated disappointment, guilt)
 
 ### §10.4 — Cow/stone worship
 
 Physical object (cow, stone, icon) = **anchor/vessel** for abstract divine schema, NOT itself the target.
 
-- **Hindu cow**: divine vessel → worship through cow to divine principle. Mode 1.
-- **Shiva lingam / Kaaba stone**: divine presence at/in stone. Touch → schema → comfort. Mode 1.
+- **Hindu cow**: divine vessel → worship through cow to divine principle. Schema-Pure-Trust.
+- **Shiva lingam / Kaaba stone**: divine presence at/in stone. Touch → schema → comfort. Schema-Pure-Trust.
 - **Shinto kami**: spirits inhabit objects. Physical = vessel, kami = agent.
-- **Primitive animism (adult retention)**: mix Mode 1 + uncalibrated Self-Pattern-Modeling projection.
+- **Primitive animism (adult retention)**: mix Schema-Pure-Trust + uncalibrated Self-Pattern-Modeling projection.
 
-Pattern: physical anchor + abstract divine schema = Mode 1 or Mode 2. Agent-ness is SCHEMA-DEFINED, not stored in physical object.
+Pattern: physical anchor + abstract divine schema = Schema-Pure-Trust or Schema-Imagined-Overlay. Agent-ness is SCHEMA-DEFINED, not stored in physical object.
 
 **Exception — Piaget animism (2-7y)**: children genuinely attribute intent (ghế bị đau). = uncalibrated Self-Pattern-Modeling projection, NOT schema override. Calibration over time refines boundary.
 
@@ -1455,8 +1455,8 @@ Schema chain: Individual soldier → Bộ đội category → Đảng → Bác H
   → Action: share food even in hardship (body-need feeding via schema)
   → Self-Pattern-Modeling minimal (schema handles) + some affective empathy for hardship
 
-= Mode 1 schema-linked processing: schema fires, behavior follows,
-  no individual Self-Pattern-Modeling required. Same mechanism as religious Mode 1.
+= Schema-Pure-Trust schema-linked processing: schema fires, behavior follows,
+  no individual Self-Pattern-Modeling required. Same mechanism as religious Schema-Pure-Trust.
 
 CONTRAST — quân giặc:
   → Same mechanism, opposite valence
@@ -1470,15 +1470,15 @@ CONTRAST — quân giặc:
 
 | Case | Schema | Mode | Self-Pattern-Modeling status |
 |---|---|---|---|
-| Đức Mẹ daily | "Luôn bảo vệ" | Mode 1 | Not invoked |
-| Đức Mẹ intense prayer | "Đang nhìn tôi" | Mode 2 | Full virtual |
-| Cow veneration | "Divine vessel" | Mode 1 | Not invoked |
-| Sacred stone | "Divine presence" | Mode 1 | Not invoked |
-| Ancestor worship | "Ancestor presence" | Mode 2 | Virtual agent |
-| Bác Hồ schema | "Revered leader" | Mode 1 (link) | Not invoked for stranger bộ đội |
-| Quân giặc | "Enemy" | Mode 1 + suppress | **Suppressed** |
-| Celebrity fan | Parasocial | Mode 2 | Over-invoked, no feedback |
-| Cult leader | "All-knowing" | Mode 1 | Critical Self-Pattern-Modeling suppressed |
+| Đức Mẹ daily | "Luôn bảo vệ" | Schema-Pure-Trust | Not invoked |
+| Đức Mẹ intense prayer | "Đang nhìn tôi" | Schema-Imagined-Overlay | Full virtual |
+| Cow veneration | "Divine vessel" | Schema-Pure-Trust | Not invoked |
+| Sacred stone | "Divine presence" | Schema-Pure-Trust | Not invoked |
+| Ancestor worship | "Ancestor presence" | Schema-Imagined-Overlay | Virtual agent |
+| Bác Hồ schema | "Revered leader" | Schema-Pure-Trust (link) | Not invoked for stranger bộ đội |
+| Quân giặc | "Enemy" | Schema-Pure-Trust + suppress | **Suppressed** |
+| Celebrity fan | Parasocial | Schema-Imagined-Overlay | Over-invoked, no feedback |
+| Cult leader | "All-knowing" | Schema-Pure-Trust | Critical Self-Pattern-Modeling suppressed |
 
 **Double-edged**: Same mechanism enabling religious comfort + national solidarity also enables parasocial + dehumanization + cult vulnerability. Mechanism neutral; schema content determines outcome.
 
@@ -1549,8 +1549,8 @@ Compilable Architecture = 15-20 năm compile → need GROUP (not just 1 caregive
 |---|---|---|---|
 | Real agent interaction | Highest | Highest | Self-Pattern-Modeling + Resonance emergence |
 | Schema-linked stranger | Moderate | Lower | "Among my people" feeling |
-| Mode 1 schema agent | Low cost, moderate | Low | Comfort via schema trust |
-| Mode 2 virtual agent | Variable, higher | High | Imagined dialogue |
+| Schema-Pure-Trust agent | Low cost, moderate | Low | Comfort via schema trust |
+| Schema-Imagined-Overlay virtual agent | Variable, higher | High | Imagined dialogue |
 
 Collective belonging feeds continuously: walking on street feeling "among my people" → low-level body-need satisfied → baseline social presence.
 
@@ -1609,27 +1609,27 @@ This = why **talking with friends** feeds need even though food/shelter unchange
 
 ### §12.2b — 2-luồng reward: Self-Pattern-Modeling-owned vs Entity-compiled
 
-**Luồng 1 — Self-Pattern-Modeling-owned (momentary)**:
+**Luồng 1 (Valence-Momentary) — Self-Pattern-Modeling-owned**:
 - Per-episode: Self-Pattern-Modeling fire → body response → social presence signal
 - Can be + (bạn vui → vui lây) or - (con ốm → khó chịu)
 - Thuộc Self-Pattern-Modeling mechanism (Compiled function)
 
-**Luồng 2 — Entity-compiled (structural)**:
-- COMPILED valence: nhiều L1 episodes → valence compile SÂU → agent = body-base extension
+**Luồng 2 (Valence-Structural) — Entity-compiled**:
+- COMPILED valence: nhiều Valence-Momentary episodes → valence compile SÂU → agent = body-base extension
 - Agent's wellbeing = MY wellbeing (structural, KHÔNG phụ thuộc từng episode)
-- SUSTAINED — fire BẤT KỂ L1 positive hay negative
+- SUSTAINED — fire BẤT KỂ Valence-Momentary positive hay negative
 - Thuộc per-agent valence (Valence-Propagation.md §2)
 
-**Transition L1 → L2**:
+**Transition Valence-Momentary → Valence-Structural**:
 ```
-Nhiều L1 episodes thành công → Valence compile dần sâu → Trust tăng, Replaceability giảm
-  → BƯỚC NHẢY CHẤT: agent = body-base extension → L2 structural reward emerge
+Nhiều Valence-Momentary episodes thành công → Valence compile dần sâu → Trust tăng, Replaceability giảm
+  → BƯỚC NHẢY CHẤT: agent = body-base extension → Valence-Structural reward emerge
 ```
 
 **Tại sao phân biệt quan trọng**:
-- Mẹ chăm con ốm dù L1 negative → vì L2 (con = body-ext) > L1 cost
-- Bác sĩ burnout dù "giống" → vì L2 ≈ 0 → L1 cost tích lũy
-- Grief ≠ resource loss → L2 = body-base amputation
+- Mẹ chăm con ốm dù Valence-Momentary negative → vì Valence-Structural (con = body-ext) > Valence-Momentary cost
+- Bác sĩ burnout dù "giống" → vì Valence-Structural ≈ 0 → Valence-Momentary cost tích lũy
+- Grief ≠ resource loss → Valence-Structural = body-base amputation
 
 🟡 2-luồng = framework synthesis. Details: Connection.md v5.0 §3.3, Valence-Propagation.md v3.0 §2, Entity-Compiled.md v1.0 (full mechanism).
 
@@ -1651,19 +1651,19 @@ Body can prioritize **mirror reward** (simulated other-benefit) over **self-rewa
 Evolutionary function (🟢): natural resource distribution without explicit rules. "Share when thừa" = group cooperation > individual hoarding.
 
 **2-luồng reframe**:
-- Cây xoài = L1 positive (simulate pleasure → reward > keep) → works
-- Mẹ chăm con ốm = L1 NEGATIVE → mirror reward < 0 → L1 alone can't explain
-- Mẹ vẫn chăm vì L2 (structural body-ext) > L1 cost
-- L1 explains sharing-when-surplus. L2 explains sustained-care-despite-cost.
+- Cây xoài = Valence-Momentary positive (simulate pleasure → reward > keep) → works
+- Mẹ chăm con ốm = Valence-Momentary NEGATIVE → mirror reward < 0 → Valence-Momentary alone can't explain
+- Mẹ vẫn chăm vì Valence-Structural (structural body-ext) > Valence-Momentary cost
+- Valence-Momentary explains sharing-when-surplus. Valence-Structural explains sustained-care-despite-cost.
 
 ### §12.4 — 3-cost in agent feeding
 
-Self-Pattern-Modeling serving body-need has metabolic cost (especially Fresh):
+Self-Pattern-Modeling serving body-need has processing cost (especially Fresh):
 
 ```
 3-cost applies to SOCIAL INTERACTION too:
 
-  ① PFC draft: reasoning about what friend needs (glucose-consuming)
+  ① PFC draft: reasoning about what friend needs (processing load)
   ② Suppress: suppressing own compiled response to accommodate other
   ③ Uncertainty: not knowing if interaction will go well (cortisol holding)
 
@@ -1675,8 +1675,8 @@ Self-Pattern-Modeling serving body-need has metabolic cost (especially Fresh):
 
 ### §12.5 — Schema agents feeding need
 
-**Mode 1** (Đức Mẹ, lucky charm): schema fires → comfort via trust. Cost: minimal.
-**Mode 2** (prayer dialogue, deceased): virtual Self-Pattern-Modeling → intense presence. Cost: high cognitive load.
+**Schema-Pure-Trust** (Đức Mẹ, lucky charm): schema fires → comfort via trust. Cost: minimal.
+**Schema-Imagined-Overlay** (prayer dialogue, deceased): virtual Self-Pattern-Modeling → intense presence. Cost: high cognitive load.
 
 Why "works": body-response mechanism doesn't distinguish "real" from "schema-driven" at cortisol/oxytocin level. If internal simulation fires, body responds.
 
@@ -1753,8 +1753,8 @@ Detail: Entity-Compiled.md v1.0 §7 (grief), Resonance-Per-Entity.md v1.0 §8 (p
 - **Loneliness** = chronic agent input deficit → body-level harm
 - **Parasocial** = one-sided Self-Pattern-Modeling without feedback → partial feed, uncalibrated
 - **Cult dependency** = schema supply controlled by group → exit costs prohibitive
-- **Grief** = L2 loss = body-base amputation. Intensity = A+B+C (Entity-Compiled v1.0 §7)
-- **Imagined agent substitution** = Mode 2 compensating absent real agents
+- **Grief** = Valence-Structural loss = body-base amputation. Intensity = A+B+C (Entity-Compiled v1.0 §7)
+- **Imagined agent substitution** = Schema-Imagined-Overlay compensating absent real agents
 - **Entity-Access-Excess** = Mức 5, entity = near-only gap source → Self-Pattern-Modeling atrophy (Entity-Access-Excess.md v1.0)
 
 Agent mechanism is not "just cognition" — primary pathway for body to obtain social presence. Damage = real body-level harm.
@@ -1817,7 +1817,7 @@ Stage 5 (12-18y): IDENTITY + COMPLEX SCHEMAS
 
 Stage 6 (18+): ADULT COMPILED + Resonance NATIVE
   → Full Self-Pattern-Modeling library compiled. Resonance emergence native.
-  → Mode 1/Mode 2 fluent. Cross-cultural gap possible with effort.
+  → Schema-Pure-Trust/Schema-Imagined-Overlay fluent. Cross-cultural gap possible with effort.
   → Self-Pattern-Modeling: FULLY ONLINE. Quality varies enormously by individual.
   → Compilable Architecture: compilation largely complete. Maintenance mode.
 
@@ -1910,7 +1910,7 @@ Cognitive Self-Pattern-Modeling intact (predict actions) + affective Self-Patter
 
 ### §14.9 — Religious extremism / cult dynamics
 
-Positive schema provides Mode 1 override so efficiently → believer LOSES independent Self-Pattern-Modeling:
+Positive schema provides Schema-Pure-Trust override so efficiently → believer LOSES independent Self-Pattern-Modeling:
 - Suppress critical Self-Pattern-Modeling toward leader
 - Dehumanize outsiders (negative schema)
 - Exit cost = losing agent-input source (body-need)
@@ -2245,7 +2245,7 @@ v1.0+v2.0 (28 citations preserved):
 - Damasio 1994, Gendlin 1978, Piaget 1929, Loughnan 2014, Grossman 1995
 - Durkheim 1912, Mori 1970, Dondi 1999, Warneken 2006-2007, Goldman
 - Hamilton 2013, Gazzaniga, Haidt 2001, Nisbett & Wilson 1977
-- Gailliot 2007, Schultz 1997, Kahneman 2011, Klein 1998, Tang 2015, Weber-Fechner
+- Kurzban 2013, Schultz 1997, Kahneman 2011, Klein 1998, Tang 2015, Weber-Fechner
 
 v2.1 added (via sub-files):
 - Patterson & Lambon Ralph 2007/2017 (Hub-and-Spoke)
@@ -2305,7 +2305,7 @@ v2.0 (2026-05-17) — FULL REWRITE (Phase 16 ALL REWRITE project)
   - 3-concept split architecture
   - 4 Quadrants (Utility × Modeling)
   - Gradient validation (17 → 18 cases)
-  - Schema override Mode 1/Mode 2
+  - Schema override Schema-Pure-Trust/Schema-Imagined-Overlay
   - Schema-Linked 7 scales
   - Developmental 7 stages
   - 9 failure modes
@@ -2348,7 +2348,7 @@ v2.1 (2026-05-22) — REFINE (Phase C8 — Drill Framework Propagation plan 25/2
   - 20 section structure (enriched, not restructured)
   - ALL signature examples
   - ALL v2.0 research citations (28 → 45+)
-  - 3-concept split, 4 Quadrants, Schema Mode 1/2, 7 developmental stages
+  - 3-concept split, 4 Quadrants, Schema-Pure-Trust/Imagined-Overlay, 7 developmental stages
   - Agent-Unified-Mechanism falsifiable predictions (12, unchanged)
 ```
 

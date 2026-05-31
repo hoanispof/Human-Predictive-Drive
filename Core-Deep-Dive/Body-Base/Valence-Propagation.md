@@ -30,7 +30,7 @@ dependencies:
   - Anchor-Schema.md v1.2 — anchor amplify propagation, trust binding
   - Collective-Body.md v1.2 — Model 3 cấp (Clarification reference)
   - Self-Pattern-Modeling.md v3.1 — observed experience (§3 nguồn ②)
-  - Agent-Mechanism.md v2.0 — Mode 2 schema override (§2 abstract entities)
+  - Agent-Mechanism.md v2.1 — Schema-Imagined-Overlay (§2 abstract entities)
   - Feeling.md v2.0 — PFC observation of body-feedback (khác tầng)
   - Reward-Signal-Architecture.md v2.1 — Evaluative/Direct-State × valence
   - Drive.md — tổng hợp valences → action
@@ -365,7 +365,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Có thể UNFALSIFIABLE (Thiên Đàng, "ý nghĩa cuộc đời")
       → → Không bao giờ nhận negative feedback → valence KHÔNG BAO GIỜ bị revise
       → → = "Thiết kế" valence ổn định nhất có thể
-      → = Agent-Mechanism.md §10: Mode 2 schema override cho abstract agents
+      → = Agent-Mechanism.md §10: Schema-Imagined-Overlay cho abstract agents
 
     🟡 Abstract entity valence = framework concept
     🟢 Unfalsifiable belief resilience = Popper + Festinger 1957 (cognitive dissonance)
@@ -878,7 +878,7 @@ CROSS-REFERENCES:
     → Feeling.md v2.0 — PFC observation of body (7 layers)
     → Drive.md — tổng hợp valences → action
     → Self-Pattern-Modeling.md v3.1 — observed experience (§3 nguồn ②)
-    → Agent-Mechanism.md v2.0 — Mode 2 schema override (§2 abstract entities)
+    → Agent-Mechanism.md v2.1 — Schema-Imagined-Overlay (§2 abstract entities)
 
   PROPAGATION CONTEXT:
     → Collective-Body.md v1.2 — Model 3 cấp + trust bridge (§4)

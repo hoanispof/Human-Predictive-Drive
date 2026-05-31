@@ -335,9 +335,12 @@ THAI NHI → 2 TUỔI:
     NHƯNG: ceiling vẫn tồn tại — larger brain = more energy = less for body.
 
   PFC = most metabolically expensive region:
-    Fresh processing = highest glucose consumption per neuron.
+    Fresh processing = highest energy consumption per neuron.
     Scaling PFC further → energy budget đè lên toàn bộ body-base.
     → Trade-off: bigger PFC ≠ better nếu body-base bị underfunded.
+    (Note: evolutionary metabolic constraint = 🟢 established.
+     Distinct from ego depletion glucose model which is ❌ falsified.
+     Xem PFC-Operations.md v1.3 §8.3 cho processing load mechanism.)
 
   (Herculano-Houzel 2012, PNAS — metabolic cost per neuron = linear function)
   (Fonseca-Azevedo & Herculano-Houzel 2012, PNAS 109:18571-18576 — caloric constraint)

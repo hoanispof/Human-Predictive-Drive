@@ -119,7 +119,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        Cấu trúc thế giới: ~2-4 biến nhân quả chính per situation
        False positive: >4 chiều → signal-to-noise SỤP
        Interference: >4 → oscillations collide
-       Energy: maintain mỗi chiều = TỐN metabolic
+       Energy: maintain mỗi chiều = TỐN processing load
        Evolution: không ĐỦ áp lực chọn lọc cho >4
 
      → Chain > 4 nodes = VƯỢT single PFC processing capacity
@@ -595,8 +595,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → Hàng ngàn năm tối ưu → unfalsifiable → KHÔNG BAO GIỜ bị challenge
        → = Deepest installed chains (Religion.md §2.1)
 
-    ⑤ Lãnh đạo: L2 COUPLING trust
-       → Body-Coupling.md §2: L2 extend → agent = body-base extension
+    ⑤ Lãnh đạo: Valence-Structural COUPLING trust
+       → Body-Coupling.md §2: Valence-Structural extend → agent = body-base extension
        → Trust THROUGH coupling, không chỉ qua logic
 
 
@@ -735,7 +735,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     KHÔNG ĐỦ (embodied domains):
       Piano: CẦN motor + auditory + tactile = multi-modal DIRECT
       Thể thao: CẦN proprioception + timing + body-feedback THẬT
-      Tình yêu/L2: CẦN bidirectional interaction (real agent respond)
+      Tình yêu/Valence-Structural: CẦN bidirectional interaction (real agent respond)
       Nấu ăn: CẦN taste + smell + texture = body channels THẬT
 
 
@@ -837,7 +837,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Ví dụ:
       "Tại sao muốn sinh con?"
         PFC: "bản năng" / "muốn gia đình" / "mọi người đều làm"
-        THẬT: hormone + collective + L2 + identity + meaning = COMPOUND
+        THẬT: hormone + collective + Valence-Structural + identity + meaning = COMPOUND
         → PFC chọn 1 → THIẾU toàn bộ compound
 
       "Tại sao sợ thay đổi?"

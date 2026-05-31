@@ -378,7 +378,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Framework adds finer-grained taxonomy
 
     ④ Schema override pathway:
-      Heyes: doesn't address Mode 1/2 religious agents
+      Heyes: doesn't address Schema-Pure-Trust/Imagined-Overlay religious agents
       Framework: compiled schema can REPLACE mirror entirely (tượng, đá thiêng, placebo)
         hoặc suppress mirror (dehumanization)
       → Framework explains anomalous cases Heyes doesn't cover

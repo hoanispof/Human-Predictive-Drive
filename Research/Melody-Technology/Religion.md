@@ -10,7 +10,7 @@ refined: |
   2026-05-30 (v2.6 — Body-Base vs PFC-Mediation framing: MTF1-7 = body-base NEEDS,
   fill = MIXED compound (Chain 0 + Chain 2-3, Body-Feedback-Mechanism §4),
   3 install pathways (childhood body-direct = majority), designer = body-base origin → PFC design.
-  COMPOUND per-MTF. Gap-Body-Need §6 applied.)
+  COMPOUND per Melody-Technology Function. Gap-Body-Need §6 applied.)
 status: RESEARCH FILE v2.5
 scope: |
   RESEARCH FILE: Phân tích tôn giáo qua framework lens.
@@ -395,9 +395,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Framework KHÔNG CÓ ý kiến về truth claim
 
 
-  ⭐ v2.6 — CHAIN TO BODY-BASE PER-MTF (§0 v2.6 framing):
+  ⭐ v2.6 — CHAIN TO BODY-BASE PER MELODY-TECHNOLOGY FUNCTION (§0 v2.6 framing):
 
-    Chain 0 + Chain 2-3 = COMPOUND per-MTF (Body-Feedback-Mechanism.md §4):
+    Chain 0 + Chain 2-3 = COMPOUND per Melody-Technology Function (Body-Feedback-Mechanism.md §4):
 
       → MTF1: faith narrative (Chain 2-3) → certainty → cortisol↓
       → MTF2: compliance rules (Chain 2-3) → compile → auto-behavior
@@ -409,11 +409,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         = Evaluative Gate AMPLIFY Direct-State → SUPERADDITIVE
       → MTF7: coherence narrative (Chain 2-3) → cross-domain sync
 
-    → = KHÔNG CÓ MTF nào hoạt động Chain 0 đơn lẻ trong ngữ cảnh tôn giáo
+    → = KHÔNG CÓ Melody-Technology Function nào hoạt động Chain 0 đơn lẻ trong ngữ cảnh tôn giáo
     → = Mọi Chain 0 element đều COMPOUND với Chain 2-3 faith/meaning
     → = Compound = religion-SPECIFIC (§0 v2.6 ②)
     → = Sức mạnh RIÊNG tôn giáo = COMPOUND mechanism, không chỉ coherence
-    → = §2 sẽ map CHI TIẾT từng MTF = cách fill qua MIXED pathway nào
+    → = §2 sẽ map CHI TIẾT từng Melody-Technology Function = cách fill qua MIXED pathway nào
 ```
 
 ---
@@ -587,13 +587,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   2-LUỒNG REWARD:
 
-    → L1 (Self-Pattern-Modeling-owned, momentary): mỗi lần đi lễ = Self-Pattern-Modeling fire → opioid → reward
-      → = Valence-Propagation.md §2: L1 per-episode, Self-Pattern-Modeling-owned
-    → L2 (Entity-compiled, structural): bond VỚI cộng đồng compile deep → sustained
-      → L2 = "yêu sâu" cộng đồng (khác "thích" đi lễ)
-      → = Agent-Mechanism.md §12.2b: L2 compile = structural reward bền
+    → Valence-Momentary (Self-Pattern-Modeling-owned, momentary): mỗi lần đi lễ = Self-Pattern-Modeling fire → opioid → reward
+      → = Valence-Propagation.md §2: Valence-Momentary per-episode, Self-Pattern-Modeling-owned
+    → Valence-Structural (Entity-compiled, structural): bond VỚI cộng đồng compile deep → sustained
+      → Valence-Structural = "yêu sâu" cộng đồng (khác "thích" đi lễ)
+      → = Agent-Mechanism.md §12.2b: Valence-Structural compile = structural reward bền
 
-    → ⚠️ Mất cộng đồng: L1 mất (không đi lễ nữa) + L2 structural loss
+    → ⚠️ Mất cộng đồng: Valence-Momentary mất (không đi lễ nữa) + Valence-Structural loss
       → = Grief compound — Entity-Compiled.md §7: A(gap-feed) + B(rebuild) + C(phantom)
 
 
@@ -892,7 +892,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Nghi lễ DESIGNED (dù vô tình) để meet cả 5 preconditions
 
     Hàng ngày: thiền/cầu nguyện → micro reward (opioid nhẹ + cortisol↓)
-    Hàng tuần: lễ nhà thờ/chùa → social reward (oxytocin + connection L1)
+    Hàng tuần: lễ nhà thờ/chùa → social reward (oxytocin + connection Valence-Momentary)
     Hàng năm: Giáng sinh/Eid/Vesak → BIG reward (multi-modal)
     Đời người: sinh/trưởng thành/cưới/chết → MILESTONE reward
 
@@ -1361,7 +1361,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Body-Base   │ Rare/weak        │ Possible — years of      │
     │ Extension?  │                  │ compiled bond             │
     ├─────────────┼──────────────────┼──────────────────────────┤
-    │ 2-luồng    │ Chủ yếu L1      │ L1 + L2 structural bond  │
+    │ 2-luồng    │ Chủ yếu Valence-Momentary      │ Valence-Momentary + Valence-Structural bond  │
     │             │ (per-exposure)   │ (compiled deep)          │
     └─────────────┴──────────────────┴──────────────────────────┘
 
@@ -1439,9 +1439,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Dual nature: VEHICLE (fill own coordination gap) + ROAD (enable community)
 
     Hardware-Subsidy Per Scale (Coordination-Node §9.4):
-      → L1 (pair, 5-20): oxytocin — mục sư × small group (pastoral care)
-      → L2 (hub, 20-150+): serotonin — giáo hội hierarchy (institutional authority)
-      → L3 (institutional, millions+): trust infrastructure — truyền thống, kinh sách
+      → Scale-Pair (5-20): oxytocin — mục sư × small group (pastoral care)
+      → Scale-Hub (20-150+): serotonin — giáo hội hierarchy (institutional authority)
+      → Scale-Institutional (millions+): trust infrastructure — truyền thống, kinh sách
       → = Tôn giáo OPERATE trên CẢ 3 SCALE đồng thời
       → = KHÔNG Melody Technology nào khác cover 3 scales cùng lúc
 ```

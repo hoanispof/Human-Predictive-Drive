@@ -1319,19 +1319,20 @@ STRATEGY SPECTRUM:
       → Mỗi spike → GR → gene changes → PFC yếu dần, amygdala nhạy dần
       → = "Tường bị rung nhiều lần → nứt dần"
 
-    Pathway 2 — PFC resource depletion (02-Dissonance.md §6.3):
-      → PFC cần glucose + neurotransmitters (dopamine, NE) để fire
-      → Mỗi PFC task → consume glucose + deplete NT pools
-      → Sáng: pools đầy. Tối: pools cạn.
-      → 🟢 Gailliot & Baumeister 2007: glucose correlate with cognitive fatigue
-      → = "Pin cạn — nhiên liệu thật sự giảm"
+    Pathway 2 — PFC processing load depletion (PFC-Operations v1.3 §8.3):
+      → PFC cần dopamine (D1) + norepinephrine (α2A) để sustain firing
+      → Mỗi PFC task → catecholamine decline + serial bottleneck occupied
+      → Sáng: catecholamine pools đầy. Tối: pools cạn.
+      → 🟢 Arnsten 2009: catecholamine inverted-U → PFC performance degrades
+      → 🟢 Kurzban 2013: effort = opportunity cost signal → brain shifts priority
+      → = "Pin cạn — catecholamine thật sự giảm (NOT glucose)"
 
     2 pathways CHỒNG NHAU:
-      → Sáng: glucose ĐẦY + cortisol effects ÍT = PFC optimal
-      → Tối: glucose CẠN + cortisol effects NHIỀU = PFC yếu
+      → Sáng: catecholamine ĐẦY + cortisol effects ÍT = PFC optimal
+      → Tối: catecholamine CẠN + cortisol effects NHIỀU = PFC yếu
       → + Amygdala NHẠY HƠN = dễ cáu, dễ threat detect
       → = "Mệt + dễ cáu + không muốn gặp ai"
-      → Recovery: NGỦ = nạp glucose + clear gene effects + repair synapses
+      → Recovery: NGỦ = restore catecholamine + clear gene effects + repair synapses
 
     → Khi nói "cortisol tích lũy" trong framework = SHORTHAND cho
       "cortisol downstream effects + PFC resource depletion chồng nhau"

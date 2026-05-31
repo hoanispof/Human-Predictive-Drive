@@ -611,7 +611,7 @@ LOGIC-FEELING v4.0 TRONG KIẾN TRÚC FRAMEWORK:
 
 ⭐ 3-COST: TẠI SAO KHÔNG THỂ FRESH MÃI (Inter-Body §4):
 
-  ① PFC DRAFT COST — glucose, neurotransmitters (🟢 Gailliot & Baumeister 2007)
+  ① PFC DRAFT COST — processing load (🟢 Kurzban 2013, Musslick & Cohen 2021)
   ② SUPPRESS COST — override old Body-Knowing → efference mismatch → dissonance
   ③ UNCERTAINTY COST — hold multiple options → cortisol holding signal
 
@@ -629,7 +629,7 @@ LOGIC-FEELING v4.0 TRONG KIẾN TRÚC FRAMEWORK:
   → Expert who "feels" answers = MAXIMALLY Body-Knowing, not lazy.
   → Chi tiết: Body-Knowing.md §9 (5-stage training, Focusing, AI era).
 
-🟢 Gailliot & Baumeister 2007 (cognitive effort = metabolic)
+🟢 Kurzban 2013 (cognitive effort = opportunity cost), Arnsten 2009 (catecholamine demand)
 🟡 Learning trajectory + 3-cost = framework synthesis
 ```
 
@@ -717,7 +717,7 @@ LOGIC-FEELING v4.0 TRONG KIẾN TRÚC FRAMEWORK:
     → MUST compile to Body-Knowing eventually → sustainability
 
 🟢 Damasio 1994 (somatic markers necessary)
-🟢 Gailliot & Baumeister 2007 (cognitive effort = metabolic cost)
+🟢 Kurzban 2013 (cognitive effort = processing load, not metabolic depletion)
 ```
 
 ### 4.3 — Dual Check + Architecture Claim
@@ -1207,17 +1207,17 @@ LOGIC-FEELING v4.0 TRONG KIẾN TRÚC FRAMEWORK:
   Object-Agent = PHÂN LOẠI: "Cái này là ĐỒ VẬT hay SINH VẬT?"
   Body-Knowing/Fresh = XỬ LÝ: processing mode dominant?
 
-  ┌──────────────────┬─────────────────────┬───────────────────────────┐
-  │                  │ BODY-KNOWING-dom.   │ FRESH-dominant            │
-  ├──────────────────┼─────────────────────┼───────────────────────────┤
-  │ OBJECT           │ Phổ biến nhất       │ Einstein hack             │
-  │ (đồ vật)         │ Physics, math, code │ "Cưỡi tia sáng" — body   │
-  │                  │ Routine tool use    │ simulate abstract system  │
-  ├──────────────────┼─────────────────────┼───────────────────────────┤
-  │ AGENT            │ 5 sub-cases (§7.2)  │ Phổ biến nhất             │
-  │ (sinh vật)       │ Schema / Routine /  │ Empathy, connection       │
-  │                  │ Clinical / Danger   │ Mirror, body-based read   │
-  └──────────────────┴─────────────────────┴───────────────────────────┘
+  ┌──────────────────┬───────────────────────┬───────────────────────────┐
+  │                  │ BODY-KNOWING-dominant │ FRESH-dominant            │
+  ├──────────────────┼───────────────────────┼───────────────────────────┤
+  │ OBJECT           │ Phổ biến nhất         │ Einstein hack             │
+  │ (đồ vật)         │ Physics, math, code   │ "Cưỡi tia sáng" — body   │
+  │                  │ Routine tool use      │ simulate abstract system  │
+  ├──────────────────┼───────────────────────┼───────────────────────────┤
+  │ AGENT            │ 5 sub-cases (§7.2)    │ Phổ biến nhất             │
+  │ (sinh vật)       │ Schema / Routine /    │ Empathy, connection       │
+  │                  │ Clinical / Danger     │ Mirror, body-based read   │
+  └──────────────────┴───────────────────────┴───────────────────────────┘
 ```
 
 ### 7.2 — Agent + Body-Knowing-dominant: 5 Sub-cases
@@ -1295,7 +1295,7 @@ LOGIC-FEELING v4.0 TRONG KIẾN TRÚC FRAMEWORK:
   ✓ Expert intuition = compiled patterns (Klein 1998, Chase & Simon 1973)
   ✓ Intuition reliable under: patterns + feedback learning (Kahneman + Klein 2009)
   ✓ Einstein: "images, feelings, muscular" — primary source (Hadamard 1945)
-  ✓ Cognitive effort = metabolic cost (Gailliot & Baumeister 2007)
+  ✓ Cognitive effort = processing load (Kurzban 2013, Musslick & Cohen 2021)
   ✓ Meditation → interoceptive accuracy (Farb 2013)
   ✓ Alexithymia spectrum (Taylor 2000)
   ✓ Split-brain confabulation (Gazzaniga)
@@ -1479,7 +1479,8 @@ STILL OPEN:
   Gazzaniga M. (split-brain) — Left hemisphere confabulation
   Haidt J. (2001) — Moral intuition first, reasoning post-hoc
   Nisbett R. & Wilson T. (1977) — Cannot report actual causes
-  Gailliot M. & Baumeister R. (2007) — Cognitive effort = metabolic cost
+  Kurzban R., Duckworth A. & Kable J. (2013) — Cognitive effort = opportunity cost
+  Musslick S. & Cohen J. (2021) — Shared representations → serial bottleneck
   Farb N. (2013) — Meditation → interoceptive accuracy
   Taylor G. (2000) — TAS-20 alexithymia
   Garfinkel S. (2015) — Individual interoceptive accuracy differences

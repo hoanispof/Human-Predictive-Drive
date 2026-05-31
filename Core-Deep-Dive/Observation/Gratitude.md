@@ -180,7 +180,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       ③ PFC Comparison (hold "có" vs "không có")
       ④ Source Attribution (reward → source → agent)
       ⑤ Self-Pattern-Modeling Empathy (simulate giver's effort/sacrifice)
-      ⑥ Entity-Compiled check (L2: giver = body-base extension?)
+      ⑥ Entity-Compiled check (Valence-Structural: giver = body-base extension?)
       ⑦ Obligation assessment (debt threat level)
       ⑧ Autonomy check (nhận tự nguyện?)
       ⑨ ❸ Valence update toward giver
@@ -206,7 +206,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Agent VIRTUAL (Chúa, thiên nhiên, "cuộc đời"):
       → PFC project agency lên abstract concept
-      → Schema Simulation Mode 1/2 (Empathy.md §2.4)
+      → Schema Simulation Schema-Pure-Trust/Imagined-Overlay (Empathy.md §2.4)
       → "Thiên nhiên BAN cho tôi" = PFC-created agent
       → → Gratitude fire nhưng qua virtual agent mechanism
 
@@ -413,7 +413,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   GRATITUDE = PHẢN ỨNG CỦA A KHI NHẬN BY-PRODUCT TỪ B:
 
-    B (mẹ) fill gap CỦA B (nuôi con = evolution drive, L2 compiled)
+    B (mẹ) fill gap CỦA B (nuôi con = evolution drive, Valence-Structural compiled)
       → by-product: con được ăn, được bảo vệ, được dạy
       → match gap CỦA A (con): body-base reward THẬT
       → A detect source = B (source attribution)
@@ -538,7 +538,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Agent VIRTUAL:
     → "Cảm ơn Chúa" = PFC project agency lên abstract → Schema Simulation
     → "Cảm ơn cuộc đời" = PFC project agency lên abstract
-    → Body CÓ THỂ respond (Schema Simulation Mode 1/2 — Empathy.md §2.4)
+    → Body CÓ THỂ respond (Schema Simulation Schema-Pure-Trust/Imagined-Overlay — Empathy.md §2.4)
     → NHƯNG: fidelity THẤP hơn agent thật (no real feedback loop)
 
   🟡 Agent-only restriction = derived từ Valence-Propagation §2 (Body-Base Extension = agent-only)
@@ -693,29 +693,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   (Valence-Propagation.md §2 — Body-Base Extension dimension)
 
-  Entity-Compiled (L2) = "agent NÀY's wellbeing = MY wellbeing"
+  Entity-Compiled (Valence-Structural) = "agent NÀY's wellbeing = MY wellbeing"
     → Compile qua nhiều interaction + trust + low replaceability
 
-  GRATITUDE × L2:
+  GRATITUDE × Valence-Structural:
 
-    L2 ĐÃ CÓ (con biết ơn mẹ, bạn thân biết ơn bạn):
+    Valence-Structural ĐÃ CÓ (con biết ơn mẹ, bạn thân biết ơn bạn):
       → Gift → body-base reward → ❸ REINFORCE (đã positive, thêm positive)
       → Gratitude DEEP + SUSTAINED → drive reciprocity MẠNH
-      → "Nhìn mẹ vất vả → muốn làm gì đó cho mẹ" = L2 + gratitude compound
+      → "Nhìn mẹ vất vả → muốn làm gì đó cho mẹ" = Valence-Structural + gratitude compound
 
-    L2 CHƯA CÓ (người lạ cho tiền xe bus):
+    Valence-Structural CHƯA CÓ (người lạ cho tiền xe bus):
       → Gift → body-base reward → ❸ START building (từ neutral → positive)
-      → Gratitude LIGHTER nhưng CÓ THỂ trigger L2 seed
+      → Gratitude LIGHTER nhưng CÓ THỂ trigger Valence-Structural seed
       → Lateral propagation: 1 agent positive → "người = tốt" (category)
       → = "Thế giới đầy tình yêu thương" = lateral từ 1 gift
 
-    L2 NEGATIVE (kẻ thù giúp):
+    Valence-Structural NEGATIVE (kẻ thù giúp):
       → Gift → body-base reward → NHƯNG ❸ negative → CONFLICT
       → Gratitude BLOCKED bởi existing negative ❸
       → "Tại sao hắn giúp? → threat?" → cortisol thay vì opioid
       → = Mixed valence → cognitive dissonance
 
-  🟡 L2 modulates gratitude depth = framework inference
+  🟡 Valence-Structural modulates gratitude depth = framework inference
 ```
 
 ### §2.7 — ⑦ Obligation assessment
@@ -835,7 +835,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │      │                      │                │ gift. CROSS-FEED 3+4.   │
   ├──────┼──────────────────────┼────────────────┼──────────────────────────┤
   │  3   │ AGENT VALENCE CHAIN  │ ② → ④ → ⑥ → ⑨│ Detect agent → link     │
-  │      │                      │                │ reward → check L2 depth │
+  │      │                      │                │ reward → check Valence-Structural depth │
   │      │                      │                │ → update ❸ toward agent │
   ├──────┼──────────────────────┼────────────────┼──────────────────────────┤
   │  4   │ COST ASSESSMENT      │ ⑤ → ⑦         │ Self-Pattern-Modeling simulate giver →    │
@@ -866,14 +866,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     ③ PFC hold "có vs không có" → delta = GIÁ TRỊ gift cho body:
 
-           ┌→ Anti-habituation: restore reward cho gift đã habituate (§3)
-           │
-    ③ PFC ─┼→ Chain 3: delta LỚN → ❸ update MẠNH hơn toward giver
-    Comp.  │   "gift rất giá trị" → agent cho gift giá trị → ❸ ++ positive
-           │
-           └→ Chain 4: delta = ước lượng gift value → calibrate obligation
-               "gift rất đắt" → obligation predict tương xứng
-               "gift nhỏ" → obligation predict nhẹ
+              ┌→ Anti-habituation: restore reward cho gift đã habituate (§3)
+              │
+    ③ PFC ────┼→ Chain 3: delta LỚN → ❸ update MẠNH hơn toward giver
+    Comparison│   "gift rất giá trị" → agent cho gift giá trị → ❸ ++ positive
+              │
+              └→ Chain 4: delta = ước lượng gift value → calibrate obligation
+                  "gift rất đắt" → obligation predict tương xứng
+                  "gift nhỏ" → obligation predict nhẹ
 
     = ③ không chỉ "chống habituation" — mà là VALUE ASSESSMENT tool:
       Delta = thước đo "gift này đáng bao nhiêu cho body tôi"
@@ -1295,11 +1295,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     TYPE 3 (ân tình) = NẶNG NHẤT (implicit + unbounded + Internal-Predict)
 
   3 cơ chế độc lập tương tác:
-    Obligation (PFC prediction) + L2 buffer (compiled valence) + Self-Pattern-Modeling (input)
-    → Net burden = Obligation_predicted − L2_buffer
+    Obligation (PFC prediction) + Valence-Structural buffer (compiled valence) + Self-Pattern-Modeling (input)
+    → Net burden = Obligation_predicted − Valence-Structural_buffer
 
   Key insight: Tiền = obligation technology (4 functions).
-    Ân tình tồn tại nơi tiền bị cấm (L2 relationship paradox).
+    Ân tình tồn tại nơi tiền bị cấm (Valence-Structural relationship paradox).
 
   → Chi tiết: Obligation.md v1.0 (2,328L, 13 sections)
   → File này reference Obligation ở §2.7 và §5.2

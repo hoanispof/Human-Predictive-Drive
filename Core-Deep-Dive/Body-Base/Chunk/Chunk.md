@@ -296,7 +296,7 @@ CHI TIẾT TỪNG LEVEL:
     ② Thầy/cô: mẹ trust → con observe → trust INHERIT (delegated)
     ③ Tập thể: social proof = quantity install ("mọi người đều làm vậy")
     ④ Kinh sách: compiled + unfalsifiable → KHÔNG BAO GIỜ bị challenge
-    ⑤ Lãnh đạo: L2 coupling + authority = deep trust
+    ⑤ Lãnh đạo: Valence-Structural coupling + authority = deep trust
 
   TRUST = VALENCE META-DIMENSION (Valence-Propagation v4.0 §2):
     → Trust KHÔNG phải hệ thống riêng biệt

@@ -250,22 +250,22 @@ không phải architecture. Cycle-based match cách body-brain thực sự hoạ
 ```
 🟡 MAPPING GIỮA HARDWARE VÀ SOFTWARE:
 
-  ┌──────────────────────┬──────────────────────────────────────────────┐
-  │ Software (chạy gì)    │ Hardware (ở đâu)                              │
-  ├──────────────────────┼──────────────────────────────────────────────┤
-  │ Body-Input (L0+L1)   │ Receptors → D (reflex) + C (thalamus) + B    │
-  │ Chunk compile        │ B (PFC trainable) + C (indirect) + D (≈0)    │
-  │ Body-Feedback fire   │ C (amygdala, VTA, brainstem) + B (insula)    │
-  │ Feeling integrate    │ B (anterior insula → ACC → vmPFC)            │
-  │ PFC observe + hold   │ A (dlPFC working memory)                     │
-  │ PFC orchestrate      │ A → B (top-down) + A → C (vmPFC-amygdala)   │
-  │ Simulation-Engine    │ A (mPFC) + B (DMN, insula) + C (hippocampus)│
-  │ Entity-Compiled      │ A (ATL hub) + B (multi-modal spokes) + C     │
-  │ Cortisol amplifier   │ C (HPA axis) → effects xuyên A+B+C+D        │
-  │ Motor execute        │ A hold → B (motor cortex) → D (spinal)      │
-  │ Delta rule (VTA)     │ C (VTA fire) → signal tới B + A              │
-  │ Self-signal interoc. │ B (anterior insula) đọc D qua C (vagus)     │
-  └──────────────────────┴──────────────────────────────────────────────┘
+  ┌──────────────────────────┬──────────────────────────────────────────────┐
+  │ Software (chạy gì)        │ Hardware (ở đâu)                              │
+  ├──────────────────────────┼──────────────────────────────────────────────┤
+  │ Body-Input (L0+L1)       │ Receptors → D (reflex) + C (thalamus) + B    │
+  │ Chunk compile             │ B (PFC trainable) + C (indirect) + D (≈0)    │
+  │ Body-Feedback fire        │ C (amygdala, VTA, brainstem) + B (insula)    │
+  │ Feeling integrate         │ B (anterior insula → ACC → vmPFC)            │
+  │ PFC observe + hold        │ A (dlPFC working memory)                     │
+  │ PFC orchestrate           │ A → B (top-down) + A → C (vmPFC-amygdala)   │
+  │ Simulation-Engine         │ A (mPFC) + B (DMN, insula) + C (hippocampus)│
+  │ Entity-Compiled           │ A (ATL hub) + B (multi-modal spokes) + C     │
+  │ Cortisol amplifier        │ C (HPA axis) → effects xuyên A+B+C+D        │
+  │ Motor execute             │ A hold → B (motor cortex) → D (spinal)      │
+  │ Delta rule (VTA)          │ C (VTA fire) → signal tới B + A              │
+  │ Self-signal interoception │ B (anterior insula) đọc D qua C (vagus)     │
+  └──────────────────────────┴──────────────────────────────────────────────┘
 
   ⭐ KEY INSIGHT:
     Hardware map = 4 vùng CỤ THỂ (A/B/C/D) — verify được bằng fMRI, lesion
@@ -833,9 +833,9 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 
   BY-PRODUCT-SCALE (By-Product-Scale.md v1.0):
     → CÙNG by-product match mechanism × 3 scales khác nhau:
-      Pair (L1): oxytocin, direct, fast, personal
-      Hub (L2): serotonin, reputation, medium, group
-      Institutional (L3): trust infrastructure, slow, system
+      Scale-Pair: oxytocin, direct, fast, personal
+      Scale-Hub: serotonin, reputation, medium, group
+      Scale-Institutional: trust infrastructure, slow, system
     → Prestige = genuine resonance (opioid reward)
     → Dominance = forced resonance (relief, not reward)
 
@@ -863,7 +863,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   VALENCE (Valence-Propagation.md v3.0):
     → Body's assessment of how entity affects body-inputs
     → Structural valence (compiled, stable) vs Current valence (momentary, fluctuating)
-    → 3 Firing Modes: Tonic (background hum) / Phasic (acute spike) / Compound (mixed)
+    → 3 Firing Modes: Firing-Maintenance (background hum) / Firing-Chunk-Miss (acute spike) / Firing-Context-Trigger (context cue)
     → Per-entity dynamics: mỗi entity → unique valence profile
     → Hardware-Subsidy × VTA habituation: subsidized entities = slower habituation
 
@@ -1592,7 +1592,8 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 
 ```
   Core-Hardware.md              — CÁI GÌ ở ĐÂU: 4 zones A/B/C/D, PFC hardware specs, receptors
-  Ask-AI.md v3.1                — TƯƠNG TÁC: AI generate dynamic interface per user (protocol + navigation)
+  Ask-AI.md v3.2                — TƯƠNG TÁC: AI generate dynamic interface per user (protocol + navigation)
+  Reading-Roadmap.md            — TIẾN TRÌNH ĐỌC: 6 tiers, ~97 files, bridges giữa các hệ thống
 ```
 
 ### §13.2 Body-Base (foundation)
@@ -1601,7 +1602,8 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   Body-Base/Body-Base.md v3.2              — Entry point, Model 3+1, Compilable Architecture
   Body-Base/Why-Body-Knows.md v1.2         — TẠI SAO body check đáng tin
   Body-Base/Cortisol-Baseline.md v2.1      — Amplifier, direction gate, 7 modes, HPA paradox
-  Body-Base/Valence-Propagation.md v3.0    — Structural/Current, 3 Firing Modes, Hardware-Subsidy
+  Body-Base/Valence-Propagation.md v4.1    — 4 nguồn valence, 4 cơ chế propagation, PFC Blindness
+  Body-Base/Entity-Valence-Dynamics.md v1.1 — Per-entity valence, 3 Firing Modes, Hardware-Subsidy, Phantom
   Body-Base/Body-Coupling.md v3.0          — HOW body couples with entity, 4 bond types
   Body-Base/Inter-Body-Mechanism.md v1.1   — Source-of-truth: 8 inter-body principles
 ```
@@ -1642,6 +1644,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   Body-Feedback/Gap-Body-Need.md v1.0           — 3 Satiation Types, ENGINE/ROAD/VEHICLE
   Body-Feedback/Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State, E₀→E₃
   Body-Feedback/Reward-Calibration.md v1.1      — Goldilocks per-gap, over-reward
+  Body-Feedback/Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State dissonance, Mismatch Splitting
   Body-Feedback/Hidden-Quality-Perception.md v1.0 — "Mặt lưng cái tủ"
   Body-Feedback/Action-Space.md v1.0            — Supply-side capability landscape
 ```
@@ -1650,6 +1653,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 
 ```
   Feeling/Feeling.md v3.0                  — PFC observation interface, 7-layer, PFC=Lawyer
+  Feeling/Body-Knowing.md v1.0             — Compiled recognition, 3 directions = same mechanism
   Feeling/Feeling-Research.md              — 7+ research stream foundation
   Feeling/Feeling-Mechanism-Deep-Draft.md  — HOW body signals → felt experience end-to-end
 ```
@@ -1674,17 +1678,20 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 ```
   Observation/Novelty.md v1.2              — Positive prediction-delta, DRD4
   Observation/Threat.md v1.2               — Dissonance from predicted harm
-  Observation/Boredom.md v2.0              — Unified formula, 6 sources, Resonance Decline
+  Observation/Autonomy-Hardware.md v1.2    — Efference copy, vmPFC+DRN controllability
   Observation/Drive.md v1.2                — Integration: HOW drives combine
-  Observation/Empathy.md v4.0              — Self-Pattern-Modeling applied, PFC budget, 4-Layer
-  Observation/Connection.md v5.0           — 3 Generative Primitives, Entity-Access, Hardware-Subsidy
+  Observation/Boredom.md v2.0              — Unified formula, 6 sources, Resonance Decline
   Observation/Status.md v2.0               — Resource Access Map, multi-dimensional
   Observation/Protect.md v1.0              — Loss aversion + ownership
+  Observation/Connection.md v5.0           — 3 Generative Primitives, Entity-Access, Hardware-Subsidy
+  Observation/Empathy.md v4.0              — Self-Pattern-Modeling applied, PFC budget, 4-Layer
   Observation/Meaning.md v2.0              — Life-level Anchor-Schema, 5 types
-  Observation/Gratitude.md v1.1            — Tầng 5, 9 prerequisites
+  Observation/Autonomy.md v1.2             — Software: f(motor × controllability × meta-chunk)
   Observation/Obligation.md v1.0           — Access cost, 6 types, tiền = technology
+  Observation/Gratitude.md v1.1            — Tầng 5, 9 prerequisites
   Observation/Liking-Wanting.md v2.0       — Bridge Berridge→framework
-  Observation/AI-Schema-Detection.md v2.0  — Gateway: 9 AI capabilities, self-drill
+  Observation/AI-Schema-Detection.md v2.1  — Gateway: 9 AI capabilities, self-drill
+  Observation/AI-Collective-Detection.md v1.0 — Collective-level detection ⑩-⑭
 ```
 
 ### §13.9 Domain
@@ -1692,8 +1699,10 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 ```
   Domain/Domain.md v2.0                    — 3 Types, Dual Check, 3 Nguồn Constraint
   Domain/Conflict-Dynamics.md v2.0         — OVERLAP × SCARCITY × COMMITMENT
-  Domain/Drill-Emergent-Pattern.md v2.0    — Enemy, Nurturing, Violation
+  Domain/Discovery-vs-Expansion.md v1.0    — Sense → Verify → Scale pipeline
+  Domain/Knowledge-Flow.md v1.0            — Dòng chảy xuyên thế hệ
   Domain/Domain-Mapping-Drive.md v2.0      — WHY humans drive to map domain
+  Domain/Drill-Emergent-Pattern.md v2.0    — Enemy, Nurturing, Violation
 ```
 
 ### §13.10 Collective
@@ -1713,16 +1722,15 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   Schema/Schema.md v2.0                    — Observation parameter reframe
   Schema/Anchor-Schema.md                  — Sync point, 4 nguồn fill
   Melody Lens/Personal-Melody.md v2.0      — Metaphor: mỗi người = 1 bài nhạc
-  Body-Base-Example.md                     — 50 extreme cases
-  Body-Input-Enumeration.md               — 17 body-inputs, delta rule, 15/15 tests
 ```
 
 ### §13.12 Application files
 
 ```
-  AI-Schema-Detection.md v2.0              — Gateway: self-drill, AI guardrails
-  AI-Self-Model.md v2.0                    — Dual Check, stale calibration
-  Ask-AI.md v3.1                           — Dual Check protocol (body + domain)
+  AI-Schema-Detection.md v2.1              — Gateway: self-drill, AI guardrails
+  AI-Collective-Detection.md v1.0          — Collective-level detection ⑩-⑭
+  AI-Self-Model.md v2.1                    — Dual Check, stale calibration
+  Ask-AI.md v3.2                           — Dual Check protocol (body + domain)
   Research/Education/                      — 5 education files
   Research/Child-Development/              — 4 child development files
 ```

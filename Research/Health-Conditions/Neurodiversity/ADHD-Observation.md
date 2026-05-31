@@ -1707,9 +1707,9 @@ QUAN TRỌNG:
     │                 │ (dopamine)      │ reactive            │
     │ Hyperactivity/  │ Novelty-seek    │ Startle +           │
     │ restlessness    │ (threshold)     │ hyperarousal        │
-    │ Sleep disrupt.  │ DMN interfer.   │ NE excess REM       │
-    │ Emotional react.│ RSD (predict-   │ Amygdala reactive   │
-    │                 │ delta amplify)  │ (context-free chunk)│
+    │ Sleep disruption│ DMN interference│ NE excess REM       │
+    │ Emotional       │ RSD (predict-   │ Amygdala reactive   │
+    │ reactivity      │ delta amplify)  │ (context-free chunk)│
     └─────────────────┴─────────────────┴─────────────────────┘
 
   KHÁC MECHANISM HOÀN TOÀN:

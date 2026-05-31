@@ -26,7 +26,7 @@ dependencies:
     - Cortisol-Baseline.md v2.1 — §3.3 Direction-At-Compile, §5 PFC vulnerability, §6 Repair×Damage, §8 Inverted-U, §9 PFC damage timeline, §10 Trauma loop 4-stage
   PFC:
     - PFC-Operations.md v1.0 — §2 Hold/Suppress, §3 4 combinations, §4 3 outcomes, §5 Compiled Quality, §8 Compiled Suppress, §9 PFC Budget
-    - Drive.md v1.2 — §2 PFC 6 Modes (Mode 3 Spinning vs Mode 4 Resolve)
+    - Drive.md v1.2 — §2 PFC 6 Modes (Drive-PFC-Spinning vs Drive-PFC-Resolve)
   Background:
     - Background-Pattern.md v2.0 — §1 Definition, §2 2D Depth×Density, §6 Triple Bias, §8 Self-Reinforcing Loop
   Gap:
@@ -144,7 +144,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     "nameless"      → fear đã thành Background-Pattern (PFC invisible)
     "unreasoning"   → PFC offline (cortisol Mode FREEZE)
     "unjustified"   → không có body-base anchor thật
-    "paralyzes"     → PFC Mode 3 Spinning / FREEZE
+    "paralyzes"     → Drive-PFC-Spinning / FREEZE
     "convert retreat into advance" → DIRECTION TAG change
     = Phần bị cắt MÔ TẢ CHÍNH XÁC mechanism. Mainstream giữ slogan, bỏ content.
 
@@ -1008,7 +1008,7 @@ MECHANISM (how adversity + fear works):
   Cortisol-Baseline.md v2.1        — §3.3 Direction-At-Compile, §5-§6, §8-§10 (full mechanism)
   PFC-Operations.md v1.0           — §2-§4, §8-§9 (Hold/Suppress, Budget)
   Background-Pattern.md v2.0       — §1-§2, §6, §8 (Triple Bias, Self-Reinforcing)
-  Drive.md v1.2                    — §2 PFC 6 Modes (Mode 3 Spinning)
+  Drive.md v1.2                    — §2 PFC 6 Modes (Drive-PFC-Spinning)
   Autonomy-Hardware.md v1.1        — §2 vmPFC/DRN (controllability LEARNED)
 
 GAP + GROWTH (how obstacles drive learning):
@@ -1066,7 +1066,8 @@ OTHER:
   Kahneman, D. (2011). Thinking, Fast and Slow (System 1/System 2).
   Yerkes, R. M. & Dodson, J. D. (1908). Inverted-U law.
   Radley, J. J. (2005). Dendrite regrowth after stress removal.
-  Gailliot, M. T. & Baumeister, R. F. (2007). Glucose depletion → self-control fails.
+  Kurzban, R., Duckworth, A. & Kable, J. (2013). Cognitive effort = opportunity cost.
+  Arnsten, A. (2009). PFC catecholamine modulation (Nature Reviews Neuroscience).
 
 QUOTE SOURCES:
   Roosevelt, F. D. (1933). First Inaugural Address, March 4.

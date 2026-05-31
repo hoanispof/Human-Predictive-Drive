@@ -13,7 +13,7 @@ scope: |
   PFC participation spectrum, drive conflict, signal strength model.
   v1.1 KEY CHANGES:
     ⑪ +Compilable Architecture: drive = emergent từ general-purpose reward system
-    ⑫ +Compiled/Fresh: compiled drive (Mode 1-2) vs fresh drive (Mode 3-6)
+    ⑫ +Compiled/Fresh: compiled drive (Drive-PFC-Absent/Monitor) vs fresh drive (Drive-PFC-Spinning through Override)
     ⑬ +Domain=Arbiter: drive direction CAN BE WRONG
     ⑭ Version refs synced (Valence-Propagation v2.0, Body-Feedback-Mechanism v2.0, Feeling v3.0)
     ⑮ +Cross-refs: Inter-Body-Mechanism.md v1.0, Body-Feedback-Label.md v2.0
@@ -190,7 +190,7 @@ VỊ TRÍ FILE NÀY:
 
   ③ EFFICIENCY: energy thấp
     → Compiled schemas = auto = energy thấp
-    → PFC deliberation = glucose intensive (~2% mass, ~20% energy)
+    → PFC deliberation = processing-intensive (~2% mass, ~20% energy)
     → = Não TIẾT KIỆM bằng cách dùng vô thức TỐI ĐA
 
   ④ EVOLUTION: 500 triệu năm vs ~2 triệu năm
@@ -219,7 +219,7 @@ VỊ TRÍ FILE NÀY:
     → = Valence chain CÓ THỂ override signal strength
       (Valence-Propagation.md §5③)
 
-  → PFC CÓ THỂ override (Mode 6, §2) — nhưng LUÔN CÓ COST
+  → PFC CÓ THỂ override (Drive-PFC-Override, §2) — nhưng LUÔN CÓ COST
   → Kéo dài override → repair debt → body eventually thắng
 
   ⭐ COMPILED/FRESH = TRỤC THẬT (Inter-Body-Mechanism.md §3):
@@ -228,14 +228,14 @@ VỊ TRÍ FILE NÀY:
 
     COMPILED DRIVE (Compiled — automatic, cost ≈ 0):
       → Chunks đã compile → body-feedback direct → action EMERGE
-      → Vô thức auto → Mode 1-2 (§2)
+      → Vô thức auto → Drive-PFC-Absent/Monitor (§2)
       → Ví dụ: lái xe đường quen (compiled route chunks fire → auto)
       → Ví dụ: chef thấy nguyên liệu → "biết ngay" cần làm gì
       → = Phần lớn cuộc sống (~70-80%) = compiled drive
 
     FRESH DRIVE (Fresh — PFC draft, cost > 0):
       → Tình huống MỚI / mâu thuẫn → chunks không match → PFC phải draft
-      → PFC deliberate → Mode 3-6 (§2)
+      → PFC deliberate → Drive-PFC-Spinning through Override (§2)
       → Ví dụ: ngày đầu đi làm → mọi thứ mới → PFC liên tục draft
       → Ví dụ: conflict giữa novelty vs threat → PFC arbitrate
       → = Tình huống mới + khó = fresh drive territory
@@ -246,7 +246,7 @@ VỊ TRÍ FILE NÀY:
       → Kahneman System 1 (compiled) / System 2 (fresh) tương đương
       → Chi tiết: Inter-Body-Mechanism.md §3.3
 
-    → INSIGHT: Mode 3 (Spinning) vs Mode 4 (Resolve) = CÙNG fresh territory
+    → INSIGHT: Drive-PFC-Spinning vs Drive-PFC-Resolve = CÙNG fresh territory
       → KHÁC ở chunk availability, KHÔNG phải activation level
 
   🟢 Unconscious processing dominance = neuroscience consensus
@@ -270,12 +270,12 @@ VỊ TRÍ FILE NÀY:
 
   Hầu hết thời gian: signals HÒA → action SMOOTH:
     → Body OK + chunks compiled match context + no dissonance
-    → = PFC KHÔNG CẦN → Mode 1-2 (§2)
+    → = PFC KHÔNG CẦN → Drive-PFC-Absent/Monitor (§2)
     → = "Cuộc sống bình thường"
 
   Khi signals CONFLICT hoặc THIẾU:
     → Body urgent + chunks không match + dissonance cao
-    → = PFC được gọi → Mode 3-6 (§2)
+    → = PFC được gọi → Drive-PFC-Spinning through Override (§2)
     → = "Tình huống khó" — cần PFC participate
 ```
 
@@ -295,8 +295,8 @@ VỊ TRÍ FILE NÀY:
 
   ⚠️ INSIGHT QUAN TRỌNG:
     Activation CAO ≠ Effectiveness CAO
-    Mode 3 (Spinning): PFC 30-50% nhưng KHÔNG hiệu quả (thiếu chunks)
-    Mode 4 (Resolve): PFC 20-40% nhưng RẤT hiệu quả (đủ chunks)
+    Drive-PFC-Spinning: PFC 30-50% nhưng KHÔNG hiệu quả (thiếu chunks)
+    Drive-PFC-Resolve: PFC 20-40% nhưng RẤT hiệu quả (đủ chunks)
     → "Bận hơn" ≠ "giỏi hơn" — CHUNKS quyết định chất lượng PFC
 
 
@@ -305,22 +305,22 @@ VỊ TRÍ FILE NÀY:
   PFC EFFECTIVENESS ▲
   (chunks quality)   │
                      │
-    HIGH ────────────┤── [MODE 4: RESOLVE] ──── [MODE 5: STRATEGIC] ──
-    (chunks đủ,      │    PFC 20-40%              PFC 60-80%
-     relevant)       │    scan → match → act      hold → optimize
-                     │                                     │
-                     │                            [MODE 6: OVERRIDE]
-                     │                              PFC 80-95%
-                     │                              against body-base
-                     │                              ⚠️ cost CỰC CAO
+    HIGH ────────────┤── [DRIVE-PFC-RESOLVE] ──── [DRIVE-PFC-STRATEGIC] ──
+    (chunks đủ,      │    PFC 20-40%                PFC 60-80%
+     relevant)       │    scan → match → act        hold → optimize
+                     │                                       │
+                     │                              [DRIVE-PFC-OVERRIDE]
+                     │                                PFC 80-95%
+                     │                                against body-base
+                     │                                ⚠️ cost CỰC CAO
                      │
-    LOW ─────────────┤── [MODE 3: SPINNING]
+    LOW ─────────────┤── [DRIVE-PFC-SPINNING]
     (chunks thiếu,   │    PFC 30-50%
      sai tầng)       │    try → fail → try → fail
                      │
-    N/A ─────────────┤── [MODE 1: ABSENT] ─── [MODE 2: MONITOR]
-    (không cần PFC)  │    PFC 0-5%              PFC 5-15%
-                     │    auto hoàn toàn         scan background
+    N/A ─────────────┤── [DRIVE-PFC-ABSENT] ─── [DRIVE-PFC-MONITOR]
+    (không cần PFC)  │    PFC 0-5%                PFC 5-15%
+                     │    auto hoàn toàn           scan background
                      │
                      └──────────────────────────────────────────►
                           0%     20%     40%     60%     80%    95%
@@ -330,7 +330,7 @@ VỊ TRÍ FILE NÀY:
 
 
 ═══════════════════════════════════════════════════════
-MODE 1: ABSENT (PFC ~0-5%)
+DRIVE-PFC-ABSENT (PFC ~0-5%)
 ═══════════════════════════════════════════════════════
 
   Vô thức auto hoàn toàn. PFC "đèn tắt."
@@ -343,12 +343,12 @@ MODE 1: ABSENT (PFC ~0-5%)
 
 
 ═══════════════════════════════════════════════════════
-MODE 2: MONITOR (PFC ~5-15%)
+DRIVE-PFC-MONITOR (PFC ~5-15%)
 ═══════════════════════════════════════════════════════
 
   PFC quan sát, KHÔNG can thiệp. "Camera an ninh."
   Vô thức vẫn chạy ~90%. PFC scan: "có gì bất thường?"
-  Nếu detect dissonance → TĂNG lên Mode 3+.
+  Nếu detect dissonance → TĂNG lên Drive-PFC-Spinning+.
 
   Ví dụ: lái xe đường quen, bạn rủ chơi (PFC: "có rảnh?→OK")
 
@@ -356,7 +356,7 @@ MODE 2: MONITOR (PFC ~5-15%)
 
 
 ═══════════════════════════════════════════════════════
-MODE 3: SPINNING (PFC ~30-50%, chunks THIẾU)
+DRIVE-PFC-SPINNING (PFC ~30-50%, chunks THIẾU)
 ═══════════════════════════════════════════════════════
 
   ⭐ MODE KHÓ CHỊU NHẤT — PFC active nhưng KHÔNG hiệu quả.
@@ -373,40 +373,40 @@ MODE 3: SPINNING (PFC ~30-50%, chunks THIẾU)
     → Nhưng chunk "đi dạo" có thể: không tồn tại / yếu / bị suppress
 
   Tại sao khó chịu nhất:
-    → PFC active = energy cost CAO (glucose intensive)
+    → PFC active = processing load CAO (serial bottleneck + catecholamine)
     → Nhưng: no resolution = reward 0
     → = Chi phí CAO + phần thưởng KHÔNG → WORST experience
 
-  ⚠️ PFC% cao hơn Mode 4 — vì CƯỠNG ÉP tìm kiếm, không phải vì giỏi hơn.
+  ⚠️ PFC% cao hơn Drive-PFC-Resolve — vì CƯỠNG ÉP tìm kiếm, không phải vì giỏi hơn.
 
   🟡 Spinning mechanism = framework analysis
   🟢 PFC energy cost without reward = frustration research
 
 
 ═══════════════════════════════════════════════════════
-MODE 4: RESOLVE (PFC ~20-40%, chunks ĐỦ)
+DRIVE-PFC-RESOLVE (PFC ~20-40%, chunks ĐỦ)
 ═══════════════════════════════════════════════════════
 
   PFC active VÀ hiệu quả. "Biết vấn đề VÀ biết cách fix."
   Scan → match → act → resolve → PFC giảm.
 
   Ví dụ: bác sĩ gặp triệu chứng quen → chunks match → chẩn đoán → done
-  = "Expertise" = Mode 4 ở domain cụ thể
+  = "Expertise" = Drive-PFC-Resolve ở domain cụ thể
 
-  ⚠️ PFC% THẤP HƠN Mode 3 vì chunks đủ → scan nhanh → done.
+  ⚠️ PFC% THẤP HƠN Drive-PFC-Spinning vì chunks đủ → scan nhanh → done.
   → = Chunks quyết định spinning vs resolve, KHÔNG PHẢI "cố gắng"
 
   🟢 Expertise = pattern recognition (Chase & Simon 1973)
 
 
 ═══════════════════════════════════════════════════════
-MODE 5: STRATEGIC (PFC ~60-80%, chunks NHIỀU + META)
+DRIVE-PFC-STRATEGIC (PFC ~60-80%, chunks NHIỀU + META)
 ═══════════════════════════════════════════════════════
 
   PFC CÓ giải pháp → nhưng HOLD.
   Meta-observe: "giải pháp tức thời có TỐI ƯU dài hạn?"
 
-  = Mode 4 + META-COGNITIVE layer:
+  = Drive-PFC-Resolve + META-COGNITIVE layer:
     → PFC evaluate PFC: "tôi đang nghĩ đúng chưa?"
     → Metacognition (Flavell 1979)
 
@@ -418,11 +418,11 @@ MODE 5: STRATEGIC (PFC ~60-80%, chunks NHIỀU + META)
   Ví dụ: CEO hold trước investment decision → "cần thêm data"
 
   🟢 Metacognition = Flavell 1979
-  🟡 Mode 5 as distinct from Mode 4 = framework distinction
+  🟡 Drive-PFC-Strategic as distinct from Drive-PFC-Resolve = framework distinction
 
 
 ═══════════════════════════════════════════════════════
-MODE 6: OVERRIDE (PFC ~80-95%)
+DRIVE-PFC-OVERRIDE (PFC ~80-95%)
 ═══════════════════════════════════════════════════════
 
   PFC CHỐNG LẠI body-feedback signal. Đắt nhất, hiếm nhất.
@@ -442,19 +442,19 @@ MODE 6: OVERRIDE (PFC ~80-95%)
 
 TÓM TẮT:
 
-  ┌────────┬──────────┬──────────────┬──────────────────────────┐
-  │ Mode   │ PFC %    │ Effectiveness│ Khi nào                  │
-  ├────────┼──────────┼──────────────┼──────────────────────────┤
-  │ 1 Abs. │  0-5%    │ N/A          │ Auto, safe, compiled     │
-  │ 2 Mon. │  5-15%   │ N/A          │ Scan, ready to activate  │
-  │ 3 Spin │ 30-50%   │ LOW          │ Dissonance + no chunks   │
-  │ 4 Res. │ 20-40%   │ HIGH         │ Dissonance + chunks đủ  │
-  │ 5 Str. │ 60-80%   │ HIGH + META  │ Complex, need optimize   │
-  │ 6 Ovr. │ 80-95%   │ HIGH but COST│ Against body, last resort│
-  └────────┴──────────┴──────────────┴──────────────────────────┘
+  ┌─────────────────────┬──────────┬──────────────┬──────────────────────────┐
+  │ Drive Mode          │ PFC %    │ Effectiveness│ Khi nào                  │
+  ├─────────────────────┼──────────┼──────────────┼──────────────────────────┤
+  │ Drive-PFC-Absent    │  0-5%    │ N/A          │ Auto, safe, compiled     │
+  │ Drive-PFC-Monitor   │  5-15%   │ N/A          │ Scan, ready to activate  │
+  │ Drive-PFC-Spinning  │ 30-50%   │ LOW          │ Dissonance + no chunks   │
+  │ Drive-PFC-Resolve   │ 20-40%   │ HIGH         │ Dissonance + chunks đủ  │
+  │ Drive-PFC-Strategic │ 60-80%   │ HIGH + META  │ Complex, need optimize   │
+  │ Drive-PFC-Override  │ 80-95%   │ HIGH but COST│ Against body, last resort│
+  └─────────────────────┴──────────┴──────────────┴──────────────────────────┘
 
-  → PHẦN LỚN cuộc sống: Mode 1-2 (~70-80% thời gian)
-  → Mode 3 vs 4 = CÙNG tình huống, KHÁC chunks → KHÁC mode → KHÁC output
+  → PHẦN LỚN cuộc sống: Drive-PFC-Absent/Monitor (~70-80% thời gian)
+  → Drive-PFC-Spinning vs Resolve = CÙNG tình huống, KHÁC chunks → KHÁC mode → KHÁC output
   → = Chunks = BIẾN SỐ QUYẾT ĐỊNH
 ```
 
@@ -503,9 +503,9 @@ TYPE 2: NOVELTY vs THREAT (pull vs push)
     → Novelty: "ngành mới, exciting, growth"
     → Threat: "mất thu nhập, gia đình phản đối, failure risk"
     → Resolution tùy chunks:
-      → CÓ chunks (network, savings, skills): Mode 4 → chuyển
-      → THIẾU chunks: Mode 3 → spinning "muốn mà không dám"
-      → META chunks: Mode 5 → "chuẩn bị 6 tháng trước"
+      → CÓ chunks (network, savings, skills): Drive-PFC-Resolve → chuyển
+      → THIẾU chunks: Drive-PFC-Spinning → "muốn mà không dám"
+      → META chunks: Drive-PFC-Strategic → "chuẩn bị 6 tháng trước"
 
   🟢 Approach-avoidance conflict = Lewin 1935, Miller 1944
 
@@ -516,7 +516,7 @@ TYPE 3: BODY-FEEDBACK vs PFC (override territory)
 
   Body muốn X NGAY, PFC nói KHÔNG.
   = PFC dùng Imagine-Final XA để override body-feedback GẦN.
-  = Mode 6 — luôn có cost.
+  = Drive-PFC-Override — luôn có cost.
 
   Ví dụ:
     → Ngủ (body) vs Deadline (PFC) → thức → cost: repair debt
@@ -558,8 +558,8 @@ RESOLUTION RULES — 5 rules theo thứ tự
   1. EMERGENCY → signal mạnh nhất AUTO THẮNG (không cần PFC)
 
   2. NON-EMERGENCY → PFC arbitrate dựa trên IMAGINE-FINAL
-     → Imagine-Final rõ → resolution nhanh (Mode 4)
-     → Imagine-Final không rõ → spinning (Mode 3) hoặc deliberate (Mode 5)
+     → Imagine-Final rõ → resolution nhanh (Drive-PFC-Resolve)
+     → Imagine-Final không rõ → spinning (Drive-PFC-Spinning) hoặc deliberate (Drive-PFC-Strategic)
 
   3. CÙNG MỨC → cường độ + Imagine-Final relevance quyết định
      → Ngang nhau → FROZEN → cần thêm thông tin/thời gian
@@ -704,7 +704,7 @@ DRIVE × NEW CONCEPTS (28-session Drill Propagation):
     │ Drive = observation parameter (not operator)               │
     │ Signal strength model (vs fixed layer priority)            │
     │ 6 PFC modes on 2-axis spectrum                             │
-    │ Mode 3 vs 4 differentiated by chunks                       │
+    │ Drive-PFC-Spinning vs Resolve differentiated by chunks       │
     │ 4 conflict types classification                            │
     │ 5 resolution rules                                         │
     │ Pull vs Push sustainability difference                     │
@@ -719,7 +719,7 @@ DRIVE × NEW CONCEPTS (28-session Drill Propagation):
   🔴 HYPOTHESIS (logical but unverified):
     ┌────────────────────────────────────────────────────────────┐
     │ Exact PFC% per mode — approximation                        │
-    │ Mode 1-2 = 70-80% of waking time — estimated              │
+    │ Drive-PFC-Absent/Monitor = 70-80% of waking time — est.    │
     │ Optimal pull:push ratio — unknown                          │
     │ Push→Pull transition conditions — unclear                  │
     │ Signal strength vs valence chain priority — case-dependent │

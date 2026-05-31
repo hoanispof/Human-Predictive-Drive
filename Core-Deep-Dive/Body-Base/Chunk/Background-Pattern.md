@@ -117,7 +117,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §6 — BACKGROUND PATTERN × Self-Pattern-Modeling: TRIPLE BIAS (v2.0: ★ REWRITE — 3 cơ chế + self-fulfilling)
 - §7 — BACKGROUND PATTERN × BODY-FEEDBACK (v2.0: +3 Firing Modes)
 - §8 — BACKGROUND PATTERN × CORTISOL (v2.0: +Compiled Suppress pathway)
-- §9 — ★ NEW: BACKGROUND PATTERN × VALENCE SYSTEM (Structural/Current, Hardware-Subsidy, Tonic, Mode 1)
+- §9 — ★ NEW: BACKGROUND PATTERN × VALENCE SYSTEM (Structural/Current, Hardware-Subsidy, Tonic, Firing-Maintenance)
 - §10 — ★ NEW: BACKGROUND PATTERN × ENTITY-COMPILED (trait-level, formation, Dunbar)
 - §11 — ★ NEW: BACKGROUND PATTERN × ENTITY-ACCESS + CALIBRATION (Mức 0-5, exit cost)
 - §12 — ★ NEW: BACKGROUND PATTERN × BOND-ARCHITECTURE (per-bond integration, parent = deepest)
@@ -186,7 +186,7 @@ FRAMEWORK CHƯA CÓ:
      → Entity-Valence-Dynamics.md v1.0: Structural valence (compiled deep) vs Current (per-moment)
      → Hardware-Subsidy 4-level: MỌI Background-Pattern KHÔNG bình đẳng
      → Tonic satiation = Background-Pattern substrate (slow invisible baseline)
-     → Mode 1 (Maintenance) = cơ chế tạo "background warmth"
+     → Firing-Maintenance = cơ chế tạo "background warmth"
 
   ❌ ENTITY-COMPILED × Background-Pattern (Entity-Compiled v1.0):
      → Trait-level = Background-Pattern (PFC invisible, high link density)
@@ -250,7 +250,7 @@ FRAMEWORK CHƯA CÓ:
     ✅ PFC invisibility + PFC-Operations integration
     ✅ Self-Pattern-Modeling Triple Bias (Retrieval + Template + Interpretation)
     ✅ Body-Feedback + Cortisol self-reinforcing loop
-    ✅ Background-Pattern × Valence System (Structural, Hardware-Subsidy, Tonic, Mode 1)
+    ✅ Background-Pattern × Valence System (Structural, Hardware-Subsidy, Tonic, Firing-Maintenance)
     ✅ Background-Pattern × Entity-Compiled + Entity-Access + Calibration
     ✅ Background-Pattern × Bond-Architecture + Boredom
     ✅ Resolution pathways + Pattern Shiftability framework
@@ -1168,31 +1168,31 @@ FRAMEWORK CHƯA CÓ:
 ```
 🟡 Entity-Valence-Dynamics.md v1.0 §4 — 3 FIRING MODES × Background-Pattern INTERACTION:
 
-  MODE 1 — MAINTENANCE (entity present, hàng ngày):
+  FIRING-MAINTENANCE (entity present, hàng ngày):
     Entity PRESENT → routine fire → opioid LOW-LEVEL → VTA habituated
     → = "Background warmth" — có nhưng INVISIBLE
-    → ⭐ MODE 1 = CƠ CHẾ TRỰC TIẾP TẠO BACKGROUND PATTERN ở entity level
-    → Entity Background-Pattern = tổng hợp tất cả Mode 1 firing hàng ngày
-    → Hardware-Subsidy MODULATE: MAX subsidy → Mode 1 RICHER → Background-Pattern RICHER baseline
-    → "Ở với mẹ 20 năm, không thấy gì đặc biệt" = Mode 1 → Background-Pattern → invisible
+    → ⭐ FIRING-MAINTENANCE = CƠ CHẾ TRỰC TIẾP TẠO BACKGROUND PATTERN ở entity level
+    → Entity Background-Pattern = tổng hợp tất cả Firing-Maintenance firing hàng ngày
+    → Hardware-Subsidy MODULATE: MAX subsidy → Firing-Maintenance RICHER → Background-Pattern RICHER baseline
+    → "Ở với mẹ 20 năm, không thấy gì đặc biệt" = Firing-Maintenance → Background-Pattern → invisible
 
-  MODE 2 — CHUNK-MISS (entity absent, cấp tính):
+  FIRING-CHUNK-MISS (entity absent, cấp tính):
     Entity ABSENT → compiled routine fire → no response → PAIN
     → = O'Connor 2023: basal ganglia VẪN fire "entity sẽ ở đây"
-    → = Background-Pattern EXPOSED khi Mode 2 fire (baseline violated → visible)
-    → "Mới biết quý khi mất" = Mode 2 REVEAL Background-Pattern mà Mode 1 đã invisible
+    → = Background-Pattern EXPOSED khi Firing-Chunk-Miss fire (baseline violated → visible)
+    → "Mới biết quý khi mất" = Firing-Chunk-Miss REVEAL Background-Pattern mà Firing-Maintenance đã invisible
 
-  MODE 3 — CONTEXT-TRIGGER (entity absent, tình cờ):
+  FIRING-CONTEXT-TRIGGER (entity absent, tình cờ):
     External cue → match Entity-Compiled spoke → hub activate → body-feedback
     → = UNPREDICTABLE (context-dependent)
-    → = Background-Pattern × Mode 3: nghe bài hát cũ → fire entity Background-Pattern → body-feedback
-    → = "Phantom" = Mode 3 firing after entity loss
+    → = Background-Pattern × Firing-Context-Trigger: nghe bài hát cũ → fire entity Background-Pattern → body-feedback
+    → = "Phantom" = Firing-Context-Trigger firing after entity loss
 
-  Background-Pattern × 3 MODES UNIFIED:
-    → Mode 1 BUILD Background-Pattern (daily, invisible, continuous)
-    → Mode 2 EXPOSE Background-Pattern (absence, acute, visible)
-    → Mode 3 TRIGGER Background-Pattern (context, unpredictable, episodic)
-    → = Background-Pattern = substrate MÀ 3 modes operate ON
+  Background-Pattern × 3 FIRING MODES UNIFIED:
+    → Firing-Maintenance BUILD Background-Pattern (daily, invisible, continuous)
+    → Firing-Chunk-Miss EXPOSE Background-Pattern (absence, acute, visible)
+    → Firing-Context-Trigger TRIGGER Background-Pattern (context, unpredictable, episodic)
+    → = Background-Pattern = substrate MÀ 3 Firing Modes operate ON
 
   🟡 3 Firing Modes × Background-Pattern = framework synthesis (Entity-Valence-Dynamics.md v1.0 §4)
 ```
@@ -1348,34 +1348,34 @@ FRAMEWORK CHƯA CÓ:
   🟡 Tonic as Background-Pattern substrate = framework synthesis (Entity-Valence-Dynamics.md v1.0 §6)
 ```
 
-### §9.3 — Mode 1 (Maintenance) = Background-Pattern Mechanism at Entity Level
+### §9.3 — Firing-Maintenance = Background-Pattern Mechanism at Entity Level
 
 ```
-🟡 Entity-Valence-Dynamics.md v1.0 §4 — MODE 1 = MECHANISM TẠO ENTITY-LEVEL Background-Pattern:
+🟡 Entity-Valence-Dynamics.md v1.0 §4 — FIRING-MAINTENANCE = MECHANISM TẠO ENTITY-LEVEL Background-Pattern:
 
-  Entity PRESENT → routine fire → L2 channels active → opioid LOW-LEVEL
+  Entity PRESENT → routine fire → Valence-Structural channels active → opioid LOW-LEVEL
   VTA HABITUATED → reward = BASELINE → PFC sees NOTHING special
   = "Background warmth" — có nhưng INVISIBLE
 
-  ⭐ MODE 1 IS BACKGROUND PATTERN MECHANISM FOR ENTITIES:
-    → Entity's daily presence compile Mode 1 hàng ngày
-    → Mode 1 × 365 ngày × years → accumulate → Background-Pattern entity-level
+  ⭐ FIRING-MAINTENANCE IS BACKGROUND PATTERN MECHANISM FOR ENTITIES:
+    → Entity's daily presence compile Firing-Maintenance hàng ngày
+    → Firing-Maintenance × 365 ngày × years → accumulate → Background-Pattern entity-level
     → = §3.1 tích lũy tự nhiên APPLIED cho entity context
 
-  Hardware-Subsidy × Mode 1 → Background-Pattern RICHNESS:
-    MAX subsidy (mẹ→con): Mode 1 opioid trickle MAINTAINED → RICH baseline
-    MODERATE (con→mẹ): Mode 1 moderate → stable but leaner
-    TEMPORARY (romantic): Mode 1 SIMULATED rich → subsidy expire → LEAN
-    NONE (bạn): Mode 1 without protection → VTA habituate FAST → LEANEST
+  Hardware-Subsidy × Firing-Maintenance → Background-Pattern RICHNESS:
+    MAX subsidy (mẹ→con): Firing-Maintenance opioid trickle MAINTAINED → RICH baseline
+    MODERATE (con→mẹ): Firing-Maintenance moderate → stable but leaner
+    TEMPORARY (romantic): Firing-Maintenance SIMULATED rich → subsidy expire → LEAN
+    NONE (bạn): Firing-Maintenance without protection → VTA habituate FAST → LEANEST
 
   PHANTOM = POST-Background-Pattern (Entity-Valence-Dynamics.md v1.0 §12):
-    → Phantom 4-factor: f(compilation depth × hardware-subsidy × L2 structural × duration)
-    → Phantom = Mode 2/3 firing AFTER entity loss → Background-Pattern EXPOSED
+    → Phantom 4-factor: f(compilation depth × hardware-subsidy × Valence-Structural × duration)
+    → Phantom = Firing-Chunk-Miss/Firing-Context-Trigger AFTER entity loss → Background-Pattern EXPOSED
     → Tonic channels: MOST persistent phantom (baseline violation ongoing)
     → Cyclic channels: EPISODIC phantom (fire at cycle points only)
     → = Phantom REVEAL what was Background-Pattern (invisible → visible through loss)
 
-  🟡 Mode 1 = Background-Pattern mechanism at entity level = framework synthesis (Entity-Valence-Dynamics.md v1.0 §4)
+  🟡 Firing-Maintenance = Background-Pattern mechanism at entity level = framework synthesis (Entity-Valence-Dynamics.md v1.0 §4)
 ```
 
 ---
@@ -1676,11 +1676,11 @@ FRAMEWORK CHƯA CÓ:
     → = "Chán mà không biết mình chán" = Background-Pattern prevent boredom signal
 
   VD — Couple 20 năm:
-    → Partner đã compile HOÀN TOÀN → Mode 1 INVISIBLE
+    → Partner đã compile HOÀN TOÀN → Firing-Maintenance INVISIBLE
     → Mọi conversation = expected → no prediction-delta
     → VTA: nothing new → boredom SUBSTRATE present
     → NHƯNG: PFC cannot observe (Background-Pattern = baseline = invisible)
-    → Chỉ BIẾT khi: gặp người MỚI (contrast) hoặc partner LÀ (Mode 2)
+    → Chỉ BIẾT khi: gặp người MỚI (contrast) hoặc partner LÀ (Firing-Chunk-Miss)
 
   🟡 Background-Pattern × compiled environment × boredom = framework synthesis (Boredom v2.0 §5)
 ```
@@ -2140,7 +2140,7 @@ FRAMEWORK CHƯA CÓ:
   Simulation-Engine.md v1.0:
     → CONTEXT: Self-Pattern-Modeling = APPLICATION trên 1 Engine chung
     → Engine: DMN + vMPFC + anterior insula + hippocampus
-    → Background-Pattern bias engine OUTPUT cho mọi applications (Self-Pattern-Modeling, Self-Obs, Imagine-Final)
+    → Background-Pattern bias engine OUTPUT cho mọi applications (Self-Pattern-Modeling, Self-Observation, Imagine-Final)
 
   Self-Pattern-Modeling.md v3.1:
     → REWRITE: Triple Bias mechanism (§6) — Retrieval + Template + Interpretation
@@ -2149,7 +2149,7 @@ FRAMEWORK CHƯA CÓ:
 
   Entity-Valence-Dynamics.md v1.0 (split from Valence-Propagation v3.0):
     → NEW: Structural vs Current valence × Background-Pattern (§9.1)
-    → NEW: Tonic = Background-Pattern substrate (§9.2), Mode 1 = Background-Pattern mechanism (§9.3)
+    → NEW: Tonic = Background-Pattern substrate (§9.2), Firing-Maintenance = Background-Pattern mechanism (§9.3)
     → NEW: Hardware-Subsidy × formation speed (§3.3), Phantom 4-factor (§9.3)
     → was v1.2→v3.0→Entity-Valence-Dynamics v1.0
 
@@ -2322,7 +2322,7 @@ Background-Pattern-Q10: Compiled suppress + Background-Pattern absorb: how to re
   PFC = Lawyer cho Background-Pattern:                           Novel — motivated reasoning + Background-Pattern
   Structural valence = Background-Pattern valence profile:        Novel — Entity-Valence-Dynamics.md v1.0 §1 × Background-Pattern
   Tonic channels = Background-Pattern core substrate:             Novel — Entity-Valence-Dynamics.md v1.0 §6 × Background-Pattern
-  Mode 1 = Background-Pattern mechanism at entity level:          Novel — Entity-Valence-Dynamics.md v1.0 §4 × Background-Pattern
+  Firing-Maintenance = Background-Pattern mechanism at entity level:          Novel — Entity-Valence-Dynamics.md v1.0 §4 × Background-Pattern
   Hardware-Subsidy × Background-Pattern formation speed:               Novel — 4-level modulation
   Hardware-Subsidy × Calibration Bias:                  Novel — paradox integration
   Satiation Type × Background-Pattern channel profile:            Novel — Cyclic/Tonic/Generative × Background-Pattern
@@ -2504,7 +2504,7 @@ Background-Pattern-Q10: Compiled suppress + Background-Pattern absorb: how to re
 > Triple Bias: Background-Pattern biases Self-Pattern-Modeling qua 3 đường đồng thời (Retrieval + Template + Interpretation).
 > Self-fulfilling prophecy: Background-Pattern → biased prediction → biased action → confirm Background-Pattern → loop.
 > Structural Valence = Background-Pattern valence profile. Tonic channels = Background-Pattern core substrate.
-> Mode 1 (Maintenance) = Background-Pattern mechanism at entity level. Hardware-Subsidy × formation speed.
+> Firing-Maintenance = Background-Pattern mechanism at entity level. Hardware-Subsidy × formation speed.
 > Trait-level = Background-Pattern. Entity-Compiled formation × Background-Pattern. Dunbar S1-S6 × Background-Pattern depth.
 > Mức 0-5 × Background-Pattern integration. Exit Cost = Background-Pattern structural weight. Calibration Bias paradox.
 > Per-bond integration: parent = deepest. Anti-compiled-suppress × Background-Pattern resistance.

@@ -1818,7 +1818,7 @@ V2.0 REFERENCE FILES (v1.2 added):
     → = Detect: client's primary anchor + trust level + possible conflicts
 
   Agent.md v1.0:
-    → §10: Schema override Mode 1/Mode 2 — abstract agent AS anchor
+    → §10: Schema override Schema-Pure-Trust/Imagined-Overlay — abstract agent AS anchor
     → = Thiên Chúa, tổ quốc = abstract agents filling anchor position
 
 

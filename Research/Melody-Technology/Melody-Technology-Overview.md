@@ -27,7 +27,7 @@ position: |
   Research/Melody-Technology/ — OVERVIEW file cho folder.
   Đọc file này TRƯỚC khi đọc Religion.md v2.6 hoặc Idol-Phenomenon.md v2.4.
 dependencies:
-  - Religion.md v2.6 — 7 Functions × v7.8 + Body-Base vs PFC-Mediation + Chain per-MTF + Hardware-Subsidy + Entity-Compiled + Simulation-Engine + Coordination-Node
+  - Religion.md v2.6 — 7 Functions × v7.8 + Body-Base vs PFC-Mediation + Chain per Melody-Technology Function + Hardware-Subsidy + Entity-Compiled + Simulation-Engine + Coordination-Node
   - Idol-Phenomenon.md v2.4 — 5 Drives × v7.8 + Entity-Compiled asymmetric + Bond-Architecture + Hardware-Subsidy NONE
   - Gap-Body-Need.md v1.0 — §6 5-Parameter, Chain to Body-Base parameter
   - Education-Mechanism.md — mechanism-focused education analysis

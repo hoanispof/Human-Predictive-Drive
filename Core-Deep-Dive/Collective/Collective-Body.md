@@ -2,7 +2,7 @@
 title: Collective Body-Base — Model 3 Cấp (Individual → Collective → Framework)
 version: 2.1
 created: 2026-05-08
-updated: 2026-05-23 (v2.1: +§3.1 By-product L3 institutional framing (By-Product-Scale v1.0), +§8.5 Technology × Scale interaction, Self-Pattern-Modeling rename Match→Modeling, ALL dep versions updated)
+updated: 2026-05-23 (v2.1: +§3.1 By-product Scale-Institutional framing (By-Product-Scale v1.0), +§8.5 Technology × Scale interaction, Self-Pattern-Modeling rename Match→Modeling, ALL dep versions updated)
 previous_updates:
   - 2026-05-17 (v2.0: Compilable Architecture, §2.5 Individual Detect Collective Gap, Compiled/Fresh, drill integration)
   - 2026-05-14 (v1.2: §3.5 Dual-Pull Propagation)
@@ -32,7 +32,7 @@ scope: |
     ⑮ PFC=Lawyer at collective scale (§5)
     ⑯ Compiled/Fresh terminology, 3-cost model, Domain=Arbiter
   v2.1 KEY CHANGES (By-Product-Scale v1.0 integration):
-    ⑰ §3.1 ENRICHED: By-product match L3 institutional framing (3-level model explicit)
+    ⑰ §3.1 ENRICHED: By-product match Scale-Institutional framing (3-level model explicit)
     ⑱ §8.5 NEW: Technology × Scale interaction (fill ROUTINE → frontier GENUINE)
     ⑲ Self-Pattern-Modeling rename: Self-Pattern-Match → Self-Pattern-Modeling (abbreviation giữ nguyên)
     ⑳ ALL dep versions updated (Self-Pattern-Modeling v3.1, Valence-Propagation v3.0, Body-Coupling v3.0, Connection v5.0, +By-Product-Scale v1.0, +Gap-Distribution-Profile v1.1)
@@ -63,7 +63,7 @@ dependencies:
     - Chunk.md v2.0 — compile mechanisms, 4 connection types
   agent-mechanism:
     - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, per-domain, APPLICATION-1 on Simulation-Engine
-    - By-Product-Scale.md v1.0 — 1 mechanism × 3 scales, L3 institutional, Technology × scale
+    - By-Product-Scale.md v1.0 — 1 mechanism × 3 scales, Scale-Institutional, Technology × scale
     - Agent-Mechanism.md v2.1 — integration hub, entity mechanism
     - By-Product-Gap-Resonance.md v1.4 — 2-Stream, by-product match, resonance baseline
   connection-observation:
@@ -102,7 +102,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > File này: Model 3 cấp (Individual → Collective → Framework).
 > Chain dài sống ở Cấp 2 (collective). Cá nhân compile ngắn ở Cấp 1.
 > Framework phân tích ở Cấp 3. Trust = bridge DUY NHẤT giữa 2 cấp.
-> System Compilation = HOW collective gắn kết sâu KHÔNG CẦN L2 per-agent.
+> System Compilation = HOW collective gắn kết sâu KHÔNG CẦN Valence-Structural per-agent.
 >
 > "Cá nhân compile NGẮN. Tập thể hold DÀI. Trust nối 2 thế giới."
 
@@ -114,7 +114,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §1 — MODEL 3 CẤP: Individual → Collective → Framework
 - §2 — CẤP 1: INDIVIDUAL (Short Compile + Trust Bypass)
 - §3 — CẤP 2: COLLECTIVE (Where Long Chains Live)
-  - §3.1 enriched: By-product match L3 institutional framing (v2.1)
+  - §3.1 enriched: By-product match Scale-Institutional framing (v2.1)
 - §4 — GLOBAL-BODY ANALOGY (~70% Mapping + ~30% Breaks)
 - §5 — TRUST = BRIDGE (Individual ← Collective)
 - §6 — SYSTEM COMPILATION (6 Compound Mechanisms)
@@ -151,8 +151,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │                        │ = COLLECTIVE body-base formalization      │
     ├────────────────────────┼──────────────────────────────────────────┤
     │ Body-Coupling.md v1.0  │ HOW body couples với AGENT CỤ THỂ.       │
-    │                        │ Per-agent coupling (L2). §2.5 System      │
-    │                        │ Compilation (per-context, 6 mechanisms).  │
+    │                        │ Per-agent coupling (Valence-Structural).  │
+    │                        │ §2.5 System Compilation (per-context,     │
+    │                        │ 6 mechanisms).                            │
     │                        │ = MECHANISM deep-dive cho coupling         │
     ├────────────────────────┼──────────────────────────────────────────┤
     │ Global-Melody.md v2.0  │ Collective melody: 5 tầng zoom,          │
@@ -545,29 +546,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ⭐ BY-PRODUCT MATCH = 1 MECHANISM × 3 SCALES (v2.1, By-Product-Scale v1.0 §0.2):
 
       By-Product-Scale v1.0 formal model: by-product match ĐÃ mô tả ở trên
-      = LEVEL 3 (Institutional) trong mô hình 3-level:
+      = Scale-Institutional trong mô hình 3-level:
 
-      ┌──────────────┬──────────────────────┬───────────────────────────┐
-      │ Level        │ Topology              │ Example ở §3.1            │
-      ├──────────────┼──────────────────────┼───────────────────────────┤
-      │ L1 (Pair)    │ A↔B pair-wise         │ Cá nhân ↔ cá nhân        │
-      │              │ Direct verify         │ (Inter-Body §5.4)         │
-      ├──────────────┼──────────────────────┼───────────────────────────┤
-      │ L2 (Hub)     │ Node↔{A,B,...N}       │ CEO ↔ nhân viên           │
-      │              │ Trust bypass          │ (Coordination-Node §1.4)  │
-      ├──────────────┼──────────────────────┼───────────────────────────┤
-      │ L3 (Instit.) │ Distributed network   │ Trường ↔ student          │
-      │              │ Institutional trust   │ (section này)              │
-      └──────────────┴──────────────────────┴───────────────────────────┘
+      ┌─────────────────────┬──────────────────────┬───────────────────────────┐
+      │ Scale               │ Topology              │ Example ở §3.1            │
+      ├─────────────────────┼──────────────────────┼───────────────────────────┤
+      │ Scale-Pair          │ A↔B pair-wise         │ Cá nhân ↔ cá nhân        │
+      │                     │ Direct verify         │ (Inter-Body §5.4)         │
+      ├─────────────────────┼──────────────────────┼───────────────────────────┤
+      │ Scale-Hub           │ Node↔{A,B,...N}       │ CEO ↔ nhân viên           │
+      │                     │ Trust bypass          │ (Coordination-Node §1.4)  │
+      ├─────────────────────┼──────────────────────┼───────────────────────────┤
+      │ Scale-Institutional │ Distributed network   │ Trường ↔ student          │
+      │                     │ Institutional trust   │ (section này)              │
+      └─────────────────────┴──────────────────────┴───────────────────────────┘
 
-      4 KHÁC BIỆT L3 so với L1-L2:
+      4 KHÁC BIỆT Scale-Institutional so với Scale-Pair/Scale-Hub:
         ① No single node: không 1 ai coordinate → DISTRIBUTED
         ② Institutional trust: ABSTRACT, không personal, không proxy
         ③ Long chains DISTRIBUTED: [học→bằng→việc→lương] phân tán across institutions
         ④ Self-reinforcing SLOWLY: institution→by-product→individuals→contribute→cycle
            (nhưng correction CỰC CHẬM: decades-centuries)
 
-      → Scale Hierarchy (§3.2) = L3 architecture CÙNG mechanism, KHÁC scale
+      → Scale Hierarchy (§3.2) = Scale-Institutional architecture CÙNG mechanism, KHÁC scale
       → Cùng by-product match principle → khác topology + hardware + failure mode
 
       🟡 3-level model = framework synthesis (By-Product-Scale v1.0)
@@ -1101,12 +1102,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §6 — SYSTEM COMPILATION (6 Compound Mechanisms)
 
-### §6.1 — L2 Không Tồn Tại Cho Abstract Entities
+### §6.1 — Valence-Structural Không Tồn Tại Cho Abstract Entities
 
 ```
-⭐ L2 KHÔNG THỂ TỒN TẠI CHO ABSTRACT ENTITIES (Drill §25A):
+⭐ Valence-Structural KHÔNG THỂ TỒN TẠI CHO ABSTRACT ENTITIES (Drill §25A):
 
-  L2 (entity-owned structural reward) YÊU CẦU (Body-Coupling.md §2-§3):
+  Valence-Structural (entity-owned structural reward) YÊU CẦU (Body-Coupling.md §2-§3):
     → Per-agent coupling: Self-Pattern-Modeling bidirectional (agent respond back)
     → Physical presence: body detect agent → Self-Pattern-Modeling fire
     → Irreplaceable: agent specific → grief khi mất
@@ -1118,12 +1119,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Members = REPLACEABLE (instances in schema, không per-agent)
 
   Valence-Propagation §2: "Body-base extension = EMERGENT property CHỈ CÓ ở agent valence"
-  → Abstract entities = GIỐNG object về L2 dimension: valence CÓ, coupling KHÔNG
+  → Abstract entities = GIỐNG object về Valence-Structural dimension: valence CÓ, coupling KHÔNG
 
   VẬY TẠI SAO "YÊU NƯỚC" CẢM THẤY RẤT SÂU?
   → Vì có mechanism KHÁC: System Compilation (Body-Coupling §2.5)
 
-  🟡 L2 cannot exist for abstract entities = framework synthesis (Drill §25A)
+  🟡 Valence-Structural cannot exist for abstract entities = framework synthesis (Drill §25A)
 ```
 
 ### §6.2 — 6 Mechanisms Compound
@@ -1132,7 +1133,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ SYSTEM COMPILATION = 6 MECHANISMS CHẠY ĐỒNG THỜI (Drill §25B):
 
   Body-Coupling §2.5 đã phân biệt rõ:
-    COUPLING = per-agent (mẹ, bạn, kẻ thù) → L2 structural
+    COUPLING = per-agent (mẹ, bạn, kẻ thù) → Valence-Structural
     SYSTEM COMPILATION = per-context (công ty, quốc gia, tôn giáo) → 6 compound
 
 
@@ -1163,7 +1164,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → Concert, lễ hội, nghi lễ → body fire CỰC MẠNH
      → Mass Self-Pattern-Modeling co-firing → Resonance at group scale
 
-  ⑥ SCHEMA-AGENT MODE 1/2 (Agent-Mechanism §12.4):
+  ⑥ SCHEMA-AGENT SCHEMA-PURE-TRUST/IMAGINED-OVERLAY (Agent-Mechanism §12.4):
      → Đức Mẹ, quốc phụ = "virtual agent" → body fire presence
      → Schema-provided "presence" → cortisol ↓, comfort
      → KHÔNG phải agent thật, nhưng body TREAT như agent
@@ -1171,7 +1172,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 
   → 6 mechanisms CÙNG compile → COMPOUND effect CỰC MẠNH
-  → Binh lính chết cho đất nước = compound 6 mechanisms (NOT per-agent L2)
+  → Binh lính chết cho đất nước = compound 6 mechanisms (NOT per-agent Valence-Structural)
   → "Công ty cũ" = mini version "quốc gia" → cùng model, khác scale
 
   🟡 System compilation 6-mechanism model = framework synthesis (Drill §25B)
@@ -1180,42 +1181,43 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 In-group favoritism: Tajfel 1979
 ```
 
-### §6.3 — L2 vs System Compilation
+### §6.3 — Valence-Structural vs System Compilation
 
 ```
 ⭐ KHÁC MECHANISM, TƯƠNG ĐƯƠNG INTENSITY, KHÁC QUALITY (Drill §25C):
 
-  ┌─────────────────────┬──────────────────────┬──────────────────────────┐
-  │                     │ L2 (PER-AGENT)        │ SYSTEM COMPILATION       │
-  │                     │                       │ (PER-CONTEXT/ABSTRACT)   │
-  ├─────────────────────┼──────────────────────┼──────────────────────────┤
-  │ Target              │ Agent CỤ THỂ          │ Context / abstract       │
-  │                     │ (mẹ, bạn, kẻ thù)    │ (quốc gia, đạo, ideal)  │
-  ├─────────────────────┼──────────────────────┼──────────────────────────┤
-  │ Core mechanism      │ ❸ per-agent compile   │ 6 mechanisms COMPOUND    │
-  │                     │ + Self-Pattern-Modeling deep            │ (không Self-Pattern-Modeling bidirectional)│
-  ├─────────────────────┼──────────────────────┼──────────────────────────┤
-  │ Members             │ IRREPLACEABLE         │ REPLACEABLE              │
-  │                     │ (per-agent specific)  │ (instances in schema)    │
-  ├─────────────────────┼──────────────────────┼──────────────────────────┤
-  │ Falsifiable?        │ CÓ (agent phản bội   │ CÓ THỂ KHÔNG             │
-  │                     │ → flip)               │ (Thiên Đàng = ∞)        │
-  ├─────────────────────┼──────────────────────┼──────────────────────────┤
-  │ Loss quality        │ Grief = body-base     │ Compound Chunk-Miss      │
-  │                     │ AMPUTATION            │ + identity DISRUPTION    │
-  ├─────────────────────┼──────────────────────┼──────────────────────────┤
-  │ Loss intensity      │ DEEP cho 1 agent      │ CÓ THỂ > L2 vì          │
-  │                     │                       │ 6 compound = additive    │
-  ├─────────────────────┼──────────────────────┼──────────────────────────┤
-  │ Break difficulty    │ 3 đường (Body-Coupling §6.3-6.4)│ RẤT KHÓ: unfalsifiable   │
-  │                     │                       │ + 6 mechanisms cùng lúc  │
-  └─────────────────────┴──────────────────────┴──────────────────────────┘
+  ┌─────────────────────┬───────────────────────────────┬──────────────────────────────────┐
+  │                     │ Valence-Structural            │ SYSTEM COMPILATION               │
+  │                     │ (PER-AGENT)                   │ (PER-CONTEXT/ABSTRACT)           │
+  ├─────────────────────┼───────────────────────────────┼──────────────────────────────────┤
+  │ Target              │ Agent CỤ THỂ                  │ Context / abstract               │
+  │                     │ (mẹ, bạn, kẻ thù)            │ (quốc gia, đạo, ideal)           │
+  ├─────────────────────┼───────────────────────────────┼──────────────────────────────────┤
+  │ Core mechanism      │ ❸ per-agent compile           │ 6 mechanisms COMPOUND            │
+  │                     │ + Self-Pattern-Modeling deep   │ (không Self-Pattern-Modeling      │
+  │                     │                               │ bidirectional)                    │
+  ├─────────────────────┼───────────────────────────────┼──────────────────────────────────┤
+  │ Members             │ IRREPLACEABLE                 │ REPLACEABLE                      │
+  │                     │ (per-agent specific)          │ (instances in schema)             │
+  ├─────────────────────┼───────────────────────────────┼──────────────────────────────────┤
+  │ Falsifiable?        │ CÓ (agent phản bội → flip)    │ CÓ THỂ KHÔNG                     │
+  │                     │                               │ (Thiên Đàng = ∞)                 │
+  ├─────────────────────┼───────────────────────────────┼──────────────────────────────────┤
+  │ Loss quality        │ Grief = body-base AMPUTATION  │ Compound Chunk-Miss              │
+  │                     │                               │ + identity DISRUPTION             │
+  ├─────────────────────┼───────────────────────────────┼──────────────────────────────────┤
+  │ Loss intensity      │ DEEP cho 1 agent              │ CÓ THỂ > Valence-Structural vì  │
+  │                     │                               │ 6 compound = additive             │
+  ├─────────────────────┼───────────────────────────────┼──────────────────────────────────┤
+  │ Break difficulty    │ 3 đường                       │ RẤT KHÓ: unfalsifiable           │
+  │                     │ (Body-Coupling §6.3-6.4)      │ + 6 mechanisms cùng lúc           │
+  └─────────────────────┴───────────────────────────────┴──────────────────────────────────┘
 
 
   ⭐ LOSS COMPARISON — QUALITY KHÁC:
 
     Mất per-agent (mẹ qua đời):
-      → L2 structural CẮT → body-base amputation → phantom L2
+      → Valence-Structural CẮT → body-base amputation → phantom Valence-Structural
       → = Pain THUẦN (Connection.md §15)
 
     Mất system (lưu vong, bỏ đạo):
@@ -1268,7 +1270,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §7 — COUPLING PROXY (Leader / Symbol / Virtual Agent)
 
 ```
-⭐ CẦU NỐI GIỮA L2 VÀ SYSTEM COMPILATION (Drill §25D):
+⭐ CẦU NỐI GIỮA Valence-Structural VÀ SYSTEM COMPILATION (Drill §25D):
 
   Abstract entity → body KHÔNG THỂ couple trực tiếp.
   NHƯNG body CÓ THỂ couple với REPRESENTATIVE → tạo CẦU NỐI:
@@ -1277,10 +1279,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ 3 LOẠI PROXY:
 
   ① LEADER AS COUPLING PROXY:
-     → Leader = agent THẬT → per-agent ❸ CÓ THỂ deep → L2 THẬT
+     → Leader = agent THẬT → per-agent ❸ CÓ THỂ deep → Valence-Structural THẬT
      → Leader REPRESENT group → coupling VỚI leader ≈ coupling VỚI group
-     → Mất leader = L2 grief (per-agent) + system loss (6 compound) = COMPOUND CỰC MẠNH
-     → VD: lãnh đạo qua đời → cả nước đau = L2 proxy + system loss
+     → Mất leader = Valence-Structural grief (per-agent) + system loss (6 compound) = COMPOUND CỰC MẠNH
+     → VD: lãnh đạo qua đời → cả nước đau = Valence-Structural proxy + system loss
 
   ② SYMBOL AS TRIGGER PROXY:
      → Cờ, thánh giá, quốc ca = trigger cho toàn bộ valence chain
@@ -1291,19 +1293,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ③ VIRTUAL AGENT AS SCHEMA-AGENT:
      → Chúa, Phật, quốc phụ = schema-provided presence (Agent-Mechanism §12.4)
      → Body fire AS IF agent present → cortisol ↓, comfort
-     → KHÔNG phải L2 thật: no Self-Pattern-Modeling bidirectional, no physical feedback
+     → KHÔNG phải Valence-Structural thật: no Self-Pattern-Modeling bidirectional, no physical feedback
      → UNCALIBRATED → CÓ THỂ inflated beyond reality (giống parasocial)
      → NHƯNG: stable + comforting + unfalsifiable = EFFECTIVE dù không "thật"
 
 
-  ⭐ LEADER PROXY = NƠI L2 VÀ SYSTEM COMPILATION GẶP NHAU:
+  ⭐ LEADER PROXY = NƠI Valence-Structural VÀ SYSTEM COMPILATION GẶP NHAU:
 
-    Body compile L2 cho leader AS PERSON (per-agent coupling)
+    Body compile Valence-Structural cho leader AS PERSON (per-agent coupling)
     + Body compile system cho group AS CONTEXT (6 compound)
     + Leader REPRESENT group → 2 loại MERGE → compound
 
     → = TẠI SAO "cult" xoay quanh 1 leader:
-      per-agent L2 (yêu leader) + system compilation (belong to group)
+      per-agent Valence-Structural (yêu leader) + system compilation (belong to group)
     → = TẠI SAO leader betrayal/death = devastating:
       per-agent flip/grief + system disruption + identity crisis CÙNG LÚC
 
@@ -1316,7 +1318,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → 🟢 Contact hypothesis: Allport 1954
 
   🟡 3 proxy types = framework synthesis (Drill §25D)
-  🟡 Leader proxy = L2 ∩ system compilation = framework synthesis
+  🟡 Leader proxy = Valence-Structural ∩ system compilation = framework synthesis
 ```
 
 ---
@@ -1449,7 +1451,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Institution SPLIT (🔴 testable prediction):
        Knowledge function → AI CÓ THỂ thay thế (AI deliver trực tiếp)
-       Social function → institution REMAINS (AI no body, no L2, no §6 mechanisms)
+       Social function → institution REMAINS (AI no body, no Valence-Structural, no §6 mechanisms)
        = Future institution = PRIMARILY social, SECONDARILY knowledge?
 
   🟡 AI trust entity type = framework synthesis (Drill E5 Q-S2-5)
@@ -1469,27 +1471,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Technology KHÔNG thay thế by-product match — mà DỊCH CHUYỂN frontier.
 
 
-  TECHNOLOGY × 3 LEVELS:
+  TECHNOLOGY × 3 SCALES:
 
-  ┌──────────────┬──────────────────────────┬──────────────────────────┐
-  │ Level        │ Technology FILLS          │ Frontier SHIFTS to       │
-  ├──────────────┼──────────────────────────┼──────────────────────────┤
-  │ L1 (Pair)    │ Video call maintains     │ Touch IRREPLACEABLE      │
-  │              │ partial Generative.      │ (CT afferents, oxytocin).│
-  │              │ AI fills insight supply.  │ Social + abstract gaps   │
-  │              │                          │ = new frontier.           │
-  ├──────────────┼──────────────────────────┼──────────────────────────┤
-  │ L2 (Hub)     │ Algorithms replace some  │ Self-Pattern-Modeling across domains =     │
-  │              │ coordination (schedule,  │ HARD to automate.         │
-  │              │ allocation). AI reduces  │ Judgment-based decisions  │
-  │              │ node's PFC bandwidth.    │ = new frontier.           │
-  ├──────────────┼──────────────────────────┼──────────────────────────┤
-  │ L3 (Instit.) │ Internet distributes     │ Trust foundation STILL    │
-  │              │ functions globally.      │ requires collective       │
-  │              │ DAO/blockchain attempt   │ compilation. "Code is     │
-  │              │ to replace nodes.        │ law" fails for complex    │
-  │              │                          │ judgment.                 │
-  └──────────────┴──────────────────────────┴──────────────────────────┘
+  ┌─────────────────────┬──────────────────────────┬──────────────────────────┐
+  │ Scale               │ Technology FILLS          │ Frontier SHIFTS to       │
+  ├─────────────────────┼──────────────────────────┼──────────────────────────┤
+  │ Scale-Pair          │ Video call maintains     │ Touch IRREPLACEABLE      │
+  │                     │ partial Generative.      │ (CT afferents, oxytocin).│
+  │                     │ AI fills insight supply.  │ Social + abstract gaps   │
+  │                     │                          │ = new frontier.           │
+  ├─────────────────────┼──────────────────────────┼──────────────────────────┤
+  │ Scale-Hub           │ Algorithms replace some  │ Self-Pattern-Modeling     │
+  │                     │ coordination (schedule,  │ across domains = HARD to  │
+  │                     │ allocation). AI reduces  │ automate. Judgment-based  │
+  │                     │ node's PFC bandwidth.    │ decisions = new frontier. │
+  ├─────────────────────┼──────────────────────────┼──────────────────────────┤
+  │ Scale-Institutional │ Internet distributes     │ Trust foundation STILL    │
+  │                     │ functions globally.      │ requires collective       │
+  │                     │ DAO/blockchain attempt   │ compilation. "Code is     │
+  │                     │ to replace nodes.        │ law" fails for complex    │
+  │                     │                          │ judgment.                 │
+  └─────────────────────┴──────────────────────────┴──────────────────────────┘
 
 
   ⭐ INCOME PLATEAU = TECHNOLOGY FILL EVIDENCE:
@@ -1497,7 +1499,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Kahneman & Deaton (2010): income > ~$75K → well-being KHÔNG tăng
     → Technology fills SENSORY baselines (food, shelter, transport)
     → Social + abstract gaps = UNFILLED by money
-    → = Technology fills L3 institutional gaps → L1 pair gaps REMAIN
+    → = Technology fills Scale-Institutional gaps → Scale-Pair gaps REMAIN
 
     Gap-Distribution-Profile v1.1 §7.4: Technology fill level per gap domain:
       Sensory: ~80% filled (food, shelter, transport, entertainment)
@@ -1573,7 +1575,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     — source credibility established, "hijack" framing = novel
   ⚠ System Compilation 6-mechanism model
     — each mechanism grounded, compound model = novel
-  ⚠ L2 cannot exist for abstract entities
+  ⚠ Valence-Structural cannot exist for abstract entities
     — consistent with Valence-Propagation §2, explicit claim = novel
   ⚠ Religion = strongest system compilation
     — each mechanism verified, "strongest" = comparative claim
@@ -1600,7 +1602,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     — Inter-Body §5.4 extended to institutions, logical but novel scale
   ⚠ PFC=Lawyer at collective scale (§5.1 v2.0)
     — Gazzaniga individual→collective parallel, framework extension
-  ⚠ By-product match = 1 mechanism × 3 scales, L3 institutional framing (§3.1 v2.1)
+  ⚠ By-product match = 1 mechanism × 3 scales, Scale-Institutional framing (§3.1 v2.1)
     — By-Product-Scale v1.0 3-level model, each level grounded, unified formalization = novel
   ⚠ Technology fills ROUTINE → frontier GENUINE (§8.5 v2.1)
     — consistent with income plateau research, cross-scale observation = novel
@@ -1702,7 +1704,7 @@ AGENT-MECHANISM:
   Agent-Mechanism.md v2.1   — integration hub, §12 body-need feeder, entity mechanism
   Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, per-domain, APPLICATION-1 on Simulation-Engine
   By-Product-Gap-Resonance.md v1.4 — 2-Stream Architecture, by-product match
-  By-Product-Scale.md v1.0  — 1 mechanism × 3 scales, L3 institutional, Technology × scale
+  By-Product-Scale.md v1.0  — 1 mechanism × 3 scales, Scale-Institutional, Technology × scale
 
 DRILL (source for v1.0 + v1.1):
   Drill-Compile-Short-Collective.md — §5 (Model 3 cấp), §8 (Global-Body),
@@ -1747,14 +1749,14 @@ CHANGELOG:
     → §9: +8🟡 new + 1🔴 new. §10: ALL version numbers updated.
     → Backup: backup/Collective-Body-v1.2-backup.md
   v2.1 — 2026-05-23 (By-Product-Scale v1.0 integration):
-    → §3.1 ENRICHED: By-product match L3 institutional framing
-      3-level model table (L1 Pair / L2 Hub / L3 Institutional)
-      4 khác biệt L3 so với L1-L2
+    → §3.1 ENRICHED: By-product match Scale-Institutional framing
+      3-level model table (Scale-Pair / Scale-Hub / Scale-Institutional)
+      4 khác biệt Scale-Institutional so với Scale-Pair/Scale-Hub
     → §8.5 ★ NEW: Technology × Scale interaction (~50L)
       Technology fills ROUTINE → frontier shifts to GENUINE
       Income plateau as evidence, 3-level technology fill table
       AI enrichment: fills Trust Compile but NOT body compile
-    → §9: +3 🟡 items (L3 framing, technology×scale, income plateau)
+    → §9: +3 🟡 items (Scale-Institutional framing, technology×scale, income plateau)
     → §10: ALL version numbers updated (Valence-Propagation v3.0, Body-Coupling v3.0, Connection v5.0,
       Self-Pattern-Modeling v3.1, Agent-Mechanism v2.1, By-Product-Gap-Resonance v1.4, +By-Product-Scale v1.0, +Gap-Distribution-Profile v1.1, +Coordination-Node v1.2, Empathy v4.0)
     → +Kahneman & Deaton 2010 citation
@@ -1772,7 +1774,7 @@ CHANGELOG:
 > Cá nhân compile NGẮN (1-2 nodes). Trust = ONLY bridge.
 >
 > v2.1 KEY NEW:
->   §3.1: By-product match L3 institutional framing (By-Product-Scale v1.0 3-level model)
+>   §3.1: By-product match Scale-Institutional framing (By-Product-Scale v1.0 3-level model)
 >   §8.5: Technology × Scale — fills ROUTINE, frontier shifts GENUINE
 >
 > Core preserved: Model 3 Cấp, Trust bridge, System Compilation,

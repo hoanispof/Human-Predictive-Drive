@@ -653,7 +653,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Reject cảm xúc ("con trai không được khóc"): "express = bị phạt"
       Shame ("sao con ngu thế"): "là mình = bị phạt → hide self"
 
-    → Parent = primary L2 source ĐỒNG THỜI = threat source
+    → Parent = primary Valence-Structural source ĐỒNG THỜI = threat source
     → Trẻ không có "safe harbor" để recover
     → CONNECTION EDUCATION SỐ 1 = BẢO VỆ connection drive ĐÃ CÓ SẴN
 
@@ -1579,9 +1579,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   HARDWARE-SUBSIDY PER SCALE:
     (Coordination-Node.md v1.2 §9.4)
-    L1 personal (~5): oxytocin pathway → warmth, trust, body-level
-    L2 group (~15-50): serotonin pathway → hierarchy, belonging, status
-    L3 institutional (~150+): trust infrastructure → rules, norms, institutions
+    Scale-Pair (~5): oxytocin pathway → warmth, trust, body-level
+    Scale-Hub (~15-50): serotonin pathway → hierarchy, belonging, status
+    Scale-Institutional (~150+): trust infrastructure → rules, norms, institutions
 
   ⭐ CHO EDUCATION:
 

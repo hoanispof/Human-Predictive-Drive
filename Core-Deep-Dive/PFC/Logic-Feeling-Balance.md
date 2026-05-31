@@ -235,7 +235,7 @@ Nếu không hiểu nguyên lý này → 3 trap phổ biến:
     "Balance" = continuous Body-Knowing → Domain verify → Update cycle
 
   3-COST MODEL (Inter-Body-Mechanism.md v2.0 §4) giải thích structural constraint:
-    ① PFC Draft Cost: fresh processing = metabolic (glucose, neurotransmitters)
+    ① PFC Draft Cost: fresh processing = processing load (serial bottleneck + catecholamine)
     ② Suppress Cost: override compiled = body resist = dissonance
     ③ Uncertainty Cost: hold options open = cortisol holding
     → Cannot "fresh" forever (unsustainable)
@@ -1394,7 +1394,7 @@ Emergent = distributed KHÔNG central:
   → Trial-error as fundamental mechanism (evolution, science)
   → PFC confabulation (Gazzaniga split-brain)
   → Moral intuition first, reasoning post-hoc (Haidt 2001)
-  → Cognitive effort = metabolic cost (Gailliot & Baumeister 2007)
+  → Cognitive effort = processing load (Kurzban 2013, Musslick & Cohen 2021)
   → Expert intuition = compiled patterns (Klein 1998, Chase & Simon 1973)
   → Somatic marker hypothesis (Damasio 1994, 1999)
   → Cumulative culture (Tomasello 1999, Henrich 2016)

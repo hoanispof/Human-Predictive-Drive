@@ -1130,27 +1130,27 @@ This insight refines H10 precondition 5 (chunk association tag) significantly.
 
 **→ Novelty dissonance when chunks base INSUFFICIENT** to bring match into Goldilocks zone.
 
-### §6.3 — Mechanism 2: PFC Glucose Fatigue
+### §6.3 — Mechanism 2: PFC Processing Fatigue
 
 🟡 Framework (Learning-Cycle §3.3 Stage 3 fatigue signal):
 
-> Any chunk hold in PFC working memory consumes glucose. Novel chunks require MORE PFC bandwidth (not compiled to auto-fire). Extended novelty → metabolic cost accumulates.
+> Any chunk hold in PFC working memory occupies serial bottleneck + demands catecholamine. Novel chunks require MORE PFC bandwidth (not compiled to auto-fire). Extended novelty → processing load accumulates.
 
 **Mechanism**:
 - Novel input → PFC hold chunks in working memory (4±1 slots)
-- Sustained hold → glucose consumption elevated
-- **Metabolic fatigue**: 🟢 Gailliot & Baumeister 2007 ego depletion debated but glucose correlate documented
+- Sustained hold → processing load: serial bottleneck occupied + catecholamine decline
+- **Processing fatigue**: 🟢 Kurzban 2013 (opportunity cost), Arnsten 2009 (catecholamine inverted-U). Glucose model falsified: Hagger 2016 d=0.04
 - **Regional blood flow**: PFC active → elevated metabolic demand
 
 **"Novelty ngắn mệt nhẹ"** mechanism:
 - Even short novelty exposure requires PFC hold
-- Seconds-minutes → slight glucose depletion in PFC region
+- Seconds-minutes → processing load accumulates in PFC (catecholamine decline)
 - Body signal: "hơi mệt đầu" / "brain cần nghỉ"
 - **Intensity scales with novelty duration + magnitude + PFC capacity**
 
 **Example**: 30-minute museum visit with lots of new art
 - Not physical exertion but clear "brain fatigue"
-- That's PFC glucose fatigue from sustained novel input processing
+- That's PFC processing fatigue from sustained novel input processing
 - Resolution: rest, food, decrease novel input
 
 ### §6.4 — Mechanism 3: Recalibration Discomfort
@@ -1181,13 +1181,13 @@ This insight refines H10 precondition 5 (chunk association tag) significantly.
 
 **"Novelty ngắn mệt nhẹ"** = all 3 mechanisms at LOW intensity combining:
 - Mild Goldilocks mismatch (some parts unknown)
-- Mild PFC glucose dip (short hold)
+- Mild PFC processing load (short hold)
 - Mild recalibration (shallow integration attempt)
 - **Combined**: "mệt nhẹ" signal
 
 **"Novelty dài mệt mạnh"** = same mechanisms amplified:
 - More mismatches to resolve
-- More PFC hold → deeper glucose depletion
+- More PFC hold → deeper catecholamine depletion
 - More recalibration → more unstable neurons
 
 **→ User's intuition correct**. Framework commits: novelty ALWAYS produces some dissonance even when also producing reward (Goldilocks middle zone). The question is balance between reward and dissonance, not presence of dissonance alone.
@@ -1236,7 +1236,7 @@ Each of 3 signals maps to body-feedback layer:
 - Chunk tag: opioid (if novelty context) or cortisol-tinged (if threat context)
 
 **Fatigue signal**:
-- Source: PFC metabolic cost + network load
+- Source: PFC processing load + network load
 - Layer: Body-feedback raw (energy depletion sensors) → PFC observes as "brain heavy"
 - Interoception: §4.9 self-signal picks up metabolic state
 

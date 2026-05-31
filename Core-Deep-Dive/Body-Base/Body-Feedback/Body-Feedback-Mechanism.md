@@ -962,7 +962,7 @@ BODY-NEED CÓ 7 PROPERTIES:
 
   Gap KHÔNG decompose → kéo dài → CÓ THỂ transition sang Miss (§3.3c).
   Gap decompose tốt → sustained drive + regular reward.
-  = PFC Mode 5 Strategic (Drive.md §2): plan decomposition.
+  = Drive-PFC-Strategic (Drive.md §2): plan decomposition.
 
   🟢 RESEARCH:
     → Goal gradient effect: Hull 1932 (effort increases near goal = mini-arc)
@@ -1414,7 +1414,7 @@ WHAT THIS FILE DOES NOT DO:
 📚 INTER-BODY MECHANISM (v2.0 NEW):
   → Inter-Body-Mechanism.md v1.0 — Body-Need §2, 3-cost §4, 5-channel §6
     → §2 Body-Need aggregate: full 7 properties + 4 immediacy types
-    → §2.3 Cross-cutting: obs params + state modifiers ≠ sources
+    → §2.3 Cross-cutting: observation parameters + state modifiers ≠ sources
     → §2.2 Complexity spectrum: Simple→Social→Meta
     → §4 3-cost model: PFC draft + suppress + uncertainty
     → §6 5-channel input vector: trigger = vector, not single source
@@ -1509,7 +1509,7 @@ WHAT THIS FILE DOES NOT DO:
 >      7 properties, 4 immediacy). Bridges "dynamics fire" → "body cần gì."
 >   ✅ NEW §2.5: Complexity Spectrum (Simple→Social→Meta) + Tầng ③ collapse.
 >      3 dynamics explain ALL substrate levels → parsimony.
->   ✅ §1.3: Cross-cutting clarification (obs params + state modifiers ≠ sources).
+>   ✅ §1.3: Cross-cutting clarification (observation parameters + state modifiers ≠ sources).
 >   ✅ §3.3 restructured: sub-sections (core/novelty/transition/decomposition).
 >   ✅ §6: Merged v7.8 map + Body-Feedback-Precondition map into single section.
 >   ✅ §8-§9: Updated assessment + cross-refs for new content + Inter-Body ref.

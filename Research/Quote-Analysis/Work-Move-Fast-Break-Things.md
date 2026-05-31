@@ -23,7 +23,7 @@ dependencies:
     - PFC-Operations.md v1.0 — §2 Hold+Suppress, §5 Compiled Quality, §9 PFC Budget
     - Background-Pattern.md v2.0 — §6 Triple Bias, §2 Depth×Density
     - Cortisol-Baseline.md v2.1 — §3.3 Direction-At-Compile, §3.4 7 Modes, §7 Novelty vs Threat
-    - Drive.md v1.2 — §2 PFC 6 Modes (Mode 3 Spinning, Mode 4 Resolve)
+    - Drive.md v1.2 — §2 PFC 6 Modes (Drive-PFC-Spinning, Drive-PFC-Resolve)
   Dynamics:
     - Novelty.md v1.2 — §1 VTA+prediction-delta, §1.4 Combinatorial space
     - Gap-Direction.md v2.0 — §3 "Chưa biết = không có gap", §1.4 By-product match
@@ -174,25 +174,25 @@ QUOTE NÀY ĐẶC BIỆT SO VỚI 2 FILE TRƯỚC:
 ```
 ⭐ DRIVE §2 — PFC 6 MODES:
 
-  Mode 3 — SPINNING: PFC 30-50% active nhưng KHÔNG hiệu quả.
+  Drive-PFC-Spinning: PFC 30-50% active nhưng KHÔNG hiệu quả.
     = "Bận nhưng không biết đang làm gì."
     = Thiếu matching chunks → PFC scan nhưng không lock target.
     = FAST nhưng NOWHERE.
 
-  Mode 4 — RESOLVE: PFC 20-40% nhưng RẤT hiệu quả.
+  Drive-PFC-Resolve: PFC 20-40% nhưng RẤT hiệu quả.
     = Đủ chunks → gap direction RÕ → action MATCH → reward fire.
     = FAST VÀ PRODUCTIVE.
 
-  "Move fast and break things" CHỈ work ở Mode 4:
+  "Move fast and break things" CHỈ work ở Drive-PFC-Resolve:
     → Có hướng (gap direction rõ) → speed = tăng feedback → learn fast.
     → Không có hướng → speed = burn PFC budget → no learning.
 
   Facebook 2006: Zuckerberg CÓ hướng rõ ("connect people").
-    → Mode 4: fast + direction = productive.
-  Startup mới KHÔNG có hướng: "move fast" = Mode 3 spinning.
+    → Drive-PFC-Resolve: fast + direction = productive.
+  Startup mới KHÔNG có hướng: "move fast" = Drive-PFC-Spinning.
     → Fast nhưng nowhere = waste.
 
-  🟡 Mode 3/4 mapping: framework synthesis (Drive.md §2)
+  🟡 Drive-PFC-Spinning/Resolve mapping: framework synthesis (Drive.md §2)
 ```
 
 ---
@@ -490,13 +490,13 @@ QUOTE NÀY ĐẶC BIỆT SO VỚI 2 FILE TRƯỚC:
   → Protect mechanism fires → backlash → regulation.
 
 
-⭐ FAILURE 3 — FAST WITHOUT DIRECTION (Mode 3 Spinning):
+⭐ FAILURE 3 — FAST WITHOUT DIRECTION (Drive-PFC-Spinning):
 
-  Speed + no gap direction = Drive Mode 3 (Spinning).
+  Speed + no gap direction = Drive-PFC-Spinning.
   PFC 30-50% active nhưng KHÔNG hiệu quả.
   = "Chạy nhanh nhưng không biết đi đâu."
   → PFC budget burn → fatigue → capacity GIẢM.
-  → WORSE than slow-with-direction (Mode 4).
+  → WORSE than slow-with-direction (Drive-PFC-Resolve).
   → Ví dụ: startup pivot liên tục, ship features nobody wants.
 
 
@@ -587,7 +587,7 @@ QUOTE NÀY ĐẶC BIỆT SO VỚI 2 FILE TRƯỚC:
   ✅ TẠI SAO Zuckerberg TỰ thay đổi (lifecycle = framework prediction)
   ✅ TẠI SAO cùng break, khác direction tag → khác suốt đời
   ✅ TẠI SAO "break others' things" nguy hiểm (entity-access anti-match)
-  ✅ TẠI SAO "fast without direction" fail (Mode 3 Spinning)
+  ✅ TẠI SAO "fast without direction" fail (Drive-PFC-Spinning)
   ✅ CÁCH calibrate (6 principles)
 
   ⚠️ CAVEATS:
@@ -607,7 +607,7 @@ QUOTE NÀY ĐẶC BIỆT SO VỚI 2 FILE TRƯỚC:
      = Post-hoc explanation, not pre-hoc prediction.
      Still valuable: explain > describe.
 
-  🟡 "Mode 3 Spinning vs Mode 4 Resolve" = framework categories.
+  🟡 "Drive-PFC-Spinning vs Drive-PFC-Resolve" = framework categories.
      Consistent với expertise research (Ericsson 1993)
      nhưng discrete modes vs continuous spectrum = simplification.
 
@@ -667,7 +667,7 @@ MECHANISM:
   Cortisol-Baseline.md v2.1 — §3.3 Direction-At-Compile, §3.5 Novelty compile fast,
     §9 PFC damage timeline
   Drive.md v1.2 — §0 Domain=Arbiter, §1 Vô thức=Engine,
-    §2 PFC 6 Modes (Mode 3 Spinning, Mode 4 Resolve)
+    §2 PFC 6 Modes (Drive-PFC-Spinning, Drive-PFC-Resolve)
 
 DYNAMICS:
   Novelty.md v1.2 — §1 VTA+prediction-delta, §1.1 VTA mechanism,
@@ -676,7 +676,7 @@ DYNAMICS:
     §1.4 By-product match/anti-match, §3 "Chưa biết = không có gap"
   Body-Feedback-Mechanism.md v2.0 — §3.2 Chunk-Miss (negative delta),
     §3.3 Chunk-Gap
-  Boredom.md v2.0 — §0 Compilable Architecture cần input, Mode 3 Spinning territory
+  Boredom.md v2.0 — §0 Compilable Architecture cần input, Drive-PFC-Spinning territory
   Gap-Body-Need.md v1.0 — §9 ENGINE/ROAD/VEHICLE
 
 ENTITY:

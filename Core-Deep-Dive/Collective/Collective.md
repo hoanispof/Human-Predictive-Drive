@@ -458,12 +458,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ 6 MECHANISMS COMPOUND TẠO GẮN KẾT SÂU VỚI ABSTRACT ENTITIES:
 
   Mechanism (Collective-Body.md v2.1 §6):
-    → Per-agent coupling (mẹ, bạn) = L2 structural reward
-    → Abstract entities (quốc gia, tôn giáo) KHÔNG CÓ L2 — thiếu physical form,
+    → Per-agent coupling (mẹ, bạn) = Valence-Structural reward
+    → Abstract entities (quốc gia, tôn giáo) KHÔNG CÓ Valence-Structural — thiếu physical form,
       thiếu bidirectional respond, members replaceable
     → VẬY TẠI SAO "yêu nước" cảm thấy rất sâu?
-    → Vì: System Compilation = 6 mechanisms COMPOUND, KHÁC L2 nhưng CÓ THỂ
-      MẠNH HƠN L2 vì compound additive
+    → Vì: System Compilation = 6 mechanisms COMPOUND, KHÁC Valence-Structural nhưng CÓ THỂ
+      MẠNH HƠN Valence-Structural vì compound additive
 
 
   6 MECHANISMS:
@@ -478,7 +478,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CÁ NHÂN TRẢI NGHIỆM:
 
-    Binh lính chết cho đất nước = compound 6 mechanisms (NOT per-agent L2).
+    Binh lính chết cho đất nước = compound 6 mechanisms (NOT per-agent Valence-Structural).
     Mất đức tin = compound grief — TẤT CẢ 6 mechanisms mất ĐỒNG THỜI.
     "Công ty cũ" = mini version "quốc gia" → cùng model, khác scale.
     Lưu vong = pain compound (belonging + identity + routine + community + ...).
@@ -492,7 +492,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Body KHÔNG THỂ couple với abstract entity trực tiếp.
     Nhưng CÓ THỂ couple với REPRESENTATIVE → cầu nối:
-      → Leader as proxy (per-agent L2 THẬT → merge system compilation)
+      → Leader as proxy (per-agent Valence-Structural THẬT → merge system compilation)
       → Symbol as trigger proxy (cờ, thánh giá → fire valence chain)
       → Virtual agent as schema-agent (Chúa, Phật → body fire presence)
 
@@ -596,15 +596,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ① TECHNOLOGY × SCALE (Collective-Body.md §8.5, By-Product-Scale v1.0 §11):
 
     Technology KHÔNG thay thế by-product match — mà DỊCH CHUYỂN frontier.
-    L1 (Pair): video call maintains partial, touch IRREPLACEABLE.
-    L2 (Hub): algorithms replace coordination, judgment = new frontier.
-    L3 (Institution): internet distributes, trust foundation STILL requires compilation.
+    Scale-Pair: video call maintains partial, touch IRREPLACEABLE.
+    Scale-Hub: algorithms replace coordination, judgment = new frontier.
+    Scale-Institutional: internet distributes, trust foundation STILL requires compilation.
     → "AI makes easy things easier, but hard things stay hard."
 
 
   ② BY-PRODUCT MATCH AT COLLECTIVE SCALE (Collective-Body.md §3.1):
 
-    By-Product-Scale v1.0: 1 mechanism × 3 scales (L1 Pair / L2 Hub / L3 Institution).
+    By-Product-Scale v1.0: 1 mechanism × 3 scales (Scale-Pair / Scale-Hub / Scale-Institutional).
     Institution fill OWN gap → by-product serves individuals:
       Trường fill "truyền knowledge" → by-product: student compile skills
       Bệnh viện fill "heal patients" → by-product: individual health restored
@@ -614,15 +614,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ③ HARDWARE-SUBSIDY PER SCALE (Coordination-Node.md §9.4):
 
-    ┌──────────────┬──────────────────────┬──────────────────────┐
-    │ Scale        │ Hardware-Subsidy      │ Mechanism             │
-    ├──────────────┼──────────────────────┼──────────────────────┤
-    │ L1 (Pair)    │ Oxytocin, μ-opioid   │ Direct body reward    │
-    │ L2 (Hub)     │ Serotonin, status    │ Position reward       │
-    │ L3 (Instit.) │ Trust infrastructure │ Institutional trust   │
-    └──────────────┴──────────────────────┴──────────────────────┘
+    ┌─────────────────────┬──────────────────────┬──────────────────────┐
+    │ Scale               │ Hardware-Subsidy      │ Mechanism             │
+    ├─────────────────────┼──────────────────────┼──────────────────────┤
+    │ Scale-Pair          │ Oxytocin, μ-opioid   │ Direct body reward    │
+    │ Scale-Hub           │ Serotonin, status    │ Position reward       │
+    │ Scale-Institutional │ Trust infrastructure │ Institutional trust   │
+    └─────────────────────┴──────────────────────┴──────────────────────┘
 
-    → L1 → L3: hardware-subsidy GIẢM, abstract trust TĂNG.
+    → Scale-Pair → Scale-Institutional: hardware-subsidy GIẢM, abstract trust TĂNG.
     → Detail: By-Product-Scale v1.0, Gap-Body-Need v1.0
 
 
@@ -781,7 +781,7 @@ CORE MECHANISM FILES:
   → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, APPLICATION-1 on Simulation-Engine
 
 AGENT-MECHANISM SUB-FILES (liên quan):
-  → By-Product-Scale.md v1.0 — 1 mechanism × 3 scales (L1/L2/L3)
+  → By-Product-Scale.md v1.0 — 1 mechanism × 3 scales (Scale-Pair/Scale-Hub/Scale-Institutional)
   → By-Product-Gap-Resonance.md v1.4 — mutual match, resonance baseline
   → Entity-Compiled.md v1.0 — formation 40→200h, Dunbar, Grief
   → Bond-Architecture.md v2.0 — 1 mechanism × 4 bond types

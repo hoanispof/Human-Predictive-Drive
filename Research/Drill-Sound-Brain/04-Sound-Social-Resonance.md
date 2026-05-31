@@ -536,7 +536,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Thousands of people, same music, synchronous movement
     → Body detect: "NHIỀU người cùng sync" → amplified social signal
     → Simulation-Engine: (Other-PLURAL, Present, Observe)
-    → = By-Product-Scale Level 2 territory (Hub scale — Savage 2021)
+    → = By-Product-Scale Scale-Hub territory (Savage 2021)
     → Serotonin pathway (vs oxytocin for pair) → "belonging to TRIBE"
 
   🟡 Simulation-Engine × music social = framework application

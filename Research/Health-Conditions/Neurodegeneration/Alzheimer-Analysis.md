@@ -35,7 +35,7 @@ dependencies:
   - Self-Pattern-Modeling.md v3.0 — Compiled/Fresh, identity, context-dependent
   - Chunk.md v2.1 — chunk substrate, 4 compilation pathways, depth
   - Background-Pattern.md v1.0 — 2D model (Compile Depth × Link Density)
-  - Connection.md v4.0 — 3 generative primitives, L1/L2
+  - Connection.md v4.0 — 3 generative primitives, Valence-Momentary/Valence-Structural
   - Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap, 4 axes
   - Gap-Direction.md v1.0 — "chưa biết = không có gap"
   - Parkinson-Analysis.md v1.1 — comparison, Neurodegeneration Cluster
@@ -1623,15 +1623,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Self-Pattern-Modeling VẪN RUN full (Compiled+Fresh) → fire empathy cho patient
       → Chunks about patient = INTACT → still "biết người này"
       → Body-Coupling STILL ACTIVE → cortisol khi patient distressed
-      → L2 (entity-compiled) connection = NGUYÊN VẸN
+      → Valence-Structural (entity-compiled) connection = NGUYÊN VẸN
 
     Patient:
       → Self-Pattern-Modeling FAILING → Fresh offline → Compiled mờ
       → Chunks about caregiver = MẤT DẦN → "ai đây?"
       → Body-Coupling DECOUPLING → không reciprocate
-      → L2 reciprocation = MẤT
+      → Valence-Structural reciprocation = MẤT
 
-  Kết quả = L1 DRAIN without L2 RECIPROCATION:
+  Kết quả = Valence-Momentary DRAIN without Valence-Structural RECIPROCATION:
     → Caregiver FIRE empathy liên tục → KHÔNG nhận lại
     → Giống chăm con sơ sinh — nhưng sơ sinh TIẾN → Alzheimer THỤT LÙI
     → Sơ sinh: Self-Pattern-Modeling đang BUILD → có hy vọng → sustainable
@@ -1666,7 +1666,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Framework:
     → Caregiver Self-Pattern-Modeling vẫn RUN → but target KHÔNG RESPONSE
-    → Body-Coupling one-sided → L1 drain continuous
+    → Body-Coupling one-sided → Valence-Momentary drain continuous
     → Grief = Chunk-Miss (Connection.md: mất connection = miss)
       NHƯNG: source VẪN PRESENT → brain KHÔNG process grief fully
     → "Frozen grief" = Chunk-Miss ONGOING mà KHÔNG resolve
@@ -1689,10 +1689,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Caregiving-related STRESS = independent risk factor for DEATH
 
   Framework:
-    → L1 drain without L2 → cortisol CHRONIC (Cortisol-Baseline.md)
+    → Valence-Momentary drain without Valence-Structural → cortisol CHRONIC (Cortisol-Baseline.md)
     → Cortisol chronic → immune suppression → health decline
     → Social isolation → hardware social drive UNMET → further decline
-    → COMPOUND: L1 drain + cortisol + isolation + no closure
+    → COMPOUND: Valence-Momentary drain + cortisol + isolation + no closure
     → = MULTI-AXIS body-feedback attack trên caregiver
 
   ⭐ CRITICAL INSIGHT:
@@ -1736,14 +1736,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 FRAMEWORK SYNTHESIS:
 
-  ┌──────────────────┬──────────────────────────────────────┐
-  │ ACh Function      │ Framework Equivalent                 │
-  ├──────────────────┼──────────────────────────────────────┤
-  │ Attention gate   │ PFC-Configuration → mode selection    │
-  │ LTP enabler      │ Chunk compilation strength            │
-  │ Synaptic plast.  │ Chunk network flexibility             │
-  │ Cortical arousal │ Processing capacity for new input     │
-  └──────────────────┴──────────────────────────────────────┘
+  ┌────────────────────┬──────────────────────────────────────┐
+  │ ACh Function        │ Framework Equivalent                 │
+  ├────────────────────┼──────────────────────────────────────┤
+  │ Attention gate     │ PFC-Configuration → mode selection    │
+  │ LTP enabler        │ Chunk compilation strength            │
+  │ Synaptic plasticity│ Chunk network flexibility             │
+  │ Cortical arousal   │ Processing capacity for new input     │
+  └────────────────────┴──────────────────────────────────────┘
 
   ⭐ ACh = FACILITATOR cho chunk compile:
     → Không trực tiếp TẠO chunks (giống dopamine không tạo reward)
@@ -2940,7 +2940,7 @@ TOTAL: ~75 academic citations (v1.0 had ~20)
      §5 uses: synapse loss → chunk degradation mechanism
   → Self-Pattern-Modeling.md v3.0 — Self-Pattern-Modeling, Compiled/Fresh, identity mechanism
      §7 uses: Self-Pattern-Modeling dissolution, identity fragmentation timeline
-  → Connection.md v4.0 — 3 generative primitives, L1/L2
+  → Connection.md v4.0 — 3 generative primitives, Valence-Momentary/Valence-Structural
      §9 uses: caregiver Body-Coupling, ambiguous loss framework
   → Body-Feedback-Mechanism.md v2.0 — Chunk-Shift/Miss/Gap, 4 axes
      §8 uses: body signals unprocessed, BPSD as overflow

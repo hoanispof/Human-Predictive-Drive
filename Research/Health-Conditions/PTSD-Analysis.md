@@ -1781,12 +1781,13 @@ FRAMEWORK KHÔNG THỂ:
   │                │ points (beliefs)     │ tive coherence → "why" frame │
   ├────────────────┼──────────────────────┼──────────────────────────────┤
   │ SSRI           │ Serotonin → lower    │ Lower noise → PFC can engage │
-  │                │ body-feedback amp.   │ → space for hippocampal func │
+  │                │ body-feedback        │ → space for hippocampal func │
+  │                │ amplification        │                              │
   ├────────────────┼──────────────────────┼──────────────────────────────┤
   │ Somatic        │ Body-level work →    │ L0-L1 access → restore body  │
   │                │ ventral vagal access │ safety signals → foundation  │
   ├────────────────┼──────────────────────┼──────────────────────────────┤
-  │ Reconsol.      │ Recall + β-blocker   │ Labile window → chunk recon- │
+  │ Reconsolidation│ Recall + β-blocker   │ Labile window → chunk recon- │
   │ (developing)   │ during window        │ solidates with ↓ charge      │
   └────────────────┴──────────────────────┴──────────────────────────────┘
 
@@ -2211,9 +2212,10 @@ FRAMEWORK KHÔNG THỂ:
     │                   │ (dopamine)     │ reactive        │
     │ Hyperactivity/    │ Novelty-seek   │ Startle +      │
     │ restlessness      │ (threshold)    │ hyperarousal    │
-    │ Sleep disruption  │ DMN interfer.  │ NE excess REM  │
-    │ Emotional react.  │ RSD (predict-  │ Amygdala react. │
-    │                   │ delta amplify) │ (context-free)  │
+    │ Sleep disruption  │ DMN interference│ NE excess REM  │
+    │ Emotional         │ RSD (predict-  │ Amygdala        │
+    │ reactivity        │ delta amplify) │ reactivity      │
+    │                   │                │ (context-free)  │
     └────────────────────────────────────────────────────┘
 
   KHÁC MECHANISM HOÀN TOÀN:

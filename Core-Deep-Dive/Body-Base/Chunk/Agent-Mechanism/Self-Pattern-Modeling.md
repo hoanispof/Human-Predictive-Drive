@@ -438,13 +438,13 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
        → Tích lũy nhiều episode = empathy fatigue
 
   ⭐ Compiled = "LUỒNG 1" TRONG CONNECTION CONTEXT (Connection.md §3.3):
-    Compiled body-feedback = Luồng 1 (momentary, per-episode)
-    Luồng 1 INDEPENDENT với Luồng 2 (Entity-Compiled structural)
-    → CÓ THỂ CONFLICT: mẹ chăm con ốm (L1 negative + L2 positive)
+    Compiled body-feedback = Luồng 1 (Valence-Momentary, per-episode)
+    Luồng 1 INDEPENDENT với Luồng 2 (Valence-Structural, Entity-Compiled)
+    → CÓ THỂ CONFLICT: mẹ chăm con ốm (Valence-Momentary negative + Valence-Structural positive)
 
   ⭐ SELF-TEMPLATE ≠ EMPATHY:
     Compiled fire dùng SELF-TEMPLATE (compiled chunks CỦA MÌNH)
-    "Tức hơn chính nó" = COMPOUND: empathy × L2 + self-template
+    "Tức hơn chính nó" = COMPOUND: empathy × Valence-Structural + self-template
     → Compiled output CÓ THỂ > target's actual experience
 
   🟢 Singer 2004: shared activation areas
@@ -542,7 +542,7 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
     🟢 Fear conditioning: one-trial learning (LeDoux 1996)
 
   MIXED VALENCE (Body-Coupling.md §2.4):
-    Mẹ: L1++ nhưng autonomy-- → Compiled mixed, Fresh multiple plans
+    Mẹ: Valence-Momentary++ nhưng autonomy-- → Compiled mixed, Fresh multiple plans
     Sếp: status++ nhưng threat++ → highest cost (3-cost ALL apply)
 
   2 VAI TRÒ VALENCE:
@@ -584,7 +584,7 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
 ⭐ PFC = LAWYER NOT JUDGE (Inter-Body-Mechanism §7):
   PFC build narrative AFTER body-need đã fire.
   Self-Pattern-Modeling output qua PFC → PFC có thể:
-    RATIONALIZE: "tôi giúp vì tốt bụng" (thật: L2 structural drive)
+    RATIONALIZE: "tôi giúp vì tốt bụng" (thật: Valence-Structural drive)
     CONFABULATE: "tôi ghét vì lý do X" (thật: compiled valence negative)
   → Stated reason cho Self-Pattern-Modeling output ≠ actual body-need
   🟢 Gazzaniga (split-brain): PFC confabulate
@@ -761,7 +761,7 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
     → Khi partner MẤT → gap riêng QUAY LẠI = proof gap chỉ bị suppress
 
   Self-Pattern-Modeling COST = CHỈ 2:
-    ① Fresh processing mỗi lần tích lũy mới (metabolic, giảm khi compile)
+    ① Fresh processing mỗi lần tích lũy mới (processing load, giảm khi compile)
     ② Compiled space per agent (Dunbar ceiling)
     → "Over-Self-Pattern-Modeling thì mệt cái đầu thôi" — Self-Pattern-Modeling càng sâu càng TỐT
 
@@ -1137,7 +1137,7 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
   Entity-Access Mức 5 (body-base extension):
     → Self-Pattern-Modeling on deep Entity: Compiled SÂU, cost ≈ 0
     → "Hiểu không cần nói" = composite compiled
-    → Luồng 2 structural reward SUSTAINED
+    → Valence-Structural reward SUSTAINED
 
   Entity-Access Mức 1 (schema-only):
     → Self-Pattern-Modeling on stranger: Fresh dominant, cost > 0
@@ -1245,8 +1245,8 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
   → Total cost CỰC CAO. Duration chronic → UNSUSTAINABLE.
 
   2-LUỒNG GIẢI THÍCH KHÁC OUTCOME:
-    Bác sĩ + bệnh nhân lạ: L1 negative + L2 ≈ 0 → burnout
-    Mẹ chăm con ốm (CÙNG Compiled): L1 negative + L2 STRONG → KHÔNG burnout
+    Bác sĩ + bệnh nhân lạ: Valence-Momentary negative + Valence-Structural ≈ 0 → burnout
+    Mẹ chăm con ốm (CÙNG Compiled): Valence-Momentary negative + Valence-Structural STRONG → KHÔNG burnout
     → Biến số = Luồng 2 bù Luồng 1 hay không
 
   KHÁC PTSD: PTSD = threat TO self. Moral injury = threat FROM self.
@@ -1339,7 +1339,7 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
   Milgram 1963: obedience + distress
   Litz 2009: moral injury distinct from PTSD
   Figley 2002: compassion fatigue
-  Gailliot & Baumeister 2007: cognitive effort = metabolic cost
+  Kurzban 2013: cognitive effort = opportunity cost (processing load)
   Bouchard 1990: twin studies
   Jack 1991: self-silencing → depression
   Righetti 2017: avoidance sacrifice → negative both partners
@@ -1423,7 +1423,7 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
     → Autonomy-Hardware.md v1.1 — vmPFC/DRN, efference copy
 
   OBSERVATION FILES:
-    → Connection.md v4.0 — 3 generative primitives, 2-luồng reward (L1/L2)
+    → Connection.md v4.0 — 3 generative primitives, 2-luồng reward (Valence-Momentary/Valence-Structural)
     → Empathy.md v3.0 — Self-Pattern-Modeling function applied to other agents
     → Status.md v2.0 — Resource Access Map, status scan
     → Protect.md v1.0 — ownership, loss aversion
@@ -1478,7 +1478,7 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
   R20. Feldman 2012: biobehavioral synchrony (converge level)
   R21. Figley 2002: compassion fatigue in helping professionals
   R22. Fukushima, Terasawa et al. 2011: interoceptive → empathic accuracy
-  R23. Gailliot & Baumeister 2007: cognitive effort = metabolic cost
+  R23. Kurzban, Duckworth & Kable 2013: cognitive effort = opportunity cost (processing load)
   R24. Gallese 2003, 2005: embodied simulation
   R25. Gazzaniga: split-brain interpreter module
   R26. Gendlin 1978: Focusing, felt sense access

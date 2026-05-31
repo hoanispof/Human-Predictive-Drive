@@ -801,7 +801,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├─────────────────┼──────────────────────┼──────────────────────┤
   │ Processing      │ Automatic            │ PFC must draft       │
   │ Speed           │ Tức thời             │ Cần thời gian        │
-  │ Cost            │ ≈ 0                  │ > 0 (glucose, effort)│
+  │ Cost            │ ≈ 0                  │ > 0 (processing load)│
   │ Body-feedback   │ Direct, clear        │ Delayed, unclear     │
   │ Experience      │ "Cảm thấy biết"     │ "Phải suy nghĩ"     │
   │ Accuracy        │ Domain-verified      │ Chưa verify          │

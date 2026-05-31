@@ -305,7 +305,7 @@ QUOTE 2 — "The mind is everything. What you think, you become."
     = "Fake it till you BREAK" — PFC bỏ cuộc.
     → Quote HOÀN TOÀN KHÔNG nhắc tới case này.
 
-    🟢 Gailliot & Baumeister 2007: glucose depletion → self-control fails.
+    🟢 Kurzban 2013: PFC processing load → reallocation away from current task.
     🟢 Wegner 1987: suppress → ironic rebound.
 
 
@@ -911,7 +911,7 @@ QUOTE 2 — "The mind is everything. What you think, you become."
   PFC top-down amplification:           Miller & Cohen 2001
   PFC inhibitory control:               Aron 2007
   Ironic process of mental control:     Wegner 1987
-  Glucose depletion → self-control:     Gailliot & Baumeister 2007
+  Cognitive effort = processing load:   Kurzban 2013, Musslick & Cohen 2021
   Learned helplessness/controllability: Maier & Seligman 2016
   Working memory ~4±1:                  Cowan 2001
   Somatic markers precede decisions:    Damasio 1994
@@ -981,7 +981,7 @@ QUOTE 2 — "The mind is everything. What you think, you become."
 | R3 | Miller & Cohen 2001 — PFC Function | §2.5, §3.1 | 🟢 |
 | R4 | Aron 2007 — Inhibitory Control | §2.2 | 🟢 |
 | R5 | Wegner 1987 — Ironic Process | §2.2 | 🟢 |
-| R6 | Gailliot & Baumeister 2007 — Glucose Depletion | §2.2 | 🟢 |
+| R6 | Kurzban 2013 — Opportunity Cost Model of Effort | §2.2 | 🟢 |
 | R7 | Maier & Seligman 2016 — Controllability | §4 | 🟢 |
 | R8 | Cowan 2001 — Working Memory ~4±1 | §3.1 | 🟢 |
 | R9 | Damasio 1994 — Somatic Marker Hypothesis | §3.1 | 🟢 |

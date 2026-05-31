@@ -148,7 +148,7 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 - "Getting Started" section needs to work for English GitHub audience
 - Example questions: already in English, verify natural phrasing
 - Starter prompt (step 4): needs ENGLISH version of the prompt
-  - Currently says "đọc 5 file này" — change to "Read these 5 files carefully"
+  - Currently says "đọc 8 file này" — change to "Read these 8 files carefully"
 - Note about "📖 Read:" — keep, it's a protocol marker
 - Folder structure ASCII: translate Vietnamese comments
 - **Restructure opportunity**: English README could have slightly different flow

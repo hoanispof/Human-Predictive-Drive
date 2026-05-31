@@ -464,7 +464,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → Override NATURAL connection → Self-Pattern-Modeling Compiled constrained
      → Connection.md: genuine connection = Self-Pattern-Modeling fire + positive ❸
      → Constrained Self-Pattern-Modeling = connection RITUAL, not genuine → hollow
-     → Empathy v2.0: L1 high (obligation-driven) + L2 low (no genuine) → burnout
+     → Empathy v2.0: Valence-Momentary high (obligation-driven) + Valence-Structural low (no genuine) → burnout
 
   ⑥ BIRTH RATE IMPACT (Birth-Rate-Decline):
      → Compound cost → body signals "chưa đủ điều kiện cho thế hệ sau"

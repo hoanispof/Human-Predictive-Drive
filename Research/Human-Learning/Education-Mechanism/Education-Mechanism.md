@@ -666,7 +666,7 @@ EDUCATION ≠ SCHOOL:
     → No challenge = VTA không fire → no dopamine → no motivation
     → Goldilocks: đủ challenge để VTA fire, đủ support để không overwhelm
     → 🟢 Yerkes-Dodson 1908, Flow: Csikszentmihalyi 1990
-  🟢 PFC ego depletion: Gailliot & Baumeister 2007 (shared resource)
+  🟢 PFC processing load: Kurzban 2013, Musslick & Cohen 2021 (shared resource, serial bottleneck)
   🟢 Oxytocin → trust → lower cortisol: Kosfeld et al. 2005
   🟡 Hardware-Subsidy in education = Valence-Propagation v3.0 framework application
   🟡 PFC Budget in education = PFC-Operations v1.1 framework application

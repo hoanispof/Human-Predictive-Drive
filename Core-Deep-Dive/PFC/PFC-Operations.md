@@ -2,9 +2,9 @@
 title: PFC-Operations — Hold + Suppress trên Compiled/Fresh Spectrum
 version: 1.2
 created: 2026-05-22
-updated: 2026-05-30 (v1.2 — §9.3 2-Mode Engagement: Compiled/Fresh at meta-level, Drill-Sound-Brain propagation)
-previous_update: 2026-05-25 (v1.1 — §2.4 +Hold/Suppress × Dissonance Type effectiveness, +Dissonance-Signal-Architecture cross-ref)
-status: MECHANISM v1.2
+updated: 2026-05-31 (v1.3 — §8.3 PFC Cost Mechanism reframe: glucose FALSIFIED → processing load (serial bottleneck + catecholamine + allocation). +6 citations. Gailliot→❌. §2.1, §4.3, §9.1 aligned)
+previous_update: 2026-05-30 (v1.2 — §9.3 2-Mode Engagement: Compiled/Fresh at meta-level, Drill-Sound-Brain propagation)
+status: MECHANISM v1.3
 scope: |
   HOW PFC operates: 2 operations (Hold + Suppress), 4 combinations, 3 outcomes.
   Compiled Quality Dimension (genuine / schema / threat).
@@ -133,7 +133,7 @@ COMPILED → FRESH (Disruption):
     PFC → top-down signal → amplify activation CỦA target pattern.
     = "Tập trung vào cái này" / "Giữ trong đầu."
 
-  COST: ① PFC draft (metabolic — glucose consumption).
+  COST: ① PFC draft (processing load — serial bottleneck + catecholamine demand).
 
   ĐẶC TÍNH:
     → Active process — cần PFC LIÊN TỤC maintain.
@@ -186,18 +186,18 @@ COMPILED → FRESH (Disruption):
 ```
 ⭐ 2 OPERATIONS KHÁC CĂN BẢN:
 
-  ┌──────────────┬────────────────────┬────────────────────┐
-  │              │ HOLD               │ SUPPRESS            │
-  ├──────────────┼────────────────────┼────────────────────┤
-  │ Direction    │ BOOST new          │ BLOCK existing      │
-  │ Action       │ Amplify activation │ Inhibit output      │
-  │ Target       │ New/weak pattern   │ Strong/compiled     │
-  │ Cost source  │ ① PFC draft       │ ② Efference mismatch│
-  │ Body feels   │ "Effort" (neutral) │ "Not being me"      │
-  │ Compile?     │ CAN compile new    │ Cannot compile "not"│
-  │ Sustainable  │ Yes (→compile→free)│ No (cost persists)  │
-  │ Brain region │ dlPFC, FEF         │ rIFG, vlPFC         │
-  └──────────────┴────────────────────┴────────────────────┘
+  ┌──────────────┬────────────────────┬────────────────────────┐
+  │              │ HOLD               │ SUPPRESS                │
+  ├──────────────┼────────────────────┼────────────────────────┤
+  │ Direction    │ BOOST new          │ BLOCK existing          │
+  │ Action       │ Amplify activation │ Inhibit output          │
+  │ Target       │ New/weak pattern   │ Strong/compiled         │
+  │ Cost source  │ ① PFC draft       │ ② Efference mismatch    │
+  │ Body feels   │ "Effort" (neutral) │ "Not being me"          │
+  │ Compile?     │ CAN compile new    │ Cannot compile "not"    │
+  │ Sustainable  │ Yes (→compile→free)│ No (cost persists)      │
+  │ Brain region │ dlPFC, FEF         │ rIFG, vlPFC             │
+  └──────────────┴────────────────────┴────────────────────────┘
 
   HOLD → CAN lead to compilation (positive trajectory).
   SUPPRESS → CANNOT compile "absence" (only block, not build).
@@ -213,19 +213,19 @@ COMPILED → FRESH (Disruption):
 ```
 🟡 PFC OPERATIONS × 2 LOẠI DISSONANCE (Dissonance-Signal-Architecture.md v1.0 §7.2):
 
-  ┌─────────────────┬──────────────────────┬──────────────────────┐
+  ┌─────────────────┬──────────────────────────┬────────────────────────────┐
   │ PFC Operation   │ On Evaluative Dissonance │ On Direct-State Dissonance │
-  ├─────────────────┼──────────────────────┼──────────────────────┤
-  │ HOLD            │ ✅ EFFECTIVE          │ ⚠️ PARTIAL           │
-  │ (amplify)       │ "Focus on worry" →   │ "Focus on pain" →    │
-  │                 │ worry GROWS          │ awareness grows      │
-  │                 │ → rumination         │ (limited amplify)    │
-  ├─────────────────┼──────────────────────┼──────────────────────┤
-  │ SUPPRESS        │ ⚠️ TEMPORARY         │ ❌ VERY LIMITED      │
-  │ (block)         │ "Don't think about   │ "Ignore pain" →      │
-  │                 │ it" → works short-   │ pain persists, PFC   │
-  │                 │ term (🟢 Wegner 1994)│ budget exhausts      │
-  └─────────────────┴──────────────────────┴──────────────────────┘
+  ├─────────────────┼──────────────────────────┼────────────────────────────┤
+  │ HOLD            │ ✅ EFFECTIVE              │ ⚠️ PARTIAL                 │
+  │ (amplify)       │ "Focus on worry" →       │ "Focus on pain" →          │
+  │                 │ worry GROWS              │ awareness grows            │
+  │                 │ → rumination             │ (limited amplify)          │
+  ├─────────────────┼──────────────────────────┼────────────────────────────┤
+  │ SUPPRESS        │ ⚠️ TEMPORARY             │ ❌ VERY LIMITED             │
+  │ (block)         │ "Don't think about       │ "Ignore pain" →            │
+  │                 │ it" → works short-       │ pain persists, PFC         │
+  │                 │ term (🟢 Wegner 1994)    │ budget exhausts            │
+  └─────────────────┴──────────────────────────┴────────────────────────────┘
 
   → Evaluative Dissonance = compiled → PFC CAN operate (hold amplifies, suppress blocks temporarily)
   → Direct-State Dissonance = hardware → PFC CANNOT effectively suppress (not gated by PFC)
@@ -261,7 +261,8 @@ COMPILED → FRESH (Disruption):
 │ ② HOLD +      │ Override old, double cost.                     │
 │    SUPPRESS    │ Cost: ① + ②. Body CONFLICT.                  │
 │                │ VD: Bỏ thói quen + build mới.                │
-│                │ Bố mẹ suppress own Background-Pattern để hiểu con teenage.    │
+│                │ Bố mẹ suppress own Background-Pattern        │
+│                │ để hiểu con teenage.                          │
 │                │ OUTCOME: 3 possible → §4.                     │
 ├────────────────┼──────────────────────────────────────────────┤
 │ ③ SUPPRESS    │ Block only, no replacement.                    │
@@ -359,7 +360,8 @@ COMPILED → FRESH (Disruption):
   CƠ CHẾ:
     ① PFC HOLD + SUPPRESS → DOUBLE drain.
     ② Pattern cũ compiled CỰC MẠNH (deep + years).
-    ③ PFC metabolic budget = FINITE → glucose depletes.
+    ③ PFC processing capacity = FINITE → load exceeds capacity.
+       (Serial bottleneck saturated + catecholamine decline + allocation shift)
     ④ Pattern cũ BREAK THROUGH: emotional burst.
        → Efference mismatch GIẢI PHÓNG đột ngột.
        → = WHY suppressed emotions come out as BURSTS.
@@ -367,8 +369,8 @@ COMPILED → FRESH (Disruption):
        → "Học toán" gắn conflict → lần sau suppress CÒN KHÓ HƠN.
        → NEGATIVE SPIRAL: ép → burst → conflict → ép harder.
 
-  🟢 Gailliot & Baumeister 2007: glucose depletion → self-control fails.
-  🟢 Muraven & Baumeister 2000: ego depletion.
+  🟢 Kurzban 2013: subjective effort = opportunity cost signal → PFC reallocates.
+  🟢 Arnsten 2009: prolonged PFC use → catecholamine decline → sustained firing degrades.
 ```
 
 ### §4.4 — Phân biệt 3 trạng thái
@@ -400,7 +402,7 @@ COMPILED → FRESH (Disruption):
     → Milliseconds genuine response TRƯỚC suppress kicks in = diagnostic window.
 
   🟡 3-state distinction = framework synthesis.
-  🟢 Components: Maier 2016, Wegner 1987, Gailliot 2007.
+  🟢 Components: Maier 2016, Wegner 1987, Kurzban 2013.
 ```
 
 ---
@@ -414,20 +416,20 @@ COMPILED → FRESH (Disruption):
 ```
 ⭐ COMPILED QUALITY = COMPILE-TIME VARIABLE:
 
-  ┌──────────────────┬─────────────────┬─────────────────┬─────────────────┐
-  │                  │ GENUINE-COMPILED│ SCHEMA-COMPILED │ THREAT-COMPILED │
-  ├──────────────────┼─────────────────┼─────────────────┼─────────────────┤
-  │ Compile pathway  │ Body reward thật│ PFC/obligation  │ Punishment/fear │
-  │ Cortisol dir.    │ Novelty         │ Neutral         │ Threat          │
-  │ Compile-time tag │ APPROACH        │ FLAT            │ AVOIDANCE       │
-  │                  │ (opioid present)│ (relief/neutral)│ (threat lock)   │
-  │ Body on re-use   │ THÍCH dùng lại │ NEUTRAL         │ TRÁNH dùng      │
-  │ Self-Pattern-Modeling capacity     │ EXPANSIVE       │ LIMITED         │ BIASED negative │
-  │ Sustainable?     │ Self-reinforcing│ Needs bridge    │ Decays without  │
-  │                  │                 │ (schema/trust)  │ threat          │
-  │ Long-term        │ Compound growth │ Stable if bridge│ Burnout risk    │
-  │ Autonomy-Hardware path │ Path A (opioid) │ Mixed           │ Path B (relief) │
-  └──────────────────┴─────────────────┴─────────────────┴─────────────────┘
+  ┌────────────────────────────────┬──────────────────┬──────────────────┬──────────────────┐
+  │                                │ GENUINE-COMPILED │ SCHEMA-COMPILED  │ THREAT-COMPILED  │
+  ├────────────────────────────────┼──────────────────┼──────────────────┼──────────────────┤
+  │ Compile pathway                │ Body reward thật │ PFC/obligation   │ Punishment/fear  │
+  │ Cortisol direction             │ Novelty          │ Neutral          │ Threat           │
+  │ Compile-time tag               │ APPROACH         │ FLAT             │ AVOIDANCE        │
+  │                                │ (opioid present) │ (relief/neutral) │ (threat lock)    │
+  │ Body on re-use                 │ THÍCH dùng lại   │ NEUTRAL          │ TRÁNH dùng       │
+  │ Self-Pattern-Modeling capacity │ EXPANSIVE        │ LIMITED          │ BIASED negative  │
+  │ Sustainable?                   │ Self-reinforcing │ Needs bridge     │ Decays without   │
+  │                                │                  │ (schema/trust)   │ threat           │
+  │ Long-term                      │ Compound growth  │ Stable if bridge │ Burnout risk     │
+  │ Autonomy-Hardware path         │ Path A (opioid)  │ Mixed            │ Path B (relief)  │
+  └────────────────────────────────┴──────────────────┴──────────────────┴──────────────────┘
 
   🟢 Cortisol direction tag: Autonomy-Hardware §3, Cortisol-Baseline §7.
   🟢 Opioid vs relief pathways: Berridge 2003, Liking-Wanting.md §4.
@@ -572,8 +574,9 @@ COMPILED → FRESH (Disruption):
 ├──────────────────┼──────────────────────────────────────────────┤
 │ LOW Depth +      │ VERY HARD — YEARS                            │
 │ HIGH Density     │ PFC CANNOT target (too distributed).          │
-│ (Background      │ → A only qua build COMPETING Background-Pattern (years).      │
-│  Pattern)        │ → B common: compiled suppress toàn diện.      │
+│ (Background      │ → A only qua build COMPETING                 │
+│  Pattern)        │   Background-Pattern (years).                 │
+│                  │ → B common: compiled suppress toàn diện.      │
 │                  │ → VD: cultural "ngại gây phiền" → 5-10 năm.   │
 ├──────────────────┼──────────────────────────────────────────────┤
 │ HIGH Depth +     │ HARDEST — YEARS TO DECADES                   │
@@ -676,33 +679,68 @@ COMPILED → FRESH (Disruption):
   🟡 6-step sequence = framework synthesis.
 ```
 
-### §8.3 — Ego Depletion: Framework Position
+### §8.3 — PFC Cost Mechanism + Ego Depletion: Framework Position
 
 ```
-⭐ FRAMEWORK COMPATIBLE WITH BOTH SIDES OF DEBATE:
+⭐ GLUCOSE MODEL FALSIFIED — FRAMEWORK DÙNG PROCESSING LOAD:
 
-  🟢 Baumeister 1998: self-control = limited resource.
-  🟢 Hagger et al. 2016: multi-lab replication FAILED (d = 0.04).
-  🟢 BUT: metabolic cost of sustained PFC activity = established.
-  🟢 Inzlicht & Schmeichel 2012: motivational account (SHIFT, not depletion).
+  EGO DEPLETION DEBATE:
+    🟢 Baumeister 1998: self-control = limited resource.
+    ❌ Gailliot & Baumeister 2007: glucose depletion → self-control fails.
+       → FALSIFIED: Hagger et al. 2016 (23 labs, N=2,141, d=0.04).
+       → FALSIFIED: Dang et al. 2021 (N=3,531, near-zero effect).
+       → Physiologically implausible: brain = ~5.6mg glucose/min,
+         homeostasis maintains blood glucose, 10-min task CANNOT deplete.
+    🟢 Inzlicht, Schmeichel & Macrae 2014: motivational SHIFT, not depletion.
 
-  FRAMEWORK POSITION:
-    ① PFC metabolic activity = FINITE resource → 🟢 established.
-    ② Hold + Suppress cost metabolic energy → 🟢 established.
+  PFC COST = PROCESSING LOAD (3 cơ chế established, thay thế glucose):
+
+    CƠ CHẾ A — SERIAL BOTTLENECK (architectural):
+      PFC dùng shared representations (overlapping neural populations).
+      → Shared representations = CANNOT parallel process.
+      → 2 tasks sharing ANY representation → interference if simultaneous.
+      → PFC MUST process SERIAL — hardware constraint, PERMANENT.
+      → Compiled paths → basal ganglia, cerebellum → CAN parallel → cost ≈ 0.
+      → Fresh paths → PFC serial bottleneck → cost > 0.
+      🟢 Musslick & Cohen 2021 (Trends in Cognitive Sciences).
+      🟢 Petri, Musslick et al. 2021 (Nature Physics).
+
+    CƠ CHẾ B — CATECHOLAMINE DEMAND (neuromodulatory):
+      PFC sustained firing REQUIRES dopamine (D1) + norepinephrine (α2A).
+      → Inverted-U: too little OR too much → PFC impaired.
+      → Prolonged use → catecholamine levels DECLINE → performance degrades.
+      → Sleep RESTORES catecholamine levels → "budget recharges."
+      → Stress → excess NE → PFC goes OFFLINE (Arnsten 2009: đã trong framework).
+      🟢 Arnsten 2009 (Nature Reviews Neuroscience).
+      🟢 Westbrook & Braver 2016 (Neuron — "Dopamine Does Double Duty").
+
+    CƠ CHẾ C — ALLOCATION COMPETITION (computational):
+      PFC = shared hardware for ALL cognitive control tasks.
+      → Using PFC for task A = UNAVAILABLE for task B.
+      → Subjective "effort" = brain's signal: "current allocation may not be optimal."
+      → dACC computes: EVC = (payoff × probability) − cost of control.
+      → Sufficient incentive CAN restore "depleted" performance → not true exhaustion.
+      🟢 Kurzban, Duckworth & Kable 2013 (Behavioral and Brain Sciences).
+      🟢 Shenhav, Botvinick & Cohen 2017 (Annual Review of Neuroscience).
+
+  FRAMEWORK POSITION (strengthened by new models):
+    ① PFC processing capacity = FINITE → 🟢 established (A+B+C above).
+    ② Hold + Suppress cost processing load → 🟢 established.
     ③ PFC capacity varies per person (hardware) → 🟢 established.
     ④ Chronic cortisol → PFC structural damage → 🟢 established.
 
-    NEUTRAL on: whether EACH task depletes for NEXT task (debated).
-
     FRAMEWORK ADDS:
-    → Compiled suppress = ZERO ongoing PFC cost (compiled = automatic).
-    → Active suppress = DOES cost PFC.
-    → COMPILATION LEVEL determines depletion, not "willpower."
-    → Someone with compiled habits → LESS depletion.
-    → Someone with active suppress → MORE depletion.
+    → Compiled = ZERO ongoing PFC cost (bypasses serial bottleneck).
+    → Active suppress = DOES cost PFC (occupies bottleneck + catecholamine drain).
+    → COMPILATION LEVEL determines cost, not "willpower."
+    → Someone with compiled habits → LESS processing load.
+    → Someone with active suppress → MORE processing load.
     → = "Ego depletion debate misses: compilation level matters."
+    → Processing load model explains WHY motivation modulates "depletion":
+      incentive → dACC recalculates EVC → reallocate PFC → performance restored.
 
   🟡 Framework position on ego depletion = synthesis.
+  🟢 3 cơ chế (A+B+C) = individually established neuroscience.
 ```
 
 ### §8.4 — Biomarkers: Research Directions
@@ -741,27 +779,28 @@ CAN COMPILED SUPPRESS BE MEASURED?
 ```
 ⭐ PFC BUDGET = FINITE SHARED RESOURCE CHO MỌI HOẠT ĐỘNG:
 
-  ┌────────────┬─────────────────────────────┬────────────────────┐
-  │ HOẠT ĐỘNG  │ PFC DÙNG ĐỂ                │ COST               │
-  ├────────────┼─────────────────────────────┼────────────────────┤
-  │ HỌC MỚI   │ Hold new pattern            │ ① Giảm khi compile │
-  │ THAY ĐỔI   │ Hold new + Suppress old     │ ① + ② Double      │
-  │ Self-Pattern-Modeling (mới)  │ Draft model cho entity mới  │ ① High per entity  │
-  │ Self-Pattern-Modeling (update)│ Update model entity thay đổi│ ① Low-moderate    │
-  │ DECISION   │ Evaluate options, simulate  │ ① × số options     │
-  │ SUPPRESS   │ Block compiled pattern      │ ② Không giảm       │
-  │ SOCIAL     │ Impression management       │ ① + ② Mixed       │
-  │ SELF-MONITOR│ Observe own body-feedback  │ ① Moderate         │
-  │ IMAGINE-   │ Draft future, hold goal     │ ① Sustained        │
-  │ FINAL      │                             │                    │
-  └────────────┴─────────────────────────────┴────────────────────┘
+  ┌────────────────────────────────┬─────────────────────────────┬────────────────────┐
+  │ HOẠT ĐỘNG                      │ PFC DÙNG ĐỂ                │ COST               │
+  ├────────────────────────────────┼─────────────────────────────┼────────────────────┤
+  │ HỌC MỚI                        │ Hold new pattern            │ ① Giảm khi compile │
+  │ THAY ĐỔI                       │ Hold new + Suppress old     │ ① + ② Double      │
+  │ Self-Pattern-Modeling (mới)     │ Draft model cho entity mới  │ ① High per entity  │
+  │ Self-Pattern-Modeling (update)  │ Update model entity thay đổi│ ① Low-moderate    │
+  │ DECISION                        │ Evaluate options, simulate  │ ① × số options     │
+  │ SUPPRESS                        │ Block compiled pattern      │ ② Không giảm       │
+  │ SOCIAL                          │ Impression management       │ ① + ② Mixed       │
+  │ SELF-MONITOR                    │ Observe own body-feedback   │ ① Moderate         │
+  │ IMAGINE-FINAL                   │ Draft future, hold goal     │ ① Sustained        │
+  └────────────────────────────────┴─────────────────────────────┴────────────────────┘
 
-  Tất cả CHIA CÙNG BUDGET.
-  → "Mệt ở cơ quan" = PFC budget đã dùng cho work.
+  Tất cả CHIA CÙNG BUDGET (= same PFC serial bottleneck, §8.3 Cơ chế A).
+  → "Mệt ở cơ quan" = PFC processing load đã dùng cho work.
   → Về nhà: budget còn ÍT → Self-Pattern-Modeling cho con YẾU → "không muốn nói."
-  → = KHÔNG phải "không yêu con" — PFC budget ĐÃ HẾT.
+  → = KHÔNG phải "không yêu con" — PFC processing capacity ĐÃ HẾT.
+  → "Budget recharges via sleep" = catecholamine restoration (§8.3 Cơ chế B).
 
-  🟢 Gailliot & Baumeister 2007: glucose consumption during PFC tasks.
+  🟢 Kurzban 2013: PFC = shared hardware → allocation competition → budget finite.
+  🟢 Musslick & Cohen 2021: shared representations → serial bottleneck → cannot parallel.
   🟡 Shared budget across all activities = framework synthesis.
 ```
 
@@ -918,21 +957,21 @@ CAN COMPILED SUPPRESS BE MEASURED?
 ```
 ⭐ Inter-Body-Mechanism §4: 3 NGUỒN COST → HOLD/SUPPRESS MAPPING:
 
-  ┌─────────────────┬──────────────┬─────────────────────────┐
-  │ Inter-Body-Mechanism 3-COST      │ HOLD/SUPPRESS│ DETAIL                  │
-  ├─────────────────┼──────────────┼─────────────────────────┤
-  │ ① PFC draft     │ = HOLD cost  │ Amplify new pattern.    │
-  │                 │              │ dlPFC, FEF regions.      │
-  │                 │              │ Giảm dần khi compile.    │
-  ├─────────────────┼──────────────┼─────────────────────────┤
-  │ ② Suppress      │ = SUPPRESS   │ Block compiled pattern.  │
-  │                 │   cost       │ rIFG, vlPFC regions.     │
-  │                 │              │ KHÔNG giảm.              │
-  ├─────────────────┼──────────────┼─────────────────────────┤
-  │ ③ Uncertainty   │ = NEITHER    │ Options open, not decided│
-  │                 │   hold NOR   │ ACC conflict monitoring. │
-  │                 │   suppress   │ Giảm khi commit.         │
-  └─────────────────┴──────────────┴─────────────────────────┘
+  ┌─────────────────────────────┬──────────────┬─────────────────────────┐
+  │ Inter-Body-Mechanism 3-COST │ HOLD/SUPPRESS│ DETAIL                  │
+  ├─────────────────────────────┼──────────────┼─────────────────────────┤
+  │ ① PFC draft                 │ = HOLD cost  │ Amplify new pattern.    │
+  │                             │              │ dlPFC, FEF regions.      │
+  │                             │              │ Giảm dần khi compile.    │
+  ├─────────────────────────────┼──────────────┼─────────────────────────┤
+  │ ② Suppress                  │ = SUPPRESS   │ Block compiled pattern.  │
+  │                             │   cost       │ rIFG, vlPFC regions.     │
+  │                             │              │ KHÔNG giảm.              │
+  ├─────────────────────────────┼──────────────┼─────────────────────────┤
+  │ ③ Uncertainty               │ = NEITHER    │ Options open, not decided│
+  │                             │   hold NOR   │ ACC conflict monitoring. │
+  │                             │   suppress   │ Giảm khi commit.         │
+  └─────────────────────────────┴──────────────┴─────────────────────────┘
 
   → 3-cost MAPS PERFECTLY to Hold/Suppress framework.
   → Inter-Body-Mechanism §4 = GENERAL principle. Hold/Suppress = SPECIFIC operations.
@@ -1001,8 +1040,10 @@ CAN COMPILED SUPPRESS BE MEASURED?
   Learned helplessness/controllability: Maier & Seligman 1967/2016
   vmPFC cortisol damage:                McEwen 2007, Arnsten 2009
   Habit formation timeline:             Lally et al. 2010
-  Self-control metabolic cost:          Gailliot & Baumeister 2007
-  Ego depletion debate:                 Hagger et al. 2016
+  PFC serial bottleneck (shared repr.):  Musslick & Cohen 2021, Petri et al. 2021
+  PFC catecholamine modulation:         Arnsten 2009, Westbrook & Braver 2016
+  Cognitive effort = opportunity cost:  Kurzban 2013, Shenhav et al. 2017
+  Ego depletion glucose FALSIFIED:      Hagger et al. 2016 (d=0.04), Dang et al. 2021
   Social Baseline Theory:               Coan & Sbarra 2015
   REM emotional decoupling:             Walker 2017
   Reconsolidation:                      Nader 2000
@@ -1089,12 +1130,12 @@ CAN COMPILED SUPPRESS BE MEASURED?
 | R5 | Aron 2007 — rIFG Inhibitory Control | §2 | 🟢 |
 | R6 | Wegner 1987 — Ironic Process of Mental Control | §3 | 🟢 |
 | R7 | Maier & Seligman 1967, 2016 — Learned Helplessness/Controllability | §6, §8 | 🟢 |
-| R8 | Gailliot & Baumeister 2007 — Glucose Depletion | §4, §9 | 🟢 |
-| R9 | Muraven & Baumeister 2000 — Ego Depletion | §4 | 🟢 |
-| R10 | Hagger et al. 2016 — Ego Depletion Failed Replication | §8 | 🟢 |
+| R8 | Gailliot & Baumeister 2007 — Glucose Depletion | §8.3 (historical) | ❌ FALSIFIED |
+| R9 | Muraven & Baumeister 2000 — Ego Depletion | §8.3 (historical) | 🟡 debated |
+| R10 | Hagger et al. 2016 — Ego Depletion Failed Replication (d=0.04) | §8.3 | 🟢 |
 | R11 | Lally et al. 2010 — Habit Formation Timeline | §4 | 🟢 |
 | R12 | McEwen 2007 — Cortisol vmPFC Damage | §6, §8 | 🟢 |
-| R13 | Arnsten 2009 — PFC NE α1 Disconnect | §12 | 🟢 |
+| R13 | Arnsten 2009 — PFC Catecholamine Modulation (Nature Reviews Neuroscience) | §2, §4, §8.3, §9, §12 | 🟢 |
 | R14 | Coan & Sbarra 2015 — Social Baseline Theory | §6, §8 | 🟢 |
 | R15 | Walker 2017 — REM Emotional Decoupling | §6 | 🟢 |
 | R16 | Nader 2000 — Reconsolidation | §7, §8 | 🟢 |
@@ -1109,19 +1150,25 @@ CAN COMPILED SUPPRESS BE MEASURED?
 | R25 | Chase & Simon 1973 — Expertise Chunking | §1 | 🟢 |
 | R26 | Evans & Stanovich 2013 — Dual Process Theory | §1 | 🟢 |
 | R27 | Berridge 2003 — Opioid vs Relief Pathways | §5 | 🟢 |
-| R28 | Inzlicht & Schmeichel 2012 — Motivational Account | §8 | 🟢 |
+| R28 | Inzlicht, Schmeichel & Macrae 2014 — Motivational Shift Account | §8.3 | 🟢 |
 | R29 | Baumeister 1998 — Self-Control as Limited Resource | §8 | 🟢 |
 | R30 | Miller et al. 2007 — Flat Diurnal Cortisol | §8 | 🟢 |
 | R31 | Hou et al. 2024 — Analytical Knowledge Increases Liking (PsyCh Journal) | §9.3 | 🟢 |
 | R32 | Brattico et al. 2016 — Expert Enhanced Pleasure (Frontiers Neuroscience) | §9.3 | 🟢 |
 | R33 | Limb & Braun 2008 — Lateral PFC During Jazz Improvisation (PNAS) | §9.3 | 🟢 |
 | R34 | Dietrich 2004 — Transient Hypofrontality | §9.3 | 🟡 |
+| R35 | Kurzban, Duckworth & Kable 2013 — Opportunity Cost Model (Behavioral and Brain Sciences) | §4, §8.3, §9 | 🟢 |
+| R36 | Musslick & Cohen 2021 — Shared Representations → Serial Bottleneck (Trends in Cognitive Sciences) | §8.3, §9 | 🟢 |
+| R37 | Petri, Musslick et al. 2021 — Topological Limits to Parallel Processing (Nature Physics) | §8.3 | 🟢 |
+| R38 | Westbrook & Braver 2016 — Dopamine Does Double Duty (Neuron) | §8.3 | 🟢 |
+| R39 | Shenhav, Botvinick & Cohen 2017 — Expected Value of Control (Annual Review of Neuroscience) | §8.3 | 🟢 |
+| R40 | Dang et al. 2021 — Ego Depletion Second Replication (near-zero) | §8.3 | 🟢 |
 
 ---
 
-**END OF FILE — v1.2 (14 sections + §9.3, 34 citations)**
+**END OF FILE — v1.3 (14 sections + §9.3, 40 citations)**
 
-> *PFC-Operations v1.2 — HOW PFC operates trên Compiled/Fresh spectrum.*
+> *PFC-Operations v1.3 — HOW PFC operates trên Compiled/Fresh spectrum.*
 >
 > *§1 Spectrum brief. §2 Hold (amplify) + Suppress (block) = 2 operations.*
 > *§3 4 combinations. §4 3 outcomes (Genuine Shift / Compiled Suppress / Failure).*

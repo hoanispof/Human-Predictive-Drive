@@ -26,7 +26,7 @@ scope: |
   v1.2 KEY CHANGES (By-Product-Scale v1.0 integration):
     ⑪ Prestige = genuine resonance (opioid). Dominance = forced resonance (relief tag)
     ⑫ Node = Mẹ cho collective (first coordination node, 5 capabilities, scale progression)
-    ⑬ Hardware-Subsidy Per Scale: oxytocin (L1) → serotonin (L2) → trust infrastructure (L3)
+    ⑬ Hardware-Subsidy Per Scale: oxytocin (Scale-Pair) → serotonin (Scale-Hub) → trust infrastructure (Scale-Institutional)
     ⑭ Self-Pattern-Modeling rename: Self-Pattern-Match → Self-Pattern-Modeling (abbreviation giữ nguyên)
 purpose: |
   Status.md: Status = Resource Access Map (WHAT status is).
@@ -199,30 +199,30 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   MAPPING CỤ THỂ:
 
-  ┌───────────────┬─────────────┬───────────────────┬──────────────────────┐
-  │ Nhân vật      │ STATUS      │ TALENT            │ CONTRIBUTION         │
-  │               │ (Access)    │ (Gap Depth)        │ (By-product)         │
-  ├───────────────┼─────────────┼───────────────────┼──────────────────────┤
-  │ Vua           │ CỰC CAO    │ Social-coord.      │ Stability,           │
-  │               │             │ thường NÔNG        │ coordination,        │
-  │               │             │ abstract           │ direction            │
-  ├───────────────┼─────────────┼───────────────────┼──────────────────────┤
-  │ Einstein      │ THẤP       │ Abstract-dominant,  │ Knowledge frontier,  │
-  │               │ (giáo sư)  │ CỰC SÂU, CỰC HẸP  │ domain expansion     │
-  │               │             │ (vật lý)           │ toàn nhân loại       │
-  ├───────────────┼─────────────┼───────────────────┼──────────────────────┤
-  │ Gia Cát Lượng │ TRUNG BÌNH │ Abstract-dominant,  │ Strategy quality,    │
-  │               │ (qua vua)  │ CỰC SÂU            │ decision             │
-  │               │             │ (chiến lược)       │ optimization         │
-  ├───────────────┼─────────────┼───────────────────┼──────────────────────┤
-  │ Binh lính     │ THẤP       │ Body-domain         │ Infrastructure,      │
-  │               │ (comply)   │ dominant,           │ defense, GDP,        │
-  │               │             │ task excursion      │ physical output      │
-  ├───────────────┼─────────────┼───────────────────┼──────────────────────┤
-  │ CEO startup   │ CAO trong  │ Coordination +      │ Organization,        │
-  │               │ company    │ some domain,        │ product, jobs,       │
-  │               │             │ RỘNG + vừa sâu     │ economic growth      │
-  └───────────────┴─────────────┴───────────────────┴──────────────────────┘
+  ┌───────────────┬─────────────┬─────────────────────┬──────────────────────┐
+  │ Nhân vật      │ STATUS      │ TALENT              │ CONTRIBUTION         │
+  │               │ (Access)    │ (Gap Depth)          │ (By-product)         │
+  ├───────────────┼─────────────┼─────────────────────┼──────────────────────┤
+  │ Vua           │ CỰC CAO    │ Social-coordination  │ Stability,           │
+  │               │             │ thường NÔNG          │ coordination,        │
+  │               │             │ abstract             │ direction            │
+  ├───────────────┼─────────────┼─────────────────────┼──────────────────────┤
+  │ Einstein      │ THẤP       │ Abstract-dominant,    │ Knowledge frontier,  │
+  │               │ (giáo sư)  │ CỰC SÂU, CỰC HẸP    │ domain expansion     │
+  │               │             │ (vật lý)             │ toàn nhân loại       │
+  ├───────────────┼─────────────┼─────────────────────┼──────────────────────┤
+  │ Gia Cát Lượng │ TRUNG BÌNH │ Abstract-dominant,    │ Strategy quality,    │
+  │               │ (qua vua)  │ CỰC SÂU              │ decision             │
+  │               │             │ (chiến lược)         │ optimization         │
+  ├───────────────┼─────────────┼─────────────────────┼──────────────────────┤
+  │ Binh lính     │ THẤP       │ Body-domain           │ Infrastructure,      │
+  │               │ (comply)   │ dominant,             │ defense, GDP,        │
+  │               │             │ task excursion        │ physical output      │
+  ├───────────────┼─────────────┼─────────────────────┼──────────────────────┤
+  │ CEO startup   │ CAO trong  │ Coordination +        │ Organization,        │
+  │               │ company    │ some domain,          │ product, jobs,       │
+  │               │             │ RỘNG + vừa sâu       │ economic growth      │
+  └───────────────┴─────────────┴─────────────────────┴──────────────────────┘
 
   3 CHIỀU KHÔNG TƯƠNG QUAN TUYẾN TÍNH:
     → Status CAO NHẤT (vua) ≠ gap SÂU NHẤT (Einstein)
@@ -426,25 +426,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   By-Product-Scale v1.0 phát hiện: Prestige/Dominance KHÔNG CHỈ LÀ
   2 routes khác nhau — mà là 2 LOẠI RESONANCE KHÁC NHAU:
 
-  ┌──────────────────┬────────────────────────┬────────────────────────────┐
-  │                  │ DOMINANCE              │ PRESTIGE                   │
-  │                  │ (Forced Resonance)     │ (Genuine Resonance)        │
-  ├──────────────────┼────────────────────────┼────────────────────────────┤
-  │ L1 equivalent    │ Schema resonance       │ Genuine resonance          │
-  │                  │ (compiled suppress)    │ (by-product match)         │
-  ├──────────────────┼────────────────────────┼────────────────────────────┤
-  │ Reward tag       │ RELIEF (cortisol ↓)    │ OPIOID (genuine)           │
-  │                  │ "hết bị phạt"          │ "muốn theo"               │
-  ├──────────────────┼────────────────────────┼────────────────────────────┤
-  │ By-product       │ Compliance             │ Genuine value + growth     │
-  │ quality          │ (minimal growth)       │                            │
-  ├──────────────────┼────────────────────────┼────────────────────────────┤
-  │ Sustainability   │ FRAGILE                │ SELF-REINFORCING           │
-  │                  │ (force weakens →       │ (value → defer → more      │
-  │                  │  overthrow)            │  value → more defer)       │
-  ├──────────────────┼────────────────────────┼────────────────────────────┤
-  │ Feeling          │ "Phải chịu"            │ "Muốn theo"               │
-  └──────────────────┴────────────────────────┴────────────────────────────┘
+  ┌───────────────────────┬────────────────────────┬──────────────────────────���─┐
+  │                       │ DOMINANCE              │ PRESTIGE                   │
+  │                       │ (Forced Resonance)     │ (Genuine Resonance)        │
+  ├───────────────────────┼────────────────────────┼────────────────────────────┤
+  │ Scale-Pair equivalent │ Schema resonance       │ Genuine resonance          │
+  │                       │ (compiled suppress)    │ (by-product match)         │
+  ├───────────────────────┼────────────────────────┼────────────────────────────┤
+  │ Reward tag            │ RELIEF (cortisol ↓)    │ OPIOID (genuine)           │
+  │                       │ "hết bị phạt"          │ "muốn theo"               │
+  ├───────────────────────┼────────────────────────┼────────────────────────────┤
+  │ By-product            │ Compliance             │ Genuine value + growth     │
+  │ quality               │ (minimal growth)       │                            │
+  ├───────────────────────┼────────────────────────┼────────────────────────────┤
+  │ Sustainability        │ FRAGILE                │ SELF-REINFORCING           │
+  │                       │ (force weakens →       │ (value → defer → more      │
+  │                       │  overthrow)            │  value → more defer)       │
+  ├───────────────────────┼────────────────────────┼────────────────────────────┤
+  │ Feeling               │ "Phải chịu"            │ "Muốn theo"               │
+  └───────────────────────┴────────────────────────┴────────────────────────────┘
 
   ⭐ TẠI SAO MAPPING NÀY QUAN TRỌNG:
 
@@ -802,9 +802,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ SCALE PROGRESSION QUA ĐỜI TRẺ:
 
-    0-3:   Mẹ = ONLY coordination node (L1-L2 mix, MAX hardware-subsidy)
-    3-12:  Mẹ + giáo viên (L2 begins)
-    13-18: Peers + institutions (L2-L3 emerging)
+    0-3:   Mẹ = ONLY coordination node (Scale-Pair/Scale-Hub mix, MAX hardware-subsidy)
+    3-12:  Mẹ + giáo viên (Scale-Hub begins)
+    13-18: Peers + institutions (Scale-Hub/Scale-Institutional emerging)
     20+:   Multiple nodes simultaneously
 
     → = MỌI coordination node SAU NÀY đều FOLLOW cùng 5 capabilities
@@ -1947,36 +1947,36 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   By-Product-Scale v1.0 phát hiện: hardware-subsidy SHIFT từ body → collective
   across scales. Node evolution (§9.1) = cùng shift này:
 
-  ┌────────────────┬────────────────────┬──────────────────────────────────┐
-  │ Scale          │ Hardware-Subsidy   │ Node Function                    │
-  ├────────────────┼────────────────────┼──────────────────────────────────┤
-  │ L1 (Pair)      │ OXYTOCIN           │ Mẹ = first node (§2.5)           │
-  │ (5-20)         │ kin bond, social   │ Personal trust, direct verify    │
-  │                │ play, attachment   │ Face-to-face, MAX hardware       │
-  ├────────────────┼────────────────────┼──────────────────────────────────┤
-  │ L2 (Hub)       │ SEROTONIN          │ Alpha/CEO/Vua = hub node         │
-  │ (20-150+)      │ hierarchy, rank,   │ Trust bypass, role-based         │
-  │                │ status ratchet     │ Status §9.2: serotonin ratchet   │
-  ├────────────────┼────────────────────┼──────────────────────────────────┤
-  │ L3 (Instit.)   │ TRUST INFRA-       │ Government/Law = distributed     │
-  │ (millions+)    │ STRUCTURE          │ Institutional trust, symbolic    │
-  │                │ (culture, law,     │ No single node, abstract         │
-  │                │  history)          │                                  │
-  └────────────────┴────────────────────┴──────────────────────────────────┘
+  ┌─────────────────────┬────────────────────┬──────────────────────────────────┐
+  │ Scale               │ Hardware-Subsidy   │ Node Function                    │
+  ├─────────────────────┼────────────────────┼──────────────────────────────────┤
+  │ Scale-Pair          │ OXYTOCIN           │ Mẹ = first node (§2.5)           │
+  │ (5-20)              │ kin bond, social   │ Personal trust, direct verify    │
+  │                     │ play, attachment   │ Face-to-face, MAX hardware       │
+  ├─────────────────────┼────────────────────┼──────────────────────────────────┤
+  │ Scale-Hub           │ SEROTONIN          │ Alpha/CEO/Vua = hub node         │
+  │ (20-150+)           │ hierarchy, rank,   │ Trust bypass, role-based         │
+  │                     │ status ratchet     │ Status §9.2: serotonin ratchet   │
+  ├─────────────────────┼────────────────────┼──────────────────────────────────┤
+  │ Scale-Institutional │ TRUST INFRA-       │ Government/Law = distributed     │
+  │ (millions+)         │ STRUCTURE          │ Institutional trust, symbolic    │
+  │                     │ (culture, law,     │ No single node, abstract         │
+  │                     │  history)          │                                  │
+  └─────────────────────┴────────────────────┴──────────────────────────────────┘
 
   ⭐ MAPPING VỚI §9.1 EVOLUTION:
 
-    ① Bầy đàn (pre-human): L1-L2 mix
+    ① Bầy đàn (pre-human): Scale-Pair/Scale-Hub mix
        Hardware: oxytocin (kin) + serotonin (alpha rank)
        Node type: Alpha = physical strength
        → CÙNG body control by-product match
 
-    ②③ Bộ lạc → Vua: L2 dominant
+    ②③ Bộ lạc → Vua: Scale-Hub dominant
        Hardware: serotonin ratchet (Status §9.2)
        → Mất alpha → serotonin COLLAPSE → depression
        → = Hardware-subsidy MẤT → node CẦN institutional backup
 
-    ④⑤ Dân chủ → Distributed: L3 dominant
+    ④⑤ Dân chủ → Distributed: Scale-Institutional dominant
        Hardware: trust infrastructure (hiến pháp, luật, văn hóa)
        → KHÔNG phụ thuộc 1 body's serotonin
        → = Anti-fragile: 1 leader mất → system continues
@@ -1984,19 +1984,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ INSIGHT:
 
     Evolution of coordination = SHIFT from body-hormone to institutional-trust:
-    → L1 oxytocin: personal, warm, limited scale
-    → L2 serotonin: hierarchical, rank-dependent, fragile
-    → L3 trust infrastructure: abstract, scalable, resilient
+    → Scale-Pair oxytocin: personal, warm, limited scale
+    → Scale-Hub serotonin: hierarchical, rank-dependent, fragile
+    → Scale-Institutional trust infrastructure: abstract, scalable, resilient
 
     → Giải thích §9.2 trend (Dominance → Prestige):
-      Dominance = L1-L2 hardware (force + serotonin)
-      Prestige = L2-L3 transition (knowledge value + institutional trust)
-      → Knowledge economy = L3 infrastructure amplifies Prestige
+      Dominance = Scale-Pair/Scale-Hub hardware (force + serotonin)
+      Prestige = Scale-Hub/Scale-Institutional transition (knowledge value + institutional trust)
+      → Knowledge economy = Scale-Institutional infrastructure amplifies Prestige
 
     → Oxytocin và serotonin serve IDENTICAL FUNCTION at different scales:
       anti-habituation (By-Product-Scale v1.0 §5)
-      L1: oxytocin prevents pair bond decay
-      L2: serotonin prevents hierarchy decay
+      Scale-Pair: oxytocin prevents pair bond decay
+      Scale-Hub: serotonin prevents hierarchy decay
 
   🟡 Hardware-subsidy per scale = framework synthesis (By-Product-Scale v1.0 §5)
   🟢 Serotonin × hierarchy (Sapolsky, Status §9.2)
@@ -2200,7 +2200,7 @@ CHANGELOG:
     → §2.5 ★ NEW: Mẹ = first coordination node (5 capabilities mapping)
       Node dual nature (VEHICLE + ROAD), scale progression 0-3→20+
     → §9.4 ★ NEW: Hardware-Subsidy Per Scale
-      oxytocin (L1) → serotonin (L2) → trust infrastructure (L3)
+      oxytocin (Scale-Pair) → serotonin (Scale-Hub) → trust infrastructure (Scale-Institutional)
       Evolution mapping, anti-habituation function identical across scales
     → §10.1: +4 🟡 items (Prestige=genuine, Mẹ=first node, dual nature, hardware-subsidy)
     → §11: +Agent-Mechanism files category (Self-Pattern-Modeling v3.1, By-Product-Gap-Resonance v1.4, By-Product-Scale v1.0, Agent-Mechanism v2.1)

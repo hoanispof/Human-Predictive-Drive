@@ -48,9 +48,35 @@ Ngoại lệ DUY NHẤT: thuật ngữ học thuật mainstream (PFC, VTA, vmPFC
 
 **Tổng đợt 1: 26 instances, 9 viết tắt, 8 files**
 
-### Đợt 2+ (thêm khi phát hiện mới)
+### Đợt 2 (2026-05-31, Phase C re-scan)
 
-_(chưa có)_
+| # | Viết tắt | Tên đầy đủ | File | Dòng | Status |
+|---|----------|-----------|------|------|--------|
+| 27 | LFB | Logic-Feeling-Balance | Meaning.md | 317 | ✅ |
+| 28 | ESC | Expansion-Saturation-Crisis | Social-Calibration.md | 1964 | ✅ |
+| 29 | Self-Obs | Self-Observation | Simulation-Engine.md | 679 | ✅ |
+| 30 | Self-Obs | Self-Observation | PFC-Label.md | 638 | ✅ |
+| 31 | Self-Obs | Self-Observation | Imagine-Final.md | 513 | ✅ |
+| 32 | Self-Obs | Self-Observation | Imagine-Final.md | 553 | ✅ |
+| 33 | Self-Obs | Self-Observation | Imagine-Final.md | 1213 | ✅ |
+| 34 | Self-Obs | Self-Observation | Imagine-Final.md | 1214 | ✅ |
+| 35 | Self-Obs | Self-Observation | 01-File-Index.md (Core) | 139 | ✅ |
+| 36 | Self-Obs | Self-Observation | Agent-Mechanism.md | 551 | ✅ |
+| 37 | Self-Obs | Self-Observation | Agent-Mechanism.md | 558 | ✅ |
+| 38 | Self-Obs | Self-Observation | Background-Pattern.md | 2143 | ✅ |
+| 39 | obs params | observation parameters | Neural-Processing-Flow.md | 1254 | ✅ |
+| 40 | obs params | observation parameters | Imagine-Final.md | 186 | ✅ |
+| 41 | obs params | observation parameters | Imagine-Final-Evaluation.md | 846 | ✅ |
+| 42 | obs params | observation parameters | Body-Feedback-Mechanism.md | 1417 | ✅ |
+| 43 | obs params | observation parameters | Body-Feedback-Mechanism.md | 1512 | ✅ |
+| 44 | MTF (standalone) | Melody-Technology Function | Religion.md | 13,398,400,412,416 | ✅ |
+| 45 | MTF (standalone) | Melody-Technology Function | Melody-Technology-Overview.md | 30 | ✅ |
+
+**Tổng đợt 2: 19 instances, 4 viết tắt, 11 files**
+
+**Quyết định user (2026-05-31):**
+- ✅ MTF1-MTF7 (105 labels trong Religion.md) → **GIỮ NGUYÊN** — label system, không trùng lặp
+- ✅ Drill-PR-Definition (7 refs trong By-Product-Gap-Resonance.md) → **GIỮ NGUYÊN** — historical filename, insights đã absorb hết
 
 ---
 
@@ -72,10 +98,15 @@ _(chưa có)_
 - ✅ 1 false positive OK: BF = Basal Forebrain (neuroscience) trong Neural-Processing-Flow.md
 - ✅ Không có đợt 2 — không tìm thấy viết tắt mới
 
-### Phase C: Re-scan toàn bộ
-- ⬜ Scan lại toàn bộ framework với pattern rộng: `[A-Z]{2,5} §` + standalone abbreviations
-- ⬜ Cross-check danh sách 30+ viết tắt đã cleanup trước đây (SPM, BPGR, EVD, BFL, HAF, ASM, AM, EA, EC, VP, SE, IF, PR, EAE, EAC, CB, RS, BA, BS, BP, BB, BC, LW, IBM, SAL + 9 mới)
-- ⬜ Xác nhận 0 viết tắt framework trong production files
+### Phase C: Re-scan toàn bộ — ✅✅ DONE + Đợt 2 FIX DONE (2026-05-31)
+- ✅ Scan `[A-Z]{2,5} §` + standalone + `[A-Z]{2,3}` high-frequency
+- ✅ Cross-check 35+ viết tắt đã cleanup: ALL CLEAN
+- ✅ Phát hiện 5 issues mới (Đợt 2): LFB, ESC, Self-Obs×10, obs params×5, MTF standalone×6
+- ✅ Fix ALL 19 instances Đợt 2
+
+**✅✅ PLAN COMPLETE.**
+- MTF1-MTF7 labels → GIỮ NGUYÊN (user decision)
+- Drill-PR-Definition refs → GIỮ NGUYÊN (user decision)
 
 ---
 

@@ -244,7 +244,7 @@ The mechanism F1 formalizes (substrate chunk compile from body signals) operates
 **Key claims**:
 - 8-stage cycle: Draft → Fire + unconscious check → Concurrent signals (reward + fatigue + dissonance) → Rest/sleep → Multi-mechanism refinement → Output → Wake → Iterate
 - **6+1 sleep mechanisms** distinct (not single "consolidation"): Synaptic Homeostasis (Tononi SHY), Hippocampal Replay, Active Systems Consolidation, REM Creative Linking, Emotional Decoupling, Gist Extraction, + debated Dreaming-as-Simulation
-- 3 concurrent signals after chunk fires: **Reward** (pattern solves pending schema) + **Fatigue** (PFC metabolic cost) + **Dissonance** (pattern not yet smooth with neighbors)
+- 3 concurrent signals after chunk fires: **Reward** (pattern solves pending schema) + **Fatigue** (PFC processing load) + **Dissonance** (pattern not yet smooth with neighbors)
 - Resolution via sleep-mediated multi-mechanism → one night reduces signals → multiple nights → baseline shifts → chunk integrated
 - **Cost scales with**: novelty × integration distance × existing schema complexity
 

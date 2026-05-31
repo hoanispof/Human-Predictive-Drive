@@ -887,31 +887,31 @@ PATTERN 7: HARDWARE-FIRST HARM (extreme zone — file riêng)
 TỔNG HỢP — BẢNG CROSS-PHỔ
 ═══════════════════════════════════════════════════════
 
-  ┌──────────┬──────────┬──────────┬───────────┬───────────┬───────────┐
-  │          │ MICRO    │ SHORT    │ MEDIUM    │ LONG      │ SPECIAL   │
-  │          │ (M1-M5)  │ (S1-S5)  │ (D1-D5)  │ (L1-L5)  │ (X1-X5)  │
-  ├──────────┼──────────┼──────────┼───────────┼───────────┼───────────┤
-  │ Trust    │ Implicit │ Visible  │ Tested    │ Multi-    │ Đặc biệt │
-  │          │          │          │           │ layer     │ per case  │
-  ├──────────┼──────────┼──────────┼───────────┼───────────┼───────────┤
-  │ Strength │ Compiled │ Mờ→Build │ Build→    │ Build→    │ Compiled  │
-  │          │          │ →Compile │ Compile   │ Identity  │ deep      │
-  ├──────────┼──────────┼──────────┼───────────┼───────────┼───────────┤
-  │ Cost     │ ≈0       │ Thấp    │ Trung bình│ Cực cao  │ Varies    │
-  ├──────────┼──────────┼──────────┼───────────┼───────────┼───────────┤
-  │ Domain   │ Real ✓   │ Real ✓  │ Real→     │ Bán-real │ Unfalsif. │
-  │          │          │          │ Bán-real  │ → Edge   │ → Real    │
-  ├──────────┼──────────┼──────────┼───────────┼───────────┼───────────┤
-  │ Hardware │ Smooth   │ Smooth   │ Tested    │ Variable  │ Smooth ổn│
-  ├──────────┼──────────┼──────────┼───────────┼───────────┼───────────┤
-  │ PFC      │ ~0%      │ ~5-20%  │ ~15-40%  │ Variable │ Variable  │
-  ├──────────┼──────────┼──────────┼───────────┼───────────┼───────────┤
-  │ Self-    │ N/A      │ Cao     │ Cao       │ Trbình   │ Trbình    │
-  │ aware    │          │          │           │           │           │
-  ├──────────┼──────────┼──────────┼───────────┼───────────┼───────────┤
-  │ Break    │ Giật     │ Thất     │ Bỏ cuộc  │ Identity │ Collapse  │
-  │ impact   │ (micro)  │ vọng     │ (re-scan) │ crisis   │ hệ thống │
-  └──────────┴──────────┴──────────┴───────────┴───────────┴───────────┘
+  ┌──────────┬──────────┬──────────┬───────────┬───────────┬──────────────┐
+  │          │ MICRO    │ SHORT    │ MEDIUM    │ LONG      │ SPECIAL      │
+  │          │ (M1-M5)  │ (S1-S5)  │ (D1-D5)  │ (L1-L5)  │ (X1-X5)     │
+  ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
+  │ Trust    │ Implicit │ Visible  │ Tested    │ Multi-    │ Đặc biệt    │
+  │          │          │          │           │ layer     │ per case     │
+  ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
+  │ Strength │ Compiled │ Mờ→Build │ Build→    │ Build→    │ Compiled     │
+  │          │          │ →Compile │ Compile   │ Identity  │ deep         │
+  ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
+  │ Cost     │ ≈0       │ Thấp    │ Trung bình│ Cực cao  │ Varies       │
+  ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
+  │ Domain   │ Real ✓   │ Real ✓  │ Real→     │ Bán-real │ Unfalsifiable│
+  │          │          │          │ Bán-real  │ → Edge   │ → Real       │
+  ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
+  │ Hardware │ Smooth   │ Smooth   │ Tested    │ Variable  │ Smooth ổn   │
+  ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
+  │ PFC      │ ~0%      │ ~5-20%  │ ~15-40%  │ Variable │ Variable     │
+  ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
+  │ Self-    │ N/A      │ Cao     │ Cao       │ Trbình   │ Trbình       │
+  │ aware    │          │          │           │           │              │
+  ├──────────┼──────────┼──────────┼───────────┼───────────┼──────────────┤
+  │ Break    │ Giật     │ Thất     │ Bỏ cuộc  │ Identity │ Collapse     │
+  │ impact   │ (micro)  │ vọng     │ (re-scan) │ crisis   │ hệ thống    │
+  └──────────┴──────────┴──────────┴───────────┴───────────┴──────────────┘
 
   → File này = HEALTHY zone (5 columns trên)
   → Extreme zone (anchor over): Anchor-Schema-Extreme-Example.md

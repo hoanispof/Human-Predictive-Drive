@@ -218,7 +218,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Amplification: Capitalization + PPR + Secure Base + Self-expansion.
 
   3 SCALES (§13):
-    Pair (Level 1, oxytocin) → Hub (Level 2, serotonin) → Institutional (Level 3, trust infra).
+    Scale-Pair (oxytocin) → Scale-Hub (serotonin) → Scale-Institutional (trust infra).
     = Cùng mechanism, khác topology + hardware + compilation.
 
   FILE = OBSERVATION LENS:
@@ -529,7 +529,7 @@ v1.0 (2026-05-19): FULL REWRITE — replaces Pattern-Resonance v3.1.
   Resonance = cái EMERGE khi match THÀNH CÔNG.
 
   3-COST MODEL (Inter-Body-Mechanism §4):
-    ① PFC draft: metabolic cost of novel chains
+    ① PFC draft: processing load of novel chains
     ② Suppress: efference mismatch cost of overriding compiled response
     ③ Uncertainty: cortisol holding cost
     TOTAL = ① + ② + ③ (independent, cộng dồn)
@@ -1332,9 +1332,9 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
 
 ```
 ⭐ BY-PRODUCT MATCH = CƠ CHẾ DUY NHẤT Ở 3 SCALE:
-  Level 1 PAIR: A↔B. Direct verify. Oxytocin. ~150 (Dunbar).
-  Level 2 HUB: Node↔Collective. Trust bypass. Serotonin. Millions.
-  Level 3 INSTITUTIONAL: Distributed. Institutional trust. 8 billion.
+  Scale-Pair: A↔B. Direct verify. Oxytocin. ~150 (Dunbar).
+  Scale-Hub: Node↔Collective. Trust bypass. Serotonin. Millions.
+  Scale-Institutional: Distributed. Institutional trust. 8 billion.
   → DETAIL: By-Product-Scale.md v1.0 §2-§4, §5-§7.
 ```
 
@@ -1356,7 +1356,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
   BENEFIT: gặp N entities → P(≥1 match) = 1-(1-p)^N → tăng theo N.
 
   3 LOẠI COST:
-    ① Fresh EVALUATION COST: mỗi entity mới → PFC draft Fresh = metabolic cost × N.
+    ① Fresh EVALUATION COST: mỗi entity mới → PFC draft Fresh = processing load × N.
       Hardware-dependent: introvert cost/entity CAO hơn extrovert.
     ② NOISE/HIJACK COST: Hardware-Stream trigger MẠNH (xinh/charismatic) → PFC tưởng "hợp."
       = "Bị hijack bởi người không hợp nhưng PFC tưởng là hợp."
@@ -1502,7 +1502,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
     (c) Reduce obligation. (d) Meta-communication.
     (e) Modality bridge.
 
-🟢 Gailliot & Baumeister 2007, Deci & Ryan 2000.
+🟢 Kurzban 2013 (processing load), Deci & Ryan 2000.
 ```
 
 ---
@@ -1558,7 +1558,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
   7.  Compiled suppress: recovery trajectory?
   8.  Modality interaction weights?
   9.  Prestige-dominance ratio measurement in organizations?
-  10. 3-scale boundaries: where exactly does Level 1 → 2 transition?
+  10. 3-scale boundaries: where exactly does Scale-Pair → Scale-Hub transition?
 ```
 
 ---
@@ -1612,8 +1612,8 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
   → Obligation.md v1.1 — 5-factor, 6 types (derivative)
   → Background-Pattern.md v1.1 — compiled suppress
   → Body-Feedback-Label.md v2.0 — vocabulary reference
-  → Coordination-Node.md v1.1 — Level 2 hub analysis
-  → Collective-Body.md v2.0 — Level 3 institutional
+  → Coordination-Node.md v1.1 — Scale-Hub analysis
+  → Collective-Body.md v2.0 — Scale-Institutional
 ```
 
 ### §18.5 — Research citations
@@ -1648,7 +1648,7 @@ KEY MECHANISMS (DETAIL: By-Product-Scale.md v1.0):
   Festinger, L. (1950). Social pressures in informal groups.
   Fisher, H. (2004). Why We Love.
   Gable, S. L. et al. (2004, 2006). Capitalization. JPSP.
-  Gailliot, M. T., & Baumeister, R. F. (2007). Cognitive effort metabolic cost.
+  Kurzban, R., Duckworth, A. & Kable, J. (2013). Cognitive effort = opportunity cost.
   Gazzaniga, M. S. Split-brain confabulation studies.
   Goldstein, P. et al. (2017). Touch-induced analgesia. PNAS.
   Gonzaga, G. et al. (2010). No personality convergence in couples. JPSP.

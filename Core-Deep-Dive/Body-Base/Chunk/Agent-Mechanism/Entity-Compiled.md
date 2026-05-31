@@ -558,7 +558,7 @@ OTHER HARDWARE BOOSTERS:
   Regular interaction → keep chunks active
   Update knowledge (agent THAY ĐỔI → chunks phải update)
   Conflict resolution (3-cost khi mismatch occurs)
-  → Finite metabolic budget → finite agents
+  → Finite processing budget → finite agents
 
 ③ INTERFERENCE BETWEEN MODELS:
   Similar agents → shared chunks reusable → interference LOW
@@ -788,8 +788,8 @@ FRAMEWORK:
 
 TP1: Routine fire → target absent → STRANDED (repeat fire, no response)
 TP2: Chunk-Miss → compiled chunks trigger → no response → body-feedback = pain
-TP3: L1 stream stops → Self-Pattern-Modeling emotional feed CẮT → mất input source
-TP4: L2 collapses gradually → body vẫn treat agent AS extension → PHANTOM
+TP3: Valence-Momentary stream stops → Self-Pattern-Modeling emotional feed CẮT → mất input source
+TP4: Valence-Structural collapses gradually → body vẫn treat agent AS extension → PHANTOM
 TP5: Identity vacuum → self-schema gắn role ("vợ/mẹ/bạn") → mất → "tôi là ai?"
 TP6: Cognitive offload lost → Transactive memory disrupted → domain incompetence
 

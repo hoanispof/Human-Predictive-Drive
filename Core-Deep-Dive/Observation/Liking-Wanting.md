@@ -90,13 +90,13 @@ FILE NÀY TRONG FRAMEWORK:
   └──────────────────────────┬──────────────────────────────────┘
                              │
                              ▼
-  ┌─────────────────────────────────────────────────────────────┐
-  │ Framework files chi tiết                                     │
-  │   Imagine-Final.md v3.0 / 03-Reward.md / Valence-Prop. v3.0│
-  │   Reward-Signal-Architecture.md v2.0 (Evaluative/Direct-St.)│
-  │   Anchor-Schema.md / Drive.md / Novelty.md / Feeling.md v3.0│
-  │   = Cơ chế đầy đủ — reader đi sâu sau khi có bridge        │
-  └─────────────────────────────────────────────────────────────┘
+  ┌───────────────────────────────────────────────────────────────────┐
+  │ Framework files chi tiết                                           │
+  │   Imagine-Final.md v3.0 / 03-Reward.md / Valence-Propagation v3.0 │
+  │   Reward-Signal-Architecture.md v2.0 (Evaluative/Direct-State)     │
+  │   Anchor-Schema.md / Drive.md / Novelty.md / Feeling.md v3.0      │
+  │   = Cơ chế đầy đủ — reader đi sâu sau khi có bridge               │
+  └───────────────────────────────────────────────────────────────────┘
 
 
 ⭐ MỤC ĐÍCH BRIDGE FILE:

@@ -1010,9 +1010,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       "20 năm không gặp, gặp lại vẫn tin nhau" = trust compilation intact.
 
     Dormant tie ≠ Active resonance:
-    → Entity-Compiled chunks EXIST nhưng L1 = 0 (no momentary reward).
-    → L2 structural = weakened nhưng not zeroed.
-    → Reunion: trigger compilation → L1 fire → "vẫn thân."
+    → Entity-Compiled chunks EXIST nhưng Valence-Momentary = 0 (no momentary reward).
+    → Valence-Structural = weakened nhưng not zeroed.
+    → Reunion: trigger compilation → Valence-Momentary fire → "vẫn thân."
 
     NHƯNG: gap distributions MAY have diverged:
     → 20 năm → gap landscapes shift enormously.

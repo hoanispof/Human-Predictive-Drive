@@ -612,9 +612,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Arc dissonance GIẢM peak → user experience SMOOTHER
       → NHƯNG: learning VẪN XẢY RA (user compile, not AI)
 
-    MODE 3 → MODE 4 SHIFT (Drive.md §2):
-      → Mode 3 (Spinning): PFC spin vì THIẾU chunks → inefficient
-      → AI provide missing chunks → PFC shift sang Mode 4 (Resolve) → efficient
+    DRIVE-PFC-SPINNING → DRIVE-PFC-RESOLVE SHIFT (Drive.md §2):
+      → Drive-PFC-Spinning: PFC spin vì THIẾU chunks → inefficient
+      → AI provide missing chunks → PFC shift sang Drive-PFC-Resolve → efficient
       → = KHÔNG mất autonomy — PFC vẫn process, chỉ có NGUYÊN LIỆU tốt hơn
 
 

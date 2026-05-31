@@ -96,17 +96,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   SO SÁNH VỚI NOVELTY (parallel structure):
 
-    ┌──────────────────┬──────────────────────────┬──────────────────────┐
-    │                  │ NOVELTY                  │ THREAT               │
-    ├──────────────────┼──────────────────────────┼──────────────────────┤
-    │ Signal gốc       │ Positive prediction delta│ Body-feedback diss.  │
-    │ Interpretation   │ Opportunity              │ Harm                 │
-    │ Direction        │ PULL (toward)            │ PUSH (away)          │
-    │ Neurochemistry   │ Dopamine                 │ NE → Cortisol        │
-    │ Natural brake    │ Habituation              │ Resolution of threat │
-    │ Khi loop         │ Novelty Loop             │ Anxiety Loop         │
-    │ Deep dive        │ Novelty.md               │ File NÀY             │
-    └──────────────────┴──────────────────────────┴──────────────────────┘
+    ┌──────────────────┬──────────────────────────┬──────────────────────────┐
+    │                  │ NOVELTY                  │ THREAT                    │
+    ├──────────────────┼──────────────────────────┼──────────────────────────┤
+    │ Signal gốc       │ Positive prediction delta│ Body-feedback dissonance  │
+    │ Interpretation   │ Opportunity              │ Harm                      │
+    │ Direction        │ PULL (toward)            │ PUSH (away)               │
+    │ Neurochemistry   │ Dopamine                 │ NE → Cortisol             │
+    │ Natural brake    │ Habituation              │ Resolution of threat      │
+    │ Khi loop         │ Novelty Loop             │ Anxiety Loop              │
+    │ Deep dive        │ Novelty.md               │ File NÀY                  │
+    └──────────────────┴──────────────────────────┴──────────────────────────┘
 
   ⚠️ Novelty và Threat CÓ THỂ chạy ĐỒNG THỜI:
     → "Muốn explore" (Novelty) + "Sợ thất bại" (Threat) = cùng lúc
@@ -330,15 +330,15 @@ TRỤC 1: INTENSITY — Neurochemical Escalation
     → Cost: CỰC CAO. PTSD risk nếu prolonged.
 
   SUMMARY:
-    ┌────────┬──────────┬────────────────┬─────────────┬──────────────┐
-    │ Mức    │ Resource │ Neurochemistry │ PFC status  │ Response     │
-    ├────────┼──────────┼────────────────┼─────────────┼──────────────┤
-    │ Micro  │  5-15%   │ NE trace       │ Bình thường│ Scan, check  │
-    │ Nhẹ    │ 15-30%   │ NE + adrenaline│ TỐI ƯU     │ Plan, prepare│
-    │ TB     │ 30-60%   │ + cortisol     │ Tunnel      │ Act, focus   │
-    │ Mạnh   │ 60-90%   │ + amygdala     │ GIẢM MẠNH  │ Fight/flight │
-    │ Emerg. │ 90-100%  │ FULL mobilize  │ GẦN TẮT    │ F/F/F/Shut   │
-    └────────┴──────────┴────────────────┴─────────────┴──────────────┘
+    ┌──────────┬──────────┬────────────────┬─────────────┬──────────────┐
+    │ Mức      │ Resource │ Neurochemistry │ PFC status  │ Response     │
+    ├──────────┼──────────┼────────────────┼─────────────┼──────────────┤
+    │ Micro    │  5-15%   │ NE trace       │ Bình thường│ Scan, check  │
+    │ Nhẹ      │ 15-30%   │ NE + adrenaline│ TỐI ƯU     │ Plan, prepare│
+    │ TB       │ 30-60%   │ + cortisol     │ Tunnel      │ Act, focus   │
+    │ Mạnh     │ 60-90%   │ + amygdala     │ GIẢM MẠNH  │ Fight/flight │
+    │ Emergency│ 90-100%  │ FULL mobilize  │ GẦN TẮT    │ F/F/F/Shut   │
+    └──────────┴──────────┴────────────────┴─────────────┴──────────────┘
 
   → Mức NHẸ (15-30%) = SWEET SPOT cho productivity
   → = Yerkes-Dodson law: performance optimal ở arousal TRUNG BÌNH
@@ -612,7 +612,7 @@ THREAT × NEW CONCEPTS (28-session Drill Propagation):
     → Anticipation (③ above) = Simulation-Engine draft outcome → body evaluate as THREAT
     → Imagine-Final v3.0 KEY BOUNDARY: hardware prediction (automatic) ≠ Imagine-Final
     → Simulated threat = Simulation-Engine running threat scenario
-    → PFC budget: prolonged simulation COSTS metabolic resources
+    → PFC budget: prolonged simulation COSTS processing capacity
     → = Anticipation loop = Simulation-Engine STUCK on threat scenario
 
   ENTITY-ACCESS × THREAT (Entity-Access.md v1.2):

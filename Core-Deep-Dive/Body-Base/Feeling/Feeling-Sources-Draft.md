@@ -744,7 +744,7 @@
     "Nostalgia nghe bài hát cũ"
       → Memory schema + feeling reactivated
     "Cảm thấy Đức Mẹ bảo vệ"
-      → Religious schema (Mode 1: pure logic-as-schema)
+      → Religious schema (Schema-Pure-Trust: pure logic-as-schema)
       → Ref: Domain/Agent-2Axis-Analysis.md
     "Ấm áp khi nghĩ về tuổi thơ"
       → Memory schema compiled positive

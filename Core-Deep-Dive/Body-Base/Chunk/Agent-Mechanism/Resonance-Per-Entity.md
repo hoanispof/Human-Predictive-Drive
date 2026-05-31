@@ -42,7 +42,7 @@ dependencies:
   - Reward-Signal-Architecture.md v2.0 — SOURCE: Evaluative/Direct-State reward, Reward-Signal-Architecture profiles
   - Gap-Distribution-Profile.md v1.0 — SUPPLY: per-person gap landscape, 4 trục
   - Love-Romantic.md v2.4 — APPLICATION: limerence → bonding phases
-  - Empathy.md v3.0 — APPLICATION: L1/L2 cost, burnout mechanism
+  - Empathy.md v3.0 — APPLICATION: Valence-Momentary/Valence-Structural cost, burnout mechanism
   - Body-Coupling.md v2.0 — MECHANISM: coupling depth × direction
   - Background-Pattern.md v1.1 — SOURCE: 2D model Depth × Density, schema match
   - Body-Feedback-Label.md v2.0 — VOCABULARY: 3-tier labels, prediction-delta
@@ -174,7 +174,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ④ Hardware-subsidy = ANTI-HABITUATION mechanism (mẹ→con MAX, bạn NONE)
   ⑤ Per-entity resonance quan sát qua 3 TẦNG (Supply × Mechanism × Dynamics)
   ⑥ 2-tầng: Hardware-driven (A) + Self-Pattern-Modeling-driven (B) — proportion KHÁC per entity
-  ⑦ 2-luồng: L1 momentary (Self-Pattern-Modeling fire) + L2 structural (Entity-Compiled) — KHÁC per entity
+  ⑦ 2-luồng: Valence-Momentary (Self-Pattern-Modeling fire) + Valence-Structural (Entity-Compiled) — KHÁC per entity
   ⑧ Reward-Signal-Architecture Evaluative:Direct-State ratio per entity → resonance "feel" KHÁC (Direct-State=warm vs Evaluative=exciting)
   ⑨ ENGINE/ROAD/VEHICLE: resonance = 2 VEHICLE interaction trên cùng ROAD
   ⑩ Technology fill sensory → modern resonance frontier = social + abstract
@@ -197,7 +197,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       🟡 Synthesis from Roberts & Dunbar 2011 + Panksepp 1998
   C6. Romantic resonance masked during limerence, revealed post-limerence
       🟢 Fisher 2004, Marazziti 2003, Acevedo 2012
-  C7. Phantom resonance depth = f(compilation × subsidy × L2 × duration)
+  C7. Phantom resonance depth = f(compilation × subsidy × Valence-Structural × duration)
       🟡 Framework synthesis — grief research + Entity-Compiled mechanism
 ```
 
@@ -212,7 +212,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   STAGE 1 — Fresh DOMINANT (first interactions):
     Cost: HIGH — 3-cost model (Inter-Body-Mechanism v1.0 §4):
-      ① PFC draft: novel chains for EVERY prediction → metabolic cost
+      ① PFC draft: novel chains for EVERY prediction → processing load
       ② Suppress: override stranger-avoidance → efference mismatch
       ③ Uncertainty: "ai đây? tốt/xấu?" → cortisol holding
     Reward: UNCERTAIN (don't know if by-product match exists)
@@ -282,7 +282,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     4C — RESONANCE DEATH:
       Compiled suppress gap riêng → mất drive → mất by-product
       → By-product match STOPS (nothing to match)
-      → L1 ≈ 0. L2 habituated. Entity-Compiled = structural only.
+      → Valence-Momentary ≈ 0. Valence-Structural habituated. Entity-Compiled = structural only.
       → = "Chán hoàn toàn" = resonance dead
       → = Bond-Architecture v2.0 §4 Compiled-Suppress (primary mechanism)
       → Fix: awareness + uncompile suppress + rebuild drive riêng
@@ -407,7 +407,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ ② Compilation path: standard / accelerated / skip               │
   │ ③ Cost profile: 3-cost (PFC draft + suppress + uncertainty)     │
   │ ④ 2-tầng proportion: Hardware-driven (A) : Self-Pattern-Modeling-driven (B)    │
-  │ ⑤ 2-luồng proportion: L1 momentary : L2 structural             │
+  │ ⑤ 2-luồng proportion: Valence-Momentary : Valence-Structural             │
   └──────────────────────────────────────────────────────────────────┘
 
   TẦNG 3 — DYNAMICS (resonance THAY ĐỔI thế nào):
@@ -470,11 +470,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ④ 2-tầng: Tầng Hardware DOMINANT (hardware-driven, pre-Self-Pattern-Modeling)
         Infant 0-6m: ❶ only (social smile, sync — Connection v4.0 §3.2b)
         Toddler+: ❶ + ❷ compound (hardware + Self-Pattern-Modeling developing)
-    ⑤ 2-luồng: L2 DOMINANT (structural)
+    ⑤ 2-luồng: Valence-Structural DOMINANT (structural)
         Con = body-base extension → con's state = MY state (Entity-Compiled v1.0 §3)
-        L1 (momentary) present but L2 DRIVES behavior
-        → Mẹ sacrifice = L2 structural override L1 negative (Connection v4.0 §3.3b)
-        → "Mẹ mệt nhưng vẫn chăm con" = L2 > L1
+        Valence-Momentary (momentary) present but Valence-Structural DRIVES behavior
+        → Mẹ sacrifice = Valence-Structural override Valence-Momentary negative (Connection v4.0 §3.3b)
+        → "Mẹ mệt nhưng vẫn chăm con" = Valence-Structural > Valence-Momentary
         
   TẦNG 3 — DYNAMICS:
     D1. Novelty: AUTO (child changes daily, grows, discovers)
@@ -488,7 +488,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → Novelty: ABOVE threshold nhưng can plateau (elderly parent→adult child)
         → ONLY when child STOPS changing (elderly parent→adult child plateau)
     D4. Phantom: DEVASTATING on child loss
-        → Multi-channel + hardware + L2 structural → ALL fire, NO response
+        → Multi-channel + hardware + Valence-Structural → ALL fire, NO response
         → R20 Sanders 1980: parental grief = most severe, longest duration
     D5. Technology: CANNOT substitute
         → Video call ≠ physical presence (CT afferents OFFLINE)
@@ -535,10 +535,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → STANDARD chain nhưng CÓ hardware scaffold (oxytocin, attachment)
     ③ Cost: LOW (hardware scaffold giảm uncertainty + suppress)
     ④ 2-tầng: A+B balanced (hardware + Self-Pattern-Modeling develop cùng lúc)
-    ⑤ 2-luồng: L1→L2 shifting (forming Entity-Compiled over years)
-        Infant: L1 dominant (momentary reward from fill)
-        Toddler: L2 building (mẹ = baseline → structural)
-        Child: L2 established (mẹ absence = baseline violation)
+    ⑤ 2-luồng: Valence-Momentary→Valence-Structural shifting (forming Entity-Compiled over years)
+        Infant: Valence-Momentary dominant (momentary reward from fill)
+        Toddler: Valence-Structural building (mẹ = baseline → structural)
+        Child: Valence-Structural established (mẹ absence = baseline violation)
         
   TẦNG 3 — DYNAMICS:
     D1. Novelty: mẹ = STABLE → LESS novel → proportion of gap landscape SHRINKS
@@ -547,7 +547,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     D3. "Chán" vulnerability: HIGH at teen
         → Autonomy drive ↑ + domain gaps EMERGE → mẹ fill smaller proportion
         → "Ghét mẹ" (teen) = avoidance channels active + approach habituated
-    D4. Phantom: MAJOR on mẹ loss (deep compilation + L2 structural)
+    D4. Phantom: MAJOR on mẹ loss (deep compilation + Valence-Structural)
         → NHƯNG less than mẹ→con (no existence-based architecture)
     D5. Technology: mẹ ôm cannot substitute, nhưng video call maintain SOME
 
@@ -601,10 +601,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → Cost SPIKES if conflict arises (trust broken → back to Fresh)
     ④ 2-tầng: Tầng PFC DOMINANT (Self-Pattern-Modeling-compiled, no significant hardware)
         → Almost purely ❷ Self-Pattern-Modeling-driven resonance
-    ⑤ 2-luồng: L1 DOMINANT (momentary reward from Self-Pattern-Modeling fire)
-        → L2 (structural) ONLY if Entity-Compiled forms (multi-gap + Agent-mode)
-        → Most friendships: L1 with SOME L2 build-up
-        → "Nhớ bạn" = L2 baseline violated. "Gặp bạn vui" = L1 fire.
+    ⑤ 2-luồng: Valence-Momentary DOMINANT (momentary reward from Self-Pattern-Modeling fire)
+        → Valence-Structural (structural) ONLY if Entity-Compiled forms (multi-gap + Agent-mode)
+        → Most friendships: Valence-Momentary with SOME Valence-Structural build-up
+        → "Nhớ bạn" = Valence-Structural baseline violated. "Gặp bạn vui" = Valence-Momentary fire.
 
   TẦNG 3 — DYNAMICS:
     D1. Novelty: REQUIRED (Generative = novelty-dependent)
@@ -621,11 +621,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → Novelty dưới ngưỡng khi "biết bạn quá rõ" (prediction complete)
         → Compiled-Suppress less common (no obligation to suppress for friend)
         → FIX = shared novel experiences (R8 Aron 2000 applies to friendships)
-    D4. Phantom: MINOR-MODERATE (L1 dominant + no hardware scaffold)
+    D4. Phantom: MINOR-MODERATE (Valence-Momentary dominant + no hardware scaffold)
         → "Mất bạn thân" = buồn nhưng recoverable
         → Replaceable: new entity CAN fill similar gaps (no hardware lock-in)
     D5. Technology: PARTIALLY substitute
-        → Video call: maintain L1 (conversation, humor) — partial
+        → Video call: maintain Valence-Momentary (conversation, humor) — partial
         → Online gaming: Generative can continue (shared novel activity)
         → Physical presence: cannot substitute (Tonic component offline)
 
@@ -684,8 +684,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
           → "Yêu thì mù" = PFC evaluation DAMPENED (serotonin↓)
       ④ 2-tầng: Tầng Hardware SIMULATED (hormone mimics hardware-driven)
           → Looks like mẹ→con architecture, but TEMPORARY
-      ⑤ 2-luồng: L1 dominant (momentary hormone fire)
-          → L2 BUILDING rapidly but ON INFLATED FOUNDATION
+      ⑤ 2-luồng: Valence-Momentary dominant (momentary hormone fire)
+          → Valence-Structural BUILDING rapidly but ON INFLATED FOUNDATION
 
     🟢 R2 Fisher 2004: limerence = drive, not attachment
     🟢 R3 Fisher 2010: rejected lovers → VTA/NAcc (cocaine circuits)
@@ -712,7 +712,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         ② Compilation: deep (years of genuine patterns compiled)
         ③ Cost: LOW (compiled mutual Compiled)
         ④ 2-tầng: Tầng PFC dominant (Self-Pattern-Modeling-compiled mutual)
-        ⑤ 2-luồng: L2 dominant (Entity-Compiled = structural extension)
+        ⑤ 2-luồng: Valence-Structural dominant (Entity-Compiled = structural extension)
         
       → R4 Acevedo 2012: long-term couples → VTA STILL active + vasopressin
       → Entity-Compiled deep + genuine valence → healthy long-term
@@ -721,7 +721,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       By-product match WAS real but habituated
       → Generative dead, only Tonic remains
       → "Tốt nhưng chán" → R5 Gottman Type 2 path
-      → Entity-Compiled intact (L2) nhưng L1 reward = 0
+      → Entity-Compiled intact (Valence-Structural) nhưng Valence-Momentary reward = 0
       → FIX: novel shared experiences + maintain drive riêng
 
     TRAJECTORY C — DISSOLUTION:
@@ -741,7 +741,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → Inflated baseline + no permanent hardware-subsidy + max habituation exposure
     D4. Phantom: COMPLEX (deep Entity-Compiled + possible hormone echo)
         → R3 Fisher 2010: rejected lovers → cocaine circuits → prolonged grief
-        → Phantom mixes L2 structural + L1 hormone memory
+        → Phantom mixes Valence-Structural + Valence-Momentary hormone memory
     D5. Technology: PARTIALLY (maintain communication, cannot replace physical intimacy)
 
   🟢 R2 Fisher 2004, R3 Fisher 2010: limerence drive, cocaine circuits
@@ -760,7 +760,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ KHI Entity-Compiled = 0, RESONANCE BẮT ĐẦU TỪ ĐÂU?
 
-  Entity-Compiled = 0 → NO Compiled, NO L2, NO Entity-Compiled
+  Entity-Compiled = 0 → NO Compiled, NO Valence-Structural, NO Entity-Compiled
   NHƯNG: interaction CÓ THỂ xảy ra → by-product match CÓ THỂ ngay lập tức
   
   4 NGUỒN DRIVE KHI Entity-Compiled = 0:
@@ -816,7 +816,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §8 — RESONANCE × TOOL-MODE + PROFESSIONAL
 
-> Self-Pattern-Modeling v3.1 §3 (Compiled/Fresh + Agent/Tool), Empathy v3.0 §4 (L1/L2 cost), By-Product-Gap-Resonance v1.4 §4 (Tool vs Agent).
+> Self-Pattern-Modeling v3.1 §3 (Compiled/Fresh + Agent/Tool), Empathy v3.0 §4 (Valence-Momentary/Valence-Structural cost), By-Product-Gap-Resonance v1.4 §4 (Tool vs Agent).
 
 ### §8.1 — Tool-mode entities
 
@@ -872,7 +872,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Gap fill: fulfillment (student learns → teacher's knowledge by-product matches)
     + parental-adjacent drive (nurture, see growth — WEAKER than actual parent)
     Reward-Signal-Architecture: ~80A/20B (evaluation dominant — assessing student progress)
-    2-luồng: L1 dominant (per-session reward), L2 grows if long-term
+    2-luồng: Valence-Momentary dominant (per-session reward), Valence-Structural grows if long-term
     
   STUDENT PERSPECTIVE:
     Gap fill: knowledge gaps (Generative — each lesson → new gaps)
@@ -894,29 +894,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   THERAPIST PERSPECTIVE:
     Self-Pattern-Modeling: Agent-mode SUSTAINED (predict client state — professional requirement)
-    L1 (momentary): NEGATIVE (simulate client distress → Compiled fire → discomfort)
-    L2 (structural): ≈ 0 to MILD (professional boundary → no Entity-Compiled)
-    → L1 negative + L2 ≈ 0 = NO BUFFER → cost accumulates → BURNOUT
+    Valence-Momentary (momentary): NEGATIVE (simulate client distress → Compiled fire → discomfort)
+    Valence-Structural (structural): ≈ 0 to MILD (professional boundary → no Entity-Compiled)
+    → Valence-Momentary negative + Valence-Structural ≈ 0 = NO BUFFER → cost accumulates → BURNOUT
     
   CONNECTION v4.0 §3.3b INSIGHT:
     Why MOTHER doesn't burn out caring for sick child:
-      L1 negative (child suffering → Compiled fire → discomfort)
-      L2 STRONG POSITIVE (child = body-base extension → structural override)
-      → L2 BUFFERS L1 → sustainable long-term
+      Valence-Momentary negative (child suffering → Compiled fire → discomfort)
+      Valence-Structural STRONG POSITIVE (child = body-base extension → structural override)
+      → Valence-Structural BUFFERS Valence-Momentary → sustainable long-term
     Why THERAPIST burns out:
-      L1 negative (client suffering → Compiled fire → discomfort)
-      L2 ≈ 0 (professional, no structural extension)
-      → NO BUFFER → L1 cost accumulates → burnout/moral injury
-    → SAME Compiled discomfort, DIFFERENT L2 → DIFFERENT sustainability
+      Valence-Momentary negative (client suffering → Compiled fire → discomfort)
+      Valence-Structural ≈ 0 (professional, no structural extension)
+      → NO BUFFER → Valence-Momentary cost accumulates → burnout/moral injury
+    → SAME Compiled discomfort, DIFFERENT Valence-Structural → DIFFERENT sustainability
 
   CLIENT PERSPECTIVE:
     Gap fill: emotional regulation + insight (Generative + Tonic)
-    L1: POSITIVE when therapy works (understood, validated)
-    L2: can build (therapist = structural baseline)
+    Valence-Momentary: POSITIVE when therapy works (understood, validated)
+    Valence-Structural: can build (therapist = structural baseline)
     → ASYMMETRIC: client may form Entity-Compiled, therapist should not
 
   🟢 R31 Figley 2002: compassion fatigue. Maslach 2001: burnout.
-  🟡 L1/L2 mismatch as burnout mechanism = framework synthesis
+  🟡 Valence-Momentary/Valence-Structural mismatch as burnout mechanism = framework synthesis
 ```
 
 ### §8.5 — AI Assistant
@@ -936,13 +936,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   HUMAN SIDE:
     Self-Pattern-Modeling: TOOL-mode (predict output, not state)
-    L1: NONE (no Compiled simulate AI state)
-    L2: NONE (AI not body-base extension)
+    Valence-Momentary: NONE (no Compiled simulate AI state)
+    Valence-Structural: NONE (AI not body-base extension)
     → HUMAN receives Generative fill (insight) but NO resonance
     
   ⭐ AI fills Generative gaps WITHOUT resonance:
     → Useful: knowledge, analysis, conversation practice
-    → Not substitute: social resonance, emotional regulation, L2 structural
+    → Not substitute: social resonance, emotional regulation, Valence-Structural
     → Risk: overuse → reduce HUMAN resonance opportunities
     → "AI bạn tốt nhất" = category error — by-product match impossible
 
@@ -957,65 +957,41 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Consolidates §4-§8 into single 3-tầng × entity type matrix.
 
 ```
-⭐⭐ ENRICHED TABLE: 3-TẦNG PARAMETERS PER ENTITY TYPE:
+⭐⭐ ENRICHED TABLE: 3-TẦNG PARAMETERS PER ENTITY TYPE
+   (consolidates §4-§8 into single 3-tầng × entity type matrix)
+```
 
-  ┌──────────────┬──────────────┬──────────────┬──────────────┬──────────┬────────────┐
-  │              │ MẸ→CON       │ CON→MẸ       │ BẠN THÂN     │ ROMANTIC │ COLLEAGUE  │
-  │              │              │ (trẻ)        │              │ (post-L) │ (Agent-mode)│
-  ╞══════════════╪══════════════╪══════════════╪══════════════╪══════════╪════════════╡
-  │ TẦNG 1 — SUPPLY                                                                   │
-  ├──────────────┼──────────────┼──────────────┼──────────────┼──────────┼────────────┤
-  │ Primary gap  │ Existence    │ Multi-hardware     │ Generative + │ Multi    │ Domain +   │
-  │ satiation    │ (Tonic,      │ (Cyclic +    │ Tonic        │ (Tonic + │ Social     │
-  │              │ unique)      │ Tonic mix)   │ compound     │ Generative)│ (Generative)│
-  ├──────────────┼──────────────┼──────────────┼──────────────┼──────────┼────────────┤
-  │ Reward-Signal-Architecture │ ~40:60       │ ~50:50       │ ~70:30       │ ~60:40   │ ~85:15     │
-  │ Evaluative:Direct-State   │ (Direct-State│ (balanced)   │ (Evaluative  │ (mixed)  │ (Evaluative│
-  │ ratio                     │  warm)       │              │  exciting)   │          │  dominant) │
-  ├──────────────┼──────────────┼──────────────┼──────────────┼──────────┼────────────┤
-  │ Gap count    │ Multi (unified│ Multi       │ Multi        │ Multi    │ Single→Multi│
-  │              │ meta-gap)    │ (episodic)   │ (shared)     │ (diverse)│ (if Agent) │
-  ╞══════════════╪══════════════╪══════════════╪══════════════╪══════════╪════════════╡
-  │ TẦNG 2 — MECHANISM                                                                │
-  ├──────────────┼──────────────┼──────────────┼──────────────┼──────────┼────────────┤
-  │ Hardware     │ MAXIMUM      │ MODERATE     │ NONE         │ TEMPORARY│ NONE       │
-  │ subsidy      │ (oxytocin+)  │ (attachment) │              │→vasopressin│           │
-  ├──────────────┼──────────────┼──────────────┼──────────────┼──────────┼────────────┤
-  │ Compilation  │ SKIP Stage   │ STANDARD     │ STANDARD     │ HORMONE  │ SLOW       │
-  │ path         │ 1-2 (hardware)     │ (0-7mo→spec.)│ (40→200h)    │ ACCEL.   │ (limited)  │
-  ├──────────────┼──────────────┼──────────────┼──────────────┼──────────┼────────────┤
-  │ Cost (3-cost)│ ≈ 0          │ LOW          │ ≈ 0 compiled │ LOW post-│ MOD-HIGH   │
-  │              │ (hardware-compiled)│ (hardware scaffold)│ (mutual Compiled)  │ genuine  │ (suppress) │
-  ├──────────────┼──────────────┼──────────────┼──────────────┼──────────┼────────────┤
-  │ 2-tầng       │ Tầng Hardware dominant │ Hardware+PFC balanced │ Tầng PFC dominant │ Hardware→PFC shift│ Tầng PFC     │
-  │ (Hardware:Self-Pattern-Modeling)     │ (hardware)   │ (both)       │ (Self-Pattern-Modeling only)   │          │ (Self-Pattern-Modeling only) │
-  ├──────────────┼──────────────┼──────────────┼──────────────┼──────────┼────────────┤
-  │ 2-luồng      │ L2 dominant  │ L1→L2 shift  │ L1 dominant  │ L1→L2   │ L1 only    │
-  │ (L1:L2)      │ (structural) │ (forming)    │ (momentary)  │ (if deep)│ (unless close)│
-  ╞══════════════╪══════════════╪══════════════╪══════════════╪══════════╪════════════╡
-  │ TẦNG 3 — DYNAMICS                                                                 │
-  ├──────────────┼──────────────┼──────────────┼──────────────┼──────────┼────────────┤
-  │ Novelty      │ AUTO (child  │ mẹ = STABLE  │ REQUIRED     │ REQUIRED │ Domain-    │
-  │ source       │ changes)     │ (less novel) │ (active)     │ (grow ↑) │ dependent  │
-  ├──────────────┼──────────────┼──────────────┼──────────────┼──────────┼────────────┤
-  │ Decay        │ VERY SLOW    │ SLOW (kin    │ FAST without │ MODERATE │ FAST       │
-  │ without      │ (max hardware)     │ scaffold)    │ contact      │ (complex)│ (no hardware)    │
-  │ contact      │              │              │ (48.6% churn)│          │            │
-  ├──────────────┼──────────────┼──────────────┼──────────────┼──────────┼────────────┤
-  │ "Chán" risk  │ LOW (auto-   │ HIGH (teen   │ HIGH if no   │ HIGHEST  │ MODERATE   │
-  │              │ novelty+hardware)  │ autonomy↑)   │ novelty      │ (post-L) │ (routine)  │
-  ├──────────────┼──────────────┼──────────────┼──────────────┼──────────┼────────────┤
-  │ Phantom on   │ DEVASTATING  │ MAJOR        │ MINOR-MOD    │ COMPLEX  │ MINOR      │
-  │ loss         │ (Sanders '80)│ (structural) │ (replaceable)│ (depends)│ (function) │
-  ├──────────────┼──────────────┼──────────────┼──────────────┼──────────┼────────────┤
-  │ Technology   │ CANNOT       │ PARTIAL      │ PARTIAL      │ PARTIAL  │ HIGH       │
-  │ substitute   │ substitute   │ (video call) │ (online game)│ (video)  │ (remote)   │
-  ├──────────────┼──────────────┼──────────────┼──────────────┼──────────┼────────────┤
-  │ Mixed        │ LOW (hardware bias)│ HIGH         │ LOW (genuine │ MODERATE │ LOW        │
-  │ valence      │              │ (normative)  │ → positive)  │ → HIGH   │ (professional)│
-  └──────────────┴──────────────┴──────────────┴──────────────┴──────────┴────────────┘
+#### TẦNG 1 — SUPPLY
 
-  🟡 Enriched comparison table = framework synthesis (new parameters from integrated models)
+| Parameter | MẸ→CON | CON→MẸ (trẻ) | BẠN THÂN | ROMANTIC (post-Limerence) | COLLEAGUE (Agent-mode) |
+|---|---|---|---|---|---|
+| Primary gap satiation | Existence (Tonic, unique) | Multi-hardware (Cyclic + Tonic mix) | Generative + Tonic compound | Multi (Tonic + Generative) | Domain + Social (Generative) |
+| Reward-Signal-Architecture Evaluative:Direct-State ratio | ~40:60 (Direct-State warm) | ~50:50 (balanced) | ~70:30 (Evaluative exciting) | ~60:40 (mixed) | ~85:15 (Evaluative dominant) |
+| Gap count | Multi (unified meta-gap) | Multi (episodic) | Multi (shared) | Multi (diverse) | Single→Multi (if Agent) |
+
+#### TẦNG 2 — MECHANISM
+
+| Parameter | MẸ→CON | CON→MẸ (trẻ) | BẠN THÂN | ROMANTIC (post-Limerence) | COLLEAGUE (Agent-mode) |
+|---|---|---|---|---|---|
+| Hardware subsidy | MAXIMUM (oxytocin+) | MODERATE (attachment) | NONE | TEMPORARY →vasopressin | NONE |
+| Compilation path | SKIP Stage 1-2 (hardware) | STANDARD (0-7mo→spec.) | STANDARD (40→200h) | HORMONE ACCELERATED | SLOW (limited) |
+| Cost (3-cost) | ≈ 0 (hardware-compiled) | LOW (hardware scaffold) | ≈ 0 compiled (mutual Compiled) | LOW post-genuine | MODERATE-HIGH (suppress) |
+| 2-tầng (Hardware:Self-Pattern-Modeling) | Tầng Hardware dominant (hardware) | Hardware+PFC balanced (both) | Tầng PFC dominant (Self-Pattern-Modeling only) | Hardware→PFC shift | Tầng PFC (Self-Pattern-Modeling only) |
+| 2-luồng (Momentary:Structural) | Structural dominant | Momentary→Structural (forming) | Momentary dominant | Momentary →Structural (if deep) | Momentary only (unless close) |
+
+#### TẦNG 3 — DYNAMICS
+
+| Parameter | MẸ→CON | CON→MẸ (trẻ) | BẠN THÂN | ROMANTIC (post-Limerence) | COLLEAGUE (Agent-mode) |
+|---|---|---|---|---|---|
+| Novelty source | AUTO (child changes) | mẹ = STABLE (less novel) | REQUIRED (active) | REQUIRED (grow ↑) | Domain-dependent |
+| Decay without contact | VERY SLOW (max hardware) | SLOW (kin scaffold) | FAST without contact (48.6% churn) | MODERATE (complex) | FAST (no hardware) |
+| "Chán" risk | LOW (auto-novelty+hardware) | HIGH (teen autonomy↑) | HIGH if no novelty | HIGHEST (post-Limerence) | MODERATE (routine) |
+| Phantom on loss | DEVASTATING (Sanders '80) | MAJOR (structural) | MINOR-MODERATE (replaceable) | COMPLEX (depends) | MINOR (function) |
+| Technology substitute | CANNOT substitute | PARTIAL (video call) | PARTIAL (online game) | PARTIAL (video) | HIGH (remote) |
+| Mixed valence | LOW (hardware bias) | HIGH (normative) | LOW (genuine → positive) | MODERATE → HIGH | LOW (professional) |
+
+```
+🟡 Enriched comparison table = framework synthesis (new parameters from integrated models)
 ```
 
 ---
@@ -1168,7 +1144,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   MODERN RESONANCE FRONTIER = SOCIAL + ABSTRACT + GENERATIVE:
     Technology CHƯA fill:
       → Touch/comfort: CT afferents require PHYSICAL presence → NO substitute
-      → Emotional regulation: L2 structural requires compiled entity → NO AI equivalent
+      → Emotional regulation: Valence-Structural requires compiled entity → NO AI equivalent
       → Generative mutual: shared discovery requires 2 genuine drives → NO one-way fill
       → Social validation: status evaluation requires REAL social comparison → NO synthetic
       → Meaning-in-relationship: entity-specific, cannot be mass-produced
@@ -1182,7 +1158,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       
   AI × RESONANCE FRONTIER:
     AI CAN fill: knowledge gaps (Generative), conversation (partial Generative)
-    AI CANNOT fill: mutual by-product (no AI gap), physical (no body), L2 (no entity)
+    AI CANNOT fill: mutual by-product (no AI gap), physical (no body), Valence-Structural (no entity)
     → AI fills SUPPLY side partially → NHƯNG mechanism side = 0
     → Risk: AI sufficient for Generative → human resonance narrows to Tonic + physical
     → "Nói chuyện AI hay hơn nói chuyện bạn" = Generative fill, NOT resonance
@@ -1347,43 +1323,43 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   PHANTOM DEPTH = f(4 factors):
     ① Compilation depth: more channels compiled → more phantom firing points
     ② Hardware-subsidy: hardware-supported bond → hardware KEEPS firing after loss
-    ③ L2 structural: entity = body-base extension → loss = body-base AMPUTATION
+    ③ Valence-Structural: entity = body-base extension → loss = body-base AMPUTATION
     ④ Duration compiled: longer relationship → deeper Hebbian → slower fade
 
   PER-ENTITY PHANTOM INTENSITY:
 
-  ┌────────────────────┬──────────┬──────────┬──────────┬──────────┬───────────┐
-  │ Factor             │ Mẹ mất   │ Con mất  │ Bạn mất  │ Partner  │ Colleague │
-  │                    │ (con→mẹ) │ (mẹ→con) │ thân mất │ mất      │ mất       │
-  ├────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
-  │ ① Compilation      │ DEEP     │ VERY DEEP│ MODERATE │ DEEP     │ SHALLOW   │
-  │    depth           │          │(multi-ch)│          │(multi-ch)│           │
-  ├────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
-  │ ② Hardware         │ MODERATE │ MAXIMUM  │ NONE     │ SOME     │ NONE      │
-  │    subsidy         │(attachment)│(parental)│         │(if vaso.)│           │
-  ├────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
-  │ ③ L2 structural    │ STRONG   │ VERY     │ MODERATE │ STRONG   │ WEAK      │
-  │                    │          │ STRONG   │ to WEAK  │ to VERY  │           │
-  ├────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
-  │ ④ Duration         │ DECADES  │ YEARS→   │ YEARS    │ YEARS→   │ MONTHS→   │
-  │                    │          │ DECADES  │          │ DECADES  │ YEARS     │
-  ├────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
-  │ PHANTOM            │ MAJOR    │DEVASTATING│ MINOR-   │ COMPLEX  │ MINOR     │
-  │ INTENSITY          │          │          │ MODERATE │          │           │
-  └────────────────────┴──────────┴──────────┴──────────┴──────────┴───────────┘
+  ┌────────────────────────┬──────────┬──────────┬──────────┬──────────┬───────────┐
+  │ Factor                 │ Mẹ mất   │ Con mất  │ Bạn mất  │ Partner  │ Colleague │
+  │                        │ (con→mẹ) │ (mẹ→con) │ thân mất │ mất      │ mất       │
+  ├────────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
+  │ ① Compilation          │ DEEP     │ VERY DEEP│ MODERATE │ DEEP     │ SHALLOW   │
+  │    depth               │          │(multi-ch)│          │(multi-ch)│           │
+  ├────────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
+  │ ② Hardware             │ MODERATE │ MAXIMUM  │ NONE     │ SOME     │ NONE      │
+  │    subsidy             │(attachment)│(parental)│         │(if vaso.)│           │
+  ├────────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
+  │ ③ Valence-Structural   │ STRONG   │ VERY     │ MODERATE │ STRONG   │ WEAK      │
+  │                        │          │ STRONG   │ to WEAK  │ to VERY  │           │
+  ├────────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
+  │ ④ Duration             │ DECADES  │ YEARS→   │ YEARS    │ YEARS→   │ MONTHS→   │
+  │                        │          │ DECADES  │          │ DECADES  │ YEARS     │
+  ├────────────────────────┼──────────┼──────────┼──────────┼──────────┼───────────┤
+  │ PHANTOM                │ MAJOR    │DEVASTATING│ MINOR-   │ COMPLEX  │ MINOR     │
+  │ INTENSITY              │          │          │ MODERATE │          │           │
+  └────────────────────────┴──────────┴──────────┴──────────┴──────────┴───────────┘
 
   ⭐ MẸ MẤT CON = MOST DEVASTATING:
     ① ALL channels compiled (visual, auditory, touch, smell, behavioral, emotional)
     ② MAXIMUM hardware-subsidy → hardware KEEPS FIRING → body "search" for child
-    ③ L2 = body-base extension AMPUTATED → structural loss → identity disruption
+    ③ Valence-Structural = body-base extension AMPUTATED → structural loss → identity disruption
     ④ Duration: years of compiled patterns
     → R20 Sanders 1980: parental grief = most severe category
     → Some parents: phantom NEVER fully resolves → "chronic grief"
 
   ⭐ ROMANTIC PHANTOM = COMPLEX:
     If limerence: hormone circuits echo → craving → R3 Fisher 2010 cocaine analogy
-    If post-L genuine: L2 structural → deep phantom → prolonged grief
-    If post-L flat: L2 structural nhưng L1 ≈ 0 → phantom = structural only → "emptiness"
+    If post-L genuine: Valence-Structural → deep phantom → prolonged grief
+    If post-L flat: Valence-Structural nhưng Valence-Momentary ≈ 0 → phantom = structural only → "emptiness"
     If dissolution: Entity-Compiled still exists → phantom fires → "vẫn nhớ dù biết không hợp"
     
   🟢 Grief = phantom limb: R33 Ratcliffe 2018 (🟡 confidence)
@@ -1403,7 +1379,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   
   3-TẦNG ANALYSIS:
     Supply: Tonic = intact (comfort, presence, routine). Generative = DEAD (no novelty).
-    Mechanism: Limerence subsidy expired (>10 năm). L2 structural. L1 ≈ 0.
+    Mechanism: Limerence subsidy expired (>10 năm). Valence-Structural. Valence-Momentary ≈ 0.
     Dynamics: Reward-Habituated + novelty dưới ngưỡng (prediction complete) COMPOUND.
     
   FRAMEWORK EXPLAINS:
@@ -1422,7 +1398,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   
   3-TẦNG ANALYSIS:
     Supply: Generative dominant (physics = self-generating gaps). Reward-Signal-Architecture ~90A/10B (pure evaluation).
-    Mechanism: Self-Pattern-Modeling-driven (Tầng PFC), no hardware-subsidy, L1 momentary (intellectual fire).
+    Mechanism: Self-Pattern-Modeling-driven (Tầng PFC), no hardware-subsidy, Valence-Momentary (intellectual fire).
     Dynamics: VEHICLE alignment rare (§11 — chỉ vài VEHICLE compile physics đủ sâu).
     
   FRAMEWORK EXPLAINS:
@@ -1440,14 +1416,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Mother chăm con bệnh nặng 5 năm: exhausted nhưng KHÔNG detach.
   
   3-TẦNG ANALYSIS:
-    Both: L1 negative (Compiled fire → discomfort from other's suffering).
-    Therapist: L2 ≈ 0 (professional boundary). No Entity-Compiled buffer.
-    Mother: L2 STRONG POSITIVE (child = body-base extension). Entity-Compiled maximum.
+    Both: Valence-Momentary negative (Compiled fire → discomfort from other's suffering).
+    Therapist: Valence-Structural ≈ 0 (professional boundary). No Entity-Compiled buffer.
+    Mother: Valence-Structural STRONG POSITIVE (child = body-base extension). Entity-Compiled maximum.
     
   FRAMEWORK EXPLAINS:
-    §8.4: L1 negative + L2 ≈ 0 = NO BUFFER → cost accumulates → burnout.
-    §4.1: L1 negative + L2 positive = L2 BUFFERS L1 → sustainable.
-    → SAME Compiled input, DIFFERENT L2 → DIFFERENT trajectory.
+    §8.4: Valence-Momentary negative + Valence-Structural ≈ 0 = NO BUFFER → cost accumulates → burnout.
+    §4.1: Valence-Momentary negative + Valence-Structural positive = Valence-Structural BUFFERS Valence-Momentary → sustainable.
+    → SAME Compiled input, DIFFERENT Valence-Structural → DIFFERENT trajectory.
     → Burnout ≠ weakness. = architectural consequence of professional boundary.
     
   EVIDENCE: R31 Figley 2002 compassion fatigue. Maslach 2001 burnout.
@@ -1466,7 +1442,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   FRAMEWORK EXPLAINS:
     §10 (lifecycle): NOT "bớt cần mẹ." = "mẹ fills fewer of EXPANDING total gaps."
-    → Mẹ's Entity-Compiled still DEEP (L2 structural, hardware scaffold). Just less VISIBLE.
+    → Mẹ's Entity-Compiled still DEEP (Valence-Structural, hardware scaffold). Just less VISIBLE.
     → "Ghét" = avoidance channels active (discipline, restrict) + approach habituated.
     → Mixed valence = NORMATIVE (R21 Lüscher & Pillemer 1998: 50% ambivalence).
     → Mẹ will return to prominence when hardware gaps resurface (illness, crisis, 60+).
@@ -1525,7 +1501,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   AI fills Generative supply but zero resonance mechanism
   Phantom resonance 4-factor model
   Tonic+Generative compound loss = "chán" mechanism
-  L1/L2 mismatch as therapist burnout mechanism
+  Valence-Momentary/Valence-Structural mismatch as therapist burnout mechanism
   Per-entity "chán" vulnerability analysis
   Lifecycle resonance shift with mechanism-level WHY
 
@@ -1580,7 +1556,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | File | Sections | Relationship |
 |------|----------|-------------|
 | Love-Romantic v2.4 | §9-§11 | APPLICATION: limerence → bonding phases |
-| Empathy v3.0 | §4 (L1/L2 cost) | APPLICATION: empathy cost, burnout |
+| Empathy v3.0 | §4 (Valence-Momentary/Valence-Structural cost) | APPLICATION: empathy cost, burnout |
 | Body-Coupling v2.0 | §2 (depth × direction) | MECHANISM: coupling depth |
 | Background-Pattern v1.1 | §2 (2D model) | SOURCE: schema match first meeting |
 | Boredom v2.0 | §2 (6 sources) | CROSS-REF: "chán" sources |

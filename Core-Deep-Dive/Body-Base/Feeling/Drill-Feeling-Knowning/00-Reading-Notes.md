@@ -919,7 +919,7 @@ Framework expanded definition tested against 7 edge cases:
 - **Agent × Logic-dominant** (~90/10): Schema agents, complex case with 5 sub-cases
 
 **Agent + Logic 5 sub-cases** (§7.1):
-- **A. Schema agents** (e.g., Đức Mẹ Mode 1): neutral/positive
+- **A. Schema agents** (e.g., Đức Mẹ Schema-Pure-Trust): neutral/positive
 - **B. Routine role interactions**: neutral social lubricant
 - **C. Clinical/systematic empathy**: positive care tool
 - **D. Dehumanization**: DANGER (feeling suppressed)

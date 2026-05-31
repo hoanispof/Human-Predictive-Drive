@@ -657,13 +657,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         [không làm → mất status → threat]
       → Cortisol Role ② Holding: PFC hold "công việc chưa xong" →
         cortisol sustained → không thể relax.
-      → PFC-Configuration: stuck ở Mode 5 (Strategic) → không shift được.
+      → PFC-Configuration: stuck ở Drive-PFC-Strategic → không shift được.
 
     People-pleasing:
       → Chunk network: [người khác vui → connection reward] +
         [người khác không vui → connection threat]
       → Self-Pattern-Modeling Compiled fire liên tục → body respond người khác → exhaust
-      → Empathy v2.0: burnout = f(L1 cao / L2 thấp).
+      → Empathy v2.0: burnout = f(Valence-Momentary cao / Valence-Structural thấp).
 
   RECOVERY schema-based = KHÓ NHẤT:
     → Schema = identity level ("tôi là ai")
@@ -702,7 +702,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Coupling require Self-Pattern-Modeling (Self-Pattern-Modeling) → substance có Self-Pattern-Modeling không?
 
   RESOLUTION — PARTIAL COUPLING:
-    → Substance KHÔNG couple ở mức agent (no Self-Pattern-Modeling, no L2 reward)
+    → Substance KHÔNG couple ở mức agent (no Self-Pattern-Modeling, no Valence-Structural reward)
     → Substance CÓ THỂ couple ở mức BODY-STATE:
       Body state khi dùng substance = "normal"
       Body state khi KHÔNG dùng = "abnormal, threatening"
@@ -882,14 +882,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 CONNECTION.MD V3.1 + BODY-COUPLING.MD V1.1:
 
   Social connection provides:
-    → L1 reward (Self-Pattern-Modeling-owned, momentary — gặp bạn → cảm giác tốt)
-    → L2 reward (Entity-compiled, structural — bạn thân = body-base extension)
+    → Valence-Momentary reward (Self-Pattern-Modeling-owned — gặp bạn → cảm giác tốt)
+    → Valence-Structural reward (Entity-compiled — bạn thân = body-base extension)
     → = ALTERNATIVE reward source không cần substance
 
   Recovery programs (AA, NA, therapy groups):
     → Group = connection reward THẬT
-    → Shared experience = Self-Pattern-Modeling Compiled fire → empathy → L1 reward
-    → Sustained relationship = L2 coupling builds → structural support
+    → Shared experience = Self-Pattern-Modeling Compiled fire → empathy → Valence-Momentary reward
+    → Sustained relationship = Valence-Structural coupling builds → structural support
     → = Body-Coupling: positive coupling với người MỚI →
       competing với substance "coupling"
 
@@ -1134,7 +1134,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   COMPILE + RECOVERY:
     → Compile-Taxonomy.md v2.0 — 3 Compile Types, 4 pathways
     → Background-Pattern.md v1.1 — invisible bias, sleep = accelerator
-    → Connection.md v3.2 — social coupling, L1/L2 reward
+    → Connection.md v3.2 — social coupling, Valence-Momentary/Valence-Structural reward
 
   HEALTH CONDITIONS DRILL (v3.1):
 

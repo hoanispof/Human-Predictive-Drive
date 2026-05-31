@@ -10,7 +10,7 @@ scope: |
   TẠI SAO current approaches fail (knowledge-behavior gap = PFC vs body-level),
   FRAMEWORK PRINCIPLES per-age (0-3 / 3-6 / 6-12 / 12-18),
   5 schemas CẦN compile + 5 schemas KHÔNG NÊN compile,
-  COMMON MISTAKES × mechanism, L2 bonds boundary, cultural considerations, AI era.
+  COMMON MISTAKES × mechanism, Valence-Structural bonds boundary, cultural considerations, AI era.
   v1.1: +Compiled Quality Dimension, +Hardware-Subsidy, +Entity-Access,
   +Dissonance-Signal-Architecture, +PFC Budget. Cross-refs version bumps.
   File này = Observation ỨNG DỤNG, KHÔNG phải mechanism file.
@@ -35,7 +35,7 @@ position: |
     - Background-Pattern.md v2.0 (2D model Depth×Density, invisible bias)
 dependencies:
   primary:
-    - Money-Analysis.md v1.0 — 3-layer def, 5 functions, 6 paths, gap shift, L2×tiền
+    - Money-Analysis.md v1.0 — 3-layer def, 5 functions, 6 paths, gap shift, Valence-Structural×tiền
     - Education-Mechanism.md v2.0 — 8 nguyên lý, bridge, 4 nguồn fill, approach/avoidance
     - Child-Development-Mechanism.md — PFC reframe, 4+1 compile, approach/avoidance tags
     - Background-Pattern.md v1.0 — 2D model, sleep accelerator, invisible bias
@@ -59,7 +59,7 @@ dependencies:
     - Compile-Taxonomy.md v2.0 — Trust Compile external install
     - Cortisol-Baseline.md v2.0 — amplifier, direction > level
     - Anchor-Schema.md v1.2 — 4 nguồn fill, trust
-    - Connection.md v5.0 — L2 bonds, 2-luồng, Hardware-Subsidy, Entity-Access
+    - Connection.md v5.0 — Valence-Structural bonds, 2-luồng, Hardware-Subsidy, Entity-Access
     - Threat.md — 3 ORIGIN taxonomy
 research:
     - Whitebread & Bingham 2013 — money habits set by age 7 (UK Money Advice Service)
@@ -112,7 +112,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §4 — PER-AGE GUIDE: COMPILE GÌ, KHI NÀO
 - §5 — 5 SCHEMAS CẦN COMPILE + 5 SCHEMAS KHÔNG NÊN
 - §6 — COMMON MISTAKES × FRAMEWORK MECHANISM
-- §7 — TIỀN × L2 BONDS: KHI NÀO KHÔNG DẠY VỀ TIỀN
+- §7 — TIỀN × Valence-Structural BONDS: KHI NÀO KHÔNG DẠY VỀ TIỀN
 - §8 — CULTURAL CONSIDERATIONS
 - §9 — AI ERA: MONEY EDUCATION KHI KINH TẾ THAY ĐỔI
 - §10 — HONEST ASSESSMENT
@@ -129,7 +129,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Money-Analysis.md (Research/)
     = PHÂN TÍCH toàn diện tiền qua framework (~1,826L)
-    = 3-layer definition, 5 functions, 6 paths, gap shift, L2 paradox
+    = 3-layer definition, 5 functions, 6 paths, gap shift, Valence-Structural paradox
     = GENERAL — áp dụng cho mọi người, mọi tuổi
 
   Money-Education.md (Research/Education/Observation/) ← ĐÂY
@@ -166,7 +166,7 @@ FILE NÀY LÀM:
   ✓ Framework principles cho money education (derived, not new mechanism)
   ✓ Per-age guide: compile GÌ, KHI NÀO, direction NÀO
   ✓ Common mistakes × cơ chế framework
-  ✓ L2 bonds boundary: khi nào KHÔNG dùng tiền
+  ✓ Valence-Structural bonds boundary: khi nào KHÔNG dùng tiền
   ✓ Cultural + AI era considerations
 
 FILE NÀY KHÔNG LÀM:
@@ -816,7 +816,7 @@ FILE NÀY TRẢ LỜI:
     Allowance GẮN VỚI chores = RISKY:
       → "Rửa bát = 5,000đ" → monetize việc nhà → kill contribution drive
       → Nếu MUỐN gắn → gắn với EXTRA tasks, không core responsibilities
-      → Core responsibilities = "vì mình thuộc gia đình" (L2, không monetize)
+      → Core responsibilities = "vì mình thuộc gia đình" (Valence-Structural, không monetize)
 
   🟢 Overjustification: Deci 1971, Lepper et al. 1973
   🟡 "Bảo vệ approach tag" = framework principle applied
@@ -1170,7 +1170,7 @@ FILE NÀY TRẢ LỜI:
   ④ [TIỀN KHÔNG MUA ĐƯỢC MỌI THỨ]:
     → Money-Analysis §6: 7 trường hợp vô dụng
     → Đặc biệt: bạn thân, sức khỏe, hiểu biết, ý nghĩa
-    → Compile qua: trải nghiệm L2 bonds + meaning + health
+    → Compile qua: trải nghiệm Valence-Structural bonds + meaning + health
     → Age: 6-12 (intuitive), 12-18 (explicit)
     → Direction: approach ("tôi biết ĐÚNG tool cho ĐÚNG gap")
 
@@ -1370,7 +1370,7 @@ FILE NÀY TRẢ LỜI:
   GIẢI PHÁP:
     → CELEBRATE thành tích bằng EXPERIENCE (không tiền):
       "Con đạt điểm tốt → mình đi ĂN KEM cùng nhau!"
-      → Connection reward (L2) > monetary reward (external)
+      → Connection reward (Valence-Structural) > monetary reward (external)
     → Không phạt tiền cho kém — INSTEAD: tìm root cause
       (prerequisite thiếu? direction sai? hardware mismatch?)
     → Tiền và học = 2 domain TÁCH BIỆT
@@ -1414,74 +1414,74 @@ FILE NÀY TRẢ LỜI:
 
 ---
 
-## §7 — TIỀN × L2 BONDS: KHI NÀO KHÔNG DẠY VỀ TIỀN
+## §7 — TIỀN × Valence-Structural BONDS: KHI NÀO KHÔNG DẠY VỀ TIỀN
 
 ### §7.1 — Insight cốt lõi: nơi tiền bị cấm
 
 ```
 ⭐ MONEY-ANALYSIS §5.5 + §6.3 — INSIGHT QUAN TRỌNG:
 
-  L2 Depth × Tiền effectiveness = INVERSE RELATIONSHIP:
+  Valence-Structural Depth × Tiền effectiveness = INVERSE RELATIONSHIP:
 
-  ┌────────────────────┬──────────────┬──────────────────────┐
-  │ Relationship       │ Tiền role    │ Con CẦN hiểu          │
-  ├────────────────────┼──────────────┼──────────────────────┤
-  │ Stranger           │ MẠNH NHẤT    │ "Mua hàng → trả tiền │
-  │ (L2 = 0)           │ Exchange     │  → OK, BÌNH THƯỜNG"  │
-  ├────────────────────┼──────────────┼──────────────────────┤
-  │ Bạn thường         │ MỘT PHẦN    │ "Chia bill → OK,      │
-  │ (L2 thấp)          │              │  nhưng đừng tính     │
-  │                    │              │  từng đồng"          │
-  ├────────────────────┼──────────────┼──────────────────────┤
-  │ Bạn thân           │ GIỚI HẠN    │ "Trả tiền = awkward.  │
-  │ (L2 cao)           │              │  Giúp vì QUAN TÂM"   │
-  ├────────────────────┼──────────────┼──────────────────────┤
-  │ Gia đình           │ BỊ CẤM      │ "ĐỪNG tính tiền với   │
-  │ (L2 cực cao)       │              │  bố mẹ, anh chị em" │
-  └────────────────────┴──────────────┴──────────────────────┘
+  ┌──────────────────────────────┬──────────────┬──────────────────────┐
+  │ Relationship                 │ Tiền role    │ Con CẦN hiểu          │
+  ├──────────────────────────────┼──────────────┼──────────────────────┤
+  │ Stranger                     │ MẠNH NHẤT    │ "Mua hàng → trả tiền │
+  │ (Valence-Structural = 0)     │ Exchange     │  → OK, BÌNH THƯỜNG"  │
+  ├──────────────────────────────┼──────────────┼──────────────────────┤
+  │ Bạn thường                   │ MỘT PHẦN    │ "Chia bill → OK,      │
+  │ (Valence-Structural thấp)    │              │  nhưng đừng tính     │
+  │                              │              │  từng đồng"          │
+  ├──────────────────────────────┼──────────────┼──────────────────────┤
+  │ Bạn thân                     │ GIỚI HẠN    │ "Trả tiền = awkward.  │
+  │ (Valence-Structural cao)     │              │  Giúp vì QUAN TÂM"   │
+  ├──────────────────────────────┼──────────────┼──────────────────────┤
+  │ Gia đình                     │ BỊ CẤM      │ "ĐỪNG tính tiền với   │
+  │ (Valence-Structural cực cao) │              │  bố mẹ, anh chị em" │
+  └──────────────────────────────┴──────────────┴──────────────────────┘
 
-  → L2 càng sâu → tiền càng bị cấm → obligation càng implicit
+  → Valence-Structural càng sâu → tiền càng bị cấm → obligation càng implicit
   → "Ân tình tồn tại CHÍNH XÁC ở boundary tiền bị cấm"
 
 
   TẠI SAO QUAN TRỌNG CHO EDUCATION:
     → Trẻ cần compile: "CÓ NƠI tiền KHÔNG áp dụng"
-    → Không compile → trưởng thành monetize L2 → phá hủy relationships
-    → "Anh trả em 500K cho 18 năm nuôi em" = L2 destruction
+    → Không compile → trưởng thành monetize Valence-Structural → phá hủy relationships
+    → "Anh trả em 500K cho 18 năm nuôi em" = Valence-Structural destruction
     → = Con cần BIẾT: tiền = tool cho exchange, KHÔNG cho love
 
-  🟡 L2 × tiền = inverse = Money-Analysis §5.5 + §6.3
+  🟡 Valence-Structural × tiền = inverse = Money-Analysis §5.5 + §6.3
 
   🟡 ENTITY-ACCESS LENS (Entity-Access.md v1.2):
     → Tiền thay đổi WHO con access, không chỉ WHAT con mua:
       Giàu → access mentors, networks, communities (Mức 3-4)
       Nghèo → access restricted (Mức 1-2 only)
     → Con CẦN hiểu: tiền = Entity-Access modulator
-    → NHƯNG: L2 bonds KHÔNG cần tiền để access (bạn thân ≠ tiền)
+    → NHƯNG: Valence-Structural bonds KHÔNG cần tiền để access (bạn thân ≠ tiền)
     → = Tiền mở CÁNH CỬA, nhưng relationship quality = INSIDE the room
     → Education: "tiền giúp con GẶP nhiều người — CHỌN ai ở lại = không tiền"
 ```
 
-### §7.2 — Dạy con phân biệt: Exchange vs L2
+### §7.2 — Dạy con phân biệt: Exchange vs Valence-Structural
 
 ```
 🟡 CHUNKS CẦN COMPILE:
 
   ① "VIỆC GIA ĐÌNH ≠ CÔNG VIỆC":
-    → Rửa bát cho gia đình = L2 (thuộc về, đóng góp)
+    → Rửa bát cho gia đình = Valence-Structural (thuộc về, đóng góp)
     → Rửa bát cho nhà hàng = Exchange (effort → tiền)
     → CÙNG hành vi, KHÁC relationship mode
-    → → Monetize việc gia đình = reclassify L2 → Exchange → phá L2
+    → → Monetize việc gia đình = reclassify Valence-Structural → Exchange → phá Valence-Structural
 
   ② "GIÚP BẠN ≠ DỊCH VỤ":
-    → Giúp bạn dọn nhà = L2 (friendship)
+    → Giúp bạn dọn nhà = Valence-Structural (friendship)
     → Thuê người dọn nhà = Exchange (tiền → service)
     → Trẻ cần feel KHÁC BIỆT giữa 2 mode
     → Compile qua: trải nghiệm GIÚP bạn → body feel connection reward
       vs mua service → body feel tiện lợi nhưng KHÔNG có connection
 
   ③ "GIFT ≠ PAYMENT":
-    → Gift = L2 signal ("tôi nghĩ về bạn")
+    → Gift = Valence-Structural signal ("tôi nghĩ về bạn")
     → Payment = Exchange ("bạn làm → tôi trả")
     → Trẻ compile qua: give gift → THẤY người nhận vui → body reward
     → ≠ pay bill → relief (cortisol stop)
@@ -1492,27 +1492,27 @@ FILE NÀY TRẢ LỜI:
     → 6-12: "Bạn giúp mình → mình giúp lại — không tính tiền"
     → 12-18: explicit: "Có chỗ dùng tiền, có chỗ KHÔNG"
 
-  🟡 Exchange vs L2 distinction = Obligation §5 + Connection §3.3
+  🟡 Exchange vs Valence-Structural distinction = Obligation §5 + Connection §3.3
 ```
 
 ### §7.3 — Tại sao gia đình giàu có risk RIÊNG
 
 ```
-🟡 TIỀN THAY THẾ L2 = PATTERN PHỔ BIẾN Ở GIA ĐÌNH GIÀU:
+🟡 TIỀN THAY THẾ Valence-Structural = PATTERN PHỔ BIẾN Ở GIA ĐÌNH GIÀU:
 
   PATTERN:
     → Bố mẹ bận → cho tiền thay vì TIME
     → "Con muốn gì bố mua" thay vì "bố chơi cùng con"
-    → Gifts thay thế presence → L2 bond YẾU dù material ĐẦY ĐỦ
+    → Gifts thay thế presence → Valence-Structural bond YẾU dù material ĐẦY ĐỦ
 
   FRAMEWORK MECHANISM:
-    → Connection.md §3.3: L2 bonds compile qua THỜI GIAN + EXPERIENCE
-    → Tiền mua L1 (exposure quantity) nhưng KHÔNG mua L2 (bond depth)
-    → Trẻ compile: [bố mẹ = provider, không phải L2 bond]
-    → = L2 structural weakness dù resource access CỰC CAO
+    → Connection.md §3.3: Valence-Structural bonds compile qua THỜI GIAN + EXPERIENCE
+    → Tiền mua Valence-Momentary (exposure quantity) nhưng KHÔNG mua Valence-Structural (bond depth)
+    → Trẻ compile: [bố mẹ = provider, không phải Valence-Structural bond]
+    → = Valence-Structural weakness dù resource access CỰC CAO
 
   HỆ QUẢ:
-    → Trưởng thành: resource access cao + L2 bond yếu
+    → Trưởng thành: resource access cao + Valence-Structural bond yếu
     → = Money-Analysis §6.5: "cô đơn giữa đám đông"
     → = Status cao + connection thấp = imbalance
 
@@ -1521,7 +1521,7 @@ FILE NÀY TRẢ LỜI:
     → Gift = BỔ SUNG, không THAY THẾ presence
     → Explicitly: "Bố MUỐN chơi với con" > "Bố mua cho con"
 
-  🟡 Tiền thay thế L2 = Connection §3.3 + Money-Analysis §6
+  🟡 Tiền thay thế Valence-Structural = Connection §3.3 + Money-Analysis §6
 ```
 
 ---
@@ -1538,7 +1538,7 @@ FILE NÀY TRẢ LỜI:
     → Collective/family orientation > individual independence
     → Parents demonstrate care qua instrumental/educational SUPPORT
       → Rather than emotional expression
-    → "Cho tiền = quan tâm" → money = L2 signal (KHÁC Western)
+    → "Cho tiền = quan tâm" → money = Valence-Structural signal (KHÁC Western)
 
   FRAMEWORK ANALYSIS:
 
@@ -1549,8 +1549,8 @@ FILE NÀY TRẢ LỜI:
       → Link Density CỰC CAO: từ Tết, giỗ, cưới, tang → multi-context
 
     HỆ QUẢ:
-      → Tiền GẮN VỚI L2 (không tách biệt như Western)
-      → → Monetize L2 = ACCEPTED trong culture → NHƯNG body vẫn detect mismatch
+      → Tiền GẮN VỚI Valence-Structural (không tách biệt như Western)
+      → → Monetize Valence-Structural = ACCEPTED trong culture → NHƯNG body vẫn detect mismatch
       → "Cho tiền = quan tâm" → VỪA ĐÚNG (intention) VỪA SAI (mechanism)
       → Đúng: intention = genuine care
       → Sai: body cần TIME + PRESENCE, tiền là proxy → incomplete
@@ -1593,7 +1593,7 @@ FILE NÀY TRẢ LỜI:
       → Link Density MODERATE: reinforced qua media, career culture
 
     HỆ QUẢ:
-      → Individual autonomy MẠNH → but L2 bonds có thể YẾU
+      → Individual autonomy MẠNH → but Valence-Structural bonds có thể YẾU
       → "Self-made" = approach tag (positive)
       → NHƯNG: "self-made" CÓ THỂ → isolation (mọi thứ tự mình)
       → Financial literacy education NHIỀU nhưng knowledge-behavior gap LỚNHƠN
@@ -1694,7 +1694,7 @@ FILE NÀY TRẢ LỜI:
   → Background-Pattern invisible qua Link Density
   → Overjustification khi external kill internal
   → Threshold adapt khi reward habituate
-  → L2 bonds bị phá khi monetize
+  → Valence-Structural bonds bị phá khi monetize
 
   → = 6 NGUYÊN LÝ ở §3 vẫn VALID trong AI era
   → Implementation THAY ĐỔI (AI tools mới, economy mới)
@@ -1732,9 +1732,9 @@ FILE NÀY TRẢ LỜI:
     → Guilt-trip, scarcity messaging, monetize performance, social comparison
     → = Giải thích TẠI SAO harmful (không chỉ "tránh")
 
-  ✅ L2 BONDS insight:
+  ✅ Valence-Structural BONDS insight:
     → Khi nào KHÔNG dùng tiền = unique framework contribution
-    → Trẻ cần compile boundary: exchange vs L2
+    → Trẻ cần compile boundary: exchange vs Valence-Structural
 
   ✅ CULTURAL × universal:
     → Acknowledge cultural differences
@@ -1806,7 +1806,7 @@ FILE NÀY TRẢ LỜI:
   │ §6 Common mistakes          │ 🟢→🟡   │ Overjustification: 🟢.        │
   │                              │          │ Other: 🟡 framework applied  │
   ├──────────────────────────────┼──────────┼──────────────────────────────┤
-  │ §7 L2 bonds                 │ 🟡       │ Framework insight.            │
+  │ §7 Valence-Structural bonds  │ 🟡       │ Framework insight.            │
   │                              │          │ Unique but untested.         │
   ├──────────────────────────────┼──────────┼──────────────────────────────┤
   │ §8 Cultural                 │ 🟡       │ Research 🟢 (Takahashi).      │
@@ -1863,7 +1863,7 @@ NỀN TẢNG TRỰC TIẾP
 
 → Money-Analysis.md v1.0 — ⭐ NỀN TẢNG CỐT LÕI
   3-layer def (§1), 5 functions (§3), 6 paths (§4), gap shift (§4.4),
-  6 over-reward (§5), 7 useless cases (§6), L2×tiền inverse (§6.3),
+  6 over-reward (§5), 7 useless cases (§6), Valence-Structural×tiền inverse (§6.3),
   tiền ≈ ngôn ngữ (§1.4). Q8 = file này trả lời.
 
 → Education-Mechanism.md v2.0 — NGUYÊN LÝ ARC DESIGN
@@ -1910,9 +1910,9 @@ OBSERVATION PARAMETERS
   3 mechanisms (§3), cho đi = approach (§5).
   Kết nối: §5.1⑤ (share schema).
 
-→ Connection.md v5.0 — L2 Bonds + Hardware-Subsidy + Entity-Access
-  2-luồng (§3.3), L2 structural (§5), Hardware-Subsidy (§7), Resonance Decline (§8).
-  Kết nối: §7 (L2 × tiền).
+→ Connection.md v5.0 — Valence-Structural Bonds + Hardware-Subsidy + Entity-Access
+  2-luồng (§3.3), Valence-Structural (§5), Hardware-Subsidy (§7), Resonance Decline (§8).
+  Kết nối: §7 (Valence-Structural × tiền).
 
 → Threat.md — 3 ORIGIN Taxonomy
   Domain/Peer/Imposed (§5.5).
@@ -1973,7 +1973,7 @@ NEW CONCEPT INTEGRATIONS (v1.1)
 > *Natural consequences, Không monetize internal drive, Teach proxy nature.*
 > *4 phases: Observation (0-3) → First Experience (3-6) → Management (6-12) → Real World (12-18).*
 > *5 healthy schemas + 5 toxic schemas.*
-> *L2 insight: nơi tiền bị cấm = nơi relationship sâu nhất.*
+> *Valence-Structural insight: nơi tiền bị cấm = nơi relationship sâu nhất.*
 > *Direction > Level = valid mọi culture, mọi era.*
 > *"Bố mẹ đang dạy con về tiền — dù không cố ý."*
 > *v1.1: +Compiled Quality Dimension, +Hardware-Subsidy, +Entity-Access,*

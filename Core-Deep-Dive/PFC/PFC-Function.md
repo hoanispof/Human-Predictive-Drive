@@ -275,17 +275,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      CÙNG CƠ CHẾ:
        "Chanh" → compiled taste chunks → salivation (universal)
        "Con chó cắn" → fear chunks → NE → heart rate ↑
-       "Mẹ" → L2 compiled chunks → warmth (if L2 deep)
+       "Mẹ" → Valence-Structural compiled chunks → warmth (if Valence-Structural deep)
        Thiền sư = refined proxy (practice → meta-chunks SÂU → precise)
      → PFC chỉ control bước 1 (decide recall). Bước 2+ = automatic.
 
      FAIL CONDITIONS:
        → "Tim đập nhanh đi" = no chunk to fire → FAIL
        → Trầm cảm: cortisol suppress opioid → "nghĩ mà không cảm"
-       → L2 chưa compiled đủ → recall weak → body respond weak
+       → Valence-Structural chưa compiled đủ → recall weak → body respond weak
 
      "Ý chí" = KHÔNG phải PFC force body.
-     "Ý chí" = body có ĐỦ proxy trigger sources (meaning+L2+ritual+group).
+     "Ý chí" = body có ĐỦ proxy trigger sources (meaning+Valence-Structural+ritual+group).
 
      → Chi tiết: Body-Coupling §1.4 Kênh F
      🟡 Proxy trigger as unified mechanism = Drill-L2 §3.6

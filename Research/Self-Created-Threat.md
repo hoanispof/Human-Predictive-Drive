@@ -965,7 +965,7 @@ EDUCATION FILES (tạo novelty-pull từ nhỏ):
 BACKUP (source material):
 
   _backup/Drive-v75-era/Novelty-Loop.md §4.1-4.3 — Original detailed analysis
-  _backup/Drive-v75-era/Drive.md §5 Mode 5      — Self-created threat + Jensen case
+  _backup/Drive-v75-era/Drive.md §5 Drive-PFC-Strategic — Self-created threat + Jensen case
 ```
 
 ---

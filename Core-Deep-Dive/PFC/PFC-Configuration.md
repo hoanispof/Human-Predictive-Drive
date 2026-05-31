@@ -204,7 +204,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   = "Default operating system." Mọi function ĐỀU sẵn sàng nhưng
     KHÔNG ĐỀU tối ưu (jack of all trades).
 
-  Drive participation: có thể kết hợp với Mode 1-6 (Drive.md §2).
+  Drive participation: có thể kết hợp với Drive-PFC-Absent through Override (Drive.md §2).
 
 
   ═══════════════════════════════════════════════════
@@ -234,7 +234,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Khi nào: flow state — expertise + challenge + no interruption.
   Chi tiết flow prerequisites: Drill §6.1
-  Drive participation: typically Mode 4 (Resolve) — scan → match → act.
+  Drive participation: typically Drive-PFC-Resolve — scan → match → act.
   🟢 Csikszentmihalyi 1990, Limb & Braun 2008, Dietrich 2004
 
 
@@ -262,7 +262,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = ACC not flagging conflicting signals
 
   Khi nào: deliberate practice, trained states, guided contexts.
-  Drive participation: typically Mode 4-5 (Resolve/Strategic in training context).
+  Drive participation: typically Drive-PFC-Resolve/Strategic in training context.
   🟢 Lutz et al. 2008 (meditation neuroscience), Raz et al. 2005 (hypnosis)
   🟡 Meditation as "reconfigured" (not just "reduced") = framework
 
@@ -291,7 +291,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   = Strategy A defense — "fight/flight" pathway. Chi tiết: §7.
 
   Khi nào: acute threat (real or perceived).
-  Drive participation: Mode 1 (Absent) — PFC absent BECAUSE disconnected.
+  Drive participation: Drive-PFC-Absent — PFC absent BECAUSE disconnected.
   🟢 Arnsten 2009, LeDoux 1996, Mobbs et al. 2007
 
 
@@ -319,8 +319,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → ⑲ Override: bình thường = "chịu đói vì deadline" (temporary)
       Weaponized = "sống mà không cảm" (chronic)
 
-  Config ⑤ = Drive Mode 6 (Override) AUTOMATIC + CHRONIC:
-    → Drive Mode 6 bình thường: deliberate, temporary, costly but purposeful
+  Config ⑤ = Drive-PFC-Override AUTOMATIC + CHRONIC:
+    → Drive-PFC-Override bình thường: deliberate, temporary, costly but purposeful
     → Config ⑤: body tự kích hoạt, chronic, cost CỰC CAO
     → = Strategy B defense — "freeze/dissociate" pathway. Chi tiết: §7.
 
@@ -330,7 +330,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Strategy A failed (inescapable) → Strategy B compiled as DEFAULT
 
   Khi nào: inescapable threat, caregiver trauma, chronic unsafe context.
-  Drive participation: Mode 6 (Override) — stuck in override.
+  Drive participation: Drive-PFC-Override — stuck in override.
   🟢 Lanius 2010, Sierra & Berrios 1998
   🟡 "4 functions weaponized" taxonomy = framework
 
@@ -562,12 +562,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └────────────────────────┴────────────┴──────────────┴───────────────────┘
 
   STRATEGIC (4):
-  ┌────────────────────────┬────────────┬──────────────┬───────────────────┐
-  │ ㉑ Smooth Melody        │ ACC+dlPFC  │ vmPFC        │ 🟡                │
-  │ ㉒ Choose Between Goals │ OFC+dlPFC  │ vmPFC        │ 🟢 Padoa-S 2011   │
-  │ ㉓ Accept Temp. Disson. │ ACC+dlPFC  │ vmPFC        │ 🟡                │
-  │ ㉔ Hijack Body-Input    │ dlPFC      │ motor cortex │ 🟡                │
-  └────────────────────────┴────────────┴──────────────┴───────────────────┘
+  ┌──────────────────────────────┬────────────┬──────────────┬───────────────────┐
+  │ ㉑ Smooth Melody              │ ACC+dlPFC  │ vmPFC        │ 🟡                │
+  │ ㉒ Choose Between Goals       │ OFC+dlPFC  │ vmPFC        │ 🟢 Padoa-S 2011   │
+  │ ㉓ Accept Temporary Dissonance│ ACC+dlPFC  │ vmPFC        │ 🟡                │
+  │ ㉔ Hijack Body-Input          │ dlPFC      │ motor cortex │ 🟡                │
+  └──────────────────────────────┴────────────┴──────────────┴───────────────────┘
 
 
   ⭐ dlPFC AS HUB + BOTTLENECK:
@@ -678,26 +678,26 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └──────────────────┴────────┴────────┴────────┴────────┴────────┴────────┘
 
   STRATEGIC (4):
-  ┌──────────────────┬────────┬────────┬────────┬────────┬────────┬────────┐
-  │ ㉑ Smooth Melody  │ ✅     │ ✅task │ ⚠️     │ ❌     │ ❌rig  │ ❌     │
-  │ ㉒ Choose Goals   │ ✅     │ ❌one  │ ❌     │ ❌     │ ❌stck │ ❌     │
-  │ ㉓ Accept Disson. │ ✅     │ ❌     │ ❌     │ ❌     │ ❌     │ ❌     │
-  │ ㉔ Hijack Body-In │ ✅     │ ✅task │ ❌     │ ❌     │ ❌     │ ❌     │
-  └──────────────────┴────────┴────────┴────────┴────────┴────────┴────────┘
+  ┌────────────────────┬────────┬────────┬────────┬────────┬────────┬────────┐
+  │ ㉑ Smooth Melody    │ ✅     │ ✅task │ ⚠️     │ ❌     │ ❌rig  │ ❌     │
+  │ ㉒ Choose Goals     │ ✅     │ ❌one  │ ❌     │ ❌     │ ❌stck │ ❌     │
+  │ ㉓ Accept Dissonance│ ✅     │ ❌     │ ❌     │ ❌     │ ❌     │ ❌     │
+  │ ㉔ Hijack Body-Input│ ✅     │ ✅task │ ❌     │ ❌     │ ❌     │ ❌     │
+  └────────────────────┴────────┴────────┴────────┴────────┴────────┴────────┘
 
 
   ⭐ CONFIGURATION PROFILES (approximate counts):
 
-  ┌──────────┬─────────────────────────┬────────┬────────┬────────┐
-  │ Config   │ Description             │ Active │ Altered│ Enhanc.│
-  ├──────────┼─────────────────────────┼────────┼────────┼────────┤
-  │ ① Normal │ All available           │  24    │   0    │   0    │
-  │ ② Reallo │ Task-serving subset     │  ~14   │   0    │   0    │
-  │ ③ Reconf │ Suggestion-guided       │  ~10   │  ~4    │   0    │
-  │ ④ Discon │ ALL PFC offline         │   0    │   0    │   0    │
-  │ ⑤ Hyper  │ 4 func. weaponized      │  ~3    │  ~8    │   1    │
-  │ ⑥ Disint │ Only ⑭ enhanced         │   0    │   0    │   1    │
-  └──────────┴─────────────────────────┴────────┴────────┴────────┘
+  ┌────────────────────┬─────────────────────────┬────────┬────────┬─────────┐
+  │ Config             │ Description             │ Active │ Altered│ Enhanced│
+  ├────────────────────┼─────────────────────────┼────────┼────────┼─────────┤
+  │ ① Normal           │ All available           │  24    │   0    │   0     │
+  │ ② Reallocation     │ Task-serving subset     │  ~14   │   0    │   0     │
+  │ ③ Reconfiguration  │ Suggestion-guided       │  ~10   │  ~4    │   0     │
+  │ ④ Disconnected     │ ALL PFC offline         │   0    │   0    │   0     │
+  │ ⑤ Hyperactivated   │ 4 func. weaponized      │  ~3    │  ~8    │   1     │
+  │ ⑥ Disintegration   │ Only ⑭ enhanced         │   0    │   0    │   1     │
+  └────────────────────┴─────────────────────────┴────────┴────────┴─────────┘
 
 
   ⭐ KEY PATTERNS FROM SURVIVAL MATRIX:
@@ -744,7 +744,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ 2 TAXONOMIES — ORTHOGONAL BUT CONSTRAINED:
 
   Drive.md §2 — PFC PARTICIPATION (quantitative):
-    "PFC bận CỠ NÀO?" → Mode 1-6: Absent → Monitor → Spinning →
+    "PFC bận CỠ NÀO?" → 6 Drive-PFC modes: Absent → Monitor → Spinning →
     Resolve → Strategic → Override. = HOW MUCH PFC engages.
 
   PFC-Configuration.md §2 — PFC CONFIGURATION (qualitative):
@@ -759,35 +759,35 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   COMPATIBILITY MATRIX — not all combinations possible:
 
-  ┌──────────────────┬────────┬────────┬────────┬────────┬────────┬────────┐
-  │ Participation    │①Normal │②Reallo │③Reconf │④Discon │⑤Hyper  │⑥Disint │
-  ├──────────────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-  │ Mode 1 Absent    │ —      │ —      │ —      │ ✅     │ —      │ —      │
-  │ Mode 2 Monitor   │ ✅     │ —      │ ⚠️rare │ —      │ —      │ —      │
-  │ Mode 3 Spinning  │ ✅     │ —      │ —      │ —      │ ⚠️chr  │ —      │
-  │ Mode 4 Resolve   │ ✅     │ ✅flow │ ✅trn  │ —      │ —      │ —      │
-  │ Mode 5 Strategic │ ✅     │ —      │ ✅trn  │ —      │ —      │ —      │
-  │ Mode 6 Override  │ ✅     │ —      │ —      │ —      │ ✅diss │ —      │
-  └──────────────────┴────────┴────────┴────────┴────────┴────────┴────────┘
+  ┌─────────────────────┬────────┬────────┬────────┬────────┬────────┬────────┐
+  │ Participation       │①Normal │②Reallo │③Reconf │④Discon │⑤Hyper  │⑥Disint │
+  ├─────────────────────┼────────┼────────┼────────┼────────┼────────┼────────┤
+  │ Drive-PFC-Absent    │ —      │ —      │ —      │ ✅     │ —      │ —      │
+  │ Drive-PFC-Monitor   │ ✅     │ —      │ ⚠️rare │ —      │ —      │ —      │
+  │ Drive-PFC-Spinning  │ ✅     │ —      │ —      │ —      │ ⚠️chr  │ —      │
+  │ Drive-PFC-Resolve   │ ✅     │ ✅flow │ ✅trn  │ —      │ —      │ —      │
+  │ Drive-PFC-Strategic │ ✅     │ —      │ ✅trn  │ —      │ —      │ —      │
+  │ Drive-PFC-Override  │ ✅     │ —      │ —      │ —      │ ✅diss │ —      │
+  └─────────────────────┴────────┴────────┴────────┴────────┴────────┴────────┘
 
 
   ⭐ NATURAL PAIRINGS:
 
-  Mode 1 (Absent) + Config ④ (Disconnected):
+  Drive-PFC-Absent + Config ④ (Disconnected):
     = Acute threat. PFC absent BECAUSE disconnected.
     → NE α1 flood → PFC offline → subcortical takeover.
 
-  Mode 3 (Spinning) + Config ⑤ (Hyperactivated):
+  Drive-PFC-Spinning + Config ⑤ (Hyperactivated):
     = Anxious dissociation. PFC spinning + hyperactivated.
     → Try solutions → fail → try → fail → weaponized inhibit.
     → = WHY anxious dissociation feels "stuck AND numb."
 
-  Mode 4 (Resolve) + Config ② (Reallocation):
+  Drive-PFC-Resolve + Config ② (Reallocation):
     = Flow state. PFC resolving + reallocated to task.
     → Expertise + challenge → resolve cycle → reallocation amplifies.
     → = Csikszentmihalyi flow = this exact pairing.
 
-  Mode 6 (Override) + Config ⑤ (Hyperactivated):
+  Drive-PFC-Override + Config ⑤ (Hyperactivated):
     = Clinical dissociation. Override + hyperactivated.
     → Body says stop → PFC overrides → chronic → damage.
     → = Lanius dissociative PTSD subtype.
@@ -800,15 +800,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ IMPOSSIBLE COMBINATIONS (follow from sub-region requirements):
 
-  Mode 1 (Absent) + Config ⑤ (Hyperactivated):
+  Drive-PFC-Absent + Config ⑤ (Hyperactivated):
     → Can't hyperactivate PFC AND have PFC absent.
     → Mutually exclusive by definition.
 
-  Mode 4 (Resolve) + Config ④ (Disconnected):
+  Drive-PFC-Resolve + Config ④ (Disconnected):
     → Can't resolve problems with PFC disconnected.
     → dlPFC offline → ⑤ Hold lost → resolve impossible.
 
-  Mode 5 (Strategic) + Config ⑥ (Disintegrated):
+  Drive-PFC-Strategic + Config ⑥ (Disintegrated):
     → Can't be strategic when hierarchy disintegrated.
     → Meta-cognition requires coherent self-model → collapsed in ⑥.
 
@@ -818,20 +818,20 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   REAL-WORLD MAPPING:
 
-  ┌──────────────────────────┬───────────────────────────────────┐
-  │ Experience               │ Participation × Configuration     │
-  ├──────────────────────────┼───────────────────────────────────┤
-  │ Normal daily life        │ Mode 1-2 + Config ①              │
-  │ Problem-solving          │ Mode 4 + Config ①                │
-  │ Flow state               │ Mode 4 + Config ②                │
-  │ Meditation (focused)     │ Mode 4-5 + Config ③              │
-  │ Panic attack             │ Mode 1 + Config ④                │
-  │ Anxious rumination       │ Mode 3 + Config ⑤ (partial)      │
-  │ Dissociative episode     │ Mode 6 + Config ⑤                │
-  │ Psychedelic session      │ N/A + Config ⑥                   │
-  │ Strategic planning       │ Mode 5 + Config ①                │
-  │ Override (deadline push) │ Mode 6 + Config ①                │
-  └──────────────────────────┴───────────────────────────────────┘
+  ┌──────────────────────────┬──────────────────────────────────────────────┐
+  │ Experience               │ Participation × Configuration                │
+  ├──────────────────────────┼──────────────────────────────────────────────┤
+  │ Normal daily life        │ Drive-PFC-Absent/Monitor + Config ①         │
+  │ Problem-solving          │ Drive-PFC-Resolve + Config ①                │
+  │ Flow state               │ Drive-PFC-Resolve + Config ②                │
+  │ Meditation (focused)     │ Drive-PFC-Resolve/Strategic + Config ③      │
+  │ Panic attack             │ Drive-PFC-Absent + Config ④                 │
+  │ Anxious rumination       │ Drive-PFC-Spinning + Config ⑤ (partial)     │
+  │ Dissociative episode     │ Drive-PFC-Override + Config ⑤               │
+  │ Psychedelic session      │ N/A + Config ⑥                              │
+  │ Strategic planning       │ Drive-PFC-Strategic + Config ①              │
+  │ Override (deadline push) │ Drive-PFC-Override + Config ①               │
+  └──────────────────────────┴──────────────────────────────────────────────┘
 
   Source: Drill §3.18 ❻ (R2 orthogonal taxonomies).
 ```
@@ -1264,7 +1264,7 @@ PHYSICAL MAP:
     → §4 mapping verified against this reference
 
 DRIVE INTEGRATION:
-  Drive.md v1.1 §2 — 6 participation modes (orthogonal taxonomy)
+  Drive.md v1.2 §2 — 6 Drive-PFC participation modes (orthogonal taxonomy)
     → §6 compatibility matrix links both taxonomies
 
 REWARD:

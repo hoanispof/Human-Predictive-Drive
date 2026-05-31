@@ -1397,7 +1397,7 @@
   ② FAMILY CORE — GIẢM nhưng KHÔNG ZERO:
 
     → Nuclear family vẫn tồn tại (dù thinner)
-    → Parent-child bond = L2 deepest (Love-Unified §3)
+    → Parent-child bond = Valence-Structural deepest (Love-Unified §3)
     → = Connection function GIẢM nhưng CÓ baseline
     → Extended family weaker nhưng CHƯA BIẾN MẤT ở nhiều cultures
 
@@ -1961,7 +1961,7 @@
 
   → Expansion-Saturation-Crisis.md v1.1 — education shift
      Direction function broken → education-job mismatch.
-     FILE NÀY: Direction = 1 function, ESC = symptom.
+     FILE NÀY: Direction = 1 function, Expansion-Saturation-Crisis = symptom.
 
   → Education-Arms-Race.md v1.2 — credential inflation
      Check function broken → credential ≠ competence.

@@ -676,7 +676,7 @@ SCOPE OUT:
       → Gaps fire LIÊN TỤC nhưng INVISIBLE (habituated)
       → "Luôn cần có ai bên cạnh nhưng không nhận ra"
       → Stability: HIGH (tonic = background, slow change)
-      → Risk: khi tonic source MẤT → gap HIỆN RA đột ngột (Mode 2)
+      → Risk: khi tonic source MẤT → gap HIỆN RA đột ngột (Firing-Chunk-Miss)
 
     GENERATIVE-DOMINANT (abstract-domain center):
       → Gaps SELF-CREATE → NEVER fully satisfied
@@ -1796,7 +1796,7 @@ SCOPE OUT:
       → = "Mệt ở work → budget ít → Self-Pattern-Modeling cho con yếu" = KHÔNG phải "không yêu con"
 
 🟡 PFC Budget × gap distribution shift = PFC-Operations v1.0 §9 mapped to Gap-Distribution-Profile
-🟢 PFC finite metabolic resource: established neuroscience (Gailliot et al. 2007)
+🟢 PFC finite processing capacity: serial bottleneck + catecholamine (Kurzban 2013, Arnsten 2009)
 🟢 Concurrent hold limit ~4±1: Miller 1956 capacity, applied to PFC operations
 ```
 
@@ -2230,7 +2230,7 @@ SCOPE OUT:
     → Compilable Architecture general-purpose reward (established neuroscience)
     → Income-wellbeing plateau ~$75K (Kahneman & Deaton 2010)
     → Weber-Fechner logarithmic habituation (established psychophysics)
-    → PFC finite metabolic resource (Gailliot et al. 2007)
+    → PFC finite processing capacity (Kurzban 2013, Musslick & Cohen 2021)
     → Cyclic satiation via hormonal signals: leptin/ghrelin (established endocrinology)
 
   🟡 FRAMEWORK SYNTHESIS (consistent, testable, not mainstream term):

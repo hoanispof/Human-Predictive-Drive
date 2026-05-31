@@ -101,7 +101,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Framework v7.8 giải thích TẤT CẢ giai đoạn này bằng 3 primitives:
 > ❶ Hardware Social Drive × ❷ Self-Pattern-Modeling (Compiled + Fresh) × ❸ Per-Agent Valence.
 > Limerence = ❶ FLOOD + ❷ COMPOSITE fire + ❸ SHIFT mạnh → Body-Base Extension compile.
-> Attachment = ❶ maintenance + ❷ library SÂU + ❸ stable → L2 structural reward.
+> Attachment = ❶ maintenance + ❷ library SÂU + ❸ stable → Valence-Structural reward.
 > Break-up = Body-Base Extension BỊ CẮT → compound grief 8 pathways.
 >
 > Biết cơ chế ≠ bớt yêu. Biết cơ chế = yêu + NAVIGATE được.
@@ -194,7 +194,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   PHÂN BIỆT:
     File NÀY: ROMANTIC love deep-dive qua framework lens
-    Love-Unified.md: ALL love types unified view qua L2 mechanism
+    Love-Unified.md: ALL love types unified view qua Valence-Structural mechanism
     Body-Coupling.md v3.0: coupling MECHANISM (Hardware-Subsidy, 3 Firing Modes, Satiation)
     Connection.md v5.0: mechanism file — 3 primitives, 8 pathways
     Empathy.md v4.0: observation parameter — Self-Pattern-Modeling Compiled, burnout reframe
@@ -289,8 +289,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     └──────────┴────────────────────────┴───────────────────────────────┘
 
     → Limerence = giai đoạn Body-Base Extension COMPILE
-    → Attachment BỀN = L2 structural đã compile THÀNH CÔNG
-    → Attachment KHÔNG bền = L2 chưa compile → chỉ còn L1 → hết motivation
+    → Attachment BỀN = Valence-Structural đã compile THÀNH CÔNG
+    → Attachment KHÔNG bền = Valence-Structural chưa compile → chỉ còn Valence-Momentary → hết motivation
 
 
   ⭐ STRUCTURAL vs CURRENT VALENCE × ROMANTIC (v3.0 — Valence-Propagation v3.0 §3):
@@ -299,7 +299,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Slow to change (months/years). = CÁI ĐÃ COMPILE SÂU.
       Romantic: "yêu người này" = structural positive compiled.
 
-    CURRENT VALENCE: L1 momentary + activated L2 channels.
+    CURRENT VALENCE: Valence-Momentary + activated Valence-Structural channels.
       Changes per second. Context-dependent.
       Romantic: "hôm nay cãi nhau" = current negative.
 
@@ -470,9 +470,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Direct-State = "safe baseline reward" cho bonding lâu dài
       → = Tại sao physical affection DUY TRÌ bond khi novelty Evaluative giảm
 
-    → L1/L2 (§4) ORTHOGONAL với A/B:
-      L1 momentary chứa CẢ Evaluative moments + Direct-State moments
-      L2 structural compile từ TÍCH LŨY cả A + B qua thời gian
+    → Valence-Momentary/Valence-Structural (§4) ORTHOGONAL với A/B:
+      Valence-Momentary chứa CẢ Evaluative moments + Direct-State moments
+      Valence-Structural compile từ TÍCH LŨY cả A + B qua thời gian
       → 2 dimensions KHÁC NHAU, KHÔNG thay thế nhau
 
     (Chi tiết Evaluative/Direct-State: Reward-Signal-Architecture.md §1-§3)
@@ -796,7 +796,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                                                 │
   │  GIAI ĐOẠN 2 — SHIFT POSITIVE (gặp + lust):                     │
   │    → VTA fire prediction-delta (người mới + attractive)          │
-  │    → Valence profile: L1 positive (pleasant presence)            │
+  │    → Valence profile: Valence-Momentary positive (pleasant presence)            │
   │    → Vài channel bắt đầu active                                 │
   │    → Body-Base Extension: 0 (chưa compile)                      │
   │                                                                 │
@@ -876,7 +876,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Tại sao grief ≠ "tiếc" — grief = body-base amputation
 
     → Object KHÔNG BAO GIỜ tạo body-base extension (Valence-Propagation §2):
-      Object KHÔNG fire Self-Pattern-Modeling → không có L1 episodes tích lũy
+      Object KHÔNG fire Self-Pattern-Modeling → không có Valence-Momentary episodes tích lũy
       Object KHÔNG bidirectional → không mutual reinforcement
       Object DỄ thay thế → trust/dependency không compile đủ sâu
 ```
@@ -893,16 +893,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Khi interact với partner, body nhận 2 LUỒNG reward ĐỒNG THỜI:
 ```
 
-### §4.1 — Luồng 1: Self-Pattern-Modeling-owned, Momentary
+### §4.1 — Luồng 1 (Valence-Momentary): Self-Pattern-Modeling-owned
 
 ```
 🟡 LUỒNG 1 = BODY-FEEDBACK TỪ MỖI LẦN Self-Pattern-Modeling Compiled FIRE:
 
   Mỗi episode tương tác → Self-Pattern-Modeling Compiled fire → body simulate partner state:
-    → Partner vui → Compiled: body vui nhẹ → L1 POSITIVE
-    → Partner stress → Compiled: body khó chịu → L1 NEGATIVE
-    → Partner kể chuyện hay → Compiled: excited → L1 POSITIVE
-    → Partner cáu gắt → Compiled: defensive → L1 NEGATIVE
+    → Partner vui → Compiled: body vui nhẹ → Valence-Momentary POSITIVE
+    → Partner stress → Compiled: body khó chịu → Valence-Momentary NEGATIVE
+    → Partner kể chuyện hay → Compiled: excited → Valence-Momentary POSITIVE
+    → Partner cáu gắt → Compiled: defensive → Valence-Momentary NEGATIVE
 
   ĐẶC TÍNH:
     → MOMENTARY — fire TỪNG EPISODE, hết episode → hết signal
@@ -911,21 +911,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Tồn tại với MỌI agent (bạn bè, đồng nghiệp, người lạ)
     → KHÔNG riêng cho love — love CHỈ tăng INTENSITY
 
-  TRONG LIMERENCE: L1 CỰC MẠNH vì:
-    → Self-Pattern-Modeling fire COMPOSITE (5 Pattern-Types) → L1 amplitude CAO
+  TRONG LIMERENCE: Valence-Momentary CỰC MẠNH vì:
+    → Self-Pattern-Modeling fire COMPOSITE (5 Pattern-Types) → Valence-Momentary amplitude CAO
     → Salience CỰC CAO → body pay attention MỌI signal từ partner
     → = "Mỗi biểu cảm của partner đều ẢNH HƯỞNG MẠNH đến mình"
-    → = L1 positive khi partner vui = EUPHORIA
-    → = L1 negative khi partner buồn = ĐAU CỰC KỲ (dù mình không bị gì)
+    → = Valence-Momentary positive khi partner vui = EUPHORIA
+    → = Valence-Momentary negative khi partner buồn = ĐAU CỰC KỲ (dù mình không bị gì)
 ```
 
-### §4.2 — Luồng 2: Entity-Compiled, Structural
+### §4.2 — Luồng 2 (Valence-Structural): Entity-Compiled
 
 ```
 🟡 LUỒNG 2 = COMPILED VALENCE → BODY-BASE EXTENSION:
 
   Khi partner ĐÃ COMPILE thành body-base extension:
-    → L2 fire BẤT KỂ L1 positive hay negative
+    → Valence-Structural fire BẤT KỂ Valence-Momentary positive hay negative
     → SUSTAINED — không phụ thuộc từng episode
     → "Partner's wellbeing = MY wellbeing" (STRUCTURAL)
 
@@ -936,13 +936,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → CHỈ AGENT — object không bao giờ tạo được (Valence-Propagation §2)
     → CẦN THỜI GIAN compile — KHÔNG có ngay từ đầu
 
-  TRONG LIMERENCE → ATTACHMENT: L2 ĐANG COMPILE:
-    → Limerence cung cấp điều kiện tối ưu cho L2 compile:
+  TRONG LIMERENCE → ATTACHMENT: Valence-Structural ĐANG COMPILE:
+    → Limerence cung cấp điều kiện tối ưu cho Valence-Structural compile:
       Repetition CAO + saliency CAO + peak valence CAO + multi-modal + contingency
       (Body-Feedback-Mechanism §5 compile_rate formula — TẤT CẢ factors ĐỀU CAO khi limerence)
-    → L2 compile = gradient: từ "thích" → "thân" → "body-base extension"
-    → NẾU L2 compile XONG trước khi limerence hết → relationship BỀN
-    → NẾU L2 CHƯA compile → limerence hết → chỉ còn L1 → hết motivation
+    → Valence-Structural compile = gradient: từ "thích" → "thân" → "body-base extension"
+    → NẾU Valence-Structural compile XONG trước khi limerence hết → relationship BỀN
+    → NẾU Valence-Structural CHƯA compile → limerence hết → chỉ còn Valence-Momentary → hết motivation
 
 
   ⭐ PFC BUDGET × ROMANTIC (v3.0 — PFC-Operations v1.0 §3):
@@ -962,10 +962,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ BY-PRODUCT-SCALE × ROMANTIC (v3.0 — By-Product-Scale v1.0):
 
-    Romantic couple = Level 1 PAIR (By-Product-Scale v1.0 §1):
+    Romantic couple = Scale-Pair (By-Product-Scale v1.0 §1):
       → A↔B, oxytocin/dopamine, direct by-product match
-      → KHÔNG phải Level 2 Hub (trust bypass, serotonin, prestige)
-      → KHÔNG phải Level 3 Institutional (distributed, abstract trust)
+      → KHÔNG phải Scale-Hub (trust bypass, serotonin, prestige)
+      → KHÔNG phải Scale-Institutional (distributed, abstract trust)
       → = Romantic love = SIMPLEST scale, DEEPEST mechanism
 ```
 
@@ -974,54 +974,54 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ 2 LUỒNG INDEPENDENT — CÓ THỂ CONFLICT:
 
-  ┌────────────────────────────┬───────────┬───────────┬──────────────────┐
-  │ Tình huống                 │ L1        │ L2        │ Kết quả          │
-  ├────────────────────────────┼───────────┼───────────┼──────────────────┤
-  │ Partner vui, date đẹp      │ POSITIVE  │ POSITIVE  │ COMPOUND joy     │
-  │ → L1 + L2 cùng hướng      │           │           │ (gặp partner =   │
-  │                            │           │           │  cực tốt)        │
-  ├────────────────────────────┼───────────┼───────────┼──────────────────┤
-  │ Partner ốm, mình chăm     │ NEGATIVE  │ POSITIVE  │ VẪN CHĂM         │
-  │ → L1: simulate ốm = khó   │ (cost     │ (partner  │ (L2 > L1 cost)   │
-  │ → L2: partner = body-base │  THẬT)    │ = body-   │ = "sacrifice     │
-  │   extension → chăm = feed │           │ base ext) │   CÓ THỂ CHỊU"  │
-  │   body-base MÌNH           │           │           │                  │
-  ├────────────────────────────┼───────────┼───────────┼──────────────────┤
-  │ Bạn mới quen ốm           │ NEGATIVE  │ ≈ 0       │ Giúp nhưng GIỚI │
-  │ → L1: empathy cost        │ (cost     │ (chưa     │ HẠN (L1 cost    │
-  │ → L2: chưa compile        │  THẬT)    │ compiled) │ KHÔNG bù)       │
-  │   body-base extension      │           │           │ → Burnout nếu   │
-  │                            │           │           │   kéo dài       │
-  ├────────────────────────────┼───────────┼───────────┼──────────────────┤
-  │ Partner gây đau liên tục  │ NEGATIVE  │ POSITIVE  │ CONFLICT kéo dài │
-  │ → L1: cost MẠNH mỗi lần   │ (cost     │ (vẫn     │ "Yêu nhưng đau" │
-  │ → L2: vẫn extension       │ CỰC LỚN) │ compiled) │ → toxic nếu L1  │
-  │                            │           │           │   cost > L2     │
-  │                            │           │           │   → "phải rời"   │
-  └────────────────────────────┴───────────┴───────────┴──────────────────┘
+  ┌──────────────────────────────────────┬──────────────────┬──────────────────┬───────────────────────────────┐
+  │ Tình huống                           │ Valence-Momentary│ Valence-Structural│ Kết quả                       │
+  ├──────────────────────────────────────┼──────────────────┼──────────────────┼───────────────────────────────┤
+  │ Partner vui, date đẹp                │ POSITIVE         │ POSITIVE         │ COMPOUND joy                  │
+  │ → Valence-Momentary +               │                  │                  │ (gặp partner =                │
+  │   Valence-Structural cùng hướng      │                  │                  │  cực tốt)                     │
+  ├──────────────────────────────────────┼──────────────────┼──────────────────┼───────────────────────────────┤
+  │ Partner ốm, mình chăm               │ NEGATIVE         │ POSITIVE         │ VẪN CHĂM                      │
+  │ → Valence-Momentary: simulate ốm    │ (cost            │ (partner         │ (Valence-Structural >         │
+  │   = khó                              │  THẬT)           │ = body-          │  Valence-Momentary cost)      │
+  │ → Valence-Structural: partner =     │                  │ base ext)        │ = "sacrifice                  │
+  │   body-base extension → chăm =      │                  │                  │   CÓ THỂ CHỊU"               │
+  │   feed body-base MÌNH                │                  │                  │                               │
+  ├──────────────────────────────────────┼──────────────────┼──────────────────┼───────────────────────────────┤
+  │ Bạn mới quen ốm                     │ NEGATIVE         │ ≈ 0              │ Giúp nhưng GIỚI HẠN          │
+  │ → Valence-Momentary: empathy cost   │ (cost            │ (chưa            │ (Valence-Momentary cost       │
+  │ → Valence-Structural: chưa compile  │  THẬT)           │ compiled)        │ KHÔNG bù)                     │
+  │   body-base extension                │                  │                  │ → Burnout nếu kéo dài        │
+  ├──────────────────────────────────────┼──────────────────┼──────────────────┼───────────────────────────────┤
+  │ Partner gây đau liên tục            │ NEGATIVE         │ POSITIVE         │ CONFLICT kéo dài              │
+  │ → Valence-Momentary: cost MẠNH      │ (cost            │ (vẫn             │ "Yêu nhưng đau"              │
+  │   mỗi lần                            │ CỰC LỚN)        │ compiled)        │ → toxic nếu Valence-Momentary │
+  │ → Valence-Structural: vẫn extension │                  │                  │   cost > Valence-Structural   │
+  │                                      │                  │                  │   → "phải rời"                │
+  └──────────────────────────────────────┴──────────────────┴──────────────────┴───────────────────────────────┘
 
 
   ⭐ GIẢI THÍCH 4 CÂU HỎI PHỔ BIẾN:
 
   Q: "Tại sao mẹ chăm con ốm mà không burnout?"
-  A: L2 compiled CỰC MẠNH (con = body-base extension years deep)
-     → L2 > L1 cost → VẪN CHĂM, VẪN có sense of purpose
-     (so sánh: bác sĩ chăm bệnh nhân lạ → L2 ≈ 0 → burnout)
+  A: Valence-Structural compiled CỰC MẠNH (con = body-base extension years deep)
+     → Valence-Structural > Valence-Momentary cost → VẪN CHĂM, VẪN có sense of purpose
+     (so sánh: bác sĩ chăm bệnh nhân lạ → Valence-Structural ≈ 0 → burnout)
 
   Q: "Tại sao yêu sâu KHÁC thích?"
-  A: "Thích" = L1 positive (mỗi episode reward). "Yêu sâu" = L2 compiled
-     (structural, sustained). L2 tạo ra "yêu dù partner đang xấu tính"
+  A: "Thích" = Valence-Momentary positive (mỗi episode reward). "Yêu sâu" = Valence-Structural compiled
+     (structural, sustained). Valence-Structural tạo ra "yêu dù partner đang xấu tính"
      mà "thích" KHÔNG làm được.
 
   Q: "Tại sao biết người kia xấu mà vẫn không bỏ được?"
-  A: L1 negative liên tục (PFC biết "xấu"). NHƯNG L2 đã compiled
+  A: Valence-Momentary negative liên tục (PFC biết "xấu"). NHƯNG Valence-Structural đã compiled
      (body-base extension KHÔNG xóa được bằng PFC logic).
-     L2 compiled = body-level, C+D zones. PFC chỉ observe, không delete.
-     → Recovery cần L2 DẦN WEAKEN (no contact → chunks decay → L2 giảm).
+     Valence-Structural compiled = body-level, C+D zones. PFC chỉ observe, không delete.
+     → Recovery cần Valence-Structural DẦN WEAKEN (no contact → chunks decay → Valence-Structural giảm).
 
   Q: "Tại sao chia tay người mình không yêu cũng buồn?"
-  A: L2 có thể compile ở mức TRUNG BÌNH (habit, routine, presence signal)
-     DÙ L1 không đặc biệt positive. Mất = Chunk-Miss ở compiled baseline.
+  A: Valence-Structural có thể compile ở mức TRUNG BÌNH (habit, routine, presence signal)
+     DÙ Valence-Momentary không đặc biệt positive. Mất = Chunk-Miss ở compiled baseline.
      → "Không yêu" nhưng "quen" → mất = body dissonance THẬT.
 ```
 
@@ -1169,8 +1169,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       TẠI SAO toxic partners thường isolate
 
   ③ BODY-BASE EXTENSION DEPTH:
-    → L2 compiled CỰC SÂU → body RESIST "tỉnh" (vì tỉnh = mất body-base ext)
-    → L2 compiled NHẸ → "tỉnh" dễ hơn (ít cost)
+    → Valence-Structural compiled CỰC SÂU → body RESIST "tỉnh" (vì tỉnh = mất body-base ext)
+    → Valence-Structural compiled NHẸ → "tỉnh" dễ hơn (ít cost)
     → = Tại sao relationship SÂU khó bỏ HƠN relationship NÔNG
       dù CẢ HAI có red flags tương đương
 ```
@@ -1215,7 +1215,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        chunks compile CỰC NHANH
      → Oxytocin từ "chúng ta vs mọi người" = bonding TURBO
      → = "Trốn cùng nhau" = shared experience cực mạnh
-       → L2 body-base extension compile NHANH HƠN bình thường
+       → Valence-Structural body-base extension compile NHANH HƠN bình thường
 
   ④ REACTANCE ("trái cấm"):
      → Bị cấm → MUỐN HƠN (mọi thứ, không chỉ tình yêu)
@@ -1226,14 +1226,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Bình thường:
       Dopamine ↑ + NE ↑ + Serotonin ↓ + Oxytocin ↑ → PFC ↓
-      L1 momentary reward + L2 đang compile
+      Valence-Momentary reward + Valence-Structural đang compile
 
     Bị cấm — THÊM:
       + Protect ↑↑ (vasopressin, loss aversion amplified)
       + Cortisol Role ③ Threat-sustained ↑↑
       + Us-vs-them bonding turbo ↑↑
       + Reactance motivation ↑↑
-      = Intensity ×2-3 lần + L2 compile NHANH HƠN + PFC GIẢM HƠN
+      = Intensity ×2-3 lần + Valence-Structural compile NHANH HƠN + PFC GIẢM HƠN
       = "MÙ" hơn, "NGHIỆN" hơn, "SAY" hơn bình thường
 ```
 
@@ -1326,7 +1326,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Đã chọn nhầm (vô thức) → limerence FLOOD thêm
     → = Nhầm + mù = DOUBLE blind
     → Chỉ thấy khi tỉnh (phase 3) → có thể đã quá sâu
-      (L2 body-base extension đã compile → khó bỏ ở body level)
+      (Valence-Structural body-base extension đã compile → khó bỏ ở body level)
 ```
 
 ### §7.3 — Self-Pattern-Modeling childhood bias: RỘNG hơn trauma
@@ -1470,8 +1470,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → Parent calm → MORE consistent → ① TỐT HƠN
         → = ⑦ cao HỖ TRỢ ① cao — 2 biến REINFORCE
 
-      → Connection §7.1 (L2 strong + Compiled weak) = CƠ CHẾ CỦA ĐIỀU NÀY:
-        Parent yêu con (L2) nhưng KHÔNG simulate con đúng (Compiled fail VÌ ⑦ thấp)
+      → Connection §7.1 (Valence-Structural strong + Compiled weak) = CƠ CHẾ CỦA ĐIỀU NÀY:
+        Parent yêu con (Valence-Structural) nhưng KHÔNG simulate con đúng (Compiled fail VÌ ⑦ thấp)
 
 
     ⭐ BIẾN THỂ: "FUNCTIONAL AVOIDANT" (khi ⑤ + ⑦ thấp):
@@ -1750,7 +1750,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Window 18 tháng → 3 năm = thời gian CẢ 2 MOTIVATED nhất
     → Cả 2 đều MUỐN invest → dùng motivation đó build NỀN TẢNG THẬT
     → Nếu chỉ enjoy hormone mà không build → hết limerence = TAY TRẮNG
-      (L2 body-base extension CHƯA compile → không còn structural reward)
+      (Valence-Structural body-base extension CHƯA compile → không còn structural reward)
 ```
 
 ### §9.1 — Dùng limerence window build gì
@@ -1766,8 +1766,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     → Limerence cho MOTIVATION → dùng motivation đó tạo SHARED CHUNKS
     → Khi hormone hết → shared chunks VẪN CÒN → connection VẪN CÓ
-    → = L2 body-base extension compile SONG SONG với limerence
-    → = Chunks chung càng NHIỀU → L2 càng SÂU → relationship càng BỀN
+    → = Valence-Structural body-base extension compile SONG SONG với limerence
+    → = Chunks chung càng NHIỀU → Valence-Structural càng SÂU → relationship càng BỀN
 
 
   ② COMMUNICATION PATTERNS — compile cách resolve xung đột:
@@ -1915,14 +1915,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   LIMERENCE:
     → ❶ hardware FLOOD + ❷ Self-Pattern-Modeling composite MAX + ❸ valence STRONG +
-    → L1 momentary CỰC MẠNH + L2 ĐANG compile
+    → Valence-Momentary CỰC MẠNH + Valence-Structural ĐANG compile
     → Dopamine salience CỰC CAO → mọi thứ về partner đều "mới"
     → Serotonin ↓ → obsessive thinking → KHÔNG NGỪNG nghĩ
     → = CỰC MẠNH, NGẮN, KHÔNG BỀN
 
   ATTACHMENT:
     → ❶ hardware MAINTAIN + ❷ Self-Pattern-Modeling library DEEP + ❸ valence STABLE
-    → L1 momentary moderate + L2 structural COMPILED
+    → Valence-Momentary moderate + Valence-Structural COMPILED
     → Dopamine về baseline → partner KHÔNG CÒN "mới" mỗi giây
     → Serotonin phục hồi → NGỪNG ÁM ẢNH
     → = NHẸ HƠN, SÂU HƠN, BỀN HƠN
@@ -1969,18 +1969,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ 3 FIRING MODES × TRANSITION (Valence-Propagation v3.0 §6):
 
-    Mode 1 MAINTENANCE (entity present, daily):
-      LIMERENCE: Hardware-subsidy → rich Mode 1 (VTA vẫn fire, opioid visible)
-      ATTACHMENT: subsidy hết → Mode 1 = invisible baseline (opioid low-level)
-      → Transition = Mode 1 từ "cảm nhận được" → "vô hình"
+    FIRING-MAINTENANCE (entity present, daily):
+      LIMERENCE: Hardware-subsidy → rich Firing-Maintenance (VTA vẫn fire, opioid visible)
+      ATTACHMENT: subsidy hết → Firing-Maintenance = invisible baseline (opioid low-level)
+      → Transition = Firing-Maintenance từ "cảm nhận được" → "vô hình"
       → = "Hết cảm giác" ≠ "hết reward" → reward VẪN CÓ, chỉ INVISIBLE
 
-    Mode 2 CHUNK-MISS (entity absent):
+    FIRING-CHUNK-MISS (entity absent):
       LIMERENCE: "nhớ" = acute pain (VTA fire + no response + serotonin ↓)
       ATTACHMENT: "nhớ" = moderate (compiled routine miss, less acute)
-      → Transition = Mode 2 từ "cực đau" → "nhớ nhẹ"
+      → Transition = Firing-Chunk-Miss từ "cực đau" → "nhớ nhẹ"
 
-    Mode 3 CONTEXT-TRIGGER (external cue):
+    FIRING-CONTEXT-TRIGGER (external cue):
       LIMERENCE: MANY triggers (nhạc, mùi, nơi chốn) → intense
       ATTACHMENT: fewer triggers, less intense
       → Nhưng: olfactory triggers (direct to amygdala) CÓ THỂ fire MẠNH nhiều năm
@@ -2018,7 +2018,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   HƯỚNG A — "Hay thật" (attachment bền):
     → PFC đánh giá lại → "partner VẪN HỢP dù hết hormone"
-    → L2 body-base extension ĐÃ compile → structural reward CÒN
+    → Valence-Structural body-base extension ĐÃ compile → structural reward CÒN
     → Shared chunks SÂU + Self-Pattern-Modeling library calibrated → connection THẬT
     → = Transition MƯỢT vào attachment bền
 
@@ -2038,7 +2038,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   HƯỚNG D — "Drop" (toxic / trauma):
     → PFC bật lại → thấy red flags mà limerence đã che
     → HOẶC: partner thay đổi behavior sau khi "đã giữ được"
-    → L1 negative liên tục > L2 structural → compound pain
+    → Valence-Momentary negative liên tục > Valence-Structural → compound pain
     → = Cần EXIT (§12)
 ```
 
@@ -2368,13 +2368,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Self-Pattern-Modeling library depth CAO (hiểu nhau THẬT)
     → Xung đột về HÀNH VI, không phải VALUES GỐC
     → Cả 2 SẴN SÀNG repair (không contempt, không stonewalling)
-    → Shared chunks SÂU (history, trust, L2 deep)
+    → Shared chunks SÂU (history, trust, Valence-Structural deep)
     → Shared Imagine-Final ở tầng Growth (Connection §12)
 
   NÊN DỪNG KHI:
     → Self-Pattern-Modeling libraries MISMATCH ở values gốc (không thể calibrate)
     → 1 bên KHÔNG SẴN SÀNG repair (contempt mãn tính)
-    → L1 negative liên tục > L2 structural
+    → Valence-Momentary negative liên tục > Valence-Structural
       (body-base extension ĐAU hơn FEED)
     → Body signal: "mệt và MUỐN THOÁT" (khác "mệt nhưng vẫn muốn cố")
     → = Body BIẾT trước PFC — lắng nghe body signal
@@ -2383,7 +2383,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ EXIT COST × CALIBRATION (v3.0 — Entity-Access-Calibration v1.0 §3):
 
     Romantic exit cost = MODERATE (Entity-Access-Calibration v1.0):
-      → Cao hơn bạn bè (shared life, L2 deep, social disruption)
+      → Cao hơn bạn bè (shared life, Valence-Structural deep, social disruption)
       → Thấp hơn parent-child (child can't exit)
       → NHƯNG: Hardware-Subsidy = Calibration Bias (Entity-Access-Calibration v1.0 §4):
         Limerence: bias HIGH→LOW (hormone mask → can't calibrate)
@@ -2404,28 +2404,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ 3 FIRING MODES × BONDING LÂU DÀI (Valence-Propagation v3.0 §6):
 
-  Mode 1 MAINTENANCE (entity present, daily):
+  FIRING-MAINTENANCE (entity present, daily):
     → Post-limerence: opioid low-level, VTA habituated = "invisible baseline"
-    → Hardware-subsidy hết → Mode 1 = standard (như bạn thân lâu năm)
-    → QUAN TRỌNG: invisible ≠ absent. Mất Mode 1 = DEVASTATING
-    → = "Không biết quý cho đến khi MẤT" = Mode 1 invisible → Mode 2 acute
+    → Hardware-subsidy hết → Firing-Maintenance = standard (như bạn thân lâu năm)
+    → QUAN TRỌNG: invisible ≠ absent. Mất Firing-Maintenance = DEVASTATING
+    → = "Không biết quý cho đến khi MẤT" = Firing-Maintenance invisible → Firing-Chunk-Miss acute
 
-  Mode 2 CHUNK-MISS (entity absent, acute):
+  FIRING-CHUNK-MISS (entity absent, acute):
     → Xa partner (công tác, cãi nhau cold war, break-up):
       Compiled routine fires → no response → pain signal
     → Bowlby 3 phases (🟢): Protest → Despair → Detachment
-    → = "Nhớ" ở body level = Mode 2, KHÔNG phải "tưởng nhớ" ở PFC
+    → = "Nhớ" ở body level = Firing-Chunk-Miss, KHÔNG phải "tưởng nhớ" ở PFC
 
-  Mode 3 CONTEXT-TRIGGER (entity absent, incidental):
+  FIRING-CONTEXT-TRIGGER (entity absent, incidental):
     → External cues fire unexpectedly: nhạc, mùi, nơi chốn, ngày kỷ niệm
     → Olfactory: direct to amygdala = STRONGEST trigger (Herz 2004 🟢)
     → Intensity = f(cue × compilation depth × gap × subsidy residual)
-    → = Tại sao "10 năm sau nghe bài nhạc → vẫn nhói" = Mode 3
+    → = Tại sao "10 năm sau nghe bài nhạc → vẫn nhói" = Firing-Context-Trigger
 
-  BONDING LÂU DÀI QUYẾT ĐỊNH BỞI MODE 1 QUALITY:
-    → Mode 1 invisible nhưng HEALTHY = "ấm áp" baseline
-    → Mode 1 invisible nhưng FLAT = "quen + chán" (§9.3 Tonic only)
-    → = Duy trì Mode 1 quality = duy trì Generative feed (§11.5)
+  BONDING LÂU DÀI QUYẾT ĐỊNH BỞI FIRING-MAINTENANCE QUALITY:
+    → Firing-Maintenance invisible nhưng HEALTHY = "ấm áp" baseline
+    → Firing-Maintenance invisible nhưng FLAT = "quen + chán" (§9.3 Tonic only)
+    → = Duy trì Firing-Maintenance quality = duy trì Generative feed (§11.5)
 
   (Chi tiết: Valence-Propagation.md v3.0 §6)
 ```
@@ -2627,13 +2627,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 🟡 QUA FRAMEWORK V7.8 — 3 tầng pain CHỒNG NHAU:
 
-  TẦNG 1 — WITHDRAWAL (L1 momentary mất):
+  TẦNG 1 — WITHDRAWAL (Valence-Momentary mất):
     → VTA VẪN fire salience ("chú ý partner!") → nhưng partner KHÔNG CÓ
     → Dopamine fire → KHÔNG ĐƯỢC reward → = withdrawal ĐÚNG NGHĨA
     → = "Muốn" mà "không có" = wanting without liking
       (Liking-Wanting.md: wanting = dopamine, liking = opioid)
 
-  TẦNG 2 — AMPUTATION (L2 structural mất):
+  TẦNG 2 — AMPUTATION (Valence-Structural mất):
     → Partner = body-base extension → MẤT = "PHẦN CỦA TÔI BỊ CẮT"
     → Valence-Propagation.md §2: grief ≠ "tiếc" → grief = body-base amputation
     → Partner's channels KHÔNG CÒN được body treat as own → STRUCTURAL LOSS
@@ -2786,10 +2786,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 CÔNG THỨC V7.8:
 
-  Grief intensity = f(L2 compile depth × L1 withdrawal × Protect × Meaning loss)
+  Grief intensity = f(Valence-Structural compile depth × Valence-Momentary withdrawal × Protect × Meaning loss)
 
-  L2 compile depth: KHÔNG kiểm soát (body đã compile → không undo)
-  L1 withdrawal: tỉ lệ thuận intensity limerence
+  Valence-Structural compile depth: KHÔNG kiểm soát (body đã compile → không undo)
+  Valence-Momentary withdrawal: tỉ lệ thuận intensity limerence
   Protect: f(replaceability × attachment) — partner = CỰC CAO
   Meaning loss: tùy partner có phải anchor hay không
 
@@ -2816,21 +2816,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ① COMPILATION DEPTH: more channels compiled → more phantom firing points
   ② HARDWARE-SUBSIDY: Hardware-supported bond → Hardware KEEPS firing after loss
-  ③ L2 STRUCTURAL: entity = body-base extension → loss = body-base amputation
+  ③ Valence-Structural: entity = body-base extension → loss = body-base amputation
   ④ DURATION COMPILED: longer → deeper Hebbian → slower fade
 
   ROMANTIC PHANTOM = COMPLEX (Valence-Propagation v3.0 §11):
 
-    ┌──────────────┬────────────────────────────────────┐
-    │ Factor       │ Romantic break-up                   │
-    ├──────────────┼────────────────────────────────────┤
-    │ ① Compilation│ DEEP (multi-modal, years)           │
-    │ ② Hardware-Subsidy │ SOME (vasopressin/oxytocin residual)│
-    │ ③ L2 Struct  │ STRONG → VERY STRONG               │
-    │ ④ Duration   │ YEARS → DECADES                     │
-    │ Dominant type│ MIXED (all 3 satiation types fire)  │
-    │ INTENSITY    │ COMPLEX                              │
-    └──────────────┴────────────────────────────────────┘
+    ┌──────────────────────┬─────────────────────────────────────────┐
+    │ Factor              │ Romantic break-up                       │
+    ├──────────────────────┼─────────────────────────────────────────┤
+    │ ① Compilation       │ DEEP (multi-modal, years)               │
+    │ ② Hardware-Subsidy  │ SOME (vasopressin/oxytocin residual)    │
+    │ ③ Valence-Structural│ STRONG → VERY STRONG                   │
+    │ ④ Duration          │ YEARS → DECADES                         │
+    │ Dominant type       │ MIXED (all 3 satiation types fire)      │
+    │ INTENSITY           │ COMPLEX                                  │
+    └──────────────────────┴─────────────────────────────────────────┘
 
   PHANTOM × SATIATION TYPE (Valence-Propagation v3.0 §12):
     → Tonic channels: MOST persistent ("nhớ cảm giác ấm mà không ai cho")
@@ -2997,7 +2997,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Consistent với neuroscience data. Chưa formalize thành model.
 
   → "2-Luồng Reward" (§4):
-     L1 momentary + L2 structural. Giải thích "yêu sâu khác thích",
+     Valence-Momentary + Valence-Structural. Giải thích "yêu sâu khác thích",
      "biết xấu mà không bỏ", "mẹ chăm con ốm không burnout".
      Consistent với Berridge wanting/liking distinction.
 
@@ -3010,7 +3010,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Break-up = 8 Chunk-Miss COMPOUND + Shift + Gap.
      Consistent với grief research. Framework adds mechanistic detail.
 
-  → "Hụt hẫng = f(L2 depth × L1 withdrawal × Protect × Meaning)" (§12.6):
+  → "Hụt hẫng = f(Valence-Structural depth × Valence-Momentary withdrawal × Protect × Meaning)" (§12.6):
      Multi-factor formula. Consistent với data.
      Extends v1 formula: Intensity × (Kỳ vọng − Thực tế).
 
@@ -3064,8 +3064,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Cross-ref: Resonance-Per-Entity v1.0 §1.
 
   → ⭐ "3 Firing Modes × romantic stages" (§10.3, §11.7):
-     Mode 1 maintenance invisible post-limerence. Mode 2 chunk-miss = grief.
-     Mode 3 context-trigger = olfactory strongest.
+     Firing-Maintenance invisible post-limerence. Firing-Chunk-Miss = grief.
+     Firing-Context-Trigger = olfactory strongest.
      Cross-ref: Valence-Propagation v3.0 §6.
 
   → ⭐ "Resonance Decline × romantic: Compiled-Suppress = highest leverage" (§11.8):
@@ -3096,7 +3096,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Cross-ref: Entity-Access-Excess v1.0 §4-§6.
 
   → ⭐ "Phantom 4-factor × romantic grief" (§12.7):
-     4 factors: compilation depth × Hardware-Subsidy × L2 structural × duration.
+     4 factors: compilation depth × Hardware-Subsidy × Valence-Structural × duration.
      Romantic = COMPLEX (all 3 satiation types). Cross-ref: Valence-Propagation v3.0 §12.
 
   → ⭐ "Grief A+B+C formula × romantic" (§12.7):
@@ -3135,9 +3135,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Tiêm oxytocin + cho xem red flags → amygdala fire hay không?
      Fire = framework đúng. Không fire = mainstream đúng phần này.
 
-  → L2 compile completion trước limerence hết → predict bond durability (§4.2):
+  → Valence-Structural compile completion trước limerence hết → predict bond durability (§4.2):
      Measurable proxy: shared experience count × duration × novelty.
-     Prediction: couples với L2 compiled = lower divorce rate.
+     Prediction: couples với Valence-Structural compiled = lower divorce rate.
 
   → ⭐ Serotonin amplifier test (§2.1):
      Đo serotonin transporter: anxious attachment vs secure attachment khi yêu.
@@ -3150,7 +3150,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   → Limerence intensity có predict trước? (DRD4? receptor density?)
   → Attachment style (secure/anxious/avoidant) map vào 3 primitives thế nào?
   → "Shared chunks" có ĐO ĐƯỢC? (predict relationship durability?)
-  → Optimal no-contact duration = f(limerence intensity × L2 depth)?
+  → Optimal no-contact duration = f(limerence intensity × Valence-Structural depth)?
   → ⭐ Compiled/Fresh ratio predict Hướng A vs Hướng C (§10.5 v2.3):
      Measurable: couples xếp hạng shared experience (action) vs passive presence
      (co-watching, co-dining) → predict post-limerence satisfaction?
@@ -3263,7 +3263,7 @@ CLARIFICATION + LENS:
     §9.3 ★ NEW: 3 Satiation Types × Romantic Stages (Generative→Tonic shift, "chán" mechanism)
     §10.3 ★ NEW: Compilation Chain × Transition (Stage 2→3, 3 Firing Modes × transition)
     §11.4 REFRAME: differentiation → anti-compiled-suppress + Domain Coverage matrix
-    §11.7 ★ NEW: 3 Firing Modes × Romantic Bonding (Mode 1/2/3)
+    §11.7 ★ NEW: 3 Firing Modes × Romantic Bonding (Firing-Maintenance/Chunk-Miss/Context-Trigger)
     §11.8 ★ NEW: Resonance Decline (2 Forces + 1 Fuel) × Romantic (Compiled-Suppress highest leverage)
     §11.9 ★ NEW: 4-Layer Sustainability × Romantic (PPR, Secure Base, 4 silence types)
     §11.10 ★ NEW: Entity-Access Gradient × Romantic Deepening (Mức 2→5)
@@ -3286,12 +3286,12 @@ CLARIFICATION + LENS:
 > *Love Romantic v3.0 — "Tình yêu = ❶ Hardware flood + ❷ Self-Pattern-Modeling (Compiled + Fresh) + ❸ Valence → Body-Base Extension.
 > Hardware-Subsidy TEMPORARY (18-36m) → expires → 'hết lửa' ≠ hết yêu.
 > 3 Satiation: Generative (limerence) → Tonic+Generative (attachment). 'Chán' = Generative dead + Tonic invisible.
-> 3 Firing Modes: Mode 1 invisible baseline, Mode 2 chunk-miss grief, Mode 3 context-trigger phantom.
+> 3 Firing Modes: Firing-Maintenance invisible baseline, Firing-Chunk-Miss grief, Firing-Context-Trigger phantom.
 > Resonance Decline: Compiled-Suppress = STRONGEST (leverage point). Anti-compiled-suppress = highest leverage.
 > 4-Layer Sustainability: Foundation + Modality + Amplification (PPR+Secure Base) + Trajectory.
 > Entity-Access gradient Mức 2→4 (healthy). Mức 5 = excess (bilateral trap / unilateral suffocation).
 > PFC TỰ GIẢM + PFC=LAWYER + Motivated Inaccuracy = TRIPLE mechanism blindness.
 > Phantom 4-factor × grief. Grief A+B+C formula. Love↔Hate shared circuits. Decay 3-Layer.
-> Break-up = compound: L1 withdrawal + L2 amputation + 8 pathway miss + Protect + Meaning.
+> Break-up = compound: Valence-Momentary withdrawal + Valence-Structural amputation + 8 pathway miss + Protect + Meaning.
 > Recovery = recalibrate TỪNG channel ở TỐC ĐỘ KHÁC NHAU — không phải 'quên.'
 > Biết cơ chế ≠ bớt yêu. Biết cơ chế = yêu + NAVIGATE được."*

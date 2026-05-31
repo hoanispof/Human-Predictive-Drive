@@ -40,7 +40,7 @@ The model is falsifiable: if a pure dopamine agonist reliably produces pleasure 
 Full analysis with 30 citations, test cases, and explicit limitations:
 [Blog link]
 
-Full framework (170+ files, CC0 licensed):
+Full framework (200+ files, CC0 licensed):
 https://github.com/hoanispof/Human-Predictive-Drive
 
 What would convince you that dopamine alone is insufficient for reward? Where does this break?
@@ -99,7 +99,7 @@ The model is structured for falsification: five preconditions, each independentl
 Full analysis (30 citations, honest limitations, clinical dissociations):
 [Blog link]
 
-Framework (170+ files, CC0):
+Framework (200+ files, CC0):
 https://github.com/hoanispof/Human-Predictive-Drive
 
 Counter-evidence is more valuable than confirmation. Where does this break?

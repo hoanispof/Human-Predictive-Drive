@@ -41,7 +41,7 @@ dependencies:
   - Gap-Direction.md v2.0 — gap has direction, 2-layer model, by-product match
   - Inter-Body-Mechanism.md v1.0 — Compilable Architecture, Compiled/Fresh, domain arbiter
   - Meaning.md v2.0 — life-level Anchor-Schema
-  - Connection.md v3.1 — 3 Generative Primitives, L2 smoothing
+  - Connection.md v3.1 — 3 Generative Primitives, Valence-Structural smoothing
 drill_source: Drill-Reward-Feeling-Main.md v1.2 + Drill-Reward-Feeling-Cases.md v1.0
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -445,16 +445,16 @@ Reward-Signal-Architecture.md (file này):
 ```
 🟡 E₀ CROSS-CUTS Evaluative/Direct-State BINARY — nhưng VẪN LÀ EVALUATIVE REWARD:
 
-  ┌──────────────────┬──────────────────┬──────────────────┬───────────────────────┐
-  │ Đặc tính         │ Evaluative       │ Direct-State     │ Neonate Sweet         │
-  ├──────────────────┼──────────────────┼──────────────────┼───────────────────────┤
-  │ Neurochemical    │ Opioid           │ Non-opioid       │ OPIOID ✅Evaluative   │
-  │ Learning req.    │ Compiled         │ Hardware         │ HARDWARE ✅Direct-St. │
-  │ PFC needed?      │ Yes              │ No               │ NO ✅Direct-State     │
-  │ Naltrexone       │ Blocks           │ No effect        │ BLOCKS ✅Evaluative   │
-  │ From birth?      │ No               │ Yes              │ YES ✅Direct-State    │
-  │ Evaluation?      │ Yes (complex)    │ None             │ YES (binary) ✅Eval.  │
-  └──────────────────┴──────────────────┴──────────────────┴───────────────────────┘
+  ┌──────────────────┬──────────────────┬──────────────────┬─────────────────────────┐
+  │ Đặc tính         │ Evaluative       │ Direct-State     │ Neonate Sweet           │
+  ├──────────────────┼──────────────────┼──────────────────┼─────────────────────────┤
+  │ Neurochemical    │ Opioid           │ Non-opioid       │ OPIOID ✅Evaluative     │
+  │ Learning req.    │ Compiled         │ Hardware         │ HARDWARE ✅Direct-State │
+  │ PFC needed?      │ Yes              │ No               │ NO ✅Direct-State       │
+  │ Naltrexone       │ Blocks           │ No effect        │ BLOCKS ✅Evaluative     │
+  │ From birth?      │ No               │ Yes              │ YES ✅Direct-State      │
+  │ Evaluation?      │ Yes (complex)    │ None             │ YES (binary) ✅Evaluative│
+  └──────────────────┴──────────────────┴──────────────────┴─────────────────────────┘
 
   Resolution: E₀ VẪN Evaluative Reward vì:
   ① Opioid pathway: CÙNG pathway với adult food/music reward.
@@ -741,7 +741,7 @@ Reward-Signal-Architecture.md (file này):
   │    approval, belonging)│ Duration: DURING + AFTERGLOW                │
   │                        │ Input: Sensory-Driven (agent input)         │
   │                        │   + Pattern-Driven (schema match)           │
-  │                        │ Connection.md: L1 Self-Pattern-Modeling-owned momentary       │
+  │                        │ Connection.md: Valence-Momentary (Self-Pattern-Modeling-owned) │
   │                        │                                              │
   ├────────────────────────┼──────────────────────────────────────────────┤
   │                        │                                              │
@@ -2000,7 +2000,7 @@ FRAMEWORK FILES LIÊN QUAN:
   → Gap-Direction.md v2.0 — gap direction = F2 in 5 Forces, by-product match
   → Meaning.md v2.0 — life-level Anchor-Schema = F1
   → Status.md v2.0 — Resource Access Map = F5
-  → Connection.md v3.1 — L1 Self-Pattern-Modeling-owned, 3 Generative Primitives
+  → Connection.md v3.1 — Valence-Momentary (Self-Pattern-Modeling-owned), 3 Generative Primitives
   → Ask-AI.md v3.1 — Dual Check (body=quality controller, domain=arbiter)
 
   PHASE 1-9 FILES (updated versions):
@@ -2008,7 +2008,7 @@ FRAMEWORK FILES LIÊN QUAN:
   → Body-Coupling.md v2.0 — Entity-Compiled subtypes, mixed coupling
   → Self-Pattern-Modeling.md v3.0 — Compiled/Fresh reframe
   → By-Product-Gap-Resonance.md v1.0 — 2-Stream, by-product match
-  → Valence-Propagation.md v2.0 — Entity-Compiled, L1/L2
+  → Valence-Propagation.md v2.0 — Entity-Compiled, Valence-Momentary/Valence-Structural
 
   DRILL SOURCE:
   → Drill-Reward-Feeling-Main.md v1.2 — full drill source (~6,700L)

@@ -824,31 +824,32 @@ COMPANION FILES:
 ```
 ⭐ BY-PRODUCT MATCH THEO DOMAIN:
 
-  ┌───────────────┬──────────┬──────────┬──────────┬──────────┐
-  │ DOMAIN        │ PARTNER  │ PARENT   │ FRIEND   │ COLLEAGUE│
-  ├───────────────┼──────────┼──────────┼──────────┼──────────┤
-  │ Hardware      │ ✅ BEST  │ ✅ HIGH  │ 🟡 SOME │ ❌ LOW   │
-  │ (sex, comfort,│ (evolut. │ (kin bond│ (play,   │          │
-  │ family)       │ designed)│ OT boost)│ laughter)│          │
-  ├───────────────┼──────────┼──────────┼──────────┼──────────┤
-  │ Emotional     │ ✅ HIGH  │ 🟡 ONE- │ ✅ HIGH  │ 🟡 SOME │
-  │ (trust, share,│ (mutual  │ WAY      │ (mutual, │ (context-│
-  │ vulnerability)│ L2 deep) │ (parent→ │ honest)  │ bounded) │
-  │               │          │ child)   │          │          │
-  ├───────────────┼──────────┼──────────┼──────────┼──────────┤
-  │ Career/       │ ❌ LOW   │ ❌ LOW   │ 🟡 SOME │ ✅ BEST  │
-  │ Intellectual  │ (khác    │ (khác    │ (nếu cùng│ (cùng    │
-  │ (chuyên môn)  │ nghề)    │ era/     │ domain)  │ domain)  │
-  │               │          │ domain)  │          │          │
-  ├───────────────┼──────────┼──────────┼──────────┼──────────┤
-  │ Social        │ 🟡 SOME │ 🟡 SOME │ ✅ HIGH  │ 🟡 SOME │
-  │ (perspective, │ (shared  │ (kin     │ (diverse │ (network)│
-  │ community)    │ circle)  │ network) │ circles) │          │
-  ├───────────────┼──────────┼──────────┼──────────┼──────────┤
-  │ Creative/     │ 🟡 IF   │ ❌ RARE  │ 🟡 IF   │ 🟡 IF   │
-  │ Personal      │ LUCKY    │          │ MATCH    │ CREATIVE │
-  │ growth        │          │          │          │ FIELD    │
-  └───────────────┴──────────┴──────────┴──────────┴──────────┘
+  ┌───────────────┬───────────┬───────────┬───────────┬───────────┐
+  │ DOMAIN        │ PARTNER   │ PARENT    │ FRIEND    │ COLLEAGUE │
+  ├───────────────┼───────────┼───────────┼───────────┼───────────┤
+  │ Hardware      │ ✅ BEST   │ ✅ HIGH   │ 🟡 SOME  │ ❌ LOW    │
+  │ (sex, comfort,│ (evolut.  │ (kin bond │ (play,    │           │
+  │ family)       │ designed) │ OT boost) │ laughter) │           │
+  ├───────────────┼───────────┼───────────┼───────────┼───────────┤
+  │ Emotional     │ ✅ HIGH   │ 🟡 ONE-  │ ✅ HIGH   │ 🟡 SOME  │
+  │ (trust, share,│ (mutual   │ WAY       │ (mutual,  │ (context- │
+  │ vulnerability)│ Valence-  │ (parent→  │ honest)   │ bounded)  │
+  │               │ Structural│ child)    │           │           │
+  │               │ deep)     │           │           │           │
+  ├───────────────┼───────────┼───────────┼───────────┼───────────┤
+  │ Career/       │ ❌ LOW    │ ❌ LOW    │ 🟡 SOME  │ ✅ BEST   │
+  │ Intellectual  │ (khác     │ (khác     │ (nếu cùng │ (cùng     │
+  │ (chuyên môn)  │ nghề)     │ era/      │ domain)   │ domain)   │
+  │               │           │ domain)   │           │           │
+  ├───────────────┼───────────┼───────────┼───────────┼───────────┤
+  │ Social        │ 🟡 SOME  │ 🟡 SOME  │ ✅ HIGH   │ 🟡 SOME  │
+  │ (perspective, │ (shared   │ (kin      │ (diverse  │ (network) │
+  │ community)    │ circle)   │ network)  │ circles)  │           │
+  ├───────────────┼───────────┼───────────┼───────────┼───────────┤
+  │ Creative/     │ 🟡 IF    │ ❌ RARE   │ 🟡 IF    │ 🟡 IF    │
+  │ Personal      │ LUCKY     │           │ MATCH     │ CREATIVE  │
+  │ growth        │           │           │           │ FIELD     │
+  └───────────────┴───────────┴───────────┴───────────┴───────────┘
 
   → KHÔNG entity type nào = ✅ ở TẤT CẢ domains.
   → Partner BEST ở hardware + emotional → nhưng ❌ career.

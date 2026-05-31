@@ -343,16 +343,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   PFC OPERATIONS × DISSONANCE TYPE (Dissonance-Signal-Architecture.md v1.0 §7.2):
 
-    ┌──────────────────┬──────────────────────┬──────────────────────┐
-    │                  │ Evaluative Dissonance│ Direct-State Disson. │
-    ├──────────────────┼──────────────────────┼──────────────────────┤
-    │ HOLD (reframe)   │ CAN compile mới     │ MINIMAL effect       │
-    │                  │ → resolve source      │ (pain stays pain)    │
-    │ SUPPRESS (block) │ Partial, temporary   │ NEAR ZERO            │
-    │                  │ → rebound risk        │ (hardware overrides)  │
-    │ Placebo effect   │ N/A                  │ Evaluative modulates │
-    │                  │                      │ Direct-State (proof)  │
-    └──────────────────┴──────────────────────┴──────────────────────┘
+    ┌──────────────────┬──────────────────────┬─────────────────────────┐
+    │                  │ Evaluative Dissonance│ Direct-State Dissonance │
+    ├──────────────────┼──────────────────────┼─────────────────────────┤
+    │ HOLD (reframe)   │ CAN compile mới     │ MINIMAL effect          │
+    │                  │ → resolve source      │ (pain stays pain)       │
+    │ SUPPRESS (block) │ Partial, temporary   │ NEAR ZERO               │
+    │                  │ → rebound risk        │ (hardware overrides)    │
+    │ Placebo effect   │ N/A                  │ Evaluative modulates    │
+    │                  │                      │ Direct-State (proof)    │
+    └──────────────────┴──────────────────────┴─────────────────────────┘
     → PFC MẠNH hơn với Evaluative Dissonance, YẾU với Direct-State.
     → Parallel: PFC Hold/Suppress × Reward (Dissonance-Signal-Architecture §7.2 = full table).
 
@@ -375,7 +375,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├─────────┼─────────────────────────┼──────────────────────────────────┤
   │ TIER 1  │ PFC cost                │ Chung nhất. PFC đang tốn.       │
   ├─────────┼─────────────────────────┼──────────────────────────────────┤
-  │ TIER 2  │ ① PFC draft cost        │ Metabolic cost từ HOLD.          │
+  │ TIER 2  │ ① PFC draft cost        │ Processing load từ HOLD.         │
   │         │                         │ f(chain_length × novelty).       │
   │         │                         │ GIẢM DẦN khi compile (→ ≈ 0).   │
   │         │                         │ Region: dlPFC, FEF.              │
@@ -635,7 +635,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                         │ hippocampus. Retrieve → recombine →      │
   │                         │ simulate → readout.                      │
   │                         │ Dùng: khi nói về shared substrate cho    │
-  │                         │ Self-Pattern-Modeling, Self-Obs, Imagine-Final, etc.       │
+  │                         │ Self-Pattern-Modeling, Self-Observation, Imagine-Final, etc.       │
   │                         │                                          │
   │ Component 1:            │ Anterior insula. Đọc body signals.       │
   │ Interoception           │ "MÀN HÌNH" — readout device.             │
@@ -1021,9 +1021,9 @@ WHAT REMAINS UNCERTAIN:
   ? "~4±1 slots" — số chính xác đang được debate.
     Framework dùng như approximate guide, không phải absolute.
 
-  ? Ego depletion (glucose model) — R9 Hagger 2016 replication mixed.
-    Framework dùng "PFC budget" như resource metaphor, không claim
-    chuyên biệt về glucose mechanism.
+  ❌ Ego depletion glucose model — FALSIFIED (Hagger 2016: d=0.04, Dang 2021).
+    Framework dùng "processing load" (serial bottleneck + catecholamine + allocation).
+    Chi tiết: PFC-Operations.md v1.3 §8.3.
 
   ? PFC narrative confabulation — extent varies by individual.
     Framework dùng "PFC = Lawyer" như tendency, không phải 100% confab.
@@ -1124,8 +1124,8 @@ WHAT THIS FILE DOES NOT COVER:
   │ R5 │ Kahneman 2011 — System 1/2                    │ §3      │ 🟢      │
   │ R6 │ Evans & Stanovich 2013 — Dual Process Theory  │ §3      │ 🟢      │
   │ R7 │ Klein 1998 — Naturalistic Decision Making     │ §3      │ 🟢      │
-  │ R8 │ Gailliot & Baumeister 2007 — Glucose Depletion│ §5      │ 🟢      │
-  │ R9 │ Hagger et al. 2016 — Ego Depletion Replication│ §5      │ 🟢      │
+  │ R8 │ Gailliot & Baumeister 2007 — Glucose Depletion│ §10 (hist.)│ ❌ FALSIFIED │
+  │ R9 │ Hagger et al. 2016 — Ego Depletion FAILED   │ §10     │ 🟢      │
   │ R10│ Maier & Seligman 2016 — Controllability       │ §7, §11 │ 🟢      │
   │ R11│ McEwen 2007 — Cortisol vmPFC Damage           │ §7, §11 │ 🟢      │
   │ R12│ Arnsten 2009 — PFC NE α1 Disconnect           │ §8, §11 │ 🟢      │

@@ -325,7 +325,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ ⑩ │ Decision Branch   │ Self         │ Future    │ Simulate │ Imagine-Final ×N     │
   │   │ "A hay B?"       │              │ (×N)      │ (×N)     │ + compare outputs    │
   ├───┼──────────────────┼──────────────┼───────────┼──────────┼──────────────────────┤
-  │ ⑪ │ Creative Imagin.  │ Abstract     │ Hypothet. │ Construct│ DMN creativity       │
+  │ ⑪ │ Creative Imagination│ Abstract     │Hypothetical│ Construct│ DMN creativity       │
   │   │                  │ (no person)  │           │ (novel)  │                      │
   ├───┼──────────────────┼──────────────┼───────────┼──────────┼──────────────────────┤
   │ ⑫ │ Mind Wandering    │ Variable     │ Variable  │ Auto     │ DMN default mode     │
@@ -676,7 +676,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ (compiled)   │ "Thấy thích bạn mà không biết vì sao"            │
   │              │ PFC = PASSIVE observer (if even aware)             │
   ├──────────────┼────────────────────────────────────────────────────┤
-  │ ② Self-Obs   │ MIDDLE: PFC observe body-feedback output          │
+  │ ② Self-Observation │ MIDDLE: PFC observe body-feedback output          │
   │              │ PFC = READER (can label but not manipulate input)  │
   │              │ "Tôi đang buồn" = readout, not active simulation  │
   ├──────────────┼────────────────────────────────────────────────────┤

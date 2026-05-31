@@ -23,12 +23,12 @@ scope: |
     + Per-entity resonance dynamics: 3-Tầng model, compilation chain (Resonance-Per-Entity v1.0)
     + PFC budget: finite shared resource → capacity constraint (PFC-Operations v1.0)
     + Simulation-Engine context: Self-Pattern-Modeling = APPLICATION-1 of 1 engine × 3 components (Simulation-Engine v1.0)
-    + Phantom 4-factor model: compilation × Hardware-Subsidy × L2 × duration (Valence-Propagation v3.0)
+    + Phantom 4-factor model: compilation × Hardware-Subsidy × Valence-Structural × duration (Valence-Propagation v3.0)
     + Gap clone IMPOSSIBLE → 3 real mechanisms: redirect + suppress + converge (Bond-Architecture v2.0)
     + Self-Pattern-Modeling v3.1 terminology: Match→Modeling throughout
     + All dependency versions updated to Phase A+B+T current
 purpose: |
-  Core v7.8 §8 define Connection ngắn gọn ("L1 multi-input aggregate
+  Core v7.8 §8 define Connection ngắn gọn ("Valence-Momentary multi-input aggregate
   + attachment chunk patterns"). File này DEEP-DIVE toàn bộ:
   ① TẠI SAO evolution select cho connection (Compilable Architecture → Social = Requirement)
   ② 3 GENERATIVE PRIMITIVES (❶ Hardware × ❷ Self-Pattern-Modeling × ❸ Valence)
@@ -986,10 +986,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Bạn vui, kể      │ + (vui   │ + (bạn = │ COMPOUND reward          │
     │ chuyện vui       │ lây)     │ body-ext)│ → gặp bạn thân = TỐT CỰC│
     ├──────────────────┼──────────┼──────────┼──────────────────────────┤
-    │ Mẹ chăm con ốm  │ - (khó   │ + (con = │ L2 > L1 → VẪN CHĂM      │
+    │ Mẹ chăm con ốm  │ - (khó   │ + (con = │ Valence-Structural > Valence-Momentary → VẪN CHĂM │
     │                  │ chịu)    │ body-ext)│ dù Compiled negative           │
     ├──────────────────┼──────────┼──────────┼──────────────────────────┤
-    │ Bác sĩ chăm      │ - (khó   │ ≈ 0 (❸   │ L1- không được bù       │
+    │ Bác sĩ chăm      │ - (khó   │ ≈ 0 (❸   │ Valence-Momentary- không được bù │
     │ bệnh nhân lạ    │ chịu)    │ neutral) │ → cần professional anchor│
     │                  │          │          │ → BURNOUT nếu kéo dài    │
     ├──────────────────┼──────────┼──────────┼──────────────────────────┤
@@ -1045,7 +1045,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ SPECIAL CASE — MIXED VALENCE:
 
-    Mẹ: L1++ (cho ăn, ôm) NHƯNG autonomy-- (ép học, cấm chơi)
+    Mẹ: Valence-Momentary++ (cho ăn, ôm) NHƯNG autonomy-- (ép học, cấm chơi)
       → Compiled: vừa warmth vừa tension (mixed)
       → Fresh: vừa "nghe lời" vừa "tìm cách thoát"
       → = Drive.md §3 Conflict: 2 signals cùng mạnh, ngược hướng
@@ -1072,7 +1072,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CURRENT VALENCE (activated per-moment):
     → Outside Entity-Compiled — per-moment activation
-    → L1 (Self-Pattern-Modeling momentary) + activated L2 channels AT THIS MOMENT
+    → Valence-Momentary (Self-Pattern-Modeling momentary) + activated Valence-Structural channels AT THIS MOMENT
     → Change speed: PER SECOND (context-dependent)
     → Mẹ la = negative current; mẹ ôm = positive current
     → SAME structural (mixed) → DIFFERENT current based on context
@@ -1139,29 +1139,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   (Valence-Propagation.md v3.0 §6 — 3 Firing Modes)
 
-  MODE 1 — MAINTENANCE (entity PRESENT, routine):
-    → L2 channels fire LOW-LEVEL → opioid baseline
+  FIRING-MAINTENANCE (entity PRESENT, routine):
+    → Valence-Structural channels fire LOW-LEVEL → opioid baseline
     → VTA HABITUATED → reward INVISIBLE → PFC sees NOTHING
     → = "Background warmth" — CÓ nhưng không BIẾT
     → Hardware-subsidy modulates: HIGH subsidy → baseline RICHER, NONE → lean
 
-  MODE 2 — CHUNK-MISS (entity ABSENT):
+  FIRING-CHUNK-MISS (entity ABSENT):
     → Compiled routine FIRES → no response → prediction-delta → PAIN
     → 🟢 O'Connor 2023: basal ganglia fire "entity will be here"
       WHILE medial temporal knows "lost/far"
     → 🟢 Bowlby 3 phases: Protest → Despair → Detachment
-    → = Connection loss = MODE 2 fire
+    → = Connection loss = FIRING-CHUNK-MISS fire
 
-  MODE 3 — CONTEXT-TRIGGER (external cue → activate):
-    → See/hear/smell something → match Entity-Compiled spoke → L2 fire UNPREDICTABLE
+  FIRING-CONTEXT-TRIGGER (external cue → activate):
+    → See/hear/smell something → match Entity-Compiled spoke → Valence-Structural fire UNPREDICTABLE
     → Nghe bài hát cũ → nhớ bạn → warmth bất ngờ
     → = "Phantom resonance" khi entity đã mất (§15)
 
-  → 3 MODES giải thích: "vẫn thương nhưng không THẤY" (Mode 1)
-    → mất → pain CỰC MẠNH (Mode 2) → triggers bất ngờ (Mode 3)
+  → 3 FIRING MODES giải thích: "vẫn thương nhưng không THẤY" (Firing-Maintenance)
+    → mất → pain CỰC MẠNH (Firing-Chunk-Miss) → triggers bất ngờ (Firing-Context-Trigger)
   → = Connection valence LUÔN ACTIVE, chỉ khác VISIBILITY
 
-  🟡 Structural/Current + Satiation + Mixed + 3 Modes = Valence-Propagation v3.0 framework synthesis
+  🟡 Structural/Current + Satiation + Mixed + 3 Firing Modes = Valence-Propagation v3.0 framework synthesis
   🟢 Individual mechanisms all research-supported
 ```
 
@@ -1492,7 +1492,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     3 nguồn cost INDEPENDENT cùng fire khi connection MISMATCH:
 
-    ① PFC Draft Cost (metabolic):
+    ① PFC Draft Cost (processing load):
        → Must actively PREDICT mismatched agent → chain DÀI, cost CAO
        → "Người này sẽ phản ứng sao?" — novel, chưa compiled
 
@@ -1793,7 +1793,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ① Self-Pattern-Modeling MIRROR REWARD (= Luồng 1 trong §3.3):
     Bạn vui → Self-Pattern-Modeling Compiled fire → body mình "vui lây" → opioid release
     = Body-feedback MOMENTARY từ simulate (Luồng 1)
-    + ❸ positive → Luồng 2 structural reward CỘNG THÊM
+    + ❸ positive → Valence-Structural reward CỘNG THÊM
     Derive: ❷ Self-Pattern-Modeling (Compiled empathic) + ❸ positive
     🟢 Singer 2004: shared activation areas
 
@@ -2025,7 +2025,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Evidence 3 primitives TÁCH BIỆT ngay TRONG 1 case
 ```
 
-### §7.1 — Case đặc biệt: bố mẹ L2 strong + Compiled weak
+### §7.1 — Case đặc biệt: bố mẹ Valence-Structural strong + Compiled weak
 
 ```
 ⭐ "YÊU THƯƠNG NHƯNG KHÔNG HIỂU" — PHÂN TÍCH TỪ PHÍA PARENT:
@@ -2034,15 +2034,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Case này phân tích từ PHÍA BỐ MẸ — tại sao bố mẹ yêu thương
   nhưng CON lại feel bị kìm kẹp.
 
-  2-luồng tách rõ: L2 CÓ ≠ Compiled CÓ.
+  2-luồng tách rõ: Valence-Structural CÓ ≠ Compiled CÓ.
 
 
   BỐ MẸ MECHANISM:
 
-    L2 STRONG (Entity-compiled, structural):
+    Valence-Structural STRONG (Entity-compiled, structural):
       → Con = body-base extension THẬT
       → Drive genuine: muốn con an toàn, phát triển, tốt hơn
-      → L2 nói: "CON PHẢI TỐT" → drive hành vi chăm sóc, hy sinh
+      → Valence-Structural nói: "CON PHẢI TỐT" → drive hành vi chăm sóc, hy sinh
 
     Compiled WEAK (Self-Pattern-Modeling-owned, momentary):
       → Compiled KHÔNG fire chính xác on con
@@ -2050,7 +2050,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Schema "bố mẹ tốt phải thế này" THAY THẾ Compiled genuine
       → Hoặc: chunk library thiếu (tuổi thơ bố mẹ cũng bị chăm kiểu này)
 
-    → L2 drive MẠNH + Compiled thiếu = PROJECT schema lên con
+    → Valence-Structural drive MẠNH + Compiled thiếu = PROJECT schema lên con
     → = Object valence (optimize con) thay vì Agent valence (hiểu con)
     → ⚠️ Compiled weak THƯỜNG do Resonance Baseline THẤP (khác tính parent ↔ child)
       → Parent không match child tự nhiên → Compiled fail → schema thay thế
@@ -2059,7 +2059,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   CON NHẬN GÌ VÀ THIẾU GÌ (8 pathways):
 
-    NHẬN (L2-driven): ②⑥ co-regulation+presence, ③⑧ virtual chunks+knowledge
+    NHẬN (Valence-Structural-driven): ②⑥ co-regulation+presence, ③⑧ virtual chunks+knowledge
     THIẾU (Compiled-driven): ①⑤ mirror+validation ⭐, ④⑦ giving+shared Imagine-Final
 
     → ⑤ Validation = pathway BỊ ẢNH HƯỞNG NHẤT:
@@ -2078,12 +2078,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         (connection gắn threat: "yêu nhưng ĐE DỌA nếu không comply")
 
 
-  GENERATIONAL: L2 truyền được, Compiled khuyết hao qua mỗi thế hệ.
+  GENERATIONAL: Valence-Structural truyền được, Compiled khuyết hao qua mỗi thế hệ.
   Chi tiết mechanism: Empathy.md v2.0 §8.5.
 
   🟢 Baumrind 1966: authoritarian = high demand + low responsiveness
   🟢 Winnicott 1953: "good enough mother" = contingent, not perfect
-  🟡 L2 strong + Compiled weak = framework synthesis
+  🟡 Valence-Structural strong + Compiled weak = framework synthesis
 ```
 
 ### §7.2 — Compilation Chain × Connection Formation
@@ -2110,7 +2110,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   STAGE 3 — BASELINE (compiled, near-zero cost):
     → Compiled → fire AUTOMATIC → cost ≈ 0
-    → Connection reward = INVISIBLE baseline (VTA habituated, Mode 1)
+    → Connection reward = INVISIBLE baseline (VTA habituated, Firing-Maintenance)
     → "Gặp bạn thân = không mệt" = Compiled+Compiled, 3-cost ≈ 0
     → Resonance SUSTAINED nhưng increasingly INVISIBLE
 
@@ -2225,14 +2225,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟢 DUNBAR'S NUMBER (Robin Dunbar 1992):
 
-  ┌───────────┬──────────┬──────────────────────────────────────────┐
-  │ Tầng      │ Số người │ Connection characteristics                │
-  ├───────────┼──────────┼──────────────────────────────────────────┤
-  │ Intimate  │ ~5       │ Deep trust, daily calibration, 8 path    │
-  │ Close     │ ~15      │ Good trust, weekly, 5-6 pathways         │
-  │ Friends   │ ~50      │ Moderate trust, monthly, 2-3 pathways    │
-  │ Acquaint. │ ~150     │ Low trust, rare, 1 pathway max           │
-  └───────────┴──────────┴──────────────────────────────────────────┘
+  ┌──────────────┬──────────┬──────────────────────────────────────────┐
+  │ Tầng         │ Số người │ Connection characteristics                │
+  ├──────────────┼──────────┼──────────────────────────────────────────┤
+  │ Intimate     │ ~5       │ Deep trust, daily calibration, 8 path    │
+  │ Close        │ ~15      │ Good trust, weekly, 5-6 pathways         │
+  │ Friends      │ ~50      │ Moderate trust, monthly, 2-3 pathways    │
+  │ Acquaintance │ ~150     │ Low trust, rare, 1 pathway max           │
+  └──────────────┴──────────┴──────────────────────────────────────────┘
 
   3 BOTTLENECKS:
     ① TIME: 1 bạn thân ~2h/tuần × nhiều năm. 100 "bạn thân" = KHÔNG ĐỦ GIỜ.
@@ -2257,7 +2257,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ① Hardware arousal baseline (trait — tương đối cố định):
        🟢 Eysenck 1967: Introverts baseline arousal CAO HƠN → ít room
     ② Current cortisol level (state — thay đổi trong ngày):
-       "Mệt cuối ngày" = PFC glucose depletion + cortisol downstream tích lũy
+       "Mệt cuối ngày" = PFC processing load tích lũy + cortisol downstream
     ③ Self-Pattern-Modeling library depth cho agents HIỆN TẠI (compiled):
        20 bạn quen (compiled, cost ≈ 0) vs 20 lạ (draft, cost CAO)
     ④ Environment × modality match:
@@ -2275,7 +2275,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Trục ③ (Self-Pattern-Modeling library depth) thực chất = 3-cost tổng hợp:
       Agents đã COMPILED (bạn quen): 3-cost ≈ 0 → capacity RỘNG
       Agents FRESH (người lạ): 3-cost tích lũy NHANH → capacity HẸP
-        ① PFC draft: phải predict stranger → metabolic cost
+        ① PFC draft: phải predict stranger → processing load
         ② Suppress: phải filter/adjust behavior → efference mismatch
         ③ Uncertainty: không biết stranger respond sao → cortisol hold
 
@@ -2287,7 +2287,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     (PFC-Operations.md v1.0 §9 — PFC Budget = Finite Shared Resource)
 
-    PFC budget = ALL PFC activities SHARE same metabolic pool:
+    PFC budget = ALL PFC activities SHARE same processing capacity:
       → Learning, changing, Self-Pattern-Modeling drafting, decision-making, suppressing
       → ALL COMPETE for the same finite resource
 
@@ -2552,25 +2552,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     4 FACTORS determine phantom DEPTH:
       ① Compilation depth: more channels compiled → more phantom firing points
       ② Hardware-subsidy: Hardware-supported bond → Hardware KEEPS FIRING after loss
-      ③ L2 structural: entity = body-base extension → loss = body AMPUTATION
+      ③ Valence-Structural: entity = body-base extension → loss = body AMPUTATION
       ④ Duration compiled: longer → deeper Hebbian → slower fade
 
     PER-ENTITY PHANTOM INTENSITY:
 
-    ┌──────────────┬──────────┬──────────┬──────────┬──────────┬──────────┐
-    │ Factor       │ Mẹ mất   │ Con mất  │ Bạn mất  │ Partner  │ Colleague│
-    ├──────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-    │ ① Compile    │ DEEP     │ V. DEEP  │ MODERATE │ DEEP     │ SHALLOW  │
-    │ ② Hardware-subsidy │ MODERATE │ MAXIMUM  │ NONE     │ SOME     │ NONE     │
-    │ ③ L2 struct  │ STRONG   │ V.STRONG │ MOD-WEAK │ STRONG   │ WEAK     │
-    │ ④ Duration   │ DECADES  │ YRS→DEC  │ YEARS    │ YRS→DEC  │ MO→YRS   │
-    ├──────────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
-    │ Dom. phantom │ TONIC    │ TONIC+CYC│ GENERAT. │ ALL 3    │ GENERAT. │
-    │ INTENSITY    │ MAJOR    │ DEVASTAT.│ MINOR-MOD│ COMPLEX  │ MINOR    │
-    └──────────────┴──────────┴──────────┴──────────┴──────────┴──────────┘
+    ┌────────────────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────┐
+    │ Factor                 │ Mẹ mất      │ Con mất     │ Bạn mất     │ Partner     │ Colleague   │
+    ├────────────────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+    │ ① Compile              │ DEEP        │ V. DEEP     │ MODERATE    │ DEEP        │ SHALLOW     │
+    │ ② Hardware-subsidy     │ MODERATE    │ MAXIMUM     │ NONE        │ SOME        │ NONE        │
+    │ ③ Valence-Structural   │ STRONG      │ V.STRONG    │ MOD-WEAK    │ STRONG      │ WEAK        │
+    │ ④ Duration             │ DECADES     │ YRS→DEC     │ YEARS       │ YRS→DEC     │ MO→YRS      │
+    ├────────────────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
+    │ Dominant phantom       │ TONIC       │ TONIC+CYCLIC│ GENERATIVE  │ ALL 3       │ GENERATIVE  │
+    │ INTENSITY              │ MAJOR       │ DEVASTATING │ MINOR-MOD   │ COMPLEX     │ MINOR       │
+    └────────────────────────┴─────────────┴─────────────┴─────────────┴─────────────┴─────────────┘
 
     ⭐ CON MẤT = ALL 4 FACTORS MAXIMUM → MOST DEVASTATING phantom.
-       Mẹ mất con: Hardware-Subsidy MAX (vẫn fire oxytocin) + L2 VERY STRONG
+       Mẹ mất con: Hardware-Subsidy MAX (vẫn fire oxytocin) + Valence-Structural VERY STRONG
        + compilation VERY DEEP + duration YEARS→DECADES = COMPOUND MAXIMUM.
 
     PHANTOM × SATIATION TYPE:
@@ -2592,16 +2592,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → "Quên hết chuyện giận, chỉ nhớ cái tốt" = decay asymmetry × satiation type
 
     ② CONTRAST EFFECT:
-       With mẹ: L2 = Tonic baseline → INVISIBLE (Mode 1 habituated)
+       With mẹ: Valence-Structural = Tonic baseline → INVISIBLE (Firing-Maintenance habituated)
        Hardware-subsidy ENRICHES baseline → nhưng INVISIBLE vì có
-       Absent: environment LACKS L2 warmth → visible FOR FIRST TIME
+       Absent: environment LACKS Valence-Structural warmth → visible FOR FIRST TIME
        → Subsidy explains why contrast STRONGER for mẹ than bạn
 
     ③ FIRST-TIME ARTICULATION:
        With mẹ: PFC observes NEGATIVE (salient — la mắng, cấm)
-       Positive L2 = Tonic → habituated → PFC DOESN'T observe
-       Absent + poetry/reflection: linguistic chunks DESCRIBE compiled L2
-       → PFC MATCH words ↔ compiled L2 → first-time ARTICULATION
+       Positive Valence-Structural = Tonic → habituated → PFC DOESN'T observe
+       Absent + poetry/reflection: linguistic chunks DESCRIBE compiled Valence-Structural
+       → PFC MATCH words ↔ compiled Valence-Structural → first-time ARTICULATION
        → De-habituation: novel context → VTA fire on same content → reward
 
     → 3 mechanisms STACK: negative faded + subsidized baseline revealed
@@ -2614,11 +2614,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ COMPOUND × COMPOUND — MẤT VỢ/CHỒNG:
     → 8 pathways ALL at MAXIMUM depth
-    → + Phantom 4-factor ALL HIGH (compiled deep + some Hardware-Subsidy + L2 strong + years)
+    → + Phantom 4-factor ALL HIGH (compiled deep + some Hardware-Subsidy + Valence-Structural strong + years)
     → + Status change + Protect violation + Imagine-Final collapse + daily routine disrupted
     → = COMPOUND CHỒNG COMPOUND → grief CỰC NẶNG → cần NHIỀU NĂM
     → Recovery ≠ "quên" — mà "recalibrate TỪNG channel, ở TỐC ĐỘ KHÁC NHAU"
-    → Phantom fires UNPREDICTABLY (Mode 3 context-trigger) → "tưởng ổn → bất ngờ đau"
+    → Phantom fires UNPREDICTABLY (Firing-Context-Trigger) → "tưởng ổn → bất ngờ đau"
 ```
 
 ---
@@ -2894,7 +2894,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Secure Base Effect (Feeney 2007) — availability + noninterference
     🟢 Maintenance decline (Ogolsky et al. 2013, N=12,273) — trajectory
     🟢 Limerence = drive (Fisher 2004) — temporary Hardware-Subsidy
-    🟢 Basal ganglia phantom (O'Connor 2023) — Mode 2 firing
+    🟢 Basal ganglia phantom (O'Connor 2023) — Firing-Chunk-Miss firing
     🟢 Mixed valence (Cacioppo & Berntson 1994) — separate substrates
     🟢 Ambivalence (Lüscher & Pillemer 1998) — 50% parent-child
     🟢 Stonewalling predicts divorce (Gottman) — Type 3 silence
@@ -3032,7 +3032,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → §1 UPDATED: Simulation-Engine context, Self-Pattern-Modeling v3.1 terminology
     → §3.1 ENRICHED: Hardware-Subsidy spectrum (MAX→NONE) + gap-body-need
     → §3.3 ★ MAJOR: structural/current valence + satiation types + mixed valence
-      + 3 firing modes (Mode 1/2/3)
+      + 3 Firing Modes (Firing-Maintenance/Chunk-Miss/Context-Trigger)
     → §4.5 ★ NEW: Resonance Decline (2 Forces + 1 Fuel) × Connection + gap clone impossible
       + 3 real mechanisms + anti-compiled-suppress + portfolio
     → §4.6 ★ NEW: 4-Layer Sustainability × Connection + 3 conditions + 3 modalities

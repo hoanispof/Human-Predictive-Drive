@@ -205,7 +205,7 @@ MỤC ĐÍCH:
     Boredom = idle state khi engine KHÔNG CÓ TARGET to simulate.
     Simulation-Engine chạy nhưng KHÔNG CÓ evaluation standard → spin.
 
-  Drive.md v1.2 §2 Mode 3 — Spinning:
+  Drive.md v1.2 §2 Drive-PFC-Spinning:
     "PFC scan liên tục nhưng không tìm được focus."
     "Drive CHẠYnhưng KHÔNG ĐI ĐÂU."
     = Energy + no direction = hao tổn mà không produce.
@@ -758,7 +758,7 @@ MECHANISM FILES:
   PFC-Operations.md v1.0 — §5 Compiled Quality, §9 PFC Budget
   Background-Pattern.md v2.0 — §2 Depth×Density, §6 Triple Bias
   Cortisol-Baseline.md v2.1 — Direction tag, Approach/Avoidance compile
-  Drive.md v1.2 — §2 PFC 6 Modes (Mode 3 Spinning)
+  Drive.md v1.2 — §2 PFC 6 Modes (Drive-PFC-Spinning)
   Boredom.md v2.0 — Dissonance + Imagine-Final mờ → "chán"
 
 RELATED RESEARCH:

@@ -395,19 +395,19 @@ PANDAS (Pediatric Autoimmune Neuropsychiatric Disorders
 
   ⭐ CÙNG CƠ CHẾ VỚI LIMERENCE (Love-Analysis.md v2.1 §2.1):
 
-    ┌──────────────────┬──────────────────────┬──────────────────────┐
-    │                  │ LIMERENCE            │ OCD                   │
-    ├──────────────────┼──────────────────────┼──────────────────────┤
-    │ Serotonin        │ ↓ ~40%               │ ↓ (tương đương)       │
-    │ Spreading activ. │ UNINHIBITED          │ UNINHIBITED           │
-    │ Target           │ Partner chunks       │ Threat chunks         │
-    │ Cascade          │ "Nghĩ tới em 24/7"  │ "Nghĩ tới vi khuẩn   │
-    │                  │                      │  24/7"                │
-    │ Exit condition   │ CÓ (bond compile)    │ KHÔNG (target ≠ bond) │
-    │ Self-resolves?   │ CÓ (12-18 tháng)    │ KHÔNG (cần treatment) │
-    │ Cortisol role    │ ① Compile APPROACH   │ ③ Threat-sustained    │
-    │ PFC đồng ý?     │ CÓ (ego-syntonic)    │ KHÔNG (ego-dystonic)  │
-    └──────────────────┴──────────────────────┴──────────────────────┘
+    ┌──────────────────────┬──────────────────────┬──────────────────────┐
+    │                      │ LIMERENCE            │ OCD                   │
+    ├──────────────────────┼──────────────────────┼──────────────────────┤
+    │ Serotonin            │ ↓ ~40%               │ ↓ (tương đương)       │
+    │ Spreading activation │ UNINHIBITED          │ UNINHIBITED           │
+    │ Target               │ Partner chunks       │ Threat chunks         │
+    │ Cascade              │ "Nghĩ tới em 24/7"  │ "Nghĩ tới vi khuẩn   │
+    │                      │                      │  24/7"                │
+    │ Exit condition       │ CÓ (bond compile)    │ KHÔNG (target ≠ bond) │
+    │ Self-resolves?       │ CÓ (12-18 tháng)    │ KHÔNG (cần treatment) │
+    │ Cortisol role        │ ① Compile APPROACH   │ ③ Threat-sustained    │
+    │ PFC đồng ý?         │ CÓ (ego-syntonic)    │ KHÔNG (ego-dystonic)  │
+    └──────────────────────┴──────────────────────┴──────────────────────┘
 
     = CÙNG mechanism (uninhibited spreading activation)
     = CÙNG neurochemistry (serotonin ↓)
@@ -472,7 +472,7 @@ PANDAS (Pediatric Autoimmune Neuropsychiatric Disorders
     → OCD chunks compiled ở THREAT DIRECTION (Role ①)
     → Threat-direction = PRIORITY CAO (evolutionary: threat > logic)
     → PFC 5% bias KHÔNG override 95% threat-priority chunks
-    → PFC consume energy CỰC LỚN → Cortisol §6: glucose depletion
+    → PFC processing load CỰC LỚN → Cortisol §6: catecholamine depletion
     → Override ngắn hạn OK → long-term = PFC kiệt → loop quay lại
 
   = Tại sao CBT/ERP cần NHIỀU sessions:
@@ -831,7 +831,7 @@ NGƯỜI OCD (contamination type):
 │ Cortisol role   │ ① APPROACH compile   │ ③ Threat-sustained    │
 ├─────────────────┼───────────────────────┼───────────────────────┤
 │ Body-Base Ext   │ Partner → extension   │ KHÔNG (target = object)│
-│ (Valence-Propagation §2)        │ (L2 structural)       │                       │
+│ (Valence-Propagation §2)        │ (Valence-Structural)  │                       │
 ├─────────────────┼───────────────────────┼───────────────────────┤
 │ Adaptive?       │ CÓ — monitor mate    │ KHÔNG — waste energy   │
 └─────────────────┴───────────────────────┴───────────────────────┘
@@ -856,7 +856,7 @@ YÊU — Timeline serotonin:
   Tháng 12-18: ATTACHMENT
     → Chunks về partner ĐÃ compile (Self-Pattern-Modeling library DEEP)
     → Serotonin BÌNH THƯỜNG → certainty cao → hết obsess
-    → L2 body-base extension compiled → structural reward thay thế L1
+    → Valence-Structural body-base extension compiled → structural reward thay thế Valence-Momentary
     → = "Tình yêu ban đầu phai" = OBSESSION hết, ATTACHMENT còn
     → = Circuit TỰ TẮT khi mục đích hoàn thành (bond compiled)
 
@@ -885,7 +885,7 @@ OCD — KHÔNG có timeline tương tự:
     → = CÙNG mechanism OCD, target = NGƯỜI thay vì VẬT
 
   Qua v7.8:
-    → Limerence kéo dài = L2 body-base extension ĐANG compile
+    → Limerence kéo dài = Valence-Structural body-base extension ĐANG compile
       nhưng relationship bất ổn → compile KHÔNG hoàn thành
     → Cortisol Role ② Holding → escalate ③ Threat-sustained
     → = Nếu relationship ổn → bond compile → done → dừng

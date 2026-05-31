@@ -162,10 +162,10 @@ These entries confirm the canonical form and provide definition context.
 
 | Term | Definition |
 |---|---|
-| **① PFC draft cost** | Metabolic cost from HOLD. f(chain_length × novelty). DECREASES as it compiles → ≈ 0. |
+| **① PFC draft cost** | Processing load from HOLD (serial bottleneck + catecholamine demand). f(chain_length × novelty). DECREASES as it compiles → ≈ 0. |
 | **② Suppress cost** | Efference mismatch from SUPPRESS. f(intensity × duration). DOES NOT decrease (pattern still fires). = "Not being me." |
 | **③ Uncertainty cost** | Multiple options, none compiled → hold open → cortisol. f(options × time × stakes). Decreases when committing. |
-| **PFC budget** | Total PFC resource. FINITE. SHARED for all activities. Depleted by fatigue, stress, sleep deprivation, chronic suppress. |
+| **PFC budget** | Total PFC processing capacity. FINITE. SHARED for all activities. Limited by: serial bottleneck (architectural), catecholamine state (depletes with use, restores via sleep), allocation competition (real-time), cortisol interference (stress). |
 
 ### Compiled Quality
 
@@ -256,7 +256,7 @@ These entries confirm the canonical form and provide definition context.
 | **Resonance-Sustainability** | 4-Layer model. 3 conditions × 3 modalities. What predicts sustained vs decaying resonance. |
 | **Resonance-Per-Entity** | Per-entity dynamics. Same mechanism, different dynamics per relationship type. |
 | **By-Product-Scale** | 1 mechanism × 3 scales: Pair / Hub / Institutional. |
-| **Hardware-Subsidy** | Hormone-based anti-habituation. Oxytocin (L1) → Serotonin (L2) → Trust infrastructure (L3). Spectrum: MAX → NONE. |
+| **Hardware-Subsidy** | Hormone-based anti-habituation. Oxytocin (Scale-Pair) → Serotonin (Scale-Hub) → Trust infrastructure (Scale-Institutional). Spectrum: MAX → NONE. |
 | **Resonance Decline** | 2 Forces + 1 Fuel: Compiled-Suppress (strongest, leverage point) + Reward-Habituated (Weber-Fechner) + Novelty threshold (prediction complete + Entity-Compiled saturated = 2 lenses). |
 | **Entity-Access-Excess** | Excess territory on gradient (Mức 5). Entity = near-only gap source. Same circuits as drug addiction. |
 | **Entity-Access-Calibration** | How entity-access self-regulates. 3-Layer Architecture. Exit Cost = Signal Weight. |

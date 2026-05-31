@@ -316,12 +316,6 @@ ROOT_FILES = [
         "group": "",
         "description": "AI INTERFACE: Protocol for using AI to explore the framework. Danger zones where AI training data conflicts with framework positions. Dual Check method (body=quality controller, domain=final arbiter). How to ask questions effectively."
     },
-    {
-        "path": "00-Parameter-Overview.md",
-        "folder": "",
-        "group": "",
-        "description": "QUICK REFERENCE: Parameter map — observation parameters + mechanisms at a glance. Name + file + one-line explanation. NOT mechanism detail — just the bird's eye view."
-    },
 ]
 
 # ─── MAIN ───

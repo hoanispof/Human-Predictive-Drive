@@ -34,7 +34,7 @@ dependencies:
     - Meaning.md v2.2 — §2.3 Anchor DISRUPTED (death context)
     - Imagine-Final.md v3.0 — Constructive future simulation
   Other:
-    - Drive.md v1.2 — §2 PFC 6 Modes (Mode 3 Spinning)
+    - Drive.md v1.2 — §2 PFC 6 Modes (Drive-PFC-Spinning)
     - Cortisol-Baseline.md v2.1 — Direction tag, approach/avoidance
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -187,7 +187,7 @@ KHÁC BIỆT VỚI FILE TRƯỚC (Work-Goal-And-Why):
   Loại 3 = GATEWAY tới meaning question (Meaning.md §2):
     "Không biết muốn gì" = gaps ALL dormant hoặc absent.
     = Energy có nhưng KHÔNG BIẾT hướng nào → spinning.
-    = Drive Mode 3 (Drive.md §2): PFC scan liên tục, không tìm được focus.
+    = Drive-PFC-Spinning (Drive.md §2): PFC scan liên tục, không tìm được focus.
 
   "Stay Hungry" = PREVENT Loại 3 Boredom:
     Duy trì generative gaps → luôn có hướng → KHÔNG spinning.
@@ -634,7 +634,7 @@ ANCHOR + MEANING:
   Imagine-Final.md v3.0 — §6 Gradient, constructive simulation
 
 OTHER:
-  Drive.md v1.2 — §2 Mode 3 Spinning
+  Drive.md v1.2 — §2 Drive-PFC-Spinning
   Cortisol-Baseline.md v2.1 — Direction tag, approach vs avoidance compile
 
 RELATED RESEARCH:

@@ -25,7 +25,7 @@ dependencies:
   - Meaning.md v2.0 — life-level Anchor-Schema, 5 types
   - Imagine-Final.md — reference pattern, clarity gradient
   - Boredom.md — dissonance + Imagine-Final unclear
-  - Drive.md — Mode 3 Spinning, PFC participation
+  - Drive.md — Drive-PFC-Spinning, PFC participation
   - Cortisol-Baseline.md v2.0 — novelty vs threat direction
   - Addiction-Analysis-v2.md — digital addiction mechanism
 sources_data: |
@@ -767,7 +767,7 @@ confidence: 🟢 Research/data support | 🟡 Framework synthesis | 🔴 Hypothe
 - [Meaning.md v2.0](../../Core-Deep-Dive/Observation/Meaning.md) — life-level Anchor-Schema
 - [Imagine-Final.md](../../Core-Deep-Dive/PFC/Imagination/Imagine-Final.md) — reference pattern
 - [Boredom.md](../../Core-Deep-Dive/Observation/Boredom.md) — dissonance + unclear Imagine-Final
-- [Drive.md](../../Core-Deep-Dive/Observation/Drive.md) — Mode 3 Spinning
+- [Drive.md](../../Core-Deep-Dive/Observation/Drive.md) — Drive-PFC-Spinning
 - [Cortisol-Baseline.md v2.0](../../Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — novelty vs threat
 - [Addiction-Analysis-v2.md](Addiction-Analysis-v2.md) — addiction mechanism, digital addiction
 

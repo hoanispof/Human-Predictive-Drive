@@ -553,9 +553,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │   (Sophia, Ameca)      │ body    │ liên tục │ Fresh WRONG     │ "máy" chưa   │ VALLEY       │
   │                        │          │ sai      │              │ resolve      │              │
   ├────────────────────────┼──────────┼──────────┼──────────────┼──────────────┼──────────────┤
-  │ ④ Nhân vật hoạt hình   │ ✅ simple│ ✅ OK    │ ⚠ Mode 2     │ "nhân vật    │ ✗ KHÔNG      │
-  │   stylized             │ nét vẽ  │ trong    │ (imagined)   │ giải trí"    │ Có thể yêu   │
-  │   (Pixar, Ghibli)      │          │ context  │ VTC không    │              │ (parasocial) │
+  │ ④ Nhân vật hoạt hình   │ ✅ simple│ ✅ OK    │ ⚠ Schema-   │ "nhân vật    │ ✗ KHÔNG      │
+  │   stylized             │ nét vẽ  │ trong    │ Imagined-    │ giải trí"    │ Có thể yêu   │
+  │   (Pixar, Ghibli)      │          │ context  │ Overlay      │              │ (parasocial) │
   │                        │          │ phim     │ fire full    │              │              │
   ├────────────────────────┼──────────┼──────────┼──────────────┼──────────────┼──────────────┤
   │ ⑤ Avatar AI text       │ ✗ không  │ ✅ OK    │ ⚠ partial    │ "AI tool"    │ ✗ KHÔNG      │
@@ -1023,7 +1023,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   NHƯNG CÓ RISK KHÁC:
   → AI-Self-Model.md §1: AI = amplifier, NOT corrector
   → User có thể anthropomorphize (project agent model lên AI)
-  → = Mode 2 schema override: imagined agent model KHÔNG có feedback thực
+  → = Schema-Imagined-Overlay: imagined agent model KHÔNG có feedback thực
   → = Parasocial variant: Self-Pattern-Modeling fire nhưng KHÔNG CÓ Resonance calibrate
   → Dài hạn: user build "relationship" với entity không có internal state
   → = Connection promise WITHOUT connection reality (tương tự §2.4)
@@ -1071,7 +1071,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Nếu robot provide basic social cues (voice, presence, contingent response)
     → Body có thể "chấp nhận" dù biết không phải người
     → = Schema override: "không phải người thật, nhưng TỐT HƠN KHÔNG CÓ AI"
-    → Tương tự Mode 1 (Agent-Mechanism.md §10): schema trust replace full Self-Pattern-Modeling
+    → Tương tự Schema-Pure-Trust (Agent-Mechanism.md §10): schema trust replace full Self-Pattern-Modeling
 
   ⚠️ FAKE FEEDBACK RISK — ROBOT GIỐNG NGƯỜI ĐẶC BIỆT NGUY HIỂM:
 

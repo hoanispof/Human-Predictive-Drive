@@ -26,7 +26,7 @@ dependencies:
   - PFC-Hardware.md — COMT, DRD4, individual profiles
   - Feeling-Mechanism-Deep.md — body-first invariant, 8-step flow
   - Boredom.md — dissonance + Imagine-Final unclear
-  - Drive.md — Mode 3 Spinning
+  - Drive.md — Drive-PFC-Spinning
   - Body-Feedback/02-Dissonance.md — dissonance = architectural feature
 sources_academic: |
   🟢 Wallner et al. 2003 — GABA-A δ-subunit extrasynaptic mechanism

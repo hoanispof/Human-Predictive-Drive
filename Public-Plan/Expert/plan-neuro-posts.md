@@ -1,6 +1,6 @@
-# Plan: Neuroscience Posts — 2 Blog + 2 Short Posts
+# Plan: Neuroscience Posts — 3 Blog + 3 Short Posts
 
-> **Mục tiêu:** Tạo 2 bài blog neuroscience + 2 short post dẫn link. Phục vụ VERIFY từ chuyên gia.
+> **Mục tiêu:** Tạo 3 bài blog neuroscience + 3 short post dẫn link. Phục vụ VERIFY từ chuyên gia.
 > **Vị trí trong chiến lược:** Đây là content ĐẦU TIÊN ra ngoài. Neuro posts đi trước tech post.
 > **Nguyên tắc:** hypothesis inviting falsification. Giọng ngang hàng, không giảng dạy.
 > **Trạng thái:** PLANNING
@@ -14,16 +14,19 @@
 
 ---
 
-## §1 — 4 BÀI, 2 TẦNG
+## §1 — 6 BÀI, 2 TẦNG
 
 ```
   TẦNG 1: BLOG POST (dài, chi tiết, có citation)
-    → Blog A: Dopamine Is Not Reward
-    → Blog B: Cortisol — Optimize the Inverted-U, Not Eliminate It
+    → Blog A: Dopamine Is Not Reward                              ✅ DRAFTED
+    → Blog B: Cortisol — Not Your Stress Hormone                   ✅ DRAFTED
+    → Blog C: ADHD — Not Attention Deficit (tech-neuro crossover)  ✅ DRAFTED
 
   TẦNG 2: SHORT POST (ngắn, dẫn link tới blog)
-    → Short A: dẫn → Blog A
-    → Short B: dẫn → Blog B
+    → Short A: dẫn → Blog A                                       ✅ DRAFTED
+    → Short B: dẫn → Blog B                                       ✅ DRAFTED
+    → Short C: dẫn → Blog C                                       ✅ DRAFTED
+    → Short D: dẫn → Blog C (r/ADHD_Programmers)                   ✅ DRAFTED
 
   LOGIC:
     Short post = HOOK + 1 insight cụ thể + link
@@ -31,8 +34,13 @@
     Chuyên gia đọc short → tò mò → click blog → verify → engage
 
   THỨ TỰ XUẤT BẢN:
-    Blog A trước → Short A → Blog B → Short B
+    Blog A trước → Short A → Blog B → Short B → Blog C → Short C
     (Blog phải sẵn TRƯỚC short post, vì short dẫn link)
+
+  LƯU Ý:
+    Tech post tổng hợp (plan-tech-post.md) = POST TOPIC ONLY (không có blog)
+    → Trau chuốt nội dung post, dẫn thẳng tới GitHub framework
+    → Khác với Blog A/B/C: blog riêng + short posts riêng
 ```
 
 ---
@@ -148,7 +156,62 @@
 
 ---
 
-## §4 — SHORT POSTS (2 bài)
+## §3b — BLOG C: ADHD — NOT ATTENTION DEFICIT (⬜ PLANNED)
+
+### 3b.1 — Mục tiêu
+
+```
+  CLAIM CHÍNH: "Attention Deficit" là tên gọi SAI.
+  ADHD = dopamine CLEARANCE quá nhanh + RECEPTOR kém nhạy (DAT + DRD4 + COMT).
+  Không thiếu attention — REGULATE khác. Hyperfocus + inattention = CÙNG mechanism, khác threshold.
+  AUDIENCE: neuroscientists, psychiatrists, psychologists, tech (ADHD-aware community lớn)
+  KẾT QUẢ MONG MUỐN: verify/falsify (giống Blog A/B)
+  SOURCE: ADHD-Observation.md v1.3 + ADHD-Trade-Off.md v1.0 + ADHD-Attention-Optimization.md v1.0
+```
+
+### 3b.2 — Cấu trúc blog (dự kiến)
+
+```
+  ① HOOK: "Attention Deficit" misconception
+     → "Không tập trung" + "hyperfocus 6 giờ" = CÙNG mechanism
+     → Tên gọi sai DẪN TỚI hiểu sai → can thiệp sai hướng
+
+  ② EVIDENCE: 3-way dopamine comparison
+     → Nicotine = VTA forced fire (hijack)
+     → Parkinson = SNc degeneration (loss)
+     → ADHD = DAT + DRD4 tuning (clearance + receptor sensitivity)
+     → Cùng phân tử, 3 disruption points, 3 clinical outcomes
+
+  ③ REFRAME: Regulation variation, not deficit
+     → DAT clearance speed → threshold khác cho sustained attention
+     → DRD4 sensitivity → novelty-seeking pattern
+     → Hyperfocus = GAP strong enough to exceed threshold
+     → Inattention = GAP too weak to exceed threshold
+
+  ④ TRADE-OFF: Tại sao ADHD tồn tại (5-7% stable prevalence)
+     → Inverted-U: subclinical = creative advantage, severe = executive deficit
+     → Environment dịch chuyển peak → environment FIT matters more than hardware
+
+  ⑤ FALSIFICATION: Framework sai nếu...
+     → Pure attention training eliminates ADHD (without changing threshold)
+     → ADHD prevalence NOT stable across populations
+     → Nêu rõ conditions
+
+  ⑥ CALL TO VERIFY: (giống Blog A/B format)
+```
+
+### 3b.3 — Expert routing
+
+```
+  PRIMARY: ① Neurochemistry — verify dopamine mechanism (DAT/DRD4/COMT)
+  SECONDARY: ⑮ Psychiatry — verify clinical reframe
+  TERTIARY: ⑨ Cognitive Psychology — verify attention model
+  BONUS: Tech community (HN, r/ADHD) — ADHD-aware audience, high engagement potential
+```
+
+---
+
+## §4 — SHORT POSTS (3 bài)
 
 ### 4.1 — Đặc điểm chung
 
@@ -218,25 +281,44 @@
 ## §6 — TIMELINE + MILESTONES
 
 ```
-  Phase 1: DRAFT
-    → Draft Blog A (nhiều versions) — sử dụng 01-Dopamine-Not-Reward.md làm base
-    → Draft Blog B (nhiều versions) — từ Cortisol-Baseline.md v2.0
-    → Draft Short A + Short B
+  Phase 1: DRAFT                                                    ✅ ALL DONE
+    → Draft Blog A — sử dụng 01-Dopamine-Not-Reward.md làm base      ✅
+    → Draft Blog B — từ Cortisol-Baseline.md v2.0                     ✅
+    → Draft Blog C — từ ADHD-Observation.md v1.3 + companion files    ✅ DRAFTED
+    → Draft Short A + Short B + Short C + Short D(ADHD_Programmers)    ✅ ALL DONE
     → KHÔNG rush. Mỗi session = 1-2 versions.
 
-  Phase 2: SELECT
-    → So sánh versions → chọn hoặc mix
-    → Xác định: 1 mẫu chung hay mẫu riêng cho blog vs short?
+  Phase 2: SELECT                                                   ✅ DONE
+    → So sánh 3 blogs → 7 inconsistencies identified                  ✅
+    → Quyết định: template chung + biến thể hợp lý cho Blog C         ✅
+    → Consistency fixes applied (Batch 1 + Batch 2)                    ✅
 
-  Phase 3: REFINE
-    → Polish final versions
-    → Verify citations against primary sources
-    → Cross-check falsification criteria
+  Phase 3: REFINE                                                    ✅ ALL DONE
+    → Structural consistency (section order, tables, format)           ✅ DONE
+    → Cross-linking between blogs                                      ✅ DONE
+    → Verify citations against primary sources                         ✅ DONE
+      Blog A: 26 refs — all clean, proper format                        ✅
+      Blog B: 27→28 refs — all clean + Reyes 2020 ADDED for Ev.1       ✅
+      Blog C: 3 floating citations FIXED                                ✅
+        Gaze cueing: Marotta et al. (2017) PMID 28199914
+        Social cognition: Bora & Pantelis (2016) PMID 26707895
+        Exercise meta: Liang et al. (2021) PMC8141166 (year 2025→2021)
+    → Cross-check falsification criteria                               ✅ DONE
+      16 criteria total (A:6 + B:5 + C:5) — no cross-blog contradictions
+      1 tension (DRD4 centrality: A=optional, C=central) — transparent
+    → Content quality review (per-section)                             ✅ DONE
+      Blog B Ev.1 strengthened with specific study (was "clinical obs")
+      Blog B genius paradox already softened (prev session)
 
-  Phase 4: PUBLISH (Blog A → Short A → Blog B → Short B)
+  Phase 4: PUBLISH (Blog A → Short A → Blog B → Short B → Blog C → Short C)
     → Blog lên trước (GitHub Pages / Medium / blog riêng)
     → Short post sau (Reddit / forum)
     → Monitor engagement → learn → adjust
+
+  SONG SONG: Tech post tổng hợp (plan-tech-post.md)
+    → POST TOPIC ONLY (không có blog riêng)
+    → Trau chuốt nội dung, dẫn thẳng tới GitHub framework
+    → Có thể publish song song hoặc sau Blog C
 
   KHÔNG ĐẶT DEADLINE CỨ THỂ.
   Chất lượng > tốc độ. Mỗi bài phải đứng vững trước chuyên gia.

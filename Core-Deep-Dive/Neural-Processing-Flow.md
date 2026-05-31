@@ -482,7 +482,7 @@ Tất cả output = action potentials (xung điện). Khác ở: tần số + pa
     → Logic-Feeling.md v2.0 §1: Compiled/Fresh = trục thật
     → Feeling.md v3.0 §2.5: 7-layer × Compiled/Fresh
     → Inter-Body §3: content ≠ processing level (Einstein toán = compiled = fast)
-    → 3-cost model: fresh = METABOLICALLY expensive because novel path construction
+    → 3-cost model: fresh = processing-intensive because novel path construction
 
 🟢 Hebb 1949 (Hebbian learning principle)
 🟢 Bliss & Lømo 1973 (LTP discovery)
@@ -1251,7 +1251,7 @@ v2.0 CHANGES (2026-05-17 — Inter-Body Drill Integration):
   → §8.3: +5-Channel Input Vector connection (10 channels → 5-channel model)
   → §10.3 FIX: "L3 operators" → "Observation parameters" (v7.8 reframe)
   → §11: +6 🟢 citations (Hebb, Bliss&Lømo, Fields, Gazzaniga, Haidt, Nisbett&Wilson)
-         +5 🟡 items (Compilable Architecture, Compiled/Fresh physical, PFC=Lawyer, 5-Channel, obs params)
+         +5 🟡 items (Compilable Architecture, Compiled/Fresh physical, PFC=Lawyer, 5-Channel, observation parameters)
   → §12 NEW: Cross-references section
   → ALL v1.0 hardware content PRESERVED (§1-§4, §7, §9)
   → ALL 35+ research citations preserved + 6 added = 41+ total

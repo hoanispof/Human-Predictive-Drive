@@ -1366,15 +1366,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 DUAL ROLE TABLE:
 
-  ┌──────────────┬─────────────────┬──────────────────┐
-  │ Component    │ Addiction role   │ Parkinson protection?   │
-  ├──────────────┼─────────────────┼──────────────────┤
-  │ Nicotine     │ PRIMARY driver  │ ✗ NIC-PD failed  │
-  │ MAO-B inh.   │ AMPLIFIER       │ ✓ Reduce oxidat. │
-  │ CO           │ HARM (lungs)    │ ✓ Neuroprotect.  │
-  │ CYP450 ↑     │ metabolism      │ ✓ Detoxify toxins│
-  │ TAR          │ harm (cancer)   │ ✗ no evidence    │
-  └──────────────┴─────────────────┴──────────────────┘
+  ┌────────────────┬─────────────────┬──────────────────────┐
+  │ Component      │ Addiction role   │ Parkinson protection?│
+  ├────────────────┼─────────────────┼──────────────────────┤
+  │ Nicotine       │ PRIMARY driver  │ ✗ NIC-PD failed      │
+  │ MAO-B inhibitor│ AMPLIFIER       │ ✓ Reduce oxidation   │
+  │ CO             │ HARM (lungs)    │ ✓ Neuroprotective    │
+  │ CYP450 ↑       │ metabolism      │ ✓ Detoxify toxins    │
+  │ TAR            │ harm (cancer)   │ ✗ no evidence        │
+  └────────────────┴─────────────────┴──────────────────────┘
 
   = Thuốc lá chứa compounds TÌNH CỜ neuroprotective
   = Harm (cancer, COPD, CVD) >>> neuroprotection benefit

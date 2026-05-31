@@ -226,7 +226,7 @@ Ritual is primarily **Feeling-track** in Logic-Feeling terms:
 **Theme E claim**: Empathy = Resonance (NOT hardware mirror). Giving dynamics = positive vs negative trust, driven by body-level mirror reward calculation.
 
 **Logic-Feeling's position on empathy**: §7.1 discusses "Agent + Logic 5 sub-cases":
-- Schema agents (Đức Mẹ Mode 1)
+- Schema agents (Đức Mẹ Schema-Pure-Trust)
 - Routine roles
 - Clinical / systematic empathy
 - Dehumanization (DANGER)

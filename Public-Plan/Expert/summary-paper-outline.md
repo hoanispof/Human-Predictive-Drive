@@ -203,7 +203,7 @@ CONTENT:
   5.1 — Child Development (0-6 mechanisms)
   5.2 — Education (compile types, arc design, AI era)
   5.3 — Addiction (chunk-reward loop hijack, not "dopamine addiction")
-  5.4 — Love (body-base extension, L2 smoothing)
+  5.4 — Love (body-base extension, Valence-Structural smoothing)
   5.5 — OCD ("done" pipeline failure)
   5.6 — Religion (melody technology, 7/7 functions)
   5.7 — AI-Human Future (symbiosis architecture)

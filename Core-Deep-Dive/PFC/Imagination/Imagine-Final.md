@@ -183,7 +183,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                                                                 │
   │   = Nhu cầu LUÔN tồn tại, drive MỌI hành vi                   │
   │   = Hardware (L0/L1): đói, khát, nhiệt, oxy, ngủ              │
-  │   = Evaluative: kết nối, chứng minh giá trị (obs params)       │
+  │   = Evaluative: kết nối, chứng minh giá trị (observation parameters) │
   │   = KHÔNG BAO GIỜ là Imagine-Final — là NGUỒN sinh ra          │
   ├─────────────────────────────────────────────────────────────────┤
   │ TẦNG ②: IMAGINE-FINAL (constructive preview — "VỀ ĐÂU")       │
@@ -510,7 +510,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ├──────────────┼────────────────────────────────────────────┤
   │ Self-Pattern-Modeling Compiled       │ LEAST: compiled, automatic, invisible       │
   │ Dream/Mind W.│ ZERO: engine free-run during sleep          │
-  │ Self-Obs     │ MIDDLE: PFC observe, cannot manipulate      │
+  │ Self-Observation │ MIDDLE: PFC observe, cannot manipulate      │
   │ Self-Pattern-Modeling Fresh       │ MODERATE: PFC draft model deliberately      │
   │ ★ Imagine-Final│ MOST: PFC SET scenario + READ + ITERATE   │
   │ Decision     │ HIGHEST: Imagine-Final ×N + COMPARE         │
@@ -550,7 +550,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   HỎNG 1 = HỎNG CẢ 3:
     → Alexithymia (broken interoception readout) →
-      Self-Obs FAIL + Self-Pattern-Modeling FAIL + Imagine-Final DEGRADED
+      Self-Observation FAIL + Self-Pattern-Modeling FAIL + Imagine-Final DEGRADED
     → 🟢 Bird & Cook 2013: decisive proof for shared substrate
 
   SOCIAL ↔ SELF BIDIRECTIONAL:
@@ -711,7 +711,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   HOLD × IMAGINE-FINAL:
     → PFC sustain Imagine-Final trong working memory → refine, simulate, compare
-    → Cost: ① PFC draft (metabolic — glucose consumption)
+    → Cost: ① PFC draft (processing load — PFC-Operations v1.3 §8.3)
     → Mệt → PFC release → Imagine-Final drops (nếu chưa compiled)
     → Lặp đủ → Hebbian compile → Imagine-Final self-sustain → "calling"
     → VD: "Mỗi ngày nghĩ về project → dần compiled → tự fire"
@@ -1210,8 +1210,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Reflection/Rumination KHÔNG chỉ ảnh hưởng Imagine-Final:
     → Self-Pattern-Modeling with curiosity: "tại sao bạn nghĩ vậy?" → LEARN
     → Self-Pattern-Modeling with threat: "bạn chắc ghét tôi" → PROJECT fear
-    → Self-Obs with curiosity: "tại sao tôi feel vậy?" → insight
-    → Self-Obs with threat: "tôi chắc sai rồi" → stuck
+    → Self-Observation with curiosity: "tại sao tôi feel vậy?" → insight
+    → Self-Observation with threat: "tôi chắc sai rồi" → stuck
     → = Engine use quality = modifier cho TẤT CẢ applications
     → (Simulation-Engine.md §9)
 

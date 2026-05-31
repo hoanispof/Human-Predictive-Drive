@@ -155,7 +155,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ Loss aversion        │ VTA asymmetry (loss > gain signal)   │
     │ (Protect)            │ = Negative delta > positive delta    │
     ├──────────────────────┼──────────────────────────────────────┤
-    │ ⭐ AUTONOMY PREF.    │ Efference copy + VTA + opioid        │
+    │ ⭐ AUTONOMY PREFERENCE│ Efference copy + VTA + opioid        │
     │                      │ = Self-action → copy → better        │
     │                      │   prediction → more match → reward   │
     ├──────────────────────┼──────────────────────────────────────┤

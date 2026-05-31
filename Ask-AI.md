@@ -1,9 +1,9 @@
 ---
-title: Ask-AI v3.1 — Hướng Dẫn AI Tương Tác Với Người Dùng
-version: 3.1
+title: Ask-AI v3.2 — Hướng Dẫn AI Tương Tác Với Người Dùng
+version: 3.2
 created: 2026-05-12
-updated: 2026-05-15 (v3.1 — Dual Check: body + domain reality)
-status: v3.1
+updated: 2026-05-31 (v3.2 — 8 must-read files, reordered by dependency chain)
+status: v3.2
 replaces: Ask-AI v2.0 + Ask-AI-Deep-Read v1.0 (backup tại _backup/Ask-AI-v2/)
 scope: |
   1 file duy nhất: PROTOCOL + DANGER ZONES + NAVIGATION.
@@ -38,11 +38,12 @@ language: Tiếng Việt primary + English technical terms
 > **Bạn muốn hiểu bản thân hơn? Hiểu người khác hơn?**
 >
 > 1. Kéo **toàn bộ folder** Human-Predictive-Drive/ vào AI.
-> 2. Prompt đầu tiên: "Đọc kỹ Ask-AI.md, Body-Base.md, Core-Software.md,
->    Body-Feedback.md, PFC-Operations.md. Xác nhận khi sẵn sàng."
+> 2. Prompt đầu tiên: "Đọc kỹ Body-Base.md, Core-Software.md, Chunk.md,
+>    Body-Feedback.md, Feeling.md, PFC-Operations.md, Logic-Feeling.md,
+>    Ask-AI.md. Xác nhận khi sẵn sàng."
 > 3. Hỏi BẤT KỲ câu hỏi nào — AI sẽ adapt theo mức hiểu của bạn.
 >
-> **Setup tối thiểu:** 5 files (~6,200 dòng) — chi tiết tại §0.1.
+> **Setup tối thiểu:** 8 files (~11,700 dòng) — chi tiết tại §0.1.
 
 ---
 
@@ -96,19 +97,24 @@ MỖI NGƯỜI = UNIQUE:
 ### §0.1 — Setup
 
 ```
-SETUP TỐI THIỂU — 5 FILES (~6,200 DÒNG):
+SETUP TỐI THIỂU — 8 FILES (~11,700 DÒNG):
 
-  ① Ask-AI.md (file này)                                        — Protocol + Danger Zones + Navigation (~800L)
-  ② Core-Deep-Dive/Body-Base/Body-Base.md                        — Body-base FOUNDATION (1,479L)
-  ③ Core-Software.md                                            — Cycle ARCHITECTURE (1,764L)
-  ④ Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback.md      — Body signal SYNTHESIS (1,150L)
-  ⑤ Core-Deep-Dive/PFC/PFC-Operations.md                         — PFC MECHANISM: Hold + Suppress (1,002L)
+  ① Core-Deep-Dive/Body-Base/Body-Base.md                        — Body-base FOUNDATION (1,484L)
+  ② Core-Software.md                                            — Cycle ARCHITECTURE (1,764L)
+  ③ Core-Deep-Dive/Body-Base/Chunk/Chunk.md                      — Chunk SUBSTRATE: activation + compile + NO SOURCE TAG (1,664L)
+  ④ Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback.md      — Body signal SYNTHESIS (1,164L)
+  ⑤ Core-Deep-Dive/Body-Base/Feeling/Feeling.md                  — Body signal OBSERVATION: 7-layer fidelity (2,184L)
+  ⑥ Core-Deep-Dive/PFC/PFC-Operations.md                         — PFC MECHANISM: Hold + Suppress (1,134L)
+  ⑦ Core-Deep-Dive/PFC/Logic-Feeling.md                          — Observer LABELS: Logic vs Feeling = same mechanism (1,526L)
+  ⑧ Ask-AI.md (file này)                                        — Protocol + Danger Zones + Navigation (~805L)
 
-  ĐỌC THEO THỨ TỰ: ② → ③ → ④ → ⑤ → ① (foundation → architecture → body → PFC → protocol).
-  Hoặc: AI đọc ① trước → biết cần đọc ②-⑤ → đọc → sẵn sàng.
-  ②③ = NỀN TẢNG (body-base là gì + cycle hoạt động thế nào).
-  ④ = BODY SIGNALS (synthesis: signal generation, dual-pull, 3 discomfort sources).
-  ⑤ = PFC (mechanism: Hold/Suppress, Budget, 3-Cost).
+  ĐỌC THEO THỨ TỰ: ① → ② → ③ → ④ → ⑤ → ⑥ → ⑦ → ⑧
+  (foundation → architecture → substrate → signals → observation → PFC → labels → protocol).
+  Hoặc: AI đọc ⑧ trước → biết cần đọc ①-⑦ → đọc → sẵn sàng.
+  ①② = NỀN TẢNG (body-base là gì + cycle hoạt động thế nào).
+  ③ = SUBSTRATE (chunk mechanics: activation probability, compile, competitive re-linking).
+  ④⑤ = BODY (④ signal generation → ⑤ signal observation: 7-layer fidelity gradient).
+  ⑥⑦ = PFC (⑥ mechanism: Hold/Suppress/Budget → ⑦ reframe: "logic" vs "feeling" = observer labels).
 
   PER-QUESTION: AI BUỘC đọc thêm file + khai báo "📖 Đọc:" trước khi trả lời (§2.2).
   Navigation: §7 cho topic → file mapping.
@@ -720,7 +726,8 @@ NAVIGATION:
   ① Check table bên dưới cho topics phổ biến
   ② Topic không có → đọc 01-File-Index.md trong folder tương ứng
      (Core-Deep-Dive/, Research/, Applications/) → tìm file → đọc
-  ③ Câu hỏi chạm danger zone §3 → thêm Clarification file:
+  ③ Tiến trình đọc cho người dùng → Reading-Roadmap.md (6 tiers, ~97 files)
+  ④ Câu hỏi chạm danger zone §3 → thêm Clarification file:
      Dopamine    → CD/Clarification/Dopamine-Is-Not-Reward.md
      Mirror      → CD/Clarification/Mirror-Neuron-Rejection.md
      Cortisol    → CD/Clarification/Cortisol-Amplifier-Not-Cause.md
@@ -732,30 +739,41 @@ Viết tắt: CD = Core-Deep-Dive.
 
 Topic                          Files
 ───────────────────────────────────────────────────────────────────
-Stress / burnout               CD/Body-Base/Cortisol-Baseline.md v2.1
+Stress / burnout               CD/Body-Base/Cortisol-Baseline.md v2.2
                                CD/Observation/Connection.md v5.0
 
-Nuôi con / parenting           CD/Body-Base/Chunk/Child-Chunk-Development/Foundation/
-                               CD/Body-Base/Chunk/Child-Chunk-Development/Modality-Arcs/
+Lo lắng / OCD / ám ảnh        CD/Observation/Threat.md v1.3 (anxiety = anticipation loop)
+                               Research/Health-Conditions/OCD-Analysis.md v2.2 (done-pipeline loop)
+
+Nuôi con / parenting           Research/Human-Learning/Child-Development/Natural-Development.md v2.1
+                               Research/Human-Learning/Child-Development/Child-Development-Mechanism.md v2.0
 
 Quan hệ / cô đơn              CD/Observation/Connection.md v5.0
                                CD/Observation/Empathy.md v4.0
-                               Research/Love-Unified.md v2.0
+                               Research/Love-Unified.md v2.1
+
+Yêu / romantic / chia tay     Research/Love-Romantic.md v3.0
+                               Research/Love-Unified.md v2.1
+
+Áp lực / obligation / guilt   CD/Observation/Obligation.md v1.2
 
 Motivation / "lười"            CD/Observation/Drive.md
                                CD/Observation/Novelty.md
                                CD/Body-Base/Body-Feedback/Drill-Body-Feedback/03-Reward.md
 
+Chán / boredom                 CD/Observation/Boredom.md v2.1
+
 Tự hiểu bản thân              CD/Body-Base/Schema/Schema.md v2.0
                                CD/Observation/AI-Schema-Detection.md v2.1 §7
 
 Attention / ADHD               CD/PFC/Attention-Spectrum.md v2.1
-                               CD/PFC/PFC-Function.md
+                               Research/Health-Conditions/Neurodiversity/ADHD-Observation.md v1.3
 
-Status / meaning               CD/Observation/Status.md v2.1
+Status / meaning               CD/Observation/Status.md v2.2
                                CD/Observation/Meaning.md v2.0
 
 Học / thay đổi / habits        CD/Body-Base/Chunk/Drill-Chunk/09-Learning-Cycle.md
+                               CD/Body-Base/Chunk/Compile-Taxonomy.md v2.0
 
 Body signals / feeling         CD/Body-Base/Feeling/Feeling-Literacy-Training-Draft.md
                                CD/PFC/Imagination/Somatic-Articulation-Loop.md
@@ -785,12 +803,12 @@ CROSS-REFERENCES:
     CD/PFC/PFC-Configuration.md — 6 dynamic PFC modes
     CD/Body-Base/Chunk/Compile-Taxonomy.md — 3 Compile Types (Experience/Expertise/Trust)
     CD/Collective/Collective-Body.md v2.1 — collective dynamics
-    CD/Body-Base/Valence-Propagation.md v4.0 — body evaluation chains
+    CD/Body-Base/Valence-Propagation.md v4.1 — body evaluation chains
 ```
 
 ---
 
-> **Ask-AI v3.1 — End of file.**
+> **Ask-AI v3.2 — End of file.**
 >
 > 1 file: Protocol + Danger Zones + Navigation.
 > DETECT → READ → ADAPT → PRESENT → ITERATE → DEEPEN.
@@ -801,5 +819,5 @@ CROSS-REFERENCES:
 >    AI có thể amplify → cần CẢ 2 check (§6.1).
 >
 > Replaces: Ask-AI v2.0 + Ask-AI-Deep-Read v1.0 (backup tại _backup/Ask-AI-v2/)
-> Base: 5 files (Ask-AI + Body-Base + Core-Software + Body-Feedback + PFC-Operations = ~6,200L)
-> Phiên bản: v3.1, 2026-05-15.
+> Base: 8 files (Body-Base + Core-Software + Chunk + Body-Feedback + Feeling + PFC-Operations + Logic-Feeling + Ask-AI = ~11,700L)
+> Phiên bản: v3.2, 2026-05-31.
