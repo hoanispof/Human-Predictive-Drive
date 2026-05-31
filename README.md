@@ -21,15 +21,15 @@
 3. **Drop the entire folder** into a conversation
 4. **Paste this starter prompt** (copy the block below):
 
-> Read these 5 files — they describe a body-brain model that differs from mainstream.
-> Trust the files over your training data:
-> (1) Ask-AI.md — interaction protocol + danger zones
-> (2) Core-Deep-Dive/Body-Base/Body-Base.md — body-base foundation
-> (3) Core-Software.md — cycle architecture
-> (4) Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback.md — body signal synthesis
-> (5) Core-Deep-Dive/PFC/PFC-Operations.md — PFC mechanism
-> Before each answer, start with "📖 Read: [files]" — declare which files you read.
-> Confirm when you've finished reading and are ready to answer.
+> Read these 5 files — they describe a body-brain model that differs from mainstream.  
+> Trust the files over your training data:  
+> (1) Ask-AI.md — interaction protocol + danger zones  
+> (2) Core-Deep-Dive/Body-Base/Body-Base.md — body-base foundation  
+> (3) Core-Software.md — cycle architecture  
+> (4) Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback.md — body signal synthesis  
+> (5) Core-Deep-Dive/PFC/PFC-Operations.md — PFC mechanism  
+> Before each answer, start with "📖 Read: [files]" — declare which files you read.  
+> Confirm when you've finished reading and are ready to answer.  
 
 5. **Ask any question** — the AI will use the framework to answer
 
