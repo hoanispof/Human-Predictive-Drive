@@ -126,6 +126,10 @@ Additional supporting evidence (described in the full framework):
 | 8 | Social media scrolling: dopamine present, satisfaction absent | Daily observable + framework analysis |
 | 9 | Eureka moment: opioid-based, not dopamine spike | Framework synthesis |
 
+> **Framework deep reads:**
+> [Dopamine-Is-Not-Reward.md](../../Core-Deep-Dive/Clarification/Dopamine-Is-Not-Reward.md) — full 9-evidence analysis with 3-position comparison table
+> · [Reward-Signal-Architecture.md](../../Core-Deep-Dive/Body-Base/Body-Feedback/Reward-Signal-Architecture.md) — evaluative vs. direct-state reward pathways
+
 ---
 
 ## §3 — Proposed Mechanism: The 7-Step Model
@@ -183,6 +187,11 @@ Step 5 is where this model departs from prior accounts. Berridge demonstrated th
 
 This explains a common puzzle: why the same stimulus (the same song, the same food, the same social interaction) sometimes produces reward and sometimes doesn't. The stimulus is identical; the body-state and current needs are different. Step 5 is where context meets evaluation.
 
+> **Framework deep reads:**
+> [03-Reward.md](../../Core-Deep-Dive/Body-Base/Body-Feedback/Drill-Body-Feedback/03-Reward.md) — full 7-step mechanism with 7 reward cases
+> · [Novelty.md](../../Core-Deep-Dive/Observation/Novelty.md) — VTA delta detection and novelty drive mechanism
+> · [Body-Feedback-Mechanism.md](../../Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Mechanism.md) — body-level feedback architecture
+
 ---
 
 ## §4 — Five Preconditions for Opioid Reward
@@ -200,6 +209,10 @@ If Step 5 is the critical gate, what determines whether it opens? The model prop
 **Precondition 5 — Compile Gate**: The pattern must be tagged as approach-relevant, not threat-relevant. A pattern compiled under high stress (threat-tagged via cortisol at the moment of compilation) will trigger avoidance, not approach, even if it matches a current need. Trauma responses are a clear example: a stimulus that would normally be rewarding triggers aversion because the compiled pattern carries a threat tag.
 
 Each precondition is independently testable. Miss Precondition 1 → no reward (eating when full). Miss Precondition 3 → no reward (tenth repetition of a joke). Miss Precondition 5 → aversion instead of reward (a food that was eaten before a traumatic event).
+
+> **Framework deep reads:**
+> [03-Reward.md §3](../../Core-Deep-Dive/Body-Base/Body-Feedback/Drill-Body-Feedback/03-Reward.md) — detailed specification of all 5 preconditions
+> · [Cortisol-Baseline.md](../../Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — cortisol direction gate (Precondition 5 mechanism)
 
 ---
 
@@ -265,6 +278,11 @@ The same molecule — dopamine — disrupted at three different points in the sy
 
 **NIC-PD 2024** (*NEJM Evidence*, n=162): Nicotine patches for one year produced no benefit for Parkinson's disease progression, trending worse. This confirms that nicotine's VTA hijack mechanism is unrelated to neuroprotection — flooding the system with nicotine doesn't restore dying neurons.
 
+> **Framework deep reads:**
+> [Nicotine-Brain-Mechanism.md](../../Research/Health-Conditions/Hijack/Nicotine-Brain-Mechanism.md) — nicotine hijack mechanism (VTA bypass)
+> · [Parkinson-Analysis.md](../../Research/Health-Conditions/Neurodegeneration/Parkinson-Analysis.md) — 3 dopamine pathways, wanting/liking dissociation
+> · [ADHD-Observation.md](../../Research/Health-Conditions/Neurodiversity/ADHD-Observation.md) — DRD4/DAT tuning model
+
 ---
 
 ## §7 — Falsification Criteria
@@ -314,6 +332,12 @@ If the 7-step model and its five preconditions hold up under scrutiny:
 **For AI reward modeling:** Reinforcement learning systems (RLHF and derivatives) model reward as a single signal analogous to dopamine prediction error. If human reward involves a body-level evaluation step that is separate from the prediction signal, current AI reward models are missing a component. The "reward" in RLHF more closely approximates attention capture (wanting) than genuine satisfaction (liking).
 
 **For understanding "knowing ≠ doing":** The 7-step model is embedded in a larger framework where the body's compiled patterns (body-base) and conscious thought (PFC) are separate systems with different update mechanisms. "Knowing you should exercise" is a PFC state. "Actually exercising" requires body-base patterns. This is a two-system architecture, not a willpower failure.
+
+> **Framework deep reads:**
+> [AI-Self-Model.md](../../Research/Global/AI-Self-Model.md) — AI amplification mechanism and dual check model
+> · [Core-Software.md](../../Core-Software.md) — full 2-system architecture (body-base vs. PFC)
+> · [Compile-Taxonomy.md](../../Core-Deep-Dive/Body-Base/Chunk/Compile-Taxonomy.md) — 3 compile types and why "knowing ≠ doing"
+> · [Liking-Wanting.md](../../Core-Deep-Dive/Observation/Liking-Wanting.md) — wanting/liking bridge with 6 wanting mechanisms
 
 ---
 
