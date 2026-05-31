@@ -211,17 +211,18 @@
       background: var(--bg2);
       border: 1px solid var(--border);
       border-radius: 4px;
-      padding: 6px 10px;
+      padding: 8px 12px;
       font-size: 12px;
       color: var(--text);
-      white-space: normal;
-      max-width: 480px;
-      line-height: 1.45;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+      max-width: 520px;
+      line-height: 1.5;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
       pointer-events: none;
     }
     .file-entry:hover .tooltip { display: block; }
-    .tooltip .tt-domains { color: var(--text3); font-size: 11px; margin-top: 3px; }
+    .tooltip .tt-name { font-weight: 600; font-family: var(--mono); font-size: 11.5px; margin-bottom: 5px; }
+    .tooltip .tt-body { color: var(--text); line-height: 1.55; }
+    .tooltip .tt-footer { color: var(--text3); font-size: 11px; margin-top: 6px; padding-top: 5px; border-top: 1px solid var(--border); }
 
     .empty-state { text-align: center; padding: 32px 16px; color: var(--text2); font-size: 13px; }
 
@@ -370,16 +371,16 @@
       el.className = 'file-entry';
       el.dataset.domains = f.domains.join(',');
       el.dataset.type = f.contentType;
-      el.dataset.search = (f.fileName + ' ' + f.shortDescription).toLowerCase();
+      el.dataset.search = (f.fileName + ' ' + f.shortDescription + ' ' + (f.fullDescription || '')).toLowerCase();
 
       el.innerHTML =
         '<a class="file-name" href="reader.html?file=' + encodeURIComponent(f.path) + '">' + esc(f.fileName) + '</a>' +
         '<span class="type-badge" data-t="' + f.contentType + '">' + esc(f.contentType) + '</span>' +
         '<span class="file-short">' + esc(f.shortDescription) + '</span>' +
         '<span class="tooltip">' +
-          '<b>' + esc(f.fileName) + '</b><br>' +
-          esc(f.shortDescription) +
-          '<div class="tt-domains">domains: ' + esc(f.domains.join(', ')) + ' | type: ' + esc(f.contentType) + '</div>' +
+          '<div class="tt-name">' + esc(f.fileName) + '</div>' +
+          (f.fullDescription ? '<div class="tt-body">' + escLines(f.fullDescription) + '</div>' : '') +
+          '<div class="tt-footer">area: ' + esc(f.area) + ' &nbsp;|&nbsp; domains: ' + esc(f.domains.join(', ')) + ' &nbsp;|&nbsp; type: ' + esc(f.contentType) + '</div>' +
         '</span>';
       return el;
     }
@@ -453,6 +454,10 @@
       const el = document.createElement('span');
       el.textContent = s;
       return el.innerHTML;
+    }
+
+    function escLines(s) {
+      return esc(s).replace(/\n/g, '<br>');
     }
 
     init();

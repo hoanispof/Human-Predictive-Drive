@@ -1267,7 +1267,7 @@ APPLIED TO COMMUNICATION:
   ✅ Mini-gap chain theory: applied oscillation dynamics to communication
   ✅ Audience detection protocol: framework-grounded
   ✅ 2-force tension resolution: sequential integration via mini-gap chain
-  ✅ Connection to existing framework: Gap-Direction, 01b, 01c, 00, Somatic-Articulation-Loop, FLT
+  ✅ Connection to existing framework: Gap-Direction, 01b, 01c, 00, Somatic-Articulation-Loop, Feeling-Literacy-Training
 ```
 
 ### §9.2 — File này KHÔNG PROVIDE

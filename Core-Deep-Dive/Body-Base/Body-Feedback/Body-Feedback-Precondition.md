@@ -100,10 +100,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 | Nội dung | Thuộc file | Cross-ref |
 |---|---|---|
-| Evaluative/Direct-State × Precondition-1–Precondition-5 table | RSA §1.3 | §1.2, §2-§6 per-Precondition notes |
-| Chunk dynamics × preconditions mapping | BFM §6.2 | §7 conjunction logic |
-| H10 48-line summary table | BF §5.2 | §0.1 pointer |
-| Timing asymmetry (dissonance → reward) | DSA | §9 cross-ref |
+| Evaluative/Direct-State × Precondition-1–Precondition-5 table | Reward-Signal-Architecture §1.3 | §1.2, §2-§6 per-Precondition notes |
+| Chunk dynamics × preconditions mapping | Body-Feedback-Mechanism §6.2 | §7 conjunction logic |
+| H10 48-line summary table | Body-Feedback §5.2 | §0.1 pointer |
+| Timing asymmetry (dissonance → reward) | Dissonance-Signal-Architecture | §9 cross-ref |
 | 7-step VTA mechanism | 03-Reward.md §2 | §4.2 cross-ref |
 
 ### §0.3 — Reading prerequisites
@@ -116,9 +116,9 @@ PHẢI đọc TRƯỚC:
   Compile-Taxonomy.md      — 4-pathway model (for §6 Precondition-5)
 
 ĐỌC SONG SONG:
-  RSA — WHAT KINDS reward (→ type-split per precondition)
-  DSA — WHAT KINDS dissonance (→ §9 dissonance application)
-  BFM — HOW chunks fire (→ dynamics × preconditions)
+  Reward-Signal-Architecture — WHAT KINDS reward (→ type-split per precondition)
+  Dissonance-Signal-Architecture — WHAT KINDS dissonance (→ §9 dissonance application)
+  Body-Feedback-Mechanism — HOW chunks fire (→ dynamics × preconditions)
   Gap-Direction.md — gap has direction (→ §2 Precondition-1, §5 Precondition-4)
 ```
 
@@ -183,7 +183,7 @@ DIRECT-STATE (hardware signals, body-need-driven):
   → Precondition-4 hardware: CT afferent ~1-10cm/s = fixed range (không learned)
   → Precondition-5 N/A: hardware signals, no opioid/cortisol tag needed
 
-  → Chi tiết type-split per precondition: RSA §1.3
+  → Chi tiết type-split per precondition: Reward-Signal-Architecture §1.3
 
 CLINICAL IMPLICATION:
   Evaluative bị block bởi Precondition-2/Precondition-3/Precondition-5 failures → anhedonia, burnout
@@ -512,7 +512,7 @@ DIRECT-STATE:
   → Posterior insula pathway: body-need → direct signal (no delta check)
   → Ví dụ: hungry person eats → reward fires WITHOUT needing "surprise"
   → Touch (CT afferents) → opioid release WITHOUT prediction error
-  → Chi tiết: RSA §1.3
+  → Chi tiết: Reward-Signal-Architecture §1.3
 ```
 
 ### §4.4 — Boredom disambiguation
@@ -785,7 +785,7 @@ DIRECT-STATE:
   → CT afferents fire opioid directly (no compiled tag)
   → Taste buds signal directly (sweet → approach, bitter → avoid)
   → Hardware "tag" = hardwired, not compiled
-  → Chi tiết: RSA §1.3
+  → Chi tiết: Reward-Signal-Architecture §1.3
 
 ⚠️ Precondition-5 = N/A là ONLY precondition completely absent in Direct-State.
   (Precondition-3 is "uncertain", others are "simplified" — Precondition-5 is clean N/A.)
@@ -1251,7 +1251,7 @@ Ví dụ:
 
 ### §9.3 — Asymmetric transition speed
 
-🟡 Từ DSA §7.5 — reward → dissonance vs dissonance → reward:
+🟡 Từ Dissonance-Signal-Architecture §7.5 — reward → dissonance vs dissonance → reward:
 
 ```
 REWARD → DISSONANCE: FAST
@@ -1277,7 +1277,7 @@ Evolutionary logic: missing threat = death (max cost), false alarm = low cost.
 
 ### §9.4 — Evaluative gates
 
-🟡 Từ DSA §3 — evaluative layer GATES direct-state dissonance:
+🟡 Từ Dissonance-Signal-Architecture §3 — evaluative layer GATES direct-state dissonance:
 
 ```
 Evaluative gates can:
@@ -1325,7 +1325,7 @@ Q2: Precondition-5 re-association speed
 
 Q3: Direct-State Precondition-3 mechanism
   Does Direct-State bypass VTA entirely or use different threshold?
-  → RSA §1.3 marks Precondition-3 as "UNCERTAIN" for Direct-State
+  → Reward-Signal-Architecture §1.3 marks Precondition-3 as "UNCERTAIN" for Direct-State
   → Posterior insula pathway hypothesized but not fully mapped
 
 Q4: Dissonance precondition thresholds
@@ -1336,7 +1336,7 @@ Q4: Dissonance precondition thresholds
 Q5: Compound dynamics × precondition cycling
   When compound event triggers Shift + Miss + Gap simultaneously,
   do preconditions get checked 3× independently? Or integrated?
-  → BFM §6.2 suggests independent, but mechanism unclear
+  → Body-Feedback-Mechanism §6.2 suggests independent, but mechanism unclear
 ```
 
 ### §10.3 — Falsifiable predictions

@@ -247,8 +247,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       │ Meaning narrative     │ 2-3    │ PFC verbal → Anchor fill  │
       │ Compliance rules      │ 2      │ Verbal → compile → auto   │
       │ Dissonance resolution│ 2-3    │ "Có ý nghĩa" → Gap fill  │
-      │ Prayer (SPM virtual)  │ 2-3    │ PFC construct agent →     │
-      │                      │        │ SPM fire → biochemistry   │
+      │ Prayer (Self-Pattern-  │ 2-3    │ PFC construct agent →     │
+      │  Modeling virtual)    │        │ Self-Pattern-Modeling     │
+      │                      │        │ fire → biochemistry       │
       └─────────────────────┴────────┴───────────────────────────┘
 
       ⚠️ NHƯNG: tôn giáo KHÔNG BAO GIỜ deliver Chain 0 ĐƠN LẺ.

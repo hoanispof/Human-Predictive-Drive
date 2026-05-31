@@ -1217,7 +1217,7 @@ SCOPE OUT:
   │ TẦNG 3: COLLECTIVE SCHEMAS (medium, medium-wide)               │
   │   "Phải học giỏi, phải có nhà, phải lấy vợ/chồng"             │
   │   → Install SPECIFIC gap directions vào population              │
-  │   → Compound khi nhiều schemas đồng thời (CSP §2)              │
+  │   → Compound khi nhiều schemas đồng thời (Collective-Schema-Pressure §2) │
   │   → Body fire THẬT (Collective-Arc-Dynamics §2)                │
   │   (Collective-Schema-Pressure §2: compound effect)              │
   └────────────────────────────┬────────────────────────────────────┘

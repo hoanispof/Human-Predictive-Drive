@@ -10,7 +10,7 @@ scope: |
   Boer 2011 values insight. Niche vs mainstream. Active vs passive.
   Testable predictions including 1 untested gap in literature.
 purpose: |
-  BPGR.md describe GENERAL resonance mechanism.
+  By-Product-Gap-Resonance.md describe GENERAL resonance mechanism.
   File này APPLY + EXTEND mechanism cho music-social territory:
     HOW music taste signals Background-Pattern similarity
     HOW shared taste increases resonance probability
@@ -110,7 +110,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## §1 — Music Taste as Enhancer (NOT Core)
 
 ```
-🟡 PHÂN BIỆT RESONANCE CORE vs ENHANCER (BPGR §1.4):
+🟡 PHÂN BIỆT RESONANCE CORE vs ENHANCER (By-Product-Gap-Resonance §1.4):
 
   ┌──────────────────────┬──────────────────────────────────┐
   │ RESONANCE CORE       │ ENHANCER                         │
@@ -144,7 +144,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → A nói nuanced observation → B: "ĐÚng! Tôi cũng thấy!" → match
     → Taste overlap = LOW. Resonance = present.
 
-  ⭐ Direction compatibility (BPGR trục 4) > taste overlap cho outcome.
+  ⭐ Direction compatibility (By-Product-Gap-Resonance trục 4) > taste overlap cho outcome.
 ```
 
 ---
@@ -162,7 +162,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   PASSIVE SHARED LISTENING:
     → Nghe cùng 1 bài → shared emotional state
-    → = ENHANCER (state overlap — BPGR §6 Enhancer ③)
+    → = ENHANCER (state overlap — By-Product-Gap-Resonance §6 Enhancer ③)
     → Curzel 2024: even ILLUSION of shared listening → pleasure ↑ (d=0.159)
     → Still NOT resonance core (shared INPUT, not mutual OUTPUT match)
 
@@ -174,11 +174,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = MUTUAL by-product match at OUTPUT → RESONANCE CORE ✅
 
     Tại sao active music = resonance IDEAL:
-    ① Each fills OWN gap (drive riêng maintained — BPGR condition ④)
+    ① Each fills OWN gap (drive riêng maintained — By-Product-Gap-Resonance condition ④)
     ② Output = by-product (music output ≠ intended for other — just music)
     ③ Outputs HAPPEN TO match (complementary instruments → groove)
     ④ Mutual: A→B AND B→A simultaneously
-    → = All 4 BPGR conditions met NATURALLY in good ensemble play
+    → = All 4 By-Product-Gap-Resonance conditions met NATURALLY in good ensemble play
 
   🟢 Weinstein 2016: singing together = bonds FASTER than other activities
     → = Active music = resonance formation ACCELERATOR
@@ -226,7 +226,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ③ MEETING — Gap overlap at PROCESS level → body detect
     → 2 people meet (with or without knowing shared taste)
     → Background-Pattern similar → gap directions partially overlap
-    → By-product match probability ↑ (BPGR §1.3)
+    → By-product match probability ↑ (By-Product-Gap-Resonance §1.3)
     → Self-Pattern-Modeling accuracy ↑ (similar template → better predictions)
     → Body detect: "output matches gap" → approach → reward
     → PFC: "dễ chịu khi nói chuyện" (without knowing WHY)
@@ -474,7 +474,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Body detect: approach signal → "dễ chịu"
     → PFC: "không biết tại sao nhưng thích nói chuyện với người này"
 
-  4 BPGR CONDITIONS ANALYSIS:
+  4 By-Product-Gap-Resonance CONDITIONS ANALYSIS:
     ① Positive valence: Both approach-dominant in "complexity" → ✅ ↑ probability
     ② Mutual Agent-mode: Self-Pattern-Modeling ON, similar template → ✅ ↑ accuracy
     ③ Gap overlap: Gap directions partially overlap (process level) → ✅ ↑ match
@@ -646,7 +646,7 @@ EVIDENCE:
   01-Sound-Brain-Neuroscience.md — §9 (bonding), §10 (preferences/social)
 
 WITHIN DRILL:
-  02-Sound-Background-Pattern.md — music BP formation (foundation for §3 Step ②)
+  02-Sound-Background-Pattern.md — music Background-Pattern formation (foundation for §3 Step ②)
   03-Sound-Reward-Pipeline.md — reward mechanism (foundation for active > passive)
   05-Multi-Modal-Compound.md — extends compound context (game/concert)
 

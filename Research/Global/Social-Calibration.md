@@ -1,4 +1,4 @@
-# Social-Calibration — Hệ Thống Auto-Calibration Xã Hội Đang Vỡ
+# Social-Calibration — Hệ Thống Auto-Calibration Xã Hội: Đang Chuyển Đổi
 
 > **Bạn thức dậy. Đi làm. Về nhà. Đi ngủ.**
 > **Bạn KHÔNG cần biết tại sao mình đi làm — xã hội TỰ giải thích.**
@@ -10,29 +10,34 @@
 > 7 functions calibration chạy ĐỒNG THỜI. Cá nhân KHÔNG CẦN hiểu cơ chế.
 > Giống thermostat: tự điều chỉnh nhiệt độ — bạn không cần biết cách.
 >
-> Hệ thống đó đang VỠ. Không tuần tự — ĐỒNG THỜI.
+> Hệ thống đó đang CHUYỂN ĐỔI. Carriers cũ suy yếu — carriers mới chưa mature.
 > Modernity, technology, AI = 3 waves CHỒNG lên nhau.
-> Lần đầu tiên trong lịch sử: TẤT CẢ 7 functions bị pressure cùng lúc.
+> Nhiều functions bị pressure cùng lúc, ở mức độ KHÁC NHAU.
+>
+> NHƯNG: collective calibration = architecture requirement (Compilable Architecture).
+> Xuyên suốt lịch sử, mỗi lần carriers cũ vỡ → carriers mới LUÔN emerge.
+> Lần này cũng vậy — chỉ HÌNH DẠNG + TIMELINE = chưa biết.
 >
 > File này: hệ thống đó LÀ GÌ, từng function HOẠT ĐỘNG thế nào,
-> đã TIẾN HÓA qua lịch sử ra sao, ĐANG VỠ ở đâu,
-> và cái gì VẪN CÒN + cái gì CẦN THAY THẾ.
+> đã TIẾN HÓA qua lịch sử ra sao, ĐANG CHUYỂN ĐỔI ở đâu,
+> cái gì VẪN CÒN, cái gì ĐANG EMERGE, và ai CẦN self-calibrate sâu.
 >
-> Hiểu cái đang vỡ = prerequisite để xây cái mới.
 > "Bạn không sửa được cái bạn không hiểu."
 
 ---
 
-> **Trạng thái:** v1.1
+> **Trạng thái:** v2.0
 > **Ngày:** 2026-05-13
-> **Refined:** 2026-05-17 (v1.1 — 2-Tier+2-Pathway reframe, Compiled/Fresh, 11 dep versions updated)
+> **Refined:** 2026-05-31 (v2.0 — +Collective Re-emergence, +2-Mức Self-Calibration, +Disruption Cycle, +Honest reframe)
+> **Previous:** 2026-05-17 (v1.1 — 2-Tier+2-Pathway reframe, Compiled/Fresh, 11 dep versions updated)
 > **Vị trí:** Research/Global/ — synthesis file, KHÔNG phải core mechanism.
-> **Scope:** SYNTHESIS — tổng hợp mechanisms hiện có (~13 files) để mô tả
->   hệ thống calibration xã hội: cái gì, tại sao, đang vỡ ở đâu.
+> **Scope:** SYNTHESIS — tổng hợp mechanisms hiện có (~15 files) để mô tả
+>   hệ thống calibration xã hội: cái gì, tại sao, đang chuyển đổi ở đâu,
+>   và collective re-emergence cycle.
 > **Câu hỏi chính:**
 >   "Xã hội cũ calibrate con người thế nào?"
->   "Đang vỡ ở đâu, tại sao?"
->   "Cái gì vẫn hoạt động, cái gì cần thay thế?"
+>   "Đang chuyển đổi ở đâu, tại sao?"
+>   "Collective sẽ re-emerge thế nào? Ai cần self-calibrate sâu?"
 > **Bộ 3 song song:**
 >   ① Social-Calibration.md (FILE NÀY) — WHERE WE CAME FROM
 >   ② Human-AI-Future.md v3.0 — WHERE WE'RE GOING (MACRO/civilization)
@@ -51,6 +56,9 @@
 >   - Human-AI-Future.md v3.0 — symbiosis, salami slicing
 >   - AI-Self-Model.md v2.0 — amplification mechanism
 >   - Cortisol-Baseline.md v2.1 — amplifier, repair
+>   - Gap-Direction.md v2.0 — "chưa biết = không có gap" (áp dụng cho dự đoán tương lai)
+>   - Collective-Body.md v2.1 — Compilable Architecture, §8.4 Institution SPLIT prediction
+>   - Status.md v2.1 — §6 Disruption Cycle (Ổn định → Disruption → Re-calibrate → Ổn định mới)
 > **Confidence:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Language:** Tiếng Việt primary + English technical terms
 
@@ -74,7 +82,7 @@
   - §3.3 — Industrial (~250 năm)
   - §3.4 — Information/AI Era (~30 năm → hiện tại)
 - §4 — MECHANISM MAPPING: 7 FUNCTIONS × FRAMEWORK
-- §5 — BREAKDOWN: ĐANG VỠ Ở ĐÂU
+- §5 — PRESSURE: ĐANG CHỊU ÁP LỰC Ở ĐÂU
   - §5.1 — Compound Breakdown: 3 Waves Chồng Nhau
   - §5.2 — Per-Function Breakdown
   - §5.3 — Evidence Tổng Hợp
@@ -211,7 +219,7 @@
 
     → TẤT CẢ 3 mapping = consistent:
        Xã hội = Cấp 2 infrastructure (Collective-Body)
-                = PRIMARY provider pathway 2b Trust-Injected (BB §7)
+                = PRIMARY provider pathway 2b Trust-Injected (Body-Base §7)
                 = organized connection patterns (Conn)
        = CÁC GÓC NHÌN KHÁC NHAU vào CÙNG 1 hiện tượng
 
@@ -262,6 +270,25 @@
        Mọi xã hội organize quanh cognitive limit NÀY.
     🟢 Evidence: Lindenfors et al. 2021 — Dunbar's number replication (69-109 range)
        Cross-cultural, cross-era. Range hẹp hơn 150 nhưng CÙNG order of magnitude.
+
+
+  ⭐ COMPILABLE ARCHITECTURE → COLLECTIVE = REQUIREMENT (v2.0):
+
+    Collective-Body.md v2.1 §0 (Inter-Body-Mechanism.md v1.0 §1):
+      → Compilable Architecture: hardwire HOW to need, NOT what to need
+      → Body learn content FROM environment → compile → body-need
+      → TRADE-OFF: cần 15-20 NĂM compile → VULNERABLE → cần group PROTECT
+
+    → COLLECTIVE tồn tại vì Compilable Architecture CẦN NÓ:
+      ① 15-20 năm compile = cần entity khác protect
+      ② Compilation requires social (observe, teach, imitate → FASTER)
+      ③ Chain DÀI quá cho 1 brain (PFC 4±1) → distributed = collective hold
+      ④ Knowledge non-rivalrous → share → ALL benefit → accelerate
+
+    → = Collective calibration KHÔNG THỂ biến mất — là HARDWARE REQUIREMENT
+    → Carriers CÓ THỂ thay đổi. Functions CÓ THỂ shift. Collective PHẢI tồn tại.
+    → §3 sẽ confirm: mỗi disruption → carriers mới emerge, functions persist.
+    🟡 Compilable Architecture → collective = requirement (Collective-Body v2.1 §0)
 ```
 
 ---
@@ -969,7 +996,42 @@
     → = Self-Created-Threat §5: "khoảng trống drive"
        + Meaning.md: meaning crisis
        + Connection §16: "cô đơn" epidemic
-       = 3 symptoms CỦA CÙNG 1 root cause: calibration system breaking
+       = 3 symptoms CỦA CÙNG 1 root cause: calibration system đang chuyển đổi
+
+
+  ⭐ DISRUPTION CYCLE VẪN ÁP DỤNG (v2.0):
+
+    Status.md §6: Ổn định → Disruption → Re-calibrate → Ổn định mới
+    → Pattern này đã lặp 3 lần trong chính file này:
+      §3.1→§3.2: tribe → village/guild/religion (EMERGE mới)
+      §3.2→§3.3: guild/village → company/union/school (EMERGE mới)
+      §3.3→§3.4: company/union/church → ??? (ĐANG EMERGE)
+    → Mỗi lần: carriers MỚI emerge, functions PERSIST (§3.3 dòng 913)
+
+    Collective-Body.md v2.1 §0: collective = ARCHITECTURE REQUIREMENT
+      → PFC 4±1 + 15-20 năm compile + chain dài → PHẢI có collective
+      → Collective calibration KHÔNG THỂ biến mất — chỉ THAY ĐỔI hình thức
+      → §6.3③ đã observe: new structures ĐANG emerge (early stage)
+
+    ⚠️ VARIABLE MỚI LẦN NÀY: tốc độ technology >> tốc độ biology
+      → Hebbian compile vẫn cần thời gian. PFC vẫn 4±1. Sleep vẫn cần.
+      → Technology thay đổi mỗi năm/tháng. Biology thay đổi mỗi thế hệ.
+      → Mismatch tốc độ này = unique variable chưa từng có
+      → Hệ quả: collective CÓ THỂ không kịp re-organize trước disruption tiếp
+      → NHƯNG: hệ quả cụ thể = UNKNOWN. Không ai biết cái mình không biết.
+      → Gap-Direction.md: "chưa biết = không có gap" — áp dụng cho chính chúng ta
+
+    → KẾT LUẬN:
+      → Collective SẼ re-emerge (architecture guarantee)
+      → HÌNH DẠNG + TIMELINE = không biết
+      → "Compensating institutions vỡ" (§3.4 trên) ≠ "sẽ không có institutions mới"
+        = chỉ có nghĩa: ĐANG Ở GIỮA KHE chuyển tiếp
+      → Suffering trong khe = REAL. Khe = TEMPORARY. Hai thứ cùng đúng.
+
+    🟡 Disruption cycle áp dụng = framework synthesis (Status §6 + §3 historical)
+    🟡 Collective re-emergence = expected (Compilable Architecture + historical)
+    🔴 Timeline + hình dạng collective mới = unknown
+    🔴 Hệ quả tốc độ mismatch technology/biology = unknown
 ```
 
 ---
@@ -1066,7 +1128,7 @@
 
 ---
 
-## §5 — BREAKDOWN: ĐANG VỠ Ở ĐÂU
+## §5 — PRESSURE: ĐANG CHỊU ÁP LỰC Ở ĐÂU
 
 ### §5.1 — Compound Breakdown: 3 Waves Chồng Nhau
 
@@ -1275,7 +1337,7 @@
 
   Mỗi file MÔ TẢ 1 symptom RIÊNG.
   File NÀY: tất cả symptoms = CÁC MẶT CỦA CÙNG 1 ROOT CAUSE.
-  Root cause = calibration system breaking.
+  Root cause = calibration system đang chuyển đổi.
 
   ┌─────────────────────────────────┬─────────────────────────────────────┐
   │ Symptom (file)                  │ Root = which function(s) breaking    │
@@ -1303,7 +1365,7 @@
   └─────────────────────────────────┴─────────────────────────────────────┘
 
   → TẤT CẢ files NÀY = NHÌN VÀO CÙNG 1 HIỆN TƯỢNG từ góc khác nhau
-  → File NÀY = UNIFY: calibration system breaking = root cause chung
+  → File NÀY = UNIFY: calibration system đang chuyển đổi = root cause chung
   → = Giá trị của file NÀY: connect the dots
 ```
 
@@ -1406,7 +1468,27 @@
        Nguồn drive mới chưa hình thành rõ
        = KHOẢNG TRỐNG: nhiều người mất drive mà không hiểu tại sao"
 
-    → = "Khoảng trống" KHÔNG CHỈ ở drive — ở TẤT CẢ 7 functions
+    → = "Khoảng trống" KHÔNG CHỈ ở drive — ở NHIỀU functions cùng lúc
+
+
+  ⭐ TRANSITION GAP = TEMPORARY (v2.0):
+
+    §3.4 đã phân tích: Disruption Cycle → collective SẼ re-emerge.
+    → Khe chuyển tiếp = REAL (suffering đang xảy ra)
+    → Khe chuyển tiếp = TEMPORARY (architecture guarantee)
+    → HAI THỨ CÙNG ĐÚNG — không mâu thuẫn.
+
+    → §6.3③ đã observe: new collective structures ĐANG emerge (early stage)
+    → Early stage ≠ "sẽ không thành" — guilds lúc đầu cũng informal
+    → Industrial era: company/union/school cần ~50-100 năm để mature
+    → Lần này: KHÔNG BIẾT bao lâu (technology speed mismatch — §3.4)
+
+    → NHƯNG: khi collective mới mature →
+      SỐ ĐÔNG sẽ được collective calibrate TỰ NHIÊN (giống mọi thời đại)
+      Giống: đa số không cần hiểu cơ chế nông nghiệp để sống tốt thời agricultural
+      Giống: đa số không cần hiểu cơ chế kinh tế để sống tốt thời industrial
+
+    → Implication cho self-calibration: xem §6.3① refined
 ```
 
 ### §6.3 — 3 Hướng Xây Mới
@@ -1419,7 +1501,7 @@
   La bàn — không phải GPS.
 
 
-  ① SELF-CALIBRATION SKILLS:
+  ① SELF-CALIBRATION — 2 MỨC KHÁC NHAU (v2.0 refined):
 
     Self-Created-Threat.md §5.5: 3 kỹ năng thời AI:
       → Body-listening: biết mình đang ở trạng thái nào
@@ -1431,11 +1513,62 @@
     → = KHẢ THI cho temporal functions (khó nhưng learnable)
     → = KHÔNG ĐỦ cho background functions (Identity, Connection CẦN collective)
 
-    🟡 Framework lens:
-       → Self-calibration = SKILL MỚI — xã hội cũ KHÔNG CẦN
-       → Giống literacy: xã hội cũ không cần đọc viết → hiện đại = thiết yếu
-       → Self-calibration sẽ trở thành "literacy" của AI era
-       → AI-Self-Model.md §6: body-listening = AI-era competitive advantage
+
+    ⭐ PHÂN BIỆT 2 MỨC (v2.0 — key reframe):
+
+    ┌──────────────────────────────────────────────────────────────────┐
+    │ MỨC 1: BASIC AWARENESS (phổ quát — collective mới SẼ dạy)      │
+    │                                                                  │
+    │   "Biết khi nào mệt, biết stress là signal chứ không phải      │
+    │    yếu đuối, biết khi nào thiếu kết nối"                       │
+    │                                                                  │
+    │   → Collective mới SẼ truyền dạy tự nhiên                      │
+    │   → Giống literacy: trường học dạy đọc viết — cá nhân           │
+    │     KHÔNG CẦN tự phát minh chữ viết                             │
+    │   → Mental health awareness, wellness culture, AI-assisted      │
+    │     self-tracking = collective ĐANG bắt đầu dạy Mức 1          │
+    │   → Mức 1 = ĐỦ cho số đông sống tốt trong collective mới      │
+    │                                                                  │
+    ├──────────────────────────────────────────────────────────────────┤
+    │ MỨC 2: DEEP SELF-CALIBRATION (tệp nhỏ — tự chọn)              │
+    │                                                                  │
+    │   "Hiểu mechanisms, tự điều chỉnh có ý thức khi đi KHÁC        │
+    │    collective default, tạo lợi thế riêng"                       │
+    │                                                                  │
+    │   → Cho CREATOR / DIVERGER / PIONEER                            │
+    │     (Collective-Body §1: Creator tạo → Installer truyền → User) │
+    │   → Cho người sống TRONG khe chuyển tiếp (§6.2)                 │
+    │     cần navigate khi collective mới chưa mature                 │
+    │   → Giống: ai cũng biết đọc, nhưng không phải ai               │
+    │     cũng cần đọc papers khoa học                                │
+    │   → Framework value = CAO NHẤT cho nhóm này                     │
+    │                                                                  │
+    └──────────────────────────────────────────────────────────────────┘
+
+
+    ⭐ TẠI SAO PHÂN BIỆT QUAN TRỌNG:
+
+    v1.1 viết: "Self-calibration sẽ trở thành literacy của AI era"
+    → Analogy SAI ở mức precision:
+      → Literacy phổ quát vì COLLECTIVE MỚI (công nghiệp) ĐÒI HỎI nó
+      → Collective tự tạo hệ thống DẠY literacy (trường bắt buộc)
+      → Cá nhân KHÔNG tự phát minh chữ viết — collective dạy
+
+    → Tương tự: basic awareness SẼ phổ quát vì collective mới ĐÒI HỎI nó
+      → Collective tự tạo cách dạy (education, media, AI tools)
+      → Cá nhân KHÔNG CẦN hiểu toàn bộ framework
+
+    → Deep self-calibration ≠ literacy. = KHOA HỌC / NGHIÊN CỨU:
+      → Ai cũng biết đọc, nhưng không phải ai cũng CẦN nghiên cứu
+      → Creator/diverger CẦN Mức 2 vì thao tác NGOÀI vùng collective calibrate
+      → Giống: kỹ sư cần hiểu vật lý, nông dân không cần
+
+    → PFC 4±1 constraint CONFIRM: số đông KHÔNG THỂ self-calibrate
+      7 dimensions cùng lúc → PHẢI dựa vào collective
+      (Social-Calibration §4: PFC = structural limit)
+
+    🟡 2 mức self-calibration = framework synthesis
+    🟡 Basic awareness → collective dạy = analogy từ literacy history
 
 
   ② AI AS CALIBRATION TOOL:
@@ -1489,38 +1622,76 @@
       → Not comprehensive (cover 2-3 functions, not 7)
       → Not default (require active choice, unlike old system)
       → Not thick (lower fidelity, less frequent, less intimate)
-      → = TRANSITION INCOMPLETE — we're in the middle
+
+
+    ⭐ EARLY STAGE ≠ WILL FAIL (v2.0):
+
+    → §3 historical pattern: mọi institution mới đều START informal
+      → Guilds lúc đầu = nhóm thợ không chính thức → centuries → codified system
+      → Company lúc đầu = partnership nhỏ → decades → corporation
+      → "Not comprehensive YET" ≠ "will never be comprehensive"
+      → Đang observe EARLY STAGE — không đủ data để kết luận
+
+    → Collective-Body.md v2.1 §8.4: Institution SPLIT prediction (🔴):
+      → Knowledge function → AI CÓ THỂ thay thế (deliver trực tiếp)
+      → Social function → institution REMAINS (AI no body, no co-regulate)
+      → = Future institution = PRIMARILY social, SECONDARILY knowledge?
+      → = Nếu đúng: new collective structures SẼ focus SOCIAL calibration
+        (Connection, Identity, Repair, Check) — vì đây là cái AI KHÔNG làm được
+
+    → Implication: new structures ĐANG emerge ở đúng chỗ EXPECTED:
+      → CrossFit, co-living, interest tribes = SOCIAL structures
+      → AI, platforms = KNOWLEDGE structures
+      → = Pattern CONSISTENT với Institution SPLIT prediction
+
+    🔴 New structures effectiveness = untested (cần longitudinal data)
+    🟡 Early stage observation = consistent với historical pattern + §8.4
 ```
 
 ### §6.4 — Framework Position
 
 ```
-🟡 FRAMEWORK = LA BÀN CHO SELF-CALIBRATION:
-
-  NẾU framework đúng:
-    → Giúp cá nhân HIỂU cơ chế → TỰ calibrate
-    → = Framework's practical value HIGHEST trong transition period
+🟡 FRAMEWORK = LA BÀN — CHO AI? (v2.0 refined)
 
   "La bàn quan trọng nhất khi bản đồ cũ không còn đúng."
 
-  ⭐ FRAMEWORK LÀM GÌ:
 
-    ① Explain WHY you feel dissonance:
-       → Not "you're weak" → "calibration system breaking"
-       → Not "think positive" → "body detecting real absence"
-       → = Reframe: dissonance = ACCURATE signal, not personal failure
+  ⭐ FRAMEWORK GIÁ TRỊ NHẤT CHO 2 NHÓM CỤ THỂ:
 
-    ② Identify WHICH function(s) weakest:
-       → 7-function model → diagnostic lens
-       → "I lack drive" → Push function under-provided
-       → "I don't know who I am" → Identity function unstructured
-       → = Specific diagnosis → specific intervention possible
+    ① NGƯỜI SỐNG TRONG KHE CHUYỂN TIẾP (§6.2):
+       → Old carriers suy yếu, new carriers chưa mature
+       → Framework giúp HIỂU TẠI SAO dissonance:
+         → Not "you're weak" → "calibration system đang chuyển đổi"
+         → Not "think positive" → "body detecting real absence"
+         → = Reframe: dissonance = ACCURATE signal, not personal failure
+       → Framework giúp IDENTIFY function nào yếu nhất:
+         → "I lack drive" → Push function under-provided
+         → "I don't know who I am" → Identity function unstructured
+         → = Specific diagnosis → specific intervention possible
+       → = VALUE: navigate khe chuyển tiếp. Giảm dần khi collective mới mature.
 
-    ③ Guide SELF-calibration development:
-       → Body-listening → detect which function needs attention
-       → Self-Created-Threat → learn to self-push (when external absent)
-       → Resonance → find people/community that genuinely fit
-       → = Skills development path
+    ② CREATOR / DIVERGER / PIONEER (§6.3① Mức 2):
+       → Người muốn đi KHÁC collective default
+       → Cần hiểu mechanisms sâu vì thao tác NGOÀI vùng collective calibrate
+       → Collective-Body §2.5: Individual Detect Collective Gap
+         → Compiled DEEP → gap PRECISE → fill OWN gap → by-product match collective
+         → = Deep self-calibration = competitive advantage cho nhóm này
+       → = VALUE: permanent — không giảm khi collective mới mature
+
+
+  ⭐ FRAMEWORK KHÔNG CẦN THIẾT CHO SỐ ĐÔNG:
+
+    → Khi collective mới mature → số đông được calibrate TỰ NHIÊN
+    → Giống: đa số không cần hiểu cơ chế nông nghiệp để sống tốt thời agricultural
+    → Giống: đa số không cần hiểu kinh tế vĩ mô để sống tốt thời industrial
+    → Basic awareness (Mức 1) → collective mới sẽ dạy qua education, culture, AI
+    → Framework = KHÔNG phải yêu cầu phổ quát
+
+    → Điều này KHÔNG GIẢM giá trị framework:
+      → Giống: vật lý lượng tử không phải ai cũng CẦN hiểu
+      → Nhưng GIÁ TRỊ CỰC CAO cho người thiết kế technology dựa trên nó
+      → Framework = giá trị cực cao cho nhóm ①② — nhưng KHÔNG prescribe cho tất cả
+
 
   ⭐ FRAMEWORK KHÔNG LÀM GÌ:
 
@@ -1528,9 +1699,10 @@
     → KHÔNG provide identity (thay tôn giáo)
     → KHÔNG replace connection (thay cộng đồng)
     → KHÔNG force repair (thay xã hội ép nghỉ)
-    → = Framework = UNDERSTANDING tool, not REPLACEMENT for social system
+    → KHÔNG claim "ai cũng phải hiểu framework"
+    → = UNDERSTANDING tool cho người CẦN nó, KHÔNG phải REPLACEMENT for social system
     → = You STILL need community, relationships, meaningful work — framework
-        just helps you UNDERSTAND why and navigate the transition
+        helps you UNDERSTAND why (nếu bạn thuộc nhóm cần hiểu)
 ```
 
 ---
@@ -1566,9 +1738,10 @@
        Useful for understanding. Body-Base §7 pathway 2b supports.
        But "thermostat" metaphor = simplification. Real system = more complex.
 
-    → Compound breakdown = framework inference
+    → Compound pressure = framework inference
        Each function decline: documented separately (🟢).
-       "All 7 simultaneously" = INFERENCE from separate data, not MEASURED as system.
+       SIMULTANEOUS compound effect = INFERENCE from separate data, not MEASURED as system.
+       Mỗi function bị pressure ở MỨC ĐỘ KHÁC NHAU (§3.4 bảng: WEAK→BROKEN range).
 
     → Historical evolution 4 eras = simplified narrative
        Real history = more complex, varied by region, non-linear.
@@ -1588,32 +1761,54 @@
        Reframe from "4-tier stacking" → "2 mechanisms + 2 pathways".
        Internally coherent. Chưa tested as calibration model separately.
 
+    → Collective re-emergence = expected (v2.0)
+       Compilable Architecture → collective = requirement (hardware constraint).
+       Historical pattern: 3/3 disruptions → new carriers emerged.
+       Status §6 disruption cycle → re-stabilization = expected pattern.
+       NHƯNG: specific timeline + hình dạng = KHÔNG predictable.
+
+    → 2 mức self-calibration distinction (v2.0)
+       Basic awareness (Mức 1) vs Deep self-calibration (Mức 2).
+       Logic: literacy analogy analysis + PFC 4±1 constraint + Creator/User model.
+       Consistent. Chưa tested as categorization.
+
 
   🔴 GIẢ THUYẾT (predictions, need evidence):
 
-    → "All 7 breaking SIMULTANEOUSLY" = quantitative claim without measurement
+    → Compound pressure MEASURED as system = chưa có
        Individual declines documented. SIMULTANEOUS compound effect = unmeasured.
        Could be measured: create 7-function survey instrument → test hypothesis.
 
-    → Transition period outcomes = speculative
-       Which new structures will mature? Timeline? Effectiveness?
+    → Transition period timeline = unknown
+       Which new structures will mature? When? How effective?
        = Unknown. Framework can observe, not predict specifics.
+       Historical: Industrial carriers cần ~50-100 năm mature.
+       Lần này: KHÔNG BIẾT (technology speed mismatch — §3.4).
 
     → New collective structures effectiveness = untested
        CrossFit/Discord/co-living etc. as calibration replacements = HYPOTHESIS.
        Need longitudinal data on whether they provide equivalent functions.
+       Early stage observation ≠ conclusion (§6.3③).
 
-    → Whether self-calibration skills CAN fully replace social calibration = UNKNOWN
-       "Learnable" ≠ "sufficient"
-       PFC 4±1 constraint suggests: CANNOT hold all 7 simultaneously
-       → STRUCTURAL LIMIT may make full self-calibration IMPOSSIBLE
-       → If true: new collective structures = NECESSARY, not optional
+    → Self-calibration as universal requirement = OVERCLAIM (v2.0 corrected)
+       v1.1 implied universal ("literacy"). v2.0 refined: 2 mức.
+       PFC 4±1 constraint → CANNOT hold all 7 simultaneously
+       → Full self-calibration = STRUCTURALLY IMPOSSIBLE for most
+       → Collective = NECESSARY, not optional (architecture requirement)
+       → Deep self-calibration = for creator/diverger + transition period navigation
 
-    → Whether AI era will produce NEW calibration system = speculative
-       "Emerging" ≠ "will emerge"
-       Possible: current breakdown = PERMANENT downgrade (no replacement)
-       Possible: new system = SUPERIOR (leverage technology for better calibration)
-       Framework cannot predict which — depends on collective choices.
+    → Technology speed >> biology adaptation speed = unique variable
+       Observation: technology thay đổi mỗi năm/tháng, biology mỗi thế hệ.
+       Hệ quả CỤ THỂ = UNKNOWN.
+       Có thể: collective không kịp re-organize trước disruption tiếp.
+       Có thể: collective adapt NHANH HƠN dự kiến (vì cũng dùng AI).
+       Gap-Direction.md: "chưa biết = không có gap" — áp dụng cho chính chúng ta.
+
+    → "Collective sẽ KHÔNG re-emerge" = chưa có evidence
+       Compilable Architecture = hardware constraint → collective MUST exist.
+       3/3 historical disruptions → new carriers emerged.
+       Claim "lần này different enough to break pattern" = cần extraordinary evidence.
+       NHƯNG: HÌNH DẠNG collective mới = genuinely unpredictable.
 
 
   ⭐ CRITICAL LIMITATION:
@@ -1626,10 +1821,17 @@
       → = File NÀY overall = 🟡 with 🔴 sections
 
     VALUE DESPITE UNCERTAINTY:
-      → Even if specific details wrong → PATTERN likely correct:
-         old calibration system weakening, new one not yet ready
+      → Even if specific details wrong → 2 PATTERNS likely correct:
+         ① Carriers cũ đang suy yếu (evidence kỹ — §5)
+         ② Carriers mới sẽ emerge (architecture guarantee — §1, §3)
       → Pattern = useful for navigation even if exact map imperfect
       → "Roughly right" > "precisely wrong" (attribution debated)
+
+    v2.0 REFRAME:
+      → v1.1 focus "đang vỡ" → đúng nhưng ONE-SIDED
+      → v2.0 thêm: collective re-emergence + 2 mức self-calibration
+      → = Balanced: acknowledge pressure + acknowledge re-emergence
+      → = Honest: flag cái BIẾT (hardware, history) + cái KHÔNG BIẾT (timeline, hình dạng)
 ```
 
 ### §7.1 — Open Questions
@@ -1648,10 +1850,13 @@
       → Compound: mất A + B > mất A + mất B riêng lẻ?
 
   Q3: REPLACEMENT — New structures CÓ THỂ cover 7/7 không?
-      → Religion = DUY NHẤT cover 7/7 (Religion.md §1)
+      → Religion = DUY NHẤT cover 7/7 bằng 1 package (Religion.md §1)
       → Secular equivalents TỒN TẠI KHÔNG? Nếu có: dạng gì?
       → Nếu KHÔNG thể cover 7/7 bằng 1 structure → cần MIX?
       → Mix = higher cognitive load → self-calibration = harder
+      → v2.0 NOTE: Collective-Body §8.4 Institution SPLIT prediction:
+        knowledge→AI, social→human institutions. Nếu đúng → MIX likely
+        (AI cover knowledge functions + human institutions cover social functions)
 
   Q4: CULTURAL VARIANCE — Mức breakdown KHÁC NHAU bao nhiêu?
       → Western/secular: most advanced breakdown
@@ -1663,6 +1868,10 @@
       → Old system: có thể revive? (religion comeback? community rebuild?)
       → Or: old system = structurally incompatible with modern life?
       → = Direction of change matters for intervention design
+      → v2.0 PARTIAL ANSWER: Disruption Cycle (Status §6) + Compilable Architecture
+        → Collective calibration SẼ re-emerge (architecture guarantee)
+        → Nhưng: RE-EMERGE ≠ REVIVE. Carriers MỚI ≠ carriers cũ.
+        → Q5 refined: HÌNH DẠNG nào? Chứ không phải CÓ HAY KHÔNG.
 
   Q6: AI ROLE — AI có thể trở thành Cấp 2 provider mới không?
       → Collective-Body §8.4: AI = trust entity loại mới
@@ -1686,9 +1895,12 @@
 ```
 ⭐ MECHANISM FILES:
 
-  → Collective-Body.md v2.0 — Model 3 Cấp: Individual → Collective → Framework
+  → Collective-Body.md v2.1 — Model 3 Cấp: Individual → Collective → Framework
      Xã hội = Cấp 2 infrastructure. Trust = bridge. Chain dài ở Cấp 2.
-     FILE NÀY: HOW Cấp 2 provide 7 calibration functions.
+     §0: Compilable Architecture → collective = requirement (v2.0 key reference).
+     §2.5: Individual Detect Collective Gap — Creator vs User (v2.0 §6.4).
+     §8.4: Institution SPLIT prediction — knowledge→AI, social→human (v2.0 §6.3③).
+     FILE NÀY: HOW Cấp 2 provide 7 calibration functions + WHY it MUST re-emerge.
 
   → Connection.md v4.0 — 3 Generative Primitives, co-regulation, "cô đơn"
      §0: agents = external tools. §16: cô đơn analysis.
@@ -1696,7 +1908,14 @@
 
   → Status.md v2.1 — Resource Access Map, disruption cycle
      Status = evolutionary proxy for body-base access.
+     §6: Disruption Cycle (Ổn định → Disruption → Re-calibrate → Ổn định mới).
      FILE NÀY: status markers = PART OF calibration system.
+     v2.0: §6 disruption cycle = key argument cho collective re-emergence (§3.4).
+
+  → Gap-Direction.md v2.0 — "chưa biết = không có gap" (v2.0 NEW)
+     Áp dụng cho dự đoán tương lai: không biết collective mới dạng gì
+     vì chưa có chunks để form gap-direction cho nó.
+     FILE NÀY: honest framing cho §3.4 + §7.
 
   → Body-Base.md v3.1 — 2-Tier + 2-Pathway calibration (§7)
      Xã hội = PRIMARY PROVIDER pathway 2b Trust-Injected (Hebbian via trust gate).
@@ -1719,7 +1938,7 @@
 
   → Human-AI-Future.md v3.0 — WHERE WE'RE GOING (MACRO)
      AI × civilization: arms race, symbiosis, collective orientation.
-     FILE NÀY = WHY Human-AI-Future matters (calibration system breaking
+     FILE NÀY = WHY Human-AI-Future matters (calibration system đang chuyển đổi
      → HOW we integrate AI determines whether new system emerges).
 
   → AI-Self-Model.md v2.0 — WHERE WE'RE GOING (MICRO)
@@ -1799,11 +2018,26 @@
 
 ---
 
+> **v2.0 Changelog (2026-05-31):**
+> ① Title: "Đang Vỡ" → "Đang Chuyển Đổi" (balanced framing)
+> ② Intro: +collective re-emergence (architecture guarantee), +honest "không biết" framing
+> ③ §1: +Compilable Architecture block (collective = hardware requirement, Collective-Body v2.1 §0)
+> ④ §3.4: +Disruption Cycle observation (Status §6, historical pattern, technology/biology speed mismatch)
+> ⑤ §6.2: +Transition GAP = TEMPORARY (architecture guarantee + historical)
+> ⑥ §6.3①: MAJOR REFINE — 2 Mức Self-Calibration (Basic Awareness = collective dạy, Deep = creator/diverger)
+> ⑦ §6.3③: +Early Stage ≠ Will Fail, +Institution SPLIT prediction (Collective-Body §8.4)
+> ⑧ §6.4: REFINE — Framework target = 2 nhóm cụ thể (transition + creator), không phổ quát
+> ⑨ §7: +2🟡 (collective re-emergence, 2-mức), +3🔴 (timeline, speed mismatch, overclaim correction)
+> ⑩ §7 CRITICAL: +v2.0 reframe note (v1.1 one-sided → v2.0 balanced)
+> ⑪ §7.1: Q3 +Institution SPLIT note, Q5 +PARTIAL ANSWER (re-emerge ≠ revive)
+> ⑫ §8: +Gap-Direction.md, Collective-Body v2.0→v2.1 enriched, Status §6 enriched
+> ⑬ Dependencies: +Gap-Direction v2.0, +Collective-Body v2.1 §0+§8.4, +Status §6
+>
 > **v1.1 Changelog (2026-05-17):**
 > ① 4-Tier → 2-Tier + 2-Pathway: Body-Base v3.1 §7 aligned (Darwinian + Hebbian, 2a Domain + 2b Trust-Injected)
 > ② Xã hội reframed: PRIMARY PROVIDER pathway 2b Trust-Injected (not "Tier 3")
 > ③ Compiled/Fresh terminology fix (§2.7 Connection mechanism, L679)
-> ④ 11 dependency versions updated (Connection v4.0, Collective-Body v2.0, BB v3.1, HAF v3.0, ASM v2.0, etc.)
+> ④ 11 dependency versions updated (Connection v4.0, Collective-Body v2.0, Body-Base v3.1, Human-AI-Future v3.0, AI-Self-Model v2.0, etc.)
 > ⑤ §8 Cross-refs: +DRILL SOURCE block (Inter-Body v1.0, Body-Feedback-Label v2.0)
 > ⑥ §7 Honest Assessment: +1🟡 (2-Tier reframe with source refs)
 > ⑦ §6.1 What Remains: reframed with 2-Tier model (cái mất = pathway 2b, cái còn = Tầng 1 + 2a)

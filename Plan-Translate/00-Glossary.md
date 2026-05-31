@@ -32,14 +32,14 @@ These entries confirm the canonical form and provide definition context.
 | Term | Vietnamese context | Definition | Source |
 |---|---|---|---|
 | **body-base** | "cơ thể-nền", "body-base system" | The entire system: hardware + compiled patterns + social hardware. Compilable Architecture. | Body-Base.md |
-| **body-need** | "trạng thái CẦN" | Aggregate state of NEED at any moment. Sum of all gaps + hardware signals. Always exists (never = 0). Exists before PFC awareness. | BFL §2B |
-| **hardware body-need** | "body-need từ hardware" | Source ①: Sensory-Driven. Homeostatic + nociceptive + hormonal. No compiled chunks needed. (hunger, thirst, pain, cold) | BFL §2B |
-| **pattern body-need** | "body-need từ chunk dynamics" | Source ②: Chunk Dynamics/Pattern. Gap/Miss/Shift + Compound. Requires compiled chunks. (missing a friend, career gap, identity) | BFL §2B |
-| **gap** | "gap", "lỗ hổng" | Specific chunk that SHOULD exist but is MISSING. Network predicts chunk C → C absent. Component of body-need. | BFL §2C |
+| **body-need** | "trạng thái CẦN" | Aggregate state of NEED at any moment. Sum of all gaps + hardware signals. Always exists (never = 0). Exists before PFC awareness. | Body-Feedback-Label §2B |
+| **hardware body-need** | "body-need từ hardware" | Source ①: Sensory-Driven. Homeostatic + nociceptive + hormonal. No compiled chunks needed. (hunger, thirst, pain, cold) | Body-Feedback-Label §2B |
+| **pattern body-need** | "body-need từ chunk dynamics" | Source ②: Chunk Dynamics/Pattern. Gap/Miss/Shift + Compound. Requires compiled chunks. (missing a friend, career gap, identity) | Body-Feedback-Label §2B |
+| **gap** | "gap", "lỗ hổng" | Specific chunk that SHOULD exist but is MISSING. Network predicts chunk C → C absent. Component of body-need. | Body-Feedback-Label §2C |
 | **gap direction** | "hướng gap", "gap direction" | Direction the gap points = f(surrounding chunks). Only fill matching this direction → reward. Per-person. "What you don't know creates no gap." | Gap-Direction.md |
-| **drive** | "lực đẩy hành vi" | Behavioral push FROM body-need. Output: action to fill gap. | BFL §2D |
-| **drive direction** | "hướng hành vi" | Gap direction expressed as behavior. Approach (toward) or avoidance (away from). | BFL §2D |
-| **body-feedback** | "tín hiệu từ body" | ALL signals from body about current state. Umbrella term. Runs 24/7. 95% unconscious. Includes reward, dissonance, prediction-delta, baseline, valence tags. ≠ feeling. | BFL §2E |
+| **drive** | "lực đẩy hành vi" | Behavioral push FROM body-need. Output: action to fill gap. | Body-Feedback-Label §2D |
+| **drive direction** | "hướng hành vi" | Gap direction expressed as behavior. Approach (toward) or avoidance (away from). | Body-Feedback-Label §2D |
+| **body-feedback** | "tín hiệu từ body" | ALL signals from body about current state. Umbrella term. Runs 24/7. 95% unconscious. Includes reward, dissonance, prediction-delta, baseline, valence tags. ≠ feeling. | Body-Feedback-Label §2E |
 
 **Key distinctions:**
 - body-need = STATE (what body needs) vs body-feedback = SIGNAL (what body reports)
@@ -343,7 +343,7 @@ Some Vietnamese terms have no clean English equivalent. Keep the Vietnamese (ita
 
 | Date | Session | Terms added | Notes |
 |---|---|---|---|
-| 2026-05-26 | Initial | ~150 terms | Foundation extracted from BFL v2.1 + PFC-Label v1.0 |
+| 2026-05-26 | Initial | ~150 terms | Foundation extracted from Body-Feedback-Label v2.1 + PFC-Label v1.0 |
 | | | | |
 
 ---

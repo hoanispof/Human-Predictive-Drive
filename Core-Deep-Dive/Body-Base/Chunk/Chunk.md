@@ -1637,7 +1637,7 @@ LINK STRENGTH = f(7 factors):
   §6.1: +PFC-Label.md v1.0 vocabulary reference
   §8.3: +Simulation-Engine (1 engine, 3 components — formalized PFC mechanism)
   §13.1: Agent-Mechanism/ expanded (4 → 11 files, folder renamed)
-  §13.2: Major version updates (Valence-Propagation v1.4→v3.0, BB v2.0→v3.2, Collective-Body v2.0→v2.1,
+  §13.2: Major version updates (Valence-Propagation v1.4→v3.0, Body-Base v2.0→v3.2, Collective-Body v2.0→v2.1,
           AI-Schema v1.0→v2.0, Imagine-Final→v3.0). Folder paths updated (Drive/→Observation/,
           Agent/→Agent-Mechanism/). +Simulation-Engine, +PFC-Label, +PFC-Operations, +Boredom v2.0.
 

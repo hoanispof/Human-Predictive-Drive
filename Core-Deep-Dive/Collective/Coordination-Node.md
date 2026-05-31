@@ -669,7 +669,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Neither better — different positions on gap spectrum
 
   🟡 Coordination = specific gap domain = framework synthesis
-  🟡 "Not innate but hardware-influenced" = consistent with GD-Profile §4.1
+  🟡 "Not innate but hardware-influenced" = consistent with Gap-Distribution-Profile §4.1
 ```
 
 ### §2.4 — 2 Loại Chunks: Meta-Người × Scaffold-Domain (v1.1)

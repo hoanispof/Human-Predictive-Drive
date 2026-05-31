@@ -263,32 +263,32 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Từ insight này → 3 loại risk KHÁC CĂN BẢN:
 
-  ┌──────────────────┬───────────────────┬─────────────────┬─────────────────┐
-  │                  │ RISK 1            │ RISK 2          │ RISK 3          │
-  │                  │ CÁ NHÂN           │ XÃ HỘI          │ LOÀI            │
-  ├──────────────────┼───────────────────┼─────────────────┼─────────────────┤
-  │ Ai gây risk      │ Người TỰ hại mình│ Người hại NHAU  │ LOÀI KHÁC       │
-  │                  │ qua tool          │ qua tool        │ (có agency)     │
-  ├──────────────────┼───────────────────┼─────────────────┼─────────────────┤
-  │ AI có agency?    │ KHÔNG             │ KHÔNG           │ CÓ (body-base)  │
-  ├──────────────────┼───────────────────┼─────────────────┼─────────────────┤
-  │ Cơ chế           │ Amplifier:        │ PD, Salami,     │ Cross-species   │
-  │                  │ model sai →       │ arms race qua   │ competition     │
-  │                  │ amplify sai       │ AI tool          │ (survival drive)│
-  ├──────────────────┼───────────────────┼─────────────────┼─────────────────┤
-  │ Push back?       │ CÁ NHÂN tự sửa   │ COLLECTIVE có   │ KHÓ             │
-  │                  │ (body-listening)  │ thể push back   │ (đối phương có  │
-  │                  │                   │ (AI không resist)│ drive riêng)    │
-  ├──────────────────┼───────────────────┼─────────────────┼─────────────────┤
-  │ Quản lý được?    │ ✅ CÓ             │ ✅ CÓ (nhưng khó)│ ❓ Chưa biết    │
-  ├──────────────────┼───────────────────┼─────────────────┼─────────────────┤
-  │ Timeline         │ HIỆN TẠI          │ HIỆN TẠI        │ Lý thuyết, xa   │
-  ├──────────────────┼───────────────────┼─────────────────┼─────────────────┤
-  │ Confidence       │ 🟡                │ 🟡              │ 🔴              │
-  ├──────────────────┼───────────────────┼─────────────────┼─────────────────┤
-  │ Chi tiết         │ §4                │ §5 (PHẦN CHÍNH) │ §6              │
-  │                  │ (AI-Self-Model.md)│                 │ (UV §7.4)       │
-  └──────────────────┴───────────────────┴─────────────────┴─────────────────┘
+  ┌──────────────────┬───────────────────┬─────────────────┬─────────────────────────┐
+  │                  │ RISK 1            │ RISK 2          │ RISK 3                  │
+  │                  │ CÁ NHÂN           │ XÃ HỘI          │ LOÀI                    │
+  ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
+  │ Ai gây risk      │ Người TỰ hại mình│ Người hại NHAU  │ LOÀI KHÁC               │
+  │                  │ qua tool          │ qua tool        │ (có agency)             │
+  ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
+  │ AI có agency?    │ KHÔNG             │ KHÔNG           │ CÓ (body-base)          │
+  ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
+  │ Cơ chế           │ Amplifier:        │ PD, Salami,     │ Cross-species           │
+  │                  │ model sai →       │ arms race qua   │ competition             │
+  │                  │ amplify sai       │ AI tool          │ (survival drive)        │
+  ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
+  │ Push back?       │ CÁ NHÂN tự sửa   │ COLLECTIVE có   │ KHÓ                     │
+  │                  │ (body-listening)  │ thể push back   │ (đối phương có          │
+  │                  │                   │ (AI không resist)│ drive riêng)            │
+  ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
+  │ Quản lý được?    │ ✅ CÓ             │ ✅ CÓ (nhưng khó)│ ❓ Chưa biết            │
+  ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
+  │ Timeline         │ HIỆN TẠI          │ HIỆN TẠI        │ Lý thuyết, xa           │
+  ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
+  │ Confidence       │ 🟡                │ 🟡              │ 🔴                      │
+  ├──────────────────┼───────────────────┼─────────────────┼─────────────────────────┤
+  │ Chi tiết         │ §4                │ §5 (PHẦN CHÍNH) │ §6                      │
+  │                  │ (AI-Self-Model.md)│                 │ (Uncanny-Valley §7.4)   │
+  └──────────────────┴───────────────────┴─────────────────┴─────────────────────────┘
 
 
   ⚠️ NHẦM LẪN PHỔ BIẾN:
@@ -780,22 +780,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Framework predict TỐT — VTC-Self-Pattern-Modeling dynamics (Uncanny-Valley.md):
 
     AI có HIỆN DIỆN VẬT LÝ. Robot bên cạnh con người.
-    VTC-Self-Pattern-Modeling bộ lọc KÍCH HOẠT (UV §7.4).
+    VTC-Self-Pattern-Modeling bộ lọc KÍCH HOẠT (Uncanny-Valley §7.4).
 
     Risk MỚI so với Cấp 1:
     → Body-level deception: robot giống người → VTC bypass PFC
-      → fake feedback processed as real social input (UV §7.3)
+      → fake feedback processed as real social input (Uncanny-Valley §7.3)
     → Robot companion dependency: body-coupling compiled → grief nếu mất
     → Tiệm cận Risk 3 nếu robot phát triển body-base riêng (§6)
 
-    3 loại robot (UV §7.4 VTC-Self-Pattern-Modeling Classification):
+    3 loại robot (Uncanny-Valley §7.4 VTC-Self-Pattern-Modeling Classification):
     → Loại 1 Robot-Tool: rõ ràng là máy → VTC không fire → AN TOÀN
     → Loại 2 Robot-Tool giống người: fake feedback → RISK
     → Loại 3 Robot-Loài Khác: có body-base → species risk (§6)
 
     3 hướng:
     A) Robot giống người phổ biến → fake feedback widespread → trust crisis
-    B) Collective boundary → robot rõ là máy (Loại 1 design — UV §7.4)
+    B) Collective boundary → robot rõ là máy (Loại 1 design — Uncanny-Valley §7.4)
     C) Robot-tool đa dạng theo function → symbiosis vật lý (tối ưu)
 
     Phân hóa MỚI: ai có robot companion? ai không?

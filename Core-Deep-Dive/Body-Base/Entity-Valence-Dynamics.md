@@ -1543,5 +1543,5 @@ STATUS:
     + Valence-Propagation §12 split: §11 (Love/Hate) + §12 (Phantom).
     Source: Drill-Entity-Valence-Dynamics v2.0 (28 insights, 33 citations).
   v1.1 — 2026-05-29 — L3 RETIRE: dep Body-Base v2.1→v3.3, L0-L1-L3→L0+L1 substrate.
-    Companion VP v4.0→v4.1 updated.
+    Companion Valence-Propagation v4.0→v4.1 updated.
 ```

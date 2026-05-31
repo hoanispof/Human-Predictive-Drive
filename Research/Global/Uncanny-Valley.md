@@ -204,7 +204,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → TPJ (temporoparietal junction) mã hóa TUYẾN TÍNH mức giống người
     → FFG (fusiform gyrus) phát tín hiệu ranh giới người/không-người
     → Amygdala fire khi TỪ CHỐI gift từ artificial agent
-    → Kết luận: TPJ × FFG → vmPFC = multiplicative combination → UV response
+    → Kết luận: TPJ × FFG → vmPFC = multiplicative combination → uncanny valley response
 
   ③ Cambridge meta-analysis — INDIVIDUAL DIFFERENCES:
     → Amygdala response khác nhau giữa người
@@ -1292,7 +1292,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ dACC        │ Conflict monitoring.          │ Chunk-Gap detection:         │ 🟡     │
   │ (dorsal     │ Activated during category    │ "entity loại gì?" →          │        │
   │ anterior    │ ambiguity. General finding.  │ network inconsistency →      │        │
-  │ cingulate)  │                              │ ACC detect (BF-Mech §3.3).   │        │
+  │ cingulate)  │                              │ ACC detect (Body-Feedback-   │        │
+  │             │                              │ Mechanism §3.3).             │        │
   └─────────────┴──────────────────────────────┴──────────────────────────────┴────────┘
 
 

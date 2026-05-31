@@ -1,14 +1,15 @@
 # Human Predictive Drive
 
 > How does the body-brain system actually work?
-> Why do near-human robots feel unsettling while cartoon characters don't?
+> Why do you sometimes know exactly what you should do — but can't make yourself start?
 > How do the people around you shape your behavior — without anyone planning it?
+> Why do near-human robots feel unsettling while cartoon characters don't?
 >
-> This framework connects research from neuroscience, psychology, and behavioral science
-> into a unified model — helping you understand yourself and others.
+> This framework cross-connects research from neuroscience, psychology, and evolutionary biology
+> into a unified conceptual architecture — from individual behavior to collective patterns.
 >
-> If validated, this framework could reframe vague, unanswerable questions
-> about feelings, psychology, and behavior
+> If validated, this framework could reframe vague, hard-to-answer questions
+> about feelings, motivation, and behavior
 > — at the individual, community, and collective level.
 
 ---
@@ -156,13 +157,15 @@ but the connections themselves are new and unvalidated.
 We built the most powerful external tool in history — AI.
 Now we need to understand the internal system that wields it.
 
-1. **Old calibration systems are failing.**
+1. **Old calibration systems are shifting.**
    For hundreds of thousands of years, society auto-calibrated individuals
-   through 7 functions (direction, push, pull, repair, check, identity,
-   connection). Modernity, technology, and AI are breaking all 7
-   simultaneously — for the first time in history.
-   Self-calibration is becoming a necessary skill — but it requires
-   understanding our own mechanisms.
+   through functions like direction, push, pull, repair, check, identity,
+   and connection. Modernity, technology, and AI are putting pressure on
+   these functions — and old carriers (religion, guilds, village communities)
+   are declining faster than new ones mature.
+   Collective calibration will re-emerge (it's an architectural requirement
+   of the human brain) — but during the transition gap, understanding
+   our own mechanisms helps navigate the mismatch.
    → Deep analysis: [`Social-Calibration.md`](Research/Global/Social-Calibration.md)
 
 2. **AI amplifies whatever self-model we operate on.**
