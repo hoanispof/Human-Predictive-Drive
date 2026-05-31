@@ -1,7 +1,6 @@
 # Human Predictive Drive
 
-> How does the body-brain system actually work?
->
+> How does the body-brain system actually work?  
 > Why do you sometimes know exactly what you should do — but can't make yourself start?
 >
 > How do the people around you shape your behavior — without anyone planning it?
