@@ -1,11 +1,11 @@
 ---
 title: Mother-Optimization — Tối Ưu Hóa Từ Trước Khi Sinh
-version: 2.1
+version: 2.2
 created: 2026-04-01
-updated: 2026-05-25 v2.1 — +Hardware-Subsidy (§0.4, §2.3, §3.1, §6.2), +Coordination-Node (§2.3, §6.2), +Entity-Access Mức 0 (§2), +Structural valence (§3.2), +Body-Feedback Pipeline (§3.1), +PFC Budget stress tools (§6.2), +Partner=secondary node (§6.2), §11 +3 open questions, §12 rewrite (+12 new cross-refs), all paths+versions updated
+updated: 2026-06-01 v2.2 — terminology "4+1/kênh compile" → "Compile Architecture", +Compile-Taxonomy v3.0 + Compile-Sleep v1.0 dependencies, cross-ref version updates
 previous_updates:
   - 2026-04-21 (v2.0: v7.8 reframe, cortisol amplifier, direction > level, PFC online, chunk compile)
-status: REFERENCE v2.1
+status: REFERENCE v2.2
 scope: |
   PRACTICAL FILE: Mẹ = MÔI TRƯỜNG xây dựng HARDWARE cho con.
   Giải thích CƠ CHẾ: cortisol mẹ, dinh dưỡng, toxins, epigenetics
@@ -27,7 +27,9 @@ position: |
   TẦNG 5: Applications/Education-System/Country/ (per-country)
 dependencies:
   existing-v2.0:
-    - Child-Development-Mechanism.md v2.0 — KHUNG NGUYÊN LÝ v7.8 (reference chính)
+    - Child-Development-Mechanism.md v2.2 — KHUNG NGUYÊN LÝ v7.8 (reference chính) [UPDATED v2.2]
+    - Compile-Taxonomy.md v3.0 — Compile Architecture (1E+3M) [NEW v2.2]
+    - Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms) [NEW v2.2]
     - Core-Software.md v2.0 — cycle architecture, observation parameters
     - Cortisol-Baseline.md v2.0 — amplifier reframe, direction > level, 7 modes
     - Chunk.md v2.2 — chunk substrate, compile, approach/avoidance tag
@@ -45,8 +47,8 @@ dependencies:
     - By-Product-Scale.md v1.0 — mẹ=VEHICLE+ROAD, prestige=genuine resonance [NEW v2.1]
     - Body-Feedback-Label.md v2.1 — 3-tier labels vocabulary [NEW v2.1]
     - Resonance-Per-Entity.md v1.0 — Hardware-Subsidy Spectrum per entity [NEW v2.1]
-    - Natural-Development.md v2.1 — postnatal continuation [NEW v2.1]
-    - Skill-Introduction.md v2.1 — skill build on hardware [NEW v2.1]
+    - Natural-Development.md v2.2 — postnatal continuation [UPDATED v2.2]
+    - Skill-Introduction.md v2.2 — skill build on hardware [UPDATED v2.2]
     - Dissonance-Signal-Architecture.md v1.0 — cortisol amplifies dissonance [NEW v2.1]
 supersedes: |
   Mother-Optimization.md v1.0 (2026-04-01, v7.5 lens)
@@ -2388,20 +2390,20 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
 ### Child-Development (bộ 4):
 
 ```
-  → Child-Development-Mechanism.md v2.0 — KHUNG NGUYÊN LÝ v7.8
+  → Child-Development-Mechanism.md v2.2 — KHUNG NGUYÊN LÝ v7.8 [UPDATED v2.2]
      + §1: PFC reframe (Hodel 2018) → áp dụng từ prenatal (§1.3 file này)
-     + §2: Compile Architecture → thai ĐÃ compile chunks (§2.2 file này)
+     + §2: Compile Architecture (1E+3M) → thai ĐÃ compile chunks (§2.2 file này)
      + §3: approach/avoidance tags → prenatal baseline SET UP tendency (§3.2)
      + §8: cortisol baseline calibration → prenatal = tầng 2 input (§3.2)
      + §8.2: sleep = repair mechanism → áp dụng cho MẸ (§6.1)
      + §8.4: direction > level → áp dụng cho cortisol MẸ (§3.3)
 
-  → Natural-Development.md v2.1 — Hardware khi sinh → compile chunks
+  → Natural-Development.md v2.2 — Hardware khi sinh → compile chunks [UPDATED v2.2]
      + §1: hardware sơ sinh = TIẾP NỐI trực tiếp từ trimester 3 (§1.3)
      + §2: 8 hành vi tự nhiên = TIẾP TỤC testing circuits từ bụng
      + §3: sleep/REM = TIẾP TỤC brain compile từ fetal REM (§1.3)
 
-  → Skill-Introduction.md v2.1 — Build skills TRÊN hardware
+  → Skill-Introduction.md v2.2 — Build skills TRÊN hardware [UPDATED v2.2]
      + Hardware quality (file này) → RANGE → Skill-Intro FILL range
      + §1: readiness > age = readiness phụ thuộc hardware quality
      + §2: 4-step progression = BUILD trên foundation từ 2 files trước
@@ -2431,6 +2433,14 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
   → Chunk.md v2.2 (Body-Base/Chunk/)
      + §2.4 Direction-At-Compile: cortisol = compile direction gate
      + Thai nhi ĐÃ compile chunks (auditory, motor — §2.2 file này)
+
+  → Compile-Taxonomy.md v3.0 (Body-Base/Chunk/) [NEW v2.2]
+     + Compile Architecture (1E+3M): 1 Engine + 3 Modulators
+     + Prenatal context: thai ĐÃ dùng Compile Engine (Hebbian)
+
+  → Compile-Sleep.md v1.0 (Body-Base/Chunk/) [NEW v2.2]
+     + Sleep Maintenance = 6 cơ chế offline maintenance
+     + Fetal REM = phần lớn Creative Linking + Circuit Testing
 
   → Valence-Propagation.md v3.0 (Body-Base/) [NEW v2.1]
      + §7: Hardware-Subsidy spectrum → Mẹ→Con = MAXIMUM (→ §0.4, §2.3)
@@ -2517,7 +2527,7 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
 ```
   ┌─────────────────────────────────────────────────────────────┐
   │                                                             │
-  │  Mother-Optimization v2.1                                   │
+  │  Mother-Optimization v2.2                                   │
   │  "Xuất phát điểm của xuất phát điểm."                      │
   │                                                             │
   │  Từ 1 tế bào → 86 tỷ neuron trong 40 tuần.                │
@@ -2536,12 +2546,19 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
   │                                                             │
   │  Và nhớ:                                                    │
   │  Hardware = RANGE, không phải DESTINY.                      │
-  │  Natural-Dev v2.1 + Skill-Intro v2.1 = FILL range.         │
+  │  Natural-Dev v2.2 + Skill-Intro v2.2 = FILL range.         │
   │  Brain plasticity = recovery mechanism mạnh nhất.           │
   │  Bắt đầu từ đâu cũng CHƯA MUỘN.                          │
   │                                                             │
   └─────────────────────────────────────────────────────────────┘
 
+  v2.2 (2026-06-01):
+    Compile Architecture Refine (Compile-Taxonomy.md v3.0 + Compile-Sleep.md v1.0):
+    + Terminology: "chunk compile channels" → "Compile Architecture"
+    + Terminology: "kênh ④: sleep consolidation" → "Sleep Maintenance (Compile-Sleep.md v1.0)"
+    + Terminology: "4+1 channel compile" → "Compile Architecture"
+    + Dependencies: +CT v3.0, +CS v1.0, Mechanism v2.0→v2.2
+    + Cross-refs: +CT v3.0, +CS v1.0, Natural-Dev v2.1→v2.2, Skill-Intro v2.1→v2.2
   v2.1 (2026-05-25):
     + Hardware-Subsidy: §0.4 definition, §2.3 pregnancy hormones,
       §3.1 11β-HSD2, §6.2 social support oxytocin

@@ -53,7 +53,7 @@ dependencies:
     - Coordination-Node.md v1.2 — teacher as coordination node
     - Self-Pattern-Modeling.md v3.1 — 1 mechanism × 3 dimensions
   education-foundation:
-    - Education-Mechanism.md v2.0 — HOW: Cost Formula, Direction > Level
+    - Education-Mechanism.md v2.1 — HOW: Cost Formula, Direction > Level
     - Education-System.md v3.0 — WHERE: per-stage, teacher role, ENGINE/ROAD/VEHICLE
     - Connection-Education.md v1.0 — WHO: 5 trụ social interaction education
   application:
@@ -90,7 +90,7 @@ confidence: 🟢 Neuroscience mechanism | 🟡 Framework inference | 🔴 Hypoth
 ```
 NGHỊCH LÝ CỦA "ONE SIZE FITS ALL":
 
-  Education-Mechanism.md v2.0 §2.3 (Cost Formula):
+  Education-Mechanism.md v2.1 §2.3 (Cost Formula):
     → cost ≈ f(chunk_gap × hardware_mismatch × direction)
     → Cùng content + KHÁC hardware → KHÁC cost hoàn toàn
     → "One size fits all" = chỉ FIT average → bỏ lại cả hai đầu
@@ -199,7 +199,7 @@ TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
   │   ⚠️ KHÁC "learning styles" (debunked):                       │
   │     "Learning styles" claim: MỖI NGƯỜI chỉ học tốt 1 style   │
   │     Hardware: mỗi người có DOMINANT modality NHƯNG             │
-  │       multi-modal = better FOR ALL (Mechanism v2.0 §2.3)            │
+  │       multi-modal = better FOR ALL (Mechanism v2.1 §2.3)            │
   │     = Không phải "chỉ dạy theo style" → mà "biết dominant     │
   │       → leverage dominant + SUPPLEMENT với các modality khác"  │
   │                                                                 │
@@ -626,7 +626,7 @@ MỤC ĐÍCH SECTION NÀY:
 NGUYÊN TẮC CALIBRATION:
 
   ① ADJUST METHOD, KHÔNG ADJUST STANDARD
-     → Depth target = GIỐNG cho tất cả (Mechanism v2.0 §2.9)
+     → Depth target = GIỐNG cho tất cả (Mechanism v2.1 §2.9)
      → CÁCH đạt depth = KHÁC per hardware
      → "Mọi người đều phải biết đọc → CÁCH HỌC đọc = khác"
 
@@ -718,7 +718,7 @@ HIGH-VTA LEARNER (novelty-seeking):
     → Project-based: mỗi project = NOVELTY source
     → Choice: cho chọn CÁCH approach task → novelty từ autonomy
     → Movement: physical + mental variety → VTA fire
-    → Gamification: CÓ THỂ work → nhưng ⚠️ inflation risk (Mechanism v2.0 §3.1)
+    → Gamification: CÓ THỂ work → nhưng ⚠️ inflation risk (Mechanism v2.1 §3.1)
 
   Adjust Environment:
     → ĐỪNG ép sit still quá lâu → cho phép movement
@@ -767,7 +767,7 @@ HIGH CORTISOL SENSITIVITY:
   Adjust Pressure Level:
     → LOWER pressure than class average
     → Safe to fail: "sai = learn, không phải sai = punish"
-    → Direction > Level (Mechanism v2.0 §2.2): LUÔN novelty-direction cho nhóm này
+    → Direction > Level (Mechanism v2.1 §2.2): LUÔN novelty-direction cho nhóm này
     → Prepare for changes: warn before transitions
     → Recovery time: MORE breaks, MORE downtime
 
@@ -780,7 +780,7 @@ HIGH CORTISOL SENSITIVITY:
       → PFC Mode: Reallocation (PFC-Configuration.md) → performance DROP dưới capacity
 
   Adjust Bridge:
-    → Imposed adult threat (Mechanism v2.0 §3.3 Type 3) = TUYỆT ĐỐI TRÁNH
+    → Imposed adult threat (Mechanism v2.1 §3.3 Type 3) = TUYỆT ĐỐI TRÁNH
     → Safety + curiosity = primary bridges
     → Social pressure = CŨNG là cortisol source → careful with group competition
 
@@ -1168,19 +1168,19 @@ FREQUENCY: CỰC phổ biến — gần như mọi culture
 
 TRACE BACK — thật ra CÓ THỂ là:
 
-  ① KHÔNG CÓ IMAGINE-FINAL (Mechanism v2.0 §2.6):
+  ① KHÔNG CÓ IMAGINE-FINAL (Mechanism v2.1 §2.6):
      → Trẻ không biết TẠI SAO phải học cái này
      → Body: "không thấy lý do → không có drive → tại sao phải effort?"
      → Fix: giúp trẻ THẤY "khi biết cái này → cuộc sống tôi thế nào"
      → ≠ "Ép chăm hơn" → = "cho thấy LÝ DO"
 
-  ② BRIDGE SAI (Mechanism v2.0 §3):
+  ② BRIDGE SAI (Mechanism v2.1 §3):
      → Bridge hiện tại KHÔNG match hardware
      → VD: threat bridge cho trẻ high-cortisol → freeze → "lười"
      → VD: routine bridge cho trẻ high-VTA → bored → "lười"
      → Fix: đổi LOẠI bridge, không tăng LƯỢNG bridge
 
-  ③ WRONG METHOD (Mechanism v2.0 §2.2 + §2.3):
+  ③ WRONG METHOD (Mechanism v2.1 §2.2 + §2.3):
      → Phương pháp không match hardware
      → VD: lecture-only cho trẻ somatic-dominant → not engaging → "lười"
      → VD: abstract too early cho trẻ slow-PFC → can't follow → give up → "lười"
@@ -1221,7 +1221,7 @@ TRACE BACK:
      → Thật ra: CÓ THỂ hiểu NẾU deliver qua hands-on
      → Fix: multi-modal delivery, leverage dominant channel
 
-  ③ MISSING PREREQUISITE (Mechanism v2.0 §2.4):
+  ③ MISSING PREREQUISITE (Mechanism v2.1 §2.4):
      → Chunk hierarchy: complex cần simple base → base YẾU → complex KHÔNG vào
      → "Không hiểu phân số" có thể = "chưa thật sự hiểu phép chia"
      → Fix: trace back foundation gaps → fill → rồi advance
@@ -1285,13 +1285,13 @@ FREQUENCY: CỰC phổ biến — đặc biệt Stage 3 (12-18)
 
 TRACE BACK:
 
-  ① KHÔNG CÓ IMAGINE-FINAL — phổ biến NHẤT (Mechanism v2.0 §2.6):
+  ① KHÔNG CÓ IMAGINE-FINAL — phổ biến NHẤT (Mechanism v2.1 §2.6):
      → "Tại sao phải học cái này?" → không ai trả lời THUYẾT PHỤC
      → Body: "không thấy đích → không có drive"
      → ≠ "Thiếu động lực" → = "THIẾU LÝ DO"
      → Fix: help build Imagine-Final — exposure, experience, discussion
 
-  ② BRIDGE-DEPENDENT + BRIDGE RÚT (Mechanism v2.0 §3.4):
+  ② BRIDGE-DEPENDENT + BRIDGE RÚT (Mechanism v2.1 §3.4):
      → 12 năm "học vì điểm" → vào giai đoạn bridge giảm → motivation COLLAPSE
      → = "Động lực" thật ra = bridge (nguồn ④) → bridge rút → không còn gì
      → Fix: build intrinsic drive ①②③ (NÊN LÀM TỪ SỚM)
@@ -1416,7 +1416,7 @@ STEP 3 — TEST (small adjustment):
 STEP 4 — EVALUATE:
   → Sau 1-2 tuần test → evaluate:
     → Engagement thay đổi? (observation)
-    → Learning outcome thay đổi? (assessment — Mechanism v2.0 §2.9)
+    → Learning outcome thay đổi? (assessment — Mechanism v2.1 §2.9)
     → Trẻ tự report thay đổi? (when old enough)
   → Nếu POSITIVE → adjustment likely correct → continue
   → Nếu NEUTRAL → thử adjustment khác
@@ -1462,7 +1462,7 @@ ROLE COLLABORATION:
   → Parent: observe ở nhà → share data với teacher → COMPLEMENT school obs
   → Learner (10+): self-report → grows to self-assessment → eventually SELF-CALIBRATE
   → AI tools: data patterns → flag anomalies → suggest adjustments (era-specific)
-    → Mechanism v2.0 §4: AI = Layer 1 generate + flag, Teacher = Layer 2 calibrate
+    → Mechanism v2.1 §4: AI = Layer 1 generate + flag, Teacher = Layer 2 calibrate
   → Specialist: khi standard adjustment KHÔNG ĐỦ → clinical assessment
 
   = TEAM EFFORT, không phải 1 person's job
@@ -1645,16 +1645,16 @@ TẦNG 1 — BODY-FEEDBACK + ENTITY (v1.1 enrichment)
 TẦNG 2 — CHILD DEVELOPMENT (early hardware expression)
 ═══════════════════════════════════════════════════════
 
-→ Child-Development-Mechanism.md v2.1 — phát triển 0-6
-  §2 4+1 Compile, §3 Approach/Avoidance Tags, §8 Cortisol Baseline.
-→ Natural-Development.md v2.1 — early hardware expression
-→ Skill-Introduction.md v2.1 — early learning preferences visible
+→ Child-Development-Mechanism.md v2.2 — phát triển 0-6
+  §2 Compile Architecture, §3 Approach/Avoidance Tags, §8 Cortisol Baseline.
+→ Natural-Development.md v2.2 — early hardware expression
+→ Skill-Introduction.md v2.2 — early learning preferences visible
 
 ═══════════════════════════════════════════════════════
 TẦNG 3 — EDUCATION RESEARCH (bộ 3)
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.0 — ⭐ HOW: Cost Formula, Direction > Level, Bridge, Imagine-Final.
+→ Education-Mechanism.md v2.1 — ⭐ HOW: Cost Formula, Direction > Level, Bridge, Imagine-Final.
 → Domain-Knowledge-Map.md v2.0 — WHAT: bản đồ nhóm kiến thức.
 → Connection-Education.md v1.0 — WHO: 5 trụ social interaction education.
   (replaces Empathy-Education v2.0 → backup/)

@@ -1,13 +1,14 @@
 ---
 title: Body-Base — Entry Point cho Toàn Bộ Body-Base System
-version: 3.3
+version: 3.4
 created: 2026-04-14 (v1.0 BASIC — Phase C)
 rewritten: 2026-05-16 (v3.0 — Phase 4 ALL REWRITE: 3 Hardware Foundations, Compilable Architecture, Body-Need 2-source, Compiled/Fresh axis, L3→PFC Operators reframe, 3-Layer Evolution, cross-refs updated)
 refined: 2026-05-17 (v3.1 — §7 REWRITE: 4-Tier → 2-Tier + 2-Pathway calibration model. Aligned with Why-Body-Knows.md v1.1)
 refined: 2026-05-23 (v3.2 — Concept Cascade: +Simulation-Engine, +Entity-Access, +Entity-Compiled, +Bond-Architecture, +Hardware-Subsidy, +Resonance Decline, +Satiation, +Resonance-Sustainability, +By-Product-Scale, +Resonance-Per-Entity. Updated versions + deps + §0 flow + §10 reading guide + §12 cross-refs)
 refined: 2026-05-25 (v3.3 — +Dissonance-Signal-Architecture.md v1.0 integration. §9 Body-Feedback 6→16 files. §10 folder structure fix: Drill-Inter-Body→backup, Inter-Body v2.0 top-level, Body-Feedback/ 13→16 files. Versions fixed: Cortisol v2.1, Inter-Body v2.0, Body-Feedback-Mechanism v2.1, Body-Feedback-Label v2.1. +§11 Dissonance-Signal-Architecture confidence items)
-previous: v3.2 (inline — no backup needed, additive + version updates)
-status: v3.3 REFERENCE FILE
+refined: 2026-06-01 (v3.4 — Sync: Chunk v2.0→v3.0, Why-Body-Knows v1.1→v1.2. +Body-Feedback-Precondition v1.0, +Compile-Sleep v1.0, +Body-Knowing v1.0, +Compile-Taxonomy v3.0 deps. §0 flow updated. §4.1 +Compile-Sleep ref. §9 count 16→17 files. §10 folder tree: +3 files, naming fixes, structure fixes. §12 cross-refs updated)
+previous: v3.3 (inline — no backup needed, additive + version updates)
+status: v3.4 REFERENCE FILE
 scope: |
   ENTRY POINT cho toàn bộ Body-Base/ folder (~60+ files).
   Body-Base LÀ GÌ + 3 Hardware Foundations + Compilable Architecture +
@@ -39,6 +40,14 @@ scope: |
     ⑱ §10: Folder structure updated (Drill-Inter-Body→backup, +Dissonance-Signal-Architecture, +Reward-Calibration, +Drill-Evolutionary-Sensor-Architecture)
     ⑲ §11: +Dissonance-Signal-Architecture confidence items (🟢 pain 2-component, placebo/nocebo + 🟡 7 items)
     ⑳ §12: Cortisol v2.1, Inter-Body v2.0, Drill files→backup notation
+  v3.4 KEY CHANGES (Sync update — new files + version alignment):
+    ㉑ YAML deps: Chunk v2.0→v3.0, Why-Body-Knows v1.1→v1.2
+    ㉒ +4 new deps: Body-Feedback-Precondition v1.0, Compile-Sleep v1.0, Body-Knowing v1.0, Compile-Taxonomy v3.0
+    ㉓ §0: flow diagram Chunk v3.0, +Compile-Sleep, +Body-Feedback-Precondition
+    ㉔ §4.1: +Compile-Sleep.md cross-ref (sleep detail)
+    ㉕ §9: Body-Feedback 16→17 files (+Body-Feedback-Precondition.md v1.0)
+    ㉖ §10: Chunk/ +Compile-Taxonomy +Compile-Sleep, Feeling/ +Body-Knowing, naming fixes (-Draft suffix), Schema/ naming fix, Drill-Chunk/ structure fix
+    ㉗ §12: +4 new cross-refs, Chunk v3.0, Why-Body-Knows v1.2
 purpose: |
   Người đọc NÊN ĐỌC FILE NÀY TRƯỚC khi đi vào bất kỳ sub-file nào.
   File này consolidate, KHÔNG duplicate — detail ở sub-files.
@@ -46,15 +55,19 @@ purpose: |
 previous_version: backup/Body-Base-v2.1-backup.md
 parent: Core-Deep-Dive/ (foundation file)
 dependencies:
-  - Why-Body-Knows.md v1.1 — 2-tier + 2-pathway calibration, coherence ≠ truth
-  - Body-Feedback/Body-Feedback.md v3.1 — Dual-Pull, Body-Feedback-Precondition, Interface Loop, 16 files synthesis
+  - Why-Body-Knows.md v1.2 — 2-tier + 2-pathway calibration, coherence ≠ truth, Simulation-Engine
+  - Body-Feedback/Body-Feedback.md v3.1 — Dual-Pull, Body-Feedback-Precondition, Interface Loop, 17 files synthesis
   - Body-Feedback/01-Foundation.md — body-feedback vs feeling 2-layer
   - Body-Feedback/Body-Feedback-Mechanism.md v2.1 — chunk dynamics, Body-Need aggregate
   - Body-Feedback/Gap-Body-Need.md v1.0 — 3 satiation types, ENGINE/ROAD/VEHICLE, entity-gap matching
   - Body-Feedback/Reward-Signal-Architecture.md v2.1 — Evaluative/Direct-State, 5 Profiles
   - Body-Feedback/Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance, clinical
+  - Body-Feedback/Body-Feedback-Precondition.md v1.0 — 5 preconditions, WHEN signal fires
   - Feeling/Feeling.md v3.0 — 7-layer fidelity, PFC observation
-  - Chunk/Chunk.md v2.0 — sole substrate, 4 compile mechanisms
+  - Feeling/Body-Knowing.md v1.0 — compiled knowing, 3 directions, Dual Check
+  - Chunk/Chunk.md v3.0 — sole substrate, 4-phase lifecycle, Compile Architecture
+  - Chunk/Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 3 Compile Types
+  - Chunk/Compile-Sleep.md v1.0 — Sleep Maintenance, 6 mechanisms, offline system
   - Valence-Propagation.md v4.0 — valence definition, formation, propagation qua schema chain
   - Entity-Valence-Dynamics.md v1.0 — per-entity dynamics: structural/current, 3 firing modes, hardware-subsidy
   - Body-Coupling.md v3.0 — coupling mechanism, 4 bond types, hardware-subsidy, Resonance Decline
@@ -157,7 +170,9 @@ FILE NÀY TRONG FLOW:
   │  Đọc file này TRƯỚC → chọn hướng đi sâu:                     │
   │                                                                │
   │  Mechanism files (HOW):                                        │
-  │    Chunk/Chunk.md v2.0             — chunk system (sole substrate)│
+  │    Chunk/Chunk.md v3.0             — chunk system (sole substrate)│
+  │    Chunk/Compile-Taxonomy.md v3.0  — 1 Engine + 3 Modulators   │
+  │    Chunk/Compile-Sleep.md v1.0     — Sleep Maintenance (offline)│
   │    Body-Feedback-Mechanism.md v2.1 — chunk dynamics, Body-Need│
   │    Valence-Propagation.md v4.0     — valence definition + propagation          │
   │    Entity-Valence-Dynamics.md v1.0 — per-entity dynamics, 3 firing modes      │
@@ -177,7 +192,10 @@ FILE NÀY TRONG FLOW:
   │                                                                │
   │  Observation files (WHAT PFC SEES):                            │
   │    Feeling/Feeling.md v3.0         — PFC observation interface │
-  │    Body-Feedback/                  — signal architecture (16 files)│
+  │    Feeling/Body-Knowing.md v1.0    — compiled knowing, Dual Check│
+  │    Body-Feedback/                  — signal architecture (17 files)│
+  │    Body-Feedback/Body-Feedback-Precondition.md v1.0            │
+  │                                    — 5 preconditions, WHEN fires│
   │    Body-Feedback/Gap-Body-Need.md v1.0 — 3 satiation types    │
   │    Body-Feedback/Dissonance-Signal-Architecture.md v1.0        │
   │                                    — Evaluative/Direct-State Dissonance│
@@ -556,11 +574,12 @@ Chi tiết: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2, Ga
     ④ DOMAIN-CHECK: verify body-smooth vs reality
     ⑤ CHANGE ENVIRONMENT: thay đổi context → body-input thay đổi
 
-  BODY COMPILE qua 4 mechanisms (Chunk.md §2):
+  BODY COMPILE qua 4 mechanisms (Chunk.md v3.0 §2):
     ① Repetition — lặp lại nhiều lần (LTP, Bliss & Lømo 1973 🟢)
     ② Emotional peak — 1 lần cảm xúc cực mạnh (Brown & Kulik 1977 🟢)
     ③ Multi-modal — nhiều kênh cùng lúc (wire across cortex)
     ④ Sleep consolidation — offline integration (Walker 2017 🟢)
+       Chi tiết sleep: Compile-Sleep.md v1.0 (6 mechanisms, offline system)
 
   IMAGINATION = NỘI BỘ BODY EXPERIENCE (Drill §19 key insight):
     → Imagine chanh → tiết nước bọt THẬT (body respond)
@@ -888,7 +907,7 @@ Chi tiết: Inter-Body-Mechanism.md §9
 
 ```
 ⭐ TẠI SAO BODY ĐÁNG TIN: 2 CƠ CHẾ CALIBRATE + 2 ĐƯỜNG VÀO
-   (Why-Body-Knows.md v1.1 — consolidated):
+   (Why-Body-Knows.md v1.2 — consolidated):
 
   CHỈ 2 CƠ CHẾ THẬT SỰ KHÁC NHAU:
 
@@ -965,7 +984,7 @@ Chi tiết: Inter-Body-Mechanism.md §9
     → Body đúng ~90%+ (2 cơ chế calibrate). Sai ~10% (3 failure modes).
     → EXTERNAL CHECK cần thiết cho 10%: người khác, AI, experiment, domain thật.
 
-  Chi tiết: Why-Body-Knows.md v1.1 §3
+  Chi tiết: Why-Body-Knows.md v1.2 §3
 ```
 
 ---
@@ -1040,7 +1059,7 @@ Chi tiết: Inter-Body-Mechanism.md §9
 ```
 ⭐ BODY-FEEDBACK = SIGNAL ARCHITECTURE CỦA BODY-BASE:
 
-  Body-Feedback/ folder (16 files, ~26,100L) chứa chi tiết.
+  Body-Feedback/ folder (17 files, ~27,500L) chứa chi tiết.
   Section này = overview entry point.
 
 
@@ -1078,7 +1097,7 @@ Chi tiết: Inter-Body-Mechanism.md §9
     → Cycle CONTINUOUS. Không có điểm bắt đầu/kết thúc.
 
 
-  5 Body-Feedback-Preconditions FOR BODY SIGNAL (Body-Feedback §5.2):
+  5 Body-Feedback-Preconditions FOR BODY SIGNAL (Body-Feedback-Precondition.md v1.0):
     🟡 Body signal (reward hoặc dissonance) = function of 5 preconditions ĐỒNG THỜI:
 
     ┌───┬──────────────────────┬──────────────────────────┐
@@ -1116,17 +1135,18 @@ Chi tiết: Inter-Body-Mechanism.md §9
 BODY-BASE/ FOLDER OVERVIEW (~70+ files):
 
   Body-Base.md (THIS FILE)           — Entry point
-  ├── Why-Body-Knows.md v1.1         — META: tại sao body đáng tin
+  ├── Why-Body-Knows.md v1.2         — META: tại sao body đáng tin
   ├── Cortisol-Baseline.md v2.1      — Amplifier mechanism (3,059L)
   ├── Valence-Propagation.md v4.0    — Valence definition + formation + propagation (~918L)
   ├── Entity-Valence-Dynamics.md v1.0 — Per-entity dynamics, 3 firing modes, hardware-subsidy (~1,545L)
   ├── Body-Coupling.md v3.0          — Coupling, 4 bond types, hardware-subsidy, Resonance Decline
   ├── Inter-Body-Mechanism.md v2.0   — 8 principles, Compilable Architecture
   │
-  ├── Body-Feedback/                 — Signal architecture (16 files, ~26,100L)
+  ├── Body-Feedback/                 — Signal architecture (17 files, ~27,500L)
   │   ├── Body-Feedback.md v3.1      — Synthesis entry point
   │   ├── Body-Feedback-Mechanism.md v2.1 — Chunk dynamics, Body-Need aggregate
   │   ├── Body-Feedback-Label.md v2.1 — Vocabulary reference (3-tier)
+  │   ├── Body-Feedback-Precondition.md v1.0 — 5 preconditions, WHEN signal fires
   │   ├── Gap-Direction.md v2.0      — Gap có hướng cụ thể
   │   ├── Gap-Body-Need.md v1.0      — 3 satiation types, ENGINE/ROAD/VEHICLE
   │   ├── Gap-Distribution-Profile.md v1.1 — 5-parameter, technology fill
@@ -1141,22 +1161,27 @@ BODY-BASE/ FOLDER OVERVIEW (~70+ files):
   │   ├── Drill-Body-Feedback/03-Reward.md — Body-Feedback-Precondition, ô tô paradox
   │   └── Drill-Body-Feedback/04-Integration.md — Unified cycle, walkthroughs
   │
-  ├── Feeling/                       — PFC observation system (~6,924L)
+  ├── Feeling/                       — PFC observation system (~7,700L)
   │   ├── Feeling.md v3.0            — Central reference (WHAT + HOW)
-  │   ├── Feeling-Mechanism-Deep.md  — 8-step flow, reward
-  │   ├── Feeling-Sources.md         — 10+ channels, 50+ examples
-  │   ├── Feeling-Accuracy.md        — Error modes, literacy
-  │   ├── Feeling-Chunk-Bridge.md    — Bidirectional mapping
-  │   ├── Feeling-Literacy-Training  — 5-stage training
+  │   ├── Body-Knowing.md v1.0       — Compiled knowing, 3 directions, Dual Check
+  │   ├── Feeling-Mechanism-Deep-Draft.md  — 8-step flow, reward
+  │   ├── Feeling-Sources-Draft.md         — 10+ channels, 50+ examples
+  │   ├── Feeling-Accuracy-Draft.md        — Error modes, literacy
+  │   ├── Feeling-Chunk-Bridge-Draft.md    — Bidirectional mapping
+  │   ├── Feeling-Literacy-Training-Draft.md — 5-stage training
   │   ├── Feeling-Research.md        — Research foundation
-  │   ├── 01 - Feel-Analysis-Draft/  — 124 examples trajectory
-  │   └── 02 - Deep-Analysis-Draft/  — 6 themes + synthesis
+  │   ├── Drill-Feeling-Dev/         — 124 examples trajectory
+  │   └── Drill-Feeling-Knowning/    — 6 themes + synthesis
   │
   ├── Chunk/                         — Chunk system (~55,000L)
-  │   ├── Chunk.md v2.0              — Core reference
-  │   ├── 99-Master-Synthesis.md     — Unified lifecycle
+  │   ├── Chunk.md v3.0              — Core reference (4-phase lifecycle)
+  │   ├── Compile-Taxonomy.md v3.0   — 1 Engine + 3 Modulators, 3 Compile Types
+  │   ├── Compile-Sleep.md v1.0      — Sleep Maintenance (6 mechanisms, offline)
   │   ├── Background-Pattern.md v2.0 — Triple Bias, valence system, shiftability
-  │   ├── 09-Learning-Cycle.md       — Chu kỳ học
+  │   │
+  │   ├── Drill-Chunk/               — Deep analysis drills
+  │   │   ├── 99-Master-Synthesis.md — Unified lifecycle
+  │   │   ├── 09-Learning-Cycle.md   — Chu kỳ học
   │   │
   │   ├── Agent-Mechanism/           — Per-entity mechanism (11 files)
   │   │   ├── Agent-Mechanism.md v2.1 — Master: 10 dimensions
@@ -1179,7 +1204,7 @@ BODY-BASE/ FOLDER OVERVIEW (~70+ files):
   │   ├── Schema.md                  — Schema = observation parameter
   │   ├── Anchor-Schema.md           — Sync point + 4 nguồn
   │   ├── Anchor-Schema-Example.md   — 24 healthy examples
-  │   └── Anchor-Schema-Extreme.md   — Failure modes
+  │   └── Anchor-Schema-Extreme-Example.md — Failure modes
   │
   └── Melody Lens/                   — Metaphor system
       ├── Personal-Melody.md         — Per-person melody
@@ -1197,7 +1222,7 @@ READING PATHS:
 
   Core mechanism deep dive (~3-5 giờ):
     1. THIS FILE
-    2. Chunk/Chunk.md v2.0
+    2. Chunk/Chunk.md v3.0
     3. Valence-Propagation.md v4.0
     3b. Entity-Valence-Dynamics.md v1.0 (companion)
     4. Body-Coupling.md v3.0
@@ -1217,7 +1242,7 @@ READING PATHS:
     1. THIS FILE §1-§2
     2. Feeling/Feeling.md v3.0
     3. Body-Feedback/01-Foundation.md §5 (body-feedback vs feeling)
-    4. Feeling/Feeling-Mechanism-Deep.md
+    4. Feeling/Feeling-Mechanism-Deep-Draft.md
 
   Framework theory (~2 giờ):
     1. THIS FILE §1-§4 (foundations + core principles + compile)
@@ -1322,7 +1347,7 @@ READING PATHS:
 
 ```
 WITHIN BODY-BASE/ FOLDER:
-  Why-Body-Knows.md v1.1    — 2-tier + 2-pathway calibration, coherence ≠ truth, 3 failure modes
+  Why-Body-Knows.md v1.2    — 2-tier + 2-pathway calibration, coherence ≠ truth, Simulation-Engine
   Cortisol-Baseline.md v2.1 — amplifier mechanism, 10 touchpoints, direction > level
   Valence-Propagation.md v4.0 — valence definition, formation, propagation (companion: Entity-Valence-Dynamics.md v1.0)
   Body-Coupling.md v3.0     — coupling, 4 bond types, hardware-subsidy, Resonance Decline, anti-suppress
@@ -1330,12 +1355,16 @@ WITHIN BODY-BASE/ FOLDER:
   Body-Feedback-Mechanism.md v2.1 — chunk dynamics, Body-Need aggregate, 3 dynamics
   Body-Feedback-Label.md v2.1 — vocabulary reference, 3-tier labels
   Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance, mismatch split, clinical
+  Body-Feedback-Precondition.md v1.0 — 5 preconditions, WHEN signal fires, conjunction logic
   Gap-Body-Need.md v1.0     — 3 satiation types, ENGINE/ROAD/VEHICLE, entity-gap matching
   Gap-Distribution-Profile.md v1.1 — 5-parameter, technology fill, PFC budget
   Hidden-Quality-Perception.md v1.0 — 2 types (Expert+Leader), Dunning-Kruger meta
   Reward-Signal-Architecture.md v2.1 — Evaluative:Direct-State ratio, reward calibration
   Feeling/                  — PFC observation interface, 7-layer fidelity
-  Chunk/Chunk.md v2.0       — sole substrate, 4 compile mechanisms, 4 connection types
+  Feeling/Body-Knowing.md v1.0 — compiled knowing, 3 directions, Dual Check
+  Chunk/Chunk.md v3.0       — sole substrate, 4-phase lifecycle, Compile Architecture
+  Chunk/Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 3 Compile Types
+  Chunk/Compile-Sleep.md v1.0 — Sleep Maintenance, 6 mechanisms, offline system
   Background-Pattern.md v2.0 — Triple Bias, valence system, pattern shiftability
   Schema/                   — observation parameter, Anchor-Schema
   Melody Lens/              — metaphor system, Personal-Melody
@@ -1415,12 +1444,12 @@ KEY RESEARCH:
 
 ---
 
-> **Body-Base.md v3.3**
+> **Body-Base.md v3.4**
 >
 > Entry point cho toàn bộ Body-Base system.
 > Foundation layer: mọi thứ trong framework build trên body-base.
 >
-> Core principles (v3.3):
+> Core principles (v3.4):
 >   §1: 3 Hardware Foundations → Compilable Architecture (general-purpose adaptive)
 >   §2: Body evaluates PATTERNS, not reality (Treisman 1977 + 6 cases)
 >   §3: Unified Model 3+1 + Simulation-Engine + Entity-Access + Bond-Architecture
@@ -1434,7 +1463,7 @@ KEY RESEARCH:
 > Schema phục vụ body-base. Body is final arbiter of value.
 > Body đúng ~90%+. External check cho 10% gap.
 >
-> Phiên bản: v3.3, 2026-05-25.
+> Phiên bản: v3.4, 2026-06-01.
 > Source: Inter-Body Drill (8 principles) + 28-session Drill Propagation concept cascade.
 >
 > Changelog:
@@ -1482,3 +1511,11 @@ KEY RESEARCH:
 >     — §10: Reading paths: Cortisol v2.1, Inter-Body v2.0, Body-Feedback-Mechanism v2.1
 >     — §11: +4 🟢 items (Melzack, Wager, Baumeister, LeDoux) + 7 🟡 Dissonance-Signal-Architecture items
 >     — §12: Cortisol v2.1, Inter-Body v2.0, Drill files→backup notation
+>   v3.4 (2026-06-01): Sync update — new files + version alignment
+>     — YAML deps: Chunk v2.0→v3.0, Why-Body-Knows v1.1→v1.2
+>     — YAML deps: +Body-Feedback-Precondition v1.0, +Compile-Sleep v1.0, +Body-Knowing v1.0, +Compile-Taxonomy v3.0
+>     — §0: flow diagram +Compile-Taxonomy, +Compile-Sleep, +Body-Feedback-Precondition, +Body-Knowing, Chunk v3.0
+>     — §4.1: +Compile-Sleep.md cross-ref (sleep detail)
+>     — §9: Body-Feedback 16→17 files, ~26,100→~27,500L (+Body-Feedback-Precondition v1.0)
+>     — §10: Chunk/ +Compile-Taxonomy +Compile-Sleep, Chunk v3.0; Feeling/ +Body-Knowing, -Draft naming fix; Schema/ naming fix; Drill-Chunk/ structure fix; Reading paths v3.0
+>     — §12: +Body-Feedback-Precondition, +Body-Knowing, +Compile-Taxonomy, +Compile-Sleep, Chunk v3.0, Why-Body-Knows v1.2

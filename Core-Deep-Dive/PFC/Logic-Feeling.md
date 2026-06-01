@@ -1447,7 +1447,7 @@ STILL OPEN:
 
   PFC-Function.md v1.2 — 24 functions / 5 categories (OBSERVE→HOLD→PROCESS→ORCHESTRATE→STRATEGIC)
   Somatic-Articulation-Loop.md — Body-knowledge (Body-Knowing) → explicit (fresh formalize)
-  Chunk.md v2.0 §8 — Two Operators: compiled search vs PFC fresh hold
+  Chunk.md v3.0 §8 — Operators × Chunk System: Hold/Suppress, Exposure Channels, Body Evaluate
 
 📚 COMPANION:
 

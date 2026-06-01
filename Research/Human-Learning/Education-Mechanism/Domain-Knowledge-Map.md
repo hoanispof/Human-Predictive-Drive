@@ -24,7 +24,7 @@ position: |
   Bộ 3 files: Education-Mechanism (HOW) + Domain-Knowledge-Map (WHAT — file này) + Connection-Education (WHO).
 dependencies:
   education-bo-3:
-    - Education-Mechanism.md v2.0 — HOW learning arc design (bộ 3)
+    - Education-Mechanism.md v2.1 — HOW learning arc design (bộ 3)
     - Connection-Education.md v1.0 — WHO social interaction education (bộ 3)
   core-foundation:
     - Core-v7.8-Draft.md — cycle architecture, chunks = sole substrate
@@ -51,7 +51,7 @@ dependencies:
     - Empathy.md v3.0 — Self-Pattern-Modeling function, 3 mechanisms
     - Resonance-Sustainability.md v1.0 — 4-Layer model, 3 conditions
   child-dev:
-    - Child-Development-Mechanism.md v2.0 — developmental timeline, sensitive periods
+    - Child-Development-Mechanism.md v2.2 — developmental timeline, sensitive periods
     - Skill-Introduction.md v2.1 — 0-6 skill exposure timing
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Era prediction
@@ -713,7 +713,7 @@ FILE NÀY KHÔNG LÀM:
       (Valence-Propagation.md v3.0 §7 — modulate VTA habituation per entity)
     → Parent = MAX subsidy, Teacher = MODERATE, AI = NONE
     → Specialization giai đoạn 16+ = khi societal subsidy (school) giảm dần
-      → transition planning = CẦN THIẾT (Education-Mechanism.md v2.0 §3.1)
+      → transition planning = CẦN THIẾT (Education-Mechanism.md v2.1 §3.1)
 
   KẾT NỐI VỚI IMAGINE-FINAL:
     → Hardware tendencies + exposure → Imagine-Final emerge
@@ -818,7 +818,7 @@ FILE NÀY KHÔNG LÀM:
 ⭐ CÁI FILE NÀY KHÔNG THỂ LÀM:
 
   ❌ Liệt kê exhaustive — kiến thức = vô tận, listing = incomplete by design
-  ❌ Prescribe cách dạy — → Education-Mechanism.md v2.0
+  ❌ Prescribe cách dạy — → Education-Mechanism.md v2.1
   ❌ Cho per-student recommendations — AI + teacher calibrate
   ❌ Predict future domains chính xác — §2 = best guess, sẽ cần update
 
@@ -870,7 +870,7 @@ FILE NÀY KHÔNG LÀM:
 BỘ 3 EDUCATION
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.0 — ⭐ HOW (bộ 3)
+→ Education-Mechanism.md v2.1 — ⭐ HOW (bộ 3)
   8 nguyên lý arc design + Hardware-Subsidy + PFC Budget + Dissonance-Signal-Architecture.
   File NÀY cung cấp WHAT, Mechanism cung cấp HOW.
 
@@ -883,12 +883,12 @@ BỘ 3 EDUCATION
 NỀN TẢNG
 ═══════════════════════════════════════════════════════
 
-→ Child-Development-Mechanism.md v2.0 — Developmental timeline
-  §2 4+1 compile (foundation cho mọi domain learning),
+→ Child-Development-Mechanism.md v2.2 — Developmental timeline
+  §2 Compile Architecture (foundation cho mọi domain learning),
   §3 Approach/avoidance (direction cho mọi domain experience),
   §9 Sensitive periods + Imagine-Final emergence.
 
-→ Skill-Introduction.md v2.1 — 0-6 skill timing
+→ Skill-Introduction.md v2.2 — 0-6 skill timing
   EXPOSURE trước, TRAINING sau. Foundation starts HERE.
 
 → Core-v7.8-Draft.md — Cycle architecture

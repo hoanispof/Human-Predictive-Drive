@@ -1,19 +1,15 @@
 ﻿---
 title: Education-Mechanism — Nguyên Lý Thiết Kế Learning Arc v7.8
-version: 2.1
+version: 2.0
 created: 2026-04-21
-updated: 2026-06-01 (v2.1 — Compile Architecture refine: "4+1 kênh compile" → "1 Engine + 3 Modulators + 3 Exposure Channels", +Multi-Stream × Direction > Level, +Critical Asymmetry × Imagine-Final, +Sleep Maintenance reframe (6 mechanisms), +Trust/Experience/Expertise × Arc Design, +Bridge × Critical Asymmetry, deps Child-Dev v2.0→v2.2 + CT v3.0 + CS v1.0)
-previous: v2.0 (2026-05-25, 1,713L)
-status: v2.1
+updated: 2026-05-25 (v2.0 — DEEP REFINE: +Imagine-Final v3.0 boundary, +Hardware-Subsidy, +PFC Budget, +Dissonance-Signal-Architecture, +Entity-Access gradient, +Simulation-Engine, +Valence-Propagation v3.0 structural/current, +Coordination-Node, +Entity-Compiled, +Resonance Decline, +Gap-Distribution-Profile, bộ đôi→bộ 3, deps 10→30, cross-refs reorganized)
+previous: v1.0 (2026-04-21, 1,280L)
+status: v2.0
 scope: |
   HOW thiết kế learning arc cho structured education (6+).
   Build TRÊN Child-Development-Mechanism.md (nền tảng compile 0-6).
   Brain-based principles — valid MỌI era, MỌI culture.
   Framework = ENGINE cho AI optimize per student — không phải curriculum.
-  v2.1 KEY CHANGES: "4+1 kênh compile" → "Compile Architecture (1E+3M)",
-  +Multi-Stream × Direction > Level, +Critical Asymmetry × Imagine-Final,
-  +Sleep Maintenance (6 mechanisms, exposure vs optimization), +Trust/Experience/Expertise × Arc Design,
-  +Bridge × Critical Asymmetry. Dependencies: Child-Dev-Mechanism v2.0→v2.2, +CT v3.0, +CS v1.0.
   v2.0 KEY CHANGES: +Hardware-Subsidy (education = societal subsidy system),
   +PFC Budget (finite shared resource → arc timing), +Imagine-Final v3.0
   (constructive simulation ≠ hardware prediction), +Dissonance-Signal-Architecture
@@ -37,9 +33,7 @@ position: |
   Bộ 3 files: Education-Mechanism (HOW) + Domain-Knowledge-Map (WHAT) + Connection-Education (WHO).
 dependencies:
   core-foundation:
-    - Child-Development-Mechanism.md v2.2 — NỀN TẢNG (Compile Architecture, approach/avoidance, cortisol)
-    - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, Multi-Stream, Trust = Amplifier
-    - Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms, exposure vs optimization)
+    - Child-Development-Mechanism.md v2.0 — NỀN TẢNG (4+1 compile, approach/avoidance, cortisol)
     - Core-v7.8-Draft.md — cycle architecture, observation parameters
     - Chunk.md v2.2 — chunk substrate, compile, lifecycle, context-tag
     - Cortisol-Baseline.md v2.1 — amplifier reframe, direction > level
@@ -70,9 +64,9 @@ dependencies:
     - Domain-Mapping-Drive.md v1.0 — WHY humans drive map domain
     - Compiled-Fresh.md v2.0 — Compiled Quality Dimension
   child-dev:
-    - Natural-Development.md v2.2 — 0-6 tự nhiên
-    - Skill-Introduction.md v2.2 — 0-6 kỹ năng giới thiệu
-    - Mother-Optimization.md v2.2 — prenatal hardware quality
+    - Natural-Development.md v2.1 — 0-6 tự nhiên
+    - Skill-Introduction.md v2.1 — 0-6 kỹ năng giới thiệu
+    - Mother-Optimization.md v2.1 — prenatal hardware quality
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -82,7 +76,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Trẻ sơ sinh học bằng CURIOSITY — mọi thứ đều mới.**
 > **Học sinh 8 tuổi học bằng ARC — ai đó đã chọn "hôm nay học gì."**
 >
-> Cùng kiến trúc. Cùng chunks. Cùng Compile Engine.
+> Cùng kiến trúc. Cùng chunks. Cùng 4+1 kênh compile.
 > Khác: ai thiết kế trải nghiệm, ở scale nào, với mục đích gì.
 >
 > Child-Development-Mechanism = cách NÃO compile chunks (0-6, tự nhiên).
@@ -121,7 +115,7 @@ BỘ 3 EDUCATION — 3 FILES ĐỌC CÙNG NHAU:
   Education-Mechanism.md  ← NGUYÊN LÝ (file này) — HOW
     "Thiết kế learning arc thế nào cho hiệu quả?"
     → Brain-based, valid mọi era, mọi culture
-    → Build trên Child-Development-Mechanism.md v2.2
+    → Build trên Child-Development-Mechanism.md v2.0
 
   Domain-Knowledge-Map.md  ← BẢN ĐỒ (file 2) — WHAT
     "Nhóm kiến thức/kỹ năng nào cần trong era hiện đại?"
@@ -139,7 +133,7 @@ BỘ 3 EDUCATION — 3 FILES ĐỌC CÙNG NHAU:
 
 
 READER FLOW:
-  Muốn hiểu CƠ CHẾ NÃO (nền tảng)    → Child-Development-Mechanism.md v2.2
+  Muốn hiểu CƠ CHẾ NÃO (nền tảng)    → Child-Development-Mechanism.md v2.0
   Muốn hiểu NGUYÊN LÝ ARC DESIGN      → Education-Mechanism.md (file này)
   Muốn biết DẠY NHÓM GÌ               → Domain-Knowledge-Map.md
   Muốn hiểu DẠY SOCIAL INTERACTION     → Connection-Education.md
@@ -151,19 +145,17 @@ READER FLOW:
 ```
 ⭐ FILE NÀY BUILD TRÊN, KHÔNG LẶP LẠI:
 
-  Child-Development-Mechanism.md v2.2 (~2,970 lines) ĐÃ giải thích:
+  Child-Development-Mechanism.md v2.0 (~2,640 lines) ĐÃ giải thích:
 
   ┌──────────────────────┬─────────────────────────────────────────┐
   │ §1 PFC Reframe       │ Hardware online từ prenatal.             │
   │                      │ Chunks missing = bottleneck thật.        │
   ├──────────────────────┼─────────────────────────────────────────┤
-  │ §2 Compile           │ 1 Engine (Hebbian) + 3 Modulators:       │
-  │    Architecture      │ Entity-Valence Bias + PFC Modulation     │
-  │                      │ + Sleep Maintenance (6 mechanisms)        │
-  │                      │ + 3 Exposure Channels (External +        │
-  │                      │   Deliberate + Spontaneous)              │
-  │                      │ + Multi-Stream (Content/Value/Entity/    │
-  │                      │   Behavior) + 5-parameter formula        │
+  │ §2 4+1 Channel       │ 4 kênh compile nội bộ:                  │
+  │    Compile           │ ① Repetition ② Emotional peak           │
+  │                      │ ③ Multi-modal ④ Sleep consolidation      │
+  │                      │ + Kênh 5: External install               │
+  │                      │ + 5-parameter compile formula            │
   ├──────────────────────┼─────────────────────────────────────────┤
   │ §3 Approach/         │ ⭐ "Cùng nội dung, khác cách dạy         │
   │    Avoidance Tags    │ → khác tag → khác SUỐT ĐỜI"            │
@@ -205,7 +197,7 @@ READER FLOW:
 INSIGHT CỐT LÕI:
 
   Child-Development = HARDWARE (ổn định)
-    → PFC hardware, Compile Architecture (1E+3M), approach/avoidance, cortisol baseline
+    → PFC hardware, 4+1 kênh compile, approach/avoidance, cortisol baseline
     → Ổn định 100,000+ năm → framework MÔ TẢ chi tiết được
 
   Education = SOFTWARE (era-dependent)
@@ -222,7 +214,7 @@ INSIGHT CỐT LÕI:
       collaboration, solo... VÔ TẬN cách hiểu
 
   MỌI cách dạy trên đều VALID — NẾU follow brain mechanism:
-    → Có dùng ≥1 dạng exposure? (repetition, peak, multi-modal, sleep)
+    → Có dùng ≥1 kênh compile? (repetition, peak, multi-modal, sleep)
     → Approach-tagged hay avoidance-tagged? (direction > level)
     → Có prerequisite chunks chưa? (Precondition-2 bottleneck)
     → Cost có phù hợp student này? (per-hardware)
@@ -338,16 +330,11 @@ CHUNKS VẪN LÀ SOLE SUBSTRATE (Core-v7.8-Draft.md):
   → = BẤT KỂ 2 tuổi hay 20 tuổi — cùng mechanism
 
 
-COMPILE ARCHITECTURE VẪN HOẠT ĐỘNG (Child-Dev-Mechanism §2):
-  → 1 ENGINE (Hebbian) — tất cả compile qua cùng 1 engine
-  → 3 MODULATORS: Entity-Valence Bias | PFC Modulation | Sleep Maintenance
-  → 3 EXPOSURE CHANNELS: External | Deliberate | Spontaneous
-  → Trust Compile (External Install) = Entity-Valence dominant pathway
-  → 4 dạng exposure: ① Repetition ② Emotional peak ③ Multi-modal ④ Sleep replay
+4+1 KÊNH COMPILE VẪN HOẠT ĐỘNG (Child-Dev-Mechanism §2):
+  → ① Repetition ② Emotional peak ③ Multi-modal ④ Sleep ⑤ External install
   → 5-parameter formula vẫn áp dụng:
     compile_rate ≈ f(exposure × saliency × contingency
                      × peak_valence × multi_modal_richness)
-  → (Chi tiết: Compile-Taxonomy.md v3.0, Compile-Sleep.md v1.0)
 
 
 APPROACH/AVOIDANCE TAGS VẪN QUYẾT ĐỊNH (Child-Dev-Mechanism §3):
@@ -556,7 +543,7 @@ EDUCATION ≠ SCHOOL:
     Loop 0-6: xảy ra TỰ NHIÊN → compile rộng, không có đích cụ thể
     Arc 6+: THIẾT KẾ CÓ CHỦ ĐÍCH → compile có hướng, có đích
     → Nhưng CẢ HAI đều chạy trên cùng perception-action cycle
-    → Cả hai đều dùng cùng Compile Architecture (1E+3M)
+    → Cả hai đều dùng cùng 4+1 kênh compile
     → = Arc = guided perception-action cycle loop
 ```
 
@@ -611,45 +598,6 @@ EDUCATION ≠ SCHOOL:
     → Cost of threat-path KHÔNG CHỈ "student khó chịu"
       — mà SABOTAGE relationship với domain ĐÓ suốt đời
     → 🟡 Qua lens v3.0: sabotage = STRUCTURAL avoidance tags compiled permanently
-
-
-  ⭐ v2.1 MULTI-STREAM × DIRECTION > LEVEL (Compile-Taxonomy v3.0 §5):
-
-    4 COMPILE STREAMS chạy ĐỒNG THỜI — mỗi stream compile ĐỘC LẬP:
-      ① CONTENT stream — kiến thức, kỹ năng, facts
-      ② VALUE stream — đánh giá tốt/xấu, approach/avoidance tag
-      ③ ENTITY stream — trust weight cho teacher/domain
-      ④ BEHAVIOR stream — motor patterns, habits, approach/avoidance actions
-
-    → Approach/avoidance tag = VALUE + BEHAVIOR stream
-    → Content compile KHÔNG phụ thuộc direction
-    → = "Ép vẫn học được NỘI DUNG — nhưng VALUE compile = avoidance"
-
-    CHÍNH XÁC HOÁ "DIRECTION > LEVEL":
-      = "VALUE stream direction > content volume"
-      → CÙNG content volume, KHÁC value direction → KHÁC suốt đời
-      → Arc design cần optimize VALUE stream, không chỉ content delivery
-
-    VÍ DỤ CỤ THỂ — "GIỎI NHƯNG GHÉT HỌC":
-      Student bị ép → ngồi học 3 tiếng/ngày → content compile ✓
-      NHƯNG: context = threat direction → VALUE stream compile avoidance ✗
-      → 10 năm: kiến thức tốt + ghét domain = Content ✓ Value ✗
-      → Khi hết ép (ra đời) → body TỰ ĐỘNG tránh domain đó
-      → = 2 streams giải thích pattern PHỔ BIẾN NHẤT trong education
-
-    VÍ DỤ CỤ THỂ — "KÉM NHƯNG THÍCH":
-      Student tự khám phá → ít structured → content compile chậm
-      NHƯNG: context = novelty direction → VALUE stream compile approach ✓
-      → Content ít hơn + approach tag = FOUNDATION cho self-directed learning
-      → = Thiếu content CHỮA ĐƯỢC (thêm exposure). Avoidance tag KHÔNG chữa (cần recompile).
-
-    → ARC DESIGN v2.1: TARGET = Content ✓ + Value ✓ (CẢ 2 stream)
-      Chỉ optimize content delivery = miss VALUE stream = miss suốt đời
-      Chỉ optimize "vui" = miss CONTENT stream = miss kiến thức
-      CẢ HAI = arc design serve CẢ content + value + entity + behavior streams
-
-    🟡 Insight nguồn: Child-Dev-Mechanism v2.2 §2.6 Multi-Stream Compile
-    🟡 4-stream model: Compile-Taxonomy v3.0 §5
 
   🟢 Approach/avoidance motivational systems: Lang & Bradley 2010
   🟢 Context-dependent memory: Godden & Baddeley 1975
@@ -934,48 +882,6 @@ EDUCATION ≠ SCHOOL:
     "Tới rồi con CÓ MUỐN không?" (Hardware Compatibility)
     "Làm sao con biết chắc?" (real-check)
 
-
-  ⭐ v2.1 CRITICAL ASYMMETRY × IMAGINE-FINAL (Compile-Taxonomy v3.0 §7):
-
-    2 CON ĐƯỜNG TẠO IMAGINE-FINAL CHO STUDENT:
-
-    ① PFC PATH (giải thích):
-       Teacher GIẢI THÍCH tại sao domain quan trọng
-       → PFC process → PFC hold → PFC simulate → Imagine-Final construct
-       → Cost: CAO (PFC budget, time, abstract processing)
-       → Speed: CHẬM (weeks/months cho compile)
-       → Path: INDIRECT — PFC → Exposure → Engine → Entity-Valence
-
-    ② ENTITY-VALENCE PATH (sống mẫu):
-       Teacher TỰ MÌNH sống với passion → student THẤY teacher thích domain
-       → Entity-Valence propagate: [teacher → positive] → [domain → positive]
-       → Student MUỐN domain → Imagine-Final emerge TỰ NHIÊN
-       → Cost: THẤP (compiled Entity-Valence = cost ≈ 0)
-       → Speed: NHANH (milliseconds cho mỗi interaction)
-       → Path: DIRECT — Entity-Valence → PFC
-
-    ASYMMETRY:
-      PFC→Entity-Valence = weeks/months (INDIRECT, COSTLY — "tên lửa")
-      Entity-Valence→PFC = milliseconds (DIRECT, FREE — "trọng trường")
-      → Teacher giải thích = PFC path = RẤT TỐN → và có thể hết "fuel" trước khi compile
-      → Teacher SỐNG = Entity-Valence path = GẦN NHƯ FREE → và bền vì compiled
-
-    HỆ QUẢ:
-      → "Show, don't tell" có CƠ SỞ CƠ CHẾ: Entity-Valence path > PFC path
-      → Entity-Access Mức 2-3 + positive Entity-Valence → student AUTO-RECEPTIVE
-        → Imagine-Final emerge từ MUỐN GIỐNG teacher, không phải từ ĐƯỢC GIẢI THÍCH
-      → = "Muốn con thích đọc sách → bố mẹ SỐNG thích đọc sách"
-        (Child-Dev-Mechanism v2.2 §2.6, Skill-Introduction v2.2 §2.7)
-
-    → ARC DESIGN: invest vào teacher's Entity-Valence path TRƯỚC
-      → Nếu Entity-Valence positive → PFC explanation AMPLIFIED
-      → Nếu Entity-Valence negative → PFC explanation SUPPRESSED
-      → = Sequence matters: Entity-Valence TRƯỚC, content SAU
-
-    🟡 Critical Asymmetry: Compile-Taxonomy v3.0 §7.2
-    🟡 "Show, don't tell" = mechanism-based: framework synthesis
-    🟢 PFC slower than subcortical: LeDoux 1996
-
   🟢 Prospection: Gilbert & Wilson 2007
   🟢 Mental time travel: Suddendorf & Corballis 2007
   🟢 Constructive simulation: Schacter & Addis 2007
@@ -1035,84 +941,18 @@ EDUCATION ≠ SCHOOL:
   🟡 Feedback loop = perception-action cycle applied to education
 ```
 
-### §2.8 — Nguyên lý 7: Sleep Maintenance + Recovery = Phần Của Education
+### §2.8 — Nguyên lý 7: Consolidation = Phần Của Education
 
 ```
 🟢 SLEEP + RECOVERY + SPACING = PHẦN CỦA HỌC, KHÔNG PHẢI NGƯỢC:
 
 
-  ⭐ v2.1 REFRAME: SLEEP = OFFLINE MAINTENANCE SYSTEM (Compile-Sleep.md v1.0):
-
-    Sleep KHÔNG ĐƠN THUẦN là "kênh compile thứ 4."
-    Sleep có 6 mechanisms — chỉ ~1.5 exposure-based, ~4.5 OPTIMIZATION:
-
-    ┌────┬─────────────────────┬─────────────┬──────────────────────────┐
-    │ #  │ Mechanism           │ Exposure?   │ Vai trò cho Education    │
-    ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-    │  1 │ SHY Homeostasis     │ ❌ NOT      │ Prune weak connections   │
-    │    │ (Tononi & Cirelli   │             │ → sáng rõ hơn chiều     │
-    │    │  2003, 2014)        │             │ (noise giảm, signal giữ) │
-    ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-    │  2 │ Hippocampal Replay  │ ✅ YES      │ Re-fire bài hôm nay     │
-    │    │ (Wilson &           │ (internal)  │ ở 10-20x speed           │
-    │    │  McNaughton 1994)   │             │ → strengthen compiled    │
-    ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-    │  3 │ Active Consolidation│ ❌ NOT      │ Transfer hippocampus     │
-    │    │ (Born & Wilhelm     │             │ → cortex (RAM→ROM)       │
-    │    │  2012)              │             │ → long-term memory       │
-    ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-    │  4 │ Creative Linking    │ 🟡 PARTIAL  │ Tạo liên kết xa giữa    │
-    │    │ (Cai 2009,          │ (new links) │ domains → "aha" sáng     │
-    │    │  Wagner 2004)       │             │ hôm sau                  │
-    ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-    │  5 │ Emotional           │ ❌ NOT      │ Bóc emotional tag quá    │
-    │    │ Decoupling          │             │ mạnh → giữ content,      │
-    │    │ (Walker 2017,       │             │ giảm cường độ cảm xúc    │
-    │    │  van der Helm 2011) │             │                          │
-    ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-    │  6 │ Gist Extraction     │ 🟡 PARTIAL  │ Trừu tượng hoá: specific │
-    │    │ (Payne 2009,        │ (abstract)  │ → general pattern        │
-    │    │  Stickgold 2013)    │             │ → hiểu NGUYÊN LÝ         │
-    └────┴─────────────────────┴─────────────┴──────────────────────────┘
-
-    EXPOSURE: ~1.5 (Replay full + Creative Linking partial + Gist partial)
-    OPTIMIZATION: ~4.5 (SHY + Consolidation + Decoupling full + partials)
-    → PHẦN LỚN sleep = tối ưu compile HIỆN CÓ, không tạo compile MỚI
-
-    SWS (nửa đầu đêm): SHY + Replay + Consolidation + Gist Extraction
-    REM (nửa sau đêm): Creative Linking + Emotional Decoupling
-    → Ngủ ĐỦ (cả SWS + REM) = CẢ 6 mechanisms chạy
-    → Thiếu ngủ = CẮT REM (nửa sau) → MẤT Creative Linking + Emotional Decoupling
-
-    KẾT LUẬN VẪN ĐÚNG: "Ngủ đủ = phần của học."
-    Nhưng v2.1 CHÍNH XÁC HƠN: "Ngủ đủ = 6 offline maintenance mechanisms
-    chạy đủ — KHÔNG CHỈ consolidation."
-
-
-  ⭐ v2.1 SLEEP DEPRIVATION = PFC DEGRADES FIRST:
-
-    Sleep deprivation → PFC catecholamine depletion → PFC offline ĐẦU TIÊN
-    → Emotional reactivity tăng (amygdala unchecked)
-    → Decision quality giảm, impulse control giảm
-    → Memory consolidation bị block (Active Consolidation ❌)
-    → Creative linking mất (REM cut → no novel associations)
-    → = Student thiếu ngủ = PFC budget ≈ 0 → mọi arc design = ineffective
-    → = Homework NHIỀU → thiếu ngủ → NGƯỢC mục đích hoàn toàn
-
-
-  ⭐ v2.1 WAKING REST ≈ 30% (Compile-Sleep.md v1.0 §6):
-
-    DMN hoạt động khi nghỉ, mơ mộng, mind-wander:
-    → Replay nhẹ (NOT industrial-grade như sleep replay)
-    → Incubation (implicit processing)
-    → Gist extraction nhẹ
-    → ≈ 30% hiệu quả so với sleep cho CONSOLIDATION
-
-    HỆ QUẢ CHO ARC DESIGN:
-      → Giữa 2 mini-arcs: REST (5-10 min) = cho DMN consolidate
-      → "Nghỉ giải lao" = PHẦN CỦA HỌC, không phải break HỌC
-      → Nhưng waking rest KHÔNG thay thế sleep (SHY, Emotional Decoupling
-        gần như KHÔNG xảy ra khi thức)
+  SLEEP CONSOLIDATION (Child-Dev-Mechanism §2.1 kênh ④ + §8):
+    → Learning HAPPENS during sleep → hippocampus replay → cortex transfer
+    → Slow-wave: strengthen important connections
+    → REM: creative connections + emotional processing
+    → Sleep deprivation = BLOCK consolidation → "học mà không nhớ"
+    → = Homework NHIỀU → thiếu ngủ → NGƯỢC mục đích
 
 
   SPACED REPETITION:
@@ -1120,11 +960,6 @@ EDUCATION ≠ SCHOOL:
     → Học rải → consolidate → recall → strengthen
     → Nhồi nhét → short-term → quên nhanh
     → = 5 lần × 5 ngày > 25 lần × 1 ngày
-    → v2.1: spacing WORK vì SLEEP MECHANISMS giữa sessions:
-      Night 1: Replay + Consolidation + SHY → chunks stronger
-      Night 2: same → even stronger + Gist Extraction → generalize
-      Night 3: Creative Linking → connect với other domains
-      → = Spacing = LEVERAGE sleep maintenance, KHÔNG CHỈ "nghỉ giữa"
 
 
   RECOVERY:
@@ -1141,74 +976,11 @@ EDUCATION ≠ SCHOOL:
     → = "Chăm hơn" TỐT — đến 1 điểm. Qua điểm đó = NGƯỢC
 
   🟢 Sleep consolidation: Walker 2017 (Why We Sleep)
-  🟢 6 mechanisms: Tononi & Cirelli 2003; Wilson & McNaughton 1994;
-      Born & Wilhelm 2012; Cai 2009; Walker 2017; Payne 2009
-  🟢 PFC degrades first: Nilsson et al. 2005, Yoo et al. 2007
-  🟢 DMN rest consolidation: Tambini et al. 2010
   🟢 Spacing effect: Ebbinghaus 1885, Cepeda et al. 2006
   🟢 Yerkes-Dodson 1908 (inverted-U)
-  🟡 Sleep = offline maintenance (NOT kênh compile): Compile-Sleep.md v1.0
-  🟡 Waking rest ≈ 30%: framework estimate
 ```
 
-### §2.9 — v2.1 SYNTHESIS: 3 Compile Types × Arc Design
-
-```
-🟡 v2.1 NEW — 3 COMPILE TYPES = 3 PHASES CỦA ARC DESIGN:
-
-  (Compile-Taxonomy v3.0 §4 — 3 Compile Types = dominant modulator configurations)
-
-
-  PHASE 1 — TRUST COMPILE (BOOTSTRAP):
-    Modulator: Entity-Valence Bias DOMINANT
-    = Fast install qua trusted source (teacher, parent)
-    Arc design: teacher TẠO TRUST → student NHẬN value install nhanh
-    → "Thầy nói quan trọng → tôi tin → compile [domain → tốt]"
-    → Bootstrap giai đoạn đầu: student chưa có experience → cần trust
-    → ⚠️ Trust install VALUE, KHÔNG install CONTENT (§2.2 Multi-Stream)
-
-  PHASE 2 — EXPERIENCE COMPILE (DEPTH):
-    Modulator: Minimal (Engine thuần — direct exposure)
-    = Slow verify qua body trải nghiệm trực tiếp
-    Arc design: student TỰ LÀM → body confirm/reject trust install
-    → "Tôi TỰ THỬ → body confirm → compile [domain → thực sự tốt]"
-    → Depth: Trust install + Experience confirm = CỰC BỀN (compound)
-    → = Hands-on, project-based, real-world application
-
-  PHASE 3 — EXPERTISE COMPILE (MASTERY):
-    Modulator: PFC Modulation DOMINANT
-    = Years of sustained PFC-directed compile trong 1 domain
-    Arc design: student DRIVE OWN learning, teacher = consultant
-    → "Tôi MUỐN sâu hơn → PFC direct → meta-chunks form → expert"
-    → Mastery: ~10 years (Chase & Simon 1973, Ericsson 1993)
-    → ⚠️ Chỉ ~5% behavior = expert-level (Compile-Taxonomy v3.0 §4.3)
-
-
-  ARC DESIGN = OPTIMIZE TRANSITIONS:
-
-    Trust → Experience: QUAN TRỌNG NHẤT
-      → KHÔNG dừng ở Trust → student chỉ có VALUE install, chưa verify
-      → Bridge (§3) = giữ student ĐỦ LÂU → Experience confirm
-      → Khi Experience confirm Trust → compound = BỀN VỮNG nhất
-
-    Experience → Expertise: TỰ NHIÊN nếu Imagine-Final rõ
-      → Không force → follow student's Imagine-Final (§2.6)
-      → AI + teacher = support, không push
-
-    ⭐ EDUCATION HIỆN TẠI: dừng Phase 1 (Trust only)
-      → 12 năm = Trust install liên tục (teacher nói, student ghi nhớ)
-      → Experience verify THIẾU (ít hands-on, ít real-world)
-      → Expertise phase GẦN NHƯ KHÔNG CÓ trong school (chưa đủ sâu)
-      → = Gap giữa "biết" (Trust) và "làm được" (Experience) = STRUCTURAL
-
-    Cross-ref: Compile-Type-Learning.md §3 (chi tiết per-domain mapping)
-
-  🟡 3 Compile Types × Arc phases: framework synthesis
-  🟢 Expert ~10 years: Chase & Simon 1973, Ericsson et al. 1993
-  🟡 Compound (Trust + Experience): framework insight
-```
-
-### §2.10 — Nguyên lý 8: Assess Depth, Not Surface
+### §2.9 — Nguyên lý 8: Assess Depth, Not Surface
 
 ```
 🟡 "ĐÚNG/SAI" = BỀ MẶT. DEPTH = ĐO LƯỜNG THẬT:
@@ -1242,29 +1014,25 @@ EDUCATION ≠ SCHOOL:
   🟡 4-stage mapping to chunk levels = framework synthesis
 ```
 
-### §2.11 — Tổng hợp 8 nguyên lý + 1 synthesis
+### §2.10 — Tổng hợp 8 nguyên lý
 
 ```
   ┌────┬─────────────────────────────────┬──────────────────────────────────┐
   │ #  │ Nguyên lý                       │ Brain basis                      │
   ├────┼─────────────────────────────────┼──────────────────────────────────┤
   │ 1  │ Direction > Level               │ Structural valence tags          │
-  │    │ (v2.1: +Multi-Stream 4 streams) │ + Multi-Stream (CT v3.0 §5)     │
+  │    │ (v2.0: structural, not current) │ (Valence-Propagation v3.0 §3)   │
   │ 2  │ Minimize cost per student       │ Chunk gap + hardware + subsidy   │
   │    │ (v2.0: +subsidy +PFC budget)    │ + PFC budget (5-factor formula)  │
   │ 3  │ Check prerequisite              │ Chunk hierarchy (Precondition-2)  │
   │ 4  │ Mini-arcs + valley awareness    │ Opioid reward reset +            │
   │    │ (v2.0: +Dissonance-Signal-Architecture +Resonance Decline +PFC)       │ Evaluative Dissonance + Resonance Decline   │
   │ 5  │ Imagine-Final before content    │ Constructive simulation on       │
-  │    │ (v2.1: +Critical Asymmetry)     │ Simulation-Engine + Asymmetry    │
+  │    │ (v2.0: v3.0 boundary reframe)   │ Simulation-Engine (APPLICATION)  │
   │ 6  │ Feedback loop                   │ Perception-action cycle +        │
   │    │ (v2.0: +dissonance type check)  │ Dissonance-Signal-Architecture   │
-  │ 7  │ Sleep Maintenance + Recovery    │ 6 mechanisms (~1.5 exposure,     │
-  │    │ (v2.1: 6 mechanisms + rest)     │ ~4.5 optimization) + PFC repair  │
+  │ 7  │ Consolidation = education       │ Sleep + spacing + repair         │
   │ 8  │ Assess depth, not surface       │ Chunk compilation levels         │
-  ├────┼─────────────────────────────────┼──────────────────────────────────┤
-  │ S  │ 3 Compile Types × Arc Design   │ Trust (bootstrap) → Experience   │
-  │    │ (v2.1 SYNTHESIS)                │ (depth) → Expertise (mastery)    │
   └────┴─────────────────────────────────┴──────────────────────────────────┘
 
 
@@ -1353,42 +1121,8 @@ EDUCATION ≠ SCHOOL:
     → Quá liều = ngộ độc (kill intrinsic, anchor dependency)
     → Thiếu liều = không tác dụng (student bỏ cuộc)
 
-
-  ⭐ v2.1 BRIDGE × CRITICAL ASYMMETRY (Compile-Taxonomy v3.0 §7):
-
-    BRIDGE QUA 2 PATHS — HIỆU QUẢ KHÁC NHAU:
-
-    ① PFC-BASED BRIDGE (giải thích, thuyết phục):
-       → "Môn này quan trọng vì..." / "Học để..." / "Cần cho tương lai..."
-       → Path: PFC → Exposure → Engine → Entity-Valence (INDIRECT)
-       → Cost: CAO — student cần PFC budget ĐỂ XỬ LÝ giải thích
-       → Duration: weeks/months cho Entity-Valence shift
-       → Risk: PFC budget hết → bridge sập → avoidance trở lại
-
-    ② ENTITY-VALENCE BRIDGE (quan hệ, role model):
-       → Teacher yêu domain → student thấy → Entity-Valence propagate
-       → "Thầy thích toán → tôi thích thầy → tôi thích toán" (Compile-Taxonomy v3.0 §7.3)
-       → Path: Entity-Valence → PFC (DIRECT)
-       → Cost: THẤP — compiled Entity-Valence run free
-       → Duration: milliseconds per interaction, accumulate over weeks
-       → = "Love the teacher → learn the lesson"
-
-    → ENTITY-VALENCE BRIDGE >> PFC-BASED BRIDGE:
-      → Bền hơn (compiled, cost ≈ 0)
-      → Nhanh hơn (direct path, milliseconds)
-      → Không tốn student's PFC budget
-
-    → = "BRIDGE TỐT NHẤT = KHÔNG CẢM GIÁC LÀ BRIDGE"
-      Khi teacher SỐNG passion → student ABSORB qua Entity-Valence path
-      → Không cần "thuyết phục" → body TỰ MUỐN
-      → Bridge nguồn ④ (external) → CHUYỂN thành ①②③ NHANH nhất
-
-    🟡 Critical Asymmetry × Bridge: Compile-Taxonomy v3.0 §7.2-§7.4
-    🟡 "Love the teacher" proverb = architecture illustration
-
   🟢 Intrinsic vs extrinsic: Deci & Ryan SDT
   🟢 Overjustification effect: Deci 1971, Lepper 1973
-  🟢 Positive teacher-student relationship → learning: Immordino-Yang & Damasio 2007
   🟡 "Bridge = nguồn ④" = Anchor-Schema.md framework integration
   🟡 Hardware-Subsidy ≠ Bridge = Valence-Propagation v3.0 §7
 ```
@@ -1747,16 +1481,13 @@ EDUCATION ≠ SCHOOL:
 ⭐ CÁI FILE NÀY CÓ THỂ LÀM:
 
   ✅ Cung cấp nguyên lý brain-based cho learning arc design
-     → 8 nguyên lý + 1 synthesis derived từ established neuroscience mechanisms
+     → 8 nguyên lý derived từ established neuroscience mechanisms
      → v2.0: enriched with Hardware-Subsidy, PFC Budget, Dissonance-Signal-Architecture, Entity-Access
-     → v2.1: +Multi-Stream × Direction (4 streams), +Critical Asymmetry × Imagine-Final,
-       +Sleep Maintenance (6 mechanisms), +3 Compile Types × Arc Design
   ✅ Kết nối Child-Dev-Mechanism (0-6) với structured education (6+)
      → Clear handoff: cùng architecture, khác context
   ✅ Cung cấp bridge/motivation framework
      → 4 nguồn fill, 3 ORIGIN, transition trajectory
      → v2.0: + Entity-Access gradient, Coordination-Node, Entity-Compiled
-     → v2.1: + Bridge × Critical Asymmetry (Entity-Valence path >> PFC path)
   ✅ Propose AI-assisted education model
      → 3-layer architecture, engine framing
      → v2.0: + Entity-Access per layer, Simulation-Engine lens
@@ -1780,14 +1511,14 @@ EDUCATION ≠ SCHOOL:
 ⭐ ĐỘ TIN CẬY PER SECTION:
 
   CAO — Nền tảng (reference Child-Dev-Mechanism):
-    🟢 Chunk compilation, Compile Architecture (§1.1, referenced)
+    🟢 Chunk compilation, 4+1 kênh (§1.1, referenced)
     🟢 Approach/avoidance tags (§2.2, referenced)
-    🟢 Cortisol inverted-U, Sleep Maintenance 6 mechanisms (§2.8)
+    🟢 Cortisol inverted-U, sleep consolidation (§2.8)
     🟢 Spacing effect, prior knowledge effect (§2.4, §2.8)
     🟢 Intrinsic vs extrinsic motivation (§3.1)
 
   TRUNG BÌNH — Derived principles:
-    🟡 8 nguyên lý + 1 synthesis arc design (derived từ 🟢 mechanisms)
+    🟡 8 nguyên lý arc design (derived từ 🟢 mechanisms)
     🟡 Bridge = nguồn ④ (Anchor-Schema synthesis)
     🟡 4 nguồn fill trajectory (framework application)
     🟡 3 ORIGIN applied to education (framework formulation)
@@ -1842,25 +1573,10 @@ EDUCATION ≠ SCHOOL:
 NỀN TẢNG TRỰC TIẾP (Core-Deep-Dive/)
 ═══════════════════════════════════════════════════════
 
-→ Child-Development-Mechanism.md v2.2 — ⭐ NỀN TẢNG CỐT LÕI
-  §1 PFC Reframe, §2 Compile Architecture (1E+3M) + formula,
-  §2.6 Multi-Stream Compile (Content/Value/Entity/Behavior),
-  §3 Approach/Avoidance Tags, §4 Chunk Dynamics, §7 Autonomy,
-  §8 Cortisol, §9 Observation Parameters.
+→ Child-Development-Mechanism.md v2.0 — ⭐ NỀN TẢNG CỐT LÕI
+  §1 PFC Reframe, §2 4+1 Compile + formula, §3 Approach/Avoidance Tags,
+  §4 Chunk Dynamics, §7 Autonomy, §8 Cortisol, §9 Observation Parameters.
   File NÀY build trên tất cả sections trên — reference, không lặp.
-
-→ Compile-Taxonomy.md v3.0 — ⭐ COMPILE ARCHITECTURE ⭐NEW v2.1
-  1 Engine (Hebbian) + 3 Modulators + 3 Exposure Channels.
-  §3 Trust = Amplifier (NOT Gate). §5 Multi-Stream Compile.
-  §7 Feedback Loop + Critical Asymmetry.
-  Kết nối: §1.1 (architecture), §2.2 (Multi-Stream), §2.6 (Critical Asymmetry),
-  §2.8 (Sleep Maintenance), §2.9 (3 Compile Types × Arc Design).
-
-→ Compile-Sleep.md v1.0 — SLEEP MAINTENANCE (6 mechanisms) ⭐NEW v2.1
-  6 mechanisms: SHY + Replay + Active Consolidation +
-  Creative Linking + Emotional Decoupling + Gist Extraction.
-  ~1.5 exposure-based, ~4.5 optimization-based.
-  Kết nối: §2.8 (Nguyên lý 7 enriched).
 
 → Core-v7.8-Draft.md — Kiến trúc cycle-based
   Perception-Action Cycle, Chunk-System = sole substrate.
@@ -1973,10 +1689,10 @@ THREAT + MOTIVATION
 CHILD-DEVELOPMENT BỘ 4 (TẦNG 2 — foundation)
 ═══════════════════════════════════════════════════════
 
-→ Child-Development-Mechanism.md v2.2 — Khung nguyên lý (referenced §0-§2)
-→ Mother-Optimization.md v2.2 — Prenatal hardware quality
-→ Natural-Development.md v2.2 — 0-6 tự nhiên
-→ Skill-Introduction.md v2.2 — 0-6 kỹ năng giới thiệu
+→ Child-Development-Mechanism.md v2.0 — Khung nguyên lý (referenced §0-§2)
+→ Mother-Optimization.md v2.1 — Prenatal hardware quality
+→ Natural-Development.md v2.1 — 0-6 tự nhiên
+→ Skill-Introduction.md v2.1 — 0-6 kỹ năng giới thiệu
 
 
 ═══════════════════════════════════════════════════════
@@ -1993,49 +1709,4 @@ BỘ 3 EDUCATION + OBSERVATION (Research/Education/)
 
 → AI-Schema-Detection.md v2.0 — Gateway model, 3-layer parallel
   Kết nối: §0.4 (engine model), §4 (3-layer education parallel).
-```
-
----
-
-## CHANGELOG
-
-```
-v2.1 (2026-06-01) — Compile Architecture Refine:
-  TERMINOLOGY (11 vị trí):
-    "4+1 kênh compile" → "Compile Architecture (1 Engine + 3 Modulators)"
-    "kênh compile" → "dạng exposure" / "Compile Architecture"
-    §0.2 table: reframe hoàn toàn (1E+3M + Multi-Stream + 3 Exposure)
-    §1.1: "4+1 KÊNH COMPILE" → "COMPILE ARCHITECTURE" (1E+3M + 3EC)
-  DEPENDENCIES:
-    Child-Dev-Mechanism v2.0→v2.2, +Compile-Taxonomy v3.0, +Compile-Sleep v1.0
-    Natural-Dev/Skill-Intro/Mother-Opt v2.1→v2.2
-  NEW CONTENT:
-    §2.2 +Multi-Stream × Direction > Level (~40L):
-      4 streams chạy đồng thời. "Ép vẫn học NỘI DUNG — VALUE = avoidance."
-      "Giỏi nhưng ghét" = Content ✓ Value ✗.
-    §2.6 +Critical Asymmetry × Imagine-Final (~35L):
-      PFC path slow/costly vs Entity-Valence path fast/free.
-      "Show, don't tell" = mechanism-based. Sequence: Entity-Valence TRƯỚC, content SAU.
-    §2.8 Sleep Maintenance ENRICHED (~90L):
-      6 mechanisms table (exposure vs optimization classification).
-      SWS/REM split. PFC degrades FIRST. Waking rest ≈ 30%.
-      Spacing = leverage sleep maintenance.
-    §2.9 NEW 3 Compile Types × Arc Design (~45L):
-      Trust (bootstrap Phase 1) → Experience (depth Phase 2) → Expertise (mastery Phase 3).
-      Optimize Trust→Experience transition. Education hiện tại dừng Phase 1.
-    §3.1 +Bridge × Critical Asymmetry (~25L):
-      Entity-Valence bridge >> PFC-based bridge. "Love the teacher" = fastest bridge.
-  RENUMBER: §2.9→§2.10, §2.10→§2.11
-  §2.11: summary table updated (v2.1 annotations + Synthesis row)
-  §5: Honest Assessment updated
-  §6: +Compile-Taxonomy v3.0, +Compile-Sleep v1.0, version updates
-  Total: ~235L net addition
-
-v2.0 (2026-05-25) — DEEP REFINE:
-  +Imagine-Final v3.0, +Hardware-Subsidy, +PFC Budget, +Dissonance-Signal-Architecture,
-  +Entity-Access gradient, +Simulation-Engine, +VP v3.0, +Coordination-Node,
-  +Entity-Compiled, +Resonance Decline, +Gap-Distribution-Profile, bộ 3.
-  1,280L → 1,713L.
-
-v1.0 (2026-04-21) — Initial creation: 1,280L.
 ```

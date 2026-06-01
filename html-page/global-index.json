@@ -401,8 +401,21 @@
       ],
       "area": "chunk-system",
       "contentType": "mechanism",
-      "shortDescription": "3 compile types and 6 trade-offs — why the brain always compiles short (1-2 nodes per person) and how Experience/Expertise/Trust compile differ",
-      "fullDescription": "Formalizes the compile taxonomy left incomplete in Chunk.md §2. Three compile types: Experience Compile (body rewards directly — hardware fit), Expertise Compile (repetition + deliberate practice), Trust Compile (trust an external source → shortcut compile).\n\nKey insight: all individuals compile SHORT chains (1-2 nodes). Long chains like [study→university→job→salary→body-base] exist at the collective level, not individual. Each person only needs to trust the next node.\n\n6 trade-offs of short compile: speed vs. flexibility, efficiency vs. blindness, and the 'knowing but not doing' phenomenon (Experience Compile vs. Trust Compile can conflict). 4 compile pathways producing same behavioral output via different mechanisms. PFC = director; body = compiler. Resolves GAP 11 + GAP 14."
+      "shortDescription": "v3.0 Architecture reframe: ALL compile = Exposure → Hebbian (1 Engine). 3 Compile Types = dominant modulator configurations. Trust = amplifier, not gate",
+      "fullDescription": "v3.0 ARCHITECTURE REFRAME: Moves from taxonomy-first (v2.0) to mechanism-first view. ALL compile runs on 1 Engine: Exposure → Hebbian. 3 Compile Types (Experience/Expertise/Trust) = labels for which MODULATOR is dominant, not which engine runs.\n\nKey reframe: Trust = AMPLIFIER on gradient Mức 0-5 (Entity-Access), NOT binary GATE. Reconciles Chunk.md §2.3 'gate' language with Entity-Access 'gradient' model.\n\nNew in v3.0: Multi-stream compile (Content/Value/Entity/Behavior run in PARALLEL on same engine). Feedback loop: bidirectional but asymmetric (PFC→Entity-Valence slow/costly, Entity-Valence→PFC fast/free). Evolutionary gradient: engine conserved across species, modulators accumulated.\n\nKept from v2.0: 3 Hardware Constraints (why brain compiles short), 6 Trade-offs, 4 Pathways (same output, different mechanisms), interactions. Sleep maintenance → Compile-Sleep.md (companion file). ~50 citations. ~1,634L."
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-compile-sleep",
+      "fileName": "Compile-Sleep.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Compile-Sleep.md",
+      "domains": [
+        "core",
+        "neuroscience"
+      ],
+      "area": "chunk-system",
+      "contentType": "mechanism",
+      "shortDescription": "Sleep = offline maintenance system in Compile Architecture. 6 mechanisms: ~1.5 exposure-based, ~4.5 optimization-based. Sleep ≠ just another exposure source",
+      "fullDescription": "Detailed analysis of sleep's role in Compile Architecture. Core thesis: Sleep is NOT simply 'exposure source #4' — it is an OFFLINE MAINTENANCE SYSTEM.\n\n6 mechanisms classified by exposure vs optimization: SHY (Synaptic Homeostasis — optimization), Active Consolidation (hippocampus→cortex transfer — partial exposure), Emotional Decoupling (strip acute valence tags — optimization), Gist Extraction (abstract patterns → Background-Pattern — optimization), Creative Linking (remote associations — optimization), Replay (reactivation — partial exposure). Net: ~1.5 exposure-based, ~4.5 optimization.\n\nCompile Engine (Hebbian) = BUILD house (waking). Sleep = MAINTAIN house (offline): clean debris, transfer temp→permanent storage, repaint, simplify blueprints, connect new rooms to old, test-run systems.\n\nSleep × Architecture interaction: Compile Engine, Entity-Valence Bias, Exposure Channels, PFC Modulation. Sleep deprivation = architecture degradation (PFC degrades FIRST — adenosine accumulation). Waking rest = complement (~30%), NOT replacement. ~40 citations. ~1,317L."
     },
     {
       "id": "core-deep-dive-body-base-chunk-background-pattern",

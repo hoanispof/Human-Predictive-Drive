@@ -36,7 +36,7 @@ dependencies:
     - Discovery-vs-Expansion.md — Sense→Verify→Scale, 2 mode cost/reward khác nhau
     - Domain-Mapping-Drive.md — reward từ PROCESS, "given"=bypass=no reward
   education-bo-3:
-    - Education-Mechanism.md v2.0 — arc design, Hardware-Subsidy, PFC Budget
+    - Education-Mechanism.md v2.1 — arc design, Hardware-Subsidy, PFC Budget
     - Domain-Knowledge-Map.md v2.0 — domain taxonomy per era
     - Connection-Education.md v1.0 — social interaction education (WHO)
   secondary:
@@ -111,7 +111,7 @@ confidence: 🟢 Research/data support | 🟡 Framework synthesis | 🔴 Hypothe
     Collective-Purpose.md — cosmic loop: humanity map domain reality
 
   ② EDUCATION STREAM ("bộ 3" + observation):
-    Education-Mechanism.md v2.0 — HOW: arc design, Hardware-Subsidy, PFC Budget
+    Education-Mechanism.md v2.1 — HOW: arc design, Hardware-Subsidy, PFC Budget
     Domain-Knowledge-Map.md v2.0 — WHAT: domain taxonomy per era
     Connection-Education.md v1.0 — WHO: social interaction education
     Education-Arms-Race.md v1.2 — positional good, credential inflation, game theory
@@ -1683,7 +1683,7 @@ PRIMARY DEPENDENCIES (cốt lõi cho thesis)
 BỘ 3 EDUCATION
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.0 — HOW: arc design + Hardware-Subsidy + PFC Budget
+→ Education-Mechanism.md v2.1 — HOW: arc design + Hardware-Subsidy + PFC Budget
   §2: brain-based principles (Direction > Level, etc.)
   §4: AI-assisted education model
   Kết nối: §3.2 (approach/avoidance tags, Hardware-Subsidy), §5.2 (AI in education)

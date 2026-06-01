@@ -774,6 +774,7 @@ Status / meaning               CD/Observation/Status.md v2.2
 
 Học / thay đổi / habits        CD/Body-Base/Chunk/Drill-Chunk/09-Learning-Cycle.md
                                CD/Body-Base/Chunk/Compile-Taxonomy.md v3.0
+                               CD/Body-Base/Chunk/Compile-Sleep.md v1.0 (sleep × compile)
 
 Body signals / feeling         CD/Body-Base/Feeling/Feeling-Literacy-Training-Draft.md
                                CD/PFC/Imagination/Somatic-Articulation-Loop.md
@@ -801,7 +802,7 @@ CROSS-REFERENCES:
   Chuyên sâu (reference khi cần):
     Core-Hardware.md — neuroscience verification
     CD/PFC/PFC-Configuration.md — 6 dynamic PFC modes
-    CD/Body-Base/Chunk/Compile-Taxonomy.md — 3 Compile Types (Experience/Expertise/Trust)
+    CD/Body-Base/Chunk/Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulator Configurations, Trust=Amplifier
     CD/Collective/Collective-Body.md v2.1 — collective dynamics
     CD/Body-Base/Valence-Propagation.md v4.1 — body evaluation chains
 ```

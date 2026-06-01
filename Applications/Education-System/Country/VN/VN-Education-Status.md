@@ -2,11 +2,11 @@
 
 > **Phiên bản:** v2.1
 > **Ngày cập nhật:** 2026-05-26
-> **Mục đích:** Snapshot giáo dục VN hiện tại + đánh giá qua Education-Mechanism v2.0 lens
+> **Mục đích:** Snapshot giáo dục VN hiện tại + đánh giá qua Education-Mechanism v2.1 lens
 > **Vị trí:** TẦNG 5 — Country/VN (File 1/3 — data + analysis)
 > **Phụ thuộc:**
 >   EDUCATION-FOUNDATION (Tầng 3 "bộ 3"):
->     Education-Mechanism.md v2.0 (HOW — 8 nguyên lý + 12 new concepts — LENS ĐÁNH GIÁ),
+>     Education-Mechanism.md v2.1 (HOW — 8 nguyên lý + 12 new concepts — LENS ĐÁNH GIÁ),
 >     Domain-Knowledge-Map.md v2.0 (WHAT — 3-tier taxonomy + new concept mapping),
 >     Connection-Education.md v1.0 (WHO — 5 khía cạnh social-emotional education)
 >   EDUCATION-SYSTEM (Tầng 4):
@@ -231,7 +231,7 @@ PISA — BIỂU ĐỒ THAY ĐỔI: 🟢
 ```
 MỤC ĐÍCH SECTION NÀY:
 
-  Education-Mechanism.md v2.0 = LENS đánh giá:
+  Education-Mechanism.md v2.1 = LENS đánh giá:
     §2: 8 nguyên lý arc design (brain-based, valid mọi era)
     §3: Bridge + Motivation (4 nguồn fill, 3 ORIGIN threat)
     §1 + §4: System-level (tension cá nhân × xã hội, AI-assisted, education ≠ school)
@@ -260,7 +260,7 @@ MỤC ĐÍCH SECTION NÀY:
 ### §1.1 — ARC DESIGN: 8 Nguyên Lý
 
 ```
-NGUYÊN LÝ 1: DIRECTION > LEVEL (Mechanism v2.0 §2.2)
+NGUYÊN LÝ 1: DIRECTION > LEVEL (Mechanism v2.1 §2.2)
   "Cách dạy tạo approach-tag hay avoidance-tag cho domain?"
 
   ĐÁNH GIÁ: ✗ (threat-heavy → avoidance-tagged)
@@ -278,7 +278,7 @@ NGUYÊN LÝ 1: DIRECTION > LEVEL (Mechanism v2.0 §2.2)
     → Play + exploration bị cắt (tiểu học: 5-7 trang BT/ngày)
 
   QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.0 §2.2: "Cùng nội dung, khác cách dạy → khác tag → khác SUỐT ĐỜI"
+    → Mechanism v2.1 §2.2: "Cùng nội dung, khác cách dạy → khác tag → khác SUỐT ĐỜI"
     → VN: phần lớn domains được dạy qua threat-path
     → Chunks COMPILE (PISA scores OK) nhưng với AVOIDANCE-TAG
     → = "Biết toán nhưng ghét toán" = common outcome
@@ -302,7 +302,7 @@ NGUYÊN LÝ 1: DIRECTION > LEVEL (Mechanism v2.0 §2.2)
 ```
 
 ```
-NGUYÊN LÝ 2: MINIMIZE COST PER STUDENT (Mechanism v2.0 §2.3)
+NGUYÊN LÝ 2: MINIMIZE COST PER STUDENT (Mechanism v2.1 §2.3)
   "Arc có tối ưu cost cho student NÀY hay one-size cho tất cả?"
 
   ĐÁNH GIÁ: ✗ (one-size-fits-all → hardware mismatch phổ biến)
@@ -323,7 +323,7 @@ NGUYÊN LÝ 2: MINIMIZE COST PER STUDENT (Mechanism v2.0 §2.3)
     🟢 Ethnic minority dropout: 2x Kinh, late enrollment: 5x
 
   QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.0 §2.3: "one-size-fits-all LUÔN sub-optimal"
+    → Mechanism v2.1 §2.3: "one-size-fits-all LUÔN sub-optimal"
     → VN: GV 50 HS → KHÔNG THỂ calibrate per-hardware dù muốn
     → Hardware-Subsidy (Entity-Valence-Dynamics.md v1.0 §5):
       teacher = MODERATE subsidy → nhưng 50 HS/GV = subsidy CHIA cho 50
@@ -338,7 +338,7 @@ NGUYÊN LÝ 2: MINIMIZE COST PER STUDENT (Mechanism v2.0 §2.3)
 ```
 
 ```
-NGUYÊN LÝ 3: PREREQUISITE CHECK (Mechanism v2.0 §2.4)
+NGUYÊN LÝ 3: PREREQUISITE CHECK (Mechanism v2.1 §2.4)
   "Có verify chunks nền trước khi bắt đầu arc mới?"
 
   ĐÁNH GIÁ: △ (curriculum có sequence, nhưng cứng)
@@ -351,11 +351,11 @@ NGUYÊN LÝ 3: PREREQUISITE CHECK (Mechanism v2.0 §2.4)
     → GDPT 2018: tăng flexibility nhưng vẫn age-based progression
 
   QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.0 §2.4: "Thiếu prerequisite → arc fail → body overwhelm
+    → Mechanism v2.1 §2.4: "Thiếu prerequisite → arc fail → body overwhelm
       → avoidance-tag tích lũy"
     → VN: prerequisite check KHÔNG xảy ra per-student
     → Ai lọt lưới → tích lũy gaps → snowball effect
-    → = 1 trong 3 nguyên nhân "ghét toán" (Mechanism v2.0 §2.4 ví dụ):
+    → = 1 trong 3 nguyên nhân "ghét toán" (Mechanism v2.1 §2.4 ví dụ):
       ① Avoidance-tagged (dạy sai direction)
       ② Thiếu prerequisite → overwhelm → avoidance tích lũy
       ③ Hardware mismatch (cần visual, dạy verbal)
@@ -363,7 +363,7 @@ NGUYÊN LÝ 3: PREREQUISITE CHECK (Mechanism v2.0 §2.4)
 ```
 
 ```
-NGUYÊN LÝ 4: MINI-ARCS + VALLEY (Mechanism v2.0 §2.5)
+NGUYÊN LÝ 4: MINI-ARCS + VALLEY (Mechanism v2.1 §2.5)
   "Bài học có chia nhỏ, mỗi phần có 'aha'? Có chuẩn bị cho valley?"
 
   ĐÁNH GIÁ: ✗ (lecture blocks, ít valley awareness)
@@ -377,17 +377,17 @@ NGUYÊN LÝ 4: MINI-ARCS + VALLEY (Mechanism v2.0 §2.5)
       thay vì "đang ở valley — cần bridge tạm"
 
   QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.0 §2.5: "Arc dài + không reward giữa = body bỏ cuộc"
+    → Mechanism v2.1 §2.5: "Arc dài + không reward giữa = body bỏ cuộc"
     → VN: school year = long arc, kỳ thi = only reward signal
     → Giữa kỳ = valley → HS cần bridge MẠN NHẤT ở đây
     → Nhưng: bridge VN TĂNG ĐỀU (pressure constant) thay vì
       TĂNG ở valley + GIẢM sau aha
-    → "Normalize dissonance" (meta-skill quý nhất — Mechanism v2.0 §2.5)
+    → "Normalize dissonance" (meta-skill quý nhất — Mechanism v2.1 §2.5)
       = gần như KHÔNG ĐƯỢC DẠY ở VN
 ```
 
 ```
-NGUYÊN LÝ 5: IMAGINE-FINAL BEFORE CONTENT (Mechanism v2.0 §2.6)
+NGUYÊN LÝ 5: IMAGINE-FINAL BEFORE CONTENT (Mechanism v2.1 §2.6)
   "Student có thấy 'tại sao' trước 'cái gì'?"
 
   ĐÁNH GIÁ: ✗
@@ -407,9 +407,9 @@ NGUYÊN LÝ 5: IMAGINE-FINAL BEFORE CONTENT (Mechanism v2.0 §2.6)
     → Stakes CỰC CAO cho 1 kỳ thi → "học để thi" là rational response
 
   QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.0 §2.6: Imagine-Final = "body simulate future state"
+    → Mechanism v2.1 §2.6: Imagine-Final = "body simulate future state"
     → VN: Imagine-Final = "bố mẹ simulate CỦA HỌ → inject vào con"
-    → = Nguồn ④ External Inject (Mechanism v2.0 §3.1) dominate
+    → = Nguồn ④ External Inject (Mechanism v2.1 §3.1) dominate
       thay vì nguồn ① PFC tự xây
     → Imagine-Final-Evaluation.md: 4 góc quality
       → VN pattern: thường rơi vào "Mismatch" (Domain ✓ + Hardware ✗)
@@ -418,7 +418,7 @@ NGUYÊN LÝ 5: IMAGINE-FINAL BEFORE CONTENT (Mechanism v2.0 §2.6)
 ```
 
 ```
-NGUYÊN LÝ 6: FEEDBACK LOOP (Mechanism v2.0 §2.7)
+NGUYÊN LÝ 6: FEEDBACK LOOP (Mechanism v2.1 §2.7)
   "Arc có feedback liên tục hay set-and-forget?"
 
   ĐÁNH GIÁ: ✗ → △ (đang cải cách)
@@ -435,7 +435,7 @@ NGUYÊN LÝ 6: FEEDBACK LOOP (Mechanism v2.0 §2.7)
     → Hướng ĐÚNG: feedback liên tục thay vì 1 kỳ thi cuối
 
   QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.0 §2.7: "Arc quá dễ = boring / quá khó = overwhelm"
+    → Mechanism v2.1 §2.7: "Arc quá dễ = boring / quá khó = overwhelm"
     → Feedback loop = mechanism DETECT + ADJUST liên tục
     → VN: feedback loop BỊ CHẶN 2 CHIỀU:
       → GV → HS: chỉ correctness, không progress
@@ -445,7 +445,7 @@ NGUYÊN LÝ 6: FEEDBACK LOOP (Mechanism v2.0 §2.7)
 ```
 
 ```
-NGUYÊN LÝ 7: CONSOLIDATION = PHẦN CỦA EDUCATION (Mechanism v2.0 §2.8)
+NGUYÊN LÝ 7: CONSOLIDATION = PHẦN CỦA EDUCATION (Mechanism v2.1 §2.8)
   "Ngủ + nghỉ + spacing có được tôn trọng?"
 
   ĐÁNH GIÁ: ✗ (THIÊN QUÁ TẢI — sleep deprived, no spacing)
@@ -464,7 +464,7 @@ NGUYÊN LÝ 7: CONSOLIDATION = PHẦN CỦA EDUCATION (Mechanism v2.0 §2.8)
     🟢 HS lớp 9 TP.HCM: học thêm MỖI TỐI trừ Chủ nhật → xong 23h
 
   QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.0 §2.8: "Sleep consolidation: learning HAPPENS during sleep"
+    → Mechanism v2.1 §2.8: "Sleep consolidation: learning HAPPENS during sleep"
     → Homework NHIỀU → thiếu ngủ → consolidation BỊ CẮT
     → = "Học mà không nhớ" → cần học THÊM → thiếu ngủ THÊM → vòng xoáy
     → Spacing (5 lần × 5 ngày > 25 lần × 1 ngày) gần như KHÔNG ÁP DỤNG
@@ -479,7 +479,7 @@ NGUYÊN LÝ 7: CONSOLIDATION = PHẦN CỦA EDUCATION (Mechanism v2.0 §2.8)
 ```
 
 ```
-NGUYÊN LÝ 8: ASSESS DEPTH, NOT SURFACE (Mechanism v2.0 §2.9)
+NGUYÊN LÝ 8: ASSESS DEPTH, NOT SURFACE (Mechanism v2.1 §2.9)
   "Đánh giá chunk compilation depth hay chỉ correctness?"
 
   ĐÁNH GIÁ: ✗ → △ (đang cải cách)
@@ -490,7 +490,7 @@ NGUYÊN LÝ 8: ASSESS DEPTH, NOT SURFACE (Mechanism v2.0 §2.9)
     → "Thuộc bài" > "hiểu bài" → recall > explain
     → Bằng cấp = proxy cho năng lực → system reward surface
 
-  4 STAGES DEPTH (Mechanism v2.0 §2.9, mapped to chunk compilation):
+  4 STAGES DEPTH (Mechanism v2.1 §2.9, mapped to chunk compilation):
     ① RECOGNIZE → "nghe quen" (proto-chunk)       ← VN assess CHỦ YẾU ở đây
     ② EXPLAIN → "nói lại được" (compiled)          ← ít
     ③ APPLY → "dùng trong context mới" (compiled+linked) ← rất hiếm
@@ -547,7 +547,7 @@ TỔNG KẾT 8 NGUYÊN LÝ ARC DESIGN: 🟡
 ### §1.2 — BRIDGE + MOTIVATION
 
 ```
-4 NGUỒN FILL (Mechanism v2.0 §3.1, Anchor-Schema.md §3)
+4 NGUỒN FILL (Mechanism v2.1 §3.1, Anchor-Schema.md §3)
   "Anchor học tập được fill từ nguồn nào?"
 
   ĐÁNH GIÁ: ✗ (nguồn ④ External Inject dominant 12+ năm)
@@ -575,7 +575,7 @@ TỔNG KẾT 8 NGUYÊN LÝ ARC DESIGN: 🟡
        → Học thêm: +6h/tuần bridge NGOÀI trường
 
   QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.0 §3.4: Healthy trajectory = ④ giảm dần, ①②③ take over
+    → Mechanism v2.1 §3.4: Healthy trajectory = ④ giảm dần, ①②③ take over
     → VN: ④ TĂNG DẦN (lớp 1 → 12: bridge ESCALATING)
     → = NGƯỢC hoàn toàn healthy trajectory
     → Hardware-Subsidy (Entity-Valence-Dynamics.md v1.0 §5):
@@ -584,11 +584,11 @@ TỔNG KẾT 8 NGUYÊN LÝ ARC DESIGN: 🟡
       subsidy đi kèm threat → approach-tag bị ghi đè avoidance-tag
       = Money-Education v1.1 §6.1 pattern: guilt corrupts subsidy
     → Khi ra đời 18+ → nguồn ④ rút đột ngột → anchor crash
-    → = Quarter-life crisis mechanism (Mechanism v2.0 §3.4)
+    → = Quarter-life crisis mechanism (Mechanism v2.1 §3.4)
     → 60% trái ngành = evidence cho anchor crash + motivation collapse
 
 
-3 ORIGIN THREAT TAXONOMY (Mechanism v2.0 §3.3)
+3 ORIGIN THREAT TAXONOMY (Mechanism v2.1 §3.3)
   "Pressure từ đâu? Domain, Peer, hay Imposed?"
 
   ĐÁNH GIÁ: ✗ (Imposed dominant, Domain + Peer suppressed)
@@ -614,7 +614,7 @@ TỔNG KẾT 8 NGUYÊN LÝ ARC DESIGN: 🟡
        → = Imposed threat = nguồn cortisol LỚN NHẤT
 
   QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.0 §3.3: "Cùng cortisol level, khác ORIGIN → khác hoàn toàn"
+    → Mechanism v2.1 §3.3: "Cùng cortisol level, khác ORIGIN → khác hoàn toàn"
     → Domain moderate → resilience + competence
     → Peer moderate → social skill + emotional intelligence
     → Imposed moderate → anxiety + learned helplessness
@@ -626,10 +626,10 @@ TỔNG KẾT 8 NGUYÊN LÝ ARC DESIGN: 🟡
       = COMPOUND — teacher/parent cần distinguish 2 loại
       → address Direct-State TRƯỚC (ngủ, nghỉ) → rồi mới reframe Evaluative
     → = NGƯỢC hoàn toàn healthy pattern
-    → = Nghịch lý hiện đại (Mechanism v2.0 §3.3): ít domain challenge + nhiều imposed threat
+    → = Nghịch lý hiện đại (Mechanism v2.1 §3.3): ít domain challenge + nhiều imposed threat
 
 
-BRIDGE RÚT DẦN? (Mechanism v2.0 §3.1-§3.4)
+BRIDGE RÚT DẦN? (Mechanism v2.1 §3.1-§3.4)
   "Bridge có phase out hay permanent?"
 
   ĐÁNH GIÁ: ✗ (permanent + ESCALATING)
@@ -648,7 +648,7 @@ BRIDGE RÚT DẦN? (Mechanism v2.0 §3.1-§3.4)
 
   QUA FRAMEWORK LENS: 🟡
     → Bridge lý tưởng: NHỎ NHẤT có thể → đợi ①②③ take over → phase out
-    → VN: bridge = "thuốc quá liều" (Mechanism v2.0 §3.1)
+    → VN: bridge = "thuốc quá liều" (Mechanism v2.1 §3.1)
       → Kill intrinsic, tạo dependency
     → Bridge NGOÀI hệ thống (học thêm, gia đình) = KHÔNG ai quản lý
     → = Cả 2 lý do bridge fail: quá nhiều (overdose) + không rút (chronic)
@@ -657,7 +657,7 @@ BRIDGE RÚT DẦN? (Mechanism v2.0 §3.1-§3.4)
 ### §1.3 — SYSTEM-LEVEL
 
 ```
-FOUNDATION BREADTH (Mechanism v2.0 §1.2 + Domain-Knowledge-Map v2.0 §1)
+FOUNDATION BREADTH (Mechanism v2.1 §1.2 + Domain-Knowledge-Map v2.0 §1)
   "Foundation cover mấy domain trong 6 Foundation Domains?"
 
   ĐÁNH GIÁ: ○ / △ (MẠNH 2/6, YẾU 4/6)
@@ -675,7 +675,7 @@ FOUNDATION BREADTH (Mechanism v2.0 §1.2 + Domain-Knowledge-Map v2.0 §1)
   → Emotional regulation, creative thinking, meta-learning = gần không dạy
 
   QUA FRAMEWORK LENS: 🟡
-    → "Foundation" trong Mechanism v2.0 = RỘNG hơn "foundation" truyền thống
+    → "Foundation" trong Mechanism v2.1 = RỘNG hơn "foundation" truyền thống
     → VN mạnh foundation TRÍ TUỆ, nhưng foundation CẢM XÚC + META = yếu
     → ③ Social-Emotional = Connection-Education v1.0 scope
       (5 khía cạnh: hiểu + xây bond + chọn + duy trì + navigate groups)
@@ -684,7 +684,7 @@ FOUNDATION BREADTH (Mechanism v2.0 §1.2 + Domain-Knowledge-Map v2.0 §1)
     → Nhưng: chưa có method rõ ràng để dạy meta-cognitive explicitly
 
 
-PER-HARDWARE CALIBRATION (Mechanism v2.0 §2.3 + Hardware-Calibration.md v1.1)
+PER-HARDWARE CALIBRATION (Mechanism v2.1 §2.3 + Hardware-Calibration.md v1.1)
   "Có adjust per individual hay one-size-fits-all?"
 
   ĐÁNH GIÁ: ✗ (điểm YẾU rõ nhất)
@@ -697,7 +697,7 @@ PER-HARDWARE CALIBRATION (Mechanism v2.0 §2.3 + Hardware-Calibration.md v1.1)
     → Ethnic minority: 2x dropout, 5x late enrollment
 
   QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.0 §2.3: cùng content + khác hardware → khác cost
+    → Mechanism v2.1 §2.3: cùng content + khác hardware → khác cost
     → Hardware-Calibration.md v1.1: 6 dimensions observable per-individual
     → Entity-Compiled v1.0: GV = compiled entity (40→200h formation)
       VN 50 HS/lớp → entity formation time CHIA cho 50
@@ -711,7 +711,7 @@ PER-HARDWARE CALIBRATION (Mechanism v2.0 §2.3 + Hardware-Calibration.md v1.1)
     → = NL mấu chốt cho True-Fit, hiện gần như KHÔNG CÓ
 
 
-CÁ NHÂN × XÃ HỘI TENSION (Mechanism v2.0 §1.3)
+CÁ NHÂN × XÃ HỘI TENSION (Mechanism v2.1 §1.3)
   "Balance individual-society hay nghiêng 1 bên?"
 
   ĐÁNH GIÁ: ✗ (nghiêng XÃ HỘI)
@@ -723,16 +723,16 @@ CÁ NHÂN × XÃ HỘI TENSION (Mechanism v2.0 §1.3)
     → 60% SV trái ngành = chọn theo xã hội, không theo hardware
 
   QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.0 §1.3: tension = CẤU TRÚC, không giải được, chỉ BALANCE
+    → Mechanism v2.1 §1.3: tension = CẤU TRÚC, không giải được, chỉ BALANCE
     → VN: society CẦN >>> individual MUỐN
     → Forced-Fit rate cao → lãng phí talent + burnout + mental health
-    → Mechanism v2.0 §1.3 nhận diện 3 era patterns:
+    → Mechanism v2.1 §1.3 nhận diện 3 era patterns:
       → Pre-industrial: per-individual nhưng hạn chế access
       → Industrial: scalable nhưng one-size (← VN đang ở đây)
       → AI era: potential per-individual AT SCALE (← VN chưa tới)
 
 
-EDUCATION = ECOSYSTEM (Mechanism v2.0 §1.4 + §4)
+EDUCATION = ECOSYSTEM (Mechanism v2.1 §1.4 + §4)
   "Learning xảy ra ở đâu — chỉ school hay 4 kênh?"
 
   ĐÁNH GIÁ: ✗ → △
@@ -745,7 +745,7 @@ EDUCATION = ECOSYSTEM (Mechanism v2.0 §1.4 + §4)
       = digitize school format, không reimagine learning
 
   QUA FRAMEWORK LENS: 🟡
-    → Mechanism v2.0 §1.4: "Não KHÔNG biết đang ở trường — chỉ biết
+    → Mechanism v2.1 §1.4: "Não KHÔNG biết đang ở trường — chỉ biết
       có compile chunks không"
     → Education = 4 kênh (Education-System.md v3.0 §9):
       School + Family + Self-directed + AI
@@ -788,7 +788,7 @@ TỔNG KẾT TOÀN BỘ §1 — BẢNG ĐÁNH GIÁ: 🟡
   ┌──────────────────────────────────────┬──────────┬────────────┐
   │ Đánh giá                             │ Status   │ Xu hướng   │
   ├──────────────────────────────────────┼──────────┼────────────┤
-  │ ARC DESIGN (Mechanism v2.0 §2):           │          │            │
+  │ ARC DESIGN (Mechanism v2.1 §2):           │          │            │
   │  ① Direction > Level                │ ✗        │ ═          │
   │  ② Minimize cost per student         │ ✗        │ ↑ chậm     │
   │  ③ Prerequisite check               │ △        │ ═          │
@@ -798,12 +798,12 @@ TỔNG KẾT TOÀN BỘ §1 — BẢNG ĐÁNH GIÁ: 🟡
   │  ⑦ Consolidation                    │ ✗        │ ═          │
   │  ⑧ Depth assessment                 │ ✗ → △    │ ↑          │
   ├──────────────────────────────────────┼──────────┼────────────┤
-  │ BRIDGE + MOTIVATION (Mechanism v2.0 §3):  │          │            │
+  │ BRIDGE + MOTIVATION (Mechanism v2.1 §3):  │          │            │
   │  4 nguồn fill: ④ dominant           │ ✗        │ ═          │
   │  3 ORIGIN: Imposed dominant          │ ✗        │ ═          │
   │  Bridge phase-out                    │ ✗        │ ↑ nhẹ      │
   ├──────────────────────────────────────┼──────────┼────────────┤
-  │ SYSTEM-LEVEL (Mechanism v2.0 §1+§4+Domain-Knowledge-Map): │          │            │
+  │ SYSTEM-LEVEL (Mechanism v2.1 §1+§4+Domain-Knowledge-Map): │          │            │
   │  Foundation breadth                  │ ○ / △    │ ═          │
   │  Per-hardware calibration            │ ✗        │ ↑ chậm     │
   │  Individual × Society               │ ✗        │ ↑ chậm     │
@@ -1016,7 +1016,7 @@ WEAKNESS 2 [HIGH]: ONE-SIZE-FITS-ALL — KHÔNG PER-HARDWARE
 
   TẠI SAO HIGH:
     → Per-hardware = điều kiện cho True-Fit (Education-System.md v3.0 §7)
-    → Không per-hardware → cost formula (Mechanism v2.0 §2.3) = maximum mismatch
+    → Không per-hardware → cost formula (Mechanism v2.1 §2.3) = maximum mismatch
     → HS khác hardware + cùng method → labels sai ("giỏi/kém")
     → = Vòng tròn: budget ↓ → teacher ↓ → class size ↑ → quality ↓
 
@@ -1033,7 +1033,7 @@ WEAKNESS 3 [HIGH]: IMAGINE-FINAL SAI HƯỚNG + NARROW
     → Imagine-Final-Evaluation.md: VN pattern = "Mismatch" quadrant dominant
     → 12 năm học theo HƯỚNG SAI → waste at population scale
     → Không có process giúp HS self-build Imagine-Final
-      (navigate 4 góc quality — Mechanism v2.0 §2.6)
+      (navigate 4 góc quality — Mechanism v2.1 §2.6)
 
 
 WEAKNESS 4 [MEDIUM]: BRIDGE PERMANENT + ESCALATING
@@ -1044,7 +1044,7 @@ WEAKNESS 4 [MEDIUM]: BRIDGE PERMANENT + ESCALATING
     → GV cố tình dạy ít → bán content ở học thêm
 
   FRAMEWORK REFRAME: 🟡
-    → Bridge = "thuốc" (Mechanism v2.0 §3.1): đúng liều → chữa bệnh / quá liều → ngộ độc
+    → Bridge = "thuốc" (Mechanism v2.1 §3.1): đúng liều → chữa bệnh / quá liều → ngộ độc
     → VN: bridge = quá liều + không ngưng → "ngộ độc bridge"
     → 4 nguồn fill: nguồn ④ dominate 12+ năm → ①②③ suppressed
     → Rút bridge đột ngột (ra đời 18+) → anchor crash → quarter-life crisis
@@ -1061,7 +1061,7 @@ WEAKNESS 5 [MEDIUM]: SURFACE ASSESSMENT
     → Hướng ĐÚNG, cần thời gian + depth quality
 
   FRAMEWORK REFRAME: 🟡
-    → 4 stages depth (Mechanism v2.0 §2.9):
+    → 4 stages depth (Mechanism v2.1 §2.9):
       VN assess chủ yếu stage ① (recognize) → miss ②③④
     → Reward-Signal-Architecture v2.1: Evaluative reward chỉ fire khi depth THẬT SỰ compile
     → Multiple choice = KHÔNG trigger Evaluative → HS thiếu reward signal cho deep learning
@@ -1394,7 +1394,7 @@ GIỚI HẠN CỦA PHÂN TÍCH NÀY:
     → Risk: oversimplify, romanticize problems, miss context quan trọng
 
   ② FRAMEWORK AS LENS — NOT TRUTH:
-    → Education-Mechanism v2.0: 8 nguyên lý = DERIVED từ brain mechanism
+    → Education-Mechanism v2.1: 8 nguyên lý = DERIVED từ brain mechanism
     → Chưa validated as evaluation tool cho hệ thống giáo dục
     → Ví dụ: §2.2 (Direction > Level) → framework nói threat-path = xấu
       → Nhưng VN PISA scores CAO với threat-path → contradiction?
@@ -1485,17 +1485,17 @@ FILE NÀY KẾT NỐI VỚI:
       Gap-Body-Need.md v1.0 ⭐NEW — ENGINE/ROAD/VEHICLE §9
 
     TẦNG 2 — Research/Child-Development/:
-      Child-Development-Mechanism.md v2.0 — 4+1 compile, approach/avoidance
-      Natural-Development.md v2.1 — hardware at birth
-      Skill-Introduction.md v2.1 — 0-6 skill development
-      Mother-Optimization.md v2.1 — Hardware-Subsidy prenatal
+      Child-Development-Mechanism.md v2.2 — Compile Architecture, approach/avoidance
+      Natural-Development.md v2.2 — hardware at birth
+      Skill-Introduction.md v2.2 — 0-6 skill development
+      Mother-Optimization.md v2.2 — Hardware-Subsidy prenatal
 
     TẦNG 3 — Research/Human-Learning/ ("bộ 3"):
-      Education-Mechanism.md v2.0 ⭐ — HOW: 8 nguyên lý + 12 new concepts
+      Education-Mechanism.md v2.1 ⭐ — HOW: 8 nguyên lý + 12 new concepts
       Domain-Knowledge-Map.md v2.0 — WHAT: 3-tier taxonomy + new concept mapping
       Connection-Education.md v1.0 ⭐NEW — WHO: 5 khía cạnh social-emotional
       Money-Education.md v1.1 — observation: tiền × education
-      Compile-Type-Learning.md v1.2 — observation: compile types + quality
+      Compile-Type-Learning.md v1.3 — observation: compile types + quality
       Expansion-Saturation-Crisis.md v1.2 — observation: grad unemployment
 
     TẦNG 4 — Applications/Education-System/:
@@ -1514,7 +1514,7 @@ FILE NÀY KẾT NỐI VỚI:
 
   KEY TAKEAWAYS TO CARRY FORWARD:
 
-    → Mechanism v2.0 evaluation: 6/8 nguyên lý arc design = ✗ (violate)
+    → Mechanism v2.1 evaluation: 6/8 nguyên lý arc design = ✗ (violate)
     → v7.8 INSIGHT MỚI: direction SAI (không chỉ level cao)
       → 3 ORIGIN: Imposed dominant, Domain+Peer suppressed
       → 4 nguồn: ④ External dominant 12+ năm, ①②③ suppressed

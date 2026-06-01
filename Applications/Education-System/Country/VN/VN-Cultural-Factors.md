@@ -7,9 +7,9 @@
 > **Vị trí:** TẦNG 5 — Country/VN (File 2/3)
 > **Phụ thuộc:**
 >   TẦNG 5 VN:
->     VN-Education-Status.md v2.1 (File 1 — data + Mechanism v2.0 evaluation)
+>     VN-Education-Status.md v2.1 (File 1 — data + Mechanism v2.1 evaluation)
 >   EDUCATION-FOUNDATION (Tầng 3 "bộ 3"):
->     Education-Mechanism.md v2.0 (HOW — 8 nguyên lý + 12 new concepts),
+>     Education-Mechanism.md v2.1 (HOW — 8 nguyên lý + 12 new concepts),
 >     Domain-Knowledge-Map.md v2.0 (WHAT — 3-tier taxonomy),
 >     Connection-Education.md v1.0 (WHO — 5 khía cạnh social-emotional)
 >   EDUCATION-SYSTEM (Tầng 4):
@@ -59,7 +59,7 @@
 ```
 CÂU HỎI CỐT LÕI:
 
-  8 nguyên lý arc design (Education-Mechanism.md v2.0 §2) = UNIVERSAL
+  8 nguyên lý arc design (Education-Mechanism.md v2.1 §2) = UNIVERSAL
     → Brain mechanisms = GIỐNG NHAU mọi nơi
     → Direction > Level, prerequisite check, consolidation... = đúng mọi nước
     → = ENGINE giáo dục không đổi (Gap-Body-Need.md v1.0 §9: Hardware = ENGINE)
@@ -81,7 +81,7 @@ CÂU HỎI CỐT LÕI:
     → VN: Imposed threats CHỒNG CHẤT → risk = chronic avoidance-tagging
     → Cùng nguyên lý, khác problem → cần khác solution
 
-  VÍ DỤ (3 ORIGIN — Mechanism v2.0 §3.3):
+  VÍ DỤ (3 ORIGIN — Mechanism v2.1 §3.3):
     → Phần Lan: Domain + Peer exposure CAO, Imposed THẤP → healthy pattern
     → VN: Domain + Peer suppressed, Imposed DOMINANT → unhealthy pattern
     → = Cùng brain, khác cultural environment → khác threat distribution
@@ -271,10 +271,10 @@ NEGATIVE: 🟡
   → Imagine-Final = NARROW: "thi đỗ → bằng → việc → tiền"
     → Không = "tôi muốn trở thành gì? tôi phù hợp gì?"
   → Imagine-Final = EXTERNAL: từ gia đình + xã hội, không từ bản thân
-    → = Nguồn ④ External Inject (Mechanism v2.0 §3.1) — không phải nguồn ① PFC
+    → = Nguồn ④ External Inject (Mechanism v2.1 §3.1) — không phải nguồn ① PFC
     → 60% SV trái ngành = hướng SAI từ đầu
   → Sacrifice tạo GUILT: "bố mẹ vất vả → con PHẢI giỏi"
-    → = Imposed threat (3 ORIGIN Type 3 — Mechanism v2.0 §3.3)
+    → = Imposed threat (3 ORIGIN Type 3 — Mechanism v2.1 §3.3)
   → "Đổi đời" cho gia đình > phát triển bản thân → I×S nghiêng xã hội
 
   → MECHANISM LENS: Forced-Fit risk CAO khi Imagine-Final = gia đình gán
@@ -348,7 +348,7 @@ POSITIVE: 🟡
 NEGATIVE: 🟡
 
   → Suppress individual expression + creativity
-  → Career = family decision → Imagine-Final sai (Mechanism v2.0 §2.6)
+  → Career = family decision → Imagine-Final sai (Mechanism v2.1 §2.6)
   → HS không dám khác biệt → per-individual calibration khó (§2.3)
   → = "Ai khác biệt = có vấn đề" thay vì "ai khác biệt = hardware khác"
 
@@ -433,7 +433,7 @@ NEGATIVE: 🟡
       parent = MAX subsidy potential — "cha mẹ hi sinh" = MAX involvement
       NHƯNG: guilt-trip = subsidy channel CORRUPTED
       subsidy + threat → approach-tag ghi đè bởi avoidance-tag
-    → Anchor legacy (Mechanism v2.0 §3.5): education không chỉ install chunks
+    → Anchor legacy (Mechanism v2.1 §3.5): education không chỉ install chunks
       — còn install anchor "tôi là loại người GÌ"
     → Guilt-anchor = "tôi NỢ bố mẹ" → drive learning nhưng avoidance-tagged
     → 66% HS nói PH = stress chính → Imposed dominant confirmed
@@ -492,7 +492,7 @@ POSITIVE: 🟡
   → VN: cultural embedded → children develop this EARLY = STRENGTH nếu MODERATE
 
   → MECHANISM LENS:
-    → Delayed gratification = navigating "valley" giữa arc (Mechanism v2.0 §2.5)
+    → Delayed gratification = navigating "valley" giữa arc (Mechanism v2.1 §2.5)
     → Cultural training cho skill này = ADVANTAGE
     → VN children CÓ meta-skill "khó chịu = bình thường"
     → = Nếu ở mức MODERATE → accelerate learning
@@ -573,7 +573,7 @@ POSITIVE: 🟡
   → Credential = signal có giá trị khi chưa có cách khác đánh giá
 
   → MECHANISM LENS:
-    → Credential = PROXY bridge cho depth (Mechanism v2.0 §2.9)
+    → Credential = PROXY bridge cho depth (Mechanism v2.1 §2.9)
     → Khi CHƯA CÓ depth assessment → credential = best available
     → Vấn đề: credential = PROXY DUY NHẤT → replace actual depth
 
@@ -647,7 +647,7 @@ POSITIVE: 🟡
 
   → MECHANISM LENS:
     → Hierarchy = structure → useful bridge (nguồn ④) cho giai đoạn đầu
-    → NHƯNG: bridge CẦN rút dần (Mechanism v2.0 §3.1) → hierarchy không rút
+    → NHƯNG: bridge CẦN rút dần (Mechanism v2.1 §3.1) → hierarchy không rút
 
 
 NEGATIVE: 🟡
@@ -781,7 +781,7 @@ MỤC ĐÍCH:
 ```
 
 ```
-  (§refs = Education-Mechanism v2.0, trừ Found = Domain-Knowledge-Map v2.0 §1)
+  (§refs = Education-Mechanism v2.1, trừ Found = Domain-Knowledge-Map v2.0 §1)
   ┌───────────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐
   │ Factor    │ Dir │Found│Indiv│ImgF │Bridg│3ORI │Depth│ I×S │
   │           │§2.2 │ §1  │§2.3 │§2.6 │§3   │§3.3 │§2.9 │§1.3 │
@@ -808,7 +808,7 @@ MỤC ĐÍCH:
 
   Direction (§2.2): 4 factors CẢN, 2 MẠNH (④⑤)
     → VN culture NORMALIZE threat-path → avoidance-tagged learning
-    → = Mechanism v2.0 §2.2 violate ĐƯỢC VĂN HÓA SUPPORT
+    → = Mechanism v2.1 §2.2 violate ĐƯỢC VĂN HÓA SUPPORT
 
   Found (Foundation): 4 factors GIÚP (①②⑤⑦)
     → Discipline + drive + structure → foundation STRONG
@@ -907,7 +907,7 @@ LEVERAGE 1: TEACHER TRUST → TEACHER AS CALIBRATOR
   → Nếu GV shift từ "knowledge source" → "calibrator"
     (Education-System v3.0 §7):
     → HS TIN → accept observation + guidance
-    → Per-hardware calibration (Mechanism v2.0 §2.3) CÓ THỂ work ở VN
+    → Per-hardware calibration (Mechanism v2.1 §2.3) CÓ THỂ work ở VN
       NHƯNG cần GV BIẾT calibrate
   → Action: Teacher training → calibration skills
     → 1.25M GV sẵn sàng (97% hài lòng + 91% chọn nghề)
@@ -922,7 +922,7 @@ LEVERAGE 2: FAMILY INVOLVEMENT → REDIRECT, KHÔNG CẦN BUILD
   Cultural asset: Gia đình THAM GIA CỰC CAO
   VN: involvement ĐÃ CÓ → chỉ cần REDIRECT
 
-  → Redirect nguồn ④ External Inject (Mechanism v2.0 §3.1):
+  → Redirect nguồn ④ External Inject (Mechanism v2.1 §3.1):
     → Từ: "ép con học" (Imposed threat) → "thiết kế environment" (safe base)
     → Từ: "chọn ngành cho con" (inject Imagine-Final)
       → "giúp con khám phá hardware" (support nguồn ① self-build)
@@ -953,13 +953,13 @@ LEVERAGE 3: "ĐỔI ĐỜI" DRIVE → MỞ RỘNG IMAGINE-FINAL
 LEVERAGE 4: DELAYED GRATIFICATION → REDIRECT APPLICATION
 
   Cultural asset: VN children develop delayed gratification SỚM
-  = Valley navigation skill (Mechanism v2.0 §2.5) — VN có sẵn!
+  = Valley navigation skill (Mechanism v2.1 §2.5) — VN có sẵn!
   Problem: áp dụng QUÁ ĐÁNG (chronic, không balance)
 
   → Giữ SKILL (navigate valley), đổi APPLICATION:
     → Từ: "chịu khổ 12 năm → ĐH" (chronic threat-path)
     → Tới: "chịu khó ĐÚNG LIỀU → deep learning" (approach-path with grit)
-  → Reframe qua Mechanism v2.0 §2.8: "nghỉ ngơi = PHẦN CỦA HỌC"
+  → Reframe qua Mechanism v2.1 §2.8: "nghỉ ngơi = PHẦN CỦA HỌC"
     → Discipline = do the RIGHT THING ở right TIME
     → Overwork = do MORE of whatever → diminishing returns + damage
 
@@ -973,9 +973,9 @@ LEVERAGE 5: COLLECTIVISM → PEER LEARNING + COMMUNITY
   Problem: collectivism = "mọi người giống nhau"
 
   → Redirect: "mỗi người KHÁC + ĐÓNG GÓP KHÁC cho nhóm"
-  → Qua Mechanism v2.0 §2.3: mỗi HS đóng góp TỪ HARDWARE CỦA MÌNH
+  → Qua Mechanism v2.1 §2.3: mỗi HS đóng góp TỪ HARDWARE CỦA MÌNH
   → Community = ecosystem channel (Education-System v3.0 §9)
-  → Balance I×S (Mechanism v2.0 §1.3): "tôi đóng góp cho nhóm BẰNG THẾ MẠNH CỦA TÔI"
+  → Balance I×S (Mechanism v2.1 §1.3): "tôi đóng góp cho nhóm BẰNG THẾ MẠNH CỦA TÔI"
   → 3 ORIGIN: peer learning = increase healthy Peer exposure (Type 2)
 
   → Priority: ★★★☆☆
@@ -1103,7 +1103,7 @@ GIỚI HẠN CỦA PHÂN TÍCH NÀY:
     → ĐỌC LẠI §3 (Leverage Points) để balance negative impression
 
   ⑤ FRAMEWORK ≠ COMPLETE LENS:
-    → Education-Mechanism v2.0 focus on brain mechanism → education-centric
+    → Education-Mechanism v2.1 focus on brain mechanism → education-centric
     → Văn hóa ảnh hưởng NHIỀU hơn education: identity, belonging, spirituality
     → File này CHỈ phân tích culture × education → hẹp hơn reality
 
@@ -1169,7 +1169,7 @@ FILE NÀY KẾT NỐI VỚI:
   ← INPUT (đã dùng):
 
     TẦNG 3 — Research/Human-Learning/ ("bộ 3"):
-      Education-Mechanism.md v2.0 ⭐ — HOW: 8 nguyên lý + 12 new concepts (LENS §1)
+      Education-Mechanism.md v2.1 ⭐ — HOW: 8 nguyên lý + 12 new concepts (LENS §1)
       Domain-Knowledge-Map.md v2.0 — WHAT: 6 Foundation Domains (§1.3 breadth)
       Connection-Education.md v1.0 ⭐NEW — WHO: 5 khía cạnh (§1 Factor 3)
 
@@ -1178,7 +1178,7 @@ FILE NÀY KẾT NỐI VỚI:
       Hardware-Calibration.md v1.1 — per-individual calibration lens
 
     TẦNG 5 — VN/:
-      VN-Education-Status.md v2.1 §1 — Mechanism v2.0 evaluation → mapped to culture
+      VN-Education-Status.md v2.1 §1 — Mechanism v2.1 evaluation → mapped to culture
 
     Core refs:
       Cortisol-Baseline.md v2.1 — amplifier reframe (§3.3 3 ORIGIN)

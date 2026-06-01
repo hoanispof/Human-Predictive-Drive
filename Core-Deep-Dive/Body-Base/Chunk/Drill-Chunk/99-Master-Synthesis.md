@@ -61,8 +61,8 @@ language: Tiếng Việt primary + English technical
   NT1 → Compile-Gradient          (Chunk.md §1.1 + §2)
   NT2 → Compile-Rate-Formula      (Chunk.md §2.1 + §2.2)
   NT3 → Emergent-Binding          (Chunk.md §1.2)
-  NT4 → PFC-From-Prenatal         (Chunk.md §8.2)
-  NT5 → Receptive-Productive-Gap  (Chunk.md §11.3, = H11)
+  NT4 → PFC-From-Prenatal         (Chunk.md §8.1)
+  NT5 → Receptive-Productive-Gap  (Chunk.md §9.3, = H11)
   NT6 → Label-As-Handle           (Chunk.md §6)
   NT7 → Direction-At-Compile      (Chunk.md §2.4)
 ```

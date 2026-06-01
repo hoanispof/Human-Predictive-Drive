@@ -325,7 +325,7 @@ V2.0 REFRAME:
   "ACTIVE" (PFC đang hold):
     → PFC hold anchor chunks → BIAS spreading activation hướng cụ thể
     → Observation: "đang nghĩ về", "đang tập trung vào"
-    → Mechanism: PFC working memory hold + chunk bias (Chunk.md §8, §9)
+    → Mechanism: PFC working memory hold + chunk bias (Chunk.md §8)
     → VD: PFC hold [game design] → activation spread trong game-related chunks
 
   "MONITOR" (nền, luôn chạy nhẹ):

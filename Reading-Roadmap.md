@@ -6,8 +6,8 @@ status: v1.0
 scope: |
   Tiến trình đọc cho người muốn hiểu TOÀN DIỆN framework.
   Foundation → Individual Mechanisms → Entity System → Observable Patterns → Collective → Domain.
-  Core path: 55 files, ~85,700 dòng.
-  + Enrichment: 20 files, ~30,700 dòng.
+  Core path: 55 files, ~86,200 dòng.
+  + Enrichment: 21 files, ~32,000 dòng.
   + Reference: 22 files, ~17,200 dòng.
 purpose: |
   README.md + Ask-AI.md §0.1 cho SETUP TỐI THIỂU (8 files).
@@ -44,11 +44,11 @@ language: Tiếng Việt primary + English technical terms
 | Tier | Theme | Files | Lines | Cộng dồn | Sau tier này, bạn hiểu... |
 |------|-------|-------|-------|----------|--------------------------|
 | 0 | Foundation | 8 | ~11,700 | ~11,700 | Core architecture — đủ để dùng AI |
-| 1 | Mechanism | 14 | ~22,900 | ~34,600 | HOW từng component hoạt động |
-| 2 | Entity | 8 | ~12,600 | ~47,200 | HOW não model entities và xây quan hệ |
-| 3 | Observation | 13 | ~23,300 | ~70,500 | WHAT patterns hành vi quan sát được |
-| 4 | Collective | 6 | ~7,800 | ~78,300 | HOW nhóm emerge và function |
-| 5 | Domain | 6 | ~7,400 | ~85,700 | WHAT thực tế bên ngoài human |
+| 1 | Mechanism | 14 | ~23,400 | ~35,100 | HOW từng component hoạt động |
+| 2 | Entity | 8 | ~12,600 | ~47,700 | HOW não model entities và xây quan hệ |
+| 3 | Observation | 13 | ~23,300 | ~71,000 | WHAT patterns hành vi quan sát được |
+| 4 | Collective | 6 | ~7,800 | ~78,800 | HOW nhóm emerge và function |
+| 5 | Domain | 6 | ~7,400 | ~86,200 | WHAT thực tế bên ngoài human |
 
 ```
 PILLAR 1: CÁ NHÂN
@@ -101,7 +101,7 @@ PILLAR 3: DOMAIN                                  Tier 5 (Domain)
 
 | # | Path | Lines | Vai trò |
 |---|------|-------|---------|
-| 3 | Body-Base/Chunk/Compile-Taxonomy.md | 1,173 | 3 Compile Types (Experience/Expertise/Trust), 4 Pathways |
+| 3 | Body-Base/Chunk/Compile-Taxonomy.md | 1,634 | v3.0: 1 Engine + Modulator Configurations, Trust=Amplifier |
 | 4 | Body-Base/Chunk/Background-Pattern.md | 2,521 | Invisible bias: 2D model (Depth × Density), Triple Bias |
 
 ### 1C — Body-Feedback Deep-Dive
@@ -141,6 +141,7 @@ PILLAR 3: DOMAIN                                  Tier 5 (Domain)
 | Body-Feedback/Reward-Calibration.md | 1,356 | Goldilocks per-gap, 6 cơ chế over-reward |
 | Body-Feedback/Action-Space.md | 1,729 | Supply-side capability, Behavior = f(GDP × AS) |
 | Body-Feedback/Hidden-Quality-Perception.md | 1,738 | "Mặt lưng cái tủ" — quality invisible |
+| Body-Base/Chunk/Compile-Sleep.md | 1,317 | Sleep = offline maintenance (6 mechanisms) |
 | Body-Base/Why-Body-Knows.md | 1,305 | Meta: tại sao body-check đáng tin? |
 | Body-Base/Schema/Anchor-Schema.md | 1,880 | Sync point, 4 nguồn fill anchor |
 | PFC/PFC-Hardware.md | 1,004 | 4 receptor systems (COMT/DRD4) |
@@ -350,10 +351,10 @@ Disgust (rejection threshold), Mastery (sustained domain accumulation), Passion 
 
 | | Files | Lines |
 |---|---|---|
-| **Core path** (Tier 0-5) | 55 | ~85,700 |
-| + Enrichment (1-3) | +20 | +30,700 |
+| **Core path** (Tier 0-5) | 55 | ~86,200 |
+| + Enrichment (1-3) | +21 | +32,000 |
 | + Reference | +22 | +17,200 |
-| **Toàn bộ** | ~97 | ~133,600 |
+| **Toàn bộ** | ~98 | ~135,400 |
 
 > **Không cần đọc 97 files.** Tier 0 (8 files) đã đủ cho hầu hết câu hỏi.
 > Mỗi Tier thêm = 1 mức hiểu sâu hơn. Chọn điểm dừng phù hợp.

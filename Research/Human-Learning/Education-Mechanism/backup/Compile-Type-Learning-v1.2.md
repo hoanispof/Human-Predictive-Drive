@@ -22,18 +22,15 @@
 ```yaml
 ---
 title: Compile-Type-Learning — Compile Types Ảnh Hưởng Learning Thế Nào
-version: 1.3
+version: 1.2
 created: 2026-05-11
-updated: 2026-06-01 (v1.3 — Compile Architecture refine: +Modulator Configuration framing,
-  +Multi-Stream × Pi example, +Multi-Stream per-domain, +Sleep × Compile Type,
-  +Trust = Amplifier (NOT Gate), deps Education-Mechanism v2.0→v2.1, Child-Dev v2.0→v2.2, +CS v1.0)
-previous: v1.2 (2026-05-25, 1,235L)
-status: RESEARCH ANALYSIS v1.3
+updated: 2026-05-25 (v1.2 — LIGHT REFINE: +Compiled Quality Dimension, +Social domain,
+  +Dissonance-Signal-Architecture vocabulary, +Hardware-Subsidy, +PFC Budget, cross-refs v2.0)
+previous: v1.1 (2026-05-12 — §0.1 Evolutionary Context + §4.5 Screen/Digital)
+status: RESEARCH ANALYSIS v1.2
 scope: |
   Compile type MIX trong learning → chunk QUALITY khác nhau → transfer + wellbeing.
   Trust Compile = bootstrap, Experience Compile = verify, Expertise Compile = mastery.
-  v1.3: +Modulator Configuration framing (1E+3M), +Multi-Stream × Pi example,
-  +Multi-Stream per-domain, +Sleep × Compile Type, +Trust = Amplifier (NOT Gate).
   v1.2: +Compiled Quality Dimension (genuine/schema/threat → compile-time lock),
   +Social domain analysis, +Dissonance-Signal-Architecture vocabulary (§5 body-check precision),
   +Hardware-Subsidy (teacher as transition subsidy), +PFC Budget constraint.
@@ -44,13 +41,12 @@ position: |
   File này = deep-dive vào 1 mechanism: COMPILE TYPE influence on chunk quality.
 dependencies:
   compile-mechanism:
-    - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, Multi-Stream, Trust = Amplifier
-    - Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms, exposure vs optimization)
+    - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 4 pathways, 6 trade-offs
     - Chunk.md v2.3 — 4 compile mechanisms, trust amplifier
     - Collective-Body.md v2.1 — trust = only bridge, Model 3 cấp
     - PFC-Operations.md v1.1 — §5 Compiled Quality Dimension (genuine/schema/threat)
   education-bo-3:
-    - Education-Mechanism.md v2.1 — arc design, Hardware-Subsidy, PFC Budget, Multi-Stream
+    - Education-Mechanism.md v2.0 — arc design, Hardware-Subsidy, PFC Budget
     - Domain-Knowledge-Map.md v2.0 — domain taxonomy per era
     - Connection-Education.md v1.0 — social interaction education (WHO)
   valence-body:
@@ -59,9 +55,9 @@ dependencies:
     - Body-Feedback-Label.md v2.1 — 3-tier label, prediction-delta vocabulary
     - Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State distinction
   child-dev:
-    - Natural-Development.md v2.2 — §6.4 screen time, VTA habituation
-    - Child-Development-Mechanism.md v2.2 — §2 Compile Architecture, §2.6 Multi-Stream
-    - Skill-Introduction.md v2.2 — person vs screen examples
+    - Natural-Development.md v2.1 — §6.4 screen time, VTA habituation
+    - Child-Development-Mechanism.md v2.0 — §2 compile parameters
+    - Skill-Introduction.md v2.1 — person vs screen examples
   agent-entity:
     - Social-Calibration.md v1.0 — 7 functions, 4 stages
     - Entity-Compiled.md v1.0 — formation 40→200h, Hub-and-Spoke
@@ -193,13 +189,6 @@ language: Tiếng Việt primary + English technical terms
 ```
 🟢🟡 EXPERIENCE COMPILE = BODY EXPERIENCE → BODY COMPILE:
 
-  v1.3 MODULATOR CONFIGURATION (Compile-Taxonomy v3.0 §4.1):
-    Compile Engine (Hebbian): ✅ Full — direct exposure → Hebbian → compile
-    Entity-Valence Bias: Minimal — body tự verify, trust optional
-    Exposure Channel: External dominant — body-input from reality
-    PFC Modulation: Minimal — body direct, PFC không cần
-    = "Engine thuần" — modulators ở mức background.
-
   VÍ DỤ TRONG EDUCATION:
     → Học bơi: nhảy xuống nước → body compile motor patterns
     → Học nấu ăn: nếm → cắt → nấu → body compile taste + motor + timing
@@ -219,13 +208,6 @@ language: Tiếng Việt primary + English technical terms
 
 ```
 🟢🟡 EXPERTISE COMPILE = PFC-DIRECTED BODY COMPILE QUA NHIỀU NĂM:
-
-  v1.3 MODULATOR CONFIGURATION (Compile-Taxonomy v3.0 §4.3):
-    Compile Engine (Hebbian): ✅ Full — cùng engine
-    Entity-Valence Bias: Low — self-verify via domain feedback
-    Exposure Channel: External + Deliberate balanced — practice + imagination
-    PFC Modulation: ⭐ DOMINANT — PFC sustained hold × years
-    = "Engine + manual turbo from PFC (costly, slow)."
 
   VÍ DỤ TRONG EDUCATION:
     → Nghiên cứu sinh: years trong 1 domain → compiled meta-chunks
@@ -247,22 +229,6 @@ language: Tiếng Việt primary + English technical terms
 
 ```
 🟡 TRUST COMPILE = TRUST SOURCE → COMPILE SHORT:
-
-  v1.3 MODULATOR CONFIGURATION (Compile-Taxonomy v3.0 §4.2):
-    Compile Engine (Hebbian): ✅ Full — cùng engine
-    Entity-Valence Bias: ⭐ DOMINANT — trust = multiplier amplify VALUE
-    Exposure Channel: External từ trusted source
-    PFC Modulation: Low — chọn trust ai + post-hoc confabulation
-    = "Engine + auto-turbo from Entity-Valence."
-
-  ⭐ v1.3 TRUST = AMPLIFIER, NOT GATE (Compile-Taxonomy v3.0 §3):
-    OLD: Trust = gate (binary: có → compile, không → không compile)
-    NEW: Trust = amplifier (gradient Mức 0-5 — Entity-Access v1.2)
-    → Trust CAO: VALUE stream compile nhanh, mạnh
-    → Trust THẤP: VALUE stream compile chậm hoặc không
-    → Trust = 0: VALUE stream KHÔNG compile — nhưng CONTENT VẪN compile
-    → = Trust amplify VALUE, KHÔNG amplify CONTENT
-    → = "Giỏi nhưng ghét" = Content ✓ (Experience/Engine alone) + Value ✗ (Trust ≈ 0)
 
   VÍ DỤ TRONG EDUCATION:
     → "Pi = 3.14" → trust thầy cô → compile [pi → tính diện tích]
@@ -338,39 +304,6 @@ language: Tiếng Việt primary + English technical terms
     → Body reaction: "Ồ! Đúng thật!" → emotional peak → Experience Compile compile
     → Chunk: upgraded — logic + direct experience + surprise emotion
     → = Trust Compile → verified by Experience Compile = STRONGEST
-
-
-  ⭐ v1.3 MULTI-STREAM × PI EXAMPLE (Compile-Taxonomy v3.0 §5):
-
-    4 compile streams chạy ĐỒNG THỜI — mỗi case KHÁC stream results:
-
-    ARCHIMEDES (Experience/Expertise Compile):
-      ① Content: pi = 3.14159... ✓ (multi-modal, deep)
-      ② Value: [geometry → fascinating] ✓ (approach — tự tìm, tự phát hiện)
-      ③ Entity: [tôi = người khám phá] ✓ (agency, self-efficacy)
-      ④ Behavior: [đo, vẽ, tính] ✓ (motor compiled, auto)
-      → ALL 4 STREAMS APPROACH-TAGGED
-
-    HỌC SINH ROTE (Trust Compile only, threat-compiled):
-      ① Content: pi = 3.14 ✓ (single-channel, thin — nhưng đúng)
-      ② Value: [toán → bắt buộc, điểm] ✗ (neutral → avoidance)
-      ③ Entity: [thầy = authority] → trust but no warmth
-      ④ Behavior: [ngồi, ghi, tính] → avoidance motor pattern
-      → Content ✓, Value ✗, Entity flat, Behavior avoidance
-
-    HỌC SINH TÒ MÒ (Trust → Experience transition):
-      ① Content: pi = 3.14... ✓ (multi-modal — trust + verify)
-      ② Value: [toán → hay, đúng thật!] ✓ (approach — surprise + confirm)
-      ③ Entity: [thầy → người giúp tôi khám phá] ✓ (positive)
-      ④ Behavior: [đo, kiểm tra, hỏi thêm] ✓ (approach motor)
-      → ALL 4 STREAMS APPROACH-TAGGED (giống Archimedes quality)
-
-    → CHÍNH XÁC HOÁ: "chunk quality" = ĐO BẰNG 4-stream result
-    → CẢ 3 "biết" pi. KHÁC: stream nào approach, stream nào avoidance.
-    → Education TỐT = optimize CẢ 4 streams, không chỉ Content stream.
-
-    🟡 Multi-Stream per case: Compile-Taxonomy v3.0 §5
-    🟡 4-stream education analysis: framework application
 ```
 
 ---
@@ -695,15 +628,6 @@ language: Tiếng Việt primary + English technical terms
     → = Liên quan: "inert knowledge" — biết solve, không biết MEAN gì
 
   OPTIMAL: Trust Compile install rules → Experience Compile visualize → Expertise Compile
-
-  v1.3 MULTI-STREAM × TOÁN:
-    Toán ~60% Trust Compile:
-      Content stream: Trust Compile ĐỦ cho rules, formulas → compile ✓
-      Value stream: CẦN Experience Compile để compile approach
-        → Nếu chỉ Trust → value = neutral/avoidance ("toán = bắt buộc")
-        → Nếu có verify (tự đo, tự tìm) → value = approach ("toán = hay!")
-    → Content stream OK qua Trust, Value stream CẦN Experience verify
-    → = Giải thích tại sao nhiều người "giỏi toán nhưng không thích toán"
 ```
 
 ### §4.2 Ngôn ngữ
@@ -792,16 +716,6 @@ language: Tiếng Việt primary + English technical terms
     → Toán: 60% Trust Compile, 40% Experience Compile (approximate)
     → Social skills: 70% Experience Compile, 30% Trust Compile
     → Mỗi domain = mix khác nhau. Không ai 100% Trust Compile đủ.
-
-  v1.3 MULTI-STREAM × THỂ THAO:
-    Sport ~99% Experience Compile:
-      Content stream: motor patterns → compile qua body trực tiếp ✓
-      Value stream: body-reward trực tiếp (endorphin, flow) → approach ✓
-      Entity stream: teammate/coach → compile qua interaction ✓
-      Behavior stream: motor habit → compile bắt buộc qua repetition ✓
-    → CẢ 4 streams compile qua Experience → INTEGRATED
-    → = Tại sao sport = domain có approach rate CAO NHẤT
-    → = CẢ 4 streams tự nhiên align → không mismatch
 ```
 
 ### §4.5 Social / Relationship — Experience Compile DOMINANT
@@ -858,16 +772,6 @@ language: Tiếng Việt primary + English technical terms
     → Không có contingency: hành động của trẻ KHÔNG ảnh hưởng nội dung
     → 2 kênh (visual + auditory) vs 6+ kênh khi chơi thật
     → = Trust Compile KHÔNG ĐẦY ĐỦ — thiếu trust amplifier, thiếu multi-modal
-
-  v1.3 MULTI-STREAM × SCREEN:
-    Content stream: PARTIAL — visual + auditory = 2 kênh → compile mỏng
-    Value stream: GẦN ZERO — không có trust amplifier, không contingency
-      → Không entity → Value stream KHÔNG được amplify
-    Entity stream: GẦN ZERO — screen = Mức 0 (Tool, Entity-Access v1.2)
-      → Không Entity-Compiled, không trust propagation
-    Behavior stream: THỤ ĐỘNG — ngồi xem, không hành động
-      → Motor pattern compile ≈ 0 (ngoại trừ scrolling/tapping)
-    → 3/4 streams gần zero → "chunks treo lơ lửng" (content only, no anchor)
 
   🟢 Child-Development-Mechanism.md §2 — 3 parameters screen THUA:
 
@@ -1042,26 +946,6 @@ language: Tiếng Việt primary + English technical terms
     Body-check = ② Repetition + ③ Multi-modal (thêm body-observation channel)
                  + có thể ④ Emotional peak (khi "aha!" xảy ra)
     → = NHIỀU compile mechanisms active hơn → compile SÂU hơn
-
-
-  v1.3 MULTI-STREAM × LẶP (Compile-Taxonomy v3.0 §5):
-
-    LẶP MÁY MÓC → STREAM EFFECT:
-      Content stream: STRENGTHEN (lặp = thêm Hebbian) ✓
-      Value stream: UNCHANGED (không có body evaluation) ✗
-      Entity stream: UNCHANGED (không có entity interaction) ✗
-      Behavior stream: STRENGTHEN (motor habit = faster) ✓ nhưng CÙNG direction
-      → 2/4 streams update, 2/4 streams unchanged
-
-    LẶP CÓ BODY-CHECK → STREAM EFFECT:
-      Content stream: STRENGTHEN + DEEPEN (link new) ✓✓
-      Value stream: UPDATE — body confirm/reject → approach hoặc avoidance ✓
-      Entity stream: có thể UPDATE (nếu body-check involve entity) ✓
-      Behavior stream: ADJUST — motor pattern thay đổi theo feedback ✓✓
-      → ALL 4 streams update → chunk CHUYỂN LOẠI
-
-    → Body-check = "4-stream update" vs Mechanical = "2-stream strengthen"
-    → = Tại sao body-check CHUYỂN loại mà mechanical chỉ TĂNG cường
 ```
 
 ### §5.2 Chinese Learner Paradox = Verified Repetition
@@ -1156,7 +1040,7 @@ language: Tiếng Việt primary + English technical terms
 
   ⑥ HARDWARE-SUBSIDY = TRANSITION SUBSIDY CHO TRUST → EXPERIENCE COMPILE
     → Teacher = Hardware-Subsidy MODERATE: modulate VTA habituation per student
-      (Valence-Propagation.md v3.0 §7, Education-Mechanism.md v2.1 §2.3)
+      (Valence-Propagation.md v3.0 §7, Education-Mechanism.md v2.0 §2.3)
     → Parent = Hardware-Subsidy MAX: anti-habituation MẠNH nhất
     → AI = Hardware-Subsidy NONE: KHÔNG có biological subsidy
     → Trust Compile → Experience Compile transition CẦN subsidy:
@@ -1172,18 +1056,6 @@ language: Tiếng Việt primary + English technical terms
       = Focus 1 domain per body-check session > scatter nhiều domain
     → Mechanical repetition = PFC off → KHÔNG tốn budget (nhưng KHÔNG upgrade)
     → = Trade-off: body-check = chất lượng CAO + chi phí CAO
-
-  ⑧ v1.3 SLEEP × COMPILE TYPE (Compile-Sleep.md v1.0):
-    → 6 sleep mechanisms ảnh hưởng KHÁC per compile type:
-    → Experience Compile: nhiều Replay + Gist Extraction
-      (multi-modal data = nhiều patterns để replay + abstract)
-    → Trust Compile: nhiều Active Consolidation (RAM→ROM transfer)
-      (single-channel install = cần transfer hippocampus → cortex)
-    → Expertise Compile: nhiều Creative Linking (REM novel combinations)
-      (years compiled patterns = nhiều material cho cross-domain connect)
-    → = Sleep consolidate CẢ 3 types — nhưng LEVERAGE khác nhau
-    → = Học Experience Compile ban ngày → ngủ đủ → replay multi-modal = deepest compile
-    → = Homework Trust Compile tối → thiếu ngủ → miss Replay + Creative Linking
 ```
 
 ### §6.2 Framework predict: OPTIMAL LEARNING FLOW
@@ -1287,13 +1159,12 @@ language: Tiếng Việt primary + English technical terms
 
 ```
 BỘ 3 EDUCATION:
-  Education-Mechanism.md v2.1         — HOW: arc design, Multi-Stream, Critical Asymmetry, Sleep Maintenance
+  Education-Mechanism.md v2.0         — HOW: arc design, Hardware-Subsidy, PFC Budget
   Domain-Knowledge-Map.md v2.0        — WHAT: domain taxonomy per era
   Connection-Education.md v1.0        — WHO: social interaction education (§4.5 Social domain)
 
 COMPILE MECHANISM:
-  Compile-Taxonomy.md v3.0            — 1 Engine + 3 Modulators, Multi-Stream, Trust = Amplifier
-  Compile-Sleep.md v1.0               — Sleep Maintenance (6 mechanisms) ⭐NEW v1.3
+  Compile-Taxonomy.md v3.0            — 1 Engine + 3 Modulators, 4 pathways, 6 trade-offs
   Chunk.md v2.3                       — 4 compile mechanisms, trust amplifier
   Collective-Body.md v2.1             — trust = only bridge, Model 3 cấp
   PFC-Operations.md v1.1              — §5 Compiled Quality Dimension (genuine/schema/threat)
@@ -1310,9 +1181,9 @@ AGENT + ENTITY:
   Social-Calibration.md v1.0          — 7 functions, 4 stages (§4.5 social domain)
 
 CHILD DEVELOPMENT:
-  Natural-Development.md v2.2         — §6.4 screen time, VTA habituation, snack vs bữa chính
-  Child-Development-Mechanism.md v2.2 — §2 Compile Architecture, §2.6 Multi-Stream
-  Skill-Introduction.md v2.2          — person vs screen learning examples
+  Natural-Development.md v2.1         — §6.4 screen time, VTA habituation, snack vs bữa chính
+  Child-Development-Mechanism.md v2.0 — §2 compile parameters (contingency, multi-modal, saliency)
+  Skill-Introduction.md v2.1          — person vs screen learning examples
 
 EDUCATION OBSERVATION:
   Education-Arms-Race.md v1.2         — competition spiral
@@ -1343,53 +1214,21 @@ KEY RESEARCH CITATIONS:
 
 ---
 
-> *Compile-Type-Learning v1.3 — "3 compile types = 3 dominant modulator configurations
-> (1 Engine + 3 Modulators), tạo 3 loại chunk quality khác nhau trong learning.
-> Trust Compile (Entity-Valence dominant) = nhanh, rộng, amplify VALUE (NOT content).
-> Experience Compile (Engine thuần) = chậm, hẹp, nhưng robust, domain-linked.
-> Optimal = Trust Compile bootstrap → Experience Compile verify.
-> v1.3: +Modulator Configuration framing (1E+3M per type).
-> +Multi-Stream × Pi (4-stream result per case: Content/Value/Entity/Behavior).
-> +Multi-Stream per-domain (Toán: Content OK Trust, Value CẦN Experience.
->   Sport: cả 4 streams qua Experience. Screen: 3/4 streams gần zero).
-> +Trust = Amplifier NOT Gate (gradient, VALUE only, NOT content).
-> +Sleep × Compile Type (Experience → Replay+Gist, Trust → Consolidation, Expertise → Creative Linking).
-> +Body-check = 4-stream update vs mechanical = 2-stream strengthen.
+> *Compile-Type-Learning v1.2 — "3 compile types tạo 3 loại chunk quality khác nhau
+> trong learning. Trust Compile (install) = nhanh, rộng, nhưng context-bound,
+> confabulation risk cao. Experience Compile (direct) = chậm, hẹp, nhưng robust,
+> domain-linked, transfer tốt. Optimal = Trust Compile bootstrap → Experience Compile verify.
+> Repetition ≠ repetition: mechanical (strengthen same type) vs body-check
+> (transition Trust→Experience). Finland balanced (Experience+Trust) → wellbeing + performance.
+> East Asian cramming (Trust dominant) → performance + low wellbeing.
+> Play = Experience Compile infrastructure. Giáo dục thiếu Phase 2 (verify)
+> = transfer failure phổ biến nhất.
+> v1.1: §0.1 Evolutionary context + §4.5 Screen/Digital analysis.
+> v1.2: +Compiled Quality Dimension (genuine/schema/threat — §1.3).
+> +Social domain analysis (§4.5 — Experience Compile dominant, Entity-Compiled formation).
+> +Dissonance-Signal-Architecture vocabulary (§5.1 — Evaluative/Direct-State in body-check).
+> +Body-Feedback-Label 3-tier precision (§5.1 — approach/prediction-delta/specific).
+> +Hardware-Subsidy (§6.1 ⑥ — teacher as transition subsidy).
+> +PFC Budget constraint (§6.1 ⑦ — body-check = high PFC cost).
 > Thuộc bộ 3 education: Education-Mechanism (HOW) + Domain-Knowledge-Map (WHAT)
 > + Connection-Education (WHO)."*
-
----
-
-## CHANGELOG
-
-```
-v1.3 (2026-06-01) — Compile Architecture Refine:
-  MODULATOR CONFIGURATION (§1.1-§1.3):
-    Experience = Engine + minimal modulators. Trust = Engine + Entity-Valence dominant.
-    Expertise = Engine + PFC dominant. Framing từ Compile-Taxonomy v3.0 §4.
-  TRUST = AMPLIFIER (§1.3):
-    Trust amplify VALUE stream, NOT content. Gradient Mức 0-5.
-    "Giỏi nhưng ghét" = Content ✓ (Engine alone) + Value ✗ (Trust ≈ 0).
-  MULTI-STREAM × PI (§1.4):
-    4-stream analysis per case: Archimedes (all ✓), Rote (Content only),
-    Curious (all ✓ via transition). "Chunk quality" = 4-stream result.
-  MULTI-STREAM PER-DOMAIN (§4.1, §4.4, §4.6):
-    Toán: Content OK Trust, Value CẦN Experience.
-    Sport: cả 4 streams qua Experience → highest approach rate.
-    Screen: 3/4 streams gần zero → "chunks treo lơ lửng."
-  MULTI-STREAM × LẶP (§5.1):
-    Mechanical = 2-stream strengthen. Body-check = 4-stream update.
-  SLEEP × COMPILE TYPE (§6.1 ⑧):
-    Experience→Replay+Gist. Trust→Consolidation. Expertise→Creative Linking.
-  DEPENDENCIES:
-    Education-Mechanism v2.0→v2.1, Child-Dev v2.0→v2.2,
-    Natural-Dev/Skill-Intro v2.1→v2.2, +Compile-Sleep.md v1.0.
-  Total: ~120L net addition.
-
-v1.2 (2026-05-25) — LIGHT REFINE:
-  +Compiled Quality, +Social, +Dissonance-Signal-Architecture, +Hardware-Subsidy, +PFC Budget.
-
-v1.1 (2026-05-12) — §0.1 Evolutionary context + §4.5 Screen/Digital.
-
-v1.0 (2026-05-11) — Initial creation.
-```

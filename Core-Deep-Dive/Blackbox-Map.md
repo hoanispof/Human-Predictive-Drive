@@ -1064,7 +1064,7 @@ AI có thể phục vụ như DYNAMIC DRILL TOOL:
 WITHIN FILE — 5 GAPS:
   §2 Gap 1 (Body-Input)       → Core-Hardware.md §4, Core-Software.md §3.2
   §3 Gap 2 (Driver Layer)     → Neural-Processing-Flow.md, Cortisol-Baseline.md
-  §4 Gap 3 (Chunk Substrate)  → Chunk.md §12, Body-Base.md §10
+  §4 Gap 3 (Chunk Substrate)  → Chunk.md §10, Body-Base.md §10
   §5 Gap 4 (Integration)      → Feeling.md v2.1, Feeling-Mechanism-Deep.md
   §6 Gap 5 (Hormone)          → Cortisol-Baseline.md, PFC-Hardware.md
 
@@ -1084,7 +1084,7 @@ RELATED META-ANALYSIS:
 
 REFERENCING THIS FILE:
   (Cần update sau khi file hoàn thành)
-  → Chunk.md §12, Body-Base.md §10, Core-Software.md §12
+  → Chunk.md §10, Body-Base.md §10, Core-Software.md §12
   → Ask-AI.md (AI protocol)
 ```
 

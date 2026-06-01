@@ -1,39 +1,36 @@
 ---
-title: Chunk.md v3.0 — Unified Chunk System Reference
+title: Chunk.md v2.3 — Unified Chunk System Reference
 created: 2026-03-28 (v1.0 DRAFT)
-updated: 2026-05-23 (v2.3 — Concept Cascade)
-rewritten: 2026-06-01 (v3.0 — Architecture alignment: 1 Engine reframe, §2 trim→Compile-Taxonomy, §8 rewrite merge §8+§9+§10, §9-§12 renumber, +§0 positioning, +§2.7 Sleep Maintenance)
-status: v3.0
+updated: 2026-05-15 (v2.2 — §2.6 Context-tag + §5.4 Compile depth validation from Health Conditions Drill)
+refined: 2026-05-23 (v2.3 — Concept Cascade: +Entity-Compiled, +Entity-Access, +Bond-Architecture, +Simulation-Engine, +PFC-Label. Agent-Mechanism/ 11 files. Updated all cross-refs)
+status: v2.3 COMPLETE
 scope: |
   CORE REFERENCE FILE cho toàn bộ chunk system.
-  WHAT chunks are + HOW chunks work internally.
-  Compile ARCHITECTURE details → Compile-Taxonomy.md v3.0.
-  Sleep MAINTENANCE details → Compile-Sleep.md v1.0.
-  PFC OPERATIONS details → PFC-Operations.md v1.3.
-  Tổng hợp essence từ 44+ files deep analysis + 28-session drill propagation.
-previous_version: backup/Chunk-v2.3-backup.md
+  Tổng hợp essence từ 44+ files, ~48,600L deep analysis.
+  Không drill phân tích mới — tích hợp và trình bày unified model.
+  Chi tiết → đọc source files được reference ở mỗi section.
+previous_version: Schema/backup/Chunk-v1-draft.md (~435L, 2026-03-28 DRAFT)
 parent: 99-Master-Synthesis.md (synthesis file), plan.md (master plan)
-related:
-  - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators architecture
-  - Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms)
-  - Background-Pattern.md v2.0 — accumulated chunk bias
-  - Agent-Mechanism/ (11 files) — per-entity chunk dynamics
-  - Body-Base.md v3.3 — entry point, Compilable Architecture
-  - PFC-Operations.md v1.3 — Hold/Suppress, PFC budget
-  - Body-Feedback-Precondition.md v1.0 — 5 preconditions cho body-feedback
+sources:
+  - F1 Child-Chunk-Development (12 files, ~11,596L) — compile mechanism
+  - F3 Chunk-External-Development (2 files, ~1,286L) — external install
+  - F4 Chunk-Internal-Processing (9 files, ~7,464L) — internal processing
+  - Already-drilled (10 files, ~17,017L) — Learning-Cycle, Agent/, Body-Feedback
+  - N+5 outputs (7 files, ~5,939L) — Logic-Planning, Neural-Processing-Flow
+  - 99-Master-Synthesis.md (~1,200L) — unified lifecycle
 language: Tiếng Việt primary + English technical
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Speculative
 ---
 
-# Chunk.md v3.0 — Unified Chunk System
+# Chunk.md v2.3 — Unified Chunk System
 
 > **Chunk = strength-weighted associative network compiled through experience.**
 > Não KHÔNG tính toán — não TÌM KIẾM trong database.
 > Database = chunks. Operators = vô thức (95%) + PFC (5%).
 >
 > File này = CORE REFERENCE cho toàn bộ chunk system.
-> WHAT chunks are + HOW chunks work internally.
-> Architecture details → Compile-Taxonomy.md v3.0 + Compile-Sleep.md v1.0.
+> v2.0 tích hợp 44+ files deep analysis (~48,600 dòng).
+> Muốn chi tiết → đọc source files ở mỗi section.
 >
 > **4-Phase Lifecycle:** Compile → Install → Process → Plan
 > "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng."
@@ -42,7 +39,6 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Speculative
 
 ## MỤC LỤC
 
-- §0 — Vị Trí Trong Framework
 - §1 — Chunk Là Gì
 - §2 — Chunk Compile
 - §3 — Chunk Connections (4 Types)
@@ -50,41 +46,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Speculative
 - §5 — Anchor-Decay Model
 - §6 — Labels + Logic-Planning Enablement
 - §7 — Discovery Lifecycle (7 Steps)
-- §8 — Operators × Chunk System
-- §9 — Expert vs Beginner
-- §10 — Honest Assessment
-- §11 — Cross-References
-
----
-
-## §0 — Vị Trí Trong Framework
-
-```
-⭐ CHUNK.MD = CORE REFERENCE — WHAT + HOW:
-
-  File này trả lời:
-    WHAT: Chunk là gì? (§1)
-    HOW:  Chunk compile, connect, activate, decay, label, lifecycle? (§2-§7)
-    WHO:  Ai operate trên chunks? (§8)
-    WHO:  Expert vs beginner khác gì? (§9)
-
-  Architecture details → COMPANION FILES:
-    Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators + 3 Compile Types
-    Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms, offline system)
-    PFC-Operations.md v1.3 — Hold/Suppress, 4 combinations, PFC budget
-    Body-Feedback-Precondition.md v1.0 — 5 preconditions cho body-feedback signal
-
-  CHUNK/ FOLDER (4 files + 1 subfolder):
-    Chunk.md (file này) — core reference
-    Compile-Taxonomy.md — compile architecture
-    Compile-Sleep.md — sleep maintenance
-    Background-Pattern.md — accumulated invisible bias
-    Agent-Mechanism/ (11 files) — per-entity chunk dynamics
-
-  READING FLOW:
-    Chunk.md (core) → Compile-Taxonomy.md (architecture) → Compile-Sleep.md (sleep)
-    Song song: Agent-Mechanism/ cho entity dynamics, Background-Pattern cho bias
-```
+- §8 — Two Operators (Vô Thức + PFC)
+- §9 — PFC Search (4 Modes)
+- §10 — Body Evaluate
+- §11 — Expert vs Beginner
+- §12 — Honest Assessment
+- §13 — Cross-References
 
 ---
 
@@ -245,56 +212,31 @@ CHI TIẾT TỪNG LEVEL:
 
 ## §2 — Chunk Compile
 
-### §2.1 — Compile Architecture: 1 Engine + Modulators
+### §2.1 — 4 compile mechanisms
 
 ```
-⭐⭐ CORE THESIS (Compile-Taxonomy.md v3.0):
+🟡🟢 Compile-Rate-Formula (F1 06a §6 + 06b §6.2):
 
-  TẤT CẢ compile đều đi qua 1 con đường duy nhất:
+  ① REPETITION — lặp lại nhiều lần:
+     → LTP-based strengthening (🟢 Bliss & Lømo 1973)
+     → CHẬM nhưng BỀN
+     → Fire pattern 50 lần → connections strengthen → auto
 
-    EXPOSURE → HEBBIAN STRENGTHENING → COMPILED CHUNK
+  ② EMOTIONAL PEAK — 1 lần cảm xúc cực mạnh:
+     → Amygdala + NE → wire CỰC NHANH, 1 lần đủ
+     → VD: bị chó cắn → chunk [chó=nguy hiểm] compiled NGAY
+     → 🟢 Flashbulb memories (Brown & Kulik 1977)
 
-  Không có "trust compile mechanism" riêng.
-  Không có "expertise compile mechanism" riêng.
-  CHỈ CÓ 1 ENGINE (Hebbian LTP). Khác nhau = MODULATOR nào dominant.
+  ③ MULTI-MODAL — nhiều kênh cùng lúc:
+     → Visual + auditory + somatic + motor CÙNG fire → wire across cortex
+     → Experience THẬT compile MẠNH hơn imagine/đọc/nghe
+     → Binding: 4 mechanisms đồng thời (§1.2)
 
-  4 COMPILE MECHANISMS = 4 DẠNG EXPOSURE (cùng 1 Engine):
-
-  ┌────────────────┬──────────────────────┬─────────────────────────┐
-  │ Mechanism      │ = Exposure dạng      │ Tại sao compile         │
-  ├────────────────┼──────────────────────┼─────────────────────────┤
-  │ ① Repetition   │ Lặp exposure nhiều   │ Co-fire nhiều lần       │
-  │                │ lần                  │ → connections strengthen │
-  ├────────────────┼──────────────────────┼─────────────────────────┤
-  │ ② Emotional    │ Exposure cường độ    │ Amygdala + NE → wire    │
-  │    peak        │ CỰC CAO (1 lần đủ)  │ CỰC NHANH              │
-  ├────────────────┼──────────────────────┼─────────────────────────┤
-  │ ③ Multi-modal  │ Exposure NHIỀU KÊNH  │ Cross-cortex co-fire    │
-  │                │ cùng lúc             │ → richer binding        │
-  ├────────────────┼──────────────────────┼─────────────────────────┤
-  │ ④ Sleep        │ Replay exposure      │ Hippocampus replay      │
-  │                │ OFFLINE (6 mechs)    │ → strengthen/prune      │
-  └────────────────┴──────────────────────┴─────────────────────────┘
-
-  3 COMPILE TYPES = DOMINANT MODULATOR CONFIGURATIONS:
-    Experience = Engine + minimal modulators (direct exposure)
-    Trust      = Engine + Entity-Valence amplifier (Entity-Valence-dominant)
-    Expertise  = Engine + PFC sustained hold (PFC-dominant)
-
-  3 MODULATORS:
-    Entity-Valence Bias — automatic, cost ≈ 0, trust = multiplier per-entity
-    PFC Modulation — Hold + Suppress, costly, finite budget
-    3 Exposure Channels — External / Deliberate / Spontaneous (song song)
-
-  NO SOURCE TAG = EVIDENCE CHO 1 ENGINE (§1.1):
-    Compiled chunks KHÔNG có tag nguồn gốc.
-    TẤT CẢ qua cùng 1 engine → product BÌNH ĐẲNG trong body.
-
-  🟢 Hebbian learning: Hebb 1949
-  🟢 LTP: Bliss & Lømo 1973
-  🟢 Aplysia conserved: Kandel 2000
-  🟡 "ALL compile = exposure" unifying principle: Compile-Taxonomy.md v3.0
-  → Chi tiết architecture: Compile-Taxonomy.md v3.0 §1
+  ④ SLEEP CONSOLIDATION — ngủ compile offline:
+     → Hippocampus REPLAY → strengthen hoặc prune
+     → 🟢 Sleep consolidation (Walker 2017)
+     → "Sáng mai rõ hơn" = vô thức ĐÃ xử lý trong đêm
+     → Chi tiết 6 mechanisms: Compile-Sleep.md v1.0
 ```
 
 ### §2.2 — 5-parameter compile rate formula
@@ -319,10 +261,10 @@ CHI TIẾT TỪNG LEVEL:
   → = NOT "tài năng bẩm sinh" → mà "môi trường compile khác nhau"
 ```
 
-### §2.3 — External install + Trust = Amplifier
+### §2.3 — External install as 5th pathway (F3)
 
 ```
-🟡 BEYOND 4 internal mechanisms, chunks ALSO installed from OUTSIDE:
+🟡 R-F3-2: BEYOND 4 internal mechanisms, chunks ALSO installed from OUTSIDE:
 
   5 EXTERNAL INSTALL MECHANISMS (F3):
     ① Co-attention — joint focus on same object/event
@@ -344,30 +286,54 @@ CHI TIẾT TỪNG LEVEL:
   → Chi tiết: F3 00-External-Mechanism.md, F3 01-External-Synthesis.md
 
 
-⭐ TRUST = AMPLIFIER (GRADIENT), KHÔNG PHẢI GATE (BINARY):
+⭐ TRUST = AMPLIFIER CHO EXTERNAL COMPILE RATE (gradient Mức 0-5):
 
-  CONTENT compile qua exposure ALONE — KHÔNG cần trust.
-  Trust amplify VALUE compile rate từ external source.
-  "Gate" = limit case khi multiplier → 0.
+  Trust = AMPLIFIER (gradient), KHÔNG phải gate (binary).
+  CONTENT compile qua exposure ALONE — KHÔNG cần trust (trẻ bị ép vẫn compile kiến thức).
+  Trust amplify VALUE compile rate từ external source (Compile-Taxonomy.md v3.0 §3).
+  "Gate" = limit case khi multiplier → 0 (trông GIỐNG gate = cực trị của amplifier).
+  Compile ≠ "PFC hiểu rồi nạp vào não."
   Compile = "Body nhận experience → vô thức tự wire." Trust amplify, not gate.
 
-  TRUST SCOPE — VALUE vs CONTENT (Compile-Taxonomy.md v3.0 §3.3):
-    Content compile: Trust KHÔNG amplify (Compile Engine alone đủ)
-    Value compile:   Trust AMPLIFY ([X → good/bad] install nhanh hơn)
-    Entity compile:  Trust weight chính nó = sản phẩm compile từ experience
-    → "Giỏi nhưng ghét học" = content ✓, value ✗ = architecture prediction
+  5 TRUST SOURCES = 5 DẠNG COMPILE:
+    ① Mẹ: repetition CỰC CAO + multi-modal + sleep = SÂU NHẤT
+    ② Thầy/cô: mẹ trust → con observe → trust INHERIT (delegated)
+    ③ Tập thể: social proof = quantity install ("mọi người đều làm vậy")
+    ④ Kinh sách: compiled + unfalsifiable → KHÔNG BAO GIỜ bị challenge
+    ⑤ Lãnh đạo: Valence-Structural coupling + authority = deep trust
+
+  TRUST = VALENCE META-DIMENSION (Valence-Propagation v4.0 §2):
+    → Trust KHÔNG phải hệ thống riêng biệt
+    → Trust = 1 CHIỀU trong valence profile per-entity
+    → Trust MODULATE CƯỜNG ĐỘ các channels KHÁC:
+      Trust HIGH → mọi valence từ entity NÀY MẠNH hơn
+      Trust LOW → mọi valence từ entity NÀY YẾU hơn
+    → = Trust = MULTIPLIER cho toàn bộ profile
 
   ENTITY-ACCESS GRADIENT (Entity-Access.md v1.2):
-    Mức 0 (stranger, multiplier ≈ 0) → Mức 5 (self/child, multiplier MAX)
-    Trust = 1 chiều TRONG valence profile per-entity (Valence-Propagation v4.1 §2)
+    → Trust ≠ binary → gradient Mức 0-5 per-entity
+    → Mức 0 (stranger) → Mức 5 (self/child)
+    → Mỗi Mức = khác access level, khác trust depth
     → Chi tiết calibration: Entity-Access-Calibration.md v1.0
     → Chi tiết excess: Entity-Access-Excess.md v1.0
 
-  → Chi tiết trust architecture: Compile-Taxonomy.md v3.0 §3
-  → Chi tiết trust mechanism: Valence-Propagation v4.1 §2
-  → Chi tiết trust break: §4.3 (competitive re-linking)
+  TRUST COMPILE = CÙNG 4 CƠ CHẾ (§2.1):
+    ① Repetition: Mẹ cho ăn × hàng nghìn lần → [mẹ→trust++++]
+    ② Emotional peak: Bạn cứu mạng 1 lần → [bạn→trust++++] NGAY
+    ③ Multi-modal: Mặt + giọng + ôm + giúp đỡ = trust SÂU + NHANH
+    ④ Sleep: Hippocampus replay → trust pattern stabilize
 
-  🟡 Trust amplifier — Compile-Taxonomy.md v3.0 §3
+  TRUST BREAK = COMPETITIVE RE-LINKING (§2.5 principle):
+    Old trust NEVER fully deleted → new distrust compile ĐÈ → probability shift.
+    3 kịch bản: gradual erosion, violent flip, body defense (exhaustion).
+    "Lâu lâu nhớ hồi đó tốt" = old trust fire yếu, KHÔNG drive behavior.
+
+  → Chi tiết trust reframe: Compile-Taxonomy.md v3.0 §3 (amplifier model)
+  → Chi tiết trust mechanism: Valence-Propagation §2
+  → Chi tiết trust break: Chunk §4.3 (competitive re-linking)
+  → Chi tiết collective trust: Collective-Body.md §5
+
+  🟡 Trust amplifier formalization — Compile-Taxonomy.md v3.0 §3, consistent với Valence-Propagation §2 + Chunk §2.1
 ```
 
 ### §2.4 — Body-state at compile (direction matters)
@@ -498,33 +464,6 @@ GRADIENT COMPILE (Compile-Gradient + R-F1-10):
   🟡 4 metadata types as formal taxonomy = framework synthesis
   🔴 Context-free chunk as explicit chunk TYPE = hypothesis (testable)
   → Chi tiết: PTSD-Analysis.md §2-§3, §14
-```
-
-### §2.7 — Sleep Maintenance (Offline System)
-
-```
-⭐ SLEEP ≠ "EXPOSURE SOURCE" THỨ 4 — SLEEP = OFFLINE MAINTENANCE SYSTEM:
-
-  Sleep có 6 mechanisms — chỉ ~1.5 exposure-based, ~4.5 optimization:
-
-  ┌────┬──────────────────────┬─────────────┬──────────────────────┐
-  │ #  │ Mechanism             │ Exposure?   │ Primary function     │
-  ├────┼──────────────────────┼─────────────┼──────────────────────┤
-  │  1 │ SHY Homeostasis       │ ❌ NOT      │ Prune weak (SNR)     │
-  │  2 │ Hippocampal Replay    │ ✅ YES      │ Strengthen existing  │
-  │  3 │ Active Consolidation  │ ❌ NOT      │ Transfer (RAM→ROM)   │
-  │  4 │ Creative Linking      │ 🟡 PARTIAL  │ New remote links     │
-  │  5 │ Emotional Decoupling  │ ❌ NOT      │ Strip emotional tag  │
-  │  6 │ Gist Extraction       │ 🟡 PARTIAL  │ Abstract+generalize  │
-  └────┴──────────────────────┴─────────────┴──────────────────────┘
-
-  Cycle: Waking (build) → Sleep (maintain) → Waking (build on maintained).
-  Mất ngủ = TẤT CẢ 6 mechanisms bị disrupt → PFC degrades FIRST.
-  "Sáng mai rõ hơn" = vô thức ĐÃ prune + consolidate + abstract.
-
-  🟢 Multi-mechanism sleep: Diekelmann & Born 2010
-  🟡 Sleep Maintenance in compile architecture: Compile-Sleep.md v1.0
-  → Chi tiết 6 mechanisms + architecture interaction: Compile-Sleep.md v1.0
 ```
 
 ---
@@ -1055,9 +994,9 @@ LINK STRENGTH = f(7 factors):
 
 ---
 
-## §8 — Operators × Chunk System
+## §8 — Two Operators (Vô Thức + PFC)
 
-### §8.1 — Two Operators: Vô Thức + PFC
+### §8.1 — Architecture
 
 ```
 🟡 CHUNK = DATA. Hai operator làm việc với CÙNG database:
@@ -1070,115 +1009,189 @@ LINK STRENGTH = f(7 factors):
     → STRENGTHEN/WEAKEN tự động (Hebbian)
 
   ⭐ PFC = OPERATOR PHỤ (~5% — nhưng quyết định HƯỚNG):
-    → HOLD: giữ chunks active trong WM (~4±1)
-    → SUPPRESS: block compiled patterns đang fire
+    → SEARCH: hold chunks → spreading activation → find matches
+    → HOLD: giữ chunks active trong WM
     → CREATE: imagine chunk mới → body check → compile
     → MODIFY: recall → reconsolidation window → thay đổi → re-compile
     → DIRECT: chọn attention → quyết định chunks NÀO fire
 
-  → = "Vô thức xây nhà (95%), PFC chọn XÂY Ở ĐÂU (5%)"
+  → = Vô thức xây nhà (95%), PFC chọn XÂY Ở ĐÂU (5%)
+```
 
-  PFC HARDWARE ONLINE FROM PRENATAL (🟢 F1 01):
-    5 pillars: Huttenlocher 1979, Doria 2010, Kouider 2013, Grossmann 2009, Hodel 2018.
-    OLD: "PFC offline until X age." NEW: "PFC hardware online from birth — chunks missing."
+### §8.2 — PFC hardware reframe
 
-  PFC-INFERENCE LADDER (🟡🟢 F1 01 + F1 10):
-    L0 Reflex → L1 Orienting → L2 Pattern-match → L3 Deliberate → L4 Coordinated
-    = EVENT property, not AGE property. Same person at different L-levels per domain.
+```
+🟢 PFC-From-Prenatal (F1 01):
 
-  SIMULATION-ENGINE = FORMALIZED PFC MECHANISM (Simulation-Engine.md v1.1):
+  ⭐ PFC HARDWARE ONLINE FROM PRENATAL:
+
+  5 empirical pillars:
+    ① Synaptic density at/above adult at birth (🟢 Huttenlocher 1979)
+    ② Functional networks adult-like at term (🟢 Doria 2010)
+    ③ Frontal signatures from 5mo (🟢 Kouider et al. 2013)
+    ④ fNIRS PFC activation early infancy (🟢 Grossmann et al. 2009)
+    ⑤ Rapid PFC plasticity driven by environment (🟢 Hodel 2018)
+
+  REFRAME:
+    OLD: "PFC offline until X age" → develops by maturation
+    NEW: "PFC hardware online from birth" → developmental behavior = CHUNKS MISSING
+
+  → Baby "doesn't understand" ≠ hardware absent
+  → Baby "doesn't understand" = chunks not yet compiled
+  → = Content limitation, not structural limitation
+  → 10-marker L2 catalog confirms: pattern-match capability well before "PFC offline" timelines
+```
+
+### §8.3 — What each operator CAN and CANNOT do
+
+```
+  VÔ THỨC CÓ THỂ:
+    → Detect body-base state: "bây giờ body thấy thế nào?"
+    → Compile patterns from experience
+    → Run compiled schemas automatically
+    → Tạo Imagine-Final: expectation patterns ở MỌI scale
+    → Check Imagine-Final against BODY-BASE: "match không?"
+    → Trả thưởng/phạt: opioid khi match, cortisol khi mismatch
+
+  VÔ THỨC KHÔNG THỂ:
+    → Check: "smooth NÀY có đúng với domain không?"
+    → Simulate: "5 năm sau có sao không?"
+    → Compare: "body thích nhưng THẬT SỰ hợp không?"
+    → = Vô thức CHỈ ĐO body-base → KHÔNG ĐO domain accuracy
+
+  PFC CÓ THỂ (mà vô thức KHÔNG):
+    → Simulate tương lai: "nếu tiếp tục → kết quả gì?"
+    → So sánh ký ức: "lần trước pattern này → kết quả tệ"
+    → Check domain: "body thích NHƯNG thực tế có bền không?"
+    → Chọn giữa competing Imagine-Finals: ngắn hạn vs dài hạn
+
+  PFC KHÔNG THỂ (mà vô thức CÓ):
+    → Feel trực tiếp: PFC KHÔNG cảm nhận → phải NHẬN từ body
+    → Process 95% nền
+    → Compile tự động
+
+  SIMULATION-ENGINE = FORMALIZED PFC MECHANISM (Simulation-Engine.md v1.0):
     → 1 Engine, 3 Components: Interoceptive Model × Simulation × Self-Pattern-Modeling
-    → Chi tiết: Simulation-Engine.md v1.1, PFC-Operations.md v1.3
+    → PFC "search" (§9 below) = Simulation-Engine running on chunk database
+    → IMAGINE scenario = Simulation-Engine draft → body evaluate
+    → Chi tiết: Simulation-Engine.md v1.0 (PFC/), PFC-Operations.md v1.0
+
+  → VÔ THỨC: giỏi "bây giờ body thế nào" (state detection)
+  → PFC: giỏi "bây giờ có ĐÚNG với thực tế không" (domain check)
+  → CẦN CẢ HAI: vô thức feel + PFC verify = decision quality
+  → TẮT PFC = mất bộ CHECK DOMAIN DUY NHẤT → body-base unchecked
 ```
 
-### §8.2 — PFC Operations: Hold + Suppress
+### §8.4 — PFC-Inference Ladder
 
 ```
-🟡🟢 PFC-OPERATIONS.MD v1.3 — FORMALIZED MODEL:
+🟡🟢 (F1 01 + 10-F1-Synthesis §4):
 
-  2 OPERATIONS:
-    HOLD = amplify target pattern → TĂNG exposure quality
-      Cost: ① PFC draft (processing load). CAN compile into automatic.
-    SUPPRESS = block existing pattern → GIẢM exposure cho specific pattern
-      Cost: ② Efference mismatch. CANNOT compile "not" (Wegner 1987).
+  5 LEVELS:
+    L0 — Reflex (no PFC involvement)
+    L1 — Orienting (PFC receives alert)
+    L2 — Pattern-match (PFC recognizes compiled pattern)
+    L3 — Deliberate comparison (Type 4 chain)
+    L4 — Coordinated execution (multi-step plan)
 
-  4 COMBINATIONS (PFC-Operations.md v1.3 §3):
-    ① Hold only         → easiest, body open → Genuine Shift
-    ② Hold + Suppress   → double cost → 3 possible outcomes
-    ③ Suppress only     → worst strategy, ALWAYS fails long-term
-    ④ Neither           → compiled auto-fire, PFC not involved
+  → EVENT property, not AGE property
+  → = Same person at different L-levels for different chunks
+  → Graded within level (weak L2 vs strong L2)
+  → 10-marker L2 catalog: đơ mặt (bladder) = cleanest marker
 
-  3 OUTCOMES of Hold+Suppress:
-    A: Genuine Shift — new compiles, old decays. Sustainable.
-    B: Compiled Suppress — suppress itself becomes automatic. Flat affect.
-    C: PFC Failure — PFC depleted, pattern breaks through. Negative spiral.
-
-  PFC BUDGET = FINITE SHARED RESOURCE:
-    → ALL PFC activities share 1 budget (learning, suppress, social, self-monitor)
-    → "Mệt ở công ty → về nhà không kiên nhẫn với con" = budget exhausted
-    → Sleep RESTORES catecholamine → budget recharges (Compile-Sleep.md §4.4)
-
-  → Chi tiết: PFC-Operations.md v1.3
+  → Chi tiết: F1 10-F1-Synthesis.md §4
 ```
 
-### §8.3 — 3 Exposure Channels
+---
+
+## §9 — PFC Hold + Activation (4 Modes)
+
+> ⚠️ v1.1 note: "Search" là metaphor. Cơ chế thật = PFC HOLD anchor chunks
+> → BIAS spreading activation direction. Không phải "search database".
+> Xem Valence-Propagation.md §4 — valence propagation DÙNG mechanism NÀY làm substrate.
+
+### §9.1 — 4 modes of PFC hold
 
 ```
-🟡🟢 EXPOSURE ĐẾN TỪ 3 KÊNH CHẠY SONG SONG (Compile-Taxonomy.md v3.0 §1.3):
+🟡 PFC hold = hold chunks → spreading activation = sóng CÓ HƯỚNG:
 
-  EXPOSURE-EXTERNAL (body-input from reality):
-    Sensory + social + motor feedback. Multi-modal RICHEST.
-    KHÔNG cần PFC. Available cho TẤT CẢ species.
-    5 external install mechanisms (§2.3) = variants of External.
+  → PFC hold ~4 chunks → sóng lan database → giao nhau = hit
+  → 🟢 Spreading activation (Collins & Loftus 1975)
+  → 🟢 Working memory ~4 items (Cowan 2001)
 
-  EXPOSURE-DELIBERATE (PFC imagination/simulate):
-    PFC chủ động tạo internal exposure: imagine, nhẩm, mental rehearsal.
-    Body REACT THẬT (nước bọt, tim đập). Simulation-Engine substrate.
-    Flexible nhưng nghèo multi-modal hơn External.
+  ⭐ 4 MODES:
 
-  EXPOSURE-SPONTANEOUS (automatic chunk fire):
-    Background-Pattern + spontaneous memory + association chains + mind wandering.
-    Cost ≈ 0. Self-reinforcing (strong → fire → stronger).
-    PFC = OBSERVER cho Spontaneous (không direct được).
+  QUICK SEARCH (giây):
+    PFC hold [2+3] → hit [5] → RELEASE
+    → "Tính" = chuỗi quick searches
+    → Cortisol: không tăng (quá nhanh)
 
-  3 Channels → ALL feed vào CÙNG Compile Engine (Hebbian).
-  Compile Engine KHÔNG phân biệt nguồn (§1.1: NO SOURCE TAG).
+  BODY NOVELTY (vô thức thuần):
+    External input → body fire TỰ ĐỘNG → "thú vị!"
+    PFC KHÔNG hold → body TỰ absorb
+    → = INPUT-DRIVEN: cơ chế CỔ NHẤT
 
-  🟢 Mind wandering 30-50%: Smallwood & Schooler 2006
-  🟢 DMN activation: Raichle et al. 2001
-  → Chi tiết: Compile-Taxonomy.md v3.0 §1.3
+  LOOSE HOLD (phút-giờ):
+    PFC hold NHẸ → body RELAX → sóng GENTLE, lan RỘNG
+    → Insight BẤT NGỜ (Type 2 territory)
+    → = CREATIVE mode → curiosity/novelty-dominant
+
+  ACTIVE LOCK (giờ-ngày):
+    = LOOSE HOLD + THREAT → PFC KHÔNG THỂ thả
+    → Body BỊ ÉP align → LÀM hoặc double dissonance
+    → = EXECUTION mode
+    → 🟢 Zeigarnik Effect (1927)
+
+  ⭐ THREAT = CÔNG TẮC loose ↔ lock:
+    LOOSE + threat = LOCK. LOCK − threat = LOOSE.
 ```
 
-### §8.4 — Body Evaluate: 5 Preconditions
+### §9.2 — Cortisol = amplifier + probability-weighted search
 
 ```
-🟡🟢 BODY-FEEDBACK-PRECONDITION.MD v1.0 — FORMALIZED MODEL:
+  ⭐ CORTISOL = VOLUME LOA (amplifier, KHÔNG phải driver):
+    PFC = người gõ search (TÌM GÌ). Cortisol = volume (tìm MẠNH cỡ nào).
 
-  Body-feedback signal fires KHI VÀ CHỈ KHI all 5 met ĐỒNG THỜI:
+    Cortisol THẤP: sóng yếu → hit ít
+    Cortisol VỪA: sóng vừa → SWEET SPOT (flow)
+    Cortisol CAO + NHIỀU chunks: insight cross-domain (Einstein)
+    Cortisol CAO + ÍT chunks: NOISE, RỐI (sinh viên năm nhất)
+    → = CÙNG căng thẳng → GIỎI ra insight, MỚI ra rối
 
-    Precondition-1: DIRECTED-GAP — active gap có direction rõ ràng
-    Precondition-2: CHUNK-SUBSTRATE — đủ compiled chunks để form gap + decode
-    Precondition-3: DELTA-GATE — VTA detect change > habituation threshold
-    Precondition-4: MATCH-RANGE — match nằm trong Goldilocks zone (not alien, not familiar)
-    Precondition-5: COMPILE-GATE — chunk association tags (approach/avoidance) cho phép fire
+  PROBABILITY-WEIGHTED SEARCH (extends v1 with 01b):
+    → Search results biased by link strength (§4.2)
+    → Strong links activate first → usual results
+    → Weak links activate rarely → surprising results
+    → Creativity = accessing low-probability pathways
+    → = "Sáng tạo" = PFC hold ĐÚNG + cortisol ĐỦ + chunks MATCH
+```
 
-  CONJUNCTION LOGIC: strict AND-gate. Thiếu BẤT KỲ 1 → signal KHÔNG fire đầy đủ.
-  Mỗi failure mode → trải nghiệm riêng biệt (bão hòa, confused, quen, mismatch, aversion).
+---
+
+## §10 — Body Evaluate
+
+### §10.1 — Body vote mechanism
+
+```
+🟡 PFC search → output emerge → body DUYỆT:
+
+  → Body-Reward: "HAY!" (opioid micro-dose → smooth)
+  → Body-Dissonance: "KỲ KỲ" (ACC alert + mild cortisol → resistance)
+  → Body neutral: "hmm" (no significant signal)
+  → = "Trực giác" = body evaluate TRƯỚC PFC articulate
 
   BODY VOTE = CONSTRAINT SATISFACTION:
-    Smooth: "nối được, coherent" (opioid micro-dose)
-    Resistance: "sai sai, mâu thuẫn" (ACC alert + cortisol)
-    Empty: "không liên quan" (no signal)
-    → Body vote FIRST, PFC interpretation SECOND
+    → Many cortical areas participate
+    → Areas where A fires check: does B fit?
+    → Coherence → smooth. Incoherence → tension. No signal → neutral.
     → 🟡 Consistent with Damasio somatic markers (🟢 1994)
-
-  → Chi tiết: Body-Feedback-Precondition.md v1.0
+    → Body vote is FIRST, PFC interpretation is SECOND
 ```
 
-### §8.5 — Feeling-Intuition Gradient
+### §10.2 — Feeling-Intuition Gradient
 
 ```
-🟡 Multi-Weak-Signal-Convergence (F4 02):
+🟡 Multi-Weak-Signal-Convergence SUPPORTED (F4 02):
 
   6-POINT GRADIENT:
 
@@ -1191,42 +1204,56 @@ LINK STRENGTH = f(7 factors):
     ⑤ Hunch ("ko biết nữa...") — very weak signals
     ⑥ Pre-monition ("sao sao ấy...") — pre-verbal sense, hours
 
-  3 VARIABLES: Signal COUNT × STRENGTH × LABEL availability.
-  NOT 6 discrete types — CONTINUOUS spectrum, SAME mechanism.
-  Expert intuition = ④ but HIGH accuracy. Beginner = ③ but LOW accuracy.
+  3 VARIABLES determine position on gradient:
+    Signal COUNT: few → clear, many → vague
+    Signal STRENGTH: strong → clear, weak → vague
+    LABEL availability: labeled → clearer, unlabeled → vaguer
+
+  → NOT 6 discrete types — CONTINUOUS spectrum
+  → SAME mechanism throughout — difference is signal PROFILE
+  → Expert intuition = ④ on gradient but HIGH accuracy (calibrated chunks)
+  → Beginner "gut feeling" = ③ but LOW accuracy (few chunks)
 ```
 
-### §8.6 — "Mượt thật" vs "Mượt giả"
+### §10.3 — "Mượt thật" vs "Mượt giả" (Domain-Checked vs Self-Referencing)
 
 ```
-⭐ Domain-Checked vs Self-Referencing (F4 01c §4):
+⭐ Domain-Checked vs Self-Referencing SELECTION PRESSURE (F4 01c §4):
 
   ⚠️⚠️⚠️ "FEEL MƯỢT" ≠ "ĐÚNG":
 
-  DOMAIN-CHECKED:
+  DOMAIN-CHECKED SELECTION:
     → Chunks tested against EXTERNAL REALITY regularly
-    → Body vote ACCURATE: smooth = actually correct
+    → Confirmed → strengthen. Falsified → dissonance → correct
+    → Body vote ACCURATE: smooth = actually correct (most of time)
     → = "Mượt THẬT" — calibrated against reality
     → = Scientist, craftsman, calibrated expert
 
-  SELF-REFERENCING:
+  SELF-REFERENCING SELECTION:
     → Chunks tested against EXISTING CHUNKS only
+    → Compatible → smooth → accept. Incompatible → reject (not investigate)
     → Body vote MISLEADING: smooth = consistent with self (NOT reality)
     → = "Mượt GIẢ" — circular validation
     → = Echo chamber, rigid expert, ideologue
     → 🟢 Confirmation bias (Wason 1960, Nickerson 1998)
 
-  KHÔNG binary: most people = MIX across domains.
-  CAN shift: Self-Referencing → Domain-Checked by introducing real-checking habit.
-  Dissonance tolerance: Domain-Checked HIGH, Self-Referencing LOW.
-  → Chi tiết: PFC-Operations.md v1.3 §5 (Compiled Quality Dimension)
+  ⚠️ NUANCE — KHÔNG binary:
+    → Most people = MIX of Domain-Checked and Self-Referencing across different domains
+    → Same person: Domain-Checked in profession + Self-Referencing in relationships (or vice versa)
+    → CAN shift: Self-Referencing → Domain-Checked by INTRODUCING real-checking habit
+
+  DISSONANCE TOLERANCE:
+    → Domain-Checked: HIGH tolerance (foundation = external anchors, independent)
+    → Self-Referencing: LOW tolerance (foundation = circular chunks, fragile)
+    → = Domain-Checked CAN pursue extreme Imagine-Final (tolerate temporary hardware discomfort)
+    → = Self-Referencing CANNOT (all discomfort = "wrong" → reject → cycle stops)
 ```
 
 ---
 
-## §9 — Expert vs Beginner
+## §11 — Expert vs Beginner
 
-### §9.1 — Same PFC, different database
+### §11.1 — Same PFC, different database
 
 ```
 🟡 "Thông minh" = database GIÀU + query TỐT:
@@ -1244,48 +1271,52 @@ LINK STRENGTH = f(7 factors):
   → = TẤT CẢ TRAINABLE (không phải talent cố định)
 ```
 
-### §9.2 — Trigger surface → expert intuition
+### §11.2 — Trigger surface → expert intuition
 
 ```
   EXPERT HAS LARGE TRIGGER SURFACE IN DOMAIN (§4.4):
     → Thousands of chunks compiled over years
     → Multi-modal + deep emotional engagement + many cross-links
+    → = Many entry points → many chunks fire simultaneously
     → = Multi-Weak-Signal-Convergence → ACCURATE "gut feeling"
-    → 🟢 Klein 1998: firefighter intuition = pattern recognition
-    → 🟢 Kahneman & Klein 2009: reliable intuition requires "kind environment"
+    → 🟢 Klein 1998: firefighter intuition = pattern recognition from large database
+    → 🟢 Kahneman & Klein 2009: reliable intuition requires "kind environment" (= Domain-Checked feedback)
 
   BEGINNER PITFALL:
     → Few chunks → few conflicts → feels "smooth"
     → = Dunning-Kruger at body level: ít chunks → ít conflict → feels simple
+    → Expert: "knows it's complicated" (many chunks → many potential conflicts)
     → 🟢 Dunning & Kruger 1999
 ```
 
-### §9.3 — Receptive-Productive Asymmetry
+### §11.3 — Receptive-Productive Asymmetry
 
 ```
 🟡 Receptive-Productive-Asymmetry (F1 08 §6):
 
   → Receptive chunk formation PRECEDES productive by ~6-12 months
-  → Productive bundle ~3× receptive bundle (more chunks required)
-  → 7 converging lines of evidence, 7 falsifiable predictions
+  → Because productive bundle ~3× receptive bundle (more chunks required)
+  → 7 converging lines of evidence
+  → 7 falsifiable predictions
 
   → Applied to ANY skill, not just language:
-    "Hiểu" trước "làm được" = receptive compiled, productive chưa.
-    Expert teaching: must have BOTH receptive + productive chunks compiled.
+    → "Hiểu" trước "làm được" = receptive compiled, productive chưa
+    → Watching others succeed but can't replicate = receptive without productive
+    → Expert teaching: must have BOTH receptive + productive chunks compiled
 
   → Chi tiết: F1 08-Verbal-Production-Arc.md §6
 ```
 
 ---
 
-## §10 — Honest Assessment
+## §12 — Honest Assessment
 
 > **⚠️ BLACKBOX 1**: Chunk substrate — HOW chunks fire/store/distribute
 > ở neural level — là blackbox cơ bản của framework. Framework hoạt động
 > TRÊN blackbox này (predict pattern), không cần giải mã nó.
 > Chi tiết: Blackbox-Map.md §4 (supersedes Framework-Boundaries.md v2.0).
 
-### §10.1 — Established claims (🟢)
+### §12.1 — Established claims (🟢)
 
 ```
   🟢 Hebbian learning (Hebb 1949)
@@ -1310,43 +1341,35 @@ LINK STRENGTH = f(7 factors):
   🟢 ACE dose-response (Felitti 1998)
 ```
 
-### §10.2 — Framework synthesis claims (🟡)
+### §12.2 — Framework synthesis claims (🟡)
 
 ```
-  CHUNK SYSTEM CORE:
   🟡 "Não = search engine" — consistent with connectionist models
   🟡 4-type connection taxonomy (Static-Logical-Linking) — components established, taxonomy novel
   🟡 Activation probability distribution model — novel formalization
   🟡 Competitive re-linking as unified mechanism — novel integration
   🟡 Trigger surface concept — novel name, mechanism established
-  🟡 Trauma = expertise same mechanism diff direction — novel insight
+  🟡 Trauma = expertise same mechanism diff direction — novel insight, consistent Direction-At-Compile
   🟡 7-factor link strength model — framework formalization
   🟡 7-step discovery lifecycle — novel, components established
   🟡 Convergence zone as structural concept — novel name, Gendlin felt sense = same
-  🟡 Label = logic-planning prerequisite — novel formalization
-  🟡 Domain-Checked vs Self-Referencing selection pressure — novel framing
+  🟡 Label = logic-planning prerequisite — novel formalization, consistent Label-As-Handle
+  🟡 Domain-Checked vs Self-Referencing selection pressure — novel framing, components established
+  🟡 Dissonance tolerance = f(anchor type) — novel, consistent cognitive dissonance
   🟡 5-parameter compile rate formula — ordinal validated, not quantitative
-  🟡 Multi-modal binding = 4 concurrent mechanisms (Emergent-Binding)
-  🟡 6-point feeling-intuition gradient (Multi-Weak-Signal-Convergence)
+  🟡 Multi-modal binding = 4 concurrent mechanisms (Emergent-Binding) — mechanism novel, components 🟢
+  🟡 6-point feeling-intuition gradient (Multi-Weak-Signal-Convergence) — novel spectrum, components established
   🟡 5 anchor types with ranking — framework model
   🟡 Retrieval decay vs substrate decay distinction — novel formalization
+  🟡 Post-discovery cleanup → parsimony gain — novel formalization
+  🟡 AI as external crystallization catalyst — reasonable inference, untested
+  🟡 "Feel đúng → Plan đúng" — normative framework claim
   🟡 Context-tag as chunk metadata model (§2.6) — consistent Brewin DRT
   🟡 2 chunk types (contextual vs context-free) — framework formalization
   🟡 Compile depth predicts resistance to substrate damage (§5.4) — Alzheimer confirms
-
-  COMPILE ARCHITECTURE (v3.0 — Compile-Taxonomy.md):
-  🟡 "ALL compile = exposure → Hebbian" unifying principle
-  🟡 1 Engine + 3 Modulators architecture
-  🟡 Trust = amplifier (gradient Mức 0-5), NOT gate (binary)
-  🟡 Trust scope: amplify VALUE, NOT content
-  🟡 Multi-stream compile (Content/Value/Entity/Behavior song song)
-  🟡 3 Exposure Channels parallel model (External/Deliberate/Spontaneous)
-  🟡 Feedback asymmetry (Entity-Valence→PFC fast/free, PFC→Entity-Valence slow/costly)
-  🟡 Sleep Maintenance in compile architecture (6 mechanisms, ~1.5 exposure / ~4.5 optimization)
-  🟡 Body-Feedback-Precondition 5 conditions conjunction logic
 ```
 
-### §10.3 — Speculative claims (🔴)
+### §12.3 — Speculative claims (🔴)
 
 ```
   🔴 Specific probability percentages — illustrative, not measured
@@ -1361,7 +1384,7 @@ LINK STRENGTH = f(7 factors):
   🔴 Context-free chunk as explicit chunk TYPE (§2.6) — hypothesis
 ```
 
-### §10.4 — Hypothesis summary
+### §12.4 — Hypothesis summary
 
 ```
   ALL HYPOTHESES ACROSS CHUNK SYSTEM:
@@ -1381,16 +1404,11 @@ LINK STRENGTH = f(7 factors):
 
 ---
 
-## §11 — Cross-References
+## §13 — Cross-References
 
-### §11.1 — Within Chunk/ folder + Chunk-Analysis
+### §13.1 — Within Chunk-Analysis
 
 ```
-  CHUNK/ COMPANION FILES:
-    Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators + 3 Compile Types + 4 Pathways
-    Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms, offline system)
-    Background-Pattern.md v2.0 — accumulated invisible bias (2D Depth×Density)
-
   F1 CHILD-CHUNK-DEVELOPMENT (12 files, ~11,596L):
     00 → F1 orientation
     01 → PFC-From-Prenatal reframe (🟢)
@@ -1442,47 +1460,53 @@ LINK STRENGTH = f(7 factors):
   99-Master-Synthesis.md → unified lifecycle + all verdicts
 ```
 
-### §11.2 — Core framework files
+### §13.2 — Core framework files
 
 ```
-  ⚠️ Updated 2026-06-01 to align with Compile-Taxonomy v3.0 + Compile-Sleep v1.0.
-
-  COMPILE ARCHITECTURE:
-    Compile-Taxonomy.md v3.0 → 1 Engine + 3 Modulators + 3 Compile Types
-    Compile-Sleep.md v1.0 → Sleep Maintenance (6 mechanisms)
-    PFC-Operations.md v1.3 → Hold/Suppress, 4 combinations, PFC budget
-    Body-Feedback-Precondition.md v1.0 → 5 preconditions cho body-feedback signal
+  ⚠️ Updated 2026-05-23 to align with post-drill reference files.
 
   REFERENCE FILES (current versions):
-    Body-Base/Feeling/Feeling.md v3.0 → feeling = PFC observation, 7-layer
-    Body-Base/Valence-Propagation.md v4.1 → structural/current valence, 3 firing modes
-    Body-Base/Entity-Valence-Dynamics.md v1.1 → per-entity valence dynamics
-    Body-Base/Body-Coupling.md v3.0 → coupling, 4 bond types, Hardware-Subsidy
-    Collective/Collective-Body.md v2.1 → Model 3 cấp
-    Body-Base/Body-Base.md v3.3 → entry point cho Body-Base system
-    AI-Schema-Detection.md v2.1 → AI-assisted schema detection
+    Body-Base/Feeling/Feeling.md v2.0 → feeling = PFC observation, 7-layer, 8-step flow
+    Body-Base/Valence-Propagation.md v3.0 → structural/current valence, 3 firing modes, per-entity
+    Body-Base/Body-Coupling.md v3.0 → coupling, 4 bond types, hardware-subsidy, Resonance Decline
+    Collective/Collective-Body.md v2.1 → Model 3 cấp (Individual → Collective → Framework)
+    Body-Base/Body-Base.md v3.2 → entry point cho Body-Base system
+      → §3: Simulation-Engine + Entity-Access + Bond-Architecture
+      → §4: Entity-Compiled, valence propagation trên chunk substrate
+    AI-Schema-Detection.md v2.0 → AI-assisted schema detection
+      → §3⑥: chunk depth inference từ verbal output
 
   MECHANISM FILES:
-    Schema/Schema.md v1.1 → schema = chunk network with purpose
-    Schema/Anchor-Schema.md → anchor + trust (Clarity × Quality × Trust)
+    Schema/Schema.md v1.1 §1.1 → schema = chunk network with purpose
+    Schema/Anchor-Schema.md → anchor + trust (3 chiều: Clarity × Quality × Trust)
+    Observation/Drive.md v1.1 → drive integration, melody lens
+    Observation/Novelty.md + Threat.md → drive mechanisms
     Observation/Boredom.md v2.0 → by-product match dừng, Resonance Decline
     Agent-Mechanism/Agent-Mechanism.md v2.1 → 10 dimensions per-entity
-    PFC/Simulation-Engine.md v1.1 → 1 engine, 3 components, N applications
+    PFC/Simulation-Engine.md v1.0 → 1 engine, 3 components, N applications
     PFC/PFC-Label.md v1.0 → vocabulary reference, 13 domains
-    Logic-Feeling.md v4.0 → Body-Knowing + observer labels, Compiled/Fresh
+    PFC/PFC-Operations.md v1.0 → operational mechanisms
+    Logic-Feeling.md → Body-Knowing + observer labels, Compiled/Fresh
     Somatic-Articulation-Loop.md → body → explicit knowledge
 
   ANALYSIS FILES:
-    PFC/PFC-Function.md v1.2 → 24 functions, 95/5 split
+    PFC/PFC-Function.md → 24 functions, 95/5 split
     Imagination/Imagine-Final.md v3.0 → hardware prediction ≠ Imagine-Final
+    Imagination/Imagination-Analysis.md → process file
+    Body-Base/Body-Input-Enumeration.md → L0/L1 input catalog
+    Domain/Domain-Mapping-Drive.md → 3 loại threat + transition
 
-  HEALTH CONDITIONS DRILL (reverse propagation):
-    PTSD-Analysis.md v1.0 → §2 context-tag model, §14 formalization
-    Alzheimer-Analysis.md v1.1 → §5 synapse loss, §6 "last in first out"
+  BACKUP (superseded):
+    Schema/backup/Chunk-Search-Advanced.md → superseded by §4 file NÀY
+    Schema/backup/Chunk-Practical.md → tools, failure modes
+
+  HEALTH CONDITIONS DRILL (v2.2 — reverse propagation):
+    PTSD-Analysis.md v1.0 → §2 context-tag model, §3 two encoding pathways, §14 formalization
+    Alzheimer-Analysis.md v1.1 → §5 synapse loss/chunk degradation, §6 "last in first out"
     → Informed: §2.6 (context-tag), §5.4 (compile depth validation)
 ```
 
-### §11.3 — Key academic references
+### §13.3 — Key academic references
 
 ```
   CHUNK FOUNDATION:
@@ -1547,7 +1571,7 @@ LINK STRENGTH = f(7 factors):
 
 ---
 
-## §12 — Status
+## §14 — Status
 
 ```
 ✅ CHUNK.MD V2.0 COMPLETE (2026-04-17)
@@ -1623,61 +1647,23 @@ LINK STRENGTH = f(7 factors):
           Agent/→Agent-Mechanism/). +Simulation-Engine, +PFC-Label, +PFC-Operations, +Boredom v2.0.
 
   Source: plan-concept-cascade-refine.md Phase A2
-
-✅ V3.0 RESTRUCTURE (2026-06-01):
-
-  ARCHITECTURE ALIGNMENT with Compile-Taxonomy v3.0 + Compile-Sleep v1.0:
-
-  §0 NEW: Vị trí trong framework + reading flow + folder overview
-  §2.1 REFRAME: "4 mechanisms riêng biệt" → "1 Engine + 4 dạng exposure"
-    + 3 Compile Types = dominant modulator configurations
-    + 3 Modulators (Entity-Valence Bias, PFC Modulation, 3 Exposure Channels)
-  §2.3 TRIM: Trust detail (~100→~45 dòng) → Compile-Taxonomy.md v3.0 §3
-    + Trust scope VALUE vs CONTENT distinction
-  §2.7 NEW: Sleep Maintenance summary (6 mechanisms table)
-    → Chi tiết: Compile-Sleep.md v1.0
-  §8 REWRITE: Merge old §8+§9+§10 (~285→~175 dòng) → "Operators × Chunk System"
-    §8.1: Two Operators (keep core + PFC-Inference Ladder + Simulation-Engine ref)
-    §8.2: PFC Operations Hold/Suppress (new, from PFC-Operations.md v1.3)
-    §8.3: 3 Exposure Channels (new, from Compile-Taxonomy.md v3.0 §1.3)
-    §8.4: Body Evaluate 5 Preconditions (new, from Body-Feedback-Precondition.md v1.0)
-    §8.5: Feeling-Intuition Gradient (keep, trimmed)
-    §8.6: Domain-Checked vs Self-Referencing (keep, trimmed)
-  Old §9 "PFC Search (4 Modes)" REMOVED: superseded by §8.2+§8.3
-  Old §10 "Body Evaluate" ABSORBED into §8.4-§8.6
-  §9-§12 renumbered (old §11→§9, §12→§10, §13→§11, §14→§12)
-  §10 Honest Assessment: +9 new 🟡 items (compile architecture concepts)
-  §11 Cross-References: +Compile-Taxonomy v3.0, +Compile-Sleep v1.0,
-    version updates throughout
-
-  NET: ~1,670 → ~1,540 dòng (~-130). Quality TĂNG:
-    Remove duplicate với Compile-Taxonomy v3.0
-    Align PFC-Operations v1.3 (Hold/Suppress/Budget)
-    Align Body-Feedback-Precondition v1.0 (5 preconditions)
-    +6 missing concepts integrated
-    Cross-refs modernized
-
-  Source: plan-chunk-v3-restructure.md
-  Backup: backup/Chunk-v2.3-backup.md
 ```
 
 ---
 
-> **Chunk.md v3.0 — "Não = database + 2 operators."**
+> **Chunk.md v2.3 — "Não = database + 2 operators."**
 >
 > Chunk = strength-weighted associative network compiled through experience.
-> ALL compile = Exposure → Hebbian (1 Engine). 3 Compile Types = modulator configs.
+> 4 compile mechanisms × 5-parameter formula × 5 external install mechanisms.
 > 4 connection types: contamination + aha + meta-chunk + deliberate linking.
 > Core mechanism: probability distribution + competitive re-linking + trigger surface.
 > Trauma = expertise = CÙNG cơ chế, KHÁC hướng.
 > Entity-Compiled = neural reality khi compile đủ sâu per-entity.
-> PFC Operations: Hold + Suppress, 4 combinations, 3 outcomes, finite budget.
-> 3 Exposure Channels: External / Deliberate / Spontaneous (song song).
-> Body-feedback: 5 Preconditions conjunction (all met → signal fires).
+> Simulation-Engine = formalized PFC mechanism (1 engine, 3 components).
+> Entity-Access gradient Mức 0-5 = trust formalized.
 > Context-tag: 4 metadata types → contextual vs context-free chunks.
 > Compile depth predicts resistance — Alzheimer "last in first out" confirms.
 > 7-step discovery: Accumulate → Vague → Curious → Clarify → Label → Plan → Repeat.
 > "Con người cần FEEL đúng → AI sẽ giúp PLAN đúng."
 >
-> Architecture details → Compile-Taxonomy.md v3.0 + Compile-Sleep.md v1.0.
-> Phiên bản: v3.0, 2026-06-01.
+> Phiên bản: v2.3, 2026-05-23.

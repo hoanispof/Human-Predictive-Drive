@@ -18,8 +18,8 @@
 > **Mục đích:** Phân tích cơ chế, spectrum, hậu quả, và giải pháp
 > của education arms race qua lens framework + game theory + data thực.
 > **Reference:**
->   Education-Mechanism.md v2.0 (đặc biệt §3.3 — 3 ORIGIN threat, §3.5 Anchor legacy)
->   Education-Mechanism.md v2.0 §3 (Bridge + Motivation — 4 nguồn fill, transition)
+>   Education-Mechanism.md v2.1 (đặc biệt §3.3 — 3 ORIGIN threat, §3.5 Anchor legacy)
+>   Education-Mechanism.md v2.1 §3 (Bridge + Motivation — 4 nguồn fill, transition)
 >   Domain-Mapping-Drive.md (đặc biệt §7.2, §8 Barriers)
 >   Threat.md §5.5 (3 ORIGIN taxonomy)
 >   Anchor-Schema.md (4 nguồn fill)
@@ -1001,7 +1001,7 @@
 BỘ 3 EDUCATION (v1.3)
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.0 ⭐ (§2.2 Direction, §3.3 3 ORIGIN, §3.5 Anchor)
+→ Education-Mechanism.md v2.1 ⭐ (§2.2 Direction, §3.3 3 ORIGIN, §3.5 Anchor)
 → Domain-Knowledge-Map.md v2.0 (§1 Foundation, §3 Per-Hardware)
 → Connection-Education.md v1.0 (social connection trong arms race culture)
 
@@ -1009,7 +1009,7 @@ BỘ 3 EDUCATION (v1.3)
 TẦNG 3 META — NỀN LÝ THUYẾT
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.0 ⭐
+→ Education-Mechanism.md v2.1 ⭐
    §2.2 Direction > Level (approach/avoidance tags — arms race = avoidance factory)
    §3.3 3 ORIGIN Threat Applied to Education (Domain/Peer/Imposed)
    §3.1 Bridge = Nguồn ④ (arms race = nguồn ④ dominate 12+ năm)

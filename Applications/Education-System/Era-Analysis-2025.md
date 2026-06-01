@@ -23,7 +23,7 @@ position: |
   Trong folder: Education-System.md v3.0 (anchor) → file này (era fill).
 dependencies:
   education-foundation:
-    - Education-Mechanism.md v2.0 — HOW: nguyên lý arc design (bộ 3)
+    - Education-Mechanism.md v2.1 — HOW: nguyên lý arc design (bộ 3)
     - Domain-Knowledge-Map.md v2.0 — WHAT: bản đồ nhóm kiến thức (bộ 3)
     - Connection-Education.md v1.0 — WHO: social interaction education (bộ 3)
   education-observation:
@@ -46,7 +46,7 @@ dependencies:
     - Gap-Distribution-Profile.md v1.1 — era changing gap landscape
     - Body-Base.md v3.1 — Model 3+1
   child-dev:
-    - Child-Development-Mechanism.md v2.0 — developmental timeline
+    - Child-Development-Mechanism.md v2.2 — developmental timeline
   application:
     - Education-System.md v3.0 — system stages + roles, ENGINE/ROAD/VEHICLE
     - Hardware-Calibration.md v1.1 — per-individual calibration
@@ -117,7 +117,7 @@ durability: |
 ```
 TẠI SAO CẦN FILE NÀY:
 
-  Education-Mechanism.md v2.0 = HOW (nguyên lý arc design, valid mọi era)
+  Education-Mechanism.md v2.1 = HOW (nguyên lý arc design, valid mọi era)
   Education-System.md v3.0 = SYSTEM (stages × roles × assessment)
   File NÀY = ERA CONTEXT → fill vào khung
 
@@ -222,7 +222,7 @@ EMERGING (chưa rõ education impact):
   = Education system (change cycle: 5-10 năm) << AI (change cycle: 6-12 tháng)
   = GAP education vs era change speed = LỚN NHẤT ever
   = STRENGTHENS case for principles-based approach
-    (Education-Mechanism v2.0 §0.3 — vô vàn cách dạy, framework cho nguyên lý)
+    (Education-Mechanism v2.1 §0.3 — vô vàn cách dạy, framework cho nguyên lý)
     (Vì: content-based education = outdated TRƯỚC KHI implement xong)
 
   🟡 SIMULATION ENGINE LENS (Simulation-Engine.md v1.0):
@@ -251,7 +251,7 @@ EMERGING (chưa rõ education impact):
     → "Biết ĐÁNH GIÁ" = giá trị → AI có thể SAI (hallucination, bias)
     → Teacher ≠ knowledge source → AI biết NHIỀU hơn teacher
       → Teacher = CALIBRATOR, MENTOR
-      (Education-Mechanism v2.0 §4.1 — Layer 2 Teacher/Parent Calibrator)
+      (Education-Mechanism v2.1 §4.1 — Layer 2 Teacher/Parent Calibrator)
 
   CHUNK THRESHOLD GIẢM 🟡:
     → Trước: vào flow trong 1 domain = cần TÍCH LŨY đủ chunks (years)
@@ -260,7 +260,7 @@ EMERGING (chưa rõ education impact):
     → = Threshold vào domain GIẢM → accessible cho NHIỀU người
     → = "Biết hỏi" + body-base check (approach/avoidance) > "biết nhiều"
     → ⚠️ Foundation VẪN CẦN human build
-      (Education-Mechanism v2.0 §2.4 — prerequisite check: chunks nền phải compiled)
+      (Education-Mechanism v2.1 §2.4 — prerequisite check: chunks nền phải compiled)
 
 
 🟡 JOB MARKET THAY ĐỔI:
@@ -294,7 +294,7 @@ EMERGING (chưa rõ education impact):
     → Per-hardware calibration = historically EXPENSIVE (1-on-1 human tutor)
     → AI tutor: per-pace, per-level, instant feedback, 24/7
     → = Per-individual AT SCALE cho first time in history
-      (Education-Mechanism v2.0 §4.1 — Layer 1 AI Arc Generator)
+      (Education-Mechanism v2.1 §4.1 — Layer 1 AI Arc Generator)
     → ⚠️ AI = no emotion reading, no body-base sensing, no social context
     → = AI tutor + human teacher = COMPLEMENT
       (Education-System v3.0 §9 — integration model)
@@ -315,7 +315,7 @@ EMERGING (chưa rõ education impact):
     → = Cortisol amplification từ chronic overload
       (Cortisol-Baseline.md v2.1 — chronic low-grade = most common modern pattern)
     → = Recovery, sleep, offline time = QUAN TRỌNG HƠN
-      (Education-Mechanism v2.0 §2.8 — consolidation = phần của education)
+      (Education-Mechanism v2.1 §2.8 — consolidation = phần của education)
     → = Education must ALSO teach: manage information, not just consume
 ```
 
@@ -328,30 +328,30 @@ EMERGING (chưa rõ education impact):
 
 
 🟢 BRAIN MECHANISM = SAME (ENGINE KHÔNG ĐỔI):
-  (Child-Development-Mechanism v2.0 + Education-Mechanism v2.0)
+  (Child-Development-Mechanism v2.2 + Education-Mechanism v2.1)
 
   → Chunk compilation: vẫn cần repetition, emotion, multi-modal, sleep
-    (Child-Dev-Mechanism v2.0 §2 — 4+1 kênh compile, 5-parameter formula)
+    (Child-Dev-Mechanism v2.2 §2 — Compile Architecture, 5-parameter formula)
   → PFC vs unconscious: "hiểu" vẫn ≠ "biết làm" → practice VẪN cần
   → Approach/avoidance: direction > level → cách dạy vẫn quyết định tag suốt đời
-    (Education-Mechanism v2.0 §2.2 — nguyên lý quan trọng nhất)
+    (Education-Mechanism v2.1 §2.2 — nguyên lý quan trọng nhất)
   → Cortisol amplifier: vẫn cần moderate challenge + recovery
     (Cortisol-Baseline.md v2.1 — 5 Roles, direction > level)
   → Body-base: vẫn cần experiential, hands-on → verbal-only = incomplete
     (Body-Base.md v3.1 — Model 3+1, body = processing channel)
   → Imagine-Final: vẫn cần PURPOSE trước CONTENT
-    (Education-Mechanism v2.0 §2.6 — Imagine-Final before content)
+    (Education-Mechanism v2.1 §2.6 — Imagine-Final before content)
   → Sleep consolidation: vẫn = khi não thực sự compile deep
-    (Education-Mechanism v2.0 §2.8 — consolidation = education)
+    (Education-Mechanism v2.1 §2.8 — consolidation = education)
   → Sensitive periods: vẫn = developmental timeline guides
-    (Child-Dev-Mechanism v2.0 §9 — observation parameters)
+    (Child-Dev-Mechanism v2.2 §9 — observation parameters)
 
   = Brain mechanism = SAME dù AI era → 8 nguyên lý arc design HOLD
   = FORMAT delivery thay đổi → mechanism = unchanged
 
 
 🟢 HUMAN DEVELOPMENT TIMELINE = SAME:
-  (Child-Dev-Mechanism v2.0 + Education-System v3.0 §1)
+  (Child-Dev-Mechanism v2.2 + Education-System v3.0 §1)
 
   → 0-6: foundation wiring (tự nhiên — Child-Dev bộ 4)
   → 6-12: foundation chunking (guided — Stage 2)
@@ -449,7 +449,7 @@ EMERGING (chưa rõ education impact):
      → AI tutor CÓ THỂ: per-pace, per-level, instant feedback, 24/7
      → AI tutor CHƯA THỂ: read emotion, sense body, social context
      → Current: SUPPLEMENT (AI + human teacher > either alone)
-       (Education-Mechanism v2.0 §4.1 — 3-layer: AI + Teacher + Student)
+       (Education-Mechanism v2.1 §4.1 — 3-layer: AI + Teacher + Student)
      → Future: AI thêm emotion reading? AI thêm social? → UNKNOWN
      → = Plan for "AI as Layer 1" → ready cho "AI role expanding"
      🔴 Prediction confidence: TRUNG BÌNH (1-2 năm) → THẤP (5+ năm)
@@ -491,7 +491,7 @@ TỔNG HỢP — CÁI CHẮC CHẮN VỀ CÁI KHÔNG CHẮC CHẮN:
   ✓ AI relationships = phantom type → hidden risk cho social development
 
   = §4 STRENGTHENS principles-based approach
-    (Education-Mechanism v2.0 §0.3 — engine, không phải GPS)
+    (Education-Mechanism v2.1 §0.3 — engine, không phải GPS)
   = "Build người CÓ KHẢ NĂNG ADAPT" > "train người cho prediction cụ thể"
 ```
 
@@ -517,8 +517,8 @@ MỤC ĐÍCH:
   → "Learn to learn new things" > "learn specific things"
   → Content-based education = outdated TRƯỚC KHI implement xong
   → = Principles-based approach HOLDS
-    (Education-Mechanism v2.0 §0.3 — framework = engine, AI = runtime)
-  → ⚠️ Meta-learning CẦN foundation (Mechanism v2.0 §2.4 — prerequisite check)
+    (Education-Mechanism v2.1 §0.3 — framework = engine, AI = runtime)
+  → ⚠️ Meta-learning CẦN foundation (Mechanism v2.1 §2.4 — prerequisite check)
     → "Biết cách học mà không biết đọc" = useless
     → = Foundation + meta-learning = PAIR, không chọn 1
 
@@ -529,25 +529,25 @@ MỤC ĐÍCH:
   → Information curation = critical era-skill (Domain-Knowledge-Map v2.0 §2.2)
   → Chunk threshold vào domain GIẢM → accessible hơn
   → Foundation chunks VẪN CẦN human build
-    (Mechanism v2.0 §2.4 — prerequisite: foundation compiled → mới build tiếp)
+    (Mechanism v2.1 §2.4 — prerequisite: foundation compiled → mới build tiếp)
   → Teacher role shifts: knowledge source → calibrator
-    (Mechanism v2.0 §4.1 Layer 2 — feel-check, adjust, override)
+    (Mechanism v2.1 §4.1 Layer 2 — feel-check, adjust, override)
   → = Education cần teach EVALUATE + SYNTHESIZE, không chỉ MEMORIZE
   → = Depth assessment quan trọng hơn:
     "AI trả lời hộ → sao biết STUDENT hiểu?"
-    (Mechanism v2.0 §2.9 — assess depth, not surface)
+    (Mechanism v2.1 §2.9 — assess depth, not surface)
 
 
 ③ AI AS EDUCATION TOOL → PER-INDIVIDUAL AT SCALE
 
   → Per-student calibration AT SCALE — first time in history
-    (Mechanism v2.0 §2.3 — cost formula per student: AI CÓ THỂ compute)
-  → AI = Layer 1 in 3-layer model (Mechanism v2.0 §4.1):
+    (Mechanism v2.1 §2.3 — cost formula per student: AI CÓ THỂ compute)
+  → AI = Layer 1 in 3-layer model (Mechanism v2.1 §4.1):
     AI generate arc + Teacher calibrate + Student verify
   → = Cơ hội LỊCH SỬ cho education reform
   → ⚠️ Risks:
     → AI dependency = bridge not withdrawn
-      (Mechanism v2.0 §3.1 — bridge = nguồn ④, cần rút dần)
+      (Mechanism v2.1 §3.1 — bridge = nguồn ④, cần rút dần)
     → AI optimize surface (L1 correct answer) → miss depth (L2-L4)
     → Over-reliance: student compile "ask AI" thay vì "think"
   → = AI = TOOL, not REPLACEMENT → implementation = key
@@ -562,10 +562,10 @@ MỤC ĐÍCH:
   → Social media comparison = new peer threat source
     (Type 2 PEER — but at unprecedented SCALE + FREQUENCY)
   → Attention fragmentation → compile efficiency GIẢM
-    (Mechanism v2.0 §2.8 — consolidation CẦN recovery, not more input)
+    (Mechanism v2.1 §2.8 — consolidation CẦN recovery, not more input)
   → = Recovery, sleep, offline time = QUAN TRỌNG HƠN bao giờ hết
   → = Direction > Level applies: approach vs avoidance CHO digital use
-    (Mechanism v2.0 §2.2)
+    (Mechanism v2.1 §2.2)
   → = "Digital wellbeing" = NOT luxury → = cortisol management skill
     (Domain-Knowledge-Map v2.0 §2.6 — era-specific domain)
 
@@ -729,7 +729,7 @@ KẾT NỐI:
 TẦNG 3 — "BỘ 3" NỀN TẢNG (Research/Education/)
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.0 — ⭐ HOW: NGUYÊN LÝ ARC DESIGN
+→ Education-Mechanism.md v2.1 — ⭐ HOW: NGUYÊN LÝ ARC DESIGN
   §2 8+ nguyên lý (file NÀY confirm era strengthens ALL).
   §3 Bridge (file NÀY: AI = new bridge type, risk dependency).
   §4 AI-Assisted Model (file NÀY: era ENABLES model).
@@ -814,7 +814,7 @@ AGENT-ENTITY + BODY-FEEDBACK (Tầng 1)
 CHILD-DEV (Tầng 2)
 ═══════════════════════════════════════════════════════
 
-→ Child-Development-Mechanism.md v2.0 — Developmental timeline
+→ Child-Development-Mechanism.md v2.2 — Developmental timeline
   File NÀY §3: brain mechanism = same, timeline = same.
 
 

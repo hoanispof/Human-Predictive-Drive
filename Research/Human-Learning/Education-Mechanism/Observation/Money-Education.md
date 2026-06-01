@@ -31,13 +31,13 @@ position: |
   File này BUILD TRÊN:
     - Money-Analysis.md v1.0 (SYNTHESIS tiền qua framework — 5 câu hỏi, 1,826L)
     - Education-Mechanism.md v1.0 (8 nguyên lý arc design, bridge)
-    - Child-Development-Mechanism.md (4+1 compile, approach/avoidance tags)
+    - Child-Development-Mechanism.md v2.2 (Compile Architecture, approach/avoidance tags)
     - Background-Pattern.md v2.0 (2D model Depth×Density, invisible bias)
 dependencies:
   primary:
     - Money-Analysis.md v1.0 — 3-layer def, 5 functions, 6 paths, gap shift, Valence-Structural×tiền
-    - Education-Mechanism.md v2.0 — 8 nguyên lý, bridge, 4 nguồn fill, approach/avoidance
-    - Child-Development-Mechanism.md — PFC reframe, 4+1 compile, approach/avoidance tags
+    - Education-Mechanism.md v2.1 — 8 nguyên lý, bridge, 4 nguồn fill, Multi-Stream
+    - Child-Development-Mechanism.md v2.2 — PFC reframe, Compile Architecture, approach/avoidance tags
     - Background-Pattern.md v1.0 — 2D model, sleep accelerator, invisible bias
   secondary:
     - Obligation.md v1.0 — §5.2 tiền = obligation technology, 6-type spectrum
@@ -252,31 +252,34 @@ FILE NÀY TRẢ LỜI:
 ```
 ⭐ COMPILE LIÊN TỤC, VÔ THỨC, TỪ NGÀY ĐẦU:
 
-  4+1 kênh compile ĐANG CHẠY cho money schemas:
+  COMPILE ARCHITECTURE ĐANG CHẠY cho money schemas:
 
-  Kênh ① REPETITION:
+  4 dạng exposure qua cùng 1 Engine (Hebbian):
+
+  Dạng ① REPETITION:
     → Trẻ THẤY bố mẹ mua hàng hàng ngày → "tiền → đồ"
     → Trẻ NGHE "đắt quá" hàng tuần → "chi tiêu = lo lắng"
     → Trẻ THẤY bố mẹ cãi nhau về tiền → "tiền = conflict"
     → Lặp lại 1,000+ lần → chunk MẠNH dù mỗi lần nhẹ
 
-  Kênh ② EMOTIONAL PEAK:
+  Dạng ② EMOTIONAL PEAK:
     → Bố mẹ stress về tiền → cortisol cao → trẻ detect qua body
     → "Tháng này khó khăn" + mặt mẹ căng → chunk compile MẠNH
     → Ngược lại: "Con được thưởng!" + mặt bố vui → approach tag
 
-  Kênh ③ MULTI-MODAL:
+  Dạng ③ MULTI-MODAL:
     → Trẻ SỜ tiền xu, THẤY tờ tiền, NGHE tiếng "keng keng"
     → Vào siêu thị: MÙI, ÂM THANH, thấy bố mẹ SCAN thẻ
     → Rich encoding → chunks compile sâu hơn lời dạy
 
-  Kênh ④ SLEEP CONSOLIDATION:
-    → Hàng đêm: gist extraction → "tiền = IMPORTANT" abstract
-    → Sleep accelerate pattern → Background-Pattern hình thành
+  Dạng ④ SLEEP MAINTENANCE (Compile-Sleep.md v1.0):
+    → Hàng đêm: Gist Extraction → "tiền = IMPORTANT" abstract
+    → Hippocampal Replay → strengthen money patterns
+    → Sleep Maintenance accelerate → Background-Pattern hình thành
 
-  Kênh ⑤ EXTERNAL INSTALL:
+  + TRUST COMPILE PATHWAY (Entity-Valence dominant):
     → Lời bố mẹ trực tiếp: "Phải tiết kiệm", "Tiền không mọc trên cây"
-    → Nhưng kênh này YẾU NHẤT nếu không có ①②③④ hỗ trợ
+    → Nhưng Trust Compile YẾU NHẤT nếu không có ①②③④ hỗ trợ
     → = Đây là lý do "dạy bằng lời" KHÔNG ĐỦ
 
 
@@ -286,7 +289,7 @@ FILE NÀY TRẢ LỜI:
     → Money education THẬT SỰ = ý thức về CÁI GÌ đang compile
     → Không dạy = KHÔNG phải "không compile" — mà compile NGẪU NHIÊN
 
-  🟡 4+1 compile channels applied to money = framework synthesis
+  🟡 Compile Architecture applied to money = framework synthesis
   🟢 Parental involvement = strongest predictor (CFPB literature review)
 ```
 
@@ -437,8 +440,8 @@ FILE NÀY TRẢ LỜI:
 
   NGUYÊN NHÂN GỐC:
 
-    Current money education = Kênh ⑤ External Install (lời dạy)
-    → Kênh ⑤ = YẾU NHẤT trong 4+1 compile
+    Current money education = Trust Compile pathway (lời dạy)
+    → Trust Compile alone = YẾU NHẤT nếu không có ①②③④
     → Thiếu: ② Emotional peak (trải nghiệm cảm xúc)
     → Thiếu: ③ Multi-modal (sờ, nghe, thấy, làm)
     → Thiếu: ① Repetition (chỉ dạy 1-2 buổi rồi thôi)
@@ -585,7 +588,7 @@ FILE NÀY TRẢ LỜI:
   ┌───┬───────────────────────────┬────────────────────────────────────────┐
   │ # │ Failure mode              │ Framework mechanism                    │
   ├───┼───────────────────────────┼────────────────────────────────────────┤
-  │ ① │ Knowledge-behavior gap    │ Kênh ⑤ only → PFC but not body        │
+  │ ① │ Knowledge-behavior gap    │ Trust Compile only → PFC not body     │
   │   │ (classroom instruction)   │ → chunks KHÔNG compile deep           │
   ├───┼───────────────────────────┼────────────────────────────────────────┤
   │ ② │ Overjustification         │ External reward source OVERRIDE        │
@@ -650,10 +653,10 @@ FILE NÀY TRẢ LỜI:
     → Trải nghiệm NHỎHẾT TIỀN → body learn "hữu hạn"
       BẤT KỲ bài giảng nào về "hữu hạn" KHÔNG MẠNH BẰNG
     → 1 trải nghiệm tự mua → 10 bài giảng về tiền
-    → Vì: ②③ compile MẠNH HƠN ⑤ về chunks
+    → Vì: Experience Compile (②③) MẠNH HƠN Trust Compile về chunk depth
 
   🟢 Experiential learning > classroom: CFPB literature review
-  🟡 4+1 compile applied to money = framework synthesis
+  🟡 Compile Architecture applied to money = framework synthesis
 ```
 
 ### §3.2 — Nguyên lý 2: Approach direction LUÔN LUÔN (Direction > Level)
@@ -873,7 +876,8 @@ FILE NÀY TRẢ LỜI:
   ┌────┬──────────────────────────────────┬────────────────────────────────┐
   │ #  │ Nguyên lý                        │ Framework basis                │
   ├────┼──────────────────────────────────┼────────────────────────────────┤
-  │ 1  │ Experience > Lecture             │ 4+1 compile: ①②③ > ⑤          │
+  │ 1  │ Experience > Lecture             │ Compile Architecture: ①②③ >    │
+  │    │                                │ Trust Compile alone             │
   │ 2  │ Approach direction LUÔN LUÔN     │ Direction > Level (Ed-Mech §2) │
   │ 3  │ Goldilocks: đủ, không quá dư    │ Reward-Calibration §1          │
   │ 4  │ Natural > Imposed consequences   │ 3 ORIGIN (Threat §5.5)         │
@@ -907,9 +911,9 @@ FILE NÀY TRẢ LỜI:
     → Đang compile: object permanence, ownership basic, "mine/yours"
 
   CÁI ĐANG COMPILE (GIÁN TIẾP):
-    → Kênh ① Repetition: THẤY bố mẹ mua hàng → "tiền → đồ"
-    → Kênh ② Emotional: FEEL stress/vui khi bố mẹ nói về tiền
-    → Kênh ③ Multi-modal: sờ tiền xu, nghe tiếng máy tính tiền
+    → Dạng ① Repetition: THẤY bố mẹ mua hàng → "tiền → đồ"
+    → Dạng ② Emotional: FEEL stress/vui khi bố mẹ nói về tiền
+    → Dạng ③ Multi-modal: sờ tiền xu, nghe tiếng máy tính tiền
     → = Background-Pattern NỀN TẢNG đang hình thành
 
   BỐ MẸ NÊN LÀM:
@@ -1401,7 +1405,7 @@ FILE NÀY TRẢ LỜI:
     → Link Density CAO: lặp lại ở nhiều context (nhà, họ hàng, Tết)
     → Multi-source: bố + mẹ + ông bà + cô dì → confirm
     → Emotional peak: shame khi bị so sánh trước mặt khách
-    → = 3/4 kênh compile cùng fire → Background-Pattern compile CỰC MẠNH
+    → = 3 dạng exposure cùng fire → Background-Pattern compile CỰC MẠNH
 
   GIẢI PHÁP:
     → KHÔNG so sánh giàu/nghèo giữa các gia đình
@@ -1689,7 +1693,7 @@ FILE NÀY TRẢ LỜI:
 ```
 ⭐ BẤT KỂ AI ERA NÀO — NÃO VẪN:
 
-  → Compile chunks qua 4+1 channels
+  → Compile chunks qua Compile Architecture (1E+3M)
   → Tag approach/avoidance qua direction
   → Background-Pattern invisible qua Link Density
   → Overjustification khi external kill internal
@@ -1870,8 +1874,8 @@ NỀN TẢNG TRỰC TIẾP
   8 nguyên lý (§2), bridge mechanism (§3), 4 nguồn fill (§3.4),
   approach/avoidance (§2.2), prerequisite (§2.4), AI model (§4).
 
-→ Child-Development-Mechanism.md — CƠ CHẾ PHÁT TRIỂN TRẺ
-  PFC reframe (§1), 4+1 compile (§2), approach/avoidance tags (§3),
+→ Child-Development-Mechanism.md v2.2 — CƠ CHẾ PHÁT TRIỂN TRẺ
+  PFC reframe (§1), Compile Architecture (§2), approach/avoidance tags (§3),
   chunk dynamics (§4), cortisol baseline (§8).
 
 

@@ -7,7 +7,7 @@
 > **Vị trí:** TẦNG 5 — Country/VN (File 3/3 — output file)
 > **Phụ thuộc:**
 >   EDUCATION-FOUNDATION (Tầng 3 "bộ 3"):
->     Education-Mechanism.md v2.0 (HOW — 8 nguyên lý + 12 new concepts),
+>     Education-Mechanism.md v2.1 (HOW — 8 nguyên lý + 12 new concepts),
 >     Domain-Knowledge-Map.md v2.0 (WHAT — 3-tier taxonomy + new concept mapping),
 >     Connection-Education.md v1.0 (WHO — 5 khía cạnh social-emotional education)
 >   EDUCATION-SYSTEM (Tầng 4):
@@ -38,7 +38,7 @@
 >     Gap-Body-Need.md v1.0 (ENGINE/ROAD/VEHICLE §9),
 >     Simulation-Engine.md v1.1 (AI simulation model)
 >   TẦNG 5 VN:
->     VN-Education-Status.md v2.1 (data + Mechanism v2.0 evaluation),
+>     VN-Education-Status.md v2.1 (data + Mechanism v2.1 evaluation),
 >     VN-Cultural-Factors.md v2.1 (8 cultural factors + leverage + risk)
 > **Bản trước:** backup/v2.0/VN-Recommendations.md (808L, v2.0, 2026-05-11)
 > **Thay đổi chính v2.0:** (see backup header — re-base from "10 NL" to Mechanism v1.0)
@@ -79,7 +79,7 @@ CÁCH DERIVE:
     → "Mỗi người = best version CỦA MÌNH + đóng góp có ý nghĩa"
     → ENGINE/ROAD/VEHICLE (Gap-Body-Need v1.0 §9):
       Education = ROAD DESIGN tốt + giúp ENGINE (student) build VEHICLE (compiled chains)
-    → "Bộ 3": HOW (Mechanism v2.0) + WHAT (Domain-Knowledge-Map v2.0) + WHO (Connection-Education v1.0)
+    → "Bộ 3": HOW (Mechanism v2.1) + WHAT (Domain-Knowledge-Map v2.0) + WHO (Connection-Education v1.0)
     → System: mechanism-based, per-individual, genuine-compiled, gap landscape diverse
 
   + VN CONTEXT (VN-Education-Status v2.1 + VN-Cultural-Factors v2.1):
@@ -108,9 +108,9 @@ IMAGINE-FINAL VN — NẾU LÀM ĐÚNG: 🟡→🔴
   ① CHO HỌC SINH VN:
      → Foundation RỘNG (Domain-Knowledge-Map v2.0 §1: 6 Foundation Domains, không chỉ cognitive+linguistic)
        → GIỮ strength literacy/numeracy + MỞ RỘNG emotional, creative, meta
-     → Per-hardware calibration (Mechanism v2.0 §2.3 + Hardware-Calibration v1.1)
+     → Per-hardware calibration (Mechanism v2.1 §2.3 + Hardware-Calibration v1.1)
        → KHÔNG BỊ LABEL "lười", "kém" → MÀ: "hardware profile em = thế này"
-     → Imagine-Final TỰ XÂY (Mechanism v2.0 §2.6 — nguồn ① PFC)
+     → Imagine-Final TỰ XÂY (Mechanism v2.1 §2.6 — nguồn ① PFC)
        → "Đổi đời BẰNG CÁCH CỦA MÌNH" — giữ energy, đổi direction
      → Direction đúng — approach-tagged, genuine-compiled:
        → "Thích học" thay "sợ thi" (Compiled Quality: genuine > schema/threat)
@@ -160,7 +160,7 @@ IMAGINE-FINAL VN — NẾU LÀM ĐÚNG: 🟡→🔴
      → Compiled Quality shift → "biết VÀ thích" thay "biết mà ghét"
      → Connection-Education → social cohesion không dựa trên Imposed compliance
      → Mental health CẢI THIỆN (22.8% trầm cảm → giảm khi compound dissonance addressed)
-     → I×S balance (Mechanism v2.0 §1.3): cá nhân MUỐN + CÓ THỂ + xã hội CẦN = overlap
+     → I×S balance (Mechanism v2.1 §1.3): cá nhân MUỐN + CÓ THỂ + xã hội CẦN = overlap
      = "XH VN: ít lãng phí + diverse workforce + genuine learning culture"
 
   ⑤ CHO DTTS + RURAL:
@@ -200,7 +200,7 @@ MỤC ĐÍCH:
 
 ```
 QW-1: DIRECT-STATE RECOVERY + SHIFT DIRECTION 🔴
-  Mechanism v2.0 §2.2 (Direction > Level) + §3.3 (3 ORIGIN)
+  Mechanism v2.1 §2.2 (Direction > Level) + §3.3 (3 ORIGIN)
   + Dissonance-Signal-Architecture v1.0 + PFC-Label v1.0 §9 (PFC Budget)
   Cultural leverage: ⑤ Reframe "khổ trước sướng sau"
 
@@ -212,7 +212,7 @@ QW-1: DIRECT-STATE RECOVERY + SHIFT DIRECTION 🔴
 
   ACTIONS CỤ THỂ:
 
-  a) Direct-State Recovery — sleep protection (Mechanism v2.0 §2.8 + PFC Budget)
+  a) Direct-State Recovery — sleep protection (Mechanism v2.1 §2.8 + PFC Budget)
      → Homework cap per grade: tiểu học ≤30 phút, THCS ≤60, THPT ≤90
      → Evidence: 80% THPT ngủ <7h → PFC cạn kiệt → consolidation CẮT
      → PFC Budget: sleep = PFC recovery mechanism → thiếu = next-day capacity GIẢM
@@ -233,7 +233,7 @@ QW-1: DIRECT-STATE RECOVERY + SHIFT DIRECTION 🔴
      → Show data: 22.8% trầm cảm, 66% HS nói PH = stress chính
      → Cost: LOW (parent programs qua school channel)
 
-  d) "Nghỉ = phần của học" reframe (Mechanism v2.0 §2.8 + Dissonance-Signal-Architecture v1.0)
+  d) "Nghỉ = phần của học" reframe (Mechanism v2.1 §2.8 + Dissonance-Signal-Architecture v1.0)
      → Dissonance-Signal-Architecture: "cố lên" khi Direct-State = LÀM TỒI HƠN (not better)
      → PFC Budget: "5 lần × 5 ngày > 25 lần × 1 ngày" (spacing > cramming)
      → Cultural reframe: discipline = do RIGHT thing ≠ overwork = do MORE things
@@ -244,7 +244,7 @@ QW-1: DIRECT-STATE RECOVERY + SHIFT DIRECTION 🔴
 
 
 QW-2: PER-HARDWARE RECOGNITION + ENTITY-ACCESS SEED 🟡
-  Mechanism v2.0 §2.3 (Cost Formula) + Hardware-Calibration v1.1
+  Mechanism v2.1 §2.3 (Cost Formula) + Hardware-Calibration v1.1
   + Entity-Access v1.2 + Entity-Compiled v1.0
   Cultural leverage: ① Teacher trust (92%) → GV nói → HS + PH tin
 
@@ -265,7 +265,7 @@ QW-2: PER-HARDWARE RECOGNITION + ENTITY-ACCESS SEED 🟡
      → Thay: "em chưa tìm cách phù hợp" = domain challenge → approach path
      → Cost: $0
 
-  c) Observe before judge (Mechanism v2.0 §2.7 — feedback loop)
+  c) Observe before judge (Mechanism v2.1 §2.7 — feedback loop)
      → GV dành 1 tuần đầu năm QUAN SÁT (không chấm điểm)
      → Entity-Compiled lens: observation = begin entity formation
        → 50 HS → formation time chia 50 → CẦN DESIGN observation time
@@ -277,7 +277,7 @@ QW-2: PER-HARDWARE RECOGNITION + ENTITY-ACCESS SEED 🟡
 
 
 QW-3: IMAGINE-FINAL MICRO + CONNECTION SEED 🟡
-  Mechanism v2.0 §2.6 (Imagine-Final) + Imagine-Final v3.0 (boundary)
+  Mechanism v2.1 §2.6 (Imagine-Final) + Imagine-Final v3.0 (boundary)
   + Connection-Education v1.0
   Cultural leverage: ① Trust + ⑦ Hierarchy (GV hỏi → HS suy nghĩ)
 
@@ -290,7 +290,7 @@ QW-3: IMAGINE-FINAL MICRO + CONNECTION SEED 🟡
      → = Imagine-Final mini per lesson → shift body state sang approach
      → Cost: $0 (30 giây đầu mỗi bài)
 
-  b) "Tại sao?" thay "Cái gì?" trong kiểm tra (Mechanism v2.0 §2.9)
+  b) "Tại sao?" thay "Cái gì?" trong kiểm tra (Mechanism v2.1 §2.9)
      → "1+1 = 2" = schema-compiled (nhớ, không hiểu)
      → "TẠI SAO 1+1 = 2? Giải thích cho bạn nhỏ hơn" = genuine-compiled
      → Compiled Quality: shift assessment signal từ schema → genuine compile
@@ -316,14 +316,14 @@ QW-3: IMAGINE-FINAL MICRO + CONNECTION SEED 🟡
 
 ```
 MT-1: TEACHER TRAINING — "BỘ 3" CALIBRATOR 🟡
-  Mechanism v2.0 §2.3, §2.7, §2.9 + Education-System v3.0 §7
+  Mechanism v2.1 §2.3, §2.7, §2.9 + Education-System v3.0 §7
   + Coordination-Node v1.2 + Entity-Compiled v1.0 + Hardware-Subsidy
   Cultural leverage: ① Trust = PLATFORM (92% tôn trọng, 97% hài lòng)
 
   ACTIONS CỤ THỂ:
 
   a) Chương trình "GV Calibrator" — training "bộ 3"
-     Module 1 — HOW: 8 nguyên lý arc design (Mechanism v2.0 §2)
+     Module 1 — HOW: 8 nguyên lý arc design (Mechanism v2.1 §2)
        → "Tại sao spacing > cramming?" "Tại sao approach > avoidance?"
        + PFC Budget: session timing design (ngắn+nghỉ > dài liên tục)
        + Dissonance-Signal-Architecture: nhận diện Evaluative vs Direct-State ở HS
@@ -336,7 +336,7 @@ MT-1: TEACHER TRAINING — "BỘ 3" CALIBRATOR 🟡
        → 5 khía cạnh social interaction → GV facilitate, không chỉ lecture
        + Coordination-Node: prestige (genuine resonance) > dominance (ép buộc)
        + Entity-Access: build toward Mức 2-3 genuine mentoring
-     Module 4 — BRIDGE: 4 nguồn fill (Mechanism v2.0 §3.1)
+     Module 4 — BRIDGE: 4 nguồn fill (Mechanism v2.1 §3.1)
        → Hardware-Subsidy quality: warm teacher > cold teacher
        → "CÁCH dạy quan trọng hơn NỘI DUNG dạy" qua subsidy lens
      → Format: 5 ngày intensive + follow-up hàng tháng
@@ -364,7 +364,7 @@ MT-1: TEACHER TRAINING — "BỘ 3" CALIBRATOR 🟡
 
 
 MT-2: ASSESSMENT REFORM — QUALITY > SURFACE 🟡
-  Mechanism v2.0 §2.9 + Compiled-Fresh v2.0 §5 (Compiled Quality Dimension)
+  Mechanism v2.1 §2.9 + Compiled-Fresh v2.0 §5 (Compiled Quality Dimension)
   + Gap-Distribution-Profile v1.1 + Dissonance-Signal-Architecture v1.0
 
   ACTIONS CỤ THỂ:
@@ -395,7 +395,7 @@ MT-2: ASSESSMENT REFORM — QUALITY > SURFACE 🟡
 
 
 MT-3: IMAGINE-FINAL PROGRAM + ENTITY-ACCESS 🟡
-  Mechanism v2.0 §2.6 + Imagine-Final v3.0 + Entity-Access v1.2
+  Mechanism v2.1 §2.6 + Imagine-Final v3.0 + Entity-Access v1.2
   + Simulation-Engine v1.1
 
   ACTIONS CỤ THỂ:
@@ -480,7 +480,7 @@ LT-1: CLASS SIZE REDUCTION — PFC + SUBSIDY + ENTITY 🟡→🔴
   → Entity-Access: Mức 2-3 possible ở 25, near-impossible ở 50
   → Cost: CỰC CAO (cần ~2x GV + 2x phòng học)
   → Timeline: 10-15 năm
-  → Interim: AI tools (Mechanism v2.0 §4) giúp per-individual TRONG lớp lớn
+  → Interim: AI tools (Mechanism v2.1 §4) giúp per-individual TRONG lớp lớn
 
 LT-2: "BỘ 3" CURRICULUM 🔴
   → GDPT 2018 = competency-based (bước 1 — đang triển khai)
@@ -576,7 +576,7 @@ NGUYÊN TẮC TRANSITION: 🟡
      → Redirect parent subsidy TRƯỚC build new programs
      → = Work WITH existing resources FIRST
 
-  ⑤ CALIBRATE SYSTEM NHƯ CALIBRATE STUDENT (Mechanism v2.0 §2.7)
+  ⑤ CALIBRATE SYSTEM NHƯ CALIBRATE STUDENT (Mechanism v2.1 §2.7)
      → Observe → Hypothesize → Test → Evaluate → Adjust
      → = Cùng feedback loop — áp dụng cho system level
 ```
@@ -799,7 +799,7 @@ CONTRIBUTION 5: "GIỮ DRIVE, ĐỔI DIRECTION" MODEL 🟡→🔴
 ```
 ⭐ CÁI FILE NÀY CÓ THỂ LÀM:
 
-  ✅ Derive hướng đi từ Mechanism v2.0 lens + 12 new concepts + data + culture
+  ✅ Derive hướng đi từ Mechanism v2.1 lens + 12 new concepts + data + culture
   ✅ Dissonance-Signal-Architecture depth: "Direct-State TRƯỚC" > "giảm cortisol" — DEEPER intervention
   ✅ Hardware-Subsidy depth: "subsidy quality" > "thêm resources" — CỤ THỂ hơn
   ✅ Compiled Quality: "genuine compile" > "biết nhiều" — CHẤT hơn
@@ -912,13 +912,13 @@ FILE NÀY KẾT NỐI VỚI:
       Gap-Body-Need.md v1.0 ⭐NEW — ENGINE/ROAD/VEHICLE §9
 
     TẦNG 2 — Research/Child-Development/:
-      Child-Development-Mechanism.md v2.1 — 4+1 compile, approach/avoidance
+      Child-Development-Mechanism.md v2.2 — Compile Architecture, approach/avoidance
 
     TẦNG 3 — Research/Human-Learning/ ("bộ 3"):
-      Education-Mechanism.md v2.0 ⭐ — HOW: 8 nguyên lý + 12 new concepts
+      Education-Mechanism.md v2.1 ⭐ — HOW: 8 nguyên lý + 12 new concepts
       Domain-Knowledge-Map.md v2.0 — WHAT: 3-tier taxonomy
       Connection-Education.md v1.0 ⭐NEW — WHO: 5 khía cạnh social-emotional
-      Compile-Type-Learning.md v1.2 — compile types + quality in education
+      Compile-Type-Learning.md v1.3 — compile types + quality in education
       Expansion-Saturation-Crisis.md v1.2 — grad unemployment, credential inflation
       Money-Education.md v1.1 — tiền × education observation
       Education-Arms-Race.md v1.3 — cạnh tranh giáo dục
@@ -930,7 +930,7 @@ FILE NÀY KẾT NỐI VỚI:
       Curriculum-Framework.md v2.1 — 3-tier + Gap Landscape
 
     TẦNG 5 — VN/:
-      VN-Education-Status.md v2.1 — data + Mechanism v2.0 evaluation
+      VN-Education-Status.md v2.1 — data + Mechanism v2.1 evaluation
       VN-Cultural-Factors.md v2.1 — 8 cultural factors + leverage + risk
       VN-Recommendations.md v2.1 ← FILE NÀY = output cuối cùng
 

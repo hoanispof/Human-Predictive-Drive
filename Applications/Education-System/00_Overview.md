@@ -1,8 +1,8 @@
 ﻿---
 title: Education Applications — Bản Đồ Folder v2.1
-version: 2.1
-updated: 2026-05-26
-status: v2.1
+version: 2.2
+updated: 2026-06-01 (v2.2 — Compile Architecture refine: +CT v3.0/CS v1.0 deps, all Education/Child-Dev version refs updated)
+status: v2.2
 purpose: |
   "Bắt đầu đọc từ đây" — map tất cả files, flow, cách dùng.
   Reflects v2.1 refine cycle: all 4 main files updated with post-drill concepts.
@@ -19,7 +19,7 @@ changes_v2:
 changes_v2.1:
   - "bộ 3" architecture: +Connection-Education v1.0 (WHO) replaces Empathy-Education
   - ENGINE/ROAD/VEHICLE context added
-  - All file versions updated (Education-System v3.0, Hardware-Calibration v1.1, Curriculum-Framework v2.1, Era-Analysis v2.1)
+  - All file versions updated (Education-System v3.1, Hardware-Calibration v1.1, Curriculum-Framework v2.1, Era-Analysis v2.1)
   - Statistics updated (new line counts post-refine)
   - Tầng 1 refs expanded (+Dissonance-Signal-Architecture, +Gap-Distribution-Profile, +Simulation-Engine, +PFC-Operations, etc.)
   - Tầng 3 refs restructured with "bộ 3" framing
@@ -33,7 +33,7 @@ changes_v2.1:
 > Map tất cả files trong folder, flow giữa chúng, cách dùng per audience.
 >
 > **Vị trí:** TẦNG 4 — ứng dụng nguyên lý bất biến cho era hiện tại.
-> **Nền tảng "bộ 3":** Education-Mechanism v2.0 (HOW) + Domain-Knowledge-Map v2.0 (WHAT)
+> **Nền tảng "bộ 3":** Education-Mechanism v2.1 (HOW) + Domain-Knowledge-Map v2.0 (WHAT)
 >   + Connection-Education v1.0 (WHO).
 > **ENGINE/ROAD/VEHICLE:** Folder này = ROAD DESIGN cho education system.
 > **Mọi file v2.1 đã refine với post-drill concepts (2026-05-26).**
@@ -103,12 +103,12 @@ KIẾN TRÚC TỔNG THỂ — 5 TẦNG:
   ├─────────────────────────────────────────────────────────────────┤
   │ TẦNG 2: Research/Child-Development/                             │
   │   Con người phát triển thế nào 0-6 (KHÔNG ĐỔI)               │
-  │   Child-Dev-Mechanism v2.0 → Mother-Opt v2.1 →                │
-  │   Natural-Dev v2.1 → Skill-Intro v2.1                         │
+  │   Child-Dev-Mechanism v2.1 → Mother-Opt v2.2 →                │
+  │   Natural-Dev v2.2 → Skill-Intro v2.2                         │
   ├─────────────────────────────────────────────────────────────────┤
   │ TẦNG 3: Research/Education/ — "BỘ 3"                           │
   │   Nguyên lý giáo dục BẤT BIẾN (KHÔNG ĐỔI)                   │
-  │   Education-Mechanism v2.0 ⭐ (HOW — nguyên lý arc design)    │
+  │   Education-Mechanism v2.1 ⭐ (HOW — nguyên lý arc design)    │
   │   Domain-Knowledge-Map v2.0 (WHAT — 3-tier domain taxonomy)    │
   │   Connection-Education v1.0 (WHO — social interaction)         │
   │   + Observation/ (Arms-Race v1.3, Money-Education v1.1)        │
@@ -130,7 +130,7 @@ FILES TRONG FOLDER NÀY:
   │  00_Overview.md (file này)                                       │
   │    = Bản đồ — đọc TRƯỚC TIÊN                                   │
   │                                                                  │
-  │  Education-System.md v3.0 ⭐ KHUNG CHÍNH (~1,627 dòng)         │
+  │  Education-System.md v3.1 ⭐ KHUNG CHÍNH (~1,627 dòng)         │
   │    = "Nếu làm ĐÚNG, education trông thế nào?"                  │
   │    → ENGINE/ROAD/VEHICLE xuyên suốt, 4 stages, 5 roles,        │
   │      "bộ 3" architecture, Hardware-Subsidy, PFC Budget,          │
@@ -150,7 +150,7 @@ FILES TRONG FOLDER NÀY:
   │    → Foundation matrix (6 domains × 4 stages × depth targets),   │
   │      +Compiled Quality Dimension, +PFC Budget cross-cutting,     │
   │      era-specific delivery, sequencing, cái cần giảm/bỏ        │
-  │    → DERIVED từ "bộ 3" (HOW+WHAT+WHO) × Education-System v3.0 (stages)      │
+  │    → DERIVED từ "bộ 3" (HOW+WHAT+WHO) × Education-System v3.1 (stages)      │
   │                                                                  │
   │  Era-Analysis-2025.md v2.1 (~815 dòng)                           │
   │    = "Thời đại 2025+ ĐANG XẢY RA GÌ cho education?"            │
@@ -167,12 +167,12 @@ FILES TRONG FOLDER NÀY:
 FLOW GIỮA FILES:
 
   Research/Education/ (Tầng 3 — "bộ 3"):
-    Education-Mechanism v2.0 (HOW — nguyên lý arc design)
+    Education-Mechanism v2.1 (HOW — nguyên lý arc design)
     Domain-Knowledge-Map v2.0 (WHAT — 3-tier domain taxonomy)
     Connection-Education v1.0 (WHO — social interaction education)
            │
            ↓
-    Education-System.md v3.0 ⭐ (KHUNG — stages, roles, ENGINE/ROAD/VEHICLE)
+    Education-System.md v3.1 ⭐ (KHUNG — stages, roles, ENGINE/ROAD/VEHICLE)
            │
       ┌────┴──────────────────┐
       ↓                        ↓
@@ -194,10 +194,10 @@ FLOW GIỮA FILES:
 
 ```
 NẾU MỚI BẮT ĐẦU (chưa đọc nền tảng):
-  1. Education-Mechanism v2.0 (Tầng 3) — nguyên lý arc design
+  1. Education-Mechanism v2.1 (Tầng 3) — nguyên lý arc design
   2. Domain-Knowledge-Map v2.0 (Tầng 3) — domain taxonomy
   3. Connection-Education v1.0 (Tầng 3) — social interaction education
-  4. Education-System v3.0 ⭐ — khung system design
+  4. Education-System v3.1 ⭐ — khung system design
   5. Era-Analysis-2025 v2.1 — context thời đại
   6. Curriculum-Framework v2.1 — delivery matrix (ROAD MAP)
   7. Hardware-Calibration v1.1 — per-individual
@@ -207,13 +207,13 @@ NẾU MỚI BẮT ĐẦU (chưa đọc nền tảng):
 NẾU MUỐN SÂU (đọc từ Core):
   1. Core-Software v2.0 (cycle) + Core-Hardware v1.0 (zones)
   2. Chunk v2.2, Cortisol-Baseline v2.1, Imagine-Final v3.0
-  3. Child-Development-Mechanism v2.0 + bộ 4 (Mother/Natural/Skill)
-  4. "Bộ 3": Mechanism v2.0 + Domain-Knowledge-Map v2.0 + Connection-Education v1.0
+  3. Child-Development-Mechanism v2.1 + bộ 4 (Mother/Natural/Skill)
+  4. "Bộ 3": Mechanism v2.1 + Domain-Knowledge-Map v2.0 + Connection-Education v1.0
   5. → Rồi folder này theo thứ tự trên
 
 
 NẾU LÀ GIÁO VIÊN / PHỤ HUYNH (muốn thực hành):
-  1. Education-System v3.0 §7 (Teacher) hoặc §8 (Parent)
+  1. Education-System v3.1 §7 (Teacher) hoặc §8 (Parent)
   2. Hardware-Calibration v1.1 §2-§3 (observe + calibrate)
   3. Hardware-Calibration v1.1 §5 (miscalibrations + Dissonance-Signal-Architecture reframe)
   4. Curriculum-Framework v2.1 §4 (sequencing per stage)
@@ -221,7 +221,7 @@ NẾU LÀ GIÁO VIÊN / PHỤ HUYNH (muốn thực hành):
 
 
 NẾU MUỐN ÁP DỤNG CHO QUỐC GIA (VN):
-  1. Education-System v3.0 (khung)
+  1. Education-System v3.1 (khung)
   2. Era-Analysis-2025 v2.1 (context)
   3. → Country/VN/ files
 
@@ -242,7 +242,7 @@ NẾU MUỐN CẬP NHẬT (era đổi):
 NỀN TẢNG "BỘ 3" (v7.8 — HOW + WHAT + WHO):
 
 
-Education-Mechanism.md v2.0 ⭐ = HOW — NGUYÊN LÝ ARC DESIGN
+Education-Mechanism.md v2.1 ⭐ = HOW — NGUYÊN LÝ ARC DESIGN
   → 8+ nguyên lý brain-based cho learning arc design:
     §2.2 Direction > Level, §2.3 Cost Formula, §2.4 Prerequisite,
     §2.5 Mini-arcs, §2.6 Imagine-Final, §2.7 Feedback,
@@ -269,8 +269,10 @@ OBSERVATION FILES (Tầng 3):
 
   Education-Arms-Race.md v1.3 — Competition dynamics
   Money-Education.md v1.1 — Tiền trong giáo dục
-  Compile-Type-Learning.md v1.2 — Compile type analysis
+  Compile-Type-Learning.md v1.3 — Compile type analysis
   Expansion-Saturation-Crisis.md v1.2 — Global expansion dynamics
+  Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators + Compile Types
+  Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms)
 ```
 
 ---
@@ -316,11 +318,11 @@ RESEARCH/CHILD-DEVELOPMENT/ (TẦNG 2) — 0-6 FOUNDATION:
   → Curriculum §2: foundation begins ON TOP of 0-6 wiring
 
   Child-Dev bộ 4:
-    Child-Development-Mechanism.md v2.0 — khung nguyên lý (4+1 compile,
+    Child-Development-Mechanism.md v2.2 — khung nguyên lý (Compile Architecture,
       approach/avoidance, cortisol, sensitive periods)
-    Mother-Optimization.md v2.1 — prenatal hardware quality
-    Natural-Development.md v2.1 — 0-6 brain tự wire
-    Skill-Introduction.md v2.1 — 0-6 giới thiệu kỹ năng
+    Mother-Optimization.md v2.2 — prenatal hardware quality
+    Natural-Development.md v2.2 — 0-6 brain tự wire
+    Skill-Introduction.md v2.2 — 0-6 giới thiệu kỹ năng
 ```
 
 ---
@@ -362,17 +364,17 @@ THỐNG KÊ — v2.1 (main files):
   ┌────────────────────────────┬───────────┬─────────────────────┐
   │ File                       │ Lines     │ Sections            │
   ├────────────────────────────┼───────────┼─────────────────────┤
-  │ Education-System v3.0 ⭐    │ ~1,627    │ §0-§12 (13 sections)│
+  │ Education-System v3.1 ⭐    │ ~1,757    │ §0-§12 (13 sections)│
   │ Hardware-Calibration v1.1  │ ~1,689    │ §0-§7 (8 sections)  │
-  │ Curriculum-Framework v2.1  │ ~990      │ §0-§6 (7 sections)  │
+  │ Curriculum-Framework v2.2  │ ~1,047    │ §0-§6 (7 sections)  │
   │ Era-Analysis-2025 v2.1     │ ~815      │ §0-§6 (7 sections)  │
-  │ 00_Overview.md v2.1        │ ~380      │ §0-§5 (6 sections)  │
+  │ 00_Overview.md v2.2        │ ~410      │ §0-§5 (6 sections)  │
   ├────────────────────────────┼───────────┼─────────────────────┤
-  │ TOTAL Tầng 4               │ ~5,501    │ 41 sections         │
+  │ TOTAL Tầng 4               │ ~5,718    │ 41 sections         │
   └────────────────────────────┴───────────┴─────────────────────┘
 
   + Tầng 3 "bộ 3" nền tảng:
-    Education-Mechanism.md v2.0 (~1,714 dòng)
+    Education-Mechanism.md v2.1 (~2,042 dòng)
     Domain-Knowledge-Map.md v2.0 (~999 dòng)
     Connection-Education.md v1.0 (~2,165 dòng)
   = TỔNG "bộ 3": ~4,878 dòng
@@ -393,7 +395,7 @@ RESTRUCTURE HISTORY:
     → All cross-refs → current file paths
     → v1.0 → backup/v1.0/
   v2.1 (2026-05-25~26): Refine cycle — 4 main files + overview
-    → P1: Education-System v3.0 FULL REWRITE (+73L)
+    → P1: Education-System v3.1 FULL REWRITE (+73L)
       ENGINE/ROAD/VEHICLE xuyên suốt, 25 new concepts, "bộ 3"
     → P2: Hardware-Calibration v1.1 MODERATE REFINE (+151L)
       +Hardware-Subsidy, +Compiled Quality, +Dissonance-Signal-Architecture, +Entity-Access/Compiled

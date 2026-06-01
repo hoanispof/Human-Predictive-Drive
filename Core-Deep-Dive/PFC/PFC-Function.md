@@ -87,7 +87,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → Empty: "không liên quan" (no signal)
      → = "Trực giác" = body evaluate TRƯỚC PFC articulate
      → 🟢 Consistent with Damasio somatic markers (1994)
-     Source: Chunk.md v2.0 §10
+     Source: Chunk.md v3.0 §8.4
 
   ③ OBSERVE CHUNK ACTIVATIONS:
      → Chunks fire theo probability distribution (spreading activation)
@@ -119,13 +119,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → Expert: mỗi slot = meta-chunk → CỰC NHIỀU info
      → = "Cùng 4 slots, khác SIZE mỗi slot"
      → NÂNG CẤP: build meta-chunks qua repetition → mỗi slot RỘNG hơn
-     Source: Chunk.md v2.0 §1, §11
+     Source: Chunk.md v3.0 §1, §9
 
   ⑥ QUICK SEARCH (giây):
      → PFC hold [2+3] → hit [5] → RELEASE
      → = "Tính toán" = chuỗi quick searches
      → Cortisol: không tăng (quá nhanh)
-     Source: Chunk.md v2.0 §9
+     Source: Chunk.md v3.0 §8.2
 
   ⑦ LOOSE HOLD (phút-giờ):
      → PFC hold NHẸ → body RELAX → sóng lan RỘNG
@@ -133,7 +133,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → = CREATIVE mode — curiosity/novelty-dominant
      → "Đi dạo nghĩ ra đáp án" = loose hold + body relax → sóng lan rộng
      → NÂNG CẤP: practice loose hold (meditation, walk, shower thinking)
-     Source: Chunk.md v2.0 §9
+     Source: Chunk.md v3.0 §8.2
 
   ⑧ ACTIVE LOCK (giờ-ngày):
      → = LOOSE HOLD + THREAT → PFC KHÔNG THỂ thả
@@ -141,7 +141,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → = EXECUTION mode — deadline, problem must-solve
      → 🟢 Zeigarnik Effect (1927): unfinished task → PFC keeps holding
      → NGUY HIỂM: active lock kéo dài → cortisol sustained → neural wear
-     Source: Chunk.md v2.0 §9
+     Source: Chunk.md v3.0 §8.2
 ```
 
 ---
@@ -180,7 +180,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → Body vote MISLEADING: smooth = consistent with self (NOT reality)
      → = Scientist, craftsman = Domain-Checked. Echo chamber, ideologue = Self-Referencing.
      → NÂNG CẤP: deliberately seek domain feedback, not just internal coherence
-     Source: Chunk.md v2.0 §10.3
+     Source: Chunk.md v3.0 §8.6
 
   ⑫ LABEL / ANCHOR CREATION:
      → PFC attach verbal/symbolic tag to chunk
@@ -230,7 +230,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → cầm lên, dùng kính lúp → amplify input cho visual cortex
        → Visual cortex match SÂU hơn → "bức tranh đặc biệt"
      → PFC KHÔNG "thấy" tranh đẹp — PFC hold attention → B match → body reward
-     Source: Chunk.md v2.0 §9
+     Source: Chunk.md v3.0 §8.3
 
   ⑰ INVOKE Self-Pattern-Modeling ON TARGETS (agent modeling):
      → PFC invoke Self-Pattern-Modeling function on target entity
@@ -315,7 +315,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      → Ngắn hạn vs dài hạn: "ăn ngon BÂY GIỜ" vs "diet cho khỏe SAU"
      → PFC = trọng tài cho competing body signals
      → QUALITY of choice = f(chunk depth × domain-check rigor)
-     Source: Drive.md v1.1, Chunk.md §8.3
+     Source: Drive.md v1.1, Chunk.md §8.1
 
   ㉓ ACCEPT TEMPORARY DISSONANCE:
      → Level 3 PFC capability (Drive.md §3):

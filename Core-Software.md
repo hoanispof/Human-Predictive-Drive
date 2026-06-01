@@ -30,7 +30,7 @@
 > - Simulation-Engine.md v1.0 — 1 engine, 3 components, 3 axes, N applications
 > - PFC-Operations.md v1.0 — Hold/Suppress, Budget, Compiled Quality
 > - Empathy.md v4.0 — Self-Pattern-Modeling applied, PFC budget, per-entity, 4-Layer
-> - Valence-Propagation.md v3.0 — structural/current, 3 Firing Modes, Hardware-Subsidy
+> - Valence-Propagation.md v4.1 — structural/current, 3 Firing Modes, Hardware-Subsidy
 > - Cortisol-Baseline.md v2.1 — amplifier, direction gate, 7 modes, HPA paradox
 > - Body-Base.md v3.2 — entry point, Model 3+1, Compilable Architecture
 > - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 4 pathways, 6 trade-offs
@@ -526,7 +526,11 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     ① Repetition — LTP strengthening (🟢 Bliss & Lømo 1973)
     ② Emotional peak — amygdala + NE, 1 lần đủ (🟢 Brown & Kulik 1977)
     ③ Multi-modal — nhiều kênh cùng lúc → wire across cortex
-    ④ Sleep consolidation — hippocampus replay (🟢 Walker 2017)
+    ④ Sleep — Offline Maintenance System (🟢 Walker 2017)
+      → 6 mechanisms: ~1.5 exposure-based, ~4.5 optimization → Compile-Sleep.md v1.0
+
+    → v3.0: ①②③ = Exposure Channels (active khi thức). ④ = Maintenance (offline khi ngủ).
+    → TẤT CẢ chạy trên 1 Engine: Exposure → Hebbian (Hebb 1949)
 
   5 EXTERNAL INSTALL MECHANISMS (Chunk.md §2.3):
     ① Co-attention ② Imitation ③ Social referencing
@@ -535,21 +539,25 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     → Trust = ONLY BRIDGE giữa external → internal compile
     → (Collective-Body.md v2.1 §5: trust = cơ chế DUY NHẤT nối cấp 1 và cấp 2)
 
-  3 COMPILE TYPES (Compile-Taxonomy.md v3.0):
+  3 COMPILE TYPES = MODULATOR CONFIGURATIONS (Compile-Taxonomy.md v3.0):
+
+    ⭐ ALL compile = 1 Engine (Exposure → Hebbian). 3 types = MODULATOR nào dominant.
+    Trust = AMPLIFIER (gradient Mức 0-5), KHÔNG phải GATE (binary).
 
     Experience Compile — Direct Short (~90%): body trải nghiệm trực tiếp → compile
       [toán → brain fire → reward] hoặc [không học → mắng → sợ]
-      = Hardware fit (approach) hoặc Threat (avoidance). 1-2 nodes.
+      = Engine + minimal modulators (direct exposure). 1-2 nodes.
 
     Expertise Compile (~5%): repetition + PFC-directed + domain verify
       [bán hàng → feedback → adjust → compile] lặp 1000+ lần
-      = Deliberate practice. Meta-chunks. "Chuyên gia = library rất sâu."
+      = Engine + PFC sustained hold (PFC-dominant). Meta-chunks.
 
     Trust Compile — Installed + Collective (~5%): external source → trust amplifier → compile
       [mẹ nói học tốt → trust → compile "học=tốt"] = 1-2 nodes
-      = Trust install. Social default. Chain dài SỐNG ở collective (Cấp 2).
+      = Engine + Entity-Valence amplifier (Entity-Valence-dominant). Chain dài SỐNG ở collective (Cấp 2).
 
-    → Cùng 4 compile mechanisms, KHÁC LOẠI sử dụng.
+    → Cùng 1 Engine, khác MODULATOR configuration.
+    → Multi-stream: Content/Value/Entity/Behavior compile SONG SONG.
     → ~90%/~5% = calibration anchor (§12.4).
 
   COMPILED QUALITY DIMENSION (PFC-Operations.md v1.0 §5):
@@ -709,7 +717,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     → "Chán nhau" = Cyclic gap filled + no Generative gap remaining
     → Technology fills ROUTINE gaps → frontier shifts to GENUINE gaps
 
-  HARDWARE-SUBSIDY (Valence-Propagation.md v3.0):
+  HARDWARE-SUBSIDY (Valence-Propagation.md v4.1):
     → Body subsidize entity processing per Entity-Access Mức:
       Mẹ→con (MAX oxytocin) → romantic (limerence TEMP) → bạn (NONE)
     → VTA habituation SLOWER for subsidized entities
@@ -860,7 +868,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     → PFC budget × empathy: Fresh Self-Pattern-Modeling costs PFC → competes với ALL other tasks
     → Burnout = Compiled-Suppress + PFC depletion (NOT "too much empathy")
 
-  VALENCE (Valence-Propagation.md v3.0):
+  VALENCE (Valence-Propagation.md v4.1):
     → Body's assessment of how entity affects body-inputs
     → Structural valence (compiled, stable) vs Current valence (momentary, fluctuating)
     → 3 Firing Modes: Firing-Maintenance (background hum) / Firing-Chunk-Miss (acute spike) / Firing-Context-Trigger (context cue)
@@ -1613,6 +1621,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 ```
   Chunk/Chunk.md v2.3                      — Chunk substrate, trust amplifier, pattern hierarchy
   Chunk/Compile-Taxonomy.md v3.0           — 1 Engine + 3 Modulators, 4 pathways, 6 trade-offs
+  Chunk/Compile-Sleep.md v1.0              — Sleep = Offline Maintenance (6 mechanisms, ~40 citations)
   Chunk/Background-Pattern.md v2.0         — Accumulated chunk bias invisible to PFC
 ```
 

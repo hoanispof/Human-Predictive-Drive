@@ -82,9 +82,9 @@ dependencies:
     - Cortisol-Baseline.md v2.1 — stress cascade, social buffering
     - Body-Feedback-Label.md v2.0 — vocabulary reference
   education:
-    - Education-Mechanism.md v1.0 — arc design principles, 4 nguồn fill, bridge
+    - Education-Mechanism.md v2.1 — arc design principles, 4 nguồn fill, bridge, Multi-Stream
     - Domain-Knowledge-Map.md v1.0 — §1.4 Social/Emotional = Foundation Domain
-    - Child-Development-Mechanism.md v2.0 — §4.4 Connection, §6 Self-Pattern-Modeling bootstrap
+    - Child-Development-Mechanism.md v2.2 — §4.4 Connection, §6 Self-Pattern-Modeling bootstrap
   global:
     - Social-Calibration.md v1.1 — 7 functions, compound breakdown
     - Human-AI-Future.md v3.0 — AI vs human, symbiosis
@@ -172,7 +172,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Coordination-Node.md v1.2 (group coordination)
 
     TẦNG 2: Research/Child-Development/
-      → Child-Development-Mechanism.md v2.0 §4.4 (Connection development)
+      → Child-Development-Mechanism.md v2.2 §4.4 (Connection development)
 
     TẦNG 3: Research/Human-Learning/Education-Mechanism/
       → ⭐ Connection-Education.md ← ĐÂY
@@ -2112,9 +2112,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §11.3 — Education files (TẦNG 2-3)
 
 ```
-→ ⭐ Education-Mechanism.md v1.0 — arc design, 4 nguồn fill, bridge
+→ ⭐ Education-Mechanism.md v2.1 — arc design, 4 nguồn fill, bridge, Multi-Stream
 → ⭐ Domain-Knowledge-Map.md v1.0 — §1.4 Social/Emotional = Foundation Domain
-→ Child-Development-Mechanism.md v2.0 — §4.4 Connection, §6 Self-Pattern-Modeling bootstrap
+→ Child-Development-Mechanism.md v2.2 — §4.4 Connection, §6 Self-Pattern-Modeling bootstrap
 → Education-Arms-Race.md v1.2 — arms race suppresses connection
 → Money-Education.md v1.0 — tiền × connection
 → Compile-Type-Learning.md v1.1 — compiled quality in social domain
