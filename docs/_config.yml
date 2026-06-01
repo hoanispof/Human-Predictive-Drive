@@ -1,0 +1,23 @@
+title: Human Predictive Drive
+description: >-
+  Neuroscience mechanism proposals with evidence, falsification criteria,
+  and honest limitations. Open-source framework (CC0).
+url: "https://hoanispof.github.io"
+baseurl: "/Human-Predictive-Drive"
+
+theme: minima
+markdown: kramdown
+
+permalink: /blog/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - blog/
+  - desktop.ini
+  - "*.ini"
