@@ -5,11 +5,10 @@
 > How do the people around you shape your behavior — without anyone planning it?  
 > Why do near-human robots feel unsettling while cartoon characters don't?  
 >
-> This framework cross-connects research from neuroscience, psychology, and evolutionary biology
+> This framework bridges neuroscience, psychology, and evolutionary biology
 > into a unified conceptual architecture — from individual behavior to collective patterns.
 >
-> If validated, this framework could reframe vague, hard-to-answer questions
-> about feelings, motivation, and behavior
+> Reframing vague, hard-to-answer questions about feelings, motivation, and behavior
 > — at the individual, community, and collective level.
 
 ---
@@ -74,7 +73,7 @@ The body-brain system is described through 2 mechanism maps + an AI interface:
 | Interface | OBSERVE + INTERACT | Everyone | AI generates via [Ask-AI.md](Ask-AI.md) |
 
 Think of it like a computer: circuit diagram / code architecture / AI-assisted usage.
-AI = dynamic interface — adapts to each person's level of understanding.
+AI serves as a dynamic interface — adapting explanations to each person's level of understanding.
 
 ### Folder Structure
 
@@ -230,7 +229,7 @@ Every falsification = progress. Every verification = confidence.
 
 ## Notes
 
-**AI:** Large-context AI recommended for accuracy (1M+ context preferred).
+**Recommended AI:** Large-context models (1M+ context preferred) for accuracy.
 
 **Language:** Vietnamese as primary language + English technical terminology.
 

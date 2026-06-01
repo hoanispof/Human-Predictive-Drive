@@ -1,14 +1,13 @@
 ﻿---
 title: Child-Development-Mechanism — Khung Nguyên Lý v7.8
-version: 2.2
+version: 2.0
 created: 2026-04-21
-updated: 2026-06-01
-status: REFERENCE v2.2
+updated: 2026-05-25
+status: REFERENCE v2.0
 scope: |
   MECHANISM FILE: Giải thích CƠ CHẾ phát triển trẻ 0-6 tuổi qua lens v7.8.
   Bridge giữa Core-Deep-Dive (mechanism) và Child-Development (practical).
-  PFC Reframe + Compile Architecture (1 Engine + 3 Modulators) + Approach/Avoidance Tags +
-  Multi-Stream Compile (Content/Value/Entity/Behavior) + Critical Asymmetry +
+  PFC Reframe + 4+1 Channel Compile + Approach/Avoidance Tags +
   Chunk Dynamics + Feeling Development + Self-Pattern-Modeling Bootstrap + Autonomy Arc +
   Cortisol Baseline + Observation Parameters Timeline + Imagine-Final.
 purpose: |
@@ -24,8 +23,6 @@ position: |
   TẦNG 5: Country/ (per-country)
 dependencies:
   - Core-v7.8-Draft.md — cycle architecture, observation parameters
-  - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, Multi-Stream, Trust = Amplifier
-  - Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms, exposure vs optimization)
   - PFC-Development.md — PFC reframe, 5 empirical pillars
   - PFC-Label.md v1.0 — PFC Budget, vocabulary standard
   - F1/01-PFC-Hardware-Reframe.md — PFC evidence chi tiết, Hodel 2018
@@ -87,9 +84,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 - §0 — VỊ TRÍ VÀ CÁCH ĐỌC
 - §1 — PFC REFRAME: HARDWARE ONLINE, CHUNKS MISSING
-- §2 — COMPILE ARCHITECTURE: CHUNKS TÍCH LŨY THẾ NÀO
+- §2 — 4+1 CHANNEL COMPILE: CHUNKS TÍCH LŨY THẾ NÀO
   - §2.5 — ADVANCED COMPILE DYNAMICS
-  - §2.6 — MULTI-STREAM COMPILE FOR CHILD DEVELOPMENT
 - §3 — APPROACH/AVOIDANCE TAG × PARENTING
 - §4 — CHUNK DYNAMICS TRONG PHÁT TRIỂN TRẺ
 - §5 — FEELING DEVELOPMENT: TỪ THÔ ĐẾN LAYERED
@@ -145,7 +141,7 @@ PERCEPTION-ACTION CYCLE (Core-v7.8-Draft.md):
 
   MỌI tương tác bố mẹ-trẻ = 1 vòng loop hoàn chỉnh.
   Trẻ chạy loop này HÀNG NGHÌN lần/ngày — mỗi vòng = 1 micro-compile.
-  Compile Architecture (§2) chạy TRÊN vòng loop này.
+  4+1 channel compile (§2) chạy TRÊN vòng loop này.
   Approach/avoidance tag (§3) gắn VÀO mỗi vòng compile.
 
   Sơ sinh vs adult: CÙNG loop, nhưng:
@@ -414,74 +410,14 @@ PREDICTION DELTA = khoảng cách giữa PREDICTED outcome vs ACTUAL outcome
 
 ---
 
-## §2 — COMPILE ARCHITECTURE: CHUNKS TÍCH LŨY THẾ NÀO
+## §2 — 4+1 CHANNEL COMPILE: CHUNKS TÍCH LŨY THẾ NÀO
 
-### §2.0 — Architecture Overview: 1 Engine + 3 Modulators
-
-```
-⭐⭐ COMPILE ARCHITECTURE (Compile-Taxonomy.md v3.0):
-
-  TẤT CẢ compile đều đi qua 1 con đường duy nhất:
-
-    EXPOSURE → HEBBIAN STRENGTHENING → COMPILED CHUNK
-
-  Không có "trust compile mechanism" riêng.
-  Không có "sleep compile mechanism" riêng.
-  CHỈ CÓ 1 ENGINE (Hebbian). Sự khác biệt = MODULATOR nào dominant.
-
-
-  KIẾN TRÚC:
-
-    ┌─────────────────────────────────────────────────────────┐
-    │              COMPILE ARCHITECTURE                       │
-    │                                                         │
-    │  ① COMPILE ENGINE (Hebbian LTP — 🟢 Bliss & Lømo 1973) │
-    │     = Cơ chế compile DUY NHẤT, bất biến                │
-    │     = "Neurons fire together → wire together"           │
-    │                                                         │
-    │  ② 3 MODULATORS (ảnh hưởng compile rate + quality):     │
-    │     Entity-Valence Bias  — auto, cost ≈ 0, gradient     │
-    │     PFC Modulation       — deliberate, costly, finite   │
-    │     Sleep Maintenance    — offline, 6 mechanisms         │
-    │                                                         │
-    │  ③ 3 EXPOSURE CHANNELS (nguồn exposure song song):      │
-    │     External     — body-input từ reality (richest)      │
-    │     Deliberate   — PFC imagination/simulate             │
-    │     Spontaneous  — compiled chunks tự fire              │
-    └─────────────────────────────────────────────────────────┘
-
-
-  ÁP DỤNG CHO TRẺ 0-6:
-
-    → 4 cơ chế ở §2.1 = 4 DẠNG EXPOSURE cho CÙNG 1 ENGINE:
-      Repetition = lặp exposure. Emotional peak = exposure cường độ cực cao.
-      Multi-modal = exposure nhiều kênh. Sleep = replay exposure offline.
-    → External Install ở §2.2 = TRUST COMPILE pathway
-      (Entity-Valence Bias dominant, fast bootstrap qua caregiver)
-
-    → Trẻ sơ sinh: Exposure-External dominant (~90%)
-      Exposure-Spontaneous gần zero (chưa có compiled chunks để tự fire)
-      Exposure-Deliberate gần zero (PFC chưa có material)
-    → Dần dần: Spontaneous tăng (chunks tích lũy), Deliberate tăng (PFC + chunks)
-
-    → 3 Compile Types = labels cho dominant modulator configuration:
-      Experience Compile = Engine + minimal modulators (trải nghiệm trực tiếp)
-      Trust Compile = Engine + Entity-Valence dominant (fast install qua caregiver)
-      Expertise Compile = Engine + PFC dominant (years, chưa relevant 0-6)
-
-    → Chi tiết: Compile-Taxonomy.md v3.0
-
-  🟢 Bliss & Lømo 1973 (LTP)
-  🟡 1 Engine + 3 Modulators architecture: framework synthesis (Compile-Taxonomy.md v3.0)
-```
-
-### §2.1 — Compile Engine + 4 Dạng Exposure
+### §2.1 — 4 Kênh Compile Nội Bộ
 
 ```
-⭐ 4 DẠNG EXPOSURE CHO CÙNG 1 ENGINE (🟡🟢):
+⭐ 4 INTERNAL COMPILE MECHANISMS (🟡🟢):
 
   ① REPETITION / LTP (Hebbian — 🟢 Bliss & Lømo 1973):
-     = COMPILE ENGINE THUẦN — cơ chế nền tảng, bất biến, mọi compile đều qua đây.
 
      Chậm nhưng bền. Pattern fire 50+ lần → synapses strengthen → auto.
 
@@ -498,7 +434,6 @@ PREDICTION DELTA = khoảng cách giữa PREDICTED outcome vs ACTUAL outcome
 
 
   ② EMOTIONAL PEAK (Amygdala + NE — 🟢 Brown & Kulik 1977):
-     = Compile Engine + ENTITY-VALENCE BIAS dominant — exposure cường độ CỰC CAO.
 
      Single-shot compile. 1 lần nhưng CỰC mạnh.
 
@@ -516,7 +451,6 @@ PREDICTION DELTA = khoảng cách giữa PREDICTED outcome vs ACTUAL outcome
 
 
   ③ MULTI-MODAL BINDING (temporal co-occurrence):
-     = EXPOSURE RICHNESS — nhiều kênh → Compile Engine nhận input ĐA CHIỀU → compile sâu hơn.
 
      Nhiều kênh cảm giác fire CÙNG LÚC → bind thành 1 chunk MẠNH.
 
@@ -538,71 +472,33 @@ PREDICTION DELTA = khoảng cách giữa PREDICTED outcome vs ACTUAL outcome
        → ⭐ ĐÂY LÀ LÝ DO TRẢI NGHIỆM THẬT > MÀN HÌNH:
          Màn hình: chủ yếu visual + auditory = 2 kênh
          Thực tế: visual + auditory + tactile + proprioceptive + social = 5+ kênh
-         → 5 kênh cảm giác → compile MẠNH HƠN nhiều lần so với 2 kênh
+         → 5 kênh compile MẠNH HƠN nhiều lần so với 2 kênh
 
 
-  ④ SLEEP MAINTENANCE (offline system — 🟢 Walker 2017, Compile-Sleep.md v1.0):
-     = OFFLINE MAINTENANCE SYSTEM — KHÔNG phải "kênh compile" ngang hàng ①②③.
-       Sleep có 6 mechanisms — chỉ ~1.5 exposure-based, ~4.5 OPTIMIZATION.
-       Phần lớn sleep = BẢO TRÌ compiled chunks, KHÔNG phải tạo chunks mới.
+  ④ SLEEP CONSOLIDATION (offline replay — 🟢 Walker 2017):
+
+     Hippocampus replay → cortex transfer → 6+ cơ chế offline.
 
      VD trẻ: tập bò ban ngày → đêm hippocampus replay → sáng bò TỐT HƠN
      VD trẻ: nghe từ mới → ngủ → sáng dùng được (đôi khi)
 
-     6 MECHANISMS (chi tiết → Compile-Sleep.md v1.0):
-
-     ┌────┬──────────────────────┬─────────────┬──────────────────────────┐
-     │ #  │ Mechanism             │ Exposure?   │ Chức năng                │
-     ├────┼──────────────────────┼─────────────┼──────────────────────────┤
-     │  1 │ SHY Homeostasis       │ ❌ NOT      │ Prune synapses yếu (SNR) │
-     │  2 │ Hippocampal Replay    │ ✅ YES      │ Re-expose patterns mạnh  │
-     │  3 │ Active Consolidation  │ ❌ NOT      │ Transfer RAM→ROM         │
-     │  4 │ Creative Linking      │ 🟡 PARTIAL  │ Kết nối chunks xa nhau   │
-     │  5 │ Emotional Decoupling  │ ❌ NOT      │ Giảm intensity tag cảm xúc│
-     │  6 │ Gist Extraction       │ 🟡 PARTIAL  │ Rút gọn → pattern nền    │
-     └────┴──────────────────────┴─────────────┴──────────────────────────┘
-
-     → ~1.5 exposure-based (Replay + partial Creative/Gist)
-     → ~4.5 optimization-based (SHY + Active Consolidation + Emotional Decoupling + partial)
-     → = Sleep chủ yếu OPTIMIZATION trên chunks HIỆN CÓ, KHÔNG chỉ "replay"
-
-     Đặc tính cho trẻ:
-       → Trẻ sơ sinh ngủ 14-17h = brain đang MAINTENANCE LIÊN TỤC
-         ~4.5 optimization (prune, transfer, decouple) + ~1.5 replay
-       → REM 50% ở sơ sinh (vs 20% adult) = gấp 2.5x
-         Creative Linking + Circuit Testing (REM) + Emotional Decoupling (REM)
+     Đặc tính:
+       → Trẻ sơ sinh ngủ 14-17h = brain đang consolidate LIÊN TỤC
+       → REM 50% ở sơ sinh (vs 20% adult) = gấp 2.5x circuit testing
        → Ngủ đóng VAI TRÒ KÉP — sẽ quay lại ở §8.2:
-         a) Maintenance: strengthen + transfer + prune + link chunks
+         a) Consolidation: strengthen + transfer chunks
          b) Repair: cortisol giảm → neural repair mechanisms chạy
-       → ⚠️ Thiếu ngủ = CẮT CẢ HAI: maintenance BỊ CẮT + repair BỊ CẮT
+       → ⚠️ Thiếu ngủ = CẮT CẢ HAI: consolidation BỊ CẮT + repair BỊ CẮT
        → = Giấc ngủ = NON-NEGOTIABLE
-
-     🟢 Sleep consolidation: Walker 2017
-     🟢 SHY: Tononi & Cirelli 2003
-     🟢 Multi-mechanism model: Diekelmann & Born 2010
-     🟡 Sleep = maintenance (not exposure source): Compile-Sleep.md v1.0
 ```
 
-### §2.2 — Trust Compile: External Install qua Entity-Valence
+### §2.2 — Kênh Thứ 5: External Install
 
 ```
-⭐ TRUST COMPILE PATHWAY — CHUNKS TỪ BÊN NGOÀI (🟡 — F3):
+⭐ EXTERNAL INSTALL — CHUNKS TỪ BÊN NGOÀI (🟡 — F3):
 
-  §2.1 = 4 dạng exposure TRỰC TIẾP (Experience Compile pathway).
+  4 kênh ở §2.1 = INTERNAL compile (trải nghiệm trực tiếp).
   Nhưng trẻ CŨNG nhận chunks từ NGƯỜI KHÁC — và đây là pathway THEN CHỐT.
-
-  = TRUST COMPILE: Entity-Valence Bias DOMINANT.
-  Cùng Compile Engine (Hebbian), nhưng Entity-Valence AMPLIFY compile rate.
-  Trust = AMPLIFIER (gradient Mức 0-5), KHÔNG phải gate (binary).
-  → Mẹ (Mức 4-5): ít lần nói → compile sâu (amplifier CAO)
-  → Người lạ (Mức 0-1): nói nhiều lần → compile yếu (amplifier THẤP)
-  → Mức 0 LOOKS like gate "đóng" — nhưng thực ra = amplifier ≈ 0
-
-  ⭐ TRUST AMPLIFY VALUE, KHÔNG AMPLIFY CONTENT:
-  → Content compile qua Compile Engine trực tiếp (exposure alone đủ)
-  → Value compile (X→tốt/xấu) cần Entity-Valence amplify
-  → = "Giỏi nhưng ghét" = Content compiled ✓, Value NOT compiled ✗
-  → Chi tiết: §2.6 Multi-Stream, Compile-Taxonomy.md v3.0 §3
 
   5 CƠ CHẾ EXTERNAL INSTALL:
 
@@ -620,7 +516,7 @@ PREDICTION DELTA = khoảng cách giữa PREDICTED outcome vs ACTUAL outcome
      Trẻ thấy con bọ → nhìn mặt mẹ → mẹ bình tĩnh → "an toàn"
      → Valence tag install qua caregiver's expression
      → 🟢 Social referencing: Sorce et al. 1985 (visual cliff experiment)
-     → ⭐ §3 approach/avoidance tag: caregiver expression = Trust Compile install tag
+     → ⭐ §3 approach/avoidance tag: caregiver expression = CHANNEL install tag
 
   ⓓ LABEL INSTALLATION — gắn tên vào chunk:
      Trẻ đang nhìn con mèo → mẹ nói "mèo!" → auditory label bind
@@ -675,7 +571,7 @@ PREDICTION DELTA = khoảng cách giữa PREDICTED outcome vs ACTUAL outcome
      → ⭐ Đây là lý do TƯƠNG TÁC > XEM: tương tác = contingency cao
 
   ④ PEAK_VALENCE — cảm xúc mạnh thế nào:
-     → Emotional peak = single-shot compile (§2.1②)
+     → Emotional peak = single-shot compile (§2.1 kênh ②)
      → Trải nghiệm "bình thường" = compile CHẬM hơn
      → ⚠️ Peak NEGATIVE cũng compile mạnh — nhưng tagged AVOIDANCE (§3)
 
@@ -741,20 +637,20 @@ PREDICTION DELTA = khoảng cách giữa PREDICTED outcome vs ACTUAL outcome
 ### §2.4 — Hệ Quả Cho Parenting/Education
 
 ```
-TỪ COMPILE ARCHITECTURE + FORMULA → NGUYÊN TẮC THỰC TẾ:
+TỪ 5 KÊNH + FORMULA → NGUYÊN TẮC THỰC TẾ:
 
   ① TRẢI NGHIỆM ĐA GIÁC QUAN > FLASHCARD:
-     Multi-modal (§2.1③) × contingency (param ③) = compile MẠNH
+     Multi-modal (kênh ③) × contingency (param ③) = compile MẠNH
      → Chơi thật > xem video > xem hình
      → "Messy play" = brain building, KHÔNG phải lãng phí thời gian
 
   ② GIẤC NGỦ = NON-NEGOTIABLE:
-     Sleep Maintenance (§2.1④) = offline maintenance + repair
+     Sleep consolidation (kênh ④) = offline compile + repair
      → Cắt ngủ = cắt ĐỒNG THỜI compilation VÀ repair
      → 2 lý do KHÁC NHAU, cùng 1 kết luận: ĐỂ TRẺ NGỦ ĐỦ
 
   ③ EMOTIONAL PEAK = COMPILE CỰC NHANH → CẨN THẬN:
-     Emotional peak (§2.1②) = 1 lần đủ → tag SUỐT ĐỜI (§3)
+     Emotional peak (kênh ②) = 1 lần đủ → tag SUỐT ĐỜI (§3)
      → Positive peak: "lần đầu bơi mà vui" = approach tag
      → Negative peak: "lần đầu bơi mà sợ" = avoidance tag
      → CÙNG kỹ năng, KHÁC trải nghiệm đầu → KHÁC trajectory
@@ -784,7 +680,7 @@ TỪ COMPILE ARCHITECTURE + FORMULA → NGUYÊN TẮC THỰC TẾ:
      VTA habituates → dopamine GIẢM → "chán"
      VD trẻ: chơi đồ chơi mới 30 phút → VTA quen → "chán, cái khác"
      = VTA quen ≠ đã học xong → chỉ là reward signal HẾT
-     → GIẢI PHÁP: variation trong repetition (§2.1①)
+     → GIẢI PHÁP: variation trong repetition (§2.1 kênh ①)
 
   ③ COMPILATION-COMPLETE SATIATION:
      Chunk FULLY compiled → delta = 0 → "biết rồi, xong"
@@ -835,116 +731,8 @@ TỪ COMPILE ARCHITECTURE + FORMULA → NGUYÊN TẮC THỰC TẾ:
       = approach tag cho "nước" hardware-subsidized
 
     → CELEBRATION matters: thêm hardware-subsidy vào compile moment
-    → Emotional peak (§2.1②) + Hardware-Subsidy = MOST PERSISTENT tag
+    → Emotional peak (§2.1 kênh ②) + Hardware-Subsidy = MOST PERSISTENT tag
     → = Tại sao "lần đầu thành công" với mẹ bên cạnh = GHI DẤU suốt đời
-```
-
-### §2.6 — Multi-Stream Compile for Child Development
-
-```
-⭐⭐ MỌI TRẢI NGHIỆM CỦA TRẺ = NHIỀU COMPILE STREAMS CHẠY ĐỒNG THỜI:
-
-  (Compile-Taxonomy.md v3.0 §5)
-
-  ┌───────────────┬─────────────────────┬────────────────────┐
-  │ STREAM        │ GÌ COMPILE          │ MODULATOR DOMINANT │
-  ├───────────────┼─────────────────────┼────────────────────┤
-  │ ① CONTENT     │ Nội dung, kiến thức │ Compile Engine only│
-  │               │ Facts, skills       │ (Experience type)  │
-  ├───────────────┼─────────────────────┼────────────────────┤
-  │ ② VALUE       │ Đánh giá tốt/xấu   │ Entity-Valence     │
-  │               │ Approach/avoid tag  │ Trust-amplified    │
-  ├───────────────┼─────────────────────┼────────────────────┤
-  │ ③ ENTITY      │ Entity-Valence      │ Entity-Valence     │
-  │               │ Trust update        │ (update weights)   │
-  ├───────────────┼─────────────────────┼────────────────────┤
-  │ ④ BEHAVIOR    │ Motor-association   │ Direction-at-compile│
-  │               │ Habit formation     │ Valence direction  │
-  └───────────────┴─────────────────────┴────────────────────┘
-
-  Content stream LUÔN = Experience Compile (Compile Engine, direct exposure).
-  Value stream = Trust-modulated (Entity-Valence amplify/suppress).
-  → 4 streams ĐỘC LẬP → kết quả KHÁC NHAU từ CÙNG 1 event.
-
-
-  VD TRẺ CHẠM LỬA (1 event → 4 compilations):
-
-    ① Content:  "lửa = nóng" (compiled — exposure trực tiếp)
-    ② Value:    "lửa = nguy hiểm" (avoidance tag — emotional peak)
-    ③ Entity:   "mẹ nói ĐÚNG" (trust + cho mẹ — mẹ đã cảnh báo trước)
-    ④ Behavior: "rụt tay" (motor avoidance — body tự rút)
-
-    = 4 compilations KHÁC NHAU từ CÙNG 1 event.
-    = TẤT CẢ qua CÙNG Compile Engine (Hebbian).
-    = KHÁC modulator: Content (engine only), Value (emotional peak),
-      Entity (direct experience → trust update), Behavior (motor association).
-
-
-  VD TRẺ BỊ ÉP HỌC TOÁN (4 streams → KHÁC kết quả):
-
-    ① Content:  [2+2=4], [phép nhân] → compile ✓
-       → Compile Engine qua Exposure-External (ngồi làm bài) → knowledge OK
-    ② Value:    [toán → sợ bị mắng → tránh] → compile AVOIDANCE ✗
-       → Trust amplifier cho "toán = tốt" ≈ 0 (ép = KHÔNG tạo trust)
-    ③ Entity:   [mẹ + ép] → Entity-Valence update: mixed (yêu + sợ)
-    ④ Behavior: [nghe mẹ → ngồi xuống] → avoidance-driven habit ✓
-
-    = "Giỏi nhưng ghét toán" = ① Content ✓, ② Value ✗
-    = Architecture PREDICTS this. Old "gate" model cannot explain.
-
-
-  VD TRẺ HỌC VỚI CÔ GIÁO YÊU MẾN (4 streams → ALL positive):
-
-    ① Content:  [bài học] → compile ✓ (exposure)
-    ② Value:    [học = thú vị → approach] → compile ✓
-       → Trust amplifier CAO (trust cô giáo) → "học = tốt" install sâu
-    ③ Entity:   [cô giáo → positive] → Entity-Valence STRENGTHEN ✓
-    ④ Behavior: [đến lớp → ngồi đầu → hỏi câu hỏi] → approach habit ✓
-
-    = 4/4 positive. = Lý tưởng.
-    = "Muốn con hay chữ thì yêu lấy thầy" = architecture in proverb.
-
-
-  VD TRẺ "BIẾT NHƯNG VẪN LÀM":
-
-    "Con biết không được đánh bạn, nhưng vẫn đánh"
-    ① Content compiled ✓: "đánh = sai" (knowledge present)
-    ④ Behavior CHƯA compiled ✓: motor impulse > compiled inhibition
-    = Content stream ĐI TRƯỚC Behavior stream
-    = BÌNH THƯỜNG — không phải "hư", là Behavior chưa compile đủ mạnh
-    = Cần THÊM repetition (§2.1①) cho Behavior stream, KHÔNG phải phạt
-
-
-  VD TRẺ "BIẾT NHƯNG KHÔNG THÍCH":
-
-    "Con biết piano tốt, nhưng không thích"
-    ① Content compiled ✓: "piano = kỹ năng" (knowledge present)
-    ② Value compiled ✗: [piano → phải ngồi → chán → avoidance]
-    = Content ĐI TRƯỚC Value
-    = KHÔNG phải "con không biết piano tốt" → con biết, body KHÔNG muốn
-    = Cần shift VALUE stream (tạo trải nghiệm vui), KHÔNG cần giải thích thêm
-
-
-  ⭐ HÀM Ý THỰC TẾ CHO PARENTING:
-
-    ① "Con không thích X" → HỎI: stream NÀO thất bại?
-       Content ✗: cần thêm exposure (dạy thêm)
-       Value ✗: cần build approach tags (tạo trải nghiệm tích cực)
-       Entity ✗: cần fix relationship (người dạy có trust không?)
-       Behavior ✗: cần repetition + patience (motor chưa compile)
-
-    ② Sai stream → sai can thiệp:
-       Value ✗ mà thêm content → "biết nhưng vẫn ghét" (KHÔNG giải quyết)
-       Entity ✗ mà ép exposure → "ghét thêm" (avoidance TĂNG)
-
-    ③ Multi-Stream giải thích TẠI SAO "cùng nội dung, khác kết quả":
-       = CONTENT compile GIỐNG (cùng exposure)
-       = VALUE compile KHÁC (tùy body state, trust, context)
-       = "Cách dạy quyết định tag" (§3) = chính xác hơn:
-         "Cách dạy quyết định VALUE + BEHAVIOR stream, KHÔNG ảnh hưởng CONTENT stream"
-
-  🟡 Multi-Stream model: Compile-Taxonomy.md v3.0 §5
-  🟢 Hebbian concurrent compilation: established neuroscience
 ```
 
 ---
@@ -1059,37 +847,6 @@ TỪ COMPILE ARCHITECTURE + FORMULA → NGUYÊN TẮC THỰC TẾ:
 
       → = Tại sao HỌC TRONG MÔI TRƯỜNG AN TOÀN > học trong áp lực
         (cùng nội dung, nhưng hardware-subsidy tại compile → approach tag BỀN HƠN)
-
-
-  ⭐ MULTI-STREAM TAG CLARIFICATION (Compile-Taxonomy.md v3.0 §5):
-
-    Tag approach/avoidance ÁP DỤNG chủ yếu cho VALUE + BEHAVIOR stream:
-
-    ┌───────────────┬──────────────────┬─────────────────────────────┐
-    │ Stream        │ Tag ảnh hưởng?   │ Giải thích                  │
-    ├───────────────┼──────────────────┼─────────────────────────────┤
-    │ ① Content     │ KHÔNG           │ Compile Engine trực tiếp —  │
-    │               │                  │ exposure alone = đủ          │
-    ├───────────────┼──────────────────┼─────────────────────────────┤
-    │ ② Value       │ ⭐ CÓ — CHÍNH   │ Body state → approach/avoid │
-    │               │                  │ = VALUE compile chính       │
-    ├───────────────┼──────────────────┼─────────────────────────────┤
-    │ ③ Entity      │ CÓ — gián tiếp  │ Trust update = f(experience)│
-    ├───────────────┼──────────────────┼─────────────────────────────┤
-    │ ④ Behavior    │ CÓ — motor      │ Approach → approach habit   │
-    │               │                  │ Avoidance → avoidance habit │
-    └───────────────┴──────────────────┴─────────────────────────────┘
-
-    → "Giỏi toán nhưng ghét toán" ở trẻ =
-      Content compiled ✓ (exposure enough), Value compiled avoidance ✗
-    → Reframe chính xác hơn: "cùng exposure → content compile GIỐNG,
-      value compile KHÁC tùy body state + trust lúc compile"
-
-    → HÀM Ý: §3.2 "Cách Dạy Quyết Định Tag" = CHÍNH XÁC HƠN:
-      "Cách dạy quyết định VALUE + BEHAVIOR tag.
-       CONTENT stream compile BẤT KỂ cách dạy (exposure = đủ).
-       Nên: content → LUÔN compile nếu exposed.
-       Nhưng: value tag quyết định trẻ CÓ MUỐN tiếp tục hay không."
 ```
 
 ### §3.2 — "Cách Dạy Quyết Định Tag"
@@ -1130,7 +887,7 @@ TỪ COMPILE ARCHITECTURE + FORMULA → NGUYÊN TẮC THỰC TẾ:
   CÁCH A: Ném xuống nước + la hét + "ai cũng biết bơi"
     → Body state: threat CỰC ĐOAN (cortisol spike + NE + fear)
     → "Nước" chunk = avoidance tag CỰC MẠNH (emotional peak compile)
-    → = 1 lần đủ compile suốt đời (§2.1② — emotional peak)
+    → = 1 lần đủ compile suốt đời (kênh ② — §2.1)
     → 20 năm sau: sợ nước, né hồ bơi, không dám cho con học bơi
 
   CÁCH B: Chơi nước dần → splash → float với phao → guided instruction
@@ -1154,79 +911,6 @@ TỪ COMPILE ARCHITECTURE + FORMULA → NGUYÊN TẮC THỰC TẾ:
     → + Contingency cao (tự solve → immediate feedback)
     → + Multi-modal (thật, sờ được, ăn được)
     → Adult: "thích logic" = accumulated approach tags
-```
-
-### §3.2b — Critical Asymmetry for Parenting
-
-```
-⭐⭐ BẤT ĐỐI XỨNG CƠ CHẾ: "LÀM MẪU" > "GIẢI THÍCH" (Compile-Taxonomy.md v3.0 §7)
-
-  2 ĐƯỜNG KHÁC NHAU, KHÁC TỐC ĐỘ + CHI PHÍ:
-
-  ┌──────────┬─────────────────────────────┬──────────────────────────────┐
-  │          │ PFC → Entity-Valence        │ Entity-Valence → PFC         │
-  ├──────────┼─────────────────────────────┼──────────────────────────────┤
-  │ Cách     │ Mẹ GIẢI THÍCH "toán        │ Mẹ TẠO TRẢI NGHIỆM vui     │
-  │          │ quan trọng" (PFC path)      │ với toán (Entity-Valence)    │
-  ├──────────┼─────────────────────────────┼──────────────────────────────┤
-  │ Speed    │ CHẬM (weeks/months)         │ NHANH (milliseconds)         │
-  │ Cost     │ CAO (PFC hold liên tục)     │ THẤP (compiled, cost ≈ 0)   │
-  │ Path     │ INDIRECT: PFC → Exposure →  │ DIRECT: Entity-Valence      │
-  │          │ Engine → Entity-Valence     │ → PFC                       │
-  │ Bền      │ Bền NẾU compile xong       │ Rất bền (compiled)          │
-  └──────────┴─────────────────────────────┴──────────────────────────────┘
-
-
-  VD PIANO — 2 APPROACHES:
-
-    APPROACH A — PFC PATH (giải thích):
-      Mẹ: "Piano tốt cho con, rèn kỷ luật, sau này có lợi"
-      → PFC con phải HOLD: [piano → kỷ luật → lợi ích → tương lai]
-      → Chain DÀI, PFC con 3-5 tuổi KHÔNG hold nổi (~4 slots)
-      → PFC depleted → body vẫn ở trạng thái cũ (neutral hoặc avoidance)
-      → Kết quả: con HIỂU nhưng KHÔNG MUỐN = Content ✓ Value ✗
-
-    APPROACH B — Entity-Valence PATH (trải nghiệm):
-      Mẹ chơi piano vui trước mặt con + con nghe + con thử nhấn phím
-      → Entity-Valence: mẹ (trust Mức 5) + vui + musical exposure
-      → Body auto-receptive: "mẹ vui → an toàn → thú vị"
-      → Approach tag compile TRỰC TIẾP, KHÔNG qua PFC
-      → Kết quả: con MUỐN thử = Content bắt đầu + Value ✓
-
-    → "Sống mẫu" CÓ CƠ SỞ CƠ CHẾ RÕ RÀNG:
-      Sống mẫu = Entity-Valence path (fast, free, direct)
-      Giải thích = PFC path (slow, costly, indirect)
-
-
-  VD BƠI — Critical Asymmetry rõ nhất:
-
-    PFC PATH: "Bơi tốt cho sức khỏe, nhiều người biết bơi"
-      → Con hiểu → KHÔNG bớt sợ (Entity-Valence không thay đổi)
-
-    Entity-Valence PATH: Mẹ ĐÙA VỚI NƯỚC trước mặt con + ôm con vào nước
-      → Oxytocin (Hardware-Subsidy) + mẹ vui (Entity-Valence)
-      → "Nước" chunk compile approach tag TRỰC TIẾP
-      → Sợ GIẢM mà con KHÔNG cần "hiểu" tại sao
-
-
-  ⭐ TẠI SAO HARDWARE-SUBSIDY (mẹ bên cạnh) HIỆU QUẢ HƠN LỜI NÓI:
-
-    Hardware-Subsidy (Connection.md v5.0 §5):
-      Oxytocin/opioid present → approach tag AMPLIFIED
-    + Entity-Valence (mẹ = trust Mức 5):
-      Body auto-receptive → exposure quality TĂNG
-
-    = COMPOUND EFFECT: Hardware-Subsidy × Entity-Valence = approach tag CỰC MẠNH
-    = "Mẹ bên cạnh + mẹ vui + con trải nghiệm" > "mẹ giải thích từ xa"
-
-    → Giải thích TẠI SAO:
-      "Mẹ chơi cùng" > "Mẹ giải thích" (Entity-Valence path > PFC path)
-      "Mẹ đi cùng" > "Mẹ cho tiền" (Hardware-Subsidy > material incentive)
-      "Thầy/cô mà trẻ YÊU" > "Thầy/cô giỏi" (Entity-Valence > Content delivery)
-
-  🟡 Critical Asymmetry for parenting: Compile-Taxonomy.md v3.0 §7
-  🟢 PFC → subcortical = indirect, slow: established neuroscience
-  🟢 Subcortical → PFC = direct, fast: established neuroscience
 ```
 
 ### §3.3 — Tag Accumulation + Schema Formation
@@ -1451,7 +1135,7 @@ TỪ COMPILE ARCHITECTURE + FORMULA → NGUYÊN TẮC THỰC TẾ:
        b) Contradiction: "nếu A thì B, nhưng con thấy không-B"
        c) Inference gap: "đồ vật rơi xuống, nhưng bóng bay lên"
 
-     → Fill gap → opioid reward → drive tiếp (§2.1① — repetition)
+     → Fill gap → opioid reward → drive tiếp (§2.1 kênh thứ ①)
      → = FOUNDATION cho Novelty drive (Novelty.md)
      → = "Tò mò" = body detecting gaps
 
@@ -1890,7 +1574,7 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
   ⚠️ LABEL ≠ CHỈ LÀ TỪ:
     Label = TOÀN BỘ PACKAGE:
       Từ ("đói") + Giọng (caring tone) + Hành động (cho ăn) + Kết quả (calm)
-    = Multi-modal compile (§2.1③)
+    = Multi-modal compile (§2.1 kênh ③)
     = Đây là lý do tương tác THẬT > app dạy cảm xúc
 ```
 
@@ -2365,7 +2049,7 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
 ```
 ⭐⭐ SLEEP × CORTISOL — 2 LÝ DO KHÁC NHAU, CÙNG 1 KẾT LUẬN:
 
-  LÝ DO 1 — SLEEP MAINTENANCE (§2.1④, Compile-Sleep.md v1.0):
+  LÝ DO 1 — CONSOLIDATION (§2.1 kênh ④):
     Ban ngày: trải nghiệm → chunks proto-compile
     Ban đêm: hippocampus REPLAY → strengthen + transfer → cortex
     → Sáng dậy: chunks MẠNH HƠN, skills TỐT HƠN
@@ -2723,7 +2407,7 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
 🟢 HIGH CONFIDENCE (research support đa dạng):
 
   PFC hardware reframe (Hodel 2018, 5 pillars)             — §1
-  Compile Architecture (Huttenlocher synaptogenesis, Walker sleep) — §2
+  4-channel compile (Huttenlocher synaptogenesis, Walker sleep) — §2
   Efference copy mechanism (von Holst 1950, established)     — §7
   Attachment → explore (Bowlby/Ainsworth, replicated nhiều)  — §4.4
   Alexithymia → empathy deficit (Bird & Cook 2013)           — §5.3, §6
@@ -2783,8 +2467,6 @@ MECHANISM FILES (source of truth for mechanisms in this file):
 
   CHUNK + COMPILE:
   Chunk.md v2.0                 — Chunk lifecycle, 4-phase, compile formula
-  Compile-Taxonomy.md v3.0      — 1 Engine + 3 Modulators, Multi-Stream, Trust = Amplifier [NEW v2.2]
-  Compile-Sleep.md v1.0         — Sleep Maintenance (6 mechanisms, exposure vs optimization) [NEW v2.2]
   Compiled-Fresh.md v2.0        — Compiled/Fresh processing types [NEW v2.0]
   Body-Feedback.md              — Dual-pull, interface loop 6-step, Body-Feedback-Precondition
   Body-Feedback-Mechanism.md    — 2 sources × 3 dynamics (Shift/Miss/Gap)
@@ -2931,14 +2613,13 @@ CÁC FILE ĐI KÈM (reference ngược):
 
 ---
 
-> **END OF Child-Development-Mechanism.md v2.2**
+> **END OF Child-Development-Mechanism.md v2.0**
 >
 > **Summary:** Khung nguyên lý v7.8 cho phát triển trẻ 0-6 tuổi.
 >   §0: Vị trí + cách đọc
 >   §1: PFC Reframe (hardware online, chunks missing — 5 pillars 🟢) + PFC Budget
->   §2: Compile Architecture (1E+3M) + §2.5 Advanced Dynamics + §2.6 Multi-Stream Compile
->   §3: ⭐ Approach/Avoidance Tags + Multi-Stream Tag Clarification + Critical Asymmetry
->        + Structural/Current Valence + Mixed + Triple Bias
+>   §2: 4+1 Channel Compile + §2.5 Advanced Dynamics (Satiation, Compiled/Fresh, Firing Modes)
+>   §3: ⭐ Approach/Avoidance Tags + Structural/Current Valence + Mixed + Triple Bias
 >   §4: Chunk Dynamics + Connection v5.0 (Entity-Compiled, Bond-Architecture,
 >        Hardware-Subsidy, 4-Layer, Phantom, Coordination-Node, Entity-Access)
 >   §5: Feeling Development (7-layer + Body-Feedback-Label vocabulary + caregiving label → fidelity)
@@ -2956,15 +2637,4 @@ CÁC FILE ĐI KÈM (reference ngược):
 >   NEW §2.5: Satiation Types, Compiled/Fresh, 3 Firing Modes.
 >   MODERATE: Valence-Propagation v3.0 (Structural/Current, Mixed, Triple Bias), PFC Budget, Dissonance-Signal-Architecture.
 >
-> **v2.2 changes (2026-06-01):** Compile Architecture Refine (Plan 1/3 File 1).
->   REFRAME: "4+1 Channel Compile" → "Compile Architecture (1 Engine + 3 Modulators)."
->   NEW §2.0: Architecture Overview (1E+3M diagram, 3 Exposure Channels, 3 Compile Types).
->   REFRAME §2.1: "4 Kênh Compile" → "Compile Engine + 4 Dạng Exposure."
->   REFRAME §2.1④: Sleep "kênh compile" → "Offline Maintenance" (6-mechanism table).
->   REFRAME §2.2: "Kênh Thứ 5" → "Trust Compile" (Amplifier not Gate, VALUE scope).
->   NEW §2.6: Multi-Stream Compile for Child Development (~100L, 4 streams × examples).
->   ENRICH §3.1: Multi-Stream Tag Clarification (approach/avoidance = VALUE+BEHAVIOR, not CONTENT).
->   NEW §3.2b: Critical Asymmetry for Parenting (PFC path slow vs Entity-Valence path fast).
->   Source: Compile-Taxonomy.md v3.0 + Compile-Sleep.md v1.0.
->
-> **Phiên bản:** v2.2, 2026-06-01. (v2.0: 2026-05-25, v1.0: 2026-04-21)
+> **Phiên bản:** v2.0, 2026-05-25. (v1.0: 2026-04-21)

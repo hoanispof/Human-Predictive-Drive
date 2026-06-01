@@ -21,7 +21,7 @@ references:
 
 ## Short Post A — r/neuroscience (academic tone)
 
-**Title:** ADHD as threshold tuning, not attention deficit: a unified mechanism for hyperfocus, the anxiety chain, and the stimulant paradox (with falsification criteria)
+**Title:** ADHD as threshold tuning, not attention deficit: a unified mechanism for hyperfocus, the anxiety chain, and the stimulant paradox
 
 **Body:**
 

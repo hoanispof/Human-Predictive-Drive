@@ -1,9 +1,9 @@
 ﻿---
 title: Skill-Introduction — Giới Thiệu Kỹ Năng Cho Trẻ (0-6 Tuổi)
-version: 2.2
+version: 2.1
 created: 2026-04-01
-updated: 2026-06-01
-status: REFERENCE v2.2
+updated: 2026-05-25
+status: REFERENCE v2.1
 scope: |
   PRACTICAL FILE: KHI NÀO và THẾ NÀO giới thiệu kỹ năng cụ thể cho trẻ —
   từ vận động, âm nhạc, nhận thức, tới sáng tạo. Qua lens v7.8.
@@ -23,10 +23,8 @@ position: |
   TẦNG 4: Applications/Education-System/ (ứng dụng per-era)
   TẦNG 5: Country/ (per-country)
 dependencies:
-  - Child-Development-Mechanism.md v2.2 — KHUNG NGUYÊN LÝ v7.8 (reference chính) [UPDATED v2.2]
-  - Natural-Development.md v2.2 — nền tảng phát triển tự nhiên (prerequisite) [UPDATED v2.2]
-  - Compile-Taxonomy.md v3.0 — Compile Architecture (1E+3M), Multi-Stream, Critical Asymmetry [NEW v2.2]
-  - Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms) [NEW v2.2]
+  - Child-Development-Mechanism.md v2.0 — KHUNG NGUYÊN LÝ v7.8 (reference chính)
+  - Natural-Development.md v2.1 — nền tảng phát triển tự nhiên (prerequisite)
   - Core-Software.md v2.0 — cycle architecture, observation parameters
   - Chunk.md v2.2 — chunk substrate, compile, lifecycle, context-tag
   - Body-Feedback-Mechanism.md v2.0 — 2 sources × 3 dynamics
@@ -75,7 +73,7 @@ caution: |
 > = KHÁC schema suốt đời: "kỹ năng X = thú vị" vs "kỹ năng X = bị ép"
 >
 > Cơ chế tag: → Mechanism.md §3 (Approach/Avoidance Tags).
-> Cơ chế chunks: → Mechanism.md §2 (Compile Architecture).
+> Cơ chế chunks: → Mechanism.md §2 (4+1 Channel Compile).
 > File này: ÁP DỤNG thực tế per-skill + per-hardware.
 
 ---
@@ -105,8 +103,8 @@ caution: |
 BỘ 4 FILES — PHÁT TRIỂN TRẺ 0-6:
 
   Mother-Optimization.md        → TRƯỚC sinh (hardware con hình thành từ mẹ)
-  Natural-Development.md v2.2   → 0-6 tuổi: body/brain TỰ compile chunks (đừng cản)
-  Skill-Introduction.md v2.2    → Song song: bố mẹ GIỚI THIỆU kỹ năng (đúng lúc)
+  Natural-Development.md v2.1   → 0-6 tuổi: body/brain TỰ compile chunks (đừng cản)
+  Skill-Introduction.md v2.1    → Song song: bố mẹ GIỚI THIỆU kỹ năng (đúng lúc)
        [FILE NÀY]
   Child-Development-Mechanism.md → CƠ CHẾ v7.8: giải thích TẠI SAO
        (PFC Reframe, Approach/Avoidance Tags, Chunk Dynamics, Self-Pattern-Modeling, Cortisol...)
@@ -387,54 +385,6 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
     → Khen "cố gắng" (process) → growth mindset → đón thử thách
 ```
 
-### §1.6 — 4 BƯỚC × COMPILE TYPE: EXPERIENCE DẪN TRƯỚC, TRUST THEO SAU
-
-```
-⭐ 4 BƯỚC = ĐẢM BẢO EXPERIENCE COMPILE BUILD APPROACH TAGS
-  TRƯỚC KHI TRUST COMPILE INSTALL CONTENT (Compile-Taxonomy.md v3.0 §4):
-
-  3 Compile Types = dominant modulator configurations:
-    Experience Compile: Engine + direct exposure → CHẬM, SÂU, TỰ verify
-    Trust Compile:      Engine + Entity-Valence dominant → NHANH, Entity install
-    Expertise Compile:  Engine + PFC sustained → YEARS, mastery
-
-  4 BƯỚC × COMPILE TYPE:
-
-    Bước 1 (Exposure):  Experience Compile — body thu thập data trực tiếp
-      → Compile Engine qua external exposure → chunks sensory + causal
-      → KHÔNG có Trust Compile (chưa có instruction từ ai)
-
-    Bước 2 (Interest):  Experience Compile — body tự signal resonance
-      → VTA fire → approach tag TỰ NHIÊN (không ai install)
-      → = Experience-driven approach = MẠNH NHẤT, KHÓ gỡ nhất
-
-    Bước 3 (Guided):    Experience 70% + Trust 30%
-      → Trẻ TỰ khám phá (Experience) + bố mẹ introduce basic (Trust)
-      → Trust Compile effective vì Entity-Valence ĐÃ positive (bố mẹ = trusted entity)
-      → = Trust install trên NỀN approach → install SÂU + ĐÚNG HƯỚNG
-
-    Bước 4 (Structured): Trust 60% + Experience 40%
-      → Thầy/sách install content (Trust Compile dominant)
-      → Trẻ practice + verify (Experience Compile continues)
-      → Trust Compile effective vì VALUE stream ĐÃ approach từ bước 1-3
-
-  ⭐ TẠI SAO EXPERIENCE DẪN TRƯỚC TRUST:
-
-    Experience Compile → approach tag VÀO Value stream TRƯỚC
-    → Sau đó Trust Compile install content → Content stream tiếp nhận HIỆU QUẢ
-    → Vì: Trust Compile amplify VALUE (Mức 0-5), KHÔNG amplify CONTENT
-    → Content compile qua Engine bất kể Trust (Mechanism v2.2 §2.6)
-
-    Skip bước 1-3 = Trust Compile TRƯỚC Experience:
-    → Thầy install "piano = tốt" (Trust) → NHƯNG trẻ chưa có body data
-    → VALUE stream: Trust amplifier ≈ 0 (thầy LẠ, chưa trusted entity)
-    → CONTENT stream: compile OK (repetition, exposure)
-    → = "Biết chơi nhưng KHÔNG thích" = Content ✓, Value ✗
-
-  → Cross-ref: Compile-Taxonomy.md v3.0 §4 (3 Compile Types)
-  → Cross-ref: Mechanism v2.2 §2.6 (Multi-Stream)
-```
-
 ---
 
 ## §2 — EXPOSURE → STRUCTURE: 4 BƯỚC + APPROACH/AVOIDANCE TAG
@@ -480,40 +430,6 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
     → = 4 bước = DẪN DẮT Current → Structural ĐÚNG HƯỚNG (approach)
     → Skip → Structural valence gắn AVOIDANCE → KHÓ gỡ sau
     (→ Mechanism §3: Structural vs Current valence per developmental stage)
-
-
-  ⭐ MULTI-STREAM × 4 BƯỚC (→ Mechanism v2.2 §2.6, Compile-Taxonomy.md v3.0 §5):
-
-    4 streams compile ĐỘC LẬP từ CÙNG 1 skill event:
-      Content / Value / Entity / Behavior
-
-    Bước 1-2 (Exposure + Interest):
-      → VALUE stream compile CHỦ YẾU: "skill NÀY = thú vị?" (approach/avoidance)
-      → CONTENT stream: minimal (chưa instruction → ít content)
-      → ENTITY stream: "bố mẹ CŨNG enjoy" → Entity-Valence update
-      → BEHAVIOR stream: sơ khai (observe → proto-motor)
-      → = VALUE FIRST → approach tag build TRƯỚC content
-
-    Bước 3 (Guided Play):
-      → VALUE stream: approach TIẾP TỤC (vui + bố mẹ cùng)
-      → CONTENT stream: BẮT ĐẦU (learn basics qua play)
-      → BEHAVIOR stream: motor chunks COMPILE (practice qua play)
-      → = 3 streams CÙNG positive → integrated learning
-
-    Bước 4 (Structured):
-      → CONTENT stream: DOMINANT (instruction → knowledge compile)
-      → VALUE stream: ĐÃ positive từ bước 1-3 → APPROACH schema SẴN
-      → BEHAVIOR stream: deliberate practice → motor mastery
-      → = Content stream MỞ RỘNG trên nền Value ĐÃ approach
-
-    Skip bước 1-3 → vào thẳng bước 4:
-      → CONTENT stream: compile OK (instruction → knowledge)
-      → VALUE stream: avoidance (ép + lạ + không control)
-      → = "Giỏi nhưng ghét" = Content ✓, Value ✗
-      → = Architecture PREDICTS "biết chơi nhưng không muốn chơi"
-
-    → = 4 bước = đảm bảo VALUE stream approach TRƯỚC content volume TĂNG
-    → = "Value stream first, content stream second" (Compile-Taxonomy.md v3.0 §5)
 ```
 
 ### §2.1 — Bước 1: EXPOSURE — PHƠI NHIỄM (Bố mẹ tạo, trẻ tự gặp)
@@ -531,7 +447,7 @@ VD:
   Bóng đá: xem bóng đá cùng, đá bóng với bố ở sân
 
 MỤC ĐÍCH:
-  → Body trẻ THU THẬP chunks về kỹ năng này (→ Mechanism §2: Compile Architecture)
+  → Body trẻ THU THẬP chunks về kỹ năng này (→ Mechanism §2: 4+1 channel)
   → Âm thanh piano = auditory chunks
   → Nước chạm da = tactile + thermal chunks
   → Thấy bút tạo vết trên giấy = visual + causal chunks
@@ -687,32 +603,6 @@ FRAMEWORK ANALYSIS (→ Mechanism §3 + §4):
        → Habituation = VTA không còn fire → CHÁN, không phải "đã đủ"
        → FIX: thêm NOVELTY trong practice (bài mới, cách mới, context mới)
 
-  🟡 MULTI-STREAM PHÂN BIỆT "MUỐN DỪNG" (→ Mechanism v2.2 §2.6):
-
-    "Con muốn dừng" = STREAM NÀO đang avoidance?
-
-    a) Value stream avoidance (CÁCH dạy sai):
-       → Content vẫn compile (biết chơi) nhưng Value = avoidance (ghét)
-       → FIX: đổi approach (thầy khác, kiểu khác) → Value stream shift
-       → Signal: "biết chơi nhưng không muốn", "mỗi lần practice = mệt/buồn"
-
-    b) Content satiation (ĐÃ compile đủ cho level này):
-       → Content stream: Compilation-Complete (Gap-Body-Need.md v1.0)
-       → Value vẫn approach (vẫn thích) nhưng "hết cái để học"
-       → FIX: tăng challenge / depth → open new Content gaps
-       → Signal: "dễ quá", "biết hết rồi", "chán vì lặp lại"
-
-    c) Habituation (VTA hết fire — cần novelty mới):
-       → Cả Content + Value đều neutral (không ghét, không thích)
-       → VTA habituated → "nhạt" → cần NOVELTY injection
-       → FIX: thêm novelty (bài mới, context mới, partner mới)
-       → Signal: "không hẳn ghét, chỉ... không hứng thú nữa"
-
-    → = Multi-Stream giúp PHÂN BIỆT 3 dạng → 3 cách xử lý KHÁC NHAU
-    → = Nếu không phân biệt → dễ ÉP TIẾP (khi chỉ cần đổi approach)
-      hoặc DỪU HẲN (khi chỉ cần thêm novelty)
-
-
   → Bố mẹ NÊN:
     ① PHÂN BIỆT: muốn dừng KỸ NĂNG hay muốn dừng APPROACH?
        → "Con không thích piano" vs "Con không thích thầy/lớp/cách này"
@@ -788,43 +678,6 @@ FRAMEWORK ANALYSIS (→ Mechanism §3 + §4):
     → = Sensitive period: bias DỄ SET + DỄ SHIFT hơn người lớn
     → NHƯNG: bias NEGATIVE cũng dễ set → first experience CỰC quan trọng
   → = 4 bước = đảm bảo FIRST EXPERIENCE = POSITIVE → set cả 3 bias ĐÚNG HƯỚNG
-```
-
-### §2.7 — CRITICAL ASYMMETRY × SKILL INTRODUCTION
-
-```
-⭐ CRITICAL ASYMMETRY (Compile-Taxonomy.md v3.0 §7):
-
-  PFC → Entity-Valence path = CHẬM, TỐN (weeks-months, PFC effort)
-  Entity-Valence → PFC path = NHANH, RẺ (milliseconds, automatic)
-
-  CHO SKILL INTRODUCTION:
-
-    PFC PATH (giải thích): "Piano quan trọng vì..."
-      → Bố mẹ GIẢI THÍCH tại sao skill X tốt → PFC trẻ tiếp nhận
-      → NHƯNG: PFC → Entity-Valence = CHẬM, TỐN
-      → Trẻ 3-6: PFC budget HẠN CHẾ → absorb ÍT
-      → Kết quả: "hiểu piano quan trọng" nhưng body KHÔNG có approach
-
-    ENTITY-VALENCE PATH (sống mẫu + trải nghiệm): Bố mẹ CHƠI piano vui
-      → Trẻ THẤY bố mẹ enjoy → Entity-Valence path: NHANH, tự động
-      → Trẻ MUỐN THỬ (Entity-Valence → PFC: "tôi cũng muốn")
-      → Kết quả: body approach tag TRƯỚC cả khi hiểu "tại sao quan trọng"
-
-  → = "SỐNG MẪU" (Natural-Dev §5.6) CÓ CƠ SỞ CƠ CHẾ:
-    → Bố mẹ enjoy skill → Entity-Valence path → trẻ muốn
-    → Bố mẹ giải thích skill → PFC path → trẻ hiểu nhưng chưa muốn
-
-  HARDWARE-SUBSIDY + ENTITY-VALENCE = COMPOUND EFFECT:
-    → Bố mẹ = trusted entity (Mức 4 Entity-Access) + Hardware-Subsidy
-    → Bố mẹ enjoy piano TRƯỚC MẶT trẻ:
-      Entity-Valence path (nhanh) + Hardware-Subsidy (anti-habituation)
-      = approach tag CỰC MẠNH, bền, tự nhiên
-    → > Bất kỳ giải thích nào về "piano tốt cho não"
-
-  → = Bước 1 (Exposure) HIỆU QUẢ NHẤT khi BỐ MẸ TỰ ENJOY skill
-  → = "Muốn con thích X → bố mẹ SỐNG thích X" (Entity-Valence > PFC)
-  → Cross-ref: Mechanism v2.2 §3.2b (Critical Asymmetry for Parenting)
 ```
 
 ---
@@ -2286,9 +2139,9 @@ KHI THẤY WARNING SIGNS:
 ```
 TRONG BỘ CHILD-DEVELOPMENT (Research/Human-Learning/Child-Development/):
 
-→ Child-Development-Mechanism.md v2.2 — KHUNG NGUYÊN LÝ v7.8 [UPDATED v2.2]
+→ Child-Development-Mechanism.md v2.0 — KHUNG NGUYÊN LÝ v7.8
    §1: PFC Reframe (hardware online, chunks missing)
-   §2: Compile Architecture (1E+3M) + Multi-Stream §2.6 + Critical Asymmetry §3.2b
+   §2: 4+1 Channel Compile + 3 Satiation Types + 3 Firing Modes
    §3: ⭐ Approach/Avoidance Tag × Parenting (Structural/Current valence, Mixed Valence)
    §4: Chunk Dynamics + §4.4 Connection v5.0 (Entity-Compiled, Bond-Architecture, Hardware-Subsidy)
    §5: Feeling Development (Body-Feedback-Label 3-tier, prediction-delta)
@@ -2296,7 +2149,7 @@ TRONG BỘ CHILD-DEVELOPMENT (Research/Human-Learning/Child-Development/):
    §8: Cortisol Baseline × Phát Triển (Dissonance-Signal-Architecture: amplifier, không tạo)
    §9: Imagine-Final v3.0 (hardware prediction ≠ Imagine-Final, Simulation-Engine)
 
-→ Natural-Development.md v2.2 — NỀN TẢNG (prerequisite) [UPDATED v2.2]
+→ Natural-Development.md v2.1 — NỀN TẢNG (prerequisite)
    §2: Hành vi tự nhiên (Dissonance-Signal-Architecture, Simulation-Engine, Self-Pattern-Modeling v3.1)
    §4: Timeline (Entity-Compiled, Dissonance-Signal-Architecture, Gap-Direction, Phantom, 4-Layer)
    §7: Qua lens framework v7.8 (Valence-Propagation v3.0, Connection v5.0, Imagine-Final v3.0, Body-Feedback-Label)
@@ -2308,8 +2161,6 @@ TRONG CORE-DEEP-DIVE/ — CORE:
 
 → Core-Software.md v2.0 — Cycle architecture, observation parameters
 → Body-Base/Chunk/Chunk.md v2.2 — Chunk substrate, compile, context-tag, lifecycle
-→ Body-Base/Chunk/Compile-Taxonomy.md v3.0 — Compile Architecture (1E+3M), Multi-Stream, Critical Asymmetry [NEW v2.2]
-→ Body-Base/Chunk/Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms) [NEW v2.2]
 → Compiled-Fresh.md v2.0 — Compiled/Fresh processing spectrum [NEW v2.1]
 
 
@@ -2376,34 +2227,22 @@ TRONG EDUCATION-MECHANISM/ (Research/Human-Learning/Education-Mechanism/):
 
 ---
 
-> *Skill Introduction v2.2 — "EXPOSURE trước, TRAINING sau. Body signal quyết định,
+> *Skill Introduction v2.1 — "EXPOSURE trước, TRAINING sau. Body signal quyết định,
 > không phải lịch của bố mẹ. Mỗi kỹ năng = 4 bước: Phơi nhiễm → Hứng thú →
 > Chơi có hướng dẫn → Học có cấu trúc. Mỗi bước = cơ hội tag APPROACH.
 > Skip bước = risk tag AVOIDANCE — gắn vào chunk, tồn tại suốt đời.
-> Experience Compile DẪN TRƯỚC Trust Compile = VALUE stream approach TRƯỚC content volume.
-> Multi-Stream: 'biết chơi nhưng không thích' = Content ✓ Value ✗ — architecture predicts.
-> Critical Asymmetry: 'sống mẫu' (Entity-Valence path) > 'giải thích' (PFC path).
-> Mỗi trẻ hardware KHÁC → adjust."*
+> CÙNG kỹ năng + CÙNG trẻ + KHÁC cách giới thiệu = KHÁC tag = KHÁC trajectory.
+> 1 kỹ năng sâu + enjoy > 5 kỹ năng nông + ép. Mỗi trẻ hardware KHÁC → adjust.
+> v2.1: +prediction-delta vocabulary, +Gap-Direction, +Simulation-Engine,
+> +Hardware-Subsidy, +3 Firing Modes, +Compiled/Fresh, +3 Satiation Types,
+> +Triple Bias, +PFC Budget, +Dissonance-Signal-Architecture, +Resonance Decline, +4-Layer Sustainability,
+> +Gap-Distribution-Profile. Body-Feedback-Label 3-tier replace "feeling layer 1-2"."*
 
 ---
 
 ### Changelog
 
 ```
-v2.2 (2026-06-01):
-  - §1.6 NEW: Trust vs Experience Compile × 4-step mapping (~30L)
-    Experience DẪN TRƯỚC Trust. 4 bước = ensure VALUE approach TRƯỚC content.
-  - §2: +Multi-Stream × 4 bước (~35L): Value/Content/Entity/Behavior per step
-    Skip bước 1-3 → "giỏi nhưng ghét" = Content ✓ Value ✗
-  - §2.5: +Multi-Stream lens cho Withdrawal (~20L): 3 dạng "muốn dừng" phân biệt
-    a) Value avoidance b) Content satiation c) Habituation → 3 cách xử lý
-  - §2.7 NEW: Critical Asymmetry × Skill Introduction (~30L)
-    Entity-Valence path (sống mẫu) > PFC path (giải thích). Compound effect.
-  - Terminology: "4+1 Channel Compile" → "Compile Architecture" (3 replacements)
-  - Header: +CT v3.0, +CS v1.0, Mechanism v2.0→v2.2, Natural-Dev v2.1→v2.2
-  - §11: +CT v3.0, +CS v1.0 cross-refs, version updates
-  Source: Compile-Taxonomy.md v3.0 + Compile-Sleep.md v1.0
-
 v2.1 (2026-05-25):
   - §0.3: Body-Feedback-Label 3-tier (Hardware-Signal / Evaluative-Signal / Integration-Signal)
           replace "feeling layer 1-2". +prediction-delta vocabulary.

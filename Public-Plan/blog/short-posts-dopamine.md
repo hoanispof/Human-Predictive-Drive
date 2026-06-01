@@ -21,7 +21,7 @@ references:
 
 ## Short Post A — r/neuroscience (academic tone)
 
-**Title:** Dopamine as salience signal, not reward: a proposed 7-step mechanism with falsification criteria
+**Title:** Dopamine as salience signal, not reward: a proposed 7-step mechanism for when opioid reward fires
 
 **Body:**
 
@@ -79,7 +79,7 @@ Does this match your experience? What doesn't fit?
 
 ## Short Post C — r/cogsci (bridge tone)
 
-**Title:** Beyond wanting vs. liking: a proposed mechanism for when opioid reward fires (7-step model, falsifiable)
+**Title:** Beyond wanting vs. liking: a proposed 7-step mechanism for when opioid reward fires
 
 **Body:**
 

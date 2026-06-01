@@ -21,7 +21,7 @@ references:
 
 ## Short Post A — r/neuroscience (academic tone)
 
-**Title:** Cortisol as change-readiness amplifier, not stress hormone: Source > Level principle with falsification criteria
+**Title:** Cortisol as change-readiness amplifier, not stress hormone: why source direction matters more than level
 
 **Body:**
 
@@ -79,7 +79,7 @@ Does this match your experience? When has "just reduce your stress" missed the p
 
 ## Short Post C — r/cogsci (bridge tone)
 
-**Title:** Beyond eustress vs. distress: a proposed mechanism for when cortisol helps vs. harms (falsifiable, with inverted-U explanation)
+**Title:** Beyond eustress vs. distress: why source direction and repair balance determine when cortisol helps vs. harms
 
 **Body:**
 
