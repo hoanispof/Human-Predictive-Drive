@@ -16,7 +16,7 @@ scope: |
   v1.1 KEY CHANGE — §3 REWRITE:
     + 4-tầng → 2-tầng + 2 đường: chỉ 2 CƠ CHẾ (Darwinian + Hebbian)
     + 2a Domain Contact (active + passive): multi-modal, self-verified
-    + 2b Trust-Injected (external sources): trust-gated, thinner, faster
+    + 2b Trust-Injected (external sources): trust-amplified, thinner, faster
     + Passive social compile: absorb từ environment vô thức (giọng, norms, gu)
     + Recursive property: existing chunks filter/amplify domain contact
     + Culture = tên gọi cho 2a passive + 2b, KHÔNG PHẢI tầng riêng
@@ -401,7 +401,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Nhưng Tầng 2 (Hebbian) có 2 ĐƯỜNG VÀO rất khác:
     2a: Domain Contact — body tiếp xúc domain TRỰC TIẾP
-    2b: Trust-Injected — entities khác TRUYỀN chunks qua trust gate
+    2b: Trust-Injected — entities khác TRUYỀN chunks qua trust amplifier
 
   → v1.1 reframe: 4-tầng → 2-tầng + 2 đường vào.
   → Parsimony: ít hơn, giải thích NHIỀU HƠN.
@@ -453,22 +453,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   NHƯNG: cùng cơ chế Hebbian → 2 ĐƯỜNG VÀO rất khác nhau:
 
-  ┌──────────────────────┬──────────────────────────┐
-  │ 2a DOMAIN CONTACT    │ 2b TRUST-INJECTED        │
-  ├──────────────────────┼──────────────────────────┤
-  │ Body tiếp xúc domain │ Entity khác truyền chunks│
-  │ trực tiếp            │ qua trust gate           │
-  │                      │                          │
-  │ Multi-modal (5 kênh) │ Thường 1-2 kênh (verbal) │
-  │ Domain verify MỖI lần│ Verify: CHƯA (on trust)  │
-  │ KHÔNG cần trust gate │ CẦN trust gate           │
-  │ Compile: THICK       │ Compile: THINNER         │
-  │ Speed: CHẬM          │ Speed: NHANH             │
-  │ Risk: THẤP           │ Risk: CAO hơn            │
-  └──────────────────────┴──────────────────────────┘
+  ┌─────────────────────────────┬─────────────────────────────┐
+  │ 2a DOMAIN CONTACT           │ 2b TRUST-INJECTED           │
+  ├─────────────────────────────┼─────────────────────────────┤
+  │ Body tiếp xúc domain        │ Entity khác truyền chunks   │
+  │ trực tiếp                   │ qua trust amplifier         │
+  │                             │                             │
+  │ Multi-modal (5 kênh)        │ Thường 1-2 kênh (verbal)   │
+  │ Domain verify MỖI lần       │ Verify: CHƯA (on trust)    │
+  │ KHÔNG cần trust amplifier   │ CẦN trust amplifier        │
+  │ Compile: THICK              │ Compile: THINNER           │
+  │ Speed: CHẬM                 │ Speed: NHANH               │
+  │ Risk: THẤP                  │ Risk: CAO hơn              │
+  └─────────────────────────────┴─────────────────────────────┘
 
   → CÙNG cơ chế Hebbian.
-  → KHÁC ở: multi-modal richness × domain-verify count × trust-gate.
+  → KHÁC ở: multi-modal richness × domain-verify count × trust amplifier.
   → KHÔNG phải 2 "tầng" riêng — là 2 "đường vào" cho cùng 1 tầng.
 ```
 
@@ -489,7 +489,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → 5 kênh đồng thời (visual + auditory + tactile + proprioception + body state)
       → Mỗi lần = 1 domain verify loop (domain feedback trực tiếp)
       → Compile THICK (multi-modal associative network)
-      → KHÔNG cần trust gate (domain nói TRỰC TIẾP qua sensory)
+      → KHÔNG cần trust amplifier (domain nói TRỰC TIẾP qua sensory)
 
 
   PASSIVE (absorb từ environment VÔ THỨC — ★ insight mới):
@@ -507,7 +507,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Đặc điểm:
       → Multi-modal (see + hear + observe + interact)
       → Domain "verify" = pattern CONSISTENT (mọi người VẪN làm vậy)
-      → KHÔNG CẦN trust gate (observed pattern, not claim cần evaluate)
+      → KHÔNG CẦN trust amplifier (observed pattern, not claim cần evaluate)
       → Compile vô thức (person KHÔNG BIẾT đang compile)
       → = TẠI SAO "văn hóa thấm" mà không ai dạy
       → = TẠI SAO "gu" thay đổi theo thời đại/môi trường
@@ -524,9 +524,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §3.2b — Trust-Injected: External Sources
 
 ```
-⭐ 2b = ENTITY KHÁC TRUYỀN CHUNKS → BODY COMPILE QUA TRUST GATE:
+⭐ 2b = ENTITY KHÁC TRUYỀN CHUNKS → BODY COMPILE QUA TRUST AMPLIFIER:
 
-  Ai đó EXPLICITLY communicate "X là Y" → body nhận → trust gate evaluate
+  Ai đó EXPLICITLY communicate "X là Y" → body nhận → trust amplifier evaluate
   → Trust đủ → chunks install → compile
   → Trust thiếu → chunks reject → không compile
 
@@ -553,7 +553,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Đặc điểm:
     → Thường 1-2 kênh (verbal, visual) → compile THINNER
     → Domain verify: CHƯA (stored on trust cho đến khi ứng dụng thật)
-    → CẦN trust gate (Chunk.md §2.3: trust = cổng cho external install)
+    → CẦN trust amplifier (Chunk.md §2.3: trust = amplifier cho external compile rate)
     → Risk: trust source sai → chunks nền sai → §6 failure mode ②
     → Speed: NHANH (skip personal trial-error) → = SHORTCUT
 
@@ -565,7 +565,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 🟢 Boyd & Richerson 2005: dual inheritance (genes + culture)
 🟢 Tomasello 2009: cumulative cultural evolution uniquely human
-🟡 Trust-gate as 2b mechanism = framework synthesis (Chunk.md §2.3)
+🟡 Trust amplifier as 2b mechanism = framework synthesis (Chunk.md §2.3)
 ```
 
 
@@ -679,7 +679,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ② Accumulated knowledge transmitted (2b):
      Sách, trường, cha mẹ dạy, tôn giáo = inject chunks
-     = Trust-gated, explicit transmission
+     = Trust-amplified, explicit transmission
 
   → Culture = ① + ② operating simultaneously.
   → MẠNH khi ①+② align: được dạy "cúi chào" + thấy mọi người cúi chào = double compile

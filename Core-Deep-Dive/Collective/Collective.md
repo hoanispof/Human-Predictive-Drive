@@ -266,7 +266,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §3.1 — Con đường ①: Trust Compile
 
 ```
-⭐ COLLECTIVE INSTALL CHUNKS VÀO CÁ NHÂN QUA TRUST GATE:
+⭐ COLLECTIVE INSTALL CHUNKS VÀO CÁ NHÂN QUA TRUST AMPLIFIER:
 
   Mechanism (Collective-Body.md v2.1 §5):
     → Trust = per-entity meta-tag trên chunks (Valence-Propagation v4.0 §2)
@@ -288,7 +288,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Body compile: [ăn cắp → nguy hiểm] = SHORT.
       → Collective hold: [luật → cảnh sát → tù → ảnh hưởng gia đình → ...]
 
-    → = INSTALL mechanism: collective → trust gate → cá nhân compile SHORT
+    → = INSTALL mechanism: collective → trust amplifier → cá nhân compile SHORT
     → = TẠI SAO cá nhân "biết" những thứ chưa bao giờ trải nghiệm
     → = Schema inheritance qua thế hệ: cha mẹ compile → dạy con →
         con compile → dạy cháu → ... chain tích lũy hàng nghìn năm
@@ -368,7 +368,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Chunk External Development: 5 install mechanisms
       (co-attention, imitation, social referencing, label installation,
        cultural transmission — Chunk.md §2.3)
-    → TẤT CẢ 5 yêu cầu trust gate (Collective-Body.md §5)
+    → TẤT CẢ 5 yêu cầu trust amplifier (Collective-Body.md §5)
     → Install xảy ra TRƯỚC PFC đủ evaluate (0-7 tuổi = compile nhanh nhất)
     → PFC mature SAU → confabulate "tôi tự nghĩ ra"
 
@@ -693,7 +693,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   ⭐ TRUST = ONLY MECHANISM NỐI 2 CẤP:
 
-    Body-Base.md §3 Component 3: Trust = gate cho external install.
+    Body-Base.md §3 Component 3: Trust = amplifier cho external compile rate.
     → Cá nhân CẦN collective (Compilable Architecture → social required).
     → Collective CẦN cá nhân (no individuals → no collective).
     → Trust = ONLY bridge: cá nhân chấp nhận collective chain qua trust.

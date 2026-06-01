@@ -41,7 +41,7 @@ The model also proposes a testable 6-step mechanism for why 47% develop comorbid
 Falsifiable: if attention training eliminates ADHD without changing receptor sensitivity, the threshold model fails.
 
 Full analysis with 50+ citations, six paradoxes resolved, and explicit limitations:
-[Blog link]
+https://hoanispof.github.io/Human-Predictive-Drive/blog/adhd-is-not-attention-deficit/
 
 Full framework (200+ files, CC0 licensed):
 https://github.com/hoanispof/Human-Predictive-Drive
@@ -71,7 +71,7 @@ This explains the paradoxes:
 
 I've written a detailed analysis proposing that one hardware parameter — receptor sensitivity threshold — resolves six paradoxes that the "deficit" label cannot explain. With inverted-U evidence (subclinical creativity g=0.36, clinical = no benefit), three-tier persistence model, and "here's how to prove this wrong" criteria:
 
-[Blog link]
+https://hoanispof.github.io/Human-Predictive-Drive/blog/adhd-is-not-attention-deficit/
 
 The full framework is open-source (CC0): https://github.com/hoanispof/Human-Predictive-Drive
 
@@ -106,7 +106,7 @@ The model makes specific predictions:
 The model is structured for falsification: five explicit conditions under which the framework is wrong, plus five acknowledged limitations.
 
 Full analysis (50+ citations, honest limitations, optimization hierarchy):
-[Blog link]
+https://hoanispof.github.io/Human-Predictive-Drive/blog/adhd-is-not-attention-deficit/
 
 Framework (200+ files, CC0):
 https://github.com/hoanispof/Human-Predictive-Drive
@@ -140,7 +140,7 @@ This explains things the "deficit" label can't:
 The model predicts an inverted-U: subclinical ADHD = creative advantage (g=0.36). Clinical = no creativity benefit. Severe = real impairment. "ADHD is a superpower" conflates positions on the spectrum.
 
 Full mechanism analysis with 50+ citations and explicit "here's how this model is wrong" criteria:
-[Blog link]
+https://hoanispof.github.io/Human-Predictive-Drive/blog/adhd-is-not-attention-deficit/
 
 Full framework (CC0): https://github.com/hoanispof/Human-Predictive-Drive
 
@@ -193,9 +193,7 @@ PRE-POST CHECKLIST:
 
 ---
 
-## [Blog link] Placeholder
+## Blog Link
 
-Replace `[Blog link]` with the actual GitHub Pages URL once deployed:
-`https://hoanispof.github.io/Human-Predictive-Drive/blog/adhd-is-not-attention-deficit`
-
-Or if using a different hosting: update all 4 short posts.
+All short posts link to:
+`https://hoanispof.github.io/Human-Predictive-Drive/blog/adhd-is-not-attention-deficit/`

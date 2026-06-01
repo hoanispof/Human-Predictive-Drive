@@ -19,7 +19,7 @@ purpose: |
   Supersedes: Social-Pressure-Tradeoff.md v0.1 (v6.0+, backup/).
 position: Research/Mismatch-Patterns/ — Observation file.
 dependencies:
-  - Compile-Taxonomy.md v2.0 — 3 3 Compile Types, 4 pathways (đặc biệt Trust Compile + Pathway 4)
+  - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 4 pathways (đặc biệt Trust Compile + Pathway 4)
   - Collective-Body.md v1.1 — Model 3 cấp, chain dài ở Cấp 2, Trust Compile install, trust bridge
   - Obligation.md v1.0 — compiled prediction cost, 6 types, access cost
   - Status.md v2.0 — Resource Access Map, 3 modes, disruption cycle
@@ -122,7 +122,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 🟡 COLLECTIVE SCHEMA = CHUNK NETWORK COMPILED Ở CẤP 2 (COLLECTIVE),
-   INSTALLED VÀO CẤP 1 (CÁ NHÂN) QUA TRUST GATE.
+   INSTALLED VÀO CẤP 1 (CÁ NHÂN) QUA TRUST AMPLIFIER.
 
   Schema.md: Schema = observation parameter, KHÔNG phải component.
   Schema = tên gọi cho pattern khi quan sát chunk network.
@@ -726,7 +726,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   MECHANISM FILES (từng khía cạnh riêng lẻ):
-    → Compile-Taxonomy.md v2.0 — Trust Compile, 4 pathways, Expansion vs Discovery
+    → Compile-Taxonomy.md v3.0 — Trust Compile, 4 pathways, Expansion vs Discovery
     → Collective-Body.md v1.1 — Model 3 cấp, chain dài, trust bridge, System Compilation
     → Obligation.md v1.0 — compiled prediction cost, 6 types, endpoint question
     → Status.md v2.0 — Resource Access Map, 3 modes, disruption cycle

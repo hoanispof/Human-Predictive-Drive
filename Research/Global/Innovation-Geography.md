@@ -815,7 +815,7 @@ Nếu "trade hub = innovation" ĐÚNG tuyệt đối, phải giải thích:
     Era 3 (AI): AI = "Cấp 2 cá nhân" — external tool biến collective chunks → PERSONAL access
     → Mỗi người có AI = có "personal collective" — chunks toàn nhân loại, accessible ngay
     → Trade hub INTERNALIZED — không còn cần physical hay virtual destination
-    → Trust vẫn là bridge DUY NHẤT (§5): AI output cần trust gate trước khi compile
+    → Trust vẫn là bridge DUY NHẤT (§5): AI output cần trust amplifier trước khi compile
 ```
 
 ### 9.4 Tổng quan 3 giai đoạn
@@ -1148,7 +1148,7 @@ FRAMEWORK CONNECTIONS (updated 2026-05-11):
     → Innovation = Sense + Verify + Scale — trade hub accelerate cả 3
   Collective-Body.md v1.1 (Body-Base/): §9 AI era = Cấp 2 cá nhân
     → Trade hub = collective chunk aggregation → AI internalize thành personal access
-    → Trust = ONLY bridge (§5) — AI output cần trust gate
+    → Trust = ONLY bridge (§5) — AI output cần trust amplifier
 
   BACKUP FILES (referenced for historical context only):
   Macro-Civilization.md → Research/Mismatch-Patterns/backup/ (civilization dynamics)

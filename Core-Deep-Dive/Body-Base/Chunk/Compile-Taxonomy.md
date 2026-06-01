@@ -6,24 +6,24 @@ updated: 2026-06-01 (v3.0 — Architecture reframe: 1 Engine + 3 Modulators)
 status: v3.0
 scope: |
   ARCHITECTURE REFRAME: ALL compile = Exposure → Hebbian (1 Engine).
-  3 Compile Types (Experience/Expertise/Trust) = labels cho dominant modulator configs.
+  3 Compile Types (Experience/Expertise/Trust) = labels cho dominant modulator configurations.
   Trust = AMPLIFIER (gradient Mức 0-5), KHÔNG phải GATE (binary).
   Multi-stream compile: Content/Value/Entity/Behavior chạy SONG SONG.
-  Feedback loop: bidirectional, D→B slow/costly, B→D fast/free.
+  Feedback loop: bidirectional, PFC→Entity-Valence slow/costly, Entity-Valence→PFC fast/free.
   3 Hardware Constraints + 6 Trade-offs + 4 Pathways (giữ từ v2.0).
-  Sleep = Component S offline maintenance (chi tiết → Compile-Sleep.md v1.0).
+  Sleep = offline maintenance system (chi tiết → Compile-Sleep.md v1.0).
   Evolutionary gradient: engine conserved, modulators accumulated.
   ~50 research citations. Dựa trên v2.0 + 2 drill sessions (2026-06-01).
 purpose: |
   v2.0 organize theo OUTPUT (3 separate types — taxonomy-first).
-  v3.0 organize theo MECHANISM (1 engine + modulator configs — mechanism-first).
+  v3.0 organize theo MECHANISM (1 engine + modulator configurations — mechanism-first).
   v2.0 KHÔNG SAI — patterns ĐÚNG. v3.0 = DEEPER layer: tại sao 3 types exist.
   Reconcile contradiction: Chunk.md §2.3 "gate" vs Entity-Access "gradient."
   ADD: architecture, multi-stream, feedback loop, evolutionary gradient.
   KEEP: 3 hardware constraints, 6 trade-offs, 4 pathways, interactions.
 parent: Chunk.md v2.3 (§2 compile mechanisms = foundation)
 related: |
-  Compile-Sleep.md v1.0 — Component S chi tiết (6 mechanisms)
+  Compile-Sleep.md v1.0 — Sleep Maintenance chi tiết (6 mechanisms)
   Body-Base.md v3.3 §4 — summary 3 Compile Types (reference tới file này)
   Collective-Body.md v2.1 §2 — 4 compile pathways × 3 cấp
   PFC-Operations.md v1.3 — Hold/Suppress, PFC budget
@@ -31,14 +31,10 @@ related: |
   Entity-Valence-Dynamics.md v1.1 — Structural/Current valence
   Entity-Access.md v1.2 §2 — gradient Mức 0-5
   Valence-Propagation.md v4.1 §2 — Trust = valence meta-dimension
-  Simulation-Engine.md v1.1 — PFC imagination substrate (Source C2)
-  Background-Pattern.md v2.0 — accumulated gist, Source C3
+  Simulation-Engine.md v1.1 — PFC imagination substrate (Exposure-Deliberate)
+  Background-Pattern.md v2.0 — accumulated gist, Exposure-Spontaneous
 sources: |
   Compile-Taxonomy.md v2.0 — foundation (3 types, 4 pathways, 6 trade-offs)
-  Drill-Compile-Architecture.md — raw drill (Source C, Multi-stream, B×D)
-  Drill-10-Compile-Architecture.md — refined drill (Trust Reframe, Feedback MAP)
-  Drill-11-Compile-Sleep.md — sleep as Component S
-  Drill-Compile-Short-Collective.md — original taxonomy drill
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -50,12 +46,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 >
 > Khác nhau = MODULATOR nào dominant, KHÔNG phải engine nào chạy.
 > Experience = engine + minimal modulators (direct exposure).
-> Trust = engine + Entity-Valence amplifier (B-dominant).
-> Expertise = engine + PFC sustained hold (D-dominant).
+> Trust = engine + Entity-Valence amplifier (Entity-Valence-dominant).
+> Expertise = engine + PFC sustained hold (PFC-dominant).
 >
-> **"Muốn con hay chữ thì yêu lấy thầy."**
+> **"If you want your child to learn, first help them love the teacher."**
+> (Vietnamese proverb: "Muốn con hay chữ thì yêu lấy thầy")
 > = PFC invest → Entity-Valence compile → body auto-receptive → PFC freed.
-> = Architecture trong 1 câu tục ngữ.
+> = Architecture in one proverb.
 >
 > File này: ARCHITECTURE underneath taxonomy. Tại sao 3 types exist,
 > tại sao chúng interact, tại sao chúng overlap.
@@ -65,7 +62,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ## MỤC LỤC
 
 - §0 — Vị Trí Trong Framework
-- §1 — Core Architecture: 1 Engine + 3 Modulators + Sources + Sleep
+- §1 — Core Architecture: 1 Engine + 3 Modulators + Exposure Channels + Sleep
 - §2 — Tại Sao Brain Compile Ngắn: 3 Hardware Constraints
 - §3 — Trust Reframe: Amplifier, Not Gate
 - §4 — 3 Compile Types = Dominant Modulator Configurations
@@ -102,27 +99,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Chunk.md v2.3 §2 (4 compile mechanisms = foundation)
       → [file này] (architecture: 1 engine + modulators + taxonomy)
-      → Compile-Sleep.md v1.0 (Component S chi tiết)
+      → Compile-Sleep.md v1.0 (Sleep Maintenance chi tiết)
 
     Body-Base.md v3.3 §4 (summary) → [file này] (chi tiết)
     Collective-Body.md v2.1 §2 (4 pathways × 3 cấp) → [file này] (chi tiết pathways)
-    PFC-Operations.md v1.3 §2 (Hold/Suppress) → [file này] §1.4 (Modulator D)
+    PFC-Operations.md v1.3 §2 (Hold/Suppress) → [file này] §1.4 (PFC Modulation)
 
     Đọc Chunk.md §2 trước → đọc file này → đọc Compile-Sleep.md.
 
 
   WHAT'S NEW IN v3.0:
-    ① Architecture: 1 Engine + 3 Modulators + Sources + Sleep (§1)
+    ① Architecture: 1 Engine + 3 Modulators + Exposure Channels + Sleep (§1)
     ② Trust = Amplifier not Gate (§3) — reconcile Chunk.md §2.3 vs Entity-Access
     ③ Multi-Stream Compile (§5) — Content/Value/Entity/Behavior song song
-    ④ Feedback Loop + Asymmetry (§7) — D→B slow, B→D fast
+    ④ Feedback Loop + Asymmetry (§7) — PFC→Entity-Valence slow, Entity-Valence→PFC fast
     ⑤ Evolutionary Gradient (§10) — engine conserved, modulators accumulated
     ⑥ Edge Cases verified (§11) — 8+ cases stress-tested
 ```
 
 ---
 
-## §1 — Core Architecture: 1 Engine + 3 Modulators + Sources + Sleep
+## §1 — Core Architecture: 1 Engine + 3 Modulators + Exposure Channels + Sleep
 
 ```
 ⭐⭐⭐ THESIS CỐT LÕI:
@@ -133,7 +130,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Không có "trust compile mechanism" riêng.
   Không có "expertise compile mechanism" riêng.
-  CHỈ CÓ 1 ENGINE. 3 Compile Types = labels cho dominant modulator config.
+  CHỈ CÓ 1 ENGINE. 3 Compile Types = labels cho dominant modulator configuration.
 
 
   6 OBSERVATIONS HỘI TỤ:
@@ -170,13 +167,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 "ALL compile = exposure" as unifying principle: framework synthesis
 ```
 
-### §1.1 — Engine A: Exposure → Hebbian → Compile
+### §1.1 — Compile Engine: Exposure → Hebbian → Compile
 
 ```
-🟢🟡 ENGINE A = CƠ CHẾ COMPILE DUY NHẤT:
+🟢🟡 COMPILE ENGINE = CƠ CHẾ COMPILE DUY NHẤT:
 
   ┌───────────────────────────────────────────────────┐
-  │                ENGINE A                            │
+  │                COMPILE ENGINE                            │
   │                                                   │
   │  [Exposure] → [Neural Activation] → [Hebbian]     │
   │       ↓              ↓                  ↓          │
@@ -188,7 +185,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                 (auto-fire khi triggered)           │
   └───────────────────────────────────────────────────┘
 
-  Engine A luôn hoạt động GIỐNG NHAU bất kể:
+  Compile Engine luôn hoạt động GIỐNG NHAU bất kể:
     Ai cung cấp exposure (mẹ, thầy, tự mình, reality)
     Exposure từ đâu (external, PFC imagination, spontaneous)
     Có trust hay không (trust chỉ AMPLIFY, không thay đổi mechanism)
@@ -230,10 +227,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 4 mechanisms = 4 exposure types: framework synthesis
 ```
 
-### §1.2 — Modulator B: Entity-Valence Bias (automatic)
+### §1.2 — Entity-Valence Bias: Entity-Valence Bias (automatic)
 
 ```
-🟡🟢 MODULATOR B = ENTITY-VALENCE BIAS:
+🟡🟢 ENTITY-VALENCE BIAS = ENTITY-VALENCE BIAS:
 
   Entity-Compiled per-entity:
     Structural Valence Profile × Trust dimension
@@ -274,94 +271,94 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Entity-Valence as exposure modulator: framework synthesis
 ```
 
-### §1.3 — Source C: 3 Exposure Sources (song song)
+### §1.3 — 3 Exposure Channels (song song)
 
 ```
 🟡🟢 EXPOSURE ĐẾN TỪ 3 KÊNH CHẠY SONG SONG:
 
 
-  C1: EXTERNAL (body-input from reality)
+  EXPOSURE-EXTERNAL (body-input from reality):
     Sensory exposure từ environment: visual, auditory, tactile, olfactory, gustatory.
     + Social: facial expressions, prosody, gestures.
     + Actions: motor feedback, proprioception.
     = Body-Feedback-Mechanism.md v2.1 §1.2 ① Hardware/Sensory-Driven.
     ĐẶC ĐIỂM: multi-modal RICHEST, domain-checked, compile SÂU nhất.
     KHÔNG cần PFC. Available cho TẤT CẢ species.
-    5 external install mechanisms (Chunk.md v2.3 §2.3) = variants of C1.
+    5 external install mechanisms (Chunk.md v2.3 §2.3) = variants of Exposure-External.
 
-  C2: INTERNAL-DELIBERATE (PFC imagination/simulate)
+  EXPOSURE-DELIBERATE (PFC imagination/simulate):
     PFC chủ động tạo internal exposure: imagine scenario, nhẩm từ,
     mental rehearsal, thought experiment, planning, deliberate recall.
     = Simulation-Engine.md v1.1: Constructive Simulation.
     Body REACT with imagination THẬT (nước bọt, tim đập, opioid nhẹ).
     ĐẶC ĐIỂM: flexible, PFC-controlled, abstract domains (toán, lý, triết).
-    GIỚI HẠN: nghèo multi-modal hơn C1, self-referencing risk, PFC budget.
+    GIỚI HẠN: nghèo multi-modal hơn Exposure-External, self-referencing risk, PFC budget.
     Human-dominant (PFC developed).
 
-  C3: INTERNAL-AUTOMATIC (spontaneous chunk fire)
+  EXPOSURE-SPONTANEOUS (automatic chunk fire):
     Compiled chunks tự fire (KHÔNG PFC direct):
     ① Background-Pattern continuous baseline (Background-Pattern.md v2.0)
     ② Spontaneous memory resurface (context trigger → old chunk fires)
     ③ Association chains (chunk A → chunk B → chunk C cascade)
     ④ Mind wandering (DMN activate → 30-50% waking time)
-    ⑤ Intrusive patterns (trauma replay, rumination — negative C3)
+    ⑤ Intrusive patterns (trauma replay, rumination — negative Exposure-Spontaneous)
     = Body-Feedback-Mechanism.md v2.1 §1.2 ② Pattern-Driven.
     ĐẶC ĐIỂM: cost ≈ 0, self-reinforcing (strong → fire → stronger).
-    REQUIRES compiled chunks (C3 KHÔNG hoạt động ở newborn).
+    REQUIRES compiled chunks (Exposure-Spontaneous KHÔNG hoạt động ở newborn).
 
 
-  3 SOURCES × SONG SONG, TỈ LỆ BIẾN THIÊN:
+  3 CHANNELS × SONG SONG, TỈ LỆ BIẾN THIÊN:
 
-  ┌─────────────────────┬──────┬──────┬──────┐
-  │ Tình huống          │  C1  │  C2  │  C3  │
-  ├─────────────────────┼──────┼──────┼──────┤
-  │ Bé 6 tháng chơi    │ 90%  │  2%  │  8%  │
-  │ Trẻ bị ép học      │ 60%  │  5%  │ 35%  │
-  │ Sinh viên đọc sách │ 40%  │ 40%  │ 20%  │
-  │ Expert suy nghĩ    │ 10%  │ 60%  │ 30%  │
-  │ Nằm mơ (REM)       │  0%  │  0%  │100%  │
-  └─────────────────────┴──────┴──────┴──────┘
+  ┌─────────────────────┬──────────┬───────────┬─────────────┐
+  │ Tình huống          │ External │Deliberate │ Spontaneous │
+  ├─────────────────────┼──────────┼───────────┼─────────────┤
+  │ Bé 6 tháng chơi    │ 90%      │  2%       │  8%         │
+  │ Trẻ bị ép học      │ 60%      │  5%       │ 35%         │
+  │ Sinh viên đọc sách │ 40%      │ 40%       │ 20%         │
+  │ Expert suy nghĩ    │ 10%      │ 60%       │ 30%         │
+  │ Nằm mơ (REM)       │  0%      │  0%       │100%         │
+  └─────────────────────┴──────────┴───────────┴─────────────┘
   (% = ƯỚC LƯỢNG minh hoạ, KHÔNG phải đo lường chính xác.)
 
 
-  PFC × SOURCES:
-    PFC CAN amplify C1 (chú ý nghe, đi thực hành) + C2 (nhẩm, imagine).
-    PFC CANNOT directly control C3 (Background-Pattern fires tự động).
-    PFC suppress C3 = Modulator D cost, KHÔNG tắt được C3 source.
-    → PFC = DIRECTOR cho C1+C2, OBSERVER cho C3.
+  PFC × EXPOSURE CHANNELS:
+    PFC CAN amplify External (chú ý nghe, đi thực hành) + Deliberate (nhẩm, imagine).
+    PFC CANNOT directly control Spontaneous (Background-Pattern fires tự động).
+    PFC suppress Spontaneous = PFC Modulation cost, KHÔNG tắt được Spontaneous source.
+    → PFC = DIRECTOR cho External+Deliberate, OBSERVER cho Spontaneous.
 
-  C1 + C2 + C3 → ALL feed vào CÙNG Engine A.
-  Engine A KHÔNG phân biệt nguồn (Chunk.md v2.3 §1.1: NO SOURCE TAG).
+  External + Deliberate + Spontaneous → ALL feed vào CÙNG Compile Engine.
+  Compile Engine KHÔNG phân biệt nguồn (Chunk.md v2.3 §1.1: NO SOURCE TAG).
 
   🟢 Mind wandering 30-50%: Smallwood & Schooler 2006
   🟢 Motor imagery → body response: Jeannerod 2001
   🟢 DMN activation: Raichle et al. 2001
-  🟢 Ironic process (C3 suppress → rebound): Wegner 1987
+  🟢 Ironic process (Spontaneous suppress → rebound): Wegner 1987
   🟢 Input hypothesis: Krashen 1982
-  🟡 3-source parallel model: framework synthesis
+  🟡 3-channel parallel model: framework synthesis
 ```
 
-### §1.4 — Modulator D: PFC Hold + Suppress (deliberate)
+### §1.4 — PFC Modulation: PFC Hold + Suppress (deliberate)
 
 ```
-🟡🟢 MODULATOR D = PFC OPERATIONS (PFC-Operations.md v1.3):
+🟡🟢 PFC MODULATION = PFC OPERATIONS (PFC-Operations.md v1.3):
 
 
   2 OPERATIONS:
 
-  D1: HOLD = PFC Amplify
+  HOLD = PFC Amplify
     Top-down signal → amplify target pattern → TĂNG exposure quality.
     CAN lead to compilation (Hold → repeat → Hebbian → automatic → PFC freed).
     Cost: ① PFC draft (processing load). Brain: dlPFC, FEF.
 
-  D2: SUPPRESS = PFC Inhibit
+  SUPPRESS = PFC Inhibit
     Inhibitory signal → block output route.
     GIẢM exposure cho specific pattern.
     CANNOT compile "not" (only block, not build — Wegner 1987).
     Cost: ② Efference mismatch. Brain: rIFG, vlPFC.
 
 
-  4 TỔ HỢP D1 × D2 (PFC-Operations.md v1.3 §3):
+  4 TỔ HỢP Hold × Suppress (PFC-Operations.md v1.3 §3):
 
     ① Hold only         → compile new (easiest path)
     ② Hold + Suppress   → override old + build new (double cost)
@@ -381,36 +378,36 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     MỖI vai trò = modulate exposure. KHÔNG vai trò nào = compile.
 
 
-  ĐẶC BIỆT — MODULATOR D = ONLY MODULATOR CÓ COST:
-    Modulator B (Entity-Valence): cost ≈ 0 (compiled, automatic)
-    Modulator D (PFC Hold/Suppress): cost ① + ② (active, fatigable)
-    PFC budget = finite → Modulator D = TEMPORARY
-    Mục tiêu: D1 Hold → compile → release (transfer to automatic)
+  ĐẶC BIỆT — PFC MODULATION = ONLY MODULATOR CÓ COST:
+    Entity-Valence Bias: cost ≈ 0 (compiled, automatic)
+    PFC Modulation (Hold/Suppress): cost ① + ② (active, fatigable)
+    PFC budget = finite → PFC Modulation = TEMPORARY
+    Mục tiêu: Hold → compile → release (transfer to automatic)
 
   🟢 PFC Hold: Baddeley 2003, Miller & Cohen 2001
   🟢 PFC Suppress: Anderson & Green 2001, Aron 2007
   🟢 Suppress fails alone: Wegner 1987
-  🟡 Hold/Suppress as Modulator D: framework synthesis
+  🟡 Hold/Suppress as PFC Modulation: framework synthesis
 ```
 
-### §1.5 — Component S: Sleep Offline Maintenance
+### §1.5 — Sleep Maintenance: Sleep Offline Maintenance
 
 ```
-🟡🟢 COMPONENT S = SLEEP OFFLINE MAINTENANCE SYSTEM:
+🟡🟢 SLEEP MAINTENANCE = SLEEP OFFLINE MAINTENANCE SYSTEM:
 
   Sleep KHÔNG ĐƠN THUẦN là "exposure source" thứ 4.
   Sleep có 6 mechanisms — chỉ ~1.5 exposure-based, ~4.5 optimization.
 
-  ┌────┬──────────────────┬─────────────┬──────────────────────┐
-  │ #  │ Mechanism         │ Exposure?   │ Primary function     │
-  ├────┼──────────────────┼─────────────┼──────────────────────┤
-  │ S1 │ SHY Homeostasis   │ ❌ NOT      │ Prune weak (SNR)     │
-  │ S2 │ Hippocampal Replay│ ✅ YES      │ Strengthen existing  │
-  │ S3 │ Active Consol.    │ ❌ NOT      │ Transfer (RAM→ROM)   │
-  │ S4 │ Creative Linking  │ 🟡 PARTIAL  │ New remote links     │
-  │ S5 │ Emot. Decoupling  │ ❌ NOT      │ Strip emotional tag  │
-  │ S6 │ Gist Extraction   │ 🟡 PARTIAL  │ Abstract + generalize│
-  └────┴──────────────────┴─────────────┴──────────────────────┘
+  ┌────┬──────────────────────┬─────────────┬──────────────────────┐
+  │ #  │ Mechanism             │ Exposure?   │ Primary function     │
+  ├────┼──────────────────────┼─────────────┼──────────────────────┤
+  │  1 │ SHY Homeostasis       │ ❌ NOT      │ Prune weak (SNR)     │
+  │  2 │ Hippocampal Replay    │ ✅ YES      │ Strengthen existing  │
+  │  3 │ Active Consolidation  │ ❌ NOT      │ Transfer (RAM→ROM)   │
+  │  4 │ Creative Linking      │ 🟡 PARTIAL  │ New remote links     │
+  │  5 │ Emotional Decoupling  │ ❌ NOT      │ Strip emotional tag  │
+  │  6 │ Gist Extraction       │ 🟡 PARTIAL  │ Abstract + generalize│
+  └────┴──────────────────────┴─────────────┴──────────────────────┘
 
   Cycle: Waking (build) → Sleep (maintain) → Waking (build on maintained).
 
@@ -418,7 +415,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     sleep deprivation, waking rest comparison, ~40 citations).
 
   🟢 Multi-mechanism sleep model: Diekelmann & Born 2010
-  🟡 Component S in compile architecture: framework synthesis
+  🟡 Sleep Maintenance in compile architecture: framework synthesis
 ```
 
 ---
@@ -490,7 +487,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 🟡 CONTRADICTION TRONG FRAMEWORK:
 
-  SOURCE 1 — Chunk.md v2.3 §2.3 line 288:
+  SOURCE 1 — Chunk.md v2.3 §2.3 (OLD text, đã resolved → AMPLIFIER):
     "TRUST = GATE CHO EXTERNAL INSTALL"
     → Ngôn ngữ "gate" = BINARY (mở/đóng).
 
@@ -583,16 +580,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §4 — 3 Compile Types = Dominant Modulator Configurations
 
-### §4.1 — Experience Compile: Engine A + Minimal Modulators
+### §4.1 — Experience Compile: Compile Engine + Minimal Modulators
 
 ```
 🟡🟢 EXPERIENCE COMPILE — DIRECT EXPOSURE → HEBBIAN → COMPILE:
 
-  MODULATOR CONFIG:
-    Engine A: ✅ Full (Hebbian direct)
-    Modulator B: Minimal (direct verify, trust optional)
-    Sources: C1 dominant (body-input from reality)
-    Modulator D: Minimal (body direct, PFC không cần)
+  MODULATOR CONFIGURATION:
+    Compile Engine: ✅ Full (Hebbian direct)
+    Entity-Valence Bias: Minimal (direct verify, trust optional)
+    Exposure: External dominant (body-input from reality)
+    PFC Modulation: Minimal (body direct, PFC không cần)
 
   = "Thuần engine" — modulators ở mức background.
 
@@ -617,16 +614,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 ~90% estimate: framework approximation
 ```
 
-### §4.2 — Trust Compile: Engine A + Modulator B Dominant
+### §4.2 — Trust Compile: Compile Engine + Entity-Valence Bias Dominant
 
 ```
 🟡 TRUST COMPILE — ENTITY-VALENCE AMPLIFY VALUE INSTALL:
 
-  MODULATOR CONFIG:
-    Engine A: ✅ Full (Hebbian — cùng engine)
-    Modulator B: ⭐ DOMINANT (trust = multiplier amplify value)
-    Sources: C1 từ trusted source
-    Modulator D: Low (chọn trust ai + post-hoc confabulation)
+  MODULATOR CONFIGURATION:
+    Compile Engine: ✅ Full (Hebbian — cùng engine)
+    Entity-Valence Bias: ⭐ DOMINANT (trust = multiplier amplify value)
+    Exposure: External từ trusted source
+    PFC Modulation: Low (chọn trust ai + post-hoc confabulation)
 
   = "Engine + auto-turbo from Entity-Valence."
 
@@ -663,16 +660,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Trust Compile dominance insight: framework synthesis
 ```
 
-### §4.3 — Expertise Compile: Engine A + Modulator D Dominant
+### §4.3 — Expertise Compile: Compile Engine + PFC Modulation Dominant
 
 ```
 🟡🟢 EXPERTISE COMPILE — PFC-DIRECTED SUSTAINED EXPOSURE:
 
-  MODULATOR CONFIG:
-    Engine A: ✅ Full (Hebbian — cùng engine)
-    Modulator B: Low (self-verify via Domain-Checked)
-    Sources: C1 + C2 balanced (practice + imagination)
-    Modulator D: ⭐ DOMINANT (PFC sustained hold × years)
+  MODULATOR CONFIGURATION:
+    Compile Engine: ✅ Full (Hebbian — cùng engine)
+    Entity-Valence Bias: Low (self-verify via Domain-Checked)
+    Exposure: External + Deliberate balanced (practice + imagination)
+    PFC Modulation: ⭐ DOMINANT (PFC sustained hold × years)
 
   = "Engine + manual turbo from PFC (costly, slow)."
 
@@ -710,30 +707,29 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 "PFC-directed body compile": framework terminology
 ```
 
-### §4.4 — Bảng So Sánh: 1 Engine + 3 Configs
+### §4.4 — Bảng So Sánh: 1 Engine + 3 Configurations
 
 ```
-🟡 COMPARISON TABLE — 3 CONFIGS CỦA CÙNG 1 ENGINE:
+🟡 COMPARISON TABLE — 3 CONFIGURATIONS CỦA CÙNG 1 ENGINE:
 
-  ┌──────────────────┬─────────┬──────────┬──────────┬──────────┐
-  │ COMPILE TYPE     │ ENGINE  │ MOD B    │ SOURCES  │ MOD D    │
-  │                  │    A    │ (Entity- │ (C1/C2/  │ (PFC)    │
-  │                  │         │ Valence) │ C3)      │          │
-  ├──────────────────┼─────────┼──────────┼──────────┼──────────┤
-  │ EXPERIENCE       │ ✅ Full  │ Minimal  │ C1       │ Minimal  │
-  │ (~90%)           │         │ (direct  │ dominant │ (body    │
-  │                  │         │ verify)  │          │ direct)  │
-  ├──────────────────┼─────────┼──────────┼──────────┼──────────┤
-  │ TRUST            │ ✅ Full  │ ⭐ HIGH  │ C1 from  │ Low      │
-  │ (overlap)        │         │ (amplify │ trusted  │ (chọn    │
-  │                  │         │ value)   │ source   │ trust)   │
-  ├──────────────────┼─────────┼──────────┼──────────┼──────────┤
-  │ EXPERTISE        │ ✅ Full  │ Low      │ C1+C2    │ ⭐ HIGH  │
-  │ (~5%)            │         │ (self-   │ balanced │ (PFC     │
-  │                  │         │ verify)  │          │ years)   │
-  └──────────────────┴─────────┴──────────┴──────────┴──────────┘
+  ┌──────────────────┬──────────┬──────────┬──────────────┬────────────┐
+  │ COMPILE TYPE     │ Compile  │ Entity-  │ Exposure      │ PFC        │
+  │                  │ Engine   │ Valence  │ Channels      │ Modulation │
+  ├──────────────────┼──────────┼──────────┼──────────────┼────────────┤
+  │ EXPERIENCE       │ ✅ Full   │ Minimal  │ External     │ Minimal    │
+  │ (~90%)           │          │ (direct  │ dominant     │ (body      │
+  │                  │          │ verify)  │              │ direct)    │
+  ├──────────────────┼──────────┼──────────┼──────────────┼────────────┤
+  │ TRUST            │ ✅ Full   │ ⭐ HIGH  │ External from│ Low        │
+  │ (overlap)        │          │ (amplify │ trusted      │ (chọn      │
+  │                  │          │ value)   │ source       │ trust)     │
+  ├──────────────────┼──────────┼──────────┼──────────────┼────────────┤
+  │ EXPERTISE        │ ✅ Full   │ Low      │ External +   │ ⭐ HIGH    │
+  │ (~5%)            │          │ (self-   │ Deliberate   │ (PFC       │
+  │                  │          │ verify)  │ balanced     │ years)     │
+  └──────────────────┴──────────┴──────────┴──────────────┴────────────┘
 
-  ENGINE A = LUÔN FULL. Sự khác biệt = MODULATOR nào DOMINANT.
+  COMPILE ENGINE = LUÔN FULL. Sự khác biệt = MODULATOR nào DOMINANT.
 
   ⚠️ LƯU Ý QUAN TRỌNG:
     ~90% + ~5% + Trust = KHÔNG cộng thành 100% vì overlapping.
@@ -745,10 +741,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     "Experience" = nói nhanh: engine dominant, direct exposure.
     "Trust" = nói nhanh: Entity-Valence dominant.
     "Expertise" = nói nhanh: PFC dominant.
-    = Labels cho DOMINANT config, không phải separate mechanisms.
+    = Labels cho DOMINANT configuration, không phải separate mechanisms.
     = Giống "đi bộ / chạy / leo núi" = useful labels dù cùng cơ mechanism.
 
-  🟡 3 types as modulator configs: framework synthesis
+  🟡 3 types as modulator configurations: framework synthesis
   🟡 Percentage estimates: framework approximation, not precise
 ```
 
@@ -762,17 +758,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐⭐ MỌI SITUATION = NHIỀU COMPILE STREAMS CHẠY ĐỒNG THỜI:
 
   ┌───────────────┬─────────────────────┬────────────────────┐
-  │ STREAM        │ WHAT COMPILES       │ MODULATOR DOMINANT │
+  │ STREAM        │ WHAT COMPILES       │ DOMINANT MODULATOR │
   ├───────────────┼─────────────────────┼────────────────────┤
-  │ ① CONTENT     │ Nội dung, kiến thức │ Engine A only       │
+  │ ① CONTENT     │ Nội dung, kiến thức │ Compile Engine only       │
   │               │ Facts, skills       │ (Experience type)   │
-  │               │ Procedures, data    │ Minimal B/D         │
+  │               │ Procedures, data    │ Minimal modulators  │
   ├───────────────┼─────────────────────┼────────────────────┤
-  │ ② VALUE       │ Đánh giá tốt/xấu   │ B (Entity-Valence)  │
+  │ ② VALUE       │ Đánh giá tốt/xấu   │ Entity-Valence      │
   │               │ Approach/avoid tag  │ Trust-amplified     │
   │               │ "Cái này có tốt?"   │                     │
   ├───────────────┼─────────────────────┼────────────────────┤
-  │ ③ ENTITY      │ Entity-Valence      │ B (update weights)  │
+  │ ③ ENTITY      │ Entity-Valence      │ Entity-Valence      │
+  │               │                     │ (update weights)    │
   │               │ Trust update        │ Per-entity compile  │
   │               │ "Người này đáng tin?"│                     │
   ├───────────────┼─────────────────────┼────────────────────┤
@@ -781,10 +778,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │               │ Habit formation     │ Valence direction   │
   └───────────────┴─────────────────────┴────────────────────┘
 
-  Content stream LUÔN = Experience Compile (Engine A, direct exposure).
-  Value stream = Trust-modulated (B amplify/suppress).
-  → "Trust Compile" = chủ yếu VALUE stream (B-dominant), KHÔNG phải content.
-  → Content VẪN compile qua Experience (Engine A alone).
+  Content stream LUÔN = Experience Compile (Compile Engine, direct exposure).
+  Value stream = Trust-modulated (Entity-Valence amplify/suppress).
+  → "Trust Compile" = chủ yếu VALUE stream (Entity-Valence-dominant), KHÔNG phải content.
+  → Content VẪN compile qua Experience (Compile Engine alone).
 ```
 
 ### §5.2 — Test case: Trẻ bị ép học (4 streams visible)
@@ -793,11 +790,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 🟡 TEST CASE — TRẺ BỊ MẸ ÉP HỌC TOÁN:
 
   ① Content:  [2+2=4], [phép nhân], [công thức]
-     → Engine A qua C1 (ngồi đọc sách) → compile ✓
+     → Compile Engine qua Exposure-External (ngồi đọc sách) → compile ✓
      → Trust KHÔNG ảnh hưởng (content = direct exposure)
 
   ② Value:    [học → sợ bị mắng → tránh bị mắng → "phải làm"]
-     → Engine A + context: threat direction → compile ✓ nhưng AVOIDANCE
+     → Compile Engine + context: threat direction → compile ✓ nhưng AVOIDANCE
      → Trust cho "học = tốt" KHÔNG compile ✗ (amplifier ≈ 0)
 
   ③ Entity:   [mẹ + ép] → Entity-Valence update
@@ -812,13 +809,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   = "Sợ mẹ nhưng không yêu mẹ" = ④✓ ③mixed.
 ```
 
-### §5.3 — Test case: Trẻ học với thầy yêu quý (4 streams positive)
+### §5.3 — Test case: Child learning from a beloved teacher (4 streams positive)
 
 ```
 🟡 TEST CASE — SINH VIÊN THÍCH GIÁO SƯ, THÍCH MÔN HỌC:
 
   ① Content:  [lý thuyết], [phương pháp], [thuật ngữ]
-     → Engine A qua C1 (nghe giảng) + C2 (suy nghĩ bài tập) → compile ✓
+     → Compile Engine qua External (nghe giảng) + Deliberate (suy nghĩ bài tập) → compile ✓
 
   ② Value:    [môn này = thú vị → approach]
      → Trust amplify: GS nói "phần này quan trọng" → body amplify → compile ✓
@@ -865,7 +862,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
      [toán → brain fire → Goldilocks zone → VTA → opioid]
      = "Tự thấy thú vị." CẤP 1 direct.
-     MODULATOR CONFIG: Engine A + minimal B/D, C1, novelty direction.
+     MODULATOR CONFIGURATION: Compile Engine + minimal Entity-Valence/PFC, External, novelty direction.
      Trust: KHÔNG CẦN. Chain length: 1 node.
 
      Novelty.md: Goldilocks zone = task difficulty ≈ current capacity
@@ -879,7 +876,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      + Tự học → hợp hardware → cost vừa phải → status
      = CẤP 1: [học → mẹ khen + điểm + status → body ấm] (2 nodes)
      = CẤP 2: bố mẹ hold chain dài [học → tương lai → body-base]
-     MODULATOR CONFIG: Engine A + B + partial D, C1.
+     MODULATOR CONFIGURATION: Compile Engine + Entity-Valence + partial PFC, External.
      Trust: HIGH (bố mẹ). Verify: PARTIAL (direct experience confirm).
 
      → COMPOUND: Trust install + Experience confirm = CỰC BỀN.
@@ -890,7 +887,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
      "Thấy ai cũng đi học → đương nhiên mình cũng đi"
      = CẤP 1: [mọi người đều học → bình thường → tôi cũng] (1 node)
-     MODULATOR CONFIG: Engine A + B social proof, C1, minimal D.
+     MODULATOR CONFIGURATION: Compile Engine + Entity-Valence social proof, External, minimal PFC.
      Trust source: QUANTITY (social proof — Cialdini 1984).
 
      → "Compile" thậm chí KHÔNG CẦN body experience mạnh
@@ -901,7 +898,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
      [không học → mẹ mắng / bị đánh → threat → học để avoid]
      = CẤP 1 direct. Chain length: 1-2 nodes.
-     MODULATOR CONFIG: Engine A + minimal B, C1, threat direction.
+     MODULATOR CONFIGURATION: Compile Engine + minimal Entity-Valence, External, threat direction.
      Trust: KHÔNG CẦN (direct threat experience).
 
      → Chunk.md v2.3 §2.4: threat direction → compile WITH avoidance
@@ -913,7 +910,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      4 pathways KHÁC NHAU → cùng output: "đi học"
      TẤT CẢ compile SHORT ở CẤP 1 (1-2 nodes)
      Chain DÀI nằm ở CẤP 2 (collective)
-     → Cùng engine. Khác modulator configs. Khác direction.
+     → Cùng engine. Khác modulator configurations. Khác direction.
 
 
   GIÁ TRỊ THỰC CỦA 4 PATHWAYS:
@@ -945,37 +942,38 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐ CÁC COMPONENTS KHÔNG ĐỘC LẬP — TƯƠNG TÁC 2 CHIỀU:
 
-  ┌──────────┬──────────────────────────────────────────────────────┐
-  │ Path     │ Mechanism                                            │
-  ├──────────┼──────────────────────────────────────────────────────┤
-  │ D → B    │ PFC tạo positive exposure with entity                │
-  │          │ → compile → Entity-Valence update (INDIRECT, SLOW)   │
-  ├──────────┼──────────────────────────────────────────────────────┤
-  │ B → D    │ Entity-Valence bias PFC attention (DIRECT, FAST)     │
-  │          │ VD: ghét teacher → body auto-reject → PFC phải       │
-  │          │ suppress → PFC mệt → body win                       │
-  ├──────────┼──────────────────────────────────────────────────────┤
-  │ D → C    │ PFC create imagination (→C2) hoặc change environment │
-  │          │ (→C1). PFC direct attention → filter C1 salience.    │
-  ├──────────┼──────────────────────────────────────────────────────┤
-  │ C → D    │ Body-input (dissonance signals) can wake PFC.        │
-  │          │ VD: đau bụng → PFC wakes → engage problem-solving    │
-  ├──────────┼──────────────────────────────────────────────────────┤
-  │ B → C    │ Entity-Valence bias exposure SOURCE selection:       │
-  │          │ body auto-attend high-valence entity → more C1       │
-  ├──────────┼──────────────────────────────────────────────────────┤
-  │ B → A    │ Entity-Valence amplify compile RATE from that entity.│
-  │          │ Trust = multiplier. Same exposure → compile STRONGER.│
-  ├──────────┼──────────────────────────────────────────────────────┤
-  │ A → B    │ Compiled chunks update Entity-Valence profile.       │
-  │          │ VD: mới biết thầy giỏi → [thầy → positive] tăng    │
-  ├──────────┼──────────────────────────────────────────────────────┤
-  │ A → C    │ Compiled patterns change salience filters +          │
-  │          │ material cho C2 (imagination) + C3 (spontaneous).    │
-  ├──────────┼──────────────────────────────────────────────────────┤
-  │ A → D    │ Compiled expertise cho PFC material tốt hơn.        │
-  │          │ Compiled pattern → PFC freed (Hold → auto).          │
-  └──────────┴──────────────────────────────────────────────────────┘
+  ┌───────────────────────────┬──────────────────────────────────────────────────────┐
+  │ Path                      │ Mechanism                                            │
+  ├───────────────────────────┼──────────────────────────────────────────────────────┤
+  │ PFC → Entity-Valence      │ PFC tạo positive exposure with entity                │
+  │                           │ → compile → Entity-Valence update (INDIRECT, SLOW)   │
+  ├───────────────────────────┼──────────────────────────────────────────────────────┤
+  │ Entity-Valence → PFC      │ Entity-Valence bias PFC attention (DIRECT, FAST)     │
+  │                           │ VD: ghét teacher → body auto-reject → PFC phải       │
+  │                           │ suppress → PFC mệt → body win                       │
+  ├───────────────────────────┼──────────────────────────────────────────────────────┤
+  │ PFC → Exposure            │ PFC create imagination (→Deliberate) hoặc change     │
+  │                           │ environment (→External). PFC direct attention →      │
+  │                           │ filter External salience.                            │
+  ├───────────────────────────┼──────────────────────────────────────────────────────┤
+  │ Exposure → PFC            │ Body-input (dissonance signals) can wake PFC.        │
+  │                           │ VD: đau bụng → PFC wakes → engage problem-solving    │
+  ├───────────────────────────┼──────────────────────────────────────────────────────┤
+  │ Entity-Valence → Exposure │ Entity-Valence bias exposure channel selection:      │
+  │                           │ body auto-attend high-valence entity → more External │
+  ├───────────────────────────┼──────────────────────────────────────────────────────┤
+  │ Entity-Valence → Engine   │ Entity-Valence amplify compile RATE from that entity.│
+  │                           │ Trust = multiplier. Same exposure → compile STRONGER.│
+  ├───────────────────────────┼──────────────────────────────────────────────────────┤
+  │ Engine → Entity-Valence   │ Compiled chunks update Entity-Valence profile.       │
+  │                           │ VD: mới biết thầy giỏi → [thầy → positive] tăng    │
+  ├───────────────────────────┼──────────────────────────────────────────────────────┤
+  │ Engine → Exposure         │ Compiled patterns change salience filters +          │
+  │                           │ material cho Deliberate (imagination) + Spontaneous. │
+  ├───────────────────────────┼──────────────────────────────────────────────────────┤
+  │ Engine → PFC              │ Compiled expertise cho PFC material tốt hơn.        │
+  │                           │ Compiled pattern → PFC freed (Hold → auto).          │
+  └───────────────────────────┴──────────────────────────────────────────────────────┘
 
   = NOT hierarchy (top-down). = FEEDBACK SYSTEM (bidirectional loop).
   Mọi component ảnh hưởng mọi component khác.
@@ -983,108 +981,109 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Feedback system model: framework synthesis
 ```
 
-### §7.2 — Critical Asymmetry: D→B slow/costly, B→D fast/free
+### §7.2 — Critical Asymmetry: PFC→Entity-Valence slow/costly, Entity-Valence→PFC fast/free
 
 ```
 ⭐⭐ ASYMMETRY GIẢI THÍCH NHIỀU HIỆN TƯỢNG:
 
-  ┌──────────┬──────────────────────┬──────────────────────┐
-  │          │ D → B                │ B → D                │
-  │          │ (PFC → Entity-V)     │ (Entity-V → PFC)     │
-  ├──────────┼──────────────────────┼──────────────────────┤
-  │ Speed    │ CHẬM (weeks/months)  │ NHANH (milliseconds) │
-  │ Cost     │ CAO (PFC hold liên   │ THẤP (compiled =     │
-  │          │ tục + create exposure)│ cost ≈ 0)            │
-  │ Path     │ INDIRECT (D→C→A→B)  │ DIRECT (B→D)         │
-  │ Sustain  │ Bền NẾU compile xong│ Rất bền (compiled)   │
-  └──────────┴──────────────────────┴──────────────────────┘
+  ┌──────────┬───────────────────────────┬───────────────────────────┐
+  │          │ PFC → Entity-Valence      │ Entity-Valence → PFC      │
+  ├──────────┼───────────────────────────┼───────────────────────────┤
+  │ Speed    │ CHẬM (weeks/months)       │ NHANH (milliseconds)      │
+  │ Cost     │ CAO (PFC hold liên tục    │ THẤP (compiled =          │
+  │          │ + create exposure)        │ cost ≈ 0)                 │
+  │ Path     │ INDIRECT (PFC→Exposure→   │ DIRECT (Entity-Valence    │
+  │          │ Engine→Entity-Valence)    │ → PFC)                    │
+  │ Sustain  │ Bền NẾU compile xong     │ Rất bền (compiled)        │
+  └──────────┴───────────────────────────┴───────────────────────────┘
 
   ANALOGY:
-    Entity-Valence (B) = "trọng trường" — luôn kéo về compiled direction.
-    PFC (D) = "tên lửa" — CÓ THỂ thoát, nhưng TỐN FUEL.
+    Entity-Valence = "trọng trường" — luôn kéo về compiled direction.
+    PFC = "tên lửa" — CÓ THỂ thoát, nhưng TỐN FUEL.
     Fuel (PFC budget) = FINITE → phải đạt orbit (compile) trước khi hết fuel.
     Nếu compile xong → bay free. Nếu hết fuel trước → rơi lại.
 
   IMPLICATION:
     → "Biết mà không làm" = PFC tên lửa hết fuel, Entity-Valence kéo lại.
-    → Therapy takes months = D→B indirect path.
-    → Forced learning unsustainable = D fight B liên tục, PFC exhausted.
-    → "Yêu lấy thầy" = invest D once → compile B → B runs free (§7.3).
+    → Therapy takes months = PFC→Entity-Valence indirect path.
+    → Forced learning unsustainable = PFC fight Entity-Valence liên tục, PFC exhausted.
+    → "Love the teacher" = invest PFC once → compile Entity-Valence → Entity-Valence runs free (§7.3).
 
-  🟡 D→B vs B→D asymmetry: framework synthesis
+  🟡 PFC→Entity-Valence vs Entity-Valence→PFC asymmetry: framework synthesis
   🟢 PFC slower than subcortical: LeDoux 1996
   🟢 PFC budget finite: PFC-Operations.md v1.3 §8
   🟢 CBT mechanism = gradual recompilation: Beck 1979, Foa & Kozak 1986
 ```
 
-### §7.3 — Virtuous loop: "Muốn con hay chữ thì yêu lấy thầy"
+### §7.3 — Virtuous loop: "Love the teacher → learn the lesson"
 
 ```
-⭐ VIETNAMESE PROVERB = ARCHITECTURE TRONG 1 CÂU TỤC NGỮ:
+⭐ PROVERB = ARCHITECTURE IN ONE SENTENCE:
+  "If you want your child to learn, first help them love the teacher."
 
-  Step 1: PFC framing [thầy → đang cố giúp mình]
-          → D: Hold positive frame. Cost: ① PFC draft (initial investment).
+  Step 1: PFC framing [teacher → trying to help me]
+          → PFC: Hold positive frame. Cost: ① PFC draft (initial investment).
 
   Step 2: PFC direct positive interactions
-          → D → C1: tạo body-input positive với thầy
-          (hỏi han, tham gia lớp, cảm ơn)
+          → PFC → External: create positive body-input with teacher
+          (engage, participate, express gratitude)
 
   Step 3: Body experience positive interactions
-          → C1 → Engine A: exposure → Hebbian → compile [thầy → positive]
+          → External → Compile Engine: exposure → Hebbian → compile [teacher → positive]
           Multi-modal: see face + hear voice + feel warmth.
 
-  Step 4: Entity-Valence [thầy] TĂNG
-          → A → B: compiled chunks update entity-valence profile.
+  Step 4: Entity-Valence [teacher] INCREASES
+          → Engine → Entity-Valence: compiled chunks update entity-valence profile.
 
-  Step 5: Body AUTO-RECEPTIVE to thầy's knowledge
-          → B → A: Entity-Valence amplify ALL exposure from thầy.
+  Step 5: Body AUTO-RECEPTIVE to teacher's knowledge
+          → Entity-Valence → Engine: amplify ALL exposure from teacher.
           Same lesson → compile DEEPER (trust = multiplier).
 
-  Step 6: Knowledge compile NHANH hơn
-          → A output: content chunks accumulate faster.
+  Step 6: Knowledge compile FASTER
+          → Engine output: content chunks accumulate faster.
 
   Step 7: PFC FREED
-          → B runs automatic (compiled, cost ≈ 0)
-          → PFC budget available cho other tasks. SUSTAINABLE.
+          → Entity-Valence runs automatic (compiled, cost ≈ 0)
+          → PFC budget available for other tasks. SUSTAINABLE.
 
-  = VIRTUOUS LOOP: invest D → compile B → B runs free → D freed.
+  = VIRTUOUS LOOP: invest PFC → compile Entity-Valence → Entity-Valence runs free → PFC freed.
 
-  "Yêu" = build Entity-Valence (B)
-  "Thầy" = entity target
-  "Hay chữ" = content compile amplified by B
-  "Muốn con" = PFC intention (D) cần initiate
+  "Love the teacher" = build Entity-Valence toward entity target
+  "Want your child to learn" = PFC intention initiates the process
+  "Learn" = content compile amplified by Entity-Valence
+  Sequence: PFC invest (want) → Entity-Valence compile (love) → content amplified (learn)
 
   🟡 Proverb as virtuous loop illustration: framework synthesis
   🟢 Positive teacher-student relationship → learning: established
   🟢 Emotional context affects learning: Immordino-Yang & Damasio 2007
 ```
 
-### §7.4 — Vicious loop: "Ghét giáo viên"
+### §7.4 — Vicious loop: "Hate the teacher"
 
 ```
-🟡 REVERSE — "GHÉT GIÁO VIÊN → TỰ ĐỘNG TỪ CHỐI":
+🟡 REVERSE — "HATE THE TEACHER → AUTOMATIC REJECTION":
 
   Step 1: Entity-Valence [teacher → negative] compiled
-          (past: bị mắng, bị xấu hổ, unfair) → B negative.
+          (past: scolded, humiliated, unfair) → Entity-Valence negative.
 
-  Step 2: Teacher speaks → B ATTENUATE exposure
-          Body auto-filter: giảm attention, giảm receptivity.
-          Same lesson → compile YẾU hơn (trust = near-zero multiplier).
+  Step 2: Teacher speaks → Entity-Valence ATTENUATE exposure
+          Body auto-filter: reduce attention, reduce receptivity.
+          Same lesson → compile WEAKER (trust = near-zero multiplier).
 
   Step 3: PFC try override → Suppress negative entity-valence
-          D: Suppress cost ② efference mismatch. PFC-Operations.md v1.3 §2.2.
+          PFC Suppress: cost ② efference mismatch. PFC-Operations.md v1.3 §2.2.
 
-  Step 4: PFC fatigue → release → B reassert
-          B compiled, automatic, fast → body reject teacher's input AGAIN.
+  Step 4: PFC fatigue → release → Entity-Valence reassert
+          Entity-Valence compiled, automatic, fast → body reject teacher's input AGAIN.
 
-  Step 5: Less compile → fall behind → more frustration → B MORE negative
-          "Ghét thầy → dở môn → ghét hơn" = VICIOUS self-reinforcing.
+  Step 5: Less compile → fall behind → more frustration → Entity-Valence MORE negative
+          "Hate teacher → fail subject → hate more" = VICIOUS self-reinforcing.
 
-  Step 6: BREAK THE LOOP — CẦN inject positive exposure (C1):
-          → Thay thầy (new entity, reset B to neutral)
-          → Thầy cũ thay đổi approach (create new positive C1)
-          → Third party mediate (context cho positive interaction)
-          → NHƯNG: old B NEVER deleted, chỉ competitive re-linking (Chunk.md v2.3 §2.5)
+  Step 6: BREAK THE LOOP — MUST inject positive Exposure-External:
+          → Replace teacher (new entity, reset Entity-Valence to neutral)
+          → Old teacher changes approach (create new positive External exposure)
+          → Third party mediate (context for positive interaction)
+          → BUT: old Entity-Valence NEVER deleted, only competitive re-linking (Chunk.md v2.3 §2.5)
 
   🟡 Vicious loop model: framework synthesis
   🟢 Ironic rebound: Wegner 1987
@@ -1179,8 +1178,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         EXPERIENCE thắng (multi-modal, direct > verbal install).
 
     Root cause: 2 Compile Types cạnh tranh. Experience > Trust trong hầu hết cases.
-    = Asymmetry §7.2: Experience compile = B self (Mức 5 multiplier).
-      Trust compile = B external (Mức 2-3 multiplier). Self > external.
+    = Asymmetry §7.2: Experience compile = Entity-Valence self (Mức 5 multiplier).
+      Trust compile = Entity-Valence external (Mức 2-3 multiplier). Self > external.
     → CAN THIỆP: chuyển từ TRUST → EXPERIENCE (direct experience).
     → VD: muốn tập thể dục → ĐI TẬP → body compile [tập → ấm] → override.
 
@@ -1217,7 +1216,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⭐ HỢP LỰC — khi Experience confirm Trust:
 
     Trust install [học → tốt] + Experience confirm [học → mẹ khen → ấm]
-    = COMPOUND STRONG. Cả 2 configs cùng hướng → pattern cực bền.
+    = COMPOUND STRONG. Cả 2 configurations cùng hướng → pattern cực bền.
     = "Educated + enjoy" case. Lý tưởng.
 
 
@@ -1322,41 +1321,46 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ MODULATORS ĐƯỢC THÊM QUA TIẾN HÓA — ENGINE CONSERVED:
 
 
-  ┌──────────────┬─────────┬───────────┬───────────┬──────────────┐
-  │ Species      │ Engine A│ Sources C │ Entity-V B│ PFC D        │
-  ├──────────────┼─────────┼───────────┼───────────┼──────────────┤
-  │ Aplysia      │ Hebbian │ C1 only   │ ✗         │ ✗            │
-  │ (sea slug)   │ basic   │ (tactile) │           │              │
-  ├──────────────┼─────────┼───────────┼───────────┼──────────────┤
-  │ Cá, bò sát   │ Hebbian │ C1 (multi-│ Basic     │ ✗ minimal    │
-  │              │         │ sensory)  │ (friend/  │              │
-  │              │         │           │ foe)      │              │
-  ├──────────────┼─────────┼───────────┼───────────┼──────────────┤
-  │ Chó, mèo     │ Hebbian │ C1 + C3   │ Basic     │ Limited      │
-  │ (social      │         │ basic     │ (attach-  │ (inhibitory) │
-  │ mammals)     │         │           │ ment)     │              │
-  ├──────────────┼─────────┼───────────┼───────────┼──────────────┤
-  │ Linh trưởng   │ Hebbian │ C1 + C3   │ Rich      │ Moderate     │
-  │ (primates)   │         │ + C2 basic│ (social   │ (planning)   │
-  │              │         │           │ complex)  │              │
-  ├──────────────┼─────────┼───────────┼───────────┼──────────────┤
-  │ Con người     │ Hebbian │ C1+C2+C3  │ Full      │ Full         │
-  │ (humans)     │         │ FULL      │ (Entity-  │ (5 roles,    │
-  │              │         │ (imagine, │ Compiled, │ Simulation-  │
-  │              │         │ tools, AI)│ Mức 0-5)  │ Engine)      │
-  └──────────────┴─────────┴───────────┴───────────┴──────────────┘
+  ┌──────────────┬──────────┬──────────────┬───────────┬──────────────┐
+  │ Species      │ Compile  │ Exposure     │ Entity-   │ PFC          │
+  │              │ Engine   │ Channels     │ Valence   │ Modulation   │
+  ├──────────────┼──────────┼──────────────┼───────────┼──────────────┤
+  │ Aplysia      │ Hebbian  │ External     │ ✗         │ ✗            │
+  │ (sea slug)   │ basic    │ only         │           │              │
+  │              │          │ (tactile)    │           │              │
+  ├──────────────┼──────────┼──────────────┼───────────┼──────────────┤
+  │ Cá, bò sát   │ Hebbian  │ External     │ Basic     │ ✗ minimal    │
+  │              │          │ (multi-      │ (friend/  │              │
+  │              │          │ sensory)     │ foe)      │              │
+  ├──────────────┼──────────┼──────────────┼───────────┼──────────────┤
+  │ Chó, mèo     │ Hebbian  │ External +   │ Basic     │ Limited      │
+  │ (social      │          │ Spontaneous  │ (attach-  │ (inhibitory) │
+  │ mammals)     │          │ basic        │ ment)     │              │
+  ├──────────────┼──────────┼──────────────┼───────────┼──────────────┤
+  │ Linh trưởng   │ Hebbian  │ External +   │ Rich      │ Moderate     │
+  │ (primates)   │          │ Spontaneous  │ (social   │ (planning)   │
+  │              │          │ + Deliberate │ complex)  │              │
+  │              │          │ basic        │           │              │
+  ├──────────────┼──────────┼──────────────┼───────────┼──────────────┤
+  │ Con người     │ Hebbian  │ External +   │ Full      │ Full         │
+  │ (humans)     │          │ Deliberate + │ (Entity-  │ (5 roles,    │
+  │              │          │ Spontaneous  │ Compiled, │ Simulation-  │
+  │              │          │ FULL         │ Mức 0-5)  │ Engine)      │
+  │              │          │ (imagine,    │           │              │
+  │              │          │ tools, AI)   │           │              │
+  └──────────────┴──────────┴──────────────┴───────────┴──────────────┘
 
 
   PATTERN:
-    Engine A (Hebbian) = CONSERVED từ Aplysia → human.
-    Evolution THÊM modulators + sources, KHÔNG thay đổi engine.
+    Compile Engine (Hebbian) = CONSERVED từ Aplysia → human.
+    Evolution THÊM modulators + Exposure Channels, KHÔNG thay đổi engine.
     MỖI BƯỚC = THÊM MODULATOR, KHÔNG thay đổi ENGINE.
 
   IMPLICATIONS:
-    ① Dog training = pure Engine A + minimal B (repetition × reward).
-    ② Human education = Engine A + B + C2 + D (PHỨC TẠP hơn, POWERFUL hơn).
+    ① Dog training = pure Compile Engine + minimal Entity-Valence (repetition × reward).
+    ② Human education = Compile Engine + Entity-Valence + Deliberate + PFC (PHỨC TẠP hơn, POWERFUL hơn).
     ③ Compilable Architecture (Body-Base.md v3.3 §2):
-       = Engine A + full modulator suite → CAN learn ANYTHING (general-purpose).
+       = Compile Engine + full modulator suite → CAN learn ANYTHING (general-purpose).
        NHƯNG: no pre-wired content → cần 15-20 năm calibrate.
 
   🟢 Aplysia Hebbian: Kandel 2000
@@ -1374,46 +1378,46 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 
   ① TRAUMA (emotional peak):
-     Engine A: 1 exposure × peak_valence CỰC CAO → compile immediate.
-     Source: C1. Mod B: [chó] flip negative ngay. PFC: BYPASSED (~12ms).
-     → Engine A compile WITHOUT modulator D.
+     Compile Engine: 1 exposure × peak_valence CỰC CAO → compile immediate.
+     Exposure: External. Entity-Valence: [chó] flip negative ngay. PFC: BYPASSED (~12ms).
+     → Compile Engine compile WITHOUT PFC Modulation.
      🟢 LeDoux 1996
 
   ② CULT (Entity-Valence override PFC):
-     Engine A: multi-modal + emotional peak + repetition → deep compile.
-     B: [leader → positive++++] = DOMINANT. D: PFC WEAKENED.
-     → B maximized + D minimized + C enriched = deep install.
+     Compile Engine: multi-modal + emotional peak + repetition → deep compile.
+     Entity-Valence: [leader → positive++++] = DOMINANT. PFC: WEAKENED.
+     → Entity-Valence maximized + PFC minimized + Exposure enriched = deep install.
      🟢 Cialdini 2006
 
   ③ THERAPY (PFC-guided recompile):
-     Engine A: new exposure (C2 imagination + C1 controlled exposure).
-     D: PFC Hold new frame. B: gradually UPDATE (indirect D → B).
+     Compile Engine: new exposure (Deliberate imagination + External controlled exposure).
+     PFC: Hold new frame. Entity-Valence: gradually UPDATE (indirect PFC → Entity-Valence).
      → Reconsolidation window: recall → modify → re-compile.
      🟢 Foa & Kozak 1986, Nader 2000
 
   ④ TRẺ BỊ ÉP HỌC (multi-stream):
-     Content compile ✓ (Engine A + C1 forced). Value ✗ (trust ≈ 0).
+     Content compile ✓ (Compile Engine + External forced). Value ✗ (trust ≈ 0).
      Entity: mixed. Behavior: avoidance habit ✓.
      → Multi-stream: content VẪN compile dù trust thấp.
 
   ⑤ "BIẾT MÀ KHÔNG LÀM":
      Trust value installed thin. Experience compiled deep.
-     Engine A products CẠNH TRANH: Experience > Trust.
-     → Compile DEPTH difference + B asymmetry (self > external).
+     Compile Engine products CẠNH TRANH: Experience > Trust.
+     → Compile DEPTH difference + Entity-Valence asymmetry (self > external).
      🟢 Elliot 2006
 
   ⑥ IMMERSION LANGUAGE:
-     Engine A: massive C1 exposure. B: minimal. D: moderate.
-     → Pure Engine A + C1 = immersion learning (slow but DEEP).
+     Compile Engine: massive External exposure. Entity-Valence: minimal. PFC: moderate.
+     → Pure Compile Engine + External = immersion learning (slow but DEEP).
      🟢 Krashen 1982
 
   ⑦ EXPERT BLIND SPOT:
-     Expert: decades D-compiled → pyramidal compression → "thấy 4."
-     Novice: chưa compiled → cần C1 + C2 + time.
+     Expert: decades PFC-compiled → pyramidal compression → "thấy 4."
+     Novice: chưa compiled → cần External + Deliberate + time.
      → Trust amplify VALUE, KHÔNG amplify CONTENT (§3.3).
 
-  ⑧ "YÊU LẤY THẦY" (full feedback cycle):
-     D invest → C1 positive → A compile → B update → B auto → D freed.
+  ⑧ "LOVE THE TEACHER" (full feedback cycle):
+     PFC invest → External positive → Engine compile → Entity-Valence update → Entity-Valence auto → PFC freed.
      = Virtuous loop (§7.3). PFC one-time cost → permanent benefit.
 
 
@@ -1421,7 +1425,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Architecture giải thích TẤT CẢ mà 3-type taxonomy giải thích,
   PLUS giải thích thêm cases mà taxonomy KHÔNG giải thích rõ:
     → "Giỏi nhưng ghét học" (multi-stream: content ✓ value ✗)
-    → "Biết mà không làm" (compile depth + B asymmetry)
+    → "Biết mà không làm" (compile depth + Entity-Valence asymmetry)
     → Immersion > classroom (source richness > PFC effort)
 
   🟡 Edge case stress-testing: framework synthesis
@@ -1473,7 +1477,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   3 Compile Types = dominant modulator:
     Novel reframe. Preserves existing taxonomy. Adds architecture.
 
-  D→B slow/costly vs B→D fast/free asymmetry:
+  PFC→Entity-Valence slow/costly vs Entity-Valence→PFC fast/free asymmetry:
     Consistent with established PFC/subcortical speed differences.
 
   Evolutionary gradient (engine conserved, modulators added):
@@ -1502,13 +1506,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 COMPILE ARCHITECTURE:
-  Compile-Sleep.md v1.0 — Component S chi tiết (6 mechanisms)
+  Compile-Sleep.md v1.0 — Sleep Maintenance chi tiết (6 mechanisms)
   Chunk.md v2.3 §2 — 4 compile mechanisms, compile_rate formula, trust, no source tag
   PFC-Operations.md v1.3 — Hold/Suppress, 4 combinations, PFC budget
   Entity-Valence-Dynamics.md v1.1 — Structural/Current valence, trust meta-dimension
   Entity-Access.md v1.2 §2 — gradient Mức 0-5 (supports amplifier model)
-  Simulation-Engine.md v1.1 — PFC imagination substrate (Source C2)
-  Background-Pattern.md v2.0 — accumulated gist (Source C3)
+  Simulation-Engine.md v1.1 — PFC imagination substrate (Exposure-Deliberate)
+  Background-Pattern.md v2.0 — accumulated gist (Exposure-Spontaneous)
 
 BODY-BASE + BODY-FEEDBACK:
   Body-Base.md v3.3 §2 — Compilable Architecture, §4 summary, §7 circuit breaker
@@ -1612,12 +1616,12 @@ FRAMEWORK SYNTHESIS (🟡):
   "1 Engine + 3 Modulators" unification — 2026-06-01
   Trust = amplifier (not gate) — 2026-06-01
   Trust scope VALUE vs CONTENT — 2026-06-01
-  3-source parallel model (C1/C2/C3) — 2026-06-01
+  3-Exposure-Channel parallel model (External/Deliberate/Spontaneous) — 2026-06-01
   Multi-stream compile (4 streams) — 2026-06-01
-  Feedback asymmetry (B→D direct, D→B indirect) — 2026-06-01
+  Feedback asymmetry (Entity-Valence→PFC direct, PFC→Entity-Valence indirect) — 2026-06-01
   3 Compile Types = modulator configurations — 2026-06-01
   Evolutionary modulator gradient — 2026-06-01
-  Component S in compile architecture — 2026-06-01
+  Sleep Maintenance in compile architecture — 2026-06-01
   Gate = limit case of amplifier — 2026-06-01
   4 compile pathways model — Drill-Compile-Short-Collective.md
   6 trade-offs framework — Drill-Compile-Short-Collective.md
@@ -1626,5 +1630,5 @@ FRAMEWORK SYNTHESIS (🟡):
 ---
 
 > **PARENT**: Chunk.md v2.3 §2 (4 compile mechanisms = foundation)
-> **COMPANION**: Compile-Sleep.md v1.0 (Component S chi tiết)
+> **COMPANION**: Compile-Sleep.md v1.0 (Sleep Maintenance chi tiết)
 > **BACKUP**: backup/Compile-Taxonomy-v2.0.md (v2.0 preserved)

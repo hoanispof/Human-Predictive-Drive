@@ -37,7 +37,7 @@ dependencies:
   - 04-Integration.md — §9 H10 refined
   - Gap-Direction.md v2.0 — §3 "chưa biết = không gap", §6.3 hierarchy
   - Chunk.md v2.2 — chunk substrate, context-tag model
-  - Compile-Taxonomy.md v2.0 — §3 4-pathway model (Precondition-5)
+  - Compile-Taxonomy.md v3.0 — §6 4-pathway model (Precondition-5)
   - Cortisol-Baseline.md v2.2 — §3.3 Direction-At-Compile, §7 source > level
   - Reward-Calibration.md v1.1 — §1.2 Goldilocks per-gap dynamic
   - Boredom.md v2.1 — §1 + §7 boredom ≠ Precondition-3 failure
@@ -829,7 +829,7 @@ DIRECT-STATE:
 
 ### §6.4 — 4-Pathway × quality ceiling
 
-🟡 Từ Compile-Taxonomy.md v2.0 §3:
+🟡 Từ Compile-Taxonomy.md v3.0 §6:
 
 > Mỗi compile pathway tạo KHÁC Precondition-5 tag → determines reward capacity:
 
@@ -1395,7 +1395,7 @@ PREDICTION 5: Developmental Precondition-5 testable
 |---|---|---|
 | Gap-Direction.md v2.0 | §3, §6.3 | Precondition-1 direction + "chưa biết = không gap" + hierarchy |
 | Cortisol-Baseline.md v2.2 | §3.3, §7 | Precondition-5 Direction-At-Compile gradient + source > level |
-| Compile-Taxonomy.md v2.0 | §3 | Precondition-5 4-pathway × quality ceiling |
+| Compile-Taxonomy.md v3.0 | §6 | Precondition-5 4-pathway × quality ceiling |
 | Reward-Calibration.md v1.1 | §1.2 | Precondition-4 Goldilocks zone (dynamic, not fixed number) |
 | Boredom.md v2.1 | §1, §7 | Precondition-3 boredom disambiguation |
 | Chunk.md v2.2 | §2.6 | Precondition-2 substrate + context-tag |

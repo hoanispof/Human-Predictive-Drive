@@ -504,7 +504,7 @@ HƯỚNG NGHIÊN CỨU TỪ GAP 2:
   RD-2.5: 3 Compile Types at molecular level
     → Experience Compile (direct short): LTP + opioid = simple, fast
     → Expertise Compile: LTP + repetition + meta-chunk formation
-    → Trust Compile: social signal → trust gate → compile
+    → Trust Compile: social signal → trust amplifier → compile
     → Framework predict: 3 types = DIFFERENT molecular signatures
     → Method: social learning paradigm + pharmacological manipulation
 ```

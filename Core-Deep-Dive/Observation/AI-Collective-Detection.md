@@ -392,7 +392,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 
   Source: Collective-Schema-Pressure.md v1.0 (§2 compound, §3 trade-off, §4 Asian pattern)
-  Source: Compile-Taxonomy.md v2.0 §3 (Trust Compile = Pathway 3/4)
+  Source: Compile-Taxonomy.md v3.0 §6 (Trust Compile = Pathway 3/4)
   🟡 Compound schema detection = novel framework application
   🟡 Culture-aware density model = framework synthesis
   🟢 Collectivist vs individualist cultural psychology (Hofstede, Triandis)
@@ -720,7 +720,7 @@ SUPPORTING FILES:
   → Ask-AI.md v3.1 — §6.1 Dual Check principle (body + domain)
   → Status.md v2.1 — §6 Disruption → Recalibrate cycle
   → Body-Base.md v3.2 — §7 2-tier calibration
-  → Compile-Taxonomy.md v2.0 — §3 Trust Compile pathways
+  → Compile-Taxonomy.md v3.0 — §6 Trust Compile pathways
   → PFC-Operations.md v1.0 — §6 Compiled Suppress (mismatch → burnout)
 
 STATUS:

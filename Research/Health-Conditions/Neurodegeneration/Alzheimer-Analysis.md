@@ -2969,7 +2969,7 @@ TOTAL: ~75 academic citations (v1.0 had ~20)
   → Dopamine-Is-Not-Reward.md v1.1 — 7-step (wanting vs liking comparison)
   → ADHD-Observation.md v1.1 — Dopamine Cluster + medication comparison
   → Child-Development-Mechanism.md v1.0 — reverse developmental comparison
-  → Compile-Taxonomy.md v2.0 — 3 Compile Types (Experience/Expertise/Trust)
+  → Compile-Taxonomy.md v3.0 — 3 Compile Types (Experience/Expertise/Trust)
   → Feeling-Mechanism-Deep.md — body-first invariant
   → PFC-Configuration.md v1.0 — Mode ⑤ Dissociated (relevance to Alzheimer)
   → OCD-Analysis.md v2.1 — "done" pipeline (grief comparison)

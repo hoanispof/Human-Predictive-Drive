@@ -222,7 +222,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌─────────────────────────────────────────────────────────────┐
   │ CẤP 1: INDIVIDUAL BRAIN (short compile)                     │
   │   Body compile: [action → sensory result → body evaluation] │
-  │   Trust = gate bypass chain verification                    │
+  │   Trust = amplifier cho external compile (bypass chain verify) │
   │   PFC = post-hoc confabulation                              │
   │   = Brain KHÔNG process chain dài cho PHẦN LỚN behavior    │
   │   = Brain compile NGẮN, trust collective cho phần còn lại  │
@@ -264,7 +264,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     CẤP 1 (Individual):
       Vô thức (95%): compile + fire + evaluate SHORT
       PFC (5%): direct + hold + observe (nhưng KHÔNG compile)
-      Trust: gate cho external install (Trust Compile)
+      Trust: amplifier cho external compile rate (Trust Compile)
       Tools: extend PFC capacity (giấy, máy tính)
 
     CẤP 2 (Collective):
@@ -346,7 +346,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     Experience Compile (direct short ~90%): Cấp 1 thuần. Body experience → compile.
     Expertise Compile (compiled expertise ~5%): Cấp 1 + external tools (Cấp 2 cá nhân).
-    Trust Compile (installed + collective): Cấp 2 → Trust gate → Cấp 1 install.
+    Trust Compile (installed + collective): Cấp 2 → trust amplifier → Cấp 1 install.
 
     → Trust Compile = PHẦN LỚN behavior hàng ngày mà framework CHƯA nhận ra đủ
     → Ngôn ngữ, đạo đức, skill xã hội, world knowledge = TẤT CẢ Trust Compile
@@ -907,7 +907,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Cá nhân KHÔNG THỂ tự compile chain dài (PFC 4±1 constraint).
   Tập thể HOLD chain dài (distributed across institutions + culture).
-  Trust = GATE cho external install (Body-Base.md §3 Component 3).
+  Trust = AMPLIFIER cho external compile rate (Body-Base.md §3 Component 3).
 
   MECHANISM (Drill §4, §20):
 
@@ -941,7 +941,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ④ Label installation: "đây là X" → label compile
     ⑤ Cultural transmission: qua thế hệ → compile tích lũy
 
-    → TẤT CẢ 5 yêu cầu TRUST gate ở mức nào đó
+    → TẤT CẢ 5 yêu cầu trust amplifier ở mức nào đó
     → Trust CAO → chunks install nhanh + sâu
     → Trust THẤP → chunks reject hoặc compile nông
 
@@ -981,7 +981,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ "HỌC LÀM GÌ" = BODY CIRCUIT-BREAK KHI CHAIN COLLECTIVE GÃY (Drill §22B):
 
   Chain collective: [học → đại học → việc → lương → body-base feed]
-  Individual compile: [học → tốt] (trust-gated SHORT)
+  Individual compile: [học → tốt] (trust-amplified SHORT)
 
   KHI NÀO PFC QUAY LẠI ĐÁNH GIÁ?
   → Khi BODY circuit-break (Body-Base.md §7) — KHÔNG phải PFC tự nhiên suy nghĩ.
@@ -1345,7 +1345,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     CẤP 3 (Framework):
       AI = assist pattern detection + analysis
-      → AI CÓ THỂ detect compile source (internal? external? trust-gated?)
+      → AI CÓ THỂ detect compile source (internal? external? trust-amplified?)
       → AI CÓ THỂ detect valence origin (hardware fit? installed? threat?)
       → AI CÓ THỂ detect chain break ("học vô ích" → node nào gãy?)
       → Chi tiết: AI-Schema-Detection.md §3

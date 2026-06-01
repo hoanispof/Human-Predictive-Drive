@@ -56,7 +56,7 @@ dependencies:
     - Body-Feedback-Mechanism.md v1.2 — Chunk-Shift/Miss/Gap
     - Gap-Direction.md v1.0 — "chưa biết = không có gap"
     - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, overjustification mechanism
-    - Compile-Taxonomy.md v2.0 — Trust Compile external install
+    - Compile-Taxonomy.md v3.0 — Trust Compile external install
     - Cortisol-Baseline.md v2.0 — amplifier, direction > level
     - Anchor-Schema.md v1.2 — 4 nguồn fill, trust
     - Connection.md v5.0 — Valence-Structural bonds, 2-luồng, Hardware-Subsidy, Entity-Access

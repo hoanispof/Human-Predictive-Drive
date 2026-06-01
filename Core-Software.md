@@ -16,7 +16,7 @@
 > - Schema, Drives, Valence = observation parameters, không phải components
 > - Development = chunk density tăng dần (cùng architecture, khác chunks)
 > **Tiền đề đọc:**
-> - Chunk.md v2.3 — chunk substrate, trust gate, pattern hierarchy, Entity-Compiled ref
+> - Chunk.md v2.3 — chunk substrate, trust amplifier, pattern hierarchy, Entity-Compiled ref
 > - Body-Feedback.md — dual-pull, Body-Feedback-Precondition, 3 nguồn, interface loop
 > - Body-Feedback-Mechanism.md v2.0 — 4th axis: chunk dynamics, Body-Need 2-source
 > - Gap-Body-Need.md v1.0 — 3 Satiation Types, ENGINE/ROAD/VEHICLE, entity-gap matching
@@ -33,7 +33,7 @@
 > - Valence-Propagation.md v3.0 — structural/current, 3 Firing Modes, Hardware-Subsidy
 > - Cortisol-Baseline.md v2.1 — amplifier, direction gate, 7 modes, HPA paradox
 > - Body-Base.md v3.2 — entry point, Model 3+1, Compilable Architecture
-> - Compile-Taxonomy.md v2.0 — 3 Compile Types, 4 pathways, 6 trade-offs
+> - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 4 pathways, 6 trade-offs
 > - Collective-Body.md v2.1 — Model 3 cấp, trust = only bridge, By-product L3
 > - Connection.md v5.0 — 3 Generative Primitives, Entity-Access, Hardware-Subsidy, 4-Layer
 > - Domain.md v2.0 — 3 Domain Types, Dual Check, 3 Nguồn Constraint
@@ -531,11 +531,11 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   5 EXTERNAL INSTALL MECHANISMS (Chunk.md §2.3):
     ① Co-attention ② Imitation ③ Social referencing
     ④ Label installation ⑤ Cultural transmission
-    → TẤT CẢ 5 yêu cầu TRUST GATE ở mức nào đó
+    → TẤT CẢ 5 yêu cầu TRUST AMPLIFIER ở mức nào đó
     → Trust = ONLY BRIDGE giữa external → internal compile
     → (Collective-Body.md v2.1 §5: trust = cơ chế DUY NHẤT nối cấp 1 và cấp 2)
 
-  3 COMPILE TYPES (Compile-Taxonomy.md v2.0):
+  3 COMPILE TYPES (Compile-Taxonomy.md v3.0):
 
     Experience Compile — Direct Short (~90%): body trải nghiệm trực tiếp → compile
       [toán → brain fire → reward] hoặc [không học → mắng → sợ]
@@ -545,7 +545,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
       [bán hàng → feedback → adjust → compile] lặp 1000+ lần
       = Deliberate practice. Meta-chunks. "Chuyên gia = library rất sâu."
 
-    Trust Compile — Installed + Collective (~5%): external source → trust gate → compile
+    Trust Compile — Installed + Collective (~5%): external source → trust amplifier → compile
       [mẹ nói học tốt → trust → compile "học=tốt"] = 1-2 nodes
       = Trust install. Social default. Chain dài SỐNG ở collective (Cấp 2).
 
@@ -606,11 +606,11 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     3 COMPONENTS CHẠY ĐỒNG THỜI trên chunk substrate:
       ① VÔ THỨC (~95%): compile + fire + evaluate
       ② PFC (~5%): direct + sequence + observe
-      ③ TRUST: gate + modulate + connect (individual ↔ external)
+      ③ TRUST: amplify + modulate + connect (individual ↔ external)
     + 1 BRIDGE:
       ④ EXTERNAL TOOLS (×∞): giấy, máy tính, AI → mở rộng PFC capacity
 
-    → Trust = Component 3, KHÔNG phải property — vì trust GATE tất cả external install
+    → Trust = Component 3, KHÔNG phải property — vì trust AMPLIFY rate of tất cả external compile
 
   MODEL 3 CẤP (Collective-Body.md v2.1 §1):
 
@@ -1611,8 +1611,8 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 ### §13.3 Chunk system
 
 ```
-  Chunk/Chunk.md v2.3                      — Chunk substrate, trust gate, pattern hierarchy
-  Chunk/Compile-Taxonomy.md v2.0           — 3 Compile Types, 4 pathways, 6 trade-offs
+  Chunk/Chunk.md v2.3                      — Chunk substrate, trust amplifier, pattern hierarchy
+  Chunk/Compile-Taxonomy.md v3.0           — 1 Engine + 3 Modulators, 4 pathways, 6 trade-offs
   Chunk/Background-Pattern.md v2.0         — Accumulated chunk bias invisible to PFC
 ```
 

@@ -26,7 +26,7 @@
 **Confidence**: 🟢 Research (prevalence, social cognition, gaze cueing, exercise, cortisol) | 🟡 Synthesis (compilation model, Background-Pattern model, cost-benefit 3D) | 🔴 Hypothesis (evolutionary, frequency-dependent, team complementarity)
 **Build on**: ADHD-Observation.md v1.2 (FOUNDATION — KHÔNG lặp nội dung đã có)
 **Companion**: ADHD-Attention-Optimization.md v1.0 (HOW file — companion to this WHY file)
-**Dependencies**: Attention-Spectrum.md v2.1, Compile-Taxonomy.md v2.0, Self-Pattern-Modeling.md v3.1, Background-Pattern.md v2.0, Gap-Body-Need.md v1.0, Novelty.md v1.2, Cortisol-Baseline.md v2.2, Self-Created-Threat.md v1.1, Reward-Calibration.md v1.1
+**Dependencies**: Attention-Spectrum.md v2.1, Compile-Taxonomy.md v3.0, Self-Pattern-Modeling.md v3.1, Background-Pattern.md v2.0, Gap-Body-Need.md v1.0, Novelty.md v1.2, Cortisol-Baseline.md v2.2, Self-Created-Threat.md v1.1, Reward-Calibration.md v1.1
 **Source drills**: Drill-ADHD-Trade-Off.md (23I/16G) + Research-Verify-ADHD-Drill.md (29 GAPs verified)
 **Disclaimer**: Framework KHÔNG thay thế chẩn đoán y khoa. ADHD = neurodevelopmental condition cần đánh giá lâm sàng chuyên môn.
 
@@ -251,7 +251,7 @@ FILE NÀY THÊM (new value):
     Threshold: THẤP → detect → encode → repeat → compile
     Cost: ~0 (passive, không cần PFC attention)
     Timeline: Childhood → adulthood = LIBRARY of social chunks
-    = Compile-Taxonomy.md v2.0: Experience Compile (automatic, from exposure)
+    = Compile-Taxonomy.md v3.0: Experience Compile (automatic, from exposure)
 
   ADHD — Active Compilation:
     Input: Micro-cues DƯỚI threshold → KHÔNG detect
@@ -353,7 +353,7 @@ FILE NÀY THÊM (new value):
 ### §2.4 — Compiled Quality: Genuine vs Schema vs Threat
 
 ```
-🟡 FRAMEWORK SYNTHESIS (applying Compile-Taxonomy.md v2.0):
+🟡 FRAMEWORK SYNTHESIS (applying Compile-Taxonomy.md v3.0):
 
   Áp dụng Compiled Quality Dimension cho social chunks ở ADHD:
 
@@ -380,7 +380,7 @@ FILE NÀY THÊM (new value):
 
   ③ THREAT-COMPILED SOCIAL CHUNKS:
     Pathway: Punishment/rejection/detection → avoidance learning
-    Tag: AVOIDANCE (Compile-Taxonomy.md v2.0 — threat lock)
+    Tag: AVOIDANCE (Compile-Taxonomy.md v3.0 — threat lock)
     Ở ADHD: PHỔ BIẾN NHẤT (nếu unsupported)
     Đặc điểm:
       → "Tránh sai" thay vì "thích đúng"
@@ -426,7 +426,7 @@ FILE NÀY THÊM (new value):
     → Phase 1: WINDOW for intervention — provide explicit social cues
       → Before threat-compile accumulates
     → Phase 2: HARDER — must UNCOMPILE threat tag before genuine compile
-      → Compile-Taxonomy.md v2.0: 6-step reversal process
+      → Compile-Taxonomy.md v3.0: 6-step reversal process
     → = Early explicit social support = highest ROI
 ```
 
@@ -582,7 +582,7 @@ FILE NÀY THÊM (new value):
 
   Để "pass", ADHD person SUPPRESS natural behaviors over years:
 
-  Mỗi suppress = Compile-Taxonomy.md v2.0 cost type:
+  Mỗi suppress = Compile-Taxonomy.md v3.0 cost type:
     "tôi KHÔNG ĐANG LÀ TÔI" = efference mismatch
     → Body RESIST → ongoing cost → CANNOT compile to zero
 
@@ -1259,7 +1259,7 @@ MAY BE WRONG ABOUT:
 ### §12.2 — Compilation + Social
 
 ```
-  → Compile-Taxonomy.md v2.0 — 3 types (Experience/Expertise/Trust),
+  → Compile-Taxonomy.md v3.0 — 3 types (Experience/Expertise/Trust),
     compiled quality dimension, 6 trade-offs
   → Self-Pattern-Modeling.md v3.1 — Self-Pattern-Modeling mechanism, mutual resonance,
     context-dependent retrieval

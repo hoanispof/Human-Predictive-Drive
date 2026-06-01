@@ -32,7 +32,7 @@
 **Confidence**: 🟢 Research (exercise, sleep, cognitive offloading, person-environment fit) | 🟡 Synthesis (external PFC model, reward engineering, 90:10 ratio) | 🔴 Hypothesis (AI as equalizer, outperform neurotypical, A→B→C model)
 **Build on**: ADHD-Observation.md v1.2 + ADHD-Trade-Off.md v1.0
 **Companion**: ADHD-Trade-Off.md v1.0 (WHY file — companion to this HOW file)
-**Dependencies**: Attention-Spectrum.md v2.1, Compile-Taxonomy.md v2.0, Self-Pattern-Modeling.md v3.1, Background-Pattern.md v2.0, Gap-Body-Need.md v1.0, Novelty.md v1.2, Cortisol-Baseline.md v2.2, Self-Created-Threat.md v1.1, Reward-Calibration.md v1.1, Imagine-Final.md v3.1, Body-Feedback-Label.md v2.1, Ask-AI.md v3.1
+**Dependencies**: Attention-Spectrum.md v2.1, Compile-Taxonomy.md v3.0, Self-Pattern-Modeling.md v3.1, Background-Pattern.md v2.0, Gap-Body-Need.md v1.0, Novelty.md v1.2, Cortisol-Baseline.md v2.2, Self-Created-Threat.md v1.1, Reward-Calibration.md v1.1, Imagine-Final.md v3.1, Body-Feedback-Label.md v2.1, Ask-AI.md v3.1
 **Source drills**: Drill-ADHD-Attention-Optimization.md (20I/13G) + Research-Verify-ADHD-Drill.md
 **Disclaimer**: Framework KHÔNG thay thế chẩn đoán y khoa hoặc kế hoạch điều trị. Strategies trong file này = observation-level, không phải clinical prescription.
 
@@ -722,7 +722,7 @@ FILE NÀY RESPONDS — per Trade-Off insight:
   TIMELINE:
     → Schema → Genuine shift: months to years (not days)
     → Threat → Genuine: LONGER (must uncompile threat tag first)
-    → Compile-Taxonomy.md v2.0: 6-step reversal for threat-compiled
+    → Compile-Taxonomy.md v3.0: 6-step reversal for threat-compiled
     → = Investment, not quick fix
 ```
 
@@ -930,7 +930,7 @@ FILE NÀY RESPONDS — per Trade-Off insight:
   Step 2 — GRIEF (emotional processing):
     → "What could I have been if diagnosed earlier?"
     → REAL loss → body needs to process → cortisol spike NORMAL
-    → SUPPRESS grief = compiled suppress → flat affect (Compile-Taxonomy.md v2.0)
+    → SUPPRESS grief = compiled suppress → flat affect (Compile-Taxonomy.md v3.0)
     → PROCESS grief = approach → resolve → move forward
     → Duration: weeks to months
     → RISK: stuck in rumination → need external support
@@ -1177,7 +1177,7 @@ MAY BE WRONG ABOUT:
 ### §12.2 — Strategy Foundation Files
 
 ```
-  → Compile-Taxonomy.md v2.0 — 3 compile types, compiled quality, 6-step reversal
+  → Compile-Taxonomy.md v3.0 — 3 compile types, compiled quality, 6-step reversal
   → Self-Pattern-Modeling.md v3.1 — Self-Pattern-Modeling mechanism, context-dependent
   → Background-Pattern.md v2.0 — §5 Triple Bias, §6 self-reinforcing, §7 PFC visibility
   → Gap-Body-Need.md v1.0 — §2 satiation profiles, §6 mini-arcs

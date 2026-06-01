@@ -44,7 +44,7 @@
 >   - Somatic-Articulation-Loop.md — body → explicit knowledge process
 >   - Autonomy-Hardware.md — efference copy, self-action = reward
 >   - Body-Coupling.md v1.1 — 2D Depth×Direction, relationship mechanism
->   - Compile-Taxonomy.md v2.0 — 3 3 Compile Types, trust gate
+>   - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, trust amplifier
 > **Confidence:** 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Language:** Tiếng Việt primary + English technical terms
 > **v2.0 changes:**
@@ -200,7 +200,7 @@
     → AI + confirmation bias = AI LÀ THÊM 1 "expert" confirm cho bạn
     → "AI cũng đồng ý mà" = PFC nhận external validation → model strengthen
     → = Trust Compile trust-compile (Compile-Taxonomy.md §3):
-       external source (AI) → trust gate → compile "model tôi đúng"
+       external source (AI) → trust amplifier → compile "model tôi đúng"
 
   ⚠️ QUAN TRỌNG — ĐÂY KHÔNG PHẢI LỖI CỦA AI:
     → AI designers BIẾT vấn đề này (active research area)
@@ -284,7 +284,7 @@
 
   🟡 FRAMEWORK MAPPING:
     → Automation bias = Trust Compile trust-compile applied to AI
-    → AI = "expert" → trust gate open → compile "AI output = reliable"
+    → AI = "expert" → trust amplifier HIGH → compile "AI output = reliable"
     → Mỗi lần AI đúng → approach tag strengthen → trust TĂNG
     → Khi AI sai → trust đã compiled → body không fire doubt mạnh
     → = CÙNG cơ chế trust-compile cho parent, teacher, doctor
@@ -555,7 +555,7 @@
     Tầng 1: Darwinian (triệu năm — gen wired, không đổi)
     Tầng 2: Hebbian (suốt đời — experience → compile) với 2 đường vào:
       - 2a Domain Contact (tự trải nghiệm — multi-modal, chậm, thick)
-      - 2b Trust-Injected (bố mẹ/thầy/sách/tôn giáo/AI qua trust gate — nhanh, thinner)
+      - 2b Trust-Injected (bố mẹ/thầy/sách/tôn giáo/AI qua trust amplifier — nhanh, thinner)
     Culture = 2a passive + 2b accumulated. AI = newest 2b source.
 
   → 2 cơ chế calibrate → body đúng ~90%.
@@ -1478,7 +1478,7 @@ MECHANISM FILES (core evidence):
   → Feeling.md v2.1 — 7-layer fidelity gradient, PFC observation interface
   → PFC-Function.md v1.2 — 24 functions, PFC override, confabulation
   → Autonomy-Hardware.md — efference copy, self-action = opioid = approach tag
-  → Compile-Taxonomy.md v2.0 — 3 3 Compile Types, trust gate, Trust Compile ~30-60%
+  → Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, trust amplifier, Trust Compile ~30-60%
   → Chunk.md v2.1 — sole substrate, 4 compile mechanisms, activation dynamics
 
 ANALYSIS FILES (parallel — "bộ 3 song song"):

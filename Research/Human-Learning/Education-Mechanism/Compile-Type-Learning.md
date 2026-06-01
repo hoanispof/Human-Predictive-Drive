@@ -41,8 +41,8 @@ position: |
   File này = deep-dive vào 1 mechanism: COMPILE TYPE influence on chunk quality.
 dependencies:
   compile-mechanism:
-    - Compile-Taxonomy.md v2.0 — 3 Compile Types, 4 pathways, 6 trade-offs
-    - Chunk.md v2.1 — 4 compile mechanisms, trust gate
+    - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 4 pathways, 6 trade-offs
+    - Chunk.md v2.3 — 4 compile mechanisms, trust amplifier
     - Collective-Body.md v2.1 — trust = only bridge, Model 3 cấp
     - PFC-Operations.md v1.1 — §5 Compiled Quality Dimension (genuine/schema/threat)
   education-bo-3:
@@ -516,7 +516,7 @@ language: Tiếng Việt primary + English technical terms
 
   Bước 1: TRUST COMPILE INSTALL
     → Thầy cô nói: "pi = 3.14, dùng tính diện tích"
-    → Trust gate pass → compile [pi → diện tích] = chunk mỏng
+    → Trust amplifier → compile [pi → diện tích] = chunk mỏng
     → Đủ để giải bài tập → body feedback "đúng"
 
   Bước 2: DOMAIN ENCOUNTER (optional nhưng quan trọng)
@@ -764,14 +764,14 @@ language: Tiếng Việt primary + English technical terms
     → Thầy cô = agent mà trẻ có trust relationship
     → Có turn-taking: thầy hỏi → trò đáp → feedback
     → Có social context: bạn bè, tương tác, body-feedback xã hội
-    → = Trust Compile qua trust gate HOẠT ĐỘNG
+    → = Trust Compile qua trust amplifier HOẠT ĐỘNG
 
   Trust Compile screen (TV, YouTube, TikTok): trust MÀN HÌNH → compile?
     → Màn hình KHÔNG phải agent mà trẻ trust theo cách trust mẹ
     → Không có turn-taking: TV phát → trẻ nhận THỤ ĐỘNG
     → Không có contingency: hành động của trẻ KHÔNG ảnh hưởng nội dung
     → 2 kênh (visual + auditory) vs 6+ kênh khi chơi thật
-    → = Trust Compile KHÔNG ĐẦY ĐỦ — thiếu trust gate, thiếu multi-modal
+    → = Trust Compile KHÔNG ĐẦY ĐỦ — thiếu trust amplifier, thiếu multi-modal
 
   🟢 Child-Development-Mechanism.md §2 — 3 parameters screen THUA:
 
@@ -883,7 +883,7 @@ language: Tiếng Việt primary + English technical terms
     → 🟢 "Video transfer deficit" — trẻ nhỏ (<3) KHÓ transfer
       kiến thức từ video sang real world (Anderson & Pempek 2005)
     → Framework lens: video = Trust Compile mà không có anchor,
-      contingency, hoặc trust gate đầy đủ → compile yếu
+      contingency, hoặc trust amplifier đầy đủ → compile yếu
 
   ĐÁNG CHÚ Ý:
     → Trẻ HỌC ĐƯỢC từ screen — nhưng CHẬM HƠN và MỎNG HƠN
@@ -1066,7 +1066,7 @@ language: Tiếng Việt primary + English technical terms
   ┌───────────────────────────────────────────────────┐
   │ Phase 1: TRUST COMPILE INSTALL (fast bootstrap)          │
   │  → Thầy cô/sách giới thiệu concept              │
-  │  → Trust gate: "thầy cô nói → compile"           │
+  │  → Trust amplifier: "thầy cô nói → compile"       │
   │  → Chunk mỏng nhưng NHANH có                     │
   │  → Đủ để bắt đầu practice                        │
   └───────────────┬───────────────────────────────────┘
@@ -1131,7 +1131,7 @@ language: Tiếng Việt primary + English technical terms
     (each data point established, mismatch framing = novel)
   ⚠ Trẻ con vs người lớn TikTok: "chunks treo lơ lửng" concept
     (consistent with video transfer deficit, framework terminology)
-  ⚠ Screen Trust Compile < classroom Trust Compile (trust gate + contingency difference)
+  ⚠ Screen Trust Compile < classroom Trust Compile (trust amplifier + contingency difference)
     (components established, hierarchy = framework contribution)
   ⚠ Compiled Quality Dimension × compile type (genuine/schema/threat lock)
     (PFC-Operations §5 established, application to education context = novel)
@@ -1164,8 +1164,8 @@ BỘ 3 EDUCATION:
   Connection-Education.md v1.0        — WHO: social interaction education (§4.5 Social domain)
 
 COMPILE MECHANISM:
-  Compile-Taxonomy.md v2.0            — 3 Compile Types, 4 pathways, 6 trade-offs
-  Chunk.md v2.1                       — 4 compile mechanisms, trust gate
+  Compile-Taxonomy.md v3.0            — 1 Engine + 3 Modulators, 4 pathways, 6 trade-offs
+  Chunk.md v2.3                       — 4 compile mechanisms, trust amplifier
   Collective-Body.md v2.1             — trust = only bridge, Model 3 cấp
   PFC-Operations.md v1.1              — §5 Compiled Quality Dimension (genuine/schema/threat)
 

@@ -42,7 +42,7 @@ dependencies:
   Core-Mechanism:
     - Gap-Direction.md v2.0 — §3 "Chưa biết = không có gap" (FOUNDATIONAL)
     - Body-Feedback-Mechanism.md v2.0 — §3 Chunk-Gap, §1 body-need aggregate
-    - Compile-Taxonomy.md v2.0 — 3 Compile Types, §2.1 direct, §2.2 compiled expertise, §2.3 trust install
+    - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, §4.1 Experience, §4.3 Expertise, §4.2 Trust
     - Background-Pattern.md v2.0 — §0③ "expert biết mà không nói được", 2D model, Triple Bias
     - Body-Feedback-Label.md v2.0 — vocabulary reference
   Agent-Mechanism:
@@ -1703,7 +1703,7 @@ CROSS-REFERENCES:
   FOUNDATION:
     → Gap-Direction.md v2.0 §3 — "Chưa biết = không có gap" (FOUNDATIONAL PRINCIPLE)
     → Body-Feedback-Mechanism.md v2.0 §3 — Chunk-Gap → body signal
-    → Compile-Taxonomy.md v2.0 §2 — 3 Compile Types compile types
+    → Compile-Taxonomy.md v3.0 §4 — 3 Compile Types (modulator configurations)
     → Body-Feedback-Label.md v2.0 — vocabulary reference
 
   MECHANISM:

@@ -1470,7 +1470,7 @@ WHAT THIS FILE DOES NOT DO:
   → Observation/Connection.md §1.3 — 4 Cases mapped to chunk dynamics
      (Đủ=Chunk-Miss, Mất=Chunk-Miss++, Thiếu=Chunk-Gap, Toxic=Chunk-Shift)
   → PFC/Imagination/Imagination.md — preview = Pattern-Driven source
-  → PFC/PFC-Operations.md v1.2 §9.3 — 2-Mode Engagement: body-feedback operates
+  → PFC/PFC-Operations.md v1.3 §9.3 — 2-Mode Engagement: body-feedback operates
      PARALLEL (dominant in Mode 1/Flow), PFC adds cognitive channel in Mode 2
 
 📚 KEY RESEARCH (30+ citations):

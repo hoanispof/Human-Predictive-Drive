@@ -27,7 +27,7 @@ dependencies:
   PFC-Operations:
     - PFC-Operations.md v1.0 — §2 Hold/Suppress, §3 4 tổ hợp, §4 3 outcomes, §5 Compiled Quality (genuine/schema/threat), §6 B vs C 7 factors, §8 Compiled Suppress, §9 PFC Budget
   Compile:
-    - Compile-Taxonomy.md v2.0 — §2 3 Compile Types, §5 PFC=Director Body=Compiler
+    - Compile-Taxonomy.md v3.0 — §4 3 Compile Types, §1.4 PFC Modulation
     - Background-Pattern.md v2.0 — §3 Formation, §5 PFC invisible (7 reasons), §6 Triple Bias, §6.3 Self-fulfilling prophecy
   Imagine-Final:
     - Imagine-Final.md v3.0 — §3 PFC=Extension NOT source, §4 PFC×Imagine-Final, §6 Gradient+Bootstrap, §9 Reflection vs Rumination

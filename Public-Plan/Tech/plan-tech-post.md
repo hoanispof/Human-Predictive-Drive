@@ -311,7 +311,7 @@ Q14: Why does practice + learning work better than learning alone?
     is durable and context-appropriate. Learning alone = PFC processes
     but body-base doesn't install the pattern. Same content, different
     compilation quality.
-  SOURCE: Compile-Taxonomy.md v2.0
+  SOURCE: Compile-Taxonomy.md v3.0
   WHY SOLID: overlaps with Q10 mechanism (Compiled/Fresh). Can be
     merged with Q10 or used as supporting example.
 
@@ -324,7 +324,7 @@ Q15: Why does cramming work for exams but not for real expertise
     nodes = sustained PFC lock = metabolic wear. Cramming keeps
     everything in PFC (working memory) instead of compiling to
     body-base (long-term, automatic).
-  SOURCE: Compile-Taxonomy.md v2.0
+  SOURCE: Compile-Taxonomy.md v3.0
   WHY SOLID: hardware constraints (PFC slot limit) are novel.
     Overlaps with Q10/Q14 — consider grouping as one "learning"
     example in the post.

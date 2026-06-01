@@ -1292,7 +1292,7 @@ THREAT:
     → §7 Strategy A (config ④) vs Strategy B (config ⑤)
 
 COMPILATION:
-  Compile-Taxonomy.md v2.0 — 3 compile types
+  Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators
     → Trauma compilation = config ⑤ foundation (§7 age variable)
   Chunk.md v2.0 — Chunk substrate PFC operates on
     → Reconsolidation = chunk modification (⑭) mechanism

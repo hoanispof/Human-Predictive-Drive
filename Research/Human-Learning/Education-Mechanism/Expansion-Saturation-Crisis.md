@@ -42,7 +42,7 @@ dependencies:
   secondary:
     - Collective-Purpose.md — cosmic loop, humanity map domain
     - Collective-Body.md v2.1 — Model 3 Cấp, §5.2 chain break, trust = only bridge
-    - Compile-Taxonomy.md v2.0 — 3 Compile Types, education = Trust Compile install
+    - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, education = Trust Compile install
     - Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT
     - Domain.md — thực tế bên ngoài, feedback thật, attractor
     - Education-Arms-Race.md v1.2 — positional good, credential inflation
@@ -152,7 +152,7 @@ READER FLOW:
 
     Chain collective: [học → đại học → việc → lương → body-base feed]
     = NẰM Ở CẤP 2 (distributed: trường + thị trường + kinh tế)
-    Cá nhân compile SHORT: [học → tốt] (trust-gated, Trust Compile)
+    Cá nhân compile SHORT: [học → tốt] (trust-amplified, Trust Compile)
     Trust = bridge DUY NHẤT giữa Cấp 1 và Cấp 2 (Collective-Body §5.1)
 
     KHI EXPANSION BÃO HÒA:
@@ -161,7 +161,7 @@ READER FLOW:
     → PFC wake: "học làm gì?" = ĐÚNG CƠ CHẾ Collective-Body §5.2 Loại ②③
     → = COLLECTIVE chain break → individual body DETECT → PFC engage
 
-    Education = CHỦ YẾU TRUST COMPILE INSTALL (Compile-Taxonomy.md v2.0):
+    Education = CHỦ YẾU TRUST COMPILE INSTALL (Compile-Taxonomy.md v3.0):
     → Trust source (thầy, sách, institution) → body nhận → compile SHORT
     → "Học chán" = Trust Compile install THIẾU Experience Compile experience (§3.2)
     → Process-fit (§4.4) = shift: Trust Compile receive → Experience Compile direct experience
@@ -1590,7 +1590,7 @@ READER FLOW:
       → File đã mô tả mechanism đúng, v1.1 thêm formal terminology
       → "Học làm gì?" = body circuit-break khi Cấp 2 chain gãy
     v1.1: "Education = Trust Compile install" = Compile-Taxonomy mapping
-      → Trust-gated, collective hold chain dài, individual compile short
+      → Trust-amplified, collective hold chain dài, individual compile short
       → "Học chán" = Trust Compile without Experience Compile = formal label cho §3.2 mechanism
     v1.2: Gap-Distribution-Profile × credential inflation = gap landscape OVERLAP
       → Gap-Distribution-Profile v1.1 4 trục, application to societal-level profile = novel
@@ -1707,11 +1707,11 @@ SECONDARY DEPENDENCIES
 
 → Collective-Body.md v2.1 — Model 3 Cấp + chain break
   §1: Model 3 Cấp (Individual → Collective → Framework)
-  §5.1: Trust = only bridge (education chain = trust-gated)
+  §5.1: Trust = only bridge (education chain = trust-amplified)
   §5.2: Chain break 3 loại (cost/link/compound) — "học làm gì?" = Loại ②③
   Kết nối: §0 (framing), §6.2 (collective chain break formal)
 
-→ Compile-Taxonomy.md v2.0 — 3 Compile Types mapping
+→ Compile-Taxonomy.md v3.0 — 3 Compile Types mapping
   §2: 3 Loại (education = chủ yếu Trust Compile install)
   §3: 4 pathways (education: pathway ②③ dominant)
   Kết nối: §0 (framing), §3.2 (Trust Compile without Experience Compile = "học chán")

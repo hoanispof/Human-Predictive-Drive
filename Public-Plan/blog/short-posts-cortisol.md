@@ -40,7 +40,7 @@ The model proposes the inverted-U (Yerkes-Dodson, 1908) is emergent from repair 
 Falsifiable: if cortisol injection reliably produces subjective stress in healthy subjects, the amplifier model fails.
 
 Full analysis with 28 citations, test cases, and explicit limitations:
-[Blog link]
+https://hoanispof.github.io/Human-Predictive-Drive/blog/cortisol-is-not-stress/
 
 Full framework (200+ files, CC0 licensed):
 https://github.com/hoanispof/Human-Predictive-Drive
@@ -69,7 +69,7 @@ The strongest evidence: chronic stress makes your PFC (thinking brain) *shrink* 
 
 I've written a detailed analysis proposing that *source direction* and *repair balance* (mainly: sleep quality) determine whether cortisol helps or harms — with test cases, clinical evidence, and "here's how to prove this wrong" criteria:
 
-[Blog link]
+https://hoanispof.github.io/Human-Predictive-Drive/blog/cortisol-is-not-stress/
 
 The full framework is open-source (CC0): https://github.com/hoanispof/Human-Predictive-Drive
 
@@ -97,7 +97,7 @@ The model makes specific predictions:
 The model is structured for falsification: five explicit conditions under which the framework is wrong, plus five acknowledged limitations.
 
 Full analysis (28 citations, honest limitations, clinical dissociations):
-[Blog link]
+https://hoanispof.github.io/Human-Predictive-Drive/blog/cortisol-is-not-stress/
 
 Framework (200+ files, CC0):
 https://github.com/hoanispof/Human-Predictive-Drive
@@ -138,9 +138,7 @@ PRE-POST CHECKLIST:
 
 ---
 
-## [Blog link] Placeholder
+## Blog Link
 
-Replace `[Blog link]` with the actual GitHub Pages URL once deployed:
-`https://hoanispof.github.io/Human-Predictive-Drive/blog/cortisol-is-not-stress`
-
-Or if using a different hosting: update all 3 short posts.
+All short posts link to:
+`https://hoanispof.github.io/Human-Predictive-Drive/blog/cortisol-is-not-stress/`

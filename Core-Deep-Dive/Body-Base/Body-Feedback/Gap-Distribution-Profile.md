@@ -1287,7 +1287,7 @@ SCOPE OUT:
     KÊNH 1 — TRUST COMPILE (Collective-Body §2):
       Bố mẹ: "phải có nhà trước 30" → trust → compile → gap
       Thầy cô: "phải học giỏi" → trust → compile → gap
-      = DIRECT install qua trust gate
+      = DIRECT install qua trust amplifier
 
     KÊNH 2 — SOCIAL DEFAULT (Cialdini 1984):
       Mọi người mua iPhone → "đương nhiên cần" → gap tự sinh

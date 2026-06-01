@@ -33,7 +33,7 @@ sources: |
   Valence-Propagation.md v1.4 §4 — clarification: Valence-Propagation chains = explanatory (Cấp 3)
   Valence-Propagation.md v1.4 §8 — fundamental limits + 3 nguyên tắc + mở cửa ứng dụng
   Schema.md v2.0 §2 (software analogy), §6.3 ("KHÔNG THỂ phân tích chính xác")
-  Compile-Taxonomy.md v2.0 §3 — 4 compile pathways (source for ⑤ upgrade)
+  Compile-Taxonomy.md v3.0 §6 — 4 compile pathways (source for ⑤ upgrade)
   Collective-Body.md v1.1 §5.2 — chain break (source for ⑧)
   Collective-Body.md v1.1 §8.4 — AI trust entity (source for §8 guardrails)
   Collective-Body.md v1.1 §1 — Model 3 cấp (source for ⑨)
@@ -44,7 +44,7 @@ sources: |
   Agent-Mechanism.md §0 — Self-Pattern-Modeling (chuyên gia simulate client)
   Somatic-Articulation-Loop.md — body-knowledge → explicit (Focusing, AI catalyst §5)
   Modality.md v1.0 §3 — chunk depth = modality count (★1-★5)
-  Chunk.md v2.1 §2.3 — trust gate, external install mechanisms
+  Chunk.md v2.3 §2.3 — trust amplifier, external install mechanisms
   Drill E5 Q-S2-5 — AI trust insights (E5-16→E5-20)
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
@@ -494,7 +494,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     v1.1: "Valence Propagation Pattern Detection" — detect positive/negative/installed
     v2.0: UPGRADE → detect COMPILE SOURCE (WHY pattern tồn tại)
 
-    NGUYÊN LÝ (Compile-Taxonomy.md v2.0 §3):
+    NGUYÊN LÝ (Compile-Taxonomy.md v3.0 §6):
       Cùng output ("đi học toán") nhưng 4 COMPILE PATHWAYS khác nhau:
         ① Hardware Fit (Experience Compile — direct): body tự reward
         ② Trust + Moderate Fit (Trust+Experience Compile — compound): trust install + verify
@@ -558,7 +558,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → AI classify DOMINANT type, not absolute
       → Chuyên gia verify mix nào đang active
 
-    Source: Compile-Taxonomy.md v2.0 §3 (4 compile pathways, Drill §22A)
+    Source: Compile-Taxonomy.md v3.0 §6 (4 compile pathways, Drill §22A)
     🟡 Compile type detection = novel framework application
     🟢 Approach vs avoidance motivation: Elliot 2006
     🟢 Social proof: Cialdini 1984
@@ -704,7 +704,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     NGUYÊN LÝ (Collective-Body.md v1.1 §5.2):
       Collective chain: [học → đại học → việc → lương → body-base feed]
-      Individual compile: [học → tốt] (trust-gated SHORT — Trust Compile)
+      Individual compile: [học → tốt] (trust-amplified SHORT — Trust Compile)
       Chain collective GÃY → individual body circuit-break → PFC engage
       PFC thường blame MÌNH thay vì detect collective chain break.
       = "Học làm gì" KHÔNG PHẢI PFC tự suy nghĩ triết học.
@@ -1645,7 +1645,7 @@ CROSS-REFERENCES:
     → Schema.md v2.0 §6.3 — "KHÔNG THỂ phân tích chính xác"
     → Feeling.md v2.0 §2 — 7-layer fidelity gradient (Feel-Explanation = 20-70%)
     → Feeling.md v2.0 §10 — Feeling Literacy 5-stage + AI era
-    → Chunk.md v2.1 §2.3 — trust gate, 5 external install mechanisms
+    → Chunk.md v2.3 §2.3 — trust amplifier, 5 external install mechanisms
     → Chunk.md v2.1 §4 — activation dynamics, trigger surface, competitive re-linking
     → Modality.md v1.0 §3 — chunk depth = modality count (★1-★5)
 
@@ -1659,8 +1659,8 @@ CROSS-REFERENCES:
     → Body-Base.md v2.0 §3 — Model 3+1 (Vô thức / PFC / Trust / Tools)
     → Body-Base.md v2.0 §6 — 2-tầng calibration (Darwinian + Hebbian), domain feedback = final arbiter
     → Body-Base.md v2.0 §7 — circuit breaker mechanism
-    → Compile-Taxonomy.md v2.0 §3 — 4 compile pathways (source for ⑤)
-    → Compile-Taxonomy.md v2.0 §7 — Experience×Trust interactions, chain break
+    → Compile-Taxonomy.md v3.0 §6 — 4 compile pathways (source for ⑤)
+    → Compile-Taxonomy.md v3.0 §9 — Experience×Trust interactions, chain break
     → Collective-Body.md v1.1 §1 — Model 3 cấp (source for ⑨)
     → Collective-Body.md v1.1 §5.2 — chain break (source for ⑧)
     → Collective-Body.md v1.1 §8.4 — AI trust entity (source for §8)
@@ -1743,7 +1743,7 @@ STATUS:
 
   Sources:
     v1.1 base + Drill S1-S12 findings (70 insights + 22 collective Qs)
-    Compile-Taxonomy.md v2.0, Collective-Body.md v1.1, Body-Base.md v2.0
+    Compile-Taxonomy.md v3.0, Collective-Body.md v1.1, Body-Base.md v2.0
     Valence-Propagation v1.4, PFC-Function.md v1.1, Feeling.md v2.0
     Mỗi thay đổi DỰA TRÊN drill findings, KHÔNG suy đoán.
 ```

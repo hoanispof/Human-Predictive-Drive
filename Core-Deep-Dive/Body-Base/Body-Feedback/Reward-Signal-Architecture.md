@@ -32,7 +32,7 @@ dependencies:
   - Body-Feedback-Mechanism.md v2.0 — 2 sources, 3 chunk dynamics, compound, Body-Need
   - Feeling.md v2.0 — feeling = PFC observation of body-feedback
   - Feeling-Mechanism-Deep.md — §4 reward mechanism detail
-  - Compile-Taxonomy.md v2.0 — 3 compile types, 4 pathways
+  - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 4 pathways
   - PFC-Function.md v1.1 — 24 functions, PFC offline cases
   - PFC-Hardware.md v1.0 — COMT, DRD4, MAO-A, NE
   - Cortisol-Baseline.md v2.0 — amplifier, direction > level
@@ -1993,7 +1993,7 @@ FRAMEWORK FILES LIÊN QUAN:
   → PFC-Hardware.md — COMT/DRD4 × reward patterns (Axis ①)
 
   RELATED SYSTEMS:
-  → Compile-Taxonomy.md v2.0 — 4 pathways × Precondition-5 tag
+  → Compile-Taxonomy.md v3.0 — 4 pathways × Precondition-5 tag
   → Dopamine-Is-Not-Reward.md v1.0 — dopamine = alert, Evaluative Reward opioid = reward
   → Liking-Wanting.md v1.0 — bridge Berridge, wanting mechanisms
   → Cortisol-Baseline.md v2.0 — relief profile ④

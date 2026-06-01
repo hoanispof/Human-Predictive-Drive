@@ -206,7 +206,7 @@
        → Tầng 1: Darwinian (triệu năm — gen wired, không đổi)
        → Tầng 2: Hebbian (suốt đời — experience → compile) với 2 đường vào:
          - 2a Domain Contact (tự trải nghiệm trực tiếp — multi-modal, chậm, thick)
-         - 2b Trust-Injected (bố mẹ/thầy/sách/tôn giáo/AI truyền qua trust gate — nhanh, thinner)
+         - 2b Trust-Injected (bố mẹ/thầy/sách/tôn giáo/AI truyền qua trust amplifier — nhanh, thinner)
        → Culture = 2a passive (social env → compile vô thức) + 2b (accumulated transmission)
        → AI = newest 2b input source (inject chunks, body vẫn phải check)
        → FILE NÀY focus: xã hội = PRIMARY PROVIDER pathway 2b Trust-Injected
@@ -321,7 +321,7 @@
 
     → Imagine-Final pre-installed (Trust Compile trust-compile)
     → Self-Created-Threat.md: external direction CLEAR → cá nhân KHÔNG CẦN tự tìm
-    → Compile-Taxonomy.md: Trust Compile install = trust gate → body nhận → compile short
+    → Compile-Taxonomy.md: Trust Compile install = trust amplifier → body nhận → compile short
     → Meaning.md v2.1: ROLE type anchor (§3.5) = xã hội install identity+direction gói 1
 
     🟡 Cá nhân KHÔNG tự chọn — xã hội PRE-INSTALL:
@@ -1388,7 +1388,7 @@
     → = 2 CƠ CHẾ vẫn intact — INPUT SOURCE (pathway 2b) đang mất
 
     🟡 Framework lens:
-       → Cái MẤT: pathway 2b Trust-Injected (xã hội/culture truyền chunks qua trust gate)
+       → Cái MẤT: pathway 2b Trust-Injected (xã hội/culture truyền chunks qua trust amplifier)
        → Cái CÒN: Tầng 1 (Darwinian) + Tầng 2 pathway 2a (Domain Contact)
        → Body-feedback = COMPASS vẫn hoạt động
        → Nhưng compass VÔ DỤNG nếu môi trường quá noisy (micro-novelty, AI confirm)
@@ -1918,7 +1918,7 @@
      FILE NÀY: honest framing cho §3.4 + §7.
 
   → Body-Base.md v3.1 — 2-Tier + 2-Pathway calibration (§7)
-     Xã hội = PRIMARY PROVIDER pathway 2b Trust-Injected (Hebbian via trust gate).
+     Xã hội = PRIMARY PROVIDER pathway 2b Trust-Injected (Hebbian via trust amplifier).
      FILE NÀY: DEEP-DIVE vào pathway 2b — what it provides, how it's breaking.
 
   → Meaning.md v2.1 — life-level Anchor-Schema, 5 types

@@ -484,14 +484,14 @@ Chi tiết: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2, Ga
   │                                                                  │
   │   24 functions chi tiết: PFC-Function.md                         │
   ├─────────────────────────────────────────────────────────────────┤
-  │ COMPONENT 3 (BRIDGE) — TRUST: GATE + MODULATE + CONNECT         │
+  │ COMPONENT 3 (BRIDGE) — TRUST: AMPLIFY + MODULATE + CONNECT       │
   │                                                                  │
   │   Trust = per-entity meta-tag trên chunks (Valence-Propagation v4.0 §2).         │
   │   MỌI trust sources (bản thân, cha mẹ, thầy, tập thể, hệ thống)│
   │   dùng IDENTICAL mechanism — khác verification path.             │
   │                                                                  │
   │   3 FUNCTIONS:                                                   │
-  │     GATE: trust = cổng cho external install chunks               │
+  │     AMPLIFY: trust = amplifier cho external compile rate (gradient Mức 0-5) │
   │     MODULATE: trust modulate TOÀN BỘ valence profile             │
   │     CONNECT: trust = ONLY mechanism cho complexity > 4±1          │
   │                                                                  │
@@ -614,10 +614,10 @@ Chi tiết: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2, Ga
     → VD: ngôn ngữ, đạo đức, skill xã hội, world knowledge
     → = Trust Compile = collective hold chain dài, individual compile short
 
-  ⚠️ TRUST = GATE CHO TRUST COMPILE (Drill §4, §20):
+  ⚠️ TRUST = AMPLIFIER CHO TRUST COMPILE (gradient Mức 0-5):
     → Cá nhân KHÔNG tự compile chain dài (PFC 4±1 constraint)
     → Tập thể HOLD chain dài (distributed across many individuals)
-    → Cá nhân NHẬN từ tập thể qua TRUST gate
+    → Cá nhân NHẬN từ tập thể qua trust amplifier
     → Trust cao → chunks install. Trust thấp → chunks reject.
     → Entity-Access.md v1.2: trust = gradient Mức 0-5 per-entity
     → Entity-Access-Calibration.md v1.0: self-regulation mechanism
@@ -629,7 +629,7 @@ Chi tiết: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2, Ga
     → Grief Type A/B/C: mất Entity-Compiled = mất neural reality
     → Entity-Compiled = mechanism chung cho CẢ 3 Compile Types trên
 
-  Chi tiết taxonomy: Compile-Taxonomy.md (E4 — chưa viết)
+  Chi tiết taxonomy: Compile-Taxonomy.md v3.0
 ```
 
 ### §4.3 — Compiled vs Fresh = Real Axis
@@ -909,23 +909,23 @@ Chi tiết: Inter-Body-Mechanism.md §9
 
     2 ĐƯỜNG VÀO cho cùng 1 cơ chế Hebbian:
 
-    ┌──────────────────────┬──────────────────────────┐
-    │ 2a DOMAIN CONTACT    │ 2b TRUST-INJECTED        │
-    ├──────────────────────┼──────────────────────────┤
-    │ Body tiếp xúc domain │ Entity khác truyền chunks│
-    │ trực tiếp            │ qua trust gate           │
-    │                      │                          │
-    │ Active: chạm lửa,   │ Bố mẹ dạy, thầy dạy,   │
-    │   lái xe, therapist  │   sách, tôn giáo, AI    │
-    │ Passive: giọng vùng, │                          │
-    │   norms, gu thẩm mỹ │                          │
-    │                      │                          │
-    │ Multi-modal (5 kênh) │ Thường 1-2 kênh (verbal)│
-    │ Domain verify MỖI lần│ Verify: CHƯA (on trust) │
-    │ KHÔNG cần trust gate │ CẦN trust gate           │
-    │ Compile: THICK       │ Compile: THINNER         │
-    │ Speed: CHẬM          │ Speed: NHANH             │
-    └──────────────────────┴──────────────────────────┘
+    ┌───────────────────────────┬───────────────────────────┐
+    │ 2a DOMAIN CONTACT         │ 2b TRUST-INJECTED         │
+    ├───────────────────────────┼───────────────────────────┤
+    │ Body tiếp xúc domain      │ Entity khác truyền chunks │
+    │ trực tiếp                 │ qua trust amplifier       │
+    │                           │                           │
+    │ Active: chạm lửa,        │ Bố mẹ dạy, thầy dạy,    │
+    │   lái xe, therapist       │   sách, tôn giáo, AI     │
+    │ Passive: giọng vùng,     │                           │
+    │   norms, gu thẩm mỹ      │                           │
+    │                           │                           │
+    │ Multi-modal (5 kênh)      │ Thường 1-2 kênh (verbal) │
+    │ Domain verify MỖI lần     │ Verify: CHƯA (on trust)  │
+    │ KHÔNG cần trust amplifier │ CẦN trust amplifier       │
+    │ Compile: THICK            │ Compile: THINNER          │
+    │ Speed: CHẬM               │ Speed: NHANH              │
+    └───────────────────────────┴───────────────────────────┘
 
     → 2b inject SEED → 2a verify + DEEPEN = tối ưu (education design)
     → Recursive: existing chunks filter + amplify domain contact

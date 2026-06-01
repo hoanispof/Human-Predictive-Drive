@@ -23,13 +23,13 @@ position: Research/Chemical Hijack/ — OVERVIEW file, đọc trước substance
 dependencies:
   - Core-Software.md v1.0 — cycle architecture, 7-step
   - Core-Hardware.md v1.0 — 4 zones A/B/C/D, PFC reach gradient
-  - Chunk.md v2.1 — chunk substrate, compile, trust gate
+  - Chunk.md v2.3 — chunk substrate, compile, trust amplifier
   - 03-Reward.md v1.1 — Body-Feedback-Precondition 5 preconditions, 7-step VTA, opioid = reward thật
   - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, E₀→E₃, Evaluative Gates Direct-State, 5 Profiles
   - Reward-Calibration.md v1.1 — Goldilocks per-gap, over-reward, premature compilation
   - Body-Feedback-Mechanism.md v1.2 — Sensory-Driven / Pattern-Driven, Chunk-Shift/Miss/Gap
   - Body-Coupling.md v1.1 — |❸| Depth × Direction, 3 Phase, Extension/Entanglement
-  - Compile-Taxonomy.md v2.0 — 3 Compile Types, 4 pathways
+  - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 4 pathways
   - PFC-Configuration.md v1.0 — 6 dynamic modes
   - Cortisol-Baseline.md v2.0 — amplifier, 5 Roles, novelty vs threat
   - Dopamine-Is-Not-Reward.md v1.1 — dopamine ≠ reward, 7-step mechanism
@@ -1132,7 +1132,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → PFC-Hardware.md v1.1 — COMT, DRD4, individual variation
 
   COMPILE + RECOVERY:
-    → Compile-Taxonomy.md v2.0 — 3 Compile Types, 4 pathways
+    → Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 4 pathways
     → Background-Pattern.md v1.1 — invisible bias, sleep = accelerator
     → Connection.md v3.2 — social coupling, Valence-Momentary/Valence-Structural reward
 

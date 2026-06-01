@@ -31,7 +31,7 @@ dependencies:
   - Cortisol-Baseline.md v2.1 — cortisol direction tag, PFC damage pathway
   - Body-Feedback-Label.md v2.1 — vocabulary reference (§8 Compiled/Fresh, §9C 3-cost)
   - Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance × PFC effectiveness
-  - Compile-Taxonomy.md v2.0 — 3 Compile Types, pathways
+  - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, pathways
   - Body-Coupling.md v2.0 — relationship suppress dynamics
 sources:
   - Drill-Compiled-Fresh-Mechanics v2.0 (1,265L, 20 insights, 36 citations)

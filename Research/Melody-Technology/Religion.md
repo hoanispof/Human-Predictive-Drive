@@ -49,7 +49,7 @@ dependencies:
   - Bond-Architecture.md v2.0 — 4 bond types, gap clone impossible, Resonance Decline decline, 3 mechanisms
   - Simulation-Engine.md v1.1 — 1 Engine 3 Components 3 Axes, prayer/meditation as applications
   - Coordination-Node.md v1.2 — Prestige/Dominance, Mẹ=first node, Hardware-Subsidy Per Scale
-  - Compile-Taxonomy.md v2.0 — 3 Compile Types, 4 compile pathways, trust-to-compile
+  - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 4 compile pathways, trust amplifier
   - Collective-Body.md v2.1 — Model 3 Cấp, trust = only bridge, chain break, AI trust
   - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, Compound
   - Chunk-Activation-Dynamics.md — 7 factors link strength, probability
@@ -202,7 +202,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ⭐ TRUST = BRIDGE DUY NHẤT (Collective-Body.md §5):
       → Cá nhân KHÔNG THỂ tự compile 7 functions (PFC 4±1 constraint)
       → Tôn giáo = Cấp 2 collective CUNG CẤP 7 functions SẴN
-      → Trust = gate cho install: trust giáo lý → body nhận → compile short
+      → Trust = amplifier cho install: trust giáo lý → body nhận → compile short
       → = Tôn giáo MẠNH vì trust CỰC CAO (unfalsifiable + childhood + community)
       → = Mất trust (mất đức tin) = bridge SỤP → §9 compound loss
 
@@ -1123,7 +1123,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Multi-sensory encoding enhances memory (Shams & Seitz 2008)
 
 
-  ⭐ v2.1 — COMPILE-TAXONOMY MAPPING (Compile-Taxonomy.md v2.0):
+  ⭐ v2.1 — COMPILE-TAXONOMY MAPPING (Compile-Taxonomy.md v3.0):
 
     5 install mechanisms trên = HOW tôn giáo install chunks.
     Compile-Taxonomy cho biết: install đó THUỘC LOẠI NÀO.
@@ -1949,7 +1949,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = "Công cụ NAVIGATE, không phải GPS chính xác"
 
     ⚠️ v2.1 — AI TRUST GUARDRAILS (Collective-Body.md §8.4):
-      → AI output = TRUST COMPILE install (trust-gated, Valence-Propagation §4 clarification)
+      → AI output = TRUST COMPILE install (trust-amplified, Valence-Propagation §4 clarification)
       → AI = trust entity LOẠI MỚI: cross-domain default, no accountability
       → AI suggest "mục đích sống" = install-compile speed gap risk
         (cá nhân chưa kịp compile → đã nhận install mới)
@@ -2092,7 +2092,7 @@ RESEARCH + APPLICATION FILES:
 → Love-Romantic.md v3.0: compound grief (parallel mất đức tin), 3 Firing Modes
 → Logic-Feeling-Balance.md: infinite regress, mỗi người tự cân bằng
 → Global-Melody.md: domain speciation mechanism
-→ Compile-Taxonomy.md v2.0: §2 (3 Compile Types), §3 (4 compile pathways), §4 (trust-to-compile)
+→ Compile-Taxonomy.md v3.0: §4 (3 Compile Types), §6 (4 compile pathways), §3 (trust amplifier)
 → Collective-Body.md v2.1: §1 (Model 3 Cấp), §5 (trust = only bridge), §5.2 (chain break), §8.4 (AI trust)
 → AI-Schema-Detection.md v2.0: §0 gateway tool framing, §5 compile type detection, §8 AI trust guardrails
 → Reward-Signal-Architecture.md v2.1: §2 Evaluative/Direct-State, §8 5 Profiles — religion cover 5/5 (§2.7)

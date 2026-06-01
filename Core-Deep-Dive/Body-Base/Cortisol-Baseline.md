@@ -311,7 +311,7 @@ CƠ CHẾ NEURON-LEVEL (chi tiết §5):
       → Body "TÁCH chi tiết hơn" qua chunks accumulation
         → Expert feel micro-cortisol biến động novice không thấy
 
-    Đường 2b — Trust-Injected (dạy/share qua trust gate):
+    Đường 2b — Trust-Injected (dạy/share qua trust amplifier):
       → Culture shape threats đáng sợ, challenges đáng theo đuổi
       → Người lớn dạy "lửa nóng" → cortisol response cho "lửa" không cần tự thử
       → Vietnamese post-war: culture-level baseline elevated (war trauma truyền qua 2b)

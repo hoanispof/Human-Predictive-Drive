@@ -773,7 +773,7 @@ Status / meaning               CD/Observation/Status.md v2.2
                                CD/Observation/Meaning.md v2.0
 
 Học / thay đổi / habits        CD/Body-Base/Chunk/Drill-Chunk/09-Learning-Cycle.md
-                               CD/Body-Base/Chunk/Compile-Taxonomy.md v2.0
+                               CD/Body-Base/Chunk/Compile-Taxonomy.md v3.0
 
 Body signals / feeling         CD/Body-Base/Feeling/Feeling-Literacy-Training-Draft.md
                                CD/PFC/Imagination/Somatic-Articulation-Loop.md

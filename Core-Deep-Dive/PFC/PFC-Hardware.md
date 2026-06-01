@@ -972,7 +972,7 @@ REWARD (v1.1 NEW):
   Liking-Wanting.md — wanting × liking mechanisms
 
 COMPILATION (v1.1 NEW):
-  Compile-Taxonomy.md v2.0 §3 — 4 pathways → 4 Precondition-5 tag types
+  Compile-Taxonomy.md v3.0 §6 — 4 pathways → 4 Precondition-5 tag types
     → §3.5 COMT×Childhood maps to 4-Pathway × Precondition-5 Tag Model
 
 BODY SYSTEMS:

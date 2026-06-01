@@ -236,6 +236,7 @@ CHI TIẾT TỪNG LEVEL:
      → Hippocampus REPLAY → strengthen hoặc prune
      → 🟢 Sleep consolidation (Walker 2017)
      → "Sáng mai rõ hơn" = vô thức ĐÃ xử lý trong đêm
+     → Chi tiết 6 mechanisms: Compile-Sleep.md v1.0
 ```
 
 ### §2.2 — 5-parameter compile rate formula
@@ -285,11 +286,14 @@ CHI TIẾT TỪNG LEVEL:
   → Chi tiết: F3 00-External-Mechanism.md, F3 01-External-Synthesis.md
 
 
-⭐ TRUST = GATE CHO EXTERNAL INSTALL (Drill §4, §20 — GAP 6):
+⭐ TRUST = AMPLIFIER CHO EXTERNAL COMPILE RATE (gradient Mức 0-5):
 
-  External install (5 mechanisms trên) CHỈ compile khi có TRUST.
+  Trust = AMPLIFIER (gradient), KHÔNG phải gate (binary).
+  CONTENT compile qua exposure ALONE — KHÔNG cần trust (trẻ bị ép vẫn compile kiến thức).
+  Trust amplify VALUE compile rate từ external source (Compile-Taxonomy.md v3.0 §3).
+  "Gate" = limit case khi multiplier → 0 (trông GIỐNG gate = cực trị của amplifier).
   Compile ≠ "PFC hiểu rồi nạp vào não."
-  Compile = "Body nhận experience từ trusted source → vô thức tự wire."
+  Compile = "Body nhận experience → vô thức tự wire." Trust amplify, not gate.
 
   5 TRUST SOURCES = 5 DẠNG COMPILE:
     ① Mẹ: repetition CỰC CAO + multi-modal + sleep = SÂU NHẤT
@@ -324,11 +328,12 @@ CHI TIẾT TỪNG LEVEL:
     3 kịch bản: gradual erosion, violent flip, body defense (exhaustion).
     "Lâu lâu nhớ hồi đó tốt" = old trust fire yếu, KHÔNG drive behavior.
 
-  → Chi tiết trust mechanism: Valence-Propagation §2, Drill §4, §20
+  → Chi tiết trust reframe: Compile-Taxonomy.md v3.0 §3 (amplifier model)
+  → Chi tiết trust mechanism: Valence-Propagation §2
   → Chi tiết trust break: Chunk §4.3 (competitive re-linking)
   → Chi tiết collective trust: Collective-Body.md §5
 
-  🟡 Trust gate formalization — Drill §4+§20, consistent với Valence-Propagation §2 + Chunk §2.1
+  🟡 Trust amplifier formalization — Compile-Taxonomy.md v3.0 §3, consistent với Valence-Propagation §2 + Chunk §2.1
 ```
 
 ### §2.4 — Body-state at compile (direction matters)

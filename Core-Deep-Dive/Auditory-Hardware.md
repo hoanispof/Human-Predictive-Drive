@@ -711,7 +711,7 @@ PARAMETER FILES (§2 cross-ref targets)
 → Connection.md v5.0 — connection mechanisms (§2.7)
 → Boredom.md v2.0 — prediction-delta = 0 (§2.8)
 → Chunk.md v2.3 — chunk substrate (§2.3)
-→ PFC-Operations.md v1.2 — §9.3 2-Mode Engagement (Compiled/Fresh × music)
+→ PFC-Operations.md v1.3 — §9.3 2-Mode Engagement (Compiled/Fresh × music)
 
 
 ═══════════════════════════════════════════════════════

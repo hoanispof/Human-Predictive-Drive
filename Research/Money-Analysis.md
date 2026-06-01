@@ -53,7 +53,7 @@ dependencies:
     - Gap-Direction.md v1.0 — "chưa biết = không có gap", gap has direction
     - Reward-Signal-Architecture.md v1.0 — Evaluative/Direct-State, E₀→E₃, Evaluative Gates Direct-State
     - Background-Pattern.md v1.0 — invisible bias, Depth×Density
-    - Compile-Taxonomy.md v2.0 — 3 Compile Types, 4 pathways
+    - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 4 pathways
     - Cortisol-Baseline.md v2.0 — amplifier, 5 Roles
     - PFC-Hardware.md v1.1 — COMT × Reward, DRD4 × threshold
   companion:

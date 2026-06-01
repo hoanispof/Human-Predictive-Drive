@@ -1,14 +1,14 @@
 ---
-title: Compile-Sleep — Offline Maintenance System (Component S)
+title: Compile-Sleep — Sleep Maintenance (Offline System)
 version: 1.0
 created: 2026-06-01
 status: v1.0
 scope: |
-  Sleep = Component S trong Compile Architecture.
+  Sleep = Sleep Maintenance trong Compile Architecture.
   6 mechanisms: ~1.5 exposure-based, ~4.5 optimization-based.
   Sleep ≠ "chỉ là exposure source." Sleep = OFFLINE MAINTENANCE SYSTEM.
   Phân loại từng mechanism: IS exposure / NOT exposure / PARTIAL.
-  Sleep × Architecture interaction (Engine A, Mod B, Sources C, Mod D).
+  Sleep × Architecture interaction (Compile Engine, Entity-Valence Bias, Exposure Channels, PFC Modulation).
   Sleep deprivation = architecture degradation (PFC degrades FIRST).
   Waking rest = complement (~30%), NOT replacement.
   ~40 research citations, 6+1 mechanisms.
@@ -19,17 +19,17 @@ purpose: |
   File này THÊM: exposure vs optimization classification + vị trí trong Compile Architecture.
 parent: Chunk.md v2.3 (§2.1 ④ sleep consolidation = summary → file này = chi tiết)
 related: |
-  Compile-Taxonomy.md v2.0 — 3 Compile Types (Component S = offline maintenance)
+  Compile-Taxonomy.md v3.0 — 3 Compile Types (Sleep Maintenance = offline maintenance)
   Learning-Cycle.md §4 — 6+1 sleep mechanisms (primary research source)
-  PFC-Operations.md v1.2 §8.3 — PFC budget recharges via sleep
+  PFC-Operations.md v1.3 §8.3 — PFC budget recharges via sleep
   Cortisol-Baseline.md v2.2 — Sleep = PRIMARY cortisol recovery
-  Background-Pattern.md v2.0 §3 — S6 gist extraction → Background-Pattern formation
-  Body-Base.md v3.3 §2 — Compilable Architecture (+ Component S)
+  Background-Pattern.md v2.0 §3 — Gist Extraction → Background-Pattern formation
+  Body-Base.md v3.3 §2 — Compilable Architecture (+ Sleep Maintenance)
   Reward-Signal-Architecture.md v2.1 — Evaluative vs Direct-State vulnerability
 dependencies:
   - Chunk.md v2.3 — §2.1 ④ sleep, §2.2 compile_rate formula
-  - Compile-Taxonomy.md v2.0 — 3 Compile Types + architecture context
-  - PFC-Operations.md v1.2 — Hold/Suppress, PFC budget
+  - Compile-Taxonomy.md v3.0 — 3 Compile Types + architecture context
+  - PFC-Operations.md v1.3 — Hold/Suppress, PFC budget
   - Entity-Valence-Dynamics.md v1.1 — Structural/Current valence
   - Body-Base.md v3.3 — Compilable Architecture
   - Cortisol-Baseline.md v2.2 — Cortisol × sleep interaction
@@ -39,19 +39,17 @@ dependencies:
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 sources: |
-  Drill-11-Compile-Sleep.md (1,231L) — primary drill source
   Learning-Cycle.md §4 (6+1 mechanisms) — secondary research source
-  Drill-10-Compile-Architecture.md — architecture context (Engine + Modulators)
 ---
 
-# Compile-Sleep — Offline Maintenance System (Component S)
+# Compile-Sleep — Sleep Maintenance (Offline System)
 
 > **Sleep KHÔNG ĐƠN THUẦN là "exposure source" thứ 4.**
 >
 > Sleep có 6 mechanisms — chỉ ~1.5 exposure-based, ~4.5 optimization.
 > Phần lớn sleep = OPTIMIZATION trên compiled chunks HIỆN CÓ.
 >
-> Engine A (Hebbian) = XÂY nhà (khi thức).
+> Compile Engine (Hebbian) = XÂY nhà (khi thức).
 > Sleep = BẢO TRÌ nhà (khi ngủ):
 >   Dọn phế liệu (SHY). Chuyển kho tạm → kho chính (Active Consolidation).
 >   Sơn lại (Emotional Decoupling). Rút gọn bản vẽ (Gist Extraction).
@@ -88,20 +86,20 @@ sources: |
   3 dòng đó = summary. File này = chi tiết:
     6 mechanisms riêng biệt (không chỉ "replay")
     Phân loại exposure vs optimization
-    Vị trí Component S trong Compile Architecture
-    Tương tác với Engine A, Modulator B, Sources C, Modulator D
+    Vị trí Sleep Maintenance trong Compile Architecture
+    Tương tác với Compile Engine, Entity-Valence Bias, Exposure Channels, PFC Modulation
     Sleep deprivation = architecture degradation model
 
 
   VỊ TRÍ TRONG COMPILE ARCHITECTURE:
 
     Compile Architecture (Compile-Taxonomy.md):
-      Engine A (Hebbian) + Modulator B (Entity-Valence) + Sources C (C1+C2+C3)
-      + Modulator D (PFC) → compile chunks khi THỨC.
+      Compile Engine (Hebbian) + Entity-Valence Bias + Exposure Channels (External+Deliberate+Spontaneous)
+      + PFC Modulation → compile chunks khi THỨC.
 
-    Component S (file này):
+    Sleep Maintenance (file này):
       Sleep = OFFLINE MAINTENANCE SYSTEM.
-      Tương tác với A, B, C, D nhưng ĐỘC LẬP — chạy khi THỨC tắt.
+      Tương tác với Compile Engine, Entity-Valence Bias, Exposure Channels, PFC Modulation nhưng ĐỘC LẬP — chạy khi THỨC tắt.
 
 
   VỊ TRÍ TRONG FILE HIERARCHY:
@@ -111,7 +109,7 @@ sources: |
       → Learning-Cycle.md §4 (research source gốc cho 6+1 mechanisms)
 
     Body-Base.md §2 (Compilable Architecture)
-      → [file này] (Component S = offline maintenance)
+      → [file này] (Sleep Maintenance = offline maintenance)
 
     Đọc Chunk.md §2 trước → đọc file này → đọc Compile-Taxonomy.md.
 
@@ -135,7 +133,7 @@ sources: |
   Sleep KHÔNG ĐƠN THUẦN là "exposure source" thứ 4.
 
   Nếu sleep = chỉ là exposure source:
-    → Sleep = thêm C3 (automatic internal exposure)
+    → Sleep = thêm Spontaneous (automatic internal exposure)
     → Giá trị duy nhất = "lặp lại patterns"
     → Mất ngủ = chỉ "ít repetition hơn"
 
@@ -151,28 +149,28 @@ sources: |
   KHÔNG phải "thêm exposure mới."
 
 
-  VỊ TRÍ TRONG ARCHITECTURE — COMPONENT S:
+  VỊ TRÍ TRONG ARCHITECTURE — SLEEP MAINTENANCE:
 
     ┌─────────────────────────────────────────┐
     │  WAKING (thức)                           │
     │                                         │
-    │  Engine A ← Sources (C1+C2+C3)          │
-    │           ← Modulator B (Entity-Valence)│
-    │           ← Modulator D (PFC)           │
+    │  Compile Engine ← Exposure (External+Deliberate+Spontaneous)         │
+    │           ← Entity-Valence Bias│
+    │           ← PFC Modulation           │
     │           → Compiled Chunks              │
     └─────────────────┬───────────────────────┘
                       │
                       ▼
     ┌─────────────────────────────────────────┐
-    │  SLEEP (ngủ) — Component S               │
+    │  SLEEP (ngủ) — Sleep Maintenance               │
     │                                         │
     │  Compiled Chunks → 6 mechanisms:         │
-    │    S1: SHY (prune)                       │
-    │    S2: Replay (re-expose)                │
-    │    S3: Active Consolidation (transfer)   │
-    │    S4: Creative Linking (new links)      │
-    │    S5: Emotional Decoupling (strip tag)  │
-    │    S6: Gist Extraction (abstract)        │
+    │    ① SHY (prune)                          │
+    │    ② Replay (re-expose)                  │
+    │    ③ Active Consolidation (transfer)     │
+    │    ④ Creative Linking (new links)        │
+    │    ⑤ Emotional Decoupling (strip tag)    │
+    │    ⑥ Gist Extraction (abstract)          │
     │  → Optimized Chunks                      │
     └─────────────────┬───────────────────────┘
                       │
@@ -181,7 +179,7 @@ sources: |
     │  NEXT WAKING                             │
     │                                         │
     │  Optimized Chunks = starting material    │
-    │  cho Engine A tiếp tục compile           │
+    │  cho Compile Engine tiếp tục compile           │
     │  PFC catecholamine RESTORED              │
     │  Cortisol effects PARTIALLY cleared      │
     └─────────────────────────────────────────┘
@@ -202,7 +200,7 @@ sources: |
     KHÔNG consistent với "chỉ ít repetition."
 
 
-  🟡 Sleep as Component S in compile architecture: framework synthesis
+  🟡 Sleep as Sleep Maintenance in compile architecture: framework synthesis
   🟢 Multi-mechanism sleep model: Diekelmann & Born 2010
   🟢 Sleep ≠ single function: established sleep neuroscience
 ```
@@ -219,14 +217,14 @@ sources: |
     EEG: slow oscillations (< 1 Hz) + spindles (~12-16 Hz) + sharp-wave ripples
     Chemistry: low acetylcholine, low norepinephrine
     Dominant NỬA ĐẦU đêm
-    Functions: S1 SHY, S2 Replay, S3 Active Consolidation, S6 Gist Extraction
+    Functions: SHY, Replay, Active Consolidation, Gist Extraction
 
   REM (Rapid Eye Movement):
     EEG: desynchronized (similar to waking)
     Chemistry: HIGH acetylcholine, LOW norepinephrine, theta rhythms
     Muscles: paralyzed (atonia)
     Dominant NỬA SAU đêm
-    Functions: S4 Creative Linking, S5 Emotional Decoupling
+    Functions: Creative Linking, Emotional Decoupling
 
 
   Cycle: ~4-6 NREM/REM cycles per đêm, mỗi cycle ~90 phút.
@@ -245,18 +243,20 @@ sources: |
     = 2 independent maintenance systems sharing sleep time.
 
 
-  ┌──────────┬────────────────────┬──────────────────────┐
-  │ Stage    │ SWS (NREM deep)    │ REM                  │
-  ├──────────┼────────────────────┼──────────────────────┤
-  │ When     │ Nửa đầu đêm       │ Nửa sau đêm          │
-  │ EEG      │ Slow oscillations  │ Desynchronized       │
-  │ NE       │ Low                │ Very low             │
-  │ ACh      │ Low                │ High                 │
-  │ Muscles  │ Relaxed            │ Paralyzed            │
-  │ Dreams   │ Rare, abstract     │ Vivid, narrative     │
-  │ Key mech │ S1, S2, S3, S6    │ S4, S5               │
-  │ Primary  │ Declarative memory │ Emotional + creative │
-  └──────────┴────────────────────┴──────────────────────┘
+  ┌────────────┬────────────────────┬──────────────────────┐
+  │ Stage      │ SWS (NREM deep)    │ REM                  │
+  ├────────────┼────────────────────┼──────────────────────┤
+  │ When       │ Nửa đầu đêm       │ Nửa sau đêm          │
+  │ EEG        │ Slow oscillations  │ Desynchronized       │
+  │ NE         │ Low                │ Very low             │
+  │ ACh        │ Low                │ High                 │
+  │ Muscles    │ Relaxed            │ Paralyzed            │
+  │ Dreams     │ Rare, abstract     │ Vivid, narrative     │
+  │ Mechanisms │ SHY, Replay,      │ Creative Linking,    │
+  │            │ Consolidation,    │ Emotional            │
+  │            │ Gist Extraction   │ Decoupling           │
+  │ Primary    │ Declarative memory │ Emotional + creative │
+  └────────────┴────────────────────┴──────────────────────┘
 
 
   🟢 Sleep architecture: Walker 2017, Diekelmann & Born 2010
@@ -274,30 +274,30 @@ sources: |
   ┌────┬─────────────────────┬─────────────┬──────────────────────────┐
   │ #  │ Mechanism           │ Exposure?   │ Primary function         │
   ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-  │ S1 │ SHY Homeostasis     │ ❌ NOT      │ Prune weak, preserve     │
+  │  1 │ SHY Homeostasis     │ ❌ NOT      │ Prune weak, preserve     │
   │    │                     │             │ strong (signal/noise)    │
   ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-  │ S2 │ Hippocampal Replay  │ ✅ YES      │ Re-fire sequences        │
+  │  2 │ Hippocampal Replay  │ ✅ YES      │ Re-fire sequences        │
   │    │                     │ (internal)  │ (internal exposure)      │
   ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-  │ S3 │ Active Consolidation│ ❌ NOT      │ Transfer hippocampus     │
+  │  3 │ Active Consolidation│ ❌ NOT      │ Transfer hippocampus     │
   │    │                     │             │ → cortex (relocate)      │
   ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-  │ S4 │ REM Creative Linking│ 🟡 PARTIAL  │ New remote associations  │
+  │  4 │ REM Creative Linking│ 🟡 PARTIAL  │ New remote associations  │
   │    │                     │ (new links) │ (cross-domain connect)   │
   ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-  │ S5 │ Emotional Decoupling│ ❌ NOT      │ Strip emotional charge   │
+  │  5 │ Emotional Decoupling│ ❌ NOT      │ Strip emotional charge   │
   │    │                     │             │ (preserve content)       │
   ├────┼─────────────────────┼─────────────┼──────────────────────────┤
-  │ S6 │ Gist Extraction     │ 🟡 PARTIAL  │ Abstract pattern from    │
+  │  6 │ Gist Extraction     │ 🟡 PARTIAL  │ Abstract pattern from    │
   │    │                     │ (abstract)  │ specific (generalize)    │
   └────┴─────────────────────┴─────────────┴──────────────────────────┘
 
-  EXPOSURE COUNT: 1 full (S2) + 2 partial (S4, S6) = ~1.5 exposure-based.
-  OPTIMIZATION: 3 full (S1, S3, S5) + 2 partial (S4, S6) = ~4.5 optimization.
+  EXPOSURE COUNT: 1 full (Replay) + 2 partial (Creative Linking, Gist) = ~1.5 exposure-based.
+  OPTIMIZATION: 3 full (SHY, Consolidation, Decoupling) + 2 partial (Creative Linking, Gist) = ~4.5 optimization.
   → MAJORITY of sleep = OPTIMIZATION, not exposure.
 
-  "~1.5 / ~4.5" = ước lượng vì S4 và S6 là PARTIAL — ranh giới
+  "~1.5 / ~4.5" = ước lượng vì Creative Linking và Gist Extraction là PARTIAL — ranh giới
   exposure/optimization không binary. Điểm cốt lõi: phần lớn sleep
   KHÔNG tạo exposure mới mà TỐI ƯU compile hiện có.
 
@@ -305,15 +305,15 @@ sources: |
   🟢 6 mechanisms individually: established (citations per section below)
 ```
 
-### §3.1 — S1: Synaptic Homeostasis Hypothesis (SHY) — NOT exposure
+### §3.1 — Synaptic Homeostasis Hypothesis (SHY) — NOT exposure
 
 ```
-🟢 S1 = GLOBAL SYNAPTIC DOWNSCALING:
+🟢 SHY = GLOBAL SYNAPTIC DOWNSCALING:
 
   Research: Tononi & Cirelli 2003, 2014 "Sleep and the price of plasticity"
 
   CƠ CHẾ:
-    Khi thức: synapses NET-POTENTIATE (Hebbian → Engine A tăng connections)
+    Khi thức: synapses NET-POTENTIATE (Hebbian → Compile Engine tăng connections)
     → Metabolically UNSUSTAINABLE — nếu chỉ tăng → brain bão hoà
     → Sleep (SWS): ALL synapses weaken PROPORTIONALLY
     → Result: total network strength → baseline, RELATIVE strengths PRESERVED
@@ -345,8 +345,8 @@ sources: |
 
   TRONG COMPILE ARCHITECTURE:
 
-    Engine A (Hebbian) khi thức → tạo NHIỀU connections (cả strong + weak)
-    S1 (SHY) khi ngủ → prune weak → giữ strong
+    Compile Engine (Hebbian) khi thức → tạo NHIỀU connections (cả strong + weak)
+    SHY khi ngủ → prune weak → giữ strong
     = Quality control SAU compile. KHÔNG tạo compile mới.
 
     Analogy: viết bài xong → đọc lại → xóa câu thừa.
@@ -359,10 +359,10 @@ sources: |
   🟡 SHY = not exposure classification: framework synthesis
 ```
 
-### §3.2 — S2: Hippocampal Replay — IS exposure (internal)
+### §3.2 — Hippocampal Replay — IS exposure (internal)
 
 ```
-🟢 S2 = PATTERN RE-FIRE COMPRESSED:
+🟢 REPLAY = PATTERN RE-FIRE COMPRESSED:
 
   Research: Wilson & McNaughton 1994 (seminal), O'Neill et al. 2010
 
@@ -382,14 +382,14 @@ sources: |
   COMPRESSED SPEED:
     10-20x = 1 đêm replay lượng learning bằng VÀI NGÀY repetition
     Different plasticity rules at compressed speed (Staresina 2015)
-    Spindle-ripple coupling coordinates replay × cortex transfer (S3)
+    Spindle-ripple coupling coordinates replay × cortex transfer (Active Consolidation)
 
 
   TẠI SAO IS EXPOSURE:
 
     Replay = neurons FIRE TOGETHER → Hebbian → STRENGTHEN
-    = ENGINE A operating on REPLAYED patterns
-    = Internal exposure (Source C3 variant during sleep)
+    = COMPILE ENGINE operating on REPLAYED patterns
+    = Internal exposure (Spontaneous variant during sleep)
 
     NHƯNG: replay ≠ NEW exposure.
     Replay = RE-expose ĐÃ HỌC. Không tạo patterns MỚI — chỉ STRENGTHEN cũ.
@@ -397,37 +397,37 @@ sources: |
 
   TRONG COMPILE ARCHITECTURE:
 
-    S2 = dạng exposure DUY NHẤT đầy đủ trong sleep system.
-    S2 feed vào Engine A (Hebbian) → strengthen existing compiled chunks.
-    = C3 sleep variant: automatic internal exposure, PFC offline.
+    Replay = dạng exposure DUY NHẤT đầy đủ trong sleep system.
+    Replay feed vào Compile Engine (Hebbian) → strengthen existing compiled chunks.
+    = Spontaneous sleep variant: automatic internal exposure, PFC offline.
 
-    Khác C3 khi thức:
+    Khác Exposure-Spontaneous khi thức:
 
     ┌──────────────────┬──────────────────────┬────────────────────┐
-    │                  │ C3 (thức)            │ S2 (ngủ)           │
+    │                  │ Spontaneous (thức)   │ Replay (ngủ)       │
     ├──────────────────┼──────────────────────┼────────────────────┤
     │ Trigger          │ Context, random      │ Hippocampus-driven │
     │ Speed            │ Normal              │ 10-20x compressed  │
     │ Organization     │ Unstructured        │ Systematic (SWRs)  │
     │ PFC influence    │ Possible (partial)   │ None (offline)     │
-    │ External input   │ Possible (C1 mix)    │ None (blocked)     │
+    │ External input   │ Possible (External)  │ None (blocked)     │
     │ Efficiency       │ Low                 │ High               │
     └──────────────────┴──────────────────────┴────────────────────┘
 
-    → S2 = "industrial-grade C3" — same principle, different execution.
+    → Replay = "industrial-grade Spontaneous" — same principle, different execution.
 
 
   🟢 Wilson & McNaughton 1994
   🟢 Lee & Wilson 2002
   🟢 O'Neill et al. 2010
   🟢 Staresina et al. 2015 (spindle-ripple coupling)
-  🟡 S2 = C3 sleep variant: framework synthesis
+  🟡 Replay = Spontaneous sleep variant: framework synthesis
 ```
 
-### §3.3 — S3: Active Systems Consolidation — NOT exposure
+### §3.3 — Active Systems Consolidation — NOT exposure
 
 ```
-🟢 S3 = HIPPOCAMPUS → CORTEX TRANSFER:
+🟢 ACTIVE CONSOLIDATION = HIPPOCAMPUS → CORTEX TRANSFER:
 
   Research: Born & Wilhelm 2012, Diekelmann & Born 2010
 
@@ -438,11 +438,11 @@ sources: |
     → Cortex build OWN representation, independent of hippocampus
     → Weeks to months cho full transfer (complex memories)
 
-  DISTINCT FROM REPLAY (S2):
-    S2 (Replay) = firing event (neurons fire)
-    S3 (Consolidation) = long-term TRANSFER that replay enables
-    S2 = necessary SUBSTRATE. S3 = the RESULT.
-    → S2 WITHIN S3, nhưng S3 ≠ S2.
+  DISTINCT FROM REPLAY:
+    Replay = firing event (neurons fire)
+    Active Consolidation = long-term TRANSFER that replay enables
+    Replay = necessary SUBSTRATE. Consolidation = the RESULT.
+    → Replay WITHIN Consolidation, nhưng Consolidation ≠ Replay.
 
   EVIDENCE:
     Squire 1992: hippocampal damage → anterograde amnesia (mới)
@@ -453,7 +453,7 @@ sources: |
 
   TẠI SAO NOT EXPOSURE:
 
-    S3 = RELOCATE, không phải STRENGTHEN.
+    Active Consolidation = RELOCATE, không phải STRENGTHEN.
     Pattern di chuyển từ hippocampus → cortex.
     = Architectural reorganization, not re-activation for Hebbian.
 
@@ -463,31 +463,31 @@ sources: |
 
   TRONG COMPILE ARCHITECTURE:
 
-    S3 tương tác với Engine A INDIRECTLY:
-    → S2 (replay) → Hebbian strengthen (Engine A)
-    → S3 USES replay output để transfer location
-    → After S3: chunk accessible WITHOUT hippocampus
+    Active Consolidation tương tác với Compile Engine INDIRECTLY:
+    → Replay → Hebbian strengthen (Compile Engine)
+    → Consolidation USES replay output để transfer location
+    → After Consolidation: chunk accessible WITHOUT hippocampus
     → = "Permanent installation" — từ RAM (hippocampus) sang ROM (cortex)
 
     IMPLICATION:
       Khi thức: mới học = hippocampus-dependent = FRAGILE
-      Sau sleep S3: cortex-dependent = STABLE
-      → "Sáng mai nhớ rõ hơn" = S3 đã transfer thành công
+      Sau sleep Consolidation: cortex-dependent = STABLE
+      → "Sáng mai nhớ rõ hơn" = Consolidation đã transfer thành công
       → "Simple things take one night, complex things take weeks"
-        = complex → nhiều S3 cycles để full transfer
+        = complex → nhiều Consolidation cycles để full transfer
 
 
   🟢 Born & Wilhelm 2012
   🟢 Squire 1992 (hippocampal amnesia)
   🟢 Takashima 2006 (fMRI evidence)
   🟢 Rasch & Born 2013 (review)
-  🟡 S3 = not exposure (relocation): framework synthesis
+  🟡 Active Consolidation = not exposure (relocation): framework synthesis
 ```
 
-### §3.4 — S4: REM Creative Linking — PARTIAL exposure
+### §3.4 — REM Creative Linking — PARTIAL exposure
 
 ```
-🟢 S4 = REMOTE ASSOCIATIONS MỚI:
+🟢 CREATIVE LINKING = REMOTE ASSOCIATIONS MỚI:
 
   Research: Cai et al. 2009, Wagner et al. 2004
 
@@ -512,7 +512,7 @@ sources: |
   TẠI SAO PARTIAL EXPOSURE:
 
     CÓ exposure element: concepts FIRE TOGETHER → Hebbian → new link
-    = TECHNICALLY Engine A operating on novel combinations
+    = TECHNICALLY Compile Engine operating on novel combinations
 
     NHƯNG mechanism KHÁC typical exposure:
     ① Random activation (not intentional exposure)
@@ -521,30 +521,30 @@ sources: |
     ④ No external input, no PFC direction
     → = "Exploration" hơn là "exposure"
 
-    = PARTIALLY exposure: Engine A involved, nhưng MECHANISM khác.
+    = PARTIALLY exposure: Compile Engine involved, nhưng MECHANISM khác.
 
 
   TRONG COMPILE ARCHITECTURE:
 
-    S4 = dạng compile DUY NHẤT trong sleep tạo connections MỚI.
-    (S2 chỉ strengthen connections CŨ.)
+    Creative Linking = dạng compile DUY NHẤT trong sleep tạo connections MỚI.
+    (Replay chỉ strengthen connections CŨ.)
 
-    S4 tương tác với Source C3:
-    → S4 trong REM tạo new links
-    → Sáng hôm sau: new links CÓ THỂ fire tự động (C3)
-    → "Eureka khi thức dậy" = S4 output fire lần đầu khi conscious
+    Creative Linking tương tác với Exposure-Spontaneous:
+    → Creative Linking trong REM tạo new links
+    → Sáng hôm sau: new links CÓ THỂ fire tự động (Spontaneous)
+    → "Eureka khi thức dậy" = Creative Linking output fire lần đầu khi conscious
 
 
   🟢 Cai et al. 2009
   🟢 Wagner et al. 2004
   🟢 Stickgold 1999
-  🟡 S4 = partial exposure (novel mechanism): framework synthesis
+  🟡 Creative Linking = partial exposure (novel mechanism): framework synthesis
 ```
 
-### §3.5 — S5: Emotional Decoupling — NOT exposure
+### §3.5 — Emotional Decoupling — NOT exposure
 
 ```
-🟢 S5 = BÓC EMOTIONAL TAG, GIỮ CONTENT:
+🟢 EMOTIONAL DECOUPLING = BÓC EMOTIONAL TAG, GIỮ CONTENT:
 
   Research: Walker 2017, van der Helm et al. 2011
 
@@ -565,8 +565,8 @@ sources: |
 
   TẠI SAO NOT EXPOSURE:
 
-    S5 KHÔNG fire pattern for Hebbian strengthening.
-    S5 MODIFY existing compiled chunk:
+    Decoupling KHÔNG fire pattern for Hebbian strengthening.
+    Decoupling MODIFY existing compiled chunk:
       Strip emotional tag ← chunk remains
       = EDITING, not CREATING.
 
@@ -577,26 +577,26 @@ sources: |
 
   TRONG COMPILE ARCHITECTURE:
 
-    S5 tương tác với MODULATOR B (Entity-Valence):
+    Emotional Decoupling tương tác với Entity-Valence:
     → Emotional tag = part of valence profile
-    → S5 reduce emotional intensity → Entity-Valence UPDATE
+    → Decoupling reduce emotional intensity → Entity-Valence UPDATE
     → Sáng hôm sau: event vẫn có valence, nhưng INTENSITY giảm
 
     FAILURE MODE:
       Chronic REM disruption (insomnia, alcohol, PTSD):
-      → S5 fails → emotional tags ACCUMULATE
+      → Decoupling fails → emotional tags ACCUMULATE
       → Every day adds emotional charge WITHOUT decoupling
       → = Burnout, emotional exhaustion, PTSD escalation
       → Cortisol-Baseline.md v2.2: "phá nhanh, xây chậm"
 
     CONNECTION TO TRAUMA THERAPY:
-      EMDR: hypothesized to partially simulate S5 mechanism while awake
+      EMDR: hypothesized to partially simulate Decoupling mechanism while awake
       → Bilateral stimulation may mimic REM-related processing
       → 🟡 Mechanism debated but clinical efficacy established (Stickgold 2002)
 
       Exposure therapy (Foa & Kozak 1986):
-      → Different mechanism: create NEW exposure (Modulator D → Modulator B indirect)
-      → S5 = STRIP old emotional tag (sleep-specific, no new exposure)
+      → Different mechanism: create NEW exposure (PFC Modulation → Entity-Valence Bias indirect)
+      → Decoupling = STRIP old emotional tag (sleep-specific, no new exposure)
       → Both reduce emotional reactivity, but via DIFFERENT paths
 
 
@@ -604,19 +604,19 @@ sources: |
   🟢 van der Helm et al. 2011
   🟢 Walker 2005 (sleep deprivation → amygdala)
   🟢 Germain 2013 (PTSD × REM)
-  🟡 S5 × Modulator B interaction: framework synthesis
-  🟡 EMDR × S5 analogy: hypothesized (Stickgold 2002)
+  🟡 Emotional Decoupling × Entity-Valence Bias interaction: framework synthesis
+  🟡 EMDR × Emotional Decoupling analogy: hypothesized (Stickgold 2002)
 ```
 
-### §3.6 — S6: Gist Extraction — PARTIAL exposure
+### §3.6 — Gist Extraction — PARTIAL exposure
 
 ```
-🟢 S6 = TRỪU TƯỢNG HOÁ, BỎ CHI TIẾT:
+🟢 GIST EXTRACTION = TRỪU TƯỢNG HOÁ, BỎ CHI TIẾT:
 
   Research: Payne et al. 2009, Stickgold 2013, Tamminen 2010
 
   CƠ CHẾ:
-    S2 (Replay) re-fires sequences nhiều lần
+    Replay re-fires sequences nhiều lần
     → Shared features ACROSS SIMILAR experiences = REINFORCED
     → Unique surface details of EACH experience = NOT reinforced
     → Relative contrast → GIST dominant in later recall
@@ -633,9 +633,9 @@ sources: |
   TẠI SAO PARTIAL EXPOSURE:
 
     CÓ exposure element:
-    → S6 relies on S2 (replay) as substrate
+    → Gist Extraction relies on Replay as substrate
     → Shared features fire TOGETHER across replays → Hebbian → gist
-    → = Engine A operating on ABSTRACTED patterns
+    → = Compile Engine operating on ABSTRACTED patterns
 
     NHƯNG:
     → Primary function = EXTRACT (generalize), not STRENGTHEN specific
@@ -649,36 +649,36 @@ sources: |
 
   TRONG COMPILE ARCHITECTURE:
 
-    S6 tương tác với BACKGROUND-PATTERN formation:
+    Gist Extraction tương tác với BACKGROUND-PATTERN formation:
     → Background-Pattern.md v2.0 §3: sleep gist extraction abstracts
       repeated events into single pattern
-    → S6 = PRIMARY MECHANISM tạo Background-Pattern
-    → Background-Pattern = accumulated gist over YEARS of S6 cycles
+    → Gist Extraction = PRIMARY MECHANISM tạo Background-Pattern
+    → Background-Pattern = accumulated gist over YEARS of Gist Extraction cycles
 
-    S6 → Background-Pattern → Source C3:
-    → S6 create gist → gist becomes part of Background-Pattern
-    → Background-Pattern fires continuously (C3)
-    → C3 → Engine A → reinforce gist further → snowball
+    Gist Extraction → Background-Pattern → Exposure-Spontaneous:
+    → Gist Extraction create gist → gist becomes part of Background-Pattern
+    → Background-Pattern fires continuously (Spontaneous)
+    → Spontaneous → Compile Engine → reinforce gist further → snowball
 
     = Tại sao "người lạc quan" MỌI THỨ đều thấy tốt:
       Years of positive experiences
-      → S6 extract positive gist
+      → Gist Extraction extract positive gist
       → Background-Pattern = positive-dominant
-      → C3 fire positive → bias ALL new exposure
-      → = Self-reinforcing via S6 → C3 → Engine A loop
+      → Spontaneous fire positive → bias ALL new exposure
+      → = Self-reinforcing via Gist Extraction → Spontaneous → Compile Engine loop
 
 
   🟢 Payne et al. 2009
   🟢 Stickgold 2013
   🟢 Tamminen 2010
   🟢 Lutz 2017
-  🟡 S6 → Background-Pattern formation link: framework synthesis
+  🟡 Gist Extraction → Background-Pattern formation link: framework synthesis
 ```
 
-### §3.7 — S7: Dreaming as Simulation — DEBATED (excluded from core)
+### §3.7 — Dreaming as Simulation — DEBATED (excluded from core)
 
 ```
-🟡 S7 = THREAT SIMULATION THEORY (DEBATED):
+🟡 THREAT SIMULATION THEORY (DEBATED):
 
   Research: Revonsuo 2000, Nielsen & Levin 2007
   Status: 🟡 Debated — KHÔNG đủ tin cậy để đưa vào architecture chính
@@ -689,8 +689,8 @@ sources: |
 
   FRAMEWORK POSITION:
     → Ghi nhận cho completeness nhưng KHÔNG rely on.
-    → S7 nếu đúng = thêm 1 mechanism vào Component S.
-    → S7 nếu sai = 6 mechanisms còn lại vẫn đủ.
+    → Dreaming nếu đúng = thêm 1 mechanism vào Sleep Maintenance.
+    → Dreaming nếu sai = 6 mechanisms còn lại vẫn đủ.
     → Đợi future research trước khi formalize.
 
   🟡 Revonsuo 2000
@@ -702,28 +702,28 @@ sources: |
 ```
 ⭐ TỔNG HỢP:
 
-  ┌────┬──────────────────┬───────────┬─────────────────┬──────────────────────┐
-  │ #  │ Mechanism         │ Stage     │ Exposure?       │ Architecture role    │
-  ├────┼──────────────────┼───────────┼─────────────────┼──────────────────────┤
-  │ S1 │ SHY              │ SWS       │ ❌ NOT          │ Quality control      │
-  │    │                  │           │                 │ (prune weak)         │
-  ├────┼──────────────────┼───────────┼─────────────────┼──────────────────────┤
-  │ S2 │ Replay           │ SWS       │ ✅ YES          │ Strengthen existing  │
-  │    │                  │           │ (internal,      │ (Engine A offline)   │
-  │    │                  │           │  compressed)    │                      │
-  ├────┼──────────────────┼───────────┼─────────────────┼──────────────────────┤
-  │ S3 │ Active Consol.   │ SWS       │ ❌ NOT          │ Relocate             │
-  │    │                  │           │                 │ (RAM → ROM)          │
-  ├────┼──────────────────┼───────────┼─────────────────┼──────────────────────┤
-  │ S4 │ Creative Link    │ REM       │ 🟡 PARTIAL      │ Create new links     │
-  │    │                  │           │ (novel combos)  │ (exploration)        │
-  ├────┼──────────────────┼───────────┼─────────────────┼──────────────────────┤
-  │ S5 │ Emot. Decoupling │ REM       │ ❌ NOT          │ Calibrate valence    │
-  │    │                  │           │                 │ (strip emotional tag)│
-  ├────┼──────────────────┼───────────┼─────────────────┼──────────────────────┤
-  │ S6 │ Gist Extraction  │ SWS+REM   │ 🟡 PARTIAL      │ Abstract + generalize│
-  │    │                  │           │ (new abstract)  │ (→ Background-Pattern)│
-  └────┴──────────────────┴───────────┴─────────────────┴──────────────────────┘
+  ┌────┬──────────────────────┬───────────┬─────────────────┬──────────────────────────┐
+  │ #  │ Mechanism             │ Stage     │ Exposure?       │ Architecture role        │
+  ├────┼──────────────────────┼───────────┼─────────────────┼──────────────────────────┤
+  │  1 │ SHY Homeostasis       │ SWS       │ ❌ NOT          │ Quality control          │
+  │    │                       │           │                 │ (prune weak)             │
+  ├────┼──────────────────────┼───────────┼─────────────────┼──────────────────────────┤
+  │  2 │ Hippocampal Replay    │ SWS       │ ✅ YES          │ Strengthen existing      │
+  │    │                       │           │ (internal,      │ (Compile Engine offline)  │
+  │    │                       │           │  compressed)    │                          │
+  ├────┼──────────────────────┼───────────┼─────────────────┼──────────────────────────┤
+  │  3 │ Active Consolidation  │ SWS       │ ❌ NOT          │ Relocate                 │
+  │    │                       │           │                 │ (RAM → ROM)              │
+  ├────┼──────────────────────┼───────────┼─────────────────┼──────────────────────────┤
+  │  4 │ Creative Linking      │ REM       │ 🟡 PARTIAL      │ Create new links         │
+  │    │                       │           │ (novel combos)  │ (exploration)            │
+  ├────┼──────────────────────┼───────────┼─────────────────┼──────────────────────────┤
+  │  5 │ Emotional Decoupling  │ REM       │ ❌ NOT          │ Calibrate valence        │
+  │    │                       │           │                 │ (strip emotional tag)    │
+  ├────┼──────────────────────┼───────────┼─────────────────┼──────────────────────────┤
+  │  6 │ Gist Extraction       │ SWS+REM   │ 🟡 PARTIAL      │ Abstract + generalize    │
+  │    │                       │           │ (new abstract)  │ (→ Background-Pattern)   │
+  └────┴──────────────────────┴───────────┴─────────────────┴──────────────────────────┘
 
   ~1.5 exposure-based. ~4.5 optimization-based.
   → MAJORITY of sleep = optimization of EXISTING compile.
@@ -749,119 +749,119 @@ sources: |
 ```
 ⭐ SLEEP TƯƠNG TÁC VỚI TỪNG COMPONENT CỦA COMPILE ARCHITECTURE:
 
-  Component S (sleep) KHÔNG hoạt động ĐỘC LẬP.
+  Sleep Maintenance (sleep) KHÔNG hoạt động ĐỘC LẬP.
   Sleep ENHANCES, CALIBRATES, hoặc RESTORES từng component.
 ```
 
-### §4.1 — Sleep × Engine A (Hebbian)
+### §4.1 — Sleep × Compile Engine (Hebbian)
 
 ```
-🟡 SLEEP ENHANCES ENGINE A QUA 3 ĐƯỜNG:
+🟡 SLEEP ENHANCES COMPILE ENGINE QUA 3 ĐƯỜNG:
 
-  ① S2 (Replay) = Engine A hoạt động OFFLINE:
+  ① Replay = Compile Engine hoạt động OFFLINE:
      Replayed patterns → Hebbian strengthen → same mechanism as waking
      NHƯNG: COMPRESSED speed (10-20x) = efficient
      NHƯNG: NO external input = chỉ strengthen ĐÃ HỌC
      NHƯNG: SYSTEMATIC (hippocampus-driven, not random)
 
-     Net effect: Engine A gets "bonus exposure cycles" during sleep.
+     Net effect: Compile Engine gets "bonus exposure cycles" during sleep.
      = Tại sao "sáng hôm sau nhớ rõ hơn" = more Hebbian cycles occurred.
 
-  ② S1 (SHY) IMPROVES Engine A efficiency:
-     Prune weak connections → next day Engine A runs on CLEANER network
+  ② SHY IMPROVES Compile Engine efficiency:
+     Prune weak connections → next day Compile Engine runs on CLEANER network
      → Signal-to-noise ratio BETTER → compile quality HIGHER next day
      → = "Fresh start" effect — not new knowledge, but cleaner processing.
 
-  ③ S6 (Gist) creates NEW inputs for Engine A:
+  ③ Gist Extraction creates NEW inputs for Compile Engine:
      Gist = abstract pattern = new compiled chunk
-     → Tomorrow's Engine A can build ON TOP of abstracted knowledge
+     → Tomorrow's Compile Engine can build ON TOP of abstracted knowledge
      → = Expertise Compile: each night compresses → pyramidal stacking
 
 
-  🟡 Sleep enhances Engine A via 3 mechanisms: framework synthesis
+  🟡 Sleep enhances Compile Engine via 3 mechanisms: framework synthesis
   🟢 Replay = Hebbian during sleep: Wilson & McNaughton 1994
   🟢 SHY improves signal-to-noise ratio: Tononi & Cirelli 2014
 ```
 
-### §4.2 — Sleep × Modulator B (Entity-Valence)
+### §4.2 — Sleep × Entity-Valence Bias
 
 ```
-🟡 SLEEP CALIBRATES MODULATOR B:
+🟡 SLEEP CALIBRATES ENTITY-VALENCE BIAS:
 
-  S5 (Emotional Decoupling) directly affects Entity-Valence:
+  Emotional Decoupling directly affects Entity-Valence:
   → Reduce emotional INTENSITY of entity associations
   → Entity-Valence profile: content preserved, peak valence reduced
   → Sáng hôm sau: entity vẫn có valence, nhưng less REACTIVE
 
   MECHANISM:
-    Khi thức: encounter entity → emotional peak → Engine A compile
-    Khi ngủ: S5 strip emotional peak → same entity, lower intensity
+    Khi thức: encounter entity → emotional peak → Compile Engine compile
+    Khi ngủ: Decoupling strip emotional peak → same entity, lower intensity
     → Next encounter: entity triggers LESS extreme response
-    → = Modulator B CALIBRATED: not removed, but TUNED
+    → = Entity-Valence Bias CALIBRATED: not removed, but TUNED
 
   VÍ DỤ:
     Cãi nhau với bạn tối qua → emotional peak: angry + hurt
-    S5 during REM: amygdala reactivate WITHOUT noradrenaline
+    Decoupling during REM: amygdala reactivate WITHOUT noradrenaline
     → Emotional tag REDUCED
     → Sáng hôm sau: still remember argument, but feel "less angry"
     → = Entity-Valence [bạn] updated: anger REDUCED, content PRESERVED
 
-  S6 (Gist) also affects Modulator B indirectly:
+  Gist Extraction also affects Entity-Valence Bias indirectly:
   → Abstract PATTERNS from entity interactions
   → Long-term: entity structural valence built from gist of MANY interactions
   → = Entity-Compiled.md: 40→200 giờ formation time
-    = MANY S6 cycles abstracting entity gist over months
+    = MANY Gist Extraction cycles abstracting entity gist over months
 
 
-  🟡 S5 calibrates Modulator B: framework synthesis
+  🟡 Emotional Decoupling calibrates Entity-Valence Bias: framework synthesis
   🟢 Emotional decoupling: van der Helm 2011
   🟢 Amygdala reactivity reduced after sleep: Walker 2005
 ```
 
-### §4.3 — Sleep × Sources C
+### §4.3 — Sleep × Exposure Channels
 
 ```
 🟡 SLEEP = INDEPENDENT OF NORMAL SOURCE CHANNELS:
 
   Khi ngủ:
-    C1 (External) = BLOCKED (thalamic gating, sensory input suppressed)
-    C2 (PFC deliberate) = OFFLINE (PFC minimal activity, no deliberate thought)
-    C3 (Spontaneous chunk fire) = ACTIVE but in DIFFERENT mode (S2 replay)
+    Exposure-External = BLOCKED (thalamic gating, sensory input suppressed)
+    Exposure-Deliberate = OFFLINE (PFC minimal activity, no deliberate thought)
+    Exposure-Spontaneous = ACTIVE but in DIFFERENT mode (Replay)
 
-  → Sleep operates INDEPENDENT of normal C1/C2/C3 channels.
+  → Sleep operates INDEPENDENT of normal External/Deliberate/Spontaneous channels.
   → Sleep has its OWN internal activation system (hippocampus-driven replay).
-  → = Tại sao sleep = SEPARATE component S, không phải variant của C.
+  → = Tại sao sleep = SEPARATE Sleep Maintenance, không phải variant của Exposure.
 
 
-  S2 ≈ C3 VARIANT nhưng KHÁC:
-    S2 = organized, compressed, systematic, PFC offline
-    C3 thức = unstructured, normal speed, PFC possible
-    → S2 = "industrial-grade C3" — same principle, different execution.
+  Replay ≈ Spontaneous VARIANT nhưng KHÁC:
+    Replay = organized, compressed, systematic, PFC offline
+    Spontaneous thức = unstructured, normal speed, PFC possible
+    → Replay = "industrial-grade Spontaneous" — same principle, different execution.
 
-  S4 (Creative Linking) tương tác với C3 NGÀY HÔM SAU:
-    S4 tạo new links trong REM
-    → Sáng hôm sau: new links CÓ THỂ fire tự động (C3)
-    → "Eureka khi thức dậy" = S4 output fire lần đầu khi conscious
+  Creative Linking tương tác với Spontaneous NGÀY HÔM SAU:
+    Creative Linking tạo new links trong REM
+    → Sáng hôm sau: new links CÓ THỂ fire tự động (Spontaneous)
+    → "Eureka khi thức dậy" = Creative Linking output fire lần đầu khi conscious
 
 
-  🟡 Sleep independent of C1/C2/C3: framework synthesis
+  🟡 Sleep independent of External/Deliberate/Spontaneous: framework synthesis
   🟢 Thalamic gating during sleep: established polysomnography
   🟢 PFC reduced activity during SWS: established neuroimaging
 ```
 
-### §4.4 — Sleep × Modulator D (PFC)
+### §4.4 — Sleep × PFC Modulation
 
 ```
-🟡🟢 SLEEP RESTORES MODULATOR D:
+🟡🟢 SLEEP RESTORES PFC MODULATION:
 
   Khi ngủ: PFC = OFFLINE.
-  → Modulator D KHÔNG hoạt động
+  → PFC Modulation KHÔNG hoạt động
   → No Hold, no Suppress = "PFC rest mode"
 
   NHƯNG: sleep RESTORES PFC function cho ngày hôm sau:
 
   ① Catecholamine restoration:
-     PFC-Operations.md v1.2: PFC budget recharges via sleep
+     PFC-Operations.md v1.3: PFC budget recharges via sleep
      → Dopamine + Norepinephrine pools REFILL during sleep
      → Sáng hôm sau: PFC ĐẦY catecholamine = OPTIMAL performance
 
@@ -871,17 +871,17 @@ sources: |
      → "Sáng: catecholamine ĐẦY + cortisol effects ÍT = PFC optimal"
      → "Tối: catecholamine CẠN + cortisol effects NHIỀU = PFC yếu"
 
-  ③ Synaptic efficiency restored (S1 SHY):
+  ③ Synaptic efficiency restored (SHY):
      → PFC synapses also downscaled → more efficient processing
      → = PFC "refreshed" — same hardware, cleaner connections
 
 
   IMPLICATION:
-    Sleep deprivation → Modulator D degrades FIRST:
+    Sleep deprivation → PFC Modulation degrades FIRST:
     → PFC = most metabolically expensive brain region
     → PFC = most sensitive to catecholamine depletion
     → = Tại sao mất ngủ → impulsive, emotional, poor judgment
-    → = Modulator D (PFC) OFFLINE → Modulator B (Entity-Valence) UNCHECKED
+    → = PFC Modulation OFFLINE → Entity-Valence Bias UNCHECKED
     → = Chi tiết: §5 (Sleep Deprivation).
 
 
@@ -901,28 +901,28 @@ sources: |
   ┌───────────────────────┬──────────────────────────────────────────┐
   │ MECHANISM DISRUPTED   │ CONSEQUENCE                              │
   ├───────────────────────┼──────────────────────────────────────────┤
-  │ S1 SHY absent         │ Synapses không prune → noise TÍCH LŨY    │
+  │ SHY absent            │ Synapses không prune → noise TÍCH LŨY    │
   │                       │ → Signal-to-noise ratio GIẢM              │
   │                       │ → Next day learning IMPAIRED              │
   ├───────────────────────┼──────────────────────────────────────────┤
-  │ S2 Replay absent      │ Patterns không strengthen → FRAGILE      │
+  │ Replay absent         │ Patterns không strengthen → FRAGILE      │
   │                       │ → Memory WORSE than pre-sleep             │
   │                       │ → What was learned → not consolidated     │
   ├───────────────────────┼──────────────────────────────────────────┤
-  │ S3 Consolidation miss │ Hippocampus → cortex transfer STALLED    │
+  │ Consolidation miss    │ Hippocampus → cortex transfer STALLED    │
   │                       │ → Knowledge stuck in "temporary storage" │
   │                       │ → Hippocampus FULL → new learning blocked│
   ├───────────────────────┼──────────────────────────────────────────┤
-  │ S4 Creative Link miss │ No remote associations formed             │
+  │ Creative Linking miss │ No remote associations formed             │
   │                       │ → No "eureka moments" next day           │
   │                       │ → Problem-solving capacity REDUCED        │
   ├───────────────────────┼──────────────────────────────────────────┤
-  │ S5 Decoupling miss    │ Emotional tags NOT stripped               │
+  │ Decoupling miss       │ Emotional tags NOT stripped               │
   │                       │ → Emotions ACCUMULATE day-over-day       │
   │                       │ → Reactivity INCREASES                   │
   │                       │ → Trajectory: burnout, PTSD escalation   │
   ├───────────────────────┼──────────────────────────────────────────┤
-  │ S6 Gist absent        │ No abstraction → details overwhelm      │
+  │ Gist absent           │ No abstraction → details overwhelm      │
   │                       │ → Can't see "big picture"                │
   │                       │ → Background-Pattern formation slowed    │
   └───────────────────────┴──────────────────────────────────────────┘
@@ -930,11 +930,11 @@ sources: |
 
   ARCHITECTURE COLLAPSE ORDER:
 
-    1st: Modulator D (PFC) → depleted catecholamine
+    1st: PFC Modulation → depleted catecholamine
          → PFC = most expensive, most sensitive
-    2nd: S1-S6 maintenance missed → chunks degrade
-    3rd: Engine A still runs nhưng trên DIRTY network
-    4th: Modulator B unchecked → emotional amplification
+    2nd: all 6 mechanisms missed → chunks degrade
+    3rd: Compile Engine still runs nhưng trên DIRTY network
+    4th: Entity-Valence Bias unchecked → emotional amplification
     → = Compound degradation
 
     "Mệt → dễ cáu → không muốn gặp ai → quyết định tệ"
@@ -952,7 +952,7 @@ sources: |
     → = Sleep debt COMPOUNDS: mỗi đêm mất ngủ = damage > 1 đêm recover
 
     Chronic sleep deprivation → cortisol chronically elevated
-    → All 6 S mechanisms degraded + cortisol damage
+    → All 6 Sleep mechanisms degraded + cortisol damage
     → = Double hit: no maintenance + active damage
 
 
@@ -995,39 +995,39 @@ sources: |
      PFC release → Default Mode Network activate
      → Mind-wandering + autobiographical memory + future simulation
      → Some integration of disparate information
-     → = Partial S3 (consolidation) + partial S4 (creative links)
+     → = Partial Consolidation + partial Creative Linking
 
   ② Incubation effect (Sio & Ormerod 2009 meta-analysis):
      Pause on problem → solution emerges "spontaneously"
      → DMN + subconscious processing continues in background
-     → = Partial S4 (creative linking while awake)
+     → = Partial Creative Linking (while awake)
 
   ③ Walking boosts creativity (Oppezzo & Schwartz 2014):
      Divergent thinking +~60% vs sitting
      → Rhythmic gait + low cognitive load + sensory input
-     → = Partial S4 + C1 exposure (novel environment)
+     → = Partial Creative Linking + External exposure (novel environment)
 
   ④ Meditation (Tang et al. 2015):
      Reduces DMN hyperactivity, enhances PFC-DMN coupling
-     → Less rumination (negative C3 reduced)
+     → Less rumination (negative Spontaneous reduced)
      → Background integration without wandering interference
-     → = Partial S5 (emotional regulation) + partial S3 (integration)
+     → = Partial Decoupling (emotional regulation) + partial Consolidation (integration)
 
 
   WAKING REST vs SLEEP — COMPARISON:
 
-  ┌──────────────────────┬───────────────────┬──────────────────────┐
-  │ Mechanism            │ Waking Rest       │ Sleep                │
-  ├──────────────────────┼───────────────────┼──────────────────────┤
-  │ S1 SHY (prune)       │ ❌ NOT available  │ ✅ Full              │
-  │ S2 Replay (Hebbian)  │ 🟡 Partial (DMN)  │ ✅ Full (SWR)        │
-  │ S3 Consolidation     │ 🟡 Partial (slow)  │ ✅ Full (fast)       │
-  │ S4 Creative linking  │ 🟡 Partial         │ ✅ Full (REM)        │
-  │ S5 Emot. decoupling  │ 🟡 Very partial    │ ✅ Full (REM NE↓)    │
-  │ S6 Gist extraction   │ 🟡 Partial          │ ✅ Full              │
-  │ PFC restoration      │ ❌ NOT (PFC ON)    │ ✅ Full (catechol.)  │
-  │ Cortisol recovery    │ ❌ NOT             │ ✅ Partial           │
-  └──────────────────────┴───────────────────┴──────────────────────┘
+  ┌────────────────────────┬───────────────────┬────────────────────────────┐
+  │ Mechanism              │ Waking Rest       │ Sleep                      │
+  ├────────────────────────┼───────────────────┼────────────────────────────┤
+  │ SHY (prune)            │ ❌ NOT available  │ ✅ Full                    │
+  │ Replay (Hebbian)       │ 🟡 Partial (DMN)  │ ✅ Full (SWR)              │
+  │ Consolidation          │ 🟡 Partial (slow)  │ ✅ Full (fast)             │
+  │ Creative Linking       │ 🟡 Partial         │ ✅ Full (REM)              │
+  │ Emotional Decoupling   │ 🟡 Very partial    │ ✅ Full (REM NE↓)          │
+  │ Gist Extraction        │ 🟡 Partial          │ ✅ Full                    │
+  │ PFC restoration        │ ❌ NOT (PFC ON)    │ ✅ Full (catecholamine)    │
+  │ Cortisol recovery      │ ❌ NOT             │ ✅ Partial                 │
+  └────────────────────────┴───────────────────┴────────────────────────────┘
 
 
   ⭐ KEY INSIGHT:
@@ -1044,7 +1044,7 @@ sources: |
 
   → Waking rest = COMPLEMENT, not substitute.
   → Nap (20-90 min) = INTERMEDIATE — some SWS but limited REM.
-  → Full night sleep = IRREPLACEABLE for complete Component S function.
+  → Full night sleep = IRREPLACEABLE for complete Sleep Maintenance function.
 
   "~30% / ~70%" = ước lượng minh hoạ, KHÔNG phải đo lường chính xác.
   Điểm cốt lõi: waking rest KHÔNG thể thay thế sleep cho phần lớn mechanisms.
@@ -1087,24 +1087,24 @@ sources: |
 
 🟡 FRAMEWORK SYNTHESIS (logic consistent, dựa trên established):
 
-  Component S model:
+  Sleep Maintenance model:
     Sleep as separate component in Compile Architecture.
     Components individually established. Positioning = synthesis.
 
   Exposure vs Optimization classification:
     Novel classification. "Is this mechanism exposure?" = novel question.
-    TESTABLE: if classification correct, disrupting S2 (exposure) should impair
-    memory differently from disrupting S1 (optimization).
+    TESTABLE: if classification correct, disrupting Replay (exposure) should impair
+    memory differently from disrupting SHY (optimization).
 
   "~1.5 exposure / ~4.5 optimization" count:
-    Approximate. S4 and S6 = PARTIAL → exact boundary subjective.
+    Approximate. Creative Linking and Gist Extraction = PARTIAL → exact boundary subjective.
     Core insight (majority = optimization) robust regardless of exact count.
 
   Architecture collapse order (PFC first):
     Consistent with established PFC sensitivity to sleep deprivation.
     Specific sequential model = novel synthesis.
 
-  S6 → Background-Pattern formation link:
+  Gist Extraction → Background-Pattern formation link:
     Consistent with Background-Pattern.md §3 + gist extraction research.
     Specific mechanism chain = novel framework claim.
 
@@ -1115,11 +1115,11 @@ sources: |
 
 🔴 NEEDS MORE RESEARCH:
 
-  Quantitative mechanism interaction: S1-S6 sequential hay concurrent trong 1 đêm?
+  Quantitative mechanism interaction: 6 mechanisms sequential hay concurrent trong 1 đêm?
   Napping: mechanism nào active ở 20-min vs 90-min nap?
   Age-related sleep architecture → compile quality decline?
   DEC2 short sleepers: efficient mechanisms hay skip?
-  S5 current vs structural Entity-Valence effect: bao nhiêu cycles?
+  Emotional Decoupling current vs structural Entity-Valence effect: bao nhiêu cycles?
   Sleep as compile_rate parameter hay maintenance?
   Cross-cultural variation in sleep practices × compile quality
 ```
@@ -1134,9 +1134,9 @@ sources: |
 
   Q1: SLEEP MECHANISMS — SEQUENTIAL HAY CONCURRENT?
 
-     Trong 1 đêm: S1-S6 chạy lần lượt hay song song?
-     Evidence gợi ý: SWS mechanisms (S1,S2,S3,S6) mostly sequential with overlap
-     REM mechanisms (S4,S5) concurrent within REM episode
+     Trong 1 đêm: 6 mechanisms chạy lần lượt hay song song?
+     Evidence gợi ý: SWSleep mechanisms (SHY, Replay, Consolidation, Gist) mostly sequential with overlap
+     REM mechanisms (Creative Linking, Decoupling) concurrent within REM episode
      NHƯNG: cross-cycle interactions chưa rõ
      → Ảnh hưởng: rượu suppress SWS (Ebrahim 2013), SSRIs suppress REM
        (Wilson & Argyropoulos 2005) → stage-specific mechanism loss
@@ -1148,8 +1148,8 @@ sources: |
 
   Q2: NAPPING — MECHANISM NÀO ACTIVE?
 
-     20-min nap: mainly S1 (SHY partial) + S2 (replay partial)
-     90-min nap: 1 full NREM/REM cycle → S1+S2+S3+S4+S5+S6 (all partial)
+     20-min nap: mainly SHY (partial) + Replay (partial)
+     90-min nap: 1 full NREM/REM cycle → all 6 mechanisms (all partial)
      → Napping research supports memory improvement (Mednick et al. 2003)
      → NHƯNG: napping ≠ full night (fewer cycles, less accumulation)
 
@@ -1159,51 +1159,51 @@ sources: |
 
   Q3: AGE-RELATED SLEEP ARCHITECTURE CHANGES:
 
-     Children: MORE SWS → more S1/S2/S3/S6 → faster consolidation
-     Elderly: LESS SWS + LESS REM → S1-S6 ALL reduced
+     Children: MORE SWS → more SHY/Replay/Consolidation/Gist → faster consolidation
+     Elderly: LESS SWS + LESS REM → all 6 mechanisms ALL reduced
      → = Age-related compile quality decline PARTIALLY explained by sleep?
 
      🟢 Sleep architecture changes with age: Ohayon et al. 2004
-     🔴 S mechanism degradation → compile quality: needs analysis
+     🔴 Sleep mechanism degradation → compile quality: needs analysis
 
 
   Q4: INDIVIDUAL VARIATION IN SLEEP MECHANISMS:
 
      Genetic: DEC2 mutation → "short sleepers" (6h sufficient)
-     → Do short sleepers have MORE EFFICIENT S mechanisms?
+     → Do short sleepers have MORE EFFICIENT Sleep mechanisms?
      → Or do they simply SKIP some mechanisms?
 
      🟢 DEC2 mutation: He et al. 2009
      🔴 Short sleep → compile quality: unknown
 
 
-  Q5: S5 EMOTIONAL DECOUPLING × STRUCTURAL VALENCE:
+  Q5: EMOTIONAL DECOUPLING × STRUCTURAL VALENCE:
 
-     S5 strips emotional tag PER NIGHT (current valence).
+     Decoupling strips emotional tag PER NIGHT (current valence).
      NHƯNG: Entity-Valence structural = accumulated over YEARS.
-     → S5 chỉ strip CURRENT emotional peak, KHÔNG strip structural valence?
-     → Bao nhiêu S5 cycles để shift structural valence measurably?
-     → = Tại sao "chia tay lâu rồi mà vẫn buồn" — S5 works on current,
-       nhưng structural valence = deep, slow, needs MANY S5 cycles
+     → Decoupling chỉ strip CURRENT emotional peak, KHÔNG strip structural valence?
+     → Bao nhiêu Decoupling cycles để shift structural valence measurably?
+     → = Tại sao "chia tay lâu rồi mà vẫn buồn" — Decoupling works on current,
+       nhưng structural valence = deep, slow, needs MANY Decoupling cycles
 
-     🔴 S5 current vs structural effect: needs analysis
+     🔴 Emotional Decoupling current vs structural effect: needs analysis
 
 
   Q6: COMPILE_RATE FORMULA × SLEEP:
 
      Current formula: f(exposure × saliency × contingency
                         × peak_valence × multi_modal_richness)
-     → Sleep thêm exposure (S2) + modify peak_valence (S5) + modify richness? (S4)
+     → Sleep thêm exposure (Replay) + modify peak_valence (Decoupling) + modify richness? (Creative Linking)
      → Should sleep be an ADDITIONAL parameter in formula?
      → Or: sleep = maintenance of existing parameters, not new parameter?
 
      🟡 Sleep as parameter vs maintenance: framework decision needed
 
 
-  Q7: DREAMING (S7):
+  Q7: DREAMING (Dreaming as Simulation):
 
      Revonsuo 2000 Threat Simulation Theory — debated.
-     Nếu đúng: thêm 1 mechanism vào Component S.
+     Nếu đúng: thêm 1 mechanism vào Sleep Maintenance.
      Nếu sai: 6 mechanisms đủ.
      → Đợi future research.
 
@@ -1222,18 +1222,18 @@ PRIMARY SOURCE:
   Learning-Cycle.md §5 — waking rest mechanisms
 
 COMPILE ARCHITECTURE:
-  Compile-Taxonomy.md v2.0 — 3 Compile Types (file này = Component S)
+  Compile-Taxonomy.md v3.0 — 3 Compile Types (file này = Sleep Maintenance)
 
 CORE FILES:
   Chunk.md v2.3 §2.1 ④ — Sleep consolidation (summary → file này = chi tiết)
   Chunk.md v2.3 §2.2 — compile_rate formula (sleep × formula interaction)
-  PFC-Operations.md v1.2 — PFC budget recharges via sleep
+  PFC-Operations.md v1.3 — PFC budget recharges via sleep
   Cortisol-Baseline.md v2.2 — Sleep = PRIMARY cortisol recovery
-  Background-Pattern.md v2.0 §3 — S6 gist extraction → Background-Pattern
+  Background-Pattern.md v2.0 §3 — Gist Extraction → Background-Pattern
   Entity-Valence-Dynamics.md v1.1 — VTA habituation × emotional dynamics
   Reward-Signal-Architecture.md v2.1 — Evaluative vs Direct-State vulnerability
   Simulation-Engine.md v1.1 — PFC offline during sleep
-  Body-Base.md v3.3 §2 — Compilable Architecture (+ Component S)
+  Body-Base.md v3.3 §2 — Compilable Architecture (+ Sleep Maintenance)
 ```
 
 ### §9.2 — Research citations
@@ -1297,13 +1297,13 @@ ESTABLISHED (🟢):
 
 
 FRAMEWORK SYNTHESIS (🟡):
-  Sleep as Component S in compile architecture — session 2026-06-01
+  Sleep as Sleep Maintenance in compile architecture — session 2026-06-01
   6 mechanisms × exposure classification — session 2026-06-01
-  S5 calibrates Modulator B — session 2026-06-01
-  S6 → Background-Pattern formation link — session 2026-06-01
+  Emotional Decoupling calibrates Entity-Valence Bias — session 2026-06-01
+  Gist Extraction → Background-Pattern formation link — session 2026-06-01
   Architecture collapse order (PFC first) — session 2026-06-01
   Waking rest = complement not replacement — session 2026-06-01
-  S2 = industrial-grade C3 — session 2026-06-01
+  Replay = industrial-grade Spontaneous — session 2026-06-01
 
 DEBATED (🟡):
   Revonsuo 2000 — Threat Simulation Theory (dreaming)
@@ -1313,5 +1313,5 @@ DEBATED (🟡):
 ---
 
 > **PARENT**: Chunk.md v2.3 §2.1 ④ (summary → file này = chi tiết)
-> **COMPANION**: Compile-Taxonomy.md (1 Engine + 3 Modulators + Component S)
+> **COMPANION**: Compile-Taxonomy.md (1 Compile Engine + 3 Modulators + Sleep Maintenance)
 > **SOURCE**: Learning-Cycle.md §4 (6+1 mechanisms research source)

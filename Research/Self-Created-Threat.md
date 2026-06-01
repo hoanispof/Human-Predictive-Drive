@@ -28,7 +28,7 @@
 >   Threat.md v1.0 — §2 Internal-Predict (~20-60% fidelity), External vs Internal
 >   Imagine-Final.md — §7 Bootstrap (PFC start → body take over), Jensen Huang timeline
 >   Compile-Type-Learning.md v1.1 — Trust Compile, trust then verify
->   Compile-Taxonomy.md v2.0 — 3 3 Compile Types, trust gate
+>   Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, trust amplifier
 >   Cortisol-Baseline.md v2.0 — §7.7 5 Roles, §8.1-8.2 Inverted-U + 6 parameters
 >   Anchor-Schema.md v1.0 — Clarity × Quality × Trust, 4 nguồn
 >   Protect.md v1.0 — §1.2 Loss Aversion ~2×, ownership chunks, Protect mechanism
@@ -150,7 +150,7 @@
 
   = TRUST COMPILE, nhưng SOURCE = chính PFC của bạn
   = Body là "student" — PFC là "teacher"
-  = Cùng trust gate, cùng compile pathway
+  = Cùng trust amplifier, cùng compile pathway
 
 
   ⚠️ ĐIỀU KIỆN — GIỐNG Trust Compile learning:
@@ -936,7 +936,7 @@ MECHANISM FILES (đọc để hiểu sâu):
   Novelty.md §4.2         — Mức 4 Self-Created Threat, BẬT/TẮT
   Novelty.md §4.3         — Novelty Loop vs Anxiety Loop, mixed ratio
   Imagine-Final.md §7     — Bootstrap: PFC start → body take over
-  Compile-Taxonomy.md     — 3 Compile Types, trust gate mechanism
+  Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, trust amplifier mechanism
   Compile-Type-Learning.md— Trust Compile in learning, trust then verify
   Cortisol-Baseline.md    — §7.7 5 Roles, §8 Inverted-U + 6 parameters
   Anchor-Schema.md        — Clarity × Quality × Trust, 4 nguồn

@@ -119,7 +119,7 @@ Discovery = Experience Compile. Being told = Trust Compile. Same information, di
 
 Every programmer knows the pattern: Stack Overflow copy-paste works until the edge case. A production incident is never forgotten. Same concept, different compile pathway, different persistence.
 
-*Source: Compile-Taxonomy.md v2.0. Research: Hebb 1949, LeDoux 1996, Ericsson 1993, Squire 1992.*
+*Source: Compile-Taxonomy.md v3.0. Research: Hebb 1949, LeDoux 1996, Ericsson 1993, Squire 1992.*
 
 ### Boredom is painful
 
