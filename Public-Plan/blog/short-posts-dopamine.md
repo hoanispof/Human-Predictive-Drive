@@ -3,7 +3,7 @@ title: Short Posts — Dopamine Signals Salience, Not Reward
 date: 2026-05-31
 purpose: Short posts (~150-300 words) for Reddit/forums, linking to the full blog post
 status: Draft v0.1
-blog_link: dopamine-is-not-reward.md
+blog_link: dopamine-signals-salience-not-reward.md
 platforms: r/neuroscience, r/psychology, r/cogsci
 references:
   plan-neuro-posts.md §4 — short post format
@@ -38,7 +38,7 @@ Key evidence the model synthesizes:
 The model is falsifiable: if a pure dopamine agonist reliably produces pleasure without opioid involvement, it's wrong.
 
 Full analysis with 30 citations, test cases, and explicit limitations:
-https://hoanispof.github.io/Human-Predictive-Drive/blog/dopamine-is-not-reward/
+https://hoanispof.github.io/Human-Predictive-Drive/blog/dopamine-signals-salience-not-reward/
 
 Full framework (200+ files, CC0 licensed):
 https://github.com/hoanispof/Human-Predictive-Drive
@@ -69,7 +69,7 @@ Even more striking: blocking the opioid system with naltrexone reduces euphoria 
 
 I've written a detailed analysis proposing a specific mechanism for *when* reward fires (and when it doesn't), with test cases, clinical evidence, and explicit "here's how to prove this wrong" criteria:
 
-https://hoanispof.github.io/Human-Predictive-Drive/blog/dopamine-is-not-reward/
+https://hoanispof.github.io/Human-Predictive-Drive/blog/dopamine-signals-salience-not-reward/
 
 The full framework is open-source (CC0): https://github.com/hoanispof/Human-Predictive-Drive
 
@@ -97,7 +97,7 @@ The model makes specific predictions:
 The model is structured for falsification: five preconditions, each independently testable, with explicit conditions for disproving the mechanism.
 
 Full analysis (30 citations, honest limitations, clinical dissociations):
-https://hoanispof.github.io/Human-Predictive-Drive/blog/dopamine-is-not-reward/
+https://hoanispof.github.io/Human-Predictive-Drive/blog/dopamine-signals-salience-not-reward/
 
 Framework (200+ files, CC0):
 https://github.com/hoanispof/Human-Predictive-Drive
@@ -141,4 +141,4 @@ PRE-POST CHECKLIST:
 ## Blog Link
 
 All short posts link to:
-`https://hoanispof.github.io/Human-Predictive-Drive/blog/dopamine-is-not-reward/`
+`https://hoanispof.github.io/Human-Predictive-Drive/blog/dopamine-signals-salience-not-reward/`

@@ -193,7 +193,7 @@ Arnsten (2009): "Blockade of alpha-2 receptors in monkey PFC recreates the sympt
 
 > **Framework deep reads:**
 > [ADHD-Observation.md §2](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Research/Health-Conditions/Neurodiversity/ADHD-Observation.md) — full neurochemistry of the double hit
-> · [Dopamine Signals Salience, Not Reward]({% post_url 2026-05-31-dopamine-is-not-reward %}) — the broader dopamine system this model operates within
+> · [Dopamine Signals Salience, Not Reward]({% post_url 2026-05-31-dopamine-signals-salience-not-reward %}) — the broader dopamine system this model operates within
 
 ---
 
@@ -313,7 +313,7 @@ The three disruptions share a common substrate but produce opposite clinical pic
 - **Parkinson's** destroys the *source* (neurons that produce dopamine die)
 - **ADHD** changes the *receiver* (signal is cleared too fast and received too weakly)
 
-This comparison matters because it demonstrates that dopamine is not "the happiness chemical" or "the reward molecule." Dopamine is a *salience signal* — "something prediction-relevant changed" — and three different disruptions of the same signal produce three entirely different conditions, each requiring entirely different treatment. (For the full argument that dopamine is not reward, see [Dopamine Signals Salience, Not Reward]({% post_url 2026-05-31-dopamine-is-not-reward %}).)
+This comparison matters because it demonstrates that dopamine is not "the happiness chemical" or "the reward molecule." Dopamine is a *salience signal* — "something prediction-relevant changed" — and three different disruptions of the same signal produce three entirely different conditions, each requiring entirely different treatment. (For the full argument that dopamine is not reward, see [Dopamine Signals Salience, Not Reward]({% post_url 2026-05-31-dopamine-signals-salience-not-reward %}).)
 
 > **Framework deep reads:**
 > [ADHD-Observation.md §3](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Research/Health-Conditions/Neurodiversity/ADHD-Observation.md) — full 3-way comparison table with additional detail
