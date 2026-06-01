@@ -31,7 +31,7 @@ I've developed an open-source framework that proposes: **DRD4 receptor sensitivi
 
 Key evidence the model synthesizes:
 
-- Gaze cueing selectively impaired: eyes fail, arrows intact (Psychiatry Research, 2016). Not general inattention — social-specific threshold.
+- Gaze cueing selectively impaired: eyes fail, arrows intact (Marotta et al., 2017, Psychiatry Research). Not general inattention — social-specific threshold.
 - Alpha modulation inverse in ADHD parieto-occipital (PMC6969336, 2019, n=45 EEG). Neural processing is *different*, not weaker.
 - Social cognition deficit closes with age (meta-analysis, 49 studies, n=2,449). Delayed compilation, not fixed deficit.
 - Stimulants calm ADHD (Volkow 2012): PFC under-fueled → add fuel → PFC regulates → calm. Threshold model resolves the paradox.
@@ -98,7 +98,7 @@ I've been developing an open-source framework that proposes ADHD is best underst
 The model makes specific predictions:
 
 - Hyperfocus + inattention = SAME mechanism, different input magnitude (not two separate systems)
-- Gaze cueing should be selectively impaired for social but not symbolic cues (confirmed: Psychiatry Research 2016 — eyes fail, arrows work)
+- Gaze cueing should be selectively impaired for social but not symbolic cues (confirmed: Marotta et al. 2017, Psychiatry Research — eyes fail, arrows work)
 - 47% anxiety comorbidity should arise from micro-cue filtering → surprise threats (testable via gaze-cueing × anxiety rate correlation)
 - Inverted-U: subclinical = creative advantage (g=0.36), severe = impairment (Tran 2026, 17,000+)
 - Prevalence should be stable regardless of cultural change (confirmed: Polanczyk 2014, 3 decades)

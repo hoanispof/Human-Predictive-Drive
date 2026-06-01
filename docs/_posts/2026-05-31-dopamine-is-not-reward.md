@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dopamine Is Not Reward: The Evidence and a Proposed Mechanism"
+title: "Dopamine Signals Salience, Not Reward: A 7-Step Mechanism and Five Preconditions for When Pleasure Actually Fires"
 date: 2026-05-31
 author: Independent researcher
 license: CC0 1.0 Universal

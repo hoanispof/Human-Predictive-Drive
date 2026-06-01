@@ -1,5 +1,5 @@
 ---
-title: Short Posts — Dopamine Is Not Reward
+title: Short Posts — Dopamine Signals Salience, Not Reward
 date: 2026-05-31
 purpose: Short posts (~150-300 words) for Reddit/forums, linking to the full blog post
 status: Draft v0.1
@@ -11,7 +11,7 @@ references:
   plan-tech-distribution.md §5 — posting cadence
 ---
 
-# Short Posts: Dopamine Is Not Reward
+# Short Posts: Dopamine Signals Salience, Not Reward
 
 > Each short post = AUDITION. The blog = FULL PERFORMANCE.
 > If the audition fails (no engagement) → framing needs work.

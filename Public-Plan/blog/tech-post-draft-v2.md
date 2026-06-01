@@ -263,7 +263,7 @@ Full framework (200+ files, CC0, open-source):
 **[GitHub — Human Predictive Drive](https://github.com/hoanispof/Human-Predictive-Drive)**
 
 Three detailed blog posts on specific mechanisms:
-- [Dopamine Is Not Reward](link) — 28 years of evidence + a proposed 7-step mechanism
+- [Dopamine Signals Salience, Not Reward](link) — a 7-step mechanism + five preconditions for when pleasure actually fires
 - [Cortisol Is Not Your Stress Hormone](link) — the Source > Level principle + the Inverted-U
 - [ADHD Is Not Attention Deficit](link) — one threshold, six paradoxes resolved
 

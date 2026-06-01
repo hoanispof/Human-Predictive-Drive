@@ -298,7 +298,7 @@ The pattern: **when the threat source ≠ the learning domain, learning can proc
 > **Framework deep reads:**
 > [Cortisol-Baseline.md §7](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Cortisol-Baseline.md) — Source > Level principle with 5-role cortisol taxonomy
 > · [Chunk.md §2.4](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Chunk/Chunk.md) — Direction-At-Compile mechanism
-> · [Dopamine Is Not Reward]({% post_url 2026-05-31-dopamine-is-not-reward %}) — how dopamine signals novelty (not reward), connecting to why novelty-direction cortisol produces growth
+> · [Dopamine Signals Salience, Not Reward]({% post_url 2026-05-31-dopamine-is-not-reward %}) — how dopamine signals salience (not reward), connecting to why novelty-direction cortisol produces growth
 
 ---
 
