@@ -139,7 +139,7 @@ READER FLOW:
 ĐẶC THÙ CỦA MOTHER-OPTIMIZATION:
 
   3 FILE KIA: framework parameters = TRUNG TÂM
-    → Approach/avoidance tags, Compile Architecture, PFC reframe,
+    → Approach/avoidance tags, chunk compile channels, PFC reframe,
       body-feedback (prediction-delta), Hardware-Subsidy, autonomy arc...
     → Đo bằng: observation parameters, chunk dynamics, body state
 
@@ -594,7 +594,7 @@ THAI ĐANG LÀM GÌ TRONG ĐÓ?
     ⑤ REM SLEEP:
        → Brain tự test circuits mà KHÔNG CẦN input bên ngoài
        → Thai nhi ngủ RẤT NHIỀU → phần lớn = brain đang compile offline
-       → (Mechanism §2.1④: Sleep Maintenance — Compile-Sleep.md v1.0)
+       → (Mechanism §2.1 kênh ④: sleep consolidation = compile + repair)
 
   MẸ VÀ FETAL ACTIVITY:
     → ĐỪNG lo thai đạp nhiều → đó là NÃO đang compile
@@ -2390,7 +2390,7 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
 ```
   → Child-Development-Mechanism.md v2.0 — KHUNG NGUYÊN LÝ v7.8
      + §1: PFC reframe (Hodel 2018) → áp dụng từ prenatal (§1.3 file này)
-     + §2: Compile Architecture → thai ĐÃ compile chunks (§2.2 file này)
+     + §2: 4+1 channel compile → thai ĐÃ compile chunks (§2.2 file này)
      + §3: approach/avoidance tags → prenatal baseline SET UP tendency (§3.2)
      + §8: cortisol baseline calibration → prenatal = tầng 2 input (§3.2)
      + §8.2: sleep = repair mechanism → áp dụng cho MẸ (§6.1)

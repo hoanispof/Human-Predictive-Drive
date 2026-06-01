@@ -7,9 +7,6 @@
 >
 > This framework bridges neuroscience, psychology, and evolutionary biology
 > into a unified conceptual architecture — from individual behavior to collective patterns.
->
-> Reframing vague, hard-to-answer questions about feelings, motivation, and behavior
-> — at the individual, community, and collective level.
 
 ---
 
