@@ -1,10 +1,12 @@
 ﻿---
 title: Obligation — Observation Parameter
-version: 1.2
+version: 1.3
 created: 2026-04-25
 updated: 2026-05-17 v1.1 — +Compilable Architecture, +By-product match (exchange), +PFC=Lawyer, +3-cost, Entity-Compiled rename, version refs sync
-refined: 2026-05-23 (v1.2 — Concept Cascade: +Entity-Access, +Bond-Architecture, +Hardware-Subsidy. Updated versions + cross-refs)
-status: OBSERVATION PARAMETER v1.2
+refined: |
+  2026-05-23 (v1.2 — Concept Cascade: +Entity-Access, +Bond-Architecture, +Hardware-Subsidy. Updated versions + cross-refs)
+  2026-06-02 (v1.3 — +§11.7 trust enrichment: obligation = 1/5 nguồn maintain trust, safety net design. Trust.md v1.0, Collective-Body §5.4)
+status: OBSERVATION PARAMETER v1.3
 scope: |
   OBSERVATION FILE: Obligation = named pattern khi quan sát COMPILED PREDICTION
   về "cost phải trả" để MAINTAIN access tới agent-as-external-tool.
@@ -2154,6 +2156,14 @@ Case 7: Đeo ảnh Đức Mẹ, tin được bảo vệ → obligation là gì?
   → Obligation toward virtual agent = f(anchor strength)
   → Virtual agent: LOW cost, SUSTAINED reward → sustainable obligation
   → = Tại sao religious practice STABLE qua centuries (§5.2: low cost, high yield)
+
+  ⭐ OBLIGATION = 1/5 NGUỒN MAINTAIN TRUST (v1.3):
+    Trust.md v1.0 §3: trust depth = f(5 nguồn).
+    Obligation = nguồn ① (routine compile) — cost DUY TRÌ trust chain.
+    Trust depth → confession effectiveness (Collective-Body §5.4 lớp ②).
+    Obligation CRITICAL KHI các nguồn khác (②childhood, ③community, ④peak, ⑤identity) yếu.
+    = Safety net design: ensure minimum trust depth cho toàn hệ thống.
+    Detail: Trust.md v1.0 §3 (5-nguồn model), Collective-Body v2.2 §5.4 (guilt resolution).
 ```
 
 ### §11.8 — Case 8: Bố mẹ nghiêm khắc — con sợ nhờ

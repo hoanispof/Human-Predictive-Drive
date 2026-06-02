@@ -1,6 +1,6 @@
 ﻿---
 title: Idol Phenomenon — Tại Sao Con Người Thần Tượng
-version: 2.4
+version: 2.6
 created: 2026-03-28
 rewritten: 2026-04-26
 refined: |
@@ -8,7 +8,11 @@ refined: |
   Bond-Architecture gap clone, Compiled-Suppress, Simulation-Engine AI, 4-Layer Sustainability)
   2026-05-30 (v2.4 — Chain profile: Idol more Chain 0 vs Religion more Chain 2-3.
   Align with Religion.md v2.6 body-base vs PFC-mediation framing.)
-status: RESEARCH FILE v2.3
+  2026-06-02 (v2.5 — MTF v2.0 number update: §8 spectrum table + §12 cross-refs.
+  Religion.md v2.6→v3.0, Overview.md v2.2→v3.0. Compile terminology.)
+  2026-06-02 (v2.6 — Trust integration: §3 +trust 1-chiều analysis, §5 +trust cross-domain
+  exploit, §8 +trust depth driver. +Trust.md v1.0. Obligation v1.2→v1.3, Religion v3.0→v3.1.)
+status: RESEARCH FILE v2.6
 scope: |
   RESEARCH FILE: Phân tích hiện tượng idol qua framework lens.
   Idol phenomenon = body-base drives CỦA FAN compile chunks về idol
@@ -24,10 +28,10 @@ scope: |
 purpose: |
   Phân tích CƠ CHẾ: tại sao idol TỒN TẠI, khi nào TỐT, khi nào HẠI.
   Nhìn idol phenomenon như 1 "công nghệ" trong spectrum Melody Technology
-  (cùng spectrum với tôn giáo — xem Religion.md v2.6, Overview.md).
+  (cùng spectrum với tôn giáo — xem Religion.md v3.1, Overview.md v3.0).
   v2.0 map drives + formula sang mechanism v7.8 cụ thể.
 position: |
-  Research/Melody-Technology/ — cùng folder với Religion.md v2.6,
+  Research/Melody-Technology/ — cùng folder với Religion.md v3.1,
   Melody-Technology-Overview.md. RESEARCH files phân tích hiện tượng
   qua framework lens, KHÁC Core-Deep-Dive/ files (mechanism deep-dives).
 dependencies:
@@ -42,7 +46,8 @@ dependencies:
   - Chunk-Activation-Dynamics.md — 7 factors link strength, probability
   - Meaning.md v2.2 — 5 anchor types (GOAL/IDENTITY/ROLE), §4 sources
   - Protect.md v1.2 — f(replaceability × attachment), identity protect, Resonance Decline
-  - Obligation.md v1.2 — compiled prediction, Type 2 Exchange, Type 4 Role
+  - Trust.md v1.0 — trust formation 4 nguồn, 4 phases default→calibrated, 6 co-occurrence, cross-domain exploit
+  - Obligation.md v1.3 — compiled prediction, Type 2 Exchange, Type 4 Role
   - Gratitude.md v2.1 — 9 prerequisites, agent-only
   - Status.md v2.2 — Resource Access Map, §9 serotonin
   - PFC-Hardware.md v1.1 — COMT/DRD4/MAO-A/NE (hardware match)
@@ -50,7 +55,7 @@ dependencies:
   - Cortisol-Baseline.md v2.1 — 5 Roles, amplifier
   - Schema.md v2.0 — named chunk-network pattern
   - Empathy.md v4.0 — Self-Pattern-Modeling Compiled + ❸ positive, PFC budget, Compiled Quality
-  - Religion.md v2.6 — cùng spectrum, khác magnitude, Chain profile contrast
+  - Religion.md v3.1 — cùng spectrum, khác magnitude, Chain profile contrast
   - Gap-Body-Need.md v1.0 — §6 5-Parameter, Chain to Body-Base parameter
   - By-Product-Gap-Resonance.md v1.4 — resonance mechanism, by-product match
 sources_backup: |
@@ -109,10 +114,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Melody Technology SPECTRUM:                                    │
   │                                                                │
   │ Fan nhẹ ──→ Fan cứng ──→ Fan cuồng ──→ Tín ngưỡng ──→ Tôn giáo│
-  │   (§1-§7)                                    (Religion.md v2.6) │
+  │   (§1-§7)                                    (Religion.md v3.1) │
   │                                                                │
   │ FILE NÀY phân tích ĐẦU spectrum (idol phenomenon)             │
-  │ Religion.md v2.6 phân tích CUỐI spectrum (tôn giáo)            │
+  │ Religion.md v3.1 phân tích CUỐI spectrum (tôn giáo)            │
   │ CÙNG mechanism (body-base drives) — KHÁC magnitude + depth     │
   └────────────────────────────────────────────────────────────────┘
 
@@ -125,21 +130,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ④ 🟢🟡🔴 confidence tiers
 
 
-  ⭐ v2.4 — CHAIN PROFILE: IDOL vs TÔN GIÁO (Religion.md v2.6 §0):
+  ⭐ v2.4 — CHAIN PROFILE: IDOL vs TÔN GIÁO (Religion.md v3.1 §0):
 
     Idol phenomenon = THIÊN Chain 0 (sensory-dominant compound):
       → ① Music/visual/dance = Sensory-Driven, Chain 0 (body-base direct)
       → ⑤ Fan community concert/meetup = hardware social, Chain 0
       → ③④ Anchor/template = PFC-mediated, Chain 2-3
       → Compound: Chain 0 DOMINANT + Chain 2-3 supplementary
-      → Install: đa dạng (childhood, teen emotional peak, adult)
+      → Compile: đa dạng (childhood, teen emotional peak, adult)
 
     Tôn giáo = THIÊN Chain 2-3 (coherence-dominant compound):
       → Faith, meaning, compliance, coherence = PFC verbal, Chain 2-3
       → Body-direct (co-presence, ritual body) = Chain 0
       → Compound: Chain 2-3 DOMINANT + Chain 0 amplified via Evaluative Gate
         (Body-Feedback-Mechanism.md §4: Evaluative AMPLIFY Direct-State)
-      → Install: đa số childhood (body-direct bypass PFC)
+      → Compile: đa số childhood (body-direct bypass PFC)
 
     → = Idol MẠNH HƠN ở sensory reward (Direct-State dominant compound)
     → = Tôn giáo MẠNH HƠN ở coherence (Evaluative dominant compound)
@@ -467,6 +472,31 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → = Body-Base Extension qua parasocial = possible nhưng RARE
       → = CẦN: years of compiled ❸ + high frequency + deep emotional weight
 
+  ⭐ v2.6 — TRUST 1-CHIỀU (Trust.md v1.0 §2, §5):
+
+    Parasocial = Self-Pattern-Modeling 1-chiều (above). CŨNG = TRUST 1-chiều:
+
+    Fan BUILD trust vào idol qua nguồn ③ schema inheritance (Trust.md §2):
+      → "Idol nổi tiếng → cộng đồng nói hay → fan trust TRƯỚC khi verify."
+      → Trust installed CÙNG GÓI với valence positive (Trust.md §2 nguồn ③).
+      → = Trust.md §5 Phase 2 DEFAULT: installed trust HOẠT ĐỘNG NHƯ TRUTH.
+
+    Fan = "trẻ con ở domain idol" (Trust.md §5 Phase 2):
+      → Fan KHÔNG CÓ domain expertise để verify idol's claims.
+      → Chưa verify ĐƯỢC vì chưa có domain knowledge → NO Phase 3 calibration.
+      → Installed trust PERSIST vô thời hạn (no contradiction → no override).
+      → = Tại sao fan tin idol NGOÀI domain entertainment.
+
+    Trust 1-chiều vs Self-Pattern-Modeling 1-chiều:
+      → Self-Pattern-Modeling 1-chiều: fan simulate idol, idol không simulate fan.
+      → Trust 1-chiều: fan trust idol, idol không trust fan (không biết fan).
+      → CẢ HAI 1-chiều → CẢ HAI thiếu calibration → CẢ HAI drift.
+      → Self-Pattern-Modeling drift: fan imagine idol khác thật (§3 above).
+      → Trust drift: fan trust idol beyond actual competence (cross-domain).
+
+    🟡 Trust 1-chiều = framework synthesis (Trust.md §2 nguồn ③ + §5 Phase 2)
+
+
   🟢 Parasocial relationships (Horton & Wohl 1956)
   🟢 Parasocial breakup distress parallels real breakup (Cohen 2004)
   🟡 Body-Base Extension qua parasocial = framework extension, untested
@@ -597,6 +627,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     🟢 Celebrity worship scale: mild → borderline pathological (McCutcheon 2002)
     🟢 Parasocial breakup distress (Cohen 2004)
+
+
+  ❌ TRUST CROSS-DOMAIN EXPLOIT (Trust.md v1.0 §5, §7):
+
+    → Trust.md §7 ⑤ Trust Generalization: trust compiled trên NGƯỜI → spill sang TẤT CẢ domains.
+    → Fan trust idol trong entertainment (competence verified qua content quality).
+    → Trust per-entity default (Trust.md §5) → spill sang nutrition, finance, medicine.
+    → Idol recommend thuốc/crypto/diet → fan accept WITHOUT domain verification.
+    → = Trust.md §5 Phase 2 persist: fan KHÔNG CÓ domain expertise → NO contradiction.
+
+    Tại sao NGUY HIỂM hơn quảng cáo thông thường:
+      → Quảng cáo = context "bán hàng" → PFC filter ON (biết là quảng cáo).
+      → Idol recommend = context "người tôi trust" → PFC filter OFF.
+      → = Trust bypass verification (Collective-Body §5.1 ②).
+      → = Idol = KOL: Collective-Body §5.3 cross-domain trust exploit.
+
+    KHÁC parasocial (§5 ❌ ①): KHÁC mechanism, KHÁC target.
+      → Parasocial: connection 1-chiều → thay thế connection THẬT → harm social.
+      → Trust exploit: trust 1-chiều → chấp nhận thông tin SAI → harm decision.
+      → CẢ HAI harmful — nhưng INDEPENDENT (có thể xảy ra riêng hoặc cùng lúc).
+
+    🟡 Trust cross-domain exploit = Trust.md §7 ⑤ + Collective-Body §5.3
 
 
   ❌ OBLIGATION TOXICITY:
@@ -757,18 +809,28 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌────────────────┬──────────┬────────────┬──────────────────────┐
     │ Level          │ ❸ Depth  │ Anchor type │ Functions covered    │
     ├────────────────┼──────────┼────────────┼──────────────────────┤
-    │ Fan nhẹ        │ Nông     │ Không      │ MTF6 reward only       │
-    │ Fan cứng       │ Trung    │ GOAL weak  │ MTF1 + MTF5 + MTF6        │
-    │ Fan cuồng      │ Sâu     │ IDENTITY   │ MTF1 + MTF3 + MTF5 + MTF6   │
-    │ Tôn thờ        │ Rất sâu │ IDENTITY+  │ MTF1-MTF6               │
+    │ Fan nhẹ        │ Nông     │ Không      │ MTF7 reward only       │
+    │ Fan cứng       │ Trung    │ GOAL weak  │ MTF1 + MTF6 + MTF7        │
+    │ Fan cuồng      │ Sâu     │ IDENTITY   │ MTF1 + MTF2 + MTF6 + MTF7  │
+    │ Tôn thờ        │ Rất sâu │ IDENTITY+  │ MTF1-MTF4 MTF6 MTF7    │
     │ Tín ngưỡng     │ Compiled │ FAITH weak │ MTF1-MTF7 partial       │
     │ Tôn giáo       │ Max      │ FAITH deep │ MTF1-MTF7 full          │
-    │                │          │            │ (Religion.md v2.6)   │
+    │                │          │            │ (Religion.md v3.1)   │
     └────────────────┴──────────┴────────────┴──────────────────────┘
 
     → = CÙNG 3 Generative Primitives — khác DEPTH + SCOPE
     → = Tôn giáo = "idol phenomenon" NÂNG CẤP lên toàn melody + FAITH anchor
-    → = Chi tiết: Religion.md v2.6 §6 (idol × religion comparison table)
+    → = Chi tiết: Religion.md v3.1 §7 (idol × religion comparison table)
+
+    ⭐ v2.6 — TRUST DEPTH = DRIVER CỦA SPECTRUM POSITION:
+      → Fan nhẹ: trust NÔNG (valence only, chưa trust beyond entertainment).
+      → Fan cuồng: trust TRUNG (trust-competence + trust-intention compiled).
+      → Tôn thờ: trust SÂU (trust spill cross-domain, approaching unfalsifiable).
+      → Tôn giáo: trust MAX (unfalsifiable + 5-nguồn depth — Trust.md §3).
+      → = Movement dọc spectrum = movement tăng TRUST DEPTH.
+      → = Trust.md §3: trust depth = f(5 nguồn) → deeper = more nguồn active.
+      → = Idol fan → devout: nguồn ① routine (content daily) + ⑤ identity
+            ("tôi là fan X") + ③ community (fan club) → 3/5 nguồn active.
 ```
 
 ---
@@ -962,7 +1024,8 @@ CORE MECHANISM FILES:
 → Chunk-Activation-Dynamics.md: §2.2 (7 factors), §2.3 (probability dynamic)
 → Meaning.md v2.2: §3.1 GOAL type, §3.3 IDENTITY type, §4.3 External Inject
 → Protect.md v1.2: §2 f(replaceability × attachment), grief analysis, Resonance Decline
-→ Obligation.md v1.2: Type 2 Exchange, Type 4 Role, toxic obligation
+→ Trust.md v1.0: §2 (4 nguồn — nguồn ③ parasocial install), §5 (4 phases default→calibrated — fan = Phase 2), §7 (6 co-occurrence — ⑤ trust generalization), §8 (break conditions — idol scandal)
+→ Obligation.md v1.3: Type 2 Exchange, Type 4 Role, toxic obligation
 → Gratitude.md v2.1: §2 (9 prerequisites), §3 (3 anti-habituation)
 → Status.md v2.2: §0 Resource Access Map, §9 serotonin certainty bias
 → PFC-Hardware.md v1.1: COMT/DRD4/MAO-A/NE — hardware match basis, §3.4 COMT × Reward Pattern
@@ -971,7 +1034,7 @@ CORE MECHANISM FILES:
 → Empathy.md v4.0: Self-Pattern-Modeling Compiled + ❸ positive = empathy, PFC budget, Compiled Quality
 
 RESEARCH + APPLICATION FILES:
-→ Religion.md v2.6: §6 (idol × religion table), §2.3 MTF3 (parallel analysis)
+→ Religion.md v3.1: §7 (idol × religion table), §2.2 MTF2 (parallel connection analysis)
 → Love-Romantic.md v3.0: compound grief (parallel mất idol extreme case), 3 Firing Modes
 → AI-Schema-Detection.md v2.0: gateway tool framing
 → Empathy-Education.md: idol education parallel

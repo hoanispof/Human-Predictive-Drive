@@ -970,6 +970,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → At this scale, founder SHIFTS from personal leadership → trust infrastructure
     → "Build team leaders who build their teams" = recursive trust cascade
     → = Node không trực tiếp lead everyone → lead leaders who lead others
+    → Trust mechanism detail: Trust.md v1.0 (formation §2, dynamics §4, position vs person §10)
 
   🟡 Trust cascade + status ratchet interaction = framework synthesis
   🟢 Status §9.2 (Sapolsky: beta serotonin tăng ngay khi alpha bị loại)
@@ -1208,6 +1209,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → Democracy: citizens = owners, elected officials = leaders
        → Pro: broad participation, self-correction
        → Con: coordination overhead HIGH, decision speed LOW
+
+
+  ⭐ TRUST MAPPING — POSITION vs PERSON (Trust.md v1.0 §10):
+    Mỗi node role có 2 tầng trust ĐỘC LẬP:
+      Trust POSITION (structural): "role CÓ QUYỀN" — per-role, slow change.
+      Trust PERSON (experiential): "NGƯỜI NÀY giỏi?" — per-individual.
+    Config B = replace PERSON mà POSITION trust intact:
+      → "Đổi CEO nhưng công ty vẫn trusted" = position trust giữ nguyên.
+    Position HIGH + person LOW → dysfunction signal → §6 recalibrate.
 ```
 
 ### §5.2 — Tại sao phân tách THƯỜNG hiệu quả hơn

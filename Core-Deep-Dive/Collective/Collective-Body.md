@@ -1,8 +1,9 @@
 ---
 title: Collective Body-Base — Model 3 Cấp (Individual → Collective → Framework)
-version: 2.1
+version: 2.2
 created: 2026-05-08
-updated: 2026-05-23 (v2.1: +§3.1 By-product Scale-Institutional framing (By-Product-Scale v1.0), +§8.5 Technology × Scale interaction, Self-Pattern-Modeling rename Match→Modeling, ALL dep versions updated)
+updated: 2026-06-02 (v2.2: +§5.4 Compilation Source Match — guilt resolution mechanism, trust ≠ valence in guilt, 3-layer guilt model, PFC cannot self-resolve. From Drill-Guilt-Resolution v1.2)
+previous_updates_latest: 2026-05-23 (v2.1: +§3.1 By-product Scale-Institutional framing (By-Product-Scale v1.0), +§8.5 Technology × Scale interaction, Self-Pattern-Modeling rename Match→Modeling, ALL dep versions updated)
 previous_updates:
   - 2026-05-17 (v2.0: Compilable Architecture, §2.5 Individual Detect Collective Gap, Compiled/Fresh, drill integration)
   - 2026-05-14 (v1.2: §3.5 Dual-Pull Propagation)
@@ -117,6 +118,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   - §3.1 enriched: By-product match Scale-Institutional framing (v2.1)
 - §4 — GLOBAL-BODY ANALOGY (~70% Mapping + ~30% Breaks)
 - §5 — TRUST = BRIDGE (Individual ← Collective)
+  - §5.4 — Compilation Source Match (Trust × Guilt Resolution)
 - §6 — SYSTEM COMPILATION (6 Compound Mechanisms)
 - §7 — COUPLING PROXY (Leader / Symbol / Virtual Agent)
 - §8 — COLLECTIVE × AI ERA
@@ -926,6 +928,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → Trust CAO trên entity → TẤT CẢ từ entity đó AMPLIFIED
        → Trust THẤP → TẤT CẢ bị DISCOUNT
        → = Trust KHÔNG selective per-domain (evolution design for small group)
+       → NHƯNG: direct experience CÓ THỂ calibrate per-domain (Trust.md v1.0 §5)
 
     ④ Chain trust = product of link trusts (Valence-Propagation §5 ②):
        → Chain [A → B → C → D]: trust chain ≈ trust(A→B) × trust(B→C) × trust(C→D)
@@ -1096,6 +1099,124 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Cross-domain trust transfer = framework synthesis (Drill §22D)
   🟢 Source credibility transfer: Hovland & Weiss 1951
   🟢 Parasocial relationship: Horton & Wohl 1956
+```
+
+### §5.4 — Compilation Source Match (Trust × Guilt Resolution)
+
+```
+⭐⭐ PRINCIPLE: GUILT RESOLUTION CẦN SIGNAL TỪ ĐÚNG NGUỒN ĐÃ COMPILE GUILT.
+
+  Hypothesis ban đầu: guilt compiled ở level CAO HƠN → cần authority CAO HƠN resolve.
+  COUNTEREXAMPLE PHÁ: lỗi với vợ → Thiên Chúa (authority MAX) KHÔNG resolve.
+  → KHÔNG PHẢI hierarchy (ai CAO HƠN) — mà là SOURCE MATCH (ai ĐÃ COMPILE).
+  → Analogy: mỗi ổ khóa cần ĐÚNG chìa. Cha xứ có chìa "collective moral"
+    nhưng KHÔNG CÓ chìa "vợ." Chỉ vợ có chìa "vợ."
+
+
+  ⭐ 3-LAYER GUILT MODEL:
+
+    Khi vi phạm, body CÓ THỂ fire 1, 2, hoặc CẢ 3 lớp ĐỒNG THỜI:
+
+    ┌───────────────┬───────────────────────┬──────────────────────────────┐
+    │ Lớp           │ Nguồn compile          │ Resolution source             │
+    ├───────────────┼───────────────────────┼──────────────────────────────┤
+    │ ① Per-entity  │ Entity-Compiled        │ ENTITY ĐÓ THA               │
+    │ (cá nhân)     │ (Singer 2004: shared   │ Phụ thuộc entity's valence   │
+    │               │ pain circuits)         │ toward me.                   │
+    ├───────────────┼───────────────────────┼──────────────────────────────┤
+    │ ② Collective  │ Collective moral code  │ COLLECTIVE AUTHORITY         │
+    │ (đạo đức)     │ (schema inheritance,   │ Cha xứ, thẩm phán, trưởng   │
+    │               │ Valence-Propagation    │ lão — proxy cho SOURCE.      │
+    │               │ §3 nguồn ③)           │                              │
+    ├───────────────┼───────────────────────┼──────────────────────────────┤
+    │ ③ Self-model  │ Self-Pattern-Modeling  │ BEHAVIORAL CHANGE + TIME     │
+    │ (tự phán xét) │ ("tôi muốn tốt" vs   │ + body verify. CHẬM NHẤT.    │
+    │               │ "tôi vừa làm xấu")   │ Self-Pattern-Modeling         │
+    │               │                       │ §15.4: moral injury.         │
+    └───────────────┴───────────────────────┴──────────────────────────────┘
+
+    ⚠️ KEY: Resolve 1 lớp → lớp khác VẪN FIRE.
+    → Confession resolve lớp ② (collective moral) → NHẸ NHÕM.
+    → NHƯNG: "tại sao vẫn chưa hết?" = lớp ① (entity chưa tha) + lớp ③ (self-model).
+    → = Tại sao confession CÓ GIÁ TRỊ nhưng KHÔNG giải quyết hoàn toàn.
+
+
+  ⭐ TRUST × GUILT RESOLUTION:
+
+    Lớp ②: cần TRUST CỦA TÔI vào authority — valence IRRELEVANT.
+      → Sợ Chúa (valence -) VẪN work nếu trust HIGH (tin Chúa có quyền tha).
+      → Thích cha xứ (valence +) KHÔNG work nếu trust LOW (không tin authority).
+      → Trust ≠ Valence (Trust.md §1, §6): 2 chiều ĐỘC LẬP.
+      → = Tại sao fear-based religion VẪN effective cho confession.
+
+    Lớp ①: cần ENTITY CHỌN THA — phụ thuộc entity's valence toward me.
+      → Entity vẫn valence + toward me → DỄ tha (gap-fill positive history).
+      → Entity valence - toward me → KHÓ tha (gap-fill negative history).
+      → Trust CỦA TÔI vào entity irrelevant — CẦN entity's decision.
+
+    Lớp ③: cần behavioral change + time + body verify.
+      → PFC tự nói "tôi đã tốt hơn" = verbal (1 channel).
+      → Body cần THẤY hành vi thay đổi THỰC + qua TIME → mới update self-model.
+      → = CHẬM NHẤT vì compiled self-model = DEEP, cần sustained evidence.
+
+    🟢 Singer et al. 2004: shared pain circuits (per-entity guilt neural basis).
+    🟢 Colquitt et al. 2007: trust separable from affect (trust ≠ valence).
+
+
+  ⭐ PFC KHÔNG TỰ THA ĐƯỢC:
+
+    PFC holds ~4±1 items. Guilt = HUNDREDS of interconnected chunks.
+    PFC suppress ≠ resolve — suppression tốn metabolic, unsustainable.
+    PFC runs ON collectively-compiled substrate:
+      → Ngôn ngữ = collective product. "Đúng/sai" = collective definition.
+      → PFC dùng tools collective tạo ra → KHÔNG override được collective.
+      → "Application cannot modify BIOS."
+    PFC tự tha = 1 kênh verbal × ~5% influence × self-assessment.
+    Confession = multi-modal (ritual + space + voice + authority) ×
+      compiled trust (unfalsifiable) × collective-level signal.
+    → = Tại sao confession > self-forgiveness: signal MATCH strength.
+
+    🟢 Cowan 2001: PFC capacity ~4±1 items.
+    🟢 Pennebaker 1997: confession/disclosure benefit for mental health.
+
+
+  ⭐ ENTITY MẤT → UNRESOLVABLE:
+
+    Per-entity guilt (lớp ①) fire MÃI khi entity đã chết/mất.
+    Resolution source MẤT → no signal → no resolution.
+    = Moral injury component of PTSD (Litz et al. 2009).
+    "Cây muốn lặng mà gió chẳng dừng."
+
+    Friendly fire → PTSD NẶG HƠN killing enemy vì:
+      Enemy = NOT Entity-Compiled (chỉ fire lớp ②③).
+      Comrade = DEEP Entity-Compiled (fire CẢ 3 lớp).
+      + Comrade DEAD → lớp ① PERMANENTLY unresolvable.
+
+    🟢 Litz et al. 2009: moral injury — distinct from PTSD.
+    🟢 Drescher et al. 2011: friendly fire → worse outcomes.
+
+
+  ⭐ COORDINATION-NODE MEDIATION:
+
+    Bố mẹ vợ/chồng = mediation, NOT direct resolution.
+    Chain: tôi → authority in entity's network → mediate → entity tha.
+    Mediation CAN open gate, nhưng entity STILL DECIDES.
+    = Coordination-Node v1.2 §2.2: node = partial PFC cho collective.
+    = Node mediate nhưng KHÔNG override entity's autonomy.
+
+    Matthew 5:23-24: "Đi làm hòa TRƯỚC, rồi dâng lễ."
+    → Kinh Thánh ĐÃ BIẾT: per-entity resolution (lớp ①) TRƯỚC collective (lớp ②).
+    → = Bible formalize compilation source match principle 2000 năm trước.
+
+
+🟡 Compilation Source Match = framework synthesis (from Guilt Drill v1.2)
+🟡 3-layer guilt model = framework synthesis
+🟡 PFC cannot self-resolve = framework synthesis (existing PFC ~5% principle)
+🟢 Shared pain circuits: Singer et al. 2004
+🟢 Moral injury: Litz et al. 2009
+🟢 Confession benefit: Pennebaker 1997
+🟢 PFC capacity: Cowan 2001
+🟢 Trust ≠ liking: Colquitt et al. 2007
 ```
 
 ---

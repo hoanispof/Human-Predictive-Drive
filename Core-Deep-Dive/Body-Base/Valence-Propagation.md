@@ -324,6 +324,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ④ Meta-dimensions MODULATE body-base channels
       Trust cao → valence AMPLIFIED (tin người bạn thân → valence mạnh hơn)
       Trust thấp → valence DAMPENED (không tin người lạ → valence yếu)
+      Trust mechanism detail: Trust.md v1.0 (definition, formation, dynamics, 3 sub-dimensions)
       Replaceability dễ → mất entity ÍT impact
       Replaceability khó → mất entity IMPACT LỚN (grief)
 

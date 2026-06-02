@@ -1,8 +1,9 @@
 ---
 title: Entity-Compiled — Neural Reality, Formation, Capacity, Dynamics
-version: 1.0
+version: 1.1
 created: 2026-05-22
-status: MECHANISM v1.0
+updated: 2026-06-02 (v1.1: +§7.5 Per-Entity Guilt — guilt as Entity-Compiled consequence)
+status: MECHANISM v1.1
 scope: |
   DEEP MECHANISM file cho Entity-Compiled:
   Brain compile agent vào body-base ở STRUCTURAL level.
@@ -887,6 +888,36 @@ FRAMEWORK:
 🟢 Fernandez-Alcantara 2024: attachment anxiety → PGD nặng hơn
 🟢 Djelantik 2022: sudden loss → PGD caseness CAO hơn
   (brain chưa pre-compile → prediction error ĐỒNG LOẠT)
+```
+
+### §7.5 — Per-Entity Guilt = Consequence of Entity-Compiled (v1.1)
+
+```
+⭐ PER-ENTITY GUILT = KHI TÔI HURT ENTITY ĐÃ COMPILED:
+
+  Khi tôi hurt entity → Entity-Compiled fire PAIN signal.
+  Singer 2004: "shared pain circuits" = cùng neural pathway.
+  Guilt lớp ① = ongoing pain + inability to resolve WITHOUT entity's signal.
+
+  Entity THA → signal match → guilt lớp ① resolve.
+  Entity CHƯA THA → guilt fire MÃI (no resolution signal).
+  Entity MẤT (chết/mất liên lạc) → resolution source MẤT →
+    guilt fire PERMANENTLY = moral injury component (Litz 2009).
+
+  Entity dead guilt ≠ grief alone:
+    Grief = loss of gap-fill source (§7 model A+B+C).
+    Guilt = ADDITION on top of grief = COMPOUND.
+    → Tại sao "hối hận khi người đã mất" = grief + guilt lớp ① compound.
+
+  Guilt INTENSITY = f(Entity-Compiled depth):
+    Entity-Compiled sâu (mẹ, vợ/chồng) → guilt CỰC MẠNH.
+    Entity-Compiled nông (đồng nghiệp) → guilt nhẹ hơn.
+    Entity-Compiled ≈ 0 (người lạ) → guilt lớp ① KHÔNG fire.
+    → = Cùng hành vi sai, KHÁC entity → KHÁC guilt intensity.
+    → Detail: Collective-Body.md v2.2 §5.4 (3-layer model, Compilation Source Match).
+
+🟢 Singer et al. 2004: shared pain circuits
+🟢 Litz et al. 2009: moral injury
 ```
 
 ---

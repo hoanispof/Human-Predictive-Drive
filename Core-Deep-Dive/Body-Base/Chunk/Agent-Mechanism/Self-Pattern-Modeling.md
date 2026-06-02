@@ -1,7 +1,8 @@
 ---
 title: Self-Pattern-Modeling — Solo Forward Simulation Mechanism
-version: 3.1
+version: 3.2
 created: 2026-04-15
+updated: 2026-06-02 (v3.2: +§15.4 cross-ref to Collective-Body §5.4 guilt 3-layer model — self-model guilt = lớp ③)
 rewritten: 2026-05-22 (v3.1 — RENAME Match→Modeling, Simulation-Engine APPLICATION, 3 dimensions, 42 drill insights integrated)
 previous_versions:
   - v3.0 (2026-05-17, 2569L) → backup/Self-Pattern-Match-v3.0-backup.md
@@ -1251,6 +1252,13 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
 
   KHÁC PTSD: PTSD = threat TO self. Moral injury = threat FROM self.
   🟢 Litz 2009: moral injury — distinct from PTSD
+
+  ⭐ SELF-MODEL GUILT = LỚP ③ TRONG 3-LAYER GUILT MODEL (v3.2):
+    Self-Pattern-Modeling detect mismatch: "tôi muốn tốt" vs "tôi vừa làm xấu."
+    → Prediction-delta NEGATIVE → dissonance → guilt lớp ③.
+    Resolution = behavioral change + time + body verify = CHẬM NHẤT trong 3 lớp.
+    Detail: Collective-Body.md v2.2 §5.4 (Compilation Source Match, 3-layer model).
+    Trust mechanism: Trust.md v1.0.
 ```
 
 ### §15.5 — Strategic Self-Pattern-Modeling: suppress + fake cues + meta-Self-Pattern-Modeling

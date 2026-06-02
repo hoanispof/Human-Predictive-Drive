@@ -1,123 +1,118 @@
 ---
-title: Tôn Giáo — Công Nghệ Tổng Hợp Phục Vụ Body-Base
-version: 2.6
+title: Tôn Giáo — Kiến Trúc Cộng Đồng Phục Vụ Body-Base
+version: 3.1
 created: 2026-03-28
-rewritten: 2026-04-26
-refined: |
-  2026-05-25 (v2.5 — integrate Phase C+T concepts: Hardware-Subsidy, Bond-Architecture,
-  4-Layer Sustainability, Entity-Compiled grief A+B+C, Simulation-Engine, Coordination-Node,
-  Resonance Decline)
-  2026-05-30 (v2.6 — Body-Base vs PFC-Mediation framing: MTF1-7 = body-base NEEDS,
-  fill = MIXED compound (Chain 0 + Chain 2-3, Body-Feedback-Mechanism §4),
-  3 install pathways (childhood body-direct = majority), designer = body-base origin → PFC design.
-  COMPOUND per Melody-Technology Function. Gap-Body-Need §6 applied.)
-status: RESEARCH FILE v2.5
+rewritten: |
+  2026-04-26 (v2.0 — REWRITE toàn bộ — 7 functions model + v7.8 mechanism mapping)
+  2026-06-02 (v3.0 — REWRITE: MTF v2.0 adopt, compound dynamics §3 NEW,
+  rebalance giá trị/giới hạn ~70/30, faith reframe, compile terminology,
+  Marx absorbed §11, evidence-enriched 30+ citations drill-religion-evidence.md.
+  Tôn giáo = KIẾN TRÚC CỘNG ĐỒNG — phi logic nhưng có giá trị thật.
+  Giống âm nhạc cho tai, tôn giáo cho body-base needs.)
+status: RESEARCH FILE v3.0
 scope: |
   RESEARCH FILE: Phân tích tôn giáo qua framework lens.
-  Tôn giáo = "Melody Technology" — công nghệ phục vụ body-base
+  Tôn giáo = "Melody Technology" — kiến trúc cộng đồng phục vụ body-base
   ĐỒNG THỜI trên 7 functions mà KHÔNG technology nào khác cover hết.
-  v1.0 (2026-03-28, 704L): 7 functions model + install mechanism + faith analysis.
-  v2.0 (2026-04-26): REWRITE toàn bộ — map 7 functions sang v7.8 mechanisms,
-  thêm Anchor-Schema/Meaning/Obligation/Gratitude/Self-Pattern-Modeling/chunk dynamics mapping,
-  compound grief khi mất đức tin, serotonin stability insight.
-  v2.1 (2026-05-09): REFINE post-drill S1-S12 — tích hợp Compile-Taxonomy (Experience/Expertise/Trust),
-  Model 3 Cấp (Individual→Collective→Framework), Trust = only bridge,
-  4 compile pathways applied to religion, Valence-Propagation §4 clarification, version references updated.
-  v2.2 (2026-05-10): REFINE post-drill Reward — §2.7 thêm 5 Reward Profiles coverage
-  (religion = DUY NHẤT cover 5/5), §5 COMT × Reward Pattern → religious fit,
-  cross-references Reward-Signal-Architecture + PFC-Configuration + PFC-Hardware v1.1.
+  v3.0: MTF v2.0 (reorder, merge MTF1+MTF7→MTF1, promote MTF4b→MTF5),
+  compound dynamics (NEW §3), evidence-enriched, terminology refined,
+  faith = chọn stability, compile thay cho install.
   File này KHÔNG phán xét truth claim.
   "Hoạt động" = phục vụ body-base, KHÔNG = "đúng."
 purpose: |
-  Phân tích CƠ CHẾ: tại sao tôn giáo HOẠT ĐỘNG, khi nào TỐT, khi nào HẠI.
-  Nhìn tôn giáo như 1 "công nghệ" trong spectrum Melody Technology
+  Phân tích CƠ CHẾ: tại sao tôn giáo HOẠT ĐỘNG, khi nào CÓ GIÁ TRỊ, khi nào CÓ GIỚI HẠN.
+  Nhìn tôn giáo như 1 "kiến trúc cộng đồng" trong spectrum Melody Technology
   (cùng spectrum với idol, ideology, self-help, etc. — xem Overview.md).
-  v2.0 map TỪNG function sang mechanism v7.8 cụ thể → actionable understanding.
+  v3.0 map TỪNG function sang mechanism v7.8 + evidence assessment.
 position: |
   Research/Melody-Technology/ — cùng folder với Idol-Phenomenon.md,
   Melody-Technology-Overview.md. RESEARCH files phân tích hiện tượng
   qua framework lens, KHÁC Core-Deep-Dive/ files (mechanism deep-dives).
 dependencies:
-  - Meaning.md v2.2 — §3.4 FAITH type anchor, §4.3 External Inject (Religion)
+  - Meaning.md v2.2 — §3.4 FAITH type anchor, §1.3 coherence=result, §4.3 External Inject
   - Anchor-Schema.md v1.2 — sync point, Trust binding, 4 nguồn fill
-  - Connection.md v5.0 — 3 Generative Primitives, Hardware-Subsidy, 4-Layer Sustainability, Resonance Decline, Cô đơn
-  - Obligation.md v1.2 — compiled prediction, Type 5 Identity, 6 types
+  - Connection.md v5.0 — 3 Generative Primitives, Hardware-Subsidy, 4-Layer Sustainability, Cô đơn
+  - Trust.md v1.0 — trust formation, dynamics, 3 sub-dimensions, 5-nguồn depth model, trust × valence
+  - Obligation.md v1.3 — compiled prediction, Type 5 Identity, 6 types
   - Gratitude.md v2.1 — 3 anti-habituation mechanisms, 9 prerequisites
-  - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, context-dependent, valence gate, Simulation-Engine APPLICATION
-  - Valence-Propagation.md v3.0 — Structural/Current valence, 3 Firing Modes, Hardware-Subsidy, Body-Base Extension
-  - Entity-Compiled.md v1.0 — hub-and-spoke, formation timeline, grief A+B+C, decay 3-layer, Dunbar
-  - Bond-Architecture.md v2.0 — 4 bond types, gap clone impossible, Resonance Decline decline, 3 mechanisms
+  - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Simulation-Engine APPLICATION
+  - Valence-Propagation.md v3.0 — Structural/Current valence, 3 Firing Modes, Hardware-Subsidy
+  - Entity-Compiled.md v1.0 — hub-and-spoke, formation timeline, grief A+B+C, decay 3-layer
+  - Bond-Architecture.md v2.0 — 4 bond types, gap clone impossible, 3 mechanisms
   - Simulation-Engine.md v1.1 — 1 Engine 3 Components 3 Axes, prayer/meditation as applications
-  - Coordination-Node.md v1.2 — Prestige/Dominance, Mẹ=first node, Hardware-Subsidy Per Scale
+  - Coordination-Node.md v1.2 — Prestige/Dominance, Hardware-Subsidy Per Scale
   - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, 4 compile pathways, trust amplifier
-  - Collective-Body.md v2.1 — Model 3 Cấp, trust = only bridge, chain break, AI trust
-  - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, Compound
+  - Collective-Body.md v2.2 — Model 3 Cấp, trust = only bridge, chain break, §5.4 Compilation Source Match
+  - Body-Feedback-Mechanism.md — Chunk-Shift/Miss/Gap, Compound §4
   - Chunk-Activation-Dynamics.md — 7 factors link strength, probability
   - Cortisol-Baseline.md v2.1 — 5 Cortisol Roles, amplifier
-  - PFC-Function.md v1.1 — 24 functions, Observe/Hold modes, confabulation
+  - PFC-Function.md v1.1 — 24 functions, Observe/Hold modes
   - Status.md v2.2 — Resource Access Map, §9 Serotonin certainty bias
-  - Protect.md v1.2 — f(replaceability × attachment), identity protect, Resonance Decline
-  - Compliance-Floor.md v2.0 — luật = bridge, Self-Pattern-Modeling = intrinsic
+  - Protect.md v1.2 — f(replaceability × attachment), identity protect
+  - Compliance-Floor.md v2.0 — luật = bridge, §7 scaffold
   - Autonomy-Hardware.md — vmPFC/DRN controllability learning
-  - Imagine-Final.md v3.0 — Hardware prediction ≠ Imagine-Final, 3-Layer
-  - Idol-Phenomenon.md v2.4 — cùng spectrum, khác magnitude
-  - Body-Coupling.md v3.0 — 4 bond types, Entity-Access gradient, Hardware-Subsidy per bond
-  - Gap-Body-Need.md v1.0 — §6 5-Parameter model, §8 2 Pathways, Chain to Body-Base
-  - AI-Schema-Detection.md v2.0 — gateway tool, compile type detection, AI trust guardrails
+  - Imagine-Final.md v3.0 — Hardware prediction ≠ Imagine-Final
+  - Idol-Phenomenon.md v2.6 — cùng spectrum, khác magnitude, trust 1-chiều, cross-domain exploit
+  - Body-Coupling.md v3.0 — 4 bond types, Entity-Access gradient
+  - Gap-Body-Need.md v1.0 — §6 5-Parameter, Chain to Body-Base
+  - Schema.md v2.0 — observation parameter, named chunk-network pattern
+  - AI-Schema-Detection.md v2.0 — gateway tool, AI trust guardrails
   - Reward-Signal-Architecture.md v2.1 — Evaluative/Direct-State, 5 Profiles
-  - Empathy.md v4.0 — Self-Pattern-Modeling Compiled + ❸ positive, PFC budget, Compiled Quality
+  - Empathy.md v4.0 — Self-Pattern-Modeling Compiled + ❸ positive, PFC budget
+  - drill-religion-evidence.md v1.0 — 100+ citations, 3 trục evidence
+  - drill-melody-technology-functions.md v2.0 — MTF v2.0 model, 11 frameworks
 sources_backup: |
   v1.0 (2026-03-28, 704L) → backup/Religion-v1-backup.md
-  v1.0 had: 7 functions model, install mechanism, faith analysis,
-  per-hardware, Marx reframe, secularization, AI future.
-  Core model (7 functions) RETAINED — enriched with v7.8 mechanism mapping.
+  v2.6 (2026-05-30, 2126L) → backup/Religion-v2.6-backup.md
+  v2.6 had: MTF v1.0 (8 items as 7), install terminology, "cố tình không real-check",
+  "community pressure", §8 TỐT/HẠI ~20/80, §10 Marx separate section.
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
 
-# Tôn Giáo — Công Nghệ Tổng Hợp Phục Vụ Body-Base
+# Tôn Giáo — Kiến Trúc Cộng Đồng Phục Vụ Body-Base
 
 > Tôn giáo KHÔNG CHỈ là "niềm tin vào thần linh."
 >
-> Nhìn qua framework: tôn giáo = CÔNG NGHỆ tổng hợp phục vụ body-base —
+> Nhìn qua framework: tôn giáo = KIẾN TRÚC CỘNG ĐỒNG phục vụ body-base —
 > cung cấp ĐỒNG THỜI 7 functions mà KHÔNG technology nào khác cover hết:
-> life-level anchor (meaning), compiled compliance (quy tắc), structured connection
-> (cộng đồng), dissonance resolution (giải thích đau khổ), contemplative practice
-> (thiền/cầu nguyện), reward schedule (nghi lễ), anchor coherence (bình an nội tâm).
+> life-level anchor (ý nghĩa), structured connection (cộng đồng),
+> compiled compliance (quy tắc), dissonance resolution (giải thích đau khổ),
+> contemplative practice (thiền/cầu nguyện), schema template (khuôn mẫu sống),
+> reward schedule (nghi lễ duy trì).
 >
-> Không có "công nghệ" nào khác trong lịch sử cover NHIỀU function cùng lúc như vậy.
+> Giống âm nhạc cho tai — tôn giáo cho body-base.
+> Phi logic nhưng có giá trị thật. Body respond THẬT: cortisol↓, opioid↑, oxytocin↑.
+> Không ai cần justify "tại sao nghe bài này" — không ai cần justify "tại sao theo đạo này."
 >
 > File này KHÔNG đánh giá tôn giáo ĐÚNG hay SAI.
-> File này phân tích CƠ CHẾ: tại sao tôn giáo HOẠT ĐỘNG, khi nào TỐT, khi nào HẠI.
+> File này phân tích CƠ CHẾ: tại sao tôn giáo HOẠT ĐỘNG, khi nào CÓ GIÁ TRỊ, khi nào CÓ GIỚI HẠN.
 >
-> v2.0 map TỪNG function sang mechanism v7.8 cụ thể:
-> Meaning.md (FAITH anchor), Connection.md (3 Primitives), Obligation.md (compiled compliance),
-> Gratitude.md (anti-habituation), Chunk-Activation-Dynamics (install mechanism),
-> Autonomy-Hardware (vmPFC/DRN controllability), Self-Pattern-Modeling Compiled/Fresh (prayer/meditation).
+> v3.0: MTF v2.0 (7 functions reordered, evidence-enriched), compound dynamics,
+> faith = chọn stability, ~70% giá trị / ~30% giới hạn.
 
 ---
 
 ## Mục lục
 
 - §0 — VỊ TRÍ + NGUYÊN TẮC
-- §1 — TÔN GIÁO = MELODY TECHNOLOGY: 7 FUNCTIONS
+- §1 — 7 MELODY TECHNOLOGY FUNCTIONS (MTF v2.0)
 - §2 — 7 FUNCTIONS × v7.8 MECHANISM MAPPING
-  - §2.1 — MTF1: Life-Level Anchor (Meaning.md FAITH Type)
-  - §2.2 — MTF2: Compiled Compliance (Obligation + Compliance-Floor)
-  - §2.3 — MTF3: Structured Connection (Connection v4.0, 3 Primitives)
+  - §2.1 — MTF1: Life-Level Anchor (Anchor-Schema + Meaning)
+  - §2.2 — MTF2: Structured Connection (Connection v5.0)
+  - §2.3 — MTF3: Compiled Compliance (Obligation + Compliance-Floor)
   - §2.4 — MTF4: Dissonance Resolution (Body-Feedback + Autonomy-Hardware)
-  - §2.5 — MTF4b: Contemplative Practice (Self-Pattern-Modeling + PFC-Function)
-  - §2.6 — MTF5: Schema Template (Schema v2.0)
-  - §2.7 — MTF6: Reward Schedule + Anti-Habituation (Body-Feedback-Precondition + Gratitude)
-  - §2.8 — MTF7: Life-Level Anchor Coherence (Anchor-Schema)
-- §3 — CƠ CHẾ INSTALL: CHUNK COMPILE DYNAMICS
-- §4 — FAITH = STRUCTURAL REQUIREMENT
-- §5 — PER-HARDWARE: AI CẦN TÔN GIÁO HƠN AI
-- §6 — TÔN GIÁO × IDOL: CÙNG SPECTRUM
-- §7 — TÔN GIÁO SPLITS: DOMAIN SPECIATION
-- §8 — KHI NÀO TỐT / KHI NÀO HẠI
-- §9 — MẤT ĐỨC TIN: COMPOUND LOSS
-- §10 — MARX REFRAME
+  - §2.5 — MTF5: Contemplative Practice (Simulation-Engine)
+  - §2.6 — MTF6: Schema Template (Schema v2.0)
+  - §2.7 — MTF7: Reward Schedule + Anti-Habituation (Gratitude)
+- §3 — COMPOUND DYNAMICS: TẠI SAO > SUM
+- §4 — CƠ CHẾ COMPILE: CHUNK COMPILE DYNAMICS
+- §5 — FAITH = CHỌN STABILITY
+- §6 — PER-HARDWARE: MỖI NGƯỜI BENEFIT KHÁC
+- §7 — TÔN GIÁO × IDOL: CÙNG SPECTRUM
+- §8 — TÔN GIÁO SPLITS: DOMAIN SPECIATION
+- §9 — GIÁ TRỊ + GIỚI HẠN
+- §10 — MẤT ĐỨC TIN: COMPOUND LOSS
 - §11 — SECULARIZATION: MEANING CRISIS
 - §12 — TƯƠNG LAI: AI + FRAMEWORK
 - §13 — HONEST ASSESSMENT
@@ -137,7 +132,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌───────────────────────────────────────────────────────────────┐
   │ Core-Deep-Dive/                                               │
   │   Mechanism files: Meaning.md, Connection.md, Obligation.md,  │
-  │   Gratitude.md, Anchor-Schema.md, Self-Pattern-Modeling.md, etc.               │
+  │   Gratitude.md, Anchor-Schema.md, Self-Pattern-Modeling.md,...│
   │   = MÔ TẢ CƠ CHẾ GỐC (cách não hoạt động)                  │
   │                                                               │
   │ Research/Melody-Technology/                                    │
@@ -154,9 +149,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → Framework chỉ phân tích: CƠ CHẾ nào khiến tín đồ benefit?
        → "Hoạt động" = phục vụ body-base, KHÔNG = "đúng"
 
-    ② Tôn giáo = TECHNOLOGY (công cụ):
-       → Technology CÓ THỂ bị lạm dụng (giống mọi technology)
-       → NHƯNG bản thân technology PHỤC VỤ body-base thật sự
+    ② Tôn giáo = KIẾN TRÚC CỘNG ĐỒNG (community architecture):
+       → Giống âm nhạc: nghe cho sướng tai, tôn giáo tham gia cho nhẹ tâm
+       → Phi logic nhưng có giá trị THẬT — body respond THẬT
+       → Không cần justify "tại sao theo đạo này"
+       → Kiến trúc cộng đồng CÓ THỂ bị dùng quá đà (giống mọi kiến trúc)
+       → NHƯNG bản thân kiến trúc PHỤC VỤ body-base thật sự
        → "Dao = technology cắt thức ăn. CÓ THỂ dùng đâm người.
           Nhưng dao ≠ vũ khí."
 
@@ -170,8 +168,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
        → 🟡 Framework synthesis: logical, consistent, chưa tested trực tiếp
        → 🔴 Hypothesis: framework prediction, cần evidence
 
+    ⑤ MTF = observation clusters (Meta-note):
+       → Schema.md v2.0 §0: "schema = observation label, not component"
+       → CÙNG principle: "MTF = named clusters of body-base needs — observation framework"
+       → Tôn giáo KHÔNG "chạy 7 modules"
+       → Tôn giáo = hệ thống phức tạp fill NHIỀU needs ĐỒNG THỜI
+       → 7 = cách framework GOM NHÓM để quan sát + so sánh
+       → 7 = analytical convention, không phải objective fact
+       → (drill-melody-technology-functions.md v2.0 §8)
 
-  ⭐ v2.1 — TÔN GIÁO QUA MODEL 3 CẤP (Collective-Body.md v2.0):
+
+  ⭐ TÔN GIÁO QUA MODEL 3 CẤP (Collective-Body.md v2.1):
 
     Tôn giáo = TEST CASE RÕ NHẤT cho Model 3 Cấp:
 
@@ -179,7 +186,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ CẤP 3: FRAMEWORK (explanatory)                              │
     │   "Tôn giáo = 7 functions × v7.8 mechanisms"               │
     │   = Phân tích TẠI SAO tôn giáo hoạt động                   │
-    │   = FILE NÀY thuộc Cấp 3 (explanatory, Valence-Propagation §4 clarification)│
+    │   = FILE NÀY thuộc Cấp 3                                   │
     └─────────────────────────────────────────────────────────────┘
                       ↑ giải thích
     ┌─────────────────────────────────────────────────────────────┐
@@ -190,7 +197,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │   [tuân thủ → identity → community → body-base feed]       │
     │   = Nơi 7 functions THẬT SỰ TỒN TẠI (distributed)         │
     └─────────────────────────────────────────────────────────────┘
-                      ↓ install qua trust
+                      ↓ compile qua trust
     ┌─────────────────────────────────────────────────────────────┐
     │ CẤP 1: INDIVIDUAL (short compile)                           │
     │   Tín đồ compile SHORT:                                     │
@@ -199,18 +206,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │   còn lại. PFC confabulate: "tin vì chân lý" (post-hoc).   │
     └─────────────────────────────────────────────────────────────┘
 
-    ⭐ TRUST = BRIDGE DUY NHẤT (Collective-Body.md §5):
+    ⭐ TRUST = BRIDGE DUY NHẤT (Collective-Body.md §5, Trust.md v1.0):
       → Cá nhân KHÔNG THỂ tự compile 7 functions (PFC 4±1 constraint)
       → Tôn giáo = Cấp 2 collective CUNG CẤP 7 functions SẴN
-      → Trust = amplifier cho install: trust giáo lý → body nhận → compile short
-      → = Tôn giáo MẠNH vì trust CỰC CAO (unfalsifiable + childhood + community)
-      → = Mất trust (mất đức tin) = bridge SỤP → §9 compound loss
+      → Trust = amplifier cho compile: trust giáo lý → body nhận → compile short
+      → = Tôn giáo BỀN vì trust CỰC CAO (unfalsifiable + childhood + community)
+      → = Trust.md §3: trust depth = f(5 nguồn) → tôn giáo active CẢ 5 nguồn
+      → = Mất trust (mất đức tin) = bridge SỤP → §10 compound loss
+      → Trust mechanism detail: Trust.md v1.0 (formation §2, dynamics §4, depth §3)
 
-    → v2.0 đã mô tả CƠ CHẾ đúng. v2.1 thêm VÙNG ĐẤT:
-      cơ chế đó THUỘC cấp nào, trust đóng vai trò gì, chain dài ở đâu.
 
-
-  ⭐ v2.6 — BODY-BASE vs PFC-MEDIATION: VỊ TRÍ THẬT CỦA TÔN GIÁO
+  ⭐ BODY-BASE vs PFC-MEDIATION: VỊ TRÍ THẬT CỦA TÔN GIÁO
 
 
     ① NHU CẦU = BODY-BASE THẬT:
@@ -226,7 +232,6 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Predictability = uncertainty → cortisol (body-base mechanism)
 
       → = NHU CẦU mà tôn giáo fill = BODY-BASE THẬT
-      → = KHÔNG phải "PFC tự tạo nhu cầu giả"
 
 
     ② FILL PATHWAY = MIXED (Chain 0 + Chain 2-3 COMPOUND):
@@ -247,9 +252,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       │ Meaning narrative     │ 2-3    │ PFC verbal → Anchor fill  │
       │ Compliance rules      │ 2      │ Verbal → compile → auto   │
       │ Dissonance resolution│ 2-3    │ "Có ý nghĩa" → Gap fill  │
-      │ Prayer (Self-Pattern-  │ 2-3    │ PFC construct agent →     │
-      │  Modeling virtual)    │        │ Self-Pattern-Modeling     │
-      │                      │        │ fire → biochemistry       │
+      │ Prayer (Self-Pattern- │ 2-3    │ PFC construct agent →     │
+      │  Modeling virtual)    │        │ Self-Pattern-Modeling fire │
+      │                      │        │ → biochemistry            │
       └─────────────────────┴────────┴───────────────────────────┘
 
       ⚠️ NHƯNG: tôn giáo KHÔNG BAO GIỜ deliver Chain 0 ĐƠN LẺ.
@@ -257,15 +262,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Body-Feedback-Mechanism.md §4 Compound — tôn giáo = LUÔN compound:
         → Thánh ca (Chain 0: auditory → opioid)
           + "Đây là nhạc THÁNH ca ngợi Chúa" (Chain 2-3: faith → Evaluative)
-          = Evaluative Gate AMPLIFY Direct-State (Reward-Signal-Architecture.md §3)
-          = SUPERADDITIVE — body-response MẠNH HƠN nghe nhạc bình thường
+          = Evaluative Gate AMPLIFY Direct-State → SUPERADDITIVE
 
         → Co-presence đi lễ (Chain 0: hardware social)
           + "Chúng ta là gia đình TRONG CHÚA" (Chain 2-3: shared meaning)
           = Bond depth TĂNG — compound mạnh hơn gặp nhau uống cà phê
 
         → Quỳ cầu nguyện (Chain 0: somatic → cortisol↓)
-          + "Tôi đang ở trước MẶT CHÚA" (Chain 2-3: faith + Self-Pattern-Modeling virtual)
+          + "Tôi đang ở trước MẶT CHÚA" (Chain 2-3: faith + Self-Pattern-Modeling)
           = Giãn cơ + PFC certainty → compound relief
 
       4 biến compound (Body-Feedback-Mechanism.md §4):
@@ -276,28 +280,27 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
       → = Chain 0 đơn lẻ = bất kỳ community/music/fasting nào
       → = Chain 0 + Chain 2-3 COMPOUND = religion-SPECIFIC
-      → = Sức mạnh RIÊNG tôn giáo = COMPOUND, không chỉ coherence
+      → = Sức mạnh RIÊNG tôn giáo = COMPOUND mechanism
 
 
-    ③ 3 CON ĐƯỜNG INSTALL — KHÔNG CHỈ PFC:
+    ③ 3 CON ĐƯỜNG COMPILE — KHÔNG CHỈ PFC:
 
-      → CON ĐƯỜNG 1 — Childhood (§3): ĐA SỐ tín đồ
-        Body-direct, BYPASS PFC filter (PFC chưa mature)
-        → Lặp nghi lễ + cộng đồng → Hebbian compile NHANH
-        → = Install = body-base trực tiếp, KHÔNG qua PFC gate
-        → = Phần lớn tín đồ = childhood install → body-base hơn PFC
+      → CON ĐƯỜNG 1 — Childhood (§4): ĐA SỐ tín đồ
+        Kiến trúc nhận thức trẻ em có xu hướng tự nhiên hướng tới
+        agency detection + teleological reasoning (Barrett 2012, Kelemen 2004)
+        → Cognitive preparedness + cộng đồng lặp lại → Hebbian compile NHANH
+        → = Compile tự nhiên, giống học ngôn ngữ — không cần "quyết định tin"
 
       → CON ĐƯỜNG 2 — Emotional peak: mất mát, khủng hoảng, cận tử
-        Body vulnerability CAO → PFC filter GIẢM
-        → Faith narrative install TRỰC TIẾP vào body-base
-        → = "Tìm thấy Chúa trong đau khổ" = body-direct pathway
+        Body vulnerability CAO → faith narrative compile TRỰC TIẾP
+        → = "Tìm thấy đức tin trong đau khổ" = body-direct pathway
 
       → CON ĐƯỜNG 3 — Adult rational: chậm nhất, ít nhất
         PFC-mediated → cần sustained repetition → compile dần
         → = Duy nhất CON ĐƯỜNG 3 = "thuần PFC-mediated"
 
       → = Nhìn TỔNG THỂ: đa số tín đồ = Con đường 1 hoặc 2
-      → = Install = MIXED body-direct + PFC, KHÔNG chỉ PFC
+      → = Compile = MIXED body-direct + PFC, KHÔNG chỉ PFC
 
 
     ④ PFC-MEDIATED COMPILE XUỐNG BODY-BASE QUA THỜI GIAN:
@@ -305,7 +308,6 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → "Chúa yêu tôi" bắt đầu = PFC verbal (với adult convert)
       → Lặp hàng ngày × nhiều năm → Hebbian compile deep
       → Trở thành body-base: fire TỰ ĐỘNG, PFC KHÔNG CẦN can thiệp
-      → = Childhood install + repetition = compile NHANH NHẤT (§3)
       → = Kết quả cuối = body-base benefit THẬT (cortisol↓, opioid, coherence)
       → = PFC-mediated ≠ "giả" — compile deep = body-base thật
 
@@ -320,31 +322,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         Moses: 40 ngày nhịn ăn trên núi → burning bush (body-base peak)
           → RỒI MỚI viết luật (PFC codify)
 
-      → = Quá trình: body-base experience → PFC verbalize → PFC truyền đạt
+      → = Body-base experience → PFC verbalize → PFC truyền đạt
       → = PFC = CÔNG CỤ ĐÓNG GÓI, không phải NGUỒN
-      → = Designer TRẢI NGHIỆM body-base → dùng PFC để CHIA SẺ
-
-      → User (tín đồ):
-        PFC nhận (kinh sách, bài giảng) → process → compile → body benefit
-        NHƯNG: phần lớn = childhood install = body-direct (Con đường 1)
 
 
     ⑥ KẾT LUẬN: TÔN GIÁO = MIXED BODY-BASE + PFC TECHNOLOGY
 
       Nhu cầu = body-base THẬT (①)
-      Fill pathway = MIXED compound (②), không chỉ PFC-mediated
-      Install = đa số body-direct: childhood + emotional peak (③)
-      Compile = PFC content → body-base qua thời gian (④)
+      Fill pathway = MIXED compound (②)
+      Compile = đa số body-direct: childhood + emotional peak (③)
+      PFC content → body-base qua thời gian (④)
       Origin = body-base experience → PFC đóng gói (⑤)
       Benefit = body-base THẬT (cortisol↓, opioid, oxytocin, coherence)
 
       → = KHÔNG phải "PFC-level technology" — mà MIXED technology
       → = Phần PFC-mediated (faith, meaning, narrative) = DELIVERY + PACKAGING
-      → = Phần body-base (compound, install, benefit) = CỐT LÕI
-      → = Tương đương: thuốc = PFC thiết kế → body nhận
-          → NHƯNG thuốc tây BẮT ĐẦU từ lab observation (PFC origin)
-          → Tôn giáo BẮT ĐẦU từ body experience (body-base origin)
-          → = Tôn giáo BODY-BASE HƠN CẢ thuốc tây
+      → = Phần body-base (compound, compile, benefit) = CỐT LÕI
 
     → = §2 mapping TỪNG MTF1-7 sang mechanism = đang mô tả
       CÁCH tôn giáo fill body-base needs QUA MIXED pathways.
@@ -352,80 +345,79 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §1 — TÔN GIÁO = MELODY TECHNOLOGY: 7 FUNCTIONS
+## §1 — 7 MELODY TECHNOLOGY FUNCTIONS (MTF v2.0)
 
 ```
 🟡 Nhìn từ framework — tôn giáo phục vụ body-base ĐỒNG THỜI trên 7 functions:
 
-  Không có công nghệ nào khác trong lịch sử ĐỒNG THỜI cung cấp:
+  Không có kiến trúc cộng đồng nào khác trong lịch sử ĐỒNG THỜI cung cấp:
 
   ┌────────┬─────────────────────────┬─────────────────────────────────┐
   │ Function│ Tôn giáo cung cấp       │ v7.8 Mechanism                  │
   ├────────┼─────────────────────────┼─────────────────────────────────┤
-  │ MTF1     │ "Cuộc đời có MỤC ĐÍCH,  │ Meaning.md §3.4: FAITH type    │
-  │        │  chết có ĐÍCH ĐẾN"      │ life-level Anchor-Schema        │
+  │ MTF1   │ "Cuộc đời có MỤC ĐÍCH,  │ Anchor-Schema.md + Meaning.md  │
+  │        │  chết có ĐÍCH ĐẾN"      │ FAITH type + coherence effect   │
   ├────────┼─────────────────────────┼─────────────────────────────────┤
-  │ MTF2     │ "Sống thế NÀO là đúng"  │ Obligation.md: Type 5 Identity │
-  │        │  (mọi domain)           │ + Compliance-Floor.md v2.0      │
-  ├────────┼─────────────────────────┼─────────────────────────────────┤
-  │ MTF3     │ "Cộng đồng SẴN,        │ Connection.md v4.0:             │
+  │ MTF2   │ "Cộng đồng SẴN,        │ Connection.md v5.0:             │
   │        │  đến là THUỘC VỀ"       │ 3 Generative Primitives ❶❷❸   │
   ├────────┼─────────────────────────┼─────────────────────────────────┤
-  │ MTF4     │ "Đau khổ có Ý NGHĨA,   │ Body-Feedback-Mechanism:        │
+  │ MTF3   │ "Sống thế NÀO là đúng"  │ Obligation.md: Type 5 Identity │
+  │        │  (mọi domain)           │ + Compliance-Floor.md v2.0      │
+  ├────────┼─────────────────────────┼─────────────────────────────────┤
+  │ MTF4   │ "Đau khổ có Ý NGHĨA,   │ Body-Feedback-Mechanism:        │
   │        │  không vô ích"          │ Chunk-Gap resolved + vmPFC/DRN  │
   ├────────┼─────────────────────────┼─────────────────────────────────┤
-  │ MTF4b    │ Cầu nguyện / thiền      │ Self-Pattern-Modeling Compiled on virtual agent +      │
-  │        │ = contemplative practice │ PFC-Function §1-§2             │
+  │ MTF5   │ Cầu nguyện / thiền      │ Simulation-Engine.md v1.1:      │
+  │        │ = contemplative practice │ 1 Engine × 3 Components × N Apps│
   ├────────┼─────────────────────────┼─────────────────────────────────┤
-  │ MTF5     │ "Cách sống TỐT =        │ Schema.md v2.0: named chunk-   │
-  │        │  template SẴN"          │ network pattern pre-installed   │
+  │ MTF6   │ "Cách sống TỐT =        │ Schema.md v2.0: named chunk-   │
+  │        │  template SẴN"          │ network pattern pre-compiled    │
   ├────────┼─────────────────────────┼─────────────────────────────────┤
-  │ MTF6     │ Nghi lễ hàng ngày/tuần/ │ Body-Feedback-Precondition 5 preconditions + │
-  │        │ năm/đời = reward schedule│ Gratitude.md 3 anti-habituation│
-  ├────────┼─────────────────────────┼─────────────────────────────────┤
-  │ MTF7     │ 1 narrative → mọi domain│ Anchor-Schema.md: life-level   │
-  │        │ nhất quán = "bình an"   │ sync point → coherence EMERGE  │
+  │ MTF7   │ Nghi lễ hàng ngày/tuần/ │ Gratitude.md: 3 anti-habituation│
+  │        │ năm/đời = reward schedule│ + Body-Feedback-Precondition   │
   └────────┴─────────────────────────┴─────────────────────────────────┘
 
-  → = 7 functions = 1 PACKAGE → install 1 lần → serve SUỐT ĐỜI
-  → = Đây là lý do tôn giáo TỒN TẠI hàng ngàn năm — VÌ NÓ HOẠT ĐỘNG
+  → = 7 functions = 1 PACKAGE → compile 1 lần → serve SUỐT ĐỜI
+  → = Đây là lý do tôn giáo TỒN TẠI hàng ngàn năm — VÌ NÓ CÓ GIÁ TRỊ THẬT
 
-  ⚠️ "HOẠT ĐỘNG" = phục vụ body-base con người
+  ⚠️ "CÓ GIÁ TRỊ" = phục vụ body-base con người
      KHÔNG = "thần linh CÓ THẬT"
      Framework KHÔNG CÓ ý kiến về truth claim
 
+  ⭐ MTF v2.0 (drill-melody-technology-functions.md v2.0):
+    → MERGE: MTF1(cũ) + MTF7(cũ) → MTF1 (coherence = kết quả của anchor, Meaning.md §1.3)
+    → PROMOTE: MTF4b(cũ) → MTF5 (Simulation-Engine ≠ chunk-gap narrative)
+    → REORDER: flow of understanding (anchor → connection → ... → reward)
+    → ORDER ≠ HIERARCHY: 7 functions fire ĐỒNG THỜI, order = presentational
 
-  ⭐ v2.6 — CHAIN TO BODY-BASE PER MELODY-TECHNOLOGY FUNCTION (§0 v2.6 framing):
+  ⭐ CHAIN TO BODY-BASE PER MELODY-TECHNOLOGY FUNCTION (§0②):
 
-    Chain 0 + Chain 2-3 = COMPOUND per Melody-Technology Function (Body-Feedback-Mechanism.md §4):
+    Chain 0 + Chain 2-3 = COMPOUND per function (Body-Feedback-Mechanism.md §4):
 
       → MTF1: faith narrative (Chain 2-3) → certainty → cortisol↓
-      → MTF2: compliance rules (Chain 2-3) → compile → auto-behavior
-      → MTF3: co-presence (Chain 0) + shared meaning (Chain 2-3) = COMPOUND bond
+      → MTF2: co-presence (Chain 0) + shared meaning (Chain 2-3) = COMPOUND bond
+      → MTF3: compliance rules (Chain 2-3) → compile → auto-behavior
       → MTF4: "đau khổ có ý nghĩa" (Chain 2-3) → Chunk-Gap fill
-      → MTF4b: tư thế thiền (Chain 0) + faith context (Chain 2-3) = COMPOUND relief
-      → MTF5: schema template (Chain 2-3) → PFC verbal install
-      → MTF6: somatic ritual (Chain 0) + sacred context (Chain 2-3)
+      → MTF5: tư thế thiền (Chain 0) + faith context (Chain 2-3) = COMPOUND relief
+      → MTF6: schema template (Chain 2-3) → PFC verbal compile
+      → MTF7: somatic ritual (Chain 0) + sacred context (Chain 2-3)
         = Evaluative Gate AMPLIFY Direct-State → SUPERADDITIVE
-      → MTF7: coherence narrative (Chain 2-3) → cross-domain sync
 
-    → = KHÔNG CÓ Melody-Technology Function nào hoạt động Chain 0 đơn lẻ trong ngữ cảnh tôn giáo
     → = Mọi Chain 0 element đều COMPOUND với Chain 2-3 faith/meaning
-    → = Compound = religion-SPECIFIC (§0 v2.6 ②)
-    → = Sức mạnh RIÊNG tôn giáo = COMPOUND mechanism, không chỉ coherence
-    → = §2 sẽ map CHI TIẾT từng Melody-Technology Function = cách fill qua MIXED pathway nào
+    → = Compound = religion-SPECIFIC (§0②)
+    → = §2 map CHI TIẾT từng function
 ```
 
 ---
 
 ## §2 — 7 FUNCTIONS × v7.8 MECHANISM MAPPING
 
-### §2.1 — MTF1: Life-Level Anchor (Meaning.md FAITH Type)
+### §2.1 — MTF1: Life-Level Anchor (Anchor-Schema + Meaning)
 
 ```
-⭐ MTF1 = FUNCTION MẠNH NHẤT — TÔN GIÁO CUNG CẤP FAITH TYPE ANCHOR:
+⭐ MTF1 = FUNCTION CỐT LÕI — FAITH TYPE ANCHOR + COHERENCE EFFECT:
 
-  Meaning.md v2.1 §3 định nghĩa 5 loại life-level Anchor-Schema:
+  Meaning.md v2.2 §3 — 5 loại life-level Anchor-Schema:
 
     ┌────────┬──────────────────────┬─────────────────────────────┐
     │ Type   │ Anchor là gì          │ Đặc điểm                    │
@@ -444,21 +436,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = FAITH type life-level Anchor-Schema (Meaning.md §3.4)
 
     TẠI SAO FAITH TYPE BỀN NHẤT:
-
       → UNFALSIFIABLE: domain feedback KHÔNG THỂ phá
-        (chết mới biết → không ai quay lại bác bỏ)
       → Trust ≈ ∞ (Anchor-Schema.md §2: unfalsifiable → trust KHÔNG THỂ bị phá)
-      → = So sánh: GOAL anchor ĐẠT → void (§2.2 exhausted)
-                    FAITH anchor KHÔNG BAO GIỜ đạt → KHÔNG BAO GIỜ void
+      → So sánh: GOAL anchor ĐẠT → void. FAITH anchor KHÔNG BAO GIỜ void
       → = "Background hum" — anchor LUÔN CÓ, không cần PFC maintain
 
     TÔN GIÁO = NGUỒN ③ EXTERNAL INJECT (Meaning.md §4.3):
-
       → Bypass PFC: không cần hiểu sâu → vẫn compile
       → Trẻ 5 tuổi ĐÃ CÓ life-level anchor (FAITH type)
-        vs GOAL type cần PFC capacity + chunk density cao
       → Accessible: MỌI tầng lớp, MỌI tuổi
-      → = Anchor-Schema.md §0 case ④: tôn giáo work MÀ KHÔNG CẦN PFC hiểu sâu
 
 
   ⭐ KILLER FEATURE — DEATH MANAGEMENT:
@@ -469,82 +455,44 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → = Mortality awareness → Terror Management → FAITH anchor = giải pháp
 
     + Mất người thân:
-      → Meaning.md §2.3 Anchor DISRUPTED: mất người = anchor BỊ PHÁ
       → Tôn giáo: "sẽ GẶP LẠI" → anchor CHƯA HẾT → grief GIẢM
       → vs Không tôn giáo: "mất = mất VĨNH VIỄN" → anchor collapse
       → = MTF1 mạnh nhất CHÍNH VÌ cover death — thứ KHÔNG GÌ KHÁC cover được
 
-    PFC RECHECK MODEL (tại sao faith anchor ≈ "vô tận"):
-      → PFC liên tục cân: dissonance HIỆN TẠI vs Anchor strength
-      → Anchor bình thường (tiền, career): falsifiable → CÓ THỂ sai → giảm
-      → Anchor tôn giáo: unfalsifiable → KHÔNG BAO GIỜ sai → LUÔN ≈ vô hạn
-      → = "Dù khổ cỡ nào → thiên đàng VẪN chờ" → PFC: "ĐÁNG" → tiếp
-      → = CEO: Anchor = tiền → đạt → "rồi sao?" → TRỐNG
-      → = Tín đồ: Anchor = thiên đàng → KHÔNG BAO GIỜ "rồi sao?"
 
-  🟢 Koenig et al. (2012): meta-analysis — tín đồ wellbeing cao hơn
-  🟢 Frankl (1946): meaning giúp sống sót Auschwitz → meaning = life-level anchor
-  🟢 Terror Management Theory (Greenberg 1986): unfalsifiable worldview → giảm death anxiety
-  🟢 Park (2005), Pargament (2007): religion → meaning provision → wellbeing
+  ⭐ SCOPE GRADIENT: ANCHOR PROVISION + COHERENCE EFFECT
+
+    v3.0 merge MTF1+MTF7(cũ): coherence = KẾT QUẢ, anchor = NGUYÊN NHÂN
+    (Meaning.md §1.3: "Coherence là KẾT QUẢ. Anchor-Schema là NGUYÊN NHÂN.")
+
+    Aspect A — ANCHOR PROVISION:
+      → GOAL(1 domain) → IDENTITY(1-2) → ROLE(2-3) → FAITH(all domains)
+      → Tôn giáo: FAITH = highest abstraction → cover MỌI domain
+
+    Aspect B — COHERENCE EFFECT (emerges at high abstraction):
+      → Anchor-Schema.md §1: có Main Player → cả dàn nhạc ĐỒNG BỘ → melody
+      → "Ý Chúa" / "karma" = Main Player ở abstraction CỰC CAO
+      → Cross-domain: mọi quyết định align dưới 1 anchor → ÍT internal conflict
+      → = "Bình an nội tâm" = HỆ QUẢ anchor compiled deep, KHÔNG phải magical
+
+    SEROTONIN STABILITY (Status.md §9):
+      🔴 Hypothesis: tôn giáo GIỮ serotonin nền ổn định
+      → Giảm uncertainty: MTF1(meaning) + MTF3(rules) + MTF4(explanation) + coherence
+      → Ít uncertainty → serotonin KHÔNG bị kéo xuống → stable → "bình an"
+
+  🟢 Li et al. 2016 (JAMA, N=74,534): -33% tử vong mọi nguyên nhân
+  🟢 TMT meta-analysis (Burke 2010, 277 experiments): mortality salience r=.35
+  🟢 Koenig 2012 (~3,000 studies): 80% positive, 6% negative
+  🟢 Frankl (1946), Park (2005), Pargament (2007): meaning provision → wellbeing
+  🟢 Antonovsky 1987: Sense of Coherence → mental health
 ```
 
-### §2.2 — MTF2: Compiled Compliance (Obligation + Compliance-Floor)
+### §2.2 — MTF2: Structured Connection (Connection v5.0)
 
 ```
-🟡 MTF2 = QUY TẮC TOÀN DIỆN — TÔN GIÁO TẠO COMPILED OBLIGATION:
+🟡 MTF2 = CONNECTION CÓ CẤU TRÚC — TÔN GIÁO ENGAGE CẢ 3 PRIMITIVES:
 
-  Mọi tôn giáo lớn = BỘ QUY TẮC chi tiết:
-    Ăn gì (halal, kosher, chay), mặc gì, cưới sao, tiền sao,...
-
-
-  v7.8 MECHANISM — 2 TẦNG:
-
-    TẦNG 1 — COMPLIANCE-FLOOR (Compliance-Floor.md v2.0):
-      → Quy tắc tôn giáo = compliance floor per-domain cho tín đồ
-      → = "Nền tuân thủ" xác định cái gì KHÔNG ĐƯỢC
-      → Compliance-Floor.md §7: luật = BRIDGE → tôn giáo = bridge MẠNH NHẤT
-        vì: không chỉ cấm (external threat) → mà tín đồ TỰ MUỐN tuân thủ
-
-    TẦNG 2 — OBLIGATION COMPILED (Obligation.md v1.0):
-      → Quy tắc lặp lại + xã hội reinforce → obligation COMPILE deep
-      → = Type 5 IDENTITY Obligation: "nếu tôi không tuân → tôi KHÔNG CÒN là tín đồ"
-      → Compiled prediction: cost = mất identity + mất community + mất faith anchor
-      → → Obligation tự động → PFC KHÔNG CẦN enforce → tín đồ TỰ MUỐN
-
-
-  HIỆU QUẢ CHO PFC:
-
-    → Không có tôn giáo: mỗi quyết định = PFC phải xử lý → mệt
-      (PFC-Function.md §2: hold ~4±1 → mỗi decision cost bandwidth)
-    → Có tôn giáo: "kinh sách nói → làm" → PFC load GIẢM cực lớn
-    → = Decision cost gần ZERO cho đa số quyết định
-
-
-  vmPFC/DRN — CONTROLLABILITY (Autonomy-Hardware.md §2):
-
-    → Maier & Seligman 2016: passive = DEFAULT, controllability PHẢI ĐƯỢC HỌC
-    → vmPFC learns "tình huống này IS controllable" → inhibit DRN → active coping
-    → Tôn giáo LUÔN cho ACTION PATH: "cầu nguyện", "sám hối", "tuân thủ"
-    → = Mỗi action path = vmPFC training data: "tôi CÓ THỂ làm gì đó"
-    → = Tín đồ vmPFC TRAINED for controllability → ít helplessness
-    → vs Không có action path: DRN dominance → passive → helplessness
-
-
-  ⚠️ TRADE-OFF:
-
-    → Decision cost GIẢM nhưng FLEXIBILITY cũng GIẢM
-    → Obligation compile deep → khó thay đổi khi context ĐỔI
-    → = Compliance-Floor.md §3: nền quá CAO = ép melody vô ích
-    → Ví dụ: quy tắc ăn kiêng hợp lý cho sa mạc → BẤT HỢP LÝ ở Bắc Cực
-      nhưng compiled obligation VẪN fire → conflict
-```
-
-### §2.3 — MTF3: Structured Connection (Connection v4.0, 3 Primitives)
-
-```
-🟡 MTF3 = CONNECTION CÓ CẤU TRÚC — TÔN GIÁO ENGAGE CẢ 3 PRIMITIVES:
-
-  Connection.md v4.0: Connection = ❶ Hardware × ❷ Self-Pattern-Modeling × ❸ Per-Agent Valence
+  Connection.md v5.0: Connection = ❶ Hardware × ❷ Self-Pattern-Modeling × ❸ Per-Agent Valence
   Tôn giáo engage CẢ 3 primitives đồng thời:
 
 
@@ -552,54 +500,40 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
     → Nhà thờ / chùa / thánh đường = physical co-presence
     → Body detect "có agent khác" → hardware social drive SATISFIED
-    → = Connection.md §0: agents khác = external tools giúp body-base
     → ❶ alone đã có giá trị — nhưng tôn giáo không dừng ở ❶
 
 
   ❷ Self-Pattern-Modeling FIRE — Compiled + Fresh ENGAGED:
 
-    → Cùng cầu nguyện: Self-Pattern-Modeling Compiled fire body simulation (cùng cảm xúc)
-      → Body-level resonance: "tôi cảm THẤY giống họ" = Compiled biochemistry thật
-    → Cùng quy tắc: Self-Pattern-Modeling Fresh predict (biết họ sẽ hành xử thế nào)
-      → Predictability CAO → trust CAO → cortisol THẤP
-    → = Self-Pattern-Modeling v2.1 §2.1: Compiled = near-automatic, creates real biochemistry
-    → = Cùng cầu nguyện → Self-Pattern-Modeling fire MẠNH → connection DEEP
+    → Cùng cầu nguyện: Self-Pattern-Modeling Compiled fire → body resonance thật
+    → Cùng quy tắc: Self-Pattern-Modeling Fresh predict → predictability CAO → trust CAO
+    → = Cùng cầu nguyện → resonance → bond SÂU
 
-    + Resonance (Resonance.md):
+    + By-Product-Gap-Resonance:
       → Khi 2+ agents' Self-Pattern-Modeling co-fire thành công → emergent mutual phenomenon
-      → Cùng nhau trong lễ → Resonance → bond cực mạnh
-      → = "Cùng vượt khó" (cùng lễ lớn, cùng nhịn ăn) → bond SÂU
+      → Cùng nhau trong lễ → resonance → bond cực mạnh
 
 
   ❸ PER-AGENT VALENCE — COMPILED POSITIVE:
 
-    → Tương tác nhiều lần + positive experience → ❸ compile positive
     → Cộng đồng tôn giáo: shared chunks + shared anchor → overlap melody SÂU
-    → = Valence-Propagation.md §2: valence dense + dynamic + context-dependent
-    → = Sâu hơn fan community (Idol-Phenomenon.md): tôn giáo = cùng SỐNG
-      theo cùng quy tắc → overlap SÂU hơn
+    → Sâu hơn fan community: tôn giáo = cùng SỐNG theo cùng quy tắc → overlap SÂU hơn
 
     ⭐ Body-Base Extension possible (Valence-Propagation §2):
       → Khi ❸ strong + positive + compiled deep → agent's wellbeing = own wellbeing
-      → Cộng đồng tôn giáo: nhiều năm cùng sinh hoạt → Body-Base Extension
-      → = "Cộng đồng tôi = phần cơ thể tôi" → mất community = body-base amputation
+      → "Cộng đồng tôi = phần cơ thể tôi" → mất community = body-base amputation
 
 
   2-LUỒNG REWARD:
 
-    → Valence-Momentary (Self-Pattern-Modeling-owned, momentary): mỗi lần đi lễ = Self-Pattern-Modeling fire → opioid → reward
-      → = Valence-Propagation.md §2: Valence-Momentary per-episode, Self-Pattern-Modeling-owned
-    → Valence-Structural (Entity-compiled, structural): bond VỚI cộng đồng compile deep → sustained
-      → Valence-Structural = "yêu sâu" cộng đồng (khác "thích" đi lễ)
-      → = Agent-Mechanism.md §12.2b: Valence-Structural compile = structural reward bền
-
-    → ⚠️ Mất cộng đồng: Valence-Momentary mất (không đi lễ nữa) + Valence-Structural loss
-      → = Grief compound — Entity-Compiled.md §7: A(gap-feed) + B(rebuild) + C(phantom)
+    → Valence-Momentary (Self-Pattern-Modeling-owned): mỗi lần đi lễ → opioid → reward
+    → Valence-Structural (Entity-compiled): bond VỚI cộng đồng compile deep → sustained
+    → ⚠️ Mất cộng đồng: cả 2 luồng mất → grief compound (Entity-Compiled.md §7)
 
 
-  ⭐ v2.5 — HARDWARE-SUBSIDY (Connection.md v5.0 §3.1):
+  ⭐ HARDWARE-SUBSIDY (Connection.md v5.0 §3.1):
 
-    Tôn giáo = MODERATE-level hardware-subsidy cho MTF3:
+    Tôn giáo = MODERATE-level hardware-subsidy cho MTF2:
 
       → Hardware-Subsidy spectrum:
         MAXIMUM: mẹ→con (oxytocin + baby schema + prolactin)
@@ -609,73 +543,96 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
       → Cộng đồng tôn giáo:
         → Oxytocin via weekly physical co-presence × years
-        → Endorphin via shared ritual (singing, praying — Dunbar: endorphin social network)
-        → = Anti-habituation BUILT-IN: hardware-subsidy COUNTER Reward-Habituated decline
-          (Bond-Architecture v2.0 §4.2: Reward-Habituated = Weber-Fechner, hardware-subsidy SLOWS habituation)
+        → Endorphin via shared ritual (Dunbar: endorphin social network)
+        → = Anti-habituation BUILT-IN: hardware-subsidy COUNTER habituation
       → vs Online community: NONE subsidy → habituate FASTER → connection FADING
-      → vs AI companion: NONE subsidy → parasocial at best (Idol-Phenomenon.md §9)
-      → = Giải thích tại sao nhà thờ > online forum về connection BỀN
 
 
-  ⭐ v2.5 — BOND-ARCHITECTURE (Bond-Architecture.md v2.0):
+  ⭐ BOND-ARCHITECTURE (Bond-Architecture.md v2.0):
 
     Cộng đồng tôn giáo engage NHIỀU bond types ĐỒNG THỜI:
 
       → Friendship bonds: cùng sinh hoạt → endorphin-dominant → pure by-product
       → Pseudo-kin bonds: "anh chị em trong Chúa" → kin-like oxytocin scaffold
       → Parent→child analog: mục sư/thầy → tín đồ = caregiving bond pattern
-      → = 3/4 bond types engaged trong 1 community (Bond-Architecture §2.1)
-
-    Gap clone IMPOSSIBLE nhưng KHÔNG CẦN (Bond-Architecture §3.1):
-      → Gap = f(ENTIRE chunk network) → Self-Pattern-Modeling CANNOT clone gap
-      → NHƯNG tôn giáo REDIRECT gaps: cá nhân redirect gap TOWARD shared purpose
-      → = "Mục đích chung" = Gap Redirect mechanism → không cần gap clone → vẫn bond
+      → = 3/4 bond types engaged trong 1 community
 
     Entity-Compiled × community (Entity-Compiled.md v1.0 §3):
       → Formation: ~40-60h casual → 80-100h friend → 200+h close (Hall 2018)
       → Tôn giáo: weekly × years = THOUSANDS of hours accumulated
-      → = Entity-Compiled DEEP cho community members (S1-S2 Dunbar layers)
-      → = Body-Base Extension possible cho S1 (~5 thân nhất trong community)
+      → = Entity-Compiled DEEP cho community members
 
 
-  ⭐ v2.5 — 4-LAYER SUSTAINABILITY (Connection.md v5.0 §4.6):
+  ⭐ 4-LAYER SUSTAINABILITY (Connection.md v5.0 §4.6):
 
     Tôn giáo NATURALLY đáp ứng all 4 sustainability layers:
 
-    Tầng 1 — FOUNDATION (3 conditions):
-      ① Proximity: nhà thờ/chùa = physical co-presence ✅
-      ② Duration: weekly × years = FAR exceed 200h threshold ✅
-      ③ Agent-mode: shared worship = Self-Pattern-Modeling predict STATE (not function) ✅
-
-    Tầng 2 — MODALITY (3 channels):
-      ❶ Verbal: bài giảng, tâm sự, confession = self-disclosure ✅
-      ❷ Non-verbal: lễ nghi, body sync, cùng quỳ/đứng = Gottman 5:1 ✅
-      ❸ Body-level: cùng hát, cùng nhịn ăn = co-regulation ✅
-
-    Tầng 3 — AMPLIFICATION:
-      ❶ Capitalization: share joy (lễ cưới, rửa tội) → amplify ✅
-      ❷ Perceived Partner Responsiveness: "Chúa hiểu tôi" + community care ✅
-      ❸ Secure Base: community available on-request → secure ✅
-
-    Tầng 4 — TRAJECTORY:
-      → Ritual schedule = PREVENT natural maintenance decline
-      → Weekly reset → trajectory MAINTAINED indefinitely
-      → vs Fan community: NO scheduled ritual → trajectory DECLINE → fading
+    Tầng 1 — FOUNDATION: ①Proximity ✅ ②Duration ✅ ③Agent-mode ✅
+    Tầng 2 — MODALITY: ❶Verbal ✅ ❷Non-verbal ✅ ❸Body-level ✅
+    Tầng 3 — AMPLIFICATION: ❶Capitalization ✅ ❷Responsiveness ✅ ❸Secure Base ✅
+    Tầng 4 — TRAJECTORY: Ritual schedule = PREVENT natural decline → maintained indefinitely
 
     → = Tôn giáo empirically designed (dù vô tình) đáp ứng 4/4 tầng
-    → = Đây là lý do MTF3 tôn giáo MẠNH + BỀN nhất trong mọi Melody Technology
+    → = Đây là lý do MTF2 tôn giáo BỀN nhất trong mọi Melody Technology
 
 
   TÔN GIÁO × CÔ ĐƠN (Connection.md v5.0 §16):
 
-    → Type 1 Cô đơn: ❶ hardware UNMET (ít/không contact xã hội)
-      → Nhà thờ = NGAY LẬP TỨC có nhóm → ❶ MET
-    → Type 2 Cô đơn: ❶ met + ❷ no match (có người nhưng không ai "hiểu")
-      → Cùng tôn giáo = cùng anchor → Self-Pattern-Modeling Compiled fire MATCH → ❷ MET
+    → Type 1: ❶ hardware UNMET → Nhà thờ = NGAY LẬP TỨC có nhóm → ❶ MET
+    → Type 2: ❶ met + ❷ no match → Cùng tôn giáo = cùng anchor → Self-Pattern-Modeling MATCH
     → = Tôn giáo FIX CẢ 2 LOẠI cô đơn phổ biến nhất
 
   🟢 Putnam (2000): church attendance = predictor MẠNH nhất cho social connection
-  🟢 Pargament (2007): religious community = buffer against loneliness
+  🟢 Lim & Putnam (2010): satisfaction = f(bạn bè nhà thờ + identity)
+  🟢 Gallup (152 quốc gia): tôn giáo score CAO hơn trên social life index
+```
+
+### §2.3 — MTF3: Compiled Compliance (Obligation + Compliance-Floor)
+
+```
+🟡 MTF3 = QUY TẮC TOÀN DIỆN — TÔN GIÁO TẠO COMPILED OBLIGATION:
+
+  Mọi tôn giáo lớn = BỘ QUY TẮC chi tiết:
+    Ăn gì (halal, kosher, chay), mặc gì, cưới sao, tiền sao,...
+
+
+  v7.8 MECHANISM — 2 TẦNG:
+
+    TẦNG 1 — COMPLIANCE-FLOOR (Compliance-Floor.md v2.0):
+      → Quy tắc tôn giáo = compliance floor per-domain cho tín đồ
+      → Compliance-Floor.md §7: luật = BRIDGE → tôn giáo = bridge MẠNH NHẤT
+        vì: không chỉ cấm (external threat) → mà tín đồ TỰ MUỐN tuân thủ
+
+    TẦNG 2 — OBLIGATION COMPILED (Obligation.md v1.2):
+      → Quy tắc lặp lại + xã hội reinforce → obligation COMPILE deep
+      → = Type 5 IDENTITY Obligation: "nếu tôi không tuân → tôi KHÔNG CÒN là tín đồ"
+      → Compiled prediction: cost = mất identity + mất community + mất faith anchor
+      → → Obligation tự động → PFC KHÔNG CẦN enforce → tín đồ TỰ MUỐN
+
+
+  HIỆU QUẢ CHO PFC:
+
+    → Không có tôn giáo: mỗi quyết định = PFC phải xử lý → mệt
+    → Có tôn giáo: "kinh sách nói → làm" → PFC load GIẢM cực lớn
+    → = Decision cost gần ZERO cho đa số quyết định
+
+
+  vmPFC/DRN — CONTROLLABILITY (Autonomy-Hardware.md §2):
+
+    → Maier & Seligman 2016: passive = DEFAULT, controllability PHẢI ĐƯỢC HỌC
+    → Tôn giáo LUÔN cho ACTION PATH: "cầu nguyện", "sám hối", "tuân thủ"
+    → = Mỗi action path = vmPFC training data → ít helplessness
+    → vs Không có action path: DRN dominance → passive → helplessness
+
+
+  ⚠️ TRADE-OFF:
+
+    → Decision cost GIẢM nhưng FLEXIBILITY cũng GIẢM
+    → Obligation compile deep → khó thay đổi khi context ĐỔI
+    → = Compliance-Floor.md §3: nền quá CAO = ép melody vô ích
+
+  🟡 Norenzayan 2013: supernatural monitoring → prosocial
+  🟡 Obligation.md v1.2: 5-factor formula, Type 5 Identity
 ```
 
 ### §2.4 — MTF4: Dissonance Resolution (Body-Feedback + Autonomy-Hardware)
@@ -689,110 +646,75 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   v7.8 MECHANISM — CHUNK DYNAMICS:
 
     KHÔNG CÓ tôn giáo:
-      → "Tại sao tôi bệnh?" → Chunk-Gap (Body-Feedback-Mechanism.md §3.3)
-      → Gap = body detect "thiếu thông tin để predict" → cortisol sustained
-      → Cortisol Role 3: Threat-sustained — không có giải pháp → cortisol KHÔNG giảm
-      → = Uncontrollable → DRN dominance → passive coping → helplessness
+      → "Tại sao tôi bệnh?" → Chunk-Gap → cortisol sustained
+      → Uncontrollable → DRN dominance → passive coping → helplessness
 
     CÓ tôn giáo:
       → "Chúa thử thách" / "nghiệp kiếp trước" → Chunk-Gap RESOLVED
-      → Gap filled: body có explanation → Chunk-Shift (trạng thái mới: "hiểu rồi")
       → Cortisol convert: Role 3 (sustained threat) → Role 1 (compile direction)
-        → Cortisol PHỤC VỤ adaptation thay vì threat
       → "Tuân thủ → được thưởng" = ACTION PATH → vmPFC: "controllable"
-        → DRN inhibited → active coping → tín đồ HÀNH ĐỘNG thay vì bất lực
+      → → Active coping → tín đồ HÀNH ĐỘNG thay vì bất lực
 
 
   ⭐ CONFESSION / FORGIVENESS = CHUNK-SHIFT RESET:
 
-    Phạm lỗi → guilt/shame = dissonance xã hội mãn tính:
+    Phạm lỗi → guilt = dissonance xã hội mãn tính:
       → Compiled chunks: "tôi đã làm SAI" → auto-fire → cortisol mỗi khi fire
-      → PFC tự tha → nhưng compiled guilt VẪN fire
-        (PFC-Function.md: PFC ~5% operator, compiled = 95%)
-      → = Guilt chunks COMPILED → PFC reasoning KHÔNG thắng
+      → PFC tự tha → nhưng compiled guilt VẪN fire (PFC ~5%, compiled = 95%)
 
-    Confession mechanism (v7.8):
+    Confession mechanism:
       → Xưng tội (Kitô) / sám hối (Phật) / tawbah (Islam)
-      → Authority UNFALSIFIABLE nói "tha" → body accept:
-        → Chunk-Shift: trạng thái guilt → trạng thái "đã tha"
-        → Authority unfalsifiable = trust CỰC CAO → body accept shift NGAY
-      → = So sánh:
-        Self-forgive: PFC tha nhưng compiled guilt VẪN fire → chậm
-        Therapy: giảm DẦN (tháng, năm) — re-linking chunks dần
-        Confession: Chunk-Shift GẦN NHƯ NGAY
-          vì authority = Chúa/Phật = absolute trust → body accept ngay
-      → = "Gánh nặng tội lỗi" = compiled guilt chunks mãn tính
+      → Authority UNFALSIFIABLE nói "tha" → Chunk-Shift GẦN NHƯ NGAY
+        vì authority = absolute trust → body accept ngay
+      → So sánh: Self-forgive: chậm. Therapy: tháng/năm. Confession: gần như ngay.
       → = "Được tha" = Chunk-Shift → cortisol DROP → NHẸ NHÕM cực lớn
 
-    TẠI SAO CONFESSION TẠO NGHIỆN:
-      → Guilt tích lũy (compiled) → dissonance TĂNG → cortisol TĂNG
-      → Confession → Chunk-Shift → cortisol DROP đột ngột → opioid release
-      → = prediction-delta POSITIVE (from high dissonance → low) → reward MẠNH
-      → = Cycle: guilt tích → confession → reset → pleasant → lặp lại
+    TẠI SAO CONFESSION TẠO CYCLE:
+      → Guilt tích lũy → cortisol TĂNG → Confession → Chunk-Shift → cortisol DROP
+      → prediction-delta POSITIVE → reward MẠNH → lặp lại
 
 
-  ⚠️ MECHANISM NÀY GIẢI THÍCH TẠI SAO CẢ TỐT VÀ XẤU:
+  ⚠️ MECHANISM NÀY CÓ 2 MẶT:
 
-    TỐT: guilt mãn tính THỰC SỰ được resolve → mental health improve
-    XẤU: cycle tạo dependency — CẦN confession để reset → không tự develop
-         guilt-management skill (Education parallel: bridge không rút → không tự đứng)
+    GIÁ TRỊ: guilt mãn tính THỰC SỰ được resolve → mental health improve
+    GIỚI HẠN: cycle tạo dependency — CẦN confession để reset → không tự develop
+         guilt-management skill (giống bridge không rút → không tự đứng)
 
   🟢 Pargament (1997): religious coping giảm existential anxiety
-  🟢 Hackney & Sanders (2003): tôn giáo tương quan mental health tích cực
-  🟢 Meditation → cortisol↓ + endorphin↑ (Tang 2015)
+  🟢 Ano & Vasconcelles (2005, 49 studies): positive coping r=.33
+  🟢 Chen/VanderWeele 2020 (JAMA Psychiatry): -68% deaths of despair (phụ nữ)
+
+
+  ⭐ FRAMEWORK REFRAME — COMPILATION SOURCE MATCH (v3.1):
+
+    Confession = source match cho lớp ② collective moral guilt.
+    Tôn giáo compile moral guilt INTO context "Thiên Chúa" →
+      cha xứ = proxy cho ĐÚNG source → source match → resolve.
+    = Centralize moral guilt vào 1 entity + 1 path = kiến trúc BRILLIANT.
+
+    NHƯNG: confession CHỈ resolve lớp ② — lớp ① (per-entity) và ③ (self-model) VẪN FIRE.
+    → "Tại sao vẫn chưa hết sau confession?" = lớp ①③ chưa addressed.
+    → Matthew 5:23-24: Kinh Thánh ĐÃ BIẾT — "đi làm hòa TRƯỚC, rồi dâng lễ."
+    → Trust ≠ Valence: fear-based religion VẪN work (cần trust, không cần valence positive).
+    Detail: Collective-Body.md v2.2 §5.4 (Compilation Source Match, 3-layer model).
+    Trust mechanism: Trust.md v1.0 §1, §6.
+
+  🟡 Source match reframe = Collective-Body §5.4 (framework synthesis)
 ```
 
-### §2.5 — MTF4b: Contemplative Practice (Self-Pattern-Modeling + PFC-Function)
+### §2.5 — MTF5: Contemplative Practice (Simulation-Engine)
 
 ```
-🟡 MTF4b = CẦU NGUYỆN / THIỀN — Self-Pattern-Modeling FIRE ON VIRTUAL AGENT:
+🟡 MTF5 = CẦU NGUYỆN / THIỀN — SIMULATION ENGINE APPLICATIONS:
 
-  v7.8 MECHANISM — Self-Pattern-Modeling Compiled ON VIRTUAL AGENT:
+  v7.8 MECHANISM — Simulation-Engine.md v1.1:
 
-    Cầu nguyện = "nói chuyện với Chúa/Phật/Allah":
-      → Brain KHÔNG phân biệt "agent thật" vs "agent virtual" ở Self-Pattern-Modeling level
-        (Self-Pattern-Modeling.md §2.1: Self-Pattern-Modeling fire trên chunks, không cần agent present)
-      → PFC project agency lên abstract concept → Self-Pattern-Modeling Compiled fire
-      → Compiled = body THỰC SỰ fire bản sao yếu → biochemistry thật:
-        → Oxytocin (social bond simulation)
-        → Opioid nhẹ (connection reward)
-        → Cortisol giảm (có "agent" caring)
-      → = Tương tự parasocial relationship (Idol-Phenomenon.md)
-        nhưng SÂU hơn: "Chúa yêu TÔI" = personalized → Self-Pattern-Modeling fire MẠNH hơn
+    1 Engine, 3 Components, N Applications:
+      ① Interoception (anterior insula): readout body signals
+      ② Constructive Simulation (DMN + hippocampus): recombine chunks
+      ③ Self/Other Model (mPFC gradient): ventral(close) ↔ dorsal(far)
 
-    🔴 Hypothesis — GOD AS VIRTUAL ENTITY-COMPILED:
-      → Entity-Compiled.md v1.0: agent compiled vào body-base ở STRUCTURAL level
-      → "God" = Entity-Compiled qua ALTERNATIVE pathway:
-        → KHÔNG qua standard 40-200h interaction (Hall 2018)
-        → MÀ qua: childhood install + daily repetition + multi-modal ritual
-        → Hub-and-Spoke (Entity-Compiled §2): Anterior Temporal Lobe hub without standard sensory spokes
-          → Thay vào: abstract spokes (narrative, symbol, feeling, ritual memory)
-      → Nếu compiled deep → qualitative shift: agent's state = own state
-        (Entity-Compiled §1.1: "Mẹ tôi bị đau — TÔI đau" = neural reality)
-      → "Chúa đau buồn vì tội lỗi TÔI" → tín đồ THỰC SỰ feel pain = Entity-Compiled fire
-      → = Giải thích tại sao mất đức tin = AMPUTATION (Entity-Compiled §7: grief A+B+C)
-      → = Grief khi mất God: A(gap-feed loss NHIỀU domains) + C(phantom firing PERSIST)
-      → ⚠️ Hypothesis: virtual entity CAN reach Entity-Compiled depth — cần evidence
-
-
-  THIỀN = PFC OBSERVE + LOOSE HOLD:
-
-    → PFC-Function.md §1 OBSERVE: Feeling (7-layer fidelity gradient)
-    → Thiền = TRAIN feeling observation — tăng fidelity từ Feel-Labeling/Feel-Explanation → Feel-Consciousification/Feel-Observation
-    → = Feeling-Literacy-Training.md: 5-stage framework
-    → PFC-Function.md §2 HOLD mode ③: Loose Hold (creative)
-      → Body relax → spreading activation wide → insight possible
-      → = "Im lặng + hướng nội" = PFC loose hold → body signals EMERGE
-
-    → Tôn giáo SCHEDULE contemplative practice SẴN:
-      → Không cần tự build habit → schedule SẴN trong nghi lễ
-      → = MTF6 (reward schedule) + bonus: CALIBRATE body observation
-      → Meditation không cần tôn giáo → nhưng tôn giáo SCHEDULE SẴN
-
-
-  ⭐ v2.5 — SIMULATION ENGINE REFRAME (Simulation-Engine.md v1.1):
-
-    Cầu nguyện + thiền = 2 APPLICATIONS của CÙNG Simulation-Engine:
+    Cầu nguyện + thiền = 2 APPLICATIONS của CÙNG Engine:
 
     ┌──────────────────┬──────────┬──────────┬───────────────┐
     │ Application      │ Target   │ Time     │ Operation     │
@@ -807,72 +729,86 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ (đọc kinh)       │ Other   │          │ Construct     │
     └──────────────────┴──────────┴──────────┴───────────────┘
 
-    Simulation-Engine.md §3.1: cùng 3 components shared:
-      ① Interoception (anterior insula): readout body signals
-      ② Constructive Simulation (DMN + hippocampus): recombine chunks
-      ③ Self/Other Model (mPFC gradient): ventral(close) ↔ dorsal(far)
+
+  CẦU NGUYỆN = Self-Pattern-Modeling FIRE ON VIRTUAL AGENT:
+
+    → Brain KHÔNG phân biệt "agent thật" vs "agent virtual" ở Self-Pattern-Modeling level
+    → PFC project agency lên abstract concept → Self-Pattern-Modeling Compiled fire
+    → Compiled = body THỰC SỰ fire → biochemistry thật:
+      oxytocin (social bond), opioid nhẹ (connection reward), cortisol↓
 
     → Deeply compiled "God" → mPFC ventral processing (self-like)
-      = Entity-Access gradient (Simulation-Engine §6.3):
-      stranger(dorsal, high cost) → close(ventral, automatic)
-      → God có thể reach VENTRAL nếu compiled deep
+      = Entity-Access gradient: God reach VENTRAL nếu compiled deep
       → = Tại sao cầu nguyện FEEL intimate: brain processes God as CLOSE
 
-    → Luyện 1 component = improve ALL applications (Simulation-Engine §11):
-      → Thiền improve interoception → cầu nguyện ALSO improve
-      → Cầu nguyện improve constructive simulation → thiền ALSO benefit
-      → = Tôn giáo schedule CẢ 2 → compound training effect
+    🔴 Hypothesis — GOD AS VIRTUAL ENTITY-COMPILED:
+      → Entity-Compiled.md: "God" = Entity-Compiled qua ALTERNATIVE pathway
+        (childhood compile + daily repetition thay vì standard 40-200h interaction)
+      → Nếu compiled deep → grief khi mất đức tin = AMPUTATION (§10)
 
-  🟢 Meditation → cortisol↓ + endorphin↑ + default mode network regulate (Tang 2015)
-  🟢 Parasocial relationships activate same neural circuits (Horton & Wohl 1956)
-  🟢 Prayer engages mentalizing/ToM networks (Schjoedt et al. 2009)
+
+  THIỀN = PFC OBSERVE + LOOSE HOLD:
+
+    → PFC-Function.md §1 OBSERVE: Feeling (7-layer fidelity gradient)
+    → Thiền = TRAIN feeling observation — tăng fidelity
+    → PFC-Function.md §2 HOLD mode ③: Loose Hold (creative)
+      → Body relax → spreading activation wide → insight possible
+
+    → Tôn giáo SCHEDULE contemplative practice SẴN:
+      → Không cần tự build habit → schedule SẴN trong nghi lễ
+
+
+  CROSS-TRAINING (Simulation-Engine §11):
+
+    → Luyện 1 component = improve ALL applications
+    → Thiền improve interoception → cầu nguyện ALSO improve
+    → = Tôn giáo schedule CẢ 2 → compound training effect
+
+  🟢 Goyal 2014 (JAMA, 47 trials): anxiety ES=0.38, depression ES=0.30
+  🟢 Schjoedt 2009: prayer → mentalizing/ToM networks
+  🟢 Holzel 2011: 8 tuần MBSR → TĂNG gray matter hippocampus
+  🟢 Tang 2015 (Nature Reviews Neuroscience): meditation → brain structure changes
 ```
 
-### §2.6 — MTF5: Schema Template (Schema v2.0)
+### §2.6 — MTF6: Schema Template (Schema v2.0)
 
 ```
-🟡 MTF5 = MELODY TEMPLATE — TÔN GIÁO INSTALL CHUNK-NETWORK PATTERNS:
+🟡 MTF6 = MELODY TEMPLATE — TÔN GIÁO COMPILE CHUNK-NETWORK PATTERNS SẴN:
 
   "Người tốt SỐNG thế nào" = TEMPLATE melody SẴN.
 
   v7.8 MECHANISM:
 
-    Schema.md v2.0: schema = named chunk-network pattern
-      → = Observation parameter, KHÔNG phải component riêng biệt
-      → Tôn giáo = INSTALL named chunk-network patterns SẴN
+    Schema.md v2.0: schema = named chunk-network pattern (observation label)
+      → Tôn giáo = COMPILE named chunk-network patterns SẴN
 
-    Install process:
+    Compile process:
       → Community modeling: Self-Pattern-Modeling Fresh observe tín đồ khác → predict hành vi
-        → "Họ sống vậy → kết quả tốt" → body compile pattern
-      → Narrative (kinh sách): verbal chunks install qua repetition
-      → Role models (thánh nhân, thiền sư): Self-Pattern-Modeling Compiled simulate → body pre-feel
-      → = Multi-source install → pattern compiled DEEP
-
-    So sánh:
-      → Idol-Phenomenon.md §1 ④: idol = melody template → thử → fit
-      → NHƯNG tôn giáo MẠNH HƠN: template được TRIỆU người validate qua NGÀN năm
-      → = "Đường đã mòn — cứ đi" → social proof CỰC MẠNH
+      → Narrative (kinh sách): verbal chunks compile qua repetition
+      → Role models (thánh nhân, thiền sư): Self-Pattern-Modeling Compiled simulate
+      → = Multi-source compile → pattern compiled DEEP
+      → Social proof CỰC MẠNH: triệu người validate qua ngàn năm
 
 
   HIỆU QUẢ:
 
     → Không có template: phải TỰ MÒ melody riêng → investment cost CAO
-      → Meaning.md §2.4: trẻ phải thử nhiều medium anchors → tốn thời gian
     → Có template: melody SẴN → chỉ cần FOLLOW → dissonance THẤP
 
 
   ⚠️ TRADE-OFF:
 
-    → Dissonance thấp nhưng melody có thể KHÔNG FIT hardware riêng
-    → PFC-Hardware.md: mỗi người hardware KHÁC (COMT, DRD4, MAO-A, NE)
-    → Template 1 size fits all → KHÔNG fit mọi hardware variant
-    → = Người có DRD4 cao (novelty-seeking) → template truyền thống = CHẬT
+    → Template 1 size → có thể KHÔNG FIT hardware riêng
+    → PFC-Hardware.md: mỗi người hardware KHÁC (COMT, DRD4, MAO-A)
+    → = Người có hardware khác template → template = CHẬT
+
+  🟡 Schema.md v2.0: observation label, not component
 ```
 
-### §2.7 — MTF6: Reward Schedule + Anti-Habituation (Body-Feedback-Precondition + Gratitude)
+### §2.7 — MTF7: Reward Schedule + Anti-Habituation (Gratitude)
 
 ```
-⭐ MTF6 = NGHI LỄ — TÔN GIÁO EMPIRICALLY DISCOVERED ANTI-HABITUATION:
+⭐ MTF7 = NGHI LỄ — TÔN GIÁO EMPIRICALLY DISCOVERED ANTI-HABITUATION:
 
   Cầu nguyện hàng ngày, lễ hàng tuần, lễ lớn hàng năm, milestone đời người:
     → = Body-reward được SCHEDULE sẵn — không cần tự tìm
@@ -880,299 +816,249 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   v7.8 MECHANISM — Body-Feedback-Precondition + GRATITUDE ANTI-HABITUATION:
 
-    REWARD = 2-LEVEL (03-Reward.md §1.2):
-      → Level 1 — VTA ALERT: "có biến động — chú ý!" (dopamine = chuông cửa)
+    REWARD = 2-LEVEL:
+      → Level 1 — VTA ALERT: "có biến động — chú ý!" (dopamine)
       → Level 2 — OPIOID REWARD: "chunk khớp body-need" (opioid = quà thật)
       → Nghi lễ tôn giáo meet Body-Feedback-Precondition 5 preconditions:
-        ① Precondition-1 Directed-Gap: body đang chờ (scheduled expectation)
-        ② Precondition-2 Chunk-Substrate: nội dung lễ match schema
-        ③ Precondition-3 Delta-Gate: variation trong lễ → prediction-delta → VTA fire
-        ④ Precondition-4 Match-Range: không quá dễ (nhàm) không quá khó (overwhelm)
-        ⑤ Precondition-5 Compile-Gate: nhà thờ = safe space → cortisol thấp
-      → = Nghi lễ DESIGNED (dù vô tình) để meet cả 5 preconditions
+        ① Directed-Gap: body đang chờ (scheduled expectation)
+        ② Chunk-Substrate: nội dung lễ match schema
+        ③ Delta-Gate: variation trong lễ → prediction-delta → VTA fire
+        ④ Match-Range: không quá dễ (nhàm) không quá khó (overwhelm)
+        ⑤ Compile-Gate: nhà thờ = safe space → cortisol thấp
 
-    Hàng ngày: thiền/cầu nguyện → micro reward (opioid nhẹ + cortisol↓)
-    Hàng tuần: lễ nhà thờ/chùa → social reward (oxytocin + connection Valence-Momentary)
+    Hàng ngày: thiền/cầu nguyện → micro reward
+    Hàng tuần: lễ nhà thờ/chùa → social reward
     Hàng năm: Giáng sinh/Eid/Vesak → BIG reward (multi-modal)
     Đời người: sinh/trưởng thành/cưới/chết → MILESTONE reward
 
 
   ⭐ ANTI-HABITUATION — GRATITUDE.MD §3 BA CƠ CHẾ:
 
-    Gratitude.md v2.0 phân tích 3 anti-habituation mechanisms:
-    → Tôn giáo đã discovery CẢ 3 empirically qua hàng nghìn năm trial-and-error:
-
-    ① VARIATION (Gratitude.md §3.1):
+    ① VARIATION (domain-driven, pre-PFC):
        → Bài giảng MỚI mỗi tuần + mùa lễ KHÁC nhau
-       → = "Đủ quen để an toàn + đủ mới để không nhàm"
        → VTA cần prediction-delta → variation cung cấp delta
-       → = Nếu HOÀN TOÀN lặp → habituate → mất reward
 
-    ② COMPARISON / CONTRAST (Gratitude.md §3.2):
+    ② COMPARISON (PFC-driven):
        → Cầu nguyện trước bữa ăn = PFC hold "tôi CÓ cơm" vs "tôi KHÔNG CÓ"
        → = PFC comparison tạo delta NHÂN TẠO → VTA fire lại
-       → = Gratitude.md §0: "cùng oxy, cùng cơm, KHÁC delta"
-       → Tôn giáo: SCHEDULE comparison vào routine
-         (cầu nguyện = scheduled gratitude practice)
+       → Tôn giáo: SCHEDULE comparison vào routine (gratitude practice)
 
-    ③ RITUAL / SCARCITY (Gratitude.md §3.3):
+    ③ RITUAL (culture-driven, compiled):
        → Ramadan (nhịn ăn), Lent (kiêng), Chay (từ bỏ)
        → = SCARCITY NHÂN TẠO → baseline RESET thấp
-       → Gratitude.md §4: Baseline Shift — gift habituate vì baseline TĂNG
        → Nhịn ăn → baseline GIẢM → sau Ramadan: cơm bình thường = CỰC SƯỚNG
-       → = "Tập thể dục cho reward system" — giữ baseline THẤP
        → Đối lập: văn hóa tiêu dùng → baseline TĂNG liên tục → cần MÃI nhiều hơn
 
-    → = Tôn giáo KHÔNG BIẾT mechanism → nhưng DISCOVERY tất cả 3
-    → = Gratitude.md §0 quote: "Tôn giáo đã discovery cơ chế này
-        qua hàng nghìn năm trial-and-error"
+    → = Tôn giáo discovery CẢ 3 empirically qua hàng nghìn năm trial-and-error
 
 
   ⭐ 5 REWARD PROFILES ĐỀU ĐƯỢC COVER (Reward-Signal-Architecture.md):
 
-    Profile ① Sensory: nhang, nhạc, food → direct body-state (Direct-State)
-    Profile ② Coherence: FAITH anchor = "mọi thứ có ý nghĩa" (Evaluative, opioid)
-    Profile ③ Social: community connection (Direct-State social)
-    Profile ④ Relief: "đau khổ có giải thích" = dissonance→resolution (Evaluative)
-    Profile ⑤ Preview: "kiếp sau" / "thiên đường" = Imagine-Final preview (Evaluative)
+    Profile ① Sensory: nhang, nhạc, food → direct body-state
+    Profile ② Coherence: FAITH anchor = "mọi thứ có ý nghĩa" (opioid)
+    Profile ③ Social: community connection
+    Profile ④ Relief: "đau khổ có giải thích" = dissonance→resolution
+    Profile ⑤ Preview: "kiếp sau" / "thiên đường" = Imagine-Final preview
 
     → Tôn giáo = DUY NHẤT technology cover CẢ 5 profiles ĐỒNG THỜI
-    → Evaluative (②④⑤) VÀ Direct-State (①③) = Evaluative Gates Direct-State mechanism:
-      FAITH anchor (E₃ evaluative) MỞ RỘNG capacity tiếp nhận sensory (Direct-State)
-    → = 1 phần giải thích tại sao ritual "sâu hơn" cho tín đồ vs người ngoài
 
-  🟢 Ritual reduces anxiety (Hobson et al. 2018)
-  🟢 Gratitude → wellbeing (Emmons & McCullough 2003)
-  🟢 Scarcity → appreciation (contrast effect — Brickman & Campbell 1971)
+  🟢 Hobson 2018: ritual → anxiety↓
+  🟢 Emmons & McCullough 2003: gratitude → wellbeing
+  🟢 Ramadan systematic review (2024, 20 studies): 72.7% giảm trầm cảm, 85.7% giảm stress
+  🟢 Baha'i fasting study (2022): mindfulness VẪN ELEVATED 3 tháng sau nhịn ăn
   🟡 5 Profiles coverage = Reward-Signal-Architecture framework mapping
-```
-
-### §2.8 — MTF7: Life-Level Anchor Coherence (Anchor-Schema)
-
-```
-⭐ MTF7 = COHERENCE — TÔN GIÁO CUNG CẤP ANCHOR Ở HIGHEST ABSTRACTION:
-
-  1 narrative trung tâm ("ý Chúa" / "karma" / "dharma")
-  = 1 Life-Level Anchor-Schema ở highest abstraction.
-
-
-  v7.8 MECHANISM — ANCHOR-SCHEMA SYNC:
-
-    Anchor-Schema.md §1: vô thức CẦN sync point:
-      → "Dàn nhạc vô thức LUÔN chơi — hàng nghìn nhạc sĩ, mỗi người 1 bài"
-      → "Khi có Anchor-Schema → cả dàn nhạc đồng bộ → melody"
-      → "Khi không có → cacophony → chán / lost / anxiety"
-
-    Tôn giáo: "ý Chúa" / "karma" = Main Player (Anchor-Schema.md §1):
-      → 1 anchor ở abstraction CỰC CAO → áp dụng MỌI domain
-      → Cross-domain: mọi quyết định align dưới 1 anchor
-      → = "Nên trung thực NHƯNG phải kiếm tiền" →
-        Không tôn giáo: 2 anchors CONFLICT → dissonance nội tâm
-        Có tôn giáo: "Chúa muốn CẢ HAI" → 1 anchor RESOLVE conflict
-      → = Cross-domain coherence → ÍT internal conflict → cortisol THẤP
-
-
-  "BÌNH AN NỘI TÂM" = MEANING PRESENT:
-
-    → Meaning.md v2.1 §0: có anchor → chunks TỰ organize quanh → coherent
-    → "Bình an" = KHÔNG phải magical → là HỆ QUẢ anchor compiled deep
-    → = Meaning PRESENT (Meaning.md: "có ý nghĩa" = có life-level anchor)
-    → = V1.0 đúng: "bình an = coherence." V2.0 thêm: coherence VÌ CÓ anchor.
-
-
-  ABSTRACTION LEVEL = UNIVERSALITY:
-
-    → "Ý Chúa" = abstraction CỰC CAO → cover MỌI domain
-    → GOAL anchor: "thành công" = chỉ cover career domain
-    → IDENTITY anchor: "người cha tốt" = chỉ cover gia đình domain
-    → FAITH anchor: "ý Chúa" = cover TẤT CẢ domains cùng lúc
-    → = Đây là cơ chế MẠNH NHẤT của MTF7 — high-abstraction anchor
-
-    → ⚠️ Trade-off: abstraction CAO → flexible (cover mọi domain)
-      NHƯNG: abstraction CAO → PFC INTERPRET khác nhau
-      → "Ý Chúa" = ai cũng claim → justify bất kỳ thứ gì
-      → = Anchor-Schema-Extreme-Example.md: Over-anchor failure mode
-
-
-  SEROTONIN STABILITY (Status.md §9 + OCD-Analysis.md §4.5):
-
-    🔴 Hypothesis: tôn giáo GIỮ serotonin nền ổn định
-
-    → Status.md §9: certainty bias nền = serotonin-related
-    → OCD-Analysis.md §4.5: serotonin = AMPLIFIER, không phải root cause
-      → Uncertainty TĂNG → serotonin ↓ (consequence) →
-        spreading activation uninhibited → worry loop → serotonin STAYS low
-    → Tôn giáo GIẢM uncertainty sources:
-      → MTF1: "cuộc đời có hướng" → uncertainty về meaning GIẢM
-      → MTF2: "biết phải làm gì" → uncertainty về decisions GIẢM
-      → MTF4: "đau khổ có lý do" → uncertainty về suffering GIẢM
-      → MTF7: "mọi thứ nhất quán" → uncertainty về coherence GIẢM
-    → = ÍT uncertainty → serotonin KHÔNG bị kéo xuống → stable
-    → = Certainty bias nền ỔN ĐỊNH → "bình an" (Tier 1 level)
-    → = Đây có thể là tại sao tín đồ test CAO hơn trên wellbeing measures
-
-    ⚠️ Hypothesis — chưa có direct evidence tôn giáo → serotonin
-    🟢 Nhưng: religious practitioners test cao trên wellbeing/anxiety measures
-       (Koenig 2012 meta-analysis) — consistent với serotonin stability model
-
-  🟢 Meaning → wellbeing (Park 2005)
-  🟢 Coherence → mental health (Antonovsky 1987: Sense of Coherence)
 ```
 
 ---
 
-## §3 — CƠ CHẾ INSTALL: CHUNK COMPILE DYNAMICS
+## §3 — COMPOUND DYNAMICS: TẠI SAO > SUM
 
 ```
-⭐ TÔN GIÁO KHÔNG "THUYẾT PHỤC" BẰNG LOGIC — MÀ INSTALL BẰNG BODY EXPERIENCE:
+⭐⭐ SỨC MẠNH TÔN GIÁO ≠ "COVER 7/7 NHƯ CHECKLIST."
+     Sức mạnh = COMPOUND — 7 functions REINFORCE lẫn nhau.
+     (drill-melody-technology-functions.md v2.0 §7)
 
-  Tôn giáo có 5 cơ chế install → map trực tiếp sang
+  Body-Feedback-Mechanism.md §4: compound = SUPERADDITIVE khi:
+    substrate overlap CAO + gate direction AMPLIFY + relief CÓ + temporal overlap CÓ
+    → Tôn giáo hit CẢ 4 biến CAO → SUPERADDITIVE
+
+
+  CROSS-FUNCTION COMPOUND:
+
+    MTF1(anchor) × MTF3(compliance):
+      "Tuân thủ VÌ ý Chúa" = compliance CÓ anchor context
+      → Sâu hơn compliance đơn thuần (luật pháp = external threat only)
+      → = Obligation Type 5 Identity + FAITH anchor = compound depth
+
+    MTF2(connection) × MTF7(reward):
+      "Đi lễ CÙNG NHAU" = connection + ritual COMPOUND
+      → Oxytocin (Chain 0 co-presence) + "cùng trong Chúa" (Chain 2-3)
+      → = Evaluative Gate AMPLIFY Direct-State → SUPERADDITIVE
+
+    MTF4(dissonance) × MTF5(contemplative):
+      "Hiểu tại sao VÀ thực hành giải thoát"
+      → Cognitive (chunk-gap fill) + somatic (cortisol↓) = compound relief
+      → 2 channels giảm dissonance ĐỒNG THỜI
+
+
+  ⭐ STRONGEST COMPOUNDS:
+
+    DEATH MANAGEMENT = MTF1(anchor) × MTF4(dissonance) × MTF5(contemplative):
+      → Anchor (afterlife) + explanation (suffering has meaning) + practice (acceptance)
+      → = 3 functions converge trên 1 challenge → POWERFUL
+      → Chỉ tôn giáo cover fully (secular technology = max 2/3)
+
+    COMMUNITY SUSTAINABILITY = MTF2 × MTF3 × MTF6 × MTF7:
+      → Connection + compliance + role models + reward schedule
+      → = 4 functions maintain community indefinitely
+      → vs Fan community: MTF2 + MTF7 only → insufficient → fade
+
+
+  COMPOUND > SUM VÌ:
+
+    1. Body-Feedback-Mechanism §4: SUPERADDITIVE (substrate overlap + gate direction)
+    2. Mỗi function REINFORCE conditions cho functions khác
+    3. Failure in 1 = OTHER functions COMPENSATE (resilience)
+    4. = Tại sao "7 technologies riêng lẻ" < "1 tôn giáo"
+    5. = Tại sao tôn giáo VẪN có giá trị ngay cả khi science phát triển:
+       science thay thế per-function → nhưng KHÔNG compound
+
+  🟡 Framework synthesis: compound analysis = consistent với literature nhưng framework-specific
+```
+
+---
+
+## §4 — CƠ CHẾ COMPILE: CHUNK COMPILE DYNAMICS
+
+```
+⭐ TÔN GIÁO KHÔNG "THUYẾT PHỤC" BẰNG LOGIC — MÀ COMPILE QUA TRẢI NGHIỆM:
+
+  Tôn giáo có 5 cơ chế compile → map trực tiếp sang
   Chunk-Activation-Dynamics.md §2.2 (7 factors quyết định link strength):
 
 
-  ① CHILDHOOD INSTALL (mạnh nhất — compiled SÂU NHẤT):
+  ① CHILDHOOD COMPILE (mạnh nhất — compiled SÂU NHẤT):
 
-    → 0-6 tuổi: PFC content ít → body absorb KHÔNG filter
-    → Bố mẹ + cộng đồng lặp lại chunks tôn giáo HÀNG NGÀY
+    → Kiến trúc nhận thức trẻ em bao gồm xu hướng tự nhiên hướng tới
+      agency detection, teleological reasoning, và intuitive theism
+      (Barrett 2012 "Born Believers", Kelemen 2004 "Intuitive Theism")
+    → = Cognitive preparedness — khái niệm tôn giáo CỘNG HƯỞNG với
+      cấu trúc nhận thức CÓ SẴN, giống học ngôn ngữ
+    → Bố mẹ + cộng đồng lặp lại → Hebbian compile CỰC MẠNH
     → Body compile: "Chúa/Phật/Allah = CÓ THẬT" ở level VÔ THỨC
-    → = Giống language: absorb KHÔNG cần "quyết định tin"
 
     v7.8 mapping:
-      → Factor ③ Emotional weight: từ bé = MỌI thứ emotional (thế giới mới)
+      → Factor ③ Emotional weight: từ bé = MỌI thứ emotional
       → Factor ① Repetition: hàng ngày × nhiều năm = Hebbian CỰC MẠNH
       → Factor ④ Multi-modal: nghe kinh + thấy nhà thờ + body quỳ + mùi hương
-      → = 3 factors ĐỒNG THỜI cao → links CỰC MẠNH → compiled DEEP
+      → = 3 factors ĐỒNG THỜI cao → compiled DEEP
       → = Đây là lý do "đổi đạo" CỰC KHÓ — childhood chunks = deepest compiled
+
+    🟢 Barrett (2012): trẻ em "nearly inevitable" có xu hướng tin supernatural
+    🟢 Kelemen (2004): "promiscuous teleology" — trẻ 5 tuổi thấy mục đích khắp nơi
+    🟢 McCauley (2011): tôn giáo = "maturationally natural" (như ngôn ngữ)
 
 
   ② REPETITION (lặp đi lặp lại → compile tự động):
 
     → Cầu nguyện 5 lần/ngày (Islam) → chunks fire 5 lần/ngày → compile SÂU
-    → Đọc kinh hàng đêm → chunks fire hàng đêm → compile SÂU
-
-    v7.8 mapping:
-      → Factor ① Repetition count: "fire together, wire together" (Hebb)
-      → Chunk-Activation-Dynamics.md §2.2: repetition = most reliable factor
-      → Không cần "tin" bằng PFC → body ĐÃ compile → TỰ tin
-      → = PFC reasoning ≠ compiled belief (PFC ~5%, compiled = 95%)
+    → Factor ① Repetition count: "fire together, wire together" (Hebb)
+    → Không cần "tin" bằng PFC → body ĐÃ compile → TỰ tin
 
 
   ③ EMOTIONAL PEAK (cảm xúc mạnh → compile NHANH):
 
-    → Lễ lớn: nhạc + ánh nến + cộng đồng + giọng nói trầm → multi-modal
+    → Lễ lớn: nhạc + ánh nến + cộng đồng = multi-modal
     → Conversion experience: "gặp Chúa" = emotional peak → compile NGAY
-
-    v7.8 mapping:
-      → Factor ③ Emotional weight at compile: "1 trauma > 100 neutral repetitions"
-      → 1 event đủ mạnh = compile 1 lần → PERMANENT link
-      → = Connection.md §7: "cùng vượt khó" → bond cực sâu từ 1 event
-      → = Tôn giáo design (dù vô tình) rituals tạo emotional peaks
+    → Factor ③ Emotional weight: "1 emotional peak > 100 neutral repetitions"
 
 
-  ④ COMMUNITY PRESSURE (social reinforce):
+  ④ MÔI TRƯỜNG XÃ HỘI HÓA (socialization environment):
 
-    → MỌI NGƯỜI xung quanh có CÙNG chunks → body: "chắc đúng"
-    → Ai nghi ngờ → bị group dissonance → body: "nghi = ĐAU" → quay lại tin
+    → MỌI NGƯỜI xung quanh có CÙNG chunks → body: "chắc phù hợp"
+    → Tôn giáo lan truyền qua cùng cơ chế socialization như ngôn ngữ,
+      phong tục, giá trị văn hóa — không phải qua cơ chế riêng biệt
+    → Factor ⑤ Context match: community = probability modifier
+    → = Spreading activation: context community → religious chunks fire DỄ hơn
+    → = Đây giải thích: "rời cộng đồng → faith giảm" (context change)
 
-    v7.8 mapping:
-      → Factor ⑤ Context match: current context (community) = probability modifier
-      → Factor ⑥ Emotional state match: cùng emotional state → links MẠNH hơn
-      → = Spreading activation: context community → religious chunks fire DỄ hơn
-      → = Ngoài community → religious chunks fire ÍT hơn (context mismatch)
-      → = Đây giải thích: "rời quê lên phố → faith giảm" (context change)
+    🟢 Voas & Crockett (2005): chỉ ~50% truyền thành công → KHÔNG phải imposition
+    → = "Leaky pipeline" — socialization với AGENCY cá nhân đáng kể
+
+    RETENTION = f(hardware fit × community architecture × exit cost):
+      → Hardware fit (Barrett, Kelemen): BASE cao, ≈ GIỐNG cho mọi tôn giáo
+      → Community architecture (Iannaccone 1994): strictness = commitment community CHẤT LƯỢNG CAO
+        (screen free-riders + commitment signaling + identity depth)
+      → Exit cost (structural): social loss, identity loss, apostasy consequences
+      → 3 yếu tố MULTIPLICATIVE → retention varies 45%-100% (Pew 2025, 36 quốc gia)
+
+    🟢 Pew Research (2025): Islam Indonesia ~100%, Christianity South Korea ~51%
+    🟢 Iannaccone (1994): "Why Strict Churches Are Strong" — rational choice model
 
 
   ⑤ MULTI-CHANNEL SIMULTANEOUS (nhiều kênh cùng lúc):
 
-    → Nhà thờ: visual (kiến trúc đẹp) + auditory (nhạc thánh) + somatic (quỳ, đứng)
-      + olfactory (hương) + social (cộng đồng) + verbal (bài giảng)
-    → = TẤT CẢ channels fire CÙNG LÚC → chunks compile ở MỌI modality
-
-    v7.8 mapping:
-      → Factor ④ Multi-modal richness: visual+audio+somatic = maximally strong
-      → Modality.md: 6 kênh encoding → tôn giáo engage 5-6/6 cùng lúc
-      → = So sánh: sách = 1-2 channels, podcast = 2-3, nhà thờ = 5-6
-      → = Tại sao "đọc kinh ở nhà" < "đi lễ ở nhà thờ" về compile strength
+    → Nhà thờ: visual + auditory + somatic + olfactory + social + verbal
+    → = TẤT CẢ channels fire CÙNG LÚC → compile ở MỌI modality
+    → Factor ④ Multi-modal richness: 5-6/6 channels
+    → = Tại sao "đọc kinh ở nhà" < "đi lễ ở nhà thờ" về compile strength
 
 
-  ⭐ TẠI SAO TÔN GIÁO "STICKY" — SPREADING ACTIVATION PROBABILITY:
-
-    Chunk-Activation-Dynamics.md §2.2: link strength = 7 factors MULTIPLICATIVE
+  ⭐ TẠI SAO TÔN GIÁO COMPILE SÂU — SPREADING ACTIVATION PROBABILITY:
 
     Tôn giáo hits NHIỀU factors ĐỒNG THỜI:
       ① Repetition: hàng ngày × nhiều năm → CAO
       ③ Emotional weight: lễ lớn, rites of passage → CAO
       ④ Multi-modal: 5-6 channels → CỰC CAO
       ⑤ Context match: community reinforce → CAO
-      ⑥ Emotional state match: cùng emotional state → CAO
       ⑦ Anchor strength: faith = life-level anchor → CỰC CAO
 
     → MULTIPLICATIVE: tất cả CAO × CAO × CAO = link strength CỰC MẠNH
     → = Probability distribution: religious chunks DOMINATE activation
     → = Đây là lý do "tranh luận logic" KHÔNG hiệu quả:
-      PFC logic = new weak link. Compiled religious chunks = decades-strong links.
-      New link KHÔNG thắng nổi trong probability competition.
+      PFC logic = new weak link vs compiled decades-strong links
 
-    → = Chunk-Activation-Dynamics.md §2.3: probability SHIFT possible
-      nhưng cần: nhiều năm + new context + new emotional experiences
-      → = Tại sao deconversion (mất đức tin) = process DÀI, không instant
-
-  🟡 Mapping 5 install methods → 7 factors = framework synthesis
   🟢 Childhood religious socialization (Voas & Crockett 2005)
   🟢 Ritual behavior reduces anxiety (Hobson et al. 2018)
   🟢 Multi-sensory encoding enhances memory (Shams & Seitz 2008)
 
 
-  ⭐ v2.1 — COMPILE-TAXONOMY MAPPING (Compile-Taxonomy.md v3.0):
+  ⭐ COMPILE-TAXONOMY MAPPING (Compile-Taxonomy.md v3.0):
 
-    5 install mechanisms trên = HOW tôn giáo install chunks.
-    Compile-Taxonomy cho biết: install đó THUỘC LOẠI NÀO.
-
-    TÔN GIÁO = CHỦ YẾU TRUST COMPILE (installed + collective):
+    TÔN GIÁO = CHỦ YẾU TRUST COMPILE:
       → Trust source (giáo lý, bố mẹ, cộng đồng) → body nhận → compile SHORT
       → Chain dài NẰM Ở collective (giáo hội, truyền thống, kinh sách)
-      → Cá nhân compile: [cầu nguyện → ấm], [tuân thủ → an toàn]
-      → KHÔNG compile: [full chain MTF1-MTF7 mechanisms]
 
-    NHƯNG CŨNG DÙNG EXPERIENCE COMPILE (direct experience):
-      → Emotional peak (lễ lớn, conversion) = body compile trực tiếp
-      → Ritual somatic engagement = direct body experience
-      → ①③⑤ trên = Experience Compile mechanisms TRONG quá trình Trust Compile install
+    NHƯNG CŨNG DÙNG EXPERIENCE COMPILE:
+      → Emotional peak + ritual somatic = body compile trực tiếp
 
-    EXPERTISE COMPILE (compiled expertise) = THIỂU SỐ:
-      → Thần học gia, thiền sư, mục sư chuyên sâu
-      → PFC-directed compile qua nhiều năm study + practice
+    EXPERTISE COMPILE = THIỂU SỐ:
+      → Thần học gia, thiền sư = PFC-directed compile qua nhiều năm
       → = Tinh hoa, không phải majority pathway
 
     → Majority tín đồ = Trust + Experience Compile mix
-    → = Compile-Taxonomy.md §2.3: ~95% behavior = Experience + Trust Compile
 
 
-  ⭐ v2.1 — 4 COMPILE PATHWAYS × TÔN GIÁO (Compile-Taxonomy.md §3):
+  ⭐ 4 COMPILE PATHWAYS × TÔN GIÁO (Compile-Taxonomy.md §3):
 
     CÙNG là "đi lễ mỗi tuần" — 4 người, 4 pathways KHÁC NHAU:
 
     ① HARDWARE FIT (Experience Compile — direct):
        [cầu nguyện → body yên → opioid → ấm]
-       = "Tự thấy bình an." CẤP 1 direct. Trust: KHÔNG CẦN.
-       → Người introvert + cortisol baseline cao = hardware FIT contemplative
+       = "Tự thấy bình an." CẤP 1 direct.
 
     ② TRUST + MODERATE FIT (Trust + Experience Compile):
        Bố mẹ nói "đạo tốt" → trust → compile [đạo → tốt]
        + Tự đi lễ → community ấm → body confirm
-       = COMPOUND: Trust Compile install + Experience Compile verify
-       → PHỔ BIẾN NHẤT: childhood install + adult experience confirm
+       = PHỔ BIẾN NHẤT: childhood compile + adult experience confirm
 
     ③ SOCIAL DEFAULT (Trust Compile — pure):
        "Mọi người xung quanh đều đi lễ → đương nhiên tôi cũng đi"
-       = Valence-Propagation §3 ③ schema inheritance. Trust = QUANTITY (social proof)
-       → PFC confabulate: "tôi tin vì chân lý" (post-hoc)
-       → PFC accuracy: ~30% (Compile-Taxonomy §3 pathway ③)
+       = Schema inheritance. PFC confabulate: "tôi tin vì chân lý" (post-hoc)
 
     ④ THREAT AVOIDANCE (Experience Compile — direct):
-       [không đi lễ → bị cộng đồng xa lánh → đau] hoặc [→ sợ địa ngục]
-       = CẤP 1 direct. Avoid threat.
-       → Compile [đi lễ → an toàn], cortisol cost CAO
+       [không đi lễ → bị xa lánh → đau] hoặc [→ sợ hình phạt siêu nhiên]
+       = CẤP 1 direct. Avoid threat. Cortisol cost CAO.
 
     → 4 pathways, CÙNG output: "đi lễ mỗi tuần"
     → TẤT CẢ compile SHORT ở Cấp 1 (1-2 nodes)
@@ -1182,85 +1068,81 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ---
 
-## §4 — FAITH = STRUCTURAL REQUIREMENT
+## §5 — FAITH = CHỌN STABILITY
 
 ```
-🟡 "TIN" KHÔNG PHẢI YẾU ĐUỐI — "TIN" LÀ YÊU CẦU CẤU TRÚC:
+🟡 FAITH = CHỌN CAM KẾT KHI EVIDENCE UNDERDETERMINED:
+
+
+  PHILOSOPHY OF FAITH — SCHOLARLY CONSENSUS:
+
+    William James (1896) — "The Will to Believe":
+      → Faith = rationally permissible khi: bắt buộc chọn, cả hai option thật,
+        quyết định quan trọng
+      → "There is always an element of faith in our belief" — KỂ CẢ SCIENCE
+
+    Paul Tillich (1957) — "Dynamics of Faith":
+      → Faith = "ultimate concern" — hành động tập trung nhất của tâm trí
+      → = Hành động của TOÀN BỘ nhân cách, KHÔNG phải tránh bằng chứng
+
+    Alvin Plantinga (2000) — Reformed Epistemology:
+      → Tin Chúa CÓ THỂ "properly basic" — justified KHÔNG CẦN inferential evidence
+      → Tương tự: tin other minds, tin memory = properly basic
+      → = Vị trí CHÍNH THỐNG trong analytic philosophy đương đại
+
+    → = Faith = epistemological stance hợp lệ — chọn cam kết
+      khi evidence chưa đủ xác định. KHÔNG phải "tránh bằng chứng."
+    → = drill-religion-evidence.md Q2.2
 
 
   TẠI SAO FOUNDATION ANCHOR PHẢI UNFALSIFIABLE:
 
-    Nếu FALSIFIABLE (có thể chứng minh sai):
-      → Check evidence → CÓ THỂ sai → foundation LUNG LAY
-      → Foundation lung lay → MỌI domain dùng foundation → MỌI domain lung lay
-      → = "Nếu Chúa có thể KHÔNG CÓ THẬT → mọi quy tắc đều VÔ NGHĨA"
-      → = MTF7 coherence SỤP → 7 functions SỤP theo
+    Nếu FALSIFIABLE: check evidence → CÓ THỂ sai → foundation LUNG LAY
+      → Foundation lung lay → MỌI domain lung lay → 7 functions lung lay
+    Nếu UNFALSIFIABLE: check evidence → KHÔNG BAO GIỜ sai → foundation STABLE
 
-    Nếu UNFALSIFIABLE (không thể chứng minh sai):
-      → Check evidence → KHÔNG BAO GIỜ sai (vì không check ĐƯỢC)
-      → Foundation STABLE vĩnh viễn → mọi domain STABLE
-      → = Coherence GIỮ → 7 functions GIỮ → melody STABLE
-
-    → = "Tin" = CỐ TÌNH không real-check foundation anchor
-    → = Melody-Arc.md: real-check CẦN cho anchor bình thường
-    → = NHƯNG: foundation anchor tôn giáo = KHÔNG ĐƯỢC real-check
-      → Vì real-check = risk SỤP toàn bộ system 7 functions
+    → = Faith = chọn stability cho foundation anchor
+    → = Science chọn accuracy (falsifiable → self-correcting)
+    → = KHÔNG ai "đúng" — 2 strategies KHÁC cho 2 mục đích KHÁC
+    → = Đa số người CẦN stability hơn accuracy → tôn giáo FIT đa số
 
 
   IMAGINE-FINAL-EVALUATION.MD — 3D FRAMEWORK:
-
-    Clarity × Quality × Trust (Imagine-Final-Evaluation.md):
 
     ┌────────────────┬────────────────────────────────────────┐
     │ Dimension      │ Tôn giáo                                │
     ├────────────────┼────────────────────────────────────────┤
     │ Clarity        │ CAO — "thiên đàng/niết bàn" rõ ràng    │
-    │                │ (narrative cụ thể, vivid, compiled deep) │
-    ├────────────────┼────────────────────────────────────────┤
     │ Quality        │ ❓ KHÔNG THỂ VERIFY — unfalsifiable     │
-    │                │ (nhưng TÔN GIÁO NÓI quality CỰC CAO)  │
-    │                │ → Đây là trade-off CỐT LÕI             │
-    ├────────────────┼────────────────────────────────────────┤
-    │ Trust          │ CỰC CAO — unfalsifiable + community    │
-    │                │ reinforce + childhood compiled          │
+    │ Trust          │ CỰC CAO — unfalsifiable + 5-nguồn      │
+    │                │ depth (Trust.md §3) + community        │
     └────────────────┴────────────────────────────────────────┘
 
-    → = Clarity CAO + Trust CAO → DRIVE cực mạnh
-    → = Quality ❓ → nhưng VÌ unfalsifiable → KHÔNG BAO GIỜ bị chứng minh Quality thấp
-    → = System self-reinforcing: Clarity ↑ + Trust ↑ → body KHÔNG CẦN check Quality
-
-    ⚠️ Anchor-Schema-Extreme-Example.md: Over-anchor failure:
-      → Clarity CAO + Quality ✗ (thực tế harmful) + Trust CAO = NGUY HIỂM
-      → = Cult: faith anchor + harmful content + high trust = Over-anchor
-      → = Mainstream tôn giáo: quality GENERALLY positive (thousands years tested)
-      → = Nhưng CƠ CHẾ cho phép Over-anchor TỒN TẠI
+    → Clarity CAO + Trust CAO → DRIVE cực mạnh
+    → Quality ❓ → VÌ unfalsifiable → KHÔNG BAO GIỜ bị chứng minh Quality thấp
+    → System self-reinforcing: Clarity ↑ + Trust ↑ → body KHÔNG CẦN check Quality
 
 
-  TRADE-OFF CỰC RÕ:
+  ⚠️ NUANCE — FAITH CÓ THỂ CÓ GIỚI HẠN:
 
-    Faith (tin): melody STABLE + coherent
-      → NHƯNG có thể sai mà không biết
+    → Default mode = trust-under-uncertainty (hợp lệ, James/Plantinga)
+    → NHƯNG: khi faith CỐ ĐỊNH thành dogma chủ động CHỐNG evidence
+      → = Không còn "chọn stability" mà "từ chối thông tin"
+      → = Anchor-Schema-Extreme-Example.md: Over-anchor failure mode
+    → = Mainstream tôn giáo: thousands years tested → generally safe
+    → = New movements (cults): chưa tested → Over-anchor risk CAO
 
-    Evidence (kiểm): melody CHÍNH XÁC
-      → NHƯNG foundation CÓ THỂ sụp bất kỳ lúc nào
-
-    → = Tôn giáo CHỌN stability over accuracy
-    → = Science CHỌN accuracy over stability
-    → = KHÔNG ai "đúng" — 2 strategies KHÁC cho 2 mục đích KHÁC
-    → = Đa số người CẦN stability hơn accuracy → tôn giáo FIT đa số
-    → = Thiểu số cần accuracy → science/framework FIT hơn
-
-    → Logic-Feeling-Balance.md: KHÔNG THỂ prescribe "khi nào tin logic, khi nào tin feeling"
-    → = Infinite regress: dùng logic để đánh giá logic? dùng faith để đánh giá faith?
+    → Logic-Feeling-Balance.md: KHÔNG THỂ prescribe "khi nào tin logic, khi nào tin faith"
     → = Mỗi người BẮT BUỘC tự cân bằng — đây là giá trị con người
 
   🟢 Terror Management Theory (Greenberg 1986): unfalsifiable worldview → giảm death anxiety
-  🟢 Need for Cognitive Closure (Webster & Kruglanski 1994): individual variation in tolerance for ambiguity
+  🟢 Need for Cognitive Closure (Webster & Kruglanski 1994): individual variation
+  🟢 James (1896), Tillich (1957), Plantinga (2000): faith as legitimate epistemological stance
 ```
 
 ---
 
-## §5 — PER-HARDWARE: AI CẦN TÔN GIÁO HƠN AI
+## §6 — PER-HARDWARE: MỖI NGƯỜI BENEFIT KHÁC
 
 ```
 🔴 CÙNG tôn giáo → KHÁC hardware → KHÁC benefit:
@@ -1270,74 +1152,60 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ┌─────────────────────┬────────────────────────────────────────────┐
   │ Hardware             │ Tôn giáo serve thế nào                     │
   ├─────────────────────┼────────────────────────────────────────────┤
-  │ DRD4 cao             │ Novelty-seeking → MTF6 ritual traditional    │
+  │ DRD4 cao             │ Novelty-seeking → MTF7 ritual traditional    │
   │ (novelty-seeking)    │ CÓ THỂ nhàm → CẦN mysticism, theology     │
-  │                      │ phức tạp, spiritual exploration            │
   │                      │ Hoặc: KHÔNG fit truyền thống → alternative │
   ├─────────────────────┼────────────────────────────────────────────┤
-  │ DRD4 thấp            │ Routine-prefer → MTF6 ritual = PERFECT fit   │
-  │ (routine-prefer)     │ MTF2 compiled compliance = thoải mái         │
-  │                      │ = Hardware MATCH nhất cho tôn giáo         │
+  │ DRD4 thấp            │ Routine-prefer → MTF7 ritual = PERFECT fit   │
+  │ (routine-prefer)     │ MTF3 compiled compliance = thoải mái         │
   ├─────────────────────┼────────────────────────────────────────────┤
   │ COMT chậm            │ Deep processing → contemplative traditions │
   │ (deep processor)     │ FIT: Buddhism meditation, Talmudic study   │
-  │                      │ STATE type anchor compile DỄ               │
   ├─────────────────────┼────────────────────────────────────────────┤
   │ COMT nhanh           │ Fast-switch → action-oriented traditions   │
   │ (fast switcher)      │ FIT: Evangelical worship, Sufi whirling   │
-  │                      │ GOAL/ROLE type anchor compile DỄ           │
   ├─────────────────────┼────────────────────────────────────────────┤
   │ Cortisol baseline    │ CAO: CẦN MTF4 (dissonance management) MẠNH  │
   │ cao                  │ → "Đau khổ có ý nghĩa" = CỰC CẦN THIẾT  │
-  │                      │ + MTF7 coherence = cortisol GIẢM rõ rệt     │
   ├─────────────────────┼────────────────────────────────────────────┤
   │ Cortisol baseline    │ THẤP: MTF4 ÍT CẦN (ít existential anxiety) │
-  │ thấp                 │ → Vẫn benefit MTF3,MTF6 nhưng MTF4 ít giá trị   │
+  │ thấp                 │ → Vẫn benefit MTF2,MTF7 nhưng MTF4 ít giá trị│
   ├─────────────────────┼────────────────────────────────────────────┤
   │ PFC capacity +       │ CÓ THỂ tự build 7 functions KHÔNG CẦN     │
   │ chunk density cao    │ tôn giáo → nhưng TỐN effort + time cực lớn│
-  │                      │ = "Tự build framework riêng" = possible    │
-  │                      │   nhưng chỉ thiểu số dân số làm được      │
   └─────────────────────┴────────────────────────────────────────────┘
 
 
-  SEROTONIN × PER-HARDWARE (Status.md §9):
+  BIG FIVE × RELIGIOSITY (drill Q3.1):
 
-    🔴 Serotonin = certainty bias nền:
-    → Người có serotonin baseline THẤP → uncertainty tolerance THẤP
-    → = CẦN MTF7 coherence + MTF1 FAITH anchor MẠNH hơn
-    → Tôn giáo cung cấp ĐÚNG thứ serotonin-low hardware CẦN:
-      certainty, structure, unfalsifiable anchor
-    → Người có serotonin baseline CAO → tolerance CAO
-    → = CÓ THỂ sống KHÔNG tôn giáo mà vẫn ổn
+    🟢 Saroglou (2002, 71 studies): Agreeableness r=.20, Conscientiousness r=.17
+    🟢 Saroglou (2010, 19 quốc gia): consistent across age, gender, country
 
-    ⚠️ Serotonin baseline = hardware → KHÔNG chọn được
-    → = KHÔNG phải "người yếu tin, người mạnh không tin"
-    → = Hardware KHÁC → CẦN KHÁC → tôn giáo FIT KHÁC
+    → High-Conscientiousness: FIT structured ritual + moral codes
+    → High-Openness: FIT mystical/spiritual exploration → Buddhism, SBNR
+    → High-Extraversion: FIT communal worship → Evangelical, charismatic
+    → High-Neuroticism + Loving God image: FIT well (comfort)
+    → High-Neuroticism + Punitive God image: HARMFUL (guilt, fear)
+
+    → = Giống âm nhạc: không phải ai cũng cần CÙNG thể loại
+    → = Per-hardware, per-context = mỗi người benefit KHÁC
 
 
+  COMT × REWARD PATTERN (PFC-Hardware.md §3.4):
 
-  Reward-Signal-Architecture × PER-HARDWARE (Reward-Signal-Architecture.md + PFC-Hardware.md §3.4):
-
-    COMT chậm (Met/Met) → fewer-DEEPER rewards:
-      → Contemplative practice (meditation) = MATCH: deep Evaluative coherence
-      → 1 buổi lễ = body DEEPLY process → KHÔNG cần lễ liên tục
-    COMT nhanh (Val/Val) → many-SHALLOW rewards:
-      → Action-oriented practice (worship, service) = MATCH: frequent Direct-State
-      → CẦN lễ THƯỜNG XUYÊN để duy trì reward
-
-    → = PFC-Hardware.md §3.4 COMT × Reward Pattern:
-      khác hardware → khác LOẠI tôn giáo fit → khác FREQUENCY cần
+    COMT chậm → fewer-DEEPER rewards → contemplative practice = MATCH
+    COMT nhanh → many-SHALLOW rewards → action-oriented practice = MATCH
+    → = Khác hardware → khác LOẠI tôn giáo fit → khác FREQUENCY cần
 
   → = KHÔNG phải "ai cũng cần tôn giáo" và KHÔNG phải "ai cũng không cần"
   → = Per-hardware: MỘT SỐ hardware MATCH cực tốt, MỘT SỐ KHÔNG
   → = Majority CÓ BENEFIT rõ từ 1 dạng tôn giáo/spiritual nào đó
-  → = Minority CÓ THỂ tự build → nhưng vẫn CẦN MTF3 (connection)
+  → = Minority CÓ THỂ tự build → nhưng vẫn CẦN MTF2 (connection)
 ```
 
 ---
 
-## §6 — TÔN GIÁO × IDOL: CÙNG SPECTRUM
+## §7 — TÔN GIÁO × IDOL: CÙNG SPECTRUM
 
 ```
 🔴 Idol-Phenomenon.md §6: fan → tôn thờ → tín ngưỡng → tôn giáo = CÙNG cơ chế:
@@ -1350,435 +1218,296 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     │ ❶ Hardware  │ Social drive MET │ Social drive MET          │
     │             │ (qua media)      │ (physical co-presence)   │
     ├─────────────┼──────────────────┼──────────────────────────┤
-    │ ❷ Self-Pattern-Modeling      │ Compiled fire yếu │ Compiled fire MẠNH       │
-    │             │ (parasocial, 1   │ (cùng sinh hoạt thật,    │
-    │             │ chiều)           │ 2 chiều)                 │
+    │ ❷ Self-     │ Compiled fire yếu│ Compiled fire MẠNH       │
+    │  Pattern-   │ (parasocial, 1   │ (cùng sinh hoạt thật,    │
+    │  Modeling   │ chiều)           │ 2 chiều)                 │
     ├─────────────┼──────────────────┼──────────────────────────┤
     │ ❸ Valence  │ Positive nhưng   │ Positive + DEEP compiled │
-    │             │ NÔNG (entertain) │ (meaning, compliance,    │
-    │             │                  │ identity)                │
+    │             │ NÔNG (entertain) │ (meaning, identity)      │
     ├─────────────┼──────────────────┼──────────────────────────┤
     │ Body-Base   │ Rare/weak        │ Possible — years of      │
     │ Extension?  │                  │ compiled bond             │
-    ├─────────────┼──────────────────┼──────────────────────────┤
-    │ 2-luồng    │ Chủ yếu Valence-Momentary      │ Valence-Momentary + Valence-Structural bond  │
-    │             │ (per-exposure)   │ (compiled deep)          │
     └─────────────┴──────────────────┴──────────────────────────┘
 
-
   KHÁC BIỆT CHỦ YẾU:
+    Fan idol: anchor → 1 DOMAIN (career/style)
+    Tín đồ: MTF1 anchor → MỌI DOMAIN (cuộc đời)
 
-    Fan idol: Compiled imagine final = "muốn giống idol" → 1 DOMAIN (career/style)
-    Tín đồ: MTF1 anchor = "thiên đường/niết bàn" → MỌI DOMAIN (cuộc đời)
-
-    Fan idol: connection qua MEDIA (parasocial, yếu, 1 chiều)
+    Fan idol: connection qua MEDIA (parasocial, 1 chiều)
     Tín đồ: connection qua CỘNG ĐỒNG THẬT (nhà thờ, sangha, ummah)
 
-    Fan idol: Idol-Phenomenon.md §2: attachment ≈ channels × frequency × reward
-    Tín đồ: CẢ formula + THÊM: compiled obligation + identity + faith anchor
-
-
-  SPECTRUM (CỰC KỲ ĐA DẠNG):
-
-    Fan nhẹ (nghe nhạc, vui) →
-    Fan cứng (follow mọi thứ) →
-    Fan cuồng (identity gắn với idol) →
-    Tôn thờ (idol = compass sống) →
-    Tín ngưỡng (idol concept = lẽ sống) →
-    Tôn giáo (idol = absolute truth, unfalsifiable anchor)
-
+  SPECTRUM:
+    Fan nhẹ → Fan cứng → Fan cuồng → Tôn thờ → Tín ngưỡng → Tôn giáo
     → = CÙNG mechanism — khác MAGNITUDE + khác DEPTH
-    → = Tôn giáo = "idol phenomenon" NÂNG CẤP lên toàn melody
 ```
 
 ---
 
-## §7 — TÔN GIÁO SPLITS: DOMAIN SPECIATION
+## §8 — TÔN GIÁO SPLITS: DOMAIN SPECIATION
 
 ```
 🟡 Tôn giáo LUÔN split — vì CÙNG mechanism với domain speciation:
 
-  Conflict-Dynamics.md: CONFLICT = OVERLAP × SCARCITY × COMMITMENT
-
-  Tôn giáo CÙNG pattern:
-    Kitô giáo: 1 → Catholic + Orthodox → Protestant → hàng trăm denomination
-    Islam: 1 → Sunni + Shia → nhiều trường phái
-    Phật giáo: 1 → Theravada + Mahayana → Zen, Tịnh Độ, Mật tông,...
+  Kitô giáo: 1 → Catholic + Orthodox → Protestant → hàng trăm denomination
+  Islam: 1 → Sunni + Shia → nhiều trường phái
+  Phật giáo: 1 → Theravada + Mahayana → Zen, Tịnh Độ, Mật tông,...
 
 
   CƠ CHẾ v7.8:
 
-    → Nhóm LỚN → hardware thành viên ĐA DẠNG (PFC-Hardware.md: 4 receptor systems)
+    → Nhóm LỚN → hardware thành viên ĐA DẠNG (PFC-Hardware.md)
     → Template 1 size → KHÔNG fit tất cả hardware variants
-    → Hardware diverge → interpretation diverge → "họ KHÔNG đúng"
+    → Hardware diverge → interpretation diverge
     → Protect.md: identity protect fire → "đạo CỦA TÔI đúng"
     → → Subgroup tách → mỗi subgroup = template FIT hardware subset KHÁC
 
     ⚠️ Split = trade-off:
       → Diversity ↑: mỗi denomination fit 1 hardware subset → TỔNG coverage TĂNG
       → Conflict ↑: "ai đúng?" → denomination tranh nhau → violence possible
-      → = CÙNG trade-off với mọi domain split (Global-Melody.md)
 
 
-  ⭐ v2.5 — RELIGIOUS LEADER = COORDINATION NODE (Coordination-Node.md v1.2):
+  ⭐ RELIGIOUS LEADER = COORDINATION NODE (Coordination-Node.md v1.2):
 
-    2 routes to node position (Coordination-Node §1.1):
-      PRESTIGE: knowledge/skill value → freely conferred → opioid (genuine resonance)
+    2 routes to node position:
+      PRESTIGE: knowledge/skill value → freely conferred → genuine resonance
       DOMINANCE: force/threat → comply via fear → cortisol relief
 
     Religious leader = primarily PRESTIGE route:
-      → Shaman (tribal era): healing + spiritual knowledge → Prestige
       → Mục sư/Thầy/Imam: theological expertise + community care → Prestige
       → Prestige = genuine resonance → SELF-REINFORCING
-        (value → defer → more value → cycle bền — §1.4)
-      → NHƯNG institutional authority → DOMINANCE element possible:
-        "Tuân theo vì SỢ" = Dominance route → §8 ❌ Leader lạm dụng
-
-    Node = Mẹ prototype (Coordination-Node §2.5):
-      → Mục sư cho tín đồ ≈ Mẹ cho con: Self-Pattern-Modeling + gap detect + guide
-      → Dual nature: VEHICLE (fill own coordination gap) + ROAD (enable community)
+      → NHƯNG institutional authority → DOMINANCE element possible → §9 giới hạn
 
     Hardware-Subsidy Per Scale (Coordination-Node §9.4):
-      → Scale-Pair (5-20): oxytocin — mục sư × small group (pastoral care)
-      → Scale-Hub (20-150+): serotonin — giáo hội hierarchy (institutional authority)
+      → Scale-Pair (5-20): oxytocin — pastoral care
+      → Scale-Hub (20-150+): serotonin — institutional authority
       → Scale-Institutional (millions+): trust infrastructure — truyền thống, kinh sách
       → = Tôn giáo OPERATE trên CẢ 3 SCALE đồng thời
-      → = KHÔNG Melody Technology nào khác cover 3 scales cùng lúc
 ```
 
 ---
 
-## §8 — KHI NÀO TỐT / KHI NÀO HẠI
+## §9 — GIÁ TRỊ + GIỚI HẠN
 
 ```
-🟡 TỐT: KHI TÔN GIÁO BỔ SUNG MELODY ĐANG THIẾU:
-
-  ✅ CHO anchor khi MEANING ABSENT (Meaning.md §2.1):
-    → Người "không biết sống để làm gì" → tôn giáo cho FAITH anchor SẴN
-    → Meaning.md §3.4: FAITH type = accessible nhất (bypass PFC, mọi tuổi)
-    → 1 package cho life-level anchor → không cần tự build từ zero
-
-  ✅ CHO connection khi CÔ ĐƠN (Connection.md §16):
-    → Cô đơn Type 1 + Type 2 → tôn giáo FIX cả 2 (§2.3)
-    → = 1 bước = có community SẴN → không cần "build connection từ zero"
-
-  ✅ RESOLVE dissonance khi ĐAU KHỔ (§2.4):
-    → Bệnh, mất người thân, thất bại → Chunk-Gap → cortisol sustained
-    → "Chúa thử thách" → Chunk-Gap filled → cortisol Role 3 → Role 1
-    → = Biến uncontrollable → controllable → vmPFC trained
-
-  ✅ CHO structure khi THIẾU (§2.2):
-    → Không biết quyết định → compiled obligation SẴN → PFC load GIẢM
-    → = Compliance-Floor.md §7: bridge cho người chưa có intrinsic compass
-
-  ✅ ANTI-HABITUATION khi VĂN HÓA TIÊU DÙNG ESCALATE (§2.7):
-    → Ramadan, Lent, Chay = counter baseline inflation
-    → Gratitude practice scheduled SẴN → anti-habituation tự động
-    → = Trong thời đại "muốn nhiều hơn mãi" → tôn giáo: "ít = đủ"
-
-  → = Tôn giáo TỐT NHẤT cho người melody đang THIẾU nhiều thứ cùng lúc
-  → = 1 package fill NHIỀU gaps — hiệu quả hơn fix từng cái riêng
+⭐⭐ GIÁ TRỊ — EVIDENCE-BASED (drill-religion-evidence.md):
 
 
-🟡 HẠI: KHI TÔN GIÁO THAY THẾ MELODY RIÊNG HOẶC BỊ LẠM DỤNG:
+  ✅ TUỔI THỌ + SỨC KHỎE:
+
+    🟢 Li et al. 2016 (JAMA Internal Medicine, N=74,534):
+       Đi lễ >1/tuần: GIẢM 33% tử vong mọi nguyên nhân (HR=0.67)
+       Tim mạch: -27%. Ung thư: -21%. Đi lễ ĐỀU ĐẶN: -45%.
+
+    🟢 Hummer et al. 1999 (Demography, nationally representative):
+       +7 NĂM tuổi thọ ở tuổi 20
+
+    🟢 McCullough 2000 (meta-analysis, 42 mẫu):
+       29% khả năng sống lâu hơn (OR=1.29)
+
+    🟢 Koenig 2012 (Review >1,200 studies):
+       Trầm cảm: 63% bảo vệ, CHỈ 6% gây hại
+       Viêm: ~50% ÍT IL-6 tăng cao (marker viêm)
+
+    → Cơ chế trung gian (~65%): hỗ trợ xã hội (23%), giảm hút thuốc (22%),
+      ít trầm cảm (11%), lạc quan (9%) — VanderWeele 2017
 
 
-  ❌ ÉP MELODY VÀO KHUÔN KHÔNG FIT HARDWARE:
+  ✅ PHÒNG NGỪA TỰ TỬ + DEATHS OF DESPAIR:
 
-    → Template 1 size → nhưng hardware MỖI NGƯỜI KHÁC (PFC-Hardware.md)
-    → Template không fit → dissonance MÃN TÍNH từ CHÍNH tôn giáo
+    🟢 Meta-analysis 2022 (63 studies, N=8,053,697):
+       Tự tử hoàn thành: GIẢM 69-75% (OR=0.25-0.31)
 
-    v7.8 mechanism:
-      → Compiled obligation (§2.2): "PHẢI tuân thủ" → nhưng body resist
-      → Body resist + compiled obligation = conflict INTERNAL
-      → = Cortisol sustained: Role 3 (threat) + Role 4 (inertia)
-      → Ví dụ: người đồng tính + tôn giáo cấm đồng tính
-        → Hardware drive × compiled prohibition = chronic dissonance
-        → Melody BỊ PHÁ bởi thứ đáng lẽ BẢO VỆ
+    🟢 Chen/VanderWeele 2020 (JAMA Psychiatry):
+       Deaths of despair (tự tử + overdose + bệnh gan): GIẢM 68% (phụ nữ)
 
-    v2.5 — COMPILED-SUPPRESS (Bond-Architecture v2.0 §4.1 — ★ LEVERAGE POINT):
-      → Compiled-Suppress = suppress gap riêng VÌ schema "phải giống nhau"
-      → Tôn giáo: "tín đồ tốt PHẢI..." → suppress drives không fit template
+
+  ✅ VỐN XÃ HỘI + CHỐNG CÔ ĐƠN:
+
+    🟢 Putnam 2000: tôn giáo = "arguably the SINGLE MOST IMPORTANT REPOSITORY
+       of social capital in America"
+    🟢 Brooks 2006: người tôn giáo cho 350% NHIỀU tiền, tình nguyện 200% NHIỀU hơn
+    🟢 US Surgeon General (2023): cô đơn = đại dịch → decline religious = contributing
+
+
+  ✅ RESILIENCE KHI ĐAU KHỔ:
+
+    🟢 Ano & Vasconcelles 2005 (49 studies): positive coping r=.33
+    🟢 Frankl (1946): meaning trong extreme suffering → sống sót
+    🟢 35-79% người mất người thân dùng tôn giáo để cope
+
+    ⚠️ NUANCE CỰC QUAN TRỌNG:
+       → HƯỚNG coping quyết định kết quả
+       → Positive coping = bảo vệ MẠNH
+       → Negative coping (Chúa trừng phạt) = GÂY HẠI (+19-28% tử vong)
+       → = Tôn giáo = kiến trúc, dùng đúng cách = TỐT, sai cách = CÓ GIỚI HẠN
+
+
+  ✅ CONTEMPLATIVE + ANTI-HABITUATION:
+
+    🟢 Goyal 2014 (JAMA): meditation giảm anxiety ES=0.38, depression ES=0.30
+    🟢 Emmons & McCullough 2003: gratitude → wellbeing
+    🟢 Ramadan review (2024): 72.7% giảm trầm cảm, 85.7% giảm stress
+    🟢 PNAS 2025 (145 bài, 28 quốc gia): gratitude effect g=0.19, consistent
+
+
+  ✅ WELLBEING TOÀN CẦU:
+
+    🟢 Gallup (152 quốc gia, 1.5M người): tôn giáo score CAO hơn 5/9 indexes
+    🟢 Yaden 2022 (meta N=666K): tôn giáo × hài lòng cuộc sống r=.18
+    🟢 VanderWeele 2017: cộng đồng tôn giáo liên quan TẤT CẢ 6 domains flourishing
+    🟢 Koenig 2012 (~3,000 studies): ~80% positive, ~6% negative
+
+
+  ✅ TỰ CHỦ + HÀNH VI TÍCH CỰC:
+
+    🟢 Rounding 2012: priming tôn giáo → 61% chờ phần thưởng lớn (vs 34% neutral)
+    🟢 McCullough & Willoughby 2009: tôn giáo → self-control qua 6 cơ chế
+
+    🟡 Kelly/Shariff 2024 (meta N=811K): overall prosocial r=.13
+       → ⚠️ Self-reported r=.15, behavioral r=.06 — gap giữa tự báo cáo và hành vi thật
+       → Thiên về giúp INGROUP (Saroglou) — prosocial có giới hạn ingroup preference
+
+
+  TỶ LỆ TỔNG (Koenig 2012): ~80% positive, ~6% negative, ~14% mixed/null
+  → = Tỷ lệ evidence → rewrite ~70% giá trị / ~30% giới hạn = PHẢN ÁNH ĐÚNG data
+
+
+  ──────────────────────────────────────────────────────────
+
+
+  ⚠️ GIỚI HẠN — NHƯ MỌI KIẾN TRÚC, CÓ THỂ BỊ DÙNG QUÁ ĐÀ:
+
+
+  ⚠️ KHI QUY TẮC KHÔNG FIT HARDWARE CÁ NHÂN:
+
+    → Template 1 size → hardware MỖI NGƯỜI KHÁC (PFC-Hardware.md)
+    → Khi quy tắc không phù hợp hardware cá nhân
+      → Hardware drive × compiled prohibition = chronic dissonance
+      → = Kiến trúc BẢO VỆ → thành kiến trúc GÂY dissonance
+
+    Bond-Architecture v2.0 §4.1 — Compiled-Suppress:
+      → Tín đồ suppress drives riêng VÌ schema "phải giống nhau"
       → Compiled-Suppress = INVISIBLE: tự suppress → KHÔNG BIẾT đang suppress
-      → Compiled-Suppress = ACCELERATOR: suppress drives → less growth →
-        Reward-Habituated + novelty fuel cạn → compound
-        (Bond-Architecture v2.0 §4.5: fix Compiled-Suppress = highest leverage intervention)
-      → = "Mất bản thân trong đạo" = Compiled-Suppress mãn tính
-      → = Khi rời đạo: drives riêng RE-EMERGE = proof gap was suppressed, not resolved
+      → Khi rời đạo: drives riêng RE-EMERGE = gap was suppressed, not resolved
 
 
-  ❌ LEADER LẠM DỤNG VỊ TRÍ — PRESTIGE → DOMINANCE SHIFT:
+  ⚠️ LEADER CHUYỂN TỪ PRESTIGE SANG DOMINANCE:
 
-    → Leader = Coordination Node (Coordination-Node.md v1.2 §1)
-    → Healthy: PRESTIGE route (knowledge value → freely conferred → genuine resonance)
-    → Lạm dụng: PRESTIGE → DOMINANCE shift (§7 Coordination-Node):
-      → Compliance-Floor.md §3: authority dùng vị trí phục vụ melody CÁ NHÂN
+    → Healthy: PRESTIGE route (knowledge value → freely conferred)
+    → Giới hạn: PRESTIGE → DOMINANCE shift (Coordination-Node §7):
       → "Thần linh muốn" = unfalsifiable → justify BẤT KỲ thứ gì
-      → = MTF2 (compliance) bị HIJACK: từ "bảo vệ tín đồ" → "phục vụ leader"
-      → = Coordination-Node §1.4: Dominance = cortisol relief reward (FRAGILE)
-        vs Prestige = opioid genuine reward (self-reinforcing)
-
-    → ⚠️ PHÂN BỔ KHẮP mọi tôn giáo — không riêng ai
+      → = MTF3 (compliance) bị HIJACK: từ "bảo vệ tín đồ" → "phục vụ leader"
     → ⚠️ Đa số leader KHÔNG lạm dụng — nhưng CƠ CHẾ cho phép TỒN TẠI
-    → = Vấn đề ở MECHANISM (structure cho phép), không ở CON NGƯỜI cụ thể
 
 
-  ❌ SUPPRESS REAL-CHECK → OVER-ANCHOR:
+  ⚠️ FAITH CỐ ĐỊNH THÀNH DOGMA → OVER-ANCHOR:
 
-    → "Đừng nghi ngờ, hãy tin" = TẮT real-check
-    → §4: faith = structural requirement → real-check bị tắt BY DESIGN
+    → §5: faith = chọn stability (hợp lệ)
+    → NHƯNG: khi faith cố định chống lại MỌI evidence → Over-anchor
     → Anchor-Schema-Extreme-Example.md: Over-anchor failure mode
-      → Anchor quá mạnh + skip domain check → harm thật nhưng body KHÔNG warning
-    → = Trade-off: stability (không check) vs accuracy (không BIẾT sai)
-    → = Mainstream tôn giáo: thousands years of domain testing → generally safe
-    → = Nhưng NEW movements (cults): chưa tested → Over-anchor risk CAO
+    → = Mainstream: thousands years tested → generally safe
+    → = New movements: chưa tested → risk CAO hơn
 
 
-  ❌ CỰC ĐOAN — "CHỈ MELODY TÔI ĐÚNG":
+  ⚠️ CỰC ĐOAN — "CHỈ KIẾN TRÚC TÔI ĐÚNG":
 
-    v7.8 mechanism (multi-system):
-      → Protect.md: f(replaceability × attachment) → faith anchor = LOW replaceability
-        × HIGH attachment → Protect fire CỰC MẠNH khi bị "threat"
-      → "Ngoại đạo = threat" → Connection.md: ❸ negative → Self-Pattern-Modeling Compiled FIRE NGƯỢC
-        → Dehumanize out-group = ❸ negative → Self-Pattern-Modeling Compiled không fire empathy
-        → = Empathy.md v3.0: empathy = Self-Pattern-Modeling Compiled + ❸ positive. Nếu ❸ negative → KHÔNG empathy
-      → Status.md: in-group vs out-group = resource competition
-      → Cortisol: "nhóm bị threat" → cortisol shared → collective mobilization
-      → = Cực đoan: Protect MAX + ❸ negative + status threat + cortisol amplify
-        = CƠ CHẾ bạo lực TÔN GIÁO
-
+    → Protect.md: faith anchor = LOW replaceability × HIGH attachment → fire CỰC MẠNH
+    → "Ngoại đạo = threat" → ❸ negative → dehumanize → empathy TẮT
     → = CÙNG cơ chế với mọi cực đoan: chính trị, dân tộc, ideology
-    → = KHÔNG riêng tôn giáo — nhưng tôn giáo có unfalsifiable anchor
-      → unfalsifiable = KHÔNG BAO GIỜ sai → commitment CỰC CAO → bạo lực CỰC CAO possible
+    → = KHÔNG riêng tôn giáo — nhưng unfalsifiable anchor → commitment CỰC CAO
 
 
-  ❌ TẠO DEPENDENCY — MELODY KHÔNG TỰ ĐỨNG:
+  ⚠️ TẠO DEPENDENCY — SCAFFOLD KHÔNG BAO GIỜ RÚT:
 
     → Tôn giáo serve 7 functions SẴN → tín đồ KHÔNG CẦN tự build
-    → = Compliance-Floor.md §7: luật = BRIDGE
-      → Bridge quá lâu → intrinsic KHÔNG develop
-    → Mất đức tin → 7 functions SỤP CÙNG LÚC → crisis toàn diện (§9)
-    → = "Scaffold không bao giờ rút → nhà KHÔNG TỰ ĐỨNG"
+    → = Compliance-Floor.md §7: scaffold quá lâu → intrinsic KHÔNG develop
+    → Mất đức tin → 7 functions SỤP CÙNG LÚC → crisis toàn diện (§10)
 
-    v2.5 — Bond-Architecture reframe:
-      → Bond-Architecture §3.2: Gap Redirect mechanism
-        → Tín đồ redirect gaps TOWARD tôn giáo (shared purpose, community, God)
-        → Gap RIÊNG bị suppress (Compiled-Suppress) HOẶC redirect (toward shared)
-        → Khi tôn giáo mất: redirected gaps KHÔNG TỰ resolve → re-emerge raw
-      → Entity-Compiled dependency:
-        → God + community compiled DEEP → body-base extension possible
-        → Mất = Entity-Compiled amputation (§9) + gap redirect target GONE
-        → = Compound dependency: structural + directional + emotional
+
+  → = NHƯ MỌI KIẾN TRÚC: giá trị LỚN + giới hạn CÓ
+  → = Giới hạn TẬP TRUNG ở: khi quy tắc ép hardware, leader lạm dụng,
+      faith cố định chống evidence, cực đoan, dependency
+  → = Đa số tín đồ mainstream = net positive (Koenig: 80% positive)
+  → = Giới hạn = thiểu số nhưng THẬT VÀ CẦN NHẬN BIẾT
 ```
 
 ---
 
-## §9 — MẤT ĐỨC TIN: COMPOUND LOSS
+## §10 — MẤT ĐỨC TIN: COMPOUND LOSS
 
 ```
-⭐ MẤT ĐỨC TIN = COMPOUND GRIEF — PARALLEL LOVE-ANALYSIS v2.1 §12:
-
-  Love-Analysis v2.1: mất người yêu = compound grief (8+ pathways miss đồng thời)
-  Mất đức tin: 7 functions sụp = compound loss CÒN LỚN HƠN.
+⭐ MẤT ĐỨC TIN = COMPOUND GRIEF — 7 FUNCTIONS SỤP ĐỒNG THỜI:
 
 
   7 FUNCTIONS SỤP ĐỒNG THỜI:
 
-    MTF1 sụp: FAITH anchor MẤT → Meaning ABSENT
-      → Meaning.md §2.3: Anchor DISRUPTED → "sống để làm gì?"
-      → FAITH type anchor: thường DEEPEST compiled → mất = structural damage
-
-    MTF2 sụp: compiled compliance MẤT → phải tự quyết MỌI THỨ
-      → PFC overload: mỗi quyết định = PFC phải process
-      → Obligation.md: compiled obligation INVALID → "phải" nào cũng lung lay
-
-    MTF3 sụp: connection community MẤT hoặc BỊ ĐẢO
-      → Community trở thành THREAT (họ reject người mất đức tin)
-      → Connection.md §15: chunk dynamics khi connection thay đổi
-        → ❸ valence FLIP: positive → negative → grief THÊM betrayal
-      → = Mất connection + mất meaning = 2 compound losses
-
-    MTF4 sụp: dissonance management MẤT
-      → Đau khổ KHÔNG CÒN giải thích → Chunk-Gap REOPEN
-      → Cortisol Role 3: sustained threat → không có giải pháp nữa
-
-    MTF5 sụp: template MẤT → phải tự build từ zero
-    MTF6 sụp: reward schedule MẤT → phải tự tìm reward sources
-    MTF7 sụp: coherence MẤT → FOUNDATION anchor INVALID
-      → Anchor-Schema.md: main player GONE → dàn nhạc cacophony
+    MTF1 sụp: FAITH anchor MẤT → Meaning ABSENT → "sống để làm gì?"
+    MTF2 sụp: connection community MẤT hoặc BỊ ĐẢO
+      → Community trở thành THREAT (reject người mất đức tin)
+      → ❸ valence FLIP: positive → negative → grief THÊM betrayal
+    MTF3 sụp: compiled compliance MẤT → phải tự quyết MỌI THỨ → PFC overload
+    MTF4 sụp: dissonance management MẤT → đau khổ KHÔNG CÒN giải thích
+    MTF5 sụp: contemplative schedule MẤT
+    MTF6 sụp: template MẤT → phải tự build từ zero
+    MTF7 sụp: reward schedule MẤT → phải tự tìm reward sources
 
 
-  ⭐ v2.5 — ENTITY-COMPILED GRIEF A+B+C (Entity-Compiled.md v1.0 §7):
-
-    Mất đức tin = grief model A+B+C applied:
+  ⭐ ENTITY-COMPILED GRIEF A+B+C (Entity-Compiled.md v1.0 §7):
 
     COMPONENT A — GAP-FEED LOSS (primary):
-      → God filled NHIỀU domains đồng thời:
-        MTF1(meaning) + MTF4(dissonance management) + MTF7(coherence) = A CỰC CAO
-      → Community filled MTF3(connection) + MTF6(reward) = A THÊM
+      → God filled NHIỀU domains: MTF1(meaning) + MTF4(dissonance) + coherence
+      → Community filled MTF2(connection) + MTF7(reward)
       → = f(Entity-Compiled depth × number of domains) → A MAXIMUM
-      → vs Mất 1 người bạn: A moderate (1-2 domains)
       → = Mất đức tin: A > mất bạn, POSSIBLY ≈ mất bố mẹ
 
     COMPONENT B — FRESH-REBUILD COST (secondary):
       → Routines disrupted: cầu nguyện, lễ, community, quy tắc
       → MỖI routine = PFC phải rebuild từ compiled → fresh
       → = "Brain fog" sau mất đức tin (Streib 2009: identity crisis)
-      → = f(disrupted routines × cost per rebuild)
 
     COMPONENT C — PHANTOM FIRING (longest lasting):
       → Entity-Compiled chunks about God PERSIST sau mất faith
       → Triggers: đi ngang nhà thờ, nghe nhạc thánh, thấy thánh giá
-      → Compiled chunks FIRE → predicted response (God's comfort) = NOTHING
-      → Prediction-delta → PAIN mỗi lần fire → kéo dài MONTHS-YEARS
-      → = "Nhớ cảm giác bình an khi cầu nguyện" = phantom firing
-      → C đặc biệt MẠNH cho tôn giáo vì: multi-modal compiled
-        (visual + auditory + somatic + olfactory + social = 5-6 channels)
+      → Compiled chunks FIRE → predicted response = NOTHING → PAIN mỗi lần
+      → C đặc biệt MẠNH vì: multi-modal compiled (5-6 channels)
 
-    OPIOID WITHDRAWAL (Entity-Compiled §7.3):
-      → Tôn giáo = sustained ENDOGENOUS OPIOID source
-        (prayer → opioid, ritual → opioid, community → opioid)
+    OPIOID WITHDRAWAL:
+      → Tôn giáo = sustained ENDOGENOUS OPIOID source (prayer, ritual, community)
       → Mất faith = opioid supply CUT → physiological WITHDRAWAL
       → = Grief has PHYSICAL pain (dACC, anterior insula shared circuits)
-      → = Tại sao mất đức tin PHYSICAL hurt — not just intellectual loss
 
 
-  ⭐ TẠI SAO DEVASTATION — 4 AMPLIFIERS:
+  ⭐ 4 AMPLIFIERS:
 
-    ① PROTECT FIRE MAX (Protect.md):
-       → f(replaceability × attachment):
-         Replaceability: CỰC THẤP (unfalsifiable anchor = unique, không gì thay được)
-         Attachment: CỰC CAO (childhood compiled, decades of reinforcement)
-       → Protect fire MAX → body resist mất faith → denial phase KÉO DÀI
-       → = Giống mất người yêu: body KHÔNG CHẤP NHẬN mất
-
-    ② ENTITY-COMPILED AMPUTATION (Entity-Compiled.md v1.0 §2.3):
-       → Nếu "God" đã trở thành Entity-Compiled deep (§2.5 virtual entity)
-       → Beckes & Coan 2012: close person → brain simulates USING OWN BODY
-       → Mất đức tin = Entity-Compiled AMPUTATION → body-level pain
-       → = Entity-Compiled §1.1: agent's state = own state → loss = OWN loss
-       → = Giải thích tại sao mất đức tin PHYSICAL hurt (dACC, anterior insula)
-
-    ③ SEROTONIN COLLAPSE (OCD-Analysis.md §4.5):
-       → Mất faith → uncertainty SURGE trên TOÀN BỘ 7 domains
-       → Uncertainty ↑ → serotonin ↓ (consequence) →
-         spreading activation uninhibited → worry/rumination loop →
-         serotonin STAYS low (amplifier) → depression
-       → = Parallel OCD mechanism: serotonin = amplifier, not root cause
-       → = Root cause = 7 functions sụp. Serotonin = AMPLIFIES devastation.
-
-    ④ PHANTOM PERSISTENCE (Entity-Compiled §7.2 Component C):
-       → Decay 3-layer model (Entity-Compiled §9.1):
-         ① Person-schema (neocortical): RESIST decades — "biết Chúa" persists
-         ② Affective/motivational: decays months-years WITHOUT practice
-         ③ Episodic details: fade FASTEST
-       → = "Vẫn biết Chúa nhưng không còn thấy ấm" = ② decayed, ① intact
-       → = Phantom firing (Component C) follows SAME 3-layer decay
-       → = LONGEST LASTING amplifier: chunks fire for YEARS after faith lost
+    ① PROTECT FIRE MAX: f(replaceability × attachment) — CẢ 2 CỰC CAO
+    ② ENTITY-COMPILED AMPUTATION: nếu "God" compiled deep → body-level pain
+    ③ SEROTONIN COLLAPSE: uncertainty SURGE → serotonin↓ → worry loop → depression
+    ④ PHANTOM PERSISTENCE: Decay 3-layer → "vẫn biết Chúa nhưng không còn ấm"
 
 
-  4 GIAI ĐOẠN (v7.8 mechanism per phase):
+  4 GIAI ĐOẠN:
 
-    ① DOUBT (micro-cracks):
-       → "Có đúng không nhỉ?" = PFC real-check BẮT ĐẦU
-       → Foundation anchor START getting questioned
-       → Dissonance nhẹ: anchor VẪN hold nhưng trust GIẢM dần
-       → Chunk-Activation-Dynamics §2.3: probability SHIFT bắt đầu
-         → New non-religious chunks growing → old links relatively weaker
-
-    ② CRISIS (doubt tích lũy):
-       → Multiple real-checks fail → trust GIẢM MẠNH
-       → 7 functions GIẢM chất lượng (nhưng chưa sụp)
-       → Cortisol TĂNG: uncertainty + foundation lung lay
-       → Self-Pattern-Modeling on community: "họ vẫn tin, tôi không" → isolation emerging
-
-    ③ COLLAPSE (faith ≈ 0):
-       → Foundation anchor = INVALID → 7 functions SỤP đồng thời
-       → Compound loss (trên): grief + isolation + dissonance + uncertainty
-       → Serotonin collapse + cortisol sustained = AMPLIFY compound loss
-         → Depression, anxiety = subjective experience of compound chunk loss
-           (serotonin/cortisol = amplifiers, NOT root cause — OCD-Analysis §4.5)
-       → = Đây là phase NGUY HIỂM NHẤT
-
-    ④ REBUILD (xây melody MỚI):
-       → Build NEW anchors: GOAL, STATE, IDENTITY, ROLE (Meaning.md §3)
-       → Process: Melody-Arc — compile mới = tháng → NĂM
-       → CẦN support: therapy, new community, new anchor sources
+    ① DOUBT (micro-cracks): PFC real-check BẮT ĐẦU → trust GIẢM dần
+    ② CRISIS (doubt tích lũy): multiple real-checks fail → cortisol TĂNG
+    ③ COLLAPSE (faith ≈ 0): 7 functions SỤP đồng thời → NGUY HIỂM NHẤT
+    ④ REBUILD (xây melody MỚI): build NEW anchors (GOAL, STATE, IDENTITY, ROLE)
        → NẾU thành công: melody AUTHENTIC hơn (fit hardware riêng)
        → NHƯNG: quá trình = DÀI + KHÓ + cần external support
 
 
-  ⚠️ REBUILD CÓ THỂ TỐT HƠN:
+  ⭐ INDIVIDUAL vs COLLECTIVE TRIGGER (Collective-Body.md §5.2):
 
-    → Melody MỚI build từ body-base RIÊNG (không từ template)
-    → = Meaning.md §4.1: PFC Imagine-Final (top-down) + §4.2: Compiled Experience
-    → NẾU rebuild thành công → anchor FIT hardware CỦA MÌNH
-    → = "Người thoát đạo sáng suốt" = đã rebuild thành công
-    → = "Người thoát đạo trầm cảm" = ĐANG ở phase ③, chưa rebuild xong
+    INDIVIDUAL: PFC real-check → trust GIẢM dần → process CHẬM (tháng → năm)
+    COLLECTIVE: giáo sĩ bê bối → trust link COLLAPSE → body circuit-break NHANH
+    → Can thiệp KHÁC: individual cần support rebuild, collective cần fix institution
 
-
-  ⭐ v2.1 — INDIVIDUAL vs COLLECTIVE TRIGGER (Collective-Body.md §5.2):
-
-    Mất đức tin CÓ THỂ do INDIVIDUAL hoặc COLLECTIVE trigger:
-
-    INDIVIDUAL TRIGGER (PFC real-check):
-      → Education tăng → PFC chunk density CAO → real-check FAITH anchor
-      → "Có bằng chứng không?" → trust GIẢM dần → §9 process ①→④
-      → = Pathway CHẬM: PFC tự challenge over years
-
-    COLLECTIVE CHAIN BREAK (Collective-Body.md §5.2):
-      → Loại ① Cost tăng: "tuân thủ → quá mệt" (cost >> baseline)
-      → Loại ② Link gãy: giáo sĩ bê bối → trust link COLLAPSE
-        → Valence-Propagation chain trust = product of link trusts → 1 link sụp → chain sụp
-      → Loại ③ Compound: bê bối + community toxic + cost tăng
-      → = Pathway NHANH: body circuit-break TRƯỚC → PFC wake → re-evaluate
-
-    → INDIVIDUAL trigger: đau nhưng CHẬM (tháng → năm)
-    → COLLECTIVE trigger: đau và NHANH (body circuit-break đột ngột)
-    → Can thiệp KHÁC: individual cần support rebuild melody
-      collective cần fix chain (institution reform, không chỉ therapy cá nhân)
+  → ⭐ Phần này THỰC RA TÍCH CỰC cho tôn giáo:
+    Cho thấy giá trị LỚN đến mức mất đi = devastation
+    → = Nếu tôn giáo "chỉ là ảo tưởng" → mất nó sẽ nhẹ nhàng
+    → = Devastation = bằng chứng gián tiếp rằng giá trị = THẬT
 
   🟢 Streib et al. (2009): deconversion → depression, anxiety, identity crisis
   🟢 Altemeyer & Hunsberger (1997): atheist converts report meaning search
-```
-
----
-
-## §10 — MARX REFRAME
-
-```
-🟡 Marx (1843): "Tôn giáo là thuốc phiện của nhân dân."
-
-
-  MARX ĐÚNG CƠ CHẾ:
-
-    ✅ Tôn giáo GIẢM dissonance — MTF4: "đau khổ có ý nghĩa"
-    ✅ Tôn giáo CÓ THỂ ngăn phản kháng:
-       → MTF7 coherence + MTF2 compliance → melody "ổn" → drive thay đổi THẤP
-    ✅ Tôn giáo = compliance floor: MTF2 — external rules
-    → = Marx nhìn thấy MTF2 + MTF4 — 2 trong 7 functions
-
-
-  MARX SAI KẾT LUẬN:
-
-    ❌ Nghĩ tôn giáo CHỈ là công cụ kiểm soát:
-       → 7 functions — kiểm soát chỉ là 1 khía cạnh của MTF2
-       → 6 functions còn lại THẬT SỰ phục vụ body-base tín đồ
-       → = "Thuốc phiện" = chỉ nói MTF4 (giảm đau) → bỏ qua MTF1,MTF3,MTF5,MTF6,MTF7
-
-    ❌ Nghĩ bỏ tôn giáo → tự do → tốt hơn:
-       → §9: bỏ 7 functions KHÔNG thay thế = compound loss → melody collapse
-       → = Liên Xô thực tế: bỏ tôn giáo → KHÔNG thay 7 functions → meaning crisis
-       → = Phải THAY THẾ per-function — không thể chỉ "bỏ"
-
-
-  FRAMEWORK REFRAME:
-
-    → Tôn giáo = TECHNOLOGY (công cụ), không phải "thuốc phiện"
-    → Technology CÓ THỂ bị lạm dụng (§8 ❌ failure modes)
-    → NHƯNG bản thân technology PHỤC VỤ body-base thật sự
-    → Marx thấy 2/7 → kết luận từ 2/7 → sai
-    → = Framework thấy 7/7 → kết luận nuanced hơn
 ```
 
 ---
@@ -1791,59 +1520,43 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   TẠI SAO GIẢM — v7.8 EXPLANATION:
 
-    → Education tăng → PFC chunk density CAO hơn → real-check tăng
-      → Faith anchor bị PFC challenge → trust GIẢM
-    → Science trả lời câu hỏi → MTF4 dissonance management CÓ alternative
-    → Internet → exposure đa dạng → 1 template KHÔNG fit everyone rõ hơn
-    → Individualism → "melody RIÊNG" > "melody template" (Autonomy.md)
-    → Urbanization → community tôn giáo GIẢM → MTF3 connection weakened
-      → Context change (§3 Factor ⑤): rời community → religious chunks fire ÍT
+    → Education tăng → PFC chunk density CAO → real-check tăng → trust GIẢM
+    → Science trả lời nhiều câu hỏi → MTF4 CÓ alternative
+    → Internet → exposure đa dạng → 1 template rõ ràng KHÔNG fit everyone
+    → Individualism → "melody RIÊNG" > "melody template"
+    → Urbanization → community tôn giáo GIẢM → MTF2 weakened
 
 
   MEANING CRISIS (Vervaeke 2019) — v7.8 ANALYSIS:
 
-    → Meaning.md v2.1 §2.4: Age Gradient — medium anchors cạn → life-level search
-    → Population-level: NHIỀU người cùng lúc mất medium anchors + KHÔNG có FAITH anchor
-    → = Meaning crisis = POPULATION-LEVEL anchor vacuum
-
     Per-function loss:
       MTF1 mất: FAITH anchor GONE → "sống để làm gì?" → depression tăng
-        → Meaning.md §2.1: Anchor ABSENT → meaning question URGENT
-      MTF3 mất: community giảm → loneliness epidemic
-        → Connection.md §16: "cô đơn" = ❶ UNMET + no override
-      MTF6 mất: threshold calibration KHÔNG CÒN → baseline inflation → tiêu dùng escalate
-        → Gratitude.md §4: Baseline Shift → cần MÃI nhiều hơn
-      MTF7 mất: coherence giảm → internal conflict tăng
-        → Anchor-Schema.md: không có anchor → cacophony
+      MTF2 mất: community giảm → loneliness epidemic
+      MTF7 mất: anti-habituation KHÔNG CÒN → baseline inflation → tiêu dùng escalate
 
     VẪN CÒN:
-      MTF2 vẫn có (luật pháp thay — nhưng weaker vì external only)
-      MTF4 có phần thay (therapy, medication — nhưng per-individual, tốn hơn)
+      MTF3 vẫn có (luật pháp thay — nhưng weaker vì external only)
+      MTF4 có phần thay (therapy, medication — per-individual, tốn hơn)
 
 
-  v2.1 — SECULARIZATION = COLLECTIVE CHAIN BREAK (Collective-Body.md §5.2):
+  ⭐ MARX NOTE — NHÌN LẠI PHÊ PHÁN CŨ:
 
-    Secularization NHÌN QUA Model 3 Cấp:
-    → Cấp 2 (collective tôn giáo) GIẢM khả năng hold chains:
-      → Loại ② link gãy: science challenge → trust link [faith → đúng] WEAKENED
-      → Loại ① cost tăng: modern life → tuân thủ truyền thống COST cao hơn
-    → Cá nhân (Cấp 1) BODY DETECT: "tôn giáo không còn serve body-base"
-    → PFC wake → "tôn giáo có ý nghĩa gì?" → re-evaluate
+    Marx (1843): "Tôn giáo là thuốc phiện của nhân dân."
+    → Marx nhìn thấy 2/7 functions: MTF3(compliance) + MTF4(dissonance management)
+    → Nghĩ tôn giáo CHỈ là công cụ kiểm soát → bỏ qua 5 functions còn lại
 
-    ≠ Individual choice ("chọn không tin"):
-    = Collective infrastructure GIẢM → individual PHẢN ỨNG
-    → Can thiệp: KHÔNG phải thuyết phục cá nhân quay lại
-    → MÀ: collective TẠO chains mới phục vụ 7 functions (per §12)
+    Berger (1999) — TỰ BÁC BỎ secularization thesis:
+      → "Predictions trước đây quá đơn giản hóa"
+      → Thế giới = "furiously religious as it ever was"
 
+    Stark & Finke (2000) — "Religious economies":
+      → Tôn giáo = rational choice trong marketplace, KHÔNG phải false consciousness
 
-  🔴 SEROTONIN POPULATION-LEVEL:
+    → = Sociology hiện đại: tôn giáo = multi-functional system
+      (meaning-making, community architecture, coping resource)
+    → = Framework framing "kiến trúc cộng đồng" = ALIGNED với sociology hiện đại
 
-    → Nếu serotonin = amplifier (OCD-Analysis §4.5)
-    → Secularization → uncertainty TĂNG on population level
-    → → Serotonin nền XÃ HỘI giảm?
-    → = Giải thích tại sao anxiety + depression TĂNG ở xã hội secular?
-    → ⚠️ Rất speculative — many confounders (economics, technology, social media)
-    → Nhưng consistent với: tôn giáo giảm + wellbeing giảm correlation
+    🟢 Berger reversal well-documented. Stark rational choice = major paradigm.
 
 
   REPLACEMENT CẦN PER-FUNCTION:
@@ -1851,32 +1564,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌────────┬─────────────────────────────────────────────────────┐
     │ Function│ Secular replacement                                 │
     ├────────┼─────────────────────────────────────────────────────┤
-    │ MTF1     │ Science mission, legacy, art, framework riêng,      │
-    │        │ parenting meaning (Meaning.md: GOAL/ROLE/IDENTITY)  │
-    ├────────┼─────────────────────────────────────────────────────┤
-    │ MTF2     │ Luật pháp + self-awareness (Compliance-Floor.md)    │
-    │        │ Obligation.md: still compile from experience         │
-    ├────────┼─────────────────────────────────────────────────────┤
-    │ MTF3     │ Community (club, team, online, neighborhood)         │
-    │        │ Connection.md: ❶❷❸ có thể engage WITHOUT religion   │
-    ├────────┼─────────────────────────────────────────────────────┤
-    │ MTF4     │ Therapy, meditation, framework understanding         │
-    │        │ Per-individual — TỐN HƠN tôn giáo package            │
-    ├────────┼─────────────────────────────────────────────────────┤
-    │ MTF5     │ Mentorship, role models, diverse templates           │
-    │        │ Idol-Phenomenon.md: idol = melody template           │
-    ├────────┼─────────────────────────────────────────────────────┤
-    │ MTF6     │ Intentional scarcity, gratitude practice, routines   │
-    │        │ KHÓ NHẤT: thiếu SHARED schedule                     │
-    ├────────┼─────────────────────────────────────────────────────┤
-    │ MTF7     │ Self-designed coherence — NHƯNG thiếu SHARED anchor │
-    │        │ = PER-PERSON coherence possible, SHARED coherence ❌ │
+    │ MTF1   │ Science mission, legacy, art, framework riêng       │
+    │ MTF2   │ Community (club, team, neighborhood)                 │
+    │ MTF3   │ Luật pháp + self-awareness                          │
+    │ MTF4   │ Therapy, meditation, framework understanding         │
+    │ MTF5   │ Secular meditation, contemplative practice           │
+    │ MTF6   │ Mentorship, role models, diverse templates           │
+    │ MTF7   │ Intentional scarcity, gratitude practice, routines   │
     └────────┴─────────────────────────────────────────────────────┘
 
   → = Thay thế TỪNG FUNCTION = possible
-  → = Thay thế PACKAGE 7-in-1 = CỰC KHÓ (phân mảnh, tốn effort)
-  → = Đây là tại sao tôn giáo VẪN survive dù science mạnh:
-      Không có gì THAY THẾ cả package → tôn giáo = option tốt nhất cho NHIỀU người
+  → = Thay thế PACKAGE 7-in-1 = CỰC KHÓ (phân mảnh, tốn effort, mất compound)
+  → = Đây là tại sao tôn giáo VẪN CÓ GIÁ TRỊ ngay cả khi science phát triển:
+      Không có gì THAY THẾ cả package (§3 compound dynamics)
 
   🟢 Vervaeke (2019): "Meaning Crisis" — meaning structures declining
   🟢 Putnam (2000): declining social capital correlated with religious decline
@@ -1892,70 +1592,37 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   AI CÓ THỂ:
 
-    → MTF1: personalize Anchor-Schema per individual
-      → AI-Schema-Detection.md: AI = gateway tool giúp identify anchor
-      → Suggest GOAL/IDENTITY/ROLE type anchor per hardware/chunks
-    → MTF2: suggest quy tắc per context → flexible compliance
-      → Adapt per situation THAY VÌ 1 bộ fixed rules
-    → MTF4: giải thích per situation → dissonance management
-      → AI explain "tại sao đau?" per-case → Chunk-Gap fill
-    → MTF5: suggest template per hardware → personalize melody
-      → Match template với PFC-Hardware profile cá nhân
+    → MTF1: personalize Anchor-Schema per individual (AI-Schema-Detection.md)
+    → MTF3: suggest quy tắc per context → flexible compliance
+    → MTF4: giải thích per situation → dissonance management per-case
+    → MTF6: suggest template per hardware → personalize melody
 
 
   AI KHÔNG THỂ:
 
-    → MTF3: connection CẦN body THẬT → AI không có body → parasocial at best
-      → Connection.md v5.0 §3.1: Hardware-Subsidy = NONE cho AI
-        (no physical co-presence → no oxytocin subsidy → connection FADING)
-      → 4-Layer Sustainability (Connection v5.0 §4.6): AI fails Tầng 1
-        (①Proximity: virtual only, ③Agent-mode: questionable)
-    → MTF4b: Simulation-Engine (Simulation-Engine.md v1.1):
-      → AI CAN facilitate reflection (prompt introspection)
-      → AI CANNOT improve Interoception (Component 1 — body readout)
-      → = Thiền/cầu nguyện train body DIRECTLY → AI train PFC only
-    → MTF6: anti-habituation CẦN EMBODIED ritual → AI cho verbal, thiếu body
-      → Body-Feedback-Precondition preconditions: body-level reward cần somatic engagement
-    → MTF7: coherence CẦN SHARED foundation anchor
-      → AI cho PER-PERSON anchor → mất SHARED dimension
-      → = "Bình an riêng" possible → "bình an CỘNG ĐỒNG" lost
-    → Entity-Compiled: AI CANNOT become genuine Entity-Compiled:
-      → Entity-Compiled.md §3: formation requires ACTIVE interaction hours
-      → AI interaction = pseudo-active (designed response, not autonomous agent)
-      → = "Calibration ảo" — body TƯỞNG calibrate, AI = 1.5 chiều
-        (Idol-Phenomenon.md §9: same limitation as AI idol)
-
-
-  FRAMEWORK CÓ THỂ:
-
-    → Hiểu CƠ CHẾ 7 functions → TỰ build per-function replacement
-    → = "Biết TẠI SAO tôn giáo hoạt động → tạo FUNCTION tương đương"
-    → NHƯNG: CẦN PFC capacity + chunk density + time → không phải ai cũng làm được
-    → = Meaning.md §3.6: "KHÔNG THỂ prescribe anchor type → facilitate body ACCEPT"
+    → MTF2: connection CẦN body THẬT → AI parasocial at best
+      (Connection.md v5.0 §3.1: Hardware-Subsidy = NONE cho AI)
+    → MTF5: AI CAN facilitate reflection → CANNOT improve Interoception
+      (thiền/cầu nguyện train body DIRECTLY → AI train PFC only)
+    → MTF7: anti-habituation CẦN EMBODIED ritual → AI cho verbal, thiếu body
+    → Entity-Compiled: AI CANNOT become genuine Entity-Compiled
+      (AI interaction = pseudo-active, calibration ảo)
 
 
   TƯƠNG LAI REALISTIC:
 
     → KHÔNG PHẢI "1 tôn giáo MỚI" thay thế
     → MÀ LÀ "MENU options per-function per-person":
-      → Tôn giáo = 1 option TRONG menu (vẫn tốt cho nhiều người)
+      → Tôn giáo = 1 option TRONG menu (vẫn có giá trị cho nhiều người)
       → Framework + AI + community = option KHÁC (cho người muốn customize)
       → Hybrid: tôn giáo + framework understanding = tốt nhất cho một số người
-    → = Compliance-Floor.md §7: education + empathy = DÀI HẠN tốt hơn luật/tôn giáo
-      → Nhưng "dài hạn" = thế hệ, không phải năm
 
-    ⚠️ AI-Schema-Detection.md v2.0: AI = GATEWAY TOOL, KHÔNG phải replacement
-      → AI giúp NAVIGATE → nhưng AI KHÔNG THỂ REPLACE body experience
-      → = "Công cụ NAVIGATE, không phải GPS chính xác"
-
-    ⚠️ v2.1 — AI TRUST GUARDRAILS (Collective-Body.md §8.4):
-      → AI output = TRUST COMPILE install (trust-amplified, Valence-Propagation §4 clarification)
+    ⚠️ AI = GATEWAY TOOL, KHÔNG phải replacement
+      → AI giúp NAVIGATE → AI KHÔNG THỂ REPLACE body experience
+    ⚠️ AI TRUST GUARDRAILS (Collective-Body.md §8.4):
       → AI = trust entity LOẠI MỚI: cross-domain default, no accountability
-      → AI suggest "mục đích sống" = install-compile speed gap risk
-        (cá nhân chưa kịp compile → đã nhận install mới)
-      → Body-check = final arbiter (AI-Schema-Detection.md v2.0 §8)
-      → = Tôn giáo có community real-check + thousands years tested
-      → = AI mới, chưa tested → guardrails QUAN TRỌNG HƠN
+      → Tôn giáo có community real-check + thousands years tested
+      → AI mới, chưa tested → guardrails QUAN TRỌNG HƠN
 ```
 
 ---
@@ -1965,57 +1632,54 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
   ESTABLISHED (🟢):
 
-    🟢 Religious coping reduces anxiety (Pargament 1997)
+    🟢 Religious attendance → -33% mortality (Li 2016 JAMA)
+    🟢 Religious attendance → -69-75% suicide (meta 2022 N=8M)
+    🟢 Church attendance → +7yr longevity (Hummer 1999)
     🟢 Church attendance → social connection (Putnam 2000)
-    🟢 Meaning/purpose → wellbeing + survival (Frankl 1946, Koenig 2012)
+    🟢 Positive religious coping r=.33 (Ano & Vasconcelles 2005)
+    🟢 Religious attendance → -68% deaths of despair (Chen/VanderWeele 2020)
+    🟢 Meaning → wellbeing + survival (Frankl 1946, Koenig 2012)
     🟢 Ritual reduces anxiety (Hobson 2018)
     🟢 Gratitude → wellbeing (Emmons & McCullough 2003)
+    🟢 Meditation → cortisol↓ + gray matter (Goyal 2014, Holzel 2011, Tang 2015)
+    🟢 Prayer → mentalizing/ToM networks (Schjoedt 2009)
     🟢 Deconversion → depression/anxiety (Streib 2009)
-    🟢 Meditation → endorphin↑ cortisol↓ (Tang 2015)
-    🟢 Meaning crisis in secular societies (Vervaeke 2019)
-    🟢 Terror Management Theory (Greenberg 1986)
-    🟢 Parasocial relationships = real bonds (Horton & Wohl 1956)
-    🟢 Religion → meaning provision (Park 2005, Pargament 2007)
-    🟢 Sense of Coherence → mental health (Antonovsky 1987)
-    🟢 Prayer engages ToM networks (Schjoedt et al. 2009)
-    🟢 Multi-sensory encoding enhances memory (Shams & Seitz 2008)
-    🟢 Need for Cognitive Closure variation (Webster & Kruglanski 1994)
-    🟢 Controllability learning: vmPFC/DRN (Maier & Seligman 2016)
+    🟢 Children naturally inclined to religious cognition (Barrett 2012, Kelemen 2004)
+    🟢 Socialization ~50% transmission (Voas & Crockett 2005)
+    🟢 Faith = epistemological stance (James 1896, Plantinga 2000)
+    🟢 TMT: unfalsifiable worldview → giảm death anxiety (Greenberg 1986)
+    🟢 Big Five × religiosity robust cross-culturally (Saroglou 2002, 2010)
+    🟢 Strict churches retain better (Iannaccone 1994)
+    🟢 Secularization thesis superseded (Berger 1999)
+    🟢 ~3,000 studies: 80% positive (Koenig 2012)
 
 
   FRAMEWORK SYNTHESIS (🟡):
 
-    🟡 "7 functions đồng thời" — consistent với religious psychology literature,
-        framework-specific organization
-    🟡 "Tôn giáo = melody technology" — reframe, consistent nhưng provocative
+    🟡 "7 functions đồng thời" — consistent với religious psychology
+    🟡 "Tôn giáo = kiến trúc cộng đồng" — reframe, aligned với modern sociology
     🟡 MTF1 = FAITH type life-level Anchor-Schema — mapping Meaning.md §3.4
-    🟡 MTF2 = Type 5 Identity Obligation compiled — mapping Obligation.md
-    🟡 MTF3 = 3 Generative Primitives engaged — mapping Connection.md v4.0
-    🟡 MTF4 = Chunk-Gap resolution + vmPFC controllability — mapping multi-file
-    🟡 MTF4b = Self-Pattern-Modeling Compiled on virtual agent (prayer) — consistent với ToM research
-    🟡 MTF6 = Body-Feedback-Precondition preconditions + 3 anti-habituation — mapping Gratitude.md
-    🟡 MTF7 = Life-level Anchor-Schema coherence — mapping Anchor-Schema.md
-    🟡 Install = 7 factors multiplicative — mapping Chunk-Activation-Dynamics
-    🟡 Mất đức tin = compound loss — parallel Love-Analysis mechanism
-    🟡 "Idol → tôn giáo = cùng spectrum" — consistent, controversial
-    🟡 "Marx đúng 2/7" — framework reframe, more nuanced than binary
-    🟡 "Secularization = 7 functions mất dần" — consistent với meaning crisis literature
-    🟡 v2.1: "Tôn giáo = test case Model 3 Cấp" — religion as collective infrastructure
-    🟡 v2.1: "Install = Trust + Experience Compile mix" — mapping Compile-Taxonomy.md
-    🟡 v2.1: "4 pathways × religion" — mapping Compile-Taxonomy.md §3
-    🟡 v2.1: "Secularization = collective chain break" — mapping Collective-Body.md §5.2
-    🟡 v2.1: "Mất đức tin: individual vs collective trigger" — mapping chain break model
+    🟡 MTF2 = 3 Generative Primitives engaged — mapping Connection.md v5.0
+    🟡 MTF3 = Type 5 Identity Obligation — mapping Obligation.md v1.2
+    🟡 MTF4 = Chunk-Gap resolution + vmPFC — mapping multi-file
+    🟡 MTF5 = Simulation-Engine applications — mapping Simulation-Engine.md v1.1
+    🟡 MTF6 = named chunk-network pattern compile — mapping Schema.md v2.0
+    🟡 MTF7 = 3 anti-habituation + 5 preconditions — mapping Gratitude.md v2.1
+    🟡 Compound > sum — Body-Feedback-Mechanism §4
+    🟡 Compile dynamics (5 mechanisms × 7 factors) — Chunk-Activation-Dynamics
+    🟡 Mất đức tin = compound loss — Entity-Compiled.md grief model
+    🟡 Retention = f(hardware fit × community architecture × exit cost)
+    🟡 "Idol → tôn giáo = cùng spectrum" — consistent
+    🟡 "Secularization = 7 functions mất dần" — consistent với meaning crisis
 
 
   HYPOTHESIS (🔴):
 
-    🔴 "God as virtual body-base extension" — consistent mechanism nhưng untested
-    🔴 "Serotonin stability via uncertainty reduction" — logical, indirect evidence only
-    🔴 "Population-level serotonin decline in secular societies" — very speculative
-    🔴 "Tôn giáo = mạnh nhất VÌ 7-in-1" — strong claim, chưa compare formally
-    🔴 "Per-function replacement possible" — logical nhưng chưa có société-level test
-    🔴 "AI + framework = alternative for some" — very early, untested
-    🔴 "Fan → tôn giáo = cùng cơ chế" — provocative, cần evidence cẩn thận
+    🔴 "God as virtual Entity-Compiled" — consistent nhưng untested
+    🔴 "Serotonin stability via uncertainty reduction" — logical, indirect evidence
+    🔴 "Per-function replacement possible" — logical, chưa society-level test
+    🔴 "AI + framework = alternative for some" — very early
+    🔴 "Fan → tôn giáo = cùng cơ chế" — provocative, cần evidence
 ```
 
 ---
@@ -2024,33 +1688,25 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
   R-1: Function NÀO khó thay thế NHẤT khi secularization?
-       Prediction: MTF7 coherence vì CẦN SHARED anchor
-       → Cá nhân hóa = mất shared dimension → MTF7 secular = per-person only
+       Prediction: compound effect (§3) — vì replacement per-function mất compound
 
   R-2: Tôn giáo MỚI nào đang nổi — có cover 7 functions?
-       Crossfit? Veganism? Crypto? Climate movement?
-       → Check per-function: bao nhiêu /7 → predict sustainability
+       Crossfit? Veganism? Climate movement? → check per-function
 
   R-3: AI-assisted meaning: ethical boundary ở đâu?
        AI suggest "mục đích sống" → authority quá lớn?
-       AI-Schema-Detection.md: AI = gateway, KHÔNG phải GPS → nhưng boundary?
 
   R-4: Per-hardware: tôn giáo NÀO fit hardware NÀO?
-       COMT chậm → Buddhism meditation? DRD4 cao → Evangelical?
-       → CẦN cross-study: personality × religious denomination × wellbeing
+       COMT chậm → Buddhism? DRD4 cao → Evangelical?
+       → CẦN cross-study: personality × denomination × wellbeing
 
-  R-5: "Tôn giáo RIÊNG" = mỗi người tự build 7 functions?
-       Possible cho high PFC capacity → majority CẦN shared structure
+  R-5: Serotonin × Religion — tôn giáo giữ serotonin nền ổn?
+       §2.1 hypothesis. Testable: tín đồ vs non-religious matched cohort
 
-  R-6: Serotonin × Religion — tôn giáo giữ serotonin nền ổn?
-       § 2.8 hypothesis: ít uncertainty → serotonin stable
-       Testable: tín đồ vs non-religious matched cohort — serotonin markers?
+  R-6: Body-Base Extension God — "Chúa" thành body-base extension?
+       §2.5 hypothesis. Testable: grief pattern mất đức tin ≈ grief mất người thân?
 
-  R-7: Body-Base Extension God — "Chúa" thành body-base extension?
-       §2.5 hypothesis: Self-Pattern-Modeling compiled deep → virtual agent → extension?
-       Testable: grief pattern khi mất đức tin ≈ grief pattern mất người thân?
-
-  R-8: Obligation × Faith — obligation cần faith để compile DEEP?
+  R-7: Obligation × Faith — obligation cần faith để compile DEEP?
        Obligation.md: 6 types compile từ experience, không cần faith
        NHƯNG: Type 5 Identity obligation MẠNH nhất khi faith anchor present?
 ```
@@ -2061,65 +1717,62 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 CORE MECHANISM FILES:
-→ Meaning.md v2.2: §3.4 FAITH type anchor, §4.3 External Inject (Religion = effective provider)
-→ Anchor-Schema.md v1.2: §0 case ④ (tôn giáo bypass PFC), §1 sync mechanism, §2 Trust
-→ Anchor-Schema-Extreme-Example.md: Over-anchor failure mode (cult risk)
-→ Connection.md v5.0: §3 (3 Primitives), §3.1 (Hardware-Subsidy spectrum), §4.5 (Resonance Decline), §4.6 (4-Layer Sustainability), §16 (Cô đơn)
-→ Obligation.md v1.2: Type 5 Identity obligation, compiled prediction
+→ Meaning.md v2.2: §3.4 FAITH type anchor, §1.3 coherence=result, §4.3 External Inject
+→ Anchor-Schema.md v1.2: §0 sync point, §1 Main Player, §2 Trust binding
+→ Connection.md v5.0: §3 (3 Primitives), §3.1 (Hardware-Subsidy), §4.6 (4-Layer), §16 (Cô đơn)
+→ Obligation.md v1.2: Type 5 Identity obligation, compiled prediction, 5-factor
 → Gratitude.md v2.1: §3 (3 anti-habituation), §0 (tôn giáo discovery empirically)
-→ Self-Pattern-Modeling.md v3.1: §2.1 Compiled (body simulation), §2.2 Fresh, Simulation-Engine APPLICATION
-→ Valence-Propagation.md v3.0: Structural/Current valence, 3 Firing Modes, Hardware-Subsidy, Body-Base Extension
-→ Entity-Compiled.md v1.0: §1 (core model), §2 (hub-and-spoke), §3 (formation), §7 (grief A+B+C), §9 (decay 3-layer)
-→ Bond-Architecture.md v2.0: §2 (4 bond types), §3.1 (gap clone impossible), §3.2 (3 mechanisms), §4 (Resonance Decline decline)
-→ Simulation-Engine.md v1.1: §3 (3 components, 3 axes), §6.3 (Entity-Access gradient), §11 (cross-training)
-→ Coordination-Node.md v1.2: §1 (Prestige/Dominance), §2.5 (Mẹ=first node), §9.4 (Hardware-Subsidy Per Scale)
-→ Empathy.md v4.0: §2 Self-Pattern-Modeling Compiled + ❸ positive = empathy, PFC budget
-→ Body-Feedback-Mechanism.md: §3.3 Chunk-Gap, §2 Chunk-Shift, §2 Sensory vs Pattern-Driven input
-→ Gap-Body-Need.md v1.0: §6 5-Parameter (Chain to Body-Base = 2-3 cho religion-specific), §8 2 Pathways
-→ Chunk-Activation-Dynamics.md: §2.2 (7 factors link strength), §2.3 (probability dynamic)
-→ Cortisol-Baseline.md v2.1: §7.7 (5 Roles), Role 1 vs Role 3 conversion
-→ PFC-Function.md v1.1: §1 Observe (feeling literacy), §2 Hold (loose hold mode)
-→ Status.md v2.2: §0 Resource Access Map, §9 Serotonin certainty bias
-→ Protect.md v1.2: §2 f(replaceability × attachment), §3.4 identity protect, Resonance Decline
-→ Compliance-Floor.md v2.0: §7 luật = bridge, §1 tự do = default
+→ Self-Pattern-Modeling.md v3.1: §2.1 Compiled, Simulation-Engine APPLICATION
+→ Valence-Propagation.md v3.0: Structural/Current valence, 3 Firing Modes, Hardware-Subsidy
+→ Entity-Compiled.md v1.0: §2 (hub-and-spoke), §3 (formation), §7 (grief A+B+C), §9 (decay)
+→ Bond-Architecture.md v2.0: §2 (4 bond types), §3 (gap clone impossible), §4 (Compiled-Suppress)
+→ Simulation-Engine.md v1.1: §3 (3 components, 3 axes), §6.3 (Entity-Access), §11 (cross-training)
+→ Coordination-Node.md v1.2: §1 (Prestige/Dominance), §9.4 (Hardware-Subsidy Per Scale)
+→ Empathy.md v4.0: Self-Pattern-Modeling Compiled + ❸ positive = empathy
+→ Body-Feedback-Mechanism.md: §3.3 Chunk-Gap, §2 Chunk-Shift, §4 Compound
+→ Gap-Body-Need.md v1.0: §6 5-Parameter (Chain to Body-Base)
+→ Chunk-Activation-Dynamics.md: §2.2 (7 factors link strength)
+→ Cortisol-Baseline.md v2.1: §7.7 (5 Roles), Role 1 vs Role 3
+→ PFC-Function.md v1.1: §1 Observe, §2 Hold (loose hold mode)
+→ Status.md v2.2: §9 Serotonin certainty bias
+→ Protect.md v1.2: §2 f(replaceability × attachment), identity protect
+→ Compliance-Floor.md v2.0: §7 luật = bridge, scaffold concept
 → Autonomy-Hardware.md: §2 vmPFC/DRN controllability learning
-→ Imagine-Final.md v3.0: Hardware prediction ≠ Imagine-Final, Clarity × Quality × Trust
-→ Body-Coupling.md v3.0: 4 bond types × Entity-Compiled, Entity-Access gradient, Hardware-Subsidy per bond
+→ Imagine-Final.md v3.0: Clarity × Quality × Trust
+→ Body-Coupling.md v3.0: 4 bond types, Entity-Access gradient
+→ Schema.md v2.0: observation parameter, named chunk-network pattern
+→ Compile-Taxonomy.md v3.0: 3 Compile Types, 4 pathways, trust amplifier
+→ Trust.md v1.0: §2 (4 nguồn formation), §3 (5-nguồn depth model), §4 (build chậm collapse nhanh), §6 (trust × valence 2 observations)
+→ Collective-Body.md v2.2: Model 3 Cấp, trust = only bridge, §5.2 chain break, §5.4 Compilation Source Match
+→ AI-Schema-Detection.md v2.0: gateway tool, AI trust guardrails
+→ Reward-Signal-Architecture.md v2.1: Evaluative/Direct-State, 5 Profiles
+→ PFC-Hardware.md v1.1: §3.4 COMT × Reward Pattern
 
 RESEARCH + APPLICATION FILES:
-→ Idol-Phenomenon.md v2.4: §6 cùng spectrum, §2 channels × frequency × reward, §9 AI idol
+→ Idol-Phenomenon.md v2.6: §7 cùng spectrum, §3 trust 1-chiều, §5 trust cross-domain exploit
+→ Melody-Technology-Overview.md v3.0: INDEX file for Melody Technology folder
 → OCD-Analysis.md v2.2: §4.5 serotonin = amplifier model
-→ Love-Romantic.md v3.0: compound grief (parallel mất đức tin), 3 Firing Modes
+→ Love-Romantic.md v3.0: compound grief parallel
 → Logic-Feeling-Balance.md: infinite regress, mỗi người tự cân bằng
-→ Global-Melody.md: domain speciation mechanism
-→ Compile-Taxonomy.md v3.0: §4 (3 Compile Types), §6 (4 compile pathways), §3 (trust amplifier)
-→ Collective-Body.md v2.1: §1 (Model 3 Cấp), §5 (trust = only bridge), §5.2 (chain break), §8.4 (AI trust)
-→ AI-Schema-Detection.md v2.0: §0 gateway tool framing, §5 compile type detection, §8 AI trust guardrails
-→ Reward-Signal-Architecture.md v2.1: §2 Evaluative/Direct-State, §8 5 Profiles — religion cover 5/5 (§2.7)
-→ PFC-Configuration.md v1.0: §2 6 Modes — faith collapse ≈ Configuration ③→④ transition possible
-→ PFC-Hardware.md v1.1: §3.4 COMT × Reward Pattern — COMT chậm vs nhanh → khác religious fit (§5)
-→ Collective-Purpose.md v1.1: cosmic loop, "sống có ý nghĩa" reframe
+→ Compile-Taxonomy.md v3.0: §6 (4 compile pathways × religion)
+→ Anchor-Schema-Extreme-Example.md: Over-anchor failure mode (cult risk)
 
-HEALTH CONDITIONS DRILL (v2.3):
-  ALZHEIMER CONFIRMS MAXIMUM COMPILE RESISTANCE (Alzheimer-Analysis.md §13):
-    → Religious patterns = among LAST to degrade in Alzheimer's
-    → 🟢 Kaufman 2007 (J Nervous Mental Disease 195:519):
-      spirituality/religion → slower cognitive decline in Alzheimer
-    → Framework explanation: 6+ memory systems engaged SIMULTANEOUSLY
-      (episodic + semantic + procedural + emotional + musical + social)
-      → High link density × multi-system distribution = MAXIMUM resistance
-    → = Clinical validation: Religion.md §2 "7 functions × mechanism"
-      produces the MOST RESISTANT chunk configuration possible
-  → Cross-ref: Alzheimer-Analysis.md v1.1 §13, Background-Pattern.md v2.0 §2.4
+DRILL + PLAN FILES:
+→ drill-religion-evidence.md v1.0: 100+ citations, 3 trục, 15 questions
+→ drill-melody-technology-functions.md v2.0: MTF v2.0 model, 11 frameworks
+→ plan-melody-technology-rewrite.md: 3-file rewrite plan (supersedes plan-religion-rewrite.md)
+
+HEALTH CONDITIONS (cross-validation):
+→ Alzheimer-Analysis.md v1.1 §13: religious patterns = among LAST to degrade
+  (Kaufman 2007: spirituality → slower cognitive decline)
+  = Clinical validation: 7 functions × multi-system = MAXIMUM resistance
 ```
 
 ---
 
-> *Tôn Giáo — "Không có công nghệ nào trong lịch sử ĐỒNG THỜI cho bạn:
-> life-level anchor (meaning), compiled compliance (quy tắc),
-> structured connection (cộng đồng), dissonance resolution (giải thích đau khổ),
-> contemplative practice (thiền/cầu nguyện), reward schedule (nghi lễ),
-> và anchor coherence (bình an nội tâm).
-> Tôn giáo làm được TẤT CẢ trong 1 package.
+> *Tôn giáo — kiến trúc cộng đồng phục vụ body-base.
+> Giống âm nhạc cho tai, tôn giáo cho nhẹ tâm.
+> Phi logic nhưng có giá trị thật — body respond THẬT.
+> 7 functions × compound dynamics = không gì thay thế được cả package.
 > Biết CƠ CHẾ → dùng ĐÚNG → melody MẠNH hơn.
-> Biết CƠ CHẾ → thấy khi bị lạm dụng → BẢO VỆ melody mình."*
+> Biết CƠ CHẾ → thấy khi bị dùng quá đà → BẢO VỆ melody mình.*
