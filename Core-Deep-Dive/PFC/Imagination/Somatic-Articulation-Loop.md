@@ -1117,6 +1117,17 @@ KEY INSIGHTS:
   → Body-confirm is final arbiter
   → Felt shift marks completion
 
+⭐ SELF-OBSERVATION × SOMATIC-ARTICULATION-LOOP STAGE MAPPING (Self-Observation.md §8.3):
+  Stage 1 (chunks accumulate)    → Pre-Self-Observation
+  Stage 2 (vague signal)         → Self-Observation Mức 1 (detect)
+  Stage 3 (PFC notices)          → Mức 1→2 boundary
+  Stage 4 (catalyst articulate)  → External scaffold (Pathway 2)
+  Stage 5 (body-confirm)         → Mức 5 (body votes on PFC draft)
+  Stage 6 (recursive sharpen)    → Multiple Mức 2↔5 cycles
+  Stage 7 (felt shift)           → New Body-Knowing formed (Mức 2 upgrade)
+  → Somatic-Articulation-Loop = PROCESS qua đó Self-Observation DEEPENS
+  → Mỗi completed Somatic-Articulation-Loop cycle: implicit → explicit = Self-Observation capacity ↑
+
 → Understanding this mechanism allows people to:
   → Trust their "vague" feelings (they're implicit knowledge surfacing)
   → Seek catalysts instead of forcing clarity alone
@@ -2677,6 +2688,11 @@ ANCHOR-SCHEMA CỤM
 ═══════════════════════════════════════════════════════
 CORE + BODY
 ═══════════════════════════════════════════════════════
+
+→ Self-Observation.md v1.0 — APPLICATION-3 trên Simulation-Engine
+   Somatic-Articulation-Loop Stage 1-7 → Self-Observation Mức 0-6 mapping (§8.3)
+   Somatic-Articulation-Loop = PROCESS qua đó Self-Observation DEEPENS
+   Mỗi completed Somatic-Articulation-Loop cycle: Self-Observation capacity ↑
 
 → PFC-Hardware.md
    PFC physical architecture + capacity constraints

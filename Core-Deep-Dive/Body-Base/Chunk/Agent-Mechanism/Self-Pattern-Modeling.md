@@ -57,6 +57,7 @@ dependencies:
   - Cortisol-Baseline.md v2.1 — stress cascade, moral injury
   - Background-Pattern.md v1.1 — 2D Depth×Density, §8 self-reinforcing
   - Imagine-Final.md v2.0 — APPLICATION-2, shared engine
+  - Self-Observation.md v1.0 — APPLICATION-3, mutual reinforcement (Step 5 prerequisite)
 sources:
   - Self-Pattern-Match.md v3.0 (2,569L) — previous version
   - Drill-Self-Pattern-Modeling-Mechanism-Analysis v2.2 (17 insights)
@@ -148,7 +149,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   CÁI RIÊNG CỦA Self-Pattern-Modeling (so với 2 apps khác):
     → TARGET = OTHER (không phải self)
     → Accuracy limited by chunk OVERLAP với target
-    → Per-Agent VALENCE quyết định direction (không có ở self-obs/Imagine-Final)
+    → Per-Agent VALENCE quyết định direction (không có ở Self-Observation/Imagine-Final)
     → 6-step mechanism chi tiết (file này)
 ```
 
@@ -160,7 +161,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     PFC-Operations.md       = HOW PFC operates (Hold/Suppress)
     ★ Self-Pattern-Modeling  = APPLICATION-1 (mechanism chi tiết)
     Imagine-Final.md v3.0   = APPLICATION-2 (future simulation)
-    Self-Observation         = APPLICATION-3 (chưa có file riêng; cf. Feeling.md v3.0)
+    Self-Observation.md v1.0 = APPLICATION-3 (Self × Present × Observe)
 
   SIBLING FILES:
     Agent-Mechanism.md §5   = preview (high-level)
@@ -1439,6 +1440,7 @@ Self-Pattern-Modeling là cơ chế mình dùng mình làm template để đoán
 
   APPLICATION:
     → Imagine-Final.md v2.0 — APPLICATION-2 on Simulation-Engine
+    → Self-Observation.md v1.0 — APPLICATION-3: mutual reinforcement (Self-Pattern-Modeling §4 Step 5 = Self-Observation capability)
     → AI-Schema-Detection.md v2.0 — AI interaction × Self-Pattern-Modeling
     → Somatic-Articulation-Loop.md — body → words
 

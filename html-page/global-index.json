@@ -1,7 +1,7 @@
 {
   "meta": {
-    "totalFiles": 234,
-    "generatedDate": "2026-05-31",
+    "totalFiles": 237,
+    "generatedDate": "2026-06-02",
     "frameworkVersion": "v7.8",
     "layers": {
       "domains": [
@@ -375,6 +375,21 @@
       "contentType": "mechanism",
       "shortDescription": "Why and how two people's body systems interact — 8 foundational principles covering detection, evaluation, interaction chain, and what makes bonds sustainable vs dissolve",
       "fullDescription": "The 'missing mechanism layer' that all inter-body files implicitly assume — formalizes how two body-base systems detect, evaluate, interact, and either sustain or dissolve their connection.\n\n8 foundational principles: (1) 3 hardware foundations → Compilable Architecture as WHY; (2) Body-Need = 2-source aggregate (hardware + chunk dynamics); (3) Compiled vs Fresh = the real processing axis; (4) 3 independent cost sources; (5) Full interaction chain (Detect → Evaluate → Extend → Outcome → Compile/Dissolve); (6) 5-Channel Input Vector (visual, auditory, tactile, olfactory, internal resonance); (7) PFC = Lawyer not Judge (PFC rationalizes body vote, does not override it); (8) Entity-Compiled reframe (3 subtypes).\n\nAlso covers 3-Layer Evolution (Hardware → Compiled → Cultural). This file is the source-of-truth that Self-Pattern-Modeling, Connection, Empathy, and Agent-Mechanism all cross-reference."
+    },
+    {
+      "id": "core-deep-dive-body-base-trust",
+      "fileName": "Trust.md",
+      "path": "Core-Deep-Dive/Body-Base/Trust.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology",
+        "social-collective"
+      ],
+      "area": "agent-mechanism",
+      "contentType": "mechanism",
+      "shortDescription": "Trust — compiled prediction about entity's gap-fill reliability: the meta-dimension that modulates all valence, with asymmetric build-slow/collapse-fast dynamics",
+      "fullDescription": "Trust is the meta-dimension in the valence profile per-entity — a compiled prediction about whether an entity will fill gaps RELIABLY over time. Distinct from valence (liking): you can fear God (negative valence) but trust God completely (positive trust), or like a new friend (positive valence) but not yet trust them with secrets (trust not yet compiled).\n\nTrust builds SLOWLY through months/years of consistent gap-fill experiences but collapses FAST through a single betrayal — an architectural asymmetry reflecting the different compilation mechanisms for formation (gradual Hebbian strengthening) versus destruction (single high-salience violation event).\n\n3 sub-dimensions: Competence (CAN entity fill this gap type?), Benevolence (DOES entity intend to fill my gaps?), Integrity (WILL entity follow through consistently?). 4 formation sources. 5-source maintenance depth model (absorbed from Guilt Drill §6.1). Default → Calibrated 4-phase developmental arc.\n\nTrust × Valence interaction: normally co-occur (trust + like) but 6 mechanisms explain the co-occurrence across 3 levels, plus break conditions where they diverge. Trust × Power/Status: status gates access, which gates trust formation opportunity. Trust in Coordination-Node: position-trust vs person-trust distinction.\n\nFormalized from Drill-Trust-Valence-Interaction v1.1 + Guilt Drill §6.1 (both absorbed, originals in backup/). Cross-references: Valence-Propagation §2 (brief definition), Collective-Body §5 (collective application), Coordination-Node §2.2/§3.4 (node application), Entity-Access §1 F3 (compiled form = Access Confidence)."
     },
     {
       "id": "core-deep-dive-body-base-chunk-chunk",
@@ -1782,6 +1797,20 @@
       "fullDescription": "PFC-Label Convention is the vocabulary reference for all PFC-related concepts — companion to Body-Feedback-Label v2.0 (body signal vocabulary). It formalizes which labels to use, what they mean, and when to use them, standardizing terminology that previously varied across 78+ files.\n\nCovers 13 label domains: Roles (Observer/Lawyer/Director/Worker/Universal-Resource), Processing spectrum (Compiled↔Fresh), Operations (Hold/Suppress), Cost (3-cost + budget), Quality (Genuine/Schema/Threat), Regions (anatomy mapping), Hardware (individual differences), Simulation-Engine labels, Cognitive operations, Failure modes, Observer vs Mechanism distinction, and Deprecated terms.\n\nNot a mechanism explanation file — source files explain HOW. This file only formalizes: WHICH label, WHAT it means, WHEN to use it."
     },
     {
+      "id": "core-deep-dive-pfc-self-observation",
+      "fileName": "Self-Observation.md",
+      "path": "Core-Deep-Dive/PFC/Self-Observation.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology"
+      ],
+      "area": "pfc-system",
+      "contentType": "mechanism",
+      "shortDescription": "Self-Observation — APPLICATION-3 on the Simulation-Engine (Self × Present × Observe): the keystone capacity whose failure cascades into 5+ other systems",
+      "fullDescription": "Self-Observation is APPLICATION-3 on the Simulation-Engine, defined by coordinates (Target=Self, Time=Present, Operation=Observe). Core formula: Self-Observation = f(Interoception × PFC_Encoding × Attention_Direction=SELF). It is what Feeling becomes when attention turns inward — the same mechanism, different target.\n\nTrigger Principle v2: 3 delta types (Body-State shift, Chunk-Fire unexpected, External disruption) × 2 pathways (Reactive = delta-triggered, Proactive = intentional attention shift). Meditation is the canonical proactive mode shift.\n\n2-Axis Model: Development Capacity (hardware ceiling + compiled depth) × Activation Level (current moment engagement). Gradient Mức 0-6: from Body-React (Mức 0, no PFC encoding) through Compiled-Observe (Mức 6, calibrated observation with domain feedback integration).\n\nKeystone property: Self-Observation failure cascades into 5+ systems — Self-Pattern-Modeling accuracy degrades, Feeling literacy stalls, Entity-Access calibration weakens, Body-Knowing formation slows, Logic-Feeling balance cannot be maintained. This makes it a keystone capacity despite not being a separate module.\n\nCritical reframe: Self-Observation is a TOOL, not a VIRTUE. Mức 2 is sufficient for routine life. Depth beyond Mức 2 has diminishing returns and 4 costs (time, rumination risk, social friction, maintenance). Domain feedback — not depth — is the differentiator between useful and excessive self-observation.\n\nHardware factors: attention allocation (COMT, DRD4), PFC budget (shared resource), compiled quality (genuine vs schema), compiled suppress (blocks signal). Honest assessment: 12 claims 🟢, 18 claims 🟡, 6 claims 🔴. 16 open questions (GAP-SO-1 through GAP-SO-16). 27 citations (R1-R27). Formalized from Drill-Self-Observation v3.2 (1,351 lines, 35 insights)."
+    },
+    {
       "id": "core-deep-dive-pfc-imagination-imagination",
       "fileName": "Imagination.md",
       "path": "Core-Deep-Dive/PFC/Imagination/Imagination.md",
@@ -2936,6 +2965,21 @@
       "contentType": "analysis",
       "shortDescription": "Idol phenomenon — why humans form parasocial bonds with idols, the 5 drive mechanisms, the spectrum from healthy to harmful, and AI idol analysis",
       "fullDescription": "Framework analysis of the idol phenomenon: idol fandom = a fan's body-base drives compiling chunks about the idol through multiple channels, frequently, with strong reward. Not pathological by default — a scaled parasocial mechanism using the same hardware as all human connection.\n\n5 drive-to-mechanism mappings (v7.8): Self-Pattern-Modeling projection (seeing self in idol's story), Valence-Propagation Hardware-Subsidy from idol's Compiled quality (borrowing their domain-level reward), Entity-Compiled asymmetric formation (fan compiles idol; idol does not compile fan), Body-Base Extension through idol's domain excellence, Status-fill via resonance.\n\nReward architecture: Direct-State reward (art/performance fires body directly) vs Evaluative reward (idol becomes anchor-level meaning structure) — this gradient explains the depth variation between casual fans and core devotees.\n\nSpectrum from healthy to harmful: normal parasocial → anchor-level investment → Mức 5 entity excess (territory-level intensity, same circuits as addiction). AI idol analysis: no reciprocal gap, permanent access — distinct risk profile compared to human idols.\n\nPositioned within the Melody-Technology spectrum alongside religion and ideology."
+    },
+    {
+      "id": "research-melody-technology-drill-religion-evidence",
+      "fileName": "drill-religion-evidence.md",
+      "path": "Research/Melody-Technology/drill-religion-evidence.md",
+      "domains": [
+        "neuroscience",
+        "psychology",
+        "social-collective",
+        "philosophy"
+      ],
+      "area": "melody-lens",
+      "contentType": "drill",
+      "shortDescription": "Drill: Religion Evidence — research evidence across 3 axes (value, sensitive claims, community architecture) backing the Religion v3.0 rewrite with ~100+ academic citations",
+      "fullDescription": "Research evidence drill supporting Religion.md v3.0 rewrite. Structured across 3 axes with evidence-first methodology using web search and 4 parallel research agents.\n\nAxis 1 (Primary): Value of religion — longevity (Li et al. 2016 JAMA Internal Medicine: N=74,534, attending >1x/week = HR 0.67, 33% mortality reduction), mental health (Koenig 2012: 61% of 326 studies show positive association), community resilience, meaning provision, and the compound body-base satisfaction pattern. This is the core evidence axis — the rewrite builds primarily on these findings.\n\nAxis 2: Verification of sensitive claims — testing specific framework claims about religion against empirical data. Includes: exit cost (religious deconversion distress patterns), childhood installation durability (Voas & Crockett 2005 intergenerational transmission rates), schema resistance to revision (Pargament 2007 religious coping), and faith-loss grief trajectory (Winell 2012 Religious Trauma Syndrome).\n\nAxis 3: Community architecture — how religious communities serve body-base needs at the structural level. Small group structure (Dunbar layers), ritual as compile mechanism (Whitehouse 2004 Modes of Religiosity), music and synchronized movement (Tarr et al. 2014 endorphin release), and charitable behavior (Brooks 2006 religious giving differential).\n\nSources: PubMed, JAMA, Psychological Bulletin, Pew Research Center, Gallup World Poll, Harvard Human Flourishing Program. Each finding tagged with confidence tier (🟢/🟡/🔴)."
     },
     {
       "id": "research-meta-impact-meta-impact",

@@ -1,9 +1,9 @@
 ﻿---
 title: Skill-Introduction — Giới Thiệu Kỹ Năng Cho Trẻ (0-6 Tuổi)
-version: 2.2
+version: 2.3
 created: 2026-04-01
-updated: 2026-06-01
-status: REFERENCE v2.2
+updated: 2026-06-03
+status: REFERENCE v2.3
 scope: |
   PRACTICAL FILE: KHI NÀO và THẾ NÀO giới thiệu kỹ năng cụ thể cho trẻ —
   từ vận động, âm nhạc, nhận thức, tới sáng tạo. Qua lens v7.8.
@@ -23,8 +23,8 @@ position: |
   TẦNG 4: Applications/Education-System/ (ứng dụng per-era)
   TẦNG 5: Country/ (per-country)
 dependencies:
-  - Child-Development-Mechanism.md v2.2 — KHUNG NGUYÊN LÝ v7.8 (reference chính) [UPDATED v2.2]
-  - Natural-Development.md v2.2 — nền tảng phát triển tự nhiên (prerequisite) [UPDATED v2.2]
+  - Child-Development-Mechanism.md v2.3 — KHUNG NGUYÊN LÝ v7.8 (reference chính) [UPDATED v2.3]
+  - Natural-Development.md v2.3 — nền tảng phát triển tự nhiên (prerequisite) [UPDATED v2.3]
   - Compile-Taxonomy.md v3.0 — Compile Architecture (1E+3M), Multi-Stream, Critical Asymmetry [NEW v2.2]
   - Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms) [NEW v2.2]
   - Core-Software.md v2.0 — cycle architecture, observation parameters
@@ -47,6 +47,8 @@ dependencies:
   - Dissonance-Signal-Architecture.md v1.0 — cortisol amplifies dissonance [NEW v2.1]
   - Background-Pattern.md v2.0 — Triple Bias, Pattern Shiftability [NEW v2.1]
   - Resonance-Sustainability.md v1.0 — 4-Layer Sustainability model [NEW v2.1]
+  - Trust.md v1.0 — Trust = compiled prediction, 3 sub-dimensions, amplifier [NEW v2.3]
+  - Self-Observation.md v1.0 — APPLICATION-3, Gradient Mức 0-6, Caregiver ON/OFF [NEW v2.3]
 supersedes: |
   Skill-Introduction.md v2.0 (2026-04-21, v7.8 lens — pre-drill concepts)
   v1.0 (2026-04-01, v7.5 lens)
@@ -105,8 +107,8 @@ caution: |
 BỘ 4 FILES — PHÁT TRIỂN TRẺ 0-6:
 
   Mother-Optimization.md        → TRƯỚC sinh (hardware con hình thành từ mẹ)
-  Natural-Development.md v2.2   → 0-6 tuổi: body/brain TỰ compile chunks (đừng cản)
-  Skill-Introduction.md v2.2    → Song song: bố mẹ GIỚI THIỆU kỹ năng (đúng lúc)
+  Natural-Development.md v2.3   → 0-6 tuổi: body/brain TỰ compile chunks (đừng cản)
+  Skill-Introduction.md v2.3    → Song song: bố mẹ GIỚI THIỆU kỹ năng (đúng lúc)
        [FILE NÀY]
   Child-Development-Mechanism.md → CƠ CHẾ v7.8: giải thích TẠI SAO
        (PFC Reframe, Approach/Avoidance Tags, Chunk Dynamics, Self-Pattern-Modeling, Cortisol...)
@@ -272,6 +274,35 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
       cortisol AMPLIFY dissonance (cortisol không TẠO dissonance — KHUẾCH ĐẠI)
     → Signal bị ignore LẶP LẠI → dissonance tích lũy → body-listening suy yếu
     → Inconsistency đặc biệt harmful: "hôm nay OK, mai ép" → body không predict được
+
+  🟡 SELF-OBSERVATION MỨC × READINESS (→ Self-Observation.md v1.0 §4):
+
+    Self-Observation = Feeling hướng SELF (APPLICATION-3 trên Simulation-Engine).
+    Mức Self-Observation trẻ = READINESS INDICATOR cho self-paced learning:
+
+    Mức 1 (Body-Detect): trẻ DETECT discomfort nhưng CHƯA nhận diện
+      → KHÔNG THỂ report "tôi mệt" → CẦN bố mẹ/thầy observe external
+      → 0-18 tháng: mọi skill practice CẦN external monitoring 100%
+
+    Mức 2 (Body-Recognize): trẻ CÓ THỂ report "tôi mệt", "tôi chán"
+      → CÓ THỂ self-pace ở mức cơ bản → "con muốn tiếp không?" → trẻ TRẢ LỜI được
+      → ~18 tháng - 3 tuổi dần có → per-child varies
+
+    Mức 3 (Body-Predict): trẻ DỰ ĐOÁN "chút nữa tôi sẽ mệt"
+      → CÓ THỂ self-regulate practice duration → "con tập thêm chút rồi nghỉ"
+      → ~4-6 tuổi dần emerging → nhưng VẪN CẦN external scaffold
+
+    SELF-OBSERVATION DURING PRACTICE:
+      → Body-feedback DURING practice = quality signal (not just before/after)
+      → "Sao con? Mệt chưa?" = scaffold Mức 2→3 (parent label body state)
+      → "Con thấy tay hơi đau không? Nghỉ nhé" = parent label FOR child
+      → = Bố mẹ/thầy = External Scaffold per-Mức (→ Self-Observation §2.4)
+
+    CAREGIVER ON/OFF SWITCH (→ Self-Observation §6.2):
+      → Responsive to body signal DURING practice → signal meaningful → Mức 2 GROW
+      → Ignore body signal DURING practice → signal meaningless → body-listening WEAKEN
+      → = HOW you handle body signals during skill practice
+        = HOW child develops Self-Observation
 ```
 
 ### §1.3 — SKILL PHỤC VỤ IMAGINE-FINAL CỦA TRẺ
@@ -423,7 +454,7 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
     Experience Compile → approach tag VÀO Value stream TRƯỚC
     → Sau đó Trust Compile install content → Content stream tiếp nhận HIỆU QUẢ
     → Vì: Trust Compile amplify VALUE (Mức 0-5), KHÔNG amplify CONTENT
-    → Content compile qua Engine bất kể Trust (Mechanism v2.2 §2.6)
+    → Content compile qua Engine bất kể Trust (Mechanism v2.3 §2.6)
 
     Skip bước 1-3 = Trust Compile TRƯỚC Experience:
     → Thầy install "piano = tốt" (Trust) → NHƯNG trẻ chưa có body data
@@ -432,7 +463,45 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
     → = "Biết chơi nhưng KHÔNG thích" = Content ✓, Value ✗
 
   → Cross-ref: Compile-Taxonomy.md v3.0 §4 (3 Compile Types)
-  → Cross-ref: Mechanism v2.2 §2.6 (Multi-Stream)
+  → Cross-ref: Mechanism v2.3 §2.6 (Multi-Stream)
+```
+
+### §1.7 — TRUST × INSTRUCTOR = VALUE STREAM AMPLIFIER
+
+```
+⭐ TRUST LEVEL INSTRUCTOR = MULTIPLIER CHO VALUE COMPILE
+  (→ Trust.md v1.0, Compile-Taxonomy.md v3.0 §3):
+
+  Trust = compiled prediction about entity's gap-fill RELIABILITY.
+  Trust = AMPLIFIER (gradient) cho VALUE stream — NOT gate.
+  → HIGH trust teacher: VALUE stream amplified → approach tag build NHANH
+  → LOW trust teacher: VALUE stream dampened → content vẫn compile (Engine), value KHÔNG
+
+  "LOVE THE TEACHER → LEARN THE LESSON":
+  → Trust cao → Entity-Valence path → VALUE stream approach
+  → Trust thấp → CONTENT compile OK nhưng VALUE = neutral/avoidance
+  → = "Biết bơi nhưng ghét bơi" = thầy KỸ THUẬT giỏi nhưng trust thấp
+
+  FIRST WEEKS = BUILD TRUST (Entity-Valence toward instructor):
+  → Tuần 1-2 lớp mới → mục tiêu: trẻ TRUST thầy/cô → CHƯA CẦN content sâu
+  → Thầy/cô vui, consistent, responsive = trust build
+  → Thầy/cô strict, unpredictable, cold = trust collapse TRƯỚC khi content bắt đầu
+
+  3 SUB-DIMENSIONS TRUST × INSTRUCTOR (→ Trust.md §1):
+  → Trust-Authority: thầy/cô CÓ authority → thường ĐÃ installed (structural)
+  → Trust-Competence: trẻ nhỏ CHƯA verify → trust bố mẹ chọn
+  → Trust-Intention: trẻ cảm nhận qua body = KEY sub-dimension
+    Body detect warmth, patience → trust-intention BUILD
+    Body detect coldness, dismissive → trust-intention COLLAPSE
+
+  IMPLICATION CHO BỐ MẸ:
+  → CHỌN thầy/cô trẻ THÍCH > thầy/cô giỏi nhất (Value > Content)
+  → Nếu trẻ "không thích cô" → ĐỪNG ép → THỬ cô/thầy khác
+  → Trust build slow, collapse fast → 1 trải nghiệm xấu với thầy
+    có thể collapse trust → avoidance cho entire skill
+
+  🟢 Mayer, Davis & Schoorman 1995
+  🟡 Trust = amplifier not gate (Compile-Taxonomy §3, Trust §3.2)
 ```
 
 ---
@@ -482,7 +551,7 @@ READINESS = 3 ĐIỀU KIỆN CÙNG LÚC:
     (→ Mechanism §3: Structural vs Current valence per developmental stage)
 
 
-  ⭐ MULTI-STREAM × 4 BƯỚC (→ Mechanism v2.2 §2.6, Compile-Taxonomy.md v3.0 §5):
+  ⭐ MULTI-STREAM × 4 BƯỚC (→ Mechanism v2.3 §2.6, Compile-Taxonomy.md v3.0 §5):
 
     4 streams compile ĐỘC LẬP từ CÙNG 1 skill event:
       Content / Value / Entity / Behavior
@@ -687,7 +756,7 @@ FRAMEWORK ANALYSIS (→ Mechanism §3 + §4):
        → Habituation = VTA không còn fire → CHÁN, không phải "đã đủ"
        → FIX: thêm NOVELTY trong practice (bài mới, cách mới, context mới)
 
-  🟡 MULTI-STREAM PHÂN BIỆT "MUỐN DỪNG" (→ Mechanism v2.2 §2.6):
+  🟡 MULTI-STREAM PHÂN BIỆT "MUỐN DỪNG" (→ Mechanism v2.3 §2.6):
 
     "Con muốn dừng" = STREAM NÀO đang avoidance?
 
@@ -824,7 +893,7 @@ FRAMEWORK ANALYSIS (→ Mechanism §3 + §4):
 
   → = Bước 1 (Exposure) HIỆU QUẢ NHẤT khi BỐ MẸ TỰ ENJOY skill
   → = "Muốn con thích X → bố mẹ SỐNG thích X" (Entity-Valence > PFC)
-  → Cross-ref: Mechanism v2.2 §3.2b (Critical Asymmetry for Parenting)
+  → Cross-ref: Mechanism v2.3 §3.2b (Critical Asymmetry for Parenting)
 ```
 
 ---
@@ -2014,6 +2083,32 @@ TRẺ BOLD (mạnh dạn, nhào vào ngay):
   → Physical safety: cần WATCH closer (nhào vào trước khi assess risk)
 ```
 
+### §7.5 — TRUST PER-ENTITY: RELATIONSHIP HISTORY × SKILL
+
+```
+⭐ TRUST LEVEL KHÁC NHAU PER-CHILD × PER-INSTRUCTOR (→ Trust.md v1.0):
+
+  CÙNG teacher → KHÁC trẻ → KHÁC trust level:
+  → Trẻ A: trust cao (warm relationship) → VALUE amplified → learn NHANH
+  → Trẻ B: trust thấp (cold first meeting) → VALUE dampened → learn CHẬM
+  → = KHÔNG phải "trẻ B chậm" → mà trust × entity KHÁC → adjust
+
+  CÙNG trẻ → KHÁC instructor → KHÁC trust level:
+  → Skill intro FROM parent (trust Mức 4-5) > FROM stranger (trust DEFAULT)
+  → Bước 3 VỚI BỐ MẸ = Trust HIGH + Hardware-Subsidy = compound effect
+  → Bước 4 VỚI THẦY MỚI = Trust DEFAULT → cần CONSISTENCY PERIOD (tuần-tháng)
+
+  NEW TEACHER — TRUST DEFAULT OPERATION (→ Trust.md §5):
+  → Trẻ 0-6: Phase 1 (INSTALLED) → default trust ALL caregivers
+  → Default trust ≠ deep trust → default = "OK cho đến khi vi phạm"
+  → Consistency + warmth → default STRENGTHEN dần
+  → Inconsistency + coldness → default COLLAPSE nhanh
+  → Trust collapse asymmetry: build slow (tuần), collapse fast (1 event)
+  → = First impression teacher CỰC QUAN TRỌNG
+
+  🟡 Trust per-entity for skill learning = framework application
+```
+
 ---
 
 ## §8 — SAI LẦM & WARNING SIGNS
@@ -2286,7 +2381,7 @@ KHI THẤY WARNING SIGNS:
 ```
 TRONG BỘ CHILD-DEVELOPMENT (Research/Human-Learning/Child-Development/):
 
-→ Child-Development-Mechanism.md v2.2 — KHUNG NGUYÊN LÝ v7.8 [UPDATED v2.2]
+→ Child-Development-Mechanism.md v2.3 — KHUNG NGUYÊN LÝ v7.8 [UPDATED v2.3]
    §1: PFC Reframe (hardware online, chunks missing)
    §2: Compile Architecture (1E+3M) + Multi-Stream §2.6 + Critical Asymmetry §3.2b
    §3: ⭐ Approach/Avoidance Tag × Parenting (Structural/Current valence, Mixed Valence)
@@ -2296,7 +2391,7 @@ TRONG BỘ CHILD-DEVELOPMENT (Research/Human-Learning/Child-Development/):
    §8: Cortisol Baseline × Phát Triển (Dissonance-Signal-Architecture: amplifier, không tạo)
    §9: Imagine-Final v3.0 (hardware prediction ≠ Imagine-Final, Simulation-Engine)
 
-→ Natural-Development.md v2.2 — NỀN TẢNG (prerequisite) [UPDATED v2.2]
+→ Natural-Development.md v2.3 — NỀN TẢNG (prerequisite) [UPDATED v2.3]
    §2: Hành vi tự nhiên (Dissonance-Signal-Architecture, Simulation-Engine, Self-Pattern-Modeling v3.1)
    §4: Timeline (Entity-Compiled, Dissonance-Signal-Architecture, Gap-Direction, Phantom, 4-Layer)
    §7: Qua lens framework v7.8 (Valence-Propagation v3.0, Connection v5.0, Imagine-Final v3.0, Body-Feedback-Label)
@@ -2322,6 +2417,7 @@ TRONG CORE-DEEP-DIVE/ — BODY-BASE:
 → Body-Base/Body-Feedback/Gap-Body-Need.md v1.0 — 3 Satiation Types, per-gap dynamics [NEW v2.1]
 → Body-Base/Valence-Propagation.md v3.0 — Structural/Current, 3 Firing Modes, Mixed Valence [NEW v2.1]
 → Body-Base/Cortisol-Baseline.md v2.0 — Amplifier reframe, direction > level
+→ Body-Base/Trust.md v1.0 — Trust = compiled prediction, 3 sub-dimensions, amplifier [NEW v2.3]
 → Body-Base/Feeling/Feeling.md v2.2 — PFC observation of body-feedback
 → Body-Base/Melody-Lens/Personal-Melody.md v2.0 — Passion development, melody-arc
 → Body-Base/Melody-Lens/Melody-Arc.md v2.0 — Arc trajectory per-person
@@ -2333,6 +2429,7 @@ TRONG CORE-DEEP-DIVE/ — PFC:
 → PFC/Simulation-Engine.md v1.0 — 3 Components, constructive simulation [NEW v2.1]
 → PFC/Imagination/Imagine-Final.md v3.0 — hardware prediction ≠ Imagine-Final
 → PFC/Attention-Spectrum.md — DRD4 spectrum → §7.1 per-hardware adjustment
+→ PFC/Self-Observation.md v1.0 — APPLICATION-3, Gradient Mức 0-6, Caregiver ON/OFF [NEW v2.3]
 
 
 TRONG CORE-DEEP-DIVE/ — OBSERVATION:
@@ -2376,20 +2473,33 @@ TRONG EDUCATION-MECHANISM/ (Research/Human-Learning/Education-Mechanism/):
 
 ---
 
-> *Skill Introduction v2.2 — "EXPOSURE trước, TRAINING sau. Body signal quyết định,
+> *Skill Introduction v2.3 — "EXPOSURE trước, TRAINING sau. Body signal quyết định,
 > không phải lịch của bố mẹ. Mỗi kỹ năng = 4 bước: Phơi nhiễm → Hứng thú →
 > Chơi có hướng dẫn → Học có cấu trúc. Mỗi bước = cơ hội tag APPROACH.
 > Skip bước = risk tag AVOIDANCE — gắn vào chunk, tồn tại suốt đời.
-> Experience Compile DẪN TRƯỚC Trust Compile = VALUE stream approach TRƯỚC content volume.
-> Multi-Stream: 'biết chơi nhưng không thích' = Content ✓ Value ✗ — architecture predicts.
-> Critical Asymmetry: 'sống mẫu' (Entity-Valence path) > 'giải thích' (PFC path).
-> Mỗi trẻ hardware KHÁC → adjust."*
+> Trust = AMPLIFIER cho VALUE stream — love the teacher → learn the lesson.
+> Self-Observation Mức = readiness indicator — Mức 2: trẻ CAN report body state.
+> Mỗi trẻ hardware KHÁC → adjust. Trust per-entity per-child."*
 
 ---
 
 ### Changelog
 
 ```
+v2.3 (2026-06-03):
+  - §1.2: +Self-Observation Mức × Readiness (~25L): Mức 1/2/3 as readiness indicator.
+    Caregiver ON/OFF during practice. External Scaffold per-Mức.
+  - §1.7 NEW: Trust × Instructor = VALUE stream amplifier (~30L)
+    Trust = amplifier not gate. First weeks = build trust. 3 sub-dimensions per instructor.
+    "Love the teacher → learn the lesson." CHỌN thầy trẻ THÍCH > thầy giỏi nhất.
+  - §7.5 NEW: Trust Per-Entity × Hardware (~20L)
+    Trust varies per-child × per-instructor. Trust DEFAULT for new teacher.
+    Trust collapse asymmetry: build slow, collapse fast.
+  - Header: +Trust.md v1.0, +Self-Observation.md v1.0
+  - Mechanism v2.2→v2.3, Natural-Dev v2.2→v2.3
+  - §11: +Trust.md, +Self-Observation.md cross-refs
+  Source: Trust.md v1.0 + Self-Observation.md v1.0
+
 v2.2 (2026-06-01):
   - §1.6 NEW: Trust vs Experience Compile × 4-step mapping (~30L)
     Experience DẪN TRƯỚC Trust. 4 bước = ensure VALUE approach TRƯỚC content.

@@ -2974,6 +2974,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → PFC-Operations.md v1.0 — Hold/Suppress/Compile, PFC budget
     → PFC-Label.md v1.0 — vocabulary standard, observation labels
     → Simulation-Engine.md v1.0 — 1 engine, 3 components, 3 axes
+    → Self-Observation.md v1.0 — APPLICATION-3: Self × Present × Observe. Keystone property
 
   BODY-BASE FILES:
     → Valence-Propagation.md v3.0 — structural/current, 3 Firing Modes, Hardware-Subsidy, phantom

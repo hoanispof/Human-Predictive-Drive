@@ -1,13 +1,21 @@
 ---
 title: Hardware Calibration — Nhận Diện + Điều Chỉnh Per-Individual
-version: 1.1
+version: 1.2
 created: 2026-04-03 (DRAFT) → 2026-05-11 (v1.0 rewrite)
-updated: 2026-05-25 (v1.1 — MODERATE REFINE)
-status: v1.1 APPLICATION
+updated: 2026-06-03 (v1.2 — Trust + Self-Observation integration)
+status: v1.2 APPLICATION
 scope: |
   Per-hardware calibration THỰC HÀNH —
   từ "tại sao cần per-individual" → "LÀM THẾ NÀO nhận diện + điều chỉnh"
   TẦNG 4 — Applications, KHUNG per-individual (brain-based).
+  v1.2 KEY CHANGES:
+    - +Trust × Calibration Quality: trust-intention = upstream condition, Default→Calibrated timeline
+    - +Self-Observation × Calibration Depth: teacher Mức 4-5, student input per-Mức, PFC Budget
+    - +Trust × Self-Observation coupled matrix: 4 combinations → calibration state
+    - +Per-hardware Self-Observation baseline → calibration implication
+    - +Miscalibration enrichment: trust + self-observation root causes added
+    - All Tầng 3 dependency versions updated (EM v2.2, DKM v2.1, CE v1.1)
+    - All Child-Dev dependency versions updated (v2.3)
   v1.1 KEY CHANGES:
     - Connection v3.1→v5.0: DIM 5 Social Processing updated (Self-Pattern-Modeling v3.1)
     - Agent-Mechanism v1.0→v2.1: Self-Pattern-Modeling v3.1 (1 mechanism × 3 dimensions)
@@ -18,17 +26,16 @@ scope: |
     - +Gap-Distribution-Profile: per-individual gap landscape observation
     - +Dissonance-Signal-Architecture: Evaluative vs Direct-State in miscalibration
     - +Entity-Access + Entity-Compiled: teacher-student relationship calibration lens
-    - All dependency versions updated
 purpose: |
   BRIDGE giữa brain mechanism và practical education.
-  Core-Hardware (PARAMETERS) → File này (observe + calibrate) → Education-System v3.0 (apply).
+  Core-Hardware (PARAMETERS) → File này (observe + calibrate) → Education-System v3.1 (apply).
   "Chuyển hardware specs thành ACTIONABLE observation + adjustment"
   ⚠️ File này = DURABLE NHẤT trong folder (brain-based → decades).
   ⚠️ Nhận diện ≠ dán nhãn. Continuous, multi-dimensional, evolving.
 position: |
   Applications/Education-System/ — TẦNG 4.
-  ĐỌC SAU: Education-System.md v3.0 (WHERE to apply calibration).
-  ĐỌC TRƯỚC: Curriculum-Framework.md v2.0 (WHAT to calibrate for).
+  ĐỌC SAU: Education-System.md v3.1 (WHERE to apply calibration).
+  ĐỌC TRƯỚC: Curriculum-Framework.md v2.2 (WHAT to calibrate for).
 previous: backup/v1.0/Hardware-Calibration.md (1,538L, v1.0, 2026-05-11)
 dependencies:
   core-hardware:
@@ -53,9 +60,12 @@ dependencies:
     - Coordination-Node.md v1.2 — teacher as coordination node
     - Self-Pattern-Modeling.md v3.1 — 1 mechanism × 3 dimensions
   education-foundation:
-    - Education-Mechanism.md v2.1 — HOW: Cost Formula, Direction > Level
-    - Education-System.md v3.0 — WHERE: per-stage, teacher role, ENGINE/ROAD/VEHICLE
-    - Connection-Education.md v1.0 — WHO: 5 trụ social interaction education
+    - Education-Mechanism.md v2.2 — HOW: Cost Formula, Direction > Level
+    - Education-System.md v3.1 — WHERE: per-stage, teacher role, ENGINE/ROAD/VEHICLE
+    - Connection-Education.md v1.1 — WHO: 5 trụ social interaction education
+  trust/self-observation:
+    - Trust.md v1.0 — Compiled prediction about gap-fill reliability, 3 sub-dimensions, Default→Calibrated
+    - Self-Observation.md v1.0 — APPLICATION-3, Gradient Mức 0-6, Hardware Factors, Tool Not Virtue
   application:
     - Sensitivity-Classification.md v1.0 — 3 hardware sensitivity groups
     - PFC-Configuration.md v1.0 — 6 dynamic modes
@@ -90,12 +100,12 @@ confidence: 🟢 Neuroscience mechanism | 🟡 Framework inference | 🔴 Hypoth
 ```
 NGHỊCH LÝ CỦA "ONE SIZE FITS ALL":
 
-  Education-Mechanism.md v2.1 §2.3 (Cost Formula):
+  Education-Mechanism.md v2.2 §2.3 (Cost Formula):
     → cost ≈ f(chunk_gap × hardware_mismatch × direction)
     → Cùng content + KHÁC hardware → KHÁC cost hoàn toàn
     → "One size fits all" = chỉ FIT average → bỏ lại cả hai đầu
 
-  Education-System.md v3.0 đã nói:
+  Education-System.md v3.1 đã nói:
     → §2: per-hardware bắt đầu identify Stage 2 (6-12)
     → §3: hardware tendencies RÕ hơn Stage 3 (12-18)
     → §7: teacher skill #1 = NHẬN DIỆN per learner
@@ -109,7 +119,7 @@ NGHỊCH LÝ CỦA "ONE SIZE FITS ALL":
 
 FILE NÀY = BRIDGE GIỮA:
 
-  Core-Hardware.md v1.0       →  File này  →  Education-System.md v3.0
+  Core-Hardware.md v1.0       →  File này  →  Education-System.md v3.1
   PFC-Hardware.md v1.1           (HOW to     (WHERE to apply
   (hardware PARAMETERS            observe +    calibration
    = cái NÃO CÓ)                 calibrate)   trong system)
@@ -199,7 +209,7 @@ TỪ CORE FRAMEWORK — hardware = specs cơ bản của não:
   │   ⚠️ KHÁC "learning styles" (debunked):                       │
   │     "Learning styles" claim: MỖI NGƯỜI chỉ học tốt 1 style   │
   │     Hardware: mỗi người có DOMINANT modality NHƯNG             │
-  │       multi-modal = better FOR ALL (Mechanism v2.1 §2.3)            │
+  │       multi-modal = better FOR ALL (Mechanism v2.2 §2.3)            │
   │     = Không phải "chỉ dạy theo style" → mà "biết dominant     │
   │       → leverage dominant + SUPPLEMENT với các modality khác"  │
   │                                                                 │
@@ -626,7 +636,7 @@ MỤC ĐÍCH SECTION NÀY:
 NGUYÊN TẮC CALIBRATION:
 
   ① ADJUST METHOD, KHÔNG ADJUST STANDARD
-     → Depth target = GIỐNG cho tất cả (Mechanism v2.1 §2.9)
+     → Depth target = GIỐNG cho tất cả (Mechanism v2.2 §2.9)
      → CÁCH đạt depth = KHÁC per hardware
      → "Mọi người đều phải biết đọc → CÁCH HỌC đọc = khác"
 
@@ -718,7 +728,7 @@ HIGH-VTA LEARNER (novelty-seeking):
     → Project-based: mỗi project = NOVELTY source
     → Choice: cho chọn CÁCH approach task → novelty từ autonomy
     → Movement: physical + mental variety → VTA fire
-    → Gamification: CÓ THỂ work → nhưng ⚠️ inflation risk (Mechanism v2.1 §3.1)
+    → Gamification: CÓ THỂ work → nhưng ⚠️ inflation risk (Mechanism v2.2 §3.1)
 
   Adjust Environment:
     → ĐỪNG ép sit still quá lâu → cho phép movement
@@ -767,7 +777,7 @@ HIGH CORTISOL SENSITIVITY:
   Adjust Pressure Level:
     → LOWER pressure than class average
     → Safe to fail: "sai = learn, không phải sai = punish"
-    → Direction > Level (Mechanism v2.1 §2.2): LUÔN novelty-direction cho nhóm này
+    → Direction > Level (Mechanism v2.2 §2.2): LUÔN novelty-direction cho nhóm này
     → Prepare for changes: warn before transitions
     → Recovery time: MORE breaks, MORE downtime
 
@@ -780,7 +790,7 @@ HIGH CORTISOL SENSITIVITY:
       → PFC Mode: Reallocation (PFC-Configuration.md) → performance DROP dưới capacity
 
   Adjust Bridge:
-    → Imposed adult threat (Mechanism v2.1 §3.3 Type 3) = TUYỆT ĐỐI TRÁNH
+    → Imposed adult threat (Mechanism v2.2 §3.3 Type 3) = TUYỆT ĐỐI TRÁNH
     → Safety + curiosity = primary bridges
     → Social pressure = CŨNG là cortisol source → careful with group competition
 
@@ -946,6 +956,265 @@ TỔNG HỢP — CALIBRATION MATRIX:
   🟡 Calibration strategies = framework-derived
      Logical + consistent with mechanisms + aligned with differentiated instruction research
      Nhưng: chưa validated AS THIS SPECIFIC FRAMEWORK trong controlled studies
+```
+
+
+### CROSS-CUTTING LENS 3 — Trust × Calibration Quality (v1.2)
+
+```
+TRUST = PREREQUISITE CHO CALIBRATION CHÍNH XÁC:
+
+  Calibration accuracy = f(observation quality × hardware match).
+  NHƯNG: observation quality = f(student REVEALS authentic state).
+  Student reveals authentic state CHỈ KHI: TRUST TEACHER.
+  → Trust = UPSTREAM condition cho toàn bộ calibration process.
+
+  (ref: Trust.md v1.0 — Compiled Prediction About Gap-Fill Reliability)
+
+
+  ⭐ TRUST-INTENTION = CHIỀU QUYẾT ĐỊNH:
+
+  Trust.md v1.0 §1: 3 sub-dimensions ĐỘC LẬP.
+  Cho calibration context:
+    Trust-Authority (quyền assess): thường GIVEN (teacher = structural position).
+    Trust-Competence (biết assess đúng): EARNED qua accuracy.
+    Trust-Intention (muốn giúp): DEEPEST + MOST FRAGILE.
+    → Trust-Intention = QUYẾT ĐỊNH willingness to reveal.
+    → Authority + Competence HIGH mà Intention LOW → student vẫn MASK.
+
+  ┌─────────────────────────────┬──────────────────────────────────────┐
+  │ Trust Level                  │ Calibration Data Quality             │
+  ├─────────────────────────────┼──────────────────────────────────────┤
+  │ Trust-Intention HIGH         │ Student reveals: authentic state,    │
+  │ (tin thầy muốn tốt cho mình)│ struggles, confusion, fears.         │
+  │                              │ → Calibration data = RICH + ACCURATE │
+  ├─────────────────────────────┼──────────────────────────────────────┤
+  │ Trust-Intention LOW          │ Student masks: "em hiểu rồi",       │
+  │ (không tin thầy có ý tốt)   │ "em ổn", performance anxiety.        │
+  │                              │ → Calibration data = POOR + BIASED   │
+  ├─────────────────────────────┼──────────────────────────────────────┤
+  │ Trust-Intention COLLAPSED   │ Student actively hides: defiance,    │
+  │ (thầy đã phản bội tin tưởng)│ shutdown, withdrawal.                │
+  │                              │ → Calibration = BROKEN (data = noise)│
+  └─────────────────────────────┴──────────────────────────────────────┘
+
+  → Calibration accuracy ∝ Trust-Intention depth.
+
+
+  ⭐ TRUST DEFAULT → CALIBRATED × TEACHER-STUDENT TIMELINE:
+
+  (Trust.md v1.0 §5 — 4 Phases)
+
+  New teacher (tuần 1-4): Phase 1-2 — student trust DEFAULT.
+    → WINDOW CỦA CƠ HỘI: trust chưa calibrate → student open by default.
+    → Dùng window này cho INITIAL observation → data quality CAO nhất.
+    → ⚠️ Window ĐÓNG dần khi student bắt đầu calibrate (Phase 3).
+
+  Trust building (tháng 1-6): Phase 2 — trust OPERATIONAL nếu maintained.
+    → Consistent care + accurate observation → trust TĂNG dần.
+    → Trust increase → student reveals MORE → calibration data RICHER.
+
+  Trust damage: Phase REVERSE — trust COLLAPSE.
+    → 1 harsh judgment ("sao em ngu thế") → trust-intention COLLAPSE.
+    → Trust.md v1.0 §4: build CHẬM (months), collapse NHANH (seconds).
+    → After collapse: student MASK → calibration BROKEN.
+    → Recovery: build lại trust TRƯỚC → rồi mới calibrate lại.
+    → ⚠️ "Phạt để dạy" = trust damage → calibration damage → vicious cycle.
+
+  Practical implication:
+    → Tuần đầu tiên: BUILD TRUST, không push deep calibration.
+    → Trust = infrastructure → invest TRƯỚC, calibrate data TĂNG TỰ NHIÊN.
+    → Before calibrating: check trust infrastructure FIRST.
+    → If trust LOW: build trust FIRST, calibrate LATER.
+    → Trust signals to monitor: eye contact, spontaneous sharing,
+      body relaxed (không tense) khi interact, asking for help.
+
+
+  ⭐ TRUST × PER-STAGE — CALIBRATION WINDOW:
+
+  ┌──────────┬──────────────────────────────────────────────────────────┐
+  │ Stage    │ Trust × Calibration Dynamic                              │
+  ├──────────┼──────────────────────────────────────────────────────────┤
+  │ 1 (3-6)  │ Trust DEFAULT HIGH (Schema install — Trust.md §2 ③).    │
+  │          │ = Golden window: child open → observation data RICH.     │
+  │          │ ⚠️ Trust FRAGILE: 1 harsh event → long damage.          │
+  ├──────────┼──────────────────────────────────────────────────────────┤
+  │ 2 (6-12) │ Trust OPERATIONAL: student trusts teacher by default.    │
+  │          │ = Calibration data ACCESSIBLE nếu trust maintained.     │
+  │          │ Trust generalization begins: trust teacher → trust       │
+  │          │ school (Trust.md v1.0 §5 Phase 2).                      │
+  ├──────────┼──────────────────────────────────────────────────────────┤
+  │ 3 (12-18)│ Trust CALIBRATING: student bắt đầu PER-DOMAIN trust.   │
+  │          │ = "Rebellious" = trust calibration process (NORMAL).    │
+  │          │ = Calibration data HARDER: student selective about       │
+  │          │ revealing. Need EARNED trust-intention.                  │
+  ├──────────┼──────────────────────────────────────────────────────────┤
+  │ 4 (18+)  │ Trust CALIBRATED: student evaluates teacher per-domain. │
+  │          │ = Calibration = mutual: student ALSO calibrates teacher. │
+  │          │ = Authority trust ≠ competence trust (student KNOWS).   │
+  └──────────┴──────────────────────────────────────────────────────────┘
+
+
+  Cross-ref: Trust.md v1.0 §1 (3 sub-dimensions), §4 (asymmetry),
+             §5 (Default→Calibrated 4 phases), Entity-Access v1.2.
+
+🟡 Trust × Calibration quality mapping = framework synthesis
+🟢 Trust asymmetry: Slovic 1993 ("trust hard to gain, easy to lose")
+🟢 Teacher-student relationship effect: Hattie 2009 (d=0.72)
+```
+
+
+### CROSS-CUTTING LENS 4 — Self-Observation × Calibration Depth (v1.2)
+
+```
+SELF-OBSERVATION = KHẢ NĂNG CẦN ĐỂ CALIBRATE:
+
+  Calibration yêu cầu 2 NGUỒN Self-Observation:
+    ① Teacher Self-Observation: "observation CỦA TÔI có bias không?"
+    ② Student Self-Observation: "tôi đang ở state NÀO?" → input cho calibration.
+
+  (ref: Self-Observation.md v1.0 — APPLICATION-3 trên Simulation-Engine)
+
+
+  ① TEACHER SELF-OBSERVATION — MỨC 4-5 CẦN THIẾT:
+
+  Teacher calibrate student hardware → teacher DÙNG own observation.
+  NHƯNG: observation = BIASED bởi compiled quality (Self-Observation.md v1.0 §5.3):
+
+    Genuine-compiled teacher: "trẻ này respond khác → interesting, observe thêm"
+    Threat-compiled teacher: "trẻ này không nghe → vấn đề → cần sửa"
+    → CÙNG student behavior → KHÁC interpretation → KHÁC calibration.
+
+  Teacher Self-Observation level × calibration quality:
+
+    Mức 3 (minimum viable):
+      "Tôi frustrated với student A — có thể vì method mismatch, không phải student"
+      = Recognize own state → prevent bias → calibration ACCEPTABLE.
+
+    Mức 4 (recommended):
+      "Tôi HAY frustrated với high-VTA students → đây là pattern CỦA TÔI"
+      = Pattern-observe across students → detect SYSTEMATIC bias → calibration GOOD.
+
+    Mức 5 (ideal):
+      "Tôi đang rationalize 'em ấy lười' vì NHẸ HƠN là adjust method"
+      = Meta-observe own rationalization → catch self-serving errors → calibration EXCELLENT.
+
+
+  PFC BUDGET CONSTRAINT (Self-Observation.md v1.0 §5.2):
+
+    PFC budget = SHARED → Self-Observation = FIRST TO GO khi exhausted.
+    → Teacher cuối ngày: PFC budget gần hết → observation quality DROP.
+    → Calibration sessions quan trọng → ĐẶT ĐẦU NGÀY (PFC fresh).
+    → After stressful events: HOÃN calibration decisions (cortisol bias observation).
+    → 40 students × calibration = PFC OVERLOAD → prioritize EXTREME positions trước.
+
+  COMPILED QUALITY CỦA TEACHER (Self-Observation.md v1.0 §5.3):
+
+    Teacher's OWN training compiled quality → observation character:
+    → Genuine-compiled teacher training → EXPANSIVE observation
+      → see strengths + challenges + nuances per student.
+    → Threat-compiled teacher training ("trẻ hư phải phạt")
+      → BIASED NEGATIVE observation → see only problems → miscalibrate.
+    → = Teacher Self-Observation training = INFRASTRUCTURE investment.
+    → = Compile-time direction lock (PFC-Operations.md v1.3 §5):
+      teacher training quality → observation quality → calibration quality.
+
+
+  ② STUDENT SELF-OBSERVATION — INPUT QUALITY VARIES:
+
+  Student's Self-Observation Mức = calibration INPUT quality:
+
+  ┌──────────────┬────────────────────────────────────────────────────┐
+  │ Student Mức  │ Calibration Input Quality                          │
+  ├──────────────┼────────────────────────────────────────────────────┤
+  │ Mức 0-1      │ ZERO input: chỉ react, không report được.          │
+  │ (Stage 1)    │ Teacher = sole observation source.                  │
+  ├──────────────┼────────────────────────────────────────────────────┤
+  │ Mức 2        │ BASIC input: "em mệt", "em không hiểu", "em chán" │
+  │ (Stage 2)    │ Compiled recognition → nhanh, nông.               │
+  │              │ Useful: detect simple state mismatches.             │
+  │              │ Limitation: không analyze WHY.                      │
+  ├──────────────┼────────────────────────────────────────────────────┤
+  │ Mức 3        │ PREDICTIVE: "nếu bài dài quá em sẽ mất tập trung",│
+  │ (Stage 3)    │ "em hiểu tốt hơn khi vẽ diagram."                 │
+  │              │ → USEFUL: student as calibration PARTNER.           │
+  ├──────────────┼────────────────────────────────────────────────────┤
+  │ Mức 4+       │ PATTERN: "em hay lo trước thi vì cortisol cao,     │
+  │ (Stage 4)    │ nên em cần practice exam trước."                   │
+  │              │ → RICH: student as PRIMARY self-calibrator.         │
+  └──────────────┴────────────────────────────────────────────────────┘
+
+
+  TEACHER = EXTERNAL SCAFFOLD (Self-Observation.md v1.0 §2.4 Pathway 2):
+
+    Stage 1: teacher LABELS cho student: "con đang mệt đó"
+    Stage 2: teacher PROMPTS: "khi bài dài, em thấy thế nào?"
+    Stage 3: teacher POINTS OUT patterns: "em thấy mỗi khi format đổi, em engage hơn?"
+    Stage 4: teacher VALIDATES: "em nhận xét đúng — hardware em thiên novelty-seeking"
+    = Sequence: label → prompt → pattern → validate → student tự calibrate dần.
+
+
+  ③ PER-HARDWARE SELF-OBSERVATION BASELINE — ẢNH HƯỞNG CALIBRATION:
+
+  (Self-Observation.md v1.0 §5.1 — Attention type × baseline)
+
+  ┌──────────────────────┬───────────────────┬──────────────────────────────┐
+  │ Hardware Profile      │ Self-Observation  │ Calibration Implication       │
+  │                      │ Baseline          │                              │
+  ├──────────────────────┼───────────────────┼──────────────────────────────┤
+  │ Detail-oriented       │ HIGH              │ Self-report = RELIABLE.      │
+  │ (COMT slow, DIM 4)   │                   │ Student auto-detect states.   │
+  ├──────────────────────┼───────────────────┼──────────────────────────────┤
+  │ Big picture           │ LOW               │ Self-report = LIMITED.       │
+  │ (COMT fast, DIM 4)   │                   │ Need: tĩnh lặng, journaling  │
+  │                      │                   │ amplify → THEN useful.        │
+  ├──────────────────────┼───────────────────┼──────────────────────────────┤
+  │ ADHD range            │ VERY LOW →        │ Body signals FILTERED.       │
+  │ (DIM 2 extreme)       │ spike khi trigger │ Teacher observation =        │
+  │                      │                   │ PRIMARY (không đợi report).   │
+  ├──────────────────────┼───────────────────┼──────────────────────────────┤
+  │ ASD range             │ ATYPICAL mapping  │ Standard vocabulary MISS.     │
+  │ (DIM 5 extreme)       │                   │ Cần: body-specific prompts    │
+  │                      │                   │ ("bụng quặn? vai gồng?")     │
+  └──────────────────────┴───────────────────┴──────────────────────────────┘
+
+  → KHÔNG assume "tất cả student tự report được" → per-hardware adjust expectation.
+  → Low baseline ≠ "không thể Self-Observe" → = "cần support KHÁC."
+
+
+  ⭐ TRUST × SELF-OBSERVATION × CALIBRATION — COUPLED:
+
+  Trust và Self-Observation COUPLED trong calibration context:
+
+  ┌─────────────────────────┬────────────────────────────────────────────┐
+  │ Combination              │ Calibration State                          │
+  ├─────────────────────────┼────────────────────────────────────────────┤
+  │ Trust HIGH +             │ IDEAL: student reveals + reports           │
+  │ Self-Observation Mức 3+  │ accurately → rich calibration data.        │
+  ├─────────────────────────┼────────────────────────────────────────────┤
+  │ Trust HIGH +             │ PARTIAL: student willing nhưng report      │
+  │ Self-Observation Mức 1-2 │ nông → scaffold Self-Observation dần.      │
+  ├─────────────────────────┼────────────────────────────────────────────┤
+  │ Trust LOW +              │ WASTED: student CAN report nhưng WON'T    │
+  │ Self-Observation Mức 4+  │ → capacity bị lãng phí. Build trust FIRST.│
+  ├─────────────────────────┼────────────────────────────────────────────┤
+  │ Trust LOW +              │ WORST: student neither willing nor able    │
+  │ Self-Observation LOW     │ → calibration IMPOSSIBLE.                  │
+  │                          │ → Trust building TRƯỚC mọi thứ.           │
+  └─────────────────────────┴────────────────────────────────────────────┘
+
+  → SEQUENCE: trust FIRST → Self-Observation scaffold SECOND → data emerges.
+  → NEVER: calibrate first, build trust later (data = noise without trust).
+
+  Cross-ref: Self-Observation.md v1.0 §4-§6 (gradient + development),
+             §2.4 (External Scaffold), §5.1-§5.3 (hardware + budget + compiled quality),
+             Trust.md v1.0 §1 + §5, Attention-Spectrum.md v2.1 §2.
+
+
+🟡 Self-Observation × Calibration depth mapping = framework synthesis
+🟡 Teacher Self-Observation as calibration quality factor = framework synthesis
+🟢 PFC budget shared: Hagger et al. 2016
+🟢 Compiled quality direction lock: PFC-Operations.md v1.3 §5
 ```
 
 ---
@@ -1168,19 +1437,19 @@ FREQUENCY: CỰC phổ biến — gần như mọi culture
 
 TRACE BACK — thật ra CÓ THỂ là:
 
-  ① KHÔNG CÓ IMAGINE-FINAL (Mechanism v2.1 §2.6):
+  ① KHÔNG CÓ IMAGINE-FINAL (Mechanism v2.2 §2.6):
      → Trẻ không biết TẠI SAO phải học cái này
      → Body: "không thấy lý do → không có drive → tại sao phải effort?"
      → Fix: giúp trẻ THẤY "khi biết cái này → cuộc sống tôi thế nào"
      → ≠ "Ép chăm hơn" → = "cho thấy LÝ DO"
 
-  ② BRIDGE SAI (Mechanism v2.1 §3):
+  ② BRIDGE SAI (Mechanism v2.2 §3):
      → Bridge hiện tại KHÔNG match hardware
      → VD: threat bridge cho trẻ high-cortisol → freeze → "lười"
      → VD: routine bridge cho trẻ high-VTA → bored → "lười"
      → Fix: đổi LOẠI bridge, không tăng LƯỢNG bridge
 
-  ③ WRONG METHOD (Mechanism v2.1 §2.2 + §2.3):
+  ③ WRONG METHOD (Mechanism v2.2 §2.2 + §2.3):
      → Phương pháp không match hardware
      → VD: lecture-only cho trẻ somatic-dominant → not engaging → "lười"
      → VD: abstract too early cho trẻ slow-PFC → can't follow → give up → "lười"
@@ -1221,7 +1490,7 @@ TRACE BACK:
      → Thật ra: CÓ THỂ hiểu NẾU deliver qua hands-on
      → Fix: multi-modal delivery, leverage dominant channel
 
-  ③ MISSING PREREQUISITE (Mechanism v2.1 §2.4):
+  ③ MISSING PREREQUISITE (Mechanism v2.2 §2.4):
      → Chunk hierarchy: complex cần simple base → base YẾU → complex KHÔNG vào
      → "Không hiểu phân số" có thể = "chưa thật sự hiểu phép chia"
      → Fix: trace back foundation gaps → fill → rồi advance
@@ -1285,13 +1554,13 @@ FREQUENCY: CỰC phổ biến — đặc biệt Stage 3 (12-18)
 
 TRACE BACK:
 
-  ① KHÔNG CÓ IMAGINE-FINAL — phổ biến NHẤT (Mechanism v2.1 §2.6):
+  ① KHÔNG CÓ IMAGINE-FINAL — phổ biến NHẤT (Mechanism v2.2 §2.6):
      → "Tại sao phải học cái này?" → không ai trả lời THUYẾT PHỤC
      → Body: "không thấy đích → không có drive"
      → ≠ "Thiếu động lực" → = "THIẾU LÝ DO"
      → Fix: help build Imagine-Final — exposure, experience, discussion
 
-  ② BRIDGE-DEPENDENT + BRIDGE RÚT (Mechanism v2.1 §3.4):
+  ② BRIDGE-DEPENDENT + BRIDGE RÚT (Mechanism v2.2 §3.4):
      → 12 năm "học vì điểm" → vào giai đoạn bridge giảm → motivation COLLAPSE
      → = "Động lực" thật ra = bridge (nguồn ④) → bridge rút → không còn gì
      → Fix: build intrinsic drive ①②③ (NÊN LÀM TỪ SỚM)
@@ -1358,6 +1627,31 @@ TỔNG HỢP — LABELS → ROOT CAUSES:
     = Evaluative: "tôi không muốn" → CÓ THỂ discuss, explore, reframe
     = Direct-State: "tôi không thể" → CẦN rest, recovery, environment adjust
     = Body signals KHÁC: Evaluative = mental resistance / Direct-State = physical signs
+
+
+  🔗 TRUST + SELF-OBSERVATION LENS (v1.2):
+
+  Mỗi miscalibration label ở trên CÒN CÓ trust + self-observation root causes:
+
+  → "Lười" ⑥ — TRUST-INTENTION ABSENT:
+    Student disengaged vì KHÔNG TIN teacher có ý tốt.
+    Biểu hiện: withdrawal, "em không muốn" = thật ra "em không tin thầy muốn giúp."
+    Trust.md v1.0 §4: trust collapse NHANH, 1 harsh judgment đủ.
+    Fix: rebuild trust-intention TRƯỚC → engagement RETURN tự nhiên.
+
+  → "Kém" ⑥ — LOW STUDENT SELF-OBSERVATION + TEACHER THREAT-COMPILED:
+    Student không Self-Observe được (Mức 0-1) → không report state → teacher ĐOÁN.
+    Teacher threat-compiled → observation biased negative → "kém" = CONFIRM BIAS.
+    Self-Observation.md v1.0 §5.3: threat-compiled teacher → see only problems.
+    Fix: teacher Mức 4+ Self-Observation catches own bias → reframe observation.
+
+  → SELF-OBSERVATION AS DIAGNOSTIC TOOL:
+    Teacher Mức 4+: "tôi HAY label nhóm này 'lười' — có phải vì method MỌT?"
+    = Meta-observe PATTERN CỦA MÌNH → detect systematic miscalibration.
+    = Self-Observation SÂU = antidote cho miscalibration labels.
+    → Mỗi label trong bảng trên → teacher Self-Observation catch TRƯỚC khi label.
+
+  🟡 Trust + Self-Observation × miscalibration = framework synthesis
 ```
 
 ---
@@ -1416,7 +1710,7 @@ STEP 3 — TEST (small adjustment):
 STEP 4 — EVALUATE:
   → Sau 1-2 tuần test → evaluate:
     → Engagement thay đổi? (observation)
-    → Learning outcome thay đổi? (assessment — Mechanism v2.1 §2.9)
+    → Learning outcome thay đổi? (assessment — Mechanism v2.2 §2.9)
     → Trẻ tự report thay đổi? (when old enough)
   → Nếu POSITIVE → adjustment likely correct → continue
   → Nếu NEUTRAL → thử adjustment khác
@@ -1462,7 +1756,7 @@ ROLE COLLABORATION:
   → Parent: observe ở nhà → share data với teacher → COMPLEMENT school obs
   → Learner (10+): self-report → grows to self-assessment → eventually SELF-CALIBRATE
   → AI tools: data patterns → flag anomalies → suggest adjustments (era-specific)
-    → Mechanism v2.1 §4: AI = Layer 1 generate + flag, Teacher = Layer 2 calibrate
+    → Mechanism v2.2 §4: AI = Layer 1 generate + flag, Teacher = Layer 2 calibrate
   → Specialist: khi standard adjustment KHÔNG ĐỦ → clinical assessment
 
   = TEAM EFFORT, không phải 1 person's job
@@ -1629,6 +1923,8 @@ TẦNG 1 — CORE MECHANISM (cross-cutting lenses)
 → Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance. ⭐ §5 miscalibration.
 → PFC-Configuration.md v1.0 — 6 dynamic modes, cortisol push mode shift.
 → Sensitivity-Classification.md v1.0 — 3 hardware sensitivity groups.
+→ Trust.md v1.0 — Compiled prediction about gap-fill reliability. ⭐ §3 calibration quality (v1.2).
+→ Self-Observation.md v1.0 — APPLICATION-3, Gradient Mức 0-6. ⭐ §3 calibration depth (v1.2).
 
 ═══════════════════════════════════════════════════════
 TẦNG 1 — BODY-FEEDBACK + ENTITY (v1.1 enrichment)
@@ -1645,28 +1941,28 @@ TẦNG 1 — BODY-FEEDBACK + ENTITY (v1.1 enrichment)
 TẦNG 2 — CHILD DEVELOPMENT (early hardware expression)
 ═══════════════════════════════════════════════════════
 
-→ Child-Development-Mechanism.md v2.2 — phát triển 0-6
+→ Child-Development-Mechanism.md v2.3 — phát triển 0-6
   §2 Compile Architecture, §3 Approach/Avoidance Tags, §8 Cortisol Baseline.
-→ Natural-Development.md v2.2 — early hardware expression
-→ Skill-Introduction.md v2.2 — early learning preferences visible
+→ Natural-Development.md v2.3 — early hardware expression
+→ Skill-Introduction.md v2.3 — early learning preferences visible
 
 ═══════════════════════════════════════════════════════
 TẦNG 3 — EDUCATION RESEARCH (bộ 3)
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.1 — ⭐ HOW: Cost Formula, Direction > Level, Bridge, Imagine-Final.
-→ Domain-Knowledge-Map.md v2.0 — WHAT: bản đồ nhóm kiến thức.
-→ Connection-Education.md v1.0 — WHO: 5 trụ social interaction education.
+→ Education-Mechanism.md v2.2 — ⭐ HOW: Cost Formula, Direction > Level, Bridge, Imagine-Final.
+→ Domain-Knowledge-Map.md v2.1 — WHAT: bản đồ nhóm kiến thức.
+→ Connection-Education.md v1.1 — WHO: 5 trụ social interaction education.
   (replaces Empathy-Education v2.0 → backup/)
 
 ═══════════════════════════════════════════════════════
 TẦNG 4 — EDUCATION APPLICATIONS (system)
 ═══════════════════════════════════════════════════════
 
-→ Education-System.md v3.0 — WHERE calibration fits trong system.
+→ Education-System.md v3.1 — WHERE calibration fits trong system.
   §2-§4 per-stage, §7 Teacher role, ENGINE/ROAD/VEHICLE lens.
-→ Era-Analysis-2025.md v2.0 — AI tools for calibration.
-→ Curriculum-Framework.md v2.0 — WHAT to calibrate for.
+→ Era-Analysis-2025.md v2.1 — AI tools for calibration.
+→ Curriculum-Framework.md v2.2 — WHAT to calibrate for.
 
 ═══════════════════════════════════════════════════════
 TẦNG 5 — PER-COUNTRY
@@ -1679,7 +1975,7 @@ FLOW
 ═══════════════════════════════════════════════════════
 
   Core (mechanism) → File này (observe + calibrate)
-    → Education-System v3.0 (apply in system)
+    → Education-System v3.1 (apply in system)
       → Curriculum (calibrate content)
         → Country files (cultural adjustment)
 

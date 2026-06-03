@@ -2737,6 +2737,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
    §9 PFC budget × parent-child = highest cost.
 → Simulation-Engine.md v1.0 — 1 engine × 3 components × 3 axes (v4.0 NEW).
    Self-Pattern-Modeling = APPLICATION-1. PFC budget shared across engine applications.
+→ Self-Observation.md v1.0 — APPLICATION-3: Self × Present × Observe. Keystone property.
+   Self-Pattern-Modeling/Imagine-Final/Self-Observation SHARE PFC budget.
 → PFC-Label.md v1.0 — vocabulary standard (v4.0 NEW).
 ```
 

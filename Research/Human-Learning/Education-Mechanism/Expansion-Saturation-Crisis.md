@@ -1,11 +1,12 @@
 ---
 title: Expansion-Saturation-Crisis — Tại Sao Bằng Đại Học Mất Giá Trị Toàn Cầu
-version: 1.2
+version: 1.3
 created: 2026-04-26
-updated: 2026-05-25 (v1.2 — LIGHT REFINE: +Gap-Distribution-Profile, +Hardware-Subsidy,
-  +Entity-Access, +Dissonance-Signal-Architecture, +Coordination-Node, cross-refs updated)
-previous: v1.1 (2026-05-09 — Compile-Taxonomy Experience/Expertise/Trust, Collective-Body Model 3 Cấp)
-status: v1.2
+updated: 2026-06-03 (v1.3 — Trust.md integration: credential = trust signal degradation,
+  trust lag × self-blame, Default→Calibrated, cross-refs version bumps)
+previous: v1.2 (2026-05-25 — +Gap-Distribution-Profile, +Hardware-Subsidy, +Entity-Access,
+  +Dissonance-Signal-Architecture, +Coordination-Node)
+status: v1.3
 scope: |
   Hiện tượng TOÀN CẦU: thất nghiệp sau đại học, education-job mismatch,
   credential inflation, "hướng nghiệp" crisis.
@@ -17,6 +18,8 @@ scope: |
   +Hardware-Subsidy (societal subsidy hướng sai era), +Entity-Access (career navigation),
   +Dissonance-Signal-Architecture (quarter-life crisis = Evaluative + Direct-State compound),
   +Coordination-Node (university as node disconnect from domain thật).
+  v1.3: +Trust.md (credential = trust signal degradation, trust lag × self-blame,
+  Default→Calibrated for education system trust). Cross-refs version bumps.
 purpose: |
   TÍCH HỢP mechanisms có sẵn vào 1 phenomenon cụ thể.
   File này KHÔNG phải mechanism MỚI — mà APPLY mechanisms đã có
@@ -35,17 +38,19 @@ dependencies:
     - Knowledge-Flow.md — dòng chảy internal→output→external chunk qua thế hệ
     - Discovery-vs-Expansion.md — Sense→Verify→Scale, 2 mode cost/reward khác nhau
     - Domain-Mapping-Drive.md — reward từ PROCESS, "given"=bypass=no reward
-  education-bo-3:
-    - Education-Mechanism.md v2.1 — arc design, Hardware-Subsidy, PFC Budget
-    - Domain-Knowledge-Map.md v2.0 — domain taxonomy per era
-    - Connection-Education.md v1.0 — social interaction education (WHO)
+  education-trio:
+    - Education-Mechanism.md v2.2 — arc design, Hardware-Subsidy, PFC Budget
+    - Domain-Knowledge-Map.md v2.1 — domain taxonomy per era
+    - Connection-Education.md v1.1 — social interaction education (WHO)
   secondary:
     - Collective-Purpose.md — cosmic loop, humanity map domain
     - Collective-Body.md v2.1 — Model 3 Cấp, §5.2 chain break, trust = only bridge
     - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, education = Trust Compile install
     - Conflict-Dynamics.md — OVERLAP × SCARCITY × COMMITMENT
     - Domain.md — thực tế bên ngoài, feedback thật, attractor
-    - Education-Arms-Race.md v1.2 — positional good, credential inflation
+    - Education-Arms-Race.md v1.3 — positional good, credential inflation
+  trust:
+    - Trust.md v1.0 — §5 Default→Calibrated, §3 Trust Depth, build slow/collapse fast
   new-concepts:
     - Gap-Distribution-Profile.md v1.1 — 4 trục, credential inflation = gap landscape distortion
     - Valence-Propagation.md v3.0 — §7 Hardware-Subsidy (societal subsidy hướng sai)
@@ -111,10 +116,10 @@ confidence: 🟢 Research/data support | 🟡 Framework synthesis | 🔴 Hypothe
     Collective-Purpose.md — cosmic loop: humanity map domain reality
 
   ② EDUCATION STREAM ("bộ 3" + observation):
-    Education-Mechanism.md v2.1 — HOW: arc design, Hardware-Subsidy, PFC Budget
-    Domain-Knowledge-Map.md v2.0 — WHAT: domain taxonomy per era
-    Connection-Education.md v1.0 — WHO: social interaction education
-    Education-Arms-Race.md v1.2 — positional good, credential inflation, game theory
+    Education-Mechanism.md v2.2 — HOW: 10 nguyên lý arc design, Hardware-Subsidy, PFC Budget
+    Domain-Knowledge-Map.md v2.1 — WHAT: domain taxonomy per era
+    Connection-Education.md v1.1 — WHO: social interaction education
+    Education-Arms-Race.md v1.3 — positional good, credential inflation, game theory
 
   ③ GENERATIONAL SHIFT STREAM:
     Imagine-Final.md — clarity gradient, lifecycle (build→save→background→reload)
@@ -468,6 +473,18 @@ READER FLOW:
   → = MISMATCH CỐT LÕI: "sản xuất Expanders, kinh tế cần Discoverers"
   → = KHÔNG phải "giáo dục kém" — mà giáo dục ĐÚNG CHO ERA CŨ
   → = System lag: giáo dục adapt CHẬM hơn kinh tế thay đổi
+
+  🟡 TRUST SIGNAL DEGRADATION LENS (Trust.md v1.0):
+    → Credential (bằng ĐH) = TRUST SIGNAL: "có bằng = competent" (installed trust)
+    → Trust.md §5: societal trust in education = Default Phase 1-2 (installed, not verified)
+    → Credential inflation = trust signal DEGRADATION: nhiều người có = signal MẤT GIÁ TRỊ
+    → Nhưng installed trust PERSIST vì Trust Depth từ nhiều nguồn (Trust.md §3):
+      Routine (bao nhiêu năm đi học), Childhood (bố mẹ nói "phải học ĐH"),
+      Community ("ai cũng học"), Identity ("tôi = sinh viên")
+    → → Trust depth CAO = trust PERSIST lâu DÙ signal đã degraded
+    → "Học làm gì?" = trust BREAK (Trust.md: build slow, collapse fast)
+    → Khi break: KHÔNG từ từ → MÀ đột ngột — giống bank run cho education trust
+    → Trust rebuild: cần domain-based calibrate (per-domain) thay credential-based (installed)
 
   🟡 GAP-DISTRIBUTION-PROFILE LENS (Gap-Distribution-Profile.md v1.1):
     → Expansion education → triệu graduates CÓ CÙNG GAP LANDSCAPE:
@@ -1417,6 +1434,14 @@ READER FLOW:
   → = CÙNG tình huống + KHÁC attribution → KHÁC cortisol direction → KHÁC outcome
   → = Understanding KHÔNG giải quyết vấn đề trực tiếp
   → = Understanding THAY ĐỔI cortisol direction → thay đổi CÁCH PHẢN ỨNG
+
+  🟡 TRUST LAG (Trust.md v1.0): TẠI SAO SELF-BLAME PERSIST:
+    → Self-blame persist VÌ installed trust: "hệ thống đúng, TÔI sai"
+    → Trust.md §5 Phase 2: installed trust acts like truth WITHOUT verification
+    → Student đã đầu tư 4-6 năm (commitment) → trust càng deep → càng khó break
+    → Trust lag: evidence CONTRADICTS nhưng trust PERSIST → self-blame kéo dài
+    → Understanding structural shift = CATALYST cho trust calibration (Phase 2→3)
+    → = Shift attribution = shift trust calibration = shift cortisol direction
 ```
 
 ### §8.2 — Giá trị 2: Cho Imagine-Final mới
@@ -1602,6 +1627,11 @@ READER FLOW:
       → Dissonance-Signal-Architecture v1.0, application to generational crisis = novel
     v1.2: University as Coordination-Node disconnect from domain thật
       → Coordination-Node v1.2, application to education-economy mismatch = novel
+    v1.3: Credential = trust signal, inflation = trust signal degradation (§2.3)
+      → Trust.md v1.0 §5 Default→Calibrated, §3 Trust Depth 5 sources
+      → "Học làm gì?" = trust break (build slow, collapse fast)
+    v1.3: Trust lag explains self-blame persistence (§8.1)
+      → Installed trust persist despite evidence → delayed attribution shift
 
 
   🔴 HYPOTHESIS (logic consistent, cần data):
@@ -1683,16 +1713,16 @@ PRIMARY DEPENDENCIES (cốt lõi cho thesis)
 BỘ 3 EDUCATION
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.1 — HOW: arc design + Hardware-Subsidy + PFC Budget
+→ Education-Mechanism.md v2.2 — HOW: 10 nguyên lý arc design + Hardware-Subsidy + PFC Budget
   §2: brain-based principles (Direction > Level, etc.)
   §4: AI-assisted education model
   Kết nối: §3.2 (approach/avoidance tags, Hardware-Subsidy), §5.2 (AI in education)
 
-→ Domain-Knowledge-Map.md v2.0 — WHAT: domain taxonomy per era
+→ Domain-Knowledge-Map.md v2.1 — WHAT: domain taxonomy per era
   §3: Per-hardware + Gap-Distribution-Profile
   Kết nối: §2.3 (gap landscape distortion)
 
-→ Connection-Education.md v1.0 — WHO: social interaction education
+→ Connection-Education.md v1.1 — WHO: social interaction education
   §4: Entity-Compiled formation, Entity-Access calibration
   Kết nối: §6.1 (Entity-Access × career navigation)
 
@@ -1724,11 +1754,22 @@ SECONDARY DEPENDENCIES
   §2 ⑥: Domain không nói dối (sai nằm ở human) → cần domain feedback
   Kết nối: §4.4 (Germany insight — process + domain feedback)
 
-→ Education-Arms-Race.md v1.2 — Credential inflation + game theory
+→ Education-Arms-Race.md v1.3 — Credential inflation + game theory
   §1: Positional good, prisoner's dilemma
   §2: Spectrum Finland → Korea
   §7: VN window
   Kết nối: §1.2 (credential inflation data), §9.2 (VN predictions)
+
+
+═══════════════════════════════════════════════════════
+TRUST INTEGRATION (v1.3)
+═══════════════════════════════════════════════════════
+
+→ Trust.md v1.0 — Credential = trust signal, inflation = degradation (§2.3)
+  §5 Default→Calibrated: societal trust in education = Phase 1-2 installed
+  §3 Trust Depth: routine + childhood + community + identity = deep = persist
+  Build slow / collapse fast: "học làm gì?" = trust break point
+  Trust lag × self-blame: installed trust → delayed attribution shift (§8.1)
 
 
 ═══════════════════════════════════════════════════════
@@ -1815,15 +1856,11 @@ BODY-FEEDBACK + MECHANISM
 
 ---
 
-> *Expansion-Saturation-Crisis v1.2*
+> *Expansion-Saturation-Crisis v1.3*
 > *"Giáo dục sản xuất Expanders. Kinh tế cần Discoverers. Gap = crisis."*
 > *"Hướng nghiệp cũ = chọn nghề (destination). Hướng nghiệp mới = tìm process (mode)."*
 > *"Đây KHÔNG phải lỗi VN. Đây là structural shift toàn cầu."*
 > *"Process + domain feedback > process alone (Germany insight)."*
 > *"4 điều kiện model: thế hệ trước 4/4 met, thế hệ nay 0/4. Cùng hardware — khác era."*
-> *v1.2: +Gap-Distribution-Profile (credential inflation = triệu người cùng gap profile).*
-> *+Hardware-Subsidy (societal subsidy hướng sai era). +Entity-Access (career navigation).*
-> *+Dissonance-Signal-Architecture (quarter-life crisis = compound dissonance).*
-> *+Coordination-Node (university disconnect from domain thật).*
-> *Thuộc bộ 3 education: Education-Mechanism (HOW) + Domain-Knowledge-Map (WHAT)*
-> *+ Connection-Education (WHO)."*
+> *v1.3: +Trust.md (credential = trust signal degradation, trust lag × self-blame,*
+> *Default→Calibrated for education system trust). Cross-refs version bumps.*

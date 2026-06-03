@@ -1,15 +1,17 @@
 ﻿---
 title: Child-Development-Mechanism — Khung Nguyên Lý v7.8
-version: 2.2
+version: 2.3
 created: 2026-04-21
-updated: 2026-06-01
-status: REFERENCE v2.2
+updated: 2026-06-02
+status: REFERENCE v2.3
 scope: |
   MECHANISM FILE: Giải thích CƠ CHẾ phát triển trẻ 0-6 tuổi qua lens v7.8.
   Bridge giữa Core-Deep-Dive (mechanism) và Child-Development (practical).
   PFC Reframe + Compile Architecture (1 Engine + 3 Modulators) + Approach/Avoidance Tags +
   Multi-Stream Compile (Content/Value/Entity/Behavior) + Critical Asymmetry +
-  Chunk Dynamics + Feeling Development + Self-Pattern-Modeling Bootstrap + Autonomy Arc +
+  Chunk Dynamics + Trust (3 sub-dimensions, formation, Default→Calibrated) +
+  Self-Observation (APPLICATION-3, Gradient Mức 0-6, Keystone, Compiled Quality) +
+  Feeling Development + Self-Pattern-Modeling Bootstrap + Autonomy Arc +
   Cortisol Baseline + Observation Parameters Timeline + Imagine-Final.
 purpose: |
   File NÀY giải thích CƠ CHẾ — không cho guidance thực tế per-age.
@@ -26,6 +28,8 @@ dependencies:
   - Core-v7.8-Draft.md — cycle architecture, observation parameters
   - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, Multi-Stream, Trust = Amplifier
   - Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms, exposure vs optimization)
+  - Trust.md v1.0 — Trust = compiled prediction about gap-fill reliability, 3 sub-dimensions, Default→Calibrated
+  - Self-Observation.md v1.0 — APPLICATION-3 on Simulation-Engine, Gradient Mức 0-6, Keystone cascade
   - PFC-Development.md — PFC reframe, 5 empirical pillars
   - PFC-Label.md v1.0 — PFC Budget, vocabulary standard
   - F1/01-PFC-Hardware-Reframe.md — PFC evidence chi tiết, Hodel 2018
@@ -1743,6 +1747,139 @@ TỪ COMPILE ARCHITECTURE + FORMULA → NGUYÊN TẮC THỰC TẾ:
        → "Đáp ứng nhiều = build co-regulation chunks → tự regulate SAU" = ĐÚNG
 
 
+  TRUST: COMPILED PREDICTION VỀ CAREGIVER RELIABILITY (Trust.md v1.0):
+
+    ⭐⭐ TRUST = compiled prediction rằng entity SẼ fill gap ỔN ĐỊNH.
+
+    TRUST ≠ VALENCE — 2 CHIỀU ĐỘC LẬP:
+      Trust ≈ KHÍ HẬU. Current valence ≈ NHIỆT ĐỘ.
+      → Trẻ la "ghét mẹ!" = nhiệt độ drop (current valence flip). Khí hậu UNCHANGED.
+      → 5 phút sau ôm mẹ = nhiệt độ recover. Trust ĐÃ LUÔN ỔN ĐỊNH.
+      → Bố mẹ hoảng khi nghe "ghét mẹ" = nhầm nhiệt độ thành khí hậu.
+
+      CÓ THỂ HIGH-TRUST + NEGATIVE-VALENCE:
+        Trẻ ghét đi bác sĩ (valence -) nhưng tin mẹ nói "cần đi" (trust +).
+        Trẻ sợ bố la (valence -) nhưng biết bố muốn tốt (trust-intention +).
+      CÓ THỂ LOW-TRUST + POSITIVE-VALENCE:
+        Trẻ thích người lạ cho kẹo (valence +) nhưng chưa tin (trust ?).
+      → BÌNH THƯỜNG: trẻ oscillate valence per-second. Trust = stable baseline.
+      (Trust.md §1, §4, §6)
+
+
+    3 SUB-DIMENSIONS × CAREGIVER (Trust.md §1):
+
+      ① TRUST-AUTHORITY: "Mẹ CÓ QUYỀN nói tôi phải làm gì?"
+         Structural, install by default (Phase 1). Trẻ 0-6 KHÔNG question.
+
+      ② TRUST-COMPETENCE: "Mẹ NÓI ĐÚNG không?"
+         Calibrated qua direct experience, CHẬM. 0-6: default HIGH.
+         Bắt đầu calibrate khi có domain expertise (~5-6 tuổi).
+
+      ③ TRUST-INTENTION: "Mẹ MUỐN TỐT cho tôi?"
+         DEEP compiled qua childhood = hardest to override later.
+         Responsive caregiving → trust-intention HIGH.
+         = Nền tảng cho TOÀN BỘ trust system sau này.
+
+      3 chiều ĐỘC LẬP → giải thích:
+        "Yêu mẹ + không nghe mẹ" = trust-intention ✓, trust-competence calibrating.
+        "Sợ bố + vẫn tin bố" = valence -, trust-authority + trust-intention ✓.
+      🟢 Mayer, Davis & Schoorman 1995 (trust antecedents)
+
+
+    TRUST FORMATION: 4 NGUỒN × PER-AGE (Trust.md §2):
+
+      ① Direct experience: CHẬM (months). Body verify caregiver fill gap ổn định.
+         Responsive caregiving × nghìn lần → trust compile deep.
+         = Nguồn CHÍNH ở 0-6 — số liệu NHIỀU NHẤT.
+
+      ② Observed: TRUNG BÌNH (weeks). Trẻ THẤY mẹ cư xử với người khác.
+         Bắt đầu ~18 tháng (social referencing).
+         "Mẹ ôm em bé" → trust-intention ↑. "Mẹ đánh anh" → trust-intention mixed.
+
+      ③ Schema inheritance: NHANH (hours). "Nghe lời thầy cô" = install trust
+         TRƯỚC KHI đi học. Install CÙNG GÓI: trust + valence + authority.
+         → Tại sao trẻ TIN thầy cô ngay ngày đầu (chưa verify competence).
+         → Evolutionary FUNCTIONAL: compile nhanh > verify chính xác.
+         🟢 Csibra & Gergely 2009: natural pedagogy, epistemic trust.
+
+      ④ Context inference: NHANH (seconds). Minimal ở trẻ nhỏ.
+         0-3: gần zero. 3-6: bắt đầu dùng context cues (đồng phục, title).
+
+      0-6: chủ yếu nguồn ①③. Schema install TRƯỚC verify = Phase 1.
+
+
+    DEFAULT → CALIBRATED: 0-6 = PHASE 1 CỬA SỔ VÀNG (Trust.md §5):
+
+      Trust default = per-ENTITY (không per-domain):
+        Trẻ tin mẹ → tin MỌI THỨ mẹ nói (chưa per-domain).
+        = Functional ở 0-6: mẹ nói gì THƯỜNG ĐÚNG.
+
+      Phase 1 INSTALLED (0-6): nguồn ③ + ② install trust per-CATEGORY.
+        "Tất cả thầy = tin. Tất cả bác sĩ = tin."
+        = CỬA SỔ VÀNG: trust HIGH → VALUE compile cực effective (§2.2, §2.6).
+        → Sử dụng ĐÚNG: build genuine-compiled positive experiences.
+        → Sử dụng SAI: exploit trust → install avoidance tags.
+
+      Phase 2 DEFAULT OPERATION (bắt đầu ~6): trust hoạt động như TRUTH.
+        "Thầy nói gì cũng đúng" → compile patterns thầy dạy.
+        Chưa verify ĐƯỢC vì chưa có domain expertise.
+        → Phase 3 CALIBRATE: 15+ tuổi (Trust.md §5).
+      🟢 Rotenberg 2010 (trust development in children)
+
+
+    BUILD CHẬM, COLLAPSE NHANH → HÀM Ý PARENTING (Trust.md §4):
+
+      Trust build: CHẬM. Mỗi responsive caregiving = +Δ nhỏ. Months to years.
+      Trust collapse: CÓ THỂ NHANH. 1 betrayal = -Δ CỰC LỚN.
+      🟢 Slovic 1993: "Trust is hard to gain, easy to lose."
+      🟢 Baumeister et al. 2001: negativity bias.
+
+      NHƯNG ở 0-6: trust COLLAPSE đầy đủ = HIẾM vì:
+        ① Childhood compile = DEEPEST layer (Trust.md §3 nguồn ②).
+        ② Trust-intention toward parent = hardware-subsidized (oxytocin).
+        ③ Trẻ chưa có alternative entity (no comparison = no override).
+        → Trust DAMAGE = có. Trust COLLAPSE = extremely rare trong parent bond.
+        → "Mẹ la con" = trust DAMAGE nhẹ, NOT collapse.
+        → "Bỏ rơi con months" = trust damage NẶNG, CÓ THỂ erode deep.
+
+      ⭐ HÀM Ý THỰC TẾ:
+        ① Build trust = KIÊN NHẪN. Không có shortcut.
+           Responsive → months → trust compile → operational.
+        ② Protect trust = CẨN THẬN.
+           Nói dối → trust-competence DAMAGE ("mẹ nói sai!").
+           Phạt không fair → trust-intention DAMAGE ("mẹ không muốn tốt cho tôi").
+        ③ REPAIR > PERFECT. Trust damage → repair NGAY:
+           Xin lỗi + giải thích + ôm = repair within reconsolidation window (§3.4).
+           Repair DẠY trẻ: "trust bị damage → CÓ THỂ repair" = valuable chunk.
+        ④ Trust depth (Trust.md §3): trẻ 0-6 chủ yếu 3 nguồn active:
+           ① Routine (daily care = trust reinforce hàng ngày)
+           ② Childhood compile (0-6 = deepest, most resilient)
+           ④ Peak experience (crisis response = strong trust compile)
+           → Daily routine = safety net quan trọng nhất cho trust maintenance.
+
+
+    TRUST × CÁC CƠ CHẾ ĐÃ CÓ TRONG §4.4:
+
+      Trust × Co-Regulation: co-regulate BUILD trust. Trust DUY TRÌ co-regulate.
+        → Circular: responsive → trust ↑ → seek comfort → responsive → trust ↑↑.
+
+      Trust × Entity-Compiled: trust = META-TAG trên entity-compiled assembly.
+        Caregiver entity-compiled + trust meta-tag = "mẹ = an toàn + TIN ĐƯỢC."
+
+      Trust × Virtual Chunks: "mẹ sẽ về" = trust PREDICTION ở dạng chunk.
+        Trust HIGH → virtual chunk MẠNH → separation anxiety GIẢM.
+        Trust LOW → virtual chunk YẾU → anxiety PERSISTENT.
+
+      Trust × Hardware-Subsidy: oxytocin present → trust compile AMPLIFIED.
+        Skin-to-skin, ôm, breastfeeding = trust compile hardware-supported.
+
+      Trust × External Install §2.2: Trust = AMPLIFIER cho Value stream.
+        Mẹ (trust Mức 4-5): nói "nóng!" 1 lần → compile sâu.
+        Người lạ (trust Mức 0-1): nói nhiều lần → compile yếu.
+
+    🟡 Trust × child-development integration = framework synthesis
+
+
   MẸ = FIRST COORDINATION NODE (Coordination-Node.md v1.2 §2.5):
 
     Mẹ map vào 5 Coordination Capabilities:
@@ -1751,10 +1888,12 @@ TỪ COMPILE ARCHITECTURE + FORMULA → NGUYÊN TẮC THỰC TẾ:
       ③ PFC bandwidth allocation: balance eating, play, sleep, social, learning
       ④ Uncertainty tolerance: "khóc vì đói hay vì sợ?" → decide incomplete data
       ⑤ Trust cascade: con trust mẹ → trust người mẹ giới thiệu → propagate
+         Trust.md §2 nguồn ③: schema inheritance = install trust CÙNG GÓI.
+         Trust.md §5 Phase 1: installed trust per-CATEGORY qua caregiver.
 
     0-3 tuổi: mẹ = ONLY coordination node (L1, maximum oxytocin subsidy)
     3-6 tuổi: mẹ begins sharing với teacher/peers (secondary nodes)
-    Trust cascade: nền tảng cho TOÀN BỘ social trust sau này
+    Trust cascade: nền tảng cho TOÀN BỘ social trust sau này (Trust.md §5, §7 ⑥).
 
     ⭐ MẸ = VEHICLE + ROAD:
       Vehicle: fills OWN parental gap (satisfy → contentment)
@@ -1937,6 +2076,161 @@ TRẺ PHÁT TRIỂN QUA LAYERS THEO CHUNK DENSITY:
     ③ Skip caregiving label → feeling fidelity ↓ → alexithymia risk
        → empathy CEILING → social difficulties SUỐT ĐỜI
     ④ Caregiving label = đầu tư UPSTREAM nhất → ảnh hưởng RỘNG nhất
+```
+
+### §5.4 — Self-Observation: Feeling Hướng SELF × Phát Triển Trẻ
+
+```
+⭐⭐ SELF-OBSERVATION × PHÁT TRIỂN TRẺ (Self-Observation.md v1.0):
+
+
+  DEFINITION — Self-Observation = Feeling khi attention direction = SELF:
+
+    Self-Observation = f(Interoception × PFC_Encoding × Attention_Direction=SELF)
+    = APPLICATION-3 trên Simulation-Engine: (Self, Present, Observe)
+    (APPLICATION-1: Self-Pattern-Modeling — §6 | APPLICATION-2: Imagine-Final — §9.2)
+
+    Body-Knowing Inward ⊂ Self-Observation (compiled subset, ~95% hàng ngày)
+    §5.1-§5.3 = Feeling development CHUNG (bất kỳ target nào).
+    §5.4 = Feeling hướng SELF = Self-Observation.
+    → Feeling fidelity (§5.1, §5.2) = FOUNDATION cho Self-Observation quality.
+    (Self-Observation.md §1)
+
+
+  2-AXIS MODEL (Self-Observation.md §3):
+
+    Trục 1 — CAPACITY (ceiling): f(age + training). KHÔNG THỂ vượt.
+    Trục 2 — ACTIVATION (actual): f(prediction_delta × solution_difficulty).
+    delta = 0 → activation = 0 (dù capacity cao). delta > 0 → escalate dần.
+    → Trẻ 3 tuổi capacity Mức 3: dù dissonance mạnh → activation TỐI ĐA = 3.
+    🟡 2-axis model = framework synthesis
+
+
+  GRADIENT MỨC 0-6 × PER-AGE (Self-Observation.md §4, §6.1):
+
+    PFC hardware online prenatal (§1). Self-Observation tăng vì CHUNKS tăng.
+    🟢 Huttenlocher 1979; Grossmann 2013; Kouider 2013
+
+    ┌────────────┬──────────────────────┬──────────────────┬────────────────────┐
+    │ Tuổi       │ PFC Status           │ Self-Observation │ Limiting Factor    │
+    ├────────────┼──────────────────────┼──────────────────┼────────────────────┤
+    │ 0-6 tháng  │ Hardware online,     │ Mức 0-1 max      │ No compiled        │
+    │            │ chunks ≈ 0           │                  │ patterns to match  │
+    ├────────────┼──────────────────────┼──────────────────┼────────────────────┤
+    │ 6-18 tháng │ Chunks compiling     │ Mức 1→2          │ Chunks sparse,     │
+    │            │ via repetition       │ emerging         │ language minimal   │
+    ├────────────┼──────────────────────┼──────────────────┼────────────────────┤
+    │ 18-36 tháng│ Simulation-Engine    │ Mức 2 solid      │ Simulation         │
+    │            │ first activating     │                  │ capacity limited   │
+    ├────────────┼──────────────────────┼──────────────────┼────────────────────┤
+    │ 3-6 tuổi   │ OFC + vmPFC         │ Mức 2-3          │ Short simulation   │
+    │            │ developing           │                  │ horizon            │
+    └────────────┴──────────────────────┴──────────────────┴────────────────────┘
+
+    TEEN PARADOX (Self-Observation.md §6.3):
+      13-18: dlPFC mature → CAN meta-observe ("tôi biết tôi đang ngu")
+      vmPFC ↔ Amygdala: ❌ incomplete → CAN'T regulate from observation
+      = "Self-Observation mà không có tác dụng" (frustrating)
+      → "Why didn't you think first?" = SAI câu hỏi.
+        They DID think (dlPFC ok). vmPFC didn't CONNECT to body response.
+      🟢 Casey 2008; Steinberg 2005
+
+    🔴 Exact ages per level = approximate, individual variation large
+
+
+  CAREGIVER = ON/OFF SWITCH CHO MỨC 2 (Self-Observation.md §6.2):
+
+    RESPONSIVE: cry → respond → "signal của tôi được nghe"
+      → Body-signal = meaningful → Mức 1 natural → foundation Mức 2
+      → Links §5.2: caregiving label = vocabulary cho Self-Observation
+
+    NON-RESPONSIVE: cry → no response → "signal không có tác dụng"
+      → Body-signal = meaningless → Self-Observation TURN OFF at source
+      → Adult: "không biết mình muốn gì" = disabled TỪ ĐẦU
+
+    §5.2 lens: label build FEELING FIDELITY (phân biệt states).
+    §5.4 lens: responsiveness build SELF-OBSERVATION FOUNDATION (signal meaningful).
+    → Cần CẢ HAI: responsive + label = Feeling fidelity + Self-Observation.
+    KHÔNG phải genetic (trừ alexithymia ~10%). Là environmental.
+    🟢 Bowlby 1969; Schore 2001
+
+
+  COMPILED QUALITY × CAREGIVING STYLE (Self-Observation.md §5.3):
+
+    Compile-time direction lock (§3): cùng content + khác context → character KHÁC.
+
+    ┌──────────────────┬──────────────────────────┬────────────────────────────┐
+    │ Compiled Quality  │ Self-Observation Character│ Child Context              │
+    ├──────────────────┼──────────────────────────┼────────────────────────────┤
+    │ Genuine-Compiled  │ EXPANSIVE — observe      │ Khuyến khích explore       │
+    │ (curiosity/safety)│ new aspects freely       │ emotions → rich            │
+    ├──────────────────┼──────────────────────────┼────────────────────────────┤
+    │ Schema-Compiled   │ LIMITED — only PFC       │ "Label cảm xúc" bài tập   │
+    │ (obligation)      │ deliberately encoded     │ → label OK, body-confirm ↓ │
+    ├──────────────────┼──────────────────────────┼────────────────────────────┤
+    │ Threat-Compiled   │ BIASED NEGATIVE — only   │ Phạt khi hiện emotion →   │
+    │ (punishment/fear) │ see threats/deficits     │ chỉ phát hiện "nguy hiểm" │
+    └──────────────────┴──────────────────────────┴────────────────────────────┘
+
+    → Links §3: approach-tagged → expansive. Avoidance-tagged → threat-biased.
+    → Links §4.4 Trust: HIGH trust → safe → genuine-compiled.
+    🟡 Compiled quality × Self-Observation character = framework synthesis
+
+
+  KEYSTONE PROPERTY: CASCADE 5+ SYSTEMS (Self-Observation.md §7):
+
+    Self-Observation quality LOW → cascade:
+        ├→ Body-Knowing Inward FAIL → "không biết feel gì"
+        │     └→ Somatic-Articulation-Loop BLOCKED
+        ├→ Self-Pattern-Modeling FAIL (§6) → empathy deficit
+        │     🟢 Bird & Cook 2013: self-awareness = prerequisite empathy
+        ├→ Imagine-Final DROP (§9.2) → decision paralysis
+        │     🟢 Damasio 1994: vmPFC patients
+        ├→ Dual Check FAIL → PFC Lawyer unchecked
+        └→ Moral judgment DEGRADE → rule-following without moral sense
+
+    CHUỖI NHÂN QUẢ ĐẦY ĐỦ (mở rộng §5.3 chain):
+
+      Responsive caregiving → signal meaningful
+        → Caregiving label → feeling fidelity (§5.2)
+          → Self-Observation foundation (Mức 2) ← KEYSTONE POINT
+            → Self-chunks quality (có tên + ranh giới + body-confirm)
+              → Self-Pattern-Modeling template (§6: empathy)
+                → Imagine-Final quality (§9.2)
+                  → Decision quality → Life quality
+
+    Self-Observation = KEYSTONE IN THE CHAIN — fail tại đây = ceiling cho MỌI THỨ SAU.
+
+
+  EXTERNAL SCAFFOLD PER-MỨC (Self-Observation.md §2.4):
+
+    ┌──────────┬────────────────────────────────────┬──────────────────┐
+    │ Mức      │ External Scaffold                  │ Ai scaffold      │
+    ├──────────┼────────────────────────────────────┼──────────────────┤
+    │ 1→2      │ "Con đói hả?" (label)              │ Mẹ (0-3 tuổi)   │
+    ├──────────┼────────────────────────────────────┼──────────────────┤
+    │ 2→3      │ "Bụng sao rồi?" (body-state)       │ Mẹ/thầy cô      │
+    ├──────────┼────────────────────────────────────┼──────────────────┤
+    │ 3→4      │ "Con hay thế khi nào?" (pattern)    │ Thầy cô/peer     │
+    ├──────────┼────────────────────────────────────┼──────────────────┤
+    │ 4→5      │ "Lo không?" (meta)                  │ Therapist/AI     │
+    └──────────┴────────────────────────────────────┴──────────────────┘
+
+    Scaffold KHÔNG phải xấu — Mức 2 ĐỦ routine life (Self-Observation.md §9).
+    CHỈ có vấn đề khi scaffold QUÁ NHIỀU → child không tự fire.
+    🟢 Vygotsky (Zone of Proximal Development)
+
+    TOOL NOT VIRTUE: Self-Observation SÂU ≠ better.
+      Mức 2 ĐỦ cho routine life. Depth ≠ life quality.
+      Không ÉP trẻ "introspect sâu" — cung cấp FOUNDATION, phần còn lại tự phát triển.
+      Domain feedback = differentiator duy nhất (Self-Observation.md §9.4).
+
+    TRUST × SELF-OBSERVATION:
+      Trust HIGH → safe to explore body states → genuine-compiled Self-Observation
+      Trust LOW → threat-biased → Self-Observation CHỈ detect danger
+      → §4.4 Trust: Trust = AMPLIFIER cho mọi compile stream, BAO GỒM Self-Observation.
+
+  🟡 Self-Observation × child-development integration = framework synthesis
 ```
 
 ---
@@ -2931,7 +3225,7 @@ CÁC FILE ĐI KÈM (reference ngược):
 
 ---
 
-> **END OF Child-Development-Mechanism.md v2.2**
+> **END OF Child-Development-Mechanism.md v2.3**
 >
 > **Summary:** Khung nguyên lý v7.8 cho phát triển trẻ 0-6 tuổi.
 >   §0: Vị trí + cách đọc
@@ -2941,7 +3235,9 @@ CÁC FILE ĐI KÈM (reference ngược):
 >        + Structural/Current Valence + Mixed + Triple Bias
 >   §4: Chunk Dynamics + Connection v5.0 (Entity-Compiled, Bond-Architecture,
 >        Hardware-Subsidy, 4-Layer, Phantom, Coordination-Node, Entity-Access)
->   §5: Feeling Development (7-layer + Body-Feedback-Label vocabulary + caregiving label → fidelity)
+>        + Trust §4.4 (3 sub-dimensions, formation 4 nguồn, Trust≠Valence, collapse asymmetry)
+>   §5: Feeling Development (7-layer + Body-Feedback-Label vocabulary + caregiving label → fidelity
+>        + Self-Observation §5.4: APPLICATION-3, Gradient Mức 0-6, Caregiver ON/OFF, Keystone cascade)
 >   §6: Self-Pattern-Modeling Bootstrap (3 mechanisms + Simulation-Engine + Resonance)
 >   §7: Autonomy (efference copy → meta-chunk + Hardware-Subsidy + PFC Budget)
 >   §8: Cortisol (amplifier + Dissonance-Signal-Architecture + PFC Budget × cortisol)
@@ -2967,4 +3263,14 @@ CÁC FILE ĐI KÈM (reference ngược):
 >   NEW §3.2b: Critical Asymmetry for Parenting (PFC path slow vs Entity-Valence path fast).
 >   Source: Compile-Taxonomy.md v3.0 + Compile-Sleep.md v1.0.
 >
-> **Phiên bản:** v2.2, 2026-06-01. (v2.0: 2026-05-25, v1.0: 2026-04-21)
+> **v2.3 changes (2026-06-02):** Trust.md v1.0 + Self-Observation.md v1.0 Integration.
+>   NEW §4.4 Trust: compiled prediction about gap-fill reliability, 3 sub-dimensions
+>     (Authority/Competence/Intention), formation 4 nguồn mapped to ages, Trust ≠ Valence,
+>     Default→Calibrated 4 phases, collapse asymmetry, parenting implications.
+>   NEW §5.4 Self-Observation: APPLICATION-3 on Simulation-Engine (Self×Present×Observe),
+>     2-Axis (Capacity × Activation), Gradient Mức 0-6 per-age table, Caregiver = ON/OFF switch
+>     for Mức 2, Compiled Quality × caregiving style, Keystone cascade 5+ systems,
+>     External Scaffold per-Mức. Teen Paradox.
+>   Source: Trust.md v1.0, Self-Observation.md v1.0.
+>
+> **Phiên bản:** v2.3, 2026-06-02. (v2.2: 2026-06-01, v2.0: 2026-05-25, v1.0: 2026-04-21)

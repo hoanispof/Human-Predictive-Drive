@@ -756,7 +756,8 @@ BODY-BASE:
   Reward-Signal-Architecture.md v2.0 — Evaluative/Direct-State reward types
 
 FEELING:
-  Feeling.md v3.0 — PFC observation interface (broader than APPLICATION-3; Self-Observation chưa có file riêng)
+  Feeling.md v3.0 — PFC observation interface (broader than APPLICATION-3)
+  Self-Observation.md v1.0 — APPLICATION-3: Self × Present × Observe
 
 AGENT-MECHANISM:
   Self-Pattern-Modeling.md v3.1 — APPLICATION-1 on Simulation-Engine (simulate other)

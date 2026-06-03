@@ -1,11 +1,11 @@
 ---
 title: Mother-Optimization — Tối Ưu Hóa Từ Trước Khi Sinh
-version: 2.2
+version: 2.3
 created: 2026-04-01
-updated: 2026-06-01 v2.2 — terminology "4+1/kênh compile" → "Compile Architecture", +Compile-Taxonomy v3.0 + Compile-Sleep v1.0 dependencies, cross-ref version updates
+updated: 2026-06-03 v2.3 — +Trust.md v1.0 (oxytocin=trust hardware) + Self-Observation.md v1.0 (interoception=Self-Observation hardware), cross-ref updates
 previous_updates:
   - 2026-04-21 (v2.0: v7.8 reframe, cortisol amplifier, direction > level, PFC online, chunk compile)
-status: REFERENCE v2.2
+status: REFERENCE v2.3
 scope: |
   PRACTICAL FILE: Mẹ = MÔI TRƯỜNG xây dựng HARDWARE cho con.
   Giải thích CƠ CHẾ: cortisol mẹ, dinh dưỡng, toxins, epigenetics
@@ -27,9 +27,11 @@ position: |
   TẦNG 5: Applications/Education-System/Country/ (per-country)
 dependencies:
   existing-v2.0:
-    - Child-Development-Mechanism.md v2.2 — KHUNG NGUYÊN LÝ v7.8 (reference chính) [UPDATED v2.2]
+    - Child-Development-Mechanism.md v2.3 — KHUNG NGUYÊN LÝ v7.8 (reference chính) [UPDATED v2.3]
     - Compile-Taxonomy.md v3.0 — Compile Architecture (1E+3M) [NEW v2.2]
     - Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms) [NEW v2.2]
+    - Trust.md v1.0 — Trust = compiled prediction, 3 sub-dimensions, oxytocin hardware [NEW v2.3]
+    - Self-Observation.md v1.0 — APPLICATION-3, interoception hardware, gradient Mức 0-6 [NEW v2.3]
     - Core-Software.md v2.0 — cycle architecture, observation parameters
     - Cortisol-Baseline.md v2.0 — amplifier reframe, direction > level, 7 modes
     - Chunk.md v2.2 — chunk substrate, compile, approach/avoidance tag
@@ -47,8 +49,8 @@ dependencies:
     - By-Product-Scale.md v1.0 — mẹ=VEHICLE+ROAD, prestige=genuine resonance [NEW v2.1]
     - Body-Feedback-Label.md v2.1 — 3-tier labels vocabulary [NEW v2.1]
     - Resonance-Per-Entity.md v1.0 — Hardware-Subsidy Spectrum per entity [NEW v2.1]
-    - Natural-Development.md v2.2 — postnatal continuation [UPDATED v2.2]
-    - Skill-Introduction.md v2.2 — skill build on hardware [UPDATED v2.2]
+    - Natural-Development.md v2.3 — postnatal continuation [UPDATED v2.3]
+    - Skill-Introduction.md v2.3 — skill build on hardware [UPDATED v2.3]
     - Dissonance-Signal-Architecture.md v1.0 — cortisol amplifies dissonance [NEW v2.1]
 supersedes: |
   Mother-Optimization.md v1.0 (2026-04-01, v7.5 lens)
@@ -676,6 +678,44 @@ THAI ĐANG LÀM GÌ TRONG ĐÓ?
     → = File này nói MẸ BUILD hardware (prenatal). Coordination-Node nói
       mẹ ĐIỀU PHỐI development (postnatal) — 2 vai trò KHÁC NHAU
     → 🟡 Framework synthesis (Coordination-Node v1.2 §2.5, By-Product-Scale v1.0 §9)
+
+  ⭐ V2.3 — OXYTOCIN = TRUST HARDWARE (Trust.md v1.0):
+
+  §2.3 đã nói oxytocin = Hardware-Subsidy (anti-habituation mẹ→con).
+  V2.3 thêm: oxytocin CŨNG là nền tảng TRUST HARDWARE cho con:
+    → Oxytocin = neurotransmitter liên quan trực tiếp tới trust behavior
+      (🟢 Kosfeld et al. 2005: oxytocin intranasal → trust ↑ measurable)
+    → Pregnancy + birth + breastfeeding = oxytocin EVENTS lớn nhất
+    → Oxytocin receptor system thai nhi ĐANG phát triển trong bụng
+    → Prenatal stress mãn tính → CÓ THỂ ảnh hưởng oxytocin receptor density 🟡
+    → = Prenatal environment SET UP trust HARDWARE (receptor ready)
+    → SAU SINH: hardware ready → trust BUILDS qua direct experience
+      (Trust.md §2 nguồn ①: chậm nhất, chính xác nhất — months)
+    → ⚠️ "Baby trusts from birth" = SAI
+      → Baby có trust HARDWARE → trust cần DATA từ experience
+      → Trust 3 sub-dimensions (Authority/Competence/Intention)
+        đều cần post-birth experience để compile (Trust.md §1)
+      → Giống PFC reframe: hardware online prenatal → chunks compile postnatal
+    → 🟡 Framework synthesis (Trust.md v1.0 + oxytocin research 🟢)
+
+  ⭐ V2.3 — INTEROCEPTION = SELF-OBSERVATION HARDWARE (Self-Observation.md v1.0):
+
+  Self-Observation = f(Interoception × PFC_Encoding × Attention=SELF)
+  (Self-Observation.md §1.1 — APPLICATION-3 trên Simulation-Engine)
+    → Interoception = Component 1 = anterior insula readout
+      (🟢 Craig 2002, 2009: anterior insula = interoception hub)
+    → Insula system ĐANG PHÁT TRIỂN trong bụng mẹ (trimester 2-3)
+    → = HARDWARE foundation cho Self-Observation SAU SINH
+    → Prenatal cortisol mãn tính → CÓ THỂ ảnh hưởng:
+      → Insula development + interoception calibration 🟡
+      → Body-feedback signal baseline bị shift
+    → ⚠️ Self-Observation KHÔNG CÓ ở thai nhi:
+      → Cần PFC_Encoding (chunks chưa compile đủ)
+      → Cần Attention direction (chưa có attention control)
+      → Hardware CÓ → application CHƯA (giống PFC reframe §1.3)
+    → File này: BUILD interoception hardware (prenatal)
+    → Natural-Dev + Skill-Intro: Self-Observation PHÁT TRIỂN qua Mức 0→6
+    → 🟡 Framework synthesis (Self-Observation.md v1.0, Craig 2002 🟢)
 
   = CƠ ĐỊA MẸ ≠ "MẸ PHẢI HOÀN HẢO"
   = CƠ ĐỊA MẸ = "biết cơ chế → optimize TRONG KHẢ NĂNG"
@@ -2390,7 +2430,7 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
 ### Child-Development (bộ 4):
 
 ```
-  → Child-Development-Mechanism.md v2.2 — KHUNG NGUYÊN LÝ v7.8 [UPDATED v2.2]
+  → Child-Development-Mechanism.md v2.3 — KHUNG NGUYÊN LÝ v7.8 [UPDATED v2.3]
      + §1: PFC reframe (Hodel 2018) → áp dụng từ prenatal (§1.3 file này)
      + §2: Compile Architecture (1E+3M) → thai ĐÃ compile chunks (§2.2 file này)
      + §3: approach/avoidance tags → prenatal baseline SET UP tendency (§3.2)
@@ -2398,12 +2438,12 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
      + §8.2: sleep = repair mechanism → áp dụng cho MẸ (§6.1)
      + §8.4: direction > level → áp dụng cho cortisol MẸ (§3.3)
 
-  → Natural-Development.md v2.2 — Hardware khi sinh → compile chunks [UPDATED v2.2]
+  → Natural-Development.md v2.3 — Hardware khi sinh → compile chunks [UPDATED v2.3]
      + §1: hardware sơ sinh = TIẾP NỐI trực tiếp từ trimester 3 (§1.3)
      + §2: 8 hành vi tự nhiên = TIẾP TỤC testing circuits từ bụng
      + §3: sleep/REM = TIẾP TỤC brain compile từ fetal REM (§1.3)
 
-  → Skill-Introduction.md v2.2 — Build skills TRÊN hardware [UPDATED v2.2]
+  → Skill-Introduction.md v2.3 — Build skills TRÊN hardware [UPDATED v2.3]
      + Hardware quality (file này) → RANGE → Skill-Intro FILL range
      + §1: readiness > age = readiness phụ thuộc hardware quality
      + §2: 4-step progression = BUILD trên foundation từ 2 files trước
@@ -2456,6 +2496,11 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
   → Body-Feedback-Label.md v2.1 (Body-Base/Body-Feedback/) [NEW v2.1]
      + 3-tier labels: Hardware-Signal / Evaluative-Signal / Integration-Signal
 
+  → Trust.md v1.0 (Body-Base/) [NEW v2.3]
+     + §1: Trust = compiled prediction about reliability, 3 sub-dimensions
+     + §2: 4 nguồn formation → oxytocin = trust hardware prenatal (→ §2.3 file này)
+     + Trust ≠ Valence: trẻ "ghét mẹ lúc này" nhưng vẫn trust mẹ
+
   → Compiled-Fresh.md v2.0 (Body-Base/) [NEW v2.1]
      + PFC Budget concept → stress tools PFC cost (→ §6.2)
 
@@ -2472,6 +2517,11 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
 ```
   → PFC-Development.md (PFC/)
      + PFC reframe chi tiết → 5 evidence pillars → Hodel 2018
+
+  → Self-Observation.md v1.0 (PFC/) [NEW v2.3]
+     + §1.1: Interoception (Component 1) → insula prenatal = hardware (→ §2.3 file này)
+     + §4: Gradient Mức 0-6 → prenatal = Mức 0 (hardware only, no chunks)
+     + §6.2: Caregiver = ON/OFF switch cho Mức 2 → postnatal development
 
   → Imagine-Final.md v3.0 (PFC/Imagination/)
      + Prenatal hardware → RANGE cho Imagine-Final development sau sinh
@@ -2527,7 +2577,7 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
 ```
   ┌─────────────────────────────────────────────────────────────┐
   │                                                             │
-  │  Mother-Optimization v2.2                                   │
+  │  Mother-Optimization v2.3                                   │
   │  "Xuất phát điểm của xuất phát điểm."                      │
   │                                                             │
   │  Từ 1 tế bào → 86 tỷ neuron trong 40 tuần.                │
@@ -2546,12 +2596,19 @@ FILE NÀY NẰM TRONG HỆ SINH THÁI FRAMEWORK — KHÔNG ĐỨNG MỘT MÌNH
   │                                                             │
   │  Và nhớ:                                                    │
   │  Hardware = RANGE, không phải DESTINY.                      │
-  │  Natural-Dev v2.2 + Skill-Intro v2.2 = FILL range.         │
+  │  Natural-Dev v2.3 + Skill-Intro v2.3 = FILL range.         │
   │  Brain plasticity = recovery mechanism mạnh nhất.           │
   │  Bắt đầu từ đâu cũng CHƯA MUỘN.                          │
   │                                                             │
   └─────────────────────────────────────────────────────────────┘
 
+  v2.3 (2026-06-03):
+    Trust.md v1.0 + Self-Observation.md v1.0 Integration:
+    + §2.3: Oxytocin = trust HARDWARE (receptor system prenatal, trust BUILDS post-birth)
+    + §2.3: Interoception = Self-Observation HARDWARE (insula prenatal, application post-birth)
+    + Dependencies: +Trust.md v1.0, +Self-Observation.md v1.0
+    + Cross-refs: +Trust.md §12, +Self-Observation.md §12
+    + Mechanism v2.2→v2.3, Natural-Dev v2.2→v2.3, Skill-Intro v2.2→v2.3
   v2.2 (2026-06-01):
     Compile Architecture Refine (Compile-Taxonomy.md v3.0 + Compile-Sleep.md v1.0):
     + Terminology: "chunk compile channels" → "Compile Architecture"

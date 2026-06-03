@@ -24,6 +24,8 @@ notes: |
 
 # TITLE OPTIONS (chọn 1)
 
+A concept bridge neuroscience and psychology to an unify model - predict human body-brain drive direction
+
 **Option A — Descriptive, first-person:**
 I mapped how the brain's core systems connect — 200+ files, open-source, inviting falsification
 
@@ -73,17 +75,19 @@ The framework takes one architectural premise and applies it consistently: the b
 
 The framework provides mechanistic answers to questions like:
 
-- Why does scrolling social media for an hour leave you drained — when a 30-minute real conversation energizes you?
+- Why do humans compete for status — and why does the underlying "-evolution" mechanism look the same in lobsters, baboons, and CEOs?
+- Why does creative work come with stress — even when you chose it and love it? - va khi nao thi no co hai
+- Why does scrolling social media for an hour leave you drained — when a 30-minute real conversation "-voi ban than" energizes you?
+- Tai sao con nguoi luon hoat dong(khong the ngoi im - co the hoac nao bo). hoac la lam viec(nghi ngoi khi kiet suc), hoac la vui choi. Ke ca ti phu cung khong the ngoi im.
+- Tam quan trong cua collective doi voi ca nhan. Su by-product resonance, optimize brain everyday giua ca nhan voi ca nhan. <= Tai sao mot loi chi trich tren mang xa hoi lai khien ban axiety. Tai sao nguoi than thiet phan boi lai khien ban dau - mac du co the cua ban van khoe manh va khong he bi tan cong vat ly.
 
 - Why does discovering something yourself feel completely different from being told the same thing — even when the information is identical?
 
 - Why is boredom painful? Nothing is happening — why does the brain treat that as a problem?
 
-- Why do humans compete for status — and why does the underlying mechanism look the same in lobsters, baboons, and CEOs?
 
 - Why does giving to charity feel good but owing someone a favor feels heavy — even when the action is identical?
 
-- Why does creative work come with stress — even when you chose it and love it?
 
 These aren't rhetorical. Each one traces to a specific mechanism in the framework, with citations, confidence levels, and conditions under which the answer would be wrong.
 

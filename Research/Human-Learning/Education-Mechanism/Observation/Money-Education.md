@@ -1,10 +1,10 @@
 ---
 title: Money-Education — Dạy Con Về Tiền Qua Lens Framework v7.8
-version: 1.1
+version: 1.2
 created: 2026-05-12
-updated: 2026-05-25
-previous: v1.0 (2026-05-12)
-status: v1.1 OBSERVATION FILE — enriched 6 new concepts
+updated: 2026-06-03
+previous: v1.1 (2026-05-25)
+status: v1.2 OBSERVATION FILE — +Trust.md + Self-Observation.md integrations
 scope: |
   OBSERVATION FILE: Money education — TẠI SAO quan trọng (schemas compile by age 7),
   TẠI SAO current approaches fail (knowledge-behavior gap = PFC vs body-level),
@@ -13,6 +13,9 @@ scope: |
   COMMON MISTAKES × mechanism, Valence-Structural bonds boundary, cultural considerations, AI era.
   v1.1: +Compiled Quality Dimension, +Hardware-Subsidy, +Entity-Access,
   +Dissonance-Signal-Architecture, +PFC Budget. Cross-refs version bumps.
+  v1.2: +Trust.md (schema inheritance financial trust, Trust Generalization KOL exploit,
+  AI × Trust risk), +Self-Observation.md ("muốn mua" = body signal → Mức 3,
+  teen spending Mức 4, PFC Budget × impulse). Cross-refs version bumps.
   File này = Observation ỨNG DỤNG, KHÔNG phải mechanism file.
 purpose: |
   Trả lời: "Dạy con về tiền THẾ NÀO cho đúng — không phải 'dạy gì' mà
@@ -24,19 +27,19 @@ purpose: |
 position: |
   Research/Human-Learning/Education-Mechanism/Observation/ — observation-level analysis.
   Thuộc Education-Mechanism/ folder cùng bộ 3 education:
-    Education-Mechanism.md v2.0 (HOW — nguyên lý arc design)
-    Domain-Knowledge-Map.md v2.0 (WHAT — 3-tier domain taxonomy)
-    Connection-Education.md v1.0 (WHO — social interaction education)
+    Education-Mechanism.md v2.2 (HOW — 10 nguyên lý arc design)
+    Domain-Knowledge-Map.md v2.1 (WHAT — 3-tier domain taxonomy)
+    Connection-Education.md v1.1 (WHO — social interaction education)
     Observation/ (ứng dụng quan sát cụ thể) ← ĐÂY
   File này BUILD TRÊN:
     - Money-Analysis.md v1.0 (SYNTHESIS tiền qua framework — 5 câu hỏi, 1,826L)
-    - Education-Mechanism.md v1.0 (8 nguyên lý arc design, bridge)
+    - Education-Mechanism.md v2.2 (10 nguyên lý arc design, bridge)
     - Child-Development-Mechanism.md v2.2 (Compile Architecture, approach/avoidance tags)
     - Background-Pattern.md v2.0 (2D model Depth×Density, invisible bias)
 dependencies:
   primary:
     - Money-Analysis.md v1.0 — 3-layer def, 5 functions, 6 paths, gap shift, Valence-Structural×tiền
-    - Education-Mechanism.md v2.1 — 8 nguyên lý, bridge, 4 nguồn fill, Multi-Stream
+    - Education-Mechanism.md v2.2 — 10 nguyên lý, bridge, 4 nguồn fill, Multi-Stream
     - Child-Development-Mechanism.md v2.2 — PFC reframe, Compile Architecture, approach/avoidance tags
     - Background-Pattern.md v1.0 — 2D model, sleep accelerator, invisible bias
   secondary:
@@ -45,8 +48,11 @@ dependencies:
     - Status.md v2.0 — Resource Access Map, exchange mode
     - Skill-Introduction.md v2.0 — per-age exposure principles, withdrawal protocol
     - Natural-Development.md v2.0 — 0-6 tự nhiên, autonomy emergence
-    - Domain-Knowledge-Map.md v2.0 — §1.2 Numeracy → financial literacy branch
-    - Connection-Education.md v1.0 — social interaction education (WHO trong bộ 3)
+    - Domain-Knowledge-Map.md v2.1 — §1.2 Numeracy → financial literacy branch
+    - Connection-Education.md v1.1 — social interaction education (WHO trong bộ 3)
+  trust/self-observation:
+    - Trust.md v1.0 — §5 Default→Calibrated, §7 Trust Generalization, schema inheritance
+    - Self-Observation.md v1.0 — §4 Mức gradient, §5.2 PFC Budget, §2.4 External Scaffold
   new-concepts:
     - PFC-Operations.md v1.1 — §5 Compiled Quality Dimension
     - Valence-Propagation.md v3.0 — §7 Hardware-Subsidy
@@ -172,7 +178,7 @@ FILE NÀY LÀM:
 FILE NÀY KHÔNG LÀM:
   ✗ KHÔNG tạo mechanism MỚI (all derived từ existing files)
   ✗ KHÔNG lặp Money-Analysis.md (reference, không copy)
-  ✗ KHÔNG lặp Education-Mechanism.md (reference 8 nguyên lý, không deep-dive)
+  ✗ KHÔNG lặp Education-Mechanism.md (reference 10 nguyên lý, không deep-dive)
   ✗ KHÔNG phải financial literacy curriculum (= AI handle per student)
   ✗ KHÔNG prescribe "cách dạy cụ thể" — dạy PRINCIPLES cho bố mẹ/giáo viên
   ✗ KHÔNG phải financial advice
@@ -447,6 +453,15 @@ FILE NÀY TRẢ LỜI:
     → Thiếu: ① Repetition (chỉ dạy 1-2 buổi rồi thôi)
     → = Compile failure: knowledge IN PFC nhưng NOT IN body
 
+    + TRUST MECHANISM: TẠI SAO "LỜI DẠY" PERSIST DÙ KHÔNG WORK (Trust.md v1.0):
+      → "Ngân hàng an toàn", "tiết kiệm quan trọng" = INSTALLED TRUST (Phase 1-2)
+      → Schema inheritance: bố mẹ nói → con install → CHƯA BAO GIỜ verify
+      → Trust.md §5: Default per-entity, chưa calibrated per-domain
+      → Người bình thường KHÔNG CÓ financial domain expertise để verify
+      → → Installed trust PERSIST vô thời hạn (absence of domain check ≠ trust correct)
+      → Financial literacy THẬT SỰ = learning to CALIBRATE financial trust (Phase 3-4)
+      → = Không chỉ "biết gì" mà "biết AI/NGUỒN NÀO đáng tin trong domain NÀO"
+
   🟢 Mandell 2008: financial course = no measurable behavior impact
   🟢 Amagir et al. 2018: knowledge ↑ but behavior ≈ unchanged
   🟡 "PFC ≠ body compilation" = framework core insight
@@ -617,7 +632,7 @@ FILE NÀY TRẢ LỜI:
 
 > **⭐ CORE CỦA FILE.**
 > §0-§2 đặt vấn đề. Section này = GIẢI PHÁP.
-> 6 nguyên lý derived từ Education-Mechanism.md 8 nguyên lý
+> 6 nguyên lý derived từ Education-Mechanism.md 10 nguyên lý
 > + Money-Analysis.md insights + research evidence.
 > KHÔNG prescribe "dạy cách nào" — cho PRINCIPLES để navigate.
 
@@ -669,6 +684,18 @@ FILE NÀY TRẢ LỜI:
     → HỎI: "Cái này sẽ compile APPROACH hay AVOIDANCE tag?"
     → Nếu approach → tiến hành
     → Nếu avoidance → DỪNG LẠI, đổi cách
+
+    + SELF-OBSERVATION CHO QUYẾT ĐỊNH TÀI CHÍNH (Self-Observation.md v1.0):
+      → "Muốn mua" = body signal (approach gap fire) → NHƯNG source NÀO?
+      → Mức 0-1: impulse buy — signal fire → hành động NGAY, không observe
+      → Mức 2: "tôi đang muốn mua" — nhận biết CÓ body signal
+      → Mức 3: "TẠI SAO tôi muốn mua?" — identify source:
+        stress? → mua = cortisol relief (tạm thời, không giải quyết gốc)
+        envy? → thấy bạn có → social comparison gap (Status.md)
+        genuine need? → body-base gap thật → approach (healthy)
+      → = Financial self-awareness = Self-Observation applied to spending behavior
+      → BỐ MẸ scaffold: "Con muốn mua — thử DỪNG 1 ngày xem còn muốn?"
+        = External scaffold cho Self-Observation Mức 3 (Self-Observation.md §2.4)
 
   REFRAME MỌI TÌNH HUỐNG VỀ APPROACH:
 
@@ -1104,6 +1131,14 @@ FILE NÀY TRẢ LỜI:
       → Chunks: [cho = approach, không phải mất]
       → Counter threshold adaptation TRƯỚC KHI nó hình thành
 
+    ⑥ SELF-OBSERVATION CHO SPENDING PATTERNS (Self-Observation.md v1.0):
+      → Teen: dlPFC matures → CAN observe own spending patterns (Mức 4)
+      → "Tôi luôn mua đồ khi stress" = Pattern-Observe (Mức 4)
+      → "Tôi đang rationalize — body nói 'không cần' nhưng narrative nói 'cần'" = Mức 5
+      → PFC Budget: sau ngày mệt → Self-Observation GIẢM → impulse purchase risk ↑
+      → = Dạy teen: "quyết định tài chính KHI TỈNH TÁO, không khi mệt/buồn"
+      → Self-Observation.md §5.2: PFC Budget exhausted → Self-Observation = first to go
+
   🟡 Real world phase = transition preparation
   🟢 PISA 2022: financial literacy of 15-year-olds varies by family socialization
 ```
@@ -1197,6 +1232,13 @@ FILE NÀY TRẢ LỜI:
     → Dangerous vì: fail ở tầng 2-3 (meaning, connection, autonomy)
     → Compiled khi: bố mẹ LUÔN giải quyết bằng tiền
     → Avoid: cho con trải nghiệm things money CAN'T buy
+    + TRUST GENERALIZATION (Trust.md v1.0 §7 mechanism ⑤):
+      → Schema ① compile MẠNH vì: Trust Generalization = hardware default
+      → Trust per-ENTITY, không per-DOMAIN → "tin NGƯỜI này" = tin MỌI THỨ người này nói
+      → KOL giỏi entertainment → fan trust KOL về tài chính → CROSS-DOMAIN exploit
+      → "Expert game → tin expert crypto" = Trust Generalization (Hovland & Weiss 1951)
+      → Trẻ CẦN compile: "giỏi domain A ≠ đáng tin domain B"
+      → = Trust Calibration per-domain = meta-skill tài chính QUAN TRỌNG NHẤT
 
   ② [TIỀN = NGUY HIỂM / SỢ]:
     → Avoidance-tagged money chunks
@@ -1685,6 +1727,14 @@ FILE NÀY TRẢ LỜI:
         → Parent = Layer 2 (calibrate)
         → Child = Layer 3 (body verify)
 
+    ⑤ AI × TRUST GENERALIZATION: RỦI RO MỚI (Trust.md v1.0):
+      → AI generate "smooth" financial content (coherent, confident, professional)
+      → Installed trust: "nội dung hay = đáng tin" = CHƯA calibrated
+      → Trust.md §5 Phase 2: trust acts like truth WITHOUT verification
+      → AI era: financial scam content QUALITY ↑ → installed trust PERSIST lâu hơn
+      → Giải pháp: dạy "NGUỒN nào đáng tin" TRƯỚC "nội dung gì đúng"
+      → = Trust Calibration (Default→Calibrated) = kỹ năng CỐT LÕI trong AI era
+
   🟡 AI era × money education = Money-Analysis §9 + Education-Mechanism §4
 ```
 
@@ -1825,6 +1875,12 @@ FILE NÀY TRẢ LỜI:
     🟡 Entity-Access modulation (§7.1) — tiền thay đổi WHO con access
     🟡 Dissonance-Signal-Architecture vocabulary for money threats (§2.3) — Evaluative vs Direct-State
     🟡 PFC Budget for abstract money concepts (§3.6) — session design constraint
+
+  v1.2 TRUST + SELF-OBSERVATION INTEGRATIONS (all 🟡):
+    🟡 Trust Mechanism for financial trust (§2.1) — installed trust, schema inheritance, persist
+    🟡 Self-Observation for spending (§3.2, §4.4) — "muốn mua" = body signal → Mức 3 observe
+    🟡 Trust Generalization for KOL financial exploit (§5.2①) — per-entity ≠ per-domain
+    🟡 AI × Trust Generalization risk (§9.1⑤) — smooth content = unverified trust persist
 ```
 
 ### §10.4 — Câu hỏi mở
@@ -1870,8 +1926,8 @@ NỀN TẢNG TRỰC TIẾP
   6 over-reward (§5), 7 useless cases (§6), Valence-Structural×tiền inverse (§6.3),
   tiền ≈ ngôn ngữ (§1.4). Q8 = file này trả lời.
 
-→ Education-Mechanism.md v2.0 — NGUYÊN LÝ ARC DESIGN
-  8 nguyên lý (§2), bridge mechanism (§3), 4 nguồn fill (§3.4),
+→ Education-Mechanism.md v2.2 — NGUYÊN LÝ ARC DESIGN
+  10 nguyên lý (§2), bridge mechanism (§3), 4 nguồn fill (§3.4),
   approach/avoidance (§2.2), prerequisite (§2.4), AI model (§4).
 
 → Child-Development-Mechanism.md v2.2 — CƠ CHẾ PHÁT TRIỂN TRẺ
@@ -1936,9 +1992,9 @@ CHILD-DEVELOPMENT BỘ 4
 BỘ 3 EDUCATION
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.0 ⭐ (HOW — nguyên lý arc design)
-→ Domain-Knowledge-Map.md v2.0 (WHAT — §1.2 Numeracy → financial literacy branch)
-→ Connection-Education.md v1.0 (WHO — social interaction education)
+→ Education-Mechanism.md v2.2 ⭐ (HOW — 10 nguyên lý arc design)
+→ Domain-Knowledge-Map.md v2.1 (WHAT — §1.2 Numeracy → financial literacy branch)
+→ Connection-Education.md v1.1 (WHO — social interaction education)
 
 ═══════════════════════════════════════════════════════
 EDUCATION OBSERVATION
@@ -1966,11 +2022,21 @@ NEW CONCEPT INTEGRATIONS (v1.1)
 → Entity-Access.md v1.2 — Entity-Access modulation (§7.1)
 → Dissonance-Signal-Architecture.md v1.0 — Dissonance-Signal-Architecture vocabulary (§2.3)
 → PFC-Operations.md v1.1 — PFC Budget constraint (§3.6)
+
+
+═══════════════════════════════════════════════════════
+TRUST + SELF-OBSERVATION INTEGRATIONS (v1.2)
+═══════════════════════════════════════════════════════
+
+→ Trust.md v1.0 — Schema inheritance financial trust (§2.1), Trust Generalization KOL exploit (§5.2①),
+  AI × Trust risk (§9.1⑤). Trust Calibration Default→Calibrated = meta-skill tài chính.
+→ Self-Observation.md v1.0 — "Muốn mua" = body signal → Mức 3 observe source (§3.2),
+  Teen spending Pattern-Observe Mức 4 (§4.4), PFC Budget × impulse purchase risk.
 ```
 
 ---
 
-> *Money-Education v1.1 — Observation File.*
+> *Money-Education v1.2 — Observation File.*
 > *Money schemas compile by age 7 (Whitebread 2013) = Background-Pattern invisible.*
 > *Knowledge ≠ behavior (Mandell 2008) = PFC ≠ body compilation.*
 > *6 nguyên lý: Experience > Lecture, Approach LUÔN, Goldilocks,*
@@ -1980,5 +2046,5 @@ NEW CONCEPT INTEGRATIONS (v1.1)
 > *Valence-Structural insight: nơi tiền bị cấm = nơi relationship sâu nhất.*
 > *Direction > Level = valid mọi culture, mọi era.*
 > *"Bố mẹ đang dạy con về tiền — dù không cố ý."*
-> *v1.1: +Compiled Quality Dimension, +Hardware-Subsidy, +Entity-Access,*
-> *+Dissonance-Signal-Architecture, +PFC Budget. Cross-refs version bumps.*
+> *v1.2: +Trust.md (schema inheritance, Trust Generalization, AI×Trust risk),*
+> *+Self-Observation.md ("muốn mua" body signal, teen spending Mức 4, PFC Budget).*

@@ -1,8 +1,10 @@
 ---
 title: Connection-Education — Dạy Social Interaction Qua Framework v7.8
-version: 1.0
+version: 1.1
 created: 2026-05-25
-status: v1.0 MAIN FILE
+updated: 2026-06-03 (v1.1 — Trust.md v1.0 + Self-Observation.md v1.0 integration: +Self-Observation keystone §2.5, +Trust calibration §5.6, +Trust × 5 pillars, +Teen Paradox, +Compiled Quality warning, deps Child-Dev v2.2→v2.3)
+previous: v1.0 (2026-05-25, ~2,161L)
+status: v1.1
 scope: |
   MAIN FILE: Dạy social interaction — TOÀN BỘ khía cạnh tương tác xã hội:
   ① Hiểu người khác (empathy education — absorb Empathy-Education v2.0)
@@ -39,11 +41,12 @@ position: |
   SCOPE IN:
     - TẠI SAO connection education quan trọng (practical, Compilable Architecture)
     - MECHANISM tóm tắt (3 Generative Primitives, Hardware-Subsidy)
+    - SELF-OBSERVATION as keystone for ALL 5 pillars (v1.1: §2.5)
     - HIỂU người khác (empathy education — absorb Empathy-Education v2.0)
     - XÂY connection (bond formation, 8 pathways, 4 bond types)
-    - CHỌN relationships (Entity-Access, PFC budget, boundary)
-    - DUY TRÌ connection (4-Layer Sustainability, Resonance Decline, repair)
-    - NAVIGATE groups (Coordination-Node, prestige, inclusion/exclusion)
+    - CHỌN relationships (Entity-Access, PFC budget, boundary, Trust calibration)
+    - DUY TRÌ connection (4-Layer Sustainability, Resonance Decline, repair, Trust repair)
+    - NAVIGATE groups (Coordination-Node, prestige, Position vs Person trust)
     - PER-AGE guide (0-3 / 3-6 / 6-12 / 12-18 / adult)
     - AI ERA (Phantom, parasocial, technology frontier)
   SCOPE OUT:
@@ -71,6 +74,11 @@ dependencies:
     - Empathy.md v3.0 — Self-Pattern-Modeling function, 3 mechanisms, double empathy
     - By-Product-Scale.md v1.0 — 3 scales pair/hub/institutional, prestige = genuine resonance
     - Coordination-Node.md v1.2 — prestige vs dominance, scale transitions, mẹ = first node
+  trust/self-observation:
+    - Trust.md v1.0 — compiled prediction about gap-fill reliability, 3 sub-dimensions, Default→Calibrated
+    - Self-Observation.md v1.0 — APPLICATION-3, Gradient Mức 0-6, Keystone cascade, Tool Not Virtue
+    - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, Trust = Amplifier, Multi-Stream
+    - Compile-Sleep.md v1.0 — Sleep Maintenance, social memory consolidation
   foundation:
     - Simulation-Engine.md v1.0 — 1 engine, 3 components, 3 axes
     - PFC-Operations.md v1.0 — Hold/Suppress, PFC budget, compiled suppress
@@ -84,7 +92,7 @@ dependencies:
   education:
     - Education-Mechanism.md v2.1 — arc design principles, 4 nguồn fill, bridge, Multi-Stream
     - Domain-Knowledge-Map.md v1.0 — §1.4 Social/Emotional = Foundation Domain
-    - Child-Development-Mechanism.md v2.2 — §4.4 Connection, §6 Self-Pattern-Modeling bootstrap
+    - Child-Development-Mechanism.md v2.3 — §4.4 Connection, §6 Self-Pattern-Modeling bootstrap
   global:
     - Social-Calibration.md v1.1 — 7 functions, compound breakdown
     - Human-AI-Future.md v3.0 — AI vs human, symbiosis
@@ -537,6 +545,137 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Perspective-taking practice → empathy improvement (Lutz 2008)
 ```
 
+### §2.5 — Self-Observation: Nền Tảng Cho Toàn Bộ Social Interaction
+
+```
+⭐⭐ SELF-OBSERVATION = PREREQUISITE CHO TẤT CẢ 5 TRỤ CỘT:
+
+  (Self-Observation.md v1.0 — source-of-truth)
+
+  Self-Observation = f(Interoception × PFC_Encoding × Attention_Direction=SELF)
+  = Feeling khi target = SELF (body-state, emotional state, thought pattern)
+  = APPLICATION-3 trên Simulation-Engine: (Self, Present, Observe)
+
+  §3.2 ĐÃ NÊU: "self-awareness = upstream prerequisite cho empathy"
+  Self-Observation.md v1.0 FORMALIZE "self-awareness" thành gradient CÓ THỂ DẠY:
+    → Self-awareness (§3.2) = Self-Observation Mức 2+ development
+    → Self-chunks = Compiled Body-Knowing Inward (Self-Observation §1.3)
+    → Gradient Mức 0-6 cho phép MATCH social skill target với capacity hiện tại
+
+
+  ⭐ KEYSTONE PROPERTY — FAIL → CASCADE TẤT CẢ 5 TRỤ:
+
+    (Self-Observation.md v1.0 §7.1)
+
+    Self-Observation LOW
+        ↓
+        ├→ Self-Pattern-Modeling FAIL (Step 5 BIRD & COOK 🟢)
+        │     → "không biết NGƯỜI KHÁC feel gì"
+        │     → Pillar ① (Hiểu người khác) = BROKEN
+        │
+        ├→ Trust calibration FAIL
+        │     → Cần Mức 3+ để detect "entity này tin được không?"
+        │       (body signal mismatch = trust data)
+        │     → Pillar ③ (Chọn relationships) = IMPAIRED
+        │
+        ├→ Compiled-Suppress INVISIBLE
+        │     → Không biết "mình đang suppress drives vì bạn"
+        │     → Pillar ④ (Duy trì) = decay KHÔNG detect
+        │
+        ├→ Dual Check body-arm FAIL
+        │     → Không feel "something's off" trong group dynamics
+        │     → Pillar ⑤ (Navigate groups) = vulnerable to dominance
+        │
+        └→ Bond quality monitoring FAIL
+              → Không biết "connection này TỐT hay ĐANG PHAI"
+              → Pillar ② (Xây dựng) = build BLIND
+
+    → 1 KEYSTONE fail → TẤT CẢ 5 trụ bị ảnh hưởng
+    → Connection education BẮT BUỘC phải include Self-Observation development
+
+
+  ⭐ SELF-OBSERVATION MỨC × SOCIAL SKILL CEILING:
+
+    (Self-Observation.md v1.0 §4 — Gradient Mức 0-6)
+
+    ┌────────────┬──────────────┬─────────────────────────────────────────┐
+    │ Tuổi       │ Mức          │ Social skill ceiling                    │
+    │            │ (capacity)   │                                         │
+    ├────────────┼──────────────┼─────────────────────────────────────────┤
+    │ 0-3        │ Mức 0-2      │ Basic emotion recognition CHỈ.          │
+    │            │ (emerging)   │ Empathy = CHƯA CÓ (chưa template).     │
+    ├────────────┼──────────────┼─────────────────────────────────────────┤
+    │ 3-6        │ Mức 2-3      │ Predict own reactions bắt đầu.          │
+    │            │ (basic)      │ Early empathy: Self-Pattern-Modeling     │
+    │            │              │ ONLINE → template cho others.            │
+    ├────────────┼──────────────┼─────────────────────────────────────────┤
+    │ 6-12       │ Mức 3-4      │ Pattern observation emerging.            │
+    │            │ (developing) │ "Mình hay giận khi thua" = Mức 4.       │
+    │            │              │ Relationship patterns: observable.       │
+    │            │              │ Trust calibration BẮT ĐẦU (basic).     │
+    ├────────────┼──────────────┼─────────────────────────────────────────┤
+    │ 12-18      │ Mức 4-5      │ Meta-observe POSSIBLE nhưng             │
+    │            │ (TEEN        │ vmPFC chưa connect → CAN observe,       │
+    │            │ PARADOX)     │ CAN'T regulate (🟢 Casey 2008).         │
+    │            │              │ Trust calibration per-domain ACTIVE.    │
+    └────────────┴──────────────┴─────────────────────────────────────────┘
+
+    ⭐ KHÔNG THỂ NHẢY BƯỚC:
+      → Dạy "empathy" cho Mức 0-1 = VÔ NGHĨA (chưa template)
+      → Dạy "chọn bạn" cho Mức 2 = QUÁ SỚM (chưa pattern observe)
+      → Dạy "meta-connection" cho Mức 3 = QUÁ SỚM (chưa meta-observe)
+      → PHẢI match skill target với Mức capacity hiện tại
+
+
+  ⭐ EXTERNAL SCAFFOLD CHO SOCIAL SELF-OBSERVATION:
+
+    (Self-Observation.md v1.0 §6.2: Caregiver = ON/OFF switch)
+
+    Teacher/Parent = External Scaffold giúp nâng Mức:
+
+    ┌──────────────────────────────────┬──────────────────────────────────┐
+    │ Scaffold prompt                  │ Target Mức                       │
+    ├──────────────────────────────────┼──────────────────────────────────┤
+    │ "Con đang đói/mệt/buồn?"       │ Mức 2: label body-state          │
+    │ (label cho trẻ)                 │ = Foundation cho TẤT CẢ sau     │
+    ├──────────────────────────────────┼──────────────────────────────────┤
+    │ "Chút nữa con sẽ feel gì?"     │ Mức 3: predict own state         │
+    │ (predict future self)           │ = Nền cho empathy predict other │
+    ├──────────────────────────────────┼──────────────────────────────────┤
+    │ "Con có hay feel X khi Y?"      │ Mức 4: pattern recognition       │
+    │ (cross-situation pattern)       │ = Nền cho relationship patterns │
+    ├──────────────────────────────────┼──────────────────────────────────┤
+    │ "Con giận bạn hay giận VÌ       │ Mức 5: meta-observe              │
+    │ chuyện khác?" (observe own obs.)│ = Deep social calibration       │
+    └──────────────────────────────────┴──────────────────────────────────┘
+
+    CAREGIVER RESPONSIVE = ON SWITCH (Self-Observation §6.2):
+      → Baby cry → respond → "signal của tôi có ý nghĩa" → Mức 2 EMERGE
+      → Baby cry → NO response → "signal vô ích" → Mức 2 BLOCKED
+      → = §3.2 chain bắt đầu ở ĐÂY: caregiver switch ON → Self-Observation develop
+
+
+  ⚠️ COMPILED QUALITY WARNING:
+
+    (Self-Observation.md v1.0 §9: Tool Not Virtue)
+
+    HOW social education is taught = WHAT child can socially observe:
+      Dạy bằng rule (nguồn ④):
+        → Child compile "social = rules to follow"
+        → Self-Observation hướng "mình có đúng rule?" (Compiled Threat)
+      Dạy bằng experience (nguồn ②③):
+        → Child compile "social = body signals to read"
+        → Self-Observation hướng "mình FEEL gì?" (Compiled Genuine)
+    → Compiled Quality (PFC-Operations §8) quyết định CHO social domain
+    → = Thêm 1 lý do connection education phải experience-based (§1.4)
+
+  🟡 Self-Observation as social skills keystone = framework synthesis
+  🟢 Alexithymia-empathy: Bird & Cook 2013
+  🟢 Caregiver ON/OFF: Bowlby 1969, Schore 2001
+  🟢 Teen vmPFC: Casey 2008, Steinberg 2005
+  🟢 Interoception: Craig 2002, 2009
+```
+
 ---
 
 ## §3 — HIỂU NGƯỜI KHÁC — EMPATHY EDUCATION
@@ -657,6 +796,21 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Trẻ không có "safe harbor" để recover
     → CONNECTION EDUCATION SỐ 1 = BẢO VỆ connection drive ĐÃ CÓ SẴN
 
+
+  ⭐ TRUST DIMENSION — PHÁ CONNECTION = PHÁ TRUST:
+
+    (Trust.md v1.0 §4: build chậm, collapse nhanh)
+
+    4 pattern trên ĐỒNG THỜI PHÁ TRUST:
+      Bỏ mặc: trust install FAIL (no data points = no reliability prediction)
+      Bạo lực từ người thân: trust COLLAPSE (1 betrayal override months of positive)
+      Reject cảm xúc: trust-intention DROP ("mẹ KHÔNG muốn tốt cho cảm xúc mình")
+      Shame: trust-intention + Self-Observation CÙNG bị damage
+
+    Trust.md §4: build MONTHS, collapse SECONDS.
+    → BẢO VỆ connection drive = ĐỒNG THỜI bảo vệ trust formation
+    → Phá 1 = phá CẢ HAI → damage COMPOUND
+
   🟢 Attachment theory (Bowlby 1969): secure attachment → prosocial
   🟢 Still Face (Tronick 1978): trẻ distress khi connection bị cắt
   🟢 Social pain = physical pain (Eisenberger 2003)
@@ -685,6 +839,13 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ① CONSISTENT (1 người luôn có > 5 người thỉnh thoảng)
     ② BODY-LEVEL WARMTH (body warm + ít lời = sufficient)
     ③ REPAIR WHEN BROKEN (rupture + repair > no rupture)
+
+  ⭐ ANCHOR PERSON = TRUST BUILD SÂU (Trust.md v1.0 §2-§3):
+    → Consistent interaction = Trust nguồn ① (direct experience, chính xác nhất)
+    → Warm moments = Trust nguồn ④ (peak experience: "được ôm khi khóc")
+    → 5-nguồn trust depth: 1 anchor person provide ①②④ = trust DEEP
+    → = Tại sao "1 bà ngoại" = ĐỦ: trust DEEP dù chỉ 1 người
+    → Trust deep + Anchor-Schema = nền cho TOÀN BỘ social development
 
   VIRTUOUS CYCLE QUA THẾ HỆ:
     Thế hệ 1: empathy thấp NHƯNG hiểu "con cần connection" → con có anchor
@@ -1234,6 +1395,113 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Gottman: stonewalling predictor (established)
 ```
 
+### §5.6 — Trust Calibration: Dạy Đánh Giá Trust Per-Entity
+
+```
+⭐⭐ TRUST = COMPILED PREDICTION VỀ GAP-FILL RELIABILITY:
+
+  (Trust.md v1.0 §1 — source-of-truth)
+
+  Trust = compiled prediction about entity's gap-fill RELIABILITY.
+  Trust ≠ Valence: "thích" ≠ "tin cậy được"
+    → Thích bạn mới (valence +) nhưng CHƯA TIN bạn giữ bí mật (trust ?)
+    → Sợ bố (valence -) nhưng BIẾT bố nói đúng (trust-competence +)
+    → "Chọn bạn" = ĐÁNH GIÁ TRUST, không chỉ đánh giá "thích không thích"
+
+
+  ⭐ 3 SUB-DIMENSIONS — ĐÁNH GIÁ TÁCH BIỆT:
+
+    (Trust.md v1.0 §1)
+    🟢 Mayer, Davis & Schoorman 1995: ability + benevolence + integrity
+
+    ┌────────────────────┬────────────────────────────────────────────────┐
+    │ Sub-dimension       │ Áp dụng cho "chọn bạn"                       │
+    ├────────────────────┼────────────────────────────────────────────────┤
+    │ ① Trust-Authority  │ "Bạn này CÓ QUYỀN gì trong group?"           │
+    │ (có quyền)         │ → Lớp trưởng ≠ bạn thân (authority ≠ trust)  │
+    ├────────────────────┼────────────────────────────────────────────────┤
+    │ ② Trust-Competence │ "Bạn này GIỎI gì?"                           │
+    │ (có năng lực)      │ → Tin bạn giỏi toán ≠ tin bạn cho lời khuyên │
+    │                    │   tốt (per-domain calibration)                │
+    ├────────────────────┼────────────────────────────────────────────────┤
+    │ ③ Trust-Intention  │ "Bạn này MUỐN TỐT cho mình?"                 │
+    │ (có thiện ý)       │ → Bạn giỏi + ý tốt = trust FULL              │
+    │                    │   Bạn giỏi + ý xấu = exploit risk            │
+    └────────────────────┴────────────────────────────────────────────────┘
+
+    → 3 chiều ĐỘC LẬP: HIGH ở 1 ≠ HIGH ở tất cả
+    → Dạy trẻ: đánh giá 3 chiều RIÊNG, không gộp thành "tin/không tin"
+
+
+  ⭐ DEFAULT → CALIBRATED — 4 PHASES × TUỔI:
+
+    (Trust.md v1.0 §5)
+
+    ┌──────────────────┬──────────────┬────────────────────────────────────┐
+    │ Phase            │ Tuổi tương   │ Cho education                      │
+    │                  │ đương        │                                    │
+    ├──────────────────┼──────────────┼────────────────────────────────────┤
+    │ 1. INSTALLED     │ 0-6          │ "Tất cả thầy = đáng tin"           │
+    │                  │              │ → USE this: trẻ sẵn sàng learn    │
+    ├──────────────────┼──────────────┼────────────────────────────────────┤
+    │ 2. DEFAULT       │ 6-15         │ Installed trust HOẠT ĐỘNG          │
+    │ OPERATION        │              │ → Chưa verify ĐƯỢC → evolutionary │
+    │                  │              │   FUNCTIONAL. RESPECT this.        │
+    ├──────────────────┼──────────────┼────────────────────────────────────┤
+    │ 3. CALIBRATE     │ 15+          │ Direct experience → detect         │
+    │                  │              │ mismatch → trust SPLIT per-domain  │
+    │                  │              │ → DẠY calibration SKILL ở đây     │
+    ├──────────────────┼──────────────┼────────────────────────────────────┤
+    │ 4. DOMAIN        │ Khi conflict │ Override installed trust khi       │
+    │ OVERRIDE         │ sustained    │ domain reality contradicts         │
+    │                  │              │ → ENCOURAGE critical thinking      │
+    └──────────────────┴──────────────┴────────────────────────────────────┘
+
+    ⭐ EDUCATIONAL IMPLICATION:
+      → 0-6: ĐỪNG phá installed trust (trẻ CẦN tin để compile — §3.3)
+      → 6-12: trust ĐANG hoạt động — tận dụng, đừng lạm dụng
+      → 12+: DẠY calibration: "tin PER-DOMAIN, không trust blanket"
+      → "Trust calibration" = SKILL phải dạy — không tự có
+
+
+  ⚠️ TRUST GENERALIZATION WARNING:
+
+    (Trust.md v1.0 §5 Phase 2, Collective-Body §5.3)
+
+    Default: trust per-ENTITY, KHÔNG per-domain.
+    → Trust thầy dạy toán → TỰ ĐỘNG trust thầy nói về sức khỏe
+    → Trust KOL review phone → TỰ ĐỘNG trust KOL nói về crypto
+    → = CROSS-DOMAIN SPILL (evolution design cho small group — modern = DANGEROUS)
+
+    Dạy:
+    → "TIN ai ở domain NÀO → VERIFY per-domain, KHÔNG trust blanket"
+    → "Người nổi tiếng nói vaccine xấu" = trust generalization exploit
+    → Self-Observation Mức 3+ CẦN THIẾT cho trust calibration (§2.5):
+      body signal mismatch = trust data → cần DETECT được
+    → 🟢 Csibra & Gergely 2009: epistemic trust non-selective default
+
+  ⭐ CHO EDUCATION — KẾT HỢP VỚI §5.1-§5.5:
+
+    ① Entity-Access calibration (§5.1) + Trust calibration = CÙNG process:
+      → Chọn ai ở Mức mấy = Entity-Access
+      → Tin ai ở domain nào = Trust calibration
+      → DẠY CÙNG LÚC từ 12+
+
+    ② Gap source A:B (§5.3) = Trust-Intention positive
+       Gap source C:D (§5.3) = Trust-Intention questionable
+       → Trust sub-dimensions GIẢI THÍCH tại sao C:D relationship feels wrong
+
+    ③ Exit skill (§5.5) + Trust collapse:
+       → Trust collapse (betrayal) → exit NHANH HƠN (no trust = no base)
+       → Trust erode (gradual) → exit CHẬM (still some trust holding)
+       → Dạy: detect trust erosion TRƯỚC khi collapse
+
+  🟡 Trust calibration as selection skill = framework synthesis
+  🟢 Trust 3 antecedents: Mayer, Davis & Schoorman 1995
+  🟢 Trust development: Rotenberg 2010
+  🟢 Epistemic trust: Csibra & Gergely 2009
+```
+
 ---
 
 ## §6 — DUY TRÌ CONNECTION — SUSTAINABILITY
@@ -1460,13 +1728,33 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Noninterference: allow partner's drive riêng (= anti-compiled-suppress)
     → Encouragement: active signal that exploration VALUED
 
+  ⭐ TRUST REPAIR ≠ CONNECTION REPAIR:
+
+    (Trust.md v1.0 §4)
+
+    Connection rupture + repair = calibration data → relationship STRONGER
+    NHƯNG: Trust repair KHÁC NHỊP:
+      → Connection repair: "xin lỗi → ôm → ok" (hours/days)
+      → Trust rebuild: data points mới tích lũy (MONTHS)
+      → 1 betrayal collapse trust → rebuild ≈ build from near-zero
+
+    Dạy trẻ:
+    → "Xin lỗi = sửa connection. Trust = cần THỜI GIAN chứng minh LẠI"
+    → "Bạn nói 'mình sẽ không làm nữa' = LỜI. Trust = hành động LẶP LẠI"
+    → = Patience skill: accept trust rebuild CHẬM hơn connection repair
+
+    🟢 Slovic 1993: trust hard to gain, easy to lose
+
+
   ⭐ CHO EDUCATION:
     ① Dạy REPAIR after conflict (not avoid conflict)
     ② Dạy Active-Constructive Responding (celebrate bạn's wins)
     ③ Dạy "bạn CÓ THỂ khác — SUPPORT, đừng suppress"
     ④ Dạy self-awareness: "mình perceive đúng không?"
+    ⑤ Dạy TRUST REPAIR patience: "hành động lặp lại > lời hứa" (Trust §4)
 
   🟢 Gable 2006, Reis & Shaver 1988, Feeney 2007 = established
+  🟢 Trust asymmetry: Slovic 1993
   🟡 Repair framing in education context = framework synthesis
 ```
 
@@ -1531,6 +1819,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       "Popular ≠ talented ≠ useful" → clear thinking about social hierarchy
       "Người giỏi nhất KHÔNG PHẢI lúc nào cũng popular nhất"
       → Normalize: talent path khác status path
+
+    ④ Dạy POSITION TRUST vs PERSON TRUST (Trust.md v1.0 §10):
+      (Trust.md §10: Trust trong Coordination-Node)
+      Position trust: "tin VỊ TRÍ" (thầy giáo, bác sĩ, cảnh sát)
+        → = trust-authority per-POSITION, không per-person
+        → Trẻ default = gộp position + person trust (Phase 1-2)
+      Person trust: "tin NGƯỜI NÀY cụ thể" (thầy A vs thầy B)
+        → = trust-competence + trust-intention per-PERSON
+        → Calibrate qua direct experience (Phase 3+)
+      Dạy PHÂN BIỆT:
+        → "Tin bác sĩ NÓI CHUNG (position) ≠ tin bác sĩ NÀY (person)"
+        → "Thầy giáo có quyền DẠY (authority) nhưng có thể DẠY SAI (competence)"
+        → = Trust sub-dimensions (§5.6) applied to institutional context
 
   🟡 Status × Talent × Contribution = framework synthesis
   🟢 Prestige vs Dominance: Henrich & Gil-White 2001
@@ -1675,6 +1976,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ENTITY-ACCESS: Mức 0 (hardware only). NO choice possible.
   "Chọn bạn" = VÔ NGHĨA ở tuổi này.
 
+  SELF-OBSERVATION: Mức 0-2 (§2.5):
+    → ② Label emotions = scaffold Mức 2 (Self-Observation §6.2: ON switch)
+    → Caregiver responsive = nền tảng: Mức 2 develop ở ĐÂY
+      → TẤT CẢ social skills giai đoạn sau đều CẦN base này
+
   ❌ SAI LẦM:
     → Bỏ mặc: "connection = THIẾU"
     → "Để tự nín" (cry-it-out extreme): "kêu = vô ích"
@@ -1796,6 +2102,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → "Bố mắng VÌ bố lo, không phải VÌ bố ghét" (reframe)
     → "Người lạ hung dữ VÌ họ đang dissonance" (không personalize)
     → = Self-Pattern-Modeling fire SÂU HƠN — "TẠI SAO họ feel"
+
+
+  ⭐ SELF-OBSERVATION MỨC 4-5 — TEEN PARADOX (§2.5):
+
+    (Self-Observation.md v1.0 §6.3)
+    → dlPFC ✅ mature → CAN analyze self, CAN meta-observe
+    → vmPFC → Amygdala ❌ incomplete → CAN'T regulate from observation
+    → = "Tôi BIẾT mình đang ngu nhưng KHÔNG DỪNG ĐƯỢC"
+    → Dạy: OBSERVE + accept gap (observation ALONE ≠ change)
+    → vmPFC-body connection mature ~25 → regulate sẽ tới SAU
+    → ⑥ Journaling, debate = Self-Observation Mức 4-5 PRACTICE
 
 
   ② ENTITY-ACCESS CALIBRATION (§5 applied):
@@ -2047,6 +2364,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟡 Status × Talent × Contribution = 3 chiều = synthesis
     🟡 Prestige = genuine resonance, Dominance = forced = synthesis
     🟡 4 nguồn fill applied to connection education = synthesis
+    🟡 Self-Observation as social skills keystone = synthesis (v1.1)
+    🟡 Self-Observation Mức × social skill ceiling = synthesis (v1.1)
+    🟡 External Scaffold for social Self-Observation = synthesis (v1.1)
+    🟡 Compiled Quality warning for social domain = synthesis (v1.1)
+    🟡 Trust calibration as selection skill = synthesis (v1.1)
+    🟡 Default→Calibrated 4 phases × education = synthesis (v1.1)
+    🟡 Trust generalization warning = synthesis (v1.1)
+    🟡 Position trust vs Person trust = synthesis (v1.1)
+    🟡 Trust repair ≠ connection repair = synthesis (v1.1)
 
 
   HYPOTHESIS (🔴):
@@ -2062,10 +2388,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⚠️ CONFIDENCE PER SECTION:
 
     §1 Why important — 🟢🟡 (well-grounded + framework framing)
-    §2 Mechanism — 🟢🟡 (evidence strong per primitive, synthesis is framework)
-    §3 Empathy education — 🟢🟡 (attachment research + framework application)
+    §2 Mechanism — 🟢🟡 (evidence + framework; §2.5 Self-Observation keystone = 🟡)
+    §3 Empathy education — 🟢🟡 (attachment + framework; Trust × đừng phá = 🟡)
     §4 Building connection — 🟢🟡 (formation hours + neurochemistry established)
-    §5 Choosing — 🟡 (Entity-Access model = framework, consistent with evidence)
+    §5 Choosing — 🟡 (Entity-Access + Trust calibration = framework synthesis)
     §6 Sustaining — 🟢🟡 (sustainability research + framework organization)
     §7 Groups — 🟢🟡 (Dunbar + prestige research + framework application)
     §8 Per-age guide — 🟡🔴 (logical progression, exact sequence untested)
@@ -2085,6 +2411,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 → ⭐ Entity-Access.md v1.2 — gradient Mức 0-5, 3-Factor Model, excess
 → ⭐ Resonance-Sustainability.md v1.0 — 4-Layer model, 3 conditions, amplification
 → ⭐ Resonance-Per-Entity.md v1.0 — Hardware-Subsidy spectrum, lifecycle, phantom
+→ ⭐ Trust.md v1.0 — 3 sub-dimensions, Default→Calibrated, 5-nguồn depth (v1.1)
+→ ⭐ Self-Observation.md v1.0 — Mức 0-6, Keystone cascade, Tool Not Virtue (v1.1)
 → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Simulation-Engine APPLICATION-1
 → By-Product-Gap-Resonance.md v1.4 — resonance mechanism, 4 conditions
 → Empathy.md v3.0 — Self-Pattern-Modeling function, 3 mechanisms
@@ -2099,14 +2427,17 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 → Simulation-Engine.md v1.0 — 1 engine, 3 components, 3 axes
-→ PFC-Operations.md v1.0 — Hold/Suppress, PFC budget
-→ Inter-Body-Mechanism.md v1.0 — Compilable Architecture, by-product match
+→ PFC-Operations.md v1.0 — Hold/Suppress, PFC budget, Compiled Quality
+→ Compile-Taxonomy.md v3.0 — 1E+3M, Trust = Amplifier, Multi-Stream (v1.1)
+→ Compile-Sleep.md v1.0 — Sleep Maintenance, social memory consolidation (v1.1)
+→ Inter-Body-Mechanism.md v1.0 — Compilable Architecture, 3-cost, by-product match
 → Gap-Body-Need.md v1.0 — 3 Satiation Profiles, ENGINE/ROAD/VEHICLE
 → Anchor-Schema.md — 4 nguồn fill, trust, anchor person
 → Threat.md — 3 ORIGIN taxonomy, Type 3 Imposed
 → Cortisol-Baseline.md v2.1 — stress cascade, social buffering
 → Body-Feedback-Label.md v2.0 — vocabulary reference
 → Feeling.md v3.0 — PFC observation interface
+→ Collective-Body.md v2.1 — §5 Trust bridge, trust hijack (v1.1)
 ```
 
 ### §11.3 — Education files (TẦNG 2-3)
@@ -2114,7 +2445,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 → ⭐ Education-Mechanism.md v2.1 — arc design, 4 nguồn fill, bridge, Multi-Stream
 → ⭐ Domain-Knowledge-Map.md v1.0 — §1.4 Social/Emotional = Foundation Domain
-→ Child-Development-Mechanism.md v2.2 — §4.4 Connection, §6 Self-Pattern-Modeling bootstrap
+→ Child-Development-Mechanism.md v2.3 — §4.4 Connection, §6 Self-Pattern-Modeling bootstrap
 → Education-Arms-Race.md v1.2 — arms race suppresses connection
 → Money-Education.md v1.0 — tiền × connection
 → Compile-Type-Learning.md v1.1 — compiled quality in social domain

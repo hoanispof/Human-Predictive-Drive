@@ -22,16 +22,21 @@
 ```yaml
 ---
 title: Compile-Type-Learning — Compile Types Ảnh Hưởng Learning Thế Nào
-version: 1.3
+version: 1.4
 created: 2026-05-11
-updated: 2026-06-01 (v1.3 — Compile Architecture refine: +Modulator Configuration framing,
-  +Multi-Stream × Pi example, +Multi-Stream per-domain, +Sleep × Compile Type,
-  +Trust = Amplifier (NOT Gate), deps Education-Mechanism v2.0→v2.1, Child-Dev v2.0→v2.2, +CS v1.0)
-previous: v1.2 (2026-05-25, 1,235L)
-status: RESEARCH ANALYSIS v1.3
+updated: 2026-06-03 (v1.4 — Trust.md v1.0 formal backing + Self-Observation × Compile Types:
+  +Trust Definition/3 Sub-dimensions/4 Formation Sources in learning context,
+  +Trust ≠ Valence × learning, +Self-Observation × Expertise Compile,
+  +Body-check = Self-Observation Mức 3+ application, deps +Trust.md v1.0 +Self-Observation.md v1.0,
+  Education-Mechanism v2.1→v2.2, Connection-Education v1.0→v1.1)
+previous: v1.3 (2026-06-01, 1,395L)
+status: RESEARCH ANALYSIS v1.4
 scope: |
   Compile type MIX trong learning → chunk QUALITY khác nhau → transfer + wellbeing.
   Trust Compile = bootstrap, Experience Compile = verify, Expertise Compile = mastery.
+  v1.4: +Trust.md v1.0 formal backing (definition, 3 sub-dimensions, 4 formation sources,
+  Trust ≠ Valence × learning context), +Self-Observation × Expertise Compile (body-feedback
+  calibration prerequisite), +Body-check = Self-Observation Mức 3+ formalized.
   v1.3: +Modulator Configuration framing (1E+3M), +Multi-Stream × Pi example,
   +Multi-Stream per-domain, +Sleep × Compile Type, +Trust = Amplifier (NOT Gate).
   v1.2: +Compiled Quality Dimension (genuine/schema/threat → compile-time lock),
@@ -49,10 +54,13 @@ dependencies:
     - Chunk.md v2.3 — 4 compile mechanisms, trust amplifier
     - Collective-Body.md v2.1 — trust = only bridge, Model 3 cấp
     - PFC-Operations.md v1.1 — §5 Compiled Quality Dimension (genuine/schema/threat)
-  education-bo-3:
-    - Education-Mechanism.md v2.1 — arc design, Hardware-Subsidy, PFC Budget, Multi-Stream
+  trust/self-observation:
+    - Trust.md v1.0 — definition, 3 sub-dimensions, 4 formation sources, 5-nguồn depth
+    - Self-Observation.md v1.0 — Mức gradient, Tool Not Virtue, Keystone, body-check backing
+  education-trio:
+    - Education-Mechanism.md v2.2 — arc design, Hardware-Subsidy, PFC Budget, Multi-Stream, Trust + Self-Observation
     - Domain-Knowledge-Map.md v2.0 — domain taxonomy per era
-    - Connection-Education.md v1.0 — social interaction education (WHO)
+    - Connection-Education.md v1.1 — social interaction education (WHO), Trust calibration, Self-Observation keystone
   valence-body:
     - Valence-Propagation.md v3.0 — Hardware-Subsidy, 3 Firing Modes, structural/current
     - Body-Feedback-Mechanism.md v2.1 — 2 sources × 3 dynamics
@@ -241,6 +249,28 @@ language: Tiếng Việt primary + English technical terms
   → Expertise Compile hiếm khi xảy ra trong K-12 education.
   → Expertise Compile = product of sustained practice SAU graduation.
   → NHƯNG: nền tảng cho Expertise Compile = Experience Compile + Trust Compile hồi K-12.
+
+  ⭐ v1.4 SELF-OBSERVATION × EXPERTISE COMPILE (Self-Observation.md v1.0 §9):
+
+    Expertise Compile = PFC-directed SUSTAINED → CẦN biết mình đang đúng hướng hay sai.
+    Self-Observation Mức 3+ = prerequisite cho body-feedback calibration trong practice:
+      Mức 3: "Method này không work cho tôi" → detect mismatch TRƯỚC khi waste years
+      Mức 4: "Pattern khi nào tôi learn tốt nhất" → optimize practice strategy
+      Mức 5: "Tôi đang rationalize 'giỏi' hay thực sự improving?" → honest self-assessment
+
+    KHÔNG CÓ Self-Observation → Expertise path = BLIND:
+      → Practice years nhưng KHÔNG biết đang tiến hay đứng im
+      → Potential wasted years (Self-Observation §9.4: Einstein vs conspiracy theorist
+        = CÙNG mechanism, domain feedback = differentiator DUY NHẤT)
+      → Self-Observation GIÚP đọc domain feedback → điều chỉnh practice hướng
+
+    ⚠️ Self-Observation KHÔNG thay thế domain feedback:
+      → Self-Observation SÂU + no domain feedback = self-referencing amplified
+      → Self-Observation SÂU + domain feedback = deliberate practice calibration
+      → = Domain feedback = trọng tài. Self-Observation = khả năng ĐỌC trọng tài.
+
+    🟡 Self-Observation × Expertise Compile link = framework synthesis
+    🟢 Consistent: deliberate practice requires self-monitoring (Ericsson 1993)
 ```
 
 ### §1.3 Trust Compile trong learning: install
@@ -263,6 +293,53 @@ language: Tiếng Việt primary + English technical terms
     → Trust = 0: VALUE stream KHÔNG compile — nhưng CONTENT VẪN compile
     → = Trust amplify VALUE, KHÔNG amplify CONTENT
     → = "Giỏi nhưng ghét" = Content ✓ (Experience/Engine alone) + Value ✗ (Trust ≈ 0)
+
+  ⭐ v1.4 TRUST.MD v1.0 FORMAL BACKING — "TRUST" TRONG TRUST COMPILE LÀ GÌ:
+
+    Trust = COMPILED PREDICTION about entity's gap-fill RELIABILITY (Trust.md §1).
+    "Trust thầy cô" = body predict: "thầy sẽ dạy đúng MỘT CÁCH ỔN ĐỊNH."
+    Không phải "thích thầy" (valence) — mà là "tin thầy đáng tin cậy" (trust).
+
+    TRUST ≠ VALENCE TRONG LEARNING (Trust.md §1, Colquitt 2007):
+      "Thích môn toán" = valence positive (body react tốt với math domain)
+      "Tin thầy dạy đúng" = trust-competence (predict thầy reliable trong domain)
+      → CÓ THỂ thích môn + không tin thầy (valence+ trust-)
+      → CÓ THỂ không thích môn + tin thầy giỏi (valence- trust+)
+      → Trust Compile hoạt động qua TRUST channel → amplify VALUE stream
+      → Valence ảnh hưởng COMPILED QUALITY (genuine/schema/threat) → khác trục
+
+    3 SUB-DIMENSIONS × LEARNING (Trust.md §1, Mayer et al. 1995):
+      ┌────────────────────┬────────────────────────┬──────────────────────────┐
+      │ Sub-dimension       │ Trong Learning          │ Student Calibrate?       │
+      ├────────────────────┼────────────────────────┼──────────────────────────┤
+      │ ① Trust-Authority  │ "Thầy CÓ QUYỀN dạy"  │ KHÔNG — structural fact  │
+      │                    │ = position + system     │ (thầy = thầy, ko debate) │
+      ├────────────────────┼────────────────────────┼──────────────────────────┤
+      │ ② Trust-Competence │ "Thầy DẠY ĐÚNG"       │ CÓ — qua experience      │
+      │                    │ = ability trong domain  │ (student verify qua kq)  │
+      ├────────────────────┼────────────────────────┼──────────────────────────┤
+      │ ③ Trust-Intention  │ "Thầy MUỐN TỐT cho    │ CHẬM — childhood compile │
+      │                    │  tôi" = thiện ý         │ (deep, hard to override) │
+      └────────────────────┴────────────────────────┴──────────────────────────┘
+      → Authority: installed by system → student KHÔNG question (default)
+      → Competence: CAN calibrate → nhưng trẻ nhỏ chưa đủ domain experience
+      → Intention: CRITICAL cho VALUE stream — "thầy muốn tốt" → VALUE amplified
+
+    TRUST FORMATION 4 NGUỒN × TRUST COMPILE (Trust.md §2):
+      Trust Compile trong education sử dụng chủ yếu:
+      ③ Schema Inheritance: "nghe lời thầy cô" INSTALLED trước khi đi học
+        → Trust có TRƯỚC domain experience → enable compile NHANH
+        → = Evolutionary rational shortcut (Csibra & Gergely 2009: epistemic trust)
+      ④ Context Inference: đồng phục, title, bảng → trust infer NGAY
+        → "Người mặc áo dài đứng trước bảng = thầy cô = trust"
+      → Nguồn ①② (direct/observed experience) = chậm → trust build qua THÁNG
+      → = Trust Compile = NHANH VÌ dùng nguồn ③④ (fast, low accuracy)
+      → = Giải thích tại sao Trust Compile = fast bootstrap mechanism
+
+    🟡 Trust.md formal backing cho Trust Compile = framework synthesis
+    🟢 Trust separable from liking: Colquitt et al. 2007
+    🟢 Trust 3 antecedents: Mayer, Davis & Schoorman 1995
+    🟢 Epistemic trust: Csibra & Gergely 2009
 
   VÍ DỤ TRONG EDUCATION:
     → "Pi = 3.14" → trust thầy cô → compile [pi → tính diện tích]
@@ -1033,6 +1110,36 @@ language: Tiếng Việt primary + English technical terms
     → Verified repetition = ĐỌC ít nhất Tier 1-2 mỗi iteration
     → Mechanical repetition = KHÔNG ĐỌC → signal bị ignore
 
+  🟡 v1.4 BODY-CHECK = SELF-OBSERVATION MỨC 3+ APPLICATION (Self-Observation.md v1.0):
+
+    "Body-check" trong learning = Self-Observation hướng LEARNING PROCESS:
+      Self-Observation = f(Interoception × PFC_Encoding × Attention_Direction=SELF)
+      Body-check khi lặp = Attention_Direction = SELF-AS-LEARNER (not domain)
+      = "Mình hiểu thật chưa?" = PFC observe body-state về learning quality
+
+    Self-Observation MỨC × BODY-CHECK CAPABILITY:
+      Mức 0-1: KHÔNG body-check → mechanical repetition = default
+      Mức 2: Body-Knowing compiled → "biết đói, biết mệt" nhưng CHƯA observe learning
+      Mức 3: CAN body-check → "method này không work" → detect mismatch
+        = MINIMUM cho verified repetition
+      Mức 4: CAN pattern → "tôi learn tốt nhất buổi sáng, kém khi mệt"
+        → optimize WHEN + HOW lặp
+      Mức 5: CAN meta → "tôi đang rationalize 'hiểu rồi' hay thật sự hiểu?"
+        → detect confabulation (Trust Compile §1.3: ~30-60% confabulation)
+
+    → Mechanical repetition = Self-Observation Mức 0-2 (body-check KHÔNG xảy ra)
+    → Verified repetition = Self-Observation Mức 3+ (body-check ĐANG xảy ra)
+    → = CÙNG CƠ CHẾ: Self-Observation LEVEL quyết định repetition TYPE
+
+    ⚠️ PFC BUDGET COMPETITION (Self-Observation.md §5.2, PFC-Operations.md §9):
+      Body-check = PFC consumer. Learning = CŨNG PFC consumer. COMPETE.
+      PFC budget exhausted → Self-Observation = FIRST TO GO (§5.2)
+      → Cuối buổi học dài → body-check GIẢM → lặp trở thành mechanical
+      → = Verified repetition CẦN PFC budget → session NGẮN + nghỉ
+
+    🟡 Body-check = Self-Observation application = framework synthesis
+    🟢 Consistent: Self-Observation §5.2 PFC budget, §4 Gradient Mức
+
   ⭐ SỰ KHÁC BIỆT:
 
     Mechanical:    [lặp] → chunk MẠNH hơn (same type)
@@ -1269,6 +1376,14 @@ language: Tiếng Việt primary + English technical terms
     (Valence-Propagation v3.0 §7, application to compile type transition = novel)
   ⚠ PFC Budget constraint on body-check repetition
     (PFC-Operations §9, application to learning session design = novel)
+  ⚠ Trust.md formal backing for Trust Compile (definition, 3 sub-dimensions, 4 formation sources)
+    (Trust.md v1.0 established, mapping to learning context = novel)
+  ⚠ Trust ≠ Valence in learning ("thích môn" ≠ "tin thầy")
+    (Colquitt 2007 established, learning application = framework synthesis)
+  ⚠ Body-check = Self-Observation Mức 3+ application
+    (Self-Observation.md v1.0, mapping to repetition type = novel)
+  ⚠ Self-Observation × Expertise Compile (body-feedback calibration prerequisite)
+    (Self-Observation §9 + Ericsson 1993, integration = novel)
 
 🔴 LOW CONFIDENCE:
   ⚠ Specific % estimates (e.g., "60% Trust Compile" cho toán)
@@ -1287,13 +1402,17 @@ language: Tiếng Việt primary + English technical terms
 
 ```
 BỘ 3 EDUCATION:
-  Education-Mechanism.md v2.1         — HOW: arc design, Multi-Stream, Critical Asymmetry, Sleep Maintenance
+  Education-Mechanism.md v2.2         — HOW: arc design, Multi-Stream, Trust Before Content, Self-Observation Metacognitive
   Domain-Knowledge-Map.md v2.0        — WHAT: domain taxonomy per era
-  Connection-Education.md v1.0        — WHO: social interaction education (§4.5 Social domain)
+  Connection-Education.md v1.1        — WHO: social interaction education, Trust calibration, Self-Observation keystone
+
+TRUST + SELF-OBSERVATION:
+  Trust.md v1.0                       — definition, 3 sub-dimensions, 4 formation sources, Trust ≠ Valence ⭐NEW v1.4
+  Self-Observation.md v1.0            — Mức gradient, Tool Not Virtue, Keystone, body-check backing ⭐NEW v1.4
 
 COMPILE MECHANISM:
   Compile-Taxonomy.md v3.0            — 1 Engine + 3 Modulators, Multi-Stream, Trust = Amplifier
-  Compile-Sleep.md v1.0               — Sleep Maintenance (6 mechanisms) ⭐NEW v1.3
+  Compile-Sleep.md v1.0               — Sleep Maintenance (6 mechanisms)
   Chunk.md v2.3                       — 4 compile mechanisms, trust amplifier
   Collective-Body.md v2.1             — trust = only bridge, Model 3 cấp
   PFC-Operations.md v1.1              — §5 Compiled Quality Dimension (genuine/schema/threat)
@@ -1328,6 +1447,10 @@ RELATED ANALYSIS:
   Blackbox-Map.md v1.0                — 5 gaps (file này = Gap 3 application)
 
 KEY RESEARCH CITATIONS:
+  Mayer, Davis & Schoorman 1995 — Trust 3 antecedents (ability, benevolence, integrity) ⭐NEW v1.4
+  Colquitt et al. 2007      — Trust separable from liking (meta-analysis) ⭐NEW v1.4
+  Csibra & Gergely 2009     — Epistemic trust in children (natural pedagogy) ⭐NEW v1.4
+  Ericsson et al. 1993      — Deliberate practice requires self-monitoring ⭐NEW v1.4
   Whitehead 1929            — Inert knowledge
   Barnett & Ceci 2002       — Transfer failure meta-analysis
   Marton & Säljö 1976       — Surface vs deep approach
@@ -1343,26 +1466,50 @@ KEY RESEARCH CITATIONS:
 
 ---
 
-> *Compile-Type-Learning v1.3 — "3 compile types = 3 dominant modulator configurations
+> *Compile-Type-Learning v1.4 — "3 compile types = 3 dominant modulator configurations
 > (1 Engine + 3 Modulators), tạo 3 loại chunk quality khác nhau trong learning.
 > Trust Compile (Entity-Valence dominant) = nhanh, rộng, amplify VALUE (NOT content).
 > Experience Compile (Engine thuần) = chậm, hẹp, nhưng robust, domain-linked.
 > Optimal = Trust Compile bootstrap → Experience Compile verify.
-> v1.3: +Modulator Configuration framing (1E+3M per type).
-> +Multi-Stream × Pi (4-stream result per case: Content/Value/Entity/Behavior).
-> +Multi-Stream per-domain (Toán: Content OK Trust, Value CẦN Experience.
->   Sport: cả 4 streams qua Experience. Screen: 3/4 streams gần zero).
-> +Trust = Amplifier NOT Gate (gradient, VALUE only, NOT content).
-> +Sleep × Compile Type (Experience → Replay+Gist, Trust → Consolidation, Expertise → Creative Linking).
-> +Body-check = 4-stream update vs mechanical = 2-stream strengthen.
-> Thuộc bộ 3 education: Education-Mechanism (HOW) + Domain-Knowledge-Map (WHAT)
-> + Connection-Education (WHO)."*
+> v1.4: +Trust.md v1.0 formal backing (definition, 3 sub-dimensions × learning,
+>   Trust ≠ Valence × learning, 4 formation sources × Trust Compile mechanism).
+> +Self-Observation × Expertise Compile (body-feedback calibration prerequisite).
+> +Body-check = Self-Observation Mức 3+ application (Mức × body-check capability).
+> v1.3: +Modulator Configuration, +Multi-Stream × Pi, +Trust = Amplifier NOT Gate,
+> +Sleep × Compile Type. Thuộc bộ 3 education: Education-Mechanism (HOW)
+> + Domain-Knowledge-Map (WHAT) + Connection-Education (WHO)."*
 
 ---
 
 ## CHANGELOG
 
 ```
+v1.4 (2026-06-03) — Trust.md v1.0 + Self-Observation.md v1.0 Integration:
+  TRUST.MD FORMAL BACKING (§1.3):
+    Trust definition: compiled prediction about gap-fill RELIABILITY.
+    Trust ≠ Valence in learning: "thích môn" ≠ "tin thầy" (Colquitt 2007).
+    3 sub-dimensions × learning: Authority (structural), Competence (calibratable),
+    Intention (CRITICAL for VALUE stream, childhood compiled → deep).
+    Trust formation 4 nguồn: Trust Compile = chủ yếu nguồn ③④ (fast, low accuracy).
+  SELF-OBSERVATION × EXPERTISE COMPILE (§1.2):
+    Expertise Compile CẦN Self-Observation Mức 3+ cho body-feedback calibration.
+    Without Self-Observation → Expertise path = blind (wasted years risk).
+    Domain feedback = trọng tài, Self-Observation = khả năng đọc trọng tài.
+  BODY-CHECK = SELF-OBSERVATION (§5.1):
+    Body-check = Self-Observation hướng learning process.
+    Mức 0-2 → mechanical repetition default. Mức 3+ → verified repetition.
+    PFC Budget competition: body-check = PFC consumer → session ngắn + nghỉ.
+  ASSESSMENT (§7):
+    +4 entries: Trust.md backing, Trust ≠ Valence, body-check = Self-Observation, Self-Observation × Expertise.
+  CROSS-REFERENCES (§8):
+    +Trust.md v1.0, +Self-Observation.md v1.0.
+    Education-Mechanism v2.1→v2.2, Connection-Education v1.0→v1.1.
+    +4 research citations (Mayer 1995, Colquitt 2007, Csibra 2009, Ericsson 1993).
+  DEPENDENCIES:
+    +Trust.md v1.0, +Self-Observation.md v1.0.
+    Education-Mechanism v2.1→v2.2, Connection-Education v1.0→v1.1.
+  Total: ~100L net addition (1,395 → ~1,495L).
+
 v1.3 (2026-06-01) — Compile Architecture Refine:
   MODULATOR CONFIGURATION (§1.1-§1.3):
     Experience = Engine + minimal modulators. Trust = Engine + Entity-Valence dominant.

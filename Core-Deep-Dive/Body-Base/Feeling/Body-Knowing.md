@@ -33,6 +33,7 @@ dependencies:
   - Feeling-Literacy-Training-Draft.md — 5-stage training (§1+§4)
   - Reward-Signal-Architecture.md v2.1 — development trajectory
   - Vietnamese-English-Feeling-Map.md v1.2 — §8 pre-Body-Knowing vocabulary
+  - Self-Observation.md v1.0 — APPLICATION-3: Body-Knowing Inward ⊂ Self-Observation (§2.2)
 language: Tiếng Việt primary + English technical terms (§5 = 100% English)
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -117,7 +118,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §0.2 — Vị trí trong kiến trúc
 
 ```
-⭐ 4 FILE = 4 GÓC NHÌN CỦA CÙNG HỆ THỐNG:
+⭐ 5 FILE = 5 GÓC NHÌN CỦA CÙNG HỆ THỐNG:
 
   ┌────────────────────────────────────────────────────────────────┐
   │ Feeling.md v3.0        = WHAT PFC sees                        │
@@ -127,6 +128,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Body-Knowing.md        = WHEN PFC "biết"                      │
   │ (FILE NÀY)               Compiled recognition = 1 specific    │
   │                          function OF Feeling system            │
+  │                                                                │
+  │ Self-Observation.md    = WHEN TARGET=SELF                     │
+  │ v1.0                     Feeling hướng SELF = APPLICATION-3   │
+  │                          trên Simulation-Engine               │
+  │                          Body-Knowing Inward ⊂ Self-Observation│
   │                                                                │
   │ Logic-Feeling.md v3.0  = WHY Body-Knowing bị dán label        │
   │                          "logic" / "feeling" / "intuition"     │
@@ -139,9 +145,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   └────────────────────────────────────────────────────────────────┘
 
   QUAN HỆ:
-    Feeling.md        = PARENT (umbrella system, 7 types)
-    Body-Knowing.md   = CHILD (1 specific function: compiled recognition)
-    Logic-Feeling.md  = SIBLING (labeling mechanism, cùng level)
+    Feeling.md          = PARENT (umbrella system, 7 types)
+    Body-Knowing.md     = CHILD (1 specific function: compiled recognition)
+    Self-Observation.md = SIBLING (feeling hướng SELF, Body-Knowing Inward ⊂ Self-Observation)
+    Logic-Feeling.md    = SIBLING (labeling mechanism, cùng level)
     Somatic-Articulation-Loop               = PROCESS (how Body-Knowing forms from implicit)
 
   Body-Knowing KHÔNG TẠO mechanism mới:
@@ -483,10 +490,28 @@ VÍ DỤ — BODY-KNOWING TRONG NHIỀU DOMAIN:
     🟢 Taylor 2000: alexithymia ~10% population
     → Chi tiết: §6 Case D
 
+  ⭐ BODY-KNOWING INWARD ⊂ SELF-OBSERVATION (Self-Observation.md v1.0):
+
+    Self-Observation = Feeling khi attention direction = SELF
+    Body-Knowing Inward = COMPILED SUBSET of Self-Observation:
+      → Body-Knowing Inward = compiled, cost≈0, ~95% hàng ngày
+        ("tôi đói", "tôi mệt", "tôi buồn" = compiled recognition)
+      → Self-Observation = THÊM Fresh + Pre-Body-Knowing + Meta:
+        "Tại sao dạo này hay cáu?" = Fresh Self-Observation (cost>0, PFC HOLD open)
+        "À, tôi đang rationalize" = Meta-Observation (Mức 5, body-mediated cycle)
+        "Có gì đó sai trong người" = Pre-Body-Knowing (chưa compiled)
+
+    → Body-Knowing Inward = Mức 2 trong Self-Observation gradient (Mức 0-6)
+    → Self-Observation EXTENDS Body-Knowing Inward về CẢ HAI phía:
+      Phía dưới: Pre-Body-Knowing → Mức 1 (detect nhưng chưa recognize)
+      Phía trên: Mức 3-6 (pattern, meta, calibrated)
+    → Chi tiết: Self-Observation.md §0.1 ③, §4, §8.1
+
   🟢 Interoception: Craig 2002, 2013
   🟢 Interoceptive prediction: Seth 2013
   🟢 Alexithymia: Taylor 2000
   🟡 Body-Knowing inward = framework application of interoception research
+  🟡 Body-Knowing Inward ⊂ Self-Observation = framework synthesis
 ```
 
 ### §2.3 — Hướng Social: Mirror Recognition
@@ -2013,6 +2038,12 @@ HYPOTHESES — NOT YET VERIFIED:
   VOCABULARY:
     → Vietnamese-English-Feeling-Map.md v1.2: §8 pre-Body-Knowing
       (vague/hunch/nagging unease — Cluster F: VAGUE SENSING)
+
+  APPLICATION:
+    → Self-Observation.md v1.0: APPLICATION-3 trên Simulation-Engine
+      Body-Knowing Inward ⊂ Self-Observation (compiled subset)
+      Self-Observation = full spectrum: Mức 0-6 gradient
+      (§2.2 Inward note, §0.2 position)
 
   RELATED:
     → Anchor-Schema.md: 4 sources (Nguồn ③ = ~80% compiled),

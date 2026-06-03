@@ -1,9 +1,9 @@
 ---
 title: Era Analysis 2025+ — Phân Tích Thời Đại Cho Education Design v7.8
-version: 2.1
+version: 2.2
 created: 2026-04-03
-updated: 2026-05-26 (v2.1 — LIGHT REFINE: +ENGINE/ROAD/VEHICLE alignment, +Simulation-Engine lens, +Gap-Distribution-Profile era impact, +Hardware-Subsidy era shift, +Phantom 4-factor AI relationships, +Connection-Education v1.0 replaces Empathy-Education, Self-Pattern-Modeling rename, all deps updated)
-status: v2.1
+updated: 2026-06-03 (v2.2 — TRUST/SELF-OBSERVATION REFINE: +Trust in AI era (§4 ⑦ Trust lens, §5 ② Trust calibration, §5 ③ Trust+Self-Observation), +Self-Observation × AI (§5 ③ scaffold/dependency, §5 ④ digital overload), +Trust.md v1.0+Self-Observation.md v1.0 deps, all Tầng 3+4 refs updated)
+status: v2.2
 scope: |
   Thời đại 2025+ ĐANG XẢY RA GÌ + CẦN GÌ + KHÔNG BIẾT GÌ.
   Fill ERA CONTEXT vào khung đã có (Education-System + Mechanism).
@@ -20,14 +20,14 @@ purpose: |
   (era thay đổi ROAD thế nào, ENGINE vẫn same, VEHICLE cần adapt).
 position: |
   TẦNG 4 — Applications, ERA-SPECIFIC context.
-  Trong folder: Education-System.md v3.0 (anchor) → file này (era fill).
+  Trong folder: Education-System.md v3.2 (anchor) → file này (era fill).
 dependencies:
   education-foundation:
-    - Education-Mechanism.md v2.1 — HOW: nguyên lý arc design (bộ 3)
-    - Domain-Knowledge-Map.md v2.0 — WHAT: bản đồ nhóm kiến thức (bộ 3)
-    - Connection-Education.md v1.0 — WHO: social interaction education (bộ 3)
+    - Education-Mechanism.md v2.2 — HOW: nguyên lý arc design (bộ 3)
+    - Domain-Knowledge-Map.md v2.1 — WHAT: bản đồ nhóm kiến thức (bộ 3)
+    - Connection-Education.md v1.1 — WHO: social interaction education (bộ 3)
   education-observation:
-    - Education-Arms-Race.md v1.3 — cạnh tranh giáo dục
+    - Education-Arms-Race.md v1.4 — cạnh tranh giáo dục
   core-mechanism:
     - Core-Software.md v2.0 — cycle-based architecture
     - Cortisol-Baseline.md v2.1 — amplifier reframe
@@ -45,12 +45,15 @@ dependencies:
     - Dissonance-Signal-Architecture.md v1.0 — Evaluative/Direct-State Dissonance
     - Gap-Distribution-Profile.md v1.1 — era changing gap landscape
     - Body-Base.md v3.1 — Model 3+1
+  trust/self-observation:
+    - Trust.md v1.0 — compiled prediction about gap-fill reliability, 3 sub-dimensions
+    - Self-Observation.md v1.0 — APPLICATION-3 on Simulation-Engine, gradient Mức 0-6
   child-dev:
-    - Child-Development-Mechanism.md v2.2 — developmental timeline
+    - Child-Development-Mechanism.md v2.3 — developmental timeline
   application:
-    - Education-System.md v3.0 — system stages + roles, ENGINE/ROAD/VEHICLE
-    - Hardware-Calibration.md v1.1 — per-individual calibration
-    - Curriculum-Framework.md v2.1 — delivery matrix per stage
+    - Education-System.md v3.2 — system stages + roles, ENGINE/ROAD/VEHICLE
+    - Hardware-Calibration.md v1.2 — per-individual calibration
+    - Curriculum-Framework.md v2.3 — delivery matrix per stage
 previous: backup/v2.0/Era-Analysis-2025.md (724L, v2.0, 2026-05-11)
 changes_v2:
   - Re-base: "NL1-NL10" → Education-Mechanism v1.0 + Domain-Knowledge-Map v1.0 specific refs
@@ -71,7 +74,15 @@ changes_v2.1:
   - §5 +Hardware-Subsidy (era shifts subsidy sources — AI = NONE)
   - §6 Cross-refs complete rewrite — categorized, all versions updated
   - All dep versions updated, flat→8 categories
-snapshot: "Era 2025+, updated May 2026"
+changes_v2.2:
+  - §4 ⑦: +Trust lens — AI trust = new type (competence ONLY, no intention)
+  - §5 ②: +Trust calibration — "biết đánh giá" = trust calibration skill
+  - §5 ③: +Trust × AI tutor + Self-Observation × AI scaffold
+  - §5 ④: +Self-Observation × digital overload detection
+  - Deps: +Trust.md v1.0, +Self-Observation.md v1.0 (trust/self-observation category)
+  - Refs: EM v2.1→v2.2, DKM v2.0→v2.1, CE v1.0→v1.1, EAR v1.3→v1.4,
+    ES v3.0→v3.2, HC v1.1→v1.2, CF v2.1→v2.3, Child-Dev v2.2→v2.3
+snapshot: "Era 2025+, updated June 2026"
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Observable facts | 🟡 Analysis | 🔴 Prediction
 durability: |
@@ -117,8 +128,8 @@ durability: |
 ```
 TẠI SAO CẦN FILE NÀY:
 
-  Education-Mechanism.md v2.1 = HOW (nguyên lý arc design, valid mọi era)
-  Education-System.md v3.0 = SYSTEM (stages × roles × assessment)
+  Education-Mechanism.md v2.2 = HOW (nguyên lý arc design, valid mọi era)
+  Education-System.md v3.2 = SYSTEM (stages × roles × assessment)
   File NÀY = ERA CONTEXT → fill vào khung
 
   Tức là:
@@ -222,7 +233,7 @@ EMERGING (chưa rõ education impact):
   = Education system (change cycle: 5-10 năm) << AI (change cycle: 6-12 tháng)
   = GAP education vs era change speed = LỚN NHẤT ever
   = STRENGTHENS case for principles-based approach
-    (Education-Mechanism v2.1 §0.3 — vô vàn cách dạy, framework cho nguyên lý)
+    (Education-Mechanism v2.2 §0.3 — vô vàn cách dạy, framework cho nguyên lý)
     (Vì: content-based education = outdated TRƯỚC KHI implement xong)
 
   🟡 SIMULATION ENGINE LENS (Simulation-Engine.md v1.0):
@@ -251,7 +262,7 @@ EMERGING (chưa rõ education impact):
     → "Biết ĐÁNH GIÁ" = giá trị → AI có thể SAI (hallucination, bias)
     → Teacher ≠ knowledge source → AI biết NHIỀU hơn teacher
       → Teacher = CALIBRATOR, MENTOR
-      (Education-Mechanism v2.1 §4.1 — Layer 2 Teacher/Parent Calibrator)
+      (Education-Mechanism v2.2 §4.1 — Layer 2 Teacher/Parent Calibrator)
 
   CHUNK THRESHOLD GIẢM 🟡:
     → Trước: vào flow trong 1 domain = cần TÍCH LŨY đủ chunks (years)
@@ -260,7 +271,7 @@ EMERGING (chưa rõ education impact):
     → = Threshold vào domain GIẢM → accessible cho NHIỀU người
     → = "Biết hỏi" + body-base check (approach/avoidance) > "biết nhiều"
     → ⚠️ Foundation VẪN CẦN human build
-      (Education-Mechanism v2.1 §2.4 — prerequisite check: chunks nền phải compiled)
+      (Education-Mechanism v2.2 §2.4 — prerequisite check: chunks nền phải compiled)
 
 
 🟡 JOB MARKET THAY ĐỔI:
@@ -285,7 +296,7 @@ EMERGING (chưa rõ education impact):
     → "AI-augmented" work trong mọi domain
     → ⚠️ Specific AI tools thay đổi nhanh
       → Meta-skill (learn to use new tools) > specific tool skill
-      (Domain-Knowledge-Map v2.0 §1.6 — meta-learning = foundation domain, luôn cần)
+      (Domain-Knowledge-Map v2.1 §1.6 — meta-learning = foundation domain, luôn cần)
 
 
 🟡 LEARNING THAY ĐỔI:
@@ -294,14 +305,14 @@ EMERGING (chưa rõ education impact):
     → Per-hardware calibration = historically EXPENSIVE (1-on-1 human tutor)
     → AI tutor: per-pace, per-level, instant feedback, 24/7
     → = Per-individual AT SCALE cho first time in history
-      (Education-Mechanism v2.1 §4.1 — Layer 1 AI Arc Generator)
+      (Education-Mechanism v2.2 §4.1 — Layer 1 AI Arc Generator)
     → ⚠️ AI = no emotion reading, no body-base sensing, no social context
     → = AI tutor + human teacher = COMPLEMENT
-      (Education-System v3.0 §9 — integration model)
+      (Education-System v3.2 §9 — integration model)
 
   SELF-LEARNING resources unlimited:
     → YouTube, courses, tutorials, AI explanations = FREE, per-pace
-    → = Information Curation = critical skill (Domain-Knowledge-Map v2.0 §2.2)
+    → = Information Curation = critical skill (Domain-Knowledge-Map v2.1 §2.2)
     → = Self-directed learning at scale → CẦN meta-learning chunks
 
   KNOWLEDGE OBSOLESCENCE nhanh hơn:
@@ -315,7 +326,7 @@ EMERGING (chưa rõ education impact):
     → = Cortisol amplification từ chronic overload
       (Cortisol-Baseline.md v2.1 — chronic low-grade = most common modern pattern)
     → = Recovery, sleep, offline time = QUAN TRỌNG HƠN
-      (Education-Mechanism v2.1 §2.8 — consolidation = phần của education)
+      (Education-Mechanism v2.2 §2.8 — consolidation = phần của education)
     → = Education must ALSO teach: manage information, not just consume
 ```
 
@@ -328,30 +339,30 @@ EMERGING (chưa rõ education impact):
 
 
 🟢 BRAIN MECHANISM = SAME (ENGINE KHÔNG ĐỔI):
-  (Child-Development-Mechanism v2.2 + Education-Mechanism v2.1)
+  (Child-Development-Mechanism v2.3 + Education-Mechanism v2.2)
 
   → Chunk compilation: vẫn cần repetition, emotion, multi-modal, sleep
-    (Child-Dev-Mechanism v2.2 §2 — Compile Architecture, 5-parameter formula)
+    (Child-Dev-Mechanism v2.3 §2 — Compile Architecture, 5-parameter formula)
   → PFC vs unconscious: "hiểu" vẫn ≠ "biết làm" → practice VẪN cần
   → Approach/avoidance: direction > level → cách dạy vẫn quyết định tag suốt đời
-    (Education-Mechanism v2.1 §2.2 — nguyên lý quan trọng nhất)
+    (Education-Mechanism v2.2 §2.2 — nguyên lý quan trọng nhất)
   → Cortisol amplifier: vẫn cần moderate challenge + recovery
     (Cortisol-Baseline.md v2.1 — 5 Roles, direction > level)
   → Body-base: vẫn cần experiential, hands-on → verbal-only = incomplete
     (Body-Base.md v3.1 — Model 3+1, body = processing channel)
   → Imagine-Final: vẫn cần PURPOSE trước CONTENT
-    (Education-Mechanism v2.1 §2.6 — Imagine-Final before content)
+    (Education-Mechanism v2.2 §2.6 — Imagine-Final before content)
   → Sleep consolidation: vẫn = khi não thực sự compile deep
-    (Education-Mechanism v2.1 §2.8 — consolidation = education)
+    (Education-Mechanism v2.2 §2.8 — consolidation = education)
   → Sensitive periods: vẫn = developmental timeline guides
-    (Child-Dev-Mechanism v2.2 §9 — observation parameters)
+    (Child-Dev-Mechanism v2.3 §9 — observation parameters)
 
   = Brain mechanism = SAME dù AI era → 8 nguyên lý arc design HOLD
   = FORMAT delivery thay đổi → mechanism = unchanged
 
 
 🟢 HUMAN DEVELOPMENT TIMELINE = SAME:
-  (Child-Dev-Mechanism v2.2 + Education-System v3.0 §1)
+  (Child-Dev-Mechanism v2.3 + Education-System v3.2 §1)
 
   → 0-6: foundation wiring (tự nhiên — Child-Dev bộ 4)
   → 6-12: foundation chunking (guided — Stage 2)
@@ -369,7 +380,7 @@ EMERGING (chưa rõ education impact):
   → Self-Pattern-Modeling v3.1 = cần real human interaction data
   → AI KHÔNG thay thế human connection (fundamentally different)
   → Social learning = toàn diện hơn chỉ "empathy"
-    → Connection-Education v1.0: hiểu + xây bond + chọn + duy trì + navigate groups
+    → Connection-Education v1.1: hiểu + xây bond + chọn + duy trì + navigate groups
   → ⚠️ AI CÓ THỂ simulate connection (chatbots, AI friends)
     → Nhưng: simulated ≠ real → body-base BIẾT khác nhau
     → AI relationship = Entity-Access Mức 0 Tool (Entity-Access v1.2)
@@ -377,7 +388,7 @@ EMERGING (chưa rõ education impact):
 
 
 🟢 FOUNDATION SKILLS = STILL NEEDED:
-  (Domain-Knowledge-Map v2.0 §1 — 6 Foundation Domains)
+  (Domain-Knowledge-Map v2.1 §1 — 6 Foundation Domains)
 
   → Literacy: vẫn cần — dù AI đọc hộ → "đọc" = HIỂU ý nghĩa
   → Numeracy: vẫn cần — dù AI tính hộ → "toán" = logical thinking
@@ -430,7 +441,7 @@ EMERGING (chưa rõ education impact):
      → 2025: AI codes → "learn to code" ≠ enough
      → 2030: ???
      → Jobs chưa tồn tại → đào tạo cho jobs chưa tồn tại = impossible
-     → = STRENGTHEN case cho meta-learning (Domain-Knowledge-Map v2.0 §1.6)
+     → = STRENGTHEN case cho meta-learning (Domain-Knowledge-Map v2.1 §1.6)
      → = Build người CÓ THỂ learn bất kỳ job mới → không train cho 1 job cụ thể
      🔴 Prediction confidence: RẤT THẤP
 
@@ -449,7 +460,7 @@ EMERGING (chưa rõ education impact):
      → AI tutor CÓ THỂ: per-pace, per-level, instant feedback, 24/7
      → AI tutor CHƯA THỂ: read emotion, sense body, social context
      → Current: SUPPLEMENT (AI + human teacher > either alone)
-       (Education-Mechanism v2.1 §4.1 — 3-layer: AI + Teacher + Student)
+       (Education-Mechanism v2.2 §4.1 — 3-layer: AI + Teacher + Student)
      → Future: AI thêm emotion reading? AI thêm social? → UNKNOWN
      → = Plan for "AI as Layer 1" → ready cho "AI role expanding"
      🔴 Prediction confidence: TRUNG BÌNH (1-2 năm) → THẤP (5+ năm)
@@ -478,6 +489,14 @@ EMERGING (chưa rõ education impact):
      → Impact: social skill development? attachment pattern? Self-Pattern-Modeling training?
      → = Possibly HIDDEN uncertainty — ít thảo luận, impact CÓ THỂ lớn
      🔴 Prediction confidence: RẤT THẤP — research gần như chưa có
+     → Trust.md v1.0 LENS — AI trust = FUNDAMENTALLY NEW TYPE:
+       → Trust-competence: CÓ THỂ đánh giá (AI đúng/sai per-domain = verifiable)
+       → Trust-authority: context-dependent (AI as tool vs "AI advisor" vs "AI friend")
+       → Trust-intention: UNDEFINED — AI KHÔNG CÓ body → KHÔNG CÓ benevolence
+       → = Trust model 3 sub-dimensions → AI CHỈ CÓ 1 chiều evaluable (competence)
+       → Risk: anthropomorphize AI → ÁP DỤNG human trust model → miscalibrated
+         ("AI muốn tốt cho mình" = PROJECTION, không phải fact — Trust §1)
+       → = Trust calibration cho AI = ERA-SKILL mới, chưa có trong bất kỳ curriculum
 
 
 TỔNG HỢP — CÁI CHẮC CHẮN VỀ CÁI KHÔNG CHẮC CHẮN:
@@ -491,7 +510,7 @@ TỔNG HỢP — CÁI CHẮC CHẮN VỀ CÁI KHÔNG CHẮC CHẮN:
   ✓ AI relationships = phantom type → hidden risk cho social development
 
   = §4 STRENGTHENS principles-based approach
-    (Education-Mechanism v2.1 §0.3 — engine, không phải GPS)
+    (Education-Mechanism v2.2 §0.3 — engine, không phải GPS)
   = "Build người CÓ KHẢ NĂNG ADAPT" > "train người cho prediction cụ thể"
 ```
 
@@ -513,12 +532,12 @@ MỤC ĐÍCH:
 
   → Speed of change FASTEST ever → specific knowledge obsolete FASTEST
   → Meta-learning = MOST VALUABLE skill in this era
-    (Domain-Knowledge-Map v2.0 §1.6 — meta-learning = foundation domain)
+    (Domain-Knowledge-Map v2.1 §1.6 — meta-learning = foundation domain)
   → "Learn to learn new things" > "learn specific things"
   → Content-based education = outdated TRƯỚC KHI implement xong
   → = Principles-based approach HOLDS
-    (Education-Mechanism v2.1 §0.3 — framework = engine, AI = runtime)
-  → ⚠️ Meta-learning CẦN foundation (Mechanism v2.1 §2.4 — prerequisite check)
+    (Education-Mechanism v2.2 §0.3 — framework = engine, AI = runtime)
+  → ⚠️ Meta-learning CẦN foundation (Mechanism v2.2 §2.4 — prerequisite check)
     → "Biết cách học mà không biết đọc" = useless
     → = Foundation + meta-learning = PAIR, không chọn 1
 
@@ -526,32 +545,55 @@ MỤC ĐÍCH:
 ② KNOWLEDGE ACCESS DEMOCRATIZED → "BIẾT HỎI" > "BIẾT"
 
   → "Biết" ≠ giá trị → "biết hỏi + biết đánh giá" = giá trị
-  → Information curation = critical era-skill (Domain-Knowledge-Map v2.0 §2.2)
+  → Information curation = critical era-skill (Domain-Knowledge-Map v2.1 §2.2)
   → Chunk threshold vào domain GIẢM → accessible hơn
   → Foundation chunks VẪN CẦN human build
-    (Mechanism v2.1 §2.4 — prerequisite: foundation compiled → mới build tiếp)
+    (Mechanism v2.2 §2.4 — prerequisite: foundation compiled → mới build tiếp)
   → Teacher role shifts: knowledge source → calibrator
-    (Mechanism v2.1 §4.1 Layer 2 — feel-check, adjust, override)
+    (Mechanism v2.2 §4.1 Layer 2 — feel-check, adjust, override)
   → = Education cần teach EVALUATE + SYNTHESIZE, không chỉ MEMORIZE
   → = Depth assessment quan trọng hơn:
     "AI trả lời hộ → sao biết STUDENT hiểu?"
-    (Mechanism v2.1 §2.9 — assess depth, not surface)
+    (Mechanism v2.2 §2.9 — assess depth, not surface)
+  → Trust.md v1.0 LENS — "biết đánh giá" = TRUST CALIBRATION skill:
+    → Source evaluation = trust-competence assessment per-domain (Trust §1)
+    → Media literacy = trust calibration toward SOURCES (không chỉ content)
+    → AI output evaluation = trust-competence check (AI: high competence, no intention)
+    → = Trust Default→Calibrated (Trust §5) applied to INFORMATION SOURCES
+    → Era-skill: calibrate trust toward AI DIFFERENTLY from human sources
+      (human: 3 sub-dimensions all relevant. AI: competence ONLY → framework KHÁC)
 
 
 ③ AI AS EDUCATION TOOL → PER-INDIVIDUAL AT SCALE
 
   → Per-student calibration AT SCALE — first time in history
-    (Mechanism v2.1 §2.3 — cost formula per student: AI CÓ THỂ compute)
-  → AI = Layer 1 in 3-layer model (Mechanism v2.1 §4.1):
+    (Mechanism v2.2 §2.3 — cost formula per student: AI CÓ THỂ compute)
+  → AI = Layer 1 in 3-layer model (Mechanism v2.2 §4.1):
     AI generate arc + Teacher calibrate + Student verify
   → = Cơ hội LỊCH SỬ cho education reform
   → ⚠️ Risks:
     → AI dependency = bridge not withdrawn
-      (Mechanism v2.1 §3.1 — bridge = nguồn ④, cần rút dần)
+      (Mechanism v2.2 §3.1 — bridge = nguồn ④, cần rút dần)
     → AI optimize surface (L1 correct answer) → miss depth (L2-L4)
     → Over-reliance: student compile "ask AI" thay vì "think"
   → = AI = TOOL, not REPLACEMENT → implementation = key
   → = Bloom's 2-sigma problem (1984): AI CÓ THỂ giải = unprecedented
+  → Trust.md v1.0 LENS — student trust toward AI tutor:
+    → AI tutor = trust-competence ONLY (entity KHÔNG CÓ intention — Trust §1)
+    → Student CÓ THỂ anthropomorphize AI → trust as PERSON → miscalibration
+    → Teacher remain = trust-intention anchor (AI = competent tool, teacher = caring person)
+    → = AI supplement NHƯNG KHÔNG thay thế trust-intention channel
+  → Self-Observation.md v1.0 LENS — AI as Self-Observation scaffold:
+    → AI effective scaffold cho Mức 4-5 (point out patterns, prompt meta-reflection)
+    → AI CANNOT scaffold Mức 1-2 (cần body training, interoception = EMBODIED)
+      (Self-Observation §12 GAP-6: AI contribute Mức 4 CÓ, Mức 2 KHÔNG)
+    → Risk: student HỎI AI "tôi cảm thấy gì?" thay vì develop own observation
+      = Replace Self-Observation WITH AI-observation → DEPENDENCY
+    → Self-Observation capacity determine AI usage QUALITY:
+      Mức 3+: USE AI as tool (notice own reactions, evaluate AI output)
+      Mức 1-2: AI uses YOU (no capacity to evaluate → accept uncritically)
+    → = Self-Observation Mức 3+ = DEFENSE against AI manipulation
+      (nhận biết: "AI gợi ý → tôi muốn mua" = Self-Observation applied)
 
 
 ④ INFORMATION OVERLOAD = NEW THREAT SOURCE
@@ -562,12 +604,18 @@ MỤC ĐÍCH:
   → Social media comparison = new peer threat source
     (Type 2 PEER — but at unprecedented SCALE + FREQUENCY)
   → Attention fragmentation → compile efficiency GIẢM
-    (Mechanism v2.1 §2.8 — consolidation CẦN recovery, not more input)
+    (Mechanism v2.2 §2.8 — consolidation CẦN recovery, not more input)
   → = Recovery, sleep, offline time = QUAN TRỌNG HƠN bao giờ hết
   → = Direction > Level applies: approach vs avoidance CHO digital use
-    (Mechanism v2.1 §2.2)
+    (Mechanism v2.2 §2.2)
   → = "Digital wellbeing" = NOT luxury → = cortisol management skill
-    (Domain-Knowledge-Map v2.0 §2.6 — era-specific domain)
+    (Domain-Knowledge-Map v2.1 §2.6 — era-specific domain)
+  → Self-Observation.md v1.0 LENS — overload DETECTION cần Self-Observation:
+    → Information overload = body SIGNALS (cortisol tăng, fatigue, attention drop)
+    → Self-Observation Mức 2+: "tôi mệt, cần dừng" → can self-regulate screen use
+    → Self-Observation Mức 0-1: KHÔNG nhận biết overload → continue until crash
+    → = "Digital wellbeing" = Self-Observation APPLIED to digital environment
+    → = Teach Self-Observation = teach DIGITAL SELF-REGULATION capacity
 
 
 ⑤ UNKNOWN UNKNOWNS → ROBUST DESIGN NEEDED
@@ -585,7 +633,7 @@ MỤC ĐÍCH:
 
 ⑥ ERA-SPECIFIC SKILLS — THÊM, KHÔNG THAY THẾ
 
-  6 era-specific domains (Domain-Knowledge-Map v2.0 §2):
+  6 era-specific domains (Domain-Knowledge-Map v2.1 §2):
 
   ┌──────────────────────────────────────────────────────────────┐
   │ FOUNDATION (cross-era, VẪN CẦN — Domain-Knowledge-Map §1):                   │
@@ -601,8 +649,8 @@ MỤC ĐÍCH:
   │   ⑥ Digital Wellbeing — manage screen, attention, cortisol    │
   └──────────────────────────────────────────────────────────────┘
 
-  Per-stage delivery → Curriculum-Framework.md v2.1 §3
-  Per-hardware calibration → Hardware-Calibration.md v1.1
+  Per-stage delivery → Curriculum-Framework.md v2.3 §3
+  Per-hardware calibration → Hardware-Calibration.md v1.2
 
 
 ⭐ ERA IMPACT ON GAP LANDSCAPE (Gap-Distribution-Profile v1.1):
@@ -677,7 +725,7 @@ MỤC ĐÍCH:
      → Bias: tech-centric → miss political, cultural, economic factors
      → Per-country → Country/ files
   ❌ Prescribe specific curriculum
-     → File = CONTEXT → Curriculum-Framework.md v2.1 = DERIVE from context
+     → File = CONTEXT → Curriculum-Framework.md v2.3 = DERIVE from context
   ❌ Predict AI trajectory
      → §4 ①: AGI timeline = UNKNOWN → file KHÔNG pretend to know
 
@@ -729,21 +777,21 @@ KẾT NỐI:
 TẦNG 3 — "BỘ 3" NỀN TẢNG (Research/Education/)
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.1 — ⭐ HOW: NGUYÊN LÝ ARC DESIGN
+→ Education-Mechanism.md v2.2 — ⭐ HOW: NGUYÊN LÝ ARC DESIGN
   §2 8+ nguyên lý (file NÀY confirm era strengthens ALL).
   §3 Bridge (file NÀY: AI = new bridge type, risk dependency).
   §4 AI-Assisted Model (file NÀY: era ENABLES model).
   +Hardware-Subsidy, +PFC Budget, +Dissonance-Signal-Architecture.
 
-→ Domain-Knowledge-Map.md v2.0 — ⭐ WHAT: BẢN ĐỒ DOMAIN
+→ Domain-Knowledge-Map.md v2.1 — ⭐ WHAT: BẢN ĐỒ DOMAIN
   §1 Foundation (file NÀY §3: confirmed still needed).
   §2 Era-specific (file NÀY §5: era skills → derived from Domain-Knowledge-Map §2).
 
-→ Connection-Education.md v1.0 — ⭐ WHO: SOCIAL INTERACTION EDUCATION
+→ Connection-Education.md v1.1 — ⭐ WHO: SOCIAL INTERACTION EDUCATION
   File NÀY §3: social needs = same, 5 khía cạnh VẪN CẦN.
   AI era: Phantom risk (§4 ⑦) → connection education CÒN QUAN TRỌNG HƠN.
 
-→ Education-Arms-Race.md v1.3 — Competition dynamics
+→ Education-Arms-Race.md v1.4 — Competition dynamics
   Era pressure → arms race acceleration → overload context.
 
 
@@ -751,14 +799,14 @@ TẦNG 3 — "BỘ 3" NỀN TẢNG (Research/Education/)
 TẦNG 4 — CÙNG FOLDER (Applications/Education/)
 ═══════════════════════════════════════════════════════
 
-→ Education-System.md v3.0 — ⭐ KHUNG CHÍNH
+→ Education-System.md v3.2 — ⭐ KHUNG CHÍNH
   ENGINE/ROAD/VEHICLE xuyên suốt. AI integration, constraints.
   File NÀY fill era context VÀO khung ES.
 
-→ Hardware-Calibration.md v1.1 — Per-individual
+→ Hardware-Calibration.md v1.2 — Per-individual
   §3 Calibration: AI = new calibration tool (file NÀY §5 ③).
 
-→ Curriculum-Framework.md v2.1 — Delivery matrix
+→ Curriculum-Framework.md v2.3 — Delivery matrix
   §3 Era-specific delivery per stage (derived FROM file NÀY §5 ⑥).
 
 → 00_Overview.md — Map vị trí file trong folder
@@ -809,12 +857,21 @@ AGENT-ENTITY + BODY-FEEDBACK (Tầng 1)
 → Body-Base.md v3.1 — Model 3+1
   Body = processing channel AI KHÔNG có → human differentiator.
 
+→ Trust.md v1.0 — Compiled prediction about gap-fill reliability
+  File NÀY §4 ⑦: AI trust = new type (competence ONLY, no intention).
+  File NÀY §5 ②: "biết đánh giá" = trust calibration skill.
+  File NÀY §5 ③: student trust toward AI tutor → teacher = trust-intention anchor.
+
+→ Self-Observation.md v1.0 — APPLICATION-3 on Simulation-Engine, Mức 0-6
+  File NÀY §5 ③: AI as scaffold (Mức 4-5 CÓ, Mức 1-2 KHÔNG). Dependency risk.
+  File NÀY §5 ④: overload detection = Self-Observation applied to digital.
+
 
 ═══════════════════════════════════════════════════════
 CHILD-DEV (Tầng 2)
 ═══════════════════════════════════════════════════════
 
-→ Child-Development-Mechanism.md v2.2 — Developmental timeline
+→ Child-Development-Mechanism.md v2.3 — Developmental timeline
   File NÀY §3: brain mechanism = same, timeline = same.
 
 

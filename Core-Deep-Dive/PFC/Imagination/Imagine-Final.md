@@ -19,7 +19,7 @@ purpose: |
   Simulation-Engine.md = SHARED ENGINE underneath tất cả applications.
   Self-Pattern-Modeling.md = APPLICATION-1: simulate OTHER (present).
   File NÀY = APPLICATION-2: simulate SELF (future).
-  Self-Observation = APPLICATION-3: observe SELF (present) — chưa có file riêng, partially described in Feeling.md.
+  Self-Observation = APPLICATION-3: observe SELF (present) — Self-Observation.md v1.0.
   v3.0 KEY CHANGE: phân biệt hardware prediction (Body-Feedback-Mechanism §1.2 Source ①) vs constructive Imagine-Final.
   = Giải thích TẠI SAO "khát→uống" KHÁC CƠ CHẾ với "NVIDIA phải thành công".
   = Reconcile với Body-Feedback-Mechanism §1.2 (2 sources), Simulation-Engine (constructive substrate).
@@ -148,8 +148,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ├── ★ File NÀY = APPLICATION-2: (Self, Future, Simulate+Construct)
     │   = Preview future state, create gaps, planning tool
     │
-    ├── Self-Observation = APPLICATION-3: (Self, Present, Observe)
-    │   = chưa có file riêng; cf. Feeling.md v3.0
+    ├── Self-Observation.md v1.0 = APPLICATION-3: (Self, Present, Observe)
+    │   = PFC observe body-state, cơ chế tự-nhận-thức
     │
     ├── PFC-Operations.md = HOW PFC operates trên engine
     │   = Hold/Suppress on Compiled/Fresh spectrum
@@ -1436,7 +1436,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Entity-Access.md v1.0 | §2 Gradient, §4 Gap Source, §5 Per-entity | Per-entity Imagine-Final dynamics |
 | Entity-Compiled.md v1.0 | §3 Formation, §7 Grief, §8 Love↔Hate | Entity compilation × Imagine-Final |
 | Self-Pattern-Modeling.md v3.1 | §2 Compiled/Fresh, §10 Self-Pattern-Modeling×Imagine-Final overlap | SIBLING APPLICATION on engine |
-| Feeling.md v3.0 | PFC observation interface | Broader than APPLICATION-3 (Self-Observation chưa có file riêng) |
+| Feeling.md v3.0 | PFC observation interface | UMBRELLA — Feeling ⊃ Self-Observation |
+| Self-Observation.md v1.0 | Full file | APPLICATION-3: Self × Present × Observe |
 | Body-Feedback-Mechanism.md v2.0 | §1.2 Two Sources, §3 chunk dynamics | Foundation: ★ Source ① vs ② = boundary definition |
 | Anchor-Schema.md v1.0 | §2 Trust, §3 4-nguồn fill | Imagine-Final → Anchor-Schema transition |
 | Imagine-Final-Evaluation.md v1.1 | 2 trục × 4 góc, Quality dimension | COMPANION: quality check |

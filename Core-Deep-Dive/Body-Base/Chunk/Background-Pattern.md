@@ -2381,6 +2381,7 @@ Background-Pattern-Q10: Compiled suppress + Background-Pattern absorb: how to re
                                       Compiled Suppress absorb (→ §8.2),
                                       PFC Budget §9 (→ §5 ⑦), B vs C §6 (→ §8.2)
   Simulation-Engine.md v1.0          — Simulation-Engine context: Self-Pattern-Modeling = APPLICATION (→ §6.1)
+  Self-Observation.md v1.0           — APPLICATION-3: Self × Present × Observe. Keystone property
   Self-Pattern-Modeling.md v3.1      — Triple Bias §9 (→ §6.2), self-fulfilling (→ §6.3),
                                       context-dependent §4 (→ §6.4)
   Entity-Compiled.md v1.0            — Trait/State §6 (→ §10.1), Formation §3 (→ §10.2),

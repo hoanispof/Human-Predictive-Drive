@@ -677,6 +677,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⚠️ Named applications = POINTS — unnamed apps = equally real.
 
   (Simulation-Engine.md v1.0 = SOURCE chi tiết.)
+
+
+  SELF-OBSERVATION GRADIENT (Self-Observation.md v1.0 §4):
+
+    Mức 0: Body-React           [NO PFC]          Hardware reflex
+    Mức 1: Body-Detect          [MINIMAL PFC]     "Có gì đó"
+    ─── RANH GIỚI: GAP giữa signal và response ───
+    Mức 2: Body-Recognize       [LOW-MID PFC]     "Tôi biết tôi đang X"
+    Mức 3: Body-Predict         [MIDDLE PFC]      "Chút nữa tôi sẽ Y"
+    Mức 4: Pattern-Observe      [MID-HIGH PFC]    "Tôi hay X khi Y"
+    Mức 5: Meta-Observe         [HIGH PFC]        "Tôi đang observe observation"
+    Mức 6: Calibrated-Observe   [HIGH+COMPILED]   "Observation này tin được không"
+
+    Ranh giới Mức 1→2 = Self-Observation bắt đầu khi có KHOẢNG CÁCH
+    giữa signal và response (PFC encode state TÁCH BIỆT khỏi response).
+    Mức 2 = Self-Observation cơ bản nhất đúng nghĩa = Body-Knowing Inward.
 ```
 
 ---

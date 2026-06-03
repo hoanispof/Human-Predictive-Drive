@@ -166,6 +166,17 @@ ADHD RANGE (extreme):
   → KHÔNG CÓ vị trí "TỐT NHẤT tuyệt đối"
   → Trade-off: QUANTITY seen ↔ QUALITY per selection
   → Mỗi vị trí TỐT cho context KHÁC
+
+  ⭐ SELF-OBSERVATION BASELINE PER ATTENTION TYPE (Self-Observation.md §5):
+    Detail-oriented: threshold THẤP → body signal NHỎ cũng vượt → Self-Observation BASELINE CAO
+      → Auto-capture self-signals → "hay nhận ra mình đang sao"
+      → Nhược: noise cao (quá nhiều signal → khó phân biệt)
+    Balanced: Self-Observation baseline VỪA → cần delta > moderate
+    Big Picture: threshold CAO → body signal nhỏ bị filter → Self-Observation BASELINE THẤP
+      → Cần signal mạnh (major emotion, physical pain) mới Self-Observe
+    ADHD range: threshold CỰC CAO → Self-Observation CỰC THẤP (trừ emotion spikes)
+      → Cần amplify signal: quiet environment, journaling, meditation
+    → Attention hardware = 1 trong 4 hardware factors của Self-Observation
 ```
 
 ---
@@ -364,6 +375,11 @@ CORE:
 
 OLD FILE (backup):
   Imagination/backup/Attention-Spectrum-v1.md — source content (664L)
+
+SELF-OBSERVATION:
+  Self-Observation.md v1.0 §5 — Self-Observation baseline per attention type
+    → Detail-oriented: HIGH baseline (low threshold). ADHD: LOW baseline (cần amplify)
+    → Attention hardware = 1/4 hardware factors
 
 HEALTH CONDITIONS DRILL (v2.1):
   ADHD INVERTED-U VALIDATES SPECTRUM MODEL:

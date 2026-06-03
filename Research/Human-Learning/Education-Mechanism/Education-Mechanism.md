@@ -1,27 +1,30 @@
 ﻿---
 title: Education-Mechanism — Nguyên Lý Thiết Kế Learning Arc v7.8
-version: 2.1
+version: 2.2
 created: 2026-04-21
-updated: 2026-06-01 (v2.1 — Compile Architecture refine: "4+1 kênh compile" → "1 Engine + 3 Modulators + 3 Exposure Channels", +Multi-Stream × Direction > Level, +Critical Asymmetry × Imagine-Final, +Sleep Maintenance reframe (6 mechanisms), +Trust/Experience/Expertise × Arc Design, +Bridge × Critical Asymmetry, deps Child-Dev v2.0→v2.2 + CT v3.0 + CS v1.0)
-previous: v2.0 (2026-05-25, 1,713L)
-status: v2.1
+updated: 2026-06-03 (v2.2 — Trust + Self-Observation integration: +Nguyên lý 9 Trust Before Content (Trust.md v1.0: definition, 3 sub-dimensions × education, Default→Calibrated × stages, Virtuous/Vicious loop, collapse/repair), +Nguyên lý 10 Self-Observation Metacognitive Foundation (Self-Observation.md v1.0: Mức × strategy, External Scaffold, PFC budget competition, Keystone cascade, Teen Paradox), 8→10 nguyên lý, deps +Trust.md v1.0 + Self-Observation.md v1.0)
+previous: v2.1 (2026-06-01, 2,041L)
+status: v2.2
 scope: |
   HOW thiết kế learning arc cho structured education (6+).
   Build TRÊN Child-Development-Mechanism.md (nền tảng compile 0-6).
   Brain-based principles — valid MỌI era, MỌI culture.
   Framework = ENGINE cho AI optimize per student — không phải curriculum.
+  v2.2 KEY CHANGES: +Nguyên lý 9 Trust Before Content (Trust.md v1.0:
+  trust definition, 3 sub-dimensions × education, Default→Calibrated × education stages,
+  Virtuous/Vicious loop, trust collapse/repair in education),
+  +Nguyên lý 10 Self-Observation Metacognitive Foundation (Self-Observation.md v1.0:
+  Mức × metacognitive strategy, Teacher as External Scaffold per Mức,
+  PFC budget competition, Keystone cascade, Teen Paradox × education).
+  8 nguyên lý → 10 nguyên lý + 1 synthesis. Dependencies: +Trust.md v1.0, +Self-Observation.md v1.0.
   v2.1 KEY CHANGES: "4+1 kênh compile" → "Compile Architecture (1E+3M)",
   +Multi-Stream × Direction > Level, +Critical Asymmetry × Imagine-Final,
   +Sleep Maintenance (6 mechanisms, exposure vs optimization), +Trust/Experience/Expertise × Arc Design,
   +Bridge × Critical Asymmetry. Dependencies: Child-Dev-Mechanism v2.0→v2.2, +CT v3.0, +CS v1.0.
-  v2.0 KEY CHANGES: +Hardware-Subsidy (education = societal subsidy system),
-  +PFC Budget (finite shared resource → arc timing), +Imagine-Final v3.0
-  (constructive simulation ≠ hardware prediction), +Dissonance-Signal-Architecture
-  (valley = Evaluative Dissonance, vocabulary chính xác), +Entity-Access gradient
-  (teacher-student relationship Mức 0-3), +Simulation-Engine (Imagine-Final = APPLICATION),
-  +Structural/Current valence (approach/avoidance tags = permanent structural),
-  +Coordination-Node (teacher = prestige vs dominance), +Resonance Decline,
-  +Gap-Distribution-Profile (education = gap landscape shaping), bộ 3 architecture.
+  v2.0 KEY CHANGES: +Hardware-Subsidy, +PFC Budget, +Imagine-Final v3.0,
+  +Dissonance-Signal-Architecture, +Entity-Access gradient, +Simulation-Engine,
+  +Structural/Current valence, +Coordination-Node, +Resonance Decline,
+  +Gap-Distribution-Profile, bộ 3 architecture.
 purpose: |
   File NÀY giải thích NGUYÊN LÝ arc design — không cho cách dạy cụ thể.
   Vô vàn cách dạy 3+2=5. Vô vàn cách tập nhạc. Vô vàn cách học bơi.
@@ -40,6 +43,8 @@ dependencies:
     - Child-Development-Mechanism.md v2.2 — NỀN TẢNG (Compile Architecture, approach/avoidance, cortisol)
     - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, Multi-Stream, Trust = Amplifier
     - Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms, exposure vs optimization)
+    - Trust.md v1.0 — Trust definition, 3 sub-dimensions, Default→Calibrated, Amplifier (⭐NEW v2.2)
+    - Self-Observation.md v1.0 — APPLICATION-3, Mức 0-6 gradient, Keystone cascade (⭐NEW v2.2)
     - Core-v7.8-Draft.md — cycle architecture, observation parameters
     - Chunk.md v2.2 — chunk substrate, compile, lifecycle, context-tag
     - Cortisol-Baseline.md v2.1 — amplifier reframe, direction > level
@@ -64,7 +69,7 @@ dependencies:
     - By-Product-Gap-Resonance.md v1.4 — resonance as by-product
   education-companion:
     - Domain-Knowledge-Map.md v1.0 — WHAT domain groups (bộ 3)
-    - Connection-Education.md v1.0 — WHO social interaction (bộ 3)
+    - Connection-Education.md v1.1 — WHO social interaction (bộ 3), +Trust §5.6, +Self-Observation §2.5
     - Anchor-Schema.md v1.2 — 4 nguồn fill, trust dimension
     - AI-Schema-Detection.md v2.0 — gateway model, 3-layer architecture
     - Domain-Mapping-Drive.md v1.0 — WHY humans drive map domain
@@ -188,8 +193,9 @@ READER FLOW:
   │ §1 Context Shift     │ Cái gì THAY ĐỔI khi 0-6 → 6+?         │
   ├──────────────────────┼─────────────────────────────────────────┤
   │ §2 Arc Design        │ HOW thiết kế learning arc hiệu quả?    │
-  │    Principles        │ (Child-Dev = tự nhiên, Education = có   │
-  │                      │ thiết kế có chủ đích)                   │
+  │    Principles        │ 10 nguyên lý + 1 synthesis.             │
+  │                      │ v2.2: +Trust Before Content (§2.11),    │
+  │                      │ +Self-Observation Metacognitive (§2.12) │
   ├──────────────────────┼─────────────────────────────────────────┤
   │ §3 Bridge +          │ Bridge = nguồn ④ External Inject.       │
   │    Motivation        │ Transition 4 nguồn fill. 3 ORIGIN.      │
@@ -287,7 +293,7 @@ INSIGHT CỐT LÕI:
 
 ```
 FILE NÀY LÀM:
-  ✓ Nguyên lý brain-based cho learning arc design (§2)
+  ✓ 10 nguyên lý brain-based cho learning arc design (§2)
   ✓ Bridge mechanism + motivation transition (§3)
   ✓ AI-assisted education model architecture (§4)
   ✓ Build trên Child-Dev-Mechanism (reference, không lặp)
@@ -526,8 +532,8 @@ EDUCATION ≠ SCHOOL:
 
 > **⭐ CORE CỦA FILE.**
 > §0-§1 đặt vị trí. Section này = NỘI DUNG CHÍNH.
-> 8 nguyên lý brain-based cho learning arc design.
-> Bất kỳ cách dạy nào follow 8 nguyên lý = VALID.
+> 10 nguyên lý brain-based cho learning arc design + 1 synthesis.
+> Bất kỳ cách dạy nào follow 10 nguyên lý = VALID.
 > Cách dạy vi phạm ≥1 = GIẢM hiệu quả — bất kể era.
 
 ### §2.1 — Arc = Đơn vị học
@@ -1242,7 +1248,283 @@ EDUCATION ≠ SCHOOL:
   🟡 4-stage mapping to chunk levels = framework synthesis
 ```
 
-### §2.11 — Tổng hợp 8 nguyên lý + 1 synthesis
+### §2.11 — Nguyên lý 9: Build Trust Before Content
+
+```
+⭐⭐ v2.2 NEW — TRUST = NỀN TẢNG ĐỂ ARC HOẠT ĐỘNG (Trust.md v1.0):
+
+  Trust = COMPILED PREDICTION about entity's gap-fill RELIABILITY.
+  ≠ Valence ("thích/ghét") — Trust = "tin cậy được" (Trust.md §1).
+
+  PHÂN BIỆT QUAN TRỌNG CHO EDUCATION:
+
+    "THÍCH THẦY" = valence positive (current/structural)
+      → Phản ứng cảm xúc per-moment hoặc aggregate
+      → CÓ THỂ thích nhưng KHÔNG tin (fun teacher, not competent)
+
+    "TIN THẦY" = trust positive (compiled prediction)
+      → Prediction: "thầy sẽ fill gap TỐT và ỔN ĐỊNH"
+      → CÓ THỂ tin nhưng KHÔNG thích (strict teacher, very competent)
+
+    → "Love the teacher → learn the lesson" (§3.1) CHÍNH XÁC HƠN:
+      = TRUST teacher → VALUE stream AMPLIFIED → compile approach tags
+      → "Like" giúp nhưng KHÔNG ĐỦ. "Trust" là cần thiết.
+      → 🟢 Colquitt et al. 2007: trust separable from liking
+
+
+  ⭐ 3 SUB-DIMENSIONS × EDUCATION (Trust.md §1):
+
+    ┌───────────────────┬─────────────────────────────────────────────────┐
+    │ Sub-dimension     │ Trong education context                         │
+    ├───────────────────┼─────────────────────────────────────────────────┤
+    │ ① AUTHORITY       │ Teacher CÓ QUYỀN cho điểm, đánh giá.          │
+    │ (có quyền)        │ = Structural fact, KHÔNG cần build.            │
+    │                   │ ⚠️ Authority HIGH + Competence LOW = NGUY HIỂM │
+    │                   │ (student buộc nghe nhưng nội dung sai)         │
+    ├───────────────────┼─────────────────────────────────────────────────┤
+    │ ② COMPETENCE      │ Teacher BIẾT domain? Dạy ĐÚNG?                 │
+    │ (có năng lực)     │ = CẦN BUILD qua demonstration + experience.    │
+    │                   │ Student calibrate qua time (Trust.md §5 Phase 3)│
+    ├───────────────────┼─────────────────────────────────────────────────┤
+    │ ③ INTENTION       │ Teacher MUỐN TỐT cho student?                  │
+    │ (có thiện ý)      │ = CRITICAL nhất cho VALUE stream.              │
+    │                   │ "Thầy quan tâm tôi" → approach → trust deepen │
+    │                   │ "Thầy không care" → avoidance → trust erode   │
+    └───────────────────┴─────────────────────────────────────────────────┘
+
+    → ARC DESIGN: build ③ Intention TRƯỚC (first weeks = relationship)
+      → Intention trust → student receptive → Competence trust verify SAU
+      → Authority trust = given (institutional) — KHÔNG cần build
+
+
+  ⭐ TRUST AS AMPLIFIER FOR VALUE STREAM (Compile-Taxonomy v3.0 §3):
+
+    Trust = Amplifier, NOT Gate:
+      → Trust cao → VALUE stream compile MẠNH (approach tags amplified)
+      → Trust thấp → VALUE stream compile YẾU (dampened, not blocked)
+      → Trust zero → VALUE stream = Content ONLY, Value = near-zero
+
+    → ARC DESIGN IMPLICATION:
+      → Week 1-4: BUILD TRUST (relationship, safety, demonstrate intention)
+      → Week 5+: LEVERAGE trust cho content delivery
+      → Trust ĐÃ CÓ → content compile NHANH + approach-tagged
+      → Trust CHƯA CÓ → content compile CHẬM + mixed tags
+
+    → GIẢI THÍCH "First weeks matter":
+      Trust formation cần consistency × time (Trust.md §4)
+      → Build chậm (months) — KHÔNG thể skip.
+      → Collapse nhanh (1 betrayal) — CẦN bảo vệ.
+      → = First impression × consistent follow-through = FOUNDATION
+
+
+  ⭐ TRUST DEFAULT → CALIBRATED × EDUCATION STAGES (Trust.md §5):
+
+    Trust mặc định = per-ENTITY (không per-domain):
+    → Student trust "thầy" = trust MỌI THỨ thầy nói (evolution design).
+    → Per-domain calibration = PFC-intensive, xảy ra SAU.
+
+    ┌─────────────────┬────────────────┬────────────────────────────────────┐
+    │ Education Stage  │ Trust Phase    │ ARC DESIGN ĐÁP ỨNG                │
+    ├─────────────────┼────────────────┼────────────────────────────────────┤
+    │ Early (6-10)    │ Phase 1-2      │ Student DEFAULT trust teacher.     │
+    │                 │ (Installed →   │ → USE cửa sổ này: bootstrap qua   │
+    │                 │  Default)      │   Trust Compile NHANH (§2.9)       │
+    │                 │                │ → ⚠️ Trust ĐI KÈM TRÁCH NHIỆM:   │
+    │                 │                │   install VALUE đúng, vì student   │
+    │                 │                │   CHƯA verify được.               │
+    ├─────────────────┼────────────────┼────────────────────────────────────┤
+    │ Secondary       │ Phase 2-3      │ Student BẮT ĐẦU calibrate.        │
+    │ (12-15)         │ (Default →     │ → RESPECT process: student hỏi    │
+    │                 │  Calibrate)    │   "thầy có đúng không?" = HEALTHY. │
+    │                 │                │ → KHÔNG coi là "thiếu tôn trọng"  │
+    │                 │                │   — là Phase 3 trust development.  │
+    ├─────────────────┼────────────────┼────────────────────────────────────┤
+    │ Late secondary  │ Phase 3-4      │ Domain override CÓ THỂ xảy ra.    │
+    │ + University    │ (Calibrate →   │ → EXPECT critical thinking.        │
+    │ (16+)           │  Domain        │ → Teacher CHỨNG MINH competence   │
+    │                 │  Override)     │   (không chỉ claim authority).     │
+    │                 │                │ → Arc design: evidence-based,      │
+    │                 │                │   not authority-based.             │
+    └─────────────────┴────────────────┴────────────────────────────────────┘
+
+
+  ⭐ VIRTUOUS/VICIOUS LOOP (Compile-Taxonomy v3.0 §7.3-7.4):
+
+    VIRTUOUS:
+      Trust teacher (intention ③) → auto-receptive (Entity-Valence propagate)
+      → VALUE stream compile approach → learning positive → trust DEEPEN
+      → → PFC freed (less suppress needed) → learning cost GIẢM
+      → = Cycle tự reinforcing: INVEST ở first weeks → COMPOUND over months
+
+    VICIOUS:
+      Distrust teacher → auto-reject (Entity-Valence block/dampen)
+      → VALUE stream compile avoidance → learning negative → trust ERODE
+      → → PFC must suppress (cost TĂNG) → exhaustion → avoidance DEEPER
+      → = Cycle tự reinforcing: MISS first weeks → COMPOUND negative over months
+
+    → ASYMMETRY: Virtuous CHẬM khởi tạo (trust build chậm).
+      Vicious NHANH khởi tạo (trust collapse nhanh).
+      → = First impression KHÔNG CÔNG BẰNG nhưng là MECHANISM.
+
+
+  ⭐ TRUST COLLAPSE × EDUCATION:
+
+    Trust build = months. Trust collapse = 1 betrayal (Trust.md §4).
+    → Teacher shaming student publicly → trust collapse per-student → ALL đã build = MẤT.
+    → Teacher unfair grading → trust-intention collapse → VALUE stream = avoidance.
+    → Teacher lying → trust-competence + trust-intention collapse → TOTAL RESET.
+
+    REPAIR = MONTHS, NOT HOURS:
+      → "Xin lỗi" = current valence shift (nhanh) ≠ trust rebuild (chậm).
+      → Trust repair cần: acknowledge + consistent behavior change × time.
+      → CONNECTION-EDUCATION.md v1.1 §6.4: repair relationship ≠ repair trust.
+
+    → ARC DESIGN: ĐẦU TƯ BẢO VỆ trust > sửa chữa trust.
+      Prevention >> Repair (asymmetry = mechanism-based).
+
+  🟢 Trust = prediction about reliability: Trust.md v1.0 §1
+  🟢 3 sub-dimensions (ability, benevolence, integrity): Mayer, Davis & Schoorman 1995
+  🟢 Trust ≠ liking: Colquitt et al. 2007
+  🟢 Trust build slow / collapse fast: Slovic 1993; Baumeister et al. 2001
+  🟢 Epistemic trust in children: Csibra & Gergely 2009
+  🟡 Trust × education stages mapping = framework application (Trust.md §5)
+  🟡 Virtuous/Vicious loop = Compile-Taxonomy v3.0 §7.3-7.4 applied
+  🟡 Trust as Amplifier = Compile-Taxonomy v3.0 §3 formal integration
+```
+
+### §2.12 — Nguyên lý 10: Self-Observation = Metacognitive Foundation
+
+```
+⭐⭐ v2.2 NEW — SELF-OBSERVATION QUYẾT ĐỊNH METACOGNITION HIỆU QUẢ (Self-Observation.md v1.0):
+
+  Self-Observation = f(Interoception × PFC_Encoding × Attention_Direction=SELF)
+  = APPLICATION-3 trên Simulation-Engine (Self, Present, Observe)
+  = Student observe CHÍNH MÌNH đang học — body state, emotional state, pattern.
+
+  TẠI SAO QUAN TRỌNG CHO ARC DESIGN:
+    → "Metacognition" (biết về cách mình học) = PHÁT TRIỂN.
+    → Self-Observation MỨC quyết định STRATEGY NÀO hiệu quả.
+    → Arc design phải MATCH strategy với student's Self-Observation Mức.
+
+
+  ⭐ MỨC SELF-OBSERVATION × METACOGNITIVE STRATEGY (Self-Observation.md §4):
+
+    ┌──────────────────┬──────────────────────────┬──────────────────────────┐
+    │ Mức              │ Student CÓ THỂ           │ Metacognitive Strategy    │
+    ├──────────────────┼──────────────────────────┼──────────────────────────┤
+    │ Mức 2            │ "Tôi biết tôi mệt"      │ Body-based feedback ĐỦ.  │
+    │ (Body-Recognize) │ "Tôi biết tôi chán"      │ Verbal reflection GIỚI   │
+    │ (hầu hết student)│ Compiled, cost ≈ 0       │ HẠN (biết state, chưa    │
+    │                  │                          │ biết TẠI SAO).           │
+    ├──────────────────┼──────────────────────────┼──────────────────────────┤
+    │ Mức 3            │ "Chút nữa tôi sẽ lo"    │ CÓ THỂ predict reaction  │
+    │ (Body-Predict)   │ "Nếu làm X thì tôi      │ → pre-plan strategy.     │
+    │ (trained)        │  sẽ feel Y"              │ "Biết mình sẽ chán →    │
+    │                  │                          │  chuẩn bị thay đổi."    │
+    ├──────────────────┼──────────────────────────┼──────────────────────────┤
+    │ Mức 4            │ "Tôi HAY stuck khi       │ CAN analyze own learning │
+    │ (Pattern-Observe)│  gặp dạng bài này"       │ patterns → adjust.       │
+    │ (trained + time) │ "Dạo này tôi né domain X"│ "Biết pattern → đổi     │
+    │                  │                          │  approach."              │
+    ├──────────────────┼──────────────────────────┼──────────────────────────┤
+    │ Mức 5            │ "Explanation tôi đang     │ Meta-learning: evaluate  │
+    │ (Meta-Observe)   │  tạo có đúng không?"     │ OWN evaluation process.  │
+    │ (rare, 15+)      │ "Tôi đang rationalize   │ → Self-directed learning │
+    │                  │  hay thật sự hiểu?"      │   THẬT (not just claimed)│
+    └──────────────────┴──────────────────────────┴──────────────────────────┘
+
+    → Student Mức 2: "study journal" = KHÔNG hiệu quả (chưa BIẾT pattern)
+    → Student Mức 3-4: "study journal" = CÓ THỂ hiệu quả (biết pattern → ghi → track)
+    → Student Mức 5: tự evaluate learning strategy quality (hiếm, don't assume)
+    → = "Metacognitive strategies" KHÔNG universal — effective PER MỨC.
+
+
+  ⭐ TEACHER AS EXTERNAL SCAFFOLD PER MỨC (Self-Observation.md §2.4 Pathway 2):
+
+    Self-Observation có 2 pathways:
+      ① Internal: student TỰ nhận ra (delta vượt threshold)
+      ② External: teacher DIRECT attention → amplify signal → student nhận ra
+
+    Pathway 2 = TEACHER SCAFFOLD:
+
+      Scaffold Mức 3: "Con cảm thấy thế nào về bài này?"
+        → Direct attention inward → student TRẢ LỜI body state
+        → = Prompt Self-Observation khi student chưa tự trigger
+
+      Scaffold Mức 4: "Con có thấy pattern khi nào con hay bị stuck?"
+        → Direct attention to PATTERN → student bắt đầu observe pattern
+        → = Guide Self-Observation từ state → pattern
+
+      Scaffold Mức 5: "Frustration con đang cảm là về BÀI hay về CÁI KHÁC?"
+        → Prompt META-observation (observe OBSERVATION)
+        → = Guide Self-Observation từ pattern → meta
+
+    → Teacher = External Scaffold cho Self-Observation NHƯ scaffolding cho learning.
+    → Scaffold ĐÚNG Mức → development. Scaffold QUÁ CAO → miss. Scaffold QUÁ THẤP → boring.
+
+
+  ⭐ SELF-OBSERVATION × PFC BUDGET — COMPETITION:
+
+    Learning = PFC consumer (§2.3 ⑤).
+    Self-Observation = CŨNG PFC consumer (PFC HOLD open, encode, compare).
+    CẢ HAI dùng CÙNG PFC budget → CẠNH TRANH.
+
+    → Student đang học bài khó (PFC budget → learning) →
+      Self-Observation = FIRST TO GO (Self-Observation.md §5.2)
+      → "Không biết mình mệt" vì PFC đang XỬ LÝ content.
+
+    HỆ QUẢ CHO ARC DESIGN:
+      → Self-Observation training NGOÀI content learning time.
+        "Dừng 5 phút — body check: mệt không? Lo không? Chán không?"
+      → HOẶC: built vào arc design AS SEPARATE MINI-ARC:
+        Content mini-arc → Self-Observation mini-arc (body check) → Content mini-arc
+      → KHÔNG đòi hỏi self-reflect GIỮA LÚC content khó → PFC impossible.
+      → = "Reflect on your learning" chỉ work KHI PFC budget available.
+
+
+  ⭐ KEYSTONE PROPERTY — TẠI SAO EDUCATION PHẢI DEVELOP (Self-Observation.md §7):
+
+    Self-Observation fail → CASCADE 5+ systems:
+      ├→ Self-Pattern-Modeling FAIL → teacher-student calibration BROKEN
+      │    (Bird & Cook 2013: self-awareness = prerequisite cho empathy)
+      ├→ Imagine-Final quality DROP → motivation UNCLEAR
+      │    (Damasio 1994: vmPFC patients = logic intact, decisions paralyzed)
+      ├→ Dual Check FAIL → manipulation vulnerability
+      └→ Moral judgment DEGRADE → rule-following without moral sense
+
+    → Education KHÔNG CHỈ dùng Self-Observation — phải DEVELOP nó.
+    → Self-Observation = meta-skill transferable to ALL domains.
+    → Student với Self-Observation Mức 3+ → TƯƠNG TÁC VỚI ARC TỐT HƠN:
+      Biết khi mình overwhelm → signal teacher/AI → arc adjust.
+      Biết khi mình bored → signal → arc tăng challenge.
+      = Student as ACTIVE VERIFIER (§4 Layer 3) CẦN Self-Observation.
+
+
+  ⭐ TEEN PARADOX × EDUCATION (Self-Observation.md §6.3):
+
+    Teen (13-18): CAN meta-observe, CAN'T regulate.
+    dlPFC ✅ → CAN analyze: "tôi biết tôi đang trì hoãn."
+    vmPFC↔body ❌ → CAN'T use analysis to change: VẪN trì hoãn.
+
+    → "Tại sao con biết mà vẫn làm?" = SAI CÂU HỎI.
+    → Đúng câu hỏi: "Con đã observe được — connection vmPFC↔body chưa mature."
+    → Education strategy cho teen:
+      ✅ Acknowledge observation: "tốt, con nhận ra rồi."
+      ✅ External scaffold (cấu trúc, routine) thay cho regulation.
+      ❌ KHÔNG ĐÒI regulation từ observation (hardware chưa đủ).
+      → = Self-Observation ≠ Self-Regulation. Observation TRƯỚC, regulation SAU (years).
+
+  🟢 Interoception foundation: Craig 2002, 2009
+  🟢 Self-awareness prerequisite cho empathy: Bird & Cook 2013
+  🟢 vmPFC patients decision paralysis: Damasio 1994
+  🟢 Teen vmPFC-amygdala mismatch: Casey 2008; Steinberg 2005
+  🟡 Mức × Metacognitive strategy mapping = framework application (Self-Observation.md §4)
+  🟡 External scaffold per Mức = Self-Observation.md §2.4 applied
+  🟡 PFC budget competition = PFC-Operations.md §9 + Self-Observation.md §5.2 combined
+  🟡 Education must develop Self-Observation = framework synthesis
+```
+
+### §2.13 — Tổng hợp 10 nguyên lý + 1 synthesis
 
 ```
   ┌────┬─────────────────────────────────┬──────────────────────────────────┐
@@ -1262,6 +1544,10 @@ EDUCATION ≠ SCHOOL:
   │ 7  │ Sleep Maintenance + Recovery    │ 6 mechanisms (~1.5 exposure,     │
   │    │ (v2.1: 6 mechanisms + rest)     │ ~4.5 optimization) + PFC repair  │
   │ 8  │ Assess depth, not surface       │ Chunk compilation levels         │
+  │ 9  │ Build trust before content      │ Trust = compiled prediction ×    │
+  │    │ (v2.2: Trust.md v1.0)           │ 3 sub-dimensions × Amplifier     │
+  │ 10 │ Self-Observation = metacognitive│ Mức gradient × PFC budget        │
+  │    │ foundation (v2.2: v1.0)         │ competition × Keystone cascade   │
   ├────┼─────────────────────────────────┼──────────────────────────────────┤
   │ S  │ 3 Compile Types × Arc Design   │ Trust (bootstrap) → Experience   │
   │    │ (v2.1 SYNTHESIS)                │ (depth) → Expertise (mastery)    │
@@ -1276,16 +1562,16 @@ EDUCATION ≠ SCHOOL:
 
   ⭐ "VÔ VÀN CÁCH DẠY" — FRAMEWORK KHÔNG PRESCRIBE:
 
-    → Bất kỳ cách dạy nào follow 8 nguyên lý = VALID
+    → Bất kỳ cách dạy nào follow 10 nguyên lý = VALID
     → Cách dạy vi phạm ≥1 nguyên lý = GIẢM hiệu quả
-    → AI + 8 nguyên lý → generate arc PHÙ HỢP per student per topic
+    → AI + 10 nguyên lý → generate arc PHÙ HỢP per student per topic
     → Teacher verify + Student feedback = calibrate
     → = Engine, không phải GPS
 
 
   ĐỘ TIN CẬY: 🟡 (derived from 🟢 mechanisms)
     → Logic mạnh + historical evidence consistent
-    → Chưa proven "8 nguyên lý = optimal set" trong controlled study
+    → Chưa proven "10 nguyên lý = optimal set" trong controlled study
     → Có thể thiếu, có thể thừa → OPEN to revision
     → = Khung tham chiếu tốt nhất hiện tại, không phải chân lý cuối cùng
 ```
@@ -1747,10 +2033,14 @@ EDUCATION ≠ SCHOOL:
 ⭐ CÁI FILE NÀY CÓ THỂ LÀM:
 
   ✅ Cung cấp nguyên lý brain-based cho learning arc design
-     → 8 nguyên lý + 1 synthesis derived từ established neuroscience mechanisms
+     → 10 nguyên lý + 1 synthesis derived từ established neuroscience mechanisms
      → v2.0: enriched with Hardware-Subsidy, PFC Budget, Dissonance-Signal-Architecture, Entity-Access
      → v2.1: +Multi-Stream × Direction (4 streams), +Critical Asymmetry × Imagine-Final,
        +Sleep Maintenance (6 mechanisms), +3 Compile Types × Arc Design
+     → v2.2: +Trust Before Content (Trust.md v1.0: definition, 3 sub-dimensions,
+       Default→Calibrated × education stages, Virtuous/Vicious loop, collapse/repair),
+       +Self-Observation Metacognitive Foundation (Self-Observation.md v1.0: Mức × strategy,
+       External Scaffold, PFC budget competition, Keystone cascade, Teen Paradox)
   ✅ Kết nối Child-Dev-Mechanism (0-6) với structured education (6+)
      → Clear handoff: cùng architecture, khác context
   ✅ Cung cấp bridge/motivation framework
@@ -1787,10 +2077,13 @@ EDUCATION ≠ SCHOOL:
     🟢 Intrinsic vs extrinsic motivation (§3.1)
 
   TRUNG BÌNH — Derived principles:
-    🟡 8 nguyên lý + 1 synthesis arc design (derived từ 🟢 mechanisms)
+    🟡 10 nguyên lý + 1 synthesis arc design (derived từ 🟢 mechanisms)
     🟡 Bridge = nguồn ④ (Anchor-Schema synthesis)
     🟡 4 nguồn fill trajectory (framework application)
     🟡 3 ORIGIN applied to education (framework formulation)
+    🟡 Trust × education stages mapping (Trust.md §5 applied — v2.2)
+    🟡 Self-Observation Mức × metacognitive strategy mapping (Self-Observation.md §4 applied — v2.2)
+    🟡 Teacher as External Scaffold per Mức (Self-Observation.md §2.4 applied — v2.2)
 
   THẤP — Hypotheses:
     🔴 AI-assisted 3-layer model (chưa test systematic)
@@ -1861,6 +2154,20 @@ NỀN TẢNG TRỰC TIẾP (Core-Deep-Dive/)
   Creative Linking + Emotional Decoupling + Gist Extraction.
   ~1.5 exposure-based, ~4.5 optimization-based.
   Kết nối: §2.8 (Nguyên lý 7 enriched).
+
+→ Trust.md v1.0 — TRUST MECHANISM ⭐NEW v2.2
+  Trust = compiled prediction about gap-fill RELIABILITY.
+  3 sub-dimensions (Authority/Competence/Intention).
+  Default→Calibrated 4 phases. Build slow / collapse fast.
+  Trust = Amplifier for VALUE stream (NOT Gate).
+  Kết nối: §2.11 (Nguyên lý 9 — Trust Before Content), §2.9 (Trust Compile backing).
+
+→ Self-Observation.md v1.0 — SELF-OBSERVATION MECHANISM ⭐NEW v2.2
+  APPLICATION-3 trên Simulation-Engine (Self, Present, Observe).
+  Gradient Mức 0-6. Keystone cascade (5+ systems).
+  2-Axis Model: Capacity × Activation. External Scaffold Pathway 2.
+  Teen Paradox: CAN observe, CAN'T regulate.
+  Kết nối: §2.12 (Nguyên lý 10 — Metacognitive Foundation).
 
 → Core-v7.8-Draft.md — Kiến trúc cycle-based
   Perception-Action Cycle, Chunk-System = sole substrate.
@@ -1984,8 +2291,9 @@ BỘ 3 EDUCATION + OBSERVATION (Research/Education/)
 ═══════════════════════════════════════════════════════
 
 → Domain-Knowledge-Map.md v1.0 — FILE 2: WHAT nhóm kiến thức (bộ 3)
-→ Connection-Education.md v1.0 — FILE 3: WHO social interaction (bộ 3) ⭐NEW
+→ Connection-Education.md v1.1 — FILE 3: WHO social interaction (bộ 3)
   5 trụ: Hiểu + Xây dựng + Chọn + Duy trì + Navigate groups.
+  v1.1: +Trust Calibration §5.6, +Self-Observation Keystone §2.5.
 
 → Observation/ folder:
   Education-Arms-Race.md v1.2 — Quan sát vấn đề (arms race)
@@ -2000,6 +2308,34 @@ BỘ 3 EDUCATION + OBSERVATION (Research/Education/)
 ## CHANGELOG
 
 ```
+v2.2 (2026-06-03) — Trust + Self-Observation Integration:
+  DEPENDENCIES:
+    +Trust.md v1.0, +Self-Observation.md v1.0
+    Connection-Education.md v1.0→v1.1
+  NEW CONTENT:
+    §2.11 NEW Nguyên lý 9: Build Trust Before Content (~95L):
+      Trust = compiled prediction × RELIABILITY (Trust.md §1 formal definition).
+      3 sub-dimensions × education (Authority/Competence/Intention — Mayer 1995).
+      Trust ≠ Valence: "thích thầy" ≠ "tin thầy" (Colquitt 2007).
+      Trust as Amplifier for VALUE stream (CT v3.0 §3 integrated).
+      Trust Default→Calibrated × education stages table (Trust.md §5).
+      Virtuous/Vicious loop (CT §7.3-7.4 applied to education).
+      Trust collapse × education + repair asymmetry.
+    §2.12 NEW Nguyên lý 10: Self-Observation = Metacognitive Foundation (~85L):
+      Mức × metacognitive strategy effectiveness table (Self-Observation §4).
+      Teacher as External Scaffold per Mức (Self-Observation §2.4 Pathway 2).
+      Self-Observation × PFC Budget competition (PFC-Ops §9 + Self-Observation §5.2).
+      Keystone cascade for education (Self-Observation §7 — 5+ systems).
+      Teen Paradox × education strategy (Self-Observation §6.3 — CAN observe, CAN'T regulate).
+  RENUMBER: §2.11→§2.13
+  8 nguyên lý + 1 synthesis → 10 nguyên lý + 1 synthesis
+  §2.13: summary table +2 rows (nguyên lý 9 + 10), "8"→"10" throughout
+  §0.2: +Trust/Self-Observation annotations
+  §0.5: 8→10 nguyên lý
+  §5: Honest Assessment updated (v2.2 entries, confidence per section +3 entries)
+  §6: +Trust.md v1.0, +Self-Observation.md v1.0 cross-refs, Connection-Ed v1.0→v1.1
+  Total: ~200L net addition
+
 v2.1 (2026-06-01) — Compile Architecture Refine:
   TERMINOLOGY (11 vị trí):
     "4+1 kênh compile" → "Compile Architecture (1 Engine + 3 Modulators)"

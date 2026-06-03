@@ -672,6 +672,10 @@ BODY-NEED CÓ 7 PROPERTIES:
        → Delta mỗi ngày quá nhỏ → không vượt threshold PFC attention
        → Connection: Boredom-Analysis.md core mechanism
        → ĐẶC BIỆT NGUY HIỂM: tích tụ silent → bùng khi quá ngưỡng
+       → ⭐ Self-Observation connection (Self-Observation.md §2):
+         Prediction-delta vượt threshold → Self-Observation triggered
+         Miss MỜ tích tụ → Self-Observation BỊ DELAY (delta < threshold mỗi ngày)
+         = Micro-negative delta (sankhara-dukkha): Self-Observation Trigger Type ②
 
     ⓒ MISS VÔ THỨC — body biết, PFC không biết:
        → Từ quê lên thành phố làm việc lâu → về quê bỗng sảng khoái
@@ -1454,6 +1458,9 @@ WHAT THIS FILE DOES NOT DO:
   → Valence-Propagation.md v1.4 — valence per-entity + chain propagation
   → Feeling.md v2.0 — PFC observation of body-feedback (output of dynamics)
   → Somatic-Articulation-Loop.md — felt sense = Gap detection pre-verbal
+  → Self-Observation.md v1.0 — APPLICATION-3: prediction-delta → Self-Observation trigger (§2)
+    → Miss MỜ ⓑ = Self-Observation Trigger Type ② (micro-negative, sankhara-dukkha)
+    → §3.2 Chunk-Miss → Self-Observation delay khi delta tích tụ silent
 
 📚 GAP + DIRECTION:
   → Gap-Direction.md v1.1 — gap has direction = f(surrounding chunks)

@@ -2209,6 +2209,7 @@ After 18 drill files (~238 insights), comprehensive propagation underway:
 
 - `PFC-Operations.md v1.0` — Hold/Suppress, Compiled Quality, PFC Budget, B vs C
 - `Simulation-Engine.md v1.0` — 1 Engine × 3 Components × 3 Axes → N applications
+- `Self-Observation.md v1.0` — APPLICATION-3: Self × Present × Observe. Keystone property
 - `PFC-Label.md v1.0` — vocabulary standard
 
 ### §20.3 — Core mechanism files

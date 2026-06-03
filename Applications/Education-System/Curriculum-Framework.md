@@ -1,23 +1,27 @@
 ---
 title: Curriculum Framework — Dạy Cái Gì, Khi Nào, Cho Ai v7.8
-version: 2.2
+version: 2.3
 created: 2026-04-03
-updated: 2026-06-01 (v2.2 — Compile Architecture refine: +Compile Type per-domain, +Multi-Stream × Sequencing, +Compile-Taxonomy v3.0/Compile-Sleep v1.0 deps, all Education/Child-Dev version refs updated)
-previous_update: 2026-05-25 (v2.1 — DEEP REFINE: +ENGINE/ROAD/VEHICLE xuyên suốt, +Connection-Education v1.0 WHO, +Gap-Distribution-Profile gap landscape shaping, +Hardware-Subsidy curriculum as subsidy vehicle, +PFC Budget depth constraint, +Compiled Quality Dimension genuine/schema/threat, +Dissonance-Signal-Architecture compound vocabulary, +bộ 3 architecture, all deps updated)
-status: v2.2
+updated: 2026-06-03 (v2.3 — Trust + Self-Observation integration: +Self-Observation cross-cutting infrastructure §2, +Trust-aware curriculum sequencing §4, +Trust.md v1.0/Self-Observation.md v1.0 deps, all Tầng 3/4 version refs updated)
+previous_update: 2026-06-01 (v2.2 — Compile Architecture refine: +Compile Type per-domain, +Multi-Stream × Sequencing, +Compile-Taxonomy v3.0/Compile-Sleep v1.0 deps, all Education/Child-Dev version refs updated)
+status: v2.3
 scope: |
   DẠY CÁI GÌ, KHI NÀO, THEO THỨ TỰ NÀO, SÂU BAO NHIÊU.
   Knowledge domains × system stages × depth targets.
   Derived từ "bộ 3" Tầng 3:
-    Education-Mechanism.md v2.1 (HOW — arc design principles) +
-    Domain-Knowledge-Map.md v2.0 (WHAT — domain taxonomy) +
-    Connection-Education.md v1.0 (WHO — social interaction education)
-  + Education-System.md v3.1 (system stages).
+    Education-Mechanism.md v2.2 (HOW — arc design principles) +
+    Domain-Knowledge-Map.md v2.1 (WHAT — domain taxonomy) +
+    Connection-Education.md v1.1 (WHO — social interaction education)
+  + Education-System.md v3.2 (system stages).
   v2.1: +ENGINE/ROAD/VEHICLE lens (curriculum = ROAD DESIGN — quyết định
   build ROAD NÀO cho population), +Gap-Distribution-Profile (curriculum
   SHAPES gap landscape), +Hardware-Subsidy (curriculum = societal subsidy
   delivery vehicle), +Compiled Quality (depth × quality), +PFC Budget
   (depth targets need cost awareness).
+  v2.3: +Self-Observation cross-cutting infrastructure (§2 — per-stage Mức
+  targets, Compiled Quality, per-hardware baseline), +Trust-aware curriculum
+  sequencing (§4 — trust-first weeks, trust-intensive subjects, trust
+  calibration as curriculum element), +Trust.md v1.0/Self-Observation.md v1.0.
 purpose: |
   File NÀY = DELIVERY MATRIX — bridge giữa "bộ 3" Tầng 3 trừu tượng
   với system design cụ thể.
@@ -30,18 +34,21 @@ purpose: |
   ROAD NÀO, ở ĐỘ SÂU nào, theo THỨ TỰ nào.
 position: |
   TẦNG 4 — Applications, DERIVED từ tất cả tầng trước.
-  Trong folder: Education-System.md v3.1 (anchor) → file này (derived).
-  Tầng 3 "bộ 3": Mechanism v2.1 (HOW) + Domain-Knowledge-Map v2.0 (WHAT) + Connection-Education v1.0 (WHO).
+  Trong folder: Education-System.md v3.2 (anchor) → file này (derived).
+  Tầng 3 "bộ 3": Mechanism v2.2 (HOW) + Domain-Knowledge-Map v2.1 (WHAT) + Connection-Education v1.1 (WHO).
 dependencies:
   education-foundation:
-    - Education-Mechanism.md v2.1 — HOW: nguyên lý arc design (bộ 3)
-    - Domain-Knowledge-Map.md v2.0 — WHAT: bản đồ nhóm kiến thức (bộ 3)
-    - Connection-Education.md v1.0 — WHO: social interaction education (bộ 3)
+    - Education-Mechanism.md v2.2 — HOW: nguyên lý arc design (bộ 3)
+    - Domain-Knowledge-Map.md v2.1 — WHAT: bản đồ nhóm kiến thức (bộ 3)
+    - Connection-Education.md v1.1 — WHO: social interaction education (bộ 3)
   compile-architecture:
     - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators + 3 Exposure Channels
     - Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms)
+  trust/self-observation:
+    - Trust.md v1.0 — Trust as Amplifier, Default→Calibrated 4 phases, 3 sub-dimensions
+    - Self-Observation.md v1.0 — Gradient Mức 0-6, Compiled Quality, Tool Not Virtue
   education-observation:
-    - Education-Arms-Race.md v1.3 — cạnh tranh giáo dục
+    - Education-Arms-Race.md v1.4 — cạnh tranh giáo dục
   core-mechanism:
     - Core-Software.md v2.0 — cycle-based architecture
     - Core-Hardware.md v1.0 — 4 zones A/B/C/D
@@ -65,10 +72,10 @@ dependencies:
     - Gap-Body-Need.md v1.0 — 3 Satiation Types, ENGINE/ROAD/VEHICLE
     - Body-Base.md v3.1 — Model 3+1
   child-dev:
-    - Child-Development-Mechanism.md v2.2 — developmental timeline
+    - Child-Development-Mechanism.md v2.3 — developmental timeline
   application:
-    - Education-System.md v3.1 — system stages, ENGINE/ROAD/VEHICLE
-    - Hardware-Calibration.md v1.1 — per-individual calibration
+    - Education-System.md v3.2 — system stages, ENGINE/ROAD/VEHICLE
+    - Hardware-Calibration.md v1.2 — per-individual calibration
 previous: backup/v2.0/Curriculum-Framework.md (754L, v2.0, 2026-05-11)
 changes_v2:
   - Re-base: "NL1-NL10" → Education-Mechanism.md v1.0 §2.x specific refs
@@ -82,7 +89,7 @@ changes_v2:
   - Terminology: "mirror neurons" → Self-Pattern-Modeling, approach/avoidance, Evaluative/Direct-State
 changes_v2.1:
   - ENGINE/ROAD/VEHICLE lens xuyên suốt (curriculum = ROAD DESIGN)
-  - "bộ 3" architecture: +Connection-Education v1.0 (WHO), Empathy-Education → absorbed
+  - "bộ 3" architecture: +Connection-Education v1.1 (WHO), Empathy-Education → absorbed
   - §0 +⑤ Gap Landscape Shaping, +⑥ Hardware-Subsidy Vehicle, +⑦ PFC Budget Awareness
   - §2 +Compiled Quality Dimension (genuine/schema/threat), +PFC Budget cross-cutting, +Gap Landscape per stage
   - §4 +ENGINE/ROAD/VEHICLE frame per stage, +Gap Landscape shaping
@@ -90,6 +97,13 @@ changes_v2.1:
   - §6 Cross-refs complete rewrite — categorized, all versions updated, +15 new files
   - All dep versions updated, Self-Pattern-Modeling Compiled → Self-Pattern-Modeling v3.1
   - deps restructured: flat → 8 categories (30+ entries)
+changes_v2.3:
+  - §2 +Self-Observation cross-cutting infrastructure (per-stage Mức targets, Compiled Quality × Self-Observation, per-hardware baseline, assessment approach)
+  - §4 +Trust-aware curriculum sequencing (trust-first weeks, trust-intensive subjects, trust calibration as curriculum element)
+  - +Trust.md v1.0, Self-Observation.md v1.0 deps (trust/self-observation category)
+  - All Tầng 3 refs updated (Education-Mechanism v2.2, Domain-Knowledge-Map v2.1, Connection-Education v1.1)
+  - All Tầng 4 refs updated (Education-System v3.2, Hardware-Calibration v1.2)
+  - Child-Dev v2.3, Education-Arms-Race v1.4
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Era prediction
 durability: |
@@ -123,7 +137,7 @@ durability: |
 ## Mục lục
 
 0. Mục đích + Nguyên tắc curriculum
-1. Taxonomy (brief — chi tiết xem Domain-Knowledge-Map v2.0)
+1. Taxonomy (brief — chi tiết xem Domain-Knowledge-Map v2.1)
 2. Foundation Delivery Matrix (DURABLE)
 3. Era-specific Delivery (2025+, TIME-BOUND)
 4. Sequencing by Stage
@@ -139,23 +153,23 @@ TẠI SAO CẦN FILE NÀY (vị trí trong bộ 3 + ENGINE/ROAD/VEHICLE):
 
   TẦNG 3 "BỘ 3" — NỀN TẢNG (Research/Education/):
 
-    Education-Mechanism.md v2.1 = HOW — NGUYÊN LÝ THIẾT KẾ ARC
+    Education-Mechanism.md v2.2 = HOW — NGUYÊN LÝ THIẾT KẾ ARC
       → 8+ nguyên lý brain-based (Direction > Level, Cost, Prerequisite...)
       → Valid mọi era, mọi domain
       → = HOW thiết kế bài — chưa cho biết TEACH WHAT
 
-    Domain-Knowledge-Map.md v2.0 = WHAT — BẢN ĐỒ NHÓM KIẾN THỨC
+    Domain-Knowledge-Map.md v2.1 = WHAT — BẢN ĐỒ NHÓM KIẾN THỨC
       → 3 tiers: Foundation / Era-specific / Per-hardware
       → Per nhóm: WHY cần + prerequisite + timing hint
       → = WHAT tồn tại — chưa cho biết TEACH WHEN, HOW DEEP
 
-    Connection-Education.md v1.0 = WHO — DẠY TƯƠNG TÁC XÃ HỘI
+    Connection-Education.md v1.1 = WHO — DẠY TƯƠNG TÁC XÃ HỘI
       → 5 khía cạnh: hiểu + xây + chọn + duy trì + navigate groups
       → Pragmatic, body-based, per-age guide
       → = WHO interact — social interaction education toàn diện
 
   File NÀY = DELIVERY MATRIX (ROAD MAP)
-    → Nối bộ 3 (HOW + WHAT + WHO) × Education-System v3.1 stages (WHEN)
+    → Nối bộ 3 (HOW + WHAT + WHO) × Education-System v3.2 stages (WHEN)
     → Per domain × per stage → depth target + delivery notes
     → + Sequencing: balance giữa 3 tiers per stage
     → + Cái cần giảm/bỏ (practical guidance)
@@ -180,27 +194,27 @@ TẠI SAO CẦN FILE NÀY (vị trí trong bộ 3 + ENGINE/ROAD/VEHICLE):
 7 NGUYÊN TẮC CURRICULUM:
 
   ① FOUNDATION TRƯỚC, SPECIALIZATION SAU
-     (Education-Mechanism v2.1 §2.4 — prerequisite check)
+     (Education-Mechanism v2.2 §2.4 — prerequisite check)
      → Foundation domains = MỌI era, MỌI hardware cần = UNIVERSAL ROAD
      → Specialization = emerge per-hardware + per-interest, Stage 3+
      → "Tất cả biết đọc, biết tính, biết giao tiếp → RỒI MỚI chuyên sâu"
      → ≠ "Specialization sớm" (nguy hiểm: build trên foundation yếu)
 
   ② MECHANISM-BASED DELIVERY
-     (Education-Mechanism v2.1 §2 — 8+ nguyên lý arc design)
+     (Education-Mechanism v2.2 §2 — 8+ nguyên lý arc design)
      → MỌI content → deliver qua đúng brain mechanism
      → Direction > Level: approach-direction, KHÔNG threat-direction (§2.2)
      → Content KHÔNG quyết định method → brain mechanism quyết định method
      → VD: "Dạy toán" → method depends on hardware + direction, NOT on "toán"
 
   ③ ADAPTABILITY SONG SONG VỚI CONTENT
-     (Domain-Knowledge-Map v2.0 §1.6 — Meta-learning = foundation domain)
+     (Domain-Knowledge-Map v2.1 §1.6 — Meta-learning = foundation domain)
      → Meta-learning ≠ "dạy sau khi dạy content"
      → Meta-learning = SONG SONG: "trong khi học toán, cũng đang học CÁCH HỌC"
      → Mỗi content domain = vehicle for BOTH domain knowledge + meta-skill
 
   ④ ALIGN VỚI DEVELOPMENTAL TIMELINE
-     (Child-Development-Mechanism v2.2 §9 — sensitive periods)
+     (Child-Development-Mechanism v2.3 §9 — sensitive periods)
      → Đúng skill + đúng window = compile dễ + sâu + approach-tagged
      → Sai timing = vẫn compile nhưng cost cao hơn + risk avoidance tag
      → Curriculum timing align với PFC development + sensitive periods
@@ -231,12 +245,12 @@ TẠI SAO CẦN FILE NÀY (vị trí trong bộ 3 + ENGINE/ROAD/VEHICLE):
 
 ---
 
-## 1. TAXONOMY (brief — chi tiết xem Domain-Knowledge-Map.md v2.0)
+## 1. TAXONOMY (brief — chi tiết xem Domain-Knowledge-Map.md v2.1)
 
 ```
-⭐ Domain-Knowledge-Map v2.0 ĐÃ MÔ TẢ CHI TIẾT 3-TIER TAXONOMY.
+⭐ Domain-Knowledge-Map v2.1 ĐÃ MÔ TẢ CHI TIẾT 3-TIER TAXONOMY.
    Section này CHỈ TỔNG HỢP — context cho §2-§5.
-   Per-domain detail (WHY, prerequisite, timing) → xem Domain-Knowledge-Map v2.0.
+   Per-domain detail (WHY, prerequisite, timing) → xem Domain-Knowledge-Map v2.1.
 
 
 3 TIERS — từ durable đến flexible:
@@ -264,7 +278,7 @@ NGUYÊN TẮC CHUNG:
   → Foundation TRƯỚC, specialization SAU (Domain-Knowledge-Map §4 — prerequisite logic)
   → Tier 1 rộng → Tier 2 thêm → Tier 3 sâu
   → Mỗi domain = 1 "cây" — gốc ai cũng cần, nhánh vô tận (Domain-Knowledge-Map §0.2)
-  → CÁCH đạt depth = KHÁC per hardware (Hardware-Calibration.md v1.1)
+  → CÁCH đạt depth = KHÁC per hardware (Hardware-Calibration.md v1.2)
 
   Qua ENGINE/ROAD/VEHICLE:
   → Tier 1 = UNIVERSAL ROAD (mọi ENGINE cần)
@@ -273,7 +287,7 @@ NGUYÊN TẮC CHUNG:
 
 
 🟡 Taxonomy là framework synthesis — ranh giới Tier 1/2 có chỗ fuzzy
-   (VD: Basic Science = Foundation hay Era-specific? → Domain-Knowledge-Map v2.0 §2.4 acknowledge)
+   (VD: Basic Science = Foundation hay Era-specific? → Domain-Knowledge-Map v2.1 §2.4 acknowledge)
 ```
 
 ---
@@ -282,7 +296,7 @@ NGUYÊN TẮC CHUNG:
 
 ```
 MỤC ĐÍCH:
-  → 6 Foundation domains (Domain-Knowledge-Map v2.0 §1) × 4 system stages (Education-System v3.1 §1) = MATRIX
+  → 6 Foundation domains (Domain-Knowledge-Map v2.1 §1) × 4 system stages (Education-System v3.2 §1) = MATRIX
   → Per domain × per stage → DEPTH TARGET + delivery notes
   → = "Mọi người ĐỀU cần gì, ở mức nào, khi nào"
   → = DURABLE — valid decades (brain-based depth targets)
@@ -292,7 +306,7 @@ MỤC ĐÍCH:
 
 
 DEPTH LEVELS = CHUNK COMPILATION LEVELS:
-  (Education-Mechanism v2.1 §2.9 + Chunk.md v2.2 §1)
+  (Education-Mechanism v2.2 §2.9 + Chunk.md v2.2 §1)
 
   L1 = RECOGNIZE — "nghe quen"
     → Proto-chunk: fire sometimes, partial match
@@ -394,9 +408,9 @@ KEY OBSERVATIONS:
 
   → Somatic: KHÔNG phải "phụ" → = foundation NGANG các domain khác
     → Body-base = processing channel
-      (Body-Base.md v3.1 — Model 3+1, Education-Mechanism v2.1 §2.2)
+      (Body-Base.md v3.1 — Model 3+1, Education-Mechanism v2.2 §2.2)
     → ≠ "Giờ thể dục" → = experiential learning channel
-    → Multi-modal binding (Child-Dev-Mechanism v2.2 §2 kênh ③) CẦN body channel
+    → Multi-modal binding (Child-Dev-Mechanism v2.3 §2 kênh ③) CẦN body channel
 
   → Social/Emotional: TĂNG complexity per stage
     → Self-Pattern-Modeling v3.1 (Self-Pattern-Modeling.md v3.1) = cơ chế xã hội chính
@@ -404,7 +418,7 @@ KEY OBSERVATIONS:
       (Empathy.md v3.0 — Self-Pattern-Modeling requires self-pattern)
     → Stage 2: basic cooperation → Stage 3: complex negotiation → Stage 4: leadership
     → ≠ "Môn đạo đức" → = practical skills qua TRẢI NGHIỆM
-    → ⭐ Connection-Education v1.0: scope MỞ RỘNG — không chỉ empathy
+    → ⭐ Connection-Education v1.1: scope MỞ RỘNG — không chỉ empathy
       → 5 khía cạnh: hiểu + xây dựng bond + chọn + duy trì + navigate groups
       → Body compile > PFC rule → TRẢI NGHIỆM social > BÀI GIẢNG đạo đức
 
@@ -413,10 +427,10 @@ KEY OBSERVATIONS:
     → Stage 3: develop style (identity + Imagine-Final form)
     → Stage 4: personal voice (unique contribution)
     → Creativity = novel chunk combinations → human differentiator vs AI
-      (Imagine-Final v3.0 emerge qua creative expression — Mechanism v2.1 §2.6)
+      (Imagine-Final v3.0 emerge qua creative expression — Mechanism v2.2 §2.6)
 
   → ⭐ APPROACH/AVOIDANCE ACROSS ALL DOMAINS:
-    (Education-Mechanism v2.1 §2.2 — Direction > Level)
+    (Education-Mechanism v2.2 §2.2 — Direction > Level)
     → Depth target = CHƯA ĐỦ — phải xét DIRECTION + COMPILED QUALITY
     → L3 genuine-compiled > L4 threat-compiled (về lifelong value)
     → "Ghét toán ở L3" < "thích toán ở L2" (lifelong engagement)
@@ -451,7 +465,7 @@ v2.2 FOUNDATION DELIVERY × COMPILE TYPE (Compile-Taxonomy v3.0 §4):
     ④ Social/Emotional: Trust 30% + Experience 70%
        → Values/norms qua Trust (parent/teacher install)
        → Skills qua Experience (trải nghiệm conflict, cooperation, loss)
-       → Connection-Education v1.0: body compile > PFC rule
+       → Connection-Education v1.1: body compile > PFC rule
 
     ⑤ Creative: Experience DOMINANT — Trust Compile can KILL
        → "Vẽ như thế này mới đúng" (Trust) → KILL creativity → approach ✗
@@ -462,11 +476,89 @@ v2.2 FOUNDATION DELIVERY × COMPILE TYPE (Compile-Taxonomy v3.0 §4):
        → Stage 3+: Experience compile từ self-observation → genuine meta-skill
 
 
+v2.3 SELF-OBSERVATION — CROSS-CUTTING INFRASTRUCTURE:
+    (Self-Observation.md v1.0 §4 gradient, §5.3 Compiled Quality, §9 Tool Not Virtue)
+
+    Self-Observation = CROSS-CUTTING CAPACITY (như PFC Budget):
+    → Applies to ALL 6 Foundation domains, NOT standalone subject
+    → Higher Self-Observation Mức → better self-directed learning → faster ALL domains
+    → PFC Budget = resource CONSTRAINT → Self-Observation = resource AWARENESS
+    → Together: biết GIỚI HẠN (PFC Budget) + biết TRẠNG THÁI (Self-Observation)
+    → Self-Observation = TOOL, NOT VIRTUE (Self-Observation.md v1.0 §9)
+
+    Per-stage DEPTH TARGET cho Self-Observation capacity:
+
+      Stage 1 (3-6y): Mức 0→2 — Body-Recognize
+        → Parent/teacher = External Scaffold Pathway 2 (Self-Observation.md v1.0 §2.4)
+        → "Con đang buồn à?" = naming FOR child → builds Mức 1→2
+        → Target: child CAN communicate basic states to teacher
+        → Curriculum implication: NO explicit training → SCAFFOLD qua daily interaction
+
+      Stage 2 (6-12y): Mức 2→3 — Body-Predict
+        → Begin simple self-monitoring: "How do I feel before/after this activity?"
+        → Journaling, check-ins = scaffolded Self-Observation practice
+        → Target: student CAN anticipate own states → plan own learning
+        → Curriculum implication: INTEGRATE into ALL domains (not standalone "mindfulness hour")
+          VD: "Trước khi làm toán, em thấy thế nào?" = Self-Observation × Numeracy
+
+      Stage 3 (12-18y): Mức 3→4 — Pattern-Observe + Teen Paradox
+        → CAN observe own patterns but CAN'T regulate well (PFC still developing)
+        → ⚠️ Teen Paradox (Self-Observation.md v1.0 §6.3):
+          Self-Observation capacity TĂNG + regulation capacity CHƯA ĐỦ = frustration
+        → Reward OBSERVATION, not REGULATION:
+          "Em nhận ra mình hay lo trước thi" = SUCCESS (Mức 4 observation)
+          "Nhưng vẫn lo" = NORMAL (regulation ≠ observation)
+          Punish for noticing-but-not-controlling → KILL observation drive
+        → Target: student CAN analyze own learning patterns across domains
+        → Meta-learning × Self-Observation convergence (§2 ⑤ + cross-cutting)
+
+      Stage 4 (18+): Mức 4→5 — Meta-Observe
+        → Self-Observation = meta-learning TOOL (observe HOW I learn best)
+        → Target: calibrated Self-Observation (Mức 5) = evaluate own observation quality
+        → "Am I actually observing, or just assuming I know?" = Mức 5 question
+        → Self-directed learning REQUIRES Mức 4+ Self-Observation
+          Students below Mức 3 → need continued External Scaffold even at university
+
+    COMPILED QUALITY × SELF-OBSERVATION — HOW develops matters MORE than Mức depth:
+
+      genuine-compiled (safe, curious environment):
+        → "Notice what you feel" → expansive, exploratory Self-Observation
+        → Student observes WITHOUT judgment → observation EXPANDS over time
+
+      threat-compiled ("stop crying", "be rational", "control yourself"):
+        → Self-Observation = threat → observe LESS, suppress MORE
+        → Student learns: observing my states = DANGEROUS → Mức stays LOW
+
+      schema-compiled (formulaic, rote):
+        → "Write 3 things you learned today" without genuine reflection
+        → Surface-level Self-Observation → Mức plateaus at 2-3
+
+    → Implication: ENVIRONMENT first, skill training second
+    → Assessment approach: OBSERVE Self-Observation Mức, don't TEST it
+      → Self-Observation under test = PFC Budget competition → inaccurate reading
+      → Better: observe spontaneous self-monitoring in normal activities
+      → Indicators: body-state naming, anticipating own reactions,
+        adjusting study approach without being told
+
+    PER-HARDWARE Self-Observation baseline (connects §2 ③ Somatic):
+    → Detail-oriented (COMT slow): HIGH baseline → natural advantage
+    → Big picture (COMT fast): LOW baseline → need environmental support
+    → ADHD: VERY LOW → signals filtered before conscious → need AMPLIFICATION
+    → ASD: body signal mapping atypical → need customized vocabulary
+    → Depth target = SAME, pathway = DIFFERENT per hardware
+      (Hardware-Calibration.md v1.2 §3.7 — per-hardware Self-Observation)
+
+    🟡 Self-Observation gradient + per-stage targets = framework synthesis
+       Specific Mức targets per stage = approximate, per-individual varies
+       Cross-ref: Self-Observation.md v1.0 §4 (gradient), §5.3 (Compiled Quality),
+       §6.3 (Teen Paradox), §9 (Tool Not Virtue), §2.4 (External Scaffold)
+
+
 NGUYÊN TẮC FOUNDATION:
 
   ① EVERYONE — bất kể hardware:
      → Foundation = same depth targets cho TẤT CẢ = UNIVERSAL ROAD
-     → CÁCH ĐẠT depth = KHÁC per hardware (Hardware-Calibration.md v1.1)
+     → CÁCH ĐẠT depth = KHÁC per hardware (Hardware-Calibration.md v1.2)
      → "Biết đọc, biết tính, biết giao tiếp, biết cảm nhận,
         biết sáng tạo, biết TỰ HỌC" = UNIVERSAL targets
 
@@ -563,7 +655,7 @@ MỤC ĐÍCH:
     → Thế giới vật chất hoạt động thế nào (qua trải nghiệm)
     → Scientific method seeds: observe, hypothesize, test
     → ⚠️ Approach-direction crucial: hands-on + wonder, NOT memorize facts
-      (Education-Mechanism v2.1 §2.2 — Direction > Level)
+      (Education-Mechanism v2.2 §2.2 — Direction > Level)
 
   Stage 3: METHOD — L2→L3
     → Scientific reasoning, evidence-based thinking
@@ -627,7 +719,7 @@ MỤC ĐÍCH:
   → Tổng hợp: Foundation (§2) + Era-specific (§3) → balance per stage
   → = "Ở MỖI stage, tỉ lệ giữa 3 tiers THẾ NÀO?"
   → Qua ENGINE/ROAD/VEHICLE: "build ROAD nào TRƯỚC, mở ROAD nào SAU?"
-  → Prerequisite logic chi tiết → xem Domain-Knowledge-Map v2.0 §4
+  → Prerequisite logic chi tiết → xem Domain-Knowledge-Map v2.1 §4
 
 
 BALANCE GIỮA 3 TIERS PER STAGE:
@@ -651,7 +743,7 @@ BALANCE GIỮA 3 TIERS PER STAGE:
   └──────────┴─────────────┴─────────────┴─────────────┘
 
   ⚠️ % = calibration anchor, KHÔNG phải đo lường chính xác.
-  Per-individual varies. Ref: Domain-Knowledge-Map v2.0 §4.
+  Per-individual varies. Ref: Domain-Knowledge-Map v2.1 §4.
 
 PER STAGE — PHƯƠNG CHÂM:
 
@@ -659,7 +751,7 @@ PER STAGE — PHƯƠNG CHÂM:
     → Foundation 70-80%: 6 domains ĐỒNG ĐỀU → hardware tendencies lộ
     → Era-specific 15-20%: exposure (biết AI tồn tại, biết internet có sai)
     → Per-hardware 5-10%: observe tendencies, cho explore per interest
-    → Bridge cần NHIỀU nhất (Mechanism v2.1 §3.4 — nguồn ④ dominant ở age này)
+    → Bridge cần NHIỀU nhất (Mechanism v2.2 §3.4 — nguồn ④ dominant ở age này)
     → ⚠️ Ép specialization sớm = build trên foundation yếu
     → 🟡 Gap Landscape: exposure RỘNG → gap DIVERSE → nhiều ROAD mở (Gap-Distribution-Profile v1.1)
     → 🟡 ENGINE/ROAD/VEHICLE: ENGINE rời GARAGE (nhà) → ra ROAD (hệ thống)
@@ -668,8 +760,8 @@ PER STAGE — PHƯƠNG CHÂM:
     → Foundation 40-50%: maintain + deepen (L2→L3 cho most domains)
     → Era-specific 25-30%: critical use (AI evaluation, info synthesis, systems)
     → Per-hardware 20-30%: hardware tendencies VISIBLE → cho chọn depth
-    → Bridge giảm DẦN (nguồn ①② mạnh dần — Mechanism v2.1 §3.4)
-    → Imagine-Final bắt đầu form → respect lifecycle (Mechanism v2.1 §2.6)
+    → Bridge giảm DẦN (nguồn ①② mạnh dần — Mechanism v2.2 §3.4)
+    → Imagine-Final bắt đầu form → respect lifecycle (Mechanism v2.2 §2.6)
     → 🟡 Gap Landscape: bắt đầu FOCUS — depth ở hardware-matched domains
     → 🟡 ENGINE/ROAD/VEHICLE: ENGINE chạy mạnh, VEHICLE đang chọn ROAD nào build sâu
 
@@ -683,7 +775,7 @@ PER STAGE — PHƯƠNG CHÂM:
     → 🟡 ENGINE/ROAD/VEHICLE: VEHICLE chạy SÂU trên ROAD → bắt đầu cho BY-PRODUCT
 
 
-PREREQUISITE LOGIC (brief — chi tiết xem Domain-Knowledge-Map v2.0 §4):
+PREREQUISITE LOGIC (brief — chi tiết xem Domain-Knowledge-Map v2.1 §4):
 
   → Tier 1 Foundation = TRƯỚC
     (Literacy + Numeracy = prerequisite hầu hết Tier 2)
@@ -692,7 +784,7 @@ PREREQUISITE LOGIC (brief — chi tiết xem Domain-Knowledge-Map v2.0 §4):
   → OVERLAP đáng kể: tiers KHÔNG sequential hoàn toàn
     (Tier 2 bắt đầu khi Tier 1 CƠ BẢN đủ, không chờ HOÀN THÀNH)
   → AI check per student: KHÔNG dùng age → dùng CHUNK STATUS
-    (Domain-Knowledge-Map v2.0 §4: cùng tuổi, khác chunk status → khác readiness)
+    (Domain-Knowledge-Map v2.1 §4: cùng tuổi, khác chunk status → khác readiness)
 
 
 v2.2 SEQUENCING × MULTI-STREAM (Compile-Taxonomy v3.0 §5):
@@ -715,6 +807,43 @@ v2.2 SEQUENCING × MULTI-STREAM (Compile-Taxonomy v3.0 §5):
       → = Critical Asymmetry applied: Entity-Valence path fast + free
 
 
+v2.3 TRUST-AWARE CURRICULUM SEQUENCING:
+    (Trust.md v1.0 §5 Default→Calibrated, Compile-Taxonomy v3.0 §7.3 Trust as Amplifier)
+
+    Trust = AMPLIFIER for VALUE stream → sequencing MUST address trust FIRST:
+
+    ① FIRST WEEKS = BUILD TRUST, NOT PUSH CONTENT:
+      → New teacher/class → trust infrastructure = ZERO
+      → Sequencing: relationship-building activities FIRST, content ramp-up AFTER
+      → "Tuần đầu = quen thầy, tuần sau = học bài" = CORRECT sequence
+      → Stage 2: trust-building = FAST (Default Trust window — use it)
+      → Stage 3: trust-building = SLOWER (Calibrating phase — expect skepticism)
+      → Stage 4: trust-building = DOMAIN-SPECIFIC (trust professor in THIS field)
+
+    ② TRUST-INTENSIVE SUBJECTS — NEED HIGHER TRUST FIRST:
+      → Some subjects require VULNERABILITY → need deeper trust to engage genuinely
+      → Examples: sex education, mental health, identity, personal narrative, ethics
+      → Sequencing: trust-building → THEN introduce trust-intensive topics
+      → If trust LOW + trust-intensive topic → student MASKS → schema-compiled at best
+      → Risk: "dạy vì phải dạy" without trust = threat-compiled → lifelong damage
+
+    ③ TRUST CALIBRATION = EXPLICIT CURRICULUM ELEMENT:
+      → NOT separate subject → INTEGRATED into existing domains:
+        Media literacy (§3 ② Info Curation) = trust calibration toward SOURCES
+        Source evaluation = trust-competence assessment SKILL
+        Critical thinking = formalized trust calibration capacity
+      → Sequencing progression:
+        Stage 2: begin — "ai nói? tại sao đáng tin?" (simple trust evaluation)
+        Stage 3: deepen — per-domain trust split, evidence hierarchy
+          (Trust.md v1.0 §5 Phase 3: per-domain trust calibration = NORMAL development)
+        Stage 4: formalize — systematic trust calibration framework
+      → AI era: trust toward AI = NEW calibration requirement
+        (AI: trust-competence HIGH, trust-intention UNDEFINED → different evaluation needed)
+
+    Cross-ref: Trust.md v1.0 §5 (Default→Calibrated 4 phases), §8 (Trust Generalization),
+    Education-System.md v3.2 §1 (Trust × Self-Observation × 4 Stages mapping)
+
+
 🟡 Percentages = APPROXIMATE → per-individual varies
    Early direction rõ: Tier 3 cao hơn sớm hơn = bình thường
    Late bloomer: Tier 1 extend vào Stage 3 = bình thường
@@ -732,7 +861,7 @@ v2.2 SEQUENCING × MULTI-STREAM (Compile-Taxonomy v3.0 §5):
   → Nếu chỉ THÊM mà không BỎ → overload:
     → Cortisol amplification (Cortisol-Baseline.md v2.1 — Role ① amplifier)
     → Threat-direction → avoidance tags cho domain liên quan
-    → = NGƯỢC mục đích (Education-Mechanism v2.1 §2.2 — Direction > Level)
+    → = NGƯỢC mục đích (Education-Mechanism v2.2 §2.2 — Direction > Level)
   → PHẢI giảm/bỏ CÁI GÌ ĐÓ để CÓ CHỖ cho cái mới
   → "BỎ" ≠ "xóa sổ" → = "GIẢM TỈ TRỌNG" hoặc "ĐỔI CÁCH DẠY"
 
@@ -771,7 +900,7 @@ CÁI GIẢM:
      → Gap homogenization: test CÙNG NỘI DUNG → ép cùng gap profile (Gap-Distribution-Profile v1.1)
      → ⚠️ Compiled Quality blind spot: test đo DEPTH nhưng KHÔNG đo QUALITY
        → Student đạt L3 threat-compiled = test PASS nhưng lifelong DAMAGE
-     → (ref: Education-System v3.1 §6 — assessment per depth level + quality)
+     → (ref: Education-System v3.2 §6 — assessment per depth level + quality)
 
   ③ CONTENT ONLY RELEVANT CHO FORMAT CŨ
      → Kỹ năng CHỈ hữu ích trong system hiện tại, KHÔNG transferable
@@ -780,10 +909,10 @@ CÁI GIẢM:
 
   ④ PASSIVE LECTURE TIME
      → Lecture = weakest compile mechanism:
-       single-modal, low multi-modal richness (Education-Mechanism v2.1 §2.3)
+       single-modal, low multi-modal richness (Education-Mechanism v2.2 §2.3)
      → KHÔNG bỏ hết → GIẢM tỉ lệ → TĂNG experiential + project + discussion
      → Balance: lecture 20-30% (intro + framework) + active 70-80% (practice + apply)
-     → Multi-modal binding (Child-Dev-Mechanism v2.2 §2 kênh ③) CẦN active engagement
+     → Multi-modal binding (Child-Dev-Mechanism v2.3 §2 kênh ③) CẦN active engagement
 
 
 CÁI KHÔNG BỎ (dù có áp lực "bỏ"):
@@ -791,22 +920,22 @@ CÁI KHÔNG BỎ (dù có áp lực "bỏ"):
   ✓ Foundation domains — KHÔNG BAO GIỜ bỏ
     → "AI đọc hộ → bỏ dạy đọc?" → KHÔNG → "đọc" = HIỂU ý nghĩa, không chỉ decode
     → "AI tính hộ → bỏ dạy toán?" → KHÔNG → "toán" = logical thinking
-    → Foundation chunks = prerequisite cho mọi Tier 2 + Tier 3 (Domain-Knowledge-Map v2.0 §4)
+    → Foundation chunks = prerequisite cho mọi Tier 2 + Tier 3 (Domain-Knowledge-Map v2.1 §4)
 
   ✓ Physical education — KHÔNG bỏ
     → Body-base = processing channel (Body-Base.md v3.1 — Model 3+1)
     → Somatic domain = brain development domain, không chỉ "sức khỏe"
     → ⚠️ Trend giảm Physical education → damage brain development
-      (Multi-modal binding cần body — Education-Mechanism v2.1 §2.3)
+      (Multi-modal binding cần body — Education-Mechanism v2.2 §2.3)
 
   ✓ Arts/Creative — KHÔNG bỏ
     → Creativity = human differentiator → era NÀY cần HƠN
     → "Arts = không thực tế" → NGƯỢC LẠI: arts = hardware expression channel
-    → Imagine-Final emerge qua creative expression (Mechanism v2.1 §2.6)
+    → Imagine-Final emerge qua creative expression (Mechanism v2.2 §2.6)
 
   ✓ Social interaction — KHÔNG bỏ (dù online learning tăng)
     → Self-Pattern-Modeling v3.1 cần real human interaction data
-    → Connection-Education v1.0: 5 khía cạnh CẦN trải nghiệm thật
+    → Connection-Education v1.1: 5 khía cạnh CẦN trải nghiệm thật
       (hiểu + xây bond + chọn + duy trì + navigate groups)
     → AI/online ≠ substitute cho face-to-face social processing
     → ⚠️ Post-COVID: social skill decline observable → CẦN TĂNG, không giảm
@@ -843,6 +972,8 @@ TỔNG KẾT:
   ✅ Sequencing: balance 3 tiers per stage (§4)
   ✅ Practical guidance: cái cần giảm/bỏ (§5)
   ✅ Bridge Domain-Knowledge-Map taxonomy với system stages thành delivery plan
+  ✅ +v2.3: Self-Observation as cross-cutting infrastructure — per-stage Mức targets (§2)
+  ✅ +v2.3: Trust-aware curriculum sequencing — trust-first, trust-intensive subjects (§4)
 
 
 ⭐ CÁI FILE NÀY KHÔNG THỂ LÀM:
@@ -855,7 +986,7 @@ TỔNG KẾT:
   ❌ Guarantee era-specific skill list = correct
      → Era-specific = prediction-based → WILL need updates (Domain-Knowledge-Map §2)
   ❌ Provide assessment tools
-     → Assessment = Education-System v3.1 §6 → file này = WHAT, not MEASURE
+     → Assessment = Education-System v3.2 §6 → file này = WHAT, not MEASURE
 
 
 ⭐ ĐỘ TIN CẬY:
@@ -863,12 +994,14 @@ TỔNG KẾT:
   CAO 🟢→🟡:
     → §2: Foundation matrix — derived from developmental timeline + research
     → §1: 6 foundation domains — brain-based (UNESCO, OECD, neuroscience consistent)
-    → §0: 7 curriculum principles — derived from Mechanism v2.1 §2 + new concepts
+    → §0: 7 curriculum principles — derived from Mechanism v2.2 §2 + new concepts
 
   TRUNG BÌNH 🟡:
     → §4: Sequencing percentages — approximate, not tested
     → §5: What to reduce — logical but politically charged
     → §0 ⑤⑥⑦: Gap Landscape/Hardware-Subsidy/PFC Budget — framework synthesis, not tested
+    → +v2.3 §2: Self-Observation per-stage Mức targets — grounded in Self-Observation.md gradient
+    → +v2.3 §4: Trust-aware sequencing — grounded in Trust.md Default→Calibrated phases
 
   THẤP 🔴:
     → §3: Era-specific delivery details — prediction-based
@@ -879,12 +1012,12 @@ TỔNG KẾT:
 
   ⚠️ "6 FOUNDATION = ĐỦ?" — có thể thiếu
      VD: Ethical reasoning? Environmental awareness?
-     6 = framework synthesis → OPEN to revision (Domain-Knowledge-Map v2.0 §5 acknowledge)
+     6 = framework synthesis → OPEN to revision (Domain-Knowledge-Map v2.1 §5 acknowledge)
 
   ⚠️ REDUCTION RESISTANCE
      "Giảm memorization" = logical → nhưng exam system = memorization-based
      Change curriculum WITHOUT change assessment = FAIL
-     → §5 CẦN Education-System v3.1 §6 (assessment reform) để work
+     → §5 CẦN Education-System v3.2 §6 (assessment reform) để work
 
   ⚠️ FALSE PRECISION
      Depth target "L2→L3 ở Stage 3" = framework estimate
@@ -908,25 +1041,25 @@ KẾT NỐI:
 TẦNG 3 — "BỘ 3" NỀN TẢNG (Research/Education/)
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.1 — ⭐ HOW: NGUYÊN LÝ ARC DESIGN
+→ Education-Mechanism.md v2.2 — ⭐ HOW: NGUYÊN LÝ ARC DESIGN
   §2 8+ nguyên lý (Direction>Level, Cost, Prerequisite, Mini-arcs,
   Imagine-Final, Feedback, Consolidation, Depth Assessment).
   +Hardware-Subsidy, +PFC Budget, +Dissonance-Signal-Architecture.
   File NÀY apply principles vào delivery decisions.
 
-→ Domain-Knowledge-Map.md v2.0 — ⭐ WHAT: BẢN ĐỒ DOMAIN
+→ Domain-Knowledge-Map.md v2.1 — ⭐ WHAT: BẢN ĐỒ DOMAIN
   §1 Foundation (6 nhóm), §2 Era-specific (6 nhóm),
   §3 Per-hardware, §4 Prerequisite logic.
   +Body-Feedback Pipeline, +Connection v5.0, +Simulation-Engine.
   File NÀY derive delivery matrix TỪ taxonomy Domain-Knowledge-Map.
 
-→ Connection-Education.md v1.0 — ⭐ WHO: SOCIAL INTERACTION EDUCATION
+→ Connection-Education.md v1.1 — ⭐ WHO: SOCIAL INTERACTION EDUCATION
   5 khía cạnh: hiểu + xây bond + chọn + duy trì + navigate groups.
   Pragmatic, body-based, per-age guide. AI era.
   THAY THẾ Empathy-Education v2.0 (absorbed — chỉ cover empathy = ~30%).
   File NÀY reference cho Social/Emotional domain (§2 ④).
 
-→ Education-Arms-Race.md v1.3 — Competition dynamics
+→ Education-Arms-Race.md v1.4 — Competition dynamics
   Societal pressure affecting all domains — overload context cho §5.
   +Gap-Distribution-Profile, +Dissonance-Signal-Architecture.
 
@@ -935,12 +1068,12 @@ TẦNG 3 — "BỘ 3" NỀN TẢNG (Research/Education/)
 TẦNG 4 — CÙNG FOLDER (Applications/Education/)
 ═══════════════════════════════════════════════════════
 
-→ Education-System.md v3.1 — ⭐ KHUNG CHÍNH
+→ Education-System.md v3.2 — ⭐ KHUNG CHÍNH
   §1 4-stage architecture, §2-§4 stage details, §6 assessment.
   ENGINE/ROAD/VEHICLE xuyên suốt. "bộ 3" architecture.
   File NÀY align depth targets PER stage từ Education-System.
 
-→ Hardware-Calibration.md v1.1 — Per-individual calibration
+→ Hardware-Calibration.md v1.2 — Per-individual calibration
   6 dimensions + 2 cross-cutting lenses (Hardware-Subsidy + Compiled Quality).
   File NÀY = universal depth targets, HC = per-individual path.
 
@@ -1003,6 +1136,22 @@ PFC + BODY-FEEDBACK (Tầng 1)
 
 
 ═══════════════════════════════════════════════════════
++v2.3 TRUST + SELF-OBSERVATION (Tầng 1)
+═══════════════════════════════════════════════════════
+
+→ Trust.md v1.0 — Trust as Amplifier, Default→Calibrated 4 phases
+  Trust = compiled prediction about reliability. 3 sub-dimensions.
+  §4 Trust-aware curriculum sequencing: trust-first, trust-intensive subjects.
+  §7.3 Trust as Amplifier cho VALUE stream → curriculum delivery quality.
+
+→ Self-Observation.md v1.0 — Gradient Mức 0-6, Compiled Quality, Tool Not Virtue
+  Self-Observation = cross-cutting infrastructure (§2 — like PFC Budget).
+  Per-stage Mức targets: Stage 1 Mức 0-2 → Stage 4 Mức 4-5.
+  §5.3 Compiled Quality × Self-Observation → environment first.
+  §6.3 Teen Paradox: CAN observe, CAN'T regulate.
+
+
+═══════════════════════════════════════════════════════
 AGENT-ENTITY (Tầng 1)
 ═══════════════════════════════════════════════════════
 
@@ -1019,14 +1168,14 @@ AGENT-ENTITY (Tầng 1)
   School/teacher = coordination node per scale.
 
 → Connection.md v5.0 — 3 Generative Primitives, Resonance Decline
-  Social mechanism foundation for Connection-Education v1.0.
+  Social mechanism foundation for Connection-Education v1.1.
 
 
 ═══════════════════════════════════════════════════════
 CHILD-DEV (Tầng 2)
 ═══════════════════════════════════════════════════════
 
-→ Child-Development-Mechanism.md v2.2 — Developmental timeline
+→ Child-Development-Mechanism.md v2.3 — Developmental timeline
   §2 Compile Architecture, §3 Approach/avoidance tags, §9 Sensitive periods.
   Foundation cho timing decisions trong matrix.
 
@@ -1041,7 +1190,7 @@ COUNTRY (Tầng 5)
 
 UPDATE SCHEDULE:
   → §2 Foundation matrix: DURABLE — review per decade
-  → §3 Era-specific: TIME-BOUND — update khi Domain-Knowledge-Map v2.0 §2 update
+  → §3 Era-specific: TIME-BOUND — update khi Domain-Knowledge-Map v2.1 §2 update
   → §4 Sequencing: SEMI-DURABLE — adjust per feedback
   → §5 Reduce: CONTEXT-DEPENDENT — per country/system
 ```

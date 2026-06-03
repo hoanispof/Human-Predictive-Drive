@@ -1,8 +1,9 @@
 ---
 title: Simulation-Engine — 1 Engine, 3 Components, N Applications
-version: 1.1
+version: 1.2
 created: 2026-05-22
-updated: 2026-05-25 (v1.1 — §3.3 +Simulation-Engine × Dissonance Type output asymmetry, +Dissonance-Signal-Architecture cross-ref)
+updated: 2026-06-02 (v1.2 — Self-Observation.md v1.0 cross-refs: APPLICATION-3 "chưa có file riêng" → Self-Observation.md v1.0)
+previous: v1.1 (2026-05-25 — §3.3 +Simulation-Engine × Dissonance Type output asymmetry, +Dissonance-Signal-Architecture cross-ref)
 status: MECHANISM v1.1
 scope: |
   ARCHITECTURE file: Brain có 1 general-purpose Simulation-Engine, KHÔNG PHẢI N modules riêng.
@@ -14,7 +15,7 @@ scope: |
 purpose: |
   Self-Pattern-Modeling.md = APPLICATION-1 (mechanism riêng cho agent prediction).
   Imagine-Final.md = APPLICATION-2 (mechanism riêng cho future simulation).
-  Self-Observation = APPLICATION-3 (PFC observe body state; partially described in Feeling.md, chưa có file riêng).
+  Self-Observation = APPLICATION-3 (PFC observe body state; Self-Observation.md v1.0).
   File NÀY = SHARED ENGINE underneath tất cả — KIẾN TRÚC THỐNG NHẤT.
   Giải thích TẠI SAO: luyện 1 → improve tất cả. Hỏng 1 → degrade tất cả.
   = "Missing architecture file" — mỗi application file mô tả 1 app, file này mô tả ENGINE.
@@ -29,7 +30,8 @@ dependencies:
   - PFC-Operations.md v1.0 — §9 PFC Budget, §10 Compilable Architecture + 3-Cost
   - Self-Pattern-Modeling.md v3.1 — APPLICATION-1, Compiled/Fresh on engine
   - Imagine-Final.md v3.0 — APPLICATION-2, future simulation
-  - Feeling.md v3.0 — PFC observation interface (broader than APPLICATION-3; Self-Observation chưa có file riêng)
+  - Feeling.md v3.0 — PFC observation interface (broader than APPLICATION-3)
+  - Self-Observation.md v1.0 — APPLICATION-3: Self × Present × Observe
   - Body-Feedback-Mechanism.md v2.1 — §3 chunk dynamics, body-feedback readout
   - Dissonance-Signal-Architecture.md v1.0 — §7.1 Simulation-Engine × Evaluative Dissonance generator
   - Entity-Access.md v1.1 — Entity-Access gradient = mPFC gradient
@@ -129,9 +131,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ├── Imagine-Final.md v3.0 = APPLICATION-2 (future simulation)
     │   = Self × Future × Simulate+Construct
     │
-    ├── Self-Observation = APPLICATION-3 (chưa có file riêng)
+    ├── Self-Observation.md v1.0 = APPLICATION-3
     │   = Self × Present × Observe
-    │   (partially described in Feeling.md — Feeling scope rộng hơn APPLICATION này)
+    │   = PFC observe body-state, cơ chế tự-nhận-thức
     │
     ├── PFC-Operations.md v1.0 = HOW PFC operates trên engine
     │   = Hold/Suppress on Compiled/Fresh spectrum
@@ -298,8 +300,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ ① │ Self-Pattern-Modeling              │ Other(close) │ Present   │ Simulate │ Self-Pattern-Modeling │
   │   │ "bạn đang buồn"  │ or far       │           │          │ v3.0                 │
   ├───┼──────────────────┼──────────────┼───────────┼──────────┼──────────────────────┤
-  │ ② │ Self-Observation  │ Self         │ Present   │ Observe  │ (chưa có file riêng) │
-  │   │ "tôi đang lo"    │              │           │(+intero.)│ cf. Feeling.md v3.0  │
+  │ ② │ Self-Observation  │ Self         │ Present   │ Observe  │ Self-Observation.md  │
+  │   │ "tôi đang lo"    │              │           │(+intero.)│ v1.0                 │
   ├───┼──────────────────┼──────────────┼───────────┼──────────┼──────────────────────┤
   │ ③ │ Imagine-Final     │ Self         │ Future    │ Simulate │ Imagine-Final.md     │
   │   │ "nếu tôi bỏ việc"│              │           │+Construct│                      │
@@ -929,7 +931,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Drill-Self-Pattern-Modeling-Self-Shared-Substrate v1.0 | Full file | EVIDENCE file for this ARCHITECTURE |
 | Self-Pattern-Modeling v3.1 | §2 (Compiled/Fresh), §10 (Self-Pattern-Modeling×Imagine-Final) | APPLICATION-1: Self-Pattern-Modeling mechanism |
 | Imagine-Final.md v3.0 | Full file | APPLICATION-2: future simulation |
-| Feeling.md v3.0 | §3 (PFC observation) | Broader than APPLICATION-3; Self-Observation chưa có file riêng |
+| Feeling.md v3.0 | §3 (PFC observation) | UMBRELLA — Feeling ⊃ Self-Observation |
+| Self-Observation.md v1.0 | Full file | APPLICATION-3: Self × Present × Observe |
 | Inter-Body-Mechanism.md v1.0 | §3 (Compiled/Fresh), §1 (Compilable Architecture) | SOURCE-OF-TRUTH for spectrum |
 | PFC-Operations.md v1.0 | §5 (Compiled Quality), §9 (PFC Budget) | HOW PFC operates on engine |
 | Entity-Access.md v1.1 | §3 (gradient model) | mPFC gradient = Entity-Access spectrum |

@@ -13,13 +13,13 @@
 
 ---
 
-> **Trạng thái:** v1.3 (enriched 2026-05-25 — 5 new concepts: Hardware-Subsidy, Gap-Distribution-Profile, 4-Layer, Dissonance-Signal-Architecture, Resonance Decline)
-> **Ngày:** 2026-05-10 | **Updated:** 2026-05-25
+> **Trạng thái:** v1.4 (trust integration 2026-06-03 — Trust Lock-in mechanism, Trust.md cross-refs)
+> **Ngày:** 2026-05-10 | **Updated:** 2026-06-03
 > **Mục đích:** Phân tích cơ chế, spectrum, hậu quả, và giải pháp
 > của education arms race qua lens framework + game theory + data thực.
 > **Reference:**
->   Education-Mechanism.md v2.1 (đặc biệt §3.3 — 3 ORIGIN threat, §3.5 Anchor legacy)
->   Education-Mechanism.md v2.1 §3 (Bridge + Motivation — 4 nguồn fill, transition)
+>   Education-Mechanism.md v2.2 (đặc biệt §3.3 — 3 ORIGIN threat, §3.5 Anchor legacy)
+>   Education-Mechanism.md v2.2 §3 (Bridge + Motivation — 4 nguồn fill, transition)
 >   Domain-Mapping-Drive.md (đặc biệt §7.2, §8 Barriers)
 >   Threat.md §5.5 (3 ORIGIN taxonomy)
 >   Anchor-Schema.md (4 nguồn fill)
@@ -28,6 +28,7 @@
 >   Valence-Propagation.md v3.0 (§7 Hardware-Subsidy), Gap-Distribution-Profile.md v1.1,
 >   Resonance-Sustainability.md v1.0, Dissonance-Signal-Architecture.md v1.0,
 >   Bond-Architecture.md v2.0 (§4 Resonance Decline)
+>   Trust.md v1.0 (§3 Trust Depth, §5 Default→Calibrated 4 phases, §7 Trust Generalization)
 >   Birth-Rate-Decline/ (6 case studies),
 >   Conflict-Dynamics.md §1,
 >   Cortisol-Baseline.md §3
@@ -57,6 +58,13 @@
 >   → §5.8 NEW Resonance Decline credential decay + 4-Layer unsustainability
 >   → §8 +5 new 🟡 entries. §10 +BỘ 3 EDUCATION, +NEW CONCEPTS categories
 >   → Version bumps: Education-Mechanism v1.0→v2.0, Domain-Knowledge-Map v1.0→v2.0
+>
+> **Refinement v1.4 (2026-06-03) — Trust.md integration:**
+>   → §4 +⑤ TRUST LOCK-IN: schema inheritance trust from parent generation
+>     parents' compiled trust [học ĐH = thành công] cannot calibrate — domain reality changed
+>   → §8 +2 new 🟡 entries (trust lock-in, trust depth persistence)
+>   → §10 +TRUST INTEGRATION category, version bumps
+>   → Deps +Trust.md v1.0
 
 ---
 
@@ -402,6 +410,18 @@
     → Mọi nước CÓ arms race rồi CỐ dừng → THẤT BẠI
     → = NGĂN (trước khi bắt đầu) >> DỪNG (sau khi đã chạy)
     → = Implication cho VN: CÒN CƠ HỘI NGĂN → đừng để bắt đầu
+
+  ⑤ TRUST LOCK-IN (Trust.md v1.0):
+    → Parents trust education system = SCHEMA INHERITANCE từ thế hệ trước
+    → Thế hệ bố mẹ: credential THẬT SỰ work (era 1-2, expansion territory rộng)
+    → → Compiled trust: [học ĐH = thành công] = installed, Trust Depth CAO
+      (Routine: bao nhiêu năm đi học, Childhood: bố mẹ bố mẹ cũng nói vậy,
+       Community: "ai cũng học ĐH", Identity: "gia đình có học")
+    → Trust.md §5: installed trust PERSIST vì bố mẹ KHÔNG CÓ domain expertise hiện tại
+    → → KHÔNG THỂ calibrate (Phase 3): domain reality ĐÃ ĐỔI nhưng trust CHƯA update
+    → Build slow (4-6 năm đầu tư) / Collapse fast (1 lần con thất nghiệp)
+    → → Arms race persists BECAUSE trust installed BEFORE domain check
+    → → Khi trust break: phản ứng CỰC ĐOAN (tuyệt vọng hoặc reject toàn bộ education)
 
   ⭐ KEY INSIGHT:
     → Arms race ĐÃ BẮT ĐẦU = CỰC KHÓ dừng
@@ -951,6 +971,8 @@
     🟡 "4-Layer unsustainability in arms race" — logical from Resonance-Sustainability v1.0
     🟡 "Chronic Evaluative + Direct-State compound" — logical from Dissonance-Signal-Architecture v1.0
     🟡 "Gap-Distribution-Profile homogenization" — logical from Gap-Distribution-Profile v1.1
+    🟡 "Trust Lock-in: parents cannot calibrate installed trust" — logical from Trust.md v1.0 §5 (Default→Calibrated requires domain expertise parents lack)
+    🟡 "Arms race persists because trust installed BEFORE domain check" — logical from Trust.md §3 Trust Depth (multi-source = high persistence)
 
   HYPOTHESIS (🔴):
     🔴 "XÓA 1-kỳ-thi = giảm race" — logical nhưng chưa nước nào thử ở quy mô
@@ -998,18 +1020,18 @@
 
 ```
 ═══════════════════════════════════════════════════════
-BỘ 3 EDUCATION (v1.3)
+BỘ 3 EDUCATION (v1.4)
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.1 ⭐ (§2.2 Direction, §3.3 3 ORIGIN, §3.5 Anchor)
-→ Domain-Knowledge-Map.md v2.0 (§1 Foundation, §3 Per-Hardware)
-→ Connection-Education.md v1.0 (social connection trong arms race culture)
+→ Education-Mechanism.md v2.2 ⭐ (§2.2 Direction, §3.3 3 ORIGIN, §3.5 Anchor)
+→ Domain-Knowledge-Map.md v2.1 (§1 Foundation, §3 Per-Hardware)
+→ Connection-Education.md v1.1 (social connection trong arms race culture)
 
 ═══════════════════════════════════════════════════════
 TẦNG 3 META — NỀN LÝ THUYẾT
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.1 ⭐
+→ Education-Mechanism.md v2.2 ⭐
    §2.2 Direction > Level (approach/avoidance tags — arms race = avoidance factory)
    §3.3 3 ORIGIN Threat Applied to Education (Domain/Peer/Imposed)
    §3.1 Bridge = Nguồn ④ (arms race = nguồn ④ dominate 12+ năm)
@@ -1017,7 +1039,7 @@ TẦNG 3 META — NỀN LÝ THUYẾT
    §3.5 Anchor = Legacy dài hạn (arms race installs avoidance anchors)
    → Arms race = chronic Imposed adult threat ở scale xã hội
 
-→ Domain-Knowledge-Map.md v2.0
+→ Domain-Knowledge-Map.md v2.1
    §1 Foundation Domains (arms race focus era-specific, miss foundation)
 
 → Domain-Mapping-Drive.md ⭐
@@ -1076,7 +1098,7 @@ EDUCATION FILES
 
 → Education-Mechanism.md §3.1: Bridge = Nguồn ④
    (arms race = Carrot + Threat bridge tổng hợp, ở scale xã hội)
-→ Connection-Education.md v1.0: social connection education trong arms race culture
+→ Connection-Education.md v1.1: social connection education trong arms race culture
 → Hardware-Calibration.md: arms race ignores hardware diversity
 → Education-System.md (Applications): school system architecture alternatives
 
@@ -1114,6 +1136,20 @@ NEW CONCEPT INTEGRATIONS (v1.3)
 → Bond-Architecture.md v2.0 §4 — Resonance Decline credential decay (§5.8)
 
 ═══════════════════════════════════════════════════════
+TRUST INTEGRATION (v1.4)
+═══════════════════════════════════════════════════════
+
+→ Trust.md v1.0 §3 — Trust Depth 5 sources (§4 ⑤ Trust Lock-in)
+   Parents' trust in education = multi-source depth (Routine + Childhood + Community + Identity)
+   → High depth = extreme persistence, cannot easily calibrate
+→ Trust.md v1.0 §5 — Default→Calibrated 4 phases
+   Parents stuck at Phase 2 (installed = truth without verification)
+   → Domain reality changed but trust NOT updated → arms race persists
+→ Trust.md v1.0 §7 — Trust Generalization
+   Cross-domain trust spill: "tốt ở education domain X = tốt ở domain Y"
+   → Credential = trust signal, inflation = signal degradation
+
+═══════════════════════════════════════════════════════
 META / COSMIC LOOP
 ═══════════════════════════════════════════════════════
 
@@ -1126,7 +1162,7 @@ META / COSMIC LOOP
 
 ---
 
-> *Education Arms Race v1.3 — "Prisoner's dilemma ở quy mô xã hội.
+> *Education Arms Race v1.4 — "Prisoner's dilemma ở quy mô xã hội.
 > 1 gia đình nhón chân → thấy tốt hơn. Tất cả nhón → ai cũng mỏi, không ai thấy hơn.
 > Fertility −28% chỉ vì status externalities (AER 2024).
 > Hàn: $22.6 tỷ/năm hagwon, 80% HS, chi > ăn + ở → TFR 0.72.
@@ -1138,4 +1174,5 @@ META / COSMIC LOOP
 > tạo vocational track có giá trị, ĐH đa dạng + affordable.
 > Cấm supply (tutoring) mà không fix demand (kỳ thi) = THẤT BẠI.
 > v1.3: +Hardware-Subsidy inversion, +Gap-Distribution-Profile homogenization,
-> +Dissonance-Signal-Architecture compound, +Resonance Decline credential decay, +4-Layer unsustainability."*
+> +Dissonance-Signal-Architecture compound, +Resonance Decline credential decay, +4-Layer unsustainability.
+> v1.4: +Trust Lock-in mechanism (§4), +Trust.md cross-refs, +Trust Depth persistence."*

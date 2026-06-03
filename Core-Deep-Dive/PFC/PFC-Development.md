@@ -199,6 +199,11 @@ THAI NHI → 2 TUỔI:
   → Peer influence CỰC MẠNH: mPFC hyper-sensitive social
   → ⚠️ Đừng nói teen "sao không nghĩ trước?"
     → Họ CÓ nghĩ (dlPFC ok) → nhưng vmPFC chưa CONNECT body response
+  → ⭐ Self-Observation PARADOX (Self-Observation.md §6):
+    Teen CAN Self-Observe (dlPFC encode body-state OK)
+    NHƯNG CAN'T regulate (vmPFC-body connection chưa hoàn thiện)
+    = Observation ≠ regulation. "Biết mình giận" ≠ "điều khiển được cơn giận"
+    = Self-Observation Development Capacity cao, NHƯNG regulation capacity thấp
 
 18-25 TUỔI:
   → Myelination hoàn thiện (MUỘN NHẤT trong não)
@@ -675,6 +680,7 @@ CORE ARCHITECTURE:   Core-v7.8-Draft.md §9 — Development Trajectory
 BODY-FEEDBACK:       Body-Feedback.md — Body-Feedback-Precondition (incl. Precondition-2 Chunk-Substrate)
 CHUNK SYSTEM:        Chunk.md v2.0 — compile mechanism, activation dynamics
 DRIVE INTEGRATION:   Drive.md v1.1 §2 — 6 PFC Modes (complements §4 trajectory)
+SELF-OBSERVATION:    Self-Observation.md v1.0 §6 — Teen paradox (CAN observe, CAN'T regulate)
 
 §3b SCALING CONSTRAINTS (v1.1 — new):
   PFC-Operations.md §9   — PFC Budget = CONSEQUENCE of PFC ceiling (finite shared resource)

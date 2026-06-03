@@ -35,6 +35,7 @@ dependencies:
   - Inter-Body-Mechanism.md v1.0 — PFC=Lawyer, Compiled/Fresh axis, Compilable Architecture, 3-cost
   - Body-Feedback-Label.md v2.0 — vocabulary reference
   - Gap-Direction.md v2.0 — gap has direction, by-product match
+  - Self-Observation.md v1.0 — APPLICATION-3: Feeling hướng SELF (attention direction = SELF)
 ---
 
 # Feeling — Hệ Thống Phản Hồi Unified của Body-Base
@@ -127,6 +128,7 @@ dependencies:
     Imagine-Final.md     = Preview feelings (1 nguồn của feeling)
     Logic-Feeling.md     = Body-Knowing + observer labels (WHY "Logic"/"Feeling" emerge)
     Body-Knowing.md      = COMPILED recognition (1 function OF Feeling system)
+    Self-Observation.md  = WHEN TARGET=SELF: feeling hướng SELF (APPLICATION-3 trên Simulation-Engine)
     Chunk.md v2.0        = Chunk SYSTEM (substrate producing feelings)
     Feeling.md (NÀY)     = UNIFIED SYSTEM — WHAT + HOW + TRAINING + BRIDGE
 
@@ -273,6 +275,10 @@ dependencies:
   FEELING vs MOOD:      Mood = sustained feeling state (hours-days)
   FEELING vs AFFECT:    Affect = psychology term, overlapping lineage
   FEELING vs BODY-KNOWING: Body-Knowing ⊂ Feeling (compiled recognition, all domains — Body-Knowing.md)
+  FEELING vs SELF-OBSERVATION: Self-Observation ⊂ Feeling (attention direction = SELF — Self-Observation.md)
+    → Self-Observation = Feeling KHI target = SELF (body-state, emotional state, thought pattern)
+    → Body-Knowing Inward ⊂ Self-Observation (compiled subset)
+    → Chi tiết: §3.5
 
   → Framework chọn "FEELING" vì rộng nhất và gần everyday experience.
 ```
@@ -694,6 +700,54 @@ dependencies:
     → Logic-Feeling.md: "Logic"/"Feeling" = observer labels by shareability; Compiled/Fresh = trục thật
     → §7 Gradient: vague feeling may be MORE ACCURATE than Feel-Explanation narrative
       (convergence zone = many compiled signals vs 1 fresh narrative)
+```
+
+### 3.5 Feeling hướng DOMAIN vs hướng SELF = Self-Observation (v3.1)
+
+```
+⭐⭐ CÙNG MECHANISM, KHÁC ATTENTION DIRECTION:
+
+  §3.1 claims: "Feeling = WHAT PFC SEES khi observe body-chunk interaction."
+  NHƯNG: attention direction THAY ĐỔI what gets observed:
+
+  ┌──────────────────────────────────────────────────────────────┐
+  │ FEELING HƯỚNG DOMAIN:                                        │
+  │   PFC observe body reaction để ĐÁNH GIÁ domain input        │
+  │   "Bài toán này đúng?" → body fire → feeling → "đúng"       │
+  │   "Món ăn ngon?" → body fire → feeling → "thiếu muối"       │
+  │   Target: EXTERNAL domain. Body = feedback tool.             │
+  │                                                               │
+  │ FEELING HƯỚNG SELF:                                          │
+  │   PFC observe body state để HIỂU MÌNH                       │
+  │   "Tôi đang cảm thấy gì?" → body state → feeling → "buồn"  │
+  │   "Tại sao dạo này hay cáu?" → body state → tìm pattern     │
+  │   Target: SELF (body-state). PFC reads own body.             │
+  │   = SELF-OBSERVATION (Self-Observation.md v1.0)              │
+  └──────────────────────────────────────────────────────────────┘
+
+  CRITICAL: CƠ CHẾ = 1. DIRECTION = biến số duy nhất.
+    → Cùng insula + ACC + vmPFC integration (§4)
+    → Cùng Feeling 7-layer pipeline (§2)
+    → Cùng Simulation-Engine substrate
+    → Khác: attention target = DOMAIN vs SELF
+
+  SUBSET RELATIONSHIP:
+    → Self-Observation = Feeling khi target = SELF
+    → Body-Knowing Inward ⊂ Self-Observation (compiled portion only)
+    → Self-Observation = thêm Fresh + Pre-Body-Knowing + Meta (full spectrum)
+    → Self-Observation Mức 0-6 gradient maps onto Feeling 7-layer (Self-Observation.md §8.1)
+
+  TẠI SAO PHÂN BIỆT?
+    → Feeling hướng DOMAIN: evaluated by domain reality (Ask-AI.md §6.1 Dual Check)
+    → Feeling hướng SELF: evaluated by body-consistency + predictive accuracy
+    → Cùng Feel-Explanation ANTI-PATTERN (§3.4): PFC Lawyer confabulates cho CẢ HAI hướng
+    → Self-Observation ĐẶC BIỆT: KEYSTONE property — fail → cascade 5+ systems
+      (Self-Pattern-Modeling, Dual Check, Somatic-Articulation-Loop, Imagine-Final, Moral)
+    → Chi tiết: Self-Observation.md v1.0
+
+  🟢 Interoception = self-directed body reading: Craig 2002, 2009; Seth 2013
+  🟢 Alexithymia shared substrate: Bird & Cook 2013 (Self-Observation.md §7)
+  🟡 Domain vs Self direction as unified mechanism = framework synthesis
 ```
 
 ---
@@ -2050,6 +2104,11 @@ dependencies:
   Imagine-Final.md           — Preview mechanism (preview feelings source)
   PFC-Analysis.md            — PFC role observing feelings (Feel-Observation–Feel-Explanation)
   Ask-AI.md v3.1             — Dual Check: body=quality controller, domain=arbiter (→ §8.3)
+  Self-Observation.md v1.0   — APPLICATION-3: Feeling hướng SELF (→ §3.5)
+    → §0: definition = f(Interoception × PFC_Encoding × Attention_Direction=SELF)
+    → §4: Gradient Mức 0-6 maps onto Feeling 7-layer (§8.1)
+    → §7: Keystone property — Self-Observation fail → cascade 5+ systems
+    → §8: Relationship mapping: Body-Knowing Inward ⊂ Self-Observation
 ```
 
 ### 13.3 Key Research References

@@ -1,10 +1,10 @@
 ﻿---
 title: Domain-Knowledge-Map — Bản Đồ Nhóm Kiến Thức v7.8
-version: 2.0
+version: 2.1
 created: 2026-04-21
-updated: 2026-05-25 (v2.0 — MODERATE REFINE: +Body-Feedback Pipeline, +Connection v5.0 concepts, +Simulation-Engine, +PFC Budget, +Dissonance-Signal-Architecture, +Boredom v2.0, +Gap-Distribution-Profile, +Hardware-Subsidy, deps 7→22, cross-refs reorganized)
-previous: v1.0 (2026-04-21, 859L)
-status: v2.0
+updated: 2026-06-03 (v2.1 — LIGHT REFINE: +Trust calibration as meta-skill (§1.6), +Self-Observation formal mechanism (§1.3, §1.6), +Trust backing for Info Curation (§2.2), deps 22→24, cross-refs +2)
+previous: v2.0 (2026-05-25, 999L)
+status: v2.1
 scope: |
   WHAT nhóm kiến thức/kỹ năng cần cho thời đại hiện đại.
   Bản đồ domain — KHÔNG liệt kê hết, chỉ nhóm baseline.
@@ -14,6 +14,9 @@ scope: |
   +Simulation-Engine (§1.6 meta-learning = training shared engine), +PFC Budget (§1.6 + §4),
   +Dissonance-Signal-Architecture (§1.6 + §2.6 Evaluative/Direct-State), +Boredom v2.0 (§2.6),
   +Gap-Distribution-Profile (§3 per-person gap landscape), +Hardware-Subsidy (§3 depth support).
+  v2.1 KEY CHANGES: +Trust calibration as meta-skill (§1.6 Default→Calibrated),
+  +Self-Observation formal mechanism (§1.3 interoception chain, §1.6 meta-learning backing),
+  +Trust backing for Information Curation (§2.2 source evaluation = trust calibration).
 purpose: |
   File NÀY = BẢN ĐỒ NHÓM — không phải danh sách môn học.
   Mỗi nhóm = 1 "cây" — gốc ai cũng cần, nhánh vô tận.
@@ -23,9 +26,9 @@ position: |
   Research/Education/ — TẦNG 3 trong kiến trúc.
   Bộ 3 files: Education-Mechanism (HOW) + Domain-Knowledge-Map (WHAT — file này) + Connection-Education (WHO).
 dependencies:
-  education-bo-3:
-    - Education-Mechanism.md v2.1 — HOW learning arc design (bộ 3)
-    - Connection-Education.md v1.0 — WHO social interaction education (bộ 3)
+  education-trio:
+    - Education-Mechanism.md v2.2 — HOW learning arc design (bộ 3)
+    - Connection-Education.md v1.1 — WHO social interaction education (bộ 3)
   core-foundation:
     - Core-v7.8-Draft.md — cycle architecture, chunks = sole substrate
     - Chunk.md v2.2 — prerequisite chains, chunk hierarchy, context-tag
@@ -35,6 +38,7 @@ dependencies:
     - Simulation-Engine.md v1.1 — 1 engine, 3 components, training implications
     - Imagine-Final.md v3.0 — constructive simulation, lifecycle, 3-Layer
     - Imagine-Final-Evaluation.md v1.1 — 4 góc quality (Domain × Hardware Fit)
+    - Self-Observation.md v1.0 — APPLICATION-3, Mức 0-6 gradient, Tool Not Virtue
   valence-body:
     - Valence-Propagation.md v3.0 — structural/current, Hardware-Subsidy, 3 Satiation
     - Body-Feedback-Mechanism.md v2.1 — 2 sources × 3 dynamics, Body-Need aggregate
@@ -42,6 +46,7 @@ dependencies:
     - Gap-Distribution-Profile.md v1.1 — per-person gap landscape, 4 trục
     - Gap-Body-Need.md v1.0 — 3 Satiation Types, ENGINE/ROAD/VEHICLE
     - Boredom.md v2.0 — 6 sources, Resonance Decline, threshold model
+    - Trust.md v1.0 — compiled prediction, 3 sub-dimensions, Default→Calibrated 4 phases
   agent-entity:
     - Connection.md v5.0 — 3 Generative Primitives, Resonance Decline, Hardware-Subsidy, 4-Layer
     - Bond-Architecture.md v2.0 — Entity-Compiled × 4 bond types, Resonance Decline
@@ -103,9 +108,10 @@ durability: |
 3 FILES EDUCATION — ĐỌC CÙNG NHAU:
 
   Education-Mechanism.md = HOW
-    → 8 nguyên lý brain-based cho arc design
+    → 10 nguyên lý brain-based cho arc design
     → Direction > Level, cost formula, prerequisite, mini-arcs,
-      Imagine-Final, feedback, consolidation, depth
+      Imagine-Final, feedback, consolidation, depth,
+      Trust Before Content, Self-Observation Metacognitive
     → Valid MỌI era, MỌI domain
 
   Domain-Knowledge-Map.md = WHAT (file này)
@@ -274,6 +280,10 @@ FILE NÀY KHÔNG LÀM:
       (Body-Feedback-Mechanism.md v2.1)
     → Interoception → Self-Pattern-Modeling v3.1: Self-Pattern-Modeling cần body data làm input
       → somatic training = gián tiếp train Simulation-Engine
+    → Interoception → Self-Observation: interoception = INPUT DATA cho Self-Observation
+      → Self-Observation = PFC đọc body-state output (Self-Observation.md v1.0)
+      → Processing chain: somatic training → interoception ↑ → Self-Observation ↑ → Self-Pattern-Modeling ↑
+      → = Somatic domain = FOUNDATION CHAIN cho 3 applications trên Simulation-Engine
 
   PREREQUISITE:
     → Gross motor → fine motor → complex coordination → skill mastery
@@ -393,6 +403,22 @@ FILE NÀY KHÔNG LÀM:
       → Evaluative (compiled, workable by reframe) vs Direct-State (hardware, cần rest)
       → = meta-skill: biết KHI NÀO cần push, KHI NÀO cần dừng
       (Dissonance-Signal-Architecture.md v1.0)
+    → Trust Calibration: meta-skill ĐÁNH GIÁ ĐỘ TIN CẬY nguồn thông tin
+      → Trust DEFAULT = per-entity (tin NGƯỜI, không phân biệt per-domain)
+      → Trust CALIBRATED = per-domain (tin người NÀY ở domain NÀY — PFC-intensive)
+      → Default→Calibrated = LEARNING PATH cần dạy (4 phases: Installed→Default→Calibrate→Override)
+      → Foundation domains: trust in established knowledge = HIGH by default (math rules, physics laws)
+      → Era-specific domains: trust in new knowledge = LOWER, cần calibrate (AI claims, health trends)
+      → = Meta-learning CẦN DẠY: evaluate RELIABILITY, không chỉ evaluate content
+      (Trust.md v1.0 §5 — Default→Calibrated 4 Phases)
+    → Self-Observation: formal mechanism cho "self-awareness" ở Gốc
+      → "Cái này khó/dễ với tôi" = Self-Observation Mức 2-3 (compiled → detect)
+      → Meta-learning = Self-Observation applied to learning process
+      → Tool Not Virtue: Mức 2 ĐỦ routine learning, Mức 3+ cho novel domains
+      → ⚠️ Domain feedback = differentiator DUY NHẤT — cùng mechanism cho
+        Einstein VÀ conspiracy theorist (Self-Observation.md v1.0 §9.4)
+      → = Meta-learning CHẤT LƯỢNG = Self-Observation + domain feedback
+      (Self-Observation.md v1.0 §9 — Tool Not Virtue)
 
   PREREQUISITE:
     → PFC cần đủ cho meta-cognition (~10-12+ cho explicit meta-learning)
@@ -511,6 +537,12 @@ FILE NÀY KHÔNG LÀM:
     → "Biết lọc + tổng hợp" > "biết nhiều"
     → Pre-internet: scarcity of info → Post-internet: overload of info
       → = Skill set KHÁC HOÀN TOÀN
+    → Trust.md v1.0 formal backing — source evaluation = TRUST CALIBRATION:
+      → Default: trust per-entity → trust KOL TOÀN BỘ domain (installed, no verify)
+      → Calibrated: trust per-domain → evaluate KOL per-specific-domain claim
+      → AI era: AI generate "smooth" content → installed trust + no domain check = persist
+      → = Information curation CORE SKILL = trust calibration of information sources
+      (Trust.md v1.0 §5 Default→Calibrated)
 
   PREREQUISITE:
     → Literacy (đọc hiểu), Numeracy (basic stats for evidence),
@@ -713,7 +745,7 @@ FILE NÀY KHÔNG LÀM:
       (Valence-Propagation.md v3.0 §7 — modulate VTA habituation per entity)
     → Parent = MAX subsidy, Teacher = MODERATE, AI = NONE
     → Specialization giai đoạn 16+ = khi societal subsidy (school) giảm dần
-      → transition planning = CẦN THIẾT (Education-Mechanism.md v2.1 §3.1)
+      → transition planning = CẦN THIẾT (Education-Mechanism.md v2.2 §3.1)
 
   KẾT NỐI VỚI IMAGINE-FINAL:
     → Hardware tendencies + exposure → Imagine-Final emerge
@@ -818,7 +850,7 @@ FILE NÀY KHÔNG LÀM:
 ⭐ CÁI FILE NÀY KHÔNG THỂ LÀM:
 
   ❌ Liệt kê exhaustive — kiến thức = vô tận, listing = incomplete by design
-  ❌ Prescribe cách dạy — → Education-Mechanism.md v2.1
+  ❌ Prescribe cách dạy — → Education-Mechanism.md v2.2
   ❌ Cho per-student recommendations — AI + teacher calibrate
   ❌ Predict future domains chính xác — §2 = best guess, sẽ cần update
 
@@ -834,6 +866,8 @@ FILE NÀY KHÔNG LÀM:
     🟡 6-domain taxonomy = framework synthesis (could be 5 or 7)
     🟡 "Tree" metaphor = useful but approximate
     🟡 Balance percentages = estimate, not proven
+    🟡 Trust calibration as meta-skill = framework application of Trust.md v1.0
+    🟡 Self-Observation Mức mapping to meta-learning = framework synthesis
 
   THẤP:
     🔴 Era-specific domains (§2) = prediction, sẽ cần update
@@ -870,12 +904,12 @@ FILE NÀY KHÔNG LÀM:
 BỘ 3 EDUCATION
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.1 — ⭐ HOW (bộ 3)
-  8 nguyên lý arc design + Hardware-Subsidy + PFC Budget + Dissonance-Signal-Architecture.
+→ Education-Mechanism.md v2.2 — ⭐ HOW (bộ 3)
+  10 nguyên lý arc design + Trust Before Content + Self-Observation Metacognitive.
   File NÀY cung cấp WHAT, Mechanism cung cấp HOW.
 
-→ Connection-Education.md v1.0 — ⭐ WHO (bộ 3)
-  5 trụ social interaction education. Build trên Connection v5.0.
+→ Connection-Education.md v1.1 — ⭐ WHO (bộ 3)
+  5 trụ social interaction education + Trust calibration + Self-Observation keystone.
   AI dùng CẢ BA: domain map + mechanism principles + social context → generate arc.
 
 
@@ -923,6 +957,10 @@ VALENCE + BODY-FEEDBACK ⭐NEW v2.0
 → Cortisol-Baseline.md v2.1 — Amplifier
   §2.6: information overload = chronic low-grade cortisol source.
 
+→ Trust.md v1.0 — Compiled prediction, Default→Calibrated ⭐NEW v2.1
+  §1.6: trust calibration = meta-skill (evaluate reliability of sources).
+  §2.2: source evaluation = trust calibration (information curation core skill).
+
 
 ═══════════════════════════════════════════════════════
 AGENT + ENTITY ⭐NEW v2.0
@@ -959,6 +997,10 @@ PFC + SIMULATION ⭐NEW v2.0
 
 → Simulation-Engine.md v1.1 — 1 engine, 3 components
   §1.6: meta-learning = training shared engine → improve ALL applications.
+
+→ Self-Observation.md v1.0 — APPLICATION-3, Mức 0-6, Tool Not Virtue ⭐NEW v2.1
+  §1.3: interoception → Self-Observation processing chain.
+  §1.6: Self-Observation = formal mechanism cho meta-learning "self-awareness."
 
 
 ═══════════════════════════════════════════════════════

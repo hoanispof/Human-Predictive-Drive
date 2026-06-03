@@ -1,6 +1,6 @@
 ﻿# Research — File Index
 # Format: path | folder | group | description
-# Generated 2026-05-11 | Updated 2026-05-30 (Connection-Education replaces Empathy-Education, ADHD-Trade-Off+Optimization added, Quote-Analysis folder added, Drill-Sound-Brain folder added) | backup/ omitted
+# Generated 2026-05-11 | Updated 2026-06-02 (drill-religion-evidence.md added) | backup/ omitted
 # Path always starts with Research/
 # Description: Mechanism-level descriptions per-file (Phase 2 done 2026-05-11)
 
@@ -53,6 +53,7 @@ Research/Health-Conditions/PTSD-Analysis.md | Health-Conditions | Analysis | v1.
 Research/Melody-Technology/Melody-Technology-Overview.md | Melody-Technology | Index | v2.0. INDEX FILE: Melody Technology = bất kỳ hệ thống nào phục vụ body-base (tôn giáo, idol, giáo dục, ideology, self-help, AI...). §1 7 Functions × v7.8 mechanism. Đã phân tích: Religion (7/7) + Idol. §3 Spectrum fan→tôn giáo. §4 Chưa phân tích: ideology, self-help, AI... (predictions). ⚠️ INDEX — cần 5-6 implementations trước khi tổng hợp GUIDE.
 Research/Melody-Technology/Religion.md | Melody-Technology | Analysis | v2.3. Tôn giáo = 7/7 functions technology. v2.3: §15 Alzheimer confirms maximum compile resistance (Kaufman 2007 — 6+ memory systems × high density). Source: Health Conditions Drill.
 Research/Melody-Technology/Idol-Phenomenon.md | Melody-Technology | Analysis | v2.1. Idol phenomenon = body-base drives CỦA FAN compile chunks về idol. 5 drives × v7.8 mapping. Self-Pattern-Modeling Compiled parasocial (1-chiều). 2-luồng: Valence-Momentary per-exposure + Valence-Structural attachment. Extreme → Body-Base Extension. Grief = structural loss (Protect). AI idol = new frontier (virtual agent, channels cực cao). v2.1: Reward-Signal-Architecture Evaluative/Direct-State (idol art=Direct-State, anchor=Evaluative, Evaluative Gates Direct-State → fan depth gradient).
+Research/Melody-Technology/drill-religion-evidence.md | Melody-Technology | Drill | v1.0. DRILL EVIDENCE cho Religion.md v3.0 rewrite. 3 Trục: ① Giá trị tôn giáo (wellbeing/longevity/mental health/community/meaning — Li 2016 JAMA: −33% mortality), ② Xác thực claims nhạy cảm, ③ Kiến trúc cộng đồng serve nhu cầu thật. Web search + 4 parallel research agents. ~100+ citations (PubMed, JAMA, Psychological Bulletin, Pew Research, Gallup, Harvard Human Flourishing). ~869L.
 
 Research/Meta-Impact/Meta-Impact.md | Meta-Impact | Core | v2.1. META exercise: framework predict TÁC ĐỘNG CỦA CHÍNH NÓ. §1 Rủi ro LÊN ĐẦU: label hóa con người (MBTI syndrome), tự chẩn đoán sai → schema ego, weaponization (marginal gain). Oversimplification > weaponization = rủi ro lớn nhất. Error cascade. "NẾU bản đồ đúng, predict gì?" Observation parameters = phổ liên tục, KHÔNG phải labels.
 Research/Meta-Impact/Creator-Lens.md | Meta-Impact | Bias | v2.0. Framework bị shape bởi lens người tạo: game developer (systems thinking), somatic processor (body-first), 1 người (bias cao + depth cao + blind spots sâu). §2 Game architecture → framework mapping cụ thể (Stats↔Observation params, State Machine↔Chunk lifecycle, NPC AI↔Self-Pattern-Modeling, Game Loop↔Interface Loop...). Biết lens KHÔNG loại bỏ bias — giúp calibrate.

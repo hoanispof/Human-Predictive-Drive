@@ -643,6 +643,10 @@ COMPILED → FRESH (Disruption):
     → External observer needed (therapist, mentor).
     → Detect: body response TO trigger BEFORE suppress kicks in.
     → = Milliseconds genuine response = diagnostic window.
+    → ⭐ Compiled Suppress → Self-Observation DISABLED at relay point:
+      Person reports "tôi ổn" → body disagree → external observer needed
+      (Self-Observation.md v1.0 §5.4: Self-Observation CANNOT detect compiled suppress
+      vì suppress xảy ra TRƯỚC PFC observation point)
 
   STEP 2 — SAFE ENVIRONMENT (lower cortisol):
     → Safe person present → cortisol lower (🟢 Coan & Sbarra 2015).
@@ -790,6 +794,7 @@ CAN COMPILED SUPPRESS BE MEASURED?
   │ SUPPRESS                        │ Block compiled pattern      │ ② Không giảm       │
   │ SOCIAL                          │ Impression management       │ ① + ② Mixed       │
   │ SELF-MONITOR                    │ Observe own body-feedback   │ ① Moderate         │
+  │ SELF-OBSERVATION (Fresh)        │ PFC HOLD + read body-state  │ ① Sustained        │
   │ IMAGINE-FINAL                   │ Draft future, hold goal     │ ① Sustained        │
   └────────────────────────────────┴─────────────────────────────┴────────────────────┘
 
@@ -798,6 +803,13 @@ CAN COMPILED SUPPRESS BE MEASURED?
   → Về nhà: budget còn ÍT → Self-Pattern-Modeling cho con YẾU → "không muốn nói."
   → = KHÔNG phải "không yêu con" — PFC processing capacity ĐÃ HẾT.
   → "Budget recharges via sleep" = catecholamine restoration (§8.3 Cơ chế B).
+
+  ⭐ SELF-OBSERVATION = FIRST TO GO khi budget exhausted (Self-Observation.md §5):
+    → Self-Observation (Compiled, Mức 2) = cost≈0, KHÔNG tiêu budget (Body-Knowing Inward)
+    → Self-Observation (Fresh, Mức 3+) = cost>0, CẦN PFC HOLD open
+    → Budget hết → Fresh Self-Observation IMPOSSIBLE → chỉ còn Compiled
+    → = "Mệt quá → không biết mình đang sao" = PFC budget hết cho Self-Observation
+    → KEYSTONE: Self-Observation fail → cascade (Self-Pattern-Modeling, Dual Check, Somatic-Articulation-Loop...)
 
   🟢 Kurzban 2013: PFC = shared hardware → allocation competition → budget finite.
   🟢 Musslick & Cohen 2021: shared representations → serial bottleneck → cannot parallel.
@@ -1109,6 +1121,7 @@ CAN COMPILED SUPPRESS BE MEASURED?
 | Gap-Distribution-Profile v1.0 | Per-person landscape | Hardware↔Collective-Arc shift |
 | Somatic-Articulation-Loop.md | Somatic-Articulation-Loop mechanism | Step 4 of reversal + §9.3 body→word |
 | Logic-Feeling v4.0 | §1 Body-Knowing | §9.3 Mode 2 = compiled recognition |
+| Self-Observation.md v1.0 | §5 Hardware Factors | §9 PFC Budget consumer + §8 Compiled Suppress blocks Self-Observation |
 
 **Drill-Sound-Brain (v1.2 — §9.3 source):**
 

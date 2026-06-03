@@ -2779,6 +2779,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → PFC-Operations.md v1.0 — §3 PFC budget, §5 Compiled Quality,
       §8 vmPFC escalation, §9 parent-child highest cost [v3.0]
     → Simulation-Engine.md v1.0 — 1 Engine × 3 Components [v3.0]
+    → Self-Observation.md v1.0 — APPLICATION-3: Self × Present × Observe. Keystone property
 
   BODY-BASE + OBSERVATION FILES:
     → Entity-Valence-Dynamics.md v1.0 — §1 Structural/Current, §2 Entity-Compiled,

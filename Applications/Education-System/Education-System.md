@@ -1,13 +1,20 @@
 ﻿---
 title: Education System — Hệ Thống Giáo Dục Tối Ưu
-version: 3.1
+version: 3.2
 created: 2026-05-11
-updated: 2026-06-01 (v3.1 — Compile Architecture refine: +1E+3M awareness, +Compile Type per stage, +Critical Asymmetry × Teacher, +Multi-Stream, +Sleep Maintenance, +Compile-Taxonomy v3.0/Compile-Sleep v1.0 deps, all Education/Child-Dev version refs updated)
-status: v3.1
+updated: 2026-06-03 (v3.2 — Trust.md v1.0 + Self-Observation.md v1.0 integration: +Trust×Stages×Roles awareness, +Self-Observation gradient per stage, +Trust Infrastructure × Teacher, +Parent Trust Dynamics, +Trust×Self-Observation coupled insight, all Tầng 3/Tầng 2 version refs updated)
+status: v3.2
 scope: |
   NẾU làm ĐÚNG, hệ thống giáo dục hiện đại TRÔNG THẾ NÀO?
   = Imagine-Final đẹp nhất cho giáo dục — derived from brain mechanism.
   TẦNG 4 — Applications (era-specific), derived từ Tầng 3 (Research/Education/).
+  v3.2 KEY CHANGES:
+    - Trust = AMPLIFIER cho VALUE compile (Trust.md v1.0): 3 sub-dimensions × stages × roles
+    - Self-Observation = meta-learning infrastructure (Self-Observation.md v1.0): gradient × stages
+    - Trust × Self-Observation coupled insight: 4 states (optimal/dependent/guarded/disengaged)
+    - Teacher Trust Infrastructure (⑧): trust-building = first weeks priority
+    - Parent Trust Dynamics: deepest trust, bidirectional amplifier, transfer mechanism
+    - All stale Tầng 3 + Tầng 2 version refs updated to current
   v3.0 KEY CHANGES:
     - ENGINE/ROAD/VEHICLE lens xuyên suốt (Gap-Body-Need v1.0 §9)
     - Hardware-Subsidy spectrum per role (Entity-Valence-Dynamics.md v1.0 §5)
@@ -22,7 +29,7 @@ scope: |
     - 4-Layer Sustainability: teacher-student relationship
     - Simulation-Engine: AI education model
     - Imagine-Final v3.0: boundary reframe
-    - Connection-Education v1.0 replaces Empathy-Education v2.0
+    - Connection-Education v1.1 replaces Empathy-Education v2.0
     - "bộ 3" architecture (HOW/WHAT/WHO)
     - All dependency versions updated
 purpose: |
@@ -40,16 +47,19 @@ position: |
 previous: backup/v2.0/Education-System.md (1,554L, v2.0, 2026-05-11)
 dependencies:
   education-foundation:
-    - Education-Mechanism.md v2.1 — HOW: nguyên lý arc design (bộ 3)
-    - Domain-Knowledge-Map.md v2.0 — WHAT: bản đồ nhóm kiến thức (bộ 3)
-    - Connection-Education.md v1.0 — WHO: social interaction education (bộ 3)
+    - Education-Mechanism.md v2.2 — HOW: nguyên lý arc design (bộ 3)
+    - Domain-Knowledge-Map.md v2.1 — WHAT: bản đồ nhóm kiến thức (bộ 3)
+    - Connection-Education.md v1.1 — WHO: social interaction education (bộ 3)
   compile-architecture:
     - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators + 3 Exposure Channels
     - Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms)
+  trust/self-observation:
+    - Trust.md v1.0 — Trust = compiled reliability prediction, 3 sub-dim, amplifier
+    - Self-Observation.md v1.0 — gradient Mức 0-6, Tool Not Virtue, PFC Budget
   education-observation:
-    - Education-Arms-Race.md v1.3 — cạnh tranh giáo dục
-    - Money-Education.md v1.1 — tiền trong giáo dục
-    - Expansion-Saturation-Crisis.md v1.2 — giáo dục bão hòa
+    - Education-Arms-Race.md v1.4 — cạnh tranh giáo dục
+    - Money-Education.md v1.2 — tiền trong giáo dục
+    - Expansion-Saturation-Crisis.md v1.3 — giáo dục bão hòa
   core-mechanism:
     - Core-Software.md v2.0 — cycle-based architecture
     - Core-Hardware.md v1.0 — 4 zones A/B/C/D
@@ -79,14 +89,14 @@ dependencies:
     - Compiled-Fresh.md v2.0 — Compiled Quality Dimension
     - Boredom.md v2.0 — Resonance Decline formula, unified
   child-dev:
-    - Child-Development-Mechanism.md v2.2 — phát triển 0-6
-    - Natural-Development.md v2.2 — 0-6 tự nhiên
-    - Skill-Introduction.md v2.2 — 0-6 kỹ năng
-    - Mother-Optimization.md v2.2 — prenatal
+    - Child-Development-Mechanism.md v2.3 — phát triển 0-6
+    - Natural-Development.md v2.3 — 0-6 tự nhiên
+    - Skill-Introduction.md v2.3 — 0-6 kỹ năng
+    - Mother-Optimization.md v2.3 — prenatal
   application:
-    - Hardware-Calibration.md v1.0 — per-individual calibration
-    - Curriculum-Framework.md v2.0 — dạy cái gì, khi nào
-    - Era-Analysis-2025.md v2.0 — context thời đại
+    - Hardware-Calibration.md v1.2 — per-individual calibration
+    - Curriculum-Framework.md v2.2 — dạy cái gì, khi nào
+    - Era-Analysis-2025.md v2.1 — context thời đại
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Neuroscience mechanism | 🟡 Framework inference | 🔴 Hypothesis
 ---
@@ -135,9 +145,9 @@ confidence: 🟢 Neuroscience mechanism | 🟡 Framework inference | 🔴 Hypoth
 TẠI SAO CẦN FILE NÀY:
 
   Research/Education/ đã giải thích:
-    Education-Mechanism.md v2.1 = HOW (nguyên lý arc design brain-based)
-    Domain-Knowledge-Map.md v2.0 = WHAT (3-tier domain taxonomy)
-    Connection-Education.md v1.0 = WHO (social interaction education)
+    Education-Mechanism.md v2.2 = HOW (nguyên lý arc design brain-based)
+    Domain-Knowledge-Map.md v2.1 = WHAT (3-tier domain taxonomy)
+    Connection-Education.md v1.1 = WHO (social interaction education)
 
   = "Bộ 3" Education — 3 files ĐỌC CÙNG NHAU:
     ① HOW: cách THIẾT KẾ learning arc cho não compile tối ưu
@@ -162,17 +172,17 @@ KIẾN TRÚC 5 TẦNG — VỊ TRÍ CỦA FILE:
   │   Cortisol v2.1, Entity-Valence-Dynamics v1.0, Body-Feedback...   │
   ├─────────────────────────────────────────────────────────────────┤
   │ Tầng 2: Research/Child-Development/ (phát triển 0-6)           │
-  │   Child-Dev-Mechanism v2.2, Natural-Dev v2.2,                   │
-  │   Skill-Intro v2.2, Mother-Opt v2.2                            │
+  │   Child-Dev-Mechanism v2.3, Natural-Dev v2.3,                   │
+  │   Skill-Intro v2.3, Mother-Opt v2.3                            │
   ├─────────────────────────────────────────────────────────────────┤
   │ Tầng 3: Research/Education/ (nguyên lý giáo dục — valid mọi era)│
-  │   "Bộ 3": Mechanism v2.1 (HOW) + Domain-Knowledge-Map v2.0 (WHAT)              │
-  │           + Connection-Education v1.0 (WHO)                     │
+  │   "Bộ 3": Mechanism v2.2 (HOW) + Domain-Knowledge-Map v2.1 (WHAT)              │
+  │           + Connection-Education v1.1 (WHO)                     │
   │   + Observation/ (Arms-Race, Money-Education)                   │
   ├─────────────────────────────────────────────────────────────────┤
   │ Tầng 4: Applications/Education/ ← FILE NÀY (system per-era)    │
-  │   Education-System v3.1 + Hardware-Calibration v1.1             │
-  │   + Era-Analysis v2.1 + Curriculum-Framework v2.1               │
+  │   Education-System v3.2 + Hardware-Calibration v1.2             │
+  │   + Era-Analysis v2.1 + Curriculum-Framework v2.2               │
   ├─────────────────────────────────────────────────────────────────┤
   │ Tầng 5: Country/ (per-country — VN/, etc.)                     │
   └─────────────────────────────────────────────────────────────────┘
@@ -196,7 +206,7 @@ ENGINE/ROAD/VEHICLE — HUMAN ARCHITECTURE LENS (Gap-Body-Need v1.0 §9):
       → ĐỂ ENGINE (student) build VEHICLE (compiled chains) hiệu quả
       → Trên ROAD (kiến thức + kỹ năng collective đã tích lũy)
 
-  ⭐ EDUCATION = SOCIETAL HARDWARE-SUBSIDY (Education-Mechanism v2.1 §1.3):
+  ⭐ EDUCATION = SOCIETAL HARDWARE-SUBSIDY (Education-Mechanism v2.2 §1.3):
 
     Hardware-Subsidy = anti-habituation mechanism — external system
     COUNTER normal VTA habituation (Entity-Valence-Dynamics.md v1.0 §5):
@@ -266,7 +276,7 @@ IMAGINE-FINAL — NẾU LÀM ĐÚNG:
 REFRAME CỐT LÕI:
 
   Giáo dục = GUIDED CHUNK CONFIG OPTIMIZATION at population scale 🟡
-    (ref: Education-Mechanism.md v2.1 §1.4)
+    (ref: Education-Mechanism.md v2.2 §1.4)
 
   Nghĩa là:
     → KHÔNG phải "truyền kiến thức" (teacher → student = passive)
@@ -337,7 +347,7 @@ REFRAME CỐT LÕI:
   │    → ĐÃ CÓ: Child-Development bộ 4 (KHÔNG repeat)              │
   │    → File này bắt đầu từ HANDOFF: Stage 1 → Stage 2 (§2)       │
   │                                                                  │
-  │  ────────── handoff (ref: Child-Dev-Mechanism v2.2 §9) ────────  │
+  │  ────────── handoff (ref: Child-Dev-Mechanism v2.3 §9) ────────  │
   │                                                                  │
   │  STAGE 2 (6-12): Foundation Chunking ⭐ [§2]                     │
   │    Brain: PFC ~40-70%, myelination mạnh, capacity tăng          │
@@ -416,6 +426,89 @@ FLOW XUYÊN STAGES:
   → Subsidy quality = dimension ẩn trong mọi education design
 
 
+  v3.2 TRUST + SELF-OBSERVATION AWARENESS (Trust.md v1.0, Self-Observation.md v1.0):
+
+    ⭐ TRUST = AMPLIFIER cho VALUE COMPILE (Trust.md v1.0, Compile-Taxonomy v3.0 §7):
+
+      Trust = compiled prediction về RELIABILITY của entity trong gap-fill.
+      3 sub-dimensions (Trust.md v1.0 §1):
+        Trust-Authority: entity CÓ QUYỀN dạy/đánh giá?
+        Trust-Competence: entity CÓ KHẢ NĂNG dạy/đánh giá?
+        Trust-Intention: entity MUỐN GIÚP? (deepest, most fragile)
+
+      Trust × Education — 3 nguyên lý:
+        ① Trust = AMPLIFIER (gradient), KHÔNG phải GATE (binary)
+           → High trust → VALUE compile MẠNH → genuine-compiled
+           → Low trust → VALUE compile YẾU → engine alone = schema/threat-compiled
+           → Trust level QUYẾT ĐỊNH Compiled Quality trajectory
+        ② Build SLOW, collapse FAST (Trust.md v1.0 §4):
+           → Build: weeks-months consistent behavior
+           → Collapse: 1 violation có thể phá months of building
+           → Education system phải PROTECT trust infrastructure
+        ③ Default → Calibrated 4 phases (Trust.md v1.0 §5):
+           → Phase 1 (Installed): parent/culture install trust package
+           → Phase 2 (Default): trust HOẠT ĐỘNG nhưng CHƯA kiểm chứng
+           → Phase 3 (Calibrate): đánh giá — "thật sự đáng tin?"
+           → Phase 4 (Override): domain reality > authority → mature trust
+
+    ⭐ SELF-OBSERVATION = META-LEARNING INFRASTRUCTURE (Self-Observation.md v1.0):
+
+      Self-Observation = capacity to OBSERVE own internal states.
+      Gradient Mức 0-5 (Self-Observation.md v1.0 §4):
+        Mức 0: Body-React — no observation
+        Mức 2: Body-Label — "tôi mệt", "tôi sợ"
+        Mức 3: Body-Predict — "nếu mệt, bài thi sẽ tệ"
+        Mức 4: Pattern-Observe — "tôi hay lo trước thi"
+        Mức 5: Calibrated-Observe — evaluate own observation quality
+
+      Self-Observation × Education — 3 nguyên lý:
+        ① Self-Observation = TOOL, NOT VIRTUE (Self-Observation.md v1.0 §9)
+           → Practical capacity → higher Mức = better meta-learning
+        ② PFC Budget Competition (Self-Observation.md v1.0 §5):
+           → Self-Observation = FIRST TO GO when PFC exhausted
+           → Student mệt → Self-Observation DROP → self-report inaccurate
+           → Teacher mệt → observation DROP → calibration inaccurate
+        ③ Compiled Quality matters (Self-Observation.md v1.0 §5.3):
+           → Genuine-compiled → expansive, curious observation
+           → Threat-compiled → biased, defensive observation
+           → Schema-compiled → formulaic, limited observation
+
+    TRUST × SELF-OBSERVATION × 4 STAGES — mapping 🟡:
+
+      ┌──────────────┬─────────────────────────────────┬───────────────────────────────────┐
+      │ Stage        │ Trust Dimension                  │ Self-Observation Dimension        │
+      ├──────────────┼─────────────────────────────────┼───────────────────────────────────┤
+      │ 1 (0-6)      │ Phase 1-2: Installed → Default  │ Mức 0-2: label, scaffold         │
+      │              │ Default trust = USE this window  │ Parent = Pathway 2 scaffold      │
+      │              │ Trust-Intention MOST important   │ "Con đang buồn à?" = Mức 1→2    │
+      ├──────────────┼─────────────────────────────────┼───────────────────────────────────┤
+      │ 2 (6-12)     │ Phase 2: Default operational    │ Mức 2-3: predict, pattern seeds  │
+      │              │ Trust teacher → VALUE amplified  │ Begin self-monitoring practice    │
+      │              │ BEGIN trust calibration seeds    │ Teacher = External Scaffold       │
+      │              │ Risk: uncalibrated generalize    │ Journaling, check-ins            │
+      ├──────────────┼─────────────────────────────────┼───────────────────────────────────┤
+      │ 3 (12-18)    │ Phase 3: Calibrating            │ Mức 3-4 + Teen Paradox           │
+      │              │ "Rebellion" = trust calibration  │ CAN observe, CAN'T regulate      │
+      │              │ Per-domain trust split = NORMAL  │ Reward OBSERVATION not regulation │
+      │              │ Teach trust evaluation skills    │ PFC developing → inconsistent    │
+      ├──────────────┼─────────────────────────────────┼───────────────────────────────────┤
+      │ 4 (18+)      │ Phase 3-4: Domain override      │ Mức 4-5: meta-learning           │
+      │              │ Critical thinking = formalized   │ Self-directed learning capacity  │
+      │              │ Domain reality > authority trust │ Calibrated-Observe = target      │
+      │              │ AI trust = NEW calibration req   │ Self-Observation × AI = key skill│
+      └──────────────┴─────────────────────────────────┴───────────────────────────────────┘
+
+      COUPLED INSIGHT — Trust × Self-Observation trong education 🟡:
+        High Trust + High Self-Observation → OPTIMAL: engage + self-monitor → genuine compile
+        High Trust + Low Self-Observation → DEPENDENT: engage but CAN'T self-direct → need scaffold
+        Low Trust + High Self-Observation → GUARDED: CAN observe but WON'T reveal → build trust first
+        Low Trust + Low Self-Observation → DISENGAGED: system FAILED → rebuild both
+
+      Cross-ref: Trust.md v1.0 §1 (3 sub-dim), §4 (asymmetry), §5 (4 phases),
+        Self-Observation.md v1.0 §4 (gradient), §6.3 (Teen Paradox), §9 (Tool Not Virtue),
+        Hardware-Calibration.md v1.2 (Cross-Cutting Lens 3-4: Trust + Self-Observation × Calibration)
+
+
 DURABLE vs ERA-SPECIFIC TRONG FILE NÀY:
 
   ┌────────────────────────────┬──────────────────────────────────┐
@@ -443,14 +536,14 @@ DURABLE vs ERA-SPECIFIC TRONG FILE NÀY:
 
   Tại sao bắt đầu TỪ ĐÂY (không từ Stage 1):
     → Stage 1 (0-6) = Child-Development bộ 4 ĐÃ COVER chi tiết
-    → Handoff Stage 1 → 2 = Child-Dev-Mechanism v2.2 §9
+    → Handoff Stage 1 → 2 = Child-Dev-Mechanism v2.3 §9
     → Stage 2 = lần đầu "education system" CHÍNH THỨC tham gia
     → = Đây là chỗ "từ NHÀ ra TRƯỜNG" — transition CỰC quan trọng
     → Qua lens ENGINE/ROAD/VEHICLE: ENGINE rời GARAGE (nhà) ra ROAD (hệ thống)
 
 
 NÃO Ở STAGE 2 — CÁI CÓ SẴN:
-  (ref: Natural-Development v2.2 §4, Core-Hardware.md §3)
+  (ref: Natural-Development v2.3 §4, Core-Hardware.md §3)
 
   🟢 PFC development: ~40-70% capacity
      → Sustained attention: 15-30 phút (tăng dần)
@@ -478,7 +571,7 @@ NÃO Ở STAGE 2 — CÁI CÓ SẴN:
 MỤC TIÊU STAGE 2 — foundation chunks CHẮC:
 
   6 FOUNDATION DOMAINS (cross-era, durable) 🟡:
-    (chi tiết từng domain → Domain-Knowledge-Map.md v2.0 §1)
+    (chi tiết từng domain → Domain-Knowledge-Map.md v2.1 §1)
 
     ① LITERACY / COMMUNICATION (Domain-Knowledge-Map §1.1)
        → Đọc, viết, nói, nghe, biểu đạt
@@ -493,7 +586,7 @@ MỤC TIÊU STAGE 2 — foundation chunks CHẮC:
        → 🟢 Body-base = processing channel — KHÔNG phải "giờ thể dục cho vui"
 
     ④ SOCIAL / EMOTIONAL (Domain-Knowledge-Map §1.4)
-       → Connection-Education v1.0: pragmatic social interaction, body-based
+       → Connection-Education v1.1: pragmatic social interaction, body-based
        → Method: group projects, real conflicts = learning moments
 
     ⑤ META-LEARNING — seeds (Domain-Knowledge-Map §1.6)
@@ -515,7 +608,7 @@ MỤC TIÊU STAGE 2 — foundation chunks CHẮC:
 
 
 METHOD — CÁCH NÃO 6-12 HỌC TỐT NHẤT:
-  (derived từ Education-Mechanism.md v2.1 §2)
+  (derived từ Education-Mechanism.md v2.2 §2)
 
   DIRECTION > LEVEL (Mechanism §2.2 — NGUYÊN LÝ QUAN TRỌNG NHẤT):
     → Mọi trải nghiệm phải ở NOVELTY-DIRECTION (approach tag)
@@ -578,7 +671,7 @@ METHOD — CÁCH NÃO 6-12 HỌC TỐT NHẤT:
 
 
 BRIDGE STRATEGY — Stage 2:
-  (ref: Education-Mechanism.md v2.1 §3)
+  (ref: Education-Mechanism.md v2.2 §3)
 
   Bridge = NGUỒN ④ External Inject (Anchor-Schema.md):
     → Giữ student ở lại ĐỦ LÂU để chunks compile
@@ -806,7 +899,7 @@ METHOD — CÁCH NÃO 12-18 HỌC TỐT NHẤT:
     → = Gap landscape diversification — student tự shape ROAD map
 
   SOCIAL INTERACTION EDUCATION:
-    → Connection-Education v1.0: 5 trụ social interaction
+    → Connection-Education v1.1: 5 trụ social interaction
     → Pragmatic > moral. Experience > lecture. Body compile > PFC rule.
     → Puberty = emotional turbulence → CHUYÊN SÂU hơn Stage 2
 
@@ -958,7 +1051,7 @@ STAGE 4 SUMMARY:
 ```
 MỤC ĐÍCH:
   → Summary bridge strategy XUYÊN 4 STAGES
-  → Chi tiết mechanism → xem Education-Mechanism.md v2.1 §3
+  → Chi tiết mechanism → xem Education-Mechanism.md v2.2 §3
 
 
 NGUYÊN TẮC CỐT LÕI (Mechanism §3.1 — Bridge = nguồn ④):
@@ -1214,6 +1307,42 @@ TEACHER QUA 6 LENS MỚI:
        → Sequence: Entity-Valence TRƯỚC (build trust) → content SAU
        → = Teacher training QUAN TRỌNG NHẤT: relationship TRƯỚC content
 
+  ⑧ v3.2 TRUST + SELF-OBSERVATION × TEACHER (Trust.md v1.0, Self-Observation.md v1.0):
+
+     TRUST = WORKING INFRASTRUCTURE for teaching 🟡:
+       → Without trust, Entity-Valence path BLOCKED → teaching = noise
+       → With trust, Entity-Valence amplify → VALUE compile FAST + genuine
+       → Trust = KHÔNG phải "nice to have" → là ĐIỀU KIỆN CẦN cho dạy học hiệu quả
+
+     Teacher Trust × 3 Sub-Dimensions (Trust.md v1.0 §1):
+       Trust-Intention: student tin teacher MUỐN GIÚP → MOST CRITICAL
+         → Build: consistent care, fair treatment, follow through
+         → Collapse: harsh judgment, public humiliation → trust GONE
+         → = Determines student willingness to ENGAGE and REVEAL
+       Trust-Competence: student tin teacher GIỎI domain → Prestige-based
+         → Earned through demonstrated expertise (Coordination-Node v1.2)
+       Trust-Authority: student tin teacher CÓ QUYỀN dạy → structural, system-given
+         → Weakest dimension alone → need Competence + Intention to amplify
+
+     Trust-Building = FIRST WEEKS PRIORITY:
+       → Critical Asymmetry (⑦): Entity-Valence path = FAST + RẺ
+       → Sequence: Trust-Intention TRƯỚC → content depth SAU
+       → Trust built → VALUE compile activated → ALL content amplified
+       → = Weeks 1-2: relationship building > content delivery
+
+     Teacher Self-Observation Requirement (Self-Observation.md v1.0 §5):
+       → Quality calibration requires teacher Mức 4-5:
+         "Am I biased in assessment?" = meta-observation (Mức 4)
+         "My frustration — about student or about ME?" = Mức 5
+       → PFC Budget: end-of-day Self-Observation DROPS
+         → Calibration decisions WORSE in afternoon → schedule important decisions sáng
+       → Compiled Quality: threat-compiled teacher → observe only problems
+         → "Problem student" SOMETIMES = teacher's threat-compiled observation
+       → = Teacher Self-Observation training = INFRASTRUCTURE investment
+
+     Cross-ref: Trust.md v1.0 §1, §4, §5; Self-Observation.md v1.0 §4, §5;
+       Hardware-Calibration.md v1.2 (Cross-Cutting Lens 3-4)
+
 
 4 CORE SKILLS CỦA TEACHER TRONG SYSTEM NÀY:
 
@@ -1321,6 +1450,30 @@ DOUBLE-BIND PROBLEM:
     → CẢ 2 environment ĐÈ → cortisol MÃN TÍNH → Forced-Fit
   Ideal: parent + school ALIGNED nhưng COMPLEMENTARY
     → School: structured learning | Home: emotional safety, exploration
+
+
+  v3.2 PARENT TRUST DYNAMICS (Trust.md v1.0):
+
+     Parent-child trust = DEEPEST compiled trust 🟢:
+       → Entity-Access Mức 4-5 + Hardware-Subsidy MAX → trust effect AMPLIFIED maximally
+       → Trust-Intention compiled DEEP: child DEFAULT trusts parent wants good
+       → Bidirectional amplifier (Entity-Valence-Dynamics v1.0 §5):
+         "Con giỏi lắm" → Trust × MAX subsidy → STRONG genuine compile
+         "Con dốt quá" → Trust × MAX subsidy → STRONG threat compile
+
+     Parent-School Trust Alignment 🟡:
+       → Parent trusts school → child IMPORTS this stance → school trust AMPLIFIED
+       → Parent distrusts school → child IMPORTS → school trust BLOCKED
+       → Conflict → child in Evaluative Dissonance → learning disrupted
+       → = Parent-school alignment = TRUST infrastructure for child's education
+
+     Trust Transfer × Stage (Trust.md v1.0 §8 — Trust Generalization):
+       → Stage 1 (0-6): child imports parent's trust stance toward school/teacher
+       → Stage 2 (6-12): forming OWN trust assessment → parent stance = baseline
+       → Stage 3 (12-18): CALIBRATING → may reject parent's stance = NORMAL
+       → = Parent trust stance = INITIAL CONDITION for child's trust trajectory
+
+     Cross-ref: Trust.md v1.0 §1, §4, §8; Entity-Access v1.2
 
 
 PARENT TRAINING — MINIMUM VIABLE:
@@ -1593,25 +1746,25 @@ REALITY CHECK — cái CÓ THỂ làm NGAY:
 TẦNG 3 — BỘ 3 EDUCATION (NỀN TẢNG TRỰC TIẾP)
 ═══════════════════════════════════════════════════════
 
-→ Education-Mechanism.md v2.1 — ⭐ HOW: nguyên lý arc design
+→ Education-Mechanism.md v2.2 — ⭐ HOW: nguyên lý arc design
   (Research/Human-Learning/Education-Mechanism/)
   8 nguyên lý arc design (§2), Bridge + Motivation (§3),
   AI-Assisted Education Model (§4), Hardware-Subsidy (§1.3+§2.3).
   File NÀY = system-level application CỦA file này.
 
-→ Domain-Knowledge-Map.md v2.0 — WHAT: nhóm kiến thức
+→ Domain-Knowledge-Map.md v2.1 — WHAT: nhóm kiến thức
   (Research/Human-Learning/Education-Mechanism/)
   3-tier taxonomy: Foundation (§1) / Era-Specific (§2) / Per-Hardware (§3).
 
-→ Connection-Education.md v1.0 — WHO: social interaction education
+→ Connection-Education.md v1.1 — WHO: social interaction education
   (Research/Human-Learning/Education-Mechanism/)
   5 trụ: Hiểu + Xây dựng + Chọn + Duy trì + Navigate groups.
   Build trên Connection v5.0 + Bond-Architecture + Entity-Access.
 
-→ Education-Arms-Race.md v1.3 — cạnh tranh giáo dục
+→ Education-Arms-Race.md v1.4 — cạnh tranh giáo dục
   (Research/Human-Learning/Education-Mechanism/Observation/)
 
-→ Money-Education.md v1.1 — tiền trong giáo dục
+→ Money-Education.md v1.2 — tiền trong giáo dục
   (Research/Human-Learning/Education-Mechanism/Observation/)
 
 
@@ -1619,13 +1772,13 @@ TẦNG 3 — BỘ 3 EDUCATION (NỀN TẢNG TRỰC TIẾP)
 TẦNG 2 — CHILD DEVELOPMENT (foundation 0-6)
 ═══════════════════════════════════════════════════════
 
-→ Child-Development-Mechanism.md v2.2
+→ Child-Development-Mechanism.md v2.3
   §2 Compile Architecture, §3 Approach/Avoidance, §6 Self-Pattern-Modeling Bootstrap,
   §8 Cortisol, §9 Imagine-Final emergence. File NÀY builds on this.
 
-→ Natural-Development.md v2.2 — 0-6 tự nhiên
-→ Skill-Introduction.md v2.2 — 0-6 kỹ năng
-→ Mother-Optimization.md v2.2 — prenatal
+→ Natural-Development.md v2.3 — 0-6 tự nhiên
+→ Skill-Introduction.md v2.3 — 0-6 kỹ năng
+→ Mother-Optimization.md v2.3 — prenatal
 
 
 ═══════════════════════════════════════════════════════
@@ -1658,16 +1811,18 @@ TẦNG 1 — CORE (brain mechanisms)
 → Body-Feedback-Label.md v2.0 — 3-tier vocabulary
 → Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators + Compile Types
 → Compile-Sleep.md v1.0 — Sleep Maintenance (6 mechanisms)
+→ Trust.md v1.0 — compiled reliability prediction, 3 sub-dim, amplifier
+→ Self-Observation.md v1.0 — gradient Mức 0-6, Tool Not Virtue, PFC Budget
 
 
 ═══════════════════════════════════════════════════════
 TẦNG 4 — EDUCATION APPLICATIONS (cùng folder)
 ═══════════════════════════════════════════════════════
 
-→ Education-System.md v3.1 — FILE NÀY ⭐ KHUNG CHÍNH
-→ Hardware-Calibration.md v1.1 — per-individual calibration chi tiết
+→ Education-System.md v3.2 — FILE NÀY ⭐ KHUNG CHÍNH
+→ Hardware-Calibration.md v1.2 — per-individual calibration chi tiết
 → Era-Analysis-2025.md v2.1 — context thời đại hiện tại
-→ Curriculum-Framework.md v2.1 — dạy cái gì, khi nào, cho ai
+→ Curriculum-Framework.md v2.2 — dạy cái gì, khi nào, cho ai
 → 00_Overview.md — bản đồ folder
 
 
@@ -1685,7 +1840,7 @@ FLOW ĐỌC ĐỀ XUẤT
 ═══════════════════════════════════════════════════════
 
 Nếu mới bắt đầu:
-  Education-Mechanism v2.1 → Education-System v3.1 (file này)
+  Education-Mechanism v2.2 → Education-System v3.2 (file này)
   → Era-Analysis → Curriculum-Framework
 
 Nếu muốn sâu:
@@ -1701,14 +1856,16 @@ CROSS-REFERENCES TRONG FILE NÀY:
   ┌──────────────────┬──────────────────────────────────────────────────────────────────────────────┐
   │ Section          │ Key concepts + files referenced                                             │
   ├──────────────────┼──────────────────────────────────────────────────────────────────────────────┤
-  │ §0 Purpose       │ Bộ 3 (Education-Mechanism v2.1, Domain-Knowledge-Map v2.0,                  │
-  │                  │ Connection-Education v1.0), ENGINE/ROAD/VEHICLE (Gap-Body-Need v1.0 §9),    │
+  │ §0 Purpose       │ Bộ 3 (Education-Mechanism v2.2, Domain-Knowledge-Map v2.1,                  │
+  │                  │ Connection-Education v1.1), ENGINE/ROAD/VEHICLE (Gap-Body-Need v1.0 §9),    │
   │                  │ Hardware-Subsidy (Entity-Valence-Dynamics.md v1.0 §5),                             │
   │                  │ Gap-Distribution-Profile v1.1, Compiled Quality                             │
   ├──────────────────┼──────────────────────────────────────────────────────────────────────────────┤
   │ §1 Architecture  │ Core-Software v2.0, Core-Hardware v1.0,                                    │
   │                  │ Coordination-Node v1.2, Hardware-Subsidy spectrum,                          │
   │                  │ +v3.1: Compile-Taxonomy v3.0 (1E+3M), Compile-Sleep v1.0                   │
+  │                  │ +v3.2: Trust.md v1.0 (3 sub-dim, amplifier, 4 phases),                     │
+  │                  │   Self-Observation.md v1.0 (gradient, Tool Not Virtue, PFC Budget)          │
   ├──────────────────┼──────────────────────────────────────────────────────────────────────────────┤
   │ §2 Stage 2       │ Education-Mechanism §2 (principles), Domain-Knowledge-Map §1 (6 domains),  │
   │                  │ PFC Budget, Compiled Quality, Gap-Distribution-Profile,                     │
@@ -1719,7 +1876,7 @@ CROSS-REFERENCES TRONG FILE NÀY:
   │                  │ + Imagine-Final-Evaluation v1.1, Entity-Compiled v1.0,                      │
   │                  │ Entity-Access v1.2, Dissonance-Signal-Architecture v1.0,                    │
   │                  │ Resonance Decline (Connection v5.0), Coordination-Node v1.2,                │
-  │                  │ Connection-Education v1.0,                                                  │
+  │                  │ Connection-Education v1.1,                                                  │
   │                  │ +v3.1: Compile Type Transition, Multi-Stream, Critical Asymmetry            │
   ├──────────────────┼──────────────────────────────────────────────────────────────────────────────┤
   │ §4 Stage 4       │ ENGINE/ROAD/VEHICLE, Gap-Distribution-Profile v1.1,                        │
@@ -1736,9 +1893,11 @@ CROSS-REFERENCES TRONG FILE NÀY:
   │                  │ Resonance-Sustainability v1.0, Bond-Architecture v2.0,                      │
   │                  │ Education-Mechanism §4,                                                     │
   │                  │ +v3.1: Critical Asymmetry × Teaching (Compile-Taxonomy v3.0 §7.2)           │
+  │                  │ +v3.2: Trust Infrastructure (⑧), Teacher Self-Observation requirement       │
   ├──────────────────┼──────────────────────────────────────────────────────────────────────────────┤
   │ §8 Parent        │ Entity-Valence-Dynamics.md v1.0 §5, Entity-Access v1.2,                           │
-  │                  │ Child-Dev bộ 4, Cortisol v2.1                                              │
+  │                  │ Child-Dev bộ 4, Cortisol v2.1,                                             │
+  │                  │ +v3.2: Parent Trust Dynamics, Parent-School Trust Alignment                  │
   ├──────────────────┼──────────────────────────────────────────────────────────────────────────────┤
   │ §9 Integration   │ Simulation-Engine v1.1, Entity-Valence-Dynamics.md v1.0 §5+§10,                   │
   │                  │ Entity-Access v1.2, Education-Mechanism §4, Era-Analysis v2.1               │

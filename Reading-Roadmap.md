@@ -150,6 +150,7 @@ PILLAR 3: DOMAIN                                  Tier 5 (Domain)
 | PFC/Logic-Feeling-Balance.md | 1,631 | META-PRINCIPLE: neither logic nor feeling 100% accurate |
 | PFC/Imagination/Somatic-Articulation-Loop.md | 2,844 | Body-knowledge → explicit-knowledge loop |
 | PFC/Imagination/Imagination.md | 793 | Overview: 5 modalities × COMT/DRD4 |
+| PFC/Self-Observation.md | 1,588 | APPLICATION-3 on Simulation-Engine (Self × Present × Observe) |
 
 ---
 
@@ -187,6 +188,7 @@ PILLAR 3: DOMAIN                                  Tier 5 (Domain)
 | Agent-Mechanism/Resonance-Per-Entity.md | 1,629 | 5+ entity profiles, lifecycle shift |
 | Agent-Mechanism/Entity-Access-Excess.md | 1,392 | Mức 5, cùng circuits với drug addiction |
 | Agent-Mechanism/Entity-Access-Calibration.md | 1,073 | 3-Layer calibration, Exit Cost |
+| Body-Base/Trust.md | 1,134 | Trust = compiled prediction about gap-fill reliability |
 
 ---
 
@@ -352,9 +354,9 @@ Disgust (rejection threshold), Mastery (sustained domain accumulation), Passion 
 | | Files | Lines |
 |---|---|---|
 | **Core path** (Tier 0-5) | 55 | ~86,200 |
-| + Enrichment (1-3) | +21 | +32,000 |
+| + Enrichment (1-3) | +23 | +34,700 |
 | + Reference | +22 | +17,200 |
-| **Toàn bộ** | ~98 | ~135,400 |
+| **Toàn bộ** | ~100 | ~138,100 |
 
 > **Không cần đọc 97 files.** Tier 0 (8 files) đã đủ cho hầu hết câu hỏi.
 > Mỗi Tier thêm = 1 mức hiểu sâu hơn. Chọn điểm dừng phù hợp.

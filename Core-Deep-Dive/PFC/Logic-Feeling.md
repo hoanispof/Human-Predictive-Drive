@@ -407,6 +407,14 @@ LOGIC-FEELING v4.0 TRONG KIẾN TRÚC FRAMEWORK:
     Step 2: Domain reality = final arbiter (outcome confirm/reject)
   → = Both labels point to PARTIAL access. Domain = complete.
 
+  ⭐ FEEL-EXPLANATION ≠ SELF-OBSERVATION (Self-Observation.md §8.2):
+    Feel-Explanation = PFC tạo narrative ("tôi buồn VÌ X") = CONSTRUCT
+    Self-Observation = PFC đọc body-state trực tiếp ("tôi buồn") = OBSERVE
+    Càng explain nhiều → càng XA Self-Observation thật
+    → Rumination = PFC Lawyer explain loop → GIẢM Self-Observation quality
+    → Meditation = observe WITHOUT labeling → TỐT cho Self-Observation
+    → Chi tiết: Self-Observation.md v1.0 §8.2
+
 🟢 Gazzaniga, Haidt 2001, Nisbett & Wilson 1977
 🟡 "PFC = Lawyer for BOTH tracks" = framework synthesis
 ```
@@ -1448,6 +1456,8 @@ STILL OPEN:
   PFC-Function.md v1.2 — 24 functions / 5 categories (OBSERVE→HOLD→PROCESS→ORCHESTRATE→STRATEGIC)
   Somatic-Articulation-Loop.md — Body-knowledge (Body-Knowing) → explicit (fresh formalize)
   Chunk.md v3.0 §8 — Operators × Chunk System: Hold/Suppress, Exposure Channels, Body Evaluate
+  Self-Observation.md v1.0 — APPLICATION-3: Feel-Explanation ≠ Self-Observation (§8.2)
+    → PFC Lawyer narrative → CONSTRUCT (§2.3). Self-Observation → OBSERVE body-state trực tiếp
 
 📚 COMPANION:
 
