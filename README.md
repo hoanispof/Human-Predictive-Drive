@@ -70,7 +70,8 @@ The body-brain system is described through 2 mechanism maps + an AI interface:
 | Interface | OBSERVE + INTERACT | Everyone | AI generates via [Ask-AI.md](Ask-AI.md) |
 
 Think of it like a computer: circuit diagram / code architecture / AI-assisted usage.
-AI serves as a dynamic interface — adapting explanations to each person's level of understanding.
+AI serves as a dynamic interface — adapting explanations to each person's level of understanding.  
+Or browse all files interactively: [www.bodybrainsystem.com/map-view](https://bodybrainsystem.com/map-view)
 
 ### Folder Structure
 

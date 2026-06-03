@@ -80,12 +80,13 @@ The framework provides mechanistic answers to questions like:
 - Why does scrolling social media for an hour leave you drained — when a 30-minute real conversation "-voi ban than" energizes you?
 - Tai sao con nguoi luon hoat dong(khong the ngoi im - co the hoac nao bo). hoac la lam viec(nghi ngoi khi kiet suc), hoac la vui choi. Ke ca ti phu cung khong the ngoi im.
 - Tam quan trong cua collective doi voi ca nhan. Su by-product resonance, optimize brain everyday giua ca nhan voi ca nhan. <= Tai sao mot loi chi trich tren mang xa hoi lai khien ban axiety. Tai sao nguoi than thiet phan boi lai khien ban dau - mac du co the cua ban van khoe manh va khong he bi tan cong vat ly.
+- Tại sao kết quả thực tế là thước đo cuối cùng. Bất chấp bạn đã tốn bao nhiêu công sức cho việc đó. - làm sao để tối ưu hoá reward và hướng áp lực để đạt mục tiêu hiệu quả nhất
+- Tại sao limerence làm con người sung sướng thực sự. Nhưng nó chắc chắn sẽ hết. Sau đó điều gì giúp duy trì hôn nhân bền vững
+- Tại sao đôi khi bạn cố gồng não lên nghĩ cách giải quyết vấn đề nhưng công việc có thể không hiệu quả. Và đôi khi bạn ra quyết định nhanh chỉ trong khoảnh khắc nhưng lại productive. Đó đều phải dựa vào kinh nghiệm bạn đã tích lũy trong lĩnh vực của bạn.
 
+loại bỏ các câu này:
 - Why does discovering something yourself feel completely different from being told the same thing — even when the information is identical?
-
 - Why is boredom painful? Nothing is happening — why does the brain treat that as a problem?
-
-
 - Why does giving to charity feel good but owing someone a favor feels heavy — even when the action is identical?
 
 
