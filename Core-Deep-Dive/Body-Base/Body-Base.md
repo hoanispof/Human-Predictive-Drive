@@ -20,7 +20,7 @@ scope: |
     Agent-Mechanism 11 files, Body-Feedback 17 files, version sync.
     Chi tiết: backup/Body-Base-v3.4-backup.md
   v4.0 KEY CHANGES (tích hợp 4 file nền tảng mới):
-    ① §3 Trust REWRITE: +definition, +3 sub-dims, +3 functions, +dynamics, +formation
+    ① §3 Trust REWRITE: +definition, +3 sub-dimensions, +3 functions, +dynamics, +formation
     ② §4.2 Compile REWRITE: 1 Engine + 3 Modulator Configurations (Compile-Taxonomy v3.0)
     ③ §3 PFC: +Self-Observation = APPLICATION-3, keystone, Mức 0-6
     ④ §0 RESTRUCTURE: flow diagram rút gọn (~50→30 dòng)
@@ -63,7 +63,7 @@ dependencies:
   - Inter-Body-Mechanism.md v2.0 — 8 drill principles, Compilable Architecture
   - Trust.md v1.0 — trust = compiled prediction about entity's gap-fill reliability, meta-dimension
   - Body-Feedback/Body-Feedback-Label.md v2.1 — vocabulary reference
-  - Chunk/Agent-Mechanism/Self-Pattern-Modeling.md v3.2 — solo simulation, 1 mech × 3 dims
+  - Chunk/Agent-Mechanism/Self-Pattern-Modeling.md v3.2 — solo simulation, 1 mechanism × 3 dimensions
   - Chunk/Agent-Mechanism/Entity-Compiled.md v1.0 — neural reality, formation 40→200h, Dunbar
   - Chunk/Agent-Mechanism/Entity-Access.md v1.2 — gradient model, Mức 0-5, per-entity
   - Chunk/Agent-Mechanism/Bond-Architecture.md v2.0 — 1 mechanism × 4 bond types, Resonance Decline
@@ -313,9 +313,9 @@ Chi tiết: Inter-Body-Mechanism.md §1
 
   SATIATION — 3 TYPES (Gap-Body-Need.md v1.0):
     Body-need KHÔNG chỉ "có hoặc không" — có 3 kiểu satiation khác nhau:
-    ① ENGINE satiation: cơ chế tạo gap mệt/giảm (VD: dopamine receptor downregulation)
-    ② ROAD satiation: đường gap fill quen quá → cần path mới (VD: nhạc cũ nhàm)
-    ③ VEHICLE satiation: entity cụ thể bão hòa (VD: ăn phở 7 ngày liên tiếp)
+    ① ENGINE satiation: cơ chế tạo gap mệt/giảm (Ví dụ: dopamine receptor downregulation)
+    ② ROAD satiation: đường gap fill quen quá → cần path mới (Ví dụ: nhạc cũ nhàm)
+    ③ VEHICLE satiation: entity cụ thể bão hòa (Ví dụ: ăn phở 7 ngày liên tiếp)
     → Mỗi type → khác intervention. Nhầm type = fix sai.
     → Entity-gap matching: mỗi gap có entity phù hợp riêng (Gap-Body-Need.md §4)
 
@@ -492,12 +492,12 @@ Chi tiết: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2, Ga
   │     Trust ≠ Valence: trust = PREDICTION (tương lai)              │
   │                       valence = ASSESSMENT (hiện tại)            │
   │     2 chiều ĐỘC LẬP: high-trust + negative-valence CÓ THỂ      │
-  │       (VD: sợ Chúa nhưng TIN Chúa toàn năng)                    │
+  │       (Ví dụ: sợ Chúa nhưng TIN Chúa toàn năng)                    │
   │     🟢 Colquitt 2007: trust separable from liking               │
   │                                                                  │
   │   3 SUB-DIMENSIONS (independent — Trust.md v1.0 §1):            │
   │     ① Trust-Authority: entity CÓ QUYỀN trong domain? (structural)│
-  │     ② Trust-Competence: entity CÓ NĂNG LỰC? (calibrated via exp)│
+  │     ② Trust-Competence: entity CÓ NĂNG LỰC? (calibrated via experience)│
   │     ③ Trust-Intention: entity CÓ Ý TỐT cho tôi? (fastest collapse)│
   │     3 chiều ĐỘC LẬP — high ở 1, low ở 2 có thể xảy ra         │
   │     🟢 Mayer, Davis & Schoorman 1995 (framework ADDS authority)  │
@@ -623,7 +623,7 @@ Chi tiết: Body-Feedback-Mechanism.md v2.1 §1, Inter-Body-Mechanism.md §2, Ga
 
   ⭐ ALL compile = 1 ENGINE: Exposure → Hebbian → Compiled Chunk (Hebb 1949).
   Không có "trust compile mechanism" riêng hay "expertise mechanism" riêng.
-  CHỈ CÓ 1 engine. 3 Compile Types = labels cho dominant modulator config.
+  CHỈ CÓ 1 engine. 3 Compile Types = labels cho dominant modulator configuration.
 
   3 MODULATORS:
     ① Entity-Valence Bias (automatic, cost≈0): trust amplify compile rate + bias exposure
@@ -809,7 +809,7 @@ Chi tiết: Inter-Body-Mechanism.md §3, Self-Pattern-Modeling.md v3.2 §2
 
   HARDWARE-SUBSIDY (Entity-Valence-Dynamics.md v1.1 §5, Body-Coupling.md v3.0):
     → Body hardware cung cấp baseline support "miễn phí" cho operators
-    → VD: oxytocin system → social reward KHÔNG cần PFC effort
+    → Ví dụ: oxytocin system → social reward KHÔNG cần PFC effort
     → Hardware-Subsidy = TẠI SAO một số drives mạnh hơn hẳn
     → Khác nhau theo entity type: con > bạn thân > đồng nghiệp > stranger
     → = Evolutionary investment per-relationship
@@ -817,7 +817,7 @@ Chi tiết: Inter-Body-Mechanism.md §3, Self-Pattern-Modeling.md v3.2 §2
   4 FIRING MODES:
     → Tonic: low-intensity, liên tục, duy trì baseline
     → Phasic: burst cụ thể, response to event
-    → Compound: nhiều hệ fire ĐỒNG THỜI (VD: reunion = oxytocin+dopamine+opioid)
+    → Compound: nhiều hệ fire ĐỒNG THỜI (Ví dụ: reunion = oxytocin+dopamine+opioid)
     → Cascade: 1 event trigger chain nhiều systems theo thứ tự
     → Operators fire KHÁC NHAU tùy mode → cùng stimulus, khác response
 
@@ -934,7 +934,7 @@ Chi tiết: Inter-Body-Mechanism.md §9
     🟢 Triệu sinh vật × triệu năm × triệu thử nghiệm.
     → Gen "reward pattern đúng" → truyền. Gen "reward sai" → chủ nhân chết.
     → Body HIỆN TẠI = survivor's GPS — đã test triệu route, giữ route đúng.
-    → VD: lửa=đau, ngọt=nutrition, rắn=nguy hiểm, social=reward (wired)
+    → Ví dụ: lửa=đau, ngọt=nutrition, rắn=nguy hiểm, social=reward (wired)
     → Unit: SPECIES population. Speed: nghìn-triệu năm.
     → = Cái bạn CÓ khi sinh ra, TRƯỚC mọi trải nghiệm.
     → LIMIT: calibrate CHẬM → evolution lag.
@@ -978,7 +978,7 @@ Chi tiết: Inter-Body-Mechanism.md §9
 
 
   "CULTURE" VÀ "AI" = TÊN GỌI, KHÔNG PHẢI CƠ CHẾ RIÊNG:
-    Culture = 2a passive (social env → compile vô thức) + 2b (accumulated transmission)
+    Culture = 2a passive (social environment → compile vô thức) + 2b (accumulated transmission)
     AI = newest 2b input source (inject chunks, body vẫn phải check)
     Cumulative stacking = emergent property (2b × thế hệ), not separate mechanism
 
@@ -1027,13 +1027,13 @@ Chi tiết: Inter-Body-Mechanism.md §9
   ① GRADUAL REVISION (slow, most common):
      → Output fails repeatedly → valence shifts slowly
      → Compiled pattern weakens over multiple episodes
-     → VD: công thức kinh doanh → thất bại nhiều lần → body dần bỏ
+     → Ví dụ: công thức kinh doanh → thất bại nhiều lần → body dần bỏ
      → Timeline: weeks-months
 
   ② VIOLENT FLIP (fast, traumatic):
      → Betrayal / extreme experience → valence FLIP immediately
      → Deep schema collapse (Valence-Propagation v4.1 §3: violent flip mechanism)
-     → VD: phản bội → chunks person VẪN ĐÓ, valence flip từ + sang -
+     → Ví dụ: phản bội → chunks person VẪN ĐÓ, valence flip từ + sang -
      → Timeline: instant (1 trial — emotional peak compile)
 
   ③ BODY DEFENSE (3 automatic circuit breakers):
@@ -1048,12 +1048,12 @@ Chi tiết: Inter-Body-Mechanism.md §9
     Có Valence-Structural entities (con, bạn thân = body-level feedback):
       → Valence-Structural entities = natural circuit breaker
       → Override chains bị CHẶN bởi Valence-Structural body-feedback
-      → VD: cha quá mê công việc → con ốm → body-feedback CẮT
+      → Ví dụ: cha quá mê công việc → con ốm → body-feedback CẮT
 
     Không có Valence-Structural:
       → Override chains KHÔNG CÓ ceiling tự nhiên
       → Burnout emerges (no body-level signal to stop)
-      → VD: workaholic độc thân → nothing stops the chain
+      → Ví dụ: workaholic độc thân → nothing stops the chain
 
     → Valence-Structural entities = built-in circuit breaker cho complex behavior
     → = TẠI SAO connection matters beyond "feeling good"
@@ -1179,7 +1179,7 @@ BODY-BASE/ FOLDER OVERVIEW (~70+ files):
   │   │
   │   ├── Agent-Mechanism/           — Per-entity mechanism (11 files)
   │   │   ├── Agent-Mechanism.md v2.1 — Master: 10 dimensions
-  │   │   ├── Self-Pattern-Modeling.md v3.2 — Solo simulation, 1 mech × 3 dims
+  │   │   ├── Self-Pattern-Modeling.md v3.2 — Solo simulation, 1 mechanism × 3 dimensions
   │   │   ├── Entity-Compiled.md v1.0 — Neural reality, formation, Dunbar
   │   │   ├── Entity-Access.md v1.2   — Gradient Mức 0-5
   │   │   ├── Entity-Access-Excess.md v1.0 — Excess territory, addiction
@@ -1224,7 +1224,7 @@ READING PATHS:
     6. Inter-Body-Mechanism.md v2.0
 
   Trust + Compile Architecture deep dive (~3-4 giờ):
-    1. Trust.md v1.0 (trust mechanism — 3 sub-dims, formation, dynamics)
+    1. Trust.md v1.0 (trust mechanism — 3 sub-dimensions, formation, dynamics)
     2. Compile-Taxonomy.md v3.0 (1 Engine + 3 Modulators)
     3. Compile-Sleep.md v1.0 (Sleep Maintenance, 6 mechanisms)
     4. Chunk/Chunk.md v3.0 (chunk substrate)
@@ -1365,7 +1365,7 @@ WITHIN BODY-BASE/ FOLDER:
   Cortisol-Baseline.md v2.1 — amplifier mechanism, 10 touchpoints, direction > level
   Valence-Propagation.md v4.1 — valence definition, formation, propagation (companion: Entity-Valence-Dynamics.md v1.1)
   Body-Coupling.md v3.0     — coupling, 4 bond types, hardware-subsidy, Resonance Decline, anti-suppress
-  Trust.md v1.0              — compiled prediction, 3 sub-dims, formation 4 nguồn, dynamics asymmetry, 29 citations
+  Trust.md v1.0              — compiled prediction, 3 sub-dimensions, formation 4 nguồn, dynamics asymmetry, 29 citations
   Body-Feedback/            — signal architecture, Dual-Pull, Body-Feedback-Precondition, trauma loop
   Body-Feedback-Mechanism.md v2.1 — chunk dynamics, Body-Need aggregate, 3 dynamics
   Body-Feedback-Label.md v2.1 — vocabulary reference, 3-tier labels
@@ -1474,12 +1474,12 @@ KEY RESEARCH:
 >
 > v4.0 tích hợp 4 file nền tảng mới:
 >   Compile-Taxonomy v3.0 (1 Engine + 3 Modulators), Compile-Sleep v1.0 (Sleep Maintenance),
->   Trust v1.0 (compiled prediction, 3 sub-dims, dynamics), Self-Observation v1.0 (APPLICATION-3, keystone).
+>   Trust v1.0 (compiled prediction, 3 sub-dimensions, dynamics), Self-Observation v1.0 (APPLICATION-3, keystone).
 >
 > Core principles (v4.0):
 >   §1: 3 Hardware Foundations → Compilable Architecture
 >   §2: Body evaluates PATTERNS, not reality (Treisman 1977 + 6 cases)
->   §3: Model 3+1 — Trust REWRITE: definition + 3 sub-dims + dynamics + formation
+>   §3: Model 3+1 — Trust REWRITE: definition + 3 sub-dimensions + dynamics + formation
 >   §4: 1 Engine + 3 Modulator Configurations + Compiled/Fresh axis
 >   §5: L0-L1 substrate + Hardware-Subsidy + 4 firing modes
 >   §6: 3-Layer Evolution (Hardware → Compiled → Cultural)

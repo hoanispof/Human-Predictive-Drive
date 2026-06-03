@@ -304,7 +304,7 @@ FOLDER TOTAL: 17 content files, ~26,100L
   │    ② Compilation Capability (Hebbian → automatic evaluation)   │
   │    ③ Social Hardware (oxytocin, μ-opioid, dACC reuse)           │
   │                                                                 │
-  │  Ref: Inter-Body-Mechanism.md v2.0 §1, Body-Base.md v3.3 §1    │
+  │  See: Inter-Body-Mechanism.md v2.0 §1, Body-Base.md v3.3 §1    │
   ├─────────────────────────────────────────────────────────────────┤
   │  LAYER 2: SIGNAL GENERATION                                     │
   │                                                                 │
@@ -318,7 +318,7 @@ FOLDER TOTAL: 17 content files, ~26,100L
   │  + Compound (1 event → nhiều dynamics)                          │
   │  → Body-Need = aggregate output                                 │
   │                                                                 │
-  │  Ref: Body-Feedback-Mechanism.md v2.1                           │
+  │  See: Body-Feedback-Mechanism.md v2.1                           │
   ├─────────────────────────────────────────────────────────────────┤
   │  LAYER 3: SIGNAL ARCHITECTURE                                   │
   │                                                                 │
@@ -332,7 +332,7 @@ FOLDER TOTAL: 17 content files, ~26,100L
   │  × 5 Profiles ("hương vị" reward)                               │
   │  Body-Feedback-Precondition = 5 preconditions → signal fire/not fire │
   │                                                                 │
-  │  Ref: Reward-Signal-Architecture.md v2.1, 03-Reward.md,         │
+  │  See: Reward-Signal-Architecture.md v2.1, 03-Reward.md,         │
   │       Dissonance-Signal-Architecture.md v1.0                     │
   ├─────────────────────────────────────────────────────────────────┤
   │  LAYER 4: GAP SYSTEM                                            │
@@ -343,7 +343,7 @@ FOLDER TOTAL: 17 content files, ~26,100L
   │  ENGINE/ROAD/VEHICLE architecture — hardware/collective/compile │
   │  Gap Distribution = per-person aggregate landscape              │
   │                                                                 │
-  │  Ref: Gap-Direction, Gap-Body-Need, Gap-Distribution-Profile    │
+  │  See: Gap-Direction, Gap-Body-Need, Gap-Distribution-Profile    │
   ├─────────────────────────────────────────────────────────────────┤
   │  LAYER 5: AGGREGATE OBSERVATION                                  │
   │                                                                 │
@@ -353,7 +353,7 @@ FOLDER TOTAL: 17 content files, ~26,100L
   │  Reward Calibration = Goldilocks per-gap, dynamic equilibrium  │
   │  Hidden Quality = compilation depth → quality visibility        │
   │                                                                 │
-  │  Ref: Action-Space, Gap-Distribution-Profile,                   │
+  │  See: Action-Space, Gap-Distribution-Profile,                   │
   │       Reward-Calibration, Hidden-Quality-Perception              │
   ├─────────────────────────────────────────────────────────────────┤
   │  LAYER 6: PFC OBSERVATION + INTER-BODY                           │
@@ -363,7 +363,7 @@ FOLDER TOTAL: 17 content files, ~26,100L
   │  Inter-body: by-product match, Entity-Compiled, 5-Channel      │
   │  Body-Coupling: 4 bond types, firing modes                     │
   │                                                                 │
-  │  Ref: Feeling.md v3.0, Inter-Body-Mechanism.md v2.0,            │
+  │  See: Feeling.md v3.0, Inter-Body-Mechanism.md v2.0,            │
   │       Body-Coupling.md v3.0                                      │
   └─────────────────────────────────────────────────────────────────┘
 
@@ -501,24 +501,24 @@ FOLDER TOTAL: 17 content files, ~26,100L
 
     ① SENSORY-DRIVEN: Domain → body-input → chunks fire reactive
        → Animals đầy đủ. No PFC needed. Timing: ms→seconds.
-       → VD: kim đâm, đồ ăn ngon, nhạc hay, trời nóng
+       → Ví dụ: kim đâm, đồ ăn ngon, nhạc hay, trời nóng
 
     ② PATTERN-DRIVEN: Chunks fire nội bộ → body respond theo
        → Replay, preview, comparison, gap detect, spreading activation
-       → VD: nhớ lại, Imagine-Final preview, social comparison
+       → Ví dụ: nhớ lại, Imagine-Final preview, social comparison
 
   3 CHUNK DYNAMICS (Body-Feedback-Mechanism.md v2.1 §3):
 
     ① CHUNK-SHIFT: cùng chunks, KHÁC valence (đánh giá thay đổi)
-       → VD: phản bội → chunks người yêu vẫn đó, valence flip
+       → Ví dụ: phản bội → chunks người yêu vẫn đó, valence flip
        → 🟢 Evaluative conditioning (De Houwer 2007)
 
     ② CHUNK-MISS: pattern đã compiled KHÔNG FIRE (absent/degraded)
-       → VD: TikTok quen → máy hỏng → bứt rứt
+       → Ví dụ: TikTok quen → máy hỏng → bứt rứt
        → 🟢 Successive Negative Contrast (Crespi 1942, Flaherty 1996)
 
     ③ CHUNK-GAP: pattern CHƯA CÓ nhưng network detect thiếu
-       → VD: Einstein → vật lý mâu thuẫn → drive giải
+       → Ví dụ: Einstein → vật lý mâu thuẫn → drive giải
        → Gap-Direction.md v2.0: gap có DIRECTION = f(surrounding chunks)
        → 🟢 Information gap theory (Loewenstein 1994)
 

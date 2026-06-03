@@ -3,7 +3,7 @@
 > How does the body-brain system actually work?  
 > Why do you sometimes know exactly what you should do — but can't make yourself start?  
 > How do the people around you shape your behavior — without anyone planning it?  
-> Why do near-human robots feel unsettling while cartoon characters don't?  
+> Why do near-human-face robots feel unsettling while cartoon characters don't?  
 >
 > This framework bridges neuroscience, psychology, and evolutionary biology
 > into a unified conceptual architecture — from individual behavior to collective patterns.
@@ -71,7 +71,7 @@ The body-brain system is described through 2 mechanism maps + an AI interface:
 
 Think of it like a computer: circuit diagram / code architecture / AI-assisted usage.
 AI serves as a dynamic interface — adapting explanations to each person's level of understanding.  
-Or browse all files interactively: [www.bodybrainsystem.com/map-view](https://bodybrainsystem.com/map-view)
+Or browse all files interactively: [www.bodybrainsystem.com/map-view](https://bodybrainsystem.com/map-view/)
 
 ### Folder Structure
 
@@ -248,7 +248,7 @@ Use, share, adapt freely. No permission needed. No credit required.
 
 ## Keywords
 
-**Framework** · `unified theory of human behavior` · `predictive processing framework` · `body-brain interaction` · `behavioral neuroscience model`
+**Framework** · `predictive processing framework` · `unified theory of human behavior` · `body-brain interaction` · `behavioral neuroscience model`
 
 **Science** · `embodied cognition` · `interoception` · `incentive salience` · `affective neuroscience` · `developmental neuroscience` · `dopamine is not reward` · `somatic marker hypothesis` · `social cognition` · `prediction error` · `neuroscience of education` · `neuroscience of motivation` · `addiction mechanisms` · `emotional regulation` · `behavioral science`
 

@@ -18,7 +18,7 @@
 > - 1 Engine + 3 Modulators: ALL compile = Exposure → Hebbian. 3 types = modulator configs.
 > - Trust = compiled prediction (meta-dimension), Self-Observation = APPLICATION-3 (keystone)
 > **Tiền đề đọc:**
-> - Chunk.md v3.0 — chunk substrate, pattern hierarchy, Entity-Compiled ref
+> - Chunk.md v3.0 — chunk substrate, pattern hierarchy, Entity-Compiled reference
 > - Compile-Taxonomy.md v3.0 — 1 Engine + 3 Modulators, Trust = Amplifier, Multi-Stream
 > - Compile-Sleep.md v1.0 — Sleep = Offline Maintenance (6 mechanisms)
 > - Trust.md v1.0 — compiled prediction, 3 sub-dims, formation, asymmetry
@@ -195,67 +195,67 @@ không phải architecture. Cycle-based match cách body-brain thực sự hoạ
   │                                                                     │
   └──────┬──────────────────────────────────────────────────────────────┘
     ③↑ magnitude × clarity → PFC-observable
-  ┌──────┴──────────────────────────────────────────────────────────────┐
+  ┌──────┴───────────────────────────────────────────────────────────────┐
   │                   UNCONSCIOUS PROCESSING                             │
   │                                                                      │
   │  CHUNK-SYSTEM (sole substrate):                                      │
   │    Compile: 1 Engine (Exposure → Hebbian) + 3 Modulators             │
-  │      Entity-Valence Bias (auto) + 3 Exposure Channels + PFC Hold    │
+  │      Entity-Valence Bias (auto) + 3 Exposure Channels + PFC Hold     │
   │      Sleep Maintenance: 6 mechanisms (~1.5 exposure + ~4.5 optimize) │
-  │    3 Types = modulator configs: Experience / Expertise / Trust        │
+  │    3 Types = modulator configs: Experience / Expertise / Trust       │
   │    Trust = AMPLIFIER (gradient Mức 0-5), NOT gate (binary)           │
   │    Multi-Stream: Content / Value / Entity / Behavior compile song song│
   │    Compiled Quality: genuine / schema / threat (compile-time lock)   │
   │    Entity-Compiled: agent compile vào body-base (40→200h)            │
   │    Activate: probability-weighted spreading activation               │
-  │    Link: Type 1-3 auto + Type 4 PFC deliberate                      │
+  │    Link: Type 1-3 auto + Type 4 PFC deliberate                       │
   │    Never delete — only probability shift                             │
   │    Proto-chunk → Compiled → Meta-chunk (gradient)                    │
   │                                                                      │
   │  BODY-FEEDBACK (continuous evaluation):                              │
   │    REWARD: Evaluative (opioid, Body-Feedback-Precondition) + Direct-State (non-opioid) │
   │    DISSONANCE: input < baseline, mismatch, recalibration             │
-  │    Dual-Pull: hardware pull (smooth) × domain pull (adapt)          │
-  │    3 Satiation Types: Cyclic / Tonic / Generative                   │
+  │    Dual-Pull: hardware pull (smooth) × domain pull (adapt)           │
+  │    3 Satiation Types: Cyclic / Tonic / Generative                    │
   │    Hardware-Subsidy: body subsidize entity processing per Mức        │
   │                                                                      │
-  │  CORTISOL (amplifier xuyên suốt):                                   │
+  │  CORTISOL (amplifier xuyên suốt):                                    │
   │    Modulates: sensitivity + energy + direction                       │
-  │    Direction gate: novelty cortisol → approach | threat → avoidance │
-  │    7 modes: IDLE → LAZY → ACTIVE → FOCUSED → PUSH → FREEZE → CRASH │
+  │    Direction gate: novelty cortisol → approach | threat → avoidance  │
+  │    7 modes: IDLE → LAZY → ACTIVE → FOCUSED → PUSH → FREEZE → CRASH   │
   │                                                                      │
   │  AGENT-MECHANISM (functions trên chunks):                            │
   │    ⭐ Trust: compiled prediction about reliability (Trust.md v1.0)   │
   │      3 sub-dims: Authority / Competence / Intention (independent)    │
-  │      Build CHẬM (months) / Collapse NHANH (1 betrayal) / Asymmetry  │
-  │    Self-Pattern-Modeling v3.2: self → template → hiểu người khác    │
-  │    Entity-Access Mức 0-5: Tool → Utility → Anchor → Deep → Excess  │
+  │      Build CHẬM (months) / Collapse NHANH (1 betrayal) / Asymmetry   │
+  │    Self-Pattern-Modeling v3.2: self → template → hiểu người khác     │
+  │    Entity-Access Mức 0-5: Tool → Utility → Anchor → Deep → Excess    │
   │    Entity-Compiled: agent compile vào body structural level          │
   │    Bond-Architecture: 1 mechanism × 4 bond types                     │
   │    Valence: body assessment per entity, structural + current         │
-  │    Resonance Decline: Compiled-Suppress → Reward-Habituated → ...   │
+  │    Resonance Decline: Compiled-Suppress → Reward-Habituated → ...    │
   │                                                                      │
-  └──────┬──────────────────────────────────────────┬────────────────────┘
+  └──────┬──────────────────────────────────────────────┬────────────────┘
     ②↑ raw signals                              ⑥↓ compiled → execute
-  ┌──────┴──────────────────────┐  ┌────────────────┴────────────────┐
-  │         BODY-INPUT           │  │        BODY-OUTPUT              │
-  │                              │  │                                 │
-  │  L0: Alive threshold         │  │  Motor: compiled chunks         │
-  │    (circuit breaker, binary) │  │    → movement                   │
-  │  L1: 17 categories           │  │  Speech: language chunks        │
-  │    (receptors → raw signals) │  │    → verbal output              │
-  │    Mỗi input: evolved BL     │  │  Expression: facial, postural, │
-  │    + individual baseline     │  │    vocal (often unconscious)    │
-  │    + delta rule evaluation   │  │  PFC hold intention →           │
-  │                              │  │  vô thức execute details        │
-  └──────┬───────────────────────┘  └────────────────┬───────────────┘
+  ┌──────┴──────────────────────────┐  ┌────────────────┴────────────────┐
+  │         BODY-INPUT              │  │        BODY-OUTPUT              │
+  │                                 │  │                                 │
+  │  L0: Alive threshold            │  │  Motor: compiled chunks         │
+  │    (circuit breaker, binary)    │  │    → movement                   │
+  │  L1: 17 categories              │  │  Speech: language chunks        │
+  │    (receptors → raw signals)    │  │    → verbal output              │
+  │    Mỗi input: evolved baseline  │  │  Expression: facial, postural,  │
+  │    + individual baseline        │  │    vocal (often unconscious)    │
+  │    + delta rule evaluation      │  │  PFC hold intention →           │
+  │                                 │  │  vô thức execute details        │
+  └──────┬──────────────────────────┘  └─────────────────┬───────────────┘
     ①↑ stimuli                                      ⑦↓ effects
   ┌──────┴───────────────────────────────────────────────┴───────────────┐
-  │                            DOMAIN                                     │
+  │                            DOMAIN                                    │
   │  3 TYPES: Reality (vật lý) | Abstract (toán) | Abstract-Dynamic (xã hội) │
   │  Tồn tại khách quan — domain KHÔNG nói dối                           │
   │  Dual Check: body = quality controller, domain = final arbiter       │
-  │  Cục bộ thay đổi khi: tương tác + di chuyển + đổi góc nhìn          │
+  │  Cục bộ thay đổi khi: tương tác + di chuyển + đổi góc nhìn           │
   └──────────────────────────────────────────────────────────────────────┘
 
   🔄 LOOP: ①→②→③→④ (perception ↑) + ⑤→⑥→⑦ (action ↓) → ① LIÊN TỤC
@@ -392,7 +392,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     ④ Body flags  + Domain contradicts → RÕ RÀNG (cả body + domain đều nói "sai")
 
     → Case ③ nguy hiểm nhất: body comfortable → KHÔNG có warning signal
-      VD: pyramid scheme (tiền vào đều → body OK, reality = không bền)
+      Ví dụ: pyramid scheme (tiền vào đều → body OK, reality = không bền)
     → "Domain contradicts" xảy ra khi:
       a) Schema person LỖI THỜI — domain Reality/Abstract không đổi, nhưng model sai
       b) Abstract-Dynamic domain THAY ĐỔI — collective shift, model cũ outdated
@@ -464,7 +464,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     ⑩ Nociception: A-delta fast + C-fiber slow pain
     ⑪ Respiratory: breath rate, CO2 chemoreception, vagus
     ⑫ Cardiovascular: HR, HRV, blood pressure, vagal tone
-    ⑬ Visceral: enteric NS (~100-500M neurons), gut-brain axis
+    ⑬ Visceral: enteric nervous system (~100-500M neurons), gut-brain axis
     ⑭ Metabolic: blood glucose, hydration, ghrelin/leptin
     ⑮ Hormonal-sensed: cortisol, testosterone, oxytocin (downstream)
     ⑯ Sleep/Circadian: REM/NREM, SCN master clock, melatonin
@@ -498,7 +498,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 ```
 🟡🟢 DELTA RULE — CORE MECHANISM (Helson 1964):
 
-  BL(t+1) = BL(t) + α × (input_quality(t) - BL(t))
+  baseline(t+1) = baseline(t) + α × (input_quality(t) - baseline(t))
 
   → input > baseline → positive prediction-delta → REWARD → seek repeat
   → Repeated exposure → baseline shifts UP → same input = no reward
@@ -549,7 +549,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 
     ⭐ 1 ENGINE: Exposure → Hebbian → Compiled Chunk (Hebb 1949)
       Không có "trust compile mechanism" riêng hay "expertise mechanism" riêng.
-      CHỈ CÓ 1 engine. 3 Compile Types = labels cho dominant modulator config.
+      CHỈ CÓ 1 engine. 3 Compile Types = labels cho dominant modulator configuration.
       No source tag = evidence cho 1 Engine (Chunk.md v3.0 §1.1).
 
     3 MODULATORS:
@@ -832,7 +832,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
     → Trust = compiled prediction about entity's gap-fill RELIABILITY
     → Trust ≠ Valence: trust = PREDICTION (tương lai) ≠ valence = ASSESSMENT (hiện tại)
     → 2 chiều ĐỘC LẬP: high-trust + negative-valence CÓ THỂ xảy ra
-      (VD: sợ Chúa nhưng TIN Chúa toàn năng)
+      (Ví dụ: sợ Chúa nhưng TIN Chúa toàn năng)
     → 3 SUB-DIMENSIONS (independent):
       ① Trust-Authority: entity CÓ QUYỀN trong domain? (structural fact)
       ② Trust-Competence: entity CÓ NĂNG LỰC trong domain? (calibrated via experience)
@@ -882,14 +882,14 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   BOND-ARCHITECTURE (Bond-Architecture.md v2.0):
     → Entity-Compiled = 1 mechanism DUY NHẤT × 4 bond type configurations:
 
-    ┌────────────────┬───────────────────────┬──────────────────────────┐
-    │ Bond type      │ Hardware-Subsidy       │ Design                    │
-    ├────────────────┼───────────────────────┼──────────────────────────┤
-    │ Parent→Child   │ MAX (oxytocin flood)  │ Asymmetric, unconditional │
-    │ Child→Parent   │ HIGH (attachment)     │ Dependency → autonomy     │
-    │ Romantic       │ TEMP (limerence 6-18m)│ Bilateral, reproductive   │
-    │ Friendship     │ NONE (zero subsidy)   │ Mutual, voluntary, FAST   │
-    └────────────────┴───────────────────────┴──────────────────────────┘
+    ┌────────────────┬─────────────────────────────┬───────────────────────────┐
+    │ Bond type      │ Hardware-Subsidy             │ Design                     │
+    ├────────────────┼─────────────────────────────┼───────────────────────────┤
+    │ Parent→Child   │ MAX (oxytocin flood)        │ Asymmetric, unconditional  │
+    │ Child→Parent   │ HIGH (attachment)           │ Dependency → autonomy      │
+    │ Romantic       │ TEMP (limerence 6-18 months)│ Bilateral, reproductive    │
+    │ Friendship     │ NONE (zero subsidy)         │ Mutual, voluntary, FAST    │
+    └────────────────┴─────────────────────────────┴───────────────────────────┘
     → Gap clone = STRUCTURALLY IMPOSSIBLE (architecture proof: 1 gap ≠ 2 entities)
     → Cùng mechanism, khác configuration → khác dynamics hoàn toàn
 
@@ -1408,50 +1408,50 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
   Cùng architecture từ sơ sinh tới chuyên gia.
   Khác: lượng chunks tích lũy + compiled depth.
 
-  ┌────────────┬────────────────────────────────────────────────────────┐
-  │ Stage      │ Chunk state → Behavior                                 │
-  ├────────────┼────────────────────────────────────────────────────────┤
-  │ Newborn    │ Near-zero chunks (some prenatal compiled: auditory)    │
-  │            │ → Gross reward/dissonance → cry/smile                  │
-  │            │ → PFC hardware ONLINE BUT chunks missing               │
-  │            │ → Pattern matching limbic (arousal contagion, NOT mirror)│
-  ├────────────┼────────────────────────────────────────────────────────┤
-  │ Infant     │ Proto-chunks building rapidly                          │
-  │ (0-12mo)   │ → Visual arc, auditory arc, motor arc compiling       │
-  │            │ → Social referencing start (6-9mo)                     │
-  │            │ → Entity-Compiled begins: mẹ = first entity compiled  │
-  ├────────────┼────────────────────────────────────────────────────────┤
-  │ Toddler    │ Compiled chunks + self-other distinction              │
-  │ (1-3yr)    │ → Rouge test (18-24mo, Amsterdam 1972)                │
-  │            │ → TRUE Self-Pattern-Modeling starts (14-24mo, Warneken)│
-  │            │ → Verbal labels → feeling detection improves           │
-  │            │ → Self-Observation Mức 2 emerges (~18-24mo)            │
-  ├────────────┼────────────────────────────────────────────────────────┤
-  │ Child      │ Language chunks + label system                        │
-  │ (3-10yr)   │ → Logic-planning enabled via verbal anchors            │
-  │            │ → Complex emotions: ấm ức, ghen tị, tự hào            │
-  │            │ → Cultural chunk installation accelerating             │
-  │            │ → Entity-Access developing: Mức 0-1 → Mức 2-3         │
-  ├────────────┼────────────────────────────────────────────────────────┤
-  │ Teen       │ Abstract chunks + identity schemas                    │
-  │ (10-18yr)  │ → "Tôi là ai", "ý nghĩa cuộc đời"                   │
-  │            │ → Imagine-Final increasingly sophisticated             │
-  │            │ → Self-Observation Mức 4-5 CAN think, CAN'T regulate   │
-  │            │   (teen paradox: dlPFC ok, vmPFC chưa connect body)    │
-  │            │ → Domain specialization starting                       │
-  │            │ → Bond types diversifying (friendship, romantic emerge) │
-  ├────────────┼────────────────────────────────────────────────────────┤
-  │ Adult      │ Deep domain chunks + nuanced feeling                  │
-  │            │ → Expert intuition in practiced domains               │
-  │            │ → Entity-Compiled deep relationships (Mức 3-4)        │
-  │            │ → Compiled/Fresh ratio shifts toward Compiled          │
-  │            │ → PFC budget management = key adult skill              │
-  ├────────────┼────────────────────────────────────────────────────────┤
-  │ Expert     │ Deep + cross-domain → creative, accurate intuition    │
-  │            │ → 50,000+ patterns (Chase & Simon 1973 chess)          │
-  │            │ → Meta-chunks → PFC freed → fluid performance         │
-  │            │ → Expertise = large trigger surface + novelty direction│
-  └────────────┴────────────────────────────────────────────────────────┘
+  ┌────────────────┬──────────────────────────────────────────────────────────────┐
+  │ Stage          │ Chunk state → Behavior                                       │
+  ├────────────────┼──────────────────────────────────────────────────────────────┤
+  │ Newborn        │ Near-zero chunks (some prenatal compiled: auditory)          │
+  │                │ → Gross reward/dissonance → cry/smile                        │
+  │                │ → PFC hardware ONLINE BUT chunks missing                     │
+  │                │ → Pattern matching limbic (arousal contagion, NOT mirror)    │
+  ├────────────────┼──────────────────────────────────────────────────────────────┤
+  │ Infant         │ Proto-chunks building rapidly                                │
+  │ (0-12 months)  │ → Visual arc, auditory arc, motor arc compiling             │
+  │                │ → Social referencing start (6-9 months)                      │
+  │                │ → Entity-Compiled begins: mẹ = first entity compiled        │
+  ├────────────────┼──────────────────────────────────────────────────────────────┤
+  │ Toddler        │ Compiled chunks + self-other distinction                    │
+  │ (1-3 years)    │ → Rouge test (18-24 months, Amsterdam 1972)                 │
+  │                │ → TRUE Self-Pattern-Modeling starts (14-24 months, Warneken) │
+  │                │ → Verbal labels → feeling detection improves                 │
+  │                │ → Self-Observation Mức 2 emerges (~18-24 months)             │
+  ├────────────────┼──────────────────────────────────────────────────────────────┤
+  │ Child          │ Language chunks + label system                               │
+  │ (3-10 years)   │ → Logic-planning enabled via verbal anchors                 │
+  │                │ → Complex emotions: ấm ức, ghen tị, tự hào                 │
+  │                │ → Cultural chunk installation accelerating                   │
+  │                │ → Entity-Access developing: Mức 0-1 → Mức 2-3              │
+  ├────────────────┼──────────────────────────────────────────────────────────────┤
+  │ Teen           │ Abstract chunks + identity schemas                          │
+  │ (10-18 years)  │ → "Tôi là ai", "ý nghĩa cuộc đời"                         │
+  │                │ → Imagine-Final increasingly sophisticated                   │
+  │                │ → Self-Observation Mức 4-5 CAN think, CAN'T regulate        │
+  │                │   (teen paradox: dlPFC ok, vmPFC chưa connect body)          │
+  │                │ → Domain specialization starting                             │
+  │                │ → Bond types diversifying (friendship, romantic emerge)      │
+  ├────────────────┼──────────────────────────────────────────────────────────────┤
+  │ Adult          │ Deep domain chunks + nuanced feeling                        │
+  │                │ → Expert intuition in practiced domains                      │
+  │                │ → Entity-Compiled deep relationships (Mức 3-4)              │
+  │                │ → Compiled/Fresh ratio shifts toward Compiled                │
+  │                │ → PFC budget management = key adult skill                    │
+  ├────────────────┼──────────────────────────────────────────────────────────────┤
+  │ Expert         │ Deep + cross-domain → creative, accurate intuition          │
+  │                │ → 50,000+ patterns (Chase & Simon 1973 chess)                │
+  │                │ → Meta-chunks → PFC freed → fluid performance               │
+  │                │ → Expertise = large trigger surface + novelty direction      │
+  └────────────────┴──────────────────────────────────────────────────────────────┘
 
   COMPILABLE ARCHITECTURE (Body-Base.md v4.0 §2, Inter-Body-Mechanism.md v1.1):
     → Body hardware DESIGNED to compile (Compilable-dominant destination)
@@ -1785,7 +1785,7 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 ### §13.3 Chunk system
 
 ```
-  Chunk/Chunk.md v3.0                      — Chunk substrate, pattern hierarchy, Entity-Compiled ref
+  Chunk/Chunk.md v3.0                      — Chunk substrate, pattern hierarchy, Entity-Compiled reference
   Chunk/Compile-Taxonomy.md v3.0           — 1 Engine + 3 Modulators, 4 pathways, 6 trade-offs
   Chunk/Compile-Sleep.md v1.0              — Sleep = Offline Maintenance (6 mechanisms, ~40 citations)
   Chunk/Background-Pattern.md v2.0         — Accumulated chunk bias invisible to PFC
@@ -1795,15 +1795,15 @@ SO SÁNH VỚI 6-STEP LOOP (Body-Feedback.md §3):
 
 ```
   Agent-Mechanism/Agent-Mechanism.md v2.1      — Integration hub, Compilable Architecture
-  Agent-Mechanism/Self-Pattern-Modeling.md v3.2 — 1 mech × 3 dims, Compiled/Fresh, Simulation-Engine-APPLICATION-1
+  Agent-Mechanism/Self-Pattern-Modeling.md v3.2 — 1 mechanism × 3 dimensions, Compiled/Fresh, Simulation-Engine-APPLICATION-1
   Agent-Mechanism/By-Product-Gap-Resonance.md v1.4 — Mutual match, 4 conditions, Resonance Decline
   Agent-Mechanism/Entity-Compiled.md v1.0       — Hub-and-spoke, 40→200h, Dunbar, grief
   Agent-Mechanism/Entity-Access.md v1.2         — Gradient Mức 0-5, 3-Factor Model
   Agent-Mechanism/Entity-Access-Excess.md v1.0  — Excess territory, addiction spectrum
   Agent-Mechanism/Entity-Access-Calibration.md v1.0 — 3-Layer self-regulation
-  Agent-Mechanism/Bond-Architecture.md v2.0     — 1 mech × 4 bonds, gap clone impossible
+  Agent-Mechanism/Bond-Architecture.md v2.0     — 1 mechanism × 4 bonds, gap clone impossible
   Agent-Mechanism/Resonance-Sustainability.md v1.0 — 4-Layer, 3 conditions, 3 modalities
-  Agent-Mechanism/By-Product-Scale.md v1.0      — 1 mech × 3 scales (Pair/Hub/Institutional)
+  Agent-Mechanism/By-Product-Scale.md v1.0      — 1 mechanism × 3 scales (Pair/Hub/Institutional)
   Agent-Mechanism/Resonance-Per-Entity.md v1.0  — Per-relationship dynamics, Hardware-Subsidy spectrum
 ```
 
