@@ -118,6 +118,10 @@ Neither condition references whether the domain is "logical" or "emotional." Bot
 
 The senior developer, the experienced chef, and the seasoned clinician all do the same thing: compiled patterns fire → body-direct response → "I know, but I can't easily explain how." The observer labels the first "technical skill," the second "talent," and the third "intuition." Inside all three: the same mechanism at work.
 
+> **Framework deep reads:**
+> [Body-Knowing.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Feeling/Body-Knowing.md) — compiled body-direct recognition: definition, quality dimensions, formation
+> · [Compile-Taxonomy.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Chunk/Compile-Taxonomy.md) — compilation taxonomy: 3 types, domain-specific feedback
+
 ---
 
 ## §4 — The Real Axis: Compiled vs. Fresh
@@ -156,6 +160,10 @@ Klein's firefighters *start* as Type 2 (deliberate analysis) and *become* Type 1
 
 **Where we diverge:** We argue WM dependence is a *consequence* of compilation stage — not a defining feature of a separate mechanism. This is a 🟡 framework synthesis claim, not proven. It's testable: see Falsification below.
 
+> **Framework deep reads:**
+> [Compile-Taxonomy.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Chunk/Compile-Taxonomy.md) — compilation stages and Type 1/Type 2 transition evidence
+> · [Chunk.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Chunk/Chunk.md) — chunk formation, pattern library, Hebbian self-organization
+
 ---
 
 ## §5 — Why the Observer Sees "Two Modes"
@@ -185,6 +193,10 @@ Expert "intuition" may be *more* reliable than novice "logic." The expert has th
 Formal logic systems (propositional logic, set theory, proof systems) are cultural tools — externalized verification procedures developed over centuries. They are enormously valuable for teaching, accumulation, and collective progress. But a human *using* formal logic still relies on compiled pattern recognition to navigate the formal system. Einstein: "words sought laboriously in a secondary stage." The formal system provides a verification framework — a way to check results. It's not a cognitive type.
 
 This insight — shareability determines label — is 🟡 framework synthesis. Not directly tested in the literature. It's logically derived: deterministic domains do produce convergent outputs; probabilistic domains do produce divergent outputs; observer trust does correlate with ability to verify. The synthesis is that these facts determine label assignment, not mechanism difference. We invite testing: does content type or compilation level better predict decision quality?
+
+> **Framework deep reads:**
+> [Logic-Feeling.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/PFC/Logic-Feeling.md) — observer labels, shareability axis, compiled/fresh flow
+> · [PFC-Label.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/PFC/PFC-Label.md) — PFC labeling function and observer categorization
 
 ---
 
@@ -232,6 +244,11 @@ The point is not "logic bad." The point is: "logic" is not a neutral truth-finde
 
 PFC = Lawyer doesn't mean the narrative is always *false*. It means the narrative is *constructed*, not *reported*. The career growth may be real. But it may not be the reason you quit.
 
+> **Framework deep reads:**
+> [PFC-Label.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/PFC/PFC-Label.md) — PFC labeling and narrative construction mechanism
+> · [PFC-Function.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/PFC/PFC-Function.md) — PFC operations: monitoring, orchestration, lawyer role
+> · [Self-Observation.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/PFC/Self-Observation.md) — self-referencing and observation limitations
+
 ---
 
 ## §7 — When Both Are Wrong — and the Only Arbiter
@@ -273,6 +290,11 @@ The most dangerous case: when logic *and* feeling agree. Confidence is highest �
 
 You cannot prescribe "trust logic" or "trust feeling." Both can be wrong. You can't reliably tell which is wrong from inside. Domain feedback is the only calibration tool available.
 
+> **Framework deep reads:**
+> [Logic-Feeling-Failure-Examples.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/PFC/Logic-Feeling-Failure-Examples.md) — 18 detailed failure cases across history and everyday life
+> · [Logic-Feeling-Balance.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/PFC/Logic-Feeling-Balance.md) — why balance cannot be prescribed (meta-principle)
+> · [Dopamine Signals Salience, Not Reward]({% post_url 2026-05-31-dopamine-signals-salience-not-reward %}) — why domain feedback, not internal signal, is the only arbiter
+
 ---
 
 ## §8 — Falsification: What Would Prove Us Wrong
@@ -295,10 +317,10 @@ Each criterion is specific enough that a researcher could design a study to test
 
 The full framework — 200+ files, CC0 licensed — is available at **[GitHub — Human Predictive Drive](https://github.com/hoanispof/Human-Predictive-Drive)**. The mechanism described here is documented across multiple source files:
 
-- **Logic-Feeling.md** — observer labels, compiled/fresh flow, six analyzed cases
-- **Body-Knowing.md** — compiled body-direct recognition: definition, quality dimensions, formation
-- **Logic-Feeling-Balance.md** — why balance cannot be prescribed (meta-principle)
-- **Logic-Feeling-Failure-Examples.md** — 18 detailed failure cases across history and everyday life
+- **[Logic-Feeling.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/PFC/Logic-Feeling.md)** — observer labels, compiled/fresh flow, six analyzed cases
+- **[Body-Knowing.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/Body-Base/Feeling/Body-Knowing.md)** — compiled body-direct recognition: definition, quality dimensions, formation
+- **[Logic-Feeling-Balance.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/PFC/Logic-Feeling-Balance.md)** — why balance cannot be prescribed (meta-principle)
+- **[Logic-Feeling-Failure-Examples.md](https://github.com/hoanispof/Human-Predictive-Drive/blob/main/Core-Deep-Dive/PFC/Logic-Feeling-Failure-Examples.md)** — 18 detailed failure cases across history and everyday life
 
 **If you have expertise in:**
 - **Cognitive psychology** — test the compilation-stage reframe against dual-process theory evidence
