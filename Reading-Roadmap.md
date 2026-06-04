@@ -139,7 +139,7 @@ PILLAR 3: DOMAIN                                  Tier 5 (Domain)
 | Body-Feedback/Gap-Body-Need.md | 1,403 | Per-gap dynamics, 3 Satiation Profiles |
 | Body-Feedback/Gap-Distribution-Profile.md | 2,372 | Per-person gap landscape, ENGINE/ROAD/VEHICLE |
 | Body-Feedback/Reward-Calibration.md | 1,356 | Goldilocks per-gap, 6 cơ chế over-reward |
-| Body-Feedback/Action-Space.md | 1,729 | Supply-side capability, Behavior = f(GDP × AS) |
+| Body-Feedback/Action-Space.md | 1,729 | Supply-side capability, Behavior = f(Gap-Distribution-Profile × Action-Space) |
 | Body-Feedback/Hidden-Quality-Perception.md | 1,738 | "Mặt lưng cái tủ" — quality invisible |
 | Body-Base/Chunk/Compile-Sleep.md | 1,317 | Sleep = offline maintenance (6 mechanisms) |
 | Body-Base/Why-Body-Knows.md | 1,305 | Meta: tại sao body-check đáng tin? |
@@ -173,10 +173,10 @@ PILLAR 3: DOMAIN                                  Tier 5 (Domain)
 |---|------|-------|---------|
 | 3 | Agent-Mechanism/Self-Pattern-Modeling.md | 1,532 | APPLICATION-1 on Simulation-Engine, 3 dimensions |
 | 4 | Agent-Mechanism/Entity-Access.md | 1,468 | Gradient Mức 0-5, 3-Factor Model |
-| 5 | Agent-Mechanism/Entity-Compiled.md | 1,231 | 40→200h, Dunbar, Hub-and-Spoke, Grief A+B+C |
+| 5 | Agent-Mechanism/Entity-Compiled.md | 1,286 | 40→200h, Dunbar, Hub-and-Spoke, Grief A+B+C |
 | 6 | Agent-Mechanism/Bond-Architecture.md | 1,234 | Gap clone impossible, 1 mechanism × 4 bonds |
 | 7 | Agent-Mechanism/By-Product-Gap-Resonance.md | 1,711 | Resonance core: 4 conditions đồng thời |
-| 8 | Body-Base/Entity-Valence-Dynamics.md | 1,547 | Per-entity valence, 3 Firing Modes, Phantom |
+| 8 | Body-Base/Entity-Valence-Dynamics.md | 1,611 | Per-entity valence, 3 Firing Modes, Phantom |
 
 ### Enrichment 2
 

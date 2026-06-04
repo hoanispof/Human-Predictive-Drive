@@ -1,9 +1,12 @@
 ---
 title: Entity-Compiled — Neural Reality, Formation, Capacity, Dynamics
-version: 1.1
+version: 1.2
 created: 2026-05-22
-updated: 2026-06-02 (v1.1: +§7.5 Per-Entity Guilt — guilt as Entity-Compiled consequence)
-status: MECHANISM v1.1
+updated: |
+  2026-06-02 (v1.1: +§7.5 Per-Entity Guilt — guilt as Entity-Compiled consequence)
+  2026-06-04 (v1.2: §1.3 + §7.2 MECHANISM NOTE — "state = my state" = description,
+    gap-fillability = mechanism. Cross-ref Drill-Body-Base-Boundary-Spectrum v1.2 §12)
+status: MECHANISM v1.2
 scope: |
   DEEP MECHANISM file cho Entity-Compiled:
   Brain compile agent vào body-base ở STRUCTURAL level.
@@ -186,8 +189,19 @@ ENRICH:
   → Body budgeting (Barrett 2017): Entity-Compiled = agent tích hợp
     vào ALLOSTATIC PREDICTION
 
+MECHANISM NOTE (→ §7, Entity-Valence-Dynamics §2.4):
+  "Agent's state = MY state" = DESCRIPTION (what PFC observes).
+  MECHANISM gốc = gap-fillability baseline:
+    → Entity compiled deep → fills NHIỀU gaps → part of BASELINE
+    → Entity state change → Self-Pattern-Modeling predict gap-fillability change → body respond
+    → Entity mất → baseline VIOLATED → Chunk-Miss → pain (§7: A+B+C)
+  = "State sharing" = compressed prediction over gap-fillability.
+  = Yếu tố chính: total gap body-need being fed.
+  Cross-ref: Drill-Body-Base-Boundary-Spectrum v1.2 §12 (Loss Mechanism).
+
 🟢 8 independent streams converge → very high confidence
 🟡 Framework mapping (streams → Valence-Propagation §3 concept) = synthesis
+🟡 "State = my state" as description, gap-fillability as mechanism = drill reframe
 ```
 
 ### §1.4 — Verbalization window
@@ -837,7 +851,17 @@ TRỌNG SỐ:
   Mất BẠN THÂN:     A(cao) + B(thấp) + C(cao) = significant
   Mất ĐỒNG NGHIỆP:  A(thấp) + B(thấp) + C(thấp) = minor
 
+UNIFIED LOSS MECHANISM (Drill-Body-Base-Boundary-Spectrum v1.2 §12):
+  A+B+C model = CONSISTENT WITH unified formula:
+    Loss pain = Chunk-Miss on compiled baseline × predicted unfillability
+  Component A (gap-feed loss) = gap-fillability dimension
+  Component C (phantom firing) = baseline Chunk-Miss dimension
+  = Cùng mechanism áp dụng từ object loss (đũa, PC) tới entity loss (con mất)
+  = Khác PARAMETERS: depth, breadth, duration, replaceability
+  Entity loss = extreme case: deepest compilation × widest gaps × permanent unfillable
+
 🟡 A+B+C formula = framework synthesis. Components individually supported.
+🟡 Unified loss mechanism cross-ref = drill synthesis.
 ```
 
 ### §7.3 — Opioid withdrawal model

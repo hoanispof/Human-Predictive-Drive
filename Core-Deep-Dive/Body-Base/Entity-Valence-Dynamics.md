@@ -1,9 +1,12 @@
 ---
 title: Entity-Valence-Dynamics — Cách Valence Behaves Per-Entity Over Time
-version: 1.1
+version: 1.2
 created: 2026-05-29
-refined: 2026-05-29 (v1.1 — L3 RETIRE: dep Body-Base v2.1→v3.3, L0-L1-L3→L0+L1 substrate)
-status: v1.1 — REFERENCE FILE (entity-valence dynamics)
+refined: |
+  2026-05-29 (v1.1 — L3 RETIRE: dep Body-Base v2.1→v3.3, L0-L1-L3→L0+L1 substrate)
+  2026-06-04 (v1.2 — §2.4 MECHANISM NOTE: "state = my state" = description,
+    gap-fillability = mechanism. Level 1/2 distinction. Cross-ref Drill-Body-Base-Boundary-Spectrum v1.2)
+status: v1.2 — REFERENCE FILE (entity-valence dynamics)
 scope: |
   HOW valence BEHAVES per-entity over time:
   Structural vs Current valence, Entity-Compiled extension,
@@ -330,6 +333,67 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   Framework readers: §2 NÀY (definition) → Entity-Compiled.md (mechanism)
                      → Entity-Access.md (gradient + dynamics).
+```
+
+### §2.4 — MECHANISM NOTE: Description vs Mechanism (from Drill-Body-Base-Boundary-Spectrum v1.2)
+
+```
+⭐⭐ "AGENT'S STATE = MY STATE" = DESCRIPTION, KHÔNG PHẢI MECHANISM:
+
+  §2 nói: "Body chuyển sang: agent X's state = MY state"
+  → ĐÚNG như DESCRIPTION (what it looks like from PFC observation).
+  → NHƯNG: mechanism gốc hơn nằm ở GAP-FILLABILITY.
+
+  MECHANISM (Entity-Compiled §7 + Gap-Body-Need §11-12):
+    ① Entity compiled deep → fills NHIỀU gaps uniquely → part of BASELINE
+    ② Entity's state change → Self-Pattern-Modeling predict gap-fillability change → body respond
+       (mẹ buồn → mẹ fill gaps kém → gap-fillability GIẢM → body respond)
+    ③ Entity mất → baseline VIOLATED → Chunk-Miss ACROSS compiled channels → pain
+    ④ Entity-Compiled §7: Grief = A(gap-feed loss) + B(rebuild cost) + C(phantom firing)
+       → Component A = gap-fillability. Component C = baseline Chunk-Miss.
+
+  "ENTITY'S STATE = MY STATE" = COMPRESSED PREDICTION:
+    → Entity fills nhiều gaps uniquely qua nhiều năm
+    → Brain compile SHORTCUT: "entity state ≈ proxy cho gap-fillability CỦA TÔI"
+    → Entity OK → gaps fillable → I'm OK
+    → Entity NOT OK → gaps threatened → I'm NOT OK
+    → = Compressed prediction, EMERGES từ compilation depth + gap dependency
+
+  PROOF — "XA MẸ MỚI BIẾT THƯƠNG" (§8):
+    → Mẹ's state KHÔNG ĐỔI (mẹ vẫn ổn ở nhà)
+    → NHƯNG MÌNH ĐAU (nhớ mẹ, trống, thiếu)
+    → Nếu mechanism = "state sharing": mẹ ổn → mình nên ổn → SAI
+    → Nếu mechanism = baseline violated: gaps unfilled → pain → ĐÚNG ✓
+    → = §8 "xa mẹ" CHÍNH LÀ proof cho gap-fillability mechanism
+
+  NOTE VỀ "CHỈ AGENT, KHÔNG BAO GIỜ OBJECT":
+    → ĐÚNG cho LEVEL 2 (entity body-base extension: "agent's state = my state")
+    → NHƯNG: Object CAN extend LEVEL 1 (body-schema extension)
+      → Tool: Iriki 1996 — bimodal neurons extend receptive field
+      → Prosthetic: Murray 2004 — body-schema integration qua years of use
+      → Rubber hand: Botvinick 1998 — body-schema update trong 120s
+    → LOSS MECHANISM CÙNG cho cả 2 levels:
+      Level 1 loss: body-schema baseline violated × unfillability
+      Level 2 loss: body-base baseline violated × unfillability (deeper, wider, permanent)
+      = CÙNG formula, KHÁC parameters (depth, breadth, duration, replaceability)
+
+  NOTE VỀ "OBJECT DỄ THAY THẾ":
+    → TENDENCY đúng (đũa, bàn ghế = dễ thay thế → pain ≈ 0)
+    → NHƯNG: context-dependent:
+      PC mất (có tiền) = dễ thay thế → annoyance
+      PC mất (không tiền + data duy nhất) = KHÔNG thay thế → real distress
+      Tay giả dùng 20 năm mất = KHÔNG dễ thay thế → body-schema violation
+    → Replaceability = VARIABLE, không phải property CỐ ĐỊNH của "object" vs "agent"
+    → Agent THƯỜNG harder to replace (unique Self-Pattern-Modeling data, unique personality)
+    → Nhưng mechanism = CÙNG: Δ(predicted gap-fillability)
+
+  Cross-ref: Drill-Body-Base-Boundary-Spectrum v1.2 §12 (Loss Mechanism),
+             §14 (Gap Analysis), Gap-Body-Need §11-12, Entity-Compiled §7.
+
+  🟡 Mechanism reframe (description vs mechanism) = drill synthesis
+  🟡 Level 1 vs Level 2 distinction = drill synthesis
+  🟢 "Xa mẹ" as proof: Entity-Valence-Dynamics §8 (3 cơ chế cộng dồn)
+  🟢 Object body-schema extension: Iriki 1996, Botvinick 1998, Murray 2004
 ```
 
 ---
