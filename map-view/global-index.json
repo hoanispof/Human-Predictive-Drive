@@ -223,8 +223,8 @@
       ],
       "area": "core-foundation",
       "contentType": "reference",
-      "shortDescription": "Detailed physical map of brain regions — which structure does what, connects to where, and how far PFC can reach each zone, with specific citations for each claim",
-      "fullDescription": "A precise physical map of the neural systems underlying the framework — replaces the vague 'Unconscious' box with a specific inventory: which brain region, what function, what connections.\n\nOrganized into 4 zones: (A) PFC — dlPFC, vlPFC, OFC, vmPFC, mPFC, ACC; (B) Cortical Modality Areas — visual, auditory, language (Broca+Wernicke), somatosensory, motor, cerebellum, insula; (C) Subcortical — amygdala, hippocampus, thalamus+TRN, hypothalamus, basal ganglia, VTA, LC, Raphe, PAG, NTS; (D) Peripheral — ENS (~100-500M neurons), spinal cord, ANS.\n\nFor each region: anatomical location, primary function, key connectivity pathways, and citable research. Every claim is verifiable. Covers PFC reach limits per zone, chunk compilation across all zones, and framework implications.\n\nDesigned for researchers who want to challenge or extend the framework at the biological level. Companion to Core-Hardware.md (overview) and Neural-Processing-Flow.md (signal pathways)."
+      "shortDescription": "Detailed physical map of brain regions — which structure does what, connects to where, how far PFC can reach each zone, plus bilateral architecture (corpus callosum, lateralization, split-brain validation)",
+      "fullDescription": "A precise physical map of the neural systems underlying the framework — replaces the vague 'Unconscious' box with a specific inventory: which brain region, what function, what connections.\n\nOrganized into 4 zones: (A) PFC — dlPFC, vlPFC, OFC, vmPFC, mPFC, ACC; (B) Cortical Modality Areas — visual, auditory, language (Broca+Wernicke), somatosensory, motor, cerebellum, insula; (C) Subcortical — amygdala, hippocampus, thalamus+TRN, hypothalamus, basal ganglia, VTA, LC, Raphe, PAG, NTS; (D) Peripheral — ENS (~100-500M neurons), spinal cord, ANS.\n\nFor each region: anatomical location, primary function, key connectivity pathways, and citable research. Every claim is verifiable. Covers PFC reach limits per zone, chunk compilation across all zones, and framework implications.\n\n§7 Bilateral Architecture: all zones have left+right copies, corpus callosum as integration layer (~200M axons), lateralization is function-specific not person-specific (Nielsen et al. 2013), split-brain evidence validates PFC=Lawyer and 'unity = emergent from harmony' principle. Framework is hemisphere-agnostic by design.\n\nDesigned for researchers who want to challenge or extend the framework at the biological level. Companion to Core-Hardware.md (overview) and Neural-Processing-Flow.md (signal pathways)."
     },
     {
       "id": "core-deep-dive-neural-processing-flow",
@@ -630,6 +630,19 @@
       "contentType": "drill",
       "shortDescription": "Learning cycle — creating new chunks or connections emits 3 simultaneous signals (reward + fatigue + mild dissonance) resolved through sleep consolidation",
       "fullDescription": "Formalizes H8: learning is not a discrete event but a cycle. When a new chunk forms or two chunks connect, 3 signals fire simultaneously — reward (prediction error satisfied), fatigue (metabolic cost of new synapse formation), and mild dissonance (new pattern conflicts with existing patterns until consolidated).\n\nCovers: why learning simultaneously feels rewarding and tiring, sleep-mediated consolidation mechanism (multi-pass: hippocampus → cortex + synaptic pruning + REM offline processing), how the cycle iterates until baseline shift (the new chunk becomes compiled-automatic).\n\nOriginated from the question: 'why does creating new chunks cause fatigue despite feeling good?' The answer reveals the full 3-signal architecture of every learning event."
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-drill-neural-bilateral-architecture",
+      "fileName": "Drill-Neural-Bilateral-Architecture.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Drill-Neural-Bilateral-Architecture.md",
+      "domains": [
+        "neuroscience",
+        "core"
+      ],
+      "area": "core-foundation",
+      "contentType": "drill",
+      "shortDescription": "Bilateral architecture drill — Gazzaniga split-brain analysis, PFC ACCESS spectrum (7 cases from smooth to functional split-brain), framework audit (0 wrong, 5 strengthened)",
+      "fullDescription": "Session drill capturing deep analysis of Gazzaniga's split-brain research (1978, 2000, 2005) and its relationship to the Human Predictive Drive framework.\n\nCovers: §1 Gazzaniga mechanism step-by-step (corpus callosum severed, Left PFC 'Interpreter' confabulates from available data). §2 Bilateral structure (what's cut vs not — cortical zones split, subcortical midline structures intact). §3 Lateralization is function-specific not person-specific (Nielsen et al. 2013, n=1,011 debunks left/right-brain people). §4 Unity = emergent from harmony, not structural — brain is multiple independent parallel systems. §5 PFC ACCESS spectrum — 7-case table from smooth operation through habit/schema conflict/signal too strong/hijack/multi-channel/background-pattern to split-brain, with 'functional split-brain' concept (compiled so deep PFC loses access despite intact corpus callosum). §6 Framework audit results: 9 claims checked, 0 wrong, 5 strengthened, 2 gaps fixed.\n\nKey insight: split-brain patients and normal internal conflicts share the same mechanism — PFC access level is the single differentiating variable."
     },
     {
       "id": "core-deep-dive-body-base-chunk-drill-chunk-child-chunk-development-10-f1-synthesis",

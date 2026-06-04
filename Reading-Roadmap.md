@@ -309,7 +309,7 @@ Disgust (rejection threshold), Mastery (sustained domain accumulation), Passion 
 | Path | Lines | Vai trò |
 |------|-------|---------|
 | Core-Hardware.md *(root)* | 414 | Physical brain architecture overview |
-| Neural-Architecture.md | 693 | 4 phân vùng neural |
+| Neural-Architecture.md | 922 | 4 phân vùng neural + bilateral architecture |
 | Neural-Processing-Flow.md | 1,270 | Full signal pathway: Sensor → Output |
 | Modality.md | 752 | 6 kênh encoding (Visual/Auditory/Somatic/...) |
 | Auditory-Hardware.md | 735 | DUY NHẤT arc compile trước sinh |

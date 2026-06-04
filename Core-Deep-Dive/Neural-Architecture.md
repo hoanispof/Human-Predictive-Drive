@@ -1,13 +1,15 @@
 ---
 title: Neural-Architecture — Bản Đồ Sinh Lý Neural cho Framework
-version: 1.1
+version: 1.2
 created: 2026-04-19
-refined: 2026-05-23 (v1.1 — Concept Cascade: +Simulation-Engine, +Entity-Access, +modality mapping refinement. Updated versions + cross-refs)
-status: v1.1 REFERENCE FILE
+refined: 2026-06-04 (v1.2 — +§7 Bilateral Architecture: horizontal Left↔Right connectivity, corpus callosum, lateralization, "unity = emergent from harmony" principle. Sections renumbered: old §7-§10 → §8-§11)
+previous: 2026-05-23 (v1.1 — Concept Cascade: +Simulation-Engine, +Entity-Access, +modality mapping refinement)
+status: v1.2 REFERENCE FILE
 scope: |
   Physical map của neural systems: PFC, Cortical Modality Areas,
   Subcortical Structures, Peripheral Neural Systems.
   WHAT connects WHERE. WHO does WHAT. PFC reach LIMITS.
+  v1.2: +Bilateral Architecture (Left↔Right), corpus callosum integration layer.
   Functional map cho framework — không phải neuroscience textbook.
 purpose: |
   Nền tảng sinh lý cho Core-v7.8-Draft.md.
@@ -56,10 +58,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 - §4 — C: SUBCORTICAL STRUCTURES
 - §5 — D: PERIPHERAL NEURAL SYSTEMS
 - §6 — CONNECTIVITY MAP
-- §7 — CHUNK COMPILATION ACROSS A/B/C/D
-- §8 — IMPLICATIONS CHO FRAMEWORK
-- §9 — HONEST ASSESSMENT
-- §10 — CROSS-REFERENCES
+- §7 — BILATERAL ARCHITECTURE: Left ↔ Right (v1.2)
+- §8 — CHUNK COMPILATION ACROSS A/B/C/D
+- §9 — IMPLICATIONS CHO FRAMEWORK
+- §10 — HONEST ASSESSMENT
+- §11 — CROSS-REFERENCES
 
 ---
 
@@ -523,7 +526,202 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
 
 ---
 
-## §7 — CHUNK COMPILATION ACROSS A/B/C/D
+## §7 — BILATERAL ARCHITECTURE: Left ↔ Right (v1.2)
+
+```
+🟢 NÃO = BILATERAL: MỌI VÙNG A/B/C/D ĐỀU CÓ TRÁI + PHẢI
+
+  §1-§6 mô tả connectivity VERTICAL (PFC reach depth: A→B→C→D).
+  Section này: connectivity HORIZONTAL (Left ↔ Right).
+  2 chiều ORTHOGONAL — cả 2 đều cần cho bản đồ đầy đủ.
+
+
+  MỌI ZONE ĐỀU CÓ 2:
+
+    Zone A (PFC):  Left dlPFC + Right dlPFC, Left vmPFC + Right vmPFC, ...
+    Zone B:        Left V1 + Right V1, Left Broca + Right homologue, ...
+    Zone C:        Left amygdala + Right amygdala, Left hippocampus + Right, ...
+    Zone D:        Peripheral = ĐỐI XỨNG (left/right body → left/right pathways)
+
+  Ngoại lệ quan trọng — MIDLINE structures:
+    → Brainstem nuclei (VTA, LC, Raphe, PAG) = MIDLINE → không chia trái phải rõ
+    → Hypothalamus = phần lớn MIDLINE
+    → Cerebellum = bilateral nhưng CROSS-CONNECTED (left cerebellum ↔ right cortex)
+    → = Subcortical midline structures = cơ sở cho SHARED arousal + motivation
+      (giải thích tại sao split-brain vẫn đồng bộ emotional tone)
+```
+
+```
+🟢 CORPUS CALLOSUM = INTEGRATION LAYER:
+
+  Cấu trúc: ~200 triệu axon nối vùng homologous trái ↔ phải
+  = White matter tract LỚN NHẤT trong brain
+  = Cho phép 2 bán cầu TÍCH HỢP processing output
+
+  WHAT IT CONNECTS (anterior → posterior):
+    Genu (anterior)     : PFC ↔ PFC (prefrontal connections)
+    Body (central)      : Motor ↔ Motor, Somatosensory ↔ Somatosensory
+    Splenium (posterior) : Visual ↔ Visual, Parietal ↔ Parietal
+    → = MỌI zone A + B đều có cross-hemisphere connection qua corpus callosum
+
+  WHAT IT DOES:
+    → Tích hợp 2 processing styles thành 1 output giàu hơn
+    → Left hemisphere: sequential, analytic, verbal encoding
+    → Right hemisphere: simultaneous, holistic, spatial encoding
+    → = 2 LENS nhìn cùng 1 vấn đề, KHÔNG PHẢI 2 worker làm 2 việc khác
+    → Corpus callosum = layer cho phép 2 lens HỢP NHẤT
+    → VD: Nhận diện bạn cũ: Right detect gestalt khuôn mặt (spatial) +
+      Left gắn tên + context (verbal) → corpus callosum tích hợp →
+      "À Minh, học cùng cấp 3!" = output giàu hơn 1 bên riêng lẻ
+
+  Các commissure khác (nhỏ hơn):
+    → Anterior commissure: nối temporal lobes (olfactory, some emotional)
+    → Hippocampal commissure: nối 2 hippocampi
+    → Posterior commissure: nối midbrain areas
+    → Trong callosotomy: đôi khi giữ lại, đôi khi cắt kèm — tùy ca
+
+  SPEED: transmission ~10-30ms → integration gần như đồng thời
+
+  🟢 Witelson 1989 (corpus callosum anatomy)
+  🟢 Human Connectome Project (tractography mapping)
+  🟢 Aboitiz et al. 1992 (fiber composition + regional variation)
+```
+
+```
+🟢 LATERALIZATION = FUNCTION-SPECIFIC, KHÔNG PHẢI "LOẠI NGƯỜI":
+
+  Một số CHỨC NĂNG lateralized (1 bên dominant):
+
+    Left dominant:                       Right dominant:
+    ┌──────────────────────────┐         ┌──────────────────────────┐
+    │ Language production       │         │ Spatial processing       │
+    │ (Broca — 95% right-hand) │         │ Face recognition (FFA)   │
+    │ Language comprehension    │         │ Prosody (ngữ điệu,      │
+    │ (Wernicke)               │         │   sắc thái giọng nói)   │
+    │ Sequential processing    │         │ Holistic/gestalt         │
+    │ Fine motor (dominant     │         │   perception             │
+    │   hand)                  │         │ Music perception         │
+    │ Arithmetic calculation   │         │   (non-trained)          │
+    │ Logical grammar parsing  │         │ Emotional expression     │
+    │                          │         │   (face, voice)          │
+    └──────────────────────────┘         └──────────────────────────┘
+
+  ⚠️ "LEFT-BRAIN PERSON" vs "RIGHT-BRAIN PERSON" = POP SCIENCE SAI:
+    → Nielsen et al. 2013 (n=1,011, fMRI resting state):
+      KHÔNG tìm thấy người nào "ưu tiên" 1 bán cầu tổng thể
+    → Lateralization = per-FUNCTION, KHÔNG phải per-PERSON
+    → Cả 2 bán cầu THAM GIA hầu hết tasks, chỉ khác contribution
+    → VD ngôn ngữ: Left parse grammar, Right detect irony + context + metaphor
+    → Đọc câu đùa: LEFT parse cú pháp, RIGHT detect irony → CẢ HAI cần
+
+  "DOMINANT" ≠ "EXCLUSIVE":
+    → Left dominant cho language ≠ right không tham gia
+    → Right dominant cho spatial ≠ left không tham gia
+    → Mỗi bên CONTRIBUTE khác nhau cho cùng task
+    → Corpus callosum tích hợp 2 contributions → output phong phú hơn
+
+  🟢 Broca 1861 (language lateralization)
+  🟢 Kimura 1961 (dichotic listening — auditory lateralization)
+  🟢 Nielsen et al. 2013 PLOS ONE (no whole-brain dominance)
+```
+
+```
+🟢 SPLIT-BRAIN: PHƠI BÀY BILATERAL ARCHITECTURE
+
+  Callosotomy (cắt corpus callosum): phẫu thuật cho động kinh nặng
+  Số bệnh nhân được nghiên cứu kỹ: <12 trên toàn cầu
+  → CẮT integration layer → 2 bán cầu MẤT kết nối cortical
+  → Subcortical (C) + peripheral (D) VẪN NỐI (nằm dưới đường cắt)
+
+  KEY FINDINGS (Sperry 1981 Nobel, Gazzaniga 1978/2000/2005):
+
+    ① 2 bán cầu xử lý RIÊNG BIỆT
+       → Mỗi bên có data riêng, preferences riêng, response riêng
+       → VD: right hemisphere muốn "automobile racer",
+         left hemisphere muốn "draftsman" — cùng 1 bệnh nhân
+
+    ② Left PFC "Interpreter" CONFABULATE narrative
+       → Left hemisphere (có ngôn ngữ) luôn tạo causal story
+       → Dù KHÔNG CÓ access tới lý do thật (ở right hemisphere)
+       → KHÔNG BAO GIỜ nói "tôi không biết"
+       → VD kinh điển: chân gà + cảnh tuyết → "cần xẻng dọn chuồng gà"
+
+    ③ Bệnh nhân hàng ngày GẦN NHƯ BÌNH THƯỜNG — vì:
+       a) Subcortical midline unity (shared arousal, motivation, emotional tone)
+       b) Cross-cueing: đồng bộ GIÁN TIẾP qua body-input
+          (right hemisphere cử động tay trái → left hemisphere THẤY qua mắt
+          → đồng bộ bằng observation thay vì neural pathway)
+       c) Pre-surgery compiled chunks = shared (compile trước khi cắt → cả 2 bên có)
+       d) Interpreter maintain narrative "tôi là 1 người" liên tục
+
+    ④ Alien Hand Syndrome (hiếm):
+       → 2 tay làm ngược nhau (1 tay cài nút, 1 tay cởi nút)
+       → = 2 processing systems LỘ RA khi integration bị cắt
+       → Bệnh nhân KHÔNG nói "có 2 tôi" — nói "tay trái nó nghịch"
+       → = Interpreter maintain unity narrative bằng mọi giá
+
+  FRAMEWORK VALIDATION:
+    → PFC = Lawyer: STRENGTHENED (Interpreter = literal demonstration)
+    → Chunks no source tag: CONFIRMED (Left PFC không biết source từ right hemisphere)
+    → Body first, PFC after: CONFIRMED (action trước, narrative sau)
+    → Compiled ~95%: SUPPORTED (daily function preserved dù mất integration)
+
+  🟢 Sperry 1981 (Nobel Prize — split-brain research)
+  🟢 Gazzaniga 1978 (initial Interpreter observations)
+  🟢 Gazzaniga 2000, 2005 (Interpreter theory refined)
+```
+
+```
+🟡 FRAMEWORK PRINCIPLE: "THỐNG NHẤT" = EMERGENT, KHÔNG PHẢI STRUCTURAL
+
+  Brain = NHIỀU HỆ THỐNG ĐỘC LẬP chạy song song:
+    → Vùng khác nhau (visual, auditory, motor, amygdala, insula, ...)
+    → Bán cầu khác nhau (left processing ≠ right processing)
+    → Chunks cục bộ (local connections trong từng vùng)
+    → Schemas cross-modal (multi-region, có thể conflict ở level tổng thể)
+
+  "TÔI LÀ 1 NGƯỜI THỐNG NHẤT":
+    → KHÔNG PHẢI structural fact (não KHÔNG phải 1 khối đồng nhất)
+    → MÀ LÀ emergent state khi systems HÀI HÒA
+    → Hài hòa: no dissonance signal → PFC idle → "tôi ổn"
+    → Conflict: dissonance signal → PFC pulled in → narrative → action
+    → = "Thống nhất" = TRẠNG THÁI, không phải CẤU TRÚC
+
+  Split-brain CONFIRMS:
+    → Cắt integration layer → 2 bán cầu lộ ra là independent
+    → NHƯNG Interpreter VẪN maintain "tôi là 1" bằng confabulation
+    → = "Unity" = narrative construct của Interpreter, không phải report of structural fact
+
+  NORMAL BRAIN — CÙNG CƠ CHẾ, ÍT DRAMATIC HƠN:
+    → Internal conflicts VẪN xảy ra ở não bình thường:
+      Compiled body-base vs fresh PFC intent
+      Multiple drives competing (Novelty vs Threat vs Boredom)
+      Social schema vs body-need (muốn học giỏi vs không có gap)
+    → "Muốn dậy sớm mà sáng muốn ngủ" = 2 subsystems conflict,
+      Interpreter confabulate "tôi lười" (= "tay trái nó nghịch" version nhẹ)
+    → = Split-brain alien hand = phiên bản CỰC ĐOAN
+      của kiến trúc vốn đã parallel ở mọi người
+
+  TẠI SAO FRAMEWORK HEMISPHERE-AGNOSTIC:
+    → Framework operate ở level MECHANISM (chunk, compile, PFC observe, body-feedback)
+    → Mechanisms ĐÚNG regardless of hemisphere:
+      Hebbian compile ở left = Hebbian compile ở right = cùng mechanism
+      PFC observe ở left = PFC observe ở right = cùng function
+      Body-feedback fire ở left amygdala = fire ở right = cùng mechanism
+    → Lateralization = TOPOLOGY detail, không thay đổi mechanism claims
+    → = Framework mô tả ENGINE, section này mô tả ENGINE chạy trên bilateral HARDWARE
+    → Khi cần topology detail → đọc section này + mainstream neuroscience literature
+
+  🟡 "Unity = emergent from harmony" = framework synthesis
+     Consistent with: Tononi 2004 IIT, Baars 1988 GWT
+     Extended by: split-brain evidence + internal conflict observations
+  🟢 Split-brain evidence = direct test (Gazzaniga, Sperry)
+  🟢 Internal conflicts = universal human experience
+```
+
+---
+
+## §8 — CHUNK COMPILATION ACROSS A/B/C/D
 
 ```
 🟡 CHUNKS COMPILE Ở MỌI VÙNG — nhưng mechanism + PFC involvement KHÁC:
@@ -564,7 +762,7 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
 
 ---
 
-## §8 — IMPLICATIONS CHO FRAMEWORK
+## §9 — IMPLICATIONS CHO FRAMEWORK
 
 ```
 🟡 4 PHÂN VÙNG THAY THẾ "UNCONSCIOUS" BOX TRONG CORE:
@@ -597,7 +795,7 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
 
 ---
 
-## §9 — HONEST ASSESSMENT
+## §10 — HONEST ASSESSMENT
 
 ```
 🟢 ESTABLISHED (high confidence):
@@ -611,6 +809,13 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   → PFC → ENS: minimum 2 relays, no direct connection
   → Craig anterior insula interoception (2002, 2009)
   → Human Connectome Project connectivity data (NIH, 1,200 participants)
+  → Bilateral brain organization (anatomy — established since 19th century) (v1.2)
+  → Corpus callosum structure + function (Witelson 1989, Aboitiz 1992, HCP) (v1.2)
+  → Function-specific lateralization, NOT person-specific (Broca 1861+, extensive) (v1.2)
+  → No "whole-brain dominance" per person (Nielsen et al. 2013, n=1,011) (v1.2)
+  → Split-brain findings (Sperry Nobel 1981, Gazzaniga 1978/2000/2005) (v1.2)
+  → Cross-cueing in split-brain patients (documented extensively) (v1.2)
+  → Subcortical midline structures unaffected by callosotomy (v1.2)
 
 🟡 FRAMEWORK SYNTHESIS (medium confidence):
   → 4-zone classification (A/B/C/D) = novel organizing framework
@@ -620,6 +825,12 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
     extinction learning literature
   → Modality Balance as hardware property = novel positioning
   → DMN cross-cutting A+B = established areas, novel integration
+  → "Unity = emergent from harmony, not structural" = novel framing, (v1.2)
+    consistent with split-brain evidence + IIT/GWT consciousness theories
+  → Framework hemisphere-agnostic = deliberate abstraction choice (v1.2)
+    (mechanisms correct regardless of hemisphere)
+  → Normal internal conflicts ≈ split-brain alien hand (same mechanism, (v1.2)
+    different intensity) = novel framing, logically consistent
 
 🔴 NEEDS MORE RESEARCH:
   → Exact PFC influence on cerebellum cognitive functions
@@ -629,11 +840,15 @@ VẤN ĐỀ VỚI "UNCONSCIOUS":
   → Individual variation in PFC-subcortical connectivity strength
   → Whether "chunk" concept applies uniformly across A/B/C/D
     or needs refinement per zone
+  → Whether each hemisphere develops meaningfully different chunk libraries (v1.2)
+    in intact brains (beyond lateralized function differences)
+  → How hemisphere-specific processing styles interact with COMT/DRD4 (v1.2)
+    hardware profiles (PFC-Hardware.md)
 ```
 
 ---
 
-## §10 — CROSS-REFERENCES
+## §11 — CROSS-REFERENCES
 
 ```
 WITHIN FRAMEWORK:
@@ -646,6 +861,14 @@ WITHIN FRAMEWORK:
   Core-v7.8-Draft.md — kiến trúc tổng thể uses this as physical map
   Agent-Mechanism.md v2.1 — agent function (maps to A+B social areas)
   Empathy.md v4.0 — Self-Pattern-Modeling function (maps to A+B, reading C signals)
+
+BILATERAL ARCHITECTURE (v1.2):
+  PFC-Function.md v1.2 §6 — Confabulation + Gazzaniga evidence → §7 extends
+  Feeling.md v3.0 §3.4 — PFC = Lawyer structural bias → §7 split-brain proof
+  Logic-Feeling.md v4.0 §2.3 — PFC = Lawyer applies to both labels → §7 mechanism
+  Drive.md — drive conflict subsystem-based; §7 adds hemisphere conflict (split-brain only)
+  Simulation-Engine.md v1.0 — "1 engine" = midline substrate → §7 clarifies bilateral hardware
+  Compile-Taxonomy.md v3.0 — "1 engine = Hebbian" = mechanism-level → §7: hemisphere-agnostic
 
 NEW CONCEPT MAPPING (28-session Drill):
   Simulation-Engine.md v1.0 — Zone A: PFC simulation = interoception × simulation × Self-Pattern-Modeling
@@ -675,11 +898,14 @@ KEY RESEARCH (by area):
   ANS: Porges polyvagal, Thayer neurovisceral
   Cortex: Mountcastle 1957
   Thalamus: Sherman & Guillery 2006
+  Bilateral/Split-brain: Sperry 1981 (Nobel), Gazzaniga 1978/2000/2005 (v1.2)
+  Corpus callosum: Witelson 1989, Aboitiz et al. 1992 (v1.2)
+  Lateralization: Broca 1861, Kimura 1961, Nielsen et al. 2013 PLOS ONE (v1.2)
 ```
 
 ---
 
-> **Neural-Architecture.md v1.1**
+> **Neural-Architecture.md v1.2**
 >
 > Physical map: A (PFC) / B (Cortical Modality) / C (Subcortical) / D (Peripheral).
 > PFC accessibility = gradient, không binary.
@@ -687,7 +913,10 @@ KEY RESEARCH (by area):
 > PFC = last to know (timing hierarchy: D→C→B→A).
 > Simulation-Engine = Zone A (PFC + hippocampus + DMN).
 > Entity-Access/Entity-Compiled = Zone A+C distributed network.
+> **Bilateral Architecture: Left ↔ Right = horizontal dimension, orthogonal to A→D vertical.**
+> **Corpus callosum = integration layer. "Unity" = emergent from harmony, NOT structural.**
 > "Unconscious" replaced by specific, verifiable, challengeable claims.
 >
-> Phiên bản: v1.1, 2026-05-23.
-> v1.1: +Simulation-Engine mapping, +Entity-Access/Entity-Compiled mapping, versions updated.
+> Phiên bản: v1.2, 2026-06-04.
+> v1.2: +§7 Bilateral Architecture (corpus callosum, lateralization, split-brain, unity=emergent).
+> v1.1: +Simulation-Engine mapping, +Entity-Access/Entity-Compiled mapping.
