@@ -12,9 +12,9 @@
 
 > **Trạng thái:** v1.0
 > **Ngày:** 2026-05-25
-> **Vị trí:** Public-Plan/ (cùng plan-public.md, plan-tech-distribution.md)
+> **Vị trí:** Public-Plan/ (cùng plan-public.md, plan-overview-distribution.md)
 > **Liên kết:**
->   plan-tech-distribution.md — tech-first strategy (→ cần file này để route)
+>   plan-overview-distribution.md — overview blog distribution (→ cần file này để route)
 >   plan-public.md — general distribution strategy
 >   Blackbox-Map.md — 5 GAPs framework tự nhận
 >   Core-Software.md §11 — 20 divergence positions
@@ -1165,7 +1165,7 @@ Divergence positions:
   → Clarification/ folder — 4 files cho 4 strongest positions
 
 Distribution plan:
-  → plan-tech-distribution.md — tech-first strategy (file này = routing table)
+  → plan-overview-distribution.md — overview blog distribution (file này = routing table)
   → plan-public.md — general distribution strategy
   → summary-paper-outline.md — academic paper outline
 

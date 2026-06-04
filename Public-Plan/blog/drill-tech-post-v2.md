@@ -3,7 +3,7 @@
 > **Purpose:** Deep analysis foundation cho tech post v2.
 > Drill TRƯỚC, compress SAU → chất lượng cao nhất.
 > **Created:** 2026-06-03
-> **Source:** tech-post-draft-v2.md (raw questions) + plan-tech-post.md (strategy)
+> **Source:** tech-post-draft-v2.md (raw questions) + plan-overview-blog.md (strategy, thay thế plan-tech-post.md)
 > **Method:** Read 12+ framework source files → mechanism chain per question →
 >   English formulation → audience analysis → coherence check
 > **Output:** Clean material để viết post final.

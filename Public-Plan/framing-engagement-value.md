@@ -5,9 +5,9 @@
 > Tập thể ĐƯỢC LỢI từ mỗi lần verification. Hai tầng không tách rời.
 > **Trạng thái:** v0.1
 > **Ngày tạo:** 2026-05-25
-> **Áp dụng cho:** Mọi bài post trong plan-tech-distribution.md + plan-public.md.
+> **Áp dụng cho:** Mọi bài post trong plan-overview-distribution.md + plan-public.md.
 > **Liên kết:**
->   plan-tech-distribution.md — execution plan (platforms, topics, cadence)
+>   plan-overview-distribution.md — execution plan (platforms, cadence)
 >   plan-public.md — general strategy + framing rules (W.4, W.5)
 >   Meta-Impact.md — framework tự predict tác động, risks
 >   Social-Calibration.md — 7 functions auto-calibration đang vỡ
@@ -19,7 +19,7 @@
 ## §0 — VẤN ĐỀ: TẠI SAO CẦN FILE NÀY
 
 ```
-Bài post tiêu chuẩn (plan-tech-distribution.md §5.1):
+Bài post tiêu chuẩn (plan-overview-distribution.md §2.2):
   Problem → Mechanism → Evidence → Falsification → Honest → Call to Verify
 
 Bài post đó TRẢ LỜI: "Framework claim gì? Evidence gì? Sai ở đâu?"
@@ -573,7 +573,7 @@ CUỐI MỖI BÀI POST — section "Your contribution matters":
 
 ## §8 — ÁP DỤNG PER-TOPIC (T1-T6)
 
-> Mỗi topic trong plan-tech-distribution.md §2 — cách weave 3 tầng vào.
+> Mỗi topic trong future-topic-ideas.md — cách weave 3 tầng vào.
 
 ```
   ┌──────────┬────────────────────────────────┬─────────────────────────┐
@@ -618,7 +618,7 @@ CUỐI MỖI BÀI POST — section "Your contribution matters":
 
 ```
 FILE NÀY = NGUYÊN TẮC FRAMING (tại sao + cách trình bày)
-plan-tech-distribution.md = EXECUTION (ở đâu + khi nào + format)
+plan-overview-distribution.md = EXECUTION (ở đâu + khi nào + format)
 plan-public.md = GENERAL STRATEGY (W.4, W.5, phases)
 
 SỬ DỤNG:

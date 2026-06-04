@@ -1252,13 +1252,34 @@ Domain feedback:
   → Survivorship: chỉ thấy feedback từ PATHS ĐÃ CHỌN
     (Paths không chọn → no feedback → no learning)
 
+  → ⚠️ BOOTSTRAPPING PROBLEM: Domain feedback phải được PERCEIVED + INTERPRETED
+    bởi body-brain system. Nếu Body-Knowing đang Self-Referencing,
+    nó có thể MISINTERPRET domain feedback:
+    (Ví dụ: Trader thua → "thị trường sai, không phải mình sai" → reject feedback)
+    (Ví dụ: Quan hệ toxic → "lần sau sẽ khác" → reframe clear signal)
+    = Domain feedback PRESENT nhưng bị REJECTED hoặc REFRAMED bởi Self-Referencing
+    = Cần CALIBRATED PERCEPTION để learn từ domain → nhưng cần domain để calibrate
+    = PARTIAL RESOLUTION:
+      ① Accumulation: nhiều domain feedback lặp lại → khó ignore mãi
+         (trader thua 10 lần → Self-Referencing narrative collapse dần)
+      ② External observer: người khác nhìn domain feedback KHÔNG QUA filter của bạn
+         (bạn bè, mentor, therapist = "mirror" cho domain feedback bạn miss)
+      ③ Measurable domains: P&L, test scores, health metrics = hard to reframe
+         (domain có metric rõ → bootstrapping ÍT hơn)
+      ④ Context shift: di chuyển sang context MỚI → Self-Referencing bị disrupt
+         (gặp người mới, thay đổi môi trường → old pattern không khớp → recalibrate)
+    = Bootstrapping = REAL problem, giải quyết bằng accumulation + external + metrics
+    = KHÔNG giải quyết hoàn toàn → = thêm 1 lý do "balance cannot be prescribed"
+
   NHƯNG: Domain feedback VẪN là trọng tài tốt nhất vì:
     → Nó đến từ REALITY, không phải từ internal model
-    → Nó accumulate over time → pattern emerges
+    → Nó accumulate over time → pattern emerges (→ breaks through Self-Referencing eventually)
     → Nó LÀ cái duy nhất NGOÀI Body-Knowing + Fresh
     → Không có alternative nào tốt hơn
+    → External observers extend perception beyond own Self-Referencing filter
     
   = Trọng tài không hoàn hảo > không có trọng tài
+  = Bootstrapping = real limitation, nhưng accumulation + external giảm thiểu
 ```
 
 ### 10.4 Tại sao trial-error không phải weakness

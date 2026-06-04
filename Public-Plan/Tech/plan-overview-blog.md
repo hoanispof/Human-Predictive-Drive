@@ -1,4 +1,4 @@
-# Plan: Tech Blog + Short Posts — Framework Overview cho Tech Expert Audience
+# Plan: Overview Blog + Short Posts — Framework Overview cho Tech Expert Audience
 
 > **Goal:** 1 blog đầy đủ + short posts per-platform. Giới thiệu framework cho tech experts.
 > **Strategy change:** plan-neuro-posts.md §1 ghi "Tech post = POST ONLY (không có blog)."
@@ -6,15 +6,17 @@
 >   → Lý do: v3 content quá chất lượng để compress vào 300-word forum post. Blog cho phép
 >     trình bày đầy đủ mà không bị giới hạn format forum.
 > **Position in strategy:** SAU 3 neuro blogs. Neuro = verify claims cụ thể. Tech = broaden audience + expose framework.
-> **Principle:** "I built this, it explains these questions, here's the evidence, find where it breaks."
-> **Status:** PLANNING
+> **Principle:** Substance description — đây là gì, chứa gì, evidence, find where it breaks.
+> **Status:** PLANNING (updated 2026-06-04)
 > **Created:** 2026-06-04
+> **Renamed from:** plan-tech-blog.md (2026-06-04)
 > **References:**
 >   drill-tech-post-v2.md — drill phân tích 7 câu hỏi (mechanism chains, formulations, audience)
 >   tech-post-draft-v3.md — draft hiện tại (~1,750 words), foundation cho blog
->   plan-tech-post.md — strategy gốc (Angle E, anti-patterns W.4/W.5, success signals)
+>   Tech/backup/plan-tech-post.md — strategy gốc (Angle E, anti-patterns — BACKED UP, key content absorbed here)
 >   plan-neuro-posts.md — neuro blog pattern (2-tier: blog + short posts)
->   short-posts-dopamine.md — short post template (per-platform, ~300 words)
+>   plan-overview-distribution.md — distribution plan cho overview blog (17 platforms)
+>   short-posts-dopamine.md — short post template reference
 
 ---
 
@@ -216,101 +218,144 @@
 
 ## §4 — SHORT POSTS STRUCTURE
 
-> Pattern: giống short-posts-dopamine.md — multiple versions per-platform.
-> FILENAME: Public-Plan/blog/short-posts-tech.md
+> KHÁC VỚI NEURO SHORT POSTS:
+>   Neuro posts: question-hook → blog deep-dive 1 claim = MATCH (cùng scope)
+>   Overview posts: straight presentation → blog overview framework = MATCH (cùng scope)
+>   Question-hook cho overview = MISMATCH (question cục bộ ↔ blog toàn diện)
+>
+> NGUYÊN TẮC:
+>   ① Trình bày thẳng: đây là gì, chứa gì (substance description)
+>   ② Na ná giữa các platforms (cùng 1 blog → cùng 1 core message)
+>   ③ Tinh chỉnh FORMAT per platform (text post vs link+comment vs micro-thread)
+>   ④ KHÔNG question-hook (gây lệch pha), KHÔNG feature list (anti-pattern §6.3)
+>
+> FILENAME: Public-Plan/blog/short-post-overview.md
 
-### §4.1 — LessWrong version (~400 words, rationalist tone)
-
-```
-  TITLE: Question-based (highest engagement on LW)
-    "Why can't you sit still? Why does criticism hurt physically?
-     Why does limerence end? — A framework with mechanistic answers"
-
-  STRUCTURE:
-    P1 HOOK (3 sentences):
-      → What I built: cross-referenced research → 200+ files, open-source
-      → Core position: body evaluates first, PFC observes second
-      → Structured like a codebase: files, dependencies, confidence levels
-
-    P2 QUESTIONS (3-4 strongest, bulleted):
-      → Social media drain vs close friend
-      → Expert decisions vs forced thinking
-      → Limerence → marriage
-      → (Optional: cluster tease — "5 questions that trace to one fact")
-
-    P3 MECHANISM TEASE (2-3 sentences, 1 example):
-      → Wanting vs liking distinction (social media)
-      → OR: compiled vs fresh (expert decisions)
-      → Enough to show substance, not enough to satisfy → blog link
-
-    P4 LINKS:
-      → Blog: [full URL]
-      → GitHub: [full URL]
-
-    P5 CLOSE:
-      → "Counter-evidence is more valuable than confirmation."
-      → "The framework includes ~20 divergence points from mainstream,
-         each with falsification criteria. Where does it break?"
-
-  TONE: LW-native. Epistemic humility. Falsification-forward.
-```
-
-### §4.2 — Hacker News version (~300 words, tech-native tone)
+### §4.1 — Core Structure (áp dụng mọi platform)
 
 ```
-  TITLE: Project-style
-    "Open-source framework mapping brain mechanisms: 200+ files, CC0,
-     structured like a codebase"
+  ① WHAT (1-2 câu):
+     Đây là framework connecting [domains]. Mô tả SUBSTANCE, không features.
+     → CÓ: "A framework connecting neuroscience, psychology, and evolutionary
+            biology into a single architecture."
+     → KHÔNG: "I built..." (self-promotional — feature-list opener)
+     → KHÔNG: "Why does scrolling..." (question-hook → scope mismatch)
+     → KHÔNG: "200+ files, structured like a codebase..." (feature list §6.3)
 
-  STRUCTURE:
-    P1 HOOK:
-      → Codebase metaphor first: files per mechanism, explicit dependencies,
-        confidence levels, tracked open questions
-      → Scale: 200+ files, CC0
+  ② CONTAINS (2-3 câu):
+     Nội dung blog — reader biết CHÍNH XÁC sẽ tìm thấy gì khi click.
+     → "Proposes mechanistic answers to 11 questions — from why social
+        media drains to why limerence ends."
+     → "Each with research citations and explicit conditions for being wrong."
+     → "200+ files, open-source, CC0." (scale = ở đây, KHÔNG phải ở WHAT)
 
-    P2 CORE PREMISE:
-      → Body evaluates first, PFC observes second
-      → "monitoring process vs main thread"
+  ③ POSITION (1 câu):
+     Core premise: body evaluates first, PFC observes second.
+     → Ngắn gọn. Không giải thích. Blog sẽ giải thích.
 
-    P3 EXAMPLES (2, tech-relevant):
-      → Expert decisions = compiled patterns (senior dev "sees" the bug)
-      → Creative stress = system working as designed (cortisol = amplifier)
+  ④ MECHANISM TEASE (2-3 câu):
+     1 ví dụ cụ thể of how framework answers a question.
+     → Phần DUY NHẤT có thể tinh chỉnh nhẹ per platform group
+     → Shows HOW framework thinks, không chỉ WHAT it covers
+     → Ví dụ mặc định: compiled vs fresh processing
+       (senior dev "sees" bug = compiled; junior debugs hours = fresh)
+     → Platform alternatives: social cluster, limerence, ML prediction error
 
-    P4 LINKS:
-      → Blog: [full URL]
-      → GitHub: [full URL]
+  ⑤ EPISTEMIC STATUS (1 câu):
+     "Hypothesis inviting falsification. Individual findings = established
+      science; proposed connections = new and unvalidated."
 
-  TONE: Dry tech. Project description. No hype.
+  ⑥ LINKS:
+     Blog URL + GitHub URL
+
+  ⑦ CLOSE (1-2 câu):
+     Mời challenge. Cụ thể hơn generic "where does this break."
+     → "Counter-evidence is more valuable than confirmation."
+     → Optional: câu hỏi cụ thể tied to mechanism tease
+
+  TẠI SAO STRUCTURE NÀY:
+    → WHAT + CONTAINS = reader expectation MATCH blog content (không lệch pha)
+    → MECHANISM TEASE = shows substance (không chỉ claim, mà DEMONSTRATE)
+    → EPISTEMIC = honest framing (W.4 compliant)
+    → Không divergences list trong short post (thuộc blog — xem §5.2)
+    → Không full question list (tease 2-3 trong CONTAINS, full list thuộc blog)
 ```
 
-### §4.3 — Reddit r/cogsci version (~350 words, bridge tone)
+### §4.2 — Format Groups
 
 ```
-  TITLE: Bridge academic + accessible
-    "A proposed framework connecting neurochemistry, behavior, and social
-     dynamics — 200+ files, open-source, seeking falsification"
+  NHÓM A: TEXT POST (Reddit subs, LessWrong, EA Forum)
+    → Full body as post text
+    → Title = descriptive statement (KHÔNG question-first)
+    → Follow core structure §4.1
+    → ~250-400 words tùy platform
 
-  STRUCTURE:
-    Similar to LW but more accessible.
-    Research citations prominent.
-    Questions focused on cogsci territory (social mechanisms, boredom, status).
+  NHÓM B: LINK + AUTHOR COMMENT (Hacker News, Lobsters)
+    → Submit blog URL as link
+    → Post body = KHÔNG CÓ (HN/Lobsters = link aggregator)
+    → Author comment đầu tiên = condensed core structure §4.1
+    → Title: blog title hoặc "Show HN: [description]"
+    → ⚠️ HN KHÔNG phải text post platform — format phải đúng
+    → Author comment ~150-250 words
 
-  TONE: Academic-accessible. Citations visible. Hypothesis language.
+  NHÓM C: MICRO-THREAD (Bluesky 300 chars, Mastodon 500 chars)
+    → Thread 3-5 posts:
+      Post 1: WHAT + CONTAINS (condensed)
+      Post 2: POSITION + MECHANISM TEASE
+      Post 3: EPISTEMIC + LINKS
+      Post 4: CLOSE (+ hashtags)
+    → Hashtags: #Neuroscience #CogSci #OpenScience
+    → CamelCase hashtags (accessibility — đặc biệt Mastodon)
 ```
 
-### §4.4 — Reddit r/psychology version (~300 words)
+### §4.3 — Platform-Specific Adjustments (NHẸ)
 
 ```
-  TITLE: Accessible, question-first
-    "Why does scrolling social media drain you? Why does criticism hurt
-     physically? A framework with mechanistic answers"
+  Adjustments = tinh chỉnh câu chữ, KHÔNG phải rewrite.
+  Core message GIỐNG NHAU. Chỉ sửa:
 
-  STRUCTURE:
-    Lead with relatable questions.
-    1 mechanism tease (wanting vs liking).
-    Blog link.
+  LESSWRONG:
+    → Thêm [Epistemic status: hypothesis inviting falsification] ở đầu
+    → Mechanism tease: compiled vs fresh (rationalist-relevant, Kahneman reframe)
+    → Có thể dài hơn (~350-400 words — LW accepts long-form)
 
-  TONE: Accessible. Experience-first, mechanism-second.
+  r/SLATESTARCODEX:
+    → Giống LW, thêm nhẹ: psychiatry/neuroscience angle
+    → SSC readers biết Kahneman, predictive processing
+
+  EA FORUM:
+    → Giống LW, thêm nhẹ: human cognition → AI safety angle
+    → "Understanding human reward system → better AI alignment"
+
+  HACKER NEWS:
+    → Format B: submit blog link + author comment
+    → "Show HN:" prefix
+    → Author comment condensed (~200 words)
+    → Tech vocabulary: "codebase", "open-source", "CC0"
+
+  LOBSTERS:
+    → Format B: submit blog link (invite-only)
+    → Không cần separate short post
+
+  r/COGSCI:
+    → Citations prominent hơn trong mechanism tease
+    → Mechanism tease: social cluster (Eisenberger 2003, Coan 2015)
+
+  r/PSYCHOLOGY:
+    → Accessible language
+    → Mechanism tease: limerence (Fisher 2004 — relatable)
+    → Tránh jargon (PFC → "prefrontal cortex", etc.)
+
+  r/MACHINELEARNING:
+    → [D] Discussion tag
+    → Mechanism tease: prediction error ≠ reward, dopamine × RL
+    → Technical ML terminology: reward shaping, curiosity-driven learning
+    → Connect framework → existing ML concepts
+
+  BLUESKY + MASTODON:
+    → Format C: micro-thread
+    → Academic tone (neuroscientists đã migrate tới Bluesky)
+    → Bluesky: 300 chars/post, Mastodon: 500 chars/post
 ```
 
 ---
@@ -344,19 +389,30 @@
 ### §5.2 — V3 → Short Posts
 
 ```
-  V3 CONTENT USED IN SHORT POSTS:
-    → Hook P1 (compressed to 2-3 sentences)
-    → 3-4 câu hỏi (selected per-platform)
-    → 1 mechanism tease (2-3 sentences from sketch ① or ⑥)
+  V3 CONTENT USED IN SHORT POSTS (xem §4.1 — core structure):
+    → Substance description: đây là gì (1-2 câu — KHÔNG feature list)
+    → Content scope: 11 questions, 6 sketches, citations (2-3 câu)
+    → Core position: body first, PFC second (1 câu)
+    → 1 mechanism tease (from sketch ①, ⑥, or ⑦ — 2-3 câu)
+    → Epistemic status (1 câu)
     → Links (blog + GitHub)
-    → "Counter-evidence > confirmation" closing
+    → Close: invitation to challenge (1-2 câu)
 
   V3 CONTENT NOT IN SHORT POSTS:
     → Tất cả mechanism sketches (→ blog)
-    → Framework description (→ blog)
-    → Divergences (→ blog)
+    → Full divergences list (→ blog)
+    → Cluster explanation (→ blog)
+    → Detailed question list (→ blog — short posts tease 2-3, không list 11)
     → Limitations (→ blog)
     → AI starter prompt (→ blog)
+
+  THAY ĐỔI SO VỚI V0.1:
+    → BỎ: question-hook opening (gây lệch pha: question cục bộ ↔ blog toàn diện)
+    → BỎ: "I built..." opener (self-promotional)
+    → BỎ: divergences paragraph trong short post (thuộc blog)
+    → THÊM: substance description (đây là gì, chứa gì)
+    → THÊM: epistemic status explicit
+    → Lý do: overview blog = broad, short post phải set đúng expectation
 ```
 
 ### §5.3 — Cluster handling
@@ -414,12 +470,17 @@
     = Mỗi sketch kết thúc bằng *Source + Research citation*
 
   SHORT POSTS:
-    = Vary per-platform (LW: rationalist, HN: tech-dry, Reddit: accessible)
-    = But ALL share: no hype, no guru, no marketing
+    = 1 core message, adapt FORMAT (not content) per platform
+    = Substance description: đây là gì, chứa gì (not question-hook, not feature list)
+    = Na ná giữa các platforms (mục đích = distribution, không differentiation)
+    = Tinh chỉnh nhẹ per platform group: format, mechanism tease, câu chữ
+    = ALL share: no hype, no guru, no marketing
     = Close with invitation to falsify, not to confirm
+    = KHÔNG question-hook (gây lệch pha giữa post cục bộ và blog toàn diện)
+    = KHÔNG feature list opening ("200+ files, structured like..." = anti-pattern §6.3)
 ```
 
-### §6.3 — Anti-patterns (from plan-tech-post.md §7)
+### §6.3 — Anti-patterns (originally from plan-tech-post.md §7, now absorbed here)
 
 ```
   ✗ Feature listing: "Framework has 200+ files, covers X Y Z..." → boring
@@ -465,7 +526,7 @@
 
   PHASE 2: WRITE SHORT POSTS
     Input: blog (completed) + short-posts-dopamine.md (template)
-    Output: Public-Plan/blog/short-posts-tech.md
+    Output: Public-Plan/blog/short-post-overview.md
     Steps:
       2a. LW version first (primary target)
       2b. HN version
@@ -507,7 +568,7 @@
 
 ---
 
-## §9 — SUCCESS SIGNALS (from plan-tech-post.md §8)
+## §9 — SUCCESS SIGNALS (originally from plan-tech-post.md §8, now absorbed here)
 
 ```
   ✓ GOOD:
@@ -536,7 +597,7 @@
     tech-post-draft-v3.md — ~1,750 words, foundation cho blog (expand từ đây)
 
   STRATEGY:
-    plan-tech-post.md — Angle E, question pool, hooks, anti-patterns, success signals
+    Tech/backup/plan-tech-post.md — Angle E, question pool, hooks (BACKED UP — key content absorbed in §6, §9)
     plan-neuro-posts.md — 2-tier pattern (blog + short posts), posting cadence
 
   TEMPLATES:

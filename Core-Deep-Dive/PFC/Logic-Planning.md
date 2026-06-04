@@ -24,9 +24,10 @@ language: Tiếng Việt primary + English technical
 
 > **Tại sao file này TỒN TẠI:**
 >
-> Framework có 2 processing modes: **Logic** và **Feeling** (Logic-Feeling.md).
-> Logic side = chain labeled chunks → plan → execute. AI hỗ trợ cực mạnh ở phần này.
-> Feeling side = body-feedback processing. AI KHÔNG thay thế được.
+> Framework có 2 processing phases: **Compiled (Body-Knowing)** và **Fresh** (Logic-Feeling.md v4.0).
+> "Logic"/"Feeling" = observer labels cho cùng mechanism (differ only in shareability).
+> Fresh/articulated side = chain labeled chunks → plan → execute. AI hỗ trợ cực mạnh ở phần này.
+> Body-Knowing side = compiled body-direct processing. AI KHÔNG thay thế được.
 >
 > → Framework core value = **hiểu Feeling** (để con người tự biết mình đang feel gì).
 > → Logic side chỉ cần mô tả **cần và đủ**, rồi đóng gói.

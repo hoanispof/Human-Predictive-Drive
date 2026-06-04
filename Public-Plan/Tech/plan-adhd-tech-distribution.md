@@ -12,7 +12,8 @@
 > **Trạng thái:** DRAFT v0.1
 > **Ngày tạo:** 2026-05-30
 > **Bổ sung cho:**
->   plan-tech-distribution.md — tech general strategy (6 topics, 12 platforms)
+>   plan-overview-distribution.md — overview blog distribution (thay thế plan-tech-distribution.md)
+>   future-topic-ideas.md — T3/T4/T5 topic ideas (extracted từ plan-tech-distribution.md)
 >   plan-content-engagement.md — comment trên nội dung chuyên gia
 >   plan-public.md — general strategy, framing rules
 >   expert-verification-map.md — routing table domain experts
@@ -142,7 +143,7 @@ THỨ TỰ THỰC HIỆN:
   3. Không post ADHD communities trước khi tech verify xong
      → = Risk management: nếu tech reject → KHÔNG gây harm ở ADHD community
 
-  ⚠️ Plan này KHÔNG thay thế plan-tech-distribution.
+  ⚠️ Plan này KHÔNG thay thế plan-overview-distribution (former plan-tech-distribution).
   → Bổ sung thêm 1 AUDIENCE CHANNEL với đặc thù riêng.
 ```
 
@@ -408,7 +409,7 @@ FALSIFICATION TEST:
 SOURCE: ADHD-Trade-Off.md §2 (social compilation), Core-Software.md,
         ADHD-Observation.md §4 (executive function)
 
-BỔ SUNG CHO T2 (plan-tech-distribution):
+BỔ SUNG CHO T2 (future-topic-ideas.md):
   → T2 = "Human OS" cho general tech audience
   → A4 = T2 + ADHD-specific mechanism → personal resonance
   → Có thể post A4 ĐỘC LẬP hoặc như VARIANT của T2
@@ -607,7 +608,7 @@ R5: "WHO ARE YOU TO ANALYZE US?"
 ### 5.1 — Topic Mapping: A-Topics ↔ T-Topics
 
 ```
-A-topics (plan này) BUILD ON T-topics (plan-tech-distribution):
+A-topics (plan này) BUILD ON T-topics (future-topic-ideas.md):
 
   A4 (Knowing ≠ Doing, ADHD ed.)  ←→  T2 (Human OS: 2-System Architecture)
     → CÙNG mechanism, thêm ADHD-specific angle
@@ -630,7 +631,7 @@ A-topics (plan này) BUILD ON T-topics (plan-tech-distribution):
 
 ```
 MỖI A-POST LINK TỚI:
-  → T-topic related (plan-tech-distribution)
+  → T-topic related (future-topic-ideas.md)
   → GitHub repo (hub — plan-tech §4)
   → Other A-topic (build reading sequence)
 
@@ -650,10 +651,10 @@ VD: A1 post footer:
 ### 6.1 — Thứ Tự Execution
 
 ```
-⚠️ ADHD-LIKE × TECH PLAN = SAU plan-tech-distribution.
+⚠️ ADHD-LIKE × TECH PLAN = SAU overview blog distribution.
 
 PHASE 0 — PREREQUISITES (trước mọi thứ):
-  □ Plan-tech-distribution Tier S đã post + có traction
+  □ Overview blog Tier S đã post + có traction (plan-overview-distribution.md)
   □ 3 ADHD files dịch EN (ít nhất Observation + Trade-Off)
   □ A1 + A4 drafts written + reviewed
   □ GitHub setup done (từ plan-tech §4.3)
@@ -799,8 +800,8 @@ KHÔNG CẦN:
   │ plan-public.md              │ = General strategy, framing rules │
   │                             │   W.4, W.5 ÁP DỤNG cho plan này  │
   ├──────────────────────────────────────────────────────────────────┤
-  │ plan-tech-distribution.md   │ = Tech general → TRƯỚC plan này   │
-  │                             │   A-topics bridge ↔ T-topics      │
+  │ plan-overview-distribution + │ = Overview distribution + future  │
+  │ future-topic-ideas.md       │   T-topics → TRƯỚC plan này       │
   │                             │   KHÔNG double-post platforms      │
   ├──────────────────────────────────────────────────────────────────┤
   │ plan-content-engagement.md  │ = Comment strategy → CŨNG ÁP DỤNG│
@@ -813,7 +814,7 @@ KHÔNG CẦN:
   └──────────────────────────────────────────────────────────────────┘
 
   EXECUTION ORDER (across all plans):
-    1. plan-tech-distribution Tier S → establish credibility
+    1. plan-overview-distribution Tier S → establish credibility
     2. plan-adhd-tech (file này) Phase 1 → leverage credibility
     3. plan-content-engagement → supplement cả 2
     4. Verification claims → expert-verification-map routing
@@ -821,7 +822,7 @@ KHÔNG CẦN:
 
 ---
 
-> **Plan v0.1 — sẽ refine sau khi plan-tech-distribution đã triển khai.**
+> **Plan v0.1 — sẽ refine sau khi overview blog distribution đã triển khai.**
 > Bước tiếp:
 >   1. Viết A1 + A4 drafts (adapt từ ADHD file content)
 >   2. Dịch 3 ADHD files sang EN

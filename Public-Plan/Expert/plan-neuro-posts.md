@@ -7,7 +7,7 @@
 > **Ngày tạo:** 2026-05-26
 > **Liên kết:**
 >   plan-public.md — framing rules (W.4, W.5)
->   plan-tech-distribution.md — broader distribution strategy
+>   plan-overview-distribution.md — overview blog distribution (thay thế plan-tech-distribution.md)
 >   framing-engagement-value.md — 3-tầng value model
 >   01-Dopamine-Not-Reward.md — draft có sẵn cho Topic 1
 >   expert-verification-map.md — routing claims tới đúng expert group
@@ -38,9 +38,9 @@
     (Blog phải sẵn TRƯỚC short post, vì short dẫn link)
 
   LƯU Ý:
-    Tech post tổng hợp (plan-tech-post.md) = POST TOPIC ONLY (không có blog)
-    → Trau chuốt nội dung post, dẫn thẳng tới GitHub framework
-    → Khác với Blog A/B/C: blog riêng + short posts riêng
+    Tech overview (plan-overview-blog.md) = NAY CÓ blog riêng + short posts
+    → Đã thay đổi: tech cũng có blog, giống pattern neuro
+    → plan-tech-post.md đã backup (key content absorbed vào plan-overview-blog.md)
 ```
 
 ---
@@ -315,9 +315,9 @@
     → Short post sau (Reddit / forum)
     → Monitor engagement → learn → adjust
 
-  SONG SONG: Tech post tổng hợp (plan-tech-post.md)
-    → POST TOPIC ONLY (không có blog riêng)
-    → Trau chuốt nội dung, dẫn thẳng tới GitHub framework
+  SONG SONG: Tech overview blog (plan-overview-blog.md)
+    → NAY CÓ blog riêng + short posts (giống pattern neuro)
+    → plan-overview-distribution.md = distribution plan
     → Có thể publish song song hoặc sau Blog C
 
   KHÔNG ĐẶT DEADLINE CỨ THỂ.

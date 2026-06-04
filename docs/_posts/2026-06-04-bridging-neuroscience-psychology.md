@@ -5,7 +5,7 @@ date: 2026-06-04
 author: Independent researcher
 license: CC0 1.0 Universal
 status: Draft v0.1
-tags: [neuroscience, psychology, evolutionary-biology, cognitive-science, open-source, falsifiable, behavioral-science, framework]
+tags: [neuroscience, psychology, evolutionary-biology, cognitive-science, open-source, behavioral-science, framework]
 ---
 
 **An open-source framework mapping brain mechanisms across 200+ files — with mechanistic answers to 11 questions, research citations, and explicit conditions for being wrong.**
@@ -16,7 +16,7 @@ tags: [neuroscience, psychology, evolutionary-biology, cognitive-science, open-s
 
 This post presents:
 
-1. **A cross-domain framework** connecting neuroscience, psychology, and evolutionary biology into a single architecture — 200+ files, CC0 licensed, structured for falsification
+1. **A cross-domain framework** connecting neuroscience, psychology, and evolutionary biology into a single architecture — 200+ files, CC0 licensed
 2. **Eleven questions** with mechanistic answers — from why social media drains you to why limerence ends
 3. **Six mechanism sketches** with research citations — three expanded, three brief
 4. **One question cluster** — five seemingly unrelated experiences that trace to one architectural fact about the human body
@@ -96,7 +96,7 @@ Limerence isn't illusion — it's drive-level biology. Fisher (2004) showed it a
 
 It's guaranteed to end because the subsidy is temporary by design: 18–36 months (Fisher 2004). Its evolutionary function is to keep two strangers together long enough to bond. Once the window closes, accumulated habituation reveals at once — "the spark died" is subsidy expiry, not stopped loving.
 
-The framework maps this decline to two forces: compiled-suppress (the partner becomes deeply familiar, reducing novelty signal) and reward-habituation (the same stimulus repeated thousands of times, diminishing return). Both are architectural — they happen to *every* pair bond, not just "bad" ones.
+The framework maps this decline to two forces: compiled-suppress (suppressing personal drives to match the partner — less individual growth, less novelty to bring back) and reward-habituation (the partner becomes deeply familiar — same presence repeated thousands of times, diminishing return). Both are architectural — they happen to *every* pair bond, not just "bad" ones.
 
 What sustains a bond afterward? The framework identifies the limerence window as fuel for building durable structures: shared experience chunks that compile into both people, communication patterns for resolving conflict (Gottman: the most stable couples aren't conflict-free — they know how to repair), and deep mutual understanding built during peak curiosity.
 
@@ -142,7 +142,8 @@ The human brain runs a compilable architecture — a general-purpose system that
 
 Eisenberger (2003) demonstrated that social rejection activates the dorsal anterior cingulate cortex — the same region that processes physical pain. This is not metaphor. The body treats social loss as physical damage because, for a compilable architecture, losing access to other people *is* structural damage.
 
-Coan's Social Baseline Theory (2015) takes it further: the body's default state is *with others*. Being alone is the deviation — metabolically costly, requiring extra vigilance and self-regulation that the body normally outsources to trusted companions.  
+Coan's Social Baseline Theory (2015) takes it further: the body's default state is *with others*. Being alone is the deviation — metabolically costly, requiring extra vigilance and self-regulation that the body normally outsources to trusted companions.
+
 Chronic loneliness — sustained absence of meaningful social input — doesn't just feel bad. It damages health. Holt-Lunstad's 2015 meta-analysis found 26% increased mortality from social isolation. Holt-Lunstad herself characterized the effect size as comparable to smoking up to 15 cigarettes per day — a cross-review comparison of mortality risk magnitudes, not a direct biological equivalence.
 
 Temporary solitude with compiled connections intact is different — a scientist deep in research or a monk in meditation still has compiled social bonds to return to.
@@ -165,8 +166,6 @@ Think of it like a computer: the framework provides a circuit diagram (which bra
 
 **Philosophy:** Compass, not GPS — estimates direction, not exact prediction.
 
-**Language:** Vietnamese primary with English technical terms. For navigation, drop the folder into a large-context AI and ask questions in any language.
-
 ---
 
 ## Where this diverges from mainstream
@@ -183,7 +182,7 @@ Four examples:
 
 **Prediction error: necessary, not sufficient.** Mainstream (ML/RL): "prediction error drives reward." Framework: prediction error drives attention — necessary first step, but human reward requires additional body-level evaluation. Unexpected loud noise produces prediction error without reward.
 
-The full list of ~20 positions with evidence and falsification criteria: Ask-AI.md §3 in the repository.
+The full list of ~20 positions with cited evidence: Ask-AI.md §3 in the repository.
 
 ---
 
@@ -234,9 +233,10 @@ AI can verify logical consistency and citation accuracy. It cannot verify replic
 Full framework (200+ files, CC0, open-source):
 **[GitHub — Human Predictive Drive](https://github.com/hoanispof/Human-Predictive-Drive)**
 
-Three detailed blog posts on specific mechanisms:
+Related posts on specific mechanisms:
 - [Dopamine Signals Salience, Not Reward](https://hoanispof.github.io/Human-Predictive-Drive/blog/dopamine-signals-salience-not-reward/) — a 7-step mechanism + five preconditions for when pleasure actually fires
 - [Cortisol Is Not Your Stress Hormone](https://hoanispof.github.io/Human-Predictive-Drive/blog/cortisol-is-not-stress/) — the Source > Level principle + the Inverted-U
 - [ADHD Is Not Attention Deficit](https://hoanispof.github.io/Human-Predictive-Drive/blog/adhd-is-not-attention-deficit/) — one threshold, six paradoxes resolved
+- [Logic Is Not the Opposite of Intuition](https://hoanispof.github.io/Human-Predictive-Drive/blog/logic-is-not-the-opposite-of-intuition/) — one mechanism, two observer labels, and why neither can verify itself
 
 This is a hypothesis inviting falsification. What would break it? I want to know.

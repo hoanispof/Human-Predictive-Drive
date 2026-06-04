@@ -863,8 +863,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ Research / deep analysis:  │ Compiled / Fresh (BẮT BUỘC)           │
   │ Mô tả cho người thường:   │ Logic / Feeling (OK, approximate)     │
   │ Observation parameter file:│ Logic-Feeling (tên file, convention)  │
-  │ Nói chung "con người":    │ "Con người 100% feeling ở tầng nền"   │
-  │                            │ = mọi output = body-feedback           │
+  │ Nói chung "con người":    │ PFC = Lawyer + Learning Trajectory    │
+  │                            │ = PFC serve body-base, learning →     │
+  │                            │   Body-Knowing (compiled body-direct)  │
   └────────────────────────────┴───────────────────────────────────────┘
 
   ⚠️ KHÔNG NÓI "feeling phản đối logic":
@@ -875,7 +876,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Chef biết thiếu muối = trực giác = COMPILED (not "feeling only")
     Einstein "thấy" lời giải = trực giác = COMPILED (not "logic only")
 
-  (Logic-Feeling.md v2.1 = SOURCE. Body-Feedback-Label §10 = CÙNG distinction.)
+  ⚠️ RETIRED: "Con người 100% feeling ở tầng nền" — terminology collision
+    (Logic-Feeling.md v4.0 §4.3: RETIRED. PFC = Lawyer + Learning Trajectory = same insight,
+     mechanism-level, không dùng từ collision-prone "feeling")
+
+  (Logic-Feeling.md v4.0 = SOURCE. Body-Feedback-Label §10 = CÙNG distinction.)
 ```
 
 ---

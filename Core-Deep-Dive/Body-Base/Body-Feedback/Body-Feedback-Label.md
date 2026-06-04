@@ -763,8 +763,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⚠️ "Logic" = compiled chunks SHAREABLE (deterministic domain: toán, vật lý)
   ⚠️ "Intuition" = compiled chunks NOT EASILY SHAREABLE (probabilistic domain: tâm lý)
   ⚠️ BÊN TRONG: cơ chế GIỐNG HỆT. Khác: SHAREABILITY, không phải quality.
-  ⚠️ "Con người 100% feeling ở tầng nền" = MỌI output cuối cùng = body-feedback.
-     PFC serve body-base. "Logic" = phase TRƯỚC KHI compile xong.
+  ⚠️ RETIRED: "Con người 100% feeling ở tầng nền" — terminology collision.
+     v4.0 framing: PFC = Lawyer + Learning Trajectory (Logic-Feeling.md v4.0 §4.3).
+     = PFC serve body-base (Lawyer). Fresh → compile → Body-Knowing (Learning Trajectory).
+     = Same insight, mechanism-level, không dùng từ "feeling" collision-prone.
 ```
 
 ---

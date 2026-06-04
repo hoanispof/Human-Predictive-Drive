@@ -540,8 +540,9 @@ dependencies:
 
   CONNECTION:
     → Logic-Feeling.md: Compiled/Fresh = real axis (not content)
-    → Inter-Body §3.5: "100% feeling at base level"
-      = all output ultimately satisfies body-need
+    → Inter-Body §3.5: PFC = Lawyer + Learning Trajectory
+      (v4.0: "100% feeling" RETIRED — terminology collision.
+       Same insight: PFC serve body-base, Fresh → compile → Body-Knowing)
       = Feel-Explanation "logic" = just fresh-processing BEFORE compile
     → Feeling-Literacy-Training §Stage 1-5 = compilation progression
     → Body-Knowing.md: compiled end of spectrum FORMALIZED (definition + quality + formation)

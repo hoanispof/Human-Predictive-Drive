@@ -8,7 +8,7 @@ platforms: r/neuroscience, r/psychology, r/cogsci
 references:
   plan-neuro-posts.md §4 — short post format
   framing-engagement-value.md — 3-layer value model
-  plan-tech-distribution.md §5 — posting cadence
+  plan-overview-distribution.md §3 — posting cadence
 ---
 
 # Short Posts: Dopamine Signals Salience, Not Reward

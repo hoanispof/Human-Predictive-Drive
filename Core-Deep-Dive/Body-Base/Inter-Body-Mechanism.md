@@ -525,21 +525,37 @@ FRAMEWORK REFRAME:
 🟡 "Shareable vs non-shareable" as organizing principle = framework synthesis.
 ```
 
-### §3.5 — Implication: "Con người 100% feeling ở tầng nền"
+### §3.5 — Implication: PFC = Lawyer + Learning Trajectory
 
 ```
-MỌI output cuối cùng = body-feedback.
-PFC serve body-base (mọi "logic" cuối cùng phải satisfy body-need).
-Compiled processing = body-direct = "feeling".
-"Logic" = chỉ là phase TRƯỚC KHI compile xong.
-Sau compile: logic đó TRỞ THÀNH "feeling" cho person đó.
+⭐ HAI NGUYÊN LÝ KIẾN TRÚC:
 
-→ Từ góc body-base: con người 100% feeling-driven.
-→ "Logic" = observer's label cho "PFC đang draft vì chưa compile".
+  ① PFC = LAWYER (không phải Judge):
+    → Body-need fires TRƯỚC
+    → Body creates DRIVE toward action
+    → PFC creates NARRATIVE ("lý do") cho action body ĐÃ muốn
+    → Person BELIEVES narrative
+    → 🟢 Gazzaniga split-brain, Haidt 2001, Nisbett & Wilson 1977
+    → PFC serve body-base — mọi "logic" cuối cùng serve body architecture
 
-🟡 "100% feeling at base level" = logical consequence of
-   "PFC serves body-base" + "compiled = feeling".
-   Novel framing, consistent with framework architecture.
+  ② LEARNING TRAJECTORY hướng về Body-Knowing:
+    → Fresh processing = temporary phase TRƯỚC KHI compile
+    → Repeat + domain verify OK → Hebbian strengthen → automatic → Body-Knowing
+    → "Logic" cho người này = "Body-Knowing" cho expert kia
+    → Toán = "fresh/logic" ngày đầu → "Body-Knowing" sau years
+    → = ĐÍCH ĐẾN CỦA LEARNING = compiled body-direct (Body-Knowing)
+
+  ⚠️ v4.0 NOTE:
+    → Phiên bản cũ viết: "con người 100% feeling ở tầng nền"
+    → Terminology RETIRED (Logic-Feeling.md v4.0 §4.3):
+      "100% feeling" gây collision 3 nghĩa của "feeling" (→ Body-Knowing.md §0.1)
+    → SAME INSIGHT, mechanism-level framing:
+      PFC = Lawyer (testable) + Learning Trajectory (testable)
+      = mô tả cùng kiến trúc, không dùng từ collision-prone
+
+🟢 PFC = Lawyer: Gazzaniga, Haidt 2001, Nisbett & Wilson 1977.
+🟡 Learning trajectory + PFC = Lawyer as architecture summary = framework synthesis.
+   Consistent with Klein 1998, expertise research.
 ```
 
 ---

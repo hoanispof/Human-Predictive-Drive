@@ -339,6 +339,25 @@ LOGIC-FEELING v4.0 TRONG KIẾN TRÚC FRAMEWORK:
   → UNVERIFIED → "cảm tính"
   → INSIDE: mechanism may be IDENTICAL across all 3 labels
 
+  ⚠️ PRECISION — "LOGIC" LABEL COVERS 2 DIFFERENT PROCESSING PHASES:
+
+    "Logic" được observer gán cho CẢ HAI:
+      ① Compiled shareable Body-Knowing (Einstein giải toán quen → automatic)
+      ② Fresh PFC processing (student giải toán lần đầu → effortful)
+
+    Claim chính xác của framework:
+      → ① (compiled shareable) và "intuition" (compiled non-shareable) = SAME mechanism
+        (Body-Knowing, differ only in domain shareability)
+      → ② (Fresh PFC draft) và ① (compiled Body-Knowing) = DIFFERENT processing phases
+        (BUT: ② is TEMPORARY — through learning, Fresh → compiles → becomes ①)
+      → = Observer label "logic" KHÔNG phân biệt ① vs ②
+      → = Đây chính là lý do labels mislead about mechanism
+
+    TÓM TẮT:
+      "Logic" vs "Intuition" ở tầng compiled = SAME mechanism, khác shareability
+      "Logic" ở tầng Fresh vs "Intuition" ở tầng compiled = DIFFERENT phase, same trajectory
+      = Labels track OBSERVER PERSPECTIVE, không track processing phase lẫn mechanism
+
 🟡 Labels as observer-perspective artifact = framework synthesis.
    Consistent with expertise research showing expert "intuition" = compiled patterns.
 ```
@@ -394,6 +413,20 @@ LOGIC-FEELING v4.0 TRONG KIẾN TRÚC FRAMEWORK:
     → "Tôi mua xe vì practical" (actual: status body-need)
     → PFC chain VALID nhưng NOT SOUND (premise = body-need hidden)
     → = "Logic correct" ≠ "Logic honest"
+
+  ⚠️ PFC = LAWYER ≠ PFC = USELESS:
+    → PFC = Lawyer mô tả DOMINANT dynamic (majority of everyday decisions)
+    → PFC CÓ genuine processing capacity, đặc biệt khi:
+      a) Domain genuinely novel (no compiled base → no body-need to lawyer FOR)
+      b) Formalization (converting Body-Knowing → shareable → teachable)
+      c) Deliberate override khi Body-Knowing detected wrong (unlearning)
+    → NHƯNG ngay cả trong genuine processing:
+      → WHICH directions PFC explores vẫn influenced bởi body-needs
+        (PFC explore hướng body "thấy interesting" → body steers attention)
+      → PFC output vẫn cần DOMAIN VERIFY (not self-sufficient)
+    → = PFC = Lawyer + sometimes Genuine Explorer
+    → = Both modes need domain arbiter (→ §3.3)
+    → Inter-Body-Mechanism.md v2.0 §7.2: PFC Accuracy = spectrum 0→1
 
   BODY-KNOWING output can ALSO be distorted:
     → Compiled patterns CÓ THỂ SAI (trauma, Self-Referencing, wrong context)

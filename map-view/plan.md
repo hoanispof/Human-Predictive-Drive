@@ -507,7 +507,7 @@ LANGUAGE DECISION:
     - INDEX (English) = international tech audience navigation
     - CONTENT (Vietnamese) = framework itself
     - Tech experts dùng AI translate content nếu cần
-    - Consistent với plan-tech-distribution.md strategy
+    - Consistent với plan-overview-distribution.md strategy
 
   NOTE trong index.html:
     "Framework content is written in Vietnamese.
@@ -763,7 +763,7 @@ plan.md (file này)
   ← html-viewer.txt (yêu cầu gốc)
   ← expert-verification-map.md (nguồn Layer 1 domains)
   ← 3× File-Index.md (nguồn file list + descriptions)
-  → plan-tech-distribution.md (context: tech-first distribution)
+  → plan-overview-distribution.md (context: overview blog distribution)
   → framing-engagement-value.md (context: how to present value)
   → plan-public.md (context: general distribution strategy)
 ```

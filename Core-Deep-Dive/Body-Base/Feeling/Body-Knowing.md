@@ -15,7 +15,7 @@ purpose: |
   Feeling.md v3.0      = WHAT PFC sees (umbrella, all body-feedback observation, 7 types)
   Body-Knowing.md      = WHEN PFC "biết" (compiled recognition — specific function)
   (FILE NÀY)
-  Logic-Feeling.md v3.0 = WHY Body-Knowing bị dán label "logic"/"feeling" (shareability)
+  Logic-Feeling.md v4.0 = WHY Body-Knowing bị dán label "logic"/"feeling" (shareability)
   Somatic-Articulation- = HOW implicit → explicit (formation mechanism, 7 stages)
   Loop.md
 position: |
@@ -23,7 +23,7 @@ position: |
   Function OF Feeling system. Companion TO Logic-Feeling.md.
 dependencies:
   - Feeling.md v3.0 — umbrella system (§1.1 definition, §2.5 mapping, §7 gradient, §8 quality)
-  - Logic-Feeling.md v3.0 — observer labels (§1 Body-Knowing definition, §2 labels)
+  - Logic-Feeling.md v4.0 — observer labels (§1 Body-Knowing definition, §2 labels)
   - Somatic-Articulation-Loop.md — formation mechanism (§1 3 States, §2 7 Stages)
   - Inter-Body-Mechanism.md v2.0 — Compiled/Fresh SOURCE-OF-TRUTH (§3)
   - PFC-Function.md v1.2 — OBSERVE + HOLD (§1-§2)
@@ -134,7 +134,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │                          trên Simulation-Engine               │
   │                          Body-Knowing Inward ⊂ Self-Observation│
   │                                                                │
-  │ Logic-Feeling.md v3.0  = WHY Body-Knowing bị dán label        │
+  │ Logic-Feeling.md v4.0  = WHY Body-Knowing bị dán label        │
   │                          "logic" / "feeling" / "intuition"     │
   │                          Shareability determines observer label│
   │                                                                │
@@ -188,7 +188,7 @@ TẠI SAO BODY-KNOWING TỒN TẠI? (Inter-Body-Mechanism.md §1)
 
 ## §1 — ĐỊNH NGHĨA BODY-KNOWING
 
-> **Source:** Inter-Body-Mechanism.md v2.0 §3 + Logic-Feeling.md v3.0 §1.1.
+> **Source:** Inter-Body-Mechanism.md v2.0 §3 + Logic-Feeling.md v4.0 §1.1.
 > Body-Knowing = formal name cho compiled processing output: body-direct knowing.
 > File này = comprehensive treatment. Logic-Feeling.md §1.1 = summary + reference.
 
@@ -1620,7 +1620,7 @@ COMPILE CONTEXT = HOW chunks were compiled MATTERS:
 
 ## §8 — COMPILED/FRESH SPECTRUM
 
-> **Source:** Inter-Body-Mechanism.md v2.0 §3, Logic-Feeling.md v3.0 §1.2,
+> **Source:** Inter-Body-Mechanism.md v2.0 §3, Logic-Feeling.md v4.0 §1.2,
 > Body-Feedback-Label.md v2.1 §8.
 > Body-Knowing = compiled end. Fresh = not-yet-Body-Knowing end.
 
@@ -1720,7 +1720,7 @@ BODY-FEEDBACK-LABEL.md v2.1 §8 ALIGNMENT:
     Body-Knowing.md (this file): comprehensive concept
     Body-Feedback-Label.md §8: vocabulary label
     Inter-Body-Mechanism.md §3: mechanism SOURCE-OF-TRUTH
-    Logic-Feeling.md v3.0 §1: definition + observer labels
+    Logic-Feeling.md v4.0 §1: definition + observer labels
 
   🟡 Vocabulary alignment = framework integration
 ```
@@ -2009,7 +2009,7 @@ HYPOTHESES — NOT YET VERIFIED:
   PARENT + SIBLINGS:
     → Feeling.md v3.0: umbrella system (§1.1 definition, §2.5 mapping,
       §7 gradient/Multi-Weak-Signal-Convergence/convergence zone, §8 quality model, §10 training)
-    → Logic-Feeling.md v3.0: Body-Knowing definition (§1) +
+    → Logic-Feeling.md v4.0: Body-Knowing definition (§1) +
       observer labels (§2) + flow (§3) + Dual Check (§4)
     → Logic-Feeling-Balance.md v2.1: META-PRINCIPLE companion
 

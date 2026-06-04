@@ -10,7 +10,7 @@
 > **Ngày tạo:** 2026-05-25
 > **Bổ sung cho:**
 >   plan-public.md — general strategy, framing rules (W.4, W.5)
->   plan-tech-distribution.md — platform-based distribution (Reddit, HN, Medium)
+>   plan-overview-distribution.md — platform-based distribution (Reddit, HN, LW, etc.)
 >   expert-verification-map.md — 20 nhóm chuyên gia, routing table
 >   framing-engagement-value.md — 3-tầng giá trị, anti-patterns
 
@@ -21,8 +21,8 @@
 ### 0.1 — Ý Tưởng Cốt Lõi
 
 ```
-CHIẾN LƯỢC HIỆN TẠI (plan-tech-distribution.md):
-  → POST nội dung framework tại các platform (Reddit, HN, Medium)
+CHIẾN LƯỢC HIỆN TẠI (plan-overview-distribution.md):
+  → POST nội dung framework tại các platform (Reddit, HN, LW, etc.)
   → = TÁC GIẢ tạo content RIÊNG → mời engage
   → = Push-based: tác giả đẩy content ra
 
@@ -258,7 +258,7 @@ NHÓM C — EDUCATION + LEARNING
   Framework leverage: Compile types, Direction > Level, Education mechanism
 
 NHÓM D — AI + TECHNOLOGY × HUMAN
-  Map tới: AI/ML expert group + tech audience (plan-tech-distribution.md)
+  Map tới: AI/ML expert group + tech audience (plan-overview-distribution.md)
   Ví dụ kênh:
     → Two Minute Papers — AI research
     → Yannic Kilcher — ML paper reviews
@@ -418,7 +418,7 @@ BIẾN THỂ C — QUESTION (đặt câu hỏi mở):
   → Ưu điểm: reach, discussion
   → Nhược: chìm sau 48h
 
-TẤT CẢ ĐỀU LINK VỀ GITHUB REPO (hub-and-spoke, plan-tech-distribution.md §4).
+TẤT CẢ ĐỀU LINK VỀ GITHUB REPO (hub-and-spoke, github-infrastructure.md).
 ```
 
 ### 4.2 — Cấu Trúc Deep Analysis (~500-2000 chữ)
@@ -524,7 +524,7 @@ TỪ framing-engagement-value.md:
   → Tầng 2 (verification contribution) = HIỆN — "does this match?"
   → Counter-evidence > confirmation — "where does this break?"
 
-TỪ plan-tech-distribution.md §5.3:
+TỪ plan-overview-distribution.md §4:
   → Welcome challenges — "Good point. Here's the evidence."
   → Honest gaps — "We don't know. That's a genuine gap."
   → Update if falsified — credit challenger
@@ -685,7 +685,7 @@ KHÔNG CẦN:
   │   = Leverage existing audience                                  │
   │   = Pull-based (audience tự chọn engage)                       │
   ├──────────────────────────────────────────────────────────────────┤
-  │ plan-tech-distribution.md                                       │
+  │ plan-overview-distribution.md                                    │
   │   = CHIẾN LƯỢC TẠO nội dung mới tại platforms                  │
   │   = Build audience qua content riêng                            │
   │   = Push-based (tác giả đẩy content ra)                        │
@@ -705,7 +705,7 @@ KHÔNG CẦN:
 
 THỨ TỰ THỰC HIỆN (cả 2 plan có thể chạy song song):
   → plan-content-engagement.md (file này) — bắt đầu NGAY (low barrier)
-  → plan-tech-distribution.md — bắt đầu khi prerequisites ready
+  → plan-overview-distribution.md — bắt đầu khi prerequisites ready
   → Cả 2 dẫn về CÙNG GitHub repo (convergence)
 
 ⚠️ QUAN TRỌNG:
