@@ -1,12 +1,11 @@
 # Human Predictive Drive
 
-> How does the body-brain system actually work?  
-> Why do you sometimes know exactly what you should do — but can't make yourself start?  
-> How do the people around you shape your behavior — without anyone planning it?  
-> Why do near-human-face robots feel unsettling while cartoon characters don't?  
->
 > This framework bridges neuroscience, psychology, and evolutionary biology
 > into a unified conceptual architecture — from individual behavior to collective patterns.
+>
+> How does the body-brain system actually work?  
+> How do the people around you shape your behavior — without anyone planning it?  
+> Why do near-human-face robots feel unsettling while cartoon characters don't?
 
 ---
 
@@ -32,30 +31,36 @@
 
 5. **Ask any question** — the AI will use the framework to answer
 
-**Want to go deeper?** The 8-file setup covers the foundation.
-For a complete reading progression (55 core files across 6 tiers),
-see [`Reading-Roadmap.md`](Reading-Roadmap.md).
-
 **Why is step 4 necessary?** AI prioritizes the prompt over dropped files.  
 Without an explicit prompt → AI skims files → answers from mainstream knowledge → likely wrong
-at ~20 positions where this framework diverges from mainstream (dopamine, cortisol, willpower, ...).
-An explicit "read these 8 files" prompt → AI fully loads mechanisms + danger zones.  
-"📖 Read:" forces AI to declare files read before EVERY answer — not just the first time.
+at ~20 positions where this framework diverges from mainstream (dopamine, cortisol, willpower, ...).  
+An explicit "read these 8 files" prompt → AI fully loads mechanisms + danger zones.
+Start with "📖 Read: [files]" forces AI to declare files read before EVERY answer — not just the first time.
 
 **Example questions (from step 5):**
-- "Why do I keep procrastinating?"
+- "Why do I sometimes know exactly what I should do — but can't make myself start?"
 - "My 3-year-old throws tantrums — what mechanism is at play?"
-- "Why can't I stop scrolling my phone even though I know I'm wasting time?"
 - "Why do I still miss someone who treated me badly?"
-- "Why does criticism hurt more than praise feels good?"
+- "Why can't I stop scrolling my phone even though I know I'm wasting time?"
+- "Why does one negative comment affect me more than ten positive ones?"
+
+**Or explore the framework itself:**
+- "Why does this framework say dopamine is not a reward chemical?"
+- "What is the two-system architecture (PFC vs body-base) and why does it matter?"
+- "How do collective behaviors emerge from individual brain mechanisms?"
 
 > **Note:** All AI output = hypothesis, not truth.
-> Verify in 2 steps:
-> (1) Does it feel right to you? (often reliable, but not infallible)
-> (2) Does reality confirm it? (this is the final check)
+> Verify in 2 steps:  
+> (1) Does it feel right to you? (often reliable, but not infallible)  
+> (2) Does reality confirm it? (this is the final check)  
 > ⚠️ AI can make a wrong idea sound very convincing
 > → you feel it's right → but real-world results are the final judge.
 > Details: [`Ask-AI.md`](Ask-AI.md) §6.1.
+
+**Want to go deeper?** The 8-file setup covers the foundation.  
+For a complete reading progression (55 core files across 6 tiers),
+see [`Reading-Roadmap.md`](Reading-Roadmap.md).  
+Or browse all files interactively: [www.bodybrainsystem.com/map-view](https://bodybrainsystem.com/map-view/)
 
 ---
 
@@ -69,9 +74,8 @@ The body-brain system is described through 2 mechanism maps + an AI interface:
 | Software Map | HOW it RUNS | Framework researcher | [Core-Software.md](Core-Software.md) |
 | Interface | OBSERVE + INTERACT | Everyone | AI generates via [Ask-AI.md](Ask-AI.md) |
 
-Think of it like a computer: circuit diagram / code architecture / AI-assisted usage.
+Think of it like a computer: circuit diagram / code architecture / AI-assisted usage.  
 AI serves as a dynamic interface — adapting explanations to each person's level of understanding.  
-Or browse all files interactively: [www.bodybrainsystem.com/map-view](https://bodybrainsystem.com/map-view/)
 
 ### Folder Structure
 
@@ -86,7 +90,7 @@ Human-Predictive-Drive/
 │
 ├── Core-Deep-Dive/                — Deep analysis of each mechanism
 │   ├── 01-File-Index.md           — Full file index
-│   ├── Observation/               — 16 files: Novelty, Threat, Connection, Meaning, Empathy...
+│   ├── Observation/               — 16 files: Novelty, Threat, Connection, Status, Empathy...
 │   ├── Body-Base/                 — Chunk, Feeling, Body-Feedback, Schema, Melody Lens
 │   ├── PFC/                       — PFC Function/Hardware/Operations, Logic-Feeling, Imagination
 │   ├── Collective/                — Collective dynamics, coordination, compliance
@@ -97,8 +101,8 @@ Human-Predictive-Drive/
 │   ├── 01-File-Index.md           — Full file index
 │   ├── Human-Learning/            — Child development + Education mechanisms
 │   ├── Global/                    — AI-Self-Model, Human-AI Future, Social-Calibration,
-│   │                                Uncanny-Valley, Birth-Rate Decline
-│   ├── Health-Conditions/         — OCD, PTSD, Addiction, Alcohol
+│   │                                Uncanny-Valley, Birth-Rate Decline, Innovation-Geography
+│   ├── Health-Conditions/         — ADHD, Autism, OCD, PTSD, Addiction, Alzheimer, Parkinson
 │   ├── Melody-Technology/         — Religion, idol phenomenon
 │   ├── Meta-Impact/               — Framework predicts its own impact
 │   ├── Quote-Analysis/            — Mechanism analysis of famous quotes
@@ -106,7 +110,7 @@ Human-Predictive-Drive/
 │
 └── Applications/                  — Concrete applications per domain
     ├── 01-File-Index.md           — Full file index
-    └── Education/                 — Education system + country case studies
+    └── Education-System/           — Education system + country case studies
 ```
 
 ---
@@ -117,10 +121,9 @@ This framework describes foundational mechanisms — applicable across many doma
 
 - **Self-understanding** — why you react, feel, and decide the way you do
 - **Parenting** — how a child's brain develops from prenatal to adulthood
-- **Education** — designing learning based on how the brain actually receives information
-- **Relationships** — connection, empathy, obligation, love through a mechanism lens
-- **HR / Management** — evaluation and leadership grounded in actual behavior
-- **Research** — extensions into OCD, climate cognition, sensitivity, psychometrics, ...
+- **Learning & Education** — how the brain actually receives, compiles, and retains information
+- **Relationships** — how connection, attachment, and conflict work at the mechanism level
+- **Research** — applied analysis across health conditions, social dynamics, human-AI interaction, and more
 
 ---
 
@@ -151,7 +154,7 @@ Details: see [`Ask-AI.md`](Ask-AI.md) §3.
 
 ---
 
-## Contribute
+## Participate
 
 This framework is a hypothesis — not established science.
 It connects well-supported findings into a unified model,
@@ -159,21 +162,10 @@ but the connections themselves are new and unvalidated.
 
 **Why this matters:**
 
-We built the most powerful external tool in history — AI.
-Now we need to understand the internal system that wields it.
+We built AI — the most powerful tool in history.  
+To use it well, we need to understand how our own brain actually works.
 
-1. **Old calibration systems are shifting.**
-   For hundreds of thousands of years, society auto-calibrated individuals
-   through functions like direction, push, pull, repair, check, identity,
-   and connection. Modernity, technology, and AI are putting pressure on
-   these functions — and old carriers (religion, guilds, village communities)
-   are declining faster than new ones mature.
-   Collective calibration will re-emerge (it's an architectural requirement
-   of the human brain) — but during the transition gap, understanding
-   our own mechanisms helps navigate the mismatch.
-   → Deep analysis: [`Social-Calibration.md`](Research/Global/Social-Calibration.md)
-
-2. **AI amplifies whatever self-model we operate on.**
+1. **AI amplifies whatever self-model we operate on.**
    Wrong model + AI = amplified mistakes.
    Right model + AI = amplified growth.
    As technology moves closer to the body (brain-computer interfaces,
@@ -181,24 +173,27 @@ Now we need to understand the internal system that wields it.
    becomes essential.
    → Deep analysis: [`AI-Self-Model.md`](Research/Global/AI-Self-Model.md)
 
-3. **We need to evolve intentionally.**
-   Before AI, society pushed adaptation through competition and norms.
-   In the AI era, we increasingly drive our own growth —
-   which requires knowing how motivation, learning, and behavior
-   actually work, not folk models ("just try harder", "dopamine = reward").
-   → Deep analysis: [`Human-AI-Future.md`](Research/Global/Human-AI-Future.md)
-
-If the framework is largely correct, it provides a mechanism-based compass
-for this self-understanding. If parts are wrong, finding them early
-benefits everyone. We all gain from knowing which parts hold up.
+2. **The systems that used to calibrate us are shifting.**
+   For hundreds of thousands of years, society auto-calibrated individuals
+   through functions like direction, push, repair, identity, and connection —
+   old carriers (religion, guilds, village communities) handled this automatically.
+   Modernity, technology, and AI are putting pressure on these functions.
+   Collective calibration will re-emerge (it's an architectural requirement
+   of the human brain) — but during the transition, we increasingly need
+   to drive our own growth, which requires understanding how motivation,
+   learning, and behavior actually work — not folk models
+   ("just try harder", "dopamine = reward").
+   → Deep analysis: [`Social-Calibration.md`](Research/Global/Social-Calibration.md),
+   [`Human-AI-Future.md`](Research/Global/Human-AI-Future.md)
 
 **Current stage: Verify or Falsify.**
 
 The framework needs critical examination, not adoption.
 Challenge the mechanisms. Test the predictions. Find what breaks.
-Every falsification = progress. Every verification = confidence.
+Verification builds confidence. Falsification catches mistakes early.
+Either way — we gain from knowing which parts hold up.
 
-**How you can participate (by current impact):**
+**How you can participate (by expertise):**
 
 ① **Neuroscience researcher** — Verify the biological mechanisms.
    Do the claimed pathways hold up? Where does the evidence diverge?
@@ -208,8 +203,10 @@ Every falsification = progress. Every verification = confidence.
 
 ② **Psychologist / Therapist** — Test the behavioral predictions.
    Do the patterns match clinical observation?
-   Key prediction: "knowing but not doing" = two-system architecture
+   Key predictions: "knowing but not doing" = two-system architecture
    (PFC ≠ compiled body-base), not willpower failure.
+   "Cognitive distortion" reframed as two systems with different conclusions,
+   both internally logical.
 
 ③ **Philosopher of Science** — Evaluate the epistemological position.
    Are the claims properly falsifiable?
@@ -229,18 +226,16 @@ Every falsification = progress. Every verification = confidence.
 
 **Recommended AI:** Large-context models (1M+ context preferred) for accuracy.
 
-**Language:** Vietnamese as primary language + English technical terminology.
-
-**Scale:** 200+ analysis files, version 7.8 (2026).
-
 **Privacy:** This framework is entirely text — no software, no code execution,
-no data collection or storage of any kind.
+no data collection or storage of any kind.  
 However, when you use AI to ask personal questions,
 your data is processed by the AI service you choose.
 Use reputable AI services and review their privacy policies.
 
 **License:** [CC0 1.0 — Public Domain.](LICENSE)
 Use, share, adapt freely. No permission needed. No credit required.
+
+**Scale:** 200+ analysis files, version 8.0 (2026).
 
 **Built with:** Claude Opus 4.6 (1M context)
 
