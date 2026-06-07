@@ -1,9 +1,17 @@
 ---
 title: Entity-Access — Gradient Model of Predictive Access-Relationships
-version: 1.2
+version: 1.3
 created: 2026-05-22
-updated: 2026-05-22
-status: MECHANISM v1.2
+updated: 2026-06-05
+status: MECHANISM v1.3
+changes_v1.3: |
+  §3.3 NEW: Trajectory Mechanism — Novelty Shift Hardware → Compilable
+    + Novelty ⑤ shift principle (general trajectory for all starting modes)
+    + 3-mechanism stuck model (gap landscape expand + schema overlay C+D + ⑤ = 0)
+    + "Làm bạn" solution table (Source ② remains + ⑤ shift to compilable)
+  §11 updated: +2 🟡 framework synthesis claims (v1.3)
+  §12 updated: +Drill-Agent-Feed-Channel v2.2 §4 as drill source
+  Frontmatter: version 1.3, updated date, sources updated
 changes_v1.2: |
   §8 trimmed: calibration detail → Entity-Access-Calibration.md v1.0 (new companion file)
   §8.1-§8.5 headers: added cross-ref pointers to Entity-Access-Calibration sections
@@ -32,17 +40,17 @@ position: |
   Entity-Compiled.md = deep mechanism (HOW brain compiles agent).
   Entity-Access.md (FILE NÀY) = gradient model (HOW access level changes, quality, excess, calibration).
 dependencies:
-  - Entity-Compiled.md v1.0 — PREREQUISITE: brain compile agent vào body-base
-  - Simulation-Engine.md v1.0 — FOUNDATION: 1 engine, 3 components, Tool↔Agent
-  - PFC-Operations.md v1.0 — FOUNDATION: Hold/Suppress, Compiled/Fresh, Fresh processing universal
-  - Valence-Propagation.md v2.0 §3 — DEFINES Entity-Compiled + 3 subtypes
-  - Body-Feedback-Mechanism.md v2.0 §3.3c — FOUNDATION: Gap→Miss baseline
-  - Self-Pattern-Modeling.md v3.0 — Compiled/Fresh mechanism, Self-Pattern-Modeling as Simulation-Engine application
-  - By-Product-Gap-Resonance.md v1.0 — mutual phenomenon, resonance
-  - Connection.md v4.0 §3 — 3 Generative Primitives, 2-tầng/2-luồng
-  - Body-Coupling.md v2.0 — coupling mechanism
+  - Entity-Compiled.md v1.2 — PREREQUISITE: brain compile agent vào body-base
+  - Simulation-Engine.md v1.2 — FOUNDATION: 1 engine, 3 components, Tool↔Agent
+  - PFC-Operations.md v1.2 — FOUNDATION: Hold/Suppress, Compiled/Fresh, Fresh processing universal
+  - Entity-Valence-Dynamics.md v1.3 §2 — Entity-Compiled concept + 3 subtypes
+  - Body-Feedback-Mechanism.md v2.1 §3.3c — FOUNDATION: Gap→Miss baseline
+  - Self-Pattern-Modeling.md v3.2 — Compiled/Fresh mechanism, Self-Pattern-Modeling as Simulation-Engine application
+  - By-Product-Gap-Resonance.md v1.4 — mutual phenomenon, resonance
+  - Connection.md v5.0 §3 — 3 Generative Primitives, 2-tầng/2-luồng
+  - Body-Coupling.md v3.1 — coupling mechanism
   - Gap-Body-Need.md v2.0 — gap landscape, satiation types, ENGINE/ROAD/VEHICLE
-  - Resonance-Entity.md v2.0 — hardware-subsidy, Hardwired:Compilable Architecture
+  - Resonance-Per-Entity.md v1.1 — hardware-subsidy, Hardwired:Compilable Architecture
   - Compiled-Fresh.md v2.0 — compiled quality, Fresh processing, reversal
   - Reward-Calibration.md v1.1 — Goldilocks, cannot prescribe
   - Logic-Feeling-Balance.md v1.0 — infinite regress, domain feedback only
@@ -52,6 +60,7 @@ sources:
   - Drill-Entity-Access v1.1 (1,881L, 35 insights, 32 citations)
   - Drill-Entity-Access-Excess v2.0 (1,740L, 36 insights, 50 citations)
   - Drill-Entity-Access-Calibration v2.0 (1,159L, 20 insights, 25 citations)
+  - Drill-Agent-Feed-Channel v2.2 §4 — trajectory principle + novelty shift mechanism (v1.3 source)
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -228,7 +237,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       Compound: mix → RESILIENT (losing 1 layer ≠ losing all)
 
   🟡 Gap-Need Profile unified = framework synthesis (v1.0)
-  🟢 Gap sources: Gap-Body-Need.md v2.0, Resonance-Entity.md v2.0
+  🟢 Gap sources: Gap-Body-Need.md v2.0, Resonance-Per-Entity.md v1.1
 ```
 
 ### §1.3 — Factor 3: Access Confidence (CAN I access?)
@@ -500,15 +509,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   SUMMARY TABLE:
 
-    ┌──────────┬────────────┬──────────┬──────────────┬──────────────────┐
-    │ Mode     │ Khởi nguồn │ Gap ban  │ Healthy      │ Pathological     │
-    │          │            │ đầu      │ trajectory   │ trajectory       │
-    ├──────────┼────────────┼──────────┼──────────────┼──────────────────┤
-    │ Hardware │ Biology    │ A dominant   │ A+B grows    │ Stuck A+C        │
-    │ Limerence│ Hormone    │ A inflat.│ A→B replaces │ A→C fills void   │
-    │ Interact.│ By-product │ B start  │ B stays (✅) │ C shift (rare)   │
-    │ Schema   │ Cultural   │ D dominant   │ D + B grows  │ Stuck D only     │
-    └──────────┴────────────┴──────────┴──────────────┴──────────────────┘
+    ┌─────────────┬────────────┬────────────┬──────────────┬──────────────────┐
+    │ Mode        │ Khởi nguồn │ Gap ban đầu│ Healthy      │ Pathological     │
+    │             │            │            │ trajectory   │ trajectory       │
+    ├─────────────┼────────────┼────────────┼──────────────┼──────────────────┤
+    │ Hardware    │ Biology    │ A dominant │ A+B grows    │ Stuck A+C        │
+    │ Limerence   │ Hormone    │ A inflated │ A→B replaces │ A→C fills void   │
+    │ Interaction │ By-product │ B start    │ B stays (✅) │ C shift (rare)   │
+    │ Schema      │ Cultural   │ D dominant │ D + B grows  │ Stuck D only     │
+    └─────────────┴────────────┴────────────┴──────────────┴──────────────────┘
 
   RESEARCH SUPPORT:
     🟢 Baumrind 1966/1991: Authoritative (responsive+demand) > Permissive
@@ -517,6 +526,90 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Deci & Ryan 2000: SDT — autonomy support + structure = optimal
 
   🟡 Compilable-dominant = optimal destination = framework synthesis (v1.0)
+```
+
+### §3.3 — Trajectory Mechanism: Novelty Shift Hardware → Compilable ★ NEW v1.3
+
+```
+⭐⭐⭐ TẠI SAO CONVERGE VỀ B-DOMINANT? — MECHANISM:
+
+  §3.2 nói B-dominant = destination. Section NÀY giải thích MECHANISM tại sao.
+
+  NOVELTY (⑤) SHIFT: HARDWARE-END → COMPILABLE-END:
+
+    Gap-Body-Need v2.0 §4.2: Novelty = MECHANISM cross-source (VTA prediction-delta).
+    ⑤ fire cho BẤT KỲ gap có actual > predicted = delta > 0.
+
+    TRAJECTORY trên phổ Hardware ←→ Collective-Arc:
+      BAN ĐẦU: ⑤ fire ON hardware sources (con biết đi, biết nói = delta on ②③)
+      DẦN: hardware milestones HẾT → ⑤ CẦN fire ON compilable domain
+      SHIFT: con có ý kiến riêng, khám phá thế giới = delta ON shared compiled chunks
+      = ⑤ vẫn CÙNG mechanism (VTA prediction-delta), KHÁC target
+
+    ⭐ GENERAL PRINCIPLE (apply tất cả starting modes):
+
+      Hardware (mẹ→con): ⑤ shift từ ②③ milestones → compilable domain
+      Limerence (romantic): ⑤ shift từ ① inflated → compilable shared interest
+      Interaction (bạn): ⑤ ALREADY on compilable (purest case — §3.1 Mode 3)
+      Schema (đồng nghiệp): ⑤ shift từ D-context → genuine shared domain
+      → ALL trajectories = ⑤ migration toward compilable-end
+      → B-dominant = destination WHERE ⑤ sustains organically
+
+
+  TẠI SAO STUCK A+C (mẹ→con deep dive — applies analogously to other modes):
+
+    3 CƠ CHẾ ĐỒNG THỜI:
+
+    ① GAP LANDSCAPE EXPAND:
+      Con nhỏ: mẹ's total gaps = HẸP → Source ② fill = LỚN proportion
+      Con lớn: mẹ's gap landscape EXPANDS (career, social, domain)
+      Source ② = SAME absolute, SMALLER proportion
+      → Gap-Body-Need v2.0 §7.2: "Entity-Access giảm theo tuổi ≠ bớt thương"
+      → ② KHÔNG giảm — tổng gaps TĂNG → tỷ lệ ② GIẢM
+
+    ② SCHEMA OVERLAY C+D:
+      Cultural schema: "con giỏi = mẹ thành công" = Gap Source D install
+      D overlay → tạo gap MỚI: "con phải giỏi" → entity autonomy VIOLATED
+      → Entity-Access §4.2: C = self-referential, D = schema-installed
+      → KHÔNG PHẢI ② habituate — là THÊM gap C+D overlay vào landscape
+
+    ③ NOVELTY ⑤ = 0 (pathological):
+      Mẹ control outcome → predict HOÀN HẢO (vì mẹ DEFINE outcome)
+      → VTA prediction-delta = 0 (actual = expected, vì expected = controlled)
+      → ⑤ = 0 → Generative dynamics CHẾT
+      → "Chán" dù ② VẪN fire → cần ÉP THÊM → loop
+      → = §6.2: excess → Self-Pattern-Modeling atrophy cycle (same mechanism)
+
+    COMPOUND: ① + ② + ③ đồng thời → STUCK trajectory:
+      ② proportion ↓ + C+D overlay + ⑤ = 0
+      → Mẹ ESCALATE control → con's autonomy ↓ → ⑤ ↓↓ → pathological spiral
+
+
+  "LÀM BẠN" SOLVES — CONNECTS §3.2 TABLE TO MECHANISM:
+
+    ┌────────────────────┬──────────────────────────────────────────┐
+    │ Component          │ "Làm bạn với con" = WHAT HAPPENS        │
+    ├────────────────────┼──────────────────────────────────────────┤
+    │ Source ② (hardware)│ REMAINS = hardware base (anti-habituate)│
+    │ Gap Source (A:B)   │ A stays + B GROWS (by-product organic)  │
+    │ ⑤ Novelty SHIFT    │ Hardware milestones → compilable domain  │
+    │ Con's autonomy     │ INTACT → con grow GENUINE → ⑤ sustained │
+    │ Generative dynamics│ ALIVE → new by-products → new delta     │
+    └────────────────────┴──────────────────────────────────────────┘
+
+    "Làm bạn" = Source ② remains + ⑤ shift to compilable = healthy trajectory
+    = §3.2 MECHANISM: Hardware (A) → A stays base + B GROWS
+
+    LIMERENCE ANALOG: hormone fades → ① weakens → ⑤ cần shift to compilable
+      Genuine B develops → ⑤ ON shared interest → "bạn đời" → SUSTAINED
+      No B → ⑤ = 0 → C fills void → "em phải ở đây" → excess trajectory
+
+  🟡 Novelty shift Hardware → Compilable = framework synthesis (v1.3)
+  🟡 3-mechanism stuck model (landscape + schema + ⑤=0) = framework synthesis (v1.3)
+  🟢 Gap landscape expansion: Gap-Body-Need v2.0 §7.2
+  🟢 Novelty = cross-source mechanism: Gap-Body-Need v2.0 §4.2
+  🟢 Schema overlay: §4.2 + Baumrind 1966 (R20)
+  🟢 Autonomy support: Deci & Ryan 2000 (R21)
 ```
 
 ---
@@ -540,7 +633,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Behavioral expectation = ZERO/MINIMAL. Entity's autonomy = INTACT.
     VD bạn: "Bạn kể chuyện công việc → tôi thấy hay" (by-product of bạn's genuine interest)
     VD mẹ→con: "Con nói từ mới → mẹ ngạc nhiên vui" (con learn, không phải "làm cho mẹ")
-    🟢 By-Product-Gap-Resonance.md, Resonance-Entity.md v2.0
+    🟢 By-Product-Gap-Resonance.md, Resonance-Per-Entity.md v1.1
 
   C — SELF-REFERENTIAL (entity phục vụ MY gap direction):
     MY gap projected ONTO entity. Entity phải LÀM THEO Ý TÔI.
@@ -618,34 +711,39 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐ PER-ENTITY OVERVIEW (all dimensions integrated):
 
-  ┌──────────┬───────┬──────────┬────────┬────────┬──────────┬──────────┐
-  │          │ Start │ Gap domain │ Hardware     │ Satiation   │ Gradient │ Healthy  │
-  │          │ Mode  │ A:B:C:D  │ Subsidy│ Type   │ Mức      │ trajec.  │
-  ├──────────┼───────┼──────────┼────────┼────────┼──────────┼──────────┤
-  │ Mẹ→con  │ Hardware    │ A+B+C/D  │ MAX    │ Tonic+ │ 4-5      │ A+B ↑   │
-  │          │       │ compound │(OT)    │ Gen+Cyc│ (hardware skip)│ C ↓     │
-  ├──────────┼───────┼──────────┼────────┼────────┼──────────┼──────────┤
-  │ Con→mẹ  │ Hardware    │ A(mod)+B │ MOD    │ Cyc+   │ 4 → ↓   │ B ↑     │
-  │          │ hybrid│ →B dominant  │(attach)│ Tonic  │ (lifecyc)│ niche   │
-  ├──────────┼───────┼──────────┼────────┼────────┼──────────┼──────────┤
-  │ Bạn thân │ Inter │ B dominant   │ NONE   │ Gen+   │ 3        │ B stays │
-  │          │ action│          │        │ Tonic  │ (fragile)│ (✅ opt.)│
-  ├──────────┼───────┼──────────┼────────┼────────┼──────────┼──────────┤
-  │ Romantic │ Limer.│ A inflate│ TEMP→  │ Tonic+ │ 4        │ A→B     │
-  │ (early)  │ or Int│ →reveal  │ LOW    │ Gen    │ (volatile│ replaces │
-  ├──────────┼───────┼──────────┼────────┼────────┼──────────┼──────────┤
-  │ Romantic │ —     │ B+C/D var│ LOW    │ Tonic+ │ 4        │ B dominant  │
-  │ (long)   │       │          │(vestige│ Gen    │ (stable) │ "bạn đời"│
-  ├──────────┼───────┼──────────┼────────┼────────┼──────────┼──────────┤
-  │ Profess. │Schema │ D+B part │ NONE   │ Cyc    │ 2-3      │ D+B ↑   │
-  │          │       │          │        │        │          │ "bạn đ.n"│
-  ├──────────┼───────┼──────────┼────────┼────────┼──────────┼──────────┤
-  │ Barista  │ Inter │ B(narrow)│ NONE   │ Cyc    │ 1-2      │ UNLABELED│
-  │ /hàng xóm│action│          │        │        │ (fuzzy)  │ nhưng có │
-  ├──────────┼───────┼──────────┼────────┼────────┼──────────┼──────────┤
-  │ Service  │ —     │ —        │ NONE   │ —      │ 0b       │ Tool-mode│
-  │ (bưu tá) │      │          │        │        │ (none)   │ = no Entity-Access  │
-  └──────────┴───────┴──────────┴────────┴────────┴──────────┴──────────┘
+  ┌──────────────┬─────────────┬────────────┬────────────┬──────────────┬──────────┬────────────────┐
+  │              │ Start       │ Gap        │ Hardware   │ Satiation    │ Gradient │ Healthy        │
+  │              │ Mode        │ A:B:C:D    │ Subsidy    │ Type         │ Mức      │ trajectory     │
+  ├──────────────┼─────────────┼────────────┼────────────┼──────────────┼──────────┼────────────────┤
+  │ Mẹ→con      │ Hardware    │ A+B+C/D   │ MAXIMUM    │ Tonic+       │ 4-5      │ A+B ↑          │
+  │              │             │ compound   │ (oxytocin) │ Generative   │(hardware │ C ↓            │
+  │              │             │            │            │ +Cyclic      │ skip)    │                │
+  ├──────────────┼─────────────┼────────────┼────────────┼──────────────┼──────────┼────────────────┤
+  │ Con→mẹ      │ Hardware    │ A moderate │ MODERATE   │ Cyclic+      │ 4 → ↓   │ B ↑            │
+  │              │ hybrid      │ +B →B      │(attachment)│ Tonic        │(lifecycle│ niche          │
+  │              │             │ dominant   │            │              │)         │                │
+  ├──────────────┼─────────────┼────────────┼────────────┼──────────────┼──────────┼────────────────┤
+  │ Bạn thân    │ Interaction │ B dominant │ NONE       │ Generative+  │ 3        │ B stays        │
+  │              │             │            │            │ Tonic        │(fragile) │ (✅ optimal)   │
+  ├──────────────┼─────────────┼────────────┼────────────┼──────────────┼──────────┼────────────────┤
+  │ Romantic     │ Limerence   │ A inflated │ TEMPORARY  │ Tonic+       │ 4        │ A→B            │
+  │ (early)      │ or Inter-   │ →reveal    │ → LOW      │ Generative   │(volatile)│ replaces       │
+  │              │ action      │            │            │              │          │                │
+  ├──────────────┼─────────────┼────────────┼────────────┼──────────────┼──────────┼────────────────┤
+  │ Romantic     │ —           │ B+C/D var  │ LOW        │ Tonic+       │ 4        │ B dominant     │
+  │ (long)       │             │            │ (vestige)  │ Generative   │(stable)  │ "bạn đời"     │
+  ├──────────────┼─────────────┼────────────┼────────────┼──────────────┼──────────┼────────────────┤
+  │ Professional │ Schema      │ D+B        │ NONE       │ Cyclic       │ 2-3      │ D+B ↑          │
+  │              │             │ partial    │            │              │          │ "bạn đồng      │
+  │              │             │            │            │              │          │ nghiệp"        │
+  ├──────────────┼─────────────┼────────────┼────────────┼──────────────┼──────────┼────────────────┤
+  │ Barista/     │ Interaction │ B(narrow)  │ NONE       │ Cyclic       │ 1-2      │ UNLABELED      │
+  │ hàng xóm    │             │            │            │              │(fuzzy)   │ nhưng có       │
+  ├──────────────┼─────────────┼────────────┼────────────┼──────────────┼──────────┼────────────────┤
+  │ Service      │ —           │ —          │ NONE       │ —            │ 0b       │ Tool-mode      │
+  │ (bưu tá)    │             │            │            │              │(none)    │ = no Entity-   │
+  │              │             │            │            │              │          │ Access         │
+  └──────────────┴─────────────┴────────────┴────────────┴──────────────┴──────────┴────────────────┘
 
   🟡 Per-entity integration table = framework synthesis (v1.0)
 ```
@@ -691,7 +789,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Mẹ mất: Entity-Compiled deep VẪN → entity-access → 0 → GRIEF DEVASTATING (phantom firing)
 
   🟡 Per-entity observations = framework synthesis (v1.0)
-  🟢 Hardware-subsidy: Resonance-Entity.md v2.0 §2
+  🟢 Hardware-subsidy: Resonance-Per-Entity.md v1.1 §2
   🟢 Friend decay: Roberts & Dunbar 2011
 ```
 
@@ -1333,6 +1431,8 @@ KEY MECHANISMS (summary — chi tiết tại Entity-Access-Calibration.md):
   3 cultural-economic models — ★
   3 origins of excess (hardware + trauma + schema) — ★★
   Cannot prescribe applied to entity-access — ★
+  Novelty shift Hardware → Compilable (trajectory mechanism) — ★★★ (v1.3)
+  3-mechanism stuck model (landscape + schema + ⑤=0) — ★★ (v1.3)
 
 ═══════════════════════════════════════
 🔴 HYPOTHESIS (testable but unverified):
@@ -1364,28 +1464,29 @@ CÁI FRAMEWORK THÊM vs CÁI ĐÃ CÓ:
 |------|----------|-------------|
 | Entity-Access-Excess.md v1.0 | §0-§13 | DETAIL: excess territory Mức 5 (tách từ §6+§7) |
 | Entity-Access-Calibration.md v1.0 | §0-§15 | DETAIL: calibration mechanism (tách từ §8) |
-| Entity-Compiled.md v1.0 | §1-§10 | PREREQUISITE: brain compile agent vào body-base |
-| Simulation-Engine.md v1.0 | §1, §3, §9, §11 | FOUNDATION: engine, components, reflection/rumination |
-| PFC-Operations.md v1.0 | §1-§7 | FOUNDATION: Hold/Suppress, Compiled/Fresh, PFC universal |
-| Valence-Propagation.md v2.0 | §3 | FOUNDATION: Entity-Compiled definition + 3 subtypes |
-| Body-Feedback-Mechanism.md v2.0 | §3.3c | FOUNDATION: Gap→Miss baseline mechanism |
-| Self-Pattern-Modeling.md v3.0 | §0-§3 | FOUNDATION: Compiled/Fresh, Self-Pattern-Modeling as Simulation-Engine application |
-| By-Product-Gap-Resonance.md v1.0 | §0, §1 | COMPANION: mutual phenomenon, resonance |
-| Connection.md v4.0 | §3, §9 | COMPANION: 2-tầng/2-luồng, 2-body calibration |
+| Entity-Compiled.md v1.2 | §1-§10 | PREREQUISITE: brain compile agent vào body-base |
+| Simulation-Engine.md v1.2 | §1, §3, §9, §11 | FOUNDATION: engine, components, reflection/rumination |
+| PFC-Operations.md v1.2 | §1-§7 | FOUNDATION: Hold/Suppress, Compiled/Fresh, PFC universal |
+| Entity-Valence-Dynamics.md v1.3 | §2 | FOUNDATION: Entity-Compiled concept + 3 subtypes |
+| Body-Feedback-Mechanism.md v2.1 | §3.3c | FOUNDATION: Gap→Miss baseline mechanism |
+| Self-Pattern-Modeling.md v3.2 | §0-§3 | FOUNDATION: Compiled/Fresh, Self-Pattern-Modeling as Simulation-Engine application |
+| By-Product-Gap-Resonance.md v1.4 | §0, §1 | COMPANION: mutual phenomenon, resonance |
+| Connection.md v5.0 | §3, §9 | COMPANION: 2-tầng/2-luồng, 2-body calibration |
 | Compiled-Fresh.md v2.0 | §4, §6, §9, §10 | FOUNDATION: quality dimension, reversal, PFC budget |
 | Reward-Calibration.md v1.1 | §1, §5 | PARALLEL: Goldilocks, cannot prescribe |
 | Logic-Feeling-Balance.md v1.0 | §6-§7 | PARALLEL: infinite regress, domain feedback only |
 | Autonomy-Hardware.md v1.1 | §2 | FOUNDATION: vmPFC + DRN, autonomy violation detection |
-| Gap-Body-Need.md v2.0 | §2, §5, §13 | FOUNDATION: gap landscape, satiation types |
-| Resonance-Entity.md v2.0 | §1, §2 | FOUNDATION: hardware-subsidy, Hardwired:Compilable Architecture |
+| Gap-Body-Need.md v2.0 | §2, §5, §7.2, §4.2, §13 | FOUNDATION: gap landscape, satiation types, lifecycle shift, sources vs mechanisms |
+| Resonance-Per-Entity.md v1.1 | §1, §2 | FOUNDATION: hardware-subsidy, Hardwired:Compilable Architecture |
 | Gap-Distribution-Profile.md v1.0 | §8 | COMPANION: portfolio risk, diversification |
-| Body-Coupling.md v2.0 | §1 | COMPANION: coupling mechanism |
+| Body-Coupling.md v3.1 | §1 | COMPANION: coupling mechanism |
 | Love-Romantic.md v2.2 | §9-§11 | APPLICATION: romantic lifecycle |
 | Social-Calibration.md v1.1 | §2.5 | COMPANION: social system calibration |
 | Empathy.md v2.2 | §5 | DOWNSTREAM: burnout as calibration failure |
 | Agent-Mechanism.md v2.0 | §1-§3 | INTEGRATION HUB |
 | Ask-AI.md v3.1 | §6 | DOWNSTREAM: Dual Check as Layer 1 calibration |
 | Bond-Architecture (drill) | §2.2, §3.2 | SOURCE: gap C self-referential, gap shift |
+| Drill-Agent-Feed-Channel.md v2.2 | §4 | DRILL SOURCE: trajectory principle + novelty shift mechanism (v1.3) |
 
 ---
 

@@ -323,9 +323,13 @@
   Phase 1: PLAN                                ✅ DONE
     → plan-logic-feeling-blog.md                 ✅ CREATED
 
-  Phase 2: DRAFT BLOG                          ✅ DONE
+  Phase 2: DRAFT BLOG                          ✅ DONE (v0.2)
     → docs/_posts/2026-06-04-logic-is-not-the-opposite-of-intuition.md
-    → 4,631 words, 9 sections, Draft v0.1
+    → v0.1 (2026-06-04): 4,631 words, 9 sections
+    → v0.2 (2026-06-05): ~3,800 words, 10 sections. Rewrite:
+      +Damasio vmPFC evidence, +expert logic=compiled, +akrasia reframe,
+      +"same process, different chunks" aligned, "domain reality" precision,
+      Evans&Stanovich compressed, social proof tangent cut
 
   Phase 3: DISTRIBUTION PLAN                   ✅ DONE
     → plan-logic-feeling-distribution.md         ✅ CREATED
@@ -337,7 +341,7 @@
     → Reviewed: identity-safe, W.4 compliant, citations verified
 
   Phase 5: REVIEW + FINALIZE                   ← TIẾP THEO
-    → Blog: remove Draft v0.1 marker
+    → Blog: remove Draft v0.2 marker
     → Verify all footer links working (4 blog links + repo)
     → Final tone review per short post
     → LinkedIn article: verify word count đạt target

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "totalFiles": 237,
+    "totalFiles": 241,
     "generatedDate": "2026-06-02",
     "frameworkVersion": "v7.8",
     "layers": {
@@ -630,6 +630,20 @@
       "contentType": "drill",
       "shortDescription": "Learning cycle — creating new chunks or connections emits 3 simultaneous signals (reward + fatigue + mild dissonance) resolved through sleep consolidation",
       "fullDescription": "Formalizes H8: learning is not a discrete event but a cycle. When a new chunk forms or two chunks connect, 3 signals fire simultaneously — reward (prediction error satisfied), fatigue (metabolic cost of new synapse formation), and mild dissonance (new pattern conflicts with existing patterns until consolidated).\n\nCovers: why learning simultaneously feels rewarding and tiring, sleep-mediated consolidation mechanism (multi-pass: hippocampus → cortex + synaptic pruning + REM offline processing), how the cycle iterates until baseline shift (the new chunk becomes compiled-automatic).\n\nOriginated from the question: 'why does creating new chunks cause fatigue despite feeling good?' The answer reveals the full 3-signal architecture of every learning event."
+    },
+    {
+      "id": "core-deep-dive-body-base-chunk-drill-chunk-drill-agent-feed-channel",
+      "fileName": "Drill-Agent-Feed-Channel.md",
+      "path": "Core-Deep-Dive/Body-Base/Chunk/Drill-Chunk/Drill-Agent-Feed-Channel.md",
+      "domains": [
+        "core",
+        "neuroscience",
+        "psychology"
+      ],
+      "area": "core-foundation",
+      "contentType": "drill",
+      "shortDescription": "Agent gap-feed drill — 3-layer architecture (Layer 0 Entrainment PUSH + Layer 1 four hardware sources PULL + Layer 2 two mechanisms EVALUATE), per-entity profile, trajectory principle, Embodied-Mirror→Gap-Predict meta-process",
+      "fullDescription": "Deep drill analyzing HOW agents feed body-need gaps. Core finding: 3-LAYER ARCHITECTURE for agent-gap-feed.\n\nLayer 0 — Body-State Entrainment (PUSH): entity present → body automatically synchronizes state. Unconscious, bidirectional, proximity-dependent. Entity-Compiled amplifies but is not required. Hardware-subsidy amplifies.\n\nLayer 1 — 4 Hardware Sources (PULL): body HAS gap → entity fills. Sexual/aesthetic, Parental drive, Touch/Comfort, Safety. Each source = bounded circuit firing for 1 input type. Agent-irrelevant sources (Hunger, Temperature) become agent-relevant through COMPOUND with Touch/Comfort + Safety.\n\nLayer 2 — 2 Processing Mechanisms (EVALUATE/PREDICT): ⑤ Novelty/Prediction-delta (immediate: VTA fires when actual ≠ predicted) + ⑥ Gap-Fillability Prediction (anticipatory: Self-Pattern-Modeling predicts entity's future impact on my gaps). Both are unbounded, cross-source mechanisms — fundamentally different from bounded sources.\n\nPer-entity profile: each entity type has different primary source + mechanism weight. Friendship = mechanism-dominant (Novelty ⑤ = primary driver, all 4 hardware sources LOW). Mẹ→con = source-dominant (Parental ② primary + Novelty ⑤ auto).\n\nTrajectory principle: ALL starting modes (Hardware/Limerence/Interaction/Schema) converge toward B-dominant destination via Novelty mechanism shifting from hardware-end to compilable-end.\n\nEmbodied-Mirror→Gap-Predict: unified 2-step meta-process. Step 1 Embodied-Mirror simulates entity's current state on own circuits. Step 2 Gap-Predict predicts entity's future impact on my gaps. 3 firing patterns (Embodied-Mirror alone / Gap-Predict alone / compound). 3 pain types (hardware gap / Gap-Predict anticipatory / Embodied-Mirror simulation).\n\n9 observable signals. 8 extreme examples exposing independence and per-entity patterns. Gap body-need = INFINITE (gap = f(chunks), chunks = infinite). PROPAGATED into 5 framework files: Gap-Body-Need v2.0, Entity-Valence-Dynamics v1.3, Body-Coupling v3.1, Entity-Access v1.3, Resonance-Per-Entity v1.1."
     },
     {
       "id": "core-deep-dive-body-base-chunk-drill-chunk-drill-body-base-boundary-spectrum",

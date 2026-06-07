@@ -38,6 +38,8 @@ Key evidence the model synthesizes:
 
 The model also proposes a testable 6-step mechanism for why 47% develop comorbid anxiety: threshold filters social micro-cues → surprise threats compile → "unpredictable world" schema → chronic anticipatory worry.
 
+The model treats ADHD as one end of a continuous spectrum — polygenic (500+ loci), not binary. Clinical ADHD (~5–7%) sits at the extreme, but subclinical and ADHD-like threshold elevations follow the same mechanism. The threshold framework applies across the full range, not only to diagnosed individuals.
+
 Falsifiable: if attention training eliminates ADHD without changing receptor sensitivity, the threshold model fails.
 
 Full analysis with 50+ citations, six paradoxes resolved, and explicit limitations:
@@ -58,7 +60,7 @@ Where does the threshold model break? What evidence would convince you that ADHD
 
 "Just try harder."
 
-If you have ADHD, you've heard this thousands of times. Here's what the research shows about what that advice actually does to the brain:
+If you have ADHD — or recognize these patterns without a formal diagnosis — you've heard this thousands of times. Here's what the research shows about what that advice actually does to the brain:
 
 **Each "try harder → fail" doesn't compile harder-trying.** It compiles a pattern: [effort → not enough]. Repeat daily for years → the pattern fires automatically before every task: "I'll fail anyway." Self-esteem data confirms: ADHD self-esteem deficit increases with age, not decreases (Betancourt 2024, meta-analysis, n=11,948, effect size 0.46–0.67).
 
@@ -75,7 +77,7 @@ https://hoanispof.github.io/Human-Predictive-Drive/blog/adhd-is-not-attention-de
 
 The full framework is open-source (CC0): https://github.com/hoanispof/Human-Predictive-Drive
 
-Does the threshold model match your experience? Where does it fail?
+The model treats the threshold as a continuous spectrum — clinical ADHD at one end, subclinical and ADHD-like traits along the range. Does the threshold model match your experience, wherever you sit on that spectrum? Where does it fail?
 
 ---
 
@@ -144,7 +146,7 @@ https://hoanispof.github.io/Human-Predictive-Drive/blog/adhd-is-not-attention-de
 
 Full framework (CC0): https://github.com/hoanispof/Human-Predictive-Drive
 
-Does the threshold model match your experience as a programmer with ADHD? Where does it break?
+Does the threshold model match your experience as a programmer with ADHD or ADHD-like traits? The mechanism is a continuous spectrum — clinical, subclinical, and "I just recognize the pattern" are positions on the same axis. Where does this model break for you?
 
 ---
 

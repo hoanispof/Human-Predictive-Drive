@@ -956,7 +956,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Adult child CAN exit → signal weight ↑
       → "Con busy" = effective calibration signal
       → Parent→adult child: dynamics SHIFT toward friendship (Mức 3)
-      → = Compilable-dominant destination (Entity-Access.md §3.5): C→B trajectory
+      → = Compilable-dominant destination (Entity-Access.md §3.2+§3.3): C→B trajectory
 
   🟡 Calibration × Mức gradient = framework synthesis
   🟡 Mức 4 = critical calibration zone = framework synthesis

@@ -34,7 +34,7 @@ Three positions, not two:
 |---|---|---|
 | Pop science | "ADHD = broken attention. Fix the deficit." | Can't explain hyperfocus. Can't explain why stimulants calm. |
 | Overcorrection | "ADHD = superpower. Embrace it." | Can't explain why severe ADHD is genuinely impairing. Dismisses real suffering. |
-| **This framework** | **"ADHD = threshold tuning on a continuous spectrum. Same mechanism produces opposite behaviors depending on input. Optimize environment for hardware, don't fight hardware."** | Testable. See falsification criteria below. |
+| **This framework** | **"What's labeled 'ADHD' = threshold tuning on a continuous spectrum. Same mechanism produces opposite behaviors depending on input. Clinical, subclinical, and ADHD-like traits differ in degree, not kind. Optimize environment for hardware, don't fight hardware."** | Testable. See falsification criteria below. |
 
 **Epistemic status:** Builds on established research (Barkley, Arnsten, Sonuga-Barke, Volkow). The DRD4/DAT mechanism, executive function model, and DMN interference are settled science. The unified threshold model, the anxiety chain mechanism, and the optimization hierarchy are proposed syntheses — consistent with existing evidence but not yet experimentally validated as a unified model.
 
@@ -57,6 +57,8 @@ The standard answer is: "ADHD people can focus when they're interested." This is
 The name "Attention Deficit Hyperactivity Disorder" entered the DSM-III-R in 1987. Thirty-nine years later, it still describes the *output* (inattentive behavior) rather than the *mechanism* (a hardware parameter that gates what reaches conscious processing).
 
 This post proposes that the mechanism is a receptor sensitivity threshold — specifically, DRD4 receptor sensitivity combined with DAT clearance speed — and that this single parameter, when understood, resolves six paradoxes that the "deficit" label cannot explain.
+
+One note before the evidence: this pattern isn't exclusive to people with an ADHD diagnosis. The threshold mechanism described here is polygenic (500+ loci) and continuous — not a switch. Clinical ADHD (~5–7% of the population) sits at one end. But many people recognize these patterns without meeting diagnostic criteria — subclinical threshold elevation, or what some researchers call "ADHD-like traits." This post uses "ADHD" because it's the established research label, but the threshold mechanism applies across the full spectrum. If any of the above sounds familiar, this analysis is also about you.
 
 ---
 
@@ -255,7 +257,7 @@ This advice, given thousands of times across childhood and adolescence, does not
 
 Each instance of "try harder → fail" is small. But repeated daily for years, the pattern accumulates enormous density. It fires automatically before each new task: "I'll fail anyway." This is not personality. It is compiled from experience — and it is potentially recompilable, though the cost is high and the process is slow.
 
-Three patterns commonly accumulate in ADHD:
+Three patterns commonly accumulate in people with this threshold tuning — whether clinically diagnosed or not:
 - **[Effort → not enough]**: "I'm lazy" (actually: threshold mismatch)
 - **[Social → potential threat]**: "People will reject me" (actually: micro-cue miss → surprise rejection, repeated)
 - **[I can't finish things]**: "I'm not reliable" (actually: big-arc management without scaffolding)
@@ -264,7 +266,7 @@ Self-esteem data confirms the accumulation: Betancourt (2024, *Clinical Psycholo
 
 ### Paradox 5: Motivation Without Activation
 
-Every ADHD person knows this experience: you genuinely *want* to start the task. You know exactly what to do. You're motivated. You just... can't begin.
+Anyone with ADHD — or ADHD-like threshold tuning, diagnosed or not — knows this experience: you genuinely *want* to start the task. You know exactly what to do. You're motivated. You just... can't begin.
 
 The threshold model distinguishes two systems:
 - **Motivation** = drive signal (VTA → nucleus accumbens, mesolimbic pathway). This works normally in ADHD.
@@ -382,13 +384,13 @@ The DSM measures *behavior* — the output of all three tiers combined. When tie
 
 *This section describes what the mechanism implies, not what to do. Specific strategies require clinical expertise and individual assessment. This is mechanism → leverage hierarchy, not prescription.*
 
-If the threshold model is correct, then attempts to "fix" ADHD by changing the threshold directly (willpower, motivational talks, "just focus harder") are asking a genetic receptor to change its sensitivity. This doesn't work — and repeated failure compiles the wrong pattern (§4, Paradox 4).
+If the threshold model is correct, then attempts to "fix" ADHD — or any ADHD-like threshold difference — by changing the threshold directly (willpower, motivational talks, "just focus harder") are asking a genetic receptor to change its sensitivity. This doesn't work — and repeated failure compiles the wrong pattern (§4, Paradox 4).
 
 What the model suggests instead is a leverage hierarchy — interventions ranked by how directly they address the mechanism:
 
 **1. Domain selection** (highest leverage)
 
-Choose a domain where your natural gaps generate signals above threshold. In the right domain, the ADHD threshold becomes an advantage — noise filtered, large patterns detected, hyperfocus engaged naturally. In the wrong domain, the same threshold is a disability — nothing exceeds threshold, everything feels impossible.
+Choose a domain where your natural gaps generate signals above threshold. In the right domain, this threshold difference becomes an advantage — noise filtered, large patterns detected, hyperfocus engaged naturally. In the wrong domain, the same threshold is a disability — nothing exceeds threshold, everything feels impossible.
 
 "When do you lose track of time without trying?" — the answer points toward domains where threshold is naturally exceeded.
 
@@ -476,7 +478,7 @@ This is a mechanism model, not a clinical recommendation.
 
 **If you are a neuroscientist or psychiatrist:** The threshold model proposes specific, testable mechanisms. The 6-step anxiety chain, the compound DAT × DRD4 interaction, and the working-memory hold-duration reframe are all falsifiable. Where does the mechanism fail? What evidence contradicts the threshold model? Counter-evidence is more valuable than confirmation.
 
-**If you have ADHD or recognize yourself on the spectrum:** You have something domain experts don't — lived experience with the mechanism this model describes. Does the threshold model match what you experience? Do the six paradoxes capture your reality? Where does the model fail to explain your experience? Your lived experience is data, and it's data that cannot be generated in a lab.
+**If you have ADHD, or recognize ADHD-like traits in yourself without a formal diagnosis:** You have something domain experts don't — lived experience with the mechanism this model describes. Does the threshold model match what you experience? Do the six paradoxes capture your reality? Where does the model fail to explain your experience? Your lived experience is data — whether you carry the label or not — and it's data that cannot be generated in a lab.
 
 **If this model resonates strongly with you:** Notice that. Your body recognizing itself in this description is a prediction-delta match — the model fitting your experience. This is expected *whether the model is correct or merely well-framed*. The model predicts you would feel this way. Resonance is a starting point for investigation, not a substitute for verification.
 

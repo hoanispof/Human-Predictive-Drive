@@ -44,7 +44,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > **Chef nếm → compiled taste patterns fire → "biết" thiếu muối. Body-Knowing.**
 > **Mẹ nhìn con → compiled mirror patterns fire → "biết" con buồn. Body-Knowing.**
 >
-> CƠ CHẾ BÊN TRONG: GIỐNG HỆT. Biến số duy nhất: compiled chunks cho DOMAIN ĐÓ.
+> Cùng process: compiled chunks fire → body-direct → "biết". Khác: chunks NÀO được compiled (domain riêng).
 >
 > Body-Knowing = compiled chunks fire → body-direct response →
 > "biết mà không cần giải thích."
@@ -566,10 +566,10 @@ VÍ DỤ — BODY-KNOWING TRONG NHIỀU DOMAIN:
   🟡 Resonance = compiled Self-Pattern-Modeling library = framework synthesis
 ```
 
-### §2.4 — Cùng cơ chế, khác compiled domain
+### §2.4 — Cùng process (compiled chunks fire → body-direct), khác compiled domain
 
 ```
-⭐ 1 MECHANISM × 3 DIRECTIONS = BODY-KNOWING
+⭐ 1 PROCESS (compiled chunks fire → body-direct) × 3 DIRECTIONS = BODY-KNOWING
 
   ┌────────────────────────────────────────────────────────┐
   │                                                        │
@@ -585,8 +585,8 @@ VÍ DỤ — BODY-KNOWING TRONG NHIỀU DOMAIN:
   │  CHUNKS:       CHUNKS:        CHUNKS:                  │
   │  toán/vị/code  body-states    mirror patterns          │
   │                                                        │
-  │  ← CƠ CHẾ GIỐNG HỆT: pattern match + body-direct →   │
-  │  ← BIẾN SỐ DUY NHẤT: compiled chunks cho DOMAIN ĐÓ → │
+  │  ← CÙNG PROCESS: compiled chunks fire → body-direct →  │
+  │  ← KHÁC: chunks NÀO được compiled (domain riêng) →    │
   │                                                        │
   └────────────────────────────────────────────────────────┘
 

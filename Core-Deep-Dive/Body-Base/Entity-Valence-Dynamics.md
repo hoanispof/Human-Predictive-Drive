@@ -1,12 +1,14 @@
 ---
 title: Entity-Valence-Dynamics — Cách Valence Behaves Per-Entity Over Time
-version: 1.2
+version: 1.3
 created: 2026-05-29
 refined: |
   2026-05-29 (v1.1 — L3 RETIRE: dep Body-Base v2.1→v3.3, L0-L1-L3→L0+L1 substrate)
   2026-06-04 (v1.2 — §2.4 MECHANISM NOTE: "state = my state" = description,
     gap-fillability = mechanism. Level 1/2 distinction. Cross-ref Drill-Body-Base-Boundary-Spectrum v1.2)
-status: v1.2 — REFERENCE FILE (entity-valence dynamics)
+  2026-06-05 (v1.3 — §2.4 ENRICH: Embodied-Mirror→Gap-Predict 2-step meta-process, 3 firing patterns,
+    3 pain types, Novelty vs Gap-Fillability distinction. Source: Drill-Agent-Feed-Channel v2.2)
+status: v1.3 — REFERENCE FILE (entity-valence dynamics)
 scope: |
   HOW valence BEHAVES per-entity over time:
   Structural vs Current valence, Entity-Compiled extension,
@@ -15,32 +17,32 @@ scope: |
   Nostalgia, Per-entity trajectory + Reward-Signal-Architecture, Extreme valence (Love/Hate),
   Phantom resonance, Technology × valence frontier.
   v1.0 EXTRACTED from Valence-Propagation.md v3.0 §3-§13 + 3 Drill GAPs absorbed.
-  Companion file: Valence-Propagation.md v4.0 = WHAT valence IS + HOW it PROPAGATES.
+  Companion file: Valence-Propagation.md v4.1 = WHAT valence IS + HOW it PROPAGATES.
   This file = HOW valence BEHAVES per-entity.
 purpose: |
   Central reference for per-entity valence dynamics within the framework.
-  Builds on Valence-Propagation.md v4.0 §1-§2 (valence definition + profile).
+  Builds on Valence-Propagation.md v4.1 §1-§2 (valence definition + profile).
   Per-entity dynamics: structural/current distinction, visibility mechanism,
   firing modes, habituation, satiation interaction, mixed valence,
   "new appreciation," nostalgia, per-entity mapping, extreme valence,
   phantom resonance, technology era impact.
 dependencies:
   - Valence-Propagation.md v4.1 — companion file: WHAT valence is (§1-§2) + HOW propagates (§3-§7)
-  - Body-Base.md v3.3 — L0+L1 substrate + observation parameters mà valence đánh giá
-  - Body-Feedback-Mechanism.md v2.0 — Body-Need aggregate, chunk dynamics
-  - Entity-Compiled.md v1.0 — deep mechanism (Hub-and-Spoke, Dunbar, grief, decay)
-  - Entity-Access.md v1.0 — gradient Mức 0-5, 3-Factor Model
-  - PFC-Operations.md v1.0 — Hold/Suppress, Compiled/Fresh spectrum, PFC budget
-  - Simulation-Engine.md v1.0 — 1 engine, 3 components, 3 axes
+  - Body-Base.md v4.0 — L0+L1 substrate + observation parameters mà valence đánh giá
+  - Body-Feedback-Mechanism.md v2.1 — Body-Need aggregate, chunk dynamics
+  - Entity-Compiled.md v1.2 — deep mechanism (Hub-and-Spoke, Dunbar, grief, decay)
+  - Entity-Access.md v1.3 — gradient Mức 0-5, 3-Factor Model
+  - PFC-Operations.md v1.2 — Hold/Suppress, Compiled/Fresh spectrum, PFC budget
+  - Simulation-Engine.md v1.2 — 1 engine, 3 components, 3 axes
   - Inter-Body-Mechanism.md v1.0 — Entity-Compiled §8, 3-cost §4, By-Product Match §5
-  - Body-Coupling.md v1.1 — coupling mechanism deep-dive
-  - Connection.md v3.3 — 3 Generative Primitives, §3.3 2-luồng overview
-  - Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Simulation-Engine application 1
+  - Body-Coupling.md v3.1 — coupling mechanism deep-dive
+  - Connection.md v5.0 — 3 Generative Primitives, §3.3 2-luồng overview
+  - Self-Pattern-Modeling.md v3.2 — Compiled/Fresh, Simulation-Engine application 1
   - Agent-Mechanism.md v2.0 — integration hub, Compilable Architecture
   - Reward-Signal-Architecture.md v2.1 — Evaluative/Direct-State × valence
   - Dissonance-Signal-Architecture.md v1.0 — Hardware-Subsidy bidirectional (§6.2)
   - Gap-Body-Need.md v2.0 — Cyclic/Tonic/Generative satiation types
-  - Resonance-Entity.md v2.0 — hardware-subsidy per entity, Reward-Signal-Architecture Evaluative:Direct-State
+  - Resonance-Per-Entity.md v1.1 — hardware-subsidy per entity, Reward-Signal-Architecture Evaluative:Direct-State
   - Resonance-Sustainability.md v1.0 — 3 modalities, silence, maintenance decline
   - Boredom.md v2.0 — dissonance + Imagine-Final mờ, source ⑥, Resonance Decline
   - Body-Feedback-Label.md v2.0 — vocabulary reference
@@ -48,6 +50,7 @@ sources:
   - Drill-Entity-Valence-Dynamics v2.0 (1,436L, 28 insights, 33 citations) — PRIMARY
   - Valence-Propagation.md v3.0 §3-§13 — extracted content
   - 3 Drill GAPs absorbed: §6 (8-channel visibility), §12 (verbalization × Reward-Signal-Architecture), §14 ("chán" decomposition)
+  - Drill-Agent-Feed-Channel v2.2 — §5 Embodied-Mirror→Gap-Predict 2-step meta-process, 3 firing patterns, 3 pain types
 language: Tiếng Việt primary + English technical terms
 confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ---
@@ -70,9 +73,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > per-entity trajectory, extreme valence, phantom resonance,
 > technology × valence frontier.
 >
-> **Companion:** Valence-Propagation.md v4.0 = WHAT valence IS + HOW it PROPAGATES.
+> **Companion:** Valence-Propagation.md v4.1 = WHAT valence IS + HOW it PROPAGATES.
 > **File này** = HOW valence BEHAVES per-entity.
-> **Đọc trước:** Valence-Propagation.md v4.0 §1-§2 (valence definition + profile).
+> **Đọc trước:** Valence-Propagation.md v4.1 §1-§2 (valence definition + profile).
 
 ---
 
@@ -126,7 +129,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
   FILE NÀY TRONG FLOW:
 
-    Valence-Propagation.md v4.0 §1-§2 (WHAT valence IS: definition + profile)
+    Valence-Propagation.md v4.1 §1-§2 (WHAT valence IS: definition + profile)
          │
          ▼
     ┌─────────────────────────────────────────────────────────────┐
@@ -143,12 +146,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     └─────────────────────────────────────────────────────────────┘
          │
          ▼
-    Valence-Propagation.md v4.0 §3-§7 (HOW valence PROPAGATES: chain + cases)
+    Valence-Propagation.md v4.1 §3-§7 (HOW valence PROPAGATES: chain + cases)
     Drive.md (TỔNG HỢP valences → action)
     Feeling.md v2.0 (PFC OBSERVE valence → feeling)
 
 
-  ĐỌC FILE NÀY SAU: Valence-Propagation.md v4.0 §1-§2.
+  ĐỌC FILE NÀY SAU: Valence-Propagation.md v4.1 §1-§2.
   File này BUILDS ON definition + profile foundation từ Valence-Propagation.
 ```
 
@@ -189,7 +192,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = Thay đổi PER SECOND (context-dependent)
     = What PFC observes → what person VERBALIZES
     
-    CURRENT VALENCE "FEEL" = f(Reward-Signal-Architecture Evaluative:Direct-State ratio) (Reward-Signal-Architecture v2.0 §1):
+    CURRENT VALENCE "FEEL" = f(Reward-Signal-Architecture Evaluative:Direct-State ratio) (Reward-Signal-Architecture v2.1 §1):
       Direct-State dominant → "ấm áp, comfortable" (opioid, CT afferents)
       Evaluative dominant → "hào hứng, thú vị" (evaluative, dopamine-adjacent)
       → Mẹ ôm con: current = Direct-State dominant → "ấm"
@@ -217,16 +220,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → CÙNG structural (mixed) → KHÁC current (context activates different channels)
     
   🟡 Structural vs Current distinction + satiation type dimension = framework synthesis
-  🟢 Per-channel valence: Valence-Propagation.md v4.0 §2 (explicit "KHÔNG average")
-  🟢 Reward-Signal-Architecture Evaluative:Direct-State: Reward-Signal-Architecture v2.0 §1
+  🟢 Per-channel valence: Valence-Propagation.md v4.1 §2 (explicit "KHÔNG average")
+  🟢 Reward-Signal-Architecture Evaluative:Direct-State: Reward-Signal-Architecture v2.1 §1
 ```
 
 ---
 
 ## §2 — ENTITY-COMPILED: Body-Base Extension
 
-> Nguồn: Drill-Entity-Valence-Dynamics v2.0 + Entity-Compiled.md v1.0.
-> **Slim down**: Entity-Compiled.md v1.0 + Entity-Access.md v1.0 đã tồn tại.
+> Nguồn: Drill-Entity-Valence-Dynamics v2.0 + Entity-Compiled.md v1.2.
+> **Slim down**: Entity-Compiled.md v1.2 + Entity-Access.md v1.3 đã tồn tại.
 > §2 giữ CORE CONCEPTS + POINTER → 2 files cho deep mechanism + gradient.
 
 ```
@@ -306,7 +309,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ⭐ FILE NÀY CHỈ ĐỊNH NGHĨA + KEY CONCEPTS.
   DEEP MECHANISM VÀ GRADIENT → 2 FILES RIÊNG:
 
-  Entity-Compiled.md v1.0 (Agent-Mechanism/):
+  Entity-Compiled.md v1.2 (Agent-Mechanism/):
     = DEEP MECHANISM: neural reality, formation, capacity, dynamics, loss, decay
     → §1: 8 research streams hội tụ → Entity-Compiled = neural reality
     → §2: Hub-and-Spoke architecture + body simulation
@@ -317,7 +320,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → §8: Love↔Hate shift (|valence| depth, direction switch)
     → §9: Decay 3-layer model (episodes fastest, schema slowest)
 
-  Entity-Access.md v1.0 (Agent-Mechanism/):
+  Entity-Access.md v1.3 (Agent-Mechanism/):
     = GRADIENT MODEL: how access level changes, quality, excess, calibration
     → §1: 3-Factor Model (Engine Mode × Gap-Need × Access Confidence)
     → §2: Entity-Access Gradient Mức 0-5 (Tool → Excess)
@@ -396,14 +399,199 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Object body-schema extension: Iriki 1996, Botvinick 1998, Murray 2004
 ```
 
+### §2.4.1 — Embodied-Mirror→Gap-Predict: 2-STEP META-PROCESS
+
+> Nguồn: Drill-Agent-Feed-Channel v2.2 §5 + Entity-Compiled.md v1.2 §2.3.
+
+```
+⭐⭐ §2.4 MÔ TẢ MECHANISM: gap-fillability prediction (Gap-Predict).
+  NHƯNG: Gap-Predict KHÔNG hoạt động đơn độc.
+  Entity-Compiled §2.3 MÔ TẢ Embodied-Mirror: body simulation.
+  CÁI MỚI: Embodied-Mirror → Gap-Predict = UNIFIED 2-STEP META-PROCESS.
+
+  STEP 1 — Embodied-Mirror: EMBODIED SIMULATION (PRESENT mirroring):
+    Entity-Compiled fire → body simulate entity's CURRENT state
+    bằng OWN pain/joy circuits
+    = Entity-Compiled §2.3: "body mình = simulator cho close person"
+    = Singer 2004: ACC + anterior insula fire khi nhìn partner đau
+    Scale: Entity-Compiled depth (self > close > stranger)
+
+    Properties:
+      PRESENT-oriented: mirror entity state AS IT IS NOW
+      Automatic: fire khi Entity-Compiled activated (không cần PFC)
+      Graded: intensity = f(Entity-Compiled depth)
+      Uses OWN circuits: pain circuits CỦA TÔI simulate pain CỦA ENTITY
+
+  STEP 2 — Gap-Predict: GAP-FILLABILITY PREDICTION (ANTICIPATORY signal):
+    Entity state (từ Embodied-Mirror output HOẶC từ information trực tiếp) →
+    Self-Pattern-Modeling predict: entity fill gaps tương lai THẾ NÀO? →
+    Body generate signal:
+      Entity ổn → gaps fillable → relief, yên tâm
+      Entity threatened → gaps threatened → anxiety, lo
+    = §2.4 trên: "entity's state = my state" = compressed prediction
+    Scale: Entity-Compiled depth × gap dependency breadth
+
+  ⭐ Embodied-Mirror VÀ Gap-Predict = 2 TẦNG KHÁC NHAU:
+    Embodied-Mirror = MIRROR (body simulate entity state → feel entity's pain/joy)
+    Gap-Predict = PREDICT (entity state → predict impact on MY gaps → feel MY concern)
+
+    Embodied-Mirror fire → Gap-Predict CÓ THỂ nhận output:
+      Embodied-Mirror simulate "entity đau" → Gap-Predict predict "entity less available" → MY anxiety
+    NHƯNG: Gap-Predict CŨNG fire ĐỘC LẬP khi có information KHÔNG qua Embodied-Mirror
+
+  KHÁC BIỆT VỚI LAYER 0 ENTRAINMENT (Gap-Body-Need v2.0 §11.3):
+    Entrainment = PHYSICS-LEVEL oscillator sync (vô thức, bidirectional)
+    Embodied-Mirror = COGNITIVE simulation (Entity-Compiled fire → body mirror)
+    Embodied-Mirror CẦN Entity-Compiled. Entrainment KHÔNG cần.
+    Embodied-Mirror MORE one-directional. Entrainment BIDIRECTIONAL.
+    3 cơ chế ĐỘC LẬP: Entrainment (Layer 0) / Embodied-Mirror (simulation) / Gap-Predict (prediction)
+
+  NOVELTY vs GAP-FILLABILITY: 2 MECHANISMS KHÁC CHIỀU THỜI GIAN:
+    Novelty/Prediction-delta (Gap-Body-Need v2.0 §4.2) = TỨC THỜI:
+      VTA fire khi actual ≠ predicted → reward/pain
+      Time-reference: NOW (entity behavior AT THIS MOMENT vs prediction)
+      VD: bạn nói điều bất ngờ → delta → dopamine → "interesting!"
+
+    Gap-Fillability Prediction (Gap-Predict) = TƯƠNG LAI:
+      Self-Pattern-Modeling predict entity's FUTURE impact on my gaps
+      Time-reference: FUTURE (entity state → predict gap-fill trajectory)
+      VD: bạn nói "sắp chuyển xa" → predict future loss → anxiety
+
+    CẢ HAI = Processing MECHANISMS (Gap-Body-Need v2.0 §4.2):
+      Chạy ACROSS tất cả hardware sources (unbounded, cross-source)
+      KHÁC hardware SOURCES (bounded, fire cho 1 loại input)
+    NHƯNG: KHÁC chiều thời gian (tức thời vs tương lai)
+
+  🟢 Embodied-Mirror body simulation: Entity-Compiled §2.3. Singer 2004: ACC + insula.
+  🟢 Gap-Predict gap-fillability: §2.4 trên. Eisenberger 2003: social pain.
+  🟡 Embodied-Mirror → Gap-Predict = unified 2-step meta-process = drill synthesis (Drill-Agent-Feed-Channel v2.2 §5)
+  🟡 Novelty tức thời vs Gap-Fillability tương lai = drill synthesis
+```
+
+### §2.4.2 — 3 FIRING PATTERNS
+
+> Nguồn: Drill-Agent-Feed-Channel v2.2 §5.
+
+```
+⭐⭐ Embodied-Mirror VÀ Gap-Predict CÓ 3 FIRING PATTERNS (ĐỘC LẬP HOẶC NỐI TIẾP):
+
+  ① Embodied-Mirror ALONE (simulation only, no gap-fillability concern):
+    Entity-Compiled fire → body simulate entity state → feel entity's pain/joy
+    NHƯNG: KHÔNG fire Gap-Predict (no gap prediction)
+
+    KHI NÀO:
+      → Entity = FICTIONAL (xem phim khóc khi nhân vật chết)
+      → Entity = STRANGER observed (thấy stranger bị đau → wince)
+      → Entity = CLOSE nhưng gap-fillability KHÔNG threatened
+        (mẹ kể chuyện buồn CŨ → Embodied-Mirror → Gap-Predict = 0 vì mẹ đang ổn)
+
+    Observable: "đau cùng" nhưng KHÔNG lo. Feel entity's pain WITHOUT anxiety about MY gaps.
+    Seeking: muốn giúp entity (comfort-giving, NOT self-protective)
+
+  ② Gap-Predict ALONE (prediction only, no simulation):
+    Information → Self-Pattern-Modeling predict gap-fillability change → body signal
+    KHÔNG qua Embodied-Mirror (entity state CHƯA được simulate)
+
+    KHI NÀO:
+      → Entity ĐANG ỔN nhưng information predict CHANGE:
+        Bạn nói "tao sắp chuyển xa" → bạn ĐỦ khỏe → Embodied-Mirror = 0
+        NHƯNG: predict bạn ABSENT tương lai → Gap-Predict fire → anxiety
+      → Entity status CẬP NHẬT qua third-party info:
+        Nghe tin mẹ bệnh (qua ai kể) → chưa thấy mẹ đau → Embodied-Mirror = 0
+        NHƯNG: predict mẹ less available → Gap-Predict fire → lo
+
+    Observable: "lo, bất an" nhưng CHƯA "đau cùng". Feel MY concern WITHOUT mirroring.
+    Seeking: muốn CHECK, gọi điện, verify information (information-seeking, NOT comfort-giving)
+
+  ③ Embodied-Mirror → Gap-Predict (nối tiếp — COMPOUND):
+    Step 1: Entity-Compiled fire → Embodied-Mirror simulate entity state → feel entity's pain
+    Step 2: Embodied-Mirror output → Gap-Predict predict gap-fillability impact → feel MY anxiety
+    = COMPOUND: "đau cùng" + "lo cho mình" CÙNG LÚC
+
+    KHI NÀO:
+      → Entity PRESENT + entity IN PAIN + entity = gap-filler:
+        Thấy chồng đau → Embodied-Mirror (xót, đau cùng) → Gap-Predict predict (chồng less available → lo)
+        Thấy mẹ khóc → Embodied-Mirror (buồn cùng) → Gap-Predict predict (mẹ threatened → my safety threatened)
+
+    Observable: "vừa xót vừa lo". Hai feelings compound.
+    Seeking: COMPOUND — muốn giúp entity (Embodied-Mirror) + muốn secure gap (Gap-Predict)
+    = "Vừa muốn an ủi mẹ VỪA lo không ai chăm mình" = ③ compound
+
+  ⭐ 3 PATTERNS = OBSERVABLE KHÁC NHAU:
+    ① = feel OTHER's pain only → comfort-giving
+    ② = feel MY concern only → information-seeking
+    ③ = feel BOTH → compound seeking behavior
+    → PFC LABEL KHÁC: ① "thương" ② "lo" ③ "vừa thương vừa lo"
+    → Seeking behavior KHÁC: ① giúp ② check ③ both
+
+  🟡 3 firing patterns (independent / independent / sequential) = drill synthesis
+  🟢 Embodied-Mirror alone: Singer 2004 (empathy for fictional character → ACC fire)
+  🟢 Gap-Predict alone: consistent with "xa mẹ mới biết thương" (§8) — Gap-Predict without Embodied-Mirror
+```
+
+### §2.4.3 — 3 PAIN TYPES: OBSERVABLE DISTINCTION
+
+> Nguồn: Drill-Agent-Feed-Channel v2.2 §5.
+
+```
+⭐⭐ 3 PAIN TYPES CẢM THẤY KHÁC NHAU, SEEK KHÁC NHAU:
+
+  ┌─────────────────────────┬──────────────────────┬──────────────────────────────┐
+  │ Pain type               │ Signal               │ Seeking behavior             │
+  ├─────────────────────────┼──────────────────────┼──────────────────────────────┤
+  │ Hardware gap pain       │ "trống, thiếu, lạnh" │ Muốn ôm, muốn gặp            │
+  │ (gap unfilled NOW)      │ HIỆN TẠI             │ = direct gap FILL            │
+  ├─────────────────────────┼──────────────────────┼──────────────────────────────┤
+  │ Gap-Predict             │ "lo, bất an, worry"  │ Muốn check, gọi điện         │
+  │ (FUTURE threatened)     │ TƯƠNG LAI            │ = VERIFY gap-fillability     │
+  ├─────────────────────────┼──────────────────────┼──────────────────────────────┤
+  │ Embodied-Mirror         │ "đau cùng, xót"      │ Muốn giúp entity hết đau     │
+  │ (simulate entity)       │ PRESENT but OTHER's  │ = REDUCE entity's pain       │
+  └─────────────────────────┴──────────────────────┴──────────────────────────────┘
+
+  3 EXPERIENCES KHÁC NHAU. 3 SEEKING BEHAVIORS KHÁC NHAU:
+    → CÙNG entity (mẹ) có thể fire cả 3:
+      "Nhớ ôm mẹ" = hardware gap pain (Touch/Comfort unfilled NOW)
+      "Lo mẹ già" = Gap-Predict anticipatory (predict mẹ's future state → my gaps threatened)
+      "Thấy mẹ đau → xót" = Embodied-Mirror (simulate mẹ's pain on own circuits)
+    → 3 experiences ĐỒNG THỜI hoặc ĐỘC LẬP tùy context
+
+  TIME-REFERENCE DISTINCTION:
+    Hardware gap = HIỆN TẠI (gap unfilled right now)
+    Embodied-Mirror = HIỆN TẠI nhưng OTHER's state (entity pain right now, mapped onto me)
+    Gap-Predict anticipatory = TƯƠNG LAI (predict gap-fillability trajectory)
+    → 3 time-references: MY present / OTHER's present / MY future
+
+  VERBALIZATION × 3 PAIN TYPES:
+    "Nhớ mẹ quá" = Hardware gap (Touch, Safety unfilled) — Direct-State feel
+    "Sao lo cho mẹ quá" = Gap-Predict (predict mẹ's state → my gaps) — Evaluative feel
+    "Thấy mẹ đau mà xót" = Embodied-Mirror (mirror mẹ's pain) — Direct-State feel
+    → Connects to §10.2: verbalization = f(which pain type × Reward-Signal-Architecture Evaluative:Direct-State)
+
+  GRIEF DECOMPOSITION (Entity-Compiled §7):
+    Grief = A(gap-feed loss) + B(rebuild cost) + C(phantom firing):
+      A = Gap-Predict PERMANENT (gap-fillability = 0 vĩnh viễn → chronic anticipatory pain)
+      B = PFC computation (rebuild cost, not body pain type)
+      C = Hardware gap (compiled routines fire → no response → Chunk-Miss pain)
+    → Embodied-Mirror DROPS to 0 khi entity absent (không còn entity state để simulate)
+    → NHƯNG: Embodied-Mirror CÓ THỂ fire khi RECALL entity in pain (PFC retrieve → Embodied-Mirror simulate)
+    → Grief = primarily Hardware gap pain (C) + Gap-Predict anticipatory (A). Embodied-Mirror = episodic only.
+
+  🟡 3 pain types + observable distinction = drill synthesis
+  🟢 Hardware gap pain: Gap-Body-Need v2.0 §2-§4. Eisenberger 2003.
+  🟢 Embodied-Mirror: Singer 2004. Entity-Compiled §2.3.
+  🟡 Gap-Predict anticipatory: §2.4 mechanism reframe
+  🟡 Grief decomposition × 3 pain types = framework synthesis
+```
+
 ---
 
 ## §3 — 2-LUỒNG + 2-TẦNG × VALENCE VISIBILITY
 
-> Nguồn: Drill-Entity-Valence-Dynamics v2.0 §2 + Connection v4.0 §3.3 + Empathy v2.2 §8.
+> Nguồn: Drill-Entity-Valence-Dynamics v2.0 §2 + Connection v5.0 §3.3 + Empathy v2.2 §8.
 
 ```
-⭐ TỪ Connection §3.3 + Empathy §8 + Resonance-Entity v2.0 §3:
+⭐ TỪ Connection §3.3 + Empathy §8 + Resonance-Per-Entity v1.1 §3:
 
   Valence-Momentary — Self-Pattern-Modeling-OWNED:
     Source: MỖI LẦN Self-Pattern-Modeling Compiled fire on entity
@@ -419,7 +607,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Cost: ≈ 0 (compiled = automatic)
     VD: "Con = part of me" (Valence-Structural+), "Kẻ thù = threat to me" (Valence-Structural-)
 
-  2-TẦNG × VALENCE VISIBILITY (Connection v4.0 §3.2b):
+  2-TẦNG × VALENCE VISIBILITY (Connection v5.0 §3.2b):
   
     TẦNG A — HARDWARE-DRIVEN valence:
       Source: hormone, CT afferents, attachment circuits
@@ -435,16 +623,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Tầng PFC valence = VISIBLE per episode (PFC is the source)
       → Habituates IF prediction complete (same insight = no delta)
 
-  PER-ENTITY Valence-Momentary:Valence-Structural × TẦNG A:B PROPORTION (Resonance-Entity v2.0 §3-§8):
+  PER-ENTITY Valence-Momentary:Valence-Structural × TẦNG A:B PROPORTION (Resonance-Per-Entity v1.1 §3-§8):
 
     ┌────────────────┬───────────────────────────────┬──────────────────────────────┬──────────────────────┐
     │ Entity         │ 2-luồng                       │ 2-tầng                       │ Valence visibility   │
     │                │ (Momentary:Structural)        │ (A:B)                        │ implication          │
     ├────────────────┼───────────────────────────────┼──────────────────────────────┼──────────────────────┤
-    │ Mẹ→Con        │ Valence-Structural dominant   │ Tầng Hardware dominant       │ INVISIBLE most time  │
+    │ Mẹ→Con         │ Valence-Structural dominant   │ Tầng Hardware dominant       │ INVISIBLE most time  │
     │                │                               │ (hardware)                   │ → visible on loss    │
     ├────────────────┼───────────────────────────────┼──────────────────────────────┼──────────────────────┤
-    │ Con→Mẹ (child)│ Momentary→Structural shift    │ A+B balanced                 │ MIXED visibility     │
+    │ Con→Mẹ (child) │ Momentary→Structural shift    │ A+B balanced                 │ MIXED visibility     │
     │                │ (forming)                     │                              │ → shifts with age    │
     ├────────────────┼───────────────────────────────┼──────────────────────────────┼──────────────────────┤
     │ Bạn thân       │ Valence-Momentary dominant    │ Tầng PFC dominant            │ VISIBLE per episode  │
@@ -471,11 +659,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     ┌──────────────────┬───────────────────┬───────────────────┬─────────────────────────────────────────┐
     │ Case             │ Valence-Momentary │ Valence-Structural│ Result                                  │
     ├──────────────────┼───────────────────┼───────────────────┼─────────────────────────────────────────┤
-    │ Mẹ chăm con ốm  │ - (pain)          │ + (ext.)          │ Structural > Momentary → VẪN CHĂM       │
-    │ Bạn kể chuyện   │ + (joy)           │ + (ext.)          │ COMPOUND reward                         │
-    │ Bác sĩ chăm lạ  │ - (pain)          │ ≈ 0               │ Momentary tích lũy → BURNOUT            │
-    │ Con giận mẹ la   │ - (anger)         │ mixed             │ "vừa giận vừa thương"                  │
-    │ Kẻ thù thua     │ + (rev.)          │ + (safe)          │ COMPOUND (Schadenfreude)                │
+    │ Mẹ chăm con ốm  │ - (pain)          │ + (ext.)          │ Structural > Momentary → VẪN CHĂM        │
+    │ Bạn kể chuyện   │ + (joy)           │ + (ext.)          │ COMPOUND reward                          │
+    │ Bác sĩ chăm lạ  │ - (pain)          │ ≈ 0               │ Momentary tích lũy → BURNOUT             │
+    │ Con giận mẹ la   │ - (anger)         │ mixed             │ "vừa giận vừa thương"                   │
+    │ Kẻ thù thua     │ + (rev.)          │ + (safe)          │ COMPOUND (Schadenfreude)                 │
     └──────────────────┴───────────────────┴───────────────────┴─────────────────────────────────────────┘
     
   BURNOUT FORMULA (Empathy §8):
@@ -486,7 +674,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   🟢 Valence-Momentary/Valence-Structural: Connection §3.3, Body-Coupling §1.3
   🟢 Burnout formula: Empathy §8, Figley 2002
-  🟢 2-tầng: Connection v4.0 §3.2b
+  🟢 2-tầng: Connection v5.0 §3.2b
   🟡 Valence-Structural+A = invisible, Valence-Momentary+B = visible paradox = framework synthesis
 ```
 
@@ -644,7 +832,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   
     VTA habituation = UNIVERSAL law (Schultz 1997)
     NHƯNG: hardware-subsidy COUNTER habituation ở DIFFERENT LEVELS
-    (from Resonance-Entity v2.0 §2)
+    (from Resonance-Per-Entity v1.1 §2)
     
     ┌────────────────────┬──────────────────────┬───────────────────────────┐
     │ Subsidy Level      │ Entity               │ Valence Habituation Rate  │
@@ -921,7 +1109,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
      Mouse-tracking: ambivalent ≠ neutral (BEHAVIORALLY distinct)
      → "Không cảm thấy gì" ≠ "vừa thương vừa giận"
 
-  FRAMEWORK MAPPING (Valence-Propagation.md v4.0 §2, §2.1):
+  FRAMEWORK MAPPING (Valence-Propagation.md v4.1 §2, §2.1):
     Per-channel valence = multi-dimensional (not bipolar axis)
     CẢ positive AND negative channels CÓ THỂ fire cùng lúc
     = Framework MORE GRANULAR than Evaluative Space Model (per-CHANNEL not just 2 dimensions)
@@ -993,7 +1181,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐⭐⭐ PARADOX: sống cùng 20 năm = đôi khi ghét. Xa mẹ = bỗng thương.
 
-  CƠ CHẾ ① — DECAY ASYMMETRY (Entity-Compiled.md v1.0 §9):
+  CƠ CHẾ ① — DECAY ASYMMETRY (Entity-Compiled.md v1.2 §9):
   
     3-layer decay model:
       ③ Negative EPISODES (cãi nhau, bị la): FADE NHANH NHẤT (months)
@@ -1052,7 +1240,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     = PFC LẦN ĐẦU OBSERVE Tonic positive mà LUÔN Ở ĐÓ
     = Body biết 20 năm. PFC mới observe lần đầu khi có lens (thơ).
     
-  🟢 Decay 3-layer: Entity-Compiled.md v1.0 §9
+  🟢 Decay 3-layer: Entity-Compiled.md v1.2 §9
   🟢 Whiteman et al. 2011: 10-year longitudinal — conflict ↓, intimacy ↑
   🟢 Arnett 2004: leaving home → more satisfying parent relationship
   🟡 3-mechanism model + satiation type decay + subsidy contrast = framework synthesis
@@ -1184,7 +1372,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     🟢 Belsky & Pluess 2009: S-allele = PLASTICITY (not just vulnerability)
        More hurt under negative → BUT more appreciation under positive
 
-  Reward-Signal-Architecture Evaluative:Direct-State × VALENCE "FEEL" (Reward-Signal-Architecture v2.0 §1):
+  Reward-Signal-Architecture Evaluative:Direct-State × VALENCE "FEEL" (Reward-Signal-Architecture v2.1 §1):
     Direct-State dominant (opioid, CT afferents) → "ấm áp, comfortable, an toàn"
     Evaluative dominant (dopamine-adjacent) → "thú vị, exciting"
     
@@ -1324,7 +1512,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 > Nguồn: Drill-Entity-Valence-Dynamics v2.0 §15 + Valence-Propagation v3.0 §12.
 
 ```
-⭐⭐ PHANTOM RESONANCE 4-FACTOR MODEL (Resonance-Entity v2.0 §15):
+⭐⭐ PHANTOM RESONANCE 4-FACTOR MODEL (Resonance-Per-Entity v1.1 §15):
 
   MECHANISM:
     Entity compiled across channels → presence = BASELINE
@@ -1482,7 +1670,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Income plateau: Kahneman & Deaton 2010
 
 ═══════════════════════════════════════
-🟡 FRAMEWORK SYNTHESIS (~18 claims)
+🟡 FRAMEWORK SYNTHESIS (~23 claims)
 ═══════════════════════════════════════
 
   §1: Structural vs Current valence + satiation type dimension
@@ -1500,7 +1688,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   §10.2: Verbalization × Reward-Signal-Architecture mapping (from drill)
   §11: Disorganized as 2-tầng conflict (hardware vs Self-Pattern-Modeling)
   §12: Phantom 4-factor model × satiation type
-  §13: Technology × valence frontier + specialization portfolio
+  §13: Technology × valence frontier
+  §2.4.1: Embodied-Mirror → Gap-Predict = unified 2-step meta-process (drill synthesis)
+  §2.4.1: Novelty tức thời vs Gap-Fillability tương lai = 2 mechanisms khác chiều thời gian
+  §2.4.2: 3 firing patterns (Embodied-Mirror alone / Gap-Predict alone / Embodied-Mirror→Gap-Predict sequential)
+  §2.4.3: 3 pain types + observable distinction (hardware gap / Gap-Predict anticipatory / Embodied-Mirror)
+  §2.4.3: Grief decomposition × 3 pain types + specialization portfolio
 
 ═══════════════════════════════════════
 🔴 HYPOTHESIS (~3 claims)
@@ -1527,8 +1720,8 @@ CROSS-REFERENCES:
 
   NỀN TẢNG:
     → Valence-Propagation.md v4.1 — companion file (WHAT valence is + HOW propagates)
-    → Body-Base.md v3.3 — L0+L1 substrate + observation parameters
-    → Body-Feedback-Mechanism.md v2.0 — Body-Need aggregate, chunk dynamics
+    → Body-Base.md v4.0 — L0+L1 substrate + observation parameters
+    → Body-Feedback-Mechanism.md v2.1 — Body-Need aggregate, chunk dynamics
     → Schema.md v2.0 — schema = chunks + links + purpose
     → Chunk.md v2.2 — chunk substrate, context-tag, 4 connections
     → Reward-Signal-Architecture.md v2.1 — Evaluative/Direct-State × valence
@@ -1537,26 +1730,27 @@ CROSS-REFERENCES:
     → Body-Feedback-Label.md v2.0 — vocabulary reference
 
   ENTITY-COMPILED + ACCESS + DYNAMICS:
-    → Entity-Compiled.md v1.0 — deep mechanism (Hub-and-Spoke, Dunbar, grief, decay)
-    → Entity-Access.md v1.0 — gradient Mức 0-5, 3-Factor Model, excess, calibration
+    → Entity-Compiled.md v1.2 — deep mechanism (Hub-and-Spoke, Dunbar, grief, decay)
+    → Entity-Access.md v1.3 — gradient Mức 0-5, 3-Factor Model, excess, calibration
     → Inter-Body-Mechanism.md v1.0 — §8 Entity-Compiled reframe, §4 3-cost, §5 By-Product Match
-    → Body-Coupling.md v1.1 — coupling 2D model, 3 Phase, extension/entanglement
-    → Connection.md v3.3 — 3 Generative Primitives, 2-luồng/2-tầng overview
-    → Self-Pattern-Modeling.md v3.1 — Compiled/Fresh, Simulation-Engine application 1
+    → Body-Coupling.md v3.1 — coupling 2D model, 3 Phase, extension/entanglement
+    → Connection.md v5.0 — 3 Generative Primitives, 2-luồng/2-tầng overview
+    → Self-Pattern-Modeling.md v3.2 — Compiled/Fresh, Simulation-Engine application 1
     → Agent-Mechanism.md v2.0 — integration hub, Compilable Architecture
-    → Resonance-Entity.md v2.0 — hardware-subsidy per entity, Reward-Signal-Architecture Evaluative:Direct-State
+    → Resonance-Per-Entity.md v1.1 — hardware-subsidy per entity, Reward-Signal-Architecture Evaluative:Direct-State
     → Resonance-Sustainability.md v1.0 — 3 modalities, maintenance decline
     → Obligation.md v1.0 — compiled prediction (independent of Entity-Compiled)
     → Protect.md v1.0 — f(replaceability × attachment), loss aversion
     → Boredom.md v2.0 — dissonance + Imagine-Final mờ, source ⑥, Resonance Decline
 
   PFC + SIMULATION:
-    → PFC-Operations.md v1.0 — Hold/Suppress, Compiled/Fresh, PFC budget
-    → Simulation-Engine.md v1.0 — 1 engine, 3 components, 3 axes
+    → PFC-Operations.md v1.2 — Hold/Suppress, Compiled/Fresh, PFC budget
+    → Simulation-Engine.md v1.2 — 1 engine, 3 components, 3 axes
     → Feeling.md v2.0 — PFC observation of body (7 layers)
 
   DRILL SOURCE:
     → backup/Drill-Inter-Body-Mechanism/Drill-Entity-Valence-Dynamics.md v2.0 — primary drill source
+    → Drill-Agent-Feed-Channel v2.2 — §5 Embodied-Mirror→Gap-Predict 2-step meta-process (§2.4.1-§2.4.3)
 
 
 RESEARCH CITATIONS:
@@ -1598,6 +1792,7 @@ RESEARCH CITATIONS:
   | R33 | Durkheim 1893 — Organic solidarity | §13 |
   | R34 | Eisenberger 2003 — Social pain = physical pain | §2 |
   | R35 | Figley 2002 — Compassion fatigue | §3 |
+  | R36 | Singer et al. 2004 — Empathy shared pain (ACC + anterior insula) | §2.4.1,§2.4.2,§2.4.3 |
 
 
 STATUS:
@@ -1608,4 +1803,12 @@ STATUS:
     Source: Drill-Entity-Valence-Dynamics v2.0 (28 insights, 33 citations).
   v1.1 — 2026-05-29 — L3 RETIRE: dep Body-Base v2.1→v3.3, L0-L1-L3→L0+L1 substrate.
     Companion Valence-Propagation v4.0→v4.1 updated.
+  v1.2 — 2026-06-04 — §2.4 MECHANISM NOTE: "state = my state" = description,
+    gap-fillability = mechanism. Level 1/2 distinction.
+    Source: Drill-Body-Base-Boundary-Spectrum v1.2.
+  v1.3 — 2026-06-05 — §2.4 ENRICH: Embodied-Mirror→Gap-Predict 2-step meta-process,
+    3 firing patterns, 3 pain types, Novelty vs Gap-Fillability distinction.
+    +§2.4.1 (2-step meta-process) +§2.4.2 (3 firing patterns) +§2.4.3 (3 pain types).
+    +R36 Singer 2004. +5 🟡 framework syntheses.
+    Source: Drill-Agent-Feed-Channel v2.2 §5.
 ```

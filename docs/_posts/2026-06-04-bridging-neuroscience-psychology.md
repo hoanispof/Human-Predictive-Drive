@@ -44,7 +44,7 @@ The full framework is available at **[GitHub — Human Predictive Drive](https:/
 - Why do humans compete for status — and why does the underlying mechanism look the same in lobsters, baboons, and CEOs?
 - Why does creative work come with stress — even when you chose it and love it? And when does that stress become genuinely harmful?
 - Why is forced analytical thinking sometimes unproductive — while a split-second expert decision is often right?
-- Why does limerence produce genuine bliss — and why is it biologically guaranteed to end? What mechanism sustains a marriage after the hardware subsidy expires?
+- Why does limerence (the "falling in love" phase) produce genuine bliss — and why is it biologically guaranteed to end? What sustains a bond after the biochemical subsidy expires?
 
 > Five more — each about how other people affect the body:
 >- Why does a single critical comment online cause real anxiety — even from someone you'll never meet?
@@ -86,21 +86,21 @@ The PFC (conscious analytical mind) runs differently: ~4 working memory slots, h
 
 The framework identifies this as the real axis: compiled processing (body-direct, domain-specific, fast) vs. fresh processing (PFC-drafted, general-purpose, costly). This reframes Kahneman's System 1/2: the key variable is not fast vs. slow — it's whether the domain has a compiled base. System 1 with compiled domain expertise is accurate *and* fast. System 2 without a compiled base is expensive *and* unreliable.
 
-But compiled doesn't mean correct — it means untested assumptions feel identical to verified expertise. Domain feedback is the only arbiter. The body rewards results, not effort.
+But compiled doesn't mean correct — it means untested assumptions feel identical to verified expertise. Domain reality is the only arbiter. The body rewards results, not effort.
 
 *Source: Body-Knowing.md v1.0, Compile-Taxonomy.md v3.0. Research: Klein 1998, Kahneman 2011, Ericsson 1993.*
 
-### Limerence — why it ends, what sustains the bond
+### Limerence (the "falling in love" phase) — why it ends, what sustains the bond
 
-Limerence isn't illusion — it's drive-level biology. Fisher (2004) showed it activates the same neural systems as hunger and thirst. The body provides a temporary hardware subsidy: dopamine surge, norepinephrine, oxytocin, reduced serotonin (producing obsessive focus), and selectively lowered PFC evaluation. All three reward channels fire simultaneously — novelty, warmth, and episodic peaks — producing the strongest compound reward humans experience.
+Limerence isn't illusion — it's drive-level biology. Fisher (2004) showed it activates the same neural systems as hunger and thirst. The body provides a temporary biochemical boost: dopamine surge (intense wanting), norepinephrine (hyperarousal), oxytocin (bonding), reduced serotonin (obsessive focus on the partner), and selectively lowered PFC evaluation (overlooking flaws). Multiple reward systems fire simultaneously — producing the strongest compound reward humans experience.
 
-It's guaranteed to end because the subsidy is temporary by design: 18–36 months (Fisher 2004). Its evolutionary function is to keep two strangers together long enough to bond. Once the window closes, accumulated habituation reveals at once — "the spark died" is subsidy expiry, not stopped loving.
+It's guaranteed to end because the boost is temporary by design: 18–36 months (Fisher 2004). Its evolutionary function is to keep two strangers together long enough to bond. Once the window closes, accumulated habituation reveals at once — "the spark died" is biochemical subsidy expiry, not stopped loving.
 
-The framework maps this decline to two forces: compiled-suppress (suppressing personal drives to match the partner — less individual growth, less novelty to bring back) and reward-habituation (the partner becomes deeply familiar — same presence repeated thousands of times, diminishing return). Both are architectural — they happen to *every* pair bond, not just "bad" ones.
+The framework maps this decline to two forces. First, self-suppression: each partner suppresses personal drives to match the other — less individual growth means less novelty to bring back into the relationship. Second, familiarity habituation: the partner's presence, repeated thousands of times, produces diminishing reward. Both are architectural — they happen to *every* pair bond, not just "bad" ones.
 
-What sustains a bond afterward? The framework identifies the limerence window as fuel for building durable structures: shared experience chunks that compile into both people, communication patterns for resolving conflict (Gottman: the most stable couples aren't conflict-free — they know how to repair), and deep mutual understanding built during peak curiosity.
+What sustains a bond afterward? The limerence window is fuel for building durable structures: shared experiences that compile into both people's body-level patterns, communication patterns for resolving conflict (Gottman: the most stable couples aren't conflict-free — they know how to repair), and deep mutual understanding built during peak curiosity.
 
-Post-limerence, the mechanism shifts: novelty-based reward requires active effort (Aron 2000), while baseline warmth becomes invisible — noticed only when lost. "Boring" and "stopped loving" are mechanistically different states — the first means novelty dropped while the structural bond holds; the second means the structural bond itself has eroded.
+Post-limerence, the dynamic shifts: novelty-based reward requires active effort (Aron 2000), while baseline warmth becomes invisible — noticed only when lost. "Boring" and "stopped loving" are different states — the first means novelty dropped while the structural bond holds; the second means the structural bond itself has eroded.
 
 *Source: Love-Romantic.md v3.0, Bond-Architecture.md v2.0. Research: Fisher 2004, Gottman, Aron 2000.*
 
@@ -237,6 +237,6 @@ Related posts on specific mechanisms:
 - [Dopamine Signals Salience, Not Reward](https://hoanispof.github.io/Human-Predictive-Drive/blog/dopamine-signals-salience-not-reward/) — a 7-step mechanism + five preconditions for when pleasure actually fires
 - [Cortisol Is Not Your Stress Hormone](https://hoanispof.github.io/Human-Predictive-Drive/blog/cortisol-is-not-stress/) — the Source > Level principle + the Inverted-U
 - [ADHD Is Not Attention Deficit](https://hoanispof.github.io/Human-Predictive-Drive/blog/adhd-is-not-attention-deficit/) — one threshold, six paradoxes resolved
-- [Logic Is Not the Opposite of Intuition](https://hoanispof.github.io/Human-Predictive-Drive/blog/logic-is-not-the-opposite-of-intuition/) — one mechanism, two observer labels, and why neither can verify itself
+- [Logic Is Not the Opposite of Intuition](https://hoanispof.github.io/Human-Predictive-Drive/blog/logic-is-not-the-opposite-of-intuition/) — one process, two observer labels, and why neither can verify itself
 
 This is a hypothesis inviting falsification. What would break it? I want to know.

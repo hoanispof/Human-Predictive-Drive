@@ -63,11 +63,11 @@ The senior developer who "sees" the architectural flaw and the experienced clini
 - "Kahneman was wrong" — Kahneman was right about the separation. This reframes what the separating variable is
 - "Rationality is overrated" — formalization, teaching, knowledge accumulation require it
 
-The framework is pro-expertise and pro-verification. Compiled domain knowledge is the most reliable processing mode. Domain feedback is the only arbiter. These are deeply rationalist positions.
+The framework is pro-expertise and pro-verification. Compiled domain knowledge is the most reliable processing mode. Domain reality is the only arbiter. These are deeply rationalist positions.
 
 **Epistemic status:** Individual findings (Klein, Chase & Simon, Kahneman & Klein 2009) are established science. The synthesis — "logic and intuition are observer labels for the same compiled mechanism, differentiated by domain shareability" — is 🟡 framework synthesis, not proven. Seeking stress-test.
 
-Full argument (4,600 words, 9 sections, PFC-as-Lawyer analysis, 4 falsification criteria):
+Full argument (~3,800 words, 10 sections, Damasio vmPFC evidence, PFC-as-Lawyer analysis, 4 falsification criteria):
 https://hoanispof.github.io/Human-Predictive-Drive/blog/logic-is-not-the-opposite-of-intuition/
 
 Full framework (200+ files, CC0):
@@ -96,11 +96,11 @@ Three independent lines of evidence converge on an uncomfortable implication: th
 
 PFC-as-Lawyer doesn't mean the narrative is always *false*. It means it's *constructed*, not *reported*.
 
-This doesn't mean logic is useless — fresh processing is essential for novel domains. It means neither "logic" nor "intuition" can verify itself. Domain feedback — actual outcomes in the actual domain — is the only calibration mechanism.
+This doesn't mean logic is useless — fresh processing is essential for novel domains. It means neither "logic" nor "intuition" can verify itself. Domain reality — actual outcomes in the actual domain — is the only calibration mechanism.
 
 The argument addresses Evans & Stanovich (2013) directly and includes 4 specific falsification criteria.
 
-Full blog (4,600 words, evidence chain, honest limitations):
+Full blog (~3,800 words, evidence chain, honest limitations):
 https://hoanispof.github.io/Human-Predictive-Drive/blog/logic-is-not-the-opposite-of-intuition/
 
 Framework (200+ files, CC0):
@@ -128,11 +128,11 @@ Three independent lines of evidence (Gazzaniga 1978, Nisbett & Wilson 1977, Haid
 - **Calibration:** Confidence is a property of *compilation*, not of *accuracy* (Kahneman & Klein 2009). An expert in a low-validity environment feels just as confident as one in a high-validity environment.
 - **Debiasing:** The framework suggests debiasing works not by "suppressing System 1" but by *re-compiling* for the current domain — which is what deliberate practice and calibration training attempt.
 
-**What this does NOT claim:** "Logic is useless" or "trust your gut." Compiled patterns can be wrong (Self-Referencing Trap). Fresh processing is essential for novel domains. Domain feedback is the only arbiter. These are pro-expertise, pro-verification positions.
+**What this does NOT claim:** "Logic is useless" or "trust your gut." Compiled patterns can be wrong (Self-Referencing Trap). Fresh processing is essential for novel domains. Domain reality is the only arbiter. These are pro-expertise, pro-verification positions.
 
 **Epistemic status:** Individual findings are established science. The synthesis is 🟡 framework synthesis — consistent with evidence, not directly tested. Four specific falsification criteria in §8.
 
-Full argument (4,600 words):
+Full argument (~3,800 words):
 https://hoanispof.github.io/Human-Predictive-Drive/blog/logic-is-not-the-opposite-of-intuition/
 
 Framework (200+ files, CC0):
@@ -157,7 +157,7 @@ The argument addresses Evans & Stanovich (2013) directly — I agree working mem
 
 Includes 4 specific falsification criteria. Pro-expertise, pro-verification — not anti-rationalist.
 
-Full argument (4,600 words): https://hoanispof.github.io/Human-Predictive-Drive/blog/logic-is-not-the-opposite-of-intuition/
+Full argument (~3,800 words): https://hoanispof.github.io/Human-Predictive-Drive/blog/logic-is-not-the-opposite-of-intuition/
 
 Framework (200+ files, CC0): https://github.com/hoanispof/Human-Predictive-Drive
 
@@ -188,7 +188,7 @@ Three independent lines of evidence (Gazzaniga 1978, Nisbett & Wilson 1977, Haid
 
 **Epistemic status:** Individual findings (Klein 1998, Chase & Simon 1973, Kahneman & Klein 2009) are established. The synthesis — compilation stage as the key variable, shareability as the label determinant — is a proposed reframe, not established theory. Four falsification criteria in §8.
 
-Full argument (4,600 words, evidence chain, limitations):
+Full argument (~3,800 words, evidence chain, limitations):
 https://hoanispof.github.io/Human-Predictive-Drive/blog/logic-is-not-the-opposite-of-intuition/
 
 Framework (200+ files, CC0):
@@ -252,7 +252,7 @@ So why does the observer call the developer's response "technical skill" and the
 
 An uncomfortable implication: three independent lines of research (Gazzaniga 1978, Nisbett & Wilson 1977, Haidt 2001) suggest the part of the brain we call "rational" often constructs explanations *after* a decision is already made — like a lawyer building a case, not a judge weighing evidence.
 
-This doesn't mean logic is useless — analytical thinking is essential when facing something genuinely new. It means neither logic nor intuition can verify itself. Only actual outcomes in the real world — domain feedback — can tell you which one got it right.
+This doesn't mean logic is useless — analytical thinking is essential when facing something genuinely new. It means neither logic nor intuition can verify itself. Only actual outcomes in the real world — domain reality — can tell you which one got it right.
 
 Detailed analysis with evidence, limitations, and "here's what would prove this wrong" criteria:
 https://hoanispof.github.io/Human-Predictive-Drive/blog/logic-is-not-the-opposite-of-intuition/
@@ -412,7 +412,7 @@ Neither mode can verify itself:
 - "Let me think about this rationally" = the lawyer reviewing his own brief
 - "My gut says this is right" = compiled patterns confirming themselves
 
-The only calibration mechanism is **domain feedback** — actual outcomes in the actual domain. The code works or it doesn't. The hire performs or they don't. The strategy produces results or it fails. The patient recovers or doesn't.
+The only calibration mechanism is **domain reality** — actual outcomes in the actual domain. The code works or it doesn't. The hire performs or they don't. The strategy produces results or it fails. The patient recovers or doesn't.
 
 Kahneman and Klein (2009) — two researchers from opposing traditions — agreed that reliable expert judgment requires two conditions: a domain with stable, learnable regularities, and adequate opportunity to learn from feedback. Neither condition references whether the domain is "logical" or "emotional."
 
@@ -435,9 +435,9 @@ Expert judgment is valuable not because it's "rational" or "intuitive" — it's 
 
 For anyone who manages people making complex decisions — engineers, product managers, strategists, clinicians — the question isn't "are they being logical enough?" The question is: what domain feedback shaped their compiled patterns, and does it match the current situation?
 
-Domain feedback is the only arbiter. Not logic. Not intuition. Not a prescribed balance between them. The actual outcomes in the actual domain.
+Domain reality is the only arbiter. Not logic. Not intuition. Not a prescribed balance between them. The actual outcomes in the actual domain.
 
-Full argument with complete evidence chain, academic citations, and limitations (4,600 words):
+Full argument with complete evidence chain, academic citations, and limitations (~3,800 words):
 https://hoanispof.github.io/Human-Predictive-Drive/blog/logic-is-not-the-opposite-of-intuition/
 
 The full framework is open-source (200+ files, CC0 licensed):
@@ -504,7 +504,7 @@ RULES:
 RESPONDING (identity-challenge specific):
   → Reply all substantive comments within 24h
   → "THIS IS ANTI-RATIONALIST" → "The framework is PRO-expertise and
-    PRO-verification. Domain feedback is the only arbiter. These are
+    PRO-verification. Domain reality is the only arbiter. These are
     deeply rationalist positions."
   → "YOU'RE CONFLATING S1/S2" → "We address Evans & Stanovich in §4.
     We agree WM dependence is real. We argue it reflects compilation

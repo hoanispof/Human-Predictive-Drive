@@ -504,10 +504,10 @@ TÂM LÝ HỌC:
   Reproduce: chuyên gia A và B CÓ THỂ khác kết luận (different cases)
   Global label: "INTUITION / CẢM NHẬN" (vì not perfectly reproducible)
 
-BÊN TRONG: CƠ CHẾ GIỐNG HỆT
+BÊN TRONG: CÙNG PROCESS — compiled chunks fire → body-direct → "biết"
   Toán gia: years compile → chunks fire fast → "thấy" lời giải
   Therapist: years compile → chunks fire fast → "thấy" pattern
-  CẢ HAI = compiled automatic processing.
+  CẢ HAI = compiled chunks fire → body-direct. Khác: chunks NÀO (domain riêng).
 
 KHÁC BIỆT:
   Toán: subject = DETERMINISTIC → compiled chunks CONVERGE

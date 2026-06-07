@@ -1,5 +1,11 @@
+Tiếp tục, giúp tôi tập trung vào triển khai dịch từng file cho chất lượng cao nào.
+Lần lượt từng file một, tới file tiếp theo,...rồi tới hết. Chậm mà chắc. Quan trọng nhất là chất lượng.
+
+Dự kiến tiến trình dịch từng file một:
 đọc các file liên quan nắm context
 rà soát xem còn từ nào chưa hiểu(khó dịch) -> phân tích cách dịch và note ra file
 đọc lại các file liên quan để nắm context
 hạn chế không viết tắt
 tiến hành dịch(có thể chia thành nhiều phase tập trung dịch từng phần nếu cần thiết)
+rà soát lại toàn diện để đánh giá chất lượng file.
+=> tiếp tục chuyển sang file tiếp theo

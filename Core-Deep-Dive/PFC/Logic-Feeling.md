@@ -3,7 +3,8 @@
 > **Einstein: years compile toán → chunks fire fast → Body-Knowing: "thấy" lời giải.**
 > **Therapist: years compile patterns → chunks fire fast → Body-Knowing: "thấy" patient state.**
 >
-> CƠ CHẾ BÊN TRONG: GIỐNG HỆT. Observer bên ngoài: "Einstein dùng logic", "Therapist dùng intuition."
+> Cùng process bên trong: compiled chunks fire → body-direct → "biết". Khác: chunks NÀO (domain × experience riêng).
+> Observer bên ngoài: "Einstein dùng logic", "Therapist dùng intuition."
 >
 > BODY-KNOWING: compiled chunks fire → body-direct → "biết mà không cần giải thích."
 >
@@ -11,7 +12,7 @@
 > "Feeling/Intuition" = observer label khi Body-Knowing NON-SHAREABLE (probabilistic domain).
 > "Fresh" = PFC đang DRAFT (chưa Body-Knowing, cost > 0, "phải nghĩ ra").
 >
-> Labels vẫn hữu ích — nhưng mechanism UNDERNEATH chỉ có 1: compilation level → Body-Knowing.
+> Labels vẫn hữu ích — nhưng process bên trong chỉ có 1: compiled chunks fire → body-direct → Body-Knowing.
 >
 > **"'Logic' chỉ là fresh phase trước khi compile thành Body-Knowing. PFC = Lawyer, không phải independent rational agent."**
 
@@ -258,12 +259,13 @@ LOGIC-FEELING v4.0 TRONG KIẾN TRÚC FRAMEWORK:
     Reproduce: chuyên gia A và B CÓ THỂ khác kết luận (different cases)
     Global label: "INTUITION / CẢM NHẬN" (vì not perfectly reproducible)
 
-  BÊN TRONG: CƠ CHẾ GIỐNG HỆT
+  BÊN TRONG: CÙNG PROCESS — compiled chunks fire → body-direct → "biết"
     Toán gia: years compile → chunks fire fast → Body-Knowing: "thấy" lời giải
     Therapist: years compile → chunks fire fast → Body-Knowing: "thấy" pattern
     Thiền sư: years compile → chunks fire fast → Body-Knowing: "thấy" body-state
     CẢ BA = Body-Knowing. CẢ BA = NHẤT QUÁN qua thời gian.
     CẢ BA = tuân thủ "logic" RIÊNG (compiled pattern network)
+    KHÁC: chunks NÀO được compiled (domain × experience riêng mỗi người)
 
   KHÁC BIỆT:
     Toán: subject = DETERMINISTIC → Body-Knowing CONVERGE across people

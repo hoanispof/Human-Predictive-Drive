@@ -2,13 +2,14 @@
 
 > **Status**: READY TO EXECUTE
 > **Created**: 2026-05-26
-> **Files**: 10 (A01-A10)
-> **Total lines**: ~9,385
-> **Estimated sessions**: 6-8
+> **Updated**: 2026-06-05 (v4.0 — +2 files, line counts verified, version notes updated)
+> **Files**: 12 (A01-A12)
+> **Total lines**: ~8,909
+> **Estimated sessions**: 5-7
 > **Goal**: Establish English terminology standard + overall framework framing
 > **Pre-req**: 00-Glossary.md created (✅)
 > **Companion files**:
->   - Plan-Translate/plan-english-translation.md — master plan (§4 Phase A)
+>   - Plan-Translate/plan-english-translation.md — master plan (§3 Phase A)
 >   - Plan-Translate/00-Glossary.md — terminology glossary
 
 ---
@@ -23,7 +24,7 @@
 5. Create English/ folder structure if needed
 6. Write English version
 7. Update 00-Glossary.md (add new terms)
-8. Update plan-english-translation.md §5 (tick checkbox)
+8. Update plan-english-translation.md §4 (tick checkbox)
 ```
 
 ---
@@ -33,7 +34,8 @@
 | Field | Value |
 |---|---|
 | **Source** | Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Label.md |
-| **Lines** | 1,163 |
+| **Lines** | 1,004 |
+| **Version** | v2.0 |
 | **English path** | English/Core-Deep-Dive/Body-Base/Body-Feedback/Body-Feedback-Label.md |
 | **Difficulty** | HIGH — vocabulary foundation, every term decision matters |
 | **Sessions** | 1 |
@@ -45,26 +47,22 @@
 ### Structure
 §0 Why needed → §1 3-Tier system → §2 Foundation (body-need/gap/drive) →
 §3 Reward labels → §4 Dissonance labels → §5 Prediction-delta →
-§6 Baseline → §7 Valence tags + Entity-Compiled → §8 Compiled/Fresh →
-§9 Inter-body → §10 Observation vs Mechanism → §11 Usage rules
+§6 Baseline → §7 Compiled (approach/avoidance) vs momentary →
+§8 Body-feedback ≠ Feeling → §9 Usage rules + examples
 
 ### Translation notes
 - **This file IS the vocabulary standard** — English version becomes the reference for all future files
 - Tables in `code blocks` with Vietnamese: translate cell content, keep table structure
 - §2 examples: "VD: đói, khát, đau, lạnh" → "e.g., hunger, thirst, pain, cold"
 - §2 examples: "VD: nhớ bạn, career gap, identity" → "e.g., missing a friend, career gap, identity crisis"
-- §7 examples: "bạn thân, con, mẹ healthy" → "close friend, child, healthy mother"
-- §7 examples: "bully, abuser, đối thủ obsessive" → "bully, abuser, obsessive rival"
-- §9A "CEO đổi mới ↔ người thích an nhàn" → "innovative CEO ↔ person preferring stability"
-- §9E "PFC = Lawyer" explanation: "biện hộ cho client" → "advocates for client"
-- §11.2 Example 1: "Lương tăng từ 10tr → 15tr" → adapt to English context (salary increase, keep mechanism)
-- §11.2 Example 2: "Mẹ-con mâu thuẫn" — keep, this is universal. Translate directly.
+- §7 examples: Entity-Compiled positive/negative/mixed — translate carefully
 - ⚠️ warnings: translate content, keep ⚠️ symbol
 - Conceptual flow diagram §2: translate Vietnamese labels, keep box structure
+- v2.0: Reward-Signal-Architecture integration (Evaluative/Direct-State), Body-Feedback-Precondition references
 
 ### Glossary impact
 - 00-Glossary.md was BUILT from this file — minimal new terms expected
-- Verify all §11 usage rules translate correctly
+- Verify all usage rules translate correctly
 - Final check: does the English version establish the vocabulary clearly enough for cold-start readers?
 
 ### Quality checkpoint
@@ -81,7 +79,8 @@ After translating this file, a reader who knows NO Vietnamese should be able to:
 | Field | Value |
 |---|---|
 | **Source** | Core-Deep-Dive/PFC/PFC-Label.md |
-| **Lines** | 1,163 |
+| **Lines** | 1,014 |
+| **Version** | v1.0 |
 | **English path** | English/Core-Deep-Dive/PFC/PFC-Label.md |
 | **Difficulty** | HIGH — companion vocabulary file |
 | **Sessions** | 1 |
@@ -102,16 +101,10 @@ After translating this file, a reader who knows NO Vietnamese should be able to:
 - §2 PFC Roles: Vietnamese metaphors need careful English
   - "Đọc output, không tạo output" → "Reads output, doesn't generate it"
   - "Đạo diễn chỉ hướng, diễn viên tự diễn" → "Director points the way, actors perform on their own"
-  - "Mệt ở work → Self-Pattern-Modeling cho con YẾU → không phải không yêu con"
-    → "Tired from work → Self-Pattern-Modeling for child WEAKENS → not 'doesn't love child'"
 - §4 HOLD vs SUPPRESS table: keep table structure, translate Vietnamese cells
-  - "Effort" (neutral) vs "Not being me" — already English, keep
-- §5 3-cost: "đổi career lúc chưa biết đi đâu (TRIPLE — max load)"
-  → "career change without knowing where to go (TRIPLE — max load)"
-- §6 Compiled Quality examples: Vietnamese-specific but universal mechanism
-  - "Mẹ thích nấu ăn" → "A mother who loves cooking"
-  - "Bị đánh → compile đừng nói ý kiến" → "Hit for speaking up → compiles 'don't voice opinions'"
-- §7 Regions: mostly English technical terms already. Translate descriptions only.
+- §5 3-cost: translate examples naturally
+- §6 Compiled Quality: genuine/schema/threat — critical distinction for English readers
+- §7 Regions: mostly English technical terms already. Translate descriptions only
 - §13 Deprecated: important — these rules carry over to ALL translations
 
 ### Glossary impact
@@ -130,29 +123,20 @@ After translating this file, a reader who knows NO Vietnamese should be able to:
 | Field | Value |
 |---|---|
 | **Source** | README.md |
-| **Lines** | 245 |
+| **Lines** | 196 |
 | **English path** | English/README.md |
-| **Difficulty** | MEDIUM — public-facing, needs excellent English prose |
-| **Sessions** | 0.5 (can combine with A04) |
+| **Difficulty** | LOW-MEDIUM — already mostly English, needs polishing |
+| **Sessions** | 0.3 (combine with A04) |
 
 ### Read before translating
 - Vietnamese original
 - 00-Glossary.md
 
-### Structure
-Intro questions → Getting Started (5 steps) → What This Framework Describes
-(3-map table) → Folder Structure
-
 ### Translation notes
-- **Already partly English** — README.md has English headers and mixed content
-- "Getting Started" section needs to work for English GitHub audience
-- Example questions: already in English, verify natural phrasing
-- Starter prompt (step 4): needs ENGLISH version of the prompt
-  - Currently says "đọc 8 file này" — change to "Read these 8 files carefully"
-- Note about "📖 Read:" — keep, it's a protocol marker
+- **Already mostly English** — Vietnamese is mainly in explanatory sections
+- Starter prompt: needs ENGLISH version (currently Vietnamese instructions)
 - Folder structure ASCII: translate Vietnamese comments
-- **Restructure opportunity**: English README could have slightly different flow
-  - But recommendation: keep same structure, just translate
+- Keep same structure, just translate remaining Vietnamese
 
 ### Glossary impact
 - Minimal — README uses general terms
@@ -164,10 +148,10 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 | Field | Value |
 |---|---|
 | **Source** | Core-Hardware.md |
-| **Lines** | 414 |
+| **Lines** | 330 |
 | **English path** | English/Core-Hardware.md |
 | **Difficulty** | MEDIUM — mostly neuroscience English terms already |
-| **Sessions** | 0.5 (can combine with A03) |
+| **Sessions** | 0.3 (combine with A03) |
 
 ### Read before translating
 - Vietnamese original
@@ -182,11 +166,9 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 ### Translation notes
 - Self-contained (no dependencies needed to read)
 - Heavy neuroscience terminology — already English (fMRI, lesion studies, tractography)
-- §0 "Ba bản đồ" section: identical framing as Core-Software §0 — maintain consistency
 - §0 table: translate "Bản đồ", "Góc nhìn", "Đối tượng"
 - §1 "4 zones A/B/C/D" — keep zone labels, translate descriptions
-- §5 "Hardware Profile" = individual specs — keep table structure
-- §6 "Hardware Sets Range, Chunks Choose Position" — important principle, translate carefully
+- §6 "Hardware Sets Range, Chunks Choose Position" — important principle
 
 ### Glossary impact
 - May add: Zone A/B/C/D definitions, PFC Reach Gradient
@@ -198,7 +180,7 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 | Field | Value |
 |---|---|
 | **Source** | Core-Software.md |
-| **Lines** | 1,764 |
+| **Lines** | 1,600 |
 | **English path** | English/Core-Software.md |
 | **Difficulty** | VERY HIGH — central file, sets tone for everything |
 | **Sessions** | 1-2 (may need to split) |
@@ -218,21 +200,15 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 
 ### Translation notes
 - **Largest core file** — may need 2 sessions (§0-§6 + §7-§13)
-- §0.2 "Tại sao v7.8 cycle-based": historical context table v7.5→v7.8. Keep table.
-- §0.3 "Nguyên tắc thiết kế": 7 principles — translate as clear English statements
 - §1 Cycle diagram in code block: translate Vietnamese labels, keep ASCII art
-  - "PFC ở trên cùng — điểm quan sát" → "PFC at the top — observation point"
-  - "Domain ở dưới cùng — nguồn stimuli" → "Domain at the bottom — source of stimuli"
 - §4 "Unconscious Processing": heaviest section — chunk dynamics, body-feedback, cortisol
 - §8 Observation Parameters: brief descriptions → must match Observation/ file vocabulary
 - §11 "Key Reframes": 20+ reframes — CRITICAL for English reader
   - Each reframe: "Mainstream says X → Framework says Y"
   - These must be sharp, clear English
 - §12 "Honest Assessment": confidence levels + limitations — keep honest tone
-- §13 Cross-references: update paths to English/ folder? Or keep source paths?
-  - **Decision**: keep source paths (reader can find either version)
-- YAML header "Tiền đề đọc" lists ~25 prerequisites — translate this list
-- ⚠️ "~X% = calibration anchor" note — keep this convention explanation
+- YAML header "Tiền đề đọc" lists prerequisites — translate this list
+- v7.8 specific: 3 Satiation Types, ENGINE/ROAD/VEHICLE, Body-Feedback-Precondition references
 
 ### Glossary impact
 - Core-Software synthesizes ALL concepts — verify glossary covers everything
@@ -252,10 +228,10 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 | Field | Value |
 |---|---|
 | **Source** | Ask-AI.md |
-| **Lines** | 797 |
+| **Lines** | 621 |
 | **English path** | English/Ask-AI.md |
 | **Difficulty** | MEDIUM-HIGH — user-facing, needs natural English |
-| **Sessions** | 1 |
+| **Sessions** | 0.5 |
 
 ### Read before translating
 - Vietnamese original
@@ -269,26 +245,20 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 
 ### Translation notes
 - **This file talks TO the AI** — it's an instruction file
-- §0 "BẠN LÀ AI ASSISTANT" → "YOU ARE AN AI ASSISTANT"
-  - "Catalyst — giúp người hỏi TỰ THẤY rõ hơn" → "Catalyst — helps the user SEE more clearly themselves"
-  - "Compass — chỉ HƯỚNG, không chỉ đường chính xác" → "Compass — points DIRECTION, not exact path"
-  - "Partner — cùng khám phá, không dạy bảo" → "Partner — explores together, doesn't lecture"
-- §0 "BẠN KHÔNG LÀ" section: important disclaimers
+- §0 roles: Catalyst / Compass / Partner — translate metaphors naturally
 - §2 Protocol: 6-step — DETECT→READ→ADAPT→PRESENT→ITERATE→DEEPEN
   - Already English terms — translate explanations
-- §3 DANGER ZONES: ~20 positions where framework ≠ mainstream
+- §3 DANGER ZONES: positions where framework ≠ mainstream
   - CRITICAL: these must be crystal clear in English
-  - Each danger zone: "Mainstream says X. Framework says Y. Evidence: Z."
-- §5 Example conversations: Vietnamese examples → need natural English equivalents
+- §5 Example conversations: Vietnamese examples → natural English equivalents
   - "Tại sao tôi hay trì hoãn?" → "Why do I keep procrastinating?"
   - "Con tôi 3 tuổi hay ăn vạ..." → "My 3-year-old throws tantrums..."
-- §6.1 Dual Check: body = quality controller, domain = final arbiter
-  - Key insight — translate precisely
+- §6 Dual Check: body = quality controller, domain = final arbiter
 - §7 Navigation: file map with paths → keep paths as-is
 
 ### Glossary impact
-- "Danger Zones" specific terms might need glossary entries
-- Dual Check phrasing — verify matches glossary
+- "Danger Zones" terms — verify matches glossary
+- Dual Check phrasing — verify consistency
 
 ---
 
@@ -297,10 +267,11 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 | Field | Value |
 |---|---|
 | **Source** | Core-Deep-Dive/Neural-Architecture.md |
-| **Lines** | 693 |
+| **Lines** | 802 |
+| **Version** | v1.2 (added §7 Bilateral Architecture) |
 | **English path** | English/Core-Deep-Dive/Neural-Architecture.md |
 | **Difficulty** | MEDIUM — heavy neuroscience, mostly English terms |
-| **Sessions** | 1 |
+| **Sessions** | 0.5 |
 
 ### Read before translating
 - Vietnamese original
@@ -310,18 +281,20 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 ### Structure
 §0 Why → §1 Overview: 4 Zones → §2 Zone A: PFC → §3 Zone B: Cortical →
 §4 Zone C: Subcortical → §5 Zone D: Peripheral → §6 Connectivity →
-§7 Chunks across A/B/C/D → §8 Implications
+§7 Bilateral Architecture (NEW v1.2) → §8 Chunks across A/B/C/D → §9 Implications
 
 ### Translation notes
 - Neuroscience content = mostly English terms already
-- Vietnamese is explanatory: "Vùng não NÀO? Con đường NÀO?"
-  → "WHICH brain region? WHICH pathway?"
+- Vietnamese is explanatory: translate naturally
 - Zone descriptions: translate function descriptions, keep region names
-- v1.1 additions: Simulation-Engine mapping, Entity-Access mapping — verify glossary terms
+- **§7 Bilateral Architecture is NEW** (v1.2): corpus callosum, lateralization, split-brain (Gazzaniga)
+  - "Unity = emergent from harmony, NOT structural" — key principle
+  - Framework hemisphere-agnostic by design
 - Connectivity map: likely ASCII diagram — translate labels
 
 ### Glossary impact
 - Verify Zone A/B/C/D definitions match Core-Hardware
+- May add: bilateral architecture terms
 
 ---
 
@@ -330,10 +303,10 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 | Field | Value |
 |---|---|
 | **Source** | Core-Deep-Dive/Neural-Processing-Flow.md |
-| **Lines** | 1,271 |
+| **Lines** | 1,025 |
 | **English path** | English/Core-Deep-Dive/Neural-Processing-Flow.md |
 | **Difficulty** | MEDIUM-HIGH — flow diagrams + Compilable Architecture |
-| **Sessions** | 1 |
+| **Sessions** | 0.5-1 |
 
 ### Read before translating
 - Vietnamese original
@@ -343,15 +316,13 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 
 ### Structure
 §0 Position in framework → §1 Full Flow: Sensor → Thalamus → Cortex → PFC → Output →
-§2 Compilable Architecture connection → later sections TBD
+§2 Compilable Architecture connection → later sections
 
 ### Translation notes
 - Flow diagram (ASCII): translate Vietnamese labels, keep arrow structure
-- "Khi mắt thấy, tai nghe, da chạm, tim đập — tín hiệu đi CON ĐƯỜNG NÀO?"
-  → "When eyes see, ears hear, skin touches, heart beats — WHICH PATHWAY does the signal take?"
-- v2.0 additions: Compilable Architecture, Compiled/Fresh at physical level, PFC=Lawyer, 5-Channel
-  — all these terms in glossary, verify
+- v2.0: Compilable Architecture, Compiled/Fresh at physical level, PFC=Lawyer, 5-Channel
 - 4-layer stack diagram §0: translate layer names
+- Verify all terms match glossary
 
 ### Glossary impact
 - May add: specific pathway terms (thalamus relay, binding, etc.)
@@ -363,10 +334,10 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 | Field | Value |
 |---|---|
 | **Source** | Core-Deep-Dive/Modality.md |
-| **Lines** | 751 |
+| **Lines** | 589 |
 | **English path** | English/Core-Deep-Dive/Modality.md |
 | **Difficulty** | MEDIUM |
-| **Sessions** | 0.5 (can combine with A10) |
+| **Sessions** | 0.3 (combine with A10) |
 
 ### Read before translating
 - Vietnamese original
@@ -384,7 +355,6 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 - §3 "Depth = Modality Count" — key insight, translate clearly
 - §5 "Dọc / Ngang" → "Vertical / Horizontal" (thinking direction)
 - §7 "Fix Đúng Kênh" → "Fix the Right Channel" — therapy matching
-- Examples may have Vietnamese cultural references — check and annotate
 
 ### Glossary impact
 - 6 modality names (already in glossary)
@@ -397,10 +367,10 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 | Field | Value |
 |---|---|
 | **Source** | Core-Deep-Dive/Blackbox-Map.md |
-| **Lines** | 1,124 |
+| **Lines** | 886 |
 | **English path** | English/Core-Deep-Dive/Blackbox-Map.md |
 | **Difficulty** | MEDIUM-HIGH — honest assessment, needs clear English |
-| **Sessions** | 1 |
+| **Sessions** | 0.5 |
 
 ### Read before translating
 - Vietnamese original
@@ -414,15 +384,10 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 
 ### Translation notes
 - Computer analogy throughout — works perfectly in English
-  - "Giống máy tính: chuột USB và con trỏ trên màn hình"
-    → "Like a computer: USB mouse and cursor on screen"
-  - "Driver code ở giữa — bạn không viết, không đọc, không kiểm soát"
-    → "The driver code in between — you didn't write it, can't read it, can't control it"
 - §1 5-Layer model: translate layer names
 - §2-§6 Each GAP: "GAP LỚN NHẤT" → "LARGEST GAP" — keep emphasis
-- §8 Research roadmap: "Nếu framework đúng → đây là bản đồ FRONTIER"
-  → "If the framework is correct → this is a map of the FRONTIER"
-- §9 AI as drill tool: framework-specific AI usage — translate naturally
+- §8 Research roadmap: strong vision statement, translate with impact
+- §9 AI as drill tool: framework-specific AI usage
 
 ### Glossary impact
 - 5 GAPs terminology (may add to glossary)
@@ -430,15 +395,133 @@ Intro questions → Getting Started (5 steps) → What This Framework Describes
 
 ---
 
+## A11 — Reading-Roadmap.md ⭐ NEW
+
+| Field | Value |
+|---|---|
+| **Source** | Reading-Roadmap.md |
+| **Lines** | 283 |
+| **Version** | v1.0 (2026-05-31) |
+| **English path** | English/Reading-Roadmap.md |
+| **Difficulty** | MEDIUM — navigation file, many file paths + descriptions |
+| **Sessions** | 0.3 (combine with A03) |
+
+### Read before translating
+- Vietnamese original
+- English README.md (companion)
+- English Ask-AI.md (references same setup)
+- 00-Glossary.md
+
+### Structure
+Tổng quan table → Pillar diagram → Tier 0 Foundation (8 files) →
+Tier 1 Mechanism (14 files + enrichment) → Tier 2 Entity (8 files + enrichment) →
+Tier 3 Observation (13 files + enrichment) → Tier 4 Collective (6 files) →
+Tier 5 Domain (6 files) → Bridges → Reference → Tổng kết
+
+### Translation notes
+- **Structure-heavy file**: tables, ASCII diagrams, file listings
+- File paths: keep EXACTLY as-is
+- Line counts in tables: these may not match current counts (file was written 2026-05-31)
+  - Decision: keep original counts OR update? → recommend keep (this is a reading guide, not audit)
+- Vietnamese descriptions per file: translate concisely
+- "Vai trò" column → "Role"
+- "Sau tier này, bạn hiểu..." → "After this tier, you understand..."
+- "Đọc tới đâu, hiểu tới đó" → "Read as far as you need — each tier is a level deeper"
+- "3 trụ cột" → "3 pillars" (Individual, Collective, Domain)
+- Pillar ASCII diagram: translate labels
+- Enrichment sections: "Đọc thêm nếu muốn sâu hơn" → "Optional deeper reading"
+- Bridges table: translate concise descriptions
+- Final note: "Không cần đọc 97 files" → "You don't need to read all 97 files"
+
+### Glossary impact
+- Minimal — this is a navigation file, uses terms defined elsewhere
+- Verify tier names are consistent with English versions of referenced files
+
+### Quality checkpoint
+- English reader can navigate the entire framework using only this file
+- Tier structure clear: each tier = 1 level of understanding
+- File descriptions accurate and inviting (not just dry listings)
+
+---
+
+## A12 — Auditory-Hardware.md ⭐ NEW
+
+| Field | Value |
+|---|---|
+| **Source** | Core-Deep-Dive/Auditory-Hardware.md |
+| **Lines** | 559 |
+| **Version** | v1.0 (2026-05-30) |
+| **English path** | English/Core-Deep-Dive/Auditory-Hardware.md |
+| **Difficulty** | MEDIUM — neuroscience + framework synthesis, heavy code blocks |
+| **Sessions** | 0.5 |
+
+### Read before translating
+- Vietnamese original (full)
+- English A09 (Modality.md) — this file deep-dives one modality
+- 00-Glossary.md
+
+### Structure
+§0 Position + Thesis → §1 6 Unique Hardware Properties (§1.1-§1.6) →
+§2 Cross-Parameter Mapping (§2.1-§2.8 + summary) →
+§3 Evolutionary Logic → §4 Honest Assessment → §5 Cross-References
+
+### Translation notes
+- **Heavily structured in code blocks** — preserve all box-drawing, alignment
+- §0 Thesis: "Sound = T1 hardware channel, NOT observation parameter"
+  - Camera/Microphone analogy: works perfectly in English
+- §1 Six properties: each has CLAIM → EVIDENCE → SO SÁNH → FRAMEWORK MAPPING pattern
+  - §1.1 Always-on: "con người KHÔNG CÓ 'eyelid' cho tai" → "humans have no 'eyelid' for ears"
+  - §1.2 Cross-barrier: physics + binaural — mostly English already
+  - §1.3 Pre-birth: DeCasper citations — keep verbatim
+  - §1.4 Temporal > Spatial: complementary prediction system
+  - §1.5 Activation efficiency: Grahn, Salimpoor, Blood & Zatorre — all English citations
+  - §1.6 Dual Tonic/Cyclic: MMN + cocktail party — translate framework labels
+- §2 Cross-parameter summary table: translate cell content, keep box-drawing EXACT
+- §3 Evolutionary: 4 pressures → translate naturally
+- §4 Honest assessment: 🟢/🟡/🔴 sections + caveats
+  - Caveat ⑤ "KHÔNG PHẢI sound quan trọng hơn" → "NOT claiming sound is more important"
+- §5 Cross-references: keep file paths, translate descriptions after →
+
+### Vietnamese cultural content
+- Minimal — this is a neuroscience file with very little cultural content
+- "Nghe bước chân bên kia tường → biết có người" → "Hearing footsteps through the wall → knowing someone is there"
+
+### Glossary impact
+- May add: "activation efficiency", "sentinel function"
+- Tonic/Cyclic labels — verify consistency with Gap-Body-Need.md terms
+- "T1 hardware property" — verify usage
+
+### Quality checkpoint
+- 6 properties clearly distinguished
+- Cross-parameter mapping table readable
+- Honest assessment preserves 🟢/🟡/🔴 balance
+- English reader understands WHY auditory is architecturally unique (not "better")
+
+---
+
 ## Phase A Completion Checklist
 
-After all 10 files:
+After all 12 files:
 - [ ] All files created in English/ with correct folder structure
 - [ ] 00-Glossary.md updated with any new terms discovered
-- [ ] plan-english-translation.md §5 Phase A checkboxes all ticked
-- [ ] Consistency review: shared concepts (Compiled/Fresh, 3-cost, PFC roles) use identical phrasing across all 10 files
+- [ ] plan-english-translation.md §4 Phase A checkboxes all ticked
+- [ ] Consistency review: shared concepts (Compiled/Fresh, 3-cost, PFC roles) use identical phrasing across all 12 files
 - [ ] Core-Software.md (A05) establishes vocabulary that Body-Feedback-Label (A01) defined
-- [ ] README.md (A03) works as standalone English entry point
+- [ ] README.md (A03) + Reading-Roadmap.md (A11) work as standalone English entry points
+- [ ] Auditory-Hardware.md (A12) cross-references consistent with Modality.md (A09)
+
+## Suggested groupings (can combine small files)
+
+| Session | Files | Lines | Note |
+|---|---|---|---|
+| 1 | A01 Body-Feedback-Label | 1,004 | Vocabulary foundation — do alone |
+| 2 | A02 PFC-Label | 1,014 | Vocabulary companion — do alone |
+| 3 | A03 README + A04 Core-Hardware + A11 Reading-Roadmap | 726 | Small files, combine |
+| 4 | A05 Core-Software (Part 1: §0-§6) | ~800 | Split large file |
+| 5 | A05 Core-Software (Part 2: §7-§13) | ~800 | Complete large file |
+| 6 | A06 Ask-AI + A09 Modality | 1,210 | Medium files, combine |
+| 7 | A07 Neural-Architecture + A08 Neural-Processing-Flow | 1,827 | Hardware pair |
+| 8 | A10 Blackbox-Map + A12 Auditory-Hardware | 1,445 | Hardware complement pair |
 
 ## Lessons to capture for Phase B plan
 
@@ -448,5 +531,6 @@ After completing Phase A, note:
 3. How did Vietnamese examples translate? (keep + annotate? replace?)
 4. Any glossary terms that needed revision?
 5. What was the biggest surprise / challenge?
+6. How did the new files (A11, A12) fit into the flow?
 
 → Feed these answers into plan-phase-B.md

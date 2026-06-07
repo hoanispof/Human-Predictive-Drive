@@ -1,8 +1,20 @@
 ---
 title: Resonance-Per-Entity — Per-Relationship Resonance Dynamics
-version: 1.0
+version: 1.1
 created: 2026-05-22
-status: OBSERVATION FILE v1.0
+refined: 2026-06-05 (v1.1 — Propagate Drill-Agent-Feed-Channel v2.2 insights Phase 5)
+status: OBSERVATION FILE v1.1
+changes_v1.1: |
+  ① §3 TẦNG 1 SUPPLY: +S5 agent-relevant source weight per entity
+    (4 sources + 2 mechanisms from Gap-Body-Need v2.0 §4)
+    + Friendship = mechanism-dominant insight
+  ② §4-§8 PER-ENTITY: +Layer 0 entrainment dimension per entity type
+    (Body-Coupling v3.1 §1.6, Drill-Agent-Feed-Channel v2.2 §2)
+  ③ §9 TABLE: +Layer 0 entrainment row
+  ④ §10 LIFECYCLE: +trajectory principle (converge → B-dominant)
+    (Entity-Access v1.3 §3.3, Drill §4)
+  ⑤ §0: +thesis ⑬⑭⑮, +claims C8-C10
+  ⑥ §17-§18: +honest assessment + cross-ref updates
 scope: |
   Per-entity resonance dynamics: CÙNG mechanism (by-product match) nhưng KHÁC dynamics
   per relationship type. Gap type + satiation profile + Reward-Signal-Architecture Evaluative:Direct-State → resonance profile RIÊNG.
@@ -10,6 +22,9 @@ scope: |
   Hardware-subsidy = anti-habituation spectrum. Compilation chain Fresh→Compiled→baseline→dynamics.
   Per-entity profiles: mẹ-con (asymmetric), bạn thân, romantic, first meeting, tool-mode, professional.
   Lifecycle resonance shift, ENGINE/ROAD/VEHICLE × resonance, technology frontier, phantom resonance.
+  v1.1: Agent-relevant source + mechanism weight per entity (Gap-Body-Need v2.0 §4).
+  Layer 0 entrainment per entity type (Body-Coupling v3.1 §1.6).
+  Trajectory principle: all starting modes converge → B-dominant (Entity-Access v1.3 §3.3).
 purpose: |
   By-Product-Gap-Resonance v1.4 = DEFINES resonance mechanism (what + conditions + enhancers).
   Bond-Architecture v2.0 = Entity-Compiled × 4 bond types (neurochemistry, Resonance Decline 2 Forces + 1 Fuel, gap clone impossible).
@@ -21,33 +36,34 @@ purpose: |
 position: |
   Core-Deep-Dive/Body-Base/Chunk/Agent-Mechanism/ — cùng folder By-Product-Gap-Resonance, Bond-Architecture, Resonance-Sustainability, By-Product-Scale.
   Level 2 in 4-level stack:
-    Gap-Body-Need v1.0 = per-gap landscape (Level 1)
-    ★ File này v1.0 = per-entity resonance dynamics (Level 2)
-    Entity-Valence-Dynamics v2.0 = valence behavior over time (Level 3)
-    Entity-Access v1.2 = gradient model, access level (Level 4)
+    Gap-Body-Need v2.0 = per-gap landscape (Level 1)
+    ★ File này v1.1 = per-entity resonance dynamics (Level 2)
+    Entity-Valence-Dynamics v1.3 = valence behavior over time (Level 3)
+    Entity-Access v1.3 = gradient model, access level (Level 4)
 dependencies:
   - By-Product-Gap-Resonance.md v1.4 — FOUNDATION: resonance definition, 5 trục, 4 conditions
   - Bond-Architecture.md v2.0 — COMPANION: Entity-Compiled × 4 bond types, Resonance Decline 2 Forces + 1 Fuel, gap clone impossible
   - Resonance-Sustainability.md v1.0 — COMPANION: 4-Layer sustainability model, 3 modalities
   - By-Product-Scale.md v1.0 — COMPANION: 3 scales (pair/hub/institutional)
-  - Gap-Body-Need.md v1.0 — PREREQUISITE: 3 Satiation Profiles, 5-Parameter, ENGINE/ROAD/VEHICLE
-  - Entity-Compiled.md v1.0 — MECHANISM: Hub-and-Spoke, Dunbar, formation, grief, decay
-  - Entity-Access.md v1.2 — GRADIENT: Mức 0-5, 3-Factor Model, excess, calibration
-  - Valence-Propagation.md v3.0 — CONTEXT: structural/current valence, 3 Firing Modes, Hardware-Subsidy
+  - Gap-Body-Need.md v2.0 — PREREQUISITE: 3 Satiation Profiles, 5-Parameter, ENGINE/ROAD/VEHICLE, §4 sources vs mechanisms, §11.3 3-layer architecture
+  - Entity-Compiled.md v1.2 — MECHANISM: Hub-and-Spoke, Dunbar, formation, grief, decay
+  - Entity-Access.md v1.3 — GRADIENT: Mức 0-5, 3-Factor Model, excess, calibration, §3.3 trajectory mechanism
+  - Entity-Valence-Dynamics.md v1.3 — CONTEXT: structural/current valence (§1), 3 Firing Modes (§4), Hardware-Subsidy (§5)
   - Inter-Body-Mechanism.md v1.0 — SOURCE: 3-cost model §4, compilation chain §5, by-product match §5.4
-  - Self-Pattern-Modeling.md v3.1 — ENGINE: Compiled/Fresh mechanism, Simulation-Engine application 1
-  - PFC-Operations.md v1.0 — MECHANISM: Hold/Suppress, Compiled/Fresh spectrum, PFC budget
-  - Simulation-Engine.md v1.0 — MECHANISM: 1 engine, 3 components, self/other model gradient
-  - Connection.md v4.0 — SOURCE: 3 Generative Primitives, 2-tầng/2-luồng architecture
-  - Reward-Signal-Architecture.md v2.0 — SOURCE: Evaluative/Direct-State reward, Reward-Signal-Architecture profiles
+  - Self-Pattern-Modeling.md v3.2 — ENGINE: Compiled/Fresh mechanism, Simulation-Engine application 1
+  - PFC-Operations.md v1.2 — MECHANISM: Hold/Suppress, Compiled/Fresh spectrum, PFC budget
+  - Simulation-Engine.md v1.2 — MECHANISM: 1 engine, 3 components, self/other model gradient
+  - Connection.md v5.0 — SOURCE: 3 Generative Primitives, 2-tầng/2-luồng architecture
+  - Reward-Signal-Architecture.md v2.1 — SOURCE: Evaluative/Direct-State reward, Reward-Signal-Architecture profiles
   - Gap-Distribution-Profile.md v1.0 — SUPPLY: per-person gap landscape, 4 trục
   - Love-Romantic.md v2.4 — APPLICATION: limerence → bonding phases
   - Empathy.md v3.0 — APPLICATION: Valence-Momentary/Valence-Structural cost, burnout mechanism
-  - Body-Coupling.md v2.0 — MECHANISM: coupling depth × direction
+  - Body-Coupling.md v3.1 — MECHANISM: coupling depth × direction, §1.6 entrainment Layer 0 substrate
   - Background-Pattern.md v1.1 — SOURCE: 2D model Depth × Density, schema match
   - Body-Feedback-Label.md v2.0 — VOCABULARY: 3-tier labels, prediction-delta
 sources:
   - Drill-By-Product-Resonance-Entity v2.0 (1,420L, 30 insights, 33 citations)
+  - Drill-Agent-Feed-Channel v2.2 (890L, 16 syntheses, 26 citations) — v1.1 source
 research:
   - R1 Schultz 1997 — Dopamine prediction error (VTA habituation)
   - R2 Fisher 2004 — Limerence = drive, not attachment
@@ -141,10 +157,10 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ### §0.1 — File position
 
 ```
-  Gap-Body-Need v1.0        = Per-gap landscape (Level 1)
-  ★ File này v1.0            = Per-entity resonance dynamics (Level 2)
-  Entity-Valence-Dynamics v2.0 = Valence behavior over time (Level 3)
-  Entity-Access v1.2         = Gradient model, access level (Level 4)
+  Gap-Body-Need v2.0        = Per-gap landscape (Level 1)
+  ★ File này v1.1            = Per-entity resonance dynamics (Level 2)
+  Entity-Valence-Dynamics v1.3 = Valence behavior over time (Level 3)
+  Entity-Access v1.3         = Gradient model, access level (Level 4)
   
   COMPANION FILES (cùng Agent-Mechanism/):
     By-Product-Gap-Resonance v1.4 = resonance DEFINITION + mechanism + conditions
@@ -180,6 +196,9 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   ⑩ Technology fill sensory → modern resonance frontier = social + abstract
   ⑪ Phantom resonance: entity lost → compiled patterns fire → no response → grief
   ⑫ Specialization → mỗi VEHICLE chuyên biệt → PHỤ THUỘC hơn vào resonance
+  ⑬ Agent-relevant source + mechanism weight KHÁC per entity (3-layer architecture applied)
+  ⑭ Layer 0 entrainment intensity KHÁC per entity (MAXIMUM → NHẸ)
+  ⑮ Trajectory principle: ALL starting modes converge → B-dominant via Novelty shift
 ```
 
 ### §0.3 — Claims
@@ -199,13 +218,19 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       🟢 Fisher 2004, Marazziti 2003, Acevedo 2012
   C7. Phantom resonance depth = f(compilation × subsidy × Valence-Structural × duration)
       🟡 Framework synthesis — grief research + Entity-Compiled mechanism
+  C8. Agent-relevant source weight differs per entity type (4 sources + 2 mechanisms)
+      🟡 Framework synthesis from Gap-Body-Need v2.0 §4 + Drill-Agent-Feed-Channel v2.2 §3
+  C9. Layer 0 entrainment intensity varies per entity type (MAXIMUM → NHẸ)
+      🟡 Framework synthesis from Body-Coupling v3.1 §1.6 + Drill-Agent-Feed-Channel v2.2 §2
+  C10. All starting modes converge → B-dominant via Novelty shift hardware → compilable
+      🟡 Framework synthesis from Entity-Access v1.3 §3.3 + Drill-Agent-Feed-Channel v2.2 §4
 ```
 
 ---
 
 ## §1 — COMPILATION CHAIN: Fresh → Compiled → BASELINE → DYNAMICS
 
-> Inter-Body-Mechanism v1.0 §5 (compilation chain) + §4 (3-cost model) + PFC-Operations v1.0 (Compiled/Fresh spectrum).
+> Inter-Body-Mechanism v1.0 §5 (compilation chain) + §4 (3-cost model) + PFC-Operations v1.2 (Compiled/Fresh spectrum).
 
 ```
 ⭐⭐ 4 STAGES OF RESONANCE COMPILATION:
@@ -242,7 +267,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → "Hiểu nhau không cần nói" = Compiled predict accurate
       → Entity-Compiled DEEPENING across channels
       → Trust building → Self-Pattern-Modeling calibration improving
-      → COMPILED QUALITY matters (PFC-Operations v1.0):
+      → COMPILED QUALITY matters (PFC-Operations v1.2):
         Genuine compilation = from repeated VERIFIED match → STRONG
         Schema compilation = from "nên thân" belief → FRAGILE
     
@@ -260,7 +285,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Entity presence = part of BASELINE → VTA habituated (R1 Schultz 1997)
       → Reward = INVISIBLE (PFC "không thấy gì đặc biệt")
       → Entity ABSENT → baseline violated → Chunk-Miss → "nhớ"
-      → Entity-Compiled established (Entity-Compiled v1.0) → structural inclusion
+      → Entity-Compiled established (Entity-Compiled v1.2) → structural inclusion
       → "Hóa ra vui lắm" = only visible through ABSENCE
       
   STAGE 4 — DYNAMICS (post-baseline):
@@ -297,7 +322,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟢 Fresh→Compiled compilation: Inter-Body-Mechanism v1.0 §5
   🟢 VTA habituation: R1 Schultz 1997
   🟢 3-cost model: Inter-Body-Mechanism v1.0 §4 (PFC draft, suppress, uncertainty)
-  🟢 Compiled Quality: PFC-Operations v1.0 (genuine vs schema)
+  🟢 Compiled Quality: PFC-Operations v1.2 (genuine vs schema)
   🟡 3-cost mapping per stage + rate variation per entity = framework synthesis
 ```
 
@@ -305,7 +330,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §2 — HARDWARE-SUBSIDY: ANTI-HABITUATION SPECTRUM
 
-> Entity-Valence-Dynamics.md v1.0 §5 (Hardware-Subsidy), Gap-Body-Need v1.0 §4 (hardware gaps), Reward-Signal-Architecture v2.0 §1 (Evaluative/Direct-State).
+> Entity-Valence-Dynamics.md v1.3 §5 (Hardware-Subsidy), Gap-Body-Need v2.0 §4 (hardware gaps), Reward-Signal-Architecture v2.1 §1 (Evaluative/Direct-State).
 
 ```
 ⭐⭐ KEY ARCHITECTURAL INSIGHT:
@@ -388,7 +413,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §3 — 3-TẦNG PER-ENTITY MODEL
 
-> Gap-Body-Need v1.0 §6 (5-Parameter), Connection v4.0 §3 (2-tầng/2-luồng), Inter-Body-Mechanism v1.0 §4 (3-cost).
+> Gap-Body-Need v2.0 §6 (5-Parameter), §4 (sources vs mechanisms). Connection v5.0 §3 (2-tầng/2-luồng). Inter-Body-Mechanism v1.0 §4 (3-cost).
 
 ```
 ⭐⭐ MỖI ENTITY TYPE → RESONANCE PROFILE RIÊNG, QUAN SÁT QUA 3 TẦNG:
@@ -399,7 +424,51 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   │ S2. Satiation profile: Cyclic / Tonic / Generative proportion  │
   │ S3. Reward-Signal-Architecture Evaluative:Direct-State ratio: Evaluative vs Direct-State reward   │
   │ S4. Gap count: single-gap (Tool) vs multi-gap (Agent-mode)     │
+  │ S5. Agent-relevant source + mechanism weight ★ v1.1:           │
+  │     Layer 1 SOURCES: 4 hardware sources — WHICH fire? HOW strong?  │
+  │       (Sexual/aesthetic, Parental drive, Touch/Comfort, Safety)│
+  │     Layer 2 MECHANISMS: Novelty ⑤ + Gap-Fillability ⑥ weight   │
+  │       (Gap-Body-Need v2.0 §4: 4 sources + 2 mechanisms)       │
   └──────────────────────────────────────────────────────────────────┘
+
+  ⭐ S5 AGENT-RELEVANT WEIGHT PER ENTITY (quick reference) ★ v1.1:
+
+    Gap-Body-Need v2.0 §4: 4 SOURCES (bounded, fire cho 1 loại input)
+      + 2 MECHANISMS (unbounded, cross-source).
+    NOTE: "source ①②③④" ở table dưới = 4 hardware sources (Gap-Body-Need v2.0 §4.1),
+      KHÁC "①-⑤" của TẦNG 2 MECHANISM phía dưới (hardware-subsidy, compilation...).
+
+    ┌─────────────┬──────────────────────────────────┬──────────────────────────┐
+    │ Entity      │ Source weight (Layer 1)           │ Mechanism weight (Layer 2)│
+    ├─────────────┼──────────────────────────────────┼──────────────────────────┤
+    │ Mẹ→con     │ Parental ② PRIMARY                │ Novelty ⑤: AUTO          │
+    │             │ Touch ③ strong                    │ Gap-Fillability ⑥: MAX   │
+    │             │ Safety ④ moderate                 │                          │
+    ├─────────────┼──────────────────────────────────┼──────────────────────────┤
+    │ Con→mẹ     │ Safety ④ PRIMARY → shift          │ Novelty ⑤: LOW           │
+    │             │ Touch ③ secondary                 │ Gap-Fillability ⑥: ↑ age │
+    ├─────────────┼──────────────────────────────────┼──────────────────────────┤
+    │ Bạn thân   │ ①②③④ ALL LOW                     │ Novelty ⑤: DOMINANT ★    │
+    │             │ (mechanism-dominant entity)        │ Gap-Fillability ⑥: ↑ EC  │
+    ├─────────────┼──────────────────────────────────┼──────────────────────────┤
+    │ Romantic    │ Sexual ① PRIMARY (limerence)      │ Novelty ⑤: INFLATED      │
+    │ (limerence) │ ALL INFLATED by hormone           │ Gap-Fillability ⑥: ↑     │
+    ├─────────────┼──────────────────────────────────┼──────────────────────────┤
+    │ Người lạ   │ Sexual ① only (if attractive)     │ Novelty ⑤: one-shot      │
+    │             │ or ≈ 0                            │ Gap-Fillability ⑥: ≈ 0   │
+    └─────────────┴──────────────────────────────────┴──────────────────────────┘
+
+    ⭐ FRIENDSHIP = MECHANISM-DOMINANT, NOT SOURCE-DOMINANT:
+      Bạn thân = entity type DUY NHẤT có Novelty ⑤ = PRIMARY DRIVER
+      + TẤT CẢ 4 hardware sources đều THẤP
+      → Driven by MECHANISM (VTA prediction-delta on shared compiled domain)
+        KHÔNG driven by any specific hardware SOURCE
+      → "Cứ vui thì chơi" = Novelty mechanism on shared compiled chunks
+      → "Chán bạn" = Novelty mechanism stopped (no more prediction-delta)
+      → Cần SHARED CHUNKS: không overlap interests → no delta → no friendship
+      🟡 Friendship = mechanism-dominant = framework synthesis
+      🟢 Gap-Body-Need v2.0 §4.2: Novelty = mechanism cross-source
+      🟢 Drill-Agent-Feed-Channel v2.2 §3: per-entity profile mapping
 
   TẦNG 2 — MECHANISM (resonance HOẠT ĐỘNG thế nào):
   ┌──────────────────────────────────────────────────────────────────┐
@@ -430,8 +499,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     
   🟡 3-tầng per-entity model = framework synthesis
   🟢 Component models established independently:
-      5-Parameter (Gap-Body-Need v1.0 §6), 3-cost (Inter-Body-Mechanism v1.0 §4),
-      2-tầng (Connection v4.0 §3.2b), 2-luồng (Connection v4.0 §3.3b),
+      5-Parameter (Gap-Body-Need v2.0 §6), 3-cost (Inter-Body-Mechanism v1.0 §4),
+      2-tầng (Connection v5.0 §3.2b), 2-luồng (Connection v5.0 §3.3b),
       Resonance Decline 2 Forces + 1 Fuel (Bond-Architecture v2.0 §4)
 ```
 
@@ -439,15 +508,22 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §4 — RESONANCE × MẸ-CON (asymmetric)
 
-> Entity-Compiled v1.0 §5 (parent-child), Bond-Architecture v2.0 §2.2-§2.3 (bond types), Gap-Body-Need v1.0 §12 (existence-based gaps).
+> Entity-Compiled v1.2 §5 (parent-child), Bond-Architecture v2.0 §2.2-§2.3 (bond types), Gap-Body-Need v2.0 §12 (existence-based gaps).
 
 ### §4.1 — Mẹ → Con
 
 ```
 ⭐⭐ MẸ→CON = UNIQUE RESONANCE PROFILE:
 
+  LAYER 0 — ENTRAINMENT (Body-Coupling v3.1 §1.6) ★ v1.1:
+    Intensity: MAXIMUM
+    Oxytocin 4-system sync (R12 Feldman 2012): heart rate, cortisol, breathing, facial
+    Co-regulation DOMINANT → mẹ calm → con calm (Sbarra & Hazan 2008)
+    → Amplifies ALL source fills (Layer 1) + mechanism accuracy (Layer 2)
+    → "Ở gần mẹ = tự nhiên yên" = entrainment MAXIMUM × hardware-subsidy MAXIMUM
+
   TẦNG 1 — SUPPLY:
-    S1. Gaps filled: EXISTENCE-BASED (Gap-Body-Need v1.0 §12)
+    S1. Gaps filled: EXISTENCE-BASED (Gap-Body-Need v2.0 §12)
         Con tồn tại = fill parental drive gap LIÊN TỤC
     S2. Satiation: Tonic (unique — slow habituation, NO sharp cutoff)
         + hardware oxytocin ANTI-HABITUATION → "chưa bao giờ chán"
@@ -468,12 +544,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
         → = "Con chưa làm gì, mẹ đã thương"
     ③ Cost: ≈ 0 (hardware-compiled, no suppress, no uncertainty)
     ④ 2-tầng: Tầng Hardware DOMINANT (hardware-driven, pre-Self-Pattern-Modeling)
-        Infant 0-6m: ❶ only (social smile, sync — Connection v4.0 §3.2b)
+        Infant 0-6m: ❶ only (social smile, sync — Connection v5.0 §3.2b)
         Toddler+: ❶ + ❷ compound (hardware + Self-Pattern-Modeling developing)
     ⑤ 2-luồng: Valence-Structural DOMINANT (structural)
-        Con = body-base extension → con's state = MY state (Entity-Compiled v1.0 §3)
+        Con = body-base extension → con's state = MY state (Entity-Compiled v1.2 §3)
         Valence-Momentary (momentary) present but Valence-Structural DRIVES behavior
-        → Mẹ sacrifice = Valence-Structural override Valence-Momentary negative (Connection v4.0 §3.3b)
+        → Mẹ sacrifice = Valence-Structural override Valence-Momentary negative (Connection v5.0 §3.3b)
         → "Mẹ mệt nhưng vẫn chăm con" = Valence-Structural > Valence-Momentary
         
   TẦNG 3 — DYNAMICS:
@@ -512,6 +588,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 ⭐ CON→MẸ = EPISODIC + MIXED + LIFECYCLE-DEPENDENT:
+
+  LAYER 0 — ENTRAINMENT (Body-Coupling v3.1 §1.6) ★ v1.1:
+    Intensity: CAO (attachment scaffold, R24 Bowlby 1969)
+    Yếu hơn mẹ direction nhưng PRESENT (asymmetric entrainment)
+    Con seek proximity → entrainment maintain → calm signal
+    → "Con bất an khi xa mẹ" = entrainment CẮT → body lost co-regulation source
 
   TẦNG 1 — SUPPLY:
     S1. Gaps filled: MULTIPLE HARDWARE GAPS (episodic, not existence-based)
@@ -573,10 +655,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §5 — RESONANCE × BẠN THÂN
 
-> Bond-Architecture v2.0 §2.5 (friendship bond), Resonance-Sustainability v1.0 §13 (dormant ties), Gap-Body-Need v1.0 §5 (domain gaps).
+> Bond-Architecture v2.0 §2.5 (friendship bond), Resonance-Sustainability v1.0 §13 (dormant ties), Gap-Body-Need v2.0 §5 (domain gaps).
 
 ```
 ⭐ BẠN THÂN = GENUINE BY-PRODUCT MATCH, FRAGILE WITHOUT MAINTENANCE:
+
+  LAYER 0 — ENTRAINMENT (Body-Coupling v3.1 §1.6) ★ v1.1:
+    Intensity: VỪA (no hardware boost, Entity-Compiled modulate)
+    Proximity-dependent → online = PARTIAL → entrainment decay faster
+    → "Gặp bạn thoải mái" PHẦN NÀO = entrainment VỪA (co-regulation nhẹ)
+    → Friendship KHÔNG dựa vào entrainment — dựa vào Novelty mechanism (§3 S5)
 
   TẦNG 1 — SUPPLY:
     S1. Gaps filled: novelty + shared interests + fun + emotional support
@@ -650,6 +738,15 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ```
 ⭐⭐ ROMANTIC = 2 PHASES HOÀN TOÀN KHÁC CƠ CHẾ:
+
+  LAYER 0 — ENTRAINMENT (Body-Coupling v3.1 §1.6) ★ v1.1:
+    Limerence: INFLATED (hormone amplify sync, R2 Fisher 2004)
+      Dopamine + NE → sensitivity ↑ → entrainment artificially MẠNH
+      → "Ngồi cạnh = tim đập cùng nhịp" = entrainment INFLATED by hormone
+    Post-limerence: → STANDARD (entrainment reveals actual intensity)
+      Genuine: Entity-Compiled deep → entrainment MODERATE-STRONG
+      No match: Entity-Compiled shallow → entrainment fades toward VỪA
+    → Entrainment trajectory mirrors hardware-subsidy: TEMPORARY → REVEAL
 
   PHASE 1 — LIMERENCE (0-18-36 tháng):
 
@@ -760,6 +857,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 ```
 ⭐ KHI Entity-Compiled = 0, RESONANCE BẮT ĐẦU TỪ ĐÂU?
 
+  LAYER 0 — ENTRAINMENT (Body-Coupling v3.1 §1.6) ★ v1.1:
+    Intensity: NHẸ (hardware baseline only, no Entity-Compiled amplify)
+    Stranger bình tĩnh → slight calm signal. Hết khi rời.
+    → Entrainment NHẸ nhưng CÓ: co-regulation minimal, co-dysregulation minimal
+    → "Ngồi cạnh người lạ bình tĩnh → dễ chịu nhẹ" = entrainment hardware baseline
+
   Entity-Compiled = 0 → NO Compiled, NO Valence-Structural, NO Entity-Compiled
   NHƯNG: interaction CÓ THỂ xảy ra → by-product match CÓ THỂ ngay lập tức
   
@@ -816,7 +919,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §8 — RESONANCE × TOOL-MODE + PROFESSIONAL
 
-> Self-Pattern-Modeling v3.1 §3 (Compiled/Fresh + Agent/Tool), Empathy v3.0 §4 (Valence-Momentary/Valence-Structural cost), By-Product-Gap-Resonance v1.4 §4 (Tool vs Agent).
+> Self-Pattern-Modeling v3.2 §3 (Compiled/Fresh + Agent/Tool), Empathy v3.0 §4 (Valence-Momentary/Valence-Structural cost), By-Product-Gap-Resonance v1.4 §4 (Tool vs Agent).
 
 ### §8.1 — Tool-mode entities
 
@@ -836,7 +939,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     NHƯNG: Self-Pattern-Modeling on bưu tá = Tool-mode (predict function only)
     → = MY Self-Pattern-Modeling configuration, not bưu tá's nature
     → Same person: Tool-mode for me, Agent-mode for their spouse
-    → = Self-Pattern-Modeling mode = PER-PAIR, PER-PERSON decision (Self-Pattern-Modeling v3.1 §3)
+    → = Self-Pattern-Modeling mode = PER-PAIR, PER-PERSON decision (Self-Pattern-Modeling v3.2 §3)
 ```
 
 ### §8.2 — Colleague (Tool↔Agent shift)
@@ -961,6 +1064,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
    (consolidates §4-§8 into single 3-tầng × entity type matrix)
 ```
 
+#### LAYER 0 — ENTRAINMENT ★ v1.1
+
+| Parameter | MẸ→CON | CON→MẸ (trẻ) | BẠN THÂN | ROMANTIC (post-Limerence) | COLLEAGUE (Agent-mode) |
+|---|---|---|---|---|---|
+| Entrainment intensity | MAXIMUM (oxytocin 4-system) | CAO (attachment scaffold) | VỪA (no hardware boost) | INFLATED→STANDARD | MINIMAL (limited proximity) |
+
 #### TẦNG 1 — SUPPLY
 
 | Parameter | MẸ→CON | CON→MẸ (trẻ) | BẠN THÂN | ROMANTIC (post-Limerence) | COLLEAGUE (Agent-mode) |
@@ -968,6 +1077,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Primary gap satiation | Existence (Tonic, unique) | Multi-hardware (Cyclic + Tonic mix) | Generative + Tonic compound | Multi (Tonic + Generative) | Domain + Social (Generative) |
 | Reward-Signal-Architecture Evaluative:Direct-State ratio | ~40:60 (Direct-State warm) | ~50:50 (balanced) | ~70:30 (Evaluative exciting) | ~60:40 (mixed) | ~85:15 (Evaluative dominant) |
 | Gap count | Multi (unified meta-gap) | Multi (episodic) | Multi (shared) | Multi (diverse) | Single→Multi (if Agent) |
+| Primary source (S5) ★ v1.1 | Parental ② + Touch ③ | Safety ④ + Touch ③ | ALL LOW (mechanism-dominant) | Sexual ① (limerence) | Domain (compilable) |
+| Primary mechanism (S5) ★ v1.1 | Novelty ⑤ AUTO, ⑥ MAX | ⑤ LOW, ⑥ ↑age | ⑤ DOMINANT ★ | ⑤ INFLATED | ⑤ domain-dependent |
 
 #### TẦNG 2 — MECHANISM
 
@@ -998,12 +1109,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §10 — LIFECYCLE: RESONANCE SHIFT THEO TUỔI
 
-> Gap-Body-Need v1.0 §7 (hardware × domain competition), Gap-Distribution-Profile v1.0 §3 (4 trục gap landscape).
+> Gap-Body-Need v2.0 §7 (hardware × domain competition), Gap-Distribution-Profile v1.0 §3 (4 trục gap landscape).
 
 ```
 ⭐ RESONANCE PROFILE THAY ĐỔI VÌ GAP LANDSCAPE THAY ĐỔI:
 
-  ⭐ MECHANISM-LEVEL WHY (Gap-Body-Need v1.0 §7):
+  ⭐ MECHANISM-LEVEL WHY (Gap-Body-Need v2.0 §7):
     Gap landscape = f(hardware + compiled chunks + collective-arc)
     Compiled chunks TĂNG theo tuổi → gap landscape EXPAND + SHIFT
     → Entity nào fill gap nào → CHANGES → resonance profile CHANGES
@@ -1059,18 +1170,69 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   🟡 Lifecycle resonance shift with mechanism-level WHY = framework synthesis
   🟢 Consistent with: developmental psychology, R22 Arnett 2004 (emerging adulthood)
   🟢 R27 Baumeister & Leary 1995: belongingness = fundamental human need
+
+
+  ⭐⭐ TRAJECTORY PRINCIPLE: ALL CONVERGE → B-DOMINANT ★ v1.1:
+
+    Entity-Access v1.3 §3.3: Novelty ⑤ SHIFT từ hardware-end → compilable-end.
+    = GENERAL PRINCIPLE áp dụng cho TẤT CẢ starting modes.
+
+    ACROSS LIFECYCLE, mọi healthy relationship:
+
+    ┌──────────────┬────────────────────────────────────────────────────┐
+    │ Start mode   │ Trajectory → B-dominant                           │
+    ├──────────────┼────────────────────────────────────────────────────┤
+    │ Hardware     │ ⑤ fire ON ②③ milestones → SHIFT to compilable    │
+    │ (mẹ→con)    │ = "Làm bạn với con" (§10: 0-3 → 3-12 → teen)     │
+    ├──────────────┼────────────────────────────────────────────────────┤
+    │ Limerence    │ Hormone ⑤ → fades → genuine ⑤ on compilable      │
+    │ (romantic)   │ = "Bạn đời" (§10: 20-35 tuổi transition)         │
+    ├──────────────┼────────────────────────────────────────────────────┤
+    │ By-product   │ ⑤ ALREADY compilable-dominant = optimal           │
+    │ (bạn thân)  │ = "Cứ vui thì chơi" (purest test)                │
+    ├──────────────┼────────────────────────────────────────────────────┤
+    │ Schema       │ D provides context → genuine B develops within    │
+    │ (đồng nghiệp)│ = "Bạn đồng nghiệp" (§10: 35-60 transition)    │
+    └──────────────┴────────────────────────────────────────────────────┘
+
+    CONNECT TO LIFECYCLE:
+      0-3: Hardware start → ⑤ on hardware milestones (walk, talk)
+      3-12: ⑤ BEGINS shift → compilable (con explore, peer Generative)
+      13-18: ⑤ shift ACCELERATE → compilable dominant
+        "Làm bạn với con" = support shift, maintain ② base
+      20-35: romantic ⑤ shift post-limerence → compilable
+        "Bạn đời" = genuine B reveals after hormone fades
+      35-60: parental ⑤ restart cycle with own children
+      60+: ⑤ narrows → familiar compilable domain
+
+    STUCK = NOT CONVERGING → PATHOLOGICAL:
+      Entity-Access v1.3 §3.3: 3 mechanisms đồng thời:
+        ① gap landscape expand (② proportion shrink)
+        ② schema overlay C+D (autonomy violated)
+        ③ ⑤ = 0 (control → no prediction-delta)
+      → Lifecycle stage MÀ relationship STUCK = red flag
+      → VD: 35-60 mà mẹ→con vẫn A+C dominant → helicopter/tiger trajectory
+
+    "BẠN" TRONG TÊN GỌI = B-DOMINANT DESTINATION:
+      "Làm bạn với con", "Bạn đời", "Bạn đồng nghiệp"
+      → Tiếng Việt captures B-dominant naturally
+      → Entity-Access v1.3 §3.2 + §3.3 (mechanism)
+
+  🟡 Trajectory principle applied to lifecycle = framework synthesis (v1.1)
+  🟢 Entity-Access v1.3 §3.3: Novelty shift trajectory mechanism
+  🟢 Drill-Agent-Feed-Channel v2.2 §4: all converge → B-dominant
 ```
 
 ---
 
 ## §11 — ENGINE/ROAD/VEHICLE × RESONANCE
 
-> Gap-Body-Need v1.0 §9 (ENGINE/ROAD/VEHICLE architecture), By-Product-Scale v1.0 §6 (institutional scale).
+> Gap-Body-Need v2.0 §9 (ENGINE/ROAD/VEHICLE architecture), By-Product-Scale v1.0 §6 (institutional scale).
 
 ```
-⭐⭐ ÁP DỤNG KIẾN TRÚC TỪ Gap-Body-Need v1.0 §9:
+⭐⭐ ÁP DỤNG KIẾN TRÚC TỪ Gap-Body-Need v2.0 §9:
 
-  Gap-Body-Need v1.0 §9: ENGINE (Hardware) / ROAD (Collective-Arc) / VEHICLE (Compilation)
+  Gap-Body-Need v2.0 §9: ENGINE (Hardware) / ROAD (Collective-Arc) / VEHICLE (Compilation)
   
   RESONANCE = 2 VEHICLE TƯƠNG TÁC TRÊN CÙNG ROAD:
   
@@ -1094,12 +1256,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → ROAD quality → determines WHICH interactions CAN happen
     
   VEHICLE ALIGNMENT → COMPILED RESONANCE QUALITY:
-    Compilation = individual's chains (15-20 năm build — Gap-Body-Need v1.0 §8)
+    Compilation = individual's chains (15-20 năm build — Gap-Body-Need v2.0 §8)
     → 2 entities cùng compile similar domains → DEEP resonance ở domain đó
     → 2 nhà toán: VEHICLE alignment trong toán → deep domain resonance
     → 2 nhà toán khác lĩnh vực: VEHICLE diverge ngoài toán → limited outside
 
-  ⭐ SPECIALIZATION TRADE-OFF (Gap-Body-Need v1.0 §9):
+  ⭐ SPECIALIZATION TRADE-OFF (Gap-Body-Need v2.0 §9):
     Specialization → mỗi VEHICLE chuyên biệt hơn
     → Individually WEAKER (bác sĩ trong rừng ≈ baby — compiled chains non-transferable)
     → Collectively STRONGER (mỗi người fill niche → society covers ALL gaps)
@@ -1114,7 +1276,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
       → Diversified resonance portfolio = MORE RESILIENT
     → R29 Durkheim 1893: organic solidarity — specialized units NEED each other
 
-  🟢 ENGINE/ROAD/VEHICLE: Gap-Body-Need v1.0 §9
+  🟢 ENGINE/ROAD/VEHICLE: Gap-Body-Need v2.0 §9
   🟢 Specialization: R29 Durkheim 1893
   🟡 Architecture applied to resonance + specialization implication = framework synthesis
 ```
@@ -1123,12 +1285,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §12 — TECHNOLOGY FILL × MODERN RESONANCE FRONTIER
 
-> Gap-Body-Need v1.0 §10 (technology fill per-domain), Reward-Signal-Architecture v2.0 §4 (reward profiles).
+> Gap-Body-Need v2.0 §10 (technology fill per-domain), Reward-Signal-Architecture v2.1 §4 (reward profiles).
 
 ```
 ⭐⭐ TECHNOLOGY FILL THAY ĐỔI RESONANCE LANDSCAPE:
 
-  Gap-Body-Need v1.0 §10: Technology đã fill phần lớn sensory baseline.
+  Gap-Body-Need v2.0 §10: Technology đã fill phần lớn sensory baseline.
   
   APPLIED TO RESONANCE:
   
@@ -1172,7 +1334,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §13 — COLLECTIVE-ARC BIAS ON ENTITY SELECTION
 
-> Gap-Body-Need v1.0 §13 (collective-arc bias), PFC-Operations v1.0 (compiled suppress).
+> Gap-Body-Need v2.0 §13 (collective-arc bias), PFC-Operations v1.2 (compiled suppress).
 
 ```
 ⭐ COLLECTIVE QUYẾT ĐỊNH ENTITY NÀO ĐƯỢC ƯU TIÊN:
@@ -1196,7 +1358,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → Genuine resonance MASKED by schema overlay
     
   ⭐ SCHEMA ≠ GENUINE RESONANCE:
-    Schema-driven entity selection → relief tag (not opioid) — Reward-Signal-Architecture v2.0 §1
+    Schema-driven entity selection → relief tag (not opioid) — Reward-Signal-Architecture v2.1 §1
     Genuine resonance → opioid tag
     → Schema friend: "phải chơi vì đồng nghiệp" → flat, professional
     → Genuine friend: "chơi vì vui" → warm, sustainable
@@ -1211,14 +1373,14 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     → RISK: time on parasocial → LESS time for genuine → resonance DECLINE
 
   🟡 Collective bias + technology era = framework synthesis
-  🟢 Compiled quality dimension: PFC-Operations v1.0 (genuine vs schema)
+  🟢 Compiled quality dimension: PFC-Operations v1.2 (genuine vs schema)
 ```
 
 ---
 
 ## §14 — "CHÁN" QUA RESONANCE LENS
 
-> Bond-Architecture v2.0 §4 (Resonance Decline 2 Forces + 1 Fuel), Boredom v2.1 §3 (6 sources), Gap-Body-Need v1.0 §3 (profile compounds).
+> Bond-Architecture v2.0 §4 (Resonance Decline 2 Forces + 1 Fuel), Boredom v2.1 §3 (6 sources), Gap-Body-Need v2.0 §3 (profile compounds).
 
 ```
 ⭐⭐ "CHÁN" = RESONANCE DECLINE QUA 2 FORCES + 1 FUEL (Bond-Architecture v2.0 §4):
@@ -1259,7 +1421,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Fix Compiled-Suppress = LEVERAGE POINT → counter cả Reward-Habituated và novelty depletion.
 
   ⭐ TONIC + GENERATIVE COMPOUND LOSS:
-    Most relationships = Tonic + Generative compound (Gap-Body-Need v1.0 §3)
+    Most relationships = Tonic + Generative compound (Gap-Body-Need v2.0 §3)
     "Chán" = Generative component dies, Tonic survives
     → "Vẫn thoải mái nhưng không exciting" = Tonic intact, Generative dead
     → Compiled-Suppress attacks BOTH Tonic AND Generative
@@ -1308,12 +1470,12 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 
 ## §15 — PHANTOM RESONANCE × GRIEF
 
-> Entity-Compiled v1.0 §8 (grief mechanism), Bond-Architecture v2.0 §2 (per-bond neurochemistry).
+> Entity-Compiled v1.2 §8 (grief mechanism), Bond-Architecture v2.0 §2 (per-bond neurochemistry).
 
 ```
 ⭐⭐ PHANTOM RESONANCE = ENTITY LOST → COMPILED PATTERNS FIRE → NO RESPONSE:
 
-  MECHANISM (from Entity-Compiled v1.0 §8 + Gap-Body-Need v1.0 §12 phantom gap):
+  MECHANISM (from Entity-Compiled v1.2 §8 + Gap-Body-Need v2.0 §12 phantom gap):
     Entity compiled across channels → presence = BASELINE
     Entity lost → compiled patterns FIRE on triggers → predicted response = X
     → Actual response = NOTHING → prediction-delta NEGATIVE → body-feedback = pain
@@ -1402,8 +1564,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
     Dynamics: VEHICLE alignment rare (§11 — chỉ vài VEHICLE compile physics đủ sâu).
     
   FRAMEWORK EXPLAINS:
-    Axis-4 (chain to body-base) = 0 → Pathway 1 direct coherence → opioid (Gap-Body-Need v1.0 §8).
-    Axis-5 (collective dependency) = MAX → centuries of physics needed (Gap-Body-Need v1.0 §6).
+    Axis-4 (chain to body-base) = 0 → Pathway 1 direct coherence → opioid (Gap-Body-Need v2.0 §8).
+    Axis-5 (collective dependency) = MAX → centuries of physics needed (Gap-Body-Need v2.0 §6).
     → Axis-4 × Axis-5 INDEPENDENT: direct reward nhưng rely on massive collective infrastructure.
     → Resonance portfolio NARROW (domain) → fragile if domain entity lost.
     → "Genius is lonely" = VEHICLE too specialized → fewer possible resonance matches.
@@ -1483,7 +1645,7 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Compassion fatigue, burnout: R31 Figley 2002, Maslach 2001
   Serotonin↓ in limerence: R32 Marazziti 2003
   3-cost independent sources: Inter-Body-Mechanism v1.0 §4
-  Evaluative/Direct-State reward: Reward-Signal-Architecture v2.0 §1 (Berridge 2003, Loseth 2019)
+  Evaluative/Direct-State reward: Reward-Signal-Architecture v2.1 §1 (Berridge 2003, Loseth 2019)
   Self-expansion model: Aron & Aron 1996
 
 ═══════════════════════════════════════
@@ -1504,6 +1666,11 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
   Valence-Momentary/Valence-Structural mismatch as therapist burnout mechanism
   Per-entity "chán" vulnerability analysis
   Lifecycle resonance shift with mechanism-level WHY
+  ★ v1.1:
+  Agent-relevant source + mechanism weight per entity (S5, §3)
+  Layer 0 entrainment intensity per entity type (§4-§8)
+  Friendship = mechanism-dominant (Novelty ⑤ primary, not source-dominant) (§3 S5)
+  Trajectory principle: all converge → B-dominant via Novelty shift (§10)
 
 ═══════════════════════════════════════
 🔴 HYPOTHESIS (insufficient data)
@@ -1527,8 +1694,8 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 |------|----------|-------------|
 | By-Product-Gap-Resonance v1.4 | §1-§6 | FOUNDATION: resonance definition + 5 trục + conditions |
 | Inter-Body-Mechanism v1.0 | §4 (3-cost), §5 (chain) | SOURCE: cost model + compilation |
-| Reward-Signal-Architecture v2.0 | §1 (Evaluative/Direct-State), §4 (profiles) | SOURCE: Reward-Signal-Architecture Evaluative/Direct-State integration |
-| Connection v4.0 | §3 (3 primitives, 2-tầng, 2-luồng) | SOURCE: mechanism architecture |
+| Reward-Signal-Architecture v2.1 | §1 (Evaluative/Direct-State), §4 (profiles) | SOURCE: Reward-Signal-Architecture Evaluative/Direct-State integration |
+| Connection v5.0 | §3 (3 primitives, 2-tầng, 2-luồng) | SOURCE: mechanism architecture |
 
 ### §18.2 — Companion files (Agent-Mechanism/)
 
@@ -1537,18 +1704,18 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 | Bond-Architecture v2.0 | §2 (4 bonds), §4 (Resonance Decline 2 Forces + 1 Fuel) | COMPANION: per-bond mechanics |
 | Resonance-Sustainability v1.0 | §1-§14 (4-Layer model) | COMPANION: sustainability conditions |
 | By-Product-Scale v1.0 | §0-§11 (3 scales) | COMPANION: pair/hub/institutional |
-| Entity-Compiled v1.0 | §3-§8 | MECHANISM: Entity-Compiled formation, grief, decay |
-| Entity-Access v1.2 | §1-§5 | GRADIENT: Mức 0-5, quality, excess |
-| Self-Pattern-Modeling v3.1 | §2 (Compiled/Fresh), §4 (context) | ENGINE: entity evaluation |
+| Entity-Compiled v1.2 | §3-§8 | MECHANISM: Entity-Compiled formation, grief, decay |
+| Entity-Access v1.3 | §1-§5, §3.3 (trajectory) | GRADIENT: Mức 0-5, quality, excess, trajectory mechanism |
+| Self-Pattern-Modeling v3.2 | §2 (Compiled/Fresh), §4 (context) | ENGINE: entity evaluation |
 
 ### §18.3 — Prerequisite + context files
 
 | File | Sections | Relationship |
 |------|----------|-------------|
-| Gap-Body-Need v1.0 | §2-§14 | PREREQUISITE: gap types, 5P, ENGINE/ROAD/VEHICLE |
-| Valence-Propagation v3.0 | §3-§6 | CONTEXT: structural/current, Firing Modes, Hardware-Subsidy |
+| Gap-Body-Need v2.0 | §2-§14, §4 (sources vs mechanisms), §11.3 (3-layer) | PREREQUISITE: gap types, 5P, ENGINE/ROAD/VEHICLE, source/mechanism architecture |
+| Entity-Valence-Dynamics v1.3 | §1, §4, §5 | CONTEXT: structural/current, Firing Modes, Hardware-Subsidy |
 | Gap-Distribution-Profile v1.0 | §3 (4 trục), §8 | SUPPLY: per-person gap landscape |
-| PFC-Operations v1.0 | §4 (Hold/Suppress) | MECHANISM: compiled/fresh, PFC budget |
+| PFC-Operations v1.2 | §4 (Hold/Suppress) | MECHANISM: compiled/fresh, PFC budget |
 | Simulation-Engine v1.0 | §1-§3 | MECHANISM: prediction engine |
 
 ### §18.4 — Application files
@@ -1557,10 +1724,16 @@ confidence: 🟢 Research support | 🟡 Framework synthesis | 🔴 Hypothesis
 |------|----------|-------------|
 | Love-Romantic v2.4 | §9-§11 | APPLICATION: limerence → bonding phases |
 | Empathy v3.0 | §4 (Valence-Momentary/Valence-Structural cost) | APPLICATION: empathy cost, burnout |
-| Body-Coupling v2.0 | §2 (depth × direction) | MECHANISM: coupling depth |
+| Body-Coupling v3.1 | §2 (depth × direction), §1.6 (entrainment Layer 0) | MECHANISM: coupling depth, entrainment substrate |
 | Background-Pattern v1.1 | §2 (2D model) | SOURCE: schema match first meeting |
 | Boredom v2.0 | §2 (6 sources) | CROSS-REF: "chán" sources |
 | Body-Feedback-Label v2.0 | — | VOCABULARY: 3-tier labels |
+
+### §18.5 — Drill source ★ v1.1
+
+| File | Sections | Relationship |
+|------|----------|-------------|
+| Drill-Agent-Feed-Channel v2.2 | §2 (3-layer), §3 (per-entity profile), §4 (trajectory) | SOURCE: entrainment + source weight + trajectory principle |
 
 ---
 
