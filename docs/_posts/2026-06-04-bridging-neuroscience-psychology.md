@@ -16,7 +16,7 @@ tags: [neuroscience, psychology, evolutionary-biology, cognitive-science, open-s
 
 This post presents:
 
-1. **A cross-domain framework** connecting neuroscience, psychology, and evolutionary biology into a single architecture — 200+ files, CC0 licensed
+1. **A cross-domain framework** connecting neuroscience, psychology, and evolutionary biology into a unified architecture — 200+ files, CC0 licensed
 2. **Eleven questions** with mechanistic answers — from why social media drains you to why limerence ends
 3. **Six mechanism sketches** with research citations — three expanded, three brief
 4. **One question cluster** — five seemingly unrelated experiences that trace to one architectural fact about the human body
