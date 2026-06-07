@@ -34,7 +34,7 @@
 **Why is step 4 necessary?** AI prioritizes the prompt over dropped files.  
 Without an explicit prompt → AI skims files → answers from mainstream knowledge → likely wrong
 at ~20 positions where this framework diverges from mainstream (dopamine, cortisol, willpower, ...).  
-An explicit "read these 8 files" prompt → AI fully loads mechanisms + danger zones.
+An explicit "read these 8 files" prompt → AI fully loads mechanisms + danger zones.  
 Start with "📖 Read: [files]" forces AI to declare files read before EVERY answer — not just the first time.
 
 **Example questions (from step 5):**
