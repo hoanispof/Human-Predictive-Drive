@@ -1,7 +1,7 @@
 # Human Predictive Drive
 
 > This framework bridges neuroscience, psychology, and evolutionary biology
-> into a unified conceptual architecture — from individual behavior to collective patterns.
+> into a conceptual architecture — from individual behavior to collective patterns.
 >
 > How does the body-brain system actually work?  
 > How do the people around you shape your behavior — without anyone planning it?  
@@ -238,11 +238,3 @@ Use, share, adapt freely. No permission needed. No credit required.
 **Built with:** Claude Opus 4.6 (1M context)
 
 ---
-
-## Keywords
-
-**Framework** · `predictive processing framework` · `unified theory of human behavior` · `body-brain interaction` · `behavioral neuroscience model`
-
-**Science** · `embodied cognition` · `interoception` · `incentive salience` · `affective neuroscience` · `developmental neuroscience` · `dopamine is not reward` · `somatic marker hypothesis` · `social cognition` · `prediction error` · `neuroscience of education` · `neuroscience of motivation` · `addiction mechanisms` · `emotional regulation` · `behavioral science`
-
-**Understanding** · `understanding human behavior` · `why we feel what we feel` · `body mind connection` · `self-understanding` · `how the brain works` · `child brain development` · `why knowing is not doing` · `emotional intelligence` · `brain-based parenting` · `human motivation`

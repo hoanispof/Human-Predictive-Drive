@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A concept bridging neuroscience and psychology into a connected model — estimating the direction of human drive"
+title: "11 Questions About Human Behavior — Mechanistic Answers from One Architecture"
 date: 2026-06-04
 author: Independent researcher
 license: CC0 1.0 Universal
@@ -16,7 +16,7 @@ tags: [neuroscience, psychology, evolutionary-biology, cognitive-science, open-s
 
 This post presents:
 
-1. **A cross-domain framework** connecting neuroscience, psychology, and evolutionary biology into a unified architecture — 200+ files, CC0 licensed
+1. **A cross-domain framework** connecting neuroscience, psychology, and evolutionary biology into an architecture — 200+ source files with explicit dependencies, open-source, CC0
 2. **Eleven questions** with mechanistic answers — from why social media drains you to why limerence ends
 3. **Six mechanism sketches** with research citations — three expanded, three brief
 4. **One question cluster** — five seemingly unrelated experiences that trace to one architectural fact about the human body
@@ -27,7 +27,9 @@ This post presents:
 
 ---
 
-I cross-referenced neuroscience, psychology, and evolutionary biology research and mapped the connections between the brain's core systems — from dopamine signaling to social behavior — into an open-source framework. 200+ files. Structured like a codebase: files per mechanism, explicit dependencies, confidence levels per claim, open questions tracked like issues.
+I cross-referenced neuroscience, psychology, and evolutionary biology research and mapped the connections between the brain's core systems into an open-source framework.
+From opioid-dopamine signaling, through body-level evaluation of threat, novelty, status, and connection, to collective behavior.
+200+ files, structured like a codebase: files per mechanism, explicit dependencies, confidence levels per claim, open questions tracked like issues.
 
 The framework takes one architectural position: the body evaluates first, the prefrontal cortex observes second. Most of what we call "behavior" runs on compiled body-level patterns — the conscious mind is more like a monitoring process than the main thread. This one premise, applied consistently, produces surprisingly specific answers to questions that normally get vague or circular explanations.
 
@@ -126,7 +128,7 @@ Humans add complexity: multiple status dimensions (professional, social, intelle
 
 ### Creative stress — the system working as designed
 
-Creativity = opening gaps in your model. Gap detected → cortisol mobilizes. This is the change-readiness amplifier, not damage. PFC Fresh processing costs real resources: glucose, working memory slots, sustained cortisol. The Inverted-U marks the boundary: enough cortisol to signal urgency, not enough to lock PFC into threat mode.
+Creativity = opening gaps in your model. Gap detected → cortisol mobilizes. This is the change-readiness amplifier, not damage. PFC fresh processing costs real resources: glucose, working memory slots, sustained cortisol. The Inverted-U marks the boundary: enough cortisol to signal urgency, not enough to lock PFC into threat mode.
 
 When does it harm? When the source shifts from creative approach to deadline panic — same molecule, different mobilization direction. Or when sustained without repair — the body shifts from mobilized to depleted. "Trying harder" past the Inverted-U peak produces *worse* performance, not better.
 
@@ -158,7 +160,7 @@ The five questions are five expressions of this one fact. The source files map t
 
 Think of it like a computer: the framework provides a circuit diagram (which brain structures do what) and a software architecture (how the cycle runs).
 
-**Scale:** 200+ analysis files, CC0 licensed. One author, iterated across 60+ sessions.
+**Scale:** 200+ source files with explicit dependencies, open-source, CC0.
 
 **Structure:** Each mechanism has its own file with explicit dependencies, confidence levels per claim (🟢 research-supported, 🟡 framework synthesis, 🔴 hypothesis), and tracked open questions.
 
@@ -189,6 +191,8 @@ The full list of ~20 positions with cited evidence: Ask-AI.md §3 in the reposit
 ## Honest limitations
 
 **I'm not a neuroscientist.** Background: game developer. Independent researcher, no institutional affiliation. Evaluate the evidence, not the credentials.
+
+**Built on personal observation and AI synthesis.** Cross-referenced against published research, with AI used for synthesis across disciplines. A method that can surface cross-disciplinary connections, but also carries risk of individual bias.
 
 **Hypothesis, not theory.** The individual findings are established science. The connections between them — the unified architecture — are proposed, not proven. That's what needs testing.
 

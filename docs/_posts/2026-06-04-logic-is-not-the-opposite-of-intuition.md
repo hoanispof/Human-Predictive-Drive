@@ -307,6 +307,6 @@ Related posts:
 - [Dopamine Signals Salience, Not Reward](https://hoanispof.github.io/Human-Predictive-Drive/blog/dopamine-signals-salience-not-reward/) — a 7-step mechanism + five preconditions for when pleasure actually fires
 - [Cortisol Is Not Your Stress Hormone](https://hoanispof.github.io/Human-Predictive-Drive/blog/cortisol-is-not-stress/) — the Source > Level principle + the Inverted-U
 - [ADHD Is Not Attention Deficit](https://hoanispof.github.io/Human-Predictive-Drive/blog/adhd-is-not-attention-deficit/) — one threshold, six paradoxes resolved
-- [Bridging Neuroscience and Psychology](https://hoanispof.github.io/Human-Predictive-Drive/blog/bridging-neuroscience-psychology/) — framework overview: 11 questions, 6 mechanism sketches
+- [Framework Overview](https://hoanispof.github.io/Human-Predictive-Drive/blog/framework-overview/) — the architecture at a glance + how to stress-test it
 
 This is a hypothesis inviting falsification. What would break it? We want to know.
