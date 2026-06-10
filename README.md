@@ -1,6 +1,6 @@
 # Human Predictive Drive
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20621866.svg)](https://doi.org/10.5281/zenodo.20621866)
+[![DOI](https://zenodo.org/badge/1175838287.svg)](https://doi.org/10.5281/zenodo.20621865)
 
 > This framework bridges neuroscience, psychology, and evolutionary biology
 > into a conceptual architecture — from individual behavior to collective patterns.
